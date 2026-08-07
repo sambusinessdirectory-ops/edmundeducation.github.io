@@ -11,7 +11,7 @@ const expectedIds = expectedLessonIds.flatMap((lessonId) => Array.from(
 const actualIds = Object.keys(ACCEPTED_ANSWERS);
 const failures = [];
 
-if (!expectedLessonIds.every((lessonId) => Number.isInteger(LESSON_QUESTION_COUNTS[lessonId]) && LESSON_QUESTION_COUNTS[lessonId] >= 1 && LESSON_QUESTION_COUNTS[lessonId] <= 99)) {
+if (!expectedLessonIds.every((lessonId) => Number.isInteger(LESSON_QUESTION_COUNTS[lessonId]) && LESSON_QUESTION_COUNTS[lessonId] >= 1 && LESSON_QUESTION_COUNTS[lessonId] <= 999)) {
   failures.push("lesson question-count metadata is incomplete or invalid");
 }
 if (actualIds.length !== expectedIds.length) {

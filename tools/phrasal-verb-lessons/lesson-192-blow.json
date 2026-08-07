@@ -1,0 +1,2461 @@
+{
+  "id": "phrasal-verb-192",
+  "order": 192,
+  "slug": "blow",
+  "version": "1",
+  "title": "BLOW 動詞片語",
+  "titleEn": "Blow",
+  "titleZh": "BLOW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 18,
+  "source": {
+    "file": "Phrasal Verbs 191 - BLOW.pdf",
+    "sourceNumber": 191,
+    "pageCount": 31,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BLOW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BLOW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BLOW",
+      "highlight": "BLOW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The wind blew the napkin away.",
+      "zh": "風把餐巾吹走了。",
+      "highlight": "blew the napkin away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A garden fence blew down overnight.",
+      "zh": "一道花園圍欄在夜間被風吹倒了。",
+      "highlight": "blew down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "An old friend blew in this morning.",
+      "zh": "一位老朋友今早突然到來。",
+      "highlight": "blew in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "被風吹走;把某物吹走；被風吹倒;把某物吹倒；突然到來;突然來到某處；風暴等自然減弱並停止；故意不做或不出席某事；被風吹掉;把某物從另一物上吹掉；輪胎爆裂；火焰熄滅;吹熄火焰；風暴或惡劣天氣過去；被風吹倒;把某人或某物吹倒；令某人大為驚嘆或留下深刻印象；對某人爽約;故意不理會某人；以大比數擊敗某人或某隊(主要見於美式體育英語)；開槍擊斃某人或射毀某物(非正式及暴力用語)；用爆炸物炸毀某人或某物；把空氣、煙或其他氣體呼出或吹出；為某物充氣；爆炸",
+    "en": "blow away; blow something away; blow down; blow something down; blow in; blow into something; blow itself out; blow off something; blow it off; blow off; blow something off; blow something off something; blow out; blow out; blow something out; blow over; blow over; blow somebody/something over; blow somebody away; blow somebody off; blow somebody out; blow somebody/something away; blow somebody/something up; blow something out; blow something up; blow up",
+    "naturalZh": [
+      "被風吹走;把某物吹走",
+      "被風吹倒;把某物吹倒",
+      "突然到來;突然來到某處",
+      "風暴等自然減弱並停止",
+      "故意不做或不出席某事",
+      "被風吹掉;把某物從另一物上吹掉",
+      "輪胎爆裂",
+      "火焰熄滅;吹熄火焰",
+      "風暴或惡劣天氣過去",
+      "被風吹倒;把某人或某物吹倒",
+      "令某人大為驚嘆或留下深刻印象",
+      "對某人爽約;故意不理會某人",
+      "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+      "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+      "用爆炸物炸毀某人或某物",
+      "把空氣、煙或其他氣體呼出或吹出",
+      "為某物充氣",
+      "爆炸"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "blow away; blow something away",
+      "titleZh": "被風吹走;把某物吹走",
+      "titleEn": "blow away; blow something away",
+      "descriptionZh": "被風吹走;把某物吹走",
+      "descriptionEn": "The wind blew the napkin away.",
+      "examples": [
+        {
+          "en": "The wind blew the napkin away.",
+          "zh": "風把餐巾吹走了。",
+          "highlight": "blew the napkin away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow down; blow something down",
+      "titleZh": "被風吹倒;把某物吹倒",
+      "titleEn": "blow down; blow something down",
+      "descriptionZh": "被風吹倒;把某物吹倒",
+      "descriptionEn": "A garden fence blew down overnight.",
+      "examples": [
+        {
+          "en": "A garden fence blew down overnight.",
+          "zh": "一道花園圍欄在夜間被風吹倒了。",
+          "highlight": "blew down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow in; blow into something",
+      "titleZh": "突然到來;突然來到某處",
+      "titleEn": "blow in; blow into something",
+      "descriptionZh": "突然到來;突然來到某處",
+      "descriptionEn": "An old friend blew in this morning.",
+      "examples": [
+        {
+          "en": "An old friend blew in this morning.",
+          "zh": "一位老朋友今早突然到來。",
+          "highlight": "blew in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow itself out",
+      "titleZh": "風暴等自然減弱並停止",
+      "titleEn": "blow itself out",
+      "descriptionZh": "風暴等自然減弱並停止",
+      "descriptionEn": "The storm finally blew itself out.",
+      "examples": [
+        {
+          "en": "The storm finally blew itself out.",
+          "zh": "風暴終於自然減弱並停止。",
+          "highlight": "blew itself out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow off something; blow it off",
+      "titleZh": "故意不做或不出席某事",
+      "titleEn": "blow off something; blow it off",
+      "descriptionZh": "故意不做或不出席某事",
+      "descriptionEn": "Jamie blew off the meeting.",
+      "examples": [
+        {
+          "en": "Jamie blew off the meeting.",
+          "zh": "占美故意沒有出席會議。",
+          "highlight": "blew off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow off; blow something off; blow something off something",
+      "titleZh": "被風吹掉;把某物從另一物上吹掉",
+      "titleEn": "blow off; blow something off; blow something off something",
+      "descriptionZh": "被風吹掉;把某物從另一物上吹掉",
+      "descriptionEn": "One of the papers blew off the desk.",
+      "examples": [
+        {
+          "en": "One of the papers blew off the desk.",
+          "zh": "其中一張紙被風吹離書桌。",
+          "highlight": "blew off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow out",
+      "titleZh": "輪胎爆裂",
+      "titleEn": "blow out",
+      "descriptionZh": "輪胎爆裂",
+      "descriptionEn": "A rear tyre blew out.",
+      "examples": [
+        {
+          "en": "A rear tyre blew out.",
+          "zh": "一個後輪胎爆裂了。",
+          "highlight": "blew out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow out; blow something out",
+      "titleZh": "火焰熄滅;吹熄火焰",
+      "titleEn": "blow out; blow something out",
+      "descriptionZh": "火焰熄滅;吹熄火焰",
+      "descriptionEn": "Please blow the candle out.",
+      "examples": [
+        {
+          "en": "Please blow the candle out.",
+          "zh": "請把蠟燭吹熄。",
+          "highlight": "blow the candle out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow over",
+      "titleZh": "風暴或惡劣天氣過去",
+      "titleEn": "blow over",
+      "descriptionZh": "風暴或惡劣天氣過去",
+      "descriptionEn": "The rainstorm soon blew over.",
+      "examples": [
+        {
+          "en": "The rainstorm soon blew over.",
+          "zh": "暴雨很快便過去了。",
+          "highlight": "blew over"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blow over; blow somebody/something over",
+      "titleZh": "被風吹倒;把某人或某物吹倒",
+      "titleEn": "blow over; blow somebody/something over",
+      "descriptionZh": "被風吹倒;把某人或某物吹倒",
+      "descriptionEn": "The wind blew the empty chair over.",
+      "examples": [
+        {
+          "en": "The wind blew the empty chair over.",
+          "zh": "風把空椅子吹倒了。",
+          "highlight": "blew the empty chair over"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow somebody away",
+      "titleZh": "令某人大為驚嘆或留下深刻印象",
+      "titleEn": "blow somebody away",
+      "descriptionZh": "令某人大為驚嘆或留下深刻印象",
+      "descriptionEn": "The magic show blew the children away.",
+      "examples": [
+        {
+          "en": "The magic show blew the children away.",
+          "zh": "魔術表演令孩子們大為驚嘆。",
+          "highlight": "blew the children away"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow somebody off",
+      "titleZh": "對某人爽約;故意不理會某人",
+      "titleEn": "blow somebody off",
+      "descriptionZh": "對某人爽約;故意不理會某人",
+      "descriptionEn": "Tom blew me off at lunchtime.",
+      "examples": [
+        {
+          "en": "Tom blew me off at lunchtime.",
+          "zh": "湯姆在午飯時間對我爽約。",
+          "highlight": "blew me off"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow somebody out",
+      "titleZh": "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+      "titleEn": "blow somebody out",
+      "descriptionZh": "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+      "descriptionEn": "The Bears blew out the Wolves by twenty points.",
+      "examples": [
+        {
+          "en": "The Bears blew out the Wolves by twenty points.",
+          "zh": "熊隊以二十分之差大勝狼隊。",
+          "highlight": "blew out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow somebody/something away",
+      "titleZh": "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+      "titleEn": "blow somebody/something away",
+      "descriptionZh": "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+      "descriptionEn": "In the film, the gunman threatened to blow the hero away.",
+      "examples": [
+        {
+          "en": "In the film, the gunman threatened to blow the hero away.",
+          "zh": "在電影中,槍手威脅要開槍擊斃主角。",
+          "highlight": "blow the hero away"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow somebody/something up",
+      "titleZh": "用爆炸物炸毀某人或某物",
+      "titleEn": "blow somebody/something up",
+      "descriptionZh": "用爆炸物炸毀某人或某物",
+      "descriptionEn": "The workers blew the old shed up.",
+      "examples": [
+        {
+          "en": "The workers blew the old shed up.",
+          "zh": "工人把舊小屋炸毀了。",
+          "highlight": "blew the old shed up"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow something out",
+      "titleZh": "把空氣、煙或其他氣體呼出或吹出",
+      "titleEn": "blow something out",
+      "descriptionZh": "把空氣、煙或其他氣體呼出或吹出",
+      "descriptionEn": "She blew the air out slowly.",
+      "examples": [
+        {
+          "en": "She blew the air out slowly.",
+          "zh": "她慢慢把空氣吹出。",
+          "highlight": "blew the air out"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow something up",
+      "titleZh": "為某物充氣",
+      "titleEn": "blow something up",
+      "descriptionZh": "為某物充氣",
+      "descriptionEn": "Dad blew up the paddling pool.",
+      "examples": [
+        {
+          "en": "Dad blew up the paddling pool.",
+          "zh": "爸爸把充氣水池吹脹了。",
+          "highlight": "blew up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blow up",
+      "titleZh": "爆炸",
+      "titleEn": "blow up",
+      "descriptionZh": "爆炸",
+      "descriptionEn": "The small gas tank blew up.",
+      "examples": [
+        {
+          "en": "The small gas tank blew up.",
+          "zh": "小型氣缸爆炸了。",
+          "highlight": "blew up"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BLOW 片語動詞的實際用途",
+    "labelEn": "BLOW Phrasal Verbs in Use",
+    "summaryZh": "BLOW 片語動詞可以表示風吹走物件、吹倒樹木、吹掉東西,或表示風暴已經過去。；你可以用 BLOW 片語動詞表示把球吹脹、把空氣或煙吹出、吹熄火焰,或描述輪胎爆裂。；blow somebody away 可以表示非常驚訝或欣賞;在主要為美式的體育英語中,blow somebodyout 可以表示以大比數取勝。；BLOW 片語動詞也可以表示故意不出席、故意不理會某人、突然到來或爆炸。你需要按情境判斷意思。",
+    "summaryEn": "BLOW expressions can show that wind carries something away, knocks a tree down or removes an object, and that a storm has passed. You can use BLOW expressions to inflate a ball, force air or smoke out, extinguish a flame or describe a tyre bursting. Blow somebody away can show great surprise or admiration. In mainly American sports English, blow somebody out can describe a very large win. BLOW expressions can also describe skipping an event, ignoring someone, arriving unexpectedly or an explosion. The situation tells you which meaning is intended.",
+    "contextsZh": [
+      "使用 BLOW 描述風和天氣",
+      "清楚談論空氣、火焰和輪胎",
+      "描述強烈反應和體育賽果",
+      "理解非正式及戲劇性的意思"
+    ],
+    "contextsEn": [
+      "Use BLOW to describe wind and weather",
+      "Talk clearly about air, flames and tyres",
+      "Describe powerful reactions and sports results",
+      "Understand informal and dramatic meanings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BLOW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BLOW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "blow away; blow something away",
+    "fixedHighlight": "blow away; blow something away",
+    "fixedZh": "閱讀整句,選出意思相同的 BLOW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BLOW expression that gives the same meaning.",
+    "correct": "blew the napkin away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；同一個 BLOW 片語動詞可以有很不同的意思,請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: blow it up, blow him away, blow her off, blow them out. The same BLOW expression may have very different meanings. Read the full situation carefully.",
+    "variableItemsZh": [
+      "blow away; blow something away",
+      "blow down; blow something down",
+      "blow in; blow into something",
+      "blow itself out",
+      "blow off something; blow it off",
+      "blow off; blow something off; blow something off something",
+      "blow out",
+      "blow out; blow something out",
+      "blow over",
+      "blow over; blow somebody/something over",
+      "blow somebody away",
+      "blow somebody off",
+      "blow somebody out",
+      "blow somebody/something away",
+      "blow somebody/something up",
+      "blow something out",
+      "blow something up",
+      "blow up"
+    ],
+    "variableItemsEn": [
+      "blow away; blow something away",
+      "blow down; blow something down",
+      "blow in; blow into something",
+      "blow itself out",
+      "blow off something; blow it off",
+      "blow off; blow something off; blow something off something",
+      "blow out",
+      "blow out; blow something out",
+      "blow over",
+      "blow over; blow somebody/something over",
+      "blow somebody away",
+      "blow somebody off",
+      "blow somebody out",
+      "blow somebody/something away",
+      "blow somebody/something up",
+      "blow something out",
+      "blow something up",
+      "blow up"
+    ],
+    "forms": [
+      {
+        "formZh": "被風吹走;把某物吹走",
+        "formEn": "blow away; blow something away",
+        "exampleZh": "風把餐巾吹走了。",
+        "exampleEn": "The wind blew the napkin away.",
+        "highlight": "blew the napkin away"
+      },
+      {
+        "formZh": "被風吹倒;把某物吹倒",
+        "formEn": "blow down; blow something down",
+        "exampleZh": "一道花園圍欄在夜間被風吹倒了。",
+        "exampleEn": "A garden fence blew down overnight.",
+        "highlight": "blew down"
+      },
+      {
+        "formZh": "突然到來;突然來到某處",
+        "formEn": "blow in; blow into something",
+        "exampleZh": "一位老朋友今早突然到來。",
+        "exampleEn": "An old friend blew in this morning.",
+        "highlight": "blew in"
+      },
+      {
+        "formZh": "風暴等自然減弱並停止",
+        "formEn": "blow itself out",
+        "exampleZh": "風暴終於自然減弱並停止。",
+        "exampleEn": "The storm finally blew itself out.",
+        "highlight": "blew itself out"
+      },
+      {
+        "formZh": "故意不做或不出席某事",
+        "formEn": "blow off something; blow it off",
+        "exampleZh": "占美故意沒有出席會議。",
+        "exampleEn": "Jamie blew off the meeting.",
+        "highlight": "blew off"
+      },
+      {
+        "formZh": "被風吹掉;把某物從另一物上吹掉",
+        "formEn": "blow off; blow something off; blow something off something",
+        "exampleZh": "其中一張紙被風吹離書桌。",
+        "exampleEn": "One of the papers blew off the desk.",
+        "highlight": "blew off"
+      },
+      {
+        "formZh": "輪胎爆裂",
+        "formEn": "blow out",
+        "exampleZh": "一個後輪胎爆裂了。",
+        "exampleEn": "A rear tyre blew out.",
+        "highlight": "blew out"
+      },
+      {
+        "formZh": "火焰熄滅;吹熄火焰",
+        "formEn": "blow out; blow something out",
+        "exampleZh": "請把蠟燭吹熄。",
+        "exampleEn": "Please blow the candle out.",
+        "highlight": "blow the candle out"
+      },
+      {
+        "formZh": "風暴或惡劣天氣過去",
+        "formEn": "blow over",
+        "exampleZh": "暴雨很快便過去了。",
+        "exampleEn": "The rainstorm soon blew over.",
+        "highlight": "blew over"
+      },
+      {
+        "formZh": "被風吹倒;把某人或某物吹倒",
+        "formEn": "blow over; blow somebody/something over",
+        "exampleZh": "風把空椅子吹倒了。",
+        "exampleEn": "The wind blew the empty chair over.",
+        "highlight": "blew the empty chair over"
+      },
+      {
+        "formZh": "令某人大為驚嘆或留下深刻印象",
+        "formEn": "blow somebody away",
+        "exampleZh": "魔術表演令孩子們大為驚嘆。",
+        "exampleEn": "The magic show blew the children away.",
+        "highlight": "blew the children away"
+      },
+      {
+        "formZh": "對某人爽約;故意不理會某人",
+        "formEn": "blow somebody off",
+        "exampleZh": "湯姆在午飯時間對我爽約。",
+        "exampleEn": "Tom blew me off at lunchtime.",
+        "highlight": "blew me off"
+      },
+      {
+        "formZh": "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+        "formEn": "blow somebody out",
+        "exampleZh": "熊隊以二十分之差大勝狼隊。",
+        "exampleEn": "The Bears blew out the Wolves by twenty points.",
+        "highlight": "blew out"
+      },
+      {
+        "formZh": "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+        "formEn": "blow somebody/something away",
+        "exampleZh": "在電影中,槍手威脅要開槍擊斃主角。",
+        "exampleEn": "In the film, the gunman threatened to blow the hero away.",
+        "highlight": "blow the hero away"
+      },
+      {
+        "formZh": "用爆炸物炸毀某人或某物",
+        "formEn": "blow somebody/something up",
+        "exampleZh": "工人把舊小屋炸毀了。",
+        "exampleEn": "The workers blew the old shed up.",
+        "highlight": "blew the old shed up"
+      },
+      {
+        "formZh": "把空氣、煙或其他氣體呼出或吹出",
+        "formEn": "blow something out",
+        "exampleZh": "她慢慢把空氣吹出。",
+        "exampleEn": "She blew the air out slowly.",
+        "highlight": "blew the air out"
+      },
+      {
+        "formZh": "為某物充氣",
+        "formEn": "blow something up",
+        "exampleZh": "爸爸把充氣水池吹脹了。",
+        "exampleEn": "Dad blew up the paddling pool.",
+        "highlight": "blew up"
+      },
+      {
+        "formZh": "爆炸",
+        "formEn": "blow up",
+        "exampleZh": "小型氣缸爆炸了。",
+        "exampleEn": "The small gas tank blew up.",
+        "highlight": "blew up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "被風吹走;把某物吹走",
+      "titleEn": "blow away; blow something away",
+      "formula": "blow away; blow something away",
+      "highlight": "blow away; blow something away",
+      "descriptionZh": "被風吹走;把某物吹走",
+      "descriptionEn": "The wind blew the napkin away.",
+      "examples": [
+        {
+          "en": "The wind blew the napkin away.",
+          "zh": "風把餐巾吹走了。",
+          "highlight": "blew the napkin away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "被風吹倒;把某物吹倒",
+      "titleEn": "blow down; blow something down",
+      "formula": "blow down; blow something down",
+      "highlight": "blow down; blow something down",
+      "descriptionZh": "被風吹倒;把某物吹倒",
+      "descriptionEn": "A garden fence blew down overnight.",
+      "examples": [
+        {
+          "en": "A garden fence blew down overnight.",
+          "zh": "一道花園圍欄在夜間被風吹倒了。",
+          "highlight": "blew down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然到來;突然來到某處",
+      "titleEn": "blow in; blow into something",
+      "formula": "blow in; blow into something",
+      "highlight": "blow in; blow into something",
+      "descriptionZh": "突然到來;突然來到某處",
+      "descriptionEn": "An old friend blew in this morning.",
+      "examples": [
+        {
+          "en": "An old friend blew in this morning.",
+          "zh": "一位老朋友今早突然到來。",
+          "highlight": "blew in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "風暴等自然減弱並停止",
+      "titleEn": "blow itself out",
+      "formula": "blow itself out",
+      "highlight": "blow itself out",
+      "descriptionZh": "風暴等自然減弱並停止",
+      "descriptionEn": "The storm finally blew itself out.",
+      "examples": [
+        {
+          "en": "The storm finally blew itself out.",
+          "zh": "風暴終於自然減弱並停止。",
+          "highlight": "blew itself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "故意不做或不出席某事",
+      "titleEn": "blow off something; blow it off",
+      "formula": "blow off something; blow it off",
+      "highlight": "blow off something; blow it off",
+      "descriptionZh": "故意不做或不出席某事",
+      "descriptionEn": "Jamie blew off the meeting.",
+      "examples": [
+        {
+          "en": "Jamie blew off the meeting.",
+          "zh": "占美故意沒有出席會議。",
+          "highlight": "blew off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "被風吹掉;把某物從另一物上吹掉",
+      "titleEn": "blow off; blow something off; blow something off something",
+      "formula": "blow off; blow something off; blow something off something",
+      "highlight": "blow off; blow something off; blow something off something",
+      "descriptionZh": "被風吹掉;把某物從另一物上吹掉",
+      "descriptionEn": "One of the papers blew off the desk.",
+      "examples": [
+        {
+          "en": "One of the papers blew off the desk.",
+          "zh": "其中一張紙被風吹離書桌。",
+          "highlight": "blew off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "輪胎爆裂",
+      "titleEn": "blow out",
+      "formula": "blow out",
+      "highlight": "blow out",
+      "descriptionZh": "輪胎爆裂",
+      "descriptionEn": "A rear tyre blew out.",
+      "examples": [
+        {
+          "en": "A rear tyre blew out.",
+          "zh": "一個後輪胎爆裂了。",
+          "highlight": "blew out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "火焰熄滅;吹熄火焰",
+      "titleEn": "blow out; blow something out",
+      "formula": "blow out; blow something out",
+      "highlight": "blow out; blow something out",
+      "descriptionZh": "火焰熄滅;吹熄火焰",
+      "descriptionEn": "Please blow the candle out.",
+      "examples": [
+        {
+          "en": "Please blow the candle out.",
+          "zh": "請把蠟燭吹熄。",
+          "highlight": "blow the candle out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "風暴或惡劣天氣過去",
+      "titleEn": "blow over",
+      "formula": "blow over",
+      "highlight": "blow over",
+      "descriptionZh": "風暴或惡劣天氣過去",
+      "descriptionEn": "The rainstorm soon blew over.",
+      "examples": [
+        {
+          "en": "The rainstorm soon blew over.",
+          "zh": "暴雨很快便過去了。",
+          "highlight": "blew over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "被風吹倒;把某人或某物吹倒",
+      "titleEn": "blow over; blow somebody/something over",
+      "formula": "blow over; blow somebody/something over",
+      "highlight": "blow over; blow somebody/something over",
+      "descriptionZh": "被風吹倒;把某人或某物吹倒",
+      "descriptionEn": "The wind blew the empty chair over.",
+      "examples": [
+        {
+          "en": "The wind blew the empty chair over.",
+          "zh": "風把空椅子吹倒了。",
+          "highlight": "blew the empty chair over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "令某人大為驚嘆或留下深刻印象",
+      "titleEn": "blow somebody away",
+      "formula": "blow somebody away",
+      "highlight": "blow somebody away",
+      "descriptionZh": "令某人大為驚嘆或留下深刻印象",
+      "descriptionEn": "The magic show blew the children away.",
+      "examples": [
+        {
+          "en": "The magic show blew the children away.",
+          "zh": "魔術表演令孩子們大為驚嘆。",
+          "highlight": "blew the children away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "對某人爽約;故意不理會某人",
+      "titleEn": "blow somebody off",
+      "formula": "blow somebody off",
+      "highlight": "blow somebody off",
+      "descriptionZh": "對某人爽約;故意不理會某人",
+      "descriptionEn": "Tom blew me off at lunchtime.",
+      "examples": [
+        {
+          "en": "Tom blew me off at lunchtime.",
+          "zh": "湯姆在午飯時間對我爽約。",
+          "highlight": "blew me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+      "titleEn": "blow somebody out",
+      "formula": "blow somebody out",
+      "highlight": "blow somebody out",
+      "descriptionZh": "以大比數擊敗某人或某隊(主要見於美式體育英語)",
+      "descriptionEn": "The Bears blew out the Wolves by twenty points.",
+      "examples": [
+        {
+          "en": "The Bears blew out the Wolves by twenty points.",
+          "zh": "熊隊以二十分之差大勝狼隊。",
+          "highlight": "blew out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+      "titleEn": "blow somebody/something away",
+      "formula": "blow somebody/something away",
+      "highlight": "blow somebody/something away",
+      "descriptionZh": "開槍擊斃某人或射毀某物(非正式及暴力用語)",
+      "descriptionEn": "In the film, the gunman threatened to blow the hero away.",
+      "examples": [
+        {
+          "en": "In the film, the gunman threatened to blow the hero away.",
+          "zh": "在電影中,槍手威脅要開槍擊斃主角。",
+          "highlight": "blow the hero away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "用爆炸物炸毀某人或某物",
+      "titleEn": "blow somebody/something up",
+      "formula": "blow somebody/something up",
+      "highlight": "blow somebody/something up",
+      "descriptionZh": "用爆炸物炸毀某人或某物",
+      "descriptionEn": "The workers blew the old shed up.",
+      "examples": [
+        {
+          "en": "The workers blew the old shed up.",
+          "zh": "工人把舊小屋炸毀了。",
+          "highlight": "blew the old shed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把空氣、煙或其他氣體呼出或吹出",
+      "titleEn": "blow something out",
+      "formula": "blow something out",
+      "highlight": "blow something out",
+      "descriptionZh": "把空氣、煙或其他氣體呼出或吹出",
+      "descriptionEn": "She blew the air out slowly.",
+      "examples": [
+        {
+          "en": "She blew the air out slowly.",
+          "zh": "她慢慢把空氣吹出。",
+          "highlight": "blew the air out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "為某物充氣",
+      "titleEn": "blow something up",
+      "formula": "blow something up",
+      "highlight": "blow something up",
+      "descriptionZh": "為某物充氣",
+      "descriptionEn": "Dad blew up the paddling pool.",
+      "examples": [
+        {
+          "en": "Dad blew up the paddling pool.",
+          "zh": "爸爸把充氣水池吹脹了。",
+          "highlight": "blew up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "爆炸",
+      "titleEn": "blow up",
+      "formula": "blow up",
+      "highlight": "blow up",
+      "descriptionZh": "爆炸",
+      "descriptionEn": "The small gas tank blew up.",
+      "examples": [
+        {
+          "en": "The small gas tank blew up.",
+          "zh": "小型氣缸爆炸了。",
+          "highlight": "blew up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 BLOW 描述風和天氣",
+      "titleEn": "Use BLOW to describe wind and weather",
+      "zh": "BLOW 片語動詞可以表示風吹走物件、吹倒樹木、吹掉東西,或表示風暴已經過去。",
+      "en": "BLOW expressions can show that wind carries something away, knocks a tree down or removes an object, and that a storm has passed."
+    },
+    {
+      "titleZh": "清楚談論空氣、火焰和輪胎",
+      "titleEn": "Talk clearly about air, flames and tyres",
+      "zh": "你可以用 BLOW 片語動詞表示把球吹脹、把空氣或煙吹出、吹熄火焰,或描述輪胎爆裂。",
+      "en": "You can use BLOW expressions to inflate a ball, force air or smoke out, extinguish a flame or describe a tyre bursting."
+    },
+    {
+      "titleZh": "描述強烈反應和體育賽果",
+      "titleEn": "Describe powerful reactions and sports results",
+      "zh": "blow somebody away 可以表示非常驚訝或欣賞;在主要為美式的體育英語中,blow somebodyout 可以表示以大比數取勝。",
+      "en": "Blow somebody away can show great surprise or admiration. In mainly American sports English, blow somebody out can describe a very large win."
+    },
+    {
+      "titleZh": "理解非正式及戲劇性的意思",
+      "titleEn": "Understand informal and dramatic meanings",
+      "zh": "BLOW 片語動詞也可以表示故意不出席、故意不理會某人、突然到來或爆炸。你需要按情境判斷意思。",
+      "en": "BLOW expressions can also describe skipping an event, ignoring someone, arriving unexpectedly or an explosion. The situation tells you which meaning is intended."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 BLOW 描述風和天氣",
+      "清楚談論空氣、火焰和輪胎",
+      "描述強烈反應和體育賽果",
+      "理解非正式及戲劇性的意思"
+    ],
+    "contextsEn": [
+      "Use BLOW to describe wind and weather",
+      "Talk clearly about air, flames and tyres",
+      "Describe powerful reactions and sports results",
+      "Understand informal and dramatic meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 BLOW 描述風和天氣",
+        "titleEn": "Use BLOW to describe wind and weather",
+        "zh": "BLOW 片語動詞可以表示風吹走物件、吹倒樹木、吹掉東西,或表示風暴已經過去。",
+        "en": "BLOW expressions can show that wind carries something away, knocks a tree down or removes an object, and that a storm has passed.",
+        "examples": [
+          {
+            "en": "The wind blew the napkin away.",
+            "zh": "風把餐巾吹走了。",
+            "highlight": "blew the napkin away"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論空氣、火焰和輪胎",
+        "titleEn": "Talk clearly about air, flames and tyres",
+        "zh": "你可以用 BLOW 片語動詞表示把球吹脹、把空氣或煙吹出、吹熄火焰,或描述輪胎爆裂。",
+        "en": "You can use BLOW expressions to inflate a ball, force air or smoke out, extinguish a flame or describe a tyre bursting.",
+        "examples": [
+          {
+            "en": "A garden fence blew down overnight.",
+            "zh": "一道花園圍欄在夜間被風吹倒了。",
+            "highlight": "blew down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述強烈反應和體育賽果",
+        "titleEn": "Describe powerful reactions and sports results",
+        "zh": "blow somebody away 可以表示非常驚訝或欣賞;在主要為美式的體育英語中,blow somebodyout 可以表示以大比數取勝。",
+        "en": "Blow somebody away can show great surprise or admiration. In mainly American sports English, blow somebody out can describe a very large win.",
+        "examples": [
+          {
+            "en": "An old friend blew in this morning.",
+            "zh": "一位老朋友今早突然到來。",
+            "highlight": "blew in"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解非正式及戲劇性的意思",
+        "titleEn": "Understand informal and dramatic meanings",
+        "zh": "BLOW 片語動詞也可以表示故意不出席、故意不理會某人、突然到來或爆炸。你需要按情境判斷意思。",
+        "en": "BLOW expressions can also describe skipping an event, ignoring someone, arriving unexpectedly or an explosion. The situation tells you which meaning is intended.",
+        "examples": [
+          {
+            "en": "The storm finally blew itself out.",
+            "zh": "風暴終於自然減弱並停止。",
+            "highlight": "blew itself out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BLOW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BLOW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BLOW 片語動詞。",
+      "en": "Read the whole sentence and choose the BLOW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: blow it up, blow him away, blow her off, blow them out.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: blow it up, blow him away, blow her off, blow them out."
+    },
+    {
+      "titleZh": "同一個 BLOW 片語動詞可以有很不同的意思,請仔細閱讀整個情境。",
+      "titleEn": "The same BLOW expression may have very different meanings.",
+      "zh": "同一個 BLOW 片語動詞可以有很不同的意思,請仔細閱讀整個情境。",
+      "en": "The same BLOW expression may have very different meanings. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BLOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BLOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BLOW 動詞片語句子改寫練習",
+    "titleEn": "BLOW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BLOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BLOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          18
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          19,
+          36
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          37,
+          54
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          55,
+          72
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          73,
+          90
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-192-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "A sudden gust made the candle go out.",
+      "promptZh": "一陣突然吹來的風令蠟燭熄滅了。",
+      "starter": "The",
+      "answer": "The candle blew out in a sudden gust.",
+      "answerZh": "蠟燭在一陣突然吹來的風中熄滅了。",
+      "highlight": "The candle blew out in",
+      "targetForm": "blow out; blow something out",
+      "targetMeaningZh": "火焰熄滅;吹熄火焰"
+    },
+    {
+      "id": "phrasal-verb-192-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "Look who has just arrived without warning!",
+      "promptZh": "看看誰剛剛突然來到!",
+      "starter": "Look",
+      "answer": "Look who has just blown in!",
+      "answerZh": "看看誰剛剛突然來到!",
+      "highlight": "blown in",
+      "targetForm": "blow in; blow into something",
+      "targetMeaningZh": "突然到來;突然來到某處"
+    },
+    {
+      "id": "phrasal-verb-192-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "The singer's final note amazed the audience completely.",
+      "promptZh": "歌手最後的一個音令觀眾大為驚嘆。",
+      "starter": "The",
+      "answer": "The singer's final note blew the audience away.",
+      "answerZh": "歌手最後的一個音令觀眾大為驚嘆。",
+      "highlight": "blew",
+      "targetForm": "blow somebody away",
+      "targetMeaningZh": "令某人大為驚嘆或留下深刻印象"
+    },
+    {
+      "id": "phrasal-verb-192-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "We filled twenty balloons with air for the party.",
+      "promptZh": "我們為派對把二十個氣球吹脹了。",
+      "starter": "We",
+      "answer": "We blew up twenty balloons for the party.",
+      "answerZh": "我們為派對把二十個氣球吹脹了。",
+      "highlight": "blew up",
+      "targetForm": "blow something up",
+      "targetMeaningZh": "為某物充氣"
+    },
+    {
+      "id": "phrasal-verb-192-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "An old tree fell near the road during the storm.",
+      "promptZh": "風暴期間,一棵老樹倒在路旁。",
+      "starter": "An",
+      "answer": "An old tree blew down near the road during the storm.",
+      "answerZh": "風暴期間,一棵老樹被風吹倒在路旁。",
+      "highlight": "blew down",
+      "targetForm": "blow down; blow something down",
+      "targetMeaningZh": "被風吹倒;把某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Noah skipped football practice on Friday.",
+      "promptZh": "諾亞星期五沒有參加足球練習。",
+      "starter": "Noah",
+      "answer": "Noah blew off football practice on Friday.",
+      "answerZh": "諾亞星期五故意沒有參加足球練習。",
+      "highlight": "blew off",
+      "targetForm": "blow off something; blow it off",
+      "targetMeaningZh": "故意不做或不出席某事"
+    },
+    {
+      "id": "phrasal-verb-192-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "She forced the smoke out through the open window.",
+      "promptZh": "她把煙從打開的窗戶吹出去。",
+      "starter": "She",
+      "answer": "She blew the smoke out through the open window.",
+      "answerZh": "她把煙從打開的窗戶吹出去。",
+      "highlight": "blew",
+      "targetForm": "blow something out",
+      "targetMeaningZh": "把空氣、煙或其他氣體呼出或吹出"
+    },
+    {
+      "id": "phrasal-verb-192-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The storm passed before lunch.",
+      "promptZh": "風暴在午飯前過去了。",
+      "starter": "The",
+      "answer": "The storm blew over before lunch.",
+      "answerZh": "風暴在午飯前過去了。",
+      "highlight": "blew over",
+      "targetForm": "blow over",
+      "targetMeaningZh": "風暴或惡劣天氣過去"
+    },
+    {
+      "id": "phrasal-verb-192-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The Lions defeated the Tigers by twenty points.",
+      "promptZh": "獅隊以二十分之差擊敗虎隊。",
+      "starter": "The",
+      "answer": "The Lions blew out the Tigers by twenty points.",
+      "answerZh": "獅隊以二十分之差大勝虎隊。",
+      "highlight": "blew out",
+      "targetForm": "blow somebody out",
+      "targetMeaningZh": "以大比數擊敗某人或某隊〔主要見於美式體育英語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The wind made my cap fall from my head.",
+      "promptZh": "風把我頭上的帽子吹掉了。",
+      "starter": "My",
+      "answer": "My cap blew off in the wind.",
+      "answerZh": "我的帽子被風吹掉了。",
+      "highlight": "My cap blew off in",
+      "targetForm": "blow off; blow something off; blow something off something",
+      "targetMeaningZh": "被風吹掉;把某物從另一物上吹掉"
+    },
+    {
+      "id": "phrasal-verb-192-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The firework exploded in the garden.",
+      "promptZh": "煙花在花園裏爆炸了。",
+      "starter": "The",
+      "answer": "The firework blew up in the garden.",
+      "answerZh": "煙花在花園裏爆炸了。",
+      "highlight": "blew up",
+      "targetForm": "blow up",
+      "targetMeaningZh": "爆炸"
+    },
+    {
+      "id": "phrasal-verb-192-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The strong wind carried the paper completely away.",
+      "promptZh": "強風吹走了那張紙。",
+      "starter": "The",
+      "answer": "The strong wind blew the paper away.",
+      "answerZh": "強風吹走了那張紙。",
+      "highlight": "blew",
+      "targetForm": "blow away; blow something away",
+      "targetMeaningZh": "被風吹走;把某物吹走"
+    },
+    {
+      "id": "phrasal-verb-192-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Ella failed to meet Ben after agreeing to see him.",
+      "promptZh": "埃拉答應與賓見面後卻沒有出現。",
+      "starter": "Ella",
+      "answer": "Ella blew Ben off after agreeing to meet him.",
+      "answerZh": "埃拉答應與賓見面後卻對他爽約。",
+      "highlight": "blew",
+      "targetForm": "blow somebody off",
+      "targetMeaningZh": "對某人爽約;故意不理會某人"
+    },
+    {
+      "id": "phrasal-verb-192-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "One of the car's tyres burst on the motorway.",
+      "promptZh": "汽車其中一個輪胎在高速公路上爆裂了。",
+      "starter": "One",
+      "answer": "One of the car's tyres blew out on the motorway.",
+      "answerZh": "汽車其中一個輪胎在高速公路上爆裂了。",
+      "highlight": "blew out",
+      "targetForm": "blow out",
+      "targetMeaningZh": "輪胎爆裂"
+    },
+    {
+      "id": "phrasal-verb-192-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "By morning, the storm had naturally lost all its strength.",
+      "promptZh": "到了早上,風暴已自然失去所有力量。",
+      "starter": "By",
+      "answer": "By morning, the storm had blown itself out.",
+      "answerZh": "到了早上,風暴已自然減弱並停止。",
+      "highlight": "blown itself out",
+      "targetForm": "blow itself out",
+      "targetMeaningZh": "風暴等自然減弱並停止"
+    },
+    {
+      "id": "phrasal-verb-192-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "A sudden gust made the sign fall onto its side.",
+      "promptZh": "一陣突然吹來的風令路牌倒在一旁。",
+      "starter": "The",
+      "answer": "The sign blew over in a sudden gust.",
+      "answerZh": "路牌被一陣突然吹來的風吹倒了。",
+      "highlight": "The sign blew over in",
+      "targetForm": "blow over; blow somebody/something over",
+      "targetMeaningZh": "被風吹倒;把某人或某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The workers destroyed the unsafe wall with explosives.",
+      "promptZh": "工人用爆炸物炸毀了那道不安全的牆。",
+      "starter": "The",
+      "answer": "The workers blew the unsafe wall up.",
+      "answerZh": "工人用爆炸物炸毀了那道不安全的牆。",
+      "highlight": "blew",
+      "targetForm": "blow somebody/something up",
+      "targetMeaningZh": "用爆炸物炸毀某人或某物"
+    },
+    {
+      "id": "phrasal-verb-192-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "In the film, the robber threatened to shoot the guard dead.",
+      "promptZh": "在電影中,劫匪威脅要開槍擊斃警衞。",
+      "starter": "In",
+      "answer": "In the film, the robber threatened to blow the guard away.",
+      "answerZh": "在電影中,劫匪威脅要開槍擊斃警衞。",
+      "highlight": "blow",
+      "targetForm": "blow somebody/something away",
+      "targetMeaningZh": "開槍擊斃某人或射毀某物〔非正式及暴力用語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The wind is carrying the leaves completely away from the path.",
+      "promptZh": "風正把樹葉從小路上完全吹走。",
+      "starter": "The",
+      "answer": "The wind is blowing the leaves away from the path.",
+      "answerZh": "風正把樹葉從小路上吹走。",
+      "highlight": "blowing",
+      "targetForm": "blow away; blow something away",
+      "targetMeaningZh": "被風吹走;把某物吹走"
+    },
+    {
+      "id": "phrasal-verb-192-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Why did Aaron ignore you after making plans with you?",
+      "promptZh": "亞倫與你約好後,為何故意不理會你?",
+      "starter": "Why",
+      "answer": "Why did Aaron blow you off after making plans with you?",
+      "answerZh": "亞倫與你約好後,為何對你爽約?",
+      "highlight": "blow",
+      "targetForm": "blow somebody off",
+      "targetMeaningZh": "對某人爽約;故意不理會某人"
+    },
+    {
+      "id": "phrasal-verb-192-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Two tyres have burst since the race began.",
+      "promptZh": "比賽開始後已有兩個輪胎爆裂。",
+      "starter": "Two",
+      "answer": "Two tyres have blown out since the race began.",
+      "answerZh": "比賽開始後已有兩個輪胎爆裂。",
+      "highlight": "blown out",
+      "targetForm": "blow out",
+      "targetMeaningZh": "輪胎爆裂"
+    },
+    {
+      "id": "phrasal-verb-192-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The storm is slowly losing all its strength by itself.",
+      "promptZh": "風暴正自行慢慢減弱。",
+      "starter": "The",
+      "answer": "The storm is slowly blowing itself out.",
+      "answerZh": "風暴正自行慢慢減弱並停止。",
+      "highlight": "blowing",
+      "targetForm": "blow itself out",
+      "targetMeaningZh": "風暴等自然減弱並停止"
+    },
+    {
+      "id": "phrasal-verb-192-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Could you fill this beach ball with air for me?",
+      "promptZh": "你可以替我把這個沙灘球吹脹嗎?",
+      "starter": "Could",
+      "answer": "Could you blow this beach ball up for me?",
+      "answerZh": "你可以替我把這個沙灘球吹脹嗎?",
+      "highlight": "blow",
+      "targetForm": "blow something up",
+      "targetMeaningZh": "為某物充氣"
+    },
+    {
+      "id": "phrasal-verb-192-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The storm may pass by this evening.",
+      "promptZh": "風暴可能會在今晚前過去。",
+      "starter": "The",
+      "answer": "The storm may blow over by this evening.",
+      "answerZh": "風暴可能會在今晚前過去。",
+      "highlight": "blow over",
+      "targetForm": "blow over",
+      "targetMeaningZh": "風暴或惡劣天氣過去"
+    },
+    {
+      "id": "phrasal-verb-192-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "They will destroy the old bridge with explosives after everyone leaves.",
+      "promptZh": "所有人離開後,他們會用爆炸物炸毀舊橋。",
+      "starter": "They",
+      "answer": "They will blow the old bridge up after everyone leaves.",
+      "answerZh": "所有人離開後,他們會用爆炸物炸毀舊橋。",
+      "highlight": "blow",
+      "targetForm": "blow somebody/something up",
+      "targetMeaningZh": "用爆炸物炸毀某人或某物"
+    },
+    {
+      "id": "phrasal-verb-192-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "A few unexpected guests have just arrived.",
+      "promptZh": "幾位不速之客剛剛突然來到。",
+      "starter": "A",
+      "answer": "A few unexpected guests have just blown in.",
+      "answerZh": "幾位不速之客剛剛突然來到。",
+      "highlight": "blown in",
+      "targetForm": "blow in; blow into something",
+      "targetMeaningZh": "突然到來;突然來到某處"
+    },
+    {
+      "id": "phrasal-verb-192-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The wind has removed two tiles from the roof.",
+      "promptZh": "風已把屋頂上的兩塊瓦片吹掉。",
+      "starter": "The",
+      "answer": "The wind has blown two tiles off the roof.",
+      "answerZh": "風已把屋頂上的兩塊瓦片吹掉。",
+      "highlight": "blown",
+      "targetForm": "blow off; blow something off; blow something off something",
+      "targetMeaningZh": "被風吹掉;把某物從另一物上吹掉"
+    },
+    {
+      "id": "phrasal-verb-192-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The gang said they would shoot him dead if he spoke.",
+      "promptZh": "那群人說,如果他開口,便會開槍擊斃他。",
+      "starter": "The",
+      "answer": "The gang said they would blow him away if he spoke.",
+      "answerZh": "那群人說,如果他開口,便會開槍擊斃他。",
+      "highlight": "blow",
+      "targetForm": "blow somebody/something away",
+      "targetMeaningZh": "開槍擊斃某人或射毀某物〔非正式及暴力用語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Do not forget to extinguish the candles.",
+      "promptZh": "不要忘記吹熄蠟燭。",
+      "starter": "Do",
+      "answer": "Do not forget to blow the candles out.",
+      "answerZh": "不要忘記吹熄蠟燭。",
+      "highlight": "blow",
+      "targetForm": "blow out; blow something out",
+      "targetMeaningZh": "火焰熄滅;吹熄火焰"
+    },
+    {
+      "id": "phrasal-verb-192-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Our school team has defeated every opponent by a large margin this month.",
+      "promptZh": "本月校隊以大比數擊敗了每一個對手。",
+      "starter": "Our",
+      "answer": "Our school team has blown out every opponent this month.",
+      "answerZh": "本月校隊大勝了每一個對手。",
+      "highlight": "blown out",
+      "targetForm": "blow somebody out",
+      "targetMeaningZh": "以大比數擊敗某人或某隊〔主要見於美式體育英語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The wind knocked down several garden fences last night.",
+      "promptZh": "昨晚的風把幾道花園圍欄吹倒了。",
+      "starter": "The",
+      "answer": "The wind blew down several garden fences last night.",
+      "answerZh": "昨晚的風把幾道花園圍欄吹倒了。",
+      "highlight": "blew",
+      "targetForm": "blow down; blow something down",
+      "targetMeaningZh": "被風吹倒;把某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The gas tank could explode if it gets too hot.",
+      "promptZh": "如果氣缸過熱,便可能會爆炸。",
+      "starter": "The",
+      "answer": "The gas tank could blow up if it gets too hot.",
+      "answerZh": "如果氣缸過熱,便可能會爆炸。",
+      "highlight": "blow up",
+      "targetForm": "blow up",
+      "targetMeaningZh": "爆炸"
+    },
+    {
+      "id": "phrasal-verb-192-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The wind nearly knocked us onto the ground on the hill.",
+      "promptZh": "山上的風差點把我們吹倒在地上。",
+      "starter": "The",
+      "answer": "The wind nearly blew us over on the hill.",
+      "answerZh": "山上的風差點把我們吹倒。",
+      "highlight": "blew",
+      "targetForm": "blow over; blow somebody/something over",
+      "targetMeaningZh": "被風吹倒;把某人或某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "You should not skip your dentist's appointment.",
+      "promptZh": "你不應故意不去看牙醫。",
+      "starter": "You",
+      "answer": "You should not blow off your dentist's appointment.",
+      "answerZh": "你不應故意不去看牙醫。",
+      "highlight": "blow off",
+      "targetForm": "blow off something; blow it off",
+      "targetMeaningZh": "故意不做或不出席某事"
+    },
+    {
+      "id": "phrasal-verb-192-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Her new song has completely amazed me.",
+      "promptZh": "她的新歌令我大為驚嘆。",
+      "starter": "Her",
+      "answer": "Her new song has completely blown me away.",
+      "answerZh": "她的新歌令我大為驚嘆。",
+      "highlight": "blown",
+      "targetForm": "blow somebody away",
+      "targetMeaningZh": "令某人大為驚嘆或留下深刻印象"
+    },
+    {
+      "id": "phrasal-verb-192-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "He was forcing the hot air out of the tube.",
+      "promptZh": "他當時正把熱空氣從管內吹出。",
+      "starter": "He",
+      "answer": "He was blowing the hot air out of the tube.",
+      "answerZh": "他當時正把熱空氣從管內吹出。",
+      "highlight": "blowing",
+      "targetForm": "blow something out",
+      "targetMeaningZh": "把空氣、煙或其他氣體呼出或吹出"
+    },
+    {
+      "id": "phrasal-verb-192-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The homework looked boring, so Kai decided to ignore it and play games instead.",
+      "promptZh": "功課看來很沉悶,所以啟決定不做,改為玩遊戲。",
+      "starter": "The",
+      "answer": "The homework looked boring, so Kai decided to blow it off and play games instead.",
+      "answerZh": "功課看來很沉悶,所以啟決定不做,改為玩遊戲。",
+      "highlight": "blow",
+      "targetForm": "blow off something; blow it off",
+      "targetMeaningZh": "故意不做或不出席某事"
+    },
+    {
+      "id": "phrasal-verb-192-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The wind was so strong that it knocked her onto the ground.",
+      "promptZh": "風力很強,把她吹倒在地上。",
+      "starter": "The",
+      "answer": "The wind was so strong that it blew her over.",
+      "answerZh": "風力很強,把她吹倒了。",
+      "highlight": "blew",
+      "targetForm": "blow over; blow somebody/something over",
+      "targetMeaningZh": "被風吹倒;把某人或某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The machine was being repaired when it suddenly exploded.",
+      "promptZh": "那部機器在維修期間突然爆炸。",
+      "starter": "The",
+      "answer": "The machine was being repaired when it suddenly blew up.",
+      "answerZh": "那部機器在維修期間突然爆炸。",
+      "highlight": "blew up",
+      "targetForm": "blow up",
+      "targetMeaningZh": "爆炸"
+    },
+    {
+      "id": "phrasal-verb-192-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "I heard the choir live, and they impressed me completely.",
+      "promptZh": "我現場聽了合唱團演出,他們令我大為驚嘆。",
+      "starter": "I",
+      "answer": "I heard the choir live, and they completely blew me away.",
+      "answerZh": "我現場聽了合唱團演出,他們令我大為驚嘆。",
+      "highlight": "completely blew",
+      "targetForm": "blow somebody away",
+      "targetMeaningZh": "令某人大為驚嘆或留下深刻印象"
+    },
+    {
+      "id": "phrasal-verb-192-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Three young trees were knocked down by the wind during the night.",
+      "promptZh": "夜間有三棵小樹被風吹倒了。",
+      "starter": "Three",
+      "answer": "Three young trees were blown down by the wind during the night.",
+      "answerZh": "夜間有三棵小樹被風吹倒了。",
+      "highlight": "blown",
+      "targetForm": "blow down; blow something down",
+      "targetMeaningZh": "被風吹倒;把某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The bag was full of air, so he forced the air out through the valve.",
+      "promptZh": "袋內充滿空氣,所以他把空氣從活門吹出去。",
+      "starter": "The",
+      "answer": "The bag was full of air, so he blew the air out through the valve.",
+      "answerZh": "袋內充滿空氣,所以他把空氣從活門吹出去。",
+      "highlight": "blew",
+      "targetForm": "blow something out",
+      "targetMeaningZh": "把空氣、煙或其他氣體呼出或吹出"
+    },
+    {
+      "id": "phrasal-verb-192-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Chloe missed the first half and then arrived in the meeting room without warning.",
+      "promptZh": "克洛伊錯過了會議的前半段,之後突然來到會議室。",
+      "starter": "Chloe",
+      "answer": "Chloe missed the first half and then blew into the meeting room without warning.",
+      "answerZh": "克洛伊錯過了會議的前半段,之後突然來到會議室。",
+      "highlight": "blew into",
+      "targetForm": "blow in; blow into something",
+      "targetMeaningZh": "突然到來;突然來到某處"
+    },
+    {
+      "id": "phrasal-verb-192-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The empty warehouse was unsafe, so the engineers destroyed it with explosives.",
+      "promptZh": "那座空置貨倉不安全,所以工程人員用爆炸物把它炸毀。",
+      "starter": "The",
+      "answer": "The empty warehouse was unsafe, so the engineers blew it up.",
+      "answerZh": "那座空置貨倉不安全,所以工程人員用爆炸物把它炸毀。",
+      "highlight": "blew",
+      "targetForm": "blow somebody/something up",
+      "targetMeaningZh": "用爆炸物炸毀某人或某物"
+    },
+    {
+      "id": "phrasal-verb-192-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The wind carried the picnic blanket away before we could grab it.",
+      "promptZh": "我們還未來得及抓住野餐墊,風便把它吹走了。",
+      "starter": "The",
+      "answer": "The wind blew the picnic blanket away before we could grab it.",
+      "answerZh": "我們還未來得及抓住野餐墊,風便把它吹走了。",
+      "highlight": "blew",
+      "targetForm": "blow away; blow something away",
+      "targetMeaningZh": "被風吹走;把某物吹走"
+    },
+    {
+      "id": "phrasal-verb-192-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The candles were still burning, so Sam extinguished them.",
+      "promptZh": "蠟燭仍在燃燒,所以森把它們吹熄了。",
+      "starter": "The",
+      "answer": "The candles were still burning, so Sam blew them out.",
+      "answerZh": "蠟燭仍在燃燒,所以森把它們吹熄了。",
+      "highlight": "blew",
+      "targetForm": "blow out; blow something out",
+      "targetMeaningZh": "火焰熄滅;吹熄火焰"
+    },
+    {
+      "id": "phrasal-verb-192-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "We had arranged lunch, but she failed to meet me again.",
+      "promptZh": "我們已約好吃午飯,但她又沒有出現。",
+      "starter": "We",
+      "answer": "We had arranged lunch, but she blew me off again.",
+      "answerZh": "我們已約好吃午飯,但她又對我爽約。",
+      "highlight": "blew",
+      "targetForm": "blow somebody off",
+      "targetMeaningZh": "對某人爽約;故意不理會某人"
+    },
+    {
+      "id": "phrasal-verb-192-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "By midnight, the storm had naturally lost all its power.",
+      "promptZh": "到了午夜,風暴已自然失去所有力量。",
+      "starter": "By",
+      "answer": "By midnight, the storm had blown itself out.",
+      "answerZh": "到了午夜,風暴已自然減弱並停止。",
+      "highlight": "blown itself out",
+      "targetForm": "blow itself out",
+      "targetMeaningZh": "風暴等自然減弱並停止"
+    },
+    {
+      "id": "phrasal-verb-192-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The ball is flat; please fill it with air before the game.",
+      "promptZh": "球沒有氣;請在比賽前把它吹脹。",
+      "starter": "The",
+      "answer": "The ball is flat; please blow it up before the game.",
+      "answerZh": "球沒有氣;請在比賽前把它吹脹。",
+      "highlight": "blow",
+      "targetForm": "blow something up",
+      "targetMeaningZh": "為某物充氣"
+    },
+    {
+      "id": "phrasal-verb-192-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "His scarf was loose. A gust removed it from his neck.",
+      "promptZh": "他的頸巾很鬆。一陣風吹走了他頸上的頸巾。",
+      "starter": "His",
+      "answer": "His scarf was loose. A gust blew it off his neck.",
+      "answerZh": "他的頸巾很鬆。一陣風吹走了他頸上的頸巾。",
+      "highlight": "blew",
+      "targetForm": "blow off; blow something off; blow something off something",
+      "targetMeaningZh": "被風吹掉;把某物從另一物上吹掉"
+    },
+    {
+      "id": "phrasal-verb-192-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "We stayed inside until the storm passed.",
+      "promptZh": "我們留在室內,直至風暴過去。",
+      "starter": "We",
+      "answer": "We stayed inside until the storm blew over.",
+      "answerZh": "我們留在室內,直至風暴過去。",
+      "highlight": "blew over",
+      "targetForm": "blow over",
+      "targetMeaningZh": "風暴或惡劣天氣過去"
+    },
+    {
+      "id": "phrasal-verb-192-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "In the crime drama, one man was shot dead for betraying the gang.",
+      "promptZh": "在犯罪劇中,一名男子因背叛那群人而被槍殺。",
+      "starter": "In",
+      "answer": "In the crime drama, one man was blown away for betraying the gang.",
+      "answerZh": "在犯罪劇中,一名男子因背叛那群人而被槍殺。",
+      "highlight": "blown away",
+      "targetForm": "blow somebody/something away",
+      "targetMeaningZh": "開槍擊斃某人或射毀某物〔非正式及暴力用語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The back tyre has burst, so we cannot continue driving.",
+      "promptZh": "後輪胎已爆裂,所以我們不能繼續駕駛。",
+      "starter": "The",
+      "answer": "The back tyre has blown out, so we cannot continue driving.",
+      "answerZh": "後輪胎已爆裂,所以我們不能繼續駕駛。",
+      "highlight": "blown out",
+      "targetForm": "blow out",
+      "targetMeaningZh": "輪胎爆裂"
+    },
+    {
+      "id": "phrasal-verb-192-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The Falcons met the Hawks and defeated them by thirty points.",
+      "promptZh": "獵鷹隊迎戰老鷹隊,並以三十分之差擊敗對方。",
+      "starter": "The",
+      "answer": "The Falcons met the Hawks and blew them out by thirty points.",
+      "answerZh": "獵鷹隊迎戰老鷹隊,並以三十分之差大勝對方。",
+      "highlight": "blew",
+      "targetForm": "blow somebody out",
+      "targetMeaningZh": "以大比數擊敗某人或某隊〔主要見於美式體育英語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We waited in the café until the brief storm passed over the town.",
+      "promptZh": "我們在咖啡店等候,直至短暫的風暴離開小鎮。",
+      "starter": "We",
+      "answer": "We waited in the café until the brief storm blew over.",
+      "answerZh": "我們在咖啡店等候,直至短暫的風暴過去。",
+      "highlight": "blew",
+      "targetForm": "blow over",
+      "targetMeaningZh": "風暴或惡劣天氣過去"
+    },
+    {
+      "id": "phrasal-verb-192-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "For the school play, they filled a huge plastic moon with air.",
+      "promptZh": "他們為學校話劇把一個巨型塑膠月亮吹脹。",
+      "starter": "For",
+      "answer": "For the school play, they blew up a huge plastic moon.",
+      "answerZh": "他們為學校話劇把一個巨型塑膠月亮吹脹。",
+      "highlight": "blew up",
+      "targetForm": "blow something up",
+      "targetMeaningZh": "為某物充氣"
+    },
+    {
+      "id": "phrasal-verb-192-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Rina promised to meet Zoe, but she failed to appear at the last minute.",
+      "promptZh": "莉娜答應與佐伊見面,卻在最後一刻沒有出現。",
+      "starter": "Rina",
+      "answer": "Rina promised to meet Zoe, but she blew her off at the last minute.",
+      "answerZh": "莉娜答應與佐伊見面,卻在最後一刻對她爽約。",
+      "highlight": "blew her off",
+      "targetForm": "blow somebody off",
+      "targetMeaningZh": "對某人爽約;故意不理會某人"
+    },
+    {
+      "id": "phrasal-verb-192-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The storm caused the old garden wall to fall.",
+      "promptZh": "風暴令那道舊花園圍牆倒下。",
+      "starter": "The",
+      "answer": "The storm blew the old garden wall down.",
+      "answerZh": "風暴把那道舊花園圍牆吹倒了。",
+      "highlight": "blew",
+      "targetForm": "blow down; blow something down",
+      "targetMeaningZh": "被風吹倒;把某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Before leaving the room, he extinguished the small oil lamp.",
+      "promptZh": "離開房間前,他吹熄了那盞小油燈。",
+      "starter": "Before",
+      "answer": "Before leaving the room, he blew the small oil lamp out.",
+      "answerZh": "離開房間前,他吹熄了那盞小油燈。",
+      "highlight": "blew",
+      "targetForm": "blow out; blow something out",
+      "targetMeaningZh": "火焰熄滅;吹熄火焰"
+    },
+    {
+      "id": "phrasal-verb-192-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "In the film, the killer threatened to shoot both guards dead.",
+      "promptZh": "在電影中,兇手威脅要開槍擊斃兩名警衞。",
+      "starter": "In",
+      "answer": "In the film, the killer threatened to blow both guards away.",
+      "answerZh": "在電影中,兇手威脅要開槍擊斃兩名警衞。",
+      "highlight": "blow",
+      "targetForm": "blow somebody/something away",
+      "targetMeaningZh": "開槍擊斃某人或射毀某物〔非正式及暴力用語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "A gust removed the lid from the box, but it landed nearby.",
+      "promptZh": "一陣風吹走了盒蓋,但盒蓋落在附近。",
+      "starter": "A",
+      "answer": "A gust blew the lid off the box, but it landed nearby.",
+      "answerZh": "一陣風吹走了盒蓋,但盒蓋落在附近。",
+      "highlight": "blew",
+      "targetForm": "blow off; blow something off; blow something off something",
+      "targetMeaningZh": "被風吹掉;把某物從另一物上吹掉"
+    },
+    {
+      "id": "phrasal-verb-192-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The storm lost all its strength before sunrise.",
+      "promptZh": "風暴在日出前已失去所有力量。",
+      "starter": "The",
+      "answer": "The storm blew itself out before sunrise.",
+      "answerZh": "風暴在日出前已自然減弱並停止。",
+      "highlight": "blew itself out",
+      "targetForm": "blow itself out",
+      "targetMeaningZh": "風暴等自然減弱並停止"
+    },
+    {
+      "id": "phrasal-verb-192-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The view from the mountain was so beautiful that it amazed us completely.",
+      "promptZh": "山上的景色美得令我們大為驚嘆。",
+      "starter": "The",
+      "answer": "The view from the mountain was so beautiful that it blew us away.",
+      "answerZh": "山上的景色美得令我們大為驚嘆。",
+      "highlight": "blew",
+      "targetForm": "blow somebody away",
+      "targetMeaningZh": "令某人大為驚嘆或留下深刻印象"
+    },
+    {
+      "id": "phrasal-verb-192-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The old battery suddenly exploded while it was charging.",
+      "promptZh": "舊電池在充電期間突然爆炸。",
+      "starter": "The",
+      "answer": "The old battery suddenly blew up while it was charging.",
+      "answerZh": "舊電池在充電期間突然爆炸。",
+      "highlight": "blew up",
+      "targetForm": "blow up",
+      "targetMeaningZh": "爆炸"
+    },
+    {
+      "id": "phrasal-verb-192-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Without calling first, my cousins suddenly arrived at our flat.",
+      "promptZh": "我的表兄弟姊妹沒有先致電,便突然來到我們的住所。",
+      "starter": "Without",
+      "answer": "Without calling first, my cousins suddenly blew into our flat.",
+      "answerZh": "我的表兄弟姊妹沒有先致電,便突然來到我們的住所。",
+      "highlight": "blew into",
+      "targetForm": "blow in; blow into something",
+      "targetMeaningZh": "突然到來;突然來到某處"
+    },
+    {
+      "id": "phrasal-verb-192-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The driver stopped because a tyre had suddenly burst.",
+      "promptZh": "司機停車,因為一個輪胎突然爆裂。",
+      "starter": "The",
+      "answer": "The driver stopped because a tyre had suddenly blown out.",
+      "answerZh": "司機停車,因為一個輪胎突然爆裂。",
+      "highlight": "blown out",
+      "targetForm": "blow out",
+      "targetMeaningZh": "輪胎爆裂"
+    },
+    {
+      "id": "phrasal-verb-192-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The team destroyed the old tunnel entrance with explosives.",
+      "promptZh": "團隊用爆炸物炸毀了舊隧道入口。",
+      "starter": "The",
+      "answer": "The team blew the old tunnel entrance up.",
+      "answerZh": "團隊用爆炸物炸毀了舊隧道入口。",
+      "highlight": "blew",
+      "targetForm": "blow somebody/something up",
+      "targetMeaningZh": "用爆炸物炸毀某人或某物"
+    },
+    {
+      "id": "phrasal-verb-192-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "A strong gust knocked two empty bins onto their sides.",
+      "promptZh": "一陣強風吹倒了兩個空垃圾桶。",
+      "starter": "A",
+      "answer": "A strong gust blew two empty bins over.",
+      "answerZh": "一陣強風吹倒了兩個空垃圾桶。",
+      "highlight": "blew",
+      "targetForm": "blow over; blow somebody/something over",
+      "targetMeaningZh": "被風吹倒;把某人或某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The wind carried the receipt away down the street, and we could no longer see it.",
+      "promptZh": "風把收據沿街吹走,我們再也看不見它。",
+      "starter": "The",
+      "answer": "The wind blew the receipt away down the street, and we could no longer see it.",
+      "answerZh": "風把收據沿街吹走,我們再也看不見它。",
+      "highlight": "blew",
+      "targetForm": "blow away; blow something away",
+      "targetMeaningZh": "被風吹走;把某物吹走"
+    },
+    {
+      "id": "phrasal-verb-192-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The visitors defeated the home side by forty points.",
+      "promptZh": "客隊以四十分之差擊敗主隊。",
+      "starter": "The",
+      "answer": "The visitors blew out the home side by forty points.",
+      "answerZh": "客隊以四十分之差大勝主隊。",
+      "highlight": "blew out",
+      "targetForm": "blow somebody out",
+      "targetMeaningZh": "以大比數擊敗某人或某隊〔主要見於美式體育英語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "She filled her cheeks, then forced the air out slowly.",
+      "promptZh": "她先鼓起雙頰,然後慢慢把空氣吹出。",
+      "starter": "She",
+      "answer": "She filled her cheeks, then blew the air out slowly.",
+      "answerZh": "她先鼓起雙頰,然後慢慢把空氣吹出。",
+      "highlight": "blew",
+      "targetForm": "blow something out",
+      "targetMeaningZh": "把空氣、煙或其他氣體呼出或吹出"
+    },
+    {
+      "id": "phrasal-verb-192-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "He skipped the safety talk because he thought it was boring.",
+      "promptZh": "他認為安全講解很沉悶,所以故意沒有出席。",
+      "starter": "He",
+      "answer": "He blew off the safety talk because he thought it was boring.",
+      "answerZh": "他認為安全講解很沉悶,所以故意沒有出席。",
+      "highlight": "blew off",
+      "targetForm": "blow off something; blow it off",
+      "targetMeaningZh": "故意不做或不出席某事"
+    },
+    {
+      "id": "phrasal-verb-192-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "I expected the school band to be average, but their final performance amazed me completely.",
+      "promptZh": "我原以為學校樂隊表現普通,但他們最後的演出令我大為驚嘆。",
+      "starter": "I",
+      "answer": "I expected the school band to be average, but their final performance completely blew me away.",
+      "answerZh": "我原以為學校樂隊表現普通,但他們最後的演出令我大為驚嘆。",
+      "highlight": "completely blew",
+      "targetForm": "blow somebody away",
+      "targetMeaningZh": "令某人大為驚嘆或留下深刻印象"
+    },
+    {
+      "id": "phrasal-verb-192-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The picnic tablecloth was not tied down, and a sudden gust removed it from the table.",
+      "promptZh": "野餐桌布沒有綁好,一陣突然吹來的風把它從桌上吹走。",
+      "starter": "The",
+      "answer": "The picnic tablecloth was not tied down, and a sudden gust blew it off the table.",
+      "answerZh": "野餐桌布沒有綁好,一陣突然吹來的風把它從桌上吹走。",
+      "highlight": "blew",
+      "targetForm": "blow off; blow something off; blow something off something",
+      "targetMeaningZh": "被風吹掉;把某物從另一物上吹掉"
+    },
+    {
+      "id": "phrasal-verb-192-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The old building was empty and unsafe, so experts destroyed it with explosives early on Sunday.",
+      "promptZh": "那座舊建築物空置而且不安全,所以專家在星期日清早用爆炸物把它炸毀。",
+      "starter": "The",
+      "answer": "The old building was empty and unsafe, so experts blew it up early on Sunday.",
+      "answerZh": "那座舊建築物空置而且不安全,所以專家在星期日清早用爆炸物把它炸毀。",
+      "highlight": "blew",
+      "targetForm": "blow somebody/something up",
+      "targetMeaningZh": "用爆炸物炸毀某人或某物"
+    },
+    {
+      "id": "phrasal-verb-192-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "We were cleaning the kitchen when two friends arrived without warning and asked to stay for dinner.",
+      "promptZh": "我們正在清潔廚房時,兩位朋友突然來到,並問可否留下吃晚飯。",
+      "starter": "We",
+      "answer": "We were cleaning the kitchen when two friends blew in and asked to stay for dinner.",
+      "answerZh": "我們正在清潔廚房時,兩位朋友突然來到,並問可否留下吃晚飯。",
+      "highlight": "blew in",
+      "targetForm": "blow in; blow into something",
+      "targetMeaningZh": "突然到來;突然來到某處"
+    },
+    {
+      "id": "phrasal-verb-192-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The hikers waited under a shelter until the short storm had passed and the sky became clear.",
+      "promptZh": "遠足者在有蓋地方等候,直至短暫的風暴過去,天空放晴。",
+      "starter": "The",
+      "answer": "The hikers waited under a shelter until the short storm had blown over and the sky became clear.",
+      "answerZh": "遠足者在有蓋地方等候,直至短暫的風暴過去,天空放晴。",
+      "highlight": "blown over",
+      "targetForm": "blow over",
+      "targetMeaningZh": "風暴或惡劣天氣過去"
+    },
+    {
+      "id": "phrasal-verb-192-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I opened the car door in the wind, and the map was carried so far away that we could not find it.",
+      "promptZh": "我在大風中打開車門,地圖被吹得很遠,令我們找不到它。",
+      "starter": "I",
+      "answer": "I opened the car door in the wind, and the map blew so far away that we could not find it.",
+      "answerZh": "我在大風中打開車門,地圖被吹得很遠,令我們找不到它。",
+      "highlight": "blew",
+      "targetForm": "blow away; blow something away",
+      "targetMeaningZh": "被風吹走;把某物吹走"
+    },
+    {
+      "id": "phrasal-verb-192-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Everyone expected a close final, but the Blue Team defeated the Red Team by thirty-five points.",
+      "promptZh": "大家都預期決賽會很接近,但藍隊以三十五分之差擊敗紅隊。",
+      "starter": "Everyone",
+      "answer": "Everyone expected a close final, but the Blue Team blew out the Red Team by thirty-five points.",
+      "answerZh": "大家都預期決賽會很接近,但藍隊以三十五分之差大勝紅隊。",
+      "highlight": "blew out",
+      "targetForm": "blow somebody out",
+      "targetMeaningZh": "以大比數擊敗某人或某隊〔主要見於美式體育英語〕"
+    },
+    {
+      "id": "phrasal-verb-192-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The children wanted to play football, so I filled the flat ball with air before we left.",
+      "promptZh": "孩子們想踢足球,所以我在出發前把沒有氣的球吹脹。",
+      "starter": "The",
+      "answer": "The children wanted to play football, so I blew the flat ball up before we left.",
+      "answerZh": "孩子們想踢足球,所以我在出發前把沒有氣的球吹脹。",
+      "highlight": "blew",
+      "targetForm": "blow something up",
+      "targetMeaningZh": "為某物充氣"
+    },
+    {
+      "id": "phrasal-verb-192-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The wind and rain were violent at midnight, but by dawn the storm had naturally lost all its power.",
+      "promptZh": "午夜時風雨猛烈,但到了黎明,風暴已自然失去所有力量。",
+      "starter": "The",
+      "answer": "The wind and rain were violent at midnight, but by dawn the storm had blown itself out.",
+      "answerZh": "午夜時風雨猛烈,但到了黎明,風暴已自然減弱並停止。",
+      "highlight": "blown itself out",
+      "targetForm": "blow itself out",
+      "targetMeaningZh": "風暴等自然減弱並停止"
+    },
+    {
+      "id": "phrasal-verb-192-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "After the birthday song ended, the child took a breath and extinguished all twelve candles.",
+      "promptZh": "生日歌唱完後,孩子吸了一口氣,再吹熄全部十二支蠟燭。",
+      "starter": "After",
+      "answer": "After the birthday song ended, the child took a breath and blew all twelve candles out.",
+      "answerZh": "生日歌唱完後,孩子吸了一口氣,再吹熄全部十二支蠟燭。",
+      "highlight": "blew",
+      "targetForm": "blow out; blow something out",
+      "targetMeaningZh": "火焰熄滅;吹熄火焰"
+    },
+    {
+      "id": "phrasal-verb-192-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The fridge made a strange noise, and moments later part of the motor exploded.",
+      "promptZh": "雪櫃發出奇怪聲音,片刻後摩打的一部分爆炸了。",
+      "starter": "The",
+      "answer": "The fridge made a strange noise, and moments later part of the motor blew up.",
+      "answerZh": "雪櫃發出奇怪聲音,片刻後摩打的一部分爆炸了。",
+      "highlight": "blew up",
+      "targetForm": "blow up",
+      "targetMeaningZh": "爆炸"
+    },
+    {
+      "id": "phrasal-verb-192-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "I travelled across town for our meeting, but my friend did not appear or answer my calls.",
+      "promptZh": "我穿過市區前往約會地點,但朋友沒有出現,也沒有接聽我的電話。",
+      "starter": "I",
+      "answer": "I travelled across town for our meeting, but my friend blew me off and did not answer my calls.",
+      "answerZh": "我穿過市區前往約會地點,但朋友對我爽約,也沒有接聽我的電話。",
+      "highlight": "blew me off and",
+      "targetForm": "blow somebody off",
+      "targetMeaningZh": "對某人爽約;故意不理會某人"
+    },
+    {
+      "id": "phrasal-verb-192-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The storm was strong enough to make several old trees fall across the country road.",
+      "promptZh": "風暴十分猛烈,令幾棵老樹倒在郊區道路上。",
+      "starter": "The",
+      "answer": "The storm was strong enough to blow several old trees down across the country road.",
+      "answerZh": "風暴十分猛烈,把幾棵老樹吹倒在郊區道路上。",
+      "highlight": "blow",
+      "targetForm": "blow down; blow something down",
+      "targetMeaningZh": "被風吹倒;把某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q86",
+      "number": 86,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "The glass tube was full of smoke, so the teacher carefully forced the smoke out through one end.",
+      "promptZh": "玻璃管內充滿煙,所以老師小心地把煙從一端吹出去。",
+      "starter": "The",
+      "answer": "The glass tube was full of smoke, so the teacher carefully blew the smoke out through one end.",
+      "answerZh": "玻璃管內充滿煙,所以老師小心地把煙從一端吹出去。",
+      "highlight": "blew",
+      "targetForm": "blow something out",
+      "targetMeaningZh": "把空氣、煙或其他氣體呼出或吹出"
+    },
+    {
+      "id": "phrasal-verb-192-q87",
+      "number": 87,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "We heard a loud bang on the motorway and realised that one of the front tyres had burst.",
+      "promptZh": "我們在高速公路上聽到一聲巨響,並發現其中一個前輪胎已爆裂。",
+      "starter": "We",
+      "answer": "We heard a loud bang on the motorway and realised that one of the front tyres had blown out.",
+      "answerZh": "我們在高速公路上聽到一聲巨響,並發現其中一個前輪胎已爆裂。",
+      "highlight": "blown out",
+      "targetForm": "blow out",
+      "targetMeaningZh": "輪胎爆裂"
+    },
+    {
+      "id": "phrasal-verb-192-q88",
+      "number": 88,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The wind on the bridge was so strong that it almost knocked the cyclist onto the ground.",
+      "promptZh": "橋上的風十分強,差點把單車手吹倒在地上。",
+      "starter": "The",
+      "answer": "The wind on the bridge was so strong that it almost blew the cyclist over.",
+      "answerZh": "橋上的風十分強,差點把單車手吹倒。",
+      "highlight": "blew",
+      "targetForm": "blow over; blow somebody/something over",
+      "targetMeaningZh": "被風吹倒;把某人或某物吹倒"
+    },
+    {
+      "id": "phrasal-verb-192-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The class was important, but he skipped it to spend the afternoon shopping with friends.",
+      "promptZh": "那堂課很重要,但他故意不上課,與朋友一起逛了一個下午。",
+      "starter": "The",
+      "answer": "The class was important, but he blew it off to spend the afternoon shopping with friends.",
+      "answerZh": "那堂課很重要,但他故意不上課,與朋友一起逛了一個下午。",
+      "highlight": "blew",
+      "targetForm": "blow off something; blow it off",
+      "targetMeaningZh": "故意不做或不出席某事"
+    },
+    {
+      "id": "phrasal-verb-192-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "In the action film, the attackers said they would shoot the driver dead if he refused to stop.",
+      "promptZh": "在動作片中,襲擊者說,如果司機拒絕停車,便會開槍擊斃他。",
+      "starter": "In",
+      "answer": "In the action film, the attackers said they would blow the driver away if he refused to stop.",
+      "answerZh": "在動作片中,襲擊者說,如果司機拒絕停車,便會開槍擊斃他。",
+      "highlight": "blow",
+      "targetForm": "blow somebody/something away",
+      "targetMeaningZh": "開槍擊斃某人或射毀某物〔非正式及暴力用語〕"
+    }
+  ]
+}

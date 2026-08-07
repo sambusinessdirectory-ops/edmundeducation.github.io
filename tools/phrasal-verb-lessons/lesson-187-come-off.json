@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-187",
+  "order": 187,
+  "slug": "come-off",
+  "version": "1",
+  "title": "COME OFF 動詞片語",
+  "titleEn": "COME off",
+  "titleZh": "COME OFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 186 - COME off.pdf",
+    "sourceNumber": 186,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME OFF",
+      "highlight": "COME OFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Does this knob come off?",
+      "zh": "這個旋鈕可以拆下來嗎?",
+      "highlight": "come off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It is time she tried to come off sleeping pills.",
+      "zh": "她是時候嘗試停止服用安眠藥了。",
+      "highlight": "come off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The handle came off in my hand.",
+      "zh": "把手在我手中脫落了。",
+      "highlight": "came off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "可以拆下;可以取下；停止服用或逐步停用某種藥物；脫落;從某物上掉下來",
+    "en": "come off; come off something; come off / come off something",
+    "naturalZh": [
+      "可以拆下;可以取下",
+      "停止服用或逐步停用某種藥物",
+      "脫落;從某物上掉下來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come off",
+      "titleZh": "可以拆下;可以取下",
+      "titleEn": "come off",
+      "descriptionZh": "可以拆下;可以取下",
+      "descriptionEn": "Does this knob come off?",
+      "examples": [
+        {
+          "en": "Does this knob come off?",
+          "zh": "這個旋鈕可以拆下來嗎?",
+          "highlight": "come off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come off something",
+      "titleZh": "停止服用或逐步停用某種藥物",
+      "titleEn": "come off something",
+      "descriptionZh": "停止服用或逐步停用某種藥物",
+      "descriptionEn": "It is time she tried to come off sleeping pills.",
+      "examples": [
+        {
+          "en": "It is time she tried to come off sleeping pills.",
+          "zh": "她是時候嘗試停止服用安眠藥了。",
+          "highlight": "come off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come off / come off something",
+      "titleZh": "脫落;從某物上掉下來",
+      "titleEn": "come off / come off something",
+      "descriptionZh": "脫落;從某物上掉下來",
+      "descriptionEn": "The handle came off in my hand.",
+      "examples": [
+        {
+          "en": "The handle came off in my hand.",
+          "zh": "把手在我手中脫落了。",
+          "highlight": "came off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME OFF 片語動詞的實際用途",
+    "labelEn": "COME OFF Phrasal Verbs in Use",
+    "summaryZh": "come off 可以幫助你詢問蓋、保護套、層板或其他部分能否拆下來。；come off 可以描述鈕扣、標籤、把手、油漆或小部件從某物上脫落。；come off sleeping pills 或 come off painkillers 可以表示逐步停止服用某種藥物,過程通常需要醫護人員協助。；句子中的其他資料能幫助你判斷某物是可以拆下、已經脫落,還是某人正在停止服用某種藥物。",
+    "summaryEn": "Come off helps you ask whether a lid, cover, shelf or other part can be taken away. Come off can describe buttons, labels, handles, paint and small pieces separating from something. Come off sleeping pills or come off painkillers can describe stopping a medicine, often little by little and with medical help. The surrounding words show whether something can be removed, has become detached or is a medicine that somebody is stopping.",
+    "contextsZh": [
+      "詢問某個部分能否拆下來",
+      "描述某物鬆脫或脫落",
+      "談論逐步停用藥物",
+      "根據情境分辨不同意思"
+    ],
+    "contextsEn": [
+      "Ask whether a part can be removed",
+      "Describe things becoming loose and separating",
+      "Talk about stopping medicine carefully",
+      "Understand different meanings from the situation"
+    ],
+    "formalZh": "Can 或 does something come off? 表示詢問某物能否拆下來。這個蓋可以拆下來嗎?",
+    "formalEn": "Can or does something come off? asks whether it can be removed. Can this lid come off?"
+  },
+  "fixedVariable": {
+    "fixed": "come off",
+    "fixedHighlight": "come off",
+    "fixedZh": "Can 或 does something come off? 表示詢問某物能否拆下來。這個蓋可以拆下來嗎?",
+    "fixedEn": "Can or does something come off? asks whether it can be removed. Can this lid come off?",
+    "correct": "come off",
+    "incorrectForms": [],
+    "variableZh": "Something came off 表示某物真的脫落了。鈕扣從我的外套上脫落了。；Come off 後面接藥物名稱時,可以表示停止服用該藥物,過程通常循序漸進,並按照醫生建議進行。他正嘗試停止服用安眠藥。；改寫句子時,須保留原句中的人物、事物、時間和意思。",
+    "variableEn": "Something came off means that it actually separated. The button came off my coat. Come off followed by the name of a medicine can mean that somebody stops taking it, often slowly and with medical advice. He is trying to come off sleeping pills. Keep the same people, things, time and meaning when rewriting each sentence.",
+    "variableItemsZh": [
+      "come off",
+      "come off something",
+      "come off / come off something"
+    ],
+    "variableItemsEn": [
+      "come off",
+      "come off something",
+      "come off / come off something"
+    ],
+    "forms": [
+      {
+        "formZh": "可以拆下;可以取下",
+        "formEn": "come off",
+        "exampleZh": "這個旋鈕可以拆下來嗎?",
+        "exampleEn": "Does this knob come off?",
+        "highlight": "come off"
+      },
+      {
+        "formZh": "停止服用或逐步停用某種藥物",
+        "formEn": "come off something",
+        "exampleZh": "她是時候嘗試停止服用安眠藥了。",
+        "exampleEn": "It is time she tried to come off sleeping pills.",
+        "highlight": "come off"
+      },
+      {
+        "formZh": "脫落;從某物上掉下來",
+        "formEn": "come off / come off something",
+        "exampleZh": "把手在我手中脫落了。",
+        "exampleEn": "The handle came off in my hand.",
+        "highlight": "came off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "可以拆下;可以取下",
+      "titleEn": "come off",
+      "formula": "come off",
+      "highlight": "come off",
+      "descriptionZh": "可以拆下;可以取下",
+      "descriptionEn": "Does this knob come off?",
+      "examples": [
+        {
+          "en": "Does this knob come off?",
+          "zh": "這個旋鈕可以拆下來嗎?",
+          "highlight": "come off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "停止服用或逐步停用某種藥物",
+      "titleEn": "come off something",
+      "formula": "come off something",
+      "highlight": "come off something",
+      "descriptionZh": "停止服用或逐步停用某種藥物",
+      "descriptionEn": "It is time she tried to come off sleeping pills.",
+      "examples": [
+        {
+          "en": "It is time she tried to come off sleeping pills.",
+          "zh": "她是時候嘗試停止服用安眠藥了。",
+          "highlight": "come off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "脫落;從某物上掉下來",
+      "titleEn": "come off / come off something",
+      "formula": "come off / come off something",
+      "highlight": "come off / come off something",
+      "descriptionZh": "脫落;從某物上掉下來",
+      "descriptionEn": "The handle came off in my hand.",
+      "examples": [
+        {
+          "en": "The handle came off in my hand.",
+          "zh": "把手在我手中脫落了。",
+          "highlight": "came off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "詢問某個部分能否拆下來",
+      "titleEn": "Ask whether a part can be removed",
+      "zh": "come off 可以幫助你詢問蓋、保護套、層板或其他部分能否拆下來。",
+      "en": "Come off helps you ask whether a lid, cover, shelf or other part can be taken away."
+    },
+    {
+      "titleZh": "描述某物鬆脫或脫落",
+      "titleEn": "Describe things becoming loose and separating",
+      "zh": "come off 可以描述鈕扣、標籤、把手、油漆或小部件從某物上脫落。",
+      "en": "Come off can describe buttons, labels, handles, paint and small pieces separating from something."
+    },
+    {
+      "titleZh": "談論逐步停用藥物",
+      "titleEn": "Talk about stopping medicine carefully",
+      "zh": "come off sleeping pills 或 come off painkillers 可以表示逐步停止服用某種藥物,過程通常需要醫護人員協助。",
+      "en": "Come off sleeping pills or come off painkillers can describe stopping a medicine, often little by little and with medical help."
+    },
+    {
+      "titleZh": "根據情境分辨不同意思",
+      "titleEn": "Understand different meanings from the situation",
+      "zh": "句子中的其他資料能幫助你判斷某物是可以拆下、已經脫落,還是某人正在停止服用某種藥物。",
+      "en": "The surrounding words show whether something can be removed, has become detached or is a medicine that somebody is stopping."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "詢問某個部分能否拆下來",
+      "描述某物鬆脫或脫落",
+      "談論逐步停用藥物",
+      "根據情境分辨不同意思"
+    ],
+    "contextsEn": [
+      "Ask whether a part can be removed",
+      "Describe things becoming loose and separating",
+      "Talk about stopping medicine carefully",
+      "Understand different meanings from the situation"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "詢問某個部分能否拆下來",
+        "titleEn": "Ask whether a part can be removed",
+        "zh": "come off 可以幫助你詢問蓋、保護套、層板或其他部分能否拆下來。",
+        "en": "Come off helps you ask whether a lid, cover, shelf or other part can be taken away.",
+        "examples": [
+          {
+            "en": "Does this knob come off?",
+            "zh": "這個旋鈕可以拆下來嗎?",
+            "highlight": "come off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某物鬆脫或脫落",
+        "titleEn": "Describe things becoming loose and separating",
+        "zh": "come off 可以描述鈕扣、標籤、把手、油漆或小部件從某物上脫落。",
+        "en": "Come off can describe buttons, labels, handles, paint and small pieces separating from something.",
+        "examples": [
+          {
+            "en": "It is time she tried to come off sleeping pills.",
+            "zh": "她是時候嘗試停止服用安眠藥了。",
+            "highlight": "come off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論逐步停用藥物",
+        "titleEn": "Talk about stopping medicine carefully",
+        "zh": "come off sleeping pills 或 come off painkillers 可以表示逐步停止服用某種藥物,過程通常需要醫護人員協助。",
+        "en": "Come off sleeping pills or come off painkillers can describe stopping a medicine, often little by little and with medical help.",
+        "examples": [
+          {
+            "en": "The handle came off in my hand.",
+            "zh": "把手在我手中脫落了。",
+            "highlight": "came off"
+          }
+        ]
+      },
+      {
+        "titleZh": "根據情境分辨不同意思",
+        "titleEn": "Understand different meanings from the situation",
+        "zh": "句子中的其他資料能幫助你判斷某物是可以拆下、已經脫落,還是某人正在停止服用某種藥物。",
+        "en": "The surrounding words show whether something can be removed, has become detached or is a medicine that somebody is stopping.",
+        "examples": [
+          {
+            "en": "Does this knob come off?",
+            "zh": "這個旋鈕可以拆下來嗎?",
+            "highlight": "come off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "Can 或 does something come off? 表示詢問某物能否拆下來。這個蓋可以拆下來嗎?",
+      "titleEn": "Can or does something come off? asks whether it can be removed.",
+      "zh": "Can 或 does something come off? 表示詢問某物能否拆下來。這個蓋可以拆下來嗎?",
+      "en": "Can or does something come off? asks whether it can be removed. Can this lid come off?"
+    },
+    {
+      "titleZh": "Something came off 表示某物真的脫落了。鈕扣從我的外套上脫落了。",
+      "titleEn": "Something came off means that it actually separated.",
+      "zh": "Something came off 表示某物真的脫落了。鈕扣從我的外套上脫落了。",
+      "en": "Something came off means that it actually separated. The button came off my coat."
+    },
+    {
+      "titleZh": "Come off 後面接藥物名稱時,可以表示停止服用該藥物,過程通常循序漸進,並按照醫生建議進行。他正嘗試停止服用安眠藥。",
+      "titleEn": "Come off followed by the name of a medicine can mean that somebody stops taking it, often slowly and with medical advice.",
+      "zh": "Come off 後面接藥物名稱時,可以表示停止服用該藥物,過程通常循序漸進,並按照醫生建議進行。他正嘗試停止服用安眠藥。",
+      "en": "Come off followed by the name of a medicine can mean that somebody stops taking it, often slowly and with medical advice. He is trying to come off sleeping pills."
+    },
+    {
+      "titleZh": "改寫句子時,須保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning when rewriting each sentence.",
+      "zh": "改寫句子時,須保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning when rewriting each sentence."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME OFF 動詞片語句子改寫練習",
+    "titleEn": "COME OFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-187-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "A button was no longer attached to my shirt this morning.",
+      "promptZh": "我件恤衫上的一粒鈕扣今早脫落了。",
+      "starter": "A",
+      "answer": "A button came off my shirt this morning.",
+      "answerZh": "我件恤衫上的一粒鈕扣今早脫落了。",
+      "highlight": "came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Can this lid be removed?",
+      "promptZh": "這個蓋可以取下嗎?",
+      "starter": "Can",
+      "answer": "Can this lid come off?",
+      "answerZh": "這個蓋可以取下嗎?",
+      "highlight": "come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella is trying to stop taking sleeping pills.",
+      "promptZh": "埃拉正嘗試停止服用安眠藥。",
+      "starter": "Ella",
+      "answer": "Ella is trying to come off sleeping pills.",
+      "answerZh": "埃拉正嘗試停止服用安眠藥。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Can the camera strap be removed from the bag?",
+      "promptZh": "相機帶可以從袋上拆下來嗎?",
+      "starter": "Does",
+      "answer": "Does the camera strap come off the bag?",
+      "answerZh": "相機帶可以從袋上拆下來嗎?",
+      "highlight": "Does",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The bottle lost its label.",
+      "promptZh": "瓶上的標籤脫落了。",
+      "starter": "The",
+      "answer": "The label came off the bottle.",
+      "answerZh": "標籤從瓶上脫落了。",
+      "highlight": "The label came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben wants to stop taking the painkillers with his doctor’s help.",
+      "promptZh": "賓希望在醫生協助下停止服用止痛藥。",
+      "starter": "Ben",
+      "answer": "Ben wants to come off the painkillers with his doctor’s help.",
+      "answerZh": "賓希望在醫生協助下停止服用止痛藥。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This shelf can be removed for cleaning.",
+      "promptZh": "這塊層板可以拆下來清潔。",
+      "starter": "This",
+      "answer": "This shelf comes off for cleaning.",
+      "answerZh": "這塊層板可以拆下來清潔。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The toy car lost one of its wheels.",
+      "promptZh": "玩具車掉了一個車輪。",
+      "starter": "One",
+      "answer": "One wheel came off the toy car.",
+      "answerZh": "玩具車有一個車輪脫落了。",
+      "highlight": "One wheel came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The doctor is helping Ava stop taking the strong medicine slowly.",
+      "promptZh": "醫生正協助艾娃慢慢停止服用這種強效藥物。",
+      "starter": "The",
+      "answer": "The doctor is helping Ava come off the strong medicine slowly.",
+      "answerZh": "醫生正協助艾娃慢慢停止服用這種強效藥物。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The wheels can be removed, so the small bicycle is easy to pack.",
+      "promptZh": "車輪可以拆下來,所以這架小單車很容易收好。",
+      "starter": "The",
+      "answer": "The wheels come off, so the small bicycle is easy to pack.",
+      "answerZh": "車輪可以拆下來,所以這架小單車很容易收好。",
+      "highlight": "come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sam is slowly stopping the sleeping tablets after speaking to his doctor.",
+      "promptZh": "森姆諮詢醫生後,正慢慢停止服用安眠藥片。",
+      "starter": "Sam",
+      "answer": "Sam is slowly coming off the sleeping tablets after speaking to his doctor.",
+      "answerZh": "森姆諮詢醫生後,正慢慢停止服用安眠藥片。",
+      "highlight": "coming off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The sticker is no longer attached to my notebook.",
+      "promptZh": "貼紙已不再黏在我的筆記簿上。",
+      "starter": "The",
+      "answer": "The sticker has come off my notebook.",
+      "answerZh": "貼紙已從我的筆記簿上脫落。",
+      "highlight": "has come off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The back cover can be removed without any tools.",
+      "promptZh": "背蓋不用任何工具便可以拆下來。",
+      "starter": "The",
+      "answer": "The back cover comes off without any tools.",
+      "answerZh": "背蓋不用任何工具便可以拆下來。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Some paint is becoming loose on the old wall.",
+      "promptZh": "舊牆上有些油漆正變鬆並開始剝落。",
+      "starter": "Some",
+      "answer": "Some paint is coming off the old wall.",
+      "answerZh": "舊牆上有些油漆正在剝落。",
+      "highlight": "coming off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Ravi will stop taking the tablets next month if his doctor agrees.",
+      "promptZh": "如果醫生同意,拉維下個月會停止服用這些藥片。",
+      "starter": "Ravi",
+      "answer": "Ravi will come off the tablets next month if his doctor agrees.",
+      "answerZh": "如果醫生同意,拉維下個月會停止服用這些藥片。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Is it possible to remove this rubber ring from the lid?",
+      "promptZh": "這個橡膠圈可以從蓋上拆下來嗎?",
+      "starter": "Does",
+      "answer": "Does this rubber ring come off the lid?",
+      "answerZh": "這個橡膠圈可以從蓋上拆下來嗎?",
+      "highlight": "Does",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The hook separated from the door when I pulled it.",
+      "promptZh": "我拉門鈎時,它從門上脫落了。",
+      "starter": "The",
+      "answer": "The hook came off the door when I pulled it.",
+      "answerZh": "我拉門鈎時,它從門上脫落了。",
+      "highlight": "came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo has stopped taking the strong medicine at last.",
+      "promptZh": "里奧終於停止服用這種強效藥物。",
+      "starter": "Leo",
+      "answer": "Leo has come off the strong medicine at last.",
+      "answerZh": "里奧終於停止服用這種強效藥物。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can the basket be removed from the bicycle for storage?",
+      "promptZh": "單車籃可以拆下來收好嗎?",
+      "starter": "Can",
+      "answer": "Can the basket come off the bicycle for storage?",
+      "answerZh": "單車籃可以拆下來收好嗎?",
+      "highlight": "come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "His shoe lost its sole during the walk.",
+      "promptZh": "散步期間,他的鞋掉了鞋底。",
+      "starter": "The",
+      "answer": "The sole came off his shoe during the walk.",
+      "answerZh": "散步期間,他的鞋底脫落了。",
+      "highlight": "The sole came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "One of the buttons separated from the shirt in the washing machine.",
+      "promptZh": "恤衫在洗衣機內時,其中一粒鈕扣脫落了。",
+      "starter": "One",
+      "answer": "One of the buttons came off the shirt in the washing machine.",
+      "answerZh": "其中一粒鈕扣在洗衣機內從恤衫上脫落了。",
+      "highlight": "came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "This tray can be removed, which makes it easier to wash.",
+      "promptZh": "這個托盤可以拆下來,清洗時會更方便。",
+      "starter": "This",
+      "answer": "This tray comes off, which makes it easier to wash.",
+      "answerZh": "這個托盤可以拆下來,清洗時會更方便。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "His doctor advised him to stop taking the medicine slowly.",
+      "promptZh": "他的醫生建議他慢慢停止服用這種藥物。",
+      "starter": "His",
+      "answer": "His doctor advised him to come off the medicine slowly.",
+      "answerZh": "他的醫生建議他慢慢停止服用這種藥物。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The remote fell, and its plastic cover separated from it.",
+      "promptZh": "遙控器跌下時,塑膠蓋與它分開了。",
+      "starter": "The",
+      "answer": "The plastic cover came off the remote when it fell.",
+      "answerZh": "遙控器跌下時,塑膠蓋脫落了。",
+      "highlight": "The plastic cover came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Are the side panels designed to be removed when we change the battery?",
+      "promptZh": "更換電池時,兩旁的面板可以拆下來嗎?",
+      "starter": "Do",
+      "answer": "Do the side panels come off when we change the battery?",
+      "answerZh": "更換電池時,兩旁的面板可以拆下來嗎?",
+      "highlight": "Do",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After several months, Noor has finally stopped taking sleeping pills.",
+      "promptZh": "幾個月後,努爾終於停止服用安眠藥。",
+      "starter": "After",
+      "answer": "After several months, Noor has finally come off sleeping pills.",
+      "answerZh": "幾個月後,努爾終於停止服用安眠藥。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The box is wet, and the strips of tape are no longer sticking to it.",
+      "promptZh": "紙箱濕了,幾條膠紙已開始黏不住。",
+      "starter": "The",
+      "answer": "The strips of tape are coming off the box because it is wet.",
+      "answerZh": "紙箱濕了,所以幾條膠紙正逐漸脫落。",
+      "highlight": "coming off the box because",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The seat can be removed, so two people can carry the chair more easily.",
+      "promptZh": "座位可以拆下來,所以兩個人會更容易搬動這張椅子。",
+      "starter": "The",
+      "answer": "The seat comes off, so two people can carry the chair more easily.",
+      "answerZh": "座位可以拆下來,所以兩個人會更容易搬動這張椅子。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did Aiden stop taking the tablets?",
+      "promptZh": "艾登為甚麼停止服用這些藥片?",
+      "starter": "Why",
+      "answer": "Why did Aiden come off the tablets?",
+      "answerZh": "艾登為甚麼停止服用這些藥片?",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Her backpack lost its name tag on the bus.",
+      "promptZh": "她的背囊在巴士上掉了姓名牌。",
+      "starter": "Her",
+      "answer": "Her name tag came off her backpack on the bus.",
+      "answerZh": "她的姓名牌在巴士上從背囊脫落了。",
+      "highlight": "Her name tag came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The washing-machine drawer can be removed if you press this small button.",
+      "promptZh": "按下這個小按鈕,洗衣機的抽屜便可以拆下來。",
+      "starter": "The",
+      "answer": "The washing-machine drawer comes off if you press this small button.",
+      "answerZh": "按下這個小按鈕,洗衣機的抽屜便可以拆下來。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When the plate hit the floor, it lost a small piece from its edge.",
+      "promptZh": "碟子跌到地上時,邊緣掉了一小塊。",
+      "starter": "A",
+      "answer": "A small piece came off the edge of the plate when it hit the floor.",
+      "answerZh": "碟子跌到地上時,邊緣有一小塊脫落了。",
+      "highlight": "A small piece came off the edge of",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "On her doctor’s advice, Rina is slowly stopping the medicine.",
+      "promptZh": "里娜正按照醫生建議,慢慢停止服用這種藥物。",
+      "starter": "On",
+      "answer": "On her doctor’s advice, Rina is slowly coming off the medicine.",
+      "answerZh": "里娜正按照醫生建議,慢慢停止服用這種藥物。",
+      "highlight": "coming off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Will it be possible to remove the old plastic cover without damaging the book?",
+      "promptZh": "舊塑膠書套可以在不損壞書本的情況下拆下來嗎?",
+      "starter": "Will",
+      "answer": "Will the old plastic cover come off without damaging the book?",
+      "answerZh": "舊塑膠書套可以在不損壞書本的情況下拆下來嗎?",
+      "highlight": "come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The bicycle lost its bell on the rough road.",
+      "promptZh": "單車駛過崎嶇路面時,掉了單車鈴。",
+      "starter": "The",
+      "answer": "The bell came off the bicycle on the rough road.",
+      "answerZh": "單車駛過崎嶇路面時,單車鈴脫落了。",
+      "highlight": "The bell came off",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "He did not stop taking the medicine until the doctor said it was safe.",
+      "promptZh": "直至醫生表示安全,他才停止服用這種藥物。",
+      "starter": "He",
+      "answer": "He did not come off the medicine until the doctor said it was safe.",
+      "answerZh": "直至醫生表示安全,他才停止服用這種藥物。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "These clips can be removed one at a time when you open the case.",
+      "promptZh": "打開盒子時,這些夾子可以逐個拆下來。",
+      "starter": "These",
+      "answer": "These clips come off one at a time when you open the case.",
+      "answerZh": "打開盒子時,這些夾子可以逐個拆下來。",
+      "highlight": "come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "While we were carrying the box, its bottom separated from the rest of it.",
+      "promptZh": "我們搬運箱子時,箱底與箱身分開了。",
+      "starter": "The",
+      "answer": "The bottom came off the box while we were carrying it.",
+      "answerZh": "我們搬運箱子時,箱底脫落了。",
+      "highlight": "The bottom came off the box",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "How long did it take Priya to stop taking the sleeping tablets?",
+      "promptZh": "普里雅花了多久才停止服用安眠藥片?",
+      "starter": "How",
+      "answer": "How long did it take Priya to come off the sleeping tablets?",
+      "answerZh": "普里雅花了多久才停止服用安眠藥片?",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The keyboard can be removed from the case, so you can use it separately.",
+      "promptZh": "鍵盤可以從保護套拆下來,讓你分開使用。",
+      "starter": "The",
+      "answer": "The keyboard comes off the case, so you can use it separately.",
+      "answerZh": "鍵盤可以從保護套拆下來,讓你分開使用。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After several weeks of help, Nora managed to stop taking the painkillers.",
+      "promptZh": "在數星期的協助下,諾拉成功停止服用止痛藥。",
+      "starter": "After",
+      "answer": "After several weeks of help, Nora managed to come off the painkillers.",
+      "answerZh": "在數星期的協助下,諾拉成功停止服用止痛藥。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "He tried to lift the mug by its handle, but the handle separated and stayed in his hand.",
+      "promptZh": "他嘗試用杯柄拿起杯子,但杯柄脫落並留在他手中。",
+      "starter": "When",
+      "answer": "When he tried to lift the mug, the handle came off in his hand.",
+      "answerZh": "他嘗試拿起杯子時,杯柄在他手中脫落了。",
+      "highlight": "When",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before packing the lamp, check whether the shade can be removed.",
+      "promptZh": "收好這盞燈前,先檢查燈罩能否拆下來。",
+      "starter": "Before",
+      "answer": "Before packing the lamp, check whether the shade comes off.",
+      "answerZh": "收好這盞燈前,先檢查燈罩能否拆下來。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The doctor said she should not stop taking the tablets suddenly.",
+      "promptZh": "醫生說她不應突然停止服用這些藥片。",
+      "starter": "The",
+      "answer": "The doctor said she should not come off the tablets suddenly.",
+      "answerZh": "醫生說她不應突然停止服用這些藥片。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Before anyone noticed, the old sign was no longer attached to the gate.",
+      "promptZh": "在有人發現前,舊招牌已不再固定在閘門上。",
+      "starter": "The",
+      "answer": "The old sign had come off the gate before anyone noticed.",
+      "answerZh": "在有人發現前,舊招牌已從閘門上脫落。",
+      "highlight": "The old sign had come off the gate",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the fan cover can be removed, you can clean the space behind it.",
+      "promptZh": "由於風扇外罩可以拆下來,你可以清潔它後面的位置。",
+      "starter": "Because",
+      "answer": "Because the fan cover comes off, you can clean the space behind it.",
+      "answerZh": "由於風扇外罩可以拆下來,你可以清潔它後面的位置。",
+      "highlight": "comes off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Owen wants to stop taking the tablets, but he will speak to his doctor first.",
+      "promptZh": "歐文希望停止服用這些藥片,但他會先諮詢醫生。",
+      "starter": "Owen",
+      "answer": "Owen wants to come off the tablets, but he will speak to his doctor first.",
+      "answerZh": "歐文希望停止服用這些藥片,但他會先諮詢醫生。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    },
+    {
+      "id": "phrasal-verb-187-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the chair hit the floor, it lost several small pieces of wood.",
+      "promptZh": "椅子撞到地面時,掉了幾小塊木料。",
+      "starter": "Several",
+      "answer": "Several small pieces of wood came off the chair when it hit the floor.",
+      "answerZh": "椅子撞到地面時,有幾小塊木料脫落了。",
+      "highlight": "came off the chair when it hit the floor",
+      "targetForm": "come off / come off something",
+      "targetMeaningZh": "脫落;從某物上掉下來"
+    },
+    {
+      "id": "phrasal-verb-187-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the nozzle cannot be removed, do not force it.",
+      "promptZh": "如果噴嘴不能拆下來,切勿硬拆。",
+      "starter": "If",
+      "answer": "If the nozzle does not come off, do not force it.",
+      "answerZh": "如果噴嘴不能拆下來,切勿硬拆。",
+      "highlight": "does not come off",
+      "targetForm": "come off",
+      "targetMeaningZh": "可以拆下;可以取下"
+    },
+    {
+      "id": "phrasal-verb-187-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "By the end of the month, with her doctor’s help, Sara had stopped taking the medicine.",
+      "promptZh": "在月底前,莎拉在醫生協助下已停止服用這種藥物。",
+      "starter": "By",
+      "answer": "By the end of the month, with her doctor’s help, Sara had come off the medicine.",
+      "answerZh": "在月底前,莎拉在醫生協助下已停止服用這種藥物。",
+      "highlight": "come off",
+      "targetForm": "come off something",
+      "targetMeaningZh": "停止服用或逐步停用某種藥物"
+    }
+  ]
+}

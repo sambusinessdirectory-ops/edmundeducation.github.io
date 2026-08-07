@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-296",
+  "order": 296,
+  "slug": "burst",
+  "version": "1",
+  "title": "BURST 動詞片語",
+  "titleEn": "Burst",
+  "titleZh": "BURST 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 281 - BURST.pdf",
+    "sourceNumber": 281,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BURST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BURST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BURST",
+      "highlight": "BURST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Ethan burst out, ‘That is not fair!’",
+      "zh": "伊森突然大聲說:「這不公平!」",
+      "highlight": "burst out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We looked at each other and burst out laughing.",
+      "zh": "我們望着對方,突然大笑起來。",
+      "highlight": "burst out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dog burst out of the room.",
+      "zh": "那隻狗突然衝出房間。",
+      "highlight": "burst out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "突然大聲說出帶有強烈感情的話；突然開始大笑、哭泣、唱歌或發出其他聲音；突然並有力地衝出某個地方；突然有力地穿過或衝破門、障礙物或其他東西；突然在某個場景或領域出現,並迅速引起注意",
+    "en": "burst out + speech; burst out doing something; burst out / burst out of something; burst through / burst through something; burst on/onto something; burst upon something",
+    "naturalZh": [
+      "突然大聲說出帶有強烈感情的話",
+      "突然開始大笑、哭泣、唱歌或發出其他聲音",
+      "突然並有力地衝出某個地方",
+      "突然有力地穿過或衝破門、障礙物或其他東西",
+      "突然在某個場景或領域出現,並迅速引起注意"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "burst out + speech",
+      "titleZh": "突然大聲說出帶有強烈感情的話",
+      "titleEn": "burst out + speech",
+      "descriptionZh": "突然大聲說出帶有強烈感情的話",
+      "descriptionEn": "Ethan burst out, ‘That is not fair!’",
+      "examples": [
+        {
+          "en": "Ethan burst out, ‘That is not fair!’",
+          "zh": "伊森突然大聲說:「這不公平!」",
+          "highlight": "burst out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burst out doing something",
+      "titleZh": "突然開始大笑、哭泣、唱歌或發出其他聲音",
+      "titleEn": "burst out doing something",
+      "descriptionZh": "突然開始大笑、哭泣、唱歌或發出其他聲音",
+      "descriptionEn": "We looked at each other and burst out laughing.",
+      "examples": [
+        {
+          "en": "We looked at each other and burst out laughing.",
+          "zh": "我們望着對方,突然大笑起來。",
+          "highlight": "burst out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burst out / burst out of something",
+      "titleZh": "突然並有力地衝出某個地方",
+      "titleEn": "burst out / burst out of something",
+      "descriptionZh": "突然並有力地衝出某個地方",
+      "descriptionEn": "The dog burst out of the room.",
+      "examples": [
+        {
+          "en": "The dog burst out of the room.",
+          "zh": "那隻狗突然衝出房間。",
+          "highlight": "burst out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burst through / burst through something",
+      "titleZh": "突然有力地穿過或衝破門、障礙物或其他東西",
+      "titleEn": "burst through / burst through something",
+      "descriptionZh": "突然有力地穿過或衝破門、障礙物或其他東西",
+      "descriptionEn": "Sunlight burst through the clouds.",
+      "examples": [
+        {
+          "en": "Sunlight burst through the clouds.",
+          "zh": "陽光突然穿透雲層。",
+          "highlight": "burst through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "burst on/onto something; burst upon something",
+      "titleZh": "突然在某個場景或領域出現,並迅速引起注意",
+      "titleEn": "burst on/onto something; burst upon something",
+      "descriptionZh": "突然在某個場景或領域出現,並迅速引起注意",
+      "descriptionEn": "A young singer burst onto the music scene.",
+      "examples": [
+        {
+          "en": "A young singer burst onto the music scene.",
+          "zh": "一名年輕歌手突然在樂壇冒起。",
+          "highlight": "burst onto"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BURST 片語動詞的實際用途",
+    "labelEn": "BURST Phrasal Verbs in Use",
+    "summaryZh": "burst out 可以表示某人毫無預兆地說話,並帶有強烈情緒。；burst out laughing、crying 或 singing 表示動作突然開始,而不是慢慢開始。；burst out of 和 burst through 可以描述人、動物、車輛、水或光線突然並有力地移動。；burst onto the scene 可以描述一名新歌手、球員、作家或產品突然引起大眾注意。",
+    "summaryEn": "Burst out can show that somebody says something without warning and with strong feelings. Burst out laughing, crying or singing shows that the action starts suddenly rather than slowly. Burst out of and burst through can describe people, animals, vehicles, water or light moving quickly and forcefully. Burst onto the scene can describe a new singer, player, writer or product that suddenly attracts attention.",
+    "contextsZh": [
+      "清楚表達突然說出的話和強烈情緒",
+      "描述突然開始的動作",
+      "更準確地描述突然移動",
+      "談論某人或某事物迅速引起注意"
+    ],
+    "contextsEn": [
+      "Express sudden speech and emotion clearly",
+      "Describe an action beginning immediately",
+      "Make sudden movement easier to describe",
+      "Talk about somebody becoming noticed very quickly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BURST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BURST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "burst out + speech",
+    "fixedHighlight": "burst out + speech",
+    "fixedZh": "閱讀整句,選出意思相同的 BURST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BURST expression that gives the same meaning.",
+    "correct": "burst out",
+    "incorrectForms": [],
+    "variableZh": "burst out 可以帶出突然並帶有強烈感情說出的話:Nina burst out, ‘I never said that!’；表示某人突然開始某個動作時,使用 -ing 形式:burst out laughingburst out cryingburst out singing；留意不同的移動或出現方式:burst out of the roomburst through the gateburst onto the music scene",
+    "variableEn": "Burst out can introduce words spoken suddenly and with strong feeling: Nina burst out, ‘I never said that!’ When somebody suddenly starts an action, use an -ing word: burst out laughing burst out crying burst out singing Notice the different kinds of movement or appearance: burst out of the room burst through the gate burst onto the music scene",
+    "variableItemsZh": [
+      "burst out + speech",
+      "burst out doing something",
+      "burst out / burst out of something",
+      "burst through / burst through something",
+      "burst on/onto something; burst upon something"
+    ],
+    "variableItemsEn": [
+      "burst out + speech",
+      "burst out doing something",
+      "burst out / burst out of something",
+      "burst through / burst through something",
+      "burst on/onto something; burst upon something"
+    ],
+    "forms": [
+      {
+        "formZh": "突然大聲說出帶有強烈感情的話",
+        "formEn": "burst out + speech",
+        "exampleZh": "伊森突然大聲說:「這不公平!」",
+        "exampleEn": "Ethan burst out, ‘That is not fair!’",
+        "highlight": "burst out"
+      },
+      {
+        "formZh": "突然開始大笑、哭泣、唱歌或發出其他聲音",
+        "formEn": "burst out doing something",
+        "exampleZh": "我們望着對方,突然大笑起來。",
+        "exampleEn": "We looked at each other and burst out laughing.",
+        "highlight": "burst out"
+      },
+      {
+        "formZh": "突然並有力地衝出某個地方",
+        "formEn": "burst out / burst out of something",
+        "exampleZh": "那隻狗突然衝出房間。",
+        "exampleEn": "The dog burst out of the room.",
+        "highlight": "burst out"
+      },
+      {
+        "formZh": "突然有力地穿過或衝破門、障礙物或其他東西",
+        "formEn": "burst through / burst through something",
+        "exampleZh": "陽光突然穿透雲層。",
+        "exampleEn": "Sunlight burst through the clouds.",
+        "highlight": "burst through"
+      },
+      {
+        "formZh": "突然在某個場景或領域出現,並迅速引起注意",
+        "formEn": "burst on/onto something; burst upon something",
+        "exampleZh": "一名年輕歌手突然在樂壇冒起。",
+        "exampleEn": "A young singer burst onto the music scene.",
+        "highlight": "burst onto"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "突然大聲說出帶有強烈感情的話",
+      "titleEn": "burst out + speech",
+      "formula": "burst out + speech",
+      "highlight": "burst out + speech",
+      "descriptionZh": "突然大聲說出帶有強烈感情的話",
+      "descriptionEn": "Ethan burst out, ‘That is not fair!’",
+      "examples": [
+        {
+          "en": "Ethan burst out, ‘That is not fair!’",
+          "zh": "伊森突然大聲說:「這不公平!」",
+          "highlight": "burst out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "突然開始大笑、哭泣、唱歌或發出其他聲音",
+      "titleEn": "burst out doing something",
+      "formula": "burst out doing something",
+      "highlight": "burst out doing something",
+      "descriptionZh": "突然開始大笑、哭泣、唱歌或發出其他聲音",
+      "descriptionEn": "We looked at each other and burst out laughing.",
+      "examples": [
+        {
+          "en": "We looked at each other and burst out laughing.",
+          "zh": "我們望着對方,突然大笑起來。",
+          "highlight": "burst out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然並有力地衝出某個地方",
+      "titleEn": "burst out / burst out of something",
+      "formula": "burst out / burst out of something",
+      "highlight": "burst out / burst out of something",
+      "descriptionZh": "突然並有力地衝出某個地方",
+      "descriptionEn": "The dog burst out of the room.",
+      "examples": [
+        {
+          "en": "The dog burst out of the room.",
+          "zh": "那隻狗突然衝出房間。",
+          "highlight": "burst out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "突然有力地穿過或衝破門、障礙物或其他東西",
+      "titleEn": "burst through / burst through something",
+      "formula": "burst through / burst through something",
+      "highlight": "burst through / burst through something",
+      "descriptionZh": "突然有力地穿過或衝破門、障礙物或其他東西",
+      "descriptionEn": "Sunlight burst through the clouds.",
+      "examples": [
+        {
+          "en": "Sunlight burst through the clouds.",
+          "zh": "陽光突然穿透雲層。",
+          "highlight": "burst through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然在某個場景或領域出現,並迅速引起注意",
+      "titleEn": "burst on/onto something; burst upon something",
+      "formula": "burst on/onto something; burst upon something",
+      "highlight": "burst on/onto something; burst upon something",
+      "descriptionZh": "突然在某個場景或領域出現,並迅速引起注意",
+      "descriptionEn": "A young singer burst onto the music scene.",
+      "examples": [
+        {
+          "en": "A young singer burst onto the music scene.",
+          "zh": "一名年輕歌手突然在樂壇冒起。",
+          "highlight": "burst onto"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達突然說出的話和強烈情緒",
+      "titleEn": "Express sudden speech and emotion clearly",
+      "zh": "burst out 可以表示某人毫無預兆地說話,並帶有強烈情緒。",
+      "en": "Burst out can show that somebody says something without warning and with strong feelings."
+    },
+    {
+      "titleZh": "描述突然開始的動作",
+      "titleEn": "Describe an action beginning immediately",
+      "zh": "burst out laughing、crying 或 singing 表示動作突然開始,而不是慢慢開始。",
+      "en": "Burst out laughing, crying or singing shows that the action starts suddenly rather than slowly."
+    },
+    {
+      "titleZh": "更準確地描述突然移動",
+      "titleEn": "Make sudden movement easier to describe",
+      "zh": "burst out of 和 burst through 可以描述人、動物、車輛、水或光線突然並有力地移動。",
+      "en": "Burst out of and burst through can describe people, animals, vehicles, water or light moving quickly and forcefully."
+    },
+    {
+      "titleZh": "談論某人或某事物迅速引起注意",
+      "titleEn": "Talk about somebody becoming noticed very quickly",
+      "zh": "burst onto the scene 可以描述一名新歌手、球員、作家或產品突然引起大眾注意。",
+      "en": "Burst onto the scene can describe a new singer, player, writer or product that suddenly attracts attention."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達突然說出的話和強烈情緒",
+      "描述突然開始的動作",
+      "更準確地描述突然移動",
+      "談論某人或某事物迅速引起注意"
+    ],
+    "contextsEn": [
+      "Express sudden speech and emotion clearly",
+      "Describe an action beginning immediately",
+      "Make sudden movement easier to describe",
+      "Talk about somebody becoming noticed very quickly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達突然說出的話和強烈情緒",
+        "titleEn": "Express sudden speech and emotion clearly",
+        "zh": "burst out 可以表示某人毫無預兆地說話,並帶有強烈情緒。",
+        "en": "Burst out can show that somebody says something without warning and with strong feelings.",
+        "examples": [
+          {
+            "en": "Ethan burst out, ‘That is not fair!’",
+            "zh": "伊森突然大聲說:「這不公平!」",
+            "highlight": "burst out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然開始的動作",
+        "titleEn": "Describe an action beginning immediately",
+        "zh": "burst out laughing、crying 或 singing 表示動作突然開始,而不是慢慢開始。",
+        "en": "Burst out laughing, crying or singing shows that the action starts suddenly rather than slowly.",
+        "examples": [
+          {
+            "en": "We looked at each other and burst out laughing.",
+            "zh": "我們望着對方,突然大笑起來。",
+            "highlight": "burst out"
+          }
+        ]
+      },
+      {
+        "titleZh": "更準確地描述突然移動",
+        "titleEn": "Make sudden movement easier to describe",
+        "zh": "burst out of 和 burst through 可以描述人、動物、車輛、水或光線突然並有力地移動。",
+        "en": "Burst out of and burst through can describe people, animals, vehicles, water or light moving quickly and forcefully.",
+        "examples": [
+          {
+            "en": "The dog burst out of the room.",
+            "zh": "那隻狗突然衝出房間。",
+            "highlight": "burst out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論某人或某事物迅速引起注意",
+        "titleEn": "Talk about somebody becoming noticed very quickly",
+        "zh": "burst onto the scene 可以描述一名新歌手、球員、作家或產品突然引起大眾注意。",
+        "en": "Burst onto the scene can describe a new singer, player, writer or product that suddenly attracts attention.",
+        "examples": [
+          {
+            "en": "Sunlight burst through the clouds.",
+            "zh": "陽光突然穿透雲層。",
+            "highlight": "burst through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BURST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BURST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BURST 片語動詞。",
+      "en": "Read the whole sentence and choose the BURST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "burst out 可以帶出突然並帶有強烈感情說出的話:Nina burst out, ‘I never said that!’",
+      "titleEn": "Burst out can introduce words spoken suddenly and with strong feeling: Nina burst out, ‘I never said that!’.",
+      "zh": "burst out 可以帶出突然並帶有強烈感情說出的話:Nina burst out, ‘I never said that!’",
+      "en": "Burst out can introduce words spoken suddenly and with strong feeling: Nina burst out, ‘I never said that!’"
+    },
+    {
+      "titleZh": "表示某人突然開始某個動作時,使用 -ing 形式:burst out laughingburst out cryingburst out singing",
+      "titleEn": "When somebody suddenly starts an action, use an -ing word: burst out laughing burst out crying burst out singing.",
+      "zh": "表示某人突然開始某個動作時,使用 -ing 形式:burst out laughingburst out cryingburst out singing",
+      "en": "When somebody suddenly starts an action, use an -ing word: burst out laughing burst out crying burst out singing"
+    },
+    {
+      "titleZh": "留意不同的移動或出現方式:burst out of the roomburst through the gateburst onto the music scene",
+      "titleEn": "Notice the different kinds of movement or appearance: burst out of the room burst through the gate burst onto the music scene.",
+      "zh": "留意不同的移動或出現方式:burst out of the roomburst through the gateburst onto the music scene",
+      "en": "Notice the different kinds of movement or appearance: burst out of the room burst through the gate burst onto the music scene"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BURST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BURST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BURST 動詞片語句子改寫練習",
+    "titleEn": "BURST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BURST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BURST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-296-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "A dog ran suddenly through the open gate with great force.",
+      "promptZh": "一隻狗突然有力地穿過打開了的大閘。",
+      "starter": "A",
+      "answer": "A dog burst through the open gate with great force.",
+      "answerZh": "一隻狗突然有力地穿過打開了的大閘。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過或衝破某物"
+    },
+    {
+      "id": "phrasal-verb-296-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Zara suddenly shouted, ‘Leave me alone!’",
+      "promptZh": "扎拉突然大聲喊道:「別煩我!」",
+      "starter": "Zara",
+      "answer": "Zara burst out, ‘Leave me alone!’",
+      "answerZh": "扎拉突然大聲喊道:「別煩我!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "A young singer suddenly appeared on the local music scene and attracted attention.",
+      "promptZh": "一名年輕歌手突然在本地樂壇冒起,並引起注意。",
+      "starter": "A",
+      "answer": "A young singer burst onto the local music scene and attracted attention.",
+      "answerZh": "一名年輕歌手突然在本地樂壇冒起,並引起注意。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Everyone suddenly started laughing when the chair made a strange noise.",
+      "promptZh": "椅子發出奇怪聲音時,所有人突然大笑起來。",
+      "starter": "Everyone",
+      "answer": "Everyone burst out laughing when the chair made a strange noise.",
+      "answerZh": "椅子發出奇怪聲音時,所有人突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The cat suddenly jumped out of the box.",
+      "promptZh": "那隻貓突然跳出箱子。",
+      "starter": "The",
+      "answer": "The cat burst out of the box.",
+      "answerZh": "那隻貓突然跳出箱子。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "At last, sunlight suddenly shone through the thick clouds.",
+      "promptZh": "陽光終於突然穿透厚厚的雲層。",
+      "starter": "At",
+      "answer": "At last, sunlight burst through the thick clouds.",
+      "answerZh": "陽光終於突然穿透厚厚的雲層。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The child shouted without warning, ‘That is mine!’",
+      "promptZh": "那名孩子毫無預兆地大喊:「那是我的!」",
+      "starter": "The",
+      "answer": "The child burst out, ‘That is mine!’",
+      "answerZh": "那名孩子突然大喊:「那是我的!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "This new game suddenly appeared on the market and became popular.",
+      "promptZh": "這款新遊戲突然在市場上出現,並開始流行。",
+      "starter": "This",
+      "answer": "This new game burst onto the market and became popular.",
+      "answerZh": "這款新遊戲突然在市場上出現,並開始流行。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "At the finish, the runners pushed through the paper ribbon with great force.",
+      "promptZh": "到達終點時,跑手有力地衝過紙帶。",
+      "starter": "At",
+      "answer": "At the finish, the runners burst through the paper ribbon.",
+      "answerZh": "到達終點時,跑手有力地衝過紙帶。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過或衝破某物"
+    },
+    {
+      "id": "phrasal-verb-296-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nina suddenly started crying when she lost her favourite toy.",
+      "promptZh": "妮娜失去最喜愛的玩具時,突然哭了起來。",
+      "starter": "Nina",
+      "answer": "Nina burst out crying when she lost her favourite toy.",
+      "answerZh": "妮娜失去最喜愛的玩具時,突然哭了起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The classroom door opened, and the pupils rushed noisily out of the classroom.",
+      "promptZh": "課室門打開後,學生們吵鬧地衝出課室。",
+      "starter": "The",
+      "answer": "The classroom door opened, and the pupils burst out of the classroom.",
+      "answerZh": "課室門打開後,學生們突然衝出課室。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Omar suddenly shouted with excitement, ‘I knew you would come!’",
+      "promptZh": "奧馬突然興奮地大喊:「我就知道你會來!」",
+      "starter": "Omar",
+      "answer": "Omar burst out, ‘I knew you would come!’",
+      "answerZh": "奧馬突然興奮地大喊:「我就知道你會來!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Since January, a young painter has suddenly become noticed on the art scene.",
+      "promptZh": "自一月以來,一名年輕畫家突然在藝術界引起注意。",
+      "starter": "Since",
+      "answer": "Since January, a young painter has burst onto the art scene.",
+      "answerZh": "自一月以來,一名年輕畫家突然在藝術界冒起。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Leo could not remain serious and suddenly started laughing.",
+      "promptZh": "里奧無法保持嚴肅,突然大笑起來。",
+      "starter": "Leo",
+      "answer": "Leo burst out laughing.",
+      "answerZh": "里奧突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "When the bell rang, the children suddenly rushed out of the school hall.",
+      "promptZh": "鐘聲響起時,孩子們突然衝出學校禮堂。",
+      "starter": "When",
+      "answer": "When the bell rang, the children burst out of the school hall.",
+      "answerZh": "鐘聲響起時,孩子們突然衝出學校禮堂。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Grace suddenly cried, ‘This is unfair!’",
+      "promptZh": "格蕾絲突然大聲說:「這不公平!」",
+      "starter": "Grace",
+      "answer": "Grace burst out, ‘This is unfair!’",
+      "answerZh": "格蕾絲突然大聲說:「這不公平!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The car suddenly forced its way through the wooden gate.",
+      "promptZh": "汽車突然有力地衝過木閘。",
+      "starter": "The",
+      "answer": "The car burst through the wooden gate.",
+      "answerZh": "汽車突然有力地衝過木閘。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過或衝破某物"
+    },
+    {
+      "id": "phrasal-verb-296-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "A new travel app has suddenly appeared on the market and attracted many users.",
+      "promptZh": "一款新的旅遊應用程式突然在市場上出現,並吸引了許多用戶。",
+      "starter": "A",
+      "answer": "A new travel app has burst onto the market and attracted many users.",
+      "answerZh": "一款新的旅遊應用程式突然在市場上出現,並吸引了許多用戶。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "During the song, the class suddenly started singing with the teacher.",
+      "promptZh": "歌曲播放期間,全班突然跟着老師唱了起來。",
+      "starter": "During",
+      "answer": "During the song, the class burst out singing with the teacher.",
+      "answerZh": "歌曲播放期間,全班突然跟着老師唱了起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A man suddenly came out of the lift as the doors opened.",
+      "promptZh": "升降機門打開時,一名男子突然衝了出來。",
+      "starter": "A",
+      "answer": "A man burst out of the lift as the doors opened.",
+      "answerZh": "升降機門打開時,一名男子突然衝了出來。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Last year, the young singer suddenly appeared on the local music scene and attracted attention.",
+      "promptZh": "去年,那名年輕歌手突然在本地樂壇冒起,並引起注意。",
+      "starter": "Last",
+      "answer": "Last year, the young singer burst upon the local music scene and attracted attention.",
+      "answerZh": "去年,那名年輕歌手突然在本地樂壇冒起,並引起注意。",
+      "highlight": "burst upon",
+      "targetForm": "burst upon something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Water suddenly came through the broken wall.",
+      "promptZh": "水突然穿過破裂的牆壁湧進來。",
+      "starter": "Water",
+      "answer": "Water burst through the broken wall.",
+      "answerZh": "水突然穿過破裂的牆壁湧進來。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The baby suddenly started crying when the toy fell onto the floor.",
+      "promptZh": "玩具掉到地上時,嬰兒突然哭了起來。",
+      "starter": "The",
+      "answer": "The baby burst out crying when the toy fell onto the floor.",
+      "answerZh": "玩具掉到地上時,嬰兒突然哭了起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Ethan suddenly shouted, ‘Do not touch it!’",
+      "promptZh": "伊森突然大喊:「不要碰它!」",
+      "starter": "Ethan",
+      "answer": "Ethan burst out, ‘Do not touch it!’",
+      "answerZh": "伊森突然大喊:「不要碰它!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The rabbit was inside the bag. It suddenly jumped out.",
+      "promptZh": "兔子原本在袋子裏。牠突然跳了出來。",
+      "starter": "The",
+      "answer": "The rabbit was inside the bag. It burst out.",
+      "answerZh": "兔子原本在袋子裏。牠突然跳了出來。",
+      "highlight": "burst",
+      "targetForm": "burst out",
+      "targetMeaningZh": "突然衝出"
+    },
+    {
+      "id": "phrasal-verb-296-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The crowd reached the thin rope and pushed straight through.",
+      "promptZh": "人群走到那條幼繩前,然後直接衝了過去。",
+      "starter": "The",
+      "answer": "The crowd reached the thin rope and burst through.",
+      "answerZh": "人群走到那條幼繩前,然後直接衝了過去。",
+      "highlight": "burst",
+      "targetForm": "burst through",
+      "targetMeaningZh": "突然有力地穿過"
+    },
+    {
+      "id": "phrasal-verb-296-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Priya spoke suddenly and loudly: ‘I cannot believe this!’",
+      "promptZh": "普里雅突然大聲說:「我無法相信這件事!」",
+      "starter": "Priya",
+      "answer": "Priya burst out, ‘I cannot believe this!’",
+      "answerZh": "普里雅突然大聲說:「我無法相信這件事!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The joke was not very good, but we suddenly started laughing.",
+      "promptZh": "那個笑話並不太好笑,但我們突然大笑起來。",
+      "starter": "The",
+      "answer": "The joke was not very good, but we burst out laughing.",
+      "answerZh": "那個笑話並不太好笑,但我們突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The young dancer suddenly appeared on our screens and quickly became popular.",
+      "promptZh": "那名年輕舞蹈員突然出現在我們的螢幕上,並迅速走紅。",
+      "starter": "The",
+      "answer": "The young dancer burst onto our screens and quickly became popular.",
+      "answerZh": "那名年輕舞蹈員突然出現在我們的螢幕上,並迅速走紅。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "As soon as the door opened, Ravi rushed out of the office.",
+      "promptZh": "門一打開,拉維便突然衝出辦公室。",
+      "starter": "As",
+      "answer": "As soon as the door opened, Ravi burst out of the office.",
+      "answerZh": "門一打開,拉維便突然衝出辦公室。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Although the curtain was thick, the morning light suddenly came through it.",
+      "promptZh": "雖然窗簾很厚,但早晨的光線突然穿透了它。",
+      "starter": "Although",
+      "answer": "Although the curtain was thick, the morning light burst through it.",
+      "answerZh": "雖然窗簾很厚,但早晨的光線突然穿透了它。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "When Sofia heard the news, she suddenly said, ‘That cannot be true!’",
+      "promptZh": "索菲亞聽到消息時,突然大聲說:「那不可能是真的!」",
+      "starter": "When",
+      "answer": "When Sofia heard the news, she burst out, ‘That cannot be true!’",
+      "answerZh": "索菲亞聽到消息時,突然大聲說:「那不可能是真的!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why did the dog suddenly run out of the kitchen?",
+      "promptZh": "那隻狗為何突然衝出廚房?",
+      "starter": "Why",
+      "answer": "Why did the dog burst out of the kitchen?",
+      "answerZh": "那隻狗為何突然衝出廚房?",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "A bright new star suddenly appeared on the local football scene.",
+      "promptZh": "一名耀眼的新星突然在本地球壇冒起。",
+      "starter": "A",
+      "answer": "A bright new star burst upon the local football scene.",
+      "answerZh": "一名耀眼的新星突然在本地球壇冒起。",
+      "highlight": "burst upon",
+      "targetForm": "burst upon something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The cyclist came to the closed barrier and forced his way through it.",
+      "promptZh": "那名單車手來到關上的障礙物前,然後有力地衝了過去。",
+      "starter": "The",
+      "answer": "The cyclist came to the closed barrier and burst through it.",
+      "answerZh": "那名單車手來到關上的障礙物前,然後有力地衝了過去。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過或衝破某物"
+    },
+    {
+      "id": "phrasal-verb-296-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The children looked at one another and suddenly started singing.",
+      "promptZh": "孩子們望着對方,突然唱了起來。",
+      "starter": "The",
+      "answer": "The children looked at one another and burst out singing.",
+      "answerZh": "孩子們望着對方,突然唱了起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "After staying quiet for ten minutes, Ben shouted, ‘You never listen to me!’",
+      "promptZh": "沉默了十分鐘後,賓突然大喊:「你從來不聽我說話!」",
+      "starter": "After",
+      "answer": "After staying quiet for ten minutes, Ben burst out, ‘You never listen to me!’",
+      "answerZh": "沉默了十分鐘後,賓突然大喊:「你從來不聽我說話!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The band was unknown in June, but it suddenly appeared on the music scene in July.",
+      "promptZh": "這支樂隊在六月時仍寂寂無聞,但在七月突然在樂壇冒起。",
+      "starter": "The",
+      "answer": "The band was unknown in June, but it burst onto the music scene in July.",
+      "answerZh": "這支樂隊在六月時仍寂寂無聞,但在七月突然在樂壇冒起。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Dark clouds covered the sky, but the sun suddenly came through a small gap.",
+      "promptZh": "烏雲遮蓋天空,但太陽突然從一個小缺口穿透出來。",
+      "starter": "Dark",
+      "answer": "Dark clouds covered the sky, but the sun burst through a small gap.",
+      "answerZh": "烏雲遮蓋天空,但太陽突然從一個小缺口穿透出來。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "At first, the class stayed quiet, but one silly answer made everyone suddenly start laughing.",
+      "promptZh": "起初全班保持安靜,但一個愚蠢的答案令所有人突然大笑起來。",
+      "starter": "At",
+      "answer": "At first, the class stayed quiet, but one silly answer made everyone burst out laughing.",
+      "answerZh": "起初全班保持安靜,但一個愚蠢的答案令所有人突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The side door opened, and a woman rushed out of the café without stopping.",
+      "promptZh": "側門打開後,一名女子不停步地衝出咖啡店。",
+      "starter": "The",
+      "answer": "The side door opened, and a woman burst out of the café without stopping.",
+      "answerZh": "側門打開後,一名女子不停步地衝出咖啡店。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "‘I have had enough!’ Daniel suddenly shouted before leaving.",
+      "promptZh": "「我受夠了!」丹尼爾在離開前突然大喊。",
+      "starter": "I",
+      "answer": "‘I have had enough!’ Daniel burst out before leaving.",
+      "answerZh": "「我受夠了!」丹尼爾在離開前突然大喊。",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A new comic writer suddenly appeared on the national book scene and attracted many readers.",
+      "promptZh": "一名新的漫畫作家突然在全國書壇冒起,吸引了許多讀者。",
+      "starter": "A",
+      "answer": "A new comic writer burst on the national book scene and attracted many readers.",
+      "answerZh": "一名新的漫畫作家突然在全國書壇冒起,吸引了許多讀者。",
+      "highlight": "burst",
+      "targetForm": "burst on something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The horse ran at the gate and went through it with great force.",
+      "promptZh": "那匹馬衝向大閘,並有力地穿了過去。",
+      "starter": "The",
+      "answer": "The horse ran at the gate and burst through it.",
+      "answerZh": "那匹馬衝向大閘,並有力地穿了過去。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過或衝破某物"
+    },
+    {
+      "id": "phrasal-verb-296-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The cupboard door opened, and a kitten suddenly jumped out after the ball.",
+      "promptZh": "櫃門打開後,一隻小貓突然追着皮球跳了出來。",
+      "starter": "The",
+      "answer": "The cupboard door opened, and a kitten burst out after the ball.",
+      "answerZh": "櫃門打開後,一隻小貓突然追着皮球跳了出來。",
+      "highlight": "burst",
+      "targetForm": "burst out",
+      "targetMeaningZh": "突然衝出"
+    },
+    {
+      "id": "phrasal-verb-296-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Nora tried to remain calm, but she suddenly started crying when she read the letter.",
+      "promptZh": "諾拉嘗試保持冷靜,但讀信時突然哭了起來。",
+      "starter": "Nora",
+      "answer": "Nora tried to remain calm, but she burst out crying when she read the letter.",
+      "answerZh": "諾拉嘗試保持冷靜,但讀信時突然哭了起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "This small online shop suddenly became known on the fashion scene.",
+      "promptZh": "這間小型網店突然在時裝界引起注意。",
+      "starter": "This",
+      "answer": "This small online shop burst onto the fashion scene.",
+      "answerZh": "這間小型網店突然在時裝界引起注意。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The question surprised the boy, and he suddenly said in a loud voice, ‘I did not take it!’",
+      "promptZh": "那條問題令男孩大吃一驚,他突然大聲說:「不是我拿的!」",
+      "starter": "The",
+      "answer": "The question surprised the boy, and he burst out, ‘I did not take it!’",
+      "answerZh": "那條問題令男孩大吃一驚,他突然大聲說:「不是我拿的!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the actor forgot his line, the others tried to remain serious, but they suddenly began laughing.",
+      "promptZh": "那名演員忘記台詞時,其他人嘗試保持嚴肅,但突然大笑起來。",
+      "starter": "When",
+      "answer": "When the actor forgot his line, the others tried to remain serious, but they burst out laughing.",
+      "answerZh": "那名演員忘記台詞時,其他人嘗試保持嚴肅,但突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The meeting was almost over when Kai suddenly rushed out of the room and closed the door behind him.",
+      "promptZh": "會議快將結束時,啟突然衝出房間,並關上身後的門。",
+      "starter": "The",
+      "answer": "The meeting was almost over when Kai burst out of the room and closed the door behind him.",
+      "answerZh": "會議快將結束時,啟突然衝出房間,並關上身後的門。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Nobody knew the young player in spring, yet by summer he had suddenly appeared on the national football scene.",
+      "promptZh": "春季時沒有人認識那名年輕球員,但到了夏季,他已突然在全國球壇冒起。",
+      "starter": "Nobody",
+      "answer": "Nobody knew the young player in spring, yet by summer he had burst onto the national football scene.",
+      "answerZh": "春季時沒有人認識那名年輕球員,但到了夏季,他已突然在全國球壇冒起。",
+      "highlight": "burst onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The hikers could not see the sun until it suddenly appeared through the thick clouds.",
+      "promptZh": "遠足者一直看不見太陽,直至它突然穿透厚厚的雲層。",
+      "starter": "The",
+      "answer": "The hikers could not see the sun until it burst through the thick clouds.",
+      "answerZh": "遠足者一直看不見太陽,直至它突然穿透厚厚的雲層。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Ava had listened quietly, but at last she suddenly shouted, ‘That story is not true!’",
+      "promptZh": "艾娃一直安靜地聽着,但最後突然大喊:「那個故事不是真的!」",
+      "starter": "Ava",
+      "answer": "Ava had listened quietly, but at last she burst out, ‘That story is not true!’",
+      "answerZh": "艾娃一直安靜地聽着,但最後突然大喊:「那個故事不是真的!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    },
+    {
+      "id": "phrasal-verb-296-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "We were trying to be polite, but the funny hat made us suddenly start laughing.",
+      "promptZh": "我們本來嘗試保持禮貌,但那頂滑稽的帽子令我們突然大笑起來。",
+      "starter": "We",
+      "answer": "We were trying to be polite, but the funny hat made us burst out laughing.",
+      "answerZh": "我們本來嘗試保持禮貌,但那頂滑稽的帽子令我們突然大笑起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "As the train doors opened, a group of excited fans rushed out of the train and onto the platform.",
+      "promptZh": "列車門打開時,一群興奮的支持者衝出列車,走上月台。",
+      "starter": "As",
+      "answer": "As the train doors opened, a group of excited fans burst out of the train and onto the platform.",
+      "answerZh": "列車門打開時,一群興奮的支持者衝出列車,走上月台。",
+      "highlight": "burst",
+      "targetForm": "burst out of something",
+      "targetMeaningZh": "突然衝出某個地方"
+    },
+    {
+      "id": "phrasal-verb-296-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The new singer had worked quietly for years before suddenly appearing on the world music scene.",
+      "promptZh": "那名新歌手默默工作多年後,突然在世界樂壇冒起。",
+      "starter": "The",
+      "answer": "The new singer had worked quietly for years before bursting onto the world music scene.",
+      "answerZh": "那名新歌手默默工作多年後,突然在世界樂壇冒起。",
+      "highlight": "bursting onto",
+      "targetForm": "burst onto something",
+      "targetMeaningZh": "突然在某個場景或領域出現並引起注意"
+    },
+    {
+      "id": "phrasal-verb-296-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The small boat moved straight through the high waves with surprising force.",
+      "promptZh": "那艘小船以驚人的力量直接穿過巨浪。",
+      "starter": "The",
+      "answer": "The small boat burst through the high waves with surprising force.",
+      "answerZh": "那艘小船以驚人的力量直接穿過巨浪。",
+      "highlight": "burst",
+      "targetForm": "burst through something",
+      "targetMeaningZh": "突然有力地穿過某物"
+    },
+    {
+      "id": "phrasal-verb-296-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After the final point, the supporters suddenly began cheering.",
+      "promptZh": "取得最後一分後,支持者突然歡呼起來。",
+      "starter": "After",
+      "answer": "After the final point, the supporters burst out cheering.",
+      "answerZh": "取得最後一分後,支持者突然歡呼起來。",
+      "highlight": "burst out",
+      "targetForm": "burst out doing something",
+      "targetMeaningZh": "突然開始做某事"
+    },
+    {
+      "id": "phrasal-verb-296-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The dog had been hiding in the cupboard, but it suddenly ran out when it heard its name.",
+      "promptZh": "那隻狗一直躲在櫃裏,但聽到自己的名字時突然跑了出來。",
+      "starter": "The",
+      "answer": "The dog had been hiding in the cupboard, but it burst out when it heard its name.",
+      "answerZh": "那隻狗一直躲在櫃裏,但聽到自己的名字時突然跑了出來。",
+      "highlight": "burst",
+      "targetForm": "burst out",
+      "targetMeaningZh": "突然衝出"
+    },
+    {
+      "id": "phrasal-verb-296-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "At the end of the argument, the manager shouted without warning, ‘This discussion is over!’",
+      "promptZh": "爭論結束時,經理毫無預兆地大喊:「這場討論到此為止!」",
+      "starter": "At",
+      "answer": "At the end of the argument, the manager burst out, ‘This discussion is over!’",
+      "answerZh": "爭論結束時,經理突然大喊:「這場討論到此為止!」",
+      "highlight": "burst out",
+      "targetForm": "burst out + speech",
+      "targetMeaningZh": "突然大聲說出帶有強烈感情的話"
+    }
+  ]
+}

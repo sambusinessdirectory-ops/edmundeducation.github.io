@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-36",
+  "order": 36,
+  "slug": "break",
+  "version": "1",
+  "title": "BREAK 動詞片語",
+  "titleEn": "Break",
+  "titleZh": "BREAK 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verb 35 - Break.pdf",
+    "sourceNumber": 35,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BREAK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BREAK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BREAK",
+      "highlight": "BREAK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Our school breaks up for Christmas next Friday.",
+      "zh": "我們學校下星期五開始放聖誕假。",
+      "highlight": "breaks up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The old boat broke up on the rocks.",
+      "zh": "那艘舊船撞上岩石後碎裂。",
+      "highlight": "broke up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Noah and his girlfriend broke up last year.",
+      "zh": "諾亞和女朋友去年分手了。",
+      "highlight": "broke up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "學校或課程結束,開始放假；碎裂;把某物弄碎或分成小塊；分手;與某人分手;使一對伴侶分開；分成較小組別;把一群人或事物分組；與某人、夥伴或組織決裂;結束聯繫；不再依循傳統、慣例、風格或舊有做法",
+    "en": "break up; break up into something / break something up into something; break up / break up with somebody / break somebody up; break up into something / break somebody or something up into something; break with somebody/something; break with something",
+    "naturalZh": [
+      "學校或課程結束,開始放假",
+      "碎裂;把某物弄碎或分成小塊",
+      "分手;與某人分手;使一對伴侶分開",
+      "分成較小組別;把一群人或事物分組",
+      "與某人、夥伴或組織決裂;結束聯繫",
+      "不再依循傳統、慣例、風格或舊有做法"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "break up",
+      "titleZh": "學校或課程結束,開始放假",
+      "titleEn": "break up",
+      "descriptionZh": "學校或課程結束,開始放假",
+      "descriptionEn": "Our school breaks up for Christmas next Friday.",
+      "examples": [
+        {
+          "en": "Our school breaks up for Christmas next Friday.",
+          "zh": "我們學校下星期五開始放聖誕假。",
+          "highlight": "breaks up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break up into something / break something up into something",
+      "titleZh": "碎裂;把某物弄碎或分成小塊",
+      "titleEn": "break up into something / break something up into something",
+      "descriptionZh": "碎裂;把某物弄碎或分成小塊",
+      "descriptionEn": "The old boat broke up on the rocks.",
+      "examples": [
+        {
+          "en": "The old boat broke up on the rocks.",
+          "zh": "那艘舊船撞上岩石後碎裂。",
+          "highlight": "broke up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break up / break up with somebody / break somebody up",
+      "titleZh": "分手;與某人分手;使一對伴侶分開",
+      "titleEn": "break up / break up with somebody / break somebody up",
+      "descriptionZh": "分手;與某人分手;使一對伴侶分開",
+      "descriptionEn": "Noah and his girlfriend broke up last year.",
+      "examples": [
+        {
+          "en": "Noah and his girlfriend broke up last year.",
+          "zh": "諾亞和女朋友去年分手了。",
+          "highlight": "broke up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break up into something / break somebody or something up into something",
+      "titleZh": "分成較小組別;把一群人或事物分組",
+      "titleEn": "break up into something / break somebody or something up into something",
+      "descriptionZh": "分成較小組別;把一群人或事物分組",
+      "descriptionEn": "The class broke up into four teams.",
+      "examples": [
+        {
+          "en": "The class broke up into four teams.",
+          "zh": "全班分成四隊。",
+          "highlight": "broke up into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break with somebody/something",
+      "titleZh": "與某人、夥伴或組織決裂;結束聯繫",
+      "titleEn": "break with somebody/something",
+      "descriptionZh": "與某人、夥伴或組織決裂;結束聯繫",
+      "descriptionEn": "The singer broke with her old manager.",
+      "examples": [
+        {
+          "en": "The singer broke with her old manager.",
+          "zh": "那名歌手與舊經理決裂。",
+          "highlight": "broke with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break with something",
+      "titleZh": "不再依循傳統、慣例、風格或舊有做法",
+      "titleEn": "break with something",
+      "descriptionZh": "不再依循傳統、慣例、風格或舊有做法",
+      "descriptionEn": "The school broke with tradition and held the ceremony outside.",
+      "examples": [
+        {
+          "en": "The school broke with tradition and held the ceremony outside.",
+          "zh": "學校打破傳統,在戶外舉行典禮。",
+          "highlight": "broke with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BREAK 片語動詞的實際用途",
+    "labelEn": "BREAK Phrasal Verbs in Use",
+    "summaryZh": "break up 可以表示學校或課程何時結束,並開始放聖誕假、復活節假、暑假或其他假期。；break up 可以描述實物碎成小塊,也可以描述一群人分成較小的組別。；你可以用 break up 談論戀愛關係的結束,也可以用 break with 談論合作或其他聯繫的結束。；break with tradition、practice 或 an old style 可以表示某人選擇不再依循一向的做法。",
+    "summaryEn": "Break up allows you to say when a school or course finishes for Christmas, Easter, summer or another holiday. Break up can describe a physical object becoming pieces. It can also describe people dividing into smaller groups. You can use break up for a romantic relationship and break with for a wider partnership or connection. Break with tradition, practice or an old style shows that someone has chosen a different way of doing something.",
+    "contextsZh": [
+      "清楚談論學校假期",
+      "描述碎裂和分組",
+      "談論不同關係的結束",
+      "談論改變舊有做法"
+    ],
+    "contextsEn": [
+      "Talk clearly about school holidays",
+      "Describe pieces and smaller groups",
+      "Talk about different kinds of relationships ending",
+      "Talk about changing old ways"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "break up",
+    "fixedHighlight": "break up",
+    "fixedZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning.",
+    "correct": "breaks up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 BREAK ... UP 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；break up with somebody 通常表示結束戀愛關係;break with somebody/something 則可以表示結束較廣泛的聯繫,或不再依循某種舊有做法。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them in a BREAK... UP expression, place the word as shown: break it up break him up break them up Break up with somebody usually means ending a romantic relationship. Break with somebody or something can describe ending a wider connection or no longer following an old practice.",
+    "variableItemsZh": [
+      "break up",
+      "break up into something / break something up into something",
+      "break up / break up with somebody / break somebody up",
+      "break up into something / break somebody or something up into something",
+      "break with somebody/something",
+      "break with something"
+    ],
+    "variableItemsEn": [
+      "break up",
+      "break up into something / break something up into something",
+      "break up / break up with somebody / break somebody up",
+      "break up into something / break somebody or something up into something",
+      "break with somebody/something",
+      "break with something"
+    ],
+    "forms": [
+      {
+        "formZh": "學校或課程結束,開始放假",
+        "formEn": "break up",
+        "exampleZh": "我們學校下星期五開始放聖誕假。",
+        "exampleEn": "Our school breaks up for Christmas next Friday.",
+        "highlight": "breaks up"
+      },
+      {
+        "formZh": "碎裂;把某物弄碎或分成小塊",
+        "formEn": "break up into something / break something up into something",
+        "exampleZh": "那艘舊船撞上岩石後碎裂。",
+        "exampleEn": "The old boat broke up on the rocks.",
+        "highlight": "broke up"
+      },
+      {
+        "formZh": "分手;與某人分手;使一對伴侶分開",
+        "formEn": "break up / break up with somebody / break somebody up",
+        "exampleZh": "諾亞和女朋友去年分手了。",
+        "exampleEn": "Noah and his girlfriend broke up last year.",
+        "highlight": "broke up"
+      },
+      {
+        "formZh": "分成較小組別;把一群人或事物分組",
+        "formEn": "break up into something / break somebody or something up into something",
+        "exampleZh": "全班分成四隊。",
+        "exampleEn": "The class broke up into four teams.",
+        "highlight": "broke up into"
+      },
+      {
+        "formZh": "與某人、夥伴或組織決裂;結束聯繫",
+        "formEn": "break with somebody/something",
+        "exampleZh": "那名歌手與舊經理決裂。",
+        "exampleEn": "The singer broke with her old manager.",
+        "highlight": "broke with"
+      },
+      {
+        "formZh": "不再依循傳統、慣例、風格或舊有做法",
+        "formEn": "break with something",
+        "exampleZh": "學校打破傳統,在戶外舉行典禮。",
+        "exampleEn": "The school broke with tradition and held the ceremony outside.",
+        "highlight": "broke with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "學校或課程結束,開始放假",
+      "titleEn": "break up",
+      "formula": "break up",
+      "highlight": "break up",
+      "descriptionZh": "學校或課程結束,開始放假",
+      "descriptionEn": "Our school breaks up for Christmas next Friday.",
+      "examples": [
+        {
+          "en": "Our school breaks up for Christmas next Friday.",
+          "zh": "我們學校下星期五開始放聖誕假。",
+          "highlight": "breaks up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "碎裂;把某物弄碎或分成小塊",
+      "titleEn": "break up into something / break something up into something",
+      "formula": "break up into something / break something up into something",
+      "highlight": "break up into something / break something up into something",
+      "descriptionZh": "碎裂;把某物弄碎或分成小塊",
+      "descriptionEn": "The old boat broke up on the rocks.",
+      "examples": [
+        {
+          "en": "The old boat broke up on the rocks.",
+          "zh": "那艘舊船撞上岩石後碎裂。",
+          "highlight": "broke up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "分手;與某人分手;使一對伴侶分開",
+      "titleEn": "break up / break up with somebody / break somebody up",
+      "formula": "break up / break up with somebody / break somebody up",
+      "highlight": "break up / break up with somebody / break somebody up",
+      "descriptionZh": "分手;與某人分手;使一對伴侶分開",
+      "descriptionEn": "Noah and his girlfriend broke up last year.",
+      "examples": [
+        {
+          "en": "Noah and his girlfriend broke up last year.",
+          "zh": "諾亞和女朋友去年分手了。",
+          "highlight": "broke up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "分成較小組別;把一群人或事物分組",
+      "titleEn": "break up into something / break somebody or something up into something",
+      "formula": "break up into something / break somebody or something up into something",
+      "highlight": "break up into something / break somebody or something up into something",
+      "descriptionZh": "分成較小組別;把一群人或事物分組",
+      "descriptionEn": "The class broke up into four teams.",
+      "examples": [
+        {
+          "en": "The class broke up into four teams.",
+          "zh": "全班分成四隊。",
+          "highlight": "broke up into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "與某人、夥伴或組織決裂;結束聯繫",
+      "titleEn": "break with somebody/something",
+      "formula": "break with somebody/something",
+      "highlight": "break with somebody/something",
+      "descriptionZh": "與某人、夥伴或組織決裂;結束聯繫",
+      "descriptionEn": "The singer broke with her old manager.",
+      "examples": [
+        {
+          "en": "The singer broke with her old manager.",
+          "zh": "那名歌手與舊經理決裂。",
+          "highlight": "broke with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "不再依循傳統、慣例、風格或舊有做法",
+      "titleEn": "break with something",
+      "formula": "break with something",
+      "highlight": "break with something",
+      "descriptionZh": "不再依循傳統、慣例、風格或舊有做法",
+      "descriptionEn": "The school broke with tradition and held the ceremony outside.",
+      "examples": [
+        {
+          "en": "The school broke with tradition and held the ceremony outside.",
+          "zh": "學校打破傳統,在戶外舉行典禮。",
+          "highlight": "broke with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論學校假期",
+      "titleEn": "Talk clearly about school holidays",
+      "zh": "break up 可以表示學校或課程何時結束,並開始放聖誕假、復活節假、暑假或其他假期。",
+      "en": "Break up allows you to say when a school or course finishes for Christmas, Easter, summer or another holiday."
+    },
+    {
+      "titleZh": "描述碎裂和分組",
+      "titleEn": "Describe pieces and smaller groups",
+      "zh": "break up 可以描述實物碎成小塊,也可以描述一群人分成較小的組別。",
+      "en": "Break up can describe a physical object becoming pieces. It can also describe people dividing into smaller groups."
+    },
+    {
+      "titleZh": "談論不同關係的結束",
+      "titleEn": "Talk about different kinds of relationships ending",
+      "zh": "你可以用 break up 談論戀愛關係的結束,也可以用 break with 談論合作或其他聯繫的結束。",
+      "en": "You can use break up for a romantic relationship and break with for a wider partnership or connection."
+    },
+    {
+      "titleZh": "談論改變舊有做法",
+      "titleEn": "Talk about changing old ways",
+      "zh": "break with tradition、practice 或 an old style 可以表示某人選擇不再依循一向的做法。",
+      "en": "Break with tradition, practice or an old style shows that someone has chosen a different way of doing something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論學校假期",
+      "描述碎裂和分組",
+      "談論不同關係的結束",
+      "談論改變舊有做法"
+    ],
+    "contextsEn": [
+      "Talk clearly about school holidays",
+      "Describe pieces and smaller groups",
+      "Talk about different kinds of relationships ending",
+      "Talk about changing old ways"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論學校假期",
+        "titleEn": "Talk clearly about school holidays",
+        "zh": "break up 可以表示學校或課程何時結束,並開始放聖誕假、復活節假、暑假或其他假期。",
+        "en": "Break up allows you to say when a school or course finishes for Christmas, Easter, summer or another holiday.",
+        "examples": [
+          {
+            "en": "Our school breaks up for Christmas next Friday.",
+            "zh": "我們學校下星期五開始放聖誕假。",
+            "highlight": "breaks up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述碎裂和分組",
+        "titleEn": "Describe pieces and smaller groups",
+        "zh": "break up 可以描述實物碎成小塊,也可以描述一群人分成較小的組別。",
+        "en": "Break up can describe a physical object becoming pieces. It can also describe people dividing into smaller groups.",
+        "examples": [
+          {
+            "en": "The old boat broke up on the rocks.",
+            "zh": "那艘舊船撞上岩石後碎裂。",
+            "highlight": "broke up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不同關係的結束",
+        "titleEn": "Talk about different kinds of relationships ending",
+        "zh": "你可以用 break up 談論戀愛關係的結束,也可以用 break with 談論合作或其他聯繫的結束。",
+        "en": "You can use break up for a romantic relationship and break with for a wider partnership or connection.",
+        "examples": [
+          {
+            "en": "Noah and his girlfriend broke up last year.",
+            "zh": "諾亞和女朋友去年分手了。",
+            "highlight": "broke up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論改變舊有做法",
+        "titleEn": "Talk about changing old ways",
+        "zh": "break with tradition、practice 或 an old style 可以表示某人選擇不再依循一向的做法。",
+        "en": "Break with tradition, practice or an old style shows that someone has chosen a different way of doing something.",
+        "examples": [
+          {
+            "en": "The class broke up into four teams.",
+            "zh": "全班分成四隊。",
+            "highlight": "broke up into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+      "en": "Read the whole sentence and choose the BREAK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 BREAK ... UP 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them in a BREAK.",
+      "zh": "在 BREAK ... UP 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them in a BREAK... UP expression, place the word as shown: break it up break him up break them up"
+    },
+    {
+      "titleZh": "break up with somebody 通常表示結束戀愛關係;break with somebody/something 則可以表示結束較廣泛的聯繫,或不再依循某種舊有做法。",
+      "titleEn": "Break up with somebody usually means ending a romantic relationship.",
+      "zh": "break up with somebody 通常表示結束戀愛關係;break with somebody/something 則可以表示結束較廣泛的聯繫,或不再依循某種舊有做法。",
+      "en": "Break up with somebody usually means ending a romantic relationship. Break with somebody or something can describe ending a wider connection or no longer following an old practice."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BREAK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BREAK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BREAK 動詞片語句子改寫練習",
+    "titleEn": "BREAK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BREAK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BREAK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-36-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our school finishes classes for Christmas next Friday.",
+      "promptZh": "我們學校下星期五結束課堂,開始放聖誕假。",
+      "starter": "Our",
+      "answer": "Our school breaks up for Christmas next Friday.",
+      "answerZh": "我們學校下星期五開始放聖誕假。",
+      "highlight": "breaks up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The old boat broke into pieces on the rocks.",
+      "promptZh": "那艘舊船撞上岩石後碎成多塊。",
+      "starter": "The",
+      "answer": "The old boat broke up on the rocks.",
+      "answerZh": "那艘舊船撞上岩石後碎裂。",
+      "highlight": "broke up",
+      "targetForm": "break up",
+      "targetMeaningZh": "碎裂或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Chloe ended her relationship with her boyfriend last month.",
+      "promptZh": "克洛伊上個月結束了與男朋友的戀愛關係。",
+      "starter": "Chloe",
+      "answer": "Chloe broke up with her boyfriend last month.",
+      "answerZh": "克洛伊上個月與男朋友分手。",
+      "highlight": "broke up",
+      "targetForm": "break up with somebody",
+      "targetMeaningZh": "與某人分手"
+    },
+    {
+      "id": "phrasal-verb-36-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The class divided into four teams.",
+      "promptZh": "全班分成四隊。",
+      "starter": "The",
+      "answer": "The class broke up into four teams.",
+      "answerZh": "全班分成四隊。",
+      "highlight": "broke up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Jordan ended his working relationship with Sam, his business partner, and opened a new shop.",
+      "promptZh": "喬丹結束了與生意夥伴山姆的合作關係,並開了一間新店。",
+      "starter": "Jordan",
+      "answer": "Jordan broke with Sam, his business partner, and opened a new shop.",
+      "answerZh": "喬丹與生意夥伴山姆決裂,並開了一間新店。",
+      "highlight": "broke",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人或夥伴決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The school stopped following tradition and held the ceremony outside.",
+      "promptZh": "學校不再依循傳統,改在戶外舉行典禮。",
+      "starter": "The",
+      "answer": "The school broke with tradition and held the ceremony outside.",
+      "answerZh": "學校打破傳統,在戶外舉行典禮。",
+      "highlight": "broke with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循傳統或舊有做法"
+    },
+    {
+      "id": "phrasal-verb-36-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Dad divided the dry bread into small pieces.",
+      "promptZh": "爸爸把乾麵包分成小塊。",
+      "starter": "Dad",
+      "answer": "Dad broke the dry bread up into small pieces.",
+      "answerZh": "爸爸把乾麵包弄成小塊。",
+      "highlight": "broke",
+      "targetForm": "break something up into something",
+      "targetMeaningZh": "把某物弄碎或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The teacher divided the class into four groups.",
+      "promptZh": "老師把全班分成四組。",
+      "starter": "The",
+      "answer": "The teacher broke the class up into four groups.",
+      "answerZh": "老師把全班分成四組。",
+      "highlight": "broke",
+      "targetForm": "break something up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We finish classes for the summer on 12 July.",
+      "promptZh": "我們在七月十二日結束課堂,開始放暑假。",
+      "starter": "We",
+      "answer": "We break up for the summer on 12 July.",
+      "answerZh": "我們在七月十二日開始放暑假。",
+      "highlight": "break up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "This year, the family is not following its usual Christmas tradition.",
+      "promptZh": "今年,這個家庭不再按照一向的聖誕傳統行事。",
+      "starter": "This",
+      "answer": "This year, the family is breaking with its usual Christmas tradition.",
+      "answerZh": "今年,這個家庭正打破一向的聖誕傳統。",
+      "highlight": "breaking with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循傳統或慣例"
+    },
+    {
+      "id": "phrasal-verb-36-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Noah and his girlfriend ended their relationship last year.",
+      "promptZh": "諾亞和女朋友去年結束了戀愛關係。",
+      "starter": "Noah",
+      "answer": "Noah and his girlfriend broke up last year.",
+      "answerZh": "諾亞和女朋友去年分手了。",
+      "highlight": "broke up",
+      "targetForm": "break up",
+      "targetMeaningZh": "結束戀愛關係"
+    },
+    {
+      "id": "phrasal-verb-36-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The singer ended her working relationship with her old manager after a serious disagreement.",
+      "promptZh": "那名歌手與舊經理發生嚴重分歧後,結束了合作關係。",
+      "starter": "The",
+      "answer": "The singer broke with her old manager after a serious disagreement.",
+      "answerZh": "那名歌手與舊經理發生嚴重分歧後決裂。",
+      "highlight": "broke",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人或夥伴決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are Ella and Tom ending their relationship?",
+      "promptZh": "埃拉和湯姆正準備結束戀愛關係嗎?",
+      "starter": "Are",
+      "answer": "Are Ella and Tom breaking up?",
+      "answerZh": "埃拉和湯姆正準備分手嗎?",
+      "highlight": "breaking up",
+      "targetForm": "break up",
+      "targetMeaningZh": "結束戀愛關係"
+    },
+    {
+      "id": "phrasal-verb-36-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The restaurant has stopped following its old practice of closing on Mondays.",
+      "promptZh": "這間餐廳已不再依循逢星期一休息的舊慣例。",
+      "starter": "The",
+      "answer": "The restaurant has broken with its old practice of closing on Mondays.",
+      "answerZh": "這間餐廳已打破逢星期一休息的舊慣例。",
+      "highlight": "broken with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循舊有做法"
+    },
+    {
+      "id": "phrasal-verb-36-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The ice is breaking into smaller pieces as the weather gets warmer.",
+      "promptZh": "天氣變暖,冰正碎成較小的冰塊。",
+      "starter": "The",
+      "answer": "The ice is breaking up as the weather gets warmer.",
+      "answerZh": "天氣變暖,冰正逐漸碎裂。",
+      "highlight": "breaking up",
+      "targetForm": "break up",
+      "targetMeaningZh": "碎裂或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We are finishing classes for Easter at the end of this week.",
+      "promptZh": "我們會在本星期結束時結束課堂,開始放復活節假期。",
+      "starter": "We",
+      "answer": "We are breaking up for Easter at the end of this week.",
+      "answerZh": "我們會在本星期結束時開始放復活節假期。",
+      "highlight": "breaking up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The visitors are dividing into smaller groups.",
+      "promptZh": "訪客正分成較小的組別。",
+      "starter": "The",
+      "answer": "The visitors are breaking up into smaller groups.",
+      "answerZh": "訪客正分成較小的組別。",
+      "highlight": "breaking up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The small group has ended its connection with the main organisation.",
+      "promptZh": "這個小組已結束與主要組織的聯繫。",
+      "starter": "The",
+      "answer": "The small group has broken with the main organisation.",
+      "answerZh": "這個小組已與主要組織決裂。",
+      "highlight": "broken",
+      "targetForm": "break with something",
+      "targetMeaningZh": "與組織或團體決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "When does your school finish classes for the summer holiday?",
+      "promptZh": "你的學校何時結束課堂,開始放暑假?",
+      "starter": "When",
+      "answer": "When does your school break up for the summer holiday?",
+      "answerZh": "你的學校何時開始放暑假?",
+      "highlight": "break up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "One serious argument caused them to end their relationship.",
+      "promptZh": "一次嚴重爭吵令他們結束了戀愛關係。",
+      "starter": "One",
+      "answer": "One serious argument broke them up.",
+      "answerZh": "一次嚴重爭吵令他們分手。",
+      "highlight": "broke",
+      "targetForm": "break somebody up",
+      "targetMeaningZh": "使一對伴侶分開"
+    },
+    {
+      "id": "phrasal-verb-36-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why did Alex end his working relationship with his closest adviser?",
+      "promptZh": "亞歷克斯為何結束與最親近顧問的合作關係?",
+      "starter": "Why",
+      "answer": "Why did Alex break with his closest adviser?",
+      "answerZh": "亞歷克斯為何與最親近的顧問決裂?",
+      "highlight": "break",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人或夥伴決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please divide the chocolate into six pieces.",
+      "promptZh": "請把朱古力分成六塊。",
+      "starter": "Please",
+      "answer": "Please break the chocolate up into six pieces.",
+      "answerZh": "請把朱古力分成六塊。",
+      "highlight": "break",
+      "targetForm": "break something up into something",
+      "targetMeaningZh": "把某物弄碎或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why did the team stop following tradition and wear white?",
+      "promptZh": "球隊為何打破傳統,改穿白色球衣?",
+      "starter": "Why",
+      "answer": "Why did the team break with tradition and wear white?",
+      "answerZh": "球隊為何打破傳統,改穿白色球衣?",
+      "highlight": "break with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循傳統或慣例"
+    },
+    {
+      "id": "phrasal-verb-36-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The guide divided us into pairs.",
+      "promptZh": "導遊把我們分成兩人一組。",
+      "starter": "The",
+      "answer": "The guide broke us up into pairs.",
+      "answerZh": "導遊把我們分成兩人一組。",
+      "highlight": "broke",
+      "targetForm": "break somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The players were divided into three groups for the activity.",
+      "promptZh": "活動期間,參加者被分成三組。",
+      "starter": "The",
+      "answer": "The players were broken up into three groups for the activity.",
+      "answerZh": "活動期間,參加者被分成三組。",
+      "highlight": "broken up",
+      "targetForm": "break somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When the biscuit became hard, I broke it into small pieces for the birds.",
+      "promptZh": "餅乾變硬後,我把它弄成小塊餵雀鳥。",
+      "starter": "When",
+      "answer": "When the biscuit became hard, I broke it up into small pieces for the birds.",
+      "answerZh": "餅乾變硬後,我把它弄成小塊餵雀鳥。",
+      "highlight": "broke it up",
+      "targetForm": "break something up into something",
+      "targetMeaningZh": "把某物弄碎或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The company may end its business relationship with its overseas partner after they have disagreed many times.",
+      "promptZh": "多次出現分歧後,公司可能會結束與海外夥伴的合作關係。",
+      "starter": "The",
+      "answer": "The company may break with its overseas partner after they have disagreed many times.",
+      "answerZh": "多次出現分歧後,公司可能會與海外夥伴決裂。",
+      "highlight": "break",
+      "targetForm": "break with somebody/something",
+      "targetMeaningZh": "與夥伴或組織決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Ben has ended his relationship with his partner.",
+      "promptZh": "賓已結束與伴侶的戀愛關係。",
+      "starter": "Ben",
+      "answer": "Ben has broken up with his partner.",
+      "answerZh": "賓已與伴侶分手。",
+      "highlight": "broken up",
+      "targetForm": "break up with somebody",
+      "targetMeaningZh": "與某人分手"
+    },
+    {
+      "id": "phrasal-verb-36-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We should not be afraid to stop following old ways.",
+      "promptZh": "我們不應害怕放棄舊有做法。",
+      "starter": "We",
+      "answer": "We should not be afraid to break with old ways.",
+      "answerZh": "我們不應害怕擺脫舊有做法。",
+      "highlight": "break with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循舊有做法"
+    },
+    {
+      "id": "phrasal-verb-36-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The school has already finished for Christmas.",
+      "promptZh": "學校已經開始放聖誕假。",
+      "starter": "The",
+      "answer": "The school has already broken up for Christmas.",
+      "answerZh": "學校已經開始放聖誕假。",
+      "highlight": "broken up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Nothing could make the couple end their relationship while they still trusted each other.",
+      "promptZh": "只要這對伴侶仍然互相信任,任何事情都無法令他們分開。",
+      "starter": "Nothing",
+      "answer": "Nothing could break the couple up while they still trusted each other.",
+      "answerZh": "只要這對伴侶仍然互相信任,任何事情都無法令他們分手。",
+      "highlight": "break",
+      "targetForm": "break somebody up",
+      "targetMeaningZh": "使一對伴侶分開"
+    },
+    {
+      "id": "phrasal-verb-36-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The local club ended its connection with the national organisation after the rule change.",
+      "promptZh": "規則改變後,這間本地會所結束了與全國組織的聯繫。",
+      "starter": "The",
+      "answer": "The local club broke with the national organisation after the rule change.",
+      "answerZh": "規則改變後,這間本地會所與全國組織決裂。",
+      "highlight": "broke",
+      "targetForm": "break with something",
+      "targetMeaningZh": "與組織或團體決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We will finish for half-term tomorrow afternoon.",
+      "promptZh": "我們明天下午開始放半學期假期。",
+      "starter": "We",
+      "answer": "We will break up for half-term tomorrow afternoon.",
+      "answerZh": "我們明天下午開始放半學期假期。",
+      "highlight": "break up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The organiser will divide the players into teams of five.",
+      "promptZh": "主辦人會把參賽者分成每隊五人的小組。",
+      "starter": "The",
+      "answer": "The organiser will break the players up into teams of five.",
+      "answerZh": "主辦人會把參賽者分成每隊五人的小組。",
+      "highlight": "break",
+      "targetForm": "break somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The storm caused the old raft to break into pieces on the rocks.",
+      "promptZh": "暴風雨令舊木筏撞上岩石後碎裂。",
+      "starter": "The",
+      "answer": "The storm broke the old raft up on the rocks.",
+      "answerZh": "暴風雨令舊木筏撞上岩石後碎裂。",
+      "highlight": "broke",
+      "targetForm": "break something up",
+      "targetMeaningZh": "使某物碎裂"
+    },
+    {
+      "id": "phrasal-verb-36-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The director wants to stop using the usual way of telling the story.",
+      "promptZh": "導演想停止使用一向的故事講述方式。",
+      "starter": "The",
+      "answer": "The director wants to break with the usual way of telling the story.",
+      "answerZh": "導演想打破一向的故事講述方式。",
+      "highlight": "break with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循舊有風格或做法"
+    },
+    {
+      "id": "phrasal-verb-36-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "By using local music, the film does not follow the usual style of the series.",
+      "promptZh": "這部電影採用本地音樂,不再依循這個系列一向的風格。",
+      "starter": "By",
+      "answer": "By using local music, the film breaks with the usual style of the series.",
+      "answerZh": "這部電影採用本地音樂,打破這個系列一向的風格。",
+      "highlight": "breaks with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循舊有風格"
+    },
+    {
+      "id": "phrasal-verb-36-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the last lesson, the children’s spring holiday began.",
+      "promptZh": "最後一課結束後,孩子們開始放春假。",
+      "starter": "After",
+      "answer": "After the last lesson, the children broke up for the spring holiday.",
+      "answerZh": "最後一課結束後,孩子們開始放春假。",
+      "highlight": "children broke up for the",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The large crowd slowly separated into smaller groups.",
+      "promptZh": "大群人慢慢分成較小的組別。",
+      "starter": "The",
+      "answer": "The large crowd slowly broke up into smaller groups.",
+      "answerZh": "大群人慢慢分成較小的組別。",
+      "highlight": "broke up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "She refused to end her connection with her old friends when she became famous.",
+      "promptZh": "她成名後仍拒絕與老朋友斷絕聯繫。",
+      "starter": "She",
+      "answer": "She refused to break with her old friends when she became famous.",
+      "answerZh": "她成名後仍拒絕與老朋友決裂。",
+      "highlight": "break",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人斷絕聯繫"
+    },
+    {
+      "id": "phrasal-verb-36-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The machine divides old glass into small pieces.",
+      "promptZh": "這部機器把舊玻璃分成小塊。",
+      "starter": "The",
+      "answer": "The machine breaks old glass up into small pieces.",
+      "answerZh": "這部機器把舊玻璃分成小塊。",
+      "highlight": "breaks",
+      "targetForm": "break something up into something",
+      "targetMeaningZh": "把某物弄碎或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After several unhappy months, Priya ended her relationship with her boyfriend.",
+      "promptZh": "經過幾個不開心的月份後,普里雅結束了與男朋友的戀愛關係。",
+      "starter": "After",
+      "answer": "After several unhappy months, Priya broke up with her boyfriend.",
+      "answerZh": "經過幾個不開心的月份後,普里雅與男朋友分手。",
+      "highlight": "broke up",
+      "targetForm": "break up with somebody",
+      "targetMeaningZh": "與某人分手"
+    },
+    {
+      "id": "phrasal-verb-36-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The new leader is planning to end her working relationships with several former advisers.",
+      "promptZh": "新領袖正計劃結束與幾名前顧問的合作關係。",
+      "starter": "The",
+      "answer": "The new leader is planning to break with several former advisers.",
+      "answerZh": "新領袖正計劃與幾名前顧問決裂。",
+      "highlight": "break",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人或夥伴決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Under the weight of the bag, the thin sheet of ice broke into several pieces.",
+      "promptZh": "袋子的重量令薄冰碎成數塊。",
+      "starter": "Under",
+      "answer": "Under the weight of the bag, the thin sheet of ice broke up into several pieces.",
+      "answerZh": "袋子的重量令薄冰碎成數塊。",
+      "highlight": "broke up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "碎裂或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The distance between the two cities finally caused them to end their relationship.",
+      "promptZh": "兩座城市之間的距離最終令他們結束了戀愛關係。",
+      "starter": "The",
+      "answer": "The distance between the two cities finally broke them up.",
+      "answerZh": "兩座城市之間的距離最終令他們分手。",
+      "highlight": "broke",
+      "targetForm": "break somebody up",
+      "targetMeaningZh": "使一對伴侶分開"
+    },
+    {
+      "id": "phrasal-verb-36-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By opening on Sunday, the company did not follow its normal practice.",
+      "promptZh": "公司在星期日營業,不再依循平日的做法。",
+      "starter": "By",
+      "answer": "By opening on Sunday, the company broke with its normal practice.",
+      "answerZh": "公司在星期日營業,打破平日的做法。",
+      "highlight": "broke with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循慣常做法"
+    },
+    {
+      "id": "phrasal-verb-36-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the game, the coach divided the children into two equal teams.",
+      "promptZh": "比賽前,教練把孩子們分成兩隊,人數相同。",
+      "starter": "Before",
+      "answer": "Before the game, the coach broke the children up into two equal teams.",
+      "answerZh": "比賽前,教練把孩子們分成兩隊,人數相同。",
+      "highlight": "broke",
+      "targetForm": "break somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The college does not finish for Christmas until 20 December.",
+      "promptZh": "這間學院要到十二月二十日才開始放聖誕假。",
+      "starter": "The",
+      "answer": "The college does not break up for Christmas until 20 December.",
+      "answerZh": "這間學院要到十二月二十日才開始放聖誕假。",
+      "highlight": "break up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If the box is too large, divide it into smaller pieces before putting it in the bin.",
+      "promptZh": "如果紙箱太大,放進垃圾桶前先把它弄成小塊。",
+      "starter": "If",
+      "answer": "If the box is too large, break it up before putting it in the bin.",
+      "answerZh": "如果紙箱太大,放進垃圾桶前先把它弄成小塊。",
+      "highlight": "break",
+      "targetForm": "break something up",
+      "targetMeaningZh": "把某物弄碎或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although they had worked together for years, Daniel ended his working relationship with his business partner and started again alone.",
+      "promptZh": "雖然丹尼爾和生意夥伴合作多年,但他結束了合作關係,獨自重新開始。",
+      "starter": "Although",
+      "answer": "Although they had worked together for years, Daniel broke with his business partner and started again alone.",
+      "answerZh": "雖然丹尼爾和生意夥伴合作多年,但他最後與對方決裂,獨自重新開始。",
+      "highlight": "broke",
+      "targetForm": "break with somebody",
+      "targetMeaningZh": "與某人或夥伴決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although the weather is warm, we do not finish classes for the summer until next month.",
+      "promptZh": "雖然天氣溫暖,但我們要到下個月才結束課堂,開始放暑假。",
+      "starter": "Although",
+      "answer": "Although the weather is warm, we do not break up for the summer until next month.",
+      "answerZh": "雖然天氣溫暖,但我們要到下個月才開始放暑假。",
+      "highlight": "break up",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "To attract younger readers, the magazine stopped using its old style.",
+      "promptZh": "為了吸引年輕讀者,這本雜誌不再使用舊有風格。",
+      "starter": "To",
+      "answer": "To attract younger readers, the magazine broke with its old style.",
+      "answerZh": "為了吸引年輕讀者,這本雜誌打破了舊有風格。",
+      "highlight": "broke with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循舊有風格"
+    },
+    {
+      "id": "phrasal-verb-36-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even though her friends were surprised, Aisha decided to end her relationship with her boyfriend.",
+      "promptZh": "雖然朋友感到驚訝,艾莎仍決定結束與男朋友的戀愛關係。",
+      "starter": "Even",
+      "answer": "Even though her friends were surprised, Aisha decided to break up with her boyfriend.",
+      "answerZh": "雖然朋友感到驚訝,艾莎仍決定與男朋友分手。",
+      "highlight": "break up",
+      "targetForm": "break up with somebody",
+      "targetMeaningZh": "與某人分手"
+    },
+    {
+      "id": "phrasal-verb-36-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "As soon as everyone arrived, the group divided into pairs to practise.",
+      "promptZh": "所有人到達後,小組立即分成兩人一組練習。",
+      "starter": "As",
+      "answer": "As soon as everyone arrived, the group broke up into pairs to practise.",
+      "answerZh": "所有人到達後,小組立即分成兩人一組練習。",
+      "highlight": "broke up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Once the final class ends on Friday, the school’s winter holiday will begin.",
+      "promptZh": "星期五最後一課結束後,學校便開始放寒假。",
+      "starter": "Once",
+      "answer": "Once the final class ends on Friday, the school will break up for the winter holiday.",
+      "answerZh": "星期五最後一課結束後,學校便開始放寒假。",
+      "highlight": "school will break up for the",
+      "targetForm": "break up",
+      "targetMeaningZh": "學校或課程開始放假"
+    },
+    {
+      "id": "phrasal-verb-36-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The couple had almost ended their relationship, but they chose to talk honestly.",
+      "promptZh": "這對伴侶差點結束戀愛關係,但最後選擇坦誠交談。",
+      "starter": "The",
+      "answer": "The couple had almost broken up, but they chose to talk honestly.",
+      "answerZh": "這對伴侶差點分手,但最後選擇坦誠交談。",
+      "highlight": "broken up",
+      "targetForm": "break up",
+      "targetMeaningZh": "結束戀愛關係"
+    },
+    {
+      "id": "phrasal-verb-36-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After lunch, the conference divided into discussion groups.",
+      "promptZh": "午飯後,會議分成多個討論小組。",
+      "starter": "After",
+      "answer": "After lunch, the conference broke up into discussion groups.",
+      "answerZh": "午飯後,會議分成多個討論小組。",
+      "highlight": "broke up",
+      "targetForm": "break up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-36-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The model plane broke into pieces when it hit the ground.",
+      "promptZh": "模型飛機撞到地面時碎成多塊。",
+      "starter": "The",
+      "answer": "The model plane broke up when it hit the ground.",
+      "answerZh": "模型飛機撞到地面時解體碎裂。",
+      "highlight": "broke up",
+      "targetForm": "break up",
+      "targetMeaningZh": "碎裂或分成小塊"
+    },
+    {
+      "id": "phrasal-verb-36-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After months of disagreement, the committee voted to end its connection with the larger group.",
+      "promptZh": "經過多個月的分歧後,委員會投票決定結束與較大團體的聯繫。",
+      "starter": "After",
+      "answer": "After months of disagreement, the committee voted to break with the larger group.",
+      "answerZh": "經過多個月的分歧後,委員會投票決定與較大團體決裂。",
+      "highlight": "break",
+      "targetForm": "break with something",
+      "targetMeaningZh": "與組織或團體決裂"
+    },
+    {
+      "id": "phrasal-verb-36-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Instead of repeating last year’s plan, the club decided to stop following tradition.",
+      "promptZh": "會所決定不再重複去年的計劃,並打破傳統。",
+      "starter": "Instead",
+      "answer": "Instead of repeating last year’s plan, the club decided to break with tradition.",
+      "answerZh": "會所決定不再重複去年的計劃,並打破傳統。",
+      "highlight": "break with",
+      "targetForm": "break with something",
+      "targetMeaningZh": "不再依循傳統或舊有做法"
+    }
+  ]
+}

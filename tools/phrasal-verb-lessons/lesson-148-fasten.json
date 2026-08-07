@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-148",
+  "order": 148,
+  "slug": "fasten",
+  "version": "1",
+  "title": "FASTEN 動詞片語",
+  "titleEn": "Fasten",
+  "titleZh": "FASTEN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 147 - FASTEN.pdf",
+    "sourceNumber": 147,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FASTEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FASTEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FASTEN",
+      "highlight": "FASTEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Everyone’s eyes fastened on the screen.",
+      "zh": "每個人的目光都集中在螢幕上。",
+      "highlight": "fastened on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The puppy fastened onto the rope with its teeth.",
+      "zh": "小狗用牙齒緊緊咬住繩子。",
+      "highlight": "fastened onto",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They fastened the blame on the driver.",
+      "zh": "他們把責任歸咎於司機。",
+      "highlight": "fastened the blame on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把目光或注意力集中於某人或某事物；緊緊咬住或抓住某物；把責任或過錯歸咎於某人或某事物；扣好、拉好或關好衣物、袋子或其他物件",
+    "en": "fasten on somebody/something; fasten something on somebody/something; fasten upon something; fasten on/onto something; fasten upon something; fasten something on/onto somebody/something; fasten up; fasten something up",
+    "naturalZh": [
+      "把目光或注意力集中於某人或某事物",
+      "緊緊咬住或抓住某物",
+      "把責任或過錯歸咎於某人或某事物",
+      "扣好、拉好或關好衣物、袋子或其他物件"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "titleZh": "把目光或注意力集中於某人或某事物",
+      "titleEn": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "descriptionZh": "把目光或注意力集中於某人或某事物",
+      "descriptionEn": "Everyone’s eyes fastened on the screen.",
+      "examples": [
+        {
+          "en": "Everyone’s eyes fastened on the screen.",
+          "zh": "每個人的目光都集中在螢幕上。",
+          "highlight": "fastened on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fasten on/onto something; fasten upon something",
+      "titleZh": "緊緊咬住或抓住某物",
+      "titleEn": "fasten on/onto something; fasten upon something",
+      "descriptionZh": "緊緊咬住或抓住某物",
+      "descriptionEn": "The puppy fastened onto the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The puppy fastened onto the rope with its teeth.",
+          "zh": "小狗用牙齒緊緊咬住繩子。",
+          "highlight": "fastened onto"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fasten something on/onto somebody/something",
+      "titleZh": "把責任或過錯歸咎於某人或某事物",
+      "titleEn": "fasten something on/onto somebody/something",
+      "descriptionZh": "把責任或過錯歸咎於某人或某事物",
+      "descriptionEn": "They fastened the blame on the driver.",
+      "examples": [
+        {
+          "en": "They fastened the blame on the driver.",
+          "zh": "他們把責任歸咎於司機。",
+          "highlight": "fastened the blame on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fasten up; fasten something up",
+      "titleZh": "扣好、拉好或關好衣物、袋子或其他物件",
+      "titleEn": "fasten up; fasten something up",
+      "descriptionZh": "扣好、拉好或關好衣物、袋子或其他物件",
+      "descriptionEn": "Please fasten your coat up.",
+      "examples": [
+        {
+          "en": "Please fasten your coat up.",
+          "zh": "請把外套扣好。",
+          "highlight": "fasten your coat up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FASTEN 片語動詞的實際用途",
+    "labelEn": "FASTEN Phrasal Verbs in Use",
+    "summaryZh": "FASTEN 片語動詞可以描述某人的目光或注意力集中在一個人或事物上的情況。；fasten on、fasten onto 和 fasten upon 可以描述牙齒、上下顎、爪子或手指緊緊抓住某物。；fasten the blame on somebody 可以幫助你說明某個問題或錯誤的責任被歸咎於誰。；fasten up 可以用來叫人把外套、連身裙、袋子或類似物件扣好或關好。",
+    "summaryEn": "FASTEN expressions can describe the moment when someone’s eyes or attention settle on one person or thing. Fasten on, fasten onto and fasten upon can describe teeth, jaws, claws or fingers holding something tightly. Fasten the blame on somebody helps you explain who is being held responsible for a problem or mistake. Fasten up can be used when telling someone to close a coat, dress, bag or similar item securely.",
+    "contextsZh": [
+      "清楚表達目光或注意力所在之處",
+      "描述緊緊抓住或咬住的動作",
+      "清楚談論責任和過錯",
+      "就衣物和袋子給予實用指示"
+    ],
+    "contextsEn": [
+      "Show exactly where someone is looking or focusing",
+      "Describe a firm physical hold",
+      "Talk clearly about blame and responsibility",
+      "Give practical instructions about clothes and bags"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FASTEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FASTEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+    "fixedHighlight": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+    "fixedZh": "閱讀整句,選出意思相同的 FASTEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FASTEN expression that gives the same meaning.",
+    "correct": "fastened on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FASTEN ... UP 中使用 it 或 them 時,請按照以上例子放在正確位置。；on、onto 和 upon 會出現在不同的 FASTEN 表達中。請閱讀完整情境,判斷句子是談論注意力、緊緊抓住,還是歸咎責任。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them in a FASTEN... UP expression, place the word as shown: fasten it up fasten them up On, onto and upon appear in several FASTEN expressions. Read the full situation to decide whether the sentence is about attention, a tight grip or blame.",
+    "variableItemsZh": [
+      "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "fasten on/onto something; fasten upon something",
+      "fasten something on/onto somebody/something",
+      "fasten up; fasten something up"
+    ],
+    "variableItemsEn": [
+      "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "fasten on/onto something; fasten upon something",
+      "fasten something on/onto somebody/something",
+      "fasten up; fasten something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把目光或注意力集中於某人或某事物",
+        "formEn": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+        "exampleZh": "每個人的目光都集中在螢幕上。",
+        "exampleEn": "Everyone’s eyes fastened on the screen.",
+        "highlight": "fastened on"
+      },
+      {
+        "formZh": "緊緊咬住或抓住某物",
+        "formEn": "fasten on/onto something; fasten upon something",
+        "exampleZh": "小狗用牙齒緊緊咬住繩子。",
+        "exampleEn": "The puppy fastened onto the rope with its teeth.",
+        "highlight": "fastened onto"
+      },
+      {
+        "formZh": "把責任或過錯歸咎於某人或某事物",
+        "formEn": "fasten something on/onto somebody/something",
+        "exampleZh": "他們把責任歸咎於司機。",
+        "exampleEn": "They fastened the blame on the driver.",
+        "highlight": "fastened the blame on"
+      },
+      {
+        "formZh": "扣好、拉好或關好衣物、袋子或其他物件",
+        "formEn": "fasten up; fasten something up",
+        "exampleZh": "請把外套扣好。",
+        "exampleEn": "Please fasten your coat up.",
+        "highlight": "fasten your coat up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把目光或注意力集中於某人或某事物",
+      "titleEn": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "formula": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "highlight": "fasten on somebody/something; fasten something on somebody/something; fasten upon something",
+      "descriptionZh": "把目光或注意力集中於某人或某事物",
+      "descriptionEn": "Everyone’s eyes fastened on the screen.",
+      "examples": [
+        {
+          "en": "Everyone’s eyes fastened on the screen.",
+          "zh": "每個人的目光都集中在螢幕上。",
+          "highlight": "fastened on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "緊緊咬住或抓住某物",
+      "titleEn": "fasten on/onto something; fasten upon something",
+      "formula": "fasten on/onto something; fasten upon something",
+      "highlight": "fasten on/onto something; fasten upon something",
+      "descriptionZh": "緊緊咬住或抓住某物",
+      "descriptionEn": "The puppy fastened onto the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The puppy fastened onto the rope with its teeth.",
+          "zh": "小狗用牙齒緊緊咬住繩子。",
+          "highlight": "fastened onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把責任或過錯歸咎於某人或某事物",
+      "titleEn": "fasten something on/onto somebody/something",
+      "formula": "fasten something on/onto somebody/something",
+      "highlight": "fasten something on/onto somebody/something",
+      "descriptionZh": "把責任或過錯歸咎於某人或某事物",
+      "descriptionEn": "They fastened the blame on the driver.",
+      "examples": [
+        {
+          "en": "They fastened the blame on the driver.",
+          "zh": "他們把責任歸咎於司機。",
+          "highlight": "fastened the blame on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "扣好、拉好或關好衣物、袋子或其他物件",
+      "titleEn": "fasten up; fasten something up",
+      "formula": "fasten up; fasten something up",
+      "highlight": "fasten up; fasten something up",
+      "descriptionZh": "扣好、拉好或關好衣物、袋子或其他物件",
+      "descriptionEn": "Please fasten your coat up.",
+      "examples": [
+        {
+          "en": "Please fasten your coat up.",
+          "zh": "請把外套扣好。",
+          "highlight": "fasten your coat up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達目光或注意力所在之處",
+      "titleEn": "Show exactly where someone is looking or focusing",
+      "zh": "FASTEN 片語動詞可以描述某人的目光或注意力集中在一個人或事物上的情況。",
+      "en": "FASTEN expressions can describe the moment when someone’s eyes or attention settle on one person or thing."
+    },
+    {
+      "titleZh": "描述緊緊抓住或咬住的動作",
+      "titleEn": "Describe a firm physical hold",
+      "zh": "fasten on、fasten onto 和 fasten upon 可以描述牙齒、上下顎、爪子或手指緊緊抓住某物。",
+      "en": "Fasten on, fasten onto and fasten upon can describe teeth, jaws, claws or fingers holding something tightly."
+    },
+    {
+      "titleZh": "清楚談論責任和過錯",
+      "titleEn": "Talk clearly about blame and responsibility",
+      "zh": "fasten the blame on somebody 可以幫助你說明某個問題或錯誤的責任被歸咎於誰。",
+      "en": "Fasten the blame on somebody helps you explain who is being held responsible for a problem or mistake."
+    },
+    {
+      "titleZh": "就衣物和袋子給予實用指示",
+      "titleEn": "Give practical instructions about clothes and bags",
+      "zh": "fasten up 可以用來叫人把外套、連身裙、袋子或類似物件扣好或關好。",
+      "en": "Fasten up can be used when telling someone to close a coat, dress, bag or similar item securely."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達目光或注意力所在之處",
+      "描述緊緊抓住或咬住的動作",
+      "清楚談論責任和過錯",
+      "就衣物和袋子給予實用指示"
+    ],
+    "contextsEn": [
+      "Show exactly where someone is looking or focusing",
+      "Describe a firm physical hold",
+      "Talk clearly about blame and responsibility",
+      "Give practical instructions about clothes and bags"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達目光或注意力所在之處",
+        "titleEn": "Show exactly where someone is looking or focusing",
+        "zh": "FASTEN 片語動詞可以描述某人的目光或注意力集中在一個人或事物上的情況。",
+        "en": "FASTEN expressions can describe the moment when someone’s eyes or attention settle on one person or thing.",
+        "examples": [
+          {
+            "en": "Everyone’s eyes fastened on the screen.",
+            "zh": "每個人的目光都集中在螢幕上。",
+            "highlight": "fastened on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述緊緊抓住或咬住的動作",
+        "titleEn": "Describe a firm physical hold",
+        "zh": "fasten on、fasten onto 和 fasten upon 可以描述牙齒、上下顎、爪子或手指緊緊抓住某物。",
+        "en": "Fasten on, fasten onto and fasten upon can describe teeth, jaws, claws or fingers holding something tightly.",
+        "examples": [
+          {
+            "en": "The puppy fastened onto the rope with its teeth.",
+            "zh": "小狗用牙齒緊緊咬住繩子。",
+            "highlight": "fastened onto"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論責任和過錯",
+        "titleEn": "Talk clearly about blame and responsibility",
+        "zh": "fasten the blame on somebody 可以幫助你說明某個問題或錯誤的責任被歸咎於誰。",
+        "en": "Fasten the blame on somebody helps you explain who is being held responsible for a problem or mistake.",
+        "examples": [
+          {
+            "en": "They fastened the blame on the driver.",
+            "zh": "他們把責任歸咎於司機。",
+            "highlight": "fastened the blame on"
+          }
+        ]
+      },
+      {
+        "titleZh": "就衣物和袋子給予實用指示",
+        "titleEn": "Give practical instructions about clothes and bags",
+        "zh": "fasten up 可以用來叫人把外套、連身裙、袋子或類似物件扣好或關好。",
+        "en": "Fasten up can be used when telling someone to close a coat, dress, bag or similar item securely.",
+        "examples": [
+          {
+            "en": "Please fasten your coat up.",
+            "zh": "請把外套扣好。",
+            "highlight": "fasten your coat up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FASTEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FASTEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FASTEN 片語動詞。",
+      "en": "Read the whole sentence and choose the FASTEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FASTEN ... UP 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in a FASTEN.",
+      "zh": "在 FASTEN ... UP 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in a FASTEN... UP expression, place the word as shown: fasten it up fasten them up"
+    },
+    {
+      "titleZh": "on、onto 和 upon 會出現在不同的 FASTEN 表達中。請閱讀完整情境,判斷句子是談論注意力、緊緊抓住,還是歸咎責任。",
+      "titleEn": "On, onto and upon appear in several FASTEN expressions.",
+      "zh": "on、onto 和 upon 會出現在不同的 FASTEN 表達中。請閱讀完整情境,判斷句子是談論注意力、緊緊抓住,還是歸咎責任。",
+      "en": "On, onto and upon appear in several FASTEN expressions. Read the full situation to decide whether the sentence is about attention, a tight grip or blame."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FASTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FASTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FASTEN 動詞片語句子改寫練習",
+    "titleEn": "FASTEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FASTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FASTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-148-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Everyone's eyes suddenly fixed on the open box.",
+      "promptZh": "每個人的目光突然落在那個打開了的盒子上。",
+      "starter": "Everyone's",
+      "answer": "Everyone's eyes suddenly fastened on the open box.",
+      "answerZh": "每個人的目光突然落在那個打開了的盒子上。",
+      "highlight": "fastened",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "把目光集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The coach unfairly blamed the youngest player for the loss.",
+      "promptZh": "教練不公平地把落敗的責任歸咎於最年輕的球員。",
+      "starter": "The",
+      "answer": "The coach unfairly fastened the blame for the loss on the youngest player.",
+      "answerZh": "教練不公平地把落敗的責任歸咎於最年輕的球員。",
+      "highlight": "fastened the blame for the loss on",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please close your coat before you go outside.",
+      "promptZh": "出門前請把外套扣好。",
+      "starter": "Please",
+      "answer": "Please fasten your coat up before you go outside.",
+      "answerZh": "出門前請把外套扣好。",
+      "highlight": "fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The puppy gripped the rope with its teeth and would not let go.",
+      "promptZh": "小狗用牙齒緊緊咬住繩子,不肯鬆口。",
+      "starter": "The",
+      "answer": "The puppy fastened onto the rope with its teeth and would not let go.",
+      "answerZh": "小狗用牙齒緊緊咬住繩子,不肯鬆口。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo fixed his eyes on the map.",
+      "promptZh": "里奧目不轉睛地看着地圖。",
+      "starter": "Leo",
+      "answer": "Leo fastened his eyes on the map.",
+      "answerZh": "里奧目不轉睛地看着地圖。",
+      "highlight": "fastened",
+      "targetForm": "fasten something on something",
+      "targetMeaningZh": "把目光或注意力集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They tried to make Sam responsible for the broken window.",
+      "promptZh": "他們企圖把打破窗戶的責任推給森。",
+      "starter": "They",
+      "answer": "They tried to fasten the blame for the broken window on Sam.",
+      "answerZh": "他們企圖把打破窗戶的責任推給森。",
+      "highlight": "fasten the blame",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The crab's claw gripped the edge of the net.",
+      "promptZh": "螃蟹的鉗緊緊抓住魚網邊緣。",
+      "starter": "The",
+      "answer": "The crab's claw fastened onto the edge of the net.",
+      "answerZh": "螃蟹的鉗緊緊抓住魚網邊緣。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This jacket closes at the front with four buttons.",
+      "promptZh": "這件外套在前面用四粒鈕扣扣上。",
+      "starter": "This",
+      "answer": "This jacket fastens up at the front with four buttons.",
+      "answerZh": "這件外套在前面用四粒鈕扣扣上。",
+      "highlight": "fastens up",
+      "targetForm": "fasten up",
+      "targetMeaningZh": "扣上;關好"
+    },
+    {
+      "id": "phrasal-verb-148-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Do not blame the whole mistake on one child.",
+      "promptZh": "不要把整件錯事的責任都推給一個孩子。",
+      "starter": "Do",
+      "answer": "Do not fasten all the blame for the mistake on one child.",
+      "answerZh": "不要把整件錯事的責任都推給一個孩子。",
+      "highlight": "fasten all the",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her eyes moved straight to the bright red bag.",
+      "promptZh": "她的目光立即移到那個鮮紅色的袋子上。",
+      "starter": "Her",
+      "answer": "Her eyes fastened on the bright red bag.",
+      "answerZh": "她的目光立即落在那個鮮紅色的袋子上。",
+      "highlight": "fastened on",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "把目光集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben is closing his jacket now.",
+      "promptZh": "賓現在正把外套扣好。",
+      "starter": "Ben",
+      "answer": "Ben is fastening his jacket up now.",
+      "answerZh": "賓現在正把外套扣好。",
+      "highlight": "fastening",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The kitten's claws have gripped the blanket tightly.",
+      "promptZh": "小貓的爪已緊緊抓住毛毯。",
+      "starter": "The",
+      "answer": "The kitten's claws have fastened tightly onto the blanket.",
+      "answerZh": "小貓的爪已緊緊抓住毛毯。",
+      "highlight": "fastened tightly onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "No one has blamed the new student for the missing book.",
+      "promptZh": "沒有人把書本失蹤的責任歸咎於新同學。",
+      "starter": "No",
+      "answer": "No one has fastened the blame for the missing book on the new student.",
+      "answerZh": "沒有人把書本失蹤的責任歸咎於新同學。",
+      "highlight": "fastened",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The audience has now focused all its attention on the final singer.",
+      "promptZh": "觀眾現在已把所有注意力集中在最後一位歌手身上。",
+      "starter": "The",
+      "answer": "The audience has now fastened all its attention on the final singer.",
+      "answerZh": "觀眾現在已把所有注意力集中在最後一位歌手身上。",
+      "highlight": "fastened",
+      "targetForm": "fasten attention on somebody",
+      "targetMeaningZh": "把注意力集中於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Will you close the bag before we leave?",
+      "promptZh": "我們離開前,你會把袋子關好嗎?",
+      "starter": "Will",
+      "answer": "Will you fasten the bag up before we leave?",
+      "answerZh": "我們離開前,你會把袋子關好嗎?",
+      "highlight": "fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The dog's teeth had gripped the ball before we could take it away.",
+      "promptZh": "我們還未能拿走皮球,狗的牙齒已緊緊咬住它。",
+      "starter": "The",
+      "answer": "The dog's teeth had fastened on the ball before we could take it away.",
+      "answerZh": "我們還未能拿走皮球,狗的牙齒已緊緊咬住它。",
+      "highlight": "fastened on",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The manager did not blame the delay on the delivery driver.",
+      "promptZh": "經理沒有把延誤的責任歸咎於送貨司機。",
+      "starter": "The",
+      "answer": "The manager did not fasten the blame for the delay on the delivery driver.",
+      "answerZh": "經理沒有把延誤的責任歸咎於送貨司機。",
+      "highlight": "fasten the",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children have already closed their coats.",
+      "promptZh": "孩子們已經把外套扣好。",
+      "starter": "The",
+      "answer": "The children have already fastened their coats up.",
+      "answerZh": "孩子們已經把外套扣好。",
+      "highlight": "fastened",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did Ella focus her eyes on the small note?",
+      "promptZh": "埃拉為甚麼把目光集中在那張小紙條上?",
+      "starter": "Why",
+      "answer": "Why did Ella fasten her eyes on the small note?",
+      "answerZh": "埃拉為甚麼把目光集中在那張小紙條上?",
+      "highlight": "fasten",
+      "targetForm": "fasten something on something",
+      "targetMeaningZh": "把目光或注意力集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The bird's beak will grip the wooden ring if you hold it near.",
+      "promptZh": "如果你把木環拿近一點,鳥嘴便會緊緊咬住它。",
+      "starter": "The",
+      "answer": "The bird's beak will fasten onto the wooden ring if you hold it near.",
+      "answerZh": "如果你把木環拿近一點,鳥嘴便會緊緊咬住它。",
+      "highlight": "fasten onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The teacher showed them two pictures. Their eyes stayed on the second one.",
+      "promptZh": "老師向他們展示兩幅圖片。他們的目光停留在第二幅上。",
+      "starter": "The",
+      "answer": "The teacher showed them two pictures. Their eyes fastened on the second one.",
+      "answerZh": "老師向他們展示兩幅圖片。他們的目光落在第二幅上。",
+      "highlight": "fastened",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "把目光集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please close the suitcase before carrying it downstairs.",
+      "promptZh": "把旅行箱搬到樓下前,請先把它關好。",
+      "starter": "Please",
+      "answer": "Please fasten it up before carrying the suitcase downstairs.",
+      "answerZh": "把旅行箱搬到樓下前,請先把它關好。",
+      "highlight": "fasten it up before carrying",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The puppy grabbed the old towel with its teeth. It would not let go.",
+      "promptZh": "小狗用牙齒緊緊咬住舊毛巾,不肯鬆口。",
+      "starter": "The",
+      "answer": "The puppy fastened onto the old towel with its teeth and would not let go.",
+      "answerZh": "小狗用牙齒緊緊咬住舊毛巾,不肯鬆口。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The blame for the missing money was unfairly placed on Ravi.",
+      "promptZh": "失款的責任被不公平地歸咎於拉維。",
+      "starter": "The",
+      "answer": "The blame for the missing money was unfairly fastened on Ravi.",
+      "answerZh": "失款的責任被不公平地歸咎於拉維。",
+      "highlight": "fastened",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Priya read the whole page, but her eyes stayed on one sentence.",
+      "promptZh": "普里雅讀完整頁內容,但目光一直停留在其中一句。",
+      "starter": "Priya",
+      "answer": "Priya read the whole page, but her eyes fastened on one sentence.",
+      "answerZh": "普里雅讀完整頁內容,但目光一直停留在其中一句。",
+      "highlight": "fastened",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "把目光集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "These boots are open at the top. Can you close them for me?",
+      "promptZh": "這雙靴子的上方還未扣好。你可以替我扣好嗎?",
+      "starter": "These",
+      "answer": "These boots are open at the top. Can you fasten them up for me?",
+      "answerZh": "這雙靴子的上方還未扣好。你可以替我扣好嗎?",
+      "highlight": "fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Who blamed the broken chair on Omar?",
+      "promptZh": "是誰把弄壞椅子的責任歸咎於奧馬?",
+      "starter": "Who",
+      "answer": "Who fastened the blame for the broken chair on Omar?",
+      "answerZh": "是誰把弄壞椅子的責任歸咎於奧馬?",
+      "highlight": "fastened the blame for",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The climber slipped, and his fingers gripped the rope tightly.",
+      "promptZh": "攀山者滑了一下,手指緊緊抓住繩子。",
+      "starter": "The",
+      "answer": "The climber slipped, and his fingers fastened tightly onto the rope.",
+      "answerZh": "攀山者滑了一下,手指緊緊抓住繩子。",
+      "highlight": "fastened tightly onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Aisha forgot to close her coat, so cold air came in.",
+      "promptZh": "艾莎忘記把外套扣好,所以冷風吹了進去。",
+      "starter": "Aisha",
+      "answer": "Aisha forgot to fasten her coat up, so cold air came in.",
+      "answerZh": "艾莎忘記把外套扣好,所以冷風吹了進去。",
+      "highlight": "fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We entered the room, and everyone's eyes immediately fixed on us.",
+      "promptZh": "我們走進房間時,所有人的目光立即落在我們身上。",
+      "starter": "We",
+      "answer": "We entered the room, and everyone's eyes immediately fastened on us.",
+      "answerZh": "我們走進房間時,所有人的目光立即落在我們身上。",
+      "highlight": "fastened",
+      "targetForm": "fasten on somebody",
+      "targetMeaningZh": "把目光集中於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The article made one small shop responsible for the whole problem.",
+      "promptZh": "那篇文章把整個問題的責任歸咎於一間小店。",
+      "starter": "The",
+      "answer": "The article fastened the blame for the whole problem on one small shop.",
+      "answerZh": "那篇文章把整個問題的責任歸咎於一間小店。",
+      "highlight": "fastened the blame",
+      "targetForm": "fasten the blame on something",
+      "targetMeaningZh": "把責任或過錯歸咎於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The fox's jaws closed firmly on the thick glove.",
+      "promptZh": "狐狸的上下顎緊緊咬住那隻厚手套。",
+      "starter": "The",
+      "answer": "The fox's jaws fastened on the thick glove.",
+      "answerZh": "狐狸的上下顎緊緊咬住那隻厚手套。",
+      "highlight": "fastened",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Nina's eyes suddenly fixed on the only blue envelope.",
+      "promptZh": "妮娜的目光突然落在唯一的藍色信封上。",
+      "starter": "Nina's",
+      "answer": "Nina's eyes suddenly fastened upon the only blue envelope.",
+      "answerZh": "妮娜的目光突然落在唯一的藍色信封上。",
+      "highlight": "fastened upon",
+      "targetForm": "fasten upon something",
+      "targetMeaningZh": "把目光或注意力集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This travel bag can be closed with two metal clips.",
+      "promptZh": "這個旅行袋可以用兩個金屬扣關好。",
+      "starter": "This",
+      "answer": "This travel bag can be fastened up with two metal clips.",
+      "answerZh": "這個旅行袋可以用兩個金屬扣關好。",
+      "highlight": "fastened up",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The school should not make one teacher responsible for every mistake.",
+      "promptZh": "學校不應把每個錯誤的責任都歸咎於一位老師。",
+      "starter": "The",
+      "answer": "The school should not fasten the blame for every mistake on one teacher.",
+      "answerZh": "學校不應把每個錯誤的責任都歸咎於一位老師。",
+      "highlight": "fasten the blame",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The baby's fingers closed tightly around the toy ring.",
+      "promptZh": "嬰兒的手指緊緊抓住玩具環。",
+      "starter": "The",
+      "answer": "The baby's fingers fastened onto the toy ring.",
+      "answerZh": "嬰兒的手指緊緊抓住玩具環。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The report tried to place the blame for the accident on the driver.",
+      "promptZh": "報告企圖把意外的責任歸咎於司機。",
+      "starter": "The",
+      "answer": "The report tried to fasten the blame for the accident onto the driver.",
+      "answerZh": "報告企圖把意外的責任歸咎於司機。",
+      "highlight": "fasten",
+      "targetForm": "fasten the blame onto somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why is your jacket still open? Close it before the rain starts.",
+      "promptZh": "你的外套為甚麼仍然敞開?下雨前把它扣好。",
+      "starter": "Why",
+      "answer": "Why is your jacket still open? Fasten it up before the rain starts.",
+      "answerZh": "你的外套為甚麼仍然敞開?下雨前把它扣好。",
+      "highlight": "Fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "During the show, the children kept all their attention on the small robot.",
+      "promptZh": "表演期間,孩子們一直把所有注意力集中在小機械人身上。",
+      "starter": "During",
+      "answer": "During the show, the children fastened all their attention on the small robot.",
+      "answerZh": "表演期間,孩子們一直把所有注意力集中在小機械人身上。",
+      "highlight": "fastened",
+      "targetForm": "fasten attention on something",
+      "targetMeaningZh": "把注意力集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The dog's jaws had already gripped the stick when I called its name.",
+      "promptZh": "我叫那隻狗的名字時,牠的上下顎已緊緊咬住木棍。",
+      "starter": "The",
+      "answer": "The dog's jaws had already fastened upon the stick when I called its name.",
+      "answerZh": "我叫那隻狗的名字時,牠的上下顎已緊緊咬住木棍。",
+      "highlight": "fastened upon",
+      "targetForm": "fasten upon something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The kitten jumped at the curtain, and its claws held the cloth so tightly that the kitten could not fall.",
+      "promptZh": "小貓撲向窗簾,爪子緊緊抓住布料,所以小貓沒有掉下來。",
+      "starter": "The",
+      "answer": "The kitten jumped at the curtain, and its claws fastened onto the cloth so tightly that the kitten could not fall.",
+      "answerZh": "小貓撲向窗簾,爪子緊緊抓住布料,所以小貓沒有掉下來。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As soon as the lights went out, everyone's eyes fixed on the glowing exit sign.",
+      "promptZh": "燈一熄滅,所有人的目光便集中在發光的出口標誌上。",
+      "starter": "As",
+      "answer": "As soon as the lights went out, everyone's eyes fastened on the glowing exit sign.",
+      "answerZh": "燈一熄滅,所有人的目光便集中在發光的出口標誌上。",
+      "highlight": "fastened",
+      "targetForm": "fasten on something",
+      "targetMeaningZh": "把目光集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team lost together, so it would be unfair to make only the goalkeeper responsible.",
+      "promptZh": "球隊是一起落敗的,因此只把責任推給守門員並不公平。",
+      "starter": "The",
+      "answer": "The team lost together, so it would be unfair to fasten all the blame on the goalkeeper.",
+      "answerZh": "球隊是一起落敗的,因此只把責任推給守門員並不公平。",
+      "highlight": "fasten all the blame on",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Sofia checked the front of her dress, closed it, and then went on stage.",
+      "promptZh": "索菲亞檢查連身裙前方,把它扣好,然後走上舞台。",
+      "starter": "Sofia",
+      "answer": "Sofia checked the front of her dress, fastened it up, and then went on stage.",
+      "answerZh": "索菲亞檢查連身裙前方,把它扣好,然後走上舞台。",
+      "highlight": "fastened",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even though several pictures were on the wall, Kai kept looking at the old family photo.",
+      "promptZh": "牆上雖然有幾幅圖片,啟卻一直看着那張舊家庭照片。",
+      "starter": "Even",
+      "answer": "Even though several pictures were on the wall, Kai fastened his eyes on the old family photo.",
+      "answerZh": "牆上雖然有幾幅圖片,啟卻一直看着那張舊家庭照片。",
+      "highlight": "fastened his eyes on",
+      "targetForm": "fasten something on something",
+      "targetMeaningZh": "把目光或注意力集中於某事物"
+    },
+    {
+      "id": "phrasal-verb-148-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No final decision has been made, and nobody should blame the problem on the new worker yet.",
+      "promptZh": "尚未有最終決定,現時不應有人把問題歸咎於新員工。",
+      "starter": "No",
+      "answer": "No final decision has been made, and nobody should fasten the blame for the problem on the new worker yet.",
+      "answerZh": "尚未有最終決定,現時不應有人把問題歸咎於新員工。",
+      "highlight": "fasten the",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The dog's teeth gripped the toy and did not release it while the children pulled from the other side.",
+      "promptZh": "孩子們從另一邊拉玩具時,狗的牙齒緊緊咬住玩具,沒有鬆口。",
+      "starter": "The",
+      "answer": "The dog's teeth fastened onto the toy and did not release it while the children pulled from the other side.",
+      "answerZh": "孩子們從另一邊拉玩具時,狗的牙齒緊緊咬住玩具,沒有鬆口。",
+      "highlight": "fastened onto",
+      "targetForm": "fasten onto something",
+      "targetMeaningZh": "緊緊抓住或咬住某物"
+    },
+    {
+      "id": "phrasal-verb-148-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Omar wore his raincoat but left the front open, so his sister told him to close it.",
+      "promptZh": "奧馬穿着雨衣,卻沒有扣好前方,所以姐姐叫他把它扣好。",
+      "starter": "Omar",
+      "answer": "Omar wore his raincoat but left the front open, so his sister told him to fasten it up.",
+      "answerZh": "奧馬穿着雨衣,卻沒有扣好前方,所以姐姐叫他把它扣好。",
+      "highlight": "fasten",
+      "targetForm": "fasten something up",
+      "targetMeaningZh": "扣好、拉好或關好某物"
+    },
+    {
+      "id": "phrasal-verb-148-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the plan failed, some people quickly made the youngest member responsible for everything.",
+      "promptZh": "計劃失敗時,有些人很快便把所有責任推給最年輕的成員。",
+      "starter": "When",
+      "answer": "When the plan failed, some people quickly fastened all the blame on the youngest member.",
+      "answerZh": "計劃失敗時,有些人很快便把所有責任推給最年輕的成員。",
+      "highlight": "fastened all the blame on",
+      "targetForm": "fasten the blame on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-148-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The class had many questions, but it finally focused on the last part of the video.",
+      "promptZh": "全班有很多問題,但最後把注意力集中在影片的最後部分。",
+      "starter": "The",
+      "answer": "The class had many questions, but it finally fastened its attention on the last part of the video.",
+      "answerZh": "全班有很多問題,但最後把注意力集中在影片的最後部分。",
+      "highlight": "fastened its attention",
+      "targetForm": "fasten attention on something",
+      "targetMeaningZh": "把注意力集中於某事物"
+    }
+  ]
+}

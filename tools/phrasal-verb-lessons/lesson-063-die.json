@@ -1,0 +1,1438 @@
+{
+  "id": "phrasal-verb-63",
+  "order": 63,
+  "slug": "die",
+  "version": "1",
+  "title": "DIE 動詞片語",
+  "titleEn": "Die",
+  "titleZh": "DIE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 62 - DIE.pdf",
+    "sourceNumber": 62,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DIE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DIE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DIE",
+      "highlight": "DIE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The sound of the car engine died away.",
+      "zh": "汽車引擎的聲音逐漸減弱,最後聽不見了。",
+      "highlight": "died away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The leaves die back in winter.",
+      "zh": "葉子在冬天枯死,但植物之後仍可再次生長。",
+      "highlight": "die back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He waited for the applause to die down.",
+      "zh": "他等待掌聲逐漸減弱。",
+      "highlight": "die down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "聲音逐漸減弱,直至聽不見；植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長；聲音、活動、情緒或力量逐漸減弱；一群生物逐一或大量死亡；物種、語言、習俗或活動完全消失或滅絕",
+    "en": "die away; die back / die down; die down; die off; die out",
+    "naturalZh": [
+      "聲音逐漸減弱,直至聽不見",
+      "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+      "聲音、活動、情緒或力量逐漸減弱",
+      "一群生物逐一或大量死亡",
+      "物種、語言、習俗或活動完全消失或滅絕"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "die away",
+      "titleZh": "聲音逐漸減弱,直至聽不見",
+      "titleEn": "die away",
+      "descriptionZh": "聲音逐漸減弱,直至聽不見",
+      "descriptionEn": "The sound of the car engine died away.",
+      "examples": [
+        {
+          "en": "The sound of the car engine died away.",
+          "zh": "汽車引擎的聲音逐漸減弱,最後聽不見了。",
+          "highlight": "died away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "die back / die down",
+      "titleZh": "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+      "titleEn": "die back / die down",
+      "descriptionZh": "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+      "descriptionEn": "The leaves die back in winter.",
+      "examples": [
+        {
+          "en": "The leaves die back in winter.",
+          "zh": "葉子在冬天枯死,但植物之後仍可再次生長。",
+          "highlight": "die back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "die down",
+      "titleZh": "聲音、活動、情緒或力量逐漸減弱",
+      "titleEn": "die down",
+      "descriptionZh": "聲音、活動、情緒或力量逐漸減弱",
+      "descriptionEn": "He waited for the applause to die down.",
+      "examples": [
+        {
+          "en": "He waited for the applause to die down.",
+          "zh": "他等待掌聲逐漸減弱。",
+          "highlight": "die down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "die off",
+      "titleZh": "一群生物逐一或大量死亡",
+      "titleEn": "die off",
+      "descriptionZh": "一群生物逐一或大量死亡",
+      "descriptionEn": "Many of the fish died off during the cold winter.",
+      "examples": [
+        {
+          "en": "Many of the fish died off during the cold winter.",
+          "zh": "許多魚在寒冷的冬天相繼死亡。",
+          "highlight": "died off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "die out",
+      "titleZh": "物種、語言、習俗或活動完全消失或滅絕",
+      "titleEn": "die out",
+      "descriptionZh": "物種、語言、習俗或活動完全消失或滅絕",
+      "descriptionEn": "Dinosaurs died out millions of years ago.",
+      "examples": [
+        {
+          "en": "Dinosaurs died out millions of years ago.",
+          "zh": "恐龍在數百萬年前滅絕。",
+          "highlight": "died out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DIE 片語動詞的實際用途",
+    "labelEn": "DIE Phrasal Verbs in Use",
+    "summaryZh": "die away 可以表示聲音慢慢消失;die down 則可以表示噪音逐漸減弱。；die back 和 die down 可以表示植物的葉和莖在冬天枯死,但泥土下面的部分仍然存活。；die off 描述群體中的許多成員相繼死亡;die out 則描述整個物種、語言或習俗完全消失。；這些表達可用來談論動物、植物、傳統、聲音、天氣、情緒和公眾活動。",
+    "summaryEn": "Die away can show that a sound slowly disappears, while die down can show that noise becomes less strong. Die back and die down can describe plants losing their leaves and stems in winter while remaining alive below the ground. Die off describes many members of a group dying, whereas die out describes a whole species, language or custom disappearing. These expressions are useful when talking about animals, plants, traditions, sounds, weather, feelings and public events.",
+    "contextsZh": [
+      "清楚描述聲音以不同方式減弱",
+      "描述植物的季節變化",
+      "分辨群體大量死亡和完全消失",
+      "理解自然、歷史和日常情境"
+    ],
+    "contextsEn": [
+      "Describe different ways in which sounds become quieter",
+      "Talk about seasonal changes in plants",
+      "Distinguish group losses from complete disappearance",
+      "Understand nature, history and everyday situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DIE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DIE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "die away",
+    "fixedHighlight": "die away",
+    "fixedZh": "閱讀整句,選出意思相同的 DIE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DIE expression that gives the same meaning.",
+    "correct": "died away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；die away 主要表示聲音逐漸減弱,直至聽不見。die down 表示某事物逐漸減弱,但不一定完全消失。；die off 表示一個群體中的許多成員相繼死亡。die out 表示整個物種、語言、習俗或活動完全消失。",
+    "variableEn": "Keep the same people, things, time and meaning. Die away is mainly used when a sound becomes weaker until it cannot be heard. Die down means that something becomes less strong, but it may not disappear completely. Die off means that many members of a group die. Die out means that a whole species, language, custom or activity disappears completely.",
+    "variableItemsZh": [
+      "die away",
+      "die back / die down",
+      "die down",
+      "die off",
+      "die out"
+    ],
+    "variableItemsEn": [
+      "die away",
+      "die back / die down",
+      "die down",
+      "die off",
+      "die out"
+    ],
+    "forms": [
+      {
+        "formZh": "聲音逐漸減弱,直至聽不見",
+        "formEn": "die away",
+        "exampleZh": "汽車引擎的聲音逐漸減弱,最後聽不見了。",
+        "exampleEn": "The sound of the car engine died away.",
+        "highlight": "died away"
+      },
+      {
+        "formZh": "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+        "formEn": "die back / die down",
+        "exampleZh": "葉子在冬天枯死,但植物之後仍可再次生長。",
+        "exampleEn": "The leaves die back in winter.",
+        "highlight": "die back"
+      },
+      {
+        "formZh": "聲音、活動、情緒或力量逐漸減弱",
+        "formEn": "die down",
+        "exampleZh": "他等待掌聲逐漸減弱。",
+        "exampleEn": "He waited for the applause to die down.",
+        "highlight": "die down"
+      },
+      {
+        "formZh": "一群生物逐一或大量死亡",
+        "formEn": "die off",
+        "exampleZh": "許多魚在寒冷的冬天相繼死亡。",
+        "exampleEn": "Many of the fish died off during the cold winter.",
+        "highlight": "died off"
+      },
+      {
+        "formZh": "物種、語言、習俗或活動完全消失或滅絕",
+        "formEn": "die out",
+        "exampleZh": "恐龍在數百萬年前滅絕。",
+        "exampleEn": "Dinosaurs died out millions of years ago.",
+        "highlight": "died out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "聲音逐漸減弱,直至聽不見",
+      "titleEn": "die away",
+      "formula": "die away",
+      "highlight": "die away",
+      "descriptionZh": "聲音逐漸減弱,直至聽不見",
+      "descriptionEn": "The sound of the car engine died away.",
+      "examples": [
+        {
+          "en": "The sound of the car engine died away.",
+          "zh": "汽車引擎的聲音逐漸減弱,最後聽不見了。",
+          "highlight": "died away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+      "titleEn": "die back / die down",
+      "formula": "die back / die down",
+      "highlight": "die back / die down",
+      "descriptionZh": "植物地面以上的部分在冬天或惡劣環境下枯死,但根部仍可存活並再次生長",
+      "descriptionEn": "The leaves die back in winter.",
+      "examples": [
+        {
+          "en": "The leaves die back in winter.",
+          "zh": "葉子在冬天枯死,但植物之後仍可再次生長。",
+          "highlight": "die back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "聲音、活動、情緒或力量逐漸減弱",
+      "titleEn": "die down",
+      "formula": "die down",
+      "highlight": "die down",
+      "descriptionZh": "聲音、活動、情緒或力量逐漸減弱",
+      "descriptionEn": "He waited for the applause to die down.",
+      "examples": [
+        {
+          "en": "He waited for the applause to die down.",
+          "zh": "他等待掌聲逐漸減弱。",
+          "highlight": "die down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "一群生物逐一或大量死亡",
+      "titleEn": "die off",
+      "formula": "die off",
+      "highlight": "die off",
+      "descriptionZh": "一群生物逐一或大量死亡",
+      "descriptionEn": "Many of the fish died off during the cold winter.",
+      "examples": [
+        {
+          "en": "Many of the fish died off during the cold winter.",
+          "zh": "許多魚在寒冷的冬天相繼死亡。",
+          "highlight": "died off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "物種、語言、習俗或活動完全消失或滅絕",
+      "titleEn": "die out",
+      "formula": "die out",
+      "highlight": "die out",
+      "descriptionZh": "物種、語言、習俗或活動完全消失或滅絕",
+      "descriptionEn": "Dinosaurs died out millions of years ago.",
+      "examples": [
+        {
+          "en": "Dinosaurs died out millions of years ago.",
+          "zh": "恐龍在數百萬年前滅絕。",
+          "highlight": "died out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述聲音以不同方式減弱",
+      "titleEn": "Describe different ways in which sounds become quieter",
+      "zh": "die away 可以表示聲音慢慢消失;die down 則可以表示噪音逐漸減弱。",
+      "en": "Die away can show that a sound slowly disappears, while die down can show that noise becomes less strong."
+    },
+    {
+      "titleZh": "描述植物的季節變化",
+      "titleEn": "Talk about seasonal changes in plants",
+      "zh": "die back 和 die down 可以表示植物的葉和莖在冬天枯死,但泥土下面的部分仍然存活。",
+      "en": "Die back and die down can describe plants losing their leaves and stems in winter while remaining alive below the ground."
+    },
+    {
+      "titleZh": "分辨群體大量死亡和完全消失",
+      "titleEn": "Distinguish group losses from complete disappearance",
+      "zh": "die off 描述群體中的許多成員相繼死亡;die out 則描述整個物種、語言或習俗完全消失。",
+      "en": "Die off describes many members of a group dying, whereas die out describes a whole species, language or custom disappearing."
+    },
+    {
+      "titleZh": "理解自然、歷史和日常情境",
+      "titleEn": "Understand nature, history and everyday situations",
+      "zh": "這些表達可用來談論動物、植物、傳統、聲音、天氣、情緒和公眾活動。",
+      "en": "These expressions are useful when talking about animals, plants, traditions, sounds, weather, feelings and public events."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述聲音以不同方式減弱",
+      "描述植物的季節變化",
+      "分辨群體大量死亡和完全消失",
+      "理解自然、歷史和日常情境"
+    ],
+    "contextsEn": [
+      "Describe different ways in which sounds become quieter",
+      "Talk about seasonal changes in plants",
+      "Distinguish group losses from complete disappearance",
+      "Understand nature, history and everyday situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述聲音以不同方式減弱",
+        "titleEn": "Describe different ways in which sounds become quieter",
+        "zh": "die away 可以表示聲音慢慢消失;die down 則可以表示噪音逐漸減弱。",
+        "en": "Die away can show that a sound slowly disappears, while die down can show that noise becomes less strong.",
+        "examples": [
+          {
+            "en": "The sound of the car engine died away.",
+            "zh": "汽車引擎的聲音逐漸減弱,最後聽不見了。",
+            "highlight": "died away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述植物的季節變化",
+        "titleEn": "Talk about seasonal changes in plants",
+        "zh": "die back 和 die down 可以表示植物的葉和莖在冬天枯死,但泥土下面的部分仍然存活。",
+        "en": "Die back and die down can describe plants losing their leaves and stems in winter while remaining alive below the ground.",
+        "examples": [
+          {
+            "en": "The leaves die back in winter.",
+            "zh": "葉子在冬天枯死,但植物之後仍可再次生長。",
+            "highlight": "die back"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨群體大量死亡和完全消失",
+        "titleEn": "Distinguish group losses from complete disappearance",
+        "zh": "die off 描述群體中的許多成員相繼死亡;die out 則描述整個物種、語言或習俗完全消失。",
+        "en": "Die off describes many members of a group dying, whereas die out describes a whole species, language or custom disappearing.",
+        "examples": [
+          {
+            "en": "He waited for the applause to die down.",
+            "zh": "他等待掌聲逐漸減弱。",
+            "highlight": "die down"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解自然、歷史和日常情境",
+        "titleEn": "Understand nature, history and everyday situations",
+        "zh": "這些表達可用來談論動物、植物、傳統、聲音、天氣、情緒和公眾活動。",
+        "en": "These expressions are useful when talking about animals, plants, traditions, sounds, weather, feelings and public events.",
+        "examples": [
+          {
+            "en": "Many of the fish died off during the cold winter.",
+            "zh": "許多魚在寒冷的冬天相繼死亡。",
+            "highlight": "died off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DIE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DIE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DIE 片語動詞。",
+      "en": "Read the whole sentence and choose the DIE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "die away 主要表示聲音逐漸減弱,直至聽不見。die down 表示某事物逐漸減弱,但不一定完全消失。",
+      "titleEn": "Die away is mainly used when a sound becomes weaker until it cannot be heard.",
+      "zh": "die away 主要表示聲音逐漸減弱,直至聽不見。die down 表示某事物逐漸減弱,但不一定完全消失。",
+      "en": "Die away is mainly used when a sound becomes weaker until it cannot be heard. Die down means that something becomes less strong, but it may not disappear completely."
+    },
+    {
+      "titleZh": "die off 表示一個群體中的許多成員相繼死亡。die out 表示整個物種、語言、習俗或活動完全消失。",
+      "titleEn": "Die off means that many members of a group die.",
+      "zh": "die off 表示一個群體中的許多成員相繼死亡。die out 表示整個物種、語言、習俗或活動完全消失。",
+      "en": "Die off means that many members of a group die. Die out means that a whole species, language, custom or activity disappears completely."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DIE 動詞片語句子改寫練習",
+    "titleEn": "DIE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-63-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "After a few minutes, the applause became much quieter.",
+      "promptZh": "幾分鐘後,掌聲變得小了很多。",
+      "starter": "After",
+      "answer": "After a few minutes, the applause died down.",
+      "answerZh": "幾分鐘後,掌聲逐漸減弱。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The sound of the train became quieter and disappeared in the distance.",
+      "promptZh": "火車的聲音在遠處逐漸變小,最後消失了。",
+      "starter": "The",
+      "answer": "The sound of the train died away in the distance.",
+      "answerZh": "火車的聲音在遠處逐漸減弱,最後聽不見了。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "By that time, the species had disappeared completely.",
+      "promptZh": "到了那時,這個物種已經完全消失。",
+      "starter": "By",
+      "answer": "By that time, the species had died out completely.",
+      "answerZh": "到了那時,這個物種已經滅絕。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Every winter, the leaves and stems of this plant die, but its roots stay alive.",
+      "promptZh": "每到冬天,這株植物的葉和莖都會枯死,但根部仍然存活。",
+      "starter": "Every",
+      "answer": "Every winter, this plant dies back, but its roots stay alive.",
+      "answerZh": "每到冬天,這株植物地面以上的部分都會枯死,但根部仍然存活。",
+      "highlight": "dies back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "In the lake, the fish began to die one by one.",
+      "promptZh": "在湖裏,魚群開始一條接一條死亡。",
+      "starter": "In",
+      "answer": "In the lake, the fish began to die off.",
+      "answerZh": "在湖裏,魚群開始相繼死亡。",
+      "highlight": "die off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Her voice became softer until it could no longer be heard.",
+      "promptZh": "她的聲音愈來愈輕,直至完全聽不見。",
+      "starter": "Her",
+      "answer": "Her voice died away until it could no longer be heard.",
+      "answerZh": "她的聲音逐漸減弱,直至完全聽不見。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Dinosaurs became extinct millions of years ago.",
+      "promptZh": "恐龍在數百萬年前滅絕。",
+      "starter": "Dinosaurs",
+      "answer": "Dinosaurs died out millions of years ago.",
+      "answerZh": "恐龍在數百萬年前滅絕。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Before sunset, the wind became less strong.",
+      "promptZh": "日落前,風勢減弱了。",
+      "starter": "Before",
+      "answer": "Before sunset, the wind died down.",
+      "answerZh": "日落前,風勢逐漸減弱。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The parts of these garden plants above the ground die in winter, but the plants grow again in spring.",
+      "promptZh": "這些園藝植物地面以上的部分會在冬天枯死,但植物會在春天再次生長。",
+      "starter": "These",
+      "answer": "These garden plants die back in winter but grow again in spring.",
+      "answerZh": "這些園藝植物地面以上的部分會在冬天枯死,但會在春天再次生長。",
+      "highlight": "die back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Although some old trees were still healthy, the others were dying one by one.",
+      "promptZh": "雖然有些老樹仍然健康,但其他老樹正逐一枯死。",
+      "starter": "Although",
+      "answer": "Although some old trees were still healthy, the others were dying off.",
+      "answerZh": "雖然有些老樹仍然健康,但其他老樹正相繼枯死。",
+      "highlight": "dying off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "As the music became quieter, the room fell silent.",
+      "promptZh": "隨着音樂聲愈來愈小,房間變得寂靜。",
+      "starter": "As",
+      "answer": "As the music died away, the room fell silent.",
+      "answerZh": "隨着音樂聲逐漸減弱,房間變得寂靜。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Because nobody used it any more, the old village custom disappeared completely.",
+      "promptZh": "因為沒有人再遵守,這項古老的村落習俗完全消失了。",
+      "starter": "Because",
+      "answer": "Because nobody used it any more, the old village custom died out.",
+      "answerZh": "因為沒有人再遵守,這項古老的村落習俗失傳了。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "As winter begins, the leaves of the mint plants are dying.",
+      "promptZh": "冬天開始時,薄荷的葉正在枯死。",
+      "starter": "As",
+      "answer": "As winter begins, the mint plants are dying back.",
+      "answerZh": "冬天開始時,薄荷地面以上的部分正在枯死。",
+      "highlight": "dying back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The noise has become much weaker, so we can speak now.",
+      "promptZh": "噪音已經減弱了很多,所以我們現在可以說話。",
+      "starter": "The",
+      "answer": "The noise has died down, so we can speak now.",
+      "answerZh": "噪音已經逐漸減弱,所以我們現在可以說話。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "As the singer left the stage, her final note was becoming softer and softer.",
+      "promptZh": "歌手離開舞台時,她最後一個音愈來愈輕。",
+      "starter": "As",
+      "answer": "As the singer left the stage, her final note was dying away.",
+      "answerZh": "歌手離開舞台時,她最後一個音正在逐漸減弱。",
+      "highlight": "dying away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Since the water became dirty, many frogs have died one by one.",
+      "promptZh": "自從水變髒後,許多青蛙相繼死亡。",
+      "starter": "Since",
+      "answer": "Since the water became dirty, many frogs have died off.",
+      "answerZh": "自從水變髒後,許多青蛙已相繼死亡。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After the first few days, the excitement will become less strong.",
+      "promptZh": "最初幾天過後,興奮的情緒會減弱。",
+      "starter": "After",
+      "answer": "After the first few days, the excitement will die down.",
+      "answerZh": "最初幾天過後,興奮的情緒會逐漸平息。",
+      "highlight": "die down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did this kind of bird disappear completely?",
+      "promptZh": "這種鳥為甚麼會完全消失?",
+      "starter": "Why",
+      "answer": "Why did this kind of bird die out?",
+      "answerZh": "這種鳥為甚麼會滅絕?",
+      "highlight": "die out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Although this plant will grow new shoots later, its leaves and stems have died for the winter.",
+      "promptZh": "雖然這株植物之後會長出新芽,但它的葉和莖已在冬天枯死。",
+      "starter": "Although",
+      "answer": "Although this plant will grow new shoots later, it has died back for the winter.",
+      "answerZh": "雖然這株植物之後會長出新芽,但它地面以上的部分已在冬天枯死。",
+      "highlight": "it has",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The echo should become quieter and disappear soon.",
+      "promptZh": "回聲應該很快便會變小並消失。",
+      "starter": "The",
+      "answer": "The echo should die away soon.",
+      "answerZh": "回聲應該很快便會逐漸減弱,直至聽不見。",
+      "highlight": "die away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Because there is not enough food, the bees are dying one by one.",
+      "promptZh": "因為食物不足,蜜蜂正逐一死亡。",
+      "starter": "Because",
+      "answer": "Because there is not enough food, the bees are dying off.",
+      "answerZh": "因為食物不足,蜜蜂正相繼死亡。",
+      "highlight": "dying off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Has the shouting become quieter yet?",
+      "promptZh": "叫喊聲已經減弱了嗎?",
+      "starter": "Has",
+      "answer": "Has the shouting died down yet?",
+      "answerZh": "叫喊聲已經逐漸平息了嗎?",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Although a few people still know it, this old fishing skill has almost disappeared.",
+      "promptZh": "雖然仍有少數人懂得,但這種古老的捕魚技巧已幾乎消失。",
+      "starter": "Although",
+      "answer": "Although a few people still know it, this old fishing skill has almost died out.",
+      "answerZh": "雖然仍有少數人懂得,但這種古老的捕魚技巧已幾乎失傳。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By late autumn, the leaves of the tall grass usually die.",
+      "promptZh": "到了深秋,高草的葉通常會枯死。",
+      "starter": "By",
+      "answer": "By late autumn, the tall grass usually dies down.",
+      "answerZh": "到了深秋,高草地面以上的部分通常會枯死。",
+      "highlight": "dies down",
+      "targetForm": "die down",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Many insects died one by one because of the cold winter, and their numbers fell day by day.",
+      "promptZh": "因為冬天天氣寒冷,許多昆蟲逐一死亡,牠們的數量一天比一天少。",
+      "starter": "Many",
+      "answer": "Many insects died off because of the cold winter, and their numbers fell day by day.",
+      "answerZh": "因為冬天天氣寒冷,許多昆蟲相繼死亡,牠們的數量一天比一天少。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The language had completely disappeared before anyone recorded it.",
+      "promptZh": "在有人把這種語言記錄下來之前,它已經完全消失。",
+      "starter": "Before",
+      "answer": "Before anyone recorded it, the language had died out.",
+      "answerZh": "在有人把這種語言記錄下來之前,它已經失傳。",
+      "highlight": "the language had died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We heard the motor for a few seconds. Then its sound slowly disappeared.",
+      "promptZh": "我們聽到馬達聲幾秒鐘,然後聲音慢慢消失。",
+      "starter": "We",
+      "answer": "We heard the motor for a few seconds, and then its sound died away.",
+      "answerZh": "我們聽到馬達聲幾秒鐘,然後聲音逐漸減弱,直至聽不見。",
+      "highlight": "and",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do the parts of these flowers above the ground die every winter and grow again in spring?",
+      "promptZh": "這些花地面以上的部分是否每年冬天都會枯死,並在春天再次生長?",
+      "starter": "Do",
+      "answer": "Do these flowers die back every winter and grow again in spring?",
+      "answerZh": "這些花地面以上的部分是否每年冬天都會枯死,並在春天再次生長?",
+      "highlight": "die back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Only a few birds remained after the others died one by one.",
+      "promptZh": "其他鳥逐一死亡後,只剩下幾隻。",
+      "starter": "Only",
+      "answer": "Only a few birds remained after the others died off.",
+      "answerZh": "其他鳥相繼死亡後,只剩下幾隻。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please wait until the cheering becomes less loud before you speak.",
+      "promptZh": "請等歡呼聲減弱後才說話。",
+      "starter": "Please",
+      "answer": "Please wait until the cheering dies down before you speak.",
+      "answerZh": "請等歡呼聲逐漸平息後才說話。",
+      "highlight": "dies down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A few families still followed the custom, so it had not disappeared completely.",
+      "promptZh": "仍有幾個家庭遵守這項習俗,所以它尚未完全消失。",
+      "starter": "A",
+      "answer": "A few families still followed the custom, so it had not died out.",
+      "answerZh": "仍有幾個家庭遵守這項習俗,所以它尚未失傳。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As we walked away, the sound of the party slowly became impossible to hear.",
+      "promptZh": "我們走遠時,派對的聲音慢慢變得聽不見。",
+      "starter": "As",
+      "answer": "As we walked away, the sound of the party slowly died away.",
+      "answerZh": "我們走遠時,派對的聲音逐漸減弱,直至聽不見。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The plants were not all dead at once; they died one after another over several weeks.",
+      "promptZh": "這些植物並非同時死亡,而是在數星期內逐一枯死。",
+      "starter": "Rather",
+      "answer": "Rather than all at once, the plants died off over several weeks.",
+      "answerZh": "這些植物並非同時死亡,而是在數星期內相繼枯死。",
+      "highlight": "Rather than all at once",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "After the first cold night, the leaves of the plant died.",
+      "promptZh": "第一個寒冷晚上過後,這株植物的葉枯死了。",
+      "starter": "After",
+      "answer": "After the first cold night, the plant died back.",
+      "answerZh": "第一個寒冷晚上過後,這株植物地面以上的部分枯死了。",
+      "highlight": "died back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "If people stop teaching the song, it may disappear completely.",
+      "promptZh": "如果人們不再教授這首歌,它可能會完全消失。",
+      "starter": "If",
+      "answer": "If people stop teaching the song, it may die out.",
+      "answerZh": "如果人們不再教授這首歌,它可能會失傳。",
+      "highlight": "die out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At first, the argument was very loud, but it became calmer after a while.",
+      "promptZh": "起初爭吵非常激烈,但過了一會便平靜下來。",
+      "starter": "At",
+      "answer": "At first, the argument was very loud, but it died down after a while.",
+      "answerZh": "起初爭吵非常激烈,但過了一會便逐漸平息。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "In the corridor, the footsteps grew fainter until everything was silent.",
+      "promptZh": "在走廊裏,腳步聲愈來愈小,直至四周一片寂靜。",
+      "starter": "In",
+      "answer": "In the corridor, the footsteps died away until everything was silent.",
+      "answerZh": "在走廊裏,腳步聲逐漸減弱,直至四周一片寂靜。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After I rested, the pain became less strong, but it did not disappear completely.",
+      "promptZh": "我休息後,痛楚減輕了,但並未完全消失。",
+      "starter": "After",
+      "answer": "After I rested, the pain died down, but it did not disappear completely.",
+      "answerZh": "我休息後,痛楚逐漸減輕了,但並未完全消失。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although many young trees died during the dry month, this kind of tree still exists.",
+      "promptZh": "雖然許多幼樹在乾旱的月份死亡,但這種樹仍然存在。",
+      "starter": "Although",
+      "answer": "Although many young trees died off during the dry month, this kind of tree still exists.",
+      "answerZh": "雖然許多幼樹在乾旱的月份相繼死亡,但這種樹仍然存在。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "In winter, the plant’s leaves and stems die, so it looks dead, yet it grows again later.",
+      "promptZh": "冬天時,這株植物的葉和莖會枯死,所以它看似完全枯死,但之後仍會再次生長。",
+      "starter": "In",
+      "answer": "In winter, the plant dies back, so it looks dead, yet it grows again later.",
+      "answerZh": "冬天時,這株植物地面以上的部分會枯死,所以它看似完全枯死,但之後仍會再次生長。",
+      "highlight": "plant dies back",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Once the crowd’s anger became less strong, the police opened the road.",
+      "promptZh": "群眾的怒氣減弱後,警方重開道路。",
+      "starter": "Once",
+      "answer": "Once the crowd’s anger died down, the police opened the road.",
+      "answerZh": "群眾的怒氣逐漸平息後,警方重開道路。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The entire species disappeared; none remained anywhere.",
+      "promptZh": "整個物種完全消失,任何地方都沒有留下。",
+      "starter": "The",
+      "answer": "The entire species died out; none remained anywhere.",
+      "answerZh": "整個物種已經滅絕,任何地方都沒有留下。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The last notes of the song became softer until nobody could hear them.",
+      "promptZh": "歌曲最後幾個音愈來愈輕,直至沒有人聽得見。",
+      "starter": "The",
+      "answer": "The last notes of the song died away until nobody could hear them.",
+      "answerZh": "歌曲最後幾個音逐漸減弱,直至沒有人聽得見。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Several healthy chickens remained after the sick ones died one by one.",
+      "promptZh": "生病的雞逐一死亡後,仍有幾隻健康的雞留下。",
+      "starter": "Several",
+      "answer": "Several healthy chickens remained after the sick ones died off.",
+      "answerZh": "生病的雞相繼死亡後,仍有幾隻健康的雞留下。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before leaving, we waited for the storm to become less violent.",
+      "promptZh": "離開前,我們等待暴風雨減弱。",
+      "starter": "Before",
+      "answer": "Before leaving, we waited for the storm to die down.",
+      "answerZh": "離開前,我們等待暴風雨逐漸減弱。",
+      "highlight": "die down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Each autumn, the leaves of the ferns die, and the plants grow again in spring.",
+      "promptZh": "每到秋天,蕨類植物的葉都會枯死,而植物會在春天再次生長。",
+      "starter": "Each",
+      "answer": "Each autumn, the ferns die down and grow again in spring.",
+      "answerZh": "每到秋天,蕨類植物地面以上的部分都會枯死,並在春天再次生長。",
+      "highlight": "die down",
+      "targetForm": "die down",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because younger people stopped using it, the old local expression disappeared.",
+      "promptZh": "因為年輕人不再使用,這個古老的本地說法消失了。",
+      "starter": "Because",
+      "answer": "Because younger people stopped using it, the old local expression died out.",
+      "answerZh": "因為年輕人不再使用,這個古老的本地說法失傳了。",
+      "highlight": "died out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "From the top of the hill, we heard the bell become fainter and finally silent.",
+      "promptZh": "我們從山頂聽見鐘聲愈來愈小,最後完全消失。",
+      "starter": "From",
+      "answer": "From the top of the hill, we heard the bell die away.",
+      "answerZh": "我們從山頂聽見鐘聲逐漸減弱,直至聽不見。",
+      "highlight": "die away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the garden looks empty in winter, only the parts of the plants above the ground die, and the plants return when the weather warms.",
+      "promptZh": "雖然花園在冬天看似空無一物,但植物只有地面以上的部分枯死,天氣回暖後便會再次生長。",
+      "starter": "Although",
+      "answer": "Although the garden looks empty in winter, the plants only die back and return when the weather warms.",
+      "answerZh": "雖然花園在冬天看似空無一物,但植物只是地面以上的部分枯死,天氣回暖後便會再次生長。",
+      "highlight": "only",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Over the next month, weak fish died one after another, but a small number survived.",
+      "promptZh": "在接下來的一個月裏,較弱的魚逐一死亡,但仍有少量存活。",
+      "starter": "Over",
+      "answer": "Over the next month, the weak fish died off, but a small number survived.",
+      "answerZh": "在接下來的一個月裏,較弱的魚相繼死亡,但仍有少量存活。",
+      "highlight": "the",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The train entered the tunnel, and its whistle slowly became fainter until the station was quiet.",
+      "promptZh": "火車駛進隧道後,汽笛聲慢慢變小,直至車站恢復安靜。",
+      "starter": "The",
+      "answer": "The train entered the tunnel, and its whistle slowly died away until the station was quiet.",
+      "answerZh": "火車駛進隧道後,汽笛聲逐漸減弱,直至車站恢復安靜。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the last teacher died, nobody in the town knew the once-common dance any more.",
+      "promptZh": "最後一位老師去世後,鎮上再沒有人懂得這種昔日常見的舞蹈。",
+      "starter": "After",
+      "answer": "After the last teacher died, the once-common dance died out in the town.",
+      "answerZh": "最後一位老師去世後,這種昔日常見的舞蹈在鎮上失傳了。",
+      "highlight": "died out in the town",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the plant may look completely dead now, only its leaves and stems have died for the winter.",
+      "promptZh": "雖然這株植物現在看似完全枯死,但只有葉和莖在冬天枯死。",
+      "starter": "Although",
+      "answer": "Although the plant may look completely dead now, it has only died back for the winter.",
+      "answerZh": "雖然這株植物現在看似完全枯死,但它只是地面以上的部分在冬天枯死。",
+      "highlight": "dead now, it has",
+      "targetForm": "die back",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "We could not begin the meeting until the laughter became quiet enough for everyone to listen.",
+      "promptZh": "笑聲減弱至所有人都能聆聽後,我們才可以開始會議。",
+      "starter": "We",
+      "answer": "We could not begin the meeting until the laughter died down enough for everyone to listen.",
+      "answerZh": "笑聲逐漸平息至所有人都能聆聽後,我們才可以開始會議。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-63-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Although the illness did not destroy the whole species, many animals died one after another.",
+      "promptZh": "雖然這種疾病沒有令整個物種滅絕,但許多動物逐一死亡。",
+      "starter": "Although",
+      "answer": "Although the illness did not destroy the whole species, many animals died off.",
+      "answerZh": "雖然這種疾病沒有令整個物種滅絕,但許多動物相繼死亡。",
+      "highlight": "died off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "In this garden, the leaves and stems of the tall flowers die after the first frost and grow again in April.",
+      "promptZh": "在這個花園裏,高大的花在第一次霜凍後,葉和莖會枯死,並在四月再次生長。",
+      "starter": "In",
+      "answer": "In this garden, the tall flowers die down after the first frost and grow again in April.",
+      "answerZh": "在這個花園裏,高大的花在第一次霜凍後,地面以上的部分會枯死,並在四月再次生長。",
+      "highlight": "die down",
+      "targetForm": "die down",
+      "targetMeaningZh": "植物地面以上部分枯死,之後可再次生長"
+    },
+    {
+      "id": "phrasal-verb-63-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Experts are trying to stop this rare type of plant from disappearing completely.",
+      "promptZh": "專家正嘗試阻止這種稀有植物完全消失。",
+      "starter": "Experts",
+      "answer": "Experts are trying to stop this rare type of plant from dying out.",
+      "answerZh": "專家正嘗試阻止這種稀有植物滅絕。",
+      "highlight": "dying out",
+      "targetForm": "die out",
+      "targetMeaningZh": "完全消失或滅絕"
+    },
+    {
+      "id": "phrasal-verb-63-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "For a moment, we could still hear their voices, but the sound became fainter and finally vanished.",
+      "promptZh": "有一會兒,我們仍聽見他們的聲音,但聲音愈來愈小,最後消失。",
+      "starter": "For",
+      "answer": "For a moment, we could still hear their voices, but the sound died away.",
+      "answerZh": "有一會兒,我們仍聽見他們的聲音,但聲音逐漸減弱,最後聽不見了。",
+      "highlight": "died away",
+      "targetForm": "die away",
+      "targetMeaningZh": "聲音逐漸減弱,直至聽不見"
+    },
+    {
+      "id": "phrasal-verb-63-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Because fewer flowers grew, the bees began to die one by one, although some were still alive.",
+      "promptZh": "因為開花的植物減少,蜜蜂開始逐一死亡,雖然仍有一些存活。",
+      "starter": "Because",
+      "answer": "Because fewer flowers grew, the bees began to die off, although some were still alive.",
+      "answerZh": "因為開花的植物減少,蜜蜂開始相繼死亡,雖然仍有一些存活。",
+      "highlight": "die off",
+      "targetForm": "die off",
+      "targetMeaningZh": "一群生物逐一或大量死亡"
+    },
+    {
+      "id": "phrasal-verb-63-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By the next morning, the excitement after the win had become much calmer.",
+      "promptZh": "到了翌日早上,勝出後的興奮情緒已經平靜了很多。",
+      "starter": "By",
+      "answer": "By the next morning, the excitement after the win had died down.",
+      "answerZh": "到了翌日早上,勝出後的興奮情緒已經逐漸平息。",
+      "highlight": "died down",
+      "targetForm": "die down",
+      "targetMeaningZh": "聲音、活動、情緒或力量逐漸減弱"
+    }
+  ]
+}

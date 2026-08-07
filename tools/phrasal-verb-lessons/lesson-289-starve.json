@@ -1,0 +1,1239 @@
+{
+  "id": "phrasal-verb-289",
+  "order": 289,
+  "slug": "starve",
+  "version": "1",
+  "title": "STARVE 動詞片語",
+  "titleEn": "Starve",
+  "titleZh": "STARVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 274 - STARVE.pdf",
+    "sourceNumber": 274,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STARVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STARVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STARVE",
+      "highlight": "STARVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Sam was starving for a kind word from Clare.",
+      "zh": "森非常渴望聽到克萊爾說一句安慰的話。)The engine had been starved for fuel.(引擎一直得不到足夠燃料。",
+      "highlight": "starving for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The aim was to starve the enemy into submission.",
+      "zh": "目的是斷絕敵人的物資,迫使他們屈服。",
+      "highlight": "starve the enemy into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The project is being starved of funds.",
+      "zh": "這個項目一直得不到所需資金。",
+      "highlight": "starved",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西；斷絕食物或其他必需資源,迫使某人接受某種情況或做某事；令某人或某事物得不到所需的東西；斷絕食物或其他資源,迫使某人或動物離開所在地方",
+    "en": "starve for something / starve somebody or something for something; starve somebody into something / starve somebody into doing something; starve somebody or something of something; starve somebody out",
+    "naturalZh": [
+      "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+      "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+      "令某人或某事物得不到所需的東西",
+      "斷絕食物或其他資源,迫使某人或動物離開所在地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "starve for something / starve somebody or something for something",
+      "titleZh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+      "titleEn": "starve for something / starve somebody or something for something",
+      "descriptionZh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+      "descriptionEn": "Sam was starving for a kind word from Clare.",
+      "examples": [
+        {
+          "en": "Sam was starving for a kind word from Clare.",
+          "zh": "森非常渴望聽到克萊爾說一句安慰的話。)The engine had been starved for fuel.(引擎一直得不到足夠燃料。",
+          "highlight": "starving for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "starve somebody into something / starve somebody into doing something",
+      "titleZh": "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+      "titleEn": "starve somebody into something / starve somebody into doing something",
+      "descriptionZh": "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+      "descriptionEn": "The aim was to starve the enemy into submission.",
+      "examples": [
+        {
+          "en": "The aim was to starve the enemy into submission.",
+          "zh": "目的是斷絕敵人的物資,迫使他們屈服。",
+          "highlight": "starve the enemy into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "starve somebody or something of something",
+      "titleZh": "令某人或某事物得不到所需的東西",
+      "titleEn": "starve somebody or something of something",
+      "descriptionZh": "令某人或某事物得不到所需的東西",
+      "descriptionEn": "The project is being starved of funds.",
+      "examples": [
+        {
+          "en": "The project is being starved of funds.",
+          "zh": "這個項目一直得不到所需資金。",
+          "highlight": "starved"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "starve somebody out",
+      "titleZh": "斷絕食物或其他資源,迫使某人或動物離開所在地方",
+      "titleEn": "starve somebody out",
+      "descriptionZh": "斷絕食物或其他資源,迫使某人或動物離開所在地方",
+      "descriptionEn": "It took a month to starve them out.",
+      "examples": [
+        {
+          "en": "It took a month to starve them out.",
+          "zh": "花了一個月才斷絕他們的物資,迫使他們離開。",
+          "highlight": "starve them out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STARVE 片語動詞的實際用途",
+    "labelEn": "STARVE Phrasal Verbs in Use",
+    "summaryZh": "starve for 可以表示某人極度需要安慰、支持、陪伴、資訊或其他並非食物的事物。；starve something of funds、light、water 或 staff,可以清楚表示某事物得不到必要的資金、光線、水分或人手。；starve somebody into doing something 表示有人被斷絕食物、金錢或物資,最後被迫採取某項行動。；starve somebody out 可以表示斷絕食物來源,直至動物、昆蟲或人離開某個地方。",
+    "summaryEn": "Starve for can describe a powerful need for kindness, support, company, information or other things that are not food. Starve something of funds, light, water or staff clearly shows that it is not receiving something necessary. Starve somebody into doing something shows that food, money or supplies have been withheld until the person or group takes a particular action. Starve somebody out can describe removing access to food until animals, insects or people leave a place.",
+    "contextsZh": [
+      "表達非常強烈的需要",
+      "描述嚴重缺乏支援或資源",
+      "說明資源不足如何迫使某人作出決定",
+      "描述迫使不受歡迎的訪客離開"
+    ],
+    "contextsEn": [
+      "Express a very strong need",
+      "Describe a serious lack of support or resources",
+      "Explain how a lack of resources forces a decision",
+      "Describe forcing unwanted visitors to leave"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STARVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STARVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "starve for something / starve somebody or something for something",
+    "fixedHighlight": "starve for something / starve somebody or something for something",
+    "fixedZh": "閱讀整句,選出意思相同的 STARVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STARVE expression that gives the same meaning.",
+    "correct": "starving for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；starve somebody into 後面可以接一種狀態,亦可以接 -ing 動詞:starve somebody into submissionstarve somebody into surrendering；非常渴望或極度需要某事物starve somebody/something of something令某人或某事物得不到所需的東西starve somebody out斷絕食物或資源,迫使某人或動物離開",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the two common forms after starve somebody into: starve somebody into submission starve somebody into surrendering Notice the differences: starve for something",
+    "variableItemsZh": [
+      "starve for something / starve somebody or something for something",
+      "starve somebody into something / starve somebody into doing something",
+      "starve somebody or something of something",
+      "starve somebody out"
+    ],
+    "variableItemsEn": [
+      "starve for something / starve somebody or something for something",
+      "starve somebody into something / starve somebody into doing something",
+      "starve somebody or something of something",
+      "starve somebody out"
+    ],
+    "forms": [
+      {
+        "formZh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+        "formEn": "starve for something / starve somebody or something for something",
+        "exampleZh": "森非常渴望聽到克萊爾說一句安慰的話。)The engine had been starved for fuel.(引擎一直得不到足夠燃料。",
+        "exampleEn": "Sam was starving for a kind word from Clare.",
+        "highlight": "starving for"
+      },
+      {
+        "formZh": "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+        "formEn": "starve somebody into something / starve somebody into doing something",
+        "exampleZh": "目的是斷絕敵人的物資,迫使他們屈服。",
+        "exampleEn": "The aim was to starve the enemy into submission.",
+        "highlight": "starve the enemy into"
+      },
+      {
+        "formZh": "令某人或某事物得不到所需的東西",
+        "formEn": "starve somebody or something of something",
+        "exampleZh": "這個項目一直得不到所需資金。",
+        "exampleEn": "The project is being starved of funds.",
+        "highlight": "starved"
+      },
+      {
+        "formZh": "斷絕食物或其他資源,迫使某人或動物離開所在地方",
+        "formEn": "starve somebody out",
+        "exampleZh": "花了一個月才斷絕他們的物資,迫使他們離開。",
+        "exampleEn": "It took a month to starve them out.",
+        "highlight": "starve them out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+      "titleEn": "starve for something / starve somebody or something for something",
+      "formula": "starve for something / starve somebody or something for something",
+      "highlight": "starve for something / starve somebody or something for something",
+      "descriptionZh": "極度渴望或非常需要某事物;使某人或某事物長期缺乏所需的東西",
+      "descriptionEn": "Sam was starving for a kind word from Clare.",
+      "examples": [
+        {
+          "en": "Sam was starving for a kind word from Clare.",
+          "zh": "森非常渴望聽到克萊爾說一句安慰的話。)The engine had been starved for fuel.(引擎一直得不到足夠燃料。",
+          "highlight": "starving for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+      "titleEn": "starve somebody into something / starve somebody into doing something",
+      "formula": "starve somebody into something / starve somebody into doing something",
+      "highlight": "starve somebody into something / starve somebody into doing something",
+      "descriptionZh": "斷絕食物或其他必需資源,迫使某人接受某種情況或做某事",
+      "descriptionEn": "The aim was to starve the enemy into submission.",
+      "examples": [
+        {
+          "en": "The aim was to starve the enemy into submission.",
+          "zh": "目的是斷絕敵人的物資,迫使他們屈服。",
+          "highlight": "starve the enemy into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "令某人或某事物得不到所需的東西",
+      "titleEn": "starve somebody or something of something",
+      "formula": "starve somebody or something of something",
+      "highlight": "starve somebody or something of something",
+      "descriptionZh": "令某人或某事物得不到所需的東西",
+      "descriptionEn": "The project is being starved of funds.",
+      "examples": [
+        {
+          "en": "The project is being starved of funds.",
+          "zh": "這個項目一直得不到所需資金。",
+          "highlight": "starved"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "斷絕食物或其他資源,迫使某人或動物離開所在地方",
+      "titleEn": "starve somebody out",
+      "formula": "starve somebody out",
+      "highlight": "starve somebody out",
+      "descriptionZh": "斷絕食物或其他資源,迫使某人或動物離開所在地方",
+      "descriptionEn": "It took a month to starve them out.",
+      "examples": [
+        {
+          "en": "It took a month to starve them out.",
+          "zh": "花了一個月才斷絕他們的物資,迫使他們離開。",
+          "highlight": "starve them out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "表達非常強烈的需要",
+      "titleEn": "Express a very strong need",
+      "zh": "starve for 可以表示某人極度需要安慰、支持、陪伴、資訊或其他並非食物的事物。",
+      "en": "Starve for can describe a powerful need for kindness, support, company, information or other things that are not food."
+    },
+    {
+      "titleZh": "描述嚴重缺乏支援或資源",
+      "titleEn": "Describe a serious lack of support or resources",
+      "zh": "starve something of funds、light、water 或 staff,可以清楚表示某事物得不到必要的資金、光線、水分或人手。",
+      "en": "Starve something of funds, light, water or staff clearly shows that it is not receiving something necessary."
+    },
+    {
+      "titleZh": "說明資源不足如何迫使某人作出決定",
+      "titleEn": "Explain how a lack of resources forces a decision",
+      "zh": "starve somebody into doing something 表示有人被斷絕食物、金錢或物資,最後被迫採取某項行動。",
+      "en": "Starve somebody into doing something shows that food, money or supplies have been withheld until the person or group takes a particular action."
+    },
+    {
+      "titleZh": "描述迫使不受歡迎的訪客離開",
+      "titleEn": "Describe forcing unwanted visitors to leave",
+      "zh": "starve somebody out 可以表示斷絕食物來源,直至動物、昆蟲或人離開某個地方。",
+      "en": "Starve somebody out can describe removing access to food until animals, insects or people leave a place."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "表達非常強烈的需要",
+      "描述嚴重缺乏支援或資源",
+      "說明資源不足如何迫使某人作出決定",
+      "描述迫使不受歡迎的訪客離開"
+    ],
+    "contextsEn": [
+      "Express a very strong need",
+      "Describe a serious lack of support or resources",
+      "Explain how a lack of resources forces a decision",
+      "Describe forcing unwanted visitors to leave"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "表達非常強烈的需要",
+        "titleEn": "Express a very strong need",
+        "zh": "starve for 可以表示某人極度需要安慰、支持、陪伴、資訊或其他並非食物的事物。",
+        "en": "Starve for can describe a powerful need for kindness, support, company, information or other things that are not food.",
+        "examples": [
+          {
+            "en": "Sam was starving for a kind word from Clare.",
+            "zh": "森非常渴望聽到克萊爾說一句安慰的話。)The engine had been starved for fuel.(引擎一直得不到足夠燃料。",
+            "highlight": "starving for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述嚴重缺乏支援或資源",
+        "titleEn": "Describe a serious lack of support or resources",
+        "zh": "starve something of funds、light、water 或 staff,可以清楚表示某事物得不到必要的資金、光線、水分或人手。",
+        "en": "Starve something of funds, light, water or staff clearly shows that it is not receiving something necessary.",
+        "examples": [
+          {
+            "en": "The aim was to starve the enemy into submission.",
+            "zh": "目的是斷絕敵人的物資,迫使他們屈服。",
+            "highlight": "starve the enemy into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明資源不足如何迫使某人作出決定",
+        "titleEn": "Explain how a lack of resources forces a decision",
+        "zh": "starve somebody into doing something 表示有人被斷絕食物、金錢或物資,最後被迫採取某項行動。",
+        "en": "Starve somebody into doing something shows that food, money or supplies have been withheld until the person or group takes a particular action.",
+        "examples": [
+          {
+            "en": "The project is being starved of funds.",
+            "zh": "這個項目一直得不到所需資金。",
+            "highlight": "starved"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迫使不受歡迎的訪客離開",
+        "titleEn": "Describe forcing unwanted visitors to leave",
+        "zh": "starve somebody out 可以表示斷絕食物來源,直至動物、昆蟲或人離開某個地方。",
+        "en": "Starve somebody out can describe removing access to food until animals, insects or people leave a place.",
+        "examples": [
+          {
+            "en": "It took a month to starve them out.",
+            "zh": "花了一個月才斷絕他們的物資,迫使他們離開。",
+            "highlight": "starve them out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STARVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STARVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STARVE 片語動詞。",
+      "en": "Read the whole sentence and choose the STARVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "starve somebody into 後面可以接一種狀態,亦可以接 -ing 動詞:starve somebody into submissionstarve somebody into surrendering",
+      "titleEn": "Notice the two common forms after starve somebody into: starve somebody into submission starve somebody into surrendering.",
+      "zh": "starve somebody into 後面可以接一種狀態,亦可以接 -ing 動詞:starve somebody into submissionstarve somebody into surrendering",
+      "en": "Notice the two common forms after starve somebody into: starve somebody into submission starve somebody into surrendering"
+    },
+    {
+      "titleZh": "非常渴望或極度需要某事物starve somebody/something of something令某人或某事物得不到所需的東西starve somebody out斷絕食物或資源,迫使某人或動物離開",
+      "titleEn": "Notice the differences: starve for something.",
+      "zh": "非常渴望或極度需要某事物starve somebody/something of something令某人或某事物得不到所需的東西starve somebody out斷絕食物或資源,迫使某人或動物離開",
+      "en": "Notice the differences: starve for something"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STARVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STARVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STARVE 動詞片語句子改寫練習",
+    "titleEn": "STARVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STARVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STARVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-289-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After weeks of criticism, Leo badly wanted one kind word.",
+      "promptZh": "受到多星期批評後,里奧非常渴望聽到一句安慰的話。",
+      "starter": "After",
+      "answer": "After weeks of criticism, Leo was starving for one kind word.",
+      "answerZh": "受到多星期批評後,里奧非常渴望聽到一句安慰的話。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The project’s owners are giving it almost no money.",
+      "promptZh": "項目的負責人幾乎沒有向項目提供任何資金。",
+      "starter": "Its",
+      "answer": "Its owners are starving the project of funds.",
+      "answerZh": "項目的負責人正令項目得不到所需資金。",
+      "highlight": "Its",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After many days without food, the enemy were forced to surrender.",
+      "promptZh": "多天沒有食物後,敵人被迫投降。",
+      "starter": "After",
+      "answer": "After many days without food, the enemy were starved into surrendering.",
+      "answerZh": "多天沒有食物後,敵人被迫投降。",
+      "highlight": "starved into surrendering",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "When the ants would not leave, we removed every food source.",
+      "promptZh": "螞蟻不肯離開,所以我們移走了所有食物來源。",
+      "starter": "When",
+      "answer": "When the ants would not leave, we starved them out.",
+      "answerZh": "螞蟻不肯離開,所以我們斷絕牠們的食物來源,迫使牠們離開。",
+      "highlight": "starved them out",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Not enough fuel had been given to the old engine.",
+      "promptZh": "那部舊引擎一直得不到足夠燃料。",
+      "starter": "The",
+      "answer": "The old engine had been starved for fuel.",
+      "answerZh": "那部舊引擎一直得不到足夠燃料。",
+      "highlight": "had been starved for fuel",
+      "targetForm": "starve something for something",
+      "targetMeaningZh": "使某事物缺乏所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guards denied the group food until they accepted defeat.",
+      "promptZh": "守衞不讓那群人得到食物,直至他們接受失敗。",
+      "starter": "The",
+      "answer": "The guards starved the group into submission.",
+      "answerZh": "守衞斷絕那群人的食物,迫使他們屈服。",
+      "highlight": "starved",
+      "targetForm": "starve somebody into something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-289-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Because of the tall wall, the young plants received no sunlight.",
+      "promptZh": "由於那道高牆,幼小的植物得不到陽光。",
+      "starter": "Because",
+      "answer": "Because of the tall wall, the young plants were starved of sunlight.",
+      "answerZh": "由於那道高牆,幼小的植物得不到陽光。",
+      "highlight": "were starved of",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "After all the food had been locked away, the mice were forced to leave.",
+      "promptZh": "所有食物被鎖起來後,老鼠被迫離開。",
+      "starter": "After",
+      "answer": "After all the food had been locked away, the mice were starved out.",
+      "answerZh": "所有食物被鎖起來後,老鼠被迫離開。",
+      "highlight": "starved out",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "During the long trip, Nina badly wanted some fresh fruit.",
+      "promptZh": "在漫長旅程中,妮娜非常想吃一些新鮮水果。",
+      "starter": "During",
+      "answer": "During the long trip, Nina was starving for some fresh fruit.",
+      "answerZh": "在漫長旅程中,妮娜非常想吃一些新鮮水果。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The company stopped all supplies, which forced the small shop to close.",
+      "promptZh": "公司停止所有物資供應,迫使那間小店結業。",
+      "starter": "The",
+      "answer": "The company stopped all supplies and starved the small shop into closing.",
+      "answerZh": "公司停止所有物資供應,迫使那間小店結業。",
+      "highlight": "and starved",
+      "targetForm": "starve something into doing something",
+      "targetMeaningZh": "斷絕所需資源,迫使某事物停止運作"
+    },
+    {
+      "id": "phrasal-verb-289-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The council is giving the youth centre far too little money for its classes.",
+      "promptZh": "市議會給予青年中心的課堂資金遠遠不足。",
+      "starter": "The",
+      "answer": "The council is starving the youth centre of funds for its classes.",
+      "answerZh": "市議會正令青年中心得不到課堂所需資金。",
+      "highlight": "starving",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why does Tariq so badly want some quiet time?",
+      "promptZh": "塔里克為何這麼渴望有一段安靜時間?",
+      "starter": "Why",
+      "answer": "Why is Tariq starving for some quiet time?",
+      "answerZh": "塔里克為何這麼渴望有一段安靜時間?",
+      "highlight": "is",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "If we keep all food sealed, we may force the mice to leave.",
+      "promptZh": "如果我們把所有食物密封起來,可能可以迫使老鼠離開。",
+      "starter": "If",
+      "answer": "If we keep all food sealed, we may starve the mice out.",
+      "answerZh": "如果我們把所有食物密封起來,可能可以迫使老鼠離開。",
+      "highlight": "starve",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The group was denied supplies until it agreed to leave.",
+      "promptZh": "那群人一直得不到物資,直至同意離開。",
+      "starter": "The",
+      "answer": "The group was starved into leaving.",
+      "answerZh": "那群人因得不到所需物資而被迫離開。",
+      "highlight": "starved into leaving",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "For years, the government has given the railway too little money for repairs.",
+      "promptZh": "多年來,政府給予鐵路的維修資金一直不足。",
+      "starter": "For",
+      "answer": "For years, the government has starved the railway of money for repairs.",
+      "answerZh": "多年來,政府一直令鐵路得不到維修所需資金。",
+      "highlight": "starved",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "How did the farmer force the rats to leave?",
+      "promptZh": "農夫如何迫使老鼠離開?",
+      "starter": "How",
+      "answer": "How did the farmer starve the rats out?",
+      "answerZh": "農夫如何斷絕老鼠的食物來源,迫使牠們離開?",
+      "highlight": "starve",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I have never wanted company as badly as I do now.",
+      "promptZh": "我從未像現在這樣渴望有人陪伴。",
+      "starter": "I",
+      "answer": "I have never starved for company as badly as I do now.",
+      "answerZh": "我從未像現在這樣渴望有人陪伴。",
+      "highlight": "starved for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The lack of food could force the trapped group to surrender.",
+      "promptZh": "食物不足可能會迫使被困的一群人投降。",
+      "starter": "The",
+      "answer": "The lack of food could starve the trapped group into surrendering.",
+      "answerZh": "食物不足可能會迫使被困的一群人投降。",
+      "highlight": "starve",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We must not deny the school the staff it needs.",
+      "promptZh": "我們不可令學校得不到所需人手。",
+      "starter": "We",
+      "answer": "We must not starve the school of the staff it needs.",
+      "answerZh": "我們不可令學校得不到所需人手。",
+      "highlight": "starve",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Closing the rubbish bins has finally forced the foxes to leave.",
+      "promptZh": "把垃圾桶關好,終於迫使狐狸離開。",
+      "starter": "Closing",
+      "answer": "Closing the rubbish bins has finally starved the foxes out.",
+      "answerZh": "把垃圾桶關好,終於迫使狐狸離開。",
+      "highlight": "starved",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "She had waited all day for praise, and by evening she badly wanted it.",
+      "promptZh": "她等了一整天也沒有得到稱讚,到了晚上已非常渴望聽到讚美。",
+      "starter": "She",
+      "answer": "She had waited all day for praise, and by evening she was starving for it.",
+      "answerZh": "她等了一整天也沒有得到稱讚,到了晚上已非常渴望聽到讚美。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The project needed skilled workers, but the company denied it this support.",
+      "promptZh": "項目需要熟練工人,但公司沒有向它提供這方面的支援。",
+      "starter": "The",
+      "answer": "The project needed skilled workers, but the company starved it of this support.",
+      "answerZh": "項目需要熟練工人,但公司沒有向它提供這方面的支援。",
+      "highlight": "starved",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The guards kept supplies away until the group accepted the new rules.",
+      "promptZh": "守衞斷絕物資,直至那群人接受新規則。",
+      "starter": "The",
+      "answer": "The guards starved the group into accepting the new rules.",
+      "answerZh": "守衞斷絕物資,迫使那群人接受新規則。",
+      "highlight": "starved",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The insects stayed in the cupboard until we removed every possible food source.",
+      "promptZh": "昆蟲一直留在櫥櫃裏,直至我們移走所有可能的食物來源。",
+      "starter": "The",
+      "answer": "The insects stayed in the cupboard until we starved them out.",
+      "answerZh": "昆蟲一直留在櫥櫃裏,直至我們斷絕食物來源,迫使牠們離開。",
+      "highlight": "starved them out",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "During the long delay, the team had been given almost no information.",
+      "promptZh": "在漫長的延誤期間,團隊幾乎沒有得到任何資訊。",
+      "starter": "During",
+      "answer": "During the long delay, the team had been starved for information.",
+      "answerZh": "在漫長的延誤期間,團隊一直極度缺乏資訊。",
+      "highlight": "starved for",
+      "targetForm": "starve somebody for something",
+      "targetMeaningZh": "使某人缺乏所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The new trees were kept without water during the hottest week.",
+      "promptZh": "在最炎熱的一星期,那些新種的樹木一直得不到水分。",
+      "starter": "The",
+      "answer": "The new trees were starved of water during the hottest week.",
+      "answerZh": "在最炎熱的一星期,那些新種的樹木一直得不到水分。",
+      "highlight": "starved of",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Did the leaders deny the town food until it agreed to their demands?",
+      "promptZh": "領袖是否斷絕了城鎮的食物,直至居民同意他們的要求?",
+      "starter": "Did",
+      "answer": "Did the leaders starve the town into agreeing to their demands?",
+      "answerZh": "領袖是否斷絕了城鎮的食物,迫使居民同意他們的要求?",
+      "highlight": "starve",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The plan was to remove all food until the animals left.",
+      "promptZh": "計劃是移走所有食物,直至那些動物離開。",
+      "starter": "The",
+      "answer": "The plan was to starve the animals out.",
+      "answerZh": "計劃是斷絕那些動物的食物來源,迫使牠們離開。",
+      "highlight": "starve",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "She wanted one honest answer more than anything.",
+      "promptZh": "她最渴望得到的是一個誠實的答案。",
+      "starter": "She",
+      "answer": "She was starving for one honest answer.",
+      "answerZh": "她非常渴望得到一個誠實的答案。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The thick curtains stopped the room from getting natural light.",
+      "promptZh": "厚厚的窗簾令房間得不到自然光。",
+      "starter": "The",
+      "answer": "The thick curtains starved the room of natural light.",
+      "answerZh": "厚厚的窗簾令房間得不到自然光。",
+      "highlight": "starved",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The owners did not simply ask the café to close; they denied it supplies until it did.",
+      "promptZh": "業主並非只是要求咖啡店結業,而是斷絕物資供應,直至它被迫結業。",
+      "starter": "The",
+      "answer": "The owners did not simply ask the café to close; they starved it into closing.",
+      "answerZh": "業主並非只是要求咖啡店結業,而是斷絕物資供應,迫使它結業。",
+      "highlight": "starved",
+      "targetForm": "starve something into doing something",
+      "targetMeaningZh": "斷絕所需資源,迫使某事物停止運作"
+    },
+    {
+      "id": "phrasal-verb-289-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The rats were not caught; they left because no food remained.",
+      "promptZh": "老鼠並非被捉走,而是因為再沒有食物而離開。",
+      "starter": "The",
+      "answer": "The rats were not caught; they were starved out.",
+      "answerZh": "老鼠並非被捉走,而是因為得不到食物而被迫離開。",
+      "highlight": "were starved out",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After months without encouragement, the young player badly wanted some support.",
+      "promptZh": "多個月沒有得到鼓勵後,那名年輕球員非常渴望得到支持。",
+      "starter": "After",
+      "answer": "After months without encouragement, the young player was starving for support.",
+      "answerZh": "多個月沒有得到鼓勵後,那名年輕球員非常渴望得到支持。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The school had enough rooms, but it was given too few teachers.",
+      "promptZh": "學校有足夠課室,但獲安排的教師太少。",
+      "starter": "The",
+      "answer": "The school had enough rooms, but it was starved of teachers.",
+      "answerZh": "學校有足夠課室,但嚴重缺乏教師。",
+      "highlight": "starved of",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The siege was meant to deny the defenders food until they accepted defeat.",
+      "promptZh": "圍困的目的是斷絕守衞者的食物,直至他們接受失敗。",
+      "starter": "The",
+      "answer": "The siege was meant to starve the defenders into submission.",
+      "answerZh": "圍困的目的是斷絕守衞者的食物,迫使他們屈服。",
+      "highlight": "starve",
+      "targetForm": "starve somebody into something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-289-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The hotel sealed every bin, and the unwanted birds eventually left.",
+      "promptZh": "酒店封好所有垃圾桶,那些不受歡迎的雀鳥最終離開了。",
+      "starter": "The",
+      "answer": "The hotel sealed every bin and eventually starved the unwanted birds out.",
+      "answerZh": "酒店封好所有垃圾桶,最終迫使那些不受歡迎的雀鳥離開。",
+      "highlight": "eventually starved",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "For weeks, the newsroom had received almost no new information.",
+      "promptZh": "多星期以來,新聞室幾乎沒有收到任何新資訊。",
+      "starter": "For",
+      "answer": "For weeks, the newsroom had been starved for new information.",
+      "answerZh": "多星期以來,新聞室一直極度缺乏新資訊。",
+      "highlight": "been starved for",
+      "targetForm": "starve something for something",
+      "targetMeaningZh": "使某事物缺乏所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The budget cuts left the library without new books.",
+      "promptZh": "預算削減令圖書館得不到新書。",
+      "starter": "The",
+      "answer": "The budget cuts starved the library of new books.",
+      "answerZh": "預算削減令圖書館得不到新書。",
+      "highlight": "starved",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even after food deliveries stopped, the group could not be forced to leave.",
+      "promptZh": "即使食物供應停止,那群人仍不能被迫離開。",
+      "starter": "Even",
+      "answer": "Even after food deliveries stopped, the group could not be starved into leaving.",
+      "answerZh": "即使食物供應停止,那群人仍不能被迫離開。",
+      "highlight": "starved into leaving",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the cellar stays free of food, we should eventually force the mice to leave.",
+      "promptZh": "如果地庫一直沒有食物,我們最終應能迫使老鼠離開。",
+      "starter": "If",
+      "answer": "If the cellar stays free of food, we should eventually starve the mice out.",
+      "answerZh": "如果地庫一直沒有食物,我們最終應能迫使老鼠離開。",
+      "highlight": "starve",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The child had heard only criticism all week and now wanted a few kind words more than anything.",
+      "promptZh": "那名孩子整個星期只聽到批評,現在最渴望聽到幾句安慰的話。",
+      "starter": "The",
+      "answer": "The child had heard only criticism all week and was now starving for a few kind words.",
+      "answerZh": "那名孩子整個星期只聽到批評,現在非常渴望聽到幾句安慰的話。",
+      "highlight": "was",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The company stopped every delivery and forced the small factory to accept the sale.",
+      "promptZh": "公司停止所有貨物運送,迫使小型工廠接受出售安排。",
+      "starter": "The",
+      "answer": "The company stopped every delivery and starved the small factory into accepting the sale.",
+      "answerZh": "公司停止所有貨物運送,迫使小型工廠接受出售安排。",
+      "highlight": "starved",
+      "targetForm": "starve something into doing something",
+      "targetMeaningZh": "斷絕所需資源,迫使某事物接受某項安排"
+    },
+    {
+      "id": "phrasal-verb-289-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because all attention went to the main event, the smaller activities received almost no support.",
+      "promptZh": "由於所有注意力都集中在主要活動上,較小型的活動幾乎得不到支援。",
+      "starter": "Because",
+      "answer": "Because all attention went to the main event, the smaller activities were starved of support.",
+      "answerZh": "由於所有注意力都集中在主要活動上,較小型的活動幾乎得不到支援。",
+      "highlight": "were starved of",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The family did not use poison in the shed; it removed all food until the mice left.",
+      "promptZh": "那家人沒有在小屋使用毒藥,而是移走所有食物,直至老鼠離開。",
+      "starter": "The",
+      "answer": "The family did not use poison in the shed; it starved the mice out.",
+      "answerZh": "那家人沒有在小屋使用毒藥,而是斷絕食物來源,迫使老鼠離開。",
+      "highlight": "starved",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "What the research team needed most was more data.",
+      "promptZh": "研究團隊最需要的是更多數據。",
+      "starter": "The",
+      "answer": "The research team was starving for more data.",
+      "answerZh": "研究團隊非常需要更多數據。",
+      "highlight": "starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The leaders hoped that cutting off supplies would make the group sign the agreement.",
+      "promptZh": "領袖希望斷絕物資能迫使那群人簽署協議。",
+      "starter": "The",
+      "answer": "The leaders hoped to starve the group into signing the agreement.",
+      "answerZh": "領袖希望斷絕物資,迫使那群人簽署協議。",
+      "highlight": "to starve",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    },
+    {
+      "id": "phrasal-verb-289-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Because the windows were closed, the fire received too little oxygen.",
+      "promptZh": "由於窗戶關上了,火焰得不到足夠氧氣。",
+      "starter": "Because",
+      "answer": "Because the windows were closed, the fire was starved of oxygen.",
+      "answerZh": "由於窗戶關上了,火焰得不到足夠氧氣。",
+      "highlight": "was starved of",
+      "targetForm": "starve something of something",
+      "targetMeaningZh": "令某事物得不到所需的東西"
+    },
+    {
+      "id": "phrasal-verb-289-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The guards waited. After four weeks without supplies, the group finally left the fort.",
+      "promptZh": "守衞一直等待。四星期沒有物資後,那群人終於離開堡壘。",
+      "starter": "The",
+      "answer": "The guards finally starved the group out of the fort after four weeks without supplies.",
+      "answerZh": "四星期沒有物資後,守衞終於迫使那群人離開堡壘。",
+      "highlight": "finally starved the group out of the fort",
+      "targetForm": "starve somebody out",
+      "targetMeaningZh": "斷絕食物或資源,迫使離開"
+    },
+    {
+      "id": "phrasal-verb-289-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Although he had many online messages, Arun badly wanted a real conversation.",
+      "promptZh": "雖然阿倫收到很多網上訊息,但他非常渴望與人真正交談。",
+      "starter": "Although",
+      "answer": "Although he had many online messages, Arun was starving for a real conversation.",
+      "answerZh": "雖然阿倫收到很多網上訊息,但他非常渴望與人真正交談。",
+      "highlight": "was starving for",
+      "targetForm": "starve for something",
+      "targetMeaningZh": "極度渴望;非常需要"
+    },
+    {
+      "id": "phrasal-verb-289-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "The army kept food and water from the enemy until they surrendered.",
+      "promptZh": "軍隊斷絕敵人的食物和食水,直至他們投降。",
+      "starter": "The",
+      "answer": "The army starved the enemy into surrendering.",
+      "answerZh": "軍隊斷絕敵人的食物和食水,迫使他們投降。",
+      "highlight": "starved",
+      "targetForm": "starve somebody into doing something",
+      "targetMeaningZh": "斷絕所需物資,迫使某人做某事"
+    }
+  ]
+}

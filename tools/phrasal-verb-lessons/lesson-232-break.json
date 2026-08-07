@@ -1,0 +1,2226 @@
+{
+  "id": "phrasal-verb-232",
+  "order": 232,
+  "slug": "break",
+  "version": "1",
+  "title": "BREAK 動詞片語",
+  "titleEn": "Break",
+  "titleZh": "BREAK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 227 - BREAK.pdf",
+    "sourceNumber": 227,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BREAK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BREAK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BREAK",
+      "highlight": "BREAK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The dog broke away from its lead.",
+      "zh": "那隻狗突然掙脫了牽引帶。",
+      "highlight": "broke away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The printer has broken down again.",
+      "zh": "打印機又壞了。",
+      "highlight": "broken down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Someone broke in during the night.",
+      "zh": "有人在夜間強行闖入。",
+      "highlight": "broke in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與固定、拉住或連接它的東西突然分離;掙脫；機器或車輛因故障停止運作；強行或非法進入建築物；插話;打斷別人的說話或活動；因受力而斷開;把一部分折下；未完成便突然停止說話或活動；火警、戰爭、打鬥或其他不愉快的事情突然發生；突然冒汗、出疹或出現類似的身體反應；讓新人逐步熟習工作;訓練動物做新的事情；用力撞擊,使門、閘或牆倒下或打開；穿着新鞋或新靴一段時間,使它們變得舒適；突然結束婚約、關係、談判或協議；取出某物供人使用、食用、飲用或慶祝；在沉悶的時間、活動或版面中加入變化；超過某個數字、水平或界線；用力穿過障礙物、防線或人群",
+    "en": "break away / break away from something; break down; break in; break in / break in on something; break off / break something off; break off / break something off; break out; break out in/into something; break somebody/something in; break something down; break something in; break something off; break something out; break something up; break through something; break through / break through something",
+    "naturalZh": [
+      "與固定、拉住或連接它的東西突然分離;掙脫",
+      "機器或車輛因故障停止運作",
+      "強行或非法進入建築物",
+      "插話;打斷別人的說話或活動",
+      "因受力而斷開;把一部分折下",
+      "未完成便突然停止說話或活動",
+      "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+      "突然冒汗、出疹或出現類似的身體反應",
+      "讓新人逐步熟習工作;訓練動物做新的事情",
+      "用力撞擊,使門、閘或牆倒下或打開",
+      "穿着新鞋或新靴一段時間,使它們變得舒適",
+      "突然結束婚約、關係、談判或協議",
+      "取出某物供人使用、食用、飲用或慶祝",
+      "在沉悶的時間、活動或版面中加入變化",
+      "超過某個數字、水平或界線",
+      "用力穿過障礙物、防線或人群"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "break away / break away from something",
+      "titleZh": "與固定、拉住或連接它的東西突然分離;掙脫",
+      "titleEn": "break away / break away from something",
+      "descriptionZh": "與固定、拉住或連接它的東西突然分離;掙脫",
+      "descriptionEn": "The dog broke away from its lead.",
+      "examples": [
+        {
+          "en": "The dog broke away from its lead.",
+          "zh": "那隻狗突然掙脫了牽引帶。",
+          "highlight": "broke away from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break down",
+      "titleZh": "機器或車輛因故障停止運作",
+      "titleEn": "break down",
+      "descriptionZh": "機器或車輛因故障停止運作",
+      "descriptionEn": "The printer has broken down again.",
+      "examples": [
+        {
+          "en": "The printer has broken down again.",
+          "zh": "打印機又壞了。",
+          "highlight": "broken down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break in",
+      "titleZh": "強行或非法進入建築物",
+      "titleEn": "break in",
+      "descriptionZh": "強行或非法進入建築物",
+      "descriptionEn": "Someone broke in during the night.",
+      "examples": [
+        {
+          "en": "Someone broke in during the night.",
+          "zh": "有人在夜間強行闖入。",
+          "highlight": "broke in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break in / break in on something",
+      "titleZh": "插話;打斷別人的說話或活動",
+      "titleEn": "break in / break in on something",
+      "descriptionZh": "插話;打斷別人的說話或活動",
+      "descriptionEn": "“Wait,” Ben broke in.",
+      "examples": [
+        {
+          "en": "“Wait,” Ben broke in.",
+          "zh": "「等等,」賓插話道。",
+          "highlight": "broke in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break off / break something off",
+      "titleZh": "因受力而斷開;把一部分折下",
+      "titleEn": "break off / break something off",
+      "descriptionZh": "因受力而斷開;把一部分折下",
+      "descriptionEn": "She broke off a piece of chocolate.",
+      "examples": [
+        {
+          "en": "She broke off a piece of chocolate.",
+          "zh": "她折下了一小塊朱古力。",
+          "highlight": "broke off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break off / break something off",
+      "titleZh": "未完成便突然停止說話或活動",
+      "titleEn": "break off / break something off",
+      "descriptionZh": "未完成便突然停止說話或活動",
+      "descriptionEn": "He broke off in the middle of his story.",
+      "examples": [
+        {
+          "en": "He broke off in the middle of his story.",
+          "zh": "他說到故事中途便突然停下來。",
+          "highlight": "broke off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break out",
+      "titleZh": "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+      "titleEn": "break out",
+      "descriptionZh": "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+      "descriptionEn": "A fire broke out after midnight.",
+      "examples": [
+        {
+          "en": "A fire broke out after midnight.",
+          "zh": "午夜後突然發生火警。",
+          "highlight": "broke out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break out in/into something",
+      "titleZh": "突然冒汗、出疹或出現類似的身體反應",
+      "titleEn": "break out in/into something",
+      "descriptionZh": "突然冒汗、出疹或出現類似的身體反應",
+      "descriptionEn": "She broke out in a cold sweat.",
+      "examples": [
+        {
+          "en": "She broke out in a cold sweat.",
+          "zh": "她突然冒出一身冷汗。",
+          "highlight": "broke out in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "break somebody/something in",
+      "titleZh": "讓新人逐步熟習工作;訓練動物做新的事情",
+      "titleEn": "break somebody/something in",
+      "descriptionZh": "讓新人逐步熟習工作;訓練動物做新的事情",
+      "descriptionEn": "We break new staff in gently.",
+      "examples": [
+        {
+          "en": "We break new staff in gently.",
+          "zh": "我們會逐步讓新員工熟習工作。",
+          "highlight": "break new staff in"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break something down",
+      "titleZh": "用力撞擊,使門、閘或牆倒下或打開",
+      "titleEn": "break something down",
+      "descriptionZh": "用力撞擊,使門、閘或牆倒下或打開",
+      "descriptionEn": "Firefighters broke the door down.",
+      "examples": [
+        {
+          "en": "Firefighters broke the door down.",
+          "zh": "消防員把門撞開。",
+          "highlight": "broke the door down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break something in",
+      "titleZh": "穿着新鞋或新靴一段時間,使它們變得舒適",
+      "titleEn": "break something in",
+      "descriptionZh": "穿着新鞋或新靴一段時間,使它們變得舒適",
+      "descriptionEn": "I am breaking in my new boots.",
+      "examples": [
+        {
+          "en": "I am breaking in my new boots.",
+          "zh": "我正在把新靴穿鬆,使它們變得舒適。",
+          "highlight": "breaking in"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break something off",
+      "titleZh": "突然結束婚約、關係、談判或協議",
+      "titleEn": "break something off",
+      "descriptionZh": "突然結束婚約、關係、談判或協議",
+      "descriptionEn": "They broke off the talks.",
+      "examples": [
+        {
+          "en": "They broke off the talks.",
+          "zh": "他們中止了談判。",
+          "highlight": "broke off"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break something out",
+      "titleZh": "取出某物供人使用、食用、飲用或慶祝",
+      "titleEn": "break something out",
+      "descriptionZh": "取出某物供人使用、食用、飲用或慶祝",
+      "descriptionEn": "Let’s break out the board games.",
+      "examples": [
+        {
+          "en": "Let’s break out the board games.",
+          "zh": "我們把桌上遊戲拿出來玩吧。",
+          "highlight": "break out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break something up",
+      "titleZh": "在沉悶的時間、活動或版面中加入變化",
+      "titleEn": "break something up",
+      "descriptionZh": "在沉悶的時間、活動或版面中加入變化",
+      "descriptionEn": "A short walk breaks up my day.",
+      "examples": [
+        {
+          "en": "A short walk breaks up my day.",
+          "zh": "短暫散步令我的一天不會那麼單調。",
+          "highlight": "breaks up"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break through something",
+      "titleZh": "超過某個數字、水平或界線",
+      "titleEn": "break through something",
+      "descriptionZh": "超過某個數字、水平或界線",
+      "descriptionEn": "Sales broke through the 10,000 mark.",
+      "examples": [
+        {
+          "en": "Sales broke through the 10,000 mark.",
+          "zh": "銷量突破了一萬大關。",
+          "highlight": "broke through"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "break through / break through something",
+      "titleZh": "用力穿過障礙物、防線或人群",
+      "titleEn": "break through / break through something",
+      "descriptionZh": "用力穿過障礙物、防線或人群",
+      "descriptionEn": "The crowd broke through the barrier.",
+      "examples": [
+        {
+          "en": "The crowd broke through the barrier.",
+          "zh": "人群衝破了障礙物。",
+          "highlight": "broke through"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BREAK 片語動詞的實際用途",
+    "labelEn": "BREAK Phrasal Verbs in Use",
+    "summaryZh": "break down 可以描述機器停止運作;break out 則可以描述火警、打鬥或戰爭突然發生。；break away 可以描述船隻、動物或人突然掙脫;break off 可以描述某部分斷開或一段關係結束。；你可以 break in 新員工或新鞋,也可以用不同活動 break up 漫長的一天,使生活不會那麼單調。；break through 可以描述實際衝破障礙物,也可以表示數字超過重要界線。",
+    "summaryEn": "Break down can describe a machine that stops working, while break out can describe a fire, fight or war that suddenly begins. Break away can describe a boat, animal or person becoming free. Break off can describe a piece becoming separated or a relationship ending. You can break in new staff or new shoes, and you can break up a long day with a different activity. Break through can describe physically passing a barrier or rising beyond an important number.",
+    "contextsZh": [
+      "清楚談論故障和突發問題",
+      "描述不同形式的分離",
+      "談論適應過程和減少單調感",
+      "描述衝破障礙和突破界線"
+    ],
+    "contextsEn": [
+      "Talk clearly about faults and sudden problems",
+      "Describe different kinds of separation",
+      "Talk about becoming ready or making life less repetitive",
+      "Describe passing limits and obstacles"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "break away / break away from something",
+    "fixedHighlight": "break away / break away from something",
+    "fixedZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning.",
+    "correct": "broke away from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子把代名詞放在正確位置。；break in 和 break off 在本練習中各有兩種意思。作答前請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, follow the word order shown below: break it off break them in break it down break it out break it up Break in and break off each have two meanings in this exercise. Read the full situation carefully before choosing your answer.",
+    "variableItemsZh": [
+      "break away / break away from something",
+      "break down",
+      "break in",
+      "break in / break in on something",
+      "break off / break something off",
+      "break off / break something off",
+      "break out",
+      "break out in/into something",
+      "break somebody/something in",
+      "break something down",
+      "break something in",
+      "break something off",
+      "break something out",
+      "break something up",
+      "break through something",
+      "break through / break through something"
+    ],
+    "variableItemsEn": [
+      "break away / break away from something",
+      "break down",
+      "break in",
+      "break in / break in on something",
+      "break off / break something off",
+      "break off / break something off",
+      "break out",
+      "break out in/into something",
+      "break somebody/something in",
+      "break something down",
+      "break something in",
+      "break something off",
+      "break something out",
+      "break something up",
+      "break through something",
+      "break through / break through something"
+    ],
+    "forms": [
+      {
+        "formZh": "與固定、拉住或連接它的東西突然分離;掙脫",
+        "formEn": "break away / break away from something",
+        "exampleZh": "那隻狗突然掙脫了牽引帶。",
+        "exampleEn": "The dog broke away from its lead.",
+        "highlight": "broke away from"
+      },
+      {
+        "formZh": "機器或車輛因故障停止運作",
+        "formEn": "break down",
+        "exampleZh": "打印機又壞了。",
+        "exampleEn": "The printer has broken down again.",
+        "highlight": "broken down"
+      },
+      {
+        "formZh": "強行或非法進入建築物",
+        "formEn": "break in",
+        "exampleZh": "有人在夜間強行闖入。",
+        "exampleEn": "Someone broke in during the night.",
+        "highlight": "broke in"
+      },
+      {
+        "formZh": "插話;打斷別人的說話或活動",
+        "formEn": "break in / break in on something",
+        "exampleZh": "「等等,」賓插話道。",
+        "exampleEn": "“Wait,” Ben broke in.",
+        "highlight": "broke in"
+      },
+      {
+        "formZh": "因受力而斷開;把一部分折下",
+        "formEn": "break off / break something off",
+        "exampleZh": "她折下了一小塊朱古力。",
+        "exampleEn": "She broke off a piece of chocolate.",
+        "highlight": "broke off"
+      },
+      {
+        "formZh": "未完成便突然停止說話或活動",
+        "formEn": "break off / break something off",
+        "exampleZh": "他說到故事中途便突然停下來。",
+        "exampleEn": "He broke off in the middle of his story.",
+        "highlight": "broke off"
+      },
+      {
+        "formZh": "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+        "formEn": "break out",
+        "exampleZh": "午夜後突然發生火警。",
+        "exampleEn": "A fire broke out after midnight.",
+        "highlight": "broke out"
+      },
+      {
+        "formZh": "突然冒汗、出疹或出現類似的身體反應",
+        "formEn": "break out in/into something",
+        "exampleZh": "她突然冒出一身冷汗。",
+        "exampleEn": "She broke out in a cold sweat.",
+        "highlight": "broke out in"
+      },
+      {
+        "formZh": "讓新人逐步熟習工作;訓練動物做新的事情",
+        "formEn": "break somebody/something in",
+        "exampleZh": "我們會逐步讓新員工熟習工作。",
+        "exampleEn": "We break new staff in gently.",
+        "highlight": "break new staff in"
+      },
+      {
+        "formZh": "用力撞擊,使門、閘或牆倒下或打開",
+        "formEn": "break something down",
+        "exampleZh": "消防員把門撞開。",
+        "exampleEn": "Firefighters broke the door down.",
+        "highlight": "broke the door down"
+      },
+      {
+        "formZh": "穿着新鞋或新靴一段時間,使它們變得舒適",
+        "formEn": "break something in",
+        "exampleZh": "我正在把新靴穿鬆,使它們變得舒適。",
+        "exampleEn": "I am breaking in my new boots.",
+        "highlight": "breaking in"
+      },
+      {
+        "formZh": "突然結束婚約、關係、談判或協議",
+        "formEn": "break something off",
+        "exampleZh": "他們中止了談判。",
+        "exampleEn": "They broke off the talks.",
+        "highlight": "broke off"
+      },
+      {
+        "formZh": "取出某物供人使用、食用、飲用或慶祝",
+        "formEn": "break something out",
+        "exampleZh": "我們把桌上遊戲拿出來玩吧。",
+        "exampleEn": "Let’s break out the board games.",
+        "highlight": "break out"
+      },
+      {
+        "formZh": "在沉悶的時間、活動或版面中加入變化",
+        "formEn": "break something up",
+        "exampleZh": "短暫散步令我的一天不會那麼單調。",
+        "exampleEn": "A short walk breaks up my day.",
+        "highlight": "breaks up"
+      },
+      {
+        "formZh": "超過某個數字、水平或界線",
+        "formEn": "break through something",
+        "exampleZh": "銷量突破了一萬大關。",
+        "exampleEn": "Sales broke through the 10,000 mark.",
+        "highlight": "broke through"
+      },
+      {
+        "formZh": "用力穿過障礙物、防線或人群",
+        "formEn": "break through / break through something",
+        "exampleZh": "人群衝破了障礙物。",
+        "exampleEn": "The crowd broke through the barrier.",
+        "highlight": "broke through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與固定、拉住或連接它的東西突然分離;掙脫",
+      "titleEn": "break away / break away from something",
+      "formula": "break away / break away from something",
+      "highlight": "break away / break away from something",
+      "descriptionZh": "與固定、拉住或連接它的東西突然分離;掙脫",
+      "descriptionEn": "The dog broke away from its lead.",
+      "examples": [
+        {
+          "en": "The dog broke away from its lead.",
+          "zh": "那隻狗突然掙脫了牽引帶。",
+          "highlight": "broke away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "機器或車輛因故障停止運作",
+      "titleEn": "break down",
+      "formula": "break down",
+      "highlight": "break down",
+      "descriptionZh": "機器或車輛因故障停止運作",
+      "descriptionEn": "The printer has broken down again.",
+      "examples": [
+        {
+          "en": "The printer has broken down again.",
+          "zh": "打印機又壞了。",
+          "highlight": "broken down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "強行或非法進入建築物",
+      "titleEn": "break in",
+      "formula": "break in",
+      "highlight": "break in",
+      "descriptionZh": "強行或非法進入建築物",
+      "descriptionEn": "Someone broke in during the night.",
+      "examples": [
+        {
+          "en": "Someone broke in during the night.",
+          "zh": "有人在夜間強行闖入。",
+          "highlight": "broke in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "插話;打斷別人的說話或活動",
+      "titleEn": "break in / break in on something",
+      "formula": "break in / break in on something",
+      "highlight": "break in / break in on something",
+      "descriptionZh": "插話;打斷別人的說話或活動",
+      "descriptionEn": "“Wait,” Ben broke in.",
+      "examples": [
+        {
+          "en": "“Wait,” Ben broke in.",
+          "zh": "「等等,」賓插話道。",
+          "highlight": "broke in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因受力而斷開;把一部分折下",
+      "titleEn": "break off / break something off",
+      "formula": "break off / break something off",
+      "highlight": "break off / break something off",
+      "descriptionZh": "因受力而斷開;把一部分折下",
+      "descriptionEn": "She broke off a piece of chocolate.",
+      "examples": [
+        {
+          "en": "She broke off a piece of chocolate.",
+          "zh": "她折下了一小塊朱古力。",
+          "highlight": "broke off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "未完成便突然停止說話或活動",
+      "titleEn": "break off / break something off",
+      "formula": "break off / break something off",
+      "highlight": "break off / break something off",
+      "descriptionZh": "未完成便突然停止說話或活動",
+      "descriptionEn": "He broke off in the middle of his story.",
+      "examples": [
+        {
+          "en": "He broke off in the middle of his story.",
+          "zh": "他說到故事中途便突然停下來。",
+          "highlight": "broke off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+      "titleEn": "break out",
+      "formula": "break out",
+      "highlight": "break out",
+      "descriptionZh": "火警、戰爭、打鬥或其他不愉快的事情突然發生",
+      "descriptionEn": "A fire broke out after midnight.",
+      "examples": [
+        {
+          "en": "A fire broke out after midnight.",
+          "zh": "午夜後突然發生火警。",
+          "highlight": "broke out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "突然冒汗、出疹或出現類似的身體反應",
+      "titleEn": "break out in/into something",
+      "formula": "break out in/into something",
+      "highlight": "break out in/into something",
+      "descriptionZh": "突然冒汗、出疹或出現類似的身體反應",
+      "descriptionEn": "She broke out in a cold sweat.",
+      "examples": [
+        {
+          "en": "She broke out in a cold sweat.",
+          "zh": "她突然冒出一身冷汗。",
+          "highlight": "broke out in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "讓新人逐步熟習工作;訓練動物做新的事情",
+      "titleEn": "break somebody/something in",
+      "formula": "break somebody/something in",
+      "highlight": "break somebody/something in",
+      "descriptionZh": "讓新人逐步熟習工作;訓練動物做新的事情",
+      "descriptionEn": "We break new staff in gently.",
+      "examples": [
+        {
+          "en": "We break new staff in gently.",
+          "zh": "我們會逐步讓新員工熟習工作。",
+          "highlight": "break new staff in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "用力撞擊,使門、閘或牆倒下或打開",
+      "titleEn": "break something down",
+      "formula": "break something down",
+      "highlight": "break something down",
+      "descriptionZh": "用力撞擊,使門、閘或牆倒下或打開",
+      "descriptionEn": "Firefighters broke the door down.",
+      "examples": [
+        {
+          "en": "Firefighters broke the door down.",
+          "zh": "消防員把門撞開。",
+          "highlight": "broke the door down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "穿着新鞋或新靴一段時間,使它們變得舒適",
+      "titleEn": "break something in",
+      "formula": "break something in",
+      "highlight": "break something in",
+      "descriptionZh": "穿着新鞋或新靴一段時間,使它們變得舒適",
+      "descriptionEn": "I am breaking in my new boots.",
+      "examples": [
+        {
+          "en": "I am breaking in my new boots.",
+          "zh": "我正在把新靴穿鬆,使它們變得舒適。",
+          "highlight": "breaking in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "突然結束婚約、關係、談判或協議",
+      "titleEn": "break something off",
+      "formula": "break something off",
+      "highlight": "break something off",
+      "descriptionZh": "突然結束婚約、關係、談判或協議",
+      "descriptionEn": "They broke off the talks.",
+      "examples": [
+        {
+          "en": "They broke off the talks.",
+          "zh": "他們中止了談判。",
+          "highlight": "broke off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "取出某物供人使用、食用、飲用或慶祝",
+      "titleEn": "break something out",
+      "formula": "break something out",
+      "highlight": "break something out",
+      "descriptionZh": "取出某物供人使用、食用、飲用或慶祝",
+      "descriptionEn": "Let’s break out the board games.",
+      "examples": [
+        {
+          "en": "Let’s break out the board games.",
+          "zh": "我們把桌上遊戲拿出來玩吧。",
+          "highlight": "break out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "在沉悶的時間、活動或版面中加入變化",
+      "titleEn": "break something up",
+      "formula": "break something up",
+      "highlight": "break something up",
+      "descriptionZh": "在沉悶的時間、活動或版面中加入變化",
+      "descriptionEn": "A short walk breaks up my day.",
+      "examples": [
+        {
+          "en": "A short walk breaks up my day.",
+          "zh": "短暫散步令我的一天不會那麼單調。",
+          "highlight": "breaks up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "超過某個數字、水平或界線",
+      "titleEn": "break through something",
+      "formula": "break through something",
+      "highlight": "break through something",
+      "descriptionZh": "超過某個數字、水平或界線",
+      "descriptionEn": "Sales broke through the 10,000 mark.",
+      "examples": [
+        {
+          "en": "Sales broke through the 10,000 mark.",
+          "zh": "銷量突破了一萬大關。",
+          "highlight": "broke through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "用力穿過障礙物、防線或人群",
+      "titleEn": "break through / break through something",
+      "formula": "break through / break through something",
+      "highlight": "break through / break through something",
+      "descriptionZh": "用力穿過障礙物、防線或人群",
+      "descriptionEn": "The crowd broke through the barrier.",
+      "examples": [
+        {
+          "en": "The crowd broke through the barrier.",
+          "zh": "人群衝破了障礙物。",
+          "highlight": "broke through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論故障和突發問題",
+      "titleEn": "Talk clearly about faults and sudden problems",
+      "zh": "break down 可以描述機器停止運作;break out 則可以描述火警、打鬥或戰爭突然發生。",
+      "en": "Break down can describe a machine that stops working, while break out can describe a fire, fight or war that suddenly begins."
+    },
+    {
+      "titleZh": "描述不同形式的分離",
+      "titleEn": "Describe different kinds of separation",
+      "zh": "break away 可以描述船隻、動物或人突然掙脫;break off 可以描述某部分斷開或一段關係結束。",
+      "en": "Break away can describe a boat, animal or person becoming free. Break off can describe a piece becoming separated or a relationship ending."
+    },
+    {
+      "titleZh": "談論適應過程和減少單調感",
+      "titleEn": "Talk about becoming ready or making life less repetitive",
+      "zh": "你可以 break in 新員工或新鞋,也可以用不同活動 break up 漫長的一天,使生活不會那麼單調。",
+      "en": "You can break in new staff or new shoes, and you can break up a long day with a different activity."
+    },
+    {
+      "titleZh": "描述衝破障礙和突破界線",
+      "titleEn": "Describe passing limits and obstacles",
+      "zh": "break through 可以描述實際衝破障礙物,也可以表示數字超過重要界線。",
+      "en": "Break through can describe physically passing a barrier or rising beyond an important number."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論故障和突發問題",
+      "描述不同形式的分離",
+      "談論適應過程和減少單調感",
+      "描述衝破障礙和突破界線"
+    ],
+    "contextsEn": [
+      "Talk clearly about faults and sudden problems",
+      "Describe different kinds of separation",
+      "Talk about becoming ready or making life less repetitive",
+      "Describe passing limits and obstacles"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論故障和突發問題",
+        "titleEn": "Talk clearly about faults and sudden problems",
+        "zh": "break down 可以描述機器停止運作;break out 則可以描述火警、打鬥或戰爭突然發生。",
+        "en": "Break down can describe a machine that stops working, while break out can describe a fire, fight or war that suddenly begins.",
+        "examples": [
+          {
+            "en": "The dog broke away from its lead.",
+            "zh": "那隻狗突然掙脫了牽引帶。",
+            "highlight": "broke away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同形式的分離",
+        "titleEn": "Describe different kinds of separation",
+        "zh": "break away 可以描述船隻、動物或人突然掙脫;break off 可以描述某部分斷開或一段關係結束。",
+        "en": "Break away can describe a boat, animal or person becoming free. Break off can describe a piece becoming separated or a relationship ending.",
+        "examples": [
+          {
+            "en": "The printer has broken down again.",
+            "zh": "打印機又壞了。",
+            "highlight": "broken down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論適應過程和減少單調感",
+        "titleEn": "Talk about becoming ready or making life less repetitive",
+        "zh": "你可以 break in 新員工或新鞋,也可以用不同活動 break up 漫長的一天,使生活不會那麼單調。",
+        "en": "You can break in new staff or new shoes, and you can break up a long day with a different activity.",
+        "examples": [
+          {
+            "en": "Someone broke in during the night.",
+            "zh": "有人在夜間強行闖入。",
+            "highlight": "broke in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述衝破障礙和突破界線",
+        "titleEn": "Describe passing limits and obstacles",
+        "zh": "break through 可以描述實際衝破障礙物,也可以表示數字超過重要界線。",
+        "en": "Break through can describe physically passing a barrier or rising beyond an important number.",
+        "examples": [
+          {
+            "en": "“Wait,” Ben broke in.",
+            "zh": "「等等,」賓插話道。",
+            "highlight": "broke in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BREAK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BREAK 片語動詞。",
+      "en": "Read the whole sentence and choose the BREAK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子把代名詞放在正確位置。",
+      "titleEn": "When using it, him, her or them, follow the word order shown below: break it off break them in break it down break it out break it up.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子把代名詞放在正確位置。",
+      "en": "When using it, him, her or them, follow the word order shown below: break it off break them in break it down break it out break it up"
+    },
+    {
+      "titleZh": "break in 和 break off 在本練習中各有兩種意思。作答前請仔細閱讀整個情境。",
+      "titleEn": "Break in and break off each have two meanings in this exercise.",
+      "zh": "break in 和 break off 在本練習中各有兩種意思。作答前請仔細閱讀整個情境。",
+      "en": "Break in and break off each have two meanings in this exercise. Read the full situation carefully before choosing your answer."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BREAK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BREAK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BREAK 動詞片語句子改寫練習",
+    "titleEn": "BREAK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BREAK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BREAK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-232-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "A fire started suddenly in the school kitchen after lunch.",
+      "promptZh": "午飯後,學校廚房突然發生火警。",
+      "starter": "A",
+      "answer": "A fire broke out in the school kitchen after lunch.",
+      "answerZh": "午飯後,學校廚房突然發生火警。",
+      "highlight": "broke out",
+      "targetForm": "break out",
+      "targetMeaningZh": "火警、戰爭或打鬥等突然發生"
+    },
+    {
+      "id": "phrasal-verb-232-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Our washing machine stopped working again this morning.",
+      "promptZh": "我們的洗衣機今早又停止運作了。",
+      "starter": "Our",
+      "answer": "Our washing machine broke down again this morning.",
+      "answerZh": "我們的洗衣機今早又壞了。",
+      "highlight": "broke down",
+      "targetForm": "break down",
+      "targetMeaningZh": "機器或車輛因故障停止運作"
+    },
+    {
+      "id": "phrasal-verb-232-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "I wore these new boots for several days to make them comfortable.",
+      "promptZh": "我穿了這雙新靴數天,讓它們變得舒適。",
+      "starter": "I",
+      "answer": "I broke these new boots in over several days.",
+      "answerZh": "我花了數天把這雙新靴穿得舒適。",
+      "highlight": "broke",
+      "targetForm": "break something in",
+      "targetMeaningZh": "把新鞋或新靴穿得舒適"
+    },
+    {
+      "id": "phrasal-verb-232-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The number of visitors has risen above one million.",
+      "promptZh": "訪客人數已超過一百萬。",
+      "starter": "The",
+      "answer": "The number of visitors has broken through the one-million mark.",
+      "answerZh": "訪客人數已突破一百萬大關。",
+      "highlight": "broken through the",
+      "targetForm": "break through something",
+      "targetMeaningZh": "超過某個數字或水平"
+    },
+    {
+      "id": "phrasal-verb-232-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Ben interrupted while the teacher was speaking.",
+      "promptZh": "老師說話時,賓插了嘴。",
+      "starter": "Ben",
+      "answer": "Ben broke in while the teacher was speaking.",
+      "answerZh": "老師說話時,賓插了嘴。",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "插話;打斷別人的說話"
+    },
+    {
+      "id": "phrasal-verb-232-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The small boat became separated from the dock during the storm.",
+      "promptZh": "暴風雨期間,小船與碼頭分離了。",
+      "starter": "The",
+      "answer": "The small boat broke away from the dock during the storm.",
+      "answerZh": "暴風雨期間,小船突然脫離了碼頭。",
+      "highlight": "broke away",
+      "targetForm": "break away from something",
+      "targetMeaningZh": "突然分離或掙脫"
+    },
+    {
+      "id": "phrasal-verb-232-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The good news made us take the party hats from the cupboard.",
+      "promptZh": "這個好消息令我們把派對帽從櫃裏拿出來。",
+      "starter": "The",
+      "answer": "The good news made us break out the party hats.",
+      "answerZh": "這個好消息令我們把派對帽拿出來慶祝。",
+      "highlight": "break out",
+      "targetForm": "break something out",
+      "targetMeaningZh": "取出某物使用或慶祝"
+    },
+    {
+      "id": "phrasal-verb-232-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We train new staff gently during their first week.",
+      "promptZh": "我們會在新員工的第一個星期逐步讓他們熟習工作。",
+      "starter": "We",
+      "answer": "We break new staff in gently during their first week.",
+      "answerZh": "我們會在新員工的第一個星期逐步讓他們熟習工作。",
+      "highlight": "break",
+      "targetForm": "break somebody in",
+      "targetMeaningZh": "讓新人逐步熟習工作"
+    },
+    {
+      "id": "phrasal-verb-232-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Grace stopped speaking suddenly in the middle of her story.",
+      "promptZh": "格蕾絲說到故事中途便突然停了下來。",
+      "starter": "Grace",
+      "answer": "Grace broke off in the middle of her story.",
+      "answerZh": "格蕾絲說到故事中途便突然停了下來。",
+      "highlight": "broke off",
+      "targetForm": "break off",
+      "targetMeaningZh": "未完成便突然停止說話或活動"
+    },
+    {
+      "id": "phrasal-verb-232-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The crowd forced its way through the line of guards.",
+      "promptZh": "人群強行穿過守衞組成的防線。",
+      "starter": "The",
+      "answer": "The crowd broke through the line of guards.",
+      "answerZh": "人群衝破了守衞組成的防線。",
+      "highlight": "broke",
+      "targetForm": "break through something",
+      "targetMeaningZh": "用力穿過障礙物或防線"
+    },
+    {
+      "id": "phrasal-verb-232-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "I make my long study day less boring with a short walk.",
+      "promptZh": "我以短暫散步令漫長的溫習日不會那麼沉悶。",
+      "starter": "I",
+      "answer": "I break up my long study day with a short walk.",
+      "answerZh": "我以短暫散步令漫長的溫習日不會那麼沉悶。",
+      "highlight": "break up",
+      "targetForm": "break something up",
+      "targetMeaningZh": "加入變化,使一段時間不再單調"
+    },
+    {
+      "id": "phrasal-verb-232-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Someone entered the shop by force last night.",
+      "promptZh": "昨晚有人強行闖入店舖。",
+      "starter": "Someone",
+      "answer": "Someone broke in last night.",
+      "answerZh": "昨晚有人強行闖入。",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "強行或非法進入建築物"
+    },
+    {
+      "id": "phrasal-verb-232-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Daniel suddenly began to sweat because he was nervous.",
+      "promptZh": "丹尼爾因為緊張而突然冒汗。",
+      "starter": "Daniel",
+      "answer": "Daniel broke out in a sweat because he was nervous.",
+      "answerZh": "丹尼爾因為緊張而突然冒汗。",
+      "highlight": "broke out in a",
+      "targetForm": "break out in something",
+      "targetMeaningZh": "突然冒汗、出疹或出現身體反應"
+    },
+    {
+      "id": "phrasal-verb-232-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The couple have ended their engagement.",
+      "promptZh": "這對情侶已經取消婚約。",
+      "starter": "The",
+      "answer": "The couple have broken off their engagement.",
+      "answerZh": "這對情侶已經取消婚約。",
+      "highlight": "broken off",
+      "targetForm": "break something off",
+      "targetMeaningZh": "突然結束婚約、關係或談判"
+    },
+    {
+      "id": "phrasal-verb-232-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Leo separated a small piece from the chocolate bar with his hands.",
+      "promptZh": "里奧用手從朱古力條上折下一小塊。",
+      "starter": "Leo",
+      "answer": "Leo broke a small piece off the chocolate bar.",
+      "answerZh": "里奧從朱古力條上折下一小塊。",
+      "highlight": "broke",
+      "targetForm": "break something off",
+      "targetMeaningZh": "把一部分折下"
+    },
+    {
+      "id": "phrasal-verb-232-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Firefighters hit the locked door until it fell open.",
+      "promptZh": "消防員撞擊上鎖的門,直至把它撞開。",
+      "starter": "Firefighters",
+      "answer": "Firefighters broke the locked door down.",
+      "answerZh": "消防員把上鎖的門撞開。",
+      "highlight": "broke",
+      "targetForm": "break something down",
+      "targetMeaningZh": "用力把門、閘或牆撞開"
+    },
+    {
+      "id": "phrasal-verb-232-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The coach is slowly training the young horse to carry a rider.",
+      "promptZh": "教練正逐步訓練這匹小馬,讓牠習慣載人。",
+      "starter": "The",
+      "answer": "The coach is slowly breaking the young horse in.",
+      "answerZh": "教練正逐步訓練這匹小馬,讓牠習慣載人。",
+      "highlight": "breaking",
+      "targetForm": "break something in",
+      "targetMeaningZh": "訓練動物做新的事情"
+    },
+    {
+      "id": "phrasal-verb-232-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Online orders may soon rise above 10,000.",
+      "promptZh": "網上訂單數量可能很快便會超過一萬。",
+      "starter": "Online",
+      "answer": "Online orders may soon break through the 10,000 mark.",
+      "answerZh": "網上訂單數量可能很快便會突破一萬大關。",
+      "highlight": "break through the",
+      "targetForm": "break through something",
+      "targetMeaningZh": "超過某個數字或水平"
+    },
+    {
+      "id": "phrasal-verb-232-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Did anyone enter the office by force while we were away?",
+      "promptZh": "我們不在時,有沒有人強行闖入辦公室?",
+      "starter": "Did",
+      "answer": "Did anyone break in while we were away?",
+      "answerZh": "我們不在時,有沒有人強行闖入?",
+      "highlight": "break in",
+      "targetForm": "break in",
+      "targetMeaningZh": "強行或非法進入建築物"
+    },
+    {
+      "id": "phrasal-verb-232-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Short games can make a long lesson less boring.",
+      "promptZh": "短小的遊戲可以令漫長的課堂不會那麼沉悶。",
+      "starter": "Short",
+      "answer": "Short games can break up a long lesson.",
+      "answerZh": "短小的遊戲可以令漫長的課堂不會那麼沉悶。",
+      "highlight": "break up",
+      "targetForm": "break something up",
+      "targetMeaningZh": "加入變化,使活動不再單調"
+    },
+    {
+      "id": "phrasal-verb-232-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The lift has stopped working twice this week.",
+      "promptZh": "升降機本星期已兩次停止運作。",
+      "starter": "The",
+      "answer": "The lift has broken down twice this week.",
+      "answerZh": "升降機本星期已壞了兩次。",
+      "highlight": "broken down",
+      "targetForm": "break down",
+      "targetMeaningZh": "機器或車輛因故障停止運作"
+    },
+    {
+      "id": "phrasal-verb-232-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "A small branch became separated from the tree in the wind.",
+      "promptZh": "一根小樹枝在風中從樹上斷了下來。",
+      "starter": "A",
+      "answer": "A small branch broke off from the tree in the wind.",
+      "answerZh": "一根小樹枝在風中從樹上斷了下來。",
+      "highlight": "broke off",
+      "targetForm": "break off",
+      "targetMeaningZh": "因受力而斷開"
+    },
+    {
+      "id": "phrasal-verb-232-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Ava is suddenly developing red spots on her face.",
+      "promptZh": "艾娃的臉上突然長出紅點。",
+      "starter": "Ava",
+      "answer": "Ava is breaking out in red spots on her face.",
+      "answerZh": "艾娃的臉上正突然長出紅點。",
+      "highlight": "breaking out in",
+      "targetForm": "break out in something",
+      "targetMeaningZh": "突然出疹或出現皮膚問題"
+    },
+    {
+      "id": "phrasal-verb-232-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Water was forcing its way through the weak wall.",
+      "promptZh": "水正強行穿過這面不穩固的牆。",
+      "starter": "Water",
+      "answer": "Water was breaking through the weak wall.",
+      "answerZh": "水正強行穿過這面不穩固的牆。",
+      "highlight": "breaking",
+      "targetForm": "break through something",
+      "targetMeaningZh": "用力穿過障礙物"
+    },
+    {
+      "id": "phrasal-verb-232-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The two companies may end the talks tomorrow.",
+      "promptZh": "兩間公司可能會在明天中止談判。",
+      "starter": "The",
+      "answer": "The two companies may break off the talks tomorrow.",
+      "answerZh": "兩間公司可能會在明天中止談判。",
+      "highlight": "break off",
+      "targetForm": "break something off",
+      "targetMeaningZh": "突然結束談判或協議"
+    },
+    {
+      "id": "phrasal-verb-232-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Please do not interrupt while Nina is explaining the rules.",
+      "promptZh": "妮娜解釋規則時,請不要插話。",
+      "starter": "Please",
+      "answer": "Please do not break in while Nina is explaining the rules.",
+      "answerZh": "妮娜解釋規則時,請不要插話。",
+      "highlight": "break in",
+      "targetForm": "break in",
+      "targetMeaningZh": "插話;打斷別人的說話"
+    },
+    {
+      "id": "phrasal-verb-232-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "We will take the board games out when everyone arrives.",
+      "promptZh": "所有人到達後,我們會把桌上遊戲拿出來。",
+      "starter": "We",
+      "answer": "We will break out the board games when everyone arrives.",
+      "answerZh": "所有人到達後,我們會把桌上遊戲拿出來。",
+      "highlight": "break out",
+      "targetForm": "break something out",
+      "targetMeaningZh": "取出某物供人使用"
+    },
+    {
+      "id": "phrasal-verb-232-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "During the storm, one carriage became separated from the train.",
+      "promptZh": "暴風雨期間,其中一節車廂與列車分離了。",
+      "starter": "During",
+      "answer": "During the storm, one carriage broke away from the train.",
+      "answerZh": "暴風雨期間,其中一節車廂與列車分離了。",
+      "highlight": "broke away",
+      "targetForm": "break away from something",
+      "targetMeaningZh": "突然分離"
+    },
+    {
+      "id": "phrasal-verb-232-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The police had to hit the back gate until it opened.",
+      "promptZh": "警方必須撞擊後門,直至把它撞開。",
+      "starter": "The",
+      "answer": "The police had to break the back gate down.",
+      "answerZh": "警方不得不把後門撞開。",
+      "highlight": "break",
+      "targetForm": "break something down",
+      "targetMeaningZh": "用力把門或閘撞開"
+    },
+    {
+      "id": "phrasal-verb-232-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We had to stop the match before it finished because of heavy rain.",
+      "promptZh": "由於大雨,我們不得不在比賽完成前把它中止。",
+      "starter": "We",
+      "answer": "We had to break off the match because of heavy rain.",
+      "answerZh": "由於大雨,我們不得不在比賽完成前把它中止。",
+      "highlight": "break off",
+      "targetForm": "break something off",
+      "targetMeaningZh": "未完成便突然停止活動"
+    },
+    {
+      "id": "phrasal-verb-232-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "I am wearing these shoes until they become comfortable.",
+      "promptZh": "我正穿着這雙鞋,直至它們變得舒適。",
+      "starter": "I",
+      "answer": "I am breaking these shoes in.",
+      "answerZh": "我正在把這雙鞋穿得舒適。",
+      "highlight": "breaking",
+      "targetForm": "break something in",
+      "targetMeaningZh": "把新鞋穿得舒適"
+    },
+    {
+      "id": "phrasal-verb-232-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Fighting has suddenly started near the station.",
+      "promptZh": "車站附近突然發生打鬥。",
+      "starter": "Fighting",
+      "answer": "Fighting has broken out near the station.",
+      "answerZh": "車站附近突然發生打鬥。",
+      "highlight": "broken out",
+      "targetForm": "break out",
+      "targetMeaningZh": "打鬥、戰爭或其他事件突然發生"
+    },
+    {
+      "id": "phrasal-verb-232-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The boots were stiff, so I wore them at home until they became comfortable.",
+      "promptZh": "這雙靴很硬,所以我在家中穿着它們,直至它們變得舒適。",
+      "starter": "The",
+      "answer": "The boots were stiff, so I broke them in at home.",
+      "answerZh": "這雙靴很硬,所以我在家中把它們穿得舒適。",
+      "highlight": "broke",
+      "targetForm": "break something in",
+      "targetMeaningZh": "把新鞋或新靴穿得舒適"
+    },
+    {
+      "id": "phrasal-verb-232-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Omar interrupted: “That is not true.”",
+      "promptZh": "奧馬插話道:「那並不是真的。」",
+      "starter": "Omar",
+      "answer": "Omar broke in: “That is not true.”",
+      "answerZh": "奧馬插話道:「那並不是真的。」",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "插話;打斷別人的說話"
+    },
+    {
+      "id": "phrasal-verb-232-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The front door was locked, so the rescue team forced it open by hitting it.",
+      "promptZh": "前門上了鎖,所以救援人員撞擊它,把它強行打開。",
+      "starter": "The",
+      "answer": "The front door was locked, so the rescue team broke it down.",
+      "answerZh": "前門上了鎖,所以救援人員把它撞開。",
+      "highlight": "broke",
+      "targetForm": "break something down",
+      "targetMeaningZh": "用力把門或閘撞開"
+    },
+    {
+      "id": "phrasal-verb-232-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The dog pulled free from its lead and ran across the field.",
+      "promptZh": "那隻狗掙脫牽引帶,跑過田野。",
+      "starter": "The",
+      "answer": "The dog broke away from its lead and ran across the field.",
+      "answerZh": "那隻狗掙脫牽引帶,跑過田野。",
+      "highlight": "broke away",
+      "targetForm": "break away from something",
+      "targetMeaningZh": "突然掙脫或分離"
+    },
+    {
+      "id": "phrasal-verb-232-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Their relationship was unhappy, so Sara ended it.",
+      "promptZh": "他們的關係並不愉快,所以莎拉把它結束了。",
+      "starter": "Their",
+      "answer": "Their relationship was unhappy, so Sara broke it off.",
+      "answerZh": "他們的關係並不愉快,所以莎拉把它結束了。",
+      "highlight": "broke",
+      "targetForm": "break something off",
+      "targetMeaningZh": "突然結束關係"
+    },
+    {
+      "id": "phrasal-verb-232-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The long talk felt tiring, so the speaker added two short activities to make it less boring.",
+      "promptZh": "這場漫長的講座令人疲倦,所以講者加入了兩個短活動,使它不會那麼沉悶。",
+      "starter": "The",
+      "answer": "The long talk felt tiring, so the speaker broke it up with two short activities.",
+      "answerZh": "這場漫長的講座令人疲倦,所以講者加入兩個短活動,令它不會那麼沉悶。",
+      "highlight": "broke it up with",
+      "targetForm": "break something up",
+      "targetMeaningZh": "加入變化,使活動不再單調"
+    },
+    {
+      "id": "phrasal-verb-232-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Has the temperature risen above the 40°C mark yet?",
+      "promptZh": "氣溫已突破攝氏四十度大關嗎?",
+      "starter": "Has",
+      "answer": "Has the temperature broken through the 40°C mark yet?",
+      "answerZh": "氣溫已突破攝氏四十度大關嗎?",
+      "highlight": "broken through",
+      "targetForm": "break through something",
+      "targetMeaningZh": "超過某個數字或界線"
+    },
+    {
+      "id": "phrasal-verb-232-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "While the family was out, thieves entered the house by force.",
+      "promptZh": "這家人外出時,賊人強行闖入了房子。",
+      "starter": "While",
+      "answer": "While the family was out, thieves broke in.",
+      "answerZh": "這家人外出時,賊人強行闖入了房子。",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "強行或非法進入建築物"
+    },
+    {
+      "id": "phrasal-verb-232-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The new volunteers were nervous, so we helped them become used to the work slowly.",
+      "promptZh": "新來的義工十分緊張,所以我們逐步讓他們熟習工作。",
+      "starter": "The",
+      "answer": "The new volunteers were nervous, so we broke them in slowly.",
+      "answerZh": "新來的義工十分緊張,所以我們逐步讓他們熟習工作。",
+      "highlight": "broke",
+      "targetForm": "break somebody in",
+      "targetMeaningZh": "讓新人逐步熟習工作"
+    },
+    {
+      "id": "phrasal-verb-232-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "At the thought of speaking on stage, he suddenly began to sweat heavily.",
+      "promptZh": "一想到要在台上說話,他便突然冒出大量汗水。",
+      "starter": "At",
+      "answer": "At the thought of speaking on stage, he broke out into a heavy sweat.",
+      "answerZh": "一想到要在台上說話,他便突然冒出大量汗水。",
+      "highlight": "broke out into a heavy",
+      "targetForm": "break out into something",
+      "targetMeaningZh": "突然冒汗或出現身體反應"
+    },
+    {
+      "id": "phrasal-verb-232-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "I stopped taking part in the conversation for a moment to answer the phone.",
+      "promptZh": "我暫時停止參與談話,以接聽電話。",
+      "starter": "I",
+      "answer": "I broke off from the conversation for a moment to answer the phone.",
+      "answerZh": "我暫時停止參與談話,以接聽電話。",
+      "highlight": "broke off from",
+      "targetForm": "break off from something",
+      "targetMeaningZh": "暫時停止未完成的活動"
+    },
+    {
+      "id": "phrasal-verb-232-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The children were bored, so Dad took the old photo albums from the cupboard.",
+      "promptZh": "孩子們感到沉悶,所以爸爸把舊相簿從櫃裏拿出來。",
+      "starter": "The",
+      "answer": "The children were bored, so Dad broke out the old photo albums.",
+      "answerZh": "孩子們感到沉悶,所以爸爸把舊相簿拿出來給大家看。",
+      "highlight": "broke out",
+      "targetForm": "break something out",
+      "targetMeaningZh": "取出某物供人使用"
+    },
+    {
+      "id": "phrasal-verb-232-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After reaching the line of people, the runners forced their way through it.",
+      "promptZh": "跑手到達人群組成的防線後,強行穿了過去。",
+      "starter": "After",
+      "answer": "After reaching the line of people, the runners broke through it.",
+      "answerZh": "跑手到達人群組成的防線後,強行穿了過去。",
+      "highlight": "broke",
+      "targetForm": "break through something",
+      "targetMeaningZh": "用力穿過障礙物或人群"
+    },
+    {
+      "id": "phrasal-verb-232-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The handle was already loose, and Chloe separated it from the cup with one pull.",
+      "promptZh": "杯柄本來已經鬆脫,克洛伊一拉便把它弄斷了。",
+      "starter": "The",
+      "answer": "The handle was already loose, and Chloe broke it off with one pull.",
+      "answerZh": "杯柄本來已經鬆脫,克洛伊一拉便把它弄斷了。",
+      "highlight": "broke",
+      "targetForm": "break something off",
+      "targetMeaningZh": "把一部分折斷或分開"
+    },
+    {
+      "id": "phrasal-verb-232-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The family left the building after a fire had suddenly started downstairs.",
+      "promptZh": "樓下突然發生火警後,這家人離開了大廈。",
+      "starter": "The",
+      "answer": "The family left the building after a fire had broken out downstairs.",
+      "answerZh": "樓下突然發生火警後,這家人離開了大廈。",
+      "highlight": "broken out",
+      "targetForm": "break out",
+      "targetMeaningZh": "火警或其他不愉快事件突然發生"
+    },
+    {
+      "id": "phrasal-verb-232-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Our bus stopped working halfway up the hill.",
+      "promptZh": "我們的巴士駛到山腰時停止運作。",
+      "starter": "Our",
+      "answer": "Our bus broke down halfway up the hill.",
+      "answerZh": "我們的巴士駛到山腰時壞了。",
+      "highlight": "broke down",
+      "targetForm": "break down",
+      "targetMeaningZh": "機器或車輛因故障停止運作"
+    },
+    {
+      "id": "phrasal-verb-232-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The protesters did not destroy the whole fence; they forced a way through one weak point.",
+      "promptZh": "示威者沒有破壞整道圍欄,只從一個較弱的位置強行穿過。",
+      "starter": "The",
+      "answer": "The protesters did not destroy the whole fence; they broke through at one weak point.",
+      "answerZh": "示威者沒有破壞整道圍欄,只從一個較弱的位置強行穿過。",
+      "highlight": "broke",
+      "targetForm": "break through",
+      "targetMeaningZh": "用力穿過障礙物或防線"
+    },
+    {
+      "id": "phrasal-verb-232-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "When the lights went out, Ravi stopped speaking before he had finished his sentence.",
+      "promptZh": "燈光熄滅時,拉維未說完整句話便突然停了下來。",
+      "starter": "When",
+      "answer": "When the lights went out, Ravi broke off before he had finished his sentence.",
+      "answerZh": "燈光熄滅時,拉維未說完整句話便突然停了下來。",
+      "highlight": "broke off",
+      "targetForm": "break off",
+      "targetMeaningZh": "未完成便突然停止說話"
+    },
+    {
+      "id": "phrasal-verb-232-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The old printer worked in the morning but stopped because of a fault before lunch.",
+      "promptZh": "舊打印機早上仍能運作,但在午飯前因故障而停止運作。",
+      "starter": "The",
+      "answer": "The old printer worked in the morning but broke down before lunch.",
+      "answerZh": "舊打印機早上仍能運作,但在午飯前壞了。",
+      "highlight": "broke down",
+      "targetForm": "break down",
+      "targetMeaningZh": "機器因故障停止運作"
+    },
+    {
+      "id": "phrasal-verb-232-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Once the rain began, the family took the umbrellas from the car for everyone to use.",
+      "promptZh": "下雨後,這家人把雨傘從車裏拿出來給大家使用。",
+      "starter": "Once",
+      "answer": "Once the rain began, the family broke out the umbrellas.",
+      "answerZh": "下雨後,這家人把雨傘拿出來給大家使用。",
+      "highlight": "broke out",
+      "targetForm": "break something out",
+      "targetMeaningZh": "取出某物供人使用"
+    },
+    {
+      "id": "phrasal-verb-232-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The kite was tied to the tree, but the strong wind pulled it free.",
+      "promptZh": "風箏本來綁在樹上,但強風吹令它掙脫了。",
+      "starter": "The",
+      "answer": "The kite was tied to the tree, but it broke away from the tree in the strong wind.",
+      "answerZh": "風箏本來綁在樹上,但在強風中掙脫了。",
+      "highlight": "it broke away from the tree in",
+      "targetForm": "break away from something",
+      "targetMeaningZh": "突然分離或掙脫"
+    },
+    {
+      "id": "phrasal-verb-232-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "After months of problems, the band completely ended its agreement with the music company.",
+      "promptZh": "經過數月的問題後,樂隊完全終止了與唱片公司的協議。",
+      "starter": "After",
+      "answer": "After months of problems, the band broke off its agreement with the music company.",
+      "answerZh": "經過數月的問題後,樂隊終止了與唱片公司的協議。",
+      "highlight": "broke off",
+      "targetForm": "break something off",
+      "targetMeaningZh": "突然結束協議或關係"
+    },
+    {
+      "id": "phrasal-verb-232-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The cream made Ruby’s skin suddenly become covered in an itchy rash.",
+      "promptZh": "這種面霜令露比的皮膚突然長滿痕癢的紅疹。",
+      "starter": "The",
+      "answer": "The cream made Ruby break out in an itchy rash.",
+      "answerZh": "這種面霜令露比的皮膚突然長出痕癢的紅疹。",
+      "highlight": "Ruby break out",
+      "targetForm": "break out in something",
+      "targetMeaningZh": "突然出疹或出現皮膚問題"
+    },
+    {
+      "id": "phrasal-verb-232-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The front window was open, but the thieves entered the locked office by force through the back door.",
+      "promptZh": "前窗雖然開着,但賊人仍從後門強行闖入上鎖的辦公室。",
+      "starter": "The",
+      "answer": "The front window was open, but the thieves broke in through the back door.",
+      "answerZh": "前窗雖然開着,但賊人仍從後門強行闖入上鎖的辦公室。",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "強行或非法進入建築物"
+    },
+    {
+      "id": "phrasal-verb-232-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Ticket sales went above 5,000 before noon instead of stopping at that number.",
+      "promptZh": "門票銷量在中午前突破了五千,而不是停留在該數字。",
+      "starter": "Ticket",
+      "answer": "Ticket sales broke through the 5,000 mark before noon.",
+      "answerZh": "門票銷量在中午前突破了五千大關。",
+      "highlight": "broke through the",
+      "targetForm": "break through something",
+      "targetMeaningZh": "超過某個數字或水平"
+    },
+    {
+      "id": "phrasal-verb-232-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The manager did not give the new worker every task at once; she trained him gently.",
+      "promptZh": "經理沒有一次過把所有工作交給新員工,而是逐步讓他熟習工作。",
+      "starter": "The",
+      "answer": "The manager did not give the new worker every task at once; she broke him in gently.",
+      "answerZh": "經理沒有一次過把所有工作交給新員工,而是逐步讓他熟習工作。",
+      "highlight": "broke",
+      "targetForm": "break somebody in",
+      "targetMeaningZh": "讓新人逐步熟習工作"
+    },
+    {
+      "id": "phrasal-verb-232-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "To make the six-hour train journey less dull, we added meals, games and short walks.",
+      "promptZh": "為了令六小時的火車旅程不會那麼沉悶,我們加入了用膳、遊戲和短暫散步。",
+      "starter": "To",
+      "answer": "To break up the six-hour train journey, we added meals, games and short walks.",
+      "answerZh": "為了令六小時的火車旅程不會那麼沉悶,我們加入了用膳、遊戲和短暫散步。",
+      "highlight": "break up",
+      "targetForm": "break something up",
+      "targetMeaningZh": "加入變化,使一段時間不再單調"
+    },
+    {
+      "id": "phrasal-verb-232-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I wanted to interrupt their discussion, but I waited until they had finished.",
+      "promptZh": "我本來想打斷他們的討論,但我等到他們完成後才說話。",
+      "starter": "I",
+      "answer": "I wanted to break in on their discussion, but I waited until they had finished.",
+      "answerZh": "我本來想打斷他們的討論,但我等到他們完成後才說話。",
+      "highlight": "break in on",
+      "targetForm": "break in on something",
+      "targetMeaningZh": "打斷別人的說話或活動"
+    },
+    {
+      "id": "phrasal-verb-232-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The key was inside, so they struck the door repeatedly until it opened.",
+      "promptZh": "鎖匙留在裏面,所以他們不斷撞擊門,直至把它撞開。",
+      "starter": "The",
+      "answer": "The key was inside, so they broke the door down.",
+      "answerZh": "鎖匙留在裏面,所以他們把門撞開。",
+      "highlight": "broke",
+      "targetForm": "break something down",
+      "targetMeaningZh": "用力把門或閘撞開"
+    },
+    {
+      "id": "phrasal-verb-232-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Rather than cutting the bread, Ben used his hands to separate a small piece.",
+      "promptZh": "賓沒有用刀切麵包,而是用手折下一小塊。",
+      "starter": "Rather",
+      "answer": "Rather than cutting the bread, Ben broke a small piece off.",
+      "answerZh": "賓沒有用刀切麵包,而是用手折下一小塊。",
+      "highlight": "broke",
+      "targetForm": "break something off",
+      "targetMeaningZh": "把一部分折下"
+    },
+    {
+      "id": "phrasal-verb-232-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "A serious argument started suddenly during the team meeting.",
+      "promptZh": "團隊會議期間突然發生了激烈爭論。",
+      "starter": "A",
+      "answer": "A serious argument broke out during the team meeting.",
+      "answerZh": "團隊會議期間突然發生了激烈爭論。",
+      "highlight": "broke out",
+      "targetForm": "break out",
+      "targetMeaningZh": "爭論、打鬥或其他事件突然發生"
+    },
+    {
+      "id": "phrasal-verb-232-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Do not wear the new hiking boots on a long trip until you have made them comfortable.",
+      "promptZh": "在把新行山靴穿得舒適之前,不要穿着它們進行長途旅程。",
+      "starter": "Do",
+      "answer": "Do not wear the new hiking boots on a long trip until you have broken them in.",
+      "answerZh": "在把新行山靴穿得舒適之前,不要穿着它們進行長途旅程。",
+      "highlight": "broken",
+      "targetForm": "break something in",
+      "targetMeaningZh": "把新鞋或新靴穿得舒適"
+    },
+    {
+      "id": "phrasal-verb-232-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The afternoon programme was long, so the organisers placed a music performance between the talks to add variety.",
+      "promptZh": "下午的節目很長,所以主辦單位在講座之間加入音樂表演,增加變化。",
+      "starter": "The",
+      "answer": "The afternoon programme was long, so the organisers broke it up with a music performance between the talks.",
+      "answerZh": "下午的節目很長,所以主辦單位在講座之間加入音樂表演,增加變化。",
+      "highlight": "broke it up with",
+      "targetForm": "break something up",
+      "targetMeaningZh": "加入變化,使活動不再單調"
+    },
+    {
+      "id": "phrasal-verb-232-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The alarm was sounding when the neighbours saw someone forcing their way into the empty house.",
+      "promptZh": "警鐘響起時,鄰居看見有人正強行闖入空置的房子。",
+      "starter": "The",
+      "answer": "The alarm was sounding when the neighbours saw someone breaking in.",
+      "answerZh": "警鐘響起時,鄰居看見有人正強行闖入空置的房子。",
+      "highlight": "breaking in",
+      "targetForm": "break in",
+      "targetMeaningZh": "強行或非法進入建築物"
+    },
+    {
+      "id": "phrasal-verb-232-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "For the first time, the charity has collected more than £100,000 in one year.",
+      "promptZh": "這間慈善機構首次在一年內籌得超過十萬英鎊。",
+      "starter": "For",
+      "answer": "For the first time, the charity has broken through the £100,000 mark in one year.",
+      "answerZh": "這間慈善機構首次在一年內籌得超過十萬英鎊。",
+      "highlight": "broken through the",
+      "targetForm": "break through something",
+      "targetMeaningZh": "超過某個數字或水平"
+    },
+    {
+      "id": "phrasal-verb-232-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Sofia was describing the accident, but she suddenly stopped when she noticed the child listening.",
+      "promptZh": "索菲亞正在描述意外,但她發現孩子正在聆聽時便突然停下來。",
+      "starter": "Sofia",
+      "answer": "Sofia was describing the accident, but she broke off when she noticed the child listening.",
+      "answerZh": "索菲亞正在描述意外,但她發現孩子正在聆聽時便突然停下來。",
+      "highlight": "broke off",
+      "targetForm": "break off",
+      "targetMeaningZh": "未完成便突然停止說話或活動"
+    },
+    {
+      "id": "phrasal-verb-232-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Although the fishing boat was tied to the dock, it became free during the night.",
+      "promptZh": "這艘漁船雖然綁在碼頭,但在夜間掙脫了。",
+      "starter": "Although",
+      "answer": "Although the fishing boat was tied to the dock, it broke away during the night.",
+      "answerZh": "這艘漁船雖然綁在碼頭,但在夜間掙脫了。",
+      "highlight": "broke away",
+      "targetForm": "break away",
+      "targetMeaningZh": "突然分離或掙脫"
+    },
+    {
+      "id": "phrasal-verb-232-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "When the team won the final, the coach took the celebration cake from the kitchen for everyone.",
+      "promptZh": "球隊在決賽勝出後,教練把慶祝蛋糕從廚房拿出來給大家享用。",
+      "starter": "When",
+      "answer": "When the team won the final, the coach broke out the celebration cake.",
+      "answerZh": "球隊在決賽勝出後,教練把慶祝蛋糕拿出來給大家享用。",
+      "highlight": "broke out",
+      "targetForm": "break something out",
+      "targetMeaningZh": "取出某物供人享用或慶祝"
+    },
+    {
+      "id": "phrasal-verb-232-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Because smoke filled the room, the firefighters could not wait for the key and had to force the door open.",
+      "promptZh": "由於房間充滿濃煙,消防員不能等待鎖匙,只好強行把門撞開。",
+      "starter": "Because",
+      "answer": "Because smoke filled the room, the firefighters had to break the door down.",
+      "answerZh": "由於房間充滿濃煙,消防員只好強行把門撞開。",
+      "highlight": "break",
+      "targetForm": "break something down",
+      "targetMeaningZh": "用力把門、閘或牆撞開"
+    },
+    {
+      "id": "phrasal-verb-232-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Priya had prepared carefully, but the unexpected question still made her suddenly begin to sweat.",
+      "promptZh": "普里雅已小心準備,但意料之外的問題仍令她突然冒汗。",
+      "starter": "Priya",
+      "answer": "Priya had prepared carefully, but the unexpected question still made her break out in a sweat.",
+      "answerZh": "普里雅已小心準備,但意料之外的問題仍令她突然冒汗。",
+      "highlight": "break out in a",
+      "targetForm": "break out in something",
+      "targetMeaningZh": "突然冒汗或出現身體反應"
+    },
+    {
+      "id": "phrasal-verb-232-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Although a tall barrier blocked the path, the rescue workers forced their way through and continued.",
+      "promptZh": "雖然一道高大的障礙物阻擋去路,救援人員仍強行穿過並繼續前進。",
+      "starter": "Although",
+      "answer": "Although a tall barrier blocked the path, the rescue workers broke through and continued.",
+      "answerZh": "雖然一道高大的障礙物阻擋去路,救援人員仍強行穿過並繼續前進。",
+      "highlight": "broke",
+      "targetForm": "break through",
+      "targetMeaningZh": "用力穿過障礙物或防線"
+    },
+    {
+      "id": "phrasal-verb-232-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "The two sides had been close to an agreement, but one new demand caused them to end the talks.",
+      "promptZh": "雙方本來接近達成協議,但一項新要求令他們中止談判。",
+      "starter": "The",
+      "answer": "The two sides had been close to an agreement, but one new demand caused them to break off the talks.",
+      "answerZh": "雙方本來接近達成協議,但一項新要求令他們中止談判。",
+      "highlight": "break off",
+      "targetForm": "break something off",
+      "targetMeaningZh": "突然結束談判或協議"
+    },
+    {
+      "id": "phrasal-verb-232-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "These leather shoes still hurt because I have not worn them enough to make them comfortable.",
+      "promptZh": "這雙皮鞋仍令我感到疼痛,因為我還未把它們穿得舒適。",
+      "starter": "These",
+      "answer": "These leather shoes still hurt because I have not broken them in.",
+      "answerZh": "這雙皮鞋仍令我感到疼痛,因為我還未把它們穿得舒適。",
+      "highlight": "broken",
+      "targetForm": "break something in",
+      "targetMeaningZh": "把新鞋穿得舒適"
+    },
+    {
+      "id": "phrasal-verb-232-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Although the guests were still talking, the host interrupted to announce that dinner was ready.",
+      "promptZh": "客人仍在交談時,主人插話宣布晚餐已經準備好。",
+      "starter": "Although",
+      "answer": "Although the guests were still talking, the host broke in to announce that dinner was ready.",
+      "answerZh": "客人仍在交談時,主人插話宣布晚餐已經準備好。",
+      "highlight": "broke in",
+      "targetForm": "break in",
+      "targetMeaningZh": "插話;打斷別人的說話"
+    },
+    {
+      "id": "phrasal-verb-232-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "We had just loaded all the bags when the car stopped working, so we had to ask for help.",
+      "promptZh": "我們剛把所有袋子放上車,汽車便停止運作,所以我們只好求助。",
+      "starter": "We",
+      "answer": "We had just loaded all the bags when the car broke down, so we had to ask for help.",
+      "answerZh": "我們剛把所有袋子放上車,汽車便壞了,所以我們只好求助。",
+      "highlight": "broke down",
+      "targetForm": "break down",
+      "targetMeaningZh": "機器或車輛因故障停止運作"
+    },
+    {
+      "id": "phrasal-verb-232-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The new team members will make fewer mistakes if we introduce them to the work slowly.",
+      "promptZh": "如果我們逐步讓新隊員熟習工作,他們便會少犯一些錯誤。",
+      "starter": "The",
+      "answer": "The new team members will make fewer mistakes if we break them in gently.",
+      "answerZh": "如果我們逐步讓新隊員熟習工作,他們便會少犯一些錯誤。",
+      "highlight": "break",
+      "targetForm": "break somebody in",
+      "targetMeaningZh": "讓新人逐步熟習工作"
+    },
+    {
+      "id": "phrasal-verb-232-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "One corner of the old photograph became separated when Noah lifted it from the box.",
+      "promptZh": "諾亞把舊照片從盒中拿起時,其中一角斷了下來。",
+      "starter": "One",
+      "answer": "One corner of the old photograph broke off when Noah lifted it from the box.",
+      "answerZh": "諾亞把舊照片從盒中拿起時,其中一角斷了下來。",
+      "highlight": "broke off",
+      "targetForm": "break off",
+      "targetMeaningZh": "因受力而斷開"
+    },
+    {
+      "id": "phrasal-verb-232-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "The wedding was moved to another town because fighting had suddenly started nearby.",
+      "promptZh": "由於附近突然發生打鬥,婚禮改到另一個城鎮舉行。",
+      "starter": "The",
+      "answer": "The wedding was moved to another town because fighting had broken out nearby.",
+      "answerZh": "由於附近突然發生打鬥,婚禮改到另一個城鎮舉行。",
+      "highlight": "broken out",
+      "targetForm": "break out",
+      "targetMeaningZh": "打鬥、戰爭或其他不愉快的事情突然發生"
+    }
+  ]
+}

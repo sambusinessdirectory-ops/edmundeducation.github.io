@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-305",
+  "order": 305,
+  "slug": "spill",
+  "version": "1",
+  "title": "SPILL 動詞片語",
+  "titleEn": "Spill",
+  "titleZh": "SPILL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 290 - SPILL.pdf",
+    "sourceNumber": 290,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SPILL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SPILL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SPILL",
+      "highlight": "SPILL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The papers spilled out of the folder.",
+      "zh": "文件從文件夾掉出並散開。",
+      "highlight": "spilled out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She spilled it all out to her sister.",
+      "zh": "她向妹妹一口氣說出了所有事情。",
+      "highlight": "spilled it all out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The trouble spilled over into nearby towns.",
+      "zh": "問題蔓延至附近的城鎮。",
+      "highlight": "spilled over into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "物件從袋、盒或其他容器掉出並散開；話語、感受或消息不受控制地湧出;把心裏的話一口氣說出；問題、情緒、影響或活動蔓延至另一地方、群體或情況；液體漫過杯、碗或其他容器的邊緣",
+    "en": "spill out / spill out of something; spill out / spill something out; spill over into/to something; spill over / spill over something",
+    "naturalZh": [
+      "物件從袋、盒或其他容器掉出並散開",
+      "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+      "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+      "液體漫過杯、碗或其他容器的邊緣"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "spill out / spill out of something",
+      "titleZh": "物件從袋、盒或其他容器掉出並散開",
+      "titleEn": "spill out / spill out of something",
+      "descriptionZh": "物件從袋、盒或其他容器掉出並散開",
+      "descriptionEn": "The papers spilled out of the folder.",
+      "examples": [
+        {
+          "en": "The papers spilled out of the folder.",
+          "zh": "文件從文件夾掉出並散開。",
+          "highlight": "spilled out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spill out / spill something out",
+      "titleZh": "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+      "titleEn": "spill out / spill something out",
+      "descriptionZh": "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+      "descriptionEn": "She spilled it all out to her sister.",
+      "examples": [
+        {
+          "en": "She spilled it all out to her sister.",
+          "zh": "她向妹妹一口氣說出了所有事情。",
+          "highlight": "spilled it all out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spill over into/to something",
+      "titleZh": "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+      "titleEn": "spill over into/to something",
+      "descriptionZh": "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+      "descriptionEn": "The trouble spilled over into nearby towns.",
+      "examples": [
+        {
+          "en": "The trouble spilled over into nearby towns.",
+          "zh": "問題蔓延至附近的城鎮。",
+          "highlight": "spilled over into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "spill over / spill over something",
+      "titleZh": "液體漫過杯、碗或其他容器的邊緣",
+      "titleEn": "spill over / spill over something",
+      "descriptionZh": "液體漫過杯、碗或其他容器的邊緣",
+      "descriptionEn": "Water spilled over the rim of the glass.",
+      "examples": [
+        {
+          "en": "Water spilled over the rim of the glass.",
+          "zh": "水漫過玻璃杯邊緣。",
+          "highlight": "spilled over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SPILL 片語動詞的實際用途",
+    "labelEn": "SPILL Phrasal Verbs in Use",
+    "summaryZh": "spill out 可以描述文件、硬幣、衣物等從袋、盒或行李箱掉出並散落四周。；spill out 可以表示某人突然說出大量說話、感受或細節,甚至無法控制自己。；spill over 可以描述問題、興奮、壓力或其他影響蔓延至原本範圍以外。；spill over 可以描述水、牛奶、湯等液體漫過容器邊緣。",
+    "summaryEn": "Spill out helps you describe papers, coins, clothes and other things falling from bags, boxes or cases and spreading around. Spill out can show that somebody suddenly says many words, feelings or details without being able to control them. Spill over can describe trouble, excitement, stress or other effects moving beyond their original place or situation. Spill over helps you describe water, milk, soup and other liquids flowing over the edge of a container.",
+    "contextsZh": [
+      "描述物件從容器掉出的情況",
+      "表達話語和感受自然湧出",
+      "描述問題或影響向外蔓延",
+      "描述液體漫過邊緣"
+    ],
+    "contextsEn": [
+      "Describe things falling from containers",
+      "Express words and feelings coming freely",
+      "Show problems or effects spreading further",
+      "Describe liquid passing over an edge"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SPILL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SPILL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "spill out / spill out of something",
+    "fixedHighlight": "spill out / spill out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 SPILL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SPILL expression that gives the same meaning.",
+    "correct": "spilled out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以上不同情境:物件可以從容器掉出;液體可以漫過邊緣;問題或影響則可以蔓延至其他地方。；spilt 和 spilled 都是正確的過去式。本練習的參考答案主要使用 spilled。",
+    "variableEn": "Keep the same people, things, time and meaning. Study these different situations: The papers spilled out of the bag. Water spilled over the rim. The trouble spilled over into nearby towns. Both spilt and spilled are correct past forms. The model answers mainly use spilled.",
+    "variableItemsZh": [
+      "spill out / spill out of something",
+      "spill out / spill something out",
+      "spill over into/to something",
+      "spill over / spill over something"
+    ],
+    "variableItemsEn": [
+      "spill out / spill out of something",
+      "spill out / spill something out",
+      "spill over into/to something",
+      "spill over / spill over something"
+    ],
+    "forms": [
+      {
+        "formZh": "物件從袋、盒或其他容器掉出並散開",
+        "formEn": "spill out / spill out of something",
+        "exampleZh": "文件從文件夾掉出並散開。",
+        "exampleEn": "The papers spilled out of the folder.",
+        "highlight": "spilled out"
+      },
+      {
+        "formZh": "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+        "formEn": "spill out / spill something out",
+        "exampleZh": "她向妹妹一口氣說出了所有事情。",
+        "exampleEn": "She spilled it all out to her sister.",
+        "highlight": "spilled it all out"
+      },
+      {
+        "formZh": "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+        "formEn": "spill over into/to something",
+        "exampleZh": "問題蔓延至附近的城鎮。",
+        "exampleEn": "The trouble spilled over into nearby towns.",
+        "highlight": "spilled over into"
+      },
+      {
+        "formZh": "液體漫過杯、碗或其他容器的邊緣",
+        "formEn": "spill over / spill over something",
+        "exampleZh": "水漫過玻璃杯邊緣。",
+        "exampleEn": "Water spilled over the rim of the glass.",
+        "highlight": "spilled over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "物件從袋、盒或其他容器掉出並散開",
+      "titleEn": "spill out / spill out of something",
+      "formula": "spill out / spill out of something",
+      "highlight": "spill out / spill out of something",
+      "descriptionZh": "物件從袋、盒或其他容器掉出並散開",
+      "descriptionEn": "The papers spilled out of the folder.",
+      "examples": [
+        {
+          "en": "The papers spilled out of the folder.",
+          "zh": "文件從文件夾掉出並散開。",
+          "highlight": "spilled out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+      "titleEn": "spill out / spill something out",
+      "formula": "spill out / spill something out",
+      "highlight": "spill out / spill something out",
+      "descriptionZh": "話語、感受或消息不受控制地湧出;把心裏的話一口氣說出",
+      "descriptionEn": "She spilled it all out to her sister.",
+      "examples": [
+        {
+          "en": "She spilled it all out to her sister.",
+          "zh": "她向妹妹一口氣說出了所有事情。",
+          "highlight": "spilled it all out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+      "titleEn": "spill over into/to something",
+      "formula": "spill over into/to something",
+      "highlight": "spill over into/to something",
+      "descriptionZh": "問題、情緒、影響或活動蔓延至另一地方、群體或情況",
+      "descriptionEn": "The trouble spilled over into nearby towns.",
+      "examples": [
+        {
+          "en": "The trouble spilled over into nearby towns.",
+          "zh": "問題蔓延至附近的城鎮。",
+          "highlight": "spilled over into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "液體漫過杯、碗或其他容器的邊緣",
+      "titleEn": "spill over / spill over something",
+      "formula": "spill over / spill over something",
+      "highlight": "spill over / spill over something",
+      "descriptionZh": "液體漫過杯、碗或其他容器的邊緣",
+      "descriptionEn": "Water spilled over the rim of the glass.",
+      "examples": [
+        {
+          "en": "Water spilled over the rim of the glass.",
+          "zh": "水漫過玻璃杯邊緣。",
+          "highlight": "spilled over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述物件從容器掉出的情況",
+      "titleEn": "Describe things falling from containers",
+      "zh": "spill out 可以描述文件、硬幣、衣物等從袋、盒或行李箱掉出並散落四周。",
+      "en": "Spill out helps you describe papers, coins, clothes and other things falling from bags, boxes or cases and spreading around."
+    },
+    {
+      "titleZh": "表達話語和感受自然湧出",
+      "titleEn": "Express words and feelings coming freely",
+      "zh": "spill out 可以表示某人突然說出大量說話、感受或細節,甚至無法控制自己。",
+      "en": "Spill out can show that somebody suddenly says many words, feelings or details without being able to control them."
+    },
+    {
+      "titleZh": "描述問題或影響向外蔓延",
+      "titleEn": "Show problems or effects spreading further",
+      "zh": "spill over 可以描述問題、興奮、壓力或其他影響蔓延至原本範圍以外。",
+      "en": "Spill over can describe trouble, excitement, stress or other effects moving beyond their original place or situation."
+    },
+    {
+      "titleZh": "描述液體漫過邊緣",
+      "titleEn": "Describe liquid passing over an edge",
+      "zh": "spill over 可以描述水、牛奶、湯等液體漫過容器邊緣。",
+      "en": "Spill over helps you describe water, milk, soup and other liquids flowing over the edge of a container."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述物件從容器掉出的情況",
+      "表達話語和感受自然湧出",
+      "描述問題或影響向外蔓延",
+      "描述液體漫過邊緣"
+    ],
+    "contextsEn": [
+      "Describe things falling from containers",
+      "Express words and feelings coming freely",
+      "Show problems or effects spreading further",
+      "Describe liquid passing over an edge"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述物件從容器掉出的情況",
+        "titleEn": "Describe things falling from containers",
+        "zh": "spill out 可以描述文件、硬幣、衣物等從袋、盒或行李箱掉出並散落四周。",
+        "en": "Spill out helps you describe papers, coins, clothes and other things falling from bags, boxes or cases and spreading around.",
+        "examples": [
+          {
+            "en": "The papers spilled out of the folder.",
+            "zh": "文件從文件夾掉出並散開。",
+            "highlight": "spilled out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達話語和感受自然湧出",
+        "titleEn": "Express words and feelings coming freely",
+        "zh": "spill out 可以表示某人突然說出大量說話、感受或細節,甚至無法控制自己。",
+        "en": "Spill out can show that somebody suddenly says many words, feelings or details without being able to control them.",
+        "examples": [
+          {
+            "en": "She spilled it all out to her sister.",
+            "zh": "她向妹妹一口氣說出了所有事情。",
+            "highlight": "spilled it all out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述問題或影響向外蔓延",
+        "titleEn": "Show problems or effects spreading further",
+        "zh": "spill over 可以描述問題、興奮、壓力或其他影響蔓延至原本範圍以外。",
+        "en": "Spill over can describe trouble, excitement, stress or other effects moving beyond their original place or situation.",
+        "examples": [
+          {
+            "en": "The trouble spilled over into nearby towns.",
+            "zh": "問題蔓延至附近的城鎮。",
+            "highlight": "spilled over into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述液體漫過邊緣",
+        "titleEn": "Describe liquid passing over an edge",
+        "zh": "spill over 可以描述水、牛奶、湯等液體漫過容器邊緣。",
+        "en": "Spill over helps you describe water, milk, soup and other liquids flowing over the edge of a container.",
+        "examples": [
+          {
+            "en": "Water spilled over the rim of the glass.",
+            "zh": "水漫過玻璃杯邊緣。",
+            "highlight": "spilled over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SPILL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SPILL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SPILL 片語動詞。",
+      "en": "Read the whole sentence and choose the SPILL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以上不同情境:物件可以從容器掉出;液體可以漫過邊緣;問題或影響則可以蔓延至其他地方。",
+      "titleEn": "Study these different situations: The papers spilled out of the bag.",
+      "zh": "留意以上不同情境:物件可以從容器掉出;液體可以漫過邊緣;問題或影響則可以蔓延至其他地方。",
+      "en": "Study these different situations: The papers spilled out of the bag. Water spilled over the rim. The trouble spilled over into nearby towns."
+    },
+    {
+      "titleZh": "spilt 和 spilled 都是正確的過去式。本練習的參考答案主要使用 spilled。",
+      "titleEn": "Both spilt and spilled are correct past forms.",
+      "zh": "spilt 和 spilled 都是正確的過去式。本練習的參考答案主要使用 spilled。",
+      "en": "Both spilt and spilled are correct past forms. The model answers mainly use spilled."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SPILL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SPILL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SPILL 動詞片語句子改寫練習",
+    "titleEn": "SPILL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SPILL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SPILL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-305-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The papers fell out of the folder and spread across the floor.",
+      "promptZh": "文件從文件夾掉出,散落在地板上。",
+      "starter": "The",
+      "answer": "The papers spilled out of the folder and spread across the floor.",
+      "answerZh": "文件從文件夾掉出,散落在地板上。",
+      "highlight": "spilled",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Trouble in the city spread into several nearby towns.",
+      "promptZh": "市內的問題蔓延至附近幾個城鎮。",
+      "starter": "Trouble",
+      "answer": "Trouble in the city spilled over into several nearby towns.",
+      "answerZh": "市內的問題蔓延至附近幾個城鎮。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "蔓延至另一地方或情況"
+    },
+    {
+      "id": "phrasal-verb-305-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Once she started speaking, the words came from her very quickly.",
+      "promptZh": "她一開始說話,話語便很快地湧出。",
+      "starter": "Once",
+      "answer": "Once she started speaking, the words spilled out very quickly.",
+      "answerZh": "她一開始說話,話語便很快地湧出。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "話語不受控制地湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Water flowed over the rim of the glass.",
+      "promptZh": "水漫過玻璃杯邊緣。",
+      "starter": "Water",
+      "answer": "Water spilled over the rim of the glass.",
+      "answerZh": "水漫過玻璃杯邊緣。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Coins fell from the open box and rolled under the table.",
+      "promptZh": "硬幣從打開的盒子掉出,滾到桌下。",
+      "starter": "Coins",
+      "answer": "Coins spilled out of the open box and rolled under the table.",
+      "answerZh": "硬幣從打開的盒子掉出,滾到桌下。",
+      "highlight": "spilled out of",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ava told her friend everything without stopping.",
+      "promptZh": "艾娃不停地向朋友說出所有事情。",
+      "starter": "Ava",
+      "answer": "Ava spilled it all out to her friend without stopping.",
+      "answerZh": "艾娃不停地向朋友說出所有事情。",
+      "highlight": "spilled it all out to",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把所有事情一口氣說出"
+    },
+    {
+      "id": "phrasal-verb-305-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Excitement from the match spread into the streets.",
+      "promptZh": "比賽帶來的興奮氣氛蔓延至街上。",
+      "starter": "Excitement",
+      "answer": "Excitement from the match spilled over into the streets.",
+      "answerZh": "比賽帶來的興奮氣氛蔓延至街上。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "情緒或影響蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Soup flowed over the edge of the bowl.",
+      "promptZh": "湯漫過碗邊。",
+      "starter": "Soup",
+      "answer": "Soup spilled over the edge of the bowl.",
+      "answerZh": "湯漫過碗邊。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "All his worries came from him at once when he began talking.",
+      "promptZh": "他開始說話時,所有憂慮一下子湧了出來。",
+      "starter": "All",
+      "answer": "All his worries spilled out when he began talking.",
+      "answerZh": "他開始說話時,所有憂慮一下子湧了出來。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "感受或想法不受控制地湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Problems at school began to affect Daniel’s home life.",
+      "promptZh": "學校裏的問題開始影響丹尼爾的家庭生活。",
+      "starter": "Problems",
+      "answer": "Problems at school spilled over into Daniel’s home life.",
+      "answerZh": "學校裏的問題開始影響丹尼爾的家庭生活。",
+      "highlight": "spilled over into",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "問題蔓延至另一情況"
+    },
+    {
+      "id": "phrasal-verb-305-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Rainwater is flowing over the side of the barrel.",
+      "promptZh": "雨水正漫過木桶邊緣。",
+      "starter": "Rainwater",
+      "answer": "Rainwater is spilling over the side of the barrel.",
+      "answerZh": "雨水正漫過木桶邊緣。",
+      "highlight": "spilling",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Several papers have fallen from her bag and are lying on the pavement.",
+      "promptZh": "幾份文件已從她的袋中掉出,散落在人行道上。",
+      "starter": "Several",
+      "answer": "Several papers have spilled out of her bag and are lying on the pavement.",
+      "answerZh": "幾份文件已從她的袋中掉出,散落在人行道上。",
+      "highlight": "spilled out of",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The protest has spread into three nearby towns.",
+      "promptZh": "這場抗議活動已蔓延至附近三個城鎮。",
+      "starter": "The",
+      "answer": "The protest has spilled over into three nearby towns.",
+      "answerZh": "這場抗議活動已蔓延至附近三個城鎮。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "活動或問題蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Her feelings were becoming clear in everything she said.",
+      "promptZh": "她的每句說話都流露出自己的感受。",
+      "starter": "Her",
+      "answer": "Her feelings were spilling out in everything she said.",
+      "answerZh": "她的每句說話都流露出自己的感受。",
+      "highlight": "spilling out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "感受自然地流露出來"
+    },
+    {
+      "id": "phrasal-verb-305-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "These toys will fall out of the box if you lift it like that.",
+      "promptZh": "如果你這樣拿起盒子,這些玩具便會掉出來。",
+      "starter": "These",
+      "answer": "These toys will spill out of the box if you lift it like that.",
+      "answerZh": "如果你這樣拿起盒子,這些玩具便會掉出來。",
+      "highlight": "spill",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出"
+    },
+    {
+      "id": "phrasal-verb-305-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Milk had flowed over the top of the saucepan before Ben lowered the heat.",
+      "promptZh": "賓把火力調低前,牛奶已漫過鍋邊。",
+      "starter": "Milk",
+      "answer": "Milk had spilled over the top of the saucepan before Ben lowered the heat.",
+      "answerZh": "賓把火力調低前,牛奶已漫過鍋邊。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Stress from work may begin to affect family life.",
+      "promptZh": "工作壓力可能會開始影響家庭生活。",
+      "starter": "Stress",
+      "answer": "Stress from work may spill over into family life.",
+      "answerZh": "工作壓力可能會影響家庭生活。",
+      "highlight": "spill over into",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "影響蔓延至另一情況"
+    },
+    {
+      "id": "phrasal-verb-305-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the rice fall from the torn bag and spread across the floor?",
+      "promptZh": "米為甚麼從破袋中掉出,散落在地板上?",
+      "starter": "Why",
+      "answer": "Why did the rice spill out of the torn bag and spread across the floor?",
+      "answerZh": "米為甚麼從破袋中掉出,散落在地板上?",
+      "highlight": "spill out of",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "He could not stop himself from saying everything at once.",
+      "promptZh": "他無法阻止自己一下子說出所有事情。",
+      "starter": "He",
+      "answer": "He could not stop himself spilling everything out at once.",
+      "answerZh": "他無法阻止自己一下子說出所有事情。",
+      "highlight": "spilling",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把所有事情一口氣說出"
+    },
+    {
+      "id": "phrasal-verb-305-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "If you pour in any more water, it will flow over the rim.",
+      "promptZh": "如果你再倒水進去,水便會漫過邊緣。",
+      "starter": "If",
+      "answer": "If you pour in any more water, it will spill over the rim.",
+      "answerZh": "如果你再倒水進去,水便會漫過邊緣。",
+      "highlight": "spill",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "She finally said everything she had been hiding.",
+      "promptZh": "她終於說出了自己一直隱瞞的一切。",
+      "starter": "She",
+      "answer": "She finally spilled it all out.",
+      "answerZh": "她終於說出了自己一直隱瞞的一切。",
+      "highlight": "spilled it all out",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把一直隱瞞的事情說出"
+    },
+    {
+      "id": "phrasal-verb-305-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The cup was too full. Tea flowed over its rim and onto the table.",
+      "promptZh": "杯子太滿了。茶漫過杯邊,流到桌上。",
+      "starter": "The",
+      "answer": "The cup was too full. Tea spilled over its rim and onto the table.",
+      "answerZh": "杯子太滿了。茶漫過杯邊,流到桌上。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The zip opened, and everything fell from the suitcase.",
+      "promptZh": "拉鏈打開了,所有東西都從行李箱掉出來。",
+      "starter": "The",
+      "answer": "The zip opened, and everything spilled out of the suitcase.",
+      "answerZh": "拉鏈打開了,所有東西都從行李箱掉出來。",
+      "highlight": "spilled out of",
+      "targetForm": "spill out of something",
+      "targetMeaningZh": "從容器掉出"
+    },
+    {
+      "id": "phrasal-verb-305-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Anger in the crowd spread into the nearby streets.",
+      "promptZh": "人群中的憤怒情緒蔓延至附近街道。",
+      "starter": "Anger",
+      "answer": "Anger in the crowd spilled over into the nearby streets.",
+      "answerZh": "人群中的憤怒情緒蔓延至附近街道。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "情緒蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Once Ben started explaining, the details came from him one after another.",
+      "promptZh": "賓一開始解釋,細節便接連不斷地湧出。",
+      "starter": "Once",
+      "answer": "Once Ben started explaining, the details came spilling out one after another.",
+      "answerZh": "賓一開始解釋,細節便接連不斷地湧出。",
+      "highlight": "spilling out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "話語或細節接連湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The bath was full, and water flowed over the side onto the floor.",
+      "promptZh": "浴缸已滿,水漫過浴缸邊,流到地板上。",
+      "starter": "The",
+      "answer": "The bath was full, and water spilled over the side onto the floor.",
+      "answerZh": "浴缸已滿,水漫過浴缸邊,流到地板上。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "When the box tipped over, beads fell out and rolled across the room.",
+      "promptZh": "盒子翻倒時,珠子掉出並滾到房間各處。",
+      "starter": "When",
+      "answer": "When the box tipped over, beads spilled out and rolled across the room.",
+      "answerZh": "盒子翻倒時,珠子掉出並滾到房間各處。",
+      "highlight": "spilled",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please say everything you have been keeping secret.",
+      "promptZh": "請說出你一直保守的所有秘密。",
+      "starter": "Please",
+      "answer": "Please spill it all out.",
+      "answerZh": "請說出你一直保守的所有秘密。",
+      "highlight": "spill it all out",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把心裏的事情全部說出"
+    },
+    {
+      "id": "phrasal-verb-305-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The strike began in one factory and spread into two nearby factories.",
+      "promptZh": "罷工由一間工廠開始,並蔓延至附近兩間工廠。",
+      "starter": "The",
+      "answer": "The strike began in one factory and spilled over into two nearby factories.",
+      "answerZh": "罷工由一間工廠開始,並蔓延至附近兩間工廠。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "活動蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the sauce began to boil, it flowed over the top of the pan.",
+      "promptZh": "醬汁開始沸騰時,漫過鍋邊。",
+      "starter": "As",
+      "answer": "As the sauce began to boil, it spilled over the top of the pan.",
+      "answerZh": "醬汁開始沸騰時,漫過鍋邊。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The delay also affected the work planned for the following day.",
+      "promptZh": "延誤亦影響了原定翌日進行的工作。",
+      "starter": "The",
+      "answer": "The delay spilled over into the work planned for the following day.",
+      "answerZh": "延誤亦影響了原定翌日進行的工作。",
+      "highlight": "spilled over into",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "影響延伸至另一時間或情況"
+    },
+    {
+      "id": "phrasal-verb-305-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the suitcase burst open, clothes fell onto the platform.",
+      "promptZh": "行李箱突然打開後,衣物掉到月台上。",
+      "starter": "After",
+      "answer": "After the suitcase burst open, clothes spilled out onto the platform.",
+      "answerZh": "行李箱突然打開後,衣物掉到月台上。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A little coffee flowed over the edge of the cup and onto the book.",
+      "promptZh": "少量咖啡漫過杯邊,流到書上。",
+      "starter": "A",
+      "answer": "A little coffee spilled over the edge of the cup and onto the book.",
+      "answerZh": "少量咖啡漫過杯邊,流到書上。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The child tried to stay calm, but all his worries came from him at once.",
+      "promptZh": "孩子嘗試保持冷靜,但所有憂慮一下子湧了出來。",
+      "starter": "The",
+      "answer": "The child tried to stay calm, but all his worries spilled out at once.",
+      "answerZh": "孩子嘗試保持冷靜,但所有憂慮一下子湧了出來。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "感受或想法不受控制地湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the drawer was pulled too far, socks fell out everywhere.",
+      "promptZh": "抽屜被拉得太出時,襪子掉得到處都是。",
+      "starter": "When",
+      "answer": "When the drawer was pulled too far, socks spilled out everywhere.",
+      "answerZh": "抽屜被拉得太出時,襪子掉得到處都是。",
+      "highlight": "spilled",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Anger outside the stadium spread into the station area after the match.",
+      "promptZh": "比賽後,球場外的憤怒情緒蔓延至車站一帶。",
+      "starter": "Anger",
+      "answer": "Anger outside the stadium spilled over into the station area after the match.",
+      "answerZh": "比賽後,球場外的憤怒情緒蔓延至車站一帶。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "情緒蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During the call, Ava suddenly told her sister every detail.",
+      "promptZh": "通話期間,艾娃突然向妹妹說出了每個細節。",
+      "starter": "During",
+      "answer": "During the call, Ava suddenly spilled it all out to her sister.",
+      "answerZh": "通話期間,艾娃突然向妹妹說出了所有細節。",
+      "highlight": "spilled it all out to",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把事情一口氣全部說出"
+    },
+    {
+      "id": "phrasal-verb-305-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The packet tore, and sugar escaped across the kitchen counter.",
+      "promptZh": "包裝袋破了,糖散落在廚房工作枱上。",
+      "starter": "The",
+      "answer": "The packet tore, and sugar spilled out across the kitchen counter.",
+      "answerZh": "包裝袋破了,糖散落在廚房工作枱上。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Joy from the festival spread into the nearby shops and streets.",
+      "promptZh": "節日的歡樂氣氛蔓延至附近的店舖和街道。",
+      "starter": "Joy",
+      "answer": "Joy from the festival spilled over into the nearby shops and streets.",
+      "answerZh": "節日的歡樂氣氛蔓延至附近的店舖和街道。",
+      "highlight": "spilled over",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "情緒或氣氛蔓延至另一地方"
+    },
+    {
+      "id": "phrasal-verb-305-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The tank continued filling until water went over the top.",
+      "promptZh": "水箱不斷注水,直至水漫過頂部。",
+      "starter": "The",
+      "answer": "The tank continued filling until water spilled over the top.",
+      "answerZh": "水箱不斷注水,直至水漫過頂部。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She meant to give a short answer, but once she began, the whole story came from her.",
+      "promptZh": "她原本只打算簡短回答,但一開始說話,整件事情便湧了出來。",
+      "starter": "She",
+      "answer": "She meant to give a short answer, but once she began, the whole story spilled out.",
+      "answerZh": "她原本只打算簡短回答,但一開始說話,整件事情便湧了出來。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "說話或故事自然湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "An online argument began in the evening and affected the classroom the following day.",
+      "promptZh": "一場網上爭論在晚上開始,翌日更影響了課室。",
+      "starter": "An",
+      "answer": "An online argument that began in the evening spilled over into the classroom the following day.",
+      "answerZh": "一場在晚上開始的網上爭論,翌日更影響了課室。",
+      "highlight": "that",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "問題蔓延至另一情況"
+    },
+    {
+      "id": "phrasal-verb-305-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "While Leo searched for his ticket, his bag turned upside down and the receipts fell across the floor.",
+      "promptZh": "里奧尋找車票時,袋子倒轉了,收據散落在地板上。",
+      "starter": "While",
+      "answer": "While Leo searched for his ticket, his bag turned upside down and the receipts spilled out across the floor.",
+      "answerZh": "里奧尋找車票時,袋子倒轉了,收據散落在地板上。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "He continued filling the glass while talking, so water flowed over the rim onto the table.",
+      "promptZh": "他一邊說話,一邊繼續倒水,因此水漫過杯邊,流到桌上。",
+      "starter": "He",
+      "answer": "He continued filling the glass while talking, so water spilled over the rim onto the table.",
+      "answerZh": "他一邊說話,一邊繼續倒水,因此水漫過杯邊,流到桌上。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    },
+    {
+      "id": "phrasal-verb-305-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "You have kept this secret all week. Tell me everything now.",
+      "promptZh": "你整個星期都保守着這個秘密。現在把一切告訴我吧。",
+      "starter": "You",
+      "answer": "You have kept this secret all week. Spill it all out now.",
+      "answerZh": "你整個星期都保守着這個秘密。現在把一切說出來吧。",
+      "highlight": "Spill it all out",
+      "targetForm": "spill something out",
+      "targetMeaningZh": "把一直隱瞞的事情全部說出"
+    },
+    {
+      "id": "phrasal-verb-305-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Interest in the new market also spread to nearby cafés, which became busier.",
+      "promptZh": "人們對新市場的興趣亦擴展至附近的咖啡店,令它們變得更繁忙。",
+      "starter": "Interest",
+      "answer": "Interest in the new market spilled over to nearby cafés, which became busier.",
+      "answerZh": "人們對新市場的興趣亦擴展至附近的咖啡店,令它們變得更繁忙。",
+      "highlight": "spilled over",
+      "targetForm": "spill over to something",
+      "targetMeaningZh": "影響擴展至另一地方或群體"
+    },
+    {
+      "id": "phrasal-verb-305-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As the train stopped suddenly, the case opened and clothes fell across the aisle.",
+      "promptZh": "列車突然停下時,行李箱打開了,衣物散落在通道上。",
+      "starter": "As",
+      "answer": "As the train stopped suddenly, the case opened and clothes spilled out across the aisle.",
+      "answerZh": "列車突然停下時,行李箱打開了,衣物散落在通道上。",
+      "highlight": "spilled out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "物件從容器掉出並散開"
+    },
+    {
+      "id": "phrasal-verb-305-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even though the reporter asked only one question, details continued to come for several minutes.",
+      "promptZh": "雖然記者只問了一條問題,但細節仍接連出現了幾分鐘。",
+      "starter": "Even",
+      "answer": "Even though the reporter asked only one question, details kept spilling out for several minutes.",
+      "answerZh": "雖然記者只問了一條問題,但細節仍接連湧出了幾分鐘。",
+      "highlight": "kept spilling out",
+      "targetForm": "spill out",
+      "targetMeaningZh": "話語或細節接連湧出"
+    },
+    {
+      "id": "phrasal-verb-305-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Problems in one department began to affect the whole company.",
+      "promptZh": "一個部門的問題開始影響整間公司。",
+      "starter": "Problems",
+      "answer": "Problems in one department spilled over into the whole company.",
+      "answerZh": "一個部門的問題開始影響整間公司。",
+      "highlight": "spilled over into",
+      "targetForm": "spill over into something",
+      "targetMeaningZh": "問題蔓延至另一群體或情況"
+    },
+    {
+      "id": "phrasal-verb-305-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The bowl appeared safe until the child dropped another toy into it and water flowed over the sides.",
+      "promptZh": "那個碗原本看來沒有問題,直至孩子再放入一件玩具,令水漫過兩邊。",
+      "starter": "The",
+      "answer": "The bowl appeared safe until the child dropped another toy into it and water spilled over the sides.",
+      "answerZh": "那個碗原本看來沒有問題,直至孩子再放入一件玩具,令水漫過兩邊。",
+      "highlight": "spilled",
+      "targetForm": "spill over something",
+      "targetMeaningZh": "液體漫過邊緣"
+    }
+  ]
+}

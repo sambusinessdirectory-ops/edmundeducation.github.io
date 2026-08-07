@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-188",
+  "order": 188,
+  "slug": "come-round",
+  "version": "1",
+  "title": "COME ROUND 動詞片語",
+  "titleEn": "COME Round",
+  "titleZh": "COME ROUND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 187 - COME Round.pdf",
+    "sourceNumber": 187,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME ROUND",
+      "highlight": "COME ROUND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Ben came round a few minutes later.",
+      "zh": "賓幾分鐘後恢復了知覺。",
+      "highlight": "came round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Come round and see us this weekend.",
+      "zh": "這個週末到我們家探訪吧。",
+      "highlight": "Come round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A bus came round the bend.",
+      "zh": "一輛巴士駛過彎位。",
+      "highlight": "came round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "恢復知覺;醒過來；到某人家中短暫探訪；轉過街角或彎位；(卡片、表格或文件)在眾人之間傳遞",
+    "en": "come round; come round / come around; come round the corner / come round the bend; come round / come round the table, class or office",
+    "naturalZh": [
+      "恢復知覺;醒過來",
+      "到某人家中短暫探訪",
+      "轉過街角或彎位",
+      "(卡片、表格或文件)在眾人之間傳遞"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come round",
+      "titleZh": "恢復知覺;醒過來",
+      "titleEn": "come round",
+      "descriptionZh": "恢復知覺;醒過來",
+      "descriptionEn": "Ben came round a few minutes later.",
+      "examples": [
+        {
+          "en": "Ben came round a few minutes later.",
+          "zh": "賓幾分鐘後恢復了知覺。",
+          "highlight": "came round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come round / come around",
+      "titleZh": "到某人家中短暫探訪",
+      "titleEn": "come round / come around",
+      "descriptionZh": "到某人家中短暫探訪",
+      "descriptionEn": "Come round and see us this weekend.",
+      "examples": [
+        {
+          "en": "Come round and see us this weekend.",
+          "zh": "這個週末到我們家探訪吧。",
+          "highlight": "Come round"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come round the corner / come round the bend",
+      "titleZh": "轉過街角或彎位",
+      "titleEn": "come round the corner / come round the bend",
+      "descriptionZh": "轉過街角或彎位",
+      "descriptionEn": "A bus came round the bend.",
+      "examples": [
+        {
+          "en": "A bus came round the bend.",
+          "zh": "一輛巴士駛過彎位。",
+          "highlight": "came round"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come round / come round the table, class or office",
+      "titleZh": "(卡片、表格或文件)在眾人之間傳遞",
+      "titleEn": "come round / come round the table, class or office",
+      "descriptionZh": "(卡片、表格或文件)在眾人之間傳遞",
+      "descriptionEn": "The form came round for everyone to read.",
+      "examples": [
+        {
+          "en": "The form came round for everyone to read.",
+          "zh": "表格傳到各人手上,讓大家閱讀。",
+          "highlight": "came round"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME ROUND 片語動詞的實際用途",
+    "labelEn": "COME ROUND Phrasal Verbs in Use",
+    "summaryZh": "come round 可以自然地描述某人暈倒後重新恢復知覺。；come round 和 come around 可用於友善地邀請別人到家中短暫探訪。；come round 可以描述人或車輛轉過街角或彎位後出現。；come round 可以描述卡片、表格或其他文件在人與人之間傳遞。",
+    "summaryEn": "Come round gives you a natural way to describe someone becoming conscious again after fainting. Come round and come around are useful for friendly invitations and short visits to somebody’s home. Come round can describe a person or vehicle appearing after moving around a corner or bend. Come round can describe a card, form or other document being passed from one person to another.",
+    "contextsZh": [
+      "談論某人恢復知覺",
+      "自然地邀請別人到訪",
+      "描述轉過街角或彎位的動作",
+      "談論卡片和文件的傳遞"
+    ],
+    "contextsEn": [
+      "Talk about someone recovering consciousness",
+      "Invite people to visit you naturally",
+      "Describe movement around corners and bends",
+      "Talk about cards and documents being shared"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come round",
+    "fixedHighlight": "come round",
+    "fixedZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+    "correct": "came round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；表示短暫探訪時,本練習接受 come round 和 come around。；仔細留意正在移動的是甚麼:人或車輛可以 come round a corner;卡片或表格則可以在人群中come round。",
+    "variableEn": "Keep the same people, things, time and meaning. For a short visit, both come round and come around are accepted in this exercise. Read carefully to see what is moving: a person or vehicle can come round a corner, while a card or form can come round a group.",
+    "variableItemsZh": [
+      "come round",
+      "come round / come around",
+      "come round the corner / come round the bend",
+      "come round / come round the table, class or office"
+    ],
+    "variableItemsEn": [
+      "come round",
+      "come round / come around",
+      "come round the corner / come round the bend",
+      "come round / come round the table, class or office"
+    ],
+    "forms": [
+      {
+        "formZh": "恢復知覺;醒過來",
+        "formEn": "come round",
+        "exampleZh": "賓幾分鐘後恢復了知覺。",
+        "exampleEn": "Ben came round a few minutes later.",
+        "highlight": "came round"
+      },
+      {
+        "formZh": "到某人家中短暫探訪",
+        "formEn": "come round / come around",
+        "exampleZh": "這個週末到我們家探訪吧。",
+        "exampleEn": "Come round and see us this weekend.",
+        "highlight": "Come round"
+      },
+      {
+        "formZh": "轉過街角或彎位",
+        "formEn": "come round the corner / come round the bend",
+        "exampleZh": "一輛巴士駛過彎位。",
+        "exampleEn": "A bus came round the bend.",
+        "highlight": "came round"
+      },
+      {
+        "formZh": "(卡片、表格或文件)在眾人之間傳遞",
+        "formEn": "come round / come round the table, class or office",
+        "exampleZh": "表格傳到各人手上,讓大家閱讀。",
+        "exampleEn": "The form came round for everyone to read.",
+        "highlight": "came round"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "恢復知覺;醒過來",
+      "titleEn": "come round",
+      "formula": "come round",
+      "highlight": "come round",
+      "descriptionZh": "恢復知覺;醒過來",
+      "descriptionEn": "Ben came round a few minutes later.",
+      "examples": [
+        {
+          "en": "Ben came round a few minutes later.",
+          "zh": "賓幾分鐘後恢復了知覺。",
+          "highlight": "came round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "到某人家中短暫探訪",
+      "titleEn": "come round / come around",
+      "formula": "come round / come around",
+      "highlight": "come round / come around",
+      "descriptionZh": "到某人家中短暫探訪",
+      "descriptionEn": "Come round and see us this weekend.",
+      "examples": [
+        {
+          "en": "Come round and see us this weekend.",
+          "zh": "這個週末到我們家探訪吧。",
+          "highlight": "Come round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "轉過街角或彎位",
+      "titleEn": "come round the corner / come round the bend",
+      "formula": "come round the corner / come round the bend",
+      "highlight": "come round the corner / come round the bend",
+      "descriptionZh": "轉過街角或彎位",
+      "descriptionEn": "A bus came round the bend.",
+      "examples": [
+        {
+          "en": "A bus came round the bend.",
+          "zh": "一輛巴士駛過彎位。",
+          "highlight": "came round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "(卡片、表格或文件)在眾人之間傳遞",
+      "titleEn": "come round / come round the table, class or office",
+      "formula": "come round / come round the table, class or office",
+      "highlight": "come round / come round the table, class or office",
+      "descriptionZh": "(卡片、表格或文件)在眾人之間傳遞",
+      "descriptionEn": "The form came round for everyone to read.",
+      "examples": [
+        {
+          "en": "The form came round for everyone to read.",
+          "zh": "表格傳到各人手上,讓大家閱讀。",
+          "highlight": "came round"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論某人恢復知覺",
+      "titleEn": "Talk about someone recovering consciousness",
+      "zh": "come round 可以自然地描述某人暈倒後重新恢復知覺。",
+      "en": "Come round gives you a natural way to describe someone becoming conscious again after fainting."
+    },
+    {
+      "titleZh": "自然地邀請別人到訪",
+      "titleEn": "Invite people to visit you naturally",
+      "zh": "come round 和 come around 可用於友善地邀請別人到家中短暫探訪。",
+      "en": "Come round and come around are useful for friendly invitations and short visits to somebody’s home."
+    },
+    {
+      "titleZh": "描述轉過街角或彎位的動作",
+      "titleEn": "Describe movement around corners and bends",
+      "zh": "come round 可以描述人或車輛轉過街角或彎位後出現。",
+      "en": "Come round can describe a person or vehicle appearing after moving around a corner or bend."
+    },
+    {
+      "titleZh": "談論卡片和文件的傳遞",
+      "titleEn": "Talk about cards and documents being shared",
+      "zh": "come round 可以描述卡片、表格或其他文件在人與人之間傳遞。",
+      "en": "Come round can describe a card, form or other document being passed from one person to another."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論某人恢復知覺",
+      "自然地邀請別人到訪",
+      "描述轉過街角或彎位的動作",
+      "談論卡片和文件的傳遞"
+    ],
+    "contextsEn": [
+      "Talk about someone recovering consciousness",
+      "Invite people to visit you naturally",
+      "Describe movement around corners and bends",
+      "Talk about cards and documents being shared"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論某人恢復知覺",
+        "titleEn": "Talk about someone recovering consciousness",
+        "zh": "come round 可以自然地描述某人暈倒後重新恢復知覺。",
+        "en": "Come round gives you a natural way to describe someone becoming conscious again after fainting.",
+        "examples": [
+          {
+            "en": "Ben came round a few minutes later.",
+            "zh": "賓幾分鐘後恢復了知覺。",
+            "highlight": "came round"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地邀請別人到訪",
+        "titleEn": "Invite people to visit you naturally",
+        "zh": "come round 和 come around 可用於友善地邀請別人到家中短暫探訪。",
+        "en": "Come round and come around are useful for friendly invitations and short visits to somebody’s home.",
+        "examples": [
+          {
+            "en": "Come round and see us this weekend.",
+            "zh": "這個週末到我們家探訪吧。",
+            "highlight": "Come round"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述轉過街角或彎位的動作",
+        "titleEn": "Describe movement around corners and bends",
+        "zh": "come round 可以描述人或車輛轉過街角或彎位後出現。",
+        "en": "Come round can describe a person or vehicle appearing after moving around a corner or bend.",
+        "examples": [
+          {
+            "en": "A bus came round the bend.",
+            "zh": "一輛巴士駛過彎位。",
+            "highlight": "came round"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論卡片和文件的傳遞",
+        "titleEn": "Talk about cards and documents being shared",
+        "zh": "come round 可以描述卡片、表格或其他文件在人與人之間傳遞。",
+        "en": "Come round can describe a card, form or other document being passed from one person to another.",
+        "examples": [
+          {
+            "en": "The form came round for everyone to read.",
+            "zh": "表格傳到各人手上,讓大家閱讀。",
+            "highlight": "came round"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "en": "Read the whole sentence and choose the COME expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "表示短暫探訪時,本練習接受 come round 和 come around。",
+      "titleEn": "For a short visit, both come round and come around are accepted in this exercise.",
+      "zh": "表示短暫探訪時,本練習接受 come round 和 come around。",
+      "en": "For a short visit, both come round and come around are accepted in this exercise."
+    },
+    {
+      "titleZh": "仔細留意正在移動的是甚麼:人或車輛可以 come round a corner;卡片或表格則可以在人群中come round。",
+      "titleEn": "Read carefully to see what is moving: a person or vehicle can come round a corner, while a card or form can come round a group.",
+      "zh": "仔細留意正在移動的是甚麼:人或車輛可以 come round a corner;卡片或表格則可以在人群中come round。",
+      "en": "Read carefully to see what is moving: a person or vehicle can come round a corner, while a card or form can come round a group."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME ROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME ROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME ROUND 動詞片語句子改寫練習",
+    "titleEn": "COME ROUND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME ROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME ROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-188-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please visit us at home for tea after school.",
+      "promptZh": "放學後請到我們家喝茶。",
+      "starter": "Please",
+      "answer": "Please come round for tea after school.",
+      "answerZh": "放學後請到我們家喝茶。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "When Hana became conscious again, her brother was beside her.",
+      "promptZh": "哈娜恢復知覺時,她的哥哥在她身旁。",
+      "starter": "When",
+      "answer": "When Hana came round, her brother was beside her.",
+      "answerZh": "哈娜恢復知覺時,她的哥哥在她身旁。",
+      "highlight": "came round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A cyclist turned the corner very quickly.",
+      "promptZh": "一名單車手很快轉過街角。",
+      "starter": "A",
+      "answer": "A cyclist came round the corner very quickly.",
+      "answerZh": "一名單車手很快轉過街角。",
+      "highlight": "came round",
+      "targetForm": "come round the corner",
+      "targetMeaningZh": "轉過街角"
+    },
+    {
+      "id": "phrasal-verb-188-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The birthday card was passed from person to person so everyone could sign it.",
+      "promptZh": "生日卡在人與人之間傳遞,讓大家簽名。",
+      "starter": "The",
+      "answer": "The birthday card came round for everyone to sign.",
+      "answerZh": "生日卡傳到各人手上,讓大家簽名。",
+      "highlight": "came round for everyone",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our neighbours visited us at home for tea on Sunday.",
+      "promptZh": "我們的鄰居星期日到我們家喝茶。",
+      "starter": "Our",
+      "answer": "Our neighbours came round for tea on Sunday.",
+      "answerZh": "我們的鄰居星期日到我們家喝茶。",
+      "highlight": "came round",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The runner became conscious again a few minutes after he fainted.",
+      "promptZh": "那名跑手暈倒後幾分鐘恢復了知覺。",
+      "starter": "The",
+      "answer": "The runner came round a few minutes after he fainted.",
+      "answerZh": "那名跑手暈倒後幾分鐘恢復了知覺。",
+      "highlight": "came round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A class list was passed from student to student for everyone to check.",
+      "promptZh": "一張班級名單在學生之間傳遞,讓每位學生檢查。",
+      "starter": "A",
+      "answer": "A class list came round for every student to check.",
+      "answerZh": "一張班級名單傳到每位學生手上,讓大家檢查。",
+      "highlight": "came round for every",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The bus follows this bend every morning.",
+      "promptZh": "巴士每天早上都駛過這個彎位。",
+      "starter": "The",
+      "answer": "The bus comes round this bend every morning.",
+      "answerZh": "巴士每天早上都駛過這個彎位。",
+      "highlight": "comes round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Can you visit me at home and help me with the poster tomorrow?",
+      "promptZh": "你明天可以到我家,幫我製作海報嗎?",
+      "starter": "Can",
+      "answer": "Can you come around and help me with the poster tomorrow?",
+      "answerZh": "你明天可以到我家,幫我製作海報嗎?",
+      "highlight": "come around",
+      "targetForm": "come around",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Amir did not become conscious again immediately after he fainted.",
+      "promptZh": "阿米爾暈倒後沒有立即恢復知覺。",
+      "starter": "Amir",
+      "answer": "Amir did not come round immediately after he fainted.",
+      "answerZh": "阿米爾暈倒後沒有立即恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "As the taxi followed the curve in the road, the driver saw a fallen branch.",
+      "promptZh": "的士沿着路彎駛過時,司機看見一根倒下的樹枝。",
+      "starter": "As",
+      "answer": "As the taxi came round the bend, the driver saw a fallen branch.",
+      "answerZh": "的士駛過路彎時,司機看見一根倒下的樹枝。",
+      "highlight": "came round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She is beginning to become conscious again now.",
+      "promptZh": "她現在正開始恢復知覺。",
+      "starter": "She",
+      "answer": "She is beginning to come round now.",
+      "answerZh": "她現在正開始恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The form is being passed from person to person now, so please read it carefully.",
+      "promptZh": "表格現在正在各人之間傳遞,請仔細閱讀。",
+      "starter": "The",
+      "answer": "The form is coming round now, so please read it carefully.",
+      "answerZh": "表格現在正傳到各人手上,請仔細閱讀。",
+      "highlight": "coming round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ella often visits us at home after dance class.",
+      "promptZh": "埃拉上完舞蹈課後,經常到我們家探訪。",
+      "starter": "Ella",
+      "answer": "Ella often comes round to see us after dance class.",
+      "answerZh": "埃拉上完舞蹈課後,經常到我們家探訪。",
+      "highlight": "comes round to see",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A red car is turning the corner now.",
+      "promptZh": "一輛紅色汽車正在轉過街角。",
+      "starter": "A",
+      "answer": "A red car is coming round the corner now.",
+      "answerZh": "一輛紅色汽車正在轉過街角。",
+      "highlight": "coming round",
+      "targetForm": "come round the corner",
+      "targetMeaningZh": "轉過街角"
+    },
+    {
+      "id": "phrasal-verb-188-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has the boy become conscious again yet?",
+      "promptZh": "那個男孩恢復知覺了嗎?",
+      "starter": "Has",
+      "answer": "Has the boy come round yet?",
+      "answerZh": "那個男孩恢復知覺了嗎?",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We are visiting Grandma at her home this evening.",
+      "promptZh": "我們今晚會到祖母家探望她。",
+      "starter": "We",
+      "answer": "We are coming around to see Grandma this evening.",
+      "answerZh": "我們今晚會到祖母家探望她。",
+      "highlight": "coming around to see",
+      "targetForm": "come around",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has the card been passed to your table yet?",
+      "promptZh": "那張卡片已傳到你們那張桌子了嗎?",
+      "starter": "Has",
+      "answer": "Has the card come round to your table yet?",
+      "answerZh": "那張卡片已傳到你們那張桌子了嗎?",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will the school bus turn at the next bend soon?",
+      "promptZh": "校巴很快會駛過下一個彎位嗎?",
+      "starter": "Will",
+      "answer": "Will the school bus come round the next bend soon?",
+      "answerZh": "校巴很快會駛過下一個彎位嗎?",
+      "highlight": "come round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The nurse thought he would become conscious again soon.",
+      "promptZh": "護士認為他很快會恢復知覺。",
+      "starter": "The",
+      "answer": "The nurse thought he would come round soon.",
+      "answerZh": "護士認為他很快會恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Everyone passed the new menu to the next person before anyone ordered.",
+      "promptZh": "任何人點菜前,大家把新餐牌逐一傳給下一個人。",
+      "starter": "The",
+      "answer": "The new menu came round the table before anyone ordered.",
+      "answerZh": "任何人點菜前,新餐牌已沿着桌邊傳了一圈。",
+      "highlight": "came round",
+      "targetForm": "come round the table",
+      "targetMeaningZh": "在桌上各人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Tomas has visited us at home twice this week.",
+      "promptZh": "托馬斯本星期已兩次到我們家探訪。",
+      "starter": "Tomas",
+      "answer": "Tomas has come round to see us twice this week.",
+      "answerZh": "托馬斯本星期已兩次到我們家探訪。",
+      "highlight": "come round to see",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The dog suddenly turned the corner and ran towards us.",
+      "promptZh": "那隻狗突然轉過街角,向我們跑來。",
+      "starter": "The",
+      "answer": "The dog suddenly came round the corner and ran towards us.",
+      "answerZh": "那隻狗突然轉過街角,向我們跑來。",
+      "highlight": "came round",
+      "targetForm": "come round the corner",
+      "targetMeaningZh": "轉過街角"
+    },
+    {
+      "id": "phrasal-verb-188-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After a minute, Leo slowly became conscious again and opened his eyes.",
+      "promptZh": "一分鐘後,里奧慢慢恢復知覺,並睜開眼睛。",
+      "starter": "After",
+      "answer": "After a minute, Leo slowly came round and opened his eyes.",
+      "answerZh": "一分鐘後,里奧慢慢恢復知覺,並睜開眼睛。",
+      "highlight": "came round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We waited for the paper to be passed to us so we could add our names.",
+      "promptZh": "我們等候那張紙傳到手上,以便加上自己的名字。",
+      "starter": "We",
+      "answer": "We waited for the paper to come round so we could add our names.",
+      "answerZh": "我們等候那張紙傳到手上,以便加上自己的名字。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why don’t you visit us at home for lunch on Saturday?",
+      "promptZh": "你星期六何不到我們家吃午餐?",
+      "starter": "Why",
+      "answer": "Why don’t you come around for lunch on Saturday?",
+      "answerZh": "你星期六何不到我們家吃午餐?",
+      "highlight": "come around",
+      "targetForm": "come around",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The letter had been passed to everyone before the meeting began.",
+      "promptZh": "會議開始前,那封信已傳給所有人。",
+      "starter": "The",
+      "answer": "The letter had come round before the meeting began.",
+      "answerZh": "會議開始前,那封信已傳到所有人手上。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Be careful; a van may suddenly appear from beyond the bend.",
+      "promptZh": "小心,一輛客貨車隨時可能從彎位後突然出現。",
+      "starter": "Be",
+      "answer": "Be careful; a van may come round the bend at any moment.",
+      "answerZh": "小心,一輛客貨車隨時可能駛過彎位。",
+      "highlight": "come round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "They were waiting for Sara to become conscious again.",
+      "promptZh": "他們正在等莎拉恢復知覺。",
+      "starter": "They",
+      "answer": "They were waiting for Sara to come round.",
+      "answerZh": "他們正在等莎拉恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I asked Priya to visit me at home after the lesson.",
+      "promptZh": "我請普里雅下課後到我家。",
+      "starter": "I",
+      "answer": "I asked Priya to come round after the lesson.",
+      "answerZh": "我請普里雅下課後到我家。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "By the time the teacher arrived, Noah had become conscious again.",
+      "promptZh": "老師到達時,諾亞已恢復知覺。",
+      "starter": "By",
+      "answer": "By the time the teacher arrived, Noah had come round.",
+      "answerZh": "老師到達時,諾亞已恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The photo will be passed from person to person after everyone has seen the card.",
+      "promptZh": "大家看完卡片後,照片便會傳到各人手上。",
+      "starter": "The",
+      "answer": "The photo will come round after everyone has seen the card.",
+      "answerZh": "大家看完卡片後,照片便會傳到各人手上。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the train followed the curve in the track, the station appeared ahead.",
+      "promptZh": "火車沿着路軌的彎位駛過時,前方出現了車站。",
+      "starter": "When",
+      "answer": "When the train came round the bend, the station appeared ahead.",
+      "answerZh": "火車駛過路軌的彎位時,前方出現了車站。",
+      "highlight": "came round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They did not visit us at home because the rain was very heavy.",
+      "promptZh": "他們因為雨勢很大,所以沒有到我們家。",
+      "starter": "They",
+      "answer": "They did not come round to see us because the rain was very heavy.",
+      "answerZh": "他們因為雨勢很大,所以沒有到我們家。",
+      "highlight": "come round to see",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The child may become conscious again very soon.",
+      "promptZh": "那個孩子可能很快便會恢復知覺。",
+      "starter": "The",
+      "answer": "The child may come round very soon.",
+      "answerZh": "那個孩子可能很快便會恢復知覺。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The form was never passed to us, so our group could not sign it.",
+      "promptZh": "那份表格一直沒有傳到我們手上,所以我們那組無法簽名。",
+      "starter": "The",
+      "answer": "The form never came round, so our group could not sign it.",
+      "answerZh": "那份表格一直沒有傳到我們手上,所以我們那組無法簽名。",
+      "highlight": "came round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The runner was following the final curve when the crowd cheered.",
+      "promptZh": "跑手沿着最後一個彎位前進時,觀眾歡呼起來。",
+      "starter": "The",
+      "answer": "The runner was coming round the final bend when the crowd cheered.",
+      "answerZh": "跑手正駛過最後一個彎位時,觀眾歡呼起來。",
+      "highlight": "coming round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "經過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although Eva had not become conscious again yet, she was breathing normally.",
+      "promptZh": "雖然伊娃仍未恢復知覺,但她呼吸正常。",
+      "starter": "Although",
+      "answer": "Although Eva had not come round yet, she was breathing normally.",
+      "answerZh": "雖然伊娃仍未恢復知覺,但她呼吸正常。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Are your cousins visiting us at home this afternoon?",
+      "promptZh": "你的表兄弟姊妹今天下午會到我們家嗎?",
+      "starter": "Are",
+      "answer": "Are your cousins coming around this afternoon?",
+      "answerZh": "你的表兄弟姊妹今天下午會到我們家嗎?",
+      "highlight": "coming around",
+      "targetForm": "come around",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By lunchtime, the note had been passed to everyone in the office.",
+      "promptZh": "到午飯時間,那張字條已傳給辦公室內所有人。",
+      "starter": "By",
+      "answer": "By lunchtime, the note had come round the whole office.",
+      "answerZh": "到午飯時間,那張字條已在整間辦公室傳閱。",
+      "highlight": "come round",
+      "targetForm": "come round the office",
+      "targetMeaningZh": "在辦公室內傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We could visit you at home after the film if you are free.",
+      "promptZh": "如果你有空,我們可以看完電影後到你家。",
+      "starter": "We",
+      "answer": "We could come round after the film if you are free.",
+      "answerZh": "如果你有空,我們可以看完電影後到你家。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No one could see the bicycle until it turned the corner.",
+      "promptZh": "單車轉過街角前,沒有人看得見它。",
+      "starter": "No",
+      "answer": "No one could see the bicycle until it came round the corner.",
+      "answerZh": "單車轉過街角前,沒有人看得見它。",
+      "highlight": "came round",
+      "targetForm": "come round the corner",
+      "targetMeaningZh": "轉過街角"
+    },
+    {
+      "id": "phrasal-verb-188-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If he becomes conscious again before the doctor arrives, keep him still.",
+      "promptZh": "如果他在醫生到達前恢復知覺,請讓他保持不動。",
+      "starter": "If",
+      "answer": "If he comes round before the doctor arrives, keep him still.",
+      "answerZh": "如果他在醫生到達前恢復知覺,請讓他保持不動。",
+      "highlight": "comes round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The voting paper should be passed from person to person before the break.",
+      "promptZh": "小休前,那張投票紙應該會傳到各人手上。",
+      "starter": "The",
+      "answer": "The voting paper should come round before the break.",
+      "answerZh": "小休前,那張投票紙應該會傳到各人手上。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before you go home, visit us and see the new puppy.",
+      "promptZh": "你回家前,到我們家看看新小狗吧。",
+      "starter": "Before",
+      "answer": "Before you go home, come around and see the new puppy.",
+      "answerZh": "你回家前,到我們家看看新小狗吧。",
+      "highlight": "come around",
+      "targetForm": "come around",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As we turned at the bend in the path, the lake became visible.",
+      "promptZh": "我們轉過小路的彎位時,便看見了湖泊。",
+      "starter": "As",
+      "answer": "As we came round the bend, the lake became visible.",
+      "answerZh": "我們轉過小路的彎位時,便看見了湖泊。",
+      "highlight": "came round",
+      "targetForm": "come round the bend",
+      "targetMeaningZh": "轉過彎位"
+    },
+    {
+      "id": "phrasal-verb-188-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Jack said he would visit us at home at about six.",
+      "promptZh": "積克說他大約六時會到我們家。",
+      "starter": "Jack",
+      "answer": "Jack said he would come round at about six.",
+      "answerZh": "積克說他大約六時會到我們家。",
+      "highlight": "come round",
+      "targetForm": "come round",
+      "targetMeaningZh": "到某人家中短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-188-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "If the card is passed to you again, add your message below mine.",
+      "promptZh": "如果卡片再次傳到你手上,請在我的留言下面加上你的留言。",
+      "starter": "If",
+      "answer": "If the card comes round again, add your message below mine.",
+      "answerZh": "如果卡片再次傳到你手上,請在我的留言下面加上你的留言。",
+      "highlight": "comes round",
+      "targetForm": "come round",
+      "targetMeaningZh": "在眾人之間傳遞"
+    },
+    {
+      "id": "phrasal-verb-188-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The girl was becoming conscious again when her mother entered the room.",
+      "promptZh": "那個女孩的母親進入房間時,她正在恢復知覺。",
+      "starter": "The",
+      "answer": "The girl was coming round when her mother entered the room.",
+      "answerZh": "那個女孩的母親進入房間時,她正在恢復知覺。",
+      "highlight": "coming round",
+      "targetForm": "come round",
+      "targetMeaningZh": "恢復知覺;醒過來"
+    },
+    {
+      "id": "phrasal-verb-188-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The car had just turned the corner when the light changed.",
+      "promptZh": "汽車剛轉過街角,交通燈便轉了。",
+      "starter": "The",
+      "answer": "The car had just come round the corner when the light changed.",
+      "answerZh": "汽車剛轉過街角,交通燈便轉了。",
+      "highlight": "come round",
+      "targetForm": "come round the corner",
+      "targetMeaningZh": "轉過街角"
+    }
+  ]
+}

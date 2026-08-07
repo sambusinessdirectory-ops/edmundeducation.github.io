@@ -1,0 +1,1772 @@
+{
+  "id": "phrasal-verb-65",
+  "order": 65,
+  "slug": "weigh-and-weight",
+  "version": "1",
+  "title": "WEIGH AND WEIGHT 動詞片語",
+  "titleEn": "WEIGH and WEIGHT",
+  "titleZh": "WEIGH AND WEIGHT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 64 - WEIGH and WEIGHT.pdf",
+    "sourceNumber": 64,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WEIGH 及 WEIGHT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WEIGH and WEIGHT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WEIGH AND WEIGHT",
+      "highlight": "WEIGH AND WEIGHT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "His poor attendance may weigh against his application.",
+      "zh": "他出席率欠佳,可能會對他的申請不利。",
+      "highlight": "weigh against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Too many worries were weighing her down.",
+      "zh": "太多憂慮令她感到負擔沉重。",
+      "highlight": "weighing her down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Both boxers weighed in below the limit.",
+      "zh": "兩名拳手正式量度體重後,體重都低於上限。",
+      "highlight": "weighed in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對某人/某事物不利;降低成功機會(較正式)；令某人因責任、憂慮或壓力而感到負擔沉重；在拳擊、摔跤等比賽前正式量度體重；因重物而令某人/某物負重、下沉或難以移動；令某人掛心、憂慮或感到壓力;upon 較正式；按重量量出所需份量；仔細觀察某人並形成判斷；仔細考慮某事;把不同因素作比較；用重物壓住某物,使它不會移動",
+    "en": "weigh against somebody/something; weigh somebody down (with something); weigh in; weigh somebody/something down (with something); weigh on somebody/something / weigh upon somebody/something; weigh something out; weigh somebody up; weigh something up (against something); weight something down (with something)",
+    "naturalZh": [
+      "對某人/某事物不利;降低成功機會(較正式)",
+      "令某人因責任、憂慮或壓力而感到負擔沉重",
+      "在拳擊、摔跤等比賽前正式量度體重",
+      "因重物而令某人/某物負重、下沉或難以移動",
+      "令某人掛心、憂慮或感到壓力;upon 較正式",
+      "按重量量出所需份量",
+      "仔細觀察某人並形成判斷",
+      "仔細考慮某事;把不同因素作比較",
+      "用重物壓住某物,使它不會移動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "weigh against somebody/something",
+      "titleZh": "對某人/某事物不利;降低成功機會(較正式)",
+      "titleEn": "weigh against somebody/something",
+      "descriptionZh": "對某人/某事物不利;降低成功機會(較正式)",
+      "descriptionEn": "His poor attendance may weigh against his application.",
+      "examples": [
+        {
+          "en": "His poor attendance may weigh against his application.",
+          "zh": "他出席率欠佳,可能會對他的申請不利。",
+          "highlight": "weigh against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "weigh somebody down (with something)",
+      "titleZh": "令某人因責任、憂慮或壓力而感到負擔沉重",
+      "titleEn": "weigh somebody down (with something)",
+      "descriptionZh": "令某人因責任、憂慮或壓力而感到負擔沉重",
+      "descriptionEn": "Too many worries were weighing her down.",
+      "examples": [
+        {
+          "en": "Too many worries were weighing her down.",
+          "zh": "太多憂慮令她感到負擔沉重。",
+          "highlight": "weighing her down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "weigh in",
+      "titleZh": "在拳擊、摔跤等比賽前正式量度體重",
+      "titleEn": "weigh in",
+      "descriptionZh": "在拳擊、摔跤等比賽前正式量度體重",
+      "descriptionEn": "Both boxers weighed in below the limit.",
+      "examples": [
+        {
+          "en": "Both boxers weighed in below the limit.",
+          "zh": "兩名拳手正式量度體重後,體重都低於上限。",
+          "highlight": "weighed in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "weigh somebody/something down (with something)",
+      "titleZh": "因重物而令某人/某物負重、下沉或難以移動",
+      "titleEn": "weigh somebody/something down (with something)",
+      "descriptionZh": "因重物而令某人/某物負重、下沉或難以移動",
+      "descriptionEn": "We were weighed down with shopping bags.",
+      "examples": [
+        {
+          "en": "We were weighed down with shopping bags.",
+          "zh": "我們被購物袋壓得負重難行。",
+          "highlight": "weighed down with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "weigh on somebody/something / weigh upon somebody/something",
+      "titleZh": "令某人掛心、憂慮或感到壓力;upon 較正式",
+      "titleEn": "weigh on somebody/something / weigh upon somebody/something",
+      "descriptionZh": "令某人掛心、憂慮或感到壓力;upon 較正式",
+      "descriptionEn": "The unfinished work was weighing on him.",
+      "examples": [
+        {
+          "en": "The unfinished work was weighing on him.",
+          "zh": "未完成的工作一直令他掛心。",
+          "highlight": "weighing on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "weigh something out",
+      "titleZh": "按重量量出所需份量",
+      "titleEn": "weigh something out",
+      "descriptionZh": "按重量量出所需份量",
+      "descriptionEn": "Weigh out 200 grams of flour.",
+      "examples": [
+        {
+          "en": "Weigh out 200 grams of flour.",
+          "zh": "量出二百克麵粉。",
+          "highlight": "Weigh out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "weigh somebody up",
+      "titleZh": "仔細觀察某人並形成判斷",
+      "titleEn": "weigh somebody up",
+      "descriptionZh": "仔細觀察某人並形成判斷",
+      "descriptionEn": "The interviewer quietly weighed him up.",
+      "examples": [
+        {
+          "en": "The interviewer quietly weighed him up.",
+          "zh": "訪問員靜靜地打量他。",
+          "highlight": "weighed him up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "weigh something up (against something)",
+      "titleZh": "仔細考慮某事;把不同因素作比較",
+      "titleEn": "weigh something up (against something)",
+      "descriptionZh": "仔細考慮某事;把不同因素作比較",
+      "descriptionEn": "She weighed up the benefits against the cost.",
+      "examples": [
+        {
+          "en": "She weighed up the benefits against the cost.",
+          "zh": "她仔細權衡好處和費用。",
+          "highlight": "weighed up the benefits against"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "weight something down (with something)",
+      "titleZh": "用重物壓住某物,使它不會移動",
+      "titleEn": "weight something down (with something)",
+      "descriptionZh": "用重物壓住某物,使它不會移動",
+      "descriptionEn": "We weighted the cover down with stones.",
+      "examples": [
+        {
+          "en": "We weighted the cover down with stones.",
+          "zh": "我們用石頭壓住蓋布。",
+          "highlight": "weighted the cover down with"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WEIGH AND WEIGHT 片語動詞的實際用途",
+    "labelEn": "WEIGH AND WEIGHT Phrasal Verbs in Use",
+    "summaryZh": "weigh something up 可以表示仔細考慮一個選擇;weigh one thing against another 則可以表示在決定前比較兩方面。；weigh against somebody or something 可以指出一項對某人或某個計劃不利、降低成功機會的因素。；weigh on somebody 和 weigh somebody down 可以描述令人掛心、受壓或感到負擔沉重的事情。；weigh out 常用於烹飪;weigh in 用於部分運動比賽前的正式量重;weight somethingdown 則表示用重物把某物固定。",
+    "summaryEn": "Weigh something up helps you consider a choice carefully. Weigh one thing against another helps you compare two sides before deciding. Weigh against somebody or something lets you identify a fact that reduces a person’s or plan’s chance of success. Weigh on somebody and weigh somebody down help you describe worries, pressure and responsibilities that feel mentally heavy. Weigh out is useful in cooking, weigh in is used before some sports competitions, and weight something down explains how a heavy object keeps something in place.",
+    "contextsZh": [
+      "仔細作出決定",
+      "解釋某事為何可能不成功",
+      "談論憂慮和沉重責任",
+      "談論準確重量和實際重量"
+    ],
+    "contextsEn": [
+      "Make careful decisions",
+      "Explain why something may not succeed",
+      "Talk about worries and heavy responsibilities",
+      "Talk about exact weight and physical heaviness"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WEIGH 或 WEIGHT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WEIGH or WEIGHT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "weigh against somebody/something",
+    "fixedHighlight": "weigh against somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 WEIGH 或 WEIGHT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WEIGH or WEIGHT expression that gives the same meaning.",
+    "correct": "weigh against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；括號內的字詞只提供額外資料。weigh somebody down、weigh something up 和 weightsomething down 本身已是完整的核心表達。with heavy bags 和 against the cost 只是補充負擔來源或比較對象。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Words in brackets add optional information. The core expressions are already complete without them: weigh somebody down weigh something up weight something down For example, with heavy bags and against the cost explain the burden or comparison, but they are not compulsory parts of the core expression. When using him, her, it or them, follow these models: weigh him down weigh it out weigh her up weight it down",
+    "variableItemsZh": [
+      "weigh against somebody/something",
+      "weigh somebody down (with something)",
+      "weigh in",
+      "weigh somebody/something down (with something)",
+      "weigh on somebody/something / weigh upon somebody/something",
+      "weigh something out",
+      "weigh somebody up",
+      "weigh something up (against something)",
+      "weight something down (with something)"
+    ],
+    "variableItemsEn": [
+      "weigh against somebody/something",
+      "weigh somebody down (with something)",
+      "weigh in",
+      "weigh somebody/something down (with something)",
+      "weigh on somebody/something / weigh upon somebody/something",
+      "weigh something out",
+      "weigh somebody up",
+      "weigh something up (against something)",
+      "weight something down (with something)"
+    ],
+    "forms": [
+      {
+        "formZh": "對某人/某事物不利;降低成功機會(較正式)",
+        "formEn": "weigh against somebody/something",
+        "exampleZh": "他出席率欠佳,可能會對他的申請不利。",
+        "exampleEn": "His poor attendance may weigh against his application.",
+        "highlight": "weigh against"
+      },
+      {
+        "formZh": "令某人因責任、憂慮或壓力而感到負擔沉重",
+        "formEn": "weigh somebody down (with something)",
+        "exampleZh": "太多憂慮令她感到負擔沉重。",
+        "exampleEn": "Too many worries were weighing her down.",
+        "highlight": "weighing her down"
+      },
+      {
+        "formZh": "在拳擊、摔跤等比賽前正式量度體重",
+        "formEn": "weigh in",
+        "exampleZh": "兩名拳手正式量度體重後,體重都低於上限。",
+        "exampleEn": "Both boxers weighed in below the limit.",
+        "highlight": "weighed in"
+      },
+      {
+        "formZh": "因重物而令某人/某物負重、下沉或難以移動",
+        "formEn": "weigh somebody/something down (with something)",
+        "exampleZh": "我們被購物袋壓得負重難行。",
+        "exampleEn": "We were weighed down with shopping bags.",
+        "highlight": "weighed down with"
+      },
+      {
+        "formZh": "令某人掛心、憂慮或感到壓力;upon 較正式",
+        "formEn": "weigh on somebody/something / weigh upon somebody/something",
+        "exampleZh": "未完成的工作一直令他掛心。",
+        "exampleEn": "The unfinished work was weighing on him.",
+        "highlight": "weighing on"
+      },
+      {
+        "formZh": "按重量量出所需份量",
+        "formEn": "weigh something out",
+        "exampleZh": "量出二百克麵粉。",
+        "exampleEn": "Weigh out 200 grams of flour.",
+        "highlight": "Weigh out"
+      },
+      {
+        "formZh": "仔細觀察某人並形成判斷",
+        "formEn": "weigh somebody up",
+        "exampleZh": "訪問員靜靜地打量他。",
+        "exampleEn": "The interviewer quietly weighed him up.",
+        "highlight": "weighed him up"
+      },
+      {
+        "formZh": "仔細考慮某事;把不同因素作比較",
+        "formEn": "weigh something up (against something)",
+        "exampleZh": "她仔細權衡好處和費用。",
+        "exampleEn": "She weighed up the benefits against the cost.",
+        "highlight": "weighed up the benefits against"
+      },
+      {
+        "formZh": "用重物壓住某物,使它不會移動",
+        "formEn": "weight something down (with something)",
+        "exampleZh": "我們用石頭壓住蓋布。",
+        "exampleEn": "We weighted the cover down with stones.",
+        "highlight": "weighted the cover down with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對某人/某事物不利;降低成功機會(較正式)",
+      "titleEn": "weigh against somebody/something",
+      "formula": "weigh against somebody/something",
+      "highlight": "weigh against somebody/something",
+      "descriptionZh": "對某人/某事物不利;降低成功機會(較正式)",
+      "descriptionEn": "His poor attendance may weigh against his application.",
+      "examples": [
+        {
+          "en": "His poor attendance may weigh against his application.",
+          "zh": "他出席率欠佳,可能會對他的申請不利。",
+          "highlight": "weigh against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "令某人因責任、憂慮或壓力而感到負擔沉重",
+      "titleEn": "weigh somebody down (with something)",
+      "formula": "weigh somebody down (with something)",
+      "highlight": "weigh somebody down (with something)",
+      "descriptionZh": "令某人因責任、憂慮或壓力而感到負擔沉重",
+      "descriptionEn": "Too many worries were weighing her down.",
+      "examples": [
+        {
+          "en": "Too many worries were weighing her down.",
+          "zh": "太多憂慮令她感到負擔沉重。",
+          "highlight": "weighing her down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在拳擊、摔跤等比賽前正式量度體重",
+      "titleEn": "weigh in",
+      "formula": "weigh in",
+      "highlight": "weigh in",
+      "descriptionZh": "在拳擊、摔跤等比賽前正式量度體重",
+      "descriptionEn": "Both boxers weighed in below the limit.",
+      "examples": [
+        {
+          "en": "Both boxers weighed in below the limit.",
+          "zh": "兩名拳手正式量度體重後,體重都低於上限。",
+          "highlight": "weighed in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "因重物而令某人/某物負重、下沉或難以移動",
+      "titleEn": "weigh somebody/something down (with something)",
+      "formula": "weigh somebody/something down (with something)",
+      "highlight": "weigh somebody/something down (with something)",
+      "descriptionZh": "因重物而令某人/某物負重、下沉或難以移動",
+      "descriptionEn": "We were weighed down with shopping bags.",
+      "examples": [
+        {
+          "en": "We were weighed down with shopping bags.",
+          "zh": "我們被購物袋壓得負重難行。",
+          "highlight": "weighed down with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "令某人掛心、憂慮或感到壓力;upon 較正式",
+      "titleEn": "weigh on somebody/something / weigh upon somebody/something",
+      "formula": "weigh on somebody/something / weigh upon somebody/something",
+      "highlight": "weigh on somebody/something / weigh upon somebody/something",
+      "descriptionZh": "令某人掛心、憂慮或感到壓力;upon 較正式",
+      "descriptionEn": "The unfinished work was weighing on him.",
+      "examples": [
+        {
+          "en": "The unfinished work was weighing on him.",
+          "zh": "未完成的工作一直令他掛心。",
+          "highlight": "weighing on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "按重量量出所需份量",
+      "titleEn": "weigh something out",
+      "formula": "weigh something out",
+      "highlight": "weigh something out",
+      "descriptionZh": "按重量量出所需份量",
+      "descriptionEn": "Weigh out 200 grams of flour.",
+      "examples": [
+        {
+          "en": "Weigh out 200 grams of flour.",
+          "zh": "量出二百克麵粉。",
+          "highlight": "Weigh out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "仔細觀察某人並形成判斷",
+      "titleEn": "weigh somebody up",
+      "formula": "weigh somebody up",
+      "highlight": "weigh somebody up",
+      "descriptionZh": "仔細觀察某人並形成判斷",
+      "descriptionEn": "The interviewer quietly weighed him up.",
+      "examples": [
+        {
+          "en": "The interviewer quietly weighed him up.",
+          "zh": "訪問員靜靜地打量他。",
+          "highlight": "weighed him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "仔細考慮某事;把不同因素作比較",
+      "titleEn": "weigh something up (against something)",
+      "formula": "weigh something up (against something)",
+      "highlight": "weigh something up (against something)",
+      "descriptionZh": "仔細考慮某事;把不同因素作比較",
+      "descriptionEn": "She weighed up the benefits against the cost.",
+      "examples": [
+        {
+          "en": "She weighed up the benefits against the cost.",
+          "zh": "她仔細權衡好處和費用。",
+          "highlight": "weighed up the benefits against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "用重物壓住某物,使它不會移動",
+      "titleEn": "weight something down (with something)",
+      "formula": "weight something down (with something)",
+      "highlight": "weight something down (with something)",
+      "descriptionZh": "用重物壓住某物,使它不會移動",
+      "descriptionEn": "We weighted the cover down with stones.",
+      "examples": [
+        {
+          "en": "We weighted the cover down with stones.",
+          "zh": "我們用石頭壓住蓋布。",
+          "highlight": "weighted the cover down with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "仔細作出決定",
+      "titleEn": "Make careful decisions",
+      "zh": "weigh something up 可以表示仔細考慮一個選擇;weigh one thing against another 則可以表示在決定前比較兩方面。",
+      "en": "Weigh something up helps you consider a choice carefully. Weigh one thing against another helps you compare two sides before deciding."
+    },
+    {
+      "titleZh": "解釋某事為何可能不成功",
+      "titleEn": "Explain why something may not succeed",
+      "zh": "weigh against somebody or something 可以指出一項對某人或某個計劃不利、降低成功機會的因素。",
+      "en": "Weigh against somebody or something lets you identify a fact that reduces a person’s or plan’s chance of success."
+    },
+    {
+      "titleZh": "談論憂慮和沉重責任",
+      "titleEn": "Talk about worries and heavy responsibilities",
+      "zh": "weigh on somebody 和 weigh somebody down 可以描述令人掛心、受壓或感到負擔沉重的事情。",
+      "en": "Weigh on somebody and weigh somebody down help you describe worries, pressure and responsibilities that feel mentally heavy."
+    },
+    {
+      "titleZh": "談論準確重量和實際重量",
+      "titleEn": "Talk about exact weight and physical heaviness",
+      "zh": "weigh out 常用於烹飪;weigh in 用於部分運動比賽前的正式量重;weight somethingdown 則表示用重物把某物固定。",
+      "en": "Weigh out is useful in cooking, weigh in is used before some sports competitions, and weight something down explains how a heavy object keeps something in place."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "仔細作出決定",
+      "解釋某事為何可能不成功",
+      "談論憂慮和沉重責任",
+      "談論準確重量和實際重量"
+    ],
+    "contextsEn": [
+      "Make careful decisions",
+      "Explain why something may not succeed",
+      "Talk about worries and heavy responsibilities",
+      "Talk about exact weight and physical heaviness"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "仔細作出決定",
+        "titleEn": "Make careful decisions",
+        "zh": "weigh something up 可以表示仔細考慮一個選擇;weigh one thing against another 則可以表示在決定前比較兩方面。",
+        "en": "Weigh something up helps you consider a choice carefully. Weigh one thing against another helps you compare two sides before deciding.",
+        "examples": [
+          {
+            "en": "His poor attendance may weigh against his application.",
+            "zh": "他出席率欠佳,可能會對他的申請不利。",
+            "highlight": "weigh against"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋某事為何可能不成功",
+        "titleEn": "Explain why something may not succeed",
+        "zh": "weigh against somebody or something 可以指出一項對某人或某個計劃不利、降低成功機會的因素。",
+        "en": "Weigh against somebody or something lets you identify a fact that reduces a person’s or plan’s chance of success.",
+        "examples": [
+          {
+            "en": "Too many worries were weighing her down.",
+            "zh": "太多憂慮令她感到負擔沉重。",
+            "highlight": "weighing her down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論憂慮和沉重責任",
+        "titleEn": "Talk about worries and heavy responsibilities",
+        "zh": "weigh on somebody 和 weigh somebody down 可以描述令人掛心、受壓或感到負擔沉重的事情。",
+        "en": "Weigh on somebody and weigh somebody down help you describe worries, pressure and responsibilities that feel mentally heavy.",
+        "examples": [
+          {
+            "en": "Both boxers weighed in below the limit.",
+            "zh": "兩名拳手正式量度體重後,體重都低於上限。",
+            "highlight": "weighed in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論準確重量和實際重量",
+        "titleEn": "Talk about exact weight and physical heaviness",
+        "zh": "weigh out 常用於烹飪;weigh in 用於部分運動比賽前的正式量重;weight somethingdown 則表示用重物把某物固定。",
+        "en": "Weigh out is useful in cooking, weigh in is used before some sports competitions, and weight something down explains how a heavy object keeps something in place.",
+        "examples": [
+          {
+            "en": "We were weighed down with shopping bags.",
+            "zh": "我們被購物袋壓得負重難行。",
+            "highlight": "weighed down with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WEIGH 或 WEIGHT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WEIGH or WEIGHT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WEIGH 或 WEIGHT 片語動詞。",
+      "en": "Read the whole sentence and choose the WEIGH or WEIGHT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "括號內的字詞只提供額外資料。weigh somebody down、weigh something up 和 weightsomething down 本身已是完整的核心表達。with heavy bags 和 against the cost 只是補充負擔來源或比較對象。",
+      "titleEn": "Words in brackets add optional information.",
+      "zh": "括號內的字詞只提供額外資料。weigh somebody down、weigh something up 和 weightsomething down 本身已是完整的核心表達。with heavy bags 和 against the cost 只是補充負擔來源或比較對象。",
+      "en": "Words in brackets add optional information. The core expressions are already complete without them: weigh somebody down weigh something up weight something down For example, with heavy bags and against the cost explain the burden or comparison, but they are not compulsory parts of the core expression."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these models: weigh him down weigh it out weigh her up weight it down.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these models: weigh him down weigh it out weigh her up weight it down"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WEIGH AND WEIGHT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WEIGH AND WEIGHT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WEIGH AND WEIGHT 動詞片語句子改寫練習",
+    "titleEn": "WEIGH AND WEIGHT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WEIGH AND WEIGHT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WEIGH AND WEIGHT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-65-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The baker measured 500 grams of flour by weight.",
+      "promptZh": "麵包師按重量量了五百克麵粉。",
+      "starter": "The",
+      "answer": "The baker weighed out 500 grams of flour.",
+      "answerZh": "麵包師量出了五百克麵粉。",
+      "highlight": "weighed out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "His poor attendance may make his application less likely to succeed.",
+      "promptZh": "他出席率欠佳,可能會降低申請成功的機會。",
+      "starter": "His",
+      "answer": "His poor attendance may weigh against his application.",
+      "answerZh": "他出席率欠佳,可能會對他的申請不利。",
+      "highlight": "weigh against",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Both boxers had their official weights checked and were below the limit.",
+      "promptZh": "兩名拳手正式量度體重後,體重都低於上限。",
+      "starter": "Both",
+      "answer": "Both boxers weighed in below the limit.",
+      "answerZh": "兩名拳手正式量度體重後,體重都低於上限。",
+      "highlight": "weighed in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The unfinished homework stayed in Daniel’s mind and worried him.",
+      "promptZh": "未完成的功課一直留在丹尼爾心裏,令他擔心。",
+      "starter": "The",
+      "answer": "The unfinished homework was weighing on Daniel.",
+      "answerZh": "未完成的功課一直令丹尼爾掛心。",
+      "highlight": "was weighing on Daniel",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We carefully considered the advantages and disadvantages before deciding.",
+      "promptZh": "我們作決定前,仔細考慮了各項好處和壞處。",
+      "starter": "We",
+      "answer": "We weighed up the advantages and disadvantages before deciding.",
+      "answerZh": "我們作決定前,仔細權衡了各項好處和壞處。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up",
+      "targetMeaningZh": "仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-65-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We could hardly walk because we were carrying many heavy shopping bags.",
+      "promptZh": "我們提着很多沉重的購物袋,幾乎走不動。",
+      "starter": "We",
+      "answer": "We were weighed down with heavy shopping bags.",
+      "answerZh": "我們被沉重的購物袋壓得幾乎走不動。",
+      "highlight": "weighed down with",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Too many responsibilities were making Nora feel tired and burdened.",
+      "promptZh": "太多責任令諾拉感到疲累,負擔沉重。",
+      "starter": "Too",
+      "answer": "Too many responsibilities were weighing Nora down.",
+      "answerZh": "太多責任令諾拉感到負擔沉重。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The coach quietly studied the new player before deciding what he could do.",
+      "promptZh": "教練在決定這名新球員的能力前,靜靜地觀察他。",
+      "starter": "The",
+      "answer": "The coach quietly weighed the new player up before deciding what he could do.",
+      "answerZh": "教練在決定這名新球員的能力前,靜靜地打量他。",
+      "highlight": "weighed",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "They placed stones on the sheet to stop it blowing away.",
+      "promptZh": "他們把石頭放在帆布上,免得它被風吹走。",
+      "starter": "They",
+      "answer": "They weighted the sheet down with stones.",
+      "answerZh": "他們用石頭壓住帆布,免得它被風吹走。",
+      "highlight": "weighted",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The missing document could make the judges less likely to choose the company.",
+      "promptZh": "缺少的文件可能令評審較不願意選擇這間公司。",
+      "starter": "The",
+      "answer": "The missing document could weigh against the company when the judges decide.",
+      "answerZh": "評審作決定時,缺少的文件可能對這間公司不利。",
+      "highlight": "weigh against the company when",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Please measure 200 grams of sugar by weight.",
+      "promptZh": "請按重量量出二百克糖。",
+      "starter": "Please",
+      "answer": "Please weigh out 200 grams of sugar.",
+      "answerZh": "請量出二百克糖。",
+      "highlight": "weigh out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The argument continued to trouble her mind.",
+      "promptZh": "那場爭執繼續困擾着她。",
+      "starter": "The",
+      "answer": "The argument continued to weigh on her.",
+      "answerZh": "那場爭執繼續令她掛心。",
+      "highlight": "weigh on",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Money worries were making him feel heavily burdened.",
+      "promptZh": "金錢問題令他感到負擔沉重。",
+      "starter": "Money",
+      "answer": "Money worries were weighing him down.",
+      "answerZh": "金錢問題令他感到負擔沉重。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She carefully considered the job offer before replying.",
+      "promptZh": "她回覆前仔細考慮了那份工作邀請。",
+      "starter": "She",
+      "answer": "She weighed the job offer up before replying.",
+      "answerZh": "她回覆前仔細考慮了那份工作邀請。",
+      "highlight": "weighed",
+      "targetForm": "weigh something up",
+      "targetMeaningZh": "仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-65-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The long hours are beginning to make him feel tired and burdened.",
+      "promptZh": "長時間工作開始令他感到疲累,負擔沉重。",
+      "starter": "The",
+      "answer": "The long hours are beginning to weigh him down.",
+      "answerZh": "長時間工作開始令他感到負擔沉重。",
+      "highlight": "weigh",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Have you carefully considered both choices?",
+      "promptZh": "你有沒有仔細考慮兩個選擇?",
+      "starter": "Have",
+      "answer": "Have you weighed up both choices?",
+      "answerZh": "你有沒有仔細考慮兩個選擇?",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up",
+      "targetMeaningZh": "仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-65-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The hikers were finding it hard to move because their clothes were wet and heavy.",
+      "promptZh": "遠足者的衣服又濕又重,令他們難以移動。",
+      "starter": "The",
+      "answer": "The wet clothes were weighing the hikers down.",
+      "answerZh": "濕重的衣服令遠足者難以移動。",
+      "highlight": "The wet clothes were weighing",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Her lack of training will make the selectors less likely to choose her.",
+      "promptZh": "她缺乏訓練,會令評選人員較不願意選她。",
+      "starter": "Her",
+      "answer": "Her lack of training will weigh against her.",
+      "answerZh": "她缺乏訓練,會對她不利。",
+      "highlight": "weigh against",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I am measuring the rice by weight now.",
+      "promptZh": "我現在正按重量量米。",
+      "starter": "I",
+      "answer": "I am weighing out the rice now.",
+      "answerZh": "我現在正量出所需的米。",
+      "highlight": "weighing out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The fighters will have their official weights checked tomorrow morning.",
+      "promptZh": "拳手明早會正式量度體重。",
+      "starter": "The",
+      "answer": "The fighters will weigh in tomorrow morning.",
+      "answerZh": "拳手明早會正式量度體重。",
+      "highlight": "weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Is the exam still staying in your mind and making you worried?",
+      "promptZh": "考試仍然留在你心裏,令你擔心嗎?",
+      "starter": "Is",
+      "answer": "Is the exam still weighing on you?",
+      "answerZh": "考試仍然令你掛心嗎?",
+      "highlight": "weighing on",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The manager has been studying the applicants carefully and will choose one soon.",
+      "promptZh": "經理一直仔細觀察申請人,並會很快選出一人。",
+      "starter": "The",
+      "answer": "The manager has been weighing the applicants up and will choose one soon.",
+      "answerZh": "經理一直在評估申請人,並會很快選出一人。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "We need to use sandbags to keep the tent in place before the wind gets stronger.",
+      "promptZh": "我們需要用沙包固定帳篷,免得風勢增強時帳篷移動。",
+      "starter": "We",
+      "answer": "We need to weight the tent down with sandbags before the wind gets stronger.",
+      "answerZh": "我們需要用沙包壓住帳篷,免得風勢增強時帳篷移動。",
+      "highlight": "weight",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the boxer have his official weight checked so early?",
+      "promptZh": "為甚麼那名拳手這麼早正式量度體重?",
+      "starter": "Why",
+      "answer": "Why did the boxer weigh in so early?",
+      "answerZh": "為甚麼那名拳手這麼早正式量度體重?",
+      "highlight": "weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She had measured all the ingredients by weight before lunch.",
+      "promptZh": "她在午飯前已按重量量好所有材料。",
+      "starter": "She",
+      "answer": "She had weighed out all the ingredients before lunch.",
+      "answerZh": "她在午飯前已量好所有材料。",
+      "highlight": "weighed out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The small child struggled because he was carrying two large bags.",
+      "promptZh": "那個小孩提着兩個大袋,走得很吃力。",
+      "starter": "Two",
+      "answer": "Two large bags weighed the small child down.",
+      "answerZh": "兩個大袋令那個小孩負重難行。",
+      "highlight": "Two large bags weighed",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Are they studying us carefully before the interview?",
+      "promptZh": "他們在面試前正仔細觀察我們嗎?",
+      "starter": "Are",
+      "answer": "Are they weighing us up before the interview?",
+      "answerZh": "他們在面試前正評估我們嗎?",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Four cups were placed at the corners of the tablecloth to stop it moving.",
+      "promptZh": "四隻杯放在桌布四角,防止桌布移動。",
+      "starter": "The",
+      "answer": "The tablecloth was weighted down at the corners with four cups.",
+      "answerZh": "桌布四角用四隻杯壓住。",
+      "highlight": "The tablecloth was weighted down",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The interviewer asked a few questions while she studied him carefully.",
+      "promptZh": "訪問員一邊問了幾個問題,一邊仔細觀察他。",
+      "starter": "The",
+      "answer": "The interviewer asked a few questions while she weighed him up.",
+      "answerZh": "訪問員一邊問了幾個問題,一邊評估他。",
+      "highlight": "weighed",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Although he interviewed well, the missing certificate may reduce his chance of success.",
+      "promptZh": "雖然他面試表現良好,但缺少的證書可能會降低他的成功機會。",
+      "starter": "Although",
+      "answer": "Although he interviewed well, the missing certificate may weigh against him.",
+      "answerZh": "雖然他面試表現良好,但缺少的證書可能對他不利。",
+      "highlight": "weigh against him",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After the walk, we arrived carrying wet coats and bags that made us move slowly.",
+      "promptZh": "步行後,我們到達時帶着濕外套和袋子,走得很慢。",
+      "starter": "After",
+      "answer": "After the walk, we arrived weighed down with wet coats and bags.",
+      "answerZh": "步行後,我們到達時被濕外套和袋子壓得步履緩慢。",
+      "highlight": "weighed down with",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The recipe needs 300 grams of flour, so measure it by weight carefully.",
+      "promptZh": "食譜需要三百克麵粉,所以請仔細按重量量出。",
+      "starter": "The",
+      "answer": "The recipe needs 300 grams of flour, so weigh it out carefully.",
+      "answerZh": "食譜需要三百克麵粉,所以請仔細把它量出來。",
+      "highlight": "weigh",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Do not let other people’s problems make you feel heavily burdened.",
+      "promptZh": "不要讓別人的問題令你感到負擔沉重。",
+      "starter": "Do",
+      "answer": "Do not let other people’s problems weigh you down.",
+      "answerZh": "不要讓別人的問題令你感到負擔沉重。",
+      "highlight": "weigh",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The family compared the lower rent with the longer journey before deciding.",
+      "promptZh": "這家人在作決定前,把較低租金和較長路程作比較。",
+      "starter": "The",
+      "answer": "The family weighed up the lower rent against the longer journey before deciding.",
+      "answerZh": "這家人在作決定前,仔細權衡較低租金和較長路程。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up against something",
+      "targetMeaningZh": "把兩者作比較後考慮"
+    },
+    {
+      "id": "phrasal-verb-65-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The mistake had troubled his mind for weeks.",
+      "promptZh": "那個錯誤已困擾他數星期。",
+      "starter": "The",
+      "answer": "The mistake had weighed upon him for weeks.",
+      "answerZh": "那個錯誤已令他掛心數星期。",
+      "highlight": "weighed upon him",
+      "targetForm": "weigh upon somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮;較正式"
+    },
+    {
+      "id": "phrasal-verb-65-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Before the competition, every fighter must have an official weight check at the sports centre.",
+      "promptZh": "比賽前,每名拳手都必須在體育中心正式量度體重。",
+      "starter": "Before",
+      "answer": "Before the competition, every fighter must weigh in at the sports centre.",
+      "answerZh": "比賽前,每名拳手都必須在體育中心正式量度體重。",
+      "highlight": "weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "To stop the paper moving, the teacher put a book on it.",
+      "promptZh": "為了防止紙張移動,老師在上面放了一本書。",
+      "starter": "To",
+      "answer": "To stop the paper moving, the teacher weighted it down with a book.",
+      "answerZh": "為了防止紙張移動,老師用一本書把它壓住。",
+      "highlight": "weighted it down with",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The late payment may make the bank less likely to accept the shop’s request for help.",
+      "promptZh": "遲交款項可能令銀行較不願意接受店舖的求助申請。",
+      "starter": "The",
+      "answer": "The late payment may weigh against the shop’s request for help.",
+      "answerZh": "遲交款項可能會對店舖的求助申請不利。",
+      "highlight": "weigh against",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Their boat sat low in the water because it carried too much equipment.",
+      "promptZh": "他們的船載着太多裝備,因此在水中下沉得很低。",
+      "starter": "Too",
+      "answer": "Too much equipment was weighing their boat down.",
+      "answerZh": "太多裝備令他們的船負重下沉。",
+      "highlight": "was weighing their boat down",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "She had so much work that it began to make her feel unable to cope.",
+      "promptZh": "她有太多工作,開始令她覺得難以應付。",
+      "starter": "She",
+      "answer": "She had so much work that it began to weigh her down.",
+      "answerZh": "她工作太多,開始令她感到負擔沉重。",
+      "highlight": "weigh",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Before saying yes, he compared the extra pay with the need to work at weekends.",
+      "promptZh": "答應前,他把額外薪金和週末工作作比較。",
+      "starter": "Before",
+      "answer": "Before saying yes, he weighed up the extra pay against the weekend work.",
+      "answerZh": "答應前,他仔細權衡額外薪金和週末工作。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up against something",
+      "targetMeaningZh": "把兩者作比較後考慮"
+    },
+    {
+      "id": "phrasal-verb-65-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The need to apologise was still troubling Laura’s mind.",
+      "promptZh": "需要道歉這件事仍然困擾着蘿拉。",
+      "starter": "The",
+      "answer": "The need to apologise was still weighing on Laura.",
+      "answerZh": "需要道歉這件事仍然令蘿拉掛心。",
+      "highlight": "weighing on Laura",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The official asked each wrestler to have an official weight check before breakfast.",
+      "promptZh": "工作人員要求每名摔跤選手在早餐前正式量度體重。",
+      "starter": "The",
+      "answer": "The official asked each wrestler to weigh in before breakfast.",
+      "answerZh": "工作人員要求每名摔跤選手在早餐前正式量度體重。",
+      "highlight": "weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Rather than decide quickly, we carefully considered the cost, time and likely result.",
+      "promptZh": "與其匆忙決定,我們仔細考慮了費用、時間和可能的結果。",
+      "starter": "Rather",
+      "answer": "Rather than decide quickly, we weighed up the cost, time and likely result.",
+      "answerZh": "與其匆忙決定,我們仔細考慮了費用、時間和可能的結果。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up",
+      "targetMeaningZh": "仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-65-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "After reading the recipe twice, Ken measured the butter by weight in small amounts.",
+      "promptZh": "肯把食譜看了兩次後,把牛油分成小份按重量量好。",
+      "starter": "After",
+      "answer": "After reading the recipe twice, Ken weighed the butter out in small amounts.",
+      "answerZh": "肯把食譜看了兩次後,把牛油分成小份量好。",
+      "highlight": "weighed",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "His strong references may help, but the long break from work could lower his chance of being chosen.",
+      "promptZh": "他的推薦信很有力,可能有幫助,但長時間沒有工作可能會降低他獲選的機會。",
+      "starter": "His",
+      "answer": "His strong references may help, but the long break from work could weigh against him.",
+      "answerZh": "他的推薦信很有力,可能有幫助,但長時間沒有工作可能會對他不利。",
+      "highlight": "weigh against him",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The workers used bags of sand to stop the outdoor signs falling over.",
+      "promptZh": "工人用沙包防止戶外告示牌倒下。",
+      "starter": "The",
+      "answer": "The workers weighted the outdoor signs down with bags of sand.",
+      "answerZh": "工人用沙包壓住戶外告示牌,防止它們倒下。",
+      "highlight": "weighted the outdoor signs down with",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Nothing was wrong at home, but the unanswered message kept troubling Priya’s mind.",
+      "promptZh": "家裏沒有出問題,但那則未獲回覆的訊息一直困擾普里雅。",
+      "starter": "Nothing",
+      "answer": "Nothing was wrong at home, but the unanswered message was weighing on Priya.",
+      "answerZh": "家裏沒有出問題,但那則未獲回覆的訊息一直令普里雅掛心。",
+      "highlight": "was weighing on Priya",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Caring for everyone else had slowly made the nurse feel exhausted and burdened.",
+      "promptZh": "一直照顧其他人,慢慢令那名護士筋疲力盡、負擔沉重。",
+      "starter": "Caring",
+      "answer": "Caring for everyone else had slowly weighed the nurse down.",
+      "answerZh": "一直照顧其他人,慢慢令那名護士感到負擔沉重。",
+      "highlight": "weighed",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The postman climbed the hill slowly because he was carrying many parcels.",
+      "promptZh": "郵差因攜帶許多包裹而慢慢爬上山。",
+      "starter": "The",
+      "answer": "The postman climbed the hill, weighed down with parcels.",
+      "answerZh": "郵差帶着許多包裹,負重爬上山。",
+      "highlight": "weighed down with",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "During the first meeting, the team leader carefully judged each volunteer.",
+      "promptZh": "第一次見面時,隊長仔細判斷每名義工。",
+      "starter": "During",
+      "answer": "During the first meeting, the team leader weighed each volunteer up.",
+      "answerZh": "第一次見面時,隊長仔細評估每名義工。",
+      "highlight": "weighed",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Could you measure enough pasta by weight for four people?",
+      "promptZh": "你可以按重量量出足夠四人食用的意粉嗎?",
+      "starter": "Could",
+      "answer": "Could you weigh out enough pasta for four people?",
+      "answerZh": "你可以量出足夠四人食用的意粉嗎?",
+      "highlight": "weigh out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Because the lid kept lifting, we put a brick on it to hold it in place.",
+      "promptZh": "蓋子不斷掀起,所以我們放了一塊磚把它固定。",
+      "starter": "Because",
+      "answer": "Because the lid kept lifting, we weighted it down with a brick.",
+      "answerZh": "蓋子不斷掀起,所以我們用一塊磚把它壓住。",
+      "highlight": "weighted it down with",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The fear of making another mistake was making Sam feel unable to move forward.",
+      "promptZh": "害怕再次犯錯令森覺得無法向前。",
+      "starter": "The",
+      "answer": "The fear of making another mistake was weighing Sam down.",
+      "answerZh": "害怕再次犯錯令森感到負擔沉重。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The decision had worried the head teacher throughout the weekend.",
+      "promptZh": "那個決定整個週末都令校長憂心。",
+      "starter": "The",
+      "answer": "The decision had weighed upon the head teacher all weekend.",
+      "answerZh": "那個決定整個週末都令校長掛心。",
+      "highlight": "weighed upon",
+      "targetForm": "weigh upon somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮;較正式"
+    },
+    {
+      "id": "phrasal-verb-65-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "She watched the group for a few minutes, judging them before she spoke.",
+      "promptZh": "她看了那群人幾分鐘,在開口前評估他們。",
+      "starter": "She",
+      "answer": "She watched the group for a few minutes, weighing them up before she spoke.",
+      "answerZh": "她看了那群人幾分鐘,在開口前評估他們。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Even after the meeting ended, his final comment stayed in my mind and continued to worry me.",
+      "promptZh": "即使會議已結束,他最後的說話仍留在我心裏,繼續令我擔心。",
+      "starter": "Even",
+      "answer": "Even after the meeting ended, his final comment continued to weigh on me.",
+      "answerZh": "即使會議已結束,他最後的說話仍繼續令我掛心。",
+      "highlight": "weigh on",
+      "targetForm": "weigh on somebody/something",
+      "targetMeaningZh": "令某人掛心或憂慮"
+    },
+    {
+      "id": "phrasal-verb-65-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As the customers asked questions, the owner quietly studied them before deciding how to speak to them.",
+      "promptZh": "顧客提問時,店主靜靜地觀察他們,然後才決定怎樣跟他們說話。",
+      "starter": "As",
+      "answer": "As the customers asked questions, the owner quietly weighed them up before deciding how to speak to them.",
+      "answerZh": "顧客提問時,店主靜靜地評估他們,然後才決定怎樣跟他們說話。",
+      "highlight": "weighed",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "A good interview may not be enough if the unexplained gap makes the employer less likely to choose you.",
+      "promptZh": "即使面試表現良好,如果那段未有解釋的空白期令僱主較不願意選你,也可能不足夠。",
+      "starter": "A",
+      "answer": "A good interview may not be enough if the unexplained gap weighs against you.",
+      "answerZh": "即使面試表現良好,如果那段未有解釋的空白期對你不利,也可能不足夠。",
+      "highlight": "weighs against",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "By the time we reached the bus, everyone was carrying so many books and sports items that moving was difficult.",
+      "promptZh": "我們到達巴士時,每個人都拿着太多書本和運動用品,走動十分困難。",
+      "starter": "By",
+      "answer": "By the time we reached the bus, everyone was weighed down with books and sports equipment.",
+      "answerZh": "我們到達巴士時,每個人都被書本和運動用品壓得負重難行。",
+      "highlight": "weighed down with",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We compared the cheaper price with the risk of poor quality before choosing.",
+      "promptZh": "我們作選擇前,把較低價格和質素欠佳的風險作比較。",
+      "starter": "We",
+      "answer": "We weighed up the cheaper price against the risk of poor quality.",
+      "answerZh": "我們作選擇前,仔細權衡較低價格和質素欠佳的風險。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up against something",
+      "targetMeaningZh": "把兩者作比較後考慮"
+    },
+    {
+      "id": "phrasal-verb-65-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The two boxers had trained for months, but they still needed an official weight check before the match could begin.",
+      "promptZh": "兩名拳手訓練了數月,但比賽開始前仍需要正式量度體重。",
+      "starter": "The",
+      "answer": "The two boxers had trained for months, but they still had to weigh in before the match could begin.",
+      "answerZh": "兩名拳手訓練了數月,但比賽開始前仍必須正式量度體重。",
+      "highlight": "had to weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After months of solving every problem alone, the pressure was beginning to make her feel unable to cope.",
+      "promptZh": "幾個月來,她獨自處理每個問題,壓力開始令她覺得難以應付。",
+      "starter": "After",
+      "answer": "After months of solving every problem alone, the pressure was beginning to weigh her down.",
+      "answerZh": "幾個月來,她獨自處理每個問題,壓力開始令她感到負擔沉重。",
+      "highlight": "weigh",
+      "targetForm": "weigh somebody down",
+      "targetMeaningZh": "令某人感到負擔沉重"
+    },
+    {
+      "id": "phrasal-verb-65-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Once you have measured the flour and sugar by weight, put them in separate bowls.",
+      "promptZh": "按重量量好麵粉和糖後,把它們放進不同的碗裏。",
+      "starter": "Once",
+      "answer": "Once you have weighed out the flour and sugar, put them in separate bowls.",
+      "answerZh": "量好麵粉和糖後,把它們放進不同的碗裏。",
+      "highlight": "weighed out",
+      "targetForm": "weigh something out",
+      "targetMeaningZh": "按重量量出所需份量"
+    },
+    {
+      "id": "phrasal-verb-65-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "As the wind grew stronger, the crew used metal bars and heavy boxes to keep the cover in place.",
+      "promptZh": "風勢增強時,工作人員用金屬棒和重箱子把蓋布固定好。",
+      "starter": "As",
+      "answer": "As the wind grew stronger, the crew weighted the cover down with metal bars and heavy boxes.",
+      "answerZh": "風勢增強時,工作人員用金屬棒和重箱子把蓋布壓住。",
+      "highlight": "weighted the cover down with",
+      "targetForm": "weight something down",
+      "targetMeaningZh": "用重物壓住某物"
+    },
+    {
+      "id": "phrasal-verb-65-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The director did not answer at once; she was still studying the young actor before forming an opinion.",
+      "promptZh": "導演沒有立即回答;她仍在觀察那名年輕演員,然後才形成看法。",
+      "starter": "The",
+      "answer": "The director did not answer at once; she was still weighing the young actor up before forming an opinion.",
+      "answerZh": "導演沒有立即回答;她仍在評估那名年輕演員,然後才形成看法。",
+      "highlight": "weighing",
+      "targetForm": "weigh somebody up",
+      "targetMeaningZh": "仔細觀察並判斷某人"
+    },
+    {
+      "id": "phrasal-verb-65-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the plan is creative, its high cost may make the board less likely to approve it.",
+      "promptZh": "雖然計劃很有創意,但高昂費用可能令董事會較不願意批准。",
+      "starter": "Although",
+      "answer": "Although the plan is creative, its high cost may weigh against it.",
+      "answerZh": "雖然計劃很有創意,但高昂費用可能會對它不利。",
+      "highlight": "weigh against",
+      "targetForm": "weigh against somebody/something",
+      "targetMeaningZh": "對某人/某事物不利"
+    },
+    {
+      "id": "phrasal-verb-65-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Did every competitor have an official weight check before the organisers published the final list?",
+      "promptZh": "主辦單位公布最後名單前,每名參賽者都有正式量度體重嗎?",
+      "starter": "Did",
+      "answer": "Did every competitor weigh in before the organisers published the final list?",
+      "answerZh": "主辦單位公布最後名單前,每名參賽者都有正式量度體重嗎?",
+      "highlight": "weigh in",
+      "targetForm": "weigh in",
+      "targetMeaningZh": "在比賽前正式量度體重"
+    },
+    {
+      "id": "phrasal-verb-65-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The rescue team moved slowly because they were carrying wet clothes, tools and other heavy equipment.",
+      "promptZh": "救援隊帶着濕衣服、工具和其他重型裝備,因此走得很慢。",
+      "starter": "The",
+      "answer": "The rescue team moved slowly because they were weighed down by wet clothes, tools and heavy equipment.",
+      "answerZh": "救援隊被濕衣服、工具和重型裝備壓得負重難行,因此走得很慢。",
+      "highlight": "weighed down by",
+      "targetForm": "weigh somebody/something down",
+      "targetMeaningZh": "因重物而令某人/某物負重或難以移動"
+    },
+    {
+      "id": "phrasal-verb-65-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Before leaving her current job, Chloe carefully considered what she might gain and what she might lose.",
+      "promptZh": "克洛伊離開現職前,仔細考慮了自己可能得到甚麼和失去甚麼。",
+      "starter": "Before",
+      "answer": "Before leaving her current job, Chloe weighed up what she might gain and what she might lose.",
+      "answerZh": "克洛伊離開現職前,仔細權衡了自己可能得到甚麼和失去甚麼。",
+      "highlight": "weighed up",
+      "targetForm": "weigh something up",
+      "targetMeaningZh": "仔細考慮某事"
+    }
+  ]
+}

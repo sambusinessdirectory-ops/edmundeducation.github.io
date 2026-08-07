@@ -1,0 +1,997 @@
+{
+  "id": "phrasal-verb-100",
+  "order": 100,
+  "slug": "rest",
+  "version": "1",
+  "title": "REST 動詞片語",
+  "titleEn": "Rest",
+  "titleZh": "REST 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 99 - REST.pdf",
+    "sourceNumber": 99,
+    "pageCount": 17,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 REST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to REST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "REST",
+      "highlight": "REST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Britain’s hopes of a medal now rest on Henderson.",
+      "zh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+      "highlight": "rest on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The decision rests entirely with you.",
+      "zh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+      "highlight": "rests entirely with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "取決於某人或某事物;有賴某人或某事物；由某人負責或決定;責任或決定權在某人手上",
+    "en": "rest on somebody/something rest upon somebody/something; rest with somebody rest with somebody to do something",
+    "naturalZh": [
+      "取決於某人或某事物;有賴某人或某事物",
+      "由某人負責或決定;責任或決定權在某人手上"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "rest on somebody/something rest upon somebody/something",
+      "titleZh": "取決於某人或某事物;有賴某人或某事物",
+      "titleEn": "rest on somebody/something rest upon somebody/something",
+      "descriptionZh": "取決於某人或某事物;有賴某人或某事物",
+      "descriptionEn": "Britain’s hopes of a medal now rest on Henderson.",
+      "examples": [
+        {
+          "en": "Britain’s hopes of a medal now rest on Henderson.",
+          "zh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+          "highlight": "rest on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rest with somebody rest with somebody to do something",
+      "titleZh": "由某人負責或決定;責任或決定權在某人手上",
+      "titleEn": "rest with somebody rest with somebody to do something",
+      "descriptionZh": "由某人負責或決定;責任或決定權在某人手上",
+      "descriptionEn": "The decision rests entirely with you.",
+      "examples": [
+        {
+          "en": "The decision rests entirely with you.",
+          "zh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+          "highlight": "rests entirely with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "REST 片語動詞的實際用途",
+    "labelEn": "REST Phrasal Verbs in Use",
+    "summaryZh": "你可以用 rest on 說明球隊、計劃、活動或項目能否成功取決於甚麼。；rest with 可以清楚表示由誰作出決定或承擔責任。；這些表達常用於談論希望、結果、重要選擇和責任。；rest on 表示結果取決於甚麼;rest with 則表示由誰決定或負責。",
+    "summaryEn": "You can use rest on to explain what controls the success of a team, plan, event or project. Rest with clearly shows who must make a decision or take responsibility. These expressions are often used when discussing hopes, results, important choices and responsibility. Rest on shows what an outcome depends on. Rest with shows who must decide or act.",
+    "contextsZh": [
+      "說明成功取決於甚麼",
+      "清楚指出最終責任在誰身上",
+      "理解體育、新聞和職場英語",
+      "分清兩個重要概念"
+    ],
+    "contextsEn": [
+      "Talk about what success depends on",
+      "State who has the final responsibility",
+      "Understand sports, news and workplace English",
+      "Keep two important ideas separate"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 REST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the REST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "rest on somebody/something rest upon somebody/something",
+    "fixedHighlight": "rest on somebody/something rest upon somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 REST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the REST expression that gives the same meaning.",
+    "correct": "rest on",
+    "incorrectForms": [],
+    "variableZh": "當希望、結果或計劃取決於某人或某事物時,使用 rest on somebody/something 或 rest uponsomebody/something。；當責任或最終決定權在某人手上時,使用 rest with somebody。；核心表達是 rest with somebody。其後可以加上 to + 動詞,說明該人需要決定或負責甚麼。The decision rests with the coach.(決定權在教練手上。)It rests with the coach to choose the final player.(最後一名球員由教練負責選出。)",
+    "variableEn": "Use rest on somebody/something or rest upon somebody/something when a hope, result or plan depends on that person or thing. Use rest with somebody when that person has the responsibility or final choice. The core expression is rest with somebody. You may add to + verb to explain what that person must decide or do.",
+    "variableItemsZh": [
+      "rest on somebody/something rest upon somebody/something",
+      "rest with somebody rest with somebody to do something"
+    ],
+    "variableItemsEn": [
+      "rest on somebody/something rest upon somebody/something",
+      "rest with somebody rest with somebody to do something"
+    ],
+    "forms": [
+      {
+        "formZh": "取決於某人或某事物;有賴某人或某事物",
+        "formEn": "rest on somebody/something rest upon somebody/something",
+        "exampleZh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+        "exampleEn": "Britain’s hopes of a medal now rest on Henderson.",
+        "highlight": "rest on"
+      },
+      {
+        "formZh": "由某人負責或決定;責任或決定權在某人手上",
+        "formEn": "rest with somebody rest with somebody to do something",
+        "exampleZh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+        "exampleEn": "The decision rests entirely with you.",
+        "highlight": "rests entirely with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "取決於某人或某事物;有賴某人或某事物",
+      "titleEn": "rest on somebody/something rest upon somebody/something",
+      "formula": "rest on somebody/something rest upon somebody/something",
+      "highlight": "rest on somebody/something rest upon somebody/something",
+      "descriptionZh": "取決於某人或某事物;有賴某人或某事物",
+      "descriptionEn": "Britain’s hopes of a medal now rest on Henderson.",
+      "examples": [
+        {
+          "en": "Britain’s hopes of a medal now rest on Henderson.",
+          "zh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+          "highlight": "rest on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "由某人負責或決定;責任或決定權在某人手上",
+      "titleEn": "rest with somebody rest with somebody to do something",
+      "formula": "rest with somebody rest with somebody to do something",
+      "highlight": "rest with somebody rest with somebody to do something",
+      "descriptionZh": "由某人負責或決定;責任或決定權在某人手上",
+      "descriptionEn": "The decision rests entirely with you.",
+      "examples": [
+        {
+          "en": "The decision rests entirely with you.",
+          "zh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+          "highlight": "rests entirely with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "說明成功取決於甚麼",
+      "titleEn": "Talk about what success depends on",
+      "zh": "你可以用 rest on 說明球隊、計劃、活動或項目能否成功取決於甚麼。",
+      "en": "You can use rest on to explain what controls the success of a team, plan, event or project."
+    },
+    {
+      "titleZh": "清楚指出最終責任在誰身上",
+      "titleEn": "State who has the final responsibility",
+      "zh": "rest with 可以清楚表示由誰作出決定或承擔責任。",
+      "en": "Rest with clearly shows who must make a decision or take responsibility."
+    },
+    {
+      "titleZh": "理解體育、新聞和職場英語",
+      "titleEn": "Understand sports, news and workplace English",
+      "zh": "這些表達常用於談論希望、結果、重要選擇和責任。",
+      "en": "These expressions are often used when discussing hopes, results, important choices and responsibility."
+    },
+    {
+      "titleZh": "分清兩個重要概念",
+      "titleEn": "Keep two important ideas separate",
+      "zh": "rest on 表示結果取決於甚麼;rest with 則表示由誰決定或負責。",
+      "en": "Rest on shows what an outcome depends on. Rest with shows who must decide or act."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "說明成功取決於甚麼",
+      "清楚指出最終責任在誰身上",
+      "理解體育、新聞和職場英語",
+      "分清兩個重要概念"
+    ],
+    "contextsEn": [
+      "Talk about what success depends on",
+      "State who has the final responsibility",
+      "Understand sports, news and workplace English",
+      "Keep two important ideas separate"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "說明成功取決於甚麼",
+        "titleEn": "Talk about what success depends on",
+        "zh": "你可以用 rest on 說明球隊、計劃、活動或項目能否成功取決於甚麼。",
+        "en": "You can use rest on to explain what controls the success of a team, plan, event or project.",
+        "examples": [
+          {
+            "en": "Britain’s hopes of a medal now rest on Henderson.",
+            "zh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+            "highlight": "rest on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚指出最終責任在誰身上",
+        "titleEn": "State who has the final responsibility",
+        "zh": "rest with 可以清楚表示由誰作出決定或承擔責任。",
+        "en": "Rest with clearly shows who must make a decision or take responsibility.",
+        "examples": [
+          {
+            "en": "The decision rests entirely with you.",
+            "zh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+            "highlight": "rests entirely with"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解體育、新聞和職場英語",
+        "titleEn": "Understand sports, news and workplace English",
+        "zh": "這些表達常用於談論希望、結果、重要選擇和責任。",
+        "en": "These expressions are often used when discussing hopes, results, important choices and responsibility.",
+        "examples": [
+          {
+            "en": "Britain’s hopes of a medal now rest on Henderson.",
+            "zh": "(英國奪得獎牌的希望,現在全繫於 Henderson 身上。)Rest upon has the same meaning as rest on.rest upon 與 rest on 的意思相同。",
+            "highlight": "rest on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分清兩個重要概念",
+        "titleEn": "Keep two important ideas separate",
+        "zh": "rest on 表示結果取決於甚麼;rest with 則表示由誰決定或負責。",
+        "en": "Rest on shows what an outcome depends on. Rest with shows who must decide or act.",
+        "examples": [
+          {
+            "en": "The decision rests entirely with you.",
+            "zh": "(決定權完全在你手上。)It rests with you to choose the date.(日期由你負責選定。)The words beginning with to are optional. They simply explain what the person must do.以 to 開始的部分並非必須,只是補充說明該人需要做甚麼。",
+            "highlight": "rests entirely with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 REST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the REST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 REST 片語動詞。",
+      "en": "Read the whole sentence and choose the REST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "當希望、結果或計劃取決於某人或某事物時,使用 rest on somebody/something 或 rest uponsomebody/something。",
+      "titleEn": "Use rest on somebody/something or rest upon somebody/something when a hope, result or plan depends on that person or thing.",
+      "zh": "當希望、結果或計劃取決於某人或某事物時,使用 rest on somebody/something 或 rest uponsomebody/something。",
+      "en": "Use rest on somebody/something or rest upon somebody/something when a hope, result or plan depends on that person or thing."
+    },
+    {
+      "titleZh": "當責任或最終決定權在某人手上時,使用 rest with somebody。",
+      "titleEn": "Use rest with somebody when that person has the responsibility or final choice.",
+      "zh": "當責任或最終決定權在某人手上時,使用 rest with somebody。",
+      "en": "Use rest with somebody when that person has the responsibility or final choice."
+    },
+    {
+      "titleZh": "核心表達是 rest with somebody。其後可以加上 to + 動詞,說明該人需要決定或負責甚麼。The decision rests with the coach.(決定權在教練手上。)It rests with the coach to choose the final player.(最後一名球員由教練負責選出。)",
+      "titleEn": "The core expression is rest with somebody.",
+      "zh": "核心表達是 rest with somebody。其後可以加上 to + 動詞,說明該人需要決定或負責甚麼。The decision rests with the coach.(決定權在教練手上。)It rests with the coach to choose the final player.(最後一名球員由教練負責選出。)",
+      "en": "The core expression is rest with somebody. You may add to + verb to explain what that person must decide or do."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 REST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to REST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "REST 動詞片語句子改寫練習",
+    "titleEn": "REST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 REST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to REST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-100-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Our hopes of winning depend on Leo.",
+      "promptZh": "我們能否勝出,取決於里奧。",
+      "starter": "Our",
+      "answer": "Our hopes of winning rest on Leo.",
+      "answerZh": "我們能否勝出,取決於里奧。",
+      "highlight": "rest",
+      "targetForm": "rest on somebody",
+      "targetMeaningZh": "取決於某人"
+    },
+    {
+      "id": "phrasal-verb-100-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The head teacher has the final decision.",
+      "promptZh": "最終決定權在校長手上。",
+      "starter": "The",
+      "answer": "The final decision rests with the head teacher.",
+      "answerZh": "最終決定權在校長手上。",
+      "highlight": "The final decision rests with",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The children will choose the film.",
+      "promptZh": "由孩子們選擇電影。",
+      "starter": "The",
+      "answer": "The choice of film rests with the children.",
+      "answerZh": "電影選擇權在孩子們手上。",
+      "highlight": "The choice of film rests with",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Whether we can take the trip depends on the weather staying dry.",
+      "promptZh": "我們能否出發旅行,取決於天氣會否保持乾爽。",
+      "starter": "Whether",
+      "answer": "Whether we can take the trip rests upon the weather staying dry.",
+      "answerZh": "我們能否出發旅行,取決於天氣會否保持乾爽。",
+      "highlight": "rests upon",
+      "targetForm": "rest upon something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The party’s success depends on careful planning.",
+      "promptZh": "派對能否成功,取決於周詳的計劃。",
+      "starter": "The",
+      "answer": "The party’s success rests on careful planning.",
+      "answerZh": "派對能否成功,取決於周詳的計劃。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The coach is responsible for choosing the final player.",
+      "promptZh": "教練負責選出最後一名球員。",
+      "starter": "It",
+      "answer": "It rests with the coach to choose the final player.",
+      "answerZh": "最後一名球員由教練負責選出。",
+      "highlight": "It rests with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Everything depends on this last test.",
+      "promptZh": "一切都取決於這次最後測試。",
+      "starter": "Everything",
+      "answer": "Everything rests on this last test.",
+      "answerZh": "一切都取決於這次最後測試。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The next move is your decision.",
+      "promptZh": "下一步由你決定。",
+      "starter": "The",
+      "answer": "The next move rests with you.",
+      "answerZh": "下一步由你決定。",
+      "highlight": "rests with you",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The club members will make the decision.",
+      "promptZh": "俱樂部成員將作出決定。",
+      "starter": "The",
+      "answer": "The decision will rest with the club members.",
+      "answerZh": "決定將由俱樂部成員作出。",
+      "highlight": "The decision will rest with",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Their chance of a medal depends on one final race.",
+      "promptZh": "他們能否奪得獎牌,取決於最後一場比賽。",
+      "starter": "Their",
+      "answer": "Their chance of a medal rests on one final race.",
+      "answerZh": "他們能否奪得獎牌,取決於最後一場比賽。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Does the whole plan depend on getting permission?",
+      "promptZh": "整個計劃是否取決於能否獲得批准?",
+      "starter": "Does",
+      "answer": "Does the whole plan rest on getting permission?",
+      "answerZh": "整個計劃是否取決於能否獲得批准?",
+      "highlight": "rest",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The team leader is still responsible for the matter.",
+      "promptZh": "這件事仍由隊長負責。",
+      "starter": "The",
+      "answer": "The responsibility for the matter still rests with the team leader.",
+      "answerZh": "這件事仍由隊長負責。",
+      "highlight": "The responsibility for the matter still rests with",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責"
+    },
+    {
+      "id": "phrasal-verb-100-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Much of the result will depend on how well we work together.",
+      "promptZh": "結果在很大程度上將取決於我們合作得有多好。",
+      "starter": "Much",
+      "answer": "Much of the result will rest on how well we work together.",
+      "answerZh": "結果在很大程度上將取決於我們合作得有多好。",
+      "highlight": "rest",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Nina was responsible for telling the group the truth.",
+      "promptZh": "妮娜負責把真相告訴大家。",
+      "starter": "It",
+      "answer": "It rested with Nina to tell the group the truth.",
+      "answerZh": "把真相告訴大家是妮娜的責任。",
+      "highlight": "It rested with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "I do not have the final choice.",
+      "promptZh": "最終選擇權不在我手上。",
+      "starter": "The",
+      "answer": "The final choice does not rest with me.",
+      "answerZh": "最終選擇權不在我手上。",
+      "highlight": "does not rest with me",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Our hopes now depend on a quick reply.",
+      "promptZh": "我們現在的希望取決於能否迅速收到回覆。",
+      "starter": "Our",
+      "answer": "Our hopes now rest upon a quick reply.",
+      "answerZh": "我們現在的希望取決於能否迅速收到回覆。",
+      "highlight": "rest upon",
+      "targetForm": "rest upon something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The team needs him because its hopes depend on him.",
+      "promptZh": "球隊需要他,因為球隊的希望都繫於他身上。",
+      "starter": "The",
+      "answer": "The team needs him because its hopes rest on him.",
+      "answerZh": "球隊需要他,因為球隊的希望都繫於他身上。",
+      "highlight": "rest",
+      "targetForm": "rest on somebody",
+      "targetMeaningZh": "取決於某人"
+    },
+    {
+      "id": "phrasal-verb-100-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The manager asked us to wait because she had to make the decision.",
+      "promptZh": "經理請我們等候,因為決定要由她作出。",
+      "starter": "The",
+      "answer": "The manager asked us to wait because the decision rested with her.",
+      "answerZh": "經理請我們等候,因為決定要由她作出。",
+      "highlight": "rested with her",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We have one working computer, and the whole lesson depends on it.",
+      "promptZh": "我們只有一部能正常運作的電腦,整堂課都要靠它。",
+      "starter": "We",
+      "answer": "We have one working computer, and the whole lesson rests on it.",
+      "answerZh": "我們只有一部能正常運作的電腦,整堂課都要靠它。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The parents are responsible for deciding whether the child may travel.",
+      "promptZh": "家長負責決定孩子是否可以出行。",
+      "starter": "It",
+      "answer": "It rests with the parents to decide whether the child may travel.",
+      "answerZh": "孩子是否可以出行,由家長負責決定。",
+      "highlight": "It rests with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "They, not we, had the right to give the final answer.",
+      "promptZh": "有權作出最終答覆的是他們,而不是我們。",
+      "starter": "The",
+      "answer": "The final answer rested with them, not with us.",
+      "answerZh": "最終答覆的決定權在他們,而不在我們手上。",
+      "highlight": "rested with them, not with us",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Whether the match can continue depends on the rain stopping soon.",
+      "promptZh": "比賽能否繼續,取決於雨會否很快停下來。",
+      "starter": "Whether",
+      "answer": "Whether the match can continue rests on the rain stopping soon.",
+      "answerZh": "比賽能否繼續,取決於雨會否很快停下來。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The school has shared the facts, but you must now make the choice.",
+      "promptZh": "學校已交代所有資料,但現在要由你作出選擇。",
+      "starter": "The",
+      "answer": "The school has shared the facts, but the choice now rests with you.",
+      "answerZh": "學校已交代所有資料,但現在要由你作出選擇。",
+      "highlight": "now rests with you",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The project depends on one simple idea: everyone helps.",
+      "promptZh": "這個項目取決於一個簡單理念:人人都出一分力。",
+      "starter": "The",
+      "answer": "The project rests on one simple idea: everyone helps.",
+      "answerZh": "這個項目取決於一個簡單理念:人人都出一分力。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The prize winner will be named tomorrow, and the judges will make the final decision.",
+      "promptZh": "得獎者將於明天公布,而最終決定將由評判作出。",
+      "starter": "The",
+      "answer": "The prize winner will be named tomorrow, and the final decision rests with the judges.",
+      "answerZh": "得獎者將於明天公布,而最終決定權在評判手上。",
+      "highlight": "rests with the judges",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The concert can happen only if the hall is free; everything depends on that.",
+      "promptZh": "只有在禮堂可以使用的情況下,音樂會才能舉行;一切都取決於這一點。",
+      "starter": "The",
+      "answer": "The concert can happen only if the hall is free; everything rests upon that.",
+      "answerZh": "只有在禮堂可以使用的情況下,音樂會才能舉行;一切都取決於這一點。",
+      "highlight": "rests upon",
+      "targetForm": "rest upon something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Although the class has voted, the teacher is still responsible for approving the trip.",
+      "promptZh": "雖然全班已經投票,但批准這次旅行仍是老師的責任。",
+      "starter": "Although",
+      "answer": "Although the class has voted, it still rests with the teacher to approve the trip.",
+      "answerZh": "雖然全班已經投票,但批准這次旅行仍是老師的責任。",
+      "highlight": "it still rests with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The plan may look simple, but its success depends on every person arriving on time.",
+      "promptZh": "這項計劃看似簡單,但能否成功取決於每個人是否準時到達。",
+      "starter": "The",
+      "answer": "The plan may look simple, but its success rests on every person arriving on time.",
+      "answerZh": "這項計劃看似簡單,但能否成功取決於每個人是否準時到達。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Our future in the competition depends on today’s result, not yesterday’s win.",
+      "promptZh": "我們能否繼續參賽,取決於今天的結果,而不是昨天的勝利。",
+      "starter": "Our",
+      "answer": "Our future in the competition rests on today’s result, not yesterday’s win.",
+      "answerZh": "我們能否繼續參賽,取決於今天的結果,而不是昨天的勝利。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The money has been collected; the organiser is now responsible for using it fairly.",
+      "promptZh": "款項已經收集完畢;現在由主辦者負責公平地使用這筆錢。",
+      "starter": "The",
+      "answer": "The money has been collected; it now rests with the organiser to use it fairly.",
+      "answerZh": "款項已經收集完畢;現在由主辦者負責公平地使用這筆錢。",
+      "highlight": "it now rests with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Our chance of finding the answer depends on careful work, not luck.",
+      "promptZh": "我們能否找到答案,取決於細心工作,而不是運氣。",
+      "starter": "Our",
+      "answer": "Our chance of finding the answer rests on careful work, not luck.",
+      "answerZh": "我們能否找到答案,取決於細心工作,而不是運氣。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Who will choose the new team captain? The players will make the decision.",
+      "promptZh": "誰會選出新隊長?決定將由球員作出。",
+      "starter": "Who",
+      "answer": "Who will choose the new team captain? The decision rests with the players.",
+      "answerZh": "誰會選出新隊長?決定權在球員手上。",
+      "highlight": "decision rests with the",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The shop may stay open next year, but its future depends on attracting more regular customers.",
+      "promptZh": "這間店明年或可繼續營業,但其未來取決於能否吸引更多長期顧客。",
+      "starter": "The",
+      "answer": "The shop may stay open next year, but its future rests on attracting more regular customers.",
+      "answerZh": "這間店明年或可繼續營業,但其未來取決於能否吸引更多長期顧客。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "We have explained both choices, so the family must now make the final decision.",
+      "promptZh": "我們已解釋兩個選擇,所以現在必須由這個家庭作出最終決定。",
+      "starter": "We",
+      "answer": "We have explained both choices, so the final decision now rests with the family.",
+      "answerZh": "我們已解釋兩個選擇,所以最終決定權現在在這個家庭手上。",
+      "highlight": "now rests with the family",
+      "targetForm": "rest with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-100-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The rules are clear, but each player is responsible for following them.",
+      "promptZh": "規則十分清楚,但每名球員都有責任遵守。",
+      "starter": "The",
+      "answer": "The rules are clear, but it rests with each player to follow them.",
+      "answerZh": "規則十分清楚,但每名球員都有責任遵守。",
+      "highlight": "it rests with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The whole morning schedule depends on the bus arriving on time.",
+      "promptZh": "整個早上的行程取決於巴士能否準時到達。",
+      "starter": "The",
+      "answer": "The whole morning schedule rests on the bus arriving on time.",
+      "answerZh": "整個早上的行程取決於巴士能否準時到達。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "After the doctor gave two safe choices, Arun was responsible for choosing between them.",
+      "promptZh": "醫生提出兩個安全的選擇後,便由阿倫負責從中作出選擇。",
+      "starter": "After",
+      "answer": "After the doctor gave two safe choices, it rested with Arun to choose between them.",
+      "answerZh": "醫生提出兩個安全的選擇後,便由阿倫負責從中作出選擇。",
+      "highlight": "it rested with",
+      "targetForm": "rest with somebody (to do something)",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-100-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The team trained hard all year, and its last chance now depends on winning this match.",
+      "promptZh": "球隊全年努力訓練,而最後的機會現在取決於能否勝出這場比賽。",
+      "starter": "The",
+      "answer": "The team trained hard all year, and its last chance now rests upon winning this match.",
+      "answerZh": "球隊全年努力訓練,而最後的機會現在取決於能否勝出這場比賽。",
+      "highlight": "rests upon",
+      "targetForm": "rest upon something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The success of the party depends on enough people coming.",
+      "promptZh": "派對能否成功,取決於是否有足夠的人出席。",
+      "starter": "The",
+      "answer": "The success of the party rests on enough people coming.",
+      "answerZh": "派對能否成功,取決於是否有足夠的人出席。",
+      "highlight": "rests",
+      "targetForm": "rest on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-100-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "No one else has the right to decide; the final choice belongs entirely to Priya.",
+      "promptZh": "其他人都無權決定;最終選擇權完全屬於普里雅。",
+      "starter": "No",
+      "answer": "No one else has the right to decide; the final choice rests entirely with Priya.",
+      "answerZh": "其他人都無權決定;最終選擇權完全在普里雅手上。",
+      "highlight": "rests",
+      "targetForm": "rest entirely with somebody",
+      "targetMeaningZh": "完全由某人負責或決定"
+    }
+  ]
+}

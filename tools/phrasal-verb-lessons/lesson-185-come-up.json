@@ -1,0 +1,1721 @@
+{
+  "id": "phrasal-verb-185",
+  "order": 185,
+  "slug": "come-up",
+  "version": "1",
+  "title": "COME UP 動詞片語",
+  "titleEn": "Come Up",
+  "titleZh": "COME UP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 184 - COME UP.pdf",
+    "sourceNumber": 184,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME UP",
+      "highlight": "COME UP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Fresh grass is coming up beside the wall.",
+      "zh": "圍牆旁正長出新草。",
+      "highlight": "coming up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We may come up against a few problems.",
+      "zh": "我們可能會遇上幾個問題。",
+      "highlight": "come up against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her passport is coming up for renewal.",
+      "zh": "她的護照很快便要續期。",
+      "highlight": "coming up for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "植物從泥土中長出來;發芽；面對某人、困難或阻力；快到退休、續期、檢討等時間；時間快到某個時刻；接近某個地方或位置；想出主意、答案或計劃；由較低位置走到較高位置；偶然遇見或發現",
+    "en": "come up; come up against somebody/something; come up for something; come up on something; come up to something; come up with something; come up / come up something / come up to something; come upon somebody/something",
+    "naturalZh": [
+      "植物從泥土中長出來;發芽",
+      "面對某人、困難或阻力",
+      "快到退休、續期、檢討等時間",
+      "時間快到某個時刻",
+      "接近某個地方或位置",
+      "想出主意、答案或計劃",
+      "由較低位置走到較高位置",
+      "偶然遇見或發現"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come up",
+      "titleZh": "植物從泥土中長出來;發芽",
+      "titleEn": "come up",
+      "descriptionZh": "植物從泥土中長出來;發芽",
+      "descriptionEn": "Fresh grass is coming up beside the wall.",
+      "examples": [
+        {
+          "en": "Fresh grass is coming up beside the wall.",
+          "zh": "圍牆旁正長出新草。",
+          "highlight": "coming up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come up against somebody/something",
+      "titleZh": "面對某人、困難或阻力",
+      "titleEn": "come up against somebody/something",
+      "descriptionZh": "面對某人、困難或阻力",
+      "descriptionEn": "We may come up against a few problems.",
+      "examples": [
+        {
+          "en": "We may come up against a few problems.",
+          "zh": "我們可能會遇上幾個問題。",
+          "highlight": "come up against"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come up for something",
+      "titleZh": "快到退休、續期、檢討等時間",
+      "titleEn": "come up for something",
+      "descriptionZh": "快到退休、續期、檢討等時間",
+      "descriptionEn": "Her passport is coming up for renewal.",
+      "examples": [
+        {
+          "en": "Her passport is coming up for renewal.",
+          "zh": "她的護照很快便要續期。",
+          "highlight": "coming up for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come up on something",
+      "titleZh": "時間快到某個時刻",
+      "titleEn": "come up on something",
+      "descriptionZh": "時間快到某個時刻",
+      "descriptionEn": "It is coming up on lunchtime.",
+      "examples": [
+        {
+          "en": "It is coming up on lunchtime.",
+          "zh": "快到午膳時間了。",
+          "highlight": "coming up on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come up to something",
+      "titleZh": "接近某個地方或位置",
+      "titleEn": "come up to something",
+      "descriptionZh": "接近某個地方或位置",
+      "descriptionEn": "The train is coming up to the next station.",
+      "examples": [
+        {
+          "en": "The train is coming up to the next station.",
+          "zh": "火車正接近下一個車站。",
+          "highlight": "coming up to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come up with something",
+      "titleZh": "想出主意、答案或計劃",
+      "titleEn": "come up with something",
+      "descriptionZh": "想出主意、答案或計劃",
+      "descriptionEn": "He came up with a clever answer.",
+      "examples": [
+        {
+          "en": "He came up with a clever answer.",
+          "zh": "他想出了一個聰明的答案。",
+          "highlight": "came up with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come up / come up something / come up to something",
+      "titleZh": "由較低位置走到較高位置",
+      "titleEn": "come up / come up something / come up to something",
+      "descriptionZh": "由較低位置走到較高位置",
+      "descriptionEn": "Come up the stairs and sit with us.",
+      "examples": [
+        {
+          "en": "Come up the stairs and sit with us.",
+          "zh": "沿樓梯上來,和我們一起坐吧。",
+          "highlight": "Come up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come upon somebody/something",
+      "titleZh": "偶然遇見或發現",
+      "titleEn": "come upon somebody/something",
+      "descriptionZh": "偶然遇見或發現",
+      "descriptionEn": "We came upon an old stone house.",
+      "examples": [
+        {
+          "en": "We came upon an old stone house.",
+          "zh": "我們偶然發現了一間古老的石屋。",
+          "highlight": "came upon"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME UP 片語動詞的實際用途",
+    "labelEn": "COME UP Phrasal Verbs in Use",
+    "summaryZh": "come up 可以描述種子發芽、嫩芽和花朵從泥土中長出來。；come up on 可以表示某個時間快到;come up to 則可以表示人或交通工具正接近某個地方。；come up against 可以描述困難或阻力;come up with 則可以描述新主意、答案或計劃。；come up 可以描述走到較高的位置;come upon 則可以描述偶然遇見某人或發現某物。",
+    "summaryEn": "Come up can describe seeds, shoots and flowers growing out of the soil. Come up on can show that a time is near, while come up to can show that a person or vehicle is approaching a place. Come up against can describe difficulties or opposition, while come up with can describe a new idea, answer or plan. Come up can describe moving to a higher place, while come upon can describe finding someone or something by chance.",
+    "contextsZh": [
+      "使用 COME 談論植物長出來",
+      "清楚談論接近的時間和地方",
+      "描述問題和解決方法",
+      "描述向上移動和偶然發現"
+    ],
+    "contextsEn": [
+      "Use COME to talk about plants appearing",
+      "Talk clearly about approaching times and places",
+      "Describe problems and solutions",
+      "Describe upward movement and unexpected discoveries"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come up",
+    "fixedHighlight": "come up",
+    "fixedZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+    "correct": "coming up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；仔細閱讀 come up 前後的字詞:come up to the gate 表示「接近大門」,come up thestairs 則表示「沿樓梯向上走」。；come up with an idea 表示「想出主意」;come upon an old photo 則表示「偶然發現舊照片」。",
+    "variableEn": "Keep the same people, things, time and meaning. Read the words around come up carefully: come up to the gate means “approach the gate”, while come up the stairs means “move upwards on the stairs”. Come up with an idea means “think of an idea”, while come upon an old photo means “find it by chance”.",
+    "variableItemsZh": [
+      "come up",
+      "come up against somebody/something",
+      "come up for something",
+      "come up on something",
+      "come up to something",
+      "come up with something",
+      "come up / come up something / come up to something",
+      "come upon somebody/something"
+    ],
+    "variableItemsEn": [
+      "come up",
+      "come up against somebody/something",
+      "come up for something",
+      "come up on something",
+      "come up to something",
+      "come up with something",
+      "come up / come up something / come up to something",
+      "come upon somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "植物從泥土中長出來;發芽",
+        "formEn": "come up",
+        "exampleZh": "圍牆旁正長出新草。",
+        "exampleEn": "Fresh grass is coming up beside the wall.",
+        "highlight": "coming up"
+      },
+      {
+        "formZh": "面對某人、困難或阻力",
+        "formEn": "come up against somebody/something",
+        "exampleZh": "我們可能會遇上幾個問題。",
+        "exampleEn": "We may come up against a few problems.",
+        "highlight": "come up against"
+      },
+      {
+        "formZh": "快到退休、續期、檢討等時間",
+        "formEn": "come up for something",
+        "exampleZh": "她的護照很快便要續期。",
+        "exampleEn": "Her passport is coming up for renewal.",
+        "highlight": "coming up for"
+      },
+      {
+        "formZh": "時間快到某個時刻",
+        "formEn": "come up on something",
+        "exampleZh": "快到午膳時間了。",
+        "exampleEn": "It is coming up on lunchtime.",
+        "highlight": "coming up on"
+      },
+      {
+        "formZh": "接近某個地方或位置",
+        "formEn": "come up to something",
+        "exampleZh": "火車正接近下一個車站。",
+        "exampleEn": "The train is coming up to the next station.",
+        "highlight": "coming up to"
+      },
+      {
+        "formZh": "想出主意、答案或計劃",
+        "formEn": "come up with something",
+        "exampleZh": "他想出了一個聰明的答案。",
+        "exampleEn": "He came up with a clever answer.",
+        "highlight": "came up with"
+      },
+      {
+        "formZh": "由較低位置走到較高位置",
+        "formEn": "come up / come up something / come up to something",
+        "exampleZh": "沿樓梯上來,和我們一起坐吧。",
+        "exampleEn": "Come up the stairs and sit with us.",
+        "highlight": "Come up"
+      },
+      {
+        "formZh": "偶然遇見或發現",
+        "formEn": "come upon somebody/something",
+        "exampleZh": "我們偶然發現了一間古老的石屋。",
+        "exampleEn": "We came upon an old stone house.",
+        "highlight": "came upon"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "植物從泥土中長出來;發芽",
+      "titleEn": "come up",
+      "formula": "come up",
+      "highlight": "come up",
+      "descriptionZh": "植物從泥土中長出來;發芽",
+      "descriptionEn": "Fresh grass is coming up beside the wall.",
+      "examples": [
+        {
+          "en": "Fresh grass is coming up beside the wall.",
+          "zh": "圍牆旁正長出新草。",
+          "highlight": "coming up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "面對某人、困難或阻力",
+      "titleEn": "come up against somebody/something",
+      "formula": "come up against somebody/something",
+      "highlight": "come up against somebody/something",
+      "descriptionZh": "面對某人、困難或阻力",
+      "descriptionEn": "We may come up against a few problems.",
+      "examples": [
+        {
+          "en": "We may come up against a few problems.",
+          "zh": "我們可能會遇上幾個問題。",
+          "highlight": "come up against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "快到退休、續期、檢討等時間",
+      "titleEn": "come up for something",
+      "formula": "come up for something",
+      "highlight": "come up for something",
+      "descriptionZh": "快到退休、續期、檢討等時間",
+      "descriptionEn": "Her passport is coming up for renewal.",
+      "examples": [
+        {
+          "en": "Her passport is coming up for renewal.",
+          "zh": "她的護照很快便要續期。",
+          "highlight": "coming up for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "時間快到某個時刻",
+      "titleEn": "come up on something",
+      "formula": "come up on something",
+      "highlight": "come up on something",
+      "descriptionZh": "時間快到某個時刻",
+      "descriptionEn": "It is coming up on lunchtime.",
+      "examples": [
+        {
+          "en": "It is coming up on lunchtime.",
+          "zh": "快到午膳時間了。",
+          "highlight": "coming up on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "接近某個地方或位置",
+      "titleEn": "come up to something",
+      "formula": "come up to something",
+      "highlight": "come up to something",
+      "descriptionZh": "接近某個地方或位置",
+      "descriptionEn": "The train is coming up to the next station.",
+      "examples": [
+        {
+          "en": "The train is coming up to the next station.",
+          "zh": "火車正接近下一個車站。",
+          "highlight": "coming up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "想出主意、答案或計劃",
+      "titleEn": "come up with something",
+      "formula": "come up with something",
+      "highlight": "come up with something",
+      "descriptionZh": "想出主意、答案或計劃",
+      "descriptionEn": "He came up with a clever answer.",
+      "examples": [
+        {
+          "en": "He came up with a clever answer.",
+          "zh": "他想出了一個聰明的答案。",
+          "highlight": "came up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "由較低位置走到較高位置",
+      "titleEn": "come up / come up something / come up to something",
+      "formula": "come up / come up something / come up to something",
+      "highlight": "come up / come up something / come up to something",
+      "descriptionZh": "由較低位置走到較高位置",
+      "descriptionEn": "Come up the stairs and sit with us.",
+      "examples": [
+        {
+          "en": "Come up the stairs and sit with us.",
+          "zh": "沿樓梯上來,和我們一起坐吧。",
+          "highlight": "Come up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "偶然遇見或發現",
+      "titleEn": "come upon somebody/something",
+      "formula": "come upon somebody/something",
+      "highlight": "come upon somebody/something",
+      "descriptionZh": "偶然遇見或發現",
+      "descriptionEn": "We came upon an old stone house.",
+      "examples": [
+        {
+          "en": "We came upon an old stone house.",
+          "zh": "我們偶然發現了一間古老的石屋。",
+          "highlight": "came upon"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 COME 談論植物長出來",
+      "titleEn": "Use COME to talk about plants appearing",
+      "zh": "come up 可以描述種子發芽、嫩芽和花朵從泥土中長出來。",
+      "en": "Come up can describe seeds, shoots and flowers growing out of the soil."
+    },
+    {
+      "titleZh": "清楚談論接近的時間和地方",
+      "titleEn": "Talk clearly about approaching times and places",
+      "zh": "come up on 可以表示某個時間快到;come up to 則可以表示人或交通工具正接近某個地方。",
+      "en": "Come up on can show that a time is near, while come up to can show that a person or vehicle is approaching a place."
+    },
+    {
+      "titleZh": "描述問題和解決方法",
+      "titleEn": "Describe problems and solutions",
+      "zh": "come up against 可以描述困難或阻力;come up with 則可以描述新主意、答案或計劃。",
+      "en": "Come up against can describe difficulties or opposition, while come up with can describe a new idea, answer or plan."
+    },
+    {
+      "titleZh": "描述向上移動和偶然發現",
+      "titleEn": "Describe upward movement and unexpected discoveries",
+      "zh": "come up 可以描述走到較高的位置;come upon 則可以描述偶然遇見某人或發現某物。",
+      "en": "Come up can describe moving to a higher place, while come upon can describe finding someone or something by chance."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 COME 談論植物長出來",
+      "清楚談論接近的時間和地方",
+      "描述問題和解決方法",
+      "描述向上移動和偶然發現"
+    ],
+    "contextsEn": [
+      "Use COME to talk about plants appearing",
+      "Talk clearly about approaching times and places",
+      "Describe problems and solutions",
+      "Describe upward movement and unexpected discoveries"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 COME 談論植物長出來",
+        "titleEn": "Use COME to talk about plants appearing",
+        "zh": "come up 可以描述種子發芽、嫩芽和花朵從泥土中長出來。",
+        "en": "Come up can describe seeds, shoots and flowers growing out of the soil.",
+        "examples": [
+          {
+            "en": "Fresh grass is coming up beside the wall.",
+            "zh": "圍牆旁正長出新草。",
+            "highlight": "coming up"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論接近的時間和地方",
+        "titleEn": "Talk clearly about approaching times and places",
+        "zh": "come up on 可以表示某個時間快到;come up to 則可以表示人或交通工具正接近某個地方。",
+        "en": "Come up on can show that a time is near, while come up to can show that a person or vehicle is approaching a place.",
+        "examples": [
+          {
+            "en": "We may come up against a few problems.",
+            "zh": "我們可能會遇上幾個問題。",
+            "highlight": "come up against"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述問題和解決方法",
+        "titleEn": "Describe problems and solutions",
+        "zh": "come up against 可以描述困難或阻力;come up with 則可以描述新主意、答案或計劃。",
+        "en": "Come up against can describe difficulties or opposition, while come up with can describe a new idea, answer or plan.",
+        "examples": [
+          {
+            "en": "Her passport is coming up for renewal.",
+            "zh": "她的護照很快便要續期。",
+            "highlight": "coming up for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述向上移動和偶然發現",
+        "titleEn": "Describe upward movement and unexpected discoveries",
+        "zh": "come up 可以描述走到較高的位置;come upon 則可以描述偶然遇見某人或發現某物。",
+        "en": "Come up can describe moving to a higher place, while come upon can describe finding someone or something by chance.",
+        "examples": [
+          {
+            "en": "It is coming up on lunchtime.",
+            "zh": "快到午膳時間了。",
+            "highlight": "coming up on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "en": "Read the whole sentence and choose the COME expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "仔細閱讀 come up 前後的字詞:come up to the gate 表示「接近大門」,come up thestairs 則表示「沿樓梯向上走」。",
+      "titleEn": "Read the words around come up carefully: come up to the gate means “approach the gate”, while come up the stairs means “move upwards on the stairs”.",
+      "zh": "仔細閱讀 come up 前後的字詞:come up to the gate 表示「接近大門」,come up thestairs 則表示「沿樓梯向上走」。",
+      "en": "Read the words around come up carefully: come up to the gate means “approach the gate”, while come up the stairs means “move upwards on the stairs”."
+    },
+    {
+      "titleZh": "come up with an idea 表示「想出主意」;come upon an old photo 則表示「偶然發現舊照片」。",
+      "titleEn": "Come up with an idea means “think of an idea”, while come upon an old photo means “find it by chance”.",
+      "zh": "come up with an idea 表示「想出主意」;come upon an old photo 則表示「偶然發現舊照片」。",
+      "en": "Come up with an idea means “think of an idea”, while come upon an old photo means “find it by chance”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME UP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME UP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME UP 動詞片語句子改寫練習",
+    "titleEn": "COME UP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME UP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME UP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-185-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "Nora thought of a simple idea for the class party.",
+      "promptZh": "諾拉為班級聚會想出了一個簡單的主意。",
+      "starter": "Nora",
+      "answer": "Nora came up with a simple idea for the class party.",
+      "answerZh": "諾拉為班級聚會想出了一個簡單的主意。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The first green shoots appeared above the soil this morning.",
+      "promptZh": "第一批綠色嫩芽今早從泥土中長了出來。",
+      "starter": "The",
+      "answer": "The first green shoots came up this morning.",
+      "answerZh": "第一批綠色嫩芽今早從泥土中長了出來。",
+      "highlight": "came up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "We are getting close to a busy road now.",
+      "promptZh": "我們現在正接近一條繁忙的道路。",
+      "starter": "We",
+      "answer": "We are coming up to a busy road now.",
+      "answerZh": "我們現在正接近一條繁忙的道路。",
+      "highlight": "coming up",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "Our team faced a much stronger team in the first match.",
+      "promptZh": "我們的球隊在第一場比賽中遇上了一支強得多的球隊。",
+      "starter": "Our",
+      "answer": "Our team came up against a much stronger team in the first match.",
+      "answerZh": "我們的球隊在第一場比賽中遇上了一支強得多的球隊。",
+      "highlight": "came up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "During the walk, we unexpectedly found a small waterfall.",
+      "promptZh": "步行期間,我們意外地發現了一個小瀑布。",
+      "starter": "During",
+      "answer": "During the walk, we came upon a small waterfall.",
+      "answerZh": "步行期間,我們意外地發現了一個小瀑布。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "It is nearly your bedtime.",
+      "promptZh": "快到你的睡覺時間了。",
+      "starter": "It",
+      "answer": "It is coming up on your bedtime.",
+      "answerZh": "快到你的睡覺時間了。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Who wants to climb to the top of the hill with me?",
+      "promptZh": "誰想和我一起走上山頂?",
+      "starter": "Who",
+      "answer": "Who wants to come up to the top of the hill with me?",
+      "answerZh": "誰想和我一起走上山頂?",
+      "highlight": "come up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The new plan faced strong opposition from local parents.",
+      "promptZh": "這項新計劃受到區內家長的強烈反對。",
+      "starter": "The",
+      "answer": "The new plan came up against strong opposition from local parents.",
+      "answerZh": "這項新計劃受到區內家長的強烈反對。",
+      "highlight": "came up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "My uncle is nearing retirement.",
+      "promptZh": "我的叔叔快將退休。",
+      "starter": "My",
+      "answer": "My uncle is coming up for retirement.",
+      "answerZh": "我的叔叔快將退休。",
+      "highlight": "coming up for",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Can you think of a name for our new club?",
+      "promptZh": "你能為我們的新學會想出一個名稱嗎?",
+      "starter": "Can",
+      "answer": "Can you come up with a name for our new club?",
+      "answerZh": "你能為我們的新學會想出一個名稱嗎?",
+      "highlight": "come up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Lena unexpectedly found a lost puppy near the park.",
+      "promptZh": "莉娜在公園附近意外地發現了一隻迷路的小狗。",
+      "starter": "Lena",
+      "answer": "Lena came upon a lost puppy near the park.",
+      "answerZh": "莉娜在公園附近意外地發現了一隻迷路的小狗。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "As the bus approached the next stop, everyone prepared to leave.",
+      "promptZh": "巴士接近下一個車站時,所有人都準備下車。",
+      "starter": "As",
+      "answer": "As the bus came up to the next stop, everyone prepared to leave.",
+      "answerZh": "巴士接近下一個車站時,所有人都準備下車。",
+      "highlight": "came up to",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please climb the stairs and join us on the second floor.",
+      "promptZh": "請沿樓梯上來,到二樓和我們會合。",
+      "starter": "Please",
+      "answer": "Please come up the stairs and join us on the second floor.",
+      "answerZh": "請沿樓梯上來,到二樓和我們會合。",
+      "highlight": "come up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "By then, it was nearly noon.",
+      "promptZh": "到了那時,已經接近中午。",
+      "starter": "By",
+      "answer": "By then, it was coming up on noon.",
+      "answerZh": "到了那時,已經接近中午。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "No beans have appeared above the soil yet.",
+      "promptZh": "仍然沒有豆苗從泥土中長出來。",
+      "starter": "No",
+      "answer": "No beans have come up yet.",
+      "answerZh": "仍然沒有豆苗從泥土中長出來。",
+      "highlight": "come up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The class is thinking of three new rules for the game.",
+      "promptZh": "全班正在為這個遊戲想出三條新規則。",
+      "starter": "The",
+      "answer": "The class is coming up with three new rules for the game.",
+      "answerZh": "全班正在為這個遊戲想出三條新規則。",
+      "highlight": "coming up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Have you ever unexpectedly found an old coin while walking?",
+      "promptZh": "你曾否在步行時意外地發現一枚舊硬幣?",
+      "starter": "Have",
+      "answer": "Have you ever come upon an old coin while walking?",
+      "answerZh": "你曾否在步行時意外地發現一枚舊硬幣?",
+      "highlight": "come upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Her passport will soon need to be renewed.",
+      "promptZh": "她的護照很快便需要續期。",
+      "starter": "Her",
+      "answer": "Her passport is coming up for renewal.",
+      "answerZh": "她的護照很快便需要續期。",
+      "highlight": "is coming up for renewal",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Are we getting close to the station?",
+      "promptZh": "我們是否快到車站了?",
+      "starter": "Are",
+      "answer": "Are we coming up to the station?",
+      "answerZh": "我們是否快到車站了?",
+      "highlight": "coming up",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The children were climbing the path when the rain began.",
+      "promptZh": "下雨時,孩子們正沿小路向上走。",
+      "starter": "The",
+      "answer": "The children were coming up the path when the rain began.",
+      "answerZh": "下雨時,孩子們正沿小路向上走。",
+      "highlight": "coming up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Was it nearly midnight when you left?",
+      "promptZh": "你離開時是否已接近午夜?",
+      "starter": "Was",
+      "answer": "Was it coming up on midnight when you left?",
+      "answerZh": "你離開時是否已接近午夜?",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "No one has thought of a better answer yet.",
+      "promptZh": "暫時仍沒有人想出更好的答案。",
+      "starter": "No",
+      "answer": "No one has come up with a better answer yet.",
+      "answerZh": "暫時仍沒有人想出更好的答案。",
+      "highlight": "come up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Small white flowers are appearing near the garden wall.",
+      "promptZh": "花園圍牆附近正長出一些白色小花。",
+      "starter": "Small",
+      "answer": "Small white flowers are coming up near the garden wall.",
+      "answerZh": "花園圍牆附近正長出一些白色小花。",
+      "highlight": "coming up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Sam had unexpectedly found a quiet beach before the others arrived.",
+      "promptZh": "其他人到達前,森姆已意外地發現了一個寧靜的海灘。",
+      "starter": "Sam",
+      "answer": "Sam had come upon a quiet beach before the others arrived.",
+      "answerZh": "其他人到達前,森姆已意外地發現了一個寧靜的海灘。",
+      "highlight": "come upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The school licence is due to be reviewed next month.",
+      "promptZh": "學校牌照將於下月接受檢討。",
+      "starter": "The",
+      "answer": "The school licence comes up for review next month.",
+      "answerZh": "學校牌照將於下月接受檢討。",
+      "highlight": "comes up for review",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "When the train gets close to the tunnel, the lights become dim.",
+      "promptZh": "火車接近隧道時,燈光會變暗。",
+      "starter": "When",
+      "answer": "When the train comes up to the tunnel, the lights become dim.",
+      "answerZh": "火車接近隧道時,燈光會變暗。",
+      "highlight": "comes up",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Could you climb to the roof and check the window?",
+      "promptZh": "你可以上到天台檢查窗戶嗎?",
+      "starter": "Could",
+      "answer": "Could you come up to the roof and check the window?",
+      "answerZh": "你可以上到天台檢查窗戶嗎?",
+      "highlight": "come up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Even good players sometimes face opponents who are stronger.",
+      "promptZh": "即使是出色的球員,有時也會遇上更強的對手。",
+      "starter": "Even",
+      "answer": "Even good players sometimes come up against opponents who are stronger.",
+      "answerZh": "即使是出色的球員,有時也會遇上更強的對手。",
+      "highlight": "come up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We tried to open the shop, but we faced several unexpected problems.",
+      "promptZh": "我們嘗試開設店舖,但遇上了幾個意料之外的問題。",
+      "starter": "We",
+      "answer": "We tried to open the shop, but we came up against several unexpected problems.",
+      "answerZh": "我們嘗試開設店舖,但遇上了幾個意料之外的問題。",
+      "highlight": "came up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I planted six seeds. Only two appeared above the soil.",
+      "promptZh": "我種了六粒種子,只有兩株長出泥面。",
+      "starter": "I",
+      "answer": "I planted six seeds. Only two came up.",
+      "answerZh": "我種了六粒種子,只有兩株長出泥面。",
+      "highlight": "came up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The teacher asked for a new ending, and Daniel thought of one at once.",
+      "promptZh": "老師要求一個新的結局,丹尼爾立即想出了一個。",
+      "starter": "The",
+      "answer": "The teacher asked for a new ending, and Daniel came up with one at once.",
+      "answerZh": "老師要求一個新的結局,丹尼爾立即想出了一個。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The film was still playing, but it was nearly eleven o’clock.",
+      "promptZh": "電影仍在播放,但時間已接近十一時。",
+      "starter": "The",
+      "answer": "The film was still playing, but it was coming up on eleven o’clock.",
+      "answerZh": "電影仍在播放,但時間已接近十一時。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "While she was cleaning the cupboard, Eva unexpectedly found an old letter.",
+      "promptZh": "伊娃清理櫃子時,意外地發現了一封舊信。",
+      "starter": "While",
+      "answer": "While she was cleaning the cupboard, Eva came upon an old letter.",
+      "answerZh": "伊娃清理櫃子時,意外地發現了一封舊信。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The lift was broken, so we walked up the stairs to the third floor.",
+      "promptZh": "升降機壞了,所以我們沿樓梯走上三樓。",
+      "starter": "The",
+      "answer": "The lift was broken, so we came up the stairs to the third floor.",
+      "answerZh": "升降機壞了,所以我們沿樓梯走上三樓。",
+      "highlight": "came",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The club has a good idea, but it may face opposition from some members.",
+      "promptZh": "學會有一個好主意,但可能會受到部分會員反對。",
+      "starter": "The",
+      "answer": "The club has a good idea, but it may come up against opposition from some members.",
+      "answerZh": "學會有一個好主意,但可能會受到部分會員反對。",
+      "highlight": "come up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The car approached the school gate slowly and then stopped.",
+      "promptZh": "汽車慢慢接近校門,然後停下來。",
+      "starter": "The",
+      "answer": "The car came up to the school gate slowly and then stopped.",
+      "answerZh": "汽車慢慢接近校門,然後停下來。",
+      "highlight": "came up to",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When it was nearly closing time, the last customers paid.",
+      "promptZh": "快到關門時間時,最後一批顧客付了款。",
+      "starter": "When",
+      "answer": "When it was coming up on closing time, the last customers paid.",
+      "answerZh": "快到關門時間時,最後一批顧客付了款。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We could not choose a route, so Priya thought of a simple plan.",
+      "promptZh": "我們無法選定路線,所以普里雅想出了一個簡單計劃。",
+      "starter": "We",
+      "answer": "We could not choose a route, so Priya came up with a simple plan.",
+      "answerZh": "我們無法選定路線,所以普里雅想出了一個簡單計劃。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The hikers were tired. Then they unexpectedly found a clear stream beside the path.",
+      "promptZh": "遠足者很疲倦,之後意外地在小路旁發現了一條清澈的小溪。",
+      "starter": "The",
+      "answer": "The hikers were tired. Then they came upon a clear stream beside the path.",
+      "answerZh": "遠足者很疲倦,之後意外地在小路旁發現了一條清澈的小溪。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After a week, tiny leaves began to appear above the soil.",
+      "promptZh": "一星期後,細小的葉子開始從泥土中長出來。",
+      "starter": "After",
+      "answer": "After a week, tiny leaves began to come up.",
+      "answerZh": "一星期後,細小的葉子開始從泥土中長出來。",
+      "highlight": "come up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "As Chloe climbed the ladder, everyone watched carefully.",
+      "promptZh": "克洛伊爬上梯子時,所有人都小心地看着。",
+      "starter": "As",
+      "answer": "As Chloe came up the ladder, everyone watched carefully.",
+      "answerZh": "克洛伊爬上梯子時,所有人都小心地看着。",
+      "highlight": "came up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When will your membership need to be renewed?",
+      "promptZh": "你的會籍何時需要續期?",
+      "starter": "When",
+      "answer": "When does your membership come up for renewal?",
+      "answerZh": "你的會籍何時需要續期?",
+      "highlight": "does",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "I was looking for a travel book, but by chance I found a diary from 1960.",
+      "promptZh": "我本來在找一本旅遊書,卻偶然發現了一本一九六零年的日記。",
+      "starter": "I",
+      "answer": "I was looking for a travel book, but I came upon a diary from 1960.",
+      "answerZh": "我本來在找一本旅遊書,卻偶然發現了一本一九六零年的日記。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The team expected an easy match, but it faced a very strong defence.",
+      "promptZh": "球隊原本以為比賽很容易,卻遇上了非常強的防守。",
+      "starter": "The",
+      "answer": "The team expected an easy match, but it came up against a very strong defence.",
+      "answerZh": "球隊原本以為比賽很容易,卻遇上了非常強的防守。",
+      "highlight": "came up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Most seeds failed, but three plants finally appeared above the ground after heavy rain.",
+      "promptZh": "大部分種子都沒有長成,但大雨後終於有三株植物從地面長了出來。",
+      "starter": "Most",
+      "answer": "Most seeds failed, but three plants finally came up after heavy rain.",
+      "answerZh": "大部分種子都沒有長成,但大雨後終於有三株植物從地面長了出來。",
+      "highlight": "came up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The old rule is due to be considered again at next month’s meeting.",
+      "promptZh": "這項舊規則將於下月會議再次檢討。",
+      "starter": "The",
+      "answer": "The old rule comes up for review at next month’s meeting.",
+      "answerZh": "這項舊規則將於下月會議再次檢討。",
+      "highlight": "comes up for review",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The guide called from above and asked us to climb the narrow path.",
+      "promptZh": "導遊從上方呼喚,叫我們沿狹窄的小路走上去。",
+      "starter": "The",
+      "answer": "The guide called from above and asked us to come up the narrow path.",
+      "answerZh": "導遊從上方呼喚,叫我們沿狹窄的小路走上去。",
+      "highlight": "come up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Do not cross yet; wait until we get close to the traffic lights.",
+      "promptZh": "先不要過馬路;等我們接近交通燈才過。",
+      "starter": "Do",
+      "answer": "Do not cross yet; wait until we come up to the traffic lights.",
+      "answerZh": "先不要過馬路;等我們接近交通燈才過。",
+      "highlight": "come up",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The children were still talking, although it was nearly their usual bedtime.",
+      "promptZh": "孩子們仍在聊天,雖然已快到他們平常的睡覺時間。",
+      "starter": "The",
+      "answer": "The children were still talking, although it was coming up on their usual bedtime.",
+      "answerZh": "孩子們仍在聊天,雖然已快到他們平常的睡覺時間。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Why have no new shoots appeared in this part of the garden?",
+      "promptZh": "為甚麼花園這一部分仍未長出新芽?",
+      "starter": "Why",
+      "answer": "Why have no new shoots come up in this part of the garden?",
+      "answerZh": "為甚麼花園這一部分仍未長出新芽?",
+      "highlight": "come up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "If the project faces money problems, we may need a cheaper design.",
+      "promptZh": "如果項目遇上資金問題,我們可能需要較便宜的設計。",
+      "starter": "If",
+      "answer": "If the project comes up against money problems, we may need a cheaper design.",
+      "answerZh": "如果項目遇上資金問題,我們可能需要較便宜的設計。",
+      "highlight": "comes up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Arun was downstairs, so I asked him to climb to my room.",
+      "promptZh": "阿倫在樓下,所以我叫他上樓到我的房間。",
+      "starter": "Arun",
+      "answer": "Arun was downstairs, so I asked him to come up to my room.",
+      "answerZh": "阿倫在樓下,所以我叫他上樓到我的房間。",
+      "highlight": "come up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Our club rules are due to be checked again in September.",
+      "promptZh": "我們的學會規則將於九月再次檢討。",
+      "starter": "Our",
+      "answer": "Our club rules come up for review in September.",
+      "answerZh": "我們的學會規則將於九月再次檢討。",
+      "highlight": "come up for review",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "As the runners approached the final corner, the crowd became louder.",
+      "promptZh": "跑手接近最後一個彎位時,觀眾的聲音變得更大。",
+      "starter": "As",
+      "answer": "As the runners came up to the final corner, the crowd became louder.",
+      "answerZh": "跑手接近最後一個彎位時,觀眾的聲音變得更大。",
+      "highlight": "came up to",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The group needed a cheaper activity, and Eva thought of a free walking tour.",
+      "promptZh": "小組需要一項較便宜的活動,伊娃便想出了一個免費步行導賞團。",
+      "starter": "The",
+      "answer": "The group needed a cheaper activity, and Eva came up with a free walking tour.",
+      "answerZh": "小組需要一項較便宜的活動,伊娃便想出了一個免費步行導賞團。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We followed the forest path and unexpectedly found a small wooden bridge.",
+      "promptZh": "我們沿森林小路前進,意外地發現了一條小木橋。",
+      "starter": "We",
+      "answer": "We followed the forest path and came upon a small wooden bridge.",
+      "answerZh": "我們沿森林小路前進,意外地發現了一條小木橋。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    },
+    {
+      "id": "phrasal-verb-185-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The agreement does not end this year, but it will be due for review early next spring.",
+      "promptZh": "這份協議今年不會完結,但將於明年初春檢討。",
+      "starter": "The",
+      "answer": "The agreement does not end this year, but it will come up for review early next spring.",
+      "answerZh": "這份協議今年不會完結,但將於明年初春檢討。",
+      "highlight": "come up",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We thought the pot would stay empty, but two small shoots appeared after the warm weekend.",
+      "promptZh": "我們以為花盆會一直空着,但暖和的週末過後長出了兩株小芽。",
+      "starter": "We",
+      "answer": "We thought the pot would stay empty, but two small shoots came up after the warm weekend.",
+      "answerZh": "我們以為花盆會一直空着,但暖和的週末過後長出了兩株小芽。",
+      "highlight": "came up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The family wanted to continue the game, even though it was getting close to midnight.",
+      "promptZh": "一家人想繼續玩遊戲,儘管時間已接近午夜。",
+      "starter": "The",
+      "answer": "The family wanted to continue the game, even though it was coming up on midnight.",
+      "answerZh": "一家人想繼續玩遊戲,儘管時間已接近午夜。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "No one knew how to keep the room cool, but Nina thought of a simple solution: open both windows.",
+      "promptZh": "沒有人知道怎樣令房間保持涼快,但妮娜想出了一個簡單方法:把兩扇窗都打開。",
+      "starter": "No",
+      "answer": "No one knew how to keep the room cool, but Nina came up with a simple solution: open both windows.",
+      "answerZh": "沒有人知道怎樣令房間保持涼快,但妮娜想出了一個簡單方法:把兩扇窗都打開。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The plan looked simple on paper, but the team faced serious problems when the work began.",
+      "promptZh": "計劃在紙上看來很簡單,但工作開始後,團隊遇上了嚴重問題。",
+      "starter": "The",
+      "answer": "The plan looked simple on paper, but the team came up against serious problems when the work began.",
+      "answerZh": "計劃在紙上看來很簡單,但工作開始後,團隊遇上了嚴重問題。",
+      "highlight": "came up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We could not see the museum at first, but soon the bus approached its main entrance.",
+      "promptZh": "起初我們看不見博物館,但巴士很快便接近正門。",
+      "starter": "We",
+      "answer": "We could not see the museum at first, but soon the bus came up to its main entrance.",
+      "answerZh": "起初我們看不見博物館,但巴士很快便接近正門。",
+      "highlight": "came up to",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The head teacher will soon retire, so the school has begun looking for a replacement.",
+      "promptZh": "校長快將退休,所以學校已開始物色接替人選。",
+      "starter": "The",
+      "answer": "The head teacher is coming up for retirement, so the school has begun looking for a replacement.",
+      "answerZh": "校長快將退休,所以學校已開始物色接替人選。",
+      "highlight": "is coming up for retirement",
+      "targetForm": "come up for something",
+      "targetMeaningZh": "快到退休、續期、檢討等時間"
+    },
+    {
+      "id": "phrasal-verb-185-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The garden grew slowly in the cold weather, but more flowers are now appearing beside the fence.",
+      "promptZh": "花園裏的植物在寒冷天氣下生長得較慢,但圍欄旁現在正長出更多花朵。",
+      "starter": "The",
+      "answer": "The garden grew slowly in the cold weather, but more flowers are now coming up beside the fence.",
+      "answerZh": "花園裏的植物在寒冷天氣下生長得較慢,但圍欄旁現在正長出更多花朵。",
+      "highlight": "coming up",
+      "targetForm": "come up",
+      "targetMeaningZh": "植物從泥土中長出來;發芽"
+    },
+    {
+      "id": "phrasal-verb-185-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the last bus arrived, it was already nearly one o’clock in the morning.",
+      "promptZh": "尾班巴士到達時,已經接近凌晨一時。",
+      "starter": "When",
+      "answer": "When the last bus arrived, it was already coming up on one o’clock in the morning.",
+      "answerZh": "尾班巴士到達時,已經接近凌晨一時。",
+      "highlight": "coming up on",
+      "targetForm": "come up on something",
+      "targetMeaningZh": "時間快到某個時刻"
+    },
+    {
+      "id": "phrasal-verb-185-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The club had very little money, yet the students thought of a fun event that cost nothing.",
+      "promptZh": "學會的資金很少,但學生仍想出了一項不需花錢的有趣活動。",
+      "starter": "The",
+      "answer": "The club had very little money, yet the students came up with a fun event that cost nothing.",
+      "answerZh": "學會的資金很少,但學生仍想出了一項不需花錢的有趣活動。",
+      "highlight": "came up with",
+      "targetForm": "come up with something",
+      "targetMeaningZh": "想出主意、答案或計劃"
+    },
+    {
+      "id": "phrasal-verb-185-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "You may have a clear plan, but you can still face people who strongly disagree.",
+      "promptZh": "即使你有清晰的計劃,仍可能遇上強烈反對的人。",
+      "starter": "You",
+      "answer": "You may have a clear plan, but you can still come up against people who strongly disagree.",
+      "answerZh": "即使你有清晰的計劃,仍可能遇上強烈反對的人。",
+      "highlight": "come up against",
+      "targetForm": "come up against somebody/something",
+      "targetMeaningZh": "面對某人或某項困難/阻力"
+    },
+    {
+      "id": "phrasal-verb-185-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "As we approached the border crossing, the driver asked everyone to prepare their papers.",
+      "promptZh": "我們接近邊境檢查站時,司機叫所有人準備好證件。",
+      "starter": "As",
+      "answer": "As we came up to the border crossing, the driver asked everyone to prepare their papers.",
+      "answerZh": "我們接近邊境檢查站時,司機叫所有人準備好證件。",
+      "highlight": "came up to",
+      "targetForm": "come up to something",
+      "targetMeaningZh": "接近某個地方或位置"
+    },
+    {
+      "id": "phrasal-verb-185-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The view became wider as we climbed towards the top of the mountain.",
+      "promptZh": "我們向山頂走上去時,視野變得更廣闊。",
+      "starter": "The",
+      "answer": "The view became wider as we came up towards the top of the mountain.",
+      "answerZh": "我們向山頂走上去時,視野變得更廣闊。",
+      "highlight": "came up",
+      "targetForm": "come up / come up something / come up to something",
+      "targetMeaningZh": "由較低位置走到較高位置"
+    },
+    {
+      "id": "phrasal-verb-185-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After taking the wrong path, we unexpectedly found a quiet village hidden between the hills.",
+      "promptZh": "走錯路後,我們意外地發現了一個藏在山丘之間的寧靜村莊。",
+      "starter": "After",
+      "answer": "After taking the wrong path, we came upon a quiet village hidden between the hills.",
+      "answerZh": "走錯路後,我們意外地發現了一個藏在山丘之間的寧靜村莊。",
+      "highlight": "came upon",
+      "targetForm": "come upon somebody/something",
+      "targetMeaningZh": "偶然遇見或發現"
+    }
+  ]
+}

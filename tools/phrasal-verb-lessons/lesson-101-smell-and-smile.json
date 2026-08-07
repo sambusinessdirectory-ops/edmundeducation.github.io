@@ -1,0 +1,1240 @@
+{
+  "id": "phrasal-verb-101",
+  "order": 101,
+  "slug": "smell-and-smile",
+  "version": "1",
+  "title": "SMELL AND SMILE 動詞片語",
+  "titleEn": "SMELL and SMILE",
+  "titleZh": "SMELL AND SMILE 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 100 - SMELL and SMILE.pdf",
+    "sourceNumber": 100,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SMELL 和 SMILE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SMELL and SMILE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SMELL AND SMILE",
+      "highlight": "SMELL AND SMILE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The baby’s blanket smelt of soap and milk.",
+      "zh": "嬰兒的毛毯有肥皂和牛奶的氣味。",
+      "highlight": "smelt",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dog smelt out the ball behind the sofa.",
+      "zh": "小狗憑氣味找出梳化後面的球。",
+      "highlight": "smelt out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "That fish smelt the whole house out.",
+      "zh": "那條魚令整間屋充滿難聞的氣味。",
+      "highlight": "smelt the whole house out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "有......的氣味;聞起來有......味道；憑氣味或直覺找出、察覺某人或某事物；使某處充滿濃烈或難聞的氣味；好運、命運、生活或天氣眷顧某人或某事",
+    "en": "smell of something; smell somebody/something out; smell something out; smile on/upon somebody/something",
+    "naturalZh": [
+      "有......的氣味;聞起來有......味道",
+      "憑氣味或直覺找出、察覺某人或某事物",
+      "使某處充滿濃烈或難聞的氣味",
+      "好運、命運、生活或天氣眷顧某人或某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "smell of something",
+      "titleZh": "有......的氣味;聞起來有......味道",
+      "titleEn": "smell of something",
+      "descriptionZh": "有......的氣味;聞起來有......味道",
+      "descriptionEn": "The baby’s blanket smelt of soap and milk.",
+      "examples": [
+        {
+          "en": "The baby’s blanket smelt of soap and milk.",
+          "zh": "嬰兒的毛毯有肥皂和牛奶的氣味。",
+          "highlight": "smelt"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smell somebody/something out",
+      "titleZh": "憑氣味或直覺找出、察覺某人或某事物",
+      "titleEn": "smell somebody/something out",
+      "descriptionZh": "憑氣味或直覺找出、察覺某人或某事物",
+      "descriptionEn": "The dog smelt out the ball behind the sofa.",
+      "examples": [
+        {
+          "en": "The dog smelt out the ball behind the sofa.",
+          "zh": "小狗憑氣味找出梳化後面的球。",
+          "highlight": "smelt out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smell something out",
+      "titleZh": "使某處充滿濃烈或難聞的氣味",
+      "titleEn": "smell something out",
+      "descriptionZh": "使某處充滿濃烈或難聞的氣味",
+      "descriptionEn": "That fish smelt the whole house out.",
+      "examples": [
+        {
+          "en": "That fish smelt the whole house out.",
+          "zh": "那條魚令整間屋充滿難聞的氣味。",
+          "highlight": "smelt the whole house out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "smile on/upon somebody/something",
+      "titleZh": "好運、命運、生活或天氣眷顧某人或某事",
+      "titleEn": "smile on/upon somebody/something",
+      "descriptionZh": "好運、命運、生活或天氣眷顧某人或某事",
+      "descriptionEn": "Fortune smiled on us that night.",
+      "examples": [
+        {
+          "en": "Fortune smiled on us that night.",
+          "zh": "那一晚,好運眷顧了我們。",
+          "highlight": "smiled on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SMELL AND SMILE 片語動詞的實際用途",
+    "labelEn": "SMELL AND SMILE Phrasal Verbs in Use",
+    "summaryZh": "smell of 能幫助你說明某人、房間、衣物或物件帶有甚麼氣味。；smell out 可以描述動物憑氣味找出事物,也可以描述某人察覺弱點、把戲、謊言或麻煩。；當食物、垃圾、鞋子或油漆令房間、汽車或房屋充滿濃烈氣味時,可以使用 smell something out。；smile on 或 smile upon 可以表示好運、命運、生活或天氣眷顧某人。",
+    "summaryEn": "Smell of helps you say what kind of smell a person, room, piece of clothing or object has. Smell out can describe a dog finding something by scent. It can also describe a person noticing weakness, a trick, a lie or trouble. You can use smell something out when food, rubbish, shoes or paint makes a room, car or house smell strongly. Smile on or smile upon can show that luck, fate, life or the weather is favourable to someone.",
+    "contextsZh": [
+      "清楚描述日常氣味",
+      "談論找出隱藏事物或察覺問題",
+      "說明強烈氣味充滿某處",
+      "生動地談論幸運情況"
+    ],
+    "contextsEn": [
+      "Describe everyday smells clearly",
+      "Talk about finding hidden things or noticing problems",
+      "Explain when one strong smell fills a place",
+      "Talk about luck in a vivid way"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SMELL 或 SMILE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SMELL or SMILE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "smell of something",
+    "fixedHighlight": "smell of something",
+    "fixedZh": "閱讀整句,選出意思相同的 SMELL 或 SMILE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SMELL or SMILE expression that gives the same meaning.",
+    "correct": "smelt",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；第一句表示小狗憑氣味找出食物;第二句表示魚令廚房充滿難聞的氣味。請仔細閱讀完整情境。；smile on 和 smile upon 可以表達相同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. The two uses of smell something out are different: The dog smelt out the food. That fish smelt the kitchen out. Smile on and smile upon can express the same meaning.",
+    "variableItemsZh": [
+      "smell of something",
+      "smell somebody/something out",
+      "smell something out",
+      "smile on/upon somebody/something"
+    ],
+    "variableItemsEn": [
+      "smell of something",
+      "smell somebody/something out",
+      "smell something out",
+      "smile on/upon somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "有......的氣味;聞起來有......味道",
+        "formEn": "smell of something",
+        "exampleZh": "嬰兒的毛毯有肥皂和牛奶的氣味。",
+        "exampleEn": "The baby’s blanket smelt of soap and milk.",
+        "highlight": "smelt"
+      },
+      {
+        "formZh": "憑氣味或直覺找出、察覺某人或某事物",
+        "formEn": "smell somebody/something out",
+        "exampleZh": "小狗憑氣味找出梳化後面的球。",
+        "exampleEn": "The dog smelt out the ball behind the sofa.",
+        "highlight": "smelt out"
+      },
+      {
+        "formZh": "使某處充滿濃烈或難聞的氣味",
+        "formEn": "smell something out",
+        "exampleZh": "那條魚令整間屋充滿難聞的氣味。",
+        "exampleEn": "That fish smelt the whole house out.",
+        "highlight": "smelt the whole house out"
+      },
+      {
+        "formZh": "好運、命運、生活或天氣眷顧某人或某事",
+        "formEn": "smile on/upon somebody/something",
+        "exampleZh": "那一晚,好運眷顧了我們。",
+        "exampleEn": "Fortune smiled on us that night.",
+        "highlight": "smiled on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "有......的氣味;聞起來有......味道",
+      "titleEn": "smell of something",
+      "formula": "smell of something",
+      "highlight": "smell of something",
+      "descriptionZh": "有......的氣味;聞起來有......味道",
+      "descriptionEn": "The baby’s blanket smelt of soap and milk.",
+      "examples": [
+        {
+          "en": "The baby’s blanket smelt of soap and milk.",
+          "zh": "嬰兒的毛毯有肥皂和牛奶的氣味。",
+          "highlight": "smelt"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "憑氣味或直覺找出、察覺某人或某事物",
+      "titleEn": "smell somebody/something out",
+      "formula": "smell somebody/something out",
+      "highlight": "smell somebody/something out",
+      "descriptionZh": "憑氣味或直覺找出、察覺某人或某事物",
+      "descriptionEn": "The dog smelt out the ball behind the sofa.",
+      "examples": [
+        {
+          "en": "The dog smelt out the ball behind the sofa.",
+          "zh": "小狗憑氣味找出梳化後面的球。",
+          "highlight": "smelt out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "使某處充滿濃烈或難聞的氣味",
+      "titleEn": "smell something out",
+      "formula": "smell something out",
+      "highlight": "smell something out",
+      "descriptionZh": "使某處充滿濃烈或難聞的氣味",
+      "descriptionEn": "That fish smelt the whole house out.",
+      "examples": [
+        {
+          "en": "That fish smelt the whole house out.",
+          "zh": "那條魚令整間屋充滿難聞的氣味。",
+          "highlight": "smelt the whole house out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "好運、命運、生活或天氣眷顧某人或某事",
+      "titleEn": "smile on/upon somebody/something",
+      "formula": "smile on/upon somebody/something",
+      "highlight": "smile on/upon somebody/something",
+      "descriptionZh": "好運、命運、生活或天氣眷顧某人或某事",
+      "descriptionEn": "Fortune smiled on us that night.",
+      "examples": [
+        {
+          "en": "Fortune smiled on us that night.",
+          "zh": "那一晚,好運眷顧了我們。",
+          "highlight": "smiled on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述日常氣味",
+      "titleEn": "Describe everyday smells clearly",
+      "zh": "smell of 能幫助你說明某人、房間、衣物或物件帶有甚麼氣味。",
+      "en": "Smell of helps you say what kind of smell a person, room, piece of clothing or object has."
+    },
+    {
+      "titleZh": "談論找出隱藏事物或察覺問題",
+      "titleEn": "Talk about finding hidden things or noticing problems",
+      "zh": "smell out 可以描述動物憑氣味找出事物,也可以描述某人察覺弱點、把戲、謊言或麻煩。",
+      "en": "Smell out can describe a dog finding something by scent. It can also describe a person noticing weakness, a trick, a lie or trouble."
+    },
+    {
+      "titleZh": "說明強烈氣味充滿某處",
+      "titleEn": "Explain when one strong smell fills a place",
+      "zh": "當食物、垃圾、鞋子或油漆令房間、汽車或房屋充滿濃烈氣味時,可以使用 smell something out。",
+      "en": "You can use smell something out when food, rubbish, shoes or paint makes a room, car or house smell strongly."
+    },
+    {
+      "titleZh": "生動地談論幸運情況",
+      "titleEn": "Talk about luck in a vivid way",
+      "zh": "smile on 或 smile upon 可以表示好運、命運、生活或天氣眷顧某人。",
+      "en": "Smile on or smile upon can show that luck, fate, life or the weather is favourable to someone."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述日常氣味",
+      "談論找出隱藏事物或察覺問題",
+      "說明強烈氣味充滿某處",
+      "生動地談論幸運情況"
+    ],
+    "contextsEn": [
+      "Describe everyday smells clearly",
+      "Talk about finding hidden things or noticing problems",
+      "Explain when one strong smell fills a place",
+      "Talk about luck in a vivid way"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述日常氣味",
+        "titleEn": "Describe everyday smells clearly",
+        "zh": "smell of 能幫助你說明某人、房間、衣物或物件帶有甚麼氣味。",
+        "en": "Smell of helps you say what kind of smell a person, room, piece of clothing or object has.",
+        "examples": [
+          {
+            "en": "The baby’s blanket smelt of soap and milk.",
+            "zh": "嬰兒的毛毯有肥皂和牛奶的氣味。",
+            "highlight": "smelt"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論找出隱藏事物或察覺問題",
+        "titleEn": "Talk about finding hidden things or noticing problems",
+        "zh": "smell out 可以描述動物憑氣味找出事物,也可以描述某人察覺弱點、把戲、謊言或麻煩。",
+        "en": "Smell out can describe a dog finding something by scent. It can also describe a person noticing weakness, a trick, a lie or trouble.",
+        "examples": [
+          {
+            "en": "The dog smelt out the ball behind the sofa.",
+            "zh": "小狗憑氣味找出梳化後面的球。",
+            "highlight": "smelt out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明強烈氣味充滿某處",
+        "titleEn": "Explain when one strong smell fills a place",
+        "zh": "當食物、垃圾、鞋子或油漆令房間、汽車或房屋充滿濃烈氣味時,可以使用 smell something out。",
+        "en": "You can use smell something out when food, rubbish, shoes or paint makes a room, car or house smell strongly.",
+        "examples": [
+          {
+            "en": "That fish smelt the whole house out.",
+            "zh": "那條魚令整間屋充滿難聞的氣味。",
+            "highlight": "smelt the whole house out"
+          }
+        ]
+      },
+      {
+        "titleZh": "生動地談論幸運情況",
+        "titleEn": "Talk about luck in a vivid way",
+        "zh": "smile on 或 smile upon 可以表示好運、命運、生活或天氣眷顧某人。",
+        "en": "Smile on or smile upon can show that luck, fate, life or the weather is favourable to someone.",
+        "examples": [
+          {
+            "en": "Fortune smiled on us that night.",
+            "zh": "那一晚,好運眷顧了我們。",
+            "highlight": "smiled on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SMELL 或 SMILE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SMELL or SMILE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SMELL 或 SMILE 片語動詞。",
+      "en": "Read the whole sentence and choose the SMELL or SMILE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "第一句表示小狗憑氣味找出食物;第二句表示魚令廚房充滿難聞的氣味。請仔細閱讀完整情境。",
+      "titleEn": "The two uses of smell something out are different: The dog smelt out the food.",
+      "zh": "第一句表示小狗憑氣味找出食物;第二句表示魚令廚房充滿難聞的氣味。請仔細閱讀完整情境。",
+      "en": "The two uses of smell something out are different: The dog smelt out the food. That fish smelt the kitchen out."
+    },
+    {
+      "titleZh": "smile on 和 smile upon 可以表達相同意思。",
+      "titleEn": "Smile on and smile upon can express the same meaning.",
+      "zh": "smile on 和 smile upon 可以表達相同意思。",
+      "en": "Smile on and smile upon can express the same meaning."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SMELL AND SMILE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SMELL AND SMILE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SMELL AND SMILE 動詞片語句子改寫練習",
+    "titleEn": "SMELL AND SMILE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SMELL AND SMILE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SMELL AND SMILE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-101-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The burnt toast made the kitchen smell terrible.",
+      "promptZh": "燒焦的多士令廚房充滿難聞的氣味。",
+      "starter": "The",
+      "answer": "The burnt toast smelt the kitchen out.",
+      "answerZh": "燒焦的多士令廚房充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Her coat had the smell of smoke.",
+      "promptZh": "她的外套有煙味。",
+      "starter": "Her",
+      "answer": "Her coat smelt of smoke.",
+      "answerZh": "她的外套有煙味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Luck was kind to our team that afternoon.",
+      "promptZh": "那天下午,好運眷顧了我們的球隊。",
+      "starter": "Luck",
+      "answer": "Luck smiled on our team that afternoon.",
+      "answerZh": "那天下午,好運眷顧了我們的球隊。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The dog found the biscuits hidden under the bed by smell.",
+      "promptZh": "小狗憑氣味找出藏在床下的餅乾。",
+      "starter": "The",
+      "answer": "The dog smelt out the biscuits hidden under the bed.",
+      "answerZh": "小狗憑氣味找出藏在床下的餅乾。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The fish left in the car made the whole car smell awful.",
+      "promptZh": "留在車內的魚令整輛車充滿難聞的氣味。",
+      "starter": "The",
+      "answer": "The fish left in the car smelt the whole car out.",
+      "answerZh": "留在車內的魚令整輛車充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The baby’s hair had the smell of soap.",
+      "promptZh": "嬰兒的頭髮有肥皂味。",
+      "starter": "The",
+      "answer": "The baby’s hair smelt of soap.",
+      "answerZh": "嬰兒的頭髮有肥皂味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Jay could quickly notice fear in other people.",
+      "promptZh": "傑伊能很快察覺別人的恐懼。",
+      "starter": "Jay",
+      "answer": "Jay could quickly smell out fear in other people.",
+      "answerZh": "傑伊能很快察覺別人的恐懼。",
+      "highlight": "smell out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Fortune favoured us when the last train arrived.",
+      "promptZh": "當尾班車抵達時,好運眷顧了我們。",
+      "starter": "Fortune",
+      "answer": "Fortune smiled on us when the last train arrived.",
+      "answerZh": "當尾班車抵達時,好運眷顧了我們。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Those wet shoes made the hall smell terrible.",
+      "promptZh": "那雙濕鞋令大廳充滿難聞的氣味。",
+      "starter": "Those",
+      "answer": "Those wet shoes smelt the hall out.",
+      "answerZh": "那雙濕鞋令大廳充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The kitchen had the smell of fresh bread.",
+      "promptZh": "廚房有新鮮麵包的香味。",
+      "starter": "The",
+      "answer": "The kitchen smelt of fresh bread.",
+      "answerZh": "廚房有新鮮麵包的香味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Life has been kind to Rosa this year.",
+      "promptZh": "今年生活一直善待羅莎。",
+      "starter": "Life",
+      "answer": "Life has smiled upon Rosa this year.",
+      "answerZh": "今年生活一直眷顧羅莎。",
+      "highlight": "smiled upon",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The dog can use its nose to find the child hiding behind the garden shed.",
+      "promptZh": "小狗能憑氣味找出躲在花園小屋後面的孩子。",
+      "starter": "The",
+      "answer": "The dog can smell out the child hiding behind the garden shed.",
+      "answerZh": "小狗能憑氣味找出躲在花園小屋後面的孩子。",
+      "highlight": "smell out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Does this room have the smell of fresh paint?",
+      "promptZh": "這間房有新油漆的氣味嗎?",
+      "starter": "Does",
+      "answer": "Does this room smell of fresh paint?",
+      "answerZh": "這間房有新油漆的氣味嗎?",
+      "highlight": "Does this",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "That cheese will make the fridge smell awful.",
+      "promptZh": "那塊芝士會令雪櫃充滿難聞的氣味。",
+      "starter": "That",
+      "answer": "That cheese will smell the fridge out.",
+      "answerZh": "那塊芝士會令雪櫃充滿難聞的氣味。",
+      "highlight": "smell",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Omar always notices weakness in a bad plan.",
+      "promptZh": "奧馬總能察覺差勁計劃中的弱點。",
+      "starter": "Omar",
+      "answer": "Omar always smells out weakness in a bad plan.",
+      "answerZh": "奧馬總能察覺差勁計劃中的弱點。",
+      "highlight": "smells out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Will luck favour us again in the final match?",
+      "promptZh": "好運會在決賽中再次眷顧我們嗎?",
+      "starter": "Will",
+      "answer": "Will luck smile on us again in the final match?",
+      "answerZh": "好運會在決賽中再次眷顧我們嗎?",
+      "highlight": "smile on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The bag does not have the smell of oranges now.",
+      "promptZh": "那個袋現在已沒有橙味。",
+      "starter": "The",
+      "answer": "The bag does not smell of oranges now.",
+      "answerZh": "那個袋現在已沒有橙味。",
+      "highlight": "The bag",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The rubbish has made the back room smell terrible.",
+      "promptZh": "垃圾已令後面的房間充滿難聞的氣味。",
+      "starter": "The",
+      "answer": "The rubbish has smelt the back room out.",
+      "answerZh": "垃圾已令後面的房間充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Fate did not favour them during their journey.",
+      "promptZh": "命運在旅程中沒有眷顧他們。",
+      "starter": "Fate",
+      "answer": "Fate did not smile on them during their journey.",
+      "answerZh": "命運在旅程中沒有眷顧他們。",
+      "highlight": "smile on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The little dog has found the food hidden inside the box by smell.",
+      "promptZh": "小狗已憑氣味找出藏在盒子內的食物。",
+      "starter": "The",
+      "answer": "The little dog has smelt out the food hidden inside the box.",
+      "answerZh": "小狗已憑氣味找出藏在盒子內的食物。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "After the swim, Nina’s hair had the smell of seawater.",
+      "promptZh": "游泳後,妮娜的頭髮有海水味。",
+      "starter": "After",
+      "answer": "After the swim, Nina’s hair smelt of seawater.",
+      "answerZh": "游泳後,妮娜的頭髮有海水味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The fish was left in the kitchen, and it made the room smell awful.",
+      "promptZh": "那條魚留在廚房裏,令房間充滿難聞的氣味。",
+      "starter": "The",
+      "answer": "The fish was left in the kitchen, and it smelt the room out.",
+      "answerZh": "那條魚留在廚房裏,令房間充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Leo quickly found the lie hidden in the story.",
+      "promptZh": "里奧很快便找出故事中隱藏的謊言。",
+      "starter": "Leo",
+      "answer": "Leo quickly smelt out the lie hidden in the story.",
+      "answerZh": "里奧很快便找出故事中隱藏的謊言。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The small café had good luck during its first week.",
+      "promptZh": "那間小咖啡店開業首星期十分幸運。",
+      "starter": "Good",
+      "answer": "Good fortune smiled upon the small café during its first week.",
+      "answerZh": "開業首星期,好運眷顧了那間小咖啡店。",
+      "highlight": "Good fortune smiled upon",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The letter had the smell of perfume when it arrived.",
+      "promptZh": "那封信送到時有香水味。",
+      "starter": "The",
+      "answer": "The letter smelt of perfume when it arrived.",
+      "answerZh": "那封信送到時有香水味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "We moved the rubbish outside before it could make the flat smell terrible.",
+      "promptZh": "我們在垃圾令整個單位充滿難聞氣味之前,把它搬到外面。",
+      "starter": "We",
+      "answer": "We moved the rubbish outside before it could smell the flat out.",
+      "answerZh": "我們在垃圾令整個單位充滿難聞氣味之前,把它搬到外面。",
+      "highlight": "smell",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The police dog found the missing bag by following its smell.",
+      "promptZh": "警犬沿着氣味找到了遺失的袋。",
+      "starter": "The",
+      "answer": "The police dog smelt out the missing bag.",
+      "answerZh": "警犬憑氣味找到了遺失的袋。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "His breath had a strong smell of coffee after breakfast.",
+      "promptZh": "早餐後,他的口氣有濃烈的咖啡味。",
+      "starter": "His",
+      "answer": "His breath smelt strongly of coffee after breakfast.",
+      "answerZh": "早餐後,他的口氣有濃烈的咖啡味。",
+      "highlight": "smelt strongly",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The onions have made the whole flat smell terrible.",
+      "promptZh": "洋蔥已令整個單位充滿難聞的氣味。",
+      "starter": "The",
+      "answer": "The onions have smelt the whole flat out.",
+      "answerZh": "洋蔥已令整個單位充滿難聞的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The weather was kind to the school fair all day.",
+      "promptZh": "學校賣物會整天都遇上好天氣。",
+      "starter": "The",
+      "answer": "The weather smiled on the school fair all day.",
+      "answerZh": "學校賣物會整天都遇上好天氣。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Eva rarely trusts easy promises because she quickly notices a hidden trick.",
+      "promptZh": "伊娃很少相信輕易作出的承諾,因為她很快便能察覺隱藏的把戲。",
+      "starter": "Eva",
+      "answer": "Eva rarely trusts easy promises because she quickly smells out a hidden trick.",
+      "answerZh": "伊娃很少相信輕易作出的承諾,因為她很快便能察覺隱藏的把戲。",
+      "highlight": "smells out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "After several difficult months, life finally became kinder to Sam.",
+      "promptZh": "經過幾個艱難的月份後,生活終於開始眷顧森姆。",
+      "starter": "After",
+      "answer": "After several difficult months, life finally smiled on Sam.",
+      "answerZh": "經過幾個艱難的月份後,生活終於開始眷顧森姆。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Did the burnt milk make the kitchen smell terrible?",
+      "promptZh": "燒焦的牛奶令廚房充滿難聞的氣味嗎?",
+      "starter": "Did",
+      "answer": "Did the burnt milk smell the kitchen out?",
+      "answerZh": "燒焦的牛奶令廚房充滿難聞的氣味嗎?",
+      "highlight": "smell",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The tent had the smell of wet clothes after the storm.",
+      "promptZh": "暴風雨後,帳幕有濕衣服的氣味。",
+      "starter": "The",
+      "answer": "The tent smelt of wet clothes after the storm.",
+      "answerZh": "暴風雨後,帳幕有濕衣服的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The dog searched every room until it found the hidden food by smell.",
+      "promptZh": "小狗搜遍每個房間,直至憑氣味找出藏起來的食物。",
+      "starter": "The",
+      "answer": "The dog searched every room until it smelt out the hidden food.",
+      "answerZh": "小狗搜遍每個房間,直至憑氣味找出藏起來的食物。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "For once, fortune favoured the smaller team at the last minute.",
+      "promptZh": "這一次,好運在最後一刻眷顧了較弱的一隊。",
+      "starter": "For",
+      "answer": "For once, fortune smiled on the smaller team at the last minute.",
+      "answerZh": "這一次,好運在最後一刻眷顧了較弱的一隊。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Keep the lid on the box so the fish does not make the car smell awful.",
+      "promptZh": "蓋好盒子,免得那條魚令車內充滿難聞的氣味。",
+      "starter": "Keep",
+      "answer": "Keep the lid on the box so the fish does not smell the car out.",
+      "answerZh": "蓋好盒子,免得那條魚令車內充滿難聞的氣味。",
+      "highlight": "smell",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The air began to have the smell of rain before the clouds arrived.",
+      "promptZh": "烏雲來到前,空氣開始帶有雨水的氣味。",
+      "starter": "The",
+      "answer": "The air began to smell of rain before the clouds arrived.",
+      "answerZh": "烏雲來到前,空氣開始帶有雨水的氣味。",
+      "highlight": "The air",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Has luck been kind to your new shop so far?",
+      "promptZh": "到目前為止,好運有眷顧你的新店嗎?",
+      "starter": "Has",
+      "answer": "Has luck smiled upon your new shop so far?",
+      "answerZh": "到目前為止,好運有眷顧你的新店嗎?",
+      "highlight": "smiled upon",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Arun can notice trouble before anyone else sees it.",
+      "promptZh": "阿倫能在其他人發現前察覺麻煩。",
+      "starter": "Arun",
+      "answer": "Arun can smell out trouble before anyone else sees it.",
+      "answerZh": "阿倫能在其他人發現前察覺麻煩。",
+      "highlight": "smell out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "We opened every window because the old food had made the dining room smell terrible.",
+      "promptZh": "因為舊食物令飯廳充滿難聞的氣味,我們打開了所有窗戶。",
+      "starter": "We",
+      "answer": "We opened every window because the old food had smelt the dining room out.",
+      "answerZh": "因為舊食物令飯廳充滿難聞的氣味,我們打開了所有窗戶。",
+      "highlight": "smelt",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The manager tried to hide a weakness in the plan, but Priya noticed it at once.",
+      "promptZh": "經理嘗試隱瞞計劃中的一個弱點,但普里雅立即察覺到了。",
+      "starter": "The",
+      "answer": "The manager tried to hide a weakness in the plan, but Priya smelt it out at once.",
+      "answerZh": "經理嘗試隱瞞計劃中的一個弱點,但普里雅立即察覺到了。",
+      "highlight": "smelt",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The journey had many problems, but luck was kind to us when we needed it most.",
+      "promptZh": "旅程遇上很多問題,但在我們最需要幫助時,好運眷顧了我們。",
+      "starter": "The",
+      "answer": "The journey had many problems, but luck smiled on us when we needed it most.",
+      "answerZh": "旅程遇上很多問題,但在我們最需要幫助時,好運眷顧了我們。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Although the box looked clean, it had the smell of old onions.",
+      "promptZh": "雖然盒子看來很乾淨,但它有舊洋蔥的氣味。",
+      "starter": "Although",
+      "answer": "Although the box looked clean, it smelt of old onions.",
+      "answerZh": "雖然盒子看來很乾淨,但它有舊洋蔥的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Because the wet carpet kept making the room smell bad, we carried it outside.",
+      "promptZh": "因為濕地氈不斷令房間充滿難聞的氣味,我們把它搬到外面。",
+      "starter": "Because",
+      "answer": "Because the wet carpet kept smelling the room out, we carried it outside.",
+      "answerZh": "因為濕地氈不斷令房間充滿難聞的氣味,我們把它搬到外面。",
+      "highlight": "smelling",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "After ignoring the empty bags, the dog found the one containing food by smell.",
+      "promptZh": "小狗沒有理會空袋,並憑氣味找出裝有食物的那一個。",
+      "starter": "After",
+      "answer": "After ignoring the empty bags, the dog smelt out the one containing food.",
+      "answerZh": "小狗沒有理會空袋,並憑氣味找出裝有食物的那一個。",
+      "highlight": "smelt out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-101-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Because the paint is strong, it may make the small room smell terrible for hours.",
+      "promptZh": "油漆氣味很濃,可能會令小房間數小時都充滿難聞的氣味。",
+      "starter": "Because",
+      "answer": "Because the paint is strong, it may smell the small room out for hours.",
+      "answerZh": "油漆氣味很濃,可能會令小房間數小時都充滿難聞的氣味。",
+      "highlight": "smell",
+      "targetForm": "smell something out",
+      "targetMeaningZh": "使某處充滿濃烈或難聞的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The weather forecast was poor, but the weather was kind to the outdoor concert.",
+      "promptZh": "天氣預報很差,但戶外音樂會仍遇上好天氣。",
+      "starter": "The",
+      "answer": "The weather forecast was poor, but the weather smiled on the outdoor concert.",
+      "answerZh": "天氣預報很差,但戶外音樂會仍遇上好天氣。",
+      "highlight": "smiled on",
+      "targetForm": "smile on/upon somebody/something",
+      "targetMeaningZh": "好運或形勢眷顧某人或某事"
+    },
+    {
+      "id": "phrasal-verb-101-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After many years, the old cupboard still had the smell of wood and dust.",
+      "promptZh": "多年後,那個舊櫃仍有木頭和灰塵的氣味。",
+      "starter": "After",
+      "answer": "After many years, the old cupboard still smelt of wood and dust.",
+      "answerZh": "多年後,那個舊櫃仍有木頭和灰塵的氣味。",
+      "highlight": "smelt",
+      "targetForm": "smell of something",
+      "targetMeaningZh": "有......的氣味"
+    },
+    {
+      "id": "phrasal-verb-101-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Even when the story sounded convincing, Nia could detect the lie in it.",
+      "promptZh": "即使故事聽起來很可信,妮雅仍能察覺其中的謊言。",
+      "starter": "Even",
+      "answer": "Even when the story sounded convincing, Nia could smell out the lie in it.",
+      "answerZh": "即使故事聽起來很可信,妮雅仍能察覺其中的謊言。",
+      "highlight": "smell out",
+      "targetForm": "smell somebody/something out",
+      "targetMeaningZh": "憑氣味或直覺找出、察覺某人或某事物"
+    }
+  ]
+}

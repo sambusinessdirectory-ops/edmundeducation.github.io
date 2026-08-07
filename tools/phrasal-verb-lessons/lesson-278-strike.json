@@ -1,0 +1,1812 @@
+{
+  "id": "phrasal-verb-278",
+  "order": 278,
+  "slug": "strike",
+  "version": "1",
+  "title": "STRIKE 動詞片語",
+  "titleEn": "Strike",
+  "titleZh": "STRIKE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 263 - STRIKE.pdf",
+    "sourceNumber": 263,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STRIKE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STRIKE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STRIKE",
+      "highlight": "STRIKE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The guard struck at the snake with a stick.",
+      "zh": "守衛用木棍試圖擊打那條蛇。",
+      "highlight": "struck at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The singer struck back at her critics.",
+      "zh": "歌手向批評她的人作出回擊。",
+      "highlight": "struck back at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A high fever struck him down for a week.",
+      "zh": "高燒令他突然病倒了一星期。",
+      "highlight": "struck him down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "試圖擊打某人或某物,尤其是使用武器或其他物件；在受到攻擊、傷害或批評後作出反擊；較正式:使某人突然病重或無法正常活動；由法院裁定某項法律或規則不合法,並使其失效；把某人或某人的名字從正式名單中除名;取消專業資格；用重擊把某物的一部分擊掉或砍掉；突然試圖擊打或攻擊某人或某物；在棒球中三振出局;使擊球手三振出局；在文字上畫線,把文字刪去；樂隊或樂團開始演奏音樂",
+    "en": "strike at somebody/something; strike back at/against somebody/something; strike somebody down; strike something down; strike somebody/something off / strike somebody/something off something; strike something off; strike out at somebody/something; strike out / strike somebody out; strike something out/through; strike up / strike up something",
+    "naturalZh": [
+      "試圖擊打某人或某物,尤其是使用武器或其他物件",
+      "在受到攻擊、傷害或批評後作出反擊",
+      "較正式:使某人突然病重或無法正常活動",
+      "由法院裁定某項法律或規則不合法,並使其失效",
+      "把某人或某人的名字從正式名單中除名;取消專業資格",
+      "用重擊把某物的一部分擊掉或砍掉",
+      "突然試圖擊打或攻擊某人或某物",
+      "在棒球中三振出局;使擊球手三振出局",
+      "在文字上畫線,把文字刪去",
+      "樂隊或樂團開始演奏音樂"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "strike at somebody/something",
+      "titleZh": "試圖擊打某人或某物,尤其是使用武器或其他物件",
+      "titleEn": "strike at somebody/something",
+      "descriptionZh": "試圖擊打某人或某物,尤其是使用武器或其他物件",
+      "descriptionEn": "The guard struck at the snake with a stick.",
+      "examples": [
+        {
+          "en": "The guard struck at the snake with a stick.",
+          "zh": "守衛用木棍試圖擊打那條蛇。",
+          "highlight": "struck at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strike back at/against somebody/something",
+      "titleZh": "在受到攻擊、傷害或批評後作出反擊",
+      "titleEn": "strike back at/against somebody/something",
+      "descriptionZh": "在受到攻擊、傷害或批評後作出反擊",
+      "descriptionEn": "The singer struck back at her critics.",
+      "examples": [
+        {
+          "en": "The singer struck back at her critics.",
+          "zh": "歌手向批評她的人作出回擊。",
+          "highlight": "struck back at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strike somebody down",
+      "titleZh": "較正式:使某人突然病重或無法正常活動",
+      "titleEn": "strike somebody down",
+      "descriptionZh": "較正式:使某人突然病重或無法正常活動",
+      "descriptionEn": "A high fever struck him down for a week.",
+      "examples": [
+        {
+          "en": "A high fever struck him down for a week.",
+          "zh": "高燒令他突然病倒了一星期。",
+          "highlight": "struck him down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strike something down",
+      "titleZh": "由法院裁定某項法律或規則不合法,並使其失效",
+      "titleEn": "strike something down",
+      "descriptionZh": "由法院裁定某項法律或規則不合法,並使其失效",
+      "descriptionEn": "The court struck down the new law.",
+      "examples": [
+        {
+          "en": "The court struck down the new law.",
+          "zh": "法院裁定新法律不合法,並使其失效。",
+          "highlight": "struck down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strike somebody/something off / strike somebody/something off something",
+      "titleZh": "把某人或某人的名字從正式名單中除名;取消專業資格",
+      "titleEn": "strike somebody/something off / strike somebody/something off something",
+      "descriptionZh": "把某人或某人的名字從正式名單中除名;取消專業資格",
+      "descriptionEn": "The doctor was struck off for serious misconduct.",
+      "examples": [
+        {
+          "en": "The doctor was struck off for serious misconduct.",
+          "zh": "該名醫生因嚴重失當行為而被取消執業資格。",
+          "highlight": "struck off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strike something off",
+      "titleZh": "用重擊把某物的一部分擊掉或砍掉",
+      "titleEn": "strike something off",
+      "descriptionZh": "用重擊把某物的一部分擊掉或砍掉",
+      "descriptionEn": "The worker struck the broken piece off with a hammer.",
+      "examples": [
+        {
+          "en": "The worker struck the broken piece off with a hammer.",
+          "zh": "工人用錘子把損壞的部分擊掉。",
+          "highlight": "struck the broken piece off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strike out at somebody/something",
+      "titleZh": "突然試圖擊打或攻擊某人或某物",
+      "titleEn": "strike out at somebody/something",
+      "descriptionZh": "突然試圖擊打或攻擊某人或某物",
+      "descriptionEn": "The frightened cat struck out at my hand.",
+      "examples": [
+        {
+          "en": "The frightened cat struck out at my hand.",
+          "zh": "受驚的貓突然揮爪攻擊我的手。",
+          "highlight": "struck out at"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strike out / strike somebody out",
+      "titleZh": "在棒球中三振出局;使擊球手三振出局",
+      "titleEn": "strike out / strike somebody out",
+      "descriptionZh": "在棒球中三振出局;使擊球手三振出局",
+      "descriptionEn": "The batter struck out in the final inning.",
+      "examples": [
+        {
+          "en": "The batter struck out in the final inning.",
+          "zh": "擊球手在最後一局三振出局。",
+          "highlight": "struck out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strike something out/through",
+      "titleZh": "在文字上畫線,把文字刪去",
+      "titleEn": "strike something out/through",
+      "descriptionZh": "在文字上畫線,把文字刪去",
+      "descriptionEn": "Please strike out the wrong word.",
+      "examples": [
+        {
+          "en": "Please strike out the wrong word.",
+          "zh": "請把錯誤的字劃掉。",
+          "highlight": "strike out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strike up / strike up something",
+      "titleZh": "樂隊或樂團開始演奏音樂",
+      "titleEn": "strike up / strike up something",
+      "descriptionZh": "樂隊或樂團開始演奏音樂",
+      "descriptionEn": "The band struck up a lively tune.",
+      "examples": [
+        {
+          "en": "The band struck up a lively tune.",
+          "zh": "樂隊奏起一首輕快的樂曲。",
+          "highlight": "struck up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STRIKE 片語動詞的實際用途",
+    "labelEn": "STRIKE Phrasal Verbs in Use",
+    "summaryZh": "strike at 和 strike out at 可以描述不同形式的攻擊;strike back 則表示某人在受到攻擊或批評後作出反擊。；strike down 可以表示某人突然病重,也可以表示法院裁定法律或規則無效。；strike off 可以表示取消專業資格或用力擊掉物件的一部分;strike out 和 strike through則常用於修改文字。；strike up 可表示樂手開始演奏;strike out 則是棒球中的重要表達。",
+    "summaryEn": "Strike at and strike out at describe different kinds of attempted blows. Strike back shows how someone responds after being attacked or criticised. Strike down can describe a sudden serious illness. It can also describe a court making a law or rule invalid. Strike off can describe professional disqualification or the physical removal of part of an object. Strike out and strike through are useful when correcting written work. Strike up is used when musicians begin playing. Strike out is an important expression in baseball.",
+    "contextsZh": [
+      "清楚談論攻擊和反擊",
+      "理解疾病和重要法院裁決",
+      "談論不同形式的移除",
+      "理解音樂和棒球表達"
+    ],
+    "contextsEn": [
+      "Talk about attacks and responses clearly",
+      "Understand illness and important court decisions",
+      "Talk about different kinds of removal",
+      "Understand music and baseball expressions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STRIKE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STRIKE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "strike at somebody/something",
+    "fixedHighlight": "strike at somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 STRIKE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STRIKE expression that gives the same meaning.",
+    "correct": "struck at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；strike at somebody 通常表示用武器或物件試圖擊打某人;strike out at somebody 通常表示因憤怒或害怕而突然揮拳、揮爪或攻擊。；strike off 有兩個截然不同的意思:它可以表示把某人從正式名單中除名,也可以表示用力擊掉某物的一部分。",
+    "variableEn": "Keep the same people, things, time and meaning. Strike at somebody usually describes an attempt to hit, often with a weapon or object. Strike out at somebody usually describes a sudden blow made in anger or fear. Strike off has two very different meanings. It can mean removing someone from an official list, or removing part of something with a hard blow.",
+    "variableItemsZh": [
+      "strike at somebody/something",
+      "strike back at/against somebody/something",
+      "strike somebody down",
+      "strike something down",
+      "strike somebody/something off / strike somebody/something off something",
+      "strike something off",
+      "strike out at somebody/something",
+      "strike out / strike somebody out",
+      "strike something out/through",
+      "strike up / strike up something"
+    ],
+    "variableItemsEn": [
+      "strike at somebody/something",
+      "strike back at/against somebody/something",
+      "strike somebody down",
+      "strike something down",
+      "strike somebody/something off / strike somebody/something off something",
+      "strike something off",
+      "strike out at somebody/something",
+      "strike out / strike somebody out",
+      "strike something out/through",
+      "strike up / strike up something"
+    ],
+    "forms": [
+      {
+        "formZh": "試圖擊打某人或某物,尤其是使用武器或其他物件",
+        "formEn": "strike at somebody/something",
+        "exampleZh": "守衛用木棍試圖擊打那條蛇。",
+        "exampleEn": "The guard struck at the snake with a stick.",
+        "highlight": "struck at"
+      },
+      {
+        "formZh": "在受到攻擊、傷害或批評後作出反擊",
+        "formEn": "strike back at/against somebody/something",
+        "exampleZh": "歌手向批評她的人作出回擊。",
+        "exampleEn": "The singer struck back at her critics.",
+        "highlight": "struck back at"
+      },
+      {
+        "formZh": "較正式:使某人突然病重或無法正常活動",
+        "formEn": "strike somebody down",
+        "exampleZh": "高燒令他突然病倒了一星期。",
+        "exampleEn": "A high fever struck him down for a week.",
+        "highlight": "struck him down"
+      },
+      {
+        "formZh": "由法院裁定某項法律或規則不合法,並使其失效",
+        "formEn": "strike something down",
+        "exampleZh": "法院裁定新法律不合法,並使其失效。",
+        "exampleEn": "The court struck down the new law.",
+        "highlight": "struck down"
+      },
+      {
+        "formZh": "把某人或某人的名字從正式名單中除名;取消專業資格",
+        "formEn": "strike somebody/something off / strike somebody/something off something",
+        "exampleZh": "該名醫生因嚴重失當行為而被取消執業資格。",
+        "exampleEn": "The doctor was struck off for serious misconduct.",
+        "highlight": "struck off"
+      },
+      {
+        "formZh": "用重擊把某物的一部分擊掉或砍掉",
+        "formEn": "strike something off",
+        "exampleZh": "工人用錘子把損壞的部分擊掉。",
+        "exampleEn": "The worker struck the broken piece off with a hammer.",
+        "highlight": "struck the broken piece off"
+      },
+      {
+        "formZh": "突然試圖擊打或攻擊某人或某物",
+        "formEn": "strike out at somebody/something",
+        "exampleZh": "受驚的貓突然揮爪攻擊我的手。",
+        "exampleEn": "The frightened cat struck out at my hand.",
+        "highlight": "struck out at"
+      },
+      {
+        "formZh": "在棒球中三振出局;使擊球手三振出局",
+        "formEn": "strike out / strike somebody out",
+        "exampleZh": "擊球手在最後一局三振出局。",
+        "exampleEn": "The batter struck out in the final inning.",
+        "highlight": "struck out"
+      },
+      {
+        "formZh": "在文字上畫線,把文字刪去",
+        "formEn": "strike something out/through",
+        "exampleZh": "請把錯誤的字劃掉。",
+        "exampleEn": "Please strike out the wrong word.",
+        "highlight": "strike out"
+      },
+      {
+        "formZh": "樂隊或樂團開始演奏音樂",
+        "formEn": "strike up / strike up something",
+        "exampleZh": "樂隊奏起一首輕快的樂曲。",
+        "exampleEn": "The band struck up a lively tune.",
+        "highlight": "struck up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "試圖擊打某人或某物,尤其是使用武器或其他物件",
+      "titleEn": "strike at somebody/something",
+      "formula": "strike at somebody/something",
+      "highlight": "strike at somebody/something",
+      "descriptionZh": "試圖擊打某人或某物,尤其是使用武器或其他物件",
+      "descriptionEn": "The guard struck at the snake with a stick.",
+      "examples": [
+        {
+          "en": "The guard struck at the snake with a stick.",
+          "zh": "守衛用木棍試圖擊打那條蛇。",
+          "highlight": "struck at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在受到攻擊、傷害或批評後作出反擊",
+      "titleEn": "strike back at/against somebody/something",
+      "formula": "strike back at/against somebody/something",
+      "highlight": "strike back at/against somebody/something",
+      "descriptionZh": "在受到攻擊、傷害或批評後作出反擊",
+      "descriptionEn": "The singer struck back at her critics.",
+      "examples": [
+        {
+          "en": "The singer struck back at her critics.",
+          "zh": "歌手向批評她的人作出回擊。",
+          "highlight": "struck back at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "較正式:使某人突然病重或無法正常活動",
+      "titleEn": "strike somebody down",
+      "formula": "strike somebody down",
+      "highlight": "strike somebody down",
+      "descriptionZh": "較正式:使某人突然病重或無法正常活動",
+      "descriptionEn": "A high fever struck him down for a week.",
+      "examples": [
+        {
+          "en": "A high fever struck him down for a week.",
+          "zh": "高燒令他突然病倒了一星期。",
+          "highlight": "struck him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "由法院裁定某項法律或規則不合法,並使其失效",
+      "titleEn": "strike something down",
+      "formula": "strike something down",
+      "highlight": "strike something down",
+      "descriptionZh": "由法院裁定某項法律或規則不合法,並使其失效",
+      "descriptionEn": "The court struck down the new law.",
+      "examples": [
+        {
+          "en": "The court struck down the new law.",
+          "zh": "法院裁定新法律不合法,並使其失效。",
+          "highlight": "struck down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某人或某人的名字從正式名單中除名;取消專業資格",
+      "titleEn": "strike somebody/something off / strike somebody/something off something",
+      "formula": "strike somebody/something off / strike somebody/something off something",
+      "highlight": "strike somebody/something off / strike somebody/something off something",
+      "descriptionZh": "把某人或某人的名字從正式名單中除名;取消專業資格",
+      "descriptionEn": "The doctor was struck off for serious misconduct.",
+      "examples": [
+        {
+          "en": "The doctor was struck off for serious misconduct.",
+          "zh": "該名醫生因嚴重失當行為而被取消執業資格。",
+          "highlight": "struck off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "用重擊把某物的一部分擊掉或砍掉",
+      "titleEn": "strike something off",
+      "formula": "strike something off",
+      "highlight": "strike something off",
+      "descriptionZh": "用重擊把某物的一部分擊掉或砍掉",
+      "descriptionEn": "The worker struck the broken piece off with a hammer.",
+      "examples": [
+        {
+          "en": "The worker struck the broken piece off with a hammer.",
+          "zh": "工人用錘子把損壞的部分擊掉。",
+          "highlight": "struck the broken piece off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "突然試圖擊打或攻擊某人或某物",
+      "titleEn": "strike out at somebody/something",
+      "formula": "strike out at somebody/something",
+      "highlight": "strike out at somebody/something",
+      "descriptionZh": "突然試圖擊打或攻擊某人或某物",
+      "descriptionEn": "The frightened cat struck out at my hand.",
+      "examples": [
+        {
+          "en": "The frightened cat struck out at my hand.",
+          "zh": "受驚的貓突然揮爪攻擊我的手。",
+          "highlight": "struck out at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在棒球中三振出局;使擊球手三振出局",
+      "titleEn": "strike out / strike somebody out",
+      "formula": "strike out / strike somebody out",
+      "highlight": "strike out / strike somebody out",
+      "descriptionZh": "在棒球中三振出局;使擊球手三振出局",
+      "descriptionEn": "The batter struck out in the final inning.",
+      "examples": [
+        {
+          "en": "The batter struck out in the final inning.",
+          "zh": "擊球手在最後一局三振出局。",
+          "highlight": "struck out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "在文字上畫線,把文字刪去",
+      "titleEn": "strike something out/through",
+      "formula": "strike something out/through",
+      "highlight": "strike something out/through",
+      "descriptionZh": "在文字上畫線,把文字刪去",
+      "descriptionEn": "Please strike out the wrong word.",
+      "examples": [
+        {
+          "en": "Please strike out the wrong word.",
+          "zh": "請把錯誤的字劃掉。",
+          "highlight": "strike out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "樂隊或樂團開始演奏音樂",
+      "titleEn": "strike up / strike up something",
+      "formula": "strike up / strike up something",
+      "highlight": "strike up / strike up something",
+      "descriptionZh": "樂隊或樂團開始演奏音樂",
+      "descriptionEn": "The band struck up a lively tune.",
+      "examples": [
+        {
+          "en": "The band struck up a lively tune.",
+          "zh": "樂隊奏起一首輕快的樂曲。",
+          "highlight": "struck up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論攻擊和反擊",
+      "titleEn": "Talk about attacks and responses clearly",
+      "zh": "strike at 和 strike out at 可以描述不同形式的攻擊;strike back 則表示某人在受到攻擊或批評後作出反擊。",
+      "en": "Strike at and strike out at describe different kinds of attempted blows. Strike back shows how someone responds after being attacked or criticised."
+    },
+    {
+      "titleZh": "理解疾病和重要法院裁決",
+      "titleEn": "Understand illness and important court decisions",
+      "zh": "strike down 可以表示某人突然病重,也可以表示法院裁定法律或規則無效。",
+      "en": "Strike down can describe a sudden serious illness. It can also describe a court making a law or rule invalid."
+    },
+    {
+      "titleZh": "談論不同形式的移除",
+      "titleEn": "Talk about different kinds of removal",
+      "zh": "strike off 可以表示取消專業資格或用力擊掉物件的一部分;strike out 和 strike through則常用於修改文字。",
+      "en": "Strike off can describe professional disqualification or the physical removal of part of an object. Strike out and strike through are useful when correcting written work."
+    },
+    {
+      "titleZh": "理解音樂和棒球表達",
+      "titleEn": "Understand music and baseball expressions",
+      "zh": "strike up 可表示樂手開始演奏;strike out 則是棒球中的重要表達。",
+      "en": "Strike up is used when musicians begin playing. Strike out is an important expression in baseball."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論攻擊和反擊",
+      "理解疾病和重要法院裁決",
+      "談論不同形式的移除",
+      "理解音樂和棒球表達"
+    ],
+    "contextsEn": [
+      "Talk about attacks and responses clearly",
+      "Understand illness and important court decisions",
+      "Talk about different kinds of removal",
+      "Understand music and baseball expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論攻擊和反擊",
+        "titleEn": "Talk about attacks and responses clearly",
+        "zh": "strike at 和 strike out at 可以描述不同形式的攻擊;strike back 則表示某人在受到攻擊或批評後作出反擊。",
+        "en": "Strike at and strike out at describe different kinds of attempted blows. Strike back shows how someone responds after being attacked or criticised.",
+        "examples": [
+          {
+            "en": "The guard struck at the snake with a stick.",
+            "zh": "守衛用木棍試圖擊打那條蛇。",
+            "highlight": "struck at"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解疾病和重要法院裁決",
+        "titleEn": "Understand illness and important court decisions",
+        "zh": "strike down 可以表示某人突然病重,也可以表示法院裁定法律或規則無效。",
+        "en": "Strike down can describe a sudden serious illness. It can also describe a court making a law or rule invalid.",
+        "examples": [
+          {
+            "en": "The singer struck back at her critics.",
+            "zh": "歌手向批評她的人作出回擊。",
+            "highlight": "struck back at"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不同形式的移除",
+        "titleEn": "Talk about different kinds of removal",
+        "zh": "strike off 可以表示取消專業資格或用力擊掉物件的一部分;strike out 和 strike through則常用於修改文字。",
+        "en": "Strike off can describe professional disqualification or the physical removal of part of an object. Strike out and strike through are useful when correcting written work.",
+        "examples": [
+          {
+            "en": "A high fever struck him down for a week.",
+            "zh": "高燒令他突然病倒了一星期。",
+            "highlight": "struck him down"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解音樂和棒球表達",
+        "titleEn": "Understand music and baseball expressions",
+        "zh": "strike up 可表示樂手開始演奏;strike out 則是棒球中的重要表達。",
+        "en": "Strike up is used when musicians begin playing. Strike out is an important expression in baseball.",
+        "examples": [
+          {
+            "en": "The court struck down the new law.",
+            "zh": "法院裁定新法律不合法,並使其失效。",
+            "highlight": "struck down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STRIKE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STRIKE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STRIKE 片語動詞。",
+      "en": "Read the whole sentence and choose the STRIKE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "strike at somebody 通常表示用武器或物件試圖擊打某人;strike out at somebody 通常表示因憤怒或害怕而突然揮拳、揮爪或攻擊。",
+      "titleEn": "Strike at somebody usually describes an attempt to hit, often with a weapon or object.",
+      "zh": "strike at somebody 通常表示用武器或物件試圖擊打某人;strike out at somebody 通常表示因憤怒或害怕而突然揮拳、揮爪或攻擊。",
+      "en": "Strike at somebody usually describes an attempt to hit, often with a weapon or object. Strike out at somebody usually describes a sudden blow made in anger or fear."
+    },
+    {
+      "titleZh": "strike off 有兩個截然不同的意思:它可以表示把某人從正式名單中除名,也可以表示用力擊掉某物的一部分。",
+      "titleEn": "Strike off has two very different meanings.",
+      "zh": "strike off 有兩個截然不同的意思:它可以表示把某人從正式名單中除名,也可以表示用力擊掉某物的一部分。",
+      "en": "Strike off has two very different meanings. It can mean removing someone from an official list, or removing part of something with a hard blow."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STRIKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STRIKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STRIKE 動詞片語句子改寫練習",
+    "titleEn": "STRIKE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STRIKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STRIKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-278-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The band began playing a cheerful song as the guests entered.",
+      "promptZh": "賓客進場時,樂隊開始演奏一首歡快的歌曲。",
+      "starter": "The",
+      "answer": "The band struck up a cheerful song as the guests entered.",
+      "answerZh": "賓客進場時,樂隊奏起一首歡快的歌曲。",
+      "highlight": "struck up",
+      "targetForm": "strike up something",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A bad case of flu made Noah seriously ill before the school trip.",
+      "promptZh": "學校旅行前,嚴重流感令諾亞突然病倒。",
+      "starter": "A",
+      "answer": "A bad case of flu struck Noah down before the school trip.",
+      "answerZh": "學校旅行前,嚴重流感令諾亞突然病倒。",
+      "highlight": "struck",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The guard tried to hit the snake with a long stick.",
+      "promptZh": "守衛嘗試用長木棍擊打那條蛇。",
+      "starter": "The",
+      "answer": "The guard struck at the snake with a long stick.",
+      "answerZh": "守衛用長木棍試圖擊打那條蛇。",
+      "highlight": "struck at",
+      "targetForm": "strike at somebody/something",
+      "targetMeaningZh": "試圖擊打某人或某物"
+    },
+    {
+      "id": "phrasal-verb-278-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The batter missed three pitches and lost his turn in the third inning.",
+      "promptZh": "擊球手在第三局連續三球未能擊中,因此出局。",
+      "starter": "The",
+      "answer": "The batter struck out in the third inning.",
+      "answerZh": "擊球手在第三局三振出局。",
+      "highlight": "struck out",
+      "targetForm": "strike out",
+      "targetMeaningZh": "在棒球中三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The court decided that the new parking law was not legal and cancelled it.",
+      "promptZh": "法院裁定新的泊車法例不合法,並把它撤銷。",
+      "starter": "The",
+      "answer": "The court struck down the new parking law.",
+      "answerZh": "法院裁定新的泊車法例無效。",
+      "highlight": "struck down",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Sarah answered her critics strongly in a short article.",
+      "promptZh": "莎拉在一篇短文中強烈回應批評她的人。",
+      "starter": "Sarah",
+      "answer": "Sarah struck back at her critics in a short article.",
+      "answerZh": "莎拉在一篇短文中回擊批評她的人。",
+      "highlight": "struck back at",
+      "targetForm": "strike back at somebody",
+      "targetMeaningZh": "受到批評或攻擊後反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The doctor was officially stopped from working because of serious professional misconduct.",
+      "promptZh": "該名醫生因嚴重專業失當行為而被正式取消執業資格。",
+      "starter": "The",
+      "answer": "The doctor was struck off for serious professional misconduct.",
+      "answerZh": "該名醫生因嚴重專業失當行為而被取消執業資格。",
+      "highlight": "struck off for",
+      "targetForm": "strike somebody off",
+      "targetMeaningZh": "把某人從專業名冊中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The frightened cat suddenly tried to hit my hand with its paw.",
+      "promptZh": "受驚的貓突然嘗試用爪攻擊我的手。",
+      "starter": "The",
+      "answer": "The frightened cat struck out at my hand with its paw.",
+      "answerZh": "受驚的貓突然揮爪攻擊我的手。",
+      "highlight": "struck out at",
+      "targetForm": "strike out at somebody/something",
+      "targetMeaningZh": "突然試圖擊打或攻擊"
+    },
+    {
+      "id": "phrasal-verb-278-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I drew lines through two repeated words and removed them from the sentence.",
+      "promptZh": "我在兩個重複的字上畫線,把它們從句子中刪去。",
+      "starter": "I",
+      "answer": "I struck out two repeated words from the sentence.",
+      "answerZh": "我把句子中兩個重複的字劃掉。",
+      "highlight": "struck out",
+      "targetForm": "strike something out",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The gardener removed the dead branch with a hard blow from an axe.",
+      "promptZh": "園丁用斧頭重重一擊,把枯枝砍掉。",
+      "starter": "The",
+      "answer": "The gardener struck the dead branch off with an axe.",
+      "answerZh": "園丁用斧頭重重一擊,把枯枝砍掉。",
+      "highlight": "struck",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉或砍掉"
+    },
+    {
+      "id": "phrasal-verb-278-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The actor tried several times to hit the shield with a wooden sword.",
+      "promptZh": "演員多次嘗試用木劍擊打盾牌。",
+      "starter": "The",
+      "answer": "The actor struck at the shield several times with a wooden sword.",
+      "answerZh": "演員多次用木劍試圖擊打盾牌。",
+      "highlight": "struck at the shield",
+      "targetForm": "strike at something",
+      "targetMeaningZh": "試圖擊打某物"
+    },
+    {
+      "id": "phrasal-verb-278-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "A court cancelled the city ban after deciding that it was not legal.",
+      "promptZh": "法院裁定該項城市禁令不合法後,把它撤銷。",
+      "starter": "A",
+      "answer": "A court struck down the city ban after deciding that it was not legal.",
+      "answerZh": "法院裁定該項城市禁令不合法後,使它失效。",
+      "highlight": "struck down",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The company responded strongly to the false report by presenting clear facts.",
+      "promptZh": "公司提出清楚事實,強烈回應該份失實報道。",
+      "starter": "The",
+      "answer": "The company struck back against the false report with clear facts.",
+      "answerZh": "公司提出清楚事實,反擊該份失實報道。",
+      "highlight": "struck back against",
+      "targetForm": "strike back against something",
+      "targetMeaningZh": "受到攻擊後作出反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Priya became seriously ill with food poisoning after lunch.",
+      "promptZh": "普里雅午膳後因食物中毒而突然病倒。",
+      "starter": "Priya",
+      "answer": "Priya was struck down with food poisoning after lunch.",
+      "answerZh": "普里雅午膳後因食物中毒而突然病倒。",
+      "highlight": "was struck down",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The worker is removing the damaged end with hard blows from a hammer.",
+      "promptZh": "工人正用錘子重擊,把損壞的一端擊掉。",
+      "starter": "The",
+      "answer": "The worker is striking off the damaged end with a hammer.",
+      "answerZh": "工人正用錘子重擊,把損壞的一端擊掉。",
+      "highlight": "striking off",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉或砍掉"
+    },
+    {
+      "id": "phrasal-verb-278-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The singer has responded strongly to the people who spread the false story.",
+      "promptZh": "歌手已強烈回應散播失實故事的人。",
+      "starter": "The",
+      "answer": "The singer has struck back at the people who spread the false story.",
+      "answerZh": "歌手已反擊散播失實故事的人。",
+      "highlight": "struck back at",
+      "targetForm": "strike back at somebody",
+      "targetMeaningZh": "受到攻擊或批評後反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Leo often misses three pitches and loses his turn when the pitches are high.",
+      "promptZh": "當投球較高時,里奧經常連續三球未能擊中而出局。",
+      "starter": "Leo",
+      "answer": "Leo often strikes out when he swings at high pitches.",
+      "answerZh": "當投球較高時,里奧經常三振出局。",
+      "highlight": "strikes out when he swings at high",
+      "targetForm": "strike out",
+      "targetMeaningZh": "在棒球中三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Could the court decide that this rule is not legal and cancel it?",
+      "promptZh": "法院可以裁定這項規則不合法並把它撤銷嗎?",
+      "starter": "Could",
+      "answer": "Could the court strike down this rule?",
+      "answerZh": "法院可以裁定這項規則無效嗎?",
+      "highlight": "strike down",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why did the boxer suddenly try to hit his opponent after the bell?",
+      "promptZh": "鐘聲響起後,那名拳手為何突然嘗試擊打對手?",
+      "starter": "Why",
+      "answer": "Why did the boxer strike out at his opponent after the bell?",
+      "answerZh": "鐘聲響起後,那名拳手為何突然嘗試擊打對手?",
+      "highlight": "strike out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖擊打某人"
+    },
+    {
+      "id": "phrasal-verb-278-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The farmer did not try to hit the fox with the broom.",
+      "promptZh": "農夫沒有嘗試用掃把擊打那隻狐狸。",
+      "starter": "The",
+      "answer": "The farmer did not strike at the fox with the broom.",
+      "answerZh": "農夫沒有嘗試用掃把擊打那隻狐狸。",
+      "highlight": "strike at",
+      "targetForm": "strike at somebody/something",
+      "targetMeaningZh": "試圖擊打某人或某物"
+    },
+    {
+      "id": "phrasal-verb-278-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The dentist has officially been removed from the professional register.",
+      "promptZh": "該名牙醫已正式從專業名冊中被除名。",
+      "starter": "The",
+      "answer": "The dentist has been struck off the professional register.",
+      "answerZh": "該名牙醫已從專業名冊中被除名。",
+      "highlight": "struck off",
+      "targetForm": "strike somebody off something",
+      "targetMeaningZh": "把某人從正式名單中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "When the orchestra begins playing, the dancers will enter.",
+      "promptZh": "樂團開始演奏時,舞蹈員便會進場。",
+      "starter": "When",
+      "answer": "When the orchestra strikes up, the dancers will enter.",
+      "answerZh": "樂團開始演奏時,舞蹈員便會進場。",
+      "highlight": "strikes up",
+      "targetForm": "strike up",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Several pupils have become seriously ill because of a stomach bug.",
+      "promptZh": "數名學生因腸胃病毒而突然病倒。",
+      "starter": "Several",
+      "answer": "Several pupils have been struck down by a stomach bug.",
+      "answerZh": "數名學生因腸胃病毒而突然病倒。",
+      "highlight": "been struck down by",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please draw a line through the old date and write the new one.",
+      "promptZh": "請把舊日期劃掉,並寫上新日期。",
+      "starter": "Please",
+      "answer": "Please strike through the old date and write the new one.",
+      "answerZh": "請把舊日期劃掉,並寫上新日期。",
+      "highlight": "strike",
+      "targetForm": "strike something through",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The pitcher made the first two batters miss three pitches and lose their turns.",
+      "promptZh": "投手令首兩名擊球手連續三球未能擊中而出局。",
+      "starter": "The",
+      "answer": "The pitcher struck the first two batters out.",
+      "answerZh": "投手令首兩名擊球手三振出局。",
+      "highlight": "struck",
+      "targetForm": "strike somebody out",
+      "targetMeaningZh": "令擊球手三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The council may remove him from the official register after the hearing.",
+      "promptZh": "委員會可能會在聆訊後把他從正式名冊中除名。",
+      "starter": "The",
+      "answer": "The council may strike him off the register after the hearing.",
+      "answerZh": "委員會可能會在聆訊後把他從名冊中除名。",
+      "highlight": "strike",
+      "targetForm": "strike somebody off something",
+      "targetMeaningZh": "把某人從正式名單中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The angry customer was making sudden attempts to hit anyone who came near.",
+      "promptZh": "憤怒的顧客突然嘗試攻擊任何走近的人。",
+      "starter": "The",
+      "answer": "The angry customer was striking out at anyone who came near.",
+      "answerZh": "憤怒的顧客突然嘗試攻擊任何走近的人。",
+      "highlight": "striking out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-278-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Can one hard blow remove the loose handle from the door?",
+      "promptZh": "一下重擊可以把鬆脫的門柄擊掉嗎?",
+      "starter": "Can",
+      "answer": "Can one hard blow strike the loose handle off the door?",
+      "answerZh": "一下重擊可以把鬆脫的門柄擊掉嗎?",
+      "highlight": "strike",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉"
+    },
+    {
+      "id": "phrasal-verb-278-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The extra line was not needed, so they removed it with a line before printing the final poster.",
+      "promptZh": "那一行文字並不需要,所以他們在印製最終海報前把它劃掉。",
+      "starter": "The",
+      "answer": "The extra line was not needed, so they struck it out before printing the final poster.",
+      "answerZh": "那一行文字並不需要,所以他們在印製最終海報前把它劃掉。",
+      "highlight": "struck",
+      "targetForm": "strike something out",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After becoming seriously ill with a high fever, Kai stayed in bed for several days.",
+      "promptZh": "啟因高燒突然病倒後,在床上休息了數天。",
+      "starter": "After",
+      "answer": "After being struck down by a high fever, Kai stayed in bed for several days.",
+      "answerZh": "啟因高燒突然病倒後,在床上休息了數天。",
+      "highlight": "being struck down by",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The hiker raised his walking stick because he intended to hit the wild dog.",
+      "promptZh": "遠足者舉起行山杖,打算擊打那隻野狗。",
+      "starter": "The",
+      "answer": "The hiker raised his walking stick to strike at the wild dog.",
+      "answerZh": "遠足者舉起行山杖,打算擊打那隻野狗。",
+      "highlight": "strike at",
+      "targetForm": "strike at somebody/something",
+      "targetMeaningZh": "試圖擊打某人或某物"
+    },
+    {
+      "id": "phrasal-verb-278-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Everyone waited quietly until the band began playing.",
+      "promptZh": "所有人安靜地等候,直至樂隊開始演奏。",
+      "starter": "Everyone",
+      "answer": "Everyone waited quietly until the band struck up.",
+      "answerZh": "所有人安靜地等候,直至樂隊開始演奏。",
+      "highlight": "struck up",
+      "targetForm": "strike up",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After the hearing, the medical council removed her from the medical register.",
+      "promptZh": "聆訊後,醫務委員會把她從醫生名冊中除名。",
+      "starter": "After",
+      "answer": "After the hearing, the medical council struck her off the medical register.",
+      "answerZh": "聆訊後,醫務委員會把她從醫生名冊中除名。",
+      "highlight": "struck",
+      "targetForm": "strike somebody off something",
+      "targetMeaningZh": "把某人從專業名冊中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The young pitcher made him miss three fast pitches and lose his turn.",
+      "promptZh": "年輕投手投出三個快速球,令他未能擊中而出局。",
+      "starter": "The",
+      "answer": "The young pitcher struck him out with three fast pitches.",
+      "answerZh": "年輕投手投出三個快速球,令他三振出局。",
+      "highlight": "struck",
+      "targetForm": "strike somebody out",
+      "targetMeaningZh": "令擊球手三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Rather than stay silent, Elena decided to respond to the newspaper’s attack.",
+      "promptZh": "埃琳娜沒有保持沉默,而是決定回應報章的攻擊。",
+      "starter": "Rather",
+      "answer": "Rather than stay silent, Elena decided to strike back at the newspaper.",
+      "answerZh": "埃琳娜沒有保持沉默,而是決定反擊該份報章。",
+      "highlight": "strike back at",
+      "targetForm": "strike back at somebody/something",
+      "targetMeaningZh": "受到攻擊後作出反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The loose piece was dangerous, so the worker removed it with a hard hammer blow.",
+      "promptZh": "鬆脫的部分十分危險,所以工人用錘子重擊把它擊掉。",
+      "starter": "The",
+      "answer": "The loose piece was dangerous, so the worker struck it off with a hammer.",
+      "answerZh": "鬆脫的部分十分危險,所以工人用錘子把它擊掉。",
+      "highlight": "struck",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉"
+    },
+    {
+      "id": "phrasal-verb-278-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The court cancelled the law because it found the law unfair and illegal.",
+      "promptZh": "法院認為該項法律不公平及不合法,因此把它撤銷。",
+      "starter": "The",
+      "answer": "The law was struck down because the court found it unfair and illegal.",
+      "answerZh": "法院認為該項法律不公平及不合法,因此裁定它無效。",
+      "highlight": "The law was struck down because",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Without warning, the horse suddenly tried to kick the man beside it.",
+      "promptZh": "那匹馬毫無預警地突然嘗試踢向站在旁邊的男子。",
+      "starter": "Without",
+      "answer": "Without warning, the horse struck out at the man beside it.",
+      "answerZh": "那匹馬毫無預警地突然踢向站在旁邊的男子。",
+      "highlight": "struck out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖擊打或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-278-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "As the animal moved closer, the keeper began trying repeatedly to hit it with a pole.",
+      "promptZh": "那隻動物逐漸走近時,飼養員開始反覆嘗試用長桿擊打它。",
+      "starter": "As",
+      "answer": "As the animal moved closer, the keeper began striking at it with a pole.",
+      "answerZh": "那隻動物逐漸走近時,飼養員開始用長桿反覆嘗試擊打它。",
+      "highlight": "striking at",
+      "targetForm": "strike at somebody/something",
+      "targetMeaningZh": "試圖擊打某人或某物"
+    },
+    {
+      "id": "phrasal-verb-278-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The editor drew a line through the final sentence because it repeated an earlier point.",
+      "promptZh": "編輯把最後一句劃掉,因為它重複了之前的重點。",
+      "starter": "The",
+      "answer": "The editor struck through the final sentence because it repeated an earlier point.",
+      "answerZh": "編輯把最後一句劃掉,因為它重複了之前的重點。",
+      "highlight": "struck",
+      "targetForm": "strike something through",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "How did the coach respond to the unfair claim? She showed everyone the full video.",
+      "promptZh": "教練如何反擊該項不公平的指控?她向所有人展示了完整影片。",
+      "starter": "How",
+      "answer": "How did the coach strike back against the unfair claim? She showed everyone the full video.",
+      "answerZh": "教練如何反擊該項不公平的指控?她向所有人展示了完整影片。",
+      "highlight": "strike back against",
+      "targetForm": "strike back against something",
+      "targetMeaningZh": "受到攻擊或批評後反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "At eight o’clock, the musicians began playing a slow dance tune.",
+      "promptZh": "八時正,樂手開始演奏一首慢舞曲。",
+      "starter": "At",
+      "answer": "At eight o’clock, the musicians struck up a slow dance tune.",
+      "answerZh": "八時正,樂手奏起一首慢舞曲。",
+      "highlight": "struck up",
+      "targetForm": "strike up something",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Only a court has the power to declare a law invalid in this way.",
+      "promptZh": "只有法院有權以這種方式裁定法律無效。",
+      "starter": "Only",
+      "answer": "Only a court can strike down a law in this way.",
+      "answerZh": "只有法院有權以這種方式裁定法律無效。",
+      "highlight": "can strike down",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The player did not use a stick; he suddenly tried to hit the referee with his fist.",
+      "promptZh": "那名球員沒有使用棍棒,而是突然嘗試用拳頭擊打球證。",
+      "starter": "The",
+      "answer": "The player did not use a stick; he suddenly struck out at the referee with his fist.",
+      "answerZh": "那名球員沒有使用棍棒,而是突然用拳頭攻擊球證。",
+      "highlight": "struck out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖擊打某人"
+    },
+    {
+      "id": "phrasal-verb-278-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The club removed his name from the member list after he left.",
+      "promptZh": "他離開後,學會把他的名字從會員名單中刪除。",
+      "starter": "The",
+      "answer": "The club struck his name off the member list after he left.",
+      "answerZh": "他離開後,學會把他的名字從會員名單中刪除。",
+      "highlight": "struck",
+      "targetForm": "strike something off something",
+      "targetMeaningZh": "把名字從名單中刪除"
+    },
+    {
+      "id": "phrasal-verb-278-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The woman kept trying to hit the locked door with a metal bar.",
+      "promptZh": "該名女子不斷嘗試用金屬棒擊打上鎖的門。",
+      "starter": "The",
+      "answer": "The woman kept striking at the locked door with a metal bar.",
+      "answerZh": "該名女子不斷用金屬棒擊打上鎖的門。",
+      "highlight": "striking at",
+      "targetForm": "strike at something",
+      "targetMeaningZh": "試圖擊打某物"
+    },
+    {
+      "id": "phrasal-verb-278-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "As soon as the band began playing a waltz, the older guests began to dance.",
+      "promptZh": "樂隊一開始演奏華爾茲,年長的賓客便開始跳舞。",
+      "starter": "As",
+      "answer": "As soon as the band struck up a waltz, the older guests began to dance.",
+      "answerZh": "樂隊一奏起華爾茲,年長的賓客便開始跳舞。",
+      "highlight": "struck up",
+      "targetForm": "strike up something",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The illness did not merely make Yusuf tired; it made him seriously ill for nearly two weeks.",
+      "promptZh": "該疾病不只是令尤素夫疲倦,更令他病重近兩星期。",
+      "starter": "The",
+      "answer": "The illness did not merely make Yusuf tired; it struck him down for nearly two weeks.",
+      "answerZh": "該疾病不只是令尤素夫疲倦,更令他病重近兩星期。",
+      "highlight": "struck",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not rewrite the whole form; simply draw a line through the wrong address.",
+      "promptZh": "不要重寫整份表格,只須把錯誤地址劃掉。",
+      "starter": "Do",
+      "answer": "Do not rewrite the whole form; simply strike out the wrong address.",
+      "answerZh": "不要重寫整份表格,只須把錯誤地址劃掉。",
+      "highlight": "strike out",
+      "targetForm": "strike something out",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The broken top was removed from the post with a hard blow during the repair.",
+      "promptZh": "維修期間,柱子的損壞頂部被重擊移除。",
+      "starter": "The",
+      "answer": "The broken top was struck off the post during the repair.",
+      "answerZh": "維修期間,柱子的損壞頂部被重擊移除。",
+      "highlight": "struck off",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉"
+    },
+    {
+      "id": "phrasal-verb-278-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "If Ava misses three pitches and loses her turn again, the next batter will take her place.",
+      "promptZh": "如果艾娃再次連續三球未能擊中而出局,下一名擊球手便會代替她。",
+      "starter": "If",
+      "answer": "If Ava strikes out again, the next batter will take her place.",
+      "answerZh": "如果艾娃再次三振出局,下一名擊球手便會代替她。",
+      "highlight": "strikes out",
+      "targetForm": "strike out",
+      "targetMeaningZh": "在棒球中三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "In the interview, the actor strongly answered claims that he had lied.",
+      "promptZh": "演員在訪問中強烈回應有關他說謊的指控。",
+      "starter": "In",
+      "answer": "In the interview, the actor struck back against claims that he had lied.",
+      "answerZh": "演員在訪問中反擊有關他說謊的指控。",
+      "highlight": "struck back against",
+      "targetForm": "strike back against something",
+      "targetMeaningZh": "受到批評或攻擊後反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "A sudden virus made three members of the team seriously ill before the match.",
+      "promptZh": "比賽前,一種突發病毒令三名隊員突然病倒。",
+      "starter": "A",
+      "answer": "A sudden virus struck down three members of the team before the match.",
+      "answerZh": "比賽前,一種突發病毒令三名隊員突然病倒。",
+      "highlight": "struck down",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Why was the lawyer officially stopped from working after the hearing?",
+      "promptZh": "該名律師為何在聆訊後被正式取消執業資格?",
+      "starter": "Why",
+      "answer": "Why was the lawyer struck off after the hearing?",
+      "answerZh": "該名律師為何在聆訊後被取消執業資格?",
+      "highlight": "struck off",
+      "targetForm": "strike somebody off",
+      "targetMeaningZh": "把某人從專業名冊中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The judges refused to cancel the rule because they believed that it was legal.",
+      "promptZh": "法官拒絕撤銷該項規則,因為他們相信它是合法的。",
+      "starter": "The",
+      "answer": "The judges refused to strike down the rule because they believed that it was legal.",
+      "answerZh": "法官拒絕撤銷該項規則,因為他們相信它是合法的。",
+      "highlight": "strike down",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before fitting the new part, the mechanic had to remove the damaged end by hitting it hard.",
+      "promptZh": "安裝新零件前,機械技工必須用力擊掉損壞的一端。",
+      "starter": "Before",
+      "answer": "Before fitting the new part, the mechanic had to strike the damaged end off.",
+      "answerZh": "安裝新零件前,機械技工必須用力擊掉損壞的一端。",
+      "highlight": "strike",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉"
+    },
+    {
+      "id": "phrasal-verb-278-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After months of unfair attacks, the writer finally responded to her critics with a detailed reply.",
+      "promptZh": "受到數月不公平的攻擊後,作家終於以詳細回應反擊批評她的人。",
+      "starter": "After",
+      "answer": "After months of unfair attacks, the writer finally struck back at her critics with a detailed reply.",
+      "answerZh": "受到數月不公平的攻擊後,作家終於以詳細回應反擊批評她的人。",
+      "highlight": "struck back at",
+      "targetForm": "strike back at somebody",
+      "targetMeaningZh": "受到批評或攻擊後反擊"
+    },
+    {
+      "id": "phrasal-verb-278-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before sending the form, Jordan drew a line through one answer and wrote a clearer one beside it.",
+      "promptZh": "提交表格前,佐敦把其中一個答案劃掉,並在旁邊寫上一個更清楚的答案。",
+      "starter": "Before",
+      "answer": "Before sending the form, Jordan struck through one answer and wrote a clearer one beside it.",
+      "answerZh": "提交表格前,佐敦把其中一個答案劃掉,並在旁邊寫上一個更清楚的答案。",
+      "highlight": "struck",
+      "targetForm": "strike something through",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the rule had been used for years, the highest court cancelled it after finding that it was not legal.",
+      "promptZh": "該項規則雖然已使用多年,但最高法院裁定它不合法後把它撤銷。",
+      "starter": "Although",
+      "answer": "Although the rule had been used for years, the highest court struck it down after finding that it was not legal.",
+      "answerZh": "該項規則雖然已使用多年,但最高法院裁定它不合法後使它失效。",
+      "highlight": "struck",
+      "targetForm": "strike something down",
+      "targetMeaningZh": "由法院裁定法律或規則無效"
+    },
+    {
+      "id": "phrasal-verb-278-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the handler moved closer, the frightened animal suddenly tried to hit him but missed.",
+      "promptZh": "管理員走近時,受驚的動物突然嘗試攻擊他,但沒有擊中。",
+      "starter": "When",
+      "answer": "When the handler moved closer, the frightened animal struck out at him but missed.",
+      "answerZh": "管理員走近時,受驚的動物突然攻擊他,但沒有擊中。",
+      "highlight": "struck out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖擊打或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-278-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As the wolf came towards the camp, the guide used a long pole to try to hit it several times.",
+      "promptZh": "那匹狼走近營地時,領隊用長桿多次嘗試擊打它。",
+      "starter": "As",
+      "answer": "As the wolf came towards the camp, the guide used a long pole to strike at it several times.",
+      "answerZh": "那匹狼走近營地時,領隊用長桿多次嘗試擊打它。",
+      "highlight": "strike at",
+      "targetForm": "strike at somebody/something",
+      "targetMeaningZh": "試圖擊打某人或某物"
+    },
+    {
+      "id": "phrasal-verb-278-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Once the speeches ended, the small band began playing and the celebration finally started.",
+      "promptZh": "演說結束後,小型樂隊開始演奏,慶祝活動終於開始。",
+      "starter": "Once",
+      "answer": "Once the speeches ended, the small band struck up and the celebration finally began.",
+      "answerZh": "演說結束後,小型樂隊開始演奏,慶祝活動終於開始。",
+      "highlight": "struck up",
+      "targetForm": "strike up",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The board decided to remove the doctor from the register after clear proof of serious misconduct.",
+      "promptZh": "有清楚證據證明該名醫生有嚴重失當行為後,委員會決定把他從名冊中除名。",
+      "starter": "The",
+      "answer": "The board decided to strike the doctor off the register after clear proof of serious misconduct.",
+      "answerZh": "有清楚證據證明該名醫生有嚴重失當行為後,委員會決定把他從名冊中除名。",
+      "highlight": "strike",
+      "targetForm": "strike somebody off something",
+      "targetMeaningZh": "把某人從專業名冊中除名"
+    },
+    {
+      "id": "phrasal-verb-278-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Just days before the race, a serious illness made the runner too ill to take part.",
+      "promptZh": "比賽前數天,一場嚴重疾病令該名跑手突然病倒,無法參賽。",
+      "starter": "Just",
+      "answer": "Just days before the race, a serious illness struck the runner down.",
+      "answerZh": "比賽前數天,一場嚴重疾病令該名跑手突然病倒。",
+      "highlight": "struck",
+      "targetForm": "strike somebody down",
+      "targetMeaningZh": "使某人突然病重"
+    },
+    {
+      "id": "phrasal-verb-278-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "With two players already out, the pitcher made the final batter miss three pitches and ended the game.",
+      "promptZh": "已有兩名球員出局,投手令最後一名擊球手連續三球未能擊中,結束了比賽。",
+      "starter": "With",
+      "answer": "With two players already out, the pitcher struck the final batter out and ended the game.",
+      "answerZh": "已有兩名球員出局,投手令最後一名擊球手三振出局,結束了比賽。",
+      "highlight": "struck",
+      "targetForm": "strike somebody out",
+      "targetMeaningZh": "令擊球手三振出局"
+    },
+    {
+      "id": "phrasal-verb-278-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "After checking that nobody was nearby, the worker removed the loose branch with two hard blows.",
+      "promptZh": "工人確定附近沒有人後,用兩下重擊把鬆脫的樹枝擊掉。",
+      "starter": "After",
+      "answer": "After checking that nobody was nearby, the worker struck off the loose branch with two hard blows.",
+      "answerZh": "工人確定附近沒有人後,用兩下重擊把鬆脫的樹枝擊掉。",
+      "highlight": "struck off",
+      "targetForm": "strike something off",
+      "targetMeaningZh": "用重擊把某物擊掉"
+    },
+    {
+      "id": "phrasal-verb-278-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although he had promised to stay calm, the angry player suddenly tried to hit the other player.",
+      "promptZh": "憤怒的球員雖然曾答應保持冷靜,卻突然嘗試擊打另一名球員。",
+      "starter": "Although",
+      "answer": "Although he had promised to stay calm, the angry player suddenly struck out at the other player.",
+      "answerZh": "憤怒的球員雖然曾答應保持冷靜,卻突然攻擊另一名球員。",
+      "highlight": "struck out at",
+      "targetForm": "strike out at somebody",
+      "targetMeaningZh": "突然試圖擊打某人"
+    },
+    {
+      "id": "phrasal-verb-278-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "If this sentence is not needed, draw a line through it rather than leaving it in the final report.",
+      "promptZh": "如果不需要這個句子,便把它劃掉,不要把它保留在最終報告中。",
+      "starter": "If",
+      "answer": "If this sentence is not needed, strike it out rather than leaving it in the final report.",
+      "answerZh": "如果不需要這個句子,便把它劃掉,不要把它保留在最終報告中。",
+      "highlight": "strike",
+      "targetForm": "strike something out",
+      "targetMeaningZh": "把文字劃掉"
+    },
+    {
+      "id": "phrasal-verb-278-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The guests were still talking when the orchestra suddenly began playing a lively march.",
+      "promptZh": "樂團突然開始演奏一首輕快進行曲時,賓客仍在交談。",
+      "starter": "The",
+      "answer": "The guests were still talking when the orchestra suddenly struck up a lively march.",
+      "answerZh": "樂團突然奏起一首輕快進行曲時,賓客仍在交談。",
+      "highlight": "struck up",
+      "targetForm": "strike up something",
+      "targetMeaningZh": "開始演奏音樂"
+    },
+    {
+      "id": "phrasal-verb-278-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Why did the batter miss three pitches and lose his turn when the final pitch was easy to hit?",
+      "promptZh": "最後一球明明很容易擊中,為何該名擊球手仍連續三球未能擊中而出局?",
+      "starter": "Why",
+      "answer": "Why did the batter strike out when the final pitch was easy to hit?",
+      "answerZh": "最後一球明明很容易擊中,為何該名擊球手仍然三振出局?",
+      "highlight": "strike out",
+      "targetForm": "strike out",
+      "targetMeaningZh": "在棒球中三振出局"
+    }
+  ]
+}

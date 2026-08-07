@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-179",
+  "order": 179,
+  "slug": "go-off",
+  "version": "1",
+  "title": "GO OFF 動詞片語",
+  "titleEn": "Go Off",
+  "titleZh": "GO OFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 178 - GO OFF.pdf",
+    "sourceNumber": 178,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GO OFF 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GO OFF."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GO OFF",
+      "highlight": "GO OFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "You go off and have fun.",
+      "zh": "你去吧,好好玩。",
+      "highlight": "go off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I think she's going off me.",
+      "zh": "我覺得她開始不喜歡我了。",
+      "highlight": "going off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Eddie's gone off with his wife's best friend.",
+      "zh": "埃迪離開了妻子,跟她最好的朋友走了。",
+      "highlight": "gone off with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "離開這裏或某人,前往別處做某事；開始不喜歡某人或某事物;逐漸失去興趣；離開伴侶,跟另一個人走或開始新關係；把某物帶走,通常沒有先問或拿錯了",
+    "en": "go off; go off somebody/something; go off with somebody; go off with something",
+    "naturalZh": [
+      "離開這裏或某人,前往別處做某事",
+      "開始不喜歡某人或某事物;逐漸失去興趣",
+      "離開伴侶,跟另一個人走或開始新關係",
+      "把某物帶走,通常沒有先問或拿錯了"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "go off",
+      "titleZh": "離開這裏或某人,前往別處做某事",
+      "titleEn": "go off",
+      "descriptionZh": "離開這裏或某人,前往別處做某事",
+      "descriptionEn": "You go off and have fun.",
+      "examples": [
+        {
+          "en": "You go off and have fun.",
+          "zh": "你去吧,好好玩。",
+          "highlight": "go off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go off somebody/something",
+      "titleZh": "開始不喜歡某人或某事物;逐漸失去興趣",
+      "titleEn": "go off somebody/something",
+      "descriptionZh": "開始不喜歡某人或某事物;逐漸失去興趣",
+      "descriptionEn": "I think she's going off me.",
+      "examples": [
+        {
+          "en": "I think she's going off me.",
+          "zh": "我覺得她開始不喜歡我了。",
+          "highlight": "going off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go off with somebody",
+      "titleZh": "離開伴侶,跟另一個人走或開始新關係",
+      "titleEn": "go off with somebody",
+      "descriptionZh": "離開伴侶,跟另一個人走或開始新關係",
+      "descriptionEn": "Eddie's gone off with his wife's best friend.",
+      "examples": [
+        {
+          "en": "Eddie's gone off with his wife's best friend.",
+          "zh": "埃迪離開了妻子,跟她最好的朋友走了。",
+          "highlight": "gone off with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go off with something",
+      "titleZh": "把某物帶走,通常沒有先問或拿錯了",
+      "titleEn": "go off with something",
+      "descriptionZh": "把某物帶走,通常沒有先問或拿錯了",
+      "descriptionEn": "Who's gone off with my new pen?",
+      "examples": [
+        {
+          "en": "Who's gone off with my new pen?",
+          "zh": "誰把我的新筆拿走了?",
+          "highlight": "gone off with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GO OFF 片語動詞的實際用途",
+    "labelEn": "GO OFF Phrasal Verbs in Use",
+    "summaryZh": "go off 可以表示某人離開,前往另一個地方或進行另一項活動。；go off somebody/something 可以表示你開始不喜歡某人、食物、活動或想法。；go off with somebody 可以表示某人離開伴侶,跟另一個人在一起。；go off with something 適合用來表示某人把物件拿走,可能沒有先問,或只是拿錯了。",
+    "summaryEn": "Go off can show that someone leaves and moves on to another place or activity. Go off somebody/something helps you say that you are beginning to dislike a person, food, activity or idea. Go off with somebody can describe a person leaving a partner for somebody else. Go off with something is useful when somebody has taken an object away, perhaps without asking or by mistake.",
+    "contextsZh": [
+      "自然地談論離開去做另一件事",
+      "描述喜好和感覺的轉變",
+      "理解感情關係的轉變",
+      "談論被人拿走或不見了的物件"
+    ],
+    "contextsEn": [
+      "Talk naturally about leaving to do something",
+      "Describe changing likes and feelings",
+      "Understand relationship changes",
+      "Ask about things that have disappeared"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GO OFF 表達。",
+    "formalEn": "Read the whole sentence and choose the GO OFF expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "go off",
+    "fixedHighlight": "go off",
+    "fixedZh": "閱讀整句,選出意思相同的 GO OFF 表達。",
+    "fixedEn": "Read the whole sentence and choose the GO OFF expression that gives the same meaning.",
+    "correct": "go off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；go off somebody/something 表示開始不喜歡某人或某事物,或逐漸失去興趣。；go off with somebody 和 go off with something 外形相近。請留意句子是談論感情關係,還是被人帶走的物件。",
+    "variableEn": "Keep the same people, things, time and meaning. Go off somebody/something means that you begin to dislike that person or thing, or lose interest in it. Go off with somebody and go off with something look similar. Check whether the sentence is about a relationship or a missing object.",
+    "variableItemsZh": [
+      "go off",
+      "go off somebody/something",
+      "go off with somebody",
+      "go off with something"
+    ],
+    "variableItemsEn": [
+      "go off",
+      "go off somebody/something",
+      "go off with somebody",
+      "go off with something"
+    ],
+    "forms": [
+      {
+        "formZh": "離開這裏或某人,前往別處做某事",
+        "formEn": "go off",
+        "exampleZh": "你去吧,好好玩。",
+        "exampleEn": "You go off and have fun.",
+        "highlight": "go off"
+      },
+      {
+        "formZh": "開始不喜歡某人或某事物;逐漸失去興趣",
+        "formEn": "go off somebody/something",
+        "exampleZh": "我覺得她開始不喜歡我了。",
+        "exampleEn": "I think she's going off me.",
+        "highlight": "going off"
+      },
+      {
+        "formZh": "離開伴侶,跟另一個人走或開始新關係",
+        "formEn": "go off with somebody",
+        "exampleZh": "埃迪離開了妻子,跟她最好的朋友走了。",
+        "exampleEn": "Eddie's gone off with his wife's best friend.",
+        "highlight": "gone off with"
+      },
+      {
+        "formZh": "把某物帶走,通常沒有先問或拿錯了",
+        "formEn": "go off with something",
+        "exampleZh": "誰把我的新筆拿走了?",
+        "exampleEn": "Who's gone off with my new pen?",
+        "highlight": "gone off with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "離開這裏或某人,前往別處做某事",
+      "titleEn": "go off",
+      "formula": "go off",
+      "highlight": "go off",
+      "descriptionZh": "離開這裏或某人,前往別處做某事",
+      "descriptionEn": "You go off and have fun.",
+      "examples": [
+        {
+          "en": "You go off and have fun.",
+          "zh": "你去吧,好好玩。",
+          "highlight": "go off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "開始不喜歡某人或某事物;逐漸失去興趣",
+      "titleEn": "go off somebody/something",
+      "formula": "go off somebody/something",
+      "highlight": "go off somebody/something",
+      "descriptionZh": "開始不喜歡某人或某事物;逐漸失去興趣",
+      "descriptionEn": "I think she's going off me.",
+      "examples": [
+        {
+          "en": "I think she's going off me.",
+          "zh": "我覺得她開始不喜歡我了。",
+          "highlight": "going off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "離開伴侶,跟另一個人走或開始新關係",
+      "titleEn": "go off with somebody",
+      "formula": "go off with somebody",
+      "highlight": "go off with somebody",
+      "descriptionZh": "離開伴侶,跟另一個人走或開始新關係",
+      "descriptionEn": "Eddie's gone off with his wife's best friend.",
+      "examples": [
+        {
+          "en": "Eddie's gone off with his wife's best friend.",
+          "zh": "埃迪離開了妻子,跟她最好的朋友走了。",
+          "highlight": "gone off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物帶走,通常沒有先問或拿錯了",
+      "titleEn": "go off with something",
+      "formula": "go off with something",
+      "highlight": "go off with something",
+      "descriptionZh": "把某物帶走,通常沒有先問或拿錯了",
+      "descriptionEn": "Who's gone off with my new pen?",
+      "examples": [
+        {
+          "en": "Who's gone off with my new pen?",
+          "zh": "誰把我的新筆拿走了?",
+          "highlight": "gone off with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論離開去做另一件事",
+      "titleEn": "Talk naturally about leaving to do something",
+      "zh": "go off 可以表示某人離開,前往另一個地方或進行另一項活動。",
+      "en": "Go off can show that someone leaves and moves on to another place or activity."
+    },
+    {
+      "titleZh": "描述喜好和感覺的轉變",
+      "titleEn": "Describe changing likes and feelings",
+      "zh": "go off somebody/something 可以表示你開始不喜歡某人、食物、活動或想法。",
+      "en": "Go off somebody/something helps you say that you are beginning to dislike a person, food, activity or idea."
+    },
+    {
+      "titleZh": "理解感情關係的轉變",
+      "titleEn": "Understand relationship changes",
+      "zh": "go off with somebody 可以表示某人離開伴侶,跟另一個人在一起。",
+      "en": "Go off with somebody can describe a person leaving a partner for somebody else."
+    },
+    {
+      "titleZh": "談論被人拿走或不見了的物件",
+      "titleEn": "Ask about things that have disappeared",
+      "zh": "go off with something 適合用來表示某人把物件拿走,可能沒有先問,或只是拿錯了。",
+      "en": "Go off with something is useful when somebody has taken an object away, perhaps without asking or by mistake."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論離開去做另一件事",
+      "描述喜好和感覺的轉變",
+      "理解感情關係的轉變",
+      "談論被人拿走或不見了的物件"
+    ],
+    "contextsEn": [
+      "Talk naturally about leaving to do something",
+      "Describe changing likes and feelings",
+      "Understand relationship changes",
+      "Ask about things that have disappeared"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論離開去做另一件事",
+        "titleEn": "Talk naturally about leaving to do something",
+        "zh": "go off 可以表示某人離開,前往另一個地方或進行另一項活動。",
+        "en": "Go off can show that someone leaves and moves on to another place or activity.",
+        "examples": [
+          {
+            "en": "You go off and have fun.",
+            "zh": "你去吧,好好玩。",
+            "highlight": "go off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述喜好和感覺的轉變",
+        "titleEn": "Describe changing likes and feelings",
+        "zh": "go off somebody/something 可以表示你開始不喜歡某人、食物、活動或想法。",
+        "en": "Go off somebody/something helps you say that you are beginning to dislike a person, food, activity or idea.",
+        "examples": [
+          {
+            "en": "I think she's going off me.",
+            "zh": "我覺得她開始不喜歡我了。",
+            "highlight": "going off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解感情關係的轉變",
+        "titleEn": "Understand relationship changes",
+        "zh": "go off with somebody 可以表示某人離開伴侶,跟另一個人在一起。",
+        "en": "Go off with somebody can describe a person leaving a partner for somebody else.",
+        "examples": [
+          {
+            "en": "Eddie's gone off with his wife's best friend.",
+            "zh": "埃迪離開了妻子,跟她最好的朋友走了。",
+            "highlight": "gone off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論被人拿走或不見了的物件",
+        "titleEn": "Ask about things that have disappeared",
+        "zh": "go off with something 適合用來表示某人把物件拿走,可能沒有先問,或只是拿錯了。",
+        "en": "Go off with something is useful when somebody has taken an object away, perhaps without asking or by mistake.",
+        "examples": [
+          {
+            "en": "Who's gone off with my new pen?",
+            "zh": "誰把我的新筆拿走了?",
+            "highlight": "gone off with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GO OFF 表達。",
+      "titleEn": "Read the whole sentence and choose the GO OFF expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GO OFF 表達。",
+      "en": "Read the whole sentence and choose the GO OFF expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "go off somebody/something 表示開始不喜歡某人或某事物,或逐漸失去興趣。",
+      "titleEn": "Go off somebody/something means that you begin to dislike that person or thing, or lose interest in it.",
+      "zh": "go off somebody/something 表示開始不喜歡某人或某事物,或逐漸失去興趣。",
+      "en": "Go off somebody/something means that you begin to dislike that person or thing, or lose interest in it."
+    },
+    {
+      "titleZh": "go off with somebody 和 go off with something 外形相近。請留意句子是談論感情關係,還是被人帶走的物件。",
+      "titleEn": "Go off with somebody and go off with something look similar.",
+      "zh": "go off with somebody 和 go off with something 外形相近。請留意句子是談論感情關係,還是被人帶走的物件。",
+      "en": "Go off with somebody and go off with something look similar. Check whether the sentence is about a relationship or a missing object."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GO OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GO OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GO OFF 動詞片語句子改寫練習",
+    "titleEn": "GO OFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GO OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GO OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-179-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "You can leave now and enjoy the party.",
+      "promptZh": "你現在可以離開,去享受派對。",
+      "starter": "You",
+      "answer": "You can go off now and enjoy the party.",
+      "answerZh": "你現在可以離開,去享受派對。",
+      "highlight": "go off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Lily no longer likes coffee.",
+      "promptZh": "莉莉不再喜歡咖啡。",
+      "starter": "Lily",
+      "answer": "Lily has gone off coffee.",
+      "answerZh": "莉莉已開始不喜歡咖啡。",
+      "highlight": "has gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Someone has taken my blue umbrella away.",
+      "promptZh": "有人把我的藍色雨傘拿走了。",
+      "starter": "Someone",
+      "answer": "Someone has gone off with my blue umbrella.",
+      "answerZh": "有人把我的藍色雨傘拿走了。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Daniel left his wife and began a relationship with her friend.",
+      "promptZh": "丹尼爾離開了妻子,並跟她的朋友開始了一段關係。",
+      "starter": "Daniel",
+      "answer": "Daniel left his wife and went off with her friend.",
+      "answerZh": "丹尼爾離開了妻子,跟她的朋友走了。",
+      "highlight": "went off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The children left to play in the garden.",
+      "promptZh": "孩子們離開去花園玩耍。",
+      "starter": "The",
+      "answer": "The children went off to play in the garden.",
+      "answerZh": "孩子們離開去花園玩耍。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I am starting to dislike this song.",
+      "promptZh": "我開始不喜歡這首歌。",
+      "starter": "I",
+      "answer": "I am going off this song.",
+      "answerZh": "我開始不喜歡這首歌。",
+      "highlight": "going off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Who has taken my new pen away?",
+      "promptZh": "誰把我的新筆拿走了?",
+      "starter": "Who",
+      "answer": "Who has gone off with my new pen?",
+      "answerZh": "誰把我的新筆拿走了?",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Eva left her boyfriend and started a new life with Noah.",
+      "promptZh": "伊娃離開了男朋友,並跟諾亞展開新生活。",
+      "starter": "Eva",
+      "answer": "Eva left her boyfriend and went off with Noah.",
+      "answerZh": "伊娃離開了男朋友,跟諾亞走了。",
+      "highlight": "went off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben used to love football, but he no longer enjoys it.",
+      "promptZh": "賓以前很喜歡足球,但現在已不再享受這項運動。",
+      "starter": "Ben",
+      "answer": "Ben has gone off football.",
+      "answerZh": "賓已開始不喜歡足球。",
+      "highlight": "has gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Go and have fun; I will finish the work here.",
+      "promptZh": "你去玩吧;我會在這裏完成工作。",
+      "starter": "Go",
+      "answer": "Go off and have fun; I will finish the work here.",
+      "answerZh": "你去玩吧;我會在這裏完成工作。",
+      "highlight": "Go off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her husband has left her to be with a colleague.",
+      "promptZh": "她的丈夫已離開她,跟一名同事在一起。",
+      "starter": "Her",
+      "answer": "Her husband has left her and gone off with a colleague.",
+      "answerZh": "她的丈夫已離開她,跟一名同事走了。",
+      "highlight": "and gone off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ravi is slowly losing interest in video games.",
+      "promptZh": "拉維正慢慢對電子遊戲失去興趣。",
+      "starter": "Ravi",
+      "answer": "Ravi is going off video games.",
+      "answerZh": "拉維正逐漸不再喜歡電子遊戲。",
+      "highlight": "going off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sofia will leave for university next month.",
+      "promptZh": "索菲亞下個月會離家上大學。",
+      "starter": "Sofia",
+      "answer": "Sofia will go off to university next month.",
+      "answerZh": "索菲亞下個月會離家上大學。",
+      "highlight": "go off to",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A customer has accidentally taken our shop umbrella away.",
+      "promptZh": "一名顧客意外地把本店的雨傘拿走了。",
+      "starter": "A",
+      "answer": "A customer has gone off with our shop umbrella by mistake.",
+      "answerZh": "一名顧客誤把本店的雨傘拿走了。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did Leo really leave his partner and start a relationship with Anna?",
+      "promptZh": "里奧真的離開了伴侶,並跟安娜開始了一段關係嗎?",
+      "starter": "Did",
+      "answer": "Did Leo really leave his partner and go off with Anna?",
+      "answerZh": "里奧真的離開了伴侶,跟安娜走了嗎?",
+      "highlight": "go off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "I have started to dislike sweet drinks.",
+      "promptZh": "我已開始不喜歡甜飲品。",
+      "starter": "I",
+      "answer": "I have gone off sweet drinks.",
+      "answerZh": "我已開始不喜歡甜飲品。",
+      "highlight": "gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has anyone taken the office keys away?",
+      "promptZh": "有人把辦公室鎖匙拿走了嗎?",
+      "starter": "Has",
+      "answer": "Has anyone gone off with the office keys?",
+      "answerZh": "有人把辦公室鎖匙拿走了嗎?",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The class is leaving for lunch now.",
+      "promptZh": "全班現在正離開去吃午飯。",
+      "starter": "The",
+      "answer": "The class is going off for lunch now.",
+      "answerZh": "全班現在正離開去吃午飯。",
+      "highlight": "going off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nina had left her husband for another man before the story began.",
+      "promptZh": "故事開始前,妮娜已離開丈夫,跟另一名男子在一起。",
+      "starter": "Nina",
+      "answer": "Nina had left her husband and gone off with another man before the story began.",
+      "answerZh": "故事開始前,妮娜已離開丈夫,跟另一名男子走了。",
+      "highlight": "and gone off with",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why has Chloe stopped liking her favourite actor?",
+      "promptZh": "克洛伊為何不再喜歡她最喜愛的演員?",
+      "starter": "Why",
+      "answer": "Why has Chloe gone off her favourite actor?",
+      "answerZh": "克洛伊為何開始不喜歡她最喜愛的演員?",
+      "highlight": "gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Sam borrowed my charger and left with it.",
+      "promptZh": "森借了我的充電器,然後把它帶走了。",
+      "starter": "Sam",
+      "answer": "Sam borrowed my charger and went off with it.",
+      "answerZh": "森借了我的充電器,然後把它帶走了。",
+      "highlight": "went off",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Grace said goodbye and left to meet her cousins.",
+      "promptZh": "格蕾絲道別後,便離開去見表兄弟姊妹。",
+      "starter": "Grace",
+      "answer": "Grace said goodbye and went off to meet her cousins.",
+      "answerZh": "格蕾絲道別後,便離開去見表兄弟姊妹。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I used to enjoy the soup here, but I do not like it now.",
+      "promptZh": "我以前喜歡這裏的湯,但現在已不喜歡。",
+      "starter": "I",
+      "answer": "I have gone off the soup here.",
+      "answerZh": "我已開始不喜歡這裏的湯。",
+      "highlight": "have gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After months of arguments, Jacob left his wife and started a relationship with a neighbour.",
+      "promptZh": "爭吵數月後,雅各布離開了妻子,並跟一名鄰居開始了一段關係。",
+      "starter": "After",
+      "answer": "After months of arguments, Jacob left his wife and went off with a neighbour.",
+      "answerZh": "爭吵數月後,雅各布離開了妻子,跟一名鄰居走了。",
+      "highlight": "went off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please return my notebook if you have taken it away by mistake.",
+      "promptZh": "如果你誤把我的筆記簿拿走了,請把它還給我。",
+      "starter": "Please",
+      "answer": "Please return my notebook if you have gone off with it by mistake.",
+      "answerZh": "如果你誤把我的筆記簿拿走了,請把它還給我。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The visitors left in different directions after the tour.",
+      "promptZh": "參觀結束後,訪客向不同方向離開。",
+      "starter": "The",
+      "answer": "The visitors went off in different directions after the tour.",
+      "answerZh": "參觀結束後,訪客向不同方向離開。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The newspaper said that the actor had left his partner for a dancer.",
+      "promptZh": "報章指該演員已離開伴侶,跟一名舞蹈員在一起。",
+      "starter": "The",
+      "answer": "The newspaper said that the actor had left his partner and gone off with a dancer.",
+      "answerZh": "報章指該演員已離開伴侶,跟一名舞蹈員走了。",
+      "highlight": "and gone off with",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Ella bought the same snack every day, but she is beginning to dislike it.",
+      "promptZh": "埃拉每天都買同一款小食,但她開始不喜歡它。",
+      "starter": "Ella",
+      "answer": "Ella bought the same snack every day, but she is going off it.",
+      "answerZh": "埃拉每天都買同一款小食,但她開始不喜歡它。",
+      "highlight": "going off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The person who left with my bag may have thought it was theirs.",
+      "promptZh": "把我的袋帶走的人可能以為那是自己的。",
+      "starter": "The",
+      "answer": "The person who went off with my bag may have thought it was theirs.",
+      "answerZh": "把我的袋帶走的人可能以為那是自己的。",
+      "highlight": "went off",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the bell, everyone left to find their next classroom.",
+      "promptZh": "鐘聲響起後,所有人都離開去找下一間課室。",
+      "starter": "After",
+      "answer": "After the bell, everyone went off to find their next classroom.",
+      "answerZh": "鐘聲響起後,所有人都離開去找下一間課室。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Omar once enjoyed long walks, but cold weather has made him lose interest in them.",
+      "promptZh": "奧馬以前喜歡長途步行,但寒冷天氣令他對此失去興趣。",
+      "starter": "Omar",
+      "answer": "Omar has gone off long walks because of the cold weather.",
+      "answerZh": "奧馬因天氣寒冷而開始不喜歡長途步行。",
+      "highlight": "has gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Everyone was shocked when Ryan left his husband and began a new relationship with an old friend.",
+      "promptZh": "賴恩離開丈夫,並跟一名舊朋友開始新關係時,所有人都很震驚。",
+      "starter": "Everyone",
+      "answer": "Everyone was shocked when Ryan left his husband and went off with an old friend.",
+      "answerZh": "賴恩離開丈夫,跟一名舊朋友走了,所有人都很震驚。",
+      "highlight": "went off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I cannot find the scissors; perhaps someone has taken them away.",
+      "promptZh": "我找不到剪刀;也許有人把它們拿走了。",
+      "starter": "I",
+      "answer": "I cannot find the scissors; perhaps someone has gone off with them.",
+      "answerZh": "我找不到剪刀;也許有人把它們拿走了。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The nurse finished her shift and left for home.",
+      "promptZh": "護士完成更次後便離開回家。",
+      "starter": "The",
+      "answer": "The nurse finished her shift and went off home.",
+      "answerZh": "護士完成更次後便離開回家。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Since the restaurant changed its menu, we no longer enjoy its food.",
+      "promptZh": "自從餐廳更改餐牌後,我們便不再喜歡那裏的食物。",
+      "starter": "Since",
+      "answer": "Since the restaurant changed its menu, we have gone off the food there.",
+      "answerZh": "自從餐廳更改餐牌後,我們便開始不喜歡那裏的食物。",
+      "highlight": "have gone off the",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Has Priya really left her wife to be with someone from work?",
+      "promptZh": "普里雅真的離開了妻子,跟工作上認識的人在一起嗎?",
+      "starter": "Has",
+      "answer": "Has Priya really left her wife and gone off with someone from work?",
+      "answerZh": "普里雅真的離開了妻子,跟工作上認識的人走了嗎?",
+      "highlight": "and gone off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "While we stayed at the hotel, the teenagers left each morning to explore the town.",
+      "promptZh": "我們入住酒店期間,那些青少年每天早上都離開去探索小鎮。",
+      "starter": "While",
+      "answer": "While we stayed at the hotel, the teenagers went off each morning to explore the town.",
+      "answerZh": "我們入住酒店期間,那些青少年每天早上都離開去探索小鎮。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Who took the last clean towel without asking?",
+      "promptZh": "誰沒有先問便把最後一條乾淨毛巾拿走了?",
+      "starter": "Who",
+      "answer": "Who went off with the last clean towel without asking?",
+      "answerZh": "誰沒有先問便把最後一條乾淨毛巾拿走了?",
+      "highlight": "went off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The novel begins after the main character has left her boyfriend for his brother.",
+      "promptZh": "小說開始時,主角已離開男朋友,跟他的兄弟在一起。",
+      "starter": "The",
+      "answer": "The novel begins after the main character has left her boyfriend and gone off with his brother.",
+      "answerZh": "小說開始時,主角已離開男朋友,跟他的兄弟走了。",
+      "highlight": "and gone off with",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "At first, Ava liked the new teacher, but she now feels less positive about him.",
+      "promptZh": "艾娃起初喜歡那位新老師,但現在對他的好感減少了。",
+      "starter": "At",
+      "answer": "At first, Ava liked the new teacher, but she has now gone off him.",
+      "answerZh": "艾娃起初喜歡那位新老師,但現在已開始不喜歡他。",
+      "highlight": "has",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "You do not need to wait for us. Leave and enjoy the rest of your day.",
+      "promptZh": "你不必等我們。你離開去享受今天餘下的時間吧。",
+      "starter": "You",
+      "answer": "You do not need to wait for us. Go off and enjoy the rest of your day.",
+      "answerZh": "你不必等我們。你去享受今天餘下的時間吧。",
+      "highlight": "Go off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We were ready to pay, but one child had taken the menu away.",
+      "promptZh": "我們正準備付款,但一名孩子把餐牌拿走了。",
+      "starter": "We",
+      "answer": "We were ready to pay, but one child had gone off with the menu.",
+      "answerZh": "我們正準備付款,但一名孩子把餐牌拿走了。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Lena's family did not know that she had left her partner and started a new life with a musician.",
+      "promptZh": "莉娜的家人不知道她已離開伴侶,並跟一名音樂人展開新生活。",
+      "starter": "Lena's",
+      "answer": "Lena's family did not know that she had left her partner and gone off with a musician.",
+      "answerZh": "莉娜的家人不知道她已離開伴侶,跟一名音樂人走了。",
+      "highlight": "gone off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The first book was exciting, but the slow second book made me lose interest in the series.",
+      "promptZh": "第一本書很刺激,但節奏緩慢的第二本令我對整個系列失去興趣。",
+      "starter": "The",
+      "answer": "The slow second book made me go off the series.",
+      "answerZh": "節奏緩慢的第二本書令我開始不喜歡整個系列。",
+      "highlight": "go off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "As soon as the meeting ended, the two teams left to work in separate rooms.",
+      "promptZh": "會議一結束,兩個團隊便離開到不同房間工作。",
+      "starter": "As",
+      "answer": "As soon as the meeting ended, the two teams went off to work in separate rooms.",
+      "answerZh": "會議一結束,兩個團隊便離開到不同房間工作。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    },
+    {
+      "id": "phrasal-verb-179-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "If someone has taken my coat by mistake, please bring it back.",
+      "promptZh": "如果有人誤把我的外套拿走了,請把它帶回來。",
+      "starter": "If",
+      "answer": "If someone has gone off with my coat by mistake, please bring it back.",
+      "answerZh": "如果有人誤把我的外套拿走了,請把它帶回來。",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Do not order tea for me; I stopped liking it after drinking too much of it.",
+      "promptZh": "不要替我點茶;我喝得太多後便不再喜歡它。",
+      "starter": "Do",
+      "answer": "Do not order tea for me; I have gone off it after drinking too much of it.",
+      "answerZh": "不要替我點茶;我喝得太多後便開始不喜歡它。",
+      "highlight": "have gone off",
+      "targetForm": "go off somebody/something",
+      "targetMeaningZh": "開始不喜歡某人或某事物;逐漸失去興趣"
+    },
+    {
+      "id": "phrasal-verb-179-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No one expected the coach to leave his partner and begin a relationship with a television presenter.",
+      "promptZh": "沒有人料到教練會離開伴侶,並跟一名電視節目主持人開始一段關係。",
+      "starter": "No",
+      "answer": "No one expected the coach to leave his partner and go off with a television presenter.",
+      "answerZh": "沒有人料到教練會離開伴侶,跟一名電視節目主持人走了。",
+      "highlight": "go off",
+      "targetForm": "go off with somebody",
+      "targetMeaningZh": "離開伴侶,跟另一個人走或開始新關係"
+    },
+    {
+      "id": "phrasal-verb-179-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The camera was here a minute ago, so who has taken it?",
+      "promptZh": "相機一分鐘前還在這裏,那麼是誰把它拿走了?",
+      "starter": "The",
+      "answer": "The camera was here a minute ago, so who has gone off with it?",
+      "answerZh": "相機一分鐘前還在這裏,那麼是誰把它拿走了?",
+      "highlight": "gone off with",
+      "targetForm": "go off with something",
+      "targetMeaningZh": "把某物帶走,通常未先詢問或拿錯了"
+    },
+    {
+      "id": "phrasal-verb-179-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After giving us the map, the guide left alone to check the path ahead.",
+      "promptZh": "導遊把地圖交給我們後,便獨自離開去查看前面的路。",
+      "starter": "After",
+      "answer": "After giving us the map, the guide went off alone to check the path ahead.",
+      "answerZh": "導遊把地圖交給我們後,便獨自離開去查看前面的路。",
+      "highlight": "went off",
+      "targetForm": "go off",
+      "targetMeaningZh": "離開並前往別處"
+    }
+  ]
+}

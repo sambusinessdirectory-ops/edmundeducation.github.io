@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-149",
+  "order": 149,
+  "slug": "crack",
+  "version": "1",
+  "title": "CRACK 動詞片語",
+  "titleEn": "Crack",
+  "titleZh": "CRACK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 148 - CRACK.pdf",
+    "sourceNumber": 148,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CRACK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CRACK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CRACK",
+      "highlight": "CRACK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Police are cracking down on dangerous driving.",
+      "zh": "警方正嚴厲打擊危險駕駛。",
+      "highlight": "cracking down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We need to crack on with dinner.",
+      "zh": "我們需要趕快繼續準備晚餐。",
+      "highlight": "crack on with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She felt she was cracking up under the strain.",
+      "zh": "她覺得自己在壓力下快要撐不住了。",
+      "highlight": "cracking up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事；趕快繼續做;加緊處理某事；因壓力而無法繼續應付;情緒崩潰；笑個不停;令某人笑個不停",
+    "en": "crack down / crack down on somebody or something; crack on / crack on with something; crack up; crack up / crack somebody up",
+    "naturalZh": [
+      "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+      "趕快繼續做;加緊處理某事",
+      "因壓力而無法繼續應付;情緒崩潰",
+      "笑個不停;令某人笑個不停"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "crack down / crack down on somebody or something",
+      "titleZh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+      "titleEn": "crack down / crack down on somebody or something",
+      "descriptionZh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+      "descriptionEn": "Police are cracking down on dangerous driving.",
+      "examples": [
+        {
+          "en": "Police are cracking down on dangerous driving.",
+          "zh": "警方正嚴厲打擊危險駕駛。",
+          "highlight": "cracking down on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crack on / crack on with something",
+      "titleZh": "趕快繼續做;加緊處理某事",
+      "titleEn": "crack on / crack on with something",
+      "descriptionZh": "趕快繼續做;加緊處理某事",
+      "descriptionEn": "We need to crack on with dinner.",
+      "examples": [
+        {
+          "en": "We need to crack on with dinner.",
+          "zh": "我們需要趕快繼續準備晚餐。",
+          "highlight": "crack on with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crack up",
+      "titleZh": "因壓力而無法繼續應付;情緒崩潰",
+      "titleEn": "crack up",
+      "descriptionZh": "因壓力而無法繼續應付;情緒崩潰",
+      "descriptionEn": "She felt she was cracking up under the strain.",
+      "examples": [
+        {
+          "en": "She felt she was cracking up under the strain.",
+          "zh": "她覺得自己在壓力下快要撐不住了。",
+          "highlight": "cracking up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "crack up / crack somebody up",
+      "titleZh": "笑個不停;令某人笑個不停",
+      "titleEn": "crack up / crack somebody up",
+      "descriptionZh": "笑個不停;令某人笑個不停",
+      "descriptionEn": "That cartoon cracked us up.",
+      "examples": [
+        {
+          "en": "That cartoon cracked us up.",
+          "zh": "那套卡通片逗得我們笑個不停。",
+          "highlight": "cracked us up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CRACK 片語動詞的實際用途",
+    "labelEn": "CRACK Phrasal Verbs in Use",
+    "summaryZh": "crack down 可以用來描述針對危險、不誠實或不可接受的行為採取強硬措施。；crack on 是常見的英式表達,用來表示不再浪費時間,趕快繼續做事。；crack up 可以表示一個人受到很大壓力,已經無法繼續應付。；crack up 和 crack somebody up 可以表示笑個不停,或令另一個人笑個不停。",
+    "summaryEn": "Crack down helps you describe strong action against dangerous, dishonest or unacceptable behaviour. Crack on is a natural British expression for continuing a task without wasting time. Crack up can express that a person is no longer able to cope with serious pressure. Crack up and crack somebody up help you describe laughing very hard or making another person laugh.",
+    "contextsZh": [
+      "描述針對問題採取的強硬行動",
+      "讓工作繼續向前推進",
+      "描述一個人承受不住壓力",
+      "自然描述大笑的情境"
+    ],
+    "contextsEn": [
+      "Take strong action against a problem",
+      "Keep work moving",
+      "Describe when pressure becomes too much",
+      "Talk naturally about laughter"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CRACK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CRACK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "crack down / crack down on somebody or something",
+    "fixedHighlight": "crack down / crack down on somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 CRACK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CRACK expression that gives the same meaning.",
+    "correct": "cracking down on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；crack up 有兩個非常不同的意思。在壓力情境中,它可以表示無法繼續應付;在有趣的情境中,它可以表示笑個不停。；使用 crack somebody up 時,把人物放在 crack 和 up 中間:The joke cracked us up.",
+    "variableEn": "Keep the same people, things, time and meaning. Crack up has two very different meanings. Under pressure, it can mean becoming unable to cope. In a funny situation, it can mean laughing uncontrollably. In crack somebody up, place the person between crack and up: The joke cracked us up.",
+    "variableItemsZh": [
+      "crack down / crack down on somebody or something",
+      "crack on / crack on with something",
+      "crack up",
+      "crack up / crack somebody up"
+    ],
+    "variableItemsEn": [
+      "crack down / crack down on somebody or something",
+      "crack on / crack on with something",
+      "crack up",
+      "crack up / crack somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+        "formEn": "crack down / crack down on somebody or something",
+        "exampleZh": "警方正嚴厲打擊危險駕駛。",
+        "exampleEn": "Police are cracking down on dangerous driving.",
+        "highlight": "cracking down on"
+      },
+      {
+        "formZh": "趕快繼續做;加緊處理某事",
+        "formEn": "crack on / crack on with something",
+        "exampleZh": "我們需要趕快繼續準備晚餐。",
+        "exampleEn": "We need to crack on with dinner.",
+        "highlight": "crack on with"
+      },
+      {
+        "formZh": "因壓力而無法繼續應付;情緒崩潰",
+        "formEn": "crack up",
+        "exampleZh": "她覺得自己在壓力下快要撐不住了。",
+        "exampleEn": "She felt she was cracking up under the strain.",
+        "highlight": "cracking up"
+      },
+      {
+        "formZh": "笑個不停;令某人笑個不停",
+        "formEn": "crack up / crack somebody up",
+        "exampleZh": "那套卡通片逗得我們笑個不停。",
+        "exampleEn": "That cartoon cracked us up.",
+        "highlight": "cracked us up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+      "titleEn": "crack down / crack down on somebody or something",
+      "formula": "crack down / crack down on somebody or something",
+      "highlight": "crack down / crack down on somebody or something",
+      "descriptionZh": "對問題或不當行為採取強硬措施;嚴厲打擊某人或某事",
+      "descriptionEn": "Police are cracking down on dangerous driving.",
+      "examples": [
+        {
+          "en": "Police are cracking down on dangerous driving.",
+          "zh": "警方正嚴厲打擊危險駕駛。",
+          "highlight": "cracking down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "趕快繼續做;加緊處理某事",
+      "titleEn": "crack on / crack on with something",
+      "formula": "crack on / crack on with something",
+      "highlight": "crack on / crack on with something",
+      "descriptionZh": "趕快繼續做;加緊處理某事",
+      "descriptionEn": "We need to crack on with dinner.",
+      "examples": [
+        {
+          "en": "We need to crack on with dinner.",
+          "zh": "我們需要趕快繼續準備晚餐。",
+          "highlight": "crack on with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因壓力而無法繼續應付;情緒崩潰",
+      "titleEn": "crack up",
+      "formula": "crack up",
+      "highlight": "crack up",
+      "descriptionZh": "因壓力而無法繼續應付;情緒崩潰",
+      "descriptionEn": "She felt she was cracking up under the strain.",
+      "examples": [
+        {
+          "en": "She felt she was cracking up under the strain.",
+          "zh": "她覺得自己在壓力下快要撐不住了。",
+          "highlight": "cracking up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "笑個不停;令某人笑個不停",
+      "titleEn": "crack up / crack somebody up",
+      "formula": "crack up / crack somebody up",
+      "highlight": "crack up / crack somebody up",
+      "descriptionZh": "笑個不停;令某人笑個不停",
+      "descriptionEn": "That cartoon cracked us up.",
+      "examples": [
+        {
+          "en": "That cartoon cracked us up.",
+          "zh": "那套卡通片逗得我們笑個不停。",
+          "highlight": "cracked us up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述針對問題採取的強硬行動",
+      "titleEn": "Take strong action against a problem",
+      "zh": "crack down 可以用來描述針對危險、不誠實或不可接受的行為採取強硬措施。",
+      "en": "Crack down helps you describe strong action against dangerous, dishonest or unacceptable behaviour."
+    },
+    {
+      "titleZh": "讓工作繼續向前推進",
+      "titleEn": "Keep work moving",
+      "zh": "crack on 是常見的英式表達,用來表示不再浪費時間,趕快繼續做事。",
+      "en": "Crack on is a natural British expression for continuing a task without wasting time."
+    },
+    {
+      "titleZh": "描述一個人承受不住壓力",
+      "titleEn": "Describe when pressure becomes too much",
+      "zh": "crack up 可以表示一個人受到很大壓力,已經無法繼續應付。",
+      "en": "Crack up can express that a person is no longer able to cope with serious pressure."
+    },
+    {
+      "titleZh": "自然描述大笑的情境",
+      "titleEn": "Talk naturally about laughter",
+      "zh": "crack up 和 crack somebody up 可以表示笑個不停,或令另一個人笑個不停。",
+      "en": "Crack up and crack somebody up help you describe laughing very hard or making another person laugh."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述針對問題採取的強硬行動",
+      "讓工作繼續向前推進",
+      "描述一個人承受不住壓力",
+      "自然描述大笑的情境"
+    ],
+    "contextsEn": [
+      "Take strong action against a problem",
+      "Keep work moving",
+      "Describe when pressure becomes too much",
+      "Talk naturally about laughter"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述針對問題採取的強硬行動",
+        "titleEn": "Take strong action against a problem",
+        "zh": "crack down 可以用來描述針對危險、不誠實或不可接受的行為採取強硬措施。",
+        "en": "Crack down helps you describe strong action against dangerous, dishonest or unacceptable behaviour.",
+        "examples": [
+          {
+            "en": "Police are cracking down on dangerous driving.",
+            "zh": "警方正嚴厲打擊危險駕駛。",
+            "highlight": "cracking down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "讓工作繼續向前推進",
+        "titleEn": "Keep work moving",
+        "zh": "crack on 是常見的英式表達,用來表示不再浪費時間,趕快繼續做事。",
+        "en": "Crack on is a natural British expression for continuing a task without wasting time.",
+        "examples": [
+          {
+            "en": "We need to crack on with dinner.",
+            "zh": "我們需要趕快繼續準備晚餐。",
+            "highlight": "crack on with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述一個人承受不住壓力",
+        "titleEn": "Describe when pressure becomes too much",
+        "zh": "crack up 可以表示一個人受到很大壓力,已經無法繼續應付。",
+        "en": "Crack up can express that a person is no longer able to cope with serious pressure.",
+        "examples": [
+          {
+            "en": "She felt she was cracking up under the strain.",
+            "zh": "她覺得自己在壓力下快要撐不住了。",
+            "highlight": "cracking up"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述大笑的情境",
+        "titleEn": "Talk naturally about laughter",
+        "zh": "crack up 和 crack somebody up 可以表示笑個不停,或令另一個人笑個不停。",
+        "en": "Crack up and crack somebody up help you describe laughing very hard or making another person laugh.",
+        "examples": [
+          {
+            "en": "That cartoon cracked us up.",
+            "zh": "那套卡通片逗得我們笑個不停。",
+            "highlight": "cracked us up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CRACK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CRACK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CRACK 片語動詞。",
+      "en": "Read the whole sentence and choose the CRACK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "crack up 有兩個非常不同的意思。在壓力情境中,它可以表示無法繼續應付;在有趣的情境中,它可以表示笑個不停。",
+      "titleEn": "Crack up has two very different meanings.",
+      "zh": "crack up 有兩個非常不同的意思。在壓力情境中,它可以表示無法繼續應付;在有趣的情境中,它可以表示笑個不停。",
+      "en": "Crack up has two very different meanings. Under pressure, it can mean becoming unable to cope. In a funny situation, it can mean laughing uncontrollably."
+    },
+    {
+      "titleZh": "使用 crack somebody up 時,把人物放在 crack 和 up 中間:The joke cracked us up.",
+      "titleEn": "In crack somebody up, place the person between crack and up: The joke cracked us up.",
+      "zh": "使用 crack somebody up 時,把人物放在 crack 和 up 中間:The joke cracked us up.",
+      "en": "In crack somebody up, place the person between crack and up: The joke cracked us up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CRACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CRACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CRACK 動詞片語句子改寫練習",
+    "titleEn": "CRACK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CRACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CRACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-149-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Everyone laughed uncontrollably when Ben dropped the empty box.",
+      "promptZh": "賓把空箱子掉在地上時,所有人都笑個不停。",
+      "starter": "Everyone",
+      "answer": "Everyone cracked up when Ben dropped the empty box.",
+      "answerZh": "賓把空箱子掉在地上時,所有人都笑個不停。",
+      "highlight": "cracked up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The police are taking strong action against dangerous street racing.",
+      "promptZh": "警方正採取強硬措施,打擊危險的街頭賽車活動。",
+      "starter": "The",
+      "answer": "The police are cracking down on dangerous street racing.",
+      "answerZh": "警方正採取強硬措施,打擊危險的街頭賽車活動。",
+      "highlight": "cracking down on",
+      "targetForm": "crack down on something",
+      "targetMeaningZh": "嚴厲打擊某事"
+    },
+    {
+      "id": "phrasal-verb-149-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We should continue with the painting before it gets dark.",
+      "promptZh": "我們應在天黑前繼續髹油。",
+      "starter": "We",
+      "answer": "We should crack on with the painting before it gets dark.",
+      "answerZh": "我們應在天黑前趕快繼續髹油。",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Nina is becoming unable to cope because of the pressure.",
+      "promptZh": "妮娜因壓力而愈來愈無法應付。",
+      "starter": "Nina",
+      "answer": "Nina is cracking up under the pressure.",
+      "answerZh": "妮娜在壓力下快要撐不住了。",
+      "highlight": "cracking up under",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "That silly video made us laugh uncontrollably.",
+      "promptZh": "那段愚蠢的影片逗得我們笑個不停。",
+      "starter": "That",
+      "answer": "That silly video cracked us up.",
+      "answerZh": "那段愚蠢的影片逗得我們笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The school took strong action against cheating in tests.",
+      "promptZh": "學校採取強硬措施,打擊測驗作弊。",
+      "starter": "The",
+      "answer": "The school cracked down on cheating in tests.",
+      "answerZh": "學校採取強硬措施,打擊測驗作弊。",
+      "highlight": "cracked down on",
+      "targetForm": "crack down on something",
+      "targetMeaningZh": "嚴厲打擊某事"
+    },
+    {
+      "id": "phrasal-verb-149-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After weeks without enough rest, Omar finally could not cope any more.",
+      "promptZh": "連續多星期沒有足夠休息後,奧馬終於再也撐不住了。",
+      "starter": "After",
+      "answer": "After weeks without enough rest, Omar finally cracked up.",
+      "answerZh": "連續多星期沒有足夠休息後,奧馬終於再也撐不住了。",
+      "highlight": "cracked up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After lunch, the team continued with the work without delay.",
+      "promptZh": "午飯後,團隊立即繼續工作。",
+      "starter": "After",
+      "answer": "After lunch, the team cracked on with the work.",
+      "answerZh": "午飯後,團隊立即繼續工作。",
+      "highlight": "cracked on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The children laughed uncontrollably at the clown’s huge shoes.",
+      "promptZh": "孩子們看到小丑的巨型鞋子後笑個不停。",
+      "starter": "The",
+      "answer": "The children cracked up at the clown’s huge shoes.",
+      "answerZh": "孩子們看到小丑的巨型鞋子後笑個不停。",
+      "highlight": "cracked up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "After several warnings, the manager finally took firm action.",
+      "promptZh": "發出多次警告後,經理終於採取強硬行動。",
+      "starter": "After",
+      "answer": "After several warnings, the manager finally cracked down.",
+      "answerZh": "發出多次警告後,經理終於採取強硬行動。",
+      "highlight": "cracked down",
+      "targetForm": "crack down",
+      "targetMeaningZh": "採取強硬措施"
+    },
+    {
+      "id": "phrasal-verb-149-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Aisha is continuing with the report now.",
+      "promptZh": "艾莎現在正繼續處理報告。",
+      "starter": "Aisha",
+      "answer": "Aisha is cracking on with the report now.",
+      "answerZh": "艾莎現在正加緊處理報告。",
+      "highlight": "cracking on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ravi has felt less and less able to cope because of the long hours.",
+      "promptZh": "長時間工作令拉維愈來愈無法應付。",
+      "starter": "Ravi",
+      "answer": "Ravi has been cracking up because of the long hours.",
+      "answerZh": "拉維因長時間工作而愈來愈撐不住。",
+      "highlight": "been cracking up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The council has taken strong action against shops selling unsafe food.",
+      "promptZh": "市議會已採取強硬措施,對付售賣不安全食品的店舖。",
+      "starter": "The",
+      "answer": "The council has cracked down on shops selling unsafe food.",
+      "answerZh": "市議會已採取強硬措施,對付售賣不安全食品的店舖。",
+      "highlight": "cracked down on",
+      "targetForm": "crack down on somebody",
+      "targetMeaningZh": "嚴厲打擊某人"
+    },
+    {
+      "id": "phrasal-verb-149-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "This comedian always makes my dad laugh uncontrollably.",
+      "promptZh": "這名喜劇演員總是逗得我爸爸笑個不停。",
+      "starter": "This",
+      "answer": "This comedian always cracks my dad up.",
+      "answerZh": "這名喜劇演員總是逗得我爸爸笑個不停。",
+      "highlight": "cracks",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Are you going to continue with the cleaning now?",
+      "promptZh": "你現在打算繼續清潔嗎?",
+      "starter": "Are",
+      "answer": "Are you going to crack on with the cleaning now?",
+      "answerZh": "你現在打算趕快繼續清潔嗎?",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Even under great pressure, Sofia did not lose control of her feelings.",
+      "promptZh": "即使承受很大壓力,索菲亞也沒有情緒失控。",
+      "starter": "Even",
+      "answer": "Even under great pressure, Sofia did not crack up.",
+      "answerZh": "即使承受很大壓力,索菲亞也沒有撐不住。",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The company will take firm action against workers who lie about travel costs.",
+      "promptZh": "公司將對在交通費用上說謊的員工採取強硬措施。",
+      "starter": "The",
+      "answer": "The company will crack down on workers who lie about travel costs.",
+      "answerZh": "公司將對在交通費用上說謊的員工採取強硬措施。",
+      "highlight": "crack down on",
+      "targetForm": "crack down on somebody",
+      "targetMeaningZh": "嚴厲打擊某人"
+    },
+    {
+      "id": "phrasal-verb-149-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After the short break, the cooks continued preparing dinner.",
+      "promptZh": "短暫休息後,廚師們繼續準備晚餐。",
+      "starter": "After",
+      "answer": "After the short break, the cooks cracked on with dinner.",
+      "answerZh": "短暫休息後,廚師們繼續準備晚餐。",
+      "highlight": "cracked on with",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo kept laughing uncontrollably during the rehearsal.",
+      "promptZh": "里奧在綵排期間不停大笑。",
+      "starter": "Leo",
+      "answer": "Leo kept cracking up during the rehearsal.",
+      "answerZh": "里奧在綵排期間不停大笑。",
+      "highlight": "cracking up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did Kai become unable to cope after the difficult week?",
+      "promptZh": "啟在艱難的一星期後為何撐不住了?",
+      "starter": "Why",
+      "answer": "Why did Kai crack up after the difficult week?",
+      "answerZh": "啟在艱難的一星期後為何撐不住了?",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The joke made them laugh uncontrollably.",
+      "promptZh": "那個笑話逗得他們笑個不停。",
+      "starter": "The",
+      "answer": "The joke cracked them up.",
+      "answerZh": "那個笑話逗得他們笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I had too much to deal with. I was starting to lose control emotionally.",
+      "promptZh": "我要處理的事情太多了。我開始在情緒上撐不住。",
+      "starter": "I",
+      "answer": "I had too much to deal with. I was starting to crack up.",
+      "answerZh": "我要處理的事情太多了。我開始撐不住。",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The mayor promised to take strong action against people who leave rubbish in the street.",
+      "promptZh": "市長承諾會對把垃圾丟在街上的人採取強硬措施。",
+      "starter": "The",
+      "answer": "The mayor promised to crack down on people who leave rubbish in the street.",
+      "answerZh": "市長承諾會對把垃圾丟在街上的人採取強硬措施。",
+      "highlight": "crack down on",
+      "targetForm": "crack down on somebody",
+      "targetMeaningZh": "嚴厲打擊某人"
+    },
+    {
+      "id": "phrasal-verb-149-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The room still needs painting, so please continue with it.",
+      "promptZh": "這個房間仍然需要髹油,所以請繼續做下去。",
+      "starter": "The",
+      "answer": "The room still needs painting, so please crack on with it.",
+      "answerZh": "這個房間仍然需要髹油,所以請趕快繼續做下去。",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "What made you laugh so much during the meeting?",
+      "promptZh": "會議期間,甚麼事情令你笑得這麼厲害?",
+      "starter": "What",
+      "answer": "What cracked you up during the meeting?",
+      "answerZh": "會議期間,甚麼事情令你笑得這麼厲害?",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By Friday, Priya had lost control because of the stress.",
+      "promptZh": "到了星期五,普里雅已因壓力而撐不住了。",
+      "starter": "By",
+      "answer": "By Friday, Priya had cracked up because of the stress.",
+      "answerZh": "到了星期五,普里雅已因壓力而撐不住了。",
+      "highlight": "cracked up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The rules had been ignored for months, so the head teacher finally became much stricter.",
+      "promptZh": "這些規則已被忽視多個月,所以校長終於採取更強硬的態度。",
+      "starter": "The",
+      "answer": "The rules had been ignored for months, so the head teacher finally cracked down.",
+      "answerZh": "這些規則已被忽視多個月,所以校長終於採取強硬行動。",
+      "highlight": "cracked down",
+      "targetForm": "crack down",
+      "targetMeaningZh": "採取強硬措施"
+    },
+    {
+      "id": "phrasal-verb-149-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We nearly laughed uncontrollably when the dog wore the hat.",
+      "promptZh": "那隻狗戴上帽子時,我們差點笑個不停。",
+      "starter": "We",
+      "answer": "We nearly cracked up when the dog wore the hat.",
+      "answerZh": "那隻狗戴上帽子時,我們差點笑個不停。",
+      "highlight": "cracked up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We had better continue with the packing if we want to leave on time.",
+      "promptZh": "我們如想準時出發,最好趕快繼續收拾行李。",
+      "starter": "We",
+      "answer": "We had better crack on with the packing if we want to leave on time.",
+      "answerZh": "我們如想準時出發,最好趕快繼續收拾行李。",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Without a proper break, Sam might become unable to cope.",
+      "promptZh": "如果沒有適當休息,森可能會撐不住。",
+      "starter": "Without",
+      "answer": "Without a proper break, Sam might crack up.",
+      "answerZh": "如果沒有適當休息,森可能會撐不住。",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The ticket website is taking stronger action against people who sell fake tickets.",
+      "promptZh": "售票網站正採取更強硬的措施,對付售賣假門票的人。",
+      "starter": "The",
+      "answer": "The ticket website is cracking down on people who sell fake tickets.",
+      "answerZh": "售票網站正採取更強硬的措施,對付售賣假門票的人。",
+      "highlight": "cracking down on",
+      "targetForm": "crack down on somebody",
+      "targetMeaningZh": "嚴厲打擊某人"
+    },
+    {
+      "id": "phrasal-verb-149-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Eva tried to stay serious, but the actor’s face made her laugh uncontrollably.",
+      "promptZh": "伊娃嘗試保持嚴肅,但那名演員的表情逗得她笑個不停。",
+      "starter": "Eva",
+      "answer": "Eva tried to stay serious, but the actor’s face cracked her up.",
+      "answerZh": "伊娃嘗試保持嚴肅,但那名演員的表情逗得她笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I have packed only one bag, so I need to continue without wasting time.",
+      "promptZh": "我只收拾好一個袋,所以需要趕快繼續。",
+      "starter": "I",
+      "answer": "I have packed only one bag, so I need to crack on.",
+      "answerZh": "我只收拾好一個袋,所以需要趕快繼續。",
+      "highlight": "crack on",
+      "targetForm": "crack on",
+      "targetMeaningZh": "趕快繼續做"
+    },
+    {
+      "id": "phrasal-verb-149-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The joke was not the problem; the weeks of pressure made him unable to cope.",
+      "promptZh": "那個笑話不是問題;連續多星期的壓力令他撐不住。",
+      "starter": "The",
+      "answer": "The joke was not the problem; the weeks of pressure made him crack up.",
+      "answerZh": "那個笑話不是問題;連續多星期的壓力令他撐不住。",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The head teacher wants staff to take very strong action against bullying online.",
+      "promptZh": "校長希望職員採取非常強硬的措施,打擊網上欺凌。",
+      "starter": "The",
+      "answer": "The head teacher wants staff to crack down hard on bullying online.",
+      "answerZh": "校長希望職員採取非常強硬的措施,打擊網上欺凌。",
+      "highlight": "crack down hard on",
+      "targetForm": "crack down hard on something",
+      "targetMeaningZh": "嚴厲打擊某事"
+    },
+    {
+      "id": "phrasal-verb-149-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The host’s impression made the whole audience laugh uncontrollably.",
+      "promptZh": "主持人的模仿逗得全場觀眾笑個不停。",
+      "starter": "The",
+      "answer": "The host’s impression cracked the whole audience up.",
+      "answerZh": "主持人的模仿逗得全場觀眾笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the repair was boring, the workers continued with it.",
+      "promptZh": "雖然維修工作很沉悶,工人仍繼續做下去。",
+      "starter": "Although",
+      "answer": "Although the repair was boring, the workers cracked on with it.",
+      "answerZh": "雖然維修工作很沉悶,工人仍繼續做下去。",
+      "highlight": "cracked on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Unless the city takes firm action against illegal parking, the problem will continue.",
+      "promptZh": "除非市政府嚴厲打擊違例泊車,否則問題會繼續。",
+      "starter": "Unless",
+      "answer": "Unless the city cracks down on illegal parking, the problem will continue.",
+      "answerZh": "除非市政府嚴厲打擊違例泊車,否則問題會繼續。",
+      "highlight": "cracks down on",
+      "targetForm": "crack down on something",
+      "targetMeaningZh": "嚴厲打擊某事"
+    },
+    {
+      "id": "phrasal-verb-149-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She was under terrible strain, but she stayed calm and in control.",
+      "promptZh": "她承受着極大壓力,但仍保持冷靜和自制。",
+      "starter": "She",
+      "answer": "She was under terrible strain, but she did not crack up.",
+      "answerZh": "她承受着極大壓力,但仍然沒有撐不住。",
+      "highlight": "did not crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Try not to laugh uncontrollably during the school play.",
+      "promptZh": "校內話劇演出期間,盡量不要笑個不停。",
+      "starter": "Try",
+      "answer": "Try not to crack up during the school play.",
+      "answerZh": "校內話劇演出期間,盡量不要笑個不停。",
+      "highlight": "crack up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have discussed the design long enough; now we should continue with the actual work.",
+      "promptZh": "我們已討論設計夠久了;現在應該繼續實際工作。",
+      "starter": "We",
+      "answer": "We have discussed the design long enough; now we should crack on with the actual work.",
+      "answerZh": "我們已討論設計夠久了;現在應該繼續實際工作。",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After caring for everyone else for weeks, Lina felt that she could no longer cope.",
+      "promptZh": "連續多星期照顧其他人後,莉娜覺得自己已經撐不住。",
+      "starter": "After",
+      "answer": "After caring for everyone else for weeks, Lina felt that she was cracking up.",
+      "answerZh": "連續多星期照顧其他人後,莉娜覺得自己已經撐不住。",
+      "highlight": "was cracking up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Online scams are increasing, so the bank has promised strong action against them.",
+      "promptZh": "網上騙案正在增加,所以銀行承諾會採取強硬措施打擊它們。",
+      "starter": "Online",
+      "answer": "Online scams are increasing, so the bank has promised to crack down on them.",
+      "answerZh": "網上騙案正在增加,所以銀行承諾會採取強硬措施打擊它們。",
+      "highlight": "to crack down on",
+      "targetForm": "crack down on something",
+      "targetMeaningZh": "嚴厲打擊某事"
+    },
+    {
+      "id": "phrasal-verb-149-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The speech was serious until the speaker used the wrong name, which made everyone laugh uncontrollably.",
+      "promptZh": "演講本來十分嚴肅,直至講者說錯名字,逗得所有人笑個不停。",
+      "starter": "The",
+      "answer": "The speech was serious until the speaker used the wrong name, which cracked everyone up.",
+      "answerZh": "演講本來十分嚴肅,直至講者說錯名字,逗得所有人笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    },
+    {
+      "id": "phrasal-verb-149-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although it was getting late, the crew continued with the final part of the job.",
+      "promptZh": "雖然時間愈來愈晚,工作人員仍繼續完成工作的最後部分。",
+      "starter": "Although",
+      "answer": "Although it was getting late, the crew cracked on with the final part of the job.",
+      "answerZh": "雖然時間愈來愈晚,工作人員仍繼續完成工作的最後部分。",
+      "highlight": "cracked on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Ravi had stayed calm for days, but by Sunday he felt close to losing control.",
+      "promptZh": "拉維已保持冷靜多天,但到了星期日,他覺得自己快要撐不住。",
+      "starter": "Ravi",
+      "answer": "Ravi had stayed calm for days, but by Sunday he felt close to cracking up.",
+      "answerZh": "拉維已保持冷靜多天,但到了星期日,他覺得自己快要撐不住。",
+      "highlight": "cracking up",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The rules will mean little unless officials take firm action against companies that ignore them.",
+      "promptZh": "除非官員對無視規則的公司採取強硬措施,否則這些規則沒有多大作用。",
+      "starter": "The",
+      "answer": "The rules will mean little unless officials crack down on companies that ignore them.",
+      "answerZh": "除非官員對無視規則的公司採取強硬措施,否則這些規則沒有多大作用。",
+      "highlight": "crack down on",
+      "targetForm": "crack down on somebody or something",
+      "targetMeaningZh": "嚴厲打擊某人或某事"
+    },
+    {
+      "id": "phrasal-verb-149-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Why don’t we stop talking and continue with the work?",
+      "promptZh": "我們何不停止談話,繼續工作?",
+      "starter": "Why",
+      "answer": "Why don’t we stop talking and crack on with the work?",
+      "answerZh": "我們何不停止談話,趕快繼續工作?",
+      "highlight": "crack on",
+      "targetForm": "crack on with something",
+      "targetMeaningZh": "趕快繼續處理某事"
+    },
+    {
+      "id": "phrasal-verb-149-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "She later admitted that the pressure had made her lose control.",
+      "promptZh": "她後來承認,壓力令她失去控制。",
+      "starter": "She",
+      "answer": "She later admitted that she had cracked up under the pressure.",
+      "answerZh": "她後來承認,自己在壓力下崩潰了。",
+      "highlight": "she had cracked up under",
+      "targetForm": "crack up",
+      "targetMeaningZh": "因壓力而撐不住"
+    },
+    {
+      "id": "phrasal-verb-149-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "By the end of the story, the final joke had made everyone laugh uncontrollably.",
+      "promptZh": "故事結束時,最後一個笑話已逗得所有人笑個不停。",
+      "starter": "By",
+      "answer": "By the end of the story, the final joke had cracked everyone up.",
+      "answerZh": "故事結束時,最後一個笑話已逗得所有人笑個不停。",
+      "highlight": "cracked",
+      "targetForm": "crack somebody up",
+      "targetMeaningZh": "令某人笑個不停"
+    }
+  ]
+}

@@ -1,0 +1,1686 @@
+{
+  "id": "phrasal-verb-198",
+  "order": 198,
+  "slug": "mess",
+  "version": "1",
+  "title": "MESS 動詞片語",
+  "titleEn": "Mess",
+  "titleZh": "MESS 動詞片語",
+  "level": "B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 196 - MESS.pdf",
+    "sourceNumber": 196,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MESS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MESS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MESS",
+      "highlight": "MESS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We just messed around at home all day.",
+      "zh": "我們整天都在家中胡鬧,沒有做正經事。",
+      "highlight": "messed around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He admitted that he had been messing around with someone from work.",
+      "zh": "他承認自己曾與一名同事發生不正當性關係。",
+      "highlight": "messing around with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stop messing around with the video controls.",
+      "zh": "不要再胡亂碰弄影片控制掣。",
+      "highlight": "messing around with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "胡鬧;浪費時間;無所事事；在已有伴侶等不合適情況下,與某人發生性關係；胡亂碰弄、隨意試用或擅自改動某物；反覆無常或不公平地對待某人,令對方浪費時間；把某物弄髒或弄亂；把某事搞砸、破壞或做得很差；招惹、挑釁或找某人麻煩",
+    "en": "mess around; mess about with somebody / mess around with somebody; mess about with something / mess around with something / mess with something; mess somebody about / mess somebody around; mess something up; mess something up; mess with somebody",
+    "naturalZh": [
+      "胡鬧;浪費時間;無所事事",
+      "在已有伴侶等不合適情況下,與某人發生性關係",
+      "胡亂碰弄、隨意試用或擅自改動某物",
+      "反覆無常或不公平地對待某人,令對方浪費時間",
+      "把某物弄髒或弄亂",
+      "把某事搞砸、破壞或做得很差",
+      "招惹、挑釁或找某人麻煩"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "mess around",
+      "titleZh": "胡鬧;浪費時間;無所事事",
+      "titleEn": "mess around",
+      "descriptionZh": "胡鬧;浪費時間;無所事事",
+      "descriptionEn": "We just messed around at home all day.",
+      "examples": [
+        {
+          "en": "We just messed around at home all day.",
+          "zh": "我們整天都在家中胡鬧,沒有做正經事。",
+          "highlight": "messed around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mess about with somebody / mess around with somebody",
+      "titleZh": "在已有伴侶等不合適情況下,與某人發生性關係",
+      "titleEn": "mess about with somebody / mess around with somebody",
+      "descriptionZh": "在已有伴侶等不合適情況下,與某人發生性關係",
+      "descriptionEn": "He admitted that he had been messing around with someone from work.",
+      "examples": [
+        {
+          "en": "He admitted that he had been messing around with someone from work.",
+          "zh": "他承認自己曾與一名同事發生不正當性關係。",
+          "highlight": "messing around with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mess about with something / mess around with something / mess with something",
+      "titleZh": "胡亂碰弄、隨意試用或擅自改動某物",
+      "titleEn": "mess about with something / mess around with something / mess with something",
+      "descriptionZh": "胡亂碰弄、隨意試用或擅自改動某物",
+      "descriptionEn": "Stop messing around with the video controls.",
+      "examples": [
+        {
+          "en": "Stop messing around with the video controls.",
+          "zh": "不要再胡亂碰弄影片控制掣。",
+          "highlight": "messing around with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mess somebody about / mess somebody around",
+      "titleZh": "反覆無常或不公平地對待某人,令對方浪費時間",
+      "titleEn": "mess somebody about / mess somebody around",
+      "descriptionZh": "反覆無常或不公平地對待某人,令對方浪費時間",
+      "descriptionEn": "The company messed us around for weeks.",
+      "examples": [
+        {
+          "en": "The company messed us around for weeks.",
+          "zh": "公司反覆改變安排,令我們白等了數星期。",
+          "highlight": "messed us around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mess something up",
+      "titleZh": "把某物弄髒或弄亂",
+      "titleEn": "mess something up",
+      "descriptionZh": "把某物弄髒或弄亂",
+      "descriptionEn": "The children messed the room up.",
+      "examples": [
+        {
+          "en": "The children messed the room up.",
+          "zh": "孩子們把房間弄得又髒又亂。",
+          "highlight": "messed the room up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "mess something up",
+      "titleZh": "把某事搞砸、破壞或做得很差",
+      "titleEn": "mess something up",
+      "descriptionZh": "把某事搞砸、破壞或做得很差",
+      "descriptionEn": "One mistake messed up the whole plan.",
+      "examples": [
+        {
+          "en": "One mistake messed up the whole plan.",
+          "zh": "一次錯誤把整個計劃搞砸了。",
+          "highlight": "messed up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "mess with somebody",
+      "titleZh": "招惹、挑釁或找某人麻煩",
+      "titleEn": "mess with somebody",
+      "descriptionZh": "招惹、挑釁或找某人麻煩",
+      "descriptionEn": "I would not mess with that coach.",
+      "examples": [
+        {
+          "en": "I would not mess with that coach.",
+          "zh": "我不會招惹那名教練。",
+          "highlight": "mess with"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MESS 片語動詞的實際用途",
+    "labelEn": "MESS Phrasal Verbs in Use",
+    "summaryZh": "mess around 可以描述人們玩鬧、做愚蠢的事情,或沒有做任何有用的事情。；當有人未經許可或不小心地碰弄控制掣、設定、機器或私人物品時,你可以使用 MESS 片語動詞。；mess something up 既可以描述被弄亂的房間,也可以描述出了問題的計劃。；MESS 片語動詞可以描述某人的時間被浪費、有人受到挑釁,或不合適的性關係。",
+    "summaryEn": "Mess around can describe people who are playing, behaving foolishly or doing nothing useful. You can use MESS expressions when someone touches controls, settings, machines or personal belongings without care or permission. Mess something up can describe both a room that has become untidy and a plan that has gone wrong. MESS expressions can describe someone whose time is being wasted, a person who is being challenged, or an unsuitable sexual relationship.",
+    "contextsZh": [
+      "談論浪費時間和胡鬧行為",
+      "提醒別人不要胡亂碰弄或改動物件",
+      "描述凌亂的地方和被搞砸的計劃",
+      "談論不公平對待、衝突和感情關係"
+    ],
+    "contextsEn": [
+      "Talk about wasting time and silly behaviour",
+      "Warn people not to touch or change things carelessly",
+      "Describe untidy places and ruined plans",
+      "Talk about unfair treatment, trouble and relationships"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MESS 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MESS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "mess around",
+    "fixedHighlight": "mess around",
+    "fixedZh": "閱讀整句,選出意思相同的 MESS 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MESS expression that gives the same meaning.",
+    "correct": "messed around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 me、him、her、us、them 或 it 時,請按照以上例子使用正確語序。；本練習有數個表達可以使用 about 或 around,請按照參考表所示的形式使用。",
+    "variableEn": "Keep the same people, things, time and meaning. When using me, him, her, us, them or it, follow the word order shown: mess me around mess him about mess it up mess with it mess around with it About and around are both used in several expressions in this set. Follow the forms shown in the reference bank.",
+    "variableItemsZh": [
+      "mess around",
+      "mess about with somebody / mess around with somebody",
+      "mess about with something / mess around with something / mess with something",
+      "mess somebody about / mess somebody around",
+      "mess something up",
+      "mess something up",
+      "mess with somebody"
+    ],
+    "variableItemsEn": [
+      "mess around",
+      "mess about with somebody / mess around with somebody",
+      "mess about with something / mess around with something / mess with something",
+      "mess somebody about / mess somebody around",
+      "mess something up",
+      "mess something up",
+      "mess with somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "胡鬧;浪費時間;無所事事",
+        "formEn": "mess around",
+        "exampleZh": "我們整天都在家中胡鬧,沒有做正經事。",
+        "exampleEn": "We just messed around at home all day.",
+        "highlight": "messed around"
+      },
+      {
+        "formZh": "在已有伴侶等不合適情況下,與某人發生性關係",
+        "formEn": "mess about with somebody / mess around with somebody",
+        "exampleZh": "他承認自己曾與一名同事發生不正當性關係。",
+        "exampleEn": "He admitted that he had been messing around with someone from work.",
+        "highlight": "messing around with"
+      },
+      {
+        "formZh": "胡亂碰弄、隨意試用或擅自改動某物",
+        "formEn": "mess about with something / mess around with something / mess with something",
+        "exampleZh": "不要再胡亂碰弄影片控制掣。",
+        "exampleEn": "Stop messing around with the video controls.",
+        "highlight": "messing around with"
+      },
+      {
+        "formZh": "反覆無常或不公平地對待某人,令對方浪費時間",
+        "formEn": "mess somebody about / mess somebody around",
+        "exampleZh": "公司反覆改變安排,令我們白等了數星期。",
+        "exampleEn": "The company messed us around for weeks.",
+        "highlight": "messed us around"
+      },
+      {
+        "formZh": "把某物弄髒或弄亂",
+        "formEn": "mess something up",
+        "exampleZh": "孩子們把房間弄得又髒又亂。",
+        "exampleEn": "The children messed the room up.",
+        "highlight": "messed the room up"
+      },
+      {
+        "formZh": "把某事搞砸、破壞或做得很差",
+        "formEn": "mess something up",
+        "exampleZh": "一次錯誤把整個計劃搞砸了。",
+        "exampleEn": "One mistake messed up the whole plan.",
+        "highlight": "messed up"
+      },
+      {
+        "formZh": "招惹、挑釁或找某人麻煩",
+        "formEn": "mess with somebody",
+        "exampleZh": "我不會招惹那名教練。",
+        "exampleEn": "I would not mess with that coach.",
+        "highlight": "mess with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "胡鬧;浪費時間;無所事事",
+      "titleEn": "mess around",
+      "formula": "mess around",
+      "highlight": "mess around",
+      "descriptionZh": "胡鬧;浪費時間;無所事事",
+      "descriptionEn": "We just messed around at home all day.",
+      "examples": [
+        {
+          "en": "We just messed around at home all day.",
+          "zh": "我們整天都在家中胡鬧,沒有做正經事。",
+          "highlight": "messed around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在已有伴侶等不合適情況下,與某人發生性關係",
+      "titleEn": "mess about with somebody / mess around with somebody",
+      "formula": "mess about with somebody / mess around with somebody",
+      "highlight": "mess about with somebody / mess around with somebody",
+      "descriptionZh": "在已有伴侶等不合適情況下,與某人發生性關係",
+      "descriptionEn": "He admitted that he had been messing around with someone from work.",
+      "examples": [
+        {
+          "en": "He admitted that he had been messing around with someone from work.",
+          "zh": "他承認自己曾與一名同事發生不正當性關係。",
+          "highlight": "messing around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "胡亂碰弄、隨意試用或擅自改動某物",
+      "titleEn": "mess about with something / mess around with something / mess with something",
+      "formula": "mess about with something / mess around with something / mess with something",
+      "highlight": "mess about with something / mess around with something / mess with something",
+      "descriptionZh": "胡亂碰弄、隨意試用或擅自改動某物",
+      "descriptionEn": "Stop messing around with the video controls.",
+      "examples": [
+        {
+          "en": "Stop messing around with the video controls.",
+          "zh": "不要再胡亂碰弄影片控制掣。",
+          "highlight": "messing around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "反覆無常或不公平地對待某人,令對方浪費時間",
+      "titleEn": "mess somebody about / mess somebody around",
+      "formula": "mess somebody about / mess somebody around",
+      "highlight": "mess somebody about / mess somebody around",
+      "descriptionZh": "反覆無常或不公平地對待某人,令對方浪費時間",
+      "descriptionEn": "The company messed us around for weeks.",
+      "examples": [
+        {
+          "en": "The company messed us around for weeks.",
+          "zh": "公司反覆改變安排,令我們白等了數星期。",
+          "highlight": "messed us around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某物弄髒或弄亂",
+      "titleEn": "mess something up",
+      "formula": "mess something up",
+      "highlight": "mess something up",
+      "descriptionZh": "把某物弄髒或弄亂",
+      "descriptionEn": "The children messed the room up.",
+      "examples": [
+        {
+          "en": "The children messed the room up.",
+          "zh": "孩子們把房間弄得又髒又亂。",
+          "highlight": "messed the room up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某事搞砸、破壞或做得很差",
+      "titleEn": "mess something up",
+      "formula": "mess something up",
+      "highlight": "mess something up",
+      "descriptionZh": "把某事搞砸、破壞或做得很差",
+      "descriptionEn": "One mistake messed up the whole plan.",
+      "examples": [
+        {
+          "en": "One mistake messed up the whole plan.",
+          "zh": "一次錯誤把整個計劃搞砸了。",
+          "highlight": "messed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "招惹、挑釁或找某人麻煩",
+      "titleEn": "mess with somebody",
+      "formula": "mess with somebody",
+      "highlight": "mess with somebody",
+      "descriptionZh": "招惹、挑釁或找某人麻煩",
+      "descriptionEn": "I would not mess with that coach.",
+      "examples": [
+        {
+          "en": "I would not mess with that coach.",
+          "zh": "我不會招惹那名教練。",
+          "highlight": "mess with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論浪費時間和胡鬧行為",
+      "titleEn": "Talk about wasting time and silly behaviour",
+      "zh": "mess around 可以描述人們玩鬧、做愚蠢的事情,或沒有做任何有用的事情。",
+      "en": "Mess around can describe people who are playing, behaving foolishly or doing nothing useful."
+    },
+    {
+      "titleZh": "提醒別人不要胡亂碰弄或改動物件",
+      "titleEn": "Warn people not to touch or change things carelessly",
+      "zh": "當有人未經許可或不小心地碰弄控制掣、設定、機器或私人物品時,你可以使用 MESS 片語動詞。",
+      "en": "You can use MESS expressions when someone touches controls, settings, machines or personal belongings without care or permission."
+    },
+    {
+      "titleZh": "描述凌亂的地方和被搞砸的計劃",
+      "titleEn": "Describe untidy places and ruined plans",
+      "zh": "mess something up 既可以描述被弄亂的房間,也可以描述出了問題的計劃。",
+      "en": "Mess something up can describe both a room that has become untidy and a plan that has gone wrong."
+    },
+    {
+      "titleZh": "談論不公平對待、衝突和感情關係",
+      "titleEn": "Talk about unfair treatment, trouble and relationships",
+      "zh": "MESS 片語動詞可以描述某人的時間被浪費、有人受到挑釁,或不合適的性關係。",
+      "en": "MESS expressions can describe someone whose time is being wasted, a person who is being challenged, or an unsuitable sexual relationship."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論浪費時間和胡鬧行為",
+      "提醒別人不要胡亂碰弄或改動物件",
+      "描述凌亂的地方和被搞砸的計劃",
+      "談論不公平對待、衝突和感情關係"
+    ],
+    "contextsEn": [
+      "Talk about wasting time and silly behaviour",
+      "Warn people not to touch or change things carelessly",
+      "Describe untidy places and ruined plans",
+      "Talk about unfair treatment, trouble and relationships"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論浪費時間和胡鬧行為",
+        "titleEn": "Talk about wasting time and silly behaviour",
+        "zh": "mess around 可以描述人們玩鬧、做愚蠢的事情,或沒有做任何有用的事情。",
+        "en": "Mess around can describe people who are playing, behaving foolishly or doing nothing useful.",
+        "examples": [
+          {
+            "en": "We just messed around at home all day.",
+            "zh": "我們整天都在家中胡鬧,沒有做正經事。",
+            "highlight": "messed around"
+          }
+        ]
+      },
+      {
+        "titleZh": "提醒別人不要胡亂碰弄或改動物件",
+        "titleEn": "Warn people not to touch or change things carelessly",
+        "zh": "當有人未經許可或不小心地碰弄控制掣、設定、機器或私人物品時,你可以使用 MESS 片語動詞。",
+        "en": "You can use MESS expressions when someone touches controls, settings, machines or personal belongings without care or permission.",
+        "examples": [
+          {
+            "en": "He admitted that he had been messing around with someone from work.",
+            "zh": "他承認自己曾與一名同事發生不正當性關係。",
+            "highlight": "messing around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述凌亂的地方和被搞砸的計劃",
+        "titleEn": "Describe untidy places and ruined plans",
+        "zh": "mess something up 既可以描述被弄亂的房間,也可以描述出了問題的計劃。",
+        "en": "Mess something up can describe both a room that has become untidy and a plan that has gone wrong.",
+        "examples": [
+          {
+            "en": "Stop messing around with the video controls.",
+            "zh": "不要再胡亂碰弄影片控制掣。",
+            "highlight": "messing around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不公平對待、衝突和感情關係",
+        "titleEn": "Talk about unfair treatment, trouble and relationships",
+        "zh": "MESS 片語動詞可以描述某人的時間被浪費、有人受到挑釁,或不合適的性關係。",
+        "en": "MESS expressions can describe someone whose time is being wasted, a person who is being challenged, or an unsuitable sexual relationship.",
+        "examples": [
+          {
+            "en": "The company messed us around for weeks.",
+            "zh": "公司反覆改變安排,令我們白等了數星期。",
+            "highlight": "messed us around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MESS 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MESS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MESS 片語動詞。",
+      "en": "Read the whole sentence and choose the MESS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 me、him、her、us、them 或 it 時,請按照以上例子使用正確語序。",
+      "titleEn": "When using me, him, her, us, them or it, follow the word order shown: mess me around mess him about mess it up mess with it mess around with it.",
+      "zh": "使用 me、him、her、us、them 或 it 時,請按照以上例子使用正確語序。",
+      "en": "When using me, him, her, us, them or it, follow the word order shown: mess me around mess him about mess it up mess with it mess around with it"
+    },
+    {
+      "titleZh": "本練習有數個表達可以使用 about 或 around,請按照參考表所示的形式使用。",
+      "titleEn": "About and around are both used in several expressions in this set.",
+      "zh": "本練習有數個表達可以使用 about 或 around,請按照參考表所示的形式使用。",
+      "en": "About and around are both used in several expressions in this set. Follow the forms shown in the reference bank."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MESS 動詞片語句子改寫練習",
+    "titleEn": "MESS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-198-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 16,
+      "prompt": "One wrong date spoiled the whole timetable.",
+      "promptZh": "一個錯誤日期令整份時間表出了問題。",
+      "starter": "One",
+      "answer": "One wrong date messed up the whole timetable.",
+      "answerZh": "一個錯誤日期令整份時間表出了問題。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Stop touching the video controls carelessly.",
+      "promptZh": "不要再胡亂碰弄影片控制掣。",
+      "starter": "Stop",
+      "answer": "Stop messing around with the video controls.",
+      "answerZh": "不要再胡亂碰弄影片控制掣。",
+      "highlight": "messing around with",
+      "targetForm": "mess around with something",
+      "targetMeaningZh": "胡亂碰弄、隨意試用或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "I would not provoke Frank if I were you.",
+      "promptZh": "如果我是你,我不會招惹法蘭克。",
+      "starter": "I",
+      "answer": "I would not mess with Frank if I were you.",
+      "answerZh": "如果我是你,我不會招惹法蘭克。",
+      "highlight": "mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We spent the whole afternoon doing silly things at home.",
+      "promptZh": "我們整個下午都在家中胡鬧。",
+      "starter": "We",
+      "answer": "We messed around at home all afternoon.",
+      "answerZh": "我們整個下午都在家中胡鬧。",
+      "highlight": "messed around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The travel company treated us unfairly and wasted our time.",
+      "promptZh": "旅遊公司不公平地對待我們,浪費了我們的時間。",
+      "starter": "The",
+      "answer": "The travel company messed us around.",
+      "answerZh": "旅遊公司不公平地對待我們,浪費了我們的時間。",
+      "highlight": "messed",
+      "targetForm": "mess somebody around",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The dog made the clean floor dirty and untidy.",
+      "promptZh": "那隻狗把乾淨的地板弄髒弄亂。",
+      "starter": "The",
+      "answer": "The dog messed up the clean floor.",
+      "answerZh": "那隻狗把乾淨的地板弄髒弄亂。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Alex had a sexual relationship with a colleague while he was married.",
+      "promptZh": "阿歷克斯已婚期間,與一名同事發生性關係。",
+      "starter": "Alex",
+      "answer": "Alex messed around with a colleague while he was married.",
+      "answerZh": "阿歷克斯已婚期間,與一名同事發生性關係。",
+      "highlight": "messed around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Who has been changing the answering-machine settings without permission?",
+      "promptZh": "誰未經許可改動過電話錄音機的設定?",
+      "starter": "Who",
+      "answer": "Who has been messing with the answering-machine settings without permission?",
+      "answerZh": "誰未經許可碰弄過電話錄音機的設定?",
+      "highlight": "messing with",
+      "targetForm": "mess with something",
+      "targetMeaningZh": "胡亂碰弄或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The children wasted time instead of getting ready.",
+      "promptZh": "孩子們沒有作好準備,反而浪費時間胡鬧。",
+      "starter": "The",
+      "answer": "The children messed around instead of getting ready.",
+      "answerZh": "孩子們沒有作好準備,反而浪費時間胡鬧。",
+      "highlight": "messed around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The rain spoiled our picnic plans.",
+      "promptZh": "大雨打亂了我們的野餐計劃。",
+      "starter": "The",
+      "answer": "The rain messed up our picnic plans.",
+      "answerZh": "大雨打亂了我們的野餐計劃。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The children made the living room dirty and untidy.",
+      "promptZh": "孩子們把客廳弄髒弄亂。",
+      "starter": "The",
+      "answer": "The children messed the living room up.",
+      "answerZh": "孩子們把客廳弄髒弄亂。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Do not start trouble with her.",
+      "promptZh": "不要招惹她。",
+      "starter": "Do",
+      "answer": "Do not mess with her.",
+      "answerZh": "不要招惹她。",
+      "highlight": "mess",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "She discovered that her husband had been having a sexual relationship with a neighbour.",
+      "promptZh": "她發現丈夫一直與一名鄰居發生性關係。",
+      "starter": "She",
+      "answer": "She discovered that her husband had been messing about with a neighbour.",
+      "answerZh": "她發現丈夫一直與一名鄰居發生性關係。",
+      "highlight": "messing about",
+      "targetForm": "mess about with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Stop changing your decision and wasting my time.",
+      "promptZh": "不要再改變主意,浪費我的時間。",
+      "starter": "Stop",
+      "answer": "Stop messing me about.",
+      "answerZh": "不要再反覆改變主意,浪費我的時間。",
+      "highlight": "messing me about",
+      "targetForm": "mess somebody about",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Why are you behaving foolishly instead of doing your work?",
+      "promptZh": "你為何不工作,反而在胡鬧?",
+      "starter": "Why",
+      "answer": "Why are you messing around instead of doing your work?",
+      "answerZh": "你為何不工作,反而在胡鬧?",
+      "highlight": "messing around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The bank has treated him unfairly for weeks.",
+      "promptZh": "銀行已經不公平地對待了他數星期。",
+      "starter": "The",
+      "answer": "The bank has messed him about for weeks.",
+      "answerZh": "銀行已經不公平地對待了他數星期。",
+      "highlight": "messed",
+      "targetForm": "mess somebody about",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Has someone been changing the computer settings carelessly?",
+      "promptZh": "是否有人胡亂改動過電腦設定?",
+      "starter": "Has",
+      "answer": "Has someone been messing around with the computer settings?",
+      "answerZh": "是否有人胡亂改動過電腦設定?",
+      "highlight": "messing around with",
+      "targetForm": "mess around with something",
+      "targetMeaningZh": "胡亂碰弄、隨意試用或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The wind has made my hair untidy.",
+      "promptZh": "風吹亂了我的頭髮。",
+      "starter": "The",
+      "answer": "The wind has messed my hair up.",
+      "answerZh": "風吹亂了我的頭髮。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Was he having a sexual relationship with someone at work?",
+      "promptZh": "他當時是否與公司裏的某人發生性關係?",
+      "starter": "Was",
+      "answer": "Was he messing around with someone at work?",
+      "answerZh": "他當時是否與公司裏的某人發生性關係?",
+      "highlight": "messing around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He chose the wrong person to annoy.",
+      "promptZh": "他招惹錯人了。",
+      "starter": "He",
+      "answer": "He messed with the wrong person.",
+      "answerZh": "他招惹錯人了。",
+      "highlight": "messed with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "A printing mistake is spoiling the final poster.",
+      "promptZh": "一個印刷錯誤正破壞最後的海報。",
+      "starter": "A",
+      "answer": "A printing mistake is messing up the final poster.",
+      "answerZh": "一個印刷錯誤正破壞最後的海報。",
+      "highlight": "messing up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "They have spent all morning doing nothing useful.",
+      "promptZh": "他們整個上午都沒有做任何有用的事情。",
+      "starter": "They",
+      "answer": "They have been messing around all morning.",
+      "answerZh": "他們整個上午都沒有做任何有用的事情。",
+      "highlight": "been messing around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Have they been treating you unfairly over your booking?",
+      "promptZh": "他們是否一直就你的預訂不公平地對待你?",
+      "starter": "Have",
+      "answer": "Have they been messing you around over your booking?",
+      "answerZh": "他們是否一直就你的預訂不公平地對待你?",
+      "highlight": "messing",
+      "targetForm": "mess somebody around",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The system works well, so do not change it.",
+      "promptZh": "系統運作良好,所以不要擅自改動它。",
+      "starter": "The",
+      "answer": "The system works well, so do not mess with it.",
+      "answerZh": "系統運作良好,所以不要擅自改動它。",
+      "highlight": "mess with",
+      "targetForm": "mess with something",
+      "targetMeaningZh": "胡亂碰弄或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please do not make the clean kitchen untidy.",
+      "promptZh": "請不要把乾淨的廚房弄亂。",
+      "starter": "Please",
+      "answer": "Please do not mess up the clean kitchen.",
+      "answerZh": "請不要把乾淨的廚房弄亂。",
+      "highlight": "mess up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why are they trying to provoke us?",
+      "promptZh": "他們為何正試圖挑釁我們?",
+      "starter": "Why",
+      "answer": "Why are they trying to mess with us?",
+      "answerZh": "他們為何正試圖挑釁我們?",
+      "highlight": "mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Her partner has never had a sexual relationship with anyone else while they have been together.",
+      "promptZh": "他們在一起期間,她的伴侶從未與其他人發生性關係。",
+      "starter": "Her",
+      "answer": "Her partner has never messed around with anyone else while they have been together.",
+      "answerZh": "他們在一起期間,她的伴侶從未與其他人發生性關係。",
+      "highlight": "messed around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "If we cancel now, we will spoil all the arrangements.",
+      "promptZh": "如果我們現在取消,便會打亂所有安排。",
+      "starter": "If",
+      "answer": "If we cancel now, we will mess up all the arrangements.",
+      "answerZh": "如果我們現在取消,便會打亂所有安排。",
+      "highlight": "mess up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "I put the papers in order, but the cat made them untidy.",
+      "promptZh": "我把文件整理好,但那隻貓把它們弄亂了。",
+      "starter": "I",
+      "answer": "I put the papers in order, but the cat messed them up.",
+      "answerZh": "我把文件整理好,但那隻貓把它們弄亂了。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We spent the afternoon trying different sounds on the keyboard for fun.",
+      "promptZh": "我們整個下午都在鍵盤上試玩不同的聲音。",
+      "starter": "We",
+      "answer": "We spent the afternoon messing about with different sounds on the keyboard for fun.",
+      "answerZh": "我們整個下午都在鍵盤上試玩不同的聲音。",
+      "highlight": "messing about with",
+      "targetForm": "mess about with something",
+      "targetMeaningZh": "隨意試用或把玩某物"
+    },
+    {
+      "id": "phrasal-verb-198-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She denied having a sexual relationship with anyone else during her marriage.",
+      "promptZh": "她否認自己在婚姻期間曾與其他人發生性關係。",
+      "starter": "She",
+      "answer": "She denied messing about with anyone else during her marriage.",
+      "answerZh": "她否認自己在婚姻期間曾與其他人發生性關係。",
+      "highlight": "messing about",
+      "targetForm": "mess about with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Someone moved the wires, and the machine stopped working.",
+      "promptZh": "有人移動了電線,令機器停止運作。",
+      "starter": "Someone",
+      "answer": "Someone messed with the wires, and the machine stopped working.",
+      "answerZh": "有人胡亂移動了電線,令機器停止運作。",
+      "highlight": "messed with",
+      "targetForm": "mess with something",
+      "targetMeaningZh": "胡亂碰弄或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I should have been studying, but I spent the evening doing silly things online.",
+      "promptZh": "我本來應該溫習,卻整晚都在網上胡鬧。",
+      "starter": "I",
+      "answer": "I should have been studying, but I messed around online all evening.",
+      "answerZh": "我本來應該溫習,卻整晚都在網上胡鬧。",
+      "highlight": "messed around online all",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The wrong address caused the delivery to fail.",
+      "promptZh": "錯誤的地址令送貨安排失敗。",
+      "starter": "The",
+      "answer": "The wrong address messed up the delivery.",
+      "answerZh": "錯誤的地址令送貨安排失敗。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The hotel treated us unfairly after we made the booking.",
+      "promptZh": "我們預訂後,酒店不公平地對待我們。",
+      "starter": "We",
+      "answer": "We were messed about by the hotel after we made the booking.",
+      "answerZh": "我們預訂後,酒店不公平地對待我們。",
+      "highlight": "We were messed about by",
+      "targetForm": "mess somebody about",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I told him that starting trouble with those players was a bad idea.",
+      "promptZh": "我告訴他,招惹那些球員並不是好主意。",
+      "starter": "I",
+      "answer": "I told him that messing with those players was a bad idea.",
+      "answerZh": "我告訴他,招惹那些球員並不是好主意。",
+      "highlight": "messing",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The room had been made dirty and untidy before the guests arrived.",
+      "promptZh": "客人到達前,房間已被弄髒弄亂。",
+      "starter": "The",
+      "answer": "The room had been messed up before the guests arrived.",
+      "answerZh": "客人到達前,房間已被弄髒弄亂。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "She warned them not to bother her brother.",
+      "promptZh": "她警告他們不要招惹她的弟弟。",
+      "starter": "She",
+      "answer": "She warned them not to mess with her brother.",
+      "answerZh": "她警告他們不要招惹她的弟弟。",
+      "highlight": "mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Her partner promised that he would not have a sexual relationship with anyone else.",
+      "promptZh": "她的伴侶承諾不會與其他人發生性關係。",
+      "starter": "Her",
+      "answer": "Her partner promised that he would not mess around with anyone else.",
+      "answerZh": "她的伴侶承諾不會與其他人發生性關係。",
+      "highlight": "mess around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The repair shop changed the collection date twice and kept wasting my time.",
+      "promptZh": "維修店兩次更改取貨日期,不斷浪費我的時間。",
+      "starter": "The",
+      "answer": "The repair shop changed the collection date twice and kept messing me around.",
+      "answerZh": "維修店兩次更改取貨日期,不斷浪費我的時間。",
+      "highlight": "messing me around",
+      "targetForm": "mess somebody around",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "After lunch, everyone spent time doing unimportant things until the match began.",
+      "promptZh": "午膳後,所有人都在做無關緊要的事情,直至比賽開始。",
+      "starter": "After",
+      "answer": "After lunch, everyone messed around until the match began.",
+      "answerZh": "午膳後,所有人都在做無關緊要的事情,直至比賽開始。",
+      "highlight": "messed around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I used salt instead of sugar, so I spoiled the cake.",
+      "promptZh": "我錯把鹽當成糖使用,所以把蛋糕弄壞了。",
+      "starter": "I",
+      "answer": "I used salt instead of sugar, so I messed the cake up.",
+      "answerZh": "我錯把鹽當成糖使用,所以把蛋糕弄壞了。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "People know they should not challenge the coach.",
+      "promptZh": "大家都知道不應該挑釁那名教練。",
+      "starter": "People",
+      "answer": "People know better than to mess with the coach.",
+      "answerZh": "大家都知道不應該挑釁那名教練。",
+      "highlight": "better than to mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Never use the emergency-door controls as if they were toys.",
+      "promptZh": "切勿把緊急門控制掣當成玩具使用。",
+      "starter": "Never",
+      "answer": "Never mess about with the emergency-door controls.",
+      "answerZh": "切勿胡亂碰弄緊急門控制掣。",
+      "highlight": "mess about with",
+      "targetForm": "mess about with something",
+      "targetMeaningZh": "胡亂碰弄或隨意使用某物"
+    },
+    {
+      "id": "phrasal-verb-198-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Why did you spoil the plan at the last minute?",
+      "promptZh": "你為何在最後一刻把計劃搞砸?",
+      "starter": "Why",
+      "answer": "Why did you mess the plan up at the last minute?",
+      "answerZh": "你為何在最後一刻把計劃搞砸?",
+      "highlight": "mess",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The report said that the married singer had been having a sexual relationship with a member of the band.",
+      "promptZh": "報道稱,那名已婚歌手一直與樂隊的一名成員發生性關係。",
+      "starter": "The",
+      "answer": "The report said that the married singer had been messing around with a member of the band.",
+      "answerZh": "報道稱,那名已婚歌手一直與樂隊的一名成員發生性關係。",
+      "highlight": "messing around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The organiser changed our seats and times repeatedly, so we complained.",
+      "promptZh": "主辦單位反覆更改我們的座位和時間,因此我們作出投訴。",
+      "starter": "The",
+      "answer": "The organiser messed us around with repeated changes to our seats and times, so we complained.",
+      "answerZh": "主辦單位反覆更改我們的座位和時間,令我們大受困擾,因此我們作出投訴。",
+      "highlight": "messed us around with repeated changes to",
+      "targetForm": "mess somebody around",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We had serious work to do, but why were they wasting time and behaving foolishly?",
+      "promptZh": "我們有重要工作要做,但他們為何仍在浪費時間胡鬧?",
+      "starter": "We",
+      "answer": "We had serious work to do, but why were they messing around?",
+      "answerZh": "我們有重要工作要做,但他們為何仍在浪費時間胡鬧?",
+      "highlight": "messing around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The children did not break the furniture, but they left the room dirty and untidy.",
+      "promptZh": "孩子們沒有弄壞家具,但把房間弄得又髒又亂。",
+      "starter": "The",
+      "answer": "The children did not break the furniture, but they messed the room up.",
+      "answerZh": "孩子們沒有弄壞家具,但把房間弄得又髒又亂。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "If you annoy him again, he may report you.",
+      "promptZh": "如果你再次招惹他,他可能會舉報你。",
+      "starter": "If",
+      "answer": "If you mess with him again, he may report you.",
+      "answerZh": "如果你再次招惹他,他可能會舉報你。",
+      "highlight": "mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "They promised that they had not touched or changed the files.",
+      "promptZh": "他們保證自己沒有碰過或改動那些檔案。",
+      "starter": "They",
+      "answer": "They promised that they had not messed with the files.",
+      "answerZh": "他們保證自己沒有碰過或改動那些檔案。",
+      "highlight": "messed with",
+      "targetForm": "mess with something",
+      "targetMeaningZh": "胡亂碰弄或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "She arrived late and spoiled her chance to join the team.",
+      "promptZh": "她遲到了,令自己失去加入球隊的機會。",
+      "starter": "She",
+      "answer": "She arrived late and messed up her chance to join the team.",
+      "answerZh": "她遲到了,令自己失去加入球隊的機會。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not let the shop keep delaying the repair and wasting your time.",
+      "promptZh": "不要讓店舖不斷延誤維修,浪費你的時間。",
+      "starter": "Do",
+      "answer": "Do not let the shop keep messing you about over the repair.",
+      "answerZh": "不要讓店舖不斷延誤維修,浪費你的時間。",
+      "highlight": "messing you about over",
+      "targetForm": "mess somebody about",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I would not stay with someone who had sexual relationships with other people while we were together.",
+      "promptZh": "如果有人在與我交往期間跟其他人發生性關係,我不會繼續和他在一起。",
+      "starter": "I",
+      "answer": "I would not stay with someone who messed about with other people while we were together.",
+      "answerZh": "如果有人在與我交往期間跟其他人發生性關係,我不會繼續和他在一起。",
+      "highlight": "messed about",
+      "targetForm": "mess about with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The helmet left her carefully arranged hair untidy.",
+      "promptZh": "頭盔弄亂了她精心整理的頭髮。",
+      "starter": "The",
+      "answer": "The helmet messed up her carefully arranged hair.",
+      "answerZh": "頭盔弄亂了她精心整理的頭髮。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The pupils behaved in a silly way instead of working.",
+      "promptZh": "學生們沒有工作,反而在胡鬧。",
+      "starter": "The",
+      "answer": "The pupils messed around instead of working.",
+      "answerZh": "學生們沒有工作,反而在胡鬧。",
+      "highlight": "messed around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After the company changed the delivery date four times, I complained that it had treated us unfairly.",
+      "promptZh": "公司四次更改送貨日期後,我投訴它不公平地對待我們。",
+      "starter": "After",
+      "answer": "After the company changed the delivery date four times, I complained that it had messed us around.",
+      "answerZh": "公司四次更改送貨日期後,我投訴它不公平地對待我們。",
+      "highlight": "messed",
+      "targetForm": "mess somebody around",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "We had one chance to win, but a careless pass spoiled it.",
+      "promptZh": "我們本來只有一次勝出機會,但一次粗心的傳球把它破壞了。",
+      "starter": "We",
+      "answer": "We had one chance to win, but a careless pass messed it up.",
+      "answerZh": "我們本來只有一次勝出機會,但一次粗心的傳球把它破壞了。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before using the machine, check that nobody has moved or changed its safety controls.",
+      "promptZh": "使用機器前,請檢查是否有人移動或改動過安全控制掣。",
+      "starter": "Before",
+      "answer": "Before using the machine, check that nobody has messed with its safety controls.",
+      "answerZh": "使用機器前,請檢查是否有人胡亂碰弄過安全控制掣。",
+      "highlight": "messed with",
+      "targetForm": "mess with something",
+      "targetMeaningZh": "胡亂碰弄或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Although we had planned a full day, we stayed at the house and did nothing useful.",
+      "promptZh": "雖然我們安排了一整天的活動,但最後只留在屋內,甚麼有用的事情也沒有做。",
+      "starter": "Although",
+      "answer": "Although we had planned a full day, we stayed at the house and messed around.",
+      "answerZh": "雖然我們安排了一整天的活動,但最後只留在屋內,甚麼有用的事情也沒有做。",
+      "highlight": "messed around",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The bully stopped laughing when he realised that the quiet man was not someone to provoke.",
+      "promptZh": "那名惡霸發現那個安靜的男子並不是可以隨便招惹的人後,便停止大笑。",
+      "starter": "The",
+      "answer": "The bully stopped laughing when he realised that the quiet man was not someone to mess with.",
+      "answerZh": "那名惡霸發現那個安靜的男子並不是可以隨便招惹的人後,便停止大笑。",
+      "highlight": "mess with",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    },
+    {
+      "id": "phrasal-verb-198-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "I had cleaned the desk for the visitors, but the children left it dirty and untidy again.",
+      "promptZh": "我已為訪客清理好書桌,但孩子們再次把它弄髒弄亂。",
+      "starter": "I",
+      "answer": "I had cleaned the desk for the visitors, but the children messed it up again.",
+      "answerZh": "我已為訪客清理好書桌,但孩子們再次把它弄髒弄亂。",
+      "highlight": "messed",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The manager apologised for repeatedly changing our work hours and wasting our time.",
+      "promptZh": "經理為反覆更改我們的工作時間及浪費我們的時間而道歉。",
+      "starter": "The",
+      "answer": "The manager apologised for messing us about by repeatedly changing our work hours.",
+      "answerZh": "經理為反覆更改我們的工作時間及浪費我們的時間而道歉。",
+      "highlight": "messing us about by",
+      "targetForm": "mess somebody about",
+      "targetMeaningZh": "反覆無常或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-198-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The sound system was ready, but a guest started touching its controls without knowing how they worked.",
+      "promptZh": "音響系統已準備好,但一名客人在不知道操作方法的情況下開始碰弄控制掣。",
+      "starter": "The",
+      "answer": "The sound system was ready, but a guest started messing around with its controls.",
+      "answerZh": "音響系統已準備好,但一名客人開始胡亂碰弄控制掣。",
+      "highlight": "messing around with",
+      "targetForm": "mess around with something",
+      "targetMeaningZh": "胡亂碰弄、隨意試用或擅自改動某物"
+    },
+    {
+      "id": "phrasal-verb-198-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "If you enter the wrong number, you may spoil the entire booking.",
+      "promptZh": "如果你輸入錯誤的號碼,可能會把整項預訂搞砸。",
+      "starter": "If",
+      "answer": "If you enter the wrong number, you may mess up the entire booking.",
+      "answerZh": "如果你輸入錯誤的號碼,可能會把整項預訂搞砸。",
+      "highlight": "mess up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某事搞砸、破壞或做得很差"
+    },
+    {
+      "id": "phrasal-verb-198-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "He said the relationship was over, but later admitted that he had had a sexual relationship with someone else while they were together.",
+      "promptZh": "他表示那段關係已經結束,但後來承認兩人在一起期間,他曾與另一人發生性關係。",
+      "starter": "He",
+      "answer": "He said the relationship was over, but later admitted that he had messed about with someone else while they were together.",
+      "answerZh": "他表示那段關係已經結束,但後來承認兩人在一起期間,他曾與另一人發生性關係。",
+      "highlight": "messed about",
+      "targetForm": "mess about with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The coach gave clear instructions, but some players spent the warm-up behaving foolishly.",
+      "promptZh": "教練給予了清晰指示,但部分球員在熱身期間一直胡鬧。",
+      "starter": "The",
+      "answer": "The coach gave clear instructions, but some players messed around during the warm-up.",
+      "answerZh": "教練給予了清晰指示,但部分球員在熱身期間一直胡鬧。",
+      "highlight": "messed around during",
+      "targetForm": "mess around",
+      "targetMeaningZh": "胡鬧、浪費時間或無所事事"
+    },
+    {
+      "id": "phrasal-verb-198-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "She ended the marriage after learning that her husband had had a sexual relationship with someone else.",
+      "promptZh": "她得知丈夫曾與另一人發生性關係後,結束了婚姻。",
+      "starter": "She",
+      "answer": "She ended the marriage after learning that her husband had messed around with someone else.",
+      "answerZh": "她得知丈夫曾與另一人發生性關係後,結束了婚姻。",
+      "highlight": "messed around",
+      "targetForm": "mess around with somebody",
+      "targetMeaningZh": "在不合適情況下與某人發生性關係"
+    },
+    {
+      "id": "phrasal-verb-198-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The strong wind left all the carefully arranged signs untidy.",
+      "promptZh": "強風吹亂了所有精心排列的告示牌。",
+      "starter": "The",
+      "answer": "The strong wind messed up all the carefully arranged signs.",
+      "answerZh": "強風吹亂了所有精心排列的告示牌。",
+      "highlight": "messed up",
+      "targetForm": "mess something up",
+      "targetMeaningZh": "把某物弄髒或弄亂"
+    },
+    {
+      "id": "phrasal-verb-198-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "I am not joking; do not start trouble with me again.",
+      "promptZh": "我不是在開玩笑;不要再次招惹我。",
+      "starter": "I",
+      "answer": "I am not joking; do not mess with me again.",
+      "answerZh": "我不是在開玩笑;不要再次招惹我。",
+      "highlight": "mess",
+      "targetForm": "mess with somebody",
+      "targetMeaningZh": "招惹、挑釁或找某人麻煩"
+    }
+  ]
+}

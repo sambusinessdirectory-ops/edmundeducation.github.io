@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-244",
+  "order": 244,
+  "slug": "bugger",
+  "version": "1",
+  "title": "BUGGER 動詞片語",
+  "titleEn": "Bugger",
+  "titleZh": "BUGGER 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 233 - BUGGER.pdf",
+    "sourceNumber": 233,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BUGGER 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BUGGER."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BUGGER",
+      "highlight": "BUGGER"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Stop buggering about with the printer.",
+      "zh": "別再亂弄打印機了。",
+      "highlight": "buggering about with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He told the man to bugger off.",
+      "zh": "他叫那個男人滾開。",
+      "highlight": "bugger off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The airline kept buggering us about.",
+      "zh": "航空公司不斷改動安排,把我們弄得團團轉。",
+      "highlight": "buggering us about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物；走開;滾開,語氣非常粗魯；反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉；把某事物弄壞或把事情搞砸",
+    "en": "bugger about / bugger around (with something); bugger off; bugger somebody about / bugger somebody around; bugger something up",
+    "naturalZh": [
+      "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+      "走開;滾開,語氣非常粗魯",
+      "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+      "把某事物弄壞或把事情搞砸"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bugger about / bugger around (with something)",
+      "titleZh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+      "titleEn": "bugger about / bugger around (with something)",
+      "descriptionZh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+      "descriptionEn": "Stop buggering about with the printer.",
+      "examples": [
+        {
+          "en": "Stop buggering about with the printer.",
+          "zh": "別再亂弄打印機了。",
+          "highlight": "buggering about with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bugger off",
+      "titleZh": "走開;滾開,語氣非常粗魯",
+      "titleEn": "bugger off",
+      "descriptionZh": "走開;滾開,語氣非常粗魯",
+      "descriptionEn": "He told the man to bugger off.",
+      "examples": [
+        {
+          "en": "He told the man to bugger off.",
+          "zh": "他叫那個男人滾開。",
+          "highlight": "bugger off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bugger somebody about / bugger somebody around",
+      "titleZh": "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+      "titleEn": "bugger somebody about / bugger somebody around",
+      "descriptionZh": "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+      "descriptionEn": "The airline kept buggering us about.",
+      "examples": [
+        {
+          "en": "The airline kept buggering us about.",
+          "zh": "航空公司不斷改動安排,把我們弄得團團轉。",
+          "highlight": "buggering us about"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bugger something up",
+      "titleZh": "把某事物弄壞或把事情搞砸",
+      "titleEn": "bugger something up",
+      "descriptionZh": "把某事物弄壞或把事情搞砸",
+      "descriptionEn": "Don’t bugger the plan up.",
+      "examples": [
+        {
+          "en": "Don’t bugger the plan up.",
+          "zh": "別把計劃搞砸。",
+          "highlight": "bugger the plan up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BUGGER 片語動詞的實際用途",
+    "labelEn": "BUGGER Phrasal Verbs in Use",
+    "summaryZh": "這些表達可能出現在英國電影、電視節目和非正式對話中。認識它們能幫助你理解說話者的態度。；bugger about 和 bugger around 可以描述某人浪費時間、胡鬧,或毫無目的地改動某物。；bugger somebody about 或 around 可以描述公司、僱主或其他人反覆改動安排,令某人白等或浪費時間。；bugger something up 是一種直接而口語化的說法,表示某人弄壞了計劃、工作、訂單或其他事情。",
+    "summaryEn": "These expressions may appear in British films, television programmes and informal conversations. Knowing them helps you understand the speaker’s attitude. Bugger about and bugger around can describe people who are wasting time, behaving foolishly or making pointless changes to something. Bugger somebody about or around can describe a company, employer or other person who repeatedly changes arrangements and wastes someone’s time. Bugger something up is a direct informal way to say that somebody has spoiled a plan, job, order or piece of work.",
+    "contextsZh": [
+      "理解粗魯和非正式的英式英語",
+      "談論浪費時間或毫無目的地亂弄東西",
+      "描述不公平的對待和反覆造成的不便",
+      "描述計劃或工作被搞砸"
+    ],
+    "contextsEn": [
+      "Understand rude and informal British English",
+      "Talk about wasting time or touching things without a purpose",
+      "Describe unfair treatment and repeated inconvenience",
+      "Describe plans and tasks being ruined"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BUGGER 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BUGGER expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bugger about / bugger around (with something)",
+    "fixedHighlight": "bugger about / bugger around (with something)",
+    "fixedZh": "閱讀整句,選出意思相同的 BUGGER 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BUGGER expression that gives the same meaning.",
+    "correct": "buggering about with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；這些表達屬於非常口語化的英式英語,而且可能令人感到無禮。bugger off 的語氣尤其粗魯,不應在有禮或正式的場合使用。；使用 him、her、us、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. These expressions are very informal British English and may sound rude. Bugger off is especially rude and should not be used in polite situations. When using him, her, us, it or them, place the word as shown: bugger him about bugger us around bugger it up bugger them up",
+    "variableItemsZh": [
+      "bugger about / bugger around (with something)",
+      "bugger off",
+      "bugger somebody about / bugger somebody around",
+      "bugger something up"
+    ],
+    "variableItemsEn": [
+      "bugger about / bugger around (with something)",
+      "bugger off",
+      "bugger somebody about / bugger somebody around",
+      "bugger something up"
+    ],
+    "forms": [
+      {
+        "formZh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+        "formEn": "bugger about / bugger around (with something)",
+        "exampleZh": "別再亂弄打印機了。",
+        "exampleEn": "Stop buggering about with the printer.",
+        "highlight": "buggering about with"
+      },
+      {
+        "formZh": "走開;滾開,語氣非常粗魯",
+        "formEn": "bugger off",
+        "exampleZh": "他叫那個男人滾開。",
+        "exampleEn": "He told the man to bugger off.",
+        "highlight": "bugger off"
+      },
+      {
+        "formZh": "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+        "formEn": "bugger somebody about / bugger somebody around",
+        "exampleZh": "航空公司不斷改動安排,把我們弄得團團轉。",
+        "exampleEn": "The airline kept buggering us about.",
+        "highlight": "buggering us about"
+      },
+      {
+        "formZh": "把某事物弄壞或把事情搞砸",
+        "formEn": "bugger something up",
+        "exampleZh": "別把計劃搞砸。",
+        "exampleEn": "Don’t bugger the plan up.",
+        "highlight": "bugger the plan up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+      "titleEn": "bugger about / bugger around (with something)",
+      "formula": "bugger about / bugger around (with something)",
+      "highlight": "bugger about / bugger around (with something)",
+      "descriptionZh": "胡鬧或浪費時間;漫無目的或不小心地亂弄某物",
+      "descriptionEn": "Stop buggering about with the printer.",
+      "examples": [
+        {
+          "en": "Stop buggering about with the printer.",
+          "zh": "別再亂弄打印機了。",
+          "highlight": "buggering about with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "走開;滾開,語氣非常粗魯",
+      "titleEn": "bugger off",
+      "formula": "bugger off",
+      "highlight": "bugger off",
+      "descriptionZh": "走開;滾開,語氣非常粗魯",
+      "descriptionEn": "He told the man to bugger off.",
+      "examples": [
+        {
+          "en": "He told the man to bugger off.",
+          "zh": "他叫那個男人滾開。",
+          "highlight": "bugger off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+      "titleEn": "bugger somebody about / bugger somebody around",
+      "formula": "bugger somebody about / bugger somebody around",
+      "highlight": "bugger somebody about / bugger somebody around",
+      "descriptionZh": "反覆改動安排、拖延或浪費某人的時間,把某人弄得團團轉",
+      "descriptionEn": "The airline kept buggering us about.",
+      "examples": [
+        {
+          "en": "The airline kept buggering us about.",
+          "zh": "航空公司不斷改動安排,把我們弄得團團轉。",
+          "highlight": "buggering us about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某事物弄壞或把事情搞砸",
+      "titleEn": "bugger something up",
+      "formula": "bugger something up",
+      "highlight": "bugger something up",
+      "descriptionZh": "把某事物弄壞或把事情搞砸",
+      "descriptionEn": "Don’t bugger the plan up.",
+      "examples": [
+        {
+          "en": "Don’t bugger the plan up.",
+          "zh": "別把計劃搞砸。",
+          "highlight": "bugger the plan up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "理解粗魯和非正式的英式英語",
+      "titleEn": "Understand rude and informal British English",
+      "zh": "這些表達可能出現在英國電影、電視節目和非正式對話中。認識它們能幫助你理解說話者的態度。",
+      "en": "These expressions may appear in British films, television programmes and informal conversations. Knowing them helps you understand the speaker’s attitude."
+    },
+    {
+      "titleZh": "談論浪費時間或毫無目的地亂弄東西",
+      "titleEn": "Talk about wasting time or touching things without a purpose",
+      "zh": "bugger about 和 bugger around 可以描述某人浪費時間、胡鬧,或毫無目的地改動某物。",
+      "en": "Bugger about and bugger around can describe people who are wasting time, behaving foolishly or making pointless changes to something."
+    },
+    {
+      "titleZh": "描述不公平的對待和反覆造成的不便",
+      "titleEn": "Describe unfair treatment and repeated inconvenience",
+      "zh": "bugger somebody about 或 around 可以描述公司、僱主或其他人反覆改動安排,令某人白等或浪費時間。",
+      "en": "Bugger somebody about or around can describe a company, employer or other person who repeatedly changes arrangements and wastes someone’s time."
+    },
+    {
+      "titleZh": "描述計劃或工作被搞砸",
+      "titleEn": "Describe plans and tasks being ruined",
+      "zh": "bugger something up 是一種直接而口語化的說法,表示某人弄壞了計劃、工作、訂單或其他事情。",
+      "en": "Bugger something up is a direct informal way to say that somebody has spoiled a plan, job, order or piece of work."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "理解粗魯和非正式的英式英語",
+      "談論浪費時間或毫無目的地亂弄東西",
+      "描述不公平的對待和反覆造成的不便",
+      "描述計劃或工作被搞砸"
+    ],
+    "contextsEn": [
+      "Understand rude and informal British English",
+      "Talk about wasting time or touching things without a purpose",
+      "Describe unfair treatment and repeated inconvenience",
+      "Describe plans and tasks being ruined"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "理解粗魯和非正式的英式英語",
+        "titleEn": "Understand rude and informal British English",
+        "zh": "這些表達可能出現在英國電影、電視節目和非正式對話中。認識它們能幫助你理解說話者的態度。",
+        "en": "These expressions may appear in British films, television programmes and informal conversations. Knowing them helps you understand the speaker’s attitude.",
+        "examples": [
+          {
+            "en": "Stop buggering about with the printer.",
+            "zh": "別再亂弄打印機了。",
+            "highlight": "buggering about with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論浪費時間或毫無目的地亂弄東西",
+        "titleEn": "Talk about wasting time or touching things without a purpose",
+        "zh": "bugger about 和 bugger around 可以描述某人浪費時間、胡鬧,或毫無目的地改動某物。",
+        "en": "Bugger about and bugger around can describe people who are wasting time, behaving foolishly or making pointless changes to something.",
+        "examples": [
+          {
+            "en": "He told the man to bugger off.",
+            "zh": "他叫那個男人滾開。",
+            "highlight": "bugger off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不公平的對待和反覆造成的不便",
+        "titleEn": "Describe unfair treatment and repeated inconvenience",
+        "zh": "bugger somebody about 或 around 可以描述公司、僱主或其他人反覆改動安排,令某人白等或浪費時間。",
+        "en": "Bugger somebody about or around can describe a company, employer or other person who repeatedly changes arrangements and wastes someone’s time.",
+        "examples": [
+          {
+            "en": "The airline kept buggering us about.",
+            "zh": "航空公司不斷改動安排,把我們弄得團團轉。",
+            "highlight": "buggering us about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述計劃或工作被搞砸",
+        "titleEn": "Describe plans and tasks being ruined",
+        "zh": "bugger something up 是一種直接而口語化的說法,表示某人弄壞了計劃、工作、訂單或其他事情。",
+        "en": "Bugger something up is a direct informal way to say that somebody has spoiled a plan, job, order or piece of work.",
+        "examples": [
+          {
+            "en": "Don’t bugger the plan up.",
+            "zh": "別把計劃搞砸。",
+            "highlight": "bugger the plan up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BUGGER 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BUGGER expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BUGGER 片語動詞。",
+      "en": "Read the whole sentence and choose the BUGGER expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "這些表達屬於非常口語化的英式英語,而且可能令人感到無禮。bugger off 的語氣尤其粗魯,不應在有禮或正式的場合使用。",
+      "titleEn": "These expressions are very informal British English and may sound rude.",
+      "zh": "這些表達屬於非常口語化的英式英語,而且可能令人感到無禮。bugger off 的語氣尤其粗魯,不應在有禮或正式的場合使用。",
+      "en": "These expressions are very informal British English and may sound rude. Bugger off is especially rude and should not be used in polite situations."
+    },
+    {
+      "titleZh": "使用 him、her、us、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, us, it or them, place the word as shown: bugger him about bugger us around bugger it up bugger them up.",
+      "zh": "使用 him、her、us、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, us, it or them, place the word as shown: bugger him about bugger us around bugger it up bugger them up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BUGGER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BUGGER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BUGGER 動詞片語句子改寫練習",
+    "titleEn": "BUGGER Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BUGGER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BUGGER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-244-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Stop wasting time and help us pack.",
+      "promptZh": "別再浪費時間了,過來幫我們收拾東西。",
+      "starter": "Stop",
+      "answer": "Stop buggering about and help us pack.",
+      "answerZh": "別再浪費時間了,過來幫我們收拾東西。",
+      "highlight": "buggering about",
+      "targetForm": "bugger about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The company kept changing our arrangements and wasting our time for weeks.",
+      "promptZh": "公司連續數星期反覆改動我們的安排,浪費我們的時間。",
+      "starter": "The",
+      "answer": "The company buggered us about for weeks.",
+      "answerZh": "公司連續數星期反覆改動我們的安排,把我們弄得團團轉。",
+      "highlight": "buggered us about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "One wrong number ruined the whole booking.",
+      "promptZh": "一個錯誤的號碼把整個預訂搞砸了。",
+      "starter": "One",
+      "answer": "One wrong number buggered the whole booking up.",
+      "answerZh": "一個錯誤的號碼把整個預訂搞砸了。",
+      "highlight": "buggered",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He rudely told the noisy boys to go away.",
+      "promptZh": "他粗魯地叫那些吵鬧的男孩子走開。",
+      "starter": "He",
+      "answer": "He told the noisy boys to bugger off.",
+      "answerZh": "他叫那些吵鬧的男孩子滾開。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The boys were wasting time instead of cleaning the room.",
+      "promptZh": "那些男孩子沒有清潔房間,反而一直浪費時間。",
+      "starter": "The",
+      "answer": "The boys were buggering around instead of cleaning the room.",
+      "answerZh": "那些男孩子沒有清潔房間,反而一直胡鬧和浪費時間。",
+      "highlight": "buggering around",
+      "targetForm": "bugger around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The airline kept changing our flight and wasting our time.",
+      "promptZh": "航空公司不斷更改我們的航班,浪費我們的時間。",
+      "starter": "The",
+      "answer": "The airline kept buggering us about.",
+      "answerZh": "航空公司不斷更改我們的航班,把我們弄得團團轉。",
+      "highlight": "buggering us about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He shouted, “Go away and leave us alone!”",
+      "promptZh": "他大叫:「走開,別再騷擾我們!」",
+      "starter": "He",
+      "answer": "He shouted, “Bugger off and leave us alone!”",
+      "answerZh": "他大叫:「滾開,別再騷擾我們!」",
+      "highlight": "Bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Don’t ruin this for everyone.",
+      "promptZh": "別把這件事搞砸,連累所有人。",
+      "starter": "Don’t",
+      "answer": "Don’t bugger this up for everyone.",
+      "answerZh": "別把這件事搞砸,連累所有人。",
+      "highlight": "bugger",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Don’t let them keep changing your arrangements and wasting your time again.",
+      "promptZh": "別再讓他們反覆改動你的安排,浪費你的時間。",
+      "starter": "Don’t",
+      "answer": "Don’t let them bugger you about again.",
+      "answerZh": "別再讓他們反覆改動你的安排,把你弄得團團轉。",
+      "highlight": "bugger you about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Please stop making pointless changes to the radio.",
+      "promptZh": "請停止毫無目的地亂調收音機。",
+      "starter": "Please",
+      "answer": "Please stop buggering about with the radio.",
+      "answerZh": "請停止毫無目的地亂調收音機。",
+      "highlight": "buggering about with",
+      "targetForm": "bugger about with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    },
+    {
+      "id": "phrasal-verb-244-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She nearly ruined the presentation when she deleted the last slide.",
+      "promptZh": "她刪除最後一張投影片時,差點把整個簡報搞砸。",
+      "starter": "She",
+      "answer": "She nearly buggered up the presentation when she deleted the last slide.",
+      "answerZh": "她刪除最後一張投影片時,差點把整個簡報搞砸。",
+      "highlight": "buggered up",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The man finally went away when no one answered him.",
+      "promptZh": "沒有人回應那個男人後,他終於離開了。",
+      "starter": "The",
+      "answer": "The man finally buggered off when no one answered him.",
+      "answerZh": "沒有人回應那個男人後,他終於離開了。",
+      "highlight": "buggered off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "離開;走開"
+    },
+    {
+      "id": "phrasal-verb-244-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why are you changing the settings again without any clear reason?",
+      "promptZh": "你為甚麼又在毫無明確原因下亂改設定?",
+      "starter": "Why",
+      "answer": "Why are you buggering around with the settings again?",
+      "answerZh": "你為甚麼又在毫無目的地亂改設定?",
+      "highlight": "buggering around with",
+      "targetForm": "bugger around with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    },
+    {
+      "id": "phrasal-verb-244-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why do they keep treating the customers badly by changing the arrangements again and again?",
+      "promptZh": "他們為甚麼反覆改動安排,不斷為難顧客?",
+      "starter": "Why",
+      "answer": "Why do they keep buggering the customers around?",
+      "answerZh": "他們為甚麼不斷反覆改動安排,把顧客弄得團團轉?",
+      "highlight": "buggering",
+      "targetForm": "bugger somebody around",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The rain ruined our plans.",
+      "promptZh": "下雨把我們的計劃搞砸了。",
+      "starter": "The",
+      "answer": "The rain buggered our plans up.",
+      "answerZh": "下雨把我們的計劃搞砸了。",
+      "highlight": "buggered",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why don’t you go away and bother someone else?",
+      "promptZh": "你為甚麼不走開,改去騷擾其他人?",
+      "starter": "Why",
+      "answer": "Why don’t you bugger off and bother someone else?",
+      "answerZh": "你為甚麼不滾開,改去騷擾其他人?",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Three different departments have passed us from one place to another and wasted our time.",
+      "promptZh": "三個不同部門把我們推來推去,浪費了我們的時間。",
+      "starter": "We",
+      "answer": "We have been buggered about by three different departments.",
+      "answerZh": "三個不同部門把我們推來推去,浪費了我們的時間。",
+      "highlight": "We have been buggered about by",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We wasted half an hour instead of starting.",
+      "promptZh": "我們沒有開始工作,反而浪費了半小時。",
+      "starter": "We",
+      "answer": "We spent half an hour buggering about instead of starting.",
+      "answerZh": "我們沒有開始工作,反而胡混了半小時。",
+      "highlight": "spent",
+      "targetForm": "bugger about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I don’t want to ruin the new job on my first day.",
+      "promptZh": "我不想在上班第一天便把新工作搞砸。",
+      "starter": "I",
+      "answer": "I don’t want to bugger the new job up on my first day.",
+      "answerZh": "我不想在上班第一天便把新工作搞砸。",
+      "highlight": "bugger",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "She wished the reporters would go away.",
+      "promptZh": "她希望那些記者離開。",
+      "starter": "She",
+      "answer": "She wished the reporters would bugger off.",
+      "answerZh": "她希望那些記者離開,不再騷擾她。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "離開;走開"
+    },
+    {
+      "id": "phrasal-verb-244-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The landlord kept changing the repair date and causing trouble for the family.",
+      "promptZh": "業主不斷更改維修日期,為這個家庭帶來麻煩。",
+      "starter": "The",
+      "answer": "The landlord kept buggering the family around over the repair date.",
+      "answerZh": "業主不斷更改維修日期,把這個家庭弄得團團轉。",
+      "highlight": "buggering the family around over",
+      "targetForm": "bugger somebody around",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A careless change has ruined the sound.",
+      "promptZh": "一次粗心的改動已把音效弄壞。",
+      "starter": "A",
+      "answer": "A careless change has buggered up the sound.",
+      "answerZh": "一次粗心的改動已把音效弄壞。",
+      "highlight": "buggered up",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "He is always making pointless changes to his phone during dinner.",
+      "promptZh": "他總是在吃晚飯時毫無目的地亂改手機設定。",
+      "starter": "He",
+      "answer": "He is always buggering around with his phone during dinner.",
+      "answerZh": "他總是在吃晚飯時毫無目的地亂改手機設定。",
+      "highlight": "buggering around with",
+      "targetForm": "bugger around with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    },
+    {
+      "id": "phrasal-verb-244-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They were rudely told to go away before the police arrived.",
+      "promptZh": "警察到達前,有人粗魯地叫他們走開。",
+      "starter": "They",
+      "answer": "They were told to bugger off before the police arrived.",
+      "answerZh": "警察到達前,有人粗魯地叫他們滾開。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "How did they ruin the order so badly?",
+      "promptZh": "他們怎麼會把這張訂單弄得這麼糟?",
+      "starter": "How",
+      "answer": "How did they bugger the order up so badly?",
+      "answerZh": "他們怎麼會把這張訂單弄得這麼糟?",
+      "highlight": "bugger",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Don’t behave foolishly while the teacher is speaking.",
+      "promptZh": "老師說話時,別再胡鬧。",
+      "starter": "Don’t",
+      "answer": "Don’t bugger about while the teacher is speaking.",
+      "answerZh": "老師說話時,別再胡鬧。",
+      "highlight": "bugger about",
+      "targetForm": "bugger about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "No worker should be treated unfairly by an employer that keeps changing plans and wasting their time.",
+      "promptZh": "任何僱員都不應被反覆改動安排和浪費時間的僱主不公平對待。",
+      "starter": "No",
+      "answer": "No worker should be buggered about by their employer.",
+      "answerZh": "任何僱員都不應被僱主反覆改動安排或浪費時間。",
+      "highlight": "buggered about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The wrong password could ruin everything.",
+      "promptZh": "錯誤的密碼可能會把一切搞砸。",
+      "starter": "The",
+      "answer": "The wrong password could bugger everything up.",
+      "answerZh": "錯誤的密碼可能會把一切搞砸。",
+      "highlight": "bugger",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I just wanted him to go away.",
+      "promptZh": "我只想他離開。",
+      "starter": "I",
+      "answer": "I just wanted him to bugger off.",
+      "answerZh": "我只想他離開,不再騷擾我。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "離開;走開"
+    },
+    {
+      "id": "phrasal-verb-244-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before lunch, Sam had spent all morning making pointless changes to the old bike.",
+      "promptZh": "午飯前,森已花了一整個早上毫無目的地亂弄那輛舊單車。",
+      "starter": "Before",
+      "answer": "Before lunch, Sam had been buggering about with the old bike all morning.",
+      "answerZh": "午飯前,森已花了一整個早上毫無目的地亂弄那輛舊單車。",
+      "highlight": "been buggering about with",
+      "targetForm": "bugger about with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    },
+    {
+      "id": "phrasal-verb-244-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Could you tell that man to go away and leave us alone?",
+      "promptZh": "你可以叫那個男人走開,別再騷擾我們嗎?",
+      "starter": "Could",
+      "answer": "Could you tell that man to bugger off and leave us alone?",
+      "answerZh": "你可以叫那個男人滾開,別再騷擾我們嗎?",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "She felt that the travel company kept changing her plans and wasting her time.",
+      "promptZh": "她覺得旅遊公司不斷更改她的安排,浪費她的時間。",
+      "starter": "She",
+      "answer": "She felt that the travel company was buggering her around.",
+      "answerZh": "她覺得旅遊公司不斷更改她的安排,把她弄得團團轉。",
+      "highlight": "was buggering",
+      "targetForm": "bugger somebody around",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of wasting time, they should finish the job.",
+      "promptZh": "他們不應浪費時間,而應完成工作。",
+      "starter": "Instead",
+      "answer": "Instead of buggering around, they should finish the job.",
+      "answerZh": "他們不應再浪費時間,而應完成工作。",
+      "highlight": "buggering around",
+      "targetForm": "bugger around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We must check the figures so that we do not ruin them.",
+      "promptZh": "我們必須檢查數字,以免把它們弄錯。",
+      "starter": "We",
+      "answer": "We must check the figures so that we do not bugger them up.",
+      "answerZh": "我們必須檢查數字,以免把它們弄錯。",
+      "highlight": "bugger",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After wasting our time and changing the arrangements all morning, the office finally gave us an answer.",
+      "promptZh": "辦事處浪費了我們一整個早上的時間,又反覆改動安排,最後才給我們答覆。",
+      "starter": "After",
+      "answer": "After buggering us about all morning, the office finally gave us an answer.",
+      "answerZh": "辦事處把我們弄得團團轉一整個早上,最後才給我們答覆。",
+      "highlight": "buggering us about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The stranger would not go away, even after we closed the door.",
+      "promptZh": "即使我們關上門,那個陌生人仍不肯離開。",
+      "starter": "The",
+      "answer": "The stranger would not bugger off, even after we closed the door.",
+      "answerZh": "即使我們關上門,那個陌生人仍不肯離開。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "離開;走開"
+    },
+    {
+      "id": "phrasal-verb-244-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "He rushed and ruined a simple task.",
+      "promptZh": "他因為太匆忙,把一項簡單的工作搞砸了。",
+      "starter": "He",
+      "answer": "He rushed and buggered up a simple task.",
+      "answerZh": "他因為太匆忙,把一項簡單的工作搞砸了。",
+      "highlight": "buggered up",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "They promised not to keep changing the students’ arrangements or wasting their time again.",
+      "promptZh": "他們承諾不會再反覆改動學生的安排或浪費他們的時間。",
+      "starter": "They",
+      "answer": "They promised not to bugger the students around again.",
+      "answerZh": "他們承諾不會再反覆改動學生的安排或浪費他們的時間。",
+      "highlight": "bugger",
+      "targetForm": "bugger somebody around",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I told them to stop making pointless changes to the controls.",
+      "promptZh": "我叫他們停止毫無目的地亂改控制設定。",
+      "starter": "I",
+      "answer": "I told them to stop buggering about with the controls.",
+      "answerZh": "我叫他們停止毫無目的地亂改控制設定。",
+      "highlight": "buggering about with",
+      "targetForm": "bugger about with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    },
+    {
+      "id": "phrasal-verb-244-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After being rudely told to go away, he left without another word.",
+      "promptZh": "有人粗魯地叫他走開後,他一言不發地離開了。",
+      "starter": "After",
+      "answer": "After being told to bugger off, he left without another word.",
+      "answerZh": "有人粗魯地叫他滾開後,他一言不發地離開了。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "While everyone else worked, Leo wasted time near the door.",
+      "promptZh": "其他人工作時,里奧卻在門口附近浪費時間。",
+      "starter": "While",
+      "answer": "While everyone else worked, Leo buggered around near the door.",
+      "answerZh": "其他人工作時,里奧卻在門口附近胡混和浪費時間。",
+      "highlight": "buggered around",
+      "targetForm": "bugger around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "How long will the bank keep changing the arrangements and wasting your time?",
+      "promptZh": "銀行還要反覆改動安排和浪費你的時間多久?",
+      "starter": "How",
+      "answer": "How long will the bank keep buggering you about?",
+      "answerZh": "銀行還要反覆改動安排,把你弄得團團轉多久?",
+      "highlight": "buggering you about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The update had ruined the app before anyone noticed.",
+      "promptZh": "在任何人發現之前,那次更新已把應用程式弄壞。",
+      "starter": "The",
+      "answer": "The update had buggered the app up before anyone noticed.",
+      "answerZh": "在任何人發現之前,那次更新已把應用程式弄壞。",
+      "highlight": "buggered",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "She rudely shouted at the dog to go away.",
+      "promptZh": "她粗魯地大叫,叫那隻狗走開。",
+      "starter": "She",
+      "answer": "She shouted at the dog to bugger off.",
+      "answerZh": "她粗魯地大叫,叫那隻狗滾開。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The airline’s repeated changes and delays ruined the first day of our trip.",
+      "promptZh": "航空公司反覆改動安排和延誤,破壞了我們旅程的第一天。",
+      "starter": "Being",
+      "answer": "Being buggered around by the airline ruined the first day of our trip.",
+      "answerZh": "航空公司反覆改動安排和延誤,破壞了我們旅程的第一天。",
+      "highlight": "Being buggered around by",
+      "targetForm": "bugger somebody around",
+      "targetMeaningZh": "反覆改動安排,為難某人"
+    },
+    {
+      "id": "phrasal-verb-244-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The meeting cannot start while people are wasting time and behaving foolishly.",
+      "promptZh": "大家仍在浪費時間和胡鬧,會議便無法開始。",
+      "starter": "The",
+      "answer": "The meeting cannot start while people are buggering about.",
+      "answerZh": "大家仍在浪費時間和胡鬧,會議便無法開始。",
+      "highlight": "buggering about",
+      "targetForm": "bugger about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-244-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If they come back and start shouting again, tell them to go away at once.",
+      "promptZh": "如果他們回來再次大叫,便叫他們立即離開。",
+      "starter": "If",
+      "answer": "If they come back and start shouting again, tell them to bugger off.",
+      "answerZh": "如果他們回來再次大叫,便叫他們滾開。",
+      "highlight": "bugger off",
+      "targetForm": "bugger off",
+      "targetMeaningZh": "走開;滾開,語氣粗魯"
+    },
+    {
+      "id": "phrasal-verb-244-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please be careful not to ruin the final copy.",
+      "promptZh": "請小心,不要把最後版本弄壞。",
+      "starter": "Please",
+      "answer": "Please be careful not to bugger up the final copy.",
+      "answerZh": "請小心,不要把最後版本弄壞。",
+      "highlight": "bugger up",
+      "targetForm": "bugger something up",
+      "targetMeaningZh": "把某事物弄壞或搞砸"
+    },
+    {
+      "id": "phrasal-verb-244-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "If the shop keeps changing what it says and wasting my time, I will ask for my money back.",
+      "promptZh": "如果店舖繼續改口和浪費我的時間,我便會要求退款。",
+      "starter": "If",
+      "answer": "If the shop keeps buggering me about, I will ask for my money back.",
+      "answerZh": "如果店舖繼續改口,把我弄得團團轉,我便會要求退款。",
+      "highlight": "buggering me about",
+      "targetForm": "bugger somebody about",
+      "targetMeaningZh": "反覆改動安排,浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-244-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "After making pointless changes to the app for an hour, she still had not fixed it.",
+      "promptZh": "她毫無目的地亂改應用程式一小時後,仍未能把它修好。",
+      "starter": "After",
+      "answer": "After buggering around with the app for an hour, she still had not fixed it.",
+      "answerZh": "她毫無目的地亂改應用程式一小時後,仍未能把它修好。",
+      "highlight": "buggering around with",
+      "targetForm": "bugger around with something",
+      "targetMeaningZh": "毫無目的或不小心地亂弄某物"
+    }
+  ]
+}

@@ -175,7 +175,7 @@ Only content version `1` and IDs in the generated Phrasal Verb catalogue are
 accepted. Claimed correct answers are checked against the protected server catalogue derived from the
 canonical browser data. Progress cannot lose previously correct IDs, and
 completed attempts are immutable, so a
-retry after a lost response is safe. Result JSON is capped at 96 KiB and 250
+retry after a lost response is safe. Result JSON is capped at 384 KiB and 250
 round summaries; the database retains at most 1,000 attempts per student.
 
 ### Bookmarks
@@ -186,9 +186,8 @@ round summaries; the database retains at most 1,000 attempts per student.
 `PUT` atomically replaces the student's list. Each item has exactly
 `lessonId`, `questionId`, and boolean `includeAnswer`. The optional lesson-card
 bookmark uses question ID `__section__` and must set `includeAnswer` to `false`.
-The maximum is derived from the generated catalogue: one section bookmark per
-lesson plus one bookmark per published question. Existing
-creation timestamps survive updates.
+The replacement list is capped at 2,005 bookmarks, matching the database RPC
+and payload limits. Existing creation timestamps survive updates.
 
 ### Administrator progress view
 

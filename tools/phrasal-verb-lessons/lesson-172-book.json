@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-172",
+  "order": 172,
+  "slug": "book",
+  "version": "1",
+  "title": "BOOK 動詞片語",
+  "titleEn": "Book",
+  "titleZh": "BOOK 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 171 - BOOK.pdf",
+    "sourceNumber": 171,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BOOK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BOOK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BOOK",
+      "highlight": "BOOK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We booked in at the hotel before dinner.",
+      "zh": "我們在晚餐前到酒店辦理入住。",
+      "highlight": "booked in at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I booked my parents in at the Plaza.",
+      "zh": "我為父母預訂了廣場酒店的住宿。",
+      "highlight": "booked my parents in at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We booked up for the course in May.",
+      "zh": "我們在五月已報名參加該課程。",
+      "highlight": "booked up for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "到酒店、旅舍或旅館等住宿地點辦理入住；為某人或自己安排住宿；提早報名或預留課程、活動等的名額",
+    "en": "book in (at somewhere) / book into somewhere; book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere; book up (for something)",
+    "naturalZh": [
+      "到酒店、旅舍或旅館等住宿地點辦理入住",
+      "為某人或自己安排住宿",
+      "提早報名或預留課程、活動等的名額"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "book in (at somewhere) / book into somewhere",
+      "titleZh": "到酒店、旅舍或旅館等住宿地點辦理入住",
+      "titleEn": "book in (at somewhere) / book into somewhere",
+      "descriptionZh": "到酒店、旅舍或旅館等住宿地點辦理入住",
+      "descriptionEn": "We booked in at the hotel before dinner.",
+      "examples": [
+        {
+          "en": "We booked in at the hotel before dinner.",
+          "zh": "我們在晚餐前到酒店辦理入住。",
+          "highlight": "booked in at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "titleZh": "為某人或自己安排住宿",
+      "titleEn": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "descriptionZh": "為某人或自己安排住宿",
+      "descriptionEn": "I booked my parents in at the Plaza.",
+      "examples": [
+        {
+          "en": "I booked my parents in at the Plaza.",
+          "zh": "我為父母預訂了廣場酒店的住宿。",
+          "highlight": "booked my parents in at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "book up (for something)",
+      "titleZh": "提早報名或預留課程、活動等的名額",
+      "titleEn": "book up (for something)",
+      "descriptionZh": "提早報名或預留課程、活動等的名額",
+      "descriptionEn": "We booked up for the course in May.",
+      "examples": [
+        {
+          "en": "We booked up for the course in May.",
+          "zh": "我們在五月已報名參加該課程。",
+          "highlight": "booked up for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BOOK 片語動詞的實際用途",
+    "labelEn": "BOOK Phrasal Verbs in Use",
+    "summaryZh": "book in 和 book into 可以表示抵達酒店或其他住宿地點後辦理入住。；你可以使用 book somebody in 或 book somebody into,表示為家人、朋友、旅客或自己安排酒店住宿。；當課程或活動名額有限時,可以使用 book up for 表示提早預留名額。；BOOK 片語動詞可以幫助你分辨旅客抵達後辦理入住,以及另一個人事先為他們安排住宿。",
+    "summaryEn": "Book in and book into help you describe arriving at a hotel or another place and registering for your stay. You can use book somebody in or book somebody into when arranging a hotel stay for family members, friends, guests or yourself. Book up for is useful when a course or activity has limited places and you reserve one in advance. The BOOK family helps you distinguish between travellers registering after they arrive and another person arranging their accommodation beforehand.",
+    "contextsZh": [
+      "清楚談論抵達住宿地點後的入住手續",
+      "為自己或其他人安排住宿",
+      "談論提早預留課程名額",
+      "分辨辦理入住和預先安排住宿"
+    ],
+    "contextsEn": [
+      "Talk clearly about arriving at a hotel",
+      "Arrange accommodation for yourself or other people",
+      "Talk about reserving course places early",
+      "Distinguish arrival from advance arrangements"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BOOK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BOOK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "book in (at somewhere) / book into somewhere",
+    "fixedHighlight": "book in (at somewhere) / book into somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 BOOK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BOOK expression that gives the same meaning.",
+    "correct": "booked in at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意動作由誰進行:We booked in at the hotel. / We booked into the hotel. 表示我們抵達酒店並辦理入住。The organiser booked us in at the hotel. / The organiser booked us into the hotel. 表示主辦人為我們安排住宿。；book up for a course 表示提早預留課程名額。如所指的課程或活動已經清楚,也可以只用 bookup。",
+    "variableEn": "Keep the same people, things, time and meaning. Compare who is doing the action: We booked in at the hotel. / We booked into the hotel. The organiser booked us in at the hotel. / The organiser booked us into the hotel. The first pair describes our arrival and registration. The second pair describes the organiser arranging our stay. Book up for a course means reserve a place in advance. When the course or activity is already clear, book up can also be used without for.",
+    "variableItemsZh": [
+      "book in (at somewhere) / book into somewhere",
+      "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "book up (for something)"
+    ],
+    "variableItemsEn": [
+      "book in (at somewhere) / book into somewhere",
+      "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "book up (for something)"
+    ],
+    "forms": [
+      {
+        "formZh": "到酒店、旅舍或旅館等住宿地點辦理入住",
+        "formEn": "book in (at somewhere) / book into somewhere",
+        "exampleZh": "我們在晚餐前到酒店辦理入住。",
+        "exampleEn": "We booked in at the hotel before dinner.",
+        "highlight": "booked in at"
+      },
+      {
+        "formZh": "為某人或自己安排住宿",
+        "formEn": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+        "exampleZh": "我為父母預訂了廣場酒店的住宿。",
+        "exampleEn": "I booked my parents in at the Plaza.",
+        "highlight": "booked my parents in at"
+      },
+      {
+        "formZh": "提早報名或預留課程、活動等的名額",
+        "formEn": "book up (for something)",
+        "exampleZh": "我們在五月已報名參加該課程。",
+        "exampleEn": "We booked up for the course in May.",
+        "highlight": "booked up for"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "到酒店、旅舍或旅館等住宿地點辦理入住",
+      "titleEn": "book in (at somewhere) / book into somewhere",
+      "formula": "book in (at somewhere) / book into somewhere",
+      "highlight": "book in (at somewhere) / book into somewhere",
+      "descriptionZh": "到酒店、旅舍或旅館等住宿地點辦理入住",
+      "descriptionEn": "We booked in at the hotel before dinner.",
+      "examples": [
+        {
+          "en": "We booked in at the hotel before dinner.",
+          "zh": "我們在晚餐前到酒店辦理入住。",
+          "highlight": "booked in at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "為某人或自己安排住宿",
+      "titleEn": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "formula": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "highlight": "book somebody/yourself in (at somewhere) / book somebody/yourself into somewhere",
+      "descriptionZh": "為某人或自己安排住宿",
+      "descriptionEn": "I booked my parents in at the Plaza.",
+      "examples": [
+        {
+          "en": "I booked my parents in at the Plaza.",
+          "zh": "我為父母預訂了廣場酒店的住宿。",
+          "highlight": "booked my parents in at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "提早報名或預留課程、活動等的名額",
+      "titleEn": "book up (for something)",
+      "formula": "book up (for something)",
+      "highlight": "book up (for something)",
+      "descriptionZh": "提早報名或預留課程、活動等的名額",
+      "descriptionEn": "We booked up for the course in May.",
+      "examples": [
+        {
+          "en": "We booked up for the course in May.",
+          "zh": "我們在五月已報名參加該課程。",
+          "highlight": "booked up for"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論抵達住宿地點後的入住手續",
+      "titleEn": "Talk clearly about arriving at a hotel",
+      "zh": "book in 和 book into 可以表示抵達酒店或其他住宿地點後辦理入住。",
+      "en": "Book in and book into help you describe arriving at a hotel or another place and registering for your stay."
+    },
+    {
+      "titleZh": "為自己或其他人安排住宿",
+      "titleEn": "Arrange accommodation for yourself or other people",
+      "zh": "你可以使用 book somebody in 或 book somebody into,表示為家人、朋友、旅客或自己安排酒店住宿。",
+      "en": "You can use book somebody in or book somebody into when arranging a hotel stay for family members, friends, guests or yourself."
+    },
+    {
+      "titleZh": "談論提早預留課程名額",
+      "titleEn": "Talk about reserving course places early",
+      "zh": "當課程或活動名額有限時,可以使用 book up for 表示提早預留名額。",
+      "en": "Book up for is useful when a course or activity has limited places and you reserve one in advance."
+    },
+    {
+      "titleZh": "分辨辦理入住和預先安排住宿",
+      "titleEn": "Distinguish arrival from advance arrangements",
+      "zh": "BOOK 片語動詞可以幫助你分辨旅客抵達後辦理入住,以及另一個人事先為他們安排住宿。",
+      "en": "The BOOK family helps you distinguish between travellers registering after they arrive and another person arranging their accommodation beforehand."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論抵達住宿地點後的入住手續",
+      "為自己或其他人安排住宿",
+      "談論提早預留課程名額",
+      "分辨辦理入住和預先安排住宿"
+    ],
+    "contextsEn": [
+      "Talk clearly about arriving at a hotel",
+      "Arrange accommodation for yourself or other people",
+      "Talk about reserving course places early",
+      "Distinguish arrival from advance arrangements"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論抵達住宿地點後的入住手續",
+        "titleEn": "Talk clearly about arriving at a hotel",
+        "zh": "book in 和 book into 可以表示抵達酒店或其他住宿地點後辦理入住。",
+        "en": "Book in and book into help you describe arriving at a hotel or another place and registering for your stay.",
+        "examples": [
+          {
+            "en": "We booked in at the hotel before dinner.",
+            "zh": "我們在晚餐前到酒店辦理入住。",
+            "highlight": "booked in at"
+          }
+        ]
+      },
+      {
+        "titleZh": "為自己或其他人安排住宿",
+        "titleEn": "Arrange accommodation for yourself or other people",
+        "zh": "你可以使用 book somebody in 或 book somebody into,表示為家人、朋友、旅客或自己安排酒店住宿。",
+        "en": "You can use book somebody in or book somebody into when arranging a hotel stay for family members, friends, guests or yourself.",
+        "examples": [
+          {
+            "en": "I booked my parents in at the Plaza.",
+            "zh": "我為父母預訂了廣場酒店的住宿。",
+            "highlight": "booked my parents in at"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論提早預留課程名額",
+        "titleEn": "Talk about reserving course places early",
+        "zh": "當課程或活動名額有限時,可以使用 book up for 表示提早預留名額。",
+        "en": "Book up for is useful when a course or activity has limited places and you reserve one in advance.",
+        "examples": [
+          {
+            "en": "We booked up for the course in May.",
+            "zh": "我們在五月已報名參加該課程。",
+            "highlight": "booked up for"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨辦理入住和預先安排住宿",
+        "titleEn": "Distinguish arrival from advance arrangements",
+        "zh": "BOOK 片語動詞可以幫助你分辨旅客抵達後辦理入住,以及另一個人事先為他們安排住宿。",
+        "en": "The BOOK family helps you distinguish between travellers registering after they arrive and another person arranging their accommodation beforehand.",
+        "examples": [
+          {
+            "en": "We booked in at the hotel before dinner.",
+            "zh": "我們在晚餐前到酒店辦理入住。",
+            "highlight": "booked in at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BOOK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BOOK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BOOK 片語動詞。",
+      "en": "Read the whole sentence and choose the BOOK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意動作由誰進行:We booked in at the hotel. / We booked into the hotel. 表示我們抵達酒店並辦理入住。The organiser booked us in at the hotel. / The organiser booked us into the hotel. 表示主辦人為我們安排住宿。",
+      "titleEn": "Compare who is doing the action: We booked in at the hotel.",
+      "zh": "留意動作由誰進行:We booked in at the hotel. / We booked into the hotel. 表示我們抵達酒店並辦理入住。The organiser booked us in at the hotel. / The organiser booked us into the hotel. 表示主辦人為我們安排住宿。",
+      "en": "Compare who is doing the action: We booked in at the hotel. / We booked into the hotel. The organiser booked us in at the hotel. / The organiser booked us into the hotel. The first pair describes our arrival and registration. The second pair describes the organiser arranging our stay."
+    },
+    {
+      "titleZh": "book up for a course 表示提早預留課程名額。如所指的課程或活動已經清楚,也可以只用 bookup。",
+      "titleEn": "Book up for a course means reserve a place in advance.",
+      "zh": "book up for a course 表示提早預留課程名額。如所指的課程或活動已經清楚,也可以只用 bookup。",
+      "en": "Book up for a course means reserve a place in advance. When the course or activity is already clear, book up can also be used without for."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BOOK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BOOK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BOOK 動詞片語句子改寫練習",
+    "titleEn": "BOOK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BOOK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BOOK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-172-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We arrived at the Harbour Hotel and registered for our stay before dinner.",
+      "promptZh": "我們在晚餐前抵達海港酒店並辦理入住。",
+      "starter": "We",
+      "answer": "We booked in at the Harbour Hotel before dinner.",
+      "answerZh": "我們在晚餐前到海港酒店辦理入住。",
+      "highlight": "booked in",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ava reserved a place on the cooking course two months in advance.",
+      "promptZh": "艾娃提前兩個月預留了烹飪課程的名額。",
+      "starter": "Ava",
+      "answer": "Ava booked up for the cooking course two months in advance.",
+      "answerZh": "艾娃提前兩個月已報名參加烹飪課程。",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Daniel arranged a room for his parents at the Ocean Hotel.",
+      "promptZh": "丹尼爾為父母預訂了海洋酒店的房間。",
+      "starter": "Daniel",
+      "answer": "Daniel booked his parents in at the Ocean Hotel.",
+      "answerZh": "丹尼爾為父母預訂了海洋酒店的房間。",
+      "highlight": "booked",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The hikers arrived and registered at the small hostel at nine.",
+      "promptZh": "遠足者在九時抵達那間小旅舍並辦理入住。",
+      "starter": "The",
+      "answer": "The hikers booked into the small hostel at nine.",
+      "answerZh": "遠足者在九時到那間小旅舍辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Before the trip, I arranged for myself to stay at a guest house near the station.",
+      "promptZh": "旅行前,我安排自己入住車站附近的一間小旅館。",
+      "starter": "Before",
+      "answer": "Before the trip, I booked myself into a guest house near the station.",
+      "answerZh": "旅行前,我為自己預訂了車站附近一間小旅館的住宿。",
+      "highlight": "booked",
+      "targetForm": "book yourself into somewhere",
+      "targetMeaningZh": "為自己安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The students reserved places on the weekend art course early.",
+      "promptZh": "學生提早預留了週末藝術課程的名額。",
+      "starter": "The",
+      "answer": "The students booked up for the weekend art course early.",
+      "answerZh": "學生提早報名參加週末藝術課程。",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nora arrived at the Green Leaf Inn and registered under her own name.",
+      "promptZh": "諾拉抵達綠葉旅館,並以自己的姓名辦理入住。",
+      "starter": "Nora",
+      "answer": "Nora booked in at the Green Leaf Inn under her own name.",
+      "answerZh": "諾拉以自己的姓名到綠葉旅館辦理入住。",
+      "highlight": "booked in",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach arranged rooms for the players at a hotel near the sports ground.",
+      "promptZh": "教練為球員安排入住運動場附近的一間酒店。",
+      "starter": "The",
+      "answer": "The coach booked the players into a hotel near the sports ground.",
+      "answerZh": "教練為球員安排入住運動場附近的一間酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We reserved our places on the first-aid course in May.",
+      "promptZh": "我們在五月預留了急救課程的名額。",
+      "starter": "We",
+      "answer": "We booked up for the first-aid course in May.",
+      "answerZh": "我們在五月已報名參加急救課程。",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "After reaching the hotel, Ben registered at reception.",
+      "promptZh": "賓到達酒店後,在接待處辦理入住。",
+      "starter": "After",
+      "answer": "After reaching the hotel, Ben booked in.",
+      "answerZh": "賓到達酒店後便辦理入住。",
+      "highlight": "booked in",
+      "targetForm": "book in",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Could you arrange a room for us at the Park Hotel?",
+      "promptZh": "你可以為我們預訂柏景酒店的房間嗎?",
+      "starter": "Could",
+      "answer": "Could you book us in at the Park Hotel?",
+      "answerZh": "你可以為我們預訂柏景酒店的房間嗎?",
+      "highlight": "book",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guests are arriving and registering at the hotel now.",
+      "promptZh": "客人現正抵達酒店並辦理入住。",
+      "starter": "The",
+      "answer": "The guests are booking into the hotel now.",
+      "answerZh": "客人現正在酒店辦理入住。",
+      "highlight": "booking into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo has already reserved a place on the evening course.",
+      "promptZh": "里奧已經預留了晚間課程的名額。",
+      "starter": "Leo",
+      "answer": "Leo has already booked up for the evening course.",
+      "answerZh": "里奧已經報名參加晚間課程。",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The school will arrange rooms for the visiting teachers at a nearby hotel.",
+      "promptZh": "學校會為到訪教師安排入住附近的酒店。",
+      "starter": "The",
+      "answer": "The school will book the visiting teachers into a nearby hotel.",
+      "answerZh": "學校會為到訪教師安排入住附近的酒店。",
+      "highlight": "book",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We did not arrive and register at the hotel until midnight.",
+      "promptZh": "我們直到午夜才抵達酒店並辦理入住。",
+      "starter": "We",
+      "answer": "We did not book in at the hotel until midnight.",
+      "answerZh": "我們直到午夜才在酒店辦理入住。",
+      "highlight": "book in",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Have you reserved a place on the photography course yet?",
+      "promptZh": "你已預留攝影課程的名額嗎?",
+      "starter": "Have",
+      "answer": "Have you booked up for the photography course yet?",
+      "answerZh": "你已報名參加攝影課程嗎?",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Before each trip, Priya arranges her own room at the same guest house.",
+      "promptZh": "每次旅行前,普里雅都會為自己預訂同一間小旅館的房間。",
+      "starter": "Before",
+      "answer": "Before each trip, Priya books herself in at the same guest house.",
+      "answerZh": "每次旅行前,普里雅都會為自己預訂同一間小旅館的房間。",
+      "highlight": "books herself in",
+      "targetForm": "book yourself in at somewhere",
+      "targetMeaningZh": "為自己安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You can arrive and register at the hostel after 3 p.m.",
+      "promptZh": "你可以在下午三時後到旅舍辦理入住。",
+      "starter": "You",
+      "answer": "You can book into the hostel after 3 p.m.",
+      "answerZh": "你可以在下午三時後到旅舍辦理入住。",
+      "highlight": "book into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The organiser has arranged rooms for the singers at the hotel.",
+      "promptZh": "主辦人已為歌手安排入住該酒店。",
+      "starter": "The",
+      "answer": "The organiser has booked the singers in at the hotel.",
+      "answerZh": "主辦人已為歌手安排入住該酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Sam did not reserve a place on the course because he was away.",
+      "promptZh": "森因為當時不在,所以沒有預留課程名額。",
+      "starter": "Sam",
+      "answer": "Sam did not book up for the course because he was away.",
+      "answerZh": "森因為當時不在,所以沒有報名參加該課程。",
+      "highlight": "book up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "There were only ten places on the baking course, so we reserved ours immediately.",
+      "promptZh": "烘焙課程只有十個名額,所以我們立即預留了自己的名額。",
+      "starter": "There",
+      "answer": "There were only ten places on the baking course, so we booked up immediately.",
+      "answerZh": "烘焙課程只有十個名額,所以我們立即報名。",
+      "highlight": "booked up",
+      "targetForm": "book up",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The receptionist asked when we had arrived and registered at the hotel.",
+      "promptZh": "接待員問我們何時抵達酒店並辦理入住。",
+      "starter": "The",
+      "answer": "The receptionist asked when we had booked into the hotel.",
+      "answerZh": "接待員問我們何時在酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The travel agent arranged rooms for them at the City Hotel.",
+      "promptZh": "旅行社為他們預訂了城市酒店的房間。",
+      "starter": "The",
+      "answer": "The travel agent booked them in at the City Hotel.",
+      "answerZh": "旅行社為他們預訂了城市酒店的房間。",
+      "highlight": "booked",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why did they reserve places on the computer course so early?",
+      "promptZh": "他們為何這麼早便預留電腦課程的名額?",
+      "starter": "Why",
+      "answer": "Why did they book up for the computer course so early?",
+      "answerZh": "他們為何這麼早便報名參加電腦課程?",
+      "highlight": "book up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After the last train left, Rosa arrived and registered at a small hotel near the station.",
+      "promptZh": "尾班火車開出後,羅莎抵達車站附近一間小酒店並辦理入住。",
+      "starter": "After",
+      "answer": "After the last train left, Rosa booked into a small hotel near the station.",
+      "answerZh": "尾班火車開出後,羅莎到車站附近一間小酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By Tuesday, the manager had arranged for the band to stay at a quiet hotel.",
+      "promptZh": "到星期二,經理已安排樂隊入住一間寧靜的酒店。",
+      "starter": "By",
+      "answer": "By Tuesday, the manager had booked the band into a quiet hotel.",
+      "answerZh": "到星期二,經理已安排樂隊入住一間寧靜的酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "You should reserve a place on the safety course before Friday.",
+      "promptZh": "你應在星期五前預留安全課程的名額。",
+      "starter": "You",
+      "answer": "You should book up for the safety course before Friday.",
+      "answerZh": "你應在星期五前報名參加安全課程。",
+      "highlight": "book up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Had the family arrived and registered at the hotel before the storm began?",
+      "promptZh": "那家人是否在暴風雨開始前已抵達酒店並辦理入住?",
+      "starter": "Had",
+      "answer": "Had the family booked in at the hotel before the storm began?",
+      "answerZh": "那家人是否在暴風雨開始前已在酒店辦理入住?",
+      "highlight": "booked in",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We arranged for ourselves to stay at the airport hotel before the early flight.",
+      "promptZh": "在乘搭早班機前,我們安排自己入住機場酒店。",
+      "starter": "We",
+      "answer": "We booked ourselves into the airport hotel before the early flight.",
+      "answerZh": "在乘搭早班機前,我們為自己預訂了機場酒店的住宿。",
+      "highlight": "booked",
+      "targetForm": "book yourself into somewhere",
+      "targetMeaningZh": "為自己安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The course looked useful, so I reserved a place on it straight away.",
+      "promptZh": "該課程看來很有用,所以我立即預留了名額。",
+      "starter": "The",
+      "answer": "The course looked useful, so I booked up for it straight away.",
+      "answerZh": "該課程看來很有用,所以我立即報名參加。",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The rooms were already reserved, and the group arrived at the hotel to register at six.",
+      "promptZh": "房間早已預訂好,而團隊在六時抵達酒店辦理入住。",
+      "starter": "The",
+      "answer": "The rooms were already reserved, and the group booked into the hotel at six.",
+      "answerZh": "房間早已預訂好,而團隊在六時到酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before leaving home, Julia arranged for her son to stay at the Lake Hotel.",
+      "promptZh": "朱莉亞離家前,已安排兒子入住湖畔酒店。",
+      "starter": "Before",
+      "answer": "Before leaving home, Julia booked her son into the Lake Hotel.",
+      "answerZh": "朱莉亞離家前,已為兒子安排入住湖畔酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The free course often fills quickly, so we reserved our places on the first day.",
+      "promptZh": "免費課程經常很快滿額,所以我們在第一天便預留了名額。",
+      "starter": "The",
+      "answer": "The free course often fills quickly, so we booked up on the first day.",
+      "answerZh": "免費課程經常很快滿額,所以我們在第一天便報名。",
+      "highlight": "booked up",
+      "targetForm": "book up",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Once the coach arrived, the tourists went to reception and registered for their stay.",
+      "promptZh": "旅遊巴抵達後,遊客前往接待處辦理入住。",
+      "starter": "Once",
+      "answer": "Once the coach arrived, the tourists booked in at reception.",
+      "answerZh": "旅遊巴抵達後,遊客在接待處辦理入住。",
+      "highlight": "booked in at",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Which hotel did the company arrange for the new worker to stay at?",
+      "promptZh": "公司安排新員工入住哪一間酒店?",
+      "starter": "Which",
+      "answer": "Which hotel did the company book the new worker into?",
+      "answerZh": "公司為新員工預訂了哪一間酒店的住宿?",
+      "highlight": "book",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "To get a place on the popular course, you need to reserve one several weeks early.",
+      "promptZh": "要取得熱門課程的名額,你需要提前數星期預留。",
+      "starter": "To",
+      "answer": "To get a place on the popular course, you need to book up several weeks early.",
+      "answerZh": "要取得熱門課程的名額,你需要提前數星期報名。",
+      "highlight": "book up",
+      "targetForm": "book up",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Because the first hotel had closed, we arrived and registered at another hotel nearby.",
+      "promptZh": "由於第一間酒店已關閉,我們抵達附近另一間酒店並辦理入住。",
+      "starter": "Because",
+      "answer": "Because the first hotel had closed, we booked into another hotel nearby.",
+      "answerZh": "由於第一間酒店已關閉,我們便到附近另一間酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Rooms at the same hostel were arranged for all the exchange students.",
+      "promptZh": "同一間旅舍已為所有交換生安排好房間。",
+      "starter": "All",
+      "answer": "All the exchange students were booked into the same hostel.",
+      "answerZh": "所有交換生都獲安排入住同一間旅舍。",
+      "highlight": "were booked into the same hostel",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Ella said that she had arrived and registered at the hotel under a different name.",
+      "promptZh": "埃拉說,她曾以另一個姓名抵達酒店並辦理入住。",
+      "starter": "Ella",
+      "answer": "Ella said that she had booked into the hotel under a different name.",
+      "answerZh": "埃拉說,她曾以另一個姓名在酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why have you not reserved a place on the swimming course yet?",
+      "promptZh": "你為何仍未預留游泳課程的名額?",
+      "starter": "Why",
+      "answer": "Why have you not booked up for the swimming course yet?",
+      "answerZh": "你為何仍未報名參加游泳課程?",
+      "highlight": "booked up for",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The conference starts early, so I have arranged rooms for our team at the hotel beside the hall.",
+      "promptZh": "會議很早開始,所以我已為團隊安排入住會場旁邊的酒店。",
+      "starter": "The",
+      "answer": "The conference starts early, so I have booked our team in at the hotel beside the hall.",
+      "answerZh": "會議很早開始,所以我已為團隊安排入住會場旁邊的酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although our train was late, we reached the hotel and registered before reception closed.",
+      "promptZh": "雖然火車延誤,但我們仍在接待處關閉前抵達酒店並辦理入住。",
+      "starter": "Although",
+      "answer": "Although our train was late, we booked into the hotel before reception closed.",
+      "answerZh": "雖然火車延誤,但我們仍在接待處關閉前到酒店辦理入住。",
+      "highlight": "booked into",
+      "targetForm": "book into somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The weekend class had only a few spaces, so Hana reserved a place as soon as she saw the notice.",
+      "promptZh": "週末課堂只有少量名額,所以哈娜一看見通告便預留了名額。",
+      "starter": "The",
+      "answer": "The weekend class had only a few spaces, so Hana booked up as soon as she saw the notice.",
+      "answerZh": "週末課堂只有少量名額,所以哈娜一看見通告便立即報名。",
+      "highlight": "booked up",
+      "targetForm": "book up",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Not knowing anyone in the town, Karim arranged for himself to stay at a small hotel near the bus station.",
+      "promptZh": "卡里姆在鎮上不認識任何人,因此安排自己入住巴士站附近一間小酒店。",
+      "starter": "Not",
+      "answer": "Not knowing anyone in the town, Karim booked himself into a small hotel near the bus station.",
+      "answerZh": "卡里姆在鎮上不認識任何人,因此為自己預訂了巴士站附近一間小酒店的住宿。",
+      "highlight": "booked",
+      "targetForm": "book yourself into somewhere",
+      "targetMeaningZh": "為自己安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The hotel already had our reservation, but we still had to arrive and register before going to our room.",
+      "promptZh": "酒店已有我們的訂房紀錄,但我們仍須先抵達並辦理入住,才可前往房間。",
+      "starter": "The",
+      "answer": "The hotel already had our reservation, but we still had to book in before going to our room.",
+      "answerZh": "酒店已有我們的訂房紀錄,但我們仍須先辦理入住,才可前往房間。",
+      "highlight": "book in",
+      "targetForm": "book in",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The tour company arranged for all twenty guests to stay at the same seaside hotel.",
+      "promptZh": "旅遊公司安排全部二十名旅客入住同一間海邊酒店。",
+      "starter": "The",
+      "answer": "The tour company booked all twenty guests into the same seaside hotel.",
+      "answerZh": "旅遊公司安排全部二十名旅客入住同一間海邊酒店。",
+      "highlight": "booked",
+      "targetForm": "book somebody into somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Since the training course is useful and cheap, many staff reserved places three months before it began.",
+      "promptZh": "由於培訓課程實用而且費用便宜,很多員工在課程開始前三個月便預留了名額。",
+      "starter": "Since",
+      "answer": "Since the training course is useful and cheap, many staff booked up for it three months before it began.",
+      "answerZh": "由於培訓課程實用而且費用便宜,很多員工在課程開始前三個月便已報名參加。",
+      "highlight": "booked up for it",
+      "targetForm": "book up for something",
+      "targetMeaningZh": "提早報名或預留名額"
+    },
+    {
+      "id": "phrasal-verb-172-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Had the organiser arranged rooms for you at the Plaza before you arrived?",
+      "promptZh": "主辦人是否在你抵達前已為你預訂廣場酒店的房間?",
+      "starter": "Had",
+      "answer": "Had the organiser booked you in at the Plaza before you arrived?",
+      "answerZh": "主辦人是否在你抵達前已為你預訂廣場酒店的房間?",
+      "highlight": "booked",
+      "targetForm": "book somebody in at somewhere",
+      "targetMeaningZh": "為某人安排住宿"
+    },
+    {
+      "id": "phrasal-verb-172-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After showing their passports, the travellers completed the hotel registration without any problem.",
+      "promptZh": "旅客出示護照後,順利完成酒店入住登記。",
+      "starter": "After",
+      "answer": "After showing their passports, the travellers booked in at the hotel without any problem.",
+      "answerZh": "旅客出示護照後,順利在酒店辦理入住。",
+      "highlight": "booked in at",
+      "targetForm": "book in at somewhere",
+      "targetMeaningZh": "到住宿地點辦理入住"
+    },
+    {
+      "id": "phrasal-verb-172-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We had planned to take the course later, but when only two places remained, we reserved ours immediately.",
+      "promptZh": "我們原本打算稍後才修讀該課程,但當只剩兩個名額時,便立即預留了名額。",
+      "starter": "We",
+      "answer": "We had planned to take the course later, but when only two places remained, we booked up immediately.",
+      "answerZh": "我們原本打算稍後才修讀該課程,但當只剩兩個名額時,便立即報名。",
+      "highlight": "booked up",
+      "targetForm": "book up",
+      "targetMeaningZh": "提早報名或預留名額"
+    }
+  ]
+}

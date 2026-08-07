@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-182",
+  "order": 182,
+  "slug": "go-back",
+  "version": "1",
+  "title": "GO BACK 動詞片語",
+  "titleEn": "Go Back",
+  "titleZh": "GO BACK 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 181 - GO BACK.pdf",
+    "sourceNumber": 181,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GO BACK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GO BACK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GO BACK",
+      "highlight": "GO BACK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Adam and I go back a long way.",
+      "zh": "亞當和我相識多年。",
+      "highlight": "go back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She never goes back on her word.",
+      "zh": "她從不食言。",
+      "highlight": "goes back on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I went back over the day’s events in my mind.",
+      "zh": "我在腦海中再次回想當天發生的事情。",
+      "highlight": "went back over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與某人相識已久;一段關係始於很久以前；違背承諾、協議或自己說過的話;食言；再次仔細查看、檢查或回想某事；重新談論、處理或關注之前提過的事情",
+    "en": "go back; go back on something; go back over something; go back to something",
+    "naturalZh": [
+      "與某人相識已久;一段關係始於很久以前",
+      "違背承諾、協議或自己說過的話;食言",
+      "再次仔細查看、檢查或回想某事",
+      "重新談論、處理或關注之前提過的事情"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "go back",
+      "titleZh": "與某人相識已久;一段關係始於很久以前",
+      "titleEn": "go back",
+      "descriptionZh": "與某人相識已久;一段關係始於很久以前",
+      "descriptionEn": "Adam and I go back a long way.",
+      "examples": [
+        {
+          "en": "Adam and I go back a long way.",
+          "zh": "亞當和我相識多年。",
+          "highlight": "go back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go back on something",
+      "titleZh": "違背承諾、協議或自己說過的話;食言",
+      "titleEn": "go back on something",
+      "descriptionZh": "違背承諾、協議或自己說過的話;食言",
+      "descriptionEn": "She never goes back on her word.",
+      "examples": [
+        {
+          "en": "She never goes back on her word.",
+          "zh": "她從不食言。",
+          "highlight": "goes back on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go back over something",
+      "titleZh": "再次仔細查看、檢查或回想某事",
+      "titleEn": "go back over something",
+      "descriptionZh": "再次仔細查看、檢查或回想某事",
+      "descriptionEn": "I went back over the day’s events in my mind.",
+      "examples": [
+        {
+          "en": "I went back over the day’s events in my mind.",
+          "zh": "我在腦海中再次回想當天發生的事情。",
+          "highlight": "went back over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go back to something",
+      "titleZh": "重新談論、處理或關注之前提過的事情",
+      "titleEn": "go back to something",
+      "descriptionZh": "重新談論、處理或關注之前提過的事情",
+      "descriptionEn": "To go back to what you were saying before, we still need a final date.",
+      "examples": [
+        {
+          "en": "To go back to what you were saying before, we still need a final date.",
+          "zh": "回到你剛才所說的內容,我們仍然需要確定最後日期。",
+          "highlight": "go back to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GO BACK 片語動詞的實際用途",
+    "labelEn": "GO BACK Phrasal Verbs in Use",
+    "summaryZh": "go back 可以表示兩個人、家庭或群體已相識多年。；go back on something 可以描述某人違背承諾或協議。；go back over something 可以用來表示再次查看筆記、事情經過、指示或之前的工作。；go back to something 可以幫助你在討論中重新談及之前的問題、構思或主題。",
+    "summaryEn": "Go back can show that two people, families or groups have known each other for a long time. Go back on something helps you describe a person who fails to keep a promise or agreement. Go back over something can be used when you review notes, events, instructions or earlier work. Go back to something helps you return to an earlier question, idea or subject in a discussion.",
+    "contextsZh": [
+      "談論長久的關係",
+      "清楚談論承諾和信任",
+      "描述再次檢查和回想",
+      "自然地回到較早前的內容"
+    ],
+    "contextsEn": [
+      "Talk about long relationships",
+      "Talk clearly about promises and trust",
+      "Describe checking and remembering",
+      "Return smoothly to an earlier point"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GO BACK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GO BACK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "go back",
+    "fixedHighlight": "go back",
+    "fixedZh": "閱讀整句,選出意思相同的 GO BACK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GO BACK expression that gives the same meaning.",
+    "correct": "go back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意每個表達後面所接的內容。；當 go back 表示相識已久時,核心表達是 go back;後面的時間資料只是補充。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice what follows each expression: go back on a promise go back over the notes go back to the first point When go back describes a long relationship, go back is the core expression. A time phrase may provide additional information: We go back a long way. We go back to our school days.",
+    "variableItemsZh": [
+      "go back",
+      "go back on something",
+      "go back over something",
+      "go back to something"
+    ],
+    "variableItemsEn": [
+      "go back",
+      "go back on something",
+      "go back over something",
+      "go back to something"
+    ],
+    "forms": [
+      {
+        "formZh": "與某人相識已久;一段關係始於很久以前",
+        "formEn": "go back",
+        "exampleZh": "亞當和我相識多年。",
+        "exampleEn": "Adam and I go back a long way.",
+        "highlight": "go back"
+      },
+      {
+        "formZh": "違背承諾、協議或自己說過的話;食言",
+        "formEn": "go back on something",
+        "exampleZh": "她從不食言。",
+        "exampleEn": "She never goes back on her word.",
+        "highlight": "goes back on"
+      },
+      {
+        "formZh": "再次仔細查看、檢查或回想某事",
+        "formEn": "go back over something",
+        "exampleZh": "我在腦海中再次回想當天發生的事情。",
+        "exampleEn": "I went back over the day’s events in my mind.",
+        "highlight": "went back over"
+      },
+      {
+        "formZh": "重新談論、處理或關注之前提過的事情",
+        "formEn": "go back to something",
+        "exampleZh": "回到你剛才所說的內容,我們仍然需要確定最後日期。",
+        "exampleEn": "To go back to what you were saying before, we still need a final date.",
+        "highlight": "go back to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與某人相識已久;一段關係始於很久以前",
+      "titleEn": "go back",
+      "formula": "go back",
+      "highlight": "go back",
+      "descriptionZh": "與某人相識已久;一段關係始於很久以前",
+      "descriptionEn": "Adam and I go back a long way.",
+      "examples": [
+        {
+          "en": "Adam and I go back a long way.",
+          "zh": "亞當和我相識多年。",
+          "highlight": "go back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "違背承諾、協議或自己說過的話;食言",
+      "titleEn": "go back on something",
+      "formula": "go back on something",
+      "highlight": "go back on something",
+      "descriptionZh": "違背承諾、協議或自己說過的話;食言",
+      "descriptionEn": "She never goes back on her word.",
+      "examples": [
+        {
+          "en": "She never goes back on her word.",
+          "zh": "她從不食言。",
+          "highlight": "goes back on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "再次仔細查看、檢查或回想某事",
+      "titleEn": "go back over something",
+      "formula": "go back over something",
+      "highlight": "go back over something",
+      "descriptionZh": "再次仔細查看、檢查或回想某事",
+      "descriptionEn": "I went back over the day’s events in my mind.",
+      "examples": [
+        {
+          "en": "I went back over the day’s events in my mind.",
+          "zh": "我在腦海中再次回想當天發生的事情。",
+          "highlight": "went back over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "重新談論、處理或關注之前提過的事情",
+      "titleEn": "go back to something",
+      "formula": "go back to something",
+      "highlight": "go back to something",
+      "descriptionZh": "重新談論、處理或關注之前提過的事情",
+      "descriptionEn": "To go back to what you were saying before, we still need a final date.",
+      "examples": [
+        {
+          "en": "To go back to what you were saying before, we still need a final date.",
+          "zh": "回到你剛才所說的內容,我們仍然需要確定最後日期。",
+          "highlight": "go back to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論長久的關係",
+      "titleEn": "Talk about long relationships",
+      "zh": "go back 可以表示兩個人、家庭或群體已相識多年。",
+      "en": "Go back can show that two people, families or groups have known each other for a long time."
+    },
+    {
+      "titleZh": "清楚談論承諾和信任",
+      "titleEn": "Talk clearly about promises and trust",
+      "zh": "go back on something 可以描述某人違背承諾或協議。",
+      "en": "Go back on something helps you describe a person who fails to keep a promise or agreement."
+    },
+    {
+      "titleZh": "描述再次檢查和回想",
+      "titleEn": "Describe checking and remembering",
+      "zh": "go back over something 可以用來表示再次查看筆記、事情經過、指示或之前的工作。",
+      "en": "Go back over something can be used when you review notes, events, instructions or earlier work."
+    },
+    {
+      "titleZh": "自然地回到較早前的內容",
+      "titleEn": "Return smoothly to an earlier point",
+      "zh": "go back to something 可以幫助你在討論中重新談及之前的問題、構思或主題。",
+      "en": "Go back to something helps you return to an earlier question, idea or subject in a discussion."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論長久的關係",
+      "清楚談論承諾和信任",
+      "描述再次檢查和回想",
+      "自然地回到較早前的內容"
+    ],
+    "contextsEn": [
+      "Talk about long relationships",
+      "Talk clearly about promises and trust",
+      "Describe checking and remembering",
+      "Return smoothly to an earlier point"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論長久的關係",
+        "titleEn": "Talk about long relationships",
+        "zh": "go back 可以表示兩個人、家庭或群體已相識多年。",
+        "en": "Go back can show that two people, families or groups have known each other for a long time.",
+        "examples": [
+          {
+            "en": "Adam and I go back a long way.",
+            "zh": "亞當和我相識多年。",
+            "highlight": "go back"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論承諾和信任",
+        "titleEn": "Talk clearly about promises and trust",
+        "zh": "go back on something 可以描述某人違背承諾或協議。",
+        "en": "Go back on something helps you describe a person who fails to keep a promise or agreement.",
+        "examples": [
+          {
+            "en": "She never goes back on her word.",
+            "zh": "她從不食言。",
+            "highlight": "goes back on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述再次檢查和回想",
+        "titleEn": "Describe checking and remembering",
+        "zh": "go back over something 可以用來表示再次查看筆記、事情經過、指示或之前的工作。",
+        "en": "Go back over something can be used when you review notes, events, instructions or earlier work.",
+        "examples": [
+          {
+            "en": "I went back over the day’s events in my mind.",
+            "zh": "我在腦海中再次回想當天發生的事情。",
+            "highlight": "went back over"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地回到較早前的內容",
+        "titleEn": "Return smoothly to an earlier point",
+        "zh": "go back to something 可以幫助你在討論中重新談及之前的問題、構思或主題。",
+        "en": "Go back to something helps you return to an earlier question, idea or subject in a discussion.",
+        "examples": [
+          {
+            "en": "To go back to what you were saying before, we still need a final date.",
+            "zh": "回到你剛才所說的內容,我們仍然需要確定最後日期。",
+            "highlight": "go back to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GO BACK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GO BACK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GO BACK 片語動詞。",
+      "en": "Read the whole sentence and choose the GO BACK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意每個表達後面所接的內容。",
+      "titleEn": "Notice what follows each expression: go back on a promise go back over the notes go back to the first point.",
+      "zh": "留意每個表達後面所接的內容。",
+      "en": "Notice what follows each expression: go back on a promise go back over the notes go back to the first point"
+    },
+    {
+      "titleZh": "當 go back 表示相識已久時,核心表達是 go back;後面的時間資料只是補充。",
+      "titleEn": "When go back describes a long relationship, go back is the core expression.",
+      "zh": "當 go back 表示相識已久時,核心表達是 go back;後面的時間資料只是補充。",
+      "en": "When go back describes a long relationship, go back is the core expression. A time phrase may provide additional information: We go back a long way. We go back to our school days."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GO BACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GO BACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GO BACK 動詞片語句子改寫練習",
+    "titleEn": "GO BACK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GO BACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GO BACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-182-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I checked my notes again before the test.",
+      "promptZh": "我在測驗前再次檢查筆記。",
+      "starter": "I",
+      "answer": "I went back over my notes before the test.",
+      "answerZh": "我在測驗前再次檢查筆記。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Oliver and I have known each other for many years.",
+      "promptZh": "奧利弗和我相識多年。",
+      "starter": "Oliver",
+      "answer": "Oliver and I go back a long way.",
+      "answerZh": "奧利弗和我相識多年。",
+      "highlight": "go back a long way",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Let us return to your first question.",
+      "promptZh": "讓我們回到你的第一個問題。",
+      "starter": "Let’s",
+      "answer": "Let’s go back to your first question.",
+      "answerZh": "讓我們回到你的第一個問題。",
+      "highlight": "Let’s go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella did not keep the promise she made to her brother.",
+      "promptZh": "埃拉沒有遵守她對弟弟作出的承諾。",
+      "starter": "Ella",
+      "answer": "Ella went back on the promise she made to her brother.",
+      "answerZh": "埃拉違背了她對弟弟作出的承諾。",
+      "highlight": "went back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher checked the answers again with the class.",
+      "promptZh": "老師與全班再次檢查答案。",
+      "starter": "The",
+      "answer": "The teacher went back over the answers with the class.",
+      "answerZh": "老師與全班再次檢查答案。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The speaker returned to the main point after a short story.",
+      "promptZh": "講者說完一個小故事後,重新談到重點。",
+      "starter": "The",
+      "answer": "The speaker went back to the main point after a short story.",
+      "answerZh": "講者說完一個小故事後,重新談到重點。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The friendship between the Lee and Chan families began three generations ago.",
+      "promptZh": "李家和陳家的交情始於三代以前。",
+      "starter": "The",
+      "answer": "The friendship between the Lee and Chan families goes back three generations.",
+      "answerZh": "李家和陳家已有三代交情。",
+      "highlight": "goes back",
+      "targetForm": "go back",
+      "targetMeaningZh": "表示一段關係始於很久以前"
+    },
+    {
+      "id": "phrasal-verb-182-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Before sending the email, Sam read it again carefully.",
+      "promptZh": "森在寄出電郵前再次仔細閱讀。",
+      "starter": "Before",
+      "answer": "Before sending the email, Sam went back over it carefully.",
+      "answerZh": "森在寄出電郵前再次仔細閱讀。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I will not break my promise to you.",
+      "promptZh": "我不會違背對你的承諾。",
+      "starter": "I",
+      "answer": "I will not go back on my promise to you.",
+      "answerZh": "我不會違背對你的承諾。",
+      "highlight": "go back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Can we return to the part about the school trip?",
+      "promptZh": "我們可以回到有關學校旅行的部分嗎?",
+      "starter": "Can",
+      "answer": "Can we go back to the part about the school trip?",
+      "answerZh": "我們可以回到有關學校旅行的部分嗎?",
+      "highlight": "go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Priya and I have been friends since our primary-school days.",
+      "promptZh": "普里雅和我從小學時期開始便一直是朋友。",
+      "starter": "Priya",
+      "answer": "Priya and I go back to our primary-school days.",
+      "answerZh": "普里雅和我從小學時期開始便一直是朋友。",
+      "highlight": "go back to",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The class is returning to the first example now.",
+      "promptZh": "全班現在正重新看第一個例子。",
+      "starter": "The",
+      "answer": "The class is going back to the first example now.",
+      "answerZh": "全班現在正重新看第一個例子。",
+      "highlight": "going back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新處理之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The company has broken its agreement with the shop.",
+      "promptZh": "公司違反了與該店舖訂立的協議。",
+      "starter": "The",
+      "answer": "The company has gone back on its agreement with the shop.",
+      "answerZh": "公司違反了與該店舖訂立的協議。",
+      "highlight": "gone back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違反協議或承諾"
+    },
+    {
+      "id": "phrasal-verb-182-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Are you checking the instructions again?",
+      "promptZh": "你正在再次查看指示嗎?",
+      "starter": "Are",
+      "answer": "Are you going back over the instructions?",
+      "answerZh": "你正在再次查看指示嗎?",
+      "highlight": "going back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "How long have you and Daniel known each other?",
+      "promptZh": "你和丹尼爾認識多久了?",
+      "starter": "How",
+      "answer": "How far do you and Daniel go back?",
+      "answerZh": "你和丹尼爾認識多久了?",
+      "highlight": "far do",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did the host return to the same question?",
+      "promptZh": "主持人為何重新談到同一個問題?",
+      "starter": "Why",
+      "answer": "Why did the host go back to the same question?",
+      "answerZh": "主持人為何重新談到同一個問題?",
+      "highlight": "go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We should check every step again before we leave.",
+      "promptZh": "我們離開前應該再次檢查每個步驟。",
+      "starter": "We",
+      "answer": "We should go back over every step before we leave.",
+      "answerZh": "我們離開前應該再次檢查每個步驟。",
+      "highlight": "go back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach may break his promise to choose the best players.",
+      "promptZh": "教練可能會違背挑選最佳球員的承諾。",
+      "starter": "The",
+      "answer": "The coach may go back on his promise to choose the best players.",
+      "answerZh": "教練可能會違背挑選最佳球員的承諾。",
+      "highlight": "go back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After talking about food, they returned to the travel plan.",
+      "promptZh": "談完食物後,他們重新討論旅行計劃。",
+      "starter": "After",
+      "answer": "After talking about food, they went back to the travel plan.",
+      "answerZh": "談完食物後,他們重新討論旅行計劃。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新討論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Their friendship began twenty years ago.",
+      "promptZh": "他們的友誼始於二十年前。",
+      "starter": "Their",
+      "answer": "Their friendship goes back twenty years.",
+      "answerZh": "他們已有二十年交情。",
+      "highlight": "goes back",
+      "targetForm": "go back",
+      "targetMeaningZh": "表示一段關係始於很久以前"
+    },
+    {
+      "id": "phrasal-verb-182-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The team promised to help, but it broke that promise later.",
+      "promptZh": "該團隊承諾提供協助,但後來卻違背了承諾。",
+      "starter": "The",
+      "answer": "The team promised to help, but it went back on that promise later.",
+      "answerZh": "該團隊承諾提供協助,但後來卻違背了承諾。",
+      "highlight": "went back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I could not remember the order, so I checked the steps again.",
+      "promptZh": "我記不起正確次序,所以再次查看所有步驟。",
+      "starter": "I",
+      "answer": "I could not remember the order, so I went back over the steps.",
+      "answerZh": "我記不起正確次序,所以再次查看所有步驟。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We met at school and have stayed friends ever since.",
+      "promptZh": "我們在求學時期認識,此後一直是朋友。",
+      "starter": "We",
+      "answer": "We go back to our school days and have stayed friends ever since.",
+      "answerZh": "我們從求學時期開始便互相認識,此後一直是朋友。",
+      "highlight": "go back to our",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teacher answered a new question, then returned to the earlier problem.",
+      "promptZh": "老師回答了一個新問題,然後重新處理之前的難題。",
+      "starter": "The",
+      "answer": "The teacher answered a new question, then went back to the earlier problem.",
+      "answerZh": "老師回答了一個新問題,然後重新處理之前的難題。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新處理之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Do not break your word after everyone has trusted you.",
+      "promptZh": "大家已經信任你,不要食言。",
+      "starter": "Do",
+      "answer": "Do not go back on your word after everyone has trusted you.",
+      "answerZh": "大家已經信任你,不要食言。",
+      "highlight": "go back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背自己說過的話;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The officer asked us to review the events again from the beginning.",
+      "promptZh": "警員請我們從頭再次回顧事情經過。",
+      "starter": "The",
+      "answer": "The officer asked us to go back over the events from the beginning.",
+      "answerZh": "警員請我們從頭再次回顧事情經過。",
+      "highlight": "go back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細回顧某事"
+    },
+    {
+      "id": "phrasal-verb-182-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did the group break the deal after saying yes?",
+      "promptZh": "該團體答應後,為何又違反協議?",
+      "starter": "Why",
+      "answer": "Why did the group go back on the deal after saying yes?",
+      "answerZh": "該團體答應後,為何又違反協議?",
+      "highlight": "go back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違反協議"
+    },
+    {
+      "id": "phrasal-verb-182-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The two teachers have known each other since they were students.",
+      "promptZh": "這兩名老師從學生時期開始便互相認識。",
+      "starter": "The",
+      "answer": "The two teachers go back to their student days.",
+      "answerZh": "這兩名老師從學生時期開始便互相認識。",
+      "highlight": "go back to their student days",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "She thought about the message again before replying.",
+      "promptZh": "她回覆前再次想了一遍該則訊息。",
+      "starter": "She",
+      "answer": "She went back over the message in her mind before replying.",
+      "answerZh": "她回覆前在腦海中再次想了一遍該則訊息。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細回想某事"
+    },
+    {
+      "id": "phrasal-verb-182-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before we end, I want to return to what you said about the date.",
+      "promptZh": "結束前,我想重新談談你剛才所說的日期。",
+      "starter": "Before",
+      "answer": "Before we end, I want to go back to what you said about the date.",
+      "answerZh": "結束前,我想重新談談你剛才所說的日期。",
+      "highlight": "go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The discussion changed to another subject, but the manager later returned to the budget.",
+      "promptZh": "討論轉到另一個主題,但經理後來重新談到預算。",
+      "starter": "The",
+      "answer": "The discussion changed to another subject, but the manager later went back to the budget.",
+      "answerZh": "討論轉到另一個主題,但經理後來重新談到預算。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although they work in different cities now, Noah and Isaac have been friends for nearly thirty years.",
+      "promptZh": "雖然諾亞和艾薩克現時在不同城市工作,但他們已相識接近三十年。",
+      "starter": "Although",
+      "answer": "Although they work in different cities now, Noah and Isaac go back nearly thirty years.",
+      "answerZh": "雖然諾亞和艾薩克現時在不同城市工作,但他們已相識接近三十年。",
+      "highlight": "go back",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The organiser made a promise, and we trusted her because she had never broken it before.",
+      "promptZh": "主辦人作出了承諾;我們信任她,因為她以前從未違背承諾。",
+      "starter": "The",
+      "answer": "The organiser made a promise, and we trusted her because she had never gone back on it before.",
+      "answerZh": "主辦人作出了承諾;我們信任她,因為她以前從未違背承諾。",
+      "highlight": "gone back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I thought the plan was clear, but I checked each part again before the meeting.",
+      "promptZh": "我以為計劃很清楚,但仍在會議前再次檢查每個部分。",
+      "starter": "I",
+      "answer": "I thought the plan was clear, but I went back over each part before the meeting.",
+      "answerZh": "我以為計劃很清楚,但仍在會議前再次檢查每個部分。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The singer and her manager first worked together when they were teenagers.",
+      "promptZh": "這名歌手和她的經理在青少年時期便開始合作。",
+      "starter": "The",
+      "answer": "The singer and her manager go back to their teenage years.",
+      "answerZh": "這名歌手和她的經理從青少年時期開始便互相認識。",
+      "highlight": "go back to their teenage years",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The landlord said the rent would stay the same, but he later broke his promise.",
+      "promptZh": "業主說租金會維持不變,但後來卻違背了承諾。",
+      "starter": "The",
+      "answer": "The landlord said the rent would stay the same, but he later went back on his promise.",
+      "answerZh": "業主說租金會維持不變,但後來卻違背了承諾。",
+      "highlight": "went back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "To return to the point you made earlier, the new timetable may still change.",
+      "promptZh": "回到你較早前提出的重點,新時間表仍可能會改變。",
+      "starter": "To",
+      "answer": "To go back to the point you made earlier, the new timetable may still change.",
+      "answerZh": "回到你較早前提出的重點,新時間表仍可能會改變。",
+      "highlight": "go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Have you carefully checked what happened before you make your decision?",
+      "promptZh": "你作出決定前,有否仔細再次查看事情的經過?",
+      "starter": "Have",
+      "answer": "Have you gone back over what happened before you make your decision?",
+      "answerZh": "你作出決定前,有否仔細再次查看事情的經過?",
+      "highlight": "gone back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或回顧某事"
+    },
+    {
+      "id": "phrasal-verb-182-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Have you and Grace known each other since your first job together?",
+      "promptZh": "你和格蕾絲是否從第一份共同工作開始便一直相識?",
+      "starter": "Do",
+      "answer": "Do you and Grace go back to your first job together?",
+      "answerZh": "你和格蕾絲是否從第一份共同工作開始便一直相識?",
+      "highlight": "Do",
+      "targetForm": "go back",
+      "targetMeaningZh": "與某人相識已久"
+    },
+    {
+      "id": "phrasal-verb-182-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even under pressure, the captain refused to break his word.",
+      "promptZh": "即使面對壓力,隊長仍拒絕食言。",
+      "starter": "Even",
+      "answer": "Even under pressure, the captain refused to go back on his word.",
+      "answerZh": "即使面對壓力,隊長仍拒絕食言。",
+      "highlight": "go back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背自己說過的話;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the argument, Ken quietly reviewed each point that had caused the problem.",
+      "promptZh": "爭執過後,肯安靜地再次思考每個引起問題的重點。",
+      "starter": "After",
+      "answer": "After the argument, Ken quietly went back over each point that had caused the problem.",
+      "answerZh": "爭執過後,肯安靜地再次思考每個引起問題的重點。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或思考某事"
+    },
+    {
+      "id": "phrasal-verb-182-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have discussed who will speak; now let us return to where the event will be held.",
+      "promptZh": "我們已討論由誰發言;現在讓我們重新討論活動舉行的地點。",
+      "starter": "We",
+      "answer": "We have discussed who will speak; now let’s go back to where the event will be held.",
+      "answerZh": "我們已討論由誰發言;現在讓我們重新討論活動舉行的地點。",
+      "highlight": "let’s go back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新討論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When I met the new head teacher, I learnt that our parents had been friends since university.",
+      "promptZh": "我遇到新校長時,得知我們的父母從大學時期開始便一直是朋友。",
+      "starter": "When",
+      "answer": "When I met the new head teacher, I learnt that our parents’ friendship went back to their university days.",
+      "answerZh": "我遇到新校長時,得知我們的父母從大學時期開始便一直是朋友。",
+      "highlight": "’ friendship went back to their",
+      "targetForm": "go back",
+      "targetMeaningZh": "表示一段關係始於很久以前"
+    },
+    {
+      "id": "phrasal-verb-182-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The players agreed to follow the rules, so they cannot now refuse to do what they promised.",
+      "promptZh": "球員已答應遵守規則,所以現在不能拒絕履行承諾。",
+      "starter": "The",
+      "answer": "The players agreed to follow the rules, so they cannot now go back on their promise.",
+      "answerZh": "球員已答應遵守規則,所以現在不能違背承諾。",
+      "highlight": "go back on their promise",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The host began discussing the actor’s new film, but later returned to his early life.",
+      "promptZh": "主持人開始討論該演員的新電影,但後來重新談到他的早年生活。",
+      "starter": "The",
+      "answer": "The host began discussing the actor’s new film, but later went back to his early life.",
+      "answerZh": "主持人開始討論該演員的新電影,但後來重新談到他的早年生活。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the first answer seemed wrong, I checked my steps again line by line.",
+      "promptZh": "由於第一個答案似乎不正確,我逐行再次檢查所有步驟。",
+      "starter": "Because",
+      "answer": "Because the first answer seemed wrong, I went back over my steps line by line.",
+      "answerZh": "由於第一個答案似乎不正確,我逐行再次檢查所有步驟。",
+      "highlight": "went back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細查看或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-182-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The club had promised every child a place, but it later failed to keep that promise.",
+      "promptZh": "該會所曾承諾給每名孩子一個名額,但後來未有遵守承諾。",
+      "starter": "The",
+      "answer": "The club had promised every child a place, but it later went back on that promise.",
+      "answerZh": "該會所曾承諾給每名孩子一個名額,但後來卻違背了承諾。",
+      "highlight": "went back on",
+      "targetForm": "go back on something",
+      "targetMeaningZh": "違背承諾;食言"
+    },
+    {
+      "id": "phrasal-verb-182-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We may disagree now, but our friendship began when we were six.",
+      "promptZh": "我們現在或許意見不同,但我們六歲時已經成為朋友。",
+      "starter": "We",
+      "answer": "We may disagree now, but our friendship goes back to when we were six.",
+      "answerZh": "我們現在或許意見不同,但我們六歲時已經成為朋友。",
+      "highlight": "goes back to",
+      "targetForm": "go back",
+      "targetMeaningZh": "表示一段關係始於很久以前"
+    },
+    {
+      "id": "phrasal-verb-182-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The speaker introduced an idea at the start of the talk. Before the final question, she returned to it.",
+      "promptZh": "講者在演講開始時提出了一個構思。回答最後一個問題前,她重新談到這個構思。",
+      "starter": "The",
+      "answer": "The speaker introduced an idea at the start of the talk. Before the final question, she went back to it.",
+      "answerZh": "講者在演講開始時提出了一個構思。回答最後一個問題前,她重新談到這個構思。",
+      "highlight": "went back",
+      "targetForm": "go back to something",
+      "targetMeaningZh": "重新談論之前的事情"
+    },
+    {
+      "id": "phrasal-verb-182-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "She could not sleep because she kept reviewing the conversation in her mind.",
+      "promptZh": "她不斷在腦海中回想那段對話,因此無法入睡。",
+      "starter": "She",
+      "answer": "She could not sleep because she kept going back over the conversation in her mind.",
+      "answerZh": "她不斷在腦海中回想那段對話,因此無法入睡。",
+      "highlight": "going back over",
+      "targetForm": "go back over something",
+      "targetMeaningZh": "再次仔細回想某事"
+    }
+  ]
+}

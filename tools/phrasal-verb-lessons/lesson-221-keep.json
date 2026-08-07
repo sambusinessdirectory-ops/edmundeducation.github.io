@@ -1,0 +1,3895 @@
+{
+  "id": "phrasal-verb-221",
+  "order": 221,
+  "slug": "keep",
+  "version": "1",
+  "title": "KEEP 動詞片語",
+  "titleEn": "Keep",
+  "titleZh": "KEEP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 30,
+  "source": {
+    "file": "Phrasal Verbs 219 - KEEP.pdf",
+    "sourceNumber": 219,
+    "pageCount": 32,
+    "teachingPdfPages": [
+      1,
+      7
+    ],
+    "exercisePdfPages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 KEEP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to KEEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "KEEP",
+      "highlight": "KEEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She keeps after me to fix the shelf.",
+      "zh": "她不斷催促我修理架子。",
+      "highlight": "keeps after me to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We must keep ahead of our competitors.",
+      "zh": "我們必須保持領先於競爭對手。",
+      "highlight": "keep",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Keep at it; you have nearly finished.",
+      "zh": "繼續努力;你快完成了。",
+      "highlight": "Keep at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "不斷催促或提醒某人做某事；保持領先;走在某人或某事物前面；繼續努力做某事;使某人繼續做某事；遠離;使某人或某物遠離；退後;使某人或某物保持距離；伏低身體;保持低姿勢；阻止某人做某事;忍住不做某事；留在室內;不外出；與可能對自己有幫助的人保持友好關係；雨、雪等沒有下;壞天氣沒有出現；不要踏上、觸碰或使用某物;阻止某人或某物接近某處；不要進入;防止某人或某物進入；妨礙某人進步;使某人未能升到更高程度；讓某人在其他人離開後留下;把某人留堂；使學生留級;不讓學生升班；控制或壓迫某人,使其無法自由行動；令某人不能入睡或保持清醒；持續供應某人所需的某種物品或金錢；保留某物以供稍後使用；控制某物,使其維持在較低水平；向某人隱瞞某事;不讓某人知道或得到某物；把注意力、視線或鏡頭持續集中在某人或某事物上；把某物留在外面或留着不收起,以便稍後使用；把某事保密;不告訴別人；維持某種水平、標準、速度或努力；遵守或不偏離某事;把某事限制在某範圍內；保持在一起;使某些人或事物不分散；跟上某人或某事物的速度、程度或進度；與某人保持聯絡,了解彼此近況；持續了解某事物的最新情況或變化",
+    "en": "keep after somebody (about something / to do something); keep ahead / keep ahead of somebody or something; keep at something / keep somebody at something; keep away / keep somebody or something away (from somebody or something); keep back / keep somebody or something back (from somebody or something); keep down; keep from doing something / keep somebody or yourself from something or doing something; keep in; keep in with somebody; keep off; keep off something / keep somebody off something; keep out / keep out of something / keep somebody or something out (of something); keep somebody back; keep somebody behind / keep somebody in; keep somebody down; keep somebody under; keep somebody up; keep somebody or yourself in something; keep something back; keep something down; keep something from somebody; keep something on somebody or something; keep something out; keep something to yourself; keep something up; keep to something / keep something to something; keep together / keep somebody or something together; keep up / keep up with somebody or something; keep up with somebody; keep up with something",
+    "naturalZh": [
+      "不斷催促或提醒某人做某事",
+      "保持領先;走在某人或某事物前面",
+      "繼續努力做某事;使某人繼續做某事",
+      "遠離;使某人或某物遠離",
+      "退後;使某人或某物保持距離",
+      "伏低身體;保持低姿勢",
+      "阻止某人做某事;忍住不做某事",
+      "留在室內;不外出",
+      "與可能對自己有幫助的人保持友好關係",
+      "雨、雪等沒有下;壞天氣沒有出現",
+      "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+      "不要進入;防止某人或某物進入",
+      "妨礙某人進步;使某人未能升到更高程度",
+      "讓某人在其他人離開後留下;把某人留堂",
+      "使學生留級;不讓學生升班",
+      "控制或壓迫某人,使其無法自由行動",
+      "令某人不能入睡或保持清醒",
+      "持續供應某人所需的某種物品或金錢",
+      "保留某物以供稍後使用",
+      "控制某物,使其維持在較低水平",
+      "向某人隱瞞某事;不讓某人知道或得到某物",
+      "把注意力、視線或鏡頭持續集中在某人或某事物上",
+      "把某物留在外面或留着不收起,以便稍後使用",
+      "把某事保密;不告訴別人",
+      "維持某種水平、標準、速度或努力",
+      "遵守或不偏離某事;把某事限制在某範圍內",
+      "保持在一起;使某些人或事物不分散",
+      "跟上某人或某事物的速度、程度或進度",
+      "與某人保持聯絡,了解彼此近況",
+      "持續了解某事物的最新情況或變化"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "keep after somebody (about something / to do something)",
+      "titleZh": "不斷催促或提醒某人做某事",
+      "titleEn": "keep after somebody (about something / to do something)",
+      "descriptionZh": "不斷催促或提醒某人做某事",
+      "descriptionEn": "She keeps after me to fix the shelf.",
+      "examples": [
+        {
+          "en": "She keeps after me to fix the shelf.",
+          "zh": "她不斷催促我修理架子。",
+          "highlight": "keeps after me to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep ahead / keep ahead of somebody or something",
+      "titleZh": "保持領先;走在某人或某事物前面",
+      "titleEn": "keep ahead / keep ahead of somebody or something",
+      "descriptionZh": "保持領先;走在某人或某事物前面",
+      "descriptionEn": "We must keep ahead of our competitors.",
+      "examples": [
+        {
+          "en": "We must keep ahead of our competitors.",
+          "zh": "我們必須保持領先於競爭對手。",
+          "highlight": "keep"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep at something / keep somebody at something",
+      "titleZh": "繼續努力做某事;使某人繼續做某事",
+      "titleEn": "keep at something / keep somebody at something",
+      "descriptionZh": "繼續努力做某事;使某人繼續做某事",
+      "descriptionEn": "Keep at it; you have nearly finished.",
+      "examples": [
+        {
+          "en": "Keep at it; you have nearly finished.",
+          "zh": "繼續努力;你快完成了。",
+          "highlight": "Keep at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep away / keep somebody or something away (from somebody or something)",
+      "titleZh": "遠離;使某人或某物遠離",
+      "titleEn": "keep away / keep somebody or something away (from somebody or something)",
+      "descriptionZh": "遠離;使某人或某物遠離",
+      "descriptionEn": "Keep away from the wet paint.",
+      "examples": [
+        {
+          "en": "Keep away from the wet paint.",
+          "zh": "遠離未乾的油漆。",
+          "highlight": "Keep away from"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep back / keep somebody or something back (from somebody or something)",
+      "titleZh": "退後;使某人或某物保持距離",
+      "titleEn": "keep back / keep somebody or something back (from somebody or something)",
+      "descriptionZh": "退後;使某人或某物保持距離",
+      "descriptionEn": "Keep back from the edge.",
+      "examples": [
+        {
+          "en": "Keep back from the edge.",
+          "zh": "遠離邊緣並向後退。",
+          "highlight": "Keep back from"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep down",
+      "titleZh": "伏低身體;保持低姿勢",
+      "titleEn": "keep down",
+      "descriptionZh": "伏低身體;保持低姿勢",
+      "descriptionEn": "Keep down or they will see you.",
+      "examples": [
+        {
+          "en": "Keep down or they will see you.",
+          "zh": "伏低,否則他們會看見你。",
+          "highlight": "Keep down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep from doing something / keep somebody or yourself from something or doing something",
+      "titleZh": "阻止某人做某事;忍住不做某事",
+      "titleEn": "keep from doing something / keep somebody or yourself from something or doing something",
+      "descriptionZh": "阻止某人做某事;忍住不做某事",
+      "descriptionEn": "I could not keep myself from laughing.",
+      "examples": [
+        {
+          "en": "I could not keep myself from laughing.",
+          "zh": "我忍不住笑了。",
+          "highlight": "keep myself from"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep in",
+      "titleZh": "留在室內;不外出",
+      "titleEn": "keep in",
+      "descriptionZh": "留在室內;不外出",
+      "descriptionEn": "We kept in because of the heavy rain.",
+      "examples": [
+        {
+          "en": "We kept in because of the heavy rain.",
+          "zh": "由於下大雨,我們留在室內。",
+          "highlight": "kept in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep in with somebody",
+      "titleZh": "與可能對自己有幫助的人保持友好關係",
+      "titleEn": "keep in with somebody",
+      "descriptionZh": "與可能對自己有幫助的人保持友好關係",
+      "descriptionEn": "He keeps in with people who may help him.",
+      "examples": [
+        {
+          "en": "He keeps in with people who may help him.",
+          "zh": "他與可能幫助自己的人保持友好關係。",
+          "highlight": "keeps in with"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep off",
+      "titleZh": "雨、雪等沒有下;壞天氣沒有出現",
+      "titleEn": "keep off",
+      "descriptionZh": "雨、雪等沒有下;壞天氣沒有出現",
+      "descriptionEn": "We can play outside if the rain keeps off.",
+      "examples": [
+        {
+          "en": "We can play outside if the rain keeps off.",
+          "zh": "如果沒有下雨,我們便可以在外面玩。",
+          "highlight": "keeps off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep off something / keep somebody off something",
+      "titleZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+      "titleEn": "keep off something / keep somebody off something",
+      "descriptionZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+      "descriptionEn": "Keep off the grass.",
+      "examples": [
+        {
+          "en": "Keep off the grass.",
+          "zh": "不要踏上草地。",
+          "highlight": "Keep off"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep out / keep out of something / keep somebody or something out (of something)",
+      "titleZh": "不要進入;防止某人或某物進入",
+      "titleEn": "keep out / keep out of something / keep somebody or something out (of something)",
+      "descriptionZh": "不要進入;防止某人或某物進入",
+      "descriptionEn": "Keep out of the old building.",
+      "examples": [
+        {
+          "en": "Keep out of the old building.",
+          "zh": "不要進入那座舊建築物。",
+          "highlight": "Keep out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep somebody back",
+      "titleZh": "妨礙某人進步;使某人未能升到更高程度",
+      "titleEn": "keep somebody back",
+      "descriptionZh": "妨礙某人進步;使某人未能升到更高程度",
+      "descriptionEn": "Missing so many lessons kept Noah back.",
+      "examples": [
+        {
+          "en": "Missing so many lessons kept Noah back.",
+          "zh": "缺課太多妨礙了 Noah 的進步。",
+          "highlight": "kept Noah back"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep somebody behind / keep somebody in",
+      "titleZh": "讓某人在其他人離開後留下;把某人留堂",
+      "titleEn": "keep somebody behind / keep somebody in",
+      "descriptionZh": "讓某人在其他人離開後留下;把某人留堂",
+      "descriptionEn": "The teacher kept us in after school.",
+      "examples": [
+        {
+          "en": "The teacher kept us in after school.",
+          "zh": "老師放學後把我們留堂。",
+          "highlight": "kept us in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep somebody down",
+      "titleZh": "使學生留級;不讓學生升班",
+      "titleEn": "keep somebody down",
+      "descriptionZh": "使學生留級;不讓學生升班",
+      "descriptionEn": "The school kept Ben down after he failed the final exam.",
+      "examples": [
+        {
+          "en": "The school kept Ben down after he failed the final exam.",
+          "zh": "Ben 在期終考試不合格後,學校要他留級。",
+          "highlight": "kept Ben down"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "keep somebody under",
+      "titleZh": "控制或壓迫某人,使其無法自由行動",
+      "titleEn": "keep somebody under",
+      "descriptionZh": "控制或壓迫某人,使其無法自由行動",
+      "descriptionEn": "The army kept the local people under for years.",
+      "examples": [
+        {
+          "en": "The army kept the local people under for years.",
+          "zh": "軍隊多年來一直壓迫當地居民。",
+          "highlight": "kept the local people under"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep somebody up",
+      "titleZh": "令某人不能入睡或保持清醒",
+      "titleEn": "keep somebody up",
+      "descriptionZh": "令某人不能入睡或保持清醒",
+      "descriptionEn": "The loud music kept me up.",
+      "examples": [
+        {
+          "en": "The loud music kept me up.",
+          "zh": "嘈吵的音樂令我無法入睡。",
+          "highlight": "kept me up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep somebody or yourself in something",
+      "titleZh": "持續供應某人所需的某種物品或金錢",
+      "titleEn": "keep somebody or yourself in something",
+      "descriptionZh": "持續供應某人所需的某種物品或金錢",
+      "descriptionEn": "This small job keeps me in coffee.",
+      "examples": [
+        {
+          "en": "This small job keeps me in coffee.",
+          "zh": "這份小工作讓我一直有錢買咖啡。",
+          "highlight": "keeps me in"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something back",
+      "titleZh": "保留某物以供稍後使用",
+      "titleEn": "keep something back",
+      "descriptionZh": "保留某物以供稍後使用",
+      "descriptionEn": "Keep some cake back for Ava.",
+      "examples": [
+        {
+          "en": "Keep some cake back for Ava.",
+          "zh": "留一些蛋糕給 Ava。",
+          "highlight": "Keep some cake back"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something down",
+      "titleZh": "控制某物,使其維持在較低水平",
+      "titleEn": "keep something down",
+      "descriptionZh": "控制某物,使其維持在較低水平",
+      "descriptionEn": "We must keep costs down.",
+      "examples": [
+        {
+          "en": "We must keep costs down.",
+          "zh": "我們必須控制成本。",
+          "highlight": "keep costs down"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something from somebody",
+      "titleZh": "向某人隱瞞某事;不讓某人知道或得到某物",
+      "titleEn": "keep something from somebody",
+      "descriptionZh": "向某人隱瞞某事;不讓某人知道或得到某物",
+      "descriptionEn": "Do not keep the truth from me.",
+      "examples": [
+        {
+          "en": "Do not keep the truth from me.",
+          "zh": "不要向我隱瞞真相。",
+          "highlight": "keep the truth from"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something on somebody or something",
+      "titleZh": "把注意力、視線或鏡頭持續集中在某人或某事物上",
+      "titleEn": "keep something on somebody or something",
+      "descriptionZh": "把注意力、視線或鏡頭持續集中在某人或某事物上",
+      "descriptionEn": "Keep your eyes on the road.",
+      "examples": [
+        {
+          "en": "Keep your eyes on the road.",
+          "zh": "眼睛要一直望着道路。",
+          "highlight": "Keep your eyes on"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something out",
+      "titleZh": "把某物留在外面或留着不收起,以便稍後使用",
+      "titleEn": "keep something out",
+      "descriptionZh": "把某物留在外面或留着不收起,以便稍後使用",
+      "descriptionEn": "Keep the milk out for breakfast.",
+      "examples": [
+        {
+          "en": "Keep the milk out for breakfast.",
+          "zh": "把牛奶留在外面,早餐時要用。",
+          "highlight": "Keep the milk out"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something to yourself",
+      "titleZh": "把某事保密;不告訴別人",
+      "titleEn": "keep something to yourself",
+      "descriptionZh": "把某事保密;不告訴別人",
+      "descriptionEn": "Keep this news to yourself.",
+      "examples": [
+        {
+          "en": "Keep this news to yourself.",
+          "zh": "不要把這個消息告訴別人。",
+          "highlight": "Keep this news to"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep something up",
+      "titleZh": "維持某種水平、標準、速度或努力",
+      "titleEn": "keep something up",
+      "descriptionZh": "維持某種水平、標準、速度或努力",
+      "descriptionEn": "Keep up the good work.",
+      "examples": [
+        {
+          "en": "Keep up the good work.",
+          "zh": "繼續保持良好表現。",
+          "highlight": "Keep up"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep to something / keep something to something",
+      "titleZh": "遵守或不偏離某事;把某事限制在某範圍內",
+      "titleEn": "keep to something / keep something to something",
+      "descriptionZh": "遵守或不偏離某事;把某事限制在某範圍內",
+      "descriptionEn": "Keep to the path.",
+      "examples": [
+        {
+          "en": "Keep to the path.",
+          "zh": "不要偏離小路。",
+          "highlight": "Keep to"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep together / keep somebody or something together",
+      "titleZh": "保持在一起;使某些人或事物不分散",
+      "titleEn": "keep together / keep somebody or something together",
+      "descriptionZh": "保持在一起;使某些人或事物不分散",
+      "descriptionEn": "Keep together when we cross the road.",
+      "examples": [
+        {
+          "en": "Keep together when we cross the road.",
+          "zh": "過馬路時要走在一起。",
+          "highlight": "Keep together"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep up / keep up with somebody or something",
+      "titleZh": "跟上某人或某事物的速度、程度或進度",
+      "titleEn": "keep up / keep up with somebody or something",
+      "descriptionZh": "跟上某人或某事物的速度、程度或進度",
+      "descriptionEn": "Walk faster or you will not keep up.",
+      "examples": [
+        {
+          "en": "Walk faster or you will not keep up.",
+          "zh": "走快一點,否則你會跟不上。",
+          "highlight": "keep up"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep up with somebody",
+      "titleZh": "與某人保持聯絡,了解彼此近況",
+      "titleEn": "keep up with somebody",
+      "descriptionZh": "與某人保持聯絡,了解彼此近況",
+      "descriptionEn": "I still keep up with two school friends.",
+      "examples": [
+        {
+          "en": "I still keep up with two school friends.",
+          "zh": "我仍與兩名舊同學保持聯絡。",
+          "highlight": "keep up with"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "keep up with something",
+      "titleZh": "持續了解某事物的最新情況或變化",
+      "titleEn": "keep up with something",
+      "descriptionZh": "持續了解某事物的最新情況或變化",
+      "descriptionEn": "I read the news to keep up with current events.",
+      "examples": [
+        {
+          "en": "I read the news to keep up with current events.",
+          "zh": "我閱讀新聞,以了解時事。",
+          "highlight": "keep up with"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "KEEP 片語動詞的實際用途",
+    "labelEn": "KEEP Phrasal Verbs in Use",
+    "summaryZh": "KEEP 片語動詞可以叫人遠離、退後、不要踏上某處,或不要進入某個地方。；keep at、keep ahead 和 keep up 可以表示繼續努力、保持領先,以及跟上別人的速度或進度。；你可以使用 KEEP 片語動詞談論控制成本、限制討論、阻止某個行動,或防止他人進入。；KEEP 片語動詞可以表示與可能有幫助的人保持友好、與朋友保持聯絡、了解最新消息,或隱瞞資訊。；KEEP 可以表示噪音令人無法入睡、惡劣天氣令人在室內逗留,或導遊讓小組保持在一起。",
+    "summaryEn": "KEEP expressions can tell people to stay away, stand back, remain off a surface or stay out of a place. Keep at, keep ahead and keep up help you talk about continuing to try, remaining in front and matching another person’s speed or progress. You can use KEEP to talk about controlling costs, limiting a discussion, preventing an action or stopping people from entering. KEEP expressions can describe staying friendly with useful people, keeping in contact with friends, following current news or hiding information. KEEP can show that noise stops someone sleeping, bad weather makes people stay indoors, or a guide makes a group remain together.",
+    "contextsZh": [
+      "清楚談論距離和安全範圍",
+      "描述努力、進度和維持水平",
+      "說明控制、限制和阻止",
+      "談論人際關係、聯絡和資訊",
+      "描述對人的影響和日常情境"
+    ],
+    "contextsEn": [
+      "Talk clearly about distance and safe areas",
+      "Describe effort, progress and staying at the right level",
+      "Explain control, limits and prevention",
+      "Talk about relationships, contact and information",
+      "Describe effects on people and everyday situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 KEEP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the KEEP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "keep after somebody (about something / to do something)",
+    "fixedHighlight": "keep after somebody (about something / to do something)",
+    "fixedZh": "閱讀整句,選出意思相同的 KEEP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the KEEP expression that gives the same meaning.",
+    "correct": "keeps after me to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、結果和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；有些片語動詞外形相同,但意思不同。例如,keep up with somebody 可以表示跟上某人的速度,也可以表示與某人保持聯絡。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time, result and meaning. When using him, her, it or them, place the word as shown: keep him away; keep them back; keep it down; keep her up Some expressions look the same but have different meanings. For example, keep up with somebody may mean matching a person’s pace or staying in contact with that person. Read the full situation carefully.",
+    "variableItemsZh": [
+      "keep after somebody (about something / to do something)",
+      "keep ahead / keep ahead of somebody or something",
+      "keep at something / keep somebody at something",
+      "keep away / keep somebody or something away (from somebody or something)",
+      "keep back / keep somebody or something back (from somebody or something)",
+      "keep down",
+      "keep from doing something / keep somebody or yourself from something or doing something",
+      "keep in",
+      "keep in with somebody",
+      "keep off",
+      "keep off something / keep somebody off something",
+      "keep out / keep out of something / keep somebody or something out (of something)",
+      "keep somebody back",
+      "keep somebody behind / keep somebody in",
+      "keep somebody down",
+      "keep somebody under",
+      "keep somebody up",
+      "keep somebody or yourself in something",
+      "keep something back",
+      "keep something down",
+      "keep something from somebody",
+      "keep something on somebody or something",
+      "keep something out",
+      "keep something to yourself",
+      "keep something up",
+      "keep to something / keep something to something",
+      "keep together / keep somebody or something together",
+      "keep up / keep up with somebody or something",
+      "keep up with somebody",
+      "keep up with something"
+    ],
+    "variableItemsEn": [
+      "keep after somebody (about something / to do something)",
+      "keep ahead / keep ahead of somebody or something",
+      "keep at something / keep somebody at something",
+      "keep away / keep somebody or something away (from somebody or something)",
+      "keep back / keep somebody or something back (from somebody or something)",
+      "keep down",
+      "keep from doing something / keep somebody or yourself from something or doing something",
+      "keep in",
+      "keep in with somebody",
+      "keep off",
+      "keep off something / keep somebody off something",
+      "keep out / keep out of something / keep somebody or something out (of something)",
+      "keep somebody back",
+      "keep somebody behind / keep somebody in",
+      "keep somebody down",
+      "keep somebody under",
+      "keep somebody up",
+      "keep somebody or yourself in something",
+      "keep something back",
+      "keep something down",
+      "keep something from somebody",
+      "keep something on somebody or something",
+      "keep something out",
+      "keep something to yourself",
+      "keep something up",
+      "keep to something / keep something to something",
+      "keep together / keep somebody or something together",
+      "keep up / keep up with somebody or something",
+      "keep up with somebody",
+      "keep up with something"
+    ],
+    "forms": [
+      {
+        "formZh": "不斷催促或提醒某人做某事",
+        "formEn": "keep after somebody (about something / to do something)",
+        "exampleZh": "她不斷催促我修理架子。",
+        "exampleEn": "She keeps after me to fix the shelf.",
+        "highlight": "keeps after me to"
+      },
+      {
+        "formZh": "保持領先;走在某人或某事物前面",
+        "formEn": "keep ahead / keep ahead of somebody or something",
+        "exampleZh": "我們必須保持領先於競爭對手。",
+        "exampleEn": "We must keep ahead of our competitors.",
+        "highlight": "keep"
+      },
+      {
+        "formZh": "繼續努力做某事;使某人繼續做某事",
+        "formEn": "keep at something / keep somebody at something",
+        "exampleZh": "繼續努力;你快完成了。",
+        "exampleEn": "Keep at it; you have nearly finished.",
+        "highlight": "Keep at"
+      },
+      {
+        "formZh": "遠離;使某人或某物遠離",
+        "formEn": "keep away / keep somebody or something away (from somebody or something)",
+        "exampleZh": "遠離未乾的油漆。",
+        "exampleEn": "Keep away from the wet paint.",
+        "highlight": "Keep away from"
+      },
+      {
+        "formZh": "退後;使某人或某物保持距離",
+        "formEn": "keep back / keep somebody or something back (from somebody or something)",
+        "exampleZh": "遠離邊緣並向後退。",
+        "exampleEn": "Keep back from the edge.",
+        "highlight": "Keep back from"
+      },
+      {
+        "formZh": "伏低身體;保持低姿勢",
+        "formEn": "keep down",
+        "exampleZh": "伏低,否則他們會看見你。",
+        "exampleEn": "Keep down or they will see you.",
+        "highlight": "Keep down"
+      },
+      {
+        "formZh": "阻止某人做某事;忍住不做某事",
+        "formEn": "keep from doing something / keep somebody or yourself from something or doing something",
+        "exampleZh": "我忍不住笑了。",
+        "exampleEn": "I could not keep myself from laughing.",
+        "highlight": "keep myself from"
+      },
+      {
+        "formZh": "留在室內;不外出",
+        "formEn": "keep in",
+        "exampleZh": "由於下大雨,我們留在室內。",
+        "exampleEn": "We kept in because of the heavy rain.",
+        "highlight": "kept in"
+      },
+      {
+        "formZh": "與可能對自己有幫助的人保持友好關係",
+        "formEn": "keep in with somebody",
+        "exampleZh": "他與可能幫助自己的人保持友好關係。",
+        "exampleEn": "He keeps in with people who may help him.",
+        "highlight": "keeps in with"
+      },
+      {
+        "formZh": "雨、雪等沒有下;壞天氣沒有出現",
+        "formEn": "keep off",
+        "exampleZh": "如果沒有下雨,我們便可以在外面玩。",
+        "exampleEn": "We can play outside if the rain keeps off.",
+        "highlight": "keeps off"
+      },
+      {
+        "formZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+        "formEn": "keep off something / keep somebody off something",
+        "exampleZh": "不要踏上草地。",
+        "exampleEn": "Keep off the grass.",
+        "highlight": "Keep off"
+      },
+      {
+        "formZh": "不要進入;防止某人或某物進入",
+        "formEn": "keep out / keep out of something / keep somebody or something out (of something)",
+        "exampleZh": "不要進入那座舊建築物。",
+        "exampleEn": "Keep out of the old building.",
+        "highlight": "Keep out"
+      },
+      {
+        "formZh": "妨礙某人進步;使某人未能升到更高程度",
+        "formEn": "keep somebody back",
+        "exampleZh": "缺課太多妨礙了 Noah 的進步。",
+        "exampleEn": "Missing so many lessons kept Noah back.",
+        "highlight": "kept Noah back"
+      },
+      {
+        "formZh": "讓某人在其他人離開後留下;把某人留堂",
+        "formEn": "keep somebody behind / keep somebody in",
+        "exampleZh": "老師放學後把我們留堂。",
+        "exampleEn": "The teacher kept us in after school.",
+        "highlight": "kept us in"
+      },
+      {
+        "formZh": "使學生留級;不讓學生升班",
+        "formEn": "keep somebody down",
+        "exampleZh": "Ben 在期終考試不合格後,學校要他留級。",
+        "exampleEn": "The school kept Ben down after he failed the final exam.",
+        "highlight": "kept Ben down"
+      },
+      {
+        "formZh": "控制或壓迫某人,使其無法自由行動",
+        "formEn": "keep somebody under",
+        "exampleZh": "軍隊多年來一直壓迫當地居民。",
+        "exampleEn": "The army kept the local people under for years.",
+        "highlight": "kept the local people under"
+      },
+      {
+        "formZh": "令某人不能入睡或保持清醒",
+        "formEn": "keep somebody up",
+        "exampleZh": "嘈吵的音樂令我無法入睡。",
+        "exampleEn": "The loud music kept me up.",
+        "highlight": "kept me up"
+      },
+      {
+        "formZh": "持續供應某人所需的某種物品或金錢",
+        "formEn": "keep somebody or yourself in something",
+        "exampleZh": "這份小工作讓我一直有錢買咖啡。",
+        "exampleEn": "This small job keeps me in coffee.",
+        "highlight": "keeps me in"
+      },
+      {
+        "formZh": "保留某物以供稍後使用",
+        "formEn": "keep something back",
+        "exampleZh": "留一些蛋糕給 Ava。",
+        "exampleEn": "Keep some cake back for Ava.",
+        "highlight": "Keep some cake back"
+      },
+      {
+        "formZh": "控制某物,使其維持在較低水平",
+        "formEn": "keep something down",
+        "exampleZh": "我們必須控制成本。",
+        "exampleEn": "We must keep costs down.",
+        "highlight": "keep costs down"
+      },
+      {
+        "formZh": "向某人隱瞞某事;不讓某人知道或得到某物",
+        "formEn": "keep something from somebody",
+        "exampleZh": "不要向我隱瞞真相。",
+        "exampleEn": "Do not keep the truth from me.",
+        "highlight": "keep the truth from"
+      },
+      {
+        "formZh": "把注意力、視線或鏡頭持續集中在某人或某事物上",
+        "formEn": "keep something on somebody or something",
+        "exampleZh": "眼睛要一直望着道路。",
+        "exampleEn": "Keep your eyes on the road.",
+        "highlight": "Keep your eyes on"
+      },
+      {
+        "formZh": "把某物留在外面或留着不收起,以便稍後使用",
+        "formEn": "keep something out",
+        "exampleZh": "把牛奶留在外面,早餐時要用。",
+        "exampleEn": "Keep the milk out for breakfast.",
+        "highlight": "Keep the milk out"
+      },
+      {
+        "formZh": "把某事保密;不告訴別人",
+        "formEn": "keep something to yourself",
+        "exampleZh": "不要把這個消息告訴別人。",
+        "exampleEn": "Keep this news to yourself.",
+        "highlight": "Keep this news to"
+      },
+      {
+        "formZh": "維持某種水平、標準、速度或努力",
+        "formEn": "keep something up",
+        "exampleZh": "繼續保持良好表現。",
+        "exampleEn": "Keep up the good work.",
+        "highlight": "Keep up"
+      },
+      {
+        "formZh": "遵守或不偏離某事;把某事限制在某範圍內",
+        "formEn": "keep to something / keep something to something",
+        "exampleZh": "不要偏離小路。",
+        "exampleEn": "Keep to the path.",
+        "highlight": "Keep to"
+      },
+      {
+        "formZh": "保持在一起;使某些人或事物不分散",
+        "formEn": "keep together / keep somebody or something together",
+        "exampleZh": "過馬路時要走在一起。",
+        "exampleEn": "Keep together when we cross the road.",
+        "highlight": "Keep together"
+      },
+      {
+        "formZh": "跟上某人或某事物的速度、程度或進度",
+        "formEn": "keep up / keep up with somebody or something",
+        "exampleZh": "走快一點,否則你會跟不上。",
+        "exampleEn": "Walk faster or you will not keep up.",
+        "highlight": "keep up"
+      },
+      {
+        "formZh": "與某人保持聯絡,了解彼此近況",
+        "formEn": "keep up with somebody",
+        "exampleZh": "我仍與兩名舊同學保持聯絡。",
+        "exampleEn": "I still keep up with two school friends.",
+        "highlight": "keep up with"
+      },
+      {
+        "formZh": "持續了解某事物的最新情況或變化",
+        "formEn": "keep up with something",
+        "exampleZh": "我閱讀新聞,以了解時事。",
+        "exampleEn": "I read the news to keep up with current events.",
+        "highlight": "keep up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "不斷催促或提醒某人做某事",
+      "titleEn": "keep after somebody (about something / to do something)",
+      "formula": "keep after somebody (about something / to do something)",
+      "highlight": "keep after somebody (about something / to do something)",
+      "descriptionZh": "不斷催促或提醒某人做某事",
+      "descriptionEn": "She keeps after me to fix the shelf.",
+      "examples": [
+        {
+          "en": "She keeps after me to fix the shelf.",
+          "zh": "她不斷催促我修理架子。",
+          "highlight": "keeps after me to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "保持領先;走在某人或某事物前面",
+      "titleEn": "keep ahead / keep ahead of somebody or something",
+      "formula": "keep ahead / keep ahead of somebody or something",
+      "highlight": "keep ahead / keep ahead of somebody or something",
+      "descriptionZh": "保持領先;走在某人或某事物前面",
+      "descriptionEn": "We must keep ahead of our competitors.",
+      "examples": [
+        {
+          "en": "We must keep ahead of our competitors.",
+          "zh": "我們必須保持領先於競爭對手。",
+          "highlight": "keep"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "繼續努力做某事;使某人繼續做某事",
+      "titleEn": "keep at something / keep somebody at something",
+      "formula": "keep at something / keep somebody at something",
+      "highlight": "keep at something / keep somebody at something",
+      "descriptionZh": "繼續努力做某事;使某人繼續做某事",
+      "descriptionEn": "Keep at it; you have nearly finished.",
+      "examples": [
+        {
+          "en": "Keep at it; you have nearly finished.",
+          "zh": "繼續努力;你快完成了。",
+          "highlight": "Keep at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "遠離;使某人或某物遠離",
+      "titleEn": "keep away / keep somebody or something away (from somebody or something)",
+      "formula": "keep away / keep somebody or something away (from somebody or something)",
+      "highlight": "keep away / keep somebody or something away (from somebody or something)",
+      "descriptionZh": "遠離;使某人或某物遠離",
+      "descriptionEn": "Keep away from the wet paint.",
+      "examples": [
+        {
+          "en": "Keep away from the wet paint.",
+          "zh": "遠離未乾的油漆。",
+          "highlight": "Keep away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "退後;使某人或某物保持距離",
+      "titleEn": "keep back / keep somebody or something back (from somebody or something)",
+      "formula": "keep back / keep somebody or something back (from somebody or something)",
+      "highlight": "keep back / keep somebody or something back (from somebody or something)",
+      "descriptionZh": "退後;使某人或某物保持距離",
+      "descriptionEn": "Keep back from the edge.",
+      "examples": [
+        {
+          "en": "Keep back from the edge.",
+          "zh": "遠離邊緣並向後退。",
+          "highlight": "Keep back from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "伏低身體;保持低姿勢",
+      "titleEn": "keep down",
+      "formula": "keep down",
+      "highlight": "keep down",
+      "descriptionZh": "伏低身體;保持低姿勢",
+      "descriptionEn": "Keep down or they will see you.",
+      "examples": [
+        {
+          "en": "Keep down or they will see you.",
+          "zh": "伏低,否則他們會看見你。",
+          "highlight": "Keep down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "阻止某人做某事;忍住不做某事",
+      "titleEn": "keep from doing something / keep somebody or yourself from something or doing something",
+      "formula": "keep from doing something / keep somebody or yourself from something or doing something",
+      "highlight": "keep from doing something / keep somebody or yourself from something or doing something",
+      "descriptionZh": "阻止某人做某事;忍住不做某事",
+      "descriptionEn": "I could not keep myself from laughing.",
+      "examples": [
+        {
+          "en": "I could not keep myself from laughing.",
+          "zh": "我忍不住笑了。",
+          "highlight": "keep myself from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "留在室內;不外出",
+      "titleEn": "keep in",
+      "formula": "keep in",
+      "highlight": "keep in",
+      "descriptionZh": "留在室內;不外出",
+      "descriptionEn": "We kept in because of the heavy rain.",
+      "examples": [
+        {
+          "en": "We kept in because of the heavy rain.",
+          "zh": "由於下大雨,我們留在室內。",
+          "highlight": "kept in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "與可能對自己有幫助的人保持友好關係",
+      "titleEn": "keep in with somebody",
+      "formula": "keep in with somebody",
+      "highlight": "keep in with somebody",
+      "descriptionZh": "與可能對自己有幫助的人保持友好關係",
+      "descriptionEn": "He keeps in with people who may help him.",
+      "examples": [
+        {
+          "en": "He keeps in with people who may help him.",
+          "zh": "他與可能幫助自己的人保持友好關係。",
+          "highlight": "keeps in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "雨、雪等沒有下;壞天氣沒有出現",
+      "titleEn": "keep off",
+      "formula": "keep off",
+      "highlight": "keep off",
+      "descriptionZh": "雨、雪等沒有下;壞天氣沒有出現",
+      "descriptionEn": "We can play outside if the rain keeps off.",
+      "examples": [
+        {
+          "en": "We can play outside if the rain keeps off.",
+          "zh": "如果沒有下雨,我們便可以在外面玩。",
+          "highlight": "keeps off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+      "titleEn": "keep off something / keep somebody off something",
+      "formula": "keep off something / keep somebody off something",
+      "highlight": "keep off something / keep somebody off something",
+      "descriptionZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處",
+      "descriptionEn": "Keep off the grass.",
+      "examples": [
+        {
+          "en": "Keep off the grass.",
+          "zh": "不要踏上草地。",
+          "highlight": "Keep off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "不要進入;防止某人或某物進入",
+      "titleEn": "keep out / keep out of something / keep somebody or something out (of something)",
+      "formula": "keep out / keep out of something / keep somebody or something out (of something)",
+      "highlight": "keep out / keep out of something / keep somebody or something out (of something)",
+      "descriptionZh": "不要進入;防止某人或某物進入",
+      "descriptionEn": "Keep out of the old building.",
+      "examples": [
+        {
+          "en": "Keep out of the old building.",
+          "zh": "不要進入那座舊建築物。",
+          "highlight": "Keep out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "妨礙某人進步;使某人未能升到更高程度",
+      "titleEn": "keep somebody back",
+      "formula": "keep somebody back",
+      "highlight": "keep somebody back",
+      "descriptionZh": "妨礙某人進步;使某人未能升到更高程度",
+      "descriptionEn": "Missing so many lessons kept Noah back.",
+      "examples": [
+        {
+          "en": "Missing so many lessons kept Noah back.",
+          "zh": "缺課太多妨礙了 Noah 的進步。",
+          "highlight": "kept Noah back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "讓某人在其他人離開後留下;把某人留堂",
+      "titleEn": "keep somebody behind / keep somebody in",
+      "formula": "keep somebody behind / keep somebody in",
+      "highlight": "keep somebody behind / keep somebody in",
+      "descriptionZh": "讓某人在其他人離開後留下;把某人留堂",
+      "descriptionEn": "The teacher kept us in after school.",
+      "examples": [
+        {
+          "en": "The teacher kept us in after school.",
+          "zh": "老師放學後把我們留堂。",
+          "highlight": "kept us in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "使學生留級;不讓學生升班",
+      "titleEn": "keep somebody down",
+      "formula": "keep somebody down",
+      "highlight": "keep somebody down",
+      "descriptionZh": "使學生留級;不讓學生升班",
+      "descriptionEn": "The school kept Ben down after he failed the final exam.",
+      "examples": [
+        {
+          "en": "The school kept Ben down after he failed the final exam.",
+          "zh": "Ben 在期終考試不合格後,學校要他留級。",
+          "highlight": "kept Ben down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "控制或壓迫某人,使其無法自由行動",
+      "titleEn": "keep somebody under",
+      "formula": "keep somebody under",
+      "highlight": "keep somebody under",
+      "descriptionZh": "控制或壓迫某人,使其無法自由行動",
+      "descriptionEn": "The army kept the local people under for years.",
+      "examples": [
+        {
+          "en": "The army kept the local people under for years.",
+          "zh": "軍隊多年來一直壓迫當地居民。",
+          "highlight": "kept the local people under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "令某人不能入睡或保持清醒",
+      "titleEn": "keep somebody up",
+      "formula": "keep somebody up",
+      "highlight": "keep somebody up",
+      "descriptionZh": "令某人不能入睡或保持清醒",
+      "descriptionEn": "The loud music kept me up.",
+      "examples": [
+        {
+          "en": "The loud music kept me up.",
+          "zh": "嘈吵的音樂令我無法入睡。",
+          "highlight": "kept me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "持續供應某人所需的某種物品或金錢",
+      "titleEn": "keep somebody or yourself in something",
+      "formula": "keep somebody or yourself in something",
+      "highlight": "keep somebody or yourself in something",
+      "descriptionZh": "持續供應某人所需的某種物品或金錢",
+      "descriptionEn": "This small job keeps me in coffee.",
+      "examples": [
+        {
+          "en": "This small job keeps me in coffee.",
+          "zh": "這份小工作讓我一直有錢買咖啡。",
+          "highlight": "keeps me in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "保留某物以供稍後使用",
+      "titleEn": "keep something back",
+      "formula": "keep something back",
+      "highlight": "keep something back",
+      "descriptionZh": "保留某物以供稍後使用",
+      "descriptionEn": "Keep some cake back for Ava.",
+      "examples": [
+        {
+          "en": "Keep some cake back for Ava.",
+          "zh": "留一些蛋糕給 Ava。",
+          "highlight": "Keep some cake back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "控制某物,使其維持在較低水平",
+      "titleEn": "keep something down",
+      "formula": "keep something down",
+      "highlight": "keep something down",
+      "descriptionZh": "控制某物,使其維持在較低水平",
+      "descriptionEn": "We must keep costs down.",
+      "examples": [
+        {
+          "en": "We must keep costs down.",
+          "zh": "我們必須控制成本。",
+          "highlight": "keep costs down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "向某人隱瞞某事;不讓某人知道或得到某物",
+      "titleEn": "keep something from somebody",
+      "formula": "keep something from somebody",
+      "highlight": "keep something from somebody",
+      "descriptionZh": "向某人隱瞞某事;不讓某人知道或得到某物",
+      "descriptionEn": "Do not keep the truth from me.",
+      "examples": [
+        {
+          "en": "Do not keep the truth from me.",
+          "zh": "不要向我隱瞞真相。",
+          "highlight": "keep the truth from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "把注意力、視線或鏡頭持續集中在某人或某事物上",
+      "titleEn": "keep something on somebody or something",
+      "formula": "keep something on somebody or something",
+      "highlight": "keep something on somebody or something",
+      "descriptionZh": "把注意力、視線或鏡頭持續集中在某人或某事物上",
+      "descriptionEn": "Keep your eyes on the road.",
+      "examples": [
+        {
+          "en": "Keep your eyes on the road.",
+          "zh": "眼睛要一直望着道路。",
+          "highlight": "Keep your eyes on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "把某物留在外面或留着不收起,以便稍後使用",
+      "titleEn": "keep something out",
+      "formula": "keep something out",
+      "highlight": "keep something out",
+      "descriptionZh": "把某物留在外面或留着不收起,以便稍後使用",
+      "descriptionEn": "Keep the milk out for breakfast.",
+      "examples": [
+        {
+          "en": "Keep the milk out for breakfast.",
+          "zh": "把牛奶留在外面,早餐時要用。",
+          "highlight": "Keep the milk out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "把某事保密;不告訴別人",
+      "titleEn": "keep something to yourself",
+      "formula": "keep something to yourself",
+      "highlight": "keep something to yourself",
+      "descriptionZh": "把某事保密;不告訴別人",
+      "descriptionEn": "Keep this news to yourself.",
+      "examples": [
+        {
+          "en": "Keep this news to yourself.",
+          "zh": "不要把這個消息告訴別人。",
+          "highlight": "Keep this news to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "維持某種水平、標準、速度或努力",
+      "titleEn": "keep something up",
+      "formula": "keep something up",
+      "highlight": "keep something up",
+      "descriptionZh": "維持某種水平、標準、速度或努力",
+      "descriptionEn": "Keep up the good work.",
+      "examples": [
+        {
+          "en": "Keep up the good work.",
+          "zh": "繼續保持良好表現。",
+          "highlight": "Keep up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "遵守或不偏離某事;把某事限制在某範圍內",
+      "titleEn": "keep to something / keep something to something",
+      "formula": "keep to something / keep something to something",
+      "highlight": "keep to something / keep something to something",
+      "descriptionZh": "遵守或不偏離某事;把某事限制在某範圍內",
+      "descriptionEn": "Keep to the path.",
+      "examples": [
+        {
+          "en": "Keep to the path.",
+          "zh": "不要偏離小路。",
+          "highlight": "Keep to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "保持在一起;使某些人或事物不分散",
+      "titleEn": "keep together / keep somebody or something together",
+      "formula": "keep together / keep somebody or something together",
+      "highlight": "keep together / keep somebody or something together",
+      "descriptionZh": "保持在一起;使某些人或事物不分散",
+      "descriptionEn": "Keep together when we cross the road.",
+      "examples": [
+        {
+          "en": "Keep together when we cross the road.",
+          "zh": "過馬路時要走在一起。",
+          "highlight": "Keep together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "跟上某人或某事物的速度、程度或進度",
+      "titleEn": "keep up / keep up with somebody or something",
+      "formula": "keep up / keep up with somebody or something",
+      "highlight": "keep up / keep up with somebody or something",
+      "descriptionZh": "跟上某人或某事物的速度、程度或進度",
+      "descriptionEn": "Walk faster or you will not keep up.",
+      "examples": [
+        {
+          "en": "Walk faster or you will not keep up.",
+          "zh": "走快一點,否則你會跟不上。",
+          "highlight": "keep up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "與某人保持聯絡,了解彼此近況",
+      "titleEn": "keep up with somebody",
+      "formula": "keep up with somebody",
+      "highlight": "keep up with somebody",
+      "descriptionZh": "與某人保持聯絡,了解彼此近況",
+      "descriptionEn": "I still keep up with two school friends.",
+      "examples": [
+        {
+          "en": "I still keep up with two school friends.",
+          "zh": "我仍與兩名舊同學保持聯絡。",
+          "highlight": "keep up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "持續了解某事物的最新情況或變化",
+      "titleEn": "keep up with something",
+      "formula": "keep up with something",
+      "highlight": "keep up with something",
+      "descriptionZh": "持續了解某事物的最新情況或變化",
+      "descriptionEn": "I read the news to keep up with current events.",
+      "examples": [
+        {
+          "en": "I read the news to keep up with current events.",
+          "zh": "我閱讀新聞,以了解時事。",
+          "highlight": "keep up with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論距離和安全範圍",
+      "titleEn": "Talk clearly about distance and safe areas",
+      "zh": "KEEP 片語動詞可以叫人遠離、退後、不要踏上某處,或不要進入某個地方。",
+      "en": "KEEP expressions can tell people to stay away, stand back, remain off a surface or stay out of a place."
+    },
+    {
+      "titleZh": "描述努力、進度和維持水平",
+      "titleEn": "Describe effort, progress and staying at the right level",
+      "zh": "keep at、keep ahead 和 keep up 可以表示繼續努力、保持領先,以及跟上別人的速度或進度。",
+      "en": "Keep at, keep ahead and keep up help you talk about continuing to try, remaining in front and matching another person’s speed or progress."
+    },
+    {
+      "titleZh": "說明控制、限制和阻止",
+      "titleEn": "Explain control, limits and prevention",
+      "zh": "你可以使用 KEEP 片語動詞談論控制成本、限制討論、阻止某個行動,或防止他人進入。",
+      "en": "You can use KEEP to talk about controlling costs, limiting a discussion, preventing an action or stopping people from entering."
+    },
+    {
+      "titleZh": "談論人際關係、聯絡和資訊",
+      "titleEn": "Talk about relationships, contact and information",
+      "zh": "KEEP 片語動詞可以表示與可能有幫助的人保持友好、與朋友保持聯絡、了解最新消息,或隱瞞資訊。",
+      "en": "KEEP expressions can describe staying friendly with useful people, keeping in contact with friends, following current news or hiding information."
+    },
+    {
+      "titleZh": "描述對人的影響和日常情境",
+      "titleEn": "Describe effects on people and everyday situations",
+      "zh": "KEEP 可以表示噪音令人無法入睡、惡劣天氣令人在室內逗留,或導遊讓小組保持在一起。",
+      "en": "KEEP can show that noise stops someone sleeping, bad weather makes people stay indoors, or a guide makes a group remain together."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論距離和安全範圍",
+      "描述努力、進度和維持水平",
+      "說明控制、限制和阻止",
+      "談論人際關係、聯絡和資訊",
+      "描述對人的影響和日常情境"
+    ],
+    "contextsEn": [
+      "Talk clearly about distance and safe areas",
+      "Describe effort, progress and staying at the right level",
+      "Explain control, limits and prevention",
+      "Talk about relationships, contact and information",
+      "Describe effects on people and everyday situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論距離和安全範圍",
+        "titleEn": "Talk clearly about distance and safe areas",
+        "zh": "KEEP 片語動詞可以叫人遠離、退後、不要踏上某處,或不要進入某個地方。",
+        "en": "KEEP expressions can tell people to stay away, stand back, remain off a surface or stay out of a place.",
+        "examples": [
+          {
+            "en": "She keeps after me to fix the shelf.",
+            "zh": "她不斷催促我修理架子。",
+            "highlight": "keeps after me to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述努力、進度和維持水平",
+        "titleEn": "Describe effort, progress and staying at the right level",
+        "zh": "keep at、keep ahead 和 keep up 可以表示繼續努力、保持領先,以及跟上別人的速度或進度。",
+        "en": "Keep at, keep ahead and keep up help you talk about continuing to try, remaining in front and matching another person’s speed or progress.",
+        "examples": [
+          {
+            "en": "We must keep ahead of our competitors.",
+            "zh": "我們必須保持領先於競爭對手。",
+            "highlight": "keep"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明控制、限制和阻止",
+        "titleEn": "Explain control, limits and prevention",
+        "zh": "你可以使用 KEEP 片語動詞談論控制成本、限制討論、阻止某個行動,或防止他人進入。",
+        "en": "You can use KEEP to talk about controlling costs, limiting a discussion, preventing an action or stopping people from entering.",
+        "examples": [
+          {
+            "en": "Keep at it; you have nearly finished.",
+            "zh": "繼續努力;你快完成了。",
+            "highlight": "Keep at"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論人際關係、聯絡和資訊",
+        "titleEn": "Talk about relationships, contact and information",
+        "zh": "KEEP 片語動詞可以表示與可能有幫助的人保持友好、與朋友保持聯絡、了解最新消息,或隱瞞資訊。",
+        "en": "KEEP expressions can describe staying friendly with useful people, keeping in contact with friends, following current news or hiding information.",
+        "examples": [
+          {
+            "en": "Keep away from the wet paint.",
+            "zh": "遠離未乾的油漆。",
+            "highlight": "Keep away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述對人的影響和日常情境",
+        "titleEn": "Describe effects on people and everyday situations",
+        "zh": "KEEP 可以表示噪音令人無法入睡、惡劣天氣令人在室內逗留,或導遊讓小組保持在一起。",
+        "en": "KEEP can show that noise stops someone sleeping, bad weather makes people stay indoors, or a guide makes a group remain together.",
+        "examples": [
+          {
+            "en": "Keep back from the edge.",
+            "zh": "遠離邊緣並向後退。",
+            "highlight": "Keep back from"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 KEEP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the KEEP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 KEEP 片語動詞。",
+      "en": "Read the whole sentence and choose the KEEP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: keep him away; keep them back; keep it down; keep her up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: keep him away; keep them back; keep it down; keep her up"
+    },
+    {
+      "titleZh": "有些片語動詞外形相同,但意思不同。例如,keep up with somebody 可以表示跟上某人的速度,也可以表示與某人保持聯絡。請仔細閱讀整個情境。",
+      "titleEn": "Some expressions look the same but have different meanings.",
+      "zh": "有些片語動詞外形相同,但意思不同。例如,keep up with somebody 可以表示跟上某人的速度,也可以表示與某人保持聯絡。請仔細閱讀整個情境。",
+      "en": "Some expressions look the same but have different meanings. For example, keep up with somebody may mean matching a person’s pace or staying in contact with that person. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 KEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to KEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "KEEP 動詞片語句子改寫練習",
+    "titleEn": "KEEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 KEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to KEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          30
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          31,
+          60
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          61,
+          90
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          91,
+          120
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          121,
+          150
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-221-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We can play outside if it does not rain.",
+      "promptZh": "如果沒有下雨,我們便可以在外面玩。",
+      "starter": "We",
+      "answer": "We can play outside if the rain keeps off.",
+      "answerZh": "如果沒有下雨,我們便可以在外面玩。",
+      "highlight": "the",
+      "targetForm": "keep off",
+      "targetMeaningZh": "雨、雪等沒有下;壞天氣沒有出現"
+    },
+    {
+      "id": "phrasal-verb-221-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Continue trying; you are nearly done.",
+      "promptZh": "繼續努力;你快完成了。",
+      "starter": "Keep",
+      "answer": "Keep at it; you are nearly done.",
+      "answerZh": "繼續努力;你快完成了。",
+      "highlight": "Keep at it",
+      "targetForm": "keep at something / keep somebody at something",
+      "targetMeaningZh": "繼續努力做某事;使某人繼續做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do not tell anyone this news.",
+      "promptZh": "不要把這個消息告訴別人。",
+      "starter": "Keep",
+      "answer": "Keep this news to yourself.",
+      "answerZh": "不要把這個消息告訴別人。",
+      "highlight": "Keep",
+      "targetForm": "keep something to yourself",
+      "targetMeaningZh": "把某事保密;不告訴別人"
+    },
+    {
+      "id": "phrasal-verb-221-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Our shop must remain in front of the new shop across the road.",
+      "promptZh": "我們的店舖必須保持領先於馬路對面的新店。",
+      "starter": "Our",
+      "answer": "Our shop must keep ahead of the new shop across the road.",
+      "answerZh": "我們的店舖必須保持領先於馬路對面的新店。",
+      "highlight": "keep ahead",
+      "targetForm": "keep ahead / keep ahead of somebody or something",
+      "targetMeaningZh": "保持領先;走在某人或某事物前面"
+    },
+    {
+      "id": "phrasal-verb-221-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The loud music stopped me from sleeping.",
+      "promptZh": "嘈吵的音樂令我無法入睡。",
+      "starter": "The",
+      "answer": "The loud music kept me up.",
+      "answerZh": "嘈吵的音樂令我無法入睡。",
+      "highlight": "kept",
+      "targetForm": "keep somebody up",
+      "targetMeaningZh": "令某人不能入睡或保持清醒"
+    },
+    {
+      "id": "phrasal-verb-221-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do not walk on the grass.",
+      "promptZh": "不要踏上草地。",
+      "starter": "Keep",
+      "answer": "Keep off the grass.",
+      "answerZh": "不要踏上草地。",
+      "highlight": "Keep off",
+      "targetForm": "keep off something / keep somebody off something",
+      "targetMeaningZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處"
+    },
+    {
+      "id": "phrasal-verb-221-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I still stay in contact with two school friends.",
+      "promptZh": "我仍與兩名舊同學保持聯絡。",
+      "starter": "I",
+      "answer": "I still keep up with two school friends.",
+      "answerZh": "我仍與兩名舊同學保持聯絡。",
+      "highlight": "keep up",
+      "targetForm": "keep up with somebody",
+      "targetMeaningZh": "與某人保持聯絡,了解彼此近況"
+    },
+    {
+      "id": "phrasal-verb-221-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Stay low or they will see you.",
+      "promptZh": "伏低,否則他們會看見你。",
+      "starter": "Keep",
+      "answer": "Keep down or they will see you.",
+      "answerZh": "伏低,否則他們會看見你。",
+      "highlight": "Keep down",
+      "targetForm": "keep down",
+      "targetMeaningZh": "伏低身體;保持低姿勢"
+    },
+    {
+      "id": "phrasal-verb-221-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Save some cake for Ava.",
+      "promptZh": "留一些蛋糕給 Ava。",
+      "starter": "Keep",
+      "answer": "Keep some cake back for Ava.",
+      "answerZh": "留一些蛋糕給 Ava。",
+      "highlight": "Keep",
+      "targetForm": "keep something back",
+      "targetMeaningZh": "保留某物以供稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "We stayed indoors because of the heavy rain.",
+      "promptZh": "由於下大雨,我們留在室內。",
+      "starter": "We",
+      "answer": "We kept in because of the heavy rain.",
+      "answerZh": "由於下大雨,我們留在室內。",
+      "highlight": "kept in",
+      "targetForm": "keep in",
+      "targetMeaningZh": "留在室內;不外出"
+    },
+    {
+      "id": "phrasal-verb-221-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Stay together when we cross the road.",
+      "promptZh": "過馬路時要走在一起。",
+      "starter": "Keep",
+      "answer": "Keep together when we cross the road.",
+      "answerZh": "過馬路時要走在一起。",
+      "highlight": "Keep",
+      "targetForm": "keep together / keep somebody or something together",
+      "targetMeaningZh": "保持在一起;使某些人或事物不分散"
+    },
+    {
+      "id": "phrasal-verb-221-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She repeatedly reminds me to fix the shelf.",
+      "promptZh": "她不斷提醒我修理架子。",
+      "starter": "She",
+      "answer": "She keeps after me to fix the shelf.",
+      "answerZh": "她不斷催促我修理架子。",
+      "highlight": "keeps after",
+      "targetForm": "keep after somebody (about something / to do something)",
+      "targetMeaningZh": "不斷催促或提醒某人做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "I read the news to stay informed about current events.",
+      "promptZh": "我閱讀新聞,以了解時事。",
+      "starter": "I",
+      "answer": "I read the news to keep up with current events.",
+      "answerZh": "我閱讀新聞,以了解時事。",
+      "highlight": "keep up with",
+      "targetForm": "keep up with something",
+      "targetMeaningZh": "持續了解某事物的最新情況或變化"
+    },
+    {
+      "id": "phrasal-verb-221-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Stay back from the edge.",
+      "promptZh": "遠離邊緣並向後退。",
+      "starter": "Keep",
+      "answer": "Keep back from the edge.",
+      "answerZh": "遠離邊緣並向後退。",
+      "highlight": "Keep",
+      "targetForm": "keep back / keep somebody or something back (from somebody orsomething)",
+      "targetMeaningZh": "退後;使某人或某物保持距離"
+    },
+    {
+      "id": "phrasal-verb-221-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "This small job provides me with enough money for coffee.",
+      "promptZh": "這份小工作讓我有足夠金錢買咖啡。",
+      "starter": "This",
+      "answer": "This small job keeps me in coffee.",
+      "answerZh": "這份小工作讓我一直有錢買咖啡。",
+      "highlight": "keeps",
+      "targetForm": "keep somebody or yourself in something",
+      "targetMeaningZh": "持續供應某人所需的某種物品或金錢"
+    },
+    {
+      "id": "phrasal-verb-221-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Continue the good work.",
+      "promptZh": "繼續保持良好表現。",
+      "starter": "Keep",
+      "answer": "Keep up the good work.",
+      "answerZh": "繼續保持良好表現。",
+      "highlight": "Keep up",
+      "targetForm": "keep something up",
+      "targetMeaningZh": "維持某種水平、標準、速度或努力"
+    },
+    {
+      "id": "phrasal-verb-221-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Do not enter the old building.",
+      "promptZh": "不要進入那座舊建築物。",
+      "starter": "Keep",
+      "answer": "Keep out of the old building.",
+      "answerZh": "不要進入那座舊建築物。",
+      "highlight": "Keep out of",
+      "targetForm": "keep out / keep out of something / keep somebody or something out (ofsomething)",
+      "targetMeaningZh": "不要進入;防止某人或某物進入"
+    },
+    {
+      "id": "phrasal-verb-221-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "I could not stop myself from laughing.",
+      "promptZh": "我忍不住笑了。",
+      "starter": "I",
+      "answer": "I could not keep myself from laughing.",
+      "answerZh": "我忍不住笑了。",
+      "highlight": "keep",
+      "targetForm": "keep from doing something / keep somebody or yourself from something",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-221-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Continue looking at the road.",
+      "promptZh": "眼睛要一直望着道路。",
+      "starter": "Keep",
+      "answer": "Keep your eyes on the road.",
+      "answerZh": "眼睛要一直望着道路。",
+      "highlight": "Keep your eyes on",
+      "targetForm": "keep something on somebody or something",
+      "targetMeaningZh": "把注意力、視線或鏡頭持續集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-221-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The teacher made us stay after school.",
+      "promptZh": "老師放學後把我們留堂。",
+      "starter": "The",
+      "answer": "The teacher kept us in after school.",
+      "answerZh": "老師放學後把我們留堂。",
+      "highlight": "kept",
+      "targetForm": "keep somebody behind / keep somebody in",
+      "targetMeaningZh": "讓某人在其他人離開後留下;把某人留堂"
+    },
+    {
+      "id": "phrasal-verb-221-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Stay away from the wet paint.",
+      "promptZh": "遠離未乾的油漆。",
+      "starter": "Keep",
+      "answer": "Keep away from the wet paint.",
+      "answerZh": "遠離未乾的油漆。",
+      "highlight": "Keep",
+      "targetForm": "keep away / keep somebody or something away (from somebody orsomething)",
+      "targetMeaningZh": "遠離;使某人或某物遠離"
+    },
+    {
+      "id": "phrasal-verb-221-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We must prevent costs from rising.",
+      "promptZh": "我們必須防止成本上升。",
+      "starter": "We",
+      "answer": "We must keep costs down.",
+      "answerZh": "我們必須控制成本。",
+      "highlight": "keep",
+      "targetForm": "keep something down",
+      "targetMeaningZh": "控制某物,使其維持在較低水平"
+    },
+    {
+      "id": "phrasal-verb-221-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "He stays friendly with people who may help him.",
+      "promptZh": "他與可能幫助自己的人保持友好關係。",
+      "starter": "He",
+      "answer": "He keeps in with people who may help him.",
+      "answerZh": "他與可能幫助自己的人保持友好關係。",
+      "highlight": "keeps in",
+      "targetForm": "keep in with somebody",
+      "targetMeaningZh": "與可能對自己有幫助的人保持友好關係"
+    },
+    {
+      "id": "phrasal-verb-221-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Walk faster or you will fall behind.",
+      "promptZh": "走快一點,否則你會跟不上。",
+      "starter": "Walk",
+      "answer": "Walk faster or you will not keep up.",
+      "answerZh": "走快一點,否則你會跟不上。",
+      "highlight": "not keep up",
+      "targetForm": "keep up / keep up with somebody or something",
+      "targetMeaningZh": "跟上某人或某事物的速度、程度或進度"
+    },
+    {
+      "id": "phrasal-verb-221-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Do not hide the truth from me.",
+      "promptZh": "不要向我隱瞞真相。",
+      "starter": "Do",
+      "answer": "Do not keep the truth from me.",
+      "answerZh": "不要向我隱瞞真相。",
+      "highlight": "keep",
+      "targetForm": "keep something from somebody",
+      "targetMeaningZh": "向某人隱瞞某事;不讓某人知道或得到某物"
+    },
+    {
+      "id": "phrasal-verb-221-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The army controlled the local people for years.",
+      "promptZh": "軍隊多年來一直控制當地居民。",
+      "starter": "The",
+      "answer": "The army kept the local people under for years.",
+      "answerZh": "軍隊多年來一直壓迫當地居民。",
+      "highlight": "kept",
+      "targetForm": "keep somebody under",
+      "targetMeaningZh": "控制或壓迫某人,使其無法自由行動"
+    },
+    {
+      "id": "phrasal-verb-221-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Leave the milk out for breakfast.",
+      "promptZh": "把牛奶留在外面,早餐時要用。",
+      "starter": "Keep",
+      "answer": "Keep the milk out for breakfast.",
+      "answerZh": "把牛奶留在外面,早餐時要用。",
+      "highlight": "Keep",
+      "targetForm": "keep something out",
+      "targetMeaningZh": "把某物留在外面或留着不收起,以便稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Missing so many lessons slowed Noah’s progress.",
+      "promptZh": "缺課太多妨礙了 Noah 的進步。",
+      "starter": "Missing",
+      "answer": "Missing so many lessons kept Noah back.",
+      "answerZh": "缺課太多妨礙了 Noah 的進步。",
+      "highlight": "kept Noah back",
+      "targetForm": "keep somebody back",
+      "targetMeaningZh": "妨礙某人進步;使某人未能升到更高程度"
+    },
+    {
+      "id": "phrasal-verb-221-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Do not leave the path.",
+      "promptZh": "不要偏離小路。",
+      "starter": "Keep",
+      "answer": "Keep to the path.",
+      "answerZh": "不要偏離小路。",
+      "highlight": "Keep to",
+      "targetForm": "keep to something / keep something to something",
+      "targetMeaningZh": "遵守或不偏離某事;把某事限制在某範圍內"
+    },
+    {
+      "id": "phrasal-verb-221-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The school did not allow Ben to move to the next class after he failed the final exam.",
+      "promptZh": "Ben 在期終考試不合格後,學校不讓他升班。",
+      "starter": "The",
+      "answer": "The school kept Ben down after he failed the final exam.",
+      "answerZh": "Ben 在期終考試不合格後,學校要他留級。",
+      "highlight": "kept",
+      "targetForm": "keep somebody down",
+      "targetMeaningZh": "使學生留級;不讓學生升班"
+    },
+    {
+      "id": "phrasal-verb-221-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The guards made the crowd stay back from the door.",
+      "promptZh": "警衛令群眾與門口保持距離。",
+      "starter": "The",
+      "answer": "The guards kept the crowd back from the door.",
+      "answerZh": "警衛令群眾與門口保持距離。",
+      "highlight": "kept",
+      "targetForm": "keep back / keep somebody or something back (from somebody orsomething)",
+      "targetMeaningZh": "退後;使某人或某物保持距離"
+    },
+    {
+      "id": "phrasal-verb-221-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Her garden provides the family with vegetables all summer.",
+      "promptZh": "她的花園整個夏天都為家人供應蔬菜。",
+      "starter": "Her",
+      "answer": "Her garden keeps the family in vegetables all summer.",
+      "answerZh": "她的花園整個夏天都為家人供應蔬菜。",
+      "highlight": "keeps",
+      "targetForm": "keep somebody or yourself in something",
+      "targetMeaningZh": "持續供應某人所需的某種物品或金錢"
+    },
+    {
+      "id": "phrasal-verb-221-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The runner is training hard to remain in front.",
+      "promptZh": "那名跑手正努力訓練,以保持領先。",
+      "starter": "The",
+      "answer": "The runner is training hard to keep ahead.",
+      "answerZh": "那名跑手正努力訓練,以保持領先。",
+      "highlight": "keep ahead",
+      "targetForm": "keep ahead / keep ahead of somebody or something",
+      "targetMeaningZh": "保持領先;走在某人或某事物前面"
+    },
+    {
+      "id": "phrasal-verb-221-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I have left your coat out for the evening.",
+      "promptZh": "我已把你的外套留在外面,今晚要用。",
+      "starter": "I",
+      "answer": "I have kept your coat out for the evening.",
+      "answerZh": "我已把你的外套留在外面,今晚要用。",
+      "highlight": "kept",
+      "targetForm": "keep something out",
+      "targetMeaningZh": "把某物留在外面或留着不收起,以便稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The locked gate prevents people from entering the field.",
+      "promptZh": "上鎖的大門阻止人們進入球場。",
+      "starter": "The",
+      "answer": "The locked gate keeps people from entering the field.",
+      "answerZh": "上鎖的大門阻止人們進入球場。",
+      "highlight": "keeps",
+      "targetForm": "keep from doing something / keep somebody or yourself from something",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-221-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "She is struggling to stay at the same level as the class.",
+      "promptZh": "她很努力才能跟上全班的程度。",
+      "starter": "She",
+      "answer": "She is struggling to keep up with the class.",
+      "answerZh": "她很努力才能跟上全班的程度。",
+      "highlight": "keep up with",
+      "targetForm": "keep up / keep up with somebody or something",
+      "targetMeaningZh": "跟上某人或某事物的速度、程度或進度"
+    },
+    {
+      "id": "phrasal-verb-221-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The coach made two players stay after practice.",
+      "promptZh": "教練在練習後把兩名球員留下。",
+      "starter": "The",
+      "answer": "The coach kept two players behind after practice.",
+      "answerZh": "教練在練習後把兩名球員留下。",
+      "highlight": "kept",
+      "targetForm": "keep somebody behind / keep somebody in",
+      "targetMeaningZh": "讓某人在其他人離開後留下;把某人留堂"
+    },
+    {
+      "id": "phrasal-verb-221-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "It has not rained all morning.",
+      "promptZh": "整個早上都沒有下雨。",
+      "starter": "The",
+      "answer": "The rain has kept off all morning.",
+      "answerZh": "整個早上都沒有下雨。",
+      "highlight": "The rain",
+      "targetForm": "keep off",
+      "targetMeaningZh": "雨、雪等沒有下;壞天氣沒有出現"
+    },
+    {
+      "id": "phrasal-verb-221-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The team has maintained its high standards.",
+      "promptZh": "球隊一直維持高水平。",
+      "starter": "The",
+      "answer": "The team has kept its standards up.",
+      "answerZh": "球隊一直維持高水平。",
+      "highlight": "kept",
+      "targetForm": "keep something up",
+      "targetMeaningZh": "維持某種水平、標準、速度或努力"
+    },
+    {
+      "id": "phrasal-verb-221-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Dad has repeatedly reminded Leo about his homework.",
+      "promptZh": "爸爸一直不斷提醒 Leo 做家課。",
+      "starter": "Dad",
+      "answer": "Dad has been keeping after Leo about his homework.",
+      "answerZh": "爸爸一直不斷催促 Leo 做家課。",
+      "highlight": "been keeping after",
+      "targetForm": "keep after somebody (about something / to do something)",
+      "targetMeaningZh": "不斷催促或提醒某人做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "She could not continue thinking about the lesson.",
+      "promptZh": "她無法繼續專心上課。",
+      "starter": "She",
+      "answer": "She could not keep her mind on the lesson.",
+      "answerZh": "她無法繼續專心上課。",
+      "highlight": "keep her mind on",
+      "targetForm": "keep something on somebody or something",
+      "targetMeaningZh": "把注意力、視線或鏡頭持續集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-221-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Sara has always stayed friendly with the club leader.",
+      "promptZh": "Sara 一直與會長保持友好關係。",
+      "starter": "Sara",
+      "answer": "Sara has always kept in with the club leader.",
+      "answerZh": "Sara 一直與會長保持友好關係。",
+      "highlight": "kept in",
+      "targetForm": "keep in with somebody",
+      "targetMeaningZh": "與可能對自己有幫助的人保持友好關係"
+    },
+    {
+      "id": "phrasal-verb-221-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We have saved enough money for the bills.",
+      "promptZh": "我們已保留足夠金錢支付帳單。",
+      "starter": "We",
+      "answer": "We have kept enough money back for the bills.",
+      "answerZh": "我們已保留足夠金錢支付帳單。",
+      "highlight": "kept",
+      "targetForm": "keep something back",
+      "targetMeaningZh": "保留某物以供稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The strong smell is making the cat stay away from the kitchen.",
+      "promptZh": "強烈的氣味正令那隻貓遠離廚房。",
+      "starter": "The",
+      "answer": "The strong smell is keeping the cat away from the kitchen.",
+      "answerZh": "強烈的氣味正令那隻貓遠離廚房。",
+      "highlight": "keeping",
+      "targetForm": "keep away / keep somebody or something away (from somebody orsomething)",
+      "targetMeaningZh": "遠離;使某人或某物遠離"
+    },
+    {
+      "id": "phrasal-verb-221-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "He has trouble staying informed about new phone apps.",
+      "promptZh": "他很難跟上新手機應用程式的資訊。",
+      "starter": "He",
+      "answer": "He has trouble keeping up with new phone apps.",
+      "answerZh": "他很難跟上新手機應用程式的資訊。",
+      "highlight": "keeping up with",
+      "targetForm": "keep up with something",
+      "targetMeaningZh": "持續了解某事物的最新情況或變化"
+    },
+    {
+      "id": "phrasal-verb-221-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Two pupils have had to repeat the same school year because they need more time.",
+      "promptZh": "兩名學生因為需要更多時間,今年要留級。",
+      "starter": "Two",
+      "answer": "Two pupils have been kept down this year because they need more time.",
+      "answerZh": "兩名學生因為需要更多時間,今年被安排留級。",
+      "highlight": "been kept down this",
+      "targetForm": "keep somebody down",
+      "targetMeaningZh": "使學生留級;不讓學生升班"
+    },
+    {
+      "id": "phrasal-verb-221-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Everyone stayed low as the balls flew over the wall.",
+      "promptZh": "球飛過圍牆時,每個人都伏低身體。",
+      "starter": "Everyone",
+      "answer": "Everyone kept down as the balls flew over the wall.",
+      "answerZh": "球飛過圍牆時,每個人都伏低身體。",
+      "highlight": "kept down",
+      "targetForm": "keep down",
+      "targetMeaningZh": "伏低身體;保持低姿勢"
+    },
+    {
+      "id": "phrasal-verb-221-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "She did not tell anyone the answer.",
+      "promptZh": "她沒有把答案告訴任何人。",
+      "starter": "She",
+      "answer": "She kept the answer to herself.",
+      "answerZh": "她沒有把答案告訴任何人。",
+      "highlight": "kept",
+      "targetForm": "keep something to yourself",
+      "targetMeaningZh": "把某事保密;不告訴別人"
+    },
+    {
+      "id": "phrasal-verb-221-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The curtain prevents the cold from entering.",
+      "promptZh": "窗簾阻擋寒氣進入。",
+      "starter": "The",
+      "answer": "The curtain keeps the cold out.",
+      "answerZh": "窗簾阻擋寒氣進入。",
+      "highlight": "keeps",
+      "targetForm": "keep out / keep out of something / keep somebody or something out (ofsomething)",
+      "targetMeaningZh": "不要進入;防止某人或某物進入"
+    },
+    {
+      "id": "phrasal-verb-221-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Has the baby been stopping you from sleeping?",
+      "promptZh": "寶寶一直令你無法入睡嗎?",
+      "starter": "Has",
+      "answer": "Has the baby been keeping you up?",
+      "answerZh": "寶寶一直令你無法入睡嗎?",
+      "highlight": "keeping",
+      "targetForm": "keep somebody up",
+      "targetMeaningZh": "令某人不能入睡或保持清醒"
+    },
+    {
+      "id": "phrasal-verb-221-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The guide made the group stay together.",
+      "promptZh": "導遊讓小組成員走在一起。",
+      "starter": "The",
+      "answer": "The guide kept the group together.",
+      "answerZh": "導遊讓小組成員走在一起。",
+      "highlight": "kept",
+      "targetForm": "keep together / keep somebody or something together",
+      "targetMeaningZh": "保持在一起;使某些人或事物不分散"
+    },
+    {
+      "id": "phrasal-verb-221-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The gate prevents dogs from going onto the field.",
+      "promptZh": "閘門阻止狗隻進入球場。",
+      "starter": "The",
+      "answer": "The gate keeps dogs off the field.",
+      "answerZh": "閘門阻止狗隻進入球場。",
+      "highlight": "keeps",
+      "targetForm": "keep off something / keep somebody off something",
+      "targetMeaningZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處"
+    },
+    {
+      "id": "phrasal-verb-221-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "She has been hiding the news from her parents.",
+      "promptZh": "她一直向父母隱瞞消息。",
+      "starter": "She",
+      "answer": "She has been keeping the news from her parents.",
+      "answerZh": "她一直向父母隱瞞消息。",
+      "highlight": "keeping",
+      "targetForm": "keep something from somebody",
+      "targetMeaningZh": "向某人隱瞞某事;不讓某人知道或得到某物"
+    },
+    {
+      "id": "phrasal-verb-221-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The children have stayed indoors all day because of the cold.",
+      "promptZh": "由於天氣寒冷,孩子們整天留在室內。",
+      "starter": "The",
+      "answer": "The children have kept in all day because of the cold.",
+      "answerZh": "由於天氣寒冷,孩子們整天留在室內。",
+      "highlight": "kept in",
+      "targetForm": "keep in",
+      "targetMeaningZh": "留在室內;不外出"
+    },
+    {
+      "id": "phrasal-verb-221-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We followed our original plan.",
+      "promptZh": "我們按照原定計劃進行。",
+      "starter": "We",
+      "answer": "We kept to our original plan.",
+      "answerZh": "我們按照原定計劃進行。",
+      "highlight": "kept to",
+      "targetForm": "keep to something / keep something to something",
+      "targetMeaningZh": "遵守或不偏離某事;把某事限制在某範圍內"
+    },
+    {
+      "id": "phrasal-verb-221-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Her fear of speaking has slowed her progress for years.",
+      "promptZh": "她對說話的恐懼多年來一直妨礙她進步。",
+      "starter": "Her",
+      "answer": "Her fear of speaking has kept her back for years.",
+      "answerZh": "她對說話的恐懼多年來一直妨礙她進步。",
+      "highlight": "kept",
+      "targetForm": "keep somebody back",
+      "targetMeaningZh": "妨礙某人進步;使某人未能升到更高程度"
+    },
+    {
+      "id": "phrasal-verb-221-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The new windows have reduced the noise.",
+      "promptZh": "新窗戶已降低噪音。",
+      "starter": "The",
+      "answer": "The new windows have kept the noise down.",
+      "answerZh": "新窗戶已降低噪音。",
+      "highlight": "kept",
+      "targetForm": "keep something down",
+      "targetMeaningZh": "控制某物,使其維持在較低水平"
+    },
+    {
+      "id": "phrasal-verb-221-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Have you stayed in contact with Daniel since he moved?",
+      "promptZh": "Daniel 搬走後,你有一直與他保持聯絡嗎?",
+      "starter": "Have",
+      "answer": "Have you kept up with Daniel since he moved?",
+      "answerZh": "Daniel 搬走後,你有一直與他保持聯絡嗎?",
+      "highlight": "kept up",
+      "targetForm": "keep up with somebody",
+      "targetMeaningZh": "與某人保持聯絡,了解彼此近況"
+    },
+    {
+      "id": "phrasal-verb-221-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Ella has continued with her piano practice every evening.",
+      "promptZh": "Ella 每晚都持續練習鋼琴。",
+      "starter": "Ella",
+      "answer": "Ella has kept at her piano practice every evening.",
+      "answerZh": "Ella 每晚都持續練習鋼琴。",
+      "highlight": "kept at",
+      "targetForm": "keep at something / keep somebody at something",
+      "targetMeaningZh": "繼續努力做某事;使某人繼續做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The leader has controlled the group through fear.",
+      "promptZh": "那名領袖一直以恐懼控制該小組。",
+      "starter": "The",
+      "answer": "The leader has kept the group under through fear.",
+      "answerZh": "那名領袖一直以恐懼控制該小組。",
+      "highlight": "kept",
+      "targetForm": "keep somebody under",
+      "targetMeaningZh": "控制或壓迫某人,使其無法自由行動"
+    },
+    {
+      "id": "phrasal-verb-221-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "How many old classmates do you stay in contact with?",
+      "promptZh": "你與多少名舊同學保持聯絡?",
+      "starter": "How",
+      "answer": "How many old classmates do you keep up with?",
+      "answerZh": "你與多少名舊同學保持聯絡?",
+      "highlight": "keep up",
+      "targetForm": "keep up with somebody",
+      "targetMeaningZh": "與某人保持聯絡,了解彼此近況"
+    },
+    {
+      "id": "phrasal-verb-221-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Security did not allow us to enter the room.",
+      "promptZh": "保安不准我們進入房間。",
+      "starter": "Security",
+      "answer": "Security kept us out of the room.",
+      "answerZh": "保安不准我們進入房間。",
+      "highlight": "kept",
+      "targetForm": "keep out / keep out of something / keep somebody or something out (ofsomething)",
+      "targetMeaningZh": "不要進入;防止某人或某物進入"
+    },
+    {
+      "id": "phrasal-verb-221-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The teacher made the class continue with the task until everyone finished.",
+      "promptZh": "老師要全班繼續做那項工作,直至每個人完成。",
+      "starter": "The",
+      "answer": "The teacher kept the class at the task until everyone finished.",
+      "answerZh": "老師要全班繼續做那項工作,直至每個人完成。",
+      "highlight": "kept",
+      "targetForm": "keep at something / keep somebody at something",
+      "targetMeaningZh": "繼續努力做某事;使某人繼續做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Why did they hide the letter from Ben?",
+      "promptZh": "他們為甚麼向 Ben 隱瞞那封信?",
+      "starter": "Why",
+      "answer": "Why did they keep the letter from Ben?",
+      "answerZh": "他們為甚麼向 Ben 隱瞞那封信?",
+      "highlight": "keep",
+      "targetForm": "keep something from somebody",
+      "targetMeaningZh": "向某人隱瞞某事;不讓某人知道或得到某物"
+    },
+    {
+      "id": "phrasal-verb-221-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I hope we are not stopping anyone from sleeping.",
+      "promptZh": "希望我們沒有令任何人無法入睡。",
+      "starter": "I",
+      "answer": "I hope we are not keeping anyone up.",
+      "answerZh": "希望我們沒有令任何人無法入睡。",
+      "highlight": "keeping",
+      "targetForm": "keep somebody up",
+      "targetMeaningZh": "令某人不能入睡或保持清醒"
+    },
+    {
+      "id": "phrasal-verb-221-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Please limit the discussion to ten minutes.",
+      "promptZh": "請把討論限制在十分鐘內。",
+      "starter": "Please",
+      "answer": "Please keep the discussion to ten minutes.",
+      "answerZh": "請把討論限制在十分鐘內。",
+      "highlight": "keep",
+      "targetForm": "keep to something / keep something to something",
+      "targetMeaningZh": "遵守或不偏離某事;把某事限制在某範圍內"
+    },
+    {
+      "id": "phrasal-verb-221-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Mum told us to stay indoors until the road was clear.",
+      "promptZh": "媽媽叫我們留在室內,直至道路暢通。",
+      "starter": "Mum",
+      "answer": "Mum told us to keep in until the road was clear.",
+      "answerZh": "媽媽叫我們留在室內,直至道路暢通。",
+      "highlight": "keep in",
+      "targetForm": "keep in",
+      "targetMeaningZh": "留在室內;不外出"
+    },
+    {
+      "id": "phrasal-verb-221-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Can you speak more quietly?",
+      "promptZh": "你可以說小聲一點嗎?",
+      "starter": "Can",
+      "answer": "Can you keep your voice down?",
+      "answerZh": "你可以說小聲一點嗎?",
+      "highlight": "keep your voice down",
+      "targetForm": "keep something down",
+      "targetMeaningZh": "控制某物,使其維持在較低水平"
+    },
+    {
+      "id": "phrasal-verb-221-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Please make the dog stay back while the nurse comes in.",
+      "promptZh": "護士進來時,請讓那隻狗退後。",
+      "starter": "Please",
+      "answer": "Please keep the dog back while the nurse comes in.",
+      "answerZh": "護士進來時,請讓那隻狗退後。",
+      "highlight": "keep",
+      "targetForm": "keep back / keep somebody or something back (from somebody orsomething)",
+      "targetMeaningZh": "退後;使某人或某物保持距離"
+    },
+    {
+      "id": "phrasal-verb-221-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "How do you stay informed about changes at work?",
+      "promptZh": "你如何了解工作上的最新改動?",
+      "starter": "How",
+      "answer": "How do you keep up with changes at work?",
+      "answerZh": "你如何了解工作上的最新改動?",
+      "highlight": "keep up with",
+      "targetForm": "keep up with something",
+      "targetMeaningZh": "持續了解某事物的最新情況或變化"
+    },
+    {
+      "id": "phrasal-verb-221-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not let one mistake stop your progress.",
+      "promptZh": "不要讓一次錯誤妨礙你進步。",
+      "starter": "Do",
+      "answer": "Do not let one mistake keep you back.",
+      "answerZh": "不要讓一次錯誤妨礙你進步。",
+      "highlight": "keep you back",
+      "targetForm": "keep somebody back",
+      "targetMeaningZh": "妨礙某人進步;使某人未能升到更高程度"
+    },
+    {
+      "id": "phrasal-verb-221-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Shall I leave the board game out?",
+      "promptZh": "我要把桌上遊戲留在外面嗎?",
+      "starter": "Shall",
+      "answer": "Shall I keep the board game out?",
+      "answerZh": "我要把桌上遊戲留在外面嗎?",
+      "highlight": "keep",
+      "targetForm": "keep something out",
+      "targetMeaningZh": "把某物留在外面或留着不收起,以便稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Better planning helped the team remain in front of its rivals.",
+      "promptZh": "更好的規劃幫助球隊保持領先於對手。",
+      "starter": "Better",
+      "answer": "Better planning helped the team keep ahead of its rivals.",
+      "answerZh": "更好的規劃幫助球隊保持領先於對手。",
+      "highlight": "keep ahead",
+      "targetForm": "keep ahead / keep ahead of somebody or something",
+      "targetMeaningZh": "保持領先;走在某人或某事物前面"
+    },
+    {
+      "id": "phrasal-verb-221-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "How long can they continue to control the workers?",
+      "promptZh": "他們還可以控制工人多久?",
+      "starter": "How",
+      "answer": "How long can they keep the workers under?",
+      "answerZh": "他們還可以控制工人多久?",
+      "highlight": "keep",
+      "targetForm": "keep somebody under",
+      "targetMeaningZh": "控制或壓迫某人,使其無法自由行動"
+    },
+    {
+      "id": "phrasal-verb-221-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Please do not put your shoes on the sofa.",
+      "promptZh": "請不要把鞋放在梳化上。",
+      "starter": "Please",
+      "answer": "Please keep your shoes off the sofa.",
+      "answerZh": "請不要把鞋放在梳化上。",
+      "highlight": "keep",
+      "targetForm": "keep off something / keep somebody off something",
+      "targetMeaningZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處"
+    },
+    {
+      "id": "phrasal-verb-221-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Why do you repeatedly tell us to clean the garage?",
+      "promptZh": "你為甚麼不斷叫我們清理車房?",
+      "starter": "Why",
+      "answer": "Why do you keep after us to clean the garage?",
+      "answerZh": "你為甚麼不斷催促我們清理車房?",
+      "highlight": "keep after",
+      "targetForm": "keep after somebody (about something / to do something)",
+      "targetMeaningZh": "不斷催促或提醒某人做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Can the café maintain this level of service?",
+      "promptZh": "咖啡店能維持這個服務水平嗎?",
+      "starter": "Can",
+      "answer": "Can the café keep this level of service up?",
+      "answerZh": "咖啡店能維持這個服務水平嗎?",
+      "highlight": "keep",
+      "targetForm": "keep something up",
+      "targetMeaningZh": "維持某種水平、標準、速度或努力"
+    },
+    {
+      "id": "phrasal-verb-221-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Can the part-time work provide you with enough money for bus fares?",
+      "promptZh": "這份兼職能否讓你有足夠金錢支付巴士車費?",
+      "starter": "Can",
+      "answer": "Can the part-time work keep you in bus money?",
+      "answerZh": "這份兼職能否讓你一直有足夠金錢支付巴士車費?",
+      "highlight": "keep",
+      "targetForm": "keep somebody or yourself in something",
+      "targetMeaningZh": "持續供應某人所需的某種物品或金錢"
+    },
+    {
+      "id": "phrasal-verb-221-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Do not let me stop you from doing your work.",
+      "promptZh": "不要因為我而妨礙你工作。",
+      "starter": "Do",
+      "answer": "Do not let me keep you from your work.",
+      "answerZh": "不要因為我而妨礙你工作。",
+      "highlight": "keep",
+      "targetForm": "keep from doing something / keep somebody or yourself from something",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-221-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "It was hard to stop the papers from separating in the wind.",
+      "promptZh": "風很大,很難令紙張保持在一起。",
+      "starter": "It",
+      "answer": "It was hard to keep the papers together in the wind.",
+      "answerZh": "風很大,很難令紙張保持在一起。",
+      "highlight": "keep",
+      "targetForm": "keep together / keep somebody or something together",
+      "targetMeaningZh": "保持在一起;使某些人或事物不分散"
+    },
+    {
+      "id": "phrasal-verb-221-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Should a child have to repeat a school year after missing one exam?",
+      "promptZh": "孩子只錯過一次考試便應該留級嗎?",
+      "starter": "Should",
+      "answer": "Should a child be kept down after missing one exam?",
+      "answerZh": "孩子只錯過一次考試便應該被安排留級嗎?",
+      "highlight": "be kept down",
+      "targetForm": "keep somebody down",
+      "targetMeaningZh": "使學生留級;不讓學生升班"
+    },
+    {
+      "id": "phrasal-verb-221-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Can you avoid telling anyone about the plan?",
+      "promptZh": "你可以不把這項計劃告訴任何人嗎?",
+      "starter": "Can",
+      "answer": "Can you keep the plan to yourself?",
+      "answerZh": "你可以把這項計劃保密嗎?",
+      "highlight": "keep",
+      "targetForm": "keep something to yourself",
+      "targetMeaningZh": "把某事保密;不告訴別人"
+    },
+    {
+      "id": "phrasal-verb-221-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Will it remain free of snow until we get home?",
+      "promptZh": "在我們回家前會一直不下雪嗎?",
+      "starter": "Will",
+      "answer": "Will the snow keep off until we get home?",
+      "answerZh": "在我們回家前會一直不下雪嗎?",
+      "highlight": "the",
+      "targetForm": "keep off",
+      "targetMeaningZh": "雨、雪等沒有下;壞天氣沒有出現"
+    },
+    {
+      "id": "phrasal-verb-221-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Please make the children stay away while we move the glass table.",
+      "promptZh": "我們搬動玻璃桌時,請讓孩子們遠離。",
+      "starter": "Please",
+      "answer": "Please keep the children away while we move the glass table.",
+      "answerZh": "我們搬動玻璃桌時,請讓孩子們遠離。",
+      "highlight": "keep",
+      "targetForm": "keep away / keep somebody or something away (from somebody orsomething)",
+      "targetMeaningZh": "遠離;使某人或某物遠離"
+    },
+    {
+      "id": "phrasal-verb-221-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Can this old computer work as fast as the new one?",
+      "promptZh": "這部舊電腦能否跟上新電腦的速度?",
+      "starter": "Can",
+      "answer": "Can this old computer keep up with the new one?",
+      "answerZh": "這部舊電腦能否跟上新電腦的速度?",
+      "highlight": "keep up with",
+      "targetForm": "keep up / keep up with somebody or something",
+      "targetMeaningZh": "跟上某人或某事物的速度、程度或進度"
+    },
+    {
+      "id": "phrasal-verb-221-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Why were the students made to stay during lunch?",
+      "promptZh": "學生為甚麼在午飯時間被留下?",
+      "starter": "Why",
+      "answer": "Why were the students kept in during lunch?",
+      "answerZh": "學生為甚麼在午飯時間被留下?",
+      "highlight": "kept in",
+      "targetForm": "keep somebody behind / keep somebody in",
+      "targetMeaningZh": "讓某人在其他人離開後留下;把某人留堂"
+    },
+    {
+      "id": "phrasal-verb-221-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Please continue pointing the camera at the stage.",
+      "promptZh": "請繼續把鏡頭對準舞台。",
+      "starter": "Please",
+      "answer": "Please keep the camera on the stage.",
+      "answerZh": "請繼續把鏡頭對準舞台。",
+      "highlight": "keep",
+      "targetForm": "keep something on somebody or something",
+      "targetMeaningZh": "把注意力、視線或鏡頭持續集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-221-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The guide told us to stay low behind the rocks.",
+      "promptZh": "導遊叫我們在岩石後伏低身體。",
+      "starter": "The",
+      "answer": "The guide told us to keep down behind the rocks.",
+      "answerZh": "導遊叫我們在岩石後伏低身體。",
+      "highlight": "keep down",
+      "targetForm": "keep down",
+      "targetMeaningZh": "伏低身體;保持低姿勢"
+    },
+    {
+      "id": "phrasal-verb-221-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Did you save a seat for me?",
+      "promptZh": "你有替我留位嗎?",
+      "starter": "Did",
+      "answer": "Did you keep a seat back for me?",
+      "answerZh": "你有替我留位嗎?",
+      "highlight": "keep",
+      "targetForm": "keep something back",
+      "targetMeaningZh": "保留某物以供稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Why does Victor stay friendly with the manager?",
+      "promptZh": "Victor 為甚麼與經理保持友好關係?",
+      "starter": "Why",
+      "answer": "Why does Victor keep in with the manager?",
+      "answerZh": "Victor 為甚麼與經理保持友好關係?",
+      "highlight": "keep in",
+      "targetForm": "keep in with somebody",
+      "targetMeaningZh": "與可能對自己有幫助的人保持友好關係"
+    },
+    {
+      "id": "phrasal-verb-221-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "She put her phone away so that she would not check it.",
+      "promptZh": "她把手機收起來,以免自己查看手機。",
+      "starter": "She",
+      "answer": "She put her phone away to keep herself from checking it.",
+      "answerZh": "她把手機收起來,以免自己查看手機。",
+      "highlight": "to keep herself from checking",
+      "targetForm": "keep from doing something / keep somebody or yourself from something",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-221-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Regular practice helped her maintain her English.",
+      "promptZh": "定期練習幫助她維持英語水平。",
+      "starter": "Regular",
+      "answer": "Regular practice helped her keep her English up.",
+      "answerZh": "定期練習幫助她維持英語水平。",
+      "highlight": "keep",
+      "targetForm": "keep something up",
+      "targetMeaningZh": "維持某種水平、標準、速度或努力"
+    },
+    {
+      "id": "phrasal-verb-221-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The doctor told her not to have sweet drinks for a month.",
+      "promptZh": "醫生叫她一個月內不要喝甜飲。",
+      "starter": "The",
+      "answer": "The doctor told her to keep off sweet drinks for a month.",
+      "answerZh": "醫生叫她一個月內不要喝甜飲。",
+      "highlight": "keep off",
+      "targetForm": "keep off something / keep somebody off something",
+      "targetMeaningZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處"
+    },
+    {
+      "id": "phrasal-verb-221-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "How can we remain in front of changes in phone technology?",
+      "promptZh": "我們可以如何走在手機科技變化的前面?",
+      "starter": "How",
+      "answer": "How can we keep ahead of changes in phone technology?",
+      "answerZh": "我們可以如何走在手機科技變化的前面?",
+      "highlight": "keep ahead",
+      "targetForm": "keep ahead / keep ahead of somebody or something",
+      "targetMeaningZh": "保持領先;走在某人或某事物前面"
+    },
+    {
+      "id": "phrasal-verb-221-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The manager made Priya stay after the others left to discuss the missing keys.",
+      "promptZh": "其他人離開後,經理把 Priya 留下,討論遺失的鎖匙。",
+      "starter": "The",
+      "answer": "The manager kept Priya behind to discuss the missing keys.",
+      "answerZh": "其他人離開後,經理把 Priya 留下,討論遺失的鎖匙。",
+      "highlight": "kept",
+      "targetForm": "keep somebody behind / keep somebody in",
+      "targetMeaningZh": "讓某人在其他人離開後留下;把某人留堂"
+    },
+    {
+      "id": "phrasal-verb-221-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Sara listens to a short podcast to stay informed about the latest science news.",
+      "promptZh": "Sara 收聽一個短篇網上節目,以了解最新科學消息。",
+      "starter": "Sara",
+      "answer": "Sara listens to a short podcast to keep up with the latest science news.",
+      "answerZh": "Sara 收聽一個短篇網上節目,以了解最新科學消息。",
+      "highlight": "keep up with",
+      "targetForm": "keep up with something",
+      "targetMeaningZh": "持續了解某事物的最新情況或變化"
+    },
+    {
+      "id": "phrasal-verb-221-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The school is trying to prevent meal prices from rising.",
+      "promptZh": "學校正設法防止膳食價格上升。",
+      "starter": "The",
+      "answer": "The school is trying to keep meal prices down.",
+      "answerZh": "學校正設法控制膳食價格。",
+      "highlight": "keep",
+      "targetForm": "keep something down",
+      "targetMeaningZh": "控制某物,使其維持在較低水平"
+    },
+    {
+      "id": "phrasal-verb-221-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Ben knew the winner but did not tell anyone.",
+      "promptZh": "Ben 知道誰勝出,但沒有告訴任何人。",
+      "starter": "Ben",
+      "answer": "Ben knew the winner but kept it to himself.",
+      "answerZh": "Ben 知道誰勝出,但沒有告訴任何人。",
+      "highlight": "kept it to himself",
+      "targetForm": "keep something to yourself",
+      "targetMeaningZh": "把某事保密;不告訴別人"
+    },
+    {
+      "id": "phrasal-verb-221-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Strict rules controlled the prisoners at all times.",
+      "promptZh": "嚴格規則一直控制着囚犯。",
+      "starter": "Strict",
+      "answer": "Strict rules kept the prisoners under at all times.",
+      "answerZh": "嚴格規則一直控制着囚犯。",
+      "highlight": "kept",
+      "targetForm": "keep somebody under",
+      "targetMeaningZh": "控制或壓迫某人,使其無法自由行動"
+    },
+    {
+      "id": "phrasal-verb-221-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Ben stayed away from the beach after the warning.",
+      "promptZh": "Ben 在收到警告後沒有再接近海灘。",
+      "starter": "Ben",
+      "answer": "Ben kept away from the beach after the warning.",
+      "answerZh": "Ben 在收到警告後沒有再接近海灘。",
+      "highlight": "kept",
+      "targetForm": "keep away / keep somebody or something away (from somebody orsomething)",
+      "targetMeaningZh": "遠離;使某人或某物遠離"
+    },
+    {
+      "id": "phrasal-verb-221-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Please leave the tools out until Dad returns.",
+      "promptZh": "請把工具留在外面,直至爸爸回來。",
+      "starter": "Please",
+      "answer": "Please keep the tools out until Dad returns.",
+      "answerZh": "請把工具留在外面,直至爸爸回來。",
+      "highlight": "keep",
+      "targetForm": "keep something out",
+      "targetMeaningZh": "把某物留在外面或留着不收起,以便稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "She disliked the group but stayed friendly with them because she needed their support.",
+      "promptZh": "她不喜歡那個小組,但因為需要他們支持,仍與他們保持友好關係。",
+      "starter": "She",
+      "answer": "She disliked the group but kept in with them because she needed their support.",
+      "answerZh": "她不喜歡那個小組,但因為需要他們支持,仍與他們保持友好關係。",
+      "highlight": "kept in",
+      "targetForm": "keep in with somebody",
+      "targetMeaningZh": "與可能對自己有幫助的人保持友好關係"
+    },
+    {
+      "id": "phrasal-verb-221-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Ravi trained every day so that he could run at the same speed as the faster runners.",
+      "promptZh": "Ravi 每天訓練,以便跟上較快的跑手。",
+      "starter": "Ravi",
+      "answer": "Ravi trained every day so that he could keep up with the faster runners.",
+      "answerZh": "Ravi 每天訓練,以便跟上較快的跑手。",
+      "highlight": "keep up with",
+      "targetForm": "keep up / keep up with somebody or something",
+      "targetMeaningZh": "跟上某人或某事物的速度、程度或進度"
+    },
+    {
+      "id": "phrasal-verb-221-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The cook saved two bowls of soup for the late guests.",
+      "promptZh": "廚師為遲來的客人保留了兩碗湯。",
+      "starter": "The",
+      "answer": "The cook kept two bowls of soup back for the late guests.",
+      "answerZh": "廚師為遲來的客人保留了兩碗湯。",
+      "highlight": "kept",
+      "targetForm": "keep something back",
+      "targetMeaningZh": "保留某物以供稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We had to stay back because smoke was coming from the room.",
+      "promptZh": "由於房間冒出濃煙,我們必須退後。",
+      "starter": "We",
+      "answer": "We had to keep back because smoke was coming from the room.",
+      "answerZh": "由於房間冒出濃煙,我們必須退後。",
+      "highlight": "keep",
+      "targetForm": "keep back / keep somebody or something back (from somebody orsomething)",
+      "targetMeaningZh": "退後;使某人或某物保持距離"
+    },
+    {
+      "id": "phrasal-verb-221-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The head teacher made him repeat another year but gave him extra help.",
+      "promptZh": "校長要他留級一年,但亦給予他額外幫助。",
+      "starter": "The",
+      "answer": "The head teacher kept him down for another year but gave him extra help.",
+      "answerZh": "校長要他留級一年,但亦給予他額外幫助。",
+      "highlight": "kept",
+      "targetForm": "keep somebody down",
+      "targetMeaningZh": "使學生留級;不讓學生升班"
+    },
+    {
+      "id": "phrasal-verb-221-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The coach continued to press the players until they practised the pass correctly.",
+      "promptZh": "教練不斷催促球員,直至他們把傳球練習正確。",
+      "starter": "The",
+      "answer": "The coach kept after the players until they practised the pass correctly.",
+      "answerZh": "教練不斷催促球員,直至他們把傳球練習正確。",
+      "highlight": "kept after",
+      "targetForm": "keep after somebody (about something / to do something)",
+      "targetMeaningZh": "不斷催促或提醒某人做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The family tried to stay together during the move.",
+      "promptZh": "搬屋期間,一家人嘗試保持在一起。",
+      "starter": "The",
+      "answer": "The family tried to keep together during the move.",
+      "answerZh": "搬屋期間,一家人嘗試保持在一起。",
+      "highlight": "keep",
+      "targetForm": "keep together / keep somebody or something together",
+      "targetMeaningZh": "保持在一起;使某些人或事物不分散"
+    },
+    {
+      "id": "phrasal-verb-221-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "I knew he was hiding something from us.",
+      "promptZh": "我知道他正向我們隱瞞一些事情。",
+      "starter": "I",
+      "answer": "I knew he was keeping something from us.",
+      "answerZh": "我知道他正向我們隱瞞一些事情。",
+      "highlight": "keeping",
+      "targetForm": "keep something from somebody",
+      "targetMeaningZh": "向某人隱瞞某事;不讓某人知道或得到某物"
+    },
+    {
+      "id": "phrasal-verb-221-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Please prevent paint from getting into your eyes.",
+      "promptZh": "請避免油漆進入眼睛。",
+      "starter": "Please",
+      "answer": "Please keep paint out of your eyes.",
+      "answerZh": "請避免油漆進入眼睛。",
+      "highlight": "keep",
+      "targetForm": "keep out / keep out of something / keep somebody or something out (ofsomething)",
+      "targetMeaningZh": "不要進入;防止某人或某物進入"
+    },
+    {
+      "id": "phrasal-verb-221-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "They decided to use only pale colours in the room.",
+      "promptZh": "他們決定房間只使用淺色。",
+      "starter": "They",
+      "answer": "They decided to keep the room to pale colours.",
+      "answerZh": "他們決定房間只使用淺色。",
+      "highlight": "keep the room to",
+      "targetForm": "keep to something / keep something to something",
+      "targetMeaningZh": "遵守或不偏離某事;把某事限制在某範圍內"
+    },
+    {
+      "id": "phrasal-verb-221-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The bright screen stopped Lena from sleeping until long after midnight.",
+      "promptZh": "明亮的螢幕令 Lena 到了午夜後很久仍無法入睡。",
+      "starter": "The",
+      "answer": "The bright screen kept Lena up long after midnight.",
+      "answerZh": "明亮的螢幕令 Lena 到了午夜後很久仍無法入睡。",
+      "highlight": "kept",
+      "targetForm": "keep somebody up",
+      "targetMeaningZh": "令某人不能入睡或保持清醒"
+    },
+    {
+      "id": "phrasal-verb-221-q113",
+      "number": 113,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Even when the puzzle became difficult, Ravi continued trying.",
+      "promptZh": "即使謎題變得困難,Ravi 仍繼續嘗試。",
+      "starter": "Even",
+      "answer": "Even when the puzzle became difficult, Ravi kept at it.",
+      "answerZh": "即使謎題變得困難,Ravi 仍繼續嘗試。",
+      "highlight": "kept at it",
+      "targetForm": "keep at something / keep somebody at something",
+      "targetMeaningZh": "繼續努力做某事;使某人繼續做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q114",
+      "number": 114,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We live in different countries, but we stay in contact online.",
+      "promptZh": "我們住在不同國家,但仍在網上保持聯絡。",
+      "starter": "We",
+      "answer": "We live in different countries, but we keep up with each other online.",
+      "answerZh": "我們住在不同國家,但仍在網上保持聯絡。",
+      "highlight": "keep up with each other",
+      "targetForm": "keep up with somebody",
+      "targetMeaningZh": "與某人保持聯絡,了解彼此近況"
+    },
+    {
+      "id": "phrasal-verb-221-q115",
+      "number": 115,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The picnic continued because it did not rain.",
+      "promptZh": "由於沒有下雨,野餐繼續進行。",
+      "starter": "The",
+      "answer": "The picnic continued because the rain kept off.",
+      "answerZh": "由於沒有下雨,野餐繼續進行。",
+      "highlight": "the",
+      "targetForm": "keep off",
+      "targetMeaningZh": "雨、雪等沒有下;壞天氣沒有出現"
+    },
+    {
+      "id": "phrasal-verb-221-q116",
+      "number": 116,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The heavy bag slowed the young climber while the others moved ahead.",
+      "promptZh": "沉重的背包拖慢了那名年輕攀登者,其他人則繼續前進。",
+      "starter": "The",
+      "answer": "The heavy bag kept the young climber back while the others moved ahead.",
+      "answerZh": "沉重的背包拖慢了那名年輕攀登者,其他人則繼續前進。",
+      "highlight": "kept",
+      "targetForm": "keep somebody back",
+      "targetMeaningZh": "妨礙某人進步;使某人未能升到更高程度"
+    },
+    {
+      "id": "phrasal-verb-221-q117",
+      "number": 117,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "One good tree provided them with apples for months.",
+      "promptZh": "一棵長得好的樹為他們供應了幾個月的蘋果。",
+      "starter": "One",
+      "answer": "One good tree kept them in apples for months.",
+      "answerZh": "一棵長得好的樹為他們供應了幾個月的蘋果。",
+      "highlight": "kept",
+      "targetForm": "keep somebody or yourself in something",
+      "targetMeaningZh": "持續供應某人所需的某種物品或金錢"
+    },
+    {
+      "id": "phrasal-verb-221-q118",
+      "number": 118,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "It was hard to continue giving our attention to the speaker.",
+      "promptZh": "我們很難繼續集中注意力聽講者說話。",
+      "starter": "It",
+      "answer": "It was hard to keep our attention on the speaker.",
+      "answerZh": "我們很難繼續集中注意力聽講者說話。",
+      "highlight": "keep",
+      "targetForm": "keep something on somebody or something",
+      "targetMeaningZh": "把注意力、視線或鏡頭持續集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-221-q119",
+      "number": 119,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Why did you stay indoors on such a sunny afternoon?",
+      "promptZh": "天氣這麼晴朗,你下午為甚麼留在室內?",
+      "starter": "Why",
+      "answer": "Why did you keep in on such a sunny afternoon?",
+      "answerZh": "天氣這麼晴朗,你下午為甚麼留在室內?",
+      "highlight": "keep in",
+      "targetForm": "keep in",
+      "targetMeaningZh": "留在室內;不外出"
+    },
+    {
+      "id": "phrasal-verb-221-q120",
+      "number": 120,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Why are the children staying low under the window?",
+      "promptZh": "孩子們為甚麼伏在窗下?",
+      "starter": "Why",
+      "answer": "Why are the children keeping down under the window?",
+      "answerZh": "孩子們為甚麼伏在窗下?",
+      "highlight": "keeping down",
+      "targetForm": "keep down",
+      "targetMeaningZh": "伏低身體;保持低姿勢"
+    },
+    {
+      "id": "phrasal-verb-221-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Although several people suggested new topics, the chair limited the meeting to the three points on the list.",
+      "promptZh": "雖然數人提出新議題,主席仍把會議限制在清單上的三個重點。",
+      "starter": "Although",
+      "answer": "Although several people suggested new topics, the chair kept the meeting to the three points on the list.",
+      "answerZh": "雖然數人提出新議題,主席仍把會議限制在清單上的三個重點。",
+      "highlight": "kept",
+      "targetForm": "keep to something / keep something to something",
+      "targetMeaningZh": "遵守或不偏離某事;把某事限制在某範圍內"
+    },
+    {
+      "id": "phrasal-verb-221-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Although Hugo went to bed early, worry about the interview stopped him from sleeping for another two hours.",
+      "promptZh": "雖然 Hugo 很早上床,但他因擔心面試而再過兩小時仍無法入睡。",
+      "starter": "Although",
+      "answer": "Although Hugo went to bed early, worry about the interview kept him up for another two hours.",
+      "answerZh": "雖然 Hugo 很早上床,但他因擔心面試而再過兩小時仍無法入睡。",
+      "highlight": "kept",
+      "targetForm": "keep somebody up",
+      "targetMeaningZh": "令某人不能入睡或保持清醒"
+    },
+    {
+      "id": "phrasal-verb-221-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Since the rules changed several times, the team held a weekly meeting to stay informed about every new update.",
+      "promptZh": "由於規則改動了數次,團隊每星期開會,以了解每項最新消息。",
+      "starter": "Since",
+      "answer": "Since the rules changed several times, the team held a weekly meeting to keep up with every new update.",
+      "answerZh": "由於規則改動了數次,團隊每星期開會,以了解每項最新消息。",
+      "highlight": "keep up with",
+      "targetForm": "keep up with something",
+      "targetMeaningZh": "持續了解某事物的最新情況或變化"
+    },
+    {
+      "id": "phrasal-verb-221-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Because the meeting was private, the organiser did not allow any visitors to enter until it ended.",
+      "promptZh": "由於會議屬私人性質,主辦人員在會議結束前不准任何訪客進入。",
+      "starter": "Because",
+      "answer": "Because the meeting was private, the organiser kept all visitors out until it ended.",
+      "answerZh": "由於會議屬私人性質,主辦人員在會議結束前不准任何訪客進入。",
+      "highlight": "kept all",
+      "targetForm": "keep out / keep out of something / keep somebody or something out (ofsomething)",
+      "targetMeaningZh": "不要進入;防止某人或某物進入"
+    },
+    {
+      "id": "phrasal-verb-221-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "A low fence may make people stay away from the young trees without blocking the path.",
+      "promptZh": "一道矮欄或可令途人遠離幼樹,又不會阻塞小路。",
+      "starter": "A",
+      "answer": "A low fence may keep people away from the young trees without blocking the path.",
+      "answerZh": "一道矮欄或可令途人遠離幼樹,又不會阻塞小路。",
+      "highlight": "keep",
+      "targetForm": "keep away / keep somebody or something away (from somebody orsomething)",
+      "targetMeaningZh": "遠離;使某人或某物遠離"
+    },
+    {
+      "id": "phrasal-verb-221-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "The shop used less electricity at busy times and managed to reduce its monthly costs.",
+      "promptZh": "店舖在繁忙時間減少用電,成功降低每月成本。",
+      "starter": "By",
+      "answer": "By using less electricity at busy times, the shop managed to keep its monthly costs down.",
+      "answerZh": "店舖在繁忙時間減少用電,成功降低每月成本。",
+      "highlight": "By using",
+      "targetForm": "keep something down",
+      "targetMeaningZh": "控制某物,使其維持在較低水平"
+    },
+    {
+      "id": "phrasal-verb-221-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Although Ava had already sent one reminder, she continued to press Ben to return the library book.",
+      "promptZh": "雖然 Ava 已經提醒過一次,她仍繼續催促 Ben 歸還圖書館的書。",
+      "starter": "Although",
+      "answer": "Although Ava had already sent one reminder, she kept after Ben to return the library book.",
+      "answerZh": "雖然 Ava 已經提醒過一次,她仍繼續催促 Ben 歸還圖書館的書。",
+      "highlight": "kept after",
+      "targetForm": "keep after somebody (about something / to do something)",
+      "targetMeaningZh": "不斷催促或提醒某人做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "As the discussion became more technical, several new members found it difficult to follow.",
+      "promptZh": "隨着討論變得較技術性,幾名新成員發現自己很難跟上。",
+      "starter": "As",
+      "answer": "As the discussion became more technical, several new members found it difficult to keep up.",
+      "answerZh": "隨着討論變得較技術性,幾名新成員發現自己很難跟上。",
+      "highlight": "keep up",
+      "targetForm": "keep up / keep up with somebody or something",
+      "targetMeaningZh": "跟上某人或某事物的速度、程度或進度"
+    },
+    {
+      "id": "phrasal-verb-221-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Although the result had arrived in the morning, the coach hid it from the players until after practice.",
+      "promptZh": "雖然結果早上已經到達,但教練一直向球員隱瞞,直至練習後才公布。",
+      "starter": "Although",
+      "answer": "Although the result had arrived in the morning, the coach kept it from the players until after practice.",
+      "answerZh": "雖然結果早上已經到達,但教練一直向球員隱瞞,直至練習後才公布。",
+      "highlight": "kept",
+      "targetForm": "keep something from somebody",
+      "targetMeaningZh": "向某人隱瞞某事;不讓某人知道或得到某物"
+    },
+    {
+      "id": "phrasal-verb-221-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Even after leaving the company, Omar stayed friendly with several senior workers who might recommend him later.",
+      "promptZh": "即使離開公司後,Omar 仍與幾名日後可能推薦他的資深員工保持友好關係。",
+      "starter": "Even",
+      "answer": "Even after leaving the company, Omar kept in with several senior workers who might recommend him later.",
+      "answerZh": "即使離開公司後,Omar 仍與幾名日後可能推薦他的資深員工保持友好關係。",
+      "highlight": "kept in",
+      "targetForm": "keep in with somebody",
+      "targetMeaningZh": "與可能對自己有幫助的人保持友好關係"
+    },
+    {
+      "id": "phrasal-verb-221-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Although Yara had improved in most subjects, the school made her repeat the year because she had missed too much work.",
+      "promptZh": "雖然 Yara 大部分科目都有進步,但由於她錯過了太多課業,學校仍要她留級。",
+      "starter": "Although",
+      "answer": "Although Yara had improved in most subjects, the school kept her down because she had missed too much work.",
+      "answerZh": "雖然 Yara 大部分科目都有進步,但由於她錯過了太多課業,學校仍要她留級。",
+      "highlight": "kept",
+      "targetForm": "keep somebody down",
+      "targetMeaningZh": "使學生留級;不讓學生升班"
+    },
+    {
+      "id": "phrasal-verb-221-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Since we planned to bake again after lunch, we left the flour and bowls on the table.",
+      "promptZh": "由於我們計劃午飯後再烘焙,所以把麵粉和碗留在桌上。",
+      "starter": "Since",
+      "answer": "Since we planned to bake again after lunch, we kept the flour and bowls out on the table.",
+      "answerZh": "由於我們計劃午飯後再烘焙,所以把麵粉和碗留在桌上。",
+      "highlight": "kept",
+      "targetForm": "keep something out",
+      "targetMeaningZh": "把某物留在外面或留着不收起,以便稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "When the storm broke the glass, the teacher shouted for everyone to stay low until it was safe.",
+      "promptZh": "暴風打破玻璃時,老師大叫,叫所有人伏低,直至安全為止。",
+      "starter": "When",
+      "answer": "When the storm broke the glass, the teacher shouted for everyone to keep down until it was safe.",
+      "answerZh": "暴風打破玻璃時,老師大叫,叫所有人伏低,直至安全為止。",
+      "highlight": "keep down",
+      "targetForm": "keep down",
+      "targetMeaningZh": "伏低身體;保持低姿勢"
+    },
+    {
+      "id": "phrasal-verb-221-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "The extra weekend shifts provided Theo with enough spending money to join his friends on the trip.",
+      "promptZh": "額外的週末更次讓 Theo 有足夠零用錢與朋友一同旅行。",
+      "starter": "The",
+      "answer": "The extra weekend shifts kept Theo in enough spending money to join his friends on the trip.",
+      "answerZh": "額外的週末更次讓 Theo 一直有足夠零用錢與朋友一同旅行。",
+      "highlight": "kept",
+      "targetForm": "keep somebody or yourself in something",
+      "targetMeaningZh": "持續供應某人所需的某種物品或金錢"
+    },
+    {
+      "id": "phrasal-verb-221-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "After a strong first month, the club needed more activities to maintain its members’ interest through the winter.",
+      "promptZh": "經過首個月的良好開始後,會社需要更多活動,才能在冬季維持會員的興趣。",
+      "starter": "After",
+      "answer": "After a strong first month, the club needed more activities to keep its members’ interest up through the winter.",
+      "answerZh": "經過首個月的良好開始後,會社需要更多活動,才能在冬季維持會員的興趣。",
+      "highlight": "keep",
+      "targetForm": "keep something up",
+      "targetMeaningZh": "維持某種水平、標準、速度或努力"
+    },
+    {
+      "id": "phrasal-verb-221-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "The café checked its orders every morning and stayed in front of rising demand.",
+      "promptZh": "咖啡店每天早上檢查訂單,因而能應付不斷上升的需求並保持領先。",
+      "starter": "By",
+      "answer": "By checking orders every morning, the café kept ahead of rising demand.",
+      "answerZh": "咖啡店每天早上檢查訂單,因而能應付不斷上升的需求並保持領先。",
+      "highlight": "By checking",
+      "targetForm": "keep ahead / keep ahead of somebody or something",
+      "targetMeaningZh": "保持領先;走在某人或某事物前面"
+    },
+    {
+      "id": "phrasal-verb-221-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Because several forms were incomplete, the teacher made the class stay for ten minutes after the bell.",
+      "promptZh": "由於有幾份表格未完成,老師在鐘聲響起後把全班留下十分鐘。",
+      "starter": "Because",
+      "answer": "Because several forms were incomplete, the teacher kept the class in for ten minutes after the bell.",
+      "answerZh": "由於有幾份表格未完成,老師在鐘聲響起後把全班留下十分鐘。",
+      "highlight": "kept",
+      "targetForm": "keep somebody behind / keep somebody in",
+      "targetMeaningZh": "讓某人在其他人離開後留下;把某人留堂"
+    },
+    {
+      "id": "phrasal-verb-221-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "When the lights went out, the teacher told everyone to stay together and follow the wall to the exit.",
+      "promptZh": "燈光熄滅時,老師叫所有人保持在一起,沿着牆走到出口。",
+      "starter": "When",
+      "answer": "When the lights went out, the teacher told everyone to keep together and follow the wall to the exit.",
+      "answerZh": "燈光熄滅時,老師叫所有人保持在一起,沿着牆走到出口。",
+      "highlight": "keep",
+      "targetForm": "keep together / keep somebody or something together",
+      "targetMeaningZh": "保持在一起;使某些人或事物不分散"
+    },
+    {
+      "id": "phrasal-verb-221-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "A rope made visitors stay back from the damaged bridge until workers arrived.",
+      "promptZh": "工人到達前,一條繩子令遊客與受損的橋保持距離。",
+      "starter": "A",
+      "answer": "A rope kept visitors back from the damaged bridge until workers arrived.",
+      "answerZh": "工人到達前,一條繩子令遊客與受損的橋保持距離。",
+      "highlight": "kept",
+      "targetForm": "keep back / keep somebody or something back (from somebody orsomething)",
+      "targetMeaningZh": "退後;使某人或某物保持距離"
+    },
+    {
+      "id": "phrasal-verb-221-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Even when everyone asked why the event had changed, the organiser did not tell anyone the real reason.",
+      "promptZh": "即使每個人都問活動為甚麼改動,主辦人員仍沒有說出真正原因。",
+      "starter": "Even",
+      "answer": "Even when everyone asked why the event had changed, the organiser kept the real reason to herself.",
+      "answerZh": "即使每個人都問活動為甚麼改動,主辦人員仍把真正原因保密。",
+      "highlight": "kept",
+      "targetForm": "keep something to yourself",
+      "targetMeaningZh": "把某事保密;不告訴別人"
+    },
+    {
+      "id": "phrasal-verb-221-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "A sign asked cyclists not to use the narrow path while repairs were taking place.",
+      "promptZh": "維修期間,一個告示要求單車手不要使用那條狹窄小路。",
+      "starter": "A",
+      "answer": "A sign asked cyclists to keep off the narrow path while repairs were taking place.",
+      "answerZh": "維修期間,一個告示要求單車手不要使用那條狹窄小路。",
+      "highlight": "keep off",
+      "targetForm": "keep off something / keep somebody off something",
+      "targetMeaningZh": "不要踏上、觸碰或使用某物;阻止某人或某物接近某處"
+    },
+    {
+      "id": "phrasal-verb-221-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Although their work schedules rarely matched, Ava and Priya stayed in contact through short messages every week.",
+      "promptZh": "雖然 Ava 和 Priya 的工作時間很少配合得到,但她們仍每星期透過短訊保持聯絡。",
+      "starter": "Although",
+      "answer": "Although their work schedules rarely matched, Ava and Priya kept up with each other through short messages every week.",
+      "answerZh": "雖然 Ava 和 Priya 的工作時間很少配合得到,但她們仍每星期透過短訊保持聯絡。",
+      "highlight": "kept up with each other",
+      "targetForm": "keep up with somebody",
+      "targetMeaningZh": "與某人保持聯絡,了解彼此近況"
+    },
+    {
+      "id": "phrasal-verb-221-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "The local people refused to remain under control any longer and demanded the right to choose their own leaders.",
+      "promptZh": "當地居民拒絕再受控制,並要求有權選擇自己的領袖。",
+      "starter": "The",
+      "answer": "The local people refused to be kept under any longer and demanded the right to choose their own leaders.",
+      "answerZh": "當地居民拒絕再受控制,並要求有權選擇自己的領袖。",
+      "highlight": "be kept",
+      "targetForm": "keep somebody under",
+      "targetMeaningZh": "控制或壓迫某人,使其無法自由行動"
+    },
+    {
+      "id": "phrasal-verb-221-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Nothing could prevent Theo from finishing the race, even after his shoe came loose.",
+      "promptZh": "即使 Theo 的鞋鬆脫了,也沒有任何事情能阻止他完成賽事。",
+      "starter": "Nothing",
+      "answer": "Nothing could keep Theo from finishing the race, even after his shoe came loose.",
+      "answerZh": "即使 Theo 的鞋鬆脫了,也沒有任何事情能阻止他完成賽事。",
+      "highlight": "keep",
+      "targetForm": "keep from doing something / keep somebody or yourself from something",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-221-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Before spending the prize money, Jacob saved a small amount to pay for next month’s course.",
+      "promptZh": "花掉獎金前,Jacob 保留了一小筆錢支付下個月的課程費用。",
+      "starter": "Before",
+      "answer": "Before spending the prize money, Jacob kept a small amount back to pay for next month’s course.",
+      "answerZh": "花掉獎金前,Jacob 保留了一小筆錢支付下個月的課程費用。",
+      "highlight": "kept",
+      "targetForm": "keep something back",
+      "targetMeaningZh": "保留某物以供稍後使用"
+    },
+    {
+      "id": "phrasal-verb-221-q146",
+      "number": 146,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "The first plan failed, but the group continued working on the problem and found a simpler answer.",
+      "promptZh": "第一個計劃失敗了,但小組繼續處理問題,最後找到較簡單的答案。",
+      "starter": "The",
+      "answer": "The first plan failed, but the group kept at the problem and found a simpler answer.",
+      "answerZh": "第一個計劃失敗了,但小組繼續處理問題,最後找到較簡單的答案。",
+      "highlight": "kept at",
+      "targetForm": "keep at something / keep somebody at something",
+      "targetMeaningZh": "繼續努力做某事;使某人繼續做某事"
+    },
+    {
+      "id": "phrasal-verb-221-q147",
+      "number": 147,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Dark clouds gathered over the field, but it did not rain until the final race ended.",
+      "promptZh": "烏雲在球場上空聚集,但直到最後一場賽事結束仍沒有下雨。",
+      "starter": "Dark",
+      "answer": "Dark clouds gathered over the field, but the rain kept off until the final race ended.",
+      "answerZh": "烏雲在球場上空聚集,但直到最後一場賽事結束仍沒有下雨。",
+      "highlight": "the",
+      "targetForm": "keep off",
+      "targetMeaningZh": "雨、雪等沒有下;壞天氣沒有出現"
+    },
+    {
+      "id": "phrasal-verb-221-q148",
+      "number": 148,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Even when people started leaving, the reporter continued watching the door and waited for the guest.",
+      "promptZh": "即使人們開始離開,記者仍一直望着門口,等候那名嘉賓。",
+      "starter": "Even",
+      "answer": "Even when people started leaving, the reporter kept his eyes on the door and waited for the guest.",
+      "answerZh": "即使人們開始離開,記者仍一直望着門口,等候那名嘉賓。",
+      "highlight": "kept his eyes on",
+      "targetForm": "keep something on somebody or something",
+      "targetMeaningZh": "把注意力、視線或鏡頭持續集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-221-q149",
+      "number": 149,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Although Ravi understood the ideas well, weak reading skills slowed his progress in the higher-level class.",
+      "promptZh": "雖然 Ravi 很明白那些概念,但較弱的閱讀能力妨礙了他在較高程度班別的進步。",
+      "starter": "Although",
+      "answer": "Although Ravi understood the ideas well, weak reading skills kept him back in the higher-level class.",
+      "answerZh": "雖然 Ravi 很明白那些概念,但較弱的閱讀能力妨礙了他在較高程度班別的進步。",
+      "highlight": "kept him back",
+      "targetForm": "keep somebody back",
+      "targetMeaningZh": "妨礙某人進步;使某人未能升到更高程度"
+    },
+    {
+      "id": "phrasal-verb-221-q150",
+      "number": 150,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "After the doctor advised him to rest, Daniel stayed indoors for two days and worked from home.",
+      "promptZh": "醫生建議 Daniel 休息後,他留在室內兩天並在家工作。",
+      "starter": "After",
+      "answer": "After the doctor advised him to rest, Daniel kept in for two days and worked from home.",
+      "answerZh": "醫生建議 Daniel 休息後,他留在室內兩天並在家工作。",
+      "highlight": "kept in",
+      "targetForm": "keep in",
+      "targetMeaningZh": "留在室內;不外出"
+    }
+  ]
+}

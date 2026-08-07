@@ -1,0 +1,1772 @@
+{
+  "id": "phrasal-verb-292",
+  "order": 292,
+  "slug": "shake",
+  "version": "1",
+  "title": "SHAKE 動詞片語",
+  "titleEn": "Shake",
+  "titleZh": "SHAKE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 277 - SHAKE.pdf",
+    "sourceNumber": 277,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHAKE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHAKE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHAKE",
+      "highlight": "SHAKE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The new team should shake down after a few matches.",
+      "zh": "新隊伍打過幾場比賽後,應會逐漸磨合並配合得更順暢。",
+      "highlight": "shake down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The men tried to shake the shop owner down for money.",
+      "zh": "那些男子企圖勒索店主。",
+      "highlight": "shake the shop owner down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Police shook the club down looking for the stolen bags.",
+      "zh": "警方徹底搜查俱樂部,尋找被偷走的袋子。",
+      "highlight": "shook the club down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "逐漸磨合,開始順暢運作；威嚇某人交出金錢;勒索某人；徹底搜查某人或某個地方；擺脫正在追趕或跟蹤自己的人；擺脫疾病、不適或令人不快的感覺；以握手確認協議；抖開某物,或把塵埃等從中抖走；大幅改變或重整某事物；令某人大受驚嚇、震驚或不安",
+    "en": "shake down; shake somebody down; shake somebody/something down; shake somebody off; shake something off; shake on something; shake something out; shake something up; shake somebody up",
+    "naturalZh": [
+      "逐漸磨合,開始順暢運作",
+      "威嚇某人交出金錢;勒索某人",
+      "徹底搜查某人或某個地方",
+      "擺脫正在追趕或跟蹤自己的人",
+      "擺脫疾病、不適或令人不快的感覺",
+      "以握手確認協議",
+      "抖開某物,或把塵埃等從中抖走",
+      "大幅改變或重整某事物",
+      "令某人大受驚嚇、震驚或不安"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "shake down",
+      "titleZh": "逐漸磨合,開始順暢運作",
+      "titleEn": "shake down",
+      "descriptionZh": "逐漸磨合,開始順暢運作",
+      "descriptionEn": "The new team should shake down after a few matches.",
+      "examples": [
+        {
+          "en": "The new team should shake down after a few matches.",
+          "zh": "新隊伍打過幾場比賽後,應會逐漸磨合並配合得更順暢。",
+          "highlight": "shake down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shake somebody down",
+      "titleZh": "威嚇某人交出金錢;勒索某人",
+      "titleEn": "shake somebody down",
+      "descriptionZh": "威嚇某人交出金錢;勒索某人",
+      "descriptionEn": "The men tried to shake the shop owner down for money.",
+      "examples": [
+        {
+          "en": "The men tried to shake the shop owner down for money.",
+          "zh": "那些男子企圖勒索店主。",
+          "highlight": "shake the shop owner down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shake somebody/something down",
+      "titleZh": "徹底搜查某人或某個地方",
+      "titleEn": "shake somebody/something down",
+      "descriptionZh": "徹底搜查某人或某個地方",
+      "descriptionEn": "Police shook the club down looking for the stolen bags.",
+      "examples": [
+        {
+          "en": "Police shook the club down looking for the stolen bags.",
+          "zh": "警方徹底搜查俱樂部,尋找被偷走的袋子。",
+          "highlight": "shook the club down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shake somebody off",
+      "titleZh": "擺脫正在追趕或跟蹤自己的人",
+      "titleEn": "shake somebody off",
+      "descriptionZh": "擺脫正在追趕或跟蹤自己的人",
+      "descriptionEn": "The cyclist finally shook off the man following him.",
+      "examples": [
+        {
+          "en": "The cyclist finally shook off the man following him.",
+          "zh": "單車手終於擺脫了跟蹤他的男子。",
+          "highlight": "shook off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shake something off",
+      "titleZh": "擺脫疾病、不適或令人不快的感覺",
+      "titleEn": "shake something off",
+      "descriptionZh": "擺脫疾病、不適或令人不快的感覺",
+      "descriptionEn": "I still cannot shake off this cold.",
+      "examples": [
+        {
+          "en": "I still cannot shake off this cold.",
+          "zh": "我仍然無法擺脫這場感冒。",
+          "highlight": "shake off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shake on something",
+      "titleZh": "以握手確認協議",
+      "titleEn": "shake on something",
+      "descriptionZh": "以握手確認協議",
+      "descriptionEn": "We agreed on the price and shook on it.",
+      "examples": [
+        {
+          "en": "We agreed on the price and shook on it.",
+          "zh": "我們同意了價格,並握手作實。",
+          "highlight": "shook on"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shake something out",
+      "titleZh": "抖開某物,或把塵埃等從中抖走",
+      "titleEn": "shake something out",
+      "descriptionZh": "抖開某物,或把塵埃等從中抖走",
+      "descriptionEn": "She shook the blanket out before using it.",
+      "examples": [
+        {
+          "en": "She shook the blanket out before using it.",
+          "zh": "她使用毛氈前先把它抖開。",
+          "highlight": "shook the blanket out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shake something up",
+      "titleZh": "大幅改變或重整某事物",
+      "titleEn": "shake something up",
+      "descriptionZh": "大幅改變或重整某事物",
+      "descriptionEn": "The new manager plans to shake the company up.",
+      "examples": [
+        {
+          "en": "The new manager plans to shake the company up.",
+          "zh": "新經理計劃大幅重整公司。",
+          "highlight": "shake the company up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shake somebody up",
+      "titleZh": "令某人大受驚嚇、震驚或不安",
+      "titleEn": "shake somebody up",
+      "descriptionZh": "令某人大受驚嚇、震驚或不安",
+      "descriptionEn": "The accident badly shook him up.",
+      "examples": [
+        {
+          "en": "The accident badly shook him up.",
+          "zh": "那宗意外令他大受驚嚇。",
+          "highlight": "shook him up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHAKE 片語動詞的實際用途",
+    "labelEn": "SHAKE Phrasal Verbs in Use",
+    "summaryZh": "shake down 可以表示新團隊、小組或系統逐漸建立順暢有效的運作方式。；shake somebody off 可以表示擺脫跟蹤者;shake something off 則可以表示擺脫疾病或不快的感覺。；shake on something 表示以握手確認協議;shake something out 則表示把某物抖開或抖走當中的塵埃。；shake something up 表示重大改變;shake somebody up 表示情緒受到震動;shake down 的不同用法亦可能出現在罪案故事和警方報道中。",
+    "summaryEn": "Shake down can describe a new team, group or system slowly settling into an effective routine. Shake somebody off describes escaping from a person following you. Shake something off can describe recovering from an illness or an unpleasant feeling. Shake on something confirms an agreement with a handshake. Shake something out describes opening or cleaning something by shaking it. Shake something up describes major change. Shake somebody up describes emotional shock. Different uses of shake down may appear in crime stories and police reports.",
+    "contextsZh": [
+      "描述團隊如何逐漸磨合",
+      "談論擺脫追蹤和恢復狀態",
+      "確認協議及描述實際動作",
+      "理解重大改變、震驚和罪案情境"
+    ],
+    "contextsEn": [
+      "Describe how a group begins to work smoothly",
+      "Talk about escaping and recovering",
+      "Confirm agreements and describe simple physical actions",
+      "Understand strong change, shock and crime-related situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHAKE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHAKE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "shake down",
+    "fixedHighlight": "shake down",
+    "fixedZh": "閱讀整句,選出意思相同的 SHAKE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHAKE expression that gives the same meaning.",
+    "correct": "shake down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；有些表達看來相同,意思卻完全不同,必須仔細閱讀情境:shake somebody down — 威嚇某人交錢,或仔細搜查某人shake something up — 大幅改變某事物shake somebody up — 令某人震驚或不安",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: shake him down shake her off shake it out shake them up shake on it Some expressions look the same but have very different meanings. Read the situation carefully: shake somebody down — threaten someone for money or search someone carefully shake something up — make major changes shake somebody up — shock or upset someone",
+    "variableItemsZh": [
+      "shake down",
+      "shake somebody down",
+      "shake somebody/something down",
+      "shake somebody off",
+      "shake something off",
+      "shake on something",
+      "shake something out",
+      "shake something up",
+      "shake somebody up"
+    ],
+    "variableItemsEn": [
+      "shake down",
+      "shake somebody down",
+      "shake somebody/something down",
+      "shake somebody off",
+      "shake something off",
+      "shake on something",
+      "shake something out",
+      "shake something up",
+      "shake somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "逐漸磨合,開始順暢運作",
+        "formEn": "shake down",
+        "exampleZh": "新隊伍打過幾場比賽後,應會逐漸磨合並配合得更順暢。",
+        "exampleEn": "The new team should shake down after a few matches.",
+        "highlight": "shake down"
+      },
+      {
+        "formZh": "威嚇某人交出金錢;勒索某人",
+        "formEn": "shake somebody down",
+        "exampleZh": "那些男子企圖勒索店主。",
+        "exampleEn": "The men tried to shake the shop owner down for money.",
+        "highlight": "shake the shop owner down"
+      },
+      {
+        "formZh": "徹底搜查某人或某個地方",
+        "formEn": "shake somebody/something down",
+        "exampleZh": "警方徹底搜查俱樂部,尋找被偷走的袋子。",
+        "exampleEn": "Police shook the club down looking for the stolen bags.",
+        "highlight": "shook the club down"
+      },
+      {
+        "formZh": "擺脫正在追趕或跟蹤自己的人",
+        "formEn": "shake somebody off",
+        "exampleZh": "單車手終於擺脫了跟蹤他的男子。",
+        "exampleEn": "The cyclist finally shook off the man following him.",
+        "highlight": "shook off"
+      },
+      {
+        "formZh": "擺脫疾病、不適或令人不快的感覺",
+        "formEn": "shake something off",
+        "exampleZh": "我仍然無法擺脫這場感冒。",
+        "exampleEn": "I still cannot shake off this cold.",
+        "highlight": "shake off"
+      },
+      {
+        "formZh": "以握手確認協議",
+        "formEn": "shake on something",
+        "exampleZh": "我們同意了價格,並握手作實。",
+        "exampleEn": "We agreed on the price and shook on it.",
+        "highlight": "shook on"
+      },
+      {
+        "formZh": "抖開某物,或把塵埃等從中抖走",
+        "formEn": "shake something out",
+        "exampleZh": "她使用毛氈前先把它抖開。",
+        "exampleEn": "She shook the blanket out before using it.",
+        "highlight": "shook the blanket out"
+      },
+      {
+        "formZh": "大幅改變或重整某事物",
+        "formEn": "shake something up",
+        "exampleZh": "新經理計劃大幅重整公司。",
+        "exampleEn": "The new manager plans to shake the company up.",
+        "highlight": "shake the company up"
+      },
+      {
+        "formZh": "令某人大受驚嚇、震驚或不安",
+        "formEn": "shake somebody up",
+        "exampleZh": "那宗意外令他大受驚嚇。",
+        "exampleEn": "The accident badly shook him up.",
+        "highlight": "shook him up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "逐漸磨合,開始順暢運作",
+      "titleEn": "shake down",
+      "formula": "shake down",
+      "highlight": "shake down",
+      "descriptionZh": "逐漸磨合,開始順暢運作",
+      "descriptionEn": "The new team should shake down after a few matches.",
+      "examples": [
+        {
+          "en": "The new team should shake down after a few matches.",
+          "zh": "新隊伍打過幾場比賽後,應會逐漸磨合並配合得更順暢。",
+          "highlight": "shake down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "威嚇某人交出金錢;勒索某人",
+      "titleEn": "shake somebody down",
+      "formula": "shake somebody down",
+      "highlight": "shake somebody down",
+      "descriptionZh": "威嚇某人交出金錢;勒索某人",
+      "descriptionEn": "The men tried to shake the shop owner down for money.",
+      "examples": [
+        {
+          "en": "The men tried to shake the shop owner down for money.",
+          "zh": "那些男子企圖勒索店主。",
+          "highlight": "shake the shop owner down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "徹底搜查某人或某個地方",
+      "titleEn": "shake somebody/something down",
+      "formula": "shake somebody/something down",
+      "highlight": "shake somebody/something down",
+      "descriptionZh": "徹底搜查某人或某個地方",
+      "descriptionEn": "Police shook the club down looking for the stolen bags.",
+      "examples": [
+        {
+          "en": "Police shook the club down looking for the stolen bags.",
+          "zh": "警方徹底搜查俱樂部,尋找被偷走的袋子。",
+          "highlight": "shook the club down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "擺脫正在追趕或跟蹤自己的人",
+      "titleEn": "shake somebody off",
+      "formula": "shake somebody off",
+      "highlight": "shake somebody off",
+      "descriptionZh": "擺脫正在追趕或跟蹤自己的人",
+      "descriptionEn": "The cyclist finally shook off the man following him.",
+      "examples": [
+        {
+          "en": "The cyclist finally shook off the man following him.",
+          "zh": "單車手終於擺脫了跟蹤他的男子。",
+          "highlight": "shook off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "擺脫疾病、不適或令人不快的感覺",
+      "titleEn": "shake something off",
+      "formula": "shake something off",
+      "highlight": "shake something off",
+      "descriptionZh": "擺脫疾病、不適或令人不快的感覺",
+      "descriptionEn": "I still cannot shake off this cold.",
+      "examples": [
+        {
+          "en": "I still cannot shake off this cold.",
+          "zh": "我仍然無法擺脫這場感冒。",
+          "highlight": "shake off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "以握手確認協議",
+      "titleEn": "shake on something",
+      "formula": "shake on something",
+      "highlight": "shake on something",
+      "descriptionZh": "以握手確認協議",
+      "descriptionEn": "We agreed on the price and shook on it.",
+      "examples": [
+        {
+          "en": "We agreed on the price and shook on it.",
+          "zh": "我們同意了價格,並握手作實。",
+          "highlight": "shook on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "抖開某物,或把塵埃等從中抖走",
+      "titleEn": "shake something out",
+      "formula": "shake something out",
+      "highlight": "shake something out",
+      "descriptionZh": "抖開某物,或把塵埃等從中抖走",
+      "descriptionEn": "She shook the blanket out before using it.",
+      "examples": [
+        {
+          "en": "She shook the blanket out before using it.",
+          "zh": "她使用毛氈前先把它抖開。",
+          "highlight": "shook the blanket out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "大幅改變或重整某事物",
+      "titleEn": "shake something up",
+      "formula": "shake something up",
+      "highlight": "shake something up",
+      "descriptionZh": "大幅改變或重整某事物",
+      "descriptionEn": "The new manager plans to shake the company up.",
+      "examples": [
+        {
+          "en": "The new manager plans to shake the company up.",
+          "zh": "新經理計劃大幅重整公司。",
+          "highlight": "shake the company up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "令某人大受驚嚇、震驚或不安",
+      "titleEn": "shake somebody up",
+      "formula": "shake somebody up",
+      "highlight": "shake somebody up",
+      "descriptionZh": "令某人大受驚嚇、震驚或不安",
+      "descriptionEn": "The accident badly shook him up.",
+      "examples": [
+        {
+          "en": "The accident badly shook him up.",
+          "zh": "那宗意外令他大受驚嚇。",
+          "highlight": "shook him up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述團隊如何逐漸磨合",
+      "titleEn": "Describe how a group begins to work smoothly",
+      "zh": "shake down 可以表示新團隊、小組或系統逐漸建立順暢有效的運作方式。",
+      "en": "Shake down can describe a new team, group or system slowly settling into an effective routine."
+    },
+    {
+      "titleZh": "談論擺脫追蹤和恢復狀態",
+      "titleEn": "Talk about escaping and recovering",
+      "zh": "shake somebody off 可以表示擺脫跟蹤者;shake something off 則可以表示擺脫疾病或不快的感覺。",
+      "en": "Shake somebody off describes escaping from a person following you. Shake something off can describe recovering from an illness or an unpleasant feeling."
+    },
+    {
+      "titleZh": "確認協議及描述實際動作",
+      "titleEn": "Confirm agreements and describe simple physical actions",
+      "zh": "shake on something 表示以握手確認協議;shake something out 則表示把某物抖開或抖走當中的塵埃。",
+      "en": "Shake on something confirms an agreement with a handshake. Shake something out describes opening or cleaning something by shaking it."
+    },
+    {
+      "titleZh": "理解重大改變、震驚和罪案情境",
+      "titleEn": "Understand strong change, shock and crime-related situations",
+      "zh": "shake something up 表示重大改變;shake somebody up 表示情緒受到震動;shake down 的不同用法亦可能出現在罪案故事和警方報道中。",
+      "en": "Shake something up describes major change. Shake somebody up describes emotional shock. Different uses of shake down may appear in crime stories and police reports."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述團隊如何逐漸磨合",
+      "談論擺脫追蹤和恢復狀態",
+      "確認協議及描述實際動作",
+      "理解重大改變、震驚和罪案情境"
+    ],
+    "contextsEn": [
+      "Describe how a group begins to work smoothly",
+      "Talk about escaping and recovering",
+      "Confirm agreements and describe simple physical actions",
+      "Understand strong change, shock and crime-related situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述團隊如何逐漸磨合",
+        "titleEn": "Describe how a group begins to work smoothly",
+        "zh": "shake down 可以表示新團隊、小組或系統逐漸建立順暢有效的運作方式。",
+        "en": "Shake down can describe a new team, group or system slowly settling into an effective routine.",
+        "examples": [
+          {
+            "en": "The new team should shake down after a few matches.",
+            "zh": "新隊伍打過幾場比賽後,應會逐漸磨合並配合得更順暢。",
+            "highlight": "shake down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論擺脫追蹤和恢復狀態",
+        "titleEn": "Talk about escaping and recovering",
+        "zh": "shake somebody off 可以表示擺脫跟蹤者;shake something off 則可以表示擺脫疾病或不快的感覺。",
+        "en": "Shake somebody off describes escaping from a person following you. Shake something off can describe recovering from an illness or an unpleasant feeling.",
+        "examples": [
+          {
+            "en": "The men tried to shake the shop owner down for money.",
+            "zh": "那些男子企圖勒索店主。",
+            "highlight": "shake the shop owner down"
+          }
+        ]
+      },
+      {
+        "titleZh": "確認協議及描述實際動作",
+        "titleEn": "Confirm agreements and describe simple physical actions",
+        "zh": "shake on something 表示以握手確認協議;shake something out 則表示把某物抖開或抖走當中的塵埃。",
+        "en": "Shake on something confirms an agreement with a handshake. Shake something out describes opening or cleaning something by shaking it.",
+        "examples": [
+          {
+            "en": "Police shook the club down looking for the stolen bags.",
+            "zh": "警方徹底搜查俱樂部,尋找被偷走的袋子。",
+            "highlight": "shook the club down"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解重大改變、震驚和罪案情境",
+        "titleEn": "Understand strong change, shock and crime-related situations",
+        "zh": "shake something up 表示重大改變;shake somebody up 表示情緒受到震動;shake down 的不同用法亦可能出現在罪案故事和警方報道中。",
+        "en": "Shake something up describes major change. Shake somebody up describes emotional shock. Different uses of shake down may appear in crime stories and police reports.",
+        "examples": [
+          {
+            "en": "The cyclist finally shook off the man following him.",
+            "zh": "單車手終於擺脫了跟蹤他的男子。",
+            "highlight": "shook off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHAKE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHAKE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHAKE 片語動詞。",
+      "en": "Read the whole sentence and choose the SHAKE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: shake him down shake her off shake it out shake them up shake on it.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: shake him down shake her off shake it out shake them up shake on it"
+    },
+    {
+      "titleZh": "有些表達看來相同,意思卻完全不同,必須仔細閱讀情境:shake somebody down — 威嚇某人交錢,或仔細搜查某人shake something up — 大幅改變某事物shake somebody up — 令某人震驚或不安",
+      "titleEn": "Some expressions look the same but have very different meanings.",
+      "zh": "有些表達看來相同,意思卻完全不同,必須仔細閱讀情境:shake somebody down — 威嚇某人交錢,或仔細搜查某人shake something up — 大幅改變某事物shake somebody up — 令某人震驚或不安",
+      "en": "Some expressions look the same but have very different meanings. Read the situation carefully: shake somebody down — threaten someone for money or search someone carefully shake something up — make major changes shake somebody up — shock or upset someone"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHAKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHAKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHAKE 動詞片語句子改寫練習",
+    "titleEn": "SHAKE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHAKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHAKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-292-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The new manager made major changes to the whole office.",
+      "promptZh": "新經理對整個辦公室作出重大改革。",
+      "starter": "The",
+      "answer": "The new manager shook the whole office up.",
+      "answerZh": "新經理對整個辦公室作出重大改革。",
+      "highlight": "shook",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The cyclist escaped from the man following him.",
+      "promptZh": "單車手擺脫了跟蹤他的男子。",
+      "starter": "The",
+      "answer": "The cyclist shook off the man following him.",
+      "answerZh": "單車手擺脫了跟蹤他的男子。",
+      "highlight": "shook off",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕或跟蹤自己的人"
+    },
+    {
+      "id": "phrasal-verb-292-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "They confirmed the final price with a handshake.",
+      "promptZh": "他們以握手方式確認最終價格。",
+      "starter": "They",
+      "answer": "They shook on the final price.",
+      "answerZh": "他們以握手方式確認最終價格。",
+      "highlight": "shook on",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Once the new team settles into a smooth routine, it should play better.",
+      "promptZh": "新隊伍一旦逐漸磨合並建立順暢的合作方式,表現應會改善。",
+      "starter": "Once",
+      "answer": "Once the new team shakes down, it should play better.",
+      "answerZh": "新隊伍一旦逐漸磨合並建立順暢的合作方式,表現應會改善。",
+      "highlight": "shakes down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Ava could not recover from her cold.",
+      "promptZh": "艾娃一直未能從感冒中康復。",
+      "starter": "Ava",
+      "answer": "Ava could not shake off her cold.",
+      "answerZh": "艾娃一直未能擺脫感冒。",
+      "highlight": "shake off",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫疾病或不適"
+    },
+    {
+      "id": "phrasal-verb-292-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Before sitting down, Ben gave the picnic blanket a strong shake to open it fully.",
+      "promptZh": "賓坐下前,用力把野餐墊抖開。",
+      "starter": "Before",
+      "answer": "Before sitting down, Ben shook the picnic blanket out.",
+      "answerZh": "賓坐下前,用力把野餐墊抖開。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開"
+    },
+    {
+      "id": "phrasal-verb-292-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Two men tried to force the shop owner to give them money.",
+      "promptZh": "兩名男子企圖強迫店主給他們金錢。",
+      "starter": "Two",
+      "answer": "Two men tried to shake the shop owner down for money.",
+      "answerZh": "兩名男子企圖勒索店主。",
+      "highlight": "shake",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The loud crash badly frightened and upset the child.",
+      "promptZh": "巨響令孩子非常害怕和不安。",
+      "starter": "The",
+      "answer": "The loud crash badly shook the child up.",
+      "answerZh": "巨響令孩子非常害怕和不安。",
+      "highlight": "shook",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受驚嚇或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Officers searched the storage room very carefully for the stolen phones.",
+      "promptZh": "警員仔細搜查儲物室,尋找被偷走的電話。",
+      "starter": "Officers",
+      "answer": "Officers shook the storage room down looking for the stolen phones.",
+      "answerZh": "警員徹底搜查儲物室,尋找被偷走的電話。",
+      "highlight": "shook",
+      "targetForm": "shake somebody/something down",
+      "targetMeaningZh": "徹底搜查某人或某個地方"
+    },
+    {
+      "id": "phrasal-verb-292-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "After a week, the new kitchen staff began to work together smoothly.",
+      "promptZh": "過了一星期,新廚房員工開始順暢地合作。",
+      "starter": "After",
+      "answer": "After a week, the new kitchen staff began to shake down.",
+      "answerZh": "過了一星期,新廚房員工開始逐漸磨合並順暢合作。",
+      "highlight": "shake down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "A new coach may make major changes to the team.",
+      "promptZh": "新教練可能會對球隊作出重大改變。",
+      "starter": "A",
+      "answer": "A new coach may shake the team up.",
+      "answerZh": "新教練可能會對球隊作出重大改變。",
+      "highlight": "shake",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Liam finally recovered from the tiredness caused by his late night.",
+      "promptZh": "利亞姆終於擺脫了熬夜造成的疲倦。",
+      "starter": "Liam",
+      "answer": "Liam finally shook off the tiredness caused by his late night.",
+      "answerZh": "利亞姆終於擺脫了熬夜造成的疲倦。",
+      "highlight": "shook off",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫不適或不快的感覺"
+    },
+    {
+      "id": "phrasal-verb-292-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The runner turned into a side street and escaped from the person chasing her.",
+      "promptZh": "跑手轉入一條小街,擺脫了追趕她的人。",
+      "starter": "The",
+      "answer": "The runner turned into a side street and shook her pursuer off.",
+      "answerZh": "跑手轉入一條小街,擺脫了追趕她的人。",
+      "highlight": "shook",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕自己的人"
+    },
+    {
+      "id": "phrasal-verb-292-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Noah gave his wet coat a strong shake before placing it on the hook.",
+      "promptZh": "諾亞把濕外套用力抖了一下,然後才放到掛鈎上。",
+      "starter": "Noah",
+      "answer": "Noah shook his wet coat out before placing it on the hook.",
+      "answerZh": "諾亞把濕外套抖了一下,然後才放到掛鈎上。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開或抖動整理"
+    },
+    {
+      "id": "phrasal-verb-292-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The players are slowly learning to work together smoothly as a team.",
+      "promptZh": "球員正慢慢學會以團隊形式順暢合作。",
+      "starter": "The",
+      "answer": "The players are slowly shaking down as a team.",
+      "answerZh": "球員正慢慢磨合,逐漸能以團隊形式順暢合作。",
+      "highlight": "shaking down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The near accident has really shocked and upset Daniel.",
+      "promptZh": "差點發生的意外令丹尼爾非常震驚和不安。",
+      "starter": "The",
+      "answer": "The near accident has really shaken Daniel up.",
+      "answerZh": "差點發生的意外令丹尼爾非常震驚和不安。",
+      "highlight": "shaken",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受驚嚇或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The gang was trying to force a driver to give them cash.",
+      "promptZh": "該群人正企圖強迫一名司機給他們現金。",
+      "starter": "The",
+      "answer": "The gang was trying to shake a driver down for cash.",
+      "answerZh": "該群人正企圖勒索一名司機,迫使他交出現金。",
+      "highlight": "shake",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Have you confirmed the deal with a handshake yet?",
+      "promptZh": "你們是否已握手確認這項協議?",
+      "starter": "Have",
+      "answer": "Have you shaken on the deal yet?",
+      "answerZh": "你們是否已握手確認這項協議?",
+      "highlight": "shaken on",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Are the guards searching everyone very carefully at the gate?",
+      "promptZh": "守衛是否正在閘口仔細搜查每一個人?",
+      "starter": "Are",
+      "answer": "Are the guards shaking everyone down at the gate?",
+      "answerZh": "守衛是否正在閘口仔細搜查每一個人?",
+      "highlight": "shaking",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "仔細搜查某人"
+    },
+    {
+      "id": "phrasal-verb-292-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Priya is trying to recover from a bad headache.",
+      "promptZh": "普里雅正嘗試擺脫嚴重頭痛。",
+      "starter": "Priya",
+      "answer": "Priya is trying to shake off a bad headache.",
+      "answerZh": "普里雅正嘗試擺脫嚴重頭痛。",
+      "highlight": "shake off",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫疾病或不適"
+    },
+    {
+      "id": "phrasal-verb-292-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The new owner has made major changes to the café.",
+      "promptZh": "新店主已對咖啡店作出重大改變。",
+      "starter": "The",
+      "answer": "The new owner has shaken the café up.",
+      "answerZh": "新店主已對咖啡店作出重大改變。",
+      "highlight": "shaken",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Could the driver escape from the reporters following him?",
+      "promptZh": "司機能否擺脫跟蹤他的記者?",
+      "starter": "Could",
+      "answer": "Could the driver shake the reporters off?",
+      "answerZh": "司機能否擺脫跟蹤他的記者?",
+      "highlight": "shake",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕或跟蹤自己的人"
+    },
+    {
+      "id": "phrasal-verb-292-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please give the towel a strong shake so that it opens fully before you use it.",
+      "promptZh": "使用毛巾前,請先用力把它抖開。",
+      "starter": "Please",
+      "answer": "Please shake the towel out before using it.",
+      "answerZh": "使用毛巾前,請先把它抖開。",
+      "highlight": "shake",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開"
+    },
+    {
+      "id": "phrasal-verb-292-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The police believe the men threatened tourists and forced them to give money.",
+      "promptZh": "警方相信那些男子曾威嚇遊客,強迫他們交出金錢。",
+      "starter": "The",
+      "answer": "The police believe the men shook tourists down for money.",
+      "answerZh": "警方相信那些男子曾勒索遊客。",
+      "highlight": "shook",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The new system should begin to work smoothly after a few busy days.",
+      "promptZh": "新系統經過幾個繁忙日子後,應會開始順暢運作。",
+      "starter": "The",
+      "answer": "The new system should shake down after a few busy days.",
+      "answerZh": "新系統經過幾個繁忙日子後,應會開始順暢運作。",
+      "highlight": "shake down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸穩定並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the news shock and upset him so badly?",
+      "promptZh": "這個消息為何令他如此震驚和不安?",
+      "starter": "Why",
+      "answer": "Why did the news shake him up so badly?",
+      "answerZh": "這個消息為何令他如此震驚和不安?",
+      "highlight": "shake",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受震動或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We will confirm our agreement with a handshake after checking the date.",
+      "promptZh": "我們核對日期後,會握手確認協議。",
+      "starter": "We",
+      "answer": "We will shake on it after checking the date.",
+      "answerZh": "我們核對日期後,會握手確認協議。",
+      "highlight": "shake on it",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The officers have searched every room in the building very carefully.",
+      "promptZh": "警員已仔細搜查大樓內的每個房間。",
+      "starter": "The",
+      "answer": "The officers have shaken down every room in the building.",
+      "answerZh": "警員已仔細搜查大樓內的每個房間。",
+      "highlight": "shaken down",
+      "targetForm": "shake something down",
+      "targetMeaningZh": "徹底搜查某個地方"
+    },
+    {
+      "id": "phrasal-verb-292-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She gave it a strong shake to open it before laying it on the sand.",
+      "promptZh": "她把它用力抖開後,才鋪在沙上。",
+      "starter": "She",
+      "answer": "She shook it out before laying it on the sand.",
+      "answerZh": "她把它用力抖開後,才鋪在沙上。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開"
+    },
+    {
+      "id": "phrasal-verb-292-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The thief could not escape from the officers following him.",
+      "promptZh": "小偷無法擺脫追趕他的警員。",
+      "starter": "The",
+      "answer": "The thief could not shake them off.",
+      "answerZh": "小偷無法擺脫追趕他的警員。",
+      "highlight": "shake them off",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕或跟蹤自己的人"
+    },
+    {
+      "id": "phrasal-verb-292-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The old timetable needs major changes.",
+      "promptZh": "舊時間表需要作出重大改動。",
+      "starter": "The",
+      "answer": "The old timetable needs shaking up.",
+      "answerZh": "舊時間表需要作出重大改動。",
+      "highlight": "shaking up",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The two sides agreed on the price and confirmed it with a handshake.",
+      "promptZh": "雙方同意了價格,並握手作實。",
+      "starter": "The",
+      "answer": "The two sides agreed on the price and shook on it.",
+      "answerZh": "雙方同意了價格,並握手作實。",
+      "highlight": "shook on",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "This cold has lasted for a week. I still cannot recover from it.",
+      "promptZh": "這場感冒已持續了一星期。我仍然無法康復。",
+      "starter": "This",
+      "answer": "This cold has lasted for a week. I still cannot shake it off.",
+      "answerZh": "這場感冒已持續了一星期。我仍然無法擺脫它。",
+      "highlight": "shake",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫疾病或不適"
+    },
+    {
+      "id": "phrasal-verb-292-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The men tried to force him to give them money outside the station.",
+      "promptZh": "那些男子在車站外企圖強迫他交出金錢。",
+      "starter": "The",
+      "answer": "The men tried to shake him down outside the station.",
+      "answerZh": "那些男子在車站外企圖勒索他。",
+      "highlight": "shake",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "By the third match, the team had settled into a smooth way of playing.",
+      "promptZh": "到了第三場比賽,球隊已逐漸磨合並建立順暢的打法。",
+      "starter": "By",
+      "answer": "By the third match, the team had shaken down.",
+      "answerZh": "到了第三場比賽,球隊已逐漸磨合並建立順暢的打法。",
+      "highlight": "shaken down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The security team searched them very carefully before the concert.",
+      "promptZh": "保安人員在演唱會前仔細搜查了他們。",
+      "starter": "The",
+      "answer": "The security team shook them down before the concert.",
+      "answerZh": "保安人員在演唱會前仔細搜查了他們。",
+      "highlight": "shook",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "仔細搜查某人"
+    },
+    {
+      "id": "phrasal-verb-292-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Her sudden fall shocked and upset all of us.",
+      "promptZh": "她突然跌倒,令我們所有人都十分震驚和不安。",
+      "starter": "Her",
+      "answer": "Her sudden fall shook us all up.",
+      "answerZh": "她突然跌倒,令我們所有人都十分震驚和不安。",
+      "highlight": "shook us",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受驚嚇或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The cleaner gave the mat a strong shake to remove the dust.",
+      "promptZh": "清潔工人用力抖動地墊,把灰塵抖走。",
+      "starter": "The",
+      "answer": "The cleaner shook the mat out to remove the dust.",
+      "answerZh": "清潔工人抖動地墊,把灰塵抖走。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "抖動某物以除去塵埃等"
+    },
+    {
+      "id": "phrasal-verb-292-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "After resting, he managed to lose the dizzy feeling.",
+      "promptZh": "休息後,他終於擺脫了暈眩的感覺。",
+      "starter": "After",
+      "answer": "After resting, he managed to shake the dizziness off.",
+      "answerZh": "休息後,他終於擺脫了暈眩的感覺。",
+      "highlight": "shake",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫不適或不快的感覺"
+    },
+    {
+      "id": "phrasal-verb-292-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The new leader completely changed the school club.",
+      "promptZh": "新領袖徹底改變了學校俱樂部。",
+      "starter": "The",
+      "answer": "The school club was completely shaken up by the new leader.",
+      "answerZh": "學校俱樂部被新領袖徹底改變了。",
+      "highlight": "The school club was completely shaken up by",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "A quick turn helped the cyclist escape from the dog chasing him.",
+      "promptZh": "迅速轉彎幫助單車手擺脫了追趕他的狗。",
+      "starter": "A",
+      "answer": "A quick turn helped the cyclist shake off the dog chasing him.",
+      "answerZh": "迅速轉彎幫助單車手擺脫了追趕他的狗。",
+      "highlight": "shake off",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕自己的對象"
+    },
+    {
+      "id": "phrasal-verb-292-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If we agree today, we can confirm the plan with a handshake.",
+      "promptZh": "如果我們今天達成共識,便可以握手確認計劃。",
+      "starter": "If",
+      "answer": "If we agree today, we can shake on the plan.",
+      "answerZh": "如果我們今天達成共識,便可以握手確認計劃。",
+      "highlight": "shake on",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Detectives searched the office very carefully, looking for the missing files.",
+      "promptZh": "探員仔細搜查辦公室,尋找失蹤的文件。",
+      "starter": "Detectives",
+      "answer": "Detectives shook the office down, looking for the missing files.",
+      "answerZh": "探員徹底搜查辦公室,尋找失蹤的文件。",
+      "highlight": "shook",
+      "targetForm": "shake something down",
+      "targetMeaningZh": "徹底搜查某個地方"
+    },
+    {
+      "id": "phrasal-verb-292-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Although the new workers are talented, they have not settled into a smooth routine yet.",
+      "promptZh": "雖然新員工很有能力,但他們尚未建立順暢的工作方式。",
+      "starter": "Although",
+      "answer": "Although the new workers are talented, they have not shaken down yet.",
+      "answerZh": "雖然新員工很有能力,但他們尚未建立順暢的工作方式。",
+      "highlight": "shaken down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "A theft from their home shocked and upset the family for several days.",
+      "promptZh": "家中發生盜竊,令這家人連續多天感到震驚和不安。",
+      "starter": "A",
+      "answer": "A theft from their home shook the family up for several days.",
+      "answerZh": "家中發生盜竊,令這家人連續多天感到震驚和不安。",
+      "highlight": "shook",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受震動或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "To escape from the photographers following him, the actor changed cars twice.",
+      "promptZh": "為了擺脫跟蹤他的攝影記者,該名演員兩度轉車。",
+      "starter": "To",
+      "answer": "To shake the photographers off, the actor changed cars twice.",
+      "answerZh": "為了擺脫跟蹤他的攝影記者,該名演員兩度轉車。",
+      "highlight": "shake",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕或跟蹤自己的人"
+    },
+    {
+      "id": "phrasal-verb-292-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Police arrested the men for threatening small shop owners and forcing them to pay money.",
+      "promptZh": "警方拘捕了那些男子,因為他們威嚇小店東主並強迫對方付款。",
+      "starter": "Police",
+      "answer": "Police arrested the men for shaking small shop owners down.",
+      "answerZh": "警方拘捕了那些勒索小店東主的男子。",
+      "highlight": "shaking",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The company needs to make major changes to the way it serves customers.",
+      "promptZh": "公司需要大幅改變服務顧客的方式。",
+      "starter": "The",
+      "answer": "The company needs to shake up the way it serves customers.",
+      "answerZh": "公司需要大幅改變服務顧客的方式。",
+      "highlight": "shake up",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Once both sides accepted the same price, they confirmed the agreement with a handshake.",
+      "promptZh": "雙方接受同一價格後,便握手確認協議。",
+      "starter": "Once",
+      "answer": "Once both sides accepted the same price, they shook on it.",
+      "answerZh": "雙方接受同一價格後,便握手確認協議。",
+      "highlight": "shook on it",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Even after breakfast, she could not stop feeling sleepy.",
+      "promptZh": "即使吃過早餐,她仍然無法擺脫睡意。",
+      "starter": "Even",
+      "answer": "Even after breakfast, she could not shake off her sleepiness.",
+      "answerZh": "即使吃過早餐,她仍然無法擺脫睡意。",
+      "highlight": "shake off her sleepiness",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫不適或不快的感覺"
+    },
+    {
+      "id": "phrasal-verb-292-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Ethan opened the sleeping bag fully with a strong shake before putting it in the tent.",
+      "promptZh": "伊森把睡袋用力抖開,然後才放進帳幕。",
+      "starter": "Ethan",
+      "answer": "Ethan shook the sleeping bag out before putting it in the tent.",
+      "answerZh": "伊森把睡袋抖開,然後才放進帳幕。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開"
+    },
+    {
+      "id": "phrasal-verb-292-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Once the new bus service begins to run smoothly, fewer delays are expected.",
+      "promptZh": "新巴士服務開始順暢運作後,預計延誤情況會減少。",
+      "starter": "Once",
+      "answer": "Once the new bus service shakes down, fewer delays are expected.",
+      "answerZh": "新巴士服務開始順暢運作後,預計延誤情況會減少。",
+      "highlight": "shakes down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸穩定並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The police searched the club very carefully, but they found nothing illegal.",
+      "promptZh": "警方仔細搜查了俱樂部,但沒有發現任何違法物品。",
+      "starter": "The",
+      "answer": "The police shook the club down, but they found nothing illegal.",
+      "answerZh": "警方徹底搜查了俱樂部,但沒有發現任何違法物品。",
+      "highlight": "shook",
+      "targetForm": "shake something down",
+      "targetMeaningZh": "徹底搜查某個地方"
+    },
+    {
+      "id": "phrasal-verb-292-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The fox changed direction several times and finally escaped from the dogs chasing it.",
+      "promptZh": "狐狸數次改變方向,終於擺脫了追趕牠的狗。",
+      "starter": "The",
+      "answer": "The fox changed direction several times and finally shook the dogs off.",
+      "answerZh": "狐狸數次改變方向,終於擺脫了追趕牠的狗。",
+      "highlight": "shook",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕自己的對象"
+    },
+    {
+      "id": "phrasal-verb-292-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The witness said a man had tried to threaten her and force her to give him £100.",
+      "promptZh": "證人表示,一名男子曾企圖威嚇她,強迫她交出一百英鎊。",
+      "starter": "The",
+      "answer": "The witness said a man had tried to shake her down for £100.",
+      "answerZh": "證人表示,一名男子曾企圖勒索她一百英鎊。",
+      "highlight": "shake",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Being trapped in the lift for an hour badly frightened and upset Noah.",
+      "promptZh": "被困升降機一小時,令諾亞非常害怕和不安。",
+      "starter": "Being",
+      "answer": "Being trapped in the lift for an hour badly shook Noah up.",
+      "answerZh": "被困升降機一小時,令諾亞非常害怕和不安。",
+      "highlight": "shook",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受驚嚇或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After a final discussion, the neighbours confirmed their agreement on a shared repair cost with a handshake.",
+      "promptZh": "經過最後討論後,鄰居握手同意共同承擔維修費用。",
+      "starter": "After",
+      "answer": "After a final discussion, the neighbours shook on a shared repair cost.",
+      "answerZh": "經過最後討論後,鄰居握手同意共同承擔維修費用。",
+      "highlight": "shook",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The board plans to make major changes to the whole organisation rather than change one small rule.",
+      "promptZh": "董事會計劃大幅重整整個機構,而不是只改變一項小規則。",
+      "starter": "The",
+      "answer": "The board plans to shake the whole organisation up rather than change one small rule.",
+      "answerZh": "董事會計劃大幅重整整個機構,而不是只改變一項小規則。",
+      "highlight": "shake",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the fever had gone, Lena could not recover from the tiredness it had left behind.",
+      "promptZh": "雖然熱病已消退,莉娜仍無法擺脫其造成的疲倦。",
+      "starter": "Although",
+      "answer": "Although the fever had gone, Lena could not shake off the tiredness it had left behind.",
+      "answerZh": "雖然熱病已消退,莉娜仍無法擺脫其造成的疲倦。",
+      "highlight": "shake off",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫疾病或不適的影響"
+    },
+    {
+      "id": "phrasal-verb-292-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The sudden message shocked and upset Amir so much that he could not focus on his work.",
+      "promptZh": "突如其來的消息令阿米爾非常震驚和不安,以致他無法專心工作。",
+      "starter": "The",
+      "answer": "The sudden message shook Amir up so much that he could not focus on his work.",
+      "answerZh": "突如其來的消息令阿米爾非常震驚和不安,以致他無法專心工作。",
+      "highlight": "shook",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受震動或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before the children sat down, their teacher gave the large groundsheet a strong shake so that it opened fully beside the trees.",
+      "promptZh": "孩子坐下前,老師在樹旁用力把大地墊抖開。",
+      "starter": "Before",
+      "answer": "Before the children sat down, their teacher shook the large groundsheet out beside the trees.",
+      "answerZh": "孩子坐下前,老師在樹旁把大地墊抖開。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開"
+    },
+    {
+      "id": "phrasal-verb-292-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The driver took three quiet streets and finally escaped from the car following him.",
+      "promptZh": "司機駛過三條寧靜街道,終於擺脫了跟蹤他的汽車。",
+      "starter": "The",
+      "answer": "The driver took three quiet streets and finally shook off the car following him.",
+      "answerZh": "司機駛過三條寧靜街道,終於擺脫了跟蹤他的汽車。",
+      "highlight": "shook off",
+      "targetForm": "shake somebody off",
+      "targetMeaningZh": "擺脫追趕或跟蹤自己的對象"
+    },
+    {
+      "id": "phrasal-verb-292-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The first week was difficult, but the new team has now settled into a smooth routine and works well together.",
+      "promptZh": "第一星期並不容易,但新團隊現在已逐漸磨合,合作得很好。",
+      "starter": "The",
+      "answer": "The first week was difficult, but the new team has now shaken down and works well together.",
+      "answerZh": "第一星期並不容易,但新團隊現在已逐漸磨合,合作得很好。",
+      "highlight": "shaken down",
+      "targetForm": "shake down",
+      "targetMeaningZh": "逐漸磨合並開始順暢運作"
+    },
+    {
+      "id": "phrasal-verb-292-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After a stolen laptop was reported, security staff searched the classrooms very carefully one by one.",
+      "promptZh": "有人報失手提電腦後,保安人員逐一仔細搜查課室。",
+      "starter": "After",
+      "answer": "After a stolen laptop was reported, security staff shook the classrooms down one by one.",
+      "answerZh": "有人報失手提電腦後,保安人員逐一徹底搜查課室。",
+      "highlight": "shook",
+      "targetForm": "shake something down",
+      "targetMeaningZh": "徹底搜查某個地方"
+    },
+    {
+      "id": "phrasal-verb-292-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The court heard that the group had threatened several drivers and forced them to give money.",
+      "promptZh": "法庭得悉,該群人曾威嚇多名司機,強迫他們交出金錢。",
+      "starter": "The",
+      "answer": "The court heard that the group had shaken several drivers down for money.",
+      "answerZh": "法庭得悉,該群人曾勒索多名司機。",
+      "highlight": "shaken",
+      "targetForm": "shake somebody down",
+      "targetMeaningZh": "威嚇某人交出金錢"
+    },
+    {
+      "id": "phrasal-verb-292-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before the speech, Sophie took a short walk and finally stopped feeling nervous.",
+      "promptZh": "演講前,索菲散步了一會,終於不再感到緊張。",
+      "starter": "Before",
+      "answer": "Before the speech, Sophie took a short walk and finally shook the nervous feeling off.",
+      "answerZh": "演講前,索菲散步了一會,終於擺脫了緊張的感覺。",
+      "highlight": "shook the nervous",
+      "targetForm": "shake something off",
+      "targetMeaningZh": "擺脫不快或不舒服的感覺"
+    },
+    {
+      "id": "phrasal-verb-292-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "We disagree on the colour, but we can confirm the price with a handshake today.",
+      "promptZh": "我們對顏色意見不同,但今天仍可握手確認價格。",
+      "starter": "We",
+      "answer": "We disagree on the colour, but we can shake on the price today.",
+      "answerZh": "我們對顏色意見不同,但今天仍可握手確認價格。",
+      "highlight": "shake on",
+      "targetForm": "shake on something",
+      "targetMeaningZh": "以握手確認協議"
+    },
+    {
+      "id": "phrasal-verb-292-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "To attract younger customers, the café made major changes to its old menu.",
+      "promptZh": "為了吸引較年輕的顧客,咖啡店大幅改動了舊餐牌。",
+      "starter": "To",
+      "answer": "To attract younger customers, the café shook its old menu up.",
+      "answerZh": "為了吸引較年輕的顧客,咖啡店大幅改動了舊餐牌。",
+      "highlight": "shook",
+      "targetForm": "shake something up",
+      "targetMeaningZh": "大幅改變或重整某事物"
+    },
+    {
+      "id": "phrasal-verb-292-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Seeing the bicycle miss her by only a few centimetres really shocked and frightened Priya.",
+      "promptZh": "看見單車僅以數厘米之差避過自己,令普里雅非常震驚和害怕。",
+      "starter": "Seeing",
+      "answer": "Seeing the bicycle miss her by only a few centimetres really shook Priya up.",
+      "answerZh": "看見單車僅以數厘米之差避過自己,令普里雅非常震驚和害怕。",
+      "highlight": "shook",
+      "targetForm": "shake somebody up",
+      "targetMeaningZh": "令某人大受驚嚇或不安"
+    },
+    {
+      "id": "phrasal-verb-292-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "When the wind stopped, the campers gave the wet sheet a strong shake and left it in the sun.",
+      "promptZh": "風停後,露營者用力抖開濕床單,並把它留在陽光下晾曬。",
+      "starter": "When",
+      "answer": "When the wind stopped, the campers shook the wet sheet out and left it in the sun.",
+      "answerZh": "風停後,露營者把濕床單抖開,並把它留在陽光下晾曬。",
+      "highlight": "shook",
+      "targetForm": "shake something out",
+      "targetMeaningZh": "把某物抖開或抖動整理"
+    }
+  ]
+}

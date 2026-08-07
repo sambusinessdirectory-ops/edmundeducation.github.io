@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-43",
+  "order": 43,
+  "slug": "join",
+  "version": "1",
+  "title": "JOIN 動詞片語",
+  "titleEn": "Join",
+  "titleZh": "JOIN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 42 - JOIN.pdf",
+    "sourceNumber": 42,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 JOIN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to JOIN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "JOIN",
+      "highlight": "JOIN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can I join in the game?",
+      "zh": "我可以參加這個遊戲嗎?",
+      "highlight": "join in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We joined up with the rest of the group later.",
+      "zh": "我們後來與其餘組員會合。",
+      "highlight": "joined up with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dots join up to form a solid line.",
+      "zh": "這些點連接起來,形成一條實線。",
+      "highlight": "join up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "參與正在進行的活動;加入其他人一起做；與其他人會合,然後一起前往或行動；連接起來;把不同部分連接成一體；與某人或某團體一同支持或進行某事",
+    "en": "join in with somebody/something / join in something; join up / join up with somebody/something; join up / join something up; join with somebody in something / in doing something",
+    "naturalZh": [
+      "參與正在進行的活動;加入其他人一起做",
+      "與其他人會合,然後一起前往或行動",
+      "連接起來;把不同部分連接成一體",
+      "與某人或某團體一同支持或進行某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "join in with somebody/something / join in something",
+      "titleZh": "參與正在進行的活動;加入其他人一起做",
+      "titleEn": "join in with somebody/something / join in something",
+      "descriptionZh": "參與正在進行的活動;加入其他人一起做",
+      "descriptionEn": "Can I join in the game?",
+      "examples": [
+        {
+          "en": "Can I join in the game?",
+          "zh": "我可以參加這個遊戲嗎?",
+          "highlight": "join in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "join up / join up with somebody/something",
+      "titleZh": "與其他人會合,然後一起前往或行動",
+      "titleEn": "join up / join up with somebody/something",
+      "descriptionZh": "與其他人會合,然後一起前往或行動",
+      "descriptionEn": "We joined up with the rest of the group later.",
+      "examples": [
+        {
+          "en": "We joined up with the rest of the group later.",
+          "zh": "我們後來與其餘組員會合。",
+          "highlight": "joined up with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "join up / join something up",
+      "titleZh": "連接起來;把不同部分連接成一體",
+      "titleEn": "join up / join something up",
+      "descriptionZh": "連接起來;把不同部分連接成一體",
+      "descriptionEn": "The dots join up to form a solid line.",
+      "examples": [
+        {
+          "en": "The dots join up to form a solid line.",
+          "zh": "這些點連接起來,形成一條實線。",
+          "highlight": "join up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "join with somebody in something / in doing something",
+      "titleZh": "與某人或某團體一同支持或進行某事",
+      "titleEn": "join with somebody in something / in doing something",
+      "descriptionZh": "與某人或某團體一同支持或進行某事",
+      "descriptionEn": "Please join with me in thanking our helpers.",
+      "examples": [
+        {
+          "en": "Please join with me in thanking our helpers.",
+          "zh": "請與我一起感謝幫助我們的人。",
+          "highlight": "join with me in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "JOIN 片語動詞的實際用途",
+    "labelEn": "JOIN Phrasal Verbs in Use",
+    "summaryZh": "join in 可以幫助你接受邀請,以及描述參與遊戲、唱歌、討論和其他活動。；join up 可以描述朋友、旅客或隊伍在不同地方出發後會合。；join up 和 join something up 可以描述點、線、道路、小徑和不同部分連接起來。；join with somebody 可以表示人或團體一起感謝、歡迎、支持或幫助別人。",
+    "summaryEn": "Join in helps you accept invitations and describe taking part in games, songs, discussions and other activities. Join up can describe friends, travellers or teams meeting after being in different places. Join up and join something up can describe dots, lines, roads, paths and separate pieces becoming connected. Join with somebody can show that people or groups act together to thank, welcome, support or help others.",
+    "contextsZh": [
+      "自然地參與遊戲和集體活動",
+      "描述分開的人如何會合",
+      "談論事物如何連接",
+      "表達支持和合作"
+    ],
+    "contextsEn": [
+      "Take part naturally in games and group activities",
+      "Explain how separate groups meet",
+      "Talk about things connecting",
+      "Express support and cooperation"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 JOIN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the JOIN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "join in with somebody/something / join in something",
+    "fixedHighlight": "join in with somebody/something / join in something",
+    "fixedZh": "閱讀整句,選出意思相同的 JOIN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the JOIN expression that gives the same meaning.",
+    "correct": "join in",
+    "incorrectForms": [],
+    "variableZh": "join in 通常表示參與一項已經開始的活動。join up 可以表示分開的人會合,也可以表示分開的事物連接起來。；在 JOIN ... UP 中使用 it 或 them 時,把它放在 JOIN 和 UP 中間。；join with somebody 後面常接 in 和一項活動,例如 join with us in thanking the helpers。",
+    "variableEn": "Join in usually means taking part in an activity that is already happening. Join up can mean that separate people meet or that separate things connect. When using it or them in a JOIN... UP expression, place the word between JOIN and UP: join it up join them up Join with somebody is often followed by in and an activity: join with us in thanking the helpers",
+    "variableItemsZh": [
+      "join in with somebody/something / join in something",
+      "join up / join up with somebody/something",
+      "join up / join something up",
+      "join with somebody in something / in doing something"
+    ],
+    "variableItemsEn": [
+      "join in with somebody/something / join in something",
+      "join up / join up with somebody/something",
+      "join up / join something up",
+      "join with somebody in something / in doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "參與正在進行的活動;加入其他人一起做",
+        "formEn": "join in with somebody/something / join in something",
+        "exampleZh": "我可以參加這個遊戲嗎?",
+        "exampleEn": "Can I join in the game?",
+        "highlight": "join in"
+      },
+      {
+        "formZh": "與其他人會合,然後一起前往或行動",
+        "formEn": "join up / join up with somebody/something",
+        "exampleZh": "我們後來與其餘組員會合。",
+        "exampleEn": "We joined up with the rest of the group later.",
+        "highlight": "joined up with"
+      },
+      {
+        "formZh": "連接起來;把不同部分連接成一體",
+        "formEn": "join up / join something up",
+        "exampleZh": "這些點連接起來,形成一條實線。",
+        "exampleEn": "The dots join up to form a solid line.",
+        "highlight": "join up"
+      },
+      {
+        "formZh": "與某人或某團體一同支持或進行某事",
+        "formEn": "join with somebody in something / in doing something",
+        "exampleZh": "請與我一起感謝幫助我們的人。",
+        "exampleEn": "Please join with me in thanking our helpers.",
+        "highlight": "join with me in"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "參與正在進行的活動;加入其他人一起做",
+      "titleEn": "join in with somebody/something / join in something",
+      "formula": "join in with somebody/something / join in something",
+      "highlight": "join in with somebody/something / join in something",
+      "descriptionZh": "參與正在進行的活動;加入其他人一起做",
+      "descriptionEn": "Can I join in the game?",
+      "examples": [
+        {
+          "en": "Can I join in the game?",
+          "zh": "我可以參加這個遊戲嗎?",
+          "highlight": "join in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "與其他人會合,然後一起前往或行動",
+      "titleEn": "join up / join up with somebody/something",
+      "formula": "join up / join up with somebody/something",
+      "highlight": "join up / join up with somebody/something",
+      "descriptionZh": "與其他人會合,然後一起前往或行動",
+      "descriptionEn": "We joined up with the rest of the group later.",
+      "examples": [
+        {
+          "en": "We joined up with the rest of the group later.",
+          "zh": "我們後來與其餘組員會合。",
+          "highlight": "joined up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "連接起來;把不同部分連接成一體",
+      "titleEn": "join up / join something up",
+      "formula": "join up / join something up",
+      "highlight": "join up / join something up",
+      "descriptionZh": "連接起來;把不同部分連接成一體",
+      "descriptionEn": "The dots join up to form a solid line.",
+      "examples": [
+        {
+          "en": "The dots join up to form a solid line.",
+          "zh": "這些點連接起來,形成一條實線。",
+          "highlight": "join up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "與某人或某團體一同支持或進行某事",
+      "titleEn": "join with somebody in something / in doing something",
+      "formula": "join with somebody in something / in doing something",
+      "highlight": "join with somebody in something / in doing something",
+      "descriptionZh": "與某人或某團體一同支持或進行某事",
+      "descriptionEn": "Please join with me in thanking our helpers.",
+      "examples": [
+        {
+          "en": "Please join with me in thanking our helpers.",
+          "zh": "請與我一起感謝幫助我們的人。",
+          "highlight": "join with me in"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地參與遊戲和集體活動",
+      "titleEn": "Take part naturally in games and group activities",
+      "zh": "join in 可以幫助你接受邀請,以及描述參與遊戲、唱歌、討論和其他活動。",
+      "en": "Join in helps you accept invitations and describe taking part in games, songs, discussions and other activities."
+    },
+    {
+      "titleZh": "描述分開的人如何會合",
+      "titleEn": "Explain how separate groups meet",
+      "zh": "join up 可以描述朋友、旅客或隊伍在不同地方出發後會合。",
+      "en": "Join up can describe friends, travellers or teams meeting after being in different places."
+    },
+    {
+      "titleZh": "談論事物如何連接",
+      "titleEn": "Talk about things connecting",
+      "zh": "join up 和 join something up 可以描述點、線、道路、小徑和不同部分連接起來。",
+      "en": "Join up and join something up can describe dots, lines, roads, paths and separate pieces becoming connected."
+    },
+    {
+      "titleZh": "表達支持和合作",
+      "titleEn": "Express support and cooperation",
+      "zh": "join with somebody 可以表示人或團體一起感謝、歡迎、支持或幫助別人。",
+      "en": "Join with somebody can show that people or groups act together to thank, welcome, support or help others."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地參與遊戲和集體活動",
+      "描述分開的人如何會合",
+      "談論事物如何連接",
+      "表達支持和合作"
+    ],
+    "contextsEn": [
+      "Take part naturally in games and group activities",
+      "Explain how separate groups meet",
+      "Talk about things connecting",
+      "Express support and cooperation"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地參與遊戲和集體活動",
+        "titleEn": "Take part naturally in games and group activities",
+        "zh": "join in 可以幫助你接受邀請,以及描述參與遊戲、唱歌、討論和其他活動。",
+        "en": "Join in helps you accept invitations and describe taking part in games, songs, discussions and other activities.",
+        "examples": [
+          {
+            "en": "Can I join in the game?",
+            "zh": "我可以參加這個遊戲嗎?",
+            "highlight": "join in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述分開的人如何會合",
+        "titleEn": "Explain how separate groups meet",
+        "zh": "join up 可以描述朋友、旅客或隊伍在不同地方出發後會合。",
+        "en": "Join up can describe friends, travellers or teams meeting after being in different places.",
+        "examples": [
+          {
+            "en": "We joined up with the rest of the group later.",
+            "zh": "我們後來與其餘組員會合。",
+            "highlight": "joined up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論事物如何連接",
+        "titleEn": "Talk about things connecting",
+        "zh": "join up 和 join something up 可以描述點、線、道路、小徑和不同部分連接起來。",
+        "en": "Join up and join something up can describe dots, lines, roads, paths and separate pieces becoming connected.",
+        "examples": [
+          {
+            "en": "The dots join up to form a solid line.",
+            "zh": "這些點連接起來,形成一條實線。",
+            "highlight": "join up"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達支持和合作",
+        "titleEn": "Express support and cooperation",
+        "zh": "join with somebody 可以表示人或團體一起感謝、歡迎、支持或幫助別人。",
+        "en": "Join with somebody can show that people or groups act together to thank, welcome, support or help others.",
+        "examples": [
+          {
+            "en": "Please join with me in thanking our helpers.",
+            "zh": "請與我一起感謝幫助我們的人。",
+            "highlight": "join with me in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 JOIN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the JOIN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 JOIN 片語動詞。",
+      "en": "Read the whole sentence and choose the JOIN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "join in 通常表示參與一項已經開始的活動。join up 可以表示分開的人會合,也可以表示分開的事物連接起來。",
+      "titleEn": "Join in usually means taking part in an activity that is already happening.",
+      "zh": "join in 通常表示參與一項已經開始的活動。join up 可以表示分開的人會合,也可以表示分開的事物連接起來。",
+      "en": "Join in usually means taking part in an activity that is already happening. Join up can mean that separate people meet or that separate things connect."
+    },
+    {
+      "titleZh": "在 JOIN ... UP 中使用 it 或 them 時,把它放在 JOIN 和 UP 中間。",
+      "titleEn": "When using it or them in a JOIN.",
+      "zh": "在 JOIN ... UP 中使用 it 或 them 時,把它放在 JOIN 和 UP 中間。",
+      "en": "When using it or them in a JOIN... UP expression, place the word between JOIN and UP: join it up join them up"
+    },
+    {
+      "titleZh": "join with somebody 後面常接 in 和一項活動,例如 join with us in thanking the helpers。",
+      "titleEn": "Join with somebody is often followed by in and an activity: join with us in thanking the helpers.",
+      "zh": "join with somebody 後面常接 in 和一項活動,例如 join with us in thanking the helpers。",
+      "en": "Join with somebody is often followed by in and an activity: join with us in thanking the helpers"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 JOIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to JOIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "JOIN 動詞片語句子改寫練習",
+    "titleEn": "JOIN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 JOIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to JOIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-43-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Can I take part in the game?",
+      "promptZh": "我可以參加這個遊戲嗎?",
+      "starter": "Can",
+      "answer": "Can I join in the game?",
+      "answerZh": "我可以參加這個遊戲嗎?",
+      "highlight": "join",
+      "targetForm": "join in something",
+      "targetMeaningZh": "參與正在進行的活動"
+    },
+    {
+      "id": "phrasal-verb-43-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The dots connect to form a solid line.",
+      "promptZh": "這些點連接起來,形成一條實線。",
+      "starter": "The",
+      "answer": "The dots join up to form a solid line.",
+      "answerZh": "這些點連接起來,形成一條實線。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We met the rest of the group later.",
+      "promptZh": "我們後來與其餘組員會合。",
+      "starter": "We",
+      "answer": "We joined up with the rest of the group later.",
+      "answerZh": "我們後來與其餘組員會合。",
+      "highlight": "joined up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please congratulate our winners together with me.",
+      "promptZh": "請與我一起祝賀得獎者。",
+      "starter": "Please",
+      "answer": "Please join with me in congratulating our winners.",
+      "answerZh": "請與我一起祝賀得獎者。",
+      "highlight": "join with me in congratulating",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人一起做某事"
+    },
+    {
+      "id": "phrasal-verb-43-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Everyone started clapping, and Sam took part.",
+      "promptZh": "大家開始拍手,森也參與其中。",
+      "starter": "Everyone",
+      "answer": "Everyone started clapping, and Sam joined in.",
+      "answerZh": "大家開始拍手,森也參與其中。",
+      "highlight": "joined in",
+      "targetForm": "join in",
+      "targetMeaningZh": "參與正在進行的活動"
+    },
+    {
+      "id": "phrasal-verb-43-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Connect the two pieces with tape.",
+      "promptZh": "用膠紙把這兩件東西連接起來。",
+      "starter": "Join",
+      "answer": "Join the two pieces up with tape.",
+      "answerZh": "用膠紙把這兩件東西連接起來。",
+      "highlight": "Join",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The hikers met near the bridge and continued together.",
+      "promptZh": "遠足者在橋附近會合,然後一起繼續前行。",
+      "starter": "The",
+      "answer": "The hikers joined up near the bridge and continued together.",
+      "answerZh": "遠足者在橋附近會合,然後一起繼續前行。",
+      "highlight": "joined up",
+      "targetForm": "join up",
+      "targetMeaningZh": "會合後一起行動"
+    },
+    {
+      "id": "phrasal-verb-43-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The parents worked as one group with the teachers to clean the playground.",
+      "promptZh": "家長與老師一起合作清潔遊樂場。",
+      "starter": "The",
+      "answer": "The parents joined with the teachers in cleaning the playground.",
+      "answerZh": "家長與老師一起合作清潔遊樂場。",
+      "highlight": "joined",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人合作進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Maya wants to take part in the dance.",
+      "promptZh": "瑪雅想參與舞蹈活動。",
+      "starter": "Maya",
+      "answer": "Maya wants to join in the dance.",
+      "answerZh": "瑪雅想參與舞蹈活動。",
+      "highlight": "join",
+      "targetForm": "join in something",
+      "targetMeaningZh": "參與一項活動"
+    },
+    {
+      "id": "phrasal-verb-43-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The two paths connect behind the school.",
+      "promptZh": "兩條小徑在學校後面連接起來。",
+      "starter": "The",
+      "answer": "The two paths join up behind the school.",
+      "answerZh": "兩條小徑在學校後面連接起來。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We are meeting the rest of the tour group at the station.",
+      "promptZh": "我們正在車站與其餘旅行團成員會合。",
+      "starter": "We",
+      "answer": "We are joining up with the rest of the tour group at the station.",
+      "answerZh": "我們正在車站與其餘旅行團成員會合。",
+      "highlight": "joining up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our class is working as one group with Class 2B to collect books for younger pupils.",
+      "promptZh": "我們班正與二乙班一起為年幼學生收集書籍。",
+      "starter": "Our",
+      "answer": "Our class is joining with Class 2B in collecting books for younger pupils.",
+      "answerZh": "我們班正與二乙班一起為年幼學生收集書籍。",
+      "highlight": "joining",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與另一群人一起做某事"
+    },
+    {
+      "id": "phrasal-verb-43-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben usually takes part when his friends play basketball.",
+      "promptZh": "朋友打籃球時,賓通常都會參與。",
+      "starter": "Ben",
+      "answer": "Ben usually joins in when his friends play basketball.",
+      "answerZh": "朋友打籃球時,賓通常都會參與。",
+      "highlight": "joins in",
+      "targetForm": "join in",
+      "targetMeaningZh": "參與正在進行的活動"
+    },
+    {
+      "id": "phrasal-verb-43-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The artist has connected all the points to make a bird.",
+      "promptZh": "畫家已把所有點連接起來,形成一隻鳥的圖案。",
+      "starter": "The",
+      "answer": "The artist has joined all the points up to make a bird.",
+      "answerZh": "畫家已把所有點連接起來,形成一隻鳥的圖案。",
+      "highlight": "joined",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Will you meet us at the station and travel with us from there?",
+      "promptZh": "你會在車站與我們會合,然後一起出發嗎?",
+      "starter": "Will",
+      "answer": "Will you join up with us at the station and travel with us from there?",
+      "answerZh": "你會在車站與我們會合,然後一起出發嗎?",
+      "highlight": "join up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I hope you will welcome the new students together with us.",
+      "promptZh": "我希望你會與我們一起歡迎新同學。",
+      "starter": "I",
+      "answer": "I hope you will join with us in welcoming the new students.",
+      "answerZh": "我希望你會與我們一起歡迎新同學。",
+      "highlight": "join with us in welcoming",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人一起進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why didn’t you take part in the song?",
+      "promptZh": "為甚麼你沒有一起唱這首歌?",
+      "starter": "Why",
+      "answer": "Why didn’t you join in the song?",
+      "answerZh": "為甚麼你沒有一起唱這首歌?",
+      "highlight": "join",
+      "targetForm": "join in something",
+      "targetMeaningZh": "參與一項活動"
+    },
+    {
+      "id": "phrasal-verb-43-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "These lines do not connect at the top.",
+      "promptZh": "這些線在頂部沒有連接起來。",
+      "starter": "These",
+      "answer": "These lines do not join up at the top.",
+      "answerZh": "這些線在頂部沒有連接起來。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Kim has already met the rest of the tour group.",
+      "promptZh": "金已經與其餘旅行團成員會合。",
+      "starter": "Kim",
+      "answer": "Kim has already joined up with the rest of the tour group.",
+      "answerZh": "金已經與其餘旅行團成員會合。",
+      "highlight": "joined up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Several neighbours have worked as one group with the family to clean the shared garden.",
+      "promptZh": "幾位鄰居與這家人一起合作清潔共用花園。",
+      "starter": "Several",
+      "answer": "Several neighbours have joined with the family in cleaning the shared garden.",
+      "answerZh": "幾位鄰居與這家人一起合作清潔共用花園。",
+      "highlight": "joined",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人合作進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The cables are separate. Please connect them.",
+      "promptZh": "電線仍然分開。請把它們連接起來。",
+      "starter": "The",
+      "answer": "The cables are separate. Please join them up.",
+      "answerZh": "電線仍然分開。請把它們連接起來。",
+      "highlight": "join",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children were playing a word game, so I took part with them.",
+      "promptZh": "孩子們正在玩文字遊戲,所以我也和他們一起參與。",
+      "starter": "The",
+      "answer": "The children were playing a word game, so I joined in with them.",
+      "answerZh": "孩子們正在玩文字遊戲,所以我也和他們一起參與。",
+      "highlight": "joined in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ella will meet the rest of the school group outside the museum.",
+      "promptZh": "埃拉會在博物館外與其餘學校成員會合。",
+      "starter": "Ella",
+      "answer": "Ella will join up with the rest of the school group outside the museum.",
+      "answerZh": "埃拉會在博物館外與其餘學校成員會合。",
+      "highlight": "join up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team worked together with the volunteers in the park clean-up.",
+      "promptZh": "隊員與義工一起參與公園清潔活動。",
+      "starter": "The",
+      "answer": "The team joined with the volunteers in the park clean-up.",
+      "answerZh": "隊員與義工一起參與公園清潔活動。",
+      "highlight": "joined",
+      "targetForm": "join with somebody in something",
+      "targetMeaningZh": "與某人一起參與某事"
+    },
+    {
+      "id": "phrasal-verb-43-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "All the small sections were connected to make one long track.",
+      "promptZh": "所有小部分都連接起來,形成一條長路軌。",
+      "starter": "All",
+      "answer": "All the small sections were joined up to make one long track.",
+      "answerZh": "所有小部分都連接起來,形成一條長路軌。",
+      "highlight": "joined up",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We were all laughing, and Dad began laughing with us.",
+      "promptZh": "我們全都在笑,爸爸也開始和我們一起笑。",
+      "starter": "We",
+      "answer": "We were all laughing, and Dad joined in with us.",
+      "answerZh": "我們全都在笑,爸爸也和我們一起笑。",
+      "highlight": "joined in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The two walking groups had met by the time the rain started.",
+      "promptZh": "下雨時,兩隊步行人士已經會合。",
+      "starter": "The",
+      "answer": "The two walking groups had joined up by the time the rain started.",
+      "answerZh": "下雨時,兩隊步行人士已經會合。",
+      "highlight": "joined up",
+      "targetForm": "join up",
+      "targetMeaningZh": "會合後一起行動"
+    },
+    {
+      "id": "phrasal-verb-43-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could the music club work with us to organise the school show?",
+      "promptZh": "音樂學會可以與我們合作籌辦學校表演嗎?",
+      "starter": "Could",
+      "answer": "Could the music club join with us in organising the school show?",
+      "answerZh": "音樂學會可以與我們合作籌辦學校表演嗎?",
+      "highlight": "join",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人合作進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The map shows where the two roads connect.",
+      "promptZh": "地圖顯示兩條道路連接的位置。",
+      "starter": "The",
+      "answer": "The map shows where the two roads join up.",
+      "answerZh": "地圖顯示兩條道路連接的位置。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Noor began taking part in the discussion after it had already started.",
+      "promptZh": "討論開始後,努爾才參與其中。",
+      "starter": "Noor",
+      "answer": "Noor joined in the discussion after it had already started.",
+      "answerZh": "討論開始後,努爾才參與其中。",
+      "highlight": "joined",
+      "targetForm": "join in something",
+      "targetMeaningZh": "參與已經開始的活動"
+    },
+    {
+      "id": "phrasal-verb-43-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "All staff thanked the helpers together with the head teacher.",
+      "promptZh": "所有職員與校長一起感謝幫忙的人。",
+      "starter": "All",
+      "answer": "All staff joined with the head teacher in thanking the helpers.",
+      "answerZh": "所有職員與校長一起感謝幫忙的人。",
+      "highlight": "joined",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人一起進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The cyclists travelled separately at first, but they met at the café and continued together.",
+      "promptZh": "單車手起初分開前往,但後來在咖啡店會合並一起繼續前行。",
+      "starter": "The",
+      "answer": "The cyclists travelled separately at first, but they joined up at the café and continued together.",
+      "answerZh": "單車手起初分開前往,但後來在咖啡店會合並一起繼續前行。",
+      "highlight": "joined up",
+      "targetForm": "join up",
+      "targetMeaningZh": "會合後一起行動"
+    },
+    {
+      "id": "phrasal-verb-43-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Nina did not just watch the game; she also took part in it.",
+      "promptZh": "妮娜不只是觀看比賽,她也參與其中。",
+      "starter": "Nina",
+      "answer": "Nina did not just watch the game; she also joined in.",
+      "answerZh": "妮娜不只是觀看比賽,她也參與其中。",
+      "highlight": "joined",
+      "targetForm": "join in",
+      "targetMeaningZh": "參與正在進行的活動"
+    },
+    {
+      "id": "phrasal-verb-43-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If you connect the three shapes, they will make one large star.",
+      "promptZh": "如果你把三個圖形連接起來,它們便會形成一顆大星星。",
+      "starter": "If",
+      "answer": "If you join the three shapes up, they will make one large star.",
+      "answerZh": "如果你把三個圖形連接起來,它們便會形成一顆大星星。",
+      "highlight": "join",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At the museum, our class met the guide and the other school group.",
+      "promptZh": "在博物館,我們班與導遊和另一間學校的隊伍會合。",
+      "starter": "At",
+      "answer": "At the museum, our class joined up with the guide and the other school group.",
+      "answerZh": "在博物館,我們班與導遊和另一間學校的隊伍會合。",
+      "highlight": "joined up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Our team worked as one group with another local team to raise money for the library at the event.",
+      "promptZh": "在活動中,我們的隊伍與另一支本地隊伍一起為圖書館籌款。",
+      "starter": "Our",
+      "answer": "Our team joined with another local team in raising money for the library at the event.",
+      "answerZh": "在活動中,我們的隊伍與另一支本地隊伍一起為圖書館籌款。",
+      "highlight": "joined",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與另一群人合作進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the music began, even the shy children started dancing with everyone else.",
+      "promptZh": "音樂響起時,連害羞的孩子也開始和其他人一起跳舞。",
+      "starter": "When",
+      "answer": "When the music began, even the shy children joined in with everyone else.",
+      "answerZh": "音樂響起時,連害羞的孩子也和其他人一起跳舞。",
+      "highlight": "joined in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The final piece is missing, so the two ends cannot connect.",
+      "promptZh": "最後一件組件不見了,所以兩端無法連接起來。",
+      "starter": "The",
+      "answer": "The final piece is missing, so the two ends cannot join up.",
+      "answerZh": "最後一件組件不見了,所以兩端無法連接起來。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Should we meet the rest of the family before entering the park?",
+      "promptZh": "我們應否在進入公園前與其餘家人會合?",
+      "starter": "Should",
+      "answer": "Should we join up with the rest of the family before entering the park?",
+      "answerZh": "我們應否在進入公園前與其餘家人會合?",
+      "highlight": "join up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I am sure you will celebrate Tom’s success together with me.",
+      "promptZh": "我相信你會與我一起祝賀湯姆成功。",
+      "starter": "I",
+      "answer": "I am sure you will join with me in celebrating Tom’s success.",
+      "answerZh": "我相信你會與我一起祝賀湯姆成功。",
+      "highlight": "join with me in celebrating",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人一起進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At first, Leo only listened to the quiz, but after a few questions he began taking part with everyone else.",
+      "promptZh": "起初里奧只是在聽問答遊戲,但幾條問題後,他便開始和其他人一起參與。",
+      "starter": "At",
+      "answer": "At first, Leo only listened to the quiz, but after a few questions he joined in with everyone else.",
+      "answerZh": "起初里奧只是在聽問答遊戲,但幾條問題後,他便和其他人一起參與。",
+      "highlight": "joined in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The line looks broken now, but if you connect the last two points, it will become one complete shape.",
+      "promptZh": "這條線現在看來是斷開的,但如果你把最後兩點連接起來,它便會成為一個完整圖形。",
+      "starter": "The",
+      "answer": "The line looks broken now, but if you join the last two points up, it will become one complete shape.",
+      "answerZh": "這條線現在看來是斷開的,但如果你把最後兩點連接起來,它便會成為一個完整圖形。",
+      "highlight": "join",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our friends took a different bus, but they met us outside the concert hall before the doors opened.",
+      "promptZh": "我們的朋友乘搭了另一班巴士,但在開門前於音樂廳外與我們會合。",
+      "starter": "Our",
+      "answer": "Our friends took a different bus, but they joined up with us outside the concert hall before the doors opened.",
+      "answerZh": "我們的朋友乘搭了另一班巴士,但在開門前於音樂廳外與我們會合。",
+      "highlight": "joined up with",
+      "targetForm": "join up with somebody",
+      "targetMeaningZh": "與其他人會合"
+    },
+    {
+      "id": "phrasal-verb-43-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The school asked families to work as one group with teachers in making the reading day successful.",
+      "promptZh": "學校請家長與老師一起合作,令閱讀日成功舉行。",
+      "starter": "The",
+      "answer": "The school asked families to join with teachers in making the reading day successful.",
+      "answerZh": "學校請家長與老師一起合作,令閱讀日成功舉行。",
+      "highlight": "join",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人合作進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the activity had already started, the teacher invited the late student to take part with the others.",
+      "promptZh": "雖然活動已經開始,老師仍邀請遲到的學生與其他人一起參與。",
+      "starter": "Although",
+      "answer": "Although the activity had already started, the teacher invited the late student to join in with the others.",
+      "answerZh": "雖然活動已經開始,老師仍邀請遲到的學生與其他人一起參與。",
+      "highlight": "join in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The two cycle paths come from opposite sides of the town and connect near the river.",
+      "promptZh": "兩條單車徑從城鎮的兩邊伸延,在河流附近連接起來。",
+      "starter": "The",
+      "answer": "The two cycle paths come from opposite sides of the town and join up near the river.",
+      "answerZh": "兩條單車徑從城鎮的兩邊伸延,在河流附近連接起來。",
+      "highlight": "join up",
+      "targetForm": "join up",
+      "targetMeaningZh": "連接起來"
+    },
+    {
+      "id": "phrasal-verb-43-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We walked around the market separately, then met again beside the main gate.",
+      "promptZh": "我們分開逛市場,然後在正門旁再次會合。",
+      "starter": "We",
+      "answer": "We walked around the market separately, then joined up again beside the main gate.",
+      "answerZh": "我們分開逛市場,然後在正門旁再次會合。",
+      "highlight": "joined up",
+      "targetForm": "join up",
+      "targetMeaningZh": "會合後一起行動"
+    },
+    {
+      "id": "phrasal-verb-43-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please thank everyone who helped with tonight’s show together with me.",
+      "promptZh": "請與我一起感謝所有協助今晚表演的人。",
+      "starter": "Please",
+      "answer": "Please join with me in thanking everyone who helped with tonight’s show.",
+      "answerZh": "請與我一起感謝所有協助今晚表演的人。",
+      "highlight": "join with me in thanking",
+      "targetForm": "join with somebody in doing something",
+      "targetMeaningZh": "與某人一起進行某事"
+    },
+    {
+      "id": "phrasal-verb-43-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The group was singing quietly at first, but soon everyone in the room began singing with them.",
+      "promptZh": "那群人起初輕聲唱歌,但很快房內所有人都開始和他們一起唱。",
+      "starter": "The",
+      "answer": "The group was singing quietly at first, but soon everyone in the room joined in with them.",
+      "answerZh": "那群人起初輕聲唱歌,但很快房內所有人都和他們一起唱。",
+      "highlight": "joined in",
+      "targetForm": "join in with somebody",
+      "targetMeaningZh": "加入其他人一起參與"
+    },
+    {
+      "id": "phrasal-verb-43-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The two sections of the model do not meet yet. Connect them carefully before you paint it.",
+      "promptZh": "模型的兩個部分仍未連接。請在上色前小心把它們接起來。",
+      "starter": "The",
+      "answer": "The two sections of the model do not meet yet. Join them up carefully before you paint it.",
+      "answerZh": "模型的兩個部分仍未連接。請在上色前小心把它們接起來。",
+      "highlight": "Join",
+      "targetForm": "join something up",
+      "targetMeaningZh": "把不同部分連接起來"
+    }
+  ]
+}

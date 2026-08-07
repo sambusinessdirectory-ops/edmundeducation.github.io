@@ -1,0 +1,2005 @@
+{
+  "id": "phrasal-verb-226",
+  "order": 226,
+  "slug": "burn",
+  "version": "1",
+  "title": "BURN 動詞片語",
+  "titleEn": "Burn",
+  "titleZh": "BURN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 224 - BURN.pdf",
+    "sourceNumber": 224,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BURN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BURN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BURN",
+      "highlight": "BURN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Half the candle had burnt away.",
+      "zh": "半支蠟燭已經燒掉了。",
+      "highlight": "burnt away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We watched the fire burn down to red coals.",
+      "zh": "我們看着火勢逐漸減弱,最後只剩下通紅的煤塊。",
+      "highlight": "burn down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The old hall burnt down last winter.",
+      "zh": "那座舊禮堂去年冬天被燒毀了。",
+      "highlight": "burnt down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "某物在燃燒中逐漸消失;逐漸把某物燒掉；火勢逐漸減弱;火焰逐漸變小；建築物被火燒毀;把建築物燒毀；火、火焰或蠟燭因燃料耗盡而熄滅；因過度工作或長期承受壓力而身心耗盡；機器或零件因過熱而損壞或停止運作；用火逼某人離開住所或某個地方；令某人非常生氣；用火或高熱把表面的一層東西除去；把車輛、房間或建築物的內部燒毀；把某物完全燒掉;某物因火或高熱而完全燒毀",
+    "en": "burn away / burn something away; burn down; burn down / burn something down; burn out / burn itself out; burn out / burn yourself out; burn out / burn something out; burn somebody out / burn somebody out of something; burn somebody up; burn something off; burn something out; burn something up / burn up",
+    "naturalZh": [
+      "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+      "火勢逐漸減弱;火焰逐漸變小",
+      "建築物被火燒毀;把建築物燒毀",
+      "火、火焰或蠟燭因燃料耗盡而熄滅",
+      "因過度工作或長期承受壓力而身心耗盡",
+      "機器或零件因過熱而損壞或停止運作",
+      "用火逼某人離開住所或某個地方",
+      "令某人非常生氣",
+      "用火或高熱把表面的一層東西除去",
+      "把車輛、房間或建築物的內部燒毀",
+      "把某物完全燒掉;某物因火或高熱而完全燒毀"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "burn away / burn something away",
+      "titleZh": "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+      "titleEn": "burn away / burn something away",
+      "descriptionZh": "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+      "descriptionEn": "Half the candle had burnt away.",
+      "examples": [
+        {
+          "en": "Half the candle had burnt away.",
+          "zh": "半支蠟燭已經燒掉了。",
+          "highlight": "burnt away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn down",
+      "titleZh": "火勢逐漸減弱;火焰逐漸變小",
+      "titleEn": "burn down",
+      "descriptionZh": "火勢逐漸減弱;火焰逐漸變小",
+      "descriptionEn": "We watched the fire burn down to red coals.",
+      "examples": [
+        {
+          "en": "We watched the fire burn down to red coals.",
+          "zh": "我們看着火勢逐漸減弱,最後只剩下通紅的煤塊。",
+          "highlight": "burn down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn down / burn something down",
+      "titleZh": "建築物被火燒毀;把建築物燒毀",
+      "titleEn": "burn down / burn something down",
+      "descriptionZh": "建築物被火燒毀;把建築物燒毀",
+      "descriptionEn": "The old hall burnt down last winter.",
+      "examples": [
+        {
+          "en": "The old hall burnt down last winter.",
+          "zh": "那座舊禮堂去年冬天被燒毀了。",
+          "highlight": "burnt down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn out / burn itself out",
+      "titleZh": "火、火焰或蠟燭因燃料耗盡而熄滅",
+      "titleEn": "burn out / burn itself out",
+      "descriptionZh": "火、火焰或蠟燭因燃料耗盡而熄滅",
+      "descriptionEn": "The small fire burnt itself out.",
+      "examples": [
+        {
+          "en": "The small fire burnt itself out.",
+          "zh": "那堆小火自行熄滅了。",
+          "highlight": "burnt itself out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn out / burn yourself out",
+      "titleZh": "因過度工作或長期承受壓力而身心耗盡",
+      "titleEn": "burn out / burn yourself out",
+      "descriptionZh": "因過度工作或長期承受壓力而身心耗盡",
+      "descriptionEn": "Do not work so hard that you burn yourself out.",
+      "examples": [
+        {
+          "en": "Do not work so hard that you burn yourself out.",
+          "zh": "不要工作過度,以致身心耗盡。",
+          "highlight": "burn yourself out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn out / burn something out",
+      "titleZh": "機器或零件因過熱而損壞或停止運作",
+      "titleEn": "burn out / burn something out",
+      "descriptionZh": "機器或零件因過熱而損壞或停止運作",
+      "descriptionEn": "The motor burnt out.",
+      "examples": [
+        {
+          "en": "The motor burnt out.",
+          "zh": "馬達因過熱而損壞了。",
+          "highlight": "burnt out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "burn somebody out / burn somebody out of something",
+      "titleZh": "用火逼某人離開住所或某個地方",
+      "titleEn": "burn somebody out / burn somebody out of something",
+      "descriptionZh": "用火逼某人離開住所或某個地方",
+      "descriptionEn": "The attackers tried to burn the family out of their home.",
+      "examples": [
+        {
+          "en": "The attackers tried to burn the family out of their home.",
+          "zh": "襲擊者企圖放火逼那個家庭離開住所。",
+          "highlight": "burn the family out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "burn somebody up",
+      "titleZh": "令某人非常生氣",
+      "titleEn": "burn somebody up",
+      "descriptionZh": "令某人非常生氣",
+      "descriptionEn": "That unfair decision really burns me up.",
+      "examples": [
+        {
+          "en": "That unfair decision really burns me up.",
+          "zh": "那項不公平的決定令我非常生氣。",
+          "highlight": "burns me up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "burn something off",
+      "titleZh": "用火或高熱把表面的一層東西除去",
+      "titleEn": "burn something off",
+      "descriptionZh": "用火或高熱把表面的一層東西除去",
+      "descriptionEn": "The workers burnt the old paint off the gate.",
+      "examples": [
+        {
+          "en": "The workers burnt the old paint off the gate.",
+          "zh": "工人用高熱除去大閘上的舊油漆。",
+          "highlight": "burnt the old paint off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "burn something out",
+      "titleZh": "把車輛、房間或建築物的內部燒毀",
+      "titleEn": "burn something out",
+      "descriptionZh": "把車輛、房間或建築物的內部燒毀",
+      "descriptionEn": "Two cars were burnt out in the crash.",
+      "examples": [
+        {
+          "en": "Two cars were burnt out in the crash.",
+          "zh": "兩輛汽車在意外中被燒毀內部。",
+          "highlight": "burnt out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "burn something up / burn up",
+      "titleZh": "把某物完全燒掉;某物因火或高熱而完全燒毀",
+      "titleEn": "burn something up / burn up",
+      "descriptionZh": "把某物完全燒掉;某物因火或高熱而完全燒毀",
+      "descriptionEn": "The spacecraft burnt up in the atmosphere.",
+      "examples": [
+        {
+          "en": "The spacecraft burnt up in the atmosphere.",
+          "zh": "太空船進入大氣層時完全燒毀了。",
+          "highlight": "burnt up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BURN 片語動詞的實際用途",
+    "labelEn": "BURN Phrasal Verbs in Use",
+    "summaryZh": "burn away 可以表示某物的一部分逐漸燒掉;burn up 則表示某物完全燒毀。；火可以 burn down,表示火勢逐漸減弱;也可以 burn out,表示火完全熄滅。；你可以使用 BURN 片語動詞描述建築物、房間、車輛、油漆和機器受到的損壞。；burn out 可以表示一個人因過度勞累而身心耗盡;burn somebody up 則可以表示令某人非常生氣。",
+    "summaryEn": "Burn away can describe part of something slowly disappearing, while burn up describes complete destruction. A fire can burn down and become smaller, or burn out and stop completely. You can use BURN expressions to describe damage to buildings, rooms, vehicles, paint and machines. Burn out can describe becoming completely exhausted, while burn somebody up can describe making someone very angry.",
+    "contextsZh": [
+      "清楚描述燃燒造成的不同結果",
+      "描述火勢減弱和熄滅",
+      "談論不同種類的損壞",
+      "表達身心耗盡和強烈憤怒"
+    ],
+    "contextsEn": [
+      "Describe different results of fire clearly",
+      "Explain what happens as a fire becomes weaker",
+      "Talk about different kinds of damage",
+      "Express exhaustion and strong anger"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BURN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BURN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "burn away / burn something away",
+    "fixedHighlight": "burn away / burn something away",
+    "fixedZh": "閱讀整句,選出意思相同的 BURN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BURN expression that gives the same meaning.",
+    "correct": "burnt away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；burn down 可以表示火勢逐漸減弱,也可以表示建築物被燒毀。請仔細閱讀整個情境。；burn out 有幾個不同意思:火可以熄滅;人可以因過度勞累而身心耗盡;機器可以因過熱而損壞;地方的內部也可以被燒毀。",
+    "variableEn": "Keep the same people, things, time and meaning. Burn down can describe a fire becoming smaller or a building being destroyed. Read the whole situation carefully. Burn out has several meanings. A fire may stop burning, a person may become completely exhausted, a machine may stop working, or the inside of a place may be destroyed by fire.",
+    "variableItemsZh": [
+      "burn away / burn something away",
+      "burn down",
+      "burn down / burn something down",
+      "burn out / burn itself out",
+      "burn out / burn yourself out",
+      "burn out / burn something out",
+      "burn somebody out / burn somebody out of something",
+      "burn somebody up",
+      "burn something off",
+      "burn something out",
+      "burn something up / burn up"
+    ],
+    "variableItemsEn": [
+      "burn away / burn something away",
+      "burn down",
+      "burn down / burn something down",
+      "burn out / burn itself out",
+      "burn out / burn yourself out",
+      "burn out / burn something out",
+      "burn somebody out / burn somebody out of something",
+      "burn somebody up",
+      "burn something off",
+      "burn something out",
+      "burn something up / burn up"
+    ],
+    "forms": [
+      {
+        "formZh": "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+        "formEn": "burn away / burn something away",
+        "exampleZh": "半支蠟燭已經燒掉了。",
+        "exampleEn": "Half the candle had burnt away.",
+        "highlight": "burnt away"
+      },
+      {
+        "formZh": "火勢逐漸減弱;火焰逐漸變小",
+        "formEn": "burn down",
+        "exampleZh": "我們看着火勢逐漸減弱,最後只剩下通紅的煤塊。",
+        "exampleEn": "We watched the fire burn down to red coals.",
+        "highlight": "burn down"
+      },
+      {
+        "formZh": "建築物被火燒毀;把建築物燒毀",
+        "formEn": "burn down / burn something down",
+        "exampleZh": "那座舊禮堂去年冬天被燒毀了。",
+        "exampleEn": "The old hall burnt down last winter.",
+        "highlight": "burnt down"
+      },
+      {
+        "formZh": "火、火焰或蠟燭因燃料耗盡而熄滅",
+        "formEn": "burn out / burn itself out",
+        "exampleZh": "那堆小火自行熄滅了。",
+        "exampleEn": "The small fire burnt itself out.",
+        "highlight": "burnt itself out"
+      },
+      {
+        "formZh": "因過度工作或長期承受壓力而身心耗盡",
+        "formEn": "burn out / burn yourself out",
+        "exampleZh": "不要工作過度,以致身心耗盡。",
+        "exampleEn": "Do not work so hard that you burn yourself out.",
+        "highlight": "burn yourself out"
+      },
+      {
+        "formZh": "機器或零件因過熱而損壞或停止運作",
+        "formEn": "burn out / burn something out",
+        "exampleZh": "馬達因過熱而損壞了。",
+        "exampleEn": "The motor burnt out.",
+        "highlight": "burnt out"
+      },
+      {
+        "formZh": "用火逼某人離開住所或某個地方",
+        "formEn": "burn somebody out / burn somebody out of something",
+        "exampleZh": "襲擊者企圖放火逼那個家庭離開住所。",
+        "exampleEn": "The attackers tried to burn the family out of their home.",
+        "highlight": "burn the family out"
+      },
+      {
+        "formZh": "令某人非常生氣",
+        "formEn": "burn somebody up",
+        "exampleZh": "那項不公平的決定令我非常生氣。",
+        "exampleEn": "That unfair decision really burns me up.",
+        "highlight": "burns me up"
+      },
+      {
+        "formZh": "用火或高熱把表面的一層東西除去",
+        "formEn": "burn something off",
+        "exampleZh": "工人用高熱除去大閘上的舊油漆。",
+        "exampleEn": "The workers burnt the old paint off the gate.",
+        "highlight": "burnt the old paint off"
+      },
+      {
+        "formZh": "把車輛、房間或建築物的內部燒毀",
+        "formEn": "burn something out",
+        "exampleZh": "兩輛汽車在意外中被燒毀內部。",
+        "exampleEn": "Two cars were burnt out in the crash.",
+        "highlight": "burnt out"
+      },
+      {
+        "formZh": "把某物完全燒掉;某物因火或高熱而完全燒毀",
+        "formEn": "burn something up / burn up",
+        "exampleZh": "太空船進入大氣層時完全燒毀了。",
+        "exampleEn": "The spacecraft burnt up in the atmosphere.",
+        "highlight": "burnt up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+      "titleEn": "burn away / burn something away",
+      "formula": "burn away / burn something away",
+      "highlight": "burn away / burn something away",
+      "descriptionZh": "某物在燃燒中逐漸消失;逐漸把某物燒掉",
+      "descriptionEn": "Half the candle had burnt away.",
+      "examples": [
+        {
+          "en": "Half the candle had burnt away.",
+          "zh": "半支蠟燭已經燒掉了。",
+          "highlight": "burnt away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "火勢逐漸減弱;火焰逐漸變小",
+      "titleEn": "burn down",
+      "formula": "burn down",
+      "highlight": "burn down",
+      "descriptionZh": "火勢逐漸減弱;火焰逐漸變小",
+      "descriptionEn": "We watched the fire burn down to red coals.",
+      "examples": [
+        {
+          "en": "We watched the fire burn down to red coals.",
+          "zh": "我們看着火勢逐漸減弱,最後只剩下通紅的煤塊。",
+          "highlight": "burn down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "建築物被火燒毀;把建築物燒毀",
+      "titleEn": "burn down / burn something down",
+      "formula": "burn down / burn something down",
+      "highlight": "burn down / burn something down",
+      "descriptionZh": "建築物被火燒毀;把建築物燒毀",
+      "descriptionEn": "The old hall burnt down last winter.",
+      "examples": [
+        {
+          "en": "The old hall burnt down last winter.",
+          "zh": "那座舊禮堂去年冬天被燒毀了。",
+          "highlight": "burnt down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "火、火焰或蠟燭因燃料耗盡而熄滅",
+      "titleEn": "burn out / burn itself out",
+      "formula": "burn out / burn itself out",
+      "highlight": "burn out / burn itself out",
+      "descriptionZh": "火、火焰或蠟燭因燃料耗盡而熄滅",
+      "descriptionEn": "The small fire burnt itself out.",
+      "examples": [
+        {
+          "en": "The small fire burnt itself out.",
+          "zh": "那堆小火自行熄滅了。",
+          "highlight": "burnt itself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因過度工作或長期承受壓力而身心耗盡",
+      "titleEn": "burn out / burn yourself out",
+      "formula": "burn out / burn yourself out",
+      "highlight": "burn out / burn yourself out",
+      "descriptionZh": "因過度工作或長期承受壓力而身心耗盡",
+      "descriptionEn": "Do not work so hard that you burn yourself out.",
+      "examples": [
+        {
+          "en": "Do not work so hard that you burn yourself out.",
+          "zh": "不要工作過度,以致身心耗盡。",
+          "highlight": "burn yourself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "機器或零件因過熱而損壞或停止運作",
+      "titleEn": "burn out / burn something out",
+      "formula": "burn out / burn something out",
+      "highlight": "burn out / burn something out",
+      "descriptionZh": "機器或零件因過熱而損壞或停止運作",
+      "descriptionEn": "The motor burnt out.",
+      "examples": [
+        {
+          "en": "The motor burnt out.",
+          "zh": "馬達因過熱而損壞了。",
+          "highlight": "burnt out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用火逼某人離開住所或某個地方",
+      "titleEn": "burn somebody out / burn somebody out of something",
+      "formula": "burn somebody out / burn somebody out of something",
+      "highlight": "burn somebody out / burn somebody out of something",
+      "descriptionZh": "用火逼某人離開住所或某個地方",
+      "descriptionEn": "The attackers tried to burn the family out of their home.",
+      "examples": [
+        {
+          "en": "The attackers tried to burn the family out of their home.",
+          "zh": "襲擊者企圖放火逼那個家庭離開住所。",
+          "highlight": "burn the family out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "令某人非常生氣",
+      "titleEn": "burn somebody up",
+      "formula": "burn somebody up",
+      "highlight": "burn somebody up",
+      "descriptionZh": "令某人非常生氣",
+      "descriptionEn": "That unfair decision really burns me up.",
+      "examples": [
+        {
+          "en": "That unfair decision really burns me up.",
+          "zh": "那項不公平的決定令我非常生氣。",
+          "highlight": "burns me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "用火或高熱把表面的一層東西除去",
+      "titleEn": "burn something off",
+      "formula": "burn something off",
+      "highlight": "burn something off",
+      "descriptionZh": "用火或高熱把表面的一層東西除去",
+      "descriptionEn": "The workers burnt the old paint off the gate.",
+      "examples": [
+        {
+          "en": "The workers burnt the old paint off the gate.",
+          "zh": "工人用高熱除去大閘上的舊油漆。",
+          "highlight": "burnt the old paint off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把車輛、房間或建築物的內部燒毀",
+      "titleEn": "burn something out",
+      "formula": "burn something out",
+      "highlight": "burn something out",
+      "descriptionZh": "把車輛、房間或建築物的內部燒毀",
+      "descriptionEn": "Two cars were burnt out in the crash.",
+      "examples": [
+        {
+          "en": "Two cars were burnt out in the crash.",
+          "zh": "兩輛汽車在意外中被燒毀內部。",
+          "highlight": "burnt out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "把某物完全燒掉;某物因火或高熱而完全燒毀",
+      "titleEn": "burn something up / burn up",
+      "formula": "burn something up / burn up",
+      "highlight": "burn something up / burn up",
+      "descriptionZh": "把某物完全燒掉;某物因火或高熱而完全燒毀",
+      "descriptionEn": "The spacecraft burnt up in the atmosphere.",
+      "examples": [
+        {
+          "en": "The spacecraft burnt up in the atmosphere.",
+          "zh": "太空船進入大氣層時完全燒毀了。",
+          "highlight": "burnt up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述燃燒造成的不同結果",
+      "titleEn": "Describe different results of fire clearly",
+      "zh": "burn away 可以表示某物的一部分逐漸燒掉;burn up 則表示某物完全燒毀。",
+      "en": "Burn away can describe part of something slowly disappearing, while burn up describes complete destruction."
+    },
+    {
+      "titleZh": "描述火勢減弱和熄滅",
+      "titleEn": "Explain what happens as a fire becomes weaker",
+      "zh": "火可以 burn down,表示火勢逐漸減弱;也可以 burn out,表示火完全熄滅。",
+      "en": "A fire can burn down and become smaller, or burn out and stop completely."
+    },
+    {
+      "titleZh": "談論不同種類的損壞",
+      "titleEn": "Talk about different kinds of damage",
+      "zh": "你可以使用 BURN 片語動詞描述建築物、房間、車輛、油漆和機器受到的損壞。",
+      "en": "You can use BURN expressions to describe damage to buildings, rooms, vehicles, paint and machines."
+    },
+    {
+      "titleZh": "表達身心耗盡和強烈憤怒",
+      "titleEn": "Express exhaustion and strong anger",
+      "zh": "burn out 可以表示一個人因過度勞累而身心耗盡;burn somebody up 則可以表示令某人非常生氣。",
+      "en": "Burn out can describe becoming completely exhausted, while burn somebody up can describe making someone very angry."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述燃燒造成的不同結果",
+      "描述火勢減弱和熄滅",
+      "談論不同種類的損壞",
+      "表達身心耗盡和強烈憤怒"
+    ],
+    "contextsEn": [
+      "Describe different results of fire clearly",
+      "Explain what happens as a fire becomes weaker",
+      "Talk about different kinds of damage",
+      "Express exhaustion and strong anger"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述燃燒造成的不同結果",
+        "titleEn": "Describe different results of fire clearly",
+        "zh": "burn away 可以表示某物的一部分逐漸燒掉;burn up 則表示某物完全燒毀。",
+        "en": "Burn away can describe part of something slowly disappearing, while burn up describes complete destruction.",
+        "examples": [
+          {
+            "en": "Half the candle had burnt away.",
+            "zh": "半支蠟燭已經燒掉了。",
+            "highlight": "burnt away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述火勢減弱和熄滅",
+        "titleEn": "Explain what happens as a fire becomes weaker",
+        "zh": "火可以 burn down,表示火勢逐漸減弱;也可以 burn out,表示火完全熄滅。",
+        "en": "A fire can burn down and become smaller, or burn out and stop completely.",
+        "examples": [
+          {
+            "en": "We watched the fire burn down to red coals.",
+            "zh": "我們看着火勢逐漸減弱,最後只剩下通紅的煤塊。",
+            "highlight": "burn down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不同種類的損壞",
+        "titleEn": "Talk about different kinds of damage",
+        "zh": "你可以使用 BURN 片語動詞描述建築物、房間、車輛、油漆和機器受到的損壞。",
+        "en": "You can use BURN expressions to describe damage to buildings, rooms, vehicles, paint and machines.",
+        "examples": [
+          {
+            "en": "The old hall burnt down last winter.",
+            "zh": "那座舊禮堂去年冬天被燒毀了。",
+            "highlight": "burnt down"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達身心耗盡和強烈憤怒",
+        "titleEn": "Express exhaustion and strong anger",
+        "zh": "burn out 可以表示一個人因過度勞累而身心耗盡;burn somebody up 則可以表示令某人非常生氣。",
+        "en": "Burn out can describe becoming completely exhausted, while burn somebody up can describe making someone very angry.",
+        "examples": [
+          {
+            "en": "The small fire burnt itself out.",
+            "zh": "那堆小火自行熄滅了。",
+            "highlight": "burnt itself out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BURN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BURN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BURN 片語動詞。",
+      "en": "Read the whole sentence and choose the BURN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "burn down 可以表示火勢逐漸減弱,也可以表示建築物被燒毀。請仔細閱讀整個情境。",
+      "titleEn": "Burn down can describe a fire becoming smaller or a building being destroyed.",
+      "zh": "burn down 可以表示火勢逐漸減弱,也可以表示建築物被燒毀。請仔細閱讀整個情境。",
+      "en": "Burn down can describe a fire becoming smaller or a building being destroyed. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "burn out 有幾個不同意思:火可以熄滅;人可以因過度勞累而身心耗盡;機器可以因過熱而損壞;地方的內部也可以被燒毀。",
+      "titleEn": "Burn out has several meanings.",
+      "zh": "burn out 有幾個不同意思:火可以熄滅;人可以因過度勞累而身心耗盡;機器可以因過熱而損壞;地方的內部也可以被燒毀。",
+      "en": "Burn out has several meanings. A fire may stop burning, a person may become completely exhausted, a machine may stop working, or the inside of a place may be destroyed by fire."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BURN 動詞片語句子改寫練習",
+    "titleEn": "BURN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-226-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "That unfair comment makes me very angry.",
+      "promptZh": "那句不公平的說話令我非常生氣。",
+      "starter": "That",
+      "answer": "That unfair comment really burns me up.",
+      "answerZh": "那句不公平的說話令我非常生氣。",
+      "highlight": "really burns",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "By midnight, half the candle had disappeared as it burned.",
+      "promptZh": "到了午夜,半支蠟燭已經在燃燒中消失了。",
+      "starter": "By",
+      "answer": "By midnight, half the candle had burnt away.",
+      "answerZh": "到了午夜,半支蠟燭已經燒掉了。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The old wooden hall was completely destroyed by fire last winter.",
+      "promptZh": "那座舊木製禮堂去年冬天被大火完全燒毀。",
+      "starter": "The",
+      "answer": "The old wooden hall burnt down last winter.",
+      "answerZh": "那座舊木製禮堂去年冬天被燒毀了。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "建築物被火燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The last candle stopped burning before the meal ended.",
+      "promptZh": "最後一支蠟燭在用餐結束前熄滅了。",
+      "starter": "The",
+      "answer": "The last candle burnt out before the meal ended.",
+      "answerZh": "最後一支蠟燭在用餐結束前熄滅了。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因燃料耗盡而熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Workers removed the old paint from the gate with heat.",
+      "promptZh": "工人用高熱除去大閘上的舊油漆。",
+      "starter": "Workers",
+      "answer": "Workers burnt the old paint off the gate.",
+      "answerZh": "工人用高熱除去大閘上的舊油漆。",
+      "highlight": "burnt",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The small motor stopped working after it became too hot.",
+      "promptZh": "小型馬達過熱後停止運作。",
+      "starter": "The",
+      "answer": "The small motor burnt out after it became too hot.",
+      "answerZh": "小型馬達過熱後損壞了。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "機器或零件因過熱而停止運作"
+    },
+    {
+      "id": "phrasal-verb-226-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The campfire was becoming smaller as the evening grew colder.",
+      "promptZh": "隨着晚上愈來愈冷,營火的火勢逐漸減弱。",
+      "starter": "The",
+      "answer": "The campfire was burning down as the evening grew colder.",
+      "answerZh": "隨着晚上愈來愈冷,營火的火勢逐漸減弱。",
+      "highlight": "burning down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "All the dry leaves were completely destroyed by the fire in a few minutes.",
+      "promptZh": "所有乾葉在幾分鐘內被火完全燒掉。",
+      "starter": "All",
+      "answer": "All the dry leaves burnt up in a few minutes.",
+      "answerZh": "所有乾葉在幾分鐘內完全燒掉。",
+      "highlight": "burnt up",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因火或高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Many new workers become completely exhausted because they work too hard.",
+      "promptZh": "許多新員工因為工作過度而身心耗盡。",
+      "starter": "Many",
+      "answer": "Many new workers burn out because they work too hard.",
+      "answerZh": "許多新員工因為工作過度而身心耗盡。",
+      "highlight": "burn out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因過度工作而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The gang set fire to the house in an attempt to force the family to leave.",
+      "promptZh": "那群人放火燒屋,企圖逼那個家庭離開。",
+      "starter": "The",
+      "answer": "The gang tried to burn the family out of their home.",
+      "answerZh": "那群人企圖放火逼那個家庭離開住所。",
+      "highlight": "tried",
+      "targetForm": "burn somebody out of something",
+      "targetMeaningZh": "用火逼某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-226-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The fire in the crash destroyed the inside of two cars.",
+      "promptZh": "意外中的大火燒毀了兩輛汽車的內部。",
+      "starter": "Two",
+      "answer": "Two cars were burnt out in the crash.",
+      "answerZh": "兩輛汽車在意外中被燒毀內部。",
+      "highlight": "Two cars were burnt out",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把車輛或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Most of the rope had slowly disappeared in the flames before the fire was stopped.",
+      "promptZh": "大火被撲滅前,大部分繩索已在火焰中逐漸燒掉。",
+      "starter": "Most",
+      "answer": "Most of the rope had burnt away before the fire was stopped.",
+      "answerZh": "大火被撲滅前,大部分繩索已經逐漸燒掉。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The small fire stopped burning by itself during the night.",
+      "promptZh": "那堆小火在夜間自行熄滅了。",
+      "starter": "The",
+      "answer": "The small fire burnt itself out during the night.",
+      "answerZh": "那堆小火在夜間自行熄滅了。",
+      "highlight": "burnt",
+      "targetForm": "burn itself out",
+      "targetMeaningZh": "自行燃燒至熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Please remove the old coating with heat before you repaint the metal.",
+      "promptZh": "重新為金屬上漆前,請用高熱除去舊塗層。",
+      "starter": "Please",
+      "answer": "Please burn the old coating off before you repaint the metal.",
+      "answerZh": "重新為金屬上漆前,請用高熱除去舊塗層。",
+      "highlight": "burn",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The rubbish will be completely destroyed by the fire quickly if it is completely dry.",
+      "promptZh": "如果垃圾完全乾燥,便會很快被火燒掉。",
+      "starter": "The",
+      "answer": "The rubbish will burn up quickly if it is completely dry.",
+      "answerZh": "如果垃圾完全乾燥,便會很快完全燒掉。",
+      "highlight": "burn up",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因火或高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Although they set fire to the shop, the attackers failed to force the shopkeeper to leave.",
+      "promptZh": "雖然襲擊者放火燒店,但未能逼店主離開。",
+      "starter": "The",
+      "answer": "The attackers failed to burn the shopkeeper out.",
+      "answerZh": "襲擊者未能放火逼店主離開。",
+      "highlight": "burn",
+      "targetForm": "burn somebody out",
+      "targetMeaningZh": "用火逼某人離開"
+    },
+    {
+      "id": "phrasal-verb-226-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Wait until the fire has become smaller before adding more wood.",
+      "promptZh": "加入更多木柴前,先等待火勢減弱。",
+      "starter": "Wait",
+      "answer": "Wait until the fire has burnt down before adding more wood.",
+      "answerZh": "加入更多木柴前,先等待火勢減弱。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She is making herself completely exhausted because she works every weekend.",
+      "promptZh": "她每個週末都工作,令自己身心耗盡。",
+      "starter": "She",
+      "answer": "She is burning herself out by working every weekend.",
+      "answerZh": "她每個週末都工作,令自己身心耗盡。",
+      "highlight": "burning",
+      "targetForm": "burn yourself out",
+      "targetMeaningZh": "令自己因過度工作而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The old heater may stop working if it becomes too hot from running for too long.",
+      "promptZh": "舊暖爐如果運作太久而過熱,便可能停止運作。",
+      "starter": "The",
+      "answer": "The old heater may burn out if it runs for too long.",
+      "answerZh": "舊暖爐如果運作太久,便可能因過熱而損壞。",
+      "highlight": "burn out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "機器或零件因過熱而停止運作"
+    },
+    {
+      "id": "phrasal-verb-226-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "A fire completely destroyed the empty warehouse last night.",
+      "promptZh": "昨晚一場大火完全燒毀了空置貨倉。",
+      "starter": "A",
+      "answer": "A fire burnt the empty warehouse down last night.",
+      "answerZh": "昨晚一場大火完全燒毀了空置貨倉。",
+      "highlight": "burnt",
+      "targetForm": "burn something down",
+      "targetMeaningZh": "把建築物燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "His rude jokes are making her very angry.",
+      "promptZh": "他的無禮笑話正令她非常生氣。",
+      "starter": "His",
+      "answer": "His rude jokes are really burning her up.",
+      "answerZh": "他的無禮笑話正令她非常生氣。",
+      "highlight": "really burning",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The oil lamp had stopped burning completely before we found another light.",
+      "promptZh": "我們找到另一盞燈前,油燈已經完全熄滅。",
+      "starter": "The",
+      "answer": "The oil lamp had burnt out before we found another light.",
+      "answerZh": "我們找到另一盞燈前,油燈已經完全熄滅。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因燃料耗盡而熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The fire destroyed the inside of the kitchen, but the rest of the house was saved.",
+      "promptZh": "大火燒毀了廚房內部,但房子的其他部分得以保留。",
+      "starter": "The",
+      "answer": "The kitchen was burnt out, but the rest of the house was saved.",
+      "answerZh": "廚房內部被大火燒毀,但房子的其他部分得以保留。",
+      "highlight": "was burnt out",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把房間或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "A large part of the paper has slowly disappeared in the fire.",
+      "promptZh": "這張紙有一大部分已在火中逐漸燒掉。",
+      "starter": "A",
+      "answer": "A large part of the paper has burnt away.",
+      "answerZh": "這張紙有一大部分已經逐漸燒掉。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Repeated fires forced the family to leave their home.",
+      "promptZh": "連番火災逼使那個家庭離開住所。",
+      "starter": "The",
+      "answer": "The family was burnt out of their home after repeated fires.",
+      "answerZh": "連番火災逼使那個家庭離開住所。",
+      "highlight": "The family was burnt out of their home after",
+      "targetForm": "burn somebody out of something",
+      "targetMeaningZh": "用火逼某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-226-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The spacecraft will be completely destroyed by heat as it enters the atmosphere.",
+      "promptZh": "太空船進入大氣層時,會因高熱而完全燒毀。",
+      "starter": "The",
+      "answer": "The spacecraft will burn up as it enters the atmosphere.",
+      "answerZh": "太空船進入大氣層時會完全燒毀。",
+      "highlight": "burn up",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The heat has removed the old label from the box.",
+      "promptZh": "高熱已除去盒子上的舊標籤。",
+      "starter": "The",
+      "answer": "The heat has burnt the old label off the box.",
+      "answerZh": "高熱已除去盒子上的舊標籤。",
+      "highlight": "burnt",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "By midnight, the fire had become smaller until only a few red coals remained.",
+      "promptZh": "到了午夜,火勢已逐漸減弱,只剩下幾塊通紅的煤。",
+      "starter": "By",
+      "answer": "By midnight, the fire had burnt down to a few red coals.",
+      "answerZh": "到了午夜,火勢已逐漸減弱,只剩下幾塊通紅的煤。",
+      "highlight": "burnt down to",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Are you making yourself completely exhausted before the examinations?",
+      "promptZh": "你是否在考試前令自己身心耗盡?",
+      "starter": "Are",
+      "answer": "Are you burning yourself out before the examinations?",
+      "answerZh": "你是否在考試前令自己身心耗盡?",
+      "highlight": "burning",
+      "targetForm": "burn yourself out",
+      "targetMeaningZh": "令自己因過度勞累而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why does that unfair rule make you so angry?",
+      "promptZh": "那項不公平的規則為甚麼令你如此生氣?",
+      "starter": "Why",
+      "answer": "Why does that unfair rule burn you up so much?",
+      "answerZh": "那項不公平的規則為甚麼令你如此生氣?",
+      "highlight": "burn",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The fire destroyed the inside of the office but left the outer walls standing.",
+      "promptZh": "大火燒毀了辦公室內部,但外牆仍然屹立。",
+      "starter": "The",
+      "answer": "The fire burnt the office out but left the outer walls standing.",
+      "answerZh": "大火燒毀了辦公室內部,但外牆仍然屹立。",
+      "highlight": "burnt",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Using the drill for hours made it overheat and stop working.",
+      "promptZh": "連續使用鑽機數小時,令它過熱並停止運作。",
+      "starter": "Using",
+      "answer": "Using the drill for hours burnt it out.",
+      "answerZh": "連續使用鑽機數小時,令它過熱損壞。",
+      "highlight": "burnt",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "令機器或零件因過熱而損壞"
+    },
+    {
+      "id": "phrasal-verb-226-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Although fire destroyed the inside of the bus, its metal frame remained.",
+      "promptZh": "雖然大火燒毀了巴士內部,但金屬車架仍然保留。",
+      "starter": "Although",
+      "answer": "Although the bus was burnt out, its metal frame remained.",
+      "answerZh": "雖然巴士內部被大火燒毀,但金屬車架仍然保留。",
+      "highlight": "was burnt out",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把車輛或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They had completely destroyed the old house by fire before the road was built.",
+      "promptZh": "道路興建前,他們已經用火完全燒毀那座舊屋。",
+      "starter": "They",
+      "answer": "They had burnt the old house down before the road was built.",
+      "answerZh": "道路興建前,他們已經用火燒毀那座舊屋。",
+      "highlight": "burnt",
+      "targetForm": "burn something down",
+      "targetMeaningZh": "把建築物燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "After months without a proper break, he had become completely exhausted through overwork.",
+      "promptZh": "幾個月沒有適當休息後,他已因過度工作而身心耗盡。",
+      "starter": "After",
+      "answer": "After months without a proper break, he had burnt himself out.",
+      "answerZh": "幾個月沒有適當休息後,他已因過度工作而身心耗盡。",
+      "highlight": "burnt himself out",
+      "targetForm": "burn yourself out",
+      "targetMeaningZh": "令自己因過度勞累而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Only the edge of the cloth slowly disappeared in the flames.",
+      "promptZh": "只有布料的邊緣在火焰中逐漸燒掉。",
+      "starter": "Only",
+      "answer": "Only the edge of the cloth burnt away.",
+      "answerZh": "只有布料的邊緣逐漸燒掉。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The candles must not be left until they stop burning on their own.",
+      "promptZh": "不可任由蠟燭自行燃燒至熄滅。",
+      "starter": "The",
+      "answer": "The candles must not be left to burn out on their own.",
+      "answerZh": "不可任由蠟燭自行燃燒至熄滅。",
+      "highlight": "to burn out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因燃料耗盡而熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "It makes me very angry when people leave rubbish on the beach.",
+      "promptZh": "有人在沙灘留下垃圾時,我會非常生氣。",
+      "starter": "It",
+      "answer": "It burns me up when people leave rubbish on the beach.",
+      "answerZh": "有人在沙灘留下垃圾時,我會非常生氣。",
+      "highlight": "burns",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The workers removed it with heat before adding a new layer of paint.",
+      "promptZh": "工人在塗上新一層油漆前,用高熱把它除去。",
+      "starter": "The",
+      "answer": "The workers burnt it off before adding a new layer of paint.",
+      "answerZh": "工人在塗上新一層油漆前,用高熱把它除去。",
+      "highlight": "burnt",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The machine kept stopping because one wire had become too hot and no longer worked.",
+      "promptZh": "機器不斷停止運作,因為其中一條電線過熱並已損壞。",
+      "starter": "The",
+      "answer": "The machine kept stopping because one wire had burnt out.",
+      "answerZh": "機器不斷停止運作,因為其中一條電線已經過熱損壞。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "機器或零件因過熱而停止運作"
+    },
+    {
+      "id": "phrasal-verb-226-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Several old files were completely destroyed in the office fire.",
+      "promptZh": "幾份舊文件在辦公室火災中被完全燒毀。",
+      "starter": "Several",
+      "answer": "Several old files were burnt up in the office fire.",
+      "answerZh": "幾份舊文件在辦公室火災中被完全燒毀。",
+      "highlight": "burnt up",
+      "targetForm": "burn something up",
+      "targetMeaningZh": "把某物完全燒掉"
+    },
+    {
+      "id": "phrasal-verb-226-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Should we let the fire become smaller before moving the pot?",
+      "promptZh": "我們是否應先讓火勢減弱,才移動鍋子?",
+      "starter": "Should",
+      "answer": "Should we let the fire burn down before moving the pot?",
+      "answerZh": "我們是否應先讓火勢減弱,才移動鍋子?",
+      "highlight": "burn down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "No one should be allowed to set fire to homes in order to force the residents to leave.",
+      "promptZh": "任何人都不應獲准放火燒屋,以逼居民離開。",
+      "starter": "No",
+      "answer": "No one should be allowed to burn residents out of their homes.",
+      "answerZh": "任何人都不應獲准放火逼居民離開住所。",
+      "highlight": "burn residents out of their",
+      "targetForm": "burn somebody out of something",
+      "targetMeaningZh": "用火逼某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-226-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The fire completely destroyed it in less than an hour.",
+      "promptZh": "大火在不足一小時內把它完全燒毀。",
+      "starter": "The",
+      "answer": "The fire burnt it down in less than an hour.",
+      "answerZh": "大火在不足一小時內把它完全燒毀。",
+      "highlight": "burnt",
+      "targetForm": "burn something down",
+      "targetMeaningZh": "把建築物燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Once the last piece of wood was gone, the fire stopped burning by itself.",
+      "promptZh": "最後一塊木柴燒完後,火便自行熄滅。",
+      "starter": "Once",
+      "answer": "Once the last piece of wood was gone, the fire burnt itself out.",
+      "answerZh": "最後一塊木柴燒完後,火便自行熄滅。",
+      "highlight": "burnt",
+      "targetForm": "burn itself out",
+      "targetMeaningZh": "自行燃燒至熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If you keep accepting extra work, you will make yourself completely exhausted.",
+      "promptZh": "如果你不斷接受額外工作,便會令自己身心耗盡。",
+      "starter": "If",
+      "answer": "If you keep accepting extra work, you will burn yourself out.",
+      "answerZh": "如果你不斷接受額外工作,便會令自己身心耗盡。",
+      "highlight": "burn",
+      "targetForm": "burn yourself out",
+      "targetMeaningZh": "令自己因過度勞累而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Can the thick paint be removed safely with heat?",
+      "promptZh": "這層厚油漆可以安全地用高熱除去嗎?",
+      "starter": "Can",
+      "answer": "Can the thick paint be burnt off safely?",
+      "answerZh": "這層厚油漆可以安全地用高熱除去嗎?",
+      "highlight": "burnt off",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The small box fell into the fire and was completely destroyed.",
+      "promptZh": "小盒子掉進火裏,並被完全燒毀。",
+      "starter": "The",
+      "answer": "The small box fell into the fire and burnt up completely.",
+      "answerZh": "小盒子掉進火裏,並完全燒毀。",
+      "highlight": "burnt up",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因火或高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The paper did not merely become dark; the fire destroyed it completely.",
+      "promptZh": "這張紙不只是變黑,而是被火完全燒掉。",
+      "starter": "The",
+      "answer": "The paper did not merely darken; it burnt up completely.",
+      "answerZh": "這張紙不只是變黑,而是完全燒掉了。",
+      "highlight": "darken",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因火或高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The men set several fires in an attempt to force the farmer to leave the area.",
+      "promptZh": "那些人多次放火,企圖逼農夫離開該區。",
+      "starter": "The",
+      "answer": "The men set several fires in an attempt to burn the farmer out of the area.",
+      "answerZh": "那些人多次放火,企圖逼農夫離開該區。",
+      "highlight": "burn",
+      "targetForm": "burn somebody out of something",
+      "targetMeaningZh": "用火逼某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-226-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "By the time help arrived, much of the wooden fence had slowly disappeared in the flames.",
+      "promptZh": "救援到達時,大部分木圍欄已在火焰中逐漸燒掉。",
+      "starter": "By",
+      "answer": "By the time help arrived, much of the wooden fence had burnt away.",
+      "answerZh": "救援到達時,大部分木圍欄已經逐漸燒掉。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The fan has not simply stopped; its motor has overheated and no longer works.",
+      "promptZh": "風扇並非只是停下來;它的馬達已經過熱損壞。",
+      "starter": "The",
+      "answer": "The fan has not simply stopped; its motor has burnt out.",
+      "answerZh": "風扇並非只是停下來;它的馬達已經過熱損壞。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "機器或零件因過熱而停止運作"
+    },
+    {
+      "id": "phrasal-verb-226-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Although the neighbouring shop survived, the café was completely destroyed by fire.",
+      "promptZh": "雖然鄰近店舖得以保留,但咖啡店被大火完全燒毀。",
+      "starter": "Although",
+      "answer": "Although the neighbouring shop survived, the café burnt down completely.",
+      "answerZh": "雖然鄰近店舖得以保留,但咖啡店被大火完全燒毀。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "建築物被火燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "What makes him angriest is being blamed for someone else’s mistake.",
+      "promptZh": "最令他生氣的是要為別人的錯誤承擔責任。",
+      "starter": "What",
+      "answer": "What burns him up most is being blamed for someone else’s mistake.",
+      "answerZh": "最令他生氣的是要為別人的錯誤承擔責任。",
+      "highlight": "burns",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The flames became smaller and then stopped burning completely when the fuel was gone.",
+      "promptZh": "燃料用盡後,火焰先逐漸變小,然後完全熄滅。",
+      "starter": "The",
+      "answer": "The flames became smaller and then burnt out when the fuel was gone.",
+      "answerZh": "燃料用盡後,火焰先逐漸變小,然後完全熄滅。",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因燃料耗盡而熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Only the outer shell remained after the fire destroyed the inside of the car.",
+      "promptZh": "大火燒毀汽車內部後,只剩下外殼。",
+      "starter": "Only",
+      "answer": "Only the outer shell remained after the fire had burnt the car out.",
+      "answerZh": "大火燒毀汽車內部後,只剩下外殼。",
+      "highlight": "had burnt",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把車輛或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "As the fire became smaller, the room slowly became colder.",
+      "promptZh": "隨着火勢減弱,房間慢慢變冷。",
+      "starter": "As",
+      "answer": "As the fire burnt down, the room slowly became colder.",
+      "answerZh": "隨着火勢減弱,房間慢慢變冷。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before the metal can be repaired, the old finish must be removed with heat.",
+      "promptZh": "修理金屬前,必須先用高熱除去舊表層。",
+      "starter": "Before",
+      "answer": "Before the metal can be repaired, the old finish must be burnt off.",
+      "answerZh": "修理金屬前,必須先用高熱除去舊表層。",
+      "highlight": "burnt off",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "She did not become completely exhausted at once; it happened slowly over the year.",
+      "promptZh": "她並非立即身心耗盡,而是在一年間慢慢變得疲憊不堪。",
+      "starter": "She",
+      "answer": "She did not burn out at once; it happened slowly over the year.",
+      "answerZh": "她並非立即身心耗盡,而是在一年間慢慢變得疲憊不堪。",
+      "highlight": "burn out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因過度工作或壓力而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The flames slowly destroyed the thin string without damaging the metal hook.",
+      "promptZh": "火焰逐漸燒掉幼繩,但沒有損壞金屬鈎。",
+      "starter": "The",
+      "answer": "The flames burnt away the thin string without damaging the metal hook.",
+      "answerZh": "火焰逐漸燒掉幼繩,但沒有損壞金屬鈎。",
+      "highlight": "burnt away",
+      "targetForm": "burn something away",
+      "targetMeaningZh": "逐漸把某物燒掉"
+    },
+    {
+      "id": "phrasal-verb-226-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Running the pump without water may overheat the motor and make it stop working.",
+      "promptZh": "水泵在沒有水的情況下運作,可能令馬達過熱並停止運作。",
+      "starter": "Running",
+      "answer": "Running the pump without water may burn the motor out.",
+      "answerZh": "水泵在沒有水的情況下運作,可能令馬達過熱損壞。",
+      "highlight": "burn",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "令機器或零件因過熱而損壞"
+    },
+    {
+      "id": "phrasal-verb-226-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The family refused to be forced from the village by fires.",
+      "promptZh": "那個家庭拒絕因火災威脅而被逼離開村落。",
+      "starter": "The",
+      "answer": "The family refused to be burnt out of the village.",
+      "answerZh": "那個家庭拒絕因火災威脅而被逼離開村落。",
+      "highlight": "burnt out of",
+      "targetForm": "burn somebody out of something",
+      "targetMeaningZh": "用火逼某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-226-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "That kind of careless waste makes us very angry.",
+      "promptZh": "那種粗心浪費的行為令我們非常生氣。",
+      "starter": "That",
+      "answer": "That kind of careless waste really burns us up.",
+      "answerZh": "那種粗心浪費的行為令我們非常生氣。",
+      "highlight": "really burns",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The fire destroyed the inside of the flat, although the building itself did not fall.",
+      "promptZh": "大火燒毀了單位內部,但建築物本身沒有倒塌。",
+      "starter": "The",
+      "answer": "The flat was burnt out, although the building itself did not fall.",
+      "answerZh": "單位內部被大火燒毀,但建築物本身沒有倒塌。",
+      "highlight": "was burnt out",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把房間或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before the old door was reused, trained workers removed the damaged paint with heat.",
+      "promptZh": "重用舊門前,受過訓練的工人用高熱除去損壞的油漆。",
+      "starter": "Before",
+      "answer": "Before the old door was reused, trained workers burnt the damaged paint off.",
+      "answerZh": "重用舊門前,受過訓練的工人用高熱除去損壞的油漆。",
+      "highlight": "burnt",
+      "targetForm": "burn something off",
+      "targetMeaningZh": "用火或高熱除去表面的一層東西"
+    },
+    {
+      "id": "phrasal-verb-226-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Once the fire has become small enough, we can cook over the coals.",
+      "promptZh": "火勢減弱至適當程度後,我們便可以用煤火煮食。",
+      "starter": "Once",
+      "answer": "Once the fire has burnt down enough, we can cook over the coals.",
+      "answerZh": "火勢減弱至適當程度後,我們便可以用煤火煮食。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "You may finish the project faster, but you could make yourself completely exhausted in the process.",
+      "promptZh": "你可能會更快完成項目,但過程中可能令自己身心耗盡。",
+      "starter": "You",
+      "answer": "You may finish the project faster, but you could burn yourself out in the process.",
+      "answerZh": "你可能會更快完成項目,但過程中可能令自己身心耗盡。",
+      "highlight": "burn",
+      "targetForm": "burn yourself out",
+      "targetMeaningZh": "令自己因過度勞累而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "By the time the firefighters arrived, the empty hotel had been completely destroyed by fire.",
+      "promptZh": "消防員到達時,空置酒店已被大火完全燒毀。",
+      "starter": "By",
+      "answer": "By the time the firefighters arrived, the empty hotel had burnt down.",
+      "answerZh": "消防員到達時,空置酒店已被大火完全燒毀。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "建築物被火燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Any paper left inside the hot machine could be completely destroyed by the heat.",
+      "promptZh": "任何留在高溫機器內的紙張都可能被完全燒掉。",
+      "starter": "Any",
+      "answer": "Any paper left inside the hot machine could burn up.",
+      "answerZh": "任何留在高溫機器內的紙張都可能完全燒掉。",
+      "highlight": "burn up",
+      "targetForm": "burn up",
+      "targetMeaningZh": "因火或高熱而完全燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The fire was left alone and eventually stopped burning by itself.",
+      "promptZh": "那堆火沒有人處理,最後自行熄滅。",
+      "starter": "The",
+      "answer": "The fire was left alone and eventually burnt itself out.",
+      "answerZh": "那堆火沒有人處理,最後自行熄滅。",
+      "highlight": "burnt",
+      "targetForm": "burn itself out",
+      "targetMeaningZh": "自行燃燒至熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The attackers wanted the fire to force the family to leave, not merely to damage the house.",
+      "promptZh": "襲擊者希望利用大火逼那個家庭離開,而不只是破壞房屋。",
+      "starter": "The",
+      "answer": "The attack was meant to burn the family out, not merely damage the house.",
+      "answerZh": "襲擊者企圖利用大火逼那個家庭離開,而不只是破壞房屋。",
+      "highlight": "attack was meant",
+      "targetForm": "burn somebody out",
+      "targetMeaningZh": "用火逼某人離開"
+    },
+    {
+      "id": "phrasal-verb-226-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "If the cooling system fails, the engine may overheat and stop working before the journey ends.",
+      "promptZh": "如果冷卻系統失靈,引擎可能在旅程結束前過熱並停止運作。",
+      "starter": "If",
+      "answer": "If the cooling system fails, the engine may burn out before the journey ends.",
+      "answerZh": "如果冷卻系統失靈,引擎可能在旅程結束前過熱損壞。",
+      "highlight": "burn out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "機器或零件因過熱而停止運作"
+    },
+    {
+      "id": "phrasal-verb-226-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the book was not completely destroyed, several pages had slowly disappeared in the flames.",
+      "promptZh": "雖然整本書沒有完全燒毀,但有幾頁已在火焰中逐漸燒掉。",
+      "starter": "Although",
+      "answer": "Although the book was not completely destroyed, several pages had burnt away.",
+      "answerZh": "雖然整本書沒有完全燒毀,但有幾頁已經逐漸燒掉。",
+      "highlight": "burnt away",
+      "targetForm": "burn away",
+      "targetMeaningZh": "在燃燒中逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-226-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "It still makes her very angry that nobody admitted the mistake.",
+      "promptZh": "沒有人承認錯誤,這件事至今仍令她非常生氣。",
+      "starter": "It",
+      "answer": "It still burns her up that nobody admitted the mistake.",
+      "answerZh": "沒有人承認錯誤,這件事至今仍令她非常生氣。",
+      "highlight": "burns",
+      "targetForm": "burn somebody up",
+      "targetMeaningZh": "令某人非常生氣"
+    },
+    {
+      "id": "phrasal-verb-226-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The whole building remained standing, but fire destroyed the inside of three rooms.",
+      "promptZh": "整座建築物仍然屹立,但三個房間的內部被大火燒毀。",
+      "starter": "The",
+      "answer": "The whole building remained standing, but three rooms were burnt out.",
+      "answerZh": "整座建築物仍然屹立,但三個房間的內部被大火燒毀。",
+      "highlight": "were burnt out",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "把房間或地方的內部燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "We kept a safe distance while the large fire slowly became smaller.",
+      "promptZh": "大火逐漸減弱時,我們一直保持安全距離。",
+      "starter": "We",
+      "answer": "We kept a safe distance while the large fire slowly burnt down.",
+      "answerZh": "大火逐漸減弱時,我們一直保持安全距離。",
+      "highlight": "burnt down",
+      "targetForm": "burn down",
+      "targetMeaningZh": "火勢逐漸減弱"
+    },
+    {
+      "id": "phrasal-verb-226-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Someone tried to destroy the community hall by fire, but the fire was stopped quickly.",
+      "promptZh": "有人企圖放火燒毀社區禮堂,但火勢很快便受到控制。",
+      "starter": "Someone",
+      "answer": "Someone tried to burn the community hall down, but the fire was stopped quickly.",
+      "answerZh": "有人企圖放火燒毀社區禮堂,但火勢很快便受到控制。",
+      "highlight": "burn",
+      "targetForm": "burn something down",
+      "targetMeaningZh": "把建築物燒毀"
+    },
+    {
+      "id": "phrasal-verb-226-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Had the candle stopped burning completely before you returned?",
+      "promptZh": "你回來前,蠟燭是否已經完全熄滅?",
+      "starter": "Had",
+      "answer": "Had the candle burnt out before you returned?",
+      "answerZh": "你回來前,蠟燭是否已經完全熄滅?",
+      "highlight": "burnt out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因燃料耗盡而熄滅"
+    },
+    {
+      "id": "phrasal-verb-226-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The coach had worked without rest for weeks and was close to complete exhaustion.",
+      "promptZh": "教練連續數星期沒有休息,已接近身心耗盡。",
+      "starter": "The",
+      "answer": "The coach had worked without rest for weeks and was close to burning out.",
+      "answerZh": "教練連續數星期沒有休息,已接近身心耗盡。",
+      "highlight": "burning out",
+      "targetForm": "burn out",
+      "targetMeaningZh": "因過度工作或壓力而身心耗盡"
+    },
+    {
+      "id": "phrasal-verb-226-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The heavy load had overheated the small motor and made it stop working before anyone noticed the problem.",
+      "promptZh": "沉重的負荷令小型馬達過熱並停止運作,但當時沒有人察覺問題。",
+      "starter": "The",
+      "answer": "The heavy load had burnt the small motor out before anyone noticed the problem.",
+      "answerZh": "沉重的負荷令小型馬達過熱損壞,但當時沒有人察覺問題。",
+      "highlight": "burnt",
+      "targetForm": "burn something out",
+      "targetMeaningZh": "令機器或零件因過熱而損壞"
+    }
+  ]
+}

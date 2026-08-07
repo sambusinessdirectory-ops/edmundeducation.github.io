@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-42",
+  "order": 42,
+  "slug": "identify",
+  "version": "1",
+  "title": "IDENTIFY 動詞片語",
+  "titleEn": "Identify",
+  "titleZh": "IDENTIFY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 41 - IDENTIFY.pdf",
+    "sourceNumber": 41,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 IDENTIFY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to IDENTIFY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "IDENTIFY",
+      "highlight": "IDENTIFY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Many viewers identify the actor with his most famous role.",
+      "zh": "很多觀眾把這名演員與他最著名的角色聯繫起來。",
+      "highlight": "identify the actor with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Many people identify beauty with youth.",
+      "zh": "很多人把美貌與青春聯繫起來。",
+      "highlight": "identify beauty with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Young readers can identify with the main character.",
+      "zh": "年輕讀者能夠對主角產生共鳴。",
+      "highlight": "identify with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人與另一個人、團體、地方、角色或事物聯繫起來；把一件事物與另一件事物聯繫或等同起來；對某人、某種經歷或某個想法產生共鳴;感同身受；公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+    "en": "identify somebody with somebody/something; identify something with something; identify with somebody/something; identify yourself with somebody/something; be identified with somebody/something",
+    "naturalZh": [
+      "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+      "把一件事物與另一件事物聯繫或等同起來",
+      "對某人、某種經歷或某個想法產生共鳴;感同身受",
+      "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "identify somebody with somebody/something",
+      "titleZh": "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+      "titleEn": "identify somebody with somebody/something",
+      "descriptionZh": "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+      "descriptionEn": "Many viewers identify the actor with his most famous role.",
+      "examples": [
+        {
+          "en": "Many viewers identify the actor with his most famous role.",
+          "zh": "很多觀眾把這名演員與他最著名的角色聯繫起來。",
+          "highlight": "identify the actor with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "identify something with something",
+      "titleZh": "把一件事物與另一件事物聯繫或等同起來",
+      "titleEn": "identify something with something",
+      "descriptionZh": "把一件事物與另一件事物聯繫或等同起來",
+      "descriptionEn": "Many people identify beauty with youth.",
+      "examples": [
+        {
+          "en": "Many people identify beauty with youth.",
+          "zh": "很多人把美貌與青春聯繫起來。",
+          "highlight": "identify beauty with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "identify with somebody/something",
+      "titleZh": "對某人、某種經歷或某個想法產生共鳴;感同身受",
+      "titleEn": "identify with somebody/something",
+      "descriptionZh": "對某人、某種經歷或某個想法產生共鳴;感同身受",
+      "descriptionEn": "Young readers can identify with the main character.",
+      "examples": [
+        {
+          "en": "Young readers can identify with the main character.",
+          "zh": "年輕讀者能夠對主角產生共鳴。",
+          "highlight": "identify with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "identify yourself with somebody/something; be identified with somebody/something",
+      "titleZh": "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+      "titleEn": "identify yourself with somebody/something; be identified with somebody/something",
+      "descriptionZh": "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+      "descriptionEn": "She refused to identify herself with the group.",
+      "examples": [
+        {
+          "en": "She refused to identify herself with the group.",
+          "zh": "她拒絕公開表明自己支持該團體。",
+          "highlight": "identify herself with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "IDENTIFY 片語動詞的實際用途",
+    "labelEn": "IDENTIFY Phrasal Verbs in Use",
+    "summaryZh": "identify somebody with something 可以表示人們把某人與某個角色、團體或過往經歷緊密聯繫起來。；identify something with something 可以用來表達把成功與金錢、美貌與青春等概念聯繫起來的看法。；identify with 可以表示你因為有相似經歷,所以能夠理解另一個人的感受。；identify yourself with 和 be identified with 可以表示某人是否希望被公開視為與某個團體、活動或立場有關。",
+    "summaryEn": "Identify somebody with something can show that people strongly connect a person with a particular role, group or part of their past. Identify something with something helps you explain beliefs such as connecting success with money or beauty with youth. Identify with helps you say that you understand another person’s feelings because you have had a similar experience. Identify yourself with and be identified with can describe whether someone wishes to be publicly connected with a group, campaign or set of beliefs.",
+    "contextsZh": [
+      "說明某人如何與角色、家庭或組織產生聯繫",
+      "談論人們認為互相關聯的概念",
+      "表達對人物和經歷的共鳴",
+      "表達公開支持某團體或與其保持距離"
+    ],
+    "contextsEn": [
+      "Explain how people become connected with a role, family or organisation",
+      "Talk about ideas that people believe belong together",
+      "Express a personal connection with characters and experiences",
+      "Show public support or distance from a group"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 IDENTIFY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the IDENTIFY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "identify somebody with somebody/something",
+    "fixedHighlight": "identify somebody with somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 IDENTIFY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the IDENTIFY expression that gives the same meaning.",
+    "correct": "identify the actor with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；identify somebody with somebody/something 表示人們把某人與另一個人、團體、地方或活動聯繫起來。；identify with somebody 表示理解某人的感受或覺得自己有相似經歷;identify yourself with agroup 則表示公開表明自己支持該團體。",
+    "variableEn": "Keep the same people, things, time and meaning. Identify somebody with somebody or something means that people connect that person with another person, group, place or activity. Identify with somebody means that you understand the person’s feelings or feel that your experience is similar. Identify yourself with a group means that you openly show your support for it.",
+    "variableItemsZh": [
+      "identify somebody with somebody/something",
+      "identify something with something",
+      "identify with somebody/something",
+      "identify yourself with somebody/something; be identified with somebody/something"
+    ],
+    "variableItemsEn": [
+      "identify somebody with somebody/something",
+      "identify something with something",
+      "identify with somebody/something",
+      "identify yourself with somebody/something; be identified with somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+        "formEn": "identify somebody with somebody/something",
+        "exampleZh": "很多觀眾把這名演員與他最著名的角色聯繫起來。",
+        "exampleEn": "Many viewers identify the actor with his most famous role.",
+        "highlight": "identify the actor with"
+      },
+      {
+        "formZh": "把一件事物與另一件事物聯繫或等同起來",
+        "formEn": "identify something with something",
+        "exampleZh": "很多人把美貌與青春聯繫起來。",
+        "exampleEn": "Many people identify beauty with youth.",
+        "highlight": "identify beauty with"
+      },
+      {
+        "formZh": "對某人、某種經歷或某個想法產生共鳴;感同身受",
+        "formEn": "identify with somebody/something",
+        "exampleZh": "年輕讀者能夠對主角產生共鳴。",
+        "exampleEn": "Young readers can identify with the main character.",
+        "highlight": "identify with"
+      },
+      {
+        "formZh": "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+        "formEn": "identify yourself with somebody/something; be identified with somebody/something",
+        "exampleZh": "她拒絕公開表明自己支持該團體。",
+        "exampleEn": "She refused to identify herself with the group.",
+        "highlight": "identify herself with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+      "titleEn": "identify somebody with somebody/something",
+      "formula": "identify somebody with somebody/something",
+      "highlight": "identify somebody with somebody/something",
+      "descriptionZh": "把某人與另一個人、團體、地方、角色或事物聯繫起來",
+      "descriptionEn": "Many viewers identify the actor with his most famous role.",
+      "examples": [
+        {
+          "en": "Many viewers identify the actor with his most famous role.",
+          "zh": "很多觀眾把這名演員與他最著名的角色聯繫起來。",
+          "highlight": "identify the actor with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把一件事物與另一件事物聯繫或等同起來",
+      "titleEn": "identify something with something",
+      "formula": "identify something with something",
+      "highlight": "identify something with something",
+      "descriptionZh": "把一件事物與另一件事物聯繫或等同起來",
+      "descriptionEn": "Many people identify beauty with youth.",
+      "examples": [
+        {
+          "en": "Many people identify beauty with youth.",
+          "zh": "很多人把美貌與青春聯繫起來。",
+          "highlight": "identify beauty with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "對某人、某種經歷或某個想法產生共鳴;感同身受",
+      "titleEn": "identify with somebody/something",
+      "formula": "identify with somebody/something",
+      "highlight": "identify with somebody/something",
+      "descriptionZh": "對某人、某種經歷或某個想法產生共鳴;感同身受",
+      "descriptionEn": "Young readers can identify with the main character.",
+      "examples": [
+        {
+          "en": "Young readers can identify with the main character.",
+          "zh": "年輕讀者能夠對主角產生共鳴。",
+          "highlight": "identify with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+      "titleEn": "identify yourself with somebody/something; be identified with somebody/something",
+      "formula": "identify yourself with somebody/something; be identified with somebody/something",
+      "highlight": "identify yourself with somebody/something; be identified with somebody/something",
+      "descriptionZh": "公開表明自己支持某人、團體或立場;被視為與某人、團體或立場一致",
+      "descriptionEn": "She refused to identify herself with the group.",
+      "examples": [
+        {
+          "en": "She refused to identify herself with the group.",
+          "zh": "她拒絕公開表明自己支持該團體。",
+          "highlight": "identify herself with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "說明某人如何與角色、家庭或組織產生聯繫",
+      "titleEn": "Explain how people become connected with a role, family or organisation",
+      "zh": "identify somebody with something 可以表示人們把某人與某個角色、團體或過往經歷緊密聯繫起來。",
+      "en": "Identify somebody with something can show that people strongly connect a person with a particular role, group or part of their past."
+    },
+    {
+      "titleZh": "談論人們認為互相關聯的概念",
+      "titleEn": "Talk about ideas that people believe belong together",
+      "zh": "identify something with something 可以用來表達把成功與金錢、美貌與青春等概念聯繫起來的看法。",
+      "en": "Identify something with something helps you explain beliefs such as connecting success with money or beauty with youth."
+    },
+    {
+      "titleZh": "表達對人物和經歷的共鳴",
+      "titleEn": "Express a personal connection with characters and experiences",
+      "zh": "identify with 可以表示你因為有相似經歷,所以能夠理解另一個人的感受。",
+      "en": "Identify with helps you say that you understand another person’s feelings because you have had a similar experience."
+    },
+    {
+      "titleZh": "表達公開支持某團體或與其保持距離",
+      "titleEn": "Show public support or distance from a group",
+      "zh": "identify yourself with 和 be identified with 可以表示某人是否希望被公開視為與某個團體、活動或立場有關。",
+      "en": "Identify yourself with and be identified with can describe whether someone wishes to be publicly connected with a group, campaign or set of beliefs."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "說明某人如何與角色、家庭或組織產生聯繫",
+      "談論人們認為互相關聯的概念",
+      "表達對人物和經歷的共鳴",
+      "表達公開支持某團體或與其保持距離"
+    ],
+    "contextsEn": [
+      "Explain how people become connected with a role, family or organisation",
+      "Talk about ideas that people believe belong together",
+      "Express a personal connection with characters and experiences",
+      "Show public support or distance from a group"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "說明某人如何與角色、家庭或組織產生聯繫",
+        "titleEn": "Explain how people become connected with a role, family or organisation",
+        "zh": "identify somebody with something 可以表示人們把某人與某個角色、團體或過往經歷緊密聯繫起來。",
+        "en": "Identify somebody with something can show that people strongly connect a person with a particular role, group or part of their past.",
+        "examples": [
+          {
+            "en": "Many viewers identify the actor with his most famous role.",
+            "zh": "很多觀眾把這名演員與他最著名的角色聯繫起來。",
+            "highlight": "identify the actor with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論人們認為互相關聯的概念",
+        "titleEn": "Talk about ideas that people believe belong together",
+        "zh": "identify something with something 可以用來表達把成功與金錢、美貌與青春等概念聯繫起來的看法。",
+        "en": "Identify something with something helps you explain beliefs such as connecting success with money or beauty with youth.",
+        "examples": [
+          {
+            "en": "Many people identify beauty with youth.",
+            "zh": "很多人把美貌與青春聯繫起來。",
+            "highlight": "identify beauty with"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達對人物和經歷的共鳴",
+        "titleEn": "Express a personal connection with characters and experiences",
+        "zh": "identify with 可以表示你因為有相似經歷,所以能夠理解另一個人的感受。",
+        "en": "Identify with helps you say that you understand another person’s feelings because you have had a similar experience.",
+        "examples": [
+          {
+            "en": "Young readers can identify with the main character.",
+            "zh": "年輕讀者能夠對主角產生共鳴。",
+            "highlight": "identify with"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達公開支持某團體或與其保持距離",
+        "titleEn": "Show public support or distance from a group",
+        "zh": "identify yourself with 和 be identified with 可以表示某人是否希望被公開視為與某個團體、活動或立場有關。",
+        "en": "Identify yourself with and be identified with can describe whether someone wishes to be publicly connected with a group, campaign or set of beliefs.",
+        "examples": [
+          {
+            "en": "She refused to identify herself with the group.",
+            "zh": "她拒絕公開表明自己支持該團體。",
+            "highlight": "identify herself with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 IDENTIFY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the IDENTIFY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 IDENTIFY 片語動詞。",
+      "en": "Read the whole sentence and choose the IDENTIFY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "identify somebody with somebody/something 表示人們把某人與另一個人、團體、地方或活動聯繫起來。",
+      "titleEn": "Identify somebody with somebody or something means that people connect that person with another person, group, place or activity.",
+      "zh": "identify somebody with somebody/something 表示人們把某人與另一個人、團體、地方或活動聯繫起來。",
+      "en": "Identify somebody with somebody or something means that people connect that person with another person, group, place or activity."
+    },
+    {
+      "titleZh": "identify with somebody 表示理解某人的感受或覺得自己有相似經歷;identify yourself with agroup 則表示公開表明自己支持該團體。",
+      "titleEn": "Identify with somebody means that you understand the person’s feelings or feel that your experience is similar.",
+      "zh": "identify with somebody 表示理解某人的感受或覺得自己有相似經歷;identify yourself with agroup 則表示公開表明自己支持該團體。",
+      "en": "Identify with somebody means that you understand the person’s feelings or feel that your experience is similar. Identify yourself with a group means that you openly show your support for it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 IDENTIFY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to IDENTIFY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "IDENTIFY 動詞片語句子改寫練習",
+    "titleEn": "IDENTIFY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 IDENTIFY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to IDENTIFY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-42-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Many viewers connected the actor in their minds with the detective he played.",
+      "promptZh": "很多觀眾把這名演員與他飾演的偵探聯繫起來。",
+      "starter": "Many",
+      "answer": "Many viewers identified the actor with the detective he played.",
+      "answerZh": "很多觀眾把這名演員與他飾演的偵探聯繫起來。",
+      "highlight": "identified",
+      "targetForm": "identify somebody with somebody/something",
+      "targetMeaningZh": "把某人與另一個人、角色或事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I understand how Maya feels because I have also changed schools.",
+      "promptZh": "我明白瑪雅的感受,因為我也曾經轉校。",
+      "starter": "I",
+      "answer": "I can identify with Maya because I have also changed schools.",
+      "answerZh": "我能夠理解瑪雅的感受,因為我也曾經轉校。",
+      "highlight": "can identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對某人或某種經歷產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Many people think beauty and youth always go together.",
+      "promptZh": "很多人認為美貌和青春總是互相關聯。",
+      "starter": "Many",
+      "answer": "Many people identify beauty with youth.",
+      "answerZh": "很多人把美貌與青春聯繫起來。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一件事物聯繫或等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He refused to show publicly that he supported the new political party.",
+      "promptZh": "他拒絕公開表明自己支持這個新政黨。",
+      "starter": "He",
+      "answer": "He refused to identify himself with the new political party.",
+      "answerZh": "他拒絕公開表明自己支持這個新政黨。",
+      "highlight": "identify himself with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某人、團體或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She did not want people to connect her with her parents’ business.",
+      "promptZh": "她不想別人把她與父母的生意聯繫起來。",
+      "starter": "She",
+      "answer": "She did not want to be identified with her parents’ business.",
+      "answerZh": "她不想被人與父母的生意聯繫起來。",
+      "highlight": "be identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人視為與某人或某事物有關"
+    },
+    {
+      "id": "phrasal-verb-42-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Young readers can understand and share the feelings of the shy main character.",
+      "promptZh": "年輕讀者能夠理解這名害羞主角的感受。",
+      "starter": "Young",
+      "answer": "Young readers can identify with the shy main character.",
+      "answerZh": "年輕讀者能夠對這名害羞的主角產生共鳴。",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解某人的感受並產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Some people think success always means having a lot of money.",
+      "promptZh": "有些人認為成功必定代表擁有很多金錢。",
+      "starter": "Some",
+      "answer": "Some people identify success with having a lot of money.",
+      "answerZh": "有些人把成功等同於擁有很多金錢。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一件事物聯繫或等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Fans still connect the singer with her first band.",
+      "promptZh": "樂迷仍然把這名歌手與她的第一支樂隊聯繫起來。",
+      "starter": "Fans",
+      "answer": "Fans still identify the singer with her first band.",
+      "answerZh": "樂迷仍然把這名歌手與她的第一支樂隊聯繫起來。",
+      "highlight": "identify",
+      "targetForm": "identify somebody with somebody/something",
+      "targetMeaningZh": "把某人與某個團體或事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Leo felt that he understood the boy who was afraid to speak in class.",
+      "promptZh": "里奧覺得自己明白那個害怕在課堂上發言的男孩。",
+      "starter": "Leo",
+      "answer": "Leo identified with the boy who was afraid to speak in class.",
+      "answerZh": "里奧對那個害怕在課堂上發言的男孩產生了共鳴。",
+      "highlight": "identified with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對某人產生共鳴;理解某人的感受"
+    },
+    {
+      "id": "phrasal-verb-42-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The charity does not want people to think it supports any political party.",
+      "promptZh": "該慈善機構不想別人認為它支持任何政黨。",
+      "starter": "The",
+      "answer": "The charity does not want to be identified with any political party.",
+      "answerZh": "該慈善機構不希望被視為支持任何政黨。",
+      "highlight": "be identified with",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被視為支持某個團體或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The colour green is often connected with nature.",
+      "promptZh": "綠色經常與大自然聯繫起來。",
+      "starter": "The",
+      "answer": "The colour green is often identified with nature.",
+      "answerZh": "綠色經常與大自然聯繫起來。",
+      "highlight": "identified",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一件事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Mina has publicly shown that she supports the school campaign.",
+      "promptZh": "米娜已公開表明自己支持學校的活動。",
+      "starter": "Mina",
+      "answer": "Mina has identified herself with the school campaign.",
+      "answerZh": "米娜已公開表明自己支持學校的活動。",
+      "highlight": "identified herself with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某項活動或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The public often connects the chef with the TV show that made him famous.",
+      "promptZh": "大眾經常把這名廚師與令他成名的電視節目聯繫起來。",
+      "starter": "The",
+      "answer": "The public often identifies the chef with the TV show that made him famous.",
+      "answerZh": "大眾經常把這名廚師與令他成名的電視節目聯繫起來。",
+      "highlight": "identifies",
+      "targetForm": "identify somebody with somebody/something",
+      "targetMeaningZh": "把某人與某個活動或事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Do you feel that you understand any of the characters in this book?",
+      "promptZh": "你是否覺得自己能夠理解這本書中的任何角色?",
+      "starter": "Do",
+      "answer": "Do you identify with any of the characters in this book?",
+      "answerZh": "你是否對這本書中的任何角色產生共鳴?",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對人物或經歷產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Our school wants people to connect its name with kindness.",
+      "promptZh": "我們的學校希望人們把校名與友善聯繫起來。",
+      "starter": "Our",
+      "answer": "Our school wants people to identify its name with kindness.",
+      "answerZh": "我們的學校希望人們把校名與友善聯繫起來。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一種特質聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They will not publicly support a group that they do not trust.",
+      "promptZh": "他們不會公開支持一個自己不信任的團體。",
+      "starter": "They",
+      "answer": "They will not identify themselves with a group they do not trust.",
+      "answerZh": "他們不會公開表明自己支持一個並不信任的團體。",
+      "highlight": "identify themselves with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某個團體"
+    },
+    {
+      "id": "phrasal-verb-42-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ella does not feel any connection with the rich main character.",
+      "promptZh": "埃拉對那名富有的主角沒有任何共鳴。",
+      "starter": "Ella",
+      "answer": "Ella does not identify with the rich main character.",
+      "answerZh": "埃拉對那名富有的主角沒有任何共鳴。",
+      "highlight": "identify",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對某人產生共鳴或覺得自己與其相似"
+    },
+    {
+      "id": "phrasal-verb-42-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "In the story, darkness is connected with fear.",
+      "promptZh": "在故事中,黑暗與恐懼聯繫在一起。",
+      "starter": "In",
+      "answer": "In the story, darkness is identified with fear.",
+      "answerZh": "在故事中,黑暗與恐懼聯繫在一起。",
+      "highlight": "identified",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把兩種事物或概念聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "People have always connected him with his family’s restaurant.",
+      "promptZh": "人們一直把他與他家族的餐廳聯繫起來。",
+      "starter": "He",
+      "answer": "He has always been identified with his family’s restaurant.",
+      "answerZh": "人們一直把他與他家族的餐廳聯繫起來。",
+      "highlight": "He has",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人視為與某人或某事物有關"
+    },
+    {
+      "id": "phrasal-verb-42-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The company is trying to make people see it as a supporter of clean energy.",
+      "promptZh": "公司正嘗試令人們視它為潔淨能源的支持者。",
+      "starter": "The",
+      "answer": "The company is trying to be identified with clean energy.",
+      "answerZh": "公司正嘗試令人們視它為潔淨能源的支持者。",
+      "highlight": "be identified with",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被視為支持或代表某個立場"
+    },
+    {
+      "id": "phrasal-verb-42-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "By wearing the badge, the students openly showed that they supported the group.",
+      "promptZh": "學生戴上徽章,公開表明自己支持該團體。",
+      "starter": "By",
+      "answer": "By wearing the badge, the students identified themselves with the group.",
+      "answerZh": "學生戴上徽章,公開表明自己支持該團體。",
+      "highlight": "identified themselves with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某個團體"
+    },
+    {
+      "id": "phrasal-verb-42-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Even after he left, people still connected him with the football club.",
+      "promptZh": "即使他已經離開,人們仍然把他與該足球會聯繫起來。",
+      "starter": "Even",
+      "answer": "Even after he left, people still identified him with the football club.",
+      "answerZh": "即使他已經離開,人們仍然把他與該足球會聯繫起來。",
+      "highlight": "identified",
+      "targetForm": "identify somebody with somebody/something",
+      "targetMeaningZh": "把某人與某個組織聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After moving abroad, Sara felt a strong connection with the song about missing home.",
+      "promptZh": "移居外國後,莎拉對那首關於思念家鄉的歌曲產生了強烈共鳴。",
+      "starter": "After",
+      "answer": "After moving abroad, Sara identified with the song about missing home.",
+      "answerZh": "移居外國後,莎拉對那首關於思念家鄉的歌曲產生了共鳴。",
+      "highlight": "identified",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對某種經歷、作品或感受產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Do not think that being busy always means being useful.",
+      "promptZh": "不要以為忙碌必定代表做事有用。",
+      "starter": "Do",
+      "answer": "Do not identify being busy with being useful.",
+      "answerZh": "不要把忙碌等同於做事有用。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把兩件事情聯繫或等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The singer did not want to show publicly that she supported the movement.",
+      "promptZh": "這名歌手不想公開表明自己支持該運動。",
+      "starter": "The",
+      "answer": "The singer did not want to identify herself with the movement.",
+      "answerZh": "這名歌手不想公開表明自己支持該運動。",
+      "highlight": "identify herself with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某項運動或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "People wrongly connected the journalist with the online rumour.",
+      "promptZh": "人們錯誤地把這名記者與網上謠言聯繫起來。",
+      "starter": "The",
+      "answer": "The journalist was wrongly identified with the online rumour.",
+      "answerZh": "這名記者被錯誤地與網上謠言聯繫起來。",
+      "highlight": "was wrongly identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人與某件事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "For many children, home is closely connected with safety.",
+      "promptZh": "對很多孩子來說,家與安全感緊密聯繫。",
+      "starter": "For",
+      "answer": "For many children, home is identified with safety.",
+      "answerZh": "對很多孩子來說,家與安全感緊密聯繫。",
+      "highlight": "identified",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與某種感受聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We all understood his fear of speaking in public because we had felt it too.",
+      "promptZh": "我們都理解他害怕公開發言的感受,因為我們也曾有同樣感覺。",
+      "starter": "We",
+      "answer": "We all identified with his fear of speaking in public.",
+      "answerZh": "我們都對他害怕公開發言的感受產生了共鳴。",
+      "highlight": "identified with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解並感受到相似的情緒或經歷"
+    },
+    {
+      "id": "phrasal-verb-42-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club refused to let people think it supported the rude comments.",
+      "promptZh": "球會拒絕讓人以為它支持那些無禮的言論。",
+      "starter": "The",
+      "answer": "The club refused to be identified with the rude comments.",
+      "answerZh": "球會拒絕被視為支持那些無禮的言論。",
+      "highlight": "be identified with",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被視為支持某種言論或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "People began to connect her with the new style of music.",
+      "promptZh": "人們開始把她與這種新的音樂風格聯繫起來。",
+      "starter": "She",
+      "answer": "She became identified with the new style of music.",
+      "answerZh": "人們開始把她與這種新的音樂風格聯繫起來。",
+      "highlight": "She became identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人與某種活動或風格聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Many parents feel that they understand the tired mother in the advert.",
+      "promptZh": "很多父母覺得自己明白廣告中那名疲倦母親的感受。",
+      "starter": "Many",
+      "answer": "Many parents identify with the tired mother in the advert.",
+      "answerZh": "很多父母對廣告中那名疲倦的母親產生共鳴。",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解某人的感受並產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The brand wants customers to connect its name with good quality.",
+      "promptZh": "該品牌希望顧客把它的名字與優良品質聯繫起來。",
+      "starter": "The",
+      "answer": "The brand wants customers to identify its name with good quality.",
+      "answerZh": "該品牌希望顧客把它的名字與優良品質聯繫起來。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與某種特質聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I do not wish to show publicly that I support those views.",
+      "promptZh": "我不希望公開表明自己支持那些觀點。",
+      "starter": "I",
+      "answer": "I do not wish to identify myself with those views.",
+      "answerZh": "我不希望公開表明自己支持那些觀點。",
+      "highlight": "identify myself with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某種觀點或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Because of one photograph, people connected her with the protest group.",
+      "promptZh": "由於一張照片,人們把她與該抗議團體聯繫起來。",
+      "starter": "Because",
+      "answer": "Because of one photograph, she was identified with the protest group.",
+      "answerZh": "由於一張照片,人們把她與該抗議團體聯繫起來。",
+      "highlight": "she was identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人視為與某個團體有關"
+    },
+    {
+      "id": "phrasal-verb-42-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The film helps teenagers understand the feelings of people who feel left out.",
+      "promptZh": "這部電影幫助青少年理解那些感到被冷落的人的感受。",
+      "starter": "The",
+      "answer": "The film helps teenagers identify with people who feel left out.",
+      "answerZh": "這部電影幫助青少年對感到被冷落的人產生共鳴。",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解某人的感受並產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Some people wrongly think a high price always means good quality.",
+      "promptZh": "有些人錯誤地認為高價必定代表優良品質。",
+      "starter": "Some",
+      "answer": "Some people wrongly identify a high price with good quality.",
+      "answerZh": "有些人錯誤地把高價等同於優良品質。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一件事物錯誤地等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the story is set long ago, readers can still understand and share the young hero’s feelings.",
+      "promptZh": "雖然故事以很久以前為背景,讀者仍能理解年輕主角的感受。",
+      "starter": "Although",
+      "answer": "Although the story is set long ago, readers can still identify with its young hero.",
+      "answerZh": "雖然故事以很久以前為背景,讀者仍能對年輕主角產生共鳴。",
+      "highlight": "identify with its",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解角色的感受並產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The players chose not to publicly support either side.",
+      "promptZh": "球員選擇不公開支持任何一方。",
+      "starter": "The",
+      "answer": "The players chose not to identify themselves with either side.",
+      "answerZh": "球員選擇不公開支持任何一方。",
+      "highlight": "identify themselves with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某一方"
+    },
+    {
+      "id": "phrasal-verb-42-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "People still strongly connect the actress with the role she played as a child.",
+      "promptZh": "人們仍然把這名女演員與她童年時飾演的角色緊密聯繫起來。",
+      "starter": "The",
+      "answer": "The actress is still strongly identified with the role she played as a child.",
+      "answerZh": "人們仍然把這名女演員與她童年時飾演的角色緊密聯繫起來。",
+      "highlight": "The actress is",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人與某個角色或事物緊密聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "In the film, freedom is connected with life near the sea.",
+      "promptZh": "在電影中,自由與海邊生活聯繫在一起。",
+      "starter": "In",
+      "answer": "In the film, freedom is identified with life near the sea.",
+      "answerZh": "在電影中,自由與海邊生活聯繫在一起。",
+      "highlight": "identified",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把兩件事物或概念聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although he has changed jobs, many people still connect him with the old company.",
+      "promptZh": "雖然他已經轉工,很多人仍然把他與舊公司聯繫起來。",
+      "starter": "Although",
+      "answer": "Although he has changed jobs, many people still identify him with the old company.",
+      "answerZh": "雖然他已經轉工,很多人仍然把他與舊公司聯繫起來。",
+      "highlight": "identify",
+      "targetForm": "identify somebody with somebody/something",
+      "targetMeaningZh": "把某人與某個組織或過往經歷聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Readers may feel that they understand the character because she often worries about disappointing her family.",
+      "promptZh": "讀者可能明白這名角色的感受,因為她經常擔心令家人失望。",
+      "starter": "Readers",
+      "answer": "Readers may identify with the character because she often worries about disappointing her family.",
+      "answerZh": "讀者可能對這名角色產生共鳴,因為她經常擔心令家人失望。",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "理解人物的感受並產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We should not think happiness comes only from owning more things.",
+      "promptZh": "我們不應認為幸福只來自擁有更多物品。",
+      "starter": "We",
+      "answer": "We should not identify happiness only with owning more things.",
+      "answerZh": "我們不應把幸福只等同於擁有更多物品。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把一件事物與另一件事物聯繫或等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Through her speech, she clearly showed that she supported the workers’ group.",
+      "promptZh": "她透過演說清楚表明自己支持工人團體。",
+      "starter": "Through",
+      "answer": "Through her speech, she clearly identified herself with the workers’ group.",
+      "answerZh": "她透過演說清楚表明自己支持工人團體。",
+      "highlight": "identified herself with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某個團體"
+    },
+    {
+      "id": "phrasal-verb-42-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I did not feel any connection with the hero at first, but his fear of failure later felt familiar.",
+      "promptZh": "我起初對主角沒有任何共鳴,但後來覺得他對失敗的恐懼十分熟悉。",
+      "starter": "I",
+      "answer": "I could not identify with the hero at first, but his fear of failure later felt familiar.",
+      "answerZh": "我起初對主角沒有任何共鳴,但後來覺得他對失敗的恐懼十分熟悉。",
+      "highlight": "could",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對人物、經歷或感受產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The young player does not want people to connect him only with his famous father.",
+      "promptZh": "這名年輕球員不想人們只把他與著名的父親聯繫起來。",
+      "starter": "The",
+      "answer": "The young player does not want to be identified only with his famous father.",
+      "answerZh": "這名年輕球員不想人們只把他與著名的父親聯繫起來。",
+      "highlight": "be identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被人與另一個人或事物聯繫起來"
+    },
+    {
+      "id": "phrasal-verb-42-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Anyone who has started at a new school may understand and share the feelings in Nina’s story.",
+      "promptZh": "任何曾在新學校開始讀書的人,都可能理解妮娜故事中的感受。",
+      "starter": "Anyone",
+      "answer": "Anyone who has started at a new school may identify with Nina’s story.",
+      "answerZh": "任何曾在新學校開始讀書的人,都可能對妮娜的故事產生共鳴。",
+      "highlight": "identify with",
+      "targetForm": "identify with somebody/something",
+      "targetMeaningZh": "對相似的經歷產生共鳴"
+    },
+    {
+      "id": "phrasal-verb-42-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The book does not treat age and wisdom as the same thing; some young characters make the best decisions.",
+      "promptZh": "這本書沒有把年齡和智慧視為同一回事;部分年輕角色作出了最好的決定。",
+      "starter": "The",
+      "answer": "The book does not identify age with wisdom; some young characters make the best decisions.",
+      "answerZh": "這本書沒有把年齡等同於智慧;部分年輕角色作出了最好的決定。",
+      "highlight": "identify",
+      "targetForm": "identify something with something",
+      "targetMeaningZh": "把兩種概念聯繫或等同起來"
+    },
+    {
+      "id": "phrasal-verb-42-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We should not publicly support a plan that we do not truly believe in.",
+      "promptZh": "我們不應公開支持一項自己並不真正相信的計劃。",
+      "starter": "We",
+      "answer": "We should not identify ourselves with a plan that we do not truly support.",
+      "answerZh": "我們不應公開支持一項自己並不真正相信的計劃。",
+      "highlight": "identify ourselves with",
+      "targetForm": "identify yourself with somebody/something",
+      "targetMeaningZh": "公開表明自己支持某項計劃或立場"
+    },
+    {
+      "id": "phrasal-verb-42-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "After years on the programme, the public began to connect the presenter closely with it.",
+      "promptZh": "在該節目工作多年後,大眾開始把主持人與節目緊密聯繫起來。",
+      "starter": "After",
+      "answer": "After years on the programme, the presenter became identified with it in the public mind.",
+      "answerZh": "在該節目工作多年後,大眾把主持人與節目緊密聯繫起來。",
+      "highlight": "became identified",
+      "targetForm": "be identified with somebody/something",
+      "targetMeaningZh": "被大眾與某個活動或事物緊密聯繫起來"
+    }
+  ]
+}

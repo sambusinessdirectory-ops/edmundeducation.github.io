@@ -1,0 +1,1686 @@
+{
+  "id": "phrasal-verb-180",
+  "order": 180,
+  "slug": "get-on",
+  "version": "1",
+  "title": "GET ON 動詞片語",
+  "titleEn": "Get On",
+  "titleZh": "GET ON 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 179 - GET ON.pdf",
+    "sourceNumber": 179,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET ON 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET ON."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET ON",
+      "highlight": "GET ON"
+    }
+  ],
+  "examples": [
+    {
+      "en": "My brother and I get on well.",
+      "zh": "我和哥哥相處得很好。",
+      "highlight": "get on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She is always getting on at me about my room.",
+      "zh": "她總是因我的房間凌亂而不停責備我。",
+      "highlight": "getting on at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Get on the phone to the hotel.",
+      "zh": "致電酒店吧。",
+      "highlight": "Get on the phone to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與某人相處;與某人相處融洽；不斷責備、批評或催促某人；拿起電話致電某人；開始處理某事;安排某人處理某事；登上巴士、火車、飛機等交通工具；聯絡某人或機構,通常為了查詢、投訴或要求處理事情；開始談論某個話題",
+    "en": "get on / get on with somebody; get on at somebody; get on the phone / get on the phone to somebody; get on something / get somebody on something; get on / get on something; get onto somebody / get on to somebody; get onto something",
+    "naturalZh": [
+      "與某人相處;與某人相處融洽",
+      "不斷責備、批評或催促某人",
+      "拿起電話致電某人",
+      "開始處理某事;安排某人處理某事",
+      "登上巴士、火車、飛機等交通工具",
+      "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+      "開始談論某個話題"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get on / get on with somebody",
+      "titleZh": "與某人相處;與某人相處融洽",
+      "titleEn": "get on / get on with somebody",
+      "descriptionZh": "與某人相處;與某人相處融洽",
+      "descriptionEn": "My brother and I get on well.",
+      "examples": [
+        {
+          "en": "My brother and I get on well.",
+          "zh": "我和哥哥相處得很好。",
+          "highlight": "get on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get on at somebody",
+      "titleZh": "不斷責備、批評或催促某人",
+      "titleEn": "get on at somebody",
+      "descriptionZh": "不斷責備、批評或催促某人",
+      "descriptionEn": "She is always getting on at me about my room.",
+      "examples": [
+        {
+          "en": "She is always getting on at me about my room.",
+          "zh": "她總是因我的房間凌亂而不停責備我。",
+          "highlight": "getting on at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get on the phone / get on the phone to somebody",
+      "titleZh": "拿起電話致電某人",
+      "titleEn": "get on the phone / get on the phone to somebody",
+      "descriptionZh": "拿起電話致電某人",
+      "descriptionEn": "Get on the phone to the hotel.",
+      "examples": [
+        {
+          "en": "Get on the phone to the hotel.",
+          "zh": "致電酒店吧。",
+          "highlight": "Get on the phone to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get on something / get somebody on something",
+      "titleZh": "開始處理某事;安排某人處理某事",
+      "titleEn": "get on something / get somebody on something",
+      "descriptionZh": "開始處理某事;安排某人處理某事",
+      "descriptionEn": "The problem is urgent, so I will get on it now.",
+      "examples": [
+        {
+          "en": "The problem is urgent, so I will get on it now.",
+          "zh": "問題很緊急,所以我現在便會處理。",
+          "highlight": "get on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get on / get on something",
+      "titleZh": "登上巴士、火車、飛機等交通工具",
+      "titleEn": "get on / get on something",
+      "descriptionZh": "登上巴士、火車、飛機等交通工具",
+      "descriptionEn": "We got on the train at Central.",
+      "examples": [
+        {
+          "en": "We got on the train at Central.",
+          "zh": "我們在中環登上火車。",
+          "highlight": "got on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get onto somebody / get on to somebody",
+      "titleZh": "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+      "titleEn": "get onto somebody / get on to somebody",
+      "descriptionZh": "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+      "descriptionEn": "You should get onto the manager today.",
+      "examples": [
+        {
+          "en": "You should get onto the manager today.",
+          "zh": "你今天應該聯絡經理。",
+          "highlight": "get onto"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get onto something",
+      "titleZh": "開始談論某個話題",
+      "titleEn": "get onto something",
+      "descriptionZh": "開始談論某個話題",
+      "descriptionEn": "We soon got onto the subject of exams.",
+      "examples": [
+        {
+          "en": "We soon got onto the subject of exams.",
+          "zh": "我們很快便開始談論考試。",
+          "highlight": "got onto"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET ON 片語動詞的實際用途",
+    "labelEn": "GET ON Phrasal Verbs in Use",
+    "summaryZh": "get on 可以描述人們相處得好不好;get on at somebody 則可以描述不停責備或催促某人。；登上巴士、火車、旅遊巴、渡輪或飛機時,經常會使用 get on。；get on the phone 表示致電;get onto somebody 則表示聯絡某人或機構,而不必額外說明聯絡方式。；get on something 可以表示開始處理工作;get onto something 可以表示對話開始談到某個話題。",
+    "summaryEn": "Get on can describe how well people live, work or study together. Get on at somebody can describe repeated criticism or complaints. Get on is commonly used when somebody boards a bus, train, coach, ferry or plane. Get on the phone shows that a telephone call is made. Get onto somebody means contacting that person or organisation without adding an unnecessary method. Get on something can show that work has begun. Get onto something can show that a conversation has reached a particular subject.",
+    "contextsZh": [
+      "談論人際關係和反覆責備",
+      "描述登上公共交通工具",
+      "準確表達聯絡方式",
+      "推進工作和對話"
+    ],
+    "contextsEn": [
+      "Talk about relationships and repeated criticism",
+      "Describe boarding public transport",
+      "Choose how to contact somebody",
+      "Move work and conversations forward"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET ON 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET ON expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get on / get on with somebody",
+    "fixedHighlight": "get on / get on with somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 GET ON 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET ON expression that gives the same meaning.",
+    "correct": "get on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；以下兩個表達的意思非常不同:get on at somebody=不停責備、批評或催促某人get onto somebody=聯絡某人；請仔細閱讀 GET ON 後面的內容:get on a bus=登上巴士get onto a subject=開始談論某個話題",
+    "variableEn": "Keep the same people, things, time and meaning. These two expressions have very different meanings: get on at somebody = repeatedly criticise or trouble somebody get onto somebody = contact somebody Read the words after GET ON carefully: get on a bus = board a bus get onto a subject = begin talking about a subject",
+    "variableItemsZh": [
+      "get on / get on with somebody",
+      "get on at somebody",
+      "get on the phone / get on the phone to somebody",
+      "get on something / get somebody on something",
+      "get on / get on something",
+      "get onto somebody / get on to somebody",
+      "get onto something"
+    ],
+    "variableItemsEn": [
+      "get on / get on with somebody",
+      "get on at somebody",
+      "get on the phone / get on the phone to somebody",
+      "get on something / get somebody on something",
+      "get on / get on something",
+      "get onto somebody / get on to somebody",
+      "get onto something"
+    ],
+    "forms": [
+      {
+        "formZh": "與某人相處;與某人相處融洽",
+        "formEn": "get on / get on with somebody",
+        "exampleZh": "我和哥哥相處得很好。",
+        "exampleEn": "My brother and I get on well.",
+        "highlight": "get on"
+      },
+      {
+        "formZh": "不斷責備、批評或催促某人",
+        "formEn": "get on at somebody",
+        "exampleZh": "她總是因我的房間凌亂而不停責備我。",
+        "exampleEn": "She is always getting on at me about my room.",
+        "highlight": "getting on at"
+      },
+      {
+        "formZh": "拿起電話致電某人",
+        "formEn": "get on the phone / get on the phone to somebody",
+        "exampleZh": "致電酒店吧。",
+        "exampleEn": "Get on the phone to the hotel.",
+        "highlight": "Get on the phone to"
+      },
+      {
+        "formZh": "開始處理某事;安排某人處理某事",
+        "formEn": "get on something / get somebody on something",
+        "exampleZh": "問題很緊急,所以我現在便會處理。",
+        "exampleEn": "The problem is urgent, so I will get on it now.",
+        "highlight": "get on"
+      },
+      {
+        "formZh": "登上巴士、火車、飛機等交通工具",
+        "formEn": "get on / get on something",
+        "exampleZh": "我們在中環登上火車。",
+        "exampleEn": "We got on the train at Central.",
+        "highlight": "got on"
+      },
+      {
+        "formZh": "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+        "formEn": "get onto somebody / get on to somebody",
+        "exampleZh": "你今天應該聯絡經理。",
+        "exampleEn": "You should get onto the manager today.",
+        "highlight": "get onto"
+      },
+      {
+        "formZh": "開始談論某個話題",
+        "formEn": "get onto something",
+        "exampleZh": "我們很快便開始談論考試。",
+        "exampleEn": "We soon got onto the subject of exams.",
+        "highlight": "got onto"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與某人相處;與某人相處融洽",
+      "titleEn": "get on / get on with somebody",
+      "formula": "get on / get on with somebody",
+      "highlight": "get on / get on with somebody",
+      "descriptionZh": "與某人相處;與某人相處融洽",
+      "descriptionEn": "My brother and I get on well.",
+      "examples": [
+        {
+          "en": "My brother and I get on well.",
+          "zh": "我和哥哥相處得很好。",
+          "highlight": "get on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "不斷責備、批評或催促某人",
+      "titleEn": "get on at somebody",
+      "formula": "get on at somebody",
+      "highlight": "get on at somebody",
+      "descriptionZh": "不斷責備、批評或催促某人",
+      "descriptionEn": "She is always getting on at me about my room.",
+      "examples": [
+        {
+          "en": "She is always getting on at me about my room.",
+          "zh": "她總是因我的房間凌亂而不停責備我。",
+          "highlight": "getting on at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "拿起電話致電某人",
+      "titleEn": "get on the phone / get on the phone to somebody",
+      "formula": "get on the phone / get on the phone to somebody",
+      "highlight": "get on the phone / get on the phone to somebody",
+      "descriptionZh": "拿起電話致電某人",
+      "descriptionEn": "Get on the phone to the hotel.",
+      "examples": [
+        {
+          "en": "Get on the phone to the hotel.",
+          "zh": "致電酒店吧。",
+          "highlight": "Get on the phone to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "開始處理某事;安排某人處理某事",
+      "titleEn": "get on something / get somebody on something",
+      "formula": "get on something / get somebody on something",
+      "highlight": "get on something / get somebody on something",
+      "descriptionZh": "開始處理某事;安排某人處理某事",
+      "descriptionEn": "The problem is urgent, so I will get on it now.",
+      "examples": [
+        {
+          "en": "The problem is urgent, so I will get on it now.",
+          "zh": "問題很緊急,所以我現在便會處理。",
+          "highlight": "get on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "登上巴士、火車、飛機等交通工具",
+      "titleEn": "get on / get on something",
+      "formula": "get on / get on something",
+      "highlight": "get on / get on something",
+      "descriptionZh": "登上巴士、火車、飛機等交通工具",
+      "descriptionEn": "We got on the train at Central.",
+      "examples": [
+        {
+          "en": "We got on the train at Central.",
+          "zh": "我們在中環登上火車。",
+          "highlight": "got on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+      "titleEn": "get onto somebody / get on to somebody",
+      "formula": "get onto somebody / get on to somebody",
+      "highlight": "get onto somebody / get on to somebody",
+      "descriptionZh": "聯絡某人或機構,通常為了查詢、投訴或要求處理事情",
+      "descriptionEn": "You should get onto the manager today.",
+      "examples": [
+        {
+          "en": "You should get onto the manager today.",
+          "zh": "你今天應該聯絡經理。",
+          "highlight": "get onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "開始談論某個話題",
+      "titleEn": "get onto something",
+      "formula": "get onto something",
+      "highlight": "get onto something",
+      "descriptionZh": "開始談論某個話題",
+      "descriptionEn": "We soon got onto the subject of exams.",
+      "examples": [
+        {
+          "en": "We soon got onto the subject of exams.",
+          "zh": "我們很快便開始談論考試。",
+          "highlight": "got onto"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論人際關係和反覆責備",
+      "titleEn": "Talk about relationships and repeated criticism",
+      "zh": "get on 可以描述人們相處得好不好;get on at somebody 則可以描述不停責備或催促某人。",
+      "en": "Get on can describe how well people live, work or study together. Get on at somebody can describe repeated criticism or complaints."
+    },
+    {
+      "titleZh": "描述登上公共交通工具",
+      "titleEn": "Describe boarding public transport",
+      "zh": "登上巴士、火車、旅遊巴、渡輪或飛機時,經常會使用 get on。",
+      "en": "Get on is commonly used when somebody boards a bus, train, coach, ferry or plane."
+    },
+    {
+      "titleZh": "準確表達聯絡方式",
+      "titleEn": "Choose how to contact somebody",
+      "zh": "get on the phone 表示致電;get onto somebody 則表示聯絡某人或機構,而不必額外說明聯絡方式。",
+      "en": "Get on the phone shows that a telephone call is made. Get onto somebody means contacting that person or organisation without adding an unnecessary method."
+    },
+    {
+      "titleZh": "推進工作和對話",
+      "titleEn": "Move work and conversations forward",
+      "zh": "get on something 可以表示開始處理工作;get onto something 可以表示對話開始談到某個話題。",
+      "en": "Get on something can show that work has begun. Get onto something can show that a conversation has reached a particular subject."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論人際關係和反覆責備",
+      "描述登上公共交通工具",
+      "準確表達聯絡方式",
+      "推進工作和對話"
+    ],
+    "contextsEn": [
+      "Talk about relationships and repeated criticism",
+      "Describe boarding public transport",
+      "Choose how to contact somebody",
+      "Move work and conversations forward"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論人際關係和反覆責備",
+        "titleEn": "Talk about relationships and repeated criticism",
+        "zh": "get on 可以描述人們相處得好不好;get on at somebody 則可以描述不停責備或催促某人。",
+        "en": "Get on can describe how well people live, work or study together. Get on at somebody can describe repeated criticism or complaints.",
+        "examples": [
+          {
+            "en": "My brother and I get on well.",
+            "zh": "我和哥哥相處得很好。",
+            "highlight": "get on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述登上公共交通工具",
+        "titleEn": "Describe boarding public transport",
+        "zh": "登上巴士、火車、旅遊巴、渡輪或飛機時,經常會使用 get on。",
+        "en": "Get on is commonly used when somebody boards a bus, train, coach, ferry or plane.",
+        "examples": [
+          {
+            "en": "She is always getting on at me about my room.",
+            "zh": "她總是因我的房間凌亂而不停責備我。",
+            "highlight": "getting on at"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確表達聯絡方式",
+        "titleEn": "Choose how to contact somebody",
+        "zh": "get on the phone 表示致電;get onto somebody 則表示聯絡某人或機構,而不必額外說明聯絡方式。",
+        "en": "Get on the phone shows that a telephone call is made. Get onto somebody means contacting that person or organisation without adding an unnecessary method.",
+        "examples": [
+          {
+            "en": "Get on the phone to the hotel.",
+            "zh": "致電酒店吧。",
+            "highlight": "Get on the phone to"
+          }
+        ]
+      },
+      {
+        "titleZh": "推進工作和對話",
+        "titleEn": "Move work and conversations forward",
+        "zh": "get on something 可以表示開始處理工作;get onto something 可以表示對話開始談到某個話題。",
+        "en": "Get on something can show that work has begun. Get onto something can show that a conversation has reached a particular subject.",
+        "examples": [
+          {
+            "en": "The problem is urgent, so I will get on it now.",
+            "zh": "問題很緊急,所以我現在便會處理。",
+            "highlight": "get on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET ON 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET ON expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET ON 片語動詞。",
+      "en": "Read the whole sentence and choose the GET ON expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "以下兩個表達的意思非常不同:get on at somebody=不停責備、批評或催促某人get onto somebody=聯絡某人",
+      "titleEn": "These two expressions have very different meanings: get on at somebody = repeatedly criticise or trouble somebody get onto somebody = contact somebody.",
+      "zh": "以下兩個表達的意思非常不同:get on at somebody=不停責備、批評或催促某人get onto somebody=聯絡某人",
+      "en": "These two expressions have very different meanings: get on at somebody = repeatedly criticise or trouble somebody get onto somebody = contact somebody"
+    },
+    {
+      "titleZh": "請仔細閱讀 GET ON 後面的內容:get on a bus=登上巴士get onto a subject=開始談論某個話題",
+      "titleEn": "Read the words after GET ON carefully: get on a bus = board a bus get onto a subject = begin talking about a subject.",
+      "zh": "請仔細閱讀 GET ON 後面的內容:get on a bus=登上巴士get onto a subject=開始談論某個話題",
+      "en": "Read the words after GET ON carefully: get on a bus = board a bus get onto a subject = begin talking about a subject"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET ON 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET ON. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET ON 動詞片語句子改寫練習",
+    "titleEn": "GET ON Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET ON 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET ON. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-180-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The children boarded the school bus at eight.",
+      "promptZh": "孩子們在八時登上校巴。",
+      "starter": "The",
+      "answer": "The children got on the school bus at eight.",
+      "answerZh": "孩子們在八時登上校巴。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "My sister and I have a very good relationship.",
+      "promptZh": "我和姐姐相處得很好。",
+      "starter": "My",
+      "answer": "My sister and I get on very well.",
+      "answerZh": "我和姐姐相處得很好。",
+      "highlight": "get on",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處;相處融洽"
+    },
+    {
+      "id": "phrasal-verb-180-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Please contact the manager about the missing order.",
+      "promptZh": "請就遺失的訂單聯絡經理。",
+      "starter": "Please",
+      "answer": "Please get onto the manager about the missing order.",
+      "answerZh": "請就遺失的訂單聯絡經理。",
+      "highlight": "get onto",
+      "targetForm": "get onto somebody",
+      "targetMeaningZh": "聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-180-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Call the hotel and confirm our booking.",
+      "promptZh": "致電酒店確認我們的預訂。",
+      "starter": "Get",
+      "answer": "Get on the phone to the hotel and confirm our booking.",
+      "answerZh": "致電酒店確認我們的預訂。",
+      "highlight": "Get on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人"
+    },
+    {
+      "id": "phrasal-verb-180-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We somehow began talking about the subject of exams.",
+      "promptZh": "我們不知怎的開始談論考試。",
+      "starter": "We",
+      "answer": "We somehow got onto the subject of exams.",
+      "answerZh": "我們不知怎的開始談論考試。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The printer problem is urgent. I will start dealing with it straight away.",
+      "promptZh": "打印機的問題很緊急。我會立即開始處理。",
+      "starter": "The",
+      "answer": "The printer problem is urgent. I will get on it straight away.",
+      "answerZh": "打印機的問題很緊急。我會立即處理。",
+      "highlight": "get on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Mum is always criticising me about my untidy room.",
+      "promptZh": "媽媽總是因我的房間凌亂而不停責備我。",
+      "starter": "Mum",
+      "answer": "Mum is always getting on at me about my untidy room.",
+      "answerZh": "媽媽總是因我的房間凌亂而不停責備我。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或催促某人"
+    },
+    {
+      "id": "phrasal-verb-180-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Noah never really had a good relationship with his old flatmate.",
+      "promptZh": "Noah 和以前的室友一直相處得不太好。",
+      "starter": "Noah",
+      "answer": "Noah never really got on with his old flatmate.",
+      "answerZh": "Noah 和以前的室友一直相處得不太好。",
+      "highlight": "got on",
+      "targetForm": "get on with somebody",
+      "targetMeaningZh": "與某人相處"
+    },
+    {
+      "id": "phrasal-verb-180-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The customer complaint needed a quick reply. The manager asked Sam to deal with it.",
+      "promptZh": "這宗顧客投訴需要迅速回覆。經理請 Sam 處理。",
+      "starter": "The",
+      "answer": "The customer complaint needed a quick reply. The manager got Sam on it.",
+      "answerZh": "這宗顧客投訴需要迅速回覆。經理安排 Sam 處理。",
+      "highlight": "got",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We boarded the wrong train after lunch.",
+      "promptZh": "我們午膳後登錯了火車。",
+      "starter": "We",
+      "answer": "We got on the wrong train after lunch.",
+      "answerZh": "我們午膳後登錯了火車。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I called my aunt as soon as I arrived.",
+      "promptZh": "我一到達便致電姨母。",
+      "starter": "I",
+      "answer": "I got on the phone to my aunt as soon as I arrived.",
+      "answerZh": "我一到達便致電姨母。",
+      "highlight": "got on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人"
+    },
+    {
+      "id": "phrasal-verb-180-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The coach kept criticising Leo for arriving late.",
+      "promptZh": "教練不停責備 Leo 遲到。",
+      "starter": "The",
+      "answer": "The coach kept getting on at Leo for arriving late.",
+      "answerZh": "教練不停責備 Leo 遲到。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或批評某人"
+    },
+    {
+      "id": "phrasal-verb-180-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I will contact the school office this afternoon.",
+      "promptZh": "我今天下午會聯絡校務處。",
+      "starter": "I",
+      "answer": "I will get on to the school office this afternoon.",
+      "answerZh": "我今天下午會聯絡校務處。",
+      "highlight": "get on to",
+      "targetForm": "get on to somebody",
+      "targetMeaningZh": "聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The class soon began discussing the new school rules.",
+      "promptZh": "全班很快便開始談論新的校規。",
+      "starter": "The",
+      "answer": "The class soon got onto the new school rules.",
+      "answerZh": "全班很快便開始談論新的校規。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Why do you keep criticising your brother?",
+      "promptZh": "你為甚麼不停責備你的兄弟?",
+      "starter": "Why",
+      "answer": "Why do you keep getting on at your brother?",
+      "answerZh": "你為甚麼不停責備你的兄弟?",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或催促某人"
+    },
+    {
+      "id": "phrasal-verb-180-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "How did you begin talking about the topic of space travel?",
+      "promptZh": "你們怎會開始談論太空旅遊?",
+      "starter": "How",
+      "answer": "How did you get onto the topic of space travel?",
+      "answerZh": "你們怎會開始談論太空旅遊?",
+      "highlight": "get onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Will you board the coach at the next stop?",
+      "promptZh": "你會在下一站登上旅遊巴嗎?",
+      "starter": "Will",
+      "answer": "Will you get on the coach at the next stop?",
+      "answerZh": "你會在下一站登上旅遊巴嗎?",
+      "highlight": "get on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The seating plan still needs work. She is starting to deal with it now.",
+      "promptZh": "座位安排仍未完成。她現在開始處理。",
+      "starter": "The",
+      "answer": "The seating plan still needs work. She is getting on it now.",
+      "answerZh": "座位安排仍未完成。她現在開始處理。",
+      "highlight": "getting on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Do you have a friendly relationship with the people in your new class?",
+      "promptZh": "你和新班的同學相處融洽嗎?",
+      "starter": "Do",
+      "answer": "Do you get on with the people in your new class?",
+      "answerZh": "你和新班的同學相處融洽嗎?",
+      "highlight": "get on",
+      "targetForm": "get on with somebody",
+      "targetMeaningZh": "與某人相處"
+    },
+    {
+      "id": "phrasal-verb-180-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Have you contacted the repair company yet?",
+      "promptZh": "你已聯絡維修公司了嗎?",
+      "starter": "Have",
+      "answer": "Have you got onto the repair company yet?",
+      "answerZh": "你已聯絡維修公司了嗎?",
+      "highlight": "got onto",
+      "targetForm": "get onto somebody",
+      "targetMeaningZh": "聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She is phoning the doctor now.",
+      "promptZh": "她現在正致電醫生。",
+      "starter": "She",
+      "answer": "She is getting on the phone to the doctor now.",
+      "answerZh": "她現在正致電醫生。",
+      "highlight": "getting on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人"
+    },
+    {
+      "id": "phrasal-verb-180-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Can you arrange for someone to deal with this today?",
+      "promptZh": "你今天可以安排人處理這件事嗎?",
+      "starter": "Can",
+      "answer": "Can you get someone on this today?",
+      "answerZh": "你今天可以安排人處理這件事嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "They were beginning to discuss the noise problem when the bell rang.",
+      "promptZh": "鐘聲響起時,他們正開始談論噪音問題。",
+      "starter": "They",
+      "answer": "They were getting onto the noise problem when the bell rang.",
+      "answerZh": "鐘聲響起時,他們正開始談論噪音問題。",
+      "highlight": "getting onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why don’t you call them and say you will be late?",
+      "promptZh": "你為甚麼不致電他們,告訴他們你會遲到?",
+      "starter": "Why",
+      "answer": "Why don’t you get on the phone and tell them you will be late?",
+      "answerZh": "你為甚麼不致電他們,告訴他們你會遲到?",
+      "highlight": "get on the phone and tell",
+      "targetForm": "get on the phone",
+      "targetMeaningZh": "打電話"
+    },
+    {
+      "id": "phrasal-verb-180-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The two cousins have a much better relationship now.",
+      "promptZh": "兩位表兄弟姊妹現在相處得好多了。",
+      "starter": "The",
+      "answer": "The two cousins get on much better now.",
+      "answerZh": "兩位表兄弟姊妹現在相處得好多了。",
+      "highlight": "get on",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處"
+    },
+    {
+      "id": "phrasal-verb-180-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Daniel was boarding the plane when his phone rang.",
+      "promptZh": "Daniel 登上飛機時,電話響了。",
+      "starter": "Daniel",
+      "answer": "Daniel was getting on the plane when his phone rang.",
+      "answerZh": "Daniel 登上飛機時,電話響了。",
+      "highlight": "getting on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please stop repeatedly criticising me about my homework.",
+      "promptZh": "請不要再因功課而不停責備我。",
+      "starter": "Please",
+      "answer": "Please stop getting on at me about my homework.",
+      "answerZh": "請不要再因功課而不停責備我。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或催促某人"
+    },
+    {
+      "id": "phrasal-verb-180-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Dad is contacting the bank about the strange payment.",
+      "promptZh": "爸爸正就一筆不明付款聯絡銀行。",
+      "starter": "Dad",
+      "answer": "Dad is getting on to the bank about the strange payment.",
+      "answerZh": "爸爸正就一筆不明付款聯絡銀行。",
+      "highlight": "getting on to",
+      "targetForm": "get on to somebody",
+      "targetMeaningZh": "聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The booking error has been reported, and the team is already starting to deal with it.",
+      "promptZh": "預訂錯誤已經上報,而團隊已開始處理。",
+      "starter": "The",
+      "answer": "The booking error has been reported, and the team is already getting on it.",
+      "answerZh": "預訂錯誤已經上報,而團隊已開始處理。",
+      "highlight": "getting on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The delivery team has not replied. You should contact them before the shop closes.",
+      "promptZh": "送貨團隊仍未回覆。你應該在店舖關門前聯絡他們。",
+      "starter": "The",
+      "answer": "The delivery team has not replied. You should get onto them before the shop closes.",
+      "answerZh": "送貨團隊仍未回覆。你應該在店舖關門前聯絡他們。",
+      "highlight": "get onto",
+      "targetForm": "get onto somebody",
+      "targetMeaningZh": "聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-180-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Even though they disagree sometimes, the neighbours still have a good relationship.",
+      "promptZh": "雖然兩位鄰居有時意見不合,但他們仍然相處融洽。",
+      "starter": "Even",
+      "answer": "Even though they disagree sometimes, the neighbours still get on well.",
+      "answerZh": "雖然兩位鄰居有時意見不合,但他們仍然相處融洽。",
+      "highlight": "get on well",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處;相處融洽"
+    },
+    {
+      "id": "phrasal-verb-180-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "After talking about food, we began discussing our next holiday.",
+      "promptZh": "談完食物後,我們開始談論下一次假期。",
+      "starter": "After",
+      "answer": "After talking about food, we got onto our next holiday.",
+      "answerZh": "談完食物後,我們開始談論下一次假期。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The last passengers have already boarded the ferry, so we cannot speak to them now.",
+      "promptZh": "最後幾位乘客已經登上渡輪,所以我們現在無法和他們說話。",
+      "starter": "The",
+      "answer": "The last passengers have already got on the ferry, so we cannot speak to them now.",
+      "answerZh": "最後幾位乘客已經登上渡輪,所以我們現在無法和他們說話。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Sarah had been criticising him all morning about the dirty dishes.",
+      "promptZh": "Sarah 整個早上都在因骯髒的碗碟而責備他。",
+      "starter": "Sarah",
+      "answer": "Sarah had been getting on at him all morning about the dirty dishes.",
+      "answerZh": "Sarah 整個早上都在因骯髒的碗碟而責備他。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或批評某人"
+    },
+    {
+      "id": "phrasal-verb-180-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Ben had to call the airline because his flight was cancelled.",
+      "promptZh": "Ben 因航班取消而必須致電航空公司。",
+      "starter": "Ben",
+      "answer": "Ben had to get on the phone to the airline because his flight was cancelled.",
+      "answerZh": "Ben 因航班取消而必須致電航空公司。",
+      "highlight": "get on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We used to argue often, but now we have a good relationship.",
+      "promptZh": "我們以前經常爭吵,但現在相處得很好。",
+      "starter": "We",
+      "answer": "We used to argue often, but now we get on.",
+      "answerZh": "我們以前經常爭吵,但現在相處得很好。",
+      "highlight": "get on",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處"
+    },
+    {
+      "id": "phrasal-verb-180-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Who did the residents contact about the broken lift?",
+      "promptZh": "居民就壞掉的升降機聯絡了誰?",
+      "starter": "Who",
+      "answer": "Who did the residents get on to about the broken lift?",
+      "answerZh": "居民就壞掉的升降機聯絡了誰?",
+      "highlight": "get on to",
+      "targetForm": "get on to somebody",
+      "targetMeaningZh": "聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-180-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We need to ask the IT assistant to deal with the screen problem.",
+      "promptZh": "我們需要請資訊科技助理處理屏幕問題。",
+      "starter": "We",
+      "answer": "We need to get the IT assistant on the screen problem.",
+      "answerZh": "我們需要安排資訊科技助理處理屏幕問題。",
+      "highlight": "get",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The neighbours criticise us whenever our music is too loud.",
+      "promptZh": "每當我們的音樂太大聲,鄰居便會責備我們。",
+      "starter": "The",
+      "answer": "The neighbours get on at us whenever our music is too loud.",
+      "answerZh": "每當我們的音樂太大聲,鄰居便會責備我們。",
+      "highlight": "get on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或批評某人"
+    },
+    {
+      "id": "phrasal-verb-180-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Which bus did Priya board after school?",
+      "promptZh": "Priya 放學後登上了哪一輛巴士?",
+      "starter": "Which",
+      "answer": "Which bus did Priya get on after school?",
+      "answerZh": "Priya 放學後登上了哪一輛巴士?",
+      "highlight": "get on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "They had just begun discussing costs when the fire alarm sounded.",
+      "promptZh": "火警鐘響起時,他們剛開始談論費用。",
+      "starter": "They",
+      "answer": "They had just got onto costs when the fire alarm sounded.",
+      "answerZh": "火警鐘響起時,他們剛開始談論費用。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We should make the call before the office closes.",
+      "promptZh": "我們應該在辦公室關門前打這通電話。",
+      "starter": "We",
+      "answer": "We should get on the phone before the office closes.",
+      "answerZh": "我們應該在辦公室關門前打這通電話。",
+      "highlight": "get on",
+      "targetForm": "get on the phone",
+      "targetMeaningZh": "打電話"
+    },
+    {
+      "id": "phrasal-verb-180-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "A question about homework led us to begin talking about the wider problem of screen time.",
+      "promptZh": "一條關於功課的問題令我們開始談論更廣泛的屏幕時間問題。",
+      "starter": "A",
+      "answer": "A question about homework led us to get onto the wider problem of screen time.",
+      "answerZh": "一條關於功課的問題令我們開始談論更廣泛的屏幕時間問題。",
+      "highlight": "get onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "When the package went missing, the shop assistant immediately phoned the delivery company.",
+      "promptZh": "包裹失蹤後,店員立即致電送貨公司。",
+      "starter": "When",
+      "answer": "When the package went missing, the shop assistant immediately got on the phone to the delivery company.",
+      "answerZh": "包裹失蹤後,店員立即致電送貨公司。",
+      "highlight": "got on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "I know the report is late, but repeatedly criticising Ava will not make her work faster.",
+      "promptZh": "我知道報告遲了,但不停責備 Ava 不會令她工作得更快。",
+      "starter": "I",
+      "answer": "I know the report is late, but getting on at Ava will not make her work faster.",
+      "answerZh": "我知道報告遲了,但不停責備 Ava 不會令她工作得更快。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或催促某人"
+    },
+    {
+      "id": "phrasal-verb-180-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The gate was about to close when the final traveller boarded the plane.",
+      "promptZh": "閘口快要關閉時,最後一名旅客登上了飛機。",
+      "starter": "The",
+      "answer": "The gate was about to close when the final traveller got on the plane.",
+      "answerZh": "閘口快要關閉時,最後一名旅客登上了飛機。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "If the refund does not arrive by Friday, I will contact customer service.",
+      "promptZh": "如果退款星期五前仍未收到,我會聯絡顧客服務部。",
+      "starter": "If",
+      "answer": "If the refund does not arrive by Friday, I will get onto customer service.",
+      "answerZh": "如果退款星期五前仍未收到,我會聯絡顧客服務部。",
+      "highlight": "get onto",
+      "targetForm": "get onto somebody",
+      "targetMeaningZh": "聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "At first, Rosa and the new team leader did not have a good relationship, but they later became friends.",
+      "promptZh": "起初,Rosa 和新任組長相處得不好,但他們後來成為朋友。",
+      "starter": "At",
+      "answer": "At first, Rosa and the new team leader did not get on, but they later became friends.",
+      "answerZh": "起初,Rosa 和新任組長相處得不好,但他們後來成為朋友。",
+      "highlight": "get on",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處"
+    },
+    {
+      "id": "phrasal-verb-180-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the complaint arrived, the supervisor asked her best adviser to deal with it.",
+      "promptZh": "投訴一到,主管便請她最出色的顧問處理。",
+      "starter": "As",
+      "answer": "As soon as the complaint arrived, the supervisor got her best adviser on it.",
+      "answerZh": "投訴一到,主管便安排她最出色的顧問處理。",
+      "highlight": "got",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We contacted the organiser as soon as we saw the wrong date on the ticket.",
+      "promptZh": "我們一看見門票上的日期錯了,便立即聯絡主辦人。",
+      "starter": "We",
+      "answer": "We got on to the organiser as soon as we saw the wrong date on the ticket.",
+      "answerZh": "我們一看見門票上的日期錯了,便立即聯絡主辦人。",
+      "highlight": "got on to",
+      "targetForm": "get on to somebody",
+      "targetMeaningZh": "聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-180-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "I realised that I had boarded a bus going in the opposite direction.",
+      "promptZh": "我發現自己登上了一輛駛往相反方向的巴士。",
+      "starter": "I",
+      "answer": "I realised that I had got on a bus going in the opposite direction.",
+      "answerZh": "我發現自己登上了一輛駛往相反方向的巴士。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I cannot answer yet, but I have asked the accounts team to deal with the missing payment.",
+      "promptZh": "我暫時未能回答,但已請會計團隊處理遺失的款項。",
+      "starter": "I",
+      "answer": "I cannot answer yet, but I have got the accounts team on the missing payment.",
+      "answerZh": "我暫時未能回答,但已安排會計團隊處理遺失的款項。",
+      "highlight": "got",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Rather than send another message, I called and explained the problem clearly.",
+      "promptZh": "我沒有再發訊息,而是致電並清楚解釋問題。",
+      "starter": "Rather",
+      "answer": "Rather than send another message, I got on the phone and explained the problem clearly.",
+      "answerZh": "我沒有再發訊息,而是致電並清楚解釋問題。",
+      "highlight": "got on the phone",
+      "targetForm": "get on the phone",
+      "targetMeaningZh": "打電話"
+    },
+    {
+      "id": "phrasal-verb-180-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We did not plan to discuss money, but we eventually began talking about it.",
+      "promptZh": "我們原本沒有打算討論金錢,但最後還是開始談了。",
+      "starter": "We",
+      "answer": "We did not plan to discuss money, but we eventually got onto it.",
+      "answerZh": "我們原本沒有打算討論金錢,但最後還是談到了。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I was worried about sharing a room, but my new roommate and I have an excellent relationship.",
+      "promptZh": "我原本擔心要和別人同房,但我和新室友相處得非常好。",
+      "starter": "I",
+      "answer": "I was worried about sharing a room, but my new roommate and I get on perfectly.",
+      "answerZh": "我原本擔心要和別人同房,但我和新室友相處得非常好。",
+      "highlight": "get on perfectly",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處;相處融洽"
+    },
+    {
+      "id": "phrasal-verb-180-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "He felt tired because his manager had been criticising him for every small mistake.",
+      "promptZh": "他感到疲倦,因為經理一直為每一個小錯誤責備他。",
+      "starter": "He",
+      "answer": "He felt tired because his manager had been getting on at him for every small mistake.",
+      "answerZh": "他感到疲倦,因為經理一直為每一個小錯誤責備他。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或批評某人"
+    },
+    {
+      "id": "phrasal-verb-180-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Although their personalities are very different, the two students have always had a good relationship.",
+      "promptZh": "雖然兩名學生的性格非常不同,但他們一直相處得很好。",
+      "starter": "Although",
+      "answer": "Although their personalities are very different, the two students have always got on well.",
+      "answerZh": "雖然兩名學生的性格非常不同,但他們一直相處得很好。",
+      "highlight": "got on well",
+      "targetForm": "get on",
+      "targetMeaningZh": "相處;相處融洽"
+    },
+    {
+      "id": "phrasal-verb-180-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The seating problem needed attention. The organiser promised to start dealing with it before more guests arrived.",
+      "promptZh": "座位問題需要處理。主辦人答應在更多賓客到達前開始處理。",
+      "starter": "The",
+      "answer": "The seating problem needed attention. The organiser promised to get on it before more guests arrived.",
+      "answerZh": "座位問題需要處理。主辦人答應在更多賓客到達前處理。",
+      "highlight": "get on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "During the interview, they began discussing how the town had changed over ten years.",
+      "promptZh": "訪問期間,他們開始談論這個城鎮十年間的變化。",
+      "starter": "During",
+      "answer": "During the interview, they got onto the subject of how the town had changed over ten years.",
+      "answerZh": "訪問期間,他們開始談論這個城鎮十年間的變化。",
+      "highlight": "got onto the subject of",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After three unanswered emails, Clara decided to contact the company again.",
+      "promptZh": "發出三封電郵都沒有回覆後,Clara 決定再次聯絡公司。",
+      "starter": "After",
+      "answer": "After three unanswered emails, Clara decided to get onto the company again.",
+      "answerZh": "發出三封電郵都沒有回覆後,Clara 決定再次聯絡公司。",
+      "highlight": "get onto",
+      "targetForm": "get onto somebody",
+      "targetMeaningZh": "聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the room was nearly clean, Dad kept criticising us until every box was put away.",
+      "promptZh": "雖然房間差不多已清理好,但爸爸仍不停責備我們,直至所有箱子都收好。",
+      "starter": "Although",
+      "answer": "Although the room was nearly clean, Dad kept getting on at us until every box was put away.",
+      "answerZh": "雖然房間差不多已清理好,但爸爸仍不停責備我們,直至所有箱子都收好。",
+      "highlight": "getting on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或催促某人"
+    },
+    {
+      "id": "phrasal-verb-180-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the platform was crowded, everyone boarded the train safely before the doors closed.",
+      "promptZh": "雖然月台十分擠迫,但所有人都在車門關閉前安全登上火車。",
+      "starter": "Although",
+      "answer": "Although the platform was crowded, everyone got on the train safely before the doors closed.",
+      "answerZh": "雖然月台十分擠迫,但所有人都在車門關閉前安全登上火車。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As soon as the lights failed, the manager called the building owner.",
+      "promptZh": "燈一熄滅,經理便致電大廈業主。",
+      "starter": "As",
+      "answer": "As soon as the lights failed, the manager got on the phone to the building owner.",
+      "answerZh": "燈一熄滅,經理便致電大廈業主。",
+      "highlight": "got on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人"
+    },
+    {
+      "id": "phrasal-verb-180-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Once the website failed, the owner asked two technicians to deal with it immediately.",
+      "promptZh": "網站一停止運作,負責人便立即請兩名技術員處理。",
+      "starter": "Once",
+      "answer": "Once the website failed, the owner got two technicians on it immediately.",
+      "answerZh": "網站一停止運作,負責人便立即安排兩名技術員處理。",
+      "highlight": "got",
+      "targetForm": "get somebody on something",
+      "targetMeaningZh": "安排某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-180-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The trip was easier because everyone in the group had a friendly relationship.",
+      "promptZh": "旅程更加順利,因為組內所有人都相處融洽。",
+      "starter": "The",
+      "answer": "The trip was easier because everyone in the group got on together.",
+      "answerZh": "旅程更加順利,因為組內所有人都相處融洽。",
+      "highlight": "got on together",
+      "targetForm": "get on together",
+      "targetMeaningZh": "彼此相處融洽"
+    },
+    {
+      "id": "phrasal-verb-180-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "If you need an answer today, call the council instead of waiting for an email.",
+      "promptZh": "如果你今天便需要答案,請致電市政部門,不要等待電郵。",
+      "starter": "If",
+      "answer": "If you need an answer today, get on the phone to the council instead of waiting for an email.",
+      "answerZh": "如果你今天便需要答案,請致電市政部門,不要等待電郵。",
+      "highlight": "get on the phone to",
+      "targetForm": "get on the phone to somebody",
+      "targetMeaningZh": "致電某人或機構"
+    },
+    {
+      "id": "phrasal-verb-180-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Leo did not notice that he had boarded the wrong plane until he saw the seat number.",
+      "promptZh": "Leo 看見座位號碼後,才發現自己登錯了飛機。",
+      "starter": "Leo",
+      "answer": "Leo did not notice that he had got on the wrong plane until he saw the seat number.",
+      "answerZh": "Leo 看見座位號碼後,才發現自己登錯了飛機。",
+      "highlight": "got on",
+      "targetForm": "get on something",
+      "targetMeaningZh": "登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-180-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The teacher did not repeatedly criticise the students; she calmly explained what needed to change.",
+      "promptZh": "老師沒有不停責備學生;她平靜地解釋需要改善的地方。",
+      "starter": "The",
+      "answer": "The teacher did not get on at the students; she calmly explained what needed to change.",
+      "answerZh": "老師沒有不停責備學生;她平靜地解釋需要改善的地方。",
+      "highlight": "get on at",
+      "targetForm": "get on at somebody",
+      "targetMeaningZh": "不停責備或批評某人"
+    },
+    {
+      "id": "phrasal-verb-180-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The group first discussed transport and then began discussing whether the event should start earlier.",
+      "promptZh": "小組先討論交通,然後開始談論活動是否應該提早開始。",
+      "starter": "The",
+      "answer": "The group first discussed transport and then got onto whether the event should start earlier.",
+      "answerZh": "小組先討論交通,然後開始談論活動是否應該提早開始。",
+      "highlight": "got onto",
+      "targetForm": "get onto something",
+      "targetMeaningZh": "開始談論某個話題"
+    },
+    {
+      "id": "phrasal-verb-180-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The parents contacted the head teacher when the heating stopped working again.",
+      "promptZh": "暖氣再次停止運作時,家長聯絡了校長。",
+      "starter": "The",
+      "answer": "The parents got on to the head teacher when the heating stopped working again.",
+      "answerZh": "暖氣再次停止運作時,家長聯絡了校長。",
+      "highlight": "got on to",
+      "targetForm": "get on to somebody",
+      "targetMeaningZh": "聯絡某人"
+    }
+  ]
+}

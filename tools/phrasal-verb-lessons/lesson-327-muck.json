@@ -1,0 +1,1486 @@
+{
+  "id": "phrasal-verb-327",
+  "order": 327,
+  "slug": "muck",
+  "version": "1",
+  "title": "MUCK 動詞片語",
+  "titleEn": "Muck",
+  "titleZh": "MUCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 312 - MUCK.pdf",
+    "sourceNumber": 312,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MUCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MUCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MUCK",
+      "highlight": "MUCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The children were mucking about outside.",
+      "zh": "孩子們正在外面胡鬧。",
+      "highlight": "mucking about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Who has been mucking around with my computer?",
+      "zh": "誰一直在亂動我的電腦?",
+      "highlight": "mucking around with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "If we all muck in, we can finish early.",
+      "zh": "如果我們一起動手幫忙,便可以提早完成。",
+      "highlight": "muck in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "胡鬧;閒混;浪費時間;不認真做事；亂動、擺弄或擅自更改某物,可能令它出現問題；一起動手幫忙;加入其他人一起完成工作；清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料；不公平地對待某人;反覆改變安排,令某人久等或受到麻煩；把某事搞砸、弄錯或弄壞",
+    "en": "muck about / muck around; muck about with something / muck around with something; muck in; muck out / muck something out; muck somebody about / muck somebody around; muck something up",
+    "naturalZh": [
+      "胡鬧;閒混;浪費時間;不認真做事",
+      "亂動、擺弄或擅自更改某物,可能令它出現問題",
+      "一起動手幫忙;加入其他人一起完成工作",
+      "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+      "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+      "把某事搞砸、弄錯或弄壞"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "muck about / muck around",
+      "titleZh": "胡鬧;閒混;浪費時間;不認真做事",
+      "titleEn": "muck about / muck around",
+      "descriptionZh": "胡鬧;閒混;浪費時間;不認真做事",
+      "descriptionEn": "The children were mucking about outside.",
+      "examples": [
+        {
+          "en": "The children were mucking about outside.",
+          "zh": "孩子們正在外面胡鬧。",
+          "highlight": "mucking about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muck about with something / muck around with something",
+      "titleZh": "亂動、擺弄或擅自更改某物,可能令它出現問題",
+      "titleEn": "muck about with something / muck around with something",
+      "descriptionZh": "亂動、擺弄或擅自更改某物,可能令它出現問題",
+      "descriptionEn": "Who has been mucking around with my computer?",
+      "examples": [
+        {
+          "en": "Who has been mucking around with my computer?",
+          "zh": "誰一直在亂動我的電腦?",
+          "highlight": "mucking around with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muck in",
+      "titleZh": "一起動手幫忙;加入其他人一起完成工作",
+      "titleEn": "muck in",
+      "descriptionZh": "一起動手幫忙;加入其他人一起完成工作",
+      "descriptionEn": "If we all muck in, we can finish early.",
+      "examples": [
+        {
+          "en": "If we all muck in, we can finish early.",
+          "zh": "如果我們一起動手幫忙,便可以提早完成。",
+          "highlight": "muck in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muck out / muck something out",
+      "titleZh": "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+      "titleEn": "muck out / muck something out",
+      "descriptionZh": "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+      "descriptionEn": "I mucked out the rabbit cage this morning.",
+      "examples": [
+        {
+          "en": "I mucked out the rabbit cage this morning.",
+          "zh": "我今早清理了兔籠。",
+          "highlight": "mucked out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "muck somebody about / muck somebody around",
+      "titleZh": "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+      "titleEn": "muck somebody about / muck somebody around",
+      "descriptionZh": "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+      "descriptionEn": "The company mucked us around for weeks.",
+      "examples": [
+        {
+          "en": "The company mucked us around for weeks.",
+          "zh": "那間公司連續多星期反覆改變安排,令我們飽受麻煩。",
+          "highlight": "mucked us around"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "muck something up",
+      "titleZh": "把某事搞砸、弄錯或弄壞",
+      "titleEn": "muck something up",
+      "descriptionZh": "把某事搞砸、弄錯或弄壞",
+      "descriptionEn": "This is your last chance, so do not muck it up.",
+      "examples": [
+        {
+          "en": "This is your last chance, so do not muck it up.",
+          "zh": "這是你最後一次機會,所以不要把事情搞砸。",
+          "highlight": "muck it up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MUCK 片語動詞的實際用途",
+    "labelEn": "MUCK Phrasal Verbs in Use",
+    "summaryZh": "muck about 可以表示某人浪費時間或胡鬧;muck about with something 則表示亂動某件物品或它的控制裝置。；muck in 可以直接而自然地表示大家一起動手幫忙完成工作。；談論清理馬房、兔籠或其他動物居住的地方時,常會使用 muck out。；muck somebody around 可以表示某人受到不公平對待或被迫久等;muck something up 則表示錯誤令計劃、工作或機會被搞砸。",
+    "summaryEn": "Muck about can describe people wasting time or behaving foolishly, while muck about with something describes interfering with an object or its controls. Muck in is a friendly and direct way to describe everyone joining together to help with a job. Muck out is commonly used when talking about cleaning places where horses, rabbits or other animals live. Muck somebody around describes someone being treated badly or kept waiting. Muck something up describes a mistake that spoils a plan, task or opportunity.",
+    "contextsZh": [
+      "描述不同種類的不認真行為",
+      "自然地談論團隊合作",
+      "描述照顧動物的工作",
+      "談論麻煩、不公平待遇和錯誤"
+    ],
+    "contextsEn": [
+      "Describe different kinds of careless behaviour",
+      "Talk naturally about teamwork",
+      "Describe animal-care work",
+      "Talk about problems, unfair treatment and mistakes"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MUCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MUCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "muck about / muck around",
+    "fixedHighlight": "muck about / muck around",
+    "fixedZh": "閱讀整句,選出意思相同的 MUCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MUCK expression that gives the same meaning.",
+    "correct": "mucking about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；在這些表達中,about 和 around 通常可以表達相同意思。MUCK 片語動詞主要用於非正式場合,常見於日常對話。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow these examples: muck him around muck it out muck it up muck about with it About and around can often express the same meaning in these expressions. MUCK phrasal verbs are mainly informal and are common in everyday conversation.",
+    "variableItemsZh": [
+      "muck about / muck around",
+      "muck about with something / muck around with something",
+      "muck in",
+      "muck out / muck something out",
+      "muck somebody about / muck somebody around",
+      "muck something up"
+    ],
+    "variableItemsEn": [
+      "muck about / muck around",
+      "muck about with something / muck around with something",
+      "muck in",
+      "muck out / muck something out",
+      "muck somebody about / muck somebody around",
+      "muck something up"
+    ],
+    "forms": [
+      {
+        "formZh": "胡鬧;閒混;浪費時間;不認真做事",
+        "formEn": "muck about / muck around",
+        "exampleZh": "孩子們正在外面胡鬧。",
+        "exampleEn": "The children were mucking about outside.",
+        "highlight": "mucking about"
+      },
+      {
+        "formZh": "亂動、擺弄或擅自更改某物,可能令它出現問題",
+        "formEn": "muck about with something / muck around with something",
+        "exampleZh": "誰一直在亂動我的電腦?",
+        "exampleEn": "Who has been mucking around with my computer?",
+        "highlight": "mucking around with"
+      },
+      {
+        "formZh": "一起動手幫忙;加入其他人一起完成工作",
+        "formEn": "muck in",
+        "exampleZh": "如果我們一起動手幫忙,便可以提早完成。",
+        "exampleEn": "If we all muck in, we can finish early.",
+        "highlight": "muck in"
+      },
+      {
+        "formZh": "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+        "formEn": "muck out / muck something out",
+        "exampleZh": "我今早清理了兔籠。",
+        "exampleEn": "I mucked out the rabbit cage this morning.",
+        "highlight": "mucked out"
+      },
+      {
+        "formZh": "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+        "formEn": "muck somebody about / muck somebody around",
+        "exampleZh": "那間公司連續多星期反覆改變安排,令我們飽受麻煩。",
+        "exampleEn": "The company mucked us around for weeks.",
+        "highlight": "mucked us around"
+      },
+      {
+        "formZh": "把某事搞砸、弄錯或弄壞",
+        "formEn": "muck something up",
+        "exampleZh": "這是你最後一次機會,所以不要把事情搞砸。",
+        "exampleEn": "This is your last chance, so do not muck it up.",
+        "highlight": "muck it up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "胡鬧;閒混;浪費時間;不認真做事",
+      "titleEn": "muck about / muck around",
+      "formula": "muck about / muck around",
+      "highlight": "muck about / muck around",
+      "descriptionZh": "胡鬧;閒混;浪費時間;不認真做事",
+      "descriptionEn": "The children were mucking about outside.",
+      "examples": [
+        {
+          "en": "The children were mucking about outside.",
+          "zh": "孩子們正在外面胡鬧。",
+          "highlight": "mucking about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "亂動、擺弄或擅自更改某物,可能令它出現問題",
+      "titleEn": "muck about with something / muck around with something",
+      "formula": "muck about with something / muck around with something",
+      "highlight": "muck about with something / muck around with something",
+      "descriptionZh": "亂動、擺弄或擅自更改某物,可能令它出現問題",
+      "descriptionEn": "Who has been mucking around with my computer?",
+      "examples": [
+        {
+          "en": "Who has been mucking around with my computer?",
+          "zh": "誰一直在亂動我的電腦?",
+          "highlight": "mucking around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "一起動手幫忙;加入其他人一起完成工作",
+      "titleEn": "muck in",
+      "formula": "muck in",
+      "highlight": "muck in",
+      "descriptionZh": "一起動手幫忙;加入其他人一起完成工作",
+      "descriptionEn": "If we all muck in, we can finish early.",
+      "examples": [
+        {
+          "en": "If we all muck in, we can finish early.",
+          "zh": "如果我們一起動手幫忙,便可以提早完成。",
+          "highlight": "muck in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+      "titleEn": "muck out / muck something out",
+      "formula": "muck out / muck something out",
+      "highlight": "muck out / muck something out",
+      "descriptionZh": "清理馬房、獸欄或動物居住的地方,移走糞便和骯髒的墊料",
+      "descriptionEn": "I mucked out the rabbit cage this morning.",
+      "examples": [
+        {
+          "en": "I mucked out the rabbit cage this morning.",
+          "zh": "我今早清理了兔籠。",
+          "highlight": "mucked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+      "titleEn": "muck somebody about / muck somebody around",
+      "formula": "muck somebody about / muck somebody around",
+      "highlight": "muck somebody about / muck somebody around",
+      "descriptionZh": "不公平地對待某人;反覆改變安排,令某人久等或受到麻煩",
+      "descriptionEn": "The company mucked us around for weeks.",
+      "examples": [
+        {
+          "en": "The company mucked us around for weeks.",
+          "zh": "那間公司連續多星期反覆改變安排,令我們飽受麻煩。",
+          "highlight": "mucked us around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某事搞砸、弄錯或弄壞",
+      "titleEn": "muck something up",
+      "formula": "muck something up",
+      "highlight": "muck something up",
+      "descriptionZh": "把某事搞砸、弄錯或弄壞",
+      "descriptionEn": "This is your last chance, so do not muck it up.",
+      "examples": [
+        {
+          "en": "This is your last chance, so do not muck it up.",
+          "zh": "這是你最後一次機會,所以不要把事情搞砸。",
+          "highlight": "muck it up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述不同種類的不認真行為",
+      "titleEn": "Describe different kinds of careless behaviour",
+      "zh": "muck about 可以表示某人浪費時間或胡鬧;muck about with something 則表示亂動某件物品或它的控制裝置。",
+      "en": "Muck about can describe people wasting time or behaving foolishly, while muck about with something describes interfering with an object or its controls."
+    },
+    {
+      "titleZh": "自然地談論團隊合作",
+      "titleEn": "Talk naturally about teamwork",
+      "zh": "muck in 可以直接而自然地表示大家一起動手幫忙完成工作。",
+      "en": "Muck in is a friendly and direct way to describe everyone joining together to help with a job."
+    },
+    {
+      "titleZh": "描述照顧動物的工作",
+      "titleEn": "Describe animal-care work",
+      "zh": "談論清理馬房、兔籠或其他動物居住的地方時,常會使用 muck out。",
+      "en": "Muck out is commonly used when talking about cleaning places where horses, rabbits or other animals live."
+    },
+    {
+      "titleZh": "談論麻煩、不公平待遇和錯誤",
+      "titleEn": "Talk about problems, unfair treatment and mistakes",
+      "zh": "muck somebody around 可以表示某人受到不公平對待或被迫久等;muck something up 則表示錯誤令計劃、工作或機會被搞砸。",
+      "en": "Muck somebody around describes someone being treated badly or kept waiting. Muck something up describes a mistake that spoils a plan, task or opportunity."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述不同種類的不認真行為",
+      "自然地談論團隊合作",
+      "描述照顧動物的工作",
+      "談論麻煩、不公平待遇和錯誤"
+    ],
+    "contextsEn": [
+      "Describe different kinds of careless behaviour",
+      "Talk naturally about teamwork",
+      "Describe animal-care work",
+      "Talk about problems, unfair treatment and mistakes"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述不同種類的不認真行為",
+        "titleEn": "Describe different kinds of careless behaviour",
+        "zh": "muck about 可以表示某人浪費時間或胡鬧;muck about with something 則表示亂動某件物品或它的控制裝置。",
+        "en": "Muck about can describe people wasting time or behaving foolishly, while muck about with something describes interfering with an object or its controls.",
+        "examples": [
+          {
+            "en": "The children were mucking about outside.",
+            "zh": "孩子們正在外面胡鬧。",
+            "highlight": "mucking about"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地談論團隊合作",
+        "titleEn": "Talk naturally about teamwork",
+        "zh": "muck in 可以直接而自然地表示大家一起動手幫忙完成工作。",
+        "en": "Muck in is a friendly and direct way to describe everyone joining together to help with a job.",
+        "examples": [
+          {
+            "en": "Who has been mucking around with my computer?",
+            "zh": "誰一直在亂動我的電腦?",
+            "highlight": "mucking around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述照顧動物的工作",
+        "titleEn": "Describe animal-care work",
+        "zh": "談論清理馬房、兔籠或其他動物居住的地方時,常會使用 muck out。",
+        "en": "Muck out is commonly used when talking about cleaning places where horses, rabbits or other animals live.",
+        "examples": [
+          {
+            "en": "If we all muck in, we can finish early.",
+            "zh": "如果我們一起動手幫忙,便可以提早完成。",
+            "highlight": "muck in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論麻煩、不公平待遇和錯誤",
+        "titleEn": "Talk about problems, unfair treatment and mistakes",
+        "zh": "muck somebody around 可以表示某人受到不公平對待或被迫久等;muck something up 則表示錯誤令計劃、工作或機會被搞砸。",
+        "en": "Muck somebody around describes someone being treated badly or kept waiting. Muck something up describes a mistake that spoils a plan, task or opportunity.",
+        "examples": [
+          {
+            "en": "I mucked out the rabbit cage this morning.",
+            "zh": "我今早清理了兔籠。",
+            "highlight": "mucked out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MUCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MUCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MUCK 片語動詞。",
+      "en": "Read the whole sentence and choose the MUCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these examples: muck him around muck it out muck it up muck about with it.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these examples: muck him around muck it out muck it up muck about with it"
+    },
+    {
+      "titleZh": "在這些表達中,about 和 around 通常可以表達相同意思。MUCK 片語動詞主要用於非正式場合,常見於日常對話。",
+      "titleEn": "About and around can often express the same meaning in these expressions.",
+      "zh": "在這些表達中,about 和 around 通常可以表達相同意思。MUCK 片語動詞主要用於非正式場合,常見於日常對話。",
+      "en": "About and around can often express the same meaning in these expressions. MUCK phrasal verbs are mainly informal and are common in everyday conversation."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MUCK 動詞片語句子改寫練習",
+    "titleEn": "MUCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-327-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Everyone joined in to help and carried the boxes upstairs.",
+      "promptZh": "大家一起動手幫忙,把箱子搬到樓上。",
+      "starter": "Everyone",
+      "answer": "Everyone mucked in and carried the boxes upstairs.",
+      "answerZh": "大家一起動手幫忙,把箱子搬到樓上。",
+      "highlight": "mucked",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The boys were behaving foolishly outside after lunch.",
+      "promptZh": "男孩們午飯後正在外面胡鬧。",
+      "starter": "The",
+      "answer": "The boys were mucking about outside after lunch.",
+      "answerZh": "男孩們午飯後正在外面胡鬧。",
+      "highlight": "mucking about",
+      "targetForm": "muck about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-327-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Please do not spoil the class display.",
+      "promptZh": "請不要把班級展覽搞砸。",
+      "starter": "Please",
+      "answer": "Please do not muck up the class display.",
+      "answerZh": "請不要把班級展覽搞砸。",
+      "highlight": "muck up",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事搞砸或弄壞"
+    },
+    {
+      "id": "phrasal-verb-327-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Someone has been changing my phone settings without permission.",
+      "promptZh": "有人一直未經允許更改我的手機設定。",
+      "starter": "Someone",
+      "answer": "Someone has been mucking about with my phone settings.",
+      "answerZh": "有人一直未經允許亂動我的手機設定。",
+      "highlight": "mucking about with",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或擅自更改某物"
+    },
+    {
+      "id": "phrasal-verb-327-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I cleaned the rabbit cage before breakfast.",
+      "promptZh": "我在早餐前清理了兔籠。",
+      "starter": "I",
+      "answer": "I mucked out the rabbit cage before breakfast.",
+      "answerZh": "我在早餐前清理了兔籠。",
+      "highlight": "mucked out",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The travel company kept changing our arrangements and causing us trouble for three weeks.",
+      "promptZh": "那間旅遊公司連續三星期不斷更改我們的安排,為我們帶來麻煩。",
+      "starter": "The",
+      "answer": "The travel company mucked us around for three weeks.",
+      "answerZh": "那間旅遊公司連續三星期反覆改變安排,令我們飽受麻煩。",
+      "highlight": "mucked",
+      "targetForm": "muck somebody around",
+      "targetMeaningZh": "反覆改變安排,令某人受到麻煩"
+    },
+    {
+      "id": "phrasal-verb-327-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Stop wasting time and finish your homework.",
+      "promptZh": "不要再浪費時間,完成你的功課吧。",
+      "starter": "Stop",
+      "answer": "Stop mucking around and finish your homework.",
+      "answerZh": "不要再浪費時間,完成你的功課吧。",
+      "highlight": "mucking around",
+      "targetForm": "muck around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-327-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We can finish early if we all help with the work.",
+      "promptZh": "如果我們一起幫忙,便可以提早完成。",
+      "starter": "We",
+      "answer": "We can finish early if we all muck in.",
+      "answerZh": "如果我們一起動手幫忙,便可以提早完成。",
+      "highlight": "muck in",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Do not touch or change the printer controls.",
+      "promptZh": "不要亂動或更改打印機的控制裝置。",
+      "starter": "Do",
+      "answer": "Do not muck around with the printer controls.",
+      "answerZh": "不要亂動打印機的控制裝置。",
+      "highlight": "muck around with",
+      "targetForm": "muck around with something",
+      "targetMeaningZh": "亂動或干擾某物"
+    },
+    {
+      "id": "phrasal-verb-327-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Leo made a serious mistake on the final question.",
+      "promptZh": "里奧在最後一題犯了嚴重錯誤。",
+      "starter": "Leo",
+      "answer": "Leo mucked up the final question.",
+      "answerZh": "里奧把最後一題搞砸了。",
+      "highlight": "mucked up",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄錯或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I am tired of the repair shop repeatedly delaying me and changing its promises.",
+      "promptZh": "我已厭倦維修店一再拖延,並反覆改變承諾。",
+      "starter": "I",
+      "answer": "I am tired of being mucked about by the repair shop.",
+      "answerZh": "我已厭倦被維修店反覆拖延和不公平對待。",
+      "highlight": "being mucked about by",
+      "targetForm": "muck somebody about",
+      "targetMeaningZh": "不公平地對待某人;令某人久等"
+    },
+    {
+      "id": "phrasal-verb-327-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The stable needs cleaning, and it is your turn to do the dirty job today.",
+      "promptZh": "馬房需要清理,而今天輪到你做這項骯髒工作。",
+      "starter": "The",
+      "answer": "The stable needs cleaning, and it is your turn to muck out today.",
+      "answerZh": "馬房需要清理,而今天輪到你做這項清理工作。",
+      "highlight": "muck out",
+      "targetForm": "muck out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Who has been changing the computer without permission?",
+      "promptZh": "誰一直未經允許更改這部電腦?",
+      "starter": "Who",
+      "answer": "Who has been mucking around with the computer?",
+      "answerZh": "誰一直未經允許亂動這部電腦?",
+      "highlight": "mucking around with",
+      "targetForm": "muck around with something",
+      "targetMeaningZh": "亂動或擅自更改某物"
+    },
+    {
+      "id": "phrasal-verb-327-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The landlord is still changing the date when we can move in and making things difficult for us.",
+      "promptZh": "業主仍在更改我們可以入住的日期,令事情變得困難。",
+      "starter": "The",
+      "answer": "The landlord is still mucking us about over the move-in date.",
+      "answerZh": "業主仍因入住日期反覆改變安排,令我們受到麻煩。",
+      "highlight": "mucking us about over",
+      "targetForm": "muck somebody about",
+      "targetMeaningZh": "反覆改變安排,令某人受到麻煩"
+    },
+    {
+      "id": "phrasal-verb-327-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Dad is cleaning the chicken house now.",
+      "promptZh": "爸爸現在正在清理雞舍。",
+      "starter": "Dad",
+      "answer": "Dad is mucking out the chicken house now.",
+      "answerZh": "爸爸現在正在清理雞舍。",
+      "highlight": "mucking out",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are you wasting time instead of getting ready?",
+      "promptZh": "你為甚麼不作準備,反而在浪費時間?",
+      "starter": "Why",
+      "answer": "Why are you mucking about instead of getting ready?",
+      "answerZh": "你為甚麼不作準備,反而在浪費時間?",
+      "highlight": "mucking about",
+      "targetForm": "muck about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-327-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The whole team has joined in to help since the work began.",
+      "promptZh": "工作開始後,整個團隊都加入一起幫忙。",
+      "starter": "The",
+      "answer": "The whole team has mucked in since the work began.",
+      "answerZh": "工作開始後,整個團隊都加入一起幫忙。",
+      "highlight": "mucked",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "One wrong number could cause the whole order to go wrong.",
+      "promptZh": "一個錯誤的數字便可能令整張訂單出錯。",
+      "starter": "One",
+      "answer": "One wrong number could muck up the whole order.",
+      "answerZh": "一個錯誤的數字便可能令整張訂單出錯。",
+      "highlight": "muck up",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄錯或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "They have treated Ben unfairly and repeatedly changed their arrangements since January.",
+      "promptZh": "他們自一月起一直不公平地對待賓,並反覆改變安排。",
+      "starter": "They",
+      "answer": "They have mucked Ben around since January.",
+      "answerZh": "他們自一月起一直不公平地對待賓,並反覆改變安排。",
+      "highlight": "mucked",
+      "targetForm": "muck somebody around",
+      "targetMeaningZh": "不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-327-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I was not interfering with your camera.",
+      "promptZh": "我沒有亂動你的相機。",
+      "starter": "I",
+      "answer": "I was not mucking about with your camera.",
+      "answerZh": "我沒有亂動你的相機。",
+      "highlight": "mucking about",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或擺弄某物"
+    },
+    {
+      "id": "phrasal-verb-327-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We did not come here to waste time and behave foolishly.",
+      "promptZh": "我們來這裏並不是為了浪費時間和胡鬧。",
+      "starter": "We",
+      "answer": "We did not come here to muck around.",
+      "answerZh": "我們來這裏並不是為了浪費時間和胡鬧。",
+      "highlight": "muck around",
+      "targetForm": "muck around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-327-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The workers will remove the dirty bedding from the goat pen this afternoon.",
+      "promptZh": "工人今天下午會清理山羊欄內骯髒的墊料。",
+      "starter": "The",
+      "answer": "The workers will muck the goat pen out this afternoon.",
+      "answerZh": "工人今天下午會清理山羊欄。",
+      "highlight": "muck",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Ava has ruined the booking by choosing the wrong date.",
+      "promptZh": "艾娃選錯日期,把預訂搞砸了。",
+      "starter": "Ava",
+      "answer": "Ava has mucked the booking up by choosing the wrong date.",
+      "answerZh": "艾娃選錯日期,把預訂搞砸了。",
+      "highlight": "mucked",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄錯或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Let us all help and get the room ready.",
+      "promptZh": "讓我們一起動手幫忙,把房間準備好。",
+      "starter": "Let",
+      "answer": "Let us muck in and get the room ready.",
+      "answerZh": "讓我們一起動手幫忙,把房間準備好。",
+      "highlight": "muck in",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I nearly ruined it, but Sam noticed the error.",
+      "promptZh": "我差點把事情搞砸了,但森發現了錯誤。",
+      "starter": "I",
+      "answer": "I nearly mucked it up, but Sam noticed the error.",
+      "answerZh": "我差點把事情搞砸了,但森發現了錯誤。",
+      "highlight": "mucked",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄錯或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When the chairs arrived, the parents joined in to help without being asked.",
+      "promptZh": "椅子送到時,家長們不用別人開口便一起動手幫忙。",
+      "starter": "When",
+      "answer": "When the chairs arrived, the parents mucked in without being asked.",
+      "answerZh": "椅子送到時,家長們不用別人開口便一起動手幫忙。",
+      "highlight": "mucked",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The agency should not treat applicants unfairly or keep changing its arrangements like this.",
+      "promptZh": "那間機構不應這樣不公平地對待申請人或不斷改變安排。",
+      "starter": "The",
+      "answer": "The agency should not muck applicants about like this.",
+      "answerZh": "那間機構不應這樣不公平地對待申請人。",
+      "highlight": "muck",
+      "targetForm": "muck somebody about",
+      "targetMeaningZh": "不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-327-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After the horses left, we cleaned the stable.",
+      "promptZh": "馬匹離開後,我們清理了馬房。",
+      "starter": "After",
+      "answer": "After the horses left, we mucked the stable out.",
+      "answerZh": "馬匹離開後,我們清理了馬房。",
+      "highlight": "mucked",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Please stop interfering with it before you break it.",
+      "promptZh": "請不要再亂動它,否則你會把它弄壞。",
+      "starter": "Please",
+      "answer": "Please stop mucking about with it before you break it.",
+      "answerZh": "請不要再亂動它,否則你會把它弄壞。",
+      "highlight": "mucking about",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或擺弄某物"
+    },
+    {
+      "id": "phrasal-verb-327-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The children were told not to behave foolishly in the library.",
+      "promptZh": "孩子們被告知不可在圖書館內胡鬧。",
+      "starter": "The",
+      "answer": "The children were told not to muck around in the library.",
+      "answerZh": "孩子們被告知不可在圖書館內胡鬧。",
+      "highlight": "muck around",
+      "targetForm": "muck around",
+      "targetMeaningZh": "胡鬧;不認真行事"
+    },
+    {
+      "id": "phrasal-verb-327-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Clara was happy to join in and help wherever she was needed.",
+      "promptZh": "只要有需要,克拉拉都樂意一起動手幫忙。",
+      "starter": "Clara",
+      "answer": "Clara was happy to muck in wherever help was needed.",
+      "answerZh": "只要有需要,克拉拉都樂意一起動手幫忙。",
+      "highlight": "muck",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The wrong address caused our delivery to go wrong.",
+      "promptZh": "錯誤的地址令我們的送貨安排出錯。",
+      "starter": "The",
+      "answer": "The wrong address mucked up our delivery.",
+      "answerZh": "錯誤的地址令我們的送貨安排出錯。",
+      "highlight": "mucked up",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "令某事出錯或失敗"
+    },
+    {
+      "id": "phrasal-verb-327-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The donkey shed was filthy. We finished cleaning it before the rain started.",
+      "promptZh": "驢舍非常骯髒。我們在下雨前完成了清理工作。",
+      "starter": "The",
+      "answer": "The donkey shed was filthy. We finished mucking it out before the rain started.",
+      "answerZh": "驢舍非常骯髒。我們在下雨前完成了清理工作。",
+      "highlight": "mucking",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Being treated badly and delayed by three different offices made Omar angry.",
+      "promptZh": "被三個不同辦事處反覆拖延和不公平對待,令奧馬非常生氣。",
+      "starter": "Being",
+      "answer": "Being mucked around by three different offices made Omar angry.",
+      "answerZh": "被三個不同辦事處反覆拖延和不公平對待,令奧馬非常生氣。",
+      "highlight": "mucked around",
+      "targetForm": "muck somebody around",
+      "targetMeaningZh": "不公平地對待某人;令某人久等"
+    },
+    {
+      "id": "phrasal-verb-327-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "They spent the afternoon wasting time and behaving foolishly near the river.",
+      "promptZh": "他們整個下午都在河邊浪費時間和胡鬧。",
+      "starter": "They",
+      "answer": "They spent the afternoon mucking about near the river.",
+      "answerZh": "他們整個下午都在河邊浪費時間和胡鬧。",
+      "highlight": "mucking about",
+      "targetForm": "muck about",
+      "targetMeaningZh": "胡鬧;閒混"
+    },
+    {
+      "id": "phrasal-verb-327-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The children must not touch or interfere with the sound equipment.",
+      "promptZh": "孩子們不可亂動或干擾音響設備。",
+      "starter": "The",
+      "answer": "The children must not muck around with the sound equipment.",
+      "answerZh": "孩子們不可亂動音響設備。",
+      "highlight": "muck around",
+      "targetForm": "muck around with something",
+      "targetMeaningZh": "亂動或干擾某物"
+    },
+    {
+      "id": "phrasal-verb-327-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "By noon, the volunteers had cleaned all six animal pens.",
+      "promptZh": "到了中午,義工已清理好全部六個獸欄。",
+      "starter": "By",
+      "answer": "By noon, the volunteers had mucked out all six pens.",
+      "answerZh": "到了中午,義工已清理好全部六個獸欄。",
+      "highlight": "mucked out",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Has anyone been interfering with the door lock?",
+      "promptZh": "有人一直在亂動門鎖嗎?",
+      "starter": "Has",
+      "answer": "Has anyone been mucking about with the door lock?",
+      "answerZh": "有人一直在亂動門鎖嗎?",
+      "highlight": "mucking about",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或干擾某物"
+    },
+    {
+      "id": "phrasal-verb-327-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Even the manager joined in to help when the café became busy.",
+      "promptZh": "咖啡店變得繁忙時,連經理也一起動手幫忙。",
+      "starter": "Even",
+      "answer": "Even the manager mucked in when the café became busy.",
+      "answerZh": "咖啡店變得繁忙時,連經理也一起動手幫忙。",
+      "highlight": "mucked",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "I refuse to let another company waste my time and treat me badly.",
+      "promptZh": "我拒絕再讓另一間公司浪費我的時間和不公平地對待我。",
+      "starter": "I",
+      "answer": "I refuse to let another company muck me around.",
+      "answerZh": "我拒絕再讓另一間公司浪費我的時間和不公平地對待我。",
+      "highlight": "muck",
+      "targetForm": "muck somebody around",
+      "targetMeaningZh": "不公平地對待某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-327-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Do not let one small mistake ruin everything.",
+      "promptZh": "不要讓一個小錯誤把所有事情搞砸。",
+      "starter": "Do",
+      "answer": "Do not let one small mistake muck everything up.",
+      "answerZh": "不要讓一個小錯誤把所有事情搞砸。",
+      "highlight": "muck",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The coach sent them inside because they were behaving foolishly.",
+      "promptZh": "教練叫他們進去,因為他們正在胡鬧。",
+      "starter": "The",
+      "answer": "The coach sent them inside because they were mucking around.",
+      "answerZh": "教練叫他們進去,因為他們正在胡鬧。",
+      "highlight": "mucking around",
+      "targetForm": "muck around",
+      "targetMeaningZh": "胡鬧;不認真行事"
+    },
+    {
+      "id": "phrasal-verb-327-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The settings changed again, so somebody must have altered them without permission.",
+      "promptZh": "設定再次被改變,所以一定有人未經允許亂動過它們。",
+      "starter": "The",
+      "answer": "The settings changed again, so somebody must have mucked about with them.",
+      "answerZh": "設定再次被改變,所以一定有人未經允許亂動過它們。",
+      "highlight": "mucked about with",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或擅自更改某物"
+    },
+    {
+      "id": "phrasal-verb-327-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The stable was filthy, but Ravi cleaned it before the lesson.",
+      "promptZh": "馬房非常骯髒,但拉維在課堂前把它清理好。",
+      "starter": "The",
+      "answer": "The stable was filthy, but Ravi mucked it out before the lesson.",
+      "answerZh": "馬房非常骯髒,但拉維在課堂前把它清理好。",
+      "highlight": "mucked",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The airline treated its customers badly and kept them waiting after the flight was cancelled.",
+      "promptZh": "航班取消後,航空公司不公平地對待乘客,並令他們久等。",
+      "starter": "Customers",
+      "answer": "Customers were mucked about by the airline after the flight was cancelled.",
+      "answerZh": "航班取消後,乘客受到航空公司不公平對待,並被迫久等。",
+      "highlight": "Customers were mucked about by",
+      "targetForm": "muck somebody about",
+      "targetMeaningZh": "不公平地對待某人;令某人久等"
+    },
+    {
+      "id": "phrasal-verb-327-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "If you help with the work now, we can finish before dark.",
+      "promptZh": "如果你現在一起幫忙,我們便可以在天黑前完成。",
+      "starter": "If",
+      "answer": "If you muck in now, we can finish before dark.",
+      "answerZh": "如果你現在一起幫忙,我們便可以在天黑前完成。",
+      "highlight": "muck in",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We only have ten minutes, so this is no time to waste time or behave foolishly.",
+      "promptZh": "我們只有十分鐘,所以現在不是浪費時間或胡鬧的時候。",
+      "starter": "We",
+      "answer": "We only have ten minutes, so this is no time to muck about.",
+      "answerZh": "我們只有十分鐘,所以現在不是浪費時間或胡鬧的時候。",
+      "highlight": "muck about",
+      "targetForm": "muck about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-327-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The sudden change ruined our carefully prepared plan.",
+      "promptZh": "突如其來的改動把我們精心準備的計劃搞砸了。",
+      "starter": "The",
+      "answer": "The sudden change mucked up our carefully prepared plan.",
+      "answerZh": "突如其來的改動把我們精心準備的計劃搞砸了。",
+      "highlight": "mucked up",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄亂或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After weeks of delays and changing answers, Nina asked for her money back.",
+      "promptZh": "經過多星期的拖延和反覆改變的答覆後,妮娜要求退款。",
+      "starter": "After",
+      "answer": "After weeks of being mucked around, Nina asked for her money back.",
+      "answerZh": "被反覆拖延和不公平對待多星期後,妮娜要求退款。",
+      "highlight": "being mucked around",
+      "targetForm": "muck somebody around",
+      "targetMeaningZh": "反覆拖延或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-327-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If we work too quickly, we may ruin the whole thing.",
+      "promptZh": "如果我們做得太快,便可能把整件事搞砸。",
+      "starter": "If",
+      "answer": "If we rush, we may muck the whole thing up.",
+      "answerZh": "如果我們做得太快,便可能把整件事搞砸。",
+      "highlight": "rush",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The teacher knew that the pupils were only playing foolishly, not fighting.",
+      "promptZh": "老師知道學生們只是在胡鬧,並非打架。",
+      "starter": "The",
+      "answer": "The teacher knew that the pupils were only mucking about, not fighting.",
+      "answerZh": "老師知道學生們只是在胡鬧,並非打架。",
+      "highlight": "mucking about",
+      "targetForm": "muck about",
+      "targetMeaningZh": "玩鬧;胡鬧"
+    },
+    {
+      "id": "phrasal-verb-327-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Rather than watch from the side, Aaron decided to join in and help.",
+      "promptZh": "亞倫沒有站在一旁觀看,而是決定一起動手幫忙。",
+      "starter": "Rather",
+      "answer": "Rather than watch from the side, Aaron decided to muck in.",
+      "answerZh": "亞倫沒有站在一旁觀看,而是決定一起動手幫忙。",
+      "highlight": "muck",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Once the animals were outside, the children began removing the dirty bedding from their pens.",
+      "promptZh": "動物離開後,孩子們開始清理獸欄內骯髒的墊料。",
+      "starter": "Once",
+      "answer": "Once the animals were outside, the children began mucking out.",
+      "answerZh": "動物離開後,孩子們開始清理獸欄。",
+      "highlight": "mucking out",
+      "targetForm": "muck out",
+      "targetMeaningZh": "清理動物居住的地方"
+    },
+    {
+      "id": "phrasal-verb-327-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Nobody should interfere with safety equipment for fun.",
+      "promptZh": "任何人都不應為了玩樂而亂動安全設備。",
+      "starter": "Nobody",
+      "answer": "Nobody should muck about with safety equipment for fun.",
+      "answerZh": "任何人都不應為了玩樂而亂動安全設備。",
+      "highlight": "muck about",
+      "targetForm": "muck about with something",
+      "targetMeaningZh": "亂動或擺弄某物"
+    },
+    {
+      "id": "phrasal-verb-327-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "She had one chance to correct the form and did not want to ruin it.",
+      "promptZh": "她只有一次機會更正表格,不想把事情搞砸。",
+      "starter": "She",
+      "answer": "She had one chance to correct the form and did not want to muck it up.",
+      "answerZh": "她只有一次機會更正表格,不想把事情搞砸。",
+      "highlight": "muck",
+      "targetForm": "muck something up",
+      "targetMeaningZh": "把某事弄錯或搞砸"
+    },
+    {
+      "id": "phrasal-verb-327-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Why does the bank keep delaying you and changing its instructions over this simple request?",
+      "promptZh": "銀行為甚麼因這項簡單要求不斷拖延你,並改變指示?",
+      "starter": "Why",
+      "answer": "Why does the bank keep mucking you about over this simple request?",
+      "answerZh": "銀行為甚麼因這項簡單要求不斷拖延你,並反覆改變指示?",
+      "highlight": "mucking",
+      "targetForm": "muck somebody about",
+      "targetMeaningZh": "反覆拖延或不公平地對待某人"
+    },
+    {
+      "id": "phrasal-verb-327-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Because everyone joined in to help, the hall was ready on time.",
+      "promptZh": "因為大家一起動手幫忙,禮堂得以準時準備好。",
+      "starter": "Thanks",
+      "answer": "Thanks to everyone who mucked in, the hall was ready on time.",
+      "answerZh": "多得大家一起動手幫忙,禮堂得以準時準備好。",
+      "highlight": "Thanks to",
+      "targetForm": "muck in",
+      "targetMeaningZh": "一起動手幫忙"
+    },
+    {
+      "id": "phrasal-verb-327-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Even after the warning, a few guests continued behaving foolishly.",
+      "promptZh": "即使受到警告,仍有幾位客人繼續胡鬧。",
+      "starter": "Even",
+      "answer": "Even after the warning, a few guests continued to muck around.",
+      "answerZh": "即使受到警告,仍有幾位客人繼續胡鬧。",
+      "highlight": "to muck around",
+      "targetForm": "muck around",
+      "targetMeaningZh": "胡鬧;不認真行事"
+    },
+    {
+      "id": "phrasal-verb-327-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The machine stopped because someone had changed its controls without permission.",
+      "promptZh": "機器停止運作,因為有人未經允許亂動了它的控制裝置。",
+      "starter": "The",
+      "answer": "The machine stopped because someone had mucked around with its controls.",
+      "answerZh": "機器停止運作,因為有人未經允許亂動了它的控制裝置。",
+      "highlight": "mucked around with",
+      "targetForm": "muck around with something",
+      "targetMeaningZh": "亂動或擅自更改某物"
+    },
+    {
+      "id": "phrasal-verb-327-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before the visitors arrived, the workers had completely cleaned the animal house.",
+      "promptZh": "訪客到達前,工人已徹底清理好動物屋。",
+      "starter": "Before",
+      "answer": "Before the visitors arrived, the workers had mucked the animal house out completely.",
+      "answerZh": "訪客到達前,工人已徹底清理好動物屋。",
+      "highlight": "mucked",
+      "targetForm": "muck something out",
+      "targetMeaningZh": "清理動物居住的地方"
+    }
+  ]
+}

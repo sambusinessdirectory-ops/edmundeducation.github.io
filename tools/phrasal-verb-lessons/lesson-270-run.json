@@ -1,0 +1,3895 @@
+{
+  "id": "phrasal-verb-270",
+  "order": 270,
+  "slug": "run",
+  "version": "1",
+  "title": "RUN 動詞片語",
+  "titleEn": "Run",
+  "titleZh": "RUN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 30,
+  "source": {
+    "file": "Phrasal Verbs 255 - RUN.pdf",
+    "sourceNumber": 255,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 RUN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to RUN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "RUN",
+      "highlight": "RUN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I ran across Leo at the station.",
+      "zh": "我在車站偶然遇見Leo。",
+      "highlight": "ran across",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dog ran after the ball.",
+      "zh": "那隻狗追着球跑。",
+      "highlight": "ran after",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Run along now; I am busy.",
+      "zh": "現在走開吧;我正忙着。",
+      "highlight": "Run along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "偶然遇見某人或發現某物；追趕某人或某物；走開;離開；在某處四處跑動,或繞着某物跑；忙着替某人做許多事情；經常與某人來往,通常帶有不贊同語氣；衝向某人並試圖襲擊對方；處於某個比率、速度或水平；逃走;迅速離開；偷偷離開家人或伴侶,有時與另一人一起離開；逃避問題、責任或困難；想像、情緒或說話變得失控；車輛撞倒或輾過某人或某物；貶低自己;不斷說自己不好；把構思或計劃告訴某人,聽取意見；撞上某人或某物；意外遇上困難、惡劣情況或問題；警方拘捕某人並帶返警署；迫使某人離開某地方；液體從表面流走或流過某人或某物；迅速印製或複印；繼續向前走或跑；思緒不斷回到某件事情；以某種燃料或能源運作；用盡;耗盡；快速重溫或檢查某事；感覺傳遍某人,或主題貫穿整件作品；遇到問題時向某人求助或尋求安慰；總數或費用達到某個數目；累積債務、帳單或費用",
+    "en": "run across somebody/something; run after somebody/something; run along; run around/round; run around/round something; run around after somebody; run around with somebody; run at somebody; run at something; run away/off; run away/off with somebody; run away/off; run away from something; something runs away with somebody; run somebody/something down/over; run yourself down; run something by/past somebody; run into something; run something into somebody/something; run into something; run somebody in; run somebody out; run somebody out of something; run off/over somebody/something; run something off; run on; somebody's thoughts/mind run on something; run on something; run something on something; run out; run over something; run through somebody/something; run through something; run to somebody; run to something; run something up",
+    "naturalZh": [
+      "偶然遇見某人或發現某物",
+      "追趕某人或某物",
+      "走開;離開",
+      "在某處四處跑動,或繞着某物跑",
+      "忙着替某人做許多事情",
+      "經常與某人來往,通常帶有不贊同語氣",
+      "衝向某人並試圖襲擊對方",
+      "處於某個比率、速度或水平",
+      "逃走;迅速離開",
+      "偷偷離開家人或伴侶,有時與另一人一起離開",
+      "逃避問題、責任或困難",
+      "想像、情緒或說話變得失控",
+      "車輛撞倒或輾過某人或某物",
+      "貶低自己;不斷說自己不好",
+      "把構思或計劃告訴某人,聽取意見",
+      "撞上某人或某物",
+      "意外遇上困難、惡劣情況或問題",
+      "警方拘捕某人並帶返警署",
+      "迫使某人離開某地方",
+      "液體從表面流走或流過某人或某物",
+      "迅速印製或複印",
+      "繼續向前走或跑",
+      "思緒不斷回到某件事情",
+      "以某種燃料或能源運作",
+      "用盡;耗盡",
+      "快速重溫或檢查某事",
+      "感覺傳遍某人,或主題貫穿整件作品",
+      "遇到問題時向某人求助或尋求安慰",
+      "總數或費用達到某個數目",
+      "累積債務、帳單或費用"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "run across somebody/something",
+      "titleZh": "偶然遇見某人或發現某物",
+      "titleEn": "run across somebody/something",
+      "descriptionZh": "偶然遇見某人或發現某物",
+      "descriptionEn": "I ran across Leo at the station.",
+      "examples": [
+        {
+          "en": "I ran across Leo at the station.",
+          "zh": "我在車站偶然遇見Leo。",
+          "highlight": "ran across"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run after somebody/something",
+      "titleZh": "追趕某人或某物",
+      "titleEn": "run after somebody/something",
+      "descriptionZh": "追趕某人或某物",
+      "descriptionEn": "The dog ran after the ball.",
+      "examples": [
+        {
+          "en": "The dog ran after the ball.",
+          "zh": "那隻狗追着球跑。",
+          "highlight": "ran after"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run along",
+      "titleZh": "走開;離開",
+      "titleEn": "run along",
+      "descriptionZh": "走開;離開",
+      "descriptionEn": "Run along now; I am busy.",
+      "examples": [
+        {
+          "en": "Run along now; I am busy.",
+          "zh": "現在走開吧;我正忙着。",
+          "highlight": "Run along"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run around/round; run around/round something",
+      "titleZh": "在某處四處跑動,或繞着某物跑",
+      "titleEn": "run around/round; run around/round something",
+      "descriptionZh": "在某處四處跑動,或繞着某物跑",
+      "descriptionEn": "The children ran around in the park.",
+      "examples": [
+        {
+          "en": "The children ran around in the park.",
+          "zh": "孩子們在公園四處跑動。",
+          "highlight": "ran around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run around after somebody",
+      "titleZh": "忙着替某人做許多事情",
+      "titleEn": "run around after somebody",
+      "descriptionZh": "忙着替某人做許多事情",
+      "descriptionEn": "She spends all day running around after him.",
+      "examples": [
+        {
+          "en": "She spends all day running around after him.",
+          "zh": "她整天忙着替他做事。",
+          "highlight": "running around after"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run around with somebody",
+      "titleZh": "經常與某人來往,通常帶有不贊同語氣",
+      "titleEn": "run around with somebody",
+      "descriptionZh": "經常與某人來往,通常帶有不贊同語氣",
+      "descriptionEn": "He has been running around with a bad crowd.",
+      "examples": [
+        {
+          "en": "He has been running around with a bad crowd.",
+          "zh": "他一直與一群不良朋友來往。",
+          "highlight": "running around with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run at somebody",
+      "titleZh": "衝向某人並試圖襲擊對方",
+      "titleEn": "run at somebody",
+      "descriptionZh": "衝向某人並試圖襲擊對方",
+      "descriptionEn": "The angry dog ran at me.",
+      "examples": [
+        {
+          "en": "The angry dog ran at me.",
+          "zh": "那隻憤怒的狗衝向我。",
+          "highlight": "ran at"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run at something",
+      "titleZh": "處於某個比率、速度或水平",
+      "titleEn": "run at something",
+      "descriptionZh": "處於某個比率、速度或水平",
+      "descriptionEn": "The machine runs at eighty units per hour.",
+      "examples": [
+        {
+          "en": "The machine runs at eighty units per hour.",
+          "zh": "這部機器以每小時八十件的速度運作。",
+          "highlight": "runs at"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run away/off",
+      "titleZh": "逃走;迅速離開",
+      "titleEn": "run away/off",
+      "descriptionZh": "逃走;迅速離開",
+      "descriptionEn": "The thief ran off down a side street.",
+      "examples": [
+        {
+          "en": "The thief ran off down a side street.",
+          "zh": "小偷沿着一條橫街逃走。",
+          "highlight": "ran off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run away/off with somebody; run away/off",
+      "titleZh": "偷偷離開家人或伴侶,有時與另一人一起離開",
+      "titleEn": "run away/off with somebody; run away/off",
+      "descriptionZh": "偷偷離開家人或伴侶,有時與另一人一起離開",
+      "descriptionEn": "They ran away together.",
+      "examples": [
+        {
+          "en": "They ran away together.",
+          "zh": "他們一起偷偷離開了。",
+          "highlight": "ran away"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run away from something",
+      "titleZh": "逃避問題、責任或困難",
+      "titleEn": "run away from something",
+      "descriptionZh": "逃避問題、責任或困難",
+      "descriptionEn": "You cannot run away from your responsibilities.",
+      "examples": [
+        {
+          "en": "You cannot run away from your responsibilities.",
+          "zh": "你不能逃避自己的責任。",
+          "highlight": "run away from"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "something runs away with somebody",
+      "titleZh": "想像、情緒或說話變得失控",
+      "titleEn": "something runs away with somebody",
+      "descriptionZh": "想像、情緒或說話變得失控",
+      "descriptionEn": "Do not let your imagination run away with you.",
+      "examples": [
+        {
+          "en": "Do not let your imagination run away with you.",
+          "zh": "不要讓自己的想像變得失控。",
+          "highlight": "Do"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run somebody/something down/over",
+      "titleZh": "車輛撞倒或輾過某人或某物",
+      "titleEn": "run somebody/something down/over",
+      "descriptionZh": "車輛撞倒或輾過某人或某物",
+      "descriptionEn": "The cyclist was run down by a lorry.",
+      "examples": [
+        {
+          "en": "The cyclist was run down by a lorry.",
+          "zh": "單車手被一輛貨車撞倒。",
+          "highlight": "run down"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run yourself down",
+      "titleZh": "貶低自己;不斷說自己不好",
+      "titleEn": "run yourself down",
+      "descriptionZh": "貶低自己;不斷說自己不好",
+      "descriptionEn": "Stop running yourself down.",
+      "examples": [
+        {
+          "en": "Stop running yourself down.",
+          "zh": "不要再貶低自己。",
+          "highlight": "running yourself down"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run something by/past somebody",
+      "titleZh": "把構思或計劃告訴某人,聽取意見",
+      "titleEn": "run something by/past somebody",
+      "descriptionZh": "把構思或計劃告訴某人,聽取意見",
+      "descriptionEn": "Let me run this idea past you.",
+      "examples": [
+        {
+          "en": "Let me run this idea past you.",
+          "zh": "讓我把這個構思告訴你,聽聽你的意見。",
+          "highlight": "run"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "run into something; run something into somebody/something",
+      "titleZh": "撞上某人或某物",
+      "titleEn": "run into something; run something into somebody/something",
+      "descriptionZh": "撞上某人或某物",
+      "descriptionEn": "The car ran into a tree.",
+      "examples": [
+        {
+          "en": "The car ran into a tree.",
+          "zh": "那輛車撞上了一棵樹。",
+          "highlight": "ran into"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run into something",
+      "titleZh": "意外遇上困難、惡劣情況或問題",
+      "titleEn": "run into something",
+      "descriptionZh": "意外遇上困難、惡劣情況或問題",
+      "descriptionEn": "We ran into thick fog outside the city.",
+      "examples": [
+        {
+          "en": "We ran into thick fog outside the city.",
+          "zh": "我們在城外遇上濃霧。",
+          "highlight": "ran into"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run somebody in",
+      "titleZh": "警方拘捕某人並帶返警署",
+      "titleEn": "run somebody in",
+      "descriptionZh": "警方拘捕某人並帶返警署",
+      "descriptionEn": "The police ran him in for shoplifting.",
+      "examples": [
+        {
+          "en": "The police ran him in for shoplifting.",
+          "zh": "警方因他在店舖盜竊而拘捕他。",
+          "highlight": "ran him in"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run somebody out; run somebody out of something",
+      "titleZh": "迫使某人離開某地方",
+      "titleEn": "run somebody out; run somebody out of something",
+      "descriptionZh": "迫使某人離開某地方",
+      "descriptionEn": "The residents ran the gang out of town.",
+      "examples": [
+        {
+          "en": "The residents ran the gang out of town.",
+          "zh": "居民迫使那個幫派離開小鎮。",
+          "highlight": "ran the gang out"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run off/over somebody/something",
+      "titleZh": "液體從表面流走或流過某人或某物",
+      "titleEn": "run off/over somebody/something",
+      "descriptionZh": "液體從表面流走或流過某人或某物",
+      "descriptionEn": "Rainwater ran off the roof and over the path.",
+      "examples": [
+        {
+          "en": "Rainwater ran off the roof and over the path.",
+          "zh": "雨水從屋頂流下,再流過小徑。",
+          "highlight": "ran off the roof and over"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run something off",
+      "titleZh": "迅速印製或複印",
+      "titleEn": "run something off",
+      "descriptionZh": "迅速印製或複印",
+      "descriptionEn": "They ran off two hundred copies.",
+      "examples": [
+        {
+          "en": "They ran off two hundred copies.",
+          "zh": "他們迅速印製了二百份。",
+          "highlight": "ran off"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run on",
+      "titleZh": "繼續向前走或跑",
+      "titleEn": "run on",
+      "descriptionZh": "繼續向前走或跑",
+      "descriptionEn": "I will stop here; you run on ahead.",
+      "examples": [
+        {
+          "en": "I will stop here; you run on ahead.",
+          "zh": "我會在這裏停下;你繼續向前走。",
+          "highlight": "run on"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "somebody's thoughts/mind run on something",
+      "titleZh": "思緒不斷回到某件事情",
+      "titleEn": "somebody's thoughts/mind run on something",
+      "descriptionZh": "思緒不斷回到某件事情",
+      "descriptionEn": "Her thoughts kept running on their last meeting.",
+      "examples": [
+        {
+          "en": "Her thoughts kept running on their last meeting.",
+          "zh": "她的思緒不斷回到他們上次見面的情景。",
+          "highlight": "Her"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run on something; run something on something",
+      "titleZh": "以某種燃料或能源運作",
+      "titleEn": "run on something; run something on something",
+      "descriptionZh": "以某種燃料或能源運作",
+      "descriptionEn": "The car runs on unleaded petrol.",
+      "examples": [
+        {
+          "en": "The car runs on unleaded petrol.",
+          "zh": "這輛車使用無鉛汽油。",
+          "highlight": "runs on"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run out",
+      "titleZh": "用盡;耗盡",
+      "titleEn": "run out",
+      "descriptionZh": "用盡;耗盡",
+      "descriptionEn": "Our water has run out.",
+      "examples": [
+        {
+          "en": "Our water has run out.",
+          "zh": "我們的食水已用盡。",
+          "highlight": "run out"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run over something",
+      "titleZh": "快速重溫或檢查某事",
+      "titleEn": "run over something",
+      "descriptionZh": "快速重溫或檢查某事",
+      "descriptionEn": "Let us run over the plans again.",
+      "examples": [
+        {
+          "en": "Let us run over the plans again.",
+          "zh": "讓我們再次重溫計劃。",
+          "highlight": "run over"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run through somebody/something; run through something",
+      "titleZh": "感覺傳遍某人,或主題貫穿整件作品",
+      "titleEn": "run through somebody/something; run through something",
+      "descriptionZh": "感覺傳遍某人,或主題貫穿整件作品",
+      "descriptionEn": "A thrill of excitement ran through her.",
+      "examples": [
+        {
+          "en": "A thrill of excitement ran through her.",
+          "zh": "一陣興奮感傳遍她全身。",
+          "highlight": "ran through"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run to somebody",
+      "titleZh": "遇到問題時向某人求助或尋求安慰",
+      "titleEn": "run to somebody",
+      "descriptionZh": "遇到問題時向某人求助或尋求安慰",
+      "descriptionEn": "He always runs to his sister for help.",
+      "examples": [
+        {
+          "en": "He always runs to his sister for help.",
+          "zh": "他總是向姐姐求助。",
+          "highlight": "runs to"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run to something",
+      "titleZh": "總數或費用達到某個數目",
+      "titleEn": "run to something",
+      "descriptionZh": "總數或費用達到某個數目",
+      "descriptionEn": "The total cost runs to hundreds of pounds.",
+      "examples": [
+        {
+          "en": "The total cost runs to hundreds of pounds.",
+          "zh": "總費用達數百英鎊。",
+          "highlight": "runs to"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "run something up",
+      "titleZh": "累積債務、帳單或費用",
+      "titleEn": "run something up",
+      "descriptionZh": "累積債務、帳單或費用",
+      "descriptionEn": "I ran up a few debts abroad.",
+      "examples": [
+        {
+          "en": "I ran up a few debts abroad.",
+          "zh": "我在外地累積了一些債務。",
+          "highlight": "ran up"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "RUN 片語動詞的實際用途",
+    "labelEn": "RUN Phrasal Verbs in Use",
+    "summaryZh": "RUN 片語動詞可以表示偶然遇見某人、追趕人物、逃離危險,或偷偷離開。；你可以用 RUN 片語動詞描述遇上問題、逃避責任,或向某人求助。；RUN 可以描述機器的運作速度、龐大的總數、物資用盡,或帳單不斷增加。；RUN 片語動詞可以描述車輛撞到物件、水流過表面,或一種感覺傳遍某人全身。；你可以把構思告訴某人聽取意見、快速重溫計劃,或描述思緒一直停留在某個主題上。",
+    "summaryEn": "RUN expressions can show that you meet someone unexpectedly, chase a person, escape from danger or leave secretly. You can use RUN expressions to describe meeting a problem, avoiding a responsibility or going to someone for help. RUN can describe a machine's operating rate, a large total, supplies becoming exhausted or bills increasing. RUN expressions can describe vehicles hitting things, water flowing over a surface, or a feeling passing through a person. You can run an idea past someone, run over a plan or describe thoughts that keep returning to one subject.",
+    "contextsZh": [
+      "描述偶遇、追趕和逃走",
+      "談論問題、責任和求助",
+      "說明比率、總數、物資和費用",
+      "描述穿過地方、物件和人物的動態",
+      "自然談論構思和思緒"
+    ],
+    "contextsEn": [
+      "Describe chance meetings, chasing and escape",
+      "Talk about problems, duties and help",
+      "Explain rates, totals, supplies and costs",
+      "Describe movement through places, objects and people",
+      "Discuss ideas and thoughts naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 RUN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the RUN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "run across somebody/something",
+    "fixedHighlight": "run across somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 RUN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the RUN expression that gives the same meaning.",
+    "correct": "ran across",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；撞上樹; run into a problem = 遇上問題; run over a person = 車輛撞倒某人;run over a plan = 快速重溫計劃。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: run it by the teacher; run him in; run them out of town; run her over. Several RUN expressions look alike but have different meanings: run into a tree =",
+    "variableItemsZh": [
+      "run across somebody/something",
+      "run after somebody/something",
+      "run along",
+      "run around/round; run around/round something",
+      "run around after somebody",
+      "run around with somebody",
+      "run at somebody",
+      "run at something",
+      "run away/off",
+      "run away/off with somebody; run away/off",
+      "run away from something",
+      "something runs away with somebody",
+      "run somebody/something down/over",
+      "run yourself down",
+      "run something by/past somebody",
+      "run into something; run something into somebody/something",
+      "run into something",
+      "run somebody in",
+      "run somebody out; run somebody out of something",
+      "run off/over somebody/something",
+      "run something off",
+      "run on",
+      "somebody's thoughts/mind run on something",
+      "run on something; run something on something",
+      "run out",
+      "run over something",
+      "run through somebody/something; run through something",
+      "run to somebody",
+      "run to something",
+      "run something up"
+    ],
+    "variableItemsEn": [
+      "run across somebody/something",
+      "run after somebody/something",
+      "run along",
+      "run around/round; run around/round something",
+      "run around after somebody",
+      "run around with somebody",
+      "run at somebody",
+      "run at something",
+      "run away/off",
+      "run away/off with somebody; run away/off",
+      "run away from something",
+      "something runs away with somebody",
+      "run somebody/something down/over",
+      "run yourself down",
+      "run something by/past somebody",
+      "run into something; run something into somebody/something",
+      "run into something",
+      "run somebody in",
+      "run somebody out; run somebody out of something",
+      "run off/over somebody/something",
+      "run something off",
+      "run on",
+      "somebody's thoughts/mind run on something",
+      "run on something; run something on something",
+      "run out",
+      "run over something",
+      "run through somebody/something; run through something",
+      "run to somebody",
+      "run to something",
+      "run something up"
+    ],
+    "forms": [
+      {
+        "formZh": "偶然遇見某人或發現某物",
+        "formEn": "run across somebody/something",
+        "exampleZh": "我在車站偶然遇見Leo。",
+        "exampleEn": "I ran across Leo at the station.",
+        "highlight": "ran across"
+      },
+      {
+        "formZh": "追趕某人或某物",
+        "formEn": "run after somebody/something",
+        "exampleZh": "那隻狗追着球跑。",
+        "exampleEn": "The dog ran after the ball.",
+        "highlight": "ran after"
+      },
+      {
+        "formZh": "走開;離開",
+        "formEn": "run along",
+        "exampleZh": "現在走開吧;我正忙着。",
+        "exampleEn": "Run along now; I am busy.",
+        "highlight": "Run along"
+      },
+      {
+        "formZh": "在某處四處跑動,或繞着某物跑",
+        "formEn": "run around/round; run around/round something",
+        "exampleZh": "孩子們在公園四處跑動。",
+        "exampleEn": "The children ran around in the park.",
+        "highlight": "ran around"
+      },
+      {
+        "formZh": "忙着替某人做許多事情",
+        "formEn": "run around after somebody",
+        "exampleZh": "她整天忙着替他做事。",
+        "exampleEn": "She spends all day running around after him.",
+        "highlight": "running around after"
+      },
+      {
+        "formZh": "經常與某人來往,通常帶有不贊同語氣",
+        "formEn": "run around with somebody",
+        "exampleZh": "他一直與一群不良朋友來往。",
+        "exampleEn": "He has been running around with a bad crowd.",
+        "highlight": "running around with"
+      },
+      {
+        "formZh": "衝向某人並試圖襲擊對方",
+        "formEn": "run at somebody",
+        "exampleZh": "那隻憤怒的狗衝向我。",
+        "exampleEn": "The angry dog ran at me.",
+        "highlight": "ran at"
+      },
+      {
+        "formZh": "處於某個比率、速度或水平",
+        "formEn": "run at something",
+        "exampleZh": "這部機器以每小時八十件的速度運作。",
+        "exampleEn": "The machine runs at eighty units per hour.",
+        "highlight": "runs at"
+      },
+      {
+        "formZh": "逃走;迅速離開",
+        "formEn": "run away/off",
+        "exampleZh": "小偷沿着一條橫街逃走。",
+        "exampleEn": "The thief ran off down a side street.",
+        "highlight": "ran off"
+      },
+      {
+        "formZh": "偷偷離開家人或伴侶,有時與另一人一起離開",
+        "formEn": "run away/off with somebody; run away/off",
+        "exampleZh": "他們一起偷偷離開了。",
+        "exampleEn": "They ran away together.",
+        "highlight": "ran away"
+      },
+      {
+        "formZh": "逃避問題、責任或困難",
+        "formEn": "run away from something",
+        "exampleZh": "你不能逃避自己的責任。",
+        "exampleEn": "You cannot run away from your responsibilities.",
+        "highlight": "run away from"
+      },
+      {
+        "formZh": "想像、情緒或說話變得失控",
+        "formEn": "something runs away with somebody",
+        "exampleZh": "不要讓自己的想像變得失控。",
+        "exampleEn": "Do not let your imagination run away with you.",
+        "highlight": "Do"
+      },
+      {
+        "formZh": "車輛撞倒或輾過某人或某物",
+        "formEn": "run somebody/something down/over",
+        "exampleZh": "單車手被一輛貨車撞倒。",
+        "exampleEn": "The cyclist was run down by a lorry.",
+        "highlight": "run down"
+      },
+      {
+        "formZh": "貶低自己;不斷說自己不好",
+        "formEn": "run yourself down",
+        "exampleZh": "不要再貶低自己。",
+        "exampleEn": "Stop running yourself down.",
+        "highlight": "running yourself down"
+      },
+      {
+        "formZh": "把構思或計劃告訴某人,聽取意見",
+        "formEn": "run something by/past somebody",
+        "exampleZh": "讓我把這個構思告訴你,聽聽你的意見。",
+        "exampleEn": "Let me run this idea past you.",
+        "highlight": "run"
+      },
+      {
+        "formZh": "撞上某人或某物",
+        "formEn": "run into something; run something into somebody/something",
+        "exampleZh": "那輛車撞上了一棵樹。",
+        "exampleEn": "The car ran into a tree.",
+        "highlight": "ran into"
+      },
+      {
+        "formZh": "意外遇上困難、惡劣情況或問題",
+        "formEn": "run into something",
+        "exampleZh": "我們在城外遇上濃霧。",
+        "exampleEn": "We ran into thick fog outside the city.",
+        "highlight": "ran into"
+      },
+      {
+        "formZh": "警方拘捕某人並帶返警署",
+        "formEn": "run somebody in",
+        "exampleZh": "警方因他在店舖盜竊而拘捕他。",
+        "exampleEn": "The police ran him in for shoplifting.",
+        "highlight": "ran him in"
+      },
+      {
+        "formZh": "迫使某人離開某地方",
+        "formEn": "run somebody out; run somebody out of something",
+        "exampleZh": "居民迫使那個幫派離開小鎮。",
+        "exampleEn": "The residents ran the gang out of town.",
+        "highlight": "ran the gang out"
+      },
+      {
+        "formZh": "液體從表面流走或流過某人或某物",
+        "formEn": "run off/over somebody/something",
+        "exampleZh": "雨水從屋頂流下,再流過小徑。",
+        "exampleEn": "Rainwater ran off the roof and over the path.",
+        "highlight": "ran off the roof and over"
+      },
+      {
+        "formZh": "迅速印製或複印",
+        "formEn": "run something off",
+        "exampleZh": "他們迅速印製了二百份。",
+        "exampleEn": "They ran off two hundred copies.",
+        "highlight": "ran off"
+      },
+      {
+        "formZh": "繼續向前走或跑",
+        "formEn": "run on",
+        "exampleZh": "我會在這裏停下;你繼續向前走。",
+        "exampleEn": "I will stop here; you run on ahead.",
+        "highlight": "run on"
+      },
+      {
+        "formZh": "思緒不斷回到某件事情",
+        "formEn": "somebody's thoughts/mind run on something",
+        "exampleZh": "她的思緒不斷回到他們上次見面的情景。",
+        "exampleEn": "Her thoughts kept running on their last meeting.",
+        "highlight": "Her"
+      },
+      {
+        "formZh": "以某種燃料或能源運作",
+        "formEn": "run on something; run something on something",
+        "exampleZh": "這輛車使用無鉛汽油。",
+        "exampleEn": "The car runs on unleaded petrol.",
+        "highlight": "runs on"
+      },
+      {
+        "formZh": "用盡;耗盡",
+        "formEn": "run out",
+        "exampleZh": "我們的食水已用盡。",
+        "exampleEn": "Our water has run out.",
+        "highlight": "run out"
+      },
+      {
+        "formZh": "快速重溫或檢查某事",
+        "formEn": "run over something",
+        "exampleZh": "讓我們再次重溫計劃。",
+        "exampleEn": "Let us run over the plans again.",
+        "highlight": "run over"
+      },
+      {
+        "formZh": "感覺傳遍某人,或主題貫穿整件作品",
+        "formEn": "run through somebody/something; run through something",
+        "exampleZh": "一陣興奮感傳遍她全身。",
+        "exampleEn": "A thrill of excitement ran through her.",
+        "highlight": "ran through"
+      },
+      {
+        "formZh": "遇到問題時向某人求助或尋求安慰",
+        "formEn": "run to somebody",
+        "exampleZh": "他總是向姐姐求助。",
+        "exampleEn": "He always runs to his sister for help.",
+        "highlight": "runs to"
+      },
+      {
+        "formZh": "總數或費用達到某個數目",
+        "formEn": "run to something",
+        "exampleZh": "總費用達數百英鎊。",
+        "exampleEn": "The total cost runs to hundreds of pounds.",
+        "highlight": "runs to"
+      },
+      {
+        "formZh": "累積債務、帳單或費用",
+        "formEn": "run something up",
+        "exampleZh": "我在外地累積了一些債務。",
+        "exampleEn": "I ran up a few debts abroad.",
+        "highlight": "ran up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "偶然遇見某人或發現某物",
+      "titleEn": "run across somebody/something",
+      "formula": "run across somebody/something",
+      "highlight": "run across somebody/something",
+      "descriptionZh": "偶然遇見某人或發現某物",
+      "descriptionEn": "I ran across Leo at the station.",
+      "examples": [
+        {
+          "en": "I ran across Leo at the station.",
+          "zh": "我在車站偶然遇見Leo。",
+          "highlight": "ran across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "追趕某人或某物",
+      "titleEn": "run after somebody/something",
+      "formula": "run after somebody/something",
+      "highlight": "run after somebody/something",
+      "descriptionZh": "追趕某人或某物",
+      "descriptionEn": "The dog ran after the ball.",
+      "examples": [
+        {
+          "en": "The dog ran after the ball.",
+          "zh": "那隻狗追着球跑。",
+          "highlight": "ran after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "走開;離開",
+      "titleEn": "run along",
+      "formula": "run along",
+      "highlight": "run along",
+      "descriptionZh": "走開;離開",
+      "descriptionEn": "Run along now; I am busy.",
+      "examples": [
+        {
+          "en": "Run along now; I am busy.",
+          "zh": "現在走開吧;我正忙着。",
+          "highlight": "Run along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在某處四處跑動,或繞着某物跑",
+      "titleEn": "run around/round; run around/round something",
+      "formula": "run around/round; run around/round something",
+      "highlight": "run around/round; run around/round something",
+      "descriptionZh": "在某處四處跑動,或繞着某物跑",
+      "descriptionEn": "The children ran around in the park.",
+      "examples": [
+        {
+          "en": "The children ran around in the park.",
+          "zh": "孩子們在公園四處跑動。",
+          "highlight": "ran around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "忙着替某人做許多事情",
+      "titleEn": "run around after somebody",
+      "formula": "run around after somebody",
+      "highlight": "run around after somebody",
+      "descriptionZh": "忙着替某人做許多事情",
+      "descriptionEn": "She spends all day running around after him.",
+      "examples": [
+        {
+          "en": "She spends all day running around after him.",
+          "zh": "她整天忙着替他做事。",
+          "highlight": "running around after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "經常與某人來往,通常帶有不贊同語氣",
+      "titleEn": "run around with somebody",
+      "formula": "run around with somebody",
+      "highlight": "run around with somebody",
+      "descriptionZh": "經常與某人來往,通常帶有不贊同語氣",
+      "descriptionEn": "He has been running around with a bad crowd.",
+      "examples": [
+        {
+          "en": "He has been running around with a bad crowd.",
+          "zh": "他一直與一群不良朋友來往。",
+          "highlight": "running around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "衝向某人並試圖襲擊對方",
+      "titleEn": "run at somebody",
+      "formula": "run at somebody",
+      "highlight": "run at somebody",
+      "descriptionZh": "衝向某人並試圖襲擊對方",
+      "descriptionEn": "The angry dog ran at me.",
+      "examples": [
+        {
+          "en": "The angry dog ran at me.",
+          "zh": "那隻憤怒的狗衝向我。",
+          "highlight": "ran at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "處於某個比率、速度或水平",
+      "titleEn": "run at something",
+      "formula": "run at something",
+      "highlight": "run at something",
+      "descriptionZh": "處於某個比率、速度或水平",
+      "descriptionEn": "The machine runs at eighty units per hour.",
+      "examples": [
+        {
+          "en": "The machine runs at eighty units per hour.",
+          "zh": "這部機器以每小時八十件的速度運作。",
+          "highlight": "runs at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "逃走;迅速離開",
+      "titleEn": "run away/off",
+      "formula": "run away/off",
+      "highlight": "run away/off",
+      "descriptionZh": "逃走;迅速離開",
+      "descriptionEn": "The thief ran off down a side street.",
+      "examples": [
+        {
+          "en": "The thief ran off down a side street.",
+          "zh": "小偷沿着一條橫街逃走。",
+          "highlight": "ran off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "偷偷離開家人或伴侶,有時與另一人一起離開",
+      "titleEn": "run away/off with somebody; run away/off",
+      "formula": "run away/off with somebody; run away/off",
+      "highlight": "run away/off with somebody; run away/off",
+      "descriptionZh": "偷偷離開家人或伴侶,有時與另一人一起離開",
+      "descriptionEn": "They ran away together.",
+      "examples": [
+        {
+          "en": "They ran away together.",
+          "zh": "他們一起偷偷離開了。",
+          "highlight": "ran away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "逃避問題、責任或困難",
+      "titleEn": "run away from something",
+      "formula": "run away from something",
+      "highlight": "run away from something",
+      "descriptionZh": "逃避問題、責任或困難",
+      "descriptionEn": "You cannot run away from your responsibilities.",
+      "examples": [
+        {
+          "en": "You cannot run away from your responsibilities.",
+          "zh": "你不能逃避自己的責任。",
+          "highlight": "run away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "想像、情緒或說話變得失控",
+      "titleEn": "something runs away with somebody",
+      "formula": "something runs away with somebody",
+      "highlight": "something runs away with somebody",
+      "descriptionZh": "想像、情緒或說話變得失控",
+      "descriptionEn": "Do not let your imagination run away with you.",
+      "examples": [
+        {
+          "en": "Do not let your imagination run away with you.",
+          "zh": "不要讓自己的想像變得失控。",
+          "highlight": "Do"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "車輛撞倒或輾過某人或某物",
+      "titleEn": "run somebody/something down/over",
+      "formula": "run somebody/something down/over",
+      "highlight": "run somebody/something down/over",
+      "descriptionZh": "車輛撞倒或輾過某人或某物",
+      "descriptionEn": "The cyclist was run down by a lorry.",
+      "examples": [
+        {
+          "en": "The cyclist was run down by a lorry.",
+          "zh": "單車手被一輛貨車撞倒。",
+          "highlight": "run down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "貶低自己;不斷說自己不好",
+      "titleEn": "run yourself down",
+      "formula": "run yourself down",
+      "highlight": "run yourself down",
+      "descriptionZh": "貶低自己;不斷說自己不好",
+      "descriptionEn": "Stop running yourself down.",
+      "examples": [
+        {
+          "en": "Stop running yourself down.",
+          "zh": "不要再貶低自己。",
+          "highlight": "running yourself down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把構思或計劃告訴某人,聽取意見",
+      "titleEn": "run something by/past somebody",
+      "formula": "run something by/past somebody",
+      "highlight": "run something by/past somebody",
+      "descriptionZh": "把構思或計劃告訴某人,聽取意見",
+      "descriptionEn": "Let me run this idea past you.",
+      "examples": [
+        {
+          "en": "Let me run this idea past you.",
+          "zh": "讓我把這個構思告訴你,聽聽你的意見。",
+          "highlight": "run"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "撞上某人或某物",
+      "titleEn": "run into something; run something into somebody/something",
+      "formula": "run into something; run something into somebody/something",
+      "highlight": "run into something; run something into somebody/something",
+      "descriptionZh": "撞上某人或某物",
+      "descriptionEn": "The car ran into a tree.",
+      "examples": [
+        {
+          "en": "The car ran into a tree.",
+          "zh": "那輛車撞上了一棵樹。",
+          "highlight": "ran into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "意外遇上困難、惡劣情況或問題",
+      "titleEn": "run into something",
+      "formula": "run into something",
+      "highlight": "run into something",
+      "descriptionZh": "意外遇上困難、惡劣情況或問題",
+      "descriptionEn": "We ran into thick fog outside the city.",
+      "examples": [
+        {
+          "en": "We ran into thick fog outside the city.",
+          "zh": "我們在城外遇上濃霧。",
+          "highlight": "ran into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "警方拘捕某人並帶返警署",
+      "titleEn": "run somebody in",
+      "formula": "run somebody in",
+      "highlight": "run somebody in",
+      "descriptionZh": "警方拘捕某人並帶返警署",
+      "descriptionEn": "The police ran him in for shoplifting.",
+      "examples": [
+        {
+          "en": "The police ran him in for shoplifting.",
+          "zh": "警方因他在店舖盜竊而拘捕他。",
+          "highlight": "ran him in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "迫使某人離開某地方",
+      "titleEn": "run somebody out; run somebody out of something",
+      "formula": "run somebody out; run somebody out of something",
+      "highlight": "run somebody out; run somebody out of something",
+      "descriptionZh": "迫使某人離開某地方",
+      "descriptionEn": "The residents ran the gang out of town.",
+      "examples": [
+        {
+          "en": "The residents ran the gang out of town.",
+          "zh": "居民迫使那個幫派離開小鎮。",
+          "highlight": "ran the gang out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "液體從表面流走或流過某人或某物",
+      "titleEn": "run off/over somebody/something",
+      "formula": "run off/over somebody/something",
+      "highlight": "run off/over somebody/something",
+      "descriptionZh": "液體從表面流走或流過某人或某物",
+      "descriptionEn": "Rainwater ran off the roof and over the path.",
+      "examples": [
+        {
+          "en": "Rainwater ran off the roof and over the path.",
+          "zh": "雨水從屋頂流下,再流過小徑。",
+          "highlight": "ran off the roof and over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "迅速印製或複印",
+      "titleEn": "run something off",
+      "formula": "run something off",
+      "highlight": "run something off",
+      "descriptionZh": "迅速印製或複印",
+      "descriptionEn": "They ran off two hundred copies.",
+      "examples": [
+        {
+          "en": "They ran off two hundred copies.",
+          "zh": "他們迅速印製了二百份。",
+          "highlight": "ran off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "繼續向前走或跑",
+      "titleEn": "run on",
+      "formula": "run on",
+      "highlight": "run on",
+      "descriptionZh": "繼續向前走或跑",
+      "descriptionEn": "I will stop here; you run on ahead.",
+      "examples": [
+        {
+          "en": "I will stop here; you run on ahead.",
+          "zh": "我會在這裏停下;你繼續向前走。",
+          "highlight": "run on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "思緒不斷回到某件事情",
+      "titleEn": "somebody's thoughts/mind run on something",
+      "formula": "somebody's thoughts/mind run on something",
+      "highlight": "somebody's thoughts/mind run on something",
+      "descriptionZh": "思緒不斷回到某件事情",
+      "descriptionEn": "Her thoughts kept running on their last meeting.",
+      "examples": [
+        {
+          "en": "Her thoughts kept running on their last meeting.",
+          "zh": "她的思緒不斷回到他們上次見面的情景。",
+          "highlight": "Her"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "以某種燃料或能源運作",
+      "titleEn": "run on something; run something on something",
+      "formula": "run on something; run something on something",
+      "highlight": "run on something; run something on something",
+      "descriptionZh": "以某種燃料或能源運作",
+      "descriptionEn": "The car runs on unleaded petrol.",
+      "examples": [
+        {
+          "en": "The car runs on unleaded petrol.",
+          "zh": "這輛車使用無鉛汽油。",
+          "highlight": "runs on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "用盡;耗盡",
+      "titleEn": "run out",
+      "formula": "run out",
+      "highlight": "run out",
+      "descriptionZh": "用盡;耗盡",
+      "descriptionEn": "Our water has run out.",
+      "examples": [
+        {
+          "en": "Our water has run out.",
+          "zh": "我們的食水已用盡。",
+          "highlight": "run out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "快速重溫或檢查某事",
+      "titleEn": "run over something",
+      "formula": "run over something",
+      "highlight": "run over something",
+      "descriptionZh": "快速重溫或檢查某事",
+      "descriptionEn": "Let us run over the plans again.",
+      "examples": [
+        {
+          "en": "Let us run over the plans again.",
+          "zh": "讓我們再次重溫計劃。",
+          "highlight": "run over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "感覺傳遍某人,或主題貫穿整件作品",
+      "titleEn": "run through somebody/something; run through something",
+      "formula": "run through somebody/something; run through something",
+      "highlight": "run through somebody/something; run through something",
+      "descriptionZh": "感覺傳遍某人,或主題貫穿整件作品",
+      "descriptionEn": "A thrill of excitement ran through her.",
+      "examples": [
+        {
+          "en": "A thrill of excitement ran through her.",
+          "zh": "一陣興奮感傳遍她全身。",
+          "highlight": "ran through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "遇到問題時向某人求助或尋求安慰",
+      "titleEn": "run to somebody",
+      "formula": "run to somebody",
+      "highlight": "run to somebody",
+      "descriptionZh": "遇到問題時向某人求助或尋求安慰",
+      "descriptionEn": "He always runs to his sister for help.",
+      "examples": [
+        {
+          "en": "He always runs to his sister for help.",
+          "zh": "他總是向姐姐求助。",
+          "highlight": "runs to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "總數或費用達到某個數目",
+      "titleEn": "run to something",
+      "formula": "run to something",
+      "highlight": "run to something",
+      "descriptionZh": "總數或費用達到某個數目",
+      "descriptionEn": "The total cost runs to hundreds of pounds.",
+      "examples": [
+        {
+          "en": "The total cost runs to hundreds of pounds.",
+          "zh": "總費用達數百英鎊。",
+          "highlight": "runs to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "累積債務、帳單或費用",
+      "titleEn": "run something up",
+      "formula": "run something up",
+      "highlight": "run something up",
+      "descriptionZh": "累積債務、帳單或費用",
+      "descriptionEn": "I ran up a few debts abroad.",
+      "examples": [
+        {
+          "en": "I ran up a few debts abroad.",
+          "zh": "我在外地累積了一些債務。",
+          "highlight": "ran up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述偶遇、追趕和逃走",
+      "titleEn": "Describe chance meetings, chasing and escape",
+      "zh": "RUN 片語動詞可以表示偶然遇見某人、追趕人物、逃離危險,或偷偷離開。",
+      "en": "RUN expressions can show that you meet someone unexpectedly, chase a person, escape from danger or leave secretly."
+    },
+    {
+      "titleZh": "談論問題、責任和求助",
+      "titleEn": "Talk about problems, duties and help",
+      "zh": "你可以用 RUN 片語動詞描述遇上問題、逃避責任,或向某人求助。",
+      "en": "You can use RUN expressions to describe meeting a problem, avoiding a responsibility or going to someone for help."
+    },
+    {
+      "titleZh": "說明比率、總數、物資和費用",
+      "titleEn": "Explain rates, totals, supplies and costs",
+      "zh": "RUN 可以描述機器的運作速度、龐大的總數、物資用盡,或帳單不斷增加。",
+      "en": "RUN can describe a machine's operating rate, a large total, supplies becoming exhausted or bills increasing."
+    },
+    {
+      "titleZh": "描述穿過地方、物件和人物的動態",
+      "titleEn": "Describe movement through places, objects and people",
+      "zh": "RUN 片語動詞可以描述車輛撞到物件、水流過表面,或一種感覺傳遍某人全身。",
+      "en": "RUN expressions can describe vehicles hitting things, water flowing over a surface, or a feeling passing through a person."
+    },
+    {
+      "titleZh": "自然談論構思和思緒",
+      "titleEn": "Discuss ideas and thoughts naturally",
+      "zh": "你可以把構思告訴某人聽取意見、快速重溫計劃,或描述思緒一直停留在某個主題上。",
+      "en": "You can run an idea past someone, run over a plan or describe thoughts that keep returning to one subject."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述偶遇、追趕和逃走",
+      "談論問題、責任和求助",
+      "說明比率、總數、物資和費用",
+      "描述穿過地方、物件和人物的動態",
+      "自然談論構思和思緒"
+    ],
+    "contextsEn": [
+      "Describe chance meetings, chasing and escape",
+      "Talk about problems, duties and help",
+      "Explain rates, totals, supplies and costs",
+      "Describe movement through places, objects and people",
+      "Discuss ideas and thoughts naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述偶遇、追趕和逃走",
+        "titleEn": "Describe chance meetings, chasing and escape",
+        "zh": "RUN 片語動詞可以表示偶然遇見某人、追趕人物、逃離危險,或偷偷離開。",
+        "en": "RUN expressions can show that you meet someone unexpectedly, chase a person, escape from danger or leave secretly.",
+        "examples": [
+          {
+            "en": "I ran across Leo at the station.",
+            "zh": "我在車站偶然遇見Leo。",
+            "highlight": "ran across"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論問題、責任和求助",
+        "titleEn": "Talk about problems, duties and help",
+        "zh": "你可以用 RUN 片語動詞描述遇上問題、逃避責任,或向某人求助。",
+        "en": "You can use RUN expressions to describe meeting a problem, avoiding a responsibility or going to someone for help.",
+        "examples": [
+          {
+            "en": "The dog ran after the ball.",
+            "zh": "那隻狗追着球跑。",
+            "highlight": "ran after"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明比率、總數、物資和費用",
+        "titleEn": "Explain rates, totals, supplies and costs",
+        "zh": "RUN 可以描述機器的運作速度、龐大的總數、物資用盡,或帳單不斷增加。",
+        "en": "RUN can describe a machine's operating rate, a large total, supplies becoming exhausted or bills increasing.",
+        "examples": [
+          {
+            "en": "Run along now; I am busy.",
+            "zh": "現在走開吧;我正忙着。",
+            "highlight": "Run along"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述穿過地方、物件和人物的動態",
+        "titleEn": "Describe movement through places, objects and people",
+        "zh": "RUN 片語動詞可以描述車輛撞到物件、水流過表面,或一種感覺傳遍某人全身。",
+        "en": "RUN expressions can describe vehicles hitting things, water flowing over a surface, or a feeling passing through a person.",
+        "examples": [
+          {
+            "en": "The children ran around in the park.",
+            "zh": "孩子們在公園四處跑動。",
+            "highlight": "ran around"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論構思和思緒",
+        "titleEn": "Discuss ideas and thoughts naturally",
+        "zh": "你可以把構思告訴某人聽取意見、快速重溫計劃,或描述思緒一直停留在某個主題上。",
+        "en": "You can run an idea past someone, run over a plan or describe thoughts that keep returning to one subject.",
+        "examples": [
+          {
+            "en": "She spends all day running around after him.",
+            "zh": "她整天忙着替他做事。",
+            "highlight": "running around after"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 RUN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the RUN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 RUN 片語動詞。",
+      "en": "Read the whole sentence and choose the RUN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: run it by the teacher; run him in; run them out of town; run her over.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: run it by the teacher; run him in; run them out of town; run her over."
+    },
+    {
+      "titleZh": "撞上樹; run into a problem = 遇上問題; run over a person = 車輛撞倒某人;run over a plan = 快速重溫計劃。",
+      "titleEn": "Several RUN expressions look alike but have different meanings: run into a tree =.",
+      "zh": "撞上樹; run into a problem = 遇上問題; run over a person = 車輛撞倒某人;run over a plan = 快速重溫計劃。",
+      "en": "Several RUN expressions look alike but have different meanings: run into a tree ="
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 RUN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to RUN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "RUN 動詞片語句子改寫練習",
+    "titleEn": "RUN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 RUN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to RUN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          30
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          31,
+          60
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          61,
+          90
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          91,
+          120
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          121,
+          150
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-270-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Yesterday, I met Eva by chance at the station.",
+      "promptZh": "昨天,我在車站偶然遇見Eva。",
+      "starter": "Yesterday",
+      "answer": "Yesterday, I ran across Eva at the station.",
+      "answerZh": "昨天,我在車站偶然遇見Eva。",
+      "highlight": "ran across",
+      "targetForm": "run across somebody/something",
+      "targetMeaningZh": "偶然遇見某人或發現某物"
+    },
+    {
+      "id": "phrasal-verb-270-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Children, go away now; I need to work.",
+      "promptZh": "孩子們,現在走開吧;我需要工作。",
+      "starter": "Children",
+      "answer": "Children, run along now; I need to work.",
+      "answerZh": "孩子們,現在走開吧;我需要工作。",
+      "highlight": "run along",
+      "targetForm": "run along",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-270-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The thief escaped when the alarm rang.",
+      "promptZh": "警鐘響起時,小偷逃走了。",
+      "starter": "The",
+      "answer": "The thief ran away when the alarm rang.",
+      "answerZh": "警鐘響起時,小偷逃走了。",
+      "highlight": "ran away",
+      "targetForm": "run away/off",
+      "targetMeaningZh": "逃走;迅速離開"
+    },
+    {
+      "id": "phrasal-verb-270-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I accumulated a few debts while I was abroad.",
+      "promptZh": "我在外地期間累積了一些債務。",
+      "starter": "I",
+      "answer": "I ran up a few debts while I was abroad.",
+      "answerZh": "我在外地期間累積了一些債務。",
+      "highlight": "ran up",
+      "targetForm": "run something up",
+      "targetMeaningZh": "累積債務、帳單或費用"
+    },
+    {
+      "id": "phrasal-verb-270-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A thrill of excitement passed through her.",
+      "promptZh": "一陣興奮感傳遍她全身。",
+      "starter": "A",
+      "answer": "A thrill of excitement ran through her.",
+      "answerZh": "一陣興奮感傳遍她全身。",
+      "highlight": "ran",
+      "targetForm": "run through somebody/something; run through something",
+      "targetMeaningZh": "感覺傳遍某人,或主題貫穿整件作品"
+    },
+    {
+      "id": "phrasal-verb-270-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The office printed one hundred copies of the leaflet quickly.",
+      "promptZh": "辦公室迅速印製了一百份傳單。",
+      "starter": "The",
+      "answer": "The office ran off one hundred copies of the leaflet.",
+      "answerZh": "辦公室迅速印製了一百份傳單。",
+      "highlight": "ran off",
+      "targetForm": "run something off",
+      "targetMeaningZh": "迅速印製或複印"
+    },
+    {
+      "id": "phrasal-verb-270-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The children moved quickly all over the park while playing.",
+      "promptZh": "孩子們玩耍時在公園四處快速走動。",
+      "starter": "The",
+      "answer": "The children ran around in the park.",
+      "answerZh": "孩子們在公園四處跑動。",
+      "highlight": "ran around in",
+      "targetForm": "run around/round; run around/round something",
+      "targetMeaningZh": "在某處四處跑動,或繞着某物跑"
+    },
+    {
+      "id": "phrasal-verb-270-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Whenever Leo has a problem, he goes to his sister for help.",
+      "promptZh": "Leo每逢遇到問題,都會向姐姐求助。",
+      "starter": "Whenever",
+      "answer": "Whenever Leo has a problem, he runs to his sister for help.",
+      "answerZh": "Leo每逢遇到問題,都會向姐姐求助。",
+      "highlight": "runs",
+      "targetForm": "run to somebody",
+      "targetMeaningZh": "遇到問題時向某人求助或尋求安慰"
+    },
+    {
+      "id": "phrasal-verb-270-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "He is avoiding his responsibilities.",
+      "promptZh": "他正在逃避自己的責任。",
+      "starter": "He",
+      "answer": "He is running away from his responsibilities.",
+      "answerZh": "他正在逃避自己的責任。",
+      "highlight": "running away from",
+      "targetForm": "run away from something",
+      "targetMeaningZh": "逃避問題、責任或困難"
+    },
+    {
+      "id": "phrasal-verb-270-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "My money is finished.",
+      "promptZh": "我的錢已經用盡。",
+      "starter": "My",
+      "answer": "My money has run out.",
+      "answerZh": "我的錢已經用盡。",
+      "highlight": "has run out",
+      "targetForm": "run out",
+      "targetMeaningZh": "用盡;耗盡"
+    },
+    {
+      "id": "phrasal-verb-270-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The machine operates at eighty units per hour.",
+      "promptZh": "這部機器以每小時八十件的速度運作。",
+      "starter": "The",
+      "answer": "The machine runs at eighty units per hour.",
+      "answerZh": "這部機器以每小時八十件的速度運作。",
+      "highlight": "runs",
+      "targetForm": "run at something",
+      "targetMeaningZh": "處於某個比率、速度或水平"
+    },
+    {
+      "id": "phrasal-verb-270-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Their parents dislike their son spending time with a troublesome group.",
+      "promptZh": "他們的兒子經常與一群麻煩人物來往,令父母不滿。",
+      "starter": "Their",
+      "answer": "Their parents dislike their son running around with a troublesome group.",
+      "answerZh": "他們的兒子經常與一群麻煩人物來往,令父母不滿。",
+      "highlight": "running around",
+      "targetForm": "run around with somebody",
+      "targetMeaningZh": "經常與某人來往,通常帶有不贊同語氣"
+    },
+    {
+      "id": "phrasal-verb-270-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I want to tell you an idea and hear your opinion.",
+      "promptZh": "我想把一個構思告訴你,聽聽你的意見。",
+      "starter": "I",
+      "answer": "I want to run an idea by you.",
+      "answerZh": "我想把一個構思告訴你,聽聽你的意見。",
+      "highlight": "run",
+      "targetForm": "run something by/past somebody",
+      "targetMeaningZh": "把構思或計劃告訴某人,聽取意見"
+    },
+    {
+      "id": "phrasal-verb-270-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Let us review the plans again.",
+      "promptZh": "讓我們再次重溫計劃。",
+      "starter": "Let",
+      "answer": "Let us run over the plans again.",
+      "answerZh": "讓我們再次重溫計劃。",
+      "highlight": "run over",
+      "targetForm": "run over something",
+      "targetMeaningZh": "快速重溫或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-270-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The couple secretly left town together.",
+      "promptZh": "那對情侶一起偷偷離開了小鎮。",
+      "starter": "The",
+      "answer": "The couple ran away together.",
+      "answerZh": "那對情侶一起偷偷離開了小鎮。",
+      "highlight": "ran away",
+      "targetForm": "run away/off with somebody; run away/off",
+      "targetMeaningZh": "偷偷離開家人或伴侶,有時與另一人一起離開"
+    },
+    {
+      "id": "phrasal-verb-270-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The angry dog rushed towards me to attack.",
+      "promptZh": "那隻憤怒的狗衝向我,試圖襲擊我。",
+      "starter": "The",
+      "answer": "The angry dog ran at me.",
+      "answerZh": "那隻憤怒的狗衝向我,試圖襲擊我。",
+      "highlight": "ran at",
+      "targetForm": "run at somebody",
+      "targetMeaningZh": "衝向某人並試圖襲擊對方"
+    },
+    {
+      "id": "phrasal-verb-270-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Her imagination became uncontrolled and made her fear the worst.",
+      "promptZh": "她的想像變得失控,令她害怕最壞的情況。",
+      "starter": "Her",
+      "answer": "Her imagination ran away with her and made her fear the worst.",
+      "answerZh": "她的想像變得失控,令她害怕最壞的情況。",
+      "highlight": "ran away with her",
+      "targetForm": "something runs away with somebody",
+      "targetMeaningZh": "想像、情緒或說話變得失控"
+    },
+    {
+      "id": "phrasal-verb-270-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I will stop here; you continue ahead.",
+      "promptZh": "我會在這裏停下;你繼續向前走。",
+      "starter": "I",
+      "answer": "I will stop here; you run on ahead.",
+      "answerZh": "我會在這裏停下;你繼續向前走。",
+      "highlight": "run on",
+      "targetForm": "run on",
+      "targetMeaningZh": "繼續向前走或跑"
+    },
+    {
+      "id": "phrasal-verb-270-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The residents forced the gang to leave the town.",
+      "promptZh": "居民迫使那個幫派離開小鎮。",
+      "starter": "The",
+      "answer": "The residents ran the gang out of the town.",
+      "answerZh": "居民迫使那個幫派離開小鎮。",
+      "highlight": "ran",
+      "targetForm": "run somebody out; run somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-270-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The dog chased the ball across the garden.",
+      "promptZh": "那隻狗在花園裏追着球跑。",
+      "starter": "The",
+      "answer": "The dog ran after the ball across the garden.",
+      "answerZh": "那隻狗在花園裏追着球跑。",
+      "highlight": "ran after",
+      "targetForm": "run after somebody/something",
+      "targetMeaningZh": "追趕某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Rainwater flowed off the roof into a bucket.",
+      "promptZh": "雨水從屋頂流進水桶。",
+      "starter": "Rainwater",
+      "answer": "Rainwater ran off the roof into a bucket.",
+      "answerZh": "雨水從屋頂流進水桶。",
+      "highlight": "ran",
+      "targetForm": "run off/over somebody/something",
+      "targetMeaningZh": "液體從表面流走或流過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "You always say negative things about yourself.",
+      "promptZh": "你總是說自己的壞話。",
+      "starter": "You",
+      "answer": "You are always running yourself down.",
+      "answerZh": "你總是不斷貶低自己。",
+      "highlight": "are",
+      "targetForm": "run yourself down",
+      "targetMeaningZh": "貶低自己;不斷說自己不好"
+    },
+    {
+      "id": "phrasal-verb-270-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We met thick fog just outside the city.",
+      "promptZh": "我們剛離開城市便遇上濃霧。",
+      "starter": "We",
+      "answer": "We ran into thick fog just outside the city.",
+      "answerZh": "我們剛離開城市便遇上濃霧。",
+      "highlight": "ran into",
+      "targetForm": "run into something",
+      "targetMeaningZh": "意外遇上困難、惡劣情況或問題"
+    },
+    {
+      "id": "phrasal-verb-270-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The car hit a tree beside the road.",
+      "promptZh": "那輛車撞上路旁的一棵樹。",
+      "starter": "The",
+      "answer": "The car ran into a tree beside the road.",
+      "answerZh": "那輛車撞上路旁的一棵樹。",
+      "highlight": "ran into",
+      "targetForm": "run into something; run something into somebody/something",
+      "targetMeaningZh": "撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The total cost reaches hundreds of pounds.",
+      "promptZh": "總費用達數百英鎊。",
+      "starter": "The",
+      "answer": "The total cost runs to hundreds of pounds.",
+      "answerZh": "總費用達數百英鎊。",
+      "highlight": "runs to",
+      "targetForm": "run to something",
+      "targetMeaningZh": "總數或費用達到某個數目"
+    },
+    {
+      "id": "phrasal-verb-270-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Her thoughts kept returning to their last meeting.",
+      "promptZh": "她的思緒不斷回到他們上次見面的情景。",
+      "starter": "Her",
+      "answer": "Her thoughts kept running on their last meeting.",
+      "answerZh": "她的思緒不斷回到他們上次見面的情景。",
+      "highlight": "running on",
+      "targetForm": "somebody's thoughts/mind run on something",
+      "targetMeaningZh": "思緒不斷回到某件事情"
+    },
+    {
+      "id": "phrasal-verb-270-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The police arrested him for shoplifting.",
+      "promptZh": "警方因他在店舖盜竊而拘捕他。",
+      "starter": "The",
+      "answer": "The police ran him in for shoplifting.",
+      "answerZh": "警方因他在店舖盜竊而拘捕他。",
+      "highlight": "ran",
+      "targetForm": "run somebody in",
+      "targetMeaningZh": "警方拘捕某人並帶返警署"
+    },
+    {
+      "id": "phrasal-verb-270-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The car uses unleaded petrol.",
+      "promptZh": "這輛車使用無鉛汽油。",
+      "starter": "The",
+      "answer": "The car runs on unleaded petrol.",
+      "answerZh": "這輛車使用無鉛汽油。",
+      "highlight": "runs on",
+      "targetForm": "run on something; run something on something",
+      "targetMeaningZh": "以某種燃料或能源運作"
+    },
+    {
+      "id": "phrasal-verb-270-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "His mother does everything for him all day.",
+      "promptZh": "他的母親整天替他做所有事情。",
+      "starter": "His",
+      "answer": "His mother runs around after him all day.",
+      "answerZh": "他的母親整天忙着替他做所有事情。",
+      "highlight": "runs around after",
+      "targetForm": "run around after somebody",
+      "targetMeaningZh": "忙着替某人做許多事情"
+    },
+    {
+      "id": "phrasal-verb-270-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "A lorry hit the cyclist near the bridge.",
+      "promptZh": "一輛貨車在橋附近撞倒了單車手。",
+      "starter": "The",
+      "answer": "The cyclist was run down by a lorry near the bridge.",
+      "answerZh": "單車手在橋附近被一輛貨車撞倒。",
+      "highlight": "The cyclist was run down by",
+      "targetForm": "run somebody/something down/over",
+      "targetMeaningZh": "車輛撞倒或輾過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Two police officers are chasing the thief.",
+      "promptZh": "兩名警員正在追趕那名小偷。",
+      "starter": "Two",
+      "answer": "Two police officers are running after the thief.",
+      "answerZh": "兩名警員正在追趕那名小偷。",
+      "highlight": "running after",
+      "targetForm": "run after somebody/something",
+      "targetMeaningZh": "追趕某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Cold water flowed over me in the shower.",
+      "promptZh": "冷水在淋浴時流過我的身體。",
+      "starter": "Cold",
+      "answer": "Cold water ran over me in the shower.",
+      "answerZh": "冷水在淋浴時流過我的身體。",
+      "highlight": "ran",
+      "targetForm": "run off/over somebody/something",
+      "targetMeaningZh": "液體從表面流走或流過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Stop saying that you are useless.",
+      "promptZh": "不要再說自己沒有用。",
+      "starter": "Stop",
+      "answer": "Stop running yourself down.",
+      "answerZh": "不要再貶低自己。",
+      "highlight": "running yourself down",
+      "targetForm": "run yourself down",
+      "targetMeaningZh": "貶低自己;不斷說自己不好"
+    },
+    {
+      "id": "phrasal-verb-270-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Officers have arrested two men for questioning.",
+      "promptZh": "警員已拘捕兩名男子問話。",
+      "starter": "Officers",
+      "answer": "Officers have run two men in for questioning.",
+      "answerZh": "警員已拘捕兩名男子問話。",
+      "highlight": "run",
+      "targetForm": "run somebody in",
+      "targetMeaningZh": "警方拘捕某人並帶返警署"
+    },
+    {
+      "id": "phrasal-verb-270-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Sam has just found an old school photo by chance while cleaning the cupboard.",
+      "promptZh": "Sam清理櫃子時,剛巧偶然找到一張舊校園照片。",
+      "starter": "Sam",
+      "answer": "Sam has just run across an old school photo while cleaning the cupboard.",
+      "answerZh": "Sam清理櫃子時,剛巧偶然找到一張舊校園照片。",
+      "highlight": "run across",
+      "targetForm": "run across somebody/something",
+      "targetMeaningZh": "偶然遇見某人或發現某物"
+    },
+    {
+      "id": "phrasal-verb-270-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Eva has been spending time with some older students lately.",
+      "promptZh": "Eva最近一直與一些年紀較大的學生來往。",
+      "starter": "Eva",
+      "answer": "Eva has been running around with some older students lately.",
+      "answerZh": "Eva最近一直與一些年紀較大的學生來往。",
+      "highlight": "running around",
+      "targetForm": "run around with somebody",
+      "targetMeaningZh": "經常與某人來往,通常帶有不贊同語氣"
+    },
+    {
+      "id": "phrasal-verb-270-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do not let your imagination become uncontrolled.",
+      "promptZh": "不要讓自己的想像變得失控。",
+      "starter": "Do",
+      "answer": "Do not let your imagination run away with you.",
+      "answerZh": "不要讓自己的想像變得失控。",
+      "highlight": "run away with you",
+      "targetForm": "something runs away with somebody",
+      "targetMeaningZh": "想像、情緒或說話變得失控"
+    },
+    {
+      "id": "phrasal-verb-270-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The rabbit suddenly left when the dog barked.",
+      "promptZh": "那隻狗吠叫時,兔子突然跑掉了。",
+      "starter": "The",
+      "answer": "The rabbit suddenly ran off when the dog barked.",
+      "answerZh": "那隻狗吠叫時,兔子突然跑掉了。",
+      "highlight": "ran off",
+      "targetForm": "run away/off",
+      "targetMeaningZh": "逃走;迅速離開"
+    },
+    {
+      "id": "phrasal-verb-270-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Children, continue to the gate while I tie my shoe.",
+      "promptZh": "孩子們,我綁鞋帶時,你們繼續走到大閘。",
+      "starter": "Children",
+      "answer": "Children, run on to the gate while I tie my shoe.",
+      "answerZh": "孩子們,我綁鞋帶時,你們繼續走到大閘。",
+      "highlight": "run on",
+      "targetForm": "run on",
+      "targetMeaningZh": "繼續向前走或跑"
+    },
+    {
+      "id": "phrasal-verb-270-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Inflation is currently at six per cent.",
+      "promptZh": "通脹率目前是百分之六。",
+      "starter": "Inflation",
+      "answer": "Inflation is currently running at six per cent.",
+      "answerZh": "通脹率目前是百分之六。",
+      "highlight": "running",
+      "targetForm": "run at something",
+      "targetMeaningZh": "處於某個比率、速度或水平"
+    },
+    {
+      "id": "phrasal-verb-270-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The repair bill may reach two thousand pounds.",
+      "promptZh": "維修費可能達二千英鎊。",
+      "starter": "The",
+      "answer": "The repair bill may run to two thousand pounds.",
+      "answerZh": "維修費可能達二千英鎊。",
+      "highlight": "run to",
+      "targetForm": "run to something",
+      "targetMeaningZh": "總數或費用達到某個數目"
+    },
+    {
+      "id": "phrasal-verb-270-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The shop has accumulated a huge electricity bill.",
+      "promptZh": "店舖累積了一筆巨額電費。",
+      "starter": "The",
+      "answer": "The shop has run up a huge electricity bill.",
+      "answerZh": "店舖累積了一筆巨額電費。",
+      "highlight": "run up",
+      "targetForm": "run something up",
+      "targetMeaningZh": "累積債務、帳單或費用"
+    },
+    {
+      "id": "phrasal-verb-270-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "A man was seen rushing towards the guard with a bottle.",
+      "promptZh": "有人看見一名男子拿着瓶子衝向守衛。",
+      "starter": "A",
+      "answer": "A man was seen running at the guard with a bottle.",
+      "answerZh": "有人看見一名男子拿着瓶子衝向守衛。",
+      "highlight": "running at",
+      "targetForm": "run at somebody",
+      "targetMeaningZh": "衝向某人並試圖襲擊對方"
+    },
+    {
+      "id": "phrasal-verb-270-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Nia has spent the whole morning serving the guests and bringing them things.",
+      "promptZh": "Nia整個早上都在招待賓客,並替他們拿東西。",
+      "starter": "Nia",
+      "answer": "Nia has been running around after the guests all morning.",
+      "answerZh": "Nia整個早上都在忙着招待賓客。",
+      "highlight": "been running around after",
+      "targetForm": "run around after somebody",
+      "targetMeaningZh": "忙着替某人做許多事情"
+    },
+    {
+      "id": "phrasal-verb-270-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Could you quickly review the instructions with me?",
+      "promptZh": "你可以和我快速重溫這些指示嗎?",
+      "starter": "Could",
+      "answer": "Could you run over the instructions with me?",
+      "answerZh": "你可以和我快速重溫這些指示嗎?",
+      "highlight": "run over",
+      "targetForm": "run over something",
+      "targetMeaningZh": "快速重溫或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-270-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The car nearly hit a dog outside the school.",
+      "promptZh": "那輛車在學校外差點撞倒一隻狗。",
+      "starter": "The",
+      "answer": "The car nearly ran over a dog outside the school.",
+      "answerZh": "那輛車在學校外差點撞倒一隻狗。",
+      "highlight": "ran over",
+      "targetForm": "run somebody/something down/over",
+      "targetMeaningZh": "車輛撞倒或輾過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Could we show the plan to the teacher before deciding?",
+      "promptZh": "我們作決定前,可以先把計劃給老師看看嗎?",
+      "starter": "Could",
+      "answer": "Could we run the plan past the teacher before deciding?",
+      "answerZh": "我們作決定前,可以先把計劃給老師看看嗎?",
+      "highlight": "run",
+      "targetForm": "run something by/past somebody",
+      "targetMeaningZh": "把構思或計劃告訴某人,聽取意見"
+    },
+    {
+      "id": "phrasal-verb-270-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "During class, his mind was still thinking about the argument.",
+      "promptZh": "上課期間,他的思緒仍停留在那場爭執上。",
+      "starter": "During",
+      "answer": "During class, his mind was still running on the argument.",
+      "answerZh": "上課期間,他的思緒仍停留在那場爭執上。",
+      "highlight": "running on",
+      "targetForm": "somebody's thoughts/mind run on something",
+      "targetMeaningZh": "思緒不斷回到某件事情"
+    },
+    {
+      "id": "phrasal-verb-270-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Can you print these pages before the meeting?",
+      "promptZh": "你可以在會議前印製這些頁面嗎?",
+      "starter": "Can",
+      "answer": "Can you run these pages off before the meeting?",
+      "answerZh": "你可以在會議前印製這些頁面嗎?",
+      "highlight": "run",
+      "targetForm": "run something off",
+      "targetMeaningZh": "迅速印製或複印"
+    },
+    {
+      "id": "phrasal-verb-270-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The project has met several problems this week.",
+      "promptZh": "這個項目本星期遇上了幾個問題。",
+      "starter": "The",
+      "answer": "The project has run into several problems this week.",
+      "answerZh": "這個項目本星期遇上了幾個問題。",
+      "highlight": "run into",
+      "targetForm": "run into something",
+      "targetMeaningZh": "意外遇上困難、惡劣情況或問題"
+    },
+    {
+      "id": "phrasal-verb-270-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why do you always go to your parents for help first?",
+      "promptZh": "你為何總是先向父母求助?",
+      "starter": "Why",
+      "answer": "Why do you always run to your parents for help first?",
+      "answerZh": "你為何總是先向父母求助?",
+      "highlight": "run",
+      "targetForm": "run to somebody",
+      "targetMeaningZh": "遇到問題時向某人求助或尋求安慰"
+    },
+    {
+      "id": "phrasal-verb-270-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Her brother has secretly left home with his partner.",
+      "promptZh": "她的哥哥已與伴侶偷偷離家。",
+      "starter": "Her",
+      "answer": "Her brother has run off with his partner.",
+      "answerZh": "她的哥哥已與伴侶偷偷離家。",
+      "highlight": "run off",
+      "targetForm": "run away/off with somebody; run away/off",
+      "targetMeaningZh": "偷偷離開家人或伴侶,有時與另一人一起離開"
+    },
+    {
+      "id": "phrasal-verb-270-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The milk will soon be finished.",
+      "promptZh": "牛奶很快便會用完。",
+      "starter": "The",
+      "answer": "The milk will soon run out.",
+      "answerZh": "牛奶很快便會用完。",
+      "highlight": "run out",
+      "targetForm": "run out",
+      "targetMeaningZh": "用盡;耗盡"
+    },
+    {
+      "id": "phrasal-verb-270-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Aisha is jogging on the path that circles the lake this morning.",
+      "promptZh": "Aisha今早正沿着環湖小徑緩跑。",
+      "starter": "Aisha",
+      "answer": "Aisha is running round the lake this morning.",
+      "answerZh": "Aisha今早正繞着湖跑。",
+      "highlight": "running round",
+      "targetForm": "run around/round; run around/round something",
+      "targetMeaningZh": "在某處四處跑動,或繞着某物跑"
+    },
+    {
+      "id": "phrasal-verb-270-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The trolley rolled into a shelf because no one held it.",
+      "promptZh": "沒有人扶着手推車,所以它撞上了層架。",
+      "starter": "The",
+      "answer": "The trolley ran into a shelf because no one held it.",
+      "answerZh": "沒有人扶着手推車,所以它撞上了層架。",
+      "highlight": "ran",
+      "targetForm": "run into something; run something into somebody/something",
+      "targetMeaningZh": "撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "You cannot keep avoiding this difficult conversation.",
+      "promptZh": "你不能一直逃避這場困難的對話。",
+      "starter": "You",
+      "answer": "You cannot keep running away from this difficult conversation.",
+      "answerZh": "你不能一直逃避這場困難的對話。",
+      "highlight": "running away from",
+      "targetForm": "run away from something",
+      "targetMeaningZh": "逃避問題、責任或困難"
+    },
+    {
+      "id": "phrasal-verb-270-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The same idea appears throughout the novel.",
+      "promptZh": "同一個構思貫穿整部小說。",
+      "starter": "The",
+      "answer": "The same idea runs through the novel.",
+      "answerZh": "同一個構思貫穿整部小說。",
+      "highlight": "runs through",
+      "targetForm": "run through somebody/something; run through something",
+      "targetMeaningZh": "感覺傳遍某人,或主題貫穿整件作品"
+    },
+    {
+      "id": "phrasal-verb-270-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "This lamp can use batteries.",
+      "promptZh": "這盞燈可以使用電池。",
+      "starter": "This",
+      "answer": "This lamp can run on batteries.",
+      "answerZh": "這盞燈可以使用電池。",
+      "highlight": "run on",
+      "targetForm": "run on something; run something on something",
+      "targetMeaningZh": "以某種燃料或能源運作"
+    },
+    {
+      "id": "phrasal-verb-270-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please leave and play outside while I finish this call.",
+      "promptZh": "我完成這通電話時,請你離開並到外面玩。",
+      "starter": "Please",
+      "answer": "Please run along and play outside while I finish this call.",
+      "answerZh": "我完成這通電話時,請你離開並到外面玩。",
+      "highlight": "run along",
+      "targetForm": "run along",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-270-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The landlord is trying to force the family out of the flat.",
+      "promptZh": "業主正試圖迫使那個家庭離開單位。",
+      "starter": "The",
+      "answer": "The landlord is trying to run the family out of the flat.",
+      "answerZh": "業主正試圖迫使那個家庭離開單位。",
+      "highlight": "run",
+      "targetForm": "run somebody out; run somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-270-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Sam had a suggestion, so he told it to the team leader for comment.",
+      "promptZh": "Sam有一項建議,所以把它告訴組長,聽取意見。",
+      "starter": "Sam",
+      "answer": "Sam had a suggestion, so he ran it by the team leader.",
+      "answerZh": "Sam有一項建議,所以把它告訴組長,聽取意見。",
+      "highlight": "ran",
+      "targetForm": "run something by/past somebody",
+      "targetMeaningZh": "把構思或計劃告訴某人,聽取意見"
+    },
+    {
+      "id": "phrasal-verb-270-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "I spoke too freely and said things that I regretted.",
+      "promptZh": "我說話太隨意,說了一些令自己後悔的話。",
+      "starter": "My",
+      "answer": "My tongue ran away with me, and I said things that I regretted.",
+      "answerZh": "我說話失控,說了一些令自己後悔的話。",
+      "highlight": "My tongue ran away with me, and",
+      "targetForm": "something runs away with somebody",
+      "targetMeaningZh": "想像、情緒或說話變得失控"
+    },
+    {
+      "id": "phrasal-verb-270-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The driver lost control and made the car hit the wall.",
+      "promptZh": "司機失去控制,令車輛撞上牆壁。",
+      "starter": "The",
+      "answer": "The driver lost control and ran the car into the wall.",
+      "answerZh": "司機失去控制,令車輛撞上牆壁。",
+      "highlight": "ran",
+      "targetForm": "run into something; run something into somebody/something",
+      "targetMeaningZh": "撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We needed extra forms, so the assistant printed them immediately.",
+      "promptZh": "我們需要額外表格,所以助理立即把它們印出來。",
+      "starter": "We",
+      "answer": "We needed extra forms, so the assistant ran them off immediately.",
+      "answerZh": "我們需要額外表格,所以助理立即把它們印出來。",
+      "highlight": "ran",
+      "targetForm": "run something off",
+      "targetMeaningZh": "迅速印製或複印"
+    },
+    {
+      "id": "phrasal-verb-270-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "She made a mistake and immediately went to the manager for protection.",
+      "promptZh": "她犯錯後,立即向經理尋求保護。",
+      "starter": "She",
+      "answer": "She made a mistake and immediately ran to the manager for protection.",
+      "answerZh": "她犯錯後,立即向經理尋求保護。",
+      "highlight": "ran",
+      "targetForm": "run to somebody",
+      "targetMeaningZh": "遇到問題時向某人求助或尋求安慰"
+    },
+    {
+      "id": "phrasal-verb-270-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Even while cooking, I kept thinking about the phone call.",
+      "promptZh": "即使在煮食時,我仍不斷想着那通電話。",
+      "starter": "Even",
+      "answer": "Even while cooking, my thoughts kept running on the phone call.",
+      "answerZh": "即使在煮食時,我的思緒仍不斷想着那通電話。",
+      "highlight": "my thoughts",
+      "targetForm": "somebody's thoughts/mind run on something",
+      "targetMeaningZh": "思緒不斷回到某件事情"
+    },
+    {
+      "id": "phrasal-verb-270-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Stop expecting me to do every small job for you.",
+      "promptZh": "不要再期望我替你做每一件小事。",
+      "starter": "Stop",
+      "answer": "Stop expecting me to run around after you.",
+      "answerZh": "不要再期望我忙着替你做所有事情。",
+      "highlight": "run around after",
+      "targetForm": "run around after somebody",
+      "targetMeaningZh": "忙着替某人做許多事情"
+    },
+    {
+      "id": "phrasal-verb-270-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We used all the paper during the class.",
+      "promptZh": "我們在課堂期間用盡了所有紙張。",
+      "starter": "The",
+      "answer": "The paper ran out during the class.",
+      "answerZh": "紙張在課堂期間用盡了。",
+      "highlight": "ran out",
+      "targetForm": "run out",
+      "targetMeaningZh": "用盡;耗盡"
+    },
+    {
+      "id": "phrasal-verb-270-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Ben waited for the slower walkers, but the rest continued ahead.",
+      "promptZh": "Ben留下來等走得較慢的人,其餘的人則繼續向前。",
+      "starter": "Ben",
+      "answer": "Ben waited for the slower walkers, but the rest ran on ahead.",
+      "answerZh": "Ben留下來等走得較慢的人,其餘的人則繼續向前。",
+      "highlight": "ran on",
+      "targetForm": "run on",
+      "targetMeaningZh": "繼續向前走或跑"
+    },
+    {
+      "id": "phrasal-verb-270-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I expected an easy journey, but we unexpectedly met roadworks.",
+      "promptZh": "我原本以為旅程會很順利,但我們意外遇上道路工程。",
+      "starter": "I",
+      "answer": "I expected an easy journey, but we ran into roadworks.",
+      "answerZh": "我原本以為旅程會很順利,但我們意外遇上道路工程。",
+      "highlight": "ran into",
+      "targetForm": "run into something",
+      "targetMeaningZh": "意外遇上困難、惡劣情況或問題"
+    },
+    {
+      "id": "phrasal-verb-270-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I do not want you spending all weekend with those boys.",
+      "promptZh": "我不想你整個週末都跟那些男孩混在一起。",
+      "starter": "I",
+      "answer": "I do not want you running around with those boys all weekend.",
+      "answerZh": "我不想你整個週末都跟那些男孩混在一起。",
+      "highlight": "running around",
+      "targetForm": "run around with somebody",
+      "targetMeaningZh": "經常與某人來往,通常帶有不贊同語氣"
+    },
+    {
+      "id": "phrasal-verb-270-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "A man was seen leaving the shop quickly.",
+      "promptZh": "有人看見一名男子迅速離開店舖。",
+      "starter": "A",
+      "answer": "A man was seen running away from the shop.",
+      "answerZh": "有人看見一名男子迅速逃離店舖。",
+      "highlight": "running away from",
+      "targetForm": "run away/off",
+      "targetMeaningZh": "逃走;迅速離開"
+    },
+    {
+      "id": "phrasal-verb-270-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The child saw the bus leaving and chased it down the road.",
+      "promptZh": "那名孩子看見巴士駛走,便沿路追趕它。",
+      "starter": "The",
+      "answer": "The child saw the bus leaving and ran after it down the road.",
+      "answerZh": "那名孩子看見巴士駛走,便沿路追趕它。",
+      "highlight": "ran after",
+      "targetForm": "run after somebody/something",
+      "targetMeaningZh": "追趕某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "When the stranger lifted the stick, he suddenly charged towards us.",
+      "promptZh": "那名陌生人舉起木棍時,突然向我們衝過來。",
+      "starter": "When",
+      "answer": "When the stranger lifted the stick, he suddenly ran at us.",
+      "answerZh": "那名陌生人舉起木棍時,突然向我們衝過來。",
+      "highlight": "ran at",
+      "targetForm": "run at somebody",
+      "targetMeaningZh": "衝向某人並試圖襲擊對方"
+    },
+    {
+      "id": "phrasal-verb-270-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She was arrested after the police found the stolen phone.",
+      "promptZh": "警方找到失竊電話後拘捕了她。",
+      "starter": "She",
+      "answer": "She was run in after the police found the stolen phone.",
+      "answerZh": "警方找到失竊電話後拘捕了她。",
+      "highlight": "run in",
+      "targetForm": "run somebody in",
+      "targetMeaningZh": "警方拘捕某人並帶返警署"
+    },
+    {
+      "id": "phrasal-verb-270-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The dog had lots of energy and moved quickly all over the garden.",
+      "promptZh": "那隻狗精力充沛,在花園各處快速走動。",
+      "starter": "The",
+      "answer": "The dog had lots of energy and ran around in the garden.",
+      "answerZh": "那隻狗精力充沛,在花園四處跑動。",
+      "highlight": "ran around in",
+      "targetForm": "run around/round; run around/round something",
+      "targetMeaningZh": "在某處四處跑動,或繞着某物跑"
+    },
+    {
+      "id": "phrasal-verb-270-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Before the test, the teacher reviewed the key points one last time.",
+      "promptZh": "測驗前,老師最後一次重溫了重點。",
+      "starter": "Before",
+      "answer": "Before the test, the teacher ran over the key points one last time.",
+      "answerZh": "測驗前,老師最後一次重溫了重點。",
+      "highlight": "ran over",
+      "targetForm": "run over something",
+      "targetMeaningZh": "快速重溫或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-270-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "A cold feeling passed through me when the lights went out.",
+      "promptZh": "燈光熄滅時,一陣寒意傳遍我全身。",
+      "starter": "A",
+      "answer": "A cold feeling ran through me when the lights went out.",
+      "answerZh": "燈光熄滅時,一陣寒意傳遍我全身。",
+      "highlight": "ran",
+      "targetForm": "run through somebody/something; run through something",
+      "targetMeaningZh": "感覺傳遍某人,或主題貫穿整件作品"
+    },
+    {
+      "id": "phrasal-verb-270-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "They threatened the shopkeeper, but the neighbours forced them to leave the market.",
+      "promptZh": "他們威脅店主,但鄰居迫使他們離開市場。",
+      "starter": "They",
+      "answer": "They threatened the shopkeeper, but the neighbours ran them out of the market.",
+      "answerZh": "他們威脅店主,但鄰居迫使他們離開市場。",
+      "highlight": "ran",
+      "targetForm": "run somebody out; run somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-270-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Oil had flowed off the pan and onto the floor.",
+      "promptZh": "油已從平底鍋流到地板上。",
+      "starter": "Oil",
+      "answer": "Oil had run off the pan and onto the floor.",
+      "answerZh": "油已從平底鍋流到地板上。",
+      "highlight": "run",
+      "targetForm": "run off/over somebody/something",
+      "targetMeaningZh": "液體從表面流走或流過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "With delivery included, the final amount reached four hundred and fifty pounds.",
+      "promptZh": "連同運費,最終金額達四百五十英鎊。",
+      "starter": "With",
+      "answer": "With delivery included, the final amount ran to four hundred and fifty pounds.",
+      "answerZh": "連同運費,最終金額達四百五十英鎊。",
+      "highlight": "ran to",
+      "targetForm": "run to something",
+      "targetMeaningZh": "總數或費用達到某個數目"
+    },
+    {
+      "id": "phrasal-verb-270-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I was looking for my notebook when I unexpectedly found this letter.",
+      "promptZh": "我正在找筆記簿時,意外發現了這封信。",
+      "starter": "I",
+      "answer": "I was looking for my notebook when I ran across this letter.",
+      "answerZh": "我正在找筆記簿時,意外發現了這封信。",
+      "highlight": "ran across",
+      "targetForm": "run across somebody/something",
+      "targetMeaningZh": "偶然遇見某人或發現某物"
+    },
+    {
+      "id": "phrasal-verb-270-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Nia had done well, but she still spoke as if she had failed.",
+      "promptZh": "Nia表現得很好,但說話時仍像自己失敗了一樣。",
+      "starter": "Nia",
+      "answer": "Nia had done well, but she still ran herself down.",
+      "answerZh": "Nia表現得很好,但仍然貶低自己。",
+      "highlight": "ran herself down",
+      "targetForm": "run yourself down",
+      "targetMeaningZh": "貶低自己;不斷說自己不好"
+    },
+    {
+      "id": "phrasal-verb-270-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "A van hit two rubbish bins while turning.",
+      "promptZh": "一輛客貨車轉彎時撞倒了兩個垃圾桶。",
+      "starter": "A",
+      "answer": "A van ran over two rubbish bins while turning.",
+      "answerZh": "一輛客貨車轉彎時撞倒了兩個垃圾桶。",
+      "highlight": "ran over",
+      "targetForm": "run somebody/something down/over",
+      "targetMeaningZh": "車輛撞倒或輾過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Instead of facing the problem, Sofia refused to discuss it.",
+      "promptZh": "Sofia沒有面對問題,反而拒絕討論。",
+      "starter": "Instead",
+      "answer": "Instead of facing the problem, Sofia ran away from it.",
+      "answerZh": "Sofia沒有面對問題,反而逃避它。",
+      "highlight": "ran away from",
+      "targetForm": "run away from something",
+      "targetMeaningZh": "逃避問題、責任或困難"
+    },
+    {
+      "id": "phrasal-verb-270-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "They planned to leave secretly and marry in Scotland.",
+      "promptZh": "他們計劃偷偷離開,並在蘇格蘭結婚。",
+      "starter": "They",
+      "answer": "They planned to run away and marry in Scotland.",
+      "answerZh": "他們計劃偷偷離開,並在蘇格蘭結婚。",
+      "highlight": "run away",
+      "targetForm": "run away/off with somebody; run away/off",
+      "targetMeaningZh": "偷偷離開家人或伴侶,有時與另一人一起離開"
+    },
+    {
+      "id": "phrasal-verb-270-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The fan can operate at three different speeds.",
+      "promptZh": "這把風扇可以三種不同速度運作。",
+      "starter": "The",
+      "answer": "The fan can run at three different speeds.",
+      "answerZh": "這把風扇可以三種不同速度運作。",
+      "highlight": "run",
+      "targetForm": "run at something",
+      "targetMeaningZh": "處於某個比率、速度或水平"
+    },
+    {
+      "id": "phrasal-verb-270-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "He used the card every day and accumulated a bill of nine hundred pounds.",
+      "promptZh": "他每天使用信用卡,累積了九百英鎊的帳單。",
+      "starter": "He",
+      "answer": "He used the card every day and ran up a bill of nine hundred pounds.",
+      "answerZh": "他每天使用信用卡,累積了九百英鎊的帳單。",
+      "highlight": "ran up",
+      "targetForm": "run something up",
+      "targetMeaningZh": "累積債務、帳單或費用"
+    },
+    {
+      "id": "phrasal-verb-270-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The shopkeeper told the boys to go away because the shop was closing.",
+      "promptZh": "店主因店舖即將關門,叫那些男孩離開。",
+      "starter": "The",
+      "answer": "The shopkeeper told the boys to run along because the shop was closing.",
+      "answerZh": "店主因店舖即將關門,叫那些男孩離開。",
+      "highlight": "run along",
+      "targetForm": "run along",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-270-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We powered the small cooker with gas.",
+      "promptZh": "我們用氣體燃料讓小型煮食爐運作。",
+      "starter": "We",
+      "answer": "We ran the small cooker on gas.",
+      "answerZh": "我們用氣體燃料讓小型煮食爐運作。",
+      "highlight": "ran",
+      "targetForm": "run on something; run something on something",
+      "targetMeaningZh": "以某種燃料或能源運作"
+    },
+    {
+      "id": "phrasal-verb-270-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Can one loud group really force every visitor to leave the park?",
+      "promptZh": "一群吵鬧的人真的可以迫使所有遊人離開公園嗎?",
+      "starter": "Can",
+      "answer": "Can one loud group really run every visitor out of the park?",
+      "answerZh": "一群吵鬧的人真的可以迫使所有遊人離開公園嗎?",
+      "highlight": "run",
+      "targetForm": "run somebody out; run somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-270-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "What will you do if your phone battery is completely used up?",
+      "promptZh": "如果你的電話電池完全用盡,你會怎麼辦?",
+      "starter": "What",
+      "answer": "What will you do if your phone battery runs out?",
+      "answerZh": "如果你的電話電池完全用盡,你會怎麼辦?",
+      "highlight": "runs out",
+      "targetForm": "run out",
+      "targetMeaningZh": "用盡;耗盡"
+    },
+    {
+      "id": "phrasal-verb-270-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We have only five minutes, but can we quickly check the names and times?",
+      "promptZh": "我們只有五分鐘,但可以快速核對姓名和時間嗎?",
+      "starter": "We",
+      "answer": "We have only five minutes, but can we run over the names and times?",
+      "answerZh": "我們只有五分鐘,但可以快速核對姓名和時間嗎?",
+      "highlight": "run over",
+      "targetForm": "run over something",
+      "targetMeaningZh": "快速重溫或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-270-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "What will we do if we meet another delay?",
+      "promptZh": "如果我們再遇上延誤,該怎麼辦?",
+      "starter": "What",
+      "answer": "What will we do if we run into another delay?",
+      "answerZh": "如果我們再遇上延誤,該怎麼辦?",
+      "highlight": "run into",
+      "targetForm": "run into something",
+      "targetMeaningZh": "意外遇上困難、惡劣情況或問題"
+    },
+    {
+      "id": "phrasal-verb-270-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Why is Kai always in the company of people who skip class?",
+      "promptZh": "Kai為何總是與逃課的人來往?",
+      "starter": "Why",
+      "answer": "Why is Kai always running around with people who skip class?",
+      "answerZh": "Kai為何總是與逃課的人來往?",
+      "highlight": "running around with",
+      "targetForm": "run around with somebody",
+      "targetMeaningZh": "經常與某人來往,通常帶有不贊同語氣"
+    },
+    {
+      "id": "phrasal-verb-270-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Did you happen to meet Leo during the conference?",
+      "promptZh": "你在會議期間有偶然遇見Leo嗎?",
+      "starter": "Did",
+      "answer": "Did you run across Leo during the conference?",
+      "answerZh": "你在會議期間有偶然遇見Leo嗎?",
+      "highlight": "run across",
+      "targetForm": "run across somebody/something",
+      "targetMeaningZh": "偶然遇見某人或發現某物"
+    },
+    {
+      "id": "phrasal-verb-270-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "This machine can quickly produce five hundred tickets in an hour.",
+      "promptZh": "這部機器可以在一小時內迅速印製五百張門票。",
+      "starter": "This",
+      "answer": "This machine can run off five hundred tickets in an hour.",
+      "answerZh": "這部機器可以在一小時內迅速印製五百張門票。",
+      "highlight": "run off",
+      "targetForm": "run something off",
+      "targetMeaningZh": "迅速印製或複印"
+    },
+    {
+      "id": "phrasal-verb-270-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Can we exercise by circling the track twice?",
+      "promptZh": "我們可以繞着跑道跑兩圈來做運動嗎?",
+      "starter": "Can",
+      "answer": "Can we run round the track twice?",
+      "answerZh": "我們可以繞着跑道跑兩圈嗎?",
+      "highlight": "run round",
+      "targetForm": "run around/round; run around/round something",
+      "targetMeaningZh": "在某處四處跑動,或繞着某物跑"
+    },
+    {
+      "id": "phrasal-verb-270-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Why are the reporters following the actor and trying to catch him?",
+      "promptZh": "記者為何跟着那名演員,試圖追上他?",
+      "starter": "Why",
+      "answer": "Why are the reporters running after the actor?",
+      "answerZh": "記者為何追着那名演員?",
+      "highlight": "running after",
+      "targetForm": "run after somebody/something",
+      "targetMeaningZh": "追趕某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Why does your mind keep returning to one small mistake?",
+      "promptZh": "你的思緒為何一直停留在一個小錯誤上?",
+      "starter": "Why",
+      "answer": "Why does your mind keep running on one small mistake?",
+      "answerZh": "你的思緒為何一直停留在一個小錯誤上?",
+      "highlight": "running on",
+      "targetForm": "somebody's thoughts/mind run on something",
+      "targetMeaningZh": "思緒不斷回到某件事情"
+    },
+    {
+      "id": "phrasal-verb-270-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "During the test, the engine was operating at full power.",
+      "promptZh": "測試期間,引擎正以全功率運作。",
+      "starter": "During",
+      "answer": "During the test, the engine was running at full power.",
+      "answerZh": "測試期間,引擎正以全功率運作。",
+      "highlight": "running",
+      "targetForm": "run at something",
+      "targetMeaningZh": "處於某個比率、速度或水平"
+    },
+    {
+      "id": "phrasal-verb-270-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Are we trying to avoid the truth because it is uncomfortable?",
+      "promptZh": "我們是否因真相令人不安而試圖逃避它?",
+      "starter": "Are",
+      "answer": "Are we running away from the truth because it is uncomfortable?",
+      "answerZh": "我們是否因真相令人不安而逃避它?",
+      "highlight": "running away from",
+      "targetForm": "run away from something",
+      "targetMeaningZh": "逃避問題、責任或困難"
+    },
+    {
+      "id": "phrasal-verb-270-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "How can three small changes produce a cost of nearly one thousand pounds?",
+      "promptZh": "三項小改動的費用怎會接近一千英鎊?",
+      "starter": "How",
+      "answer": "How can the cost of three small changes run to nearly one thousand pounds?",
+      "answerZh": "三項小改動的費用怎會接近一千英鎊?",
+      "highlight": "the cost of",
+      "targetForm": "run to something",
+      "targetMeaningZh": "總數或費用達到某個數目"
+    },
+    {
+      "id": "phrasal-verb-270-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "What message continues throughout all three films?",
+      "promptZh": "甚麼訊息貫穿三部電影?",
+      "starter": "What",
+      "answer": "What message runs through all three films?",
+      "answerZh": "甚麼訊息貫穿三部電影?",
+      "highlight": "runs through",
+      "targetForm": "run through somebody/something; run through something",
+      "targetMeaningZh": "感覺傳遍某人,或主題貫穿整件作品"
+    },
+    {
+      "id": "phrasal-verb-270-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Did the cyclist really collide with the parked van?",
+      "promptZh": "那名單車手真的撞上停泊的客貨車嗎?",
+      "starter": "Did",
+      "answer": "Did the cyclist really run into the parked van?",
+      "answerZh": "那名單車手真的撞上停泊的客貨車嗎?",
+      "highlight": "run into",
+      "targetForm": "run into something; run something into somebody/something",
+      "targetMeaningZh": "撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Should we continue without them or wait here?",
+      "promptZh": "我們應該不等他們繼續向前,還是在這裏等?",
+      "starter": "Should",
+      "answer": "Should we run on without them or wait here?",
+      "answerZh": "我們應該不等他們繼續向前,還是在這裏等?",
+      "highlight": "run on",
+      "targetForm": "run on",
+      "targetMeaningZh": "繼續向前走或跑"
+    },
+    {
+      "id": "phrasal-verb-270-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why did the police arrest the driver last night?",
+      "promptZh": "警方昨晚為何拘捕那名司機?",
+      "starter": "Why",
+      "answer": "Why did the police run the driver in last night?",
+      "answerZh": "警方昨晚為何拘捕那名司機?",
+      "highlight": "run",
+      "targetForm": "run somebody in",
+      "targetMeaningZh": "警方拘捕某人並帶返警署"
+    },
+    {
+      "id": "phrasal-verb-270-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why is the paint flowing over the edge of the table?",
+      "promptZh": "油漆為何正流過桌子的邊緣?",
+      "starter": "Why",
+      "answer": "Why is the paint running over the edge of the table?",
+      "answerZh": "油漆為何正流過桌子的邊緣?",
+      "highlight": "running",
+      "targetForm": "run off/over somebody/something",
+      "targetMeaningZh": "液體從表面流走或流過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not escape just because the dog comes near you.",
+      "promptZh": "不要只因那隻狗走近你便逃走。",
+      "starter": "Do",
+      "answer": "Do not run away just because the dog comes near you.",
+      "answerZh": "不要只因那隻狗走近你便逃走。",
+      "highlight": "run away",
+      "targetForm": "run away/off",
+      "targetMeaningZh": "逃走;迅速離開"
+    },
+    {
+      "id": "phrasal-verb-270-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before we book the venue, let us ask the manager what she thinks of the proposed date.",
+      "promptZh": "我們預訂場地前,先問問經理對建議日期的意見吧。",
+      "starter": "Before",
+      "answer": "Before we book the venue, let us run the proposed date past the manager.",
+      "answerZh": "我們預訂場地前,先問問經理對建議日期的意見吧。",
+      "highlight": "run",
+      "targetForm": "run something by/past somebody",
+      "targetMeaningZh": "把構思或計劃告訴某人,聽取意見"
+    },
+    {
+      "id": "phrasal-verb-270-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "How did they accumulate so many extra costs in one weekend?",
+      "promptZh": "他們怎會在一個週末累積這麼多額外費用?",
+      "starter": "How",
+      "answer": "How did they run up so many extra costs in one weekend?",
+      "answerZh": "他們怎會在一個週末累積這麼多額外費用?",
+      "highlight": "run up",
+      "targetForm": "run something up",
+      "targetMeaningZh": "累積債務、帳單或費用"
+    },
+    {
+      "id": "phrasal-verb-270-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why did the player rush towards the referee after the final whistle?",
+      "promptZh": "終場哨聲響起後,那名球員為何衝向球證?",
+      "starter": "Why",
+      "answer": "Why did the player run at the referee after the final whistle?",
+      "answerZh": "終場哨聲響起後,那名球員為何衝向球證?",
+      "highlight": "run at",
+      "targetForm": "run at somebody",
+      "targetMeaningZh": "衝向某人並試圖襲擊對方"
+    },
+    {
+      "id": "phrasal-verb-270-q113",
+      "number": 113,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "You have your answer, so please leave now and let the next person speak.",
+      "promptZh": "你已得到答案,所以現在請離開,讓下一個人發言。",
+      "starter": "You",
+      "answer": "You have your answer, so please run along and let the next person speak.",
+      "answerZh": "你已得到答案,所以現在請離開,讓下一個人發言。",
+      "highlight": "run along",
+      "targetForm": "run along",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-270-q114",
+      "number": 114,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why should Leo's sister keep taking care of all his needs?",
+      "promptZh": "Leo的姐姐為何要一直照顧他的所有需要?",
+      "starter": "Why",
+      "answer": "Why should Leo's sister keep running around after him?",
+      "answerZh": "Leo的姐姐為何要一直忙着照顧他?",
+      "highlight": "running around after him",
+      "targetForm": "run around after somebody",
+      "targetMeaningZh": "忙着替某人做許多事情"
+    },
+    {
+      "id": "phrasal-verb-270-q115",
+      "number": 115,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Does the generator operate on solar power?",
+      "promptZh": "這部發電機以太陽能運作嗎?",
+      "starter": "Does",
+      "answer": "Does the generator run on solar power?",
+      "answerZh": "這部發電機以太陽能運作嗎?",
+      "highlight": "run",
+      "targetForm": "run on something; run something on something",
+      "targetMeaningZh": "以某種燃料或能源運作"
+    },
+    {
+      "id": "phrasal-verb-270-q116",
+      "number": 116,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Why does Omar keep saying that he is worse than everyone else?",
+      "promptZh": "Omar為何一直說自己比所有人差?",
+      "starter": "Why",
+      "answer": "Why does Omar keep running himself down?",
+      "answerZh": "Omar為何一直貶低自己?",
+      "highlight": "running himself down",
+      "targetForm": "run yourself down",
+      "targetMeaningZh": "貶低自己;不斷說自己不好"
+    },
+    {
+      "id": "phrasal-verb-270-q117",
+      "number": 117,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Do not come to me for help after ignoring my advice.",
+      "promptZh": "不要在忽視我的建議後來找我求助。",
+      "starter": "Do",
+      "answer": "Do not come running to me after ignoring my advice.",
+      "answerZh": "不要在忽視我的建議後來找我求助。",
+      "highlight": "running",
+      "targetForm": "run to somebody",
+      "targetMeaningZh": "遇到問題時向某人求助或尋求安慰"
+    },
+    {
+      "id": "phrasal-verb-270-q118",
+      "number": 118,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Has your imagination become uncontrolled again, or do you have real facts?",
+      "promptZh": "你的想像是否再次失控,還是你真的有事實根據?",
+      "starter": "Has",
+      "answer": "Has your imagination run away with you again, or do you have real facts?",
+      "answerZh": "你的想像是否再次失控,還是你真的有事實根據?",
+      "highlight": "run away with you",
+      "targetForm": "something runs away with somebody",
+      "targetMeaningZh": "想像、情緒或說話變得失控"
+    },
+    {
+      "id": "phrasal-verb-270-q119",
+      "number": 119,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "How was the pedestrian injured? A motorbike hit him.",
+      "promptZh": "那名行人是如何受傷的?一輛電單車撞倒了他。",
+      "starter": "How",
+      "answer": "How was the pedestrian injured? He was run over by a motorbike.",
+      "answerZh": "那名行人是如何受傷的?他被一輛電單車撞倒。",
+      "highlight": "He was run over by",
+      "targetForm": "run somebody/something down/over",
+      "targetMeaningZh": "車輛撞倒或輾過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q120",
+      "number": 120,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Did she really leave her family to go with him?",
+      "promptZh": "她真的離開家人,跟他一起走了嗎?",
+      "starter": "Did",
+      "answer": "Did she really run off with him?",
+      "answerZh": "她真的離開家人,跟他一起走了嗎?",
+      "highlight": "run off",
+      "targetForm": "run away/off with somebody; run away/off",
+      "targetMeaningZh": "偷偷離開家人或伴侶,有時與另一人一起離開"
+    },
+    {
+      "id": "phrasal-verb-270-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "During the power cut, the shop kept the fridge operating with a backup battery.",
+      "promptZh": "停電期間,店舖用後備電池讓雪櫃繼續運作。",
+      "starter": "During",
+      "answer": "During the power cut, the shop ran the fridge on a backup battery.",
+      "answerZh": "停電期間,店舖用後備電池讓雪櫃繼續運作。",
+      "highlight": "ran",
+      "targetForm": "run on something; run something on something",
+      "targetMeaningZh": "以某種燃料或能源運作"
+    },
+    {
+      "id": "phrasal-verb-270-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The team had worked there for years, but the new owner used unfair rules to force them out.",
+      "promptZh": "團隊在那裏工作多年,但新東主用不公平的規則迫使他們離開。",
+      "starter": "The",
+      "answer": "The team had worked there for years, but the new owner used unfair rules to run them out.",
+      "answerZh": "團隊在那裏工作多年,但新東主用不公平的規則迫使他們離開。",
+      "highlight": "run",
+      "targetForm": "run somebody out; run somebody out of something",
+      "targetMeaningZh": "迫使某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-270-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the heavy rain, muddy water flowed away from the fields and into the river.",
+      "promptZh": "大雨後,泥水從田野流入河中。",
+      "starter": "After",
+      "answer": "After the heavy rain, muddy water ran off the fields and into the river.",
+      "answerZh": "大雨後,泥水從田野流入河中。",
+      "highlight": "ran off",
+      "targetForm": "run off/over somebody/something",
+      "targetMeaningZh": "液體從表面流走或流過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before the facts were known, Leo imagined a huge disaster because his imagination became uncontrolled.",
+      "promptZh": "在事實公布前,Leo因想像失控而以為會發生嚴重災難。",
+      "starter": "Before",
+      "answer": "Before the facts were known, Leo imagined a huge disaster because his imagination had run away with him.",
+      "answerZh": "在事實公布前,Leo因想像失控而以為會發生嚴重災難。",
+      "highlight": "had run away with him",
+      "targetForm": "something runs away with somebody",
+      "targetMeaningZh": "想像、情緒或說話變得失控"
+    },
+    {
+      "id": "phrasal-verb-270-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although Priya was searching for another file, she unexpectedly found the missing report.",
+      "promptZh": "雖然Priya正在尋找另一份檔案,但她意外發現了失去的報告。",
+      "starter": "Although",
+      "answer": "Although Priya was searching for another file, she ran across the missing report.",
+      "answerZh": "雖然Priya正在尋找另一份檔案,但她意外發現了失去的報告。",
+      "highlight": "ran across",
+      "targetForm": "run across somebody/something",
+      "targetMeaningZh": "偶然遇見某人或發現某物"
+    },
+    {
+      "id": "phrasal-verb-270-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Without telling anyone, the two young adults left the city together and began a new life.",
+      "promptZh": "兩名年輕成年人沒有告訴任何人,便一起離開城市,展開新生活。",
+      "starter": "Without",
+      "answer": "Without telling anyone, the two young adults ran away together and began a new life.",
+      "answerZh": "兩名年輕成年人沒有告訴任何人,便一起離開城市,展開新生活。",
+      "highlight": "ran away",
+      "targetForm": "run away/off with somebody; run away/off",
+      "targetMeaningZh": "偷偷離開家人或伴侶,有時與另一人一起離開"
+    },
+    {
+      "id": "phrasal-verb-270-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "When the wallet thief turned the corner, two shop workers chased him but could not catch him.",
+      "promptZh": "偷銀包的人轉入街角時,兩名店員追趕他,但未能捉住他。",
+      "starter": "When",
+      "answer": "When the wallet thief turned the corner, two shop workers ran after him but could not catch him.",
+      "answerZh": "偷銀包的人轉入街角時,兩名店員追趕他,但未能捉住他。",
+      "highlight": "ran after",
+      "targetForm": "run after somebody/something",
+      "targetMeaningZh": "追趕某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "Although Ben said he could manage alone, he went straight to his older brother when the problem became serious.",
+      "promptZh": "雖然Ben說自己可以獨自處理,但問題變得嚴重時,他立即向哥哥求助。",
+      "starter": "Although",
+      "answer": "Although Ben said he could manage alone, he ran straight to his older brother when the problem became serious.",
+      "answerZh": "雖然Ben說自己可以獨自處理,但問題變得嚴重時,他立即向哥哥求助。",
+      "highlight": "ran",
+      "targetForm": "run to somebody",
+      "targetMeaningZh": "遇到問題時向某人求助或尋求安慰"
+    },
+    {
+      "id": "phrasal-verb-270-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "The manager blamed others for months, but the real issue was that he had been avoiding his duty.",
+      "promptZh": "經理數月來一直責怪別人,但真正問題是他一直逃避自己的職責。",
+      "starter": "The",
+      "answer": "The manager blamed others for months, but the real issue was that he had been running away from his duty.",
+      "answerZh": "經理數月來一直責怪別人,但真正問題是他一直逃避自己的職責。",
+      "highlight": "running away from",
+      "targetForm": "run away from something",
+      "targetMeaningZh": "逃避問題、責任或困難"
+    },
+    {
+      "id": "phrasal-verb-270-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the team had checked everything, it unexpectedly faced a serious computer problem just before the show.",
+      "promptZh": "雖然團隊已檢查所有事情,但在表演前突然遇上嚴重的電腦問題。",
+      "starter": "Although",
+      "answer": "Although the team had checked everything, it ran into a serious computer problem just before the show.",
+      "answerZh": "雖然團隊已檢查所有事情,但在表演前突然遇上嚴重的電腦問題。",
+      "highlight": "ran into",
+      "targetForm": "run into something",
+      "targetMeaningZh": "意外遇上困難、惡劣情況或問題"
+    },
+    {
+      "id": "phrasal-verb-270-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before help arrived, their clean water had almost been used up.",
+      "promptZh": "救援到達前,他們的清潔食水幾乎已用盡。",
+      "starter": "Before",
+      "answer": "Before help arrived, their clean water had almost run out.",
+      "answerZh": "救援到達前,他們的清潔食水幾乎已用盡。",
+      "highlight": "run out",
+      "targetForm": "run out",
+      "targetMeaningZh": "用盡;耗盡"
+    },
+    {
+      "id": "phrasal-verb-270-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although Omar is old enough to manage alone, his parents still spend every evening doing everything he asks.",
+      "promptZh": "雖然Omar已經大得可以自己處理事情,但父母每晚仍替他做所有要求的事情。",
+      "starter": "Although",
+      "answer": "Although Omar is old enough to manage alone, his parents still run around after him every evening.",
+      "answerZh": "雖然Omar已經大得可以自己處理事情,但父母每晚仍忙着照顧他。",
+      "highlight": "run around after him",
+      "targetForm": "run around after somebody",
+      "targetMeaningZh": "忙着替某人做許多事情"
+    },
+    {
+      "id": "phrasal-verb-270-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Even after receiving praise, Priya continued to describe her work as poor and unimportant.",
+      "promptZh": "即使得到讚賞,Priya仍繼續把自己的作品說得很差和不重要。",
+      "starter": "Even",
+      "answer": "Even after receiving praise, Priya continued to run herself down.",
+      "answerZh": "即使得到讚賞,Priya仍繼續貶低自己。",
+      "highlight": "run herself down",
+      "targetForm": "run yourself down",
+      "targetMeaningZh": "貶低自己;不斷說自己不好"
+    },
+    {
+      "id": "phrasal-verb-270-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As the crowd heard the final score, a wave of excitement passed through the stadium.",
+      "promptZh": "人群聽到最終比數時,一陣興奮感傳遍整個運動場。",
+      "starter": "As",
+      "answer": "As the crowd heard the final score, a wave of excitement ran through the stadium.",
+      "answerZh": "人群聽到最終比數時,一陣興奮感傳遍整個運動場。",
+      "highlight": "ran",
+      "targetForm": "run through somebody/something; run through something",
+      "targetMeaningZh": "感覺傳遍某人,或主題貫穿整件作品"
+    },
+    {
+      "id": "phrasal-verb-270-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "By the end of the trip, the food, tickets and hotel costs together had reached more than three thousand pounds.",
+      "promptZh": "旅程結束時,食物、門票和酒店費用合共已超過三千英鎊。",
+      "starter": "By",
+      "answer": "By the end of the trip, the food, tickets and hotel costs together had run to more than three thousand pounds.",
+      "answerZh": "旅程結束時,食物、門票和酒店費用合共已超過三千英鎊。",
+      "highlight": "run to",
+      "targetForm": "run to something",
+      "targetMeaningZh": "總數或費用達到某個數目"
+    },
+    {
+      "id": "phrasal-verb-270-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As the child stepped off the pavement, the driver braked in time and did not hit her.",
+      "promptZh": "孩子踏出行人路時,司機及時煞車,沒有撞到她。",
+      "starter": "As",
+      "answer": "As the child stepped off the pavement, the driver braked in time and did not run her over.",
+      "answerZh": "孩子踏出行人路時,司機及時煞車,沒有撞到她。",
+      "highlight": "run",
+      "targetForm": "run somebody/something down/over",
+      "targetMeaningZh": "車輛撞倒或輾過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although everyone had read the report, the chair asked the group to review the main numbers before voting.",
+      "promptZh": "雖然所有人都已閱讀報告,但主席要求小組在投票前重溫主要數字。",
+      "starter": "Although",
+      "answer": "Although everyone had read the report, the chair asked the group to run over the main numbers before voting.",
+      "answerZh": "雖然所有人都已閱讀報告,但主席要求小組在投票前重溫主要數字。",
+      "highlight": "run over",
+      "targetForm": "run over something",
+      "targetMeaningZh": "快速重溫或檢查某事"
+    },
+    {
+      "id": "phrasal-verb-270-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the brakes failed on the slope, the rider turned aside and collided with a pile of boxes instead of the crowd.",
+      "promptZh": "斜路上的煞車失靈時,騎車者轉向一旁,撞上一堆箱子而不是人群。",
+      "starter": "When",
+      "answer": "When the brakes failed on the slope, the rider turned aside and ran into a pile of boxes instead of the crowd.",
+      "answerZh": "斜路上的煞車失靈時,騎車者轉向一旁,撞上一堆箱子而不是人群。",
+      "highlight": "ran into",
+      "targetForm": "run into something; run something into somebody/something",
+      "targetMeaningZh": "撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-270-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 27,
+      "prompt": "After helping us carry the bags, Ben was told to leave and join his friends.",
+      "promptZh": "Ben幫我們搬完袋子後,有人叫他離開並去找朋友。",
+      "starter": "After",
+      "answer": "After helping us carry the bags, Ben was told to run along and join his friends.",
+      "answerZh": "Ben幫我們搬完袋子後,有人叫他離開並去找朋友。",
+      "highlight": "run along",
+      "targetForm": "run along",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-270-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 27,
+      "prompt": "Although the conversation had ended hours earlier, Priya's thoughts continued to return to what she should have said.",
+      "promptZh": "雖然對話數小時前已結束,但Priya的思緒仍不斷回到自己本應說的話。",
+      "starter": "Although",
+      "answer": "Although the conversation had ended hours earlier, Priya's thoughts kept running on what she should have said.",
+      "answerZh": "雖然對話數小時前已結束,但Priya的思緒仍不斷回到自己本應說的話。",
+      "highlight": "kept running on",
+      "targetForm": "somebody's thoughts/mind run on something",
+      "targetMeaningZh": "思緒不斷回到某件事情"
+    },
+    {
+      "id": "phrasal-verb-270-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "When the guide stopped to help an injured hiker, she told the group to continue to the next sign.",
+      "promptZh": "導遊停下來協助受傷的遠足者時,叫隊伍繼續走到下一個路牌。",
+      "starter": "When",
+      "answer": "When the guide stopped to help an injured hiker, she told the group to run on to the next sign.",
+      "answerZh": "導遊停下來協助受傷的遠足者時,叫隊伍繼續走到下一個路牌。",
+      "highlight": "run on",
+      "targetForm": "run on",
+      "targetMeaningZh": "繼續向前走或跑"
+    },
+    {
+      "id": "phrasal-verb-270-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "After checking the camera footage, the officers decided to arrest the suspect and take him to the station.",
+      "promptZh": "警員查看閉路電視片段後,決定拘捕疑犯並把他帶返警署。",
+      "starter": "After",
+      "answer": "After checking the camera footage, the officers decided to run the suspect in.",
+      "answerZh": "警員查看閉路電視片段後,決定拘捕疑犯並把他帶返警署。",
+      "highlight": "run",
+      "targetForm": "run somebody in",
+      "targetMeaningZh": "警方拘捕某人並帶返警署"
+    },
+    {
+      "id": "phrasal-verb-270-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The proposal is nearly ready, but I would still like to show it to the finance team and hear their view.",
+      "promptZh": "建議書差不多完成,但我仍想把它給財務團隊看看,聽取他們的意見。",
+      "starter": "The",
+      "answer": "The proposal is nearly ready, but I would still like to run it by the finance team.",
+      "answerZh": "建議書差不多完成,但我仍想把它給財務團隊看看,聽取他們的意見。",
+      "highlight": "run",
+      "targetForm": "run something by/past somebody",
+      "targetMeaningZh": "把構思或計劃告訴某人,聽取意見"
+    },
+    {
+      "id": "phrasal-verb-270-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "While the adults prepared lunch, the children spent half an hour moving freely all over the field.",
+      "promptZh": "成年人準備午餐時,孩子們在田野各處自由走動了半小時。",
+      "starter": "While",
+      "answer": "While the adults prepared lunch, the children spent half an hour running around in the field.",
+      "answerZh": "成年人準備午餐時,孩子們在田野四處跑動了半小時。",
+      "highlight": "running around in",
+      "targetForm": "run around/round; run around/round something",
+      "targetMeaningZh": "在某處四處跑動,或繞着某物跑"
+    },
+    {
+      "id": "phrasal-verb-270-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the normal line produces fifty bottles a minute, today it has been operating at only thirty-five bottles a minute.",
+      "promptZh": "雖然正常生產線每分鐘製造五十瓶,但今天只以每分鐘三十五瓶的速度運作。",
+      "starter": "Although",
+      "answer": "Although the normal line produces fifty bottles a minute, today it has been running at only thirty-five bottles a minute.",
+      "answerZh": "雖然正常生產線每分鐘製造五十瓶,但今天只以每分鐘三十五瓶的速度運作。",
+      "highlight": "running",
+      "targetForm": "run at something",
+      "targetMeaningZh": "處於某個比率、速度或水平"
+    },
+    {
+      "id": "phrasal-verb-270-q146",
+      "number": 146,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Because the crowd was larger than expected, the staff printed another two hundred maps before the gates opened.",
+      "promptZh": "因為人群比預期多,工作人員在開門前多印了二百張地圖。",
+      "starter": "Because",
+      "answer": "Because the crowd was larger than expected, the staff ran off another two hundred maps before the gates opened.",
+      "answerZh": "因為人群比預期多,工作人員在開門前多印了二百張地圖。",
+      "highlight": "ran off",
+      "targetForm": "run something off",
+      "targetMeaningZh": "迅速印製或複印"
+    },
+    {
+      "id": "phrasal-verb-270-q147",
+      "number": 147,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "After joining the new club, Arun began spending most evenings with a group his family did not trust.",
+      "promptZh": "Arun加入新學會後,大部分晚上都與一群家人不信任的人來往。",
+      "starter": "After",
+      "answer": "After joining the new club, Arun began running around with a group his family did not trust.",
+      "answerZh": "Arun加入新學會後,大部分晚上都與一群家人不信任的人來往。",
+      "highlight": "running around",
+      "targetForm": "run around with somebody",
+      "targetMeaningZh": "經常與某人來往,通常帶有不贊同語氣"
+    },
+    {
+      "id": "phrasal-verb-270-q148",
+      "number": 148,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The argument seemed over, but as soon as Ben turned away, the other man charged towards him.",
+      "promptZh": "爭執似乎已經結束,但Ben一轉身,另一名男子便衝向他。",
+      "starter": "The",
+      "answer": "The argument seemed over, but as soon as Ben turned away, the other man ran at him.",
+      "answerZh": "爭執似乎已經結束,但Ben一轉身,另一名男子便衝向他。",
+      "highlight": "ran at",
+      "targetForm": "run at somebody",
+      "targetMeaningZh": "衝向某人並試圖襲擊對方"
+    },
+    {
+      "id": "phrasal-verb-270-q149",
+      "number": 149,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "When the door opened, the suspect pushed past the guard and escaped down a side street.",
+      "promptZh": "門打開時,疑犯推開守衛,沿着一條橫街逃走。",
+      "starter": "When",
+      "answer": "When the door opened, the suspect pushed past the guard and ran off down a side street.",
+      "answerZh": "門打開時,疑犯推開守衛,沿着一條橫街逃走。",
+      "highlight": "ran off",
+      "targetForm": "run away/off",
+      "targetMeaningZh": "逃走;迅速離開"
+    },
+    {
+      "id": "phrasal-verb-270-q150",
+      "number": 150,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 28,
+      "prompt": "Without checking prices, the group ordered several services and quickly accumulated a much larger bill than expected.",
+      "promptZh": "小組沒有查看價格,訂購了多項服務,很快便累積了一張遠高於預期的帳單。",
+      "starter": "Without",
+      "answer": "Without checking prices, the group ordered several services and quickly ran up a much larger bill than expected.",
+      "answerZh": "小組沒有查看價格,訂購了多項服務,很快便累積了一張遠高於預期的帳單。",
+      "highlight": "ran up",
+      "targetForm": "run something up",
+      "targetMeaningZh": "累積債務、帳單或費用"
+    }
+  ]
+}

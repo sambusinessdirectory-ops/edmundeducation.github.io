@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-169",
+  "order": 169,
+  "slug": "be-down",
+  "version": "1",
+  "title": "BE DOWN 動詞片語",
+  "titleEn": "Be Down",
+  "titleZh": "BE DOWN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 168 - Be Down.pdf",
+    "sourceNumber": 168,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BE DOWN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BE DOWN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BE DOWN",
+      "highlight": "BE DOWN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The booking system is down.",
+      "zh": "預訂系統無法運作。",
+      "highlight": "is down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach is often down on new players.",
+      "zh": "教練經常對新球員十分苛刻。",
+      "highlight": "is often down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It is down to us to choose the date.",
+      "zh": "日期由我們決定。",
+      "highlight": "is down to us to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "無法運作;故障;停止服務；對某人十分負面或苛刻;經常批評某人；由某人負責或決定；只剩下某個數量或某件事物；因某種疾病而病倒",
+    "en": "be down; be down on somebody; be down to somebody; be down to something; be down with something",
+    "naturalZh": [
+      "無法運作;故障;停止服務",
+      "對某人十分負面或苛刻;經常批評某人",
+      "由某人負責或決定",
+      "只剩下某個數量或某件事物",
+      "因某種疾病而病倒"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "be down",
+      "titleZh": "無法運作;故障;停止服務",
+      "titleEn": "be down",
+      "descriptionZh": "無法運作;故障;停止服務",
+      "descriptionEn": "The booking system is down.",
+      "examples": [
+        {
+          "en": "The booking system is down.",
+          "zh": "預訂系統無法運作。",
+          "highlight": "is down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be down on somebody",
+      "titleZh": "對某人十分負面或苛刻;經常批評某人",
+      "titleEn": "be down on somebody",
+      "descriptionZh": "對某人十分負面或苛刻;經常批評某人",
+      "descriptionEn": "The coach is often down on new players.",
+      "examples": [
+        {
+          "en": "The coach is often down on new players.",
+          "zh": "教練經常對新球員十分苛刻。",
+          "highlight": "is often down on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be down to somebody",
+      "titleZh": "由某人負責或決定",
+      "titleEn": "be down to somebody",
+      "descriptionZh": "由某人負責或決定",
+      "descriptionEn": "It is down to us to choose the date.",
+      "examples": [
+        {
+          "en": "It is down to us to choose the date.",
+          "zh": "日期由我們決定。",
+          "highlight": "is down to us to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be down to something",
+      "titleZh": "只剩下某個數量或某件事物",
+      "titleEn": "be down to something",
+      "descriptionZh": "只剩下某個數量或某件事物",
+      "descriptionEn": "We are down to our last loaf of bread.",
+      "examples": [
+        {
+          "en": "We are down to our last loaf of bread.",
+          "zh": "我們只剩下最後一條麵包。",
+          "highlight": "are down to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be down with something",
+      "titleZh": "因某種疾病而病倒",
+      "titleEn": "be down with something",
+      "descriptionZh": "因某種疾病而病倒",
+      "descriptionEn": "Kim is down with flu.",
+      "examples": [
+        {
+          "en": "Kim is down with flu.",
+          "zh": "Kim 因流感病倒了。",
+          "highlight": "is down with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BE DOWN 片語動詞的實際用途",
+    "labelEn": "BE DOWN Phrasal Verbs in Use",
+    "summaryZh": "be down 可以表示網站、機器、網絡或服務無法運作。；be down to somebody 可以說明誰需要作出決定或完成工作。；be down to something 可以表示某物只剩下少量或少數。；be down with something 可以描述患病;be down on somebody 則可以描述對某人十分負面或苛刻。",
+    "summaryEn": "Be down lets you explain that a website, machine, network or service is not working. Be down to somebody shows who must make a decision or complete a task. Be down to something helps you explain that only a small number or amount is left. Be down with something describes illness, while be down on somebody describes a strongly negative attitude towards a person.",
+    "contextsZh": [
+      "清楚說明科技和服務故障",
+      "自然表達由誰負責",
+      "表達只剩下多少",
+      "描述疾病和負面態度"
+    ],
+    "contextsEn": [
+      "Report technology and service problems clearly",
+      "Talk naturally about responsibility",
+      "Say how little remains",
+      "Describe illness and unfair criticism"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BE DOWN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BE DOWN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "be down",
+    "fixedHighlight": "be down",
+    "fixedZh": "閱讀整句,選出意思相同的 BE DOWN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BE DOWN expression that gives the same meaning.",
+    "correct": "is down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；BE 會按句子自然改變,例如 is、are、was、were、been 或 be。；這件事由 Leo 負責。)We are down to two tickets.(我們只剩下兩張門票。",
+    "variableEn": "Keep the same people, things, time and meaning. The word BE changes naturally in different sentences: The printer is down. The printers were down. Read be down to carefully: It is down to Leo.",
+    "variableItemsZh": [
+      "be down",
+      "be down on somebody",
+      "be down to somebody",
+      "be down to something",
+      "be down with something"
+    ],
+    "variableItemsEn": [
+      "be down",
+      "be down on somebody",
+      "be down to somebody",
+      "be down to something",
+      "be down with something"
+    ],
+    "forms": [
+      {
+        "formZh": "無法運作;故障;停止服務",
+        "formEn": "be down",
+        "exampleZh": "預訂系統無法運作。",
+        "exampleEn": "The booking system is down.",
+        "highlight": "is down"
+      },
+      {
+        "formZh": "對某人十分負面或苛刻;經常批評某人",
+        "formEn": "be down on somebody",
+        "exampleZh": "教練經常對新球員十分苛刻。",
+        "exampleEn": "The coach is often down on new players.",
+        "highlight": "is often down on"
+      },
+      {
+        "formZh": "由某人負責或決定",
+        "formEn": "be down to somebody",
+        "exampleZh": "日期由我們決定。",
+        "exampleEn": "It is down to us to choose the date.",
+        "highlight": "is down to us to"
+      },
+      {
+        "formZh": "只剩下某個數量或某件事物",
+        "formEn": "be down to something",
+        "exampleZh": "我們只剩下最後一條麵包。",
+        "exampleEn": "We are down to our last loaf of bread.",
+        "highlight": "are down to"
+      },
+      {
+        "formZh": "因某種疾病而病倒",
+        "formEn": "be down with something",
+        "exampleZh": "Kim 因流感病倒了。",
+        "exampleEn": "Kim is down with flu.",
+        "highlight": "is down with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "無法運作;故障;停止服務",
+      "titleEn": "be down",
+      "formula": "be down",
+      "highlight": "be down",
+      "descriptionZh": "無法運作;故障;停止服務",
+      "descriptionEn": "The booking system is down.",
+      "examples": [
+        {
+          "en": "The booking system is down.",
+          "zh": "預訂系統無法運作。",
+          "highlight": "is down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "對某人十分負面或苛刻;經常批評某人",
+      "titleEn": "be down on somebody",
+      "formula": "be down on somebody",
+      "highlight": "be down on somebody",
+      "descriptionZh": "對某人十分負面或苛刻;經常批評某人",
+      "descriptionEn": "The coach is often down on new players.",
+      "examples": [
+        {
+          "en": "The coach is often down on new players.",
+          "zh": "教練經常對新球員十分苛刻。",
+          "highlight": "is often down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "由某人負責或決定",
+      "titleEn": "be down to somebody",
+      "formula": "be down to somebody",
+      "highlight": "be down to somebody",
+      "descriptionZh": "由某人負責或決定",
+      "descriptionEn": "It is down to us to choose the date.",
+      "examples": [
+        {
+          "en": "It is down to us to choose the date.",
+          "zh": "日期由我們決定。",
+          "highlight": "is down to us to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "只剩下某個數量或某件事物",
+      "titleEn": "be down to something",
+      "formula": "be down to something",
+      "highlight": "be down to something",
+      "descriptionZh": "只剩下某個數量或某件事物",
+      "descriptionEn": "We are down to our last loaf of bread.",
+      "examples": [
+        {
+          "en": "We are down to our last loaf of bread.",
+          "zh": "我們只剩下最後一條麵包。",
+          "highlight": "are down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因某種疾病而病倒",
+      "titleEn": "be down with something",
+      "formula": "be down with something",
+      "highlight": "be down with something",
+      "descriptionZh": "因某種疾病而病倒",
+      "descriptionEn": "Kim is down with flu.",
+      "examples": [
+        {
+          "en": "Kim is down with flu.",
+          "zh": "Kim 因流感病倒了。",
+          "highlight": "is down with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明科技和服務故障",
+      "titleEn": "Report technology and service problems clearly",
+      "zh": "be down 可以表示網站、機器、網絡或服務無法運作。",
+      "en": "Be down lets you explain that a website, machine, network or service is not working."
+    },
+    {
+      "titleZh": "自然表達由誰負責",
+      "titleEn": "Talk naturally about responsibility",
+      "zh": "be down to somebody 可以說明誰需要作出決定或完成工作。",
+      "en": "Be down to somebody shows who must make a decision or complete a task."
+    },
+    {
+      "titleZh": "表達只剩下多少",
+      "titleEn": "Say how little remains",
+      "zh": "be down to something 可以表示某物只剩下少量或少數。",
+      "en": "Be down to something helps you explain that only a small number or amount is left."
+    },
+    {
+      "titleZh": "描述疾病和負面態度",
+      "titleEn": "Describe illness and unfair criticism",
+      "zh": "be down with something 可以描述患病;be down on somebody 則可以描述對某人十分負面或苛刻。",
+      "en": "Be down with something describes illness, while be down on somebody describes a strongly negative attitude towards a person."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明科技和服務故障",
+      "自然表達由誰負責",
+      "表達只剩下多少",
+      "描述疾病和負面態度"
+    ],
+    "contextsEn": [
+      "Report technology and service problems clearly",
+      "Talk naturally about responsibility",
+      "Say how little remains",
+      "Describe illness and unfair criticism"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明科技和服務故障",
+        "titleEn": "Report technology and service problems clearly",
+        "zh": "be down 可以表示網站、機器、網絡或服務無法運作。",
+        "en": "Be down lets you explain that a website, machine, network or service is not working.",
+        "examples": [
+          {
+            "en": "The booking system is down.",
+            "zh": "預訂系統無法運作。",
+            "highlight": "is down"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然表達由誰負責",
+        "titleEn": "Talk naturally about responsibility",
+        "zh": "be down to somebody 可以說明誰需要作出決定或完成工作。",
+        "en": "Be down to somebody shows who must make a decision or complete a task.",
+        "examples": [
+          {
+            "en": "The coach is often down on new players.",
+            "zh": "教練經常對新球員十分苛刻。",
+            "highlight": "is often down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達只剩下多少",
+        "titleEn": "Say how little remains",
+        "zh": "be down to something 可以表示某物只剩下少量或少數。",
+        "en": "Be down to something helps you explain that only a small number or amount is left.",
+        "examples": [
+          {
+            "en": "It is down to us to choose the date.",
+            "zh": "日期由我們決定。",
+            "highlight": "is down to us to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述疾病和負面態度",
+        "titleEn": "Describe illness and unfair criticism",
+        "zh": "be down with something 可以描述患病;be down on somebody 則可以描述對某人十分負面或苛刻。",
+        "en": "Be down with something describes illness, while be down on somebody describes a strongly negative attitude towards a person.",
+        "examples": [
+          {
+            "en": "We are down to our last loaf of bread.",
+            "zh": "我們只剩下最後一條麵包。",
+            "highlight": "are down to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BE DOWN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BE DOWN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BE DOWN 片語動詞。",
+      "en": "Read the whole sentence and choose the BE DOWN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "BE 會按句子自然改變,例如 is、are、was、were、been 或 be。",
+      "titleEn": "The word BE changes naturally in different sentences: The printer is down.",
+      "zh": "BE 會按句子自然改變,例如 is、are、was、were、been 或 be。",
+      "en": "The word BE changes naturally in different sentences: The printer is down. The printers were down."
+    },
+    {
+      "titleZh": "這件事由 Leo 負責。)We are down to two tickets.(我們只剩下兩張門票。",
+      "titleEn": "Read be down to carefully: It is down to Leo.",
+      "zh": "這件事由 Leo 負責。)We are down to two tickets.(我們只剩下兩張門票。",
+      "en": "Read be down to carefully: It is down to Leo."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BE DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BE DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BE DOWN 動詞片語句子改寫練習",
+    "titleEn": "BE DOWN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BE DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BE DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-169-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The school website is not working this morning.",
+      "promptZh": "學校網站今早無法運作。",
+      "starter": "The",
+      "answer": "The school website is down this morning.",
+      "answerZh": "學校網站今早無法運作。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "You are responsible for locking the door tonight.",
+      "promptZh": "今晚鎖門是你的責任。",
+      "starter": "It",
+      "answer": "It is down to you to lock the door tonight.",
+      "answerZh": "今晚鎖門要由你負責。",
+      "highlight": "It is down to",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The coach has been very critical of Ben lately.",
+      "promptZh": "教練最近一直對 Ben 十分苛刻。",
+      "starter": "The",
+      "answer": "The coach has been really down on Ben lately.",
+      "answerZh": "教練最近一直對 Ben 十分苛刻。",
+      "highlight": "been really down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I have only five dollars left.",
+      "promptZh": "我只剩下五元。",
+      "starter": "I",
+      "answer": "I am down to my last five dollars.",
+      "answerZh": "我只剩下最後五元。",
+      "highlight": "am down to my last",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Nina is ill with flu today.",
+      "promptZh": "Nina 今天患上流感。",
+      "starter": "Nina",
+      "answer": "Nina is down with flu today.",
+      "answerZh": "Nina 今天因流感病倒了。",
+      "highlight": "is down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our office printer is not working again.",
+      "promptZh": "我們辦公室的打印機又無法運作了。",
+      "starter": "Our",
+      "answer": "Our office printer is down again.",
+      "answerZh": "我們辦公室的打印機又故障了。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Why are you always so critical of yourself?",
+      "promptZh": "你為何總是對自己這麼苛刻?",
+      "starter": "Why",
+      "answer": "Why are you always so down on yourself?",
+      "answerZh": "你為何總是對自己這麼苛刻?",
+      "highlight": "are you always so down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The manager must make the final choice.",
+      "promptZh": "經理必須作出最後選擇。",
+      "starter": "The",
+      "answer": "The final choice is down to the manager.",
+      "answerZh": "最後選擇由經理決定。",
+      "highlight": "is down to the manager",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We have only two bottles of water left.",
+      "promptZh": "我們只剩下兩瓶水。",
+      "starter": "We",
+      "answer": "We are down to two bottles of water.",
+      "answerZh": "我們只剩下兩瓶水。",
+      "highlight": "are down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Sam was ill with a bad cold last week.",
+      "promptZh": "Sam 上星期患了重感冒。",
+      "starter": "Sam",
+      "answer": "Sam was down with a bad cold last week.",
+      "answerZh": "Sam 上星期因重感冒病倒了。",
+      "highlight": "was down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Is the payment system not working?",
+      "promptZh": "付款系統是否故障了?",
+      "starter": "Is",
+      "answer": "Is the payment system down?",
+      "answerZh": "付款系統是否故障了?",
+      "highlight": "Is the payment system down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ella seems to have a negative opinion of every new student.",
+      "promptZh": "Ella 似乎對每名新同學都有負面看法。",
+      "starter": "Ella",
+      "answer": "Ella seems to be down on every new student.",
+      "answerZh": "Ella 似乎對每名新同學都抱有負面態度。",
+      "highlight": "be down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Who is responsible for this part of the project?",
+      "promptZh": "這部分項目由誰負責?",
+      "starter": "Who",
+      "answer": "Who is this part of the project down to?",
+      "answerZh": "這部分項目由誰負責?",
+      "highlight": "is this part of the project down to",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The booking app has not been working since noon.",
+      "promptZh": "預訂應用程式自中午起一直無法運作。",
+      "starter": "The",
+      "answer": "The booking app has been down since noon.",
+      "answerZh": "預訂應用程式自中午起一直無法運作。",
+      "highlight": "been down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The shop now has only one bag of rice left.",
+      "promptZh": "店舖現在只剩下一袋米。",
+      "starter": "The",
+      "answer": "The shop is down to one bag of rice.",
+      "answerZh": "店舖只剩下一袋米。",
+      "highlight": "is down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ravi was very critical of the younger players after the match.",
+      "promptZh": "Ravi 在比賽後對年輕球員十分苛刻。",
+      "starter": "Ravi",
+      "answer": "Ravi was really down on the younger players after the match.",
+      "answerZh": "Ravi 在比賽後對年輕球員十分苛刻。",
+      "highlight": "was really down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Two of our teachers are ill with a stomach bug.",
+      "promptZh": "我們有兩名老師因腸胃病毒而生病。",
+      "starter": "Two",
+      "answer": "Two of our teachers are down with a stomach bug.",
+      "answerZh": "我們有兩名老師因腸胃病毒而病倒。",
+      "highlight": "are down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Aisha will be responsible for checking the final list.",
+      "promptZh": "Aisha 將負責檢查最後清單。",
+      "starter": "It",
+      "answer": "It will be down to Aisha to check the final list.",
+      "answerZh": "檢查最後清單將由 Aisha 負責。",
+      "highlight": "It",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "After the sale, we had only three coats left.",
+      "promptZh": "減價後,我們只剩下三件外套。",
+      "starter": "After",
+      "answer": "After the sale, we were down to three coats.",
+      "answerZh": "減價後,我們只剩下三件外套。",
+      "highlight": "were down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The lifts may not be working because of the power cut.",
+      "promptZh": "升降機可能因停電而無法運作。",
+      "starter": "The",
+      "answer": "The lifts may be down because of the power cut.",
+      "answerZh": "升降機可能因停電而無法運作。",
+      "highlight": "be down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has Omar been ill with flu all week?",
+      "promptZh": "Omar 是否整個星期都患上流感?",
+      "starter": "Has",
+      "answer": "Has Omar been down with flu all week?",
+      "answerZh": "Omar 是否整個星期都因流感病倒?",
+      "highlight": "been down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do not be so critical of Leo; he is still learning.",
+      "promptZh": "不要對 Leo 這麼苛刻;他仍在學習。",
+      "starter": "Do",
+      "answer": "Do not be so down on Leo; he is still learning.",
+      "answerZh": "不要對 Leo 這麼苛刻;他仍在學習。",
+      "highlight": "be so down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "How many tickets remain? We have only six.",
+      "promptZh": "還剩下多少張門票?我們只剩下六張。",
+      "starter": "How",
+      "answer": "How many tickets remain? We are down to six.",
+      "answerZh": "還剩下多少張門票?我們只剩下六張。",
+      "highlight": "are down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The parents must decide whether the trip goes ahead.",
+      "promptZh": "家長必須決定旅行是否繼續舉行。",
+      "starter": "Whether",
+      "answer": "Whether the trip goes ahead is down to the parents.",
+      "answerZh": "旅行是否繼續舉行由家長決定。",
+      "highlight": "is down to the parents",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Priya cannot come today because she is ill with flu.",
+      "promptZh": "Priya 今天不能來,因為她患上流感。",
+      "starter": "Priya",
+      "answer": "Priya cannot come today because she is down with flu.",
+      "answerZh": "Priya 今天不能來,因為她因流感病倒了。",
+      "highlight": "is down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We began with twenty teams, but only eight remain.",
+      "promptZh": "我們最初有二十支隊伍,但現在只剩下八支。",
+      "starter": "We",
+      "answer": "We began with twenty teams, but we are down to eight.",
+      "answerZh": "我們最初有二十支隊伍,但現在只剩下八支。",
+      "highlight": "began with twenty teams, but we are down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I have prepared the room; you are responsible for welcoming the guests.",
+      "promptZh": "我已準備好房間;接待賓客是你的責任。",
+      "starter": "I",
+      "answer": "I have prepared the room; it is down to you to welcome the guests.",
+      "answerZh": "我已準備好房間;接待賓客要由你負責。",
+      "highlight": "it is down to",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I cannot send the file because the email service is not working.",
+      "promptZh": "我無法傳送檔案,因為電郵服務無法運作。",
+      "starter": "I",
+      "answer": "I cannot send the file because the email service is down.",
+      "answerZh": "我無法傳送檔案,因為電郵服務無法運作。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The manager should not be so critical of the same worker all the time.",
+      "promptZh": "經理不應總是對同一名員工這麼苛刻。",
+      "starter": "The",
+      "answer": "The manager should not be so down on the same worker all the time.",
+      "answerZh": "經理不應總是對同一名員工這麼苛刻。",
+      "highlight": "be so down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because Dan was ill with a fever, he stayed in bed.",
+      "promptZh": "Dan 因發燒病倒,所以留在床上休息。",
+      "starter": "Because",
+      "answer": "Because Dan was down with a fever, he stayed in bed.",
+      "answerZh": "Dan 因發燒病倒,所以留在床上休息。",
+      "highlight": "was down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Only my last clean shirt remains, so I need to do the washing.",
+      "promptZh": "我只剩下最後一件乾淨恤衫,所以需要洗衣服。",
+      "starter": "I",
+      "answer": "I am down to my last clean shirt, so I need to do the washing.",
+      "answerZh": "我只剩下最後一件乾淨恤衫,所以需要洗衣服。",
+      "highlight": "I am down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The team has done its part. Nina must now finish the report.",
+      "promptZh": "團隊已完成自己的部分。現在必須由 Nina 完成報告。",
+      "starter": "The",
+      "answer": "The team has done its part. It is now down to Nina to finish the report.",
+      "answerZh": "團隊已完成自己的部分。現在要由 Nina 完成報告。",
+      "highlight": "It is now down to",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why has the online shop not been working all afternoon?",
+      "promptZh": "網上商店為何整個下午都無法運作?",
+      "starter": "Why",
+      "answer": "Why has the online shop been down all afternoon?",
+      "answerZh": "網上商店為何整個下午都無法運作?",
+      "highlight": "been down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The doctor thinks he may be ill with a chest infection.",
+      "promptZh": "醫生認為他可能患上胸部感染。",
+      "starter": "The",
+      "answer": "The doctor thinks he may be down with a chest infection.",
+      "answerZh": "醫生認為他可能因胸部感染而病倒。",
+      "highlight": "be down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Even when Sofia does well, her brother is still very critical of her.",
+      "promptZh": "即使 Sofia 表現良好,她的哥哥仍對她十分苛刻。",
+      "starter": "Even",
+      "answer": "Even when Sofia does well, her brother is still very down on her.",
+      "answerZh": "即使 Sofia 表現良好,她的哥哥仍對她十分苛刻。",
+      "highlight": "is still very down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The class started with thirty students and now has only eighteen.",
+      "promptZh": "班級最初有三十名學生,現在只剩下十八名。",
+      "starter": "The",
+      "answer": "The class started with thirty students and is now down to eighteen.",
+      "answerZh": "班級最初有三十名學生,現在只剩下十八名。",
+      "highlight": "is",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The lights are on, but the card machine is not working.",
+      "promptZh": "燈仍然亮着,但刷卡機無法運作。",
+      "starter": "The",
+      "answer": "The lights are on, but the card machine is down.",
+      "answerZh": "燈仍然亮着,但刷卡機無法運作。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The café is closed because three staff members are ill with flu.",
+      "promptZh": "咖啡店因三名員工患上流感而關門。",
+      "starter": "The",
+      "answer": "The café is closed because three staff members are down with flu.",
+      "answerZh": "咖啡店因三名員工患上流感而關門。",
+      "highlight": "are down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Everyone has given advice, but you must make the decision.",
+      "promptZh": "每個人都提出了意見,但決定必須由你作出。",
+      "starter": "Everyone",
+      "answer": "Everyone has given advice, but the decision is down to you.",
+      "answerZh": "每個人都提出了意見,但決定由你作出。",
+      "highlight": "is down to you",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The teacher corrects everyone, but she is especially critical of Kai.",
+      "promptZh": "老師會糾正每個人,但她對 Kai 特別苛刻。",
+      "starter": "The",
+      "answer": "The teacher corrects everyone, but she is especially down on Kai.",
+      "answerZh": "老師會糾正每個人,但她對 Kai 特別苛刻。",
+      "highlight": "is especially down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We still have enough food, but only one carton of milk remains.",
+      "promptZh": "我們仍有足夠食物,但只剩下一盒牛奶。",
+      "starter": "We",
+      "answer": "We still have enough food, but we are down to one carton of milk.",
+      "answerZh": "我們仍有足夠食物,但只剩下一盒牛奶。",
+      "highlight": "we are down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The phone network is not working in this area, although the internet is fine.",
+      "promptZh": "這個地區的電話網絡無法運作,但互聯網正常。",
+      "starter": "The",
+      "answer": "The phone network is down in this area, although the internet is fine.",
+      "answerZh": "這個地區的電話網絡無法運作,但互聯網正常。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The twins missed the party because both were ill with the same cold.",
+      "promptZh": "那對雙胞胎都患了同一種感冒,所以錯過了派對。",
+      "starter": "The",
+      "answer": "The twins missed the party because both were down with the same cold.",
+      "answerZh": "那對雙胞胎都因同一種感冒病倒,所以錯過了派對。",
+      "highlight": "were down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the guide can explain the choices, the group must make the final choice.",
+      "promptZh": "雖然導遊可以解釋各個選擇,但最後選擇必須由小組作出。",
+      "starter": "Although",
+      "answer": "Although the guide can explain the choices, the final choice is down to the group.",
+      "answerZh": "雖然導遊可以解釋各個選擇,但最後選擇由小組決定。",
+      "highlight": "is down to the group",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The competition began with ten players, and now only the final two remain.",
+      "promptZh": "比賽最初有十名選手,現在只剩下最後兩名。",
+      "starter": "The",
+      "answer": "The competition began with ten players and is now down to the final two.",
+      "answerZh": "比賽最初有十名選手,現在只剩下最後兩名。",
+      "highlight": "is",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Ava made one small mistake, but her father was still very negative towards her.",
+      "promptZh": "Ava 只犯了一個小錯,但父親仍然用十分負面的態度對待她。",
+      "starter": "Ava",
+      "answer": "Ava made one small mistake, but her father was still down on her.",
+      "answerZh": "Ava 只犯了一個小錯,但父親仍然對她十分苛刻。",
+      "highlight": "was still down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The school trip was delayed because the driver was ill with a stomach bug.",
+      "promptZh": "校外旅行因司機患上腸胃病毒而延遲。",
+      "starter": "The",
+      "answer": "The school trip was delayed because the driver was down with a stomach bug.",
+      "answerZh": "校外旅行因司機患上腸胃病毒而延遲。",
+      "highlight": "was down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The main server seems not to be working, so the smaller one is handling the traffic.",
+      "promptZh": "主伺服器似乎無法運作,所以較小的伺服器正在處理網絡流量。",
+      "starter": "The",
+      "answer": "The main server seems to be down, so the smaller one is handling the traffic.",
+      "answerZh": "主伺服器似乎無法運作,所以較小的伺服器正在處理網絡流量。",
+      "highlight": "be down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Omar’s project is not perfect, but there is no reason to be so negative towards him.",
+      "promptZh": "Omar 的專題並不完美,但沒有理由對他如此負面。",
+      "starter": "Omar’s",
+      "answer": "Omar’s project is not perfect, but there is no reason to be so down on him.",
+      "answerZh": "Omar 的專題並不完美,但沒有理由對他如此負面。",
+      "highlight": "be so down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The staff can suggest ideas, but the owner alone must decide whether the shop stays open.",
+      "promptZh": "員工可以提出意見,但只有店主可以決定店舖是否繼續營業。",
+      "starter": "The",
+      "answer": "The staff can suggest ideas, but whether the shop stays open is down to the owner.",
+      "answerZh": "員工可以提出意見,但店舖是否繼續營業由店主決定。",
+      "highlight": "is down to the owner",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Customers can still enter the shop, but they cannot pay online because the payment page is not working.",
+      "promptZh": "顧客仍可進入店舖,但無法網上付款,因為付款頁面無法運作。",
+      "starter": "Customers",
+      "answer": "Customers can still enter the shop, but they cannot pay online because the payment page is down.",
+      "answerZh": "顧客仍可進入店舖,但無法網上付款,因為付款頁面無法運作。",
+      "highlight": "is down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We packed ten sandwiches this morning; after lunch, only two are left.",
+      "promptZh": "我們今早準備了十份三文治;午飯後只剩下兩份。",
+      "starter": "We",
+      "answer": "We packed ten sandwiches this morning; after lunch, we are down to two.",
+      "answerZh": "我們今早準備了十份三文治;午飯後只剩下兩份。",
+      "highlight": "we are down to",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Leo had planned to race, but he is ill with flu and must stay home.",
+      "promptZh": "Leo 原本計劃參賽,但他患上流感,必須留在家中。",
+      "starter": "Leo",
+      "answer": "Leo had planned to race, but he is down with flu and must stay home.",
+      "answerZh": "Leo 原本計劃參賽,但他因流感病倒,必須留在家中。",
+      "highlight": "is down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The school has paid for the room. The club members must now organise the food and music.",
+      "promptZh": "學校已支付場地費用。現在由學會成員負責安排食物和音樂。",
+      "starter": "The",
+      "answer": "The school has paid for the room. It is now down to the club members to organise the food and music.",
+      "answerZh": "學校已支付場地費用。現在要由學會成員安排食物和音樂。",
+      "highlight": "It is now down to",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Because the new worker is still learning, the team leader should not criticise her all day.",
+      "promptZh": "新員工仍在學習,所以組長不應整天批評她。",
+      "starter": "Because",
+      "answer": "Because the new worker is still learning, the team leader should not be down on her all day.",
+      "answerZh": "新員工仍在學習,所以組長不應整天批評她。",
+      "highlight": "be down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    },
+    {
+      "id": "phrasal-verb-169-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The help page may be unavailable because the whole website has not been working since the update.",
+      "promptZh": "說明頁可能無法使用,因為整個網站自更新後一直無法運作。",
+      "starter": "The",
+      "answer": "The help page may be unavailable because the whole website has been down since the update.",
+      "answerZh": "說明頁可能無法使用,因為整個網站自更新後一直無法運作。",
+      "highlight": "been down",
+      "targetForm": "be down",
+      "targetMeaningZh": "故障;停止運作"
+    },
+    {
+      "id": "phrasal-verb-169-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although the team had five chances at the start, it now has only one left.",
+      "promptZh": "雖然球隊最初有五次機會,但現在只剩下一次。",
+      "starter": "Although",
+      "answer": "Although the team had five chances at the start, it is now down to one.",
+      "answerZh": "雖然球隊最初有五次機會,但現在只剩下一次。",
+      "highlight": "is",
+      "targetForm": "be down to something",
+      "targetMeaningZh": "只剩下某個數量或事物"
+    },
+    {
+      "id": "phrasal-verb-169-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "You have heard both sides of the story, so you must decide what happens next.",
+      "promptZh": "你已聽過故事雙方的說法,所以接下來發生甚麼事必須由你決定。",
+      "starter": "You",
+      "answer": "You have heard both sides of the story, so what happens next is down to you.",
+      "answerZh": "你已聽過故事雙方的說法,所以接下來發生甚麼事由你決定。",
+      "highlight": "is down to you",
+      "targetForm": "be down to somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-169-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Ava has missed three days of work because she has been ill with a bad cold.",
+      "promptZh": "Ava 因重感冒病倒,已缺勤三天。",
+      "starter": "Ava",
+      "answer": "Ava has missed three days of work because she has been down with a bad cold.",
+      "answerZh": "Ava 因重感冒病倒,已缺勤三天。",
+      "highlight": "been down",
+      "targetForm": "be down with something",
+      "targetMeaningZh": "因某種疾病而病倒"
+    },
+    {
+      "id": "phrasal-verb-169-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The coach knows that Ben is trying hard, yet he is still very critical of him.",
+      "promptZh": "教練知道 Ben 很努力,但仍然對他十分苛刻。",
+      "starter": "The",
+      "answer": "The coach knows that Ben is trying hard, yet he is still down on him.",
+      "answerZh": "教練知道 Ben 很努力,但仍然對他十分苛刻。",
+      "highlight": "is still down on",
+      "targetForm": "be down on somebody",
+      "targetMeaningZh": "對某人十分負面或苛刻"
+    }
+  ]
+}

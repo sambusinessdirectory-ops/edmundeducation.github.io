@@ -1,0 +1,3716 @@
+{
+  "id": "phrasal-verb-316",
+  "order": 316,
+  "slug": "get-volume-4",
+  "version": "1",
+  "title": "GET (VOLUME 4) 動詞片語",
+  "titleEn": "GET (Volume 4)",
+  "titleZh": "GET (VOLUME 4) 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 29,
+  "source": {
+    "file": "Phrasal Verbs 301 - GET (Volume 4).md",
+    "sourceNumber": 301,
+    "pageCount": 1,
+    "teachingPdfPages": [
+      1
+    ],
+    "exercisePdfPages": [
+      1
+    ],
+    "contentPdfPages": [
+      1
+    ],
+    "answerKeyPdfPages": [
+      1
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET (VOLUME 4)",
+      "highlight": "GET (VOLUME 4)"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The train gets to London at six.",
+      "zh": "火車六時到達倫敦。",
+      "highlight": "gets to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We must get together for coffee sometime.",
+      "zh": "我們改天一定要一起喝杯咖啡聚一聚。",
+      "highlight": "get together",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "When are you going to get up to Glasgow for a visit?",
+      "zh": "你甚麼時候會去格拉斯哥探訪?",
+      "highlight": "get up to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "到達某地；與某人見面聚一聚;相聚；前往某地,通常指到較遠的地方探訪或辦事；鼓起或提起做某事的興致；做到、讀到或進展至某個位置或階段；起床;叫某人起床；爬上或到達較高的位置；冷靜下來;控制情緒;重新振作；促成兩個人見面或走在一起；自以為比別人優越或重要;變得自大；讓訊息或意思被人理解;傳達開去；越過某處;到達另一邊；反覆催促某人做某事；取得進展或成功;超前於某人；離開;繼續上路；到很多不同地方;四處走動；不斷批評或責備某人；接觸、拿到或到達某人或某物；查明或找出某事的真相或核心；擺脫或不再依循某種做法、形象或習慣；帶着偷來或拿走的東西逃走；在工作、功課或進度上落後；移到某人或某物後面；以有限的金錢、物品或條件勉強應付；因交通、排隊等事情受阻或延誤；加入某項活動、計劃或機會；刻意與某人或某群人建立友好關係；到達某地；進入某種情況,尤其是麻煩或困境",
+    "en": "get to something; get together (with somebody); get up to somewhere; get up the enthusiasm to do something; get up to something; get up / get somebody up; get up / get up something; get yourself together; get A and B together; get above yourself; get across (to somebody); get across / get across something; get after somebody; get ahead / get ahead of somebody; get along; get around / get about; get at somebody; get at somebody/something; get at something; get away from something / get away from doing something; get away with something; get behind with something; get behind somebody/something; get by; get hung up; get in on something; get in with somebody; get in / get into somewhere; get into something / get somebody or yourself into something",
+    "naturalZh": [
+      "到達某地",
+      "與某人見面聚一聚;相聚",
+      "前往某地,通常指到較遠的地方探訪或辦事",
+      "鼓起或提起做某事的興致",
+      "做到、讀到或進展至某個位置或階段",
+      "起床;叫某人起床",
+      "爬上或到達較高的位置",
+      "冷靜下來;控制情緒;重新振作",
+      "促成兩個人見面或走在一起",
+      "自以為比別人優越或重要;變得自大",
+      "讓訊息或意思被人理解;傳達開去",
+      "越過某處;到達另一邊",
+      "反覆催促某人做某事",
+      "取得進展或成功;超前於某人",
+      "離開;繼續上路",
+      "到很多不同地方;四處走動",
+      "不斷批評或責備某人",
+      "接觸、拿到或到達某人或某物",
+      "查明或找出某事的真相或核心",
+      "擺脫或不再依循某種做法、形象或習慣",
+      "帶着偷來或拿走的東西逃走",
+      "在工作、功課或進度上落後",
+      "移到某人或某物後面",
+      "以有限的金錢、物品或條件勉強應付",
+      "因交通、排隊等事情受阻或延誤",
+      "加入某項活動、計劃或機會",
+      "刻意與某人或某群人建立友好關係",
+      "到達某地",
+      "進入某種情況,尤其是麻煩或困境"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get to something",
+      "titleZh": "到達某地",
+      "titleEn": "get to something",
+      "descriptionZh": "到達某地",
+      "descriptionEn": "The train gets to London at six.",
+      "examples": [
+        {
+          "en": "The train gets to London at six.",
+          "zh": "火車六時到達倫敦。",
+          "highlight": "gets to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get together (with somebody)",
+      "titleZh": "與某人見面聚一聚;相聚",
+      "titleEn": "get together (with somebody)",
+      "descriptionZh": "與某人見面聚一聚;相聚",
+      "descriptionEn": "We must get together for coffee sometime.",
+      "examples": [
+        {
+          "en": "We must get together for coffee sometime.",
+          "zh": "我們改天一定要一起喝杯咖啡聚一聚。",
+          "highlight": "get together"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get up to somewhere",
+      "titleZh": "前往某地,通常指到較遠的地方探訪或辦事",
+      "titleEn": "get up to somewhere",
+      "descriptionZh": "前往某地,通常指到較遠的地方探訪或辦事",
+      "descriptionEn": "When are you going to get up to Glasgow for a visit?",
+      "examples": [
+        {
+          "en": "When are you going to get up to Glasgow for a visit?",
+          "zh": "你甚麼時候會去格拉斯哥探訪?",
+          "highlight": "get up to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get up the enthusiasm to do something",
+      "titleZh": "鼓起或提起做某事的興致",
+      "titleEn": "get up the enthusiasm to do something",
+      "descriptionZh": "鼓起或提起做某事的興致",
+      "descriptionEn": "I'm trying to get up the enthusiasm to clean the garage.",
+      "examples": [
+        {
+          "en": "I'm trying to get up the enthusiasm to clean the garage.",
+          "zh": "我正嘗試提起興致清理車房。",
+          "highlight": "get up the enthusiasm to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get up to something",
+      "titleZh": "做到、讀到或進展至某個位置或階段",
+      "titleEn": "get up to something",
+      "descriptionZh": "做到、讀到或進展至某個位置或階段",
+      "descriptionEn": "We got up to page 72 last lesson.",
+      "examples": [
+        {
+          "en": "We got up to page 72 last lesson.",
+          "zh": "我們上堂讀到第72頁。",
+          "highlight": "got up to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get up / get somebody up",
+      "titleZh": "起床;叫某人起床",
+      "titleEn": "get up / get somebody up",
+      "descriptionZh": "起床;叫某人起床",
+      "descriptionEn": "What time do you usually get up?",
+      "examples": [
+        {
+          "en": "What time do you usually get up?",
+          "zh": "你通常甚麼時候起床?",
+          "highlight": "get up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get up / get up something",
+      "titleZh": "爬上或到達較高的位置",
+      "titleEn": "get up / get up something",
+      "descriptionZh": "爬上或到達較高的位置",
+      "descriptionEn": "How did the cat get up there?",
+      "examples": [
+        {
+          "en": "How did the cat get up there?",
+          "zh": "那隻貓是怎樣爬上去的?",
+          "highlight": "get up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get yourself together",
+      "titleZh": "冷靜下來;控制情緒;重新振作",
+      "titleEn": "get yourself together",
+      "descriptionZh": "冷靜下來;控制情緒;重新振作",
+      "descriptionEn": "She paused outside the door to get herself together.",
+      "examples": [
+        {
+          "en": "She paused outside the door to get herself together.",
+          "zh": "她在門外停了一會兒,讓自己冷靜下來。",
+          "highlight": "get herself together"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get A and B together",
+      "titleZh": "促成兩個人見面或走在一起",
+      "titleEn": "get A and B together",
+      "descriptionZh": "促成兩個人見面或走在一起",
+      "descriptionEn": "I was the one who got Daniel and Sophie together.",
+      "examples": [
+        {
+          "en": "I was the one who got Daniel and Sophie together.",
+          "zh": "是我促成丹尼爾和蘇菲走在一起的。",
+          "highlight": "got Daniel and Sophie together"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get above yourself",
+      "titleZh": "自以為比別人優越或重要;變得自大",
+      "titleEn": "get above yourself",
+      "descriptionZh": "自以為比別人優越或重要;變得自大",
+      "descriptionEn": "Don't get above yourself just because you won.",
+      "examples": [
+        {
+          "en": "Don't get above yourself just because you won.",
+          "zh": "不要因為勝出便自以為比別人優越。",
+          "highlight": "get"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get across (to somebody)",
+      "titleZh": "讓訊息或意思被人理解;傳達開去",
+      "titleEn": "get across (to somebody)",
+      "descriptionZh": "讓訊息或意思被人理解;傳達開去",
+      "descriptionEn": "The message is finally getting across to the public.",
+      "examples": [
+        {
+          "en": "The message is finally getting across to the public.",
+          "zh": "這個訊息終於逐漸被公眾理解。",
+          "highlight": "getting across to"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get across / get across something",
+      "titleZh": "越過某處;到達另一邊",
+      "titleEn": "get across / get across something",
+      "descriptionZh": "越過某處;到達另一邊",
+      "descriptionEn": "How can we get across to the island?",
+      "examples": [
+        {
+          "en": "How can we get across to the island?",
+          "zh": "我們可以怎樣到達那座島的另一邊?",
+          "highlight": "get across"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get after somebody",
+      "titleZh": "反覆催促某人做某事",
+      "titleEn": "get after somebody",
+      "descriptionZh": "反覆催促某人做某事",
+      "descriptionEn": "She's been getting after me to take a holiday.",
+      "examples": [
+        {
+          "en": "She's been getting after me to take a holiday.",
+          "zh": "她一直催我去放假。",
+          "highlight": "getting after"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get ahead / get ahead of somebody",
+      "titleZh": "取得進展或成功;超前於某人",
+      "titleEn": "get ahead / get ahead of somebody",
+      "descriptionZh": "取得進展或成功;超前於某人",
+      "descriptionEn": "It isn't easy to get ahead in the film business.",
+      "examples": [
+        {
+          "en": "It isn't easy to get ahead in the film business.",
+          "zh": "在電影業取得成功並不容易。",
+          "highlight": "get"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get along",
+      "titleZh": "離開;繼續上路",
+      "titleEn": "get along",
+      "descriptionZh": "離開;繼續上路",
+      "descriptionEn": "It's late. I must get along.",
+      "examples": [
+        {
+          "en": "It's late. I must get along.",
+          "zh": "很晚了,我必須走了。",
+          "highlight": "get along"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get around / get about",
+      "titleZh": "到很多不同地方;四處走動",
+      "titleEn": "get around / get about",
+      "descriptionZh": "到很多不同地方;四處走動",
+      "descriptionEn": "You certainly get around!",
+      "examples": [
+        {
+          "en": "You certainly get around!",
+          "zh": "你真的去了很多不同地方!",
+          "highlight": "get around"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get at somebody",
+      "titleZh": "不斷批評或責備某人",
+      "titleEn": "get at somebody",
+      "descriptionZh": "不斷批評或責備某人",
+      "descriptionEn": "Sam's parents are always getting at him.",
+      "examples": [
+        {
+          "en": "Sam's parents are always getting at him.",
+          "zh": "森的父母總是不斷批評他。",
+          "highlight": "getting at"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get at somebody/something",
+      "titleZh": "接觸、拿到或到達某人或某物",
+      "titleEn": "get at somebody/something",
+      "descriptionZh": "接觸、拿到或到達某人或某物",
+      "descriptionEn": "The files are locked up, so I can't get at them.",
+      "examples": [
+        {
+          "en": "The files are locked up, so I can't get at them.",
+          "zh": "文件被鎖起來,所以我無法拿到。",
+          "highlight": "get at"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get at something",
+      "titleZh": "查明或找出某事的真相或核心",
+      "titleEn": "get at something",
+      "descriptionZh": "查明或找出某事的真相或核心",
+      "descriptionEn": "We've got to get at the truth.",
+      "examples": [
+        {
+          "en": "We've got to get at the truth.",
+          "zh": "我們必須查明真相。",
+          "highlight": "got to get at"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get away from something / get away from doing something",
+      "titleZh": "擺脫或不再依循某種做法、形象或習慣",
+      "titleEn": "get away from something / get away from doing something",
+      "descriptionZh": "擺脫或不再依循某種做法、形象或習慣",
+      "descriptionEn": "The club should get away from its old-fashioned image.",
+      "examples": [
+        {
+          "en": "The club should get away from its old-fashioned image.",
+          "zh": "俱樂部應擺脫老套的形象。",
+          "highlight": "get away from"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get away with something",
+      "titleZh": "帶着偷來或拿走的東西逃走",
+      "titleEn": "get away with something",
+      "descriptionZh": "帶着偷來或拿走的東西逃走",
+      "descriptionEn": "The thieves got away with the money.",
+      "examples": [
+        {
+          "en": "The thieves got away with the money.",
+          "zh": "賊人帶着金錢逃走了。",
+          "highlight": "got away with"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get behind with something",
+      "titleZh": "在工作、功課或進度上落後",
+      "titleEn": "get behind with something",
+      "descriptionZh": "在工作、功課或進度上落後",
+      "descriptionEn": "Once I get behind with my work, it's hard to finish everything on time.",
+      "examples": [
+        {
+          "en": "Once I get behind with my work, it's hard to finish everything on time.",
+          "zh": "我的工作一旦落後,就很難按時完成所有事情。",
+          "highlight": "get behind with"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get behind somebody/something",
+      "titleZh": "移到某人或某物後面",
+      "titleEn": "get behind somebody/something",
+      "descriptionZh": "移到某人或某物後面",
+      "descriptionEn": "Get behind the tree so she can't see you.",
+      "examples": [
+        {
+          "en": "Get behind the tree so she can't see you.",
+          "zh": "走到樹後面,這樣她便看不見你。",
+          "highlight": "Get behind"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get by",
+      "titleZh": "以有限的金錢、物品或條件勉強應付",
+      "titleEn": "get by",
+      "descriptionZh": "以有限的金錢、物品或條件勉強應付",
+      "descriptionEn": "How does she get by on such a small salary?",
+      "examples": [
+        {
+          "en": "How does she get by on such a small salary?",
+          "zh": "她靠這麼少的薪金怎樣應付生活?",
+          "highlight": "get by"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get hung up",
+      "titleZh": "因交通、排隊等事情受阻或延誤",
+      "titleEn": "get hung up",
+      "descriptionZh": "因交通、排隊等事情受阻或延誤",
+      "descriptionEn": "I got hung up in traffic.",
+      "examples": [
+        {
+          "en": "I got hung up in traffic.",
+          "zh": "我因交通擠塞而受阻延誤。",
+          "highlight": "got hung up"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get in on something",
+      "titleZh": "加入某項活動、計劃或機會",
+      "titleEn": "get in on something",
+      "descriptionZh": "加入某項活動、計劃或機會",
+      "descriptionEn": "How did she manage to get in on the deal?",
+      "examples": [
+        {
+          "en": "How did she manage to get in on the deal?",
+          "zh": "她是怎樣成功參與這宗交易的?",
+          "highlight": "get in on"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get in with somebody",
+      "titleZh": "刻意與某人或某群人建立友好關係",
+      "titleEn": "get in with somebody",
+      "descriptionZh": "刻意與某人或某群人建立友好關係",
+      "descriptionEn": "He's trying to get in with the boss.",
+      "examples": [
+        {
+          "en": "He's trying to get in with the boss.",
+          "zh": "他正嘗試和老闆建立友好關係。",
+          "highlight": "get in with"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get in / get into somewhere",
+      "titleZh": "到達某地",
+      "titleEn": "get in / get into somewhere",
+      "descriptionZh": "到達某地",
+      "descriptionEn": "When do you normally get in from work?",
+      "examples": [
+        {
+          "en": "When do you normally get in from work?",
+          "zh": "你通常下班後甚麼時候回到家?",
+          "highlight": "get in"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get into something / get somebody or yourself into something",
+      "titleZh": "進入某種情況,尤其是麻煩或困境",
+      "titleEn": "get into something / get somebody or yourself into something",
+      "descriptionZh": "進入某種情況,尤其是麻煩或困境",
+      "descriptionEn": "Jerry was always getting into trouble as a boy.",
+      "examples": [
+        {
+          "en": "Jerry was always getting into trouble as a boy.",
+          "zh": "傑里小時候總是惹上麻煩。",
+          "highlight": "getting into"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET (VOLUME 4) 片語動詞的實際用途",
+    "labelEn": "GET (VOLUME 4) Phrasal Verbs in Use",
+    "summaryZh": "get to、get across、get up、get in 和 get behind 等表達,可以幫助你描述到達某地、越過某處和移到不同位置。；get ahead、get behind with、get by 和 get up to 可以幫助你談論取得進展、進度落後、在有限條件下應付,以及做到某個階段。；你可以用 GET 表示訊息被理解、大家相聚、某人不斷受到批評,或有人刻意和另一個人建立友好關係。；get yourself together、get above yourself、get hung up 和 get into trouble 可以自然描述常見的情緒、人際和實際困難。",
+    "summaryEn": "Expressions such as get to, get across, get up, get in and get behind help you describe reaching places, crossing spaces and moving to different positions. Get ahead, get behind with, get by and get up to help you talk about success, falling behind, managing with limited resources and reaching a stage in your work. You can use GET to show that a message is understood, people meet, someone is repeatedly criticised, or a person tries to become friendly with somebody. Get yourself together, get above yourself, get hung up and get into trouble describe common emotional, social and practical situations in natural English.",
+    "contextsZh": [
+      "使用 GET 描述日常移動和到達",
+      "談論進度、工作和實際問題",
+      "描述溝通和人際關係",
+      "自然描述情緒和困難情況"
+    ],
+    "contextsEn": [
+      "Use GET for everyday movement and arrival",
+      "Talk about progress, work and practical problems",
+      "Describe communication and relationships",
+      "Express reactions and difficult situations naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get to something",
+    "fixedHighlight": "get to something",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+    "correct": "gets to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；外形相似的 GET 表達可以有很不同的意思。作答前請先閱讀完整情境。；本冊有些表達可以自然地出現在句子的不同位置。請學習完整表達,不要只背一種固定句式。",
+    "variableEn": "Keep the same people, things, time and meaning. Similar-looking GET expressions can have very different meanings. Read the full situation before answering. Some forms in this volume can appear in more than one natural sentence position. Learn the complete expression, not one fixed sentence shell.",
+    "variableItemsZh": [
+      "get to something",
+      "get together (with somebody)",
+      "get up to somewhere",
+      "get up the enthusiasm to do something",
+      "get up to something",
+      "get up / get somebody up",
+      "get up / get up something",
+      "get yourself together",
+      "get A and B together",
+      "get above yourself",
+      "get across (to somebody)",
+      "get across / get across something",
+      "get after somebody",
+      "get ahead / get ahead of somebody",
+      "get along",
+      "get around / get about",
+      "get at somebody",
+      "get at somebody/something",
+      "get at something",
+      "get away from something / get away from doing something",
+      "get away with something",
+      "get behind with something",
+      "get behind somebody/something",
+      "get by",
+      "get hung up",
+      "get in on something",
+      "get in with somebody",
+      "get in / get into somewhere",
+      "get into something / get somebody or yourself into something"
+    ],
+    "variableItemsEn": [
+      "get to something",
+      "get together (with somebody)",
+      "get up to somewhere",
+      "get up the enthusiasm to do something",
+      "get up to something",
+      "get up / get somebody up",
+      "get up / get up something",
+      "get yourself together",
+      "get A and B together",
+      "get above yourself",
+      "get across (to somebody)",
+      "get across / get across something",
+      "get after somebody",
+      "get ahead / get ahead of somebody",
+      "get along",
+      "get around / get about",
+      "get at somebody",
+      "get at somebody/something",
+      "get at something",
+      "get away from something / get away from doing something",
+      "get away with something",
+      "get behind with something",
+      "get behind somebody/something",
+      "get by",
+      "get hung up",
+      "get in on something",
+      "get in with somebody",
+      "get in / get into somewhere",
+      "get into something / get somebody or yourself into something"
+    ],
+    "forms": [
+      {
+        "formZh": "到達某地",
+        "formEn": "get to something",
+        "exampleZh": "火車六時到達倫敦。",
+        "exampleEn": "The train gets to London at six.",
+        "highlight": "gets to"
+      },
+      {
+        "formZh": "與某人見面聚一聚;相聚",
+        "formEn": "get together (with somebody)",
+        "exampleZh": "我們改天一定要一起喝杯咖啡聚一聚。",
+        "exampleEn": "We must get together for coffee sometime.",
+        "highlight": "get together"
+      },
+      {
+        "formZh": "前往某地,通常指到較遠的地方探訪或辦事",
+        "formEn": "get up to somewhere",
+        "exampleZh": "你甚麼時候會去格拉斯哥探訪?",
+        "exampleEn": "When are you going to get up to Glasgow for a visit?",
+        "highlight": "get up to"
+      },
+      {
+        "formZh": "鼓起或提起做某事的興致",
+        "formEn": "get up the enthusiasm to do something",
+        "exampleZh": "我正嘗試提起興致清理車房。",
+        "exampleEn": "I'm trying to get up the enthusiasm to clean the garage.",
+        "highlight": "get up the enthusiasm to"
+      },
+      {
+        "formZh": "做到、讀到或進展至某個位置或階段",
+        "formEn": "get up to something",
+        "exampleZh": "我們上堂讀到第72頁。",
+        "exampleEn": "We got up to page 72 last lesson.",
+        "highlight": "got up to"
+      },
+      {
+        "formZh": "起床;叫某人起床",
+        "formEn": "get up / get somebody up",
+        "exampleZh": "你通常甚麼時候起床?",
+        "exampleEn": "What time do you usually get up?",
+        "highlight": "get up"
+      },
+      {
+        "formZh": "爬上或到達較高的位置",
+        "formEn": "get up / get up something",
+        "exampleZh": "那隻貓是怎樣爬上去的?",
+        "exampleEn": "How did the cat get up there?",
+        "highlight": "get up"
+      },
+      {
+        "formZh": "冷靜下來;控制情緒;重新振作",
+        "formEn": "get yourself together",
+        "exampleZh": "她在門外停了一會兒,讓自己冷靜下來。",
+        "exampleEn": "She paused outside the door to get herself together.",
+        "highlight": "get herself together"
+      },
+      {
+        "formZh": "促成兩個人見面或走在一起",
+        "formEn": "get A and B together",
+        "exampleZh": "是我促成丹尼爾和蘇菲走在一起的。",
+        "exampleEn": "I was the one who got Daniel and Sophie together.",
+        "highlight": "got Daniel and Sophie together"
+      },
+      {
+        "formZh": "自以為比別人優越或重要;變得自大",
+        "formEn": "get above yourself",
+        "exampleZh": "不要因為勝出便自以為比別人優越。",
+        "exampleEn": "Don't get above yourself just because you won.",
+        "highlight": "get"
+      },
+      {
+        "formZh": "讓訊息或意思被人理解;傳達開去",
+        "formEn": "get across (to somebody)",
+        "exampleZh": "這個訊息終於逐漸被公眾理解。",
+        "exampleEn": "The message is finally getting across to the public.",
+        "highlight": "getting across to"
+      },
+      {
+        "formZh": "越過某處;到達另一邊",
+        "formEn": "get across / get across something",
+        "exampleZh": "我們可以怎樣到達那座島的另一邊?",
+        "exampleEn": "How can we get across to the island?",
+        "highlight": "get across"
+      },
+      {
+        "formZh": "反覆催促某人做某事",
+        "formEn": "get after somebody",
+        "exampleZh": "她一直催我去放假。",
+        "exampleEn": "She's been getting after me to take a holiday.",
+        "highlight": "getting after"
+      },
+      {
+        "formZh": "取得進展或成功;超前於某人",
+        "formEn": "get ahead / get ahead of somebody",
+        "exampleZh": "在電影業取得成功並不容易。",
+        "exampleEn": "It isn't easy to get ahead in the film business.",
+        "highlight": "get"
+      },
+      {
+        "formZh": "離開;繼續上路",
+        "formEn": "get along",
+        "exampleZh": "很晚了,我必須走了。",
+        "exampleEn": "It's late. I must get along.",
+        "highlight": "get along"
+      },
+      {
+        "formZh": "到很多不同地方;四處走動",
+        "formEn": "get around / get about",
+        "exampleZh": "你真的去了很多不同地方!",
+        "exampleEn": "You certainly get around!",
+        "highlight": "get around"
+      },
+      {
+        "formZh": "不斷批評或責備某人",
+        "formEn": "get at somebody",
+        "exampleZh": "森的父母總是不斷批評他。",
+        "exampleEn": "Sam's parents are always getting at him.",
+        "highlight": "getting at"
+      },
+      {
+        "formZh": "接觸、拿到或到達某人或某物",
+        "formEn": "get at somebody/something",
+        "exampleZh": "文件被鎖起來,所以我無法拿到。",
+        "exampleEn": "The files are locked up, so I can't get at them.",
+        "highlight": "get at"
+      },
+      {
+        "formZh": "查明或找出某事的真相或核心",
+        "formEn": "get at something",
+        "exampleZh": "我們必須查明真相。",
+        "exampleEn": "We've got to get at the truth.",
+        "highlight": "got to get at"
+      },
+      {
+        "formZh": "擺脫或不再依循某種做法、形象或習慣",
+        "formEn": "get away from something / get away from doing something",
+        "exampleZh": "俱樂部應擺脫老套的形象。",
+        "exampleEn": "The club should get away from its old-fashioned image.",
+        "highlight": "get away from"
+      },
+      {
+        "formZh": "帶着偷來或拿走的東西逃走",
+        "formEn": "get away with something",
+        "exampleZh": "賊人帶着金錢逃走了。",
+        "exampleEn": "The thieves got away with the money.",
+        "highlight": "got away with"
+      },
+      {
+        "formZh": "在工作、功課或進度上落後",
+        "formEn": "get behind with something",
+        "exampleZh": "我的工作一旦落後,就很難按時完成所有事情。",
+        "exampleEn": "Once I get behind with my work, it's hard to finish everything on time.",
+        "highlight": "get behind with"
+      },
+      {
+        "formZh": "移到某人或某物後面",
+        "formEn": "get behind somebody/something",
+        "exampleZh": "走到樹後面,這樣她便看不見你。",
+        "exampleEn": "Get behind the tree so she can't see you.",
+        "highlight": "Get behind"
+      },
+      {
+        "formZh": "以有限的金錢、物品或條件勉強應付",
+        "formEn": "get by",
+        "exampleZh": "她靠這麼少的薪金怎樣應付生活?",
+        "exampleEn": "How does she get by on such a small salary?",
+        "highlight": "get by"
+      },
+      {
+        "formZh": "因交通、排隊等事情受阻或延誤",
+        "formEn": "get hung up",
+        "exampleZh": "我因交通擠塞而受阻延誤。",
+        "exampleEn": "I got hung up in traffic.",
+        "highlight": "got hung up"
+      },
+      {
+        "formZh": "加入某項活動、計劃或機會",
+        "formEn": "get in on something",
+        "exampleZh": "她是怎樣成功參與這宗交易的?",
+        "exampleEn": "How did she manage to get in on the deal?",
+        "highlight": "get in on"
+      },
+      {
+        "formZh": "刻意與某人或某群人建立友好關係",
+        "formEn": "get in with somebody",
+        "exampleZh": "他正嘗試和老闆建立友好關係。",
+        "exampleEn": "He's trying to get in with the boss.",
+        "highlight": "get in with"
+      },
+      {
+        "formZh": "到達某地",
+        "formEn": "get in / get into somewhere",
+        "exampleZh": "你通常下班後甚麼時候回到家?",
+        "exampleEn": "When do you normally get in from work?",
+        "highlight": "get in"
+      },
+      {
+        "formZh": "進入某種情況,尤其是麻煩或困境",
+        "formEn": "get into something / get somebody or yourself into something",
+        "exampleZh": "傑里小時候總是惹上麻煩。",
+        "exampleEn": "Jerry was always getting into trouble as a boy.",
+        "highlight": "getting into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "到達某地",
+      "titleEn": "get to something",
+      "formula": "get to something",
+      "highlight": "get to something",
+      "descriptionZh": "到達某地",
+      "descriptionEn": "The train gets to London at six.",
+      "examples": [
+        {
+          "en": "The train gets to London at six.",
+          "zh": "火車六時到達倫敦。",
+          "highlight": "gets to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "與某人見面聚一聚;相聚",
+      "titleEn": "get together (with somebody)",
+      "formula": "get together (with somebody)",
+      "highlight": "get together (with somebody)",
+      "descriptionZh": "與某人見面聚一聚;相聚",
+      "descriptionEn": "We must get together for coffee sometime.",
+      "examples": [
+        {
+          "en": "We must get together for coffee sometime.",
+          "zh": "我們改天一定要一起喝杯咖啡聚一聚。",
+          "highlight": "get together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "前往某地,通常指到較遠的地方探訪或辦事",
+      "titleEn": "get up to somewhere",
+      "formula": "get up to somewhere",
+      "highlight": "get up to somewhere",
+      "descriptionZh": "前往某地,通常指到較遠的地方探訪或辦事",
+      "descriptionEn": "When are you going to get up to Glasgow for a visit?",
+      "examples": [
+        {
+          "en": "When are you going to get up to Glasgow for a visit?",
+          "zh": "你甚麼時候會去格拉斯哥探訪?",
+          "highlight": "get up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "鼓起或提起做某事的興致",
+      "titleEn": "get up the enthusiasm to do something",
+      "formula": "get up the enthusiasm to do something",
+      "highlight": "get up the enthusiasm to do something",
+      "descriptionZh": "鼓起或提起做某事的興致",
+      "descriptionEn": "I'm trying to get up the enthusiasm to clean the garage.",
+      "examples": [
+        {
+          "en": "I'm trying to get up the enthusiasm to clean the garage.",
+          "zh": "我正嘗試提起興致清理車房。",
+          "highlight": "get up the enthusiasm to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "做到、讀到或進展至某個位置或階段",
+      "titleEn": "get up to something",
+      "formula": "get up to something",
+      "highlight": "get up to something",
+      "descriptionZh": "做到、讀到或進展至某個位置或階段",
+      "descriptionEn": "We got up to page 72 last lesson.",
+      "examples": [
+        {
+          "en": "We got up to page 72 last lesson.",
+          "zh": "我們上堂讀到第72頁。",
+          "highlight": "got up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "起床;叫某人起床",
+      "titleEn": "get up / get somebody up",
+      "formula": "get up / get somebody up",
+      "highlight": "get up / get somebody up",
+      "descriptionZh": "起床;叫某人起床",
+      "descriptionEn": "What time do you usually get up?",
+      "examples": [
+        {
+          "en": "What time do you usually get up?",
+          "zh": "你通常甚麼時候起床?",
+          "highlight": "get up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "爬上或到達較高的位置",
+      "titleEn": "get up / get up something",
+      "formula": "get up / get up something",
+      "highlight": "get up / get up something",
+      "descriptionZh": "爬上或到達較高的位置",
+      "descriptionEn": "How did the cat get up there?",
+      "examples": [
+        {
+          "en": "How did the cat get up there?",
+          "zh": "那隻貓是怎樣爬上去的?",
+          "highlight": "get up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "冷靜下來;控制情緒;重新振作",
+      "titleEn": "get yourself together",
+      "formula": "get yourself together",
+      "highlight": "get yourself together",
+      "descriptionZh": "冷靜下來;控制情緒;重新振作",
+      "descriptionEn": "She paused outside the door to get herself together.",
+      "examples": [
+        {
+          "en": "She paused outside the door to get herself together.",
+          "zh": "她在門外停了一會兒,讓自己冷靜下來。",
+          "highlight": "get herself together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "促成兩個人見面或走在一起",
+      "titleEn": "get A and B together",
+      "formula": "get A and B together",
+      "highlight": "get A and B together",
+      "descriptionZh": "促成兩個人見面或走在一起",
+      "descriptionEn": "I was the one who got Daniel and Sophie together.",
+      "examples": [
+        {
+          "en": "I was the one who got Daniel and Sophie together.",
+          "zh": "是我促成丹尼爾和蘇菲走在一起的。",
+          "highlight": "got Daniel and Sophie together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "自以為比別人優越或重要;變得自大",
+      "titleEn": "get above yourself",
+      "formula": "get above yourself",
+      "highlight": "get above yourself",
+      "descriptionZh": "自以為比別人優越或重要;變得自大",
+      "descriptionEn": "Don't get above yourself just because you won.",
+      "examples": [
+        {
+          "en": "Don't get above yourself just because you won.",
+          "zh": "不要因為勝出便自以為比別人優越。",
+          "highlight": "get"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "讓訊息或意思被人理解;傳達開去",
+      "titleEn": "get across (to somebody)",
+      "formula": "get across (to somebody)",
+      "highlight": "get across (to somebody)",
+      "descriptionZh": "讓訊息或意思被人理解;傳達開去",
+      "descriptionEn": "The message is finally getting across to the public.",
+      "examples": [
+        {
+          "en": "The message is finally getting across to the public.",
+          "zh": "這個訊息終於逐漸被公眾理解。",
+          "highlight": "getting across to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "越過某處;到達另一邊",
+      "titleEn": "get across / get across something",
+      "formula": "get across / get across something",
+      "highlight": "get across / get across something",
+      "descriptionZh": "越過某處;到達另一邊",
+      "descriptionEn": "How can we get across to the island?",
+      "examples": [
+        {
+          "en": "How can we get across to the island?",
+          "zh": "我們可以怎樣到達那座島的另一邊?",
+          "highlight": "get across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "反覆催促某人做某事",
+      "titleEn": "get after somebody",
+      "formula": "get after somebody",
+      "highlight": "get after somebody",
+      "descriptionZh": "反覆催促某人做某事",
+      "descriptionEn": "She's been getting after me to take a holiday.",
+      "examples": [
+        {
+          "en": "She's been getting after me to take a holiday.",
+          "zh": "她一直催我去放假。",
+          "highlight": "getting after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "取得進展或成功;超前於某人",
+      "titleEn": "get ahead / get ahead of somebody",
+      "formula": "get ahead / get ahead of somebody",
+      "highlight": "get ahead / get ahead of somebody",
+      "descriptionZh": "取得進展或成功;超前於某人",
+      "descriptionEn": "It isn't easy to get ahead in the film business.",
+      "examples": [
+        {
+          "en": "It isn't easy to get ahead in the film business.",
+          "zh": "在電影業取得成功並不容易。",
+          "highlight": "get"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "離開;繼續上路",
+      "titleEn": "get along",
+      "formula": "get along",
+      "highlight": "get along",
+      "descriptionZh": "離開;繼續上路",
+      "descriptionEn": "It's late. I must get along.",
+      "examples": [
+        {
+          "en": "It's late. I must get along.",
+          "zh": "很晚了,我必須走了。",
+          "highlight": "get along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "到很多不同地方;四處走動",
+      "titleEn": "get around / get about",
+      "formula": "get around / get about",
+      "highlight": "get around / get about",
+      "descriptionZh": "到很多不同地方;四處走動",
+      "descriptionEn": "You certainly get around!",
+      "examples": [
+        {
+          "en": "You certainly get around!",
+          "zh": "你真的去了很多不同地方!",
+          "highlight": "get around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "不斷批評或責備某人",
+      "titleEn": "get at somebody",
+      "formula": "get at somebody",
+      "highlight": "get at somebody",
+      "descriptionZh": "不斷批評或責備某人",
+      "descriptionEn": "Sam's parents are always getting at him.",
+      "examples": [
+        {
+          "en": "Sam's parents are always getting at him.",
+          "zh": "森的父母總是不斷批評他。",
+          "highlight": "getting at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "接觸、拿到或到達某人或某物",
+      "titleEn": "get at somebody/something",
+      "formula": "get at somebody/something",
+      "highlight": "get at somebody/something",
+      "descriptionZh": "接觸、拿到或到達某人或某物",
+      "descriptionEn": "The files are locked up, so I can't get at them.",
+      "examples": [
+        {
+          "en": "The files are locked up, so I can't get at them.",
+          "zh": "文件被鎖起來,所以我無法拿到。",
+          "highlight": "get at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "查明或找出某事的真相或核心",
+      "titleEn": "get at something",
+      "formula": "get at something",
+      "highlight": "get at something",
+      "descriptionZh": "查明或找出某事的真相或核心",
+      "descriptionEn": "We've got to get at the truth.",
+      "examples": [
+        {
+          "en": "We've got to get at the truth.",
+          "zh": "我們必須查明真相。",
+          "highlight": "got to get at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "擺脫或不再依循某種做法、形象或習慣",
+      "titleEn": "get away from something / get away from doing something",
+      "formula": "get away from something / get away from doing something",
+      "highlight": "get away from something / get away from doing something",
+      "descriptionZh": "擺脫或不再依循某種做法、形象或習慣",
+      "descriptionEn": "The club should get away from its old-fashioned image.",
+      "examples": [
+        {
+          "en": "The club should get away from its old-fashioned image.",
+          "zh": "俱樂部應擺脫老套的形象。",
+          "highlight": "get away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "帶着偷來或拿走的東西逃走",
+      "titleEn": "get away with something",
+      "formula": "get away with something",
+      "highlight": "get away with something",
+      "descriptionZh": "帶着偷來或拿走的東西逃走",
+      "descriptionEn": "The thieves got away with the money.",
+      "examples": [
+        {
+          "en": "The thieves got away with the money.",
+          "zh": "賊人帶着金錢逃走了。",
+          "highlight": "got away with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "在工作、功課或進度上落後",
+      "titleEn": "get behind with something",
+      "formula": "get behind with something",
+      "highlight": "get behind with something",
+      "descriptionZh": "在工作、功課或進度上落後",
+      "descriptionEn": "Once I get behind with my work, it's hard to finish everything on time.",
+      "examples": [
+        {
+          "en": "Once I get behind with my work, it's hard to finish everything on time.",
+          "zh": "我的工作一旦落後,就很難按時完成所有事情。",
+          "highlight": "get behind with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "移到某人或某物後面",
+      "titleEn": "get behind somebody/something",
+      "formula": "get behind somebody/something",
+      "highlight": "get behind somebody/something",
+      "descriptionZh": "移到某人或某物後面",
+      "descriptionEn": "Get behind the tree so she can't see you.",
+      "examples": [
+        {
+          "en": "Get behind the tree so she can't see you.",
+          "zh": "走到樹後面,這樣她便看不見你。",
+          "highlight": "Get behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "以有限的金錢、物品或條件勉強應付",
+      "titleEn": "get by",
+      "formula": "get by",
+      "highlight": "get by",
+      "descriptionZh": "以有限的金錢、物品或條件勉強應付",
+      "descriptionEn": "How does she get by on such a small salary?",
+      "examples": [
+        {
+          "en": "How does she get by on such a small salary?",
+          "zh": "她靠這麼少的薪金怎樣應付生活?",
+          "highlight": "get by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "因交通、排隊等事情受阻或延誤",
+      "titleEn": "get hung up",
+      "formula": "get hung up",
+      "highlight": "get hung up",
+      "descriptionZh": "因交通、排隊等事情受阻或延誤",
+      "descriptionEn": "I got hung up in traffic.",
+      "examples": [
+        {
+          "en": "I got hung up in traffic.",
+          "zh": "我因交通擠塞而受阻延誤。",
+          "highlight": "got hung up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "加入某項活動、計劃或機會",
+      "titleEn": "get in on something",
+      "formula": "get in on something",
+      "highlight": "get in on something",
+      "descriptionZh": "加入某項活動、計劃或機會",
+      "descriptionEn": "How did she manage to get in on the deal?",
+      "examples": [
+        {
+          "en": "How did she manage to get in on the deal?",
+          "zh": "她是怎樣成功參與這宗交易的?",
+          "highlight": "get in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "刻意與某人或某群人建立友好關係",
+      "titleEn": "get in with somebody",
+      "formula": "get in with somebody",
+      "highlight": "get in with somebody",
+      "descriptionZh": "刻意與某人或某群人建立友好關係",
+      "descriptionEn": "He's trying to get in with the boss.",
+      "examples": [
+        {
+          "en": "He's trying to get in with the boss.",
+          "zh": "他正嘗試和老闆建立友好關係。",
+          "highlight": "get in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "到達某地",
+      "titleEn": "get in / get into somewhere",
+      "formula": "get in / get into somewhere",
+      "highlight": "get in / get into somewhere",
+      "descriptionZh": "到達某地",
+      "descriptionEn": "When do you normally get in from work?",
+      "examples": [
+        {
+          "en": "When do you normally get in from work?",
+          "zh": "你通常下班後甚麼時候回到家?",
+          "highlight": "get in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "進入某種情況,尤其是麻煩或困境",
+      "titleEn": "get into something / get somebody or yourself into something",
+      "formula": "get into something / get somebody or yourself into something",
+      "highlight": "get into something / get somebody or yourself into something",
+      "descriptionZh": "進入某種情況,尤其是麻煩或困境",
+      "descriptionEn": "Jerry was always getting into trouble as a boy.",
+      "examples": [
+        {
+          "en": "Jerry was always getting into trouble as a boy.",
+          "zh": "傑里小時候總是惹上麻煩。",
+          "highlight": "getting into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 GET 描述日常移動和到達",
+      "titleEn": "Use GET for everyday movement and arrival",
+      "zh": "get to、get across、get up、get in 和 get behind 等表達,可以幫助你描述到達某地、越過某處和移到不同位置。",
+      "en": "Expressions such as get to, get across, get up, get in and get behind help you describe reaching places, crossing spaces and moving to different positions."
+    },
+    {
+      "titleZh": "談論進度、工作和實際問題",
+      "titleEn": "Talk about progress, work and practical problems",
+      "zh": "get ahead、get behind with、get by 和 get up to 可以幫助你談論取得進展、進度落後、在有限條件下應付,以及做到某個階段。",
+      "en": "Get ahead, get behind with, get by and get up to help you talk about success, falling behind, managing with limited resources and reaching a stage in your work."
+    },
+    {
+      "titleZh": "描述溝通和人際關係",
+      "titleEn": "Describe communication and relationships",
+      "zh": "你可以用 GET 表示訊息被理解、大家相聚、某人不斷受到批評,或有人刻意和另一個人建立友好關係。",
+      "en": "You can use GET to show that a message is understood, people meet, someone is repeatedly criticised, or a person tries to become friendly with somebody."
+    },
+    {
+      "titleZh": "自然描述情緒和困難情況",
+      "titleEn": "Express reactions and difficult situations naturally",
+      "zh": "get yourself together、get above yourself、get hung up 和 get into trouble 可以自然描述常見的情緒、人際和實際困難。",
+      "en": "Get yourself together, get above yourself, get hung up and get into trouble describe common emotional, social and practical situations in natural English."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 GET 描述日常移動和到達",
+      "談論進度、工作和實際問題",
+      "描述溝通和人際關係",
+      "自然描述情緒和困難情況"
+    ],
+    "contextsEn": [
+      "Use GET for everyday movement and arrival",
+      "Talk about progress, work and practical problems",
+      "Describe communication and relationships",
+      "Express reactions and difficult situations naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 GET 描述日常移動和到達",
+        "titleEn": "Use GET for everyday movement and arrival",
+        "zh": "get to、get across、get up、get in 和 get behind 等表達,可以幫助你描述到達某地、越過某處和移到不同位置。",
+        "en": "Expressions such as get to, get across, get up, get in and get behind help you describe reaching places, crossing spaces and moving to different positions.",
+        "examples": [
+          {
+            "en": "The train gets to London at six.",
+            "zh": "火車六時到達倫敦。",
+            "highlight": "gets to"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論進度、工作和實際問題",
+        "titleEn": "Talk about progress, work and practical problems",
+        "zh": "get ahead、get behind with、get by 和 get up to 可以幫助你談論取得進展、進度落後、在有限條件下應付,以及做到某個階段。",
+        "en": "Get ahead, get behind with, get by and get up to help you talk about success, falling behind, managing with limited resources and reaching a stage in your work.",
+        "examples": [
+          {
+            "en": "We must get together for coffee sometime.",
+            "zh": "我們改天一定要一起喝杯咖啡聚一聚。",
+            "highlight": "get together"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述溝通和人際關係",
+        "titleEn": "Describe communication and relationships",
+        "zh": "你可以用 GET 表示訊息被理解、大家相聚、某人不斷受到批評,或有人刻意和另一個人建立友好關係。",
+        "en": "You can use GET to show that a message is understood, people meet, someone is repeatedly criticised, or a person tries to become friendly with somebody.",
+        "examples": [
+          {
+            "en": "When are you going to get up to Glasgow for a visit?",
+            "zh": "你甚麼時候會去格拉斯哥探訪?",
+            "highlight": "get up to"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述情緒和困難情況",
+        "titleEn": "Express reactions and difficult situations naturally",
+        "zh": "get yourself together、get above yourself、get hung up 和 get into trouble 可以自然描述常見的情緒、人際和實際困難。",
+        "en": "Get yourself together, get above yourself, get hung up and get into trouble describe common emotional, social and practical situations in natural English.",
+        "examples": [
+          {
+            "en": "I'm trying to get up the enthusiasm to clean the garage.",
+            "zh": "我正嘗試提起興致清理車房。",
+            "highlight": "get up the enthusiasm to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "外形相似的 GET 表達可以有很不同的意思。作答前請先閱讀完整情境。",
+      "titleEn": "Similar-looking GET expressions can have very different meanings.",
+      "zh": "外形相似的 GET 表達可以有很不同的意思。作答前請先閱讀完整情境。",
+      "en": "Similar-looking GET expressions can have very different meanings. Read the full situation before answering."
+    },
+    {
+      "titleZh": "本冊有些表達可以自然地出現在句子的不同位置。請學習完整表達,不要只背一種固定句式。",
+      "titleEn": "Some forms in this volume can appear in more than one natural sentence position.",
+      "zh": "本冊有些表達可以自然地出現在句子的不同位置。請學習完整表達,不要只背一種固定句式。",
+      "en": "Some forms in this volume can appear in more than one natural sentence position. Learn the complete expression, not one fixed sentence shell."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET (VOLUME 4) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 4). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET (VOLUME 4) 動詞片語句子改寫練習",
+    "titleEn": "GET (VOLUME 4) Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET (VOLUME 4) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 4). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          29
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          30,
+          58
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          59,
+          87
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          88,
+          116
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          117,
+          145
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-316-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do not start thinking you are more important than everyone else.",
+      "promptZh": "不要開始以為自己比所有人都重要。",
+      "starter": "Don't",
+      "answer": "Don't get above yourself.",
+      "answerZh": "不要開始以為自己比所有人都重要。",
+      "highlight": "Don't get above yourself",
+      "targetForm": "get above yourself",
+      "targetMeaningZh": "自以為比別人優越或重要;變得自大"
+    },
+    {
+      "id": "phrasal-verb-316-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The train arrives in London at six.",
+      "promptZh": "火車六時到達倫敦。",
+      "starter": "The",
+      "answer": "The train gets to London at six.",
+      "answerZh": "火車六時到達倫敦。",
+      "highlight": "gets to",
+      "targetForm": "get to something",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The files are locked away, so I cannot reach them.",
+      "promptZh": "文件被鎖起來,所以我無法拿到。",
+      "starter": "The",
+      "answer": "The files are locked away, so I can't get at them.",
+      "answerZh": "文件被鎖起來,所以我無法拿到。",
+      "highlight": "can't get at",
+      "targetForm": "get at somebody/something",
+      "targetMeaningZh": "接觸、拿到或到達某人或某物"
+    },
+    {
+      "id": "phrasal-verb-316-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "My sister keeps telling me to book a holiday.",
+      "promptZh": "姐姐一直催我預訂假期。",
+      "starter": "My",
+      "answer": "My sister keeps getting after me to book a holiday.",
+      "answerZh": "姐姐一直催我預訂假期。",
+      "highlight": "getting after",
+      "targetForm": "get after somebody",
+      "targetMeaningZh": "反覆催促某人做某事"
+    },
+    {
+      "id": "phrasal-verb-316-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "How does she manage on such a small salary?",
+      "promptZh": "她靠這麼少的薪金怎樣應付生活?",
+      "starter": "How",
+      "answer": "How does she get by on such a small salary?",
+      "answerZh": "她靠這麼少的薪金怎樣應付生活?",
+      "highlight": "get by",
+      "targetForm": "get by",
+      "targetMeaningZh": "以有限的金錢、物品或條件勉強應付"
+    },
+    {
+      "id": "phrasal-verb-316-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "What time do you usually leave your bed in the morning?",
+      "promptZh": "你通常早上甚麼時候起床?",
+      "starter": "What",
+      "answer": "What time do you usually get up?",
+      "answerZh": "你通常早上甚麼時候起床?",
+      "highlight": "get up",
+      "targetForm": "get up / get somebody up",
+      "targetMeaningZh": "起床;叫某人起床"
+    },
+    {
+      "id": "phrasal-verb-316-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The thief escaped with two bags of money.",
+      "promptZh": "賊人帶着兩袋錢逃走了。",
+      "starter": "The",
+      "answer": "The thief got away with two bags of money.",
+      "answerZh": "賊人帶着兩袋錢逃走了。",
+      "highlight": "got away",
+      "targetForm": "get away with something",
+      "targetMeaningZh": "帶着偷來或拿走的東西逃走"
+    },
+    {
+      "id": "phrasal-verb-316-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The safety message is finally being understood by the students.",
+      "promptZh": "學生終於開始明白這個安全訊息。",
+      "starter": "The",
+      "answer": "The safety message is finally getting across to the students.",
+      "answerZh": "學生終於開始明白這個安全訊息。",
+      "highlight": "getting across to",
+      "targetForm": "get across (to somebody)",
+      "targetMeaningZh": "讓訊息或意思被人理解;傳達開去"
+    },
+    {
+      "id": "phrasal-verb-316-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "When do you normally arrive home from work?",
+      "promptZh": "你通常下班後甚麼時候回到家?",
+      "starter": "When",
+      "answer": "When do you normally get in from work?",
+      "answerZh": "你通常下班後甚麼時候回到家?",
+      "highlight": "get in",
+      "targetForm": "get in / get into somewhere",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I'm trying to find enough enthusiasm to clean the garage.",
+      "promptZh": "我正嘗試提起足夠興致清理車房。",
+      "starter": "I'm",
+      "answer": "I'm trying to get up the enthusiasm to clean the garage.",
+      "answerZh": "我正嘗試提起足夠興致清理車房。",
+      "highlight": "get up the",
+      "targetForm": "get up the enthusiasm to do something",
+      "targetMeaningZh": "鼓起或提起做某事的興致"
+    },
+    {
+      "id": "phrasal-verb-316-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Stand behind the tree so she cannot see you.",
+      "promptZh": "站到樹後面,這樣她便看不見你。",
+      "starter": "Get",
+      "answer": "Get behind the tree so she can't see you.",
+      "answerZh": "站到樹後面,這樣她便看不見你。",
+      "highlight": "Get",
+      "targetForm": "get behind somebody/something",
+      "targetMeaningZh": "移到某人或某物後面"
+    },
+    {
+      "id": "phrasal-verb-316-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We should meet for coffee sometime.",
+      "promptZh": "我們改天應該一起喝杯咖啡聚一聚。",
+      "starter": "We",
+      "answer": "We should get together for coffee sometime.",
+      "answerZh": "我們改天應該一起喝杯咖啡聚一聚。",
+      "highlight": "get together",
+      "targetForm": "get together (with somebody)",
+      "targetMeaningZh": "與某人見面聚一聚;相聚"
+    },
+    {
+      "id": "phrasal-verb-316-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We need to discover the truth.",
+      "promptZh": "我們需要查明真相。",
+      "starter": "We",
+      "answer": "We need to get at the truth.",
+      "answerZh": "我們需要查明真相。",
+      "highlight": "get at",
+      "targetForm": "get at something",
+      "targetMeaningZh": "查明或找出某事的真相或核心"
+    },
+    {
+      "id": "phrasal-verb-316-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "It's late. I must leave now.",
+      "promptZh": "很晚了,我現在必須走了。",
+      "starter": "It's",
+      "answer": "It's late. I must get along.",
+      "answerZh": "很晚了,我現在必須走了。",
+      "highlight": "get along",
+      "targetForm": "get along",
+      "targetMeaningZh": "離開;繼續上路"
+    },
+    {
+      "id": "phrasal-verb-316-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "How did she manage to become involved in the deal?",
+      "promptZh": "她是怎樣成功參與這宗交易的?",
+      "starter": "How",
+      "answer": "How did she manage to get in on the deal?",
+      "answerZh": "她是怎樣成功參與這宗交易的?",
+      "highlight": "get",
+      "targetForm": "get in on something",
+      "targetMeaningZh": "加入某項活動、計劃或機會"
+    },
+    {
+      "id": "phrasal-verb-316-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "How did the cat reach that high shelf?",
+      "promptZh": "那隻貓是怎樣爬到那個高架上的?",
+      "starter": "How",
+      "answer": "How did the cat get up there?",
+      "answerZh": "那隻貓是怎樣爬到那個高架上的?",
+      "highlight": "get up there",
+      "targetForm": "get up / get up something",
+      "targetMeaningZh": "爬上或到達較高的位置"
+    },
+    {
+      "id": "phrasal-verb-316-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Sam's parents are always criticising him.",
+      "promptZh": "森的父母總是不斷批評他。",
+      "starter": "Sam's",
+      "answer": "Sam's parents are always getting at him.",
+      "answerZh": "森的父母總是不斷批評他。",
+      "highlight": "getting at",
+      "targetForm": "get at somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-316-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We reached page 72 last lesson.",
+      "promptZh": "我們上堂讀到第72頁。",
+      "starter": "We",
+      "answer": "We got up to page 72 last lesson.",
+      "answerZh": "我們上堂讀到第72頁。",
+      "highlight": "got up to",
+      "targetForm": "get up to something",
+      "targetMeaningZh": "做到、讀到或進展至某個位置或階段"
+    },
+    {
+      "id": "phrasal-verb-316-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The club should move away from its old-fashioned image.",
+      "promptZh": "俱樂部應擺脫老套的形象。",
+      "starter": "The",
+      "answer": "The club should get away from its old-fashioned image.",
+      "answerZh": "俱樂部應擺脫老套的形象。",
+      "highlight": "get",
+      "targetForm": "get away from something / get away from doing something",
+      "targetMeaningZh": "擺脫或不再依循某種做法、形象或習慣"
+    },
+    {
+      "id": "phrasal-verb-316-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "It is difficult to become successful in the film business.",
+      "promptZh": "在電影業取得成功並不容易。",
+      "starter": "It",
+      "answer": "It is difficult to get ahead in the film business.",
+      "answerZh": "在電影業取得成功並不容易。",
+      "highlight": "get ahead",
+      "targetForm": "get ahead / get ahead of somebody",
+      "targetMeaningZh": "取得進展或成功;超前於某人"
+    },
+    {
+      "id": "phrasal-verb-316-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She stopped outside the door to calm herself before going in.",
+      "promptZh": "她在進去前停在門外,讓自己冷靜下來。",
+      "starter": "She",
+      "answer": "She stopped outside the door to get herself together before going in.",
+      "answerZh": "她在進去前停在門外,讓自己冷靜下來。",
+      "highlight": "get",
+      "targetForm": "get yourself together",
+      "targetMeaningZh": "冷靜下來;控制情緒;重新振作"
+    },
+    {
+      "id": "phrasal-verb-316-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "How can we cross to the island?",
+      "promptZh": "我們可以怎樣過去那座島?",
+      "starter": "How",
+      "answer": "How can we get across to the island?",
+      "answerZh": "我們可以怎樣過去那座島?",
+      "highlight": "get across",
+      "targetForm": "get across / get across something",
+      "targetMeaningZh": "越過某處;到達另一邊"
+    },
+    {
+      "id": "phrasal-verb-316-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Jerry was always causing problems for himself as a boy.",
+      "promptZh": "傑里小時候總是給自己惹麻煩。",
+      "starter": "Jerry",
+      "answer": "Jerry was always getting into trouble as a boy.",
+      "answerZh": "傑里小時候總是給自己惹麻煩。",
+      "highlight": "getting into trouble",
+      "targetForm": "get into something / get somebody or yourself into something",
+      "targetMeaningZh": "進入某種情況,尤其是麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-316-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "You certainly travel to a lot of places!",
+      "promptZh": "你真的去了很多不同地方!",
+      "starter": "You",
+      "answer": "You certainly get around!",
+      "answerZh": "你真的去了很多不同地方!",
+      "highlight": "get around",
+      "targetForm": "get around / get about",
+      "targetMeaningZh": "到很多不同地方;四處走動"
+    },
+    {
+      "id": "phrasal-verb-316-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Once I have too much unfinished work from earlier days, it is hard to finish everything on time.",
+      "promptZh": "一旦我累積了太多之前未完成的工作,就很難按時完成所有事情。",
+      "starter": "Once",
+      "answer": "Once I get behind with my work, it's hard to finish everything on time.",
+      "answerZh": "一旦我累積了太多之前未完成的工作,就很難按時完成所有事情。",
+      "highlight": "get behind with my",
+      "targetForm": "get behind with something",
+      "targetMeaningZh": "在工作、功課或進度上落後"
+    },
+    {
+      "id": "phrasal-verb-316-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I introduced Daniel and Sophie, and that is how they first came together.",
+      "promptZh": "我介紹丹尼爾和蘇菲認識,他們就是這樣開始走在一起的。",
+      "starter": "I",
+      "answer": "I got Daniel and Sophie together.",
+      "answerZh": "我介紹丹尼爾和蘇菲認識,他們就是這樣開始走在一起的。",
+      "highlight": "got",
+      "targetForm": "get A and B together",
+      "targetMeaningZh": "促成兩個人見面或走在一起"
+    },
+    {
+      "id": "phrasal-verb-316-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I was delayed in traffic.",
+      "promptZh": "我因交通擠塞而延誤。",
+      "starter": "I",
+      "answer": "I got hung up in traffic.",
+      "answerZh": "我因交通擠塞而延誤。",
+      "highlight": "got hung up",
+      "targetForm": "get hung up",
+      "targetMeaningZh": "因交通、排隊等事情受阻或延誤"
+    },
+    {
+      "id": "phrasal-verb-316-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "He is trying to become friendly with the boss.",
+      "promptZh": "他正嘗試和老闆建立友好關係。",
+      "starter": "He's",
+      "answer": "He's trying to get in with the boss.",
+      "answerZh": "他正嘗試和老闆建立友好關係。",
+      "highlight": "He's",
+      "targetForm": "get in with somebody",
+      "targetMeaningZh": "刻意與某人或某群人建立友好關係"
+    },
+    {
+      "id": "phrasal-verb-316-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "When are you going to travel to Glasgow for a visit?",
+      "promptZh": "你甚麼時候會去格拉斯哥探訪?",
+      "starter": "When",
+      "answer": "When are you going to get up to Glasgow for a visit?",
+      "answerZh": "你甚麼時候會去格拉斯哥探訪?",
+      "highlight": "get up",
+      "targetForm": "get up to somewhere",
+      "targetMeaningZh": "前往某地,通常指到較遠的地方探訪或辦事"
+    },
+    {
+      "id": "phrasal-verb-316-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I would like to become involved in the new project.",
+      "promptZh": "我想參與這個新項目。",
+      "starter": "I'd",
+      "answer": "I'd like to get in on the new project.",
+      "answerZh": "我想參與這個新項目。",
+      "highlight": "I'd",
+      "targetForm": "get in on something",
+      "targetMeaningZh": "加入某項活動、計劃或機會"
+    },
+    {
+      "id": "phrasal-verb-316-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "My alarm wakes me at six every weekday.",
+      "promptZh": "我的鬧鐘每個平日早上六時叫我起床。",
+      "starter": "My",
+      "answer": "My alarm gets me up at six every weekday.",
+      "answerZh": "我的鬧鐘每個平日早上六時叫我起床。",
+      "highlight": "gets",
+      "targetForm": "get up / get somebody up",
+      "targetMeaningZh": "起床;叫某人起床"
+    },
+    {
+      "id": "phrasal-verb-316-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The bridge is closed, so we cannot cross the river here.",
+      "promptZh": "大橋封閉了,所以我們不能在這裏過河。",
+      "starter": "The",
+      "answer": "The bridge is closed, so we can't get across the river here.",
+      "answerZh": "大橋封閉了,所以我們不能在這裏過河。",
+      "highlight": "can't get across",
+      "targetForm": "get across / get across something",
+      "targetMeaningZh": "越過某處;到達另一邊"
+    },
+    {
+      "id": "phrasal-verb-316-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She has not finished as much homework as she should this week.",
+      "promptZh": "她這星期未完成應有的功課進度。",
+      "starter": "She",
+      "answer": "She has got behind with her homework this week.",
+      "answerZh": "她這星期未完成應有的功課進度。",
+      "highlight": "got behind with her",
+      "targetForm": "get behind with something",
+      "targetMeaningZh": "在工作、功課或進度上落後"
+    },
+    {
+      "id": "phrasal-verb-316-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Are you meeting Daniel after work?",
+      "promptZh": "你下班後會和丹尼爾見面嗎?",
+      "starter": "Are",
+      "answer": "Are you getting together with Daniel after work?",
+      "answerZh": "你下班後會和丹尼爾見面嗎?",
+      "highlight": "getting together with",
+      "targetForm": "get together (with somebody)",
+      "targetMeaningZh": "與某人見面聚一聚;相聚"
+    },
+    {
+      "id": "phrasal-verb-316-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Can you reach the box behind the cupboard?",
+      "promptZh": "你能拿到櫥櫃後面的箱子嗎?",
+      "starter": "Can",
+      "answer": "Can you get at the box behind the cupboard?",
+      "answerZh": "你能拿到櫥櫃後面的箱子嗎?",
+      "highlight": "get at",
+      "targetForm": "get at somebody/something",
+      "targetMeaningZh": "接觸、拿到或到達某人或某物"
+    },
+    {
+      "id": "phrasal-verb-316-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She works hard because she wants to become more successful.",
+      "promptZh": "她努力工作,因為她希望取得更大成功。",
+      "starter": "She",
+      "answer": "She works hard because she wants to get ahead.",
+      "answerZh": "她努力工作,因為她希望取得更大成功。",
+      "highlight": "get ahead",
+      "targetForm": "get ahead / get ahead of somebody",
+      "targetMeaningZh": "取得進展或成功;超前於某人"
+    },
+    {
+      "id": "phrasal-verb-316-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She couldn't find the enthusiasm to start the long report.",
+      "promptZh": "她提不起興致開始寫那份長報告。",
+      "starter": "She",
+      "answer": "She couldn't get up the enthusiasm to start the long report.",
+      "answerZh": "她提不起興致開始寫那份長報告。",
+      "highlight": "get up",
+      "targetForm": "get up the enthusiasm to do something",
+      "targetMeaningZh": "鼓起或提起做某事的興致"
+    },
+    {
+      "id": "phrasal-verb-316-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "What time did your train arrive in Glasgow?",
+      "promptZh": "你的火車甚麼時候抵達格拉斯哥?",
+      "starter": "What",
+      "answer": "What time did your train get into Glasgow?",
+      "answerZh": "你的火車甚麼時候抵達格拉斯哥?",
+      "highlight": "get into",
+      "targetForm": "get in / get into somewhere",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Why does the coach keep criticising you?",
+      "promptZh": "教練為甚麼不停批評你?",
+      "starter": "Why",
+      "answer": "Why does the coach keep getting at you?",
+      "answerZh": "教練為甚麼不停批評你?",
+      "highlight": "getting at",
+      "targetForm": "get at somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-316-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "What time will you arrive at the station?",
+      "promptZh": "你甚麼時候會到達車站?",
+      "starter": "What",
+      "answer": "What time will you get to the station?",
+      "answerZh": "你甚麼時候會到達車站?",
+      "highlight": "get to",
+      "targetForm": "get to something",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Sorry I'm late; I was delayed in a long queue at the station.",
+      "promptZh": "對不起,我遲到了;我在車站排長龍而耽誤了。",
+      "starter": "Sorry",
+      "answer": "Sorry I'm late; I got hung up in a long queue at the station.",
+      "answerZh": "對不起,我遲到了;我在車站排長龍而耽誤了。",
+      "highlight": "got hung up",
+      "targetForm": "get hung up",
+      "targetMeaningZh": "因交通、排隊等事情受阻或延誤"
+    },
+    {
+      "id": "phrasal-verb-316-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Was it you who introduced Leo and Grace to each other?",
+      "promptZh": "是你介紹里奧和格雷絲認識的嗎?",
+      "starter": "Was",
+      "answer": "Was it you who got Leo and Grace together?",
+      "answerZh": "是你介紹里奧和格雷絲認識的嗎?",
+      "highlight": "got",
+      "targetForm": "get A and B together",
+      "targetMeaningZh": "促成兩個人見面或走在一起"
+    },
+    {
+      "id": "phrasal-verb-316-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We are trying to stop using paper forms for every small task.",
+      "promptZh": "我們正嘗試不再每件小事都使用紙本表格。",
+      "starter": "We",
+      "answer": "We are trying to get away from using paper forms for every small task.",
+      "answerZh": "我們正嘗試不再每件小事都使用紙本表格。",
+      "highlight": "get away from",
+      "targetForm": "get away from something / get away from doing something",
+      "targetMeaningZh": "擺脫或不再依循某種做法、形象或習慣"
+    },
+    {
+      "id": "phrasal-verb-316-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Which page have you reached?",
+      "promptZh": "你已經讀到哪一頁?",
+      "starter": "Which",
+      "answer": "Which page have you got up to?",
+      "answerZh": "你已經讀到哪一頁?",
+      "highlight": "got up to",
+      "targetForm": "get up to something",
+      "targetMeaningZh": "做到、讀到或進展至某個位置或階段"
+    },
+    {
+      "id": "phrasal-verb-316-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Why is she trying so hard to become friendly with the manager?",
+      "promptZh": "她為甚麼這麼努力想和經理打好關係?",
+      "starter": "Why",
+      "answer": "Why is she trying so hard to get in with the manager?",
+      "answerZh": "她為甚麼這麼努力想和經理打好關係?",
+      "highlight": "get in",
+      "targetForm": "get in with somebody",
+      "targetMeaningZh": "刻意與某人或某群人建立友好關係"
+    },
+    {
+      "id": "phrasal-verb-316-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I should leave before the last bus goes.",
+      "promptZh": "我應該在尾班巴士開出前離開。",
+      "starter": "I",
+      "answer": "I should get along before the last bus goes.",
+      "answerZh": "我應該在尾班巴士開出前離開。",
+      "highlight": "get along",
+      "targetForm": "get along",
+      "targetMeaningZh": "離開;繼續上路"
+    },
+    {
+      "id": "phrasal-verb-316-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Is my point being understood?",
+      "promptZh": "我的重點有傳達到嗎?",
+      "starter": "Is",
+      "answer": "Is my point getting across?",
+      "answerZh": "我的重點有傳達到嗎?",
+      "highlight": "getting across",
+      "targetForm": "get across (to somebody)",
+      "targetMeaningZh": "讓訊息或意思被人理解;傳達開去"
+    },
+    {
+      "id": "phrasal-verb-316-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The child quickly moved behind his father.",
+      "promptZh": "那個孩子很快走到爸爸身後。",
+      "starter": "The",
+      "answer": "The child quickly got behind his father.",
+      "answerZh": "那個孩子很快走到爸爸身後。",
+      "highlight": "got",
+      "targetForm": "get behind somebody/something",
+      "targetMeaningZh": "移到某人或某物後面"
+    },
+    {
+      "id": "phrasal-verb-316-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We hope to travel to Edinburgh next month.",
+      "promptZh": "我們希望下個月前往愛丁堡。",
+      "starter": "We",
+      "answer": "We hope to get up to Edinburgh next month.",
+      "answerZh": "我們希望下個月前往愛丁堡。",
+      "highlight": "get up",
+      "targetForm": "get up to somewhere",
+      "targetMeaningZh": "前往某地,通常指到較遠的地方探訪或辦事"
+    },
+    {
+      "id": "phrasal-verb-316-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We can manage with one car for now.",
+      "promptZh": "我們暫時只有一輛車也能應付。",
+      "starter": "We",
+      "answer": "We can get by with one car for now.",
+      "answerZh": "我們暫時只有一輛車也能應付。",
+      "highlight": "get by",
+      "targetForm": "get by",
+      "targetMeaningZh": "以有限的金錢、物品或條件勉強應付"
+    },
+    {
+      "id": "phrasal-verb-316-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Dad has been repeatedly telling Ben to tidy his room.",
+      "promptZh": "爸爸一直催賓收拾房間。",
+      "starter": "Dad",
+      "answer": "Dad has been getting after Ben to tidy his room.",
+      "answerZh": "爸爸一直催賓收拾房間。",
+      "highlight": "getting after",
+      "targetForm": "get after somebody",
+      "targetMeaningZh": "反覆催促某人做某事"
+    },
+    {
+      "id": "phrasal-verb-316-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do not do anything that might put you in trouble.",
+      "promptZh": "不要做任何可能令你惹上麻煩的事情。",
+      "starter": "Don't",
+      "answer": "Don't do anything that might get you into trouble.",
+      "answerZh": "不要做任何可能令你惹上麻煩的事情。",
+      "highlight": "Don't",
+      "targetForm": "get into something / get somebody or yourself into something",
+      "targetMeaningZh": "進入某種情況,尤其是麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-316-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The child can climb the ladder without help now.",
+      "promptZh": "那個孩子現在不用幫忙也能爬上梯子。",
+      "starter": "The",
+      "answer": "The child can get up the ladder without help now.",
+      "answerZh": "那個孩子現在不用幫忙也能爬上梯子。",
+      "highlight": "get up",
+      "targetForm": "get up / get up something",
+      "targetMeaningZh": "爬上或到達較高的位置"
+    },
+    {
+      "id": "phrasal-verb-316-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The questions are designed to discover what really happened.",
+      "promptZh": "這些問題是為了查明真正發生了甚麼事。",
+      "starter": "The",
+      "answer": "The questions are designed to get at what really happened.",
+      "answerZh": "這些問題是為了查明真正發生了甚麼事。",
+      "highlight": "get at",
+      "targetForm": "get at something",
+      "targetMeaningZh": "查明或找出某事的真相或核心"
+    },
+    {
+      "id": "phrasal-verb-316-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "He cannot travel to many places easily without a car.",
+      "promptZh": "沒有汽車,他很難到不同地方去。",
+      "starter": "He",
+      "answer": "He can't get around easily without a car.",
+      "answerZh": "沒有汽車,他很難到不同地方去。",
+      "highlight": "can't get around",
+      "targetForm": "get around / get about",
+      "targetMeaningZh": "到很多不同地方;四處走動"
+    },
+    {
+      "id": "phrasal-verb-316-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She has started thinking too highly of herself since winning the prize.",
+      "promptZh": "她自從得獎後便開始有點自以為是。",
+      "starter": "She's",
+      "answer": "She's been getting a bit above herself since winning the prize.",
+      "answerZh": "她自從得獎後便開始有點自以為是。",
+      "highlight": "She's been getting a bit above",
+      "targetForm": "get above yourself",
+      "targetMeaningZh": "自以為比別人優越或重要;變得自大"
+    },
+    {
+      "id": "phrasal-verb-316-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Did the robber really escape with all the jewellery?",
+      "promptZh": "那名劫匪真的帶着所有珠寶逃走了嗎?",
+      "starter": "Did",
+      "answer": "Did the robber really get away with all the jewellery?",
+      "answerZh": "那名劫匪真的帶着所有珠寶逃走了嗎?",
+      "highlight": "get away",
+      "targetForm": "get away with something",
+      "targetMeaningZh": "帶着偷來或拿走的東西逃走"
+    },
+    {
+      "id": "phrasal-verb-316-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Take a minute to calm yourself before you answer.",
+      "promptZh": "回答前先用一分鐘讓自己冷靜下來。",
+      "starter": "Take",
+      "answer": "Take a minute to get yourself together before you answer.",
+      "answerZh": "回答前先用一分鐘讓自己冷靜下來。",
+      "highlight": "get",
+      "targetForm": "get yourself together",
+      "targetMeaningZh": "冷靜下來;控制情緒;重新振作"
+    },
+    {
+      "id": "phrasal-verb-316-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After the bad news, he needed a few moments to control his feelings.",
+      "promptZh": "聽到壞消息後,他需要一點時間控制自己的情緒。",
+      "starter": "After",
+      "answer": "After the bad news, he needed a few moments to get himself together.",
+      "answerZh": "聽到壞消息後,他需要一點時間控制自己的情緒。",
+      "highlight": "get himself together",
+      "targetForm": "get yourself together",
+      "targetMeaningZh": "冷靜下來;控制情緒;重新振作"
+    },
+    {
+      "id": "phrasal-verb-316-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We did not arrive home until after midnight.",
+      "promptZh": "我們直到午夜後才回到家。",
+      "starter": "We",
+      "answer": "We didn't get in until after midnight.",
+      "answerZh": "我們直到午夜後才回到家。",
+      "highlight": "didn't get in",
+      "targetForm": "get in / get into somewhere",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The other children used to criticise him about his accent.",
+      "promptZh": "其他孩子以前常常因為他的口音而批評他。",
+      "starter": "The",
+      "answer": "The other children used to get at him about his accent.",
+      "answerZh": "其他孩子以前常常因為他的口音而批評他。",
+      "highlight": "get at",
+      "targetForm": "get at somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-316-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "By Friday, the class had reached Unit 6.",
+      "promptZh": "到了星期五,全班已學到第6單元。",
+      "starter": "By",
+      "answer": "By Friday, the class had got up to Unit 6.",
+      "answerZh": "到了星期五,全班已學到第6單元。",
+      "highlight": "got up to",
+      "targetForm": "get up to something",
+      "targetMeaningZh": "做到、讀到或進展至某個位置或階段"
+    },
+    {
+      "id": "phrasal-verb-316-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Can we move behind the wall before the rain gets stronger?",
+      "promptZh": "我們可以在雨勢變大前走到牆後面嗎?",
+      "starter": "Can",
+      "answer": "Can we get behind the wall before the rain gets stronger?",
+      "answerZh": "我們可以在雨勢變大前走到牆後面嗎?",
+      "highlight": "get",
+      "targetForm": "get behind somebody/something",
+      "targetMeaningZh": "移到某人或某物後面"
+    },
+    {
+      "id": "phrasal-verb-316-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The joke did not seem to be understood by the younger children.",
+      "promptZh": "年幼的孩子似乎不明白那個笑話。",
+      "starter": "The",
+      "answer": "The joke didn't seem to be getting across to the younger children.",
+      "answerZh": "年幼的孩子似乎不明白那個笑話。",
+      "highlight": "didn't",
+      "targetForm": "get across (to somebody)",
+      "targetMeaningZh": "讓訊息或意思被人理解;傳達開去"
+    },
+    {
+      "id": "phrasal-verb-316-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "How did you become involved in this mess?",
+      "promptZh": "你是怎樣令自己陷入這個麻煩局面的?",
+      "starter": "How",
+      "answer": "How did you get yourself into this mess?",
+      "answerZh": "你是怎樣令自己陷入這個麻煩局面的?",
+      "highlight": "get yourself into",
+      "targetForm": "get into something / get somebody or yourself into something",
+      "targetMeaningZh": "進入某種情況,尤其是麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-316-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Our team needs to improve if it wants to move in front of the other teams.",
+      "promptZh": "我們的球隊如果想超越其他球隊,便需要進步。",
+      "starter": "Our",
+      "answer": "Our team needs to improve if it wants to get ahead of the other teams.",
+      "answerZh": "我們的球隊如果想超越其他球隊,便需要進步。",
+      "highlight": "get ahead",
+      "targetForm": "get ahead / get ahead of somebody",
+      "targetMeaningZh": "取得進展或成功;超前於某人"
+    },
+    {
+      "id": "phrasal-verb-316-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We did not arrive at the hotel until nearly midnight.",
+      "promptZh": "我們差不多到午夜才到達酒店。",
+      "starter": "We",
+      "answer": "We did not get to the hotel until nearly midnight.",
+      "answerZh": "我們差不多到午夜才到達酒店。",
+      "highlight": "get to",
+      "targetForm": "get to something",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The teacher kept asking because she wanted to discover the real reason.",
+      "promptZh": "老師不斷追問,因為她想找出真正原因。",
+      "starter": "The",
+      "answer": "The teacher kept asking because she wanted to get at the real reason.",
+      "answerZh": "老師不斷追問,因為她想找出真正原因。",
+      "highlight": "get at",
+      "targetForm": "get at something",
+      "targetMeaningZh": "查明或找出某事的真相或核心"
+    },
+    {
+      "id": "phrasal-verb-316-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Traffic near the bridge delayed me for nearly half an hour.",
+      "promptZh": "大橋附近的交通令我耽誤了接近半小時。",
+      "starter": "I",
+      "answer": "I got hung up in traffic near the bridge for nearly half an hour.",
+      "answerZh": "大橋附近的交通令我耽誤了接近半小時。",
+      "highlight": "I got hung up in",
+      "targetForm": "get hung up",
+      "targetMeaningZh": "因交通、排隊等事情受阻或延誤"
+    },
+    {
+      "id": "phrasal-verb-316-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I was exhausted and did not leave bed until ten.",
+      "promptZh": "我累極了,直到十時才起床。",
+      "starter": "I",
+      "answer": "I was exhausted and didn't get up until ten.",
+      "answerZh": "我累極了,直到十時才起床。",
+      "highlight": "didn't get up",
+      "targetForm": "get up / get somebody up",
+      "targetMeaningZh": "起床;叫某人起床"
+    },
+    {
+      "id": "phrasal-verb-316-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The lesson needs to move away from simply copying words.",
+      "promptZh": "這堂課需要擺脫只抄寫單字的做法。",
+      "starter": "The",
+      "answer": "The lesson needs to get away from simply copying words.",
+      "answerZh": "這堂課需要擺脫只抄寫單字的做法。",
+      "highlight": "get",
+      "targetForm": "get away from something / get away from doing something",
+      "targetMeaningZh": "擺脫或不再依循某種做法、形象或習慣"
+    },
+    {
+      "id": "phrasal-verb-316-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Did the hikers manage to cross before the water rose?",
+      "promptZh": "遠足者在水位上升前成功越過去了嗎?",
+      "starter": "Did",
+      "answer": "Did the hikers manage to get across before the water rose?",
+      "answerZh": "遠足者在水位上升前成功越過去了嗎?",
+      "highlight": "get across",
+      "targetForm": "get across / get across something",
+      "targetMeaningZh": "越過某處;到達另一邊"
+    },
+    {
+      "id": "phrasal-verb-316-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Tom thought becoming friendly with the team captain might help him.",
+      "promptZh": "湯姆認為和隊長打好關係可能對自己有幫助。",
+      "starter": "Tom",
+      "answer": "Tom thought getting in with the team captain might help him.",
+      "answerZh": "湯姆認為和隊長打好關係可能對自己有幫助。",
+      "highlight": "getting in",
+      "targetForm": "get in with somebody",
+      "targetMeaningZh": "刻意與某人或某群人建立友好關係"
+    },
+    {
+      "id": "phrasal-verb-316-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Can you find enough enthusiasm to go shopping after work?",
+      "promptZh": "你下班後能提起足夠興致去購物嗎?",
+      "starter": "Can",
+      "answer": "Can you get up the enthusiasm to go shopping after work?",
+      "answerZh": "你下班後能提起足夠興致去購物嗎?",
+      "highlight": "get up the",
+      "targetForm": "get up the enthusiasm to do something",
+      "targetMeaningZh": "鼓起或提起做某事的興致"
+    },
+    {
+      "id": "phrasal-verb-316-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Since retiring, they have travelled to many different parts of the country.",
+      "promptZh": "退休後,他們去了國內很多不同地方。",
+      "starter": "Since",
+      "answer": "Since retiring, they've got around a lot.",
+      "answerZh": "退休後,他們去了國內很多不同地方。",
+      "highlight": "they've got around a lot",
+      "targetForm": "get around / get about",
+      "targetMeaningZh": "到很多不同地方;四處走動"
+    },
+    {
+      "id": "phrasal-verb-316-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Their friends tried to arrange for the two shy students to meet each other.",
+      "promptZh": "他們的朋友嘗試安排那兩名害羞的學生見面。",
+      "starter": "Their",
+      "answer": "Their friends tried to get the two shy students together.",
+      "answerZh": "他們的朋友嘗試安排那兩名害羞的學生見面。",
+      "highlight": "get",
+      "targetForm": "get A and B together",
+      "targetMeaningZh": "促成兩個人見面或走在一起"
+    },
+    {
+      "id": "phrasal-verb-316-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "He managed on very little money while he was studying.",
+      "promptZh": "他讀書期間靠很少的錢也能應付生活。",
+      "starter": "He",
+      "answer": "He got by on very little money while he was studying.",
+      "answerZh": "他讀書期間靠很少的錢也能應付生活。",
+      "highlight": "got by",
+      "targetForm": "get by",
+      "targetMeaningZh": "以有限的金錢、物品或條件勉強應付"
+    },
+    {
+      "id": "phrasal-verb-316-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Did you manage to travel to Leeds last weekend?",
+      "promptZh": "你上週末成功去了列斯嗎?",
+      "starter": "Did",
+      "answer": "Did you manage to get up to Leeds last weekend?",
+      "answerZh": "你上週末成功去了列斯嗎?",
+      "highlight": "get up",
+      "targetForm": "get up to somewhere",
+      "targetMeaningZh": "前往某地,通常指到較遠的地方探訪或辦事"
+    },
+    {
+      "id": "phrasal-verb-316-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The police arrived quickly, so the thieves did not escape with the stolen bikes.",
+      "promptZh": "警方很快到場,所以賊人未能帶着偷來的單車逃走。",
+      "starter": "The",
+      "answer": "The police arrived quickly, so the thieves didn't get away with the stolen bikes.",
+      "answerZh": "警方很快到場,所以賊人未能帶着偷來的單車逃走。",
+      "highlight": "didn't get away",
+      "targetForm": "get away with something",
+      "targetMeaningZh": "帶着偷來或拿走的東西逃走"
+    },
+    {
+      "id": "phrasal-verb-316-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The key had fallen under the sofa where nobody could reach it.",
+      "promptZh": "鎖匙掉到梳化下面,沒有人能拿到。",
+      "starter": "The",
+      "answer": "The key had fallen under the sofa where nobody could get at it.",
+      "answerZh": "鎖匙掉到梳化下面,沒有人能拿到。",
+      "highlight": "get at",
+      "targetForm": "get at somebody/something",
+      "targetMeaningZh": "接觸、拿到或到達某人或某物"
+    },
+    {
+      "id": "phrasal-verb-316-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I have not met my old classmates for months.",
+      "promptZh": "我已經幾個月沒有和舊同學聚會了。",
+      "starter": "I",
+      "answer": "I haven't got together with my old classmates for months.",
+      "answerZh": "我已經幾個月沒有和舊同學聚會了。",
+      "highlight": "haven't got together with",
+      "targetForm": "get together (with somebody)",
+      "targetMeaningZh": "與某人見面聚一聚;相聚"
+    },
+    {
+      "id": "phrasal-verb-316-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Several students asked whether they could become involved in the new school project too.",
+      "promptZh": "幾名學生問自己是否也可以參與新的學校項目。",
+      "starter": "Several",
+      "answer": "Several students asked whether they could get in on the new school project too.",
+      "answerZh": "幾名學生問自己是否也可以參與新的學校項目。",
+      "highlight": "get",
+      "targetForm": "get in on something",
+      "targetMeaningZh": "加入某項活動、計劃或機會"
+    },
+    {
+      "id": "phrasal-verb-316-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Why has Ben become so proud since he got the new job?",
+      "promptZh": "賓得到新工作後,為甚麼變得這麼自大?",
+      "starter": "Why",
+      "answer": "Why has Ben been getting above himself since he got the new job?",
+      "answerZh": "賓得到新工作後,為甚麼變得這麼自大?",
+      "highlight": "been getting above himself",
+      "targetForm": "get above yourself",
+      "targetMeaningZh": "自以為比別人優越或重要;變得自大"
+    },
+    {
+      "id": "phrasal-verb-316-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do not let the monthly reports become late.",
+      "promptZh": "不要讓每月報告的進度落後。",
+      "starter": "Don't",
+      "answer": "Don't get behind with the monthly reports.",
+      "answerZh": "不要讓每月報告的進度落後。",
+      "highlight": "Don't get behind with",
+      "targetForm": "get behind with something",
+      "targetMeaningZh": "在工作、功課或進度上落後"
+    },
+    {
+      "id": "phrasal-verb-316-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We could not climb the steep hill before dark.",
+      "promptZh": "我們無法在天黑前爬上那座陡峭的山。",
+      "starter": "We",
+      "answer": "We couldn't get up the steep hill before dark.",
+      "answerZh": "我們無法在天黑前爬上那座陡峭的山。",
+      "highlight": "couldn't get up",
+      "targetForm": "get up / get up something",
+      "targetMeaningZh": "爬上或到達較高的位置"
+    },
+    {
+      "id": "phrasal-verb-316-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We had better leave if we want to arrive home before dark.",
+      "promptZh": "如果我們想在天黑前回到家,最好現在離開。",
+      "starter": "We'd",
+      "answer": "We'd better get along if we want to arrive home before dark.",
+      "answerZh": "如果我們想在天黑前回到家,最好現在離開。",
+      "highlight": "We'd",
+      "targetForm": "get along",
+      "targetMeaningZh": "離開;繼續上路"
+    },
+    {
+      "id": "phrasal-verb-316-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Why are you always asking me again and again to join the gym?",
+      "promptZh": "你為甚麼總是不斷催我加入健身室?",
+      "starter": "Why",
+      "answer": "Why are you always getting after me to join the gym?",
+      "answerZh": "你為甚麼總是不斷催我加入健身室?",
+      "highlight": "getting after",
+      "targetForm": "get after somebody",
+      "targetMeaningZh": "反覆催促某人做某事"
+    },
+    {
+      "id": "phrasal-verb-316-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Because the cupboard was blocked by chairs, we could not reach the cleaning supplies.",
+      "promptZh": "因為櫥櫃被椅子擋住,我們無法拿到清潔用品。",
+      "starter": "Because",
+      "answer": "Because the cupboard was blocked by chairs, we couldn't get at the cleaning supplies.",
+      "answerZh": "因為櫥櫃被椅子擋住,我們無法拿到清潔用品。",
+      "highlight": "couldn't get at",
+      "targetForm": "get at somebody/something",
+      "targetMeaningZh": "接觸、拿到或到達某人或某物"
+    },
+    {
+      "id": "phrasal-verb-316-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After the exam, the study group met for dinner.",
+      "promptZh": "考試後,溫習小組一起吃晚飯聚一聚。",
+      "starter": "After",
+      "answer": "After the exam, the study group got together for dinner.",
+      "answerZh": "考試後,溫習小組一起吃晚飯聚一聚。",
+      "highlight": "got together",
+      "targetForm": "get together (with somebody)",
+      "targetMeaningZh": "與某人見面聚一聚;相聚"
+    },
+    {
+      "id": "phrasal-verb-316-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We left early, but a long queue delayed us for nearly an hour.",
+      "promptZh": "我們很早便出發,但長長的人龍令我們耽誤了接近一小時。",
+      "starter": "We",
+      "answer": "We left early, but we got hung up in a long queue for nearly an hour.",
+      "answerZh": "我們很早便出發,但長長的人龍令我們耽誤了接近一小時。",
+      "highlight": "we got hung up in",
+      "targetForm": "get hung up",
+      "targetMeaningZh": "因交通、排隊等事情受阻或延誤"
+    },
+    {
+      "id": "phrasal-verb-316-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The team captain was friendly before, but lately he has begun to act as if he is better than the others.",
+      "promptZh": "隊長以前很友善,但最近開始表現得好像自己比其他人優越。",
+      "starter": "The",
+      "answer": "The team captain was friendly before, but lately he has begun to get above himself.",
+      "answerZh": "隊長以前很友善,但最近開始表現得好像自己比其他人優越。",
+      "highlight": "get above himself",
+      "targetForm": "get above yourself",
+      "targetMeaningZh": "自以為比別人優越或重要;變得自大"
+    },
+    {
+      "id": "phrasal-verb-316-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "One man took a laptop from the shop and escaped with it before anyone noticed.",
+      "promptZh": "一名男子從店內拿走手提電腦,在有人察覺前便帶着它逃走。",
+      "starter": "One",
+      "answer": "One man got away with a laptop from the shop before anyone noticed.",
+      "answerZh": "一名男子從店內拿走手提電腦,在有人察覺前便帶着它逃走。",
+      "highlight": "got away with",
+      "targetForm": "get away with something",
+      "targetMeaningZh": "帶着偷來或拿走的東西逃走"
+    },
+    {
+      "id": "phrasal-verb-316-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I started the series yesterday and have already reached episode five.",
+      "promptZh": "我昨天開始看這個系列,現在已經看到第五集。",
+      "starter": "I",
+      "answer": "I started the series yesterday and have already got up to episode five.",
+      "answerZh": "我昨天開始看這個系列,現在已經看到第五集。",
+      "highlight": "got up to",
+      "targetForm": "get up to something",
+      "targetMeaningZh": "做到、讀到或進展至某個位置或階段"
+    },
+    {
+      "id": "phrasal-verb-316-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The teacher repeatedly reminded the class to hand in the forms.",
+      "promptZh": "老師不斷催全班交表格。",
+      "starter": "The",
+      "answer": "The teacher kept getting after the class to hand in the forms.",
+      "answerZh": "老師不斷催全班交表格。",
+      "highlight": "kept getting after",
+      "targetForm": "get after somebody",
+      "targetMeaningZh": "反覆催促某人做某事"
+    },
+    {
+      "id": "phrasal-verb-316-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Because the bus was late, Ella arrived home much later than usual.",
+      "promptZh": "因為巴士遲到,埃拉比平常晚很多才回到家。",
+      "starter": "Because",
+      "answer": "Because the bus was late, Ella got in much later than usual.",
+      "answerZh": "因為巴士遲到,埃拉比平常晚很多才回到家。",
+      "highlight": "got in",
+      "targetForm": "get in / get into somewhere",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I was shaking before the interview, but I managed to calm myself before my name was called.",
+      "promptZh": "面試前我一直發抖,但在叫到我的名字前成功讓自己冷靜下來。",
+      "starter": "I",
+      "answer": "I was shaking before the interview, but I managed to get myself together before my name was called.",
+      "answerZh": "面試前我一直發抖,但在叫到我的名字前成功讓自己冷靜下來。",
+      "highlight": "get",
+      "targetForm": "get yourself together",
+      "targetMeaningZh": "冷靜下來;控制情緒;重新振作"
+    },
+    {
+      "id": "phrasal-verb-316-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "For someone who says she dislikes travelling, Ava visits an amazing number of places.",
+      "promptZh": "艾娃說自己不喜歡旅行,但她去過的地方多得令人驚訝。",
+      "starter": "For",
+      "answer": "For someone who says she dislikes travelling, Ava certainly gets about.",
+      "answerZh": "艾娃說自己不喜歡旅行,但她去過的地方多得令人驚訝。",
+      "highlight": "certainly gets about",
+      "targetForm": "get around / get about",
+      "targetMeaningZh": "到很多不同地方;四處走動"
+    },
+    {
+      "id": "phrasal-verb-316-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The road was flooded, but one small bus still managed to reach the other side.",
+      "promptZh": "道路水浸,但一輛小巴仍成功到達另一邊。",
+      "starter": "The",
+      "answer": "The road was flooded, but one small bus still managed to get across.",
+      "answerZh": "道路水浸,但一輛小巴仍成功到達另一邊。",
+      "highlight": "get across",
+      "targetForm": "get across / get across something",
+      "targetMeaningZh": "越過某處;到達另一邊"
+    },
+    {
+      "id": "phrasal-verb-316-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The new student kept offering help because he wanted to become part of the popular group.",
+      "promptZh": "那名新生不斷主動幫忙,因為他想和受歡迎的群體打好關係。",
+      "starter": "The",
+      "answer": "The new student kept offering help because he wanted to get in with the popular group.",
+      "answerZh": "那名新生不斷主動幫忙,因為他想和受歡迎的群體打好關係。",
+      "highlight": "get in with",
+      "targetForm": "get in with somebody",
+      "targetMeaningZh": "刻意與某人或某群人建立友好關係"
+    },
+    {
+      "id": "phrasal-verb-316-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The first answers were confusing, so the interviewer asked simpler questions to discover the facts.",
+      "promptZh": "最初的答案很混亂,所以訪問員問了較簡單的問題,以查明事實。",
+      "starter": "The",
+      "answer": "The first answers were confusing, so the interviewer asked simpler questions to get at the facts.",
+      "answerZh": "最初的答案很混亂,所以訪問員問了較簡單的問題,以查明事實。",
+      "highlight": "get at",
+      "targetForm": "get at something",
+      "targetMeaningZh": "查明或找出某事的真相或核心"
+    },
+    {
+      "id": "phrasal-verb-316-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Could you wake the children at seven tomorrow?",
+      "promptZh": "你明天可以七時叫孩子們起床嗎?",
+      "starter": "Could",
+      "answer": "Could you get the children up at seven tomorrow?",
+      "answerZh": "你明天可以七時叫孩子們起床嗎?",
+      "highlight": "get",
+      "targetForm": "get up / get somebody up",
+      "targetMeaningZh": "起床;叫某人起床"
+    },
+    {
+      "id": "phrasal-verb-316-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The room is small, but we can manage with the space we have.",
+      "promptZh": "房間很小,但我們可以利用現有空間勉強應付。",
+      "starter": "The",
+      "answer": "The room is small, but we can get by with the space we have.",
+      "answerZh": "房間很小,但我們可以利用現有空間勉強應付。",
+      "highlight": "get by",
+      "targetForm": "get by",
+      "targetMeaningZh": "以有限的金錢、物品或條件勉強應付"
+    },
+    {
+      "id": "phrasal-verb-316-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After the teacher used a picture, the idea began to be understood by the class.",
+      "promptZh": "老師使用圖片後,全班開始明白那個想法。",
+      "starter": "After",
+      "answer": "After the teacher used a picture, the idea began to get across to the class.",
+      "answerZh": "老師使用圖片後,全班開始明白那個想法。",
+      "highlight": "get across to",
+      "targetForm": "get across (to somebody)",
+      "targetMeaningZh": "讓訊息或意思被人理解;傳達開去"
+    },
+    {
+      "id": "phrasal-verb-316-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I haven't been able to travel to Manchester to see my cousin this year.",
+      "promptZh": "今年我一直未能前往曼徹斯特探望表親。",
+      "starter": "I",
+      "answer": "I haven't been able to get up to Manchester to see my cousin this year.",
+      "answerZh": "今年我一直未能前往曼徹斯特探望表親。",
+      "highlight": "get up",
+      "targetForm": "get up to somewhere",
+      "targetMeaningZh": "前往某地,通常指到較遠的地方探訪或辦事"
+    },
+    {
+      "id": "phrasal-verb-316-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After being away for three days, Ben had more classwork left unfinished than he should.",
+      "promptZh": "賓缺席三天後,有比應有進度更多的課業尚未完成。",
+      "starter": "After",
+      "answer": "After being away for three days, Ben got behind with his classwork.",
+      "answerZh": "賓缺席三天後,有比應有進度更多的課業尚未完成。",
+      "highlight": "got behind with his",
+      "targetForm": "get behind with something",
+      "targetMeaningZh": "在工作、功課或進度上落後"
+    },
+    {
+      "id": "phrasal-verb-316-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After months of extra practice, Leo finally moved ahead of the other runners.",
+      "promptZh": "經過幾個月額外練習後,里奧終於超越其他跑手。",
+      "starter": "After",
+      "answer": "After months of extra practice, Leo finally got ahead of the other runners.",
+      "answerZh": "經過幾個月額外練習後,里奧終於超越其他跑手。",
+      "highlight": "got",
+      "targetForm": "get ahead / get ahead of somebody",
+      "targetMeaningZh": "取得進展或成功;超前於某人"
+    },
+    {
+      "id": "phrasal-verb-316-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Nobody knew how the dog had climbed to that high place.",
+      "promptZh": "沒有人知道那隻狗是怎樣爬到那麼高的地方。",
+      "starter": "Nobody",
+      "answer": "Nobody knew how the dog had got up there.",
+      "answerZh": "沒有人知道那隻狗是怎樣爬到那麼高的地方。",
+      "highlight": "got up there",
+      "targetForm": "get up / get up something",
+      "targetMeaningZh": "爬上或到達較高的位置"
+    },
+    {
+      "id": "phrasal-verb-316-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I know I made a mistake, but you do not need to keep criticising me.",
+      "promptZh": "我知道自己犯了錯,但你不需要一直批評我。",
+      "starter": "I",
+      "answer": "I know I made a mistake, but you don't need to keep getting at me.",
+      "answerZh": "我知道自己犯了錯,但你不需要一直批評我。",
+      "highlight": "don't",
+      "targetForm": "get at somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-316-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "When the shop started the new plan, every department wanted to be part of it.",
+      "promptZh": "店舖開始新計劃時,每個部門都想參與。",
+      "starter": "When",
+      "answer": "When the shop started the new plan, every department wanted to get in on it.",
+      "answerZh": "店舖開始新計劃時,每個部門都想參與。",
+      "highlight": "get in on",
+      "targetForm": "get in on something",
+      "targetMeaningZh": "加入某項活動、計劃或機會"
+    },
+    {
+      "id": "phrasal-verb-316-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After two bus changes, Sara finally arrived at the museum.",
+      "promptZh": "轉了兩次巴士後,莎拉終於到達博物館。",
+      "starter": "After",
+      "answer": "After two bus changes, Sara finally got to the museum.",
+      "answerZh": "轉了兩次巴士後,莎拉終於到達博物館。",
+      "highlight": "got to",
+      "targetForm": "get to something",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "When the ball came towards her, Eva moved behind the chair.",
+      "promptZh": "球向伊娃飛來時,她走到椅子後面。",
+      "starter": "When",
+      "answer": "When the ball came towards her, Eva got behind the chair.",
+      "answerZh": "球向伊娃飛來時,她走到椅子後面。",
+      "highlight": "got",
+      "targetForm": "get behind somebody/something",
+      "targetMeaningZh": "移到某人或某物後面"
+    },
+    {
+      "id": "phrasal-verb-316-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "A mutual friend arranged the first meeting between Tom and Eva.",
+      "promptZh": "一位共同朋友安排了湯姆和伊娃第一次見面。",
+      "starter": "A",
+      "answer": "A mutual friend got Tom and Eva together.",
+      "answerZh": "一位共同朋友安排了湯姆和伊娃第一次見面。",
+      "highlight": "got",
+      "targetForm": "get A and B together",
+      "targetMeaningZh": "促成兩個人見面或走在一起"
+    },
+    {
+      "id": "phrasal-verb-316-q113",
+      "number": 113,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The café changed its menu because it wanted to stop depending on heavy fried food.",
+      "promptZh": "這間咖啡店更改餐牌,因為它希望不再依賴太多油炸食物。",
+      "starter": "The",
+      "answer": "The café changed its menu because it wanted to get away from depending on heavy fried food.",
+      "answerZh": "這間咖啡店更改餐牌,因為它希望不再依賴太多油炸食物。",
+      "highlight": "get away from",
+      "targetForm": "get away from something / get away from doing something",
+      "targetMeaningZh": "擺脫或不再依循某種做法、形象或習慣"
+    },
+    {
+      "id": "phrasal-verb-316-q114",
+      "number": 114,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After finishing her tea, Rosa said she needed to leave.",
+      "promptZh": "羅莎喝完茶後說她要走了。",
+      "starter": "After",
+      "answer": "After finishing her tea, Rosa said she needed to get along.",
+      "answerZh": "羅莎喝完茶後說她要走了。",
+      "highlight": "get along",
+      "targetForm": "get along",
+      "targetMeaningZh": "離開;繼續上路"
+    },
+    {
+      "id": "phrasal-verb-316-q115",
+      "number": 115,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The children knew they would be in trouble if they broke the window.",
+      "promptZh": "孩子們知道如果打破窗戶便會惹上麻煩。",
+      "starter": "The",
+      "answer": "The children knew they would get into trouble if they broke the window.",
+      "answerZh": "孩子們知道如果打破窗戶便會惹上麻煩。",
+      "highlight": "get into",
+      "targetForm": "get into something / get somebody or yourself into something",
+      "targetMeaningZh": "進入某種情況,尤其是麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-316-q116",
+      "number": 116,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After a tiring week, none of us could find the enthusiasm to have another practice session.",
+      "promptZh": "辛苦了一星期後,我們沒有一個人能提起興致再練習一次。",
+      "starter": "After",
+      "answer": "After a tiring week, none of us could get up the enthusiasm to have another practice session.",
+      "answerZh": "辛苦了一星期後,我們沒有一個人能提起興致再練習一次。",
+      "highlight": "get up",
+      "targetForm": "get up the enthusiasm to do something",
+      "targetMeaningZh": "鼓起或提起做某事的興致"
+    },
+    {
+      "id": "phrasal-verb-316-q117",
+      "number": 117,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "He ignored the warning and soon found himself in a difficult situation.",
+      "promptZh": "他沒有理會警告,很快便令自己陷入困境。",
+      "starter": "He",
+      "answer": "He ignored the warning and soon got himself into a difficult situation.",
+      "answerZh": "他沒有理會警告,很快便令自己陷入困境。",
+      "highlight": "got",
+      "targetForm": "get into something / get somebody or yourself into something",
+      "targetMeaningZh": "進入某種情況,尤其是麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-316-q118",
+      "number": 118,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The first explanation was too complicated, but the main idea was finally understood when the teacher used a simpler example.",
+      "promptZh": "第一次解釋太複雜,但老師用了較簡單的例子後,大家終於明白主要意思。",
+      "starter": "The",
+      "answer": "The first explanation was too complicated, but the main idea finally got across when the teacher used a simpler example.",
+      "answerZh": "第一次解釋太複雜,但老師用了較簡單的例子後,大家終於明白主要意思。",
+      "highlight": "got across",
+      "targetForm": "get across (to somebody)",
+      "targetMeaningZh": "讓訊息或意思被人理解;傳達開去"
+    },
+    {
+      "id": "phrasal-verb-316-q119",
+      "number": 119,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Until the new computer arrives, the office will have to manage with the old one.",
+      "promptZh": "在新電腦送到前,辦公室只好暫時用舊電腦應付。",
+      "starter": "Until",
+      "answer": "Until the new computer arrives, the office will have to get by with the old one.",
+      "answerZh": "在新電腦送到前,辦公室只好暫時用舊電腦應付。",
+      "highlight": "get by",
+      "targetForm": "get by",
+      "targetMeaningZh": "以有限的金錢、物品或條件勉強應付"
+    },
+    {
+      "id": "phrasal-verb-316-q120",
+      "number": 120,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If work stays quiet, we may travel to Scotland for a few days in October.",
+      "promptZh": "如果工作不太忙,我們十月可能會去蘇格蘭幾天。",
+      "starter": "If",
+      "answer": "If work stays quiet, we may get up to Scotland for a few days in October.",
+      "answerZh": "如果工作不太忙,我們十月可能會去蘇格蘭幾天。",
+      "highlight": "get up",
+      "targetForm": "get up to somewhere",
+      "targetMeaningZh": "前往某地,通常指到較遠的地方探訪或辦事"
+    },
+    {
+      "id": "phrasal-verb-316-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She was already nervous, and constant criticism from her brother made things worse.",
+      "promptZh": "她本來已很緊張,而哥哥不斷批評她令情況更差。",
+      "starter": "She",
+      "answer": "She was already nervous, and her brother kept getting at her, making things worse.",
+      "answerZh": "她本來已很緊張,而哥哥不斷批評她令情況更差。",
+      "highlight": "kept getting at her, making",
+      "targetForm": "get at somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-316-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If I miss another evening of study, I will not have done as much exam preparation as I should.",
+      "promptZh": "如果我再少溫習一晚,我的考試準備便會落後應有進度。",
+      "starter": "If",
+      "answer": "If I miss another evening of study, I'll get behind with my exam preparation.",
+      "answerZh": "如果我再少溫習一晚,我的考試準備便會落後應有進度。",
+      "highlight": "I'll get behind with my",
+      "targetForm": "get behind with something",
+      "targetMeaningZh": "在工作、功課或進度上落後"
+    },
+    {
+      "id": "phrasal-verb-316-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If the roads stay clear, we should arrive at the airport before check-in closes.",
+      "promptZh": "如果道路保持暢通,我們應該可以在辦理登機手續截止前到達機場。",
+      "starter": "If",
+      "answer": "If the roads stay clear, we should get to the airport before check-in closes.",
+      "answerZh": "如果道路保持暢通,我們應該可以在辦理登機手續截止前到達機場。",
+      "highlight": "get to",
+      "targetForm": "get to something",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Although the mistake upset her, she quickly regained control and continued the presentation.",
+      "promptZh": "雖然那個錯誤令她很不安,但她很快便重新冷靜下來,繼續匯報。",
+      "starter": "Although",
+      "answer": "Although the mistake upset her, she quickly got herself together and continued the presentation.",
+      "answerZh": "雖然那個錯誤令她很不安,但她很快便重新冷靜下來,繼續匯報。",
+      "highlight": "got herself together",
+      "targetForm": "get yourself together",
+      "targetMeaningZh": "冷靜下來;控制情緒;重新振作"
+    },
+    {
+      "id": "phrasal-verb-316-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The idea became popular quickly, and other teams soon tried to become involved.",
+      "promptZh": "這個想法很快流行起來,其他團隊很快也嘗試參與。",
+      "starter": "The",
+      "answer": "The idea became popular quickly, and other teams soon tried to get in on it.",
+      "answerZh": "這個想法很快流行起來,其他團隊很快也嘗試參與。",
+      "highlight": "get in on it",
+      "targetForm": "get in on something",
+      "targetMeaningZh": "加入某項活動、計劃或機會"
+    },
+    {
+      "id": "phrasal-verb-316-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Good results can help you progress, but learning from mistakes matters too.",
+      "promptZh": "好成績可以幫助你取得進展,但從錯誤中學習也很重要。",
+      "starter": "Good",
+      "answer": "Good results can help you get ahead, but learning from mistakes matters too.",
+      "answerZh": "好成績可以幫助你取得進展,但從錯誤中學習也很重要。",
+      "highlight": "get ahead",
+      "targetForm": "get ahead / get ahead of somebody",
+      "targetMeaningZh": "取得進展或成功;超前於某人"
+    },
+    {
+      "id": "phrasal-verb-316-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Even though he had promised to tidy his room, he could not make himself feel enthusiastic enough to begin.",
+      "promptZh": "雖然他答應了收拾房間,但仍提不起興致開始。",
+      "starter": "Even",
+      "answer": "Even though he had promised to tidy his room, he couldn't get up the enthusiasm to begin.",
+      "answerZh": "雖然他答應了收拾房間,但仍提不起興致開始。",
+      "highlight": "couldn't get up the enthusiasm",
+      "targetForm": "get up the enthusiasm to do something",
+      "targetMeaningZh": "鼓起或提起做某事的興致"
+    },
+    {
+      "id": "phrasal-verb-316-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "There were several different stories, and it took time to discover what had actually happened.",
+      "promptZh": "有幾個不同說法,所以花了一些時間才查明實際發生了甚麼事。",
+      "starter": "There",
+      "answer": "There were several different stories, and it took time to get at what had actually happened.",
+      "answerZh": "有幾個不同說法,所以花了一些時間才查明實際發生了甚麼事。",
+      "highlight": "get at",
+      "targetForm": "get at something",
+      "targetMeaningZh": "查明或找出某事的真相或核心"
+    },
+    {
+      "id": "phrasal-verb-316-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Unless the ferry starts again soon, we may not be able to cross to the island before dark.",
+      "promptZh": "除非渡輪很快恢復服務,否則我們可能無法在天黑前過去那座島。",
+      "starter": "Unless",
+      "answer": "Unless the ferry starts again soon, we may not be able to get across to the island before dark.",
+      "answerZh": "除非渡輪很快恢復服務,否則我們可能無法在天黑前過去那座島。",
+      "highlight": "get across",
+      "targetForm": "get across / get across something",
+      "targetMeaningZh": "越過某處;到達另一邊"
+    },
+    {
+      "id": "phrasal-verb-316-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She does not really like the organiser; she is only trying to become friendly with him because he chooses the teams.",
+      "promptZh": "她其實不太喜歡主辦人;她只是因為他負責分隊,所以想和他打好關係。",
+      "starter": "She",
+      "answer": "She doesn't really like the organiser; she's only trying to get in with him because he chooses the teams.",
+      "answerZh": "她其實不太喜歡主辦人;她只是因為他負責分隊,所以想和他打好關係。",
+      "highlight": "doesn't",
+      "targetForm": "get in with somebody",
+      "targetMeaningZh": "刻意與某人或某群人建立友好關係"
+    },
+    {
+      "id": "phrasal-verb-316-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Although the flight was early, everyone managed to leave bed before four.",
+      "promptZh": "雖然航班很早,但大家都成功在四時前起床。",
+      "starter": "Although",
+      "answer": "Although the flight was early, everyone managed to get up before four.",
+      "answerZh": "雖然航班很早,但大家都成功在四時前起床。",
+      "highlight": "get up",
+      "targetForm": "get up / get somebody up",
+      "targetMeaningZh": "起床;叫某人起床"
+    },
+    {
+      "id": "phrasal-verb-316-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The thieves left through the back door and escaped carrying the cash from the safe.",
+      "promptZh": "賊人從後門離開,帶着夾萬裏的現金逃走。",
+      "starter": "The",
+      "answer": "The thieves left through the back door and got away with the cash from the safe.",
+      "answerZh": "賊人從後門離開,帶着夾萬裏的現金逃走。",
+      "highlight": "got away with",
+      "targetForm": "get away with something",
+      "targetMeaningZh": "帶着偷來或拿走的東西逃走"
+    },
+    {
+      "id": "phrasal-verb-316-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I would love to stay longer, but I really must leave because I have an early start tomorrow.",
+      "promptZh": "我很想多留一會兒,但明天要早起,所以真的必須走了。",
+      "starter": "I",
+      "answer": "I would love to stay longer, but I really must get along because I have an early start tomorrow.",
+      "answerZh": "我很想多留一會兒,但明天要早起,所以真的必須走了。",
+      "highlight": "get along",
+      "targetForm": "get along",
+      "targetMeaningZh": "離開;繼續上路"
+    },
+    {
+      "id": "phrasal-verb-316-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We hoped to finish chapter ten, but the discussion was so useful that we only reached chapter eight.",
+      "promptZh": "我們原本希望完成第十章,但討論很有用,所以最後只讀到第八章。",
+      "starter": "We",
+      "answer": "We hoped to finish chapter ten, but the discussion was so useful that we only got up to chapter eight.",
+      "answerZh": "我們原本希望完成第十章,但討論很有用,所以最後只讀到第八章。",
+      "highlight": "got up to",
+      "targetForm": "get up to something",
+      "targetMeaningZh": "做到、讀到或進展至某個位置或階段"
+    },
+    {
+      "id": "phrasal-verb-316-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The photographer asked everyone to move behind the line before the picture was taken.",
+      "promptZh": "攝影師請大家在拍照前走到線的後面。",
+      "starter": "The",
+      "answer": "The photographer asked everyone to get behind the line before the picture was taken.",
+      "answerZh": "攝影師請大家在拍照前走到線的後面。",
+      "highlight": "get",
+      "targetForm": "get behind somebody/something",
+      "targetMeaningZh": "移到某人或某物後面"
+    },
+    {
+      "id": "phrasal-verb-316-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "They had liked each other for months, but it was Nina who finally arranged for them to meet.",
+      "promptZh": "他們已互有好感幾個月,但最後是妮娜安排他們見面的。",
+      "starter": "They",
+      "answer": "They had liked each other for months, but it was Nina who finally got them together.",
+      "answerZh": "他們已互有好感幾個月,但最後是妮娜安排他們見面的。",
+      "highlight": "got",
+      "targetForm": "get A and B together",
+      "targetMeaningZh": "促成兩個人見面或走在一起"
+    },
+    {
+      "id": "phrasal-verb-316-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If the flight lands on time, we should arrive in Madrid before lunch.",
+      "promptZh": "如果航班準時降落,我們應該可以在午飯前抵達馬德里。",
+      "starter": "If",
+      "answer": "If the flight lands on time, we should get into Madrid before lunch.",
+      "answerZh": "如果航班準時降落,我們應該可以在午飯前抵達馬德里。",
+      "highlight": "get into",
+      "targetForm": "get in / get into somewhere",
+      "targetMeaningZh": "到達某地"
+    },
+    {
+      "id": "phrasal-verb-316-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "I had delayed the appointment for weeks, so my family kept pressing me to make the call.",
+      "promptZh": "我把預約拖延了幾個星期,所以家人一直催我打電話。",
+      "starter": "I",
+      "answer": "I had delayed the appointment for weeks, so my family kept getting after me to make the call.",
+      "answerZh": "我把預約拖延了幾個星期,所以家人一直催我打電話。",
+      "highlight": "getting after",
+      "targetForm": "get after somebody",
+      "targetMeaningZh": "反覆催促某人做某事"
+    },
+    {
+      "id": "phrasal-verb-316-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "During the summer, the band visited six cities in two weeks.",
+      "promptZh": "夏天期間,樂隊兩星期內去了六個城市。",
+      "starter": "During",
+      "answer": "During the summer, the band really got around, visiting six cities in two weeks.",
+      "answerZh": "夏天期間,樂隊兩星期內去了六個城市。",
+      "highlight": "really got around, visiting",
+      "targetForm": "get around / get about",
+      "targetMeaningZh": "到很多不同地方;四處走動"
+    },
+    {
+      "id": "phrasal-verb-316-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The documents are safe in the locked drawer, but I need the key before I can reach them.",
+      "promptZh": "文件安全放在上鎖的抽屜裏,但我要有鎖匙才能拿到。",
+      "starter": "The",
+      "answer": "The documents are safe in the locked drawer, but I need the key before I can get at them.",
+      "answerZh": "文件安全放在上鎖的抽屜裏,但我要有鎖匙才能拿到。",
+      "highlight": "get at",
+      "targetForm": "get at somebody/something",
+      "targetMeaningZh": "接觸、拿到或到達某人或某物"
+    },
+    {
+      "id": "phrasal-verb-316-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If the team wants younger members, it needs to move away from the idea that every event must be formal.",
+      "promptZh": "如果團隊想吸引較年輕的成員,就需要擺脫每個活動都必須正式的想法。",
+      "starter": "If",
+      "answer": "If the team wants younger members, it needs to get away from the idea that every event must be formal.",
+      "answerZh": "如果團隊想吸引較年輕的成員,就需要擺脫每個活動都必須正式的想法。",
+      "highlight": "get",
+      "targetForm": "get away from something / get away from doing something",
+      "targetMeaningZh": "擺脫或不再依循某種做法、形象或習慣"
+    },
+    {
+      "id": "phrasal-verb-316-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Although she planned to arrive by six, traffic caused by roadworks delayed her on the way.",
+      "promptZh": "雖然她原本計劃六時前到達,但道路工程造成的交通擠塞令她途中受阻。",
+      "starter": "Although",
+      "answer": "Although she planned to arrive by six, she got hung up in traffic caused by roadworks on the way.",
+      "answerZh": "雖然她原本計劃六時前到達,但道路工程造成的交通擠塞令她途中受阻。",
+      "highlight": "she got hung up in",
+      "targetForm": "get hung up",
+      "targetMeaningZh": "因交通、排隊等事情受阻或延誤"
+    },
+    {
+      "id": "phrasal-verb-316-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The path was wet and steep, but the walkers eventually climbed all the way to the top.",
+      "promptZh": "小路又濕又陡,但遠足者最後仍爬到了頂部。",
+      "starter": "The",
+      "answer": "The path was wet and steep, but the walkers eventually got up to the top.",
+      "answerZh": "小路又濕又陡,但遠足者最後仍爬到了頂部。",
+      "highlight": "got up",
+      "targetForm": "get up / get up something",
+      "targetMeaningZh": "爬上或到達較高的位置"
+    },
+    {
+      "id": "phrasal-verb-316-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Although everyone is busy, we are trying to find an evening when we can all meet.",
+      "promptZh": "雖然大家都很忙,但我們正嘗試找一個晚上讓所有人聚一聚。",
+      "starter": "Although",
+      "answer": "Although everyone is busy, we are trying to find an evening when we can all get together.",
+      "answerZh": "雖然大家都很忙,但我們正嘗試找一個晚上讓所有人聚一聚。",
+      "highlight": "get together",
+      "targetForm": "get together (with somebody)",
+      "targetMeaningZh": "與某人見面聚一聚;相聚"
+    },
+    {
+      "id": "phrasal-verb-316-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "You have won one award, but do not start thinking you are more important than your friends.",
+      "promptZh": "你贏了一個獎項,但不要因此以為自己比朋友重要。",
+      "starter": "You",
+      "answer": "You have won one award, but don't get above yourself.",
+      "answerZh": "你贏了一個獎項,但不要因此以為自己比朋友重要。",
+      "highlight": "don't get above yourself",
+      "targetForm": "get above yourself",
+      "targetMeaningZh": "自以為比別人優越或重要;變得自大"
+    }
+  ]
+}

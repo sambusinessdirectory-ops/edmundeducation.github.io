@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-294",
+  "order": 294,
+  "slug": "sleep",
+  "version": "1",
+  "title": "SLEEP 動詞片語",
+  "titleEn": "Sleep",
+  "titleZh": "SLEEP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 279 - SLEEP.pdf",
+    "sourceNumber": 279,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SLEEP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SLEEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SLEEP",
+      "highlight": "SLEEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Sleep on it and tell me tomorrow.",
+      "zh": "先睡一晚想清楚,明天再告訴我。",
+      "highlight": "Sleep on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We slept out under the stars.",
+      "zh": "我們在星空下露宿。",
+      "highlight": "slept out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The children are sleeping over at their friends’ house.",
+      "zh": "孩子們今晚會在朋友家留宿。",
+      "highlight": "sleeping over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "先睡一晚,仔細考慮後才作決定；在戶外睡覺或過夜；在別人家留宿過夜；在某事發生期間一直睡着,沒有被吵醒；比平日遲起床;睡晚一點；透過睡眠讓不適或某種影響消退",
+    "en": "sleep on something; sleep out; sleep over; sleep through something; sleep in; sleep something off",
+    "naturalZh": [
+      "先睡一晚,仔細考慮後才作決定",
+      "在戶外睡覺或過夜",
+      "在別人家留宿過夜",
+      "在某事發生期間一直睡着,沒有被吵醒",
+      "比平日遲起床;睡晚一點",
+      "透過睡眠讓不適或某種影響消退"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sleep on something",
+      "titleZh": "先睡一晚,仔細考慮後才作決定",
+      "titleEn": "sleep on something",
+      "descriptionZh": "先睡一晚,仔細考慮後才作決定",
+      "descriptionEn": "Sleep on it and tell me tomorrow.",
+      "examples": [
+        {
+          "en": "Sleep on it and tell me tomorrow.",
+          "zh": "先睡一晚想清楚,明天再告訴我。",
+          "highlight": "Sleep on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sleep out",
+      "titleZh": "在戶外睡覺或過夜",
+      "titleEn": "sleep out",
+      "descriptionZh": "在戶外睡覺或過夜",
+      "descriptionEn": "We slept out under the stars.",
+      "examples": [
+        {
+          "en": "We slept out under the stars.",
+          "zh": "我們在星空下露宿。",
+          "highlight": "slept out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sleep over",
+      "titleZh": "在別人家留宿過夜",
+      "titleEn": "sleep over",
+      "descriptionZh": "在別人家留宿過夜",
+      "descriptionEn": "The children are sleeping over at their friends’ house.",
+      "examples": [
+        {
+          "en": "The children are sleeping over at their friends’ house.",
+          "zh": "孩子們今晚會在朋友家留宿。",
+          "highlight": "sleeping over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sleep through something",
+      "titleZh": "在某事發生期間一直睡着,沒有被吵醒",
+      "titleEn": "sleep through something",
+      "descriptionZh": "在某事發生期間一直睡着,沒有被吵醒",
+      "descriptionEn": "She slept through the thunderstorm.",
+      "examples": [
+        {
+          "en": "She slept through the thunderstorm.",
+          "zh": "她在整場雷暴期間一直睡着,沒有醒來。",
+          "highlight": "slept through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sleep in",
+      "titleZh": "比平日遲起床;睡晚一點",
+      "titleEn": "sleep in",
+      "descriptionZh": "比平日遲起床;睡晚一點",
+      "descriptionEn": "She usually sleeps in on Sundays.",
+      "examples": [
+        {
+          "en": "She usually sleeps in on Sundays.",
+          "zh": "她星期日通常會睡晚一點。",
+          "highlight": "sleeps in"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sleep something off",
+      "titleZh": "透過睡眠讓不適或某種影響消退",
+      "titleEn": "sleep something off",
+      "descriptionZh": "透過睡眠讓不適或某種影響消退",
+      "descriptionEn": "He is sleeping off yesterday’s hangover.",
+      "examples": [
+        {
+          "en": "He is sleeping off yesterday’s hangover.",
+          "zh": "他正在睡覺,希望消除昨天宿醉帶來的不適。",
+          "highlight": "sleeping off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SLEEP 片語動詞的實際用途",
+    "labelEn": "SLEEP Phrasal Verbs in Use",
+    "summaryZh": "sleep on something 可以表示你需要先睡一晚、仔細考慮,然後才作答。；sleep out 表示在戶外過夜;sleep over 則表示在別人家留宿。；sleep through something 表示某人在事情發生期間沒有醒來;sleep in 則表示某人比平日遲起床。；sleep something off 可以描述透過睡眠,讓頭痛、宿醉、時差反應或藥物影響逐漸消退。",
+    "summaryEn": "Sleep on something lets you say that you need a night to think carefully before answering. Sleep out describes spending the night outdoors, while sleep over describes staying at another person’s home. Sleep through something shows that a person did not wake during an event. Sleep in shows that a person woke later than usual. Sleep something off can describe sleeping until a headache, hangover, jet lag or the effects of medicine become weaker.",
+    "contextsZh": [
+      "讓自己在作決定前有時間考慮",
+      "清楚說明某人在甚麼地方過夜",
+      "描述不同的睡眠習慣和經歷",
+      "說明睡眠如何幫助不適消退"
+    ],
+    "contextsEn": [
+      "Give yourself time before making a decision",
+      "Talk clearly about where somebody spends the night",
+      "Describe different sleeping habits and experiences",
+      "Explain how sleep helps an unpleasant feeling disappear"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SLEEP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SLEEP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sleep on something",
+    "fixedHighlight": "sleep on something",
+    "fixedZh": "閱讀整句,選出意思相同的 SLEEP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SLEEP expression that gives the same meaning.",
+    "correct": "Sleep on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；sleep out 和 sleep over 表示在不同地方過夜:sleep out=在戶外過夜sleep over=在別人家留宿；使用代名詞時,請按照以上例子的語序。",
+    "variableEn": "Keep the same people, things, time and meaning. Sleep out and sleep over describe different places: sleep out = sleep outdoors sleep over = spend the night at another person’s home Follow the word order shown in these examples: sleep on it sleep through it sleep it off",
+    "variableItemsZh": [
+      "sleep on something",
+      "sleep out",
+      "sleep over",
+      "sleep through something",
+      "sleep in",
+      "sleep something off"
+    ],
+    "variableItemsEn": [
+      "sleep on something",
+      "sleep out",
+      "sleep over",
+      "sleep through something",
+      "sleep in",
+      "sleep something off"
+    ],
+    "forms": [
+      {
+        "formZh": "先睡一晚,仔細考慮後才作決定",
+        "formEn": "sleep on something",
+        "exampleZh": "先睡一晚想清楚,明天再告訴我。",
+        "exampleEn": "Sleep on it and tell me tomorrow.",
+        "highlight": "Sleep on"
+      },
+      {
+        "formZh": "在戶外睡覺或過夜",
+        "formEn": "sleep out",
+        "exampleZh": "我們在星空下露宿。",
+        "exampleEn": "We slept out under the stars.",
+        "highlight": "slept out"
+      },
+      {
+        "formZh": "在別人家留宿過夜",
+        "formEn": "sleep over",
+        "exampleZh": "孩子們今晚會在朋友家留宿。",
+        "exampleEn": "The children are sleeping over at their friends’ house.",
+        "highlight": "sleeping over"
+      },
+      {
+        "formZh": "在某事發生期間一直睡着,沒有被吵醒",
+        "formEn": "sleep through something",
+        "exampleZh": "她在整場雷暴期間一直睡着,沒有醒來。",
+        "exampleEn": "She slept through the thunderstorm.",
+        "highlight": "slept through"
+      },
+      {
+        "formZh": "比平日遲起床;睡晚一點",
+        "formEn": "sleep in",
+        "exampleZh": "她星期日通常會睡晚一點。",
+        "exampleEn": "She usually sleeps in on Sundays.",
+        "highlight": "sleeps in"
+      },
+      {
+        "formZh": "透過睡眠讓不適或某種影響消退",
+        "formEn": "sleep something off",
+        "exampleZh": "他正在睡覺,希望消除昨天宿醉帶來的不適。",
+        "exampleEn": "He is sleeping off yesterday’s hangover.",
+        "highlight": "sleeping off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "先睡一晚,仔細考慮後才作決定",
+      "titleEn": "sleep on something",
+      "formula": "sleep on something",
+      "highlight": "sleep on something",
+      "descriptionZh": "先睡一晚,仔細考慮後才作決定",
+      "descriptionEn": "Sleep on it and tell me tomorrow.",
+      "examples": [
+        {
+          "en": "Sleep on it and tell me tomorrow.",
+          "zh": "先睡一晚想清楚,明天再告訴我。",
+          "highlight": "Sleep on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在戶外睡覺或過夜",
+      "titleEn": "sleep out",
+      "formula": "sleep out",
+      "highlight": "sleep out",
+      "descriptionZh": "在戶外睡覺或過夜",
+      "descriptionEn": "We slept out under the stars.",
+      "examples": [
+        {
+          "en": "We slept out under the stars.",
+          "zh": "我們在星空下露宿。",
+          "highlight": "slept out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在別人家留宿過夜",
+      "titleEn": "sleep over",
+      "formula": "sleep over",
+      "highlight": "sleep over",
+      "descriptionZh": "在別人家留宿過夜",
+      "descriptionEn": "The children are sleeping over at their friends’ house.",
+      "examples": [
+        {
+          "en": "The children are sleeping over at their friends’ house.",
+          "zh": "孩子們今晚會在朋友家留宿。",
+          "highlight": "sleeping over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在某事發生期間一直睡着,沒有被吵醒",
+      "titleEn": "sleep through something",
+      "formula": "sleep through something",
+      "highlight": "sleep through something",
+      "descriptionZh": "在某事發生期間一直睡着,沒有被吵醒",
+      "descriptionEn": "She slept through the thunderstorm.",
+      "examples": [
+        {
+          "en": "She slept through the thunderstorm.",
+          "zh": "她在整場雷暴期間一直睡着,沒有醒來。",
+          "highlight": "slept through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "比平日遲起床;睡晚一點",
+      "titleEn": "sleep in",
+      "formula": "sleep in",
+      "highlight": "sleep in",
+      "descriptionZh": "比平日遲起床;睡晚一點",
+      "descriptionEn": "She usually sleeps in on Sundays.",
+      "examples": [
+        {
+          "en": "She usually sleeps in on Sundays.",
+          "zh": "她星期日通常會睡晚一點。",
+          "highlight": "sleeps in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "透過睡眠讓不適或某種影響消退",
+      "titleEn": "sleep something off",
+      "formula": "sleep something off",
+      "highlight": "sleep something off",
+      "descriptionZh": "透過睡眠讓不適或某種影響消退",
+      "descriptionEn": "He is sleeping off yesterday’s hangover.",
+      "examples": [
+        {
+          "en": "He is sleeping off yesterday’s hangover.",
+          "zh": "他正在睡覺,希望消除昨天宿醉帶來的不適。",
+          "highlight": "sleeping off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "讓自己在作決定前有時間考慮",
+      "titleEn": "Give yourself time before making a decision",
+      "zh": "sleep on something 可以表示你需要先睡一晚、仔細考慮,然後才作答。",
+      "en": "Sleep on something lets you say that you need a night to think carefully before answering."
+    },
+    {
+      "titleZh": "清楚說明某人在甚麼地方過夜",
+      "titleEn": "Talk clearly about where somebody spends the night",
+      "zh": "sleep out 表示在戶外過夜;sleep over 則表示在別人家留宿。",
+      "en": "Sleep out describes spending the night outdoors, while sleep over describes staying at another person’s home."
+    },
+    {
+      "titleZh": "描述不同的睡眠習慣和經歷",
+      "titleEn": "Describe different sleeping habits and experiences",
+      "zh": "sleep through something 表示某人在事情發生期間沒有醒來;sleep in 則表示某人比平日遲起床。",
+      "en": "Sleep through something shows that a person did not wake during an event. Sleep in shows that a person woke later than usual."
+    },
+    {
+      "titleZh": "說明睡眠如何幫助不適消退",
+      "titleEn": "Explain how sleep helps an unpleasant feeling disappear",
+      "zh": "sleep something off 可以描述透過睡眠,讓頭痛、宿醉、時差反應或藥物影響逐漸消退。",
+      "en": "Sleep something off can describe sleeping until a headache, hangover, jet lag or the effects of medicine become weaker."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "讓自己在作決定前有時間考慮",
+      "清楚說明某人在甚麼地方過夜",
+      "描述不同的睡眠習慣和經歷",
+      "說明睡眠如何幫助不適消退"
+    ],
+    "contextsEn": [
+      "Give yourself time before making a decision",
+      "Talk clearly about where somebody spends the night",
+      "Describe different sleeping habits and experiences",
+      "Explain how sleep helps an unpleasant feeling disappear"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "讓自己在作決定前有時間考慮",
+        "titleEn": "Give yourself time before making a decision",
+        "zh": "sleep on something 可以表示你需要先睡一晚、仔細考慮,然後才作答。",
+        "en": "Sleep on something lets you say that you need a night to think carefully before answering.",
+        "examples": [
+          {
+            "en": "Sleep on it and tell me tomorrow.",
+            "zh": "先睡一晚想清楚,明天再告訴我。",
+            "highlight": "Sleep on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明某人在甚麼地方過夜",
+        "titleEn": "Talk clearly about where somebody spends the night",
+        "zh": "sleep out 表示在戶外過夜;sleep over 則表示在別人家留宿。",
+        "en": "Sleep out describes spending the night outdoors, while sleep over describes staying at another person’s home.",
+        "examples": [
+          {
+            "en": "We slept out under the stars.",
+            "zh": "我們在星空下露宿。",
+            "highlight": "slept out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同的睡眠習慣和經歷",
+        "titleEn": "Describe different sleeping habits and experiences",
+        "zh": "sleep through something 表示某人在事情發生期間沒有醒來;sleep in 則表示某人比平日遲起床。",
+        "en": "Sleep through something shows that a person did not wake during an event. Sleep in shows that a person woke later than usual.",
+        "examples": [
+          {
+            "en": "The children are sleeping over at their friends’ house.",
+            "zh": "孩子們今晚會在朋友家留宿。",
+            "highlight": "sleeping over"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明睡眠如何幫助不適消退",
+        "titleEn": "Explain how sleep helps an unpleasant feeling disappear",
+        "zh": "sleep something off 可以描述透過睡眠,讓頭痛、宿醉、時差反應或藥物影響逐漸消退。",
+        "en": "Sleep something off can describe sleeping until a headache, hangover, jet lag or the effects of medicine become weaker.",
+        "examples": [
+          {
+            "en": "She slept through the thunderstorm.",
+            "zh": "她在整場雷暴期間一直睡着,沒有醒來。",
+            "highlight": "slept through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SLEEP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SLEEP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SLEEP 片語動詞。",
+      "en": "Read the whole sentence and choose the SLEEP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "sleep out 和 sleep over 表示在不同地方過夜:sleep out=在戶外過夜sleep over=在別人家留宿",
+      "titleEn": "Sleep out and sleep over describe different places: sleep out = sleep outdoors sleep over = spend the night at another person’s home.",
+      "zh": "sleep out 和 sleep over 表示在不同地方過夜:sleep out=在戶外過夜sleep over=在別人家留宿",
+      "en": "Sleep out and sleep over describe different places: sleep out = sleep outdoors sleep over = spend the night at another person’s home"
+    },
+    {
+      "titleZh": "使用代名詞時,請按照以上例子的語序。",
+      "titleEn": "Follow the word order shown in these examples: sleep on it sleep through it sleep it off.",
+      "zh": "使用代名詞時,請按照以上例子的語序。",
+      "en": "Follow the word order shown in these examples: sleep on it sleep through it sleep it off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SLEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SLEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SLEEP 動詞片語句子改寫練習",
+    "titleEn": "SLEEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SLEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SLEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-294-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I need one night to think about the offer before I decide.",
+      "promptZh": "我需要一晚時間考慮這項提議,然後才作決定。",
+      "starter": "I",
+      "answer": "I need to sleep on the offer before I decide.",
+      "answerZh": "我需要先睡一晚,想清楚這項提議後才作決定。",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The baby did not wake during the thunderstorm.",
+      "promptZh": "嬰兒在雷暴期間沒有醒來。",
+      "starter": "The",
+      "answer": "The baby slept through the thunderstorm.",
+      "answerZh": "嬰兒在整場雷暴期間一直睡着,沒有醒來。",
+      "highlight": "slept through",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "She usually wakes later than normal on Sundays.",
+      "promptZh": "她星期日通常比平日遲起床。",
+      "starter": "She",
+      "answer": "She usually sleeps in on Sundays.",
+      "answerZh": "她星期日通常會睡晚一點。",
+      "highlight": "sleeps in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The children are spending the night at their friends’ house.",
+      "promptZh": "孩子們今晚會在朋友家過夜。",
+      "starter": "The",
+      "answer": "The children are sleeping over at their friends’ house.",
+      "answerZh": "孩子們今晚會在朋友家留宿。",
+      "highlight": "sleeping over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He is still asleep because he is trying to recover from yesterday’s hangover.",
+      "promptZh": "他仍在睡覺,希望消除昨天宿醉帶來的不適。",
+      "starter": "He",
+      "answer": "He is still sleeping off yesterday’s hangover.",
+      "answerZh": "他仍在睡覺,希望消除昨天宿醉帶來的不適。",
+      "highlight": "sleeping off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We slept outside most nights when we were in Greece.",
+      "promptZh": "我們在希臘時,大部分晚上都在戶外睡覺。",
+      "starter": "We",
+      "answer": "We slept out most nights when we were in Greece.",
+      "answerZh": "我們在希臘時,大部分晚上都在戶外過夜。",
+      "highlight": "slept out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nina did not wake when the alarm rang.",
+      "promptZh": "鬧鐘響起時,妮娜沒有醒來。",
+      "starter": "Nina",
+      "answer": "Nina slept through the alarm.",
+      "answerZh": "妮娜一直睡着,連鬧鐘響了也沒有醒來。",
+      "highlight": "slept through",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Think about it overnight and tell me your answer tomorrow.",
+      "promptZh": "先用一晚時間想清楚,明天再告訴我你的答案。",
+      "starter": "Sleep",
+      "answer": "Sleep on it and tell me your answer tomorrow.",
+      "answerZh": "先睡一晚想清楚,明天再告訴我你的答案。",
+      "highlight": "Sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Can I spend the night at Eva’s house?",
+      "promptZh": "我可以在伊娃家過夜嗎?",
+      "starter": "Can",
+      "answer": "Can I sleep over at Eva’s house?",
+      "answerZh": "我可以在伊娃家留宿嗎?",
+      "highlight": "sleep over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I plan to wake later than usual tomorrow morning.",
+      "promptZh": "我打算明早比平日遲起床。",
+      "starter": "I",
+      "answer": "I plan to sleep in tomorrow morning.",
+      "answerZh": "我打算明早睡晚一點。",
+      "highlight": "sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The campers spent the night outside under the stars.",
+      "promptZh": "露營者在星空下的戶外過夜。",
+      "starter": "The",
+      "answer": "The campers slept out under the stars.",
+      "answerZh": "露營者在星空下露宿。",
+      "highlight": "slept out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Sam tried to make his headache go away by sleeping.",
+      "promptZh": "森姆嘗試透過睡覺令頭痛消退。",
+      "starter": "Sam",
+      "answer": "Sam tried to sleep off his headache.",
+      "answerZh": "森姆嘗試睡一覺,讓頭痛消退。",
+      "highlight": "sleep off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Leo is spending the night at his cousin’s house tonight.",
+      "promptZh": "里奧今晚會在表親家過夜。",
+      "starter": "Leo",
+      "answer": "Leo is sleeping over at his cousin’s house tonight.",
+      "answerZh": "里奧今晚會在表親家留宿。",
+      "highlight": "sleeping over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Because tomorrow is a holiday, we can wake later than usual.",
+      "promptZh": "因為明天是假期,所以我們可以比平日遲起床。",
+      "starter": "Because",
+      "answer": "Because tomorrow is a holiday, we can sleep in.",
+      "answerZh": "因為明天是假期,所以我們可以睡晚一點。",
+      "highlight": "sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Have you thought about the job offer overnight?",
+      "promptZh": "你有沒有用一晚時間考慮那份工作邀請?",
+      "starter": "Have",
+      "answer": "Have you slept on the job offer?",
+      "answerZh": "你有沒有先睡一晚,仔細考慮那份工作邀請?",
+      "highlight": "slept on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The medicine made Aria very sleepy, and she is now sleeping until that feeling goes away.",
+      "promptZh": "藥物令艾莉亞非常睏倦,她現在正睡覺,等那種感覺消退。",
+      "starter": "The",
+      "answer": "The medicine made Aria very sleepy, and she is now sleeping it off.",
+      "answerZh": "藥物令艾莉亞非常睏倦,她現在正睡覺,讓那種感覺消退。",
+      "highlight": "sleeping it off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "If the night stays warm, we will sleep outside.",
+      "promptZh": "如果今晚仍然溫暖,我們會在戶外睡覺。",
+      "starter": "If",
+      "answer": "If the night stays warm, we will sleep out.",
+      "answerZh": "如果今晚仍然溫暖,我們會在戶外過夜。",
+      "highlight": "sleep out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "How did Ben remain asleep during the fireworks?",
+      "promptZh": "煙花燃放期間,賓怎會仍一直睡着?",
+      "starter": "How",
+      "answer": "How did Ben sleep through the fireworks?",
+      "answerZh": "煙花燃放期間,賓怎會仍一直睡着?",
+      "highlight": "sleep through",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "During the school holiday, Ava has often woken later than usual.",
+      "promptZh": "學校假期期間,艾娃經常比平日遲起床。",
+      "starter": "During",
+      "answer": "During the school holiday, Ava has often slept in.",
+      "answerZh": "學校假期期間,艾娃經常睡晚一點。",
+      "highlight": "slept in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did Tom spend the night at your house after the party?",
+      "promptZh": "派對結束後,湯姆有在你家過夜嗎?",
+      "starter": "Did",
+      "answer": "Did Tom sleep over at your house after the party?",
+      "answerZh": "派對結束後,湯姆有在你家留宿嗎?",
+      "highlight": "sleep over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Although the neighbours were noisy, Dad continued sleeping until morning.",
+      "promptZh": "雖然鄰居很嘈吵,爸爸仍一直睡到早上。",
+      "starter": "Although",
+      "answer": "Although the neighbours were noisy, Dad slept through the noise until morning.",
+      "answerZh": "雖然鄰居很嘈吵,爸爸仍在噪音中一直睡到早上。",
+      "highlight": "slept through the noise",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We are spending tonight outside beside the lake.",
+      "promptZh": "我們今晚會在湖邊的戶外過夜。",
+      "starter": "We",
+      "answer": "We are sleeping out beside the lake tonight.",
+      "answerZh": "我們今晚會在湖邊露宿。",
+      "highlight": "sleeping out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "By noon, he had recovered from most of the jet lag by sleeping.",
+      "promptZh": "到了中午,他已透過睡覺消除了大部分時差反應。",
+      "starter": "By",
+      "answer": "By noon, he had slept off most of the jet lag.",
+      "answerZh": "到了中午,他已透過睡眠消除了大部分時差反應。",
+      "highlight": "slept off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She will think about the idea overnight before giving us an answer.",
+      "promptZh": "她會用一晚時間考慮這個構思,然後才答覆我們。",
+      "starter": "She",
+      "answer": "She will sleep on the idea before giving us an answer.",
+      "answerZh": "她會先睡一晚,仔細考慮這個構思,然後才答覆我們。",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The storm was very loud, but the children did not wake.",
+      "promptZh": "風暴非常嘈吵,但孩子們沒有醒來。",
+      "starter": "The",
+      "answer": "The storm was very loud, but the children slept through it.",
+      "answerZh": "風暴非常嘈吵,但孩子們仍一直睡着,沒有醒來。",
+      "highlight": "slept through it",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We had no tent, so we spent the night outside on the beach.",
+      "promptZh": "我們沒有帳篷,所以在沙灘的戶外過夜。",
+      "starter": "We",
+      "answer": "We had no tent, so we slept out on the beach.",
+      "answerZh": "我們沒有帳篷,所以在沙灘露宿。",
+      "highlight": "slept out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The cold medicine made him sleepy. Let him sleep until the effect has gone.",
+      "promptZh": "傷風藥令他感到睏倦。讓他睡覺,直至藥力消退吧。",
+      "starter": "The",
+      "answer": "The cold medicine made him sleepy. Let him sleep it off.",
+      "answerZh": "傷風藥令他感到睏倦。讓他睡一覺,直至藥力消退吧。",
+      "highlight": "sleep it off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The manager asked for one more night to think about the plan.",
+      "promptZh": "經理要求多一晚時間考慮這項計劃。",
+      "starter": "The",
+      "answer": "The manager asked for one more night to sleep on the plan.",
+      "answerZh": "經理要求多一晚時間考慮這項計劃。",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After the film night, three classmates spent the night at our house.",
+      "promptZh": "電影之夜結束後,三名同學在我們家過夜。",
+      "starter": "After",
+      "answer": "After the film night, three classmates slept over at our house.",
+      "answerZh": "電影之夜結束後,三名同學在我們家留宿。",
+      "highlight": "slept over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We did not have to leave early, so Mum allowed us to wake later than usual.",
+      "promptZh": "我們不用一早離開,所以媽媽准許我們遲一點起床。",
+      "starter": "We",
+      "answer": "We did not have to leave early, so Mum allowed us to sleep in.",
+      "answerZh": "我們不用一早離開,所以媽媽准許我們睡晚一點。",
+      "highlight": "sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Before saying no, why not think about it overnight?",
+      "promptZh": "在拒絕之前,何不先用一晚時間想清楚?",
+      "starter": "Before",
+      "answer": "Before saying no, why not sleep on it?",
+      "answerZh": "在拒絕之前,何不先睡一晚想清楚?",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Our alarm rang several times, but we did not wake.",
+      "promptZh": "我們的鬧鐘響了幾次,但我們沒有醒來。",
+      "starter": "Our",
+      "answer": "Our alarm rang several times, but we slept through it.",
+      "answerZh": "我們的鬧鐘響了幾次,但我們仍一直睡着。",
+      "highlight": "slept through it",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The garden was dry and warm. The children decided to spend the night outside there.",
+      "promptZh": "花園乾爽又溫暖。孩子們決定在那裏的戶外過夜。",
+      "starter": "The",
+      "answer": "The garden was dry and warm. The children decided to sleep out there.",
+      "answerZh": "花園乾爽又溫暖。孩子們決定在那裏露宿。",
+      "highlight": "sleep out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the party, Jordan went to bed and slept until his hangover had gone.",
+      "promptZh": "派對結束後,佐敦上床睡覺,直至宿醉消退。",
+      "starter": "After",
+      "answer": "After the party, Jordan went to bed to sleep off his hangover.",
+      "answerZh": "派對結束後,佐敦上床睡覺,希望睡一覺消除宿醉帶來的不適。",
+      "highlight": "to sleep off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Although Priya planned to wake late, the dog made noise at six.",
+      "promptZh": "雖然普里雅打算遲起床,但那隻狗在六時發出聲響。",
+      "starter": "Although",
+      "answer": "Although Priya planned to sleep in, the dog made noise at six.",
+      "answerZh": "雖然普里雅打算睡晚一點,但那隻狗在六時發出聲響。",
+      "highlight": "sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Nora missed the last bus, so her friend let her spend the night.",
+      "promptZh": "諾拉錯過了尾班巴士,所以朋友讓她留下過夜。",
+      "starter": "Nora",
+      "answer": "Nora missed the last bus, so her friend let her sleep over.",
+      "answerZh": "諾拉錯過了尾班巴士,所以朋友讓她留宿。",
+      "highlight": "sleep over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Owen chose not to set an early alarm because he wanted a late morning.",
+      "promptZh": "歐文選擇不設定早起鬧鐘,因為他想遲一點起床。",
+      "starter": "Owen",
+      "answer": "Owen chose not to set an early alarm because he wanted to sleep in.",
+      "answerZh": "歐文選擇不設定早起鬧鐘,因為他想睡晚一點。",
+      "highlight": "to sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The price is high, so I do not want to decide until I have thought about it overnight.",
+      "promptZh": "價錢很高,所以我想先用一晚時間考慮,然後才作決定。",
+      "starter": "The",
+      "answer": "The price is high, so I do not want to decide until I have slept on it.",
+      "answerZh": "價錢很高,所以我想先用一晚時間考慮,然後才作決定。",
+      "highlight": "slept on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Spending the night at their grandparents’ house gave the cousins more time together.",
+      "promptZh": "在祖父母家過夜,令幾位表兄弟姊妹有更多時間相處。",
+      "starter": "Sleeping",
+      "answer": "Sleeping over at their grandparents’ house gave the cousins more time together.",
+      "answerZh": "在祖父母家留宿,令幾位表兄弟姊妹有更多時間相處。",
+      "highlight": "Sleeping over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Remaining asleep while the station was so noisy surprised Sara’s friends.",
+      "promptZh": "車站那麼嘈吵,莎拉仍一直睡着,令朋友們很驚訝。",
+      "starter": "Sleeping",
+      "answer": "Sleeping through all the noise at the station surprised Sara’s friends.",
+      "answerZh": "莎拉在車站的所有噪音中仍一直睡着,令朋友們很驚訝。",
+      "highlight": "Sleeping through all the noise at",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Spending the night outdoors was the best part of the camping trip.",
+      "promptZh": "在戶外過夜是這次露營旅程最精彩的部分。",
+      "starter": "Sleeping",
+      "answer": "Sleeping out was the best part of the camping trip.",
+      "answerZh": "露宿是這次露營旅程最精彩的部分。",
+      "highlight": "Sleeping out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The tablets made him feel sleepy, so he slept until their effects had gone.",
+      "promptZh": "藥丸令他感到睏倦,所以他一直睡到藥力消退。",
+      "starter": "The",
+      "answer": "The tablets made him feel sleepy, so he slept off their effects.",
+      "answerZh": "藥丸令他感到睏倦,所以他睡了一覺,讓藥力消退。",
+      "highlight": "slept off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Would you like to spend the night at our house after the birthday meal?",
+      "promptZh": "生日飯聚後,你想在我們家過夜嗎?",
+      "starter": "Would",
+      "answer": "Would you like to sleep over at our house after the birthday meal?",
+      "answerZh": "生日飯聚後,你想在我們家留宿嗎?",
+      "highlight": "sleep over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Since the exams ended, the students have been waking much later each morning.",
+      "promptZh": "考試結束後,學生每天早上都遲了很多才起床。",
+      "starter": "Since",
+      "answer": "Since the exams ended, the students have been sleeping in each morning.",
+      "answerZh": "考試結束後,學生每天早上都睡得較晚。",
+      "highlight": "sleeping in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I cannot drive yet; I need more sleep until the medicine no longer affects me.",
+      "promptZh": "我現在還不能駕駛;我需要再睡一會,直至藥物不再影響我。",
+      "starter": "I",
+      "answer": "I cannot drive yet; I need to sleep off the effects of the medicine.",
+      "answerZh": "我現在還不能駕駛;我需要再睡一會,讓藥物的影響消退。",
+      "highlight": "to",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After thinking about it overnight, I realised the cheaper plan was better.",
+      "promptZh": "經過一晚考慮後,我發現較便宜的計劃更好。",
+      "starter": "After",
+      "answer": "After sleeping on it, I realised the cheaper plan was better.",
+      "answerZh": "先睡一晚仔細考慮後,我發現較便宜的計劃更好。",
+      "highlight": "sleeping on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Why did Ella not wake when the baby cried several times?",
+      "promptZh": "嬰兒哭了幾次,埃拉為甚麼仍沒有醒來?",
+      "starter": "Why",
+      "answer": "Why did Ella sleep through the baby’s cries?",
+      "answerZh": "嬰兒哭了幾次,埃拉為甚麼仍一直睡着?",
+      "highlight": "sleep through",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Even without tents, the hikers were happy to spend another night outside.",
+      "promptZh": "即使沒有帳篷,遠足者仍樂意再在戶外過一晚。",
+      "starter": "Even",
+      "answer": "Even without tents, the hikers were happy to sleep out for another night.",
+      "answerZh": "即使沒有帳篷,遠足者仍樂意再露宿一晚。",
+      "highlight": "sleep out for",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After the long flight, the children went straight to bed to recover from the jet lag by sleeping.",
+      "promptZh": "長途飛行後,孩子們立即上床睡覺,希望透過睡眠消除時差反應。",
+      "starter": "After",
+      "answer": "After the long flight, the children went straight to bed to sleep off the jet lag.",
+      "answerZh": "長途飛行後,孩子們立即上床睡覺,希望透過睡眠消除時差反應。",
+      "highlight": "sleep off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The music was loud enough to wake everyone else, yet Alex remained asleep until it ended.",
+      "promptZh": "音樂聲大得足以吵醒其他所有人,但亞歷克斯仍一直睡到音樂結束。",
+      "starter": "The",
+      "answer": "The music was loud enough to wake everyone else, yet Alex slept through it.",
+      "answerZh": "音樂聲大得足以吵醒其他所有人,但亞歷克斯仍一直睡着。",
+      "highlight": "slept through",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the sky was clear and the air was warm, the group chose to spend the night outdoors.",
+      "promptZh": "因為天空晴朗,天氣溫暖,這群人選擇在戶外過夜。",
+      "starter": "Because",
+      "answer": "Because the sky was clear and the air was warm, the group chose to sleep out.",
+      "answerZh": "因為天空晴朗,天氣溫暖,這群人選擇露宿。",
+      "highlight": "sleep out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The final bus had already left, and the roads were wet, so Kai spent the night at a friend’s house.",
+      "promptZh": "尾班巴士已經開走,路面又濕滑,所以啟在朋友家過夜。",
+      "starter": "The",
+      "answer": "The final bus had already left, and the roads were wet, so Kai slept over at a friend’s house.",
+      "answerZh": "尾班巴士已經開走,路面又濕滑,所以啟在朋友家留宿。",
+      "highlight": "slept over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Could we think about their offer overnight before deciding tomorrow?",
+      "promptZh": "我們可以先用一晚時間考慮他們的提議,明天才作決定嗎?",
+      "starter": "Could",
+      "answer": "Could we sleep on their offer before deciding tomorrow?",
+      "answerZh": "我們可以先睡一晚,仔細考慮他們的提議,明天才作決定嗎?",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    },
+    {
+      "id": "phrasal-verb-294-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "On her first free Saturday in weeks, Lina turned off every alarm and woke at eleven.",
+      "promptZh": "在幾星期以來首個有空的星期六,莉娜關掉所有鬧鐘,並在十一時才起床。",
+      "starter": "On",
+      "answer": "On her first free Saturday in weeks, Lina slept in until eleven.",
+      "answerZh": "在幾星期以來首個有空的星期六,莉娜睡到十一時才起床。",
+      "highlight": "slept in until",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The thunder shook the windows, but none of the children woke during the storm.",
+      "promptZh": "雷聲震動窗戶,但沒有一個孩子在風暴期間醒來。",
+      "starter": "The",
+      "answer": "The thunder shook the windows, but all the children slept through the storm.",
+      "answerZh": "雷聲震動窗戶,但所有孩子在整場風暴期間仍一直睡着。",
+      "highlight": "all",
+      "targetForm": "sleep through something",
+      "targetMeaningZh": "在某事發生期間一直睡着,沒有被吵醒"
+    },
+    {
+      "id": "phrasal-verb-294-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The doctor said the medicine might make him sleepy, so he stayed in bed until the effect had gone.",
+      "promptZh": "醫生說藥物可能令他睏倦,所以他留在床上休息,直至藥力消退。",
+      "starter": "The",
+      "answer": "The doctor said the medicine might make him sleepy, so he stayed in bed to sleep it off.",
+      "answerZh": "醫生說藥物可能令他睏倦,所以他留在床上睡覺,讓藥力消退。",
+      "highlight": "to sleep it off",
+      "targetForm": "sleep something off",
+      "targetMeaningZh": "透過睡眠讓不適或某種影響消退"
+    },
+    {
+      "id": "phrasal-verb-294-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After the school show, two friends stayed at Ruby’s house for the night and returned home in the morning.",
+      "promptZh": "學校表演結束後,兩名朋友在露比家過夜,早上才回家。",
+      "starter": "After",
+      "answer": "After the school show, two friends slept over at Ruby’s house and returned home in the morning.",
+      "answerZh": "學校表演結束後,兩名朋友在露比家留宿,早上才回家。",
+      "highlight": "slept over",
+      "targetForm": "sleep over",
+      "targetMeaningZh": "在別人家留宿過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We could see the stars clearly, so we chose to spend the night outside.",
+      "promptZh": "我們可以清楚看見星星,所以選擇在戶外過夜。",
+      "starter": "We",
+      "answer": "We could see the stars clearly, so we chose to sleep out.",
+      "answerZh": "我們可以清楚看見星星,所以選擇露宿。",
+      "highlight": "sleep out",
+      "targetForm": "sleep out",
+      "targetMeaningZh": "在戶外睡覺或過夜"
+    },
+    {
+      "id": "phrasal-verb-294-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Why set the alarm for six when we are free to wake later tomorrow?",
+      "promptZh": "既然我們明天可以遲起床,為甚麼要把鬧鐘設定在六時?",
+      "starter": "Why",
+      "answer": "Why set the alarm for six when we are free to sleep in tomorrow?",
+      "answerZh": "既然我們明天可以睡晚一點,為甚麼要把鬧鐘設定在六時?",
+      "highlight": "sleep in",
+      "targetForm": "sleep in",
+      "targetMeaningZh": "比平日遲起床;睡晚一點"
+    },
+    {
+      "id": "phrasal-verb-294-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "They did not answer at once. They wanted a night to think carefully about the proposal.",
+      "promptZh": "他們沒有立即回答。他們想用一晚時間仔細考慮這項提議。",
+      "starter": "They",
+      "answer": "They did not answer at once. They wanted to sleep on the proposal.",
+      "answerZh": "他們沒有立即回答。他們想先睡一晚,仔細考慮這項提議。",
+      "highlight": "sleep on",
+      "targetForm": "sleep on something",
+      "targetMeaningZh": "先睡一晚,再仔細考慮後作決定"
+    }
+  ]
+}

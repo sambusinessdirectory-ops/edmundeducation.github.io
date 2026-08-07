@@ -1,0 +1,1765 @@
+{
+  "id": "phrasal-verb-280",
+  "order": 280,
+  "slug": "screw",
+  "version": "1",
+  "title": "SCREW 動詞片語",
+  "titleEn": "Screw",
+  "titleZh": "SCREW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 265 - SCREW.pdf",
+    "sourceNumber": 265,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SCREW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SCREW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SCREW",
+      "highlight": "SCREW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Stop screwing around and finish the job.",
+      "zh": "不要再胡鬧,完成這項工作。",
+      "highlight": "screwing around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please screw the lid down firmly.",
+      "zh": "請把蓋子牢牢固定好。",
+      "highlight": "screw the lid down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She screwed the cap onto the bottle.",
+      "zh": "她把瓶蓋旋上瓶子。",
+      "highlight": "screwed the cap onto",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "胡鬧;浪費時間;不認真做應做的事情；把某物牢牢固定,使它不能移動或掀起；把蓋子或零件旋上;把某物旋接到另一物上；以不誠實手段騙走某人的金錢、權利或應得的東西；以強大壓力或威脅迫使某人交出或說出某事物；犯錯;把事情做壞或弄糟；鼓起勇氣,迫使自己勇敢地做某事；令某人受到很深的心理影響,使其長期感到困惑或難以應付生活；把紙揉皺並弄成一團",
+    "en": "screw around; screw something down; screw something on / screw something onto something; screw somebody out of something; screw something out of somebody; screw up / screw something up; screw up your courage; screw somebody up; screw something up",
+    "naturalZh": [
+      "胡鬧;浪費時間;不認真做應做的事情",
+      "把某物牢牢固定,使它不能移動或掀起",
+      "把蓋子或零件旋上;把某物旋接到另一物上",
+      "以不誠實手段騙走某人的金錢、權利或應得的東西",
+      "以強大壓力或威脅迫使某人交出或說出某事物",
+      "犯錯;把事情做壞或弄糟",
+      "鼓起勇氣,迫使自己勇敢地做某事",
+      "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+      "把紙揉皺並弄成一團"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "screw around",
+      "titleZh": "胡鬧;浪費時間;不認真做應做的事情",
+      "titleEn": "screw around",
+      "descriptionZh": "胡鬧;浪費時間;不認真做應做的事情",
+      "descriptionEn": "Stop screwing around and finish the job.",
+      "examples": [
+        {
+          "en": "Stop screwing around and finish the job.",
+          "zh": "不要再胡鬧,完成這項工作。",
+          "highlight": "screwing around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "screw something down",
+      "titleZh": "把某物牢牢固定,使它不能移動或掀起",
+      "titleEn": "screw something down",
+      "descriptionZh": "把某物牢牢固定,使它不能移動或掀起",
+      "descriptionEn": "Please screw the lid down firmly.",
+      "examples": [
+        {
+          "en": "Please screw the lid down firmly.",
+          "zh": "請把蓋子牢牢固定好。",
+          "highlight": "screw the lid down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "screw something on / screw something onto something",
+      "titleZh": "把蓋子或零件旋上;把某物旋接到另一物上",
+      "titleEn": "screw something on / screw something onto something",
+      "descriptionZh": "把蓋子或零件旋上;把某物旋接到另一物上",
+      "descriptionEn": "She screwed the cap onto the bottle.",
+      "examples": [
+        {
+          "en": "She screwed the cap onto the bottle.",
+          "zh": "她把瓶蓋旋上瓶子。",
+          "highlight": "screwed the cap onto"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "screw somebody out of something",
+      "titleZh": "以不誠實手段騙走某人的金錢、權利或應得的東西",
+      "titleEn": "screw somebody out of something",
+      "descriptionZh": "以不誠實手段騙走某人的金錢、權利或應得的東西",
+      "descriptionEn": "The seller screwed him out of his refund.",
+      "examples": [
+        {
+          "en": "The seller screwed him out of his refund.",
+          "zh": "賣家騙走了他應得的退款。",
+          "highlight": "screwed him out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "screw something out of somebody",
+      "titleZh": "以強大壓力或威脅迫使某人交出或說出某事物",
+      "titleEn": "screw something out of somebody",
+      "descriptionZh": "以強大壓力或威脅迫使某人交出或說出某事物",
+      "descriptionEn": "They screwed the truth out of him.",
+      "examples": [
+        {
+          "en": "They screwed the truth out of him.",
+          "zh": "他們迫使他說出真相。",
+          "highlight": "screwed the truth out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "screw up / screw something up",
+      "titleZh": "犯錯;把事情做壞或弄糟",
+      "titleEn": "screw up / screw something up",
+      "descriptionZh": "犯錯;把事情做壞或弄糟",
+      "descriptionEn": "I tried to help, but I screwed up.",
+      "examples": [
+        {
+          "en": "I tried to help, but I screwed up.",
+          "zh": "我本來想幫忙,卻把事情弄糟了。",
+          "highlight": "screwed up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "screw up your courage",
+      "titleZh": "鼓起勇氣,迫使自己勇敢地做某事",
+      "titleEn": "screw up your courage",
+      "descriptionZh": "鼓起勇氣,迫使自己勇敢地做某事",
+      "descriptionEn": "She screwed up her courage and went inside.",
+      "examples": [
+        {
+          "en": "She screwed up her courage and went inside.",
+          "zh": "她鼓起勇氣走了進去。",
+          "highlight": "screwed up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "screw somebody up",
+      "titleZh": "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+      "titleEn": "screw somebody up",
+      "descriptionZh": "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+      "descriptionEn": "The experience really screwed him up.",
+      "examples": [
+        {
+          "en": "The experience really screwed him up.",
+          "zh": "那次經歷令他受到很深的心理影響。",
+          "highlight": "screwed him up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "screw something up",
+      "titleZh": "把紙揉皺並弄成一團",
+      "titleEn": "screw something up",
+      "descriptionZh": "把紙揉皺並弄成一團",
+      "descriptionEn": "He screwed the letter up and threw it away.",
+      "examples": [
+        {
+          "en": "He screwed the letter up and threw it away.",
+          "zh": "他把信揉成一團後丟掉。",
+          "highlight": "screwed the letter up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SCREW 片語動詞的實際用途",
+    "labelEn": "SCREW Phrasal Verbs in Use",
+    "summaryZh": "screw down、screw on 和 screw onto 可以幫助你描述蓋子、保護蓋、手柄和其他零件如何固定。；screw up 可以描述犯錯或把計劃弄糟;screw around 則可以描述有人不工作,只顧胡鬧浪費時間。；screw somebody out of something 表示某人被騙走東西;screw something out of somebody 則表示有人在壓力或威脅下被迫交出某物。；screw up your courage 表示迫使自己鼓起勇氣行動;screw somebody up 則描述較嚴重而持久的心理影響。",
+    "summaryEn": "Screw down, screw on and screw onto help you give practical instructions about lids, covers, handles and other parts. Screw up can describe a mistake or a spoiled plan, while screw around can describe people who are wasting time instead of working. Screw somebody out of something shows that someone was cheated. Screw something out of somebody shows that pressure or threats were used to obtain something. Screw up your courage describes making yourself brave enough to act. Screw somebody up describes a much more serious and lasting emotional effect.",
+    "contextsZh": [
+      "使用 SCREW 描述物件如何固定或接合",
+      "自然談論錯誤和浪費時間",
+      "描述不公平的欺騙和強迫",
+      "表達鼓起勇氣和嚴重的情緒影響"
+    ],
+    "contextsEn": [
+      "Use SCREW to describe how things are fixed together",
+      "Talk naturally about mistakes and wasted time",
+      "Describe unfair treatment and strong pressure",
+      "Express courage and serious emotional effects"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SCREW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SCREW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "screw around",
+    "fixedHighlight": "screw around",
+    "fixedZh": "閱讀整句,選出意思相同的 SCREW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SCREW expression that gives the same meaning.",
+    "correct": "screwing around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；部分非實物用法的 SCREW 表達較為口語,主要用於日常對話。在本練習中,screw around 表示「浪費時間或胡鬧」。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: screw it down screw it on screw him up screw it up Several non-physical SCREW expressions are informal and are mainly used in conversation. In this exercise, screw around means “waste time or behave foolishly”.",
+    "variableItemsZh": [
+      "screw around",
+      "screw something down",
+      "screw something on / screw something onto something",
+      "screw somebody out of something",
+      "screw something out of somebody",
+      "screw up / screw something up",
+      "screw up your courage",
+      "screw somebody up",
+      "screw something up"
+    ],
+    "variableItemsEn": [
+      "screw around",
+      "screw something down",
+      "screw something on / screw something onto something",
+      "screw somebody out of something",
+      "screw something out of somebody",
+      "screw up / screw something up",
+      "screw up your courage",
+      "screw somebody up",
+      "screw something up"
+    ],
+    "forms": [
+      {
+        "formZh": "胡鬧;浪費時間;不認真做應做的事情",
+        "formEn": "screw around",
+        "exampleZh": "不要再胡鬧,完成這項工作。",
+        "exampleEn": "Stop screwing around and finish the job.",
+        "highlight": "screwing around"
+      },
+      {
+        "formZh": "把某物牢牢固定,使它不能移動或掀起",
+        "formEn": "screw something down",
+        "exampleZh": "請把蓋子牢牢固定好。",
+        "exampleEn": "Please screw the lid down firmly.",
+        "highlight": "screw the lid down"
+      },
+      {
+        "formZh": "把蓋子或零件旋上;把某物旋接到另一物上",
+        "formEn": "screw something on / screw something onto something",
+        "exampleZh": "她把瓶蓋旋上瓶子。",
+        "exampleEn": "She screwed the cap onto the bottle.",
+        "highlight": "screwed the cap onto"
+      },
+      {
+        "formZh": "以不誠實手段騙走某人的金錢、權利或應得的東西",
+        "formEn": "screw somebody out of something",
+        "exampleZh": "賣家騙走了他應得的退款。",
+        "exampleEn": "The seller screwed him out of his refund.",
+        "highlight": "screwed him out"
+      },
+      {
+        "formZh": "以強大壓力或威脅迫使某人交出或說出某事物",
+        "formEn": "screw something out of somebody",
+        "exampleZh": "他們迫使他說出真相。",
+        "exampleEn": "They screwed the truth out of him.",
+        "highlight": "screwed the truth out"
+      },
+      {
+        "formZh": "犯錯;把事情做壞或弄糟",
+        "formEn": "screw up / screw something up",
+        "exampleZh": "我本來想幫忙,卻把事情弄糟了。",
+        "exampleEn": "I tried to help, but I screwed up.",
+        "highlight": "screwed up"
+      },
+      {
+        "formZh": "鼓起勇氣,迫使自己勇敢地做某事",
+        "formEn": "screw up your courage",
+        "exampleZh": "她鼓起勇氣走了進去。",
+        "exampleEn": "She screwed up her courage and went inside.",
+        "highlight": "screwed up"
+      },
+      {
+        "formZh": "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+        "formEn": "screw somebody up",
+        "exampleZh": "那次經歷令他受到很深的心理影響。",
+        "exampleEn": "The experience really screwed him up.",
+        "highlight": "screwed him up"
+      },
+      {
+        "formZh": "把紙揉皺並弄成一團",
+        "formEn": "screw something up",
+        "exampleZh": "他把信揉成一團後丟掉。",
+        "exampleEn": "He screwed the letter up and threw it away.",
+        "highlight": "screwed the letter up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "胡鬧;浪費時間;不認真做應做的事情",
+      "titleEn": "screw around",
+      "formula": "screw around",
+      "highlight": "screw around",
+      "descriptionZh": "胡鬧;浪費時間;不認真做應做的事情",
+      "descriptionEn": "Stop screwing around and finish the job.",
+      "examples": [
+        {
+          "en": "Stop screwing around and finish the job.",
+          "zh": "不要再胡鬧,完成這項工作。",
+          "highlight": "screwing around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某物牢牢固定,使它不能移動或掀起",
+      "titleEn": "screw something down",
+      "formula": "screw something down",
+      "highlight": "screw something down",
+      "descriptionZh": "把某物牢牢固定,使它不能移動或掀起",
+      "descriptionEn": "Please screw the lid down firmly.",
+      "examples": [
+        {
+          "en": "Please screw the lid down firmly.",
+          "zh": "請把蓋子牢牢固定好。",
+          "highlight": "screw the lid down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把蓋子或零件旋上;把某物旋接到另一物上",
+      "titleEn": "screw something on / screw something onto something",
+      "formula": "screw something on / screw something onto something",
+      "highlight": "screw something on / screw something onto something",
+      "descriptionZh": "把蓋子或零件旋上;把某物旋接到另一物上",
+      "descriptionEn": "She screwed the cap onto the bottle.",
+      "examples": [
+        {
+          "en": "She screwed the cap onto the bottle.",
+          "zh": "她把瓶蓋旋上瓶子。",
+          "highlight": "screwed the cap onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "以不誠實手段騙走某人的金錢、權利或應得的東西",
+      "titleEn": "screw somebody out of something",
+      "formula": "screw somebody out of something",
+      "highlight": "screw somebody out of something",
+      "descriptionZh": "以不誠實手段騙走某人的金錢、權利或應得的東西",
+      "descriptionEn": "The seller screwed him out of his refund.",
+      "examples": [
+        {
+          "en": "The seller screwed him out of his refund.",
+          "zh": "賣家騙走了他應得的退款。",
+          "highlight": "screwed him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "以強大壓力或威脅迫使某人交出或說出某事物",
+      "titleEn": "screw something out of somebody",
+      "formula": "screw something out of somebody",
+      "highlight": "screw something out of somebody",
+      "descriptionZh": "以強大壓力或威脅迫使某人交出或說出某事物",
+      "descriptionEn": "They screwed the truth out of him.",
+      "examples": [
+        {
+          "en": "They screwed the truth out of him.",
+          "zh": "他們迫使他說出真相。",
+          "highlight": "screwed the truth out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "犯錯;把事情做壞或弄糟",
+      "titleEn": "screw up / screw something up",
+      "formula": "screw up / screw something up",
+      "highlight": "screw up / screw something up",
+      "descriptionZh": "犯錯;把事情做壞或弄糟",
+      "descriptionEn": "I tried to help, but I screwed up.",
+      "examples": [
+        {
+          "en": "I tried to help, but I screwed up.",
+          "zh": "我本來想幫忙,卻把事情弄糟了。",
+          "highlight": "screwed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "鼓起勇氣,迫使自己勇敢地做某事",
+      "titleEn": "screw up your courage",
+      "formula": "screw up your courage",
+      "highlight": "screw up your courage",
+      "descriptionZh": "鼓起勇氣,迫使自己勇敢地做某事",
+      "descriptionEn": "She screwed up her courage and went inside.",
+      "examples": [
+        {
+          "en": "She screwed up her courage and went inside.",
+          "zh": "她鼓起勇氣走了進去。",
+          "highlight": "screwed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+      "titleEn": "screw somebody up",
+      "formula": "screw somebody up",
+      "highlight": "screw somebody up",
+      "descriptionZh": "令某人受到很深的心理影響,使其長期感到困惑或難以應付生活",
+      "descriptionEn": "The experience really screwed him up.",
+      "examples": [
+        {
+          "en": "The experience really screwed him up.",
+          "zh": "那次經歷令他受到很深的心理影響。",
+          "highlight": "screwed him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把紙揉皺並弄成一團",
+      "titleEn": "screw something up",
+      "formula": "screw something up",
+      "highlight": "screw something up",
+      "descriptionZh": "把紙揉皺並弄成一團",
+      "descriptionEn": "He screwed the letter up and threw it away.",
+      "examples": [
+        {
+          "en": "He screwed the letter up and threw it away.",
+          "zh": "他把信揉成一團後丟掉。",
+          "highlight": "screwed the letter up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 SCREW 描述物件如何固定或接合",
+      "titleEn": "Use SCREW to describe how things are fixed together",
+      "zh": "screw down、screw on 和 screw onto 可以幫助你描述蓋子、保護蓋、手柄和其他零件如何固定。",
+      "en": "Screw down, screw on and screw onto help you give practical instructions about lids, covers, handles and other parts."
+    },
+    {
+      "titleZh": "自然談論錯誤和浪費時間",
+      "titleEn": "Talk naturally about mistakes and wasted time",
+      "zh": "screw up 可以描述犯錯或把計劃弄糟;screw around 則可以描述有人不工作,只顧胡鬧浪費時間。",
+      "en": "Screw up can describe a mistake or a spoiled plan, while screw around can describe people who are wasting time instead of working."
+    },
+    {
+      "titleZh": "描述不公平的欺騙和強迫",
+      "titleEn": "Describe unfair treatment and strong pressure",
+      "zh": "screw somebody out of something 表示某人被騙走東西;screw something out of somebody 則表示有人在壓力或威脅下被迫交出某物。",
+      "en": "Screw somebody out of something shows that someone was cheated. Screw something out of somebody shows that pressure or threats were used to obtain something."
+    },
+    {
+      "titleZh": "表達鼓起勇氣和嚴重的情緒影響",
+      "titleEn": "Express courage and serious emotional effects",
+      "zh": "screw up your courage 表示迫使自己鼓起勇氣行動;screw somebody up 則描述較嚴重而持久的心理影響。",
+      "en": "Screw up your courage describes making yourself brave enough to act. Screw somebody up describes a much more serious and lasting emotional effect."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 SCREW 描述物件如何固定或接合",
+      "自然談論錯誤和浪費時間",
+      "描述不公平的欺騙和強迫",
+      "表達鼓起勇氣和嚴重的情緒影響"
+    ],
+    "contextsEn": [
+      "Use SCREW to describe how things are fixed together",
+      "Talk naturally about mistakes and wasted time",
+      "Describe unfair treatment and strong pressure",
+      "Express courage and serious emotional effects"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 SCREW 描述物件如何固定或接合",
+        "titleEn": "Use SCREW to describe how things are fixed together",
+        "zh": "screw down、screw on 和 screw onto 可以幫助你描述蓋子、保護蓋、手柄和其他零件如何固定。",
+        "en": "Screw down, screw on and screw onto help you give practical instructions about lids, covers, handles and other parts.",
+        "examples": [
+          {
+            "en": "Stop screwing around and finish the job.",
+            "zh": "不要再胡鬧,完成這項工作。",
+            "highlight": "screwing around"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論錯誤和浪費時間",
+        "titleEn": "Talk naturally about mistakes and wasted time",
+        "zh": "screw up 可以描述犯錯或把計劃弄糟;screw around 則可以描述有人不工作,只顧胡鬧浪費時間。",
+        "en": "Screw up can describe a mistake or a spoiled plan, while screw around can describe people who are wasting time instead of working.",
+        "examples": [
+          {
+            "en": "Please screw the lid down firmly.",
+            "zh": "請把蓋子牢牢固定好。",
+            "highlight": "screw the lid down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不公平的欺騙和強迫",
+        "titleEn": "Describe unfair treatment and strong pressure",
+        "zh": "screw somebody out of something 表示某人被騙走東西;screw something out of somebody 則表示有人在壓力或威脅下被迫交出某物。",
+        "en": "Screw somebody out of something shows that someone was cheated. Screw something out of somebody shows that pressure or threats were used to obtain something.",
+        "examples": [
+          {
+            "en": "She screwed the cap onto the bottle.",
+            "zh": "她把瓶蓋旋上瓶子。",
+            "highlight": "screwed the cap onto"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達鼓起勇氣和嚴重的情緒影響",
+        "titleEn": "Express courage and serious emotional effects",
+        "zh": "screw up your courage 表示迫使自己鼓起勇氣行動;screw somebody up 則描述較嚴重而持久的心理影響。",
+        "en": "Screw up your courage describes making yourself brave enough to act. Screw somebody up describes a much more serious and lasting emotional effect.",
+        "examples": [
+          {
+            "en": "The seller screwed him out of his refund.",
+            "zh": "賣家騙走了他應得的退款。",
+            "highlight": "screwed him out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SCREW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SCREW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SCREW 片語動詞。",
+      "en": "Read the whole sentence and choose the SCREW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: screw it down screw it on screw him up screw it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: screw it down screw it on screw him up screw it up"
+    },
+    {
+      "titleZh": "部分非實物用法的 SCREW 表達較為口語,主要用於日常對話。在本練習中,screw around 表示「浪費時間或胡鬧」。",
+      "titleEn": "Several non-physical SCREW expressions are informal and are mainly used in conversation.",
+      "zh": "部分非實物用法的 SCREW 表達較為口語,主要用於日常對話。在本練習中,screw around 表示「浪費時間或胡鬧」。",
+      "en": "Several non-physical SCREW expressions are informal and are mainly used in conversation. In this exercise, screw around means “waste time or behave foolishly”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SCREW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SCREW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SCREW 動詞片語句子改寫練習",
+    "titleEn": "SCREW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SCREW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SCREW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-280-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "I made a serious mistake while trying to help.",
+      "promptZh": "我本來想幫忙,卻犯了一個嚴重錯誤。",
+      "starter": "I",
+      "answer": "I seriously screwed up while trying to help.",
+      "answerZh": "我本來想幫忙,卻把事情嚴重弄糟了。",
+      "highlight": "seriously screwed up",
+      "targetForm": "screw up",
+      "targetMeaningZh": "犯錯;把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Please fasten the flat lid to the wooden box so that it cannot be lifted.",
+      "promptZh": "請把木箱的平蓋牢牢固定,使它不能掀起。",
+      "starter": "Please",
+      "answer": "Please screw the flat lid of the wooden box down firmly.",
+      "answerZh": "請把木箱的平蓋牢牢固定,使它不能掀起。",
+      "highlight": "screw",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Lena forced herself to be brave and asked the first question.",
+      "promptZh": "莉娜鼓起勇氣,問了第一條問題。",
+      "starter": "Lena",
+      "answer": "Lena screwed up her courage and asked the first question.",
+      "answerZh": "莉娜鼓起勇氣,問了第一條問題。",
+      "highlight": "screwed up her courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Please attach the cap to the bottle by turning it.",
+      "promptZh": "請把瓶蓋旋上瓶子。",
+      "starter": "Please",
+      "answer": "Please screw the cap onto the bottle.",
+      "answerZh": "請把瓶蓋旋上瓶子。",
+      "highlight": "screw",
+      "targetForm": "screw something onto something",
+      "targetMeaningZh": "把某物旋上另一物"
+    },
+    {
+      "id": "phrasal-verb-280-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Stop wasting time and finish your homework.",
+      "promptZh": "不要再浪費時間,完成你的家課。",
+      "starter": "Stop",
+      "answer": "Stop screwing around and finish your homework.",
+      "answerZh": "不要再胡鬧浪費時間,完成你的家課。",
+      "highlight": "screwing around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Years of cruel comments left him deeply upset and unable to trust people.",
+      "promptZh": "多年的刻薄說話令他深受困擾,無法信任別人。",
+      "starter": "Years",
+      "answer": "Years of cruel comments screwed him up so badly that he could no longer trust people.",
+      "answerZh": "多年的刻薄說話令他受到很深的心理傷害,以致無法再信任別人。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Eva was cheated out of her deposit by the dishonest seller.",
+      "promptZh": "伊娃的訂金被那名不誠實的賣家騙走。",
+      "starter": "Eva",
+      "answer": "Eva was screwed out of her deposit by the dishonest seller.",
+      "answerZh": "伊娃的訂金被那名不誠實的賣家騙走。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Kai crushed the unwanted note into a tight ball.",
+      "promptZh": "啟把不要的字條揉成一團。",
+      "starter": "Kai",
+      "answer": "Kai screwed the unwanted note up.",
+      "answerZh": "啟把不要的字條揉成一團。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The top should be attached tightly by turning it.",
+      "promptZh": "頂蓋應旋緊。",
+      "starter": "The",
+      "answer": "The top should be screwed on tightly.",
+      "answerZh": "頂蓋應旋緊。",
+      "highlight": "screwed on",
+      "targetForm": "screw something on",
+      "targetMeaningZh": "把某物旋上"
+    },
+    {
+      "id": "phrasal-verb-280-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "They forced the secret out of Ben by threatening to tell his teacher.",
+      "promptZh": "他們威脅要告訴老師,迫使賓說出秘密。",
+      "starter": "They",
+      "answer": "They screwed the secret out of Ben by threatening to tell his teacher.",
+      "answerZh": "他們威脅要告訴老師,迫使賓說出秘密。",
+      "highlight": "screwed",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The boys wasted the whole afternoon instead of practising.",
+      "promptZh": "男孩子們浪費了整個下午,沒有練習。",
+      "starter": "The",
+      "answer": "The boys screwed around all afternoon instead of practising.",
+      "answerZh": "男孩子們整個下午都在胡鬧,沒有練習。",
+      "highlight": "screwed around all",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Do not spoil the plan by arriving late.",
+      "promptZh": "不要因遲到而破壞計劃。",
+      "starter": "Do",
+      "answer": "Do not screw up the plan by arriving late.",
+      "answerZh": "不要因遲到而破壞計劃。",
+      "highlight": "screw up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Omar finally forced himself to be brave enough to speak to the coach.",
+      "promptZh": "奧馬終於鼓起勇氣與教練說話。",
+      "starter": "Omar",
+      "answer": "Omar finally screwed up his courage to speak to the coach.",
+      "answerZh": "奧馬終於鼓起勇氣與教練說話。",
+      "highlight": "screwed up his courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The fake website cheated several customers out of their money.",
+      "promptZh": "假網站騙走了幾名顧客的金錢。",
+      "starter": "The",
+      "answer": "The fake website screwed several customers out of their money.",
+      "answerZh": "假網站騙走了幾名顧客的金錢。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The constant fighting at home has left Tara very confused and unhappy.",
+      "promptZh": "家中不斷的爭吵令塔拉非常困惑和不開心。",
+      "starter": "The",
+      "answer": "The constant fighting at home has screwed Tara up, leaving her very confused and unhappy.",
+      "answerZh": "家中不斷的爭吵令塔拉受到很深的心理困擾,使她非常困惑和不開心。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Have you attached the handle to the door by turning it into place?",
+      "promptZh": "你有把手柄旋上門嗎?",
+      "starter": "Have",
+      "answer": "Have you screwed the handle onto the door?",
+      "answerZh": "你有把手柄旋上門嗎?",
+      "highlight": "screwed",
+      "targetForm": "screw something onto something",
+      "targetMeaningZh": "把某物旋上另一物"
+    },
+    {
+      "id": "phrasal-verb-280-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Are you wasting time again instead of cleaning the room?",
+      "promptZh": "你是否又在浪費時間,沒有收拾房間?",
+      "starter": "Are",
+      "answer": "Are you screwing around again instead of cleaning the room?",
+      "answerZh": "你是否又在胡鬧浪費時間,沒有收拾房間?",
+      "highlight": "screwing around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "She has crushed the first draft into a ball and started again.",
+      "promptZh": "她已把第一份草稿揉成一團,重新開始。",
+      "starter": "She",
+      "answer": "She has screwed the first draft up and started again.",
+      "answerZh": "她已把第一份草稿揉成一團,重新開始。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The callers kept pressuring her until they forced her bank details out of her.",
+      "promptZh": "來電者不斷向她施壓,直至迫使她交出銀行資料。",
+      "starter": "The",
+      "answer": "The callers kept pressuring her until they screwed her bank details out of her.",
+      "answerZh": "來電者不斷向她施壓,直至迫使她交出銀行資料。",
+      "highlight": "screwed",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why did Ravi spoil the booking by entering the wrong date?",
+      "promptZh": "拉維為何輸入錯誤日期,令預訂出了問題?",
+      "starter": "Why",
+      "answer": "Why did Ravi screw up the booking by entering the wrong date?",
+      "answerZh": "拉維為何輸入錯誤日期,令預訂出了問題?",
+      "highlight": "screw up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The safety cover was fixed firmly in place and could not lift.",
+      "promptZh": "安全蓋被牢牢固定,無法掀起。",
+      "starter": "The",
+      "answer": "The safety cover was screwed down firmly and could not lift.",
+      "answerZh": "安全蓋被牢牢固定,無法掀起。",
+      "highlight": "screwed down",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Will you force yourself to be brave and make the phone call today?",
+      "promptZh": "你今天會鼓起勇氣打這通電話嗎?",
+      "starter": "Will",
+      "answer": "Will you screw up your courage and make the phone call today?",
+      "answerZh": "你今天會鼓起勇氣打這通電話嗎?",
+      "highlight": "screw up your courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The company may have cheated us out of the full refund.",
+      "promptZh": "公司可能騙走了我們應得的全數退款。",
+      "starter": "The",
+      "answer": "The company may have screwed us out of the full refund.",
+      "answerZh": "公司可能騙走了我們應得的全數退款。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "We cannot waste time because the bus leaves in ten minutes.",
+      "promptZh": "我們不能浪費時間,因為巴士十分鐘後開出。",
+      "starter": "We",
+      "answer": "We cannot screw around because the bus leaves in ten minutes.",
+      "answerZh": "我們不能再胡鬧浪費時間,因為巴士十分鐘後開出。",
+      "highlight": "screw around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "One frightening experience can sometimes leave a child deeply troubled.",
+      "promptZh": "一次可怕的經歷有時會令孩子深受困擾。",
+      "starter": "One",
+      "answer": "One frightening experience can sometimes screw a child up.",
+      "answerZh": "一次可怕的經歷有時會令孩子受到很深的心理傷害。",
+      "highlight": "screw",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please fix it firmly to the table so that it cannot move.",
+      "promptZh": "請把它牢牢固定在桌上,使它不能移動。",
+      "starter": "Please",
+      "answer": "Please screw it down firmly to the table so that it cannot move.",
+      "answerZh": "請把它牢牢固定在桌上,使它不能移動。",
+      "highlight": "screw",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Do not crush the receipt into a ball; we may need it later.",
+      "promptZh": "不要把收據揉成一團;我們稍後可能需要它。",
+      "starter": "Do",
+      "answer": "Do not screw the receipt up; we may need it later.",
+      "answerZh": "不要把收據揉成一團;我們稍後可能需要它。",
+      "highlight": "screw",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "How did the reporter force the truth out of the man?",
+      "promptZh": "記者怎樣迫使那名男子說出真相?",
+      "starter": "How",
+      "answer": "How did the reporter screw the truth out of the man?",
+      "answerZh": "記者怎樣迫使那名男子說出真相?",
+      "highlight": "screw",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Before entering the room, Sofia forced herself to be brave.",
+      "promptZh": "進入房間前,索菲亞鼓起了勇氣。",
+      "starter": "Before",
+      "answer": "Before entering the room, Sofia screwed up her courage.",
+      "answerZh": "進入房間前,索菲亞鼓起了勇氣。",
+      "highlight": "screwed up her courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The timetable was correct until someone changed it and spoiled everything.",
+      "promptZh": "時間表本來正確,直至有人更改它,把一切弄糟。",
+      "starter": "The",
+      "answer": "The timetable was correct until someone changed it and screwed everything up.",
+      "answerZh": "時間表本來正確,直至有人更改它,把一切弄糟。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The new lamp comes in two parts. Attach this piece to the base by turning it.",
+      "promptZh": "新燈分為兩部分。把這個零件旋上底座。",
+      "starter": "The",
+      "answer": "The new lamp comes in two parts. Screw this piece onto the base.",
+      "answerZh": "新燈分為兩部分。把這個零件旋上底座。",
+      "highlight": "Screw",
+      "targetForm": "screw something onto something",
+      "targetMeaningZh": "把某物旋上另一物"
+    },
+    {
+      "id": "phrasal-verb-280-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The way his classmates treated him left him so upset that he stopped speaking in class.",
+      "promptZh": "同學對待他的方式令他非常難受,以致不再在課堂上說話。",
+      "starter": "The",
+      "answer": "The way his classmates treated him screwed him up so badly that he stopped speaking in class.",
+      "answerZh": "同學對待他的方式令他受到很深的心理傷害,以致不再在課堂上說話。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "How did the ticket seller cheat her out of the front-row seat she had paid for?",
+      "promptZh": "售票者怎樣騙走她已付款購買的前排座位?",
+      "starter": "How",
+      "answer": "How did the ticket seller screw her out of the front-row seat she had paid for?",
+      "answerZh": "售票者怎樣騙走她已付款購買的前排座位?",
+      "highlight": "screw",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Once the panel is in the right place, fix it firmly so that it cannot move.",
+      "promptZh": "面板放到正確位置後,便把它牢牢固定,使它不能移動。",
+      "starter": "Once",
+      "answer": "Once the panel is in the right place, screw it down firmly so that it cannot move.",
+      "answerZh": "面板放到正確位置後,便把它牢牢固定,使它不能移動。",
+      "highlight": "screw",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Noah read the message, crushed it into a ball and put it in his pocket.",
+      "promptZh": "諾亞讀完訊息後,把它揉成一團放入口袋。",
+      "starter": "Noah",
+      "answer": "Noah read the message, screwed it up and put it in his pocket.",
+      "answerZh": "諾亞讀完訊息後,把它揉成一團放入口袋。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If you keep wasting time, the rest of the team will have to wait.",
+      "promptZh": "若你繼續浪費時間,隊伍其他成員便要等候。",
+      "starter": "If",
+      "answer": "If you keep screwing around, the rest of the team will have to wait.",
+      "answerZh": "若你繼續胡鬧浪費時間,隊伍其他成員便要等候。",
+      "highlight": "screwing around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The group used repeated threats to force the password out of him.",
+      "promptZh": "該團體不斷作出威脅,迫使他交出密碼。",
+      "starter": "The",
+      "answer": "The group used repeated threats to screw the password out of him.",
+      "answerZh": "該團體不斷作出威脅,迫使他交出密碼。",
+      "highlight": "screw",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The top was not attached tightly, so water leaked from the bottle.",
+      "promptZh": "頂蓋沒有旋緊,所以水從瓶子漏出。",
+      "starter": "The",
+      "answer": "The top was not screwed on tightly, so water leaked from the bottle.",
+      "answerZh": "頂蓋沒有旋緊,所以水從瓶子漏出。",
+      "highlight": "screwed on",
+      "targetForm": "screw something on",
+      "targetMeaningZh": "把某物旋上"
+    },
+    {
+      "id": "phrasal-verb-280-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "I know the task matters, and I do not want to spoil it.",
+      "promptZh": "我知道這項任務很重要,也不想把它弄糟。",
+      "starter": "I",
+      "answer": "I know the task matters, and I do not want to screw it up.",
+      "answerZh": "我知道這項任務很重要,也不想把它弄糟。",
+      "highlight": "screw",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "It took Daniel several minutes to force himself to be brave enough to knock on the door.",
+      "promptZh": "丹尼爾花了幾分鐘才鼓起勇氣敲門。",
+      "starter": "It",
+      "answer": "It took Daniel several minutes to screw up his courage to knock on the door.",
+      "answerZh": "丹尼爾花了幾分鐘才鼓起勇氣敲門。",
+      "highlight": "screw up his courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "A false rule on the website cheated many players out of their prizes.",
+      "promptZh": "網站上的虛假規則騙走了許多玩家的獎品。",
+      "starter": "A",
+      "answer": "A false rule on the website screwed many players out of their prizes.",
+      "answerZh": "網站上的虛假規則騙走了許多玩家的獎品。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Do you think that years of being controlled by others have left her unable to make decisions?",
+      "promptZh": "你認為多年來受別人控制,是否令她無法作決定?",
+      "starter": "Do",
+      "answer": "Do you think that years of being controlled by others have screwed her up so badly that she cannot make decisions?",
+      "answerZh": "你認為多年來受別人控制,是否令她受到很深的心理影響,以致無法作決定?",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The contract looked fair, but one hidden line cheated the workers out of two days’ pay.",
+      "promptZh": "合約看來公平,但一行隱藏內容騙走了工人兩天的工資。",
+      "starter": "The",
+      "answer": "The contract looked fair, but one hidden line screwed the workers out of two days’ pay.",
+      "answerZh": "合約看來公平,但一行隱藏內容騙走了工人兩天的工資。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "There is no time to behave foolishly; the doors open in five minutes.",
+      "promptZh": "沒有時間再胡鬧;大門五分鐘後便會開啟。",
+      "starter": "There",
+      "answer": "There is no time to screw around; the doors open in five minutes.",
+      "answerZh": "沒有時間再胡鬧;大門五分鐘後便會開啟。",
+      "highlight": "screw around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Angry with the result, Priya crushed the score sheet into a tight ball.",
+      "promptZh": "普里雅對結果感到生氣,把記分紙揉成一團。",
+      "starter": "Angry",
+      "answer": "Angry with the result, Priya screwed the score sheet up.",
+      "answerZh": "普里雅對結果感到生氣,把記分紙揉成一團。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Check whether the red part has been attached to the toy by turning it into place.",
+      "promptZh": "檢查紅色零件是否已旋上玩具。",
+      "starter": "Check",
+      "answer": "Check whether the red part has been screwed onto the toy.",
+      "answerZh": "檢查紅色零件是否已旋上玩具。",
+      "highlight": "screwed onto",
+      "targetForm": "screw something onto something",
+      "targetMeaningZh": "把某物旋上另一物"
+    },
+    {
+      "id": "phrasal-verb-280-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The loose floorboard must be fixed firmly before anyone walks over it.",
+      "promptZh": "鬆脫的地板必須牢牢固定,才能讓人走過。",
+      "starter": "The",
+      "answer": "The loose floorboard must be screwed down before anyone walks over it.",
+      "answerZh": "鬆脫的地板必須用螺絲牢牢固定,才能讓人走過。",
+      "highlight": "screwed down",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "One wrong number could spoil the whole order, so check it carefully.",
+      "promptZh": "一個錯誤數字便可能破壞整張訂單,所以要仔細檢查。",
+      "starter": "One",
+      "answer": "One wrong number could screw up the whole order, so check it carefully.",
+      "answerZh": "一個錯誤數字便可能破壞整張訂單,所以要仔細檢查。",
+      "highlight": "screw up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The sudden loss did not only make him sad; it left him confused for a long time.",
+      "promptZh": "突如其來的失去不只令他傷心,還令他困惑了很長時間。",
+      "starter": "The",
+      "answer": "The sudden loss did not only make him sad; it screwed him up for a long time.",
+      "answerZh": "突如其來的失去不只令他傷心,還令他受到很長時間的心理困擾。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The men refused to leave until they had forced every useful detail out of the guard.",
+      "promptZh": "那些男子拒絕離開,直至迫使守衛說出所有有用資料。",
+      "starter": "The",
+      "answer": "The men refused to leave until they had screwed every useful detail out of the guard.",
+      "answerZh": "那些男子拒絕離開,直至迫使守衛說出所有有用資料。",
+      "highlight": "screwed",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After three failed attempts, Ava forced herself to be brave and tried once more.",
+      "promptZh": "三次嘗試失敗後,艾娃鼓起勇氣再試一次。",
+      "starter": "After",
+      "answer": "After three failed attempts, Ava screwed up her courage and tried once more.",
+      "answerZh": "三次嘗試失敗後,艾娃鼓起勇氣再試一次。",
+      "highlight": "screwed up her courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The teacher warned us not to waste time during the equipment check.",
+      "promptZh": "老師警告我們不要在檢查器材時胡鬧浪費時間。",
+      "starter": "The",
+      "answer": "The teacher warned us not to screw around during the equipment check.",
+      "answerZh": "老師警告我們不要在檢查器材時胡鬧浪費時間。",
+      "highlight": "screw around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before carrying the water bottle, make sure you have attached its top tightly.",
+      "promptZh": "拿起水瓶前,確保你已把頂蓋旋緊。",
+      "starter": "Before",
+      "answer": "Before carrying the water bottle, make sure you have screwed its top on tightly.",
+      "answerZh": "拿起水瓶前,確保你已把頂蓋旋緊。",
+      "highlight": "screwed",
+      "targetForm": "screw something on",
+      "targetMeaningZh": "把某物旋上"
+    },
+    {
+      "id": "phrasal-verb-280-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "He thought he had won the full prize, but the organiser cheated him out of half of it.",
+      "promptZh": "他以為自己贏得全數獎金,但主辦人騙走了其中一半。",
+      "starter": "He",
+      "answer": "He thought he had won the full prize, but the organiser screwed him out of half of it.",
+      "answerZh": "他以為自己贏得全數獎金,但主辦人騙走了其中一半。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The note had been crushed into a ball before the teacher found it.",
+      "promptZh": "老師發現字條前,它已被揉成一團。",
+      "starter": "The",
+      "answer": "The note had been screwed up before the teacher found it.",
+      "answerZh": "老師發現字條前,它已被揉成一團。",
+      "highlight": "screwed up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Why was the metal plate fixed so tightly to the wall?",
+      "promptZh": "為甚麼金屬板被如此牢固地固定在牆上?",
+      "starter": "Why",
+      "answer": "Why was the metal plate screwed down so tightly to the wall?",
+      "answerZh": "為甚麼金屬板被如此牢固地用螺絲固定在牆上?",
+      "highlight": "screwed down",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Although the accident caused no physical injury, it left Chloe deeply upset and afraid to travel alone.",
+      "promptZh": "雖然意外沒有造成身體傷害,但它令克洛伊深受困擾,不敢獨自出行。",
+      "starter": "Although",
+      "answer": "Although the accident caused no physical injury, it really screwed Chloe up and made her afraid to travel alone.",
+      "answerZh": "雖然意外沒有造成身體傷害,但它令克洛伊受到很深的心理影響,不敢獨自出行。",
+      "highlight": "really screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After hours of hard questioning, they finally forced the name of the organiser out of him.",
+      "promptZh": "經過數小時的嚴厲盤問後,他們終於迫使他說出主辦人的名字。",
+      "starter": "After",
+      "answer": "After hours of hard questioning, they finally screwed the name of the organiser out of him.",
+      "answerZh": "經過數小時的嚴厲盤問後,他們終於迫使他說出主辦人的名字。",
+      "highlight": "screwed",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Knowing that the answer might be no, Sam still forced himself to be brave and asked for another chance.",
+      "promptZh": "儘管知道答案可能是否定的,森仍鼓起勇氣要求另一次機會。",
+      "starter": "Knowing",
+      "answer": "Knowing that the answer might be no, Sam still screwed up his courage and asked for another chance.",
+      "answerZh": "儘管知道答案可能是否定的,森仍鼓起勇氣要求另一次機會。",
+      "highlight": "screwed up his courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We had prepared for weeks, so nobody wanted one careless mistake to spoil the final performance.",
+      "promptZh": "我們已準備數星期,所以沒有人希望一次粗心錯誤破壞最後表演。",
+      "starter": "We",
+      "answer": "We had prepared for weeks, so nobody wanted one careless mistake to screw up the final performance.",
+      "answerZh": "我們已準備數星期,所以沒有人希望一次粗心錯誤破壞最後表演。",
+      "highlight": "screw up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After reading the unfriendly letter twice, Leo crushed it into a ball and dropped it into the bin.",
+      "promptZh": "里奧把那封不友善的信讀了兩次後,便把它揉成一團丟進垃圾桶。",
+      "starter": "After",
+      "answer": "After reading the unfriendly letter twice, Leo screwed it up and dropped it into the bin.",
+      "answerZh": "里奧把那封不友善的信讀了兩次後,便把它揉成一團丟進垃圾桶。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    },
+    {
+      "id": "phrasal-verb-280-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We can talk later, but right now we must stop wasting time and solve the problem.",
+      "promptZh": "我們可以稍後再談,但現在必須停止浪費時間並解決問題。",
+      "starter": "We",
+      "answer": "We can talk later, but right now we must stop screwing around and solve the problem.",
+      "answerZh": "我們可以稍後再談,但現在必須停止胡鬧浪費時間並解決問題。",
+      "highlight": "screwing around",
+      "targetForm": "screw around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-280-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Once the camera is placed on the stand, turn the small ring until it is securely attached.",
+      "promptZh": "把相機放到支架上後,旋轉小環直至牢牢接上。",
+      "starter": "Once",
+      "answer": "Once the camera is placed on the stand, screw the small ring on until it is secure.",
+      "answerZh": "把相機放到支架上後,旋轉小環直至牢牢接上。",
+      "highlight": "screw",
+      "targetForm": "screw something on",
+      "targetMeaningZh": "把某物旋上"
+    },
+    {
+      "id": "phrasal-verb-280-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "By changing the final score after the game, the judge cheated the winning team out of the prize.",
+      "promptZh": "裁判在比賽後更改最終分數,騙走了勝隊的獎品。",
+      "starter": "By",
+      "answer": "By changing the final score after the game, the judge screwed the winning team out of the prize.",
+      "answerZh": "裁判在比賽後更改最終分數,騙走了勝隊的獎品。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody out of something",
+      "targetMeaningZh": "騙走某人的東西"
+    },
+    {
+      "id": "phrasal-verb-280-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Before moving the display, check that every corner has been fixed firmly and cannot lift.",
+      "promptZh": "移動展板前,檢查每個角位是否已牢牢固定,不能掀起。",
+      "starter": "Before",
+      "answer": "Before moving the display, check that every corner has been screwed down firmly and cannot lift.",
+      "answerZh": "移動展板前,檢查每個角位是否已牢牢固定,不能掀起。",
+      "highlight": "screwed down",
+      "targetForm": "screw something down",
+      "targetMeaningZh": "用螺絲牢牢固定"
+    },
+    {
+      "id": "phrasal-verb-280-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The pressure to be perfect had affected Nina so badly that even small choices became difficult for her.",
+      "promptZh": "追求完美的壓力對妮娜造成很大影響,連小決定也令她感到困難。",
+      "starter": "The",
+      "answer": "The pressure to be perfect had screwed Nina up so badly that even small choices became difficult for her.",
+      "answerZh": "追求完美的壓力令妮娜受到很深的心理影響,連小決定也變得困難。",
+      "highlight": "screwed",
+      "targetForm": "screw somebody up",
+      "targetMeaningZh": "令某人心理受創或非常混亂"
+    },
+    {
+      "id": "phrasal-verb-280-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The dishonest group threatened to cancel her order and forced another payment out of her.",
+      "promptZh": "不誠實的團體威脅取消她的訂單,迫使她再付款。",
+      "starter": "The",
+      "answer": "The dishonest group threatened to cancel her order and screwed another payment out of her.",
+      "answerZh": "不誠實的團體威脅取消她的訂單,迫使她再付款。",
+      "highlight": "screwed",
+      "targetForm": "screw something out of somebody",
+      "targetMeaningZh": "迫使某人交出或說出某事物"
+    },
+    {
+      "id": "phrasal-verb-280-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Just before the interview, I took a deep breath, forced myself to be brave and opened the door.",
+      "promptZh": "面試前一刻,我深呼吸,鼓起勇氣並打開門。",
+      "starter": "Just",
+      "answer": "Just before the interview, I took a deep breath, screwed up my courage and opened the door.",
+      "answerZh": "面試前一刻,我深呼吸,鼓起勇氣並打開門。",
+      "highlight": "screwed up my courage",
+      "targetForm": "screw up your courage",
+      "targetMeaningZh": "鼓起勇氣"
+    },
+    {
+      "id": "phrasal-verb-280-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "If the instructions are unclear, ask for help rather than risk doing the whole job badly.",
+      "promptZh": "若指示不清楚,應尋求協助,而不是冒險把整項工作弄糟。",
+      "starter": "If",
+      "answer": "If the instructions are unclear, ask for help rather than risk screwing up the whole job.",
+      "answerZh": "若指示不清楚,應尋求協助,而不是冒險把整項工作弄糟。",
+      "highlight": "screwing up",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把事情弄糟"
+    },
+    {
+      "id": "phrasal-verb-280-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The child did not tear the drawing; she simply crushed it into a ball when she became upset.",
+      "promptZh": "那名孩子沒有撕破圖畫;她感到不開心時,只是把它揉成一團。",
+      "starter": "The",
+      "answer": "The child did not tear the drawing; she simply screwed it up when she became upset.",
+      "answerZh": "那名孩子沒有撕破圖畫;她感到不開心時,只是把它揉成一團。",
+      "highlight": "screwed",
+      "targetForm": "screw something up",
+      "targetMeaningZh": "把紙揉成一團"
+    }
+  ]
+}

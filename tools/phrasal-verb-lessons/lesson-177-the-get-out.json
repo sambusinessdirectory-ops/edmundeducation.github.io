@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-177",
+  "order": 177,
+  "slug": "the-get-out",
+  "version": "1",
+  "title": "THE GET OUT 動詞片語",
+  "titleEn": "The GET OUT",
+  "titleZh": "THE GET OUT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 176 - The GET OUT.pdf",
+    "sourceNumber": 176,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習 GET OUT 片語動詞系列。",
+    "en": "Learn and practise the phrasal verbs in the GET OUT family."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "THE GET OUT",
+      "highlight": "THE GET OUT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "If word gets out, everyone will know.",
+      "zh": "如果消息傳開,所有人都會知道。",
+      "highlight": "gets out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tried to get out of cleaning the classroom.",
+      "zh": "他試圖逃避清潔課室。",
+      "highlight": "get out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her quick thinking got them out of trouble.",
+      "zh": "她的機智使他們擺脫了麻煩。",
+      "highlight": "got them out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "消息、秘密或風聲傳開;被人知道；逃避或避開責任、安排或要做的事情；擺脫困境;協助某人或自己脫離困境；離開車輛、房間或其他地方",
+    "en": "get out; get out of something; get out of something / get somebody or yourself out of something; get out / get out of something",
+    "naturalZh": [
+      "消息、秘密或風聲傳開;被人知道",
+      "逃避或避開責任、安排或要做的事情",
+      "擺脫困境;協助某人或自己脫離困境",
+      "離開車輛、房間或其他地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get out",
+      "titleZh": "消息、秘密或風聲傳開;被人知道",
+      "titleEn": "get out",
+      "descriptionZh": "消息、秘密或風聲傳開;被人知道",
+      "descriptionEn": "If word gets out, everyone will know.",
+      "examples": [
+        {
+          "en": "If word gets out, everyone will know.",
+          "zh": "如果消息傳開,所有人都會知道。",
+          "highlight": "gets out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get out of something",
+      "titleZh": "逃避或避開責任、安排或要做的事情",
+      "titleEn": "get out of something",
+      "descriptionZh": "逃避或避開責任、安排或要做的事情",
+      "descriptionEn": "He tried to get out of cleaning the classroom.",
+      "examples": [
+        {
+          "en": "He tried to get out of cleaning the classroom.",
+          "zh": "他試圖逃避清潔課室。",
+          "highlight": "get out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get out of something / get somebody or yourself out of something",
+      "titleZh": "擺脫困境;協助某人或自己脫離困境",
+      "titleEn": "get out of something / get somebody or yourself out of something",
+      "descriptionZh": "擺脫困境;協助某人或自己脫離困境",
+      "descriptionEn": "Her quick thinking got them out of trouble.",
+      "examples": [
+        {
+          "en": "Her quick thinking got them out of trouble.",
+          "zh": "她的機智使他們擺脫了麻煩。",
+          "highlight": "got them out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get out / get out of something",
+      "titleZh": "離開車輛、房間或其他地方",
+      "titleEn": "get out / get out of something",
+      "descriptionZh": "離開車輛、房間或其他地方",
+      "descriptionEn": "The car stopped, and everyone got out.",
+      "examples": [
+        {
+          "en": "The car stopped, and everyone got out.",
+          "zh": "汽車停下來,所有人都下了車。",
+          "highlight": "got out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "THE GET OUT 片語動詞的實際用途",
+    "labelEn": "THE GET OUT Phrasal Verbs in Use",
+    "summaryZh": "get out 可以表示消息、秘密或某件事的風聲已經傳開。；get out of something 可以描述某人試圖不出席活動、不完成工作或不履行承諾。；這個系列可以描述某人擺脫麻煩,或協助另一個人脫離危險。；談論離開汽車、的士、升降機、房間和其他日常地方時,可以使用 get out 和 get out of。",
+    "summaryEn": "Get out lets you say that news, a secret or word about something has become known. Get out of something can describe trying not to attend an event, complete a task or keep a promise. You can use the family to describe escaping trouble or helping another person reach safety. Get out and get out of are useful when talking about cars, taxis, lifts, rooms and other everyday places.",
+    "contextsZh": [
+      "談論私人消息被人知道",
+      "談論某人想逃避的責任和安排",
+      "說明人們如何擺脫困境",
+      "描述離開車輛和地方"
+    ],
+    "contextsEn": [
+      "Talk about private information becoming public",
+      "Talk about duties and plans that someone wants to avoid",
+      "Explain how people escape difficult situations",
+      "Describe leaving vehicles and places"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET OUT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET OUT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get out",
+    "fixedHighlight": "get out",
+    "fixedZh": "閱讀整句,選出意思相同的 GET OUT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET OUT expression that gives the same meaning.",
+    "correct": "gets out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；get out of 可以表示逃避某事、擺脫困境或離開某個地方。請仔細閱讀完整情境。；當某人獲得協助而擺脫問題時,把該人物放在 GET 之後。",
+    "variableEn": "Keep the same people, things, time and meaning. Get out of can mean avoiding something, escaping a difficult situation or leaving a place. Read the full situation carefully. When someone is helped to escape a problem, place that person after GET: get him out of trouble get ourselves out of danger",
+    "variableItemsZh": [
+      "get out",
+      "get out of something",
+      "get out of something / get somebody or yourself out of something",
+      "get out / get out of something"
+    ],
+    "variableItemsEn": [
+      "get out",
+      "get out of something",
+      "get out of something / get somebody or yourself out of something",
+      "get out / get out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "消息、秘密或風聲傳開;被人知道",
+        "formEn": "get out",
+        "exampleZh": "如果消息傳開,所有人都會知道。",
+        "exampleEn": "If word gets out, everyone will know.",
+        "highlight": "gets out"
+      },
+      {
+        "formZh": "逃避或避開責任、安排或要做的事情",
+        "formEn": "get out of something",
+        "exampleZh": "他試圖逃避清潔課室。",
+        "exampleEn": "He tried to get out of cleaning the classroom.",
+        "highlight": "get out"
+      },
+      {
+        "formZh": "擺脫困境;協助某人或自己脫離困境",
+        "formEn": "get out of something / get somebody or yourself out of something",
+        "exampleZh": "她的機智使他們擺脫了麻煩。",
+        "exampleEn": "Her quick thinking got them out of trouble.",
+        "highlight": "got them out"
+      },
+      {
+        "formZh": "離開車輛、房間或其他地方",
+        "formEn": "get out / get out of something",
+        "exampleZh": "汽車停下來,所有人都下了車。",
+        "exampleEn": "The car stopped, and everyone got out.",
+        "highlight": "got out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "消息、秘密或風聲傳開;被人知道",
+      "titleEn": "get out",
+      "formula": "get out",
+      "highlight": "get out",
+      "descriptionZh": "消息、秘密或風聲傳開;被人知道",
+      "descriptionEn": "If word gets out, everyone will know.",
+      "examples": [
+        {
+          "en": "If word gets out, everyone will know.",
+          "zh": "如果消息傳開,所有人都會知道。",
+          "highlight": "gets out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "逃避或避開責任、安排或要做的事情",
+      "titleEn": "get out of something",
+      "formula": "get out of something",
+      "highlight": "get out of something",
+      "descriptionZh": "逃避或避開責任、安排或要做的事情",
+      "descriptionEn": "He tried to get out of cleaning the classroom.",
+      "examples": [
+        {
+          "en": "He tried to get out of cleaning the classroom.",
+          "zh": "他試圖逃避清潔課室。",
+          "highlight": "get out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "擺脫困境;協助某人或自己脫離困境",
+      "titleEn": "get out of something / get somebody or yourself out of something",
+      "formula": "get out of something / get somebody or yourself out of something",
+      "highlight": "get out of something / get somebody or yourself out of something",
+      "descriptionZh": "擺脫困境;協助某人或自己脫離困境",
+      "descriptionEn": "Her quick thinking got them out of trouble.",
+      "examples": [
+        {
+          "en": "Her quick thinking got them out of trouble.",
+          "zh": "她的機智使他們擺脫了麻煩。",
+          "highlight": "got them out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "離開車輛、房間或其他地方",
+      "titleEn": "get out / get out of something",
+      "formula": "get out / get out of something",
+      "highlight": "get out / get out of something",
+      "descriptionZh": "離開車輛、房間或其他地方",
+      "descriptionEn": "The car stopped, and everyone got out.",
+      "examples": [
+        {
+          "en": "The car stopped, and everyone got out.",
+          "zh": "汽車停下來,所有人都下了車。",
+          "highlight": "got out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論私人消息被人知道",
+      "titleEn": "Talk about private information becoming public",
+      "zh": "get out 可以表示消息、秘密或某件事的風聲已經傳開。",
+      "en": "Get out lets you say that news, a secret or word about something has become known."
+    },
+    {
+      "titleZh": "談論某人想逃避的責任和安排",
+      "titleEn": "Talk about duties and plans that someone wants to avoid",
+      "zh": "get out of something 可以描述某人試圖不出席活動、不完成工作或不履行承諾。",
+      "en": "Get out of something can describe trying not to attend an event, complete a task or keep a promise."
+    },
+    {
+      "titleZh": "說明人們如何擺脫困境",
+      "titleEn": "Explain how people escape difficult situations",
+      "zh": "這個系列可以描述某人擺脫麻煩,或協助另一個人脫離危險。",
+      "en": "You can use the family to describe escaping trouble or helping another person reach safety."
+    },
+    {
+      "titleZh": "描述離開車輛和地方",
+      "titleEn": "Describe leaving vehicles and places",
+      "zh": "談論離開汽車、的士、升降機、房間和其他日常地方時,可以使用 get out 和 get out of。",
+      "en": "Get out and get out of are useful when talking about cars, taxis, lifts, rooms and other everyday places."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論私人消息被人知道",
+      "談論某人想逃避的責任和安排",
+      "說明人們如何擺脫困境",
+      "描述離開車輛和地方"
+    ],
+    "contextsEn": [
+      "Talk about private information becoming public",
+      "Talk about duties and plans that someone wants to avoid",
+      "Explain how people escape difficult situations",
+      "Describe leaving vehicles and places"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論私人消息被人知道",
+        "titleEn": "Talk about private information becoming public",
+        "zh": "get out 可以表示消息、秘密或某件事的風聲已經傳開。",
+        "en": "Get out lets you say that news, a secret or word about something has become known.",
+        "examples": [
+          {
+            "en": "If word gets out, everyone will know.",
+            "zh": "如果消息傳開,所有人都會知道。",
+            "highlight": "gets out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論某人想逃避的責任和安排",
+        "titleEn": "Talk about duties and plans that someone wants to avoid",
+        "zh": "get out of something 可以描述某人試圖不出席活動、不完成工作或不履行承諾。",
+        "en": "Get out of something can describe trying not to attend an event, complete a task or keep a promise.",
+        "examples": [
+          {
+            "en": "He tried to get out of cleaning the classroom.",
+            "zh": "他試圖逃避清潔課室。",
+            "highlight": "get out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明人們如何擺脫困境",
+        "titleEn": "Explain how people escape difficult situations",
+        "zh": "這個系列可以描述某人擺脫麻煩,或協助另一個人脫離危險。",
+        "en": "You can use the family to describe escaping trouble or helping another person reach safety.",
+        "examples": [
+          {
+            "en": "Her quick thinking got them out of trouble.",
+            "zh": "她的機智使他們擺脫了麻煩。",
+            "highlight": "got them out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述離開車輛和地方",
+        "titleEn": "Describe leaving vehicles and places",
+        "zh": "談論離開汽車、的士、升降機、房間和其他日常地方時,可以使用 get out 和 get out of。",
+        "en": "Get out and get out of are useful when talking about cars, taxis, lifts, rooms and other everyday places.",
+        "examples": [
+          {
+            "en": "The car stopped, and everyone got out.",
+            "zh": "汽車停下來,所有人都下了車。",
+            "highlight": "got out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET OUT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET OUT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET OUT 片語動詞。",
+      "en": "Read the whole sentence and choose the GET OUT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "get out of 可以表示逃避某事、擺脫困境或離開某個地方。請仔細閱讀完整情境。",
+      "titleEn": "Get out of can mean avoiding something, escaping a difficult situation or leaving a place.",
+      "zh": "get out of 可以表示逃避某事、擺脫困境或離開某個地方。請仔細閱讀完整情境。",
+      "en": "Get out of can mean avoiding something, escaping a difficult situation or leaving a place. Read the full situation carefully."
+    },
+    {
+      "titleZh": "當某人獲得協助而擺脫問題時,把該人物放在 GET 之後。",
+      "titleEn": "When someone is helped to escape a problem, place that person after GET: get him out of trouble get ourselves out of danger.",
+      "zh": "當某人獲得協助而擺脫問題時,把該人物放在 GET 之後。",
+      "en": "When someone is helped to escape a problem, place that person after GET: get him out of trouble get ourselves out of danger"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 THE GET OUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to THE GET OUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "THE GET OUT 動詞片語句子改寫練習",
+    "titleEn": "THE GET OUT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 THE GET OUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to THE GET OUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-177-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The taxi stopped, and Ava left it.",
+      "promptZh": "的士停下來,艾娃下了車。",
+      "starter": "The",
+      "answer": "The taxi stopped, and Ava got out.",
+      "answerZh": "的士停下來,艾娃下了車。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The secret became known before lunch.",
+      "promptZh": "秘密在午飯前傳開了。",
+      "starter": "The",
+      "answer": "The secret got out before lunch.",
+      "answerZh": "秘密在午飯前傳開了。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We promised to help, so we cannot avoid it now.",
+      "promptZh": "我們答應了幫忙,所以現在不能再推掉。",
+      "starter": "We",
+      "answer": "We promised to help, so we cannot get out of it now.",
+      "answerZh": "我們答應了幫忙,所以現在不能再推掉。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避責任、安排或要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Jack used his quick thinking to escape trouble.",
+      "promptZh": "傑克運用機智擺脫了麻煩。",
+      "starter": "Jack",
+      "answer": "Jack used his quick thinking to get out of trouble.",
+      "answerZh": "傑克運用機智擺脫了麻煩。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "If word about the surprise spreads, the party will be ruined.",
+      "promptZh": "如果驚喜的消息傳開,派對便會被破壞。",
+      "starter": "If",
+      "answer": "If word about the surprise gets out, the party will be ruined.",
+      "answerZh": "如果驚喜的消息傳開,派對便會被破壞。",
+      "highlight": "gets out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please leave the car before I lock it.",
+      "promptZh": "請在我鎖車前下車。",
+      "starter": "Please",
+      "answer": "Please get out of the car before I lock it.",
+      "answerZh": "請在我鎖車前下車。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nora tried to avoid the early meeting.",
+      "promptZh": "諾拉試圖避開那場早上的會議。",
+      "starter": "Nora",
+      "answer": "Nora tried to get out of the early meeting.",
+      "answerZh": "諾拉試圖避開那場早上的會議。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避安排或要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "News about the free tickets became known quickly.",
+      "promptZh": "免費門票的消息很快便傳開了。",
+      "starter": "News",
+      "answer": "News about the free tickets got out quickly.",
+      "answerZh": "免費門票的消息很快便傳開了。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "One honest apology may save you from trouble.",
+      "promptZh": "一句真誠的道歉或許能使你擺脫麻煩。",
+      "starter": "One",
+      "answer": "One honest apology may get you out of trouble.",
+      "answerZh": "一句真誠的道歉或許能使你擺脫麻煩。",
+      "highlight": "get",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "You cannot avoid cleaning the kitchen when it is your turn.",
+      "promptZh": "輪到你時,你不能逃避清潔廚房。",
+      "starter": "You",
+      "answer": "You cannot get out of cleaning the kitchen when it is your turn.",
+      "answerZh": "輪到你時,你不能逃避清潔廚房。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "A map helped us escape a difficult situation.",
+      "promptZh": "一張地圖幫助我們擺脫了困境。",
+      "starter": "A",
+      "answer": "A map got us out of a difficult situation.",
+      "answerZh": "一張地圖幫助我們擺脫了困境。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The children are leaving the van now.",
+      "promptZh": "孩子們現在正離開客貨車。",
+      "starter": "The",
+      "answer": "The children are getting out of the van now.",
+      "answerZh": "孩子們現在正離開客貨車。",
+      "highlight": "getting out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The news has already become known, and the students are talking about it.",
+      "promptZh": "消息已經傳開,學生們正在談論這件事。",
+      "starter": "The",
+      "answer": "The news has already got out, and the students are talking about it.",
+      "answerZh": "消息已經傳開,學生們正在談論這件事。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Did Leo manage to avoid the school trip?",
+      "promptZh": "里奧成功避開了學校旅行嗎?",
+      "starter": "Did",
+      "answer": "Did Leo manage to get out of the school trip?",
+      "answerZh": "里奧成功避開了學校旅行嗎?",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避安排或活動"
+    },
+    {
+      "id": "phrasal-verb-177-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did the driver leave the car so quickly?",
+      "promptZh": "司機為何這麼快便下車?",
+      "starter": "Why",
+      "answer": "Why did the driver get out of the car so quickly?",
+      "answerZh": "司機為何這麼快便下車?",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We are trying to free ourselves from this difficult situation.",
+      "promptZh": "我們正嘗試擺脫這個困境。",
+      "starter": "We",
+      "answer": "We are trying to get ourselves out of this difficult situation.",
+      "answerZh": "我們正嘗試擺脫這個困境。",
+      "highlight": "get",
+      "targetForm": "get yourself out of something",
+      "targetMeaningZh": "使自己擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Sana is hoping to avoid the extra work.",
+      "promptZh": "薩娜希望可以避開額外的工作。",
+      "starter": "Sana",
+      "answer": "Sana is hoping to get out of the extra work.",
+      "answerZh": "薩娜希望可以避開額外的工作。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避責任或工作"
+    },
+    {
+      "id": "phrasal-verb-177-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Nobody knows how the private message became public.",
+      "promptZh": "沒有人知道這則私人訊息如何外洩。",
+      "starter": "Nobody",
+      "answer": "Nobody knows how the private message got out.",
+      "answerZh": "沒有人知道這則私人訊息如何外洩。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have just left the lift on the third floor.",
+      "promptZh": "我們剛在三樓離開升降機。",
+      "starter": "We",
+      "answer": "We have just got out of the lift on the third floor.",
+      "answerZh": "我們剛在三樓離開升降機。",
+      "highlight": "got out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach’s advice has saved the team from trouble.",
+      "promptZh": "教練的建議使球隊擺脫了麻煩。",
+      "starter": "The",
+      "answer": "The coach’s advice has got the team out of trouble.",
+      "answerZh": "教練的建議使球隊擺脫了麻煩。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I said I would help at the event. I cannot avoid it now.",
+      "promptZh": "我說過會在活動中幫忙,現在不能再推掉。",
+      "starter": "I",
+      "answer": "I said I would help at the event. I cannot get out of it now.",
+      "answerZh": "我說過會在活動中幫忙,現在不能再推掉。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避責任或安排"
+    },
+    {
+      "id": "phrasal-verb-177-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The children were near the fire. The firefighters moved them to safety.",
+      "promptZh": "孩子們當時在火場附近,消防員把他們帶離危險。",
+      "starter": "The",
+      "answer": "The children were near the fire. The firefighters got them out of danger.",
+      "answerZh": "孩子們當時在火場附近,消防員把他們帶離危險。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人脫離危險"
+    },
+    {
+      "id": "phrasal-verb-177-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Please do not allow this secret to become known.",
+      "promptZh": "請不要讓這個秘密傳開。",
+      "starter": "Please",
+      "answer": "Please do not let this secret get out.",
+      "answerZh": "請不要讓這個秘密傳開。",
+      "highlight": "let",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The car door was stuck, so Ben could not leave the car.",
+      "promptZh": "車門卡住了,所以賓無法下車。",
+      "starter": "The",
+      "answer": "The car door was stuck, so Ben could not get out of the car.",
+      "answerZh": "車門卡住了,所以賓無法下車。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I caused this problem, so I must free myself from it.",
+      "promptZh": "這個問題是我造成的,所以我必須靠自己擺脫困境。",
+      "starter": "I",
+      "answer": "I caused this problem, so I must get myself out of it.",
+      "answerZh": "這個問題是我造成的,所以我必須靠自己擺脫困境。",
+      "highlight": "get",
+      "targetForm": "get yourself out of something",
+      "targetMeaningZh": "使自己擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The fee is part of the course, so you cannot avoid paying it.",
+      "promptZh": "費用是課程的一部分,所以你不能逃避付款。",
+      "starter": "The",
+      "answer": "The fee is part of the course, so you cannot get out of paying it.",
+      "answerZh": "費用是課程的一部分,所以你不能逃避付款。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the rain stopped, the family left the tent.",
+      "promptZh": "雨停後,一家人離開了帳篷。",
+      "starter": "When",
+      "answer": "When the rain stopped, the family got out of the tent.",
+      "answerZh": "雨停後,一家人離開了帳篷。",
+      "highlight": "got out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-177-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "How did the secret become known so quickly?",
+      "promptZh": "這個秘密怎會這麼快便傳開?",
+      "starter": "How",
+      "answer": "How did the secret get out so quickly?",
+      "answerZh": "這個秘密怎會這麼快便傳開?",
+      "highlight": "get out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Could you help me escape this difficult situation?",
+      "promptZh": "你可以幫我擺脫這個困境嗎?",
+      "starter": "Could",
+      "answer": "Could you get me out of this difficult situation?",
+      "answerZh": "你可以幫我擺脫這個困境嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We have agreed to perform, so we cannot avoid performing in the show.",
+      "promptZh": "我們已答應演出,所以不能逃避參與表演。",
+      "starter": "We",
+      "answer": "We have agreed to perform, so we cannot get out of performing in the show.",
+      "answerZh": "我們已答應演出,所以不能逃避參與表演。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the time the teacher arrived, word about the surprise test had spread.",
+      "promptZh": "老師到達時,突擊測驗的消息已經傳開。",
+      "starter": "By",
+      "answer": "By the time the teacher arrived, word about the surprise test had got out.",
+      "answerZh": "老師到達時,突擊測驗的消息已經傳開。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The lift stopped between floors, and we could not leave it.",
+      "promptZh": "升降機停在兩層之間,我們無法離開。",
+      "starter": "The",
+      "answer": "The lift stopped between floors, and we could not get out.",
+      "answerZh": "升降機停在兩層之間,我們無法離開。",
+      "highlight": "get out",
+      "targetForm": "get out",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ravi pretended to be busy because he wanted to avoid doing the washing-up.",
+      "promptZh": "拉維假裝很忙,因為他想逃避洗碗。",
+      "starter": "Ravi",
+      "answer": "Ravi pretended to be busy because he wanted to get out of doing the washing-up.",
+      "answerZh": "拉維假裝很忙,因為他想逃避洗碗。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "A clear plan saved the group from trouble.",
+      "promptZh": "一個清晰的計劃使小組擺脫了麻煩。",
+      "starter": "A",
+      "answer": "A clear plan got the group out of trouble.",
+      "answerZh": "一個清晰的計劃使小組擺脫了麻煩。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "As soon as the van stopped, the workers left one by one.",
+      "promptZh": "客貨車一停下,工人便逐一下車。",
+      "starter": "As",
+      "answer": "As soon as the van stopped, the workers got out one by one.",
+      "answerZh": "客貨車一停下,工人便逐一下車。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We kept the plan quiet, but news about it still became known.",
+      "promptZh": "我們沒有公開計劃,但消息仍然傳開了。",
+      "starter": "We",
+      "answer": "We kept the plan quiet, but news about it still got out.",
+      "answerZh": "我們沒有公開計劃,但消息仍然傳開了。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Lena was losing money in her shop, but a new idea saved her from trouble.",
+      "promptZh": "莉娜的店舖當時正在虧損,但一個新構思使她擺脫了困境。",
+      "starter": "Lena",
+      "answer": "Lena was losing money in her shop, but a new idea got her out of trouble.",
+      "answerZh": "莉娜的店舖當時正在虧損,但一個新構思使她擺脫了困境。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even after agreeing to help, Kim tried to avoid doing the job.",
+      "promptZh": "金答應幫忙後,仍試圖逃避這項工作。",
+      "starter": "Even",
+      "answer": "Even after agreeing to help, Kim tried to get out of doing the job.",
+      "answerZh": "金答應幫忙後,仍試圖逃避這項工作。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the whistle sounded, the swimmers quickly left the pool.",
+      "promptZh": "哨子響起時,泳手很快便離開泳池。",
+      "starter": "When",
+      "answer": "When the whistle sounded, the swimmers quickly got out of the pool.",
+      "answerZh": "哨子響起時,泳手很快便離開泳池。",
+      "highlight": "got out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-177-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A rumour about the exam result became known before the school made its announcement.",
+      "promptZh": "學校公布消息前,關於考試結果的傳聞已經傳開。",
+      "starter": "A",
+      "answer": "A rumour about the exam result got out before the school made its announcement.",
+      "answerZh": "學校公布消息前,關於考試結果的傳聞已經傳開。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The hikers had taken the wrong path, but the guide’s map saved them from trouble.",
+      "promptZh": "遠足者走錯了路,但嚮導的地圖使他們擺脫了困境。",
+      "starter": "The",
+      "answer": "The hikers had taken the wrong path, but the guide’s map got them out of trouble.",
+      "answerZh": "遠足者走錯了路,但嚮導的地圖使他們擺脫了困境。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "You promised to speak at the club meeting, so you should not try to avoid it just before it begins.",
+      "promptZh": "你答應了在學會會議上發言,所以不應在會議開始前才設法推掉。",
+      "starter": "You",
+      "answer": "You promised to speak at the club meeting, so you should not try to get out of it just before it begins.",
+      "answerZh": "你答應了在學會會議上發言,所以不應在會議開始前才設法推掉。",
+      "highlight": "get out of",
+      "targetForm": "get out of something",
+      "targetMeaningZh": "逃避責任或安排"
+    },
+    {
+      "id": "phrasal-verb-177-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team tried to keep the change secret, but word about it spread before the match.",
+      "promptZh": "球隊試圖保密這項改動,但消息在比賽前已經傳開。",
+      "starter": "The",
+      "answer": "The team tried to keep the change secret, but word about it got out before the match.",
+      "answerZh": "球隊試圖保密這項改動,但消息在比賽前已經傳開。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We heard the smoke alarm while we were in the building, so everyone left at once.",
+      "promptZh": "我們在大樓內聽到煙霧警報,所以所有人立即離開。",
+      "starter": "We",
+      "answer": "We heard the smoke alarm while we were in the building, so everyone got out at once.",
+      "answerZh": "我們在大樓內聽到煙霧警報,所以所有人立即離開。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-177-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one can avoid doing their share of the work just because the task is boring.",
+      "promptZh": "任何人都不能只因工作沉悶便逃避做自己應做的部分。",
+      "starter": "No",
+      "answer": "No one can get out of doing their share of the work just because the task is boring.",
+      "answerZh": "任何人都不能只因工作沉悶便逃避做自己應做的部分。",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避要做的事情"
+    },
+    {
+      "id": "phrasal-verb-177-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Sales were falling, but a simpler plan saved the shop owner from trouble.",
+      "promptZh": "銷售額正在下跌,但一個較簡單的計劃使店主擺脫了困境。",
+      "starter": "Sales",
+      "answer": "Sales were falling, but a simpler plan got the shop owner out of trouble.",
+      "answerZh": "銷售額正在下跌,但一個較簡單的計劃使店主擺脫了困境。",
+      "highlight": "got",
+      "targetForm": "get somebody out of something",
+      "targetMeaningZh": "使某人擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "If news about the missing money becomes known, customers may stop trusting the shop.",
+      "promptZh": "如果那筆不見了的錢的消息傳開,顧客可能不再信任店舖。",
+      "starter": "If",
+      "answer": "If news about the missing money gets out, customers may stop trusting the shop.",
+      "answerZh": "如果那筆不見了的錢的消息傳開,顧客可能不再信任店舖。",
+      "highlight": "gets out",
+      "targetForm": "get out",
+      "targetMeaningZh": "消息或秘密傳開;被人知道"
+    },
+    {
+      "id": "phrasal-verb-177-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the taxi stopped beside the hotel, the passengers left it.",
+      "promptZh": "的士在酒店旁停下後,乘客便下了車。",
+      "starter": "After",
+      "answer": "After the taxi stopped beside the hotel, the passengers got out.",
+      "answerZh": "的士在酒店旁停下後,乘客便下了車。",
+      "highlight": "got out",
+      "targetForm": "get out",
+      "targetMeaningZh": "離開車輛或地方"
+    },
+    {
+      "id": "phrasal-verb-177-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We made the mistake ourselves, so we must find a way to escape this difficult situation.",
+      "promptZh": "錯誤是我們自己造成的,所以我們必須想辦法擺脫這個困境。",
+      "starter": "We",
+      "answer": "We made the mistake ourselves, so we must find a way to get ourselves out of this difficult situation.",
+      "answerZh": "錯誤是我們自己造成的,所以我們必須想辦法擺脫這個困境。",
+      "highlight": "get ourselves out of",
+      "targetForm": "get yourself out of something",
+      "targetMeaningZh": "使自己擺脫困境"
+    },
+    {
+      "id": "phrasal-verb-177-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "How did Adam avoid attending the family dinner after he had promised to come?",
+      "promptZh": "亞當答應出席家庭晚餐後,怎樣避開了這次聚會?",
+      "starter": "How",
+      "answer": "How did Adam get out of attending the family dinner after he had promised to come?",
+      "answerZh": "亞當答應出席家庭晚餐後,怎樣避開了這次聚會?",
+      "highlight": "get out of",
+      "targetForm": "get out of doing something",
+      "targetMeaningZh": "逃避安排或要做的事情"
+    }
+  ]
+}

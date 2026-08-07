@@ -1,0 +1,1435 @@
+{
+  "id": "phrasal-verb-214",
+  "order": 214,
+  "slug": "measure",
+  "version": "1",
+  "title": "MEASURE 動詞片語",
+  "titleEn": "Measure",
+  "titleZh": "MEASURE 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 212 - MEASURE.pdf",
+    "sourceNumber": 212,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MEASURE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MEASURE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MEASURE",
+      "highlight": "MEASURE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The quality of the water is measured against national safety standards.",
+      "zh": "水質按國家安全標準來衡量。",
+      "highlight": "measured against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She measured off two metres of cloth.",
+      "zh": "她量出了兩米布料。",
+      "highlight": "measured off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He measured out the ingredients for the cake.",
+      "zh": "他量出了製作蛋糕所需的材料份量。",
+      "highlight": "measured out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以某人、某事物或某項標準來衡量或比較；量出並劃定或截取一段確切的長度或範圍；量出所需的確切份量；量度尺寸,通常為衣服、家具或其他用途作準備；達到要求、標準或期望;表現得夠好",
+    "en": "measure somebody/something/yourself against somebody/something; measure something off; measure something out; measure up for something / measure somebody or something up for something; measure up / measure up to somebody or something",
+    "naturalZh": [
+      "以某人、某事物或某項標準來衡量或比較",
+      "量出並劃定或截取一段確切的長度或範圍",
+      "量出所需的確切份量",
+      "量度尺寸,通常為衣服、家具或其他用途作準備",
+      "達到要求、標準或期望;表現得夠好"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "measure somebody/something/yourself against somebody/something",
+      "titleZh": "以某人、某事物或某項標準來衡量或比較",
+      "titleEn": "measure somebody/something/yourself against somebody/something",
+      "descriptionZh": "以某人、某事物或某項標準來衡量或比較",
+      "descriptionEn": "The quality of the water is measured against national safety standards.",
+      "examples": [
+        {
+          "en": "The quality of the water is measured against national safety standards.",
+          "zh": "水質按國家安全標準來衡量。",
+          "highlight": "measured against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "measure something off",
+      "titleZh": "量出並劃定或截取一段確切的長度或範圍",
+      "titleEn": "measure something off",
+      "descriptionZh": "量出並劃定或截取一段確切的長度或範圍",
+      "descriptionEn": "She measured off two metres of cloth.",
+      "examples": [
+        {
+          "en": "She measured off two metres of cloth.",
+          "zh": "她量出了兩米布料。",
+          "highlight": "measured off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "measure something out",
+      "titleZh": "量出所需的確切份量",
+      "titleEn": "measure something out",
+      "descriptionZh": "量出所需的確切份量",
+      "descriptionEn": "He measured out the ingredients for the cake.",
+      "examples": [
+        {
+          "en": "He measured out the ingredients for the cake.",
+          "zh": "他量出了製作蛋糕所需的材料份量。",
+          "highlight": "measured out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "measure up for something / measure somebody or something up for something",
+      "titleZh": "量度尺寸,通常為衣服、家具或其他用途作準備",
+      "titleEn": "measure up for something / measure somebody or something up for something",
+      "descriptionZh": "量度尺寸,通常為衣服、家具或其他用途作準備",
+      "descriptionEn": "We need to measure up before deciding where the furniture can go.",
+      "examples": [
+        {
+          "en": "We need to measure up before deciding where the furniture can go.",
+          "zh": "我們需要先量度尺寸,才決定家具可以放在哪裏。",
+          "highlight": "measure up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "measure up / measure up to somebody or something",
+      "titleZh": "達到要求、標準或期望;表現得夠好",
+      "titleEn": "measure up / measure up to somebody or something",
+      "descriptionZh": "達到要求、標準或期望;表現得夠好",
+      "descriptionEn": "The new assistant did not measure up, so we replaced him.",
+      "examples": [
+        {
+          "en": "The new assistant did not measure up, so we replaced him.",
+          "zh": "新助理未能達到要求,所以我們把他換掉了。",
+          "highlight": "measure up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MEASURE 片語動詞的實際用途",
+    "labelEn": "MEASURE Phrasal Verbs in Use",
+    "summaryZh": "measure something against a standard 可以表示按照同一標準衡量產品、工作、成績或表現。；measure off 適合用來談論長度和劃定範圍;measure out 則適合談論食物、液體、藥物和其他份量。；measure up 可以表示在製作或購買物品前,量度某人、房間、牆壁或窗戶的尺寸。；measure up 和 measure up to 可以表示某人、產品、計劃或表現是否達到預期水平。",
+    "summaryEn": "Measure something against a standard helps you explain how products, work, results or performance are judged. Measure off is useful for lengths and marked areas, while measure out is useful for food, liquids, medicine and other quantities. Measure up can describe taking the dimensions of a person, room, wall or window before something is made or bought. Measure up and measure up to help you describe whether a person, product, plan or performance reaches the expected level.",
+    "contextsZh": [
+      "公平比較質素和表現",
+      "準確談論長度和份量",
+      "為衣服和家具作好準備",
+      "判斷某人或事物是否達到要求"
+    ],
+    "contextsEn": [
+      "Compare quality and performance fairly",
+      "Talk precisely about lengths and amounts",
+      "Prepare properly for clothes and furniture",
+      "Judge whether something is good enough"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MEASURE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MEASURE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "measure somebody/something/yourself against somebody/something",
+    "fixedHighlight": "measure somebody/something/yourself against somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 MEASURE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MEASURE expression that gives the same meaning.",
+    "correct": "measured against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；measure off 用於量出一段確切長度或範圍;measure out 則用於量出確切份量。；(裁縫為他量身訂製西裝。)The new player did not measure up to the required standard.(這名新球員未能達到所需水平。)measure up 可以表示量度尺寸,也可以表示達到要求、標準或期望。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. Use measure off for an exact length or marked area. Use measure out for an exact amount. measure off two metres of cloth measure out 200 grams of flour Measure up can express two different ideas: The tailor measured him up for a suit.",
+    "variableItemsZh": [
+      "measure somebody/something/yourself against somebody/something",
+      "measure something off",
+      "measure something out",
+      "measure up for something / measure somebody or something up for something",
+      "measure up / measure up to somebody or something"
+    ],
+    "variableItemsEn": [
+      "measure somebody/something/yourself against somebody/something",
+      "measure something off",
+      "measure something out",
+      "measure up for something / measure somebody or something up for something",
+      "measure up / measure up to somebody or something"
+    ],
+    "forms": [
+      {
+        "formZh": "以某人、某事物或某項標準來衡量或比較",
+        "formEn": "measure somebody/something/yourself against somebody/something",
+        "exampleZh": "水質按國家安全標準來衡量。",
+        "exampleEn": "The quality of the water is measured against national safety standards.",
+        "highlight": "measured against"
+      },
+      {
+        "formZh": "量出並劃定或截取一段確切的長度或範圍",
+        "formEn": "measure something off",
+        "exampleZh": "她量出了兩米布料。",
+        "exampleEn": "She measured off two metres of cloth.",
+        "highlight": "measured off"
+      },
+      {
+        "formZh": "量出所需的確切份量",
+        "formEn": "measure something out",
+        "exampleZh": "他量出了製作蛋糕所需的材料份量。",
+        "exampleEn": "He measured out the ingredients for the cake.",
+        "highlight": "measured out"
+      },
+      {
+        "formZh": "量度尺寸,通常為衣服、家具或其他用途作準備",
+        "formEn": "measure up for something / measure somebody or something up for something",
+        "exampleZh": "我們需要先量度尺寸,才決定家具可以放在哪裏。",
+        "exampleEn": "We need to measure up before deciding where the furniture can go.",
+        "highlight": "measure up"
+      },
+      {
+        "formZh": "達到要求、標準或期望;表現得夠好",
+        "formEn": "measure up / measure up to somebody or something",
+        "exampleZh": "新助理未能達到要求,所以我們把他換掉了。",
+        "exampleEn": "The new assistant did not measure up, so we replaced him.",
+        "highlight": "measure up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以某人、某事物或某項標準來衡量或比較",
+      "titleEn": "measure somebody/something/yourself against somebody/something",
+      "formula": "measure somebody/something/yourself against somebody/something",
+      "highlight": "measure somebody/something/yourself against somebody/something",
+      "descriptionZh": "以某人、某事物或某項標準來衡量或比較",
+      "descriptionEn": "The quality of the water is measured against national safety standards.",
+      "examples": [
+        {
+          "en": "The quality of the water is measured against national safety standards.",
+          "zh": "水質按國家安全標準來衡量。",
+          "highlight": "measured against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "量出並劃定或截取一段確切的長度或範圍",
+      "titleEn": "measure something off",
+      "formula": "measure something off",
+      "highlight": "measure something off",
+      "descriptionZh": "量出並劃定或截取一段確切的長度或範圍",
+      "descriptionEn": "She measured off two metres of cloth.",
+      "examples": [
+        {
+          "en": "She measured off two metres of cloth.",
+          "zh": "她量出了兩米布料。",
+          "highlight": "measured off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "量出所需的確切份量",
+      "titleEn": "measure something out",
+      "formula": "measure something out",
+      "highlight": "measure something out",
+      "descriptionZh": "量出所需的確切份量",
+      "descriptionEn": "He measured out the ingredients for the cake.",
+      "examples": [
+        {
+          "en": "He measured out the ingredients for the cake.",
+          "zh": "他量出了製作蛋糕所需的材料份量。",
+          "highlight": "measured out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "量度尺寸,通常為衣服、家具或其他用途作準備",
+      "titleEn": "measure up for something / measure somebody or something up for something",
+      "formula": "measure up for something / measure somebody or something up for something",
+      "highlight": "measure up for something / measure somebody or something up for something",
+      "descriptionZh": "量度尺寸,通常為衣服、家具或其他用途作準備",
+      "descriptionEn": "We need to measure up before deciding where the furniture can go.",
+      "examples": [
+        {
+          "en": "We need to measure up before deciding where the furniture can go.",
+          "zh": "我們需要先量度尺寸,才決定家具可以放在哪裏。",
+          "highlight": "measure up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "達到要求、標準或期望;表現得夠好",
+      "titleEn": "measure up / measure up to somebody or something",
+      "formula": "measure up / measure up to somebody or something",
+      "highlight": "measure up / measure up to somebody or something",
+      "descriptionZh": "達到要求、標準或期望;表現得夠好",
+      "descriptionEn": "The new assistant did not measure up, so we replaced him.",
+      "examples": [
+        {
+          "en": "The new assistant did not measure up, so we replaced him.",
+          "zh": "新助理未能達到要求,所以我們把他換掉了。",
+          "highlight": "measure up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "公平比較質素和表現",
+      "titleEn": "Compare quality and performance fairly",
+      "zh": "measure something against a standard 可以表示按照同一標準衡量產品、工作、成績或表現。",
+      "en": "Measure something against a standard helps you explain how products, work, results or performance are judged."
+    },
+    {
+      "titleZh": "準確談論長度和份量",
+      "titleEn": "Talk precisely about lengths and amounts",
+      "zh": "measure off 適合用來談論長度和劃定範圍;measure out 則適合談論食物、液體、藥物和其他份量。",
+      "en": "Measure off is useful for lengths and marked areas, while measure out is useful for food, liquids, medicine and other quantities."
+    },
+    {
+      "titleZh": "為衣服和家具作好準備",
+      "titleEn": "Prepare properly for clothes and furniture",
+      "zh": "measure up 可以表示在製作或購買物品前,量度某人、房間、牆壁或窗戶的尺寸。",
+      "en": "Measure up can describe taking the dimensions of a person, room, wall or window before something is made or bought."
+    },
+    {
+      "titleZh": "判斷某人或事物是否達到要求",
+      "titleEn": "Judge whether something is good enough",
+      "zh": "measure up 和 measure up to 可以表示某人、產品、計劃或表現是否達到預期水平。",
+      "en": "Measure up and measure up to help you describe whether a person, product, plan or performance reaches the expected level."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "公平比較質素和表現",
+      "準確談論長度和份量",
+      "為衣服和家具作好準備",
+      "判斷某人或事物是否達到要求"
+    ],
+    "contextsEn": [
+      "Compare quality and performance fairly",
+      "Talk precisely about lengths and amounts",
+      "Prepare properly for clothes and furniture",
+      "Judge whether something is good enough"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "公平比較質素和表現",
+        "titleEn": "Compare quality and performance fairly",
+        "zh": "measure something against a standard 可以表示按照同一標準衡量產品、工作、成績或表現。",
+        "en": "Measure something against a standard helps you explain how products, work, results or performance are judged.",
+        "examples": [
+          {
+            "en": "The quality of the water is measured against national safety standards.",
+            "zh": "水質按國家安全標準來衡量。",
+            "highlight": "measured against"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確談論長度和份量",
+        "titleEn": "Talk precisely about lengths and amounts",
+        "zh": "measure off 適合用來談論長度和劃定範圍;measure out 則適合談論食物、液體、藥物和其他份量。",
+        "en": "Measure off is useful for lengths and marked areas, while measure out is useful for food, liquids, medicine and other quantities.",
+        "examples": [
+          {
+            "en": "She measured off two metres of cloth.",
+            "zh": "她量出了兩米布料。",
+            "highlight": "measured off"
+          }
+        ]
+      },
+      {
+        "titleZh": "為衣服和家具作好準備",
+        "titleEn": "Prepare properly for clothes and furniture",
+        "zh": "measure up 可以表示在製作或購買物品前,量度某人、房間、牆壁或窗戶的尺寸。",
+        "en": "Measure up can describe taking the dimensions of a person, room, wall or window before something is made or bought.",
+        "examples": [
+          {
+            "en": "He measured out the ingredients for the cake.",
+            "zh": "他量出了製作蛋糕所需的材料份量。",
+            "highlight": "measured out"
+          }
+        ]
+      },
+      {
+        "titleZh": "判斷某人或事物是否達到要求",
+        "titleEn": "Judge whether something is good enough",
+        "zh": "measure up 和 measure up to 可以表示某人、產品、計劃或表現是否達到預期水平。",
+        "en": "Measure up and measure up to help you describe whether a person, product, plan or performance reaches the expected level.",
+        "examples": [
+          {
+            "en": "We need to measure up before deciding where the furniture can go.",
+            "zh": "我們需要先量度尺寸,才決定家具可以放在哪裏。",
+            "highlight": "measure up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MEASURE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MEASURE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MEASURE 片語動詞。",
+      "en": "Read the whole sentence and choose the MEASURE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "measure off 用於量出一段確切長度或範圍;measure out 則用於量出確切份量。",
+      "titleEn": "Use measure off for an exact length or marked area.",
+      "zh": "measure off 用於量出一段確切長度或範圍;measure out 則用於量出確切份量。",
+      "en": "Use measure off for an exact length or marked area. Use measure out for an exact amount. measure off two metres of cloth measure out 200 grams of flour"
+    },
+    {
+      "titleZh": "(裁縫為他量身訂製西裝。)The new player did not measure up to the required standard.(這名新球員未能達到所需水平。)measure up 可以表示量度尺寸,也可以表示達到要求、標準或期望。請仔細閱讀整個情境。",
+      "titleEn": "Measure up can express two different ideas: The tailor measured him up for a suit.",
+      "zh": "(裁縫為他量身訂製西裝。)The new player did not measure up to the required standard.(這名新球員未能達到所需水平。)measure up 可以表示量度尺寸,也可以表示達到要求、標準或期望。請仔細閱讀整個情境。",
+      "en": "Measure up can express two different ideas: The tailor measured him up for a suit."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MEASURE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MEASURE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MEASURE 動詞片語句子改寫練習",
+    "titleEn": "MEASURE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MEASURE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MEASURE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-214-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The quality of the pool water is compared with national safety standards.",
+      "promptZh": "泳池水質會與國家安全標準作比較。",
+      "starter": "The",
+      "answer": "The quality of the pool water is measured against national safety standards.",
+      "answerZh": "泳池水質按國家安全標準來衡量。",
+      "highlight": "measured against",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ava marked exactly two metres of ribbon before cutting it.",
+      "promptZh": "艾娃在剪絲帶前,準確地量出並標記了兩米。",
+      "starter": "Ava",
+      "answer": "Ava measured off two metres of ribbon before cutting it.",
+      "answerZh": "艾娃在剪絲帶前量出了兩米。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The cook prepared exactly 200 grams of flour for the bread.",
+      "promptZh": "廚師為製作麵包準備了正好二百克麵粉。",
+      "starter": "The",
+      "answer": "The cook measured out 200 grams of flour for the bread.",
+      "answerZh": "廚師為製作麵包量出了二百克麵粉。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We need to take the room’s measurements before ordering the new cupboards.",
+      "promptZh": "訂購新櫃前,我們需要先量度房間的尺寸。",
+      "starter": "We",
+      "answer": "We need to measure up before ordering the new cupboards.",
+      "answerZh": "訂購新櫃前,我們需要先量度尺寸。",
+      "highlight": "measure up",
+      "targetForm": "measure up",
+      "targetMeaningZh": "量度所需尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The new goalkeeper was not good enough, so the coach replaced him.",
+      "promptZh": "新守門員的表現不夠好,所以教練把他換掉了。",
+      "starter": "The",
+      "answer": "The new goalkeeper did not measure up, so the coach replaced him.",
+      "answerZh": "新守門員未能達到要求,所以教練把他換掉了。",
+      "highlight": "did",
+      "targetForm": "measure up",
+      "targetMeaningZh": "達到要求或應有水平"
+    },
+    {
+      "id": "phrasal-verb-214-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The judges compared each design with the competition rules.",
+      "promptZh": "評判把每項設計與比賽規則作比較。",
+      "starter": "The",
+      "answer": "The judges measured each design against the competition rules.",
+      "answerZh": "評判按照比賽規則衡量每項設計。",
+      "highlight": "measured",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Mark exactly ten metres of rope for the game.",
+      "promptZh": "為遊戲量出並標記正好十米繩子。",
+      "starter": "Measure",
+      "answer": "Measure off ten metres of rope for the game.",
+      "answerZh": "為遊戲量出十米繩子。",
+      "highlight": "Measure off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Leo carefully prepared the exact amount of rice needed for dinner.",
+      "promptZh": "里奧小心地準備了晚餐所需的確切米量。",
+      "starter": "Leo",
+      "answer": "Leo carefully measured out the rice needed for dinner.",
+      "answerZh": "里奧小心地量出了晚餐所需的米量。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The tailor took Sam’s measurements for a new suit.",
+      "promptZh": "裁縫為森姆量身訂製一套新西裝。",
+      "starter": "The",
+      "answer": "The tailor measured Sam up for a new suit.",
+      "answerZh": "裁縫為森姆量身訂製一套新西裝。",
+      "highlight": "measured Sam up",
+      "targetForm": "measure somebody up for something",
+      "targetMeaningZh": "為某用途量度某人的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "This cheap camera is not as good as the older model.",
+      "promptZh": "這部便宜的相機不及較舊的型號好。",
+      "starter": "This",
+      "answer": "This cheap camera does not measure up to the older model.",
+      "answerZh": "這部便宜的相機比不上較舊的型號。",
+      "highlight": "camera does",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某事物的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Our coach compares every runner’s time with the same standard.",
+      "promptZh": "我們的教練按照同一標準比較每名跑手的時間。",
+      "starter": "Our",
+      "answer": "Our coach measures every runner’s time against the same standard.",
+      "answerZh": "我們的教練按照同一標準衡量每名跑手的時間。",
+      "highlight": "measures",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The teacher marked a five-metre distance on the playground.",
+      "promptZh": "老師在操場上量出並標記了五米的距離。",
+      "starter": "The",
+      "answer": "The teacher measured off a five-metre distance on the playground.",
+      "answerZh": "老師在操場上量出了五米的距離。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Priya has prepared exactly one litre of paint for the first wall.",
+      "promptZh": "普里雅已為第一幅牆準備了正好一公升油漆。",
+      "starter": "Priya",
+      "answer": "Priya has measured out exactly one litre of paint for the first wall.",
+      "answerZh": "普里雅已為第一幅牆量出了正好一公升油漆。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We will mark a three-metre section of the garden for the new flower bed.",
+      "promptZh": "我們會在花園量出一段三米的地方作為新花圃。",
+      "starter": "We",
+      "answer": "We will measure off a three-metre section of the garden for the new flower bed.",
+      "answerZh": "我們會在花園量出一段三米的地方作為新花圃。",
+      "highlight": "measure off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Every new product should be compared with the same safety rules.",
+      "promptZh": "每件新產品都應按照相同的安全規則來衡量。",
+      "starter": "Every",
+      "answer": "Every new product should be measured against the same safety rules.",
+      "answerZh": "每件新產品都應按照相同的安全規則來衡量。",
+      "highlight": "measured against",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Have you taken the window’s measurements for the new blind?",
+      "promptZh": "你為新捲簾量度窗戶尺寸了嗎?",
+      "starter": "Have",
+      "answer": "Have you measured the window up for the new blind?",
+      "answerZh": "你為新捲簾量度窗戶尺寸了嗎?",
+      "highlight": "measured",
+      "targetForm": "measure something up for something",
+      "targetMeaningZh": "為某用途量度某物的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Is this small speaker as good as the larger one?",
+      "promptZh": "這個小型揚聲器和較大的那個一樣好嗎?",
+      "starter": "Does",
+      "answer": "Does this small speaker measure up to the larger one?",
+      "answerZh": "這個小型揚聲器能達到較大型號的水平嗎?",
+      "highlight": "Does",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某事物的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Do not prepare the exact amount of sugar until the bowl is ready.",
+      "promptZh": "碗子準備好之前,不要量出所需的糖。",
+      "starter": "Do",
+      "answer": "Do not measure out the sugar until the bowl is ready.",
+      "answerZh": "碗子準備好之前,不要量出所需的糖。",
+      "highlight": "measure out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The workers are using a tape to mark a safe area around the machine.",
+      "promptZh": "工人正使用捲尺在機器周圍量出一個安全範圍。",
+      "starter": "The",
+      "answer": "The workers are measuring off a safe area around the machine.",
+      "answerZh": "工人正量出並劃定機器周圍的安全範圍。",
+      "highlight": "measuring off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The school has compared its results with those of similar schools.",
+      "promptZh": "學校已把自己的成績與類似學校的成績作比較。",
+      "starter": "The",
+      "answer": "The school has measured its results against those of similar schools.",
+      "answerZh": "學校已把自己的成績與類似學校的成績作比較。",
+      "highlight": "measured",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某人或某事物作標準來衡量"
+    },
+    {
+      "id": "phrasal-verb-214-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Ella’s measurements were taken for her new school uniform yesterday.",
+      "promptZh": "昨天有人為埃拉量度了新校服所需的尺寸。",
+      "starter": "Ella",
+      "answer": "Ella was measured up for her new school uniform yesterday.",
+      "answerZh": "昨天有人為埃拉量度了新校服所需的尺寸。",
+      "highlight": "Ella was measured up",
+      "targetForm": "measure somebody up for something",
+      "targetMeaningZh": "為某用途量度某人的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The new plan must be as good as the parents expect.",
+      "promptZh": "新計劃必須達到家長的期望。",
+      "starter": "The",
+      "answer": "The new plan must measure up to the parents’ expectations.",
+      "answerZh": "新計劃必須達到家長的期望。",
+      "highlight": "measure up to",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某項要求或期望"
+    },
+    {
+      "id": "phrasal-verb-214-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "How much milk did you prepare for the soup?",
+      "promptZh": "你為這道湯量取了多少牛奶?",
+      "starter": "How",
+      "answer": "How much milk did you measure out for the soup?",
+      "answerZh": "你為這道湯量取了多少牛奶?",
+      "highlight": "measure out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We needed four metres of cable, so Ben marked the correct length before cutting it.",
+      "promptZh": "我們需要四米電線,所以賓在剪斷前量出並標記了正確長度。",
+      "starter": "We",
+      "answer": "We needed four metres of cable, so Ben measured off the correct length before cutting it.",
+      "answerZh": "我們需要四米電線,所以賓在剪斷前量出了正確長度。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The sofa may fit, but we should take the room’s measurements first.",
+      "promptZh": "梳化可能放得下,但我們應該先量度房間尺寸。",
+      "starter": "The",
+      "answer": "The sofa may fit, but we should measure the room up first.",
+      "answerZh": "梳化可能放得下,但我們應該先量度房間尺寸。",
+      "highlight": "measure",
+      "targetForm": "measure something up",
+      "targetMeaningZh": "量度某物或地方的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The exact amount of medicine must be prepared carefully before it is given to the child.",
+      "promptZh": "把藥物給孩子服用前,必須小心量出正確份量。",
+      "starter": "The",
+      "answer": "The medicine must be measured out carefully before it is given to the child.",
+      "answerZh": "把藥物給孩子服用前,必須小心量出正確份量。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When the final score is compared with last year’s result, the improvement is clear.",
+      "promptZh": "把最終分數與去年的成績比較時,進步便十分明顯。",
+      "starter": "When",
+      "answer": "When the final score is measured against last year’s result, the improvement is clear.",
+      "answerZh": "把最終分數與去年的成績比較時,進步便十分明顯。",
+      "highlight": "measured against",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物作標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The assistant marked exactly two metres and cut the cloth there.",
+      "promptZh": "助手量出正好兩米,然後在該處剪開布料。",
+      "starter": "The",
+      "answer": "The assistant measured off two metres and cut the cloth there.",
+      "answerZh": "助手量出兩米,然後在該處剪開布料。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The new assistant was not good enough for the job.",
+      "promptZh": "新助理未能達到這份工作的要求。",
+      "starter": "The",
+      "answer": "The new assistant failed to measure up to the job.",
+      "answerZh": "新助理未能達到這份工作的要求。",
+      "highlight": "failed to measure up to",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某項工作或要求所需的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After taking the kitchen’s measurements, we decided where the table could go.",
+      "promptZh": "量度廚房尺寸後,我們決定了桌子可以放在哪裏。",
+      "starter": "After",
+      "answer": "After measuring the kitchen up, we decided where the table could go.",
+      "answerZh": "量度廚房尺寸後,我們決定了桌子可以放在哪裏。",
+      "highlight": "measuring",
+      "targetForm": "measure something up",
+      "targetMeaningZh": "量度某物或地方的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Zara prepared the exact amounts of the ingredients before the children began making the cake.",
+      "promptZh": "孩子們開始製作蛋糕前,扎拉量出了各種材料的準確份量。",
+      "starter": "Zara",
+      "answer": "Zara measured out the ingredients before the children began making the cake.",
+      "answerZh": "孩子們開始製作蛋糕前,扎拉量出了各種材料的份量。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We need to compare the new service with what customers were promised.",
+      "promptZh": "我們需要把新服務與向顧客承諾的內容作比較。",
+      "starter": "We",
+      "answer": "We need to measure the new service against what customers were promised.",
+      "answerZh": "我們需要把新服務與向顧客承諾的內容作比較。",
+      "highlight": "measure",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物作標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A twenty-metre running lane was marked beside the sports hall.",
+      "promptZh": "體育館旁邊量出並劃定了一條二十米長的跑道。",
+      "starter": "A",
+      "answer": "A twenty-metre running lane was measured off beside the sports hall.",
+      "answerZh": "體育館旁邊量出並劃定了一條二十米長的跑道。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Omar works hard, but he is still not as good as the strongest players.",
+      "promptZh": "奧馬十分努力,但他的表現仍不及最出色的球員。",
+      "starter": "Omar",
+      "answer": "Omar works hard, but he still does not measure up to the strongest players.",
+      "answerZh": "奧馬十分努力,但他的表現仍不及最出色的球員。",
+      "highlight": "Omar works hard, but he still does",
+      "targetForm": "measure up to somebody",
+      "targetMeaningZh": "達到某人的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Could the shop assistant take your measurements for the jacket?",
+      "promptZh": "店員可以為你量度外套所需的尺寸嗎?",
+      "starter": "Could",
+      "answer": "Could the shop assistant measure you up for the jacket?",
+      "answerZh": "店員可以為你量度外套所需的尺寸嗎?",
+      "highlight": "measure you up",
+      "targetForm": "measure somebody up for something",
+      "targetMeaningZh": "為某用途量度某人的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before you prepare the exact amount of flour, place the bowl on the scales.",
+      "promptZh": "量取所需的麵粉前,先把碗放在磅秤上。",
+      "starter": "Before",
+      "answer": "Before you measure out the flour, place the bowl on the scales.",
+      "answerZh": "量取所需的麵粉前,先把碗放在磅秤上。",
+      "highlight": "measure out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Even after several changes, the app is still not as good as the old version.",
+      "promptZh": "即使經過多次修改,這個應用程式仍不及舊版本好。",
+      "starter": "Even",
+      "answer": "Even after several changes, the app still does not measure up to the old version.",
+      "answerZh": "即使經過多次修改,這個應用程式仍不及舊版本好。",
+      "highlight": "does",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某事物的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The designer took the empty wall’s measurements for a new set of shelves.",
+      "promptZh": "設計師量度了空牆的尺寸,以安裝一組新層架。",
+      "starter": "The",
+      "answer": "The designer measured the empty wall up for a new set of shelves.",
+      "answerZh": "設計師量度了空牆的尺寸,以安裝一組新層架。",
+      "highlight": "measured",
+      "targetForm": "measure something up for something",
+      "targetMeaningZh": "為某用途量度某物的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The organiser did not judge the two teams by different rules; she compared both teams’ work with the same standard.",
+      "promptZh": "主辦人沒有用不同規則評審兩隊,而是按照同一標準比較兩隊的作品。",
+      "starter": "The",
+      "answer": "The organiser did not judge the two teams by different rules; she measured both teams’ work against the same standard.",
+      "answerZh": "主辦人沒有用不同規則評審兩隊,而是按照同一標準衡量兩隊的作品。",
+      "highlight": "measured",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以同一事物或標準來衡量"
+    },
+    {
+      "id": "phrasal-verb-214-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Before planting the trees, the workers marked equal spaces along the path.",
+      "promptZh": "種樹前,工人在小路旁量出並標記了相同距離的位置。",
+      "starter": "Before",
+      "answer": "Before planting the trees, the workers measured off equal spaces along the path.",
+      "answerZh": "種樹前,工人在小路旁量出了相同距離的位置。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The nurse prepared the correct amount of medicine in a small cup.",
+      "promptZh": "護士在小杯中量出了正確份量的藥物。",
+      "starter": "The",
+      "answer": "The nurse measured out the correct amount of medicine into a small cup.",
+      "answerZh": "護士把正確份量的藥物量進一個小杯中。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The hotel room looked modern, but it was not as good as we expected after seeing the photos online.",
+      "promptZh": "酒店房間看起來很現代化,但沒有我們看過網上照片後所期望的那麼好。",
+      "starter": "The",
+      "answer": "The hotel room looked modern, but it did not measure up to our expectations after seeing the photos online.",
+      "answerZh": "酒店房間看起來很現代化,但沒有達到我們看過網上照片後的期望。",
+      "highlight": "modern, but it did",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某項期望"
+    },
+    {
+      "id": "phrasal-verb-214-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We took all the necessary measurements for the new furniture before visiting the shop.",
+      "promptZh": "前往店舖前,我們量度了購買新家具所需的所有尺寸。",
+      "starter": "We",
+      "answer": "We measured up for the new furniture before visiting the shop.",
+      "answerZh": "前往店舖前,我們量度了購買新家具所需的尺寸。",
+      "highlight": "measured up",
+      "targetForm": "measure up for something",
+      "targetMeaningZh": "為某用途量度所需尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "A fair test compares every student’s work with the same clear rules.",
+      "promptZh": "公平的測驗會按照相同而清晰的規則衡量每名學生的作業。",
+      "starter": "A",
+      "answer": "A fair test measures every student’s work against the same clear rules.",
+      "answerZh": "公平的測驗會按照相同而清晰的規則衡量每名學生的作業。",
+      "highlight": "measures",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Use the tape to mark six equal sections of ribbon.",
+      "promptZh": "使用捲尺量出並標記六段相同長度的絲帶。",
+      "starter": "Use",
+      "answer": "Use the tape to measure off six equal sections of ribbon.",
+      "answerZh": "使用捲尺量出六段相同長度的絲帶。",
+      "highlight": "measure off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The recipe asks you to prepare the exact amount of oil rather than guess the amount.",
+      "promptZh": "食譜要求你量出正確的油量,而不是猜測份量。",
+      "starter": "The",
+      "answer": "The recipe asks you to measure out the oil rather than guess the amount.",
+      "answerZh": "食譜要求你量出正確的油量,而不是猜測份量。",
+      "highlight": "measure out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Will the new café be as good as the one that closed last year?",
+      "promptZh": "新咖啡店會和去年結業的那間一樣好嗎?",
+      "starter": "Will",
+      "answer": "Will the new café measure up to the one that closed last year?",
+      "answerZh": "新咖啡店能達到去年結業那間咖啡店的水平嗎?",
+      "highlight": "measure up to",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某人或某事物的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before making the new curtains, the designer took the exact measurements of each window.",
+      "promptZh": "製作新窗簾前,設計師準確量度了每扇窗戶的尺寸。",
+      "starter": "Before",
+      "answer": "Before making the new curtains, the designer measured each window up.",
+      "answerZh": "製作新窗簾前,設計師量度了每扇窗戶的尺寸。",
+      "highlight": "measured",
+      "targetForm": "measure something up",
+      "targetMeaningZh": "量度某物的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "To choose fairly, the panel compared each idea with the same three clear rules.",
+      "promptZh": "為了公平選擇,評審小組按照相同的三項清晰規則衡量每個構思。",
+      "starter": "To",
+      "answer": "To choose fairly, the panel measured each idea against the same three clear rules.",
+      "answerZh": "為了公平選擇,評審小組按照相同的三項清晰規則衡量每個構思。",
+      "highlight": "measured",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The first episode was excellent, but the rest of the series was never as good.",
+      "promptZh": "第一集十分出色,但其餘集數始終未能達到相同水平。",
+      "starter": "The",
+      "answer": "The first episode was excellent, but the rest of the series never measured up.",
+      "answerZh": "第一集十分出色,但其餘集數始終未能達到相同水平。",
+      "highlight": "measured up",
+      "targetForm": "measure up",
+      "targetMeaningZh": "達到應有或預期的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Once the floor was clear, we marked a square area for the dance practice.",
+      "promptZh": "清理地面後,我們量出並劃定了一個方形範圍作舞蹈練習。",
+      "starter": "Once",
+      "answer": "Once the floor was clear, we measured off a square area for the dance practice.",
+      "answerZh": "清理地面後,我們量出並劃定了一個方形範圍作舞蹈練習。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並劃定確切長度或範圍"
+    },
+    {
+      "id": "phrasal-verb-214-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the class started cooking, each group prepared the exact amounts of its own ingredients.",
+      "promptZh": "全班開始烹飪前,每組都量出了自己所需的材料份量。",
+      "starter": "Before",
+      "answer": "Before the class started cooking, each group measured out its own ingredients.",
+      "answerZh": "全班開始烹飪前,每組都量出了自己所需的材料份量。",
+      "highlight": "measured out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The hall looked large enough, but we took its measurements before ordering the tables.",
+      "promptZh": "禮堂看起來足夠大,但我們在訂購桌子前仍量度了它的尺寸。",
+      "starter": "The",
+      "answer": "The hall looked large enough, but we measured it up before ordering the tables.",
+      "answerZh": "禮堂看起來足夠大,但我們在訂購桌子前仍量度了它的尺寸。",
+      "highlight": "measured it up",
+      "targetForm": "measure something up",
+      "targetMeaningZh": "量度某物或地方的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If the reading is compared with the normal range, it is slightly high.",
+      "promptZh": "如果把讀數與正常範圍比較,它便略為偏高。",
+      "starter": "If",
+      "answer": "If the reading is measured against the normal range, it is slightly high.",
+      "answerZh": "如果把讀數與正常範圍比較,它便略為偏高。",
+      "highlight": "measured against",
+      "targetForm": "measure something against something",
+      "targetMeaningZh": "以某事物或標準來衡量或比較"
+    },
+    {
+      "id": "phrasal-verb-214-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The replacement parts look similar, but they may not be as good as the originals.",
+      "promptZh": "替換零件看起來很相似,但質素可能不及原裝零件。",
+      "starter": "The",
+      "answer": "The replacement parts look similar, but they may not measure up to the originals.",
+      "answerZh": "替換零件看起來很相似,但質素可能不及原裝零件。",
+      "highlight": "measure up to",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某事物的水平"
+    },
+    {
+      "id": "phrasal-verb-214-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The rope had to be shared equally, so the guide marked five metres for each team.",
+      "promptZh": "繩子需要平均分配,所以領隊為每隊量出了五米。",
+      "starter": "The",
+      "answer": "The rope had to be shared equally, so the guide measured off five metres for each team.",
+      "answerZh": "繩子需要平均分配,所以領隊為每隊量出了五米。",
+      "highlight": "measured off",
+      "targetForm": "measure something off",
+      "targetMeaningZh": "量出並標記或截取確切長度"
+    },
+    {
+      "id": "phrasal-verb-214-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The bag contains enough rice for several meals; prepare only the amount you need tonight.",
+      "promptZh": "袋中有足夠多餐食用的米;今晚只量出你所需的份量。",
+      "starter": "The",
+      "answer": "The bag contains enough rice for several meals; measure out only what you need tonight.",
+      "answerZh": "袋中有足夠多餐食用的米;今晚只量出你所需的份量。",
+      "highlight": "measure out",
+      "targetForm": "measure something out",
+      "targetMeaningZh": "量出所需的確切份量"
+    },
+    {
+      "id": "phrasal-verb-214-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "First, the tailor took Ravi’s measurements for the suit; then he asked Ravi to choose the cloth.",
+      "promptZh": "裁縫先為拉維量度西裝所需的尺寸,然後請他選擇布料。",
+      "starter": "First",
+      "answer": "First, the tailor measured Ravi up for the suit; then he asked Ravi to choose the cloth.",
+      "answerZh": "裁縫先為拉維量度西裝所需的尺寸,然後請他選擇布料。",
+      "highlight": "measured Ravi up",
+      "targetForm": "measure somebody up for something",
+      "targetMeaningZh": "為某用途量度某人的尺寸"
+    },
+    {
+      "id": "phrasal-verb-214-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Instead of comparing yourself with the best student in the class, compare yourself with your own earlier work.",
+      "promptZh": "與其把自己與班中最優秀的學生比較,不如把自己與過往的作品比較。",
+      "starter": "Instead",
+      "answer": "Instead of comparing yourself with the best student in the class, measure yourself against your own earlier work.",
+      "answerZh": "與其把自己與班中最優秀的學生比較,不如按照自己過往的作品衡量自己的進步。",
+      "highlight": "measure",
+      "targetForm": "measure yourself against something",
+      "targetMeaningZh": "以某事物作標準來衡量自己"
+    },
+    {
+      "id": "phrasal-verb-214-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Although the new assistant was friendly and punctual, she was not good enough for what the job required.",
+      "promptZh": "雖然新助理友善而且準時,但她未能達到工作要求。",
+      "starter": "Although",
+      "answer": "Although the new assistant was friendly and punctual, she did not measure up to what the job required.",
+      "answerZh": "雖然新助理友善而且準時,但她未能達到工作要求。",
+      "highlight": "did",
+      "targetForm": "measure up to something",
+      "targetMeaningZh": "達到某項工作或要求所需的水平"
+    }
+  ]
+}

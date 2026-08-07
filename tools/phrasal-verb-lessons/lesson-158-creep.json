@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-158",
+  "order": 158,
+  "slug": "creep",
+  "version": "1",
+  "title": "CREEP 動詞片語",
+  "titleEn": "Creep",
+  "titleZh": "CREEP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 157 - CREEP.pdf",
+    "sourceNumber": 157,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CREEP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CREEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CREEP",
+      "highlight": "CREEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A few mistakes crept into the report.",
+      "zh": "報告不知不覺間出現了幾個錯誤。",
+      "highlight": "A",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A feeling of tiredness crept over him.",
+      "zh": "他漸漸感到疲倦。",
+      "highlight": "A",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "House prices are creeping up.",
+      "zh": "樓價正慢慢上升。",
+      "highlight": "creeping up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物；某種感覺慢慢襲來,或逐漸籠罩某人或某處；價格、數量、溫度或水平慢慢上升；日期或事情在人沒有充分留意下慢慢臨近",
+    "en": "creep in / creep into something; creep over somebody/something; creep up; creep up on somebody",
+    "naturalZh": [
+      "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+      "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+      "價格、數量、溫度或水平慢慢上升",
+      "日期或事情在人沒有充分留意下慢慢臨近"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "creep in / creep into something",
+      "titleZh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+      "titleEn": "creep in / creep into something",
+      "descriptionZh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+      "descriptionEn": "A few mistakes crept into the report.",
+      "examples": [
+        {
+          "en": "A few mistakes crept into the report.",
+          "zh": "報告不知不覺間出現了幾個錯誤。",
+          "highlight": "A"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "creep over somebody/something",
+      "titleZh": "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+      "titleEn": "creep over somebody/something",
+      "descriptionZh": "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+      "descriptionEn": "A feeling of tiredness crept over him.",
+      "examples": [
+        {
+          "en": "A feeling of tiredness crept over him.",
+          "zh": "他漸漸感到疲倦。",
+          "highlight": "A"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "creep up",
+      "titleZh": "價格、數量、溫度或水平慢慢上升",
+      "titleEn": "creep up",
+      "descriptionZh": "價格、數量、溫度或水平慢慢上升",
+      "descriptionEn": "House prices are creeping up.",
+      "examples": [
+        {
+          "en": "House prices are creeping up.",
+          "zh": "樓價正慢慢上升。",
+          "highlight": "creeping up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "creep up on somebody",
+      "titleZh": "日期或事情在人沒有充分留意下慢慢臨近",
+      "titleEn": "creep up on somebody",
+      "descriptionZh": "日期或事情在人沒有充分留意下慢慢臨近",
+      "descriptionEn": "The exams crept up on me.",
+      "examples": [
+        {
+          "en": "The exams crept up on me.",
+          "zh": "考試不知不覺間便臨近了。",
+          "highlight": "The"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CREEP 片語動詞的實際用途",
+    "labelEn": "CREEP Phrasal Verbs in Use",
+    "summaryZh": "creep in 和 creep into something 可以描述疑慮、錯誤或不理想的變化慢慢出現,而人們起初未必察覺。；creep up 可以描述價格、溫度、數量和水平一點一點地上升。；creep over somebody 可以表示疲倦、恐懼、平靜或其他感覺逐漸影響某人或一群人。；creep up on somebody 可以描述考試、限期或特別日子在人尚未準備好時,便不知不覺地臨近。",
+    "summaryEn": "Creep in and creep into something help you describe doubts, mistakes or unwanted changes that appear slowly and quietly. Creep up can describe prices, temperatures, numbers and levels that rise little by little. Creep over somebody can show how tiredness, fear, calm or another feeling gradually affects a person or group. Creep up on somebody can describe an exam, deadline or special day that becomes close before the person feels ready.",
+    "contextsZh": [
+      "描述難以察覺的變化",
+      "清楚描述緩慢的升幅",
+      "描述慢慢襲來的感覺",
+      "描述事情為何突然顯得迫近"
+    ],
+    "contextsEn": [
+      "Describe changes that are difficult to notice",
+      "Talk clearly about slow increases",
+      "Describe feelings that slowly affect someone",
+      "Explain why an event feels surprisingly close"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CREEP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CREEP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "creep in / creep into something",
+    "fixedHighlight": "creep in / creep into something",
+    "fixedZh": "閱讀整句,選出意思相同的 CREEP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CREEP expression that gives the same meaning.",
+    "correct": "A",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；creep in 可以單獨使用;creep into something 則指出某種想法、感覺或錯誤慢慢出現在哪裏。；creep up 表示價格、數量或水平慢慢上升;creep up on somebody 則表示日期或事情在人沒有充分留意下慢慢臨近。",
+    "variableEn": "Keep the same people, things, time and meaning. Creep in can be used by itself. Creep into something tells us where a thought, feeling or mistake slowly appears. Creep up means that a price, number or level slowly rises. Creep up on somebody means that a date or event gets close before the person fully notices.",
+    "variableItemsZh": [
+      "creep in / creep into something",
+      "creep over somebody/something",
+      "creep up",
+      "creep up on somebody"
+    ],
+    "variableItemsEn": [
+      "creep in / creep into something",
+      "creep over somebody/something",
+      "creep up",
+      "creep up on somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+        "formEn": "creep in / creep into something",
+        "exampleZh": "報告不知不覺間出現了幾個錯誤。",
+        "exampleEn": "A few mistakes crept into the report.",
+        "highlight": "A"
+      },
+      {
+        "formZh": "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+        "formEn": "creep over somebody/something",
+        "exampleZh": "他漸漸感到疲倦。",
+        "exampleEn": "A feeling of tiredness crept over him.",
+        "highlight": "A"
+      },
+      {
+        "formZh": "價格、數量、溫度或水平慢慢上升",
+        "formEn": "creep up",
+        "exampleZh": "樓價正慢慢上升。",
+        "exampleEn": "House prices are creeping up.",
+        "highlight": "creeping up"
+      },
+      {
+        "formZh": "日期或事情在人沒有充分留意下慢慢臨近",
+        "formEn": "creep up on somebody",
+        "exampleZh": "考試不知不覺間便臨近了。",
+        "exampleEn": "The exams crept up on me.",
+        "highlight": "The"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+      "titleEn": "creep in / creep into something",
+      "formula": "creep in / creep into something",
+      "highlight": "creep in / creep into something",
+      "descriptionZh": "某種想法、感覺、錯誤或變化不知不覺地出現,或慢慢進入某事物",
+      "descriptionEn": "A few mistakes crept into the report.",
+      "examples": [
+        {
+          "en": "A few mistakes crept into the report.",
+          "zh": "報告不知不覺間出現了幾個錯誤。",
+          "highlight": "A"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+      "titleEn": "creep over somebody/something",
+      "formula": "creep over somebody/something",
+      "highlight": "creep over somebody/something",
+      "descriptionZh": "某種感覺慢慢襲來,或逐漸籠罩某人或某處",
+      "descriptionEn": "A feeling of tiredness crept over him.",
+      "examples": [
+        {
+          "en": "A feeling of tiredness crept over him.",
+          "zh": "他漸漸感到疲倦。",
+          "highlight": "A"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "價格、數量、溫度或水平慢慢上升",
+      "titleEn": "creep up",
+      "formula": "creep up",
+      "highlight": "creep up",
+      "descriptionZh": "價格、數量、溫度或水平慢慢上升",
+      "descriptionEn": "House prices are creeping up.",
+      "examples": [
+        {
+          "en": "House prices are creeping up.",
+          "zh": "樓價正慢慢上升。",
+          "highlight": "creeping up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "日期或事情在人沒有充分留意下慢慢臨近",
+      "titleEn": "creep up on somebody",
+      "formula": "creep up on somebody",
+      "highlight": "creep up on somebody",
+      "descriptionZh": "日期或事情在人沒有充分留意下慢慢臨近",
+      "descriptionEn": "The exams crept up on me.",
+      "examples": [
+        {
+          "en": "The exams crept up on me.",
+          "zh": "考試不知不覺間便臨近了。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述難以察覺的變化",
+      "titleEn": "Describe changes that are difficult to notice",
+      "zh": "creep in 和 creep into something 可以描述疑慮、錯誤或不理想的變化慢慢出現,而人們起初未必察覺。",
+      "en": "Creep in and creep into something help you describe doubts, mistakes or unwanted changes that appear slowly and quietly."
+    },
+    {
+      "titleZh": "清楚描述緩慢的升幅",
+      "titleEn": "Talk clearly about slow increases",
+      "zh": "creep up 可以描述價格、溫度、數量和水平一點一點地上升。",
+      "en": "Creep up can describe prices, temperatures, numbers and levels that rise little by little."
+    },
+    {
+      "titleZh": "描述慢慢襲來的感覺",
+      "titleEn": "Describe feelings that slowly affect someone",
+      "zh": "creep over somebody 可以表示疲倦、恐懼、平靜或其他感覺逐漸影響某人或一群人。",
+      "en": "Creep over somebody can show how tiredness, fear, calm or another feeling gradually affects a person or group."
+    },
+    {
+      "titleZh": "描述事情為何突然顯得迫近",
+      "titleEn": "Explain why an event feels surprisingly close",
+      "zh": "creep up on somebody 可以描述考試、限期或特別日子在人尚未準備好時,便不知不覺地臨近。",
+      "en": "Creep up on somebody can describe an exam, deadline or special day that becomes close before the person feels ready."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述難以察覺的變化",
+      "清楚描述緩慢的升幅",
+      "描述慢慢襲來的感覺",
+      "描述事情為何突然顯得迫近"
+    ],
+    "contextsEn": [
+      "Describe changes that are difficult to notice",
+      "Talk clearly about slow increases",
+      "Describe feelings that slowly affect someone",
+      "Explain why an event feels surprisingly close"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述難以察覺的變化",
+        "titleEn": "Describe changes that are difficult to notice",
+        "zh": "creep in 和 creep into something 可以描述疑慮、錯誤或不理想的變化慢慢出現,而人們起初未必察覺。",
+        "en": "Creep in and creep into something help you describe doubts, mistakes or unwanted changes that appear slowly and quietly.",
+        "examples": [
+          {
+            "en": "A few mistakes crept into the report.",
+            "zh": "報告不知不覺間出現了幾個錯誤。",
+            "highlight": "A"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述緩慢的升幅",
+        "titleEn": "Talk clearly about slow increases",
+        "zh": "creep up 可以描述價格、溫度、數量和水平一點一點地上升。",
+        "en": "Creep up can describe prices, temperatures, numbers and levels that rise little by little.",
+        "examples": [
+          {
+            "en": "A feeling of tiredness crept over him.",
+            "zh": "他漸漸感到疲倦。",
+            "highlight": "A"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述慢慢襲來的感覺",
+        "titleEn": "Describe feelings that slowly affect someone",
+        "zh": "creep over somebody 可以表示疲倦、恐懼、平靜或其他感覺逐漸影響某人或一群人。",
+        "en": "Creep over somebody can show how tiredness, fear, calm or another feeling gradually affects a person or group.",
+        "examples": [
+          {
+            "en": "House prices are creeping up.",
+            "zh": "樓價正慢慢上升。",
+            "highlight": "creeping up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述事情為何突然顯得迫近",
+        "titleEn": "Explain why an event feels surprisingly close",
+        "zh": "creep up on somebody 可以描述考試、限期或特別日子在人尚未準備好時,便不知不覺地臨近。",
+        "en": "Creep up on somebody can describe an exam, deadline or special day that becomes close before the person feels ready.",
+        "examples": [
+          {
+            "en": "The exams crept up on me.",
+            "zh": "考試不知不覺間便臨近了。",
+            "highlight": "The"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CREEP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CREEP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CREEP 片語動詞。",
+      "en": "Read the whole sentence and choose the CREEP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "creep in 可以單獨使用;creep into something 則指出某種想法、感覺或錯誤慢慢出現在哪裏。",
+      "titleEn": "Creep in can be used by itself.",
+      "zh": "creep in 可以單獨使用;creep into something 則指出某種想法、感覺或錯誤慢慢出現在哪裏。",
+      "en": "Creep in can be used by itself. Creep into something tells us where a thought, feeling or mistake slowly appears."
+    },
+    {
+      "titleZh": "creep up 表示價格、數量或水平慢慢上升;creep up on somebody 則表示日期或事情在人沒有充分留意下慢慢臨近。",
+      "titleEn": "Creep up means that a price, number or level slowly rises.",
+      "zh": "creep up 表示價格、數量或水平慢慢上升;creep up on somebody 則表示日期或事情在人沒有充分留意下慢慢臨近。",
+      "en": "Creep up means that a price, number or level slowly rises. Creep up on somebody means that a date or event gets close before the person fully notices."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CREEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CREEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CREEP 動詞片語句子改寫練習",
+    "titleEn": "CREEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CREEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CREEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-158-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "House prices are starting to rise slowly.",
+      "promptZh": "樓價開始慢慢上升。",
+      "starter": "House",
+      "answer": "House prices are starting to creep up.",
+      "answerZh": "樓價開始慢慢上升。",
+      "highlight": "creep up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "After the first mistake, doubts began to appear little by little.",
+      "promptZh": "出現第一個錯誤後,疑慮開始一點一點地浮現。",
+      "starter": "After",
+      "answer": "After the first mistake, doubts began to creep in.",
+      "answerZh": "出現第一個錯誤後,疑慮開始慢慢浮現。",
+      "highlight": "creep in",
+      "targetForm": "creep in",
+      "targetMeaningZh": "不知不覺地出現"
+    },
+    {
+      "id": "phrasal-verb-158-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The exams seemed to arrive before I noticed how close they were.",
+      "promptZh": "我還未察覺考試已經臨近,它們便似乎來到了。",
+      "starter": "The",
+      "answer": "The exams seemed to creep up on me.",
+      "answerZh": "考試似乎在我沒有留意下便臨近了。",
+      "highlight": "creep up on me",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "A feeling of tiredness slowly spread over Leo.",
+      "promptZh": "疲倦的感覺慢慢襲向里奧。",
+      "starter": "A",
+      "answer": "A feeling of tiredness crept over Leo.",
+      "answerZh": "里奧漸漸感到疲倦。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A small spelling mistake entered the final email without anyone noticing.",
+      "promptZh": "最終版本的電郵在沒有人察覺下出現了一個小拼字錯誤。",
+      "starter": "A",
+      "answer": "A small spelling mistake crept into the final email.",
+      "answerZh": "最終版本的電郵不知不覺間出現了一個小拼字錯誤。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The temperature rose slowly during the afternoon.",
+      "promptZh": "下午期間,氣溫慢慢上升。",
+      "starter": "The",
+      "answer": "The temperature crept up during the afternoon.",
+      "answerZh": "下午期間,氣溫慢慢上升。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The final match arrived sooner than the players expected.",
+      "promptZh": "決賽比球員預期的更快便來臨。",
+      "starter": "The",
+      "answer": "The final match crept up on the players.",
+      "answerZh": "決賽在球員沒有留意下便臨近了。",
+      "highlight": "crept up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A strange calm slowly spread over the room.",
+      "promptZh": "房間慢慢籠罩着一種奇怪的平靜感。",
+      "starter": "A",
+      "answer": "A strange calm crept over the room.",
+      "answerZh": "房間慢慢籠罩着一種奇怪的平靜感。",
+      "highlight": "crept",
+      "targetForm": "creep over something",
+      "targetMeaningZh": "某種感覺或氣氛慢慢籠罩某處"
+    },
+    {
+      "id": "phrasal-verb-158-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "During the long wait, worry slowly began to appear.",
+      "promptZh": "在漫長的等候期間,憂慮慢慢開始浮現。",
+      "starter": "During",
+      "answer": "During the long wait, worry began to creep in.",
+      "answerZh": "在漫長的等候期間,憂慮開始慢慢浮現。",
+      "highlight": "creep in",
+      "targetForm": "creep in",
+      "targetMeaningZh": "不知不覺地出現"
+    },
+    {
+      "id": "phrasal-verb-158-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Friday seemed to arrive before we were ready for it.",
+      "promptZh": "我們還未準備好,星期五便似乎已經來臨。",
+      "starter": "Friday",
+      "answer": "Friday seemed to creep up on us.",
+      "answerZh": "星期五似乎在我們沒有留意下便來到了。",
+      "highlight": "creep up on us",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A cold feeling was slowly spreading over him as he read the message.",
+      "promptZh": "他閱讀訊息時,一股寒意正慢慢襲來。",
+      "starter": "A",
+      "answer": "A cold feeling was creeping over him as he read the message.",
+      "answerZh": "他閱讀訊息時,一股寒意正慢慢襲來。",
+      "highlight": "creeping",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The number of visitors has slowly increased this month.",
+      "promptZh": "本月訪客人數慢慢增加了。",
+      "starter": "The",
+      "answer": "The number of visitors has crept up this month.",
+      "answerZh": "本月訪客人數慢慢增加了。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A few spelling mistakes have entered the report without being noticed.",
+      "promptZh": "報告在沒有人察覺下出現了幾個拼字錯誤。",
+      "starter": "A",
+      "answer": "A few spelling mistakes have crept into the report.",
+      "answerZh": "報告不知不覺間出現了幾個拼字錯誤。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The deadline is getting closer, but the team has hardly noticed.",
+      "promptZh": "限期愈來愈近,但團隊幾乎沒有察覺。",
+      "starter": "The",
+      "answer": "The deadline is creeping up on the team, and they have hardly noticed.",
+      "answerZh": "限期正不知不覺地愈來愈近,而團隊幾乎沒有察覺。",
+      "highlight": "creeping up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "By nine o’clock, sleepiness had slowly spread over the children.",
+      "promptZh": "到了九時,孩子們已漸漸感到睏倦。",
+      "starter": "By",
+      "answer": "By nine o’clock, sleepiness had crept over the children.",
+      "answerZh": "到了九時,孩子們已漸漸感到睏倦。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Is your phone bill slowly increasing again?",
+      "promptZh": "你的電話費是否又在慢慢增加?",
+      "starter": "Is",
+      "answer": "Is your phone bill creeping up again?",
+      "answerZh": "你的電話費是否又在慢慢增加?",
+      "highlight": "creeping up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can doubt slowly enter your mind before a race?",
+      "promptZh": "比賽前,疑慮會否慢慢進入你的腦海?",
+      "starter": "Can",
+      "answer": "Can doubt creep into your mind before a race?",
+      "answerZh": "比賽前,疑慮會否慢慢進入你的腦海?",
+      "highlight": "creep into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A warm feeling of relief began to spread over us.",
+      "promptZh": "一股溫暖的安心感開始慢慢襲來。",
+      "starter": "A",
+      "answer": "A warm feeling of relief began to creep over us.",
+      "answerZh": "一股溫暖的安心感開始慢慢湧上心頭。",
+      "highlight": "creep",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Her birthday had arrived before he realised how near it was.",
+      "promptZh": "他還未察覺她的生日已經臨近,那一天便來到了。",
+      "starter": "Her",
+      "answer": "Her birthday had crept up on him.",
+      "answerZh": "她的生日在他沒有留意下便來到了。",
+      "highlight": "crept up on him",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Food costs may rise slowly next year.",
+      "promptZh": "明年食物成本可能會慢慢上升。",
+      "starter": "Food",
+      "answer": "Food costs may creep up next year.",
+      "answerZh": "明年食物成本可能會慢慢上升。",
+      "highlight": "creep up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The online form looked correct, but one wrong date had entered it without anyone noticing.",
+      "promptZh": "網上表格看來正確,但其中有一個錯誤日期在沒有人察覺下出現了。",
+      "starter": "The",
+      "answer": "The online form looked correct, but one wrong date had crept into it.",
+      "answerZh": "網上表格看來正確,但其中不知不覺間出現了一個錯誤日期。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The interview date was getting closer, but Arun still felt unprepared.",
+      "promptZh": "面試日期愈來愈近,但阿倫仍未準備好。",
+      "starter": "The",
+      "answer": "The interview date was creeping up on Arun, but he still felt unprepared.",
+      "answerZh": "面試日期正不知不覺地臨近阿倫,但他仍未準備好。",
+      "highlight": "creeping up on Arun",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the lights went out, fear slowly spread over her.",
+      "promptZh": "燈光熄滅時,恐懼慢慢襲向她。",
+      "starter": "When",
+      "answer": "When the lights went out, fear crept over her.",
+      "answerZh": "燈光熄滅時,恐懼慢慢襲向她。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The water level was rising slowly, so we moved the boxes higher.",
+      "promptZh": "水位正慢慢上升,所以我們把箱子移到較高的位置。",
+      "starter": "The",
+      "answer": "The water level was creeping up, so we moved the boxes higher.",
+      "answerZh": "水位正慢慢上升,所以我們把箱子移到較高的位置。",
+      "highlight": "creeping up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We were speaking politely at first, but an unfriendly tone was slowly entering the discussion.",
+      "promptZh": "我們起初說話很有禮貌,但討論中慢慢出現了不友善的語氣。",
+      "starter": "We",
+      "answer": "We were speaking politely at first, but an unfriendly tone was creeping into the discussion.",
+      "answerZh": "我們起初說話很有禮貌,但討論中慢慢出現了不友善的語氣。",
+      "highlight": "creeping into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The end of the school year arrived before many students noticed it was close.",
+      "promptZh": "許多學生還未察覺學年即將結束,那一天便來到了。",
+      "starter": "The",
+      "answer": "The end of the school year crept up on many students.",
+      "answerZh": "學年結束的日子在許多學生沒有留意下便臨近了。",
+      "highlight": "crept up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Over the past three months, the class size has slowly increased to thirty.",
+      "promptZh": "過去三個月,班級人數慢慢增加至三十人。",
+      "starter": "Over",
+      "answer": "Over the past three months, the class size has crept up to thirty.",
+      "answerZh": "過去三個月,班級人數慢慢增加至三十人。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "A quiet sadness slowly spread over the group after the news.",
+      "promptZh": "聽到消息後,一股淡淡的悲傷慢慢籠罩整個小組。",
+      "starter": "A",
+      "answer": "A quiet sadness crept over the group after the news.",
+      "answerZh": "聽到消息後,一股淡淡的悲傷慢慢籠罩整個小組。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody/something",
+      "targetMeaningZh": "某種感覺慢慢襲來或籠罩"
+    },
+    {
+      "id": "phrasal-verb-158-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Winter has arrived almost without us noticing.",
+      "promptZh": "冬天幾乎在我們沒有察覺下來臨了。",
+      "starter": "Winter",
+      "answer": "Winter has crept up on us.",
+      "answerZh": "冬天在我們幾乎沒有留意下來臨了。",
+      "highlight": "crept up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not let fear slowly appear in your voice during the speech.",
+      "promptZh": "演講時,不要讓聲音漸漸流露出恐懼。",
+      "starter": "Do",
+      "answer": "Do not let fear creep into your voice during the speech.",
+      "answerZh": "演講時,不要讓聲音漸漸流露出恐懼。",
+      "highlight": "creep into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The holiday seemed far away, but suddenly the family realised it was only a week away.",
+      "promptZh": "假期看似仍很遙遠,但一家人突然發現只剩下一星期。",
+      "starter": "The",
+      "answer": "The holiday seemed far away, but it had crept up on the family and was suddenly only a week away.",
+      "answerZh": "假期看似仍很遙遠,但它已在一家人沒有留意下臨近,突然只剩下一星期。",
+      "highlight": "it had crept up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the teacher read the last letter, a feeling of pride slowly spread over the class.",
+      "promptZh": "老師讀出最後一封信時,一股自豪感慢慢籠罩全班。",
+      "starter": "As",
+      "answer": "As the teacher read the last letter, a feeling of pride crept over the class.",
+      "answerZh": "老師讀出最後一封信時,一股自豪感慢慢籠罩全班。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody/something",
+      "targetMeaningZh": "某種感覺慢慢襲來或籠罩"
+    },
+    {
+      "id": "phrasal-verb-158-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Everything was clear at first, but uncertainty slowly appeared as more questions were asked.",
+      "promptZh": "起初一切都很清楚,但隨着提出的問題愈來愈多,不確定感慢慢出現。",
+      "starter": "Everything",
+      "answer": "Everything was clear at first, but uncertainty crept in as more questions were asked.",
+      "answerZh": "起初一切都很清楚,但隨着提出的問題愈來愈多,不確定感慢慢出現。",
+      "highlight": "crept in",
+      "targetForm": "creep in",
+      "targetMeaningZh": "不知不覺地出現"
+    },
+    {
+      "id": "phrasal-verb-158-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The queue was short at noon, but the number of people in it slowly increased.",
+      "promptZh": "中午時隊伍很短,但排隊人數慢慢增加。",
+      "starter": "The",
+      "answer": "The queue was short at noon, but the number of people in it crept up.",
+      "answerZh": "中午時隊伍很短,但排隊人數慢慢增加。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The move to the new flat seemed months away, but it arrived sooner than they expected.",
+      "promptZh": "搬到新單位的日子看似仍有幾個月,但它比他們預期更早來臨。",
+      "starter": "The",
+      "answer": "The move to the new flat seemed months away, but it crept up on them sooner than they expected.",
+      "answerZh": "搬到新單位的日子看似仍有幾個月,但它比他們預期更早便臨近了。",
+      "highlight": "crept up on them",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "While the wind grew stronger, a nervous feeling slowly spread over the hikers.",
+      "promptZh": "風勢增強時,一股緊張感慢慢襲向幾名行山者。",
+      "starter": "While",
+      "answer": "While the wind grew stronger, a nervous feeling crept over the hikers.",
+      "answerZh": "風勢增強時,一股緊張感慢慢襲向幾名行山者。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The class list was checked twice, but two wrong names still appeared in it without notice.",
+      "promptZh": "班級名單已檢查兩次,但其中仍在沒有人察覺下出現了兩個錯誤名字。",
+      "starter": "The",
+      "answer": "The class list was checked twice, but two wrong names still crept into it.",
+      "answerZh": "班級名單已檢查兩次,但其中仍不知不覺地出現了兩個錯誤名字。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did the last day of the course seem to arrive before everyone expected it?",
+      "promptZh": "課程最後一天為何似乎比所有人預期更早來臨?",
+      "starter": "Why",
+      "answer": "Why did the last day of the course seem to creep up on everyone?",
+      "answerZh": "課程最後一天為何似乎在所有人沒有留意下便臨近了?",
+      "highlight": "creep up on",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Average waiting time increased slowly from eight to eleven minutes.",
+      "promptZh": "平均等候時間由八分鐘慢慢增加至十一分鐘。",
+      "starter": "Average",
+      "answer": "Average waiting time crept up from eight to eleven minutes.",
+      "answerZh": "平均等候時間由八分鐘慢慢增加至十一分鐘。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the argument ended, a sense of peace slowly spread over the house.",
+      "promptZh": "爭吵結束後,一種平靜感慢慢籠罩整間屋。",
+      "starter": "After",
+      "answer": "After the argument ended, a sense of peace crept over the house.",
+      "answerZh": "爭吵結束後,一種平靜感慢慢籠罩整間屋。",
+      "highlight": "crept",
+      "targetForm": "creep over something",
+      "targetMeaningZh": "某種感覺或氣氛慢慢籠罩某處"
+    },
+    {
+      "id": "phrasal-verb-158-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even after a good start, worry can slowly appear when one small thing goes wrong.",
+      "promptZh": "即使開始得很好,一件小事出錯時,憂慮仍可能慢慢出現。",
+      "starter": "Even",
+      "answer": "Even after a good start, worry can creep in when one small thing goes wrong.",
+      "answerZh": "即使開始得很好,一件小事出錯時,憂慮仍可能慢慢出現。",
+      "highlight": "creep in",
+      "targetForm": "creep in",
+      "targetMeaningZh": "不知不覺地出現"
+    },
+    {
+      "id": "phrasal-verb-158-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The shop kept prices low for months, but they have slowly risen since spring.",
+      "promptZh": "店舖多個月來一直維持低價,但自春季起價格已慢慢上升。",
+      "starter": "The",
+      "answer": "The shop kept prices low for months, but they have crept up since spring.",
+      "answerZh": "店舖多個月來一直維持低價,但自春季起價格已慢慢上升。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The concert date still felt far away, yet it arrived before you had finished practising.",
+      "promptZh": "演唱會日期仍感覺很遙遠,但你還未完成練習,那一天便來到了。",
+      "starter": "The",
+      "answer": "The concert date still felt far away, yet it crept up on you before you had finished practising.",
+      "answerZh": "演唱會日期仍感覺很遙遠,但你還未完成練習,那一天便不知不覺地臨近了。",
+      "highlight": "crept up on you",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "She smiled at the message, and a warm feeling of happiness slowly spread over her.",
+      "promptZh": "她看着訊息微笑,一股溫暖的幸福感慢慢湧上心頭。",
+      "starter": "She",
+      "answer": "She smiled at the message, and a warm feeling of happiness crept over her.",
+      "answerZh": "她看着訊息微笑,一股溫暖的幸福感慢慢湧上心頭。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody",
+      "targetMeaningZh": "某種感覺慢慢襲來"
+    },
+    {
+      "id": "phrasal-verb-158-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The first draft was friendly, but a sharper tone slowly entered later versions.",
+      "promptZh": "第一稿的語氣很友善,但後來的版本慢慢出現了較尖銳的語氣。",
+      "starter": "The",
+      "answer": "The first draft was friendly, but a sharper tone crept into later versions.",
+      "answerZh": "第一稿的語氣很友善,但後來的版本慢慢出現了較尖銳的語氣。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    },
+    {
+      "id": "phrasal-verb-158-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As more guests arrived, the noise level slowly became higher.",
+      "promptZh": "隨着更多客人到來,聲浪慢慢提高。",
+      "starter": "As",
+      "answer": "As more guests arrived, the noise level crept up.",
+      "answerZh": "隨着更多客人到來,聲浪慢慢提高。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "He thought he had plenty of time, but race day arrived before he felt ready.",
+      "promptZh": "他以為時間充裕,但在他準備好之前,比賽日便來到了。",
+      "starter": "He",
+      "answer": "He thought he had plenty of time, but race day crept up on him before he felt ready.",
+      "answerZh": "他以為時間充裕,但在他準備好之前,比賽日便不知不覺地臨近了。",
+      "highlight": "crept up on him",
+      "targetForm": "creep up on somebody",
+      "targetMeaningZh": "在某人沒有充分留意下慢慢臨近"
+    },
+    {
+      "id": "phrasal-verb-158-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nobody spoke for a moment, and an uneasy feeling slowly spread over the group.",
+      "promptZh": "大家一時都沒有說話,一股不安感慢慢籠罩整個小組。",
+      "starter": "Nobody",
+      "answer": "Nobody spoke for a moment, and an uneasy feeling crept over the group.",
+      "answerZh": "大家一時都沒有說話,一股不安感慢慢籠罩整個小組。",
+      "highlight": "crept",
+      "targetForm": "creep over somebody/something",
+      "targetMeaningZh": "某種感覺慢慢襲來或籠罩"
+    },
+    {
+      "id": "phrasal-verb-158-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The score stayed level at first, then slowly rose from forty to forty-five.",
+      "promptZh": "分數起初保持不變,然後由四十慢慢升至四十五。",
+      "starter": "The",
+      "answer": "The score stayed level at first, then crept up from forty to forty-five.",
+      "answerZh": "分數起初保持不變,然後由四十慢慢升至四十五。",
+      "highlight": "crept up",
+      "targetForm": "creep up",
+      "targetMeaningZh": "慢慢上升"
+    },
+    {
+      "id": "phrasal-verb-158-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The plan looked simple, but small doubts slowly entered our minds as we discussed the details.",
+      "promptZh": "計劃看來很簡單,但我們討論細節時,心中慢慢產生了一些疑慮。",
+      "starter": "The",
+      "answer": "The plan looked simple, but small doubts crept into our minds as we discussed the details.",
+      "answerZh": "計劃看來很簡單,但我們討論細節時,心中慢慢產生了一些疑慮。",
+      "highlight": "crept into",
+      "targetForm": "creep into something",
+      "targetMeaningZh": "不知不覺地進入或出現於某事物中"
+    }
+  ]
+}

@@ -1,0 +1,1173 @@
+{
+  "id": "phrasal-verb-118",
+  "order": 118,
+  "slug": "want",
+  "version": "1",
+  "title": "WANT 動詞片語",
+  "titleEn": "Want",
+  "titleZh": "WANT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 117 - Want.docx",
+    "sourceNumber": 117,
+    "pageCount": 1,
+    "teachingPdfPages": [
+      1
+    ],
+    "exercisePdfPages": [
+      1
+    ],
+    "contentPdfPages": [
+      1
+    ],
+    "answerKeyPdfPages": [
+      1
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WANT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WANT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WANT",
+      "highlight": "WANT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They worked hard so that their children would want for nothing.",
+      "zh": "他們努力工作,讓子女甚麼必需品也不缺。",
+      "highlight": "want for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do you want in on the school project?",
+      "zh": "你想加入這個學校項目嗎?",
+      "highlight": "want in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She wants out of the agreement.",
+      "zh": "她想退出這項協議。",
+      "highlight": "wants out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "較正式,表示缺少真正需要的東西;常見於否定句。；較口語,表示想加入、參與或成為其中一分子。；較口語,表示想退出或不再參與某事。",
+    "en": "want for something; want in / want in on something; want out / want out of something",
+    "naturalZh": [
+      "較正式,表示缺少真正需要的東西;常見於否定句。",
+      "較口語,表示想加入、參與或成為其中一分子。",
+      "較口語,表示想退出或不再參與某事。"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "want for something",
+      "titleZh": "較正式,表示缺少真正需要的東西;常見於否定句。",
+      "titleEn": "want for something",
+      "descriptionZh": "較正式,表示缺少真正需要的東西;常見於否定句。",
+      "descriptionEn": "They worked hard so that their children would want for nothing.",
+      "examples": [
+        {
+          "en": "They worked hard so that their children would want for nothing.",
+          "zh": "他們努力工作,讓子女甚麼必需品也不缺。",
+          "highlight": "want for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "want in / want in on something",
+      "titleZh": "較口語,表示想加入、參與或成為其中一分子。",
+      "titleEn": "want in / want in on something",
+      "descriptionZh": "較口語,表示想加入、參與或成為其中一分子。",
+      "descriptionEn": "Do you want in on the school project?",
+      "examples": [
+        {
+          "en": "Do you want in on the school project?",
+          "zh": "你想加入這個學校項目嗎?",
+          "highlight": "want in on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "want out / want out of something",
+      "titleZh": "較口語,表示想退出或不再參與某事。",
+      "titleEn": "want out / want out of something",
+      "descriptionZh": "較口語,表示想退出或不再參與某事。",
+      "descriptionEn": "She wants out of the agreement.",
+      "examples": [
+        {
+          "en": "She wants out of the agreement.",
+          "zh": "她想退出這項協議。",
+          "highlight": "wants out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WANT 片語動詞的實際用途",
+    "labelEn": "WANT Phrasal Verbs in Use",
+    "summaryZh": "want for nothing 可以用簡潔而較正式的方式,表示某人擁有所需的食物、衣物、照顧或支援。；want in 和 want in on something 可用來表示想加入團隊、項目、遊戲或計劃。；want out 和 want out of something 可清楚表示不想再留在小組、項目或協議之中。；Want in? 和 I want out 是較口語而直接的說法;want for 則較常見於正式文字。",
+    "summaryEn": "Want for nothing is a concise, formal way to say that someone has all the food, clothing, care or support they need. Want in and want in on something are useful when you want to join a team, project, game or plan. Want out and want out of something make it easy to express that you no longer wish to stay in a group, project or agreement. Want in? and I want out are common, direct forms in informal speech, while want for often appears in more formal writing.",
+    "contextsZh": [
+      "談論生活所需是否充足",
+      "自然表達想加入計劃或活動",
+      "清楚表達想退出",
+      "理解簡短自然的英語對話"
+    ],
+    "contextsEn": [
+      "Talk about having enough of life's basic needs",
+      "Join plans and activities naturally",
+      "Say clearly that you want to leave",
+      "Understand short, natural conversations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WANT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WANT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "want for something",
+    "fixedHighlight": "want for something",
+    "fixedZh": "閱讀整句,選出意思相同的 WANT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WANT expression that gives the same meaning.",
+    "correct": "want for",
+    "incorrectForms": [],
+    "variableZh": "情境清楚時,want in 本身已完整。如要說明想加入甚麼,可用 want in on + 計劃、項目或活動。I want in. / I want in on the project.；情境清楚時,want out 本身已完整。如要說明想退出甚麼,可用 want out of + 小組、計劃或協議。She wants out. / She wants out of the agreement.；want for 較正式,尤其常見於否定意思,例如 want for nothing、never want for anything;也可直接指出缺少的東西。They want for nothing. / The village may want for clean water.",
+    "variableEn": "Want in is complete when the situation is clear. Use want in on + a plan, project or activity when you name what the person wants to join. Want out is complete when the situation is clear. Use want out of + a group, plan or agreement when you name what the person wants to leave. Want for is more formal and is especially common in negative ideas: want for nothing, never want for anything. It can also name something that is missing.",
+    "variableItemsZh": [
+      "want for something",
+      "want in / want in on something",
+      "want out / want out of something"
+    ],
+    "variableItemsEn": [
+      "want for something",
+      "want in / want in on something",
+      "want out / want out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "較正式,表示缺少真正需要的東西;常見於否定句。",
+        "formEn": "want for something",
+        "exampleZh": "他們努力工作,讓子女甚麼必需品也不缺。",
+        "exampleEn": "They worked hard so that their children would want for nothing.",
+        "highlight": "want for"
+      },
+      {
+        "formZh": "較口語,表示想加入、參與或成為其中一分子。",
+        "formEn": "want in / want in on something",
+        "exampleZh": "你想加入這個學校項目嗎?",
+        "exampleEn": "Do you want in on the school project?",
+        "highlight": "want in on"
+      },
+      {
+        "formZh": "較口語,表示想退出或不再參與某事。",
+        "formEn": "want out / want out of something",
+        "exampleZh": "她想退出這項協議。",
+        "exampleEn": "She wants out of the agreement.",
+        "highlight": "wants out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "較正式,表示缺少真正需要的東西;常見於否定句。",
+      "titleEn": "want for something",
+      "formula": "want for something",
+      "highlight": "want for something",
+      "descriptionZh": "較正式,表示缺少真正需要的東西;常見於否定句。",
+      "descriptionEn": "They worked hard so that their children would want for nothing.",
+      "examples": [
+        {
+          "en": "They worked hard so that their children would want for nothing.",
+          "zh": "他們努力工作,讓子女甚麼必需品也不缺。",
+          "highlight": "want for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "較口語,表示想加入、參與或成為其中一分子。",
+      "titleEn": "want in / want in on something",
+      "formula": "want in / want in on something",
+      "highlight": "want in / want in on something",
+      "descriptionZh": "較口語,表示想加入、參與或成為其中一分子。",
+      "descriptionEn": "Do you want in on the school project?",
+      "examples": [
+        {
+          "en": "Do you want in on the school project?",
+          "zh": "你想加入這個學校項目嗎?",
+          "highlight": "want in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "較口語,表示想退出或不再參與某事。",
+      "titleEn": "want out / want out of something",
+      "formula": "want out / want out of something",
+      "highlight": "want out / want out of something",
+      "descriptionZh": "較口語,表示想退出或不再參與某事。",
+      "descriptionEn": "She wants out of the agreement.",
+      "examples": [
+        {
+          "en": "She wants out of the agreement.",
+          "zh": "她想退出這項協議。",
+          "highlight": "wants out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論生活所需是否充足",
+      "titleEn": "Talk about having enough of life's basic needs",
+      "zh": "want for nothing 可以用簡潔而較正式的方式,表示某人擁有所需的食物、衣物、照顧或支援。",
+      "en": "Want for nothing is a concise, formal way to say that someone has all the food, clothing, care or support they need."
+    },
+    {
+      "titleZh": "自然表達想加入計劃或活動",
+      "titleEn": "Join plans and activities naturally",
+      "zh": "want in 和 want in on something 可用來表示想加入團隊、項目、遊戲或計劃。",
+      "en": "Want in and want in on something are useful when you want to join a team, project, game or plan."
+    },
+    {
+      "titleZh": "清楚表達想退出",
+      "titleEn": "Say clearly that you want to leave",
+      "zh": "want out 和 want out of something 可清楚表示不想再留在小組、項目或協議之中。",
+      "en": "Want out and want out of something make it easy to express that you no longer wish to stay in a group, project or agreement."
+    },
+    {
+      "titleZh": "理解簡短自然的英語對話",
+      "titleEn": "Understand short, natural conversations",
+      "zh": "Want in? 和 I want out 是較口語而直接的說法;want for 則較常見於正式文字。",
+      "en": "Want in? and I want out are common, direct forms in informal speech, while want for often appears in more formal writing."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論生活所需是否充足",
+      "自然表達想加入計劃或活動",
+      "清楚表達想退出",
+      "理解簡短自然的英語對話"
+    ],
+    "contextsEn": [
+      "Talk about having enough of life's basic needs",
+      "Join plans and activities naturally",
+      "Say clearly that you want to leave",
+      "Understand short, natural conversations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論生活所需是否充足",
+        "titleEn": "Talk about having enough of life's basic needs",
+        "zh": "want for nothing 可以用簡潔而較正式的方式,表示某人擁有所需的食物、衣物、照顧或支援。",
+        "en": "Want for nothing is a concise, formal way to say that someone has all the food, clothing, care or support they need.",
+        "examples": [
+          {
+            "en": "They worked hard so that their children would want for nothing.",
+            "zh": "他們努力工作,讓子女甚麼必需品也不缺。",
+            "highlight": "want for"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然表達想加入計劃或活動",
+        "titleEn": "Join plans and activities naturally",
+        "zh": "want in 和 want in on something 可用來表示想加入團隊、項目、遊戲或計劃。",
+        "en": "Want in and want in on something are useful when you want to join a team, project, game or plan.",
+        "examples": [
+          {
+            "en": "Do you want in on the school project?",
+            "zh": "你想加入這個學校項目嗎?",
+            "highlight": "want in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達想退出",
+        "titleEn": "Say clearly that you want to leave",
+        "zh": "want out 和 want out of something 可清楚表示不想再留在小組、項目或協議之中。",
+        "en": "Want out and want out of something make it easy to express that you no longer wish to stay in a group, project or agreement.",
+        "examples": [
+          {
+            "en": "She wants out of the agreement.",
+            "zh": "她想退出這項協議。",
+            "highlight": "wants out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解簡短自然的英語對話",
+        "titleEn": "Understand short, natural conversations",
+        "zh": "Want in? 和 I want out 是較口語而直接的說法;want for 則較常見於正式文字。",
+        "en": "Want in? and I want out are common, direct forms in informal speech, while want for often appears in more formal writing.",
+        "examples": [
+          {
+            "en": "They worked hard so that their children would want for nothing.",
+            "zh": "他們努力工作,讓子女甚麼必需品也不缺。",
+            "highlight": "want for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WANT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WANT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WANT 片語動詞。",
+      "en": "Read the whole sentence and choose the WANT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "情境清楚時,want in 本身已完整。如要說明想加入甚麼,可用 want in on + 計劃、項目或活動。I want in. / I want in on the project.",
+      "titleEn": "Want in is complete when the situation is clear.",
+      "zh": "情境清楚時,want in 本身已完整。如要說明想加入甚麼,可用 want in on + 計劃、項目或活動。I want in. / I want in on the project.",
+      "en": "Want in is complete when the situation is clear. Use want in on + a plan, project or activity when you name what the person wants to join."
+    },
+    {
+      "titleZh": "情境清楚時,want out 本身已完整。如要說明想退出甚麼,可用 want out of + 小組、計劃或協議。She wants out. / She wants out of the agreement.",
+      "titleEn": "Want out is complete when the situation is clear.",
+      "zh": "情境清楚時,want out 本身已完整。如要說明想退出甚麼,可用 want out of + 小組、計劃或協議。She wants out. / She wants out of the agreement.",
+      "en": "Want out is complete when the situation is clear. Use want out of + a group, plan or agreement when you name what the person wants to leave."
+    },
+    {
+      "titleZh": "want for 較正式,尤其常見於否定意思,例如 want for nothing、never want for anything;也可直接指出缺少的東西。They want for nothing. / The village may want for clean water.",
+      "titleEn": "Want for is more formal and is especially common in negative ideas: want for nothing, never want for anything.",
+      "zh": "want for 較正式,尤其常見於否定意思,例如 want for nothing、never want for anything;也可直接指出缺少的東西。They want for nothing. / The village may want for clean water.",
+      "en": "Want for is more formal and is especially common in negative ideas: want for nothing, never want for anything. It can also name something that is missing."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WANT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WANT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WANT 動詞片語句子改寫練習",
+    "titleEn": "WANT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WANT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WANT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-118-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Daniel wants to join the school garden project.",
+      "promptZh": "丹尼爾想加入學校的園藝項目。",
+      "starter": "Daniel",
+      "answer": "Daniel wants in on the school garden project.",
+      "answerZh": "丹尼爾想加入學校的園藝項目。",
+      "highlight": "wants in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The children had all the food and warm clothes they needed.",
+      "promptZh": "孩子們擁有所需的一切食物和保暖衣物。",
+      "starter": "The",
+      "answer": "The children wanted for nothing.",
+      "answerZh": "孩子們甚麼必需品也不缺。",
+      "highlight": "wanted for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Rosa no longer wants to be part of the noisy group chat.",
+      "promptZh": "羅莎不再想留在這個嘈吵的群組聊天中。",
+      "starter": "Rosa",
+      "answer": "Rosa wants out of the noisy group chat.",
+      "answerZh": "羅莎想退出這個嘈吵的群組聊天。",
+      "highlight": "wants out",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Our grandparents made sure that we always had everything we needed.",
+      "promptZh": "祖父母確保我們一直擁有所需的一切。",
+      "starter": "Our",
+      "answer": "Our grandparents made sure that we wanted for nothing.",
+      "answerZh": "祖父母確保我們甚麼必需品也不缺。",
+      "highlight": "wanted for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do you want to be part of our weekend football plan?",
+      "promptZh": "你想加入我們的週末足球計劃嗎?",
+      "starter": "Do",
+      "answer": "Do you want in on our weekend football plan?",
+      "answerZh": "你想加入我們的週末足球計劃嗎?",
+      "highlight": "want in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "After two difficult weeks, he wants to leave the project.",
+      "promptZh": "經過兩個艱難的星期後,他想退出這個項目。",
+      "starter": "After",
+      "answer": "After two difficult weeks, he wants out of the project.",
+      "answerZh": "經過兩個艱難的星期後,他想退出這個項目。",
+      "highlight": "wants out of",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "At the camp, nobody lacked food or clean water.",
+      "promptZh": "在營地裏,沒有人缺少食物或乾淨食水。",
+      "starter": "At",
+      "answer": "At the camp, nobody wanted for food or clean water.",
+      "answerZh": "在營地裏,沒有人缺少食物或乾淨食水。",
+      "highlight": "wanted for",
+      "targetForm": "want for something",
+      "targetMeaningZh": "缺少真正需要的東西;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The club is planning a short film, and I want to join.",
+      "promptZh": "這個學會正籌備一套短片,而我想加入。",
+      "starter": "The",
+      "answer": "The club is planning a short film, and I want in.",
+      "answerZh": "這個學會正籌備一套短片,而我想加入。",
+      "highlight": "want in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We agreed at first, but now we want to stop being involved.",
+      "promptZh": "我們起初同意參與,但現在想退出。",
+      "starter": "We",
+      "answer": "We agreed at first, but now we want out.",
+      "answerZh": "我們起初同意參與,但現在想退出。",
+      "highlight": "want out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She works hard so that her parents will always have everything they need.",
+      "promptZh": "她努力工作,讓父母一直擁有所需的一切。",
+      "starter": "She",
+      "answer": "She works hard so that her parents will want for nothing.",
+      "answerZh": "她努力工作,讓父母甚麼必需品也不缺。",
+      "highlight": "want for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Why did Aaron decide that he no longer wanted to be part of the plan?",
+      "promptZh": "為甚麼阿倫決定不再參與這項計劃?",
+      "starter": "Why",
+      "answer": "Why did Aaron decide that he wanted out of the plan?",
+      "answerZh": "為甚麼阿倫決定退出這項計劃?",
+      "highlight": "wanted out",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Leila has heard about the new dance team and wants to join it.",
+      "promptZh": "莉拉聽說了新的舞蹈隊,並想加入。",
+      "starter": "Leila",
+      "answer": "Leila has heard about the new dance team and wants in.",
+      "answerZh": "莉拉聽說了新的舞蹈隊,並想加入。",
+      "highlight": "wants in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "With enough food in the house, the family will not lack anything this winter.",
+      "promptZh": "家中有足夠食物,這個家庭今個冬天便不會缺少任何必需品。",
+      "starter": "With",
+      "answer": "With enough food in the house, the family will not want for anything this winter.",
+      "answerZh": "家中有足夠食物,這個家庭今個冬天便不會缺少任何必需品。",
+      "highlight": "not want for",
+      "targetForm": "not want for anything",
+      "targetMeaningZh": "不缺少任何必需品;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If the class starts a cooking club, will you want to join?",
+      "promptZh": "如果班上成立烹飪學會,你會想加入嗎?",
+      "starter": "If",
+      "answer": "If the class starts a cooking club, will you want in?",
+      "answerZh": "如果班上成立烹飪學會,你會想加入嗎?",
+      "highlight": "want in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The company changed the deal, so two members now want to leave it.",
+      "promptZh": "公司更改了協議,所以兩名成員現在想退出。",
+      "starter": "The",
+      "answer": "The company changed the deal, so two members now want out of it.",
+      "answerZh": "公司更改了協議,所以兩名成員現在想退出。",
+      "highlight": "want out of",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The centre has always made sure that its older visitors have everything they need.",
+      "promptZh": "中心一直確保年長訪客擁有所需的一切。",
+      "starter": "The",
+      "answer": "The centre has always made sure that its older visitors want for nothing.",
+      "answerZh": "中心一直確保年長訪客甚麼必需品也不缺。",
+      "highlight": "want for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Sam said he wanted to be part of the birthday plan too.",
+      "promptZh": "森說他也想參與生日計劃。",
+      "starter": "Sam",
+      "answer": "Sam said he wanted in on the birthday plan too.",
+      "answerZh": "森說他也想參與生日計劃。",
+      "highlight": "wanted in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "They may decide that they no longer want to be involved if the costs rise again.",
+      "promptZh": "如果費用再次上升,他們可能會決定退出。",
+      "starter": "They",
+      "answer": "They may decide that they want out if the costs rise again.",
+      "answerZh": "如果費用再次上升,他們可能會決定退出。",
+      "highlight": "want out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Everyone who wishes to join the game must write their name here.",
+      "promptZh": "所有想加入遊戲的人都必須在這裏寫下姓名。",
+      "starter": "Everyone",
+      "answer": "Everyone who wants in on the game must write their name here.",
+      "answerZh": "所有想加入遊戲的人都必須在這裏寫下姓名。",
+      "highlight": "wants in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We saved carefully so that our child would have all the basic things she needed.",
+      "promptZh": "我們小心儲蓄,讓女兒擁有所需的一切基本用品。",
+      "starter": "We",
+      "answer": "We saved carefully so that our child would want for nothing.",
+      "answerZh": "我們小心儲蓄,讓女兒甚麼基本必需品也不缺。",
+      "highlight": "want for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The town gave the family food, clothes and a safe place to sleep, so they lacked nothing essential.",
+      "promptZh": "鎮上向這個家庭提供食物、衣物和安全的睡覺地方,因此他們不缺任何必需品。",
+      "starter": "The",
+      "answer": "The town gave the family food, clothes and a safe place to sleep, so they wanted for nothing.",
+      "answerZh": "鎮上向這個家庭提供食物、衣物和安全的睡覺地方,因此他們甚麼必需品也不缺。",
+      "highlight": "wanted for",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The work is becoming unsafe. I no longer wish to be involved in it.",
+      "promptZh": "這項工作變得不安全。我不再想參與其中。",
+      "starter": "The",
+      "answer": "The work is becoming unsafe. I want out of it.",
+      "answerZh": "這項工作變得不安全。我想退出。",
+      "highlight": "want out of",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "A new art project is starting, and both of us would like to take part.",
+      "promptZh": "一個新的藝術項目即將開始,而我們兩人都想參與。",
+      "starter": "A",
+      "answer": "A new art project is starting, and both of us want in.",
+      "answerZh": "一個新的藝術項目即將開始,而我們兩人都想參與。",
+      "highlight": "want in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Nora joined the committee last month, but she already wishes to leave.",
+      "promptZh": "諾拉上月加入委員會,但她已經想退出。",
+      "starter": "Nora",
+      "answer": "Nora joined the committee last month, but she already wants out.",
+      "answerZh": "諾拉上月加入委員會,但她已經想退出。",
+      "highlight": "wants out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Thanks to the school meal programme, these pupils never lack healthy food at lunchtime.",
+      "promptZh": "多得學校膳食計劃,這些學生午膳時從不缺少健康食物。",
+      "starter": "Thanks",
+      "answer": "Thanks to the school meal programme, these pupils never want for healthy food at lunchtime.",
+      "answerZh": "多得學校膳食計劃,這些學生午膳時從不缺少健康食物。",
+      "highlight": "never want for",
+      "targetForm": "never want for something",
+      "targetMeaningZh": "從不缺少某種必需品;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do we want to become part of the plan before the final decision is made?",
+      "promptZh": "我們想在作出最後決定前加入這項計劃嗎?",
+      "starter": "Do",
+      "answer": "Do we want in on the plan before the final decision is made?",
+      "answerZh": "我們想在作出最後決定前加入這項計劃嗎?",
+      "highlight": "want in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "By Friday, three helpers had decided that they no longer wanted to take part in the event.",
+      "promptZh": "到了星期五,三名助手已決定不再參與這項活動。",
+      "starter": "By",
+      "answer": "By Friday, three helpers had decided that they wanted out of the event.",
+      "answerZh": "到了星期五,三名助手已決定退出這項活動。",
+      "highlight": "wanted out of",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The farm produced enough food, so the family did not lack anything during the winter.",
+      "promptZh": "農場生產了足夠食物,因此這個家庭在冬天沒有缺少任何必需品。",
+      "starter": "The",
+      "answer": "The farm produced enough food, so the family did not want for anything during the winter.",
+      "answerZh": "農場生產了足夠食物,因此這個家庭在冬天沒有缺少任何必需品。",
+      "highlight": "not want for",
+      "targetForm": "not want for anything",
+      "targetMeaningZh": "不缺少任何必需品;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Tariq does not know all the details yet, but he still wants to join the project.",
+      "promptZh": "塔里克尚未知道所有細節,但仍想加入這個項目。",
+      "starter": "Tariq",
+      "answer": "Tariq does not know all the details yet, but he still wants in on the project.",
+      "answerZh": "塔里克尚未知道所有細節,但仍想加入這個項目。",
+      "highlight": "wants in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Do you really want to stop being part of the club after one disagreement?",
+      "promptZh": "只因一次意見不合,你真的想退出學會嗎?",
+      "starter": "Do",
+      "answer": "Do you really want out of the club after one disagreement?",
+      "answerZh": "只因一次意見不合,你真的想退出學會嗎?",
+      "highlight": "want out",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The team has room for one more player. Priya says she wants to be included.",
+      "promptZh": "球隊還有一個名額。普里雅說她想加入。",
+      "starter": "The",
+      "answer": "The team has room for one more player. Priya says she wants in.",
+      "answerZh": "球隊還有一個名額。普里雅說她想加入。",
+      "highlight": "wants in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Even when money was tight, their children never lacked food, books or warm clothes.",
+      "promptZh": "即使手頭拮据,他們的孩子也從不缺少食物、書本或保暖衣物。",
+      "starter": "Even",
+      "answer": "Even when money was tight, their children never wanted for food, books or warm clothes.",
+      "answerZh": "即使手頭拮据,他們的孩子也從不缺少食物、書本或保暖衣物。",
+      "highlight": "never wanted for",
+      "targetForm": "never want for something",
+      "targetMeaningZh": "從不缺少某種必需品;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The online course is not what Ken expected, and he now wants to leave it.",
+      "promptZh": "這個網上課程與阿健預期不同,而他現在想退出。",
+      "starter": "The",
+      "answer": "The online course is not what Ken expected, and he now wants out of it.",
+      "answerZh": "這個網上課程與阿健預期不同,而他現在想退出。",
+      "highlight": "wants out of",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If help does not arrive soon, the village may lack clean water.",
+      "promptZh": "如果援助未能很快到達,村民可能會缺少乾淨食水。",
+      "starter": "If",
+      "answer": "If help does not arrive soon, the village may want for clean water.",
+      "answerZh": "如果援助未能很快到達,村民可能會缺少乾淨食水。",
+      "highlight": "want for",
+      "targetForm": "want for something",
+      "targetMeaningZh": "缺少真正需要的東西;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The students are planning a small business. Do you want to join their plan?",
+      "promptZh": "學生們正籌劃一盤小生意。你想加入他們的計劃嗎?",
+      "starter": "The",
+      "answer": "The students are planning a small business. Do you want in on their plan?",
+      "answerZh": "學生們正籌劃一盤小生意。你想加入他們的計劃嗎?",
+      "highlight": "want in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "She felt trapped by the agreement and said she no longer wished to be part of it.",
+      "promptZh": "她覺得受這項協議束縛,並表示不再想參與。",
+      "starter": "She",
+      "answer": "She felt trapped by the agreement and said she wanted out of it.",
+      "answerZh": "她覺得受這項協議束縛,並表示想退出。",
+      "highlight": "wanted out",
+      "targetForm": "want out of something",
+      "targetMeaningZh": "想退出或不再參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "A good school should make sure that no child lacks the books they need for lessons.",
+      "promptZh": "一所好學校應確保沒有孩子缺少上課所需的書本。",
+      "starter": "A",
+      "answer": "A good school should make sure that no child wants for the books they need for lessons.",
+      "answerZh": "一所好學校應確保沒有孩子缺少上課所需的書本。",
+      "highlight": "wants for",
+      "targetForm": "want for something",
+      "targetMeaningZh": "缺少真正需要的東西;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Although we were not invited at first, we now want to take part in the community project.",
+      "promptZh": "雖然我們起初沒有獲邀,但現在想參與這個社區項目。",
+      "starter": "Although",
+      "answer": "Although we were not invited at first, we now want in on the community project.",
+      "answerZh": "雖然我們起初沒有獲邀,但現在想參與這個社區項目。",
+      "highlight": "want in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Once he learnt how much time the project required, he decided he did not want to continue with it.",
+      "promptZh": "他得知這個項目需要多少時間後,便決定不再繼續參與。",
+      "starter": "Once",
+      "answer": "Once he learnt how much time the project required, he decided he wanted out.",
+      "answerZh": "他得知這個項目需要多少時間後,便決定退出。",
+      "highlight": "wanted out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The shelter gives people a bed, meals and clean clothes, so they have all the basic things they need.",
+      "promptZh": "收容中心為人們提供床位、膳食和乾淨衣物,讓他們擁有所需的一切基本用品。",
+      "starter": "The",
+      "answer": "The shelter gives people a bed, meals and clean clothes, so they want for nothing.",
+      "answerZh": "收容中心為人們提供床位、膳食和乾淨衣物,讓他們甚麼基本必需品也不缺。",
+      "highlight": "want for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The deal looked simple at first, but after reading the extra rules, Ava said she no longer wanted to be involved.",
+      "promptZh": "這項協議起初看來很簡單,但艾娃讀過額外規則後,表示不再想參與。",
+      "starter": "The",
+      "answer": "The deal looked simple at first, but after reading the extra rules, Ava said she wanted out.",
+      "answerZh": "這項協議起初看來很簡單,但艾娃讀過額外規則後,表示想退出。",
+      "highlight": "wanted out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The school is choosing ideas for its new reading area, and several parents have said they want to take part in the project.",
+      "promptZh": "學校正為新的閱讀區挑選構思,幾位家長表示想參與這個項目。",
+      "starter": "The",
+      "answer": "The school is choosing ideas for its new reading area, and several parents have said they want in on the project.",
+      "answerZh": "學校正為新的閱讀區挑選構思,幾位家長表示想參與這個項目。",
+      "highlight": "want in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Because the neighbours shared food and clothes, the family lacked nothing after the fire.",
+      "promptZh": "鄰居分享了食物和衣物,因此這個家庭在火災後不缺任何必需品。",
+      "starter": "Because",
+      "answer": "Because the neighbours shared food and clothes, the family wanted for nothing after the fire.",
+      "answerZh": "鄰居分享了食物和衣物,因此這個家庭在火災後甚麼必需品也不缺。",
+      "highlight": "wanted for",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "At first, Joel thought the trip sounded boring; after seeing the plan, he said he wanted to join.",
+      "promptZh": "喬爾起初覺得旅程很沉悶;看過計劃後,他說想加入。",
+      "starter": "At",
+      "answer": "At first, Joel thought the trip sounded boring; after seeing the plan, he said he wanted in.",
+      "answerZh": "喬爾起初覺得旅程很沉悶;看過計劃後,他說想加入。",
+      "highlight": "wanted in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "If the group keeps changing the rules, do you think the younger players will decide to leave?",
+      "promptZh": "如果這個小組不斷更改規則,你認為較年輕的參加者會決定退出嗎?",
+      "starter": "If",
+      "answer": "If the group keeps changing the rules, do you think the younger players will want out?",
+      "answerZh": "如果這個小組不斷更改規則,你認為較年輕的參加者會想退出嗎?",
+      "highlight": "want out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The fund was created so that local children would never lack food, school supplies or a safe home.",
+      "promptZh": "這項基金成立的目的,是讓區內兒童永不缺少食物、學習用品或安全居所。",
+      "starter": "The",
+      "answer": "The fund was created so that local children would never want for food, school supplies or a safe home.",
+      "answerZh": "這項基金成立的目的,是讓區內兒童永不缺少食物、學習用品或安全居所。",
+      "highlight": "never want for",
+      "targetForm": "never want for something",
+      "targetMeaningZh": "從不缺少某種必需品;較正式"
+    },
+    {
+      "id": "phrasal-verb-118-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "We are testing a new school app next month, and the teachers have asked who would like to take part.",
+      "promptZh": "我們下月會測試一個新的學校應用程式,老師已詢問誰想參與。",
+      "starter": "We",
+      "answer": "We are testing a new school app next month, and the teachers have asked who wants in.",
+      "answerZh": "我們下月會測試一個新的學校應用程式,老師已詢問誰想參與。",
+      "highlight": "wants in",
+      "targetForm": "want in",
+      "targetMeaningZh": "想加入或參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "No one forced Marcus to stay; he could say that he wanted to stop being involved at any time.",
+      "promptZh": "沒有人強迫馬庫斯留下;他隨時都可以表示想退出。",
+      "starter": "No",
+      "answer": "No one forced Marcus to stay; he could say that he wanted out at any time.",
+      "answerZh": "沒有人強迫馬庫斯留下;他隨時都可以表示想退出。",
+      "highlight": "wanted out",
+      "targetForm": "want out",
+      "targetMeaningZh": "想退出或不再參與;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "The final match will be shown at the community centre. If your group wants to be part of the event, tell us today.",
+      "promptZh": "決賽將在社區中心播放。如果你的小組想參與這項活動,請今天告訴我們。",
+      "starter": "The",
+      "answer": "The final match will be shown at the community centre. If your group wants in on the event, tell us today.",
+      "answerZh": "決賽將在社區中心播放。如果你的小組想參與這項活動,請今天告訴我們。",
+      "highlight": "wants in on",
+      "targetForm": "want in on something",
+      "targetMeaningZh": "想加入或參與某事;較口語"
+    },
+    {
+      "id": "phrasal-verb-118-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 1,
+      "answerSourcePage": 1,
+      "prompt": "Their parents planned carefully so that, even in difficult years, the children would always have everything they truly needed.",
+      "promptZh": "父母仔細規劃,讓孩子即使在艱難的年份,也一直擁有真正需要的一切。",
+      "starter": "Their",
+      "answer": "Their parents planned carefully so that, even in difficult years, the children would want for nothing.",
+      "answerZh": "父母仔細規劃,讓孩子即使在艱難的年份,仍不缺少任何真正需要的必需品。",
+      "highlight": "want for nothing",
+      "targetForm": "want for nothing",
+      "targetMeaningZh": "甚麼必需品也不缺;較正式"
+    }
+  ]
+}

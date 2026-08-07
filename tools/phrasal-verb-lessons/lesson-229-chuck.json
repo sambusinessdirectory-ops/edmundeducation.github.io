@@ -1,0 +1,1700 @@
+{
+  "id": "phrasal-verb-229",
+  "order": 229,
+  "slug": "chuck",
+  "version": "1",
+  "title": "CHUCK 動詞片語",
+  "titleEn": "Chuck",
+  "titleZh": "CHUCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 225 - CHUCK.pdf",
+    "sourceNumber": 225,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHUCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHUCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHUCK",
+      "highlight": "CHUCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "It was chucking it down outside.",
+      "zh": "外面正下着傾盆大雨。",
+      "highlight": "chucking it down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The guard chucked the man out.",
+      "zh": "保安員把那名男子趕了出去。",
+      "highlight": "chucked the man out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do not chuck this opportunity away.",
+      "zh": "不要浪費這個機會。",
+      "highlight": "chuck this opportunity away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "下傾盆大雨;雨下得非常大；把某人趕走;逐出某個地方或組織；浪費金錢、機會或其他有價值的東西；在沒有提高價格的情況下,免費附送額外物品或服務；停止或放棄工作、課程或持續進行的活動；拒絕或否決計劃、建議或構思；嘔吐;把吃下的食物吐出來",
+    "en": "chuck it down / chuck down / chuck down rain; chuck somebody out / chuck somebody out of something; chuck something away; chuck something in; chuck something in / chuck something up; chuck something out; chuck up / chuck something up",
+    "naturalZh": [
+      "下傾盆大雨;雨下得非常大",
+      "把某人趕走;逐出某個地方或組織",
+      "浪費金錢、機會或其他有價值的東西",
+      "在沒有提高價格的情況下,免費附送額外物品或服務",
+      "停止或放棄工作、課程或持續進行的活動",
+      "拒絕或否決計劃、建議或構思",
+      "嘔吐;把吃下的食物吐出來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "chuck it down / chuck down / chuck down rain",
+      "titleZh": "下傾盆大雨;雨下得非常大",
+      "titleEn": "chuck it down / chuck down / chuck down rain",
+      "descriptionZh": "下傾盆大雨;雨下得非常大",
+      "descriptionEn": "It was chucking it down outside.",
+      "examples": [
+        {
+          "en": "It was chucking it down outside.",
+          "zh": "外面正下着傾盆大雨。",
+          "highlight": "chucking it down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chuck somebody out / chuck somebody out of something",
+      "titleZh": "把某人趕走;逐出某個地方或組織",
+      "titleEn": "chuck somebody out / chuck somebody out of something",
+      "descriptionZh": "把某人趕走;逐出某個地方或組織",
+      "descriptionEn": "The guard chucked the man out.",
+      "examples": [
+        {
+          "en": "The guard chucked the man out.",
+          "zh": "保安員把那名男子趕了出去。",
+          "highlight": "chucked the man out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chuck something away",
+      "titleZh": "浪費金錢、機會或其他有價值的東西",
+      "titleEn": "chuck something away",
+      "descriptionZh": "浪費金錢、機會或其他有價值的東西",
+      "descriptionEn": "Do not chuck this opportunity away.",
+      "examples": [
+        {
+          "en": "Do not chuck this opportunity away.",
+          "zh": "不要浪費這個機會。",
+          "highlight": "chuck this opportunity away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chuck something in",
+      "titleZh": "在沒有提高價格的情況下,免費附送額外物品或服務",
+      "titleEn": "chuck something in",
+      "descriptionZh": "在沒有提高價格的情況下,免費附送額外物品或服務",
+      "descriptionEn": "The shop chucked in a free case.",
+      "examples": [
+        {
+          "en": "The shop chucked in a free case.",
+          "zh": "店舖免費附送了一個保護套。",
+          "highlight": "chucked in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chuck something in / chuck something up",
+      "titleZh": "停止或放棄工作、課程或持續進行的活動",
+      "titleEn": "chuck something in / chuck something up",
+      "descriptionZh": "停止或放棄工作、課程或持續進行的活動",
+      "descriptionEn": "He decided to chuck in his course.",
+      "examples": [
+        {
+          "en": "He decided to chuck in his course.",
+          "zh": "他決定放棄自己的課程。",
+          "highlight": "chuck in"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "chuck something out",
+      "titleZh": "拒絕或否決計劃、建議或構思",
+      "titleEn": "chuck something out",
+      "descriptionZh": "拒絕或否決計劃、建議或構思",
+      "descriptionEn": "The committee chucked the proposal out.",
+      "examples": [
+        {
+          "en": "The committee chucked the proposal out.",
+          "zh": "委員會否決了該項建議。",
+          "highlight": "chucked the proposal out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "chuck up / chuck something up",
+      "titleZh": "嘔吐;把吃下的食物吐出來",
+      "titleEn": "chuck up / chuck something up",
+      "descriptionZh": "嘔吐;把吃下的食物吐出來",
+      "descriptionEn": "The smell made him chuck up.",
+      "examples": [
+        {
+          "en": "The smell made him chuck up.",
+          "zh": "那股氣味令他嘔吐。",
+          "highlight": "chuck up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CHUCK 片語動詞的實際用途",
+    "labelEn": "CHUCK Phrasal Verbs in Use",
+    "summaryZh": "chuck it down 是英式非正式用語,可以生動地表示雨下得非常大。；你可以用 chuck somebody out 表示把某人趕走,也可以用 chuck something out 表示否決一個構思。；chuck something away 可以表示浪費金錢、好機會或多個月的努力。；chuck something in 或 chuck something up 可以用非正式方式表示辭掉工作或放棄課程。；售貨員可能會免費 chuck in 一件物品;感到不適的人則可能會 chuck up。",
+    "summaryEn": "Chuck it down is a common informal British expression for rain that is falling very heavily. You can chuck a person out of a place or chuck out an idea that a group does not accept. Chuck something away can describe wasting money, a good chance or months of hard work. Chuck something in or chuck something up gives an informal way to talk about leaving a job or stopping a course. A seller may chuck in a free item, while somebody who feels ill may chuck up.",
+    "contextsZh": [
+      "自然描述傾盆大雨",
+      "談論人物或構思被排除",
+      "談論浪費有價值的事物",
+      "表達放棄工作或課程的決定",
+      "理解店舖和日常生活中的非正式英語"
+    ],
+    "contextsEn": [
+      "Describe extremely heavy rain naturally",
+      "Talk about people and ideas being removed",
+      "Talk about wasting valuable things",
+      "Express the decision to quit",
+      "Understand informal English in shops and everyday situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CHUCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHUCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "chuck it down / chuck down / chuck down rain",
+    "fixedHighlight": "chuck it down / chuck down / chuck down rain",
+    "fixedZh": "閱讀整句,選出意思相同的 CHUCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHUCK expression that gives the same meaning.",
+    "correct": "chucking it down",
+    "incorrectForms": [],
+    "variableZh": "這些 CHUCK 表達屬於非正式用語,最適合用於日常對話和較輕鬆的情境。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；chuck something in 有兩種不同用法。店舖可以免費附送某物;一個人則可以用它表示放棄工作或課程。",
+    "variableEn": "These CHUCK expressions are informal. They are most suitable for conversations and other relaxed situations. When using him, her, it or them, place the word as shown: chuck him out chuck it away chuck it in chuck it out Chuck something in has two different uses. A shop can chuck in a free item, while a person can chuck in a job or course.",
+    "variableItemsZh": [
+      "chuck it down / chuck down / chuck down rain",
+      "chuck somebody out / chuck somebody out of something",
+      "chuck something away",
+      "chuck something in",
+      "chuck something in / chuck something up",
+      "chuck something out",
+      "chuck up / chuck something up"
+    ],
+    "variableItemsEn": [
+      "chuck it down / chuck down / chuck down rain",
+      "chuck somebody out / chuck somebody out of something",
+      "chuck something away",
+      "chuck something in",
+      "chuck something in / chuck something up",
+      "chuck something out",
+      "chuck up / chuck something up"
+    ],
+    "forms": [
+      {
+        "formZh": "下傾盆大雨;雨下得非常大",
+        "formEn": "chuck it down / chuck down / chuck down rain",
+        "exampleZh": "外面正下着傾盆大雨。",
+        "exampleEn": "It was chucking it down outside.",
+        "highlight": "chucking it down"
+      },
+      {
+        "formZh": "把某人趕走;逐出某個地方或組織",
+        "formEn": "chuck somebody out / chuck somebody out of something",
+        "exampleZh": "保安員把那名男子趕了出去。",
+        "exampleEn": "The guard chucked the man out.",
+        "highlight": "chucked the man out"
+      },
+      {
+        "formZh": "浪費金錢、機會或其他有價值的東西",
+        "formEn": "chuck something away",
+        "exampleZh": "不要浪費這個機會。",
+        "exampleEn": "Do not chuck this opportunity away.",
+        "highlight": "chuck this opportunity away"
+      },
+      {
+        "formZh": "在沒有提高價格的情況下,免費附送額外物品或服務",
+        "formEn": "chuck something in",
+        "exampleZh": "店舖免費附送了一個保護套。",
+        "exampleEn": "The shop chucked in a free case.",
+        "highlight": "chucked in"
+      },
+      {
+        "formZh": "停止或放棄工作、課程或持續進行的活動",
+        "formEn": "chuck something in / chuck something up",
+        "exampleZh": "他決定放棄自己的課程。",
+        "exampleEn": "He decided to chuck in his course.",
+        "highlight": "chuck in"
+      },
+      {
+        "formZh": "拒絕或否決計劃、建議或構思",
+        "formEn": "chuck something out",
+        "exampleZh": "委員會否決了該項建議。",
+        "exampleEn": "The committee chucked the proposal out.",
+        "highlight": "chucked the proposal out"
+      },
+      {
+        "formZh": "嘔吐;把吃下的食物吐出來",
+        "formEn": "chuck up / chuck something up",
+        "exampleZh": "那股氣味令他嘔吐。",
+        "exampleEn": "The smell made him chuck up.",
+        "highlight": "chuck up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "下傾盆大雨;雨下得非常大",
+      "titleEn": "chuck it down / chuck down / chuck down rain",
+      "formula": "chuck it down / chuck down / chuck down rain",
+      "highlight": "chuck it down / chuck down / chuck down rain",
+      "descriptionZh": "下傾盆大雨;雨下得非常大",
+      "descriptionEn": "It was chucking it down outside.",
+      "examples": [
+        {
+          "en": "It was chucking it down outside.",
+          "zh": "外面正下着傾盆大雨。",
+          "highlight": "chucking it down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人趕走;逐出某個地方或組織",
+      "titleEn": "chuck somebody out / chuck somebody out of something",
+      "formula": "chuck somebody out / chuck somebody out of something",
+      "highlight": "chuck somebody out / chuck somebody out of something",
+      "descriptionZh": "把某人趕走;逐出某個地方或組織",
+      "descriptionEn": "The guard chucked the man out.",
+      "examples": [
+        {
+          "en": "The guard chucked the man out.",
+          "zh": "保安員把那名男子趕了出去。",
+          "highlight": "chucked the man out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "浪費金錢、機會或其他有價值的東西",
+      "titleEn": "chuck something away",
+      "formula": "chuck something away",
+      "highlight": "chuck something away",
+      "descriptionZh": "浪費金錢、機會或其他有價值的東西",
+      "descriptionEn": "Do not chuck this opportunity away.",
+      "examples": [
+        {
+          "en": "Do not chuck this opportunity away.",
+          "zh": "不要浪費這個機會。",
+          "highlight": "chuck this opportunity away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在沒有提高價格的情況下,免費附送額外物品或服務",
+      "titleEn": "chuck something in",
+      "formula": "chuck something in",
+      "highlight": "chuck something in",
+      "descriptionZh": "在沒有提高價格的情況下,免費附送額外物品或服務",
+      "descriptionEn": "The shop chucked in a free case.",
+      "examples": [
+        {
+          "en": "The shop chucked in a free case.",
+          "zh": "店舖免費附送了一個保護套。",
+          "highlight": "chucked in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "停止或放棄工作、課程或持續進行的活動",
+      "titleEn": "chuck something in / chuck something up",
+      "formula": "chuck something in / chuck something up",
+      "highlight": "chuck something in / chuck something up",
+      "descriptionZh": "停止或放棄工作、課程或持續進行的活動",
+      "descriptionEn": "He decided to chuck in his course.",
+      "examples": [
+        {
+          "en": "He decided to chuck in his course.",
+          "zh": "他決定放棄自己的課程。",
+          "highlight": "chuck in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "拒絕或否決計劃、建議或構思",
+      "titleEn": "chuck something out",
+      "formula": "chuck something out",
+      "highlight": "chuck something out",
+      "descriptionZh": "拒絕或否決計劃、建議或構思",
+      "descriptionEn": "The committee chucked the proposal out.",
+      "examples": [
+        {
+          "en": "The committee chucked the proposal out.",
+          "zh": "委員會否決了該項建議。",
+          "highlight": "chucked the proposal out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "嘔吐;把吃下的食物吐出來",
+      "titleEn": "chuck up / chuck something up",
+      "formula": "chuck up / chuck something up",
+      "highlight": "chuck up / chuck something up",
+      "descriptionZh": "嘔吐;把吃下的食物吐出來",
+      "descriptionEn": "The smell made him chuck up.",
+      "examples": [
+        {
+          "en": "The smell made him chuck up.",
+          "zh": "那股氣味令他嘔吐。",
+          "highlight": "chuck up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然描述傾盆大雨",
+      "titleEn": "Describe extremely heavy rain naturally",
+      "zh": "chuck it down 是英式非正式用語,可以生動地表示雨下得非常大。",
+      "en": "Chuck it down is a common informal British expression for rain that is falling very heavily."
+    },
+    {
+      "titleZh": "談論人物或構思被排除",
+      "titleEn": "Talk about people and ideas being removed",
+      "zh": "你可以用 chuck somebody out 表示把某人趕走,也可以用 chuck something out 表示否決一個構思。",
+      "en": "You can chuck a person out of a place or chuck out an idea that a group does not accept."
+    },
+    {
+      "titleZh": "談論浪費有價值的事物",
+      "titleEn": "Talk about wasting valuable things",
+      "zh": "chuck something away 可以表示浪費金錢、好機會或多個月的努力。",
+      "en": "Chuck something away can describe wasting money, a good chance or months of hard work."
+    },
+    {
+      "titleZh": "表達放棄工作或課程的決定",
+      "titleEn": "Express the decision to quit",
+      "zh": "chuck something in 或 chuck something up 可以用非正式方式表示辭掉工作或放棄課程。",
+      "en": "Chuck something in or chuck something up gives an informal way to talk about leaving a job or stopping a course."
+    },
+    {
+      "titleZh": "理解店舖和日常生活中的非正式英語",
+      "titleEn": "Understand informal English in shops and everyday situations",
+      "zh": "售貨員可能會免費 chuck in 一件物品;感到不適的人則可能會 chuck up。",
+      "en": "A seller may chuck in a free item, while somebody who feels ill may chuck up."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然描述傾盆大雨",
+      "談論人物或構思被排除",
+      "談論浪費有價值的事物",
+      "表達放棄工作或課程的決定",
+      "理解店舖和日常生活中的非正式英語"
+    ],
+    "contextsEn": [
+      "Describe extremely heavy rain naturally",
+      "Talk about people and ideas being removed",
+      "Talk about wasting valuable things",
+      "Express the decision to quit",
+      "Understand informal English in shops and everyday situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然描述傾盆大雨",
+        "titleEn": "Describe extremely heavy rain naturally",
+        "zh": "chuck it down 是英式非正式用語,可以生動地表示雨下得非常大。",
+        "en": "Chuck it down is a common informal British expression for rain that is falling very heavily.",
+        "examples": [
+          {
+            "en": "It was chucking it down outside.",
+            "zh": "外面正下着傾盆大雨。",
+            "highlight": "chucking it down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論人物或構思被排除",
+        "titleEn": "Talk about people and ideas being removed",
+        "zh": "你可以用 chuck somebody out 表示把某人趕走,也可以用 chuck something out 表示否決一個構思。",
+        "en": "You can chuck a person out of a place or chuck out an idea that a group does not accept.",
+        "examples": [
+          {
+            "en": "The guard chucked the man out.",
+            "zh": "保安員把那名男子趕了出去。",
+            "highlight": "chucked the man out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論浪費有價值的事物",
+        "titleEn": "Talk about wasting valuable things",
+        "zh": "chuck something away 可以表示浪費金錢、好機會或多個月的努力。",
+        "en": "Chuck something away can describe wasting money, a good chance or months of hard work.",
+        "examples": [
+          {
+            "en": "Do not chuck this opportunity away.",
+            "zh": "不要浪費這個機會。",
+            "highlight": "chuck this opportunity away"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達放棄工作或課程的決定",
+        "titleEn": "Express the decision to quit",
+        "zh": "chuck something in 或 chuck something up 可以用非正式方式表示辭掉工作或放棄課程。",
+        "en": "Chuck something in or chuck something up gives an informal way to talk about leaving a job or stopping a course.",
+        "examples": [
+          {
+            "en": "The shop chucked in a free case.",
+            "zh": "店舖免費附送了一個保護套。",
+            "highlight": "chucked in"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解店舖和日常生活中的非正式英語",
+        "titleEn": "Understand informal English in shops and everyday situations",
+        "zh": "售貨員可能會免費 chuck in 一件物品;感到不適的人則可能會 chuck up。",
+        "en": "A seller may chuck in a free item, while somebody who feels ill may chuck up.",
+        "examples": [
+          {
+            "en": "He decided to chuck in his course.",
+            "zh": "他決定放棄自己的課程。",
+            "highlight": "chuck in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CHUCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHUCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CHUCK 片語動詞。",
+      "en": "Read the whole sentence and choose the CHUCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "這些 CHUCK 表達屬於非正式用語,最適合用於日常對話和較輕鬆的情境。",
+      "titleEn": "These CHUCK expressions are informal.",
+      "zh": "這些 CHUCK 表達屬於非正式用語,最適合用於日常對話和較輕鬆的情境。",
+      "en": "These CHUCK expressions are informal. They are most suitable for conversations and other relaxed situations."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: chuck him out chuck it away chuck it in chuck it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: chuck him out chuck it away chuck it in chuck it out"
+    },
+    {
+      "titleZh": "chuck something in 有兩種不同用法。店舖可以免費附送某物;一個人則可以用它表示放棄工作或課程。",
+      "titleEn": "Chuck something in has two different uses.",
+      "zh": "chuck something in 有兩種不同用法。店舖可以免費附送某物;一個人則可以用它表示放棄工作或課程。",
+      "en": "Chuck something in has two different uses. A shop can chuck in a free item, while a person can chuck in a job or course."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHUCK 動詞片語句子改寫練習",
+    "titleEn": "CHUCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-229-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "It was raining very heavily outside the station.",
+      "promptZh": "車站外面正下着傾盆大雨。",
+      "starter": "It",
+      "answer": "It was chucking it down outside the station.",
+      "answerZh": "車站外面正下着傾盆大雨。",
+      "highlight": "chucking it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The shop will include a free phone case without charging more.",
+      "promptZh": "店舖會免費附送一個電話保護套。",
+      "starter": "The",
+      "answer": "The shop will chuck in a free phone case.",
+      "answerZh": "店舖會免費附送一個電話保護套。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品或服務"
+    },
+    {
+      "id": "phrasal-verb-229-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The coach forced Ben to leave the changing room.",
+      "promptZh": "教練強迫賓離開更衣室。",
+      "starter": "The",
+      "answer": "The coach chucked Ben out of the changing room.",
+      "answerZh": "教練把賓趕出了更衣室。",
+      "highlight": "chucked",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方"
+    },
+    {
+      "id": "phrasal-verb-229-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She wasted all her money on things she did not need.",
+      "promptZh": "她把所有金錢浪費在自己不需要的東西上。",
+      "starter": "She",
+      "answer": "She chucked all her money away on things she did not need.",
+      "answerZh": "她把所有金錢浪費在自己不需要的東西上。",
+      "highlight": "chucked",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費金錢或其他有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The bad smell made Owen vomit.",
+      "promptZh": "那股難聞的氣味令奧雲嘔吐。",
+      "starter": "The",
+      "answer": "The bad smell made Owen chuck up.",
+      "answerZh": "那股難聞的氣味令奧雲嘔吐。",
+      "highlight": "chuck up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The committee rejected my proposal.",
+      "promptZh": "委員會否決了我的建議。",
+      "starter": "The",
+      "answer": "The committee chucked my proposal out.",
+      "answerZh": "委員會否決了我的建議。",
+      "highlight": "chucked",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Amir decided to stop taking his course.",
+      "promptZh": "阿米爾決定放棄自己的課程。",
+      "starter": "Amir",
+      "answer": "Amir decided to chuck in his course.",
+      "answerZh": "阿米爾決定放棄自己的課程。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The café owner forced the noisy customer to leave.",
+      "promptZh": "咖啡店店主把那名吵鬧的顧客趕了出去。",
+      "starter": "The",
+      "answer": "The café owner chucked the noisy customer out.",
+      "answerZh": "咖啡店店主把那名吵鬧的顧客趕了出去。",
+      "highlight": "chucked",
+      "targetForm": "chuck somebody out",
+      "targetMeaningZh": "把某人趕走"
+    },
+    {
+      "id": "phrasal-verb-229-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "It rained very heavily during our walk home.",
+      "promptZh": "我們步行回家期間下了傾盆大雨。",
+      "starter": "It",
+      "answer": "It chucked it down during our walk home.",
+      "answerZh": "我們步行回家期間下了傾盆大雨。",
+      "highlight": "chucked it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "She left her job last Friday.",
+      "promptZh": "她上星期五辭掉了工作。",
+      "starter": "She",
+      "answer": "She chucked her job in last Friday.",
+      "answerZh": "她上星期五辭掉了工作。",
+      "highlight": "chucked",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄工作"
+    },
+    {
+      "id": "phrasal-verb-229-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "We bought the table, and the seller included two chairs at no extra cost.",
+      "promptZh": "我們買了那張桌子,而賣方免費附送了兩張椅子。",
+      "starter": "We",
+      "answer": "We bought the table, and the seller chucked in two chairs.",
+      "answerZh": "我們買了那張桌子,而賣方免費附送了兩張椅子。",
+      "highlight": "chucked in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品"
+    },
+    {
+      "id": "phrasal-verb-229-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The dog vomited its dinner on the kitchen floor.",
+      "promptZh": "那隻狗把晚餐吐在廚房地板上。",
+      "starter": "The",
+      "answer": "The dog chucked its dinner up on the kitchen floor.",
+      "answerZh": "那隻狗把晚餐吐在廚房地板上。",
+      "highlight": "chucked",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "把吃下的東西吐出來"
+    },
+    {
+      "id": "phrasal-verb-229-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Do not waste this good chance.",
+      "promptZh": "不要浪費這個好機會。",
+      "starter": "Do",
+      "answer": "Do not chuck this good chance away.",
+      "answerZh": "不要浪費這個好機會。",
+      "highlight": "chuck",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The club rejected the idea of raising ticket prices.",
+      "promptZh": "社團否決了提高票價的構思。",
+      "starter": "The",
+      "answer": "The club chucked out the idea of raising ticket prices.",
+      "answerZh": "社團否決了提高票價的構思。",
+      "highlight": "chucked out",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Leo is wasting his savings on expensive games.",
+      "promptZh": "里奧正把自己的積蓄浪費在昂貴的遊戲上。",
+      "starter": "Leo",
+      "answer": "Leo is chucking his savings away on expensive games.",
+      "answerZh": "里奧正把自己的積蓄浪費在昂貴的遊戲上。",
+      "highlight": "chucking",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費金錢或積蓄"
+    },
+    {
+      "id": "phrasal-verb-229-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "It may rain very heavily this evening.",
+      "promptZh": "今天晚上可能會下傾盆大雨。",
+      "starter": "It",
+      "answer": "It may chuck it down this evening.",
+      "answerZh": "今天晚上可能會下傾盆大雨。",
+      "highlight": "chuck it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The board has already rejected the plan.",
+      "promptZh": "董事會已經否決了該項計劃。",
+      "starter": "The",
+      "answer": "The board has chucked the plan out already.",
+      "answerZh": "董事會已經否決了該項計劃。",
+      "highlight": "chucked",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "I nearly vomited on the boat.",
+      "promptZh": "我在船上差點嘔吐。",
+      "starter": "I",
+      "answer": "I nearly chucked up on the boat.",
+      "answerZh": "我在船上差點嘔吐。",
+      "highlight": "chucked up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "If you order today, they will include free delivery.",
+      "promptZh": "如果你今天訂購,他們會免費提供送貨服務。",
+      "starter": "If",
+      "answer": "If you order today, they will chuck in free delivery.",
+      "answerZh": "如果你今天訂購,他們會免費提供送貨服務。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費提供額外物品或服務"
+    },
+    {
+      "id": "phrasal-verb-229-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "They may force him to leave the club if he breaks the rules again.",
+      "promptZh": "如果他再次違反規則,他們可能會把他逐出社團。",
+      "starter": "They",
+      "answer": "They may chuck him out of the club if he breaks the rules again.",
+      "answerZh": "如果他再次違反規則,他們可能會把他逐出社團。",
+      "highlight": "chuck",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方或組織"
+    },
+    {
+      "id": "phrasal-verb-229-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I may give up my work and studies and move back home.",
+      "promptZh": "我可能會放棄工作和學業,搬回家中。",
+      "starter": "I",
+      "answer": "I may chuck it all in and move back home.",
+      "answerZh": "我可能會放棄工作和學業,搬回家中。",
+      "highlight": "chuck it all in",
+      "targetForm": "chuck it all in",
+      "targetMeaningZh": "放棄現有的工作或生活安排"
+    },
+    {
+      "id": "phrasal-verb-229-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Did it rain very heavily while you were at the match?",
+      "promptZh": "你觀看比賽期間有下傾盆大雨嗎?",
+      "starter": "Did",
+      "answer": "Did it chuck it down while you were at the match?",
+      "answerZh": "你觀看比賽期間有下傾盆大雨嗎?",
+      "highlight": "chuck it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Have we wasted our best opportunity?",
+      "promptZh": "我們是否已經浪費了最好的機會?",
+      "starter": "Have",
+      "answer": "Have we chucked our best opportunity away?",
+      "answerZh": "我們是否已經浪費了最好的機會?",
+      "highlight": "chucked",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Did the hotel include breakfast in the room price?",
+      "promptZh": "酒店房價有包括免費早餐嗎?",
+      "starter": "Did",
+      "answer": "Did the hotel chuck in breakfast with the room?",
+      "answerZh": "酒店房價有包括免費早餐嗎?",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費提供額外物品或服務"
+    },
+    {
+      "id": "phrasal-verb-229-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why did Noah leave his job after only a month?",
+      "promptZh": "諾亞為甚麼只工作了一個月便辭職?",
+      "starter": "Why",
+      "answer": "Why did Noah chuck up his job after only a month?",
+      "answerZh": "諾亞為甚麼只工作了一個月便辭職?",
+      "highlight": "chuck up",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Will the class reject our suggestion?",
+      "promptZh": "全班會否決我們的建議嗎?",
+      "starter": "Will",
+      "answer": "Will the class chuck out our suggestion?",
+      "answerZh": "全班會否決我們的建議嗎?",
+      "highlight": "chuck out",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Was Leah forced to leave the club after she broke the rules again?",
+      "promptZh": "莉亞再次違反規則後,被逐出社團了嗎?",
+      "starter": "Was",
+      "answer": "Was Leah chucked out of the club after she broke the rules again?",
+      "answerZh": "莉亞再次違反規則後,被逐出社團了嗎?",
+      "highlight": "chucked out of",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方或組織"
+    },
+    {
+      "id": "phrasal-verb-229-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Has the child vomited again?",
+      "promptZh": "那個孩子又嘔吐了嗎?",
+      "starter": "Has",
+      "answer": "Has the child chucked up again?",
+      "answerZh": "那個孩子又嘔吐了嗎?",
+      "highlight": "chucked up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The guard warned us that he would force us to leave if we shouted again.",
+      "promptZh": "保安員警告我們,如果再次大叫,他便會把我們趕走。",
+      "starter": "The",
+      "answer": "The guard warned us that he would chuck us out if we shouted again.",
+      "answerZh": "保安員警告我們,如果再次大叫,他便會把我們趕走。",
+      "highlight": "chuck",
+      "targetForm": "chuck somebody out",
+      "targetMeaningZh": "把某人趕走"
+    },
+    {
+      "id": "phrasal-verb-229-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "A spare cable was included with the computer at no extra cost.",
+      "promptZh": "電腦免費附送了一條備用電線。",
+      "starter": "A",
+      "answer": "A spare cable was chucked in with the computer.",
+      "answerZh": "電腦免費附送了一條備用電線。",
+      "highlight": "chucked in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品"
+    },
+    {
+      "id": "phrasal-verb-229-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Although it was raining very heavily, the buses kept running.",
+      "promptZh": "雖然當時正下着傾盆大雨,但巴士仍然繼續行駛。",
+      "starter": "Although",
+      "answer": "Although it was chucking it down, the buses kept running.",
+      "answerZh": "雖然當時正下着傾盆大雨,但巴士仍然繼續行駛。",
+      "highlight": "chucking it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The prize money was useful, but he wasted it in a single weekend.",
+      "promptZh": "獎金本來很有用,但他在一個週末內便把它浪費掉。",
+      "starter": "The",
+      "answer": "The prize money was useful, but he chucked it away in a single weekend.",
+      "answerZh": "獎金本來很有用,但他在一個週末內便把它浪費掉。",
+      "highlight": "chucked",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費金錢或其他有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The first idea was too expensive, so the team rejected it.",
+      "promptZh": "第一個構思成本太高,所以團隊否決了它。",
+      "starter": "The",
+      "answer": "The first idea was too expensive, so the team chucked it out.",
+      "answerZh": "第一個構思成本太高,所以團隊否決了它。",
+      "highlight": "chucked",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The medicine made her feel as if she might vomit.",
+      "promptZh": "這種藥令她感到自己可能會嘔吐。",
+      "starter": "The",
+      "answer": "The medicine made her feel as if she might chuck up.",
+      "answerZh": "這種藥令她感到自己可能會嘔吐。",
+      "highlight": "chuck up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "After failing one test, you should not give up your course.",
+      "promptZh": "只因一次測驗不及格,你不應放棄自己的課程。",
+      "starter": "After",
+      "answer": "After failing one test, you should not chuck your course in.",
+      "answerZh": "只因一次測驗不及格,你不應放棄自己的課程。",
+      "highlight": "chuck",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The bike costs £300, but the shop can include a helmet at no extra cost.",
+      "promptZh": "這輛單車售價三百英鎊,但店舖可以免費附送一個頭盔。",
+      "starter": "The",
+      "answer": "The bike costs £300, but the shop can chuck a helmet in.",
+      "answerZh": "這輛單車售價三百英鎊,但店舖可以免費附送一個頭盔。",
+      "highlight": "chuck",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品"
+    },
+    {
+      "id": "phrasal-verb-229-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "After refusing to pay, the man was forced to leave the restaurant.",
+      "promptZh": "那名男子拒絕付款後,被趕出了餐廳。",
+      "starter": "After",
+      "answer": "After refusing to pay, the man was chucked out of the restaurant.",
+      "answerZh": "那名男子拒絕付款後,被趕出了餐廳。",
+      "highlight": "chucked out of",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方"
+    },
+    {
+      "id": "phrasal-verb-229-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Our request may be rejected if we send it too late.",
+      "promptZh": "如果我們太遲提交,這項要求可能會被拒絕。",
+      "starter": "Our",
+      "answer": "Our request may be chucked out if we send it too late.",
+      "answerZh": "如果我們太遲提交,這項要求可能會被拒絕。",
+      "highlight": "chucked out",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決或拒絕建議、要求或計劃"
+    },
+    {
+      "id": "phrasal-verb-229-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "It had been raining very heavily for an hour before the sky cleared.",
+      "promptZh": "天空放晴前,傾盆大雨已經下了一小時。",
+      "starter": "It",
+      "answer": "It had been chucking it down for an hour before the sky cleared.",
+      "answerZh": "天空放晴前,傾盆大雨已經下了一小時。",
+      "highlight": "chucking it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The long working hours made Priya think about leaving her job.",
+      "promptZh": "長時間工作令普里雅考慮辭掉工作。",
+      "starter": "The",
+      "answer": "The long working hours made Priya think about chucking her job in.",
+      "answerZh": "長時間工作令普里雅考慮辭掉工作。",
+      "highlight": "chucking",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄工作"
+    },
+    {
+      "id": "phrasal-verb-229-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "He ate too quickly and vomited everything he had eaten.",
+      "promptZh": "他吃得太快,把所吃的東西全部吐了出來。",
+      "starter": "He",
+      "answer": "He ate too quickly and chucked it all up.",
+      "answerZh": "他吃得太快,把所吃的東西全部吐了出來。",
+      "highlight": "chucked it all up",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "把吃下的東西吐出來"
+    },
+    {
+      "id": "phrasal-verb-229-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "You would be wasting a great chance if you left now.",
+      "promptZh": "如果你現在離開,便會浪費一個大好機會。",
+      "starter": "You",
+      "answer": "You would be chucking a great chance away if you left now.",
+      "answerZh": "如果你現在離開,便會浪費一個大好機會。",
+      "highlight": "chucking",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He nearly stopped his studies, but his tutor persuaded him to continue.",
+      "promptZh": "他差點放棄學業,但導師說服了他繼續下去。",
+      "starter": "He",
+      "answer": "He nearly chucked up his studies, but his tutor persuaded him to continue.",
+      "answerZh": "他差點放棄學業,但導師說服了他繼續下去。",
+      "highlight": "chucked up",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "If it rains very heavily tomorrow, the picnic will move indoors.",
+      "promptZh": "如果明天下傾盆大雨,野餐便會移至室內進行。",
+      "starter": "If",
+      "answer": "If it chucks it down tomorrow, the picnic will move indoors.",
+      "answerZh": "如果明天下傾盆大雨,野餐便會移至室內進行。",
+      "highlight": "chucks it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Ask whether they can include an extra month of service for free.",
+      "promptZh": "詢問他們能否免費多提供一個月的服務。",
+      "starter": "Ask",
+      "answer": "Ask whether they can chuck in an extra month of service.",
+      "answerZh": "詢問他們能否免費多提供一個月的服務。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費提供額外物品或服務"
+    },
+    {
+      "id": "phrasal-verb-229-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Why was the new rule rejected after only one week?",
+      "promptZh": "新規則為甚麼只實施了一星期便被否決?",
+      "starter": "Why",
+      "answer": "Why was the new rule chucked out after only one week?",
+      "answerZh": "新規則為甚麼只實施了一星期便被否決?",
+      "highlight": "chucked out",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或規則"
+    },
+    {
+      "id": "phrasal-verb-229-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Why did the organiser force those two guests to leave before the show ended?",
+      "promptZh": "主辦人為甚麼在表演結束前把那兩名賓客趕走?",
+      "starter": "Why",
+      "answer": "Why did the organiser chuck those two guests out before the show ended?",
+      "answerZh": "主辦人為甚麼在表演結束前把那兩名賓客趕走?",
+      "highlight": "chuck",
+      "targetForm": "chuck somebody out",
+      "targetMeaningZh": "把某人趕走"
+    },
+    {
+      "id": "phrasal-verb-229-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "If you feel that you are going to vomit, tell the driver to stop.",
+      "promptZh": "如果你覺得自己快要嘔吐,便告訴司機停車。",
+      "starter": "If",
+      "answer": "If you feel that you are going to chuck up, tell the driver to stop.",
+      "answerZh": "如果你覺得自己快要嘔吐,便告訴司機停車。",
+      "highlight": "chuck up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "They worked hard to reach the final, so they should not waste the opportunity.",
+      "promptZh": "他們努力打入決賽,所以不應浪費這個機會。",
+      "starter": "They",
+      "answer": "They worked hard to reach the final, so they should not chuck the opportunity away.",
+      "answerZh": "他們努力打入決賽,所以不應浪費這個機會。",
+      "highlight": "chuck",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Rain was falling very heavily outside when the lights went out.",
+      "promptZh": "燈光熄滅時,外面正下着傾盆大雨。",
+      "starter": "It",
+      "answer": "It was chucking down rain outside when the lights went out.",
+      "answerZh": "燈光熄滅時,外面正下着傾盆大雨。",
+      "highlight": "It was chucking down",
+      "targetForm": "chuck down rain",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "If the work still makes you unhappy, you may decide to quit.",
+      "promptZh": "如果這份工作仍然令你不開心,你可能會決定辭職。",
+      "starter": "If",
+      "answer": "If the work still makes you unhappy, you may decide to chuck it in.",
+      "answerZh": "如果這份工作仍然令你不開心,你可能會決定辭職。",
+      "highlight": "chuck it in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The host threatened to force us to leave if we damaged anything.",
+      "promptZh": "主人警告我們,如果損壞任何東西,便會把我們趕走。",
+      "starter": "The",
+      "answer": "The host threatened to chuck us out if we damaged anything.",
+      "answerZh": "主人警告我們,如果損壞任何東西,便會把我們趕走。",
+      "highlight": "chuck",
+      "targetForm": "chuck somebody out",
+      "targetMeaningZh": "把某人趕走"
+    },
+    {
+      "id": "phrasal-verb-229-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The seller would not lower the price, but she included a set of glasses for free.",
+      "promptZh": "賣方不肯降低價格,但免費附送了一套玻璃杯。",
+      "starter": "The",
+      "answer": "The seller would not lower the price, but she chucked in a set of glasses.",
+      "answerZh": "賣方不肯降低價格,但免費附送了一套玻璃杯。",
+      "highlight": "chucked in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品"
+    },
+    {
+      "id": "phrasal-verb-229-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "By ignoring every offer of help, Tara may be wasting her last chance.",
+      "promptZh": "塔拉拒絕所有人提供的幫助,可能正在浪費自己最後的機會。",
+      "starter": "By",
+      "answer": "By ignoring every offer of help, Tara may be chucking her last chance away.",
+      "answerZh": "塔拉拒絕所有人提供的幫助,可能正在浪費自己最後的機會。",
+      "highlight": "chucking",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The group discussed both plans but eventually rejected the second one.",
+      "promptZh": "小組討論了兩項計劃,但最終否決了第二項。",
+      "starter": "The",
+      "answer": "The group discussed both plans but eventually chucked the second one out.",
+      "answerZh": "小組討論了兩項計劃,但最終否決了第二項。",
+      "highlight": "chucked",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The roller coaster was so fast that two riders almost vomited.",
+      "promptZh": "過山車速度太快,令兩名乘客差點嘔吐。",
+      "starter": "The",
+      "answer": "The roller coaster was so fast that two riders almost chucked up.",
+      "answerZh": "過山車速度太快,令兩名乘客差點嘔吐。",
+      "highlight": "chucked up",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Although several members supported the change, the committee rejected it after a long discussion.",
+      "promptZh": "雖然幾名成員支持這項改動,但委員會經過長時間討論後仍否決了它。",
+      "starter": "Although",
+      "answer": "Although several members supported the change, the committee chucked it out after a long discussion.",
+      "answerZh": "雖然幾名成員支持這項改動,但委員會經過長時間討論後仍否決了它。",
+      "highlight": "chucked",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "I know the course is difficult, but leaving now would mean wasting months of hard work.",
+      "promptZh": "我知道課程很困難,但現在離開便等於浪費多個月的努力。",
+      "starter": "I",
+      "answer": "I know the course is difficult, but leaving now would mean chucking away months of hard work.",
+      "answerZh": "我知道課程很困難,但現在離開便等於浪費多個月的努力。",
+      "highlight": "chucking away",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費努力、機會或有價值的事物"
+    },
+    {
+      "id": "phrasal-verb-229-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "We had planned to walk, but it started raining very heavily just as we left the café.",
+      "promptZh": "我們本來打算步行,但剛離開咖啡店便開始下傾盆大雨。",
+      "starter": "We",
+      "answer": "We had planned to walk, but it started chucking it down just as we left the café.",
+      "answerZh": "我們本來打算步行,但剛離開咖啡店便開始下傾盆大雨。",
+      "highlight": "chucking it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Because we were buying three desks, the shop agreed to include free delivery and two lamps.",
+      "promptZh": "因為我們購買三張書桌,店舖同意免費提供送貨服務和兩盞燈。",
+      "starter": "Because",
+      "answer": "Because we were buying three desks, the shop agreed to chuck in free delivery and two lamps.",
+      "answerZh": "因為我們購買三張書桌,店舖同意免費提供送貨服務和兩盞燈。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費提供額外物品或服務"
+    },
+    {
+      "id": "phrasal-verb-229-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After the rough boat trip, Sam reached the hotel feeling tired and likely to vomit.",
+      "promptZh": "經過顛簸的船程後,森到達酒店時感到疲倦,而且想嘔吐。",
+      "starter": "After",
+      "answer": "After the rough boat trip, Sam reached the hotel feeling tired and ready to chuck up.",
+      "answerZh": "經過顛簸的船程後,森到達酒店時感到疲倦,而且想嘔吐。",
+      "highlight": "ready",
+      "targetForm": "chuck up",
+      "targetMeaningZh": "嘔吐"
+    },
+    {
+      "id": "phrasal-verb-229-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Although the player apologised, the referee still forced him to leave the game for pushing another player.",
+      "promptZh": "雖然那名球員已經道歉,但球證仍因他推撞另一名球員而把他逐出比賽。",
+      "starter": "Although",
+      "answer": "Although the player apologised, the referee still chucked him out of the game for pushing another player.",
+      "answerZh": "雖然那名球員已經道歉,但球證仍因他推撞另一名球員而把他逐出比賽。",
+      "highlight": "chucked",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Even though the first month was difficult, Elena refused to leave the training course.",
+      "promptZh": "雖然第一個月很困難,但埃琳娜拒絕放棄培訓課程。",
+      "starter": "Even",
+      "answer": "Even though the first month was difficult, Elena refused to chuck in the training course.",
+      "answerZh": "雖然第一個月很困難,但埃琳娜拒絕放棄培訓課程。",
+      "highlight": "chuck in",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    },
+    {
+      "id": "phrasal-verb-229-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The team had a clear lead but wasted it in the final ten minutes.",
+      "promptZh": "球隊本來明顯領先,但在最後十分鐘浪費了優勢。",
+      "starter": "The",
+      "answer": "The team had a clear lead but chucked it away in the final ten minutes.",
+      "answerZh": "球隊本來明顯領先,但在最後十分鐘浪費了優勢。",
+      "highlight": "chucked",
+      "targetForm": "chuck something away",
+      "targetMeaningZh": "浪費機會或優勢"
+    },
+    {
+      "id": "phrasal-verb-229-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "We should improve the idea before the manager has a reason to reject it.",
+      "promptZh": "我們應該先改善這個構思,以免經理有理由否決它。",
+      "starter": "We",
+      "answer": "We should improve the idea before the manager has a reason to chuck it out.",
+      "answerZh": "我們應該先改善這個構思,以免經理有理由否決它。",
+      "highlight": "chuck",
+      "targetForm": "chuck something out",
+      "targetMeaningZh": "否決計劃、建議或構思"
+    },
+    {
+      "id": "phrasal-verb-229-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Even if it rains very heavily later, the concert will continue under the covered stage.",
+      "promptZh": "即使稍後下傾盆大雨,音樂會仍會在有蓋舞台下繼續舉行。",
+      "starter": "Even",
+      "answer": "Even if it chucks it down later, the concert will continue under the covered stage.",
+      "answerZh": "即使稍後下傾盆大雨,音樂會仍會在有蓋舞台下繼續舉行。",
+      "highlight": "chucks it down",
+      "targetForm": "chuck it down",
+      "targetMeaningZh": "下傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-229-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Anyone who enters the closed room may be forced to leave the building immediately.",
+      "promptZh": "任何人進入已關閉的房間,都可能會被立即逐出大樓。",
+      "starter": "Anyone",
+      "answer": "Anyone who enters the closed room may be chucked out of the building immediately.",
+      "answerZh": "任何人進入已關閉的房間,都可能會被立即逐出大樓。",
+      "highlight": "chucked out of",
+      "targetForm": "chuck somebody out of something",
+      "targetMeaningZh": "把某人逐出某個地方"
+    },
+    {
+      "id": "phrasal-verb-229-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The camera deal seemed expensive until the assistant included a memory card at no extra cost.",
+      "promptZh": "這個相機優惠本來看來很昂貴,直至售貨員免費附送了一張記憶卡。",
+      "starter": "The",
+      "answer": "The camera deal seemed expensive until the assistant chucked a memory card in as well.",
+      "answerZh": "這個相機優惠本來看來很昂貴,直至售貨員免費附送了一張記憶卡。",
+      "highlight": "chucked",
+      "targetForm": "chuck something in",
+      "targetMeaningZh": "免費附送額外物品"
+    },
+    {
+      "id": "phrasal-verb-229-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The child said his stomach hurt, and a few minutes later he vomited his breakfast.",
+      "promptZh": "那個孩子說自己胃痛,幾分鐘後便把早餐吐了出來。",
+      "starter": "The",
+      "answer": "The child said his stomach hurt, and a few minutes later he chucked his breakfast up.",
+      "answerZh": "那個孩子說自己胃痛,幾分鐘後便把早餐吐了出來。",
+      "highlight": "chucked",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "把吃下的東西吐出來"
+    },
+    {
+      "id": "phrasal-verb-229-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "What made you want to leave your job just before the busy season?",
+      "promptZh": "甚麼令你想在繁忙季節開始前辭掉工作?",
+      "starter": "What",
+      "answer": "What made you want to chuck your job up just before the busy season?",
+      "answerZh": "甚麼令你想在繁忙季節開始前辭掉工作?",
+      "highlight": "chuck",
+      "targetForm": "chuck something up",
+      "targetMeaningZh": "停止或放棄工作、課程或活動"
+    }
+  ]
+}

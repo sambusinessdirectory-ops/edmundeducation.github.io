@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-181",
+  "order": 181,
+  "slug": "go-around",
+  "version": "1",
+  "title": "GO AROUND 動詞片語",
+  "titleEn": "Go Around",
+  "titleZh": "GO AROUND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 180 - GO AROUND.pdf",
+    "sourceNumber": 180,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GO AROUND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GO AROUND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GO AROUND",
+      "highlight": "GO AROUND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A low wall goes around the garden.",
+      "zh": "一道矮牆圍着花園。",
+      "highlight": "goes around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The cyclist went round the bend slowly.",
+      "zh": "單車手慢慢駛過彎位。",
+      "highlight": "went round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ben often goes around with Omar.",
+      "zh": "賓經常與奧馬一起活動。",
+      "highlight": "goes around with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "圍住或環繞某人或某物；繞過彎位、障礙物或沿某事物外圍移動；經常與某人一起活動或來往；逐一到不同地方、不同人或不同事物旁查看、處理或派發東西；經常以某種狀態四處走動,或到處做某事",
+    "en": "go around/round somebody or something; go around/round something; go around with somebody; go around together; go around; go around something; go around; go around something; go around doing something",
+    "naturalZh": [
+      "圍住或環繞某人或某物",
+      "繞過彎位、障礙物或沿某事物外圍移動",
+      "經常與某人一起活動或來往",
+      "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+      "經常以某種狀態四處走動,或到處做某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "go around/round somebody or something",
+      "titleZh": "圍住或環繞某人或某物",
+      "titleEn": "go around/round somebody or something",
+      "descriptionZh": "圍住或環繞某人或某物",
+      "descriptionEn": "A low wall goes around the garden.",
+      "examples": [
+        {
+          "en": "A low wall goes around the garden.",
+          "zh": "一道矮牆圍着花園。",
+          "highlight": "goes around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go around/round something",
+      "titleZh": "繞過彎位、障礙物或沿某事物外圍移動",
+      "titleEn": "go around/round something",
+      "descriptionZh": "繞過彎位、障礙物或沿某事物外圍移動",
+      "descriptionEn": "The cyclist went round the bend slowly.",
+      "examples": [
+        {
+          "en": "The cyclist went round the bend slowly.",
+          "zh": "單車手慢慢駛過彎位。",
+          "highlight": "went round"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go around with somebody; go around together",
+      "titleZh": "經常與某人一起活動或來往",
+      "titleEn": "go around with somebody; go around together",
+      "descriptionZh": "經常與某人一起活動或來往",
+      "descriptionEn": "Ben often goes around with Omar.",
+      "examples": [
+        {
+          "en": "Ben often goes around with Omar.",
+          "zh": "賓經常與奧馬一起活動。",
+          "highlight": "goes around with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go around; go around something",
+      "titleZh": "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+      "titleEn": "go around; go around something",
+      "descriptionZh": "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+      "descriptionEn": "I went around and checked every window.",
+      "examples": [
+        {
+          "en": "I went around and checked every window.",
+          "zh": "我逐一查看每扇窗。",
+          "highlight": "went around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go around; go around something; go around doing something",
+      "titleZh": "經常以某種狀態四處走動,或到處做某事",
+      "titleEn": "go around; go around something; go around doing something",
+      "descriptionZh": "經常以某種狀態四處走動,或到處做某事",
+      "descriptionEn": "He goes around telling everyone the same joke.",
+      "examples": [
+        {
+          "en": "He goes around telling everyone the same joke.",
+          "zh": "他到處向人講同一個笑話。",
+          "highlight": "goes around"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GO AROUND 片語動詞的實際用途",
+    "labelEn": "GO AROUND Phrasal Verbs in Use",
+    "summaryZh": "GO AROUND 可以表示某事物環繞另一事物,亦可以描述某人繞過彎位或障礙物。；go around with somebody 適合用來談論友誼和某人經常一起活動的群體。；GO AROUND 可以描述走遍某個地方,逐一查看房間、與人交談或派發物品。；go around doing something 可以表示某人在不同地方或對不同的人重複做某事。",
+    "summaryEn": "GO AROUND can show that something surrounds an object or that someone moves past a bend or obstacle. Go around with somebody is useful when discussing friendships and regular social groups. GO AROUND can describe moving through a place to check rooms, speak to people or give things to them. Go around doing something can show an action that someone repeatedly performs in different places or with many people.",
+    "contextsZh": [
+      "清楚描述形狀、位置和彎曲路線",
+      "談論某人經常來往的朋友",
+      "描述逐一查看、探訪或服務他人",
+      "描述習慣和重複行為"
+    ],
+    "contextsEn": [
+      "Describe shapes, positions and curved movement clearly",
+      "Talk about the people someone spends time with",
+      "Describe checking, visiting or serving people one by one",
+      "Describe habits and repeated behaviour"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GO AROUND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GO AROUND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "go around/round somebody or something",
+    "fixedHighlight": "go around/round somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 GO AROUND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GO AROUND expression that gives the same meaning.",
+    "correct": "goes around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在以下首兩種意思中,英式英語可以使用 go round 代替 go around。；留意 GO AROUND 後面的字詞。with somebody、地方或事物,以及 doing something,可以帶出不同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. For the first two meanings below, go round can be used instead of go around in British English. Read the words after GO AROUND carefully. With somebody, a place or thing, and doing something can lead to different meanings.",
+    "variableItemsZh": [
+      "go around/round somebody or something",
+      "go around/round something",
+      "go around with somebody; go around together",
+      "go around; go around something",
+      "go around; go around something; go around doing something"
+    ],
+    "variableItemsEn": [
+      "go around/round somebody or something",
+      "go around/round something",
+      "go around with somebody; go around together",
+      "go around; go around something",
+      "go around; go around something; go around doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "圍住或環繞某人或某物",
+        "formEn": "go around/round somebody or something",
+        "exampleZh": "一道矮牆圍着花園。",
+        "exampleEn": "A low wall goes around the garden.",
+        "highlight": "goes around"
+      },
+      {
+        "formZh": "繞過彎位、障礙物或沿某事物外圍移動",
+        "formEn": "go around/round something",
+        "exampleZh": "單車手慢慢駛過彎位。",
+        "exampleEn": "The cyclist went round the bend slowly.",
+        "highlight": "went round"
+      },
+      {
+        "formZh": "經常與某人一起活動或來往",
+        "formEn": "go around with somebody; go around together",
+        "exampleZh": "賓經常與奧馬一起活動。",
+        "exampleEn": "Ben often goes around with Omar.",
+        "highlight": "goes around with"
+      },
+      {
+        "formZh": "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+        "formEn": "go around; go around something",
+        "exampleZh": "我逐一查看每扇窗。",
+        "exampleEn": "I went around and checked every window.",
+        "highlight": "went around"
+      },
+      {
+        "formZh": "經常以某種狀態四處走動,或到處做某事",
+        "formEn": "go around; go around something; go around doing something",
+        "exampleZh": "他到處向人講同一個笑話。",
+        "exampleEn": "He goes around telling everyone the same joke.",
+        "highlight": "goes around"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "圍住或環繞某人或某物",
+      "titleEn": "go around/round somebody or something",
+      "formula": "go around/round somebody or something",
+      "highlight": "go around/round somebody or something",
+      "descriptionZh": "圍住或環繞某人或某物",
+      "descriptionEn": "A low wall goes around the garden.",
+      "examples": [
+        {
+          "en": "A low wall goes around the garden.",
+          "zh": "一道矮牆圍着花園。",
+          "highlight": "goes around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "繞過彎位、障礙物或沿某事物外圍移動",
+      "titleEn": "go around/round something",
+      "formula": "go around/round something",
+      "highlight": "go around/round something",
+      "descriptionZh": "繞過彎位、障礙物或沿某事物外圍移動",
+      "descriptionEn": "The cyclist went round the bend slowly.",
+      "examples": [
+        {
+          "en": "The cyclist went round the bend slowly.",
+          "zh": "單車手慢慢駛過彎位。",
+          "highlight": "went round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "經常與某人一起活動或來往",
+      "titleEn": "go around with somebody; go around together",
+      "formula": "go around with somebody; go around together",
+      "highlight": "go around with somebody; go around together",
+      "descriptionZh": "經常與某人一起活動或來往",
+      "descriptionEn": "Ben often goes around with Omar.",
+      "examples": [
+        {
+          "en": "Ben often goes around with Omar.",
+          "zh": "賓經常與奧馬一起活動。",
+          "highlight": "goes around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+      "titleEn": "go around; go around something",
+      "formula": "go around; go around something",
+      "highlight": "go around; go around something",
+      "descriptionZh": "逐一到不同地方、不同人或不同事物旁查看、處理或派發東西",
+      "descriptionEn": "I went around and checked every window.",
+      "examples": [
+        {
+          "en": "I went around and checked every window.",
+          "zh": "我逐一查看每扇窗。",
+          "highlight": "went around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "經常以某種狀態四處走動,或到處做某事",
+      "titleEn": "go around; go around something; go around doing something",
+      "formula": "go around; go around something; go around doing something",
+      "highlight": "go around; go around something; go around doing something",
+      "descriptionZh": "經常以某種狀態四處走動,或到處做某事",
+      "descriptionEn": "He goes around telling everyone the same joke.",
+      "examples": [
+        {
+          "en": "He goes around telling everyone the same joke.",
+          "zh": "他到處向人講同一個笑話。",
+          "highlight": "goes around"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述形狀、位置和彎曲路線",
+      "titleEn": "Describe shapes, positions and curved movement clearly",
+      "zh": "GO AROUND 可以表示某事物環繞另一事物,亦可以描述某人繞過彎位或障礙物。",
+      "en": "GO AROUND can show that something surrounds an object or that someone moves past a bend or obstacle."
+    },
+    {
+      "titleZh": "談論某人經常來往的朋友",
+      "titleEn": "Talk about the people someone spends time with",
+      "zh": "go around with somebody 適合用來談論友誼和某人經常一起活動的群體。",
+      "en": "Go around with somebody is useful when discussing friendships and regular social groups."
+    },
+    {
+      "titleZh": "描述逐一查看、探訪或服務他人",
+      "titleEn": "Describe checking, visiting or serving people one by one",
+      "zh": "GO AROUND 可以描述走遍某個地方,逐一查看房間、與人交談或派發物品。",
+      "en": "GO AROUND can describe moving through a place to check rooms, speak to people or give things to them."
+    },
+    {
+      "titleZh": "描述習慣和重複行為",
+      "titleEn": "Describe habits and repeated behaviour",
+      "zh": "go around doing something 可以表示某人在不同地方或對不同的人重複做某事。",
+      "en": "Go around doing something can show an action that someone repeatedly performs in different places or with many people."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述形狀、位置和彎曲路線",
+      "談論某人經常來往的朋友",
+      "描述逐一查看、探訪或服務他人",
+      "描述習慣和重複行為"
+    ],
+    "contextsEn": [
+      "Describe shapes, positions and curved movement clearly",
+      "Talk about the people someone spends time with",
+      "Describe checking, visiting or serving people one by one",
+      "Describe habits and repeated behaviour"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述形狀、位置和彎曲路線",
+        "titleEn": "Describe shapes, positions and curved movement clearly",
+        "zh": "GO AROUND 可以表示某事物環繞另一事物,亦可以描述某人繞過彎位或障礙物。",
+        "en": "GO AROUND can show that something surrounds an object or that someone moves past a bend or obstacle.",
+        "examples": [
+          {
+            "en": "A low wall goes around the garden.",
+            "zh": "一道矮牆圍着花園。",
+            "highlight": "goes around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論某人經常來往的朋友",
+        "titleEn": "Talk about the people someone spends time with",
+        "zh": "go around with somebody 適合用來談論友誼和某人經常一起活動的群體。",
+        "en": "Go around with somebody is useful when discussing friendships and regular social groups.",
+        "examples": [
+          {
+            "en": "The cyclist went round the bend slowly.",
+            "zh": "單車手慢慢駛過彎位。",
+            "highlight": "went round"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述逐一查看、探訪或服務他人",
+        "titleEn": "Describe checking, visiting or serving people one by one",
+        "zh": "GO AROUND 可以描述走遍某個地方,逐一查看房間、與人交談或派發物品。",
+        "en": "GO AROUND can describe moving through a place to check rooms, speak to people or give things to them.",
+        "examples": [
+          {
+            "en": "Ben often goes around with Omar.",
+            "zh": "賓經常與奧馬一起活動。",
+            "highlight": "goes around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述習慣和重複行為",
+        "titleEn": "Describe habits and repeated behaviour",
+        "zh": "go around doing something 可以表示某人在不同地方或對不同的人重複做某事。",
+        "en": "Go around doing something can show an action that someone repeatedly performs in different places or with many people.",
+        "examples": [
+          {
+            "en": "I went around and checked every window.",
+            "zh": "我逐一查看每扇窗。",
+            "highlight": "went around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GO AROUND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GO AROUND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GO AROUND 片語動詞。",
+      "en": "Read the whole sentence and choose the GO AROUND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在以下首兩種意思中,英式英語可以使用 go round 代替 go around。",
+      "titleEn": "For the first two meanings below, go round can be used instead of go around in British English.",
+      "zh": "在以下首兩種意思中,英式英語可以使用 go round 代替 go around。",
+      "en": "For the first two meanings below, go round can be used instead of go around in British English."
+    },
+    {
+      "titleZh": "留意 GO AROUND 後面的字詞。with somebody、地方或事物,以及 doing something,可以帶出不同意思。",
+      "titleEn": "Read the words after GO AROUND carefully.",
+      "zh": "留意 GO AROUND 後面的字詞。with somebody、地方或事物,以及 doing something,可以帶出不同意思。",
+      "en": "Read the words after GO AROUND carefully. With somebody, a place or thing, and doing something can lead to different meanings."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GO AROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GO AROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GO AROUND 動詞片語句子改寫練習",
+    "titleEn": "GO AROUND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GO AROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GO AROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-181-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "A red ribbon circled the gift box.",
+      "promptZh": "一條紅色絲帶圍着禮物盒。",
+      "starter": "A",
+      "answer": "A red ribbon went around the gift box.",
+      "answerZh": "一條紅色絲帶圍着禮物盒。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The bus followed the sharp bend slowly.",
+      "promptZh": "巴士慢慢駛過急彎。",
+      "starter": "The",
+      "answer": "The bus went round the sharp bend slowly.",
+      "answerZh": "巴士慢慢駛過急彎。",
+      "highlight": "went round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "繞過彎位或障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ravi often spends time with Ben after school.",
+      "promptZh": "拉維放學後經常與賓一起活動。",
+      "starter": "Ravi",
+      "answer": "Ravi often goes around with Ben after school.",
+      "answerZh": "拉維放學後經常與賓一起活動。",
+      "highlight": "goes around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The guard checked the doors one by one.",
+      "promptZh": "保安逐道門查看。",
+      "starter": "The",
+      "answer": "The guard went around and checked every door.",
+      "answerZh": "保安逐一查看每道門。",
+      "highlight": "went around and",
+      "targetForm": "go around",
+      "targetMeaningZh": "逐一到不同地方或事物旁查看"
+    },
+    {
+      "id": "phrasal-verb-181-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo is often barefoot at home.",
+      "promptZh": "里奧在家中經常赤腳。",
+      "starter": "Leo",
+      "answer": "Leo goes around barefoot at home.",
+      "answerZh": "里奧在家中經常赤腳走動。",
+      "highlight": "goes around",
+      "targetForm": "go around",
+      "targetMeaningZh": "經常以某種狀態四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "One of her arms circled the child’s shoulders.",
+      "promptZh": "她的一隻手臂環抱着孩子的肩膀。",
+      "starter": "One",
+      "answer": "One of her arms went around the child’s shoulders.",
+      "answerZh": "她的一隻手臂環抱着孩子的肩膀。",
+      "highlight": "went around",
+      "targetForm": "go around somebody",
+      "targetMeaningZh": "圍住或環抱某人"
+    },
+    {
+      "id": "phrasal-verb-181-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We avoided the fallen tree by walking to one side of it.",
+      "promptZh": "我們從倒下的樹旁繞過去。",
+      "starter": "We",
+      "answer": "We went around the fallen tree.",
+      "answerZh": "我們從倒下的樹旁繞過去。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Eva spends time with a friendly group from her class.",
+      "promptZh": "伊娃經常與班上一群友善的同學一起活動。",
+      "starter": "Eva",
+      "answer": "Eva goes around with a friendly group from her class.",
+      "answerZh": "伊娃經常與班上一群友善的同學一起活動。",
+      "highlight": "goes around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I visited each part of the office and collected the cups.",
+      "promptZh": "我走遍辦公室各處,把杯子收起來。",
+      "starter": "I",
+      "answer": "I went around the office and collected the cups.",
+      "answerZh": "我走遍辦公室各處,把杯子收起來。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "She often sings quietly to herself wherever she walks.",
+      "promptZh": "她經常一邊走動,一邊輕聲自唱。",
+      "starter": "She",
+      "answer": "She goes around singing quietly to herself.",
+      "answerZh": "她經常一邊四處走動,一邊輕聲自唱。",
+      "highlight": "goes around singing",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或經常做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "A stone wall surrounds the school garden.",
+      "promptZh": "一道石牆圍着學校花園。",
+      "starter": "A",
+      "answer": "A stone wall goes around the school garden.",
+      "answerZh": "一道石牆圍着學校花園。",
+      "highlight": "goes around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The car turned the corner too quickly.",
+      "promptZh": "汽車轉彎轉得太快。",
+      "starter": "The",
+      "answer": "The car went round the corner too quickly.",
+      "answerZh": "汽車轉彎轉得太快。",
+      "highlight": "went round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-181-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The cyclist is moving through the bend now.",
+      "promptZh": "單車手現在正駛過彎位。",
+      "starter": "The",
+      "answer": "The cyclist is going round the bend now.",
+      "answerZh": "單車手現在正駛過彎位。",
+      "highlight": "going round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "駛過彎位"
+    },
+    {
+      "id": "phrasal-verb-181-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Hana has started spending time with Noor regularly.",
+      "promptZh": "哈娜開始經常與努爾一起活動。",
+      "starter": "Hana",
+      "answer": "Hana has started going around with Noor.",
+      "answerZh": "哈娜開始經常與努爾一起活動。",
+      "highlight": "going around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Will you visit each room and make sure all the lights are off?",
+      "promptZh": "你可以逐間房查看,確保所有燈都已關掉嗎?",
+      "starter": "Will",
+      "answer": "Will you go around the rooms and make sure all the lights are off?",
+      "answerZh": "你可以逐間房查看,確保所有燈都已關掉嗎?",
+      "highlight": "go around the rooms",
+      "targetForm": "go around something",
+      "targetMeaningZh": "逐一查看某個地方的不同部分"
+    },
+    {
+      "id": "phrasal-verb-181-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The children were walking through the house wearing wet socks.",
+      "promptZh": "孩子們穿着濕襪子在屋內四處走動。",
+      "starter": "The",
+      "answer": "The children were going around the house wearing wet socks.",
+      "answerZh": "孩子們穿着濕襪子在屋內四處走動。",
+      "highlight": "going around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "以某種狀態在某處四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "This blue scarf circles your neck twice.",
+      "promptZh": "這條藍色圍巾在你的頸上繞了兩圈。",
+      "starter": "This",
+      "answer": "This blue scarf goes around your neck twice.",
+      "answerZh": "這條藍色圍巾在你的頸上繞了兩圈。",
+      "highlight": "goes around",
+      "targetForm": "go around somebody or something",
+      "targetMeaningZh": "圍住或環繞某人或某物"
+    },
+    {
+      "id": "phrasal-verb-181-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The taxi had avoided the roadworks before we called.",
+      "promptZh": "我們致電前,的士已繞過道路工程。",
+      "starter": "The",
+      "answer": "The taxi had gone around the roadworks before we called.",
+      "answerZh": "我們致電前,的士已繞過道路工程。",
+      "highlight": "gone around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Do you still spend time with the same classmates?",
+      "promptZh": "你仍然經常與同一班同學一起活動嗎?",
+      "starter": "Do",
+      "answer": "Do you still go around with the same classmates?",
+      "answerZh": "你仍然經常與同一班同學一起活動嗎?",
+      "highlight": "go around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "She is moving from table to table and filling everyone’s glass from a water jug.",
+      "promptZh": "她正逐桌走動,用水壺為每個人的杯子加水。",
+      "starter": "She",
+      "answer": "She is going around, filling everyone’s glass from a water jug.",
+      "answerZh": "她正四處走動,用水壺為每個人的杯子加水。",
+      "highlight": "going around",
+      "targetForm": "go around",
+      "targetMeaningZh": "逐一走到不同人旁處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why is he carrying an umbrella everywhere indoors?",
+      "promptZh": "他為甚麼在室內到處拿着雨傘?",
+      "starter": "Why",
+      "answer": "Why is he going around carrying an umbrella indoors?",
+      "answerZh": "他為甚麼在室內到處拿着雨傘?",
+      "highlight": "going around",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "經常以某種方式四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The rope had circled the pole three times.",
+      "promptZh": "繩子已繞着柱子三圈。",
+      "starter": "The",
+      "answer": "The rope had gone around the pole three times.",
+      "answerZh": "繩子已繞着柱子三圈。",
+      "highlight": "gone around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Please avoid the puddle by walking to one side instead of through it.",
+      "promptZh": "請從水氹旁邊繞過去,不要踏進去。",
+      "starter": "Please",
+      "answer": "Please go round the puddle instead of through it.",
+      "answerZh": "請從水氹旁邊繞過去,不要踏進去。",
+      "highlight": "go round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Sam no longer spends time with that group.",
+      "promptZh": "森現在不再與那群人一起活動。",
+      "starter": "Sam",
+      "answer": "Sam does not go around with that group any more.",
+      "answerZh": "森現在不再與那群人一起活動。",
+      "highlight": "does not go around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The new student was shy, but she soon began spending time with Ella and Priya.",
+      "promptZh": "這名新生很害羞,但她很快便開始與埃拉和普里雅一起活動。",
+      "starter": "The",
+      "answer": "The new student was shy, but she soon began going around with Ella and Priya.",
+      "answerZh": "這名新生很害羞,但她很快便開始與埃拉和普里雅一起活動。",
+      "highlight": "going around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We need to visit each classroom and count the chairs.",
+      "promptZh": "我們需要逐間課室查看並數椅子。",
+      "starter": "We",
+      "answer": "We need to go around the classrooms and count the chairs.",
+      "answerZh": "我們需要逐間課室查看並數椅子。",
+      "highlight": "go around the classrooms",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方逐一查看"
+    },
+    {
+      "id": "phrasal-verb-181-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "He should not tell people everywhere that the story is true.",
+      "promptZh": "他不應到處告訴別人那個故事是真的。",
+      "starter": "He",
+      "answer": "He should not go around telling people that the story is true.",
+      "answerZh": "他不應到處告訴別人那個故事是真的。",
+      "highlight": "go around telling",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或經常做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "A narrow path circles the lake.",
+      "promptZh": "一條狹窄小路環繞着湖泊。",
+      "starter": "A",
+      "answer": "A narrow path goes around the lake.",
+      "answerZh": "一條狹窄小路環繞着湖泊。",
+      "highlight": "goes around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The runner passed the barrier by moving to one side and continued towards the gate.",
+      "promptZh": "跑手繞過障礙物後,繼續向閘口前進。",
+      "starter": "The",
+      "answer": "The runner went round the barrier and continued towards the gate.",
+      "answerZh": "跑手繞過障礙物後,繼續向閘口前進。",
+      "highlight": "went round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They used to spend time together before they changed schools.",
+      "promptZh": "他們轉校前經常一起活動。",
+      "starter": "They",
+      "answer": "They used to go around together before they changed schools.",
+      "answerZh": "他們轉校前經常一起活動。",
+      "highlight": "go around",
+      "targetForm": "go around together",
+      "targetMeaningZh": "經常一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Please speak to each person and ask which snack they want.",
+      "promptZh": "請逐一詢問每個人想要哪種小食。",
+      "starter": "Please",
+      "answer": "Please go around and ask everyone which snack they want.",
+      "answerZh": "請逐一詢問每個人想要哪種小食。",
+      "highlight": "go around",
+      "targetForm": "go around",
+      "targetMeaningZh": "逐一走到不同人旁處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Theo has worn the same hat wherever he goes all week.",
+      "promptZh": "西奧整個星期都戴着同一頂帽子四處走動。",
+      "starter": "Theo",
+      "answer": "Theo has been going around wearing the same hat all week.",
+      "answerZh": "西奧整個星期都戴着同一頂帽子四處走動。",
+      "highlight": "been going around wearing",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "經常以某種狀態四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "His fingers circled the handle as he lifted the bag.",
+      "promptZh": "他提起袋子時,手指圍住手柄。",
+      "starter": "His",
+      "answer": "His fingers went around the handle as he lifted the bag.",
+      "answerZh": "他提起袋子時,手指繞着手柄。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Because the main road was closed, we took a route past the outside of the village instead.",
+      "promptZh": "由於主要道路封閉,我們改為從村莊外圍繞過。",
+      "starter": "Because",
+      "answer": "Because the main road was closed, we went around the village instead.",
+      "answerZh": "由於主要道路封閉,我們改為從村莊外圍繞過。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "沿某事物外圍移動"
+    },
+    {
+      "id": "phrasal-verb-181-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Lina introduced me to the people she usually spends time with.",
+      "promptZh": "莉娜把我介紹給她平日經常來往的人。",
+      "starter": "Lina",
+      "answer": "Lina introduced me to the people she goes around with.",
+      "answerZh": "莉娜把我介紹給她平日經常來往的人。",
+      "highlight": "goes around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before opening, staff visit every part of the shop and put every item back.",
+      "promptZh": "開門營業前,職員會走遍店內各處,把所有物品放回原位。",
+      "starter": "Before",
+      "answer": "Before opening, staff go around the shop and put every item back.",
+      "answerZh": "開門營業前,職員會走遍店內各處,把所有物品放回原位。",
+      "highlight": "go around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The nurse visited each family in the waiting room and spoke to them.",
+      "promptZh": "護士逐一走到候診室內每個家庭旁邊,與他們交談。",
+      "starter": "The",
+      "answer": "The nurse went around the waiting room and spoke to each family.",
+      "answerZh": "護士逐一走到候診室內每個家庭旁邊,與他們交談。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方並逐一處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "You cannot keep blaming other people for every mistake wherever you go.",
+      "promptZh": "你不能每次出錯都到處責怪別人。",
+      "starter": "You",
+      "answer": "You cannot go around blaming other people for every mistake.",
+      "answerZh": "你不能每次出錯都到處責怪別人。",
+      "highlight": "go around",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或經常做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A line of lights follows the whole edge of the mirror.",
+      "promptZh": "一排燈沿着鏡子的整個邊緣排列。",
+      "starter": "A",
+      "answer": "A line of lights goes around the edge of the mirror.",
+      "answerZh": "一排燈環繞着鏡子的邊緣。",
+      "highlight": "goes around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Jaya stopped spending time with the older students because they were often unkind.",
+      "promptZh": "賈雅不再與年紀較大的學生一起活動,因為他們經常對人不友善。",
+      "starter": "Jaya",
+      "answer": "Jaya stopped going around with the older students because they were often unkind.",
+      "answerZh": "賈雅不再與年紀較大的學生一起活動,因為他們經常對人不友善。",
+      "highlight": "going around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The horse moved past the tree in a circle and came back towards us.",
+      "promptZh": "那匹馬繞過樹後,返回我們這邊。",
+      "starter": "The",
+      "answer": "The horse went round the tree and came back towards us.",
+      "answerZh": "那匹馬繞過樹後,返回我們這邊。",
+      "highlight": "went round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We visited homes across the neighbourhood to give each family a leaflet.",
+      "promptZh": "我們走遍整個社區,向每個家庭派發傳單。",
+      "starter": "We",
+      "answer": "We went around the neighbourhood to give each family a leaflet.",
+      "answerZh": "我們走遍整個社區,向每個家庭派發傳單。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方探訪或派發物品"
+    },
+    {
+      "id": "phrasal-verb-181-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "People should not take photos everywhere without asking.",
+      "promptZh": "人們不應未經同意便到處拍照。",
+      "starter": "People",
+      "answer": "People should not go around taking photos without asking.",
+      "answerZh": "人們不應未經同意便到處拍照。",
+      "highlight": "go around taking",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或經常做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The child held his father tightly at the waist with both arms.",
+      "promptZh": "那個孩子用雙臂緊緊抱着父親的腰。",
+      "starter": "The",
+      "answer": "The child’s arms went around his father’s waist.",
+      "answerZh": "那個孩子的雙臂環抱着父親的腰。",
+      "highlight": "child’s arms went around",
+      "targetForm": "go around somebody",
+      "targetMeaningZh": "圍住或環抱某人"
+    },
+    {
+      "id": "phrasal-verb-181-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Which friends does your brother usually spend time with?",
+      "promptZh": "你哥哥通常與哪些朋友一起活動?",
+      "starter": "Which",
+      "answer": "Which friends does your brother usually go around with?",
+      "answerZh": "你哥哥通常與哪些朋友一起活動?",
+      "highlight": "go around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "To reach the back door, walk along the side of the building.",
+      "promptZh": "要到達後門,請沿着建築物側面繞過去。",
+      "starter": "To",
+      "answer": "To reach the back door, go round the side of the building.",
+      "answerZh": "要到達後門,請沿着建築物側面繞過去。",
+      "highlight": "go round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "沿某事物外圍移動"
+    },
+    {
+      "id": "phrasal-verb-181-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The teacher visited each desk to check that everyone had written their name.",
+      "promptZh": "老師逐張書桌查看,確認每個人都寫上了名字。",
+      "starter": "The",
+      "answer": "The teacher went around and checked that everyone had written their name.",
+      "answerZh": "老師逐一查看,確認每個人都寫上了名字。",
+      "highlight": "went around and checked",
+      "targetForm": "go around",
+      "targetMeaningZh": "逐一走到不同人或事物旁查看"
+    },
+    {
+      "id": "phrasal-verb-181-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She often walks through the school covered in paint after art class.",
+      "promptZh": "她上完美術課後,經常滿身顏料地在學校走動。",
+      "starter": "She",
+      "answer": "She often goes around the school covered in paint after art class.",
+      "answerZh": "她上完美術課後,經常滿身顏料地在學校走動。",
+      "highlight": "goes around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "以某種狀態在某處四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "He had told everyone he met that the trip was cancelled, but the message was wrong.",
+      "promptZh": "他曾到處告訴每個遇到的人旅程已取消,但那個消息是錯的。",
+      "starter": "He",
+      "answer": "He had gone around telling everyone he met that the trip was cancelled, but the message was wrong.",
+      "answerZh": "他曾到處告訴每個遇到的人旅程已取消,但那個消息是錯的。",
+      "highlight": "gone around telling",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或反覆做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "A wooden fence surrounded the play area, keeping the children away from the road.",
+      "promptZh": "一道木圍欄圍着遊樂區,避免孩子走近馬路。",
+      "starter": "A",
+      "answer": "A wooden fence went around the play area, keeping the children away from the road.",
+      "answerZh": "一道木圍欄圍着遊樂區,避免孩子走近馬路。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    },
+    {
+      "id": "phrasal-verb-181-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Although Niko was new to the club, he soon spent time with the more experienced players.",
+      "promptZh": "雖然尼科是會所的新成員,但他很快便開始與較有經驗的球員一起活動。",
+      "starter": "Although",
+      "answer": "Although Niko was new to the club, he soon went around with the more experienced players.",
+      "answerZh": "雖然尼科是會所的新成員,但他很快便開始與較有經驗的球員一起活動。",
+      "highlight": "went around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the path reached the hill, it curved past the rocks instead of crossing them.",
+      "promptZh": "小路到達山邊時,繞過岩石,而不是跨過岩石。",
+      "starter": "When",
+      "answer": "When the path reached the hill, it went round the rocks instead of over them.",
+      "answerZh": "小路到達山邊時,繞過岩石,而不是從岩石上方越過。",
+      "highlight": "went round",
+      "targetForm": "go around/round something",
+      "targetMeaningZh": "繞過障礙物"
+    },
+    {
+      "id": "phrasal-verb-181-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the party, we walked through every part of the room and picked up all the empty cups.",
+      "promptZh": "派對後,我們走遍房間,把所有空杯子撿起來。",
+      "starter": "After",
+      "answer": "After the party, we went around the room and picked up all the empty cups.",
+      "answerZh": "派對後,我們走遍房間,把所有空杯子撿起來。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "You should not promise help to everyone unless you have time to give it.",
+      "promptZh": "除非你有時間提供協助,否則不應向所有人答應幫忙。",
+      "starter": "You",
+      "answer": "You should not go around promising help to everyone unless you have time to give it.",
+      "answerZh": "除非你有時間提供協助,否則不應到處向所有人答應幫忙。",
+      "highlight": "go around promising",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "到處或反覆做某事"
+    },
+    {
+      "id": "phrasal-verb-181-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "As he hugged his little sister, both arms circled her shoulders.",
+      "promptZh": "他擁抱妹妹時,雙臂環抱着她的肩膀。",
+      "starter": "As",
+      "answer": "As he hugged his little sister, both arms went around her shoulders.",
+      "answerZh": "他擁抱妹妹時,雙臂環抱着她的肩膀。",
+      "highlight": "went around",
+      "targetForm": "go around somebody",
+      "targetMeaningZh": "圍住或環抱某人"
+    },
+    {
+      "id": "phrasal-verb-181-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "I do not know why Arun spends time with people who laugh at him.",
+      "promptZh": "我不明白阿倫為甚麼要與取笑他的人一起活動。",
+      "starter": "I",
+      "answer": "I do not know why Arun goes around with people who laugh at him.",
+      "answerZh": "我不明白阿倫為甚麼要與取笑他的人一起活動。",
+      "highlight": "goes around",
+      "targetForm": "go around with somebody",
+      "targetMeaningZh": "經常與某人一起活動或來往"
+    },
+    {
+      "id": "phrasal-verb-181-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Before the guests arrived, Salma visited each room in the flat and opened every window.",
+      "promptZh": "客人到達前,薩爾瑪走遍整間單位,把每扇窗都打開。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, Salma went around the flat and opened every window.",
+      "answerZh": "客人到達前,薩爾瑪走遍整間單位,把每扇窗都打開。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "走遍某個地方逐一處理事情"
+    },
+    {
+      "id": "phrasal-verb-181-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The van could not pass the gate, so it took a route along the outside of the field to reach the house.",
+      "promptZh": "客貨車無法穿過閘口,所以沿着田野外圍繞到房子。",
+      "starter": "The",
+      "answer": "The van could not pass the gate, so it went around the field to reach the house.",
+      "answerZh": "客貨車無法穿過閘口,所以沿着田野外圍繞到房子。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "沿某事物外圍移動"
+    },
+    {
+      "id": "phrasal-verb-181-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even at formal events, Kai wears bright trainers and a sports cap wherever he goes.",
+      "promptZh": "即使出席正式活動,啟也穿着鮮色運動鞋和戴着運動帽四處走動。",
+      "starter": "Even",
+      "answer": "Even at formal events, Kai goes around wearing bright trainers and a sports cap.",
+      "answerZh": "即使出席正式活動,啟也穿着鮮色運動鞋和戴着運動帽四處走動。",
+      "highlight": "goes around wearing",
+      "targetForm": "go around doing something",
+      "targetMeaningZh": "經常以某種狀態四處走動"
+    },
+    {
+      "id": "phrasal-verb-181-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A silver chain circled the old box and held the lid shut.",
+      "promptZh": "一條銀色鏈子圍着舊盒子,把盒蓋鎖緊。",
+      "starter": "A",
+      "answer": "A silver chain went around the old box and held the lid shut.",
+      "answerZh": "一條銀色鏈子圍着舊盒子,把盒蓋鎖緊。",
+      "highlight": "went around",
+      "targetForm": "go around something",
+      "targetMeaningZh": "圍住或環繞某物"
+    }
+  ]
+}

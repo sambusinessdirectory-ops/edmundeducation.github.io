@@ -1,0 +1,2344 @@
+{
+  "id": "phrasal-verb-128",
+  "order": 128,
+  "slug": "cut",
+  "version": "1",
+  "title": "CUT 動詞片語",
+  "titleEn": "Cut",
+  "titleZh": "CUT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 127 - CUT.pdf",
+    "sourceNumber": 127,
+    "pageCount": 31,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerKeyPdfPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CUT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CUT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CUT",
+      "highlight": "CUT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We will arrive sooner if we cut across the field.",
+      "zh": "如果我們穿過田野走捷徑,便會更快到達。",
+      "highlight": "cut across",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We need to cut back on electricity.",
+      "zh": "我們需要減少用電。",
+      "highlight": "cut back on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please do not cut in while she is speaking.",
+      "zh": "她說話時,請不要插嘴。",
+      "highlight": "cut in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "直接穿過某處,以縮短路程；減少用量、開支、時間、資金或數量；插嘴;打斷別人說話；切入或切穿某物;劈出一條通道；車輛突然駛離原有位置或車龍；使某人英年早逝;奪去某人的生命；讓某人參與計劃或交易,並分得金錢、利益或資料；停止給某人金錢、遺產或經濟支持；把某人排除在外;省去中間人或中間環節；貶低某人;令某人覺得自己很差；使某人或某處隔絕;切斷道路、聯繫或接觸；把某人割得很傷；把某物切成小塊；用切割方式移除某部分；從紙張或其他材料剪出某部分；刪去不必要的步驟、工作或內容；機器、引擎或設備突然停止運作",
+    "en": "cut across something; cut back (on something) / cut something back / cut something down; cut in; cut into something / cut through something / cut something through something; cut out / cut out of something; cut somebody down; cut somebody in on something; cut somebody off; cut somebody/something out / cut somebody out of something; cut somebody down; cut somebody/something off / cut yourself off from somebody/something; cut somebody up; cut something up; cut something away / cut something off; cut something out / cut something out of something; cut something out; cut out",
+    "naturalZh": [
+      "直接穿過某處,以縮短路程",
+      "減少用量、開支、時間、資金或數量",
+      "插嘴;打斷別人說話",
+      "切入或切穿某物;劈出一條通道",
+      "車輛突然駛離原有位置或車龍",
+      "使某人英年早逝;奪去某人的生命",
+      "讓某人參與計劃或交易,並分得金錢、利益或資料",
+      "停止給某人金錢、遺產或經濟支持",
+      "把某人排除在外;省去中間人或中間環節",
+      "貶低某人;令某人覺得自己很差",
+      "使某人或某處隔絕;切斷道路、聯繫或接觸",
+      "把某人割得很傷",
+      "把某物切成小塊",
+      "用切割方式移除某部分",
+      "從紙張或其他材料剪出某部分",
+      "刪去不必要的步驟、工作或內容",
+      "機器、引擎或設備突然停止運作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cut across something",
+      "titleZh": "直接穿過某處,以縮短路程",
+      "titleEn": "cut across something",
+      "descriptionZh": "直接穿過某處,以縮短路程",
+      "descriptionEn": "We will arrive sooner if we cut across the field.",
+      "examples": [
+        {
+          "en": "We will arrive sooner if we cut across the field.",
+          "zh": "如果我們穿過田野走捷徑,便會更快到達。",
+          "highlight": "cut across"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut back (on something) / cut something back / cut something down",
+      "titleZh": "減少用量、開支、時間、資金或數量",
+      "titleEn": "cut back (on something) / cut something back / cut something down",
+      "descriptionZh": "減少用量、開支、時間、資金或數量",
+      "descriptionEn": "We need to cut back on electricity.",
+      "examples": [
+        {
+          "en": "We need to cut back on electricity.",
+          "zh": "我們需要減少用電。",
+          "highlight": "cut back on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut in",
+      "titleZh": "插嘴;打斷別人說話",
+      "titleEn": "cut in",
+      "descriptionZh": "插嘴;打斷別人說話",
+      "descriptionEn": "Please do not cut in while she is speaking.",
+      "examples": [
+        {
+          "en": "Please do not cut in while she is speaking.",
+          "zh": "她說話時,請不要插嘴。",
+          "highlight": "cut in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut into something / cut through something / cut something through something",
+      "titleZh": "切入或切穿某物;劈出一條通道",
+      "titleEn": "cut into something / cut through something / cut something through something",
+      "descriptionZh": "切入或切穿某物;劈出一條通道",
+      "descriptionEn": "This saw can cut through metal.",
+      "examples": [
+        {
+          "en": "This saw can cut through metal.",
+          "zh": "這把鋸可以切穿金屬。",
+          "highlight": "cut through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut out / cut out of something",
+      "titleZh": "車輛突然駛離原有位置或車龍",
+      "titleEn": "cut out / cut out of something",
+      "descriptionZh": "車輛突然駛離原有位置或車龍",
+      "descriptionEn": "A car cut out of the side road in front of us.",
+      "examples": [
+        {
+          "en": "A car cut out of the side road in front of us.",
+          "zh": "一輛汽車突然從支路切出,駛到我們前面。",
+          "highlight": "cut out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut somebody down",
+      "titleZh": "使某人英年早逝;奪去某人的生命",
+      "titleEn": "cut somebody down",
+      "descriptionZh": "使某人英年早逝;奪去某人的生命",
+      "descriptionEn": "The young writer was cut down by illness.",
+      "examples": [
+        {
+          "en": "The young writer was cut down by illness.",
+          "zh": "那名年輕作家因病英年早逝。",
+          "highlight": "cut down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut somebody in on something",
+      "titleZh": "讓某人參與計劃或交易,並分得金錢、利益或資料",
+      "titleEn": "cut somebody in on something",
+      "descriptionZh": "讓某人參與計劃或交易,並分得金錢、利益或資料",
+      "descriptionEn": "They cut Leo in on the deal.",
+      "examples": [
+        {
+          "en": "They cut Leo in on the deal.",
+          "zh": "他們讓里奧參與這宗交易。",
+          "highlight": "cut Leo in on"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut somebody off",
+      "titleZh": "停止給某人金錢、遺產或經濟支持",
+      "titleEn": "cut somebody off",
+      "descriptionZh": "停止給某人金錢、遺產或經濟支持",
+      "descriptionEn": "His family cut him off.",
+      "examples": [
+        {
+          "en": "His family cut him off.",
+          "zh": "他的家人停止給他經濟支持。",
+          "highlight": "cut him off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut somebody/something out / cut somebody out of something",
+      "titleZh": "把某人排除在外;省去中間人或中間環節",
+      "titleEn": "cut somebody/something out / cut somebody out of something",
+      "descriptionZh": "把某人排除在外;省去中間人或中間環節",
+      "descriptionEn": "The group cut him out of the plan.",
+      "examples": [
+        {
+          "en": "The group cut him out of the plan.",
+          "zh": "小組把他排除在計劃之外。",
+          "highlight": "cut him out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cut somebody down",
+      "titleZh": "貶低某人;令某人覺得自己很差",
+      "titleEn": "cut somebody down",
+      "descriptionZh": "貶低某人;令某人覺得自己很差",
+      "descriptionEn": "She never cuts her classmates down.",
+      "examples": [
+        {
+          "en": "She never cuts her classmates down.",
+          "zh": "她從不貶低同學。",
+          "highlight": "cuts her classmates down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut somebody/something off / cut yourself off from somebody/something",
+      "titleZh": "使某人或某處隔絕;切斷道路、聯繫或接觸",
+      "titleEn": "cut somebody/something off / cut yourself off from somebody/something",
+      "descriptionZh": "使某人或某處隔絕;切斷道路、聯繫或接觸",
+      "descriptionEn": "The storm cut the village off.",
+      "examples": [
+        {
+          "en": "The storm cut the village off.",
+          "zh": "暴風雨令村莊與外界隔絕。",
+          "highlight": "cut the village off"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut somebody up",
+      "titleZh": "把某人割得很傷",
+      "titleEn": "cut somebody up",
+      "descriptionZh": "把某人割得很傷",
+      "descriptionEn": "The broken glass cut his hands up badly.",
+      "examples": [
+        {
+          "en": "The broken glass cut his hands up badly.",
+          "zh": "碎玻璃把他的雙手割得很傷。",
+          "highlight": "cut his hands up"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut something up",
+      "titleZh": "把某物切成小塊",
+      "titleEn": "cut something up",
+      "descriptionZh": "把某物切成小塊",
+      "descriptionEn": "Please cut up the carrots.",
+      "examples": [
+        {
+          "en": "Please cut up the carrots.",
+          "zh": "請把紅蘿蔔切成小塊。",
+          "highlight": "cut up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut something away / cut something off",
+      "titleZh": "用切割方式移除某部分",
+      "titleEn": "cut something away / cut something off",
+      "descriptionZh": "用切割方式移除某部分",
+      "descriptionEn": "Cut away the dead branches.",
+      "examples": [
+        {
+          "en": "Cut away the dead branches.",
+          "zh": "剪走枯枝。",
+          "highlight": "Cut away"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut something out / cut something out of something",
+      "titleZh": "從紙張或其他材料剪出某部分",
+      "titleEn": "cut something out / cut something out of something",
+      "descriptionZh": "從紙張或其他材料剪出某部分",
+      "descriptionEn": "Cut the picture out of the magazine.",
+      "examples": [
+        {
+          "en": "Cut the picture out of the magazine.",
+          "zh": "把圖片從雜誌剪下來。",
+          "highlight": "Cut the picture out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut something out",
+      "titleZh": "刪去不必要的步驟、工作或內容",
+      "titleEn": "cut something out",
+      "descriptionZh": "刪去不必要的步驟、工作或內容",
+      "descriptionEn": "The new system cuts out one step.",
+      "examples": [
+        {
+          "en": "The new system cuts out one step.",
+          "zh": "新系統省去了一個步驟。",
+          "highlight": "cuts out"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cut out",
+      "titleZh": "機器、引擎或設備突然停止運作",
+      "titleEn": "cut out",
+      "descriptionZh": "機器、引擎或設備突然停止運作",
+      "descriptionEn": "The engine cut out on the hill.",
+      "examples": [
+        {
+          "en": "The engine cut out on the hill.",
+          "zh": "引擎在山坡上突然停止運作。",
+          "highlight": "cut out"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CUT 片語動詞的實際用途",
+    "labelEn": "CUT Phrasal Verbs in Use",
+    "summaryZh": "cut across 可以描述穿過某處走捷徑;cut out 則可以描述車輛突然駛離原有位置。；你可以 cut back on 開支、cut down 數量、cut away 損壞部分,或 cut out 不必要的步驟。；cut somebody in 表示讓某人參與;cut somebody out 和 cut somebody off 則可以表示排除或隔絕。；CUT 片語動詞可以描述切入木材、切穿繩子、把食物切成小塊,以及從紙張剪出圖案。",
+    "summaryEn": "Cut across describes taking a shorter route, while cut out can describe a vehicle suddenly leaving its position. You can cut back on spending, cut down a number, cut away damaged material or cut out an unnecessary step. Cut somebody in means including a person, while cut somebody out and cut somebody off can show exclusion or separation. CUT expressions can describe cutting into wood, cutting through rope, cutting food into pieces and cutting shapes from paper.",
+    "contextsZh": [
+      "使用 CUT 描述捷徑和突然移動",
+      "清楚談論減少和移除事物",
+      "描述加入、排除和隔絕",
+      "描述不同形式的切割動作"
+    ],
+    "contextsEn": [
+      "Use CUT to describe shorter routes and sudden movement",
+      "Talk clearly about reducing and removing things",
+      "Describe inclusion, exclusion and broken connections",
+      "Explain different kinds of physical cutting"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CUT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CUT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cut across something",
+    "fixedHighlight": "cut across something",
+    "fixedZh": "閱讀整句,選出意思相同的 CUT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CUT expression that gives the same meaning.",
+    "correct": "cut across",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；cut out 有多個不同意思,可以描述車輛突然駛離原位、機器停止運作,或某事物被刪除或剪下。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in these expressions, place the word as shown: cut him in cut her off cut it up cut them out Cut out has several different meanings. It can describe a vehicle moving suddenly, a machine stopping, or something being removed. Read the full situation carefully.",
+    "variableItemsZh": [
+      "cut across something",
+      "cut back (on something) / cut something back / cut something down",
+      "cut in",
+      "cut into something / cut through something / cut something through something",
+      "cut out / cut out of something",
+      "cut somebody down",
+      "cut somebody in on something",
+      "cut somebody off",
+      "cut somebody/something out / cut somebody out of something",
+      "cut somebody down",
+      "cut somebody/something off / cut yourself off from somebody/something",
+      "cut somebody up",
+      "cut something up",
+      "cut something away / cut something off",
+      "cut something out / cut something out of something",
+      "cut something out",
+      "cut out"
+    ],
+    "variableItemsEn": [
+      "cut across something",
+      "cut back (on something) / cut something back / cut something down",
+      "cut in",
+      "cut into something / cut through something / cut something through something",
+      "cut out / cut out of something",
+      "cut somebody down",
+      "cut somebody in on something",
+      "cut somebody off",
+      "cut somebody/something out / cut somebody out of something",
+      "cut somebody down",
+      "cut somebody/something off / cut yourself off from somebody/something",
+      "cut somebody up",
+      "cut something up",
+      "cut something away / cut something off",
+      "cut something out / cut something out of something",
+      "cut something out",
+      "cut out"
+    ],
+    "forms": [
+      {
+        "formZh": "直接穿過某處,以縮短路程",
+        "formEn": "cut across something",
+        "exampleZh": "如果我們穿過田野走捷徑,便會更快到達。",
+        "exampleEn": "We will arrive sooner if we cut across the field.",
+        "highlight": "cut across"
+      },
+      {
+        "formZh": "減少用量、開支、時間、資金或數量",
+        "formEn": "cut back (on something) / cut something back / cut something down",
+        "exampleZh": "我們需要減少用電。",
+        "exampleEn": "We need to cut back on electricity.",
+        "highlight": "cut back on"
+      },
+      {
+        "formZh": "插嘴;打斷別人說話",
+        "formEn": "cut in",
+        "exampleZh": "她說話時,請不要插嘴。",
+        "exampleEn": "Please do not cut in while she is speaking.",
+        "highlight": "cut in"
+      },
+      {
+        "formZh": "切入或切穿某物;劈出一條通道",
+        "formEn": "cut into something / cut through something / cut something through something",
+        "exampleZh": "這把鋸可以切穿金屬。",
+        "exampleEn": "This saw can cut through metal.",
+        "highlight": "cut through"
+      },
+      {
+        "formZh": "車輛突然駛離原有位置或車龍",
+        "formEn": "cut out / cut out of something",
+        "exampleZh": "一輛汽車突然從支路切出,駛到我們前面。",
+        "exampleEn": "A car cut out of the side road in front of us.",
+        "highlight": "cut out"
+      },
+      {
+        "formZh": "使某人英年早逝;奪去某人的生命",
+        "formEn": "cut somebody down",
+        "exampleZh": "那名年輕作家因病英年早逝。",
+        "exampleEn": "The young writer was cut down by illness.",
+        "highlight": "cut down"
+      },
+      {
+        "formZh": "讓某人參與計劃或交易,並分得金錢、利益或資料",
+        "formEn": "cut somebody in on something",
+        "exampleZh": "他們讓里奧參與這宗交易。",
+        "exampleEn": "They cut Leo in on the deal.",
+        "highlight": "cut Leo in on"
+      },
+      {
+        "formZh": "停止給某人金錢、遺產或經濟支持",
+        "formEn": "cut somebody off",
+        "exampleZh": "他的家人停止給他經濟支持。",
+        "exampleEn": "His family cut him off.",
+        "highlight": "cut him off"
+      },
+      {
+        "formZh": "把某人排除在外;省去中間人或中間環節",
+        "formEn": "cut somebody/something out / cut somebody out of something",
+        "exampleZh": "小組把他排除在計劃之外。",
+        "exampleEn": "The group cut him out of the plan.",
+        "highlight": "cut him out"
+      },
+      {
+        "formZh": "貶低某人;令某人覺得自己很差",
+        "formEn": "cut somebody down",
+        "exampleZh": "她從不貶低同學。",
+        "exampleEn": "She never cuts her classmates down.",
+        "highlight": "cuts her classmates down"
+      },
+      {
+        "formZh": "使某人或某處隔絕;切斷道路、聯繫或接觸",
+        "formEn": "cut somebody/something off / cut yourself off from somebody/something",
+        "exampleZh": "暴風雨令村莊與外界隔絕。",
+        "exampleEn": "The storm cut the village off.",
+        "highlight": "cut the village off"
+      },
+      {
+        "formZh": "把某人割得很傷",
+        "formEn": "cut somebody up",
+        "exampleZh": "碎玻璃把他的雙手割得很傷。",
+        "exampleEn": "The broken glass cut his hands up badly.",
+        "highlight": "cut his hands up"
+      },
+      {
+        "formZh": "把某物切成小塊",
+        "formEn": "cut something up",
+        "exampleZh": "請把紅蘿蔔切成小塊。",
+        "exampleEn": "Please cut up the carrots.",
+        "highlight": "cut up"
+      },
+      {
+        "formZh": "用切割方式移除某部分",
+        "formEn": "cut something away / cut something off",
+        "exampleZh": "剪走枯枝。",
+        "exampleEn": "Cut away the dead branches.",
+        "highlight": "Cut away"
+      },
+      {
+        "formZh": "從紙張或其他材料剪出某部分",
+        "formEn": "cut something out / cut something out of something",
+        "exampleZh": "把圖片從雜誌剪下來。",
+        "exampleEn": "Cut the picture out of the magazine.",
+        "highlight": "Cut the picture out"
+      },
+      {
+        "formZh": "刪去不必要的步驟、工作或內容",
+        "formEn": "cut something out",
+        "exampleZh": "新系統省去了一個步驟。",
+        "exampleEn": "The new system cuts out one step.",
+        "highlight": "cuts out"
+      },
+      {
+        "formZh": "機器、引擎或設備突然停止運作",
+        "formEn": "cut out",
+        "exampleZh": "引擎在山坡上突然停止運作。",
+        "exampleEn": "The engine cut out on the hill.",
+        "highlight": "cut out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "直接穿過某處,以縮短路程",
+      "titleEn": "cut across something",
+      "formula": "cut across something",
+      "highlight": "cut across something",
+      "descriptionZh": "直接穿過某處,以縮短路程",
+      "descriptionEn": "We will arrive sooner if we cut across the field.",
+      "examples": [
+        {
+          "en": "We will arrive sooner if we cut across the field.",
+          "zh": "如果我們穿過田野走捷徑,便會更快到達。",
+          "highlight": "cut across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "減少用量、開支、時間、資金或數量",
+      "titleEn": "cut back (on something) / cut something back / cut something down",
+      "formula": "cut back (on something) / cut something back / cut something down",
+      "highlight": "cut back (on something) / cut something back / cut something down",
+      "descriptionZh": "減少用量、開支、時間、資金或數量",
+      "descriptionEn": "We need to cut back on electricity.",
+      "examples": [
+        {
+          "en": "We need to cut back on electricity.",
+          "zh": "我們需要減少用電。",
+          "highlight": "cut back on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "插嘴;打斷別人說話",
+      "titleEn": "cut in",
+      "formula": "cut in",
+      "highlight": "cut in",
+      "descriptionZh": "插嘴;打斷別人說話",
+      "descriptionEn": "Please do not cut in while she is speaking.",
+      "examples": [
+        {
+          "en": "Please do not cut in while she is speaking.",
+          "zh": "她說話時,請不要插嘴。",
+          "highlight": "cut in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "切入或切穿某物;劈出一條通道",
+      "titleEn": "cut into something / cut through something / cut something through something",
+      "formula": "cut into something / cut through something / cut something through something",
+      "highlight": "cut into something / cut through something / cut something through something",
+      "descriptionZh": "切入或切穿某物;劈出一條通道",
+      "descriptionEn": "This saw can cut through metal.",
+      "examples": [
+        {
+          "en": "This saw can cut through metal.",
+          "zh": "這把鋸可以切穿金屬。",
+          "highlight": "cut through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "車輛突然駛離原有位置或車龍",
+      "titleEn": "cut out / cut out of something",
+      "formula": "cut out / cut out of something",
+      "highlight": "cut out / cut out of something",
+      "descriptionZh": "車輛突然駛離原有位置或車龍",
+      "descriptionEn": "A car cut out of the side road in front of us.",
+      "examples": [
+        {
+          "en": "A car cut out of the side road in front of us.",
+          "zh": "一輛汽車突然從支路切出,駛到我們前面。",
+          "highlight": "cut out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "使某人英年早逝;奪去某人的生命",
+      "titleEn": "cut somebody down",
+      "formula": "cut somebody down",
+      "highlight": "cut somebody down",
+      "descriptionZh": "使某人英年早逝;奪去某人的生命",
+      "descriptionEn": "The young writer was cut down by illness.",
+      "examples": [
+        {
+          "en": "The young writer was cut down by illness.",
+          "zh": "那名年輕作家因病英年早逝。",
+          "highlight": "cut down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "讓某人參與計劃或交易,並分得金錢、利益或資料",
+      "titleEn": "cut somebody in on something",
+      "formula": "cut somebody in on something",
+      "highlight": "cut somebody in on something",
+      "descriptionZh": "讓某人參與計劃或交易,並分得金錢、利益或資料",
+      "descriptionEn": "They cut Leo in on the deal.",
+      "examples": [
+        {
+          "en": "They cut Leo in on the deal.",
+          "zh": "他們讓里奧參與這宗交易。",
+          "highlight": "cut Leo in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "停止給某人金錢、遺產或經濟支持",
+      "titleEn": "cut somebody off",
+      "formula": "cut somebody off",
+      "highlight": "cut somebody off",
+      "descriptionZh": "停止給某人金錢、遺產或經濟支持",
+      "descriptionEn": "His family cut him off.",
+      "examples": [
+        {
+          "en": "His family cut him off.",
+          "zh": "他的家人停止給他經濟支持。",
+          "highlight": "cut him off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某人排除在外;省去中間人或中間環節",
+      "titleEn": "cut somebody/something out / cut somebody out of something",
+      "formula": "cut somebody/something out / cut somebody out of something",
+      "highlight": "cut somebody/something out / cut somebody out of something",
+      "descriptionZh": "把某人排除在外;省去中間人或中間環節",
+      "descriptionEn": "The group cut him out of the plan.",
+      "examples": [
+        {
+          "en": "The group cut him out of the plan.",
+          "zh": "小組把他排除在計劃之外。",
+          "highlight": "cut him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "貶低某人;令某人覺得自己很差",
+      "titleEn": "cut somebody down",
+      "formula": "cut somebody down",
+      "highlight": "cut somebody down",
+      "descriptionZh": "貶低某人;令某人覺得自己很差",
+      "descriptionEn": "She never cuts her classmates down.",
+      "examples": [
+        {
+          "en": "She never cuts her classmates down.",
+          "zh": "她從不貶低同學。",
+          "highlight": "cuts her classmates down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "使某人或某處隔絕;切斷道路、聯繫或接觸",
+      "titleEn": "cut somebody/something off / cut yourself off from somebody/something",
+      "formula": "cut somebody/something off / cut yourself off from somebody/something",
+      "highlight": "cut somebody/something off / cut yourself off from somebody/something",
+      "descriptionZh": "使某人或某處隔絕;切斷道路、聯繫或接觸",
+      "descriptionEn": "The storm cut the village off.",
+      "examples": [
+        {
+          "en": "The storm cut the village off.",
+          "zh": "暴風雨令村莊與外界隔絕。",
+          "highlight": "cut the village off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人割得很傷",
+      "titleEn": "cut somebody up",
+      "formula": "cut somebody up",
+      "highlight": "cut somebody up",
+      "descriptionZh": "把某人割得很傷",
+      "descriptionEn": "The broken glass cut his hands up badly.",
+      "examples": [
+        {
+          "en": "The broken glass cut his hands up badly.",
+          "zh": "碎玻璃把他的雙手割得很傷。",
+          "highlight": "cut his hands up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某物切成小塊",
+      "titleEn": "cut something up",
+      "formula": "cut something up",
+      "highlight": "cut something up",
+      "descriptionZh": "把某物切成小塊",
+      "descriptionEn": "Please cut up the carrots.",
+      "examples": [
+        {
+          "en": "Please cut up the carrots.",
+          "zh": "請把紅蘿蔔切成小塊。",
+          "highlight": "cut up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "用切割方式移除某部分",
+      "titleEn": "cut something away / cut something off",
+      "formula": "cut something away / cut something off",
+      "highlight": "cut something away / cut something off",
+      "descriptionZh": "用切割方式移除某部分",
+      "descriptionEn": "Cut away the dead branches.",
+      "examples": [
+        {
+          "en": "Cut away the dead branches.",
+          "zh": "剪走枯枝。",
+          "highlight": "Cut away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "從紙張或其他材料剪出某部分",
+      "titleEn": "cut something out / cut something out of something",
+      "formula": "cut something out / cut something out of something",
+      "highlight": "cut something out / cut something out of something",
+      "descriptionZh": "從紙張或其他材料剪出某部分",
+      "descriptionEn": "Cut the picture out of the magazine.",
+      "examples": [
+        {
+          "en": "Cut the picture out of the magazine.",
+          "zh": "把圖片從雜誌剪下來。",
+          "highlight": "Cut the picture out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "刪去不必要的步驟、工作或內容",
+      "titleEn": "cut something out",
+      "formula": "cut something out",
+      "highlight": "cut something out",
+      "descriptionZh": "刪去不必要的步驟、工作或內容",
+      "descriptionEn": "The new system cuts out one step.",
+      "examples": [
+        {
+          "en": "The new system cuts out one step.",
+          "zh": "新系統省去了一個步驟。",
+          "highlight": "cuts out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "機器、引擎或設備突然停止運作",
+      "titleEn": "cut out",
+      "formula": "cut out",
+      "highlight": "cut out",
+      "descriptionZh": "機器、引擎或設備突然停止運作",
+      "descriptionEn": "The engine cut out on the hill.",
+      "examples": [
+        {
+          "en": "The engine cut out on the hill.",
+          "zh": "引擎在山坡上突然停止運作。",
+          "highlight": "cut out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 CUT 描述捷徑和突然移動",
+      "titleEn": "Use CUT to describe shorter routes and sudden movement",
+      "zh": "cut across 可以描述穿過某處走捷徑;cut out 則可以描述車輛突然駛離原有位置。",
+      "en": "Cut across describes taking a shorter route, while cut out can describe a vehicle suddenly leaving its position."
+    },
+    {
+      "titleZh": "清楚談論減少和移除事物",
+      "titleEn": "Talk clearly about reducing and removing things",
+      "zh": "你可以 cut back on 開支、cut down 數量、cut away 損壞部分,或 cut out 不必要的步驟。",
+      "en": "You can cut back on spending, cut down a number, cut away damaged material or cut out an unnecessary step."
+    },
+    {
+      "titleZh": "描述加入、排除和隔絕",
+      "titleEn": "Describe inclusion, exclusion and broken connections",
+      "zh": "cut somebody in 表示讓某人參與;cut somebody out 和 cut somebody off 則可以表示排除或隔絕。",
+      "en": "Cut somebody in means including a person, while cut somebody out and cut somebody off can show exclusion or separation."
+    },
+    {
+      "titleZh": "描述不同形式的切割動作",
+      "titleEn": "Explain different kinds of physical cutting",
+      "zh": "CUT 片語動詞可以描述切入木材、切穿繩子、把食物切成小塊,以及從紙張剪出圖案。",
+      "en": "CUT expressions can describe cutting into wood, cutting through rope, cutting food into pieces and cutting shapes from paper."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 CUT 描述捷徑和突然移動",
+      "清楚談論減少和移除事物",
+      "描述加入、排除和隔絕",
+      "描述不同形式的切割動作"
+    ],
+    "contextsEn": [
+      "Use CUT to describe shorter routes and sudden movement",
+      "Talk clearly about reducing and removing things",
+      "Describe inclusion, exclusion and broken connections",
+      "Explain different kinds of physical cutting"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 CUT 描述捷徑和突然移動",
+        "titleEn": "Use CUT to describe shorter routes and sudden movement",
+        "zh": "cut across 可以描述穿過某處走捷徑;cut out 則可以描述車輛突然駛離原有位置。",
+        "en": "Cut across describes taking a shorter route, while cut out can describe a vehicle suddenly leaving its position.",
+        "examples": [
+          {
+            "en": "We will arrive sooner if we cut across the field.",
+            "zh": "如果我們穿過田野走捷徑,便會更快到達。",
+            "highlight": "cut across"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論減少和移除事物",
+        "titleEn": "Talk clearly about reducing and removing things",
+        "zh": "你可以 cut back on 開支、cut down 數量、cut away 損壞部分,或 cut out 不必要的步驟。",
+        "en": "You can cut back on spending, cut down a number, cut away damaged material or cut out an unnecessary step.",
+        "examples": [
+          {
+            "en": "We need to cut back on electricity.",
+            "zh": "我們需要減少用電。",
+            "highlight": "cut back on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述加入、排除和隔絕",
+        "titleEn": "Describe inclusion, exclusion and broken connections",
+        "zh": "cut somebody in 表示讓某人參與;cut somebody out 和 cut somebody off 則可以表示排除或隔絕。",
+        "en": "Cut somebody in means including a person, while cut somebody out and cut somebody off can show exclusion or separation.",
+        "examples": [
+          {
+            "en": "Please do not cut in while she is speaking.",
+            "zh": "她說話時,請不要插嘴。",
+            "highlight": "cut in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同形式的切割動作",
+        "titleEn": "Explain different kinds of physical cutting",
+        "zh": "CUT 片語動詞可以描述切入木材、切穿繩子、把食物切成小塊,以及從紙張剪出圖案。",
+        "en": "CUT expressions can describe cutting into wood, cutting through rope, cutting food into pieces and cutting shapes from paper.",
+        "examples": [
+          {
+            "en": "This saw can cut through metal.",
+            "zh": "這把鋸可以切穿金屬。",
+            "highlight": "cut through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CUT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CUT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CUT 片語動詞。",
+      "en": "Read the whole sentence and choose the CUT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in these expressions, place the word as shown: cut him in cut her off cut it up cut them out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in these expressions, place the word as shown: cut him in cut her off cut it up cut them out"
+    },
+    {
+      "titleZh": "cut out 有多個不同意思,可以描述車輛突然駛離原位、機器停止運作,或某事物被刪除或剪下。請仔細閱讀整個情境。",
+      "titleEn": "Cut out has several different meanings.",
+      "zh": "cut out 有多個不同意思,可以描述車輛突然駛離原位、機器停止運作,或某事物被刪除或剪下。請仔細閱讀整個情境。",
+      "en": "Cut out has several different meanings. It can describe a vehicle moving suddenly, a machine stopping, or something being removed. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CUT 動詞片語句子改寫練習",
+    "titleEn": "CUT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          51
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          52,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-128-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Ben interrupted while I was explaining the rules.",
+      "promptZh": "我解釋規則時,賓插嘴打斷了我。",
+      "starter": "Ben",
+      "answer": "Ben cut in while I was explaining the rules.",
+      "answerZh": "我解釋規則時,賓插嘴打斷了我。",
+      "highlight": "cut in",
+      "targetForm": "cut in",
+      "targetMeaningZh": "插嘴;打斷別人說話"
+    },
+    {
+      "id": "phrasal-verb-128-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We will arrive sooner if we walk directly across the field.",
+      "promptZh": "如果我們直接穿過田野,便會更快到達。",
+      "starter": "We",
+      "answer": "We will arrive sooner if we cut across the field.",
+      "answerZh": "如果我們穿過田野走捷徑,便會更快到達。",
+      "highlight": "cut",
+      "targetForm": "cut across something",
+      "targetMeaningZh": "直接穿過某處走捷徑"
+    },
+    {
+      "id": "phrasal-verb-128-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Please divide the vegetables into small pieces.",
+      "promptZh": "請把蔬菜切成小塊。",
+      "starter": "Please",
+      "answer": "Please cut up the vegetables.",
+      "answerZh": "請把蔬菜切碎。",
+      "highlight": "cut up",
+      "targetForm": "cut something up",
+      "targetMeaningZh": "把某物切成小塊"
+    },
+    {
+      "id": "phrasal-verb-128-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The young singer died of illness at twenty-nine.",
+      "promptZh": "那名年輕歌手二十九歲時因病離世。",
+      "starter": "The",
+      "answer": "The young singer was cut down by illness at twenty-nine.",
+      "answerZh": "那名年輕歌手二十九歲時因病英年早逝。",
+      "highlight": "was cut down by",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "使某人英年早逝;奪去生命"
+    },
+    {
+      "id": "phrasal-verb-128-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "One engine suddenly stopped working during the flight.",
+      "promptZh": "飛行期間,其中一個引擎突然停止運作。",
+      "starter": "One",
+      "answer": "One engine suddenly cut out during the flight.",
+      "answerZh": "飛行期間,其中一個引擎突然停止運作。",
+      "highlight": "cut out",
+      "targetForm": "cut out",
+      "targetMeaningZh": "機器或引擎突然停止運作"
+    },
+    {
+      "id": "phrasal-verb-128-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "We should include Omar in the new project.",
+      "promptZh": "我們應該讓奧馬參與這個新項目。",
+      "starter": "We",
+      "answer": "We should cut Omar in on the new project.",
+      "answerZh": "我們應該讓奧馬參與這個新項目。",
+      "highlight": "cut",
+      "targetForm": "cut somebody in on something",
+      "targetMeaningZh": "讓某人參與並分得利益、金錢或資料"
+    },
+    {
+      "id": "phrasal-verb-128-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "We are spending less on snacks this month.",
+      "promptZh": "我們這個月減少了購買零食的開支。",
+      "starter": "We",
+      "answer": "We are cutting back on snacks this month.",
+      "answerZh": "我們這個月正在減少購買零食的開支。",
+      "highlight": "cutting back",
+      "targetForm": "cut back (on something) / cut something back / cut something down",
+      "targetMeaningZh": "減少用量、開支、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-128-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Remove the coupon with scissors and return it.",
+      "promptZh": "用剪刀剪下優惠券,然後交回。",
+      "starter": "Cut",
+      "answer": "Cut out the coupon and return it.",
+      "answerZh": "剪下優惠券,然後交回。",
+      "highlight": "Cut out",
+      "targetForm": "cut something out / cut something out of something",
+      "targetMeaningZh": "從紙張或材料剪出某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The storm separated the village from the nearest town.",
+      "promptZh": "暴風雨令村莊與最近的城鎮失去連接。",
+      "starter": "The",
+      "answer": "The storm cut the village off from the nearest town.",
+      "answerZh": "暴風雨令村莊與最近的城鎮隔絕。",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something off / cut yourself off from somebody/something",
+      "targetMeaningZh": "使隔絕;切斷聯繫、道路或接觸"
+    },
+    {
+      "id": "phrasal-verb-128-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The car in front suddenly left its lane to pass a bus.",
+      "promptZh": "前面的汽車突然駛離原有行車線,以超越巴士。",
+      "starter": "The",
+      "answer": "The car in front cut out to pass a bus.",
+      "answerZh": "前面的汽車突然駛離原有行車線,以超越巴士。",
+      "highlight": "cut out",
+      "targetForm": "cut out / cut out of something",
+      "targetMeaningZh": "車輛突然駛離原位或車龍"
+    },
+    {
+      "id": "phrasal-verb-128-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He often makes his brother feel small in front of friends.",
+      "promptZh": "他經常在朋友面前貶低弟弟,令他覺得自己很差。",
+      "starter": "He",
+      "answer": "He often cuts his brother down in front of friends.",
+      "answerZh": "他經常在朋友面前貶低弟弟。",
+      "highlight": "cuts",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "貶低某人;令某人覺得自己很差"
+    },
+    {
+      "id": "phrasal-verb-128-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Remove the dead leaves from the plant with scissors.",
+      "promptZh": "用剪刀剪走植物上的枯葉。",
+      "starter": "Cut",
+      "answer": "Cut away the dead leaves from the plant.",
+      "answerZh": "剪走植物上的枯葉。",
+      "highlight": "Cut away",
+      "targetForm": "cut something away / cut something off",
+      "targetMeaningZh": "用切割方式移除某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "If we take the boxes ourselves, we can avoid the delivery company.",
+      "promptZh": "如果我們自行運送箱子,便可以不用配送公司。",
+      "starter": "If",
+      "answer": "If we take the boxes ourselves, we can cut out the delivery company.",
+      "answerZh": "如果我們自行運送箱子,便可以省去配送公司這個中間環節。",
+      "highlight": "cut out",
+      "targetForm": "cut somebody/something out / cut somebody out of something",
+      "targetMeaningZh": "把某人排除在外;省去中間環節"
+    },
+    {
+      "id": "phrasal-verb-128-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Broken glass badly injured his hands with cuts.",
+      "promptZh": "碎玻璃令他的雙手嚴重割傷。",
+      "starter": "Broken",
+      "answer": "Broken glass cut his hands up badly.",
+      "answerZh": "碎玻璃把他的雙手割得很傷。",
+      "highlight": "cut",
+      "targetForm": "cut somebody up",
+      "targetMeaningZh": "把某人割得很傷"
+    },
+    {
+      "id": "phrasal-verb-128-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Draw a line before you start cutting the cardboard.",
+      "promptZh": "開始剪紙板前,先畫一條線。",
+      "starter": "Draw",
+      "answer": "Draw a line before you cut into the cardboard.",
+      "answerZh": "剪入紙板前,先畫一條線。",
+      "highlight": "cut into",
+      "targetForm": "cut into/through something / cut something through something",
+      "targetMeaningZh": "切入、切穿或劈出通道"
+    },
+    {
+      "id": "phrasal-verb-128-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "His parents stopped giving him money.",
+      "promptZh": "他的父母停止給他金錢。",
+      "starter": "His",
+      "answer": "His parents cut him off.",
+      "answerZh": "他的父母停止給他經濟支持。",
+      "highlight": "cut",
+      "targetForm": "cut somebody off",
+      "targetMeaningZh": "停止給某人金錢或經濟支持"
+    },
+    {
+      "id": "phrasal-verb-128-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The new app removes one unnecessary step.",
+      "promptZh": "這個新應用程式省去了一個不必要的步驟。",
+      "starter": "The",
+      "answer": "The new app cuts out one unnecessary step.",
+      "answerZh": "這個新應用程式省去了一個不必要的步驟。",
+      "highlight": "cuts out",
+      "targetForm": "cut something out",
+      "targetMeaningZh": "刪去不必要的步驟或內容"
+    },
+    {
+      "id": "phrasal-verb-128-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The police blocked every escape route.",
+      "promptZh": "警方封鎖了所有逃走路線。",
+      "starter": "The",
+      "answer": "The police cut off every escape route.",
+      "answerZh": "警方截斷了所有逃走路線。",
+      "highlight": "cut off",
+      "targetForm": "cut somebody/something off / cut yourself off from somebody/something",
+      "targetMeaningZh": "使隔絕;切斷聯繫、道路或接觸"
+    },
+    {
+      "id": "phrasal-verb-128-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The library has reduced its weekend hours.",
+      "promptZh": "圖書館已縮短週末開放時間。",
+      "starter": "The",
+      "answer": "The library has cut back its weekend hours.",
+      "answerZh": "圖書館已縮短週末開放時間。",
+      "highlight": "cut back",
+      "targetForm": "cut back (on something) / cut something back / cut something down",
+      "targetMeaningZh": "減少用量、開支、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-128-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Nina made a paper star by removing its shape from a sheet of card.",
+      "promptZh": "妮娜從一張卡紙剪出一顆星星。",
+      "starter": "Nina",
+      "answer": "Nina cut a star out of a sheet of card.",
+      "answerZh": "妮娜從一張卡紙剪出一顆星星。",
+      "highlight": "cut",
+      "targetForm": "cut something out / cut something out of something",
+      "targetMeaningZh": "從紙張或材料剪出某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Will the team include me in the prize money?",
+      "promptZh": "球隊會讓我分得獎金嗎?",
+      "starter": "Will",
+      "answer": "Will the team cut me in on the prize money?",
+      "answerZh": "球隊會讓我分得獎金嗎?",
+      "highlight": "cut",
+      "targetForm": "cut somebody in on something",
+      "targetMeaningZh": "讓某人參與並分得利益、金錢或資料"
+    },
+    {
+      "id": "phrasal-verb-128-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "My car engine sometimes stops working in cold weather.",
+      "promptZh": "天氣寒冷時,我的汽車引擎有時會停止運作。",
+      "starter": "My",
+      "answer": "My car engine sometimes cuts out in cold weather.",
+      "answerZh": "天氣寒冷時,我的汽車引擎有時會突然停止運作。",
+      "highlight": "cuts out",
+      "targetForm": "cut out",
+      "targetMeaningZh": "機器或引擎突然停止運作"
+    },
+    {
+      "id": "phrasal-verb-128-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "This knife cannot pass through the thick rope.",
+      "promptZh": "這把刀無法切穿這條粗繩。",
+      "starter": "This",
+      "answer": "This knife cannot cut through the thick rope.",
+      "answerZh": "這把刀無法切穿這條粗繩。",
+      "highlight": "cut",
+      "targetForm": "cut into/through something / cut something through something",
+      "targetMeaningZh": "切入、切穿或劈出通道"
+    },
+    {
+      "id": "phrasal-verb-128-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Leo is dividing the paper into small squares.",
+      "promptZh": "里奧正在把紙張剪成小正方形。",
+      "starter": "Leo",
+      "answer": "Leo is cutting the paper up into small squares.",
+      "answerZh": "里奧正在把紙張剪成小正方形。",
+      "highlight": "cutting",
+      "targetForm": "cut something up",
+      "targetMeaningZh": "把某物切成小塊"
+    },
+    {
+      "id": "phrasal-verb-128-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The family may stop paying her rent next month.",
+      "promptZh": "那個家庭下個月可能會停止替她支付租金。",
+      "starter": "The",
+      "answer": "The family may cut her off financially next month.",
+      "answerZh": "那個家庭下個月可能會停止給她經濟支持。",
+      "highlight": "cut",
+      "targetForm": "cut somebody off",
+      "targetMeaningZh": "停止給某人金錢或經濟支持"
+    },
+    {
+      "id": "phrasal-verb-128-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Please do not interrupt before she finishes.",
+      "promptZh": "她說完之前,請不要插嘴。",
+      "starter": "Please",
+      "answer": "Please do not cut in before she finishes.",
+      "answerZh": "她說完之前,請不要插嘴。",
+      "highlight": "cut in",
+      "targetForm": "cut in",
+      "targetMeaningZh": "插嘴;打斷別人說話"
+    },
+    {
+      "id": "phrasal-verb-128-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "She removed twenty centimetres from the ribbon with scissors.",
+      "promptZh": "她用剪刀從絲帶上剪走二十厘米。",
+      "starter": "She",
+      "answer": "She cut twenty centimetres off the ribbon.",
+      "answerZh": "她從絲帶上剪下二十厘米。",
+      "highlight": "cut",
+      "targetForm": "cut something away / cut something off",
+      "targetMeaningZh": "用切割方式移除某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Eva often takes a shorter route across the park on her way home.",
+      "promptZh": "伊娃回家途中經常直接穿過公園走捷徑。",
+      "starter": "Eva",
+      "answer": "Eva often cuts across the park on her way home.",
+      "answerZh": "伊娃回家途中經常穿過公園走捷徑。",
+      "highlight": "cuts",
+      "targetForm": "cut across something",
+      "targetMeaningZh": "直接穿過某處走捷徑"
+    },
+    {
+      "id": "phrasal-verb-128-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Please do not criticise her just to make yourself look better.",
+      "promptZh": "請不要為了令自己看來更好而貶低她。",
+      "starter": "Please",
+      "answer": "Please do not cut her down just to make yourself look better.",
+      "answerZh": "請不要為了令自己看來更好而貶低她。",
+      "highlight": "cut",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "貶低某人;令某人覺得自己很差"
+    },
+    {
+      "id": "phrasal-verb-128-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "We should remove the extra meeting from the plan.",
+      "promptZh": "我們應該從計劃中刪除那場額外會議。",
+      "starter": "We",
+      "answer": "We should cut the extra meeting out of the plan.",
+      "answerZh": "我們應該從計劃中刪除那場額外會議。",
+      "highlight": "cut",
+      "targetForm": "cut something out",
+      "targetMeaningZh": "刪去不必要的步驟或內容"
+    },
+    {
+      "id": "phrasal-verb-128-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "A taxi suddenly came from the side road into our path.",
+      "promptZh": "一輛的士突然從支路駛出,進入我們的行車路線。",
+      "starter": "A",
+      "answer": "A taxi cut out of the side road into our path.",
+      "answerZh": "一輛的士突然從支路切出,進入我們的行車路線。",
+      "highlight": "cut out of",
+      "targetForm": "cut out / cut out of something",
+      "targetMeaningZh": "車輛突然駛離原位或車龍"
+    },
+    {
+      "id": "phrasal-verb-128-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "She was badly injured by sharp metal in the crash.",
+      "promptZh": "她在意外中被尖銳金屬嚴重割傷。",
+      "starter": "She",
+      "answer": "She was badly cut up by sharp metal in the crash.",
+      "answerZh": "她在意外中被尖銳金屬割得很傷。",
+      "highlight": "cut up",
+      "targetForm": "cut somebody up",
+      "targetMeaningZh": "把某人割得很傷"
+    },
+    {
+      "id": "phrasal-verb-128-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "A serious infection ended the scientist’s life while he was still young.",
+      "promptZh": "那名科學家仍然年輕時,一場嚴重感染奪去了他的生命。",
+      "starter": "The",
+      "answer": "The scientist was cut down by a serious infection while he was still young.",
+      "answerZh": "那名科學家仍然年輕時,便因嚴重感染而英年早逝。",
+      "highlight": "The scientist was cut down by",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "使某人英年早逝;奪去生命"
+    },
+    {
+      "id": "phrasal-verb-128-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The group excluded Sam from the final meeting.",
+      "promptZh": "小組不讓森姆參加最後一次會議。",
+      "starter": "The",
+      "answer": "The group cut Sam out of the final meeting.",
+      "answerZh": "小組把森姆排除在最後一次會議之外。",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something out / cut somebody out of something",
+      "targetMeaningZh": "把某人排除在外;省去中間環節"
+    },
+    {
+      "id": "phrasal-verb-128-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Why did the driver suddenly leave the queue in front of us?",
+      "promptZh": "那名司機為甚麼突然駛離我們前面的車龍?",
+      "starter": "Why",
+      "answer": "Why did the driver cut out of the queue in front of us?",
+      "answerZh": "那名司機為甚麼突然從我們前面的車龍切出?",
+      "highlight": "cut out of",
+      "targetForm": "cut out / cut out of something",
+      "targetMeaningZh": "車輛突然駛離原位或車龍"
+    },
+    {
+      "id": "phrasal-verb-128-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Can you divide it into six pieces for the children?",
+      "promptZh": "你可以把它切成六份給孩子們嗎?",
+      "starter": "Can",
+      "answer": "Can you cut it up into six pieces for the children?",
+      "answerZh": "你可以把它切成六份給孩子們嗎?",
+      "highlight": "cut",
+      "targetForm": "cut something up",
+      "targetMeaningZh": "把某物切成小塊"
+    },
+    {
+      "id": "phrasal-verb-128-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Why did they exclude you from the plan?",
+      "promptZh": "他們為甚麼不讓你參與這項計劃?",
+      "starter": "Why",
+      "answer": "Why did they cut you out of the plan?",
+      "answerZh": "他們為甚麼把你排除在這項計劃之外?",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something out / cut somebody out of something",
+      "targetMeaningZh": "把某人排除在外;省去中間環節"
+    },
+    {
+      "id": "phrasal-verb-128-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Why did Nina interrupt with a question?",
+      "promptZh": "妮娜為甚麼突然插嘴問了一條問題?",
+      "starter": "Why",
+      "answer": "Why did Nina cut in with a question?",
+      "answerZh": "妮娜為甚麼突然插嘴問了一條問題?",
+      "highlight": "cut in",
+      "targetForm": "cut in",
+      "targetMeaningZh": "插嘴;打斷別人說話"
+    },
+    {
+      "id": "phrasal-verb-128-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After the disagreement, Arun stopped all contact with his friends.",
+      "promptZh": "爭執後,阿倫停止與朋友的一切聯絡。",
+      "starter": "After",
+      "answer": "After the disagreement, Arun cut himself off from his friends.",
+      "answerZh": "爭執後,阿倫把自己與朋友隔絕。",
+      "highlight": "cut himself off from",
+      "targetForm": "cut somebody/something off / cut yourself off from somebody/something",
+      "targetMeaningZh": "使隔絕;切斷聯繫、道路或接觸"
+    },
+    {
+      "id": "phrasal-verb-128-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Can you remove this picture from the magazine with scissors?",
+      "promptZh": "你可以用剪刀把這幅圖片從雜誌剪下來嗎?",
+      "starter": "Can",
+      "answer": "Can you cut this picture out of the magazine?",
+      "answerZh": "你可以把這幅圖片從雜誌剪下來嗎?",
+      "highlight": "cut",
+      "targetForm": "cut something out / cut something out of something",
+      "targetMeaningZh": "從紙張或材料剪出某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The club needs to reduce the number of printed notices.",
+      "promptZh": "學會需要減少印刷告示的數量。",
+      "starter": "The",
+      "answer": "The club needs to cut down the number of printed notices.",
+      "answerZh": "學會需要減少印刷告示的數量。",
+      "highlight": "cut down",
+      "targetForm": "cut back (on something) / cut something back / cut something down",
+      "targetMeaningZh": "減少用量、開支、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-128-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Many people were shocked that the athlete had died so early.",
+      "promptZh": "那名運動員這麼早離世,令很多人感到震驚。",
+      "starter": "Many",
+      "answer": "Many people were shocked that the athlete had been cut down so early.",
+      "answerZh": "那名運動員這麼早英年早逝,令很多人感到震驚。",
+      "highlight": "been cut down",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "使某人英年早逝;奪去生命"
+    },
+    {
+      "id": "phrasal-verb-128-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Why did the microphone suddenly stop working during the song?",
+      "promptZh": "唱歌期間,咪高峰為甚麼突然停止運作?",
+      "starter": "Why",
+      "answer": "Why did the microphone suddenly cut out during the song?",
+      "answerZh": "唱歌期間,咪高峰為甚麼突然停止運作?",
+      "highlight": "cut out",
+      "targetForm": "cut out",
+      "targetMeaningZh": "機器或引擎突然停止運作"
+    },
+    {
+      "id": "phrasal-verb-128-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Why does that coach always make the younger players feel useless in front of the team?",
+      "promptZh": "那名教練為甚麼總是在全隊面前貶低年輕球員,令他們覺得自己毫無用處?",
+      "starter": "Why",
+      "answer": "Why does that coach always cut the younger players down in front of the team?",
+      "answerZh": "那名教練為甚麼總是在全隊面前貶低年輕球員?",
+      "highlight": "cut",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "貶低某人;令某人覺得自己很差"
+    },
+    {
+      "id": "phrasal-verb-128-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The workers used tools to make a narrow path through the bushes.",
+      "promptZh": "工人使用工具在灌木叢中開出一條狹窄小路。",
+      "starter": "The",
+      "answer": "The workers used tools to cut a narrow path through the bushes.",
+      "answerZh": "工人使用工具在灌木叢中劈出一條狹窄小路。",
+      "highlight": "cut",
+      "targetForm": "cut into/through something / cut something through something",
+      "targetMeaningZh": "切入、切穿或劈出通道"
+    },
+    {
+      "id": "phrasal-verb-128-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "After the argument, the uncle left his nephew no money in his will.",
+      "promptZh": "爭執後,叔叔在遺囑中沒有留任何金錢給姪子。",
+      "starter": "After",
+      "answer": "After the argument, the uncle cut his nephew off without a penny.",
+      "answerZh": "爭執後,叔叔完全取消了姪子的遺產。",
+      "highlight": "cut",
+      "targetForm": "cut somebody off",
+      "targetMeaningZh": "停止給某人金錢或經濟支持"
+    },
+    {
+      "id": "phrasal-verb-128-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Please remove the loose thread from the shirt with scissors.",
+      "promptZh": "請用剪刀剪走襯衫上的鬆脫線頭。",
+      "starter": "Please",
+      "answer": "Please cut the loose thread off the shirt.",
+      "answerZh": "請剪掉襯衫上的鬆脫線頭。",
+      "highlight": "cut",
+      "targetForm": "cut something away / cut something off",
+      "targetMeaningZh": "用切割方式移除某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Why did you walk directly across the grass instead of using the path?",
+      "promptZh": "你為甚麼不走小路,而直接穿過草地?",
+      "starter": "Why",
+      "answer": "Why did you cut across the grass instead of using the path?",
+      "answerZh": "你為甚麼不走小路,而穿過草地走捷徑?",
+      "highlight": "cut",
+      "targetForm": "cut across something",
+      "targetMeaningZh": "直接穿過某處走捷徑"
+    },
+    {
+      "id": "phrasal-verb-128-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Why not remove the paper form and use the website instead?",
+      "promptZh": "為甚麼不取消紙本表格,改用網站?",
+      "starter": "Why",
+      "answer": "Why not cut out the paper form and use the website instead?",
+      "answerZh": "為甚麼不取消紙本表格,改用網站?",
+      "highlight": "cut out",
+      "targetForm": "cut something out",
+      "targetMeaningZh": "刪去不必要的步驟或內容"
+    },
+    {
+      "id": "phrasal-verb-128-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The fall did not break his arm, but it left his face covered in cuts.",
+      "promptZh": "那次跌倒沒有令他手臂骨折,卻令他的臉上滿是傷口。",
+      "starter": "The",
+      "answer": "The fall did not break his arm, but it cut his face up badly.",
+      "answerZh": "那次跌倒沒有令他手臂骨折,卻把他的臉割得很傷。",
+      "highlight": "cut",
+      "targetForm": "cut somebody up",
+      "targetMeaningZh": "把某人割得很傷"
+    },
+    {
+      "id": "phrasal-verb-128-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "They agreed to include her in the deal after she helped them.",
+      "promptZh": "她幫助他們後,他們同意讓她參與這宗交易。",
+      "starter": "They",
+      "answer": "They agreed to cut her in on the deal after she helped them.",
+      "answerZh": "她幫助他們後,他們同意讓她參與這宗交易。",
+      "highlight": "cut",
+      "targetForm": "cut somebody in on something",
+      "targetMeaningZh": "讓某人參與並分得利益、金錢或資料"
+    },
+    {
+      "id": "phrasal-verb-128-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The worker carefully removed the damaged wood from the door.",
+      "promptZh": "工人小心地把門上損壞的木材切走。",
+      "starter": "The",
+      "answer": "The worker carefully cut away the damaged wood from the door.",
+      "answerZh": "工人小心地把門上損壞的木材切走。",
+      "highlight": "cut away",
+      "targetForm": "cut something away / cut something off",
+      "targetMeaningZh": "用切割方式移除某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Since Priya found the buyer, it seems fair to include her in the profit.",
+      "promptZh": "既然普里雅找到了買家,讓她分得利潤似乎很公平。",
+      "starter": "Since",
+      "answer": "Since Priya found the buyer, it seems fair to cut her in on the profit.",
+      "answerZh": "既然普里雅找到了買家,讓她分得利潤似乎很公平。",
+      "highlight": "cut",
+      "targetForm": "cut somebody in on something",
+      "targetMeaningZh": "讓某人參與並分得利益、金錢或資料"
+    },
+    {
+      "id": "phrasal-verb-128-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "To save ten minutes, the hikers decided to cross the empty farm directly.",
+      "promptZh": "為了節省十分鐘,遠足者決定直接穿過那片空置農地。",
+      "starter": "To",
+      "answer": "To save ten minutes, the hikers decided to cut across the empty farm.",
+      "answerZh": "為了節省十分鐘,遠足者決定穿過那片空置農地走捷徑。",
+      "highlight": "cut across",
+      "targetForm": "cut across something",
+      "targetMeaningZh": "直接穿過某處走捷徑"
+    },
+    {
+      "id": "phrasal-verb-128-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The fight left both men with serious cuts.",
+      "promptZh": "那場打鬥令兩名男子都受到嚴重割傷。",
+      "starter": "Both",
+      "answer": "Both men were badly cut up in the fight.",
+      "answerZh": "兩名男子都在那場打鬥中被割得很傷。",
+      "highlight": "Both men were badly cut up in",
+      "targetForm": "cut somebody up",
+      "targetMeaningZh": "把某人割得很傷"
+    },
+    {
+      "id": "phrasal-verb-128-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The school has removed several unnecessary questions from the form.",
+      "promptZh": "學校已從表格中刪除幾條不必要的問題。",
+      "starter": "The",
+      "answer": "The school has cut several unnecessary questions out of the form.",
+      "answerZh": "學校已從表格中刪除幾條不必要的問題。",
+      "highlight": "cut",
+      "targetForm": "cut something out",
+      "targetMeaningZh": "刪去不必要的步驟或內容"
+    },
+    {
+      "id": "phrasal-verb-128-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Once the saw had passed through the board, the two pieces fell apart.",
+      "promptZh": "鋸切穿木板後,兩塊木板便分開了。",
+      "starter": "Once",
+      "answer": "Once the saw had cut through the board, the two pieces fell apart.",
+      "answerZh": "鋸切穿木板後,兩塊木板便分開了。",
+      "highlight": "cut",
+      "targetForm": "cut into/through something / cut something through something",
+      "targetMeaningZh": "切入、切穿或劈出通道"
+    },
+    {
+      "id": "phrasal-verb-128-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The review made the actor seem foolish instead of discussing his work fairly.",
+      "promptZh": "那篇評論沒有公平討論演員的作品,反而把他說得很愚蠢。",
+      "starter": "The",
+      "answer": "The review cut the actor down instead of discussing his work fairly.",
+      "answerZh": "那篇評論沒有公平討論演員的作品,反而貶低了他。",
+      "highlight": "cut",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "貶低某人;令某人覺得自己很差"
+    },
+    {
+      "id": "phrasal-verb-128-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The lights stayed on, but the small motor had stopped working.",
+      "promptZh": "燈仍然亮着,但小型摩打已停止運作。",
+      "starter": "The",
+      "answer": "The lights stayed on, but the small motor had cut out.",
+      "answerZh": "燈仍然亮着,但小型摩打已突然停止運作。",
+      "highlight": "cut out",
+      "targetForm": "cut out",
+      "targetMeaningZh": "機器或引擎突然停止運作"
+    },
+    {
+      "id": "phrasal-verb-128-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Since prices rose, many families have been using less electricity.",
+      "promptZh": "自物價上升後,許多家庭一直減少用電。",
+      "starter": "Since",
+      "answer": "Since prices rose, many families have been cutting back on electricity.",
+      "answerZh": "自物價上升後,許多家庭一直減少用電。",
+      "highlight": "cutting back on",
+      "targetForm": "cut back (on something) / cut something back / cut something down",
+      "targetMeaningZh": "減少用量、開支、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-128-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The broken bridge has separated the island from food deliveries for two days.",
+      "promptZh": "大橋損毀後,小島已連續兩天無法收到食物運送。",
+      "starter": "The",
+      "answer": "The broken bridge has cut the island off from food deliveries for two days.",
+      "answerZh": "大橋損毀後,小島已連續兩天與食物運送隔絕。",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something off / cut yourself off from somebody/something",
+      "targetMeaningZh": "使隔絕;切斷聯繫、道路或接觸"
+    },
+    {
+      "id": "phrasal-verb-128-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The children had already removed the animal shapes from the paper.",
+      "promptZh": "孩子們已把動物圖案從紙張剪下來。",
+      "starter": "The",
+      "answer": "The children had already cut the animal shapes out of the paper.",
+      "answerZh": "孩子們已把動物圖案從紙張剪下來。",
+      "highlight": "cut",
+      "targetForm": "cut something out / cut something out of something",
+      "targetMeaningZh": "從紙張或材料剪出某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The illness caused her death before she reached forty, ending a promising career.",
+      "promptZh": "這場疾病令她在四十歲前離世,也結束了她大有可為的事業。",
+      "starter": "The",
+      "answer": "The illness cut her down before she reached forty, ending a promising career.",
+      "answerZh": "這場疾病令她在四十歲前英年早逝,也結束了她大有可為的事業。",
+      "highlight": "cut",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "使某人英年早逝;奪去生命"
+    },
+    {
+      "id": "phrasal-verb-128-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Whenever the host tried to answer, the caller kept interrupting.",
+      "promptZh": "每當主持人嘗試回答時,來電者都不斷插嘴。",
+      "starter": "Whenever",
+      "answer": "Whenever the host tried to answer, the caller kept cutting in.",
+      "answerZh": "每當主持人嘗試回答時,來電者都不斷插嘴。",
+      "highlight": "cutting in",
+      "targetForm": "cut in",
+      "targetMeaningZh": "插嘴;打斷別人說話"
+    },
+    {
+      "id": "phrasal-verb-128-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Selling directly to customers allowed the farm to remove the shop from the process.",
+      "promptZh": "農場直接向顧客出售產品,因而可以省去店舖這個環節。",
+      "starter": "Selling",
+      "answer": "Selling directly to customers allowed the farm to cut the shop out of the process.",
+      "answerZh": "農場直接向顧客出售產品,因而可以把店舖從流程中省去。",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something out / cut somebody out of something",
+      "targetMeaningZh": "把某人排除在外;省去中間環節"
+    },
+    {
+      "id": "phrasal-verb-128-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The motorbike nearly hit us when it suddenly moved in front of our car.",
+      "promptZh": "電單車突然駛到我們的汽車前面,差點撞到我們。",
+      "starter": "The",
+      "answer": "The motorbike nearly hit us when it cut out in front of our car.",
+      "answerZh": "電單車突然切到我們的汽車前面,差點撞到我們。",
+      "highlight": "cut out",
+      "targetForm": "cut out / cut out of something",
+      "targetMeaningZh": "車輛突然駛離原位或車龍"
+    },
+    {
+      "id": "phrasal-verb-128-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Before adding the fruit, Sofia had divided it into small pieces.",
+      "promptZh": "加入水果前,索菲亞已把它切成小塊。",
+      "starter": "Before",
+      "answer": "Before adding the fruit, Sofia had cut it up into small pieces.",
+      "answerZh": "加入水果前,索菲亞已把它切成小塊。",
+      "highlight": "cut",
+      "targetForm": "cut something up",
+      "targetMeaningZh": "把某物切成小塊"
+    },
+    {
+      "id": "phrasal-verb-128-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The sponsor stopped all financial support when the player broke the rules.",
+      "promptZh": "那名球員違反規則後,贊助者停止了所有經濟支持。",
+      "starter": "The",
+      "answer": "The sponsor cut the player off financially when he broke the rules.",
+      "answerZh": "那名球員違反規則後,贊助者停止了對他的所有經濟支持。",
+      "highlight": "cut",
+      "targetForm": "cut somebody off",
+      "targetMeaningZh": "停止給某人金錢或經濟支持"
+    },
+    {
+      "id": "phrasal-verb-128-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Although he had planned many more books, the writer died from pneumonia at an early age.",
+      "promptZh": "儘管那名作家原本計劃再寫許多書,他卻因肺炎英年早逝。",
+      "starter": "Although",
+      "answer": "Although he had planned many more books, the writer was cut down by pneumonia at an early age.",
+      "answerZh": "儘管那名作家原本計劃再寫許多書,他卻因肺炎英年早逝。",
+      "highlight": "was cut down by",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "使某人英年早逝;奪去生命"
+    },
+    {
+      "id": "phrasal-verb-128-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The process became faster after the team removed two checks that repeated the same work.",
+      "promptZh": "團隊刪除兩項重複工作的檢查後,流程變得更快。",
+      "starter": "The",
+      "answer": "The process became faster after the team cut out two checks that repeated the same work.",
+      "answerZh": "團隊刪除兩項重複工作的檢查後,流程變得更快。",
+      "highlight": "cut out",
+      "targetForm": "cut something out",
+      "targetMeaningZh": "刪去不必要的步驟或內容"
+    },
+    {
+      "id": "phrasal-verb-128-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The writer refused every call and visit, deliberately isolating herself from everyone.",
+      "promptZh": "那名作家拒絕所有來電和探訪,故意把自己與所有人隔絕。",
+      "starter": "The",
+      "answer": "The writer refused every call and visit and deliberately cut herself off from everyone.",
+      "answerZh": "那名作家拒絕所有來電和探訪,故意把自己與所有人隔絕。",
+      "highlight": "and",
+      "targetForm": "cut somebody/something off / cut yourself off from somebody/something",
+      "targetMeaningZh": "使隔絕;切斷聯繫、道路或接觸"
+    },
+    {
+      "id": "phrasal-verb-128-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The school did not cancel the art programme, but it reduced its budget.",
+      "promptZh": "學校沒有取消藝術課程,但縮減了其預算。",
+      "starter": "The",
+      "answer": "The school did not cancel the art programme, but it cut its budget back.",
+      "answerZh": "學校沒有取消藝術課程,但縮減了其預算。",
+      "highlight": "cut",
+      "targetForm": "cut back (on something) / cut something back / cut something down",
+      "targetMeaningZh": "減少用量、開支、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-128-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Although Leo had depended on the allowance for years, his father suddenly stopped giving it to him.",
+      "promptZh": "儘管里奧多年來一直依靠那筆零用錢,他的父親卻突然停止給他。",
+      "starter": "Although",
+      "answer": "Although Leo had depended on the allowance for years, his father suddenly cut him off.",
+      "answerZh": "儘管里奧多年來一直依靠那筆零用錢,他的父親卻突然停止給他經濟支持。",
+      "highlight": "cut",
+      "targetForm": "cut somebody off",
+      "targetMeaningZh": "停止給某人金錢或經濟支持"
+    },
+    {
+      "id": "phrasal-verb-128-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The soup will cook faster if the carrots are divided into smaller pieces first.",
+      "promptZh": "如果先把紅蘿蔔切成較小塊,湯會更快煮好。",
+      "starter": "The",
+      "answer": "The soup will cook faster if the carrots are cut up into smaller pieces first.",
+      "answerZh": "如果先把紅蘿蔔切成較小塊,湯會更快煮好。",
+      "highlight": "cut up",
+      "targetForm": "cut something up",
+      "targetMeaningZh": "把某物切成小塊"
+    },
+    {
+      "id": "phrasal-verb-128-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "As we approached the bridge, a lorry suddenly left the line of traffic and entered our lane.",
+      "promptZh": "我們接近大橋時,一輛貨車突然駛離車龍,進入我們的行車線。",
+      "starter": "As",
+      "answer": "As we approached the bridge, a lorry cut out of the line of traffic and entered our lane.",
+      "answerZh": "我們接近大橋時,一輛貨車突然從車龍切出,進入我們的行車線。",
+      "highlight": "cut out of",
+      "targetForm": "cut out / cut out of something",
+      "targetMeaningZh": "車輛突然駛離原位或車龍"
+    },
+    {
+      "id": "phrasal-verb-128-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "To make the mask, draw the eyes first and then remove the two circles with scissors.",
+      "promptZh": "製作面具時,先畫出眼睛,然後用剪刀剪走兩個圓形。",
+      "starter": "To",
+      "answer": "To make the mask, draw the eyes first and then cut the two circles out.",
+      "answerZh": "製作面具時,先畫出眼睛,然後剪走兩個圓形。",
+      "highlight": "cut",
+      "targetForm": "cut something out / cut something out of something",
+      "targetMeaningZh": "從紙張或材料剪出某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Daniel would share the information only if they included him in the plan.",
+      "promptZh": "只有他們讓丹尼爾參與計劃,他才會分享資料。",
+      "starter": "Daniel",
+      "answer": "Daniel would share the information only if they cut him in on the plan.",
+      "answerZh": "只有他們讓丹尼爾參與計劃,他才會分享資料。",
+      "highlight": "cut",
+      "targetForm": "cut somebody in on something",
+      "targetMeaningZh": "讓某人參與並分得利益、金錢或資料"
+    },
+    {
+      "id": "phrasal-verb-128-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Just as the driver reached the hill, the engine stopped working and the bus slowed down.",
+      "promptZh": "司機剛駛到山坡時,引擎便停止運作,巴士也慢了下來。",
+      "starter": "Just",
+      "answer": "Just as the driver reached the hill, the engine cut out and the bus slowed down.",
+      "answerZh": "司機剛駛到山坡時,引擎便突然停止運作,巴士也慢了下來。",
+      "highlight": "cut out",
+      "targetForm": "cut out",
+      "targetMeaningZh": "機器或引擎突然停止運作"
+    },
+    {
+      "id": "phrasal-verb-128-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Whenever Ella offered an idea, one colleague criticised her in a way that damaged her confidence.",
+      "promptZh": "每當埃拉提出構思,一名同事都會貶低她,令她失去信心。",
+      "starter": "Whenever",
+      "answer": "Whenever Ella offered an idea, one colleague cut her down, damaging her confidence.",
+      "answerZh": "每當埃拉提出構思,一名同事都會貶低她,令她失去信心。",
+      "highlight": "cut",
+      "targetForm": "cut somebody down",
+      "targetMeaningZh": "貶低某人;令某人覺得自己很差"
+    },
+    {
+      "id": "phrasal-verb-128-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "To reach the old gate, they had to make a path through the thick plants with their knives.",
+      "promptZh": "為了到達舊閘門,他們要用刀在茂密植物中開出一條路。",
+      "starter": "To",
+      "answer": "To reach the old gate, they had to cut a path through the thick plants with their knives.",
+      "answerZh": "為了到達舊閘門,他們要用刀在茂密植物中劈出一條路。",
+      "highlight": "cut",
+      "targetForm": "cut into/through something / cut something through something",
+      "targetMeaningZh": "切入、切穿或劈出通道"
+    },
+    {
+      "id": "phrasal-verb-128-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Before using the rope, we had to remove the wet end with a knife.",
+      "promptZh": "使用繩子前,我們要用刀切走濕掉的一端。",
+      "starter": "Before",
+      "answer": "Before using the rope, we had to cut the wet end off.",
+      "answerZh": "使用繩子前,我們要把濕掉的一端切掉。",
+      "highlight": "cut",
+      "targetForm": "cut something away / cut something off",
+      "targetMeaningZh": "用切割方式移除某部分"
+    },
+    {
+      "id": "phrasal-verb-128-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "I had almost finished my point when Ravi suddenly interrupted.",
+      "promptZh": "我幾乎已說完自己的觀點時,拉維突然插嘴。",
+      "starter": "I",
+      "answer": "I had almost finished my point when Ravi suddenly cut in.",
+      "answerZh": "我幾乎已說完自己的觀點時,拉維突然插嘴。",
+      "highlight": "cut in",
+      "targetForm": "cut in",
+      "targetMeaningZh": "插嘴;打斷別人說話"
+    },
+    {
+      "id": "phrasal-verb-128-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "After months of helping with the event, Aisha was upset when the organisers excluded her completely.",
+      "promptZh": "艾莎為活動幫忙了數月,主辦單位卻完全把她排除在外,令她很難過。",
+      "starter": "After",
+      "answer": "After months of helping with the event, Aisha was upset when the organisers cut her out completely.",
+      "answerZh": "艾莎為活動幫忙了數月,主辦單位卻完全把她排除在外,令她很難過。",
+      "highlight": "cut",
+      "targetForm": "cut somebody/something out / cut somebody out of something",
+      "targetMeaningZh": "把某人排除在外;省去中間環節"
+    },
+    {
+      "id": "phrasal-verb-128-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The main road was busy, so we used a shorter route across the school grounds.",
+      "promptZh": "主要道路交通繁忙,所以我們直接穿過校園走捷徑。",
+      "starter": "The",
+      "answer": "The main road was busy, so we cut across the school grounds.",
+      "answerZh": "主要道路交通繁忙,所以我們穿過校園走捷徑。",
+      "highlight": "cut",
+      "targetForm": "cut across something",
+      "targetMeaningZh": "直接穿過某處走捷徑"
+    },
+    {
+      "id": "phrasal-verb-128-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Although the cyclist wore a helmet, falling on the rough road left his arms and legs with many cuts.",
+      "promptZh": "儘管那名單車手戴了頭盔,他跌在粗糙路面上時,手腳仍被多處割傷。",
+      "starter": "Although",
+      "answer": "Although the cyclist wore a helmet, the fall on the rough road cut his arms and legs up badly.",
+      "answerZh": "儘管那名單車手戴了頭盔,他跌在粗糙路面上時,手腳仍被割得很傷。",
+      "highlight": "the fall",
+      "targetForm": "cut somebody up",
+      "targetMeaningZh": "把某人割得很傷"
+    }
+  ]
+}

@@ -1,0 +1,1746 @@
+{
+  "id": "phrasal-verb-60",
+  "order": 60,
+  "slug": "lock",
+  "version": "1",
+  "title": "LOCK 動詞片語",
+  "titleEn": "Lock",
+  "titleZh": "LOCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 59 - LOCK.pdf",
+    "sourceNumber": 59,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LOCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LOCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LOCK",
+      "highlight": "LOCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The camera locked onto the runner.",
+      "zh": "攝影機鎖定了那名跑手。",
+      "highlight": "locked onto",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The police locked the thief up.",
+      "zh": "警方把那名小偷關了起來。",
+      "highlight": "locked the thief up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The farmer locked the sheep in.",
+      "zh": "農夫把羊群關在裏面。",
+      "highlight": "locked the sheep in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "鎖定並持續追蹤某個目標；把某人關進監獄或上鎖的地方；把某人或某物關在裏面;把自己反鎖在裏面；把某人或某物關在外面,使其不能進入；把貴重物品或危險物品放到安全地方並鎖好；離開前把房屋、店舖或其他地方鎖好；把自己關起來,獨自工作或避免見人；不小心把自己反鎖在門外",
+    "en": "lock onto something / lock in on something; lock somebody up / lock somebody away; lock somebody/something in / lock yourself in; lock somebody/something out; lock something away / lock something up; lock up / lock something up; lock yourself away; lock yourself out / lock yourself out of something",
+    "naturalZh": [
+      "鎖定並持續追蹤某個目標",
+      "把某人關進監獄或上鎖的地方",
+      "把某人或某物關在裏面;把自己反鎖在裏面",
+      "把某人或某物關在外面,使其不能進入",
+      "把貴重物品或危險物品放到安全地方並鎖好",
+      "離開前把房屋、店舖或其他地方鎖好",
+      "把自己關起來,獨自工作或避免見人",
+      "不小心把自己反鎖在門外"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lock onto something / lock in on something",
+      "titleZh": "鎖定並持續追蹤某個目標",
+      "titleEn": "lock onto something / lock in on something",
+      "descriptionZh": "鎖定並持續追蹤某個目標",
+      "descriptionEn": "The camera locked onto the runner.",
+      "examples": [
+        {
+          "en": "The camera locked onto the runner.",
+          "zh": "攝影機鎖定了那名跑手。",
+          "highlight": "locked onto"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lock somebody up / lock somebody away",
+      "titleZh": "把某人關進監獄或上鎖的地方",
+      "titleEn": "lock somebody up / lock somebody away",
+      "descriptionZh": "把某人關進監獄或上鎖的地方",
+      "descriptionEn": "The police locked the thief up.",
+      "examples": [
+        {
+          "en": "The police locked the thief up.",
+          "zh": "警方把那名小偷關了起來。",
+          "highlight": "locked the thief up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lock somebody/something in / lock yourself in",
+      "titleZh": "把某人或某物關在裏面;把自己反鎖在裏面",
+      "titleEn": "lock somebody/something in / lock yourself in",
+      "descriptionZh": "把某人或某物關在裏面;把自己反鎖在裏面",
+      "descriptionEn": "The farmer locked the sheep in.",
+      "examples": [
+        {
+          "en": "The farmer locked the sheep in.",
+          "zh": "農夫把羊群關在裏面。",
+          "highlight": "locked the sheep in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lock somebody/something out",
+      "titleZh": "把某人或某物關在外面,使其不能進入",
+      "titleEn": "lock somebody/something out",
+      "descriptionZh": "把某人或某物關在外面,使其不能進入",
+      "descriptionEn": "The wrong password locked me out of my account.",
+      "examples": [
+        {
+          "en": "The wrong password locked me out of my account.",
+          "zh": "錯誤的密碼令我無法登入帳戶。",
+          "highlight": "locked me out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lock something away / lock something up",
+      "titleZh": "把貴重物品或危險物品放到安全地方並鎖好",
+      "titleEn": "lock something away / lock something up",
+      "descriptionZh": "把貴重物品或危險物品放到安全地方並鎖好",
+      "descriptionEn": "She locked the jewellery away in the safe.",
+      "examples": [
+        {
+          "en": "She locked the jewellery away in the safe.",
+          "zh": "她把首飾鎖在保險箱內。",
+          "highlight": "locked the jewellery away"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lock up / lock something up",
+      "titleZh": "離開前把房屋、店舖或其他地方鎖好",
+      "titleEn": "lock up / lock something up",
+      "descriptionZh": "離開前把房屋、店舖或其他地方鎖好",
+      "descriptionEn": "Please lock up before you leave.",
+      "examples": [
+        {
+          "en": "Please lock up before you leave.",
+          "zh": "離開前請把地方鎖好。",
+          "highlight": "lock up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lock yourself away",
+      "titleZh": "把自己關起來,獨自工作或避免見人",
+      "titleEn": "lock yourself away",
+      "descriptionZh": "把自己關起來,獨自工作或避免見人",
+      "descriptionEn": "He locked himself away to finish the book.",
+      "examples": [
+        {
+          "en": "He locked himself away to finish the book.",
+          "zh": "他獨自躲起來完成那本書。",
+          "highlight": "locked himself away"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lock yourself out / lock yourself out of something",
+      "titleZh": "不小心把自己反鎖在門外",
+      "titleEn": "lock yourself out / lock yourself out of something",
+      "descriptionZh": "不小心把自己反鎖在門外",
+      "descriptionEn": "I locked myself out of my flat.",
+      "examples": [
+        {
+          "en": "I locked myself out of my flat.",
+          "zh": "我不小心把自己反鎖在住所門外。",
+          "highlight": "locked myself out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LOCK 片語動詞的實際用途",
+    "labelEn": "LOCK Phrasal Verbs in Use",
+    "summaryZh": "LOCK 片語動詞可讓你說明如何鎖好店舖、房屋、護照、保險箱或貴重物品。；你可以用 lock somebody in 和 lock somebody out,說明某人被關在裏面或被關在外面。；lock yourself out 可用來說明把鑰匙留在裏面,結果自己無法進入的常見情況。；lock onto 和 lock in on 可用來談論攝影機、掃描器、機械人和其他追蹤科技。；lock yourself away 可以表示某人為了溫習、寫作或完成重要工作而獨處。",
+    "summaryEn": "LOCK expressions help you explain how a shop, house, passport, safe or valuable item is protected. You can use lock somebody in and lock somebody out to describe both sides of a closed door. Lock yourself out helps you explain the familiar problem of leaving your key inside and being unable to enter. Lock onto and lock in on are useful when talking about cameras, scanners, robots and other tracking technology. Lock yourself away can show that someone stays alone to study, write or finish an important task.",
+    "contextsZh": [
+      "用 LOCK 談論保護地方和重要物品",
+      "清楚說明誰可以或不可以進出",
+      "描述常見的鑰匙問題",
+      "理解攝影機和機器如何追蹤目標",
+      "描述選擇獨自工作"
+    ],
+    "contextsEn": [
+      "Talk about keeping places and important things safe",
+      "Explain clearly who can or cannot enter or leave",
+      "Describe common problems with keys",
+      "Understand how cameras and machines follow targets",
+      "Describe choosing to work alone"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LOCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LOCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lock onto something / lock in on something",
+    "fixedHighlight": "lock onto something / lock in on something",
+    "fixedZh": "閱讀整句,選出意思相同的 LOCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LOCK expression that gives the same meaning.",
+    "correct": "locked onto",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；lock up 可以表示把人關起來,也可以表示離開前把地方鎖好。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: lock him up lock it away lock them in lock her out Lock up can mean putting a person in prison or securing a place before leaving. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "lock onto something / lock in on something",
+      "lock somebody up / lock somebody away",
+      "lock somebody/something in / lock yourself in",
+      "lock somebody/something out",
+      "lock something away / lock something up",
+      "lock up / lock something up",
+      "lock yourself away",
+      "lock yourself out / lock yourself out of something"
+    ],
+    "variableItemsEn": [
+      "lock onto something / lock in on something",
+      "lock somebody up / lock somebody away",
+      "lock somebody/something in / lock yourself in",
+      "lock somebody/something out",
+      "lock something away / lock something up",
+      "lock up / lock something up",
+      "lock yourself away",
+      "lock yourself out / lock yourself out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "鎖定並持續追蹤某個目標",
+        "formEn": "lock onto something / lock in on something",
+        "exampleZh": "攝影機鎖定了那名跑手。",
+        "exampleEn": "The camera locked onto the runner.",
+        "highlight": "locked onto"
+      },
+      {
+        "formZh": "把某人關進監獄或上鎖的地方",
+        "formEn": "lock somebody up / lock somebody away",
+        "exampleZh": "警方把那名小偷關了起來。",
+        "exampleEn": "The police locked the thief up.",
+        "highlight": "locked the thief up"
+      },
+      {
+        "formZh": "把某人或某物關在裏面;把自己反鎖在裏面",
+        "formEn": "lock somebody/something in / lock yourself in",
+        "exampleZh": "農夫把羊群關在裏面。",
+        "exampleEn": "The farmer locked the sheep in.",
+        "highlight": "locked the sheep in"
+      },
+      {
+        "formZh": "把某人或某物關在外面,使其不能進入",
+        "formEn": "lock somebody/something out",
+        "exampleZh": "錯誤的密碼令我無法登入帳戶。",
+        "exampleEn": "The wrong password locked me out of my account.",
+        "highlight": "locked me out"
+      },
+      {
+        "formZh": "把貴重物品或危險物品放到安全地方並鎖好",
+        "formEn": "lock something away / lock something up",
+        "exampleZh": "她把首飾鎖在保險箱內。",
+        "exampleEn": "She locked the jewellery away in the safe.",
+        "highlight": "locked the jewellery away"
+      },
+      {
+        "formZh": "離開前把房屋、店舖或其他地方鎖好",
+        "formEn": "lock up / lock something up",
+        "exampleZh": "離開前請把地方鎖好。",
+        "exampleEn": "Please lock up before you leave.",
+        "highlight": "lock up"
+      },
+      {
+        "formZh": "把自己關起來,獨自工作或避免見人",
+        "formEn": "lock yourself away",
+        "exampleZh": "他獨自躲起來完成那本書。",
+        "exampleEn": "He locked himself away to finish the book.",
+        "highlight": "locked himself away"
+      },
+      {
+        "formZh": "不小心把自己反鎖在門外",
+        "formEn": "lock yourself out / lock yourself out of something",
+        "exampleZh": "我不小心把自己反鎖在住所門外。",
+        "exampleEn": "I locked myself out of my flat.",
+        "highlight": "locked myself out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "鎖定並持續追蹤某個目標",
+      "titleEn": "lock onto something / lock in on something",
+      "formula": "lock onto something / lock in on something",
+      "highlight": "lock onto something / lock in on something",
+      "descriptionZh": "鎖定並持續追蹤某個目標",
+      "descriptionEn": "The camera locked onto the runner.",
+      "examples": [
+        {
+          "en": "The camera locked onto the runner.",
+          "zh": "攝影機鎖定了那名跑手。",
+          "highlight": "locked onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人關進監獄或上鎖的地方",
+      "titleEn": "lock somebody up / lock somebody away",
+      "formula": "lock somebody up / lock somebody away",
+      "highlight": "lock somebody up / lock somebody away",
+      "descriptionZh": "把某人關進監獄或上鎖的地方",
+      "descriptionEn": "The police locked the thief up.",
+      "examples": [
+        {
+          "en": "The police locked the thief up.",
+          "zh": "警方把那名小偷關了起來。",
+          "highlight": "locked the thief up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物關在裏面;把自己反鎖在裏面",
+      "titleEn": "lock somebody/something in / lock yourself in",
+      "formula": "lock somebody/something in / lock yourself in",
+      "highlight": "lock somebody/something in / lock yourself in",
+      "descriptionZh": "把某人或某物關在裏面;把自己反鎖在裏面",
+      "descriptionEn": "The farmer locked the sheep in.",
+      "examples": [
+        {
+          "en": "The farmer locked the sheep in.",
+          "zh": "農夫把羊群關在裏面。",
+          "highlight": "locked the sheep in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人或某物關在外面,使其不能進入",
+      "titleEn": "lock somebody/something out",
+      "formula": "lock somebody/something out",
+      "highlight": "lock somebody/something out",
+      "descriptionZh": "把某人或某物關在外面,使其不能進入",
+      "descriptionEn": "The wrong password locked me out of my account.",
+      "examples": [
+        {
+          "en": "The wrong password locked me out of my account.",
+          "zh": "錯誤的密碼令我無法登入帳戶。",
+          "highlight": "locked me out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把貴重物品或危險物品放到安全地方並鎖好",
+      "titleEn": "lock something away / lock something up",
+      "formula": "lock something away / lock something up",
+      "highlight": "lock something away / lock something up",
+      "descriptionZh": "把貴重物品或危險物品放到安全地方並鎖好",
+      "descriptionEn": "She locked the jewellery away in the safe.",
+      "examples": [
+        {
+          "en": "She locked the jewellery away in the safe.",
+          "zh": "她把首飾鎖在保險箱內。",
+          "highlight": "locked the jewellery away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "離開前把房屋、店舖或其他地方鎖好",
+      "titleEn": "lock up / lock something up",
+      "formula": "lock up / lock something up",
+      "highlight": "lock up / lock something up",
+      "descriptionZh": "離開前把房屋、店舖或其他地方鎖好",
+      "descriptionEn": "Please lock up before you leave.",
+      "examples": [
+        {
+          "en": "Please lock up before you leave.",
+          "zh": "離開前請把地方鎖好。",
+          "highlight": "lock up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把自己關起來,獨自工作或避免見人",
+      "titleEn": "lock yourself away",
+      "formula": "lock yourself away",
+      "highlight": "lock yourself away",
+      "descriptionZh": "把自己關起來,獨自工作或避免見人",
+      "descriptionEn": "He locked himself away to finish the book.",
+      "examples": [
+        {
+          "en": "He locked himself away to finish the book.",
+          "zh": "他獨自躲起來完成那本書。",
+          "highlight": "locked himself away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "不小心把自己反鎖在門外",
+      "titleEn": "lock yourself out / lock yourself out of something",
+      "formula": "lock yourself out / lock yourself out of something",
+      "highlight": "lock yourself out / lock yourself out of something",
+      "descriptionZh": "不小心把自己反鎖在門外",
+      "descriptionEn": "I locked myself out of my flat.",
+      "examples": [
+        {
+          "en": "I locked myself out of my flat.",
+          "zh": "我不小心把自己反鎖在住所門外。",
+          "highlight": "locked myself out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 LOCK 談論保護地方和重要物品",
+      "titleEn": "Talk about keeping places and important things safe",
+      "zh": "LOCK 片語動詞可讓你說明如何鎖好店舖、房屋、護照、保險箱或貴重物品。",
+      "en": "LOCK expressions help you explain how a shop, house, passport, safe or valuable item is protected."
+    },
+    {
+      "titleZh": "清楚說明誰可以或不可以進出",
+      "titleEn": "Explain clearly who can or cannot enter or leave",
+      "zh": "你可以用 lock somebody in 和 lock somebody out,說明某人被關在裏面或被關在外面。",
+      "en": "You can use lock somebody in and lock somebody out to describe both sides of a closed door."
+    },
+    {
+      "titleZh": "描述常見的鑰匙問題",
+      "titleEn": "Describe common problems with keys",
+      "zh": "lock yourself out 可用來說明把鑰匙留在裏面,結果自己無法進入的常見情況。",
+      "en": "Lock yourself out helps you explain the familiar problem of leaving your key inside and being unable to enter."
+    },
+    {
+      "titleZh": "理解攝影機和機器如何追蹤目標",
+      "titleEn": "Understand how cameras and machines follow targets",
+      "zh": "lock onto 和 lock in on 可用來談論攝影機、掃描器、機械人和其他追蹤科技。",
+      "en": "Lock onto and lock in on are useful when talking about cameras, scanners, robots and other tracking technology."
+    },
+    {
+      "titleZh": "描述選擇獨自工作",
+      "titleEn": "Describe choosing to work alone",
+      "zh": "lock yourself away 可以表示某人為了溫習、寫作或完成重要工作而獨處。",
+      "en": "Lock yourself away can show that someone stays alone to study, write or finish an important task."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 LOCK 談論保護地方和重要物品",
+      "清楚說明誰可以或不可以進出",
+      "描述常見的鑰匙問題",
+      "理解攝影機和機器如何追蹤目標",
+      "描述選擇獨自工作"
+    ],
+    "contextsEn": [
+      "Talk about keeping places and important things safe",
+      "Explain clearly who can or cannot enter or leave",
+      "Describe common problems with keys",
+      "Understand how cameras and machines follow targets",
+      "Describe choosing to work alone"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 LOCK 談論保護地方和重要物品",
+        "titleEn": "Talk about keeping places and important things safe",
+        "zh": "LOCK 片語動詞可讓你說明如何鎖好店舖、房屋、護照、保險箱或貴重物品。",
+        "en": "LOCK expressions help you explain how a shop, house, passport, safe or valuable item is protected.",
+        "examples": [
+          {
+            "en": "The camera locked onto the runner.",
+            "zh": "攝影機鎖定了那名跑手。",
+            "highlight": "locked onto"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明誰可以或不可以進出",
+        "titleEn": "Explain clearly who can or cannot enter or leave",
+        "zh": "你可以用 lock somebody in 和 lock somebody out,說明某人被關在裏面或被關在外面。",
+        "en": "You can use lock somebody in and lock somebody out to describe both sides of a closed door.",
+        "examples": [
+          {
+            "en": "The police locked the thief up.",
+            "zh": "警方把那名小偷關了起來。",
+            "highlight": "locked the thief up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述常見的鑰匙問題",
+        "titleEn": "Describe common problems with keys",
+        "zh": "lock yourself out 可用來說明把鑰匙留在裏面,結果自己無法進入的常見情況。",
+        "en": "Lock yourself out helps you explain the familiar problem of leaving your key inside and being unable to enter.",
+        "examples": [
+          {
+            "en": "The farmer locked the sheep in.",
+            "zh": "農夫把羊群關在裏面。",
+            "highlight": "locked the sheep in"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解攝影機和機器如何追蹤目標",
+        "titleEn": "Understand how cameras and machines follow targets",
+        "zh": "lock onto 和 lock in on 可用來談論攝影機、掃描器、機械人和其他追蹤科技。",
+        "en": "Lock onto and lock in on are useful when talking about cameras, scanners, robots and other tracking technology.",
+        "examples": [
+          {
+            "en": "The wrong password locked me out of my account.",
+            "zh": "錯誤的密碼令我無法登入帳戶。",
+            "highlight": "locked me out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述選擇獨自工作",
+        "titleEn": "Describe choosing to work alone",
+        "zh": "lock yourself away 可以表示某人為了溫習、寫作或完成重要工作而獨處。",
+        "en": "Lock yourself away can show that someone stays alone to study, write or finish an important task.",
+        "examples": [
+          {
+            "en": "She locked the jewellery away in the safe.",
+            "zh": "她把首飾鎖在保險箱內。",
+            "highlight": "locked the jewellery away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LOCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LOCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LOCK 片語動詞。",
+      "en": "Read the whole sentence and choose the LOCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: lock him up lock it away lock them in lock her out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: lock him up lock it away lock them in lock her out"
+    },
+    {
+      "titleZh": "lock up 可以表示把人關起來,也可以表示離開前把地方鎖好。請仔細閱讀整個情境。",
+      "titleEn": "Lock up can mean putting a person in prison or securing a place before leaving.",
+      "zh": "lock up 可以表示把人關起來,也可以表示離開前把地方鎖好。請仔細閱讀整個情境。",
+      "en": "Lock up can mean putting a person in prison or securing a place before leaving. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LOCK 動詞片語句子改寫練習",
+    "titleEn": "LOCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-60-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "Emma put her jewellery in the safe and turned the key.",
+      "promptZh": "艾瑪把首飾放進保險箱,並轉動鑰匙把它關好。",
+      "starter": "Emma",
+      "answer": "Emma locked her jewellery away in the safe.",
+      "answerZh": "艾瑪把首飾鎖在保險箱內。",
+      "highlight": "locked",
+      "targetForm": "lock something away",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The camera found the runner and continued to follow him.",
+      "promptZh": "攝影機找到那名跑手,並繼續追蹤他。",
+      "starter": "The",
+      "answer": "The camera locked onto the runner and continued to follow him.",
+      "answerZh": "攝影機鎖定了那名跑手,並繼續追蹤他。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The farmer put the sheep inside the barn and turned the key.",
+      "promptZh": "農夫把羊群趕進穀倉,並轉動鑰匙把門關好。",
+      "starter": "The",
+      "answer": "The farmer locked the sheep in the barn.",
+      "answerZh": "農夫把羊群鎖在穀倉內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please close the shop and turn the key before you leave.",
+      "promptZh": "離開前,請關好店舖並轉動鑰匙。",
+      "starter": "Please",
+      "answer": "Please lock up before you leave.",
+      "answerZh": "離開前,請把店舖鎖好。",
+      "highlight": "lock up",
+      "targetForm": "lock up",
+      "targetMeaningZh": "離開前把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The police put the thief in a prison cell.",
+      "promptZh": "警方把那名小偷關進監房。",
+      "starter": "The",
+      "answer": "The police locked the thief up in a prison cell.",
+      "answerZh": "警方把那名小偷鎖在監房內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody up",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A wrong password stopped Daniel from entering his account.",
+      "promptZh": "錯誤的密碼令丹尼爾無法登入帳戶。",
+      "starter": "A",
+      "answer": "A wrong password locked Daniel out of his account.",
+      "answerZh": "錯誤的密碼令丹尼爾無法登入帳戶。",
+      "highlight": "locked",
+      "targetForm": "lock somebody out of something",
+      "targetMeaningZh": "使某人不能進入某處或使用某物"
+    },
+    {
+      "id": "phrasal-verb-60-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ben stayed alone in his room until he finished the project.",
+      "promptZh": "賓獨自留在房間裏,直至完成那個項目。",
+      "starter": "Ben",
+      "answer": "Ben locked himself away in his room until he finished the project.",
+      "answerZh": "賓把自己關在房間裏,直至完成那個項目。",
+      "highlight": "locked himself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The robot found the moving ball and followed it across the floor.",
+      "promptZh": "機械人找到那個正在移動的球,並在地板上一路追蹤它。",
+      "starter": "The",
+      "answer": "The robot locked onto the moving ball and followed it across the floor.",
+      "answerZh": "機械人鎖定了那個正在移動的球,並在地板上一路追蹤它。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Dad put the important papers in a drawer and turned the key.",
+      "promptZh": "爸爸把重要文件放進抽屜,並轉動鑰匙把它關好。",
+      "starter": "Dad",
+      "answer": "Dad locked the important papers away in a drawer.",
+      "answerZh": "爸爸把重要文件鎖在抽屜內。",
+      "highlight": "locked",
+      "targetForm": "lock something away",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I left my key inside the flat, closed the door, and could not get back in.",
+      "promptZh": "我把鑰匙留在住所內,關上門後便無法再進去。",
+      "starter": "I",
+      "answer": "I left my key inside the flat and locked myself out.",
+      "answerZh": "我把鑰匙留在住所內,不小心把自己反鎖在門外。",
+      "highlight": "locked myself out",
+      "targetForm": "lock yourself out",
+      "targetMeaningZh": "不小心把自己反鎖在門外"
+    },
+    {
+      "id": "phrasal-verb-60-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The guards kept the dangerous prisoner in a cell far from everyone else.",
+      "promptZh": "守衞把那名危險囚犯關在一間遠離其他人的監房內。",
+      "starter": "The",
+      "answer": "The guards locked the dangerous prisoner away in a cell far from everyone else.",
+      "answerZh": "守衞把那名危險囚犯關在一間遠離其他人的監房內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody away",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The last worker closed and secured the office before going home.",
+      "promptZh": "最後離開的員工在回家前關好並鎖好辦公室。",
+      "starter": "The",
+      "answer": "The last worker locked up the office before going home.",
+      "answerZh": "最後離開的員工在回家前把辦公室鎖好。",
+      "highlight": "locked up",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Eva went into her room and turned the key from the inside.",
+      "promptZh": "伊娃走進房間,並從裏面轉動鑰匙。",
+      "starter": "Eva",
+      "answer": "Eva locked herself in her room.",
+      "answerZh": "伊娃把自己反鎖在房間內。",
+      "highlight": "locked herself in",
+      "targetForm": "lock yourself in",
+      "targetMeaningZh": "把自己反鎖在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The owner of the flat closed the door and would not let me enter.",
+      "promptZh": "住所業主關上門,不讓我進去。",
+      "starter": "The",
+      "answer": "The owner of the flat locked me out.",
+      "answerZh": "住所業主把我關在門外。",
+      "highlight": "locked",
+      "targetForm": "lock somebody out",
+      "targetMeaningZh": "把某人關在外面,使其不能進入"
+    },
+    {
+      "id": "phrasal-verb-60-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The robber was put in a cell last night.",
+      "promptZh": "那名劫匪昨晚被關進監房。",
+      "starter": "The",
+      "answer": "The robber was locked up in a cell last night.",
+      "answerZh": "那名劫匪昨晚被關在監房內。",
+      "highlight": "locked up",
+      "targetForm": "lock somebody up",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "I have decided to stay alone in the study until I finish my book.",
+      "promptZh": "我已決定獨自留在書房,直至完成我的書。",
+      "starter": "I",
+      "answer": "I have decided to lock myself away in the study until I finish my book.",
+      "answerZh": "我已決定把自己關在書房,直至完成我的書。",
+      "highlight": "lock myself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The telescope has found the bright star and is keeping it in view.",
+      "promptZh": "望遠鏡已找到那顆明亮的星,並正把它保持在視線範圍內。",
+      "starter": "The",
+      "answer": "The telescope has locked onto the bright star and is keeping it in view.",
+      "answerZh": "望遠鏡已鎖定那顆明亮的星,並正把它保持在視線範圍內。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The manager has closed the office and will not allow the staff to enter.",
+      "promptZh": "經理已關閉辦公室,不讓員工進入。",
+      "starter": "The",
+      "answer": "The manager has locked the staff out of the office.",
+      "answerZh": "經理已把員工關在辦公室外。",
+      "highlight": "locked the staff out of",
+      "targetForm": "lock somebody out of something",
+      "targetMeaningZh": "使某人不能進入某處"
+    },
+    {
+      "id": "phrasal-verb-60-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Jamal left the key in the car, shut the door, and now cannot get inside.",
+      "promptZh": "賈邁勒把鑰匙留在車內,關上車門後現在無法進去。",
+      "starter": "Jamal",
+      "answer": "Jamal has locked himself out of the car with the key still inside.",
+      "answerZh": "賈邁勒把鑰匙留在車內,不小心把自己反鎖在車外。",
+      "highlight": "has locked himself out of the car with",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The caretaker has put the dog in the kitchen and turned the key.",
+      "promptZh": "管理員已把狗放進廚房,並轉動鑰匙把門關好。",
+      "starter": "The",
+      "answer": "The caretaker has locked the dog in the kitchen.",
+      "answerZh": "管理員已把狗鎖在廚房內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The manager is closing every door of the café before going home.",
+      "promptZh": "經理回家前正在關好咖啡店的每一道門。",
+      "starter": "The",
+      "answer": "The manager is locking the café up before going home.",
+      "answerZh": "經理回家前正在把咖啡店鎖好。",
+      "highlight": "locking",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "People who attack others should be kept in prison.",
+      "promptZh": "襲擊他人的人應該被關進監獄。",
+      "starter": "People",
+      "answer": "People who attack others should be locked up.",
+      "answerZh": "襲擊他人的人應該被關起來。",
+      "highlight": "locked up",
+      "targetForm": "lock somebody up",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The museum has put the old coins in a display case that needs a key to open.",
+      "promptZh": "博物館已把舊硬幣放進一個需要鑰匙才能打開的展示櫃。",
+      "starter": "The",
+      "answer": "The museum has locked the old coins up in a display case.",
+      "answerZh": "博物館已把舊硬幣鎖在展示櫃內。",
+      "highlight": "locked",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Sara spends most evenings alone in her room so that she can study.",
+      "promptZh": "莎拉大多數晚上都獨自留在房間裏溫習。",
+      "starter": "Sara",
+      "answer": "Sara locks herself away in her room most evenings to study.",
+      "answerZh": "莎拉大多數晚上都把自己關在房間裏溫習。",
+      "highlight": "locks herself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why did the computer stop me from entering my account?",
+      "promptZh": "為甚麼電腦令我無法登入帳戶?",
+      "starter": "Why",
+      "answer": "Why did the computer lock me out of my account?",
+      "answerZh": "為甚麼電腦令我無法登入帳戶?",
+      "highlight": "lock",
+      "targetForm": "lock somebody out of something",
+      "targetMeaningZh": "使某人不能進入某處或使用某物"
+    },
+    {
+      "id": "phrasal-verb-60-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why can the camera not find my face and keep following it?",
+      "promptZh": "為甚麼攝影機無法找到我的臉並持續追蹤?",
+      "starter": "Why",
+      "answer": "Why can the camera not lock onto my face and keep following it?",
+      "answerZh": "為甚麼攝影機無法鎖定我的臉並持續追蹤?",
+      "highlight": "lock onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "How did you become stuck outside your room with the key still inside?",
+      "promptZh": "鑰匙仍留在房內,你怎會被困在房間外面?",
+      "starter": "How",
+      "answer": "How did you lock yourself out of your room with the key still inside?",
+      "answerZh": "你怎會把鑰匙留在房內,並把自己反鎖在房外?",
+      "highlight": "lock yourself out of",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did you put the goats inside the barn and secure the door?",
+      "promptZh": "你有把山羊趕進穀倉,並把門關好嗎?",
+      "starter": "Did",
+      "answer": "Did you lock the goats in the barn?",
+      "answerZh": "你有把山羊鎖在穀倉內嗎?",
+      "highlight": "lock",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Someone turned the key while we were inside the garden, so we could not leave.",
+      "promptZh": "我們仍在花園內時,有人轉動了鑰匙,所以我們無法離開。",
+      "starter": "Someone",
+      "answer": "Someone locked us in the garden, so we could not leave.",
+      "answerZh": "有人把我們鎖在花園內,所以我們無法離開。",
+      "highlight": "locked us in",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The security system found the cyclist and kept her in view.",
+      "promptZh": "保安系統找到那名單車手,並一直把她保持在視線範圍內。",
+      "starter": "The",
+      "answer": "The security system locked onto the cyclist and kept her in view.",
+      "answerZh": "保安系統鎖定了那名單車手,並一直把她保持在視線範圍內。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "These medicines are dangerous for children, so put them in the cupboard and turn the key.",
+      "promptZh": "這些藥物對兒童有危險,所以要把它們放進櫃內並轉動鑰匙。",
+      "starter": "These",
+      "answer": "These medicines are dangerous for children, so lock them up in the cupboard.",
+      "answerZh": "這些藥物對兒童有危險,所以要把它們鎖在櫃內。",
+      "highlight": "lock",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We stayed alone in the office all weekend to finish the plan.",
+      "promptZh": "我們整個週末都獨自留在辦公室,以完成計劃。",
+      "starter": "We",
+      "answer": "We locked ourselves away in the office all weekend to finish the plan.",
+      "answerZh": "我們整個週末都把自己關在辦公室,以完成計劃。",
+      "highlight": "locked ourselves away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The police caught the thief and put him in a cell.",
+      "promptZh": "警方捉到那名小偷,並把他關進監房。",
+      "starter": "The",
+      "answer": "The police caught the thief and locked him up in a cell.",
+      "answerZh": "警方捉到那名小偷,並把他鎖在監房內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody up",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We left our keys on the table, closed the front door, and could not enter the house.",
+      "promptZh": "我們把鑰匙留在桌上,關上前門後便無法進入屋內。",
+      "starter": "We",
+      "answer": "We left our keys on the table and locked ourselves out of the house.",
+      "answerZh": "我們把鑰匙留在桌上,不小心把自己反鎖在屋外。",
+      "highlight": "locked ourselves out of",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The hall is empty now, so please close every door before you go.",
+      "promptZh": "禮堂現在已經沒有人,所以離開前請關好每一道門。",
+      "starter": "The",
+      "answer": "The hall is empty now, so please lock it up before you go.",
+      "answerZh": "禮堂現在已經沒有人,所以離開前請把它鎖好。",
+      "highlight": "lock it up",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The coach closed the changing-room door before we arrived, so we could not enter.",
+      "promptZh": "教練在我們到達前關上更衣室的門,所以我們無法進入。",
+      "starter": "The",
+      "answer": "The coach locked us out of the changing room.",
+      "answerZh": "教練把我們關在更衣室外。",
+      "highlight": "locked us out of",
+      "targetForm": "lock somebody out of something",
+      "targetMeaningZh": "使某人不能進入某處"
+    },
+    {
+      "id": "phrasal-verb-60-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The device found the radio signal and continued to follow it.",
+      "promptZh": "裝置找到無線電訊號,並繼續追蹤它。",
+      "starter": "The",
+      "answer": "The device locked in on the radio signal and continued to follow it.",
+      "answerZh": "裝置鎖定了無線電訊號,並繼續追蹤它。",
+      "highlight": "locked in on",
+      "targetForm": "lock in on something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Daniel stayed alone at home for three days to complete the last chapter.",
+      "promptZh": "丹尼爾獨自在家三天,以完成最後一章。",
+      "starter": "Daniel",
+      "answer": "Daniel locked himself away at home for three days to complete the last chapter.",
+      "answerZh": "丹尼爾把自己關在家中三天,以完成最後一章。",
+      "highlight": "locked himself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We put our passports in the hotel safe and turned the key.",
+      "promptZh": "我們把護照放進酒店保險箱,並轉動鑰匙把它關好。",
+      "starter": "We",
+      "answer": "We locked our passports away in the hotel safe.",
+      "answerZh": "我們把護照鎖在酒店保險箱內。",
+      "highlight": "locked",
+      "targetForm": "lock something away",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The king kept his enemy in a prison far from everyone else.",
+      "promptZh": "國王把敵人關在一所遠離其他人的監獄內。",
+      "starter": "The",
+      "answer": "The king locked his enemy away in a prison far from everyone else.",
+      "answerZh": "國王把敵人關在一所遠離其他人的監獄內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody away",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Nora shut the office door while her key card was still on the desk.",
+      "promptZh": "諾拉關上辦公室的門時,門卡仍留在桌上。",
+      "starter": "Nora",
+      "answer": "Nora locked herself out of the office with her key card still on the desk.",
+      "answerZh": "諾拉把門卡留在桌上,不小心把自己反鎖在辦公室外。",
+      "highlight": "locked herself out of",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Who will close and secure the community centre tonight?",
+      "promptZh": "今晚誰會關好並鎖好社區中心?",
+      "starter": "Who",
+      "answer": "Who will lock up the community centre tonight?",
+      "answerZh": "今晚誰會把社區中心鎖好?",
+      "highlight": "lock up",
+      "targetForm": "lock up / lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Ravi was outside when someone turned the key, so he could not go in.",
+      "promptZh": "有人轉動鑰匙時,拉維仍在外面,所以他無法進去。",
+      "starter": "Ravi",
+      "answer": "Ravi was locked out when someone turned the key.",
+      "answerZh": "有人轉動鑰匙時,拉維被關在外面。",
+      "highlight": "locked out",
+      "targetForm": "lock somebody out",
+      "targetMeaningZh": "把某人關在外面,使其不能進入"
+    },
+    {
+      "id": "phrasal-verb-60-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "No one forced Leah to be alone; she chose to stay in her room and work.",
+      "promptZh": "沒有人迫莉亞獨處;她選擇留在房間裏工作。",
+      "starter": "Leah",
+      "answer": "Leah chose to lock herself away in her room to work.",
+      "answerZh": "莉亞選擇把自己關在房間裏工作。",
+      "highlight": "lock herself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The caretaker shut the cat inside the office so that it could not escape.",
+      "promptZh": "管理員把貓關在辦公室內,以免牠逃走。",
+      "starter": "The",
+      "answer": "The caretaker locked the cat in the office so that it could not escape.",
+      "answerZh": "管理員把貓鎖在辦公室內,以免牠逃走。",
+      "highlight": "locked",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The guide put the rare book in a glass case and secured the case with a key.",
+      "promptZh": "導賞員把珍貴書籍放進玻璃櫃,並用鑰匙把櫃鎖好。",
+      "starter": "The",
+      "answer": "The guide locked the rare book up in a glass case.",
+      "answerZh": "導賞員把珍貴書籍鎖在玻璃櫃內。",
+      "highlight": "locked",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the trial, the police kept the man in prison.",
+      "promptZh": "審訊後,警方把那名男子關在監獄內。",
+      "starter": "After",
+      "answer": "After the trial, the police locked the man up.",
+      "answerZh": "審訊後,警方把那名男子關了起來。",
+      "highlight": "locked",
+      "targetForm": "lock somebody up",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Arun forgot his key, and the door closed behind him.",
+      "promptZh": "阿倫忘了帶鑰匙,而門在他身後關上了。",
+      "starter": "Arun",
+      "answer": "Arun locked himself out because he forgot his key.",
+      "answerZh": "阿倫因為忘了帶鑰匙,不小心把自己反鎖在門外。",
+      "highlight": "locked himself out because he",
+      "targetForm": "lock yourself out",
+      "targetMeaningZh": "不小心把自己反鎖在門外"
+    },
+    {
+      "id": "phrasal-verb-60-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The shop owner checked the windows, made sure the lights were off, and secured the building before leaving.",
+      "promptZh": "店主檢查窗戶,確認所有燈已關掉,並在離開前把店舖鎖好。",
+      "starter": "The",
+      "answer": "The shop owner checked the windows, made sure the lights were off, and locked up before leaving.",
+      "answerZh": "店主檢查窗戶,確認所有燈已關掉,並在離開前把店舖鎖好。",
+      "highlight": "locked up",
+      "targetForm": "lock up",
+      "targetMeaningZh": "離開前把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Lena wanted complete quiet, so she entered the study and turned the key from the inside.",
+      "promptZh": "莉娜想要完全安靜,所以走進書房,並從裏面轉動鑰匙。",
+      "starter": "Lena",
+      "answer": "Lena locked herself in the study because she wanted complete quiet.",
+      "answerZh": "莉娜把自己反鎖在書房內,因為她想要完全安靜。",
+      "highlight": "locked herself in the study because she",
+      "targetForm": "lock yourself in",
+      "targetMeaningZh": "把自己反鎖在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The camera found the car and followed every change in its movement.",
+      "promptZh": "攝影機找到那輛汽車,並追蹤它每一次移動。",
+      "starter": "The",
+      "answer": "The camera locked onto the car and followed every change in its movement.",
+      "answerZh": "攝影機鎖定了那輛汽車,並追蹤它每一次移動。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The school website refused entry to parents who used the wrong password.",
+      "promptZh": "學校網站拒絕讓使用錯誤密碼的家長登入。",
+      "starter": "The",
+      "answer": "The school website locked parents out when they used the wrong password.",
+      "answerZh": "家長使用錯誤密碼時,學校網站不讓他們登入。",
+      "highlight": "locked",
+      "targetForm": "lock somebody out",
+      "targetMeaningZh": "使某人不能進入某處或使用某物"
+    },
+    {
+      "id": "phrasal-verb-60-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I spent the whole afternoon alone in the spare room so that nothing would distract me.",
+      "promptZh": "我整個下午都獨自留在空房間裏,以免受到任何事情打擾。",
+      "starter": "I",
+      "answer": "I locked myself away in the spare room for the whole afternoon so that nothing would distract me.",
+      "answerZh": "我整個下午都把自己關在空房間裏,以免受到任何事情打擾。",
+      "highlight": "locked myself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Leo put the spare key in a small box and secured the box.",
+      "promptZh": "里奧把後備鑰匙放進一個小盒,並把盒子鎖好。",
+      "starter": "Leo",
+      "answer": "Leo locked the spare key away in a small box.",
+      "answerZh": "里奧把後備鑰匙鎖在一個小盒內。",
+      "highlight": "locked",
+      "targetForm": "lock something away",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The children went into the garden, shut the back door, and left the key inside the house.",
+      "promptZh": "孩子們走進花園,關上後門,卻把鑰匙留在屋內。",
+      "starter": "The",
+      "answer": "The children locked themselves out of the house with the key still inside.",
+      "answerZh": "孩子們把鑰匙留在屋內,不小心把自己反鎖在屋外。",
+      "highlight": "locked themselves out of",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The caretaker started securing the library while the last visitors were leaving.",
+      "promptZh": "最後一批訪客正在離開時,管理員開始把圖書館鎖好。",
+      "starter": "The",
+      "answer": "The caretaker started locking the library up while the last visitors were leaving.",
+      "answerZh": "最後一批訪客正在離開時,管理員開始把圖書館鎖好。",
+      "highlight": "locking",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The child ran across the stage, but the camera kept his face in the centre of the picture.",
+      "promptZh": "孩子跑過舞台,但攝影機一直把他的臉保持在畫面中央。",
+      "starter": "The",
+      "answer": "The child ran across the stage, but the camera locked onto his face and kept it in the centre of the picture.",
+      "answerZh": "孩子跑過舞台,但攝影機鎖定了他的臉,並一直把它保持在畫面中央。",
+      "highlight": "locked onto",
+      "targetForm": "lock onto something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Children were visiting, so the teacher put the sharp tools in a cupboard and turned the key.",
+      "promptZh": "有孩子到訪,所以老師把鋒利工具放進櫃內,並轉動鑰匙。",
+      "starter": "Children",
+      "answer": "Children were visiting, so the teacher locked the sharp tools up in a cupboard.",
+      "answerZh": "有孩子到訪,所以老師把鋒利工具鎖在櫃內。",
+      "highlight": "locked",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After the judge found him guilty, the man was kept in prison and could not return home.",
+      "promptZh": "法官裁定那名男子有罪後,他被關在監獄內,無法回家。",
+      "starter": "After",
+      "answer": "After the judge found him guilty, the man was locked away in prison and could not return home.",
+      "answerZh": "法官裁定那名男子有罪後,他被關在監獄內,無法回家。",
+      "highlight": "locked away",
+      "targetForm": "lock somebody away",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the final customer left, Priya checked every door and secured the café for the night.",
+      "promptZh": "最後一名顧客離開後,普里雅檢查每一道門,並把咖啡店鎖好過夜。",
+      "starter": "After",
+      "answer": "After the final customer left, Priya checked every door and locked the café up for the night.",
+      "answerZh": "最後一名顧客離開後,普里雅檢查每一道門,並把咖啡店鎖好過夜。",
+      "highlight": "locked",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the fireworks began, the owner shut the nervous dog inside the house.",
+      "promptZh": "煙花開始前,主人把緊張的狗關在屋內。",
+      "starter": "Before",
+      "answer": "Before the fireworks began, the owner locked the nervous dog in the house.",
+      "answerZh": "煙花開始前,主人把緊張的狗鎖在屋內。",
+      "highlight": "locked",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Ella left the hotel key beside the bed and pulled the door closed behind her.",
+      "promptZh": "埃拉把酒店房間鑰匙留在床邊,走出房間後把門拉上。",
+      "starter": "Ella",
+      "answer": "Ella locked herself out of her hotel room with the key beside the bed.",
+      "answerZh": "埃拉把鑰匙留在床邊,不小心把自己反鎖在酒店房間外。",
+      "highlight": "locked herself out of her hotel room with",
+      "targetForm": "lock yourself out of something",
+      "targetMeaningZh": "不小心把自己反鎖在某處外面"
+    },
+    {
+      "id": "phrasal-verb-60-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The cleaner secured the main door without noticing the delivery driver outside.",
+      "promptZh": "清潔工沒有留意送貨司機仍在外面,便把正門鎖好。",
+      "starter": "The",
+      "answer": "The cleaner locked the delivery driver out without noticing that he was outside.",
+      "answerZh": "清潔工沒有留意送貨司機仍在外面,便把他關在門外。",
+      "highlight": "locked",
+      "targetForm": "lock somebody out",
+      "targetMeaningZh": "把某人關在外面,使其不能進入"
+    },
+    {
+      "id": "phrasal-verb-60-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The scanner had found the moving bag and was still following the same target.",
+      "promptZh": "掃描器已找到那個正在移動的袋,並仍在追蹤同一個目標。",
+      "starter": "The",
+      "answer": "The scanner had locked in on the moving bag and was still following the same target.",
+      "answerZh": "掃描器已鎖定那個正在移動的袋,並仍在追蹤同一個目標。",
+      "highlight": "locked in on",
+      "targetForm": "lock in on something",
+      "targetMeaningZh": "鎖定並持續追蹤某個目標"
+    },
+    {
+      "id": "phrasal-verb-60-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Rosa stayed alone and did not answer any calls because she had to finish the work by the next morning.",
+      "promptZh": "羅莎獨自工作,沒有接聽任何電話,因為她必須在翌日早上前完成工作。",
+      "starter": "Rosa",
+      "answer": "Rosa locked herself away and did not answer any calls because she had to finish the work by the next morning.",
+      "answerZh": "羅莎把自己關起來工作,沒有接聽任何電話,因為她必須在翌日早上前完成工作。",
+      "highlight": "locked herself away",
+      "targetForm": "lock yourself away",
+      "targetMeaningZh": "把自己關起來,獨自工作或避免見人"
+    },
+    {
+      "id": "phrasal-verb-60-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The thief could not harm anyone while the guards kept him in a secure cell.",
+      "promptZh": "守衞把小偷關在安全的監房內,因此他無法傷害任何人。",
+      "starter": "The",
+      "answer": "The thief could not harm anyone while the guards locked him away in a secure cell.",
+      "answerZh": "守衞把小偷關在安全的監房內,因此他無法傷害任何人。",
+      "highlight": "locked",
+      "targetForm": "lock somebody away",
+      "targetMeaningZh": "把某人關進監獄或上鎖的地方"
+    },
+    {
+      "id": "phrasal-verb-60-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before going to the beach, the hotel guest put her passport in the room safe and turned the key.",
+      "promptZh": "前往海灘前,那名酒店住客把護照放進房內的保險箱,並轉動鑰匙。",
+      "starter": "Before",
+      "answer": "Before going to the beach, the hotel guest locked her passport away in the room safe.",
+      "answerZh": "前往海灘前,那名酒店住客把護照鎖在房內的保險箱。",
+      "highlight": "locked",
+      "targetForm": "lock something away",
+      "targetMeaningZh": "把某物放到安全地方並鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The park worker did not notice that visitors were still inside and turned the key, so nobody could leave.",
+      "promptZh": "公園職員沒有留意訪客仍在裏面便轉動鑰匙,所以沒有人能夠離開。",
+      "starter": "The",
+      "answer": "The park worker locked the visitors in the garden, so nobody could leave.",
+      "answerZh": "公園職員把訪客鎖在花園內,所以沒有人能夠離開。",
+      "highlight": "locked the",
+      "targetForm": "lock somebody/something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-60-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the storm, the family closed every window and secured their holiday house.",
+      "promptZh": "暴風雨來臨前,那家人關好每一扇窗,並把度假屋鎖好。",
+      "starter": "Before",
+      "answer": "Before the storm, the family closed every window and locked their holiday house up.",
+      "answerZh": "暴風雨來臨前,那家人關好每一扇窗,並把度假屋鎖好。",
+      "highlight": "locked",
+      "targetForm": "lock something up",
+      "targetMeaningZh": "把建築物或地方鎖好"
+    },
+    {
+      "id": "phrasal-verb-60-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Ava changed the code, so her brother could no longer enter their shared account.",
+      "promptZh": "艾娃更改了密碼,所以她的兄弟再也無法登入他們共用的帳戶。",
+      "starter": "Ava",
+      "answer": "Ava changed the code and locked her brother out of their shared account.",
+      "answerZh": "艾娃更改了密碼,令她的兄弟無法登入他們共用的帳戶。",
+      "highlight": "and locked",
+      "targetForm": "lock somebody out of something",
+      "targetMeaningZh": "使某人不能進入某處或使用某物"
+    }
+  ]
+}

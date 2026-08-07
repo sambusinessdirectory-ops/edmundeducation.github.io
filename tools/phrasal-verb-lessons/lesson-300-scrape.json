@@ -1,0 +1,1234 @@
+{
+  "id": "phrasal-verb-300",
+  "order": 300,
+  "slug": "scrape",
+  "version": "1",
+  "title": "SCRAPE 動詞片語",
+  "titleEn": "Scrape",
+  "titleZh": "SCRAPE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 285 - SCRAPE.pdf",
+    "sourceNumber": 285,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SCRAPE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SCRAPE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SCRAPE",
+      "highlight": "SCRAPE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We can just scrape by on one small income.",
+      "zh": "我們只能靠一份微薄收入勉強過活。",
+      "highlight": "scrape by on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The team scraped into the final.",
+      "zh": "球隊勉強晉身決賽。",
+      "highlight": "scraped into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He scraped the mud off his shoes.",
+      "zh": "他把鞋上的泥刮掉。",
+      "highlight": "scraped the mud off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以僅有的金錢或資源勉強維持生活或營運；僅以很小的差距成功當選、入選、獲取錄或晉級；把黏在某個表面上的東西刮走；把容器或物件內部的東西刮出來",
+    "en": "scrape by / scrape by on something; scrape in / scrape into something; scrape something off / scrape something off something; scrape something out / scrape something out of something",
+    "naturalZh": [
+      "以僅有的金錢或資源勉強維持生活或營運",
+      "僅以很小的差距成功當選、入選、獲取錄或晉級",
+      "把黏在某個表面上的東西刮走",
+      "把容器或物件內部的東西刮出來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "scrape by / scrape by on something",
+      "titleZh": "以僅有的金錢或資源勉強維持生活或營運",
+      "titleEn": "scrape by / scrape by on something",
+      "descriptionZh": "以僅有的金錢或資源勉強維持生活或營運",
+      "descriptionEn": "We can just scrape by on one small income.",
+      "examples": [
+        {
+          "en": "We can just scrape by on one small income.",
+          "zh": "我們只能靠一份微薄收入勉強過活。",
+          "highlight": "scrape by on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "scrape in / scrape into something",
+      "titleZh": "僅以很小的差距成功當選、入選、獲取錄或晉級",
+      "titleEn": "scrape in / scrape into something",
+      "descriptionZh": "僅以很小的差距成功當選、入選、獲取錄或晉級",
+      "descriptionEn": "The team scraped into the final.",
+      "examples": [
+        {
+          "en": "The team scraped into the final.",
+          "zh": "球隊勉強晉身決賽。",
+          "highlight": "scraped into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "scrape something off / scrape something off something",
+      "titleZh": "把黏在某個表面上的東西刮走",
+      "titleEn": "scrape something off / scrape something off something",
+      "descriptionZh": "把黏在某個表面上的東西刮走",
+      "descriptionEn": "He scraped the mud off his shoes.",
+      "examples": [
+        {
+          "en": "He scraped the mud off his shoes.",
+          "zh": "他把鞋上的泥刮掉。",
+          "highlight": "scraped the mud off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "scrape something out / scrape something out of something",
+      "titleZh": "把容器或物件內部的東西刮出來",
+      "titleEn": "scrape something out / scrape something out of something",
+      "descriptionZh": "把容器或物件內部的東西刮出來",
+      "descriptionEn": "She scraped the seeds out of the melon.",
+      "examples": [
+        {
+          "en": "She scraped the seeds out of the melon.",
+          "zh": "她把蜜瓜內的種子刮出來。",
+          "highlight": "scraped the seeds out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SCRAPE 片語動詞的實際用途",
+    "labelEn": "SCRAPE Phrasal Verbs in Use",
+    "summaryZh": "scrape by 可以表示某人的金錢只夠應付基本需要,幾乎沒有多餘的錢。；scrape in 和 scrape into 可以表示候選人僅以少量票數當選,或球隊僅僅成功晉級。；scrape off 用於刮走表面上的東西;scrape out 則用於刮出容器或物件內部的東西。；這些表達適合用來談論金錢、選舉、比賽、烹飪、清潔和簡單維修工作。",
+    "summaryEn": "Scrape by describes a situation in which someone has just enough money for basic needs, but almost nothing extra. Scrape in and scrape into can describe a candidate winning by very few votes or a team only just reaching the next stage. Scrape off is used for something on a surface, while scrape out is used for something inside a container or object. These expressions are useful when talking about money, elections, competitions, cooking, cleaning and simple repair work.",
+    "contextsZh": [
+      "自然談論手頭拮据的生活",
+      "描述僅以微小差距取得成功",
+      "清楚說明從不同位置刮走東西",
+      "理解日常生活中的實用英語"
+    ],
+    "contextsEn": [
+      "Talk naturally about having very little money",
+      "Describe success by a very small margin",
+      "Describe removing things from different places",
+      "Understand practical English in daily life"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SCRAPE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SCRAPE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "scrape by / scrape by on something",
+    "fixedHighlight": "scrape by / scrape by on something",
+    "fixedZh": "閱讀整句,選出意思相同的 SCRAPE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SCRAPE expression that gives the same meaning.",
+    "correct": "scrape by on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 SCRAPE ... OFF 或 SCRAPE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。；scrape in 後面不一定要說明成功進入甚麼地方;scrape into 後面則會接所進入的比賽、階段或組別。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them in a SCRAPE... OFF or SCRAPE... OUT expression, place the word as shown: scrape it off scrape them out Scrape in can be used without naming the place or group. Scrape into is followed by the competition, stage or group entered: The candidate scraped in. The team scraped into the final.",
+    "variableItemsZh": [
+      "scrape by / scrape by on something",
+      "scrape in / scrape into something",
+      "scrape something off / scrape something off something",
+      "scrape something out / scrape something out of something"
+    ],
+    "variableItemsEn": [
+      "scrape by / scrape by on something",
+      "scrape in / scrape into something",
+      "scrape something off / scrape something off something",
+      "scrape something out / scrape something out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "以僅有的金錢或資源勉強維持生活或營運",
+        "formEn": "scrape by / scrape by on something",
+        "exampleZh": "我們只能靠一份微薄收入勉強過活。",
+        "exampleEn": "We can just scrape by on one small income.",
+        "highlight": "scrape by on"
+      },
+      {
+        "formZh": "僅以很小的差距成功當選、入選、獲取錄或晉級",
+        "formEn": "scrape in / scrape into something",
+        "exampleZh": "球隊勉強晉身決賽。",
+        "exampleEn": "The team scraped into the final.",
+        "highlight": "scraped into"
+      },
+      {
+        "formZh": "把黏在某個表面上的東西刮走",
+        "formEn": "scrape something off / scrape something off something",
+        "exampleZh": "他把鞋上的泥刮掉。",
+        "exampleEn": "He scraped the mud off his shoes.",
+        "highlight": "scraped the mud off"
+      },
+      {
+        "formZh": "把容器或物件內部的東西刮出來",
+        "formEn": "scrape something out / scrape something out of something",
+        "exampleZh": "她把蜜瓜內的種子刮出來。",
+        "exampleEn": "She scraped the seeds out of the melon.",
+        "highlight": "scraped the seeds out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以僅有的金錢或資源勉強維持生活或營運",
+      "titleEn": "scrape by / scrape by on something",
+      "formula": "scrape by / scrape by on something",
+      "highlight": "scrape by / scrape by on something",
+      "descriptionZh": "以僅有的金錢或資源勉強維持生活或營運",
+      "descriptionEn": "We can just scrape by on one small income.",
+      "examples": [
+        {
+          "en": "We can just scrape by on one small income.",
+          "zh": "我們只能靠一份微薄收入勉強過活。",
+          "highlight": "scrape by on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "僅以很小的差距成功當選、入選、獲取錄或晉級",
+      "titleEn": "scrape in / scrape into something",
+      "formula": "scrape in / scrape into something",
+      "highlight": "scrape in / scrape into something",
+      "descriptionZh": "僅以很小的差距成功當選、入選、獲取錄或晉級",
+      "descriptionEn": "The team scraped into the final.",
+      "examples": [
+        {
+          "en": "The team scraped into the final.",
+          "zh": "球隊勉強晉身決賽。",
+          "highlight": "scraped into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把黏在某個表面上的東西刮走",
+      "titleEn": "scrape something off / scrape something off something",
+      "formula": "scrape something off / scrape something off something",
+      "highlight": "scrape something off / scrape something off something",
+      "descriptionZh": "把黏在某個表面上的東西刮走",
+      "descriptionEn": "He scraped the mud off his shoes.",
+      "examples": [
+        {
+          "en": "He scraped the mud off his shoes.",
+          "zh": "他把鞋上的泥刮掉。",
+          "highlight": "scraped the mud off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把容器或物件內部的東西刮出來",
+      "titleEn": "scrape something out / scrape something out of something",
+      "formula": "scrape something out / scrape something out of something",
+      "highlight": "scrape something out / scrape something out of something",
+      "descriptionZh": "把容器或物件內部的東西刮出來",
+      "descriptionEn": "She scraped the seeds out of the melon.",
+      "examples": [
+        {
+          "en": "She scraped the seeds out of the melon.",
+          "zh": "她把蜜瓜內的種子刮出來。",
+          "highlight": "scraped the seeds out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論手頭拮据的生活",
+      "titleEn": "Talk naturally about having very little money",
+      "zh": "scrape by 可以表示某人的金錢只夠應付基本需要,幾乎沒有多餘的錢。",
+      "en": "Scrape by describes a situation in which someone has just enough money for basic needs, but almost nothing extra."
+    },
+    {
+      "titleZh": "描述僅以微小差距取得成功",
+      "titleEn": "Describe success by a very small margin",
+      "zh": "scrape in 和 scrape into 可以表示候選人僅以少量票數當選,或球隊僅僅成功晉級。",
+      "en": "Scrape in and scrape into can describe a candidate winning by very few votes or a team only just reaching the next stage."
+    },
+    {
+      "titleZh": "清楚說明從不同位置刮走東西",
+      "titleEn": "Describe removing things from different places",
+      "zh": "scrape off 用於刮走表面上的東西;scrape out 則用於刮出容器或物件內部的東西。",
+      "en": "Scrape off is used for something on a surface, while scrape out is used for something inside a container or object."
+    },
+    {
+      "titleZh": "理解日常生活中的實用英語",
+      "titleEn": "Understand practical English in daily life",
+      "zh": "這些表達適合用來談論金錢、選舉、比賽、烹飪、清潔和簡單維修工作。",
+      "en": "These expressions are useful when talking about money, elections, competitions, cooking, cleaning and simple repair work."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論手頭拮据的生活",
+      "描述僅以微小差距取得成功",
+      "清楚說明從不同位置刮走東西",
+      "理解日常生活中的實用英語"
+    ],
+    "contextsEn": [
+      "Talk naturally about having very little money",
+      "Describe success by a very small margin",
+      "Describe removing things from different places",
+      "Understand practical English in daily life"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論手頭拮据的生活",
+        "titleEn": "Talk naturally about having very little money",
+        "zh": "scrape by 可以表示某人的金錢只夠應付基本需要,幾乎沒有多餘的錢。",
+        "en": "Scrape by describes a situation in which someone has just enough money for basic needs, but almost nothing extra.",
+        "examples": [
+          {
+            "en": "We can just scrape by on one small income.",
+            "zh": "我們只能靠一份微薄收入勉強過活。",
+            "highlight": "scrape by on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述僅以微小差距取得成功",
+        "titleEn": "Describe success by a very small margin",
+        "zh": "scrape in 和 scrape into 可以表示候選人僅以少量票數當選,或球隊僅僅成功晉級。",
+        "en": "Scrape in and scrape into can describe a candidate winning by very few votes or a team only just reaching the next stage.",
+        "examples": [
+          {
+            "en": "The team scraped into the final.",
+            "zh": "球隊勉強晉身決賽。",
+            "highlight": "scraped into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明從不同位置刮走東西",
+        "titleEn": "Describe removing things from different places",
+        "zh": "scrape off 用於刮走表面上的東西;scrape out 則用於刮出容器或物件內部的東西。",
+        "en": "Scrape off is used for something on a surface, while scrape out is used for something inside a container or object.",
+        "examples": [
+          {
+            "en": "He scraped the mud off his shoes.",
+            "zh": "他把鞋上的泥刮掉。",
+            "highlight": "scraped the mud off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解日常生活中的實用英語",
+        "titleEn": "Understand practical English in daily life",
+        "zh": "這些表達適合用來談論金錢、選舉、比賽、烹飪、清潔和簡單維修工作。",
+        "en": "These expressions are useful when talking about money, elections, competitions, cooking, cleaning and simple repair work.",
+        "examples": [
+          {
+            "en": "She scraped the seeds out of the melon.",
+            "zh": "她把蜜瓜內的種子刮出來。",
+            "highlight": "scraped the seeds out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SCRAPE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SCRAPE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SCRAPE 片語動詞。",
+      "en": "Read the whole sentence and choose the SCRAPE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 SCRAPE ... OFF 或 SCRAPE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in a SCRAPE.",
+      "zh": "在 SCRAPE ... OFF 或 SCRAPE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in a SCRAPE... OFF or SCRAPE... OUT expression, place the word as shown: scrape it off scrape them out"
+    },
+    {
+      "titleZh": "scrape in 後面不一定要說明成功進入甚麼地方;scrape into 後面則會接所進入的比賽、階段或組別。",
+      "titleEn": "Scrape in can be used without naming the place or group.",
+      "zh": "scrape in 後面不一定要說明成功進入甚麼地方;scrape into 後面則會接所進入的比賽、階段或組別。",
+      "en": "Scrape in can be used without naming the place or group. Scrape into is followed by the competition, stage or group entered: The candidate scraped in. The team scraped into the final."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SCRAPE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SCRAPE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SCRAPE 動詞片語句子改寫練習",
+    "titleEn": "SCRAPE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SCRAPE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SCRAPE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-300-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Leo can only just manage on what he earns.",
+      "promptZh": "里奧只能靠自己的收入勉強過活。",
+      "starter": "Leo",
+      "answer": "Leo can just scrape by on what he earns.",
+      "answerZh": "里奧只能靠自己的收入勉強過活。",
+      "highlight": "scrape by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The team only just reached the final.",
+      "promptZh": "球隊僅僅成功晉身決賽。",
+      "starter": "The",
+      "answer": "The team scraped into the final.",
+      "answerZh": "球隊勉強晉身決賽。",
+      "highlight": "scraped into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Nina used a knife to remove the mud from her boots.",
+      "promptZh": "妮娜用刀把靴子上的泥清除。",
+      "starter": "Nina",
+      "answer": "Nina scraped the mud off her boots with a knife.",
+      "answerZh": "妮娜用刀把靴子上的泥刮掉。",
+      "highlight": "scraped the mud off her boots with",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Omar used a spoon to remove all the seeds from inside the melon.",
+      "promptZh": "奧馬用匙羹把蜜瓜內的種子全部取出。",
+      "starter": "Omar",
+      "answer": "Omar scraped all the seeds out of the melon with a spoon.",
+      "answerZh": "奧馬用匙羹把蜜瓜內的種子全部刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從內部刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The small café survived last winter, but only just.",
+      "promptZh": "那間小咖啡店去年冬天只是勉強撐了過去。",
+      "starter": "The",
+      "answer": "The small café just scraped by last winter.",
+      "answerZh": "那間小咖啡店去年冬天只是勉強撐了過去。",
+      "highlight": "just scraped by",
+      "targetForm": "scrape by",
+      "targetMeaningZh": "勉強維持生活或營運"
+    },
+    {
+      "id": "phrasal-verb-300-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The candidate won the seat by only two votes.",
+      "promptZh": "候選人僅以兩票之差取得議席。",
+      "starter": "The",
+      "answer": "The candidate scraped in by only two votes.",
+      "answerZh": "候選人僅以兩票之差勉強當選。",
+      "highlight": "scraped in",
+      "targetForm": "scrape in",
+      "targetMeaningZh": "僅以很小的差距成功當選或入選"
+    },
+    {
+      "id": "phrasal-verb-300-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Aisha removed the last of the cake mixture from inside the bowl with a spoon.",
+      "promptZh": "艾莎用匙羹把碗內剩下的蛋糕漿取出。",
+      "starter": "Aisha",
+      "answer": "Aisha scraped the last of the cake mixture out of the bowl with a spoon.",
+      "answerZh": "艾莎用匙羹把碗內剩下的蛋糕漿刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben removed the old sticker from the jar by rubbing it with a knife.",
+      "promptZh": "賓用刀把玻璃瓶上的舊貼紙刮走。",
+      "starter": "Ben",
+      "answer": "Ben scraped the old sticker off the jar with a knife.",
+      "answerZh": "賓用刀把玻璃瓶上的舊貼紙刮掉。",
+      "highlight": "scraped",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We can barely live on the money our parents give us.",
+      "promptZh": "我們只能靠父母給我們的錢勉強過活。",
+      "starter": "We",
+      "answer": "We can just scrape by on the money our parents give us.",
+      "answerZh": "我們只能靠父母給我們的錢勉強過活。",
+      "highlight": "just scrape by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Kai only just got a place in the next round.",
+      "promptZh": "啟僅僅取得下一輪的參賽資格。",
+      "starter": "Kai",
+      "answer": "Kai scraped into the next round.",
+      "answerZh": "啟勉強晉級下一輪。",
+      "highlight": "scraped into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "She is removing the ice from the windscreen now.",
+      "promptZh": "她現在正把擋風玻璃上的冰刮走。",
+      "starter": "She",
+      "answer": "She is scraping the ice off the windscreen now.",
+      "answerZh": "她現在正把擋風玻璃上的冰刮走。",
+      "highlight": "scraping",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "They have managed on one small income since January, but only just.",
+      "promptZh": "自一月以來,他們一直靠一份微薄收入勉強過活。",
+      "starter": "They",
+      "answer": "They have scraped by on one small income since January.",
+      "answerZh": "自一月以來,他們一直靠一份微薄收入勉強過活。",
+      "highlight": "scraped by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Have you removed all the yoghurt from inside the pot with the spoon?",
+      "promptZh": "你有沒有用匙羹把小盒內的乳酪全部刮出來?",
+      "starter": "Have",
+      "answer": "Have you scraped all the yoghurt out of the pot with the spoon?",
+      "answerZh": "你有沒有用匙羹把小盒內的乳酪全部刮出來?",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Will our team only just reach the semi-final?",
+      "promptZh": "我們的球隊能否勉強晉身準決賽?",
+      "starter": "Will",
+      "answer": "Will our team scrape into the semi-final?",
+      "answerZh": "我們的球隊能否勉強晉身準決賽?",
+      "highlight": "scrape into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "You should remove the dried paint from the door with this tool.",
+      "promptZh": "你應該用這件工具把門上的乾油漆刮掉。",
+      "starter": "You",
+      "answer": "You should scrape the dried paint off the door with this tool.",
+      "answerZh": "你應該用這件工具把門上的乾油漆刮掉。",
+      "highlight": "scrape",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The cook is using a spoon to remove the soft flesh from inside the pumpkin.",
+      "promptZh": "廚師正用匙羹把南瓜內的果肉刮出來。",
+      "starter": "The",
+      "answer": "The cook is scraping the soft flesh out of the pumpkin with a spoon.",
+      "answerZh": "廚師正用匙羹把南瓜內的果肉刮出來。",
+      "highlight": "scraping",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從內部刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Can Priya manage on £50 until Friday?",
+      "promptZh": "普里雅能否靠五十英鎊勉強維持到星期五?",
+      "starter": "Can",
+      "answer": "Can Priya scrape by on £50 until Friday?",
+      "answerZh": "普里雅能否靠五十英鎊勉強維持到星期五?",
+      "highlight": "scrape by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The label did not come away, so I could not remove it from the bottle with my nail.",
+      "promptZh": "標籤沒有脫落,所以我無法用指甲把它從瓶子上刮走。",
+      "starter": "I",
+      "answer": "I could not scrape the label off the bottle with my nail.",
+      "answerZh": "我無法用指甲把瓶子上的標籤刮掉。",
+      "highlight": "scrape the label off",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Sofia has only just reached the top ten in the singing competition.",
+      "promptZh": "索菲亞僅僅躋身歌唱比賽的前十名。",
+      "starter": "Sofia",
+      "answer": "Sofia has scraped into the top ten in the singing competition.",
+      "answerZh": "索菲亞勉強躋身歌唱比賽的前十名。",
+      "highlight": "scraped into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功進入某個組別"
+    },
+    {
+      "id": "phrasal-verb-300-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We will remove the old wax from inside the candle holder tomorrow.",
+      "promptZh": "我們明天會把燭台內的舊蠟刮出來。",
+      "starter": "We",
+      "answer": "We will scrape the old wax out of the candle holder tomorrow.",
+      "answerZh": "我們明天會把燭台內的舊蠟刮出來。",
+      "highlight": "scrape",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Arun reached the final by only one hundredth of a second.",
+      "promptZh": "阿倫僅以百分之一秒的差距晉身決賽。",
+      "starter": "Arun",
+      "answer": "Arun scraped into the final by only one hundredth of a second.",
+      "answerZh": "阿倫僅以百分之一秒的差距勉強晉身決賽。",
+      "highlight": "scraped into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The gum was stuck to my shoe, but I removed it with a coin.",
+      "promptZh": "口香糖黏在我的鞋上,但我用硬幣把它刮掉了。",
+      "starter": "The",
+      "answer": "The gum was stuck to my shoe, but I scraped it off with a coin.",
+      "answerZh": "口香糖黏在我的鞋上,但我用硬幣把它刮掉了。",
+      "highlight": "scraped",
+      "targetForm": "scrape something off",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Without her weekend job, Hana could not manage financially.",
+      "promptZh": "沒有週末兼職,花奈便無法維持生活。",
+      "starter": "Without",
+      "answer": "Without her weekend job, Hana could not scrape by.",
+      "answerZh": "沒有週末兼職,花奈便無法勉強維持生活。",
+      "highlight": "scrape by",
+      "targetForm": "scrape by",
+      "targetMeaningZh": "勉強維持生活"
+    },
+    {
+      "id": "phrasal-verb-300-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The seeds were loose, so he removed them from the pepper with a spoon.",
+      "promptZh": "種子已經鬆開,所以他用匙羹把它們從甜椒內取出。",
+      "starter": "The",
+      "answer": "The seeds were loose, so he scraped them out of the pepper with a spoon.",
+      "answerZh": "種子已經鬆開,所以他用匙羹把它們從甜椒內刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從內部刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The old paint was removed from the wall before the room was decorated.",
+      "promptZh": "房間裝修前,牆上的舊油漆已被刮走。",
+      "starter": "The",
+      "answer": "The old paint was scraped off the wall before the room was decorated.",
+      "answerZh": "房間裝修前,牆上的舊油漆已被刮掉。",
+      "highlight": "scraped off",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Even though the shop earns little, it is still managing to stay open.",
+      "promptZh": "雖然店舖收入不多,但仍勉強維持營運。",
+      "starter": "Even",
+      "answer": "Even though the shop earns little, it is still scraping by.",
+      "answerZh": "雖然店舖收入不多,但仍勉強維持營運。",
+      "highlight": "scraping by",
+      "targetForm": "scrape by",
+      "targetMeaningZh": "勉強維持生活或營運"
+    },
+    {
+      "id": "phrasal-verb-300-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The last student got a place on the course by only one mark.",
+      "promptZh": "最後一名學生僅以一分之差獲課程取錄。",
+      "starter": "The",
+      "answer": "The last student scraped in by only one mark.",
+      "answerZh": "最後一名學生僅以一分之差勉強獲取錄。",
+      "highlight": "scraped in",
+      "targetForm": "scrape in",
+      "targetMeaningZh": "僅以很小的差距成功獲取錄"
+    },
+    {
+      "id": "phrasal-verb-300-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The dried glue is still on the table. Have you removed it yet?",
+      "promptZh": "乾膠仍在桌上。你把它刮掉了嗎?",
+      "starter": "The",
+      "answer": "The dried glue is still on the table. Have you scraped it off yet?",
+      "answerZh": "乾膠仍在桌上。你把它刮掉了嗎?",
+      "highlight": "scraped",
+      "targetForm": "scrape something off",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "All the seeds were removed from inside the pumpkin before it was cooked.",
+      "promptZh": "南瓜在烹煮前,裡面的種子已全部被刮出來。",
+      "starter": "All",
+      "answer": "All the seeds were scraped out of the pumpkin before it was cooked.",
+      "answerZh": "南瓜在烹煮前,裡面的種子已全部被刮出來。",
+      "highlight": "scraped out of",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從內部刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The family had managed on very little for months before the rent fell.",
+      "promptZh": "那個家庭在租金下降前,已靠很少的錢勉強生活了數月。",
+      "starter": "The",
+      "answer": "The family had scraped by on very little for months before the rent fell.",
+      "answerZh": "那個家庭在租金下降前,已靠很少的錢勉強生活了數月。",
+      "highlight": "scraped by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Mei used the edge of a spoon to remove the thick sauce left inside the pan.",
+      "promptZh": "梅用匙羹邊緣把鍋內剩下的濃醬刮出來。",
+      "starter": "Mei",
+      "answer": "Mei scraped the thick sauce out of the pan with the edge of a spoon.",
+      "answerZh": "梅用匙羹邊緣把鍋內剩下的濃醬刮出來。",
+      "highlight": "scraped the thick sauce out of the pan with",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The team did not win the cup, but it only just reached the final.",
+      "promptZh": "球隊沒有贏得獎盃,但僅僅成功晉身決賽。",
+      "starter": "The",
+      "answer": "The team did not win the cup, but it scraped into the final.",
+      "answerZh": "球隊沒有贏得獎盃,但勉強晉身決賽。",
+      "highlight": "scraped into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The new shop has very few customers, yet it is just managing to stay open.",
+      "promptZh": "新店客人很少,但仍只是勉強維持營運。",
+      "starter": "The",
+      "answer": "The new shop has very few customers, yet it is just scraping by.",
+      "answerZh": "新店客人很少,但仍只是勉強維持營運。",
+      "highlight": "scraping by",
+      "targetForm": "scrape by",
+      "targetMeaningZh": "勉強維持生活或營運"
+    },
+    {
+      "id": "phrasal-verb-300-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The dirt was on the outside of the box, so Dan removed it with a flat tool.",
+      "promptZh": "污垢在盒子外面,所以丹用扁平工具把它刮走。",
+      "starter": "The",
+      "answer": "The dirt was on the outside of the box, so Dan scraped it off with a flat tool.",
+      "answerZh": "污垢在盒子外面,所以丹用扁平工具把它刮走。",
+      "highlight": "scraped",
+      "targetForm": "scrape something off",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Nia only just got into university.",
+      "promptZh": "妮亞僅僅成功入讀大學。",
+      "starter": "Nia",
+      "answer": "Nia scraped into university.",
+      "answerZh": "妮亞勉強成功入讀大學。",
+      "highlight": "scraped",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功獲取錄"
+    },
+    {
+      "id": "phrasal-verb-300-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The burnt rice was inside the pot, and Ravi removed it with a metal spoon.",
+      "promptZh": "燒焦的飯在鍋內,拉維用金屬匙羹把它刮出來。",
+      "starter": "Ravi",
+      "answer": "Ravi scraped the burnt rice out of the pot with a metal spoon.",
+      "answerZh": "拉維用金屬匙羹把鍋內燒焦的飯刮出來。",
+      "highlight": "Ravi scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Their pay covers food and rent, but there is almost nothing left.",
+      "promptZh": "他們的薪金只足夠支付食物和租金,幾乎沒有剩餘。",
+      "starter": "They",
+      "answer": "They just scrape by on their pay.",
+      "answerZh": "他們只能靠薪金勉強過活。",
+      "highlight": "They just scrape by on",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The ice was on the outside of the window, so Eva removed it carefully.",
+      "promptZh": "冰在窗戶外面,所以伊娃小心地把它刮走。",
+      "starter": "Eva",
+      "answer": "Eva carefully scraped the ice off the outside of the window.",
+      "answerZh": "伊娃小心地把窗戶外面的冰刮走。",
+      "highlight": "Eva carefully scraped",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Jamal did not wash the bowl first; he removed the last bit of dough from inside it with a spoon.",
+      "promptZh": "賈邁勒沒有立即清洗碗;他先用匙羹把裡面最後一點麵糰刮出來。",
+      "starter": "Jamal",
+      "answer": "Jamal did not wash the bowl first; he scraped the last bit of dough out of it with a spoon.",
+      "answerZh": "賈邁勒沒有立即清洗碗;他先用匙羹把裡面最後一點麵糰刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Only twelve players were chosen, and Sam got the final place by a very small amount.",
+      "promptZh": "只有十二名球員獲選,而森僅以極小差距取得最後一個名額。",
+      "starter": "Only",
+      "answer": "Only twelve players were chosen, and Sam scraped in by a very small amount.",
+      "answerZh": "只有十二名球員獲選,而森僅以極小差距取得最後一個名額。",
+      "highlight": "scraped in",
+      "targetForm": "scrape in",
+      "targetMeaningZh": "僅以很小的差距成功入選"
+    },
+    {
+      "id": "phrasal-verb-300-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After paying the rent, Leila could only just manage until the end of the week.",
+      "promptZh": "付完租金後,莉拉只能勉強維持到週末。",
+      "starter": "After",
+      "answer": "After paying the rent, Leila could just scrape by until the end of the week.",
+      "answerZh": "付完租金後,莉拉只能勉強維持到週末。",
+      "highlight": "scrape by",
+      "targetForm": "scrape by",
+      "targetMeaningZh": "勉強維持生活"
+    },
+    {
+      "id": "phrasal-verb-300-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The school team lost most matches, but one late win allowed it to reach the next round by the smallest possible margin.",
+      "promptZh": "校隊輸掉大部分比賽,但較遲的一場勝仗令它僅以最小差距晉級下一輪。",
+      "starter": "The",
+      "answer": "The school team lost most matches, but one late win allowed it to scrape into the next round.",
+      "answerZh": "校隊輸掉大部分比賽,但較遲的一場勝仗令它勉強晉級下一輪。",
+      "highlight": "scrape into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功晉級"
+    },
+    {
+      "id": "phrasal-verb-300-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The jar looked empty, but Sam used a spoon to remove one last bit of peanut butter from inside it.",
+      "promptZh": "玻璃瓶看來已經空了,但森用匙羹把裡面最後一點花生醬刮出來。",
+      "starter": "The",
+      "answer": "The jar looked empty, but Sam scraped one last bit of peanut butter out of it with a spoon.",
+      "answerZh": "玻璃瓶看來已經空了,但森用匙羹把裡面最後一點花生醬刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從容器內刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The old metal sign was covered with paint, so workers spent the morning removing the paint.",
+      "promptZh": "舊金屬招牌滿是油漆,所以工人花了一個上午把油漆刮走。",
+      "starter": "Workers",
+      "answer": "Workers spent the morning scraping the paint off the old metal sign.",
+      "answerZh": "工人花了一個上午,把舊金屬招牌上的油漆刮掉。",
+      "highlight": "Workers spent the morning scraping the paint off",
+      "targetForm": "scrape something off something",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The family has cut every extra cost and can now only just live on one salary.",
+      "promptZh": "一家人已削減所有額外開支,現在只能靠一份薪金勉強過活。",
+      "starter": "The",
+      "answer": "The family has cut every extra cost and can now just scrape by on one salary.",
+      "answerZh": "一家人已削減所有額外開支,現在只能靠一份薪金勉強過活。",
+      "highlight": "scrape by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Leo was far behind before the last race, but his final result allowed him to enter the top eight by the smallest margin.",
+      "promptZh": "里奧在最後一場比賽前遠遠落後,但最後的成績令他僅以最小差距躋身前八名。",
+      "starter": "Leo",
+      "answer": "Leo was far behind before the last race, but his final result allowed him to scrape into the top eight.",
+      "answerZh": "里奧在最後一場比賽前遠遠落後,但最後的成績令他勉強躋身前八名。",
+      "highlight": "scrape into",
+      "targetForm": "scrape into something",
+      "targetMeaningZh": "僅以很小的差距成功進入某個組別"
+    },
+    {
+      "id": "phrasal-verb-300-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Aisha could see old glue on the desk, so she used a ruler to remove it before class.",
+      "promptZh": "艾莎看見桌上有舊膠水,便在上課前用間尺把它刮掉。",
+      "starter": "Aisha",
+      "answer": "Aisha could see old glue on the desk, so she used a ruler to scrape it off before class.",
+      "answerZh": "艾莎看見桌上有舊膠水,便在上課前用間尺把它刮掉。",
+      "highlight": "scrape",
+      "targetForm": "scrape something off",
+      "targetMeaningZh": "把某物從表面刮走"
+    },
+    {
+      "id": "phrasal-verb-300-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Before cutting the melon, the chef removed every seed from inside it with a spoon.",
+      "promptZh": "廚師切開蜜瓜前,用匙羹把裡面的種子全部刮出來。",
+      "starter": "Before",
+      "answer": "Before cutting the melon, the chef scraped every seed out of it with a spoon.",
+      "answerZh": "廚師切開蜜瓜前,用匙羹把裡面的種子全部刮出來。",
+      "highlight": "scraped",
+      "targetForm": "scrape something out of something",
+      "targetMeaningZh": "把某物從內部刮出來"
+    },
+    {
+      "id": "phrasal-verb-300-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Omar could only just live on what his parents gave him because it had to cover food, travel and his room.",
+      "promptZh": "奧馬只能靠父母給他的錢勉強過活,因為那筆錢還要支付食物、交通和房租。",
+      "starter": "Omar",
+      "answer": "Omar could only scrape by on what his parents gave him because it had to cover food, travel and his room.",
+      "answerZh": "奧馬只能靠父母給他的錢勉強過活,因為那筆錢還要支付食物、交通和房租。",
+      "highlight": "scrape by",
+      "targetForm": "scrape by on something",
+      "targetMeaningZh": "靠有限的金錢勉強過活"
+    },
+    {
+      "id": "phrasal-verb-300-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The candidate had little support, but she won the final seat by only six votes.",
+      "promptZh": "候選人支持度不高,但僅以六票之差取得最後一個議席。",
+      "starter": "The",
+      "answer": "The candidate had little support, but she scraped in by only six votes.",
+      "answerZh": "候選人支持度不高,但僅以六票之差勉強取得最後一個議席。",
+      "highlight": "scraped in",
+      "targetForm": "scrape in",
+      "targetMeaningZh": "僅以很小的差距成功當選"
+    }
+  ]
+}

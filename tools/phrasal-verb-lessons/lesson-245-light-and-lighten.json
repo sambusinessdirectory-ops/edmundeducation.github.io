@@ -1,0 +1,1179 @@
+{
+  "id": "phrasal-verb-245",
+  "order": 245,
+  "slug": "light-and-lighten",
+  "version": "1",
+  "title": "LIGHT AND LIGHTEN 動詞片語",
+  "titleEn": "LIGHT and LIGHTEN",
+  "titleZh": "LIGHT AND LIGHTEN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 233 - LIGHT and LIGHTEN.pdf",
+    "sourceNumber": 233,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LIGHT 和 LIGHTEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LIGHT and LIGHTEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LIGHT AND LIGHTEN",
+      "highlight": "LIGHT AND LIGHTEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The research team has lit upon important new material.",
+      "zh": "研究小組偶然發現了重要的新資料。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She pressed the monitor button, and the screen lit up.",
+      "zh": "她按下顯示器的按鈕,螢幕便亮了起來。",
+      "highlight": "She",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Come on, lighten up! It was only a joke.",
+      "zh": "好了,放鬆一點吧!那只是一個玩笑。",
+      "highlight": "lighten up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "偶然發現、注意到或想到某人或某事物；亮起來;把某處或某物照亮；放鬆一點;別那麼嚴肅",
+    "en": "light on/upon somebody/something; light up / light something up; lighten up",
+    "naturalZh": [
+      "偶然發現、注意到或想到某人或某事物",
+      "亮起來;把某處或某物照亮",
+      "放鬆一點;別那麼嚴肅"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "light on/upon somebody/something",
+      "titleZh": "偶然發現、注意到或想到某人或某事物",
+      "titleEn": "light on/upon somebody/something",
+      "descriptionZh": "偶然發現、注意到或想到某人或某事物",
+      "descriptionEn": "The research team has lit upon important new material.",
+      "examples": [
+        {
+          "en": "The research team has lit upon important new material.",
+          "zh": "研究小組偶然發現了重要的新資料。",
+          "highlight": "The"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "light up / light something up",
+      "titleZh": "亮起來;把某處或某物照亮",
+      "titleEn": "light up / light something up",
+      "descriptionZh": "亮起來;把某處或某物照亮",
+      "descriptionEn": "She pressed the monitor button, and the screen lit up.",
+      "examples": [
+        {
+          "en": "She pressed the monitor button, and the screen lit up.",
+          "zh": "她按下顯示器的按鈕,螢幕便亮了起來。",
+          "highlight": "She"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lighten up",
+      "titleZh": "放鬆一點;別那麼嚴肅",
+      "titleEn": "lighten up",
+      "descriptionZh": "放鬆一點;別那麼嚴肅",
+      "descriptionEn": "Come on, lighten up! It was only a joke.",
+      "examples": [
+        {
+          "en": "Come on, lighten up! It was only a joke.",
+          "zh": "好了,放鬆一點吧!那只是一個玩笑。",
+          "highlight": "lighten up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LIGHT AND LIGHTEN 片語動詞的實際用途",
+    "labelEn": "LIGHT AND LIGHTEN Phrasal Verbs in Use",
+    "summaryZh": "light on 和 light upon 可以表示偶然發現、注意到或想到某事物。；light up 可以描述螢幕、招牌和燈亮起來,也可以表示燈光把房間、道路或天空照亮。；lighten up 適合用來請某人放鬆、減少擔心或享受當下的情況。",
+    "summaryEn": "Light on and light upon help you describe finding, noticing or thinking of something unexpectedly. Light up can describe screens, signs and lamps becoming bright, or lights making a room, road or sky bright. Lighten up is useful when asking someone to relax, worry less or enjoy the situation.",
+    "contextsZh": [
+      "描述意外的發現和構思",
+      "清楚談論燈光和亮度",
+      "令對話不再那麼嚴肅"
+    ],
+    "contextsEn": [
+      "Describe unexpected discoveries and ideas",
+      "Talk clearly about light and brightness",
+      "Make conversations feel less serious"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LIGHT 或 LIGHTEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LIGHT or LIGHTEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "light on/upon somebody/something",
+    "fixedHighlight": "light on/upon somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 LIGHT 或 LIGHTEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LIGHT or LIGHTEN expression that gives the same meaning.",
+    "correct": "The",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；light on 和 light upon 在本練習中意思相同。；light up 可以表示某物亮起來,也可以表示某物把另一處照亮:螢幕亮了起來。燈光照亮了房間。",
+    "variableEn": "Keep the same people, things, time and meaning. Light on and light upon have the same meaning in this exercise. Light up can describe something becoming bright or something making another place bright: The screen lit up. The lamps lit up the room.",
+    "variableItemsZh": [
+      "light on/upon somebody/something",
+      "light up / light something up",
+      "lighten up"
+    ],
+    "variableItemsEn": [
+      "light on/upon somebody/something",
+      "light up / light something up",
+      "lighten up"
+    ],
+    "forms": [
+      {
+        "formZh": "偶然發現、注意到或想到某人或某事物",
+        "formEn": "light on/upon somebody/something",
+        "exampleZh": "研究小組偶然發現了重要的新資料。",
+        "exampleEn": "The research team has lit upon important new material.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "亮起來;把某處或某物照亮",
+        "formEn": "light up / light something up",
+        "exampleZh": "她按下顯示器的按鈕,螢幕便亮了起來。",
+        "exampleEn": "She pressed the monitor button, and the screen lit up.",
+        "highlight": "She"
+      },
+      {
+        "formZh": "放鬆一點;別那麼嚴肅",
+        "formEn": "lighten up",
+        "exampleZh": "好了,放鬆一點吧!那只是一個玩笑。",
+        "exampleEn": "Come on, lighten up! It was only a joke.",
+        "highlight": "lighten up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "偶然發現、注意到或想到某人或某事物",
+      "titleEn": "light on/upon somebody/something",
+      "formula": "light on/upon somebody/something",
+      "highlight": "light on/upon somebody/something",
+      "descriptionZh": "偶然發現、注意到或想到某人或某事物",
+      "descriptionEn": "The research team has lit upon important new material.",
+      "examples": [
+        {
+          "en": "The research team has lit upon important new material.",
+          "zh": "研究小組偶然發現了重要的新資料。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "亮起來;把某處或某物照亮",
+      "titleEn": "light up / light something up",
+      "formula": "light up / light something up",
+      "highlight": "light up / light something up",
+      "descriptionZh": "亮起來;把某處或某物照亮",
+      "descriptionEn": "She pressed the monitor button, and the screen lit up.",
+      "examples": [
+        {
+          "en": "She pressed the monitor button, and the screen lit up.",
+          "zh": "她按下顯示器的按鈕,螢幕便亮了起來。",
+          "highlight": "She"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "放鬆一點;別那麼嚴肅",
+      "titleEn": "lighten up",
+      "formula": "lighten up",
+      "highlight": "lighten up",
+      "descriptionZh": "放鬆一點;別那麼嚴肅",
+      "descriptionEn": "Come on, lighten up! It was only a joke.",
+      "examples": [
+        {
+          "en": "Come on, lighten up! It was only a joke.",
+          "zh": "好了,放鬆一點吧!那只是一個玩笑。",
+          "highlight": "lighten up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述意外的發現和構思",
+      "titleEn": "Describe unexpected discoveries and ideas",
+      "zh": "light on 和 light upon 可以表示偶然發現、注意到或想到某事物。",
+      "en": "Light on and light upon help you describe finding, noticing or thinking of something unexpectedly."
+    },
+    {
+      "titleZh": "清楚談論燈光和亮度",
+      "titleEn": "Talk clearly about light and brightness",
+      "zh": "light up 可以描述螢幕、招牌和燈亮起來,也可以表示燈光把房間、道路或天空照亮。",
+      "en": "Light up can describe screens, signs and lamps becoming bright, or lights making a room, road or sky bright."
+    },
+    {
+      "titleZh": "令對話不再那麼嚴肅",
+      "titleEn": "Make conversations feel less serious",
+      "zh": "lighten up 適合用來請某人放鬆、減少擔心或享受當下的情況。",
+      "en": "Lighten up is useful when asking someone to relax, worry less or enjoy the situation."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述意外的發現和構思",
+      "清楚談論燈光和亮度",
+      "令對話不再那麼嚴肅"
+    ],
+    "contextsEn": [
+      "Describe unexpected discoveries and ideas",
+      "Talk clearly about light and brightness",
+      "Make conversations feel less serious"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述意外的發現和構思",
+        "titleEn": "Describe unexpected discoveries and ideas",
+        "zh": "light on 和 light upon 可以表示偶然發現、注意到或想到某事物。",
+        "en": "Light on and light upon help you describe finding, noticing or thinking of something unexpectedly.",
+        "examples": [
+          {
+            "en": "The research team has lit upon important new material.",
+            "zh": "研究小組偶然發現了重要的新資料。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論燈光和亮度",
+        "titleEn": "Talk clearly about light and brightness",
+        "zh": "light up 可以描述螢幕、招牌和燈亮起來,也可以表示燈光把房間、道路或天空照亮。",
+        "en": "Light up can describe screens, signs and lamps becoming bright, or lights making a room, road or sky bright.",
+        "examples": [
+          {
+            "en": "She pressed the monitor button, and the screen lit up.",
+            "zh": "她按下顯示器的按鈕,螢幕便亮了起來。",
+            "highlight": "She"
+          }
+        ]
+      },
+      {
+        "titleZh": "令對話不再那麼嚴肅",
+        "titleEn": "Make conversations feel less serious",
+        "zh": "lighten up 適合用來請某人放鬆、減少擔心或享受當下的情況。",
+        "en": "Lighten up is useful when asking someone to relax, worry less or enjoy the situation.",
+        "examples": [
+          {
+            "en": "Come on, lighten up! It was only a joke.",
+            "zh": "好了,放鬆一點吧!那只是一個玩笑。",
+            "highlight": "lighten up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LIGHT 或 LIGHTEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LIGHT or LIGHTEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LIGHT 或 LIGHTEN 片語動詞。",
+      "en": "Read the whole sentence and choose the LIGHT or LIGHTEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "light on 和 light upon 在本練習中意思相同。",
+      "titleEn": "Light on and light upon have the same meaning in this exercise.",
+      "zh": "light on 和 light upon 在本練習中意思相同。",
+      "en": "Light on and light upon have the same meaning in this exercise."
+    },
+    {
+      "titleZh": "light up 可以表示某物亮起來,也可以表示某物把另一處照亮:螢幕亮了起來。燈光照亮了房間。",
+      "titleEn": "Light up can describe something becoming bright or something making another place bright: The screen lit up.",
+      "zh": "light up 可以表示某物亮起來,也可以表示某物把另一處照亮:螢幕亮了起來。燈光照亮了房間。",
+      "en": "Light up can describe something becoming bright or something making another place bright: The screen lit up. The lamps lit up the room."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LIGHT AND LIGHTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LIGHT AND LIGHTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LIGHT AND LIGHTEN 動詞片語句子改寫練習",
+    "titleEn": "LIGHT AND LIGHTEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LIGHT AND LIGHTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LIGHT AND LIGHTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-245-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The screen became bright when I pressed the button.",
+      "promptZh": "我按下按鈕時,螢幕便亮了起來。",
+      "starter": "The",
+      "answer": "The screen lit up when I pressed the button.",
+      "answerZh": "我按下按鈕時,螢幕便亮了起來。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "While checking old files, the team unexpectedly found a useful report.",
+      "promptZh": "小組檢查舊檔案時,意外發現了一份有用的報告。",
+      "starter": "While",
+      "answer": "While checking old files, the team lit upon a useful report.",
+      "answerZh": "小組檢查舊檔案時,意外發現了一份有用的報告。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Stop being so serious and enjoy the game.",
+      "promptZh": "別那麼嚴肅,好好享受這場遊戲吧。",
+      "starter": "Lighten",
+      "answer": "Lighten up and enjoy the game.",
+      "answerZh": "別那麼嚴肅,好好享受這場遊戲吧。",
+      "highlight": "Lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The fireworks made the night sky bright.",
+      "promptZh": "煙花照亮了夜空。",
+      "starter": "The",
+      "answer": "The fireworks lit up the night sky.",
+      "answerZh": "煙花照亮了夜空。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We unexpectedly thought of a simple answer during lunch.",
+      "promptZh": "我們在午膳時意外想到了一個簡單的答案。",
+      "starter": "We",
+      "answer": "We lit on a simple answer during lunch.",
+      "answerZh": "我們在午膳時意外想到了一個簡單的答案。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "You should relax a little; it was only a joke.",
+      "promptZh": "你應該放鬆一點;那只是一個玩笑。",
+      "starter": "You",
+      "answer": "You should lighten up a little; it was only a joke.",
+      "answerZh": "你應該放鬆一點;那只是一個玩笑。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The small lamps made the garden bright.",
+      "promptZh": "小燈照亮了花園。",
+      "starter": "The",
+      "answer": "The small lamps lit up the garden.",
+      "answerZh": "小燈照亮了花園。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The search party unexpectedly found the missing dog near the river.",
+      "promptZh": "搜索隊在河流附近意外找到了失蹤的狗。",
+      "starter": "The",
+      "answer": "The search party lit upon the missing dog near the river.",
+      "answerZh": "搜索隊在河流附近意外找到了失蹤的狗。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ben became less serious after everyone started laughing.",
+      "promptZh": "大家開始大笑後,賓便不再那麼嚴肅。",
+      "starter": "Ben",
+      "answer": "Ben lightened up after everyone started laughing.",
+      "answerZh": "大家開始大笑後,賓便不再那麼嚴肅。",
+      "highlight": "lightened up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "She unexpectedly noticed a red book on the shelf.",
+      "promptZh": "她意外注意到書架上有一本紅色的書。",
+      "starter": "She",
+      "answer": "She lit on a red book on the shelf.",
+      "answerZh": "她意外注意到書架上有一本紅色的書。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The scientists have unexpectedly found a new material in the old samples.",
+      "promptZh": "科學家在舊樣本中意外發現了一種新材料。",
+      "starter": "The",
+      "answer": "The scientists have lit upon a new material in the old samples.",
+      "answerZh": "科學家在舊樣本中意外發現了一種新材料。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The sign is becoming bright as it gets dark.",
+      "promptZh": "天色變暗時,招牌正逐漸亮起來。",
+      "starter": "The",
+      "answer": "The sign is lighting up as it gets dark.",
+      "answerZh": "天色變暗時,招牌正逐漸亮起來。",
+      "highlight": "lighting up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why can’t you relax and enjoy the party?",
+      "promptZh": "你為甚麼不能放鬆下來,好好享受派對?",
+      "starter": "Why",
+      "answer": "Why can’t you lighten up and enjoy the party?",
+      "answerZh": "你為甚麼不能放鬆下來,好好享受派對?",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "When the door opened, light from the hall made the dark room bright.",
+      "promptZh": "門打開時,走廊的燈光照亮了漆黑的房間。",
+      "starter": "When",
+      "answer": "When the door opened, light from the hall lit up the dark room.",
+      "answerZh": "門打開時,走廊的燈光照亮了漆黑的房間。",
+      "highlight": "light from the hall lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We may unexpectedly find a better idea if we keep searching.",
+      "promptZh": "如果我們繼續尋找,可能會意外找到一個更好的構思。",
+      "starter": "We",
+      "answer": "We may light on a better idea if we keep searching.",
+      "answerZh": "如果我們繼續尋找,可能會意外找到一個更好的構思。",
+      "highlight": "light on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Has the shop sign become bright yet?",
+      "promptZh": "店舖的招牌亮起來了嗎?",
+      "starter": "Has",
+      "answer": "Has the shop sign lit up yet?",
+      "answerZh": "店舖的招牌亮起來了嗎?",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach has become less serious since the team won.",
+      "promptZh": "球隊勝出後,教練已變得沒有那麼嚴肅。",
+      "starter": "The",
+      "answer": "The coach has lightened up since the team won.",
+      "answerZh": "球隊勝出後,教練已變得沒有那麼嚴肅。",
+      "highlight": "lightened up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "These candles will make the table bright tonight.",
+      "promptZh": "這些蠟燭今晚會照亮桌子。",
+      "starter": "These",
+      "answer": "These candles will light up the table tonight.",
+      "answerZh": "這些蠟燭今晚會照亮桌子。",
+      "highlight": "light up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The editor finally thought of the perfect title by chance.",
+      "promptZh": "編輯終於偶然想到了最合適的標題。",
+      "starter": "The",
+      "answer": "The editor finally lit upon the perfect title.",
+      "answerZh": "編輯終於偶然想到了最合適的標題。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I wish Dad would relax a little about the small mistake.",
+      "promptZh": "我希望爸爸不要對這個小錯誤那麼嚴肅。",
+      "starter": "I",
+      "answer": "I wish Dad would lighten up a little about the small mistake.",
+      "answerZh": "我希望爸爸不要對這個小錯誤那麼嚴肅。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "You look worried. Try to become more relaxed before the interview.",
+      "promptZh": "你看來很擔心。面試前嘗試放鬆一點吧。",
+      "starter": "You",
+      "answer": "You look worried. Try to lighten up before the interview.",
+      "answerZh": "你看來很擔心。面試前嘗試放鬆一點吧。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They searched for hours. In the final box, they unexpectedly found the missing letter.",
+      "promptZh": "他們找了幾個小時,最後在最後一個箱子裏意外找到了遺失的信件。",
+      "starter": "They",
+      "answer": "They searched for hours. In the final box, they lit upon the missing letter.",
+      "answerZh": "他們找了幾個小時,最後在最後一個箱子裏意外找到了遺失的信件。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The room was made bright by hundreds of tiny lights.",
+      "promptZh": "數百盞小燈照亮了房間。",
+      "starter": "The",
+      "answer": "The room was lit up by hundreds of tiny lights.",
+      "answerZh": "數百盞小燈照亮了房間。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The manager needs to stop being so serious when the team is having fun.",
+      "promptZh": "團隊正在玩樂時,經理需要別再那麼嚴肅。",
+      "starter": "The",
+      "answer": "The manager needs to lighten up when the team is having fun.",
+      "answerZh": "團隊正在玩樂時,經理需要別再那麼嚴肅。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Which idea did the group unexpectedly think of for the final poster?",
+      "promptZh": "小組意外想到了哪個構思來製作最後的海報?",
+      "starter": "Which",
+      "answer": "Which idea did the group light upon for the final poster?",
+      "answerZh": "小組意外想到了哪個構思來製作最後的海報?",
+      "highlight": "light upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We pressed the button, and the tree lights made the whole window bright.",
+      "promptZh": "我們按下按鈕,樹上的燈便照亮了整個窗戶。",
+      "starter": "We",
+      "answer": "We pressed the button, and the tree lights lit up the whole window.",
+      "answerZh": "我們按下按鈕,樹上的燈便照亮了整個窗戶。",
+      "highlight": "lights lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Ella was too serious at first, but she became more relaxed later.",
+      "promptZh": "埃拉起初太過嚴肅,但後來便放鬆下來。",
+      "starter": "Ella",
+      "answer": "Ella was too serious at first, but she lightened up later.",
+      "answerZh": "埃拉起初太過嚴肅,但後來便放鬆下來。",
+      "highlight": "lightened up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Deep in the woods, the hikers unexpectedly found a small cabin.",
+      "promptZh": "遠足者在樹林深處意外發現了一間小屋。",
+      "starter": "Deep",
+      "answer": "Deep in the woods, the hikers lit upon a small cabin.",
+      "answerZh": "遠足者在樹林深處意外發現了一間小屋。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The moon was making the path beside the lake easy to see.",
+      "promptZh": "月光正照亮湖邊的小路,令人容易看清楚。",
+      "starter": "The",
+      "answer": "The moon was lighting up the path beside the lake.",
+      "answerZh": "月光正照亮湖邊的小路。",
+      "highlight": "lighting up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Even after the teacher explained the joke, Leo refused to relax.",
+      "promptZh": "即使老師解釋了那個笑話,里奧仍拒絕放鬆一點。",
+      "starter": "Even",
+      "answer": "Even after the teacher explained the joke, Leo refused to lighten up.",
+      "answerZh": "即使老師解釋了那個笑話,里奧仍拒絕放鬆一點。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The team had tried many ideas, but they finally found one unexpectedly that everyone liked.",
+      "promptZh": "團隊嘗試了許多構思,最後意外找到了一個大家都喜歡的構思。",
+      "starter": "The",
+      "answer": "The team had tried many ideas, but they finally lit on one that everyone liked.",
+      "answerZh": "團隊嘗試了許多構思,最後意外找到了一個大家都喜歡的構思。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The hall stayed dark until the dancers’ lanterns made it bright.",
+      "promptZh": "禮堂一直漆黑,直至舞蹈員的燈籠把它照亮。",
+      "starter": "The",
+      "answer": "The hall stayed dark until the dancers’ lanterns lit it up.",
+      "answerZh": "禮堂一直漆黑,直至舞蹈員的燈籠把它照亮。",
+      "highlight": "lit",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Ava said that it was only a friendly match and asked her brother to be less serious.",
+      "promptZh": "艾娃說這只是一場友誼賽,並請弟弟別那麼嚴肅。",
+      "starter": "Ava",
+      "answer": "Ava said that it was only a friendly match and asked her brother to lighten up.",
+      "answerZh": "艾娃說這只是一場友誼賽,並請弟弟別那麼嚴肅。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "While checking a box of old photos, we unexpectedly found a picture of the school in 1950.",
+      "promptZh": "我們檢查一箱舊照片時,意外發現了一張學校在1950年的照片。",
+      "starter": "While",
+      "answer": "While checking a box of old photos, we lit upon a picture of the school in 1950.",
+      "answerZh": "我們檢查一箱舊照片時,意外發現了一張學校在1950年的照片。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A flash of lightning made the whole street bright for a second.",
+      "promptZh": "一道閃電把整條街照亮了一秒。",
+      "starter": "A",
+      "answer": "A flash of lightning lit up the whole street for a second.",
+      "answerZh": "一道閃電把整條街照亮了一秒。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The room became much happier when the host stopped being so serious.",
+      "promptZh": "主持人不再那麼嚴肅後,房內的氣氛便愉快了許多。",
+      "starter": "The",
+      "answer": "The room became much happier when the host lightened up.",
+      "answerZh": "主持人不再那麼嚴肅後,房內的氣氛便愉快了許多。",
+      "highlight": "lightened up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After meeting ten actors, the group unexpectedly found Daniel, who was perfect for the main role.",
+      "promptZh": "小組見過十名演員後,意外找到非常適合擔任主角的丹尼爾。",
+      "starter": "After",
+      "answer": "After meeting ten actors, the group lit on Daniel, who was perfect for the main role.",
+      "answerZh": "小組見過十名演員後,意外找到非常適合擔任主角的丹尼爾。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did the bridge suddenly become bright at eight o’clock?",
+      "promptZh": "大橋為甚麼在八時突然亮起來?",
+      "starter": "Why",
+      "answer": "Why did the bridge suddenly light up at eight o’clock?",
+      "answerZh": "大橋為甚麼在八時突然亮起來?",
+      "highlight": "light up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She may relax when she realises that nobody is angry.",
+      "promptZh": "當她發現沒有人生氣時,可能會放鬆下來。",
+      "starter": "She",
+      "answer": "She may lighten up when she realises that nobody is angry.",
+      "answerZh": "當她發現沒有人生氣時,可能會放鬆下來。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The writer was searching for a simple ending when she unexpectedly thought of one.",
+      "promptZh": "作家正在尋找一個簡單的結局時,意外想到了一個。",
+      "starter": "The",
+      "answer": "The writer was searching for a simple ending when she lit upon one.",
+      "answerZh": "作家正在尋找一個簡單的結局時,意外想到了一個。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As the concert began, coloured beams moved across the walls and made the entire hall bright.",
+      "promptZh": "音樂會開始時,彩色光束在牆上移動,照亮了整個禮堂。",
+      "starter": "As",
+      "answer": "As the concert began, coloured beams moved across the walls and lit up the entire hall.",
+      "answerZh": "音樂會開始時,彩色光束在牆上移動,照亮了整個禮堂。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "You do not need to treat every small problem like a disaster; try to relax a little.",
+      "promptZh": "你不必把每個小問題都當成災難;嘗試放鬆一點吧。",
+      "starter": "You",
+      "answer": "You do not need to treat every small problem like a disaster; try to lighten up.",
+      "answerZh": "你不必把每個小問題都當成災難;嘗試放鬆一點吧。",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The answer was not in the new books; the students unexpectedly found it in a note written years ago.",
+      "promptZh": "答案並不在新書裏;學生意外在一張多年前寫下的便條中找到它。",
+      "starter": "The",
+      "answer": "The answer was not in the new books; the students lit on it in a note written years ago.",
+      "answerZh": "答案並不在新書裏;學生意外在一張多年前寫下的便條中找到它。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The village had no street lamps, but hundreds of festival lanterns made the main road bright.",
+      "promptZh": "村內沒有街燈,但數百個節日燈籠照亮了主要道路。",
+      "starter": "The",
+      "answer": "The village had no street lamps, but hundreds of festival lanterns lit up the main road.",
+      "answerZh": "村內沒有街燈,但數百個節日燈籠照亮了主要道路。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "At first, the new captain was very strict, but after spending a few weeks with the team, he became less serious.",
+      "promptZh": "新隊長起初非常嚴格,但與團隊相處幾星期後,他便不再那麼嚴肅。",
+      "starter": "At",
+      "answer": "At first, the new captain was very strict, but after spending a few weeks with the team, he lightened up.",
+      "answerZh": "新隊長起初非常嚴格,但與團隊相處幾星期後,他便不再那麼嚴肅。",
+      "highlight": "lightened up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We were still searching for a name when someone unexpectedly thought of “Blue Moon”.",
+      "promptZh": "我們仍在尋找名字時,有人意外想到了「Blue Moon」。",
+      "starter": "We",
+      "answer": "We were still searching for a name when someone lit upon “Blue Moon”.",
+      "answerZh": "我們仍在尋找名字時,有人意外想到了「Blue Moon」。",
+      "highlight": "lit upon",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The stage remained dark until one lamp became bright in the centre.",
+      "promptZh": "舞台一直漆黑,直至中央的一盞燈亮起來。",
+      "starter": "The",
+      "answer": "The stage remained dark until one lamp lit up in the centre.",
+      "answerZh": "舞台一直漆黑,直至中央的一盞燈亮起來。",
+      "highlight": "lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    },
+    {
+      "id": "phrasal-verb-245-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Why don’t we all relax and enjoy the last day of the trip?",
+      "promptZh": "我們何不一起放鬆,好好享受旅程的最後一天?",
+      "starter": "Why",
+      "answer": "Why don’t we all lighten up and enjoy the last day of the trip?",
+      "answerZh": "我們何不一起放鬆,好好享受旅程的最後一天?",
+      "highlight": "lighten up",
+      "targetForm": "lighten up",
+      "targetMeaningZh": "放鬆一點;別那麼嚴肅"
+    },
+    {
+      "id": "phrasal-verb-245-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After several failed searches, the volunteers unexpectedly found an older man resting at an empty bus stop.",
+      "promptZh": "幾次搜索失敗後,義工意外發現一名年長男子正在空無一人的巴士站休息。",
+      "starter": "After",
+      "answer": "After several failed searches, the volunteers lit on an older man resting at an empty bus stop.",
+      "answerZh": "幾次搜索失敗後,義工意外發現一名年長男子正在空無一人的巴士站休息。",
+      "highlight": "lit on",
+      "targetForm": "light on/upon somebody/something",
+      "targetMeaningZh": "偶然發現、注意到或想到某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-245-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The lights inside the model house became bright one by one, making the windows easy to see.",
+      "promptZh": "模型屋內的燈逐一亮起來,令人可以清楚看到窗戶。",
+      "starter": "The",
+      "answer": "The lights inside the model house lit up one by one, making the windows easy to see.",
+      "answerZh": "模型屋內的燈逐一亮起來,令人可以清楚看到窗戶。",
+      "highlight": "lights inside the model house lit up",
+      "targetForm": "light up / light something up",
+      "targetMeaningZh": "亮起來;把某處或某物照亮"
+    }
+  ]
+}

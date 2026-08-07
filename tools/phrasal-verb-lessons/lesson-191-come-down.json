@@ -1,0 +1,1451 @@
+{
+  "id": "phrasal-verb-191",
+  "order": 191,
+  "slug": "come-down",
+  "version": "1",
+  "title": "COME DOWN 動詞片語",
+  "titleEn": "Come Down",
+  "titleZh": "COME DOWN 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 190 - COME DOWN.pdf",
+    "sourceNumber": 190,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME DOWN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME DOWN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME DOWN",
+      "highlight": "COME DOWN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "When are you coming down to see us?",
+      "zh": "你甚麼時候會來探望我們?",
+      "highlight": "coming down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The school came down hard on students who cheated.",
+      "zh": "學校嚴厲處分作弊的學生。",
+      "highlight": "came down hard on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "This watch came down to me from my grandfather.",
+      "zh": "這隻手錶是祖父傳給我的。",
+      "highlight": "came down to me from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "由較遠的地方來到說話者所在的地方,通常是來探望某人；嚴厲批評或懲罰某人；由上一代或以前的人傳給某人；歸根結底在於某個重要因素;取決於某事；開始患上不太嚴重的疾病；從較高位置下來,或沿着樓梯、山路等向下移動",
+    "en": "come down; come down on somebody; come down to somebody from somebody/something; come down to something; come down with something; come down; come down something",
+    "naturalZh": [
+      "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+      "嚴厲批評或懲罰某人",
+      "由上一代或以前的人傳給某人",
+      "歸根結底在於某個重要因素;取決於某事",
+      "開始患上不太嚴重的疾病",
+      "從較高位置下來,或沿着樓梯、山路等向下移動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come down",
+      "titleZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+      "titleEn": "come down",
+      "descriptionZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+      "descriptionEn": "When are you coming down to see us?",
+      "examples": [
+        {
+          "en": "When are you coming down to see us?",
+          "zh": "你甚麼時候會來探望我們?",
+          "highlight": "coming down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come down on somebody",
+      "titleZh": "嚴厲批評或懲罰某人",
+      "titleEn": "come down on somebody",
+      "descriptionZh": "嚴厲批評或懲罰某人",
+      "descriptionEn": "The school came down hard on students who cheated.",
+      "examples": [
+        {
+          "en": "The school came down hard on students who cheated.",
+          "zh": "學校嚴厲處分作弊的學生。",
+          "highlight": "came down hard on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come down to somebody from somebody/something",
+      "titleZh": "由上一代或以前的人傳給某人",
+      "titleEn": "come down to somebody from somebody/something",
+      "descriptionZh": "由上一代或以前的人傳給某人",
+      "descriptionEn": "This watch came down to me from my grandfather.",
+      "examples": [
+        {
+          "en": "This watch came down to me from my grandfather.",
+          "zh": "這隻手錶是祖父傳給我的。",
+          "highlight": "came down to me from"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come down to something",
+      "titleZh": "歸根結底在於某個重要因素;取決於某事",
+      "titleEn": "come down to something",
+      "descriptionZh": "歸根結底在於某個重要因素;取決於某事",
+      "descriptionEn": "The choice comes down to price.",
+      "examples": [
+        {
+          "en": "The choice comes down to price.",
+          "zh": "這個選擇歸根結底取決於價錢。",
+          "highlight": "comes down to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come down with something",
+      "titleZh": "開始患上不太嚴重的疾病",
+      "titleEn": "come down with something",
+      "descriptionZh": "開始患上不太嚴重的疾病",
+      "descriptionEn": "I think I am coming down with a cold.",
+      "examples": [
+        {
+          "en": "I think I am coming down with a cold.",
+          "zh": "我想我開始感冒了。",
+          "highlight": "coming down with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come down; come down something",
+      "titleZh": "從較高位置下來,或沿着樓梯、山路等向下移動",
+      "titleEn": "come down; come down something",
+      "descriptionZh": "從較高位置下來,或沿着樓梯、山路等向下移動",
+      "descriptionEn": "Please come down from that wall.",
+      "examples": [
+        {
+          "en": "Please come down from that wall.",
+          "zh": "請從那道牆上下來。",
+          "highlight": "come down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME DOWN 片語動詞的實際用途",
+    "labelEn": "COME DOWN Phrasal Verbs in Use",
+    "summaryZh": "come down 可以表示前來探望某人,也可以表示從較高位置移到較低位置。；come down to 可以指出事情歸根結底取決於哪一個關鍵因素。；come down with 可用來表示某人開始患上感冒、流感或其他輕微疾病。；come down on 可以描述嚴厲批評或懲罰;come down to somebody from somebody 則可以表示某事物由上一代傳給某人。",
+    "summaryEn": "Come down can describe travelling to see someone or moving from a higher place to a lower one. Come down to helps show the one point that matters most. Come down with is useful when someone begins to have a cold, flu or another mild illness. Come down on describes severe criticism or punishment, while come down to somebody from somebody shows that something was passed from an earlier generation.",
+    "contextsZh": [
+      "使用 COME DOWN 談論探訪和移動",
+      "說明真正決定事情的因素",
+      "自然談論開始生病",
+      "描述嚴厲批評和家族傳承"
+    ],
+    "contextsEn": [
+      "Use COME DOWN to talk about visits and movement",
+      "Explain what really decides a situation",
+      "Talk naturally about becoming ill",
+      "Describe strong criticism and things passed through a family"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME DOWN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME DOWN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come down",
+    "fixedHighlight": "come down",
+    "fixedZh": "閱讀整句,選出意思相同的 COME DOWN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME DOWN expression that gives the same meaning.",
+    "correct": "coming down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當批評或懲罰十分嚴厲時,come down on somebody 常與 hard 或 heavily 一起使用,例如 comedown hard on him、come down heavily on the shops。；請仔細分辨兩種形式:come down to somebody from somebody 表示某事物傳給某人;comedown to something 表示某個因素是最關鍵的決定因素。",
+    "variableEn": "Keep the same people, things, time and meaning. Come down on somebody often appears with hard or heavily when the criticism or punishment is severe: come down hard on him come down heavily on the shops Read these two forms carefully: come down to somebody from somebody Something is passed to a person. come down to something One point is the main deciding factor.",
+    "variableItemsZh": [
+      "come down",
+      "come down on somebody",
+      "come down to somebody from somebody/something",
+      "come down to something",
+      "come down with something",
+      "come down; come down something"
+    ],
+    "variableItemsEn": [
+      "come down",
+      "come down on somebody",
+      "come down to somebody from somebody/something",
+      "come down to something",
+      "come down with something",
+      "come down; come down something"
+    ],
+    "forms": [
+      {
+        "formZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+        "formEn": "come down",
+        "exampleZh": "你甚麼時候會來探望我們?",
+        "exampleEn": "When are you coming down to see us?",
+        "highlight": "coming down"
+      },
+      {
+        "formZh": "嚴厲批評或懲罰某人",
+        "formEn": "come down on somebody",
+        "exampleZh": "學校嚴厲處分作弊的學生。",
+        "exampleEn": "The school came down hard on students who cheated.",
+        "highlight": "came down hard on"
+      },
+      {
+        "formZh": "由上一代或以前的人傳給某人",
+        "formEn": "come down to somebody from somebody/something",
+        "exampleZh": "這隻手錶是祖父傳給我的。",
+        "exampleEn": "This watch came down to me from my grandfather.",
+        "highlight": "came down to me from"
+      },
+      {
+        "formZh": "歸根結底在於某個重要因素;取決於某事",
+        "formEn": "come down to something",
+        "exampleZh": "這個選擇歸根結底取決於價錢。",
+        "exampleEn": "The choice comes down to price.",
+        "highlight": "comes down to"
+      },
+      {
+        "formZh": "開始患上不太嚴重的疾病",
+        "formEn": "come down with something",
+        "exampleZh": "我想我開始感冒了。",
+        "exampleEn": "I think I am coming down with a cold.",
+        "highlight": "coming down with"
+      },
+      {
+        "formZh": "從較高位置下來,或沿着樓梯、山路等向下移動",
+        "formEn": "come down; come down something",
+        "exampleZh": "請從那道牆上下來。",
+        "exampleEn": "Please come down from that wall.",
+        "highlight": "come down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+      "titleEn": "come down",
+      "formula": "come down",
+      "highlight": "come down",
+      "descriptionZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人",
+      "descriptionEn": "When are you coming down to see us?",
+      "examples": [
+        {
+          "en": "When are you coming down to see us?",
+          "zh": "你甚麼時候會來探望我們?",
+          "highlight": "coming down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "嚴厲批評或懲罰某人",
+      "titleEn": "come down on somebody",
+      "formula": "come down on somebody",
+      "highlight": "come down on somebody",
+      "descriptionZh": "嚴厲批評或懲罰某人",
+      "descriptionEn": "The school came down hard on students who cheated.",
+      "examples": [
+        {
+          "en": "The school came down hard on students who cheated.",
+          "zh": "學校嚴厲處分作弊的學生。",
+          "highlight": "came down hard on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "由上一代或以前的人傳給某人",
+      "titleEn": "come down to somebody from somebody/something",
+      "formula": "come down to somebody from somebody/something",
+      "highlight": "come down to somebody from somebody/something",
+      "descriptionZh": "由上一代或以前的人傳給某人",
+      "descriptionEn": "This watch came down to me from my grandfather.",
+      "examples": [
+        {
+          "en": "This watch came down to me from my grandfather.",
+          "zh": "這隻手錶是祖父傳給我的。",
+          "highlight": "came down to me from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "歸根結底在於某個重要因素;取決於某事",
+      "titleEn": "come down to something",
+      "formula": "come down to something",
+      "highlight": "come down to something",
+      "descriptionZh": "歸根結底在於某個重要因素;取決於某事",
+      "descriptionEn": "The choice comes down to price.",
+      "examples": [
+        {
+          "en": "The choice comes down to price.",
+          "zh": "這個選擇歸根結底取決於價錢。",
+          "highlight": "comes down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "開始患上不太嚴重的疾病",
+      "titleEn": "come down with something",
+      "formula": "come down with something",
+      "highlight": "come down with something",
+      "descriptionZh": "開始患上不太嚴重的疾病",
+      "descriptionEn": "I think I am coming down with a cold.",
+      "examples": [
+        {
+          "en": "I think I am coming down with a cold.",
+          "zh": "我想我開始感冒了。",
+          "highlight": "coming down with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "從較高位置下來,或沿着樓梯、山路等向下移動",
+      "titleEn": "come down; come down something",
+      "formula": "come down; come down something",
+      "highlight": "come down; come down something",
+      "descriptionZh": "從較高位置下來,或沿着樓梯、山路等向下移動",
+      "descriptionEn": "Please come down from that wall.",
+      "examples": [
+        {
+          "en": "Please come down from that wall.",
+          "zh": "請從那道牆上下來。",
+          "highlight": "come down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 COME DOWN 談論探訪和移動",
+      "titleEn": "Use COME DOWN to talk about visits and movement",
+      "zh": "come down 可以表示前來探望某人,也可以表示從較高位置移到較低位置。",
+      "en": "Come down can describe travelling to see someone or moving from a higher place to a lower one."
+    },
+    {
+      "titleZh": "說明真正決定事情的因素",
+      "titleEn": "Explain what really decides a situation",
+      "zh": "come down to 可以指出事情歸根結底取決於哪一個關鍵因素。",
+      "en": "Come down to helps show the one point that matters most."
+    },
+    {
+      "titleZh": "自然談論開始生病",
+      "titleEn": "Talk naturally about becoming ill",
+      "zh": "come down with 可用來表示某人開始患上感冒、流感或其他輕微疾病。",
+      "en": "Come down with is useful when someone begins to have a cold, flu or another mild illness."
+    },
+    {
+      "titleZh": "描述嚴厲批評和家族傳承",
+      "titleEn": "Describe strong criticism and things passed through a family",
+      "zh": "come down on 可以描述嚴厲批評或懲罰;come down to somebody from somebody 則可以表示某事物由上一代傳給某人。",
+      "en": "Come down on describes severe criticism or punishment, while come down to somebody from somebody shows that something was passed from an earlier generation."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 COME DOWN 談論探訪和移動",
+      "說明真正決定事情的因素",
+      "自然談論開始生病",
+      "描述嚴厲批評和家族傳承"
+    ],
+    "contextsEn": [
+      "Use COME DOWN to talk about visits and movement",
+      "Explain what really decides a situation",
+      "Talk naturally about becoming ill",
+      "Describe strong criticism and things passed through a family"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 COME DOWN 談論探訪和移動",
+        "titleEn": "Use COME DOWN to talk about visits and movement",
+        "zh": "come down 可以表示前來探望某人,也可以表示從較高位置移到較低位置。",
+        "en": "Come down can describe travelling to see someone or moving from a higher place to a lower one.",
+        "examples": [
+          {
+            "en": "When are you coming down to see us?",
+            "zh": "你甚麼時候會來探望我們?",
+            "highlight": "coming down"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明真正決定事情的因素",
+        "titleEn": "Explain what really decides a situation",
+        "zh": "come down to 可以指出事情歸根結底取決於哪一個關鍵因素。",
+        "en": "Come down to helps show the one point that matters most.",
+        "examples": [
+          {
+            "en": "The school came down hard on students who cheated.",
+            "zh": "學校嚴厲處分作弊的學生。",
+            "highlight": "came down hard on"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論開始生病",
+        "titleEn": "Talk naturally about becoming ill",
+        "zh": "come down with 可用來表示某人開始患上感冒、流感或其他輕微疾病。",
+        "en": "Come down with is useful when someone begins to have a cold, flu or another mild illness.",
+        "examples": [
+          {
+            "en": "This watch came down to me from my grandfather.",
+            "zh": "這隻手錶是祖父傳給我的。",
+            "highlight": "came down to me from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述嚴厲批評和家族傳承",
+        "titleEn": "Describe strong criticism and things passed through a family",
+        "zh": "come down on 可以描述嚴厲批評或懲罰;come down to somebody from somebody 則可以表示某事物由上一代傳給某人。",
+        "en": "Come down on describes severe criticism or punishment, while come down to somebody from somebody shows that something was passed from an earlier generation.",
+        "examples": [
+          {
+            "en": "The choice comes down to price.",
+            "zh": "這個選擇歸根結底取決於價錢。",
+            "highlight": "comes down to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME DOWN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME DOWN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME DOWN 片語動詞。",
+      "en": "Read the whole sentence and choose the COME DOWN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當批評或懲罰十分嚴厲時,come down on somebody 常與 hard 或 heavily 一起使用,例如 comedown hard on him、come down heavily on the shops。",
+      "titleEn": "Come down on somebody often appears with hard or heavily when the criticism or punishment is severe: come down hard on him come down heavily on the shops.",
+      "zh": "當批評或懲罰十分嚴厲時,come down on somebody 常與 hard 或 heavily 一起使用,例如 comedown hard on him、come down heavily on the shops。",
+      "en": "Come down on somebody often appears with hard or heavily when the criticism or punishment is severe: come down hard on him come down heavily on the shops"
+    },
+    {
+      "titleZh": "請仔細分辨兩種形式:come down to somebody from somebody 表示某事物傳給某人;comedown to something 表示某個因素是最關鍵的決定因素。",
+      "titleEn": "Read these two forms carefully: come down to somebody from somebody Something is passed to a person.",
+      "zh": "請仔細分辨兩種形式:come down to somebody from somebody 表示某事物傳給某人;comedown to something 表示某個因素是最關鍵的決定因素。",
+      "en": "Read these two forms carefully: come down to somebody from somebody Something is passed to a person. come down to something One point is the main deciding factor."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME DOWN 動詞片語句子改寫練習",
+    "titleEn": "COME DOWN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-191-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The final choice depends on cost.",
+      "promptZh": "最終的選擇取決於成本。",
+      "starter": "The",
+      "answer": "The final choice comes down to cost.",
+      "answerZh": "最終的選擇歸根結底取決於成本。",
+      "highlight": "comes down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "When are your cousins travelling here to see us?",
+      "promptZh": "你的表兄弟姊妹甚麼時候會來探望我們?",
+      "starter": "When",
+      "answer": "When are your cousins coming down to see us?",
+      "answerZh": "你的表兄弟姊妹甚麼時候會來探望我們?",
+      "highlight": "coming down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please climb from the top of that wall to the ground.",
+      "promptZh": "請從那道牆的頂部爬回地面。",
+      "starter": "Please",
+      "answer": "Please come down from that wall.",
+      "answerZh": "請從那道牆上下來。",
+      "highlight": "come down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "This watch was passed to me by my grandfather.",
+      "promptZh": "這隻手錶是祖父傳給我的。",
+      "starter": "This",
+      "answer": "This watch came down to me from my grandfather.",
+      "answerZh": "這隻手錶是祖父傳給我的。",
+      "highlight": "came down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I think I am starting to get a cold.",
+      "promptZh": "我想我開始感冒了。",
+      "starter": "I",
+      "answer": "I think I am coming down with a cold.",
+      "answerZh": "我想我開始感冒了。",
+      "highlight": "coming down with",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The school punished students who cheated very severely.",
+      "promptZh": "學校嚴厲處分作弊的學生。",
+      "starter": "The",
+      "answer": "The school came down hard on students who cheated.",
+      "answerZh": "學校嚴厲處分作弊的學生。",
+      "highlight": "came down hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nina travelled from the city to stay with her aunt in our village.",
+      "promptZh": "妮娜從城市來到我們的村莊,與她的姨姨同住。",
+      "starter": "Nina",
+      "answer": "Nina came down from the city to stay with her aunt in our village.",
+      "answerZh": "妮娜從城市來到我們的村莊,與她的姨姨同住。",
+      "highlight": "came down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Leo became ill with flu before the trip.",
+      "promptZh": "里奧在旅程前患上流感。",
+      "starter": "Leo",
+      "answer": "Leo came down with flu before the trip.",
+      "answerZh": "里奧在旅程前患上流感。",
+      "highlight": "came down",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "This recipe has been passed to us by our great-grandmother.",
+      "promptZh": "這份食譜是曾祖母傳給我們的。",
+      "starter": "This",
+      "answer": "This recipe has come down to us from our great-grandmother.",
+      "answerZh": "這份食譜是曾祖母傳給我們的。",
+      "highlight": "come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The children walked from the top of the stairs to the bottom quietly.",
+      "promptZh": "孩子們安靜地從樓梯頂走到底部。",
+      "starter": "The",
+      "answer": "The children came down the stairs quietly.",
+      "answerZh": "孩子們安靜地走下樓梯。",
+      "highlight": "came down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The courts are punishing people who break the law again very severely.",
+      "promptZh": "法院正嚴厲懲罰再次犯法的人。",
+      "starter": "The",
+      "answer": "The courts are coming down heavily on people who break the law again.",
+      "answerZh": "法院正嚴厲懲罰再次犯法的人。",
+      "highlight": "coming down heavily on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "In the end, everything depended on one question.",
+      "promptZh": "到最後,一切都取決於一個問題。",
+      "starter": "In",
+      "answer": "In the end, it all came down to one question.",
+      "answerZh": "到最後,一切都歸結於一個問題。",
+      "highlight": "it all came down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Dad did not criticise me too severely for breaking the cup.",
+      "promptZh": "爸爸沒有因我打破杯子而過分嚴厲地責備我。",
+      "starter": "Dad",
+      "answer": "Dad did not come down too hard on me for breaking the cup.",
+      "answerZh": "爸爸沒有因我打破杯子而過分嚴厲地責備我。",
+      "highlight": "come down too hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Half the class has become ill with a stomach bug.",
+      "promptZh": "全班有一半學生患上了腸胃不適。",
+      "starter": "Half",
+      "answer": "Half the class has come down with a stomach bug.",
+      "answerZh": "全班有一半學生患上了腸胃不適。",
+      "highlight": "come down",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Will you travel here to see the new café next month?",
+      "promptZh": "你下個月會來這裏看看新咖啡店嗎?",
+      "starter": "Will",
+      "answer": "Will you come down and see the new café next month?",
+      "answerZh": "你下個月會來這裏看看新咖啡店嗎?",
+      "highlight": "come down and",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Whether we go will depend on the weather.",
+      "promptZh": "我們會否出發將取決於天氣。",
+      "starter": "Whether",
+      "answer": "Whether we go will come down to the weather.",
+      "answerZh": "我們會否出發歸根結底將取決於天氣。",
+      "highlight": "come down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The old cottage was passed to Daniel by his parents.",
+      "promptZh": "這間古老小屋是丹尼爾的父母傳給他的。",
+      "starter": "The",
+      "answer": "The old cottage came down to Daniel from his parents.",
+      "answerZh": "這間古老小屋是丹尼爾的父母傳給他的。",
+      "highlight": "came down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A car was travelling towards us along the road from the hill.",
+      "promptZh": "一輛汽車正沿着道路從山上朝我們駛來。",
+      "starter": "A",
+      "answer": "A car was coming down the road towards us.",
+      "answerZh": "一輛汽車正沿路朝我們駛來。",
+      "highlight": "coming down the road",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Are you starting to become ill?",
+      "promptZh": "你是否開始覺得不舒服?",
+      "starter": "Are",
+      "answer": "Are you coming down with something?",
+      "answerZh": "你是否開始生病了?",
+      "highlight": "coming down with something",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "These letters have been passed to Priya by her aunt.",
+      "promptZh": "這些信件是普里雅的姨姨傳給她的。",
+      "starter": "These",
+      "answer": "These letters have come down to Priya from her aunt.",
+      "answerZh": "這些信件是普里雅的姨姨傳給她的。",
+      "highlight": "come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The coach will punish players severely if they miss practice again.",
+      "promptZh": "如果球員再次缺席練習,教練會嚴厲處罰他們。",
+      "starter": "The",
+      "answer": "The coach will come down hard on players if they miss practice again.",
+      "answerZh": "如果球員再次缺席練習,教練會嚴厲處罰他們。",
+      "highlight": "come down hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "My brother travels here to see us every summer.",
+      "promptZh": "我哥哥每年夏天都會來探望我們。",
+      "starter": "My",
+      "answer": "My brother comes down to see us every summer.",
+      "answerZh": "我哥哥每年夏天都會來探望我們。",
+      "highlight": "comes down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The match could be decided by the last goal.",
+      "promptZh": "這場比賽可能要由最後一球決定勝負。",
+      "starter": "The",
+      "answer": "The match could come down to the last goal.",
+      "answerZh": "這場比賽可能要由最後一球決定勝負。",
+      "highlight": "come down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Walk carefully from the top of the hill to the bottom.",
+      "promptZh": "小心地從山頂走到山腳。",
+      "starter": "Come",
+      "answer": "Come down the hill carefully.",
+      "answerZh": "小心地走下山。",
+      "highlight": "Come down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "What does the decision mainly depend on?",
+      "promptZh": "這項決定主要取決於甚麼?",
+      "starter": "What",
+      "answer": "What does the decision come down to?",
+      "answerZh": "這項決定歸根結底取決於甚麼?",
+      "highlight": "come down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The cat will not leave the tree and return to the ground.",
+      "promptZh": "那隻貓不肯離開樹上回到地面。",
+      "starter": "The",
+      "answer": "The cat will not come down from the tree.",
+      "answerZh": "那隻貓不肯從樹上下來。",
+      "highlight": "come down from",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why did the manager criticise Leo so severely?",
+      "promptZh": "經理為何如此嚴厲地批評里奧?",
+      "starter": "Why",
+      "answer": "Why did the manager come down so heavily on Leo?",
+      "answerZh": "經理為何如此嚴厲地批評里奧?",
+      "highlight": "come down so heavily on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Aisha has travelled here to spend a few days with us.",
+      "promptZh": "艾莎已來到這裏,與我們共度幾天。",
+      "starter": "Aisha",
+      "answer": "Aisha has come down to spend a few days with us.",
+      "answerZh": "艾莎已來到這裏,與我們共度幾天。",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Nina may be starting to get a cold.",
+      "promptZh": "妮娜可能開始感冒了。",
+      "starter": "Nina",
+      "answer": "Nina may be coming down with a cold.",
+      "answerZh": "妮娜可能開始感冒了。",
+      "highlight": "coming down with",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Eva’s mother will pass the family ring to her.",
+      "promptZh": "伊娃的母親會把家傳戒指傳給她。",
+      "starter": "The",
+      "answer": "The family ring will come down to Eva from her mother.",
+      "answerZh": "這枚家傳戒指將由伊娃的母親傳給她。",
+      "highlight": "will come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "At this point, the problem has become a question of time.",
+      "promptZh": "到了這個階段,問題已變成時間問題。",
+      "starter": "At",
+      "answer": "At this point, the problem has come down to time.",
+      "answerZh": "到了這個階段,問題已歸結為時間問題。",
+      "highlight": "come down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We watched the hikers move from the mountain top towards the village.",
+      "promptZh": "我們看着遠足者從山頂走向村莊。",
+      "starter": "We",
+      "answer": "We watched the hikers come down the mountain towards the village.",
+      "answerZh": "我們看着遠足者沿山走下來,前往村莊。",
+      "highlight": "come down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The house had been passed to Noah by his grandfather.",
+      "promptZh": "這所房子是諾亞的祖父傳給他的。",
+      "starter": "The",
+      "answer": "The house had come down to Noah from his grandfather.",
+      "answerZh": "這所房子是諾亞的祖父傳給他的。",
+      "highlight": "come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The council has severely punished shops that ignore the safety rules.",
+      "promptZh": "市議會已嚴厲處罰無視安全規則的店舖。",
+      "starter": "The",
+      "answer": "The council has come down hard on shops that ignore the safety rules.",
+      "answerZh": "市議會已嚴厲處罰無視安全規則的店舖。",
+      "highlight": "come down hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Did your parents travel from Leeds for the wedding?",
+      "promptZh": "你的父母有從列斯前來參加婚禮嗎?",
+      "starter": "Did",
+      "answer": "Did your parents come down from Leeds for the wedding?",
+      "answerZh": "你的父母有從列斯前來參加婚禮嗎?",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "My sister became ill with a fever last night.",
+      "promptZh": "我妹妹昨晚發燒了。",
+      "starter": "My",
+      "answer": "My sister came down with a fever last night.",
+      "answerZh": "我妹妹昨晚發燒了。",
+      "highlight": "came down",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "These songs have been passed to us by earlier generations.",
+      "promptZh": "這些歌曲是較早幾代人傳給我們的。",
+      "starter": "These",
+      "answer": "These songs have come down to us from earlier generations.",
+      "answerZh": "這些歌曲是較早幾代人傳給我們的。",
+      "highlight": "come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We were worried that the children would become ill with the same virus.",
+      "promptZh": "我們擔心孩子們會感染同一種病毒而生病。",
+      "starter": "We",
+      "answer": "We were worried that the children would come down with the same virus.",
+      "answerZh": "我們擔心孩子們會感染同一種病毒而生病。",
+      "highlight": "come down",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Their success was mainly the result of good teamwork.",
+      "promptZh": "他們的成功主要源於良好的團隊合作。",
+      "starter": "Their",
+      "answer": "Their success came down to good teamwork.",
+      "answerZh": "他們的成功歸根結底在於良好的團隊合作。",
+      "highlight": "came down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Has everyone left the roof and returned to the ground?",
+      "promptZh": "所有人都已離開屋頂並回到地面嗎?",
+      "starter": "Has",
+      "answer": "Has everyone come down from the roof?",
+      "answerZh": "所有人都已從屋頂下來嗎?",
+      "highlight": "come down from",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q41",
+      "number": 41,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The school team will travel here for Saturday’s match.",
+      "promptZh": "校隊會在星期六前來這裏參加比賽。",
+      "starter": "The",
+      "answer": "The school team will come down for Saturday’s match.",
+      "answerZh": "校隊會在星期六前來這裏參加比賽。",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q42",
+      "number": 42,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Teachers should not punish a child too severely for one small mistake.",
+      "promptZh": "老師不應因一次小錯誤而過分嚴厲地處罰孩子。",
+      "starter": "Teachers",
+      "answer": "Teachers should not come down too hard on a child for one small mistake.",
+      "answerZh": "老師不應因一次小錯誤而過分嚴厲地處罰孩子。",
+      "highlight": "come down too hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q43",
+      "number": 43,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "By Friday, he had developed a bad cough.",
+      "promptZh": "到了星期五,他已出現嚴重咳嗽。",
+      "starter": "By",
+      "answer": "By Friday, he had come down with a bad cough.",
+      "answerZh": "到了星期五,他已出現嚴重咳嗽。",
+      "highlight": "come down with",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q44",
+      "number": 44,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We hope Sam can travel here for the family dinner.",
+      "promptZh": "我們希望山姆能前來參加家庭晚餐。",
+      "starter": "We",
+      "answer": "We hope Sam can come down for the family dinner.",
+      "answerZh": "我們希望山姆能前來參加家庭晚餐。",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q45",
+      "number": 45,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "He moved from the top of the ladder to the ground one step at a time.",
+      "promptZh": "他一步一步地從梯頂移到地面。",
+      "starter": "He",
+      "answer": "He came down the ladder one step at a time.",
+      "answerZh": "他一步一步地爬下梯子。",
+      "highlight": "came down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q46",
+      "number": 46,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Choosing between the two flats depends mainly on location.",
+      "promptZh": "在兩個單位之間作選擇,主要取決於地點。",
+      "starter": "Choosing",
+      "answer": "Choosing between the two flats comes down to location.",
+      "answerZh": "在兩個單位之間作選擇,歸根結底取決於地點。",
+      "highlight": "comes down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q47",
+      "number": 47,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The company severely punished staff who shared their passwords.",
+      "promptZh": "公司嚴厲處罰分享密碼的員工。",
+      "starter": "The",
+      "answer": "The company came down heavily on staff who shared their passwords.",
+      "answerZh": "公司嚴厲處罰分享密碼的員工。",
+      "highlight": "came down heavily on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q48",
+      "number": 48,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "This name has been passed through our family since the 1800s.",
+      "promptZh": "這個名字自十九世紀起一直在我們家族中傳承。",
+      "starter": "This",
+      "answer": "This name has come down to us from the 1800s.",
+      "answerZh": "這個名字從十九世紀一直傳到我們這一代。",
+      "highlight": "come down to us from",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q49",
+      "number": 49,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Omar said he would travel here and help us move house.",
+      "promptZh": "奧馬說他會前來幫我們搬屋。",
+      "starter": "Omar",
+      "answer": "Omar said he would come down and help us move house.",
+      "answerZh": "奧馬說他會前來幫我們搬屋。",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    },
+    {
+      "id": "phrasal-verb-191-q50",
+      "number": 50,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If drivers keep parking in front of the gate, the police may punish them severely.",
+      "promptZh": "如果司機繼續把車停在大閘前,警方可能會嚴厲處罰他們。",
+      "starter": "If",
+      "answer": "If drivers keep parking in front of the gate, the police may come down hard on them.",
+      "answerZh": "如果司機繼續把車停在大閘前,警方可能會嚴厲處罰他們。",
+      "highlight": "come down hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q51",
+      "number": 51,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The box of photographs was passed to Lena by her father, who had received it from his mother.",
+      "promptZh": "這盒相片是莉娜的父親傳給她的,而她的父親則從自己的母親手上得到它。",
+      "starter": "The",
+      "answer": "The box of photographs came down to Lena from her father, who had received it from his mother.",
+      "answerZh": "這盒相片是莉娜的父親傳給她的,而她的父親則從自己的母親手上得到它。",
+      "highlight": "came down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q52",
+      "number": 52,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Several players have developed a mild fever, so the match may be cancelled.",
+      "promptZh": "幾名球員出現輕微發燒,所以比賽可能會取消。",
+      "starter": "Several",
+      "answer": "Several players have come down with a mild fever, so the match may be cancelled.",
+      "answerZh": "幾名球員出現輕微發燒,所以比賽可能會取消。",
+      "highlight": "come down with",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q53",
+      "number": 53,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When you finish your homework upstairs, return to the ground floor and join us.",
+      "promptZh": "你在樓上完成家課後,回到地下與我們一起吧。",
+      "starter": "When",
+      "answer": "When you finish your homework upstairs, come down and join us.",
+      "answerZh": "你在樓上完成家課後,下來與我們一起吧。",
+      "highlight": "come down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q54",
+      "number": 54,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "In the end, whether we can take the trip may depend on how much money we can spend.",
+      "promptZh": "到最後,我們能否去旅行,可能取決於可以花多少錢。",
+      "starter": "In",
+      "answer": "In the end, whether we can take the trip may come down to how much money we can spend.",
+      "answerZh": "到最後,我們能否去旅行,可能歸根結底取決於可以花多少錢。",
+      "highlight": "come down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q55",
+      "number": 55,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the mistake caused a delay, the director chose not to criticise the new worker too severely.",
+      "promptZh": "雖然這個錯誤造成延誤,主任仍選擇不過分嚴厲地批評新員工。",
+      "starter": "Although",
+      "answer": "Although the mistake caused a delay, the director chose not to come down too hard on the new worker.",
+      "answerZh": "雖然這個錯誤造成延誤,主任仍選擇不過分嚴厲地批評新員工。",
+      "highlight": "come down too hard on",
+      "targetForm": "come down on somebody",
+      "targetMeaningZh": "嚴厲批評或懲罰某人"
+    },
+    {
+      "id": "phrasal-verb-191-q56",
+      "number": 56,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The cyclist was travelling from the top of the steep road towards the village too quickly.",
+      "promptZh": "那名單車手正從陡斜道路的高處過快地駛向村莊。",
+      "starter": "The",
+      "answer": "The cyclist was coming down the steep road towards the village too quickly.",
+      "answerZh": "那名單車手正沿着陡斜道路過快地駛向村莊。",
+      "highlight": "coming down",
+      "targetForm": "come down; come down something",
+      "targetMeaningZh": "從較高位置下來;沿着某處向下移動"
+    },
+    {
+      "id": "phrasal-verb-191-q57",
+      "number": 57,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "People keep arguing about the details, but the whole matter is really about one simple fact.",
+      "promptZh": "大家一直爭論細節,但整件事其實只關乎一個簡單事實。",
+      "starter": "People",
+      "answer": "People keep arguing about the details, but the whole matter comes down to one simple fact.",
+      "answerZh": "大家一直爭論細節,但整件事歸根結底只關乎一個簡單事實。",
+      "highlight": "comes down to",
+      "targetForm": "come down to something",
+      "targetMeaningZh": "歸根結底在於;取決於某事"
+    },
+    {
+      "id": "phrasal-verb-191-q58",
+      "number": 58,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although no one knows who wrote it, the story has been passed to us by people who lived in the village long ago.",
+      "promptZh": "雖然沒有人知道故事的作者是誰,但它是由很久以前住在村裏的人傳給我們的。",
+      "starter": "Although",
+      "answer": "Although no one knows who wrote it, the story has come down to us from people who lived in the village long ago.",
+      "answerZh": "雖然沒有人知道故事的作者是誰,但它是由很久以前住在村裏的人傳給我們的。",
+      "highlight": "come down",
+      "targetForm": "come down to somebody from somebody/something",
+      "targetMeaningZh": "由上一代或以前的人傳給某人"
+    },
+    {
+      "id": "phrasal-verb-191-q59",
+      "number": 59,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "You feel tired, cold and unwell, so you may be starting to get flu.",
+      "promptZh": "你感到疲倦、發冷和不適,所以可能開始患上流感。",
+      "starter": "You",
+      "answer": "You feel tired, cold and unwell, so you may be coming down with flu.",
+      "answerZh": "你感到疲倦、發冷和不適,所以可能開始患上流感。",
+      "highlight": "coming down with",
+      "targetForm": "come down with something",
+      "targetMeaningZh": "開始患上不太嚴重的疾病"
+    },
+    {
+      "id": "phrasal-verb-191-q60",
+      "number": 60,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Even though the train journey is long, will you travel here to stay with us during the school holiday?",
+      "promptZh": "雖然火車路程很長,你會在學校假期前來與我們同住嗎?",
+      "starter": "Even",
+      "answer": "Even though the train journey is long, will you come down to stay with us during the school holiday?",
+      "answerZh": "雖然火車路程很長,你會在學校假期前來與我們同住嗎?",
+      "highlight": "come down",
+      "targetForm": "come down",
+      "targetMeaningZh": "由較遠的地方來到說話者所在的地方,通常是來探望某人"
+    }
+  ]
+}

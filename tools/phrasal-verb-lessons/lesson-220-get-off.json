@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-220",
+  "order": 220,
+  "slug": "get-off",
+  "version": "1",
+  "title": "GET OFF 動詞片語",
+  "titleEn": "Get Off",
+  "titleZh": "GET OFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 218 - GET OFF.pdf",
+    "sourceNumber": 218,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET OFF 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET OFF."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET OFF",
+      "highlight": "GET OFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We ought to get off straight after breakfast.",
+      "zh": "我們應該在早餐後立即出發。",
+      "highlight": "get off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Some people get off on taking risks.",
+      "zh": "有些人會因冒險而感到十分興奮。",
+      "highlight": "get off on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Get off my land!",
+      "zh": "離開我的土地!",
+      "highlight": "Get off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "離開並開始旅程;出發；因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)；離開某人的土地、地方或某個位置；與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)；停止碰着、抓住或壓着某人；下車;離開巴士、火車、飛機或船等交通工具",
+    "en": "get off; get off on something; get off on doing something; get off something; get off with somebody; get off; get off; get off somebody; get off; get off something",
+    "naturalZh": [
+      "離開並開始旅程;出發",
+      "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+      "離開某人的土地、地方或某個位置",
+      "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+      "停止碰着、抓住或壓着某人",
+      "下車;離開巴士、火車、飛機或船等交通工具"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get off",
+      "titleZh": "離開並開始旅程;出發",
+      "titleEn": "get off",
+      "descriptionZh": "離開並開始旅程;出發",
+      "descriptionEn": "We ought to get off straight after breakfast.",
+      "examples": [
+        {
+          "en": "We ought to get off straight after breakfast.",
+          "zh": "我們應該在早餐後立即出發。",
+          "highlight": "get off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get off on something; get off on doing something",
+      "titleZh": "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+      "titleEn": "get off on something; get off on doing something",
+      "descriptionZh": "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+      "descriptionEn": "Some people get off on taking risks.",
+      "examples": [
+        {
+          "en": "Some people get off on taking risks.",
+          "zh": "有些人會因冒險而感到十分興奮。",
+          "highlight": "get off on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get off something",
+      "titleZh": "離開某人的土地、地方或某個位置",
+      "titleEn": "get off something",
+      "descriptionZh": "離開某人的土地、地方或某個位置",
+      "descriptionEn": "Get off my land!",
+      "examples": [
+        {
+          "en": "Get off my land!",
+          "zh": "離開我的土地!",
+          "highlight": "Get off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get off with somebody; get off",
+      "titleZh": "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+      "titleEn": "get off with somebody; get off",
+      "descriptionZh": "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+      "descriptionEn": "He got off with someone at the party.",
+      "examples": [
+        {
+          "en": "He got off with someone at the party.",
+          "zh": "他在派對上與某人發展了親密關係。",
+          "highlight": "got off with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get off; get off somebody",
+      "titleZh": "停止碰着、抓住或壓着某人",
+      "titleEn": "get off; get off somebody",
+      "descriptionZh": "停止碰着、抓住或壓着某人",
+      "descriptionEn": "Get off me!",
+      "examples": [
+        {
+          "en": "Get off me!",
+          "zh": "不要再碰着或壓着我!",
+          "highlight": "Get off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get off; get off something",
+      "titleZh": "下車;離開巴士、火車、飛機或船等交通工具",
+      "titleEn": "get off; get off something",
+      "descriptionZh": "下車;離開巴士、火車、飛機或船等交通工具",
+      "descriptionEn": "Ask the driver where to get off.",
+      "examples": [
+        {
+          "en": "Ask the driver where to get off.",
+          "zh": "問司機應該在哪裏下車。",
+          "highlight": "get off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET OFF 片語動詞的實際用途",
+    "labelEn": "GET OFF Phrasal Verbs in Use",
+    "summaryZh": "get off 可以表示開始旅程,也可以表示離開巴士、火車、飛機或船。；Get off my land 和 Get off me 可以要求某人離開某處,或停止碰着另一個人。；get off on 表示強烈興奮;get off with somebody 則描述浪漫或性接觸。；完整情境能幫助你分辨 get off after breakfast、get off the bus、get off my land 和 get off me。",
+    "summaryEn": "Get off can show that you are beginning a journey or leaving a bus, train, plane or boat. Expressions such as Get off my land and Get off me tell someone to leave a place or stop touching another person. Get off on describes strong excitement, while get off with somebody describes romantic or sexual involvement. The full situation helps you distinguish get off after breakfast, get off the bus, get off my land and get off me.",
+    "contextsZh": [
+      "清楚談論出發和乘搭交通工具",
+      "作出清晰而堅定的指示",
+      "理解關於興奮感和親密關係的非正式說法",
+      "避免混淆多個外形相同的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about journeys and public transport",
+      "Give clear and firm instructions",
+      "Understand informal talk about excitement and relationships",
+      "Avoid confusing several identical-looking expressions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET OFF 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET OFF expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get off",
+    "fixedHighlight": "get off",
+    "fixedZh": "閱讀整句,選出意思相同的 GET OFF 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET OFF expression that gives the same meaning.",
+    "correct": "get off",
+    "incorrectForms": [],
+    "variableZh": "get off after breakfast — 早餐後出發get off the bus — 下巴士get off my land — 離開我的土地get off me — 不要再碰着或壓着我；get off on something 和 get off on doing something 表示因某事而感到強烈興奮。；get off on 和 get off with somebody 都是非正式表達,也可能帶有性意味。使用時須留意情境。",
+    "variableEn": "Read the situation carefully because get off can express several very different ideas: Get off on something and get off on doing something describe a strong feeling of excitement: get off on power get off on winning Get off on and get off with somebody are informal expressions and may have a sexual meaning. Use them carefully and only in suitable situations.",
+    "variableItemsZh": [
+      "get off",
+      "get off on something; get off on doing something",
+      "get off something",
+      "get off with somebody; get off",
+      "get off; get off somebody",
+      "get off; get off something"
+    ],
+    "variableItemsEn": [
+      "get off",
+      "get off on something; get off on doing something",
+      "get off something",
+      "get off with somebody; get off",
+      "get off; get off somebody",
+      "get off; get off something"
+    ],
+    "forms": [
+      {
+        "formZh": "離開並開始旅程;出發",
+        "formEn": "get off",
+        "exampleZh": "我們應該在早餐後立即出發。",
+        "exampleEn": "We ought to get off straight after breakfast.",
+        "highlight": "get off"
+      },
+      {
+        "formZh": "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+        "formEn": "get off on something; get off on doing something",
+        "exampleZh": "有些人會因冒險而感到十分興奮。",
+        "exampleEn": "Some people get off on taking risks.",
+        "highlight": "get off on"
+      },
+      {
+        "formZh": "離開某人的土地、地方或某個位置",
+        "formEn": "get off something",
+        "exampleZh": "離開我的土地!",
+        "exampleEn": "Get off my land!",
+        "highlight": "Get off"
+      },
+      {
+        "formZh": "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+        "formEn": "get off with somebody; get off",
+        "exampleZh": "他在派對上與某人發展了親密關係。",
+        "exampleEn": "He got off with someone at the party.",
+        "highlight": "got off with"
+      },
+      {
+        "formZh": "停止碰着、抓住或壓着某人",
+        "formEn": "get off; get off somebody",
+        "exampleZh": "不要再碰着或壓着我!",
+        "exampleEn": "Get off me!",
+        "highlight": "Get off"
+      },
+      {
+        "formZh": "下車;離開巴士、火車、飛機或船等交通工具",
+        "formEn": "get off; get off something",
+        "exampleZh": "問司機應該在哪裏下車。",
+        "exampleEn": "Ask the driver where to get off.",
+        "highlight": "get off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "離開並開始旅程;出發",
+      "titleEn": "get off",
+      "formula": "get off",
+      "highlight": "get off",
+      "descriptionZh": "離開並開始旅程;出發",
+      "descriptionEn": "We ought to get off straight after breakfast.",
+      "examples": [
+        {
+          "en": "We ought to get off straight after breakfast.",
+          "zh": "我們應該在早餐後立即出發。",
+          "highlight": "get off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+      "titleEn": "get off on something; get off on doing something",
+      "formula": "get off on something; get off on doing something",
+      "highlight": "get off on something; get off on doing something",
+      "descriptionZh": "因某事或做某事而感到強烈興奮或得到快感(非正式;尤其可能帶有性意味)",
+      "descriptionEn": "Some people get off on taking risks.",
+      "examples": [
+        {
+          "en": "Some people get off on taking risks.",
+          "zh": "有些人會因冒險而感到十分興奮。",
+          "highlight": "get off on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "離開某人的土地、地方或某個位置",
+      "titleEn": "get off something",
+      "formula": "get off something",
+      "highlight": "get off something",
+      "descriptionZh": "離開某人的土地、地方或某個位置",
+      "descriptionEn": "Get off my land!",
+      "examples": [
+        {
+          "en": "Get off my land!",
+          "zh": "離開我的土地!",
+          "highlight": "Get off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+      "titleEn": "get off with somebody; get off",
+      "formula": "get off with somebody; get off",
+      "highlight": "get off with somebody; get off",
+      "descriptionZh": "與某人有浪漫或性接觸;與某人發展浪漫或性關係(英式非正式)",
+      "descriptionEn": "He got off with someone at the party.",
+      "examples": [
+        {
+          "en": "He got off with someone at the party.",
+          "zh": "他在派對上與某人發展了親密關係。",
+          "highlight": "got off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "停止碰着、抓住或壓着某人",
+      "titleEn": "get off; get off somebody",
+      "formula": "get off; get off somebody",
+      "highlight": "get off; get off somebody",
+      "descriptionZh": "停止碰着、抓住或壓着某人",
+      "descriptionEn": "Get off me!",
+      "examples": [
+        {
+          "en": "Get off me!",
+          "zh": "不要再碰着或壓着我!",
+          "highlight": "Get off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "下車;離開巴士、火車、飛機或船等交通工具",
+      "titleEn": "get off; get off something",
+      "formula": "get off; get off something",
+      "highlight": "get off; get off something",
+      "descriptionZh": "下車;離開巴士、火車、飛機或船等交通工具",
+      "descriptionEn": "Ask the driver where to get off.",
+      "examples": [
+        {
+          "en": "Ask the driver where to get off.",
+          "zh": "問司機應該在哪裏下車。",
+          "highlight": "get off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論出發和乘搭交通工具",
+      "titleEn": "Talk clearly about journeys and public transport",
+      "zh": "get off 可以表示開始旅程,也可以表示離開巴士、火車、飛機或船。",
+      "en": "Get off can show that you are beginning a journey or leaving a bus, train, plane or boat."
+    },
+    {
+      "titleZh": "作出清晰而堅定的指示",
+      "titleEn": "Give clear and firm instructions",
+      "zh": "Get off my land 和 Get off me 可以要求某人離開某處,或停止碰着另一個人。",
+      "en": "Expressions such as Get off my land and Get off me tell someone to leave a place or stop touching another person."
+    },
+    {
+      "titleZh": "理解關於興奮感和親密關係的非正式說法",
+      "titleEn": "Understand informal talk about excitement and relationships",
+      "zh": "get off on 表示強烈興奮;get off with somebody 則描述浪漫或性接觸。",
+      "en": "Get off on describes strong excitement, while get off with somebody describes romantic or sexual involvement."
+    },
+    {
+      "titleZh": "避免混淆多個外形相同的表達",
+      "titleEn": "Avoid confusing several identical-looking expressions",
+      "zh": "完整情境能幫助你分辨 get off after breakfast、get off the bus、get off my land 和 get off me。",
+      "en": "The full situation helps you distinguish get off after breakfast, get off the bus, get off my land and get off me."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論出發和乘搭交通工具",
+      "作出清晰而堅定的指示",
+      "理解關於興奮感和親密關係的非正式說法",
+      "避免混淆多個外形相同的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about journeys and public transport",
+      "Give clear and firm instructions",
+      "Understand informal talk about excitement and relationships",
+      "Avoid confusing several identical-looking expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論出發和乘搭交通工具",
+        "titleEn": "Talk clearly about journeys and public transport",
+        "zh": "get off 可以表示開始旅程,也可以表示離開巴士、火車、飛機或船。",
+        "en": "Get off can show that you are beginning a journey or leaving a bus, train, plane or boat.",
+        "examples": [
+          {
+            "en": "We ought to get off straight after breakfast.",
+            "zh": "我們應該在早餐後立即出發。",
+            "highlight": "get off"
+          }
+        ]
+      },
+      {
+        "titleZh": "作出清晰而堅定的指示",
+        "titleEn": "Give clear and firm instructions",
+        "zh": "Get off my land 和 Get off me 可以要求某人離開某處,或停止碰着另一個人。",
+        "en": "Expressions such as Get off my land and Get off me tell someone to leave a place or stop touching another person.",
+        "examples": [
+          {
+            "en": "Some people get off on taking risks.",
+            "zh": "有些人會因冒險而感到十分興奮。",
+            "highlight": "get off on"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解關於興奮感和親密關係的非正式說法",
+        "titleEn": "Understand informal talk about excitement and relationships",
+        "zh": "get off on 表示強烈興奮;get off with somebody 則描述浪漫或性接觸。",
+        "en": "Get off on describes strong excitement, while get off with somebody describes romantic or sexual involvement.",
+        "examples": [
+          {
+            "en": "Get off my land!",
+            "zh": "離開我的土地!",
+            "highlight": "Get off"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免混淆多個外形相同的表達",
+        "titleEn": "Avoid confusing several identical-looking expressions",
+        "zh": "完整情境能幫助你分辨 get off after breakfast、get off the bus、get off my land 和 get off me。",
+        "en": "The full situation helps you distinguish get off after breakfast, get off the bus, get off my land and get off me.",
+        "examples": [
+          {
+            "en": "He got off with someone at the party.",
+            "zh": "他在派對上與某人發展了親密關係。",
+            "highlight": "got off with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET OFF 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET OFF expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET OFF 片語動詞。",
+      "en": "Read the whole sentence and choose the GET OFF expression that gives the same meaning."
+    },
+    {
+      "titleZh": "get off after breakfast — 早餐後出發get off the bus — 下巴士get off my land — 離開我的土地get off me — 不要再碰着或壓着我",
+      "titleEn": "Read the situation carefully because get off can express several very different ideas:.",
+      "zh": "get off after breakfast — 早餐後出發get off the bus — 下巴士get off my land — 離開我的土地get off me — 不要再碰着或壓着我",
+      "en": "Read the situation carefully because get off can express several very different ideas:"
+    },
+    {
+      "titleZh": "get off on something 和 get off on doing something 表示因某事而感到強烈興奮。",
+      "titleEn": "Get off on something and get off on doing something describe a strong feeling of excitement: get off on power get off on winning.",
+      "zh": "get off on something 和 get off on doing something 表示因某事而感到強烈興奮。",
+      "en": "Get off on something and get off on doing something describe a strong feeling of excitement: get off on power get off on winning"
+    },
+    {
+      "titleZh": "get off on 和 get off with somebody 都是非正式表達,也可能帶有性意味。使用時須留意情境。",
+      "titleEn": "Get off on and get off with somebody are informal expressions and may have a sexual meaning.",
+      "zh": "get off on 和 get off with somebody 都是非正式表達,也可能帶有性意味。使用時須留意情境。",
+      "en": "Get off on and get off with somebody are informal expressions and may have a sexual meaning. Use them carefully and only in suitable situations."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET OFF 動詞片語句子改寫練習",
+    "titleEn": "GET OFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-220-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We should begin our journey soon after breakfast.",
+      "promptZh": "我們應該在早餐後不久便出發。",
+      "starter": "We",
+      "answer": "We should get off soon after breakfast.",
+      "answerZh": "我們應該在早餐後不久便出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Leave the bus at the stop after the library.",
+      "promptZh": "在圖書館後面的車站下車。",
+      "starter": "Get",
+      "answer": "Get off the bus at the stop after the library.",
+      "answerZh": "在圖書館後面的車站下車。",
+      "highlight": "Get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The farmer shouted, “Leave my field now!”",
+      "promptZh": "農夫大叫:「立即離開我的田地!」",
+      "starter": "The",
+      "answer": "The farmer shouted, “Get off my field now!”",
+      "answerZh": "農夫大叫:「立即離開我的田地!」",
+      "highlight": "Get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Noah gets a strong feeling of excitement from winning difficult games.",
+      "promptZh": "諾亞從贏得高難度遊戲中得到強烈的興奮感。",
+      "starter": "Noah",
+      "answer": "Noah gets off on winning difficult games.",
+      "answerZh": "諾亞因贏得高難度遊戲而感到十分興奮。",
+      "highlight": "gets off on",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The child was sitting on his brother, so their father told him to move away.",
+      "promptZh": "那個孩子坐在弟弟身上,所以父親叫他移開。",
+      "starter": "The",
+      "answer": "The child was sitting on his brother, so their father told him to get off.",
+      "answerZh": "那個孩子坐在弟弟身上,所以父親叫他下來。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "At the party, Leo started a romantic relationship with Eva.",
+      "promptZh": "在派對上,里奧與伊娃開始了一段浪漫關係。",
+      "starter": "At",
+      "answer": "At the party, Leo got off with Eva.",
+      "answerZh": "在派對上,里奧與伊娃發展了親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The hikers left before the sun came up.",
+      "promptZh": "遠足者在日出前便出發了。",
+      "starter": "The",
+      "answer": "The hikers got off before the sun came up.",
+      "answerZh": "遠足者在日出前便出發了。",
+      "highlight": "got off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please leave our lawn at once.",
+      "promptZh": "請立即離開我們的草坪。",
+      "starter": "Please",
+      "answer": "Please get off our lawn at once.",
+      "answerZh": "請立即離開我們的草坪。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某處"
+    },
+    {
+      "id": "phrasal-verb-220-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ask the driver which stop you should leave the bus at.",
+      "promptZh": "問司機你應該在哪個車站下車。",
+      "starter": "Ask",
+      "answer": "Ask the driver which stop you should get off at.",
+      "answerZh": "問司機你應該在哪個車站下車。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "“Stop holding her!” the teacher shouted.",
+      "promptZh": "老師大叫:「不要再抓住她!」",
+      "starter": "Get",
+      "answer": "“Get off her!” the teacher shouted.",
+      "answerZh": "老師大叫:「放開她!」",
+      "highlight": "Get off",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止碰着或抓住某人"
+    },
+    {
+      "id": "phrasal-verb-220-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She gets a lot of pleasure from telling other people what to do.",
+      "promptZh": "她從指使別人做事中得到很大樂趣。",
+      "starter": "She",
+      "answer": "She gets off on telling other people what to do.",
+      "answerZh": "她因指使別人做事而感到十分興奮。",
+      "highlight": "gets off on",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Sam started a romantic relationship with someone at the club last night.",
+      "promptZh": "森昨晚在夜店與某人開始了一段浪漫關係。",
+      "starter": "Sam",
+      "answer": "Sam got off with someone at the club last night.",
+      "answerZh": "森昨晚在夜店與某人發展了親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Do you really get a strong feeling of excitement from frightening your friends?",
+      "promptZh": "你真的會從嚇唬朋友中得到強烈的興奮感嗎?",
+      "starter": "Do",
+      "answer": "Do you really get off on frightening your friends?",
+      "answerZh": "你真的會因嚇唬朋友而感到十分興奮嗎?",
+      "highlight": "get off on",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We are planning to begin our journey at six tomorrow morning.",
+      "promptZh": "我們計劃明早六時出發。",
+      "starter": "We",
+      "answer": "We are planning to get off at six tomorrow morning.",
+      "answerZh": "我們計劃明早六時出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ava did not start a romantic relationship with anyone at the party.",
+      "promptZh": "艾娃沒有在派對上與任何人開始浪漫關係。",
+      "starter": "Ava",
+      "answer": "Ava did not get off with anyone at the party.",
+      "answerZh": "艾娃沒有在派對上與任何人發展親密關係。",
+      "highlight": "get off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The passengers are leaving the train now.",
+      "promptZh": "乘客現在正在下火車。",
+      "starter": "The",
+      "answer": "The passengers are getting off the train now.",
+      "answerZh": "乘客現在正在下火車。",
+      "highlight": "getting off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "You must leave this private path immediately.",
+      "promptZh": "你必須立即離開這條私人小路。",
+      "starter": "You",
+      "answer": "You must get off this private path immediately.",
+      "answerZh": "你必須立即離開這條私人小路。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please stop sitting on my foot.",
+      "promptZh": "請不要再坐在我的腳上。",
+      "starter": "Please",
+      "answer": "Please get off my foot.",
+      "answerZh": "請從我的腳上移開。",
+      "highlight": "get off",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "He has always become very excited when he proves people wrong.",
+      "promptZh": "每當他證明別人錯誤時,他總會感到十分興奮。",
+      "starter": "He",
+      "answer": "He has always got off on proving people wrong.",
+      "answerZh": "他一直因證明別人錯誤而感到十分興奮。",
+      "highlight": "got off on proving",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She had already left the bus when I called her.",
+      "promptZh": "我致電給她時,她已經下了巴士。",
+      "starter": "She",
+      "answer": "She had already got off the bus when I called her.",
+      "answerZh": "我致電給她時,她已經下了巴士。",
+      "highlight": "got off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "They did not begin their journey until nearly ten o’clock.",
+      "promptZh": "他們接近十時才出發。",
+      "starter": "They",
+      "answer": "They did not get off until nearly ten o’clock.",
+      "answerZh": "他們接近十時才出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did Oliver start a romantic relationship with anyone at the party?",
+      "promptZh": "奧利華有在派對上與任何人開始浪漫關係嗎?",
+      "starter": "Did",
+      "answer": "Did Oliver get off with anyone at the party?",
+      "answerZh": "奧利華有在派對上與任何人發展親密關係嗎?",
+      "highlight": "get off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The dog jumped onto me and will not move away.",
+      "promptZh": "那隻狗跳到我身上,不肯移開。",
+      "starter": "The",
+      "answer": "The dog jumped onto me and will not get off.",
+      "answerZh": "那隻狗跳到我身上,不肯下來。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The guard told the teenagers to leave the roof.",
+      "promptZh": "警衞叫那些青少年離開屋頂。",
+      "starter": "The",
+      "answer": "The guard told the teenagers to get off the roof.",
+      "answerZh": "警衞叫那些青少年離開屋頂。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某處"
+    },
+    {
+      "id": "phrasal-verb-220-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The puppy jumped onto Nina and refused to move away from her.",
+      "promptZh": "小狗跳到妮娜身上,拒絕從她身上移開。",
+      "starter": "The",
+      "answer": "The puppy jumped onto Nina and refused to get off her.",
+      "answerZh": "小狗跳到妮娜身上,拒絕從她身上下來。",
+      "highlight": "get off",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We were taking photographs in a private field, and the owner ordered us to leave it.",
+      "promptZh": "我們正在一塊私人田地拍照,地主命令我們離開。",
+      "starter": "We",
+      "answer": "We were taking photographs in a private field, and the owner ordered us to get off it.",
+      "answerZh": "我們正在一塊私人田地拍照,地主命令我們離開。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Once everyone has packed their bags, we can begin our journey.",
+      "promptZh": "大家收拾好行李後,我們便可以出發。",
+      "starter": "Once",
+      "answer": "Once everyone has packed their bags, we can get off.",
+      "answerZh": "大家收拾好行李後,我們便可以出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The coach seems to get an unusual amount of pleasure from making the players nervous.",
+      "promptZh": "教練似乎從令球員緊張中得到異常大的樂趣。",
+      "starter": "The",
+      "answer": "The coach seems to get off on making the players nervous.",
+      "answerZh": "教練似乎因令球員緊張而感到十分興奮。",
+      "highlight": "get off on",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We stayed on the tram for one stop too many because we did not know where to leave it.",
+      "promptZh": "我們不知道應在哪裏下電車,因此多坐了一個站。",
+      "starter": "We",
+      "answer": "We stayed on the tram for one stop too many because we did not know where to get off.",
+      "answerZh": "我們不知道應在哪裏下電車,因此多坐了一個站。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "At the party, Jordan hoped to have a romantic or sexual experience, but he went home alone.",
+      "promptZh": "在派對上,佐敦希望與人發展浪漫或性關係,但最後獨自回家。",
+      "starter": "At",
+      "answer": "At the party, Jordan hoped to get off, but he went home alone.",
+      "answerZh": "在派對上,佐敦希望與人發展親密關係,但最後獨自回家。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "與人發展浪漫或性關係;英式非正式"
+    },
+    {
+      "id": "phrasal-verb-220-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "“This is private property,” the owner said. “Please leave it now.”",
+      "promptZh": "地主說:「這是私人地方,請立即離開。」",
+      "starter": "This",
+      "answer": "“This is private property,” the owner said. “Please get off it now.”",
+      "answerZh": "地主說:「這是私人地方,請立即離開。」",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When the other player fell on top of him, Kai shouted at him to move away.",
+      "promptZh": "另一名球員壓在啟身上時,啟大叫叫他移開。",
+      "starter": "When",
+      "answer": "When the other player fell on top of him, Kai shouted at him to get off.",
+      "answerZh": "另一名球員壓在啟身上時,啟大叫叫他下來。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Winning arguments gives him a strong feeling of excitement, and he clearly enjoys it far more than most people would.",
+      "promptZh": "在爭論中取勝令他感到十分興奮,而且他明顯比大部分人更享受這種感覺。",
+      "starter": "Winning",
+      "answer": "Winning arguments gives him a strong feeling of excitement, and he clearly gets off on it.",
+      "answerZh": "在爭論中取勝令他感到十分興奮,而且他明顯因而得到強烈快感。",
+      "highlight": "gets off on",
+      "targetForm": "get off on something",
+      "targetMeaningZh": "因某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Ella admitted that she had started a romantic relationship with Ben at the party.",
+      "promptZh": "埃拉承認自己在派對上與賓開始了一段浪漫關係。",
+      "starter": "Ella",
+      "answer": "Ella admitted that she had got off with Ben at the party.",
+      "answerZh": "埃拉承認自己在派對上與賓發展了親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the family had loaded the car, they began their journey without waiting any longer.",
+      "promptZh": "一家人把物品放上車後,便不再等待,立即出發。",
+      "starter": "After",
+      "answer": "After the family had loaded the car, they got off without waiting any longer.",
+      "answerZh": "一家人把物品放上車後,便不再等待,立即出發。",
+      "highlight": "got off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Which station should we leave the train at?",
+      "promptZh": "我們應該在哪個車站下火車?",
+      "starter": "Which",
+      "answer": "Which station should we get off at?",
+      "answerZh": "我們應該在哪個車站下火車?",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Nobody saw who Jordan started a romantic relationship with at the party.",
+      "promptZh": "沒有人看見佐敦在派對上與誰開始浪漫關係。",
+      "starter": "Nobody",
+      "answer": "Nobody saw who Jordan got off with at the party.",
+      "answerZh": "沒有人看見佐敦在派對上與誰發展了親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The museum is not the final stop; leave the coach there and walk the rest of the way.",
+      "promptZh": "博物館不是終點站;在那裏下旅遊巴,然後步行餘下路程。",
+      "starter": "The",
+      "answer": "The museum is not the final stop; get off the coach there and walk the rest of the way.",
+      "answerZh": "博物館不是終點站;在那裏下旅遊巴,然後步行餘下路程。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "His friends think he gets an unusually strong feeling of excitement from taking dangerous chances.",
+      "promptZh": "他的朋友認為,他從冒險中得到異常強烈的興奮感。",
+      "starter": "His",
+      "answer": "His friends think he gets off on taking dangerous chances.",
+      "answerZh": "他的朋友認為,他因冒險而感到十分興奮。",
+      "highlight": "gets off on",
+      "targetForm": "get off on doing something",
+      "targetMeaningZh": "因做某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although the sign was clear, the visitors refused to leave the private beach.",
+      "promptZh": "雖然告示十分清楚,但遊客拒絕離開私人海灘。",
+      "starter": "Although",
+      "answer": "Although the sign was clear, the visitors refused to get off the private beach.",
+      "answerZh": "雖然告示十分清楚,但遊客拒絕離開私人海灘。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "If we begin the journey before seven, the roads should still be quiet.",
+      "promptZh": "如果我們在七時前出發,道路應該仍然暢通。",
+      "starter": "If",
+      "answer": "If we get off before seven, the roads should still be quiet.",
+      "answerZh": "如果我們在七時前出發,道路應該仍然暢通。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "“Stop pressing against me!” the tired passenger said.",
+      "promptZh": "那名疲倦的乘客說:「不要再壓着我!」",
+      "starter": "Get",
+      "answer": "“Get off me!” the tired passenger said.",
+      "answerZh": "那名疲倦的乘客說:「不要再壓着我!」",
+      "highlight": "Get off",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "At which stop should tourists leave the bus for the old market?",
+      "promptZh": "遊客應該在哪個車站下巴士前往舊市場?",
+      "starter": "Where",
+      "answer": "Where should tourists get off for the old market?",
+      "answerZh": "遊客應該在哪裏下車前往舊市場?",
+      "highlight": "Where",
+      "targetForm": "get off",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although she liked him, Grace said she had not started a romantic relationship with him at the party.",
+      "promptZh": "雖然格蕾絲喜歡他,但她說自己沒有在派對上與他開始浪漫關係。",
+      "starter": "Although",
+      "answer": "Although she liked him, Grace said she had not got off with him at the party.",
+      "answerZh": "雖然格蕾絲喜歡他,但她說自己沒有在派對上與他發展親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The children climbed over the fence, but the farmer quickly ordered them to leave his land.",
+      "promptZh": "孩子們越過圍欄,但農夫立即命令他們離開自己的土地。",
+      "starter": "The",
+      "answer": "The children climbed over the fence, but the farmer quickly ordered them to get off his land.",
+      "answerZh": "孩子們越過圍欄,但農夫立即命令他們離開自己的土地。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "What gives the bully such a strong feeling of pleasure? Making other children afraid.",
+      "promptZh": "甚麼令那名欺凌者得到如此強烈的快感?就是令其他孩子害怕。",
+      "starter": "What",
+      "answer": "What does the bully get off on? Making other children afraid.",
+      "answerZh": "那名欺凌者因甚麼而得到強烈快感?就是令其他孩子害怕。",
+      "highlight": "does",
+      "targetForm": "get off on something",
+      "targetMeaningZh": "因某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "As soon as the cat jumped onto the baby, the mother told it to move away.",
+      "promptZh": "貓一跳到嬰兒身上,母親便叫牠移開。",
+      "starter": "As",
+      "answer": "As soon as the cat jumped onto the baby, the mother told it to get off.",
+      "answerZh": "貓一跳到嬰兒身上,母親便叫牠下來。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the storm was coming, the group wanted to begin its journey much earlier than planned.",
+      "promptZh": "由於暴風雨快將來臨,這群人希望比原定時間早很多出發。",
+      "starter": "Because",
+      "answer": "Because the storm was coming, the group wanted to get off much earlier than planned.",
+      "answerZh": "由於暴風雨快將來臨,這群人希望比原定時間早很多出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the train reaches the airport, check the map so that you know which station to leave it at.",
+      "promptZh": "火車到達機場前,查看地圖,確保你知道應在哪個車站下車。",
+      "starter": "Before",
+      "answer": "Before the train reaches the airport, check the map so that you know which station to get off at.",
+      "answerZh": "火車到達機場前,查看地圖,確保你知道應在哪個車站下車。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After breakfast, we could either wait for the rain to stop or begin the journey at once.",
+      "promptZh": "早餐後,我們可以等待雨停,亦可以立即出發。",
+      "starter": "After",
+      "answer": "After breakfast, we could either wait for the rain to stop or get off at once.",
+      "answerZh": "早餐後,我們可以等待雨停,亦可以立即出發。",
+      "highlight": "get off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "During the game, one boy fell on top of Ava and stayed there until she shouted at him to move.",
+      "promptZh": "比賽期間,一名男孩跌在艾娃身上,一直沒有移開,直至她大叫叫他移開。",
+      "starter": "During",
+      "answer": "During the game, one boy fell on top of Ava and stayed there until she shouted at him to get off her.",
+      "answerZh": "比賽期間,一名男孩跌在艾娃身上,一直沒有移開,直至她大叫叫他下來。",
+      "highlight": "get off her",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "At the end of the evening, Ben admitted that he had started a romantic relationship with someone he had just met.",
+      "promptZh": "晚上結束時,賓承認自己與一名剛認識的人開始了浪漫關係。",
+      "starter": "At",
+      "answer": "At the end of the evening, Ben admitted that he had got off with someone he had just met.",
+      "answerZh": "晚上結束時,賓承認自己與一名剛認識的人發展了親密關係。",
+      "highlight": "got off",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although most people dislike being watched, Nina seems to get a strong feeling of excitement from it.",
+      "promptZh": "雖然大部分人不喜歡被注視,但妮娜似乎會從中得到強烈的興奮感。",
+      "starter": "Although",
+      "answer": "Although most people dislike being watched, Nina seems to get off on it.",
+      "answerZh": "雖然大部分人不喜歡被注視,但妮娜似乎會因而感到十分興奮。",
+      "highlight": "get off on",
+      "targetForm": "get off on something",
+      "targetMeaningZh": "因某事而感到強烈興奮"
+    },
+    {
+      "id": "phrasal-verb-220-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "“You can take photographs from the road, but you must leave my field immediately,” the owner said.",
+      "promptZh": "地主說:「你可以在路上拍照,但必須立即離開我的田地。」",
+      "starter": "You",
+      "answer": "“You can take photographs from the road, but you must get off my field immediately,” the owner said.",
+      "answerZh": "地主說:「你可以在路上拍照,但必須立即離開我的田地。」",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某人的地方"
+    },
+    {
+      "id": "phrasal-verb-220-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We had packed before sunrise, but one missing bag stopped us from beginning the journey until nearly eight.",
+      "promptZh": "我們在日出前已收拾好行李,但一個不見了的袋令我們接近八時才能出發。",
+      "starter": "We",
+      "answer": "We had packed before sunrise, but one missing bag stopped us from getting off until nearly eight.",
+      "answerZh": "我們在日出前已收拾好行李,但一個不見了的袋令我們接近八時才能出發。",
+      "highlight": "getting off",
+      "targetForm": "get off",
+      "targetMeaningZh": "離開並開始旅程"
+    },
+    {
+      "id": "phrasal-verb-220-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "When the driver announced the town centre, several visitors left the bus while the others stayed on.",
+      "promptZh": "司機宣布到達市中心時,幾名遊客下了巴士,其他人則留在車上。",
+      "starter": "When",
+      "answer": "When the driver announced the town centre, several visitors got off the bus while the others stayed on.",
+      "answerZh": "司機宣布到達市中心時,幾名遊客下了巴士,其他人則留在車上。",
+      "highlight": "got off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "下車或離開交通工具"
+    },
+    {
+      "id": "phrasal-verb-220-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The two adults said they had only been talking, but their friends believed they had had a romantic or sexual experience together.",
+      "promptZh": "兩名成年人說他們只是在交談,但朋友相信他們曾有浪漫或性接觸。",
+      "starter": "The",
+      "answer": "The two adults said they had only been talking, but their friends believed they had got off with each other.",
+      "answerZh": "兩名成年人說他們只是在交談,但朋友相信他們曾與對方親熱。",
+      "highlight": "got off with each other",
+      "targetForm": "get off with somebody",
+      "targetMeaningZh": "與某人發展浪漫或性關係"
+    },
+    {
+      "id": "phrasal-verb-220-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "When the large dog put both front paws on Omar, he told it firmly to move away from him.",
+      "promptZh": "大狗把兩隻前腳放在奧馬身上時,他堅定地叫牠移開。",
+      "starter": "When",
+      "answer": "When the large dog put both front paws on Omar, he told it firmly to get off him.",
+      "answerZh": "大狗把兩隻前腳放在奧馬身上時,他堅定地叫牠從自己身上移開。",
+      "highlight": "get off",
+      "targetForm": "get off somebody",
+      "targetMeaningZh": "停止壓着或碰着某人"
+    },
+    {
+      "id": "phrasal-verb-220-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The sign did not merely ask visitors to avoid the flowers; it ordered them to leave the grass completely.",
+      "promptZh": "告示不只是要求遊客避開花朵,而是命令他們完全離開草地。",
+      "starter": "The",
+      "answer": "The sign did not merely ask visitors to avoid the flowers; it ordered them to get off the grass completely.",
+      "answerZh": "告示不只是要求遊客避開花朵,而是命令他們完全離開草地。",
+      "highlight": "get off",
+      "targetForm": "get off something",
+      "targetMeaningZh": "離開某處"
+    },
+    {
+      "id": "phrasal-verb-220-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Some people enjoy having power, but he seems to get a strong feeling of excitement from it.",
+      "promptZh": "有些人喜歡擁有權力,但他似乎會從中得到強烈的興奮感。",
+      "starter": "Some",
+      "answer": "Some people enjoy having power, but he seems to get off on it.",
+      "answerZh": "有些人喜歡擁有權力,但他似乎會因而感到十分興奮。",
+      "highlight": "get off on",
+      "targetForm": "get off on something",
+      "targetMeaningZh": "因某事而感到強烈興奮"
+    }
+  ]
+}

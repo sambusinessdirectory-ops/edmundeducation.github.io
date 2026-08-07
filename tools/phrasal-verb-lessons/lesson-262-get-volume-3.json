@@ -1,0 +1,2221 @@
+{
+  "id": "phrasal-verb-262",
+  "order": 262,
+  "slug": "get-volume-3",
+  "version": "1",
+  "title": "GET (VOLUME 3) 動詞片語",
+  "titleEn": "GET (Volume 3)",
+  "titleZh": "GET (VOLUME 3) 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 247 - GET (Volume 3).pdf",
+    "sourceNumber": 247,
+    "pageCount": 35,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 1
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET (VOLUME 3)",
+      "highlight": "GET (VOLUME 3)"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Did you get the washing in before the rain?",
+      "zh": "下雨前你有把晾在外面的衣服收進屋內嗎?",
+      "highlight": "get the washing in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I couldn't get all the books into the bag.",
+      "zh": "我無法把所有書放進袋裏。",
+      "highlight": "get all the books into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Did you get the money off him?",
+      "zh": "你有從他那裏拿到那筆錢嗎?",
+      "highlight": "get the money off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把放在外面的東西收進室內；把某物放進或塞進另一物件內；從某人那裏取得或拿到某物；把某物從另一物件上除下來；穿上衣物、鞋子等；設法把話說出來；令某人提供或說出某些資料；從某件事或活動中得到樂趣、好處或收穫；把某物從某處拿出來；把不愉快或令人緊張的事情完成；成功把訊息傳達給某人；使計劃、建議或改動獲得通過；把帳篷、建築物等搭建起來；打電話成功接通；用掉、吃掉或喝掉大量某物；捱過或渡過一段困難時期或經歷",
+    "en": "get something in; get something into something; get something off somebody; get something off something; get something on; get something out; get something out of somebody; get something out of something / doing something; get something out / get something out of something; get something over; get something through to somebody/something; get something through / get something through something; get something up; get through; get through something; get through / get through something",
+    "naturalZh": [
+      "把放在外面的東西收進室內",
+      "把某物放進或塞進另一物件內",
+      "從某人那裏取得或拿到某物",
+      "把某物從另一物件上除下來",
+      "穿上衣物、鞋子等",
+      "設法把話說出來",
+      "令某人提供或說出某些資料",
+      "從某件事或活動中得到樂趣、好處或收穫",
+      "把某物從某處拿出來",
+      "把不愉快或令人緊張的事情完成",
+      "成功把訊息傳達給某人",
+      "使計劃、建議或改動獲得通過",
+      "把帳篷、建築物等搭建起來",
+      "打電話成功接通",
+      "用掉、吃掉或喝掉大量某物",
+      "捱過或渡過一段困難時期或經歷"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get something in",
+      "titleZh": "把放在外面的東西收進室內",
+      "titleEn": "get something in",
+      "descriptionZh": "把放在外面的東西收進室內",
+      "descriptionEn": "Did you get the washing in before the rain?",
+      "examples": [
+        {
+          "en": "Did you get the washing in before the rain?",
+          "zh": "下雨前你有把晾在外面的衣服收進屋內嗎?",
+          "highlight": "get the washing in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something into something",
+      "titleZh": "把某物放進或塞進另一物件內",
+      "titleEn": "get something into something",
+      "descriptionZh": "把某物放進或塞進另一物件內",
+      "descriptionEn": "I couldn't get all the books into the bag.",
+      "examples": [
+        {
+          "en": "I couldn't get all the books into the bag.",
+          "zh": "我無法把所有書放進袋裏。",
+          "highlight": "get all the books into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something off somebody",
+      "titleZh": "從某人那裏取得或拿到某物",
+      "titleEn": "get something off somebody",
+      "descriptionZh": "從某人那裏取得或拿到某物",
+      "descriptionEn": "Did you get the money off him?",
+      "examples": [
+        {
+          "en": "Did you get the money off him?",
+          "zh": "你有從他那裏拿到那筆錢嗎?",
+          "highlight": "get the money off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something off something",
+      "titleZh": "把某物從另一物件上除下來",
+      "titleEn": "get something off something",
+      "descriptionZh": "把某物從另一物件上除下來",
+      "descriptionEn": "Can you get the top off this bottle?",
+      "examples": [
+        {
+          "en": "Can you get the top off this bottle?",
+          "zh": "你可以把這個瓶蓋打開嗎?",
+          "highlight": "get the top off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something on",
+      "titleZh": "穿上衣物、鞋子等",
+      "titleEn": "get something on",
+      "descriptionZh": "穿上衣物、鞋子等",
+      "descriptionEn": "Get your coat on and we'll leave.",
+      "examples": [
+        {
+          "en": "Get your coat on and we'll leave.",
+          "zh": "穿上外套,我們便出發。",
+          "highlight": "Get your coat on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something out",
+      "titleZh": "設法把話說出來",
+      "titleEn": "get something out",
+      "descriptionZh": "設法把話說出來",
+      "descriptionEn": "She was laughing so much she could hardly get the words out.",
+      "examples": [
+        {
+          "en": "She was laughing so much she could hardly get the words out.",
+          "zh": "她笑得太厲害,幾乎連話也說不出來。",
+          "highlight": "get the words out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something out of somebody",
+      "titleZh": "令某人提供或說出某些資料",
+      "titleEn": "get something out of somebody",
+      "descriptionZh": "令某人提供或說出某些資料",
+      "descriptionEn": "They finally got the truth out of him.",
+      "examples": [
+        {
+          "en": "They finally got the truth out of him.",
+          "zh": "他們終於令他說出真相。",
+          "highlight": "got the truth out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something out of something / doing something",
+      "titleZh": "從某件事或活動中得到樂趣、好處或收穫",
+      "titleEn": "get something out of something / doing something",
+      "descriptionZh": "從某件事或活動中得到樂趣、好處或收穫",
+      "descriptionEn": "She gets a lot out of learning new languages.",
+      "examples": [
+        {
+          "en": "She gets a lot out of learning new languages.",
+          "zh": "她從學習新語言中得到很多樂趣和收穫。",
+          "highlight": "gets a lot out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something out / get something out of something",
+      "titleZh": "把某物從某處拿出來",
+      "titleEn": "get something out / get something out of something",
+      "descriptionZh": "把某物從某處拿出來",
+      "descriptionEn": "Get your violin out and we'll start.",
+      "examples": [
+        {
+          "en": "Get your violin out and we'll start.",
+          "zh": "把你的小提琴拿出來,我們便開始。",
+          "highlight": "Get your violin out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something over",
+      "titleZh": "把不愉快或令人緊張的事情完成",
+      "titleEn": "get something over",
+      "descriptionZh": "把不愉快或令人緊張的事情完成",
+      "descriptionEn": "Can we just get this test over?",
+      "examples": [
+        {
+          "en": "Can we just get this test over?",
+          "zh": "我們可以快點把這個測驗完成嗎?",
+          "highlight": "get this test over"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something through to somebody/something",
+      "titleZh": "成功把訊息傳達給某人",
+      "titleEn": "get something through to somebody/something",
+      "descriptionZh": "成功把訊息傳達給某人",
+      "descriptionEn": "I need to get a message through to them.",
+      "examples": [
+        {
+          "en": "I need to get a message through to them.",
+          "zh": "我需要把訊息傳達給他們。",
+          "highlight": "get a message through to"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something through / get something through something",
+      "titleZh": "使計劃、建議或改動獲得通過",
+      "titleEn": "get something through / get something through something",
+      "descriptionZh": "使計劃、建議或改動獲得通過",
+      "descriptionEn": "We're still trying to get the proposal through.",
+      "examples": [
+        {
+          "en": "We're still trying to get the proposal through.",
+          "zh": "我們仍在嘗試令這項建議獲得通過。",
+          "highlight": "get the proposal through"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something up",
+      "titleZh": "把帳篷、建築物等搭建起來",
+      "titleEn": "get something up",
+      "descriptionZh": "把帳篷、建築物等搭建起來",
+      "descriptionEn": "We got the tent up before dark.",
+      "examples": [
+        {
+          "en": "We got the tent up before dark.",
+          "zh": "我們在天黑前把帳篷搭好了。",
+          "highlight": "got the tent up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get through",
+      "titleZh": "打電話成功接通",
+      "titleEn": "get through",
+      "descriptionZh": "打電話成功接通",
+      "descriptionEn": "I tried calling several times but couldn't get through.",
+      "examples": [
+        {
+          "en": "I tried calling several times but couldn't get through.",
+          "zh": "我嘗試打了幾次電話,但都未能接通。",
+          "highlight": "get through"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get through something",
+      "titleZh": "用掉、吃掉或喝掉大量某物",
+      "titleEn": "get through something",
+      "descriptionZh": "用掉、吃掉或喝掉大量某物",
+      "descriptionEn": "They get through a lot of coffee at work.",
+      "examples": [
+        {
+          "en": "They get through a lot of coffee at work.",
+          "zh": "他們工作時喝掉很多咖啡。",
+          "highlight": "get through"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get through / get through something",
+      "titleZh": "捱過或渡過一段困難時期或經歷",
+      "titleEn": "get through / get through something",
+      "descriptionZh": "捱過或渡過一段困難時期或經歷",
+      "descriptionEn": "She got through a very difficult year.",
+      "examples": [
+        {
+          "en": "She got through a very difficult year.",
+          "zh": "她捱過了非常艱難的一年。",
+          "highlight": "got through"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET (VOLUME 3) 片語動詞的實際用途",
+    "labelEn": "GET (VOLUME 3) Phrasal Verbs in Use",
+    "summaryZh": "你可以用 GET 表達把衣服收進屋內、把東西放入袋、把物件拿出來,以及穿上衣物。；get the words out、get the truth out of somebody 和 get a message through 都可以描述成功說出或傳達資料的不同情況。；get something out of something 可以描述你從課堂、興趣、旅程或活動中得到的樂趣、知識或好處。；get through 可以表示電話成功接通、用掉大量東西,或捱過一段困難的經歷。",
+    "summaryEn": "You can use GET to talk about bringing washing inside, putting something into a bag, taking something out or putting clothes on. Get the words out, get the truth out of somebody and get a message through all describe different ways of successfully communicating information. Get something out of something helps you describe the enjoyment, knowledge or benefit you receive from a class, hobby, trip or activity. Get through can describe a successful phone call, using a large amount of something, or surviving a difficult experience.",
+    "contextsZh": [
+      "使用 GET 描述日常處理物件的動作",
+      "談論成功說話和傳達訊息",
+      "談論從經歷中得到的收穫",
+      "理解 GET THROUGH 的三種常見意思"
+    ],
+    "contextsEn": [
+      "Use GET to describe everyday actions with objects",
+      "Talk about speaking and communicating successfully",
+      "Talk about what you gain from an experience",
+      "Use GET THROUGH for three very different real-life situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get something in",
+    "fixedHighlight": "get something in",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+    "correct": "get the washing in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；有些 GET 表達看起來十分相似,但意思可以完全不同。請閱讀整個情境。For example:get the violin out把小提琴拿出來get the words out把話說出來get the truth out of somebody令某人說出真相get a lot out of a course從課程中獲益良多；我打電話但未能接通。We got through three bottles of water.我們喝掉了三瓶水。She got through a difficult week.她捱過了艱難的一星期。",
+    "variableEn": "Keep the same people, things, time and meaning. Some GET expressions look almost the same but have very different meanings. Read the whole situation. Get through also has several meanings: I couldn't get through.",
+    "variableItemsZh": [
+      "get something in",
+      "get something into something",
+      "get something off somebody",
+      "get something off something",
+      "get something on",
+      "get something out",
+      "get something out of somebody",
+      "get something out of something / doing something",
+      "get something out / get something out of something",
+      "get something over",
+      "get something through to somebody/something",
+      "get something through / get something through something",
+      "get something up",
+      "get through",
+      "get through something",
+      "get through / get through something"
+    ],
+    "variableItemsEn": [
+      "get something in",
+      "get something into something",
+      "get something off somebody",
+      "get something off something",
+      "get something on",
+      "get something out",
+      "get something out of somebody",
+      "get something out of something / doing something",
+      "get something out / get something out of something",
+      "get something over",
+      "get something through to somebody/something",
+      "get something through / get something through something",
+      "get something up",
+      "get through",
+      "get through something",
+      "get through / get through something"
+    ],
+    "forms": [
+      {
+        "formZh": "把放在外面的東西收進室內",
+        "formEn": "get something in",
+        "exampleZh": "下雨前你有把晾在外面的衣服收進屋內嗎?",
+        "exampleEn": "Did you get the washing in before the rain?",
+        "highlight": "get the washing in"
+      },
+      {
+        "formZh": "把某物放進或塞進另一物件內",
+        "formEn": "get something into something",
+        "exampleZh": "我無法把所有書放進袋裏。",
+        "exampleEn": "I couldn't get all the books into the bag.",
+        "highlight": "get all the books into"
+      },
+      {
+        "formZh": "從某人那裏取得或拿到某物",
+        "formEn": "get something off somebody",
+        "exampleZh": "你有從他那裏拿到那筆錢嗎?",
+        "exampleEn": "Did you get the money off him?",
+        "highlight": "get the money off"
+      },
+      {
+        "formZh": "把某物從另一物件上除下來",
+        "formEn": "get something off something",
+        "exampleZh": "你可以把這個瓶蓋打開嗎?",
+        "exampleEn": "Can you get the top off this bottle?",
+        "highlight": "get the top off"
+      },
+      {
+        "formZh": "穿上衣物、鞋子等",
+        "formEn": "get something on",
+        "exampleZh": "穿上外套,我們便出發。",
+        "exampleEn": "Get your coat on and we'll leave.",
+        "highlight": "Get your coat on"
+      },
+      {
+        "formZh": "設法把話說出來",
+        "formEn": "get something out",
+        "exampleZh": "她笑得太厲害,幾乎連話也說不出來。",
+        "exampleEn": "She was laughing so much she could hardly get the words out.",
+        "highlight": "get the words out"
+      },
+      {
+        "formZh": "令某人提供或說出某些資料",
+        "formEn": "get something out of somebody",
+        "exampleZh": "他們終於令他說出真相。",
+        "exampleEn": "They finally got the truth out of him.",
+        "highlight": "got the truth out"
+      },
+      {
+        "formZh": "從某件事或活動中得到樂趣、好處或收穫",
+        "formEn": "get something out of something / doing something",
+        "exampleZh": "她從學習新語言中得到很多樂趣和收穫。",
+        "exampleEn": "She gets a lot out of learning new languages.",
+        "highlight": "gets a lot out"
+      },
+      {
+        "formZh": "把某物從某處拿出來",
+        "formEn": "get something out / get something out of something",
+        "exampleZh": "把你的小提琴拿出來,我們便開始。",
+        "exampleEn": "Get your violin out and we'll start.",
+        "highlight": "Get your violin out"
+      },
+      {
+        "formZh": "把不愉快或令人緊張的事情完成",
+        "formEn": "get something over",
+        "exampleZh": "我們可以快點把這個測驗完成嗎?",
+        "exampleEn": "Can we just get this test over?",
+        "highlight": "get this test over"
+      },
+      {
+        "formZh": "成功把訊息傳達給某人",
+        "formEn": "get something through to somebody/something",
+        "exampleZh": "我需要把訊息傳達給他們。",
+        "exampleEn": "I need to get a message through to them.",
+        "highlight": "get a message through to"
+      },
+      {
+        "formZh": "使計劃、建議或改動獲得通過",
+        "formEn": "get something through / get something through something",
+        "exampleZh": "我們仍在嘗試令這項建議獲得通過。",
+        "exampleEn": "We're still trying to get the proposal through.",
+        "highlight": "get the proposal through"
+      },
+      {
+        "formZh": "把帳篷、建築物等搭建起來",
+        "formEn": "get something up",
+        "exampleZh": "我們在天黑前把帳篷搭好了。",
+        "exampleEn": "We got the tent up before dark.",
+        "highlight": "got the tent up"
+      },
+      {
+        "formZh": "打電話成功接通",
+        "formEn": "get through",
+        "exampleZh": "我嘗試打了幾次電話,但都未能接通。",
+        "exampleEn": "I tried calling several times but couldn't get through.",
+        "highlight": "get through"
+      },
+      {
+        "formZh": "用掉、吃掉或喝掉大量某物",
+        "formEn": "get through something",
+        "exampleZh": "他們工作時喝掉很多咖啡。",
+        "exampleEn": "They get through a lot of coffee at work.",
+        "highlight": "get through"
+      },
+      {
+        "formZh": "捱過或渡過一段困難時期或經歷",
+        "formEn": "get through / get through something",
+        "exampleZh": "她捱過了非常艱難的一年。",
+        "exampleEn": "She got through a very difficult year.",
+        "highlight": "got through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把放在外面的東西收進室內",
+      "titleEn": "get something in",
+      "formula": "get something in",
+      "highlight": "get something in",
+      "descriptionZh": "把放在外面的東西收進室內",
+      "descriptionEn": "Did you get the washing in before the rain?",
+      "examples": [
+        {
+          "en": "Did you get the washing in before the rain?",
+          "zh": "下雨前你有把晾在外面的衣服收進屋內嗎?",
+          "highlight": "get the washing in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某物放進或塞進另一物件內",
+      "titleEn": "get something into something",
+      "formula": "get something into something",
+      "highlight": "get something into something",
+      "descriptionZh": "把某物放進或塞進另一物件內",
+      "descriptionEn": "I couldn't get all the books into the bag.",
+      "examples": [
+        {
+          "en": "I couldn't get all the books into the bag.",
+          "zh": "我無法把所有書放進袋裏。",
+          "highlight": "get all the books into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "從某人那裏取得或拿到某物",
+      "titleEn": "get something off somebody",
+      "formula": "get something off somebody",
+      "highlight": "get something off somebody",
+      "descriptionZh": "從某人那裏取得或拿到某物",
+      "descriptionEn": "Did you get the money off him?",
+      "examples": [
+        {
+          "en": "Did you get the money off him?",
+          "zh": "你有從他那裏拿到那筆錢嗎?",
+          "highlight": "get the money off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物從另一物件上除下來",
+      "titleEn": "get something off something",
+      "formula": "get something off something",
+      "highlight": "get something off something",
+      "descriptionZh": "把某物從另一物件上除下來",
+      "descriptionEn": "Can you get the top off this bottle?",
+      "examples": [
+        {
+          "en": "Can you get the top off this bottle?",
+          "zh": "你可以把這個瓶蓋打開嗎?",
+          "highlight": "get the top off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "穿上衣物、鞋子等",
+      "titleEn": "get something on",
+      "formula": "get something on",
+      "highlight": "get something on",
+      "descriptionZh": "穿上衣物、鞋子等",
+      "descriptionEn": "Get your coat on and we'll leave.",
+      "examples": [
+        {
+          "en": "Get your coat on and we'll leave.",
+          "zh": "穿上外套,我們便出發。",
+          "highlight": "Get your coat on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "設法把話說出來",
+      "titleEn": "get something out",
+      "formula": "get something out",
+      "highlight": "get something out",
+      "descriptionZh": "設法把話說出來",
+      "descriptionEn": "She was laughing so much she could hardly get the words out.",
+      "examples": [
+        {
+          "en": "She was laughing so much she could hardly get the words out.",
+          "zh": "她笑得太厲害,幾乎連話也說不出來。",
+          "highlight": "get the words out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "令某人提供或說出某些資料",
+      "titleEn": "get something out of somebody",
+      "formula": "get something out of somebody",
+      "highlight": "get something out of somebody",
+      "descriptionZh": "令某人提供或說出某些資料",
+      "descriptionEn": "They finally got the truth out of him.",
+      "examples": [
+        {
+          "en": "They finally got the truth out of him.",
+          "zh": "他們終於令他說出真相。",
+          "highlight": "got the truth out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "從某件事或活動中得到樂趣、好處或收穫",
+      "titleEn": "get something out of something / doing something",
+      "formula": "get something out of something / doing something",
+      "highlight": "get something out of something / doing something",
+      "descriptionZh": "從某件事或活動中得到樂趣、好處或收穫",
+      "descriptionEn": "She gets a lot out of learning new languages.",
+      "examples": [
+        {
+          "en": "She gets a lot out of learning new languages.",
+          "zh": "她從學習新語言中得到很多樂趣和收穫。",
+          "highlight": "gets a lot out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某物從某處拿出來",
+      "titleEn": "get something out / get something out of something",
+      "formula": "get something out / get something out of something",
+      "highlight": "get something out / get something out of something",
+      "descriptionZh": "把某物從某處拿出來",
+      "descriptionEn": "Get your violin out and we'll start.",
+      "examples": [
+        {
+          "en": "Get your violin out and we'll start.",
+          "zh": "把你的小提琴拿出來,我們便開始。",
+          "highlight": "Get your violin out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把不愉快或令人緊張的事情完成",
+      "titleEn": "get something over",
+      "formula": "get something over",
+      "highlight": "get something over",
+      "descriptionZh": "把不愉快或令人緊張的事情完成",
+      "descriptionEn": "Can we just get this test over?",
+      "examples": [
+        {
+          "en": "Can we just get this test over?",
+          "zh": "我們可以快點把這個測驗完成嗎?",
+          "highlight": "get this test over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "成功把訊息傳達給某人",
+      "titleEn": "get something through to somebody/something",
+      "formula": "get something through to somebody/something",
+      "highlight": "get something through to somebody/something",
+      "descriptionZh": "成功把訊息傳達給某人",
+      "descriptionEn": "I need to get a message through to them.",
+      "examples": [
+        {
+          "en": "I need to get a message through to them.",
+          "zh": "我需要把訊息傳達給他們。",
+          "highlight": "get a message through to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "使計劃、建議或改動獲得通過",
+      "titleEn": "get something through / get something through something",
+      "formula": "get something through / get something through something",
+      "highlight": "get something through / get something through something",
+      "descriptionZh": "使計劃、建議或改動獲得通過",
+      "descriptionEn": "We're still trying to get the proposal through.",
+      "examples": [
+        {
+          "en": "We're still trying to get the proposal through.",
+          "zh": "我們仍在嘗試令這項建議獲得通過。",
+          "highlight": "get the proposal through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把帳篷、建築物等搭建起來",
+      "titleEn": "get something up",
+      "formula": "get something up",
+      "highlight": "get something up",
+      "descriptionZh": "把帳篷、建築物等搭建起來",
+      "descriptionEn": "We got the tent up before dark.",
+      "examples": [
+        {
+          "en": "We got the tent up before dark.",
+          "zh": "我們在天黑前把帳篷搭好了。",
+          "highlight": "got the tent up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "打電話成功接通",
+      "titleEn": "get through",
+      "formula": "get through",
+      "highlight": "get through",
+      "descriptionZh": "打電話成功接通",
+      "descriptionEn": "I tried calling several times but couldn't get through.",
+      "examples": [
+        {
+          "en": "I tried calling several times but couldn't get through.",
+          "zh": "我嘗試打了幾次電話,但都未能接通。",
+          "highlight": "get through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "用掉、吃掉或喝掉大量某物",
+      "titleEn": "get through something",
+      "formula": "get through something",
+      "highlight": "get through something",
+      "descriptionZh": "用掉、吃掉或喝掉大量某物",
+      "descriptionEn": "They get through a lot of coffee at work.",
+      "examples": [
+        {
+          "en": "They get through a lot of coffee at work.",
+          "zh": "他們工作時喝掉很多咖啡。",
+          "highlight": "get through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "捱過或渡過一段困難時期或經歷",
+      "titleEn": "get through / get through something",
+      "formula": "get through / get through something",
+      "highlight": "get through / get through something",
+      "descriptionZh": "捱過或渡過一段困難時期或經歷",
+      "descriptionEn": "She got through a very difficult year.",
+      "examples": [
+        {
+          "en": "She got through a very difficult year.",
+          "zh": "她捱過了非常艱難的一年。",
+          "highlight": "got through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 GET 描述日常處理物件的動作",
+      "titleEn": "Use GET to describe everyday actions with objects",
+      "zh": "你可以用 GET 表達把衣服收進屋內、把東西放入袋、把物件拿出來,以及穿上衣物。",
+      "en": "You can use GET to talk about bringing washing inside, putting something into a bag, taking something out or putting clothes on."
+    },
+    {
+      "titleZh": "談論成功說話和傳達訊息",
+      "titleEn": "Talk about speaking and communicating successfully",
+      "zh": "get the words out、get the truth out of somebody 和 get a message through 都可以描述成功說出或傳達資料的不同情況。",
+      "en": "Get the words out, get the truth out of somebody and get a message through all describe different ways of successfully communicating information."
+    },
+    {
+      "titleZh": "談論從經歷中得到的收穫",
+      "titleEn": "Talk about what you gain from an experience",
+      "zh": "get something out of something 可以描述你從課堂、興趣、旅程或活動中得到的樂趣、知識或好處。",
+      "en": "Get something out of something helps you describe the enjoyment, knowledge or benefit you receive from a class, hobby, trip or activity."
+    },
+    {
+      "titleZh": "理解 GET THROUGH 的三種常見意思",
+      "titleEn": "Use GET THROUGH for three very different real-life situations",
+      "zh": "get through 可以表示電話成功接通、用掉大量東西,或捱過一段困難的經歷。",
+      "en": "Get through can describe a successful phone call, using a large amount of something, or surviving a difficult experience."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 GET 描述日常處理物件的動作",
+      "談論成功說話和傳達訊息",
+      "談論從經歷中得到的收穫",
+      "理解 GET THROUGH 的三種常見意思"
+    ],
+    "contextsEn": [
+      "Use GET to describe everyday actions with objects",
+      "Talk about speaking and communicating successfully",
+      "Talk about what you gain from an experience",
+      "Use GET THROUGH for three very different real-life situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 GET 描述日常處理物件的動作",
+        "titleEn": "Use GET to describe everyday actions with objects",
+        "zh": "你可以用 GET 表達把衣服收進屋內、把東西放入袋、把物件拿出來,以及穿上衣物。",
+        "en": "You can use GET to talk about bringing washing inside, putting something into a bag, taking something out or putting clothes on.",
+        "examples": [
+          {
+            "en": "Did you get the washing in before the rain?",
+            "zh": "下雨前你有把晾在外面的衣服收進屋內嗎?",
+            "highlight": "get the washing in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論成功說話和傳達訊息",
+        "titleEn": "Talk about speaking and communicating successfully",
+        "zh": "get the words out、get the truth out of somebody 和 get a message through 都可以描述成功說出或傳達資料的不同情況。",
+        "en": "Get the words out, get the truth out of somebody and get a message through all describe different ways of successfully communicating information.",
+        "examples": [
+          {
+            "en": "I couldn't get all the books into the bag.",
+            "zh": "我無法把所有書放進袋裏。",
+            "highlight": "get all the books into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論從經歷中得到的收穫",
+        "titleEn": "Talk about what you gain from an experience",
+        "zh": "get something out of something 可以描述你從課堂、興趣、旅程或活動中得到的樂趣、知識或好處。",
+        "en": "Get something out of something helps you describe the enjoyment, knowledge or benefit you receive from a class, hobby, trip or activity.",
+        "examples": [
+          {
+            "en": "Did you get the money off him?",
+            "zh": "你有從他那裏拿到那筆錢嗎?",
+            "highlight": "get the money off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 GET THROUGH 的三種常見意思",
+        "titleEn": "Use GET THROUGH for three very different real-life situations",
+        "zh": "get through 可以表示電話成功接通、用掉大量東西,或捱過一段困難的經歷。",
+        "en": "Get through can describe a successful phone call, using a large amount of something, or surviving a difficult experience.",
+        "examples": [
+          {
+            "en": "Can you get the top off this bottle?",
+            "zh": "你可以把這個瓶蓋打開嗎?",
+            "highlight": "get the top off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "有些 GET 表達看起來十分相似,但意思可以完全不同。請閱讀整個情境。For example:get the violin out把小提琴拿出來get the words out把話說出來get the truth out of somebody令某人說出真相get a lot out of a course從課程中獲益良多",
+      "titleEn": "Some GET expressions look almost the same but have very different meanings.",
+      "zh": "有些 GET 表達看起來十分相似,但意思可以完全不同。請閱讀整個情境。For example:get the violin out把小提琴拿出來get the words out把話說出來get the truth out of somebody令某人說出真相get a lot out of a course從課程中獲益良多",
+      "en": "Some GET expressions look almost the same but have very different meanings. Read the whole situation."
+    },
+    {
+      "titleZh": "我打電話但未能接通。We got through three bottles of water.我們喝掉了三瓶水。She got through a difficult week.她捱過了艱難的一星期。",
+      "titleEn": "Get through also has several meanings: I couldn't get through.",
+      "zh": "我打電話但未能接通。We got through three bottles of water.我們喝掉了三瓶水。She got through a difficult week.她捱過了艱難的一星期。",
+      "en": "Get through also has several meanings: I couldn't get through."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET (VOLUME 3) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 3). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET (VOLUME 3) 動詞片語句子改寫練習",
+    "titleEn": "GET (VOLUME 3) Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET (VOLUME 3) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 3). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-262-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "I called the clinic three times, but I could not make a phone connection.",
+      "promptZh": "我打了三次電話到診所,但都未能接通。",
+      "starter": "I",
+      "answer": "I called the clinic three times, but I couldn't get through.",
+      "answerZh": "我打了三次電話到診所,但都未能接通。",
+      "highlight": "couldn't get through",
+      "targetForm": "get through",
+      "targetMeaningZh": "打電話成功接通"
+    },
+    {
+      "id": "phrasal-verb-262-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Please put your coat on before we leave.",
+      "promptZh": "我們離開前,請穿上外套。",
+      "starter": "Please",
+      "answer": "Please get your coat on before we leave.",
+      "answerZh": "我們離開前,請穿上外套。",
+      "highlight": "get",
+      "targetForm": "get something on",
+      "targetMeaningZh": "穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-262-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Sara brought the washing inside when it started raining.",
+      "promptZh": "開始下雨時,莎拉把晾在外面的衣服收進屋內。",
+      "starter": "Sara",
+      "answer": "Sara got the washing in when it started raining.",
+      "answerZh": "開始下雨時,莎拉把晾在外面的衣服收進屋內。",
+      "highlight": "got",
+      "targetForm": "get something in",
+      "targetMeaningZh": "把放在外面的東西收進室內"
+    },
+    {
+      "id": "phrasal-verb-262-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Leo learns a lot from helping at the sports club.",
+      "promptZh": "里奧從在體育會幫忙的經驗中學到很多東西。",
+      "starter": "Leo",
+      "answer": "Leo gets a lot out of helping at the sports club.",
+      "answerZh": "里奧從在體育會幫忙的經驗中得到很多收穫。",
+      "highlight": "gets",
+      "targetForm": "get something out of doing something",
+      "targetMeaningZh": "從做某事中得到好處或收穫"
+    },
+    {
+      "id": "phrasal-verb-262-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Can you remove the lid from this jar?",
+      "promptZh": "你可以把這個瓶蓋打開嗎?",
+      "starter": "Can",
+      "answer": "Can you get the lid off this jar?",
+      "answerZh": "你可以把這個瓶蓋打開嗎?",
+      "highlight": "get",
+      "targetForm": "get something off something",
+      "targetMeaningZh": "把某物從另一物件上除下來"
+    },
+    {
+      "id": "phrasal-verb-262-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We just want to finish this test as soon as possible.",
+      "promptZh": "我們只想盡快完成這個測驗。",
+      "starter": "We",
+      "answer": "We just want to get this test over as soon as possible.",
+      "answerZh": "我們只想盡快完成這個測驗。",
+      "highlight": "get",
+      "targetForm": "get something over",
+      "targetMeaningZh": "把不愉快或令人緊張的事情完成"
+    },
+    {
+      "id": "phrasal-verb-262-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Did you receive the money from Daniel?",
+      "promptZh": "你有從丹尼爾那裏拿到那筆錢嗎?",
+      "starter": "Did",
+      "answer": "Did you get the money off Daniel?",
+      "answerZh": "你有從丹尼爾那裏拿到那筆錢嗎?",
+      "highlight": "get",
+      "targetForm": "get something off somebody",
+      "targetMeaningZh": "從某人那裏取得某物"
+    },
+    {
+      "id": "phrasal-verb-262-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "She was laughing so much that she could hardly say the words.",
+      "promptZh": "她笑得太厲害,幾乎連話也說不出來。",
+      "starter": "She",
+      "answer": "She was laughing so much that she could hardly get the words out.",
+      "answerZh": "她笑得太厲害,幾乎連話也說不出來。",
+      "highlight": "get",
+      "targetForm": "get something out",
+      "targetMeaningZh": "設法把話說出來"
+    },
+    {
+      "id": "phrasal-verb-262-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "They put the tent up before it became dark.",
+      "promptZh": "他們在天黑前搭好了帳篷。",
+      "starter": "They",
+      "answer": "They got the tent up before it became dark.",
+      "answerZh": "他們在天黑前搭好了帳篷。",
+      "highlight": "got",
+      "targetForm": "get something up",
+      "targetMeaningZh": "把帳篷、建築物等搭建起來"
+    },
+    {
+      "id": "phrasal-verb-262-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Take your violin out of its case and we'll begin.",
+      "promptZh": "把你的小提琴從盒中拿出來,我們便開始。",
+      "starter": "Get",
+      "answer": "Get your violin out of its case and we'll begin.",
+      "answerZh": "把你的小提琴從盒中拿出來,我們便開始。",
+      "highlight": "Get",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "把某物從某處拿出來"
+    },
+    {
+      "id": "phrasal-verb-262-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "He survived a very difficult month.",
+      "promptZh": "他捱過了非常艱難的一個月。",
+      "starter": "He",
+      "answer": "He got through a very difficult month.",
+      "answerZh": "他捱過了非常艱難的一個月。",
+      "highlight": "got through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期或經歷"
+    },
+    {
+      "id": "phrasal-verb-262-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "We need to make sure this message reaches them.",
+      "promptZh": "我們需要確保這個訊息能傳達給他們。",
+      "starter": "We",
+      "answer": "We need to get this message through to them.",
+      "answerZh": "我們需要把這個訊息傳達給他們。",
+      "highlight": "get",
+      "targetForm": "get something through to somebody",
+      "targetMeaningZh": "成功把訊息傳達給某人"
+    },
+    {
+      "id": "phrasal-verb-262-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "I could not fit all the books into the bag.",
+      "promptZh": "我無法把所有書放進袋裏。",
+      "starter": "I",
+      "answer": "I could not get all the books into the bag.",
+      "answerZh": "我無法把所有書放進袋裏。",
+      "highlight": "get",
+      "targetForm": "get something into something",
+      "targetMeaningZh": "把某物放進另一物件內"
+    },
+    {
+      "id": "phrasal-verb-262-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "She uses a whole box of tea bags every week.",
+      "promptZh": "她每星期用掉整整一盒茶包。",
+      "starter": "She",
+      "answer": "She gets through a whole box of tea bags every week.",
+      "answerZh": "她每星期用掉整整一盒茶包。",
+      "highlight": "gets through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "用掉、吃掉或喝掉大量某物"
+    },
+    {
+      "id": "phrasal-verb-262-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The club finally succeeded in having the new rule approved.",
+      "promptZh": "俱樂部終於成功令新規則獲得通過。",
+      "starter": "The",
+      "answer": "The club finally got the new rule through.",
+      "answerZh": "俱樂部終於令新規則獲得通過。",
+      "highlight": "got",
+      "targetForm": "get something through",
+      "targetMeaningZh": "使計劃、建議或改動獲得通過"
+    },
+    {
+      "id": "phrasal-verb-262-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The police managed to make him confess.",
+      "promptZh": "警方成功令他招認。",
+      "starter": "The",
+      "answer": "The police got a confession out of him.",
+      "answerZh": "警方成功令他招認。",
+      "highlight": "got a confession out of",
+      "targetForm": "get something out of somebody",
+      "targetMeaningZh": "令某人提供或說出資料"
+    },
+    {
+      "id": "phrasal-verb-262-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The workers are putting the small stage up now.",
+      "promptZh": "工人現在正在搭建小舞台。",
+      "starter": "The",
+      "answer": "The workers are getting the small stage up now.",
+      "answerZh": "工人現在正在搭建小舞台。",
+      "highlight": "getting",
+      "targetForm": "get something up",
+      "targetMeaningZh": "把某物搭建起來"
+    },
+    {
+      "id": "phrasal-verb-262-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Have you managed to make him tell you the truth yet?",
+      "promptZh": "你成功令他說出真相了嗎?",
+      "starter": "Have",
+      "answer": "Have you got the truth out of him yet?",
+      "answerZh": "你成功令他說出真相了嗎?",
+      "highlight": "got",
+      "targetForm": "get something out of somebody",
+      "targetMeaningZh": "令某人說出資料"
+    },
+    {
+      "id": "phrasal-verb-262-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "We may use six bottles of water during the walk.",
+      "promptZh": "我們在步行期間可能會喝掉六瓶水。",
+      "starter": "We",
+      "answer": "We may get through six bottles of water during the walk.",
+      "answerZh": "我們在步行期間可能會喝掉六瓶水。",
+      "highlight": "get through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "用掉、吃掉或喝掉大量某物"
+    },
+    {
+      "id": "phrasal-verb-262-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Have you brought the washing inside yet?",
+      "promptZh": "你把晾在外面的衣服收進屋內了嗎?",
+      "starter": "Have",
+      "answer": "Have you got the washing in yet?",
+      "answerZh": "你把晾在外面的衣服收進屋內了嗎?",
+      "highlight": "got",
+      "targetForm": "get something in",
+      "targetMeaningZh": "把放在外面的東西收進室內"
+    },
+    {
+      "id": "phrasal-verb-262-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "She has finally managed to make her message reach the manager.",
+      "promptZh": "她終於成功把訊息傳達給經理。",
+      "starter": "She",
+      "answer": "She has finally got her message through to the manager.",
+      "answerZh": "她終於成功把訊息傳達給經理。",
+      "highlight": "got",
+      "targetForm": "get something through to somebody",
+      "targetMeaningZh": "成功把訊息傳達給某人"
+    },
+    {
+      "id": "phrasal-verb-262-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "They are managing to survive a very difficult week.",
+      "promptZh": "他們正在努力捱過非常艱難的一星期。",
+      "starter": "They",
+      "answer": "They are getting through a very difficult week.",
+      "answerZh": "他們正在努力捱過非常艱難的一星期。",
+      "highlight": "getting through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期或經歷"
+    },
+    {
+      "id": "phrasal-verb-262-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "He could not remove the sticker from the bottle.",
+      "promptZh": "他無法把貼紙從瓶上除下。",
+      "starter": "He",
+      "answer": "He could not get the sticker off the bottle.",
+      "answerZh": "他無法把貼紙從瓶上除下。",
+      "highlight": "get",
+      "targetForm": "get something off something",
+      "targetMeaningZh": "把某物從另一物件上除下"
+    },
+    {
+      "id": "phrasal-verb-262-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Could you take the plates out of the cupboard?",
+      "promptZh": "你可以把碟子從櫥櫃拿出來嗎?",
+      "starter": "Could",
+      "answer": "Could you get the plates out of the cupboard?",
+      "answerZh": "你可以把碟子從櫥櫃拿出來嗎?",
+      "highlight": "get",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "把某物從某處拿出來"
+    },
+    {
+      "id": "phrasal-verb-262-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "When will we finally finish this meeting?",
+      "promptZh": "我們甚麼時候才能完成這個會議?",
+      "starter": "When",
+      "answer": "When will we get this meeting over?",
+      "answerZh": "我們甚麼時候才能完成這個會議?",
+      "highlight": "get",
+      "targetForm": "get something over",
+      "targetMeaningZh": "把不愉快或令人緊張的事情完成"
+    },
+    {
+      "id": "phrasal-verb-262-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "We managed to fit the table into the lift.",
+      "promptZh": "我們成功把桌子搬進升降機。",
+      "starter": "We",
+      "answer": "We managed to get the table into the lift.",
+      "answerZh": "我們成功把桌子搬進升降機。",
+      "highlight": "get",
+      "targetForm": "get something into something",
+      "targetMeaningZh": "把某物放進另一物件內"
+    },
+    {
+      "id": "phrasal-verb-262-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Have you managed to obtain the address from her?",
+      "promptZh": "你成功從她那裏取得地址了嗎?",
+      "starter": "Have",
+      "answer": "Have you managed to get the address off her?",
+      "answerZh": "你成功從她那裏取得地址了嗎?",
+      "highlight": "get",
+      "targetForm": "get something off somebody",
+      "targetMeaningZh": "從某人那裏取得某物"
+    },
+    {
+      "id": "phrasal-verb-262-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The child is putting his boots on now.",
+      "promptZh": "那個孩子現在正在穿靴。",
+      "starter": "The",
+      "answer": "The child is getting his boots on now.",
+      "answerZh": "那個孩子現在正在穿靴。",
+      "highlight": "getting",
+      "targetForm": "get something on",
+      "targetMeaningZh": "穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-262-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Have you managed to reach the hotel by phone?",
+      "promptZh": "你成功致電酒店並接通了嗎?",
+      "starter": "Have",
+      "answer": "Have you managed to get through to the hotel?",
+      "answerZh": "你成功致電酒店並接通了嗎?",
+      "highlight": "get through to",
+      "targetForm": "get through",
+      "targetMeaningZh": "打電話成功接通"
+    },
+    {
+      "id": "phrasal-verb-262-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "She has learnt a great deal from the course.",
+      "promptZh": "她從這個課程中學到很多東西。",
+      "starter": "She",
+      "answer": "She has got a great deal out of the course.",
+      "answerZh": "她從這個課程中得到很多收穫。",
+      "highlight": "got",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "從某事物中得到好處或收穫"
+    },
+    {
+      "id": "phrasal-verb-262-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Why can't you say the words?",
+      "promptZh": "你為甚麼說不出那些話?",
+      "starter": "Why",
+      "answer": "Why can't you get the words out?",
+      "answerZh": "你為甚麼說不出那些話?",
+      "highlight": "get",
+      "targetForm": "get something out",
+      "targetMeaningZh": "設法把話說出來"
+    },
+    {
+      "id": "phrasal-verb-262-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "We are still trying to have the proposal approved.",
+      "promptZh": "我們仍在嘗試令這項建議獲得通過。",
+      "starter": "We",
+      "answer": "We are still trying to get the proposal through.",
+      "answerZh": "我們仍在嘗試令這項建議獲得通過。",
+      "highlight": "get",
+      "targetForm": "get something through",
+      "targetMeaningZh": "使計劃或建議獲得通過"
+    },
+    {
+      "id": "phrasal-verb-262-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Did you receive it from your brother?",
+      "promptZh": "你有從哥哥那裏拿到它嗎?",
+      "starter": "Did",
+      "answer": "Did you get it off your brother?",
+      "answerZh": "你有從哥哥那裏拿到它嗎?",
+      "highlight": "get",
+      "targetForm": "get something off somebody",
+      "targetMeaningZh": "從某人那裏取得某物"
+    },
+    {
+      "id": "phrasal-verb-262-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Can you take it out of the box?",
+      "promptZh": "你可以把它從箱子拿出來嗎?",
+      "starter": "Can",
+      "answer": "Can you get it out of the box?",
+      "answerZh": "你可以把它從箱子拿出來嗎?",
+      "highlight": "get",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "把某物從某處拿出來"
+    },
+    {
+      "id": "phrasal-verb-262-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I kept trying until I finally made the message reach them.",
+      "promptZh": "我不斷嘗試,直到最後成功把訊息傳達給他們。",
+      "starter": "I",
+      "answer": "I kept trying until I finally got the message through to them.",
+      "answerZh": "我不斷嘗試,直到最後成功把訊息傳達給他們。",
+      "highlight": "got",
+      "targetForm": "get something through to somebody",
+      "targetMeaningZh": "成功把訊息傳達給某人"
+    },
+    {
+      "id": "phrasal-verb-262-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The bus is coming, so put your jacket on now.",
+      "promptZh": "巴士快到了,所以現在穿上外套吧。",
+      "starter": "The",
+      "answer": "The bus is coming, so get your jacket on now.",
+      "answerZh": "巴士快到了,所以現在穿上外套吧。",
+      "highlight": "get",
+      "targetForm": "get something on",
+      "targetMeaningZh": "穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-262-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "It was a difficult winter, but we survived it.",
+      "promptZh": "那是一個艱難的冬天,但我們捱過去了。",
+      "starter": "It",
+      "answer": "It was a difficult winter, but we got through it.",
+      "answerZh": "那是一個艱難的冬天,但我們捱過去了。",
+      "highlight": "got through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期或經歷"
+    },
+    {
+      "id": "phrasal-verb-262-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I could not fit the key into the small hole.",
+      "promptZh": "我無法把鎖匙插進那個小孔。",
+      "starter": "I",
+      "answer": "I could not get the key into the small hole.",
+      "answerZh": "我無法把鎖匙插進那個小孔。",
+      "highlight": "get",
+      "targetForm": "get something into something",
+      "targetMeaningZh": "把某物放進另一物件內"
+    },
+    {
+      "id": "phrasal-verb-262-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "She wanted to answer, but she was too shocked to say anything.",
+      "promptZh": "她想回答,但太震驚,甚麼也說不出來。",
+      "starter": "She",
+      "answer": "She wanted to answer, but she could not get anything out.",
+      "answerZh": "她想回答,但甚麼也說不出來。",
+      "highlight": "could not get",
+      "targetForm": "get something out",
+      "targetMeaningZh": "設法把話說出來"
+    },
+    {
+      "id": "phrasal-verb-262-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The cap is stuck, and I cannot remove it from the bottle.",
+      "promptZh": "瓶蓋卡住了,我無法把它從瓶上除下。",
+      "starter": "The",
+      "answer": "The cap is stuck, and I cannot get it off the bottle.",
+      "answerZh": "瓶蓋卡住了,我無法把它從瓶上除下。",
+      "highlight": "get",
+      "targetForm": "get something off something",
+      "targetMeaningZh": "把某物從另一物件上除下"
+    },
+    {
+      "id": "phrasal-verb-262-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We do not usually use more than one bottle of milk a day.",
+      "promptZh": "我們通常每日不會用掉超過一瓶牛奶。",
+      "starter": "We",
+      "answer": "We do not usually get through more than one bottle of milk a day.",
+      "answerZh": "我們通常每日不會用掉超過一瓶牛奶。",
+      "highlight": "get through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "用掉、吃掉或喝掉大量某物"
+    },
+    {
+      "id": "phrasal-verb-262-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "I learn a lot from working with younger students.",
+      "promptZh": "我從與年幼學生一起工作中學到很多東西。",
+      "starter": "I",
+      "answer": "I get a lot out of working with younger students.",
+      "answerZh": "我從與年幼學生一起工作中得到很多收穫。",
+      "highlight": "get",
+      "targetForm": "get something out of doing something",
+      "targetMeaningZh": "從做某事中得到好處或收穫"
+    },
+    {
+      "id": "phrasal-verb-262-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We brought the tent, but we could not put it up in the strong wind.",
+      "promptZh": "我們帶了帳篷,但風太大,無法把它搭起來。",
+      "starter": "We",
+      "answer": "We brought the tent, but we could not get it up in the strong wind.",
+      "answerZh": "我們帶了帳篷,但風太大,無法把它搭起來。",
+      "highlight": "get",
+      "targetForm": "get something up",
+      "targetMeaningZh": "把某物搭建起來"
+    },
+    {
+      "id": "phrasal-verb-262-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The towels are outside. Bring them in before it rains.",
+      "promptZh": "毛巾在外面。下雨前把它們收進來。",
+      "starter": "The",
+      "answer": "The towels are outside. Get them in before it rains.",
+      "answerZh": "毛巾在外面。下雨前把它們收進來。",
+      "highlight": "Get",
+      "targetForm": "get something in",
+      "targetMeaningZh": "把放在外面的東西收進室內"
+    },
+    {
+      "id": "phrasal-verb-262-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The interview will be unpleasant, but I want to finish it quickly.",
+      "promptZh": "面試可能會令人不舒服,但我想快點完成它。",
+      "starter": "The",
+      "answer": "The interview will be unpleasant, but I want to get it over quickly.",
+      "answerZh": "面試可能會令人不舒服,但我想快點完成它。",
+      "highlight": "get",
+      "targetForm": "get something over",
+      "targetMeaningZh": "把不愉快或令人緊張的事情完成"
+    },
+    {
+      "id": "phrasal-verb-262-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "After waiting ten minutes, I finally reached someone at the office by phone.",
+      "promptZh": "等了十分鐘後,我終於打通電話,聯絡到辦公室的人。",
+      "starter": "After",
+      "answer": "After waiting ten minutes, I finally got through to someone at the office.",
+      "answerZh": "等了十分鐘後,我終於打通電話,聯絡到辦公室的人。",
+      "highlight": "got through to",
+      "targetForm": "get through",
+      "targetMeaningZh": "打電話成功接通"
+    },
+    {
+      "id": "phrasal-verb-262-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The group only succeeded in having the change approved after two meetings.",
+      "promptZh": "小組開了兩次會議後,才成功令這項改動獲得通過。",
+      "starter": "The",
+      "answer": "The group only got the change through after two meetings.",
+      "answerZh": "小組開了兩次會議後,才成功令這項改動獲得通過。",
+      "highlight": "got",
+      "targetForm": "get something through",
+      "targetMeaningZh": "使計劃、建議或改動獲得通過"
+    },
+    {
+      "id": "phrasal-verb-262-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "No matter what we asked, we could not make him tell us anything.",
+      "promptZh": "無論我們問甚麼,都無法令他說出任何事情。",
+      "starter": "No",
+      "answer": "No matter what we asked, we could not get anything out of him.",
+      "answerZh": "無論我們問甚麼,都無法令他說出任何事情。",
+      "highlight": "get anything out of",
+      "targetForm": "get something out of somebody",
+      "targetMeaningZh": "令某人提供或說出資料"
+    },
+    {
+      "id": "phrasal-verb-262-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Ravi attended every class but learnt very little from the course.",
+      "promptZh": "拉維每堂課都有出席,但從課程中學到的東西很少。",
+      "starter": "Ravi",
+      "answer": "Ravi got very little out of the course.",
+      "answerZh": "拉維從這個課程中得到的收穫很少。",
+      "highlight": "got",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "從某事物中得到好處或收穫"
+    },
+    {
+      "id": "phrasal-verb-262-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I kept hearing the phone ring, but I never successfully reached her.",
+      "promptZh": "我一直聽到電話響,但始終未能成功聯絡到她。",
+      "starter": "I",
+      "answer": "I kept hearing the phone ring, but I never got through to her.",
+      "answerZh": "我一直聽到電話響,但始終未能成功聯絡到她。",
+      "highlight": "got through to",
+      "targetForm": "get through",
+      "targetMeaningZh": "打電話成功接通"
+    },
+    {
+      "id": "phrasal-verb-262-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The clothes were outside when the rain began, so we hurried to bring them indoors.",
+      "promptZh": "開始下雨時,衣服仍在外面,所以我們趕快把它們收進屋內。",
+      "starter": "When",
+      "answer": "When the rain began, we hurried to get the clothes in.",
+      "answerZh": "開始下雨時,我們趕快把衣服收進屋內。",
+      "highlight": "get the clothes in",
+      "targetForm": "get something in",
+      "targetMeaningZh": "把放在外面的東西收進室內"
+    },
+    {
+      "id": "phrasal-verb-262-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Everyone in the club liked the change, but we still had to persuade the leaders to approve it.",
+      "promptZh": "俱樂部所有人都喜歡這項改動,但我們仍要說服負責人批准。",
+      "starter": "We",
+      "answer": "We still had to get the change through.",
+      "answerZh": "我們仍要令這項改動獲得通過。",
+      "highlight": "get",
+      "targetForm": "get something through",
+      "targetMeaningZh": "使計劃、建議或改動獲得通過"
+    },
+    {
+      "id": "phrasal-verb-262-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The child knew what had happened, but it took time to make him tell the truth.",
+      "promptZh": "那個孩子知道發生了甚麼事,但我們花了一些時間才令他說出真相。",
+      "starter": "It",
+      "answer": "It took time to get the truth out of the child.",
+      "answerZh": "我們花了一些時間才令那個孩子說出真相。",
+      "highlight": "get",
+      "targetForm": "get something out of somebody",
+      "targetMeaningZh": "令某人提供或說出資料"
+    },
+    {
+      "id": "phrasal-verb-262-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "It was cold, but Noah was still standing by the door without his jumper on.",
+      "promptZh": "天氣很冷,但諾亞仍站在門旁,還未穿上冷衫。",
+      "starter": "Noah",
+      "answer": "Noah still hadn't got his jumper on.",
+      "answerZh": "諾亞仍未穿上冷衫。",
+      "highlight": "hadn't got",
+      "targetForm": "get something on",
+      "targetMeaningZh": "穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-262-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The label was fixed very firmly to the jar, and we could not remove it.",
+      "promptZh": "標籤牢牢貼在瓶上,我們無法把它除下。",
+      "starter": "We",
+      "answer": "We could not get the label off the jar.",
+      "answerZh": "我們無法把標籤從瓶上除下。",
+      "highlight": "get the label off the jar",
+      "targetForm": "get something off something",
+      "targetMeaningZh": "把某物從另一物件上除下"
+    },
+    {
+      "id": "phrasal-verb-262-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The first week was hard, but she managed to survive without going home.",
+      "promptZh": "第一星期很艱難,但她仍成功捱過,沒有回家。",
+      "starter": "She",
+      "answer": "She got through the first week without going home.",
+      "answerZh": "她成功捱過第一星期,沒有回家。",
+      "highlight": "She got through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期或經歷"
+    },
+    {
+      "id": "phrasal-verb-262-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The teacher had an extra copy, and I managed to obtain it from her.",
+      "promptZh": "老師有一份額外副本,我成功從她那裏取得。",
+      "starter": "I",
+      "answer": "I managed to get a copy off the teacher.",
+      "answerZh": "我成功從老師那裏取得一份副本。",
+      "highlight": "get a copy off the teacher",
+      "targetForm": "get something off somebody",
+      "targetMeaningZh": "從某人那裏取得某物"
+    },
+    {
+      "id": "phrasal-verb-262-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Nobody enjoyed the long test, so everyone wanted to finish it as soon as possible.",
+      "promptZh": "沒有人喜歡這個長測驗,所以大家都想盡快完成。",
+      "starter": "Everyone",
+      "answer": "Everyone wanted to get the long test over as soon as possible.",
+      "answerZh": "大家都想盡快完成這個長測驗。",
+      "highlight": "Everyone wanted to get",
+      "targetForm": "get something over",
+      "targetMeaningZh": "把不愉快或令人緊張的事情完成"
+    },
+    {
+      "id": "phrasal-verb-262-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The strong wind made it difficult to put the tent up.",
+      "promptZh": "強風令搭建帳篷變得困難。",
+      "starter": "The",
+      "answer": "The strong wind made it difficult to get the tent up.",
+      "answerZh": "強風令搭建帳篷變得困難。",
+      "highlight": "get",
+      "targetForm": "get something up",
+      "targetMeaningZh": "把某物搭建起來"
+    },
+    {
+      "id": "phrasal-verb-262-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "He knew the answer, but he was so nervous that he could not say the words.",
+      "promptZh": "他知道答案,但太緊張,說不出那些話。",
+      "starter": "He",
+      "answer": "He knew the answer, but he could not get the words out.",
+      "answerZh": "他知道答案,但太緊張,說不出那些話。",
+      "highlight": "get",
+      "targetForm": "get something out",
+      "targetMeaningZh": "設法把話說出來"
+    },
+    {
+      "id": "phrasal-verb-262-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The suitcase was almost full, but she managed to fit one more shirt inside.",
+      "promptZh": "行李箱幾乎滿了,但她仍成功把多一件恤衫放進去。",
+      "starter": "The",
+      "answer": "The suitcase was almost full, but she managed to get one more shirt into it.",
+      "answerZh": "行李箱幾乎滿了,但她仍成功把多一件恤衫放進去。",
+      "highlight": "get",
+      "targetForm": "get something into something",
+      "targetMeaningZh": "把某物放進另一物件內"
+    },
+    {
+      "id": "phrasal-verb-262-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The phone lines were busy, but we finally succeeded in making the urgent message reach the team.",
+      "promptZh": "電話線十分繁忙,但我們最後成功把緊急訊息傳達給團隊。",
+      "starter": "We",
+      "answer": "We finally got the urgent message through to the team.",
+      "answerZh": "我們最後成功把緊急訊息傳達給團隊。",
+      "highlight": "got",
+      "targetForm": "get something through to somebody",
+      "targetMeaningZh": "成功把訊息傳達給某人"
+    },
+    {
+      "id": "phrasal-verb-262-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "During the hot walk, the group drank six bottles of water.",
+      "promptZh": "在炎熱的步行旅程中,一行人喝掉了六瓶水。",
+      "starter": "During",
+      "answer": "During the hot walk, the group got through six bottles of water.",
+      "answerZh": "在炎熱的步行旅程中,一行人喝掉了六瓶水。",
+      "highlight": "got through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "用掉、吃掉或喝掉大量某物"
+    },
+    {
+      "id": "phrasal-verb-262-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The guitar had been inside its case all month, so he took it out and started playing.",
+      "promptZh": "結他整個月都放在盒裏,所以他把它拿出來開始彈奏。",
+      "starter": "He",
+      "answer": "He got the guitar out of its case and started playing.",
+      "answerZh": "他把結他從盒中拿出來,開始彈奏。",
+      "highlight": "He got",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "把某物從某處拿出來"
+    },
+    {
+      "id": "phrasal-verb-262-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "After three meetings and several changes, the club finally succeeded in having the new plan approved.",
+      "promptZh": "經過三次會議和幾次修改後,俱樂部終於成功令新計劃獲得通過。",
+      "starter": "After",
+      "answer": "After three meetings and several changes, the club finally got the new plan through.",
+      "answerZh": "經過三次會議和幾次修改後,俱樂部終於成功令新計劃獲得通過。",
+      "highlight": "got",
+      "targetForm": "get something through",
+      "targetMeaningZh": "使計劃、建議或改動獲得通過"
+    },
+    {
+      "id": "phrasal-verb-262-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "She had practised the speech, but when her name was called, she was so nervous that she could barely say the opening sentence.",
+      "promptZh": "她已練習過演講,但當有人叫她的名字時,她緊張得幾乎說不出開場的一句。",
+      "starter": "When",
+      "answer": "When her name was called, she was so nervous that she could barely get the opening sentence out.",
+      "answerZh": "當有人叫她的名字時,她緊張得幾乎說不出開場的一句。",
+      "highlight": "get",
+      "targetForm": "get something out",
+      "targetMeaningZh": "設法把話說出來"
+    },
+    {
+      "id": "phrasal-verb-262-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The trip was tiring, but the students learnt a lot from planning everything themselves.",
+      "promptZh": "旅程很累,但學生從自己安排一切的過程中學到很多東西。",
+      "starter": "The",
+      "answer": "The students got a lot out of planning everything themselves.",
+      "answerZh": "學生從自己安排一切的過程中得到很多收穫。",
+      "highlight": "got",
+      "targetForm": "get something out of doing something",
+      "targetMeaningZh": "從做某事中得到好處或收穫"
+    },
+    {
+      "id": "phrasal-verb-262-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The lid had been tightened too hard, and none of us could remove it from the bottle.",
+      "promptZh": "瓶蓋扭得太緊,我們沒有一個人能把它打開。",
+      "starter": "None",
+      "answer": "None of us could get the lid off the bottle.",
+      "answerZh": "我們沒有一個人能把瓶蓋打開。",
+      "highlight": "get the lid off",
+      "targetForm": "get something off something",
+      "targetMeaningZh": "把某物從另一物件上除下"
+    },
+    {
+      "id": "phrasal-verb-262-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The course was much harder than he expected, but support from his friends helped him survive until the end.",
+      "promptZh": "課程比他預期困難得多,但朋友的支持幫助他捱到最後。",
+      "starter": "With",
+      "answer": "With support from his friends, he got through the course.",
+      "answerZh": "在朋友的支持下,他成功捱過了這個課程。",
+      "highlight": "With",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期或經歷"
+    },
+    {
+      "id": "phrasal-verb-262-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "I had forgotten the address, but luckily I managed to obtain it from Elena before leaving.",
+      "promptZh": "我忘記了地址,但幸好在離開前成功從埃琳娜那裏取得。",
+      "starter": "Luckily",
+      "answer": "Luckily, I got the address off Elena before leaving.",
+      "answerZh": "幸好我在離開前從埃琳娜那裏取得了地址。",
+      "highlight": "Luckily",
+      "targetForm": "get something off somebody",
+      "targetMeaningZh": "從某人那裏取得某物"
+    },
+    {
+      "id": "phrasal-verb-262-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Dark clouds were coming, so we worked quickly and finished putting the tent up before the rain.",
+      "promptZh": "烏雲正在逼近,所以我們趕快工作,在下雨前把帳篷搭好。",
+      "starter": "Dark",
+      "answer": "Dark clouds were coming, so we got the tent up before the rain.",
+      "answerZh": "烏雲正在逼近,所以我們在下雨前把帳篷搭好。",
+      "highlight": "got",
+      "targetForm": "get something up",
+      "targetMeaningZh": "把某物搭建起來"
+    },
+    {
+      "id": "phrasal-verb-262-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "I tried calling all morning; only just before lunch did someone at the office finally answer.",
+      "promptZh": "我整個早上都在打電話,直到午飯前不久辦公室才終於有人接聽。",
+      "starter": "I",
+      "answer": "I tried calling all morning, but I didn't get through until just before lunch.",
+      "answerZh": "我整個早上都在打電話,直到午飯前不久才終於接通。",
+      "highlight": "but I didn't get through until",
+      "targetForm": "get through",
+      "targetMeaningZh": "打電話成功接通"
+    },
+    {
+      "id": "phrasal-verb-262-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The box looked large enough, but we still could not fit the new printer inside.",
+      "promptZh": "箱子看來夠大,但我們仍無法把新打印機放進去。",
+      "starter": "The",
+      "answer": "The box looked large enough, but we still could not get the new printer into it.",
+      "answerZh": "箱子看來夠大,但我們仍無法把新打印機放進去。",
+      "highlight": "get",
+      "targetForm": "get something into something",
+      "targetMeaningZh": "把某物放進另一物件內"
+    },
+    {
+      "id": "phrasal-verb-262-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The sky suddenly turned dark while the sheets were outside, so Ben ran into the garden and brought them indoors.",
+      "promptZh": "床單仍在外面時,天空突然變暗,所以賓跑到花園把它們收進屋內。",
+      "starter": "As",
+      "answer": "As the sky suddenly turned dark, Ben ran into the garden and got the sheets in.",
+      "answerZh": "天空突然變暗時,賓跑到花園把床單收進屋內。",
+      "highlight": "As",
+      "targetForm": "get something in",
+      "targetMeaningZh": "把放在外面的東西收進室內"
+    },
+    {
+      "id": "phrasal-verb-262-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The teacher asked everyone to take their instruments from their cases before the lesson began.",
+      "promptZh": "老師請大家在上課前把樂器從盒中拿出來。",
+      "starter": "Before",
+      "answer": "Before the lesson began, everyone got their instruments out of their cases.",
+      "answerZh": "上課前,大家都把樂器從盒中拿出來。",
+      "highlight": "everyone got their instruments out of their cases",
+      "targetForm": "get something out of something",
+      "targetMeaningZh": "把某物從某處拿出來"
+    },
+    {
+      "id": "phrasal-verb-262-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "We thought we had enough paper for the month, but the class used three packs in one week.",
+      "promptZh": "我們以為紙張足夠用一個月,但全班一星期便用掉了三包。",
+      "starter": "In",
+      "answer": "In one week, the class got through three packs of paper.",
+      "answerZh": "全班一星期便用掉了三包紙。",
+      "highlight": "the class got through three packs of paper",
+      "targetForm": "get through something",
+      "targetMeaningZh": "用掉、吃掉或喝掉大量某物"
+    },
+    {
+      "id": "phrasal-verb-262-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The boy refused to explain what had happened, but after a quiet talk his mother finally made him tell the whole story.",
+      "promptZh": "男孩拒絕解釋發生了甚麼事,但經過一番平靜的交談後,母親終於令他說出整件事。",
+      "starter": "After",
+      "answer": "After a quiet talk, his mother finally got the whole story out of him.",
+      "answerZh": "經過一番平靜的交談後,母親終於令他說出整件事。",
+      "highlight": "quiet talk",
+      "targetForm": "get something out of somebody",
+      "targetMeaningZh": "令某人提供或說出資料"
+    },
+    {
+      "id": "phrasal-verb-262-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Everyone knew the dentist visit would be unpleasant, so Aiden chose the earliest time because he wanted to finish it quickly.",
+      "promptZh": "大家都知道看牙醫不會舒服,所以艾登選了最早的時間,希望快點完成。",
+      "starter": "Aiden",
+      "answer": "Aiden chose the earliest time because he wanted to get the dentist visit over quickly.",
+      "answerZh": "艾登選了最早的時間,因為他希望快點完成看牙醫這件事。",
+      "highlight": "get the dentist visit over",
+      "targetForm": "get something over",
+      "targetMeaningZh": "把不愉快或令人緊張的事情完成"
+    },
+    {
+      "id": "phrasal-verb-262-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "The taxi had arrived, but Priya was still trying to put her shoes on while everyone waited.",
+      "promptZh": "的士已經到了,但大家等待時,普里雅仍在穿鞋。",
+      "starter": "Priya",
+      "answer": "Priya was still trying to get her shoes on while everyone waited.",
+      "answerZh": "大家等待時,普里雅仍在嘗試穿鞋。",
+      "highlight": "get",
+      "targetForm": "get something on",
+      "targetMeaningZh": "穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-262-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Because the internet kept failing, it took several attempts before our message finally reached the group.",
+      "promptZh": "由於網絡不斷出現問題,我們嘗試了幾次,訊息才終於傳達給小組。",
+      "starter": "It",
+      "answer": "It took several attempts to get our message through to the group.",
+      "answerZh": "我們嘗試了幾次,才成功把訊息傳達給小組。",
+      "highlight": "to get",
+      "targetForm": "get something through to somebody",
+      "targetMeaningZh": "成功把訊息傳達給某人"
+    }
+  ]
+}

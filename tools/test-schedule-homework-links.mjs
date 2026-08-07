@@ -27,7 +27,7 @@ const read = (file) => readFile(path.join(root, file), "utf8");
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2638, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 2932, "the Homework/Schedule catalogue should include every current learning resource and all 142 August flashcard decks");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -38,7 +38,7 @@ assert.equal((byType.speaking || []).length, 787, "all currently visible speakin
 assert.equal((byType["sentence-structure"] || []).length, 218, "all sentence structure lessons should be indexed");
 assert.equal((byType.idiom || []).length, 25, "all Idiom lessons should be indexed");
 assert.equal((byType.proverb || []).length, 1, "all Proverb lessons should be indexed");
-assert.equal((byType["phrasal-verb"] || []).length, 35, "all Phrasal Verb lessons should be indexed");
+assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 1, "Writing Submission should be available as a homework type");
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
@@ -46,13 +46,13 @@ assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
 assert.ok(ids.has("sentence:ss218"));
 assert.ok(ids.has("idiom:idiom-25"));
 assert.ok(ids.has("proverb:proverb-01"));
-assert.ok(ids.has("phrasal-verb:phrasal-verb-35"));
+assert.ok(ids.has("phrasal-verb:phrasal-verb-329"));
 assert.ok(ids.has("writing-submission:portal"));
 
 for (const [type, count, prefix] of [
   ["idiom", 25, "idiom"],
   ["proverb", 1, "proverb"],
-  ["phrasal-verb", 35, "phrasal-verb"]
+  ["phrasal-verb", 329, "phrasal-verb"]
 ]) {
   assert.deepEqual(
     (byType[type] || []).map((resource) => resource.ordinal),
@@ -470,7 +470,7 @@ assert.match(scheduleHtml, /data-homework-autocomplete/);
 assert.match(scheduleHtml, /data-homework-picker-search/);
 assert.match(scheduleHtml, /data-homework-attachments/);
 assert.match(scheduleJs, /serializeScheduleMessage\(visibleMessage, state\.editing\.resources\)/);
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260803-1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20260807-1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
 assert.match(scheduleJs, /nextMessage\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "attachment selection must enforce the serialized database budget");
 assert.match(scheduleJs, /message\.length > SCHEDULE_MESSAGE_MAX_LENGTH/, "Save must recheck the serialized database budget");

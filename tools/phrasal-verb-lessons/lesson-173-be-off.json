@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-173",
+  "order": 173,
+  "slug": "be-off",
+  "version": "1",
+  "title": "BE OFF 動詞片語",
+  "titleEn": "Be Off",
+  "titleZh": "BE OFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 172 - BE OFF.pdf",
+    "sourceNumber": 172,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BE OFF",
+      "highlight": "BE OFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I must be off now.",
+      "zh": "我現在得走了。",
+      "highlight": "be off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "How are we off for coffee?",
+      "zh": "我們還有多少咖啡?)We are well off for chairs.(我們有很多椅子。",
+      "highlight": "are we off for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Leo is off sweets this month.",
+      "zh": "里奧今個月不吃甜食。)She has been off her food all week.(她整個星期都沒有胃口。",
+      "highlight": "is off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "離開;走了；詢問或說明某物有多少、是否足夠；暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+    "en": "be off; be off for something; be off something",
+    "naturalZh": [
+      "離開;走了",
+      "詢問或說明某物有多少、是否足夠",
+      "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "be off",
+      "titleZh": "離開;走了",
+      "titleEn": "be off",
+      "descriptionZh": "離開;走了",
+      "descriptionEn": "I must be off now.",
+      "examples": [
+        {
+          "en": "I must be off now.",
+          "zh": "我現在得走了。",
+          "highlight": "be off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be off for something",
+      "titleZh": "詢問或說明某物有多少、是否足夠",
+      "titleEn": "be off for something",
+      "descriptionZh": "詢問或說明某物有多少、是否足夠",
+      "descriptionEn": "How are we off for coffee?",
+      "examples": [
+        {
+          "en": "How are we off for coffee?",
+          "zh": "我們還有多少咖啡?)We are well off for chairs.(我們有很多椅子。",
+          "highlight": "are we off for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be off something",
+      "titleZh": "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+      "titleEn": "be off something",
+      "descriptionZh": "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+      "descriptionEn": "Leo is off sweets this month.",
+      "examples": [
+        {
+          "en": "Leo is off sweets this month.",
+          "zh": "里奧今個月不吃甜食。)She has been off her food all week.(她整個星期都沒有胃口。",
+          "highlight": "is off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BE OFF 片語動詞的實際用途",
+    "labelEn": "BE OFF Phrasal Verbs in Use",
+    "summaryZh": "I must be off 和 We had better be off 都是表示是時候離開的自然說法。；How are we off for time? 和 How are we off for coffee? 可以用來詢問還有多少時間或物資。；你可以用 off coffee、off sweets 或 off some medicine,表示某人暫時不喝、不吃或不再服用某物。；be off your food 是一個實用的英式表達,表示某人不想吃東西或沒有胃口。",
+    "summaryEn": "Expressions such as I must be off and We had better be off are natural ways to say that it is time to leave. How are we off for time? and How are we off for coffee? help you check how much is available. You can say that someone is off coffee, off sweets or off some medicine. Be off your food is a useful British expression for saying that someone does not feel like eating.",
+    "contextsZh": [
+      "自然有禮地表示離開",
+      "查看時間或物資是否足夠",
+      "談論食物、飲品和藥物",
+      "表示沒有胃口"
+    ],
+    "contextsEn": [
+      "Leave a place naturally and politely",
+      "Check whether there is enough time or enough supplies",
+      "Talk about food, drinks and medicine",
+      "Describe a loss of appetite"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "be off",
+    "fixedHighlight": "be off",
+    "fixedZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+    "correct": "be off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；(我得走了。)be off 單獨使用時,通常表示「離開」。；(我們還有多少時間?)She is off coffee.(她暫時不喝咖啡。)She is off her food.(她沒有胃口。)off 後面的字詞會改變整個表達的意思。",
+    "variableEn": "Keep the same people, things, time and meaning. Be off by itself usually means “leave”: I must be off. The words after off change the meaning: How are we off for time?",
+    "variableItemsZh": [
+      "be off",
+      "be off for something",
+      "be off something"
+    ],
+    "variableItemsEn": [
+      "be off",
+      "be off for something",
+      "be off something"
+    ],
+    "forms": [
+      {
+        "formZh": "離開;走了",
+        "formEn": "be off",
+        "exampleZh": "我現在得走了。",
+        "exampleEn": "I must be off now.",
+        "highlight": "be off"
+      },
+      {
+        "formZh": "詢問或說明某物有多少、是否足夠",
+        "formEn": "be off for something",
+        "exampleZh": "我們還有多少咖啡?)We are well off for chairs.(我們有很多椅子。",
+        "exampleEn": "How are we off for coffee?",
+        "highlight": "are we off for"
+      },
+      {
+        "formZh": "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+        "formEn": "be off something",
+        "exampleZh": "里奧今個月不吃甜食。)She has been off her food all week.(她整個星期都沒有胃口。",
+        "exampleEn": "Leo is off sweets this month.",
+        "highlight": "is off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "離開;走了",
+      "titleEn": "be off",
+      "formula": "be off",
+      "highlight": "be off",
+      "descriptionZh": "離開;走了",
+      "descriptionEn": "I must be off now.",
+      "examples": [
+        {
+          "en": "I must be off now.",
+          "zh": "我現在得走了。",
+          "highlight": "be off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "詢問或說明某物有多少、是否足夠",
+      "titleEn": "be off for something",
+      "formula": "be off for something",
+      "highlight": "be off for something",
+      "descriptionZh": "詢問或說明某物有多少、是否足夠",
+      "descriptionEn": "How are we off for coffee?",
+      "examples": [
+        {
+          "en": "How are we off for coffee?",
+          "zh": "我們還有多少咖啡?)We are well off for chairs.(我們有很多椅子。",
+          "highlight": "are we off for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+      "titleEn": "be off something",
+      "formula": "be off something",
+      "highlight": "be off something",
+      "descriptionZh": "暫時不吃、不喝或不再服用某物;be off your food 表示沒有胃口",
+      "descriptionEn": "Leo is off sweets this month.",
+      "examples": [
+        {
+          "en": "Leo is off sweets this month.",
+          "zh": "里奧今個月不吃甜食。)She has been off her food all week.(她整個星期都沒有胃口。",
+          "highlight": "is off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然有禮地表示離開",
+      "titleEn": "Leave a place naturally and politely",
+      "zh": "I must be off 和 We had better be off 都是表示是時候離開的自然說法。",
+      "en": "Expressions such as I must be off and We had better be off are natural ways to say that it is time to leave."
+    },
+    {
+      "titleZh": "查看時間或物資是否足夠",
+      "titleEn": "Check whether there is enough time or enough supplies",
+      "zh": "How are we off for time? 和 How are we off for coffee? 可以用來詢問還有多少時間或物資。",
+      "en": "How are we off for time? and How are we off for coffee? help you check how much is available."
+    },
+    {
+      "titleZh": "談論食物、飲品和藥物",
+      "titleEn": "Talk about food, drinks and medicine",
+      "zh": "你可以用 off coffee、off sweets 或 off some medicine,表示某人暫時不喝、不吃或不再服用某物。",
+      "en": "You can say that someone is off coffee, off sweets or off some medicine."
+    },
+    {
+      "titleZh": "表示沒有胃口",
+      "titleEn": "Describe a loss of appetite",
+      "zh": "be off your food 是一個實用的英式表達,表示某人不想吃東西或沒有胃口。",
+      "en": "Be off your food is a useful British expression for saying that someone does not feel like eating."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然有禮地表示離開",
+      "查看時間或物資是否足夠",
+      "談論食物、飲品和藥物",
+      "表示沒有胃口"
+    ],
+    "contextsEn": [
+      "Leave a place naturally and politely",
+      "Check whether there is enough time or enough supplies",
+      "Talk about food, drinks and medicine",
+      "Describe a loss of appetite"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然有禮地表示離開",
+        "titleEn": "Leave a place naturally and politely",
+        "zh": "I must be off 和 We had better be off 都是表示是時候離開的自然說法。",
+        "en": "Expressions such as I must be off and We had better be off are natural ways to say that it is time to leave.",
+        "examples": [
+          {
+            "en": "I must be off now.",
+            "zh": "我現在得走了。",
+            "highlight": "be off"
+          }
+        ]
+      },
+      {
+        "titleZh": "查看時間或物資是否足夠",
+        "titleEn": "Check whether there is enough time or enough supplies",
+        "zh": "How are we off for time? 和 How are we off for coffee? 可以用來詢問還有多少時間或物資。",
+        "en": "How are we off for time? and How are we off for coffee? help you check how much is available.",
+        "examples": [
+          {
+            "en": "How are we off for coffee?",
+            "zh": "我們還有多少咖啡?)We are well off for chairs.(我們有很多椅子。",
+            "highlight": "are we off for"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論食物、飲品和藥物",
+        "titleEn": "Talk about food, drinks and medicine",
+        "zh": "你可以用 off coffee、off sweets 或 off some medicine,表示某人暫時不喝、不吃或不再服用某物。",
+        "en": "You can say that someone is off coffee, off sweets or off some medicine.",
+        "examples": [
+          {
+            "en": "Leo is off sweets this month.",
+            "zh": "里奧今個月不吃甜食。)She has been off her food all week.(她整個星期都沒有胃口。",
+            "highlight": "is off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示沒有胃口",
+        "titleEn": "Describe a loss of appetite",
+        "zh": "be off your food 是一個實用的英式表達,表示某人不想吃東西或沒有胃口。",
+        "en": "Be off your food is a useful British expression for saying that someone does not feel like eating.",
+        "examples": [
+          {
+            "en": "I must be off now.",
+            "zh": "我現在得走了。",
+            "highlight": "be off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "en": "Read the whole sentence and choose the BE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "(我得走了。)be off 單獨使用時,通常表示「離開」。",
+      "titleEn": "Be off by itself usually means “leave”: I must be off.",
+      "zh": "(我得走了。)be off 單獨使用時,通常表示「離開」。",
+      "en": "Be off by itself usually means “leave”: I must be off."
+    },
+    {
+      "titleZh": "(我們還有多少時間?)She is off coffee.(她暫時不喝咖啡。)She is off her food.(她沒有胃口。)off 後面的字詞會改變整個表達的意思。",
+      "titleEn": "The words after off change the meaning: How are we off for time?.",
+      "zh": "(我們還有多少時間?)She is off coffee.(她暫時不喝咖啡。)She is off her food.(她沒有胃口。)off 後面的字詞會改變整個表達的意思。",
+      "en": "The words after off change the meaning: How are we off for time?"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BE OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BE OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BE OFF 動詞片語句子改寫練習",
+    "titleEn": "BE OFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BE OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BE OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-173-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I must leave now, or I will miss the last bus.",
+      "promptZh": "我現在必須離開,否則會錯過尾班巴士。",
+      "starter": "I",
+      "answer": "I must be off now, or I will miss the last bus.",
+      "answerZh": "我現在必須離開,否則會錯過尾班巴士。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "How much coffee do we have this morning?",
+      "promptZh": "我們今早還有多少咖啡?",
+      "starter": "How",
+      "answer": "How are we off for coffee this morning?",
+      "answerZh": "我們今早還有多少咖啡?",
+      "highlight": "are we off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Chloe has not wanted to eat all week.",
+      "promptZh": "克洛伊整個星期都不想吃東西。",
+      "starter": "Chloe",
+      "answer": "Chloe has been off her food all week.",
+      "answerZh": "克洛伊整個星期都沒有胃口。",
+      "highlight": "been off her food",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We have plenty of chairs, so everyone can sit down.",
+      "promptZh": "我們有很多椅子,所以每個人都可以坐下。",
+      "starter": "We",
+      "answer": "We are well off for chairs, so everyone can sit down.",
+      "answerZh": "我們有很多椅子,所以每個人都可以坐下。",
+      "highlight": "are well off for",
+      "targetForm": "be well off for something",
+      "targetMeaningZh": "某物充足"
+    },
+    {
+      "id": "phrasal-verb-173-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam should leave before the rain starts.",
+      "promptZh": "山姆應該在下雨前離開。",
+      "starter": "Sam",
+      "answer": "Sam should be off before the rain starts.",
+      "answerZh": "山姆應該在下雨前離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I have decided not to drink coffee for the next month.",
+      "promptZh": "我決定未來一個月不喝咖啡。",
+      "starter": "I",
+      "answer": "I am off coffee for the next month.",
+      "answerZh": "我未來一個月不喝咖啡。",
+      "highlight": "am off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不喝某物"
+    },
+    {
+      "id": "phrasal-verb-173-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "How much time do you have before your train?",
+      "promptZh": "你的火車開出前,你還有多少時間?",
+      "starter": "How",
+      "answer": "How are you off for time before your train?",
+      "answerZh": "你的火車開出前,你還有多少時間?",
+      "highlight": "are you off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問有多少時間"
+    },
+    {
+      "id": "phrasal-verb-173-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "It is time for us to leave.",
+      "promptZh": "我們是時候離開了。",
+      "starter": "It",
+      "answer": "It is time we were off.",
+      "answerZh": "我們是時候離開了。",
+      "highlight": "is time we were off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The club has very few helpers this weekend.",
+      "promptZh": "這個週末,俱樂部只有很少人幫忙。",
+      "starter": "The",
+      "answer": "The club is badly off for helpers this weekend.",
+      "answerZh": "這個週末,俱樂部只有很少人幫忙。",
+      "highlight": "is badly off for",
+      "targetForm": "be badly off for something",
+      "targetMeaningZh": "某物或人手不足"
+    },
+    {
+      "id": "phrasal-verb-173-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo is not eating sweets at the moment.",
+      "promptZh": "里奧目前不吃甜食。",
+      "starter": "Leo",
+      "answer": "Leo is off sweets at the moment.",
+      "answerZh": "里奧目前不吃甜食。",
+      "highlight": "is off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不吃某物"
+    },
+    {
+      "id": "phrasal-verb-173-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Are you still not drinking milk after your stomach ache?",
+      "promptZh": "你肚痛之後仍然不喝牛奶嗎?",
+      "starter": "Are",
+      "answer": "Are you still off milk after your stomach ache?",
+      "answerZh": "你肚痛之後仍然不喝牛奶嗎?",
+      "highlight": "Are you still off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不喝某物"
+    },
+    {
+      "id": "phrasal-verb-173-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We had better leave before the shops close.",
+      "promptZh": "我們最好在商店關門前離開。",
+      "starter": "We",
+      "answer": "We had better be off before the shops close.",
+      "answerZh": "我們最好在商店關門前離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do we have plenty of paper, or should I buy some?",
+      "promptZh": "我們有足夠的紙嗎,還是我要買一些?",
+      "starter": "Are",
+      "answer": "Are we well off for paper, or should I buy some?",
+      "answerZh": "我們有足夠的紙嗎,還是我要買一些?",
+      "highlight": "Are",
+      "targetForm": "be well off for something",
+      "targetMeaningZh": "某物充足"
+    },
+    {
+      "id": "phrasal-verb-173-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nora did not want to eat yesterday, but she feels better today.",
+      "promptZh": "諾拉昨天沒有胃口,但今天感覺好多了。",
+      "starter": "Nora",
+      "answer": "Nora was off her food yesterday, but she feels better today.",
+      "answerZh": "諾拉昨天沒有胃口,但今天感覺好多了。",
+      "highlight": "was off her food",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Our class has plenty of tablets this term.",
+      "promptZh": "我們班今個學期有很多平板電腦。",
+      "starter": "Our",
+      "answer": "Our class is quite well off for tablets this term.",
+      "answerZh": "我們班今個學期有很多平板電腦。",
+      "highlight": "is quite well off for",
+      "targetForm": "be well off for something",
+      "targetMeaningZh": "某物充足"
+    },
+    {
+      "id": "phrasal-verb-173-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Aaron says he will leave after lunch.",
+      "promptZh": "亞倫說他午飯後會離開。",
+      "starter": "Aaron",
+      "answer": "Aaron says he will be off after lunch.",
+      "answerZh": "亞倫說他午飯後會離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ben has not been drinking fizzy drinks since Monday.",
+      "promptZh": "賓自星期一起一直沒有喝汽水。",
+      "starter": "Ben",
+      "answer": "Ben has been off fizzy drinks since Monday.",
+      "answerZh": "賓自星期一起一直沒有喝汽水。",
+      "highlight": "been off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不喝某物"
+    },
+    {
+      "id": "phrasal-verb-173-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "How much clean drinking water did they have during the trip?",
+      "promptZh": "他們旅途中有多少乾淨食水?",
+      "starter": "How",
+      "answer": "How were they off for clean drinking water during the trip?",
+      "answerZh": "他們旅途中有多少乾淨食水?",
+      "highlight": "were they off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Are you leaving already?",
+      "promptZh": "你已經要走了嗎?",
+      "starter": "Are",
+      "answer": "Are you off already?",
+      "answerZh": "你已經要走了嗎?",
+      "highlight": "Are you off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The doctor says I no longer need to take this medicine.",
+      "promptZh": "醫生說我現在不用再服這種藥。",
+      "starter": "The",
+      "answer": "The doctor says I can be off this medicine now.",
+      "answerZh": "醫生說我現在不用再服這種藥。",
+      "highlight": "can be off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "不再服用某物"
+    },
+    {
+      "id": "phrasal-verb-173-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Once the guests left, we locked the door.",
+      "promptZh": "客人離開後,我們鎖上了門。",
+      "starter": "Once",
+      "answer": "Once the guests were off, we locked the door.",
+      "answerZh": "客人離開後,我們鎖上了門。",
+      "highlight": "were off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開;走了"
+    },
+    {
+      "id": "phrasal-verb-173-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After not wanting to eat for three days, the child finally asked for soup.",
+      "promptZh": "那個孩子三天都沒有胃口,最後終於想喝湯。",
+      "starter": "After",
+      "answer": "After being off his food for three days, the child finally asked for soup.",
+      "answerZh": "那個孩子三天都沒有胃口,最後終於想喝湯。",
+      "highlight": "being off his food",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Before we start cooking, how many eggs do we have?",
+      "promptZh": "開始煮食前,我們有多少隻雞蛋?",
+      "starter": "Before",
+      "answer": "Before we start cooking, how are we off for eggs?",
+      "answerZh": "開始煮食前,我們有多少隻雞蛋?",
+      "highlight": "are we off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Priya was about to leave when the phone rang.",
+      "promptZh": "普里雅正準備離開時,電話響了。",
+      "starter": "Priya",
+      "answer": "Priya was about to be off when the phone rang.",
+      "answerZh": "普里雅正準備離開時,電話響了。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We have not eaten fried food since January.",
+      "promptZh": "我們自一月起沒有吃油炸食物。",
+      "starter": "We",
+      "answer": "We have been off fried food since January.",
+      "answerZh": "我們自一月起沒有吃油炸食物。",
+      "highlight": "been off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不吃某物"
+    },
+    {
+      "id": "phrasal-verb-173-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although we had very few plates, we served everyone.",
+      "promptZh": "雖然我們只有很少碟子,但仍然讓所有人吃到東西。",
+      "starter": "Although",
+      "answer": "Although we were badly off for plates, we served everyone.",
+      "answerZh": "雖然我們只有很少碟子,但仍然讓所有人吃到東西。",
+      "highlight": "were badly off for",
+      "targetForm": "be badly off for something",
+      "targetMeaningZh": "某物不足"
+    },
+    {
+      "id": "phrasal-verb-173-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If we want to catch the early ferry, we need to leave by six.",
+      "promptZh": "如果想趕上早班渡輪,我們需要在六時前離開。",
+      "starter": "If",
+      "answer": "If we want to catch the early ferry, we need to be off by six.",
+      "answerZh": "如果想趕上早班渡輪,我們需要在六時前離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why does Omar not want to eat today?",
+      "promptZh": "奧馬今天為甚麼沒有胃口?",
+      "starter": "Why",
+      "answer": "Why is Omar off his food today?",
+      "answerZh": "奧馬今天為甚麼沒有胃口?",
+      "highlight": "is",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At the moment, we still have a reasonable amount of time.",
+      "promptZh": "目前我們還有頗充足的時間。",
+      "starter": "At",
+      "answer": "At the moment, we are not badly off for time.",
+      "answerZh": "目前我們還有頗充足的時間。",
+      "highlight": "are not badly off for",
+      "targetForm": "be badly off for something",
+      "targetMeaningZh": "某物不足;否定形式表示並不太缺乏"
+    },
+    {
+      "id": "phrasal-verb-173-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the time I reached the door, they had already left.",
+      "promptZh": "我走到門口時,他們已經離開了。",
+      "starter": "By",
+      "answer": "By the time I reached the door, they were already off.",
+      "answerZh": "我走到門口時,他們已經離開了。",
+      "highlight": "were",
+      "targetForm": "be off",
+      "targetMeaningZh": "已經離開"
+    },
+    {
+      "id": "phrasal-verb-173-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before the trip, how much money did we have?",
+      "promptZh": "旅行前,我們有多少錢?",
+      "starter": "Before",
+      "answer": "Before the trip, how were we off for money?",
+      "answerZh": "旅行前,我們有多少錢?",
+      "highlight": "were we off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After thanking the host, Nina said she had to leave.",
+      "promptZh": "妮娜向主人道謝後,說她必須離開了。",
+      "starter": "After",
+      "answer": "After thanking the host, Nina said she must be off.",
+      "answerZh": "妮娜向主人道謝後,說她必須離開了。",
+      "highlight": "must be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although I did not drink tea for several weeks, I started drinking it again during the holiday.",
+      "promptZh": "雖然我幾個星期沒有喝茶,但放假期間又開始喝了。",
+      "starter": "Although",
+      "answer": "Although I was off tea for several weeks, I started drinking it again during the holiday.",
+      "answerZh": "雖然我幾個星期沒有喝茶,但放假期間又開始喝了。",
+      "highlight": "was off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不喝某物"
+    },
+    {
+      "id": "phrasal-verb-173-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The kitchen has plenty of rice but very little cooking oil.",
+      "promptZh": "廚房有很多米,但食油很少。",
+      "starter": "The",
+      "answer": "The kitchen is well off for rice but badly off for cooking oil.",
+      "answerZh": "廚房有很多米,但食油很少。",
+      "highlight": "is well off for",
+      "targetForm": "be well/badly off for something",
+      "targetMeaningZh": "某物充足/不足"
+    },
+    {
+      "id": "phrasal-verb-173-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Will you stop taking this medicine next week?",
+      "promptZh": "你下星期會停止服用這種藥嗎?",
+      "starter": "Will",
+      "answer": "Will you be off this medicine next week?",
+      "answerZh": "你下星期會停止服用這種藥嗎?",
+      "highlight": "be off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "不再服用某物"
+    },
+    {
+      "id": "phrasal-verb-173-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I think I will leave once this song finishes.",
+      "promptZh": "我想這首歌播完後便會離開。",
+      "starter": "I",
+      "answer": "I think I will be off once this song finishes.",
+      "answerZh": "我想這首歌播完後便會離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "How little space do we have in the car?",
+      "promptZh": "車內剩下的空間有多小?",
+      "starter": "How",
+      "answer": "How badly off are we for space in the car?",
+      "answerZh": "車內的空間有多不足?",
+      "highlight": "badly off are we for",
+      "targetForm": "be badly off for something",
+      "targetMeaningZh": "某物不足"
+    },
+    {
+      "id": "phrasal-verb-173-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Since Ava stopped eating sugar, she checks every food label.",
+      "promptZh": "艾娃停止吃糖後,便會查看每個食品標籤。",
+      "starter": "Since",
+      "answer": "Since Ava has been off sugar, she checks every food label.",
+      "answerZh": "艾娃停止吃糖後,便會查看每個食品標籤。",
+      "highlight": "has been off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不吃某物"
+    },
+    {
+      "id": "phrasal-verb-173-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The children left before their parents could say goodbye.",
+      "promptZh": "孩子們在父母來得及道別前已經離開了。",
+      "starter": "The",
+      "answer": "The children were off before their parents could say goodbye.",
+      "answerZh": "孩子們在父母來得及道別前已經離開了。",
+      "highlight": "were off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開;走了"
+    },
+    {
+      "id": "phrasal-verb-173-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We now have plenty of blankets after the donation.",
+      "promptZh": "收到捐贈後,我們現在有很多毛毯。",
+      "starter": "We",
+      "answer": "We are quite well off for blankets now, after the donation.",
+      "answerZh": "收到捐贈後,我們現在有很多毛毯。",
+      "highlight": "are quite well off for blankets",
+      "targetForm": "be well off for something",
+      "targetMeaningZh": "某物充足"
+    },
+    {
+      "id": "phrasal-verb-173-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Ella had not wanted to eat since the journey, so she only had a little soup.",
+      "promptZh": "埃拉自旅程後一直沒有胃口,所以只喝了一點湯。",
+      "starter": "Ella",
+      "answer": "Ella had been off her food since the journey, so she only had a little soup.",
+      "answerZh": "埃拉自旅程後一直沒有胃口,所以只喝了一點湯。",
+      "highlight": "been off her food",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before we invite the whole class, how many cups and plates do we have?",
+      "promptZh": "邀請全班之前,我們有多少杯和碟?",
+      "starter": "Before",
+      "answer": "Before we invite the whole class, how are we off for cups and plates?",
+      "answerZh": "邀請全班之前,我們有多少杯和碟?",
+      "highlight": "are we off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Unless we leave in the next five minutes, we will miss the train.",
+      "promptZh": "如果我們不在五分鐘內離開,便會錯過火車。",
+      "starter": "Unless",
+      "answer": "Unless we are off in the next five minutes, we will miss the train.",
+      "answerZh": "如果我們不在五分鐘內離開,便會錯過火車。",
+      "highlight": "are off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Daniel had not eaten meat for six months before he changed his mind.",
+      "promptZh": "丹尼爾有六個月沒有吃肉,之後改變了主意。",
+      "starter": "Daniel",
+      "answer": "Daniel had been off meat for six months before he changed his mind.",
+      "answerZh": "丹尼爾有六個月沒有吃肉,之後改變了主意。",
+      "highlight": "been off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "暫時不吃某物"
+    },
+    {
+      "id": "phrasal-verb-173-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the lights came on, the last visitors had already left.",
+      "promptZh": "燈亮起時,最後一批訪客已經離開了。",
+      "starter": "When",
+      "answer": "When the lights came on, the last visitors were already off.",
+      "answerZh": "燈亮起時,最後一批訪客已經離開了。",
+      "highlight": "were",
+      "targetForm": "be off",
+      "targetMeaningZh": "已經離開"
+    },
+    {
+      "id": "phrasal-verb-173-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the school has plenty of books, it has very little quiet study space.",
+      "promptZh": "雖然學校有很多書,但安靜的溫習空間很少。",
+      "starter": "Although",
+      "answer": "Although the school is well off for books, it is badly off for quiet study space.",
+      "answerZh": "雖然學校有很多書,但安靜的溫習空間很少。",
+      "highlight": "is well off for",
+      "targetForm": "be well/badly off for something",
+      "targetMeaningZh": "某物充足/不足"
+    },
+    {
+      "id": "phrasal-verb-173-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Do the children still have no appetite, or are they eating normally again?",
+      "promptZh": "孩子們仍然沒有胃口,還是已經恢復正常進食?",
+      "starter": "Are",
+      "answer": "Are the children still off their food, or are they eating normally again?",
+      "answerZh": "孩子們仍然沒有胃口,還是已經恢復正常進食?",
+      "highlight": "Are",
+      "targetForm": "be off one’s food",
+      "targetMeaningZh": "沒有胃口"
+    },
+    {
+      "id": "phrasal-verb-173-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After one look at the clock, I knew I had to leave.",
+      "promptZh": "我看了一眼時鐘,便知道自己必須離開。",
+      "starter": "After",
+      "answer": "After one look at the clock, I knew I had to be off.",
+      "answerZh": "我看了一眼時鐘,便知道自己必須離開。",
+      "highlight": "be off",
+      "targetForm": "be off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-173-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "With a long drive ahead, how much petrol do we have?",
+      "promptZh": "前面還有一段長路,我們有多少汽油?",
+      "starter": "With",
+      "answer": "With a long drive ahead, how are we off for petrol?",
+      "answerZh": "前面還有一段長路,我們有多少汽油?",
+      "highlight": "are we off for",
+      "targetForm": "be off for something",
+      "targetMeaningZh": "詢問某物有多少"
+    },
+    {
+      "id": "phrasal-verb-173-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Once I no longer need to take this medicine, I can return to my normal routine.",
+      "promptZh": "我不用再服這種藥後,便可以回復正常生活。",
+      "starter": "Once",
+      "answer": "Once I am off this medicine, I can return to my normal routine.",
+      "answerZh": "我不用再服這種藥後,便可以回復正常生活。",
+      "highlight": "am off",
+      "targetForm": "be off something",
+      "targetMeaningZh": "不再服用某物"
+    }
+  ]
+}

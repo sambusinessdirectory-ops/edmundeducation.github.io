@@ -1,0 +1,4858 @@
+{
+  "id": "phrasal-verb-261",
+  "order": 261,
+  "slug": "take",
+  "version": "1",
+  "title": "TAKE 動詞片語",
+  "titleEn": "Take",
+  "titleZh": "TAKE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 38,
+  "source": {
+    "file": "Phrasal Verbs 246 - TAKE.pdf",
+    "sourceNumber": 246,
+    "pageCount": 65,
+    "teachingPdfPages": [
+      1,
+      2,
+      7
+    ],
+    "exercisePdfPages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "answerKeyPdfPages": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TAKE 有關的片語動詞和固定表達。",
+    "en": "Learn and practise the phrasal verbs and fixed expressions related to TAKE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TAKE",
+      "highlight": "TAKE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "His angry reply took me aback.",
+      "zh": "他憤怒的回答令我感到意外。",
+      "highlight": "took",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ella takes after her father.",
+      "zh": "艾拉很像她的父親。",
+      "highlight": "takes after",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dog has taken against our new neighbour.",
+      "zh": "那隻狗突然開始不喜歡我們的新鄰居。",
+      "highlight": "taken against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "使某人感到意外或震驚；在外貌、性格或行為方面像某位家人；突然開始不喜歡某人或某事物；帶某人或某物同行;把某物帶到多個地方；徹底擊敗或嚴厲批評某人或某事物；把某物拆開成不同部分；帶某人參觀某個地方；把某人叫到一旁私下交談；把某人或某物帶走或送往另一個地方；減低某事物的價值、重要性或成就；美得或精彩得令某人驚嘆不已；把某人送回之前的地方；把某人或某物帶往較高或較低的位置;從高處取下某物；讓某人留宿或居住;安排某人接受正式照顧；把某人或某物帶進某個地方；理解、注意或充分認識某事物；吸入或吸收水、空氣、氧氣等物質；令某人或某事物進入新的階段、狀態或範圍；飛機或其他飛行器起飛；突然或匆忙離開；模仿某人的聲音、動作或行為；除去、停止使用、拿走或減少某人或某物；把視線從某人或某物移開；呈現新的外觀、色彩、聲音或性質；僱用某人;讓乘客或貨物登上交通工具；承擔工作、責任或困難任務；帶某人外出吃飯、娛樂或參加活動；取出、移除、破壞或令某人或某物無法繼續參與；仿效某人的好做法；令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱；接替、接管或完全控制某人或某事物；把某人或某物帶到另一處;逐步向某人解釋某事；開始喜歡某人或某事物;對其產生好感；以工具攻擊、破壞或大幅改動某物；從之前停止的位置繼續；把某人或某物帶往較高的位置；就某人的說法提出質疑;向適當的人提出問題或投訴；開始與某人交往;全心投入或忙於某人、某事或某項活動",
+    "en": "take somebody aback; take after somebody; take against somebody/something; take somebody/something along; take somebody/something around; take somebody/something apart; take something apart; take somebody around; take somebody around something; take somebody over something; take somebody aside; take somebody away; take somebody/something off to something; take away from something; take somebody’s breath away; take somebody back; take somebody/something down or up; take something down; take somebody in; take somebody into care; take somebody/something in or into something; take something in; take something in; take something into something; take somebody/something into something; take off; take off; take yourself off; take somebody off; take somebody/something off; take somebody off something; take something off somebody/something; take your eyes off somebody/something; take on something; take somebody on; take somebody/something on; take something on; take something on/upon yourself; take somebody out for/to something; take somebody/something out; take something out of something; take a leaf out of somebody’s book; take it/something out of somebody; take something out on somebody; take somebody out of themselves; take over; take something over; take somebody/something over; take somebody/something through; take somebody through something; take to somebody/something; be taken with somebody/something; take something to something; take up; take somebody/something up; take somebody/something up something; take somebody up on something; take something up with somebody; take up with somebody; be taken up with somebody/something",
+    "naturalZh": [
+      "使某人感到意外或震驚",
+      "在外貌、性格或行為方面像某位家人",
+      "突然開始不喜歡某人或某事物",
+      "帶某人或某物同行;把某物帶到多個地方",
+      "徹底擊敗或嚴厲批評某人或某事物",
+      "把某物拆開成不同部分",
+      "帶某人參觀某個地方",
+      "把某人叫到一旁私下交談",
+      "把某人或某物帶走或送往另一個地方",
+      "減低某事物的價值、重要性或成就",
+      "美得或精彩得令某人驚嘆不已",
+      "把某人送回之前的地方",
+      "把某人或某物帶往較高或較低的位置;從高處取下某物",
+      "讓某人留宿或居住;安排某人接受正式照顧",
+      "把某人或某物帶進某個地方",
+      "理解、注意或充分認識某事物",
+      "吸入或吸收水、空氣、氧氣等物質",
+      "令某人或某事物進入新的階段、狀態或範圍",
+      "飛機或其他飛行器起飛",
+      "突然或匆忙離開",
+      "模仿某人的聲音、動作或行為",
+      "除去、停止使用、拿走或減少某人或某物",
+      "把視線從某人或某物移開",
+      "呈現新的外觀、色彩、聲音或性質",
+      "僱用某人;讓乘客或貨物登上交通工具",
+      "承擔工作、責任或困難任務",
+      "帶某人外出吃飯、娛樂或參加活動",
+      "取出、移除、破壞或令某人或某物無法繼續參與",
+      "仿效某人的好做法",
+      "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+      "接替、接管或完全控制某人或某事物",
+      "把某人或某物帶到另一處;逐步向某人解釋某事",
+      "開始喜歡某人或某事物;對其產生好感",
+      "以工具攻擊、破壞或大幅改動某物",
+      "從之前停止的位置繼續",
+      "把某人或某物帶往較高的位置",
+      "就某人的說法提出質疑;向適當的人提出問題或投訴",
+      "開始與某人交往;全心投入或忙於某人、某事或某項活動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "take somebody aback",
+      "titleZh": "使某人感到意外或震驚",
+      "titleEn": "take somebody aback",
+      "descriptionZh": "使某人感到意外或震驚",
+      "descriptionEn": "His angry reply took me aback.",
+      "examples": [
+        {
+          "en": "His angry reply took me aback.",
+          "zh": "他憤怒的回答令我感到意外。",
+          "highlight": "took"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take after somebody",
+      "titleZh": "在外貌、性格或行為方面像某位家人",
+      "titleEn": "take after somebody",
+      "descriptionZh": "在外貌、性格或行為方面像某位家人",
+      "descriptionEn": "Ella takes after her father.",
+      "examples": [
+        {
+          "en": "Ella takes after her father.",
+          "zh": "艾拉很像她的父親。",
+          "highlight": "takes after"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take against somebody/something",
+      "titleZh": "突然開始不喜歡某人或某事物",
+      "titleEn": "take against somebody/something",
+      "descriptionZh": "突然開始不喜歡某人或某事物",
+      "descriptionEn": "The dog has taken against our new neighbour.",
+      "examples": [
+        {
+          "en": "The dog has taken against our new neighbour.",
+          "zh": "那隻狗突然開始不喜歡我們的新鄰居。",
+          "highlight": "taken against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody/something along; take somebody/something around",
+      "titleZh": "帶某人或某物同行;把某物帶到多個地方",
+      "titleEn": "take somebody/something along; take somebody/something around",
+      "descriptionZh": "帶某人或某物同行;把某物帶到多個地方",
+      "descriptionEn": "Take an umbrella along with you.",
+      "examples": [
+        {
+          "en": "Take an umbrella along with you.",
+          "zh": "帶一把雨傘同行。",
+          "highlight": "Take an umbrella along"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody/something apart",
+      "titleZh": "徹底擊敗或嚴厲批評某人或某事物",
+      "titleEn": "take somebody/something apart",
+      "descriptionZh": "徹底擊敗或嚴厲批評某人或某事物",
+      "descriptionEn": "The home team took its opponents apart.",
+      "examples": [
+        {
+          "en": "The home team took its opponents apart.",
+          "zh": "主隊徹底擊敗了對手。",
+          "highlight": "took"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take something apart",
+      "titleZh": "把某物拆開成不同部分",
+      "titleEn": "take something apart",
+      "descriptionZh": "把某物拆開成不同部分",
+      "descriptionEn": "He took the old camera apart.",
+      "examples": [
+        {
+          "en": "He took the old camera apart.",
+          "zh": "他把舊相機拆開了。",
+          "highlight": "took"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody around; take somebody around something; take somebody over something",
+      "titleZh": "帶某人參觀某個地方",
+      "titleEn": "take somebody around; take somebody around something; take somebody over something",
+      "descriptionZh": "帶某人參觀某個地方",
+      "descriptionEn": "A guide took us around the museum.",
+      "examples": [
+        {
+          "en": "A guide took us around the museum.",
+          "zh": "一名導遊帶我們參觀博物館。",
+          "highlight": "took us around"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody aside",
+      "titleZh": "把某人叫到一旁私下交談",
+      "titleEn": "take somebody aside",
+      "descriptionZh": "把某人叫到一旁私下交談",
+      "descriptionEn": "The teacher took me aside after class.",
+      "examples": [
+        {
+          "en": "The teacher took me aside after class.",
+          "zh": "老師下課後把我叫到一旁私下交談。",
+          "highlight": "took"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody away; take somebody/something off to something",
+      "titleZh": "把某人或某物帶走或送往另一個地方",
+      "titleEn": "take somebody away; take somebody/something off to something",
+      "descriptionZh": "把某人或某物帶走或送往另一個地方",
+      "descriptionEn": "The police took him off to the station.",
+      "examples": [
+        {
+          "en": "The police took him off to the station.",
+          "zh": "警方把他帶到警署。",
+          "highlight": "took him off to"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take away from something",
+      "titleZh": "減低某事物的價值、重要性或成就",
+      "titleEn": "take away from something",
+      "descriptionZh": "減低某事物的價值、重要性或成就",
+      "descriptionEn": "One error does not take away from her excellent work.",
+      "examples": [
+        {
+          "en": "One error does not take away from her excellent work.",
+          "zh": "一個錯誤不會減低她出色工作的價值。",
+          "highlight": "take away from"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody’s breath away",
+      "titleZh": "美得或精彩得令某人驚嘆不已",
+      "titleEn": "take somebody’s breath away",
+      "descriptionZh": "美得或精彩得令某人驚嘆不已",
+      "descriptionEn": "The view took my breath away.",
+      "examples": [
+        {
+          "en": "The view took my breath away.",
+          "zh": "那片景色令我驚嘆不已。",
+          "highlight": "took my breath away"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody back",
+      "titleZh": "把某人送回之前的地方",
+      "titleEn": "take somebody back",
+      "descriptionZh": "把某人送回之前的地方",
+      "descriptionEn": "Could you take us back to the station?",
+      "examples": [
+        {
+          "en": "Could you take us back to the station?",
+          "zh": "你可以送我們回車站嗎?",
+          "highlight": "take us back"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody/something down or up; take something down",
+      "titleZh": "把某人或某物帶往較高或較低的位置;從高處取下某物",
+      "titleEn": "take somebody/something down or up; take something down",
+      "descriptionZh": "把某人或某物帶往較高或較低的位置;從高處取下某物",
+      "descriptionEn": "She took a box down from the shelf.",
+      "examples": [
+        {
+          "en": "She took a box down from the shelf.",
+          "zh": "她從架上取下一個箱子。",
+          "highlight": "took a box down"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody in; take somebody into care",
+      "titleZh": "讓某人留宿或居住;安排某人接受正式照顧",
+      "titleEn": "take somebody in; take somebody into care",
+      "descriptionZh": "讓某人留宿或居住;安排某人接受正式照顧",
+      "descriptionEn": "The family took in two students.",
+      "examples": [
+        {
+          "en": "The family took in two students.",
+          "zh": "這個家庭讓兩名學生寄住。",
+          "highlight": "took in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody/something in or into something",
+      "titleZh": "把某人或某物帶進某個地方",
+      "titleEn": "take somebody/something in or into something",
+      "descriptionZh": "把某人或某物帶進某個地方",
+      "descriptionEn": "I can take you into town.",
+      "examples": [
+        {
+          "en": "I can take you into town.",
+          "zh": "我可以帶你進城。",
+          "highlight": "take you into"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take something in",
+      "titleZh": "理解、注意或充分認識某事物",
+      "titleEn": "take something in",
+      "descriptionZh": "理解、注意或充分認識某事物",
+      "descriptionEn": "I needed time to take in the news.",
+      "examples": [
+        {
+          "en": "I needed time to take in the news.",
+          "zh": "我需要時間消化這個消息。",
+          "highlight": "take in"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take something in; take something into something",
+      "titleZh": "吸入或吸收水、空氣、氧氣等物質",
+      "titleEn": "take something in; take something into something",
+      "descriptionZh": "吸入或吸收水、空氣、氧氣等物質",
+      "descriptionEn": "Plants take in water through their roots.",
+      "examples": [
+        {
+          "en": "Plants take in water through their roots.",
+          "zh": "植物透過根部吸收水分。",
+          "highlight": "take in"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take somebody/something into something",
+      "titleZh": "令某人或某事物進入新的階段、狀態或範圍",
+      "titleEn": "take somebody/something into something",
+      "descriptionZh": "令某人或某事物進入新的階段、狀態或範圍",
+      "descriptionEn": "The new system took the school into the digital age.",
+      "examples": [
+        {
+          "en": "The new system took the school into the digital age.",
+          "zh": "新系統令學校進入數碼時代。",
+          "highlight": "took the school into"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take off",
+      "titleZh": "飛機或其他飛行器起飛",
+      "titleEn": "take off",
+      "descriptionZh": "飛機或其他飛行器起飛",
+      "descriptionEn": "The plane took off on time.",
+      "examples": [
+        {
+          "en": "The plane took off on time.",
+          "zh": "飛機準時起飛。",
+          "highlight": "took off"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 1
+    },
+    {
+      "formula": "take off; take yourself off",
+      "titleZh": "突然或匆忙離開",
+      "titleEn": "take off; take yourself off",
+      "descriptionZh": "突然或匆忙離開",
+      "descriptionEn": "He took off without saying goodbye.",
+      "examples": [
+        {
+          "en": "He took off without saying goodbye.",
+          "zh": "他沒有道別便突然離開。",
+          "highlight": "took off"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody off",
+      "titleZh": "模仿某人的聲音、動作或行為",
+      "titleEn": "take somebody off",
+      "descriptionZh": "模仿某人的聲音、動作或行為",
+      "descriptionEn": "She can take our teacher off perfectly.",
+      "examples": [
+        {
+          "en": "She can take our teacher off perfectly.",
+          "zh": "她可以把我們老師模仿得十分神似。",
+          "highlight": "take our teacher off"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody/something off; take somebody off something; take something off somebody/something",
+      "titleZh": "除去、停止使用、拿走或減少某人或某物",
+      "titleEn": "take somebody/something off; take somebody off something; take something off somebody/something",
+      "descriptionZh": "除去、停止使用、拿走或減少某人或某物",
+      "descriptionEn": "The doctor took her off the medicine.",
+      "examples": [
+        {
+          "en": "The doctor took her off the medicine.",
+          "zh": "醫生停止讓她服用該藥物。",
+          "highlight": "took her off"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take your eyes off somebody/something",
+      "titleZh": "把視線從某人或某物移開",
+      "titleEn": "take your eyes off somebody/something",
+      "descriptionZh": "把視線從某人或某物移開",
+      "descriptionEn": "I could not take my eyes off the painting.",
+      "examples": [
+        {
+          "en": "I could not take my eyes off the painting.",
+          "zh": "我無法把視線從那幅畫移開。",
+          "highlight": "take my eyes off"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take on something",
+      "titleZh": "呈現新的外觀、色彩、聲音或性質",
+      "titleEn": "take on something",
+      "descriptionZh": "呈現新的外觀、色彩、聲音或性質",
+      "descriptionEn": "The sky took on a golden colour.",
+      "examples": [
+        {
+          "en": "The sky took on a golden colour.",
+          "zh": "天空呈現出金黃色。",
+          "highlight": "took on"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody on; take somebody/something on",
+      "titleZh": "僱用某人;讓乘客或貨物登上交通工具",
+      "titleEn": "take somebody on; take somebody/something on",
+      "descriptionZh": "僱用某人;讓乘客或貨物登上交通工具",
+      "descriptionEn": "The company took on three new workers.",
+      "examples": [
+        {
+          "en": "The company took on three new workers.",
+          "zh": "公司僱用了三名新員工。",
+          "highlight": "took on"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take something on; take something on/upon yourself",
+      "titleZh": "承擔工作、責任或困難任務",
+      "titleEn": "take something on; take something on/upon yourself",
+      "descriptionZh": "承擔工作、責任或困難任務",
+      "descriptionEn": "She took on more responsibility.",
+      "examples": [
+        {
+          "en": "She took on more responsibility.",
+          "zh": "她承擔了更多責任。",
+          "highlight": "took on"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody out for/to something",
+      "titleZh": "帶某人外出吃飯、娛樂或參加活動",
+      "titleEn": "take somebody out for/to something",
+      "descriptionZh": "帶某人外出吃飯、娛樂或參加活動",
+      "descriptionEn": "We took our guests out for lunch.",
+      "examples": [
+        {
+          "en": "We took our guests out for lunch.",
+          "zh": "我們帶客人外出吃午飯。",
+          "highlight": "took our guests out for"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody/something out; take something out of something",
+      "titleZh": "取出、移除、破壞或令某人或某物無法繼續參與",
+      "titleEn": "take somebody/something out; take something out of something",
+      "descriptionZh": "取出、移除、破壞或令某人或某物無法繼續參與",
+      "descriptionEn": "She took her phone out of her bag.",
+      "examples": [
+        {
+          "en": "She took her phone out of her bag.",
+          "zh": "她從手袋裏取出電話。",
+          "highlight": "took her phone out"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take a leaf out of somebody’s book",
+      "titleZh": "仿效某人的好做法",
+      "titleEn": "take a leaf out of somebody’s book",
+      "descriptionZh": "仿效某人的好做法",
+      "descriptionEn": "I should take a leaf out of your book and plan ahead.",
+      "examples": [
+        {
+          "en": "I should take a leaf out of your book and plan ahead.",
+          "zh": "我應該仿效你的做法,提早計劃。",
+          "highlight": "take a leaf out"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "titleZh": "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+      "titleEn": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "descriptionZh": "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+      "descriptionEn": "The long journey really took it out of me.",
+      "examples": [
+        {
+          "en": "The long journey really took it out of me.",
+          "zh": "漫長旅程令我筋疲力盡。",
+          "highlight": "took it out"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take over; take something over; take somebody/something over",
+      "titleZh": "接替、接管或完全控制某人或某事物",
+      "titleEn": "take over; take something over; take somebody/something over",
+      "descriptionZh": "接替、接管或完全控制某人或某事物",
+      "descriptionEn": "A larger company took over the business.",
+      "examples": [
+        {
+          "en": "A larger company took over the business.",
+          "zh": "一間較大的公司接管了這盤生意。",
+          "highlight": "took over"
+        }
+      ],
+      "number": 31,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody/something through; take somebody through something",
+      "titleZh": "把某人或某物帶到另一處;逐步向某人解釋某事",
+      "titleEn": "take somebody/something through; take somebody through something",
+      "descriptionZh": "把某人或某物帶到另一處;逐步向某人解釋某事",
+      "descriptionEn": "The adviser took us through the form.",
+      "examples": [
+        {
+          "en": "The adviser took us through the form.",
+          "zh": "顧問逐步向我們講解表格。",
+          "highlight": "took us through"
+        }
+      ],
+      "number": 32,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take to somebody/something; be taken with somebody/something",
+      "titleZh": "開始喜歡某人或某事物;對其產生好感",
+      "titleEn": "take to somebody/something; be taken with somebody/something",
+      "descriptionZh": "開始喜歡某人或某事物;對其產生好感",
+      "descriptionEn": "The children quickly took to their new coach.",
+      "examples": [
+        {
+          "en": "The children quickly took to their new coach.",
+          "zh": "孩子們很快便喜歡上新教練。",
+          "highlight": "took to"
+        }
+      ],
+      "number": 33,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take something to something",
+      "titleZh": "以工具攻擊、破壞或大幅改動某物",
+      "titleEn": "take something to something",
+      "descriptionZh": "以工具攻擊、破壞或大幅改動某物",
+      "descriptionEn": "He took a hammer to the broken desk.",
+      "examples": [
+        {
+          "en": "He took a hammer to the broken desk.",
+          "zh": "他拿起鐵鎚破壞那張壞桌子。",
+          "highlight": "took a hammer to"
+        }
+      ],
+      "number": 34,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take up",
+      "titleZh": "從之前停止的位置繼續",
+      "titleEn": "take up",
+      "descriptionZh": "從之前停止的位置繼續",
+      "descriptionEn": "The new episode takes up where the last one ended.",
+      "examples": [
+        {
+          "en": "The new episode takes up where the last one ended.",
+          "zh": "新一集從上一集結束的位置繼續。",
+          "highlight": "takes up"
+        }
+      ],
+      "number": 35,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody/something up; take somebody/something up something",
+      "titleZh": "把某人或某物帶往較高的位置",
+      "titleEn": "take somebody/something up; take somebody/something up something",
+      "descriptionZh": "把某人或某物帶往較高的位置",
+      "descriptionEn": "The porter took our bags up to the room.",
+      "examples": [
+        {
+          "en": "The porter took our bags up to the room.",
+          "zh": "行李員把我們的行李送上房間。",
+          "highlight": "took our bags up"
+        }
+      ],
+      "number": 36,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take somebody up on something; take something up with somebody",
+      "titleZh": "就某人的說法提出質疑;向適當的人提出問題或投訴",
+      "titleEn": "take somebody up on something; take something up with somebody",
+      "descriptionZh": "就某人的說法提出質疑;向適當的人提出問題或投訴",
+      "descriptionEn": "You should take the matter up with your manager.",
+      "examples": [
+        {
+          "en": "You should take the matter up with your manager.",
+          "zh": "你應該向經理提出這件事。",
+          "highlight": "take the matter up with"
+        }
+      ],
+      "number": 37,
+      "pageGroup": 2
+    },
+    {
+      "formula": "take up with somebody; be taken up with somebody/something",
+      "titleZh": "開始與某人交往;全心投入或忙於某人、某事或某項活動",
+      "titleEn": "take up with somebody; be taken up with somebody/something",
+      "descriptionZh": "開始與某人交往;全心投入或忙於某人、某事或某項活動",
+      "descriptionEn": "She is completely taken up with her new project.",
+      "examples": [
+        {
+          "en": "She is completely taken up with her new project.",
+          "zh": "她全心投入新項目。",
+          "highlight": "taken up with"
+        }
+      ],
+      "number": 38,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TAKE 片語動詞的實際用途",
+    "labelEn": "TAKE Phrasal Verbs in Use",
+    "summaryZh": "TAKE 表達可以清楚說明某人是同行、被送回、被帶到樓上、被送走,還是被帶着經過某個地方。；你可以用 TAKE 描述驚訝、家族相似之處、突然產生的反感、逐漸形成的好感和濃厚興趣。；take on、take upon yourself 和 take over 可用來談論承擔職務、接受責任和取得控制權。；take your breath away、take your eyes off 和 take a leaf out of somebody’s book 等表達,常見於對話、故事、評論和新聞報道。",
+    "summaryEn": "TAKE expressions can show whether somebody is being brought along, taken back, moved upstairs, transported away or guided through a place. You can use TAKE to describe surprise, family resemblance, sudden dislike, growing affection and strong interest. Take on, take upon yourself and take over help you discuss accepting duties, taking responsibility and gaining control. Expressions such as take your breath away, take your eyes off and take a leaf out of somebody’s book are common in conversations, stories, reviews and news reports.",
+    "contextsZh": [
+      "更準確地描述移動方向",
+      "自然描述反應和人際關係",
+      "談論責任和控制權",
+      "理解常見固定表達"
+    ],
+    "contextsEn": [
+      "Talk about movement with greater precision",
+      "Describe reactions and relationships naturally",
+      "Talk about responsibility and control",
+      "Understand common fixed expressions"
+    ],
+    "formalZh": "閱讀整句後,才選擇合適的 TAKE 表達。",
+    "formalEn": "Read the whole sentence before choosing the TAKE expression."
+  },
+  "fixedVariable": {
+    "fixed": "take somebody aback",
+    "fixedHighlight": "take somebody aback",
+    "fixedZh": "閱讀整句後,才選擇合適的 TAKE 表達。",
+    "fixedEn": "Read the whole sentence before choosing the TAKE expression.",
+    "correct": "took",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、結果和意思。；使用 it、him 或 them 等短詞時,請按照以上例子的語序。；有些表達的外形相似,但意思可以完全不同。例如,take off 可以表示飛機起飛、某人突然離開、模仿某人,或除去某物。",
+    "variableEn": "Keep the same people, things, time, result and meaning. When using a short word such as it, him or them, follow the word order shown in examples such as: take it apart take him aside take them along take it off take it out Some expressions look similar but have very different meanings. For example, take off can describe an aircraft leaving the ground, a person leaving suddenly, imitating somebody or removing something.",
+    "variableItemsZh": [
+      "take somebody aback",
+      "take after somebody",
+      "take against somebody/something",
+      "take somebody/something along; take somebody/something around",
+      "take somebody/something apart",
+      "take something apart",
+      "take somebody around; take somebody around something; take somebody over something",
+      "take somebody aside",
+      "take somebody away; take somebody/something off to something",
+      "take away from something",
+      "take somebody’s breath away",
+      "take somebody back",
+      "take somebody/something down or up; take something down",
+      "take somebody in; take somebody into care",
+      "take somebody/something in or into something",
+      "take something in",
+      "take something in; take something into something",
+      "take somebody/something into something",
+      "take off",
+      "take off; take yourself off",
+      "take somebody off",
+      "take somebody/something off; take somebody off something; take something off somebody/something",
+      "take your eyes off somebody/something",
+      "take on something",
+      "take somebody on; take somebody/something on",
+      "take something on; take something on/upon yourself",
+      "take somebody out for/to something",
+      "take somebody/something out; take something out of something",
+      "take a leaf out of somebody’s book",
+      "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "take over; take something over; take somebody/something over",
+      "take somebody/something through; take somebody through something",
+      "take to somebody/something; be taken with somebody/something",
+      "take something to something",
+      "take up",
+      "take somebody/something up; take somebody/something up something",
+      "take somebody up on something; take something up with somebody",
+      "take up with somebody; be taken up with somebody/something"
+    ],
+    "variableItemsEn": [
+      "take somebody aback",
+      "take after somebody",
+      "take against somebody/something",
+      "take somebody/something along; take somebody/something around",
+      "take somebody/something apart",
+      "take something apart",
+      "take somebody around; take somebody around something; take somebody over something",
+      "take somebody aside",
+      "take somebody away; take somebody/something off to something",
+      "take away from something",
+      "take somebody’s breath away",
+      "take somebody back",
+      "take somebody/something down or up; take something down",
+      "take somebody in; take somebody into care",
+      "take somebody/something in or into something",
+      "take something in",
+      "take something in; take something into something",
+      "take somebody/something into something",
+      "take off",
+      "take off; take yourself off",
+      "take somebody off",
+      "take somebody/something off; take somebody off something; take something off somebody/something",
+      "take your eyes off somebody/something",
+      "take on something",
+      "take somebody on; take somebody/something on",
+      "take something on; take something on/upon yourself",
+      "take somebody out for/to something",
+      "take somebody/something out; take something out of something",
+      "take a leaf out of somebody’s book",
+      "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "take over; take something over; take somebody/something over",
+      "take somebody/something through; take somebody through something",
+      "take to somebody/something; be taken with somebody/something",
+      "take something to something",
+      "take up",
+      "take somebody/something up; take somebody/something up something",
+      "take somebody up on something; take something up with somebody",
+      "take up with somebody; be taken up with somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "使某人感到意外或震驚",
+        "formEn": "take somebody aback",
+        "exampleZh": "他憤怒的回答令我感到意外。",
+        "exampleEn": "His angry reply took me aback.",
+        "highlight": "took"
+      },
+      {
+        "formZh": "在外貌、性格或行為方面像某位家人",
+        "formEn": "take after somebody",
+        "exampleZh": "艾拉很像她的父親。",
+        "exampleEn": "Ella takes after her father.",
+        "highlight": "takes after"
+      },
+      {
+        "formZh": "突然開始不喜歡某人或某事物",
+        "formEn": "take against somebody/something",
+        "exampleZh": "那隻狗突然開始不喜歡我們的新鄰居。",
+        "exampleEn": "The dog has taken against our new neighbour.",
+        "highlight": "taken against"
+      },
+      {
+        "formZh": "帶某人或某物同行;把某物帶到多個地方",
+        "formEn": "take somebody/something along; take somebody/something around",
+        "exampleZh": "帶一把雨傘同行。",
+        "exampleEn": "Take an umbrella along with you.",
+        "highlight": "Take an umbrella along"
+      },
+      {
+        "formZh": "徹底擊敗或嚴厲批評某人或某事物",
+        "formEn": "take somebody/something apart",
+        "exampleZh": "主隊徹底擊敗了對手。",
+        "exampleEn": "The home team took its opponents apart.",
+        "highlight": "took"
+      },
+      {
+        "formZh": "把某物拆開成不同部分",
+        "formEn": "take something apart",
+        "exampleZh": "他把舊相機拆開了。",
+        "exampleEn": "He took the old camera apart.",
+        "highlight": "took"
+      },
+      {
+        "formZh": "帶某人參觀某個地方",
+        "formEn": "take somebody around; take somebody around something; take somebody over something",
+        "exampleZh": "一名導遊帶我們參觀博物館。",
+        "exampleEn": "A guide took us around the museum.",
+        "highlight": "took us around"
+      },
+      {
+        "formZh": "把某人叫到一旁私下交談",
+        "formEn": "take somebody aside",
+        "exampleZh": "老師下課後把我叫到一旁私下交談。",
+        "exampleEn": "The teacher took me aside after class.",
+        "highlight": "took"
+      },
+      {
+        "formZh": "把某人或某物帶走或送往另一個地方",
+        "formEn": "take somebody away; take somebody/something off to something",
+        "exampleZh": "警方把他帶到警署。",
+        "exampleEn": "The police took him off to the station.",
+        "highlight": "took him off to"
+      },
+      {
+        "formZh": "減低某事物的價值、重要性或成就",
+        "formEn": "take away from something",
+        "exampleZh": "一個錯誤不會減低她出色工作的價值。",
+        "exampleEn": "One error does not take away from her excellent work.",
+        "highlight": "take away from"
+      },
+      {
+        "formZh": "美得或精彩得令某人驚嘆不已",
+        "formEn": "take somebody’s breath away",
+        "exampleZh": "那片景色令我驚嘆不已。",
+        "exampleEn": "The view took my breath away.",
+        "highlight": "took my breath away"
+      },
+      {
+        "formZh": "把某人送回之前的地方",
+        "formEn": "take somebody back",
+        "exampleZh": "你可以送我們回車站嗎?",
+        "exampleEn": "Could you take us back to the station?",
+        "highlight": "take us back"
+      },
+      {
+        "formZh": "把某人或某物帶往較高或較低的位置;從高處取下某物",
+        "formEn": "take somebody/something down or up; take something down",
+        "exampleZh": "她從架上取下一個箱子。",
+        "exampleEn": "She took a box down from the shelf.",
+        "highlight": "took a box down"
+      },
+      {
+        "formZh": "讓某人留宿或居住;安排某人接受正式照顧",
+        "formEn": "take somebody in; take somebody into care",
+        "exampleZh": "這個家庭讓兩名學生寄住。",
+        "exampleEn": "The family took in two students.",
+        "highlight": "took in"
+      },
+      {
+        "formZh": "把某人或某物帶進某個地方",
+        "formEn": "take somebody/something in or into something",
+        "exampleZh": "我可以帶你進城。",
+        "exampleEn": "I can take you into town.",
+        "highlight": "take you into"
+      },
+      {
+        "formZh": "理解、注意或充分認識某事物",
+        "formEn": "take something in",
+        "exampleZh": "我需要時間消化這個消息。",
+        "exampleEn": "I needed time to take in the news.",
+        "highlight": "take in"
+      },
+      {
+        "formZh": "吸入或吸收水、空氣、氧氣等物質",
+        "formEn": "take something in; take something into something",
+        "exampleZh": "植物透過根部吸收水分。",
+        "exampleEn": "Plants take in water through their roots.",
+        "highlight": "take in"
+      },
+      {
+        "formZh": "令某人或某事物進入新的階段、狀態或範圍",
+        "formEn": "take somebody/something into something",
+        "exampleZh": "新系統令學校進入數碼時代。",
+        "exampleEn": "The new system took the school into the digital age.",
+        "highlight": "took the school into"
+      },
+      {
+        "formZh": "飛機或其他飛行器起飛",
+        "formEn": "take off",
+        "exampleZh": "飛機準時起飛。",
+        "exampleEn": "The plane took off on time.",
+        "highlight": "took off"
+      },
+      {
+        "formZh": "突然或匆忙離開",
+        "formEn": "take off; take yourself off",
+        "exampleZh": "他沒有道別便突然離開。",
+        "exampleEn": "He took off without saying goodbye.",
+        "highlight": "took off"
+      },
+      {
+        "formZh": "模仿某人的聲音、動作或行為",
+        "formEn": "take somebody off",
+        "exampleZh": "她可以把我們老師模仿得十分神似。",
+        "exampleEn": "She can take our teacher off perfectly.",
+        "highlight": "take our teacher off"
+      },
+      {
+        "formZh": "除去、停止使用、拿走或減少某人或某物",
+        "formEn": "take somebody/something off; take somebody off something; take something off somebody/something",
+        "exampleZh": "醫生停止讓她服用該藥物。",
+        "exampleEn": "The doctor took her off the medicine.",
+        "highlight": "took her off"
+      },
+      {
+        "formZh": "把視線從某人或某物移開",
+        "formEn": "take your eyes off somebody/something",
+        "exampleZh": "我無法把視線從那幅畫移開。",
+        "exampleEn": "I could not take my eyes off the painting.",
+        "highlight": "take my eyes off"
+      },
+      {
+        "formZh": "呈現新的外觀、色彩、聲音或性質",
+        "formEn": "take on something",
+        "exampleZh": "天空呈現出金黃色。",
+        "exampleEn": "The sky took on a golden colour.",
+        "highlight": "took on"
+      },
+      {
+        "formZh": "僱用某人;讓乘客或貨物登上交通工具",
+        "formEn": "take somebody on; take somebody/something on",
+        "exampleZh": "公司僱用了三名新員工。",
+        "exampleEn": "The company took on three new workers.",
+        "highlight": "took on"
+      },
+      {
+        "formZh": "承擔工作、責任或困難任務",
+        "formEn": "take something on; take something on/upon yourself",
+        "exampleZh": "她承擔了更多責任。",
+        "exampleEn": "She took on more responsibility.",
+        "highlight": "took on"
+      },
+      {
+        "formZh": "帶某人外出吃飯、娛樂或參加活動",
+        "formEn": "take somebody out for/to something",
+        "exampleZh": "我們帶客人外出吃午飯。",
+        "exampleEn": "We took our guests out for lunch.",
+        "highlight": "took our guests out for"
+      },
+      {
+        "formZh": "取出、移除、破壞或令某人或某物無法繼續參與",
+        "formEn": "take somebody/something out; take something out of something",
+        "exampleZh": "她從手袋裏取出電話。",
+        "exampleEn": "She took her phone out of her bag.",
+        "highlight": "took her phone out"
+      },
+      {
+        "formZh": "仿效某人的好做法",
+        "formEn": "take a leaf out of somebody’s book",
+        "exampleZh": "我應該仿效你的做法,提早計劃。",
+        "exampleEn": "I should take a leaf out of your book and plan ahead.",
+        "highlight": "take a leaf out"
+      },
+      {
+        "formZh": "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+        "formEn": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+        "exampleZh": "漫長旅程令我筋疲力盡。",
+        "exampleEn": "The long journey really took it out of me.",
+        "highlight": "took it out"
+      },
+      {
+        "formZh": "接替、接管或完全控制某人或某事物",
+        "formEn": "take over; take something over; take somebody/something over",
+        "exampleZh": "一間較大的公司接管了這盤生意。",
+        "exampleEn": "A larger company took over the business.",
+        "highlight": "took over"
+      },
+      {
+        "formZh": "把某人或某物帶到另一處;逐步向某人解釋某事",
+        "formEn": "take somebody/something through; take somebody through something",
+        "exampleZh": "顧問逐步向我們講解表格。",
+        "exampleEn": "The adviser took us through the form.",
+        "highlight": "took us through"
+      },
+      {
+        "formZh": "開始喜歡某人或某事物;對其產生好感",
+        "formEn": "take to somebody/something; be taken with somebody/something",
+        "exampleZh": "孩子們很快便喜歡上新教練。",
+        "exampleEn": "The children quickly took to their new coach.",
+        "highlight": "took to"
+      },
+      {
+        "formZh": "以工具攻擊、破壞或大幅改動某物",
+        "formEn": "take something to something",
+        "exampleZh": "他拿起鐵鎚破壞那張壞桌子。",
+        "exampleEn": "He took a hammer to the broken desk.",
+        "highlight": "took a hammer to"
+      },
+      {
+        "formZh": "從之前停止的位置繼續",
+        "formEn": "take up",
+        "exampleZh": "新一集從上一集結束的位置繼續。",
+        "exampleEn": "The new episode takes up where the last one ended.",
+        "highlight": "takes up"
+      },
+      {
+        "formZh": "把某人或某物帶往較高的位置",
+        "formEn": "take somebody/something up; take somebody/something up something",
+        "exampleZh": "行李員把我們的行李送上房間。",
+        "exampleEn": "The porter took our bags up to the room.",
+        "highlight": "took our bags up"
+      },
+      {
+        "formZh": "就某人的說法提出質疑;向適當的人提出問題或投訴",
+        "formEn": "take somebody up on something; take something up with somebody",
+        "exampleZh": "你應該向經理提出這件事。",
+        "exampleEn": "You should take the matter up with your manager.",
+        "highlight": "take the matter up with"
+      },
+      {
+        "formZh": "開始與某人交往;全心投入或忙於某人、某事或某項活動",
+        "formEn": "take up with somebody; be taken up with somebody/something",
+        "exampleZh": "她全心投入新項目。",
+        "exampleEn": "She is completely taken up with her new project.",
+        "highlight": "taken up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "使某人感到意外或震驚",
+      "titleEn": "take somebody aback",
+      "formula": "take somebody aback",
+      "highlight": "take somebody aback",
+      "descriptionZh": "使某人感到意外或震驚",
+      "descriptionEn": "His angry reply took me aback.",
+      "examples": [
+        {
+          "en": "His angry reply took me aback.",
+          "zh": "他憤怒的回答令我感到意外。",
+          "highlight": "took"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在外貌、性格或行為方面像某位家人",
+      "titleEn": "take after somebody",
+      "formula": "take after somebody",
+      "highlight": "take after somebody",
+      "descriptionZh": "在外貌、性格或行為方面像某位家人",
+      "descriptionEn": "Ella takes after her father.",
+      "examples": [
+        {
+          "en": "Ella takes after her father.",
+          "zh": "艾拉很像她的父親。",
+          "highlight": "takes after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然開始不喜歡某人或某事物",
+      "titleEn": "take against somebody/something",
+      "formula": "take against somebody/something",
+      "highlight": "take against somebody/something",
+      "descriptionZh": "突然開始不喜歡某人或某事物",
+      "descriptionEn": "The dog has taken against our new neighbour.",
+      "examples": [
+        {
+          "en": "The dog has taken against our new neighbour.",
+          "zh": "那隻狗突然開始不喜歡我們的新鄰居。",
+          "highlight": "taken against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "帶某人或某物同行;把某物帶到多個地方",
+      "titleEn": "take somebody/something along; take somebody/something around",
+      "formula": "take somebody/something along; take somebody/something around",
+      "highlight": "take somebody/something along; take somebody/something around",
+      "descriptionZh": "帶某人或某物同行;把某物帶到多個地方",
+      "descriptionEn": "Take an umbrella along with you.",
+      "examples": [
+        {
+          "en": "Take an umbrella along with you.",
+          "zh": "帶一把雨傘同行。",
+          "highlight": "Take an umbrella along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "徹底擊敗或嚴厲批評某人或某事物",
+      "titleEn": "take somebody/something apart",
+      "formula": "take somebody/something apart",
+      "highlight": "take somebody/something apart",
+      "descriptionZh": "徹底擊敗或嚴厲批評某人或某事物",
+      "descriptionEn": "The home team took its opponents apart.",
+      "examples": [
+        {
+          "en": "The home team took its opponents apart.",
+          "zh": "主隊徹底擊敗了對手。",
+          "highlight": "took"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某物拆開成不同部分",
+      "titleEn": "take something apart",
+      "formula": "take something apart",
+      "highlight": "take something apart",
+      "descriptionZh": "把某物拆開成不同部分",
+      "descriptionEn": "He took the old camera apart.",
+      "examples": [
+        {
+          "en": "He took the old camera apart.",
+          "zh": "他把舊相機拆開了。",
+          "highlight": "took"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "帶某人參觀某個地方",
+      "titleEn": "take somebody around; take somebody around something; take somebody over something",
+      "formula": "take somebody around; take somebody around something; take somebody over something",
+      "highlight": "take somebody around; take somebody around something; take somebody over something",
+      "descriptionZh": "帶某人參觀某個地方",
+      "descriptionEn": "A guide took us around the museum.",
+      "examples": [
+        {
+          "en": "A guide took us around the museum.",
+          "zh": "一名導遊帶我們參觀博物館。",
+          "highlight": "took us around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把某人叫到一旁私下交談",
+      "titleEn": "take somebody aside",
+      "formula": "take somebody aside",
+      "highlight": "take somebody aside",
+      "descriptionZh": "把某人叫到一旁私下交談",
+      "descriptionEn": "The teacher took me aside after class.",
+      "examples": [
+        {
+          "en": "The teacher took me aside after class.",
+          "zh": "老師下課後把我叫到一旁私下交談。",
+          "highlight": "took"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某人或某物帶走或送往另一個地方",
+      "titleEn": "take somebody away; take somebody/something off to something",
+      "formula": "take somebody away; take somebody/something off to something",
+      "highlight": "take somebody away; take somebody/something off to something",
+      "descriptionZh": "把某人或某物帶走或送往另一個地方",
+      "descriptionEn": "The police took him off to the station.",
+      "examples": [
+        {
+          "en": "The police took him off to the station.",
+          "zh": "警方把他帶到警署。",
+          "highlight": "took him off to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "減低某事物的價值、重要性或成就",
+      "titleEn": "take away from something",
+      "formula": "take away from something",
+      "highlight": "take away from something",
+      "descriptionZh": "減低某事物的價值、重要性或成就",
+      "descriptionEn": "One error does not take away from her excellent work.",
+      "examples": [
+        {
+          "en": "One error does not take away from her excellent work.",
+          "zh": "一個錯誤不會減低她出色工作的價值。",
+          "highlight": "take away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "美得或精彩得令某人驚嘆不已",
+      "titleEn": "take somebody’s breath away",
+      "formula": "take somebody’s breath away",
+      "highlight": "take somebody’s breath away",
+      "descriptionZh": "美得或精彩得令某人驚嘆不已",
+      "descriptionEn": "The view took my breath away.",
+      "examples": [
+        {
+          "en": "The view took my breath away.",
+          "zh": "那片景色令我驚嘆不已。",
+          "highlight": "took my breath away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人送回之前的地方",
+      "titleEn": "take somebody back",
+      "formula": "take somebody back",
+      "highlight": "take somebody back",
+      "descriptionZh": "把某人送回之前的地方",
+      "descriptionEn": "Could you take us back to the station?",
+      "examples": [
+        {
+          "en": "Could you take us back to the station?",
+          "zh": "你可以送我們回車站嗎?",
+          "highlight": "take us back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某人或某物帶往較高或較低的位置;從高處取下某物",
+      "titleEn": "take somebody/something down or up; take something down",
+      "formula": "take somebody/something down or up; take something down",
+      "highlight": "take somebody/something down or up; take something down",
+      "descriptionZh": "把某人或某物帶往較高或較低的位置;從高處取下某物",
+      "descriptionEn": "She took a box down from the shelf.",
+      "examples": [
+        {
+          "en": "She took a box down from the shelf.",
+          "zh": "她從架上取下一個箱子。",
+          "highlight": "took a box down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "讓某人留宿或居住;安排某人接受正式照顧",
+      "titleEn": "take somebody in; take somebody into care",
+      "formula": "take somebody in; take somebody into care",
+      "highlight": "take somebody in; take somebody into care",
+      "descriptionZh": "讓某人留宿或居住;安排某人接受正式照顧",
+      "descriptionEn": "The family took in two students.",
+      "examples": [
+        {
+          "en": "The family took in two students.",
+          "zh": "這個家庭讓兩名學生寄住。",
+          "highlight": "took in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把某人或某物帶進某個地方",
+      "titleEn": "take somebody/something in or into something",
+      "formula": "take somebody/something in or into something",
+      "highlight": "take somebody/something in or into something",
+      "descriptionZh": "把某人或某物帶進某個地方",
+      "descriptionEn": "I can take you into town.",
+      "examples": [
+        {
+          "en": "I can take you into town.",
+          "zh": "我可以帶你進城。",
+          "highlight": "take you into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "理解、注意或充分認識某事物",
+      "titleEn": "take something in",
+      "formula": "take something in",
+      "highlight": "take something in",
+      "descriptionZh": "理解、注意或充分認識某事物",
+      "descriptionEn": "I needed time to take in the news.",
+      "examples": [
+        {
+          "en": "I needed time to take in the news.",
+          "zh": "我需要時間消化這個消息。",
+          "highlight": "take in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "吸入或吸收水、空氣、氧氣等物質",
+      "titleEn": "take something in; take something into something",
+      "formula": "take something in; take something into something",
+      "highlight": "take something in; take something into something",
+      "descriptionZh": "吸入或吸收水、空氣、氧氣等物質",
+      "descriptionEn": "Plants take in water through their roots.",
+      "examples": [
+        {
+          "en": "Plants take in water through their roots.",
+          "zh": "植物透過根部吸收水分。",
+          "highlight": "take in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "令某人或某事物進入新的階段、狀態或範圍",
+      "titleEn": "take somebody/something into something",
+      "formula": "take somebody/something into something",
+      "highlight": "take somebody/something into something",
+      "descriptionZh": "令某人或某事物進入新的階段、狀態或範圍",
+      "descriptionEn": "The new system took the school into the digital age.",
+      "examples": [
+        {
+          "en": "The new system took the school into the digital age.",
+          "zh": "新系統令學校進入數碼時代。",
+          "highlight": "took the school into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "飛機或其他飛行器起飛",
+      "titleEn": "take off",
+      "formula": "take off",
+      "highlight": "take off",
+      "descriptionZh": "飛機或其他飛行器起飛",
+      "descriptionEn": "The plane took off on time.",
+      "examples": [
+        {
+          "en": "The plane took off on time.",
+          "zh": "飛機準時起飛。",
+          "highlight": "took off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "突然或匆忙離開",
+      "titleEn": "take off; take yourself off",
+      "formula": "take off; take yourself off",
+      "highlight": "take off; take yourself off",
+      "descriptionZh": "突然或匆忙離開",
+      "descriptionEn": "He took off without saying goodbye.",
+      "examples": [
+        {
+          "en": "He took off without saying goodbye.",
+          "zh": "他沒有道別便突然離開。",
+          "highlight": "took off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "模仿某人的聲音、動作或行為",
+      "titleEn": "take somebody off",
+      "formula": "take somebody off",
+      "highlight": "take somebody off",
+      "descriptionZh": "模仿某人的聲音、動作或行為",
+      "descriptionEn": "She can take our teacher off perfectly.",
+      "examples": [
+        {
+          "en": "She can take our teacher off perfectly.",
+          "zh": "她可以把我們老師模仿得十分神似。",
+          "highlight": "take our teacher off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "除去、停止使用、拿走或減少某人或某物",
+      "titleEn": "take somebody/something off; take somebody off something; take something off somebody/something",
+      "formula": "take somebody/something off; take somebody off something; take something off somebody/something",
+      "highlight": "take somebody/something off; take somebody off something; take something off somebody/something",
+      "descriptionZh": "除去、停止使用、拿走或減少某人或某物",
+      "descriptionEn": "The doctor took her off the medicine.",
+      "examples": [
+        {
+          "en": "The doctor took her off the medicine.",
+          "zh": "醫生停止讓她服用該藥物。",
+          "highlight": "took her off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "把視線從某人或某物移開",
+      "titleEn": "take your eyes off somebody/something",
+      "formula": "take your eyes off somebody/something",
+      "highlight": "take your eyes off somebody/something",
+      "descriptionZh": "把視線從某人或某物移開",
+      "descriptionEn": "I could not take my eyes off the painting.",
+      "examples": [
+        {
+          "en": "I could not take my eyes off the painting.",
+          "zh": "我無法把視線從那幅畫移開。",
+          "highlight": "take my eyes off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "呈現新的外觀、色彩、聲音或性質",
+      "titleEn": "take on something",
+      "formula": "take on something",
+      "highlight": "take on something",
+      "descriptionZh": "呈現新的外觀、色彩、聲音或性質",
+      "descriptionEn": "The sky took on a golden colour.",
+      "examples": [
+        {
+          "en": "The sky took on a golden colour.",
+          "zh": "天空呈現出金黃色。",
+          "highlight": "took on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "僱用某人;讓乘客或貨物登上交通工具",
+      "titleEn": "take somebody on; take somebody/something on",
+      "formula": "take somebody on; take somebody/something on",
+      "highlight": "take somebody on; take somebody/something on",
+      "descriptionZh": "僱用某人;讓乘客或貨物登上交通工具",
+      "descriptionEn": "The company took on three new workers.",
+      "examples": [
+        {
+          "en": "The company took on three new workers.",
+          "zh": "公司僱用了三名新員工。",
+          "highlight": "took on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "承擔工作、責任或困難任務",
+      "titleEn": "take something on; take something on/upon yourself",
+      "formula": "take something on; take something on/upon yourself",
+      "highlight": "take something on; take something on/upon yourself",
+      "descriptionZh": "承擔工作、責任或困難任務",
+      "descriptionEn": "She took on more responsibility.",
+      "examples": [
+        {
+          "en": "She took on more responsibility.",
+          "zh": "她承擔了更多責任。",
+          "highlight": "took on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "帶某人外出吃飯、娛樂或參加活動",
+      "titleEn": "take somebody out for/to something",
+      "formula": "take somebody out for/to something",
+      "highlight": "take somebody out for/to something",
+      "descriptionZh": "帶某人外出吃飯、娛樂或參加活動",
+      "descriptionEn": "We took our guests out for lunch.",
+      "examples": [
+        {
+          "en": "We took our guests out for lunch.",
+          "zh": "我們帶客人外出吃午飯。",
+          "highlight": "took our guests out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "取出、移除、破壞或令某人或某物無法繼續參與",
+      "titleEn": "take somebody/something out; take something out of something",
+      "formula": "take somebody/something out; take something out of something",
+      "highlight": "take somebody/something out; take something out of something",
+      "descriptionZh": "取出、移除、破壞或令某人或某物無法繼續參與",
+      "descriptionEn": "She took her phone out of her bag.",
+      "examples": [
+        {
+          "en": "She took her phone out of her bag.",
+          "zh": "她從手袋裏取出電話。",
+          "highlight": "took her phone out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "仿效某人的好做法",
+      "titleEn": "take a leaf out of somebody’s book",
+      "formula": "take a leaf out of somebody’s book",
+      "highlight": "take a leaf out of somebody’s book",
+      "descriptionZh": "仿效某人的好做法",
+      "descriptionEn": "I should take a leaf out of your book and plan ahead.",
+      "examples": [
+        {
+          "en": "I should take a leaf out of your book and plan ahead.",
+          "zh": "我應該仿效你的做法,提早計劃。",
+          "highlight": "take a leaf out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+      "titleEn": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "formula": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "highlight": "take it/something out of somebody; take something out on somebody; take somebody out of themselves",
+      "descriptionZh": "令某人精疲力竭;向無辜的人發洩;使某人暫時忘記煩惱",
+      "descriptionEn": "The long journey really took it out of me.",
+      "examples": [
+        {
+          "en": "The long journey really took it out of me.",
+          "zh": "漫長旅程令我筋疲力盡。",
+          "highlight": "took it out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 31,
+      "titleZh": "接替、接管或完全控制某人或某事物",
+      "titleEn": "take over; take something over; take somebody/something over",
+      "formula": "take over; take something over; take somebody/something over",
+      "highlight": "take over; take something over; take somebody/something over",
+      "descriptionZh": "接替、接管或完全控制某人或某事物",
+      "descriptionEn": "A larger company took over the business.",
+      "examples": [
+        {
+          "en": "A larger company took over the business.",
+          "zh": "一間較大的公司接管了這盤生意。",
+          "highlight": "took over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 32,
+      "titleZh": "把某人或某物帶到另一處;逐步向某人解釋某事",
+      "titleEn": "take somebody/something through; take somebody through something",
+      "formula": "take somebody/something through; take somebody through something",
+      "highlight": "take somebody/something through; take somebody through something",
+      "descriptionZh": "把某人或某物帶到另一處;逐步向某人解釋某事",
+      "descriptionEn": "The adviser took us through the form.",
+      "examples": [
+        {
+          "en": "The adviser took us through the form.",
+          "zh": "顧問逐步向我們講解表格。",
+          "highlight": "took us through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 33,
+      "titleZh": "開始喜歡某人或某事物;對其產生好感",
+      "titleEn": "take to somebody/something; be taken with somebody/something",
+      "formula": "take to somebody/something; be taken with somebody/something",
+      "highlight": "take to somebody/something; be taken with somebody/something",
+      "descriptionZh": "開始喜歡某人或某事物;對其產生好感",
+      "descriptionEn": "The children quickly took to their new coach.",
+      "examples": [
+        {
+          "en": "The children quickly took to their new coach.",
+          "zh": "孩子們很快便喜歡上新教練。",
+          "highlight": "took to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 34,
+      "titleZh": "以工具攻擊、破壞或大幅改動某物",
+      "titleEn": "take something to something",
+      "formula": "take something to something",
+      "highlight": "take something to something",
+      "descriptionZh": "以工具攻擊、破壞或大幅改動某物",
+      "descriptionEn": "He took a hammer to the broken desk.",
+      "examples": [
+        {
+          "en": "He took a hammer to the broken desk.",
+          "zh": "他拿起鐵鎚破壞那張壞桌子。",
+          "highlight": "took a hammer to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 35,
+      "titleZh": "從之前停止的位置繼續",
+      "titleEn": "take up",
+      "formula": "take up",
+      "highlight": "take up",
+      "descriptionZh": "從之前停止的位置繼續",
+      "descriptionEn": "The new episode takes up where the last one ended.",
+      "examples": [
+        {
+          "en": "The new episode takes up where the last one ended.",
+          "zh": "新一集從上一集結束的位置繼續。",
+          "highlight": "takes up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 36,
+      "titleZh": "把某人或某物帶往較高的位置",
+      "titleEn": "take somebody/something up; take somebody/something up something",
+      "formula": "take somebody/something up; take somebody/something up something",
+      "highlight": "take somebody/something up; take somebody/something up something",
+      "descriptionZh": "把某人或某物帶往較高的位置",
+      "descriptionEn": "The porter took our bags up to the room.",
+      "examples": [
+        {
+          "en": "The porter took our bags up to the room.",
+          "zh": "行李員把我們的行李送上房間。",
+          "highlight": "took our bags up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 37,
+      "titleZh": "就某人的說法提出質疑;向適當的人提出問題或投訴",
+      "titleEn": "take somebody up on something; take something up with somebody",
+      "formula": "take somebody up on something; take something up with somebody",
+      "highlight": "take somebody up on something; take something up with somebody",
+      "descriptionZh": "就某人的說法提出質疑;向適當的人提出問題或投訴",
+      "descriptionEn": "You should take the matter up with your manager.",
+      "examples": [
+        {
+          "en": "You should take the matter up with your manager.",
+          "zh": "你應該向經理提出這件事。",
+          "highlight": "take the matter up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 38,
+      "titleZh": "開始與某人交往;全心投入或忙於某人、某事或某項活動",
+      "titleEn": "take up with somebody; be taken up with somebody/something",
+      "formula": "take up with somebody; be taken up with somebody/something",
+      "highlight": "take up with somebody; be taken up with somebody/something",
+      "descriptionZh": "開始與某人交往;全心投入或忙於某人、某事或某項活動",
+      "descriptionEn": "She is completely taken up with her new project.",
+      "examples": [
+        {
+          "en": "She is completely taken up with her new project.",
+          "zh": "她全心投入新項目。",
+          "highlight": "taken up with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更準確地描述移動方向",
+      "titleEn": "Talk about movement with greater precision",
+      "zh": "TAKE 表達可以清楚說明某人是同行、被送回、被帶到樓上、被送走,還是被帶着經過某個地方。",
+      "en": "TAKE expressions can show whether somebody is being brought along, taken back, moved upstairs, transported away or guided through a place."
+    },
+    {
+      "titleZh": "自然描述反應和人際關係",
+      "titleEn": "Describe reactions and relationships naturally",
+      "zh": "你可以用 TAKE 描述驚訝、家族相似之處、突然產生的反感、逐漸形成的好感和濃厚興趣。",
+      "en": "You can use TAKE to describe surprise, family resemblance, sudden dislike, growing affection and strong interest."
+    },
+    {
+      "titleZh": "談論責任和控制權",
+      "titleEn": "Talk about responsibility and control",
+      "zh": "take on、take upon yourself 和 take over 可用來談論承擔職務、接受責任和取得控制權。",
+      "en": "Take on, take upon yourself and take over help you discuss accepting duties, taking responsibility and gaining control."
+    },
+    {
+      "titleZh": "理解常見固定表達",
+      "titleEn": "Understand common fixed expressions",
+      "zh": "take your breath away、take your eyes off 和 take a leaf out of somebody’s book 等表達,常見於對話、故事、評論和新聞報道。",
+      "en": "Expressions such as take your breath away, take your eyes off and take a leaf out of somebody’s book are common in conversations, stories, reviews and news reports."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更準確地描述移動方向",
+      "自然描述反應和人際關係",
+      "談論責任和控制權",
+      "理解常見固定表達"
+    ],
+    "contextsEn": [
+      "Talk about movement with greater precision",
+      "Describe reactions and relationships naturally",
+      "Talk about responsibility and control",
+      "Understand common fixed expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更準確地描述移動方向",
+        "titleEn": "Talk about movement with greater precision",
+        "zh": "TAKE 表達可以清楚說明某人是同行、被送回、被帶到樓上、被送走,還是被帶着經過某個地方。",
+        "en": "TAKE expressions can show whether somebody is being brought along, taken back, moved upstairs, transported away or guided through a place.",
+        "examples": [
+          {
+            "en": "His angry reply took me aback.",
+            "zh": "他憤怒的回答令我感到意外。",
+            "highlight": "took"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述反應和人際關係",
+        "titleEn": "Describe reactions and relationships naturally",
+        "zh": "你可以用 TAKE 描述驚訝、家族相似之處、突然產生的反感、逐漸形成的好感和濃厚興趣。",
+        "en": "You can use TAKE to describe surprise, family resemblance, sudden dislike, growing affection and strong interest.",
+        "examples": [
+          {
+            "en": "Ella takes after her father.",
+            "zh": "艾拉很像她的父親。",
+            "highlight": "takes after"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論責任和控制權",
+        "titleEn": "Talk about responsibility and control",
+        "zh": "take on、take upon yourself 和 take over 可用來談論承擔職務、接受責任和取得控制權。",
+        "en": "Take on, take upon yourself and take over help you discuss accepting duties, taking responsibility and gaining control.",
+        "examples": [
+          {
+            "en": "The dog has taken against our new neighbour.",
+            "zh": "那隻狗突然開始不喜歡我們的新鄰居。",
+            "highlight": "taken against"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見固定表達",
+        "titleEn": "Understand common fixed expressions",
+        "zh": "take your breath away、take your eyes off 和 take a leaf out of somebody’s book 等表達,常見於對話、故事、評論和新聞報道。",
+        "en": "Expressions such as take your breath away, take your eyes off and take a leaf out of somebody’s book are common in conversations, stories, reviews and news reports.",
+        "examples": [
+          {
+            "en": "Take an umbrella along with you.",
+            "zh": "帶一把雨傘同行。",
+            "highlight": "Take an umbrella along"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句後,才選擇合適的 TAKE 表達。",
+      "titleEn": "Read the whole sentence before choosing the TAKE expression.",
+      "zh": "閱讀整句後,才選擇合適的 TAKE 表達。",
+      "en": "Read the whole sentence before choosing the TAKE expression."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "使用 it、him 或 them 等短詞時,請按照以上例子的語序。",
+      "titleEn": "When using a short word such as it, him or them, follow the word order shown in examples such as: take it apart take him aside take them along take it off take it out.",
+      "zh": "使用 it、him 或 them 等短詞時,請按照以上例子的語序。",
+      "en": "When using a short word such as it, him or them, follow the word order shown in examples such as: take it apart take him aside take them along take it off take it out"
+    },
+    {
+      "titleZh": "有些表達的外形相似,但意思可以完全不同。例如,take off 可以表示飛機起飛、某人突然離開、模仿某人,或除去某物。",
+      "titleEn": "Some expressions look similar but have very different meanings.",
+      "zh": "有些表達的外形相似,但意思可以完全不同。例如,take off 可以表示飛機起飛、某人突然離開、模仿某人,或除去某物。",
+      "en": "Some expressions look similar but have very different meanings. For example, take off can describe an aircraft leaving the ground, a person leaving suddenly, imitating somebody or removing something."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TAKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TAKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TAKE 動詞片語句子改寫練習",
+    "titleEn": "TAKE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TAKE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TAKE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          38
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          39,
+          76
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          77,
+          152
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          153,
+          190
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-261-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 37,
+      "prompt": "One spelling mistake does not reduce the value of your excellent essay.",
+      "promptZh": "一個串字錯誤不會減低你這篇出色文章的價值。",
+      "starter": "One",
+      "answer": "One spelling mistake does not take away from your excellent essay.",
+      "answerZh": "一個串字錯誤不會減低你這篇出色文章的價值。",
+      "highlight": "take away from",
+      "targetForm": "take away from something",
+      "targetMeaningZh": "減低某事物的價值或重要性"
+    },
+    {
+      "id": "phrasal-verb-261-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 37,
+      "prompt": "An ambulance carried the injured cyclist away.",
+      "promptZh": "一輛救護車把受傷的單車手送走。",
+      "starter": "An",
+      "answer": "An ambulance took the injured cyclist away.",
+      "answerZh": "一輛救護車把受傷的單車手送走。",
+      "highlight": "took",
+      "targetForm": "take somebody away",
+      "targetMeaningZh": "把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-261-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 37,
+      "prompt": "The plane left the ground at noon.",
+      "promptZh": "飛機在中午起飛。",
+      "starter": "The",
+      "answer": "The plane took off at noon.",
+      "answerZh": "飛機在中午起飛。",
+      "highlight": "took off",
+      "targetForm": "take off",
+      "targetMeaningZh": "起飛"
+    },
+    {
+      "id": "phrasal-verb-261-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 37,
+      "prompt": "The solicitor explained every part of the contract to us.",
+      "promptZh": "律師逐一向我們講解合約的每個部分。",
+      "starter": "The",
+      "answer": "The solicitor took us through every part of the contract.",
+      "answerZh": "律師逐一向我們講解合約的每個部分。",
+      "highlight": "took us through",
+      "targetForm": "take somebody through something",
+      "targetMeaningZh": "逐步向某人解釋某事"
+    },
+    {
+      "id": "phrasal-verb-261-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 37,
+      "prompt": "I will copy your good habit and arrive early.",
+      "promptZh": "我會仿效你的好習慣,提早到達。",
+      "starter": "I",
+      "answer": "I will take a leaf out of your book and arrive early.",
+      "answerZh": "我會仿效你的好習慣,提早到達。",
+      "highlight": "take a leaf out of",
+      "targetForm": "take a leaf out of somebody’s book",
+      "targetMeaningZh": "仿效某人的好做法"
+    },
+    {
+      "id": "phrasal-verb-261-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "Fish absorb oxygen through their gills.",
+      "promptZh": "魚類透過鰓吸收氧氣。",
+      "starter": "Fish",
+      "answer": "Fish take in oxygen through their gills.",
+      "answerZh": "魚類透過鰓吸收氧氣。",
+      "highlight": "take in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "吸入或吸收某物"
+    },
+    {
+      "id": "phrasal-verb-261-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "Dana will replace Bill as manager.",
+      "promptZh": "戴娜將接替比爾出任經理。",
+      "starter": "Dana",
+      "answer": "Dana will take over from Bill as manager.",
+      "answerZh": "戴娜將接替比爾出任經理。",
+      "highlight": "take over from",
+      "targetForm": "take over from somebody",
+      "targetMeaningZh": "接替某人"
+    },
+    {
+      "id": "phrasal-verb-261-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "I did not like Elena’s husband when we met.",
+      "promptZh": "我初次見到埃琳娜的丈夫時並不喜歡他。",
+      "starter": "I",
+      "answer": "I did not take to Elena’s husband when we met.",
+      "answerZh": "我初次見到埃琳娜的丈夫時並不喜歡他。",
+      "highlight": "take to",
+      "targetForm": "take to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-261-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 38,
+      "prompt": "His rude reply surprised Ella.",
+      "promptZh": "他無禮的回答令艾拉感到意外。",
+      "starter": "His",
+      "answer": "His rude reply took Ella aback.",
+      "answerZh": "他無禮的回答令艾拉感到意外。",
+      "highlight": "took",
+      "targetForm": "take somebody aback",
+      "targetMeaningZh": "使某人感到意外"
+    },
+    {
+      "id": "phrasal-verb-261-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 38,
+      "prompt": "Please bring your notebook with you to the lesson.",
+      "promptZh": "請帶同筆記簿上課。",
+      "starter": "Please",
+      "answer": "Please take your notebook along to the lesson.",
+      "answerZh": "請帶同筆記簿上課。",
+      "highlight": "take",
+      "targetForm": "take something along",
+      "targetMeaningZh": "帶某物同行"
+    },
+    {
+      "id": "phrasal-verb-261-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 38,
+      "prompt": "Her voice became more serious.",
+      "promptZh": "她的語氣變得更加嚴肅。",
+      "starter": "Her",
+      "answer": "Her voice took on a more serious tone.",
+      "answerZh": "她的語氣變得更加嚴肅。",
+      "highlight": "took on a",
+      "targetForm": "take on something",
+      "targetMeaningZh": "呈現新的性質或特徵"
+    },
+    {
+      "id": "phrasal-verb-261-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 38,
+      "prompt": "The nurse accompanied me to the lower floor in the lift.",
+      "promptZh": "護士陪我乘升降機到較低樓層。",
+      "starter": "The",
+      "answer": "The nurse took me down in the lift.",
+      "answerZh": "護士陪我乘升降機到較低樓層。",
+      "highlight": "took",
+      "targetForm": "take somebody down",
+      "targetMeaningZh": "把某人帶往較低位置"
+    },
+    {
+      "id": "phrasal-verb-261-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "The comedian imitated our teacher.",
+      "promptZh": "那名喜劇演員模仿了我們的老師。",
+      "starter": "The",
+      "answer": "The comedian took our teacher off.",
+      "answerZh": "那名喜劇演員模仿了我們的老師。",
+      "highlight": "took",
+      "targetForm": "take somebody off",
+      "targetMeaningZh": "模仿某人"
+    },
+    {
+      "id": "phrasal-verb-261-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "Tom left without saying goodbye.",
+      "promptZh": "湯姆沒有道別便離開了。",
+      "starter": "Tom",
+      "answer": "Tom took off without saying goodbye.",
+      "answerZh": "湯姆沒有道別便突然離開。",
+      "highlight": "took off",
+      "targetForm": "take off",
+      "targetMeaningZh": "突然離開"
+    },
+    {
+      "id": "phrasal-verb-261-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "The cat suddenly began to dislike the new sitter.",
+      "promptZh": "那隻貓突然開始不喜歡新的照顧者。",
+      "starter": "The",
+      "answer": "The cat suddenly took against the new sitter.",
+      "answerZh": "那隻貓突然開始不喜歡新的照顧者。",
+      "highlight": "took against",
+      "targetForm": "take against somebody",
+      "targetMeaningZh": "突然開始不喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-261-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "The second book continues where the first one ended.",
+      "promptZh": "第二本書從第一本書結束的位置繼續。",
+      "starter": "The",
+      "answer": "The second book takes up where the first one ended.",
+      "answerZh": "第二本書從第一本書結束的位置繼續。",
+      "highlight": "takes up",
+      "targetForm": "take up",
+      "targetMeaningZh": "從之前停止的位置繼續"
+    },
+    {
+      "id": "phrasal-verb-261-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "Clara resembles her grandfather.",
+      "promptZh": "克拉拉很像她的祖父。",
+      "starter": "Clara",
+      "answer": "Clara takes after her grandfather.",
+      "answerZh": "克拉拉很像她的祖父。",
+      "highlight": "takes after",
+      "targetForm": "take after somebody",
+      "targetMeaningZh": "像某位家人"
+    },
+    {
+      "id": "phrasal-verb-261-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "Henry separated the radio into all its pieces.",
+      "promptZh": "亨利把收音機拆成不同部分。",
+      "starter": "Henry",
+      "answer": "Henry took the radio apart.",
+      "answerZh": "亨利把收音機拆開了。",
+      "highlight": "took",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "把某物拆開"
+    },
+    {
+      "id": "phrasal-verb-261-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "I am going into town, so I can bring you with me.",
+      "promptZh": "我要進城,所以可以帶你同行。",
+      "starter": "I",
+      "answer": "I am going into town, so I can take you in.",
+      "answerZh": "我要進城,所以可以帶你同行。",
+      "highlight": "take",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "把某人帶進某個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "Someone will accompany you to your room upstairs.",
+      "promptZh": "會有人陪你到樓上的房間。",
+      "starter": "Someone",
+      "answer": "Someone will take you up to your room.",
+      "answerZh": "會有人陪你到樓上的房間。",
+      "highlight": "take",
+      "targetForm": "take somebody up",
+      "targetMeaningZh": "把某人帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "The company employed two new assistants.",
+      "promptZh": "公司僱用了兩名新助理。",
+      "starter": "The",
+      "answer": "The company took on two new assistants.",
+      "answerZh": "公司僱用了兩名新助理。",
+      "highlight": "took on",
+      "targetForm": "take somebody on",
+      "targetMeaningZh": "僱用某人"
+    },
+    {
+      "id": "phrasal-verb-261-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "You must discuss your complaint with the manager.",
+      "promptZh": "你必須向經理提出投訴。",
+      "starter": "You",
+      "answer": "You must take your complaint up with the manager.",
+      "answerZh": "你必須向經理提出投訴。",
+      "highlight": "take",
+      "targetForm": "take something up with somebody",
+      "targetMeaningZh": "向某人提出問題或投訴"
+    },
+    {
+      "id": "phrasal-verb-261-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "I could not understand all the information at once.",
+      "promptZh": "我無法一次過理解所有資料。",
+      "starter": "I",
+      "answer": "I could not take in all the information at once.",
+      "answerZh": "我無法一次過理解所有資料。",
+      "highlight": "take in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "理解某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "Alex took his parents to a restaurant for dinner.",
+      "promptZh": "亞歷克斯帶父母到餐廳吃晚飯。",
+      "starter": "Alex",
+      "answer": "Alex took his parents out for dinner.",
+      "answerZh": "亞歷克斯帶父母外出吃晚飯。",
+      "highlight": "took his parents out",
+      "targetForm": "take somebody out for something",
+      "targetMeaningZh": "帶某人外出參加活動"
+    },
+    {
+      "id": "phrasal-verb-261-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "Can you return me to the hotel?",
+      "promptZh": "你可以送我回酒店嗎?",
+      "starter": "Can",
+      "answer": "Can you take me back to the hotel?",
+      "answerZh": "你可以送我回酒店嗎?",
+      "highlight": "take",
+      "targetForm": "take somebody back",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-261-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "I hear Tom has begun spending time with a new group of musicians.",
+      "promptZh": "我聽說湯姆開始與一群新認識的音樂人來往。",
+      "starter": "I",
+      "answer": "I hear Tom has taken up with a new group of musicians.",
+      "answerZh": "我聽說湯姆開始與一群新認識的音樂人來往。",
+      "highlight": "taken up",
+      "targetForm": "take up with somebody",
+      "targetMeaningZh": "開始與某人交往"
+    },
+    {
+      "id": "phrasal-verb-261-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 41,
+      "prompt": "She removed her coat.",
+      "promptZh": "她脫下了外套。",
+      "starter": "She",
+      "answer": "She took her coat off.",
+      "answerZh": "她脫下了外套。",
+      "highlight": "took",
+      "targetForm": "take something off",
+      "targetMeaningZh": "除去某物"
+    },
+    {
+      "id": "phrasal-verb-261-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 41,
+      "prompt": "The teacher asked Leo to speak privately.",
+      "promptZh": "老師叫里奧到一旁私下交談。",
+      "starter": "The",
+      "answer": "The teacher took Leo aside.",
+      "answerZh": "老師叫里奧到一旁私下交談。",
+      "highlight": "took",
+      "targetForm": "take somebody aside",
+      "targetMeaningZh": "把某人叫到一旁私下交談"
+    },
+    {
+      "id": "phrasal-verb-261-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 41,
+      "prompt": "He used a hammer to destroy the old radio.",
+      "promptZh": "他用鐵鎚破壞那部舊收音機。",
+      "starter": "He",
+      "answer": "He took a hammer to the old radio.",
+      "answerZh": "他拿起鐵鎚破壞那部舊收音機。",
+      "highlight": "took",
+      "targetForm": "take something to something",
+      "targetMeaningZh": "以工具攻擊或破壞某物"
+    },
+    {
+      "id": "phrasal-verb-261-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "The family gives paying guests a room in their home.",
+      "promptZh": "這個家庭讓付費客人寄住家中。",
+      "starter": "The",
+      "answer": "The family takes in paying guests.",
+      "answerZh": "這個家庭讓付費客人寄住家中。",
+      "highlight": "takes in",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "讓某人留宿或居住"
+    },
+    {
+      "id": "phrasal-verb-261-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "Better graphics moved computer games into a new era.",
+      "promptZh": "更好的圖像令電腦遊戲進入新時代。",
+      "starter": "Better",
+      "answer": "Better graphics took computer games into a new era.",
+      "answerZh": "更好的圖像令電腦遊戲進入新時代。",
+      "highlight": "took",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "令某事物進入新階段"
+    },
+    {
+      "id": "phrasal-verb-261-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "The mountain view amazed us.",
+      "promptZh": "山上的景色令我們驚嘆不已。",
+      "starter": "The",
+      "answer": "The mountain view took our breath away.",
+      "answerZh": "山上的景色令我們驚嘆不已。",
+      "highlight": "took our breath away",
+      "targetForm": "take somebody’s breath away",
+      "targetMeaningZh": "令某人驚嘆不已"
+    },
+    {
+      "id": "phrasal-verb-261-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "That long walk exhausted me.",
+      "promptZh": "那段長途步行令我筋疲力盡。",
+      "starter": "That",
+      "answer": "That long walk took it out of me.",
+      "answerZh": "那段長途步行令我筋疲力盡。",
+      "highlight": "took it out of",
+      "targetForm": "take it out of somebody",
+      "targetMeaningZh": "令某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-261-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 42,
+      "prompt": "Our team defeated the champions easily.",
+      "promptZh": "我們的球隊輕易擊敗了冠軍隊伍。",
+      "starter": "Our",
+      "answer": "Our team took the champions apart.",
+      "answerZh": "我們的球隊徹底擊敗了冠軍隊伍。",
+      "highlight": "took",
+      "targetForm": "take somebody apart",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-261-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 42,
+      "prompt": "He could not stop looking at the cake.",
+      "promptZh": "他無法停止望着那個蛋糕。",
+      "starter": "He",
+      "answer": "He could not take his eyes off the cake.",
+      "answerZh": "他無法把視線從那個蛋糕移開。",
+      "highlight": "take his eyes off",
+      "targetForm": "take your eyes off something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-261-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 42,
+      "prompt": "She accepted more responsibility after her promotion.",
+      "promptZh": "她升職後承擔了更多責任。",
+      "starter": "She",
+      "answer": "She took on more responsibility after her promotion.",
+      "answerZh": "她升職後承擔了更多責任。",
+      "highlight": "took on",
+      "targetForm": "take something on",
+      "targetMeaningZh": "承擔責任或工作"
+    },
+    {
+      "id": "phrasal-verb-261-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "I can show you the old town.",
+      "promptZh": "我可以帶你參觀舊城區。",
+      "starter": "I",
+      "answer": "I can take you around the old town.",
+      "answerZh": "我可以帶你參觀舊城區。",
+      "highlight": "take",
+      "targetForm": "take somebody around something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-261-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "Jack removed his keys from his pocket.",
+      "promptZh": "傑克從口袋裏取出鎖匙。",
+      "starter": "Jack",
+      "answer": "Jack took his keys out of his pocket.",
+      "answerZh": "傑克從口袋裏取出鎖匙。",
+      "highlight": "took",
+      "targetForm": "take something out of something",
+      "targetMeaningZh": "從某處取出某物"
+    },
+    {
+      "id": "phrasal-verb-261-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "Why are you separating the chair into pieces?",
+      "promptZh": "你為甚麼把椅子拆開?",
+      "starter": "Why",
+      "answer": "Why are you taking the chair apart?",
+      "answerZh": "你為甚麼把椅子拆開?",
+      "highlight": "taking",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "把某物拆開"
+    },
+    {
+      "id": "phrasal-verb-261-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "The children have started to like their new teacher.",
+      "promptZh": "孩子們開始喜歡他們的新老師。",
+      "starter": "The",
+      "answer": "The children have taken to their new teacher.",
+      "answerZh": "孩子們開始喜歡他們的新老師。",
+      "highlight": "taken",
+      "targetForm": "take to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-261-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 43,
+      "prompt": "Zoe is imitating the woman next door.",
+      "promptZh": "佐伊正在模仿隔壁的女士。",
+      "starter": "Zoe",
+      "answer": "Zoe is taking off the woman next door.",
+      "answerZh": "佐伊正在模仿隔壁的女士。",
+      "highlight": "taking off",
+      "targetForm": "take somebody off",
+      "targetMeaningZh": "模仿某人"
+    },
+    {
+      "id": "phrasal-verb-261-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 43,
+      "prompt": "She is very busy and interested in the children at the moment.",
+      "promptZh": "她目前十分投入照顧那些孩子。",
+      "starter": "She",
+      "answer": "She is very taken up with the children at the moment.",
+      "answerZh": "她目前十分投入照顧那些孩子。",
+      "highlight": "is very taken up with",
+      "targetForm": "be taken up with somebody",
+      "targetMeaningZh": "全心投入某人或忙於照顧某人"
+    },
+    {
+      "id": "phrasal-verb-261-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "The young player is defeating every opponent easily this season.",
+      "promptZh": "這名年輕球員今季輕易擊敗每一名對手。",
+      "starter": "The",
+      "answer": "The young player is taking every opponent apart this season.",
+      "answerZh": "這名年輕球員今季輕易擊敗每一名對手。",
+      "highlight": "taking",
+      "targetForm": "take somebody apart",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-261-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "The shelter is giving three lost dogs a temporary home.",
+      "promptZh": "收容所正為三隻走失的狗提供臨時居所。",
+      "starter": "The",
+      "answer": "The shelter is taking in three lost dogs.",
+      "answerZh": "收容所正為三隻走失的狗提供臨時居所。",
+      "highlight": "taking in",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "收留某人或動物"
+    },
+    {
+      "id": "phrasal-verb-261-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "Everyone says I resemble my aunt.",
+      "promptZh": "每個人都說我很像姨母。",
+      "starter": "Everyone",
+      "answer": "Everyone says I take after my aunt.",
+      "answerZh": "每個人都說我很像姨母。",
+      "highlight": "take after",
+      "targetForm": "take after somebody",
+      "targetMeaningZh": "像某位家人"
+    },
+    {
+      "id": "phrasal-verb-261-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "The workers are using an axe to break up the wooden door.",
+      "promptZh": "工人正用斧頭破壞木門。",
+      "starter": "The",
+      "answer": "The workers are taking an axe to the wooden door.",
+      "answerZh": "工人正用斧頭破壞木門。",
+      "highlight": "taking",
+      "targetForm": "take something to something",
+      "targetMeaningZh": "以工具攻擊或破壞某物"
+    },
+    {
+      "id": "phrasal-verb-261-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "The new coach is moving the team into the top division.",
+      "promptZh": "新教練正帶領球隊進入最高級別聯賽。",
+      "starter": "The",
+      "answer": "The new coach is taking the team into the top division.",
+      "answerZh": "新教練正帶領球隊進入最高級別聯賽。",
+      "highlight": "taking",
+      "targetForm": "take somebody into something",
+      "targetMeaningZh": "令某人進入新階段或範圍"
+    },
+    {
+      "id": "phrasal-verb-261-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 44,
+      "prompt": "We should copy their idea of checking the doors twice.",
+      "promptZh": "我們應該仿效他們檢查門兩次的做法。",
+      "starter": "We",
+      "answer": "We should take a leaf out of their book and check the doors twice.",
+      "answerZh": "我們應該仿效他們的做法,檢查門兩次。",
+      "highlight": "take a leaf out of",
+      "targetForm": "take a leaf out of somebody’s book",
+      "targetMeaningZh": "仿效某人的好做法"
+    },
+    {
+      "id": "phrasal-verb-261-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 44,
+      "prompt": "The police are bringing the man to the station.",
+      "promptZh": "警方正把那名男子帶到警署。",
+      "starter": "The",
+      "answer": "The police are taking the man off to the station.",
+      "answerZh": "警方正把那名男子帶到警署。",
+      "highlight": "taking",
+      "targetForm": "take somebody off to something",
+      "targetMeaningZh": "把某人帶到另一個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "The bus is accepting more passengers at the next stop.",
+      "promptZh": "巴士將在下一站接載更多乘客。",
+      "starter": "The",
+      "answer": "The bus is taking on more passengers at the next stop.",
+      "answerZh": "巴士將在下一站接載更多乘客。",
+      "highlight": "taking on",
+      "targetForm": "take somebody on",
+      "targetMeaningZh": "讓乘客登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-261-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "Why have you begun to dislike this idea?",
+      "promptZh": "你為甚麼開始不喜歡這個構思?",
+      "starter": "Why",
+      "answer": "Why have you taken against this idea?",
+      "answerZh": "你為甚麼開始不喜歡這個構思?",
+      "highlight": "taken against",
+      "targetForm": "take against something",
+      "targetMeaningZh": "突然開始不喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "The coach has asked me to speak privately after practice.",
+      "promptZh": "教練已叫我在練習後私下交談。",
+      "starter": "The",
+      "answer": "The coach has taken me aside after practice.",
+      "answerZh": "教練已叫我在練習後私下交談。",
+      "highlight": "taken",
+      "targetForm": "take somebody aside",
+      "targetMeaningZh": "把某人叫到一旁私下交談"
+    },
+    {
+      "id": "phrasal-verb-261-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "She notices every detail when she enters a room.",
+      "promptZh": "她每次進入房間都會留意每個細節。",
+      "starter": "She",
+      "answer": "She takes in every detail when she enters a room.",
+      "answerZh": "她每次進入房間都會留意每個細節。",
+      "highlight": "takes in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "注意或充分認識某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "We are taking the new student to the cinema tonight.",
+      "promptZh": "我們今晚會帶新同學到戲院。",
+      "starter": "We",
+      "answer": "We are taking the new student out to the cinema tonight.",
+      "answerZh": "我們今晚會帶新同學到戲院。",
+      "highlight": "taking the new student out",
+      "targetForm": "take somebody out to something",
+      "targetMeaningZh": "帶某人外出參加活動"
+    },
+    {
+      "id": "phrasal-verb-261-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 45,
+      "prompt": "The delay has not reduced the importance of their achievement.",
+      "promptZh": "延誤沒有減低他們成就的重要性。",
+      "starter": "The",
+      "answer": "The delay has not taken away from their achievement.",
+      "answerZh": "延誤沒有減低他們成就的重要性。",
+      "highlight": "taken away from",
+      "targetForm": "take away from something",
+      "targetMeaningZh": "減低某事物的重要性"
+    },
+    {
+      "id": "phrasal-verb-261-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 45,
+      "prompt": "The doctor has stopped him using the sleeping tablets.",
+      "promptZh": "醫生已停止讓他服用安眠藥。",
+      "starter": "The",
+      "answer": "The doctor has taken him off the sleeping tablets.",
+      "answerZh": "醫生已停止讓他服用安眠藥。",
+      "highlight": "taken",
+      "targetForm": "take somebody off something",
+      "targetMeaningZh": "停止讓某人使用某物"
+    },
+    {
+      "id": "phrasal-verb-261-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 45,
+      "prompt": "Do not accept all the work by yourself.",
+      "promptZh": "不要獨自承擔所有工作。",
+      "starter": "Do",
+      "answer": "Do not take all the work upon yourself.",
+      "answerZh": "不要獨自承擔所有工作。",
+      "highlight": "take",
+      "targetForm": "take something upon yourself",
+      "targetMeaningZh": "親自承擔工作或責任"
+    },
+    {
+      "id": "phrasal-verb-261-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 45,
+      "prompt": "I cannot stop looking at this painting.",
+      "promptZh": "我無法停止望着這幅畫。",
+      "starter": "I",
+      "answer": "I cannot take my eyes off this painting.",
+      "answerZh": "我無法把視線從這幅畫移開。",
+      "highlight": "take my eyes off",
+      "targetForm": "take your eyes off something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-261-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 45,
+      "prompt": "A larger company is gaining control of the shop.",
+      "promptZh": "一間較大的公司正取得這間店舖的控制權。",
+      "starter": "A",
+      "answer": "A larger company is taking over the shop.",
+      "answerZh": "一間較大的公司正取得這間店舖的控制權。",
+      "highlight": "taking over",
+      "targetForm": "take something over",
+      "targetMeaningZh": "接管某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 45,
+      "prompt": "Tomorrow’s lesson will continue from today’s final point.",
+      "promptZh": "明天的課堂會從今天最後談到的地方繼續。",
+      "starter": "The",
+      "answer": "Tomorrow’s lesson will take up where today’s lesson left off.",
+      "answerZh": "明天的課堂會從今天最後談到的地方繼續。",
+      "highlight": "take up where",
+      "targetForm": "take up",
+      "targetMeaningZh": "從之前停止的位置繼續"
+    },
+    {
+      "id": "phrasal-verb-261-q61",
+      "number": 61,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 45,
+      "prompt": "The singer’s voice always amazes the audience.",
+      "promptZh": "這名歌手的聲音總是令觀眾驚嘆不已。",
+      "starter": "The",
+      "answer": "The singer’s voice always takes the audience’s breath away.",
+      "answerZh": "這名歌手的聲音總是令觀眾驚嘆不已。",
+      "highlight": "takes",
+      "targetForm": "take somebody’s breath away",
+      "targetMeaningZh": "令某人驚嘆不已"
+    },
+    {
+      "id": "phrasal-verb-261-q62",
+      "number": 62,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 46,
+      "prompt": "We are carrying the forms to every office today.",
+      "promptZh": "我們今天會把表格帶到每一間辦公室。",
+      "starter": "We",
+      "answer": "We are taking the forms around the offices today.",
+      "answerZh": "我們今天會把表格帶到每一間辦公室。",
+      "highlight": "taking",
+      "targetForm": "take something around",
+      "targetMeaningZh": "把某物帶到多個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q63",
+      "number": 63,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 46,
+      "prompt": "The sky is becoming orange as the sun sets.",
+      "promptZh": "夕陽西下時,天空正變成橙色。",
+      "starter": "The",
+      "answer": "The sky is taking on an orange colour as the sun sets.",
+      "answerZh": "夕陽西下時,天空正呈現橙色。",
+      "highlight": "taking on an",
+      "targetForm": "take on something",
+      "targetMeaningZh": "呈現新的外觀或色彩"
+    },
+    {
+      "id": "phrasal-verb-261-q64",
+      "number": 64,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 46,
+      "prompt": "The lift is carrying the visitors to the top floor.",
+      "promptZh": "升降機正把訪客送到頂層。",
+      "starter": "The",
+      "answer": "The lift is taking the visitors up to the top floor.",
+      "answerZh": "升降機正把訪客送到頂層。",
+      "highlight": "taking",
+      "targetForm": "take somebody up",
+      "targetMeaningZh": "把某人帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q65",
+      "number": 65,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 46,
+      "prompt": "I thought his claim was wrong, but I did not challenge him about it.",
+      "promptZh": "我認為他的說法不正確,但沒有就此質疑他。",
+      "starter": "I",
+      "answer": "I thought his claim was wrong, but I did not take him up on it.",
+      "answerZh": "我認為他的說法不正確,但沒有就此質疑他。",
+      "highlight": "take",
+      "targetForm": "take somebody up on something",
+      "targetMeaningZh": "就某人的說法提出質疑"
+    },
+    {
+      "id": "phrasal-verb-261-q66",
+      "number": 66,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 46,
+      "prompt": "The driver is bringing the boxes into the building.",
+      "promptZh": "司機正把箱子帶進大樓。",
+      "starter": "The",
+      "answer": "The driver is taking the boxes into the building.",
+      "answerZh": "司機正把箱子帶進大樓。",
+      "highlight": "taking",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "把某物帶進某地"
+    },
+    {
+      "id": "phrasal-verb-261-q67",
+      "number": 67,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 46,
+      "prompt": "Do not direct your bad mood at your sister.",
+      "promptZh": "不要把壞情緒發洩在妹妹身上。",
+      "starter": "Do",
+      "answer": "Do not take your bad mood out on your sister.",
+      "answerZh": "不要把壞情緒發洩在妹妹身上。",
+      "highlight": "take",
+      "targetForm": "take something out on somebody",
+      "targetMeaningZh": "把情緒發洩在某人身上"
+    },
+    {
+      "id": "phrasal-verb-261-q68",
+      "number": 68,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 46,
+      "prompt": "The storm has destroyed two power lines.",
+      "promptZh": "暴風雨破壞了兩條電力線。",
+      "starter": "The",
+      "answer": "The storm has taken out two power lines.",
+      "answerZh": "暴風雨破壞了兩條電力線。",
+      "highlight": "taken out",
+      "targetForm": "take something out",
+      "targetMeaningZh": "破壞某物或令其停止運作"
+    },
+    {
+      "id": "phrasal-verb-261-q69",
+      "number": 69,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 47,
+      "prompt": "The porter is carrying our bags to the room upstairs.",
+      "promptZh": "行李員正把我們的行李送上樓上的房間。",
+      "starter": "The",
+      "answer": "The porter is taking our bags up to the room.",
+      "answerZh": "行李員正把我們的行李送上房間。",
+      "highlight": "taking",
+      "targetForm": "take something up",
+      "targetMeaningZh": "把某物帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q70",
+      "number": 70,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 47,
+      "prompt": "Our flight is leaving the ground from the runway now.",
+      "promptZh": "我們的航班現在正從跑道起飛。",
+      "starter": "Our",
+      "answer": "Our flight is taking off from the runway now.",
+      "answerZh": "我們的航班現在正從跑道起飛。",
+      "highlight": "taking off",
+      "targetForm": "take off",
+      "targetMeaningZh": "起飛"
+    },
+    {
+      "id": "phrasal-verb-261-q71",
+      "number": 71,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 47,
+      "prompt": "The bus will return the children to school at four.",
+      "promptZh": "巴士會在四時把孩子們送回學校。",
+      "starter": "The",
+      "answer": "The bus will take the children back to school at four.",
+      "answerZh": "巴士會在四時把孩子們送回學校。",
+      "highlight": "take",
+      "targetForm": "take somebody back",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-261-q72",
+      "number": 72,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 47,
+      "prompt": "Please carry the tea to the sitting room.",
+      "promptZh": "請把茶拿到客廳。",
+      "starter": "Please",
+      "answer": "Please take the tea through to the sitting room.",
+      "answerZh": "請把茶拿到客廳。",
+      "highlight": "take",
+      "targetForm": "take something through to something",
+      "targetMeaningZh": "把某物拿到另一處"
+    },
+    {
+      "id": "phrasal-verb-261-q73",
+      "number": 73,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 47,
+      "prompt": "The owner is showing us the house now.",
+      "promptZh": "業主現在正帶我們參觀房子。",
+      "starter": "The",
+      "answer": "The owner is taking us over the house now.",
+      "answerZh": "業主現在正帶我們參觀房子。",
+      "highlight": "taking",
+      "targetForm": "take somebody over something",
+      "targetMeaningZh": "帶某人參觀某處"
+    },
+    {
+      "id": "phrasal-verb-261-q74",
+      "number": 74,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 47,
+      "prompt": "Whenever things become difficult, she leaves.",
+      "promptZh": "每當事情變得困難,她便會離開。",
+      "starter": "Whenever",
+      "answer": "Whenever things become difficult, she takes off.",
+      "answerZh": "每當事情變得困難,她便會離開。",
+      "highlight": "takes off",
+      "targetForm": "take off",
+      "targetMeaningZh": "突然離開"
+    },
+    {
+      "id": "phrasal-verb-261-q75",
+      "number": 75,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 47,
+      "prompt": "The sudden change has surprised us.",
+      "promptZh": "這項突然的改變令我們感到意外。",
+      "starter": "The",
+      "answer": "The sudden change has taken us aback.",
+      "answerZh": "這項突然的改變令我們感到意外。",
+      "highlight": "taken",
+      "targetForm": "take somebody aback",
+      "targetMeaningZh": "使某人感到意外"
+    },
+    {
+      "id": "phrasal-verb-261-q76",
+      "number": 76,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 48,
+      "prompt": "This plant is absorbing too much water.",
+      "promptZh": "這棵植物正在吸收過多水分。",
+      "starter": "This",
+      "answer": "This plant is taking in too much water.",
+      "answerZh": "這棵植物正在吸收過多水分。",
+      "highlight": "taking in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "吸收某物"
+    },
+    {
+      "id": "phrasal-verb-261-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 48,
+      "prompt": "The news was so shocking that Ben did not fully understand it.",
+      "promptZh": "這個消息太令人震驚,賓未能完全理解。",
+      "starter": "The",
+      "answer": "The news was so shocking that Ben could not fully take it in.",
+      "answerZh": "這個消息太令人震驚,賓未能完全理解。",
+      "highlight": "The news was so shocking that Ben could",
+      "targetForm": "take something in",
+      "targetMeaningZh": "理解某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 48,
+      "prompt": "Can I bring my younger brother with me to the match?",
+      "promptZh": "我可以帶弟弟一起去看比賽嗎?",
+      "starter": "Can",
+      "answer": "Can I take my younger brother along to the match?",
+      "answerZh": "我可以帶弟弟一起去看比賽嗎?",
+      "highlight": "take",
+      "targetForm": "take somebody along",
+      "targetMeaningZh": "帶某人同行"
+    },
+    {
+      "id": "phrasal-verb-261-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 48,
+      "prompt": "After moving to the city, Leo began a relationship with an actor.",
+      "promptZh": "搬到城市後,里奧開始與一名演員交往。",
+      "starter": "After",
+      "answer": "After moving to the city, Leo took up with an actor.",
+      "answerZh": "搬到城市後,里奧開始與一名演員交往。",
+      "highlight": "took up",
+      "targetForm": "take up with somebody",
+      "targetMeaningZh": "開始與某人交往"
+    },
+    {
+      "id": "phrasal-verb-261-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 48,
+      "prompt": "When the guests arrived, Priya showed them around the school.",
+      "promptZh": "客人到達後,普里雅帶他們參觀學校。",
+      "starter": "When",
+      "answer": "When the guests arrived, Priya took them around the school.",
+      "answerZh": "客人到達後,普里雅帶他們參觀學校。",
+      "highlight": "took",
+      "targetForm": "take somebody around something",
+      "targetMeaningZh": "帶某人參觀某處"
+    },
+    {
+      "id": "phrasal-verb-261-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 48,
+      "prompt": "We were all impressed by Zoe’s friendly manner.",
+      "promptZh": "我們都對佐伊友善的態度很有好感。",
+      "starter": "We",
+      "answer": "We were all very taken with Zoe’s friendly manner.",
+      "answerZh": "我們都對佐伊友善的態度很有好感。",
+      "highlight": "were all very taken with",
+      "targetForm": "be taken with somebody/something",
+      "targetMeaningZh": "對某人或某物產生好感"
+    },
+    {
+      "id": "phrasal-verb-261-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 49,
+      "prompt": "If the bill is incorrect, discuss the matter with the service desk.",
+      "promptZh": "如果帳單有誤,請向服務櫃位提出這件事。",
+      "starter": "If",
+      "answer": "If the bill is incorrect, take the matter up with the service desk.",
+      "answerZh": "如果帳單有誤,請向服務櫃位提出這件事。",
+      "highlight": "take",
+      "targetForm": "take something up with somebody",
+      "targetMeaningZh": "向某人提出問題"
+    },
+    {
+      "id": "phrasal-verb-261-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 49,
+      "prompt": "After lunch, the discussion continued from the point where it had stopped.",
+      "promptZh": "午飯後,討論從之前停止的位置繼續。",
+      "starter": "After",
+      "answer": "After lunch, the discussion took up where it had left off.",
+      "answerZh": "午飯後,討論從之前停止的位置繼續。",
+      "highlight": "took up",
+      "targetForm": "take up",
+      "targetMeaningZh": "從之前停止的位置繼續"
+    },
+    {
+      "id": "phrasal-verb-261-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 49,
+      "prompt": "After seeing how organised Nina was, I copied her method.",
+      "promptZh": "看到妮娜做事很有條理後,我仿效了她的方法。",
+      "starter": "After",
+      "answer": "After seeing how organised Nina was, I took a leaf out of her book.",
+      "answerZh": "看到妮娜做事很有條理後,我仿效了她的方法。",
+      "highlight": "took a leaf out of",
+      "targetForm": "take a leaf out of somebody’s book",
+      "targetMeaningZh": "仿效某人的好做法"
+    },
+    {
+      "id": "phrasal-verb-261-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 49,
+      "prompt": "She had her appendix removed last year.",
+      "promptZh": "她去年接受手術切除了闌尾。",
+      "starter": "She",
+      "answer": "She had her appendix taken out last year.",
+      "answerZh": "她去年接受手術切除了闌尾。",
+      "highlight": "taken out",
+      "targetForm": "take something out",
+      "targetMeaningZh": "以手術移除某物"
+    },
+    {
+      "id": "phrasal-verb-261-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 49,
+      "prompt": "Since the boxes were heavy, we carried them upstairs one at a time.",
+      "promptZh": "由於箱子很重,我們逐個把它們搬到樓上。",
+      "starter": "Since",
+      "answer": "Since the boxes were heavy, we took them up one at a time.",
+      "answerZh": "由於箱子很重,我們逐個把它們搬到樓上。",
+      "highlight": "took",
+      "targetForm": "take something up",
+      "targetMeaningZh": "把某物帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 49,
+      "prompt": "Ravi returned us to our flat by car.",
+      "promptZh": "拉維駕車送我們回住所。",
+      "starter": "Ravi",
+      "answer": "Ravi took us back to our flat by car.",
+      "answerZh": "拉維駕車送我們回住所。",
+      "highlight": "took",
+      "targetForm": "take somebody back",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-261-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 49,
+      "prompt": "When the doors opened, the size of the hall amazed me.",
+      "promptZh": "門打開時,禮堂的大小令我驚嘆不已。",
+      "starter": "When",
+      "answer": "When the doors opened, the size of the hall took my breath away.",
+      "answerZh": "門打開時,禮堂的大小令我驚嘆不已。",
+      "highlight": "took my breath away",
+      "targetForm": "take somebody’s breath away",
+      "targetMeaningZh": "令某人驚嘆不已"
+    },
+    {
+      "id": "phrasal-verb-261-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 50,
+      "prompt": "The book was on the highest shelf, so I removed it from there.",
+      "promptZh": "那本書放在最高的書架上,所以我把它取下來。",
+      "starter": "The",
+      "answer": "The book was on the highest shelf, so I took it down.",
+      "answerZh": "那本書放在最高的書架上,所以我把它取下來。",
+      "highlight": "took",
+      "targetForm": "take something down",
+      "targetMeaningZh": "從高處取下某物"
+    },
+    {
+      "id": "phrasal-verb-261-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 50,
+      "prompt": "Seeing his old friends helped him forget his worries for a while.",
+      "promptZh": "再次見到老朋友令他暫時忘記煩惱。",
+      "starter": "Seeing",
+      "answer": "Seeing his old friends took him out of himself for a while.",
+      "answerZh": "再次見到老朋友令他暫時忘記煩惱。",
+      "highlight": "took",
+      "targetForm": "take somebody out of themselves",
+      "targetMeaningZh": "使某人暫時忘記煩惱"
+    },
+    {
+      "id": "phrasal-verb-261-q91",
+      "number": 91,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 50,
+      "prompt": "After the lights were changed, the room had a warmer appearance.",
+      "promptZh": "更換燈光後,房間呈現出更溫暖的感覺。",
+      "starter": "After",
+      "answer": "After the lights were changed, the room took on a warmer appearance.",
+      "answerZh": "更換燈光後,房間呈現出更溫暖的感覺。",
+      "highlight": "took on",
+      "targetForm": "take on something",
+      "targetMeaningZh": "呈現新的外觀或性質"
+    },
+    {
+      "id": "phrasal-verb-261-q92",
+      "number": 92,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 50,
+      "prompt": "The toy was broken, so Eva separated it into pieces to find the problem.",
+      "promptZh": "玩具壞了,所以伊娃把它拆開尋找問題。",
+      "starter": "The",
+      "answer": "The toy was broken, so Eva took it apart to find the problem.",
+      "answerZh": "玩具壞了,所以伊娃把它拆開尋找問題。",
+      "highlight": "took",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "把某物拆開"
+    },
+    {
+      "id": "phrasal-verb-261-q93",
+      "number": 93,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 50,
+      "prompt": "Before the test, the teacher explained the steps to them one by one.",
+      "promptZh": "測驗前,老師逐步向他們講解各個步驟。",
+      "starter": "Before",
+      "answer": "Before the test, the teacher took them through the steps one by one.",
+      "answerZh": "測驗前,老師逐步向他們講解各個步驟。",
+      "highlight": "took them through",
+      "targetForm": "take somebody through something",
+      "targetMeaningZh": "逐步向某人解釋某事"
+    },
+    {
+      "id": "phrasal-verb-261-q94",
+      "number": 94,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 50,
+      "prompt": "I was surprised by how calmly he lied.",
+      "promptZh": "他說謊時如此冷靜,令我感到震驚。",
+      "starter": "I",
+      "answer": "I was taken aback by how calmly he lied.",
+      "answerZh": "他說謊時如此冷靜,令我感到震驚。",
+      "highlight": "taken aback",
+      "targetForm": "take somebody aback",
+      "targetMeaningZh": "使某人感到意外或震驚"
+    },
+    {
+      "id": "phrasal-verb-261-q95",
+      "number": 95,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 50,
+      "prompt": "After the holiday rush began, the shop employed them for six weeks.",
+      "promptZh": "假期旺季開始後,店舖僱用了他們六星期。",
+      "starter": "After",
+      "answer": "After the holiday rush began, the shop took them on for six weeks.",
+      "answerZh": "假期旺季開始後,店舖僱用了他們六星期。",
+      "highlight": "took",
+      "targetForm": "take somebody on",
+      "targetMeaningZh": "僱用某人"
+    },
+    {
+      "id": "phrasal-verb-261-q96",
+      "number": 96,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 51,
+      "prompt": "When nobody volunteered, I accepted the task of organising the event.",
+      "promptZh": "沒有人自願後,我承擔了籌辦活動的工作。",
+      "starter": "When",
+      "answer": "When nobody volunteered, I took on the task of organising the event.",
+      "answerZh": "沒有人自願後,我承擔了籌辦活動的工作。",
+      "highlight": "took on",
+      "targetForm": "take something on",
+      "targetMeaningZh": "承擔工作或任務"
+    },
+    {
+      "id": "phrasal-verb-261-q97",
+      "number": 97,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 51,
+      "prompt": "Another child removed the toy from him.",
+      "promptZh": "另一名孩子拿走了他的玩具。",
+      "starter": "Another",
+      "answer": "Another child took the toy off him.",
+      "answerZh": "另一名孩子拿走了他的玩具。",
+      "highlight": "took",
+      "targetForm": "take something off somebody",
+      "targetMeaningZh": "從某人手上拿走某物"
+    },
+    {
+      "id": "phrasal-verb-261-q98",
+      "number": 98,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 51,
+      "prompt": "Before the meeting ended, Dana moved him away from the group and explained the problem privately.",
+      "promptZh": "會議結束前,戴娜把他叫到一旁,私下解釋問題。",
+      "starter": "Before",
+      "answer": "Before the meeting ended, Dana took him aside and explained the problem.",
+      "answerZh": "會議結束前,戴娜把他叫到一旁,私下解釋問題。",
+      "highlight": "took",
+      "targetForm": "take somebody aside",
+      "targetMeaningZh": "把某人叫到一旁私下交談"
+    },
+    {
+      "id": "phrasal-verb-261-q99",
+      "number": 99,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 51,
+      "prompt": "Neither child resembles their father; both resemble their mother.",
+      "promptZh": "兩個孩子都不像父親;他們都像母親。",
+      "starter": "Neither",
+      "answer": "Neither child takes after their father; both take after their mother.",
+      "answerZh": "兩個孩子都不像父親;他們都像母親。",
+      "highlight": "takes after",
+      "targetForm": "take after somebody",
+      "targetMeaningZh": "像某位家人"
+    },
+    {
+      "id": "phrasal-verb-261-q100",
+      "number": 100,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 51,
+      "prompt": "Breathe slowly so your body can absorb more air.",
+      "promptZh": "慢慢呼吸,讓身體吸入更多空氣。",
+      "starter": "Breathe",
+      "answer": "Breathe slowly so your body can take in more air.",
+      "answerZh": "慢慢呼吸,讓身體吸入更多空氣。",
+      "highlight": "take in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "吸入某物"
+    },
+    {
+      "id": "phrasal-verb-261-q101",
+      "number": 101,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 51,
+      "prompt": "After the fire, our neighbours gave us a place to stay.",
+      "promptZh": "火災後,鄰居讓我們暫住。",
+      "starter": "After",
+      "answer": "After the fire, our neighbours took us in.",
+      "answerZh": "火災後,鄰居讓我們暫住。",
+      "highlight": "took",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "讓某人留宿"
+    },
+    {
+      "id": "phrasal-verb-261-q102",
+      "number": 102,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 51,
+      "prompt": "Please do not stop watching the road while you are driving.",
+      "promptZh": "駕駛時請不要把視線移離路面。",
+      "starter": "Please",
+      "answer": "Please do not take your eyes off the road while you are driving.",
+      "answerZh": "駕駛時請不要把視線移離路面。",
+      "highlight": "take your eyes off",
+      "targetForm": "take your eyes off something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-261-q103",
+      "number": 103,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 52,
+      "prompt": "At first Ben liked the club, but he later began to dislike it.",
+      "promptZh": "賓起初喜歡這個會所,但後來開始討厭它。",
+      "starter": "At",
+      "answer": "At first Ben liked the club, but he later took against it.",
+      "answerZh": "賓起初喜歡這個會所,但後來開始討厭它。",
+      "highlight": "took against",
+      "targetForm": "take against something",
+      "targetMeaningZh": "突然開始不喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q104",
+      "number": 104,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 52,
+      "prompt": "I looked away for a moment, and the dog suddenly left.",
+      "promptZh": "我把視線移開了一會兒,那隻狗便突然離開。",
+      "starter": "I",
+      "answer": "I looked away for a moment, and the dog suddenly took off.",
+      "answerZh": "我把視線移開了一會兒,那隻狗便突然離開。",
+      "highlight": "took off",
+      "targetForm": "take off",
+      "targetMeaningZh": "突然離開"
+    },
+    {
+      "id": "phrasal-verb-261-q105",
+      "number": 105,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 52,
+      "prompt": "The storm ended, so the helicopter was finally able to leave the ground.",
+      "promptZh": "暴風雨結束後,直升機終於可以起飛。",
+      "starter": "The",
+      "answer": "The storm ended, so the helicopter was finally able to take off.",
+      "answerZh": "暴風雨結束後,直升機終於可以起飛。",
+      "highlight": "take off",
+      "targetForm": "take off",
+      "targetMeaningZh": "起飛"
+    },
+    {
+      "id": "phrasal-verb-261-q106",
+      "number": 106,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 52,
+      "prompt": "At the party, Liam imitated me so well that everyone laughed.",
+      "promptZh": "在派對上,利亞姆把我模仿得十分神似,令所有人都笑了。",
+      "starter": "At",
+      "answer": "At the party, Liam took me off so well that everyone laughed.",
+      "answerZh": "在派對上,利亞姆把我模仿得十分神似,令所有人都笑了。",
+      "highlight": "took",
+      "targetForm": "take somebody off",
+      "targetMeaningZh": "模仿某人"
+    },
+    {
+      "id": "phrasal-verb-261-q107",
+      "number": 107,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 52,
+      "prompt": "In the second half, the home side completely defeated them.",
+      "promptZh": "下半場時,主隊徹底擊敗了他們。",
+      "starter": "In",
+      "answer": "In the second half, the home side took them apart.",
+      "answerZh": "下半場時,主隊徹底擊敗了他們。",
+      "highlight": "took",
+      "targetForm": "take somebody apart",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-261-q108",
+      "number": 108,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 52,
+      "prompt": "Since the captain was ill, his deputy assumed control.",
+      "promptZh": "由於隊長生病,副手接管了工作。",
+      "starter": "Since",
+      "answer": "Since the captain was ill, his deputy took over.",
+      "answerZh": "由於隊長生病,副手接管了工作。",
+      "highlight": "took over",
+      "targetForm": "take over",
+      "targetMeaningZh": "接管工作或控制權"
+    },
+    {
+      "id": "phrasal-verb-261-q109",
+      "number": 109,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 52,
+      "prompt": "The project was small at first, but online sales moved it into international markets.",
+      "promptZh": "項目起初規模很小,但網上銷售把它帶進了國際市場。",
+      "starter": "The",
+      "answer": "The project was small at first, but online sales took it into international markets.",
+      "answerZh": "項目起初規模很小,但網上銷售把它帶進了國際市場。",
+      "highlight": "took",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "令某事物進入新範圍"
+    },
+    {
+      "id": "phrasal-verb-261-q110",
+      "number": 110,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 53,
+      "prompt": "Because the smoke was getting worse, firefighters moved the residents away from the building.",
+      "promptZh": "由於濃煙愈來愈嚴重,消防員把居民帶離大樓。",
+      "starter": "Because",
+      "answer": "Because the smoke was getting worse, firefighters took the residents away from the building.",
+      "answerZh": "由於濃煙愈來愈嚴重,消防員把居民帶離大樓。",
+      "highlight": "took",
+      "targetForm": "take somebody away from something",
+      "targetMeaningZh": "把某人帶離某處"
+    },
+    {
+      "id": "phrasal-verb-261-q111",
+      "number": 111,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 53,
+      "prompt": "I do not want to reduce the value of his work, but he had a lot of help.",
+      "promptZh": "我不想貶低他的工作,但他的確得到很多幫助。",
+      "starter": "I",
+      "answer": "I do not want to take away from his work, but he had a lot of help.",
+      "answerZh": "我不想貶低他的工作,但他的確得到很多幫助。",
+      "highlight": "take away from",
+      "targetForm": "take away from something",
+      "targetMeaningZh": "減低某事物的價值"
+    },
+    {
+      "id": "phrasal-verb-261-q112",
+      "number": 112,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 53,
+      "prompt": "Since it was raining, the guard brought us inside through the side door.",
+      "promptZh": "由於正在下雨,警衞經側門把我們帶進室內。",
+      "starter": "Since",
+      "answer": "Since it was raining, the guard took us in through the side door.",
+      "answerZh": "由於正在下雨,警衞經側門把我們帶進室內。",
+      "highlight": "took",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "把某人帶進某處"
+    },
+    {
+      "id": "phrasal-verb-261-q113",
+      "number": 113,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 53,
+      "prompt": "For her birthday, Ben invited Sofia to a concert.",
+      "promptZh": "索菲亞生日時,賓帶她去聽音樂會。",
+      "starter": "For",
+      "answer": "For her birthday, Ben took Sofia out to a concert.",
+      "answerZh": "索菲亞生日時,賓帶她去聽音樂會。",
+      "highlight": "took",
+      "targetForm": "take somebody out to something",
+      "targetMeaningZh": "帶某人外出參加活動"
+    },
+    {
+      "id": "phrasal-verb-261-q114",
+      "number": 114,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 53,
+      "prompt": "In anger, she used scissors to cut the dress into pieces.",
+      "promptZh": "她一怒之下用剪刀把裙子剪碎。",
+      "starter": "In",
+      "answer": "In anger, she took scissors to the dress.",
+      "answerZh": "她一怒之下用剪刀把裙子剪碎。",
+      "highlight": "took",
+      "targetForm": "take something to something",
+      "targetMeaningZh": "以工具攻擊或破壞某物"
+    },
+    {
+      "id": "phrasal-verb-261-q115",
+      "number": 115,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 53,
+      "prompt": "The nurse guided the new patient through the check-in process.",
+      "promptZh": "護士逐步帶領新病人完成登記程序。",
+      "starter": "The",
+      "answer": "The nurse took the new patient through the check-in process.",
+      "answerZh": "護士逐步帶領新病人完成登記程序。",
+      "highlight": "took",
+      "targetForm": "take somebody through something",
+      "targetMeaningZh": "帶領某人完成某個過程"
+    },
+    {
+      "id": "phrasal-verb-261-q116",
+      "number": 116,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 54,
+      "prompt": "The doctor carried the model to several classrooms so every student could see it.",
+      "promptZh": "醫生把模型帶到多間課室,讓每名學生都看到。",
+      "starter": "The",
+      "answer": "The doctor took the model around the classrooms so every student could see it.",
+      "answerZh": "醫生把模型帶到多間課室,讓每名學生都看到。",
+      "highlight": "took",
+      "targetForm": "take something around",
+      "targetMeaningZh": "把某物帶到多個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q117",
+      "number": 117,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 54,
+      "prompt": "During the tour, we stopped quietly to notice the size and beauty of the hall.",
+      "promptZh": "參觀期間,我們安靜地停下來,細看禮堂的大小和美感。",
+      "starter": "During",
+      "answer": "During the tour, we stopped quietly to take in the size and beauty of the hall.",
+      "answerZh": "參觀期間,我們安靜地停下來,細看禮堂的大小和美感。",
+      "highlight": "take in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "注意或欣賞某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q118",
+      "number": 118,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 54,
+      "prompt": "The first sight of the northern lights was so beautiful that everyone was amazed.",
+      "promptZh": "第一次看到北極光時,那種美景令所有人驚嘆不已。",
+      "starter": "The",
+      "answer": "The first sight of the northern lights took everyone’s breath away.",
+      "answerZh": "第一次看到北極光時,那種美景令所有人驚嘆不已。",
+      "highlight": "took everyone’s breath away",
+      "targetForm": "take somebody’s breath away",
+      "targetMeaningZh": "令某人驚嘆不已"
+    },
+    {
+      "id": "phrasal-verb-261-q119",
+      "number": 119,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 54,
+      "prompt": "He decided that he would personally explain the mistake to every customer.",
+      "promptZh": "他決定親自向每名顧客解釋錯誤。",
+      "starter": "He",
+      "answer": "He took it upon himself to explain the mistake to every customer.",
+      "answerZh": "他決定親自向每名顧客解釋錯誤。",
+      "highlight": "took it upon himself to",
+      "targetForm": "take it upon yourself to do something",
+      "targetMeaningZh": "自行承擔做某事的責任"
+    },
+    {
+      "id": "phrasal-verb-261-q120",
+      "number": 120,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 54,
+      "prompt": "When the speaker said nobody could solve the puzzle, Eva challenged him on that claim.",
+      "promptZh": "講者聲稱沒有人能解開謎題時,伊娃就這項說法向他提出質疑。",
+      "starter": "When",
+      "answer": "When the speaker said nobody could solve the puzzle, Eva took him up on that claim.",
+      "answerZh": "講者聲稱沒有人能解開謎題時,伊娃就這項說法向他提出質疑。",
+      "highlight": "took",
+      "targetForm": "take somebody up on something",
+      "targetMeaningZh": "就某人的說法提出質疑"
+    },
+    {
+      "id": "phrasal-verb-261-q121",
+      "number": 121,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 54,
+      "prompt": "The exam week was so tiring that it left every student exhausted.",
+      "promptZh": "考試周十分疲累,令每名學生都筋疲力盡。",
+      "starter": "The",
+      "answer": "The exam week took it out of every student.",
+      "answerZh": "考試周令每名學生都筋疲力盡。",
+      "highlight": "took",
+      "targetForm": "take it out of somebody",
+      "targetMeaningZh": "令某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-261-q122",
+      "number": 122,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 54,
+      "prompt": "The child watched the magician so closely that she never looked away.",
+      "promptZh": "那名孩子專心看着魔術師,從沒有移開視線。",
+      "starter": "The",
+      "answer": "The child could not take her eyes off the magician.",
+      "answerZh": "那名孩子無法把視線從魔術師身上移開。",
+      "highlight": "could not take her eyes off",
+      "targetForm": "take your eyes off somebody",
+      "targetMeaningZh": "把視線從某人身上移開"
+    },
+    {
+      "id": "phrasal-verb-261-q123",
+      "number": 123,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 55,
+      "prompt": "A guide showed the visitors every room in the castle.",
+      "promptZh": "一名導遊帶訪客參觀城堡內的每個房間。",
+      "starter": "A",
+      "answer": "A guide took the visitors over the castle.",
+      "answerZh": "一名導遊帶訪客參觀城堡。",
+      "highlight": "took",
+      "targetForm": "take somebody over something",
+      "targetMeaningZh": "帶某人參觀某處"
+    },
+    {
+      "id": "phrasal-verb-261-q124",
+      "number": 124,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 55,
+      "prompt": "The smaller café copied its successful neighbour and started opening earlier.",
+      "promptZh": "這間較小的咖啡店仿效成功的鄰店,開始提早營業。",
+      "starter": "The",
+      "answer": "The smaller café took a leaf out of its successful neighbour’s book and started opening earlier.",
+      "answerZh": "這間較小的咖啡店仿效成功鄰店的做法,開始提早營業。",
+      "highlight": "took a leaf out of",
+      "targetForm": "take a leaf out of somebody’s book",
+      "targetMeaningZh": "仿效某人的好做法"
+    },
+    {
+      "id": "phrasal-verb-261-q125",
+      "number": 125,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 55,
+      "prompt": "The whole class was so interested in the science project that they forgot the time.",
+      "promptZh": "全班都全心投入科學項目,連時間也忘記了。",
+      "starter": "The",
+      "answer": "The whole class was so taken up with the science project that they forgot the time.",
+      "answerZh": "全班都全心投入科學項目,連時間也忘記了。",
+      "highlight": "was so taken up with",
+      "targetForm": "be taken up with something",
+      "targetMeaningZh": "全心投入某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q126",
+      "number": 126,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 55,
+      "prompt": "In the way he laughs and tells stories, Ravi strongly resembles his grandfather.",
+      "promptZh": "拉維笑和說故事的方式都很像祖父。",
+      "starter": "In",
+      "answer": "In the way he laughs and tells stories, Ravi takes after his grandfather.",
+      "answerZh": "拉維笑和說故事的方式都很像祖父。",
+      "highlight": "takes after",
+      "targetForm": "take after somebody",
+      "targetMeaningZh": "像某位家人"
+    },
+    {
+      "id": "phrasal-verb-261-q127",
+      "number": 127,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 55,
+      "prompt": "At first the dog avoided the new bed, but after one night it began to like it.",
+      "promptZh": "那隻狗起初避開新睡床,但睡了一晚後便開始喜歡它。",
+      "starter": "At",
+      "answer": "At first the dog avoided the new bed, but after one night it took to it.",
+      "answerZh": "那隻狗起初避開新睡床,但睡了一晚後便開始喜歡它。",
+      "highlight": "took",
+      "targetForm": "take to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q128",
+      "number": 128,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 55,
+      "prompt": "The local authority had to place the children in official care.",
+      "promptZh": "地方當局不得不安排那些孩子接受正式照顧。",
+      "starter": "The",
+      "answer": "The local authority had to take the children into care.",
+      "answerZh": "地方當局不得不安排那些孩子接受正式照顧。",
+      "highlight": "take",
+      "targetForm": "take somebody into care",
+      "targetMeaningZh": "安排某人接受正式照顧"
+    },
+    {
+      "id": "phrasal-verb-261-q129",
+      "number": 129,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 55,
+      "prompt": "The injury removed the best player from the rest of the match.",
+      "promptZh": "傷患令最佳球員無法繼續參與餘下賽事。",
+      "starter": "The",
+      "answer": "The injury took the best player out of the match.",
+      "answerZh": "傷患令最佳球員無法繼續參與賽事。",
+      "highlight": "took",
+      "targetForm": "take somebody out of something",
+      "targetMeaningZh": "令某人離開或無法繼續參與"
+    },
+    {
+      "id": "phrasal-verb-261-q130",
+      "number": 130,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 56,
+      "prompt": "A guide accompanied the group up the narrow path to the tower.",
+      "promptZh": "一名導遊沿着狹窄小路帶領團隊登上高塔。",
+      "starter": "A",
+      "answer": "A guide took the group up the narrow path to the tower.",
+      "answerZh": "一名導遊沿着狹窄小路帶領團隊登上高塔。",
+      "highlight": "took",
+      "targetForm": "take somebody up something",
+      "targetMeaningZh": "帶某人往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q131",
+      "number": 131,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 56,
+      "prompt": "The rescue boat stopped beside the island to receive food and three passengers.",
+      "promptZh": "救援船停在島旁,接載食物和三名乘客。",
+      "starter": "The",
+      "answer": "The rescue boat stopped beside the island to take on food and three passengers.",
+      "answerZh": "救援船停在島旁,接載食物和三名乘客。",
+      "highlight": "take on",
+      "targetForm": "take somebody/something on",
+      "targetMeaningZh": "讓乘客或貨物登上交通工具"
+    },
+    {
+      "id": "phrasal-verb-261-q132",
+      "number": 132,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 56,
+      "prompt": "New technology has moved the library into the digital age.",
+      "promptZh": "新科技令圖書館進入數碼時代。",
+      "starter": "New",
+      "answer": "New technology has taken the library into the digital age.",
+      "answerZh": "新科技令圖書館進入數碼時代。",
+      "highlight": "taken",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "令某事物進入新階段"
+    },
+    {
+      "id": "phrasal-verb-261-q133",
+      "number": 133,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 56,
+      "prompt": "When the visitors arrived, the manager paid for them to have lunch in town.",
+      "promptZh": "訪客到達後,經理帶他們到市內吃午飯並負責付款。",
+      "starter": "When",
+      "answer": "When the visitors arrived, the manager took them out for lunch in town.",
+      "answerZh": "訪客到達後,經理帶他們到市內吃午飯。",
+      "highlight": "took them out",
+      "targetForm": "take somebody out for something",
+      "targetMeaningZh": "帶某人外出參加活動"
+    },
+    {
+      "id": "phrasal-verb-261-q134",
+      "number": 134,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 56,
+      "prompt": "The sale reduces twenty dollars from the usual price.",
+      "promptZh": "這次減價在原價中扣減二十元。",
+      "starter": "The",
+      "answer": "The sale takes twenty dollars off the usual price.",
+      "answerZh": "這次減價在原價中扣減二十元。",
+      "highlight": "takes",
+      "targetForm": "take something off something",
+      "targetMeaningZh": "從數量或價格中扣減"
+    },
+    {
+      "id": "phrasal-verb-261-q135",
+      "number": 135,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 56,
+      "prompt": "After the show, two workers carried the lights from the roof to the ground floor.",
+      "promptZh": "表演後,兩名工人把燈具從屋頂搬到地下。",
+      "starter": "After",
+      "answer": "After the show, two workers took the lights down from the roof.",
+      "answerZh": "表演後,兩名工人把燈具從屋頂搬到地下。",
+      "highlight": "took",
+      "targetForm": "take something down",
+      "targetMeaningZh": "把某物帶往較低位置"
+    },
+    {
+      "id": "phrasal-verb-261-q136",
+      "number": 136,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 56,
+      "prompt": "The ending was weak, but that did not reduce my enjoyment of the film.",
+      "promptZh": "結局較弱,但沒有減低我欣賞電影的樂趣。",
+      "starter": "The",
+      "answer": "The ending was weak, but that did not take away from my enjoyment of the film.",
+      "answerZh": "結局較弱,但沒有減低我欣賞電影的樂趣。",
+      "highlight": "take away from",
+      "targetForm": "take away from something",
+      "targetMeaningZh": "減低某事物的價值或影響"
+    },
+    {
+      "id": "phrasal-verb-261-q137",
+      "number": 137,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 57,
+      "prompt": "Seeing that Nina looked worried, the nurse moved her away from the others for a quiet talk.",
+      "promptZh": "護士看到妮娜看來很擔心,便把她叫到一旁安靜地交談。",
+      "starter": "Seeing",
+      "answer": "Seeing that Nina looked worried, the nurse took her aside for a quiet talk.",
+      "answerZh": "護士看到妮娜看來很擔心,便把她叫到一旁安靜地交談。",
+      "highlight": "took",
+      "targetForm": "take somebody aside",
+      "targetMeaningZh": "把某人叫到一旁私下交談"
+    },
+    {
+      "id": "phrasal-verb-261-q138",
+      "number": 138,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 57,
+      "prompt": "The nurse said a taxi could return my grandfather home after his appointment.",
+      "promptZh": "護士說,祖父應診後可以乘的士回家。",
+      "starter": "The",
+      "answer": "The nurse said a taxi could take my grandfather back home after his appointment.",
+      "answerZh": "護士說,的士可以在祖父應診後送他回家。",
+      "highlight": "take",
+      "targetForm": "take somebody back",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-261-q139",
+      "number": 139,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 57,
+      "prompt": "Before moving the large table, we separated it into smaller parts.",
+      "promptZh": "搬動大桌子前,我們把它拆成較小的部分。",
+      "starter": "Before",
+      "answer": "Before moving the large table, we took it apart.",
+      "answerZh": "搬動大桌子前,我們把它拆開。",
+      "highlight": "took",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "把某物拆開"
+    },
+    {
+      "id": "phrasal-verb-261-q140",
+      "number": 140,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 57,
+      "prompt": "The new series begins exactly at the point where the old one ended.",
+      "promptZh": "新系列正好從舊系列結束的位置開始。",
+      "starter": "The",
+      "answer": "The new series takes up exactly where the old one ended.",
+      "answerZh": "新系列正好從舊系列結束的位置開始。",
+      "highlight": "takes up",
+      "targetForm": "take up",
+      "targetMeaningZh": "從之前停止的位置繼續"
+    },
+    {
+      "id": "phrasal-verb-261-q141",
+      "number": 141,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 57,
+      "prompt": "With each new detail, the story began to seem more worrying.",
+      "promptZh": "隨着每個新細節出現,故事開始變得更令人擔憂。",
+      "starter": "With",
+      "answer": "With each new detail, the story took on a more worrying tone.",
+      "answerZh": "隨着每個新細節出現,故事呈現出更令人擔憂的語氣。",
+      "highlight": "took on a",
+      "targetForm": "take on something",
+      "targetMeaningZh": "呈現新的性質或氣氛"
+    },
+    {
+      "id": "phrasal-verb-261-q142",
+      "number": 142,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 57,
+      "prompt": "The reviewer criticised the weak argument point by point.",
+      "promptZh": "評論者逐點嚴厲批評這個薄弱論點。",
+      "starter": "The",
+      "answer": "The reviewer took the weak argument apart point by point.",
+      "answerZh": "評論者逐點嚴厲批評這個薄弱論點。",
+      "highlight": "took",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "嚴厲批評某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q143",
+      "number": 143,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 57,
+      "prompt": "Computers are rapidly replacing printed books as children’s main learning resource.",
+      "promptZh": "電腦正迅速取代印刷書籍,成為兒童的主要學習資源。",
+      "starter": "Computers",
+      "answer": "Computers are rapidly taking over from printed books as children’s main learning resource.",
+      "answerZh": "電腦正迅速取代印刷書籍,成為兒童的主要學習資源。",
+      "highlight": "taking over from",
+      "targetForm": "take over from something",
+      "targetMeaningZh": "取代某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q144",
+      "number": 144,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 58,
+      "prompt": "The boat carried food into the island village before the storm.",
+      "promptZh": "船隻在暴風雨前把食物運進島上的村莊。",
+      "starter": "The",
+      "answer": "The boat took food into the island village before the storm.",
+      "answerZh": "船隻在暴風雨前把食物運進島上的村莊。",
+      "highlight": "took",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "把某物帶進某地"
+    },
+    {
+      "id": "phrasal-verb-261-q145",
+      "number": 145,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 58,
+      "prompt": "The broken computer was carried to a repair shop for checking.",
+      "promptZh": "損壞的電腦被送到維修店檢查。",
+      "starter": "The",
+      "answer": "The broken computer was taken off to a repair shop for checking.",
+      "answerZh": "損壞的電腦被送到維修店檢查。",
+      "highlight": "taken off",
+      "targetForm": "take something off to something",
+      "targetMeaningZh": "把某物送到另一個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q146",
+      "number": 146,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 58,
+      "prompt": "Instead of explaining the broken window, the boys ran away as soon as the owner appeared.",
+      "promptZh": "男孩們沒有解釋打破窗戶一事,而是在物主出現時立即跑掉。",
+      "starter": "Instead",
+      "answer": "Instead of explaining the broken window, the boys took off as soon as the owner appeared.",
+      "answerZh": "男孩們沒有解釋打破窗戶一事,而是在物主出現時立即跑掉。",
+      "highlight": "took off",
+      "targetForm": "take off",
+      "targetMeaningZh": "突然離開"
+    },
+    {
+      "id": "phrasal-verb-261-q147",
+      "number": 147,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 58,
+      "prompt": "The actor can copy the newsreader’s voice and movements perfectly.",
+      "promptZh": "這名演員能夠完美模仿新聞報道員的聲音和動作。",
+      "starter": "The",
+      "answer": "The actor can take the newsreader off perfectly.",
+      "answerZh": "這名演員能夠完美模仿新聞報道員。",
+      "highlight": "take",
+      "targetForm": "take somebody off",
+      "targetMeaningZh": "模仿某人"
+    },
+    {
+      "id": "phrasal-verb-261-q148",
+      "number": 148,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 58,
+      "prompt": "Why did the flight leave Heathrow forty minutes late?",
+      "promptZh": "為甚麼該航班遲了四十分鐘才從希思路機場起飛?",
+      "starter": "Why",
+      "answer": "Why did the flight take off from Heathrow forty minutes late?",
+      "answerZh": "為甚麼該航班遲了四十分鐘才從希思路機場起飛?",
+      "highlight": "take off from",
+      "targetForm": "take off",
+      "targetMeaningZh": "起飛"
+    },
+    {
+      "id": "phrasal-verb-261-q149",
+      "number": 149,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 58,
+      "prompt": "The thick paper absorbed the ink quickly.",
+      "promptZh": "厚紙很快便吸收了墨水。",
+      "starter": "The",
+      "answer": "The thick paper took in the ink quickly.",
+      "answerZh": "厚紙很快便吸收了墨水。",
+      "highlight": "took in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "吸收某物"
+    },
+    {
+      "id": "phrasal-verb-261-q150",
+      "number": 150,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 58,
+      "prompt": "The price was much higher than expected, and this surprised the family.",
+      "promptZh": "價格遠高於預期,令這個家庭感到意外。",
+      "starter": "The",
+      "answer": "The family was taken aback by the much higher price.",
+      "answerZh": "遠高於預期的價格令這個家庭感到意外。",
+      "highlight": "The family",
+      "targetForm": "take somebody aback",
+      "targetMeaningZh": "使某人感到意外"
+    },
+    {
+      "id": "phrasal-verb-261-q151",
+      "number": 151,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 59,
+      "prompt": "No one understands why the dog has begun to dislike the red umbrella.",
+      "promptZh": "沒有人明白那隻狗為甚麼開始不喜歡那把紅色雨傘。",
+      "starter": "No",
+      "answer": "No one understands why the dog has taken against the red umbrella.",
+      "answerZh": "沒有人明白那隻狗為甚麼開始不喜歡那把紅色雨傘。",
+      "highlight": "taken against",
+      "targetForm": "take against something",
+      "targetMeaningZh": "突然開始不喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q152",
+      "number": 152,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 59,
+      "prompt": "The chair would not fit through the door, so Ben used a saw on it.",
+      "promptZh": "椅子無法穿過門口,所以賓用鋸子鋸它。",
+      "starter": "The",
+      "answer": "The chair would not fit through the door, so Ben took a saw to it.",
+      "answerZh": "椅子無法穿過門口,所以賓用鋸子鋸它。",
+      "highlight": "took",
+      "targetForm": "take something to something",
+      "targetMeaningZh": "以工具攻擊或大幅改動某物"
+    },
+    {
+      "id": "phrasal-verb-261-q153",
+      "number": 153,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 59,
+      "prompt": "As the road was closed, a smaller bus transported the passengers into the centre by another route.",
+      "promptZh": "由於道路封閉,一輛較小的巴士經另一條路線把乘客送進市中心。",
+      "starter": "As",
+      "answer": "As the road was closed, a smaller bus took the passengers into the centre by another route.",
+      "answerZh": "由於道路封閉,一輛較小的巴士經另一條路線把乘客送進市中心。",
+      "highlight": "took",
+      "targetForm": "take somebody into something",
+      "targetMeaningZh": "把某人帶進某地"
+    },
+    {
+      "id": "phrasal-verb-261-q154",
+      "number": 154,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 59,
+      "prompt": "Although the team lost the final, the defeat should not reduce what they achieved this season.",
+      "promptZh": "雖然球隊在決賽落敗,但這次失敗不應減低他們今季的成就。",
+      "starter": "Although",
+      "answer": "Although the team lost the final, the defeat should not take away from what they achieved this season.",
+      "answerZh": "雖然球隊在決賽落敗,但這次失敗不應減低他們今季的成就。",
+      "highlight": "take away from",
+      "targetForm": "take away from something",
+      "targetMeaningZh": "減低某事物的價值或重要性"
+    },
+    {
+      "id": "phrasal-verb-261-q155",
+      "number": 155,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 59,
+      "prompt": "What began as a friendly discussion became much more serious when money was mentioned.",
+      "promptZh": "本來友善的討論在提及金錢後變得嚴肅得多。",
+      "starter": "What",
+      "answer": "What began as a friendly discussion took on a much more serious tone when money was mentioned.",
+      "answerZh": "本來友善的討論在提及金錢後呈現出嚴肅得多的語氣。",
+      "highlight": "took on a",
+      "targetForm": "take on something",
+      "targetMeaningZh": "呈現新的性質或氣氛"
+    },
+    {
+      "id": "phrasal-verb-261-q156",
+      "number": 156,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 59,
+      "prompt": "Although his friends disliked the group, Ben continued to spend all his time with them and became completely interested in their plans.",
+      "promptZh": "雖然朋友不喜歡那個群體,但賓繼續花所有時間與他們來往,並完全投入他們的計劃。",
+      "starter": "Although",
+      "answer": "Although his friends disliked the group, Ben had taken up with them and was completely taken up with their plans.",
+      "answerZh": "雖然朋友不喜歡那個群體,但賓已開始與他們來往,並完全投入他們的計劃。",
+      "highlight": "had taken up",
+      "targetForm": "take up with somebody; be taken up with something",
+      "targetMeaningZh": "開始與某人交往;全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-261-q157",
+      "number": 157,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 60,
+      "prompt": "Even though we had seen photographs, standing beneath the enormous waterfall still amazed us completely.",
+      "promptZh": "即使我們看過照片,站在巨型瀑布下仍令我們驚嘆不已。",
+      "starter": "Even",
+      "answer": "Even though we had seen photographs, standing beneath the enormous waterfall still took our breath away.",
+      "answerZh": "即使我們看過照片,站在巨型瀑布下仍令我們驚嘆不已。",
+      "highlight": "took our breath away",
+      "targetForm": "take somebody’s breath away",
+      "targetMeaningZh": "令某人驚嘆不已"
+    },
+    {
+      "id": "phrasal-verb-261-q158",
+      "number": 158,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 60,
+      "prompt": "After trying to repair the broken cupboard, Omar lost patience and attacked it with a hammer.",
+      "promptZh": "奧馬嘗試修理壞櫃子後失去耐性,拿起鐵鎚破壞它。",
+      "starter": "After",
+      "answer": "After trying to repair the broken cupboard, Omar lost patience and took a hammer to it.",
+      "answerZh": "奧馬嘗試修理壞櫃子後失去耐性,拿起鐵鎚破壞它。",
+      "highlight": "took",
+      "targetForm": "take something to something",
+      "targetMeaningZh": "以工具攻擊或破壞某物"
+    },
+    {
+      "id": "phrasal-verb-261-q159",
+      "number": 159,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 60,
+      "prompt": "Because the team was visiting three schools, they carried the same display to all three places.",
+      "promptZh": "由於團隊要到訪三間學校,他們把同一個展品帶到三個地方。",
+      "starter": "Because",
+      "answer": "Because the team was visiting three schools, they took the same display around the three schools.",
+      "answerZh": "由於團隊要到訪三間學校,他們把同一個展品帶到三間學校。",
+      "highlight": "took",
+      "targetForm": "take something around",
+      "targetMeaningZh": "把某物帶到多個地方"
+    },
+    {
+      "id": "phrasal-verb-261-q160",
+      "number": 160,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 60,
+      "prompt": "When the alarm stopped, staff accompanied the guests back to the rooms on the sixth floor.",
+      "promptZh": "警報停止後,職員帶客人返回六樓的房間。",
+      "starter": "When",
+      "answer": "When the alarm stopped, staff took the guests up to the rooms on the sixth floor.",
+      "answerZh": "警報停止後,職員帶客人返回六樓的房間。",
+      "highlight": "took",
+      "targetForm": "take somebody up",
+      "targetMeaningZh": "把某人帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q161",
+      "number": 161,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 60,
+      "prompt": "During the final weeks, fear controlled almost every part of his life.",
+      "promptZh": "在最後幾星期,恐懼幾乎控制了他生活的每個部分。",
+      "starter": "During",
+      "answer": "During the final weeks, fear had taken him over.",
+      "answerZh": "在最後幾星期,恐懼完全控制了他。",
+      "highlight": "had taken him over",
+      "targetForm": "take somebody over",
+      "targetMeaningZh": "完全控制某人"
+    },
+    {
+      "id": "phrasal-verb-261-q162",
+      "number": 162,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 60,
+      "prompt": "Although the explanation was clear, there was so much new information that the class needed time to understand it all.",
+      "promptZh": "雖然解釋很清楚,但新資料太多,全班需要時間全部理解。",
+      "starter": "Although",
+      "answer": "Although the explanation was clear, there was so much new information that the class needed time to take it all in.",
+      "answerZh": "雖然解釋很清楚,但新資料太多,全班需要時間全部理解。",
+      "highlight": "take",
+      "targetForm": "take something in",
+      "targetMeaningZh": "理解某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q163",
+      "number": 163,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 61,
+      "prompt": "Rather than argue with the cashier, Jack decided to discuss the missing refund with the store manager.",
+      "promptZh": "傑克沒有與收銀員爭論,而是決定向店舖經理提出退款未收到的問題。",
+      "starter": "Rather",
+      "answer": "Rather than argue with the cashier, Jack decided to take the missing refund up with the store manager.",
+      "answerZh": "傑克沒有與收銀員爭論,而是決定向店舖經理提出退款未收到的問題。",
+      "highlight": "take",
+      "targetForm": "take something up with somebody",
+      "targetMeaningZh": "向某人提出問題或投訴"
+    },
+    {
+      "id": "phrasal-verb-261-q164",
+      "number": 164,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 61,
+      "prompt": "The machine looked simple, but after Jack separated it into pieces, he could not put it together again.",
+      "promptZh": "機器看來很簡單,但傑克把它拆開後,便無法重新組合。",
+      "starter": "The",
+      "answer": "The machine looked simple, but after Jack took it apart, he could not put it together again.",
+      "answerZh": "機器看來很簡單,但傑克把它拆開後,便無法重新組合。",
+      "highlight": "took",
+      "targetForm": "take something apart",
+      "targetMeaningZh": "把某物拆開"
+    },
+    {
+      "id": "phrasal-verb-261-q165",
+      "number": 165,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 61,
+      "prompt": "After the doctor saw the child’s condition, an ambulance transported her from the small clinic to a larger hospital.",
+      "promptZh": "醫生看過孩子的情況後,救護車把她從小診所送到較大的醫院。",
+      "starter": "After",
+      "answer": "After the doctor saw the child’s condition, an ambulance took her away from the small clinic to a larger hospital.",
+      "answerZh": "醫生看過孩子的情況後,救護車把她從小診所送到較大的醫院。",
+      "highlight": "took",
+      "targetForm": "take somebody away from something",
+      "targetMeaningZh": "把某人從某處帶走"
+    },
+    {
+      "id": "phrasal-verb-261-q166",
+      "number": 166,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 61,
+      "prompt": "Although Kara was angry with her boss, she unfairly directed that anger at her family.",
+      "promptZh": "雖然卡拉生上司的氣,但她不公平地把怒氣發洩在家人身上。",
+      "starter": "Although",
+      "answer": "Although Kara was angry with her boss, she unfairly took it out on her family.",
+      "answerZh": "雖然卡拉生上司的氣,但她不公平地把怒氣發洩在家人身上。",
+      "highlight": "took it out on",
+      "targetForm": "take it out on somebody",
+      "targetMeaningZh": "把怒氣發洩在某人身上"
+    },
+    {
+      "id": "phrasal-verb-261-q167",
+      "number": 167,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 61,
+      "prompt": "Once the food was ready, we carried it to the garden and then explained the plan to the guests step by step.",
+      "promptZh": "食物準備好後,我們把它拿到花園,然後逐步向客人解釋計劃。",
+      "starter": "Once",
+      "answer": "Once the food was ready, we took it through to the garden and then took the guests through the plan.",
+      "answerZh": "食物準備好後,我們把它拿到花園,然後逐步向客人解釋計劃。",
+      "highlight": "took",
+      "targetForm": "take something through; take somebody through something",
+      "targetMeaningZh": "把某物帶到另一處;逐步向某人解釋某事"
+    },
+    {
+      "id": "phrasal-verb-261-q168",
+      "number": 168,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 61,
+      "prompt": "By adding live translation, the app moved its service into countries it had never reached before.",
+      "promptZh": "應用程式加入即時翻譯後,把服務帶進了以往從未接觸的國家。",
+      "starter": "By",
+      "answer": "By adding live translation, the app took its service into countries it had never reached before.",
+      "answerZh": "應用程式加入即時翻譯後,把服務帶進了以往從未接觸的國家。",
+      "highlight": "took",
+      "targetForm": "take something into something",
+      "targetMeaningZh": "令某事物進入新範圍"
+    },
+    {
+      "id": "phrasal-verb-261-q169",
+      "number": 169,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 61,
+      "prompt": "Although the passengers had boarded on time, the aircraft could not leave the ground until the fog cleared.",
+      "promptZh": "雖然乘客準時登機,但飛機要到濃霧散去後才能起飛。",
+      "starter": "Although",
+      "answer": "Although the passengers had boarded on time, the aircraft could not take off until the fog cleared.",
+      "answerZh": "雖然乘客準時登機,但飛機要到濃霧散去後才能起飛。",
+      "highlight": "take off",
+      "targetForm": "take off",
+      "targetMeaningZh": "起飛"
+    },
+    {
+      "id": "phrasal-verb-261-q170",
+      "number": 170,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 62,
+      "prompt": "The flood destroyed the old bridge, leaving the village without a road.",
+      "promptZh": "洪水摧毀了舊橋,令村莊失去道路連接。",
+      "starter": "The",
+      "answer": "The flood took out the old bridge, leaving the village without a road.",
+      "answerZh": "洪水摧毀了舊橋,令村莊失去道路連接。",
+      "highlight": "took out",
+      "targetForm": "take something out",
+      "targetMeaningZh": "破壞某物或令其停止運作"
+    },
+    {
+      "id": "phrasal-verb-261-q171",
+      "number": 171,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 62,
+      "prompt": "Although Daniel expected criticism, the manager’s personal attack still surprised him.",
+      "promptZh": "雖然丹尼爾預期會受到批評,但經理的人身攻擊仍令他感到震驚。",
+      "starter": "Although",
+      "answer": "Although Daniel expected criticism, the manager’s personal attack still took him aback.",
+      "answerZh": "雖然丹尼爾預期會受到批評,但經理的人身攻擊仍令他感到震驚。",
+      "highlight": "took",
+      "targetForm": "take somebody aback",
+      "targetMeaningZh": "使某人感到意外或震驚"
+    },
+    {
+      "id": "phrasal-verb-261-q172",
+      "number": 172,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 62,
+      "prompt": "The manager did not correct Alex in front of everyone; she spoke to him privately afterwards.",
+      "promptZh": "經理沒有在眾人面前糾正亞歷克斯,而是在事後與他私下交談。",
+      "starter": "The",
+      "answer": "The manager did not correct Alex in front of everyone; she took him aside afterwards.",
+      "answerZh": "經理沒有在眾人面前糾正亞歷克斯,而是在事後把他叫到一旁私下交談。",
+      "highlight": "took",
+      "targetForm": "take somebody aside",
+      "targetMeaningZh": "把某人叫到一旁私下交談"
+    },
+    {
+      "id": "phrasal-verb-261-q173",
+      "number": 173,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 62,
+      "prompt": "During exercise, the body needs to absorb more oxygen than when it is resting.",
+      "promptZh": "運動期間,身體需要比休息時吸收更多氧氣。",
+      "starter": "During",
+      "answer": "During exercise, the body needs to take in more oxygen than when it is resting.",
+      "answerZh": "運動期間,身體需要比休息時吸收更多氧氣。",
+      "highlight": "take in",
+      "targetForm": "take something in",
+      "targetMeaningZh": "吸入或吸收某物"
+    },
+    {
+      "id": "phrasal-verb-261-q174",
+      "number": 174,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 62,
+      "prompt": "Although Sofia had supported the plan, she suddenly began to dislike the whole idea after one small mistake.",
+      "promptZh": "雖然索菲亞原本支持計劃,但一個小錯誤令她突然開始討厭整個構思。",
+      "starter": "Although",
+      "answer": "Although Sofia had supported the plan, she suddenly took against the whole idea after one small mistake.",
+      "answerZh": "雖然索菲亞原本支持計劃,但一個小錯誤令她突然開始討厭整個構思。",
+      "highlight": "took against",
+      "targetForm": "take against something",
+      "targetMeaningZh": "突然開始不喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-261-q175",
+      "number": 175,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 62,
+      "prompt": "Since the last train had left, the hotel arranged a car to return the guests to the station.",
+      "promptZh": "由於尾班車已開出,酒店安排車輛把客人送回車站。",
+      "starter": "Since",
+      "answer": "Since the last train had left, the hotel arranged a car to take the guests back to the station.",
+      "answerZh": "由於尾班車已開出,酒店安排車輛把客人送回車站。",
+      "highlight": "take",
+      "targetForm": "take somebody back",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-261-q176",
+      "number": 176,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 63,
+      "prompt": "The discussion became uncomfortable, and before anyone could stop him, Victor suddenly left the room.",
+      "promptZh": "討論變得令人不安,在任何人能阻止前,維克多突然離開了房間。",
+      "starter": "The",
+      "answer": "The discussion became uncomfortable, and before anyone could stop him, Victor took off.",
+      "answerZh": "討論變得令人不安,在任何人能阻止前,維克多突然離開。",
+      "highlight": "took off",
+      "targetForm": "take off",
+      "targetMeaningZh": "突然離開"
+    },
+    {
+      "id": "phrasal-verb-261-q177",
+      "number": 177,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "Although the visitors looked strong at first, our players found every weakness and defeated them badly.",
+      "promptZh": "雖然客隊起初看來很強,但我們的球員找到每個弱點並大敗他們。",
+      "starter": "Although",
+      "answer": "Although the visitors looked strong at first, our players found every weakness and took them apart.",
+      "answerZh": "雖然客隊起初看來很強,但我們的球員找到每個弱點並大敗他們。",
+      "highlight": "took",
+      "targetForm": "take somebody apart",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-261-q178",
+      "number": 178,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "Although the problem belonged to the whole team, Priya accepted the blame alone.",
+      "promptZh": "雖然問題屬於整個團隊,但普里雅獨自承擔責任。",
+      "starter": "Although",
+      "answer": "Although the problem belonged to the whole team, Priya took the blame upon herself.",
+      "answerZh": "雖然問題屬於整個團隊,但普里雅獨自承擔責任。",
+      "highlight": "took",
+      "targetForm": "take something upon yourself",
+      "targetMeaningZh": "親自承擔責任"
+    },
+    {
+      "id": "phrasal-verb-261-q179",
+      "number": 179,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "Since Leo always finishes his work before relaxing, I may copy his example this week.",
+      "promptZh": "里奧總是在休息前完成工作,所以我本星期可能會仿效他的做法。",
+      "starter": "Since",
+      "answer": "Since Leo always finishes his work before relaxing, I may take a leaf out of his book this week.",
+      "answerZh": "里奧總是在休息前完成工作,所以我本星期可能會仿效他的做法。",
+      "highlight": "take a leaf out of",
+      "targetForm": "take a leaf out of somebody’s book",
+      "targetMeaningZh": "仿效某人的好做法"
+    },
+    {
+      "id": "phrasal-verb-261-q180",
+      "number": 180,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "Because orders had doubled, the small factory decided to employ five more workers before winter.",
+      "promptZh": "由於訂單增加了一倍,小型工廠決定在冬季前多僱用五名工人。",
+      "starter": "Because",
+      "answer": "Because orders had doubled, the small factory decided to take on five more workers before winter.",
+      "answerZh": "由於訂單增加了一倍,小型工廠決定在冬季前多僱用五名工人。",
+      "highlight": "take on",
+      "targetForm": "take somebody on",
+      "targetMeaningZh": "僱用某人"
+    },
+    {
+      "id": "phrasal-verb-261-q181",
+      "number": 181,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "Although the match was nearly over, the crowd could not stop watching the final minutes.",
+      "promptZh": "雖然比賽接近結束,但觀眾仍無法停止注視最後幾分鐘。",
+      "starter": "Although",
+      "answer": "Although the match was nearly over, the crowd could not take their eyes off the final minutes.",
+      "answerZh": "雖然比賽接近結束,但觀眾仍無法把視線從最後幾分鐘的賽事移開。",
+      "highlight": "take their eyes off",
+      "targetForm": "take your eyes off something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-261-q182",
+      "number": 182,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 63,
+      "prompt": "People expected the twins to be like their parents, but they actually resemble their older cousin.",
+      "promptZh": "人們以為雙胞胎會像父母,但他們其實像年長的表親。",
+      "starter": "People",
+      "answer": "People expected the twins to be like their parents, but they actually take after their older cousin.",
+      "answerZh": "人們以為雙胞胎會像父母,但他們其實像年長的表親。",
+      "highlight": "take after",
+      "targetForm": "take after somebody",
+      "targetMeaningZh": "像某位家人"
+    },
+    {
+      "id": "phrasal-verb-261-q183",
+      "number": 183,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 64,
+      "prompt": "During the school show, Farah copied the head teacher’s serious manner without being unkind.",
+      "promptZh": "學校表演期間,法拉模仿校長嚴肅的舉止,但沒有惡意。",
+      "starter": "During",
+      "answer": "During the school show, Farah took the head teacher off without being unkind.",
+      "answerZh": "學校表演期間,法拉模仿校長嚴肅的舉止,但沒有惡意。",
+      "highlight": "took",
+      "targetForm": "take somebody off",
+      "targetMeaningZh": "模仿某人"
+    },
+    {
+      "id": "phrasal-verb-261-q184",
+      "number": 184,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "The injured sailors were removed from the boat by helicopter.",
+      "promptZh": "受傷的船員由直升機從船上救走。",
+      "starter": "The",
+      "answer": "The injured sailors were taken off the boat by helicopter.",
+      "answerZh": "受傷的船員由直升機從船上救走。",
+      "highlight": "taken off",
+      "targetForm": "take somebody off something",
+      "targetMeaningZh": "把某人從某處帶走"
+    },
+    {
+      "id": "phrasal-verb-261-q185",
+      "number": 185,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "When the student could not find a room, an elderly couple gave him a home for the term.",
+      "promptZh": "那名學生找不到房間時,一對年長夫婦讓他在整個學期寄住。",
+      "starter": "When",
+      "answer": "When the student could not find a room, an elderly couple took him in for the term.",
+      "answerZh": "那名學生找不到房間時,一對年長夫婦讓他在整個學期寄住。",
+      "highlight": "took",
+      "targetForm": "take somebody in",
+      "targetMeaningZh": "讓某人留宿或居住"
+    },
+    {
+      "id": "phrasal-verb-261-q186",
+      "number": 186,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "The visitor could not manage the stairs, so a member of staff accompanied her to the gallery on the next floor.",
+      "promptZh": "訪客無法應付樓梯,所以一名職員陪她到上一層的展覽廳。",
+      "starter": "The",
+      "answer": "The visitor could not manage the stairs, so a member of staff took her up to the gallery on the next floor.",
+      "answerZh": "訪客無法應付樓梯,所以一名職員陪她到上一層的展覽廳。",
+      "highlight": "took",
+      "targetForm": "take somebody up",
+      "targetMeaningZh": "把某人帶往較高位置"
+    },
+    {
+      "id": "phrasal-verb-261-q187",
+      "number": 187,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "Although the design was unusual, the visitors were immediately impressed by its simple shape.",
+      "promptZh": "雖然設計不尋常,但訪客立即對其簡單形狀產生好感。",
+      "starter": "Although",
+      "answer": "Although the design was unusual, the visitors were immediately taken with its simple shape.",
+      "answerZh": "雖然設計不尋常,但訪客立即對其簡單形狀產生好感。",
+      "highlight": "were immediately taken with",
+      "targetForm": "be taken with something",
+      "targetMeaningZh": "對某事物產生好感"
+    },
+    {
+      "id": "phrasal-verb-261-q188",
+      "number": 188,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "Rather than retelling the whole story, the final chapter continues from the moment the family reaches the island.",
+      "promptZh": "最後一章沒有重新敍述整個故事,而是從一家人抵達島嶼的一刻繼續。",
+      "starter": "Rather",
+      "answer": "Rather than retelling the whole story, the final chapter takes up where the family reaches the island.",
+      "answerZh": "最後一章沒有重新敍述整個故事,而是從一家人抵達島嶼的一刻繼續。",
+      "highlight": "takes up where",
+      "targetForm": "take up",
+      "targetMeaningZh": "從之前停止的位置繼續"
+    },
+    {
+      "id": "phrasal-verb-261-q189",
+      "number": 189,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 64,
+      "prompt": "Since it was Omar’s first day, a colleague showed him all the offices and shared areas.",
+      "promptZh": "由於這是奧馬第一天上班,一名同事帶他參觀所有辦公室和共用地方。",
+      "starter": "Since",
+      "answer": "Since it was Omar’s first day, a colleague took him around all the offices and shared areas.",
+      "answerZh": "由於這是奧馬第一天上班,一名同事帶他參觀所有辦公室和共用地方。",
+      "highlight": "took",
+      "targetForm": "take somebody around something",
+      "targetMeaningZh": "帶某人參觀某處"
+    },
+    {
+      "id": "phrasal-verb-261-q190",
+      "number": 190,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 65,
+      "prompt": "After months of studying at home, the family decided to treat their daughter to an evening at the theatre.",
+      "promptZh": "在家學習多月後,家人決定帶女兒到劇院享受一個晚上。",
+      "starter": "After",
+      "answer": "After months of studying at home, the family decided to take their daughter out to the theatre.",
+      "answerZh": "在家學習多月後,家人決定帶女兒到劇院享受一個晚上。",
+      "highlight": "take",
+      "targetForm": "take somebody out to something",
+      "targetMeaningZh": "帶某人外出參加活動"
+    }
+  ]
+}

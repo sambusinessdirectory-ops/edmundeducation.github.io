@@ -1,0 +1,1445 @@
+{
+  "id": "phrasal-verb-323",
+  "order": 323,
+  "slug": "split",
+  "version": "1",
+  "title": "SPLIT 動詞片語",
+  "titleEn": "Split",
+  "titleZh": "SPLIT 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 308 - SPLIT.pdf",
+    "sourceNumber": 308,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SPLIT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SPLIT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SPLIT",
+      "highlight": "SPLIT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The branch split away from the main trunk.",
+      "zh": "樹枝從主幹分離。",
+      "highlight": "split away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He promised not to split on us.",
+      "zh": "他答應不會告發我們。",
+      "highlight": "split on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They split up last month.",
+      "zh": "他們上個月分手了。",
+      "highlight": "split up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "從較大的物件或群體分離;使某部分從整體分開；(英式非正式用語)向老師、家長、警察等告發某人做錯事；與伴侶分手;使兩人結束感情關係；人們分成較小的組別或分開行動;使一群人分組；把事物、工作或時間分成較小部分",
+    "en": "split away/off (from something) split something away/off (from something); split on somebody (to somebody); split up (with/from somebody) split somebody up; split up (into something) split somebody up (into something); split something up (into something)",
+    "naturalZh": [
+      "從較大的物件或群體分離;使某部分從整體分開",
+      "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+      "與伴侶分手;使兩人結束感情關係",
+      "人們分成較小的組別或分開行動;使一群人分組",
+      "把事物、工作或時間分成較小部分"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "split away/off (from something) split something away/off (from something)",
+      "titleZh": "從較大的物件或群體分離;使某部分從整體分開",
+      "titleEn": "split away/off (from something) split something away/off (from something)",
+      "descriptionZh": "從較大的物件或群體分離;使某部分從整體分開",
+      "descriptionEn": "The branch split away from the main trunk.",
+      "examples": [
+        {
+          "en": "The branch split away from the main trunk.",
+          "zh": "樹枝從主幹分離。",
+          "highlight": "split away from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "split on somebody (to somebody)",
+      "titleZh": "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+      "titleEn": "split on somebody (to somebody)",
+      "descriptionZh": "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+      "descriptionEn": "He promised not to split on us.",
+      "examples": [
+        {
+          "en": "He promised not to split on us.",
+          "zh": "他答應不會告發我們。",
+          "highlight": "split on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "split up (with/from somebody) split somebody up",
+      "titleZh": "與伴侶分手;使兩人結束感情關係",
+      "titleEn": "split up (with/from somebody) split somebody up",
+      "descriptionZh": "與伴侶分手;使兩人結束感情關係",
+      "descriptionEn": "They split up last month.",
+      "examples": [
+        {
+          "en": "They split up last month.",
+          "zh": "他們上個月分手了。",
+          "highlight": "split up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "split up (into something) split somebody up (into something)",
+      "titleZh": "人們分成較小的組別或分開行動;使一群人分組",
+      "titleEn": "split up (into something) split somebody up (into something)",
+      "descriptionZh": "人們分成較小的組別或分開行動;使一群人分組",
+      "descriptionEn": "We split up into three groups.",
+      "examples": [
+        {
+          "en": "We split up into three groups.",
+          "zh": "我們分成三組。",
+          "highlight": "split up into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "split something up (into something)",
+      "titleZh": "把事物、工作或時間分成較小部分",
+      "titleEn": "split something up (into something)",
+      "descriptionZh": "把事物、工作或時間分成較小部分",
+      "descriptionEn": "The day was split up into six sessions.",
+      "examples": [
+        {
+          "en": "The day was split up into six sessions.",
+          "zh": "一天被分成六節。",
+          "highlight": "split up into"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SPLIT 片語動詞的實際用途",
+    "labelEn": "SPLIT Phrasal Verbs in Use",
+    "summaryZh": "split away 和 split off 可以描述樹枝、石塊或小組從較大的整體分離。；在英式非正式英語中,split on somebody 可表示向老師或其他有權處理事情的人告發某人做錯事。；split up 可以表示兩人分手,也可以表示其他人令一段感情關係結束。；split up 可以描述人們分成較小組別,也可以描述工作、課堂和時間被分成較易處理的部分。",
+    "summaryEn": "Split away and split off can describe a branch, piece of rock or group becoming separated from something larger. In informal British English, split on somebody describes telling a teacher or another person in authority that somebody has done something wrong. Split up can describe two people ending their relationship or another person causing the relationship to end. Split up can describe people forming smaller groups or work, lessons and time being divided into manageable sections.",
+    "contextsZh": [
+      "描述某部分如何從整體分離",
+      "談論向有權處理事情的人告發某人",
+      "自然談論感情關係結束",
+      "清楚談論人物、工作和時間的分配"
+    ],
+    "contextsEn": [
+      "Describe things separating from a larger whole",
+      "Talk about reporting another person’s wrongdoing",
+      "Talk naturally about relationships ending",
+      "Organise people, work and time clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SPLIT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SPLIT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "split away/off (from something) split something away/off (from something)",
+    "fixedHighlight": "split away/off (from something) split something away/off (from something)",
+    "fixedZh": "閱讀整句,選出意思相同的 SPLIT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SPLIT expression that gives the same meaning.",
+    "correct": "split away from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 SPLIT ... UP 中使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SPLIT 和 UP 中間。；split up 有多個意思,可以表示一段感情結束、人們分開,或某事物被分成多個部分。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in a SPLIT... UP expression, place the word as shown: split them up split it up Split up has several meanings. It may describe a relationship ending, people separating, or something being divided into parts. Read the full situation carefully.",
+    "variableItemsZh": [
+      "split away/off (from something) split something away/off (from something)",
+      "split on somebody (to somebody)",
+      "split up (with/from somebody) split somebody up",
+      "split up (into something) split somebody up (into something)",
+      "split something up (into something)"
+    ],
+    "variableItemsEn": [
+      "split away/off (from something) split something away/off (from something)",
+      "split on somebody (to somebody)",
+      "split up (with/from somebody) split somebody up",
+      "split up (into something) split somebody up (into something)",
+      "split something up (into something)"
+    ],
+    "forms": [
+      {
+        "formZh": "從較大的物件或群體分離;使某部分從整體分開",
+        "formEn": "split away/off (from something) split something away/off (from something)",
+        "exampleZh": "樹枝從主幹分離。",
+        "exampleEn": "The branch split away from the main trunk.",
+        "highlight": "split away from"
+      },
+      {
+        "formZh": "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+        "formEn": "split on somebody (to somebody)",
+        "exampleZh": "他答應不會告發我們。",
+        "exampleEn": "He promised not to split on us.",
+        "highlight": "split on"
+      },
+      {
+        "formZh": "與伴侶分手;使兩人結束感情關係",
+        "formEn": "split up (with/from somebody) split somebody up",
+        "exampleZh": "他們上個月分手了。",
+        "exampleEn": "They split up last month.",
+        "highlight": "split up"
+      },
+      {
+        "formZh": "人們分成較小的組別或分開行動;使一群人分組",
+        "formEn": "split up (into something) split somebody up (into something)",
+        "exampleZh": "我們分成三組。",
+        "exampleEn": "We split up into three groups.",
+        "highlight": "split up into"
+      },
+      {
+        "formZh": "把事物、工作或時間分成較小部分",
+        "formEn": "split something up (into something)",
+        "exampleZh": "一天被分成六節。",
+        "exampleEn": "The day was split up into six sessions.",
+        "highlight": "split up into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "從較大的物件或群體分離;使某部分從整體分開",
+      "titleEn": "split away/off (from something) split something away/off (from something)",
+      "formula": "split away/off (from something) split something away/off (from something)",
+      "highlight": "split away/off (from something) split something away/off (from something)",
+      "descriptionZh": "從較大的物件或群體分離;使某部分從整體分開",
+      "descriptionEn": "The branch split away from the main trunk.",
+      "examples": [
+        {
+          "en": "The branch split away from the main trunk.",
+          "zh": "樹枝從主幹分離。",
+          "highlight": "split away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+      "titleEn": "split on somebody (to somebody)",
+      "formula": "split on somebody (to somebody)",
+      "highlight": "split on somebody (to somebody)",
+      "descriptionZh": "(英式非正式用語)向老師、家長、警察等告發某人做錯事",
+      "descriptionEn": "He promised not to split on us.",
+      "examples": [
+        {
+          "en": "He promised not to split on us.",
+          "zh": "他答應不會告發我們。",
+          "highlight": "split on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "與伴侶分手;使兩人結束感情關係",
+      "titleEn": "split up (with/from somebody) split somebody up",
+      "formula": "split up (with/from somebody) split somebody up",
+      "highlight": "split up (with/from somebody) split somebody up",
+      "descriptionZh": "與伴侶分手;使兩人結束感情關係",
+      "descriptionEn": "They split up last month.",
+      "examples": [
+        {
+          "en": "They split up last month.",
+          "zh": "他們上個月分手了。",
+          "highlight": "split up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "人們分成較小的組別或分開行動;使一群人分組",
+      "titleEn": "split up (into something) split somebody up (into something)",
+      "formula": "split up (into something) split somebody up (into something)",
+      "highlight": "split up (into something) split somebody up (into something)",
+      "descriptionZh": "人們分成較小的組別或分開行動;使一群人分組",
+      "descriptionEn": "We split up into three groups.",
+      "examples": [
+        {
+          "en": "We split up into three groups.",
+          "zh": "我們分成三組。",
+          "highlight": "split up into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把事物、工作或時間分成較小部分",
+      "titleEn": "split something up (into something)",
+      "formula": "split something up (into something)",
+      "highlight": "split something up (into something)",
+      "descriptionZh": "把事物、工作或時間分成較小部分",
+      "descriptionEn": "The day was split up into six sessions.",
+      "examples": [
+        {
+          "en": "The day was split up into six sessions.",
+          "zh": "一天被分成六節。",
+          "highlight": "split up into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某部分如何從整體分離",
+      "titleEn": "Describe things separating from a larger whole",
+      "zh": "split away 和 split off 可以描述樹枝、石塊或小組從較大的整體分離。",
+      "en": "Split away and split off can describe a branch, piece of rock or group becoming separated from something larger."
+    },
+    {
+      "titleZh": "談論向有權處理事情的人告發某人",
+      "titleEn": "Talk about reporting another person’s wrongdoing",
+      "zh": "在英式非正式英語中,split on somebody 可表示向老師或其他有權處理事情的人告發某人做錯事。",
+      "en": "In informal British English, split on somebody describes telling a teacher or another person in authority that somebody has done something wrong."
+    },
+    {
+      "titleZh": "自然談論感情關係結束",
+      "titleEn": "Talk naturally about relationships ending",
+      "zh": "split up 可以表示兩人分手,也可以表示其他人令一段感情關係結束。",
+      "en": "Split up can describe two people ending their relationship or another person causing the relationship to end."
+    },
+    {
+      "titleZh": "清楚談論人物、工作和時間的分配",
+      "titleEn": "Organise people, work and time clearly",
+      "zh": "split up 可以描述人們分成較小組別,也可以描述工作、課堂和時間被分成較易處理的部分。",
+      "en": "Split up can describe people forming smaller groups or work, lessons and time being divided into manageable sections."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某部分如何從整體分離",
+      "談論向有權處理事情的人告發某人",
+      "自然談論感情關係結束",
+      "清楚談論人物、工作和時間的分配"
+    ],
+    "contextsEn": [
+      "Describe things separating from a larger whole",
+      "Talk about reporting another person’s wrongdoing",
+      "Talk naturally about relationships ending",
+      "Organise people, work and time clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某部分如何從整體分離",
+        "titleEn": "Describe things separating from a larger whole",
+        "zh": "split away 和 split off 可以描述樹枝、石塊或小組從較大的整體分離。",
+        "en": "Split away and split off can describe a branch, piece of rock or group becoming separated from something larger.",
+        "examples": [
+          {
+            "en": "The branch split away from the main trunk.",
+            "zh": "樹枝從主幹分離。",
+            "highlight": "split away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論向有權處理事情的人告發某人",
+        "titleEn": "Talk about reporting another person’s wrongdoing",
+        "zh": "在英式非正式英語中,split on somebody 可表示向老師或其他有權處理事情的人告發某人做錯事。",
+        "en": "In informal British English, split on somebody describes telling a teacher or another person in authority that somebody has done something wrong.",
+        "examples": [
+          {
+            "en": "He promised not to split on us.",
+            "zh": "他答應不會告發我們。",
+            "highlight": "split on"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論感情關係結束",
+        "titleEn": "Talk naturally about relationships ending",
+        "zh": "split up 可以表示兩人分手,也可以表示其他人令一段感情關係結束。",
+        "en": "Split up can describe two people ending their relationship or another person causing the relationship to end.",
+        "examples": [
+          {
+            "en": "They split up last month.",
+            "zh": "他們上個月分手了。",
+            "highlight": "split up"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論人物、工作和時間的分配",
+        "titleEn": "Organise people, work and time clearly",
+        "zh": "split up 可以描述人們分成較小組別,也可以描述工作、課堂和時間被分成較易處理的部分。",
+        "en": "Split up can describe people forming smaller groups or work, lessons and time being divided into manageable sections.",
+        "examples": [
+          {
+            "en": "We split up into three groups.",
+            "zh": "我們分成三組。",
+            "highlight": "split up into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SPLIT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SPLIT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SPLIT 片語動詞。",
+      "en": "Read the whole sentence and choose the SPLIT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 SPLIT ... UP 中使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SPLIT 和 UP 中間。",
+      "titleEn": "When using him, her, it or them in a SPLIT.",
+      "zh": "在 SPLIT ... UP 中使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SPLIT 和 UP 中間。",
+      "en": "When using him, her, it or them in a SPLIT... UP expression, place the word as shown: split them up split it up"
+    },
+    {
+      "titleZh": "split up 有多個意思,可以表示一段感情結束、人們分開,或某事物被分成多個部分。請仔細閱讀整個情境。",
+      "titleEn": "Split up has several meanings.",
+      "zh": "split up 有多個意思,可以表示一段感情結束、人們分開,或某事物被分成多個部分。請仔細閱讀整個情境。",
+      "en": "Split up has several meanings. It may describe a relationship ending, people separating, or something being divided into parts. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SPLIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SPLIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SPLIT 動詞片語句子改寫練習",
+    "titleEn": "SPLIT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SPLIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SPLIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-323-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The branch separated from the main trunk during the storm.",
+      "promptZh": "暴風雨期間,樹枝與主幹分離。",
+      "starter": "The",
+      "answer": "The branch split away from the main trunk during the storm.",
+      "answerZh": "暴風雨期間,樹枝與主幹分離。",
+      "highlight": "split away",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Eva and her boyfriend ended their relationship last week.",
+      "promptZh": "Eva 上星期與男朋友結束了感情關係。",
+      "starter": "Eva",
+      "answer": "Eva split up with her boyfriend last week.",
+      "answerZh": "Eva 上星期與男朋友分手。",
+      "highlight": "split up with",
+      "targetForm": "split up with somebody",
+      "targetMeaningZh": "與伴侶分手"
+    },
+    {
+      "id": "phrasal-verb-323-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We divided into small groups to discuss the question.",
+      "promptZh": "我們分成小組討論問題。",
+      "starter": "We",
+      "answer": "We split up into small groups to discuss the question.",
+      "answerZh": "我們分成小組討論問題。",
+      "highlight": "split up",
+      "targetForm": "split up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Promise you will not tell a teacher or another adult about what I did.",
+      "promptZh": "答應我,你不會把我做過的事告訴老師或其他成年人。",
+      "starter": "Promise",
+      "answer": "Promise you will not split on me.",
+      "answerZh": "答應我,你不會告發我。",
+      "highlight": "split on me",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The day was divided into six one-hour sessions.",
+      "promptZh": "一天被分成六節,每節一小時。",
+      "starter": "The",
+      "answer": "The day was split up into six one-hour sessions.",
+      "answerZh": "一天被分成六節,每節一小時。",
+      "highlight": "split up",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物或時間分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A small group separated from the club and started a new one.",
+      "promptZh": "一小群成員離開學會,另組新會。",
+      "starter": "A",
+      "answer": "A small group split off from the club and started a new one.",
+      "answerZh": "一小群成員離開學會,另組新會。",
+      "highlight": "split off",
+      "targetForm": "split off from something",
+      "targetMeaningZh": "從較大的群體分離"
+    },
+    {
+      "id": "phrasal-verb-323-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The teacher divided the class into four teams.",
+      "promptZh": "老師把全班分成四隊。",
+      "starter": "The",
+      "answer": "The teacher split the class up into four teams.",
+      "answerZh": "老師把全班分成四隊。",
+      "highlight": "split",
+      "targetForm": "split somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ben and Lara have ended their relationship.",
+      "promptZh": "Ben 和 Lara 已經分手。",
+      "starter": "Ben",
+      "answer": "Ben and Lara have split up.",
+      "answerZh": "Ben 和 Lara 已經分手。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I divided the long job into three smaller tasks.",
+      "promptZh": "我把這項繁重工作分成三項較小的任務。",
+      "starter": "I",
+      "answer": "I split the long job up into three smaller tasks.",
+      "answerZh": "我把這項繁重工作分成三項較小的任務。",
+      "highlight": "split",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把工作分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Noah reported us for breaking the rule.",
+      "promptZh": "Noah 告發我們違反了規則。",
+      "starter": "Noah",
+      "answer": "Noah split on us for breaking the rule.",
+      "answerZh": "Noah 告發我們違反了規則。",
+      "highlight": "split on",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "告發某人做錯事"
+    },
+    {
+      "id": "phrasal-verb-323-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The visitors separated and went to different rooms.",
+      "promptZh": "訪客分開前往不同房間。",
+      "starter": "The",
+      "answer": "The visitors split up and went to different rooms.",
+      "answerZh": "訪客分開前往不同房間。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "分開行動"
+    },
+    {
+      "id": "phrasal-verb-323-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The strong wind separated a piece of wood from the fence.",
+      "promptZh": "強風吹令一塊木頭從圍欄分離。",
+      "starter": "The",
+      "answer": "The strong wind split a piece of wood off from the fence.",
+      "answerZh": "強風吹令一塊木頭從圍欄分離。",
+      "highlight": "split",
+      "targetForm": "split something off from something",
+      "targetMeaningZh": "使某部分從整體分開"
+    },
+    {
+      "id": "phrasal-verb-323-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "I do not think Jay will report us.",
+      "promptZh": "我認為 Jay 不會告發我們。",
+      "starter": "I",
+      "answer": "I do not think Jay will split on us.",
+      "answerZh": "我認為 Jay 不會告發我們。",
+      "highlight": "split on",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The book is being divided into ten short chapters.",
+      "promptZh": "這本書正被分成十個短章節。",
+      "starter": "The",
+      "answer": "The book is being split up into ten short chapters.",
+      "answerZh": "這本書正被分成十個短章節。",
+      "highlight": "split up",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The couple may end their relationship soon.",
+      "promptZh": "這對情侶可能很快便會分手。",
+      "starter": "The",
+      "answer": "The couple may split up soon.",
+      "answerZh": "這對情侶可能很快便會分手。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "One corner of the old sign has separated from the wall.",
+      "promptZh": "舊招牌的一角已從牆上分離。",
+      "starter": "One",
+      "answer": "One corner of the old sign has split away from the wall.",
+      "answerZh": "舊招牌的一角已從牆上分離。",
+      "highlight": "split away",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Please separate into pairs before the game begins.",
+      "promptZh": "遊戲開始前,請分成二人一組。",
+      "starter": "Please",
+      "answer": "Please split up into pairs before the game begins.",
+      "answerZh": "遊戲開始前,請分成二人一組。",
+      "highlight": "split up",
+      "targetForm": "split up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why did Tara report Hugo to the teacher for copying the answers?",
+      "promptZh": "Tara 為何向老師告發 Hugo 抄襲答案?",
+      "starter": "Why",
+      "answer": "Why did Tara split on Hugo to the teacher for copying the answers?",
+      "answerZh": "Tara 為何向老師告發 Hugo 抄襲答案?",
+      "highlight": "split on",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Could you divide it so that each child gets one part?",
+      "promptZh": "你可以把它分開,讓每名孩子各得一份嗎?",
+      "starter": "Could",
+      "answer": "Could you split it up so that each child gets one part?",
+      "answerZh": "你可以把它分開,讓每名孩子各得一份嗎?",
+      "highlight": "split",
+      "targetForm": "split something up",
+      "targetMeaningZh": "把某事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Work pressure is causing them to end their relationship.",
+      "promptZh": "工作壓力正令他們的感情關係破裂。",
+      "starter": "Work",
+      "answer": "Work pressure is splitting them up.",
+      "answerZh": "工作壓力正令他們分手。",
+      "highlight": "splitting",
+      "targetForm": "split somebody up",
+      "targetMeaningZh": "使兩人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The worker is separating the damaged piece from the door.",
+      "promptZh": "工人正把損壞的部分從門上分離。",
+      "starter": "The",
+      "answer": "The worker is splitting the damaged piece off from the door.",
+      "answerZh": "工人正把損壞的部分從門上分離。",
+      "highlight": "splitting",
+      "targetForm": "split something off from something",
+      "targetMeaningZh": "使某部分從整體分開"
+    },
+    {
+      "id": "phrasal-verb-323-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The guide will divide us into two smaller groups.",
+      "promptZh": "導遊會把我們分成兩個較小的組別。",
+      "starter": "The",
+      "answer": "The guide will split us up into two smaller groups.",
+      "answerZh": "導遊會把我們分成兩個較小的組別。",
+      "highlight": "split",
+      "targetForm": "split somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Sam refused to report his friend to the manager for taking the money.",
+      "promptZh": "Sam 拒絕向經理告發朋友拿了那些錢。",
+      "starter": "Sam",
+      "answer": "Sam refused to split on his friend to the manager for taking the money.",
+      "answerZh": "Sam 拒絕向經理告發朋友拿了那些錢。",
+      "highlight": "split on",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We have divided the project into four clear stages.",
+      "promptZh": "我們已把項目分成四個清楚的階段。",
+      "starter": "We",
+      "answer": "We have split the project up into four clear stages.",
+      "answerZh": "我們已把項目分成四個清楚的階段。",
+      "highlight": "split",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The work is too large for one person, so let us divide it between us.",
+      "promptZh": "這項工作太多,一個人無法完成,所以讓我們分擔吧。",
+      "starter": "The",
+      "answer": "The work is too large for one person, so let us split it up between us.",
+      "answerZh": "這項工作太多,一個人無法完成,所以讓我們分擔吧。",
+      "highlight": "split",
+      "targetForm": "split something up",
+      "targetMeaningZh": "把某事物分開或分配"
+    },
+    {
+      "id": "phrasal-verb-323-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Iris ended her relationship with Daniel after many arguments.",
+      "promptZh": "Iris 和 Daniel 多次爭吵後結束了感情關係。",
+      "starter": "Iris",
+      "answer": "Iris split up from Daniel after many arguments.",
+      "answerZh": "Iris 和 Daniel 多次爭吵後分手了。",
+      "highlight": "split up from",
+      "targetForm": "split up from somebody",
+      "targetMeaningZh": "與伴侶分手"
+    },
+    {
+      "id": "phrasal-verb-323-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "A loose sheet of metal was hanging from the roof. The storm separated it during the night.",
+      "promptZh": "一塊鬆脫的金屬板掛在屋頂上。暴風雨在夜間把它弄離了。",
+      "starter": "A",
+      "answer": "A loose sheet of metal was hanging from the roof. The storm split it off during the night.",
+      "answerZh": "一塊鬆脫的金屬板掛在屋頂上。暴風雨在夜間把它弄離了。",
+      "highlight": "split",
+      "targetForm": "split something off",
+      "targetMeaningZh": "使某部分從整體分開"
+    },
+    {
+      "id": "phrasal-verb-323-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The coach asked us to separate and practise in different areas.",
+      "promptZh": "教練叫我們分開,在不同地方練習。",
+      "starter": "The",
+      "answer": "The coach asked us to split up and practise in different areas.",
+      "answerZh": "教練叫我們分開,在不同地方練習。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "分開行動"
+    },
+    {
+      "id": "phrasal-verb-323-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Karim was worried that his teammate might report him.",
+      "promptZh": "Karim 擔心隊友可能會告發他。",
+      "starter": "Karim",
+      "answer": "Karim was worried that his teammate might split on him.",
+      "answerZh": "Karim 擔心隊友可能會告發他。",
+      "highlight": "split on",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The course needed shorter units, so the school divided it into eight parts.",
+      "promptZh": "課程需要較短的單元,所以學校把它分成八部分。",
+      "starter": "The",
+      "answer": "The course needed shorter units, so the school split it up into eight parts.",
+      "answerZh": "課程需要較短的單元,所以學校把它分成八部分。",
+      "highlight": "split",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Zoe and her partner were happy, but a friend tried to make them end their relationship.",
+      "promptZh": "Zoe 和伴侶感情很好,但一名朋友企圖令他們分手。",
+      "starter": "Zoe",
+      "answer": "Zoe and her partner were happy, but a friend tried to split them up.",
+      "answerZh": "Zoe 和伴侶感情很好,但一名朋友企圖令他們分手。",
+      "highlight": "split",
+      "targetForm": "split somebody up",
+      "targetMeaningZh": "使兩人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The class was divided into three groups before the activity.",
+      "promptZh": "活動開始前,全班被分成三組。",
+      "starter": "The",
+      "answer": "The class was split up into three groups before the activity.",
+      "answerZh": "活動開始前,全班被分成三組。",
+      "highlight": "split up",
+      "targetForm": "split somebody up into something",
+      "targetMeaningZh": "把一群人分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A small piece was attached to the toy. After it separated, we found it under the table.",
+      "promptZh": "一小塊零件原本連在玩具上。它分離後,我們在桌下找到了它。",
+      "starter": "A",
+      "answer": "A small piece was attached to the toy. After it split away, we found it under the table.",
+      "answerZh": "一小塊零件原本連在玩具上。它分離後,我們在桌下找到了它。",
+      "highlight": "split away",
+      "targetForm": "split away",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why was the programme divided into two shorter shows?",
+      "promptZh": "這個節目為何被分成兩個較短的節目?",
+      "starter": "Why",
+      "answer": "Why was the programme split up into two shorter shows?",
+      "answerZh": "這個節目為何被分成兩個較短的節目?",
+      "highlight": "split up",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Nobody had reported Priya before the meeting.",
+      "promptZh": "會議前沒有人告發 Priya。",
+      "starter": "Nobody",
+      "answer": "Nobody had split on Priya before the meeting.",
+      "answerZh": "會議前沒有人告發 Priya。",
+      "highlight": "split on",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Nothing should make the young couple end their relationship.",
+      "promptZh": "任何事情都不應令這對年輕情侶分手。",
+      "starter": "Nothing",
+      "answer": "Nothing should split the young couple up.",
+      "answerZh": "任何事情都不應令這對年輕情侶分手。",
+      "highlight": "split",
+      "targetForm": "split somebody up",
+      "targetMeaningZh": "使兩人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Ava says she is thinking about ending her relationship with Noah.",
+      "promptZh": "Ava 說她正考慮與 Noah 分手。",
+      "starter": "Ava",
+      "answer": "Ava says she is thinking about splitting up with Noah.",
+      "answerZh": "Ava 說她正考慮與 Noah 分手。",
+      "highlight": "splitting up",
+      "targetForm": "split up with somebody",
+      "targetMeaningZh": "與伴侶分手"
+    },
+    {
+      "id": "phrasal-verb-323-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A group of members left the main organisation and formed a separate group.",
+      "promptZh": "一群成員離開主要組織,另組一個獨立團體。",
+      "starter": "A",
+      "answer": "A group of members split away from the main organisation and formed a separate group.",
+      "answerZh": "一群成員離開主要組織,另組一個獨立團體。",
+      "highlight": "split away from",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的群體分離"
+    },
+    {
+      "id": "phrasal-verb-323-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The boys had all broken the rules, but they agreed not to tell the teacher about each other.",
+      "promptZh": "男孩們全都違反了規則,但他們同意不向老師告發彼此。",
+      "starter": "The",
+      "answer": "The boys had all broken the rules, but they agreed not to split on each other to the teacher.",
+      "answerZh": "男孩們全都違反了規則,但他們同意不向老師告發彼此。",
+      "highlight": "split on each other to",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "To search the park faster, the volunteers separated and checked different areas.",
+      "promptZh": "為了更快搜索公園,義工分開檢查不同地方。",
+      "starter": "To",
+      "answer": "To search the park faster, the volunteers split up and checked different areas.",
+      "answerZh": "為了更快搜索公園,義工分開檢查不同地方。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "分開行動"
+    },
+    {
+      "id": "phrasal-verb-323-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The teacher arranged the lesson as three short activities with a break between them.",
+      "promptZh": "老師把課堂安排成三項短活動,中間設有休息時間。",
+      "starter": "The",
+      "answer": "The teacher split the lesson up into three short activities with a break between them.",
+      "answerZh": "老師把課堂分成三項短活動,中間設有休息時間。",
+      "highlight": "split",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物或時間分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Did the couple finally end their relationship after living in different cities?",
+      "promptZh": "這對情侶分隔兩地生活後,最終有沒有分手?",
+      "starter": "Did",
+      "answer": "Did the couple finally split up after living in different cities?",
+      "answerZh": "這對情侶分隔兩地生活後,最終有沒有分手?",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "A thin piece of rock had separated from the cliff.",
+      "promptZh": "一塊薄薄的岩石已從懸崖分離。",
+      "starter": "A",
+      "answer": "A thin piece of rock had split away from the cliff.",
+      "answerZh": "一塊薄薄的岩石已從懸崖分離。",
+      "highlight": "split away",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The editor divided the long video because it was too difficult to watch at once.",
+      "promptZh": "這段影片太長,難以一次看完,所以剪接人員把它分開。",
+      "starter": "The",
+      "answer": "The editor split the long video up because it was too difficult to watch at once.",
+      "answerZh": "這段影片太長,難以一次看完,所以剪接人員把它分開。",
+      "highlight": "split",
+      "targetForm": "split something up",
+      "targetMeaningZh": "把某事物分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "If you tell the teacher about me, I will know it was you.",
+      "promptZh": "你若向老師告發我,我便會知道是你做的。",
+      "starter": "If",
+      "answer": "If you split on me to the teacher, I will know it was you.",
+      "answerZh": "你若向老師告發我,我便會知道是你做的。",
+      "highlight": "split on me to",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We were told to divide into smaller teams, but nobody moved.",
+      "promptZh": "我們被叫分成較小的隊伍,但沒有人移動。",
+      "starter": "We",
+      "answer": "We were told to split up into smaller teams, but nobody moved.",
+      "answerZh": "我們被叫分成較小的隊伍,但沒有人移動。",
+      "highlight": "split up",
+      "targetForm": "split up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Could this broken section be separated from the larger panel?",
+      "promptZh": "這個破損部分可以與較大的板塊分開嗎?",
+      "starter": "Could",
+      "answer": "Could this broken section be split off from the larger panel?",
+      "answerZh": "這個破損部分可以與較大的板塊分開嗎?",
+      "highlight": "split off",
+      "targetForm": "split something off from something",
+      "targetMeaningZh": "使某部分從整體分開"
+    },
+    {
+      "id": "phrasal-verb-323-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "It was not one argument but months of stress that ended their relationship.",
+      "promptZh": "令他們分手的不是一次爭吵,而是幾個月來的壓力。",
+      "starter": "It",
+      "answer": "It was not one argument but months of stress that split them up.",
+      "answerZh": "令他們分手的不是一次爭吵,而是幾個月來的壓力。",
+      "highlight": "split them up",
+      "targetForm": "split somebody up",
+      "targetMeaningZh": "使兩人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The head teacher already knew about the cheating, so there was no reason for Leo to report his classmates.",
+      "promptZh": "校長早已知道有人作弊,所以 Leo 沒有理由告發同學。",
+      "starter": "The",
+      "answer": "The head teacher already knew about the cheating, so there was no reason for Leo to split on his classmates.",
+      "answerZh": "校長早已知道有人作弊,所以 Leo 沒有理由告發同學。",
+      "highlight": "split on",
+      "targetForm": "split on somebody",
+      "targetMeaningZh": "告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The rescue team decided to divide into smaller groups and search the building faster.",
+      "promptZh": "救援隊決定分成較小組別,以便更快搜索大樓。",
+      "starter": "The",
+      "answer": "The rescue team decided to split up into smaller groups and search the building faster.",
+      "answerZh": "救援隊決定分成較小組別,以便更快搜索大樓。",
+      "highlight": "split up",
+      "targetForm": "split up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "As the ice melted, a large piece slowly separated from the main block of ice.",
+      "promptZh": "冰塊融化時,一大塊冰逐漸與主體分離。",
+      "starter": "As",
+      "answer": "As the ice melted, a large piece slowly split away from the main block of ice.",
+      "answerZh": "冰塊融化時,一大塊冰逐漸與主體分離。",
+      "highlight": "split away",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although their friends expected them to end the relationship, Chloe and Yusuf stayed together.",
+      "promptZh": "雖然朋友們以為 Chloe 和 Yusuf 會分手,但他們仍然在一起。",
+      "starter": "Although",
+      "answer": "Although their friends expected them to split up, Chloe and Yusuf stayed together.",
+      "answerZh": "雖然朋友們以為 Chloe 和 Yusuf 會分手,但他們仍然在一起。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Instead of doing all the revision on Sunday, Jay spread it over three evenings.",
+      "promptZh": "Jay 沒有在星期日完成所有溫習,而是把溫習分配到三個晚上。",
+      "starter": "Instead",
+      "answer": "Instead of doing all the revision on Sunday, Jay split it up over three evenings.",
+      "answerZh": "Jay 沒有在星期日完成所有溫習,而是把溫習分配到三個晚上。",
+      "highlight": "split",
+      "targetForm": "split something up",
+      "targetMeaningZh": "把某事物分開或分配"
+    },
+    {
+      "id": "phrasal-verb-323-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The student said he would not report his friends to the head teacher for breaking the rule, even if she asked him.",
+      "promptZh": "那名學生說,即使校長問他,他也不會告發違反規則的朋友。",
+      "starter": "The",
+      "answer": "The student said he would not split on his friends to the head teacher for breaking the rule, even if she asked him.",
+      "answerZh": "那名學生說,即使校長問他,他也不會告發違反規則的朋友。",
+      "highlight": "split on",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Once the museum tour began, the visitors separated into two groups and followed different guides.",
+      "promptZh": "博物館導賞開始後,訪客分成兩組,跟隨不同導遊。",
+      "starter": "Once",
+      "answer": "Once the museum tour began, the visitors split up into two groups and followed different guides.",
+      "answerZh": "博物館導賞開始後,訪客分成兩組,跟隨不同導遊。",
+      "highlight": "split up",
+      "targetForm": "split up into something",
+      "targetMeaningZh": "分成較小組別"
+    },
+    {
+      "id": "phrasal-verb-323-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A section of the old sign was beginning to separate from the wooden frame.",
+      "promptZh": "舊招牌的一部分開始與木框分離。",
+      "starter": "A",
+      "answer": "A section of the old sign was beginning to split away from the wooden frame.",
+      "answerZh": "舊招牌的一部分開始與木框分離。",
+      "highlight": "split away",
+      "targetForm": "split away from something",
+      "targetMeaningZh": "從較大的物件分離"
+    },
+    {
+      "id": "phrasal-verb-323-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The event is too long as one block; can we divide it into a morning part and an afternoon part?",
+      "promptZh": "活動若連續進行便太長;我們可以把它分成上午和下午兩部分嗎?",
+      "starter": "The",
+      "answer": "The event is too long as one block; can we split it up into a morning part and an afternoon part?",
+      "answerZh": "活動若連續進行便太長;我們可以把它分成上午和下午兩部分嗎?",
+      "highlight": "split",
+      "targetForm": "split something up into something",
+      "targetMeaningZh": "把事物或時間分成較小部分"
+    },
+    {
+      "id": "phrasal-verb-323-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Rumours nearly caused Sam and Tara to end their relationship, but they talked honestly.",
+      "promptZh": "謠言幾乎令 Sam 和 Tara 分手,但他們坦誠地交談了。",
+      "starter": "Rumours",
+      "answer": "Rumours nearly split Sam and Tara up, but they talked honestly.",
+      "answerZh": "謠言幾乎令 Sam 和 Tara 分手,但他們坦誠地交談了。",
+      "highlight": "split",
+      "targetForm": "split somebody up",
+      "targetMeaningZh": "使兩人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-323-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "We left early without permission. Who told the coach about us?",
+      "promptZh": "我們未經批准便提早離開。是誰向教練告發我們?",
+      "starter": "We",
+      "answer": "We left early without permission. Who split on us to the coach?",
+      "answerZh": "我們未經批准便提早離開。是誰向教練告發我們?",
+      "highlight": "split on us to",
+      "targetForm": "split on somebody to somebody",
+      "targetMeaningZh": "向有權處理事情的人告發某人"
+    },
+    {
+      "id": "phrasal-verb-323-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The walkers agreed to separate and take two different paths, then meet again at the lake.",
+      "promptZh": "步行者同意分開走兩條不同的小路,然後在湖邊再次會合。",
+      "starter": "The",
+      "answer": "The walkers agreed to split up and take two different paths, then meet again at the lake.",
+      "answerZh": "步行者同意分開走兩條不同的小路,然後在湖邊再次會合。",
+      "highlight": "split up",
+      "targetForm": "split up",
+      "targetMeaningZh": "分開行動"
+    }
+  ]
+}

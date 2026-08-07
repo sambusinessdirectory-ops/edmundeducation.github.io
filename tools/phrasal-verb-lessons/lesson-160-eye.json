@@ -1,0 +1,973 @@
+{
+  "id": "phrasal-verb-160",
+  "order": 160,
+  "slug": "eye",
+  "version": "1",
+  "title": "EYE 動詞片語",
+  "titleEn": "Eye",
+  "titleZh": "EYE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 159 - EYE.pdf",
+    "sourceNumber": 159,
+    "pageCount": 16,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerKeyPdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 EYE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to EYE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "EYE",
+      "highlight": "EYE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She’s eyeing me up as a potential customer.",
+      "zh": "她正仔細打量我,視我為潛在顧客。",
+      "highlight": "eyeing me up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Are you eyeing up that strawberry tart?",
+      "zh": "你是否正看中那件士多啤梨撻?",
+      "highlight": "eyeing up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適；看中或仔細留意某件想購買、選擇或使用的東西",
+    "en": "eye somebody up; eye something up",
+    "naturalZh": [
+      "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+      "看中或仔細留意某件想購買、選擇或使用的東西"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "eye somebody up",
+      "titleZh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+      "titleEn": "eye somebody up",
+      "descriptionZh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+      "descriptionEn": "She’s eyeing me up as a potential customer.",
+      "examples": [
+        {
+          "en": "She’s eyeing me up as a potential customer.",
+          "zh": "她正仔細打量我,視我為潛在顧客。",
+          "highlight": "eyeing me up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eye something up",
+      "titleZh": "看中或仔細留意某件想購買、選擇或使用的東西",
+      "titleEn": "eye something up",
+      "descriptionZh": "看中或仔細留意某件想購買、選擇或使用的東西",
+      "descriptionEn": "Are you eyeing up that strawberry tart?",
+      "examples": [
+        {
+          "en": "Are you eyeing up that strawberry tart?",
+          "zh": "你是否正看中那件士多啤梨撻?",
+          "highlight": "eyeing up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "EYE 片語動詞的實際用途",
+    "labelEn": "EYE Phrasal Verbs in Use",
+    "summaryZh": "eye somebody up 可以描述教練、僱主、售貨員或其他人仔細觀察某人,判斷對方是否合適。；eye something up 可以描述你感興趣並可能想要的食物、衣服、座位、住所或其他物品。；eye up 通常不只是表示「看見」,還帶有感興趣、正在考慮或仔細評估的意思。",
+    "summaryEn": "Eye somebody up can describe a coach, employer, seller or another person carefully considering whether somebody is suitable. Eye something up can describe looking with interest at food, clothes, seats, homes or other things you may want. Eye up usually expresses more than simply seeing something. It suggests interest, consideration or careful assessment.",
+    "contextsZh": [
+      "自然表達對某人的觀察或評估",
+      "談論自己看中的東西",
+      "理解某人注視背後的意圖"
+    ],
+    "contextsEn": [
+      "Talk naturally about assessing or showing interest in people",
+      "Talk about things you are interested in choosing",
+      "Understand the intention behind somebody’s look"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 EYE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the EYE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "eye somebody up",
+    "fixedHighlight": "eye somebody up",
+    "fixedZh": "閱讀整句,選出意思相同的 EYE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the EYE expression that gives the same meaning.",
+    "correct": "eyeing me up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；先判斷句子談論的是「仔細打量或評估某人」,還是「看中某件想要的東西」。；使用 him、her、it 或 them 時,把它放在 eye 和 up 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Decide whether the sentence is about carefully looking at or assessing a person, or showing interest in something that somebody may want. When using him, her, it or them, place the word between eye and up: eye him up eye it up",
+    "variableItemsZh": [
+      "eye somebody up",
+      "eye something up"
+    ],
+    "variableItemsEn": [
+      "eye somebody up",
+      "eye something up"
+    ],
+    "forms": [
+      {
+        "formZh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+        "formEn": "eye somebody up",
+        "exampleZh": "她正仔細打量我,視我為潛在顧客。",
+        "exampleEn": "She’s eyeing me up as a potential customer.",
+        "highlight": "eyeing me up"
+      },
+      {
+        "formZh": "看中或仔細留意某件想購買、選擇或使用的東西",
+        "formEn": "eye something up",
+        "exampleZh": "你是否正看中那件士多啤梨撻?",
+        "exampleEn": "Are you eyeing up that strawberry tart?",
+        "highlight": "eyeing up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+      "titleEn": "eye somebody up",
+      "formula": "eye somebody up",
+      "highlight": "eye somebody up",
+      "descriptionZh": "仔細打量某人,因為對對方感興趣,或想評估對方是否合適",
+      "descriptionEn": "She’s eyeing me up as a potential customer.",
+      "examples": [
+        {
+          "en": "She’s eyeing me up as a potential customer.",
+          "zh": "她正仔細打量我,視我為潛在顧客。",
+          "highlight": "eyeing me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "看中或仔細留意某件想購買、選擇或使用的東西",
+      "titleEn": "eye something up",
+      "formula": "eye something up",
+      "highlight": "eye something up",
+      "descriptionZh": "看中或仔細留意某件想購買、選擇或使用的東西",
+      "descriptionEn": "Are you eyeing up that strawberry tart?",
+      "examples": [
+        {
+          "en": "Are you eyeing up that strawberry tart?",
+          "zh": "你是否正看中那件士多啤梨撻?",
+          "highlight": "eyeing up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然表達對某人的觀察或評估",
+      "titleEn": "Talk naturally about assessing or showing interest in people",
+      "zh": "eye somebody up 可以描述教練、僱主、售貨員或其他人仔細觀察某人,判斷對方是否合適。",
+      "en": "Eye somebody up can describe a coach, employer, seller or another person carefully considering whether somebody is suitable."
+    },
+    {
+      "titleZh": "談論自己看中的東西",
+      "titleEn": "Talk about things you are interested in choosing",
+      "zh": "eye something up 可以描述你感興趣並可能想要的食物、衣服、座位、住所或其他物品。",
+      "en": "Eye something up can describe looking with interest at food, clothes, seats, homes or other things you may want."
+    },
+    {
+      "titleZh": "理解某人注視背後的意圖",
+      "titleEn": "Understand the intention behind somebody’s look",
+      "zh": "eye up 通常不只是表示「看見」,還帶有感興趣、正在考慮或仔細評估的意思。",
+      "en": "Eye up usually expresses more than simply seeing something. It suggests interest, consideration or careful assessment."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然表達對某人的觀察或評估",
+      "談論自己看中的東西",
+      "理解某人注視背後的意圖"
+    ],
+    "contextsEn": [
+      "Talk naturally about assessing or showing interest in people",
+      "Talk about things you are interested in choosing",
+      "Understand the intention behind somebody’s look"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然表達對某人的觀察或評估",
+        "titleEn": "Talk naturally about assessing or showing interest in people",
+        "zh": "eye somebody up 可以描述教練、僱主、售貨員或其他人仔細觀察某人,判斷對方是否合適。",
+        "en": "Eye somebody up can describe a coach, employer, seller or another person carefully considering whether somebody is suitable.",
+        "examples": [
+          {
+            "en": "She’s eyeing me up as a potential customer.",
+            "zh": "她正仔細打量我,視我為潛在顧客。",
+            "highlight": "eyeing me up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論自己看中的東西",
+        "titleEn": "Talk about things you are interested in choosing",
+        "zh": "eye something up 可以描述你感興趣並可能想要的食物、衣服、座位、住所或其他物品。",
+        "en": "Eye something up can describe looking with interest at food, clothes, seats, homes or other things you may want.",
+        "examples": [
+          {
+            "en": "Are you eyeing up that strawberry tart?",
+            "zh": "你是否正看中那件士多啤梨撻?",
+            "highlight": "eyeing up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解某人注視背後的意圖",
+        "titleEn": "Understand the intention behind somebody’s look",
+        "zh": "eye up 通常不只是表示「看見」,還帶有感興趣、正在考慮或仔細評估的意思。",
+        "en": "Eye up usually expresses more than simply seeing something. It suggests interest, consideration or careful assessment.",
+        "examples": [
+          {
+            "en": "She’s eyeing me up as a potential customer.",
+            "zh": "她正仔細打量我,視我為潛在顧客。",
+            "highlight": "eyeing me up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 EYE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the EYE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 EYE 片語動詞。",
+      "en": "Read the whole sentence and choose the EYE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "先判斷句子談論的是「仔細打量或評估某人」,還是「看中某件想要的東西」。",
+      "titleEn": "Decide whether the sentence is about carefully looking at or assessing a person, or showing interest in something that somebody may want.",
+      "zh": "先判斷句子談論的是「仔細打量或評估某人」,還是「看中某件想要的東西」。",
+      "en": "Decide whether the sentence is about carefully looking at or assessing a person, or showing interest in something that somebody may want."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,把它放在 eye 和 up 中間。",
+      "titleEn": "When using him, her, it or them, place the word between eye and up: eye him up eye it up.",
+      "zh": "使用 him、her、it 或 them 時,把它放在 eye 和 up 中間。",
+      "en": "When using him, her, it or them, place the word between eye and up: eye him up eye it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 EYE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to EYE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "EYE 動詞片語句子改寫練習",
+    "titleEn": "EYE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 EYE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to EYE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-160-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 9,
+      "prompt": "Chloe looked carefully at the red coat because she wanted to buy it.",
+      "promptZh": "克洛伊仔細看着那件紅色外套,因為她想買下它。",
+      "starter": "Chloe",
+      "answer": "Chloe eyed up the red coat because she wanted to buy it.",
+      "answerZh": "克洛伊看中了那件紅色外套,因為她想買下它。",
+      "highlight": "eyed up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The coach studied the tall player as a possible new team member.",
+      "promptZh": "教練仔細觀察那名高大的球員,視他為可能加入球隊的新成員。",
+      "starter": "The",
+      "answer": "The coach eyed the tall player up as a possible new team member.",
+      "answerZh": "教練仔細打量那名高大的球員,視他為可能加入球隊的新成員。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Ben kept looking at the last chocolate cake in the window.",
+      "promptZh": "賓一直看着櫥窗內最後一件朱古力蛋糕。",
+      "starter": "Ben",
+      "answer": "Ben kept eyeing up the last chocolate cake in the window.",
+      "answerZh": "賓一直看中櫥窗內最後一件朱古力蛋糕。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The shop assistant looked at us carefully as possible customers.",
+      "promptZh": "店員仔細打量我們,視我們為潛在顧客。",
+      "starter": "The",
+      "answer": "The shop assistant eyed us up as possible customers.",
+      "answerZh": "店員仔細打量我們,視我們為潛在顧客。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "A recruiter carefully studied Ravi as a possible employee before the interview began.",
+      "promptZh": "面試開始前,一名招聘人員仔細觀察拉維,視他為可能的員工人選。",
+      "starter": "A",
+      "answer": "A recruiter eyed Ravi up as a possible employee before the interview began.",
+      "answerZh": "面試開始前,一名招聘人員仔細打量拉維,視他為可能的員工人選。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Nora is looking at the corner table because she wants to sit there.",
+      "promptZh": "諾拉正看着角落的桌子,因為她想坐在那裏。",
+      "starter": "Nora",
+      "answer": "Nora is eyeing up the corner table because she wants to sit there.",
+      "answerZh": "諾拉正看中角落的桌子,因為她想坐在那裏。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "I looked at the blue bicycle and thought about buying it.",
+      "promptZh": "我看着那輛藍色單車,並考慮把它買下來。",
+      "starter": "I",
+      "answer": "I eyed up the blue bicycle and thought about buying it.",
+      "answerZh": "我看中了那輛藍色單車,並考慮把它買下來。",
+      "highlight": "eyed up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The other team studied our fastest runner before the race.",
+      "promptZh": "比賽前,對方球隊仔細觀察我們速度最快的跑手。",
+      "starter": "The",
+      "answer": "The other team eyed our fastest runner up before the race.",
+      "answerZh": "比賽前,對方球隊仔細打量我們速度最快的跑手。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The manager is studying Leo as a possible sales assistant.",
+      "promptZh": "經理正仔細觀察里奧,視他為可能的售貨員人選。",
+      "starter": "The",
+      "answer": "The manager is eyeing Leo up as a possible sales assistant.",
+      "answerZh": "經理正仔細打量里奧,視他為可能的售貨員人選。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "We have been looking at that empty shop as a possible café.",
+      "promptZh": "我們一直留意那間空置店舖,考慮把它用作咖啡店。",
+      "starter": "We",
+      "answer": "We have been eyeing up that empty shop as a possible café.",
+      "answerZh": "我們一直看中那間空置店舖,考慮把它用作咖啡店。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Look carefully at the cheaper laptop before choosing one.",
+      "promptZh": "選擇前,先仔細看看那部較便宜的手提電腦。",
+      "starter": "Eye",
+      "answer": "Eye up the cheaper laptop before choosing one.",
+      "answerZh": "選擇前,先仔細看看那部較便宜的手提電腦。",
+      "highlight": "Eye up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "She was not being studied by the director as a possible lead actor.",
+      "promptZh": "導演當時並沒有把她視為主角人選來仔細評估。",
+      "starter": "She",
+      "answer": "She was not being eyed up by the director as a possible lead actor.",
+      "answerZh": "導演當時並沒有把她視為主角人選來仔細評估。",
+      "highlight": "eyed up",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Are they looking at the house next door because they may buy it?",
+      "promptZh": "他們是否正留意隔壁的房子,因為可能會把它買下來?",
+      "starter": "Are",
+      "answer": "Are they eyeing up the house next door because they may buy it?",
+      "answerZh": "他們是否正看中隔壁的房子,因為可能會把它買下來?",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Before the match, the scouts had carefully studied Ethan as a possible signing.",
+      "promptZh": "比賽前,球探已仔細觀察伊森,視他為可能簽入的球員。",
+      "starter": "Before",
+      "answer": "Before the match, the scouts had eyed Ethan up as a possible signing.",
+      "answerZh": "比賽前,球探已仔細打量伊森,視他為可能簽入的球員。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Grace plans to look closely at the sale items before the shop closes.",
+      "promptZh": "格蕾絲計劃在店舖關門前仔細看看減價貨品。",
+      "starter": "Grace",
+      "answer": "Grace plans to eye up the sale items before the shop closes.",
+      "answerZh": "格蕾絲計劃在店舖關門前仔細看看減價貨品。",
+      "highlight": "eye up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Several clubs have been studying the young goalkeeper this season.",
+      "promptZh": "今季有幾間球會一直仔細觀察那名年輕守門員。",
+      "starter": "Several",
+      "answer": "Several clubs have been eyeing the young goalkeeper up this season.",
+      "answerZh": "今季有幾間球會一直仔細打量那名年輕守門員。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "That camera is expensive, but I have been looking at it because I may buy it.",
+      "promptZh": "那部相機很昂貴,但我一直留意它,因為我可能會買下它。",
+      "starter": "That",
+      "answer": "That camera is expensive, but I have been eyeing it up because I may buy it.",
+      "answerZh": "那部相機很昂貴,但我一直看中它,因為我可能會買下它。",
+      "highlight": "eyeing",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Omar seems confident. The interviewer is studying him as a possible team leader.",
+      "promptZh": "奧馬看來很有自信。面試官正仔細評估他,視他為可能的組長人選。",
+      "starter": "Omar",
+      "answer": "Omar seems confident. The interviewer is eyeing him up as a possible team leader.",
+      "answerZh": "奧馬看來很有自信。面試官正仔細打量他,視他為可能的組長人選。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We need one more chair. Ava is looking at the empty one by the window.",
+      "promptZh": "我們還需要一張椅子。艾娃正看着窗邊那張空椅子。",
+      "starter": "We",
+      "answer": "We need one more chair. Ava is eyeing up the empty one by the window.",
+      "answerZh": "我們還需要一張椅子。艾娃正看中窗邊那張空椅子。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The owner watched the two visitors carefully and treated them as possible customers.",
+      "promptZh": "店主仔細觀察那兩名訪客,並把他們視為潛在顧客。",
+      "starter": "The",
+      "answer": "The owner eyed the two visitors up and treated them as possible customers.",
+      "answerZh": "店主仔細打量那兩名訪客,並把他們視為潛在顧客。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "I saw three desserts, but I kept looking at the lemon tart.",
+      "promptZh": "我看見三款甜品,但一直看着那件檸檬撻。",
+      "starter": "I",
+      "answer": "I saw three desserts, but I kept eyeing up the lemon tart.",
+      "answerZh": "我看見三款甜品,但一直看中那件檸檬撻。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Why was the coach studying her before the final trial?",
+      "promptZh": "教練為何在最後試選前仔細觀察她?",
+      "starter": "Why",
+      "answer": "Why was the coach eyeing her up before the final trial?",
+      "answerZh": "教練為何在最後試選前仔細打量她?",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "That flat is too small, so we are no longer considering it.",
+      "promptZh": "那個單位太小,所以我們不再考慮它。",
+      "starter": "That",
+      "answer": "That flat is too small, so we are no longer eyeing it up.",
+      "answerZh": "那個單位太小,所以我們不再看中它。",
+      "highlight": "eyeing",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The company may be studying Priya as the next project leader.",
+      "promptZh": "公司可能正仔細評估普里雅,視她為下一任項目主管人選。",
+      "starter": "The",
+      "answer": "The company may be eyeing Priya up as the next project leader.",
+      "answerZh": "公司可能正仔細打量普里雅,視她為下一任項目主管人選。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The room is crowded, but Sam is looking closely at an empty seat near the door.",
+      "promptZh": "房間很擠迫,但森正仔細看着門邊一個空座位。",
+      "starter": "The",
+      "answer": "The room is crowded, but Sam is eyeing up the empty seat near the door.",
+      "answerZh": "房間很擠迫,但森正看中門邊那個空座位。",
+      "highlight": "eyeing up the",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The rival club is carefully watching our captain because it may offer him a contract.",
+      "promptZh": "對手球會正仔細觀察我們的隊長,因為可能會向他提供合約。",
+      "starter": "The",
+      "answer": "The rival club is eyeing our captain up because it may offer him a contract.",
+      "answerZh": "對手球會正仔細打量我們的隊長,因為可能會向他提供合約。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Which dish on the menu are you thinking of ordering?",
+      "promptZh": "你正在考慮點餐牌上的哪一道菜?",
+      "starter": "Which",
+      "answer": "Which dish on the menu are you eyeing up?",
+      "answerZh": "你正看中餐牌上的哪一道菜?",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The event organiser studied the confident speaker as a possible host.",
+      "promptZh": "活動籌辦人仔細觀察那名有自信的講者,視他為主持人選。",
+      "starter": "The",
+      "answer": "The event organiser eyed the confident speaker up as a possible host.",
+      "answerZh": "活動籌辦人仔細打量那名有自信的講者,視他為主持人選。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "They have not chosen a holiday home yet, but they are looking closely at a small cottage by the sea.",
+      "promptZh": "他們尚未選定度假屋,但正仔細留意海邊一間小屋。",
+      "starter": "They",
+      "answer": "They have not chosen a holiday home yet, but they are eyeing up a small cottage by the sea.",
+      "answerZh": "他們尚未選定度假屋,但正看中海邊一間小屋。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "At the sales event, the seller watched each visitor to decide who might buy the new machine.",
+      "promptZh": "在促銷活動上,售貨員觀察每名訪客,以判斷誰可能購買新機器。",
+      "starter": "At",
+      "answer": "At the sales event, the seller eyed each visitor up to decide who might buy the new machine.",
+      "answerZh": "在促銷活動上,售貨員仔細打量每名訪客,以判斷誰可能購買新機器。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Before lunch, Kai had already been looking at the largest sandwich because he wanted it.",
+      "promptZh": "午膳前,啟已一直看着最大的三文治,因為他想要它。",
+      "starter": "Before",
+      "answer": "Before lunch, Kai had already been eyeing up the largest sandwich because he wanted it.",
+      "answerZh": "午膳前,啟已一直看中最大的三文治,因為他想要它。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The producer was studying the two actors as possible replacements for the main star.",
+      "promptZh": "製作人正仔細評估那兩名演員,視他們為主角的可能替代人選。",
+      "starter": "The",
+      "answer": "The producer was eyeing the two actors up as possible replacements for the main star.",
+      "answerZh": "製作人正仔細打量那兩名演員,視他們為主角的可能替代人選。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "When the waiter brought the desserts, I immediately began considering the fruit tart.",
+      "promptZh": "侍應送上甜品時,我立即開始考慮那件水果撻。",
+      "starter": "When",
+      "answer": "When the waiter brought the desserts, I immediately began eyeing up the fruit tart.",
+      "answerZh": "侍應送上甜品時,我立即開始留意那件水果撻。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The new supervisor met several possible team members and carefully studied them.",
+      "promptZh": "新主管與幾名可能加入團隊的人見面,並仔細觀察他們。",
+      "starter": "The",
+      "answer": "The new supervisor met several possible team members and eyed them up carefully.",
+      "answerZh": "新主管與幾名可能加入團隊的人見面,並仔細打量他們。",
+      "highlight": "eyed them up",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "We do not need a new car now, although Daniel keeps looking at the silver one outside the showroom.",
+      "promptZh": "我們現在不需要新車,但丹尼爾一直看着陳列室外那輛銀色汽車。",
+      "starter": "We",
+      "answer": "We do not need a new car now, although Daniel keeps eyeing up the silver one outside the showroom.",
+      "answerZh": "我們現在不需要新車,但丹尼爾一直看中陳列室外那輛銀色汽車。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Before making the final choice, the committee studied Ben as a possible project leader.",
+      "promptZh": "作出最後決定前,委員會仔細評估賓,視他為項目主管人選。",
+      "starter": "Before",
+      "answer": "Before making the final choice, the committee eyed Ben up as a possible project leader.",
+      "answerZh": "作出最後決定前,委員會仔細打量賓,視他為項目主管人選。",
+      "highlight": "eyed",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "When asked which bag she wanted, Chloe said she had been looking at the small black one.",
+      "promptZh": "有人問克洛伊想要哪個手袋時,她說自己一直看着那個黑色小手袋。",
+      "starter": "When",
+      "answer": "When asked which bag she wanted, Chloe said she had been eyeing up the small black one.",
+      "answerZh": "有人問克洛伊想要哪個手袋時,她說自己一直看中那個黑色小手袋。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "After Leo played well, the scouts began studying him as a possible signing.",
+      "promptZh": "里奧表現出色後,球探開始仔細觀察他,視他為可能簽入的球員。",
+      "starter": "After",
+      "answer": "After Leo played well, the scouts began eyeing him up as a possible signing.",
+      "answerZh": "里奧表現出色後,球探開始仔細打量他,視他為可能簽入的球員。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    },
+    {
+      "id": "phrasal-verb-160-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Although the price was high, Nora kept looking at the flat with the large balcony as a possible home.",
+      "promptZh": "雖然價錢很高,但諾拉一直留意那個有大露台的單位,視它為可能的住所。",
+      "starter": "Although",
+      "answer": "Although the price was high, Nora kept eyeing up the flat with the large balcony as a possible home.",
+      "answerZh": "雖然價錢很高,但諾拉一直看中那個有大露台的單位,視它為可能的住所。",
+      "highlight": "eyeing up",
+      "targetForm": "eye something up",
+      "targetMeaningZh": "看中或仔細留意想要的東西"
+    },
+    {
+      "id": "phrasal-verb-160-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "At first, the company ignored Ethan, but after his strong presentation it began considering him for the manager’s job.",
+      "promptZh": "起初公司沒有留意伊森,但在他表現出色的簡報後,公司開始考慮讓他擔任經理。",
+      "starter": "At",
+      "answer": "At first, the company ignored Ethan, but after his strong presentation it began eyeing him up for the manager’s job.",
+      "answerZh": "起初公司沒有留意伊森,但在他表現出色的簡報後,公司開始仔細評估他是否適合擔任經理。",
+      "highlight": "eyeing",
+      "targetForm": "eye somebody up",
+      "targetMeaningZh": "仔細打量或評估某人"
+    }
+  ]
+}

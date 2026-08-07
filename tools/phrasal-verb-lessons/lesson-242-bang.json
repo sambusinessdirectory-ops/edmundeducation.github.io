@@ -1,0 +1,1727 @@
+{
+  "id": "phrasal-verb-242",
+  "order": 242,
+  "slug": "bang",
+  "version": "1",
+  "title": "BANG 動詞片語",
+  "titleEn": "Bang",
+  "titleZh": "BANG 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 232 - BANG.pdf",
+    "sourceNumber": 232,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BANG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BANG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BANG",
+      "highlight": "BANG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We could hear them banging about upstairs, moving things.",
+      "zh": "我們聽到他們在樓上搬動東西,弄出很大聲響。",
+      "highlight": "banging about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She picked up the hammer and began banging away.",
+      "zh": "她拿起錘子,開始不停敲打。",
+      "highlight": "banging away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She banged away all day at her assignment.",
+      "zh": "她整天都埋頭做功課。",
+      "highlight": "banged away all day at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語；不停地敲打,發出很大聲響；長時間不停做某事;埋頭苦幹；意外撞上某人或某物；沒完沒了地談論某人或某事；用樂器大聲而有力地奏出樂曲；撞傷某人或某身體部位;撞壞某物；用力把某物放下,發出很大聲響",
+    "en": "bang around / bang about; bang away; bang away at something; bang into somebody/something; bang on about somebody/something; bang out something; bang it/them out; bang somebody/something up; bang something down",
+    "naturalZh": [
+      "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+      "不停地敲打,發出很大聲響",
+      "長時間不停做某事;埋頭苦幹",
+      "意外撞上某人或某物",
+      "沒完沒了地談論某人或某事",
+      "用樂器大聲而有力地奏出樂曲",
+      "撞傷某人或某身體部位;撞壞某物",
+      "用力把某物放下,發出很大聲響"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bang around / bang about",
+      "titleZh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+      "titleEn": "bang around / bang about",
+      "descriptionZh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+      "descriptionEn": "We could hear them banging about upstairs, moving things.",
+      "examples": [
+        {
+          "en": "We could hear them banging about upstairs, moving things.",
+          "zh": "我們聽到他們在樓上搬動東西,弄出很大聲響。",
+          "highlight": "banging about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bang away",
+      "titleZh": "不停地敲打,發出很大聲響",
+      "titleEn": "bang away",
+      "descriptionZh": "不停地敲打,發出很大聲響",
+      "descriptionEn": "She picked up the hammer and began banging away.",
+      "examples": [
+        {
+          "en": "She picked up the hammer and began banging away.",
+          "zh": "她拿起錘子,開始不停敲打。",
+          "highlight": "banging away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bang away at something",
+      "titleZh": "長時間不停做某事;埋頭苦幹",
+      "titleEn": "bang away at something",
+      "descriptionZh": "長時間不停做某事;埋頭苦幹",
+      "descriptionEn": "She banged away all day at her assignment.",
+      "examples": [
+        {
+          "en": "She banged away all day at her assignment.",
+          "zh": "她整天都埋頭做功課。",
+          "highlight": "banged away all day at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bang into somebody/something",
+      "titleZh": "意外撞上某人或某物",
+      "titleEn": "bang into somebody/something",
+      "descriptionZh": "意外撞上某人或某物",
+      "descriptionEn": "He turned the corner and banged into an old lady.",
+      "examples": [
+        {
+          "en": "He turned the corner and banged into an old lady.",
+          "zh": "他轉過街角時,撞上了一名老婦人。",
+          "highlight": "banged into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bang on about somebody/something",
+      "titleZh": "沒完沒了地談論某人或某事",
+      "titleEn": "bang on about somebody/something",
+      "descriptionZh": "沒完沒了地談論某人或某事",
+      "descriptionEn": "Pat is always banging on about politics.",
+      "examples": [
+        {
+          "en": "Pat is always banging on about politics.",
+          "zh": "帕特總是沒完沒了地談論政治。",
+          "highlight": "banging on about"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bang out something; bang it/them out",
+      "titleZh": "用樂器大聲而有力地奏出樂曲",
+      "titleEn": "bang out something; bang it/them out",
+      "descriptionZh": "用樂器大聲而有力地奏出樂曲",
+      "descriptionEn": "He banged out the tune on the piano.",
+      "examples": [
+        {
+          "en": "He banged out the tune on the piano.",
+          "zh": "他在鋼琴上大聲奏出那首曲子。",
+          "highlight": "banged out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bang somebody/something up",
+      "titleZh": "撞傷某人或某身體部位;撞壞某物",
+      "titleEn": "bang somebody/something up",
+      "descriptionZh": "撞傷某人或某身體部位;撞壞某物",
+      "descriptionEn": "I banged up my knee when I fell off the bike.",
+      "examples": [
+        {
+          "en": "I banged up my knee when I fell off the bike.",
+          "zh": "我從單車上摔下來時撞傷了膝蓋。",
+          "highlight": "banged up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bang something down",
+      "titleZh": "用力把某物放下,發出很大聲響",
+      "titleEn": "bang something down",
+      "descriptionZh": "用力把某物放下,發出很大聲響",
+      "descriptionEn": "He banged his fist down on the table.",
+      "examples": [
+        {
+          "en": "He banged his fist down on the table.",
+          "zh": "他用拳頭重重地拍了一下桌子。",
+          "highlight": "banged his fist down"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BANG 片語動詞的實際用途",
+    "labelEn": "BANG Phrasal Verbs in Use",
+    "summaryZh": "bang around、bang about 和 bang away 可以描述有人走動、搬東西或不停敲打而發出很大聲響。；bang away at something 可以表示某人長時間努力處理一項工作。；bang on about something 可以表示某人不斷重提同一話題,令人感到厭煩。；bang out 可以描述大聲有力的演奏;bang into、bang up 和 bang down 則可以描述不同形式的碰撞或撞擊。",
+    "summaryEn": "Bang around, bang about and bang away help you describe people moving things or striking objects noisily. Bang away at something shows that a person continues working hard at a task for some time. Bang on about something is useful when a person keeps returning to the same subject and becomes annoying. Bang out describes loud energetic music, while bang into, bang up and bang down describe different kinds of physical impact.",
+    "contextsZh": [
+      "描述嘈吵的走動和重複敲打",
+      "談論長時間埋頭工作",
+      "表示某人過度談論同一話題",
+      "描述有力的音樂、碰撞和受傷"
+    ],
+    "contextsEn": [
+      "Describe noisy movement and repeated hitting",
+      "Talk about working continuously",
+      "Show that someone talks about one subject too much",
+      "Describe forceful music, impacts and injuries"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BANG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BANG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bang around / bang about",
+    "fixedHighlight": "bang around / bang about",
+    "fixedZh": "閱讀整句,選出意思相同的 BANG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BANG expression that gives the same meaning.",
+    "correct": "banging about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；bang away 通常表示不停敲打並發出聲響;bang away at a task 則表示長時間埋頭做某項工作。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them in these expressions, place the word as shown: bang it out bang it up bang it down bang them down Bang away usually describes repeated noisy hitting. Bang away at a task means continuing to work hard at it.",
+    "variableItemsZh": [
+      "bang around / bang about",
+      "bang away",
+      "bang away at something",
+      "bang into somebody/something",
+      "bang on about somebody/something",
+      "bang out something; bang it/them out",
+      "bang somebody/something up",
+      "bang something down"
+    ],
+    "variableItemsEn": [
+      "bang around / bang about",
+      "bang away",
+      "bang away at something",
+      "bang into somebody/something",
+      "bang on about somebody/something",
+      "bang out something; bang it/them out",
+      "bang somebody/something up",
+      "bang something down"
+    ],
+    "forms": [
+      {
+        "formZh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+        "formEn": "bang around / bang about",
+        "exampleZh": "我們聽到他們在樓上搬動東西,弄出很大聲響。",
+        "exampleEn": "We could hear them banging about upstairs, moving things.",
+        "highlight": "banging about"
+      },
+      {
+        "formZh": "不停地敲打,發出很大聲響",
+        "formEn": "bang away",
+        "exampleZh": "她拿起錘子,開始不停敲打。",
+        "exampleEn": "She picked up the hammer and began banging away.",
+        "highlight": "banging away"
+      },
+      {
+        "formZh": "長時間不停做某事;埋頭苦幹",
+        "formEn": "bang away at something",
+        "exampleZh": "她整天都埋頭做功課。",
+        "exampleEn": "She banged away all day at her assignment.",
+        "highlight": "banged away all day at"
+      },
+      {
+        "formZh": "意外撞上某人或某物",
+        "formEn": "bang into somebody/something",
+        "exampleZh": "他轉過街角時,撞上了一名老婦人。",
+        "exampleEn": "He turned the corner and banged into an old lady.",
+        "highlight": "banged into"
+      },
+      {
+        "formZh": "沒完沒了地談論某人或某事",
+        "formEn": "bang on about somebody/something",
+        "exampleZh": "帕特總是沒完沒了地談論政治。",
+        "exampleEn": "Pat is always banging on about politics.",
+        "highlight": "banging on about"
+      },
+      {
+        "formZh": "用樂器大聲而有力地奏出樂曲",
+        "formEn": "bang out something; bang it/them out",
+        "exampleZh": "他在鋼琴上大聲奏出那首曲子。",
+        "exampleEn": "He banged out the tune on the piano.",
+        "highlight": "banged out"
+      },
+      {
+        "formZh": "撞傷某人或某身體部位;撞壞某物",
+        "formEn": "bang somebody/something up",
+        "exampleZh": "我從單車上摔下來時撞傷了膝蓋。",
+        "exampleEn": "I banged up my knee when I fell off the bike.",
+        "highlight": "banged up"
+      },
+      {
+        "formZh": "用力把某物放下,發出很大聲響",
+        "formEn": "bang something down",
+        "exampleZh": "他用拳頭重重地拍了一下桌子。",
+        "exampleEn": "He banged his fist down on the table.",
+        "highlight": "banged his fist down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+      "titleEn": "bang around / bang about",
+      "formula": "bang around / bang about",
+      "highlight": "bang around / bang about",
+      "descriptionZh": "在某處走動或搬動東西,不斷發出很大聲響;bang about 尤其常見於英式英語",
+      "descriptionEn": "We could hear them banging about upstairs, moving things.",
+      "examples": [
+        {
+          "en": "We could hear them banging about upstairs, moving things.",
+          "zh": "我們聽到他們在樓上搬動東西,弄出很大聲響。",
+          "highlight": "banging about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "不停地敲打,發出很大聲響",
+      "titleEn": "bang away",
+      "formula": "bang away",
+      "highlight": "bang away",
+      "descriptionZh": "不停地敲打,發出很大聲響",
+      "descriptionEn": "She picked up the hammer and began banging away.",
+      "examples": [
+        {
+          "en": "She picked up the hammer and began banging away.",
+          "zh": "她拿起錘子,開始不停敲打。",
+          "highlight": "banging away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "長時間不停做某事;埋頭苦幹",
+      "titleEn": "bang away at something",
+      "formula": "bang away at something",
+      "highlight": "bang away at something",
+      "descriptionZh": "長時間不停做某事;埋頭苦幹",
+      "descriptionEn": "She banged away all day at her assignment.",
+      "examples": [
+        {
+          "en": "She banged away all day at her assignment.",
+          "zh": "她整天都埋頭做功課。",
+          "highlight": "banged away all day at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "意外撞上某人或某物",
+      "titleEn": "bang into somebody/something",
+      "formula": "bang into somebody/something",
+      "highlight": "bang into somebody/something",
+      "descriptionZh": "意外撞上某人或某物",
+      "descriptionEn": "He turned the corner and banged into an old lady.",
+      "examples": [
+        {
+          "en": "He turned the corner and banged into an old lady.",
+          "zh": "他轉過街角時,撞上了一名老婦人。",
+          "highlight": "banged into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "沒完沒了地談論某人或某事",
+      "titleEn": "bang on about somebody/something",
+      "formula": "bang on about somebody/something",
+      "highlight": "bang on about somebody/something",
+      "descriptionZh": "沒完沒了地談論某人或某事",
+      "descriptionEn": "Pat is always banging on about politics.",
+      "examples": [
+        {
+          "en": "Pat is always banging on about politics.",
+          "zh": "帕特總是沒完沒了地談論政治。",
+          "highlight": "banging on about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "用樂器大聲而有力地奏出樂曲",
+      "titleEn": "bang out something; bang it/them out",
+      "formula": "bang out something; bang it/them out",
+      "highlight": "bang out something; bang it/them out",
+      "descriptionZh": "用樂器大聲而有力地奏出樂曲",
+      "descriptionEn": "He banged out the tune on the piano.",
+      "examples": [
+        {
+          "en": "He banged out the tune on the piano.",
+          "zh": "他在鋼琴上大聲奏出那首曲子。",
+          "highlight": "banged out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "撞傷某人或某身體部位;撞壞某物",
+      "titleEn": "bang somebody/something up",
+      "formula": "bang somebody/something up",
+      "highlight": "bang somebody/something up",
+      "descriptionZh": "撞傷某人或某身體部位;撞壞某物",
+      "descriptionEn": "I banged up my knee when I fell off the bike.",
+      "examples": [
+        {
+          "en": "I banged up my knee when I fell off the bike.",
+          "zh": "我從單車上摔下來時撞傷了膝蓋。",
+          "highlight": "banged up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "用力把某物放下,發出很大聲響",
+      "titleEn": "bang something down",
+      "formula": "bang something down",
+      "highlight": "bang something down",
+      "descriptionZh": "用力把某物放下,發出很大聲響",
+      "descriptionEn": "He banged his fist down on the table.",
+      "examples": [
+        {
+          "en": "He banged his fist down on the table.",
+          "zh": "他用拳頭重重地拍了一下桌子。",
+          "highlight": "banged his fist down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述嘈吵的走動和重複敲打",
+      "titleEn": "Describe noisy movement and repeated hitting",
+      "zh": "bang around、bang about 和 bang away 可以描述有人走動、搬東西或不停敲打而發出很大聲響。",
+      "en": "Bang around, bang about and bang away help you describe people moving things or striking objects noisily."
+    },
+    {
+      "titleZh": "談論長時間埋頭工作",
+      "titleEn": "Talk about working continuously",
+      "zh": "bang away at something 可以表示某人長時間努力處理一項工作。",
+      "en": "Bang away at something shows that a person continues working hard at a task for some time."
+    },
+    {
+      "titleZh": "表示某人過度談論同一話題",
+      "titleEn": "Show that someone talks about one subject too much",
+      "zh": "bang on about something 可以表示某人不斷重提同一話題,令人感到厭煩。",
+      "en": "Bang on about something is useful when a person keeps returning to the same subject and becomes annoying."
+    },
+    {
+      "titleZh": "描述有力的音樂、碰撞和受傷",
+      "titleEn": "Describe forceful music, impacts and injuries",
+      "zh": "bang out 可以描述大聲有力的演奏;bang into、bang up 和 bang down 則可以描述不同形式的碰撞或撞擊。",
+      "en": "Bang out describes loud energetic music, while bang into, bang up and bang down describe different kinds of physical impact."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述嘈吵的走動和重複敲打",
+      "談論長時間埋頭工作",
+      "表示某人過度談論同一話題",
+      "描述有力的音樂、碰撞和受傷"
+    ],
+    "contextsEn": [
+      "Describe noisy movement and repeated hitting",
+      "Talk about working continuously",
+      "Show that someone talks about one subject too much",
+      "Describe forceful music, impacts and injuries"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述嘈吵的走動和重複敲打",
+        "titleEn": "Describe noisy movement and repeated hitting",
+        "zh": "bang around、bang about 和 bang away 可以描述有人走動、搬東西或不停敲打而發出很大聲響。",
+        "en": "Bang around, bang about and bang away help you describe people moving things or striking objects noisily.",
+        "examples": [
+          {
+            "en": "We could hear them banging about upstairs, moving things.",
+            "zh": "我們聽到他們在樓上搬動東西,弄出很大聲響。",
+            "highlight": "banging about"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論長時間埋頭工作",
+        "titleEn": "Talk about working continuously",
+        "zh": "bang away at something 可以表示某人長時間努力處理一項工作。",
+        "en": "Bang away at something shows that a person continues working hard at a task for some time.",
+        "examples": [
+          {
+            "en": "She picked up the hammer and began banging away.",
+            "zh": "她拿起錘子,開始不停敲打。",
+            "highlight": "banging away"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示某人過度談論同一話題",
+        "titleEn": "Show that someone talks about one subject too much",
+        "zh": "bang on about something 可以表示某人不斷重提同一話題,令人感到厭煩。",
+        "en": "Bang on about something is useful when a person keeps returning to the same subject and becomes annoying.",
+        "examples": [
+          {
+            "en": "She banged away all day at her assignment.",
+            "zh": "她整天都埋頭做功課。",
+            "highlight": "banged away all day at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述有力的音樂、碰撞和受傷",
+        "titleEn": "Describe forceful music, impacts and injuries",
+        "zh": "bang out 可以描述大聲有力的演奏;bang into、bang up 和 bang down 則可以描述不同形式的碰撞或撞擊。",
+        "en": "Bang out describes loud energetic music, while bang into, bang up and bang down describe different kinds of physical impact.",
+        "examples": [
+          {
+            "en": "He turned the corner and banged into an old lady.",
+            "zh": "他轉過街角時,撞上了一名老婦人。",
+            "highlight": "banged into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BANG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BANG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BANG 片語動詞。",
+      "en": "Read the whole sentence and choose the BANG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in these expressions, place the word as shown: bang it out bang it up bang it down bang them down.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in these expressions, place the word as shown: bang it out bang it up bang it down bang them down"
+    },
+    {
+      "titleZh": "bang away 通常表示不停敲打並發出聲響;bang away at a task 則表示長時間埋頭做某項工作。",
+      "titleEn": "Bang away usually describes repeated noisy hitting.",
+      "zh": "bang away 通常表示不停敲打並發出聲響;bang away at a task 則表示長時間埋頭做某項工作。",
+      "en": "Bang away usually describes repeated noisy hitting. Bang away at a task means continuing to work hard at it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BANG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BANG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BANG 動詞片語句子改寫練習",
+    "titleEn": "BANG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BANG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BANG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-242-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Pat talks about politics all the time.",
+      "promptZh": "帕特總是沒完沒了地談論政治。",
+      "starter": "Pat",
+      "answer": "Pat is always banging on about politics.",
+      "answerZh": "帕特總是沒完沒了地談論政治。",
+      "highlight": "is always banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Leo turned the corner too quickly and hit a woman.",
+      "promptZh": "里奧轉彎時走得太快,撞到了一名女士。",
+      "starter": "Leo",
+      "answer": "Leo turned the corner too quickly and banged into a woman.",
+      "answerZh": "里奧轉彎時走得太快,撞到了一名女士。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "We could hear the children moving things noisily upstairs.",
+      "promptZh": "我們聽到孩子們在樓上搬動東西,弄出很大聲響。",
+      "starter": "We",
+      "answer": "We could hear the children banging about upstairs, moving things.",
+      "answerZh": "我們聽到孩子們在樓上搬動東西,弄出很大聲響。",
+      "highlight": "banging about upstairs",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "He hit the table hard with his fist.",
+      "promptZh": "他用拳頭重重地拍了一下桌子。",
+      "starter": "He",
+      "answer": "He banged his fist down on the table.",
+      "answerZh": "他用拳頭重重地拍了一下桌子。",
+      "highlight": "banged his fist down on",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Nora picked up the hammer and began hitting noisily with it.",
+      "promptZh": "諾拉拿起錘子,開始不停地敲打。",
+      "starter": "Nora",
+      "answer": "Nora picked up the hammer and began banging away with it.",
+      "answerZh": "諾拉拿起錘子,開始不停地敲打。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Eli played the tune loudly on the piano.",
+      "promptZh": "伊萊在鋼琴上大聲奏出那首曲子。",
+      "starter": "Eli",
+      "answer": "Eli banged out the tune on the piano.",
+      "answerZh": "伊萊在鋼琴上大聲奏出那首曲子。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Sam worked on his assignment all afternoon without stopping.",
+      "promptZh": "森姆整個下午都在不停做功課。",
+      "starter": "Sam",
+      "answer": "Sam banged away at his assignment all afternoon.",
+      "answerZh": "森姆整個下午都在埋頭做功課。",
+      "highlight": "banged away at",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I hurt my knee when I fell off the bike.",
+      "promptZh": "我從單車上摔下來時撞傷了膝蓋。",
+      "starter": "I",
+      "answer": "I banged up my knee when I fell off the bike.",
+      "answerZh": "我從單車上摔下來時撞傷了膝蓋。",
+      "highlight": "banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "People were moving around noisily in the room next door.",
+      "promptZh": "有人在隔壁房間走來走去,弄出很大聲響。",
+      "starter": "People",
+      "answer": "People were banging around in the room next door.",
+      "answerZh": "有人在隔壁房間走來走去,弄出很大聲響。",
+      "highlight": "banging",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "My uncle talks endlessly about his old car.",
+      "promptZh": "我叔叔沒完沒了地談論他的舊車。",
+      "starter": "My",
+      "answer": "My uncle is always banging on about his old car.",
+      "answerZh": "我叔叔總是沒完沒了地談論他的舊車。",
+      "highlight": "is always banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The trolley hit the wall at the end of the corridor.",
+      "promptZh": "手推車撞上了走廊盡頭的牆。",
+      "starter": "The",
+      "answer": "The trolley banged into the wall at the end of the corridor.",
+      "answerZh": "手推車撞上了走廊盡頭的牆。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The pianist played a cheerful song loudly.",
+      "promptZh": "鋼琴手大聲奏出一首輕快的歌曲。",
+      "starter": "The",
+      "answer": "The pianist banged out a cheerful song.",
+      "answerZh": "鋼琴手大聲奏出一首輕快的歌曲。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The builders kept hitting with their hammers for an hour.",
+      "promptZh": "建築工人用錘子不停敲打了一小時。",
+      "starter": "The",
+      "answer": "The builders banged away with their hammers for an hour.",
+      "answerZh": "建築工人用錘子不停敲打了一小時。",
+      "highlight": "banged away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Jade worked on her history project until dinner.",
+      "promptZh": "傑德一直做歷史專題,做到晚飯時間。",
+      "starter": "Jade",
+      "answer": "Jade banged away at her history project until dinner.",
+      "answerZh": "傑德一直埋頭做歷史專題,做到晚飯時間。",
+      "highlight": "banged away at",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "After two falls, Theo has hurt both elbows.",
+      "promptZh": "跌倒兩次後,西奧的兩邊手肘都撞傷了。",
+      "starter": "After",
+      "answer": "After two falls, Theo has banged up both elbows.",
+      "answerZh": "跌倒兩次後,西奧的兩邊手肘都撞傷了。",
+      "highlight": "banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Rina is still working hard at her science report.",
+      "promptZh": "麗娜仍在努力寫科學報告。",
+      "starter": "Rina",
+      "answer": "Rina is still banging away at her science report.",
+      "answerZh": "麗娜仍在埋頭寫科學報告。",
+      "highlight": "banging away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why are they moving furniture so noisily upstairs?",
+      "promptZh": "他們為甚麼在樓上搬動家具,弄出這麼大聲響?",
+      "starter": "Why",
+      "answer": "Why are they banging about upstairs, moving furniture?",
+      "answerZh": "他們為甚麼在樓上搬動家具,弄出這麼大聲響?",
+      "highlight": "banging about upstairs",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The band is playing an old tune loudly on the piano.",
+      "promptZh": "樂隊正在鋼琴上大聲奏出一首舊曲。",
+      "starter": "The",
+      "answer": "The band is banging out an old tune on the piano.",
+      "answerZh": "樂隊正在鋼琴上大聲奏出一首舊曲。",
+      "highlight": "banging out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He was angry and put the cup down hard on the table.",
+      "promptZh": "他很生氣,把杯子重重地放在桌上。",
+      "starter": "He",
+      "answer": "He was angry and banged the cup down on the table.",
+      "answerZh": "他很生氣,把杯子重重地放在桌上。",
+      "highlight": "banged",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Be careful, or you may hit the glass door.",
+      "promptZh": "小心,否則你可能會撞上玻璃門。",
+      "starter": "Be",
+      "answer": "Be careful, or you may bang into the glass door.",
+      "answerZh": "小心,否則你可能會撞上玻璃門。",
+      "highlight": "bang into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The workers are hitting loudly with their tools outside.",
+      "promptZh": "工人正在外面用工具不停敲打。",
+      "starter": "The",
+      "answer": "The workers are banging away with their tools outside.",
+      "answerZh": "工人正在外面用工具不停敲打。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "For once, Dad is not talking endlessly about football.",
+      "promptZh": "爸爸今次終於沒有沒完沒了地談論足球。",
+      "starter": "For",
+      "answer": "For once, Dad is not banging on about football.",
+      "answerZh": "爸爸今次終於沒有沒完沒了地談論足球。",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "At midnight, someone was moving things noisily in the kitchen.",
+      "promptZh": "午夜時,有人在廚房搬動東西,弄出很大聲響。",
+      "starter": "At",
+      "answer": "At midnight, someone was banging around in the kitchen, moving things.",
+      "answerZh": "午夜時,有人在廚房搬動東西,弄出很大聲響。",
+      "highlight": "banging around",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "How did you hurt your shoulder in that fall?",
+      "promptZh": "你在那次跌倒中是怎樣撞傷肩膊的?",
+      "starter": "How",
+      "answer": "How did you bang up your shoulder in that fall?",
+      "answerZh": "你在那次跌倒中是怎樣撞傷肩膊的?",
+      "highlight": "bang up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I have hit that low shelf twice today.",
+      "promptZh": "我今天已經兩次撞到那個矮架子。",
+      "starter": "I",
+      "answer": "I have banged into that low shelf twice today.",
+      "answerZh": "我今天已經兩次撞到那個矮架子。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "We should keep working at the problem until we solve it.",
+      "promptZh": "我們應該繼續努力處理這個問題,直至把它解決。",
+      "starter": "We",
+      "answer": "We should keep banging away at the problem until we solve it.",
+      "answerZh": "我們應該繼續埋頭處理這個問題,直至把它解決。",
+      "highlight": "banging away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why did Ava put the book down so hard on the desk?",
+      "promptZh": "艾娃為甚麼把書重重地放在書桌上?",
+      "starter": "Why",
+      "answer": "Why did Ava bang the book down on the desk?",
+      "answerZh": "艾娃為甚麼把書重重地放在書桌上?",
+      "highlight": "bang",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They will not keep hitting for much longer.",
+      "promptZh": "他們不會再繼續敲打很久。",
+      "starter": "They",
+      "answer": "They will not keep banging away for much longer.",
+      "answerZh": "他們不會再繼續不停敲打很久。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The report was difficult. Ken continued working at it all morning.",
+      "promptZh": "這份報告很難。肯整個早上都繼續努力處理它。",
+      "starter": "The",
+      "answer": "The report was difficult. Ken banged away at it all morning.",
+      "answerZh": "這份報告很難。肯整個早上都埋頭處理它。",
+      "highlight": "banged away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Lily knew the tune, so she played it loudly on the piano.",
+      "promptZh": "莉莉懂得那首曲子,所以她在鋼琴上大聲奏了出來。",
+      "starter": "Lily",
+      "answer": "Lily knew the tune, so she banged it out on the piano.",
+      "answerZh": "莉莉懂得那首曲子,所以她在鋼琴上大聲奏了出來。",
+      "highlight": "banged",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We were trying to sleep, but our neighbours kept moving things noisily above us.",
+      "promptZh": "我們正嘗試睡覺,但樓上的鄰居不停搬動東西,弄出很大聲響。",
+      "starter": "We",
+      "answer": "We were trying to sleep, but our neighbours kept banging about above us, moving things.",
+      "answerZh": "我們正嘗試睡覺,但樓上的鄰居不停搬動東西,弄出很大聲響。",
+      "highlight": "banging about above us",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "My ankle is sore because I hurt it when I slipped.",
+      "promptZh": "我的腳踝很痛,因為我滑倒時撞傷了它。",
+      "starter": "My",
+      "answer": "My ankle is sore because I banged it up when I slipped.",
+      "answerZh": "我的腳踝很痛,因為我滑倒時撞傷了它。",
+      "highlight": "banged",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I stopped listening because Joel kept talking endlessly about his new phone.",
+      "promptZh": "我不再聽下去,因為祖爾不停談論他的新電話。",
+      "starter": "I",
+      "answer": "I stopped listening because Joel kept banging on about his new phone.",
+      "answerZh": "我不再聽下去,因為祖爾不停沒完沒了地談論他的新電話。",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The tray was heavy. The waiter put it down hard on the counter.",
+      "promptZh": "托盤很重。侍應把它重重地放在櫃枱上。",
+      "starter": "The",
+      "answer": "The tray was heavy. The waiter banged it down on the counter.",
+      "answerZh": "托盤很重。侍應把它重重地放在櫃枱上。",
+      "highlight": "banged",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We heard a hammer outside. Someone was striking repeatedly for nearly an hour.",
+      "promptZh": "我們聽到外面有錘子的聲音。有人不停敲打了接近一小時。",
+      "starter": "We",
+      "answer": "We heard a hammer outside. Someone was banging away for nearly an hour.",
+      "answerZh": "我們聽到外面有錘子的聲音。有人不停敲打了接近一小時。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "As I stepped backwards, I hit her.",
+      "promptZh": "我向後退時撞到了她。",
+      "starter": "As",
+      "answer": "As I stepped backwards, I banged into her.",
+      "answerZh": "我向後退時撞到了她。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Arun sat at the old piano and played a fast tune loudly.",
+      "promptZh": "阿倫坐在舊鋼琴前,大聲奏出一首快節奏的曲子。",
+      "starter": "Arun",
+      "answer": "Arun sat at the old piano and banged out a fast tune.",
+      "answerZh": "阿倫坐在舊鋼琴前,大聲奏出一首快節奏的曲子。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I went upstairs to ask why everyone was moving the boxes so noisily.",
+      "promptZh": "我上樓詢問為甚麼大家搬箱子時弄出這麼大聲響。",
+      "starter": "I",
+      "answer": "I went upstairs to ask why everyone was banging around with the boxes.",
+      "answerZh": "我上樓詢問為甚麼大家搬箱子時弄出這麼大聲響。",
+      "highlight": "banging around with",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "His hand was badly hurt when it struck the edge of the door.",
+      "promptZh": "他的手撞到門邊時嚴重受傷。",
+      "starter": "His",
+      "answer": "His hand was badly banged up when it struck the edge of the door.",
+      "answerZh": "他的手撞到門邊時嚴重受傷。",
+      "highlight": "banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We already know the story, so why is she still talking endlessly about it?",
+      "promptZh": "我們已經知道這個故事,她為甚麼仍然沒完沒了地談論它?",
+      "starter": "We",
+      "answer": "We already know the story, so why is she still banging on about it?",
+      "answerZh": "我們已經知道這個故事,她為甚麼仍然沒完沒了地談論它?",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Although the noise was annoying, the workmen continued striking with their hammers.",
+      "promptZh": "雖然聲音很煩人,工人仍繼續用錘子不停敲打。",
+      "starter": "Although",
+      "answer": "Although the noise was annoying, the workmen continued banging away with their hammers.",
+      "answerZh": "雖然聲音很煩人,工人仍繼續用錘子不停敲打。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Do not put the phone down hard; the screen may break.",
+      "promptZh": "不要把電話重重地放下;螢幕可能會破裂。",
+      "starter": "Do",
+      "answer": "Do not bang the phone down; the screen may break.",
+      "answerZh": "不要把電話重重地放下;螢幕可能會破裂。",
+      "highlight": "bang",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The cyclist came out of a side road and hit the bin.",
+      "promptZh": "單車手從小路駛出來,撞上了垃圾桶。",
+      "starter": "The",
+      "answer": "The cyclist came out of a side road and banged into the bin.",
+      "answerZh": "單車手從小路駛出來,撞上了垃圾桶。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "In anger, he put the heavy file down hard on the desk.",
+      "promptZh": "他一怒之下,把厚厚的文件夾重重地放在桌上。",
+      "starter": "In",
+      "answer": "In anger, he banged the heavy file down on the desk.",
+      "answerZh": "他一怒之下,把厚厚的文件夾重重地放在桌上。",
+      "highlight": "banged",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "We asked one question, but she spent ten minutes talking endlessly about her holiday.",
+      "promptZh": "我們只問了一個問題,但她花了十分鐘沒完沒了地談論自己的假期。",
+      "starter": "We",
+      "answer": "We asked one question, but she banged on about her holiday for ten minutes.",
+      "answerZh": "我們只問了一個問題,但她沒完沒了地談論自己的假期,說了十分鐘。",
+      "highlight": "banged on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "While the others rested, Noor continued working steadily at the difficult puzzle.",
+      "promptZh": "其他人休息時,努爾繼續努力解那道難題。",
+      "starter": "While",
+      "answer": "While the others rested, Noor kept banging away at the difficult puzzle.",
+      "answerZh": "其他人休息時,努爾繼續埋頭解那道難題。",
+      "highlight": "kept banging away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The old suitcase was damaged when it fell down the stairs.",
+      "promptZh": "那個舊行李箱從樓梯掉下來時撞壞了。",
+      "starter": "The",
+      "answer": "The old suitcase got banged up when it fell down the stairs.",
+      "answerZh": "那個舊行李箱從樓梯掉下來時撞壞了。",
+      "highlight": "got banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-242-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Without looking at the music, Ben played the whole tune loudly on the keyboard.",
+      "promptZh": "賓沒有看樂譜,便在電子琴上大聲奏出整首曲子。",
+      "starter": "Without",
+      "answer": "Without looking at the music, Ben banged out the whole tune on the keyboard.",
+      "answerZh": "賓沒有看樂譜,便在電子琴上大聲奏出整首曲子。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The drummer did not stop striking loudly until the song ended.",
+      "promptZh": "鼓手一直大聲敲打,直至歌曲結束才停下來。",
+      "starter": "The",
+      "answer": "The drummer kept banging away until the song ended.",
+      "answerZh": "鼓手一直不停敲打,直至歌曲結束。",
+      "highlight": "kept banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The hotel guests complained that people were moving furniture noisily in the room above.",
+      "promptZh": "酒店住客投訴樓上房間有人搬動家具,弄出很大聲響。",
+      "starter": "The",
+      "answer": "The hotel guests complained that people were banging about in the room above, moving furniture.",
+      "answerZh": "酒店住客投訴樓上房間有人搬動家具,弄出很大聲響。",
+      "highlight": "banging about",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "I was looking at my phone and accidentally walked straight into a lamp post.",
+      "promptZh": "我當時正在看電話,不小心直接撞上了燈柱。",
+      "starter": "I",
+      "answer": "I was looking at my phone and accidentally banged into a lamp post.",
+      "answerZh": "我當時正在看電話,不小心直接撞上了燈柱。",
+      "highlight": "banged",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The child put the wooden toy down hard on the floor.",
+      "promptZh": "孩子把木製玩具重重地放在地上。",
+      "starter": "The",
+      "answer": "The child banged the wooden toy down on the floor.",
+      "answerZh": "孩子把木製玩具重重地放在地上。",
+      "highlight": "banged",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Every lunch break, Dan starts talking again about how much he dislikes the new timetable.",
+      "promptZh": "每逢午飯時間,丹又會開始沒完沒了地談論自己有多討厭新時間表。",
+      "starter": "Every",
+      "answer": "Every lunch break, Dan starts banging on about how much he dislikes the new timetable.",
+      "answerZh": "每逢午飯時間,丹又會開始沒完沒了地談論自己有多討厭新時間表。",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The team had one hour left, so everyone worked continuously at the final part of the model.",
+      "promptZh": "團隊只剩一小時,所以大家不停處理模型的最後部分。",
+      "starter": "The",
+      "answer": "The team had one hour left, so everyone banged away at the final part of the model.",
+      "answerZh": "團隊只剩一小時,所以大家埋頭處理模型的最後部分。",
+      "highlight": "banged away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "She hit both knees against the rocks, leaving them sore and covered in marks.",
+      "promptZh": "她的兩邊膝蓋撞到石頭,痛得厲害,而且留下了瘀痕。",
+      "starter": "She",
+      "answer": "She banged up both knees against the rocks, leaving them sore and covered in marks.",
+      "answerZh": "她的兩邊膝蓋撞到石頭,痛得厲害,而且留下了瘀痕。",
+      "highlight": "banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The music teacher played the first few notes loudly to get everyone’s attention.",
+      "promptZh": "音樂老師大聲奏出最初幾個音符,以吸引大家注意。",
+      "starter": "The",
+      "answer": "The music teacher banged out the first few notes to get everyone’s attention.",
+      "answerZh": "音樂老師大聲奏出最初幾個音符,以吸引大家注意。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "We could not concentrate because the people next door kept moving chairs and boxes noisily.",
+      "promptZh": "隔壁的人不停搬動椅子和箱子,弄出很大聲響,令我們無法集中精神。",
+      "starter": "We",
+      "answer": "We could not concentrate because the people next door kept banging around, moving chairs and boxes.",
+      "answerZh": "隔壁的人不停搬動椅子和箱子,弄出很大聲響,令我們無法集中精神。",
+      "highlight": "banging around",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The room fell silent, and then the pianist suddenly played the opening tune loudly and confidently.",
+      "promptZh": "房間安靜下來,接着鋼琴手突然自信地大聲奏出開場曲。",
+      "starter": "The",
+      "answer": "The room fell silent, and then the pianist suddenly banged out the opening tune with confidence.",
+      "answerZh": "房間安靜下來,接着鋼琴手突然自信地大聲奏出開場曲。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Even after the library closed, Tessa continued working at her essay until the final paragraph was finished.",
+      "promptZh": "即使圖書館關門後,泰莎仍繼續寫文章,直至完成最後一段。",
+      "starter": "Even",
+      "answer": "Even after the library closed, Tessa kept banging away at her essay until the final paragraph was finished.",
+      "answerZh": "即使圖書館關門後,泰莎仍埋頭寫文章,直至完成最後一段。",
+      "highlight": "kept banging away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Whenever the family meets, Uncle Raj spends most of dinner talking endlessly about local politics.",
+      "promptZh": "每逢家人聚會,拉傑叔叔大部分晚飯時間都在沒完沒了地談論本地政治。",
+      "starter": "Whenever",
+      "answer": "Whenever the family meets, Uncle Raj spends most of dinner banging on about local politics.",
+      "answerZh": "每逢家人聚會,拉傑叔叔大部分晚飯時間都在沒完沒了地談論本地政治。",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Everyone jumped when the manager put the thick report down hard in the middle of the table.",
+      "promptZh": "經理把厚厚的報告重重地放在桌子中央時,大家都嚇了一跳。",
+      "starter": "Everyone",
+      "answer": "Everyone jumped when the manager banged the thick report down in the middle of the table.",
+      "answerZh": "經理把厚厚的報告重重地放在桌子中央時,大家都嚇了一跳。",
+      "highlight": "banged",
+      "targetForm": "bang something down",
+      "targetMeaningZh": "用力把某物放下,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As the two runners came round opposite sides of the building, they hit each other before either could stop.",
+      "promptZh": "兩名跑手從大樓相反兩邊轉過來時,在任何一方停下前便撞在一起。",
+      "starter": "As",
+      "answer": "As the two runners came round opposite sides of the building, they banged into each other before either could stop.",
+      "answerZh": "兩名跑手從大樓相反兩邊轉過來時,在任何一方停下前便撞在一起。",
+      "highlight": "banged into",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The repair work had started early, and the workers continued striking noisily long after lunch.",
+      "promptZh": "維修工程一早開始,工人午飯後很久仍繼續不停敲打。",
+      "starter": "The",
+      "answer": "The repair work had started early, and the workers kept banging away long after lunch.",
+      "answerZh": "維修工程一早開始,工人午飯後很久仍繼續不停敲打。",
+      "highlight": "kept banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After falling on the rough path, Lena had hurt one knee and both hands.",
+      "promptZh": "莉娜在崎嶇小路上跌倒後,撞傷了一邊膝蓋和雙手。",
+      "starter": "After",
+      "answer": "After falling on the rough path, Lena had banged up one knee and both hands.",
+      "answerZh": "莉娜在崎嶇小路上跌倒後,撞傷了一邊膝蓋和雙手。",
+      "highlight": "banged up",
+      "targetForm": "bang somebody/something up",
+      "targetMeaningZh": "撞傷某人或某身體部位"
+    },
+    {
+      "id": "phrasal-verb-242-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The guest was meant to discuss the new film, but he kept talking about how bad his last job had been.",
+      "promptZh": "嘉賓本應討論新電影,但他不斷談論上一份工作有多差。",
+      "starter": "The",
+      "answer": "The guest was meant to discuss the new film, but he kept banging on about how bad his last job had been.",
+      "answerZh": "嘉賓本應討論新電影,但他不斷沒完沒了地談論上一份工作有多差。",
+      "highlight": "banging on",
+      "targetForm": "bang on about somebody/something",
+      "targetMeaningZh": "沒完沒了地談論某人或某事"
+    },
+    {
+      "id": "phrasal-verb-242-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "At two in the morning, the family downstairs were still walking around and moving heavy objects noisily.",
+      "promptZh": "凌晨兩時,樓下的一家人仍在走來走去和搬動重物,弄出很大聲響。",
+      "starter": "At",
+      "answer": "At two in the morning, the family downstairs were still banging about and moving heavy objects.",
+      "answerZh": "凌晨兩時,樓下的一家人仍在走來走去和搬動重物,弄出很大聲響。",
+      "highlight": "banging about",
+      "targetForm": "bang around / bang about",
+      "targetMeaningZh": "走動或搬動東西時不斷發出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-242-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The lights went out, and I walked straight into the open cupboard door.",
+      "promptZh": "燈熄滅了,我直接撞上了打開的櫃門。",
+      "starter": "The",
+      "answer": "The lights went out, and I banged into the open cupboard door.",
+      "answerZh": "燈熄滅了,我直接撞上了打開的櫃門。",
+      "highlight": "banged",
+      "targetForm": "bang into somebody/something",
+      "targetMeaningZh": "意外撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-242-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The group knew the model was difficult, but they continued working at it until every piece fitted.",
+      "promptZh": "小組知道模型很難製作,但他們繼續處理,直至每一件零件都能裝上。",
+      "starter": "The",
+      "answer": "The group knew the model was difficult, but they banged away at it until every piece fitted.",
+      "answerZh": "小組知道模型很難製作,但他們仍埋頭處理,直至每一件零件都能裝上。",
+      "highlight": "banged away",
+      "targetForm": "bang away at something",
+      "targetMeaningZh": "長時間不停做某事"
+    },
+    {
+      "id": "phrasal-verb-242-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Without any music in front of her, the child loudly played the song she had learnt by heart.",
+      "promptZh": "孩子面前沒有樂譜,卻大聲奏出她已背熟的歌曲。",
+      "starter": "Without",
+      "answer": "Without any music in front of her, the child banged out the song she had learnt by heart.",
+      "answerZh": "孩子面前沒有樂譜,卻大聲奏出她已背熟的歌曲。",
+      "highlight": "banged out",
+      "targetForm": "bang out something",
+      "targetMeaningZh": "用樂器大聲而有力地奏出樂曲"
+    },
+    {
+      "id": "phrasal-verb-242-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the hammering had annoyed everyone, the builder continued striking until the loose board was fixed.",
+      "promptZh": "雖然敲打聲令所有人感到煩厭,建築工人仍繼續敲打,直至把鬆脫的木板修好。",
+      "starter": "Although",
+      "answer": "Although the hammering had annoyed everyone, the builder continued banging away until the loose board was fixed.",
+      "answerZh": "雖然敲打聲令所有人感到煩厭,建築工人仍繼續不停敲打,直至把鬆脫的木板修好。",
+      "highlight": "banging away",
+      "targetForm": "bang away",
+      "targetMeaningZh": "不停地敲打,發出很大聲響"
+    }
+  ]
+}

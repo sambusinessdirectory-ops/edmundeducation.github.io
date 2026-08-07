@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-268",
+  "order": 268,
+  "slug": "pour",
+  "version": "1",
+  "title": "POUR 動詞片語",
+  "titleEn": "Pour",
+  "titleZh": "POUR 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 253 - POUR.pdf",
+    "sourceNumber": 253,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 POUR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to POUR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "POUR",
+      "highlight": "POUR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Bright light poured forth from the cave.",
+      "zh": "明亮的光從洞穴中湧出。",
+      "highlight": "poured",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Calls poured in all morning.",
+      "zh": "整個早上都有大量電話接連打來。",
+      "highlight": "poured in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He poured the unwanted drink away.",
+      "zh": "他把沒有人想喝的飲品倒掉了。",
+      "highlight": "poured the unwanted drink away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "大量或接連地湧出;不斷發出某物；大量湧入;接連到來；把不再需要的液體倒掉；把液體從食物或容器中倒走,留下其餘部分；流出;湧出;把某物從容器中倒出",
+    "en": "pour forth / pour forth something; pour in / pour into something; pour something away; pour something off / pour off something; pour out / pour something out / pour out of something / pour something out of something",
+    "naturalZh": [
+      "大量或接連地湧出;不斷發出某物",
+      "大量湧入;接連到來",
+      "把不再需要的液體倒掉",
+      "把液體從食物或容器中倒走,留下其餘部分",
+      "流出;湧出;把某物從容器中倒出"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pour forth / pour forth something",
+      "titleZh": "大量或接連地湧出;不斷發出某物",
+      "titleEn": "pour forth / pour forth something",
+      "descriptionZh": "大量或接連地湧出;不斷發出某物",
+      "descriptionEn": "Bright light poured forth from the cave.",
+      "examples": [
+        {
+          "en": "Bright light poured forth from the cave.",
+          "zh": "明亮的光從洞穴中湧出。",
+          "highlight": "poured"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pour in / pour into something",
+      "titleZh": "大量湧入;接連到來",
+      "titleEn": "pour in / pour into something",
+      "descriptionZh": "大量湧入;接連到來",
+      "descriptionEn": "Calls poured in all morning.",
+      "examples": [
+        {
+          "en": "Calls poured in all morning.",
+          "zh": "整個早上都有大量電話接連打來。",
+          "highlight": "poured in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pour something away",
+      "titleZh": "把不再需要的液體倒掉",
+      "titleEn": "pour something away",
+      "descriptionZh": "把不再需要的液體倒掉",
+      "descriptionEn": "He poured the unwanted drink away.",
+      "examples": [
+        {
+          "en": "He poured the unwanted drink away.",
+          "zh": "他把沒有人想喝的飲品倒掉了。",
+          "highlight": "poured the unwanted drink away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pour something off / pour off something",
+      "titleZh": "把液體從食物或容器中倒走,留下其餘部分",
+      "titleEn": "pour something off / pour off something",
+      "descriptionZh": "把液體從食物或容器中倒走,留下其餘部分",
+      "descriptionEn": "Pour off the water before serving the beans.",
+      "examples": [
+        {
+          "en": "Pour off the water before serving the beans.",
+          "zh": "端上豆類前,把水倒走。",
+          "highlight": "Pour off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pour out / pour something out / pour out of something / pour something out of something",
+      "titleZh": "流出;湧出;把某物從容器中倒出",
+      "titleEn": "pour out / pour something out / pour out of something / pour something out of something",
+      "descriptionZh": "流出;湧出;把某物從容器中倒出",
+      "descriptionEn": "She poured the tea out of the pot.",
+      "examples": [
+        {
+          "en": "She poured the tea out of the pot.",
+          "zh": "她把茶從茶壺倒出來。",
+          "highlight": "poured the tea out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "POUR 片語動詞的實際用途",
+    "labelEn": "POUR Phrasal Verbs in Use",
+    "summaryZh": "pour in 和 pour into 可用來描述投訴、訊息、訂單、訪客和人群大量湧入。；pour forth 和 pour out 可表示某物持續或強烈地湧出。；pour away 表示把液體倒掉;pour off 則表示倒走液體,但保留食物或其他內容物。；pour out 和 pour something out of something 可用來談論瓶子、鍋、水箱、水桶和其他容器。",
+    "summaryEn": "Pour in and pour into help you describe complaints, messages, orders, visitors and crowds arriving in large numbers. Pour forth and pour out can show that something is coming continuously or in a strong stream. Pour away shows that a liquid is discarded. Pour off shows that the liquid is removed while the food or other contents remain. Pour out and pour something out of something are useful when talking about bottles, pots, tanks, buckets and other containers.",
+    "contextsZh": [
+      "描述大量事物或人群接連到來",
+      "生動描述液體、煙、光和聲音",
+      "準確說明液體如何被處理",
+      "自然表達從容器倒出東西"
+    ],
+    "contextsEn": [
+      "Describe large numbers arriving or moving together",
+      "Describe liquids, smoke, light and sound vividly",
+      "Explain exactly what happens to a liquid",
+      "Talk naturally about emptying containers"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 POUR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the POUR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pour forth / pour forth something",
+    "fixedHighlight": "pour forth / pour forth something",
+    "fixedZh": "閱讀整句,選出意思相同的 POUR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the POUR expression that gives the same meaning.",
+    "correct": "poured",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、方向和意思。；使用 it 或 them 時,請按照以上例子排列字詞。；仔細留意移動方向和目的:pour in 和 pour into 表示湧入;pour forth 和 pour out 表示湧出;pour away 表示把液體倒掉;pouroff 表示把液體倒走,但留下其餘的東西。",
+    "variableEn": "Keep the same people, things, time, direction and meaning. With it or them, use the order shown below: pour it away pour it off pour it out pour it out of the bottle Read the direction and purpose carefully: Complaints pour in. People pour into a hall. Smoke pours out of an engine. Pour old milk away. Pour the water off cooked rice.",
+    "variableItemsZh": [
+      "pour forth / pour forth something",
+      "pour in / pour into something",
+      "pour something away",
+      "pour something off / pour off something",
+      "pour out / pour something out / pour out of something / pour something out of something"
+    ],
+    "variableItemsEn": [
+      "pour forth / pour forth something",
+      "pour in / pour into something",
+      "pour something away",
+      "pour something off / pour off something",
+      "pour out / pour something out / pour out of something / pour something out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "大量或接連地湧出;不斷發出某物",
+        "formEn": "pour forth / pour forth something",
+        "exampleZh": "明亮的光從洞穴中湧出。",
+        "exampleEn": "Bright light poured forth from the cave.",
+        "highlight": "poured"
+      },
+      {
+        "formZh": "大量湧入;接連到來",
+        "formEn": "pour in / pour into something",
+        "exampleZh": "整個早上都有大量電話接連打來。",
+        "exampleEn": "Calls poured in all morning.",
+        "highlight": "poured in"
+      },
+      {
+        "formZh": "把不再需要的液體倒掉",
+        "formEn": "pour something away",
+        "exampleZh": "他把沒有人想喝的飲品倒掉了。",
+        "exampleEn": "He poured the unwanted drink away.",
+        "highlight": "poured the unwanted drink away"
+      },
+      {
+        "formZh": "把液體從食物或容器中倒走,留下其餘部分",
+        "formEn": "pour something off / pour off something",
+        "exampleZh": "端上豆類前,把水倒走。",
+        "exampleEn": "Pour off the water before serving the beans.",
+        "highlight": "Pour off"
+      },
+      {
+        "formZh": "流出;湧出;把某物從容器中倒出",
+        "formEn": "pour out / pour something out / pour out of something / pour something out of something",
+        "exampleZh": "她把茶從茶壺倒出來。",
+        "exampleEn": "She poured the tea out of the pot.",
+        "highlight": "poured the tea out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "大量或接連地湧出;不斷發出某物",
+      "titleEn": "pour forth / pour forth something",
+      "formula": "pour forth / pour forth something",
+      "highlight": "pour forth / pour forth something",
+      "descriptionZh": "大量或接連地湧出;不斷發出某物",
+      "descriptionEn": "Bright light poured forth from the cave.",
+      "examples": [
+        {
+          "en": "Bright light poured forth from the cave.",
+          "zh": "明亮的光從洞穴中湧出。",
+          "highlight": "poured"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "大量湧入;接連到來",
+      "titleEn": "pour in / pour into something",
+      "formula": "pour in / pour into something",
+      "highlight": "pour in / pour into something",
+      "descriptionZh": "大量湧入;接連到來",
+      "descriptionEn": "Calls poured in all morning.",
+      "examples": [
+        {
+          "en": "Calls poured in all morning.",
+          "zh": "整個早上都有大量電話接連打來。",
+          "highlight": "poured in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把不再需要的液體倒掉",
+      "titleEn": "pour something away",
+      "formula": "pour something away",
+      "highlight": "pour something away",
+      "descriptionZh": "把不再需要的液體倒掉",
+      "descriptionEn": "He poured the unwanted drink away.",
+      "examples": [
+        {
+          "en": "He poured the unwanted drink away.",
+          "zh": "他把沒有人想喝的飲品倒掉了。",
+          "highlight": "poured the unwanted drink away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把液體從食物或容器中倒走,留下其餘部分",
+      "titleEn": "pour something off / pour off something",
+      "formula": "pour something off / pour off something",
+      "highlight": "pour something off / pour off something",
+      "descriptionZh": "把液體從食物或容器中倒走,留下其餘部分",
+      "descriptionEn": "Pour off the water before serving the beans.",
+      "examples": [
+        {
+          "en": "Pour off the water before serving the beans.",
+          "zh": "端上豆類前,把水倒走。",
+          "highlight": "Pour off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "流出;湧出;把某物從容器中倒出",
+      "titleEn": "pour out / pour something out / pour out of something / pour something out of something",
+      "formula": "pour out / pour something out / pour out of something / pour something out of something",
+      "highlight": "pour out / pour something out / pour out of something / pour something out of something",
+      "descriptionZh": "流出;湧出;把某物從容器中倒出",
+      "descriptionEn": "She poured the tea out of the pot.",
+      "examples": [
+        {
+          "en": "She poured the tea out of the pot.",
+          "zh": "她把茶從茶壺倒出來。",
+          "highlight": "poured the tea out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述大量事物或人群接連到來",
+      "titleEn": "Describe large numbers arriving or moving together",
+      "zh": "pour in 和 pour into 可用來描述投訴、訊息、訂單、訪客和人群大量湧入。",
+      "en": "Pour in and pour into help you describe complaints, messages, orders, visitors and crowds arriving in large numbers."
+    },
+    {
+      "titleZh": "生動描述液體、煙、光和聲音",
+      "titleEn": "Describe liquids, smoke, light and sound vividly",
+      "zh": "pour forth 和 pour out 可表示某物持續或強烈地湧出。",
+      "en": "Pour forth and pour out can show that something is coming continuously or in a strong stream."
+    },
+    {
+      "titleZh": "準確說明液體如何被處理",
+      "titleEn": "Explain exactly what happens to a liquid",
+      "zh": "pour away 表示把液體倒掉;pour off 則表示倒走液體,但保留食物或其他內容物。",
+      "en": "Pour away shows that a liquid is discarded. Pour off shows that the liquid is removed while the food or other contents remain."
+    },
+    {
+      "titleZh": "自然表達從容器倒出東西",
+      "titleEn": "Talk naturally about emptying containers",
+      "zh": "pour out 和 pour something out of something 可用來談論瓶子、鍋、水箱、水桶和其他容器。",
+      "en": "Pour out and pour something out of something are useful when talking about bottles, pots, tanks, buckets and other containers."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述大量事物或人群接連到來",
+      "生動描述液體、煙、光和聲音",
+      "準確說明液體如何被處理",
+      "自然表達從容器倒出東西"
+    ],
+    "contextsEn": [
+      "Describe large numbers arriving or moving together",
+      "Describe liquids, smoke, light and sound vividly",
+      "Explain exactly what happens to a liquid",
+      "Talk naturally about emptying containers"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述大量事物或人群接連到來",
+        "titleEn": "Describe large numbers arriving or moving together",
+        "zh": "pour in 和 pour into 可用來描述投訴、訊息、訂單、訪客和人群大量湧入。",
+        "en": "Pour in and pour into help you describe complaints, messages, orders, visitors and crowds arriving in large numbers.",
+        "examples": [
+          {
+            "en": "Bright light poured forth from the cave.",
+            "zh": "明亮的光從洞穴中湧出。",
+            "highlight": "poured"
+          }
+        ]
+      },
+      {
+        "titleZh": "生動描述液體、煙、光和聲音",
+        "titleEn": "Describe liquids, smoke, light and sound vividly",
+        "zh": "pour forth 和 pour out 可表示某物持續或強烈地湧出。",
+        "en": "Pour forth and pour out can show that something is coming continuously or in a strong stream.",
+        "examples": [
+          {
+            "en": "Calls poured in all morning.",
+            "zh": "整個早上都有大量電話接連打來。",
+            "highlight": "poured in"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確說明液體如何被處理",
+        "titleEn": "Explain exactly what happens to a liquid",
+        "zh": "pour away 表示把液體倒掉;pour off 則表示倒走液體,但保留食物或其他內容物。",
+        "en": "Pour away shows that a liquid is discarded. Pour off shows that the liquid is removed while the food or other contents remain.",
+        "examples": [
+          {
+            "en": "He poured the unwanted drink away.",
+            "zh": "他把沒有人想喝的飲品倒掉了。",
+            "highlight": "poured the unwanted drink away"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然表達從容器倒出東西",
+        "titleEn": "Talk naturally about emptying containers",
+        "zh": "pour out 和 pour something out of something 可用來談論瓶子、鍋、水箱、水桶和其他容器。",
+        "en": "Pour out and pour something out of something are useful when talking about bottles, pots, tanks, buckets and other containers.",
+        "examples": [
+          {
+            "en": "Pour off the water before serving the beans.",
+            "zh": "端上豆類前,把水倒走。",
+            "highlight": "Pour off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 POUR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the POUR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 POUR 片語動詞。",
+      "en": "Read the whole sentence and choose the POUR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、方向和意思。",
+      "titleEn": "Keep the same people, things, time, direction and meaning.",
+      "zh": "保留原句中的人物、事物、時間、方向和意思。",
+      "en": "Keep the same people, things, time, direction and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子排列字詞。",
+      "titleEn": "With it or them, use the order shown below: pour it away pour it off pour it out pour it out of the bottle.",
+      "zh": "使用 it 或 them 時,請按照以上例子排列字詞。",
+      "en": "With it or them, use the order shown below: pour it away pour it off pour it out pour it out of the bottle"
+    },
+    {
+      "titleZh": "仔細留意移動方向和目的:pour in 和 pour into 表示湧入;pour forth 和 pour out 表示湧出;pour away 表示把液體倒掉;pouroff 表示把液體倒走,但留下其餘的東西。",
+      "titleEn": "Read the direction and purpose carefully: Complaints pour in.",
+      "zh": "仔細留意移動方向和目的:pour in 和 pour into 表示湧入;pour forth 和 pour out 表示湧出;pour away 表示把液體倒掉;pouroff 表示把液體倒走,但留下其餘的東西。",
+      "en": "Read the direction and purpose carefully: Complaints pour in. People pour into a hall. Smoke pours out of an engine. Pour old milk away. Pour the water off cooked rice."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 POUR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to POUR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "POUR 動詞片語句子改寫練習",
+    "titleEn": "POUR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 POUR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to POUR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-268-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Many complaints arrived after last night’s television programme.",
+      "promptZh": "昨晚的電視節目播出後,收到大量投訴。",
+      "starter": "Many",
+      "answer": "Many complaints poured in after last night’s television programme.",
+      "answerZh": "昨晚的電視節目播出後,大量投訴接連湧入。",
+      "highlight": "poured in",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "When the fish is cooked, carefully remove the water while leaving the fish in the pan.",
+      "promptZh": "魚煮熟後,小心把水倒走,並把魚留在鍋中。",
+      "starter": "When",
+      "answer": "When the fish is cooked, carefully pour off the water while leaving the fish in the pan.",
+      "answerZh": "魚煮熟後,小心把水倒走,並把魚留在鍋中。",
+      "highlight": "pour off",
+      "targetForm": "pour off something",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The doors opened, and a large crowd left the hall in a continuous stream.",
+      "promptZh": "大門打開後,一大群人接連離開大堂。",
+      "starter": "The",
+      "answer": "The doors opened, and a large crowd poured forth from the hall in a continuous stream.",
+      "answerZh": "大門打開後,一大群人接連從大堂湧出。",
+      "highlight": "poured forth from",
+      "targetForm": "pour forth",
+      "targetMeaningZh": "大量或接連地湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The milk was old, so Ava discarded it.",
+      "promptZh": "牛奶已經變壞,所以艾娃把它倒掉了。",
+      "starter": "The",
+      "answer": "The milk was old, so Ava poured it away.",
+      "answerZh": "牛奶已經變壞,所以艾娃把它倒掉了。",
+      "highlight": "poured",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Black smoke flowed out of the engine.",
+      "promptZh": "黑煙從引擎流出。",
+      "starter": "Black",
+      "answer": "Black smoke poured out of the engine.",
+      "answerZh": "黑煙從引擎湧出。",
+      "highlight": "poured",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Hundreds of fans entered the stadium at the same time.",
+      "promptZh": "數百名球迷同時進入運動場。",
+      "starter": "Hundreds",
+      "answer": "Hundreds of fans poured into the stadium at the same time.",
+      "answerZh": "數百名球迷同時湧入運動場。",
+      "highlight": "poured into",
+      "targetForm": "pour into something",
+      "targetMeaningZh": "大量湧入某處"
+    },
+    {
+      "id": "phrasal-verb-268-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The speakers produced loud music without stopping.",
+      "promptZh": "揚聲器不斷播放響亮的音樂。",
+      "starter": "The",
+      "answer": "The speakers poured forth loud music without stopping.",
+      "answerZh": "揚聲器不斷播放出響亮的音樂。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "After the rice is cooked, remove the extra water while leaving the rice in the pot.",
+      "promptZh": "飯煮熟後,把多餘的水倒走,並把飯留在鍋中。",
+      "starter": "After",
+      "answer": "After the rice is cooked, pour off the extra water while leaving the rice in the pot.",
+      "answerZh": "飯煮熟後,把多餘的水倒走,並把飯留在鍋中。",
+      "highlight": "pour off",
+      "targetForm": "pour off something",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "This tea is cold and nobody wants it, so discard it.",
+      "promptZh": "這些茶已經冷了,沒有人想喝,所以把它倒掉。",
+      "starter": "This",
+      "answer": "This tea is cold and nobody wants it, so pour it away.",
+      "answerZh": "這些茶已經冷了,沒有人想喝,所以把它倒掉。",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Water began to flow out when the pipe broke.",
+      "promptZh": "水管破裂後,水開始流出。",
+      "starter": "Water",
+      "answer": "Water began to pour out when the pipe broke.",
+      "answerZh": "水管破裂後,水開始湧出。",
+      "highlight": "pour",
+      "targetForm": "pour out",
+      "targetMeaningZh": "大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Messages arrived in large numbers after the singer posted the photo.",
+      "promptZh": "歌手發佈照片後,大量訊息接連傳來。",
+      "starter": "Messages",
+      "answer": "Messages poured in after the singer posted the photo.",
+      "answerZh": "歌手發佈照片後,大量訊息接連湧入。",
+      "highlight": "poured",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The fountain sent out water in a strong, steady stream.",
+      "promptZh": "噴泉持續噴出強勁而穩定的水流。",
+      "starter": "The",
+      "answer": "The fountain poured forth water in a strong, steady stream.",
+      "answerZh": "噴泉持續湧出強勁而穩定的水流。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nora has discarded the old juice because nobody wants it.",
+      "promptZh": "諾拉已把舊果汁倒掉,因為沒有人想喝。",
+      "starter": "Nora",
+      "answer": "Nora has poured the old juice away because nobody wants it.",
+      "answerZh": "諾拉已把舊果汁倒掉,因為沒有人想喝。",
+      "highlight": "poured",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Orders are arriving in large numbers today.",
+      "promptZh": "今天有大量訂單接連到來。",
+      "starter": "Orders",
+      "answer": "Orders are pouring in today.",
+      "answerZh": "今天有大量訂單接連湧入。",
+      "highlight": "pouring",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "After boiling the potatoes, you should remove the water while leaving the potatoes in the pan.",
+      "promptZh": "薯仔煮熟後,你應該把水倒走,並把薯仔留在鍋中。",
+      "starter": "After",
+      "answer": "After boiling the potatoes, you should pour the water off while leaving the potatoes in the pan.",
+      "answerZh": "薯仔煮熟後,你應該把水倒走,並把薯仔留在鍋中。",
+      "highlight": "pour",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Steam was flowing out of the kettle.",
+      "promptZh": "蒸氣正從水煲湧出。",
+      "starter": "Steam",
+      "answer": "Steam was pouring out of the kettle.",
+      "answerZh": "蒸氣正從水煲湧出。",
+      "highlight": "pouring",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The crowd was producing loud cheers without stopping.",
+      "promptZh": "群眾不斷發出響亮的歡呼聲。",
+      "starter": "The",
+      "answer": "The crowd was pouring forth loud cheers without stopping.",
+      "answerZh": "群眾不斷發出響亮的歡呼聲。",
+      "highlight": "pouring forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Do not keep the old water; discard it.",
+      "promptZh": "不要留下那些舊水;把它倒掉。",
+      "starter": "Do",
+      "answer": "Do not keep the old water; pour it away.",
+      "answerZh": "不要留下那些舊水;把它倒掉。",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can you carefully remove the extra oil while leaving the food in the pan?",
+      "promptZh": "你可以小心把多餘的油倒走,並把食物留在鍋中嗎?",
+      "starter": "Can",
+      "answer": "Can you carefully pour the extra oil off while leaving the food in the pan?",
+      "answerZh": "你可以小心把多餘的油倒走,並把食物留在鍋中嗎?",
+      "highlight": "pour",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Visitors are entering the museum in large numbers.",
+      "promptZh": "大批參觀者正進入博物館。",
+      "starter": "Visitors",
+      "answer": "Visitors are pouring into the museum.",
+      "answerZh": "大批參觀者正湧入博物館。",
+      "highlight": "pouring into",
+      "targetForm": "pour into something",
+      "targetMeaningZh": "大量湧入某處"
+    },
+    {
+      "id": "phrasal-verb-268-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Milk was flowing from the carton after it fell onto its side.",
+      "promptZh": "紙盒側倒後,牛奶正從中流出。",
+      "starter": "Milk",
+      "answer": "Milk was pouring out of the carton after it fell onto its side.",
+      "answerZh": "紙盒側倒後,牛奶正從中湧出。",
+      "highlight": "pouring out of",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Should we discard this cold coffee?",
+      "promptZh": "我們應該把這杯冷咖啡倒掉嗎?",
+      "starter": "Should",
+      "answer": "Should we pour this cold coffee away?",
+      "answerZh": "我們應該把這杯冷咖啡倒掉嗎?",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The cook has removed the water while leaving the noodles in the pot.",
+      "promptZh": "廚師已把水倒走,並把麵留在鍋中。",
+      "starter": "The",
+      "answer": "The cook has poured the water off while leaving the noodles in the pot.",
+      "answerZh": "廚師已把水倒走,並把麵留在鍋中。",
+      "highlight": "poured",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The lamps produce a steady warm light every evening.",
+      "promptZh": "這些燈每天晚上都發出穩定的暖光。",
+      "starter": "The",
+      "answer": "The lamps pour forth a steady warm light every evening.",
+      "answerZh": "這些燈每天晚上都持續發出穩定的暖光。",
+      "highlight": "pour forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The jug was too full, so Eva emptied some of its water into a cup.",
+      "promptZh": "水壺太滿,所以伊娃把其中一些水倒進杯中。",
+      "starter": "The",
+      "answer": "The jug was too full, so Eva poured some water out of it into a cup.",
+      "answerZh": "水壺太滿,所以伊娃從中倒出一些水到杯中。",
+      "highlight": "poured",
+      "targetForm": "pour something out of something",
+      "targetMeaningZh": "把某物從容器中倒出"
+    },
+    {
+      "id": "phrasal-verb-268-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Laughter came from the room in one long, lively stream.",
+      "promptZh": "房間內接連傳出爽朗的笑聲。",
+      "starter": "Laughter",
+      "answer": "Laughter poured forth from the room in one long, lively stream.",
+      "answerZh": "房間內接連湧出爽朗的笑聲。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth",
+      "targetMeaningZh": "大量或接連地湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The milk smelled bad, so Ben discarded it.",
+      "promptZh": "牛奶聞起來已經變壞,所以賓把它倒掉了。",
+      "starter": "The",
+      "answer": "The milk smelled bad, so Ben poured it away.",
+      "answerZh": "牛奶聞起來已經變壞,所以賓把它倒掉了。",
+      "highlight": "poured",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Applications have arrived in large numbers since Monday.",
+      "promptZh": "自星期一起,大量申請接連送達。",
+      "starter": "Applications",
+      "answer": "Applications have poured in since Monday.",
+      "answerZh": "自星期一起,大量申請接連湧入。",
+      "highlight": "poured",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Could you empty the soup into the large bowl?",
+      "promptZh": "你可以把湯倒進那個大碗嗎?",
+      "starter": "Could",
+      "answer": "Could you pour the soup out into the large bowl?",
+      "answerZh": "你可以把湯倒進那個大碗嗎?",
+      "highlight": "pour",
+      "targetForm": "pour something out",
+      "targetMeaningZh": "把某物倒出"
+    },
+    {
+      "id": "phrasal-verb-268-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Once the beans are clean, remove the water while leaving the beans in the bowl.",
+      "promptZh": "豆洗乾淨後,把水倒走,並把豆留在碗中。",
+      "starter": "Once",
+      "answer": "Once the beans are clean, pour it off while leaving the beans in the bowl.",
+      "answerZh": "豆洗乾淨後,把水倒走,並把豆留在碗中。",
+      "highlight": "pour it off",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The bottle cracked, and the juice began flowing out.",
+      "promptZh": "瓶子裂開了,果汁開始流出。",
+      "starter": "The",
+      "answer": "The bottle cracked, and the juice began pouring out.",
+      "answerZh": "瓶子裂開了,果汁開始湧出。",
+      "highlight": "pouring",
+      "targetForm": "pour out",
+      "targetMeaningZh": "大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Throughout the afternoon, the old radio produced music continuously.",
+      "promptZh": "那部舊收音機整個下午都不斷播放音樂。",
+      "starter": "Throughout",
+      "answer": "Throughout the afternoon, the old radio continuously poured forth music.",
+      "answerZh": "那部舊收音機整個下午都不斷播放出音樂。",
+      "highlight": "continuously poured forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the meal, the unwanted drink was discarded.",
+      "promptZh": "用餐前,那杯沒有人想喝的飲品已被倒掉。",
+      "starter": "Before",
+      "answer": "Before the meal, the unwanted drink was poured away.",
+      "answerZh": "用餐前,那杯沒有人想喝的飲品已被倒掉。",
+      "highlight": "poured away",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "People may enter the hall in very large numbers when the doors open.",
+      "promptZh": "大門打開時,人們可能會大批進入大堂。",
+      "starter": "People",
+      "answer": "People may pour into the hall when the doors open.",
+      "answerZh": "大門打開時,人們可能會湧入大堂。",
+      "highlight": "pour into",
+      "targetForm": "pour into something",
+      "targetMeaningZh": "大量湧入某處"
+    },
+    {
+      "id": "phrasal-verb-268-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before the eggs are served, the cook should remove the extra oil in the pan.",
+      "promptZh": "雞蛋上桌前,廚師應把鍋中多餘的油倒走。",
+      "starter": "Before",
+      "answer": "Before the eggs are served, the cook should pour off the extra oil in the pan.",
+      "answerZh": "雞蛋上桌前,廚師應把鍋中多餘的油倒走。",
+      "highlight": "pour off",
+      "targetForm": "pour off something",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She emptied the water from the bucket into the drain.",
+      "promptZh": "她把水從水桶倒進去水口。",
+      "starter": "She",
+      "answer": "She poured the water out of the bucket into the drain.",
+      "answerZh": "她把水從水桶倒進去水口。",
+      "highlight": "poured",
+      "targetForm": "pour something out of something",
+      "targetMeaningZh": "把某物從容器中倒出"
+    },
+    {
+      "id": "phrasal-verb-268-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "As soon as the final bell rang, pupils left the school in a continuous stream.",
+      "promptZh": "最後一聲鐘響起後,學生接連離開學校。",
+      "starter": "As",
+      "answer": "As soon as the final bell rang, pupils poured forth from the school in a continuous stream.",
+      "answerZh": "最後一聲鐘響起後,學生接連從學校湧出。",
+      "highlight": "poured forth from",
+      "targetForm": "pour forth",
+      "targetMeaningZh": "大量或接連地湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Thick smoke kept flowing out of the back of the bus.",
+      "promptZh": "濃煙不斷從巴士後方湧出。",
+      "starter": "Thick",
+      "answer": "Thick smoke kept pouring out of the back of the bus.",
+      "answerZh": "濃煙不斷從巴士後方湧出。",
+      "highlight": "pouring",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Donations began arriving in large numbers after the school asked for help.",
+      "promptZh": "學校發出求助後,大量捐款開始接連送來。",
+      "starter": "Donations",
+      "answer": "Donations began pouring in after the school asked for help.",
+      "answerZh": "學校發出求助後,大量捐款開始接連湧入。",
+      "highlight": "pouring",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Why did you discard all the soup instead of saving it?",
+      "promptZh": "你為何不留下那些湯,反而把它全部倒掉?",
+      "starter": "Why",
+      "answer": "Why did you pour all the soup away instead of saving it?",
+      "answerZh": "你為何不留下那些湯,反而把它全部倒掉?",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Before adding the sauce, the cook removed the water while leaving the pasta in the pot.",
+      "promptZh": "加入醬汁前,廚師把水倒走,並把意粉留在鍋中。",
+      "starter": "Before",
+      "answer": "Before adding the sauce, the cook poured the water off while leaving the pasta in the pot.",
+      "answerZh": "加入醬汁前,廚師把水倒走,並把意粉留在鍋中。",
+      "highlight": "poured",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "During the speech, the actor produced a stream of angry words.",
+      "promptZh": "演講期間,那名演員接連說出一串憤怒的話。",
+      "starter": "During",
+      "answer": "During the speech, the actor poured forth a stream of angry words.",
+      "answerZh": "演講期間,那名演員接連說出一串憤怒的話。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The child emptied all the juice from the bottle onto the floor.",
+      "promptZh": "那個孩子把瓶內所有果汁倒到地上。",
+      "starter": "The",
+      "answer": "The child poured all the juice out of the bottle onto the floor.",
+      "answerZh": "那個孩子把瓶內所有果汁倒到地上。",
+      "highlight": "poured",
+      "targetForm": "pour something out of something",
+      "targetMeaningZh": "把某物從容器中倒出"
+    },
+    {
+      "id": "phrasal-verb-268-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When ticket sales opened, orders arrived from every part of the city in large numbers.",
+      "promptZh": "門票開售後,來自全城各區的訂單大量湧至。",
+      "starter": "When",
+      "answer": "When ticket sales opened, orders poured in from every part of the city.",
+      "answerZh": "門票開售後,來自全城各區的訂單大量湧入。",
+      "highlight": "poured in",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The water in the vase had become dirty, so the shop worker discarded it.",
+      "promptZh": "花瓶裏的水已經變髒,所以店員把它倒掉了。",
+      "starter": "The",
+      "answer": "The water in the vase had become dirty, so the shop worker poured it away.",
+      "answerZh": "花瓶裏的水已經變髒,所以店員把它倒掉了。",
+      "highlight": "poured",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Excited fans left through the open doors in one long, steady stream.",
+      "promptZh": "興奮的球迷接連穿過打開的大門離開。",
+      "starter": "Excited",
+      "answer": "Excited fans poured forth through the open doors in one long, steady stream.",
+      "answerZh": "興奮的球迷接連穿過打開的大門湧出。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth",
+      "targetMeaningZh": "大量或接連地湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Once the lentils are cooked, remove the water while leaving the lentils in the pan.",
+      "promptZh": "小扁豆煮熟後,把水倒走,並把小扁豆留在鍋中。",
+      "starter": "Once",
+      "answer": "Once the lentils are cooked, pour it off while leaving the lentils in the pan.",
+      "answerZh": "小扁豆煮熟後,把水倒走,並把小扁豆留在鍋中。",
+      "highlight": "pour it off",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Hot water rushed from the damaged tank and spread across the floor.",
+      "promptZh": "熱水從損壞的水箱湧出,流遍地面。",
+      "starter": "Hot",
+      "answer": "Hot water poured out of the damaged tank and spread across the floor.",
+      "answerZh": "熱水從損壞的水箱湧出,流遍地面。",
+      "highlight": "poured out of",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the announcement, questions began arriving faster than the team could answer them.",
+      "promptZh": "公布消息後,問題接連傳來,速度快得團隊無法全部回答。",
+      "starter": "After",
+      "answer": "After the announcement, questions began pouring in faster than the team could answer them.",
+      "answerZh": "公布消息後,問題接連湧入,速度快得團隊無法全部回答。",
+      "highlight": "pouring in",
+      "targetForm": "pour in",
+      "targetMeaningZh": "大量湧入;接連到來"
+    },
+    {
+      "id": "phrasal-verb-268-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If the milk has gone bad, do not keep it; discard it.",
+      "promptZh": "如果牛奶已經變壞,不要留下;把它倒掉。",
+      "starter": "If",
+      "answer": "If the milk has gone bad, do not keep it; pour it away.",
+      "answerZh": "如果牛奶已經變壞,不要留下;把它倒掉。",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The vegetables are cooked. Remove the water while leaving the vegetables in the pan.",
+      "promptZh": "蔬菜已經煮熟。把水倒走,但把蔬菜留在鍋中。",
+      "starter": "The",
+      "answer": "The vegetables are cooked. Pour off the water while leaving the vegetables in the pan.",
+      "answerZh": "蔬菜已經煮熟。把水倒走,但把蔬菜留在鍋中。",
+      "highlight": "Pour off",
+      "targetForm": "pour off something",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "When the theatre doors opened, the audience left the building in one large, steady crowd.",
+      "promptZh": "劇院大門打開時,觀眾接連成群離開大樓。",
+      "starter": "When",
+      "answer": "When the theatre doors opened, the audience poured forth from the building in one large, steady crowd.",
+      "answerZh": "劇院大門打開時,觀眾接連成群從大樓湧出。",
+      "highlight": "poured forth from",
+      "targetForm": "pour forth",
+      "targetMeaningZh": "大量或接連地湧出"
+    },
+    {
+      "id": "phrasal-verb-268-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "More visitors than expected entered the gallery as soon as the free event began.",
+      "promptZh": "免費活動一開始,進入展覽館的參觀者比預期更多。",
+      "starter": "More",
+      "answer": "More visitors than expected poured into the gallery as soon as the free event began.",
+      "answerZh": "免費活動一開始,大批參觀者湧入展覽館,數量比預期更多。",
+      "highlight": "poured into",
+      "targetForm": "pour into something",
+      "targetMeaningZh": "大量湧入某處"
+    },
+    {
+      "id": "phrasal-verb-268-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "She nearly served the tea, but then remembered that it had been there all day and discarded it.",
+      "promptZh": "她差點把茶端上桌,但後來想起它已放了一整天,於是把它倒掉。",
+      "starter": "She",
+      "answer": "She nearly served the tea, but then remembered that it had been there all day and poured it away.",
+      "answerZh": "她差點把茶端上桌,但後來想起它已放了一整天,於是把它倒掉。",
+      "highlight": "poured",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Why has the chef removed the extra oil while leaving the food in the pan?",
+      "promptZh": "廚師為何把多餘的油倒走,並把食物留在鍋中?",
+      "starter": "Why",
+      "answer": "Why has the chef poured off the extra oil while leaving the food in the pan?",
+      "answerZh": "廚師為何把多餘的油倒走,並把食物留在鍋中?",
+      "highlight": "poured off",
+      "targetForm": "pour off something",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If the shop opens early, very large numbers of shoppers may enter all at once.",
+      "promptZh": "如果店舖提早開門,大批顧客可能會同時進入。",
+      "starter": "If",
+      "answer": "If the shop opens early, very large numbers of shoppers may pour into it all at once.",
+      "answerZh": "如果店舖提早開門,大批顧客可能會同時湧入。",
+      "highlight": "pour into it",
+      "targetForm": "pour into something",
+      "targetMeaningZh": "大量湧入某處"
+    },
+    {
+      "id": "phrasal-verb-268-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The bottle contains water used for cleaning that is no longer needed, so please discard it.",
+      "promptZh": "瓶內裝着已不再需要的清潔用水,所以請把它倒掉。",
+      "starter": "The",
+      "answer": "The bottle contains water used for cleaning that is no longer needed, so please pour it away.",
+      "answerZh": "瓶內裝着已不再需要的清潔用水,所以請把它倒掉。",
+      "highlight": "pour",
+      "targetForm": "pour something away",
+      "targetMeaningZh": "把不再需要的液體倒掉"
+    },
+    {
+      "id": "phrasal-verb-268-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The singer produced a continuous stream of clear notes that filled the hall.",
+      "promptZh": "歌手接連唱出清晰的音符,充滿整個大堂。",
+      "starter": "The",
+      "answer": "The singer poured forth a stream of clear notes that filled the hall.",
+      "answerZh": "歌手接連唱出一串清晰的音符,充滿整個大堂。",
+      "highlight": "poured forth",
+      "targetForm": "pour forth something",
+      "targetMeaningZh": "不斷發出大量某物"
+    },
+    {
+      "id": "phrasal-verb-268-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before serving the tinned fruit, remove the juice while leaving the fruit in the tin.",
+      "promptZh": "端上罐頭水果前,把果汁倒走,並把水果留在罐中。",
+      "starter": "Before",
+      "answer": "Before serving the tinned fruit, pour the juice off while leaving the fruit in the tin.",
+      "answerZh": "端上罐頭水果前,把果汁倒走,並把水果留在罐中。",
+      "highlight": "pour",
+      "targetForm": "pour something off",
+      "targetMeaningZh": "把液體從食物或容器中倒走"
+    },
+    {
+      "id": "phrasal-verb-268-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "When the worker loosened the cap, dark oil flowed from the tank into the tray.",
+      "promptZh": "工人扭鬆蓋子後,深色的油從油缸流進托盤。",
+      "starter": "When",
+      "answer": "When the worker loosened the cap, dark oil poured out of the tank into the tray.",
+      "answerZh": "工人扭鬆蓋子後,深色的油從油缸湧出,流進托盤。",
+      "highlight": "poured out of",
+      "targetForm": "pour out of something",
+      "targetMeaningZh": "從某處大量流出或湧出"
+    }
+  ]
+}

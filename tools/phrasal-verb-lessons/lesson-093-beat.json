@@ -1,0 +1,2051 @@
+{
+  "id": "phrasal-verb-93",
+  "order": 93,
+  "slug": "beat",
+  "version": "1",
+  "title": "BEAT 動詞片語",
+  "titleEn": "Beat",
+  "titleZh": "BEAT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 12,
+  "source": {
+    "file": "Phrasal Verbs 92 - BEAT.pdf",
+    "sourceNumber": 92,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BEAT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BEAT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BEAT",
+      "highlight": "BEAT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The hot sun beat down on the runners.",
+      "zh": "猛烈的陽光照射着跑手。",
+      "highlight": "beat down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It is wrong to beat on anyone.",
+      "zh": "反覆毆打任何人都是錯的。",
+      "highlight": "beat on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The firefighters beat the flames back.",
+      "zh": "消防員把火勢逼退。",
+      "highlight": "beat the flames back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "表示太陽或熱力猛烈照射在某人或某物上；反覆毆打某人；擊退;迫使某人或某物退後；擊敗其他人以取得某物、機會或位置；比某人先到達、取得或完成某事；把某人痛打或打傷；議價,使對方降低價格；擊退攻擊者;成功抵抗挑戰或競爭；用力打破或撞倒某物；拍打或覆蓋以撲滅火焰；主要為北美英語:用言語攻擊、不公平地責罵或批評某人；過度責怪自己",
+    "en": "beat down on/upon somebody/something; beat on somebody; beat somebody/something back; beat somebody out (for something); beat somebody to something / beat somebody to it; beat somebody up; beat somebody/something down; beat somebody/something off; beat something down; beat something out; beat up on somebody; beat yourself up",
+    "naturalZh": [
+      "表示太陽或熱力猛烈照射在某人或某物上",
+      "反覆毆打某人",
+      "擊退;迫使某人或某物退後",
+      "擊敗其他人以取得某物、機會或位置",
+      "比某人先到達、取得或完成某事",
+      "把某人痛打或打傷",
+      "議價,使對方降低價格",
+      "擊退攻擊者;成功抵抗挑戰或競爭",
+      "用力打破或撞倒某物",
+      "拍打或覆蓋以撲滅火焰",
+      "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+      "過度責怪自己"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "beat down on/upon somebody/something",
+      "titleZh": "表示太陽或熱力猛烈照射在某人或某物上",
+      "titleEn": "beat down on/upon somebody/something",
+      "descriptionZh": "表示太陽或熱力猛烈照射在某人或某物上",
+      "descriptionEn": "The hot sun beat down on the runners.",
+      "examples": [
+        {
+          "en": "The hot sun beat down on the runners.",
+          "zh": "猛烈的陽光照射着跑手。",
+          "highlight": "beat down on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat on somebody",
+      "titleZh": "反覆毆打某人",
+      "titleEn": "beat on somebody",
+      "descriptionZh": "反覆毆打某人",
+      "descriptionEn": "It is wrong to beat on anyone.",
+      "examples": [
+        {
+          "en": "It is wrong to beat on anyone.",
+          "zh": "反覆毆打任何人都是錯的。",
+          "highlight": "beat on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat somebody/something back",
+      "titleZh": "擊退;迫使某人或某物退後",
+      "titleEn": "beat somebody/something back",
+      "descriptionZh": "擊退;迫使某人或某物退後",
+      "descriptionEn": "The firefighters beat the flames back.",
+      "examples": [
+        {
+          "en": "The firefighters beat the flames back.",
+          "zh": "消防員把火勢逼退。",
+          "highlight": "beat the flames back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat somebody out (for something)",
+      "titleZh": "擊敗其他人以取得某物、機會或位置",
+      "titleEn": "beat somebody out (for something)",
+      "descriptionZh": "擊敗其他人以取得某物、機會或位置",
+      "descriptionEn": "A small firm beat out five rivals for the job.",
+      "examples": [
+        {
+          "en": "A small firm beat out five rivals for the job.",
+          "zh": "一間小公司擊敗五名對手,取得該項工作。",
+          "highlight": "beat out five rivals for"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat somebody to something / beat somebody to it",
+      "titleZh": "比某人先到達、取得或完成某事",
+      "titleEn": "beat somebody to something / beat somebody to it",
+      "descriptionZh": "比某人先到達、取得或完成某事",
+      "descriptionEn": "Zoe beat me to the last seat.",
+      "examples": [
+        {
+          "en": "Zoe beat me to the last seat.",
+          "zh": "佐伊比我先坐到最後一個座位。",
+          "highlight": "beat me to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat somebody up",
+      "titleZh": "把某人痛打或打傷",
+      "titleEn": "beat somebody up",
+      "descriptionZh": "把某人痛打或打傷",
+      "descriptionEn": "The police arrested the men who beat him up.",
+      "examples": [
+        {
+          "en": "The police arrested the men who beat him up.",
+          "zh": "警方拘捕了痛打他的男子。",
+          "highlight": "beat him up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "beat somebody/something down",
+      "titleZh": "議價,使對方降低價格",
+      "titleEn": "beat somebody/something down",
+      "descriptionZh": "議價,使對方降低價格",
+      "descriptionEn": "We beat the seller down to £40.",
+      "examples": [
+        {
+          "en": "We beat the seller down to £40.",
+          "zh": "我們議價,使賣家把價格降至四十英鎊。",
+          "highlight": "beat the seller down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "beat somebody/something off",
+      "titleZh": "擊退攻擊者;成功抵抗挑戰或競爭",
+      "titleEn": "beat somebody/something off",
+      "descriptionZh": "擊退攻擊者;成功抵抗挑戰或競爭",
+      "descriptionEn": "The guards beat off the attack.",
+      "examples": [
+        {
+          "en": "The guards beat off the attack.",
+          "zh": "守衞擊退了襲擊。",
+          "highlight": "beat off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "beat something down",
+      "titleZh": "用力打破或撞倒某物",
+      "titleEn": "beat something down",
+      "descriptionZh": "用力打破或撞倒某物",
+      "descriptionEn": "The firefighters beat the door down.",
+      "examples": [
+        {
+          "en": "The firefighters beat the door down.",
+          "zh": "消防員用力把門撞破。",
+          "highlight": "beat the door down"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "beat something out",
+      "titleZh": "拍打或覆蓋以撲滅火焰",
+      "titleEn": "beat something out",
+      "descriptionZh": "拍打或覆蓋以撲滅火焰",
+      "descriptionEn": "She beat the flames out with a wet towel.",
+      "examples": [
+        {
+          "en": "She beat the flames out with a wet towel.",
+          "zh": "她用濕毛巾把火焰拍熄。",
+          "highlight": "beat the flames out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "beat up on somebody",
+      "titleZh": "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+      "titleEn": "beat up on somebody",
+      "descriptionZh": "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+      "descriptionEn": "Do not beat up on him for one mistake.",
+      "examples": [
+        {
+          "en": "Do not beat up on him for one mistake.",
+          "zh": "不要因為一個錯誤而不公平地批評他。",
+          "highlight": "beat up on"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "beat yourself up",
+      "titleZh": "過度責怪自己",
+      "titleEn": "beat yourself up",
+      "descriptionZh": "過度責怪自己",
+      "descriptionEn": "Do not beat yourself up over one mistake.",
+      "examples": [
+        {
+          "en": "Do not beat yourself up over one mistake.",
+          "zh": "不要因為一個錯誤而過度責怪自己。",
+          "highlight": "beat yourself up"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BEAT 片語動詞的實際用途",
+    "labelEn": "BEAT Phrasal Verbs in Use",
+    "summaryZh": "beat down 可以描述猛烈陽光;beat back 和 beat off 則可以描述擊退火勢、襲擊者或競爭。；beat somebody out 可以表示在競爭中取得機會;beat somebody to something 則表示比別人先到達或先行動。；beat a seller down 或 beat a price down 可以清楚表示議價,使對方接受較低價格。；beat up on somebody 可以描述不公平的批評;beat yourself up 則提醒我們不要過度責怪自己。",
+    "summaryEn": "Beat down can describe strong sunlight, while beat back and beat off can describe stopping fire, attackers or competition. Beat somebody out can describe winning an opportunity, while beat somebody to something shows that one person arrived or acted first. Beat a seller down or beat a price down clearly describes persuading someone to accept a lower price. Beat up on somebody describes unfair criticism. Beat yourself up reminds us not to blame ourselves too much.",
+    "contextsZh": [
+      "使用 BEAT 描述強大力量和抵抗",
+      "清楚談論競爭和搶先行動",
+      "使用 BEAT 談論議價",
+      "談論不公平批評和善待自己"
+    ],
+    "contextsEn": [
+      "Use BEAT to describe strong force and resistance",
+      "Talk clearly about competition and being first",
+      "Use BEAT when talking about bargaining",
+      "Talk about criticism and self-kindness"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BEAT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BEAT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "beat down on/upon somebody/something",
+    "fixedHighlight": "beat down on/upon somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 BEAT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BEAT expression that gives the same meaning.",
+    "correct": "beat down on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；用力把門撞破beat a price down議價把價格降低beat a fire out拍打以撲滅火焰",
+    "variableEn": "Keep the same people, things, time and meaning. Similar-looking expressions may have very different meanings: beat a door down",
+    "variableItemsZh": [
+      "beat down on/upon somebody/something",
+      "beat on somebody",
+      "beat somebody/something back",
+      "beat somebody out (for something)",
+      "beat somebody to something / beat somebody to it",
+      "beat somebody up",
+      "beat somebody/something down",
+      "beat somebody/something off",
+      "beat something down",
+      "beat something out",
+      "beat up on somebody",
+      "beat yourself up"
+    ],
+    "variableItemsEn": [
+      "beat down on/upon somebody/something",
+      "beat on somebody",
+      "beat somebody/something back",
+      "beat somebody out (for something)",
+      "beat somebody to something / beat somebody to it",
+      "beat somebody up",
+      "beat somebody/something down",
+      "beat somebody/something off",
+      "beat something down",
+      "beat something out",
+      "beat up on somebody",
+      "beat yourself up"
+    ],
+    "forms": [
+      {
+        "formZh": "表示太陽或熱力猛烈照射在某人或某物上",
+        "formEn": "beat down on/upon somebody/something",
+        "exampleZh": "猛烈的陽光照射着跑手。",
+        "exampleEn": "The hot sun beat down on the runners.",
+        "highlight": "beat down on"
+      },
+      {
+        "formZh": "反覆毆打某人",
+        "formEn": "beat on somebody",
+        "exampleZh": "反覆毆打任何人都是錯的。",
+        "exampleEn": "It is wrong to beat on anyone.",
+        "highlight": "beat on"
+      },
+      {
+        "formZh": "擊退;迫使某人或某物退後",
+        "formEn": "beat somebody/something back",
+        "exampleZh": "消防員把火勢逼退。",
+        "exampleEn": "The firefighters beat the flames back.",
+        "highlight": "beat the flames back"
+      },
+      {
+        "formZh": "擊敗其他人以取得某物、機會或位置",
+        "formEn": "beat somebody out (for something)",
+        "exampleZh": "一間小公司擊敗五名對手,取得該項工作。",
+        "exampleEn": "A small firm beat out five rivals for the job.",
+        "highlight": "beat out five rivals for"
+      },
+      {
+        "formZh": "比某人先到達、取得或完成某事",
+        "formEn": "beat somebody to something / beat somebody to it",
+        "exampleZh": "佐伊比我先坐到最後一個座位。",
+        "exampleEn": "Zoe beat me to the last seat.",
+        "highlight": "beat me to"
+      },
+      {
+        "formZh": "把某人痛打或打傷",
+        "formEn": "beat somebody up",
+        "exampleZh": "警方拘捕了痛打他的男子。",
+        "exampleEn": "The police arrested the men who beat him up.",
+        "highlight": "beat him up"
+      },
+      {
+        "formZh": "議價,使對方降低價格",
+        "formEn": "beat somebody/something down",
+        "exampleZh": "我們議價,使賣家把價格降至四十英鎊。",
+        "exampleEn": "We beat the seller down to £40.",
+        "highlight": "beat the seller down"
+      },
+      {
+        "formZh": "擊退攻擊者;成功抵抗挑戰或競爭",
+        "formEn": "beat somebody/something off",
+        "exampleZh": "守衞擊退了襲擊。",
+        "exampleEn": "The guards beat off the attack.",
+        "highlight": "beat off"
+      },
+      {
+        "formZh": "用力打破或撞倒某物",
+        "formEn": "beat something down",
+        "exampleZh": "消防員用力把門撞破。",
+        "exampleEn": "The firefighters beat the door down.",
+        "highlight": "beat the door down"
+      },
+      {
+        "formZh": "拍打或覆蓋以撲滅火焰",
+        "formEn": "beat something out",
+        "exampleZh": "她用濕毛巾把火焰拍熄。",
+        "exampleEn": "She beat the flames out with a wet towel.",
+        "highlight": "beat the flames out"
+      },
+      {
+        "formZh": "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+        "formEn": "beat up on somebody",
+        "exampleZh": "不要因為一個錯誤而不公平地批評他。",
+        "exampleEn": "Do not beat up on him for one mistake.",
+        "highlight": "beat up on"
+      },
+      {
+        "formZh": "過度責怪自己",
+        "formEn": "beat yourself up",
+        "exampleZh": "不要因為一個錯誤而過度責怪自己。",
+        "exampleEn": "Do not beat yourself up over one mistake.",
+        "highlight": "beat yourself up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "表示太陽或熱力猛烈照射在某人或某物上",
+      "titleEn": "beat down on/upon somebody/something",
+      "formula": "beat down on/upon somebody/something",
+      "highlight": "beat down on/upon somebody/something",
+      "descriptionZh": "表示太陽或熱力猛烈照射在某人或某物上",
+      "descriptionEn": "The hot sun beat down on the runners.",
+      "examples": [
+        {
+          "en": "The hot sun beat down on the runners.",
+          "zh": "猛烈的陽光照射着跑手。",
+          "highlight": "beat down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "反覆毆打某人",
+      "titleEn": "beat on somebody",
+      "formula": "beat on somebody",
+      "highlight": "beat on somebody",
+      "descriptionZh": "反覆毆打某人",
+      "descriptionEn": "It is wrong to beat on anyone.",
+      "examples": [
+        {
+          "en": "It is wrong to beat on anyone.",
+          "zh": "反覆毆打任何人都是錯的。",
+          "highlight": "beat on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "擊退;迫使某人或某物退後",
+      "titleEn": "beat somebody/something back",
+      "formula": "beat somebody/something back",
+      "highlight": "beat somebody/something back",
+      "descriptionZh": "擊退;迫使某人或某物退後",
+      "descriptionEn": "The firefighters beat the flames back.",
+      "examples": [
+        {
+          "en": "The firefighters beat the flames back.",
+          "zh": "消防員把火勢逼退。",
+          "highlight": "beat the flames back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "擊敗其他人以取得某物、機會或位置",
+      "titleEn": "beat somebody out (for something)",
+      "formula": "beat somebody out (for something)",
+      "highlight": "beat somebody out (for something)",
+      "descriptionZh": "擊敗其他人以取得某物、機會或位置",
+      "descriptionEn": "A small firm beat out five rivals for the job.",
+      "examples": [
+        {
+          "en": "A small firm beat out five rivals for the job.",
+          "zh": "一間小公司擊敗五名對手,取得該項工作。",
+          "highlight": "beat out five rivals for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "比某人先到達、取得或完成某事",
+      "titleEn": "beat somebody to something / beat somebody to it",
+      "formula": "beat somebody to something / beat somebody to it",
+      "highlight": "beat somebody to something / beat somebody to it",
+      "descriptionZh": "比某人先到達、取得或完成某事",
+      "descriptionEn": "Zoe beat me to the last seat.",
+      "examples": [
+        {
+          "en": "Zoe beat me to the last seat.",
+          "zh": "佐伊比我先坐到最後一個座位。",
+          "highlight": "beat me to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某人痛打或打傷",
+      "titleEn": "beat somebody up",
+      "formula": "beat somebody up",
+      "highlight": "beat somebody up",
+      "descriptionZh": "把某人痛打或打傷",
+      "descriptionEn": "The police arrested the men who beat him up.",
+      "examples": [
+        {
+          "en": "The police arrested the men who beat him up.",
+          "zh": "警方拘捕了痛打他的男子。",
+          "highlight": "beat him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "議價,使對方降低價格",
+      "titleEn": "beat somebody/something down",
+      "formula": "beat somebody/something down",
+      "highlight": "beat somebody/something down",
+      "descriptionZh": "議價,使對方降低價格",
+      "descriptionEn": "We beat the seller down to £40.",
+      "examples": [
+        {
+          "en": "We beat the seller down to £40.",
+          "zh": "我們議價,使賣家把價格降至四十英鎊。",
+          "highlight": "beat the seller down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "擊退攻擊者;成功抵抗挑戰或競爭",
+      "titleEn": "beat somebody/something off",
+      "formula": "beat somebody/something off",
+      "highlight": "beat somebody/something off",
+      "descriptionZh": "擊退攻擊者;成功抵抗挑戰或競爭",
+      "descriptionEn": "The guards beat off the attack.",
+      "examples": [
+        {
+          "en": "The guards beat off the attack.",
+          "zh": "守衞擊退了襲擊。",
+          "highlight": "beat off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "用力打破或撞倒某物",
+      "titleEn": "beat something down",
+      "formula": "beat something down",
+      "highlight": "beat something down",
+      "descriptionZh": "用力打破或撞倒某物",
+      "descriptionEn": "The firefighters beat the door down.",
+      "examples": [
+        {
+          "en": "The firefighters beat the door down.",
+          "zh": "消防員用力把門撞破。",
+          "highlight": "beat the door down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "拍打或覆蓋以撲滅火焰",
+      "titleEn": "beat something out",
+      "formula": "beat something out",
+      "highlight": "beat something out",
+      "descriptionZh": "拍打或覆蓋以撲滅火焰",
+      "descriptionEn": "She beat the flames out with a wet towel.",
+      "examples": [
+        {
+          "en": "She beat the flames out with a wet towel.",
+          "zh": "她用濕毛巾把火焰拍熄。",
+          "highlight": "beat the flames out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+      "titleEn": "beat up on somebody",
+      "formula": "beat up on somebody",
+      "highlight": "beat up on somebody",
+      "descriptionZh": "主要為北美英語:用言語攻擊、不公平地責罵或批評某人",
+      "descriptionEn": "Do not beat up on him for one mistake.",
+      "examples": [
+        {
+          "en": "Do not beat up on him for one mistake.",
+          "zh": "不要因為一個錯誤而不公平地批評他。",
+          "highlight": "beat up on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "過度責怪自己",
+      "titleEn": "beat yourself up",
+      "formula": "beat yourself up",
+      "highlight": "beat yourself up",
+      "descriptionZh": "過度責怪自己",
+      "descriptionEn": "Do not beat yourself up over one mistake.",
+      "examples": [
+        {
+          "en": "Do not beat yourself up over one mistake.",
+          "zh": "不要因為一個錯誤而過度責怪自己。",
+          "highlight": "beat yourself up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 BEAT 描述強大力量和抵抗",
+      "titleEn": "Use BEAT to describe strong force and resistance",
+      "zh": "beat down 可以描述猛烈陽光;beat back 和 beat off 則可以描述擊退火勢、襲擊者或競爭。",
+      "en": "Beat down can describe strong sunlight, while beat back and beat off can describe stopping fire, attackers or competition."
+    },
+    {
+      "titleZh": "清楚談論競爭和搶先行動",
+      "titleEn": "Talk clearly about competition and being first",
+      "zh": "beat somebody out 可以表示在競爭中取得機會;beat somebody to something 則表示比別人先到達或先行動。",
+      "en": "Beat somebody out can describe winning an opportunity, while beat somebody to something shows that one person arrived or acted first."
+    },
+    {
+      "titleZh": "使用 BEAT 談論議價",
+      "titleEn": "Use BEAT when talking about bargaining",
+      "zh": "beat a seller down 或 beat a price down 可以清楚表示議價,使對方接受較低價格。",
+      "en": "Beat a seller down or beat a price down clearly describes persuading someone to accept a lower price."
+    },
+    {
+      "titleZh": "談論不公平批評和善待自己",
+      "titleEn": "Talk about criticism and self-kindness",
+      "zh": "beat up on somebody 可以描述不公平的批評;beat yourself up 則提醒我們不要過度責怪自己。",
+      "en": "Beat up on somebody describes unfair criticism. Beat yourself up reminds us not to blame ourselves too much."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 BEAT 描述強大力量和抵抗",
+      "清楚談論競爭和搶先行動",
+      "使用 BEAT 談論議價",
+      "談論不公平批評和善待自己"
+    ],
+    "contextsEn": [
+      "Use BEAT to describe strong force and resistance",
+      "Talk clearly about competition and being first",
+      "Use BEAT when talking about bargaining",
+      "Talk about criticism and self-kindness"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 BEAT 描述強大力量和抵抗",
+        "titleEn": "Use BEAT to describe strong force and resistance",
+        "zh": "beat down 可以描述猛烈陽光;beat back 和 beat off 則可以描述擊退火勢、襲擊者或競爭。",
+        "en": "Beat down can describe strong sunlight, while beat back and beat off can describe stopping fire, attackers or competition.",
+        "examples": [
+          {
+            "en": "The hot sun beat down on the runners.",
+            "zh": "猛烈的陽光照射着跑手。",
+            "highlight": "beat down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論競爭和搶先行動",
+        "titleEn": "Talk clearly about competition and being first",
+        "zh": "beat somebody out 可以表示在競爭中取得機會;beat somebody to something 則表示比別人先到達或先行動。",
+        "en": "Beat somebody out can describe winning an opportunity, while beat somebody to something shows that one person arrived or acted first.",
+        "examples": [
+          {
+            "en": "It is wrong to beat on anyone.",
+            "zh": "反覆毆打任何人都是錯的。",
+            "highlight": "beat on"
+          }
+        ]
+      },
+      {
+        "titleZh": "使用 BEAT 談論議價",
+        "titleEn": "Use BEAT when talking about bargaining",
+        "zh": "beat a seller down 或 beat a price down 可以清楚表示議價,使對方接受較低價格。",
+        "en": "Beat a seller down or beat a price down clearly describes persuading someone to accept a lower price.",
+        "examples": [
+          {
+            "en": "The firefighters beat the flames back.",
+            "zh": "消防員把火勢逼退。",
+            "highlight": "beat the flames back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不公平批評和善待自己",
+        "titleEn": "Talk about criticism and self-kindness",
+        "zh": "beat up on somebody 可以描述不公平的批評;beat yourself up 則提醒我們不要過度責怪自己。",
+        "en": "Beat up on somebody describes unfair criticism. Beat yourself up reminds us not to blame ourselves too much.",
+        "examples": [
+          {
+            "en": "A small firm beat out five rivals for the job.",
+            "zh": "一間小公司擊敗五名對手,取得該項工作。",
+            "highlight": "beat out five rivals for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BEAT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BEAT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BEAT 片語動詞。",
+      "en": "Read the whole sentence and choose the BEAT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "用力把門撞破beat a price down議價把價格降低beat a fire out拍打以撲滅火焰",
+      "titleEn": "Similar-looking expressions may have very different meanings: beat a door down.",
+      "zh": "用力把門撞破beat a price down議價把價格降低beat a fire out拍打以撲滅火焰",
+      "en": "Similar-looking expressions may have very different meanings: beat a door down"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BEAT 動詞片語句子改寫練習",
+    "titleEn": "BEAT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-93-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "A small shop defeated six other stores and won the town's food prize.",
+      "promptZh": "一間小店擊敗另外六間店舖,贏得鎮上的美食獎。",
+      "starter": "A",
+      "answer": "A small shop beat out six other stores for the town's food prize.",
+      "answerZh": "一間小店擊敗另外六間店舖,贏得鎮上的美食獎。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The afternoon sun shone very strongly on the playground.",
+      "promptZh": "午後的陽光猛烈照射着遊樂場。",
+      "starter": "The",
+      "answer": "The afternoon sun beat down on the playground.",
+      "answerZh": "午後的陽光猛烈照射着遊樂場。",
+      "highlight": "beat down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The police arrested the men who badly attacked the driver by hitting and kicking him.",
+      "promptZh": "警方拘捕了以拳打腳踢方式嚴重襲擊司機的男子。",
+      "starter": "The",
+      "answer": "The police arrested the men who beat the driver up.",
+      "answerZh": "警方拘捕了痛打司機的男子。",
+      "highlight": "beat",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The guards stopped the attack and forced the attackers away.",
+      "promptZh": "守衞阻止了襲擊,並迫使襲擊者離開。",
+      "starter": "The",
+      "answer": "The guards beat off the attack.",
+      "answerZh": "守衞擊退了襲擊。",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Do not blame yourself too much for one small mistake.",
+      "promptZh": "不要因為一個小錯誤而過度責怪自己。",
+      "starter": "Do",
+      "answer": "Do not beat yourself up over one small mistake.",
+      "answerZh": "不要因為一個小錯誤而過度責怪自己。",
+      "highlight": "beat",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The firefighters forced the flames away from the houses.",
+      "promptZh": "消防員迫使火勢遠離房屋。",
+      "starter": "The",
+      "answer": "The firefighters beat the flames back from the houses.",
+      "answerZh": "消防員把火勢逼退,使其遠離房屋。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We persuaded the seller to lower the price to £25.",
+      "promptZh": "我們說服賣家把價格降至二十五英鎊。",
+      "starter": "We",
+      "answer": "We beat the seller down to £25.",
+      "answerZh": "我們議價,使賣家把價格降至二十五英鎊。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "He used a wet cloth to hit the small fire until it was no longer burning.",
+      "promptZh": "他用濕布拍打小火,直至火焰熄滅。",
+      "starter": "He",
+      "answer": "He beat the small fire out with a wet cloth.",
+      "answerZh": "他用濕布拍熄了小火。",
+      "highlight": "beat the small fire out with",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    },
+    {
+      "id": "phrasal-verb-93-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Zoe took the last seat before I could reach it.",
+      "promptZh": "我還未能走到最後一個座位,佐伊便先坐了下來。",
+      "starter": "Zoe",
+      "answer": "Zoe beat me to the last seat.",
+      "answerZh": "佐伊比我先坐到最後一個座位。",
+      "highlight": "beat me to",
+      "targetForm": "beat somebody to something / beat somebody to it",
+      "targetMeaningZh": "比某人先到達、取得或完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "It is wrong to hit anyone again and again.",
+      "promptZh": "反覆毆打任何人都是錯的。",
+      "starter": "It",
+      "answer": "It is wrong to beat on anyone.",
+      "answerZh": "反覆毆打任何人都是錯的。",
+      "highlight": "beat on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The firefighters broke the door by hitting it hard.",
+      "promptZh": "消防員用力撞擊,把門打破了。",
+      "starter": "The",
+      "answer": "The firefighters beat the door down.",
+      "answerZh": "消防員用力把門撞破了。",
+      "highlight": "beat",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Do not criticise Sam unfairly; he tried his best.",
+      "promptZh": "不要不公平地批評森;他已經盡力了。",
+      "starter": "Do",
+      "answer": "Do not beat up on Sam; he tried his best.",
+      "answerZh": "不要不公平地批評森;他已經盡力了。",
+      "highlight": "beat up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Hot sunlight shone fiercely on the walkers all morning.",
+      "promptZh": "猛烈的陽光整個上午都照射着步行者。",
+      "starter": "Hot",
+      "answer": "Hot sunlight beat down upon the walkers all morning.",
+      "answerZh": "猛烈的陽光整個上午都照射着步行者。",
+      "highlight": "beat down upon",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Ava defeated the other singers and got the lead role.",
+      "promptZh": "艾娃擊敗其他歌手,取得主角位置。",
+      "starter": "Ava",
+      "answer": "Ava beat out the other singers for the lead role.",
+      "answerZh": "艾娃擊敗其他歌手,取得主角位置。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "We should not blame ourselves too much when a plan fails.",
+      "promptZh": "計劃失敗時,我們不應過度責怪自己。",
+      "starter": "We",
+      "answer": "We should not beat ourselves up when a plan fails.",
+      "answerZh": "計劃失敗時,我們不應過度責怪自己。",
+      "highlight": "beat",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Tara persuaded the market seller to reduce the price from £50 to £40.",
+      "promptZh": "塔拉說服市場的賣家把價格由五十英鎊降至四十英鎊。",
+      "starter": "Tara",
+      "answer": "Tara beat the market seller down from £50 to £40.",
+      "answerZh": "塔拉議價,使市場的賣家把價格由五十英鎊降至四十英鎊。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The story shows some boys hitting a weaker child again and again before a teacher stops them.",
+      "promptZh": "故事中,幾名男孩反覆毆打一名較弱小的孩子,後來被老師制止。",
+      "starter": "The",
+      "answer": "The story shows some boys beating on a weaker child before a teacher stops them.",
+      "answerZh": "故事中,幾名男孩反覆毆打一名較弱小的孩子,後來被老師制止。",
+      "highlight": "beating on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The buyer has persuaded the seller to lower the price to £60.",
+      "promptZh": "買家已說服賣家把價格降至六十英鎊。",
+      "starter": "The",
+      "answer": "The buyer has beaten the seller down to £60.",
+      "answerZh": "買家已議價,使賣家把價格降至六十英鎊。",
+      "highlight": "beaten",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Our school defeated three others and won the science prize.",
+      "promptZh": "我們的學校擊敗另外三間學校,贏得科學獎。",
+      "starter": "Our",
+      "answer": "Our school beat out three others for the science prize.",
+      "answerZh": "我們的學校擊敗另外三間學校,贏得科學獎。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "They are trying to break the old wall by hitting it.",
+      "promptZh": "他們正嘗試用力敲打,把舊牆打破。",
+      "starter": "They",
+      "answer": "They are trying to beat the old wall down.",
+      "answerZh": "他們正嘗試用力把舊牆打破。",
+      "highlight": "beat",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Who reached the front seat before you did?",
+      "promptZh": "誰比你先坐到前排座位?",
+      "starter": "Who",
+      "answer": "Who beat you to the front seat?",
+      "answerZh": "誰比你先坐到前排座位?",
+      "highlight": "beat you to",
+      "targetForm": "beat somebody to something",
+      "targetMeaningZh": "比某人先到達或取得某物"
+    },
+    {
+      "id": "phrasal-verb-93-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Why are you criticising her unfairly when the mistake was not hers?",
+      "promptZh": "錯誤並不是她造成的,你為何仍要不公平地批評她?",
+      "starter": "Why",
+      "answer": "Why are you beating up on her when the mistake was not hers?",
+      "answerZh": "錯誤並不是她造成的,你為何仍要不公平地批評她?",
+      "highlight": "beating up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The strong wind kept forcing the smoke back towards us.",
+      "promptZh": "強風吹得煙霧不斷向我們這邊退回來。",
+      "starter": "The",
+      "answer": "The strong wind kept beating the smoke back towards us.",
+      "answerZh": "強風吹得煙霧不斷向我們這邊退回來。",
+      "highlight": "beating",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "By noon, the sun was shining fiercely on us.",
+      "promptZh": "到了中午,陽光正猛烈照射着我們。",
+      "starter": "By",
+      "answer": "By noon, the sun was beating down on us.",
+      "answerZh": "到了中午,陽光正猛烈照射着我們。",
+      "highlight": "beating down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The home team has stopped every attack so far.",
+      "promptZh": "主隊至今已擋住每一次進攻。",
+      "starter": "The",
+      "answer": "The home team has beaten off every attack so far.",
+      "answerZh": "主隊至今已擊退每一次進攻。",
+      "highlight": "beaten off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Two men were arrested after they had badly attacked a cyclist by hitting and kicking him.",
+      "promptZh": "兩名男子因拳打腳踢一名單車手而被捕。",
+      "starter": "Two",
+      "answer": "Two men were arrested after they had beaten a cyclist up.",
+      "answerZh": "兩名男子因痛打一名單車手而被捕。",
+      "highlight": "beaten",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "You should not blame yourself too much because you missed one answer.",
+      "promptZh": "你不應因為答漏一題而過度責怪自己。",
+      "starter": "You",
+      "answer": "You should not beat yourself up because you missed one answer.",
+      "answerZh": "你不應因為答漏一題而過度責怪自己。",
+      "highlight": "beat",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The campers used their coats to hit the flames until they were no longer burning.",
+      "promptZh": "露營者用外套拍打火焰,直至火焰熄滅。",
+      "starter": "The",
+      "answer": "The campers beat the flames out with their coats.",
+      "answerZh": "露營者用外套把火焰拍熄。",
+      "highlight": "beat the flames out with",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    },
+    {
+      "id": "phrasal-verb-93-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "No one should ever repeatedly hit a person who cannot defend themselves.",
+      "promptZh": "任何人都不應反覆毆打一個無法保護自己的人。",
+      "starter": "No",
+      "answer": "No one should ever beat on a person who cannot defend themselves.",
+      "answerZh": "任何人都不應反覆毆打一個無法保護自己的人。",
+      "highlight": "beat on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "I wanted to wash the dishes, but Dad did it before me.",
+      "promptZh": "我本來想洗碗,但爸爸比我先做了。",
+      "starter": "I",
+      "answer": "I wanted to wash the dishes, but Dad beat me to it.",
+      "answerZh": "我本來想洗碗,但爸爸比我先做了。",
+      "highlight": "beat me to",
+      "targetForm": "beat somebody to it",
+      "targetMeaningZh": "比某人先完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The rescue team is using water to force the fire away from the nearby houses.",
+      "promptZh": "救援隊正用水把火勢逼離附近的房屋。",
+      "starter": "The",
+      "answer": "The rescue team is using water to beat the fire back from the nearby houses.",
+      "answerZh": "救援隊正用水把火勢逼離附近的房屋。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Can this small company successfully resist the competition from larger companies?",
+      "promptZh": "這間小公司能否成功抵抗大型公司的競爭?",
+      "starter": "Can",
+      "answer": "Can this small company beat off the competition from larger companies?",
+      "answerZh": "這間小公司能否成功抵抗大型公司的競爭?",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The door would not open, so they broke it by hitting it hard.",
+      "promptZh": "那扇門打不開,所以他們用力撞擊,把它打破。",
+      "starter": "The",
+      "answer": "The door would not open, so they beat it down.",
+      "answerZh": "那扇門打不開,所以他們用力把它撞破。",
+      "highlight": "beat",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "I planned to answer first, but Eva answered before me.",
+      "promptZh": "我本來打算先回答,但伊娃比我先答了。",
+      "starter": "I",
+      "answer": "I planned to answer first, but Eva beat me to it.",
+      "answerZh": "我本來打算先回答,但伊娃比我先答了。",
+      "highlight": "beat",
+      "targetForm": "beat somebody to it",
+      "targetMeaningZh": "比某人先完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The sun shone fiercely on them as they crossed the field.",
+      "promptZh": "他們走過田野時,陽光猛烈照射着他們。",
+      "starter": "The",
+      "answer": "The sun beat down on them as they crossed the field.",
+      "answerZh": "他們走過田野時,陽光猛烈照射着他們。",
+      "highlight": "beat down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "After small mistakes, the coach often criticises new players unfairly.",
+      "promptZh": "新球員犯下小錯後,教練經常不公平地批評他們。",
+      "starter": "After",
+      "answer": "After small mistakes, the coach often beats up on new players.",
+      "answerZh": "新球員犯下小錯後,教練經常不公平地批評他們。",
+      "highlight": "beats up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Our local bakery defeated them and got the school contract.",
+      "promptZh": "我們的本地麵包店擊敗了他們,取得學校的合約。",
+      "starter": "Our",
+      "answer": "Our local bakery beat them out for the school contract.",
+      "answerZh": "我們的本地麵包店擊敗了他們,取得學校的合約。",
+      "highlight": "beat",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "A shop successfully resisted a challenge from a new competitor.",
+      "promptZh": "一間店舖成功抵擋新競爭者的挑戰。",
+      "starter": "A",
+      "answer": "A shop beat off a challenge from a new competitor.",
+      "answerZh": "一間店舖成功抵擋新競爭者的挑戰。",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We kept blaming ourselves too much for a mistake we could not change.",
+      "promptZh": "我們一直為一個無法改變的錯誤而過度責怪自己。",
+      "starter": "We",
+      "answer": "We kept beating ourselves up over a mistake we could not change.",
+      "answerZh": "我們一直為一個無法改變的錯誤而過度責怪自己。",
+      "highlight": "beating",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The police said the attackers had badly injured him by hitting and kicking him.",
+      "promptZh": "警方表示,襲擊者曾以拳打腳踢的方式把他打傷。",
+      "starter": "The",
+      "answer": "The police said the attackers had beaten him up.",
+      "answerZh": "警方表示,襲擊者曾把他痛打一頓。",
+      "highlight": "beaten",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We persuaded him to accept £30 for the chair.",
+      "promptZh": "我們說服他以三十英鎊出售那張椅子。",
+      "starter": "We",
+      "answer": "We beat him down to £30 for the chair.",
+      "answerZh": "我們議價,使他同意以三十英鎊出售那張椅子。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The wind forced them back from the narrow path.",
+      "promptZh": "強風迫使他們從狹窄的小路退回去。",
+      "starter": "The",
+      "answer": "The wind beat them back from the narrow path.",
+      "answerZh": "強風迫使他們從狹窄的小路退回去。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "When a sleeve caught fire, the teacher stopped the flames by hitting them with a towel.",
+      "promptZh": "衣袖着火時,老師用毛巾拍打火焰,把火撲滅。",
+      "starter": "When",
+      "answer": "When a sleeve caught fire, the teacher beat the flames out with a towel.",
+      "answerZh": "衣袖着火時,老師用毛巾把火焰拍熄。",
+      "highlight": "beat",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    },
+    {
+      "id": "phrasal-verb-93-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "In the film, the gang kept hitting him again and again until the police arrived.",
+      "promptZh": "電影中,那群人不斷毆打他,直至警方到場。",
+      "starter": "In",
+      "answer": "In the film, the gang kept beating on him until the police arrived.",
+      "answerZh": "電影中,那群人不斷毆打他,直至警方到場。",
+      "highlight": "beating on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "By midday, the hot sun was shining fiercely upon the market stalls.",
+      "promptZh": "到了中午,猛烈的陽光正照射着市場攤檔。",
+      "starter": "By",
+      "answer": "By midday, the hot sun was beating down upon the market stalls.",
+      "answerZh": "到了中午,猛烈的陽光正照射着市場攤檔。",
+      "highlight": "beating down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Why are you blaming yourself so much about the test?",
+      "promptZh": "你為何因為那次測驗而如此責怪自己?",
+      "starter": "Why",
+      "answer": "Why are you beating yourself up about the test?",
+      "answerZh": "你為何因為那次測驗而如此責怪自己?",
+      "highlight": "beating",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "A young designer defeated five larger companies and won the prize.",
+      "promptZh": "一名年輕設計師擊敗五間較大的公司,贏得獎項。",
+      "starter": "A",
+      "answer": "A young designer beat out five larger companies for the prize.",
+      "answerZh": "一名年輕設計師擊敗五間較大的公司,贏得獎項。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "After ten minutes of bargaining, Priya had reduced the price by £15.",
+      "promptZh": "經過十分鐘議價後,普里雅已把價格降低十五英鎊。",
+      "starter": "After",
+      "answer": "After ten minutes of bargaining, Priya had beaten the price down by £15.",
+      "answerZh": "經過十分鐘議價後,普里雅已把價格降低十五英鎊。",
+      "highlight": "beaten",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The villagers forced the wild dogs away without anyone being hurt.",
+      "promptZh": "村民把野狗趕走,沒有人受傷。",
+      "starter": "The",
+      "answer": "The villagers beat off the wild dogs without anyone being hurt.",
+      "answerZh": "村民擊退野狗,沒有人受傷。",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The first plan failed, but we learnt from it, so we should not blame ourselves too much.",
+      "promptZh": "第一個計劃失敗了,但我們從中學到東西,因此不應過度責怪自己。",
+      "starter": "The",
+      "answer": "The first plan failed, but we learnt from it, so we should not beat ourselves up.",
+      "answerZh": "第一個計劃失敗了,但我們從中學到東西,因此不應過度責怪自己。",
+      "highlight": "beat",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "In the action film, the villain hits anyone who refuses to help him again and again.",
+      "promptZh": "在這部動作電影中,壞人會反覆毆打任何拒絕幫助他的人。",
+      "starter": "In",
+      "answer": "In the action film, the villain beats on anyone who refuses to help him.",
+      "answerZh": "在這部動作電影中,壞人會反覆毆打任何拒絕幫助他的人。",
+      "highlight": "beats on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "This café defeated nine others and won the town's best-dessert prize.",
+      "promptZh": "這間咖啡店擊敗另外九間店,贏得鎮上最佳甜品獎。",
+      "starter": "This",
+      "answer": "This café beat out nine others for the town's best-dessert prize.",
+      "answerZh": "這間咖啡店擊敗另外九間店,贏得鎮上最佳甜品獎。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Fire crews worked all night to force the fire away before it reached the village.",
+      "promptZh": "消防隊整夜工作,在火勢到達村莊前把它逼退。",
+      "starter": "Fire",
+      "answer": "Fire crews worked all night to beat the fire back before it reached the village.",
+      "answerZh": "消防隊整夜工作,在火勢到達村莊前把它逼退。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "By early afternoon, the desert sun was shining fiercely on the bus.",
+      "promptZh": "下午較早時,沙漠中的陽光正猛烈照射着巴士。",
+      "starter": "By",
+      "answer": "By early afternoon, the desert sun was beating down on the bus.",
+      "answerZh": "下午較早時,沙漠中的陽光正猛烈照射着巴士。",
+      "highlight": "beating down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The team made one mistake, so it is unfair for fans to criticise them all week.",
+      "promptZh": "球隊只犯了一個錯誤,球迷整個星期都批評他們並不公平。",
+      "starter": "The",
+      "answer": "The team made one mistake, so it is unfair for fans to beat up on them all week.",
+      "answerZh": "球隊只犯了一個錯誤,球迷整個星期都不公平地批評他們並不合理。",
+      "highlight": "beat up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The seller asked £100, but Hana persuaded him to accept £75.",
+      "promptZh": "賣家開價一百英鎊,但哈娜說服他接受七十五英鎊。",
+      "starter": "The",
+      "answer": "The seller asked £100, but Hana beat him down to £75.",
+      "answerZh": "賣家開價一百英鎊,但哈娜議價,使他接受七十五英鎊。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I hurried to reserve the room, but another club reserved it before us.",
+      "promptZh": "我趕着預訂房間,但另一個學會比我們先預訂了。",
+      "starter": "I",
+      "answer": "I hurried to reserve the room, but another club beat us to it.",
+      "answerZh": "我趕着預訂房間,但另一個學會比我們先預訂了。",
+      "highlight": "beat us to",
+      "targetForm": "beat somebody to it",
+      "targetMeaningZh": "比某人先完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The worker used a blanket to hit the flames on the floor until they stopped burning.",
+      "promptZh": "工人用毛氈拍打地上的火焰,直至火焰熄滅。",
+      "starter": "The",
+      "answer": "The worker used a blanket to beat out the flames on the floor.",
+      "answerZh": "工人用毛氈拍熄地上的火焰。",
+      "highlight": "beat out",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    },
+    {
+      "id": "phrasal-verb-93-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The news said that a man had been badly attacked outside the station.",
+      "promptZh": "新聞報道,一名男子在車站外遭人痛打。",
+      "starter": "The",
+      "answer": "The news said that a man had been beaten up outside the station.",
+      "answerZh": "新聞報道,一名男子在車站外遭人痛打。",
+      "highlight": "beaten up",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "When the key broke, the rescue team had to break the door by hitting it hard.",
+      "promptZh": "鑰匙折斷後,救援隊只好用力撞擊,把門打破。",
+      "starter": "When",
+      "answer": "When the key broke, the rescue team had to beat the door down.",
+      "answerZh": "鑰匙折斷後,救援隊只好用力把門撞破。",
+      "highlight": "beat",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The small shop lowered its costs and successfully resisted competition from stronger shops.",
+      "promptZh": "這間小店降低成本,成功抵擋實力較強店舖的競爭。",
+      "starter": "The",
+      "answer": "The small shop lowered its costs and beat off competition from stronger shops.",
+      "answerZh": "這間小店降低成本,成功抵擋實力較強店舖的競爭。",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The coach was removed after players said he had repeatedly hit one of them.",
+      "promptZh": "球員表示教練曾反覆毆打其中一人,其後教練被撤職。",
+      "starter": "The",
+      "answer": "The coach was removed after players said he had beaten on one of them.",
+      "answerZh": "球員表示教練曾反覆毆打其中一人,其後教練被撤職。",
+      "highlight": "beaten on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Kai answered before everyone else.",
+      "promptZh": "啟比其他所有人都先回答。",
+      "starter": "Kai",
+      "answer": "Kai beat everyone else to the answer.",
+      "answerZh": "啟比其他所有人都先回答。",
+      "highlight": "beat",
+      "targetForm": "beat somebody to something",
+      "targetMeaningZh": "比某人先到達、取得或完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Security staff forced the crowd back from the unsafe stage.",
+      "promptZh": "保安人員迫使人群從不安全的舞台退後。",
+      "starter": "Security",
+      "answer": "Security staff beat the crowd back from the unsafe stage.",
+      "answerZh": "保安人員迫使人群從不安全的舞台退後。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "After missing the winning shot, the player should learn from it instead of blaming himself all week.",
+      "promptZh": "球員射失致勝一球後,應從中學習,而不是整個星期責怪自己。",
+      "starter": "After",
+      "answer": "After missing the winning shot, the player should learn from it instead of beating himself up all week.",
+      "answerZh": "球員射失致勝一球後,應從中學習,而不是整個星期過度責怪自己。",
+      "highlight": "beating",
+      "targetForm": "beat yourself up",
+      "targetMeaningZh": "過度責怪自己"
+    },
+    {
+      "id": "phrasal-verb-93-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "When the fire moved towards the homes, firefighters worked together to force it away.",
+      "promptZh": "火勢移向民居時,消防員合力把它逼退。",
+      "starter": "When",
+      "answer": "When the fire moved towards the homes, firefighters worked together to beat it back.",
+      "answerZh": "火勢移向民居時,消防員合力把它逼退。",
+      "highlight": "beat",
+      "targetForm": "beat somebody/something back",
+      "targetMeaningZh": "擊退;迫使某人或某物退後"
+    },
+    {
+      "id": "phrasal-verb-93-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The police found the group that had badly attacked the student after school.",
+      "promptZh": "警方找到了放學後曾痛打該名學生的一群人。",
+      "starter": "The",
+      "answer": "The police found the group that had beaten the student up after school.",
+      "answerZh": "警方找到了放學後曾痛打該名學生的一群人。",
+      "highlight": "beaten",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "As the sun shone fiercely on the outdoor market, people moved into the shade.",
+      "promptZh": "陽光猛烈照射着露天市場時,人們走到陰涼處。",
+      "starter": "As",
+      "answer": "As the sun beat down on the outdoor market, people moved into the shade.",
+      "answerZh": "陽光猛烈照射着露天市場時,人們走到陰涼處。",
+      "highlight": "beat down",
+      "targetForm": "beat down on/upon somebody/something",
+      "targetMeaningZh": "表示太陽或熱力猛烈照射在某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-93-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "They could not reach the injured man until they broke the locked door by hitting it hard.",
+      "promptZh": "他們用力撞破上鎖的門後,才能接觸受傷的男子。",
+      "starter": "They",
+      "answer": "They could not reach the injured man until they beat the locked door down.",
+      "answerZh": "他們用力撞破上鎖的門後,才能接觸受傷的男子。",
+      "highlight": "beat",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "I was about to share the news, but my sister shared it before me.",
+      "promptZh": "我正準備分享消息,但妹妹比我先說了。",
+      "starter": "I",
+      "answer": "I was about to share the news, but my sister beat me to it.",
+      "answerZh": "我正準備分享消息,但妹妹比我先說了。",
+      "highlight": "beat me to",
+      "targetForm": "beat somebody to it",
+      "targetMeaningZh": "比某人先完成某事"
+    },
+    {
+      "id": "phrasal-verb-93-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The new worker needs help, not colleagues who criticise him unfairly for every small error.",
+      "promptZh": "新員工需要幫助,而不是同事因每個小錯誤而不公平地批評他。",
+      "starter": "The",
+      "answer": "The new worker needs help, not colleagues beating up on him for every small error.",
+      "answerZh": "新員工需要幫助,而不是同事因每個小錯誤而不公平地批評他。",
+      "highlight": "beating up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The local team defeated two larger clubs and earned a place in the final event.",
+      "promptZh": "本地球隊擊敗兩間較大的球會,取得決賽活動的席位。",
+      "starter": "The",
+      "answer": "The local team beat out two larger clubs for a place in the final event.",
+      "answerZh": "本地球隊擊敗兩間較大的球會,取得決賽活動的席位。",
+      "highlight": "beat out",
+      "targetForm": "beat somebody out (for something)",
+      "targetMeaningZh": "擊敗其他人以取得某物、機會或位置"
+    },
+    {
+      "id": "phrasal-verb-93-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Seeing flames on the grass, the walkers used their jackets to hit them until they stopped burning.",
+      "promptZh": "步行者看見草地上有火焰,便用外套拍打,直至火焰熄滅。",
+      "starter": "Seeing",
+      "answer": "Seeing flames on the grass, the walkers used their jackets to beat them out.",
+      "answerZh": "步行者看見草地上有火焰,便用外套把火焰拍熄。",
+      "highlight": "beat",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    },
+    {
+      "id": "phrasal-verb-93-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The company improved its service and successfully resisted the strongest challenge from a rival.",
+      "promptZh": "公司改善服務,成功抵擋競爭對手最強的挑戰。",
+      "starter": "The",
+      "answer": "The company improved its service and beat off the strongest challenge from a rival.",
+      "answerZh": "公司改善服務,成功抵擋競爭對手最強的挑戰。",
+      "highlight": "beat off",
+      "targetForm": "beat somebody/something off",
+      "targetMeaningZh": "擊退攻擊者;成功抵抗挑戰或競爭"
+    },
+    {
+      "id": "phrasal-verb-93-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "We liked the bike, but we only bought it after persuading the seller to reduce the price to £90.",
+      "promptZh": "我們喜歡那輛單車,但要到說服賣家把價格降至九十英鎊後才購買。",
+      "starter": "We",
+      "answer": "We liked the bike, but we only bought it after beating the price down to £90.",
+      "answerZh": "我們喜歡那輛單車,但要到議價把價格降至九十英鎊後才購買。",
+      "highlight": "beating",
+      "targetForm": "beat somebody/something down",
+      "targetMeaningZh": "議價,使對方降低價格"
+    },
+    {
+      "id": "phrasal-verb-93-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The film shows the hero stopping a gang from hitting a man in the street again and again.",
+      "promptZh": "電影中,英雄阻止一群人在街上反覆毆打一名男子。",
+      "starter": "The",
+      "answer": "The film shows the hero stopping a gang from beating on a man in the street.",
+      "answerZh": "電影中,英雄阻止一群人在街上反覆毆打一名男子。",
+      "highlight": "beating on",
+      "targetForm": "beat on somebody",
+      "targetMeaningZh": "反覆毆打某人"
+    },
+    {
+      "id": "phrasal-verb-93-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "No one should be badly attacked simply for refusing to give a thief money.",
+      "promptZh": "任何人都不應只因拒絕把錢交給小偷而遭到痛打。",
+      "starter": "No",
+      "answer": "No one should be beaten up simply for refusing to give a thief money.",
+      "answerZh": "任何人都不應只因拒絕把錢交給小偷而遭到痛打。",
+      "highlight": "beaten up",
+      "targetForm": "beat somebody up",
+      "targetMeaningZh": "把某人痛打或打傷"
+    },
+    {
+      "id": "phrasal-verb-93-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Why do people criticise her unfairly when others made the same mistake?",
+      "promptZh": "其他人也犯了同樣的錯誤,為何大家仍不公平地批評她?",
+      "starter": "Why",
+      "answer": "Why do people beat up on her when others made the same mistake?",
+      "answerZh": "其他人也犯了同樣的錯誤,為何大家仍不公平地批評她?",
+      "highlight": "beat up on",
+      "targetForm": "beat up on somebody",
+      "targetMeaningZh": "用言語攻擊、不公平地責罵或批評某人"
+    },
+    {
+      "id": "phrasal-verb-93-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The rescue workers entered after the gate had been broken by heavy blows.",
+      "promptZh": "大閘被重擊撞破後,救援人員進入現場。",
+      "starter": "The",
+      "answer": "The rescue workers entered after the gate had been beaten down.",
+      "answerZh": "大閘被重擊撞破後,救援人員進入現場。",
+      "highlight": "beaten down",
+      "targetForm": "beat something down",
+      "targetMeaningZh": "用力打破或撞倒某物"
+    },
+    {
+      "id": "phrasal-verb-93-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The final small flame was stopped with a wet coat before it reached the trees.",
+      "promptZh": "最後一小團火焰在蔓延至樹木前被人用濕外套撲滅。",
+      "starter": "The",
+      "answer": "The final small flame was beaten out with a wet coat before it reached the trees.",
+      "answerZh": "最後一小團火焰在蔓延至樹木前被人用濕外套拍熄。",
+      "highlight": "beaten out",
+      "targetForm": "beat something out",
+      "targetMeaningZh": "拍打或覆蓋以撲滅火焰"
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+{
+  "id": "phrasal-verb-184",
+  "order": 184,
+  "slug": "come-in",
+  "version": "1",
+  "title": "COME IN 動詞片語",
+  "titleEn": "Come In",
+  "titleZh": "COME IN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 183 - COME IN.pdf",
+    "sourceNumber": 183,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME IN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME IN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME IN",
+      "highlight": "COME IN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The tide comes in at about six.",
+      "zh": "[潮水大約在六時漲上來。]",
+      "highlight": "comes in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The plan came in for strong criticism.",
+      "zh": "[這項計劃受到強烈批評。]",
+      "highlight": "came in for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I came in with them on the gift.",
+      "zh": "[我和他們一起出錢買了那份禮物。]",
+      "highlight": "came in with them on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "指潮水向岸邊湧來或漲上來；受到批評、責備或其他反應；與某人一起出錢或分擔費用；進入房間、建築物或其他地方；到辦公室上班或辦事；開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+    "en": "come in; come in for something; come in with somebody on something / come in on something with somebody; come in / come into something; come in / come into the office; come into something",
+    "naturalZh": [
+      "指潮水向岸邊湧來或漲上來",
+      "受到批評、責備或其他反應",
+      "與某人一起出錢或分擔費用",
+      "進入房間、建築物或其他地方",
+      "到辦公室上班或辦事",
+      "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come in",
+      "titleZh": "指潮水向岸邊湧來或漲上來",
+      "titleEn": "come in",
+      "descriptionZh": "指潮水向岸邊湧來或漲上來",
+      "descriptionEn": "The tide comes in at about six.",
+      "examples": [
+        {
+          "en": "The tide comes in at about six.",
+          "zh": "[潮水大約在六時漲上來。]",
+          "highlight": "comes in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come in for something",
+      "titleZh": "受到批評、責備或其他反應",
+      "titleEn": "come in for something",
+      "descriptionZh": "受到批評、責備或其他反應",
+      "descriptionEn": "The plan came in for strong criticism.",
+      "examples": [
+        {
+          "en": "The plan came in for strong criticism.",
+          "zh": "[這項計劃受到強烈批評。]",
+          "highlight": "came in for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come in with somebody on something / come in on something with somebody",
+      "titleZh": "與某人一起出錢或分擔費用",
+      "titleEn": "come in with somebody on something / come in on something with somebody",
+      "descriptionZh": "與某人一起出錢或分擔費用",
+      "descriptionEn": "I came in with them on the gift.",
+      "examples": [
+        {
+          "en": "I came in with them on the gift.",
+          "zh": "[我和他們一起出錢買了那份禮物。]",
+          "highlight": "came in with them on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come in / come into something",
+      "titleZh": "進入房間、建築物或其他地方",
+      "titleEn": "come in / come into something",
+      "descriptionZh": "進入房間、建築物或其他地方",
+      "descriptionEn": "Please come in and sit down.",
+      "examples": [
+        {
+          "en": "Please come in and sit down.",
+          "zh": "[請進來坐下。]",
+          "highlight": "come in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come in / come into the office",
+      "titleZh": "到辦公室上班或辦事",
+      "titleEn": "come in / come into the office",
+      "descriptionZh": "到辦公室上班或辦事",
+      "descriptionEn": "Are you coming into the office tomorrow?",
+      "examples": [
+        {
+          "en": "Are you coming into the office tomorrow?",
+          "zh": "[你明天會到辦公室嗎?]",
+          "highlight": "coming into"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come into something",
+      "titleZh": "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+      "titleEn": "come into something",
+      "descriptionZh": "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+      "descriptionEn": "The trees are coming into blossom.",
+      "examples": [
+        {
+          "en": "The trees are coming into blossom.",
+          "zh": "[樹木正開始開花。]",
+          "highlight": "coming into"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME IN 片語動詞的實際用途",
+    "labelEn": "COME IN Phrasal Verbs in Use",
+    "summaryZh": "come in 可以描述潮水湧向岸邊,並逐漸覆蓋更多沙灘。；當某人進入房間或員工到辦公室時,都可以使用 COME IN。；come in with somebody on something 可以用來談論一起出錢購買禮物或其他物品。；come in for 可以表示受到批評;come into 則可以表示某事物出現在眼前、開始使用或生效。",
+    "summaryEn": "COME IN can describe the tide moving towards the shore and covering more of the beach. You can use COME IN when someone enters a room and when a worker goes to the office. COME IN WITH SOMEBODY ON SOMETHING helps you discuss buying a present or another item together. COME IN FOR can describe receiving criticism, while COME INTO can describe something becoming visible, starting to be used or taking effect.",
+    "contextsZh": [
+      "自然談論海水和潮汐",
+      "清楚描述進入不同地方",
+      "談論共同分擔費用",
+      "描述受到批評和狀態轉變"
+    ],
+    "contextsEn": [
+      "Talk naturally about the sea and tides",
+      "Describe entering different places clearly",
+      "Talk about sharing the cost of something",
+      "Describe criticism and changes of state"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME IN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME IN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come in",
+    "fixedHighlight": "come in",
+    "fixedZh": "閱讀整句,選出意思相同的 COME IN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME IN expression that gives the same meaning.",
+    "correct": "comes in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；COME IN 可以描述潮水上漲、進入某處或到辦公室。請仔細閱讀完整情境。；當多人一起分擔費用時,答案須保留一起出錢的人和所購買的東西。",
+    "variableEn": "Keep the same people, things, time and meaning. COME IN can describe a tide, entering a place or going to an office. Read the full situation carefully. When people share the cost of something, keep both the people and the thing they are paying for: come in with us on the gift come in on the gift with us",
+    "variableItemsZh": [
+      "come in",
+      "come in for something",
+      "come in with somebody on something / come in on something with somebody",
+      "come in / come into something",
+      "come in / come into the office",
+      "come into something"
+    ],
+    "variableItemsEn": [
+      "come in",
+      "come in for something",
+      "come in with somebody on something / come in on something with somebody",
+      "come in / come into something",
+      "come in / come into the office",
+      "come into something"
+    ],
+    "forms": [
+      {
+        "formZh": "指潮水向岸邊湧來或漲上來",
+        "formEn": "come in",
+        "exampleZh": "[潮水大約在六時漲上來。]",
+        "exampleEn": "The tide comes in at about six.",
+        "highlight": "comes in"
+      },
+      {
+        "formZh": "受到批評、責備或其他反應",
+        "formEn": "come in for something",
+        "exampleZh": "[這項計劃受到強烈批評。]",
+        "exampleEn": "The plan came in for strong criticism.",
+        "highlight": "came in for"
+      },
+      {
+        "formZh": "與某人一起出錢或分擔費用",
+        "formEn": "come in with somebody on something / come in on something with somebody",
+        "exampleZh": "[我和他們一起出錢買了那份禮物。]",
+        "exampleEn": "I came in with them on the gift.",
+        "highlight": "came in with them on"
+      },
+      {
+        "formZh": "進入房間、建築物或其他地方",
+        "formEn": "come in / come into something",
+        "exampleZh": "[請進來坐下。]",
+        "exampleEn": "Please come in and sit down.",
+        "highlight": "come in"
+      },
+      {
+        "formZh": "到辦公室上班或辦事",
+        "formEn": "come in / come into the office",
+        "exampleZh": "[你明天會到辦公室嗎?]",
+        "exampleEn": "Are you coming into the office tomorrow?",
+        "highlight": "coming into"
+      },
+      {
+        "formZh": "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+        "formEn": "come into something",
+        "exampleZh": "[樹木正開始開花。]",
+        "exampleEn": "The trees are coming into blossom.",
+        "highlight": "coming into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "指潮水向岸邊湧來或漲上來",
+      "titleEn": "come in",
+      "formula": "come in",
+      "highlight": "come in",
+      "descriptionZh": "指潮水向岸邊湧來或漲上來",
+      "descriptionEn": "The tide comes in at about six.",
+      "examples": [
+        {
+          "en": "The tide comes in at about six.",
+          "zh": "[潮水大約在六時漲上來。]",
+          "highlight": "comes in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "受到批評、責備或其他反應",
+      "titleEn": "come in for something",
+      "formula": "come in for something",
+      "highlight": "come in for something",
+      "descriptionZh": "受到批評、責備或其他反應",
+      "descriptionEn": "The plan came in for strong criticism.",
+      "examples": [
+        {
+          "en": "The plan came in for strong criticism.",
+          "zh": "[這項計劃受到強烈批評。]",
+          "highlight": "came in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "與某人一起出錢或分擔費用",
+      "titleEn": "come in with somebody on something / come in on something with somebody",
+      "formula": "come in with somebody on something / come in on something with somebody",
+      "highlight": "come in with somebody on something / come in on something with somebody",
+      "descriptionZh": "與某人一起出錢或分擔費用",
+      "descriptionEn": "I came in with them on the gift.",
+      "examples": [
+        {
+          "en": "I came in with them on the gift.",
+          "zh": "[我和他們一起出錢買了那份禮物。]",
+          "highlight": "came in with them on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "進入房間、建築物或其他地方",
+      "titleEn": "come in / come into something",
+      "formula": "come in / come into something",
+      "highlight": "come in / come into something",
+      "descriptionZh": "進入房間、建築物或其他地方",
+      "descriptionEn": "Please come in and sit down.",
+      "examples": [
+        {
+          "en": "Please come in and sit down.",
+          "zh": "[請進來坐下。]",
+          "highlight": "come in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "到辦公室上班或辦事",
+      "titleEn": "come in / come into the office",
+      "formula": "come in / come into the office",
+      "highlight": "come in / come into the office",
+      "descriptionZh": "到辦公室上班或辦事",
+      "descriptionEn": "Are you coming into the office tomorrow?",
+      "examples": [
+        {
+          "en": "Are you coming into the office tomorrow?",
+          "zh": "[你明天會到辦公室嗎?]",
+          "highlight": "coming into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+      "titleEn": "come into something",
+      "formula": "come into something",
+      "highlight": "come into something",
+      "descriptionZh": "開始進入某種狀態,例如開花、生效、投入使用或出現在眼前",
+      "descriptionEn": "The trees are coming into blossom.",
+      "examples": [
+        {
+          "en": "The trees are coming into blossom.",
+          "zh": "[樹木正開始開花。]",
+          "highlight": "coming into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論海水和潮汐",
+      "titleEn": "Talk naturally about the sea and tides",
+      "zh": "come in 可以描述潮水湧向岸邊,並逐漸覆蓋更多沙灘。",
+      "en": "COME IN can describe the tide moving towards the shore and covering more of the beach."
+    },
+    {
+      "titleZh": "清楚描述進入不同地方",
+      "titleEn": "Describe entering different places clearly",
+      "zh": "當某人進入房間或員工到辦公室時,都可以使用 COME IN。",
+      "en": "You can use COME IN when someone enters a room and when a worker goes to the office."
+    },
+    {
+      "titleZh": "談論共同分擔費用",
+      "titleEn": "Talk about sharing the cost of something",
+      "zh": "come in with somebody on something 可以用來談論一起出錢購買禮物或其他物品。",
+      "en": "COME IN WITH SOMEBODY ON SOMETHING helps you discuss buying a present or another item together."
+    },
+    {
+      "titleZh": "描述受到批評和狀態轉變",
+      "titleEn": "Describe criticism and changes of state",
+      "zh": "come in for 可以表示受到批評;come into 則可以表示某事物出現在眼前、開始使用或生效。",
+      "en": "COME IN FOR can describe receiving criticism, while COME INTO can describe something becoming visible, starting to be used or taking effect."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論海水和潮汐",
+      "清楚描述進入不同地方",
+      "談論共同分擔費用",
+      "描述受到批評和狀態轉變"
+    ],
+    "contextsEn": [
+      "Talk naturally about the sea and tides",
+      "Describe entering different places clearly",
+      "Talk about sharing the cost of something",
+      "Describe criticism and changes of state"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論海水和潮汐",
+        "titleEn": "Talk naturally about the sea and tides",
+        "zh": "come in 可以描述潮水湧向岸邊,並逐漸覆蓋更多沙灘。",
+        "en": "COME IN can describe the tide moving towards the shore and covering more of the beach.",
+        "examples": [
+          {
+            "en": "The tide comes in at about six.",
+            "zh": "[潮水大約在六時漲上來。]",
+            "highlight": "comes in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述進入不同地方",
+        "titleEn": "Describe entering different places clearly",
+        "zh": "當某人進入房間或員工到辦公室時,都可以使用 COME IN。",
+        "en": "You can use COME IN when someone enters a room and when a worker goes to the office.",
+        "examples": [
+          {
+            "en": "The plan came in for strong criticism.",
+            "zh": "[這項計劃受到強烈批評。]",
+            "highlight": "came in for"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論共同分擔費用",
+        "titleEn": "Talk about sharing the cost of something",
+        "zh": "come in with somebody on something 可以用來談論一起出錢購買禮物或其他物品。",
+        "en": "COME IN WITH SOMEBODY ON SOMETHING helps you discuss buying a present or another item together.",
+        "examples": [
+          {
+            "en": "I came in with them on the gift.",
+            "zh": "[我和他們一起出錢買了那份禮物。]",
+            "highlight": "came in with them on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述受到批評和狀態轉變",
+        "titleEn": "Describe criticism and changes of state",
+        "zh": "come in for 可以表示受到批評;come into 則可以表示某事物出現在眼前、開始使用或生效。",
+        "en": "COME IN FOR can describe receiving criticism, while COME INTO can describe something becoming visible, starting to be used or taking effect.",
+        "examples": [
+          {
+            "en": "Please come in and sit down.",
+            "zh": "[請進來坐下。]",
+            "highlight": "come in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME IN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME IN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME IN 片語動詞。",
+      "en": "Read the whole sentence and choose the COME IN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "COME IN 可以描述潮水上漲、進入某處或到辦公室。請仔細閱讀完整情境。",
+      "titleEn": "COME IN can describe a tide, entering a place or going to an office.",
+      "zh": "COME IN 可以描述潮水上漲、進入某處或到辦公室。請仔細閱讀完整情境。",
+      "en": "COME IN can describe a tide, entering a place or going to an office. Read the full situation carefully."
+    },
+    {
+      "titleZh": "當多人一起分擔費用時,答案須保留一起出錢的人和所購買的東西。",
+      "titleEn": "When people share the cost of something, keep both the people and the thing they are paying for: come in with us on the gift come in on the gift with us.",
+      "zh": "當多人一起分擔費用時,答案須保留一起出錢的人和所購買的東西。",
+      "en": "When people share the cost of something, keep both the people and the thing they are paying for: come in with us on the gift come in on the gift with us"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME IN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME IN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME IN 動詞片語句子改寫練習",
+    "titleEn": "COME IN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME IN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME IN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-184-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The tide was moving towards the beach fast.",
+      "promptZh": "[潮水正迅速湧向沙灘。]",
+      "starter": "The",
+      "answer": "The tide was coming in fast.",
+      "answerZh": "[潮水正迅速漲上沙灘。]",
+      "highlight": "coming in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I knocked, and a voice told me to enter.",
+      "promptZh": "[我敲了門,一把聲音叫我進去。]",
+      "starter": "I",
+      "answer": "I knocked, and a voice said, “Come in.”",
+      "answerZh": "[我敲了門,一把聲音說:「請進。」]",
+      "highlight": "said, “Come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The new rule received strong criticism from parents.",
+      "promptZh": "[新規則受到家長的強烈批評。]",
+      "starter": "The",
+      "answer": "The new rule came in for strong criticism from parents.",
+      "answerZh": "[新規則受到家長的強烈批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The cherry trees are starting to blossom.",
+      "promptZh": "[櫻桃樹正開始開花。]",
+      "starter": "The",
+      "answer": "The cherry trees are coming into blossom.",
+      "answerZh": "[櫻桃樹正開始開花。]",
+      "highlight": "coming into",
+      "targetForm": "come into something",
+      "targetMeaningZh": "開始進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-184-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Would you like to share the cost of a present for Leo with me?",
+      "promptZh": "[你想和我一起分擔送給里奧的禮物費用嗎?]",
+      "starter": "Would",
+      "answer": "Would you like to come in with me on a present for Leo?",
+      "answerZh": "[你想和我一起出錢買一份送給里奧的禮物嗎?]",
+      "highlight": "come in with me on",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Are you going to the office tomorrow?",
+      "promptZh": "[你明天會到辦公室嗎?]",
+      "starter": "Are",
+      "answer": "Are you coming into the office tomorrow?",
+      "answerZh": "[你明天會到辦公室嗎?]",
+      "highlight": "coming into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The teacher entered the classroom and closed the door.",
+      "promptZh": "[老師走進課室並關上門。]",
+      "starter": "The",
+      "answer": "The teacher came into the classroom and closed the door.",
+      "answerZh": "[老師走進課室並關上門。]",
+      "highlight": "came into",
+      "targetForm": "come into something",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "At sunset, the tide reached farther up the beach than before.",
+      "promptZh": "[日落時,潮水漲得比之前更高。]",
+      "starter": "At",
+      "answer": "At sunset, the tide came in farther than before.",
+      "answerZh": "[日落時,潮水漲得比之前更高。]",
+      "highlight": "came in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Daniel will arrive at the office early on Monday.",
+      "promptZh": "[丹尼爾星期一會提早到辦公室。]",
+      "starter": "Daniel",
+      "answer": "Daniel will come into the office early on Monday.",
+      "answerZh": "[丹尼爾星期一會提早到辦公室。]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nina agreed to share the cost of the flowers with us.",
+      "promptZh": "[妮娜同意和我們一起分擔鮮花的費用。]",
+      "starter": "Nina",
+      "answer": "Nina agreed to come in with us on the cost of the flowers.",
+      "answerZh": "[妮娜同意和我們一起出錢買鮮花。]",
+      "highlight": "come in with us on",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起分擔費用"
+    },
+    {
+      "id": "phrasal-verb-184-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "After the turn, the mountains became visible.",
+      "promptZh": "[轉彎後,群山出現在眼前。]",
+      "starter": "After",
+      "answer": "After the turn, the mountains came into view.",
+      "answerZh": "[轉彎後,群山映入眼簾。]",
+      "highlight": "came into view",
+      "targetForm": "come into view",
+      "targetMeaningZh": "出現在眼前"
+    },
+    {
+      "id": "phrasal-verb-184-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "His idea received a lot of criticism at the meeting.",
+      "promptZh": "[他的構思在會議上受到很多批評。]",
+      "starter": "His",
+      "answer": "His idea came in for a lot of criticism at the meeting.",
+      "answerZh": "[他的構思在會議上受到很多批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The plan may receive criticism because it costs too much.",
+      "promptZh": "[這項計劃可能會因為費用太高而受到批評。]",
+      "starter": "The",
+      "answer": "The plan may come in for criticism because it costs too much.",
+      "answerZh": "[這項計劃可能會因為費用太高而受到批評。]",
+      "highlight": "come in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Rosa is going to the office this afternoon.",
+      "promptZh": "[羅莎今天下午會到辦公室。]",
+      "starter": "Rosa",
+      "answer": "Rosa is coming into the office this afternoon.",
+      "answerZh": "[羅莎今天下午會到辦公室。]",
+      "highlight": "coming into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The tide is moving towards the shore now.",
+      "promptZh": "[潮水現在正湧向岸邊。]",
+      "starter": "The",
+      "answer": "The tide is coming in now.",
+      "answerZh": "[潮水現在正漲上來。]",
+      "highlight": "coming in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are you going to share the cost of the class gift with us?",
+      "promptZh": "[你會和我們一起分擔班級禮物的費用嗎?]",
+      "starter": "Are",
+      "answer": "Are you going to come in on the class gift with us?",
+      "answerZh": "[你會和我們一起出錢買班級禮物嗎?]",
+      "highlight": "come in on",
+      "targetForm": "come in on something with somebody",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The new school timetable will start to be used next Monday.",
+      "promptZh": "[新校內時間表將於下星期一開始使用。]",
+      "starter": "The",
+      "answer": "The new school timetable will come into use next Monday.",
+      "answerZh": "[新校內時間表將於下星期一開始使用。]",
+      "highlight": "come into use",
+      "targetForm": "come into use",
+      "targetMeaningZh": "開始投入使用"
+    },
+    {
+      "id": "phrasal-verb-184-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "May I enter now?",
+      "promptZh": "[我現在可以進來嗎?]",
+      "starter": "May",
+      "answer": "May I come in now?",
+      "answerZh": "[我現在可以進來嗎?]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Will the tide move towards the beach before dark?",
+      "promptZh": "[天黑前潮水會湧向沙灘嗎?]",
+      "starter": "Will",
+      "answer": "Will the tide come in before dark?",
+      "answerZh": "[天黑前會漲潮嗎?]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has the new app received much criticism from users?",
+      "promptZh": "[這款新應用程式受到用戶很多批評嗎?]",
+      "starter": "Has",
+      "answer": "Has the new app come in for much criticism from users?",
+      "answerZh": "[這款新應用程式受到用戶很多批評嗎?]",
+      "highlight": "come in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The cat is entering through the open window.",
+      "promptZh": "[貓正從打開的窗戶進來。]",
+      "starter": "The",
+      "answer": "The cat is coming in through the open window.",
+      "answerZh": "[貓正從打開的窗戶進來。]",
+      "highlight": "coming in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The roses are beginning to flower now.",
+      "promptZh": "[玫瑰現在開始開花。]",
+      "starter": "The",
+      "answer": "The roses are coming into flower now.",
+      "answerZh": "[玫瑰現在開始開花。]",
+      "highlight": "coming into",
+      "targetForm": "come into flower",
+      "targetMeaningZh": "開始開花"
+    },
+    {
+      "id": "phrasal-verb-184-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can you visit the office at nine tomorrow?",
+      "promptZh": "[你明天九時可以到辦公室嗎?]",
+      "starter": "Can",
+      "answer": "Can you come into the office at nine tomorrow?",
+      "answerZh": "[你明天九時可以到辦公室嗎?]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I cannot share the cost of the new coffee machine with you this month.",
+      "promptZh": "[這個月我不能和你一起分擔新咖啡機的費用。]",
+      "starter": "I",
+      "answer": "I cannot come in with you on the new coffee machine this month.",
+      "answerZh": "[這個月我不能和你一起出錢買新咖啡機。]",
+      "highlight": "come in with you on",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起分擔費用"
+    },
+    {
+      "id": "phrasal-verb-184-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We are buying a birthday cake for our teacher. Would you like to pay part of it with us?",
+      "promptZh": "[我們正為老師買生日蛋糕。你想和我們一起出一部分錢嗎?]",
+      "starter": "We",
+      "answer": "We are buying a birthday cake for our teacher. Would you like to come in on it with us?",
+      "answerZh": "[我們正為老師買生日蛋糕。你想和我們一起出錢嗎?]",
+      "highlight": "come in on",
+      "targetForm": "come in on something with somebody",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We left the rocks because the tide had already moved towards the shore.",
+      "promptZh": "[我們離開岩石,因為潮水已經湧向岸邊。]",
+      "starter": "We",
+      "answer": "We left the rocks because the tide had already come in.",
+      "answerZh": "[我們離開岩石,因為潮水已經漲上來。]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We walked past the trees, and the lake slowly became visible ahead of us.",
+      "promptZh": "[我們走過樹木,前方的湖慢慢出現在眼前。]",
+      "starter": "We",
+      "answer": "We walked past the trees, and the lake slowly came into view ahead of us.",
+      "answerZh": "[我們走過樹木,前方的湖慢慢映入眼簾。]",
+      "highlight": "came into view",
+      "targetForm": "come into view",
+      "targetMeaningZh": "出現在眼前"
+    },
+    {
+      "id": "phrasal-verb-184-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The new lunch menu has received strong criticism since it was introduced.",
+      "promptZh": "[新午餐餐單推出後一直受到強烈批評。]",
+      "starter": "The",
+      "answer": "The new lunch menu has come in for strong criticism since it was introduced.",
+      "answerZh": "[新午餐餐單推出後一直受到強烈批評。]",
+      "highlight": "come in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We were waiting in the kitchen when Dad entered.",
+      "promptZh": "[爸爸走進來時,我們正在廚房等候。]",
+      "starter": "We",
+      "answer": "We were waiting in the kitchen when Dad came in.",
+      "answerZh": "[爸爸走進來時,我們正在廚房等候。]",
+      "highlight": "came in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The manager asked Ben to report to the office before the meeting.",
+      "promptZh": "[經理要求賓在會議前到辦公室。]",
+      "starter": "The",
+      "answer": "The manager asked Ben to come into the office before the meeting.",
+      "answerZh": "[經理要求賓在會議前到辦公室。]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She did not enter the room until I called her name.",
+      "promptZh": "[直到我叫她的名字,她才進入房間。]",
+      "starter": "She",
+      "answer": "She did not come into the room until I called her name.",
+      "answerZh": "[直到我叫她的名字,她才進入房間。]",
+      "highlight": "come into",
+      "targetForm": "come into something",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Omar asked whether he could join us in paying for the leaving present.",
+      "promptZh": "[奧馬問他可否和我們一起出錢買離職禮物。]",
+      "starter": "Omar",
+      "answer": "Omar asked whether he could come in with us on the leaving present.",
+      "answerZh": "[奧馬問他可否和我們一起出錢買離職禮物。]",
+      "highlight": "come in with",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "I am working from home today, but I will go to the office tomorrow.",
+      "promptZh": "[我今天在家工作,但明天會到辦公室。]",
+      "starter": "I",
+      "answer": "I am working from home today, but I will come in tomorrow.",
+      "answerZh": "[我今天在家工作,但明天會到辦公室。]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The coach received unfair criticism after one bad game.",
+      "promptZh": "[教練在一場表現不佳的比賽後受到不公平的批評。]",
+      "starter": "The",
+      "answer": "The coach came in for unfair criticism after one bad game.",
+      "answerZh": "[教練在一場表現不佳的比賽後受到不公平的批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Watch the children. The tide is moving higher up the beach.",
+      "promptZh": "[看好孩子們。潮水正在漲得更高,湧上沙灘。]",
+      "starter": "Watch",
+      "answer": "Watch the children. The tide is coming in.",
+      "answerZh": "[看好孩子們。潮水正在漲上來。]",
+      "highlight": "coming in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The new rule has started to operate this week.",
+      "promptZh": "[新規則本星期已開始生效。]",
+      "starter": "The",
+      "answer": "The new rule has come into effect this week.",
+      "answerZh": "[新規則本星期已開始生效。]",
+      "highlight": "come into effect",
+      "targetForm": "come into effect",
+      "targetMeaningZh": "開始生效"
+    },
+    {
+      "id": "phrasal-verb-184-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "In early spring, the first apple trees begin to blossom before the others.",
+      "promptZh": "[初春時,第一批蘋果樹比其他樹更早開始開花。]",
+      "starter": "In",
+      "answer": "In early spring, the first apple trees come into blossom before the others.",
+      "answerZh": "[初春時,第一批蘋果樹比其他樹更早開始開花。]",
+      "highlight": "come into",
+      "targetForm": "come into blossom",
+      "targetMeaningZh": "開始開花"
+    },
+    {
+      "id": "phrasal-verb-184-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Although the event was well organised, the high ticket price received criticism.",
+      "promptZh": "[雖然活動安排得很好,但高昂票價仍受到批評。]",
+      "starter": "Although",
+      "answer": "Although the event was well organised, the high ticket price came in for criticism.",
+      "answerZh": "[雖然活動安排得很好,但高昂票價仍受到批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After I opened the front door, the cool air entered and made the hall cold.",
+      "promptZh": "[我打開前門後,涼風吹了進來,令大堂變冷。]",
+      "starter": "After",
+      "answer": "After I opened the front door, the cool air came in and made the hall cold.",
+      "answerZh": "[我打開前門後,涼風吹了進來,令大堂變冷。]",
+      "highlight": "came in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "As the tide moved towards the land, the small path disappeared under the water.",
+      "promptZh": "[隨着潮水向陸地湧來,小路被水淹沒了。]",
+      "starter": "As",
+      "answer": "As the tide came in, the small path disappeared under the water.",
+      "answerZh": "[隨着潮水漲上來,小路被水淹沒了。]",
+      "highlight": "came in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Only two people went to the office during the storm, while everyone else worked from home.",
+      "promptZh": "[暴風雨期間只有兩人到辦公室,其他人都在家工作。]",
+      "starter": "Only",
+      "answer": "Only two people came into the office during the storm, while everyone else worked from home.",
+      "answerZh": "[暴風雨期間只有兩人到辦公室,其他人都在家工作。]",
+      "highlight": "came into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The club members are buying new speakers together, and Priya wants to pay part of the cost with them.",
+      "promptZh": "[社團成員正一起買新喇叭,普里雅想和他們一起分擔費用。]",
+      "starter": "The",
+      "answer": "The club members are buying new speakers together, and Priya wants to come in with them on the new speakers.",
+      "answerZh": "[社團成員正一起買新喇叭,普里雅想和他們一起出錢。]",
+      "highlight": "come in",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起分擔費用"
+    },
+    {
+      "id": "phrasal-verb-184-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The company’s new advert received criticism because people found it confusing.",
+      "promptZh": "[公司的新廣告因令人感到困惑而受到批評。]",
+      "starter": "The",
+      "answer": "The company’s new advert came in for criticism because people found it confusing.",
+      "answerZh": "[公司的新廣告因令人感到困惑而受到批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The old sports hall was repaired and started to be used again last month.",
+      "promptZh": "[舊體育館經修理後,上月重新開始使用。]",
+      "starter": "The",
+      "answer": "The old sports hall came into use again last month.",
+      "answerZh": "[舊體育館經修理後,上月重新開始使用。]",
+      "highlight": "came into use",
+      "targetForm": "come into use",
+      "targetMeaningZh": "開始投入使用"
+    },
+    {
+      "id": "phrasal-verb-184-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I was not planning to buy the group gift, but I have decided to share the cost with everyone else.",
+      "promptZh": "[我原本不打算買團體禮物,但我決定和其他人一起分擔費用。]",
+      "starter": "I",
+      "answer": "I was not planning to buy the group gift, but I have decided to come in on it with everyone else.",
+      "answerZh": "[我原本不打算買團體禮物,但我決定和其他人一起出錢。]",
+      "highlight": "come in on it",
+      "targetForm": "come in on something with somebody",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I am already at work. Will you visit the office after lunch to sign the form?",
+      "promptZh": "[我已經在工作地點。你午飯後會到辦公室簽表格嗎?]",
+      "starter": "I",
+      "answer": "I am already at work. Will you come into the office after lunch to sign the form?",
+      "answerZh": "[我已經在工作地點。你午飯後會到辦公室簽表格嗎?]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The visitors entered the hall quietly while the music was playing.",
+      "promptZh": "[音樂播放時,訪客安靜地走進大堂。]",
+      "starter": "The",
+      "answer": "The visitors came into the hall quietly while the music was playing.",
+      "answerZh": "[音樂播放時,訪客安靜地走進大堂。]",
+      "highlight": "came into",
+      "targetForm": "come into something",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The tide did not move as far up the beach as we expected.",
+      "promptZh": "[潮水沒有像我們預期般漲得那麼高。]",
+      "starter": "The",
+      "answer": "The tide did not come in as far as we expected.",
+      "answerZh": "[潮水沒有像我們預期般漲得那麼高。]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Although the team usually works from home on Fridays, everyone has been asked to visit the office for the final meeting.",
+      "promptZh": "[雖然團隊通常星期五在家工作,但所有人都被要求到辦公室參加最後會議。]",
+      "starter": "Although",
+      "answer": "Although the team usually works from home on Fridays, everyone has been asked to come into the office for the final meeting.",
+      "answerZh": "[雖然團隊通常星期五在家工作,但所有人都被要求到辦公室參加最後會議。]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We have already chosen a small gift for the coach, but you can still share the cost with us.",
+      "promptZh": "[我們已經為教練選好小禮物,但你仍可和我們一起分擔費用。]",
+      "starter": "We",
+      "answer": "We have already chosen a small gift for the coach, but you can still come in with us on it.",
+      "answerZh": "[我們已經為教練選好小禮物,但你仍可和我們一起出錢。]",
+      "highlight": "come in",
+      "targetForm": "come in with somebody on something",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By the time we returned to our towels, the tide had reached the lower beach and covered the lowest part of the sand.",
+      "promptZh": "[當我們回到毛巾旁時,潮水已到達較低的沙灘,並蓋過沙地最低的部分。]",
+      "starter": "By",
+      "answer": "By the time we returned to our towels, the tide had come in and covered the lowest part of the sand.",
+      "answerZh": "[當我們回到毛巾旁時,潮水已經漲上來,並蓋過沙地最低的部分。]",
+      "highlight": "come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    },
+    {
+      "id": "phrasal-verb-184-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We could not see the village at first, but after the bus crossed the hill, the houses slowly became visible below us.",
+      "promptZh": "[起初我們看不到村莊,但巴士越過山丘後,下面的房屋慢慢出現在眼前。]",
+      "starter": "We",
+      "answer": "We could not see the village at first, but after the bus crossed the hill, the houses slowly came into view below us.",
+      "answerZh": "[起初我們看不到村莊,但巴士越過山丘後,下面的房屋慢慢映入眼簾。]",
+      "highlight": "came into view",
+      "targetForm": "come into view",
+      "targetMeaningZh": "出現在眼前"
+    },
+    {
+      "id": "phrasal-verb-184-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "I heard someone knock twice, so I opened the door and asked the person to enter.",
+      "promptZh": "[我聽到有人敲了兩次門,所以我打開門,叫那人進來。]",
+      "starter": "I",
+      "answer": "I heard someone knock twice, so I opened the door and said, “Come in.”",
+      "answerZh": "[我聽到有人敲了兩次門,所以我打開門說:「請進。」]",
+      "highlight": "said, “Come in",
+      "targetForm": "come in",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The team won most of its matches, but the manager still received strong criticism for changing the captain.",
+      "promptZh": "[球隊贏了大部分比賽,但領隊仍因更換隊長而受到強烈批評。]",
+      "starter": "The",
+      "answer": "The team won most of its matches, but the manager still came in for strong criticism for changing the captain.",
+      "answerZh": "[球隊贏了大部分比賽,但領隊仍因更換隊長而受到強烈批評。]",
+      "highlight": "came in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Since the whole team is paying for a thank-you present, Kai asked whether he could join them and pay part of it.",
+      "promptZh": "[由於全隊正一起買一份答謝禮物,啟問自己可否加入並出一部分錢。]",
+      "starter": "Since",
+      "answer": "Since the whole team is paying for a thank-you present, Kai asked whether he could come in on it with them.",
+      "answerZh": "[由於全隊正一起買一份答謝禮物,啟問自己可否和他們一起出錢。]",
+      "highlight": "come in on it with",
+      "targetForm": "come in on something with somebody",
+      "targetMeaningZh": "與某人一起出錢"
+    },
+    {
+      "id": "phrasal-verb-184-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The printer cannot be fixed online, so Alex will need to visit the office tomorrow morning.",
+      "promptZh": "[打印機不能在網上修理,所以亞歷克斯明早需要到辦公室。]",
+      "starter": "The",
+      "answer": "The printer cannot be fixed online, so Alex will need to come into the office tomorrow morning.",
+      "answerZh": "[打印機不能在網上修理,所以亞歷克斯明早需要到辦公室。]",
+      "highlight": "come into",
+      "targetForm": "come into the office",
+      "targetMeaningZh": "到辦公室上班或辦事"
+    },
+    {
+      "id": "phrasal-verb-184-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If the website remains slow, the new version will probably receive more criticism from customers.",
+      "promptZh": "[如果網站仍然很慢,新版本可能會受到顧客更多批評。]",
+      "starter": "If",
+      "answer": "If the website remains slow, the new version will probably come in for more criticism from customers.",
+      "answerZh": "[如果網站仍然很慢,新版本可能會受到顧客更多批評。]",
+      "highlight": "come in for",
+      "targetForm": "come in for something",
+      "targetMeaningZh": "受到批評或責備"
+    },
+    {
+      "id": "phrasal-verb-184-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the nurse entered the room, the child stopped crying and looked up.",
+      "promptZh": "[護士一走進房間,孩子便停止哭泣並抬頭看。]",
+      "starter": "As",
+      "answer": "As soon as the nurse came into the room, the child stopped crying and looked up.",
+      "answerZh": "[護士一走進房間,孩子便停止哭泣並抬頭看。]",
+      "highlight": "came into",
+      "targetForm": "come into something",
+      "targetMeaningZh": "進入房間或建築物"
+    },
+    {
+      "id": "phrasal-verb-184-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The rule was announced last week, but it will not start to operate until the first day of next month.",
+      "promptZh": "[規則上星期公布,但要到下月第一天才開始生效。]",
+      "starter": "The",
+      "answer": "The rule was announced last week, but it will not come into effect until the first day of next month.",
+      "answerZh": "[規則上星期公布,但要到下月第一天才開始生效。]",
+      "highlight": "come into effect",
+      "targetForm": "come into effect",
+      "targetMeaningZh": "開始生效"
+    },
+    {
+      "id": "phrasal-verb-184-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The children were still building a sandcastle, although the tide was moving closer and closer.",
+      "promptZh": "[孩子們仍在堆沙堡,雖然潮水愈來愈接近。]",
+      "starter": "The",
+      "answer": "The children were still building a sandcastle, although the tide was coming in.",
+      "answerZh": "[孩子們仍在堆沙堡,雖然潮水正在漲上來。]",
+      "highlight": "coming in",
+      "targetForm": "come in",
+      "targetMeaningZh": "潮水漲上來;向岸邊湧來"
+    }
+  ]
+}

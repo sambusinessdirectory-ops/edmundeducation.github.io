@@ -1,0 +1,3657 @@
+{
+  "id": "phrasal-verb-235",
+  "order": 235,
+  "slug": "look",
+  "version": "1",
+  "title": "LOOK 動詞片語",
+  "titleEn": "Look",
+  "titleZh": "LOOK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 28,
+  "source": {
+    "file": "Phrasal Verbs 228 - LOOK.pdf",
+    "sourceNumber": 228,
+    "pageCount": 49,
+    "teachingPdfPages": [
+      1,
+      2,
+      6
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "answerKeyPdfPages": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LOOK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LOOK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LOOK",
+      "highlight": "LOOK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We looked around the new library.",
+      "zh": "我們參觀了新圖書館。",
+      "highlight": "looked around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She looked across at her brother.",
+      "zh": "她望向另一邊的弟弟。",
+      "highlight": "looked across at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Leo looks after his younger sister.",
+      "zh": "里奧照顧妹妹。",
+      "highlight": "looks after",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "環顧四周;參觀或查看一個地方；望向另一邊或較遠處的人或事物；照顧某人或某物;負責處理某方面的事情；展望未來;思考或準備將來的事情；望向、查看或閱讀某人或某物；把視線移開；回想或回顧過去；低頭;垂下目光；看不起;認為某人或某事物較差；尋找某人或某物；期待某事;期待做某事；順道短暫探望某人；調查或仔細了解某件事情；在旁觀看而沒有參與；把某人或某事物視為某種身分或事物；小心;當心；留意或等候看見某人或某物；照顧或保護某人或自己；房間、窗戶或建築物面向某處;可看到某處的景色；仔細檢查某人或某物；到某地時探訪或聯絡某人；找出或挑出某物；在書本、字典或網上查找資料；故意無視某人,彷彿沒有看見對方；快速翻閱或查看某些東西；依靠或期望某人或某事物提供幫助或採取行動；抬頭;把目光從正在看的東西移開；敬佩或尊敬某人",
+    "en": "look around / look about / look round; look around / about / round something; look around / about / round you; look across / look over at or to somebody or something; look after somebody, something or yourself; look ahead to something; look to the future; look at somebody or something; look away from somebody or something; look back at, on or to something; look down; look down on somebody or something; look for somebody or something; look forward to something; look forward to doing something; look in on somebody; look into something; look on; look on / upon somebody or something as something; look out; look out for somebody or something; look out for somebody or yourself; look out on / over something; look over somebody or something; look somebody or something over; look somebody up; look something out for somebody or something; look something up; look through somebody; look through something; look to somebody or something for something; look to somebody or something to do something; look up; look up to somebody",
+    "naturalZh": [
+      "環顧四周;參觀或查看一個地方",
+      "望向另一邊或較遠處的人或事物",
+      "照顧某人或某物;負責處理某方面的事情",
+      "展望未來;思考或準備將來的事情",
+      "望向、查看或閱讀某人或某物",
+      "把視線移開",
+      "回想或回顧過去",
+      "低頭;垂下目光",
+      "看不起;認為某人或某事物較差",
+      "尋找某人或某物",
+      "期待某事;期待做某事",
+      "順道短暫探望某人",
+      "調查或仔細了解某件事情",
+      "在旁觀看而沒有參與",
+      "把某人或某事物視為某種身分或事物",
+      "小心;當心",
+      "留意或等候看見某人或某物",
+      "照顧或保護某人或自己",
+      "房間、窗戶或建築物面向某處;可看到某處的景色",
+      "仔細檢查某人或某物",
+      "到某地時探訪或聯絡某人",
+      "找出或挑出某物",
+      "在書本、字典或網上查找資料",
+      "故意無視某人,彷彿沒有看見對方",
+      "快速翻閱或查看某些東西",
+      "依靠或期望某人或某事物提供幫助或採取行動",
+      "抬頭;把目光從正在看的東西移開",
+      "敬佩或尊敬某人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "titleZh": "環顧四周;參觀或查看一個地方",
+      "titleEn": "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "descriptionZh": "環顧四周;參觀或查看一個地方",
+      "descriptionEn": "We looked around the new library.",
+      "examples": [
+        {
+          "en": "We looked around the new library.",
+          "zh": "我們參觀了新圖書館。",
+          "highlight": "looked around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look across / look over at or to somebody or something",
+      "titleZh": "望向另一邊或較遠處的人或事物",
+      "titleEn": "look across / look over at or to somebody or something",
+      "descriptionZh": "望向另一邊或較遠處的人或事物",
+      "descriptionEn": "She looked across at her brother.",
+      "examples": [
+        {
+          "en": "She looked across at her brother.",
+          "zh": "她望向另一邊的弟弟。",
+          "highlight": "looked across at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look after somebody, something or yourself",
+      "titleZh": "照顧某人或某物;負責處理某方面的事情",
+      "titleEn": "look after somebody, something or yourself",
+      "descriptionZh": "照顧某人或某物;負責處理某方面的事情",
+      "descriptionEn": "Leo looks after his younger sister.",
+      "examples": [
+        {
+          "en": "Leo looks after his younger sister.",
+          "zh": "里奧照顧妹妹。",
+          "highlight": "looks after"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look ahead to something; look to the future",
+      "titleZh": "展望未來;思考或準備將來的事情",
+      "titleEn": "look ahead to something; look to the future",
+      "descriptionZh": "展望未來;思考或準備將來的事情",
+      "descriptionEn": "The team is looking ahead to next season.",
+      "examples": [
+        {
+          "en": "The team is looking ahead to next season.",
+          "zh": "球隊正展望下一個球季。",
+          "highlight": "looking ahead to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look at somebody or something",
+      "titleZh": "望向、查看或閱讀某人或某物",
+      "titleEn": "look at somebody or something",
+      "descriptionZh": "望向、查看或閱讀某人或某物",
+      "descriptionEn": "Please look at this picture.",
+      "examples": [
+        {
+          "en": "Please look at this picture.",
+          "zh": "請看看這幅圖畫。",
+          "highlight": "look at"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look away from somebody or something",
+      "titleZh": "把視線移開",
+      "titleEn": "look away from somebody or something",
+      "descriptionZh": "把視線移開",
+      "descriptionEn": "The light was too bright, so I looked away.",
+      "examples": [
+        {
+          "en": "The light was too bright, so I looked away.",
+          "zh": "燈光太刺眼,所以我把視線移開。",
+          "highlight": "looked away"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look back at, on or to something",
+      "titleZh": "回想或回顧過去",
+      "titleEn": "look back at, on or to something",
+      "descriptionZh": "回想或回顧過去",
+      "descriptionEn": "I often look back on my school days.",
+      "examples": [
+        {
+          "en": "I often look back on my school days.",
+          "zh": "我經常回想學生時代。",
+          "highlight": "look back on"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look down",
+      "titleZh": "低頭;垂下目光",
+      "titleEn": "look down",
+      "descriptionZh": "低頭;垂下目光",
+      "descriptionEn": "The boy felt shy and looked down.",
+      "examples": [
+        {
+          "en": "The boy felt shy and looked down.",
+          "zh": "男孩感到害羞,低下了頭。",
+          "highlight": "looked down"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look down on somebody or something",
+      "titleZh": "看不起;認為某人或某事物較差",
+      "titleEn": "look down on somebody or something",
+      "descriptionZh": "看不起;認為某人或某事物較差",
+      "descriptionEn": "You should not look down on other people.",
+      "examples": [
+        {
+          "en": "You should not look down on other people.",
+          "zh": "你不應看不起別人。",
+          "highlight": "look down on"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look for somebody or something",
+      "titleZh": "尋找某人或某物",
+      "titleEn": "look for somebody or something",
+      "descriptionZh": "尋找某人或某物",
+      "descriptionEn": "We are looking for the missing bag.",
+      "examples": [
+        {
+          "en": "We are looking for the missing bag.",
+          "zh": "我們正在尋找失去的袋子。",
+          "highlight": "looking for"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look forward to something; look forward to doing something",
+      "titleZh": "期待某事;期待做某事",
+      "titleEn": "look forward to something; look forward to doing something",
+      "descriptionZh": "期待某事;期待做某事",
+      "descriptionEn": "I look forward to seeing you again.",
+      "examples": [
+        {
+          "en": "I look forward to seeing you again.",
+          "zh": "我期待再次見到你。",
+          "highlight": "look forward to"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look in on somebody",
+      "titleZh": "順道短暫探望某人",
+      "titleEn": "look in on somebody",
+      "descriptionZh": "順道短暫探望某人",
+      "descriptionEn": "I looked in on my grandfather after work.",
+      "examples": [
+        {
+          "en": "I looked in on my grandfather after work.",
+          "zh": "我下班後順道探望了祖父。",
+          "highlight": "looked in on"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look into something",
+      "titleZh": "調查或仔細了解某件事情",
+      "titleEn": "look into something",
+      "descriptionZh": "調查或仔細了解某件事情",
+      "descriptionEn": "The school is looking into the problem.",
+      "examples": [
+        {
+          "en": "The school is looking into the problem.",
+          "zh": "學校正在調查這個問題。",
+          "highlight": "looking into"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look on",
+      "titleZh": "在旁觀看而沒有參與",
+      "titleEn": "look on",
+      "descriptionZh": "在旁觀看而沒有參與",
+      "descriptionEn": "Several people looked on in silence.",
+      "examples": [
+        {
+          "en": "Several people looked on in silence.",
+          "zh": "幾個人在旁默默觀看。",
+          "highlight": "looked on"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "look on / upon somebody or something as something",
+      "titleZh": "把某人或某事物視為某種身分或事物",
+      "titleEn": "look on / upon somebody or something as something",
+      "descriptionZh": "把某人或某事物視為某種身分或事物",
+      "descriptionEn": "I look on her as a close friend.",
+      "examples": [
+        {
+          "en": "I look on her as a close friend.",
+          "zh": "我把她視為親密朋友。",
+          "highlight": "look on"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look out",
+      "titleZh": "小心;當心",
+      "titleEn": "look out",
+      "descriptionZh": "小心;當心",
+      "descriptionEn": "Look out! There is a car coming.",
+      "examples": [
+        {
+          "en": "Look out! There is a car coming.",
+          "zh": "小心!有車駛過來。",
+          "highlight": "Look out"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look out for somebody or something",
+      "titleZh": "留意或等候看見某人或某物",
+      "titleEn": "look out for somebody or something",
+      "descriptionZh": "留意或等候看見某人或某物",
+      "descriptionEn": "Look out for the red sign.",
+      "examples": [
+        {
+          "en": "Look out for the red sign.",
+          "zh": "留意那個紅色標誌。",
+          "highlight": "Look out for"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look out for somebody or yourself",
+      "titleZh": "照顧或保護某人或自己",
+      "titleEn": "look out for somebody or yourself",
+      "descriptionZh": "照顧或保護某人或自己",
+      "descriptionEn": "Good friends look out for one another.",
+      "examples": [
+        {
+          "en": "Good friends look out for one another.",
+          "zh": "好朋友會互相照顧。",
+          "highlight": "look out for"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look out on / over something",
+      "titleZh": "房間、窗戶或建築物面向某處;可看到某處的景色",
+      "titleEn": "look out on / over something",
+      "descriptionZh": "房間、窗戶或建築物面向某處;可看到某處的景色",
+      "descriptionEn": "Our room looks out over the sea.",
+      "examples": [
+        {
+          "en": "Our room looks out over the sea.",
+          "zh": "我們的房間面向大海。",
+          "highlight": "looks out over"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look over somebody or something; look somebody or something over",
+      "titleZh": "仔細檢查某人或某物",
+      "titleEn": "look over somebody or something; look somebody or something over",
+      "descriptionZh": "仔細檢查某人或某物",
+      "descriptionEn": "Please look the form over carefully.",
+      "examples": [
+        {
+          "en": "Please look the form over carefully.",
+          "zh": "請仔細檢查這份表格。",
+          "highlight": "look the form over"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look somebody up",
+      "titleZh": "到某地時探訪或聯絡某人",
+      "titleEn": "look somebody up",
+      "descriptionZh": "到某地時探訪或聯絡某人",
+      "descriptionEn": "Look me up when you are in London.",
+      "examples": [
+        {
+          "en": "Look me up when you are in London.",
+          "zh": "你到倫敦時來探望我吧。",
+          "highlight": "Look me up"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look something out for somebody or something",
+      "titleZh": "找出或挑出某物",
+      "titleEn": "look something out for somebody or something",
+      "descriptionZh": "找出或挑出某物",
+      "descriptionEn": "I will look out a warm coat for you.",
+      "examples": [
+        {
+          "en": "I will look out a warm coat for you.",
+          "zh": "我會替你找出一件暖外套。",
+          "highlight": "look out a warm coat for"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look something up",
+      "titleZh": "在書本、字典或網上查找資料",
+      "titleEn": "look something up",
+      "descriptionZh": "在書本、字典或網上查找資料",
+      "descriptionEn": "I looked the word up in a dictionary.",
+      "examples": [
+        {
+          "en": "I looked the word up in a dictionary.",
+          "zh": "我在字典中查找那個詞語。",
+          "highlight": "looked the word up"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look through somebody",
+      "titleZh": "故意無視某人,彷彿沒有看見對方",
+      "titleEn": "look through somebody",
+      "descriptionZh": "故意無視某人,彷彿沒有看見對方",
+      "descriptionEn": "He looked straight through me.",
+      "examples": [
+        {
+          "en": "He looked straight through me.",
+          "zh": "他完全無視我,彷彿沒有看見我。",
+          "highlight": "looked straight through"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look through something",
+      "titleZh": "快速翻閱或查看某些東西",
+      "titleEn": "look through something",
+      "descriptionZh": "快速翻閱或查看某些東西",
+      "descriptionEn": "She looked through her notes before the test.",
+      "examples": [
+        {
+          "en": "She looked through her notes before the test.",
+          "zh": "她在測驗前快速翻閱筆記。",
+          "highlight": "looked through"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look to somebody or something for something; look to somebody or something to do something",
+      "titleZh": "依靠或期望某人或某事物提供幫助或採取行動",
+      "titleEn": "look to somebody or something for something; look to somebody or something to do something",
+      "descriptionZh": "依靠或期望某人或某事物提供幫助或採取行動",
+      "descriptionEn": "The children look to their parents for help.",
+      "examples": [
+        {
+          "en": "The children look to their parents for help.",
+          "zh": "孩子們依靠父母提供幫助。",
+          "highlight": "look to their parents for"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look up",
+      "titleZh": "抬頭;把目光從正在看的東西移開",
+      "titleEn": "look up",
+      "descriptionZh": "抬頭;把目光從正在看的東西移開",
+      "descriptionEn": "She looked up from her book.",
+      "examples": [
+        {
+          "en": "She looked up from her book.",
+          "zh": "她從書本中抬起頭來。",
+          "highlight": "looked up"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "look up to somebody",
+      "titleZh": "敬佩或尊敬某人",
+      "titleEn": "look up to somebody",
+      "descriptionZh": "敬佩或尊敬某人",
+      "descriptionEn": "The young players look up to their captain.",
+      "examples": [
+        {
+          "en": "The young players look up to their captain.",
+          "zh": "年輕球員都很敬佩隊長。",
+          "highlight": "look up to"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LOOK 片語動詞的實際用途",
+    "labelEn": "LOOK Phrasal Verbs in Use",
+    "summaryZh": "LOOK 片語動詞可以表示某人望向某物、望向另一邊、低頭、抬頭或把視線移開。；look after、look out for、look to 和 look up to 可以用來談論照顧別人、尋求幫助和敬佩他人。；look for、look up、look through、look over 和 look into 可以描述不同的尋找、查閱、檢查和調查方式。；look back 可以用來回顧過去;look ahead、look to the future 和 look forward to 則可以用來談論未來的計劃和期待。",
+    "summaryEn": "LOOK expressions can show whether someone turns towards something, looks across a space, lowers their eyes, raises their head or turns away. Look after, look out for, look to and look up to help you talk about caring for people, asking for help and admiring others. Look for, look up, look through, look over and look into describe different ways of searching, checking and investigating. Look back helps you discuss past experiences. Look ahead, look to the future and look forward to help you discuss future plans and expectations.",
+    "contextsZh": [
+      "清楚描述視線的移動",
+      "談論照顧、幫助和尊敬",
+      "尋找及查核人物、事物和資料",
+      "談論過去和未來"
+    ],
+    "contextsEn": [
+      "Describe the movement of your eyes clearly",
+      "Talk about care, help and respect",
+      "Find and check people, things and information",
+      "Talk about the past and the future"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LOOK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LOOK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "look around / look about / look round; look around / about / round something; look around / about / round you",
+    "fixedHighlight": "look around / look about / look round; look around / about / round something; look around / about / round you",
+    "fixedZh": "閱讀整句,選出意思相同的 LOOK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LOOK expression that gives the same meaning.",
+    "correct": "looked around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；look forward to 後面可接名詞或以 -ing 結尾的動作:look forward to the triplook forward to seeing you；使用 him、her、it 或 them 時,請按照以上例子排列。",
+    "variableEn": "Keep the same people, things, time and meaning. After look forward to, use a noun or an -ing form: look forward to the trip look forward to seeing you With him, her, it or them, use the following positions: look him up look it over look it up look it out",
+    "variableItemsZh": [
+      "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "look across / look over at or to somebody or something",
+      "look after somebody, something or yourself",
+      "look ahead to something; look to the future",
+      "look at somebody or something",
+      "look away from somebody or something",
+      "look back at, on or to something",
+      "look down",
+      "look down on somebody or something",
+      "look for somebody or something",
+      "look forward to something; look forward to doing something",
+      "look in on somebody",
+      "look into something",
+      "look on",
+      "look on / upon somebody or something as something",
+      "look out",
+      "look out for somebody or something",
+      "look out for somebody or yourself",
+      "look out on / over something",
+      "look over somebody or something; look somebody or something over",
+      "look somebody up",
+      "look something out for somebody or something",
+      "look something up",
+      "look through somebody",
+      "look through something",
+      "look to somebody or something for something; look to somebody or something to do something",
+      "look up",
+      "look up to somebody"
+    ],
+    "variableItemsEn": [
+      "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "look across / look over at or to somebody or something",
+      "look after somebody, something or yourself",
+      "look ahead to something; look to the future",
+      "look at somebody or something",
+      "look away from somebody or something",
+      "look back at, on or to something",
+      "look down",
+      "look down on somebody or something",
+      "look for somebody or something",
+      "look forward to something; look forward to doing something",
+      "look in on somebody",
+      "look into something",
+      "look on",
+      "look on / upon somebody or something as something",
+      "look out",
+      "look out for somebody or something",
+      "look out for somebody or yourself",
+      "look out on / over something",
+      "look over somebody or something; look somebody or something over",
+      "look somebody up",
+      "look something out for somebody or something",
+      "look something up",
+      "look through somebody",
+      "look through something",
+      "look to somebody or something for something; look to somebody or something to do something",
+      "look up",
+      "look up to somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "環顧四周;參觀或查看一個地方",
+        "formEn": "look around / look about / look round; look around / about / round something; look around / about / round you",
+        "exampleZh": "我們參觀了新圖書館。",
+        "exampleEn": "We looked around the new library.",
+        "highlight": "looked around"
+      },
+      {
+        "formZh": "望向另一邊或較遠處的人或事物",
+        "formEn": "look across / look over at or to somebody or something",
+        "exampleZh": "她望向另一邊的弟弟。",
+        "exampleEn": "She looked across at her brother.",
+        "highlight": "looked across at"
+      },
+      {
+        "formZh": "照顧某人或某物;負責處理某方面的事情",
+        "formEn": "look after somebody, something or yourself",
+        "exampleZh": "里奧照顧妹妹。",
+        "exampleEn": "Leo looks after his younger sister.",
+        "highlight": "looks after"
+      },
+      {
+        "formZh": "展望未來;思考或準備將來的事情",
+        "formEn": "look ahead to something; look to the future",
+        "exampleZh": "球隊正展望下一個球季。",
+        "exampleEn": "The team is looking ahead to next season.",
+        "highlight": "looking ahead to"
+      },
+      {
+        "formZh": "望向、查看或閱讀某人或某物",
+        "formEn": "look at somebody or something",
+        "exampleZh": "請看看這幅圖畫。",
+        "exampleEn": "Please look at this picture.",
+        "highlight": "look at"
+      },
+      {
+        "formZh": "把視線移開",
+        "formEn": "look away from somebody or something",
+        "exampleZh": "燈光太刺眼,所以我把視線移開。",
+        "exampleEn": "The light was too bright, so I looked away.",
+        "highlight": "looked away"
+      },
+      {
+        "formZh": "回想或回顧過去",
+        "formEn": "look back at, on or to something",
+        "exampleZh": "我經常回想學生時代。",
+        "exampleEn": "I often look back on my school days.",
+        "highlight": "look back on"
+      },
+      {
+        "formZh": "低頭;垂下目光",
+        "formEn": "look down",
+        "exampleZh": "男孩感到害羞,低下了頭。",
+        "exampleEn": "The boy felt shy and looked down.",
+        "highlight": "looked down"
+      },
+      {
+        "formZh": "看不起;認為某人或某事物較差",
+        "formEn": "look down on somebody or something",
+        "exampleZh": "你不應看不起別人。",
+        "exampleEn": "You should not look down on other people.",
+        "highlight": "look down on"
+      },
+      {
+        "formZh": "尋找某人或某物",
+        "formEn": "look for somebody or something",
+        "exampleZh": "我們正在尋找失去的袋子。",
+        "exampleEn": "We are looking for the missing bag.",
+        "highlight": "looking for"
+      },
+      {
+        "formZh": "期待某事;期待做某事",
+        "formEn": "look forward to something; look forward to doing something",
+        "exampleZh": "我期待再次見到你。",
+        "exampleEn": "I look forward to seeing you again.",
+        "highlight": "look forward to"
+      },
+      {
+        "formZh": "順道短暫探望某人",
+        "formEn": "look in on somebody",
+        "exampleZh": "我下班後順道探望了祖父。",
+        "exampleEn": "I looked in on my grandfather after work.",
+        "highlight": "looked in on"
+      },
+      {
+        "formZh": "調查或仔細了解某件事情",
+        "formEn": "look into something",
+        "exampleZh": "學校正在調查這個問題。",
+        "exampleEn": "The school is looking into the problem.",
+        "highlight": "looking into"
+      },
+      {
+        "formZh": "在旁觀看而沒有參與",
+        "formEn": "look on",
+        "exampleZh": "幾個人在旁默默觀看。",
+        "exampleEn": "Several people looked on in silence.",
+        "highlight": "looked on"
+      },
+      {
+        "formZh": "把某人或某事物視為某種身分或事物",
+        "formEn": "look on / upon somebody or something as something",
+        "exampleZh": "我把她視為親密朋友。",
+        "exampleEn": "I look on her as a close friend.",
+        "highlight": "look on"
+      },
+      {
+        "formZh": "小心;當心",
+        "formEn": "look out",
+        "exampleZh": "小心!有車駛過來。",
+        "exampleEn": "Look out! There is a car coming.",
+        "highlight": "Look out"
+      },
+      {
+        "formZh": "留意或等候看見某人或某物",
+        "formEn": "look out for somebody or something",
+        "exampleZh": "留意那個紅色標誌。",
+        "exampleEn": "Look out for the red sign.",
+        "highlight": "Look out for"
+      },
+      {
+        "formZh": "照顧或保護某人或自己",
+        "formEn": "look out for somebody or yourself",
+        "exampleZh": "好朋友會互相照顧。",
+        "exampleEn": "Good friends look out for one another.",
+        "highlight": "look out for"
+      },
+      {
+        "formZh": "房間、窗戶或建築物面向某處;可看到某處的景色",
+        "formEn": "look out on / over something",
+        "exampleZh": "我們的房間面向大海。",
+        "exampleEn": "Our room looks out over the sea.",
+        "highlight": "looks out over"
+      },
+      {
+        "formZh": "仔細檢查某人或某物",
+        "formEn": "look over somebody or something; look somebody or something over",
+        "exampleZh": "請仔細檢查這份表格。",
+        "exampleEn": "Please look the form over carefully.",
+        "highlight": "look the form over"
+      },
+      {
+        "formZh": "到某地時探訪或聯絡某人",
+        "formEn": "look somebody up",
+        "exampleZh": "你到倫敦時來探望我吧。",
+        "exampleEn": "Look me up when you are in London.",
+        "highlight": "Look me up"
+      },
+      {
+        "formZh": "找出或挑出某物",
+        "formEn": "look something out for somebody or something",
+        "exampleZh": "我會替你找出一件暖外套。",
+        "exampleEn": "I will look out a warm coat for you.",
+        "highlight": "look out a warm coat for"
+      },
+      {
+        "formZh": "在書本、字典或網上查找資料",
+        "formEn": "look something up",
+        "exampleZh": "我在字典中查找那個詞語。",
+        "exampleEn": "I looked the word up in a dictionary.",
+        "highlight": "looked the word up"
+      },
+      {
+        "formZh": "故意無視某人,彷彿沒有看見對方",
+        "formEn": "look through somebody",
+        "exampleZh": "他完全無視我,彷彿沒有看見我。",
+        "exampleEn": "He looked straight through me.",
+        "highlight": "looked straight through"
+      },
+      {
+        "formZh": "快速翻閱或查看某些東西",
+        "formEn": "look through something",
+        "exampleZh": "她在測驗前快速翻閱筆記。",
+        "exampleEn": "She looked through her notes before the test.",
+        "highlight": "looked through"
+      },
+      {
+        "formZh": "依靠或期望某人或某事物提供幫助或採取行動",
+        "formEn": "look to somebody or something for something; look to somebody or something to do something",
+        "exampleZh": "孩子們依靠父母提供幫助。",
+        "exampleEn": "The children look to their parents for help.",
+        "highlight": "look to their parents for"
+      },
+      {
+        "formZh": "抬頭;把目光從正在看的東西移開",
+        "formEn": "look up",
+        "exampleZh": "她從書本中抬起頭來。",
+        "exampleEn": "She looked up from her book.",
+        "highlight": "looked up"
+      },
+      {
+        "formZh": "敬佩或尊敬某人",
+        "formEn": "look up to somebody",
+        "exampleZh": "年輕球員都很敬佩隊長。",
+        "exampleEn": "The young players look up to their captain.",
+        "highlight": "look up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "環顧四周;參觀或查看一個地方",
+      "titleEn": "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "formula": "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "highlight": "look around / look about / look round; look around / about / round something; look around / about / round you",
+      "descriptionZh": "環顧四周;參觀或查看一個地方",
+      "descriptionEn": "We looked around the new library.",
+      "examples": [
+        {
+          "en": "We looked around the new library.",
+          "zh": "我們參觀了新圖書館。",
+          "highlight": "looked around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "望向另一邊或較遠處的人或事物",
+      "titleEn": "look across / look over at or to somebody or something",
+      "formula": "look across / look over at or to somebody or something",
+      "highlight": "look across / look over at or to somebody or something",
+      "descriptionZh": "望向另一邊或較遠處的人或事物",
+      "descriptionEn": "She looked across at her brother.",
+      "examples": [
+        {
+          "en": "She looked across at her brother.",
+          "zh": "她望向另一邊的弟弟。",
+          "highlight": "looked across at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "照顧某人或某物;負責處理某方面的事情",
+      "titleEn": "look after somebody, something or yourself",
+      "formula": "look after somebody, something or yourself",
+      "highlight": "look after somebody, something or yourself",
+      "descriptionZh": "照顧某人或某物;負責處理某方面的事情",
+      "descriptionEn": "Leo looks after his younger sister.",
+      "examples": [
+        {
+          "en": "Leo looks after his younger sister.",
+          "zh": "里奧照顧妹妹。",
+          "highlight": "looks after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "展望未來;思考或準備將來的事情",
+      "titleEn": "look ahead to something; look to the future",
+      "formula": "look ahead to something; look to the future",
+      "highlight": "look ahead to something; look to the future",
+      "descriptionZh": "展望未來;思考或準備將來的事情",
+      "descriptionEn": "The team is looking ahead to next season.",
+      "examples": [
+        {
+          "en": "The team is looking ahead to next season.",
+          "zh": "球隊正展望下一個球季。",
+          "highlight": "looking ahead to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "望向、查看或閱讀某人或某物",
+      "titleEn": "look at somebody or something",
+      "formula": "look at somebody or something",
+      "highlight": "look at somebody or something",
+      "descriptionZh": "望向、查看或閱讀某人或某物",
+      "descriptionEn": "Please look at this picture.",
+      "examples": [
+        {
+          "en": "Please look at this picture.",
+          "zh": "請看看這幅圖畫。",
+          "highlight": "look at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把視線移開",
+      "titleEn": "look away from somebody or something",
+      "formula": "look away from somebody or something",
+      "highlight": "look away from somebody or something",
+      "descriptionZh": "把視線移開",
+      "descriptionEn": "The light was too bright, so I looked away.",
+      "examples": [
+        {
+          "en": "The light was too bright, so I looked away.",
+          "zh": "燈光太刺眼,所以我把視線移開。",
+          "highlight": "looked away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "回想或回顧過去",
+      "titleEn": "look back at, on or to something",
+      "formula": "look back at, on or to something",
+      "highlight": "look back at, on or to something",
+      "descriptionZh": "回想或回顧過去",
+      "descriptionEn": "I often look back on my school days.",
+      "examples": [
+        {
+          "en": "I often look back on my school days.",
+          "zh": "我經常回想學生時代。",
+          "highlight": "look back on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "低頭;垂下目光",
+      "titleEn": "look down",
+      "formula": "look down",
+      "highlight": "look down",
+      "descriptionZh": "低頭;垂下目光",
+      "descriptionEn": "The boy felt shy and looked down.",
+      "examples": [
+        {
+          "en": "The boy felt shy and looked down.",
+          "zh": "男孩感到害羞,低下了頭。",
+          "highlight": "looked down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "看不起;認為某人或某事物較差",
+      "titleEn": "look down on somebody or something",
+      "formula": "look down on somebody or something",
+      "highlight": "look down on somebody or something",
+      "descriptionZh": "看不起;認為某人或某事物較差",
+      "descriptionEn": "You should not look down on other people.",
+      "examples": [
+        {
+          "en": "You should not look down on other people.",
+          "zh": "你不應看不起別人。",
+          "highlight": "look down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "尋找某人或某物",
+      "titleEn": "look for somebody or something",
+      "formula": "look for somebody or something",
+      "highlight": "look for somebody or something",
+      "descriptionZh": "尋找某人或某物",
+      "descriptionEn": "We are looking for the missing bag.",
+      "examples": [
+        {
+          "en": "We are looking for the missing bag.",
+          "zh": "我們正在尋找失去的袋子。",
+          "highlight": "looking for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "期待某事;期待做某事",
+      "titleEn": "look forward to something; look forward to doing something",
+      "formula": "look forward to something; look forward to doing something",
+      "highlight": "look forward to something; look forward to doing something",
+      "descriptionZh": "期待某事;期待做某事",
+      "descriptionEn": "I look forward to seeing you again.",
+      "examples": [
+        {
+          "en": "I look forward to seeing you again.",
+          "zh": "我期待再次見到你。",
+          "highlight": "look forward to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "順道短暫探望某人",
+      "titleEn": "look in on somebody",
+      "formula": "look in on somebody",
+      "highlight": "look in on somebody",
+      "descriptionZh": "順道短暫探望某人",
+      "descriptionEn": "I looked in on my grandfather after work.",
+      "examples": [
+        {
+          "en": "I looked in on my grandfather after work.",
+          "zh": "我下班後順道探望了祖父。",
+          "highlight": "looked in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "調查或仔細了解某件事情",
+      "titleEn": "look into something",
+      "formula": "look into something",
+      "highlight": "look into something",
+      "descriptionZh": "調查或仔細了解某件事情",
+      "descriptionEn": "The school is looking into the problem.",
+      "examples": [
+        {
+          "en": "The school is looking into the problem.",
+          "zh": "學校正在調查這個問題。",
+          "highlight": "looking into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "在旁觀看而沒有參與",
+      "titleEn": "look on",
+      "formula": "look on",
+      "highlight": "look on",
+      "descriptionZh": "在旁觀看而沒有參與",
+      "descriptionEn": "Several people looked on in silence.",
+      "examples": [
+        {
+          "en": "Several people looked on in silence.",
+          "zh": "幾個人在旁默默觀看。",
+          "highlight": "looked on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把某人或某事物視為某種身分或事物",
+      "titleEn": "look on / upon somebody or something as something",
+      "formula": "look on / upon somebody or something as something",
+      "highlight": "look on / upon somebody or something as something",
+      "descriptionZh": "把某人或某事物視為某種身分或事物",
+      "descriptionEn": "I look on her as a close friend.",
+      "examples": [
+        {
+          "en": "I look on her as a close friend.",
+          "zh": "我把她視為親密朋友。",
+          "highlight": "look on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "小心;當心",
+      "titleEn": "look out",
+      "formula": "look out",
+      "highlight": "look out",
+      "descriptionZh": "小心;當心",
+      "descriptionEn": "Look out! There is a car coming.",
+      "examples": [
+        {
+          "en": "Look out! There is a car coming.",
+          "zh": "小心!有車駛過來。",
+          "highlight": "Look out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "留意或等候看見某人或某物",
+      "titleEn": "look out for somebody or something",
+      "formula": "look out for somebody or something",
+      "highlight": "look out for somebody or something",
+      "descriptionZh": "留意或等候看見某人或某物",
+      "descriptionEn": "Look out for the red sign.",
+      "examples": [
+        {
+          "en": "Look out for the red sign.",
+          "zh": "留意那個紅色標誌。",
+          "highlight": "Look out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "照顧或保護某人或自己",
+      "titleEn": "look out for somebody or yourself",
+      "formula": "look out for somebody or yourself",
+      "highlight": "look out for somebody or yourself",
+      "descriptionZh": "照顧或保護某人或自己",
+      "descriptionEn": "Good friends look out for one another.",
+      "examples": [
+        {
+          "en": "Good friends look out for one another.",
+          "zh": "好朋友會互相照顧。",
+          "highlight": "look out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "房間、窗戶或建築物面向某處;可看到某處的景色",
+      "titleEn": "look out on / over something",
+      "formula": "look out on / over something",
+      "highlight": "look out on / over something",
+      "descriptionZh": "房間、窗戶或建築物面向某處;可看到某處的景色",
+      "descriptionEn": "Our room looks out over the sea.",
+      "examples": [
+        {
+          "en": "Our room looks out over the sea.",
+          "zh": "我們的房間面向大海。",
+          "highlight": "looks out over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "仔細檢查某人或某物",
+      "titleEn": "look over somebody or something; look somebody or something over",
+      "formula": "look over somebody or something; look somebody or something over",
+      "highlight": "look over somebody or something; look somebody or something over",
+      "descriptionZh": "仔細檢查某人或某物",
+      "descriptionEn": "Please look the form over carefully.",
+      "examples": [
+        {
+          "en": "Please look the form over carefully.",
+          "zh": "請仔細檢查這份表格。",
+          "highlight": "look the form over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "到某地時探訪或聯絡某人",
+      "titleEn": "look somebody up",
+      "formula": "look somebody up",
+      "highlight": "look somebody up",
+      "descriptionZh": "到某地時探訪或聯絡某人",
+      "descriptionEn": "Look me up when you are in London.",
+      "examples": [
+        {
+          "en": "Look me up when you are in London.",
+          "zh": "你到倫敦時來探望我吧。",
+          "highlight": "Look me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "找出或挑出某物",
+      "titleEn": "look something out for somebody or something",
+      "formula": "look something out for somebody or something",
+      "highlight": "look something out for somebody or something",
+      "descriptionZh": "找出或挑出某物",
+      "descriptionEn": "I will look out a warm coat for you.",
+      "examples": [
+        {
+          "en": "I will look out a warm coat for you.",
+          "zh": "我會替你找出一件暖外套。",
+          "highlight": "look out a warm coat for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "在書本、字典或網上查找資料",
+      "titleEn": "look something up",
+      "formula": "look something up",
+      "highlight": "look something up",
+      "descriptionZh": "在書本、字典或網上查找資料",
+      "descriptionEn": "I looked the word up in a dictionary.",
+      "examples": [
+        {
+          "en": "I looked the word up in a dictionary.",
+          "zh": "我在字典中查找那個詞語。",
+          "highlight": "looked the word up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "故意無視某人,彷彿沒有看見對方",
+      "titleEn": "look through somebody",
+      "formula": "look through somebody",
+      "highlight": "look through somebody",
+      "descriptionZh": "故意無視某人,彷彿沒有看見對方",
+      "descriptionEn": "He looked straight through me.",
+      "examples": [
+        {
+          "en": "He looked straight through me.",
+          "zh": "他完全無視我,彷彿沒有看見我。",
+          "highlight": "looked straight through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "快速翻閱或查看某些東西",
+      "titleEn": "look through something",
+      "formula": "look through something",
+      "highlight": "look through something",
+      "descriptionZh": "快速翻閱或查看某些東西",
+      "descriptionEn": "She looked through her notes before the test.",
+      "examples": [
+        {
+          "en": "She looked through her notes before the test.",
+          "zh": "她在測驗前快速翻閱筆記。",
+          "highlight": "looked through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "依靠或期望某人或某事物提供幫助或採取行動",
+      "titleEn": "look to somebody or something for something; look to somebody or something to do something",
+      "formula": "look to somebody or something for something; look to somebody or something to do something",
+      "highlight": "look to somebody or something for something; look to somebody or something to do something",
+      "descriptionZh": "依靠或期望某人或某事物提供幫助或採取行動",
+      "descriptionEn": "The children look to their parents for help.",
+      "examples": [
+        {
+          "en": "The children look to their parents for help.",
+          "zh": "孩子們依靠父母提供幫助。",
+          "highlight": "look to their parents for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "抬頭;把目光從正在看的東西移開",
+      "titleEn": "look up",
+      "formula": "look up",
+      "highlight": "look up",
+      "descriptionZh": "抬頭;把目光從正在看的東西移開",
+      "descriptionEn": "She looked up from her book.",
+      "examples": [
+        {
+          "en": "She looked up from her book.",
+          "zh": "她從書本中抬起頭來。",
+          "highlight": "looked up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "敬佩或尊敬某人",
+      "titleEn": "look up to somebody",
+      "formula": "look up to somebody",
+      "highlight": "look up to somebody",
+      "descriptionZh": "敬佩或尊敬某人",
+      "descriptionEn": "The young players look up to their captain.",
+      "examples": [
+        {
+          "en": "The young players look up to their captain.",
+          "zh": "年輕球員都很敬佩隊長。",
+          "highlight": "look up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述視線的移動",
+      "titleEn": "Describe the movement of your eyes clearly",
+      "zh": "LOOK 片語動詞可以表示某人望向某物、望向另一邊、低頭、抬頭或把視線移開。",
+      "en": "LOOK expressions can show whether someone turns towards something, looks across a space, lowers their eyes, raises their head or turns away."
+    },
+    {
+      "titleZh": "談論照顧、幫助和尊敬",
+      "titleEn": "Talk about care, help and respect",
+      "zh": "look after、look out for、look to 和 look up to 可以用來談論照顧別人、尋求幫助和敬佩他人。",
+      "en": "Look after, look out for, look to and look up to help you talk about caring for people, asking for help and admiring others."
+    },
+    {
+      "titleZh": "尋找及查核人物、事物和資料",
+      "titleEn": "Find and check people, things and information",
+      "zh": "look for、look up、look through、look over 和 look into 可以描述不同的尋找、查閱、檢查和調查方式。",
+      "en": "Look for, look up, look through, look over and look into describe different ways of searching, checking and investigating."
+    },
+    {
+      "titleZh": "談論過去和未來",
+      "titleEn": "Talk about the past and the future",
+      "zh": "look back 可以用來回顧過去;look ahead、look to the future 和 look forward to 則可以用來談論未來的計劃和期待。",
+      "en": "Look back helps you discuss past experiences. Look ahead, look to the future and look forward to help you discuss future plans and expectations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述視線的移動",
+      "談論照顧、幫助和尊敬",
+      "尋找及查核人物、事物和資料",
+      "談論過去和未來"
+    ],
+    "contextsEn": [
+      "Describe the movement of your eyes clearly",
+      "Talk about care, help and respect",
+      "Find and check people, things and information",
+      "Talk about the past and the future"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述視線的移動",
+        "titleEn": "Describe the movement of your eyes clearly",
+        "zh": "LOOK 片語動詞可以表示某人望向某物、望向另一邊、低頭、抬頭或把視線移開。",
+        "en": "LOOK expressions can show whether someone turns towards something, looks across a space, lowers their eyes, raises their head or turns away.",
+        "examples": [
+          {
+            "en": "We looked around the new library.",
+            "zh": "我們參觀了新圖書館。",
+            "highlight": "looked around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論照顧、幫助和尊敬",
+        "titleEn": "Talk about care, help and respect",
+        "zh": "look after、look out for、look to 和 look up to 可以用來談論照顧別人、尋求幫助和敬佩他人。",
+        "en": "Look after, look out for, look to and look up to help you talk about caring for people, asking for help and admiring others.",
+        "examples": [
+          {
+            "en": "She looked across at her brother.",
+            "zh": "她望向另一邊的弟弟。",
+            "highlight": "looked across at"
+          }
+        ]
+      },
+      {
+        "titleZh": "尋找及查核人物、事物和資料",
+        "titleEn": "Find and check people, things and information",
+        "zh": "look for、look up、look through、look over 和 look into 可以描述不同的尋找、查閱、檢查和調查方式。",
+        "en": "Look for, look up, look through, look over and look into describe different ways of searching, checking and investigating.",
+        "examples": [
+          {
+            "en": "Leo looks after his younger sister.",
+            "zh": "里奧照顧妹妹。",
+            "highlight": "looks after"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論過去和未來",
+        "titleEn": "Talk about the past and the future",
+        "zh": "look back 可以用來回顧過去;look ahead、look to the future 和 look forward to 則可以用來談論未來的計劃和期待。",
+        "en": "Look back helps you discuss past experiences. Look ahead, look to the future and look forward to help you discuss future plans and expectations.",
+        "examples": [
+          {
+            "en": "The team is looking ahead to next season.",
+            "zh": "球隊正展望下一個球季。",
+            "highlight": "looking ahead to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LOOK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LOOK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LOOK 片語動詞。",
+      "en": "Read the whole sentence and choose the LOOK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "look forward to 後面可接名詞或以 -ing 結尾的動作:look forward to the triplook forward to seeing you",
+      "titleEn": "After look forward to, use a noun or an -ing form: look forward to the trip look forward to seeing you.",
+      "zh": "look forward to 後面可接名詞或以 -ing 結尾的動作:look forward to the triplook forward to seeing you",
+      "en": "After look forward to, use a noun or an -ing form: look forward to the trip look forward to seeing you"
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子排列。",
+      "titleEn": "With him, her, it or them, use the following positions: look him up look it over look it up look it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子排列。",
+      "en": "With him, her, it or them, use the following positions: look him up look it over look it up look it out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LOOK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LOOK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LOOK 動詞片語句子改寫練習",
+    "titleEn": "LOOK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LOOK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LOOK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          28
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          57,
+          112
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          113,
+          140
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-235-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 28,
+      "prompt": "Sam is trying to find his keys.",
+      "promptZh": "山姆正在尋找鎖匙。",
+      "starter": "Sam",
+      "answer": "Sam is looking for his keys.",
+      "answerZh": "山姆正在尋找鎖匙。",
+      "highlight": "looking for",
+      "targetForm": "look for somebody or something",
+      "targetMeaningZh": "尋找某人或某物"
+    },
+    {
+      "id": "phrasal-verb-235-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 28,
+      "prompt": "The visitors examined the small museum.",
+      "promptZh": "訪客參觀了那間小型博物館。",
+      "starter": "The",
+      "answer": "The visitors looked around the small museum.",
+      "answerZh": "訪客參觀了那間小型博物館。",
+      "highlight": "looked around",
+      "targetForm": "look around / about / round something",
+      "targetMeaningZh": "參觀或查看一個地方"
+    },
+    {
+      "id": "phrasal-verb-235-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 29,
+      "prompt": "We are excited about seeing you next week.",
+      "promptZh": "我們很期待下星期見到你。",
+      "starter": "We",
+      "answer": "We are looking forward to seeing you next week.",
+      "answerZh": "我們很期待下星期見到你。",
+      "highlight": "looking forward to",
+      "targetForm": "look forward to doing something",
+      "targetMeaningZh": "期待做某事"
+    },
+    {
+      "id": "phrasal-verb-235-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 29,
+      "prompt": "She raised her eyes from her book and smiled.",
+      "promptZh": "她從書本中抬起頭來,微笑了一下。",
+      "starter": "She",
+      "answer": "She looked up from her book and smiled.",
+      "answerZh": "她從書本中抬起頭來,微笑了一下。",
+      "highlight": "looked up",
+      "targetForm": "look up",
+      "targetMeaningZh": "抬頭"
+    },
+    {
+      "id": "phrasal-verb-235-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 29,
+      "prompt": "Ava takes care of her younger brother after school.",
+      "promptZh": "艾娃放學後照顧弟弟。",
+      "starter": "Ava",
+      "answer": "Ava looks after her younger brother after school.",
+      "answerZh": "艾娃放學後照顧弟弟。",
+      "highlight": "looks after",
+      "targetForm": "look after somebody",
+      "targetMeaningZh": "照顧某人"
+    },
+    {
+      "id": "phrasal-verb-235-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 29,
+      "prompt": "Be careful! A bicycle is coming.",
+      "promptZh": "小心!有單車駛過來。",
+      "starter": "Look",
+      "answer": "Look out! A bicycle is coming.",
+      "answerZh": "小心!有單車駛過來。",
+      "highlight": "Look out",
+      "targetForm": "look out",
+      "targetMeaningZh": "小心;當心"
+    },
+    {
+      "id": "phrasal-verb-235-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 29,
+      "prompt": "I checked the word in a dictionary.",
+      "promptZh": "我在字典中查找那個詞語。",
+      "starter": "I",
+      "answer": "I looked the word up in a dictionary.",
+      "answerZh": "我在字典中查找那個詞語。",
+      "highlight": "looked",
+      "targetForm": "look something up",
+      "targetMeaningZh": "查找資料"
+    },
+    {
+      "id": "phrasal-verb-235-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 29,
+      "prompt": "The shy boy lowered his eyes.",
+      "promptZh": "那個害羞的男孩低下了頭。",
+      "starter": "The",
+      "answer": "The shy boy looked down.",
+      "answerZh": "那個害羞的男孩低下了頭。",
+      "highlight": "looked down",
+      "targetForm": "look down",
+      "targetMeaningZh": "低頭;垂下目光"
+    },
+    {
+      "id": "phrasal-verb-235-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 29,
+      "prompt": "The manager is investigating your complaint.",
+      "promptZh": "經理正在調查你的投訴。",
+      "starter": "The",
+      "answer": "The manager is looking into your complaint.",
+      "answerZh": "經理正在調查你的投訴。",
+      "highlight": "looking into",
+      "targetForm": "look into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-235-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 30,
+      "prompt": "Our room faces the sea.",
+      "promptZh": "我們的房間面向大海。",
+      "starter": "Our",
+      "answer": "Our room looks out over the sea.",
+      "answerZh": "我們的房間面向大海。",
+      "highlight": "looks out over",
+      "targetForm": "look out over something",
+      "targetMeaningZh": "面向某處;可看到某處的景色"
+    },
+    {
+      "id": "phrasal-verb-235-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 30,
+      "prompt": "Tom turned his eyes away when the bright light flashed.",
+      "promptZh": "強光閃過時,湯姆把視線移開。",
+      "starter": "Tom",
+      "answer": "Tom looked away when the bright light flashed.",
+      "answerZh": "強光閃過時,湯姆把視線移開。",
+      "highlight": "looked",
+      "targetForm": "look away",
+      "targetMeaningZh": "把視線移開"
+    },
+    {
+      "id": "phrasal-verb-235-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 30,
+      "prompt": "The younger players admire their captain.",
+      "promptZh": "年輕球員都很敬佩隊長。",
+      "starter": "The",
+      "answer": "The younger players look up to their captain.",
+      "answerZh": "年輕球員都很敬佩隊長。",
+      "highlight": "look up to",
+      "targetForm": "look up to somebody",
+      "targetMeaningZh": "敬佩或尊敬某人"
+    },
+    {
+      "id": "phrasal-verb-235-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 30,
+      "prompt": "Several people watched without helping.",
+      "promptZh": "幾個人在旁觀看,沒有提供幫助。",
+      "starter": "Several",
+      "answer": "Several people looked on without helping.",
+      "answerZh": "幾個人在旁觀看,沒有提供幫助。",
+      "highlight": "looked on",
+      "targetForm": "look on",
+      "targetMeaningZh": "在旁觀看而沒有參與"
+    },
+    {
+      "id": "phrasal-verb-235-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 30,
+      "prompt": "The team is now thinking about and planning for next season.",
+      "promptZh": "球隊現正思考並籌備下一個球季。",
+      "starter": "The",
+      "answer": "The team is now looking ahead to next season.",
+      "answerZh": "球隊現正展望下一個球季。",
+      "highlight": "looking ahead to",
+      "targetForm": "look ahead to something",
+      "targetMeaningZh": "展望或準備未來的事情"
+    },
+    {
+      "id": "phrasal-verb-235-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 30,
+      "prompt": "Visit me next time you are in Bristol.",
+      "promptZh": "你下次到布里斯托時來探望我吧。",
+      "starter": "Look",
+      "answer": "Look me up next time you are in Bristol.",
+      "answerZh": "你下次到布里斯托時來探望我吧。",
+      "highlight": "Look",
+      "targetForm": "look somebody up",
+      "targetMeaningZh": "到某地時探訪或聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-235-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 30,
+      "prompt": "Some people think they are better than workers with less education.",
+      "promptZh": "有些人認為自己比受教育程度較低的工人優越。",
+      "starter": "Some",
+      "answer": "Some people look down on workers with less education.",
+      "answerZh": "有些人看不起受教育程度較低的工人。",
+      "highlight": "look down on",
+      "targetForm": "look down on somebody",
+      "targetMeaningZh": "看不起某人"
+    },
+    {
+      "id": "phrasal-verb-235-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 31,
+      "prompt": "I was watching for Leo at the station.",
+      "promptZh": "我在車站留意里奧是否出現。",
+      "starter": "I",
+      "answer": "I was looking out for Leo at the station.",
+      "answerZh": "我在車站留意里奧是否出現。",
+      "highlight": "looking out",
+      "targetForm": "look out for somebody",
+      "targetMeaningZh": "留意或等候看見某人"
+    },
+    {
+      "id": "phrasal-verb-235-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 31,
+      "prompt": "Please direct your eyes towards the picture.",
+      "promptZh": "請望向這幅圖畫。",
+      "starter": "Please",
+      "answer": "Please look at the picture.",
+      "answerZh": "請看看這幅圖畫。",
+      "highlight": "look at",
+      "targetForm": "look at something",
+      "targetMeaningZh": "望向或查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 31,
+      "prompt": "I visited my grandfather briefly on the way home.",
+      "promptZh": "我回家途中短暫探望了祖父。",
+      "starter": "I",
+      "answer": "I looked in on my grandfather on the way home.",
+      "answerZh": "我回家途中短暫探望了祖父。",
+      "highlight": "looked in on",
+      "targetForm": "look in on somebody",
+      "targetMeaningZh": "順道短暫探望某人"
+    },
+    {
+      "id": "phrasal-verb-235-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 31,
+      "prompt": "The mechanic examined the bicycle carefully.",
+      "promptZh": "技師仔細檢查了那輛單車。",
+      "starter": "The",
+      "answer": "The mechanic looked the bicycle over carefully.",
+      "answerZh": "技師仔細檢查了那輛單車。",
+      "highlight": "looked",
+      "targetForm": "look something over",
+      "targetMeaningZh": "仔細檢查某物"
+    },
+    {
+      "id": "phrasal-verb-235-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 31,
+      "prompt": "From the other side of the room, Nina directed her eyes towards me.",
+      "promptZh": "妮娜從房間的另一邊望向我。",
+      "starter": "From",
+      "answer": "From the other side of the room, Nina looked across at me.",
+      "answerZh": "妮娜從房間的另一邊望向我。",
+      "highlight": "looked across at",
+      "targetForm": "look across at somebody",
+      "targetMeaningZh": "望向另一邊的人"
+    },
+    {
+      "id": "phrasal-verb-235-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 31,
+      "prompt": "The children depend on their parents for help.",
+      "promptZh": "孩子們依靠父母提供幫助。",
+      "starter": "The",
+      "answer": "The children look to their parents for help.",
+      "answerZh": "孩子們依靠父母提供幫助。",
+      "highlight": "look to",
+      "targetForm": "look to somebody for something",
+      "targetMeaningZh": "依靠某人提供某物"
+    },
+    {
+      "id": "phrasal-verb-235-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 31,
+      "prompt": "When I think about my school days, I remember them happily.",
+      "promptZh": "每當我回想學生時代,我都會愉快地記起那些日子。",
+      "starter": "When",
+      "answer": "When I look back on my school days, I remember them happily.",
+      "answerZh": "每當我回想學生時代,我都會愉快地記起那些日子。",
+      "highlight": "look back on",
+      "targetForm": "look back on something",
+      "targetMeaningZh": "回想或回顧過去"
+    },
+    {
+      "id": "phrasal-verb-235-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 32,
+      "prompt": "I will find that old photograph for you.",
+      "promptZh": "我會替你找出那張舊照片。",
+      "starter": "I",
+      "answer": "I will look that old photograph out for you.",
+      "answerZh": "我會替你找出那張舊照片。",
+      "highlight": "look",
+      "targetForm": "look something out for somebody",
+      "targetMeaningZh": "替某人找出某物"
+    },
+    {
+      "id": "phrasal-verb-235-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 32,
+      "prompt": "I consider Ben a close friend.",
+      "promptZh": "我把賓視為親密朋友。",
+      "starter": "I",
+      "answer": "I look on Ben as a close friend.",
+      "answerZh": "我把賓視為親密朋友。",
+      "highlight": "look on",
+      "targetForm": "look on somebody as something",
+      "targetMeaningZh": "把某人視為某種身分"
+    },
+    {
+      "id": "phrasal-verb-235-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 32,
+      "prompt": "She quickly read her notes before the test.",
+      "promptZh": "她在測驗前快速翻閱筆記。",
+      "starter": "She",
+      "answer": "She looked through her notes before the test.",
+      "answerZh": "她在測驗前快速翻閱筆記。",
+      "highlight": "looked through",
+      "targetForm": "look through something",
+      "targetMeaningZh": "快速翻閱或查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 32,
+      "prompt": "Older students should take care of the younger ones.",
+      "promptZh": "年長的學生應該照顧年幼的學生。",
+      "starter": "Older",
+      "answer": "Older students should look out for the younger ones.",
+      "answerZh": "年長的學生應該照顧年幼的學生。",
+      "highlight": "look out for",
+      "targetForm": "look out for somebody",
+      "targetMeaningZh": "照顧或保護某人"
+    },
+    {
+      "id": "phrasal-verb-235-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 32,
+      "prompt": "I smiled at him, but he ignored me as if I were not there.",
+      "promptZh": "我向他微笑,但他完全無視我,彷彿我並不存在。",
+      "starter": "I",
+      "answer": "I smiled at him, but he looked straight through me.",
+      "answerZh": "我向他微笑,但他完全無視我,彷彿沒有看見我。",
+      "highlight": "looked straight through",
+      "targetForm": "look through somebody",
+      "targetMeaningZh": "故意無視某人"
+    },
+    {
+      "id": "phrasal-verb-235-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 32,
+      "prompt": "We must think about the future and prepare for possible problems.",
+      "promptZh": "我們必須為未來着想,並為可能出現的問題作準備。",
+      "starter": "We",
+      "answer": "We must look ahead and prepare for possible problems.",
+      "answerZh": "我們必須為未來着想,並為可能出現的問題作準備。",
+      "highlight": "look ahead",
+      "targetForm": "look ahead",
+      "targetMeaningZh": "思考並準備未來"
+    },
+    {
+      "id": "phrasal-verb-235-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 33,
+      "prompt": "Could you examine this form before I send it?",
+      "promptZh": "我寄出這份表格前,你可以替我檢查一下嗎?",
+      "starter": "Could",
+      "answer": "Could you look this form over before I send it?",
+      "answerZh": "我寄出這份表格前,你可以替我檢查一下嗎?",
+      "highlight": "look",
+      "targetForm": "look something over",
+      "targetMeaningZh": "仔細檢查某物"
+    },
+    {
+      "id": "phrasal-verb-235-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 33,
+      "prompt": "Have you been trying to find me?",
+      "promptZh": "你一直在找我嗎?",
+      "starter": "Have",
+      "answer": "Have you been looking for me?",
+      "answerZh": "你一直在找我嗎?",
+      "highlight": "looking for",
+      "targetForm": "look for somebody",
+      "targetMeaningZh": "尋找某人"
+    },
+    {
+      "id": "phrasal-verb-235-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 33,
+      "prompt": "She is turning her eyes away from the screen because the scene is frightening.",
+      "promptZh": "她正把視線從螢幕移開,因為那個場面很可怕。",
+      "starter": "She",
+      "answer": "She is looking away from the screen because the scene is frightening.",
+      "answerZh": "她正把視線從螢幕移開,因為那個場面很可怕。",
+      "highlight": "looking",
+      "targetForm": "look away from something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-235-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 33,
+      "prompt": "I have always admired my older sister.",
+      "promptZh": "我一直都很敬佩姐姐。",
+      "starter": "I",
+      "answer": "I have always looked up to my older sister.",
+      "answerZh": "我一直都很敬佩姐姐。",
+      "highlight": "looked up to",
+      "targetForm": "look up to somebody",
+      "targetMeaningZh": "敬佩或尊敬某人"
+    },
+    {
+      "id": "phrasal-verb-235-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 33,
+      "prompt": "Has the school investigated why the door keeps opening?",
+      "promptZh": "學校有否調查那扇門為何不斷打開?",
+      "starter": "Has",
+      "answer": "Has the school looked into why the door keeps opening?",
+      "answerZh": "學校有否調查那扇門為何不斷打開?",
+      "highlight": "looked into",
+      "targetForm": "look into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-235-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 33,
+      "prompt": "Why are you turning your head in every direction?",
+      "promptZh": "你為甚麼把頭轉向不同方向?",
+      "starter": "Why",
+      "answer": "Why are you looking around?",
+      "answerZh": "你為甚麼環顧四周?",
+      "highlight": "looking around",
+      "targetForm": "look around",
+      "targetMeaningZh": "環顧四周"
+    },
+    {
+      "id": "phrasal-verb-235-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 33,
+      "prompt": "Have you searched for the train time online?",
+      "promptZh": "你有否在網上查找火車時間?",
+      "starter": "Have",
+      "answer": "Have you looked the train time up online?",
+      "answerZh": "你有否在網上查找火車時間?",
+      "highlight": "looked",
+      "targetForm": "look something up",
+      "targetMeaningZh": "查找資料"
+    },
+    {
+      "id": "phrasal-verb-235-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 34,
+      "prompt": "Please watch for the red sign near the bridge.",
+      "promptZh": "請留意橋附近的紅色標誌。",
+      "starter": "Please",
+      "answer": "Please look out for the red sign near the bridge.",
+      "answerZh": "請留意橋附近的紅色標誌。",
+      "highlight": "look out",
+      "targetForm": "look out for something",
+      "targetMeaningZh": "留意某物"
+    },
+    {
+      "id": "phrasal-verb-235-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 34,
+      "prompt": "Who is taking care of the shop while Mr Chan is away?",
+      "promptZh": "陳先生不在時,誰負責照料店舖?",
+      "starter": "Who",
+      "answer": "Who is looking after the shop while Mr Chan is away?",
+      "answerZh": "陳先生不在時,誰負責照料店舖?",
+      "highlight": "looking after",
+      "targetForm": "look after something",
+      "targetMeaningZh": "照料或負責某事物"
+    },
+    {
+      "id": "phrasal-verb-235-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 34,
+      "prompt": "She often thinks about the years she spent in Japan.",
+      "promptZh": "她經常回想自己在日本度過的歲月。",
+      "starter": "She",
+      "answer": "She often looks back on the years she spent in Japan.",
+      "answerZh": "她經常回想自己在日本度過的歲月。",
+      "highlight": "looks back on",
+      "targetForm": "look back on something",
+      "targetMeaningZh": "回想過去"
+    },
+    {
+      "id": "phrasal-verb-235-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 34,
+      "prompt": "Does the kitchen window face the garden?",
+      "promptZh": "廚房的窗戶面向花園嗎?",
+      "starter": "Does",
+      "answer": "Does the kitchen window look out on the garden?",
+      "answerZh": "廚房的窗戶面向花園嗎?",
+      "highlight": "look out on",
+      "targetForm": "look out on something",
+      "targetMeaningZh": "窗戶或房間面向某處"
+    },
+    {
+      "id": "phrasal-verb-235-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 34,
+      "prompt": "Is Ella excited about her school trip?",
+      "promptZh": "埃拉期待學校旅行嗎?",
+      "starter": "Is",
+      "answer": "Is Ella looking forward to her school trip?",
+      "answerZh": "埃拉期待學校旅行嗎?",
+      "highlight": "looking forward to",
+      "targetForm": "look forward to something",
+      "targetMeaningZh": "期待某事"
+    },
+    {
+      "id": "phrasal-verb-235-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 34,
+      "prompt": "Why did everyone just watch while the dog ran into the road?",
+      "promptZh": "那隻狗跑出馬路時,為甚麼所有人只在旁觀看?",
+      "starter": "Why",
+      "answer": "Why did everyone just look on while the dog ran into the road?",
+      "answerZh": "那隻狗跑出馬路時,為甚麼所有人只在旁觀看?",
+      "highlight": "look on",
+      "targetForm": "look on",
+      "targetMeaningZh": "在旁觀看而沒有參與"
+    },
+    {
+      "id": "phrasal-verb-235-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 34,
+      "prompt": "Why did everyone raise their eyes at the same time?",
+      "promptZh": "為甚麼所有人同時抬起頭來?",
+      "starter": "Why",
+      "answer": "Why did everyone look up at the same time?",
+      "answerZh": "為甚麼所有人同時抬起頭來?",
+      "highlight": "look up",
+      "targetForm": "look up",
+      "targetMeaningZh": "抬頭"
+    },
+    {
+      "id": "phrasal-verb-235-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 35,
+      "prompt": "Can you find a warm coat for the child?",
+      "promptZh": "你可以替那個孩子找出一件暖外套嗎?",
+      "starter": "Can",
+      "answer": "Can you look out a warm coat for the child?",
+      "answerZh": "你可以替那個孩子找出一件暖外套嗎?",
+      "highlight": "look out",
+      "targetForm": "look something out for somebody",
+      "targetMeaningZh": "替某人找出某物"
+    },
+    {
+      "id": "phrasal-verb-235-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 35,
+      "prompt": "He never treats new students as less important.",
+      "promptZh": "他從不認為新同學較不重要。",
+      "starter": "He",
+      "answer": "He never looks down on new students.",
+      "answerZh": "他從不看不起新同學。",
+      "highlight": "looks down on",
+      "targetForm": "look down on somebody",
+      "targetMeaningZh": "看不起某人"
+    },
+    {
+      "id": "phrasal-verb-235-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 35,
+      "prompt": "I am directing my eyes towards the people by the window.",
+      "promptZh": "我正望向窗邊的人。",
+      "starter": "I",
+      "answer": "I am looking over at the people by the window.",
+      "answerZh": "我正望向窗邊的人。",
+      "highlight": "looking over at",
+      "targetForm": "look over at somebody",
+      "targetMeaningZh": "望向另一邊的人"
+    },
+    {
+      "id": "phrasal-verb-235-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 35,
+      "prompt": "I am quickly examining these photographs to find the best one.",
+      "promptZh": "我正在快速查看這些照片,以找出最好的一張。",
+      "starter": "I",
+      "answer": "I am looking through these photographs to find the best one.",
+      "answerZh": "我正在快速查看這些照片,以找出最好的一張。",
+      "highlight": "looking through",
+      "targetForm": "look through something",
+      "targetMeaningZh": "快速翻閱或查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 35,
+      "prompt": "You should be careful when you cross this busy road.",
+      "promptZh": "橫過這條繁忙的馬路時,你應該小心。",
+      "starter": "You",
+      "answer": "You should look out when you cross this busy road.",
+      "answerZh": "橫過這條繁忙的馬路時,你應該小心。",
+      "highlight": "look out",
+      "targetForm": "look out",
+      "targetMeaningZh": "小心;當心"
+    },
+    {
+      "id": "phrasal-verb-235-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 35,
+      "prompt": "Can you make a short visit to Anna this evening?",
+      "promptZh": "你今晚可以短暫探望安娜嗎?",
+      "starter": "Can",
+      "answer": "Can you look in on Anna this evening?",
+      "answerZh": "你今晚可以短暫探望安娜嗎?",
+      "highlight": "look in on",
+      "targetForm": "look in on somebody",
+      "targetMeaningZh": "短暫探望某人"
+    },
+    {
+      "id": "phrasal-verb-235-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 35,
+      "prompt": "Who can we depend on for advice?",
+      "promptZh": "我們可以依靠誰提供意見?",
+      "starter": "Who",
+      "answer": "Who can we look to for advice?",
+      "answerZh": "我們可以依靠誰提供意見?",
+      "highlight": "look to",
+      "targetForm": "look to somebody for something",
+      "targetMeaningZh": "依靠某人提供某物"
+    },
+    {
+      "id": "phrasal-verb-235-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 36,
+      "prompt": "Why is he directing his eyes at me like that?",
+      "promptZh": "他為甚麼那樣望着我?",
+      "starter": "Why",
+      "answer": "Why is he looking at me like that?",
+      "answerZh": "他為甚麼那樣望着我?",
+      "highlight": "looking",
+      "targetForm": "look at somebody",
+      "targetMeaningZh": "望着某人"
+    },
+    {
+      "id": "phrasal-verb-235-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 36,
+      "prompt": "Living alone taught him to take care of himself.",
+      "promptZh": "獨居令他學會照顧自己。",
+      "starter": "Living",
+      "answer": "Living alone taught him to look out for himself.",
+      "answerZh": "獨居令他學會照顧自己。",
+      "highlight": "look out for",
+      "targetForm": "look out for yourself",
+      "targetMeaningZh": "照顧或保護自己"
+    },
+    {
+      "id": "phrasal-verb-235-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 36,
+      "prompt": "I will contact and visit my old teacher when I go to Manchester.",
+      "promptZh": "我到曼徹斯特時會聯絡並探望以前的老師。",
+      "starter": "I",
+      "answer": "I will look my old teacher up when I go to Manchester.",
+      "answerZh": "我到曼徹斯特時會探望以前的老師。",
+      "highlight": "look",
+      "targetForm": "look somebody up",
+      "targetMeaningZh": "到某地時探訪或聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-235-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 36,
+      "prompt": "Why are you lowering your eyes instead of answering?",
+      "promptZh": "你為甚麼低着頭,不回答問題?",
+      "starter": "Why",
+      "answer": "Why are you looking down instead of answering?",
+      "answerZh": "你為甚麼低着頭,不回答問題?",
+      "highlight": "looking down",
+      "targetForm": "look down",
+      "targetMeaningZh": "低頭;垂下目光"
+    },
+    {
+      "id": "phrasal-verb-235-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 36,
+      "prompt": "Why did she ignore you as if she could not see you?",
+      "promptZh": "她為甚麼完全無視你,彷彿看不見你?",
+      "starter": "Why",
+      "answer": "Why did she look straight through you?",
+      "answerZh": "她為甚麼完全無視你,彷彿看不見你?",
+      "highlight": "look straight through",
+      "targetForm": "look through somebody",
+      "targetMeaningZh": "故意無視某人"
+    },
+    {
+      "id": "phrasal-verb-235-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 36,
+      "prompt": "Many children regard the coach as someone they can trust.",
+      "promptZh": "很多孩子都把教練視為值得信任的人。",
+      "starter": "Many",
+      "answer": "Many children look upon the coach as someone they can trust.",
+      "answerZh": "很多孩子都把教練視為值得信任的人。",
+      "highlight": "look upon",
+      "targetForm": "look upon somebody as something",
+      "targetMeaningZh": "把某人視為某種身分"
+    },
+    {
+      "id": "phrasal-verb-235-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 36,
+      "prompt": "I did not know her number, so I searched for it in my phone.",
+      "promptZh": "我不知道她的電話號碼,所以在手機中查找。",
+      "starter": "I",
+      "answer": "I did not know her number, so I looked it up in my phone.",
+      "answerZh": "我不知道她的電話號碼,所以在手機中查找。",
+      "highlight": "looked",
+      "targetForm": "look something up",
+      "targetMeaningZh": "查找資料"
+    },
+    {
+      "id": "phrasal-verb-235-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 37,
+      "prompt": "Sarah said she would visit the neighbour briefly after work.",
+      "promptZh": "莎拉說她下班後會短暫探望鄰居。",
+      "starter": "Sarah",
+      "answer": "Sarah said she would look in on the neighbour after work.",
+      "answerZh": "莎拉說她下班後會短暫探望鄰居。",
+      "highlight": "look in on",
+      "targetForm": "look in on somebody",
+      "targetMeaningZh": "短暫探望某人"
+    },
+    {
+      "id": "phrasal-verb-235-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "When the teacher called his name, Leo directed his eyes across the hall towards her.",
+      "promptZh": "老師叫里奧的名字時,他從大堂的另一邊望向老師。",
+      "starter": "When",
+      "answer": "When the teacher called his name, Leo looked across to her.",
+      "answerZh": "老師叫里奧的名字時,他從大堂的另一邊望向老師。",
+      "highlight": "looked",
+      "targetForm": "look across to somebody",
+      "targetMeaningZh": "望向另一邊的人"
+    },
+    {
+      "id": "phrasal-verb-235-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "We all need to protect one another during the storm.",
+      "promptZh": "暴風雨期間,我們都需要互相照顧。",
+      "starter": "We",
+      "answer": "We all need to look out for one another during the storm.",
+      "answerZh": "暴風雨期間,我們都需要互相照顧。",
+      "highlight": "look out for",
+      "targetForm": "look out for somebody",
+      "targetMeaningZh": "照顧或保護某人"
+    },
+    {
+      "id": "phrasal-verb-235-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "Eva blushed and lowered her eyes towards the floor.",
+      "promptZh": "伊娃臉紅了,低頭望向地面。",
+      "starter": "Eva",
+      "answer": "Eva blushed and looked down at the floor.",
+      "answerZh": "伊娃臉紅了,低頭望向地面。",
+      "highlight": "looked down at",
+      "targetForm": "look down",
+      "targetMeaningZh": "低頭;垂下目光"
+    },
+    {
+      "id": "phrasal-verb-235-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "The guard checked him carefully before allowing him inside.",
+      "promptZh": "守衛仔細檢查他後,才讓他進內。",
+      "starter": "The",
+      "answer": "The guard looked him over carefully before allowing him inside.",
+      "answerZh": "守衛仔細檢查他後,才讓他進內。",
+      "highlight": "looked",
+      "targetForm": "look somebody over",
+      "targetMeaningZh": "仔細檢查某人"
+    },
+    {
+      "id": "phrasal-verb-235-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "After a difficult year, Rosa thought about the future with hope.",
+      "promptZh": "經歷艱難的一年後,羅莎滿懷希望地展望未來。",
+      "starter": "After",
+      "answer": "After a difficult year, Rosa looked to the future with hope.",
+      "answerZh": "經歷艱難的一年後,羅莎滿懷希望地展望未來。",
+      "highlight": "looked to",
+      "targetForm": "look to the future",
+      "targetMeaningZh": "展望未來"
+    },
+    {
+      "id": "phrasal-verb-235-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 37,
+      "prompt": "We searched for a quiet café near the station.",
+      "promptZh": "我們在車站附近尋找一間安靜的咖啡店。",
+      "starter": "We",
+      "answer": "We looked for a quiet café near the station.",
+      "answerZh": "我們在車站附近尋找一間安靜的咖啡店。",
+      "highlight": "looked",
+      "targetForm": "look for something",
+      "targetMeaningZh": "尋找某物"
+    },
+    {
+      "id": "phrasal-verb-235-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 38,
+      "prompt": "The town has always considered the old bridge an important part of its history.",
+      "promptZh": "小鎮一直把那座古老的橋視為其歷史的重要部分。",
+      "starter": "The",
+      "answer": "The town has always looked on the old bridge as an important part of its history.",
+      "answerZh": "小鎮一直把那座古老的橋視為其歷史的重要部分。",
+      "highlight": "looked on",
+      "targetForm": "look on something as something",
+      "targetMeaningZh": "把某事物視為另一事物"
+    },
+    {
+      "id": "phrasal-verb-235-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "We had twenty minutes, so we explored the market before lunch.",
+      "promptZh": "我們有二十分鐘,所以午膳前逛了逛市場。",
+      "starter": "We",
+      "answer": "We had twenty minutes, so we looked round the market before lunch.",
+      "answerZh": "我們有二十分鐘,所以午膳前逛了逛市場。",
+      "highlight": "looked round",
+      "targetForm": "look round something",
+      "targetMeaningZh": "參觀或查看一個地方"
+    },
+    {
+      "id": "phrasal-verb-235-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "I heard my name, stopped writing and raised my head.",
+      "promptZh": "我聽到自己的名字,便停下書寫並抬起頭來。",
+      "starter": "I",
+      "answer": "I heard my name, stopped writing and looked up.",
+      "answerZh": "我聽到自己的名字,便停下書寫並抬起頭來。",
+      "highlight": "looked up",
+      "targetForm": "look up",
+      "targetMeaningZh": "抬頭"
+    },
+    {
+      "id": "phrasal-verb-235-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "I am very pleased that I will start my new job on Monday.",
+      "promptZh": "我很期待星期一開始新工作。",
+      "starter": "I",
+      "answer": "I am looking forward to starting my new job on Monday.",
+      "answerZh": "我很期待星期一開始新工作。",
+      "highlight": "looking forward to starting",
+      "targetForm": "look forward to doing something",
+      "targetMeaningZh": "期待做某事"
+    },
+    {
+      "id": "phrasal-verb-235-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "At the party, Leo passed me and acted as though I was invisible.",
+      "promptZh": "在派對上,里奧從我身旁走過,彷彿我並不存在。",
+      "starter": "At",
+      "answer": "At the party, Leo passed me and looked straight through me.",
+      "answerZh": "在派對上,里奧從我身旁走過,完全無視我。",
+      "highlight": "looked straight through me",
+      "targetForm": "look through somebody",
+      "targetMeaningZh": "故意無視某人"
+    },
+    {
+      "id": "phrasal-verb-235-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "He faced me for a moment but then turned his gaze elsewhere.",
+      "promptZh": "他望着我片刻,然後把視線移到別處。",
+      "starter": "He",
+      "answer": "He faced me for a moment but then looked away.",
+      "answerZh": "他望着我片刻,然後把視線移開。",
+      "highlight": "looked away",
+      "targetForm": "look away",
+      "targetMeaningZh": "把視線移開"
+    },
+    {
+      "id": "phrasal-verb-235-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 38,
+      "prompt": "The flat has a balcony that faces the river.",
+      "promptZh": "這個單位有一個面向河流的露台。",
+      "starter": "The",
+      "answer": "The flat has a balcony that looks out over the river.",
+      "answerZh": "這個單位有一個面向河流的露台。",
+      "highlight": "looks out over",
+      "targetForm": "look out over something",
+      "targetMeaningZh": "面向某處;可看到某處的景色"
+    },
+    {
+      "id": "phrasal-verb-235-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 39,
+      "prompt": "We will investigate the problem before making a decision.",
+      "promptZh": "我們作出決定前會調查這個問題。",
+      "starter": "We",
+      "answer": "We will look into the problem before making a decision.",
+      "answerZh": "我們作出決定前會調查這個問題。",
+      "highlight": "look into",
+      "targetForm": "look into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-235-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "She sat in the waiting room and read a magazine while she waited.",
+      "promptZh": "她坐在候診室內,一邊等候,一邊閱讀雜誌。",
+      "starter": "She",
+      "answer": "She sat in the waiting room, looking at a magazine while she waited.",
+      "answerZh": "她坐在候診室內,一邊等候,一邊閱讀雜誌。",
+      "highlight": "looking at",
+      "targetForm": "look at something",
+      "targetMeaningZh": "查看或閱讀某物"
+    },
+    {
+      "id": "phrasal-verb-235-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "She found the spare key and gave it to me.",
+      "promptZh": "她找出後備鎖匙,然後交給我。",
+      "starter": "She",
+      "answer": "She looked the spare key out and gave it to me.",
+      "answerZh": "她找出後備鎖匙,然後交給我。",
+      "highlight": "looked",
+      "targetForm": "look something out",
+      "targetMeaningZh": "找出某物"
+    },
+    {
+      "id": "phrasal-verb-235-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "Every young player respects the coach.",
+      "promptZh": "每名年輕球員都很尊敬教練。",
+      "starter": "The",
+      "answer": "The coach is looked up to by every young player.",
+      "answerZh": "每名年輕球員都很尊敬教練。",
+      "highlight": "The coach is looked up to by",
+      "targetForm": "look up to somebody",
+      "targetMeaningZh": "敬佩或尊敬某人"
+    },
+    {
+      "id": "phrasal-verb-235-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "We watched in silence as the old building was pulled down.",
+      "promptZh": "舊建築物被拆卸時,我們在旁默默觀看。",
+      "starter": "We",
+      "answer": "We looked on in silence as the old building was pulled down.",
+      "answerZh": "舊建築物被拆卸時,我們在旁默默觀看。",
+      "highlight": "looked on",
+      "targetForm": "look on",
+      "targetMeaningZh": "在旁觀看而沒有參與"
+    },
+    {
+      "id": "phrasal-verb-235-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "The dog is old, so please take good care of it this weekend.",
+      "promptZh": "那隻狗年紀很大,所以這個週末請好好照顧牠。",
+      "starter": "The",
+      "answer": "The dog is old, so please look after it carefully this weekend.",
+      "answerZh": "那隻狗年紀很大,所以這個週末請好好照顧牠。",
+      "highlight": "look after",
+      "targetForm": "look after something",
+      "targetMeaningZh": "照顧某物"
+    },
+    {
+      "id": "phrasal-verb-235-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 39,
+      "prompt": "We are trying to spot a small café with a green door.",
+      "promptZh": "我們正在留意一間有綠色門的小型咖啡店。",
+      "starter": "We",
+      "answer": "We are looking out for a small café with a green door.",
+      "answerZh": "我們正在留意一間有綠色門的小型咖啡店。",
+      "highlight": "looking out for",
+      "targetForm": "look out for something",
+      "targetMeaningZh": "留意或等候看見某物"
+    },
+    {
+      "id": "phrasal-verb-235-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 40,
+      "prompt": "Why does she think people from small towns are not as good as she is?",
+      "promptZh": "她為甚麼認為來自小鎮的人不及她優秀?",
+      "starter": "Why",
+      "answer": "Why does she look down on people from small towns?",
+      "answerZh": "她為甚麼看不起來自小鎮的人?",
+      "highlight": "look down on",
+      "targetForm": "look down on somebody",
+      "targetMeaningZh": "看不起某人"
+    },
+    {
+      "id": "phrasal-verb-235-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 40,
+      "prompt": "We checked the papers in the drawer one by one.",
+      "promptZh": "我們逐一查看抽屜內的文件。",
+      "starter": "We",
+      "answer": "We looked through the papers in the drawer one by one.",
+      "answerZh": "我們逐一查看抽屜內的文件。",
+      "highlight": "looked through",
+      "targetForm": "look through something",
+      "targetMeaningZh": "翻閱或查看某些東西"
+    },
+    {
+      "id": "phrasal-verb-235-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 40,
+      "prompt": "Whenever you are in our town, find us and come to see us.",
+      "promptZh": "你到我們的小鎮時,記得來探望我們。",
+      "starter": "Whenever",
+      "answer": "Whenever you are in our town, look us up.",
+      "answerZh": "你到我們的小鎮時,記得來探望我們。",
+      "highlight": "look",
+      "targetForm": "look somebody up",
+      "targetMeaningZh": "到某地時探訪某人"
+    },
+    {
+      "id": "phrasal-verb-235-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 40,
+      "prompt": "Thinking about it now, I understand why he was upset.",
+      "promptZh": "現在回想起來,我明白他當時為甚麼不高興。",
+      "starter": "Looking",
+      "answer": "Looking back, I understand why he was upset.",
+      "answerZh": "現在回想起來,我明白他當時為甚麼不高興。",
+      "highlight": "Looking back",
+      "targetForm": "look back",
+      "targetMeaningZh": "回想過去"
+    },
+    {
+      "id": "phrasal-verb-235-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 40,
+      "prompt": "The box is falling—be careful!",
+      "promptZh": "箱子正在掉下來——小心!",
+      "starter": "The",
+      "answer": "The box is falling—look out!",
+      "answerZh": "箱子正在掉下來——小心!",
+      "highlight": "look out",
+      "targetForm": "look out",
+      "targetMeaningZh": "小心;當心"
+    },
+    {
+      "id": "phrasal-verb-235-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 40,
+      "prompt": "Many students expect the teacher to explain the new rule.",
+      "promptZh": "很多學生都期望老師解釋新規則。",
+      "starter": "Many",
+      "answer": "Many students look to the teacher to explain the new rule.",
+      "answerZh": "很多學生都期望老師解釋新規則。",
+      "highlight": "look to",
+      "targetForm": "look to somebody to do something",
+      "targetMeaningZh": "期望某人採取行動"
+    },
+    {
+      "id": "phrasal-verb-235-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 41,
+      "prompt": "She does not regard the mistake as a complete failure.",
+      "promptZh": "她不把這次錯誤視為徹底的失敗。",
+      "starter": "She",
+      "answer": "She does not look on the mistake as a complete failure.",
+      "answerZh": "她不把這次錯誤視為徹底的失敗。",
+      "highlight": "look on",
+      "targetForm": "look on something as something",
+      "targetMeaningZh": "把某事物視為另一事物"
+    },
+    {
+      "id": "phrasal-verb-235-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 41,
+      "prompt": "Before choosing a route, we examined the map on the wall.",
+      "promptZh": "選擇路線前,我們查看了牆上的地圖。",
+      "starter": "Before",
+      "answer": "Before choosing a route, we looked at the map on the wall.",
+      "answerZh": "選擇路線前,我們查看了牆上的地圖。",
+      "highlight": "looked at",
+      "targetForm": "look at something",
+      "targetMeaningZh": "查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 41,
+      "prompt": "Dad was not searching the internet; he was finding a suitable map for our walk.",
+      "promptZh": "爸爸並非在網上搜尋資料;他正在替我們的步行旅程找出一張合適的地圖。",
+      "starter": "Dad",
+      "answer": "Dad was not searching the internet; he was looking out a suitable map for our walk.",
+      "answerZh": "爸爸並非在網上搜尋資料;他正在替我們的步行旅程找出一張合適的地圖。",
+      "highlight": "looking out",
+      "targetForm": "look something out",
+      "targetMeaningZh": "找出或挑出某物"
+    },
+    {
+      "id": "phrasal-verb-235-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 41,
+      "prompt": "Although the restaurant is simple, do not treat it as inferior.",
+      "promptZh": "雖然這間餐廳很簡單,但不要看不起它。",
+      "starter": "Although",
+      "answer": "Although the restaurant is simple, do not look down on it.",
+      "answerZh": "雖然這間餐廳很簡單,但不要看不起它。",
+      "highlight": "look down on",
+      "targetForm": "look down on something",
+      "targetMeaningZh": "看不起某事物"
+    },
+    {
+      "id": "phrasal-verb-235-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 41,
+      "prompt": "She did not inspect the desk; she simply directed her eyes towards it from across the room.",
+      "promptZh": "她沒有檢查書桌,只是從房間另一邊望向它。",
+      "starter": "She",
+      "answer": "She did not inspect the desk; she simply looked over at it from across the room.",
+      "answerZh": "她沒有檢查書桌,只是從房間另一邊望向它。",
+      "highlight": "looked over at",
+      "targetForm": "look over at something",
+      "targetMeaningZh": "望向另一邊的事物"
+    },
+    {
+      "id": "phrasal-verb-235-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 41,
+      "prompt": "Although the journey will be long, the children are excited about visiting their grandparents.",
+      "promptZh": "雖然路程很長,但孩子們很期待探望祖父母。",
+      "starter": "Although",
+      "answer": "Although the journey will be long, the children are looking forward to visiting their grandparents.",
+      "answerZh": "雖然路程很長,但孩子們很期待探望祖父母。",
+      "highlight": "looking forward to",
+      "targetForm": "look forward to doing something",
+      "targetMeaningZh": "期待做某事"
+    },
+    {
+      "id": "phrasal-verb-235-q91",
+      "number": 91,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "She was not searching for her brother; she was making sure he stayed safe in the crowd.",
+      "promptZh": "她並非在尋找弟弟;她是在確保弟弟在人群中保持安全。",
+      "starter": "She",
+      "answer": "She was not searching for her brother; she was looking out for him in the crowd.",
+      "answerZh": "她並非在尋找弟弟;她是在確保弟弟在人群中保持安全。",
+      "highlight": "looking out for him",
+      "targetForm": "look out for somebody",
+      "targetMeaningZh": "照顧或保護某人"
+    },
+    {
+      "id": "phrasal-verb-235-q92",
+      "number": 92,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "He was not searching for information; he simply raised his eyes when the door opened.",
+      "promptZh": "他並非在查找資料;門打開時,他只是抬起頭來。",
+      "starter": "He",
+      "answer": "He was not searching for information; he simply looked up when the door opened.",
+      "answerZh": "他並非在查找資料;門打開時,他只是抬起頭來。",
+      "highlight": "looked up",
+      "targetForm": "look up",
+      "targetMeaningZh": "抬頭"
+    },
+    {
+      "id": "phrasal-verb-235-q93",
+      "number": 93,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 42,
+      "prompt": "The committee is not simply reading the report; it is investigating what caused the accident.",
+      "promptZh": "委員會並非只閱讀報告,而是在調查意外的成因。",
+      "starter": "The",
+      "answer": "The committee is not simply reading the report; it is looking into what caused the accident.",
+      "answerZh": "委員會並非只閱讀報告,而是在調查意外的成因。",
+      "highlight": "looking into",
+      "targetForm": "look into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-235-q94",
+      "number": 94,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 42,
+      "prompt": "The actor was not examining the people behind me; he simply ignored me completely.",
+      "promptZh": "那名演員並非在查看我身後的人;他只是完全無視我。",
+      "starter": "The",
+      "answer": "The actor was not examining the people behind me; he simply looked straight through me.",
+      "answerZh": "那名演員並非在查看我身後的人;他只是完全無視我。",
+      "highlight": "looked straight through",
+      "targetForm": "look through somebody",
+      "targetMeaningZh": "故意無視某人"
+    },
+    {
+      "id": "phrasal-verb-235-q95",
+      "number": 95,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 42,
+      "prompt": "Instead of discussing last month’s failure, the coach wants the players to think about the next match.",
+      "promptZh": "教練不想再討論上月的失敗,而希望球員為下一場比賽着想。",
+      "starter": "Instead",
+      "answer": "Instead of discussing last month’s failure, the coach wants the players to look ahead to the next match.",
+      "answerZh": "教練不想再討論上月的失敗,而希望球員為下一場比賽着想。",
+      "highlight": "look ahead to",
+      "targetForm": "look ahead to something",
+      "targetMeaningZh": "思考或準備未來的事情"
+    },
+    {
+      "id": "phrasal-verb-235-q96",
+      "number": 96,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 42,
+      "prompt": "We were invited to inspect the new classrooms before the school opened.",
+      "promptZh": "學校開放前,我們獲邀參觀並檢查新課室。",
+      "starter": "We",
+      "answer": "We were invited to look over the new classrooms before the school opened.",
+      "answerZh": "學校開放前,我們獲邀參觀並檢查新課室。",
+      "highlight": "look over",
+      "targetForm": "look over something",
+      "targetMeaningZh": "仔細查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q97",
+      "number": 97,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 42,
+      "prompt": "We should not spend all our time thinking about past mistakes.",
+      "promptZh": "我們不應把所有時間都用來回想過去的錯誤。",
+      "starter": "We",
+      "answer": "We should not spend all our time looking back at past mistakes.",
+      "answerZh": "我們不應把所有時間都用來回想過去的錯誤。",
+      "highlight": "looking back at",
+      "targetForm": "look back at something",
+      "targetMeaningZh": "回想過去"
+    },
+    {
+      "id": "phrasal-verb-235-q98",
+      "number": 98,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 43,
+      "prompt": "Do not step backwards—the door is open behind you, so be careful!",
+      "promptZh": "不要向後走——你身後的門開着,所以要小心!",
+      "starter": "Do",
+      "answer": "Do not step backwards—the door is open behind you, so look out!",
+      "answerZh": "不要向後走——你身後的門開着,所以要小心!",
+      "highlight": "look out",
+      "targetForm": "look out",
+      "targetMeaningZh": "小心;當心"
+    },
+    {
+      "id": "phrasal-verb-235-q99",
+      "number": 99,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 43,
+      "prompt": "The village does not depend on outside groups for food; it grows most of its own.",
+      "promptZh": "這條村不依靠外面的團體提供食物;大部分食物都是自行種植的。",
+      "starter": "The",
+      "answer": "The village does not look to outside groups for food; it grows most of its own.",
+      "answerZh": "這條村不依靠外面的團體提供食物;大部分食物都是自行種植的。",
+      "highlight": "look to",
+      "targetForm": "look to somebody or something for something",
+      "targetMeaningZh": "依靠某人或某事物提供某物"
+    },
+    {
+      "id": "phrasal-verb-235-q100",
+      "number": 100,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 43,
+      "prompt": "Before taking a photograph, Ella examined everything around her.",
+      "promptZh": "拍照前,埃拉查看了四周的一切。",
+      "starter": "Before",
+      "answer": "Before taking a photograph, Ella looked about her.",
+      "answerZh": "拍照前,埃拉查看了四周的一切。",
+      "highlight": "looked about",
+      "targetForm": "look about you",
+      "targetMeaningZh": "查看自己的四周"
+    },
+    {
+      "id": "phrasal-verb-235-q101",
+      "number": 101,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 43,
+      "prompt": "This is not a place where we watch for boats; the bedroom window simply faces the harbour.",
+      "promptZh": "我們並非在這裏等候船隻出現;睡房窗戶只是面向海港。",
+      "starter": "This",
+      "answer": "This is not a place where we watch for boats; the bedroom window simply looks out on the harbour.",
+      "answerZh": "我們並非在這裏等候船隻出現;睡房窗戶只是面向海港。",
+      "highlight": "looks out on",
+      "targetForm": "look out on something",
+      "targetMeaningZh": "窗戶或房間面向某處"
+    },
+    {
+      "id": "phrasal-verb-235-q102",
+      "number": 102,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 43,
+      "prompt": "Instead of guessing the answer, check the fact in a reliable book.",
+      "promptZh": "不要猜測答案;請在可靠的書本中查證這項資料。",
+      "starter": "Instead",
+      "answer": "Instead of guessing the answer, look the fact up in a reliable book.",
+      "answerZh": "不要猜測答案;請在可靠的書本中查證這項資料。",
+      "highlight": "look",
+      "targetForm": "look something up",
+      "targetMeaningZh": "查找或核實資料"
+    },
+    {
+      "id": "phrasal-verb-235-q103",
+      "number": 103,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 43,
+      "prompt": "Do not keep watching if the light hurts your eyes; turn your gaze elsewhere.",
+      "promptZh": "如果燈光令眼睛不適,便不要繼續觀看;把視線移開吧。",
+      "starter": "Do",
+      "answer": "Do not keep watching if the light hurts your eyes; look away.",
+      "answerZh": "如果燈光令眼睛不適,便不要繼續觀看;把視線移開吧。",
+      "highlight": "look away",
+      "targetForm": "look away",
+      "targetMeaningZh": "把視線移開"
+    },
+    {
+      "id": "phrasal-verb-235-q104",
+      "number": 104,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 43,
+      "prompt": "He is famous, but I do not admire him or see him as a good example.",
+      "promptZh": "他很有名,但我並不敬佩他,也不把他視為好榜樣。",
+      "starter": "He",
+      "answer": "He is famous, but I do not look up to him or see him as a good example.",
+      "answerZh": "他很有名,但我並不敬佩他,也不把他視為好榜樣。",
+      "highlight": "look up to",
+      "targetForm": "look up to somebody",
+      "targetMeaningZh": "敬佩或尊敬某人"
+    },
+    {
+      "id": "phrasal-verb-235-q105",
+      "number": 105,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 44,
+      "prompt": "The police are trying to find a blue van seen near the shop.",
+      "promptZh": "警方正在尋找一輛曾在店舖附近出現的藍色客貨車。",
+      "starter": "The",
+      "answer": "The police are looking for a blue van seen near the shop.",
+      "answerZh": "警方正在尋找一輛曾在店舖附近出現的藍色客貨車。",
+      "highlight": "looking for",
+      "targetForm": "look for something",
+      "targetMeaningZh": "尋找某物"
+    },
+    {
+      "id": "phrasal-verb-235-q106",
+      "number": 106,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 44,
+      "prompt": "The crowd did not join the rescue; they watched anxiously from behind the gate.",
+      "promptZh": "人群沒有參與救援,只是在閘門後焦急地觀看。",
+      "starter": "The",
+      "answer": "The crowd did not join the rescue; they looked on anxiously from behind the gate.",
+      "answerZh": "人群沒有參與救援,只是在閘門後焦急地觀看。",
+      "highlight": "looked on",
+      "targetForm": "look on",
+      "targetMeaningZh": "在旁觀看而沒有參與"
+    },
+    {
+      "id": "phrasal-verb-235-q107",
+      "number": 107,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 44,
+      "prompt": "He had not lost his cousin’s address; he wanted to find and visit her while he was nearby.",
+      "promptZh": "他並沒有遺失表妹的地址;他只是想趁自己身處附近時探望她。",
+      "starter": "He",
+      "answer": "He had not lost his cousin’s address; he wanted to look her up while he was nearby.",
+      "answerZh": "他並沒有遺失表妹的地址;他只是想趁自己身處附近時探望她。",
+      "highlight": "look",
+      "targetForm": "look somebody up",
+      "targetMeaningZh": "到某地時探訪某人"
+    },
+    {
+      "id": "phrasal-verb-235-q108",
+      "number": 108,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 44,
+      "prompt": "He did not search under the table; he simply lowered his gaze when the teacher spoke to him.",
+      "promptZh": "他並非在桌下尋找東西;老師跟他說話時,他只是低下了頭。",
+      "starter": "He",
+      "answer": "He did not search under the table; he simply looked down when the teacher spoke to him.",
+      "answerZh": "他並非在桌下尋找東西;老師跟他說話時,他只是低下了頭。",
+      "highlight": "looked down",
+      "targetForm": "look down",
+      "targetMeaningZh": "低頭;垂下目光"
+    },
+    {
+      "id": "phrasal-verb-235-q109",
+      "number": 109,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 44,
+      "prompt": "He did not inspect every page closely; he quickly examined the report for the main points.",
+      "promptZh": "他沒有仔細檢查每一頁,只是快速翻閱報告以了解重點。",
+      "starter": "He",
+      "answer": "He did not inspect every page closely; he looked through the report for the main points.",
+      "answerZh": "他沒有仔細檢查每一頁,只是快速翻閱報告以了解重點。",
+      "highlight": "looked through",
+      "targetForm": "look through something",
+      "targetMeaningZh": "快速翻閱某物"
+    },
+    {
+      "id": "phrasal-verb-235-q110",
+      "number": 110,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 44,
+      "prompt": "Their accountant is responsible for the money side of the business.",
+      "promptZh": "他們的會計師負責處理公司的財務方面。",
+      "starter": "Their",
+      "answer": "Their accountant looks after the money side of the business.",
+      "answerZh": "他們的會計師負責處理公司的財務方面。",
+      "highlight": "looks after",
+      "targetForm": "look after something",
+      "targetMeaningZh": "負責處理某方面的事情"
+    },
+    {
+      "id": "phrasal-verb-235-q111",
+      "number": 111,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 44,
+      "prompt": "While you are shopping, try to notice any blue notebooks on sale.",
+      "promptZh": "購物時,請留意有否藍色筆記簿減價。",
+      "starter": "While",
+      "answer": "While you are shopping, look out for any blue notebooks on sale.",
+      "answerZh": "購物時,請留意有否藍色筆記簿減價。",
+      "highlight": "look out for",
+      "targetForm": "look out for something",
+      "targetMeaningZh": "留意某物"
+    },
+    {
+      "id": "phrasal-verb-235-q112",
+      "number": 112,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 45,
+      "prompt": "The nurse was not staying all afternoon; she only visited the patient briefly to check that he was comfortable.",
+      "promptZh": "護士並非整個下午都留下來;她只是短暫探望病人,確保他感到舒適。",
+      "starter": "The",
+      "answer": "The nurse was not staying all afternoon; she only looked in on the patient to check that he was comfortable.",
+      "answerZh": "護士並非整個下午都留下來;她只是短暫探望病人,確保他感到舒適。",
+      "highlight": "looked in on",
+      "targetForm": "look in on somebody",
+      "targetMeaningZh": "短暫探望某人"
+    },
+    {
+      "id": "phrasal-verb-235-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 45,
+      "prompt": "Although they had worked together for years, the manager walked past Sam and behaved as if he did not exist.",
+      "promptZh": "雖然他們共事多年,但經理從山姆身旁走過,彷彿他並不存在。",
+      "starter": "Although",
+      "answer": "Although they had worked together for years, the manager walked past Sam and looked straight through him.",
+      "answerZh": "雖然他們共事多年,但經理從山姆身旁走過,完全無視他。",
+      "highlight": "looked straight through him",
+      "targetForm": "look through somebody",
+      "targetMeaningZh": "故意無視某人"
+    },
+    {
+      "id": "phrasal-verb-235-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 45,
+      "prompt": "The guide told us to keep watching for dolphins as the boat moved away from the island.",
+      "promptZh": "船駛離小島時,導遊叫我們繼續留意海豚。",
+      "starter": "The",
+      "answer": "The guide told us to look out for dolphins as the boat moved away from the island.",
+      "answerZh": "船駛離小島時,導遊叫我們留意海豚。",
+      "highlight": "look out",
+      "targetForm": "look out for something",
+      "targetMeaningZh": "留意或等候看見某物"
+    },
+    {
+      "id": "phrasal-verb-235-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 45,
+      "prompt": "While his parents were abroad, Daniel cared for the children, the house and the family dog.",
+      "promptZh": "父母身處外地期間,丹尼爾照顧孩子、房子和家中的狗。",
+      "starter": "While",
+      "answer": "While his parents were abroad, Daniel looked after the children, the house and the family dog.",
+      "answerZh": "父母身處外地期間,丹尼爾照顧孩子、房子和家中的狗。",
+      "highlight": "looked after",
+      "targetForm": "look after somebody or something",
+      "targetMeaningZh": "照顧某人或某物"
+    },
+    {
+      "id": "phrasal-verb-235-q116",
+      "number": 116,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 45,
+      "prompt": "Years later, the players remembered that final as the moment their team began to change.",
+      "promptZh": "多年後,球員回想那場決賽,認為那是球隊開始改變的一刻。",
+      "starter": "Years",
+      "answer": "Years later, the players looked back on that final as the moment their team began to change.",
+      "answerZh": "多年後,球員回想那場決賽,認為那是球隊開始改變的一刻。",
+      "highlight": "looked back on",
+      "targetForm": "look back on something",
+      "targetMeaningZh": "回想或回顧過去"
+    },
+    {
+      "id": "phrasal-verb-235-q117",
+      "number": 117,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 45,
+      "prompt": "Before paying for the second-hand laptop, Priya examined it carefully for any damage.",
+      "promptZh": "購買那部二手手提電腦前,普里雅仔細檢查它有否損壞。",
+      "starter": "Before",
+      "answer": "Before paying for the second-hand laptop, Priya looked it over carefully for any damage.",
+      "answerZh": "購買那部二手手提電腦前,普里雅仔細檢查它有否損壞。",
+      "highlight": "looked",
+      "targetForm": "look something over",
+      "targetMeaningZh": "仔細檢查某物"
+    },
+    {
+      "id": "phrasal-verb-235-q118",
+      "number": 118,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 46,
+      "prompt": "After months of practice, the choir members eagerly awaited the chance to perform before an audience.",
+      "promptZh": "練習了幾個月後,合唱團成員熱切期待在觀眾面前表演。",
+      "starter": "After",
+      "answer": "After months of practice, the choir members were looking forward to performing before an audience.",
+      "answerZh": "練習了幾個月後,合唱團成員熱切期待在觀眾面前表演。",
+      "highlight": "were looking forward",
+      "targetForm": "look forward to doing something",
+      "targetMeaningZh": "期待做某事"
+    },
+    {
+      "id": "phrasal-verb-235-q119",
+      "number": 119,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 46,
+      "prompt": "Across the platform, Ben raised his hand, and I directed my eyes towards him to show that I had seen him.",
+      "promptZh": "賓在月台另一邊舉起手,我便望向他,表示自己已看見他。",
+      "starter": "Across",
+      "answer": "Across the platform, Ben raised his hand, and I looked over at him to show that I had seen him.",
+      "answerZh": "賓在月台另一邊舉起手,我便望向他,表示自己已看見他。",
+      "highlight": "looked over at",
+      "targetForm": "look over at somebody",
+      "targetMeaningZh": "望向另一邊的人"
+    },
+    {
+      "id": "phrasal-verb-235-q120",
+      "number": 120,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 46,
+      "prompt": "When the project ran into trouble, everyone expected Rosa to find a fair solution.",
+      "promptZh": "項目遇到困難時,所有人都期望羅莎找出公平的解決方法。",
+      "starter": "When",
+      "answer": "When the project ran into trouble, everyone looked to Rosa to find a fair solution.",
+      "answerZh": "項目遇到困難時,所有人都期望羅莎找出公平的解決方法。",
+      "highlight": "looked to",
+      "targetForm": "look to somebody to do something",
+      "targetMeaningZh": "期望某人採取行動"
+    },
+    {
+      "id": "phrasal-verb-235-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 46,
+      "prompt": "Although she wanted to see the result, she turned her eyes from the board when the final number appeared.",
+      "promptZh": "雖然她想知道結果,但最後的分數出現時,她把視線從告示板移開。",
+      "starter": "Although",
+      "answer": "Although she wanted to see the result, she looked away from the board when the final number appeared.",
+      "answerZh": "雖然她想知道結果,但最後的分數出現時,她把視線從告示板移開。",
+      "highlight": "looked away",
+      "targetForm": "look away from something",
+      "targetMeaningZh": "把視線從某物移開"
+    },
+    {
+      "id": "phrasal-verb-235-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 46,
+      "prompt": "During her trip to Edinburgh, Ava found a former classmate and spent the afternoon with him.",
+      "promptZh": "艾娃到愛丁堡旅行期間,探訪了一名舊同學,並與他共度下午。",
+      "starter": "During",
+      "answer": "During her trip to Edinburgh, Ava looked up a former classmate and spent the afternoon with him.",
+      "answerZh": "艾娃到愛丁堡旅行期間,探訪了一名舊同學,並與他共度下午。",
+      "highlight": "looked up",
+      "targetForm": "look somebody up",
+      "targetMeaningZh": "到某地時探訪或聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-235-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 46,
+      "prompt": "Just as I was about to walk into the road, Ava shouted a warning because a bus was turning the corner.",
+      "promptZh": "正當我準備走出馬路時,艾娃因為有巴士正在轉彎而大聲警告我。",
+      "starter": "Just",
+      "answer": "Just as I was about to walk into the road, Ava shouted, “Look out!” because a bus was turning the corner.",
+      "answerZh": "正當我準備走出馬路時,艾娃因為有巴士正在轉彎而大叫:「小心!」",
+      "highlight": "“Look out!”",
+      "targetForm": "look out",
+      "targetMeaningZh": "小心;當心"
+    },
+    {
+      "id": "phrasal-verb-235-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 47,
+      "prompt": "As the school prepares its five-year plan, it is thinking about future needs rather than only today’s problems.",
+      "promptZh": "學校準備五年計劃時,正考慮未來的需要,而非只着眼於今天的問題。",
+      "starter": "As",
+      "answer": "As the school prepares its five-year plan, it is looking to the future rather than only at today’s problems.",
+      "answerZh": "學校準備五年計劃時,正着眼於未來,而非只着眼於今天的問題。",
+      "highlight": "looking to the",
+      "targetForm": "look to the future",
+      "targetMeaningZh": "展望未來"
+    },
+    {
+      "id": "phrasal-verb-235-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 47,
+      "prompt": "Before replying to the complaint, the manager quickly read all the messages to understand what had happened.",
+      "promptZh": "回覆投訴前,經理快速查看了所有訊息,以了解事情經過。",
+      "starter": "Before",
+      "answer": "Before replying to the complaint, the manager looked through all the messages to understand what had happened.",
+      "answerZh": "回覆投訴前,經理快速查看了所有訊息,以了解事情經過。",
+      "highlight": "looked through",
+      "targetForm": "look through something",
+      "targetMeaningZh": "快速翻閱或查看某些東西"
+    },
+    {
+      "id": "phrasal-verb-235-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 47,
+      "prompt": "The new manager lost everyone’s trust because he behaved as though junior staff were beneath him.",
+      "promptZh": "新經理把初級員工視為不如自己,因而失去了所有人的信任。",
+      "starter": "The",
+      "answer": "The new manager lost everyone’s trust because he looked down on junior staff.",
+      "answerZh": "新經理看不起初級員工,因而失去了所有人的信任。",
+      "highlight": "looked down on",
+      "targetForm": "look down on somebody",
+      "targetMeaningZh": "看不起某人"
+    },
+    {
+      "id": "phrasal-verb-235-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 47,
+      "prompt": "After several parents raised the same concern, the head teacher promised to investigate the matter fully.",
+      "promptZh": "幾名家長提出同一項憂慮後,校長答應全面調查此事。",
+      "starter": "After",
+      "answer": "After several parents raised the same concern, the head teacher promised to look into the matter fully.",
+      "answerZh": "幾名家長提出同一項憂慮後,校長答應全面調查此事。",
+      "highlight": "look into",
+      "targetForm": "look into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-235-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 47,
+      "prompt": "While the class was working quietly, a loud noise outside made every student raise their head from the page.",
+      "promptZh": "全班安靜做課業時,外面的一聲巨響令每名學生都從書頁中抬起頭來。",
+      "starter": "While",
+      "answer": "While the class was working quietly, a loud noise outside made every student look up from the page.",
+      "answerZh": "全班安靜做課業時,外面的一聲巨響令每名學生都從書頁中抬起頭來。",
+      "highlight": "look up",
+      "targetForm": "look up from something",
+      "targetMeaningZh": "從正在看的東西抬起頭來"
+    },
+    {
+      "id": "phrasal-verb-235-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 47,
+      "prompt": "When the new student seemed lost, Rosa stayed near him and made sure nobody caused him trouble.",
+      "promptZh": "新同學看來不知所措時,羅莎留在他身旁,確保沒有人找他麻煩。",
+      "starter": "When",
+      "answer": "When the new student seemed lost, Rosa stayed near him and looked out for him.",
+      "answerZh": "新同學看來不知所措時,羅莎留在他身旁照顧他。",
+      "highlight": "looked out for",
+      "targetForm": "look out for somebody",
+      "targetMeaningZh": "照顧或保護某人"
+    },
+    {
+      "id": "phrasal-verb-235-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 48,
+      "prompt": "The doctor did not inspect the whole bag; she only directed her eyes towards the label.",
+      "promptZh": "醫生沒有檢查整個袋子,只是望向標籤。",
+      "starter": "The",
+      "answer": "The doctor did not inspect the whole bag; she only looked at the label.",
+      "answerZh": "醫生沒有檢查整個袋子,只是看了看標籤。",
+      "highlight": "looked at",
+      "targetForm": "look at something",
+      "targetMeaningZh": "望向或查看某物"
+    },
+    {
+      "id": "phrasal-verb-235-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 48,
+      "prompt": "Before the school show, the teacher found the old costumes that the class could use.",
+      "promptZh": "學校表演前,老師找出了可供全班使用的舊戲服。",
+      "starter": "Before",
+      "answer": "Before the school show, the teacher looked out the old costumes that the class could use.",
+      "answerZh": "學校表演前,老師找出了可供全班使用的舊戲服。",
+      "highlight": "looked out",
+      "targetForm": "look something out",
+      "targetMeaningZh": "找出或挑出某物"
+    },
+    {
+      "id": "phrasal-verb-235-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 48,
+      "prompt": "As the small boat began to turn in the strong wind, people on the beach watched helplessly.",
+      "promptZh": "小船開始在強風中轉動時,沙灘上的人只能無助地旁觀。",
+      "starter": "As",
+      "answer": "As the small boat began to turn in the strong wind, people on the beach looked on helplessly.",
+      "answerZh": "小船開始在強風中轉動時,沙灘上的人只能無助地旁觀。",
+      "highlight": "looked on",
+      "targetForm": "look on",
+      "targetMeaningZh": "在旁觀看而沒有參與"
+    },
+    {
+      "id": "phrasal-verb-235-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 48,
+      "prompt": "Even after becoming a successful doctor, Lena still admired the nurse who had encouraged her at school.",
+      "promptZh": "即使成為成功的醫生後,莉娜仍然敬佩那名在她求學時鼓勵過她的護士。",
+      "starter": "Even",
+      "answer": "Even after becoming a successful doctor, Lena still looked up to the nurse who had encouraged her at school.",
+      "answerZh": "即使成為成功的醫生後,莉娜仍然敬佩那名在她求學時鼓勵過她的護士。",
+      "highlight": "looked up to",
+      "targetForm": "look up to somebody",
+      "targetMeaningZh": "敬佩或尊敬某人"
+    },
+    {
+      "id": "phrasal-verb-235-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 48,
+      "prompt": "He entered the unfamiliar workshop and checked his surroundings carefully before touching anything.",
+      "promptZh": "他進入陌生的工作室後,仔細查看四周,才觸碰任何東西。",
+      "starter": "He",
+      "answer": "He entered the unfamiliar workshop and looked around carefully before touching anything.",
+      "answerZh": "他進入陌生的工作室後,仔細查看四周,才觸碰任何東西。",
+      "highlight": "looked around",
+      "targetForm": "look around",
+      "targetMeaningZh": "環顧四周"
+    },
+    {
+      "id": "phrasal-verb-235-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 48,
+      "prompt": "When the museum’s name appeared in the article, Ben searched online for more information about it.",
+      "promptZh": "文章提到那間博物館時,賓在網上查找了更多相關資料。",
+      "starter": "When",
+      "answer": "When the museum’s name appeared in the article, Ben looked the museum up online.",
+      "answerZh": "文章提到那間博物館時,賓在網上查找了更多相關資料。",
+      "highlight": "looked the museum up",
+      "targetForm": "look something up",
+      "targetMeaningZh": "查找資料"
+    },
+    {
+      "id": "phrasal-verb-235-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 49,
+      "prompt": "From the top floor, every office has windows facing the park and the hills beyond it.",
+      "promptZh": "從頂層望去,每間辦公室的窗戶都面向公園和後方的山丘。",
+      "starter": "From",
+      "answer": "From the top floor, every office has windows looking out over the park and the hills beyond it.",
+      "answerZh": "從頂層望去,每間辦公室的窗戶都面向公園和後方的山丘。",
+      "highlight": "looking out over",
+      "targetForm": "look out over something",
+      "targetMeaningZh": "面向某處;可看到某處的景色"
+    },
+    {
+      "id": "phrasal-verb-235-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 49,
+      "prompt": "After checking every drawer twice, I was still trying to find the missing letter.",
+      "promptZh": "把每個抽屜檢查兩次後,我仍在尋找那封失去的信。",
+      "starter": "After",
+      "answer": "After checking every drawer twice, I was still looking for the missing letter.",
+      "answerZh": "把每個抽屜檢查兩次後,我仍在尋找那封失去的信。",
+      "highlight": "looking for",
+      "targetForm": "look for something",
+      "targetMeaningZh": "尋找某物"
+    },
+    {
+      "id": "phrasal-verb-235-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 49,
+      "prompt": "Although the project began as a small class activity, the school now regards it as one of its most useful programmes.",
+      "promptZh": "雖然這個項目最初只是小型班級活動,但學校現時把它視為最有用的計劃之一。",
+      "starter": "Although",
+      "answer": "Although the project began as a small class activity, the school now looks upon it as one of its most useful programmes.",
+      "answerZh": "雖然這個項目最初只是小型班級活動,但學校現時把它視為最有用的計劃之一。",
+      "highlight": "looks upon",
+      "targetForm": "look upon something as something",
+      "targetMeaningZh": "把某事物視為另一事物"
+    },
+    {
+      "id": "phrasal-verb-235-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 49,
+      "prompt": "Because Mr Lee lives alone, his daughter makes a short visit every morning before taking the children to school.",
+      "promptZh": "李先生獨居,所以女兒每天早上送孩子上學前都會短暫探望他。",
+      "starter": "Because",
+      "answer": "Because Mr Lee lives alone, his daughter looks in on him every morning before taking the children to school.",
+      "answerZh": "李先生獨居,所以女兒每天早上送孩子上學前都會短暫探望他。",
+      "highlight": "looks in on him",
+      "targetForm": "look in on somebody",
+      "targetMeaningZh": "順道短暫探望某人"
+    },
+    {
+      "id": "phrasal-verb-235-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 49,
+      "prompt": "When her name was announced, she smiled, lowered her eyes for a moment and then walked onto the stage.",
+      "promptZh": "她的名字被宣布時,她微笑了一下,低頭片刻,然後走上舞台。",
+      "starter": "When",
+      "answer": "When her name was announced, she smiled, looked down for a moment and then walked onto the stage.",
+      "answerZh": "她的名字被宣布時,她微笑了一下,低頭片刻,然後走上舞台。",
+      "highlight": "looked down",
+      "targetForm": "look down",
+      "targetMeaningZh": "低頭;垂下目光"
+    }
+  ]
+}

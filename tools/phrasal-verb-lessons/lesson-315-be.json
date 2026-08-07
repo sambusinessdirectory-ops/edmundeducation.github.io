@@ -1,0 +1,3912 @@
+{
+  "id": "phrasal-verb-315",
+  "order": 315,
+  "slug": "be",
+  "version": "1",
+  "title": "BE 動詞片語",
+  "titleEn": "Be",
+  "titleZh": "BE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 30,
+  "source": {
+    "file": "Phrasal Verbs 300 - BE.pdf",
+    "sourceNumber": 300,
+    "pageCount": 58,
+    "teachingPdfPages": [
+      1,
+      6
+    ],
+    "exercisePdfPages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "contentPdfPages": [
+      1,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "answerKeyPdfPages": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BE",
+      "highlight": "BE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Leo is well in with the club president.",
+      "zh": "里奧與社團主席關係很好。",
+      "highlight": "is well in with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Several people are after the same job.",
+      "zh": "幾個人都正設法爭取同一份工作。",
+      "highlight": "are after",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The lesson is aimed at helping new students.",
+      "zh": "這堂課旨在幫助新生。",
+      "highlight": "is aimed at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與有影響力的人關係良好,因而可能得到對方幫助；想得到或正設法取得某事物；以某事物或某類人為目標;旨在做某事；不斷催促、批評、責罵或纏着某人；忙於或不停做某事；不在家;離開原來地方；正交由某人或某機構審理、考慮或決定；支持某人；拖欠款項;工作或進度落後；已被訂滿;沒有空位；漂流到某處並被困當地；因某事感到沮喪或氣餒；長時間被困在狹小或封閉的地方；流行;時髦；很可能即將經歷某事,通常是不愉快或意外的事情；對某事物有興趣;喜歡；活動會舉行;仍按計劃進行；不停或反覆談論某事；由某人付款；正在服用藥物,或遵從某種飲食或療程；察覺或懷疑某人正在做壞事；可能發現了好主意、重要線索或正確方向；正在罷工；決心取得某物或做某事；某物已用完;沒有剩下；已從一段感情中恢復;不再因某人傷心；已從疾病、震驚或不快經歷中恢復；因年紀太大或狀態下降而不復當年；電話已接通某人或某部門；已完成某事;已與某人結束關係或不再來往",
+    "en": "be (well) in with somebody; be after something; be aimed at something / doing something; be at somebody; be at something; be away; be before somebody; be behind somebody; be behind with something; be booked up; be cast away on something; be cast down by something; be cooped up in something; be in; be in for something; be into something; be on; be on about something; be on somebody; be on something; be onto somebody; be onto something; be out; be out for something / be out to do something; be out of something; be over somebody; be over something; be past it; be through to somebody; be through with somebody/something",
+    "naturalZh": [
+      "與有影響力的人關係良好,因而可能得到對方幫助",
+      "想得到或正設法取得某事物",
+      "以某事物或某類人為目標;旨在做某事",
+      "不斷催促、批評、責罵或纏着某人",
+      "忙於或不停做某事",
+      "不在家;離開原來地方",
+      "正交由某人或某機構審理、考慮或決定",
+      "支持某人",
+      "拖欠款項;工作或進度落後",
+      "已被訂滿;沒有空位",
+      "漂流到某處並被困當地",
+      "因某事感到沮喪或氣餒",
+      "長時間被困在狹小或封閉的地方",
+      "流行;時髦",
+      "很可能即將經歷某事,通常是不愉快或意外的事情",
+      "對某事物有興趣;喜歡",
+      "活動會舉行;仍按計劃進行",
+      "不停或反覆談論某事",
+      "由某人付款",
+      "正在服用藥物,或遵從某種飲食或療程",
+      "察覺或懷疑某人正在做壞事",
+      "可能發現了好主意、重要線索或正確方向",
+      "正在罷工",
+      "決心取得某物或做某事",
+      "某物已用完;沒有剩下",
+      "已從一段感情中恢復;不再因某人傷心",
+      "已從疾病、震驚或不快經歷中恢復",
+      "因年紀太大或狀態下降而不復當年",
+      "電話已接通某人或某部門",
+      "已完成某事;已與某人結束關係或不再來往"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "be (well) in with somebody",
+      "titleZh": "與有影響力的人關係良好,因而可能得到對方幫助",
+      "titleEn": "be (well) in with somebody",
+      "descriptionZh": "與有影響力的人關係良好,因而可能得到對方幫助",
+      "descriptionEn": "Leo is well in with the club president.",
+      "examples": [
+        {
+          "en": "Leo is well in with the club president.",
+          "zh": "里奧與社團主席關係很好。",
+          "highlight": "is well in with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be after something",
+      "titleZh": "想得到或正設法取得某事物",
+      "titleEn": "be after something",
+      "descriptionZh": "想得到或正設法取得某事物",
+      "descriptionEn": "Several people are after the same job.",
+      "examples": [
+        {
+          "en": "Several people are after the same job.",
+          "zh": "幾個人都正設法爭取同一份工作。",
+          "highlight": "are after"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be aimed at something / doing something",
+      "titleZh": "以某事物或某類人為目標;旨在做某事",
+      "titleEn": "be aimed at something / doing something",
+      "descriptionZh": "以某事物或某類人為目標;旨在做某事",
+      "descriptionEn": "The lesson is aimed at helping new students.",
+      "examples": [
+        {
+          "en": "The lesson is aimed at helping new students.",
+          "zh": "這堂課旨在幫助新生。",
+          "highlight": "is aimed at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be at somebody",
+      "titleZh": "不斷催促、批評、責罵或纏着某人",
+      "titleEn": "be at somebody",
+      "descriptionZh": "不斷催促、批評、責罵或纏着某人",
+      "descriptionEn": "Dad is always at me to tidy my desk.",
+      "examples": [
+        {
+          "en": "Dad is always at me to tidy my desk.",
+          "zh": "爸爸總是不斷催促我整理書桌。",
+          "highlight": "is always at"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be at something",
+      "titleZh": "忙於或不停做某事",
+      "titleEn": "be at something",
+      "descriptionZh": "忙於或不停做某事",
+      "descriptionEn": "She has been at her essay all evening.",
+      "examples": [
+        {
+          "en": "She has been at her essay all evening.",
+          "zh": "她整個晚上都在寫文章。",
+          "highlight": "been at"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be away",
+      "titleZh": "不在家;離開原來地方",
+      "titleEn": "be away",
+      "descriptionZh": "不在家;離開原來地方",
+      "descriptionEn": "We will be away next week.",
+      "examples": [
+        {
+          "en": "We will be away next week.",
+          "zh": "我們下星期會外出。",
+          "highlight": "be away"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be before somebody",
+      "titleZh": "正交由某人或某機構審理、考慮或決定",
+      "titleEn": "be before somebody",
+      "descriptionZh": "正交由某人或某機構審理、考慮或決定",
+      "descriptionEn": "The matter is now before the court.",
+      "examples": [
+        {
+          "en": "The matter is now before the court.",
+          "zh": "事情現正交由法院審理。",
+          "highlight": "is"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be behind somebody",
+      "titleZh": "支持某人",
+      "titleEn": "be behind somebody",
+      "descriptionZh": "支持某人",
+      "descriptionEn": "We are behind you all the way.",
+      "examples": [
+        {
+          "en": "We are behind you all the way.",
+          "zh": "我們會一直全力支持你。",
+          "highlight": "are behind"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be behind with something",
+      "titleZh": "拖欠款項;工作或進度落後",
+      "titleEn": "be behind with something",
+      "descriptionZh": "拖欠款項;工作或進度落後",
+      "descriptionEn": "Ben is behind with his homework.",
+      "examples": [
+        {
+          "en": "Ben is behind with his homework.",
+          "zh": "賓的功課進度落後了。",
+          "highlight": "is behind with"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be booked up",
+      "titleZh": "已被訂滿;沒有空位",
+      "titleEn": "be booked up",
+      "descriptionZh": "已被訂滿;沒有空位",
+      "descriptionEn": "The hotel is booked up this weekend.",
+      "examples": [
+        {
+          "en": "The hotel is booked up this weekend.",
+          "zh": "酒店這個週末已被訂滿。",
+          "highlight": "is booked up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be cast away on something",
+      "titleZh": "漂流到某處並被困當地",
+      "titleEn": "be cast away on something",
+      "descriptionZh": "漂流到某處並被困當地",
+      "descriptionEn": "They were cast away on a small island.",
+      "examples": [
+        {
+          "en": "They were cast away on a small island.",
+          "zh": "他們漂流到一個小島並被困當地。",
+          "highlight": "were cast away on"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be cast down by something",
+      "titleZh": "因某事感到沮喪或氣餒",
+      "titleEn": "be cast down by something",
+      "descriptionZh": "因某事感到沮喪或氣餒",
+      "descriptionEn": "She was not cast down by the result.",
+      "examples": [
+        {
+          "en": "She was not cast down by the result.",
+          "zh": "她沒有因結果而氣餒。",
+          "highlight": "was not cast down by"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be cooped up in something",
+      "titleZh": "長時間被困在狹小或封閉的地方",
+      "titleEn": "be cooped up in something",
+      "descriptionZh": "長時間被困在狹小或封閉的地方",
+      "descriptionEn": "We were cooped up indoors by the rain.",
+      "examples": [
+        {
+          "en": "We were cooped up indoors by the rain.",
+          "zh": "我們因下雨而長時間被困在室內。",
+          "highlight": "were cooped up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be in",
+      "titleZh": "流行;時髦",
+      "titleEn": "be in",
+      "descriptionZh": "流行;時髦",
+      "descriptionEn": "Wide jeans are in again.",
+      "examples": [
+        {
+          "en": "Wide jeans are in again.",
+          "zh": "闊身牛仔褲再次流行。",
+          "highlight": "are in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be in for something",
+      "titleZh": "很可能即將經歷某事,通常是不愉快或意外的事情",
+      "titleEn": "be in for something",
+      "descriptionZh": "很可能即將經歷某事,通常是不愉快或意外的事情",
+      "descriptionEn": "You are in for a surprise.",
+      "examples": [
+        {
+          "en": "You are in for a surprise.",
+          "zh": "你很可能會遇上一件意想不到的事。",
+          "highlight": "are in for"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be into something",
+      "titleZh": "對某事物有興趣;喜歡",
+      "titleEn": "be into something",
+      "descriptionZh": "對某事物有興趣;喜歡",
+      "descriptionEn": "Are you into jazz music?",
+      "examples": [
+        {
+          "en": "Are you into jazz music?",
+          "zh": "你喜歡爵士音樂嗎?",
+          "highlight": "Are you into"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be on",
+      "titleZh": "活動會舉行;仍按計劃進行",
+      "titleEn": "be on",
+      "descriptionZh": "活動會舉行;仍按計劃進行",
+      "descriptionEn": "Is the party still on?",
+      "examples": [
+        {
+          "en": "Is the party still on?",
+          "zh": "派對仍會舉行嗎?",
+          "highlight": "Is the party still on"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be on about something",
+      "titleZh": "不停或反覆談論某事",
+      "titleEn": "be on about something",
+      "descriptionZh": "不停或反覆談論某事",
+      "descriptionEn": "He is always on about his new phone.",
+      "examples": [
+        {
+          "en": "He is always on about his new phone.",
+          "zh": "他總是不停談論自己的新電話。",
+          "highlight": "is always on about"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be on somebody",
+      "titleZh": "由某人付款",
+      "titleEn": "be on somebody",
+      "descriptionZh": "由某人付款",
+      "descriptionEn": "Dinner is on me tonight.",
+      "examples": [
+        {
+          "en": "Dinner is on me tonight.",
+          "zh": "今晚晚餐由我付款。",
+          "highlight": "is on"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be on something",
+      "titleZh": "正在服用藥物,或遵從某種飲食或療程",
+      "titleEn": "be on something",
+      "descriptionZh": "正在服用藥物,或遵從某種飲食或療程",
+      "descriptionEn": "Ben is on antibiotics this week.",
+      "examples": [
+        {
+          "en": "Ben is on antibiotics this week.",
+          "zh": "賓本星期正在服用抗生素。",
+          "highlight": "is on"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be onto somebody",
+      "titleZh": "察覺或懷疑某人正在做壞事",
+      "titleEn": "be onto somebody",
+      "descriptionZh": "察覺或懷疑某人正在做壞事",
+      "descriptionEn": "The police are onto him.",
+      "examples": [
+        {
+          "en": "The police are onto him.",
+          "zh": "警方已察覺或懷疑他。",
+          "highlight": "are onto"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be onto something",
+      "titleZh": "可能發現了好主意、重要線索或正確方向",
+      "titleEn": "be onto something",
+      "descriptionZh": "可能發現了好主意、重要線索或正確方向",
+      "descriptionEn": "We may be onto something.",
+      "examples": [
+        {
+          "en": "We may be onto something.",
+          "zh": "我們可能發現了重要線索。",
+          "highlight": "be onto"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be out",
+      "titleZh": "正在罷工",
+      "titleEn": "be out",
+      "descriptionZh": "正在罷工",
+      "descriptionEn": "The postal workers are still out.",
+      "examples": [
+        {
+          "en": "The postal workers are still out.",
+          "zh": "郵政工人仍在罷工。",
+          "highlight": "are still out"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be out for something / be out to do something",
+      "titleZh": "決心取得某物或做某事",
+      "titleEn": "be out for something / be out to do something",
+      "descriptionZh": "決心取得某物或做某事",
+      "descriptionEn": "The team is out to win.",
+      "examples": [
+        {
+          "en": "The team is out to win.",
+          "zh": "球隊決心取勝。",
+          "highlight": "is out to"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be out of something",
+      "titleZh": "某物已用完;沒有剩下",
+      "titleEn": "be out of something",
+      "descriptionZh": "某物已用完;沒有剩下",
+      "descriptionEn": "We are out of sugar.",
+      "examples": [
+        {
+          "en": "We are out of sugar.",
+          "zh": "我們沒有糖了。",
+          "highlight": "are out"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be over somebody",
+      "titleZh": "已從一段感情中恢復;不再因某人傷心",
+      "titleEn": "be over somebody",
+      "descriptionZh": "已從一段感情中恢復;不再因某人傷心",
+      "descriptionEn": "Ella says she is over him now.",
+      "examples": [
+        {
+          "en": "Ella says she is over him now.",
+          "zh": "埃拉說自己現在已放下他。",
+          "highlight": "is over"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be over something",
+      "titleZh": "已從疾病、震驚或不快經歷中恢復",
+      "titleEn": "be over something",
+      "descriptionZh": "已從疾病、震驚或不快經歷中恢復",
+      "descriptionEn": "He is over the flu now.",
+      "examples": [
+        {
+          "en": "He is over the flu now.",
+          "zh": "他現在已從流感中康復。",
+          "highlight": "is over"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be past it",
+      "titleZh": "因年紀太大或狀態下降而不復當年",
+      "titleEn": "be past it",
+      "descriptionZh": "因年紀太大或狀態下降而不復當年",
+      "descriptionEn": "Some people say the player is past it.",
+      "examples": [
+        {
+          "en": "Some people say the player is past it.",
+          "zh": "有些人說那名球員已過了最佳狀態。",
+          "highlight": "is"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be through to somebody",
+      "titleZh": "電話已接通某人或某部門",
+      "titleEn": "be through to somebody",
+      "descriptionZh": "電話已接通某人或某部門",
+      "descriptionEn": "You are through to the manager now.",
+      "examples": [
+        {
+          "en": "You are through to the manager now.",
+          "zh": "你現在已接通經理的電話。",
+          "highlight": "are through to"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be through with somebody/something",
+      "titleZh": "已完成某事;已與某人結束關係或不再來往",
+      "titleEn": "be through with somebody/something",
+      "descriptionZh": "已完成某事;已與某人結束關係或不再來往",
+      "descriptionEn": "I am through with this old computer.",
+      "examples": [
+        {
+          "en": "I am through with this old computer.",
+          "zh": "我已不再使用這部舊電腦。",
+          "highlight": "am through with"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BE 片語動詞的實際用途",
+    "labelEn": "BE Phrasal Verbs in Use",
+    "summaryZh": "be on、be away、be booked up 和 be out of something 可以幫助你清楚談論活動、外出、預訂和物資。；be behind somebody 表示支持;be after something 和 be out for something 則可以描述某人想得到或決心取得的事物。；be into something、be over somebody 和 be over something 可以幫助你自然地談論興趣、感情、疾病和康復。；這些 BE 表達常見於電話通話、預訂訊息、職場對話、新聞報道和日常英語。",
+    "summaryEn": "Expressions such as be on, be away, be booked up and be out of something help you talk clearly about events, travel, reservations and supplies. Be behind somebody shows support, while be after something and be out for something describe what a person wants or is determined to achieve. Be into something, be over somebody and be over something help you discuss interests, relationships, illness and recovery naturally. These BE expressions often appear in telephone calls, booking messages, workplace conversations, news reports and everyday speech.",
+    "contextsZh": [
+      "使用 BE 描述計劃、空位和日常情況",
+      "談論支持、目標和進度",
+      "表達興趣、康復和感情變化",
+      "理解實用訊息和對話"
+    ],
+    "contextsEn": [
+      "Use BE to describe plans, availability and everyday situations",
+      "Talk about support, goals and progress",
+      "Express interests, recovery and emotional change",
+      "Understand useful messages and conversations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "be (well) in with somebody",
+    "fixedHighlight": "be (well) in with somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+    "correct": "is well in with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；幾個表達的外形十分相似。請仔細留意 BE 後面的內容。；be over somebody 表示已從感情傷痛中恢復;be through with somebody 則表示已結束關係或不再來往。",
+    "variableEn": "Keep the same people, things, time and meaning. Several expressions look similar. Read what follows BE carefully: The party is on. Dinner is on me. Ben is on antibiotics. The police are onto Ben. Be over somebody means that the emotional pain has ended. Be through with somebody means that the relationship or contact has ended.",
+    "variableItemsZh": [
+      "be (well) in with somebody",
+      "be after something",
+      "be aimed at something / doing something",
+      "be at somebody",
+      "be at something",
+      "be away",
+      "be before somebody",
+      "be behind somebody",
+      "be behind with something",
+      "be booked up",
+      "be cast away on something",
+      "be cast down by something",
+      "be cooped up in something",
+      "be in",
+      "be in for something",
+      "be into something",
+      "be on",
+      "be on about something",
+      "be on somebody",
+      "be on something",
+      "be onto somebody",
+      "be onto something",
+      "be out",
+      "be out for something / be out to do something",
+      "be out of something",
+      "be over somebody",
+      "be over something",
+      "be past it",
+      "be through to somebody",
+      "be through with somebody/something"
+    ],
+    "variableItemsEn": [
+      "be (well) in with somebody",
+      "be after something",
+      "be aimed at something / doing something",
+      "be at somebody",
+      "be at something",
+      "be away",
+      "be before somebody",
+      "be behind somebody",
+      "be behind with something",
+      "be booked up",
+      "be cast away on something",
+      "be cast down by something",
+      "be cooped up in something",
+      "be in",
+      "be in for something",
+      "be into something",
+      "be on",
+      "be on about something",
+      "be on somebody",
+      "be on something",
+      "be onto somebody",
+      "be onto something",
+      "be out",
+      "be out for something / be out to do something",
+      "be out of something",
+      "be over somebody",
+      "be over something",
+      "be past it",
+      "be through to somebody",
+      "be through with somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "與有影響力的人關係良好,因而可能得到對方幫助",
+        "formEn": "be (well) in with somebody",
+        "exampleZh": "里奧與社團主席關係很好。",
+        "exampleEn": "Leo is well in with the club president.",
+        "highlight": "is well in with"
+      },
+      {
+        "formZh": "想得到或正設法取得某事物",
+        "formEn": "be after something",
+        "exampleZh": "幾個人都正設法爭取同一份工作。",
+        "exampleEn": "Several people are after the same job.",
+        "highlight": "are after"
+      },
+      {
+        "formZh": "以某事物或某類人為目標;旨在做某事",
+        "formEn": "be aimed at something / doing something",
+        "exampleZh": "這堂課旨在幫助新生。",
+        "exampleEn": "The lesson is aimed at helping new students.",
+        "highlight": "is aimed at"
+      },
+      {
+        "formZh": "不斷催促、批評、責罵或纏着某人",
+        "formEn": "be at somebody",
+        "exampleZh": "爸爸總是不斷催促我整理書桌。",
+        "exampleEn": "Dad is always at me to tidy my desk.",
+        "highlight": "is always at"
+      },
+      {
+        "formZh": "忙於或不停做某事",
+        "formEn": "be at something",
+        "exampleZh": "她整個晚上都在寫文章。",
+        "exampleEn": "She has been at her essay all evening.",
+        "highlight": "been at"
+      },
+      {
+        "formZh": "不在家;離開原來地方",
+        "formEn": "be away",
+        "exampleZh": "我們下星期會外出。",
+        "exampleEn": "We will be away next week.",
+        "highlight": "be away"
+      },
+      {
+        "formZh": "正交由某人或某機構審理、考慮或決定",
+        "formEn": "be before somebody",
+        "exampleZh": "事情現正交由法院審理。",
+        "exampleEn": "The matter is now before the court.",
+        "highlight": "is"
+      },
+      {
+        "formZh": "支持某人",
+        "formEn": "be behind somebody",
+        "exampleZh": "我們會一直全力支持你。",
+        "exampleEn": "We are behind you all the way.",
+        "highlight": "are behind"
+      },
+      {
+        "formZh": "拖欠款項;工作或進度落後",
+        "formEn": "be behind with something",
+        "exampleZh": "賓的功課進度落後了。",
+        "exampleEn": "Ben is behind with his homework.",
+        "highlight": "is behind with"
+      },
+      {
+        "formZh": "已被訂滿;沒有空位",
+        "formEn": "be booked up",
+        "exampleZh": "酒店這個週末已被訂滿。",
+        "exampleEn": "The hotel is booked up this weekend.",
+        "highlight": "is booked up"
+      },
+      {
+        "formZh": "漂流到某處並被困當地",
+        "formEn": "be cast away on something",
+        "exampleZh": "他們漂流到一個小島並被困當地。",
+        "exampleEn": "They were cast away on a small island.",
+        "highlight": "were cast away on"
+      },
+      {
+        "formZh": "因某事感到沮喪或氣餒",
+        "formEn": "be cast down by something",
+        "exampleZh": "她沒有因結果而氣餒。",
+        "exampleEn": "She was not cast down by the result.",
+        "highlight": "was not cast down by"
+      },
+      {
+        "formZh": "長時間被困在狹小或封閉的地方",
+        "formEn": "be cooped up in something",
+        "exampleZh": "我們因下雨而長時間被困在室內。",
+        "exampleEn": "We were cooped up indoors by the rain.",
+        "highlight": "were cooped up"
+      },
+      {
+        "formZh": "流行;時髦",
+        "formEn": "be in",
+        "exampleZh": "闊身牛仔褲再次流行。",
+        "exampleEn": "Wide jeans are in again.",
+        "highlight": "are in"
+      },
+      {
+        "formZh": "很可能即將經歷某事,通常是不愉快或意外的事情",
+        "formEn": "be in for something",
+        "exampleZh": "你很可能會遇上一件意想不到的事。",
+        "exampleEn": "You are in for a surprise.",
+        "highlight": "are in for"
+      },
+      {
+        "formZh": "對某事物有興趣;喜歡",
+        "formEn": "be into something",
+        "exampleZh": "你喜歡爵士音樂嗎?",
+        "exampleEn": "Are you into jazz music?",
+        "highlight": "Are you into"
+      },
+      {
+        "formZh": "活動會舉行;仍按計劃進行",
+        "formEn": "be on",
+        "exampleZh": "派對仍會舉行嗎?",
+        "exampleEn": "Is the party still on?",
+        "highlight": "Is the party still on"
+      },
+      {
+        "formZh": "不停或反覆談論某事",
+        "formEn": "be on about something",
+        "exampleZh": "他總是不停談論自己的新電話。",
+        "exampleEn": "He is always on about his new phone.",
+        "highlight": "is always on about"
+      },
+      {
+        "formZh": "由某人付款",
+        "formEn": "be on somebody",
+        "exampleZh": "今晚晚餐由我付款。",
+        "exampleEn": "Dinner is on me tonight.",
+        "highlight": "is on"
+      },
+      {
+        "formZh": "正在服用藥物,或遵從某種飲食或療程",
+        "formEn": "be on something",
+        "exampleZh": "賓本星期正在服用抗生素。",
+        "exampleEn": "Ben is on antibiotics this week.",
+        "highlight": "is on"
+      },
+      {
+        "formZh": "察覺或懷疑某人正在做壞事",
+        "formEn": "be onto somebody",
+        "exampleZh": "警方已察覺或懷疑他。",
+        "exampleEn": "The police are onto him.",
+        "highlight": "are onto"
+      },
+      {
+        "formZh": "可能發現了好主意、重要線索或正確方向",
+        "formEn": "be onto something",
+        "exampleZh": "我們可能發現了重要線索。",
+        "exampleEn": "We may be onto something.",
+        "highlight": "be onto"
+      },
+      {
+        "formZh": "正在罷工",
+        "formEn": "be out",
+        "exampleZh": "郵政工人仍在罷工。",
+        "exampleEn": "The postal workers are still out.",
+        "highlight": "are still out"
+      },
+      {
+        "formZh": "決心取得某物或做某事",
+        "formEn": "be out for something / be out to do something",
+        "exampleZh": "球隊決心取勝。",
+        "exampleEn": "The team is out to win.",
+        "highlight": "is out to"
+      },
+      {
+        "formZh": "某物已用完;沒有剩下",
+        "formEn": "be out of something",
+        "exampleZh": "我們沒有糖了。",
+        "exampleEn": "We are out of sugar.",
+        "highlight": "are out"
+      },
+      {
+        "formZh": "已從一段感情中恢復;不再因某人傷心",
+        "formEn": "be over somebody",
+        "exampleZh": "埃拉說自己現在已放下他。",
+        "exampleEn": "Ella says she is over him now.",
+        "highlight": "is over"
+      },
+      {
+        "formZh": "已從疾病、震驚或不快經歷中恢復",
+        "formEn": "be over something",
+        "exampleZh": "他現在已從流感中康復。",
+        "exampleEn": "He is over the flu now.",
+        "highlight": "is over"
+      },
+      {
+        "formZh": "因年紀太大或狀態下降而不復當年",
+        "formEn": "be past it",
+        "exampleZh": "有些人說那名球員已過了最佳狀態。",
+        "exampleEn": "Some people say the player is past it.",
+        "highlight": "is"
+      },
+      {
+        "formZh": "電話已接通某人或某部門",
+        "formEn": "be through to somebody",
+        "exampleZh": "你現在已接通經理的電話。",
+        "exampleEn": "You are through to the manager now.",
+        "highlight": "are through to"
+      },
+      {
+        "formZh": "已完成某事;已與某人結束關係或不再來往",
+        "formEn": "be through with somebody/something",
+        "exampleZh": "我已不再使用這部舊電腦。",
+        "exampleEn": "I am through with this old computer.",
+        "highlight": "am through with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與有影響力的人關係良好,因而可能得到對方幫助",
+      "titleEn": "be (well) in with somebody",
+      "formula": "be (well) in with somebody",
+      "highlight": "be (well) in with somebody",
+      "descriptionZh": "與有影響力的人關係良好,因而可能得到對方幫助",
+      "descriptionEn": "Leo is well in with the club president.",
+      "examples": [
+        {
+          "en": "Leo is well in with the club president.",
+          "zh": "里奧與社團主席關係很好。",
+          "highlight": "is well in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "想得到或正設法取得某事物",
+      "titleEn": "be after something",
+      "formula": "be after something",
+      "highlight": "be after something",
+      "descriptionZh": "想得到或正設法取得某事物",
+      "descriptionEn": "Several people are after the same job.",
+      "examples": [
+        {
+          "en": "Several people are after the same job.",
+          "zh": "幾個人都正設法爭取同一份工作。",
+          "highlight": "are after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "以某事物或某類人為目標;旨在做某事",
+      "titleEn": "be aimed at something / doing something",
+      "formula": "be aimed at something / doing something",
+      "highlight": "be aimed at something / doing something",
+      "descriptionZh": "以某事物或某類人為目標;旨在做某事",
+      "descriptionEn": "The lesson is aimed at helping new students.",
+      "examples": [
+        {
+          "en": "The lesson is aimed at helping new students.",
+          "zh": "這堂課旨在幫助新生。",
+          "highlight": "is aimed at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "不斷催促、批評、責罵或纏着某人",
+      "titleEn": "be at somebody",
+      "formula": "be at somebody",
+      "highlight": "be at somebody",
+      "descriptionZh": "不斷催促、批評、責罵或纏着某人",
+      "descriptionEn": "Dad is always at me to tidy my desk.",
+      "examples": [
+        {
+          "en": "Dad is always at me to tidy my desk.",
+          "zh": "爸爸總是不斷催促我整理書桌。",
+          "highlight": "is always at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "忙於或不停做某事",
+      "titleEn": "be at something",
+      "formula": "be at something",
+      "highlight": "be at something",
+      "descriptionZh": "忙於或不停做某事",
+      "descriptionEn": "She has been at her essay all evening.",
+      "examples": [
+        {
+          "en": "She has been at her essay all evening.",
+          "zh": "她整個晚上都在寫文章。",
+          "highlight": "been at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "不在家;離開原來地方",
+      "titleEn": "be away",
+      "formula": "be away",
+      "highlight": "be away",
+      "descriptionZh": "不在家;離開原來地方",
+      "descriptionEn": "We will be away next week.",
+      "examples": [
+        {
+          "en": "We will be away next week.",
+          "zh": "我們下星期會外出。",
+          "highlight": "be away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "正交由某人或某機構審理、考慮或決定",
+      "titleEn": "be before somebody",
+      "formula": "be before somebody",
+      "highlight": "be before somebody",
+      "descriptionZh": "正交由某人或某機構審理、考慮或決定",
+      "descriptionEn": "The matter is now before the court.",
+      "examples": [
+        {
+          "en": "The matter is now before the court.",
+          "zh": "事情現正交由法院審理。",
+          "highlight": "is"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "支持某人",
+      "titleEn": "be behind somebody",
+      "formula": "be behind somebody",
+      "highlight": "be behind somebody",
+      "descriptionZh": "支持某人",
+      "descriptionEn": "We are behind you all the way.",
+      "examples": [
+        {
+          "en": "We are behind you all the way.",
+          "zh": "我們會一直全力支持你。",
+          "highlight": "are behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "拖欠款項;工作或進度落後",
+      "titleEn": "be behind with something",
+      "formula": "be behind with something",
+      "highlight": "be behind with something",
+      "descriptionZh": "拖欠款項;工作或進度落後",
+      "descriptionEn": "Ben is behind with his homework.",
+      "examples": [
+        {
+          "en": "Ben is behind with his homework.",
+          "zh": "賓的功課進度落後了。",
+          "highlight": "is behind with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "已被訂滿;沒有空位",
+      "titleEn": "be booked up",
+      "formula": "be booked up",
+      "highlight": "be booked up",
+      "descriptionZh": "已被訂滿;沒有空位",
+      "descriptionEn": "The hotel is booked up this weekend.",
+      "examples": [
+        {
+          "en": "The hotel is booked up this weekend.",
+          "zh": "酒店這個週末已被訂滿。",
+          "highlight": "is booked up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "漂流到某處並被困當地",
+      "titleEn": "be cast away on something",
+      "formula": "be cast away on something",
+      "highlight": "be cast away on something",
+      "descriptionZh": "漂流到某處並被困當地",
+      "descriptionEn": "They were cast away on a small island.",
+      "examples": [
+        {
+          "en": "They were cast away on a small island.",
+          "zh": "他們漂流到一個小島並被困當地。",
+          "highlight": "were cast away on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "因某事感到沮喪或氣餒",
+      "titleEn": "be cast down by something",
+      "formula": "be cast down by something",
+      "highlight": "be cast down by something",
+      "descriptionZh": "因某事感到沮喪或氣餒",
+      "descriptionEn": "She was not cast down by the result.",
+      "examples": [
+        {
+          "en": "She was not cast down by the result.",
+          "zh": "她沒有因結果而氣餒。",
+          "highlight": "was not cast down by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "長時間被困在狹小或封閉的地方",
+      "titleEn": "be cooped up in something",
+      "formula": "be cooped up in something",
+      "highlight": "be cooped up in something",
+      "descriptionZh": "長時間被困在狹小或封閉的地方",
+      "descriptionEn": "We were cooped up indoors by the rain.",
+      "examples": [
+        {
+          "en": "We were cooped up indoors by the rain.",
+          "zh": "我們因下雨而長時間被困在室內。",
+          "highlight": "were cooped up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "流行;時髦",
+      "titleEn": "be in",
+      "formula": "be in",
+      "highlight": "be in",
+      "descriptionZh": "流行;時髦",
+      "descriptionEn": "Wide jeans are in again.",
+      "examples": [
+        {
+          "en": "Wide jeans are in again.",
+          "zh": "闊身牛仔褲再次流行。",
+          "highlight": "are in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "很可能即將經歷某事,通常是不愉快或意外的事情",
+      "titleEn": "be in for something",
+      "formula": "be in for something",
+      "highlight": "be in for something",
+      "descriptionZh": "很可能即將經歷某事,通常是不愉快或意外的事情",
+      "descriptionEn": "You are in for a surprise.",
+      "examples": [
+        {
+          "en": "You are in for a surprise.",
+          "zh": "你很可能會遇上一件意想不到的事。",
+          "highlight": "are in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "對某事物有興趣;喜歡",
+      "titleEn": "be into something",
+      "formula": "be into something",
+      "highlight": "be into something",
+      "descriptionZh": "對某事物有興趣;喜歡",
+      "descriptionEn": "Are you into jazz music?",
+      "examples": [
+        {
+          "en": "Are you into jazz music?",
+          "zh": "你喜歡爵士音樂嗎?",
+          "highlight": "Are you into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "活動會舉行;仍按計劃進行",
+      "titleEn": "be on",
+      "formula": "be on",
+      "highlight": "be on",
+      "descriptionZh": "活動會舉行;仍按計劃進行",
+      "descriptionEn": "Is the party still on?",
+      "examples": [
+        {
+          "en": "Is the party still on?",
+          "zh": "派對仍會舉行嗎?",
+          "highlight": "Is the party still on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "不停或反覆談論某事",
+      "titleEn": "be on about something",
+      "formula": "be on about something",
+      "highlight": "be on about something",
+      "descriptionZh": "不停或反覆談論某事",
+      "descriptionEn": "He is always on about his new phone.",
+      "examples": [
+        {
+          "en": "He is always on about his new phone.",
+          "zh": "他總是不停談論自己的新電話。",
+          "highlight": "is always on about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "由某人付款",
+      "titleEn": "be on somebody",
+      "formula": "be on somebody",
+      "highlight": "be on somebody",
+      "descriptionZh": "由某人付款",
+      "descriptionEn": "Dinner is on me tonight.",
+      "examples": [
+        {
+          "en": "Dinner is on me tonight.",
+          "zh": "今晚晚餐由我付款。",
+          "highlight": "is on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "正在服用藥物,或遵從某種飲食或療程",
+      "titleEn": "be on something",
+      "formula": "be on something",
+      "highlight": "be on something",
+      "descriptionZh": "正在服用藥物,或遵從某種飲食或療程",
+      "descriptionEn": "Ben is on antibiotics this week.",
+      "examples": [
+        {
+          "en": "Ben is on antibiotics this week.",
+          "zh": "賓本星期正在服用抗生素。",
+          "highlight": "is on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "察覺或懷疑某人正在做壞事",
+      "titleEn": "be onto somebody",
+      "formula": "be onto somebody",
+      "highlight": "be onto somebody",
+      "descriptionZh": "察覺或懷疑某人正在做壞事",
+      "descriptionEn": "The police are onto him.",
+      "examples": [
+        {
+          "en": "The police are onto him.",
+          "zh": "警方已察覺或懷疑他。",
+          "highlight": "are onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "可能發現了好主意、重要線索或正確方向",
+      "titleEn": "be onto something",
+      "formula": "be onto something",
+      "highlight": "be onto something",
+      "descriptionZh": "可能發現了好主意、重要線索或正確方向",
+      "descriptionEn": "We may be onto something.",
+      "examples": [
+        {
+          "en": "We may be onto something.",
+          "zh": "我們可能發現了重要線索。",
+          "highlight": "be onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "正在罷工",
+      "titleEn": "be out",
+      "formula": "be out",
+      "highlight": "be out",
+      "descriptionZh": "正在罷工",
+      "descriptionEn": "The postal workers are still out.",
+      "examples": [
+        {
+          "en": "The postal workers are still out.",
+          "zh": "郵政工人仍在罷工。",
+          "highlight": "are still out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "決心取得某物或做某事",
+      "titleEn": "be out for something / be out to do something",
+      "formula": "be out for something / be out to do something",
+      "highlight": "be out for something / be out to do something",
+      "descriptionZh": "決心取得某物或做某事",
+      "descriptionEn": "The team is out to win.",
+      "examples": [
+        {
+          "en": "The team is out to win.",
+          "zh": "球隊決心取勝。",
+          "highlight": "is out to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "某物已用完;沒有剩下",
+      "titleEn": "be out of something",
+      "formula": "be out of something",
+      "highlight": "be out of something",
+      "descriptionZh": "某物已用完;沒有剩下",
+      "descriptionEn": "We are out of sugar.",
+      "examples": [
+        {
+          "en": "We are out of sugar.",
+          "zh": "我們沒有糖了。",
+          "highlight": "are out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "已從一段感情中恢復;不再因某人傷心",
+      "titleEn": "be over somebody",
+      "formula": "be over somebody",
+      "highlight": "be over somebody",
+      "descriptionZh": "已從一段感情中恢復;不再因某人傷心",
+      "descriptionEn": "Ella says she is over him now.",
+      "examples": [
+        {
+          "en": "Ella says she is over him now.",
+          "zh": "埃拉說自己現在已放下他。",
+          "highlight": "is over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "已從疾病、震驚或不快經歷中恢復",
+      "titleEn": "be over something",
+      "formula": "be over something",
+      "highlight": "be over something",
+      "descriptionZh": "已從疾病、震驚或不快經歷中恢復",
+      "descriptionEn": "He is over the flu now.",
+      "examples": [
+        {
+          "en": "He is over the flu now.",
+          "zh": "他現在已從流感中康復。",
+          "highlight": "is over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "因年紀太大或狀態下降而不復當年",
+      "titleEn": "be past it",
+      "formula": "be past it",
+      "highlight": "be past it",
+      "descriptionZh": "因年紀太大或狀態下降而不復當年",
+      "descriptionEn": "Some people say the player is past it.",
+      "examples": [
+        {
+          "en": "Some people say the player is past it.",
+          "zh": "有些人說那名球員已過了最佳狀態。",
+          "highlight": "is"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "電話已接通某人或某部門",
+      "titleEn": "be through to somebody",
+      "formula": "be through to somebody",
+      "highlight": "be through to somebody",
+      "descriptionZh": "電話已接通某人或某部門",
+      "descriptionEn": "You are through to the manager now.",
+      "examples": [
+        {
+          "en": "You are through to the manager now.",
+          "zh": "你現在已接通經理的電話。",
+          "highlight": "are through to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "已完成某事;已與某人結束關係或不再來往",
+      "titleEn": "be through with somebody/something",
+      "formula": "be through with somebody/something",
+      "highlight": "be through with somebody/something",
+      "descriptionZh": "已完成某事;已與某人結束關係或不再來往",
+      "descriptionEn": "I am through with this old computer.",
+      "examples": [
+        {
+          "en": "I am through with this old computer.",
+          "zh": "我已不再使用這部舊電腦。",
+          "highlight": "am through with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 BE 描述計劃、空位和日常情況",
+      "titleEn": "Use BE to describe plans, availability and everyday situations",
+      "zh": "be on、be away、be booked up 和 be out of something 可以幫助你清楚談論活動、外出、預訂和物資。",
+      "en": "Expressions such as be on, be away, be booked up and be out of something help you talk clearly about events, travel, reservations and supplies."
+    },
+    {
+      "titleZh": "談論支持、目標和進度",
+      "titleEn": "Talk about support, goals and progress",
+      "zh": "be behind somebody 表示支持;be after something 和 be out for something 則可以描述某人想得到或決心取得的事物。",
+      "en": "Be behind somebody shows support, while be after something and be out for something describe what a person wants or is determined to achieve."
+    },
+    {
+      "titleZh": "表達興趣、康復和感情變化",
+      "titleEn": "Express interests, recovery and emotional change",
+      "zh": "be into something、be over somebody 和 be over something 可以幫助你自然地談論興趣、感情、疾病和康復。",
+      "en": "Be into something, be over somebody and be over something help you discuss interests, relationships, illness and recovery naturally."
+    },
+    {
+      "titleZh": "理解實用訊息和對話",
+      "titleEn": "Understand useful messages and conversations",
+      "zh": "這些 BE 表達常見於電話通話、預訂訊息、職場對話、新聞報道和日常英語。",
+      "en": "These BE expressions often appear in telephone calls, booking messages, workplace conversations, news reports and everyday speech."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 BE 描述計劃、空位和日常情況",
+      "談論支持、目標和進度",
+      "表達興趣、康復和感情變化",
+      "理解實用訊息和對話"
+    ],
+    "contextsEn": [
+      "Use BE to describe plans, availability and everyday situations",
+      "Talk about support, goals and progress",
+      "Express interests, recovery and emotional change",
+      "Understand useful messages and conversations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 BE 描述計劃、空位和日常情況",
+        "titleEn": "Use BE to describe plans, availability and everyday situations",
+        "zh": "be on、be away、be booked up 和 be out of something 可以幫助你清楚談論活動、外出、預訂和物資。",
+        "en": "Expressions such as be on, be away, be booked up and be out of something help you talk clearly about events, travel, reservations and supplies.",
+        "examples": [
+          {
+            "en": "Leo is well in with the club president.",
+            "zh": "里奧與社團主席關係很好。",
+            "highlight": "is well in with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論支持、目標和進度",
+        "titleEn": "Talk about support, goals and progress",
+        "zh": "be behind somebody 表示支持;be after something 和 be out for something 則可以描述某人想得到或決心取得的事物。",
+        "en": "Be behind somebody shows support, while be after something and be out for something describe what a person wants or is determined to achieve.",
+        "examples": [
+          {
+            "en": "Several people are after the same job.",
+            "zh": "幾個人都正設法爭取同一份工作。",
+            "highlight": "are after"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達興趣、康復和感情變化",
+        "titleEn": "Express interests, recovery and emotional change",
+        "zh": "be into something、be over somebody 和 be over something 可以幫助你自然地談論興趣、感情、疾病和康復。",
+        "en": "Be into something, be over somebody and be over something help you discuss interests, relationships, illness and recovery naturally.",
+        "examples": [
+          {
+            "en": "The lesson is aimed at helping new students.",
+            "zh": "這堂課旨在幫助新生。",
+            "highlight": "is aimed at"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解實用訊息和對話",
+        "titleEn": "Understand useful messages and conversations",
+        "zh": "這些 BE 表達常見於電話通話、預訂訊息、職場對話、新聞報道和日常英語。",
+        "en": "These BE expressions often appear in telephone calls, booking messages, workplace conversations, news reports and everyday speech.",
+        "examples": [
+          {
+            "en": "Dad is always at me to tidy my desk.",
+            "zh": "爸爸總是不斷催促我整理書桌。",
+            "highlight": "is always at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "en": "Read the whole sentence and choose the BE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "幾個表達的外形十分相似。請仔細留意 BE 後面的內容。",
+      "titleEn": "Several expressions look similar.",
+      "zh": "幾個表達的外形十分相似。請仔細留意 BE 後面的內容。",
+      "en": "Several expressions look similar. Read what follows BE carefully: The party is on. Dinner is on me. Ben is on antibiotics. The police are onto Ben."
+    },
+    {
+      "titleZh": "be over somebody 表示已從感情傷痛中恢復;be through with somebody 則表示已結束關係或不再來往。",
+      "titleEn": "Be over somebody means that the emotional pain has ended.",
+      "zh": "be over somebody 表示已從感情傷痛中恢復;be through with somebody 則表示已結束關係或不再來往。",
+      "en": "Be over somebody means that the emotional pain has ended. Be through with somebody means that the relationship or contact has ended."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BE 動詞片語句子改寫練習",
+    "titleEn": "BE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          30
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          31,
+          60
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          61,
+          90
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          91,
+          120
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          121,
+          150
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-315-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 33,
+      "prompt": "All the flights are fully reserved.",
+      "promptZh": "所有航班都已滿額預訂。",
+      "starter": "All",
+      "answer": "All the flights are booked up.",
+      "answerZh": "所有航班都已滿額預訂。",
+      "highlight": "are booked up",
+      "targetForm": "be booked up",
+      "targetMeaningZh": "已滿額預訂;沒有空位"
+    },
+    {
+      "id": "phrasal-verb-315-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 33,
+      "prompt": "Several people in the office are trying to get the same job.",
+      "promptZh": "辦公室內有幾個人都正設法爭取同一份工作。",
+      "starter": "Several",
+      "answer": "Several people in the office are after the same job.",
+      "answerZh": "辦公室內有幾個人都正設法爭取同一份工作。",
+      "highlight": "are after",
+      "targetForm": "be after something",
+      "targetMeaningZh": "想得到;設法取得"
+    },
+    {
+      "id": "phrasal-verb-315-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 33,
+      "prompt": "Are you interested in jazz music?",
+      "promptZh": "你對爵士音樂有興趣嗎?",
+      "starter": "Are",
+      "answer": "Are you into jazz music?",
+      "answerZh": "你喜歡爵士音樂嗎?",
+      "highlight": "Are you into",
+      "targetForm": "be into something",
+      "targetMeaningZh": "對某事物有興趣;喜歡"
+    },
+    {
+      "id": "phrasal-verb-315-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 33,
+      "prompt": "We will not be at home during August.",
+      "promptZh": "我們八月期間不會在家。",
+      "starter": "We",
+      "answer": "We will be away during August.",
+      "answerZh": "我們八月期間會離家外出。",
+      "highlight": "be away",
+      "targetForm": "be away",
+      "targetMeaningZh": "不在家;離開原來地方"
+    },
+    {
+      "id": "phrasal-verb-315-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 34,
+      "prompt": "We have no sugar left.",
+      "promptZh": "我們沒有糖了。",
+      "starter": "We",
+      "answer": "We are out of sugar.",
+      "answerZh": "我們沒有糖了。",
+      "highlight": "are out of",
+      "targetForm": "be out of something",
+      "targetMeaningZh": "某物已用完;沒有剩下"
+    },
+    {
+      "id": "phrasal-verb-315-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 34,
+      "prompt": "Is the party still going ahead?",
+      "promptZh": "派對仍會舉行嗎?",
+      "starter": "Is",
+      "answer": "Is the party still on?",
+      "answerZh": "派對仍會舉行嗎?",
+      "highlight": "Is the party still on",
+      "targetForm": "be on",
+      "targetMeaningZh": "活動會舉行;仍按計劃進行"
+    },
+    {
+      "id": "phrasal-verb-315-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 34,
+      "prompt": "Do not forget that we support you completely.",
+      "promptZh": "不要忘記我們會全力支持你。",
+      "starter": "Do",
+      "answer": "Do not forget that we are behind you all the way.",
+      "answerZh": "不要忘記我們會一直全力支持你。",
+      "highlight": "are behind",
+      "targetForm": "be behind somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-315-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 34,
+      "prompt": "Miniskirts are fashionable this season.",
+      "promptZh": "迷你裙今季很流行。",
+      "starter": "Miniskirts",
+      "answer": "Miniskirts are in this season.",
+      "answerZh": "迷你裙今季很流行。",
+      "highlight": "are in",
+      "targetForm": "be in",
+      "targetMeaningZh": "流行;時髦"
+    },
+    {
+      "id": "phrasal-verb-315-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 34,
+      "prompt": "He has recovered from the flu.",
+      "promptZh": "他已從流感中康復。",
+      "starter": "He",
+      "answer": "He is over the flu.",
+      "answerZh": "他已從流感中康復。",
+      "highlight": "is over",
+      "targetForm": "be over something",
+      "targetMeaningZh": "已從疾病或不快經歷中恢復"
+    },
+    {
+      "id": "phrasal-verb-315-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 34,
+      "prompt": "The new scheme is intended to reduce food waste.",
+      "promptZh": "這項新計劃旨在減少食物浪費。",
+      "starter": "The",
+      "answer": "The new scheme is aimed at reducing food waste.",
+      "answerZh": "這項新計劃旨在減少食物浪費。",
+      "highlight": "is aimed at reducing",
+      "targetForm": "be aimed at doing something",
+      "targetMeaningZh": "旨在做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 35,
+      "prompt": "She is likely to receive a shock.",
+      "promptZh": "她很可能會大吃一驚。",
+      "starter": "She",
+      "answer": "She is in for a shock.",
+      "answerZh": "她很可能會大吃一驚。",
+      "highlight": "is in for",
+      "targetForm": "be in for something",
+      "targetMeaningZh": "很可能即將經歷某事"
+    },
+    {
+      "id": "phrasal-verb-315-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 35,
+      "prompt": "After their boat sank, they were left alone on a small island.",
+      "promptZh": "船沉沒後,他們被困在一個小島上。",
+      "starter": "After",
+      "answer": "After their boat sank, they were cast away on a small island.",
+      "answerZh": "船沉沒後,他們漂流到一個小島上並被困當地。",
+      "highlight": "were cast away",
+      "targetForm": "be cast away on something",
+      "targetMeaningZh": "漂流到某處並被困"
+    },
+    {
+      "id": "phrasal-verb-315-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 35,
+      "prompt": "She may have found a good idea.",
+      "promptZh": "她可能找到了一個好主意。",
+      "starter": "She",
+      "answer": "She could be onto something.",
+      "answerZh": "她可能發現了一個好主意或重要線索。",
+      "highlight": "could be onto something",
+      "targetForm": "be onto something",
+      "targetMeaningZh": "可能發現了好主意或重要線索"
+    },
+    {
+      "id": "phrasal-verb-315-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 35,
+      "prompt": "He has been working on his essay all night.",
+      "promptZh": "他整晚都在寫文章。",
+      "starter": "He",
+      "answer": "He has been at his essay all night.",
+      "answerZh": "他整晚都在寫文章。",
+      "highlight": "been at",
+      "targetForm": "be at something",
+      "targetMeaningZh": "忙於或不停做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 35,
+      "prompt": "I am paying for the drinks tonight.",
+      "promptZh": "今晚的飲品由我付款。",
+      "starter": "The",
+      "answer": "The drinks are on me tonight.",
+      "answerZh": "今晚的飲品由我付款。",
+      "highlight": "are on me",
+      "targetForm": "be on somebody",
+      "targetMeaningZh": "由某人付款"
+    },
+    {
+      "id": "phrasal-verb-315-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 35,
+      "prompt": "The postal workers are still on strike.",
+      "promptZh": "郵政工人仍在罷工。",
+      "starter": "The",
+      "answer": "The postal workers are still out.",
+      "answerZh": "郵政工人仍在罷工。",
+      "highlight": "are still out",
+      "targetForm": "be out",
+      "targetMeaningZh": "正在罷工"
+    },
+    {
+      "id": "phrasal-verb-315-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 36,
+      "prompt": "Lena has a good relationship with the manager, who often helps her.",
+      "promptZh": "莉娜與經理關係很好,而經理經常幫助她。",
+      "starter": "Lena",
+      "answer": "Lena is well in with the manager, who often helps her.",
+      "answerZh": "莉娜與經理關係很好,而經理經常幫助她。",
+      "highlight": "is well in",
+      "targetForm": "be (well) in with somebody",
+      "targetMeaningZh": "與有影響力的人關係良好"
+    },
+    {
+      "id": "phrasal-verb-315-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 36,
+      "prompt": "You are connected to the manager now.",
+      "promptZh": "你現在已接通經理的電話。",
+      "starter": "You",
+      "answer": "You are through to the manager now.",
+      "answerZh": "你現在已接通經理的電話。",
+      "highlight": "are through",
+      "targetForm": "be through to somebody",
+      "targetMeaningZh": "電話已接通某人"
+    },
+    {
+      "id": "phrasal-verb-315-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 36,
+      "prompt": "We have been kept indoors for hours because of the rain.",
+      "promptZh": "因為下雨,我們已被困在室內數小時。",
+      "starter": "We",
+      "answer": "We have been cooped up indoors for hours because of the rain.",
+      "answerZh": "因為下雨,我們已被困在室內數小時。",
+      "highlight": "been cooped up",
+      "targetForm": "be cooped up in something",
+      "targetMeaningZh": "被困在狹小或封閉的地方"
+    },
+    {
+      "id": "phrasal-verb-315-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 36,
+      "prompt": "We are late with the mortgage repayments.",
+      "promptZh": "我們遲了繳交按揭供款。",
+      "starter": "We",
+      "answer": "We are behind with the mortgage repayments.",
+      "answerZh": "我們拖欠了按揭供款。",
+      "highlight": "are behind",
+      "targetForm": "be behind with something",
+      "targetMeaningZh": "拖欠;進度落後"
+    },
+    {
+      "id": "phrasal-verb-315-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 36,
+      "prompt": "He always talks about how much money he earns.",
+      "promptZh": "他總是不停談論自己賺多少錢。",
+      "starter": "He",
+      "answer": "He is always on about how much money he earns.",
+      "answerZh": "他總是不停談論自己賺多少錢。",
+      "highlight": "is",
+      "targetForm": "be on about something",
+      "targetMeaningZh": "不停或反覆談論某事"
+    },
+    {
+      "id": "phrasal-verb-315-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 36,
+      "prompt": "It was hard at first, but I am no longer upset about him.",
+      "promptZh": "起初很難受,但我已不再因他而傷心。",
+      "starter": "It",
+      "answer": "It was hard at first, but I am over him now.",
+      "answerZh": "起初很難受,但我現在已放下他。",
+      "highlight": "am over",
+      "targetForm": "be over somebody",
+      "targetMeaningZh": "已從感情中恢復;不再因某人傷心"
+    },
+    {
+      "id": "phrasal-verb-315-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 37,
+      "prompt": "The police do not suspect us yet.",
+      "promptZh": "警方尚未懷疑我們。",
+      "starter": "The",
+      "answer": "The police are not onto us yet.",
+      "answerZh": "警方尚未察覺或懷疑我們。",
+      "highlight": "are",
+      "targetForm": "be onto somebody",
+      "targetMeaningZh": "察覺或懷疑某人正在做壞事"
+    },
+    {
+      "id": "phrasal-verb-315-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 37,
+      "prompt": "The case is now being considered by the judge.",
+      "promptZh": "案件現正由法官審理。",
+      "starter": "The",
+      "answer": "The case is now before the judge.",
+      "answerZh": "案件現正交由法官審理。",
+      "highlight": "is now before",
+      "targetForm": "be before somebody",
+      "targetMeaningZh": "正交由某人審理或考慮"
+    },
+    {
+      "id": "phrasal-verb-315-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 37,
+      "prompt": "They are determined to win the prize.",
+      "promptZh": "他們決心贏得獎項。",
+      "starter": "They",
+      "answer": "They are out for the prize.",
+      "answerZh": "他們決心贏得獎項。",
+      "highlight": "are out for",
+      "targetForm": "be out for something",
+      "targetMeaningZh": "決心取得某物"
+    },
+    {
+      "id": "phrasal-verb-315-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 37,
+      "prompt": "One bad result does not easily discourage her.",
+      "promptZh": "一次不理想的結果不會輕易令她氣餒。",
+      "starter": "She",
+      "answer": "She is not easily cast down by one bad result.",
+      "answerZh": "她不會因一次不理想的結果而輕易氣餒。",
+      "highlight": "She is not easily cast down by",
+      "targetForm": "be cast down by something",
+      "targetMeaningZh": "因某事感到沮喪或氣餒"
+    },
+    {
+      "id": "phrasal-verb-315-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 37,
+      "prompt": "Have you not finished yet?",
+      "promptZh": "你還未完成嗎?",
+      "starter": "Aren't",
+      "answer": "Aren't you through yet?",
+      "answerZh": "你還未完成嗎?",
+      "highlight": "Aren't",
+      "targetForm": "be through",
+      "targetMeaningZh": "已完成"
+    },
+    {
+      "id": "phrasal-verb-315-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 37,
+      "prompt": "My sister keeps telling me to clean my room.",
+      "promptZh": "我姐姐不斷催促我清理房間。",
+      "starter": "My",
+      "answer": "My sister is always at me to clean my room.",
+      "answerZh": "我姐姐總是不斷催促我清理房間。",
+      "highlight": "is always at",
+      "targetForm": "be at somebody",
+      "targetMeaningZh": "不斷催促、責罵或纏着某人"
+    },
+    {
+      "id": "phrasal-verb-315-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 38,
+      "prompt": "She has taken the pill for ten years.",
+      "promptZh": "她服用避孕藥已有十年。",
+      "starter": "She",
+      "answer": "She has been on the pill for ten years.",
+      "answerZh": "她服用避孕藥已有十年。",
+      "highlight": "been on",
+      "targetForm": "be on something",
+      "targetMeaningZh": "正在服用藥物或接受某種飲食安排"
+    },
+    {
+      "id": "phrasal-verb-315-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 38,
+      "prompt": "The children said he was too old to play well any more.",
+      "promptZh": "孩子們說他年紀太大,已不能再好好比賽。",
+      "starter": "The",
+      "answer": "The children said he was past it.",
+      "answerZh": "孩子們說他已過了最佳狀態。",
+      "highlight": "was past it",
+      "targetForm": "be past it",
+      "targetMeaningZh": "年紀太大或已不復當年"
+    },
+    {
+      "id": "phrasal-verb-315-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 38,
+      "prompt": "These classes are intended for adults who need basic computer skills.",
+      "promptZh": "這些課程是為需要基本電腦技能的成年人而設。",
+      "starter": "These",
+      "answer": "These classes are aimed at adults who need basic computer skills.",
+      "answerZh": "這些課程是為需要基本電腦技能的成年人而設。",
+      "highlight": "are aimed at",
+      "targetForm": "be aimed at something/somebody",
+      "targetMeaningZh": "以某事物或某類人為目標"
+    },
+    {
+      "id": "phrasal-verb-315-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 38,
+      "prompt": "Is the printer without paper again?",
+      "promptZh": "打印機又沒有紙了嗎?",
+      "starter": "Is",
+      "answer": "Is the printer out of paper again?",
+      "answerZh": "打印機又沒有紙了嗎?",
+      "highlight": "Is the printer out of",
+      "targetForm": "be out of something",
+      "targetMeaningZh": "某物已用完;沒有剩下"
+    },
+    {
+      "id": "phrasal-verb-315-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 38,
+      "prompt": "The whole class is supporting Ella in the competition.",
+      "promptZh": "全班都支持埃拉參加比賽。",
+      "starter": "The",
+      "answer": "The whole class is behind Ella in the competition.",
+      "answerZh": "全班都支持埃拉參加比賽。",
+      "highlight": "is behind",
+      "targetForm": "be behind somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-315-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 38,
+      "prompt": "The football match will not take place because of the rain.",
+      "promptZh": "足球賽因下雨而不會舉行。",
+      "starter": "The",
+      "answer": "The football match is not on because of the rain.",
+      "answerZh": "足球賽因下雨而不會舉行。",
+      "highlight": "is",
+      "targetForm": "be on",
+      "targetMeaningZh": "活動會舉行;仍按計劃進行"
+    },
+    {
+      "id": "phrasal-verb-315-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 39,
+      "prompt": "Noah seems to have become friendly with the new director.",
+      "promptZh": "諾亞看來已與新任主管建立了良好關係。",
+      "starter": "Noah",
+      "answer": "Noah seems to be in with the new director.",
+      "answerZh": "諾亞看來已與新任主管建立了良好關係。",
+      "highlight": "be in",
+      "targetForm": "be in with somebody",
+      "targetMeaningZh": "與某人關係良好"
+    },
+    {
+      "id": "phrasal-verb-315-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 39,
+      "prompt": "Omar seemed deeply discouraged by the team's loss.",
+      "promptZh": "奧馬看來因球隊落敗而非常沮喪。",
+      "starter": "Omar",
+      "answer": "Omar seemed to be deeply cast down by the team's loss.",
+      "answerZh": "奧馬看來因球隊落敗而非常沮喪。",
+      "highlight": "to be",
+      "targetForm": "be cast down by something",
+      "targetMeaningZh": "因某事感到沮喪"
+    },
+    {
+      "id": "phrasal-verb-315-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 39,
+      "prompt": "Have I reached the sales department?",
+      "promptZh": "我已接通銷售部嗎?",
+      "starter": "Am",
+      "answer": "Am I through to the sales department?",
+      "answerZh": "我已接通銷售部嗎?",
+      "highlight": "Am",
+      "targetForm": "be through to somebody",
+      "targetMeaningZh": "電話已接通某人或部門"
+    },
+    {
+      "id": "phrasal-verb-315-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 39,
+      "prompt": "Leo has recently become very interested in cooking.",
+      "promptZh": "里奧最近變得非常喜歡烹飪。",
+      "starter": "Leo",
+      "answer": "Leo is really into cooking these days.",
+      "answerZh": "里奧最近非常喜歡烹飪。",
+      "highlight": "is really into",
+      "targetForm": "be into something",
+      "targetMeaningZh": "對某事物有興趣;喜歡"
+    },
+    {
+      "id": "phrasal-verb-315-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 39,
+      "prompt": "The bus drivers were on strike for two days.",
+      "promptZh": "巴士司機罷工了兩天。",
+      "starter": "The",
+      "answer": "The bus drivers were out for two days.",
+      "answerZh": "巴士司機罷工了兩天。",
+      "highlight": "were out",
+      "targetForm": "be out",
+      "targetMeaningZh": "正在罷工"
+    },
+    {
+      "id": "phrasal-verb-315-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 39,
+      "prompt": "Priya has been working on her homework since dinner.",
+      "promptZh": "普里雅自晚飯後一直在做功課。",
+      "starter": "Priya",
+      "answer": "Priya has been at her homework since dinner.",
+      "answerZh": "普里雅自晚飯後一直在做功課。",
+      "highlight": "been at",
+      "targetForm": "be at something",
+      "targetMeaningZh": "忙於或不停做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 40,
+      "prompt": "Bright green shoes seem to be fashionable again.",
+      "promptZh": "鮮綠色鞋履看來再次流行。",
+      "starter": "Bright",
+      "answer": "Bright green shoes seem to be in again.",
+      "answerZh": "鮮綠色鞋履看來再次流行。",
+      "highlight": "be in",
+      "targetForm": "be in",
+      "targetMeaningZh": "流行;時髦"
+    },
+    {
+      "id": "phrasal-verb-315-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 40,
+      "prompt": "Ben is taking antibiotics this week.",
+      "promptZh": "賓本星期正在服用抗生素。",
+      "starter": "Ben",
+      "answer": "Ben is on antibiotics this week.",
+      "answerZh": "賓本星期正在服用抗生素。",
+      "highlight": "is on",
+      "targetForm": "be on something",
+      "targetMeaningZh": "正在服用藥物"
+    },
+    {
+      "id": "phrasal-verb-315-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 40,
+      "prompt": "Ben has not completed as much homework as he should.",
+      "promptZh": "賓未完成應做的功課進度。",
+      "starter": "Ben",
+      "answer": "Ben is behind with his homework.",
+      "answerZh": "賓的功課進度落後了。",
+      "highlight": "is behind with his",
+      "targetForm": "be behind with something",
+      "targetMeaningZh": "進度落後"
+    },
+    {
+      "id": "phrasal-verb-315-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 40,
+      "prompt": "The reporter is determined to discover the truth.",
+      "promptZh": "記者決心查明真相。",
+      "starter": "The",
+      "answer": "The reporter is out to discover the truth.",
+      "answerZh": "記者決心查明真相。",
+      "highlight": "is out",
+      "targetForm": "be out to do something",
+      "targetMeaningZh": "決心做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 40,
+      "prompt": "Will Ella be out of town this weekend?",
+      "promptZh": "埃拉這個週末會離開本地嗎?",
+      "starter": "Will",
+      "answer": "Will Ella be away this weekend?",
+      "answerZh": "埃拉這個週末會外出嗎?",
+      "highlight": "be away",
+      "targetForm": "be away",
+      "targetMeaningZh": "不在家;外出"
+    },
+    {
+      "id": "phrasal-verb-315-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 40,
+      "prompt": "The teacher has discovered that Leo copied the answers.",
+      "promptZh": "老師已發現里奧抄襲答案。",
+      "starter": "The",
+      "answer": "The teacher is onto Leo.",
+      "answerZh": "老師已察覺里奧做了不當的事。",
+      "highlight": "is onto",
+      "targetForm": "be onto somebody",
+      "targetMeaningZh": "察覺或懷疑某人正在做壞事"
+    },
+    {
+      "id": "phrasal-verb-315-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 41,
+      "prompt": "The small hotel was fully reserved before the holiday began.",
+      "promptZh": "假期開始前,那間小酒店已被訂滿。",
+      "starter": "The",
+      "answer": "The small hotel was booked up before the holiday began.",
+      "answerZh": "假期開始前,那間小酒店已被訂滿。",
+      "highlight": "was booked up",
+      "targetForm": "be booked up",
+      "targetMeaningZh": "已滿額預訂"
+    },
+    {
+      "id": "phrasal-verb-315-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 41,
+      "prompt": "Ella says she has recovered emotionally from her old boyfriend.",
+      "promptZh": "埃拉說自己已從前男友帶來的傷痛中恢復。",
+      "starter": "Ella",
+      "answer": "Ella says she is over her old boyfriend.",
+      "answerZh": "埃拉說自己已放下前男友。",
+      "highlight": "is over",
+      "targetForm": "be over somebody",
+      "targetMeaningZh": "已從感情中恢復;不再因某人傷心"
+    },
+    {
+      "id": "phrasal-verb-315-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 41,
+      "prompt": "Why does Ava keep talking about the same television show?",
+      "promptZh": "艾娃為何不斷談論同一個電視節目?",
+      "starter": "Why",
+      "answer": "Why is Ava always on about the same television show?",
+      "answerZh": "艾娃為何總是不斷談論同一個電視節目?",
+      "highlight": "is",
+      "targetForm": "be on about something",
+      "targetMeaningZh": "不停或反覆談論某事"
+    },
+    {
+      "id": "phrasal-verb-315-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 41,
+      "prompt": "The final plan will be considered by the school board tomorrow.",
+      "promptZh": "最終計劃明天會交由校董會考慮。",
+      "starter": "The",
+      "answer": "The final plan will be before the school board tomorrow.",
+      "answerZh": "最終計劃明天會交由校董會考慮。",
+      "highlight": "be before",
+      "targetForm": "be before somebody",
+      "targetMeaningZh": "正交由某人或機構考慮"
+    },
+    {
+      "id": "phrasal-verb-315-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 41,
+      "prompt": "The dog becomes unhappy when it is kept in the small flat all day.",
+      "promptZh": "那隻狗整天被困在小單位內時便會不開心。",
+      "starter": "The",
+      "answer": "The dog becomes unhappy when it is cooped up in the small flat all day.",
+      "answerZh": "那隻狗整天被困在小單位內時便會不開心。",
+      "highlight": "is cooped up",
+      "targetForm": "be cooped up in something",
+      "targetMeaningZh": "被困在狹小或封閉的地方"
+    },
+    {
+      "id": "phrasal-verb-315-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 41,
+      "prompt": "Is Nora trying to get the last ticket?",
+      "promptZh": "諾拉正設法取得最後一張門票嗎?",
+      "starter": "Is",
+      "answer": "Is Nora after the last ticket?",
+      "answerZh": "諾拉正設法取得最後一張門票嗎?",
+      "highlight": "Is Nora after",
+      "targetForm": "be after something",
+      "targetMeaningZh": "想得到;設法取得"
+    },
+    {
+      "id": "phrasal-verb-315-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 42,
+      "prompt": "I have finished with this old computer and will not use it again.",
+      "promptZh": "我已不再使用這部舊電腦,日後也不會再用。",
+      "starter": "I",
+      "answer": "I am through with this old computer and will not use it again.",
+      "answerZh": "我已不再使用這部舊電腦,日後也不會再用。",
+      "highlight": "am through",
+      "targetForm": "be through with something",
+      "targetMeaningZh": "已完成或不再使用某事物"
+    },
+    {
+      "id": "phrasal-verb-315-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 42,
+      "prompt": "What would you do if you were stranded on a desert island?",
+      "promptZh": "如果你被困在荒島上,你會怎樣做?",
+      "starter": "What",
+      "answer": "What would you do if you were cast away on a desert island?",
+      "answerZh": "如果你漂流到荒島並被困當地,你會怎樣做?",
+      "highlight": "were cast away",
+      "targetForm": "be cast away on something",
+      "targetMeaningZh": "漂流到某處並被困"
+    },
+    {
+      "id": "phrasal-verb-315-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 42,
+      "prompt": "Are you fully recovered from your cold?",
+      "promptZh": "你的傷風已完全康復嗎?",
+      "starter": "Are",
+      "answer": "Are you over your cold?",
+      "answerZh": "你的傷風已完全康復嗎?",
+      "highlight": "Are you over",
+      "targetForm": "be over something",
+      "targetMeaningZh": "已從疾病或不快經歷中恢復"
+    },
+    {
+      "id": "phrasal-verb-315-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 42,
+      "prompt": "Why is the coach repeatedly criticising Ben?",
+      "promptZh": "教練為何不斷責罵賓?",
+      "starter": "Why",
+      "answer": "Why is the coach always at Ben?",
+      "answerZh": "教練為何總是不斷責罵賓?",
+      "highlight": "is the coach always at",
+      "targetForm": "be at somebody",
+      "targetMeaningZh": "不斷批評或責罵某人"
+    },
+    {
+      "id": "phrasal-verb-315-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 42,
+      "prompt": "The students think they have found an answer that may work.",
+      "promptZh": "學生認為自己找到了一個可能有效的答案。",
+      "starter": "The",
+      "answer": "The students think they are onto something.",
+      "answerZh": "學生認為自己可能找到了一個好方向。",
+      "highlight": "are onto something",
+      "targetForm": "be onto something",
+      "targetMeaningZh": "可能發現了好主意或重要線索"
+    },
+    {
+      "id": "phrasal-verb-315-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 42,
+      "prompt": "If you keep shouting, you are likely to receive a warning.",
+      "promptZh": "如果你繼續大叫,你很可能會收到警告。",
+      "starter": "If",
+      "answer": "If you keep shouting, you are in for a warning.",
+      "answerZh": "如果你繼續大叫,你很可能會收到警告。",
+      "highlight": "are in for",
+      "targetForm": "be in for something",
+      "targetMeaningZh": "很可能即將經歷某事"
+    },
+    {
+      "id": "phrasal-verb-315-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 43,
+      "prompt": "The singer worries that people think she is no longer good enough.",
+      "promptZh": "那名歌手擔心人們認為她已不再有足夠實力。",
+      "starter": "The",
+      "answer": "The singer worries that people think she is past it.",
+      "answerZh": "那名歌手擔心人們認為她已過了最佳狀態。",
+      "highlight": "is past it",
+      "targetForm": "be past it",
+      "targetMeaningZh": "年紀太大或已不復當年"
+    },
+    {
+      "id": "phrasal-verb-315-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 43,
+      "prompt": "Sam will pay for the next round.",
+      "promptZh": "下一輪飲品由山姆付款。",
+      "starter": "The",
+      "answer": "The next round is on Sam.",
+      "answerZh": "下一輪飲品由山姆付款。",
+      "highlight": "is on Sam",
+      "targetForm": "be on somebody",
+      "targetMeaningZh": "由某人付款"
+    },
+    {
+      "id": "phrasal-verb-315-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 43,
+      "prompt": "After being kept in the car for two hours, the children needed to run around.",
+      "promptZh": "孩子們在車內被困兩小時後,需要四處跑動一下。",
+      "starter": "After",
+      "answer": "After being cooped up in the car for two hours, the children needed to run around.",
+      "answerZh": "孩子們在車內被困兩小時後,需要四處跑動一下。",
+      "highlight": "being cooped up",
+      "targetForm": "be cooped up in something",
+      "targetMeaningZh": "被困在狹小或封閉的地方"
+    },
+    {
+      "id": "phrasal-verb-315-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 43,
+      "prompt": "After waiting ten minutes, Priya was finally connected to the doctor.",
+      "promptZh": "等候十分鐘後,普里雅終於接通醫生的電話。",
+      "starter": "After",
+      "answer": "After waiting ten minutes, Priya was finally through to the doctor.",
+      "answerZh": "等候十分鐘後,普里雅終於接通醫生的電話。",
+      "highlight": "was finally through",
+      "targetForm": "be through to somebody",
+      "targetMeaningZh": "電話已接通某人"
+    },
+    {
+      "id": "phrasal-verb-315-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 43,
+      "prompt": "The advert was intended to encourage families to visit the museum.",
+      "promptZh": "這則廣告旨在鼓勵家庭參觀博物館。",
+      "starter": "The",
+      "answer": "The advert was aimed at encouraging families to visit the museum.",
+      "answerZh": "這則廣告旨在鼓勵家庭參觀博物館。",
+      "highlight": "was aimed at encouraging",
+      "targetForm": "be aimed at doing something",
+      "targetMeaningZh": "旨在做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 44,
+      "prompt": "Dad has been talking about buying a new car all week.",
+      "promptZh": "爸爸整個星期都在談論購買新車。",
+      "starter": "Dad",
+      "answer": "Dad has been on about buying a new car all week.",
+      "answerZh": "爸爸整個星期都在談論購買新車。",
+      "highlight": "been on",
+      "targetForm": "be on about something",
+      "targetMeaningZh": "不停或反覆談論某事"
+    },
+    {
+      "id": "phrasal-verb-315-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 44,
+      "prompt": "By Friday, the shop had no clean cups left.",
+      "promptZh": "到了星期五,店內已沒有乾淨杯子。",
+      "starter": "By",
+      "answer": "By Friday, the shop was out of clean cups.",
+      "answerZh": "到了星期五,店內已沒有乾淨杯子。",
+      "highlight": "was out of",
+      "targetForm": "be out of something",
+      "targetMeaningZh": "某物已用完;沒有剩下"
+    },
+    {
+      "id": "phrasal-verb-315-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 44,
+      "prompt": "Whatever you decide, your family will support you.",
+      "promptZh": "無論你作出甚麼決定,家人都會支持你。",
+      "starter": "Whatever",
+      "answer": "Whatever you decide, your family will be behind you.",
+      "answerZh": "無論你作出甚麼決定,家人都會支持你。",
+      "highlight": "be behind",
+      "targetForm": "be behind somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-315-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 44,
+      "prompt": "The story follows two children who are stranded on a distant island.",
+      "promptZh": "故事講述兩名被困在遙遠島嶼上的孩子。",
+      "starter": "The",
+      "answer": "The story follows two children who are cast away on a distant island.",
+      "answerZh": "故事講述兩名漂流到遙遠島嶼並被困當地的孩子。",
+      "highlight": "are cast away",
+      "targetForm": "be cast away on something",
+      "targetMeaningZh": "漂流到某處並被困"
+    },
+    {
+      "id": "phrasal-verb-315-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 44,
+      "prompt": "How long have you been taking this medicine?",
+      "promptZh": "你服用這種藥物多久了?",
+      "starter": "How",
+      "answer": "How long have you been on this medicine?",
+      "answerZh": "你服用這種藥物多久了?",
+      "highlight": "been on",
+      "targetForm": "be on something",
+      "targetMeaningZh": "正在服用藥物"
+    },
+    {
+      "id": "phrasal-verb-315-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 44,
+      "prompt": "Mum has been asking us all evening to turn the music down.",
+      "promptZh": "媽媽整個晚上都不斷叫我們把音樂調低。",
+      "starter": "Mum",
+      "answer": "Mum has been at us all evening to turn the music down.",
+      "answerZh": "媽媽整個晚上都不斷叫我們把音樂調低。",
+      "highlight": "been at",
+      "targetForm": "be at somebody",
+      "targetMeaningZh": "不斷催促某人"
+    },
+    {
+      "id": "phrasal-verb-315-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 45,
+      "prompt": "Priya was not yet fully recovered from the stomach bug when she returned.",
+      "promptZh": "普里雅回來時仍未完全從腸胃不適中康復。",
+      "starter": "Priya",
+      "answer": "Priya was not over the stomach bug when she returned.",
+      "answerZh": "普里雅回來時仍未完全從腸胃不適中康復。",
+      "highlight": "was not over",
+      "targetForm": "be over something",
+      "targetMeaningZh": "已從疾病或不快經歷中恢復"
+    },
+    {
+      "id": "phrasal-verb-315-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 45,
+      "prompt": "Because Ava knows the organiser well, she can usually get a seat.",
+      "promptZh": "因為艾娃與主辦人很熟,所以她通常都能獲得座位。",
+      "starter": "Because",
+      "answer": "Because Ava is well in with the organiser, she can usually get a seat.",
+      "answerZh": "因為艾娃與主辦人關係很好,所以她通常都能獲得座位。",
+      "highlight": "is well in with",
+      "targetForm": "be well in with somebody",
+      "targetMeaningZh": "與有影響力的人關係良好"
+    },
+    {
+      "id": "phrasal-verb-315-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "Is the restaurant fully reserved for Saturday night?",
+      "promptZh": "那間餐廳星期六晚已被訂滿嗎?",
+      "starter": "Is",
+      "answer": "Is the restaurant booked up for Saturday night?",
+      "answerZh": "那間餐廳星期六晚已被訂滿嗎?",
+      "highlight": "Is the restaurant booked up",
+      "targetForm": "be booked up",
+      "targetMeaningZh": "已滿額預訂"
+    },
+    {
+      "id": "phrasal-verb-315-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "Are you trying hard to get revenge?",
+      "promptZh": "你正一心想報復嗎?",
+      "starter": "Are",
+      "answer": "Are you out for revenge?",
+      "answerZh": "你正一心想報復嗎?",
+      "highlight": "Are you out for",
+      "targetForm": "be out for something",
+      "targetMeaningZh": "決心取得或達到某事"
+    },
+    {
+      "id": "phrasal-verb-315-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "The manager has not been in the office since Monday because she is travelling.",
+      "promptZh": "經理自星期一起便不在辦公室,因為她正在外遊。",
+      "starter": "The",
+      "answer": "The manager has been away since Monday because she is travelling.",
+      "answerZh": "經理自星期一起便離開了辦公室,因為她正在外遊。",
+      "highlight": "been away",
+      "targetForm": "be away",
+      "targetMeaningZh": "不在原來地方"
+    },
+    {
+      "id": "phrasal-verb-315-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "I was never interested in computer games at school.",
+      "promptZh": "我上學時從來不喜歡電腦遊戲。",
+      "starter": "I",
+      "answer": "I was never into computer games at school.",
+      "answerZh": "我上學時從來不喜歡電腦遊戲。",
+      "highlight": "was never into",
+      "targetForm": "be into something",
+      "targetMeaningZh": "對某事物有興趣;喜歡"
+    },
+    {
+      "id": "phrasal-verb-315-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "If the shopkeeper notices the trick, he will know what we are doing.",
+      "promptZh": "如果店主察覺這個把戲,他便會知道我們在做甚麼。",
+      "starter": "If",
+      "answer": "If the shopkeeper notices the trick, he will be onto us.",
+      "answerZh": "如果店主察覺這個把戲,他便會知道我們在做甚麼。",
+      "highlight": "be onto us",
+      "targetForm": "be onto somebody",
+      "targetMeaningZh": "察覺或懷疑某人正在做壞事"
+    },
+    {
+      "id": "phrasal-verb-315-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "Although it was late, Omar was still working on his report.",
+      "promptZh": "雖然時間已晚,奧馬仍在寫報告。",
+      "starter": "Although",
+      "answer": "Although it was late, Omar was still at his report.",
+      "answerZh": "雖然時間已晚,奧馬仍在寫報告。",
+      "highlight": "was still at",
+      "targetForm": "be at something",
+      "targetMeaningZh": "忙於或不停做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "Were wide jeans fashionable when you were at school?",
+      "promptZh": "你上學時,闊身牛仔褲流行嗎?",
+      "starter": "Were",
+      "answer": "Were wide jeans in when you were at school?",
+      "answerZh": "你上學時,闊身牛仔褲流行嗎?",
+      "highlight": "Were wide jeans in",
+      "targetForm": "be in",
+      "targetMeaningZh": "流行;時髦"
+    },
+    {
+      "id": "phrasal-verb-315-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "Once the team has finished the report, it can go home.",
+      "promptZh": "團隊完成報告後便可以回家。",
+      "starter": "Once",
+      "answer": "Once the team is through with the report, it can go home.",
+      "answerZh": "團隊完成報告後便可以回家。",
+      "highlight": "is through with",
+      "targetForm": "be through with something",
+      "targetMeaningZh": "已完成某事"
+    },
+    {
+      "id": "phrasal-verb-315-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "Do you think this simple clue may lead us to an important discovery?",
+      "promptZh": "你認為這個簡單線索可能帶領我們作出重要發現嗎?",
+      "starter": "Do",
+      "answer": "Do you think we are onto something with this simple clue?",
+      "answerZh": "你認為這個簡單線索可能令我們發現重要事情嗎?",
+      "highlight": "we are onto something with",
+      "targetForm": "be onto something",
+      "targetMeaningZh": "可能發現了好主意或重要線索"
+    },
+    {
+      "id": "phrasal-verb-315-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "Because I was ill, I have become late with several reports.",
+      "promptZh": "因為我生病,所以幾份報告都遲了。",
+      "starter": "Because",
+      "answer": "Because I was ill, I am behind with several reports.",
+      "answerZh": "因為我生病,所以幾份報告的進度都落後了。",
+      "highlight": "am behind",
+      "targetForm": "be behind with something",
+      "targetMeaningZh": "進度落後"
+    },
+    {
+      "id": "phrasal-verb-315-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "We heard that the concert was still scheduled for Friday.",
+      "promptZh": "我們聽說音樂會仍定於星期五舉行。",
+      "starter": "We",
+      "answer": "We heard that the concert was still on for Friday.",
+      "answerZh": "我們聽說音樂會仍定於星期五舉行。",
+      "highlight": "was still on",
+      "targetForm": "be on",
+      "targetMeaningZh": "活動會舉行;仍按計劃進行"
+    },
+    {
+      "id": "phrasal-verb-315-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "How long did it take Sam to stop feeling upset about Nora?",
+      "promptZh": "山姆花了多久才不再因諾拉而傷心?",
+      "starter": "How",
+      "answer": "How long was it before Sam was over Nora?",
+      "answerZh": "山姆過了多久才放下諾拉?",
+      "highlight": "was",
+      "targetForm": "be over somebody",
+      "targetMeaningZh": "已從感情中恢復;不再因某人傷心"
+    },
+    {
+      "id": "phrasal-verb-315-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "The request has been sent to the committee for a decision.",
+      "promptZh": "該項請求已送交委員會作決定。",
+      "starter": "The",
+      "answer": "The request is now before the committee.",
+      "answerZh": "該項請求現正交由委員會考慮。",
+      "highlight": "is now before",
+      "targetForm": "be before somebody",
+      "targetMeaningZh": "正交由某人或機構考慮"
+    },
+    {
+      "id": "phrasal-verb-315-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "Do not become discouraged by one small mistake.",
+      "promptZh": "不要因一個小錯誤而氣餒。",
+      "starter": "Do",
+      "answer": "Do not be cast down by one small mistake.",
+      "answerZh": "不要因一個小錯誤而氣餒。",
+      "highlight": "be cast down",
+      "targetForm": "be cast down by something",
+      "targetMeaningZh": "因某事感到沮喪或氣餒"
+    },
+    {
+      "id": "phrasal-verb-315-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "Do you really believe that the old coach can no longer do the job well?",
+      "promptZh": "你真的認為那名年長教練已不能再做好工作嗎?",
+      "starter": "Do",
+      "answer": "Do you really believe that the old coach is past it?",
+      "answerZh": "你真的認為那名年長教練已過了最佳狀態嗎?",
+      "highlight": "is past it",
+      "targetForm": "be past it",
+      "targetMeaningZh": "年紀太大或已不復當年"
+    },
+    {
+      "id": "phrasal-verb-315-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "I will pay for lunch, so please choose anything you like.",
+      "promptZh": "午餐由我付款,所以請隨意選擇。",
+      "starter": "Lunch",
+      "answer": "Lunch is on me, so please choose anything you like.",
+      "answerZh": "午餐由我付款,所以請隨意選擇。",
+      "highlight": "is on me",
+      "targetForm": "be on somebody",
+      "targetMeaningZh": "由某人付款"
+    },
+    {
+      "id": "phrasal-verb-315-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The reporters have been trying to obtain more details all morning.",
+      "promptZh": "記者整個上午都在設法取得更多資料。",
+      "starter": "The",
+      "answer": "The reporters have been after more details all morning.",
+      "answerZh": "記者整個上午都在設法取得更多資料。",
+      "highlight": "been after",
+      "targetForm": "be after something",
+      "targetMeaningZh": "想得到;設法取得"
+    },
+    {
+      "id": "phrasal-verb-315-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The team did not know that it was about to face a difficult match.",
+      "promptZh": "球隊不知道自己即將面對一場艱難的比賽。",
+      "starter": "The",
+      "answer": "The team did not know that it was in for a difficult match.",
+      "answerZh": "球隊不知道自己即將面對一場艱難的比賽。",
+      "highlight": "was in for",
+      "targetForm": "be in for something",
+      "targetMeaningZh": "很可能即將經歷某事"
+    },
+    {
+      "id": "phrasal-verb-315-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "Are the nurses still refusing to work because of the strike?",
+      "promptZh": "護士仍因罷工而拒絕工作嗎?",
+      "starter": "Are",
+      "answer": "Are the nurses still out?",
+      "answerZh": "護士仍在罷工嗎?",
+      "highlight": "Are the nurses still out",
+      "targetForm": "be out",
+      "targetMeaningZh": "正在罷工"
+    },
+    {
+      "id": "phrasal-verb-315-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "After three failed tries, the team finally found an idea that looked promising.",
+      "promptZh": "經過三次失敗嘗試後,團隊終於找到一個看來可行的主意。",
+      "starter": "After",
+      "answer": "After three failed tries, the team finally seemed to be onto something.",
+      "answerZh": "經過三次失敗嘗試後,團隊終於看來找到了一個好方向。",
+      "highlight": "seemed to be onto something",
+      "targetForm": "be onto something",
+      "targetMeaningZh": "可能發現了好主意或重要線索"
+    },
+    {
+      "id": "phrasal-verb-315-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "No final decision can be made while the matter is still being considered by the court.",
+      "promptZh": "事情仍由法院審理期間,不能作出最終決定。",
+      "starter": "No",
+      "answer": "No final decision can be made while the matter is still before the court.",
+      "answerZh": "事情仍交由法院審理期間,不能作出最終決定。",
+      "highlight": "is still before",
+      "targetForm": "be before somebody",
+      "targetMeaningZh": "正交由某人或機構審理"
+    },
+    {
+      "id": "phrasal-verb-315-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "What kind of music are your friends interested in?",
+      "promptZh": "你的朋友喜歡哪一類音樂?",
+      "starter": "What",
+      "answer": "What kind of music are your friends into?",
+      "answerZh": "你的朋友喜歡哪一類音樂?",
+      "highlight": "are your friends into",
+      "targetForm": "be into something",
+      "targetMeaningZh": "對某事物有興趣;喜歡"
+    },
+    {
+      "id": "phrasal-verb-315-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "The team was not trying to make friends; it was determined to win.",
+      "promptZh": "球隊不是為了交朋友,而是決心取勝。",
+      "starter": "The",
+      "answer": "The team was not out to make friends; it was out to win.",
+      "answerZh": "球隊不是為了交朋友,而是決心取勝。",
+      "highlight": "was not out",
+      "targetForm": "be out to do something",
+      "targetMeaningZh": "決心做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "We tried three classes, but every one had no places left.",
+      "promptZh": "我們嘗試報讀三個課程,但每一個都沒有空位。",
+      "starter": "We",
+      "answer": "We tried three classes, but every one was booked up.",
+      "answerZh": "我們嘗試報讀三個課程,但每一個都已滿額。",
+      "highlight": "was booked up",
+      "targetForm": "be booked up",
+      "targetMeaningZh": "已滿額預訂;沒有空位"
+    },
+    {
+      "id": "phrasal-verb-315-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Once you have recovered from the shock, we can discuss what happened.",
+      "promptZh": "你從震驚中恢復後,我們便可以討論發生了甚麼事。",
+      "starter": "Once",
+      "answer": "Once you are over the shock, we can discuss what happened.",
+      "answerZh": "你從震驚中恢復後,我們便可以討論發生了甚麼事。",
+      "highlight": "are over",
+      "targetForm": "be over something",
+      "targetMeaningZh": "已從疾病或不快經歷中恢復"
+    },
+    {
+      "id": "phrasal-verb-315-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "The neighbour kept complaining to the boys about the noise.",
+      "promptZh": "鄰居不斷因噪音而責備那些男孩。",
+      "starter": "The",
+      "answer": "The neighbour was at the boys about the noise.",
+      "answerZh": "鄰居不斷因噪音而責備那些男孩。",
+      "highlight": "was at",
+      "targetForm": "be at somebody",
+      "targetMeaningZh": "不斷批評或責罵某人"
+    },
+    {
+      "id": "phrasal-verb-315-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Why have the students been kept inside the classroom during lunch?",
+      "promptZh": "學生為何在午飯時間被困在課室內?",
+      "starter": "Why",
+      "answer": "Why have the students been cooped up in the classroom during lunch?",
+      "answerZh": "學生為何在午飯時間被困在課室內?",
+      "highlight": "been cooped up in",
+      "targetForm": "be cooped up in something",
+      "targetMeaningZh": "被困在狹小或封閉的地方"
+    },
+    {
+      "id": "phrasal-verb-315-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Who is paying for dinner tonight?",
+      "promptZh": "今晚晚餐由誰付款?",
+      "starter": "Who",
+      "answer": "Who is dinner on tonight?",
+      "answerZh": "今晚晚餐由誰付款?",
+      "highlight": "is dinner on",
+      "targetForm": "be on somebody",
+      "targetMeaningZh": "由某人付款"
+    },
+    {
+      "id": "phrasal-verb-315-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 50,
+      "prompt": "Do you have a useful friendship with anyone on the school committee?",
+      "promptZh": "你與校務委員會內任何人有良好而有幫助的關係嗎?",
+      "starter": "Are",
+      "answer": "Are you in with anyone on the school committee?",
+      "answerZh": "你與校務委員會內任何人關係良好嗎?",
+      "highlight": "Are",
+      "targetForm": "be in with somebody",
+      "targetMeaningZh": "與某人關係良好"
+    },
+    {
+      "id": "phrasal-verb-315-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 50,
+      "prompt": "We cannot make soup because there are no onions left.",
+      "promptZh": "我們不能煮湯,因為沒有洋葱了。",
+      "starter": "We",
+      "answer": "We cannot make soup because we are out of onions.",
+      "answerZh": "我們不能煮湯,因為沒有洋葱了。",
+      "highlight": "we",
+      "targetForm": "be out of something",
+      "targetMeaningZh": "某物已用完;沒有剩下"
+    },
+    {
+      "id": "phrasal-verb-315-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Why is the meeting still scheduled after several people asked to cancel it?",
+      "promptZh": "幾個人要求取消會議後,為何會議仍定於舉行?",
+      "starter": "Why",
+      "answer": "Why is the meeting still on after several people asked to cancel it?",
+      "answerZh": "幾個人要求取消會議後,為何會議仍會舉行?",
+      "highlight": "is the meeting still on",
+      "targetForm": "be on",
+      "targetMeaningZh": "活動會舉行;仍按計劃進行"
+    },
+    {
+      "id": "phrasal-verb-315-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Although the first shop rejected her idea, Priya was not discouraged.",
+      "promptZh": "雖然第一間店拒絕了她的構思,但普里雅沒有氣餒。",
+      "starter": "Although",
+      "answer": "Although the first shop rejected her idea, Priya was not cast down.",
+      "answerZh": "雖然第一間店拒絕了她的構思,但普里雅沒有氣餒。",
+      "highlight": "was not cast down",
+      "targetForm": "be cast down",
+      "targetMeaningZh": "感到沮喪或氣餒"
+    },
+    {
+      "id": "phrasal-verb-315-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Who am I speaking to now that the call has connected?",
+      "promptZh": "電話接通後,我現在正與誰通話?",
+      "starter": "Who",
+      "answer": "Who am I through to now?",
+      "answerZh": "我現在接通了誰的電話?",
+      "highlight": "am I through",
+      "targetForm": "be through to somebody",
+      "targetMeaningZh": "電話已接通某人"
+    },
+    {
+      "id": "phrasal-verb-315-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Do the other members still support the chairperson?",
+      "promptZh": "其他成員仍然支持主席嗎?",
+      "starter": "Are",
+      "answer": "Are the other members still behind the chairperson?",
+      "answerZh": "其他成員仍然支持主席嗎?",
+      "highlight": "Are",
+      "targetForm": "be behind somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-315-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 51,
+      "prompt": "The doctor said I may need to follow a special diet for a month.",
+      "promptZh": "醫生說我可能需要遵從特別飲食一個月。",
+      "starter": "The",
+      "answer": "The doctor said I may need to be on a special diet for a month.",
+      "answerZh": "醫生說我可能需要進行特別飲食一個月。",
+      "highlight": "be on",
+      "targetForm": "be on something",
+      "targetMeaningZh": "正在遵從某種飲食或療程"
+    },
+    {
+      "id": "phrasal-verb-315-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 51,
+      "prompt": "Although Ben still sees Ava at work, he is no longer upset about their break-up.",
+      "promptZh": "雖然賓在工作間仍會見到艾娃,但他已不再因分手而傷心。",
+      "starter": "Although",
+      "answer": "Although Ben still sees Ava at work, he is over her now.",
+      "answerZh": "雖然賓在工作間仍會見到艾娃,但他現在已放下她。",
+      "highlight": "is over her now",
+      "targetForm": "be over somebody",
+      "targetMeaningZh": "已從感情中恢復;不再因某人傷心"
+    },
+    {
+      "id": "phrasal-verb-315-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "Who is this safety guide intended for?",
+      "promptZh": "這份安全指南是為誰而設的?",
+      "starter": "Who",
+      "answer": "Who is this safety guide aimed at?",
+      "answerZh": "這份安全指南是為誰而設的?",
+      "highlight": "is this safety guide aimed at",
+      "targetForm": "be aimed at somebody",
+      "targetMeaningZh": "以某類人為對象"
+    },
+    {
+      "id": "phrasal-verb-315-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "Because the workers are on strike, no trains are leaving the station.",
+      "promptZh": "由於工人罷工,沒有列車駛離車站。",
+      "starter": "Because",
+      "answer": "Because the workers are out, no trains are leaving the station.",
+      "answerZh": "由於工人罷工,沒有列車駛離車站。",
+      "highlight": "are out",
+      "targetForm": "be out",
+      "targetMeaningZh": "正在罷工"
+    },
+    {
+      "id": "phrasal-verb-315-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "This year, simple wooden furniture is fashionable again.",
+      "promptZh": "今年,簡單的木製家具再次流行。",
+      "starter": "This",
+      "answer": "This year, simple wooden furniture is in again.",
+      "answerZh": "今年,簡單的木製家具再次流行。",
+      "highlight": "is in",
+      "targetForm": "be in",
+      "targetMeaningZh": "流行;時髦"
+    },
+    {
+      "id": "phrasal-verb-315-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "How long have you been working on that puzzle?",
+      "promptZh": "你已花了多久解那個拼圖?",
+      "starter": "How",
+      "answer": "How long have you been at that puzzle?",
+      "answerZh": "你已花了多久解那個拼圖?",
+      "highlight": "been at",
+      "targetForm": "be at something",
+      "targetMeaningZh": "忙於或不停做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 52,
+      "prompt": "Do the police now suspect the driver?",
+      "promptZh": "警方現在懷疑那名司機嗎?",
+      "starter": "Are",
+      "answer": "Are the police onto the driver now?",
+      "answerZh": "警方現在已察覺或懷疑那名司機嗎?",
+      "highlight": "Are",
+      "targetForm": "be onto somebody",
+      "targetMeaningZh": "察覺或懷疑某人正在做壞事"
+    },
+    {
+      "id": "phrasal-verb-315-q113",
+      "number": 113,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 52,
+      "prompt": "She ended the relationship and wants no more contact with him.",
+      "promptZh": "她已結束這段關係,不想再與他聯絡。",
+      "starter": "She",
+      "answer": "She is through with him and wants no more contact.",
+      "answerZh": "她已與他結束關係,不想再有聯絡。",
+      "highlight": "is through with him",
+      "targetForm": "be through with somebody",
+      "targetMeaningZh": "已與某人結束關係"
+    },
+    {
+      "id": "phrasal-verb-315-q114",
+      "number": 114,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "Are you late in paying the electricity bill?",
+      "promptZh": "你遲了繳交電費單嗎?",
+      "starter": "Are",
+      "answer": "Are you behind with the electricity bill?",
+      "answerZh": "你拖欠了電費嗎?",
+      "highlight": "Are you behind with",
+      "targetForm": "be behind with something",
+      "targetMeaningZh": "拖欠款項"
+    },
+    {
+      "id": "phrasal-verb-315-q115",
+      "number": 115,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "Are we likely to have more rain tonight?",
+      "promptZh": "我們今晚很可能會再遇上雨天嗎?",
+      "starter": "Are",
+      "answer": "Are we in for more rain tonight?",
+      "answerZh": "我們今晚很可能會再遇上雨天嗎?",
+      "highlight": "Are we in for",
+      "targetForm": "be in for something",
+      "targetMeaningZh": "很可能即將經歷某事"
+    },
+    {
+      "id": "phrasal-verb-315-q116",
+      "number": 116,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "After the storm, the sailors were stranded on a rocky island for three days.",
+      "promptZh": "暴風雨後,水手被困在一個石島上三天。",
+      "starter": "After",
+      "answer": "After the storm, the sailors were cast away on a rocky island for three days.",
+      "answerZh": "暴風雨後,水手漂流到一個石島並被困三天。",
+      "highlight": "were cast away",
+      "targetForm": "be cast away on something",
+      "targetMeaningZh": "漂流到某處並被困"
+    },
+    {
+      "id": "phrasal-verb-315-q117",
+      "number": 117,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "I do not understand what the neighbour keeps talking about.",
+      "promptZh": "我不明白鄰居一直在談論甚麼。",
+      "starter": "I",
+      "answer": "I do not understand what the neighbour is on about.",
+      "answerZh": "我不明白鄰居一直在談論甚麼。",
+      "highlight": "is on",
+      "targetForm": "be on about something",
+      "targetMeaningZh": "談論某事"
+    },
+    {
+      "id": "phrasal-verb-315-q118",
+      "number": 118,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 53,
+      "prompt": "At forty, the player refuses to accept that his best years are finished.",
+      "promptZh": "那名球員四十歲了,但拒絕接受自己的黃金歲月已結束。",
+      "starter": "At",
+      "answer": "At forty, the player refuses to accept that he is past it.",
+      "answerZh": "那名球員四十歲了,但拒絕接受自己已過了最佳狀態。",
+      "highlight": "he is past it",
+      "targetForm": "be past it",
+      "targetMeaningZh": "年紀太大或已不復當年"
+    },
+    {
+      "id": "phrasal-verb-315-q119",
+      "number": 119,
+      "band": 4,
+      "sourcePage": 27,
+      "answerSourcePage": 53,
+      "prompt": "While we are not at home, our neighbour will feed the cat.",
+      "promptZh": "我們不在家期間,鄰居會餵貓。",
+      "starter": "While",
+      "answer": "While we are away, our neighbour will feed the cat.",
+      "answerZh": "我們外出期間,鄰居會餵貓。",
+      "highlight": "are away",
+      "targetForm": "be away",
+      "targetMeaningZh": "不在家;外出"
+    },
+    {
+      "id": "phrasal-verb-315-q120",
+      "number": 120,
+      "band": 4,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "What is the dog trying to get under the sofa?",
+      "promptZh": "那隻狗正想取得梳化底下的甚麼東西?",
+      "starter": "What",
+      "answer": "What is the dog after under the sofa?",
+      "answerZh": "那隻狗正想取得梳化底下的甚麼東西?",
+      "highlight": "is the dog after",
+      "targetForm": "be after something",
+      "targetMeaningZh": "想得到;追求"
+    },
+    {
+      "id": "phrasal-verb-315-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "Although the plan is risky, most of the team has promised to support the manager.",
+      "promptZh": "雖然計劃有風險,但團隊大部分成員都承諾支持經理。",
+      "starter": "Although",
+      "answer": "Although the plan is risky, most of the team is behind the manager.",
+      "answerZh": "雖然計劃有風險,但團隊大部分成員都支持經理。",
+      "highlight": "is behind",
+      "targetForm": "be behind somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-315-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "Whatever he says, Ben is clearly trying to get the manager's job.",
+      "promptZh": "無論賓怎樣說,他顯然正一心想得到經理的職位。",
+      "starter": "Whatever",
+      "answer": "Whatever he says, Ben is clearly out for the manager's job.",
+      "answerZh": "無論賓怎樣說,他顯然正一心想得到經理的職位。",
+      "highlight": "is clearly out for",
+      "targetForm": "be out for something",
+      "targetMeaningZh": "決心取得某物"
+    },
+    {
+      "id": "phrasal-verb-315-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "Because of the snow, we may be kept inside the cabin for another day.",
+      "promptZh": "由於下雪,我們可能要再被困在小屋內一天。",
+      "starter": "Because",
+      "answer": "Because of the snow, we may be cooped up in the cabin for another day.",
+      "answerZh": "由於下雪,我們可能要再被困在小屋內一天。",
+      "highlight": "be cooped up in",
+      "targetForm": "be cooped up in something",
+      "targetMeaningZh": "被困在狹小或封閉的地方"
+    },
+    {
+      "id": "phrasal-verb-315-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 54,
+      "prompt": "The changes are not intended to punish staff; they are intended to make the office safer.",
+      "promptZh": "這些改動並非旨在懲罰員工,而是為了令辦公室更安全。",
+      "starter": "The",
+      "answer": "The changes are not aimed at punishing staff; they are aimed at making the office safer.",
+      "answerZh": "這些改動並非旨在懲罰員工,而是為了令辦公室更安全。",
+      "highlight": "are not aimed at punishing",
+      "targetForm": "be aimed at doing something",
+      "targetMeaningZh": "旨在做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 54,
+      "prompt": "If the line stays clear, you should be connected to the ticket office in a moment.",
+      "promptZh": "如果線路保持暢通,你應該很快便會接通售票處。",
+      "starter": "If",
+      "answer": "If the line stays clear, you should be through to the ticket office in a moment.",
+      "answerZh": "如果線路保持暢通,你應該很快便會接通售票處。",
+      "highlight": "be through",
+      "targetForm": "be through to somebody",
+      "targetMeaningZh": "電話已接通某人或部門"
+    },
+    {
+      "id": "phrasal-verb-315-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "Even after we changed the subject, Omar continued talking about the unfair score.",
+      "promptZh": "即使我們轉了話題,奧馬仍繼續談論那個不公平的分數。",
+      "starter": "Even",
+      "answer": "Even after we changed the subject, Omar was still on about the unfair score.",
+      "answerZh": "即使我們轉了話題,奧馬仍繼續談論那個不公平的分數。",
+      "highlight": "was still on",
+      "targetForm": "be on about something",
+      "targetMeaningZh": "不停或反覆談論某事"
+    },
+    {
+      "id": "phrasal-verb-315-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "Although the fever has gone, Kai has not fully recovered from the illness yet.",
+      "promptZh": "雖然已退燒,但啟仍未完全康復。",
+      "starter": "Although",
+      "answer": "Although the fever has gone, Kai is not over the illness yet.",
+      "answerZh": "雖然已退燒,但啟仍未完全康復。",
+      "highlight": "is",
+      "targetForm": "be over something",
+      "targetMeaningZh": "已從疾病或不快經歷中恢復"
+    },
+    {
+      "id": "phrasal-verb-315-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "If their radio had worked, the family would not have remained stranded on the island for so long.",
+      "promptZh": "如果收音機能運作,那家人便不會在島上被困那麼久。",
+      "starter": "If",
+      "answer": "If their radio had worked, the family would not have been cast away on the island for so long.",
+      "answerZh": "如果收音機能運作,那家人便不會漂流到島上並被困那麼久。",
+      "highlight": "been cast away",
+      "targetForm": "be cast away on something",
+      "targetMeaningZh": "漂流到某處並被困"
+    },
+    {
+      "id": "phrasal-verb-315-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "Although Kai joined only last month, he already has a useful friendship with the club president.",
+      "promptZh": "雖然啟上月才加入,但他已與社團主席建立了良好而有幫助的關係。",
+      "starter": "Although",
+      "answer": "Although Kai joined only last month, he is already well in with the club president.",
+      "answerZh": "雖然啟上月才加入,但他已與社團主席關係很好。",
+      "highlight": "is",
+      "targetForm": "be well in with somebody",
+      "targetMeaningZh": "與有影響力的人關係良好"
+    },
+    {
+      "id": "phrasal-verb-315-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 55,
+      "prompt": "Ben thought nobody had noticed his plan, but his sister had already realised what he was doing.",
+      "promptZh": "賓以為沒有人注意到他的計劃,但姐姐早已知道他在做甚麼。",
+      "starter": "Ben",
+      "answer": "Ben thought nobody had noticed his plan, but his sister was already onto him.",
+      "answerZh": "賓以為沒有人注意到他的計劃,但姐姐早已察覺他在做甚麼。",
+      "highlight": "was",
+      "targetForm": "be onto somebody",
+      "targetMeaningZh": "察覺或懷疑某人正在做壞事"
+    },
+    {
+      "id": "phrasal-verb-315-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 55,
+      "prompt": "Unless the weather gets worse, the outdoor film will still take place tonight.",
+      "promptZh": "除非天氣惡化,否則戶外電影今晚仍會放映。",
+      "starter": "Unless",
+      "answer": "Unless the weather gets worse, the outdoor film will still be on tonight.",
+      "answerZh": "除非天氣惡化,否則戶外電影今晚仍會放映。",
+      "highlight": "be on",
+      "targetForm": "be on",
+      "targetMeaningZh": "活動會舉行;仍按計劃進行"
+    },
+    {
+      "id": "phrasal-verb-315-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "After serving two hundred people, the café had no milk or bread left.",
+      "promptZh": "招待二百人後,咖啡店已沒有牛奶或麵包。",
+      "starter": "After",
+      "answer": "After serving two hundred people, the café was out of milk and bread.",
+      "answerZh": "招待二百人後,咖啡店已沒有牛奶和麵包。",
+      "highlight": "was out of",
+      "targetForm": "be out of something",
+      "targetMeaningZh": "某物已用完;沒有剩下"
+    },
+    {
+      "id": "phrasal-verb-315-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "Even after I said no, Sam continued trying to persuade me to join the race.",
+      "promptZh": "即使我已拒絕,山姆仍不斷游說我參加比賽。",
+      "starter": "Even",
+      "answer": "Even after I said no, Sam was still at me to join the race.",
+      "answerZh": "即使我已拒絕,山姆仍不斷游說我參加比賽。",
+      "highlight": "was still at",
+      "targetForm": "be at somebody",
+      "targetMeaningZh": "不斷催促或游說某人"
+    },
+    {
+      "id": "phrasal-verb-315-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "If the numbers keep matching, the researchers may have found an important result.",
+      "promptZh": "如果數字繼續吻合,研究人員可能已找到重要結果。",
+      "starter": "If",
+      "answer": "If the numbers keep matching, the researchers may be onto something important.",
+      "answerZh": "如果數字繼續吻合,研究人員可能已發現重要事情。",
+      "highlight": "be onto something",
+      "targetForm": "be onto something",
+      "targetMeaningZh": "可能發現了好主意或重要線索"
+    },
+    {
+      "id": "phrasal-verb-315-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "By the time you call tomorrow, I may already have left for a short trip.",
+      "promptZh": "你明天致電時,我可能已出發短途旅行。",
+      "starter": "By",
+      "answer": "By the time you call tomorrow, I may already be away on a short trip.",
+      "answerZh": "你明天致電時,我可能已在短途旅行途中。",
+      "highlight": "be away on",
+      "targetForm": "be away",
+      "targetMeaningZh": "離開原來地方;外出"
+    },
+    {
+      "id": "phrasal-verb-315-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 56,
+      "prompt": "By six o'clock, the cleaners should have finished all the rooms.",
+      "promptZh": "到了六時,清潔工應已完成所有房間的工作。",
+      "starter": "By",
+      "answer": "By six o'clock, the cleaners should be through with all the rooms.",
+      "answerZh": "到了六時,清潔工應已完成所有房間的工作。",
+      "highlight": "be through with",
+      "targetForm": "be through with something",
+      "targetMeaningZh": "已完成某事"
+    },
+    {
+      "id": "phrasal-verb-315-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 56,
+      "prompt": "Although the style disappeared for years, it is fashionable again.",
+      "promptZh": "雖然這種款式消失了多年,但現在再次流行。",
+      "starter": "Although",
+      "answer": "Although the style disappeared for years, it is in again.",
+      "answerZh": "雖然這種款式消失了多年,但現在再次流行。",
+      "highlight": "is in",
+      "targetForm": "be in",
+      "targetMeaningZh": "流行;時髦"
+    },
+    {
+      "id": "phrasal-verb-315-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 56,
+      "prompt": "Because the morning trains are already fully reserved, we may need to travel after lunch.",
+      "promptZh": "由於早上的列車已被訂滿,我們可能要午飯後才出發。",
+      "starter": "Because",
+      "answer": "Because the morning trains are already booked up, we may need to travel after lunch.",
+      "answerZh": "由於早上的列車已被訂滿,我們可能要午飯後才出發。",
+      "highlight": "are already booked up",
+      "targetForm": "be booked up",
+      "targetMeaningZh": "已滿額預訂"
+    },
+    {
+      "id": "phrasal-verb-315-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 56,
+      "prompt": "Nia thought she had recovered from Leo, but seeing him again made her sad.",
+      "promptZh": "妮亞以為自己已放下里奧,但再次見到他時仍感到難過。",
+      "starter": "Nia",
+      "answer": "Nia thought she was over Leo, but seeing him again made her sad.",
+      "answerZh": "妮亞以為自己已放下里奧,但再次見到他時仍感到難過。",
+      "highlight": "was over",
+      "targetForm": "be over somebody",
+      "targetMeaningZh": "已從感情中恢復;不再因某人傷心"
+    },
+    {
+      "id": "phrasal-verb-315-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 56,
+      "prompt": "After months of waiting, the dispute will finally be considered by an independent panel next week.",
+      "promptZh": "經過數月等待,這宗爭議下星期終會交由獨立小組考慮。",
+      "starter": "After",
+      "answer": "After months of waiting, the dispute will finally be before an independent panel next week.",
+      "answerZh": "經過數月等待,這宗爭議下星期終會交由獨立小組考慮。",
+      "highlight": "be before",
+      "targetForm": "be before somebody",
+      "targetMeaningZh": "正交由某人或機構考慮"
+    },
+    {
+      "id": "phrasal-verb-315-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 56,
+      "prompt": "Since Priya won the prize, she offered to pay for everyone's ice cream.",
+      "promptZh": "普里雅贏得獎項後,提出請所有人吃雪糕。",
+      "starter": "Since",
+      "answer": "Since Priya won the prize, the ice cream is on her.",
+      "answerZh": "普里雅贏得獎項後,雪糕由她請客。",
+      "highlight": "the",
+      "targetForm": "be on somebody",
+      "targetMeaningZh": "由某人付款"
+    },
+    {
+      "id": "phrasal-verb-315-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 57,
+      "prompt": "The players felt discouraged for a day, but they returned to training on Monday.",
+      "promptZh": "球員沮喪了一天,但星期一便重新訓練。",
+      "starter": "The",
+      "answer": "The players were cast down for a day, but they returned to training on Monday.",
+      "answerZh": "球員沮喪了一天,但星期一便重新訓練。",
+      "highlight": "were cast down",
+      "targetForm": "be cast down",
+      "targetMeaningZh": "感到沮喪或氣餒"
+    },
+    {
+      "id": "phrasal-verb-315-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 57,
+      "prompt": "By midnight, the team had spent six hours working on the final report.",
+      "promptZh": "到了午夜,團隊已花了六小時處理最終報告。",
+      "starter": "By",
+      "answer": "By midnight, the team had been at the final report for six hours.",
+      "answerZh": "到了午夜,團隊已花了六小時處理最終報告。",
+      "highlight": "been at",
+      "targetForm": "be at something",
+      "targetMeaningZh": "忙於或不停做某事"
+    },
+    {
+      "id": "phrasal-verb-315-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 57,
+      "prompt": "The factory may close again if its staff remain on strike next week.",
+      "promptZh": "如果員工下星期繼續罷工,工廠可能再次關閉。",
+      "starter": "The",
+      "answer": "The factory may close again if its staff are still out next week.",
+      "answerZh": "如果員工下星期繼續罷工,工廠可能再次關閉。",
+      "highlight": "are still out",
+      "targetForm": "be out",
+      "targetMeaningZh": "正在罷工"
+    },
+    {
+      "id": "phrasal-verb-315-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 57,
+      "prompt": "Although Nia usually prefers films, she has become very interested in photography this year.",
+      "promptZh": "雖然妮亞通常較喜歡電影,但她今年變得非常喜歡攝影。",
+      "starter": "Although",
+      "answer": "Although Nia usually prefers films, she has been really into photography this year.",
+      "answerZh": "雖然妮亞通常較喜歡電影,但她今年一直非常喜歡攝影。",
+      "highlight": "been really into",
+      "targetForm": "be into something",
+      "targetMeaningZh": "對某事物有興趣;喜歡"
+    },
+    {
+      "id": "phrasal-verb-315-q146",
+      "number": 146,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 57,
+      "prompt": "By Friday, the office may be late with its orders if the printer is not fixed.",
+      "promptZh": "如果打印機未修好,辦公室到星期五可能會延誤訂單。",
+      "starter": "By",
+      "answer": "By Friday, the office may be behind with its orders if the printer is not fixed.",
+      "answerZh": "如果打印機未修好,辦公室到星期五可能會在訂單方面落後。",
+      "highlight": "be behind",
+      "targetForm": "be behind with something",
+      "targetMeaningZh": "進度落後"
+    },
+    {
+      "id": "phrasal-verb-315-q147",
+      "number": 147,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 57,
+      "prompt": "Although the actor still performs well, some critics say he is too old for leading roles.",
+      "promptZh": "雖然那名演員仍有出色表現,但有些評論者說他年紀太大,不再適合擔任主角。",
+      "starter": "Although",
+      "answer": "Although the actor still performs well, some critics say he is past it.",
+      "answerZh": "雖然那名演員仍有出色表現,但有些評論者說他已過了最佳狀態。",
+      "highlight": "is past it",
+      "targetForm": "be past it",
+      "targetMeaningZh": "年紀太大或已不復當年"
+    },
+    {
+      "id": "phrasal-verb-315-q148",
+      "number": 148,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 58,
+      "prompt": "The company does not want quick praise; it wants long-term trust.",
+      "promptZh": "公司並非追求短暫的讚賞,而是希望得到長久的信任。",
+      "starter": "The",
+      "answer": "The company is not after quick praise; it is after long-term trust.",
+      "answerZh": "公司並非追求短暫的讚賞,而是希望得到長久的信任。",
+      "highlight": "is",
+      "targetForm": "be after something",
+      "targetMeaningZh": "想得到;追求"
+    },
+    {
+      "id": "phrasal-verb-315-q149",
+      "number": 149,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 58,
+      "prompt": "Although the pain has gone, Nora must still take the medicine until Friday.",
+      "promptZh": "雖然痛楚已消失,但諾拉仍須服藥至星期五。",
+      "starter": "Although",
+      "answer": "Although the pain has gone, Nora must still be on the medicine until Friday.",
+      "answerZh": "雖然痛楚已消失,但諾拉仍須服藥至星期五。",
+      "highlight": "be on",
+      "targetForm": "be on something",
+      "targetMeaningZh": "正在服用藥物"
+    },
+    {
+      "id": "phrasal-verb-315-q150",
+      "number": 150,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 58,
+      "prompt": "With three key players missing, the club may be about to experience a hard season.",
+      "promptZh": "由於三名主力球員缺席,球會可能即將面對艱難的一季。",
+      "starter": "With",
+      "answer": "With three key players missing, the club may be in for a hard season.",
+      "answerZh": "由於三名主力球員缺席,球會可能即將面對艱難的一季。",
+      "highlight": "be in for",
+      "targetForm": "be in for something",
+      "targetMeaningZh": "很可能即將經歷某事"
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-72",
+  "order": 72,
+  "slug": "dish",
+  "version": "1",
+  "title": "DISH 動詞片語",
+  "titleEn": "Dish",
+  "titleZh": "DISH 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 71 - DISH.pdf",
+    "sourceNumber": 71,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DISH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DISH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DISH",
+      "highlight": "DISH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "He dished me out a few vitamin pills.",
+      "zh": "他分給我幾粒維他命丸。",
+      "highlight": "dished me out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She keeps on dishing up the same old jokes in her shows.",
+      "zh": "她在節目中不斷老調重彈,重複同一批老笑話。",
+      "highlight": "dishing up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You pour the wine while I dish up.",
+      "zh": "你倒酒,我來把食物分到碟上。",
+      "highlight": "dish up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "派發某事物;把某事物分給某人；反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈；把食物分到碟或碗裏;上菜",
+    "en": "dish something out to somebody; dish somebody out something; dish up something; dish it/them up; dish up; dish something up",
+    "naturalZh": [
+      "派發某事物;把某事物分給某人",
+      "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+      "把食物分到碟或碗裏;上菜"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dish something out to somebody; dish somebody out something",
+      "titleZh": "派發某事物;把某事物分給某人",
+      "titleEn": "dish something out to somebody; dish somebody out something",
+      "descriptionZh": "派發某事物;把某事物分給某人",
+      "descriptionEn": "He dished me out a few vitamin pills.",
+      "examples": [
+        {
+          "en": "He dished me out a few vitamin pills.",
+          "zh": "他分給我幾粒維他命丸。",
+          "highlight": "dished me out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dish up something; dish it/them up",
+      "titleZh": "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+      "titleEn": "dish up something; dish it/them up",
+      "descriptionZh": "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+      "descriptionEn": "She keeps on dishing up the same old jokes in her shows.",
+      "examples": [
+        {
+          "en": "She keeps on dishing up the same old jokes in her shows.",
+          "zh": "她在節目中不斷老調重彈,重複同一批老笑話。",
+          "highlight": "dishing up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dish up; dish something up",
+      "titleZh": "把食物分到碟或碗裏;上菜",
+      "titleEn": "dish up; dish something up",
+      "descriptionZh": "把食物分到碟或碗裏;上菜",
+      "descriptionEn": "You pour the wine while I dish up.",
+      "examples": [
+        {
+          "en": "You pour the wine while I dish up.",
+          "zh": "你倒酒,我來把食物分到碟上。",
+          "highlight": "dish up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DISH 片語動詞的實際用途",
+    "labelEn": "DISH Phrasal Verbs in Use",
+    "summaryZh": "dish out 可以描述派發卡片、地圖、食物、藥物及其他物品。；dish up 可以簡潔自然地表示把煮好的食物分到碟或碗裏。；dish up 可以表示表演者、作者或講者再次搬出同一批陳舊內容。；同一個表達既可以描述上菜,也可以描述反覆搬出舊笑話、故事和藉口。",
+    "summaryEn": "Dish out can describe giving out cards, maps, food, medicine and other items. Dish up gives you a short, natural way to describe putting cooked food onto plates or into bowls. Dish up can show that a performer, writer or speaker is offering the same old material again. The same expression can describe serving a meal or repeatedly offering old jokes, stories and excuses.",
+    "contextsZh": [
+      "使用 DISH 談論向多人派發物品",
+      "自然地談論把食物準備上桌",
+      "理解對重複或缺乏新意內容的批評",
+      "理解與食物及非食物有關的不同意思"
+    ],
+    "contextsEn": [
+      "Use DISH to talk about giving things to several people",
+      "Talk naturally about preparing food for the table",
+      "Recognise criticism about repeated or unoriginal content",
+      "Understand both food and non-food meanings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DISH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DISH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dish something out to somebody; dish somebody out something",
+    "fixedHighlight": "dish something out to somebody; dish somebody out something",
+    "fixedZh": "閱讀整句,選出意思相同的 DISH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DISH expression that gives the same meaning.",
+    "correct": "dished me out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；dish up 可以表示把食物分到碟或碗裏,也可以表示再次搬出同一批舊笑話、故事、藉口或想法。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: dish it up dish them up dish it out dish them out Dish up can describe serving food, but it can also describe presenting the same old jokes, stories, excuses or ideas again. Read the full situation carefully.",
+    "variableItemsZh": [
+      "dish something out to somebody; dish somebody out something",
+      "dish up something; dish it/them up",
+      "dish up; dish something up"
+    ],
+    "variableItemsEn": [
+      "dish something out to somebody; dish somebody out something",
+      "dish up something; dish it/them up",
+      "dish up; dish something up"
+    ],
+    "forms": [
+      {
+        "formZh": "派發某事物;把某事物分給某人",
+        "formEn": "dish something out to somebody; dish somebody out something",
+        "exampleZh": "他分給我幾粒維他命丸。",
+        "exampleEn": "He dished me out a few vitamin pills.",
+        "highlight": "dished me out"
+      },
+      {
+        "formZh": "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+        "formEn": "dish up something; dish it/them up",
+        "exampleZh": "她在節目中不斷老調重彈,重複同一批老笑話。",
+        "exampleEn": "She keeps on dishing up the same old jokes in her shows.",
+        "highlight": "dishing up"
+      },
+      {
+        "formZh": "把食物分到碟或碗裏;上菜",
+        "formEn": "dish up; dish something up",
+        "exampleZh": "你倒酒,我來把食物分到碟上。",
+        "exampleEn": "You pour the wine while I dish up.",
+        "highlight": "dish up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "派發某事物;把某事物分給某人",
+      "titleEn": "dish something out to somebody; dish somebody out something",
+      "formula": "dish something out to somebody; dish somebody out something",
+      "highlight": "dish something out to somebody; dish somebody out something",
+      "descriptionZh": "派發某事物;把某事物分給某人",
+      "descriptionEn": "He dished me out a few vitamin pills.",
+      "examples": [
+        {
+          "en": "He dished me out a few vitamin pills.",
+          "zh": "他分給我幾粒維他命丸。",
+          "highlight": "dished me out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+      "titleEn": "dish up something; dish it/them up",
+      "formula": "dish up something; dish it/them up",
+      "highlight": "dish up something; dish it/them up",
+      "descriptionZh": "反覆搬出同樣的笑話、故事、藉口或其他內容;老調重彈",
+      "descriptionEn": "She keeps on dishing up the same old jokes in her shows.",
+      "examples": [
+        {
+          "en": "She keeps on dishing up the same old jokes in her shows.",
+          "zh": "她在節目中不斷老調重彈,重複同一批老笑話。",
+          "highlight": "dishing up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把食物分到碟或碗裏;上菜",
+      "titleEn": "dish up; dish something up",
+      "formula": "dish up; dish something up",
+      "highlight": "dish up; dish something up",
+      "descriptionZh": "把食物分到碟或碗裏;上菜",
+      "descriptionEn": "You pour the wine while I dish up.",
+      "examples": [
+        {
+          "en": "You pour the wine while I dish up.",
+          "zh": "你倒酒,我來把食物分到碟上。",
+          "highlight": "dish up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 DISH 談論向多人派發物品",
+      "titleEn": "Use DISH to talk about giving things to several people",
+      "zh": "dish out 可以描述派發卡片、地圖、食物、藥物及其他物品。",
+      "en": "Dish out can describe giving out cards, maps, food, medicine and other items."
+    },
+    {
+      "titleZh": "自然地談論把食物準備上桌",
+      "titleEn": "Talk naturally about preparing food for the table",
+      "zh": "dish up 可以簡潔自然地表示把煮好的食物分到碟或碗裏。",
+      "en": "Dish up gives you a short, natural way to describe putting cooked food onto plates or into bowls."
+    },
+    {
+      "titleZh": "理解對重複或缺乏新意內容的批評",
+      "titleEn": "Recognise criticism about repeated or unoriginal content",
+      "zh": "dish up 可以表示表演者、作者或講者再次搬出同一批陳舊內容。",
+      "en": "Dish up can show that a performer, writer or speaker is offering the same old material again."
+    },
+    {
+      "titleZh": "理解與食物及非食物有關的不同意思",
+      "titleEn": "Understand both food and non-food meanings",
+      "zh": "同一個表達既可以描述上菜,也可以描述反覆搬出舊笑話、故事和藉口。",
+      "en": "The same expression can describe serving a meal or repeatedly offering old jokes, stories and excuses."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 DISH 談論向多人派發物品",
+      "自然地談論把食物準備上桌",
+      "理解對重複或缺乏新意內容的批評",
+      "理解與食物及非食物有關的不同意思"
+    ],
+    "contextsEn": [
+      "Use DISH to talk about giving things to several people",
+      "Talk naturally about preparing food for the table",
+      "Recognise criticism about repeated or unoriginal content",
+      "Understand both food and non-food meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 DISH 談論向多人派發物品",
+        "titleEn": "Use DISH to talk about giving things to several people",
+        "zh": "dish out 可以描述派發卡片、地圖、食物、藥物及其他物品。",
+        "en": "Dish out can describe giving out cards, maps, food, medicine and other items.",
+        "examples": [
+          {
+            "en": "He dished me out a few vitamin pills.",
+            "zh": "他分給我幾粒維他命丸。",
+            "highlight": "dished me out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地談論把食物準備上桌",
+        "titleEn": "Talk naturally about preparing food for the table",
+        "zh": "dish up 可以簡潔自然地表示把煮好的食物分到碟或碗裏。",
+        "en": "Dish up gives you a short, natural way to describe putting cooked food onto plates or into bowls.",
+        "examples": [
+          {
+            "en": "She keeps on dishing up the same old jokes in her shows.",
+            "zh": "她在節目中不斷老調重彈,重複同一批老笑話。",
+            "highlight": "dishing up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解對重複或缺乏新意內容的批評",
+        "titleEn": "Recognise criticism about repeated or unoriginal content",
+        "zh": "dish up 可以表示表演者、作者或講者再次搬出同一批陳舊內容。",
+        "en": "Dish up can show that a performer, writer or speaker is offering the same old material again.",
+        "examples": [
+          {
+            "en": "You pour the wine while I dish up.",
+            "zh": "你倒酒,我來把食物分到碟上。",
+            "highlight": "dish up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解與食物及非食物有關的不同意思",
+        "titleEn": "Understand both food and non-food meanings",
+        "zh": "同一個表達既可以描述上菜,也可以描述反覆搬出舊笑話、故事和藉口。",
+        "en": "The same expression can describe serving a meal or repeatedly offering old jokes, stories and excuses.",
+        "examples": [
+          {
+            "en": "He dished me out a few vitamin pills.",
+            "zh": "他分給我幾粒維他命丸。",
+            "highlight": "dished me out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DISH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DISH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DISH 片語動詞。",
+      "en": "Read the whole sentence and choose the DISH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: dish it up dish them up dish it out dish them out.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: dish it up dish them up dish it out dish them out"
+    },
+    {
+      "titleZh": "dish up 可以表示把食物分到碟或碗裏,也可以表示再次搬出同一批舊笑話、故事、藉口或想法。請仔細閱讀整個情境。",
+      "titleEn": "Dish up can describe serving food, but it can also describe presenting the same old jokes, stories, excuses or ideas again.",
+      "zh": "dish up 可以表示把食物分到碟或碗裏,也可以表示再次搬出同一批舊笑話、故事、藉口或想法。請仔細閱讀整個情境。",
+      "en": "Dish up can describe serving food, but it can also describe presenting the same old jokes, stories, excuses or ideas again. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DISH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DISH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DISH 動詞片語句子改寫練習",
+    "titleEn": "DISH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DISH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DISH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-72-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The teacher gave each group a set of cards.",
+      "promptZh": "老師給每組一套卡片。",
+      "starter": "The",
+      "answer": "The teacher dished out a set of cards to each group.",
+      "answerZh": "老師給每組派發了一套卡片。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ben put the soup into bowls for everyone.",
+      "promptZh": "賓把湯盛進碗裏給大家。",
+      "starter": "Ben",
+      "answer": "Ben dished up the soup for everyone.",
+      "answerZh": "賓把湯盛進碗裏給大家。",
+      "highlight": "dished up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The comedian told the same old jokes again.",
+      "promptZh": "那名喜劇演員又說了同一批老掉牙的笑話。",
+      "starter": "The",
+      "answer": "The comedian dished up the same old jokes again.",
+      "answerZh": "那名喜劇演員又老調重彈,說了同一批老掉牙的笑話。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出同樣的舊內容"
+    },
+    {
+      "id": "phrasal-verb-72-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Clara handed a worksheet to every student.",
+      "promptZh": "克拉拉給每名學生一張工作紙。",
+      "starter": "Clara",
+      "answer": "Clara dished out a worksheet to every student.",
+      "answerZh": "克拉拉給每名學生派發了一張工作紙。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dinner is ready, so I will put it onto the plates.",
+      "promptZh": "晚餐已經準備好,所以我會把它分到碟上。",
+      "starter": "Dinner",
+      "answer": "Dinner is ready, so I will dish it up.",
+      "answerZh": "晚餐已經準備好,所以我會把它分到碟上。",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "That presenter keeps giving us the same weak excuses.",
+      "promptZh": "那名主持人不斷給我們同一批站不住腳的藉口。",
+      "starter": "That",
+      "answer": "That presenter keeps dishing up the same weak excuses.",
+      "answerZh": "那名主持人不斷老調重彈,給我們同一批站不住腳的藉口。",
+      "highlight": "dishing up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的藉口或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The nurse gave the children a few vitamin pills.",
+      "promptZh": "護士給孩子們幾粒維他命丸。",
+      "starter": "The",
+      "answer": "The nurse dished the children out a few vitamin pills.",
+      "answerZh": "護士給孩子們分了幾粒維他命丸。",
+      "highlight": "dished",
+      "targetForm": "dish somebody out something",
+      "targetMeaningZh": "把某事物分給某人"
+    },
+    {
+      "id": "phrasal-verb-72-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Rosa is putting the rice into bowls now.",
+      "promptZh": "羅莎現正把飯盛進碗裏。",
+      "starter": "Rosa",
+      "answer": "Rosa is dishing up the rice now.",
+      "answerZh": "羅莎現正把飯盛進碗裏。",
+      "highlight": "dishing up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "His show offers the same old stories every week.",
+      "promptZh": "他的節目每星期都提供同一批老故事。",
+      "starter": "His",
+      "answer": "His show dishes up the same old stories every week.",
+      "answerZh": "他的節目每星期都老調重彈,重複同一批老故事。",
+      "highlight": "dishes up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的故事或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad handed one slice of cake to each child.",
+      "promptZh": "爸爸給每個孩子一件蛋糕。",
+      "starter": "Dad",
+      "answer": "Dad dished out one slice of cake to each child.",
+      "answerZh": "爸爸給每個孩子分了一件蛋糕。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人分發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Who is putting the noodles into bowls?",
+      "promptZh": "誰正在把麵盛進碗裏?",
+      "starter": "Who",
+      "answer": "Who is dishing up the noodles?",
+      "answerZh": "誰正在把麵盛進碗裏?",
+      "highlight": "dishing up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The helper has given all the name cards to the guests.",
+      "promptZh": "助手已把所有名牌派給賓客。",
+      "starter": "The",
+      "answer": "The helper has dished out all the name cards to the guests.",
+      "answerZh": "助手已把所有名牌派給賓客。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The channel is again offering the same tired advice.",
+      "promptZh": "這個頻道又在提供同一套陳舊的建議。",
+      "starter": "The",
+      "answer": "The channel is again dishing up the same tired advice.",
+      "answerZh": "這個頻道又在老調重彈,提供同一套陳舊的建議。",
+      "highlight": "dishing up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的建議或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Please put the vegetables onto the plates before they get cold.",
+      "promptZh": "請在蔬菜變冷前把它們分到碟上。",
+      "starter": "Please",
+      "answer": "Please dish up the vegetables before they get cold.",
+      "answerZh": "請在蔬菜變冷前把它們分到碟上。",
+      "highlight": "dish up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We will give the visitors their free maps at the door.",
+      "promptZh": "我們會在門口把免費地圖派給訪客。",
+      "starter": "We",
+      "answer": "We will dish the visitors out their free maps at the door.",
+      "answerZh": "我們會在門口把免費地圖派給訪客。",
+      "highlight": "dish",
+      "targetForm": "dish somebody out something",
+      "targetMeaningZh": "把某事物分給某人"
+    },
+    {
+      "id": "phrasal-verb-72-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "He did not offer another old excuse this time.",
+      "promptZh": "他今次沒有再提出舊藉口。",
+      "starter": "He",
+      "answer": "He did not dish up another old excuse this time.",
+      "answerZh": "他今次沒有再老調重彈,提出另一個舊藉口。",
+      "highlight": "dish up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出舊藉口或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The cook has put all the food onto plates already.",
+      "promptZh": "廚師已把所有食物分到碟上。",
+      "starter": "The",
+      "answer": "The cook has dished up all the food already.",
+      "answerZh": "廚師已把所有食物分到碟上。",
+      "highlight": "dished up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could you hand these pencils to the younger pupils?",
+      "promptZh": "你可以把這些鉛筆派給年幼的學生嗎?",
+      "starter": "Could",
+      "answer": "Could you dish these pencils out to the younger pupils?",
+      "answerZh": "你可以把這些鉛筆派給年幼的學生嗎?",
+      "highlight": "dish",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why does the speaker keep telling the same joke?",
+      "promptZh": "為甚麼講者不斷說同一個笑話?",
+      "starter": "Why",
+      "answer": "Why does the speaker keep dishing up the same joke?",
+      "answerZh": "為甚麼講者不斷老調重彈,重複同一個笑話?",
+      "highlight": "dishing up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的笑話或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I cannot serve the meal until everyone arrives.",
+      "promptZh": "所有人到達前,我不能上菜。",
+      "starter": "I",
+      "answer": "I cannot dish up until everyone arrives.",
+      "answerZh": "所有人到達前,我不能上菜。",
+      "highlight": "dish up",
+      "targetForm": "dish up",
+      "targetMeaningZh": "把食物分好並上菜"
+    },
+    {
+      "id": "phrasal-verb-72-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The writer has used the old ending again. It appears in every book.",
+      "promptZh": "作者又用了那個舊結局。每本書都有這個結局。",
+      "starter": "The",
+      "answer": "The writer has dished up the old ending again. It appears in every book.",
+      "answerZh": "作者又搬出那個舊結局。每本書都有這個結局。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出相同的舊內容"
+    },
+    {
+      "id": "phrasal-verb-72-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "These tickets are for the guests. Please give them to everyone at the door.",
+      "promptZh": "這些門票是給賓客的。請在門口派給每個人。",
+      "starter": "These",
+      "answer": "These tickets are for the guests. Please dish them out at the door.",
+      "answerZh": "這些門票是給賓客的。請在門口派給每個人。",
+      "highlight": "dish",
+      "targetForm": "dish something out",
+      "targetMeaningZh": "派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The potatoes are ready. Could you put them onto the plates?",
+      "promptZh": "薯仔已經準備好。你可以把它們分到碟上嗎?",
+      "starter": "The",
+      "answer": "The potatoes are ready. Could you dish them up?",
+      "answerZh": "薯仔已經準備好。你可以把它們分到碟上嗎?",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We had already heard those stories, but the host told them all again.",
+      "promptZh": "我們早已聽過那些故事,但主持人又把它們全部說了一遍。",
+      "starter": "We",
+      "answer": "We had already heard those stories, but the host dished them up again.",
+      "answerZh": "我們早已聽過那些故事,但主持人又把它們全部搬出來說了一遍。",
+      "highlight": "dished",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "再次搬出相同的故事或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The coach gave us fresh water after the race.",
+      "promptZh": "比賽後,教練給了我們清水。",
+      "starter": "The",
+      "answer": "The coach dished us out fresh water after the race.",
+      "answerZh": "比賽後,教練給了我們清水。",
+      "highlight": "dished",
+      "targetForm": "dish somebody out something",
+      "targetMeaningZh": "把某事物分給某人"
+    },
+    {
+      "id": "phrasal-verb-72-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The guests sat down while Hana put the curry into bowls.",
+      "promptZh": "哈娜把咖喱盛進碗裏時,賓客坐了下來。",
+      "starter": "The",
+      "answer": "The guests sat down while Hana dished up the curry.",
+      "answerZh": "哈娜把咖喱盛進碗裏時,賓客坐了下來。",
+      "highlight": "dished up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Because the article repeated the same old ideas, the editor rejected it.",
+      "promptZh": "由於那篇文章重複同一批陳舊的想法,編輯拒絕了它。",
+      "starter": "Because",
+      "answer": "Because the article dished up the same old ideas, the editor rejected it.",
+      "answerZh": "由於那篇文章老調重彈,搬出同一批陳舊的想法,編輯拒絕了它。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的想法或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The leaflets are ready, and Leo is giving them to people outside.",
+      "promptZh": "單張已經準備好,里奧正在外面派給途人。",
+      "starter": "The",
+      "answer": "The leaflets are ready, and Leo is dishing them out outside.",
+      "answerZh": "單張已經準備好,里奧正在外面派給途人。",
+      "highlight": "dishing",
+      "targetForm": "dish something out",
+      "targetMeaningZh": "派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the bread is warm, Dad will put it onto small plates.",
+      "promptZh": "麵包暖好後,爸爸會把它放到小碟上。",
+      "starter": "When",
+      "answer": "When the bread is warm, Dad will dish it up onto small plates.",
+      "answerZh": "麵包暖好後,爸爸會把它放到小碟上。",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "During the speech, the actor gave the audience another familiar story.",
+      "promptZh": "演講期間,那名演員又向觀眾講了一個熟悉的故事。",
+      "starter": "During",
+      "answer": "During the speech, the actor dished up another familiar story for the audience.",
+      "answerZh": "演講期間,那名演員又向觀眾搬出一個熟悉的故事。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出熟悉的故事或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At the club meeting, Priya gave each member two voting cards.",
+      "promptZh": "在會議上,普里雅給每名會員兩張投票卡。",
+      "starter": "At",
+      "answer": "At the club meeting, Priya dished out two voting cards to each member.",
+      "answerZh": "在會議上,普里雅給每名會員派發了兩張投票卡。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Instead of giving new ideas, the blog keeps repeating the same advice.",
+      "promptZh": "這個網誌沒有提供新想法,反而不斷重複同一套建議。",
+      "starter": "Instead",
+      "answer": "Instead of giving new ideas, the blog keeps dishing up the same advice.",
+      "answerZh": "這個網誌沒有提供新想法,反而不斷老調重彈,搬出同一套建議。",
+      "highlight": "dishing up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的建議或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The soup is not ready for the table yet; we must first put it into six bowls.",
+      "promptZh": "湯還未可以端上桌;我們必須先把它分到六個碗裏。",
+      "starter": "The",
+      "answer": "The soup is not ready for the table yet; we must first dish it up in six bowls.",
+      "answerZh": "湯還未可以端上桌;我們必須先把它分到六個碗裏。",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The organiser did not hand the forms to us; she left them on the table.",
+      "promptZh": "主辦人沒有把表格派給我們;她把表格留在桌上。",
+      "starter": "The",
+      "answer": "The organiser did not dish the forms out to us; she left them on the table.",
+      "answerZh": "主辦人沒有把表格派給我們;她把表格留在桌上。",
+      "highlight": "dish",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The new series promised fresh comedy, but it gave viewers the same old jokes.",
+      "promptZh": "新節目聲稱會有新鮮笑料,卻給觀眾同一批老笑話。",
+      "starter": "The",
+      "answer": "The new series promised fresh comedy, but it dished up the same old jokes.",
+      "answerZh": "新節目聲稱會有新鮮笑料,卻老調重彈,搬出同一批老笑話。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "反覆搬出相同的笑話或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "You can pour the drinks while I put the food onto plates.",
+      "promptZh": "你可以倒飲品,我則把食物分到碟上。",
+      "starter": "You",
+      "answer": "You can pour the drinks while I dish up.",
+      "answerZh": "你可以倒飲品,我則把食物分到碟上。",
+      "highlight": "dish up",
+      "targetForm": "dish up",
+      "targetMeaningZh": "把食物分好並上菜"
+    },
+    {
+      "id": "phrasal-verb-72-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After checking the names, Omar gave everyone a numbered badge.",
+      "promptZh": "核對姓名後,奧馬給每個人一個有編號的名牌。",
+      "starter": "After",
+      "answer": "After checking the names, Omar dished everyone out a numbered badge.",
+      "answerZh": "核對姓名後,奧馬給每個人派了一個有編號的名牌。",
+      "highlight": "dished",
+      "targetForm": "dish somebody out something",
+      "targetMeaningZh": "把某事物分給某人"
+    },
+    {
+      "id": "phrasal-verb-72-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The speaker had no fresh examples and simply gave us the old ones again.",
+      "promptZh": "講者沒有新例子,只是再次給我們那些舊例子。",
+      "starter": "The",
+      "answer": "The speaker had no fresh examples and simply dished them up again.",
+      "answerZh": "講者沒有新例子,只是再次搬出那些舊例子。",
+      "highlight": "dished them up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "再次搬出相同的例子或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The rice has been cooked, but nobody has put it into bowls yet.",
+      "promptZh": "飯已經煮好,但還沒有人把它盛進碗裏。",
+      "starter": "The",
+      "answer": "The rice has been cooked, but nobody has dished it up yet.",
+      "answerZh": "飯已經煮好,但還沒有人把它盛進碗裏。",
+      "highlight": "dished",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before the tour began, the guide handed maps and name tags to the group.",
+      "promptZh": "導賞開始前,導遊把地圖和名牌派給團友。",
+      "starter": "Before",
+      "answer": "Before the tour began, the guide dished out maps and name tags to the group.",
+      "answerZh": "導賞開始前,導遊把地圖和名牌派給團友。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Everyone is seated, so Grace can now put the hot meal onto plates before it gets cold.",
+      "promptZh": "大家都坐好了,所以格蕾絲現在可以在熱食變冷前把它分到碟上。",
+      "starter": "Everyone",
+      "answer": "Everyone is seated, so Grace can now dish up the hot meal before it gets cold.",
+      "answerZh": "大家都坐好了,所以格蕾絲現在可以在熱食變冷前把它分到碟上。",
+      "highlight": "dish up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The host said this week’s show would be fresh, but he repeated the same stories as last week.",
+      "promptZh": "主持人說本星期的節目會有新內容,但他重複了上星期的同一批故事。",
+      "starter": "The",
+      "answer": "The host said this week’s show would be fresh, but he dished up the same stories as last week.",
+      "answerZh": "主持人說本星期的節目會有新內容,但他又搬出上星期的同一批故事。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出相同的故事或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The prizes were in one large box, and the teacher gave one to every child before they left.",
+      "promptZh": "獎品放在一個大盒裏,老師在孩子離開前給每人一份。",
+      "starter": "The",
+      "answer": "The prizes were in one large box, and the teacher dished one out to every child before they left.",
+      "answerZh": "獎品放在一個大盒裏,老師在孩子離開前給每人派了一份。",
+      "highlight": "dished",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We are waiting for the fish to finish cooking; once it is ready, I will put it onto the plates.",
+      "promptZh": "我們正等魚煮好;魚一準備好,我便會把它分到碟上。",
+      "starter": "We",
+      "answer": "We are waiting for the fish to finish cooking; once it is ready, I will dish it up.",
+      "answerZh": "我們正等魚煮好;魚一準備好,我便會把它分到碟上。",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The manager was asked for a new plan, but he gave the team the same old answer.",
+      "promptZh": "經理被要求提出新計劃,但他給團隊的仍是同一個舊答案。",
+      "starter": "The",
+      "answer": "The manager was asked for a new plan, but he dished up the same old answer.",
+      "answerZh": "經理被要求提出新計劃,但他仍老調重彈,搬出同一個舊答案。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出相同的答案或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please do not keep the stickers in the bag; give them to the children before the game starts.",
+      "promptZh": "請不要把貼紙留在袋裏;在遊戲開始前把它們派給孩子。",
+      "starter": "Please",
+      "answer": "Please do not keep the stickers in the bag; dish them out to the children before the game starts.",
+      "answerZh": "請不要把貼紙留在袋裏;在遊戲開始前把它們派給孩子。",
+      "highlight": "dish",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Ava will set the table, and I will put the soup and rice onto plates as soon as the guests arrive.",
+      "promptZh": "艾娃會擺好餐桌,而賓客一到,我便會把湯和飯分到碟上。",
+      "starter": "Ava",
+      "answer": "Ava will set the table, and I will dish up the soup and rice as soon as the guests arrive.",
+      "answerZh": "艾娃會擺好餐桌,而賓客一到,我便會把湯和飯分到碟上。",
+      "highlight": "dish up",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    },
+    {
+      "id": "phrasal-verb-72-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Viewers wanted new material, yet the programme offered another set of familiar jokes and stories.",
+      "promptZh": "觀眾想看新內容,但節目又提供了另一批熟悉的笑話和故事。",
+      "starter": "Viewers",
+      "answer": "Viewers wanted new material, yet the programme dished up another set of familiar jokes and stories.",
+      "answerZh": "觀眾想看新內容,但節目又搬出另一批熟悉的笑話和故事。",
+      "highlight": "dished up",
+      "targetForm": "dish up something",
+      "targetMeaningZh": "再次搬出熟悉的笑話、故事或內容"
+    },
+    {
+      "id": "phrasal-verb-72-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At the health centre, the assistant gave each visitor two tablets and a bottle of water.",
+      "promptZh": "在健康中心,助理給每名訪客兩粒藥片和一瓶水。",
+      "starter": "At",
+      "answer": "At the health centre, the assistant dished out two tablets and a bottle of water to each visitor.",
+      "answerZh": "在健康中心,助理給每名訪客派了兩粒藥片和一瓶水。",
+      "highlight": "dished out",
+      "targetForm": "dish something out to somebody",
+      "targetMeaningZh": "向某人派發某事物"
+    },
+    {
+      "id": "phrasal-verb-72-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The vegetables are ready, but leave them in the pan until the family sits down; then put them onto the plates.",
+      "promptZh": "蔬菜已經準備好,但家人坐下前先把它們留在鍋裏;之後才分到碟上。",
+      "starter": "The",
+      "answer": "The vegetables are ready, but leave them in the pan until the family sits down; then dish them up.",
+      "answerZh": "蔬菜已經準備好,但家人坐下前先把它們留在鍋裏;之後才分到碟上。",
+      "highlight": "dish",
+      "targetForm": "dish something up",
+      "targetMeaningZh": "把食物分到碟或碗裏"
+    }
+  ]
+}

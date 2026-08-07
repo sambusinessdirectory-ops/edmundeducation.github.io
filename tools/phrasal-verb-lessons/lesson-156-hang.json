@@ -1,0 +1,1772 @@
+{
+  "id": "phrasal-verb-156",
+  "order": 156,
+  "slug": "hang",
+  "version": "1",
+  "title": "HANG 動詞片語",
+  "titleEn": "Hang",
+  "titleZh": "HANG 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 155 - HANG.pdf",
+    "sourceNumber": 155,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HANG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HANG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HANG",
+      "highlight": "HANG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Sorry to keep you hanging around for so long.",
+      "zh": "很抱歉,要你等了這麼久。",
+      "highlight": "hanging around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ethan often hangs around with his cousins after school.",
+      "zh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+      "highlight": "hangs around with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The child hung back when he saw the dog.",
+      "zh": "那個孩子看見狗時,因害怕而不敢上前。",
+      "highlight": "hung back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某處等候、逗留或無所事事；與某人一起消磨時間;在某處輕鬆相聚；因害怕、害羞或不肯定而留在後面,不敢上前；取決於某事物；保留某物;不要丟掉或放棄它；緊緊抓住某人或某物；某種憂慮、危險或不明朗情況持續存在；把責任或過錯歸咎於某人；前後一致;整體合乎邏輯",
+    "en": "hang about / hang around / hang round somewhere; hang about/around/round with somebody / hang out / hang with somebody; hang back; hang on something; hang on to / hang onto something; hang on to / hang onto somebody or something; hang over somebody or something; hang something on somebody; hang together",
+    "naturalZh": [
+      "在某處等候、逗留或無所事事",
+      "與某人一起消磨時間;在某處輕鬆相聚",
+      "因害怕、害羞或不肯定而留在後面,不敢上前",
+      "取決於某事物",
+      "保留某物;不要丟掉或放棄它",
+      "緊緊抓住某人或某物",
+      "某種憂慮、危險或不明朗情況持續存在",
+      "把責任或過錯歸咎於某人",
+      "前後一致;整體合乎邏輯"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hang about / hang around / hang round somewhere",
+      "titleZh": "在某處等候、逗留或無所事事",
+      "titleEn": "hang about / hang around / hang round somewhere",
+      "descriptionZh": "在某處等候、逗留或無所事事",
+      "descriptionEn": "Sorry to keep you hanging around for so long.",
+      "examples": [
+        {
+          "en": "Sorry to keep you hanging around for so long.",
+          "zh": "很抱歉,要你等了這麼久。",
+          "highlight": "hanging around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hang about/around/round with somebody / hang out / hang with somebody",
+      "titleZh": "與某人一起消磨時間;在某處輕鬆相聚",
+      "titleEn": "hang about/around/round with somebody / hang out / hang with somebody",
+      "descriptionZh": "與某人一起消磨時間;在某處輕鬆相聚",
+      "descriptionEn": "Ethan often hangs around with his cousins after school.",
+      "examples": [
+        {
+          "en": "Ethan often hangs around with his cousins after school.",
+          "zh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+          "highlight": "hangs around with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hang back",
+      "titleZh": "因害怕、害羞或不肯定而留在後面,不敢上前",
+      "titleEn": "hang back",
+      "descriptionZh": "因害怕、害羞或不肯定而留在後面,不敢上前",
+      "descriptionEn": "The child hung back when he saw the dog.",
+      "examples": [
+        {
+          "en": "The child hung back when he saw the dog.",
+          "zh": "那個孩子看見狗時,因害怕而不敢上前。",
+          "highlight": "hung back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hang on something",
+      "titleZh": "取決於某事物",
+      "titleEn": "hang on something",
+      "descriptionZh": "取決於某事物",
+      "descriptionEn": "Our trip hangs on the weather.",
+      "examples": [
+        {
+          "en": "Our trip hangs on the weather.",
+          "zh": "我們能否成行取決於天氣。",
+          "highlight": "hangs on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hang on to / hang onto something",
+      "titleZh": "保留某物;不要丟掉或放棄它",
+      "titleEn": "hang on to / hang onto something",
+      "descriptionZh": "保留某物;不要丟掉或放棄它",
+      "descriptionEn": "Hang on to the receipt.",
+      "examples": [
+        {
+          "en": "Hang on to the receipt.",
+          "zh": "請保留收據。",
+          "highlight": "Hang on to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hang on to / hang onto somebody or something",
+      "titleZh": "緊緊抓住某人或某物",
+      "titleEn": "hang on to / hang onto somebody or something",
+      "descriptionZh": "緊緊抓住某人或某物",
+      "descriptionEn": "Hang on to my hand while we cross the road.",
+      "examples": [
+        {
+          "en": "Hang on to my hand while we cross the road.",
+          "zh": "過馬路時緊緊抓住我的手。",
+          "highlight": "Hang on to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hang over somebody or something",
+      "titleZh": "某種憂慮、危險或不明朗情況持續存在",
+      "titleEn": "hang over somebody or something",
+      "descriptionZh": "某種憂慮、危險或不明朗情況持續存在",
+      "descriptionEn": "A question still hangs over the club’s future.",
+      "examples": [
+        {
+          "en": "A question still hangs over the club’s future.",
+          "zh": "球會的前景仍然存在不明朗因素。",
+          "highlight": "hangs over"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hang something on somebody",
+      "titleZh": "把責任或過錯歸咎於某人",
+      "titleEn": "hang something on somebody",
+      "descriptionZh": "把責任或過錯歸咎於某人",
+      "descriptionEn": "Do not try to hang the mistake on me.",
+      "examples": [
+        {
+          "en": "Do not try to hang the mistake on me.",
+          "zh": "不要企圖把這個錯誤歸咎於我。",
+          "highlight": "hang the mistake on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hang together",
+      "titleZh": "前後一致;整體合乎邏輯",
+      "titleEn": "hang together",
+      "descriptionZh": "前後一致;整體合乎邏輯",
+      "descriptionEn": "The story does not hang together.",
+      "examples": [
+        {
+          "en": "The story does not hang together.",
+          "zh": "這個故事前後並不一致。",
+          "highlight": "hang together"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HANG 片語動詞的實際用途",
+    "labelEn": "HANG Phrasal Verbs in Use",
+    "summaryZh": "hang around 和 hang about 可以描述在某處等候或逗留;hang out 和 hang with 則可以描述與其他人一起消磨時間。；hang on 可以表示某個結果或決定取決於某事;hang over 則可以表示某種憂慮或危險仍未消失。；你可以 hang on to a receipt,表示保留收據;也可以 hang on to a rail,表示緊緊抓住扶手。；hang something on somebody 可以描述把責任歸咎於某人;hang together 則可以描述故事、計劃或解釋整體上是否合理連貫。",
+    "summaryEn": "Hang around and hang about can describe waiting or staying somewhere. Hang out and hang with can describe spending time with other people. Hang on can show that a result or decision depends on something. Hang over can show that a worry or danger has not gone away. You can hang on to a receipt because you want to keep it, or hang on to a rail because you need to hold it tightly. Hang something on somebody describes blaming someone. Hang together describes a story, plan or explanation that makes sense as a whole.",
+    "contextsZh": [
+      "使用 HANG 談論等候和空閒時間",
+      "解釋結果取決於甚麼,以及哪些憂慮仍然存在",
+      "掌握 HANG ON TO 的兩個實用意思",
+      "談論責任,以及不同內容是否前後一致"
+    ],
+    "contextsEn": [
+      "Use HANG to talk about waiting and free time",
+      "Explain what a result depends on and what worry remains",
+      "Show two useful meanings of HANG ON TO",
+      "Talk about blame and whether ideas make sense"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HANG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HANG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hang about / hang around / hang round somewhere",
+    "fixedHighlight": "hang about / hang around / hang round somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 HANG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HANG expression that gives the same meaning.",
+    "correct": "hanging around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；hang on to 或 hang onto 可以表示保留某物,也可以表示緊緊抓住某物。請仔細閱讀整個情境。；hang about、hang around 和 hang round 有時可以表達相近意思;hang with 則是非常口語的說法。",
+    "variableEn": "Keep the same people, things, time and meaning. Hang on to or hang onto may mean keeping something or holding it tightly. Read the whole situation carefully. Hang about, hang around and hang round can sometimes express similar ideas. Hang with is very informal.",
+    "variableItemsZh": [
+      "hang about / hang around / hang round somewhere",
+      "hang about/around/round with somebody / hang out / hang with somebody",
+      "hang back",
+      "hang on something",
+      "hang on to / hang onto something",
+      "hang on to / hang onto somebody or something",
+      "hang over somebody or something",
+      "hang something on somebody",
+      "hang together"
+    ],
+    "variableItemsEn": [
+      "hang about / hang around / hang round somewhere",
+      "hang about/around/round with somebody / hang out / hang with somebody",
+      "hang back",
+      "hang on something",
+      "hang on to / hang onto something",
+      "hang on to / hang onto somebody or something",
+      "hang over somebody or something",
+      "hang something on somebody",
+      "hang together"
+    ],
+    "forms": [
+      {
+        "formZh": "在某處等候、逗留或無所事事",
+        "formEn": "hang about / hang around / hang round somewhere",
+        "exampleZh": "很抱歉,要你等了這麼久。",
+        "exampleEn": "Sorry to keep you hanging around for so long.",
+        "highlight": "hanging around"
+      },
+      {
+        "formZh": "與某人一起消磨時間;在某處輕鬆相聚",
+        "formEn": "hang about/around/round with somebody / hang out / hang with somebody",
+        "exampleZh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+        "exampleEn": "Ethan often hangs around with his cousins after school.",
+        "highlight": "hangs around with"
+      },
+      {
+        "formZh": "因害怕、害羞或不肯定而留在後面,不敢上前",
+        "formEn": "hang back",
+        "exampleZh": "那個孩子看見狗時,因害怕而不敢上前。",
+        "exampleEn": "The child hung back when he saw the dog.",
+        "highlight": "hung back"
+      },
+      {
+        "formZh": "取決於某事物",
+        "formEn": "hang on something",
+        "exampleZh": "我們能否成行取決於天氣。",
+        "exampleEn": "Our trip hangs on the weather.",
+        "highlight": "hangs on"
+      },
+      {
+        "formZh": "保留某物;不要丟掉或放棄它",
+        "formEn": "hang on to / hang onto something",
+        "exampleZh": "請保留收據。",
+        "exampleEn": "Hang on to the receipt.",
+        "highlight": "Hang on to"
+      },
+      {
+        "formZh": "緊緊抓住某人或某物",
+        "formEn": "hang on to / hang onto somebody or something",
+        "exampleZh": "過馬路時緊緊抓住我的手。",
+        "exampleEn": "Hang on to my hand while we cross the road.",
+        "highlight": "Hang on to"
+      },
+      {
+        "formZh": "某種憂慮、危險或不明朗情況持續存在",
+        "formEn": "hang over somebody or something",
+        "exampleZh": "球會的前景仍然存在不明朗因素。",
+        "exampleEn": "A question still hangs over the club’s future.",
+        "highlight": "hangs over"
+      },
+      {
+        "formZh": "把責任或過錯歸咎於某人",
+        "formEn": "hang something on somebody",
+        "exampleZh": "不要企圖把這個錯誤歸咎於我。",
+        "exampleEn": "Do not try to hang the mistake on me.",
+        "highlight": "hang the mistake on"
+      },
+      {
+        "formZh": "前後一致;整體合乎邏輯",
+        "formEn": "hang together",
+        "exampleZh": "這個故事前後並不一致。",
+        "exampleEn": "The story does not hang together.",
+        "highlight": "hang together"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某處等候、逗留或無所事事",
+      "titleEn": "hang about / hang around / hang round somewhere",
+      "formula": "hang about / hang around / hang round somewhere",
+      "highlight": "hang about / hang around / hang round somewhere",
+      "descriptionZh": "在某處等候、逗留或無所事事",
+      "descriptionEn": "Sorry to keep you hanging around for so long.",
+      "examples": [
+        {
+          "en": "Sorry to keep you hanging around for so long.",
+          "zh": "很抱歉,要你等了這麼久。",
+          "highlight": "hanging around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "與某人一起消磨時間;在某處輕鬆相聚",
+      "titleEn": "hang about/around/round with somebody / hang out / hang with somebody",
+      "formula": "hang about/around/round with somebody / hang out / hang with somebody",
+      "highlight": "hang about/around/round with somebody / hang out / hang with somebody",
+      "descriptionZh": "與某人一起消磨時間;在某處輕鬆相聚",
+      "descriptionEn": "Ethan often hangs around with his cousins after school.",
+      "examples": [
+        {
+          "en": "Ethan often hangs around with his cousins after school.",
+          "zh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+          "highlight": "hangs around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因害怕、害羞或不肯定而留在後面,不敢上前",
+      "titleEn": "hang back",
+      "formula": "hang back",
+      "highlight": "hang back",
+      "descriptionZh": "因害怕、害羞或不肯定而留在後面,不敢上前",
+      "descriptionEn": "The child hung back when he saw the dog.",
+      "examples": [
+        {
+          "en": "The child hung back when he saw the dog.",
+          "zh": "那個孩子看見狗時,因害怕而不敢上前。",
+          "highlight": "hung back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "取決於某事物",
+      "titleEn": "hang on something",
+      "formula": "hang on something",
+      "highlight": "hang on something",
+      "descriptionZh": "取決於某事物",
+      "descriptionEn": "Our trip hangs on the weather.",
+      "examples": [
+        {
+          "en": "Our trip hangs on the weather.",
+          "zh": "我們能否成行取決於天氣。",
+          "highlight": "hangs on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "保留某物;不要丟掉或放棄它",
+      "titleEn": "hang on to / hang onto something",
+      "formula": "hang on to / hang onto something",
+      "highlight": "hang on to / hang onto something",
+      "descriptionZh": "保留某物;不要丟掉或放棄它",
+      "descriptionEn": "Hang on to the receipt.",
+      "examples": [
+        {
+          "en": "Hang on to the receipt.",
+          "zh": "請保留收據。",
+          "highlight": "Hang on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "緊緊抓住某人或某物",
+      "titleEn": "hang on to / hang onto somebody or something",
+      "formula": "hang on to / hang onto somebody or something",
+      "highlight": "hang on to / hang onto somebody or something",
+      "descriptionZh": "緊緊抓住某人或某物",
+      "descriptionEn": "Hang on to my hand while we cross the road.",
+      "examples": [
+        {
+          "en": "Hang on to my hand while we cross the road.",
+          "zh": "過馬路時緊緊抓住我的手。",
+          "highlight": "Hang on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "某種憂慮、危險或不明朗情況持續存在",
+      "titleEn": "hang over somebody or something",
+      "formula": "hang over somebody or something",
+      "highlight": "hang over somebody or something",
+      "descriptionZh": "某種憂慮、危險或不明朗情況持續存在",
+      "descriptionEn": "A question still hangs over the club’s future.",
+      "examples": [
+        {
+          "en": "A question still hangs over the club’s future.",
+          "zh": "球會的前景仍然存在不明朗因素。",
+          "highlight": "hangs over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把責任或過錯歸咎於某人",
+      "titleEn": "hang something on somebody",
+      "formula": "hang something on somebody",
+      "highlight": "hang something on somebody",
+      "descriptionZh": "把責任或過錯歸咎於某人",
+      "descriptionEn": "Do not try to hang the mistake on me.",
+      "examples": [
+        {
+          "en": "Do not try to hang the mistake on me.",
+          "zh": "不要企圖把這個錯誤歸咎於我。",
+          "highlight": "hang the mistake on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "前後一致;整體合乎邏輯",
+      "titleEn": "hang together",
+      "formula": "hang together",
+      "highlight": "hang together",
+      "descriptionZh": "前後一致;整體合乎邏輯",
+      "descriptionEn": "The story does not hang together.",
+      "examples": [
+        {
+          "en": "The story does not hang together.",
+          "zh": "這個故事前後並不一致。",
+          "highlight": "hang together"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 HANG 談論等候和空閒時間",
+      "titleEn": "Use HANG to talk about waiting and free time",
+      "zh": "hang around 和 hang about 可以描述在某處等候或逗留;hang out 和 hang with 則可以描述與其他人一起消磨時間。",
+      "en": "Hang around and hang about can describe waiting or staying somewhere. Hang out and hang with can describe spending time with other people."
+    },
+    {
+      "titleZh": "解釋結果取決於甚麼,以及哪些憂慮仍然存在",
+      "titleEn": "Explain what a result depends on and what worry remains",
+      "zh": "hang on 可以表示某個結果或決定取決於某事;hang over 則可以表示某種憂慮或危險仍未消失。",
+      "en": "Hang on can show that a result or decision depends on something. Hang over can show that a worry or danger has not gone away."
+    },
+    {
+      "titleZh": "掌握 HANG ON TO 的兩個實用意思",
+      "titleEn": "Show two useful meanings of HANG ON TO",
+      "zh": "你可以 hang on to a receipt,表示保留收據;也可以 hang on to a rail,表示緊緊抓住扶手。",
+      "en": "You can hang on to a receipt because you want to keep it, or hang on to a rail because you need to hold it tightly."
+    },
+    {
+      "titleZh": "談論責任,以及不同內容是否前後一致",
+      "titleEn": "Talk about blame and whether ideas make sense",
+      "zh": "hang something on somebody 可以描述把責任歸咎於某人;hang together 則可以描述故事、計劃或解釋整體上是否合理連貫。",
+      "en": "Hang something on somebody describes blaming someone. Hang together describes a story, plan or explanation that makes sense as a whole."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 HANG 談論等候和空閒時間",
+      "解釋結果取決於甚麼,以及哪些憂慮仍然存在",
+      "掌握 HANG ON TO 的兩個實用意思",
+      "談論責任,以及不同內容是否前後一致"
+    ],
+    "contextsEn": [
+      "Use HANG to talk about waiting and free time",
+      "Explain what a result depends on and what worry remains",
+      "Show two useful meanings of HANG ON TO",
+      "Talk about blame and whether ideas make sense"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 HANG 談論等候和空閒時間",
+        "titleEn": "Use HANG to talk about waiting and free time",
+        "zh": "hang around 和 hang about 可以描述在某處等候或逗留;hang out 和 hang with 則可以描述與其他人一起消磨時間。",
+        "en": "Hang around and hang about can describe waiting or staying somewhere. Hang out and hang with can describe spending time with other people.",
+        "examples": [
+          {
+            "en": "Sorry to keep you hanging around for so long.",
+            "zh": "很抱歉,要你等了這麼久。",
+            "highlight": "hanging around"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋結果取決於甚麼,以及哪些憂慮仍然存在",
+        "titleEn": "Explain what a result depends on and what worry remains",
+        "zh": "hang on 可以表示某個結果或決定取決於某事;hang over 則可以表示某種憂慮或危險仍未消失。",
+        "en": "Hang on can show that a result or decision depends on something. Hang over can show that a worry or danger has not gone away.",
+        "examples": [
+          {
+            "en": "Ethan often hangs around with his cousins after school.",
+            "zh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+            "highlight": "hangs around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "掌握 HANG ON TO 的兩個實用意思",
+        "titleEn": "Show two useful meanings of HANG ON TO",
+        "zh": "你可以 hang on to a receipt,表示保留收據;也可以 hang on to a rail,表示緊緊抓住扶手。",
+        "en": "You can hang on to a receipt because you want to keep it, or hang on to a rail because you need to hold it tightly.",
+        "examples": [
+          {
+            "en": "The child hung back when he saw the dog.",
+            "zh": "那個孩子看見狗時,因害怕而不敢上前。",
+            "highlight": "hung back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論責任,以及不同內容是否前後一致",
+        "titleEn": "Talk about blame and whether ideas make sense",
+        "zh": "hang something on somebody 可以描述把責任歸咎於某人;hang together 則可以描述故事、計劃或解釋整體上是否合理連貫。",
+        "en": "Hang something on somebody describes blaming someone. Hang together describes a story, plan or explanation that makes sense as a whole.",
+        "examples": [
+          {
+            "en": "Our trip hangs on the weather.",
+            "zh": "我們能否成行取決於天氣。",
+            "highlight": "hangs on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HANG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HANG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HANG 片語動詞。",
+      "en": "Read the whole sentence and choose the HANG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "hang on to 或 hang onto 可以表示保留某物,也可以表示緊緊抓住某物。請仔細閱讀整個情境。",
+      "titleEn": "Hang on to or hang onto may mean keeping something or holding it tightly.",
+      "zh": "hang on to 或 hang onto 可以表示保留某物,也可以表示緊緊抓住某物。請仔細閱讀整個情境。",
+      "en": "Hang on to or hang onto may mean keeping something or holding it tightly. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "hang about、hang around 和 hang round 有時可以表達相近意思;hang with 則是非常口語的說法。",
+      "titleEn": "Hang about, hang around and hang round can sometimes express similar ideas.",
+      "zh": "hang about、hang around 和 hang round 有時可以表達相近意思;hang with 則是非常口語的說法。",
+      "en": "Hang about, hang around and hang round can sometimes express similar ideas. Hang with is very informal."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HANG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HANG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HANG 動詞片語句子改寫練習",
+    "titleEn": "HANG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HANG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HANG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-156-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The teenagers usually spend their free time at the sports centre.",
+      "promptZh": "這些青少年通常在體育中心消磨空閒時間。",
+      "starter": "The",
+      "answer": "The teenagers usually hang out at the sports centre.",
+      "answerZh": "這些青少年通常在體育中心消磨空閒時間。",
+      "highlight": "hang out",
+      "targetForm": "hang out",
+      "targetMeaningZh": "在某處輕鬆消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Noah stayed behind because he was nervous about entering the dark room.",
+      "promptZh": "諾亞留在後面,因為他不敢走進那個昏暗的房間。",
+      "starter": "Noah",
+      "answer": "Noah hung back because he was nervous about entering the dark room.",
+      "answerZh": "諾亞留在後面,因為他不敢走進那個昏暗的房間。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "因害怕或不肯定而留在後面"
+    },
+    {
+      "id": "phrasal-verb-156-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please wait here for a few minutes.",
+      "promptZh": "請在這裏等幾分鐘。",
+      "starter": "Please",
+      "answer": "Please hang around here for a few minutes.",
+      "answerZh": "請在這裏等幾分鐘。",
+      "highlight": "hang around",
+      "targetForm": "hang around",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Do not try to blame Sara for the whole mistake.",
+      "promptZh": "不要企圖把整個錯誤歸咎於莎拉。",
+      "starter": "Do",
+      "answer": "Do not try to hang the blame for the whole mistake on Sara.",
+      "answerZh": "不要企圖把整個錯誤歸咎於莎拉。",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Keep the receipt until you are sure the shoes fit.",
+      "promptZh": "在你確定鞋子合腳前,請保留收據。",
+      "starter": "Hang",
+      "answer": "Hang on to the receipt until you are sure the shoes fit.",
+      "answerZh": "在你確定鞋子合腳前,請保留收據。",
+      "highlight": "Hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Ethan often spends time with his cousins after school.",
+      "promptZh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+      "starter": "Ethan",
+      "answer": "Ethan often hangs around with his cousins after school.",
+      "answerZh": "伊頓放學後常常和表兄弟姊妹一起消磨時間。",
+      "highlight": "hangs around",
+      "targetForm": "hang around with somebody",
+      "targetMeaningZh": "與某人一起消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The story is interesting, but its different parts do not make sense together.",
+      "promptZh": "這個故事很有趣,但不同部分合在一起並不合理。",
+      "starter": "The",
+      "answer": "The story is interesting, but its different parts do not hang together.",
+      "answerZh": "這個故事很有趣,但不同部分前後並不一致。",
+      "highlight": "hang",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Our picnic depends on the weather.",
+      "promptZh": "我們能否去野餐取決於天氣。",
+      "starter": "Our",
+      "answer": "Our picnic hangs on the weather.",
+      "answerZh": "我們能否去野餐取決於天氣。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Hold my hand while we cross the road.",
+      "promptZh": "過馬路時緊緊抓住我的手。",
+      "starter": "Hang",
+      "answer": "Hang on to my hand while we cross the road.",
+      "answerZh": "過馬路時緊緊抓住我的手。",
+      "highlight": "Hang on to",
+      "targetForm": "hang on to somebody",
+      "targetMeaningZh": "緊緊抓住某人"
+    },
+    {
+      "id": "phrasal-verb-156-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "A worry about money still troubles the family.",
+      "promptZh": "對金錢的憂慮仍然困擾着這個家庭。",
+      "starter": "A",
+      "answer": "A worry about money still hangs over the family.",
+      "answerZh": "對金錢的憂慮仍然籠罩着這個家庭。",
+      "highlight": "hangs over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We waited outside the cinema for half an hour.",
+      "promptZh": "我們在戲院外等了半小時。",
+      "starter": "We",
+      "answer": "We hung about outside the cinema for half an hour.",
+      "answerZh": "我們在戲院外等了半小時。",
+      "highlight": "hung about",
+      "targetForm": "hang about",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Do not put the box in the rubbish; keep it for later.",
+      "promptZh": "不要把這個盒子放進垃圾桶;留着日後使用。",
+      "starter": "Do",
+      "answer": "Do not put the box in the rubbish; hang on to it for later.",
+      "answerZh": "不要把這個盒子放進垃圾桶;留着日後使用。",
+      "highlight": "hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The younger children did not move forward when they saw the large dog.",
+      "promptZh": "年幼的孩子看見那隻大狗時不敢向前。",
+      "starter": "The",
+      "answer": "The younger children hung back when they saw the large dog.",
+      "answerZh": "年幼的孩子看見那隻大狗時留在後面,不敢向前。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "因害怕或不肯定而留在後面"
+    },
+    {
+      "id": "phrasal-verb-156-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The final result depends on one last test.",
+      "promptZh": "最終結果取決於最後一項測試。",
+      "starter": "The",
+      "answer": "The final result hangs on one last test.",
+      "answerZh": "最終結果取決於最後一項測試。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "These ideas still do not make sense as one clear plan.",
+      "promptZh": "這些構思仍然無法組成一個清晰合理的計劃。",
+      "starter": "These",
+      "answer": "These ideas still do not hang together as one clear plan.",
+      "answerZh": "這些構思合起來仍然不像一個清晰合理的計劃。",
+      "highlight": "hang together",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She has kept every card her grandfather sent her.",
+      "promptZh": "她一直保留祖父寄給她的每一張卡。",
+      "starter": "She",
+      "answer": "She has hung on to every card her grandfather sent her.",
+      "answerZh": "她一直保留祖父寄給她的每一張卡。",
+      "highlight": "hung on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why are those men waiting near the gate?",
+      "promptZh": "那些男人為甚麼在閘門附近等候?",
+      "starter": "Why",
+      "answer": "Why are those men hanging around near the gate?",
+      "answerZh": "那些男人為甚麼在閘門附近等候?",
+      "highlight": "hanging around",
+      "targetForm": "hang around",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The child was holding tightly to the rail.",
+      "promptZh": "那個孩子當時緊緊抓住扶手。",
+      "starter": "The",
+      "answer": "The child was hanging onto the rail.",
+      "answerZh": "那個孩子當時緊緊抓住扶手。",
+      "highlight": "hanging onto",
+      "targetForm": "hang onto something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The fear of another storm has continued to trouble the town.",
+      "promptZh": "對另一場暴風雨的恐懼一直困擾着這個小鎮。",
+      "starter": "The",
+      "answer": "The fear of another storm has hung over the town.",
+      "answerZh": "對另一場暴風雨的恐懼一直籠罩着這個小鎮。",
+      "highlight": "hung over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Jake is spending more time with his new classmates now.",
+      "promptZh": "積克現在正花更多時間與新同學相處。",
+      "starter": "Jake",
+      "answer": "Jake is hanging about with his new classmates now.",
+      "answerZh": "積克現在更常與新同學一起消磨時間。",
+      "highlight": "hanging about",
+      "targetForm": "hang about with somebody",
+      "targetMeaningZh": "與某人一起消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "They tried to blame the new driver for the delay.",
+      "promptZh": "他們企圖把延誤歸咎於新司機。",
+      "starter": "They",
+      "answer": "They tried to hang the blame for the delay on the new driver.",
+      "answerZh": "他們企圖把延誤歸咎於新司機。",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Her explanation still does not make sense as a whole.",
+      "promptZh": "她的解釋整體上仍然說不通。",
+      "starter": "Her",
+      "answer": "Her explanation still does not hang together.",
+      "answerZh": "她的解釋整體上仍然說不通。",
+      "highlight": "hang together",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The team’s chance of winning depends on its next game.",
+      "promptZh": "球隊能否勝出取決於下一場比賽。",
+      "starter": "The",
+      "answer": "The team’s chance of winning hangs on its next game.",
+      "answerZh": "球隊能否勝出取決於下一場比賽。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Ava did not join the others at first because she felt shy.",
+      "promptZh": "艾娃起初因為害羞而沒有跟其他人一起上前。",
+      "starter": "Ava",
+      "answer": "Ava hung back at first because she felt shy.",
+      "answerZh": "艾娃起初因為害羞而留在後面。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "因害怕、害羞或不肯定而留在後面"
+    },
+    {
+      "id": "phrasal-verb-156-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "We are waiting near the ticket office now.",
+      "promptZh": "我們現在正在售票處附近等候。",
+      "starter": "We",
+      "answer": "We are hanging around near the ticket office now.",
+      "answerZh": "我們現在正在售票處附近等候。",
+      "highlight": "hanging around",
+      "targetForm": "hang around",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The riders must hold tightly to the safety bar.",
+      "promptZh": "乘客必須緊緊抓住安全桿。",
+      "starter": "The",
+      "answer": "The riders must hang on to the safety bar.",
+      "answerZh": "乘客必須緊緊抓住安全桿。",
+      "highlight": "hang on",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why are they trying to blame you for the missing money?",
+      "promptZh": "他們為甚麼企圖把失款的責任歸咎於你?",
+      "starter": "Why",
+      "answer": "Why are they trying to hang the blame for the missing money on you?",
+      "answerZh": "他們為甚麼企圖把失款的責任歸咎於你?",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The question of whether the school will close is still worrying the community.",
+      "promptZh": "學校會否關閉這個問題仍然令社區感到憂慮。",
+      "starter": "The",
+      "answer": "The question of whether the school will close is still hanging over the community.",
+      "answerZh": "學校會否關閉這個問題仍然籠罩着整個社區。",
+      "highlight": "hanging over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The boat moved suddenly, so I held tightly to the side.",
+      "promptZh": "小船突然移動,所以我緊緊抓住船邊。",
+      "starter": "The",
+      "answer": "The boat moved suddenly, so I hung onto the side.",
+      "answerZh": "小船突然移動,所以我緊緊抓住船邊。",
+      "highlight": "hung onto",
+      "targetForm": "hang onto something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The team lost, but you cannot blame it all on the goalkeeper.",
+      "promptZh": "球隊輸了,但你不能把所有責任都歸咎於守門員。",
+      "starter": "The",
+      "answer": "The team lost, but you cannot hang it all on the goalkeeper.",
+      "answerZh": "球隊輸了,但你不能把所有責任都歸咎於守門員。",
+      "highlight": "hang",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Zoe was new, but she soon started spending time with the art club members.",
+      "promptZh": "佐伊初來乍到,但很快便開始與美術學會的成員一起消磨時間。",
+      "starter": "Zoe",
+      "answer": "Zoe was new, but she soon started hanging around with the art club members.",
+      "answerZh": "佐伊初來乍到,但很快便開始與美術學會的成員一起消磨時間。",
+      "highlight": "hanging around",
+      "targetForm": "hang around with somebody",
+      "targetMeaningZh": "與某人一起消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Sam was not at home. He was relaxing at the park after school.",
+      "promptZh": "森不在家。他放學後正在公園休息消閒。",
+      "starter": "Sam",
+      "answer": "Sam was not at home. He was hanging out at the park after school.",
+      "answerZh": "森不在家。他放學後正在公園消磨時間。",
+      "highlight": "hanging out",
+      "targetForm": "hang out",
+      "targetMeaningZh": "在某處輕鬆消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Whether we can travel tomorrow depends entirely on the train service.",
+      "promptZh": "我們明天能否出發,完全取決於火車服務。",
+      "starter": "Whether",
+      "answer": "Whether we can travel tomorrow hangs entirely on the train service.",
+      "answerZh": "我們明天能否出發,完全取決於火車服務。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The first half of the film is clear, but the later events do not form one complete story.",
+      "promptZh": "電影的前半部很清楚,但後來發生的事情無法組成一個完整故事。",
+      "starter": "The",
+      "answer": "The first half of the film is clear, but the whole story does not hang together.",
+      "answerZh": "電影的前半部很清楚,但整個故事前後並不連貫。",
+      "highlight": "whole story does",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We had arrived early, so we stayed near the entrance until the doors opened.",
+      "promptZh": "我們很早便到了,所以在入口附近等到開門。",
+      "starter": "We",
+      "answer": "We had arrived early, so we hung round near the entrance until the doors opened.",
+      "answerZh": "我們很早便到了,所以在入口附近等到開門。",
+      "highlight": "hung round",
+      "targetForm": "hang round",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I almost put the box in the rubbish, but Dad told me to keep it.",
+      "promptZh": "我差點把盒子放進垃圾桶,但爸爸叫我留着它。",
+      "starter": "I",
+      "answer": "I almost put the box in the rubbish, but Dad told me to hang on to it.",
+      "answerZh": "我差點把盒子放進垃圾桶,但爸爸叫我留着它。",
+      "highlight": "hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The risk of more flooding was still worrying the village.",
+      "promptZh": "再次水浸的風險仍然令村民感到憂慮。",
+      "starter": "The",
+      "answer": "The risk of more flooding was still hanging over the village.",
+      "answerZh": "再次水浸的風險仍然籠罩着這條村。",
+      "highlight": "hanging over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Most people entered the room, but two students stayed behind.",
+      "promptZh": "大部分人都進了房間,但兩名學生留在後面。",
+      "starter": "Most",
+      "answer": "Most people entered the room, but two students hung back.",
+      "answerZh": "大部分人都進了房間,但兩名學生留在後面。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "留在後面;不立即跟上"
+    },
+    {
+      "id": "phrasal-verb-156-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The steps were icy, so Sara held tightly to the rail.",
+      "promptZh": "梯級結了冰,所以莎拉緊緊抓住扶手。",
+      "starter": "The",
+      "answer": "The steps were icy, so Sara hung on to the rail.",
+      "answerZh": "梯級結了冰,所以莎拉緊緊抓住扶手。",
+      "highlight": "hung on",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The need to make a difficult decision was still worrying the whole family.",
+      "promptZh": "必須作出艱難決定一事仍然困擾着整個家庭。",
+      "starter": "The",
+      "answer": "The need to make a difficult decision was still hanging over the whole family.",
+      "answerZh": "必須作出艱難決定一事仍然籠罩着整個家庭。",
+      "highlight": "hanging over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Whether the trip happens depends on how many students join.",
+      "promptZh": "這次旅程能否成行,取決於有多少學生參加。",
+      "starter": "Whether",
+      "answer": "Whether the trip happens hangs on how many students join.",
+      "answerZh": "這次旅程能否成行,取決於有多少學生參加。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "After the match, Ben kept the signed shirt instead of selling it.",
+      "promptZh": "比賽後,賓保留了那件有簽名的球衣,沒有把它賣掉。",
+      "starter": "After",
+      "answer": "After the match, Ben hung on to the signed shirt instead of selling it.",
+      "answerZh": "比賽後,賓保留了那件有簽名的球衣,沒有把它賣掉。",
+      "highlight": "hung on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Even after the repairs, the risk of the roof falling still worried everyone who used the building.",
+      "promptZh": "即使完成維修,屋頂倒塌的風險仍然令所有使用這座大樓的人感到憂慮。",
+      "starter": "Even",
+      "answer": "Even after the repairs, the risk of the roof falling still hung over everyone who used the building.",
+      "answerZh": "即使完成維修,屋頂倒塌的風險仍然籠罩着所有使用這座大樓的人。",
+      "highlight": "hung over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The guide walked into the cave, but the visitors were too nervous to follow at once.",
+      "promptZh": "導遊走進洞穴,但遊客太緊張,沒有立即跟上。",
+      "starter": "The",
+      "answer": "The guide walked into the cave, but the visitors hung back.",
+      "answerZh": "導遊走進洞穴,但遊客因太緊張而留在後面。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "因害怕或不肯定而留在後面"
+    },
+    {
+      "id": "phrasal-verb-156-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "This quiet square is the place where local musicians usually spend their free time.",
+      "promptZh": "這個寧靜的廣場是本地音樂人通常消磨空閒時間的地方。",
+      "starter": "This",
+      "answer": "This quiet square is where local musicians usually hang out.",
+      "answerZh": "這個寧靜的廣場是本地音樂人通常消磨空閒時間的地方。",
+      "highlight": "hang out",
+      "targetForm": "hang out",
+      "targetMeaningZh": "在某處輕鬆消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Do not sell that old watch; keep it because it belonged to your grandfather.",
+      "promptZh": "不要賣掉那隻舊手錶;要留着它,因為它曾屬於你的祖父。",
+      "starter": "Do",
+      "answer": "Do not sell that old watch; hang on to it because it belonged to your grandfather.",
+      "answerZh": "不要賣掉那隻舊手錶;要留着它,因為它曾屬於你的祖父。",
+      "highlight": "hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Each scene is good by itself, but the play does not feel like one complete story.",
+      "promptZh": "每一幕單獨看都很好,但整齣戲不像一個完整故事。",
+      "starter": "Each",
+      "answer": "Each scene is good by itself, but the play does not hang together.",
+      "answerZh": "每一幕單獨看都很好,但整齣戲前後並不連貫。",
+      "highlight": "hang together",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Nora stopped spending time with that group after they became unkind.",
+      "promptZh": "諾拉在那群人變得不友善後,便不再與他們一起消磨時間。",
+      "starter": "Nora",
+      "answer": "Nora stopped hanging about with that group after they became unkind.",
+      "answerZh": "諾拉在那群人變得不友善後,便不再與他們一起消磨時間。",
+      "highlight": "hanging about",
+      "targetForm": "hang about with somebody",
+      "targetMeaningZh": "與某人一起消磨時間"
+    },
+    {
+      "id": "phrasal-verb-156-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Everything depends on whether the shop gets enough customers this month.",
+      "promptZh": "一切都取決於這間店本月能否有足夠顧客。",
+      "starter": "Everything",
+      "answer": "Everything hangs on whether the shop gets enough customers this month.",
+      "answerZh": "一切都取決於這間店本月能否有足夠顧客。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The bus started moving before I sat down, so I held the pole tightly.",
+      "promptZh": "我還未坐下,巴士便開動了,所以我緊緊抓住扶手。",
+      "starter": "The",
+      "answer": "The bus started moving before I sat down, so I hung on to the pole.",
+      "answerZh": "我還未坐下,巴士便開動了,所以我緊緊抓住扶手。",
+      "highlight": "hung on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The manager made the decision, so he should not blame the assistant for it.",
+      "promptZh": "決定是經理作出的,所以他不應把責任歸咎於助理。",
+      "starter": "The",
+      "answer": "The manager made the decision, so he should not hang the blame on the assistant.",
+      "answerZh": "決定是經理作出的,所以他不應把責任歸咎於助理。",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The children stayed near the stage after the show because they hoped to meet the singer.",
+      "promptZh": "演出結束後,孩子們留在舞台附近,因為他們希望見到那名歌手。",
+      "starter": "The",
+      "answer": "The children hung around near the stage after the show because they hoped to meet the singer.",
+      "answerZh": "演出結束後,孩子們留在舞台附近,因為他們希望見到那名歌手。",
+      "highlight": "hung around",
+      "targetForm": "hang around",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Everyone else went home, but Priya stayed behind to ask one more question.",
+      "promptZh": "其他人都回家了,但普里雅留在後面,想再問一條問題。",
+      "starter": "Everyone",
+      "answer": "Everyone else went home, but Priya hung back to ask one more question.",
+      "answerZh": "其他人都回家了,但普里雅留在後面,想再問一條問題。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "留在後面;不立即離開"
+    },
+    {
+      "id": "phrasal-verb-156-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The shop was not open yet, so we waited nearby.",
+      "promptZh": "店舖還未開門,所以我們在附近等候。",
+      "starter": "The",
+      "answer": "The shop was not open yet, so we hung around nearby.",
+      "answerZh": "店舖還未開門,所以我們在附近等候。",
+      "highlight": "hung around",
+      "targetForm": "hang around",
+      "targetMeaningZh": "在某處等候或逗留"
+    },
+    {
+      "id": "phrasal-verb-156-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I was not even there, so you cannot blame me for the broken window.",
+      "promptZh": "我當時根本不在場,所以你不能把窗戶破爛的責任歸咎於我。",
+      "starter": "I",
+      "answer": "I was not even there, so you cannot hang the blame for the broken window on me.",
+      "answerZh": "我當時根本不在場,所以你不能把窗戶破爛的責任歸咎於我。",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The first two ideas support each other, and the whole argument makes sense.",
+      "promptZh": "首兩個論點互相支持,整個論證合乎邏輯。",
+      "starter": "The",
+      "answer": "The first two ideas support each other, and the whole argument hangs together.",
+      "answerZh": "首兩個論點互相支持,整個論證前後一致。",
+      "highlight": "hangs together",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Arun’s parents worry because he spends nearly every evening with much older teenagers.",
+      "promptZh": "阿倫的父母很擔心,因為他幾乎每晚都和年紀大得多的青少年一起消磨時間。",
+      "starter": "Arun’s",
+      "answer": "Arun’s parents worry because he hangs with much older teenagers nearly every evening.",
+      "answerZh": "阿倫的父母很擔心,因為他幾乎每晚都和年紀大得多的青少年混在一起。",
+      "highlight": "hangs",
+      "targetForm": "hang with somebody",
+      "targetMeaningZh": "與某人一起消磨時間;很口語"
+    },
+    {
+      "id": "phrasal-verb-156-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The club has enough money for this month, but the possibility of closing next year still worries everyone.",
+      "promptZh": "這間會所有足夠資金應付本月,但明年可能關閉一事仍然令所有人擔憂。",
+      "starter": "The",
+      "answer": "The club has enough money for this month, but the possibility of closing next year still hangs over everyone.",
+      "answerZh": "這間會所有足夠資金應付本月,但明年可能關閉一事仍然籠罩着所有人。",
+      "highlight": "hangs over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Our train was delayed, so we stayed at the station with nothing to do for almost an hour.",
+      "promptZh": "我們的火車誤點,所以我們在車站無所事事地等了近一小時。",
+      "starter": "Our",
+      "answer": "Our train was delayed, so we hung about at the station with nothing to do for almost an hour.",
+      "answerZh": "我們的火車誤點,所以我們在車站逗留了近一小時,期間無所事事。",
+      "highlight": "hung about",
+      "targetForm": "hang about",
+      "targetMeaningZh": "在某處等候或無所事事"
+    },
+    {
+      "id": "phrasal-verb-156-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The explanation sounds clever at first, but its main points do not support one another.",
+      "promptZh": "這個解釋起初聽來很聰明,但主要論點互不支持。",
+      "starter": "The",
+      "answer": "The explanation sounds clever at first, but its main points do not hang together.",
+      "answerZh": "這個解釋起初聽來很聰明,但主要論點前後並不一致。",
+      "highlight": "hang together",
+      "targetForm": "hang together",
+      "targetMeaningZh": "前後一致;整體合乎邏輯"
+    },
+    {
+      "id": "phrasal-verb-156-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The old map may help us later, so do not put it in the rubbish.",
+      "promptZh": "這張舊地圖日後可能有用,所以不要把它放進垃圾桶。",
+      "starter": "The",
+      "answer": "The old map may help us later, so hang on to it.",
+      "answerZh": "這張舊地圖日後可能有用,所以要保留它。",
+      "highlight": "hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Our decision about the new flat depends on the bank’s answer.",
+      "promptZh": "我們是否租下這個新單位,取決於銀行的答覆。",
+      "starter": "Our",
+      "answer": "Our decision about the new flat hangs on the bank’s answer.",
+      "answerZh": "我們是否租下這個新單位,取決於銀行的答覆。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The computer failed before I arrived, so you cannot fairly blame the problem on me.",
+      "promptZh": "電腦在我到達前已經壞了,所以你不能合理地把問題歸咎於我。",
+      "starter": "The",
+      "answer": "The computer failed before I arrived, so you cannot fairly hang the problem on me.",
+      "answerZh": "電腦在我到達前已經壞了,所以你不能合理地把問題歸咎於我。",
+      "highlight": "hang",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Whether the whole plan succeeds or fails depends on one final vote.",
+      "promptZh": "整個計劃成敗取決於最後一次投票。",
+      "starter": "Whether",
+      "answer": "Whether the whole plan succeeds or fails hangs on one final vote.",
+      "answerZh": "整個計劃成敗取決於最後一次投票。",
+      "highlight": "hangs",
+      "targetForm": "hang on something",
+      "targetMeaningZh": "取決於某事物"
+    },
+    {
+      "id": "phrasal-verb-156-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The others stepped onto the glass floor, but Elena stayed behind until she felt safe.",
+      "promptZh": "其他人踏上玻璃地板,但埃琳娜留在後面,直到她覺得安全為止。",
+      "starter": "The",
+      "answer": "The others stepped onto the glass floor, but Elena hung back until she felt safe.",
+      "answerZh": "其他人踏上玻璃地板,但埃琳娜留在後面,直到她覺得安全為止。",
+      "highlight": "hung back",
+      "targetForm": "hang back",
+      "targetMeaningZh": "因害怕或不肯定而留在後面"
+    },
+    {
+      "id": "phrasal-verb-156-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As the small boat moved through the waves, the children held the sides with both hands.",
+      "promptZh": "小船在浪中前進時,孩子們用雙手緊緊抓住船邊。",
+      "starter": "As",
+      "answer": "As the small boat moved through the waves, the children hung on to the sides with both hands.",
+      "answerZh": "小船在浪中前進時,孩子們用雙手緊緊抓住船邊。",
+      "highlight": "hung on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "緊緊抓住某物"
+    },
+    {
+      "id": "phrasal-verb-156-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The concert ticket may become a nice memory, so I will keep it.",
+      "promptZh": "這張演唱會門票日後可能成為美好回憶,所以我會保留它。",
+      "starter": "The",
+      "answer": "The concert ticket may become a nice memory, so I will hang on to it.",
+      "answerZh": "這張演唱會門票日後可能成為美好回憶,所以我會保留它。",
+      "highlight": "hang on to",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-156-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the exam is over, the fear of the results continues to worry many students.",
+      "promptZh": "雖然考試已經結束,但對成績的恐懼仍然困擾着許多學生。",
+      "starter": "Although",
+      "answer": "Although the exam is over, the fear of the results continues to hang over many students.",
+      "answerZh": "雖然考試已經結束,但對成績的恐懼仍然籠罩着許多學生。",
+      "highlight": "hang over",
+      "targetForm": "hang over somebody/something",
+      "targetMeaningZh": "憂慮、危險或不明朗情況持續存在"
+    },
+    {
+      "id": "phrasal-verb-156-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The organisers changed the time, but they later tried to blame the guests for the confusion.",
+      "promptZh": "主辦單位改了時間,但後來卻企圖把混亂歸咎於賓客。",
+      "starter": "The",
+      "answer": "The organisers changed the time, but they later tried to hang the blame for the confusion on the guests.",
+      "answerZh": "主辦單位改了時間,但後來卻企圖把混亂歸咎於賓客。",
+      "highlight": "hang the",
+      "targetForm": "hang something on somebody",
+      "targetMeaningZh": "把責任或過錯歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-156-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The wind became stronger, so we held tightly to the tent ropes.",
+      "promptZh": "風愈來愈強,所以我們緊緊抓住帳篷繩。",
+      "starter": "The",
+      "answer": "The wind became stronger, so we hung on to the tent ropes.",
+      "answerZh": "風愈來愈強,所以我們緊緊抓住帳篷繩。",
+      "highlight": "hung on",
+      "targetForm": "hang on to something",
+      "targetMeaningZh": "緊緊抓住某物"
+    }
+  ]
+}

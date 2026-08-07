@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-48",
+  "order": 48,
+  "slug": "sweat",
+  "version": "1",
+  "title": "SWEAT 動詞片語",
+  "titleEn": "Sweat",
+  "titleZh": "SWEAT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 47 - SWEAT.pdf",
+    "sourceNumber": 47,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SWEAT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SWEAT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SWEAT",
+      "highlight": "SWEAT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I went for a run to sweat off the extra calories.",
+      "zh": "我去跑步,透過運動流汗消耗額外熱量。",
+      "highlight": "sweat off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Whenever I get a bad fever, I go to bed and sweat it out.",
+      "zh": "每當我發高燒時,我都會躺在床上休息,讓發燒慢慢過去。",
+      "highlight": "sweat it out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I have been sweating over an important letter for several days.",
+      "zh": "(我幾天來一直為一封重要的信反覆苦思。)Language note: The examples involving a fever or cold teach English usage only. They are notmedical advice.語言提示:涉及發燒或感冒的例句只用作英語學習,並非醫療建議。",
+      "highlight": "sweating over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "透過運動流汗減掉體重,或消耗額外熱量；躺下休息並流汗,等發燒、感冒或不適慢慢過去；為某事花很多時間和心力;反覆苦思或擔心",
+    "en": "sweat something off; sweat something out; sweat over something",
+    "naturalZh": [
+      "透過運動流汗減掉體重,或消耗額外熱量",
+      "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+      "為某事花很多時間和心力;反覆苦思或擔心"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sweat something off",
+      "titleZh": "透過運動流汗減掉體重,或消耗額外熱量",
+      "titleEn": "sweat something off",
+      "descriptionZh": "透過運動流汗減掉體重,或消耗額外熱量",
+      "descriptionEn": "I went for a run to sweat off the extra calories.",
+      "examples": [
+        {
+          "en": "I went for a run to sweat off the extra calories.",
+          "zh": "我去跑步,透過運動流汗消耗額外熱量。",
+          "highlight": "sweat off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweat something out",
+      "titleZh": "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+      "titleEn": "sweat something out",
+      "descriptionZh": "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+      "descriptionEn": "Whenever I get a bad fever, I go to bed and sweat it out.",
+      "examples": [
+        {
+          "en": "Whenever I get a bad fever, I go to bed and sweat it out.",
+          "zh": "每當我發高燒時,我都會躺在床上休息,讓發燒慢慢過去。",
+          "highlight": "sweat it out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweat over something",
+      "titleZh": "為某事花很多時間和心力;反覆苦思或擔心",
+      "titleEn": "sweat over something",
+      "descriptionZh": "為某事花很多時間和心力;反覆苦思或擔心",
+      "descriptionEn": "I have been sweating over an important letter for several days.",
+      "examples": [
+        {
+          "en": "I have been sweating over an important letter for several days.",
+          "zh": "(我幾天來一直為一封重要的信反覆苦思。)Language note: The examples involving a fever or cold teach English usage only. They are notmedical advice.語言提示:涉及發燒或感冒的例句只用作英語學習,並非醫療建議。",
+          "highlight": "sweating over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SWEAT 片語動詞的實際用途",
+    "labelEn": "SWEAT Phrasal Verbs in Use",
+    "summaryZh": "sweat something off 可以表示透過運動流汗減掉額外體重或消耗熱量。；sweat something out 可以描述某人休息並等待發燒、感冒或不適慢慢過去。；sweat over something 可以表示某人花了很多時間思考、處理或擔心某件事。；這些表達可以談論運動效果、身體不適和心力,而不只是表示身體感到炎熱。",
+    "summaryEn": "Sweat something off lets you describe using exercise to lose extra weight or burn extra calories. Sweat something out is used when someone rests and waits for a fever, cold or uncomfortable feeling to pass. Sweat over something shows that a person has spent a lot of time thinking, working or worrying about something. These expressions show that sweat can describe exercise results, illness and mental effort—not only feeling hot.",
+    "contextsZh": [
+      "談論運動及其效果",
+      "理解與身體不適有關的常見表達",
+      "表達某件事需要仔細思考",
+      "理解 sweat 不只是指身體流汗"
+    ],
+    "contextsEn": [
+      "Talk about exercise and its results",
+      "Understand a common expression about illness",
+      "Show that a task requires serious thought",
+      "Understand meanings beyond physical sweating"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SWEAT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SWEAT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sweat something off",
+    "fixedHighlight": "sweat something off",
+    "fixedZh": "閱讀整句,選出意思相同的 SWEAT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SWEAT expression that gives the same meaning.",
+    "correct": "sweat off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；使用 sweat over 時,後面接需要花心力處理或令人擔心的事情。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them with sweat something off or sweat something out, place the word as shown: sweat it off sweat them off sweat it out Use sweat over before the matter that requires a lot of thought, effort or worry: sweat over the report sweat over the decision",
+    "variableItemsZh": [
+      "sweat something off",
+      "sweat something out",
+      "sweat over something"
+    ],
+    "variableItemsEn": [
+      "sweat something off",
+      "sweat something out",
+      "sweat over something"
+    ],
+    "forms": [
+      {
+        "formZh": "透過運動流汗減掉體重,或消耗額外熱量",
+        "formEn": "sweat something off",
+        "exampleZh": "我去跑步,透過運動流汗消耗額外熱量。",
+        "exampleEn": "I went for a run to sweat off the extra calories.",
+        "highlight": "sweat off"
+      },
+      {
+        "formZh": "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+        "formEn": "sweat something out",
+        "exampleZh": "每當我發高燒時,我都會躺在床上休息,讓發燒慢慢過去。",
+        "exampleEn": "Whenever I get a bad fever, I go to bed and sweat it out.",
+        "highlight": "sweat it out"
+      },
+      {
+        "formZh": "為某事花很多時間和心力;反覆苦思或擔心",
+        "formEn": "sweat over something",
+        "exampleZh": "(我幾天來一直為一封重要的信反覆苦思。)Language note: The examples involving a fever or cold teach English usage only. They are notmedical advice.語言提示:涉及發燒或感冒的例句只用作英語學習,並非醫療建議。",
+        "exampleEn": "I have been sweating over an important letter for several days.",
+        "highlight": "sweating over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "透過運動流汗減掉體重,或消耗額外熱量",
+      "titleEn": "sweat something off",
+      "formula": "sweat something off",
+      "highlight": "sweat something off",
+      "descriptionZh": "透過運動流汗減掉體重,或消耗額外熱量",
+      "descriptionEn": "I went for a run to sweat off the extra calories.",
+      "examples": [
+        {
+          "en": "I went for a run to sweat off the extra calories.",
+          "zh": "我去跑步,透過運動流汗消耗額外熱量。",
+          "highlight": "sweat off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+      "titleEn": "sweat something out",
+      "formula": "sweat something out",
+      "highlight": "sweat something out",
+      "descriptionZh": "躺下休息並流汗,等發燒、感冒或不適慢慢過去",
+      "descriptionEn": "Whenever I get a bad fever, I go to bed and sweat it out.",
+      "examples": [
+        {
+          "en": "Whenever I get a bad fever, I go to bed and sweat it out.",
+          "zh": "每當我發高燒時,我都會躺在床上休息,讓發燒慢慢過去。",
+          "highlight": "sweat it out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "為某事花很多時間和心力;反覆苦思或擔心",
+      "titleEn": "sweat over something",
+      "formula": "sweat over something",
+      "highlight": "sweat over something",
+      "descriptionZh": "為某事花很多時間和心力;反覆苦思或擔心",
+      "descriptionEn": "I have been sweating over an important letter for several days.",
+      "examples": [
+        {
+          "en": "I have been sweating over an important letter for several days.",
+          "zh": "(我幾天來一直為一封重要的信反覆苦思。)Language note: The examples involving a fever or cold teach English usage only. They are notmedical advice.語言提示:涉及發燒或感冒的例句只用作英語學習,並非醫療建議。",
+          "highlight": "sweating over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論運動及其效果",
+      "titleEn": "Talk about exercise and its results",
+      "zh": "sweat something off 可以表示透過運動流汗減掉額外體重或消耗熱量。",
+      "en": "Sweat something off lets you describe using exercise to lose extra weight or burn extra calories."
+    },
+    {
+      "titleZh": "理解與身體不適有關的常見表達",
+      "titleEn": "Understand a common expression about illness",
+      "zh": "sweat something out 可以描述某人休息並等待發燒、感冒或不適慢慢過去。",
+      "en": "Sweat something out is used when someone rests and waits for a fever, cold or uncomfortable feeling to pass."
+    },
+    {
+      "titleZh": "表達某件事需要仔細思考",
+      "titleEn": "Show that a task requires serious thought",
+      "zh": "sweat over something 可以表示某人花了很多時間思考、處理或擔心某件事。",
+      "en": "Sweat over something shows that a person has spent a lot of time thinking, working or worrying about something."
+    },
+    {
+      "titleZh": "理解 sweat 不只是指身體流汗",
+      "titleEn": "Understand meanings beyond physical sweating",
+      "zh": "這些表達可以談論運動效果、身體不適和心力,而不只是表示身體感到炎熱。",
+      "en": "These expressions show that sweat can describe exercise results, illness and mental effort—not only feeling hot."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論運動及其效果",
+      "理解與身體不適有關的常見表達",
+      "表達某件事需要仔細思考",
+      "理解 sweat 不只是指身體流汗"
+    ],
+    "contextsEn": [
+      "Talk about exercise and its results",
+      "Understand a common expression about illness",
+      "Show that a task requires serious thought",
+      "Understand meanings beyond physical sweating"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論運動及其效果",
+        "titleEn": "Talk about exercise and its results",
+        "zh": "sweat something off 可以表示透過運動流汗減掉額外體重或消耗熱量。",
+        "en": "Sweat something off lets you describe using exercise to lose extra weight or burn extra calories.",
+        "examples": [
+          {
+            "en": "I went for a run to sweat off the extra calories.",
+            "zh": "我去跑步,透過運動流汗消耗額外熱量。",
+            "highlight": "sweat off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解與身體不適有關的常見表達",
+        "titleEn": "Understand a common expression about illness",
+        "zh": "sweat something out 可以描述某人休息並等待發燒、感冒或不適慢慢過去。",
+        "en": "Sweat something out is used when someone rests and waits for a fever, cold or uncomfortable feeling to pass.",
+        "examples": [
+          {
+            "en": "Whenever I get a bad fever, I go to bed and sweat it out.",
+            "zh": "每當我發高燒時,我都會躺在床上休息,讓發燒慢慢過去。",
+            "highlight": "sweat it out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達某件事需要仔細思考",
+        "titleEn": "Show that a task requires serious thought",
+        "zh": "sweat over something 可以表示某人花了很多時間思考、處理或擔心某件事。",
+        "en": "Sweat over something shows that a person has spent a lot of time thinking, working or worrying about something.",
+        "examples": [
+          {
+            "en": "I have been sweating over an important letter for several days.",
+            "zh": "(我幾天來一直為一封重要的信反覆苦思。)Language note: The examples involving a fever or cold teach English usage only. They are notmedical advice.語言提示:涉及發燒或感冒的例句只用作英語學習,並非醫療建議。",
+            "highlight": "sweating over"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 sweat 不只是指身體流汗",
+        "titleEn": "Understand meanings beyond physical sweating",
+        "zh": "這些表達可以談論運動效果、身體不適和心力,而不只是表示身體感到炎熱。",
+        "en": "These expressions show that sweat can describe exercise results, illness and mental effort—not only feeling hot.",
+        "examples": [
+          {
+            "en": "I went for a run to sweat off the extra calories.",
+            "zh": "我去跑步,透過運動流汗消耗額外熱量。",
+            "highlight": "sweat off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SWEAT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SWEAT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SWEAT 片語動詞。",
+      "en": "Read the whole sentence and choose the SWEAT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them with sweat something off or sweat something out, place the word as shown: sweat it off sweat them off sweat it out.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them with sweat something off or sweat something out, place the word as shown: sweat it off sweat them off sweat it out"
+    },
+    {
+      "titleZh": "使用 sweat over 時,後面接需要花心力處理或令人擔心的事情。",
+      "titleEn": "Use sweat over before the matter that requires a lot of thought, effort or worry: sweat over the report sweat over the decision.",
+      "zh": "使用 sweat over 時,後面接需要花心力處理或令人擔心的事情。",
+      "en": "Use sweat over before the matter that requires a lot of thought, effort or worry: sweat over the report sweat over the decision"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SWEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SWEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SWEAT 動詞片語句子改寫練習",
+    "titleEn": "SWEAT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SWEAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SWEAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-48-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Noah spent all evening carefully writing his history report.",
+      "promptZh": "Noah 花了整個晚上仔細撰寫他的歷史報告。",
+      "starter": "Noah",
+      "answer": "Noah sweated over his history report all evening.",
+      "answerZh": "Noah 整個晚上都在為他的歷史報告煞費苦心。",
+      "highlight": "sweated over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I went for a hard run to burn the extra calories from lunch.",
+      "promptZh": "我進行了一次高強度跑步,以消耗午餐額外攝取的熱量。",
+      "starter": "I",
+      "answer": "I went for a hard run to sweat off the extra calories from lunch.",
+      "answerZh": "我進行了一次高強度跑步,透過運動流汗消耗午餐額外攝取的熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Daniel stayed in bed under thick blankets until the fever passed.",
+      "promptZh": "Daniel 躺在厚被下休息,直到退燒。",
+      "starter": "Daniel",
+      "answer": "Daniel stayed in bed under thick blankets and sweated the fever out.",
+      "answerZh": "Daniel 躺在厚被下休息,靠流汗讓發燒慢慢過去。",
+      "highlight": "and sweated",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ava has spent hours thinking about the best way to answer the email.",
+      "promptZh": "Ava 已花了幾小時思考應如何回覆那封電郵。",
+      "starter": "Ava",
+      "answer": "Ava has been sweating over the best way to answer the email.",
+      "answerZh": "Ava 幾小時來一直為應如何回覆那封電郵反覆苦思。",
+      "highlight": "been sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The players ran extra laps to lose some of the weight they gained during the holiday.",
+      "promptZh": "球員多跑了幾圈,以減掉假期期間增加的部分體重。",
+      "starter": "The",
+      "answer": "The players ran extra laps to sweat off some of the weight they gained during the holiday.",
+      "answerZh": "球員多跑了幾圈,透過運動流汗減掉假期期間增加的部分體重。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Whenever Ben has a fever, he stays in bed under the blankets until it passes.",
+      "promptZh": "每當 Ben 發燒時,他都會躺在被窩裏休息,直到退燒。",
+      "starter": "Whenever",
+      "answer": "Whenever Ben has a fever, he stays in bed under the blankets to sweat it out.",
+      "answerZh": "每當 Ben 發燒時,他都會躺在被窩裏休息,讓發燒慢慢過去。",
+      "highlight": "to sweat",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We worried for days about the final cost of the trip.",
+      "promptZh": "我們為旅程的最終費用擔心了好幾天。",
+      "starter": "We",
+      "answer": "We sweated over the final cost of the trip for days.",
+      "answerZh": "我們為旅程的最終費用苦惱了好幾天。",
+      "highlight": "sweated over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Grace went cycling to burn the extra calories from the cake.",
+      "promptZh": "Grace 去踏單車,以消耗蛋糕帶來的額外熱量。",
+      "starter": "Grace",
+      "answer": "Grace went cycling to sweat off the extra calories from the cake.",
+      "answerZh": "Grace 去踏單車,透過運動流汗消耗蛋糕帶來的額外熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Leah stayed under the blankets, hoping her cold would pass.",
+      "promptZh": "Leah 躺在被窩裏,希望感冒快點過去。",
+      "starter": "Leah",
+      "answer": "Leah stayed under the blankets, hoping to sweat the cold out.",
+      "answerZh": "Leah 躺在被窩裏,希望靠流汗讓感冒慢慢過去。",
+      "highlight": "to sweat the",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The class spent a long time trying to solve the difficult puzzle.",
+      "promptZh": "全班花了很長時間嘗試解答那道難題。",
+      "starter": "The",
+      "answer": "The class sweated over the difficult puzzle for a long time.",
+      "answerZh": "全班為那道難題苦思了很長時間。",
+      "highlight": "sweated over the difficult puzzle for",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ethan is resting in bed under warm blankets, hoping the fever will pass.",
+      "promptZh": "Ethan 正躺在暖被下休息,希望快點退燒。",
+      "starter": "Ethan",
+      "answer": "Ethan is trying to sweat the fever out in bed under warm blankets.",
+      "answerZh": "Ethan 正嘗試躺在暖被下靠流汗退燒。",
+      "highlight": "trying to sweat the fever out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ruby often spends too much time worrying about small details.",
+      "promptZh": "Ruby 經常花太多時間擔心小細節。",
+      "starter": "Ruby",
+      "answer": "Ruby often sweats over small details for too long.",
+      "answerZh": "Ruby 經常為小細節苦惱太久。",
+      "highlight": "sweats over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I will use tomorrow’s workout to burn these extra calories.",
+      "promptZh": "我會利用明天的訓練消耗這些額外熱量。",
+      "starter": "I",
+      "answer": "I will sweat off these extra calories during tomorrow’s workout.",
+      "answerZh": "我會在明天的訓練中透過運動流汗消耗這些額外熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Kai has been resting in bed under warm blankets, hoping the cold will pass.",
+      "promptZh": "Kai 一直躺在暖被下休息,希望感冒快點過去。",
+      "starter": "Kai",
+      "answer": "Kai has been trying to sweat the cold out in bed under warm blankets.",
+      "answerZh": "Kai 一直嘗試躺在暖被下,靠流汗讓感冒慢慢過去。",
+      "highlight": "trying to sweat the cold out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did they exercise hard enough to lose the extra weight?",
+      "promptZh": "他們的運動量是否足以減掉額外體重?",
+      "starter": "Did",
+      "answer": "Did they sweat off the extra weight through exercise?",
+      "answerZh": "他們是否有透過運動流汗減掉額外體重?",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Amir is not spending time worrying about the small spelling mistake.",
+      "promptZh": "Amir 沒有花時間擔心那個小小的串字錯誤。",
+      "starter": "Amir",
+      "answer": "Amir is not sweating over the small spelling mistake.",
+      "answerZh": "Amir 沒有為那個小小的串字錯誤苦惱。",
+      "highlight": "sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You may need to rest in bed until the fever passes.",
+      "promptZh": "你可能需要躺在床上休息,直到退燒。",
+      "starter": "You",
+      "answer": "You may need to sweat the fever out in bed.",
+      "answerZh": "你可能需要躺在床上,靠流汗讓發燒慢慢過去。",
+      "highlight": "sweat the fever out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Sofia has lost some of the winter weight through daily exercise.",
+      "promptZh": "Sofia 透過每天運動,減掉了部分冬天增加的體重。",
+      "starter": "Sofia",
+      "answer": "Sofia has sweated off some of the winter weight through daily exercise.",
+      "answerZh": "Sofia 透過每天運動流汗,減掉了部分冬天增加的體重。",
+      "highlight": "sweated off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are you spending so much time worrying about one sentence?",
+      "promptZh": "你為何花這麼多時間擔心一個句子?",
+      "starter": "Why",
+      "answer": "Why are you sweating over one sentence for so long?",
+      "answerZh": "你為何為一個句子苦惱這麼久?",
+      "highlight": "sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Owen did not stay in bed until the fever passed.",
+      "promptZh": "Owen 沒有躺在床上休息至退燒。",
+      "starter": "Owen",
+      "answer": "Owen did not sweat the fever out in bed.",
+      "answerZh": "Owen 沒有躺在床上靠流汗讓發燒慢慢過去。",
+      "highlight": "sweat the fever out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "These extra calories came from the dessert. I plan to burn them during tonight’s run.",
+      "promptZh": "這些額外熱量來自甜品。我打算在今晚跑步時把它們消耗掉。",
+      "starter": "These",
+      "answer": "These extra calories came from the dessert. I plan to sweat them off during tonight’s run.",
+      "answerZh": "這些額外熱量來自甜品。我打算在今晚跑步時透過運動把它們消耗掉。",
+      "highlight": "sweat",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team has spent three days carefully improving the final design.",
+      "promptZh": "團隊花了三天仔細改善最後的設計。",
+      "starter": "The",
+      "answer": "The team has been sweating over the final design for three days.",
+      "answerZh": "團隊三天來一直為最後的設計煞費苦心。",
+      "highlight": "been sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The fever was not serious. Hana stayed in bed under the blankets until it passed.",
+      "promptZh": "發燒並不嚴重。Hana 躺在被窩裏休息,直到退燒。",
+      "starter": "The",
+      "answer": "The fever was not serious. Hana stayed in bed and sweated it out under the blankets.",
+      "answerZh": "發燒並不嚴重。Hana 躺在被窩裏,靠流汗讓它慢慢過去。",
+      "highlight": "and sweated it out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Do a short workout to burn those extra calories.",
+      "promptZh": "做一次短時間運動,以消耗那些額外熱量。",
+      "starter": "Sweat",
+      "answer": "Sweat those extra calories off with a short workout.",
+      "answerZh": "做一次短時間運動,透過流汗消耗那些額外熱量。",
+      "highlight": "Sweat those extra calories off with",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I could not relax because I kept worrying about the interview.",
+      "promptZh": "我無法放鬆,因為我一直擔心那次面試。",
+      "starter": "I",
+      "answer": "I could not relax because I kept sweating over the interview.",
+      "answerZh": "我無法放鬆,因為我一直為那次面試苦惱。",
+      "highlight": "sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Arun is resting under the blankets and waiting for the cold to pass.",
+      "promptZh": "Arun 正躺在被窩裏休息,等感冒慢慢過去。",
+      "starter": "Arun",
+      "answer": "Arun is under the blankets, sweating the cold out.",
+      "answerZh": "Arun 正躺在被窩裏,靠流汗讓感冒慢慢過去。",
+      "highlight": "sweating",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The dancers used the long rehearsal to burn the extra calories from lunch.",
+      "promptZh": "舞蹈員利用長時間綵排,消耗午餐額外攝取的熱量。",
+      "starter": "The",
+      "answer": "The dancers used the long rehearsal to sweat off the extra calories from lunch.",
+      "answerZh": "舞蹈員利用長時間綵排,透過流汗消耗午餐額外攝取的熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The wording of the message was difficult. Ella spent all morning thinking carefully about it.",
+      "promptZh": "訊息的措辭很難處理。Ella 整個早上都在仔細思考。",
+      "starter": "The",
+      "answer": "The wording of the message was difficult. Ella sweated over it all morning.",
+      "answerZh": "訊息的措辭很難處理。Ella 整個早上都在為此反覆苦思。",
+      "highlight": "sweated over it",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did Priya stay in bed under thick blankets until the fever passed?",
+      "promptZh": "Priya 為何躺在厚被下休息,直到退燒?",
+      "starter": "Why",
+      "answer": "Why did Priya stay in bed under thick blankets to sweat the fever out?",
+      "answerZh": "Priya 為何躺在厚被下,靠流汗讓發燒慢慢過去?",
+      "highlight": "to sweat",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the party, Marcus exercised to burn the extra calories.",
+      "promptZh": "派對後,Marcus 做運動以消耗額外熱量。",
+      "starter": "After",
+      "answer": "After the party, Marcus exercised to sweat the extra calories off.",
+      "answerZh": "派對後,Marcus 做運動,透過流汗消耗額外熱量。",
+      "highlight": "sweat",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The runner was ill, so he stayed in bed under thick blankets until the fever passed.",
+      "promptZh": "那名跑手生病了,所以他躺在厚被下休息,直到退燒。",
+      "starter": "The",
+      "answer": "The runner was ill, so he stayed in bed under thick blankets to sweat the fever out.",
+      "answerZh": "那名跑手生病了,所以他躺在厚被下,靠流汗讓發燒慢慢過去。",
+      "highlight": "to sweat",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After a large holiday meal, Chloe chose a hard exercise class to burn the extra calories.",
+      "promptZh": "一頓豐富的假期大餐後,Chloe 選擇上一堂高強度運動課,以消耗額外熱量。",
+      "starter": "After",
+      "answer": "After a large holiday meal, Chloe chose a hard exercise class to sweat off the extra calories.",
+      "answerZh": "一頓豐富的假期大餐後,Chloe 選擇上一堂高強度運動課,透過流汗消耗額外熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The editor was not ill or exercising; she was spending hours worrying about the last paragraph.",
+      "promptZh": "編輯並非生病或做運動;她花了幾小時擔心最後一段。",
+      "starter": "The",
+      "answer": "The editor was not ill or exercising; she was sweating over the last paragraph for hours.",
+      "answerZh": "編輯並非生病或做運動;她花了幾小時為最後一段反覆苦思。",
+      "highlight": "sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Sam had a fever, so he went straight to bed under warm blankets until it passed.",
+      "promptZh": "Sam 發燒了,所以他立即躺到暖被下休息,直到退燒。",
+      "starter": "Sam",
+      "answer": "Sam had a fever, so he went straight to bed under warm blankets to sweat it out.",
+      "answerZh": "Sam 發燒了,所以他立即躺到暖被下,靠流汗讓發燒慢慢過去。",
+      "highlight": "to sweat",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The coach said we would need to exercise hard to lose the extra holiday weight.",
+      "promptZh": "教練說,我們需要努力運動,才能減掉假期增加的額外體重。",
+      "starter": "The",
+      "answer": "The coach said we would need to sweat off the extra holiday weight through exercise.",
+      "answerZh": "教練說,我們需要透過運動流汗,減掉假期增加的額外體重。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before sending the complaint, Zoe spent two evenings choosing every word carefully.",
+      "promptZh": "在寄出投訴信前,Zoe 花了兩個晚上仔細選擇每一個字。",
+      "starter": "Before",
+      "answer": "Before sending the complaint, Zoe sweated over every word for two evenings.",
+      "answerZh": "在寄出投訴信前,Zoe 為每一個字反覆苦思了兩個晚上。",
+      "highlight": "sweated over every word for",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After taking the medicine, Jack rested under the blankets until the fever passed.",
+      "promptZh": "服藥後,Jack 躺在被窩裏休息,直到退燒。",
+      "starter": "After",
+      "answer": "After taking the medicine, Jack sweated the fever out under the blankets.",
+      "answerZh": "服藥後,Jack 躺在被窩裏,靠流汗讓發燒慢慢過去。",
+      "highlight": "sweated the fever out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The actor used daily training to lose the weight he had gained for the film.",
+      "promptZh": "那名演員每天訓練,以減掉為拍攝電影而增加的體重。",
+      "starter": "The",
+      "answer": "The actor used daily training to sweat off the weight he had gained for the film.",
+      "answerZh": "那名演員透過每天訓練流汗,減掉為拍攝電影而增加的體重。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the form was only one page, Leo spent the whole afternoon worrying about each answer.",
+      "promptZh": "雖然表格只有一頁,Leo 仍花了整個下午擔心每個答案。",
+      "starter": "Although",
+      "answer": "Although the form was only one page, Leo sweated over each answer all afternoon.",
+      "answerZh": "雖然表格只有一頁,Leo 仍為每個答案苦惱了一整個下午。",
+      "highlight": "sweated over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nora stayed at home. She rested under warm blankets until the cold passed.",
+      "promptZh": "Nora 留在家中。她躺在暖被下休息,直到感冒過去。",
+      "starter": "Nora",
+      "answer": "Nora stayed at home. She sweated the cold out under warm blankets.",
+      "answerZh": "Nora 留在家中。她躺在暖被下,靠流汗讓感冒慢慢過去。",
+      "highlight": "sweated the cold out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The school play was next week, and the group spent every lunch break carefully improving the final scene.",
+      "promptZh": "校內話劇將於下星期上演,小組每次午休都仔細改善最後一幕。",
+      "starter": "The",
+      "answer": "The school play was next week, and the group sweated over the final scene during every lunch break.",
+      "answerZh": "校內話劇將於下星期上演,小組每次午休都為最後一幕煞費苦心。",
+      "highlight": "sweated over the final scene during",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When his temperature rose, Yusuf chose to stay in bed under the blankets until the fever passed.",
+      "promptZh": "Yusuf 的體溫升高後,他選擇躺在被窩裏休息,直到退燒。",
+      "starter": "When",
+      "answer": "When his temperature rose, Yusuf chose to stay in bed under the blankets and sweat it out.",
+      "answerZh": "Yusuf 的體溫升高後,他選擇躺在被窩裏,靠流汗讓發燒慢慢過去。",
+      "highlight": "and sweat it out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The walk home was long and hot, but it helped us burn some of the extra calories from dinner.",
+      "promptZh": "回家的路又長又熱,但這幫助我們消耗了晚餐帶來的部分額外熱量。",
+      "starter": "The",
+      "answer": "The long, hot walk home helped us sweat off some of the extra calories from dinner.",
+      "answerZh": "那段又長又熱的回家路程,幫助我們透過流汗消耗晚餐帶來的部分額外熱量。",
+      "highlight": "long, hot",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "I had written the message three times, but I was still worrying about whether it sounded polite.",
+      "promptZh": "我已把訊息寫了三次,但仍擔心語氣是否有禮貌。",
+      "starter": "I",
+      "answer": "I had written the message three times, but I was still sweating over whether it sounded polite.",
+      "answerZh": "我已把訊息寫了三次,但仍為語氣是否有禮貌而苦惱。",
+      "highlight": "sweating over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The team had eaten too much during the break, so the coach added a hard morning workout to help them burn the extra calories.",
+      "promptZh": "球隊在休息期間吃得太多,所以教練加入了一節高強度晨操,幫助他們消耗額外熱量。",
+      "starter": "The",
+      "answer": "The team had eaten too much during the break, so the coach added a hard morning workout to help them sweat the extra calories off.",
+      "answerZh": "球隊在休息期間吃得太多,所以教練加入了一節高強度晨操,幫助他們透過流汗消耗額外熱量。",
+      "highlight": "sweat",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because her cold had become worse, Eva decided to rest in bed under warm blankets until it passed.",
+      "promptZh": "因為 Eva 的感冒變得更嚴重,她決定躺在暖被下休息,直到感冒過去。",
+      "starter": "Because",
+      "answer": "Because her cold had become worse, Eva decided to sweat it out in bed under warm blankets.",
+      "answerZh": "因為 Eva 的感冒變得更嚴重,她決定躺在暖被下,靠流汗讓它慢慢過去。",
+      "highlight": "sweat it out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The twins had different ideas, and they spent hours worrying about which name to give the puppy.",
+      "promptZh": "雙胞胎有不同想法,並花了幾小時擔心應替小狗取甚麼名字。",
+      "starter": "The",
+      "answer": "The twins had different ideas, and they sweated over which name to give the puppy for hours.",
+      "answerZh": "雙胞胎有不同想法,並為應替小狗取甚麼名字苦惱了幾小時。",
+      "highlight": "sweated over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    },
+    {
+      "id": "phrasal-verb-48-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No one asked Theo to exercise. He was ill and stayed under the blankets until the fever passed.",
+      "promptZh": "沒有人叫 Theo 做運動。他生病了,並躺在被窩裏休息,直到退燒。",
+      "starter": "No",
+      "answer": "No one asked Theo to exercise. He was ill and sweated the fever out under the blankets.",
+      "answerZh": "沒有人叫 Theo 做運動。他生病了,並躺在被窩裏靠流汗讓發燒慢慢過去。",
+      "highlight": "sweated the fever out",
+      "targetForm": "sweat something out",
+      "targetMeaningZh": "躺下休息並流汗,等發燒或不適慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-48-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "After eating several large desserts on holiday, Clara planned a week of exercise to burn the extra calories.",
+      "promptZh": "Clara 在假期吃了幾份大甜品後,計劃做一星期運動,以消耗額外熱量。",
+      "starter": "After",
+      "answer": "After eating several large desserts on holiday, Clara planned a week of exercise to sweat off the extra calories.",
+      "answerZh": "Clara 在假期吃了幾份大甜品後,計劃做一星期運動,透過流汗消耗額外熱量。",
+      "highlight": "sweat off",
+      "targetForm": "sweat something off",
+      "targetMeaningZh": "透過運動流汗減掉體重或消耗額外熱量"
+    },
+    {
+      "id": "phrasal-verb-48-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The application had to be sent that night, but Rina still spent an hour carefully checking the final answer.",
+      "promptZh": "申請表必須在當晚寄出,但 Rina 仍花了一小時仔細檢查最後一個答案。",
+      "starter": "The",
+      "answer": "The application had to be sent that night, but Rina still sweated over the final answer for an hour.",
+      "answerZh": "申請表必須在當晚寄出,但 Rina 仍為最後一個答案反覆苦思了一小時。",
+      "highlight": "sweated over",
+      "targetForm": "sweat over something",
+      "targetMeaningZh": "為某事花很多時間和心力;反覆苦思或擔心"
+    }
+  ]
+}

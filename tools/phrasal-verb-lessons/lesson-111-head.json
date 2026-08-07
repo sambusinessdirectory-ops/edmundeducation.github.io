@@ -1,0 +1,1166 @@
+{
+  "id": "phrasal-verb-111",
+  "order": 111,
+  "slug": "head",
+  "version": "1",
+  "title": "HEAD 動詞片語",
+  "titleEn": "Head",
+  "titleZh": "HEAD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 110 - HEAD.pdf",
+    "sourceNumber": 110,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HEAD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HEAD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HEAD",
+      "highlight": "HEAD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The taxi is headed for the airport.",
+      "zh": "的士正前往機場。",
+      "highlight": "headed for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We headed off after lunch.",
+      "zh": "我們午飯後便出發。",
+      "highlight": "headed off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A quick call can head off a problem.",
+      "zh": "一通及時的電話可以避免問題發生。",
+      "highlight": "head off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "向某地方或某個方向前進;正前往某處；出發;離開,開始行程；攔住某人;及早阻止某事發生或變成問題",
+    "en": "head for/towards something also: be headed for/towards something; head off; head somebody/something off",
+    "naturalZh": [
+      "向某地方或某個方向前進;正前往某處",
+      "出發;離開,開始行程",
+      "攔住某人;及早阻止某事發生或變成問題"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "head for/towards something also: be headed for/towards something",
+      "titleZh": "向某地方或某個方向前進;正前往某處",
+      "titleEn": "head for/towards something also: be headed for/towards something",
+      "descriptionZh": "向某地方或某個方向前進;正前往某處",
+      "descriptionEn": "The taxi is headed for the airport.",
+      "examples": [
+        {
+          "en": "The taxi is headed for the airport.",
+          "zh": "的士正前往機場。",
+          "highlight": "headed for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "head off",
+      "titleZh": "出發;離開,開始行程",
+      "titleEn": "head off",
+      "descriptionZh": "出發;離開,開始行程",
+      "descriptionEn": "We headed off after lunch.",
+      "examples": [
+        {
+          "en": "We headed off after lunch.",
+          "zh": "我們午飯後便出發。",
+          "highlight": "headed off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "head somebody/something off",
+      "titleZh": "攔住某人;及早阻止某事發生或變成問題",
+      "titleEn": "head somebody/something off",
+      "descriptionZh": "攔住某人;及早阻止某事發生或變成問題",
+      "descriptionEn": "A quick call can head off a problem.",
+      "examples": [
+        {
+          "en": "A quick call can head off a problem.",
+          "zh": "一通及時的電話可以避免問題發生。",
+          "highlight": "head off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HEAD 片語動詞的實際用途",
+    "labelEn": "HEAD Phrasal Verbs in Use",
+    "summaryZh": "head for 和 head towards 可以用來描述人、車輛或一群人正在前往哪個方向。；head off 可以自然地表示離開某處並開始一段行程。；head something off 可以表示在問題、爭執、投訴或延誤真正發生前及早採取行動。；head off 表示出發;head something off 則表示阻止某事。懂得分辨兩者,可以更準確理解日常英語。",
+    "summaryEn": "head for and head towards are useful when describing the direction in which a person, vehicle or group is moving. head off is a natural way to describe leaving a place and starting a journey or activity. head something off is useful when somebody acts early to prevent a problem, argument, complaint or delay. head off means to leave, while head something off means to prevent or stop something. Knowing the difference helps you understand real conversations more accurately.",
+    "contextsZh": [
+      "自然地表達前往的方向",
+      "表達出發或開始行程",
+      "表達及早阻止問題發生",
+      "分辨看似相近的 HEAD 表達"
+    ],
+    "contextsEn": [
+      "Talk naturally about where someone is going",
+      "Talk about leaving and beginning a journey",
+      "Talk about stopping trouble before it develops",
+      "Understand HEAD expressions that look similar"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HEAD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HEAD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "head for/towards something also: be headed for/towards something",
+    "fixedHighlight": "head for/towards something also: be headed for/towards something",
+    "fixedZh": "閱讀整句,選出意思相同的 HEAD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HEAD expression that gives the same meaning.",
+    "correct": "headed for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；(的士正前往機場。)for 和 towards 都可以表示前往的方向;亦可以使用 be headed for/towards。；使用 him、her、it 或 them 時,把它放在 head 和 off 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Both for and towards can show the direction someone or something is moving. You may also see be headed for/towards. The taxi is headed for the airport. With head somebody/something off, place words such as him, her, it and them between head and off. head him off head it off head them off",
+    "variableItemsZh": [
+      "head for/towards something also: be headed for/towards something",
+      "head off",
+      "head somebody/something off"
+    ],
+    "variableItemsEn": [
+      "head for/towards something also: be headed for/towards something",
+      "head off",
+      "head somebody/something off"
+    ],
+    "forms": [
+      {
+        "formZh": "向某地方或某個方向前進;正前往某處",
+        "formEn": "head for/towards something also: be headed for/towards something",
+        "exampleZh": "的士正前往機場。",
+        "exampleEn": "The taxi is headed for the airport.",
+        "highlight": "headed for"
+      },
+      {
+        "formZh": "出發;離開,開始行程",
+        "formEn": "head off",
+        "exampleZh": "我們午飯後便出發。",
+        "exampleEn": "We headed off after lunch.",
+        "highlight": "headed off"
+      },
+      {
+        "formZh": "攔住某人;及早阻止某事發生或變成問題",
+        "formEn": "head somebody/something off",
+        "exampleZh": "一通及時的電話可以避免問題發生。",
+        "exampleEn": "A quick call can head off a problem.",
+        "highlight": "head off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "向某地方或某個方向前進;正前往某處",
+      "titleEn": "head for/towards something also: be headed for/towards something",
+      "formula": "head for/towards something also: be headed for/towards something",
+      "highlight": "head for/towards something also: be headed for/towards something",
+      "descriptionZh": "向某地方或某個方向前進;正前往某處",
+      "descriptionEn": "The taxi is headed for the airport.",
+      "examples": [
+        {
+          "en": "The taxi is headed for the airport.",
+          "zh": "的士正前往機場。",
+          "highlight": "headed for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "出發;離開,開始行程",
+      "titleEn": "head off",
+      "formula": "head off",
+      "highlight": "head off",
+      "descriptionZh": "出發;離開,開始行程",
+      "descriptionEn": "We headed off after lunch.",
+      "examples": [
+        {
+          "en": "We headed off after lunch.",
+          "zh": "我們午飯後便出發。",
+          "highlight": "headed off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "攔住某人;及早阻止某事發生或變成問題",
+      "titleEn": "head somebody/something off",
+      "formula": "head somebody/something off",
+      "highlight": "head somebody/something off",
+      "descriptionZh": "攔住某人;及早阻止某事發生或變成問題",
+      "descriptionEn": "A quick call can head off a problem.",
+      "examples": [
+        {
+          "en": "A quick call can head off a problem.",
+          "zh": "一通及時的電話可以避免問題發生。",
+          "highlight": "head off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地表達前往的方向",
+      "titleEn": "Talk naturally about where someone is going",
+      "zh": "head for 和 head towards 可以用來描述人、車輛或一群人正在前往哪個方向。",
+      "en": "head for and head towards are useful when describing the direction in which a person, vehicle or group is moving."
+    },
+    {
+      "titleZh": "表達出發或開始行程",
+      "titleEn": "Talk about leaving and beginning a journey",
+      "zh": "head off 可以自然地表示離開某處並開始一段行程。",
+      "en": "head off is a natural way to describe leaving a place and starting a journey or activity."
+    },
+    {
+      "titleZh": "表達及早阻止問題發生",
+      "titleEn": "Talk about stopping trouble before it develops",
+      "zh": "head something off 可以表示在問題、爭執、投訴或延誤真正發生前及早採取行動。",
+      "en": "head something off is useful when somebody acts early to prevent a problem, argument, complaint or delay."
+    },
+    {
+      "titleZh": "分辨看似相近的 HEAD 表達",
+      "titleEn": "Understand HEAD expressions that look similar",
+      "zh": "head off 表示出發;head something off 則表示阻止某事。懂得分辨兩者,可以更準確理解日常英語。",
+      "en": "head off means to leave, while head something off means to prevent or stop something. Knowing the difference helps you understand real conversations more accurately."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地表達前往的方向",
+      "表達出發或開始行程",
+      "表達及早阻止問題發生",
+      "分辨看似相近的 HEAD 表達"
+    ],
+    "contextsEn": [
+      "Talk naturally about where someone is going",
+      "Talk about leaving and beginning a journey",
+      "Talk about stopping trouble before it develops",
+      "Understand HEAD expressions that look similar"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地表達前往的方向",
+        "titleEn": "Talk naturally about where someone is going",
+        "zh": "head for 和 head towards 可以用來描述人、車輛或一群人正在前往哪個方向。",
+        "en": "head for and head towards are useful when describing the direction in which a person, vehicle or group is moving.",
+        "examples": [
+          {
+            "en": "The taxi is headed for the airport.",
+            "zh": "的士正前往機場。",
+            "highlight": "headed for"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達出發或開始行程",
+        "titleEn": "Talk about leaving and beginning a journey",
+        "zh": "head off 可以自然地表示離開某處並開始一段行程。",
+        "en": "head off is a natural way to describe leaving a place and starting a journey or activity.",
+        "examples": [
+          {
+            "en": "We headed off after lunch.",
+            "zh": "我們午飯後便出發。",
+            "highlight": "headed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達及早阻止問題發生",
+        "titleEn": "Talk about stopping trouble before it develops",
+        "zh": "head something off 可以表示在問題、爭執、投訴或延誤真正發生前及早採取行動。",
+        "en": "head something off is useful when somebody acts early to prevent a problem, argument, complaint or delay.",
+        "examples": [
+          {
+            "en": "A quick call can head off a problem.",
+            "zh": "一通及時的電話可以避免問題發生。",
+            "highlight": "head off"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨看似相近的 HEAD 表達",
+        "titleEn": "Understand HEAD expressions that look similar",
+        "zh": "head off 表示出發;head something off 則表示阻止某事。懂得分辨兩者,可以更準確理解日常英語。",
+        "en": "head off means to leave, while head something off means to prevent or stop something. Knowing the difference helps you understand real conversations more accurately.",
+        "examples": [
+          {
+            "en": "The taxi is headed for the airport.",
+            "zh": "的士正前往機場。",
+            "highlight": "headed for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HEAD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HEAD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HEAD 片語動詞。",
+      "en": "Read the whole sentence and choose the HEAD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "(的士正前往機場。)for 和 towards 都可以表示前往的方向;亦可以使用 be headed for/towards。",
+      "titleEn": "Both for and towards can show the direction someone or something is moving.",
+      "zh": "(的士正前往機場。)for 和 towards 都可以表示前往的方向;亦可以使用 be headed for/towards。",
+      "en": "Both for and towards can show the direction someone or something is moving. You may also see be headed for/towards. The taxi is headed for the airport."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,把它放在 head 和 off 中間。",
+      "titleEn": "With head somebody/something off, place words such as him, her, it and them between head and off.",
+      "zh": "使用 him、her、it 或 them 時,把它放在 head 和 off 中間。",
+      "en": "With head somebody/something off, place words such as him, her, it and them between head and off. head him off head it off head them off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HEAD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HEAD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HEAD 動詞片語句子改寫練習",
+    "titleEn": "HEAD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HEAD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HEAD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-111-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After lunch, we walked towards the train station.",
+      "promptZh": "午飯後,我們朝火車站走去。",
+      "starter": "After",
+      "answer": "After lunch, we headed for the train station.",
+      "answerZh": "午飯後,我們前往火車站。",
+      "highlight": "headed for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The family left early in the morning.",
+      "promptZh": "那家人一早便離開出發。",
+      "starter": "The",
+      "answer": "The family headed off early in the morning.",
+      "answerZh": "那家人一早便出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A quick message prevented a lot of confusion before the event.",
+      "promptZh": "一則及時的訊息避免了活動前出現很多混亂。",
+      "starter": "A",
+      "answer": "A quick message headed off a lot of confusion before the event.",
+      "answerZh": "一則及時的訊息避免了活動前出現很多混亂。",
+      "highlight": "headed off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The bus is travelling to the airport now.",
+      "promptZh": "巴士現正前往機場。",
+      "starter": "The",
+      "answer": "The bus is headed for the airport now.",
+      "answerZh": "巴士現正前往機場。",
+      "highlight": "is headed for",
+      "targetForm": "be headed for something",
+      "targetMeaningZh": "正前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We left as soon as everyone was ready.",
+      "promptZh": "所有人準備好後,我們便立即出發。",
+      "starter": "We",
+      "answer": "We headed off as soon as everyone was ready.",
+      "answerZh": "所有人準備好後,我們便立即出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The coach spoke to both players to stop an argument before it started.",
+      "promptZh": "教練與兩名球員談話,以免他們發生爭執。",
+      "starter": "The",
+      "answer": "The coach spoke to both players to head off an argument before it started.",
+      "answerZh": "教練與兩名球員談話,以免他們發生爭執。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Emma walked towards the main gate after class.",
+      "promptZh": "艾瑪下課後朝正門走去。",
+      "starter": "Emma",
+      "answer": "Emma headed towards the main gate after class.",
+      "answerZh": "艾瑪下課後朝正門走去。",
+      "highlight": "headed",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The walkers left after breakfast.",
+      "promptZh": "步行者吃過早餐後便出發。",
+      "starter": "The",
+      "answer": "The walkers headed off after breakfast.",
+      "answerZh": "步行者吃過早餐後便出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A guard moved across the path and stopped the child before he reached the road.",
+      "promptZh": "一名保安走到路徑前方,在孩子走到馬路前把他攔住。",
+      "starter": "A",
+      "answer": "A guard moved across the path and headed the child off before he reached the road.",
+      "answerZh": "一名保安走到路徑前方,在孩子走到馬路前把他攔住。",
+      "highlight": "headed",
+      "targetForm": "head somebody off",
+      "targetMeaningZh": "攔住某人"
+    },
+    {
+      "id": "phrasal-verb-111-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "It is time for us to go home.",
+      "promptZh": "我們是時候回家了。",
+      "starter": "It",
+      "answer": "It is time for us to head for home.",
+      "answerZh": "我們是時候回家了。",
+      "highlight": "head for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We are leaving now, so please lock the door.",
+      "promptZh": "我們現在要出發了,所以請把門鎖好。",
+      "starter": "We",
+      "answer": "We are heading off now, so please lock the door.",
+      "answerZh": "我們現在要出發了,所以請把門鎖好。",
+      "highlight": "heading off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Are the cyclists travelling towards the old bridge?",
+      "promptZh": "那些單車手正朝舊橋前進嗎?",
+      "starter": "Are",
+      "answer": "Are the cyclists headed towards the old bridge?",
+      "answerZh": "那些單車手正朝舊橋前進嗎?",
+      "highlight": "Are the cyclists headed",
+      "targetForm": "be headed towards something",
+      "targetMeaningZh": "正朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "A clear sign may prevent confusion at the entrance.",
+      "promptZh": "一個清楚的指示牌可能可以避免入口處出現混亂。",
+      "starter": "A",
+      "answer": "A clear sign may head off confusion at the entrance.",
+      "answerZh": "一個清楚的指示牌可能可以避免入口處出現混亂。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The team will leave after the final check.",
+      "promptZh": "球隊會在最後檢查後出發。",
+      "starter": "The",
+      "answer": "The team will head off after the final check.",
+      "answerZh": "球隊會在最後檢查後出發。",
+      "highlight": "head off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children have started going towards the playground.",
+      "promptZh": "孩子們已開始朝遊樂場走去。",
+      "starter": "The",
+      "answer": "The children have headed for the playground.",
+      "answerZh": "孩子們已前往遊樂場。",
+      "highlight": "headed for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This small problem could become serious, so we should stop it now.",
+      "promptZh": "這個小問題可能會變得嚴重,所以我們現在應該阻止它。",
+      "starter": "This",
+      "answer": "This small problem could become serious, so we should head it off now.",
+      "answerZh": "這個小問題可能會變得嚴重,所以我們現在應該阻止它。",
+      "highlight": "head",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事"
+    },
+    {
+      "id": "phrasal-verb-111-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the visitors leave so early?",
+      "promptZh": "那些訪客為甚麼這麼早便離開?",
+      "starter": "Why",
+      "answer": "Why did the visitors head off so early?",
+      "answerZh": "那些訪客為甚麼這麼早便離開?",
+      "highlight": "head off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "You should go towards the information desk first.",
+      "promptZh": "你應該先前往詢問處。",
+      "starter": "You",
+      "answer": "You should head towards the information desk first.",
+      "answerZh": "你應該先前往詢問處。",
+      "highlight": "head",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The manager's short note prevented complaints from customers.",
+      "promptZh": "經理的一則簡短通知避免了顧客提出投訴。",
+      "starter": "The",
+      "answer": "The manager's short note headed off complaints from customers.",
+      "answerZh": "經理的一則簡短通知避免了顧客提出投訴。",
+      "highlight": "headed off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The group has already left, so we cannot join them.",
+      "promptZh": "那群人已經出發,所以我們無法跟他們一起走。",
+      "starter": "The",
+      "answer": "The group has already headed off, so we cannot join them.",
+      "answerZh": "那群人已經出發,所以我們無法跟他們一起走。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Several complaints were expected, but the team changed the notice and prevented them.",
+      "promptZh": "原本預計會出現幾宗投訴,但團隊更改了通知,成功避免了這些投訴。",
+      "starter": "Several",
+      "answer": "Several complaints were expected, but the team changed the notice and headed them off.",
+      "answerZh": "原本預計會出現幾宗投訴,但團隊更改了通知,成功避免了這些投訴。",
+      "highlight": "headed",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When we saw the sign, we turned and walked towards the lake.",
+      "promptZh": "我們看到指示牌後轉了方向,朝湖邊走去。",
+      "starter": "When",
+      "answer": "When we saw the sign, we turned and headed for the lake.",
+      "answerZh": "我們看到指示牌後轉了方向,朝湖邊走去。",
+      "highlight": "headed for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The rain had stopped. The runners left a few minutes later.",
+      "promptZh": "雨已停了。幾分鐘後,跑手便出發。",
+      "starter": "The",
+      "answer": "The rain had stopped. The runners headed off a few minutes later.",
+      "answerZh": "雨已停了。幾分鐘後,跑手便出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Changing the timetable early prevented a long delay.",
+      "promptZh": "及早更改時間表避免了長時間延誤。",
+      "starter": "Changing",
+      "answer": "Changing the timetable early headed off a long delay.",
+      "answerZh": "及早更改時間表避免了長時間延誤。",
+      "highlight": "headed off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After the match, the fans decided to go to the station.",
+      "promptZh": "比賽後,球迷決定前往車站。",
+      "starter": "After",
+      "answer": "After the match, the fans decided to head for the station.",
+      "answerZh": "比賽後,球迷決定前往車站。",
+      "highlight": "head for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "As soon as the bags were packed, we left.",
+      "promptZh": "行李收拾好後,我們便立即出發。",
+      "starter": "As",
+      "answer": "As soon as the bags were packed, we headed off.",
+      "answerZh": "行李收拾好後,我們便立即出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The purpose of the early phone call was to prevent a bigger problem.",
+      "promptZh": "提早打電話的目的是避免出現更大的問題。",
+      "starter": "The",
+      "answer": "The early phone call was meant to head off a bigger problem.",
+      "answerZh": "提早打電話是為了避免出現更大的問題。",
+      "highlight": "The early phone call was meant",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Instead of waiting outside, we walked towards the café.",
+      "promptZh": "我們沒有在外面等候,而是朝咖啡店走去。",
+      "starter": "Instead",
+      "answer": "Instead of waiting outside, we headed towards the café.",
+      "answerZh": "我們沒有在外面等候,而是朝咖啡店走去。",
+      "highlight": "headed",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By nine o'clock, the visitors had already left.",
+      "promptZh": "到了九時,訪客已經離開。",
+      "starter": "By",
+      "answer": "By nine o'clock, the visitors had already headed off.",
+      "answerZh": "到了九時,訪客已經離開。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The boy was running towards the closed gate, but a teacher stopped him before he reached it.",
+      "promptZh": "那個男孩正跑向已關上的閘門,但一名老師在他到達前把他攔住。",
+      "starter": "The",
+      "answer": "The boy was running towards the closed gate, but a teacher headed him off before he reached it.",
+      "answerZh": "那個男孩正跑向已關上的閘門,但一名老師在他到達前把他攔住。",
+      "highlight": "headed",
+      "targetForm": "head somebody off",
+      "targetMeaningZh": "攔住某人"
+    },
+    {
+      "id": "phrasal-verb-111-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "We do not need to stay here. We can go to the bus stop now.",
+      "promptZh": "我們不用留在這裏,現在可以前往巴士站。",
+      "starter": "We",
+      "answer": "We do not need to stay here. We can head for the bus stop now.",
+      "answerZh": "我們不用留在這裏,現在可以前往巴士站。",
+      "highlight": "head for",
+      "targetForm": "head for something",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The organiser tried to prevent criticism by explaining the change clearly.",
+      "promptZh": "主辦人清楚解釋這項改動,試圖避免受到批評。",
+      "starter": "The",
+      "answer": "The organiser tried to head off criticism by explaining the change clearly.",
+      "answerZh": "主辦人清楚解釋這項改動,試圖避免受到批評。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The family did not leave until the rain became lighter.",
+      "promptZh": "那家人一直等到雨勢減弱才出發。",
+      "starter": "The",
+      "answer": "The family did not head off until the rain became lighter.",
+      "answerZh": "那家人一直等到雨勢減弱才出發。",
+      "highlight": "head off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Is this coach travelling to the airport or the city centre?",
+      "promptZh": "這輛旅遊巴正前往機場還是市中心?",
+      "starter": "Is",
+      "answer": "Is this coach headed for the airport or the city centre?",
+      "answerZh": "這輛旅遊巴正前往機場還是市中心?",
+      "highlight": "Is this coach headed for",
+      "targetForm": "be headed for something",
+      "targetMeaningZh": "正前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Their plan to prevent trouble worked well.",
+      "promptZh": "他們為避免麻煩而制定的計劃很有效。",
+      "starter": "Their",
+      "answer": "Their plan to head off trouble worked well.",
+      "answerZh": "他們為避免麻煩而制定的計劃很有效。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Once the doors opened, the tour group left together.",
+      "promptZh": "門一打開,旅行團便一起出發。",
+      "starter": "Once",
+      "answer": "Once the doors opened, the tour group headed off together.",
+      "answerZh": "門一打開,旅行團便一起出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "It was getting late, so everyone started walking towards the exit.",
+      "promptZh": "時間愈來愈晚,所以大家開始朝出口走去。",
+      "starter": "It",
+      "answer": "It was getting late, so everyone started heading towards the exit.",
+      "answerZh": "時間愈來愈晚,所以大家開始朝出口走去。",
+      "highlight": "heading",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The shop worker saw two boys running towards the staff room and stopped them at the door.",
+      "promptZh": "店員看見兩名男孩跑向職員房,便在門口把他們攔住。",
+      "starter": "The",
+      "answer": "The shop worker saw two boys running towards the staff room and headed them off at the door.",
+      "answerZh": "店員看見兩名男孩跑向職員房,便在門口把他們攔住。",
+      "highlight": "headed",
+      "targetForm": "head somebody off",
+      "targetMeaningZh": "攔住某人"
+    },
+    {
+      "id": "phrasal-verb-111-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After checking the map, we decided to leave.",
+      "promptZh": "查看地圖後,我們決定出發。",
+      "starter": "After",
+      "answer": "After checking the map, we decided to head off.",
+      "answerZh": "查看地圖後,我們決定出發。",
+      "highlight": "head off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The students were travelling to the sports hall when it began to rain.",
+      "promptZh": "學生正前往體育館時,開始下雨。",
+      "starter": "The",
+      "answer": "The students were headed for the sports hall when it began to rain.",
+      "answerZh": "學生正前往體育館時,開始下雨。",
+      "highlight": "were headed for",
+      "targetForm": "be headed for something",
+      "targetMeaningZh": "正前往某處"
+    },
+    {
+      "id": "phrasal-verb-111-q41",
+      "number": 41,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "A short safety check before the trip helped prevent a problem with the bus.",
+      "promptZh": "出發前進行簡短的安全檢查,有助避免巴士出現問題。",
+      "starter": "A",
+      "answer": "A short safety check before the trip helped head off a problem with the bus.",
+      "answerZh": "出發前進行簡短的安全檢查,有助避免巴士出現問題。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q42",
+      "number": 42,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The sky was getting dark, so we decided to go towards the station rather than wait for another bus.",
+      "promptZh": "天色開始變暗,所以我們決定朝車站走,而不是等另一班巴士。",
+      "starter": "The",
+      "answer": "The sky was getting dark, so we decided to head towards the station rather than wait for another bus.",
+      "answerZh": "天色開始變暗,所以我們決定朝車站走,而不是等另一班巴士。",
+      "highlight": "head",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q43",
+      "number": 43,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Everyone was ready, but we did not leave until the driver arrived.",
+      "promptZh": "所有人都準備好了,但我們一直等到司機到達才出發。",
+      "starter": "Everyone",
+      "answer": "Everyone was ready, but we did not head off until the driver arrived.",
+      "answerZh": "所有人都準備好了,但我們一直等到司機到達才出發。",
+      "highlight": "head off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q44",
+      "number": 44,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The manager could see an argument starting and acted quickly to stop it.",
+      "promptZh": "經理看見一場爭執快要發生,便立即採取行動阻止它。",
+      "starter": "The",
+      "answer": "The manager could see an argument starting and acted quickly to head it off.",
+      "answerZh": "經理看見一場爭執快要發生,便立即採取行動阻止它。",
+      "highlight": "head",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    },
+    {
+      "id": "phrasal-verb-111-q45",
+      "number": 45,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The visitors asked which way the museum was, then began walking in that direction.",
+      "promptZh": "訪客問了博物館的方向,然後便朝那個方向走去。",
+      "starter": "The",
+      "answer": "The visitors asked which way the museum was, then headed towards it.",
+      "answerZh": "訪客問了博物館的方向,然後便朝那個方向走去。",
+      "highlight": "headed towards it",
+      "targetForm": "head towards something",
+      "targetMeaningZh": "朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q46",
+      "number": 46,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We had packed everything by six, so we left before the roads became busy.",
+      "promptZh": "我們六時前已收拾好所有東西,所以在道路變得繁忙前便出發。",
+      "starter": "We",
+      "answer": "We had packed everything by six, so we headed off before the roads became busy.",
+      "answerZh": "我們六時前已收拾好所有東西,所以在道路變得繁忙前便出發。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q47",
+      "number": 47,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A staff member saw Eva walking towards a private room and stopped her before she entered.",
+      "promptZh": "一名職員看見伊娃正走向一間私人房間,在她進入前把她攔住。",
+      "starter": "A",
+      "answer": "A staff member saw Eva walking towards a private room and headed her off before she entered.",
+      "answerZh": "一名職員看見伊娃正走向一間私人房間,在她進入前把她攔住。",
+      "highlight": "headed",
+      "targetForm": "head somebody off",
+      "targetMeaningZh": "攔住某人"
+    },
+    {
+      "id": "phrasal-verb-111-q48",
+      "number": 48,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Although the path was longer, the hikers were travelling towards the village and did not change direction.",
+      "promptZh": "雖然路程較長,但遠足者仍朝村莊前進,沒有改變方向。",
+      "starter": "Although",
+      "answer": "Although the path was longer, the hikers were headed towards the village and did not change direction.",
+      "answerZh": "雖然路程較長,但遠足者仍朝村莊前進,沒有改變方向。",
+      "highlight": "were headed",
+      "targetForm": "be headed towards something",
+      "targetMeaningZh": "正朝某方向前進"
+    },
+    {
+      "id": "phrasal-verb-111-q49",
+      "number": 49,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The guests thanked us, took their bags, and left.",
+      "promptZh": "客人向我們道謝,拿起自己的袋子後便離開。",
+      "starter": "The",
+      "answer": "The guests thanked us, took their bags, and headed off.",
+      "answerZh": "客人向我們道謝,拿起自己的袋子後便離開。",
+      "highlight": "headed off",
+      "targetForm": "head off",
+      "targetMeaningZh": "出發;離開"
+    },
+    {
+      "id": "phrasal-verb-111-q50",
+      "number": 50,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The team knew people might complain, so an early rule change helped prevent those complaints.",
+      "promptZh": "團隊知道人們可能會投訴,所以及早更改規則有助避免這些投訴。",
+      "starter": "The",
+      "answer": "The team knew people might complain, so an early rule change helped head off those complaints.",
+      "answerZh": "團隊知道人們可能會投訴,所以及早更改規則有助避免這些投訴。",
+      "highlight": "head off",
+      "targetForm": "head something off",
+      "targetMeaningZh": "及早阻止某事發生"
+    }
+  ]
+}

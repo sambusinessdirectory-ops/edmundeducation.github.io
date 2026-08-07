@@ -1,0 +1,2011 @@
+{
+  "id": "phrasal-verb-275",
+  "order": 275,
+  "slug": "send",
+  "version": "1",
+  "title": "SEND 動詞片語",
+  "titleEn": "Send",
+  "titleZh": "SEND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 260 - SEND.pdf",
+    "sourceNumber": 260,
+    "pageCount": 32,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SEND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SEND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SEND",
+      "highlight": "SEND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We sent away for a free guide.",
+      "zh": "我們寄出申請,索取免費指南。",
+      "highlight": "sent away for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The guard sent the visitors away.",
+      "zh": "警衞叫訪客離開。",
+      "highlight": "sent the visitors away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please send the shoes back to the shop.",
+      "zh": "請把鞋子退回店舖。",
+      "highlight": "send the shoes back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "寄出申請或訂單,以索取某物；叫某人離開;拒絕讓某人留下；把某人或某物送回、退回原處；派某人外出執行工作或尋找某人、某物；派人去叫某人前來;召喚所需的人、車輛或協助；派某人進入某處處理事情；提交表格、作品、申請或資料；在體育比賽中把球員罰離場；寄出信件、包裹、表格或文件；把收到的東西轉寄給另一個人或另一個地址；訂購食物或其他物品,請人送來",
+    "en": "send away for something / send off for something; send somebody away; send somebody/something back to somebody/something; send somebody out; send for somebody/something; send somebody in; send something in; send somebody off; send something off to somebody; send something on; send out for something",
+    "naturalZh": [
+      "寄出申請或訂單,以索取某物",
+      "叫某人離開;拒絕讓某人留下",
+      "把某人或某物送回、退回原處",
+      "派某人外出執行工作或尋找某人、某物",
+      "派人去叫某人前來;召喚所需的人、車輛或協助",
+      "派某人進入某處處理事情",
+      "提交表格、作品、申請或資料",
+      "在體育比賽中把球員罰離場",
+      "寄出信件、包裹、表格或文件",
+      "把收到的東西轉寄給另一個人或另一個地址",
+      "訂購食物或其他物品,請人送來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "send away for something / send off for something",
+      "titleZh": "寄出申請或訂單,以索取某物",
+      "titleEn": "send away for something / send off for something",
+      "descriptionZh": "寄出申請或訂單,以索取某物",
+      "descriptionEn": "We sent away for a free guide.",
+      "examples": [
+        {
+          "en": "We sent away for a free guide.",
+          "zh": "我們寄出申請,索取免費指南。",
+          "highlight": "sent away for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send somebody away",
+      "titleZh": "叫某人離開;拒絕讓某人留下",
+      "titleEn": "send somebody away",
+      "descriptionZh": "叫某人離開;拒絕讓某人留下",
+      "descriptionEn": "The guard sent the visitors away.",
+      "examples": [
+        {
+          "en": "The guard sent the visitors away.",
+          "zh": "警衞叫訪客離開。",
+          "highlight": "sent the visitors away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send somebody/something back to somebody/something",
+      "titleZh": "把某人或某物送回、退回原處",
+      "titleEn": "send somebody/something back to somebody/something",
+      "descriptionZh": "把某人或某物送回、退回原處",
+      "descriptionEn": "Please send the shoes back to the shop.",
+      "examples": [
+        {
+          "en": "Please send the shoes back to the shop.",
+          "zh": "請把鞋子退回店舖。",
+          "highlight": "send the shoes back to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send somebody out",
+      "titleZh": "派某人外出執行工作或尋找某人、某物",
+      "titleEn": "send somebody out",
+      "descriptionZh": "派某人外出執行工作或尋找某人、某物",
+      "descriptionEn": "I sent Alex out to look for the dog.",
+      "examples": [
+        {
+          "en": "I sent Alex out to look for the dog.",
+          "zh": "我派阿歷克斯外出尋找那隻狗。",
+          "highlight": "sent Alex out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send for somebody/something",
+      "titleZh": "派人去叫某人前來;召喚所需的人、車輛或協助",
+      "titleEn": "send for somebody/something",
+      "descriptionZh": "派人去叫某人前來;召喚所需的人、車輛或協助",
+      "descriptionEn": "Someone sent for a doctor.",
+      "examples": [
+        {
+          "en": "Someone sent for a doctor.",
+          "zh": "有人召喚醫生前來。",
+          "highlight": "sent for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send somebody in",
+      "titleZh": "派某人進入某處處理事情",
+      "titleEn": "send somebody in",
+      "descriptionZh": "派某人進入某處處理事情",
+      "descriptionEn": "The police sent two officers in.",
+      "examples": [
+        {
+          "en": "The police sent two officers in.",
+          "zh": "警方派了兩名警員進入現場。",
+          "highlight": "sent two officers in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "send something in",
+      "titleZh": "提交表格、作品、申請或資料",
+      "titleEn": "send something in",
+      "descriptionZh": "提交表格、作品、申請或資料",
+      "descriptionEn": "Lena sent in her application.",
+      "examples": [
+        {
+          "en": "Lena sent in her application.",
+          "zh": "莉娜提交了申請。",
+          "highlight": "sent in"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "send somebody off",
+      "titleZh": "在體育比賽中把球員罰離場",
+      "titleEn": "send somebody off",
+      "descriptionZh": "在體育比賽中把球員罰離場",
+      "descriptionEn": "The referee sent the player off.",
+      "examples": [
+        {
+          "en": "The referee sent the player off.",
+          "zh": "球證把該名球員罰離場。",
+          "highlight": "sent the player off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "send something off to somebody",
+      "titleZh": "寄出信件、包裹、表格或文件",
+      "titleEn": "send something off to somebody",
+      "descriptionZh": "寄出信件、包裹、表格或文件",
+      "descriptionEn": "I sent the parcel off yesterday.",
+      "examples": [
+        {
+          "en": "I sent the parcel off yesterday.",
+          "zh": "我昨天寄出了包裹。",
+          "highlight": "sent the parcel off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "send something on",
+      "titleZh": "把收到的東西轉寄給另一個人或另一個地址",
+      "titleEn": "send something on",
+      "descriptionZh": "把收到的東西轉寄給另一個人或另一個地址",
+      "descriptionEn": "Please send this letter on to my new address.",
+      "examples": [
+        {
+          "en": "Please send this letter on to my new address.",
+          "zh": "請把這封信轉寄到我的新地址。",
+          "highlight": "send this letter on"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "send out for something",
+      "titleZh": "訂購食物或其他物品,請人送來",
+      "titleEn": "send out for something",
+      "descriptionZh": "訂購食物或其他物品,請人送來",
+      "descriptionEn": "We sent out for a takeaway.",
+      "examples": [
+        {
+          "en": "We sent out for a takeaway.",
+          "zh": "我們叫了外賣。",
+          "highlight": "sent out for"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SEND 片語動詞的實際用途",
+    "labelEn": "SEND Phrasal Verbs in Use",
+    "summaryZh": "需要醫生、救護車、工作人員或其他協助時,可以使用 send for。；send away、send back、send out 和 send in 可以表示不同方向和目的。；你可以 send in 一份申請、send off 一個包裹,或把信件 send on 到另一個地址。；send out for 可以表示叫外賣;send somebody off 則可以表示把球員罰離場。",
+    "summaryEn": "Send for can be used when a doctor, ambulance, worker or other form of help is needed. Send away, send back, send out and send in show different directions and purposes. You can send in an application, send off a parcel and send a letter on to another address. Send out for can describe ordering a takeaway, while send somebody off describes a player being removed from a match.",
+    "contextsZh": [
+      "清楚表示召喚人員或協助",
+      "清楚描述人物和物件被送往哪裏",
+      "自然談論表格、信件和包裹",
+      "描述外賣訂單和球賽判決"
+    ],
+    "contextsEn": [
+      "Ask for people and help clearly",
+      "Describe where people and things are directed",
+      "Talk naturally about forms, letters and parcels",
+      "Describe food orders and sports decisions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SEND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SEND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "send away for something / send off for something",
+    "fixedHighlight": "send away for something / send off for something",
+    "fixedZh": "閱讀整句,選出意思相同的 SEND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SEND expression that gives the same meaning.",
+    "correct": "sent away for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在本練習中,send away 有兩種不同用法:send somebody away = 叫某人離開send away for something = 寄出申請或訂單,索取某物；請仔細留意以上 SEND OFF 例子的不同意思和用法。",
+    "variableEn": "Keep the same people, things, time and meaning. Send away has two different uses in this exercise: send somebody away = tell somebody to leave send away for something = ask for something to be posted to you Read these SEND OFF examples carefully: send off for a free toy send a player off send a letter off send it off",
+    "variableItemsZh": [
+      "send away for something / send off for something",
+      "send somebody away",
+      "send somebody/something back to somebody/something",
+      "send somebody out",
+      "send for somebody/something",
+      "send somebody in",
+      "send something in",
+      "send somebody off",
+      "send something off to somebody",
+      "send something on",
+      "send out for something"
+    ],
+    "variableItemsEn": [
+      "send away for something / send off for something",
+      "send somebody away",
+      "send somebody/something back to somebody/something",
+      "send somebody out",
+      "send for somebody/something",
+      "send somebody in",
+      "send something in",
+      "send somebody off",
+      "send something off to somebody",
+      "send something on",
+      "send out for something"
+    ],
+    "forms": [
+      {
+        "formZh": "寄出申請或訂單,以索取某物",
+        "formEn": "send away for something / send off for something",
+        "exampleZh": "我們寄出申請,索取免費指南。",
+        "exampleEn": "We sent away for a free guide.",
+        "highlight": "sent away for"
+      },
+      {
+        "formZh": "叫某人離開;拒絕讓某人留下",
+        "formEn": "send somebody away",
+        "exampleZh": "警衞叫訪客離開。",
+        "exampleEn": "The guard sent the visitors away.",
+        "highlight": "sent the visitors away"
+      },
+      {
+        "formZh": "把某人或某物送回、退回原處",
+        "formEn": "send somebody/something back to somebody/something",
+        "exampleZh": "請把鞋子退回店舖。",
+        "exampleEn": "Please send the shoes back to the shop.",
+        "highlight": "send the shoes back to"
+      },
+      {
+        "formZh": "派某人外出執行工作或尋找某人、某物",
+        "formEn": "send somebody out",
+        "exampleZh": "我派阿歷克斯外出尋找那隻狗。",
+        "exampleEn": "I sent Alex out to look for the dog.",
+        "highlight": "sent Alex out"
+      },
+      {
+        "formZh": "派人去叫某人前來;召喚所需的人、車輛或協助",
+        "formEn": "send for somebody/something",
+        "exampleZh": "有人召喚醫生前來。",
+        "exampleEn": "Someone sent for a doctor.",
+        "highlight": "sent for"
+      },
+      {
+        "formZh": "派某人進入某處處理事情",
+        "formEn": "send somebody in",
+        "exampleZh": "警方派了兩名警員進入現場。",
+        "exampleEn": "The police sent two officers in.",
+        "highlight": "sent two officers in"
+      },
+      {
+        "formZh": "提交表格、作品、申請或資料",
+        "formEn": "send something in",
+        "exampleZh": "莉娜提交了申請。",
+        "exampleEn": "Lena sent in her application.",
+        "highlight": "sent in"
+      },
+      {
+        "formZh": "在體育比賽中把球員罰離場",
+        "formEn": "send somebody off",
+        "exampleZh": "球證把該名球員罰離場。",
+        "exampleEn": "The referee sent the player off.",
+        "highlight": "sent the player off"
+      },
+      {
+        "formZh": "寄出信件、包裹、表格或文件",
+        "formEn": "send something off to somebody",
+        "exampleZh": "我昨天寄出了包裹。",
+        "exampleEn": "I sent the parcel off yesterday.",
+        "highlight": "sent the parcel off"
+      },
+      {
+        "formZh": "把收到的東西轉寄給另一個人或另一個地址",
+        "formEn": "send something on",
+        "exampleZh": "請把這封信轉寄到我的新地址。",
+        "exampleEn": "Please send this letter on to my new address.",
+        "highlight": "send this letter on"
+      },
+      {
+        "formZh": "訂購食物或其他物品,請人送來",
+        "formEn": "send out for something",
+        "exampleZh": "我們叫了外賣。",
+        "exampleEn": "We sent out for a takeaway.",
+        "highlight": "sent out for"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "寄出申請或訂單,以索取某物",
+      "titleEn": "send away for something / send off for something",
+      "formula": "send away for something / send off for something",
+      "highlight": "send away for something / send off for something",
+      "descriptionZh": "寄出申請或訂單,以索取某物",
+      "descriptionEn": "We sent away for a free guide.",
+      "examples": [
+        {
+          "en": "We sent away for a free guide.",
+          "zh": "我們寄出申請,索取免費指南。",
+          "highlight": "sent away for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "叫某人離開;拒絕讓某人留下",
+      "titleEn": "send somebody away",
+      "formula": "send somebody away",
+      "highlight": "send somebody away",
+      "descriptionZh": "叫某人離開;拒絕讓某人留下",
+      "descriptionEn": "The guard sent the visitors away.",
+      "examples": [
+        {
+          "en": "The guard sent the visitors away.",
+          "zh": "警衞叫訪客離開。",
+          "highlight": "sent the visitors away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物送回、退回原處",
+      "titleEn": "send somebody/something back to somebody/something",
+      "formula": "send somebody/something back to somebody/something",
+      "highlight": "send somebody/something back to somebody/something",
+      "descriptionZh": "把某人或某物送回、退回原處",
+      "descriptionEn": "Please send the shoes back to the shop.",
+      "examples": [
+        {
+          "en": "Please send the shoes back to the shop.",
+          "zh": "請把鞋子退回店舖。",
+          "highlight": "send the shoes back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "派某人外出執行工作或尋找某人、某物",
+      "titleEn": "send somebody out",
+      "formula": "send somebody out",
+      "highlight": "send somebody out",
+      "descriptionZh": "派某人外出執行工作或尋找某人、某物",
+      "descriptionEn": "I sent Alex out to look for the dog.",
+      "examples": [
+        {
+          "en": "I sent Alex out to look for the dog.",
+          "zh": "我派阿歷克斯外出尋找那隻狗。",
+          "highlight": "sent Alex out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "派人去叫某人前來;召喚所需的人、車輛或協助",
+      "titleEn": "send for somebody/something",
+      "formula": "send for somebody/something",
+      "highlight": "send for somebody/something",
+      "descriptionZh": "派人去叫某人前來;召喚所需的人、車輛或協助",
+      "descriptionEn": "Someone sent for a doctor.",
+      "examples": [
+        {
+          "en": "Someone sent for a doctor.",
+          "zh": "有人召喚醫生前來。",
+          "highlight": "sent for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "派某人進入某處處理事情",
+      "titleEn": "send somebody in",
+      "formula": "send somebody in",
+      "highlight": "send somebody in",
+      "descriptionZh": "派某人進入某處處理事情",
+      "descriptionEn": "The police sent two officers in.",
+      "examples": [
+        {
+          "en": "The police sent two officers in.",
+          "zh": "警方派了兩名警員進入現場。",
+          "highlight": "sent two officers in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "提交表格、作品、申請或資料",
+      "titleEn": "send something in",
+      "formula": "send something in",
+      "highlight": "send something in",
+      "descriptionZh": "提交表格、作品、申請或資料",
+      "descriptionEn": "Lena sent in her application.",
+      "examples": [
+        {
+          "en": "Lena sent in her application.",
+          "zh": "莉娜提交了申請。",
+          "highlight": "sent in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在體育比賽中把球員罰離場",
+      "titleEn": "send somebody off",
+      "formula": "send somebody off",
+      "highlight": "send somebody off",
+      "descriptionZh": "在體育比賽中把球員罰離場",
+      "descriptionEn": "The referee sent the player off.",
+      "examples": [
+        {
+          "en": "The referee sent the player off.",
+          "zh": "球證把該名球員罰離場。",
+          "highlight": "sent the player off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "寄出信件、包裹、表格或文件",
+      "titleEn": "send something off to somebody",
+      "formula": "send something off to somebody",
+      "highlight": "send something off to somebody",
+      "descriptionZh": "寄出信件、包裹、表格或文件",
+      "descriptionEn": "I sent the parcel off yesterday.",
+      "examples": [
+        {
+          "en": "I sent the parcel off yesterday.",
+          "zh": "我昨天寄出了包裹。",
+          "highlight": "sent the parcel off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把收到的東西轉寄給另一個人或另一個地址",
+      "titleEn": "send something on",
+      "formula": "send something on",
+      "highlight": "send something on",
+      "descriptionZh": "把收到的東西轉寄給另一個人或另一個地址",
+      "descriptionEn": "Please send this letter on to my new address.",
+      "examples": [
+        {
+          "en": "Please send this letter on to my new address.",
+          "zh": "請把這封信轉寄到我的新地址。",
+          "highlight": "send this letter on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "訂購食物或其他物品,請人送來",
+      "titleEn": "send out for something",
+      "formula": "send out for something",
+      "highlight": "send out for something",
+      "descriptionZh": "訂購食物或其他物品,請人送來",
+      "descriptionEn": "We sent out for a takeaway.",
+      "examples": [
+        {
+          "en": "We sent out for a takeaway.",
+          "zh": "我們叫了外賣。",
+          "highlight": "sent out for"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表示召喚人員或協助",
+      "titleEn": "Ask for people and help clearly",
+      "zh": "需要醫生、救護車、工作人員或其他協助時,可以使用 send for。",
+      "en": "Send for can be used when a doctor, ambulance, worker or other form of help is needed."
+    },
+    {
+      "titleZh": "清楚描述人物和物件被送往哪裏",
+      "titleEn": "Describe where people and things are directed",
+      "zh": "send away、send back、send out 和 send in 可以表示不同方向和目的。",
+      "en": "Send away, send back, send out and send in show different directions and purposes."
+    },
+    {
+      "titleZh": "自然談論表格、信件和包裹",
+      "titleEn": "Talk naturally about forms, letters and parcels",
+      "zh": "你可以 send in 一份申請、send off 一個包裹,或把信件 send on 到另一個地址。",
+      "en": "You can send in an application, send off a parcel and send a letter on to another address."
+    },
+    {
+      "titleZh": "描述外賣訂單和球賽判決",
+      "titleEn": "Describe food orders and sports decisions",
+      "zh": "send out for 可以表示叫外賣;send somebody off 則可以表示把球員罰離場。",
+      "en": "Send out for can describe ordering a takeaway, while send somebody off describes a player being removed from a match."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表示召喚人員或協助",
+      "清楚描述人物和物件被送往哪裏",
+      "自然談論表格、信件和包裹",
+      "描述外賣訂單和球賽判決"
+    ],
+    "contextsEn": [
+      "Ask for people and help clearly",
+      "Describe where people and things are directed",
+      "Talk naturally about forms, letters and parcels",
+      "Describe food orders and sports decisions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表示召喚人員或協助",
+        "titleEn": "Ask for people and help clearly",
+        "zh": "需要醫生、救護車、工作人員或其他協助時,可以使用 send for。",
+        "en": "Send for can be used when a doctor, ambulance, worker or other form of help is needed.",
+        "examples": [
+          {
+            "en": "We sent away for a free guide.",
+            "zh": "我們寄出申請,索取免費指南。",
+            "highlight": "sent away for"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述人物和物件被送往哪裏",
+        "titleEn": "Describe where people and things are directed",
+        "zh": "send away、send back、send out 和 send in 可以表示不同方向和目的。",
+        "en": "Send away, send back, send out and send in show different directions and purposes.",
+        "examples": [
+          {
+            "en": "The guard sent the visitors away.",
+            "zh": "警衞叫訪客離開。",
+            "highlight": "sent the visitors away"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論表格、信件和包裹",
+        "titleEn": "Talk naturally about forms, letters and parcels",
+        "zh": "你可以 send in 一份申請、send off 一個包裹,或把信件 send on 到另一個地址。",
+        "en": "You can send in an application, send off a parcel and send a letter on to another address.",
+        "examples": [
+          {
+            "en": "Please send the shoes back to the shop.",
+            "zh": "請把鞋子退回店舖。",
+            "highlight": "send the shoes back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述外賣訂單和球賽判決",
+        "titleEn": "Describe food orders and sports decisions",
+        "zh": "send out for 可以表示叫外賣;send somebody off 則可以表示把球員罰離場。",
+        "en": "Send out for can describe ordering a takeaway, while send somebody off describes a player being removed from a match.",
+        "examples": [
+          {
+            "en": "I sent Alex out to look for the dog.",
+            "zh": "我派阿歷克斯外出尋找那隻狗。",
+            "highlight": "sent Alex out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SEND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SEND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SEND 片語動詞。",
+      "en": "Read the whole sentence and choose the SEND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在本練習中,send away 有兩種不同用法:send somebody away = 叫某人離開send away for something = 寄出申請或訂單,索取某物",
+      "titleEn": "Send away has two different uses in this exercise: send somebody away = tell somebody to leave send away for something = ask for something to be posted to you.",
+      "zh": "在本練習中,send away 有兩種不同用法:send somebody away = 叫某人離開send away for something = 寄出申請或訂單,索取某物",
+      "en": "Send away has two different uses in this exercise: send somebody away = tell somebody to leave send away for something = ask for something to be posted to you"
+    },
+    {
+      "titleZh": "請仔細留意以上 SEND OFF 例子的不同意思和用法。",
+      "titleEn": "Read these SEND OFF examples carefully: send off for a free toy send a player off send a letter off send it off.",
+      "zh": "請仔細留意以上 SEND OFF 例子的不同意思和用法。",
+      "en": "Read these SEND OFF examples carefully: send off for a free toy send a player off send a letter off send it off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SEND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SEND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SEND 動詞片語句子改寫練習",
+    "titleEn": "SEND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SEND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SEND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-275-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Please call a doctor and ask them to come at once.",
+      "promptZh": "請立即召喚醫生前來。",
+      "starter": "Please",
+      "answer": "Please send for a doctor at once.",
+      "answerZh": "請立即召喚醫生前來。",
+      "highlight": "send for",
+      "targetForm": "send for somebody",
+      "targetMeaningZh": "召喚某人前來"
+    },
+    {
+      "id": "phrasal-verb-275-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The shop returned the damaged lamp to the supplier.",
+      "promptZh": "店舖把損壞的燈退回供應商。",
+      "starter": "The",
+      "answer": "The shop sent the damaged lamp back to the supplier.",
+      "answerZh": "店舖把損壞的燈退回供應商。",
+      "highlight": "sent",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The referee ordered Lewis to leave the field for a dangerous tackle.",
+      "promptZh": "路易斯作出危險攔截後,球證命令他離場。",
+      "starter": "The",
+      "answer": "The referee sent Lewis off for a dangerous tackle.",
+      "answerZh": "路易斯作出危險攔截後,球證把他罰離場。",
+      "highlight": "sent",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "We wrote to the company and asked it to post us a free travel guide.",
+      "promptZh": "我們寫信給公司,請它寄給我們一本免費旅遊指南。",
+      "starter": "We",
+      "answer": "We sent away for a free travel guide.",
+      "answerZh": "我們寄出申請,索取免費旅遊指南。",
+      "highlight": "sent away for",
+      "targetForm": "send away for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Dad asked Alex to go outside and look for the missing dog.",
+      "promptZh": "爸爸叫阿歷克斯外出尋找失蹤的狗。",
+      "starter": "Dad",
+      "answer": "Dad sent Alex out to look for the missing dog.",
+      "answerZh": "爸爸派阿歷克斯外出尋找失蹤的狗。",
+      "highlight": "sent",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The guard told the visitors to leave after closing time.",
+      "promptZh": "關門時間過後,警衞叫訪客離開。",
+      "starter": "The",
+      "answer": "The guard sent the visitors away after closing time.",
+      "answerZh": "關門時間過後,警衞叫訪客離開。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Our school submitted three entries for the art competition.",
+      "promptZh": "我們學校為藝術比賽提交了三份參賽作品。",
+      "starter": "Our",
+      "answer": "Our school sent in three entries for the art competition.",
+      "answerZh": "我們學校為藝術比賽提交了三份參賽作品。",
+      "highlight": "sent in",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交作品、表格或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We ordered pizza to be delivered after the match.",
+      "promptZh": "比賽後,我們訂了薄餅外賣。",
+      "starter": "We",
+      "answer": "We sent out for pizza after the match.",
+      "answerZh": "比賽後,我們訂了薄餅外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The old office forwarded my letters to my new address.",
+      "promptZh": "舊辦公室把我的信件轉寄到新地址。",
+      "starter": "The",
+      "answer": "The old office sent my letters on to my new address.",
+      "answerZh": "舊辦公室把我的信件轉寄到新地址。",
+      "highlight": "sent",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄"
+    },
+    {
+      "id": "phrasal-verb-275-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The police ordered two officers to enter the hall and calm the crowd.",
+      "promptZh": "警方命令兩名警員進入禮堂,令群眾冷靜下來。",
+      "starter": "The",
+      "answer": "The police sent two officers in to calm the crowd.",
+      "answerZh": "警方派了兩名警員進入禮堂,令群眾冷靜下來。",
+      "highlight": "sent",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "I posted the parcel this morning.",
+      "promptZh": "我今早寄出了包裹。",
+      "starter": "I",
+      "answer": "I sent the parcel off this morning.",
+      "answerZh": "我今早寄出了包裹。",
+      "highlight": "sent",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The coach told Ben to return to the changing room.",
+      "promptZh": "教練叫賓返回更衣室。",
+      "starter": "The",
+      "answer": "The coach sent Ben back to the changing room.",
+      "answerZh": "教練叫賓返回更衣室。",
+      "highlight": "sent",
+      "targetForm": "send somebody back",
+      "targetMeaningZh": "叫某人返回原處"
+    },
+    {
+      "id": "phrasal-verb-275-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Someone should call an ambulance at once.",
+      "promptZh": "應該立即召喚救護車。",
+      "starter": "Someone",
+      "answer": "Someone should send for an ambulance at once.",
+      "answerZh": "應該立即召喚救護車。",
+      "highlight": "send for",
+      "targetForm": "send for something",
+      "targetMeaningZh": "召喚所需的車輛或協助"
+    },
+    {
+      "id": "phrasal-verb-275-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The manager told the rude customer to leave.",
+      "promptZh": "經理叫那名無禮的顧客離開。",
+      "starter": "The",
+      "answer": "The manager sent the rude customer away.",
+      "answerZh": "經理叫那名無禮的顧客離開。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "She posted a request for the free recipe book.",
+      "promptZh": "她寄出申請,索取免費食譜。",
+      "starter": "She",
+      "answer": "She sent off for the free recipe book.",
+      "answerZh": "她寄出申請,索取免費食譜。",
+      "highlight": "sent off",
+      "targetForm": "send off for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The students ordered noodles to be delivered at lunchtime.",
+      "promptZh": "學生在午飯時間訂了麵食外賣。",
+      "starter": "The",
+      "answer": "The students sent out for noodles at lunchtime.",
+      "answerZh": "學生在午飯時間訂了麵食外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Lena has submitted her application for the summer course.",
+      "promptZh": "莉娜已提交暑期課程的申請。",
+      "starter": "Lena",
+      "answer": "Lena has sent in her application for the summer course.",
+      "answerZh": "莉娜已提交暑期課程的申請。",
+      "highlight": "sent in",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交申請、表格或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Why did the teacher tell the two boys to leave?",
+      "promptZh": "老師為何叫那兩名男生離開?",
+      "starter": "Why",
+      "answer": "Why did the teacher send the two boys away?",
+      "answerZh": "老師為何叫那兩名男生離開?",
+      "highlight": "send",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The hotel is asking a worker to go and fix the broken light.",
+      "promptZh": "酒店正派一名工人前往修理損壞的燈。",
+      "starter": "The",
+      "answer": "The hotel is sending a worker out to fix the broken light.",
+      "answerZh": "酒店正派一名工人前往修理損壞的燈。",
+      "highlight": "sending",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Could you forward this message to Farah?",
+      "promptZh": "你可以把這則訊息轉寄給法拉嗎?",
+      "starter": "Could",
+      "answer": "Could you send this message on to Farah?",
+      "answerZh": "你可以把這則訊息轉寄給法拉嗎?",
+      "highlight": "send",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄"
+    },
+    {
+      "id": "phrasal-verb-275-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "We may need to ask someone to bring help if the lift stops.",
+      "promptZh": "如果升降機停下來,我們可能需要請人帶救援人員前來。",
+      "starter": "We",
+      "answer": "We may need to send for help if the lift stops.",
+      "answerZh": "如果升降機停下來,我們可能需要召喚協助。",
+      "highlight": "send for",
+      "targetForm": "send for something",
+      "targetMeaningZh": "召喚所需的協助"
+    },
+    {
+      "id": "phrasal-verb-275-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The referee ordered the player to leave the field in the second half.",
+      "promptZh": "下半場時,球證命令該名球員離場。",
+      "starter": "The",
+      "answer": "The player was sent off in the second half.",
+      "answerZh": "該名球員在下半場被罰離場。",
+      "highlight": "was sent off",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The fire service will order a rescue team to enter the building.",
+      "promptZh": "消防部門會派救援隊進入大樓。",
+      "starter": "The",
+      "answer": "The fire service will send a rescue team in.",
+      "answerZh": "消防部門會派救援隊進入大樓。",
+      "highlight": "send",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Please return these shoes if they do not fit.",
+      "promptZh": "如果這雙鞋不合穿,請把它們退回。",
+      "starter": "Please",
+      "answer": "Please send these shoes back if they do not fit.",
+      "answerZh": "如果這雙鞋不合穿,請把它們退回。",
+      "highlight": "send",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Has Arun posted the form yet?",
+      "promptZh": "阿倫寄出表格了嗎?",
+      "starter": "Has",
+      "answer": "Has Arun sent the form off yet?",
+      "answerZh": "阿倫寄出表格了嗎?",
+      "highlight": "sent",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Shall we order curry to be delivered tonight?",
+      "promptZh": "我們今晚叫咖喱外賣好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we send out for curry tonight?",
+      "answerZh": "我們今晚叫咖喱外賣好嗎?",
+      "highlight": "send out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "You can ask the company to post you a free sample by using the form in the magazine.",
+      "promptZh": "你可以使用雜誌內的表格,請公司寄給你免費樣本。",
+      "starter": "You",
+      "answer": "You can send away for a free sample by using the form in the magazine.",
+      "answerZh": "你可以使用雜誌內的表格,寄出申請索取免費樣本。",
+      "highlight": "send away for",
+      "targetForm": "send away for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The club is submitting its final list tomorrow.",
+      "promptZh": "該會明天會提交最終名單。",
+      "starter": "The",
+      "answer": "The club is sending in its final list tomorrow.",
+      "answerZh": "該會明天會提交最終名單。",
+      "highlight": "sending in",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交表格、名單或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Who did the manager ask to go outside and check the road?",
+      "promptZh": "經理派了誰外出檢查道路?",
+      "starter": "Who",
+      "answer": "Who did the manager send out to check the road?",
+      "answerZh": "經理派了誰外出檢查道路?",
+      "highlight": "send out",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The school has forwarded the parents’ letters to the new head teacher.",
+      "promptZh": "學校已把家長的信件轉交給新校長。",
+      "starter": "The",
+      "answer": "The school has sent the parents’ letters on to the new head teacher.",
+      "answerZh": "學校已把家長的信件轉交給新校長。",
+      "highlight": "sent",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉交"
+    },
+    {
+      "id": "phrasal-verb-275-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "They did not order the soldiers to enter the town until morning.",
+      "promptZh": "他們直至早上才命令士兵進入城鎮。",
+      "starter": "They",
+      "answer": "They did not send the soldiers in until morning.",
+      "answerZh": "他們直至早上才派士兵進入城鎮。",
+      "highlight": "send",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We will post the invitations on Friday.",
+      "promptZh": "我們會在星期五寄出邀請函。",
+      "starter": "We",
+      "answer": "We will send the invitations off on Friday.",
+      "answerZh": "我們會在星期五寄出邀請函。",
+      "highlight": "send",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The hotel had no free rooms, so it told us to leave.",
+      "promptZh": "酒店沒有空房,所以叫我們離開。",
+      "starter": "The",
+      "answer": "The hotel had no free rooms, so it sent us away.",
+      "answerZh": "酒店沒有空房,所以叫我們離開。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "I no longer live there, so please forward any important post to my sister.",
+      "promptZh": "我已不再住在那裏,所以請把任何重要郵件轉寄給我姐姐。",
+      "starter": "I",
+      "answer": "I no longer live there, so please send any important post on to my sister.",
+      "answerZh": "我已不再住在那裏,所以請把任何重要郵件轉寄給我姐姐。",
+      "highlight": "send",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄"
+    },
+    {
+      "id": "phrasal-verb-275-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After collecting six labels, Rosa posted a request to receive the free toy.",
+      "promptZh": "羅莎收集了六個標籤後,寄出申請以索取免費玩具。",
+      "starter": "After",
+      "answer": "After collecting six labels, Rosa sent off for the free toy.",
+      "answerZh": "羅莎收集了六個標籤後,寄出申請索取免費玩具。",
+      "highlight": "sent off for",
+      "targetForm": "send off for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The noise continued, so the head teacher ordered two staff members to enter the room and stop it.",
+      "promptZh": "噪音持續,所以校長派兩名職員進入房間制止。",
+      "starter": "The",
+      "answer": "The noise continued, so the head teacher sent two staff members in to stop it.",
+      "answerZh": "噪音持續,所以校長派兩名職員進入房間制止。",
+      "highlight": "sent",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "These books belong to the library; I will return them tomorrow.",
+      "promptZh": "這些書屬於圖書館;我明天會把它們歸還。",
+      "starter": "These",
+      "answer": "These books belong to the library; I will send them back tomorrow.",
+      "answerZh": "這些書屬於圖書館;我明天會把它們歸還。",
+      "highlight": "send",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The referee ordered the defender to leave the field after a second yellow card.",
+      "promptZh": "該名後衞取得第二張黃牌後,球證命令他離場。",
+      "starter": "The",
+      "answer": "The defender was sent off after receiving a second yellow card.",
+      "answerZh": "該名後衞取得第二張黃牌後被罰離場。",
+      "highlight": "was sent off",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The child could not breathe well, so his father called a doctor and asked her to come.",
+      "promptZh": "孩子呼吸不順,所以他的父親召喚醫生前來。",
+      "starter": "The",
+      "answer": "The child could not breathe well, so his father sent for a doctor.",
+      "answerZh": "孩子呼吸不順,所以他的父親召喚醫生前來。",
+      "highlight": "sent for",
+      "targetForm": "send for somebody",
+      "targetMeaningZh": "召喚某人前來"
+    },
+    {
+      "id": "phrasal-verb-275-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The letter is ready; could you post it before lunch?",
+      "promptZh": "信件已準備好;你可以在午飯前寄出嗎?",
+      "starter": "The",
+      "answer": "The letter is ready; could you send it off before lunch?",
+      "answerZh": "信件已準備好;你可以在午飯前寄出嗎?",
+      "highlight": "send",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "I have completed the form and will submit it today.",
+      "promptZh": "我已填妥表格,並會在今天提交。",
+      "starter": "I",
+      "answer": "I have completed the form and will send it in today.",
+      "answerZh": "我已填妥表格,並會在今天提交。",
+      "highlight": "send",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交表格、作品或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We were too tired to cook, so we ordered a takeaway.",
+      "promptZh": "我們太累,不想煮飯,所以叫了外賣。",
+      "starter": "We",
+      "answer": "We were too tired to cook, so we sent out for a takeaway.",
+      "answerZh": "我們太累,不想煮飯,所以叫了外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The ranger asked two volunteers to go and search the path.",
+      "promptZh": "巡邏員派兩名義工前往搜索小徑。",
+      "starter": "The",
+      "answer": "The ranger sent two volunteers out to search the path.",
+      "answerZh": "巡邏員派兩名義工前往搜索小徑。",
+      "highlight": "sent",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "After checking my order, the shop returned the wrong item to the warehouse.",
+      "promptZh": "店舖檢查我的訂單後,把錯誤的貨品送回貨倉。",
+      "starter": "After",
+      "answer": "After checking my order, the shop sent the wrong item back to the warehouse.",
+      "answerZh": "店舖檢查我的訂單後,把錯誤的貨品送回貨倉。",
+      "highlight": "sent",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "You do not need to visit the shop; just ask the company to post you the catalogue.",
+      "promptZh": "你不必前往店舖;只需請公司把目錄寄給你。",
+      "starter": "You",
+      "answer": "You do not need to visit the shop; just send away for the catalogue.",
+      "answerZh": "你不必前往店舖;只需寄出申請索取目錄。",
+      "highlight": "send away for",
+      "targetForm": "send away for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Why did the referee order the goalkeeper to leave before the end of the match?",
+      "promptZh": "球證為何在比賽結束前命令守門員離場?",
+      "starter": "Why",
+      "answer": "Why was the goalkeeper sent off before the end of the match?",
+      "answerZh": "守門員為何在比賽結束前被罰離場?",
+      "highlight": "was",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "When the child became very ill, the neighbour immediately called an ambulance.",
+      "promptZh": "孩子病得很嚴重時,鄰居立即召喚救護車。",
+      "starter": "When",
+      "answer": "When the child became very ill, the neighbour immediately sent for an ambulance.",
+      "answerZh": "孩子病得很嚴重時,鄰居立即召喚救護車。",
+      "highlight": "sent for",
+      "targetForm": "send for something",
+      "targetMeaningZh": "召喚所需的車輛或協助"
+    },
+    {
+      "id": "phrasal-verb-275-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The office staff ordered sandwiches to be delivered because the meeting ran late.",
+      "promptZh": "會議延遲結束,所以辦公室職員訂了三文治外賣。",
+      "starter": "The",
+      "answer": "The office staff sent out for sandwiches because the meeting ran late.",
+      "answerZh": "會議延遲結束,所以辦公室職員訂了三文治外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "We could not repair the machine ourselves, so we asked the shop to provide someone.",
+      "promptZh": "我們無法自行修理機器,所以請店舖派人前來。",
+      "starter": "We",
+      "answer": "We could not repair the machine ourselves, so we sent for someone from the shop.",
+      "answerZh": "我們無法自行修理機器,所以請店舖派人前來。",
+      "highlight": "sent for someone from",
+      "targetForm": "send for somebody",
+      "targetMeaningZh": "召喚某人前來"
+    },
+    {
+      "id": "phrasal-verb-275-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Before moving house, Priya posted all the signed papers to the bank.",
+      "promptZh": "搬屋前,普里雅把所有已簽署的文件寄給銀行。",
+      "starter": "Before",
+      "answer": "Before moving house, Priya sent all the signed papers off to the bank.",
+      "answerZh": "搬屋前,普里雅把所有已簽署的文件寄給銀行。",
+      "highlight": "sent",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Although the reporters asked several questions, the actor’s assistant told them to leave without an answer.",
+      "promptZh": "雖然記者問了幾條問題,但演員的助理仍叫他們離開,沒有提供任何答案。",
+      "starter": "Although",
+      "answer": "Although the reporters asked several questions, the actor’s assistant sent them away empty-handed.",
+      "answerZh": "雖然記者問了幾條問題,但演員的助理仍叫他們離開,沒有提供任何答案。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The hikers entered the closed path, but a ranger told them to return to the gate.",
+      "promptZh": "遠足人士進入了封閉的小徑,但巡邏員叫他們返回入口。",
+      "starter": "The",
+      "answer": "The hikers entered the closed path, but a ranger sent them back to the gate.",
+      "answerZh": "遠足人士進入了封閉的小徑,但巡邏員叫他們返回入口。",
+      "highlight": "sent",
+      "targetForm": "send somebody back",
+      "targetMeaningZh": "叫某人返回原處"
+    },
+    {
+      "id": "phrasal-verb-275-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Ten teams submitted ideas for the new school garden.",
+      "promptZh": "十支隊伍為學校的新花園提交了構思。",
+      "starter": "Ten",
+      "answer": "Ten teams sent in ideas for the new school garden.",
+      "answerZh": "十支隊伍為學校的新花園提交了構思。",
+      "highlight": "sent in",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交作品、構思或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The shop did not know where the delivery had gone, so it asked a driver to go and find it.",
+      "promptZh": "店舖不知道貨物去了哪裏,所以派司機外出尋找。",
+      "starter": "The",
+      "answer": "The shop did not know where the delivery had gone, so it sent a driver out to find it.",
+      "answerZh": "店舖不知道貨物去了哪裏,所以派司機外出尋找。",
+      "highlight": "sent",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The parcel reached my old flat, but the new tenant kindly forwarded it to me.",
+      "promptZh": "包裹送到我的舊住所,但新住客好心把它轉寄給我。",
+      "starter": "The",
+      "answer": "The parcel reached my old flat, but the new tenant kindly sent it on to me.",
+      "answerZh": "包裹送到我的舊住所,但新住客好心把它轉寄給我。",
+      "highlight": "sent",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄"
+    },
+    {
+      "id": "phrasal-verb-275-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The captain argued with the referee, who ordered him to leave the field.",
+      "promptZh": "隊長與球證爭吵,球證命令他離場。",
+      "starter": "The",
+      "answer": "The captain argued with the referee and was sent off.",
+      "answerZh": "隊長與球證爭吵,其後被罰離場。",
+      "highlight": "and was sent off",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Instead of buying the booklet in town, Daniel asked the museum to post it to him.",
+      "promptZh": "丹尼爾沒有到市區購買小冊子,而是請博物館把它寄給他。",
+      "starter": "Instead",
+      "answer": "Instead of buying the booklet in town, Daniel sent away for it from the museum.",
+      "answerZh": "丹尼爾沒有到市區購買小冊子,而是請博物館把它寄給他。",
+      "highlight": "sent away for it from",
+      "targetForm": "send away for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "When smoke filled the hall, the fire service ordered a team to enter and search every room.",
+      "promptZh": "禮堂充滿濃煙時,消防部門派一支隊伍進入並搜索每個房間。",
+      "starter": "When",
+      "answer": "When smoke filled the hall, the fire service sent a team in to search every room.",
+      "answerZh": "禮堂充滿濃煙時,消防部門派一支隊伍進入並搜索每個房間。",
+      "highlight": "sent",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The kitchen was being repaired, so the family ordered a takeaway.",
+      "promptZh": "廚房正在維修,所以那家人叫了外賣。",
+      "starter": "The",
+      "answer": "The kitchen was being repaired, so the family sent out for a takeaway.",
+      "answerZh": "廚房正在維修,所以那家人叫了外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The office asked us to sign the document and post it by Monday.",
+      "promptZh": "辦公室要求我們簽署文件,並在星期一前寄出。",
+      "starter": "The",
+      "answer": "The office asked us to sign the document and send it off by Monday.",
+      "answerZh": "辦公室要求我們簽署文件,並在星期一前寄出。",
+      "highlight": "send",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The shop was closing, so the owner told the last customers to leave.",
+      "promptZh": "店舖即將關門,所以店主叫最後幾名顧客離開。",
+      "starter": "The",
+      "answer": "The shop was closing, so the owner sent the last customers away.",
+      "answerZh": "店舖即將關門,所以店主叫最後幾名顧客離開。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Because nobody had seen the child, the police asked officers to go and search the park.",
+      "promptZh": "由於沒有人見過那名孩子,警方派警員外出搜索公園。",
+      "starter": "Because",
+      "answer": "Because nobody had seen the child, the police sent officers out to search the park.",
+      "answerZh": "由於沒有人見過那名孩子,警方派警員外出搜索公園。",
+      "highlight": "sent",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Before midnight, each group must submit one photo and a short description.",
+      "promptZh": "每組必須在午夜前提交一張照片和一段簡短描述。",
+      "starter": "Before",
+      "answer": "Before midnight, each group must send in one photo and a short description.",
+      "answerZh": "每組必須在午夜前提交一張照片和一段簡短描述。",
+      "highlight": "send in",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交作品、表格或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "When the alarm stopped, the manager ordered a worker to enter the room and check it.",
+      "promptZh": "警報停止後,經理派一名工人進入房間檢查。",
+      "starter": "When",
+      "answer": "When the alarm stopped, the manager sent a worker in to check the room.",
+      "answerZh": "警報停止後,經理派一名工人進入房間檢查。",
+      "highlight": "sent",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "We had planned to cook, but there was no electricity, so we ordered hot food to be delivered instead.",
+      "promptZh": "我們原本打算煮飯,但當時沒有電,所以改為訂購熱食外賣。",
+      "starter": "We",
+      "answer": "We had planned to cook, but there was no electricity, so we sent out for hot food instead.",
+      "answerZh": "我們原本打算煮飯,但當時沒有電,所以改為訂購熱食外賣。",
+      "highlight": "sent out for",
+      "targetForm": "send out for something",
+      "targetMeaningZh": "訂購食物,請人送來"
+    },
+    {
+      "id": "phrasal-verb-275-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The advert said readers could collect ten tokens and post a request for a free poster.",
+      "promptZh": "廣告表示,讀者可以收集十個代幣,並寄出申請索取免費海報。",
+      "starter": "The",
+      "answer": "The advert said readers could collect ten tokens and send off for a free poster.",
+      "answerZh": "廣告表示,讀者可以收集十個代幣,並寄出申請索取免費海報。",
+      "highlight": "send off",
+      "targetForm": "send off for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Although many pupils joined the contest, only six remembered to submit their work before Friday.",
+      "promptZh": "雖然許多學生參加比賽,但只有六人記得在星期五前提交作品。",
+      "starter": "Although",
+      "answer": "Although many pupils joined the contest, only six remembered to send their work in before Friday.",
+      "answerZh": "雖然許多學生參加比賽,但只有六人記得在星期五前提交作品。",
+      "highlight": "send",
+      "targetForm": "send something in",
+      "targetMeaningZh": "提交作品、表格或資料"
+    },
+    {
+      "id": "phrasal-verb-275-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The headphones did not work, so I packed them carefully and returned them to the online shop.",
+      "promptZh": "耳機無法操作,所以我小心包好,把它們退回網上店舖。",
+      "starter": "The",
+      "answer": "The headphones did not work, so I packed them carefully and sent them back to the online shop.",
+      "answerZh": "耳機無法操作,所以我小心包好,把它們退回網上店舖。",
+      "highlight": "sent",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "When the crowd became dangerous, the police decided to order more officers to enter the area.",
+      "promptZh": "群眾的情況變得危險時,警方決定派更多警員進入該區。",
+      "starter": "When",
+      "answer": "When the crowd became dangerous, the police decided to send more officers in.",
+      "answerZh": "群眾的情況變得危險時,警方決定派更多警員進入該區。",
+      "highlight": "send",
+      "targetForm": "send somebody in",
+      "targetMeaningZh": "派某人進入某處處理事情"
+    },
+    {
+      "id": "phrasal-verb-275-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "No one in the village could treat the injured dog, so the family asked a vet from the next town to come.",
+      "promptZh": "村內沒有人能醫治受傷的狗,所以那家人召喚鄰鎮的獸醫前來。",
+      "starter": "No",
+      "answer": "No one in the village could treat the injured dog, so the family sent for a vet from the next town.",
+      "answerZh": "村內沒有人能醫治受傷的狗,所以那家人召喚鄰鎮的獸醫前來。",
+      "highlight": "sent for",
+      "targetForm": "send for somebody",
+      "targetMeaningZh": "召喚某人前來"
+    },
+    {
+      "id": "phrasal-verb-275-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "I checked the address twice before I posted the birthday card to my aunt.",
+      "promptZh": "我把生日卡寄給姑母前,檢查了地址兩次。",
+      "starter": "I",
+      "answer": "I checked the address twice before I sent the birthday card off to my aunt.",
+      "answerZh": "我把生日卡寄給姑母前,檢查了地址兩次。",
+      "highlight": "sent",
+      "targetForm": "send something off",
+      "targetMeaningZh": "寄出某物"
+    },
+    {
+      "id": "phrasal-verb-275-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After a long discussion, the referee ordered both players to leave the field for fighting.",
+      "promptZh": "經過長時間討論後,球證因兩名球員打架而把他們罰離場。",
+      "starter": "After",
+      "answer": "After a long discussion, the referee sent both players off for fighting.",
+      "answerZh": "經過長時間討論後,球證因兩名球員打架而把他們罰離場。",
+      "highlight": "sent",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The storm had damaged several roads, so the council asked workers to go and check them before sunrise.",
+      "promptZh": "暴風雨損壞了幾條道路,所以議會派工人在日出前外出檢查。",
+      "starter": "The",
+      "answer": "The storm had damaged several roads, so the council sent workers out to check them before sunrise.",
+      "answerZh": "暴風雨損壞了幾條道路,所以議會派工人在日出前外出檢查。",
+      "highlight": "sent",
+      "targetForm": "send somebody out",
+      "targetMeaningZh": "派某人外出執行工作"
+    },
+    {
+      "id": "phrasal-verb-275-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The hospital received the report by mistake and forwarded it to the correct clinic.",
+      "promptZh": "醫院錯誤收到該份報告,其後把它轉交給正確的診所。",
+      "starter": "The",
+      "answer": "The hospital received the report by mistake and sent it on to the correct clinic.",
+      "answerZh": "醫院錯誤收到該份報告,其後把它轉交給正確的診所。",
+      "highlight": "sent",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄或轉交"
+    },
+    {
+      "id": "phrasal-verb-275-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The children wanted to enter the closed room, but the guard told them to leave because it was unsafe.",
+      "promptZh": "孩子們想進入封閉的房間,但警衞因為房間不安全而叫他們離開。",
+      "starter": "The",
+      "answer": "The children wanted to enter the closed room, but the guard sent them away because it was unsafe.",
+      "answerZh": "孩子們想進入封閉的房間,但警衞因為房間不安全而叫他們離開。",
+      "highlight": "sent",
+      "targetForm": "send somebody away",
+      "targetMeaningZh": "叫某人離開"
+    },
+    {
+      "id": "phrasal-verb-275-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Although the bag had reached the wrong school, a teacher returned it to its owner on the same day.",
+      "promptZh": "雖然袋子送到了錯誤的學校,但一名老師在同日把它送還物主。",
+      "starter": "Although",
+      "answer": "Although the bag had reached the wrong school, a teacher sent it back to its owner on the same day.",
+      "answerZh": "雖然袋子送到了錯誤的學校,但一名老師在同日把它送還物主。",
+      "highlight": "sent",
+      "targetForm": "send something back",
+      "targetMeaningZh": "把某物送回或退回"
+    },
+    {
+      "id": "phrasal-verb-275-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Rather than travel across town, we asked the company to post us the replacement part and waited for it to arrive.",
+      "promptZh": "我們沒有橫越市區,而是請公司寄來替換零件,然後等待它送達。",
+      "starter": "Rather",
+      "answer": "Rather than travel across town, we sent away for the replacement part and waited for it to arrive.",
+      "answerZh": "我們沒有橫越市區,而是請公司寄來替換零件,然後等待它送達。",
+      "highlight": "sent away for",
+      "targetForm": "send away for something",
+      "targetMeaningZh": "寄出申請或訂單以索取某物"
+    },
+    {
+      "id": "phrasal-verb-275-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The boat was taking in water, so the crew asked for help before the weather became worse.",
+      "promptZh": "船隻正在入水,所以船員在天氣惡化前召喚協助。",
+      "starter": "The",
+      "answer": "The boat was taking in water, so the crew sent for help before the weather became worse.",
+      "answerZh": "船隻正在入水,所以船員在天氣惡化前召喚協助。",
+      "highlight": "sent",
+      "targetForm": "send for something",
+      "targetMeaningZh": "召喚所需的協助"
+    },
+    {
+      "id": "phrasal-verb-275-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The home team was leading, but the referee ordered its striker to leave after he pushed another player.",
+      "promptZh": "主隊正在領先,但前鋒推撞另一名球員後,球證命令他離場。",
+      "starter": "The",
+      "answer": "The home team was leading, but its striker was sent off after he pushed another player.",
+      "answerZh": "主隊正在領先,但前鋒推撞另一名球員後被罰離場。",
+      "highlight": "was sent off",
+      "targetForm": "send somebody off",
+      "targetMeaningZh": "把球員罰離場"
+    },
+    {
+      "id": "phrasal-verb-275-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "We moved suddenly, and the post office forwarded all our letters until we told everyone our new address.",
+      "promptZh": "我們突然搬屋,而郵政局一直替我們轉寄所有信件,直至我們通知所有人新地址。",
+      "starter": "We",
+      "answer": "We moved suddenly, and the post office sent all our letters on until we told everyone our new address.",
+      "answerZh": "我們突然搬屋,而郵政局一直替我們轉寄所有信件,直至我們通知所有人新地址。",
+      "highlight": "sent",
+      "targetForm": "send something on",
+      "targetMeaningZh": "把收到的東西轉寄"
+    }
+  ]
+}

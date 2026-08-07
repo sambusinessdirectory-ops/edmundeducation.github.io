@@ -1,0 +1,2224 @@
+{
+  "id": "phrasal-verb-204",
+  "order": 204,
+  "slug": "live",
+  "version": "1",
+  "title": "LIVE 動詞片語",
+  "titleEn": "Live",
+  "titleZh": "LIVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 202 - LIVE.pdf",
+    "sourceNumber": 202,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LIVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LIVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LIVE",
+      "highlight": "LIVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She lives by the rule “always be honest”.",
+      "zh": "她奉行「永遠誠實」的原則。",
+      "highlight": "lives by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They live by selling vegetables at the market.",
+      "zh": "他們靠在市場賣菜維持生活。",
+      "highlight": "live by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He lives for music.",
+      "zh": "他為音樂而活。",
+      "highlight": "lives for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "奉行某項規則、信念或原則；靠某種工作、技能或活動賺錢維持生活；把某人或某事視為生活中最重要的部分；住在工作或學習的地方；盡情享受奢華、刺激或歡樂的生活；依靠某人供養；主要靠某種食物維持生活；在某人離世或某事物消失後繼續存在或流傳；靠某筆收入或金錢維持生活；不住在工作或學習場所提供的住所；實現或親身經歷夢想、願望或計劃；擺脫尷尬或失敗帶來的影響,使別人忘記它；經歷並捱過某段困難時期或重大事件；達到期望、標準、承諾或名聲；與某人同住；接受並忍受不理想的情況;面對自己所做的事",
+    "en": "live by something; live by something / live by doing something; live for somebody/something; live in; live it up; live off somebody; live off something; live on; live on something; live out; live out something / live it/them out; live something down; live through something; live up to something; live with somebody; live with something / live with yourself",
+    "naturalZh": [
+      "奉行某項規則、信念或原則",
+      "靠某種工作、技能或活動賺錢維持生活",
+      "把某人或某事視為生活中最重要的部分",
+      "住在工作或學習的地方",
+      "盡情享受奢華、刺激或歡樂的生活",
+      "依靠某人供養",
+      "主要靠某種食物維持生活",
+      "在某人離世或某事物消失後繼續存在或流傳",
+      "靠某筆收入或金錢維持生活",
+      "不住在工作或學習場所提供的住所",
+      "實現或親身經歷夢想、願望或計劃",
+      "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+      "經歷並捱過某段困難時期或重大事件",
+      "達到期望、標準、承諾或名聲",
+      "與某人同住",
+      "接受並忍受不理想的情況;面對自己所做的事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "live by something",
+      "titleZh": "奉行某項規則、信念或原則",
+      "titleEn": "live by something",
+      "descriptionZh": "奉行某項規則、信念或原則",
+      "descriptionEn": "She lives by the rule “always be honest”.",
+      "examples": [
+        {
+          "en": "She lives by the rule “always be honest”.",
+          "zh": "她奉行「永遠誠實」的原則。",
+          "highlight": "lives by"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live by something / live by doing something",
+      "titleZh": "靠某種工作、技能或活動賺錢維持生活",
+      "titleEn": "live by something / live by doing something",
+      "descriptionZh": "靠某種工作、技能或活動賺錢維持生活",
+      "descriptionEn": "They live by selling vegetables at the market.",
+      "examples": [
+        {
+          "en": "They live by selling vegetables at the market.",
+          "zh": "他們靠在市場賣菜維持生活。",
+          "highlight": "live by"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live for somebody/something",
+      "titleZh": "把某人或某事視為生活中最重要的部分",
+      "titleEn": "live for somebody/something",
+      "descriptionZh": "把某人或某事視為生活中最重要的部分",
+      "descriptionEn": "He lives for music.",
+      "examples": [
+        {
+          "en": "He lives for music.",
+          "zh": "他為音樂而活。",
+          "highlight": "lives for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live in",
+      "titleZh": "住在工作或學習的地方",
+      "titleEn": "live in",
+      "descriptionZh": "住在工作或學習的地方",
+      "descriptionEn": "Their nanny lives in.",
+      "examples": [
+        {
+          "en": "Their nanny lives in.",
+          "zh": "他們的保母住在僱主家中。",
+          "highlight": "lives in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live it up",
+      "titleZh": "盡情享受奢華、刺激或歡樂的生活",
+      "titleEn": "live it up",
+      "descriptionZh": "盡情享受奢華、刺激或歡樂的生活",
+      "descriptionEn": "We lived it up during our holiday.",
+      "examples": [
+        {
+          "en": "We lived it up during our holiday.",
+          "zh": "我們在假期中盡情享受生活。",
+          "highlight": "lived it up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live off somebody",
+      "titleZh": "依靠某人供養",
+      "titleEn": "live off somebody",
+      "descriptionZh": "依靠某人供養",
+      "descriptionEn": "He still lives off his parents.",
+      "examples": [
+        {
+          "en": "He still lives off his parents.",
+          "zh": "他仍然依靠父母供養。",
+          "highlight": "lives off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live off something",
+      "titleZh": "主要靠某種食物維持生活",
+      "titleEn": "live off something",
+      "descriptionZh": "主要靠某種食物維持生活",
+      "descriptionEn": "We lived off soup and bread for three days.",
+      "examples": [
+        {
+          "en": "We lived off soup and bread for three days.",
+          "zh": "我們三天裏主要靠湯和麵包充飢。",
+          "highlight": "lived off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live on",
+      "titleZh": "在某人離世或某事物消失後繼續存在或流傳",
+      "titleEn": "live on",
+      "descriptionZh": "在某人離世或某事物消失後繼續存在或流傳",
+      "descriptionEn": "Her songs will live on.",
+      "examples": [
+        {
+          "en": "Her songs will live on.",
+          "zh": "她的歌曲會繼續流傳。",
+          "highlight": "live on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "live on something",
+      "titleZh": "靠某筆收入或金錢維持生活",
+      "titleEn": "live on something",
+      "descriptionZh": "靠某筆收入或金錢維持生活",
+      "descriptionEn": "Could you live on this weekly pay?",
+      "examples": [
+        {
+          "en": "Could you live on this weekly pay?",
+          "zh": "你能靠這份每星期的收入維持生活嗎?",
+          "highlight": "live on"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live out",
+      "titleZh": "不住在工作或學習場所提供的住所",
+      "titleEn": "live out",
+      "descriptionZh": "不住在工作或學習場所提供的住所",
+      "descriptionEn": "A few students choose to live out.",
+      "examples": [
+        {
+          "en": "A few students choose to live out.",
+          "zh": "少數學生選擇住在校外。",
+          "highlight": "live out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live out something / live it/them out",
+      "titleZh": "實現或親身經歷夢想、願望或計劃",
+      "titleEn": "live out something / live it/them out",
+      "descriptionZh": "實現或親身經歷夢想、願望或計劃",
+      "descriptionEn": "She lived out her dream of travelling alone.",
+      "examples": [
+        {
+          "en": "She lived out her dream of travelling alone.",
+          "zh": "她實現了獨自旅行的夢想。",
+          "highlight": "lived out"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live something down",
+      "titleZh": "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+      "titleEn": "live something down",
+      "descriptionZh": "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+      "descriptionEn": "He will never live that mistake down.",
+      "examples": [
+        {
+          "en": "He will never live that mistake down.",
+          "zh": "他永遠無法擺脫那次失誤帶來的尷尬。",
+          "highlight": "live that mistake down"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live through something",
+      "titleZh": "經歷並捱過某段困難時期或重大事件",
+      "titleEn": "live through something",
+      "descriptionZh": "經歷並捱過某段困難時期或重大事件",
+      "descriptionEn": "They lived through the terrible storm.",
+      "examples": [
+        {
+          "en": "They lived through the terrible storm.",
+          "zh": "他們捱過了那場可怕的風暴。",
+          "highlight": "lived through"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live up to something",
+      "titleZh": "達到期望、標準、承諾或名聲",
+      "titleEn": "live up to something",
+      "descriptionZh": "達到期望、標準、承諾或名聲",
+      "descriptionEn": "The film lived up to our expectations.",
+      "examples": [
+        {
+          "en": "The film lived up to our expectations.",
+          "zh": "這部電影達到了我們的期望。",
+          "highlight": "lived up to"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live with somebody",
+      "titleZh": "與某人同住",
+      "titleEn": "live with somebody",
+      "descriptionZh": "與某人同住",
+      "descriptionEn": "I live with my cousin.",
+      "examples": [
+        {
+          "en": "I live with my cousin.",
+          "zh": "我和表親同住。",
+          "highlight": "live with"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "live with something / live with yourself",
+      "titleZh": "接受並忍受不理想的情況;面對自己所做的事",
+      "titleEn": "live with something / live with yourself",
+      "descriptionZh": "接受並忍受不理想的情況;面對自己所做的事",
+      "descriptionEn": "We must learn to live with the noise.",
+      "examples": [
+        {
+          "en": "We must learn to live with the noise.",
+          "zh": "我們必須學會接受並忍受那些噪音。",
+          "highlight": "live with"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LIVE 片語動詞的實際用途",
+    "labelEn": "LIVE Phrasal Verbs in Use",
+    "summaryZh": "live by、live off 和 live on 可以說明某人靠一項活動賺錢、依靠別人供養,或靠某筆收入生活。；live in、live out 和 live with 可以說明某人住在工作地點、住在外面,或與另一個人同住。；live by 可以描述奉行的原則;live for 可以表示生命中最重要的事;live with 則可以描述接受不理想的情況。；live through、live out、live on、live something down 和 live up to 可以用來談論重大經歷、夢想、回憶、尷尬事情和期望。",
+    "summaryEn": "Live by, live off and live on help you explain whether someone earns money through an activity, depends on another person or manages with a particular income. Live in, live out and live with help you explain whether someone stays at a workplace, lives elsewhere or shares a home with another person. Live by describes a guiding principle, live for shows what matters most to someone, and live with describes accepting something unpleasant. Live through, live out, live on, live something down and live up to help you discuss major experiences, dreams, memories, embarrassment and expectations.",
+    "contextsZh": [
+      "清楚說明人們如何維持生活",
+      "描述不同的居住安排",
+      "談論原則、人生重心和困難現實",
+      "描述重要經歷和長遠影響"
+    ],
+    "contextsEn": [
+      "Talk clearly about how people support themselves",
+      "Describe different living arrangements",
+      "Talk about values, purpose and difficult realities",
+      "Describe important experiences and lasting effects"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LIVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LIVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "live by something",
+    "fixedHighlight": "live by something",
+    "fixedZh": "閱讀整句,選出意思相同的 LIVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LIVE expression that gives the same meaning.",
+    "correct": "lives by",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；live on、live off、live out 和 live with 可以表達不同意思。請仔細留意句子中關於金錢、食物、住宿和個人處境的資料。；使用 it 或 them 時,請按照以上例子放置。",
+    "variableEn": "Keep the same people, things, time and meaning. Live on, live off, live out and live with can express different ideas. Read the details about money, food, accommodation and personal situations carefully. Follow these model positions when using it or them: live it out · live it down · live with it",
+    "variableItemsZh": [
+      "live by something",
+      "live by something / live by doing something",
+      "live for somebody/something",
+      "live in",
+      "live it up",
+      "live off somebody",
+      "live off something",
+      "live on",
+      "live on something",
+      "live out",
+      "live out something / live it/them out",
+      "live something down",
+      "live through something",
+      "live up to something",
+      "live with somebody",
+      "live with something / live with yourself"
+    ],
+    "variableItemsEn": [
+      "live by something",
+      "live by something / live by doing something",
+      "live for somebody/something",
+      "live in",
+      "live it up",
+      "live off somebody",
+      "live off something",
+      "live on",
+      "live on something",
+      "live out",
+      "live out something / live it/them out",
+      "live something down",
+      "live through something",
+      "live up to something",
+      "live with somebody",
+      "live with something / live with yourself"
+    ],
+    "forms": [
+      {
+        "formZh": "奉行某項規則、信念或原則",
+        "formEn": "live by something",
+        "exampleZh": "她奉行「永遠誠實」的原則。",
+        "exampleEn": "She lives by the rule “always be honest”.",
+        "highlight": "lives by"
+      },
+      {
+        "formZh": "靠某種工作、技能或活動賺錢維持生活",
+        "formEn": "live by something / live by doing something",
+        "exampleZh": "他們靠在市場賣菜維持生活。",
+        "exampleEn": "They live by selling vegetables at the market.",
+        "highlight": "live by"
+      },
+      {
+        "formZh": "把某人或某事視為生活中最重要的部分",
+        "formEn": "live for somebody/something",
+        "exampleZh": "他為音樂而活。",
+        "exampleEn": "He lives for music.",
+        "highlight": "lives for"
+      },
+      {
+        "formZh": "住在工作或學習的地方",
+        "formEn": "live in",
+        "exampleZh": "他們的保母住在僱主家中。",
+        "exampleEn": "Their nanny lives in.",
+        "highlight": "lives in"
+      },
+      {
+        "formZh": "盡情享受奢華、刺激或歡樂的生活",
+        "formEn": "live it up",
+        "exampleZh": "我們在假期中盡情享受生活。",
+        "exampleEn": "We lived it up during our holiday.",
+        "highlight": "lived it up"
+      },
+      {
+        "formZh": "依靠某人供養",
+        "formEn": "live off somebody",
+        "exampleZh": "他仍然依靠父母供養。",
+        "exampleEn": "He still lives off his parents.",
+        "highlight": "lives off"
+      },
+      {
+        "formZh": "主要靠某種食物維持生活",
+        "formEn": "live off something",
+        "exampleZh": "我們三天裏主要靠湯和麵包充飢。",
+        "exampleEn": "We lived off soup and bread for three days.",
+        "highlight": "lived off"
+      },
+      {
+        "formZh": "在某人離世或某事物消失後繼續存在或流傳",
+        "formEn": "live on",
+        "exampleZh": "她的歌曲會繼續流傳。",
+        "exampleEn": "Her songs will live on.",
+        "highlight": "live on"
+      },
+      {
+        "formZh": "靠某筆收入或金錢維持生活",
+        "formEn": "live on something",
+        "exampleZh": "你能靠這份每星期的收入維持生活嗎?",
+        "exampleEn": "Could you live on this weekly pay?",
+        "highlight": "live on"
+      },
+      {
+        "formZh": "不住在工作或學習場所提供的住所",
+        "formEn": "live out",
+        "exampleZh": "少數學生選擇住在校外。",
+        "exampleEn": "A few students choose to live out.",
+        "highlight": "live out"
+      },
+      {
+        "formZh": "實現或親身經歷夢想、願望或計劃",
+        "formEn": "live out something / live it/them out",
+        "exampleZh": "她實現了獨自旅行的夢想。",
+        "exampleEn": "She lived out her dream of travelling alone.",
+        "highlight": "lived out"
+      },
+      {
+        "formZh": "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+        "formEn": "live something down",
+        "exampleZh": "他永遠無法擺脫那次失誤帶來的尷尬。",
+        "exampleEn": "He will never live that mistake down.",
+        "highlight": "live that mistake down"
+      },
+      {
+        "formZh": "經歷並捱過某段困難時期或重大事件",
+        "formEn": "live through something",
+        "exampleZh": "他們捱過了那場可怕的風暴。",
+        "exampleEn": "They lived through the terrible storm.",
+        "highlight": "lived through"
+      },
+      {
+        "formZh": "達到期望、標準、承諾或名聲",
+        "formEn": "live up to something",
+        "exampleZh": "這部電影達到了我們的期望。",
+        "exampleEn": "The film lived up to our expectations.",
+        "highlight": "lived up to"
+      },
+      {
+        "formZh": "與某人同住",
+        "formEn": "live with somebody",
+        "exampleZh": "我和表親同住。",
+        "exampleEn": "I live with my cousin.",
+        "highlight": "live with"
+      },
+      {
+        "formZh": "接受並忍受不理想的情況;面對自己所做的事",
+        "formEn": "live with something / live with yourself",
+        "exampleZh": "我們必須學會接受並忍受那些噪音。",
+        "exampleEn": "We must learn to live with the noise.",
+        "highlight": "live with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "奉行某項規則、信念或原則",
+      "titleEn": "live by something",
+      "formula": "live by something",
+      "highlight": "live by something",
+      "descriptionZh": "奉行某項規則、信念或原則",
+      "descriptionEn": "She lives by the rule “always be honest”.",
+      "examples": [
+        {
+          "en": "She lives by the rule “always be honest”.",
+          "zh": "她奉行「永遠誠實」的原則。",
+          "highlight": "lives by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "靠某種工作、技能或活動賺錢維持生活",
+      "titleEn": "live by something / live by doing something",
+      "formula": "live by something / live by doing something",
+      "highlight": "live by something / live by doing something",
+      "descriptionZh": "靠某種工作、技能或活動賺錢維持生活",
+      "descriptionEn": "They live by selling vegetables at the market.",
+      "examples": [
+        {
+          "en": "They live by selling vegetables at the market.",
+          "zh": "他們靠在市場賣菜維持生活。",
+          "highlight": "live by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某事視為生活中最重要的部分",
+      "titleEn": "live for somebody/something",
+      "formula": "live for somebody/something",
+      "highlight": "live for somebody/something",
+      "descriptionZh": "把某人或某事視為生活中最重要的部分",
+      "descriptionEn": "He lives for music.",
+      "examples": [
+        {
+          "en": "He lives for music.",
+          "zh": "他為音樂而活。",
+          "highlight": "lives for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "住在工作或學習的地方",
+      "titleEn": "live in",
+      "formula": "live in",
+      "highlight": "live in",
+      "descriptionZh": "住在工作或學習的地方",
+      "descriptionEn": "Their nanny lives in.",
+      "examples": [
+        {
+          "en": "Their nanny lives in.",
+          "zh": "他們的保母住在僱主家中。",
+          "highlight": "lives in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "盡情享受奢華、刺激或歡樂的生活",
+      "titleEn": "live it up",
+      "formula": "live it up",
+      "highlight": "live it up",
+      "descriptionZh": "盡情享受奢華、刺激或歡樂的生活",
+      "descriptionEn": "We lived it up during our holiday.",
+      "examples": [
+        {
+          "en": "We lived it up during our holiday.",
+          "zh": "我們在假期中盡情享受生活。",
+          "highlight": "lived it up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "依靠某人供養",
+      "titleEn": "live off somebody",
+      "formula": "live off somebody",
+      "highlight": "live off somebody",
+      "descriptionZh": "依靠某人供養",
+      "descriptionEn": "He still lives off his parents.",
+      "examples": [
+        {
+          "en": "He still lives off his parents.",
+          "zh": "他仍然依靠父母供養。",
+          "highlight": "lives off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "主要靠某種食物維持生活",
+      "titleEn": "live off something",
+      "formula": "live off something",
+      "highlight": "live off something",
+      "descriptionZh": "主要靠某種食物維持生活",
+      "descriptionEn": "We lived off soup and bread for three days.",
+      "examples": [
+        {
+          "en": "We lived off soup and bread for three days.",
+          "zh": "我們三天裏主要靠湯和麵包充飢。",
+          "highlight": "lived off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在某人離世或某事物消失後繼續存在或流傳",
+      "titleEn": "live on",
+      "formula": "live on",
+      "highlight": "live on",
+      "descriptionZh": "在某人離世或某事物消失後繼續存在或流傳",
+      "descriptionEn": "Her songs will live on.",
+      "examples": [
+        {
+          "en": "Her songs will live on.",
+          "zh": "她的歌曲會繼續流傳。",
+          "highlight": "live on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "靠某筆收入或金錢維持生活",
+      "titleEn": "live on something",
+      "formula": "live on something",
+      "highlight": "live on something",
+      "descriptionZh": "靠某筆收入或金錢維持生活",
+      "descriptionEn": "Could you live on this weekly pay?",
+      "examples": [
+        {
+          "en": "Could you live on this weekly pay?",
+          "zh": "你能靠這份每星期的收入維持生活嗎?",
+          "highlight": "live on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "不住在工作或學習場所提供的住所",
+      "titleEn": "live out",
+      "formula": "live out",
+      "highlight": "live out",
+      "descriptionZh": "不住在工作或學習場所提供的住所",
+      "descriptionEn": "A few students choose to live out.",
+      "examples": [
+        {
+          "en": "A few students choose to live out.",
+          "zh": "少數學生選擇住在校外。",
+          "highlight": "live out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "實現或親身經歷夢想、願望或計劃",
+      "titleEn": "live out something / live it/them out",
+      "formula": "live out something / live it/them out",
+      "highlight": "live out something / live it/them out",
+      "descriptionZh": "實現或親身經歷夢想、願望或計劃",
+      "descriptionEn": "She lived out her dream of travelling alone.",
+      "examples": [
+        {
+          "en": "She lived out her dream of travelling alone.",
+          "zh": "她實現了獨自旅行的夢想。",
+          "highlight": "lived out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+      "titleEn": "live something down",
+      "formula": "live something down",
+      "highlight": "live something down",
+      "descriptionZh": "擺脫尷尬或失敗帶來的影響,使別人忘記它",
+      "descriptionEn": "He will never live that mistake down.",
+      "examples": [
+        {
+          "en": "He will never live that mistake down.",
+          "zh": "他永遠無法擺脫那次失誤帶來的尷尬。",
+          "highlight": "live that mistake down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "經歷並捱過某段困難時期或重大事件",
+      "titleEn": "live through something",
+      "formula": "live through something",
+      "highlight": "live through something",
+      "descriptionZh": "經歷並捱過某段困難時期或重大事件",
+      "descriptionEn": "They lived through the terrible storm.",
+      "examples": [
+        {
+          "en": "They lived through the terrible storm.",
+          "zh": "他們捱過了那場可怕的風暴。",
+          "highlight": "lived through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "達到期望、標準、承諾或名聲",
+      "titleEn": "live up to something",
+      "formula": "live up to something",
+      "highlight": "live up to something",
+      "descriptionZh": "達到期望、標準、承諾或名聲",
+      "descriptionEn": "The film lived up to our expectations.",
+      "examples": [
+        {
+          "en": "The film lived up to our expectations.",
+          "zh": "這部電影達到了我們的期望。",
+          "highlight": "lived up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "與某人同住",
+      "titleEn": "live with somebody",
+      "formula": "live with somebody",
+      "highlight": "live with somebody",
+      "descriptionZh": "與某人同住",
+      "descriptionEn": "I live with my cousin.",
+      "examples": [
+        {
+          "en": "I live with my cousin.",
+          "zh": "我和表親同住。",
+          "highlight": "live with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "接受並忍受不理想的情況;面對自己所做的事",
+      "titleEn": "live with something / live with yourself",
+      "formula": "live with something / live with yourself",
+      "highlight": "live with something / live with yourself",
+      "descriptionZh": "接受並忍受不理想的情況;面對自己所做的事",
+      "descriptionEn": "We must learn to live with the noise.",
+      "examples": [
+        {
+          "en": "We must learn to live with the noise.",
+          "zh": "我們必須學會接受並忍受那些噪音。",
+          "highlight": "live with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明人們如何維持生活",
+      "titleEn": "Talk clearly about how people support themselves",
+      "zh": "live by、live off 和 live on 可以說明某人靠一項活動賺錢、依靠別人供養,或靠某筆收入生活。",
+      "en": "Live by, live off and live on help you explain whether someone earns money through an activity, depends on another person or manages with a particular income."
+    },
+    {
+      "titleZh": "描述不同的居住安排",
+      "titleEn": "Describe different living arrangements",
+      "zh": "live in、live out 和 live with 可以說明某人住在工作地點、住在外面,或與另一個人同住。",
+      "en": "Live in, live out and live with help you explain whether someone stays at a workplace, lives elsewhere or shares a home with another person."
+    },
+    {
+      "titleZh": "談論原則、人生重心和困難現實",
+      "titleEn": "Talk about values, purpose and difficult realities",
+      "zh": "live by 可以描述奉行的原則;live for 可以表示生命中最重要的事;live with 則可以描述接受不理想的情況。",
+      "en": "Live by describes a guiding principle, live for shows what matters most to someone, and live with describes accepting something unpleasant."
+    },
+    {
+      "titleZh": "描述重要經歷和長遠影響",
+      "titleEn": "Describe important experiences and lasting effects",
+      "zh": "live through、live out、live on、live something down 和 live up to 可以用來談論重大經歷、夢想、回憶、尷尬事情和期望。",
+      "en": "Live through, live out, live on, live something down and live up to help you discuss major experiences, dreams, memories, embarrassment and expectations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明人們如何維持生活",
+      "描述不同的居住安排",
+      "談論原則、人生重心和困難現實",
+      "描述重要經歷和長遠影響"
+    ],
+    "contextsEn": [
+      "Talk clearly about how people support themselves",
+      "Describe different living arrangements",
+      "Talk about values, purpose and difficult realities",
+      "Describe important experiences and lasting effects"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明人們如何維持生活",
+        "titleEn": "Talk clearly about how people support themselves",
+        "zh": "live by、live off 和 live on 可以說明某人靠一項活動賺錢、依靠別人供養,或靠某筆收入生活。",
+        "en": "Live by, live off and live on help you explain whether someone earns money through an activity, depends on another person or manages with a particular income.",
+        "examples": [
+          {
+            "en": "She lives by the rule “always be honest”.",
+            "zh": "她奉行「永遠誠實」的原則。",
+            "highlight": "lives by"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同的居住安排",
+        "titleEn": "Describe different living arrangements",
+        "zh": "live in、live out 和 live with 可以說明某人住在工作地點、住在外面,或與另一個人同住。",
+        "en": "Live in, live out and live with help you explain whether someone stays at a workplace, lives elsewhere or shares a home with another person.",
+        "examples": [
+          {
+            "en": "They live by selling vegetables at the market.",
+            "zh": "他們靠在市場賣菜維持生活。",
+            "highlight": "live by"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論原則、人生重心和困難現實",
+        "titleEn": "Talk about values, purpose and difficult realities",
+        "zh": "live by 可以描述奉行的原則;live for 可以表示生命中最重要的事;live with 則可以描述接受不理想的情況。",
+        "en": "Live by describes a guiding principle, live for shows what matters most to someone, and live with describes accepting something unpleasant.",
+        "examples": [
+          {
+            "en": "He lives for music.",
+            "zh": "他為音樂而活。",
+            "highlight": "lives for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述重要經歷和長遠影響",
+        "titleEn": "Describe important experiences and lasting effects",
+        "zh": "live through、live out、live on、live something down 和 live up to 可以用來談論重大經歷、夢想、回憶、尷尬事情和期望。",
+        "en": "Live through, live out, live on, live something down and live up to help you discuss major experiences, dreams, memories, embarrassment and expectations.",
+        "examples": [
+          {
+            "en": "Their nanny lives in.",
+            "zh": "他們的保母住在僱主家中。",
+            "highlight": "lives in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LIVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LIVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LIVE 片語動詞。",
+      "en": "Read the whole sentence and choose the LIVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "live on、live off、live out 和 live with 可以表達不同意思。請仔細留意句子中關於金錢、食物、住宿和個人處境的資料。",
+      "titleEn": "Live on, live off, live out and live with can express different ideas.",
+      "zh": "live on、live off、live out 和 live with 可以表達不同意思。請仔細留意句子中關於金錢、食物、住宿和個人處境的資料。",
+      "en": "Live on, live off, live out and live with can express different ideas. Read the details about money, food, accommodation and personal situations carefully."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放置。",
+      "titleEn": "Follow these model positions when using it or them: live it out · live it down · live with it.",
+      "zh": "使用 it 或 them 時,請按照以上例子放置。",
+      "en": "Follow these model positions when using it or them: live it out · live it down · live with it"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LIVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LIVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LIVE 動詞片語句子改寫練習",
+    "titleEn": "LIVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LIVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LIVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-204-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "People still remember the singer because her music continues to exist.",
+      "promptZh": "人們仍然記得這名歌手,因為她的音樂繼續流傳。",
+      "starter": "The",
+      "answer": "The singer’s music lives on, so people still remember her.",
+      "answerZh": "這名歌手的音樂繼續流傳,因此人們仍然記得她。",
+      "highlight": "The singer’s music lives on, so",
+      "targetForm": "live on",
+      "targetMeaningZh": "繼續存在或流傳"
+    },
+    {
+      "id": "phrasal-verb-204-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Daniel follows one simple rule: always tell the truth.",
+      "promptZh": "丹尼爾遵守一條簡單規則:永遠說真話。",
+      "starter": "Daniel",
+      "answer": "Daniel lives by one simple rule: always tell the truth.",
+      "answerZh": "丹尼爾奉行一條簡單規則:永遠說真話。",
+      "highlight": "lives by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "奉行某項規則或原則"
+    },
+    {
+      "id": "phrasal-verb-204-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "You cannot depend on your parents for money forever.",
+      "promptZh": "你不能永遠依靠父母供養。",
+      "starter": "You",
+      "answer": "You cannot live off your parents forever.",
+      "answerZh": "你不能永遠依靠父母供養。",
+      "highlight": "live off",
+      "targetForm": "live off somebody",
+      "targetMeaningZh": "依靠某人供養"
+    },
+    {
+      "id": "phrasal-verb-204-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "On the farm, Ava finally experienced her childhood dream of riding a horse every day.",
+      "promptZh": "在農場裏,艾娃終於實現了兒時每天騎馬的夢想。",
+      "starter": "On",
+      "answer": "On the farm, Ava finally lived out her childhood dream of riding a horse every day.",
+      "answerZh": "在農場裏,艾娃終於實現了兒時每天騎馬的夢想。",
+      "highlight": "lived out",
+      "targetForm": "live out something",
+      "targetMeaningZh": "實現或親身經歷夢想"
+    },
+    {
+      "id": "phrasal-verb-204-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Ken shares a home with his older brother.",
+      "promptZh": "阿健和哥哥同住。",
+      "starter": "Ken",
+      "answer": "Ken lives with his older brother.",
+      "answerZh": "阿健和哥哥同住。",
+      "highlight": "lives",
+      "targetForm": "live with somebody",
+      "targetMeaningZh": "與某人同住"
+    },
+    {
+      "id": "phrasal-verb-204-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Her children are the most important part of her life.",
+      "promptZh": "她的孩子是她生命中最重要的部分。",
+      "starter": "She",
+      "answer": "She lives for her children.",
+      "answerZh": "她為孩子而活。",
+      "highlight": "She lives for",
+      "targetForm": "live for somebody",
+      "targetMeaningZh": "把某人視為生活中最重要的部分"
+    },
+    {
+      "id": "phrasal-verb-204-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "How did you manage with only a small student grant?",
+      "promptZh": "你只靠一筆不多的學生津貼,怎樣維持生活?",
+      "starter": "How",
+      "answer": "How did you manage to live on only a small student grant?",
+      "answerZh": "你只靠一筆不多的學生津貼,怎樣維持生活?",
+      "highlight": "to live on",
+      "targetForm": "live on something",
+      "targetMeaningZh": "靠某筆收入或金錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The family has a nanny who stays in their home.",
+      "promptZh": "這個家庭有一名住在他們家中的保母。",
+      "starter": "The",
+      "answer": "The family has a nanny living in.",
+      "answerZh": "這個家庭有一名住家保母。",
+      "highlight": "living",
+      "targetForm": "live in",
+      "targetMeaningZh": "住在工作或學習的地方"
+    },
+    {
+      "id": "phrasal-verb-204-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The hotel was not as good as people expected.",
+      "promptZh": "這間酒店沒有大家預期中那麼好。",
+      "starter": "The",
+      "answer": "The hotel failed to live up to people’s expectations.",
+      "answerZh": "這間酒店未能達到大家的期望。",
+      "highlight": "failed to live up to people’s expectations",
+      "targetForm": "live up to something",
+      "targetMeaningZh": "達到期望或標準"
+    },
+    {
+      "id": "phrasal-verb-204-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "As a student, I ate almost nothing except bread and cheese.",
+      "promptZh": "我做學生時,幾乎只吃麵包和芝士。",
+      "starter": "As",
+      "answer": "As a student, I lived off bread and cheese.",
+      "answerZh": "我做學生時,幾乎只靠麵包和芝士充飢。",
+      "highlight": "lived off",
+      "targetForm": "live off something",
+      "targetMeaningZh": "主要靠某種食物維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "I cannot believe I fell into the river; people will never let me forget it.",
+      "promptZh": "我真不敢相信自己掉進河裏;大家永遠不會讓我忘記這件事。",
+      "starter": "I",
+      "answer": "I cannot believe I fell into the river; I will never live it down.",
+      "answerZh": "我真不敢相信自己掉進河裏;這件尷尬事我永遠也擺脫不了。",
+      "highlight": "believe I fell into the river; I",
+      "targetForm": "live something down",
+      "targetMeaningZh": "使別人忘記自己的尷尬或失敗"
+    },
+    {
+      "id": "phrasal-verb-204-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The family earned enough money by selling fruit at the market.",
+      "promptZh": "這個家庭靠在市場賣水果賺取足夠金錢維持生活。",
+      "starter": "The",
+      "answer": "The family lived by selling fruit at the market.",
+      "answerZh": "這個家庭靠在市場賣水果維持生活。",
+      "highlight": "lived",
+      "targetForm": "live by doing something",
+      "targetMeaningZh": "靠某種活動賺錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The situation is unpleasant, but we must accept it.",
+      "promptZh": "情況令人不快,但我們必須接受。",
+      "starter": "The",
+      "answer": "The situation is unpleasant, but we must live with it.",
+      "answerZh": "情況令人不快,但我們必須接受。",
+      "highlight": "live with",
+      "targetForm": "live with something",
+      "targetMeaningZh": "接受並忍受不理想的情況"
+    },
+    {
+      "id": "phrasal-verb-204-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Tom is enjoying expensive food and exciting parties in London.",
+      "promptZh": "湯姆正在倫敦享受昂貴美食和熱鬧派對。",
+      "starter": "Tom",
+      "answer": "Tom is living it up in London.",
+      "answerZh": "湯姆正在倫敦盡情享受生活。",
+      "highlight": "living it up",
+      "targetForm": "live it up",
+      "targetMeaningZh": "盡情享受奢華或刺激的生活"
+    },
+    {
+      "id": "phrasal-verb-204-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Her grandfather experienced both world wars and survived them.",
+      "promptZh": "她的祖父經歷了兩次世界大戰並生存下來。",
+      "starter": "Her",
+      "answer": "Her grandfather lived through both world wars.",
+      "answerZh": "她的祖父經歷了兩次世界大戰。",
+      "highlight": "lived through",
+      "targetForm": "live through something",
+      "targetMeaningZh": "經歷並捱過某段時期或事件"
+    },
+    {
+      "id": "phrasal-verb-204-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "During her final year at college, Ruth stayed in a flat away from the college.",
+      "promptZh": "露芙在大學最後一年住在校外的單位。",
+      "starter": "During",
+      "answer": "During her final year at college, Ruth lived out.",
+      "answerZh": "露芙在大學最後一年住在校外。",
+      "highlight": "lived out",
+      "targetForm": "live out",
+      "targetMeaningZh": "不住在工作或學習場所提供的住所"
+    },
+    {
+      "id": "phrasal-verb-204-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Our new carer will stay in the house from Monday.",
+      "promptZh": "我們的新照顧員星期一起會住在屋內。",
+      "starter": "Our",
+      "answer": "Our new carer will live in from Monday.",
+      "answerZh": "我們的新照顧員星期一起會住在屋內。",
+      "highlight": "live",
+      "targetForm": "live in",
+      "targetMeaningZh": "住在工作或學習的地方"
+    },
+    {
+      "id": "phrasal-verb-204-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Have you ever experienced a major earthquake and survived it?",
+      "promptZh": "你曾否經歷大地震並生存下來?",
+      "starter": "Have",
+      "answer": "Have you ever lived through a major earthquake?",
+      "answerZh": "你曾否經歷過大地震?",
+      "highlight": "lived through",
+      "targetForm": "live through something",
+      "targetMeaningZh": "經歷並捱過某段時期或事件"
+    },
+    {
+      "id": "phrasal-verb-204-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "For many years, the artist was able to support herself by painting family pictures.",
+      "promptZh": "多年來,這名藝術家能夠靠替家庭畫像維持生活。",
+      "starter": "For",
+      "answer": "For many years, the artist was able to live by painting family pictures.",
+      "answerZh": "多年來,這名藝術家能夠靠替家庭畫像維持生活。",
+      "highlight": "live",
+      "targetForm": "live by doing something",
+      "targetMeaningZh": "靠某種活動賺錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Although the writer died long ago, her ideas still continue.",
+      "promptZh": "雖然這名作家很久以前已經去世,但她的思想仍然流傳。",
+      "starter": "Although",
+      "answer": "Although the writer died long ago, her ideas still live on.",
+      "answerZh": "雖然這名作家很久以前已經去世,但她的思想仍然流傳。",
+      "highlight": "live on",
+      "targetForm": "live on",
+      "targetMeaningZh": "繼續存在或流傳"
+    },
+    {
+      "id": "phrasal-verb-204-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "You may dislike the noise, but can you accept it for one month?",
+      "promptZh": "你可能不喜歡那些噪音,但可以忍受一個月嗎?",
+      "starter": "You",
+      "answer": "You may dislike the noise, but can you live with it for one month?",
+      "answerZh": "你可能不喜歡那些噪音,但可以忍受一個月嗎?",
+      "highlight": "live with",
+      "targetForm": "live with something",
+      "targetMeaningZh": "接受並忍受不理想的情況"
+    },
+    {
+      "id": "phrasal-verb-204-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Will the new phone be as good as all the adverts promise?",
+      "promptZh": "這部新手機會否像所有廣告所說的那麼好?",
+      "starter": "Will",
+      "answer": "Will the new phone live up to all the promises in the adverts?",
+      "answerZh": "這部新手機會否達到所有廣告中的承諾?",
+      "highlight": "live up to",
+      "targetForm": "live up to something",
+      "targetMeaningZh": "達到期望、標準或承諾"
+    },
+    {
+      "id": "phrasal-verb-204-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "They are spending the weekend enjoying a luxury hotel and fine food.",
+      "promptZh": "他們正利用週末享受豪華酒店和美食。",
+      "starter": "They",
+      "answer": "They are spending the weekend living it up at a luxury hotel.",
+      "answerZh": "他們正利用週末在豪華酒店盡情享受生活。",
+      "highlight": "living it up at",
+      "targetForm": "live it up",
+      "targetMeaningZh": "盡情享受奢華或刺激的生活"
+    },
+    {
+      "id": "phrasal-verb-204-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Our teacher always follows the belief that every student can improve.",
+      "promptZh": "我們的老師一直奉行每名學生都能進步的信念。",
+      "starter": "Our",
+      "answer": "Our teacher lives by the belief that every student can improve.",
+      "answerZh": "我們的老師奉行每名學生都能進步的信念。",
+      "highlight": "lives by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "奉行某項信念或原則"
+    },
+    {
+      "id": "phrasal-verb-204-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Next term, I will stay in my own flat instead of the college residence.",
+      "promptZh": "下學期我會住在自己的單位,而不是大學宿舍。",
+      "starter": "Next",
+      "answer": "Next term, I will live out instead of staying in the college residence.",
+      "answerZh": "下學期我會住在校外,而不是大學宿舍。",
+      "highlight": "live out",
+      "targetForm": "live out",
+      "targetMeaningZh": "不住在工作或學習場所提供的住所"
+    },
+    {
+      "id": "phrasal-verb-204-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Since May, Lara has shared a home with her aunt.",
+      "promptZh": "自五月起,拉娜一直和姨母同住。",
+      "starter": "Since",
+      "answer": "Since May, Lara has lived with her aunt.",
+      "answerZh": "自五月起,拉娜一直和姨母同住。",
+      "highlight": "lived",
+      "targetForm": "live with somebody",
+      "targetMeaningZh": "與某人同住"
+    },
+    {
+      "id": "phrasal-verb-204-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "During the long trip, they ate mainly rice and eggs.",
+      "promptZh": "在漫長旅程中,他們主要吃米飯和雞蛋。",
+      "starter": "During",
+      "answer": "During the long trip, they lived off rice and eggs.",
+      "answerZh": "在漫長旅程中,他們主要靠米飯和雞蛋充飢。",
+      "highlight": "lived off",
+      "targetForm": "live off something",
+      "targetMeaningZh": "主要靠某種食物維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Do you think he will ever make people forget that terrible dance?",
+      "promptZh": "你認為他能否令大家忘記那段糟糕的舞蹈?",
+      "starter": "Do",
+      "answer": "Do you think he will ever live that terrible dance down?",
+      "answerZh": "你認為他能否擺脫那段糟糕舞蹈帶來的尷尬?",
+      "highlight": "live",
+      "targetForm": "live something down",
+      "targetMeaningZh": "使別人忘記自己的尷尬或失敗"
+    },
+    {
+      "id": "phrasal-verb-204-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Ben seems to care about nothing except football.",
+      "promptZh": "賓看來甚麼都不在乎,只在乎足球。",
+      "starter": "Ben",
+      "answer": "Ben seems to live for football.",
+      "answerZh": "賓看來只為足球而活。",
+      "highlight": "live for",
+      "targetForm": "live for something",
+      "targetMeaningZh": "把某事視為生活中最重要的部分"
+    },
+    {
+      "id": "phrasal-verb-204-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Could a family manage with only this weekly amount of money?",
+      "promptZh": "一個家庭可以只靠這筆每星期的金錢維持生活嗎?",
+      "starter": "Could",
+      "answer": "Could a family live on only this weekly amount of money?",
+      "answerZh": "一個家庭可以只靠這筆每星期的金錢維持生活嗎?",
+      "highlight": "live on",
+      "targetForm": "live on something",
+      "targetMeaningZh": "靠某筆收入或金錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The trip allowed him to experience his dream of sleeping under the stars.",
+      "promptZh": "這次旅程讓他實現了在星空下睡覺的夢想。",
+      "starter": "The",
+      "answer": "The trip allowed him to live out his dream of sleeping under the stars.",
+      "answerZh": "這次旅程讓他實現了在星空下睡覺的夢想。",
+      "highlight": "live out",
+      "targetForm": "live out something",
+      "targetMeaningZh": "實現或親身經歷夢想"
+    },
+    {
+      "id": "phrasal-verb-204-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Are they still depending on their daughter to pay all their bills?",
+      "promptZh": "他們是否仍然依靠女兒支付所有賬單?",
+      "starter": "Are",
+      "answer": "Are they still living off their daughter?",
+      "answerZh": "他們是否仍然依靠女兒供養?",
+      "highlight": "living off",
+      "targetForm": "live off somebody",
+      "targetMeaningZh": "依靠某人供養"
+    },
+    {
+      "id": "phrasal-verb-204-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "He had always wanted to play a detective. In the school show, he finally experienced that wish.",
+      "promptZh": "他一直希望扮演偵探。在學校表演中,他終於實現了這個願望。",
+      "starter": "He",
+      "answer": "He had always wanted to play a detective. In the school show, he finally lived it out.",
+      "answerZh": "他一直希望扮演偵探。在學校表演中,他終於實現了這個願望。",
+      "highlight": "lived it out",
+      "targetForm": "live it out",
+      "targetMeaningZh": "實現或親身經歷願望"
+    },
+    {
+      "id": "phrasal-verb-204-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Chloe has no job, and her brother is paying for everything she needs.",
+      "promptZh": "克洛伊沒有工作,而她的哥哥正支付她所需的一切。",
+      "starter": "Chloe",
+      "answer": "Chloe has no job and is living off her brother.",
+      "answerZh": "克洛伊沒有工作,正依靠哥哥供養。",
+      "highlight": "is living off",
+      "targetForm": "live off somebody",
+      "targetMeaningZh": "依靠某人供養"
+    },
+    {
+      "id": "phrasal-verb-204-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The concert was exciting, but it was not as wonderful as its strong reviews suggested.",
+      "promptZh": "音樂會很精彩,但沒有好評所說的那麼出色。",
+      "starter": "The",
+      "answer": "The concert was exciting, but it did not live up to its strong reviews.",
+      "answerZh": "音樂會很精彩,但未能達到好評所建立的期望。",
+      "highlight": "did",
+      "targetForm": "live up to something",
+      "targetMeaningZh": "達到期望、標準或名聲"
+    },
+    {
+      "id": "phrasal-verb-204-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Why is Sam sharing a home with his grandparents this year?",
+      "promptZh": "森姆今年為何和祖父母同住?",
+      "starter": "Why",
+      "answer": "Why is Sam living with his grandparents this year?",
+      "answerZh": "森姆今年為何和祖父母同住?",
+      "highlight": "living",
+      "targetForm": "live with somebody",
+      "targetMeaningZh": "與某人同住"
+    },
+    {
+      "id": "phrasal-verb-204-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The coach tells the players to follow the rule that the team comes first.",
+      "promptZh": "教練要求球員奉行團隊優先的原則。",
+      "starter": "The",
+      "answer": "The coach tells the players to live by the rule that the team comes first.",
+      "answerZh": "教練要求球員奉行團隊優先的原則。",
+      "highlight": "live by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "奉行某項規則或原則"
+    },
+    {
+      "id": "phrasal-verb-204-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "There was little food in the cabin, so we ate beans for nearly a week.",
+      "promptZh": "小屋裏食物不多,所以我們差不多一星期都靠豆類充飢。",
+      "starter": "There",
+      "answer": "There was little food in the cabin, so we lived off beans for nearly a week.",
+      "answerZh": "小屋裏食物不多,所以我們差不多一星期都靠豆類充飢。",
+      "highlight": "lived off",
+      "targetForm": "live off something",
+      "targetMeaningZh": "主要靠某種食物維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The school needs a cook who can stay on the school grounds.",
+      "promptZh": "學校需要一名可以住在校園內的廚師。",
+      "starter": "The",
+      "answer": "The school needs a cook who can live in.",
+      "answerZh": "學校需要一名可以住在校內的廚師。",
+      "highlight": "live in",
+      "targetForm": "live in",
+      "targetMeaningZh": "住在工作或學習的地方"
+    },
+    {
+      "id": "phrasal-verb-204-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "I know I made a selfish choice, but I do not know how I can accept myself afterwards.",
+      "promptZh": "我知道自己作了一個自私的選擇,但不知道之後如何面對自己。",
+      "starter": "I",
+      "answer": "I know I made a selfish choice, but I do not know how I can live with myself afterwards.",
+      "answerZh": "我知道自己作了一個自私的選擇,但不知道之後如何面對自己。",
+      "highlight": "live with",
+      "targetForm": "live with yourself",
+      "targetMeaningZh": "面對並接受自己所做的事"
+    },
+    {
+      "id": "phrasal-verb-204-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The old festival is no longer held, but its spirit continues in the town’s new celebrations.",
+      "promptZh": "這個古老節慶已不再舉行,但其精神仍在鎮上的新慶祝活動中延續。",
+      "starter": "The",
+      "answer": "The old festival is no longer held, but its spirit lives on in the town’s new celebrations.",
+      "answerZh": "這個古老節慶已不再舉行,但其精神仍在鎮上的新慶祝活動中延續。",
+      "highlight": "lives on",
+      "targetForm": "live on",
+      "targetMeaningZh": "繼續存在或流傳"
+    },
+    {
+      "id": "phrasal-verb-204-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "People who experienced the great storm still remember the sound of the wind.",
+      "promptZh": "經歷過那場大風暴的人仍然記得風聲。",
+      "starter": "People",
+      "answer": "People who lived through the great storm still remember the sound of the wind.",
+      "answerZh": "經歷過那場大風暴的人仍然記得風聲。",
+      "highlight": "lived through",
+      "targetForm": "live through something",
+      "targetMeaningZh": "經歷並捱過某段時期或事件"
+    },
+    {
+      "id": "phrasal-verb-204-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The rent is high, so I cannot manage with my part-time pay alone.",
+      "promptZh": "租金很高,所以我不能只靠兼職收入維持生活。",
+      "starter": "The",
+      "answer": "The rent is high, so I cannot live on my part-time pay alone.",
+      "answerZh": "租金很高,所以我不能只靠兼職收入維持生活。",
+      "highlight": "live on",
+      "targetForm": "live on something",
+      "targetMeaningZh": "靠某筆收入或金錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "While their parents were away, the teenagers enjoyed late nights, films and takeaway food.",
+      "promptZh": "父母不在期間,這些青少年享受了夜睡、電影和外賣美食。",
+      "starter": "While",
+      "answer": "While their parents were away, the teenagers lived it up with late nights, films and takeaway food.",
+      "answerZh": "父母不在期間,這些青少年以夜睡、電影和外賣美食盡情享受生活。",
+      "highlight": "lived it up with",
+      "targetForm": "live it up",
+      "targetMeaningZh": "盡情享受歡樂或刺激的生活"
+    },
+    {
+      "id": "phrasal-verb-204-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Could he really support himself by repairing bicycles?",
+      "promptZh": "他真的能靠修理單車維持生活嗎?",
+      "starter": "Could",
+      "answer": "Could he really live by repairing bicycles?",
+      "answerZh": "他真的能靠修理單車維持生活嗎?",
+      "highlight": "live",
+      "targetForm": "live by doing something",
+      "targetMeaningZh": "靠某種活動賺錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "At the training centre, most students stay there, but a few have homes elsewhere.",
+      "promptZh": "在訓練中心,大部分學生住在中心內,但少數學生住在別處。",
+      "starter": "At",
+      "answer": "At the training centre, most students stay there, but a few live out.",
+      "answerZh": "在訓練中心,大部分學生住在中心內,但少數學生住在外面。",
+      "highlight": "live out",
+      "targetForm": "live out",
+      "targetMeaningZh": "不住在工作或學習場所提供的住所"
+    },
+    {
+      "id": "phrasal-verb-204-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After calling the teacher “Mum”, Leo thought the class would never let him forget it.",
+      "promptZh": "里奧誤稱老師為「媽媽」後,以為全班永遠不會讓他忘記這件事。",
+      "starter": "After",
+      "answer": "After calling the teacher “Mum”, Leo thought he would never live it down.",
+      "answerZh": "里奧誤稱老師為「媽媽」後,以為自己永遠無法擺脫這件尷尬事。",
+      "highlight": "Leo thought he",
+      "targetForm": "live something down",
+      "targetMeaningZh": "使別人忘記自己的尷尬或失敗"
+    },
+    {
+      "id": "phrasal-verb-204-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Her garden is not just a hobby; caring for it gives her life its purpose.",
+      "promptZh": "她的花園不只是一項嗜好;照料花園令她的生活有了重心。",
+      "starter": "Her",
+      "answer": "Her garden is not just a hobby; she lives for it.",
+      "answerZh": "她的花園不只是一項嗜好;她為它而活。",
+      "highlight": "she lives",
+      "targetForm": "live for something",
+      "targetMeaningZh": "把某事視為生活中最重要的部分"
+    },
+    {
+      "id": "phrasal-verb-204-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The road outside will remain noisy. Residents may not like this fact, but they must accept it.",
+      "promptZh": "外面的道路會繼續嘈吵。居民可能不喜歡這個事實,但必須接受。",
+      "starter": "The",
+      "answer": "The road outside will remain noisy. Residents may not like this fact, but they must live with it.",
+      "answerZh": "外面的道路會繼續嘈吵。居民可能不喜歡這個事實,但必須接受。",
+      "highlight": "live with",
+      "targetForm": "live with something",
+      "targetMeaningZh": "接受並忍受不理想的情況"
+    },
+    {
+      "id": "phrasal-verb-204-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The college offered rooms, but Priya chose to rent a flat in town.",
+      "promptZh": "大學提供宿舍房間,但普里雅選擇在市內租住單位。",
+      "starter": "The",
+      "answer": "The college offered rooms, but Priya chose to live out.",
+      "answerZh": "大學提供宿舍房間,但普里雅選擇住在校外。",
+      "highlight": "live out",
+      "targetForm": "live out",
+      "targetMeaningZh": "不住在工作或學習場所提供的住所"
+    },
+    {
+      "id": "phrasal-verb-204-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Even after retirement, Mr Lee cared about teaching more than anything else.",
+      "promptZh": "即使退休後,李先生仍然最重視教學。",
+      "starter": "Even",
+      "answer": "Even after retirement, Mr Lee lived for teaching.",
+      "answerZh": "即使退休後,李先生仍然為教學而活。",
+      "highlight": "lived for",
+      "targetForm": "live for something",
+      "targetMeaningZh": "把某事視為生活中最重要的部分"
+    },
+    {
+      "id": "phrasal-verb-204-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "She sent the love message to the whole class instead of one person, and nobody let her forget it.",
+      "promptZh": "她把示愛訊息錯發給全班,而不是一個人,結果沒有人讓她忘記這件事。",
+      "starter": "She",
+      "answer": "She sent the love message to the whole class instead of one person, and she could not live it down.",
+      "answerZh": "她把示愛訊息錯發給全班,而不是一個人,結果一直無法擺脫這件尷尬事。",
+      "highlight": "she could not live",
+      "targetForm": "live something down",
+      "targetMeaningZh": "使別人忘記自己的尷尬或失敗"
+    },
+    {
+      "id": "phrasal-verb-204-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The hikers had lost their food bag and had to eat wild berries for two days.",
+      "promptZh": "遠足者遺失了食物袋,只能靠野莓充飢兩天。",
+      "starter": "The",
+      "answer": "The hikers had lost their food bag and had to live off wild berries for two days.",
+      "answerZh": "遠足者遺失了食物袋,只能靠野莓充飢兩天。",
+      "highlight": "live off",
+      "targetForm": "live off something",
+      "targetMeaningZh": "主要靠某種食物維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The restaurant had a famous name, but the meal did not reach the standard people expected.",
+      "promptZh": "這間餐廳很有名,但食物未能達到大家預期的水準。",
+      "starter": "The",
+      "answer": "The restaurant had a famous name, but the meal did not live up to the expected standard.",
+      "answerZh": "這間餐廳很有名,但食物未能達到大家預期的水準。",
+      "highlight": "live up to",
+      "targetForm": "live up to something",
+      "targetMeaningZh": "達到期望、標準或名聲"
+    },
+    {
+      "id": "phrasal-verb-204-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After the fire, the family stayed with relatives for six months.",
+      "promptZh": "火災後,這個家庭和親戚同住了六個月。",
+      "starter": "After",
+      "answer": "After the fire, the family lived with relatives for six months.",
+      "answerZh": "火災後,這個家庭和親戚同住了六個月。",
+      "highlight": "lived",
+      "targetForm": "live with somebody",
+      "targetMeaningZh": "與某人同住"
+    },
+    {
+      "id": "phrasal-verb-204-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The scientist is gone, yet the method she created continues in schools around the world.",
+      "promptZh": "這名科學家已經離世,但她創立的方法仍在世界各地的學校中繼續使用。",
+      "starter": "The",
+      "answer": "The scientist is gone, yet the method she created lives on in schools around the world.",
+      "answerZh": "這名科學家已經離世,但她創立的方法仍在世界各地的學校中延續。",
+      "highlight": "lives on",
+      "targetForm": "live on",
+      "targetMeaningZh": "繼續存在或流傳"
+    },
+    {
+      "id": "phrasal-verb-204-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The couple depended on catching and selling fish to earn enough money.",
+      "promptZh": "這對夫婦依靠捕魚和賣魚賺取足夠金錢維持生活。",
+      "starter": "Catching",
+      "answer": "Catching and selling fish was what the couple lived by.",
+      "answerZh": "這對夫婦靠捕魚和賣魚維持生活。",
+      "highlight": "was what the couple lived by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "靠某種工作或活動維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Her chance to sing on a real stage allowed her to experience a dream she had had since childhood.",
+      "promptZh": "在真正舞台上唱歌的機會,讓她實現了自小已有的夢想。",
+      "starter": "Her",
+      "answer": "Her chance to sing on a real stage allowed her to live out a dream she had had since childhood.",
+      "answerZh": "在真正舞台上唱歌的機會,讓她實現了自小已有的夢想。",
+      "highlight": "live out",
+      "targetForm": "live out something",
+      "targetMeaningZh": "實現或親身經歷夢想"
+    },
+    {
+      "id": "phrasal-verb-204-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The young man refuses to find work because his uncle pays for his flat and food.",
+      "promptZh": "這名年輕人拒絕找工作,因為叔父支付他的租金和食物費。",
+      "starter": "The",
+      "answer": "The young man refuses to find work because he can live off his uncle.",
+      "answerZh": "這名年輕人拒絕找工作,因為他可以依靠叔父供養。",
+      "highlight": "he can live off",
+      "targetForm": "live off somebody",
+      "targetMeaningZh": "依靠某人供養"
+    },
+    {
+      "id": "phrasal-verb-204-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Although they experienced months of fear during the war, they remained together.",
+      "promptZh": "雖然他們在戰爭期間經歷了數月恐懼,但仍然在一起。",
+      "starter": "Although",
+      "answer": "Although they lived through months of fear during the war, they remained together.",
+      "answerZh": "雖然他們在戰爭期間捱過了數月恐懼,但仍然在一起。",
+      "highlight": "lived through",
+      "targetForm": "live through something",
+      "targetMeaningZh": "經歷並捱過某段時期或事件"
+    },
+    {
+      "id": "phrasal-verb-204-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The doctor followed the principle that every patient deserved time and respect.",
+      "promptZh": "這名醫生奉行每名病人都值得獲得時間和尊重的原則。",
+      "starter": "The",
+      "answer": "The doctor lived by the principle that every patient deserved time and respect.",
+      "answerZh": "這名醫生奉行每名病人都值得獲得時間和尊重的原則。",
+      "highlight": "lived by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "奉行某項信念或原則"
+    },
+    {
+      "id": "phrasal-verb-204-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After years of saving, the sisters took a luxury holiday and enjoyed every possible comfort.",
+      "promptZh": "儲蓄多年後,兩姊妹去了一次豪華旅行,盡情享受各種舒適體驗。",
+      "starter": "After",
+      "answer": "After years of saving, the sisters took a luxury holiday and lived it up.",
+      "answerZh": "儲蓄多年後,兩姊妹去了一次豪華旅行,盡情享受生活。",
+      "highlight": "lived it up",
+      "targetForm": "live it up",
+      "targetMeaningZh": "盡情享受奢華或刺激的生活"
+    },
+    {
+      "id": "phrasal-verb-204-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Because the job may require help at night, the family wants a nurse who stays in the house.",
+      "promptZh": "因為這份工作可能需要在晚上提供協助,這個家庭想聘請一名住在屋內的護士。",
+      "starter": "Because",
+      "answer": "Because the job may require help at night, the family wants a nurse who lives in.",
+      "answerZh": "因為這份工作可能需要在晚上提供協助,這個家庭想聘請一名住家護士。",
+      "highlight": "lives",
+      "targetForm": "live in",
+      "targetMeaningZh": "住在工作或學習的地方"
+    },
+    {
+      "id": "phrasal-verb-204-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After paying the rent, could you really manage with just twenty pounds a week?",
+      "promptZh": "支付租金後,你真的能只靠每星期二十英鎊維持生活嗎?",
+      "starter": "After",
+      "answer": "After paying the rent, could you really live on just twenty pounds a week?",
+      "answerZh": "支付租金後,你真的能只靠每星期二十英鎊維持生活嗎?",
+      "highlight": "live on",
+      "targetForm": "live on something",
+      "targetMeaningZh": "靠某筆收入或金錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The school promised small classes and personal help, but many students received neither.",
+      "promptZh": "學校承諾小班教學和個別協助,但許多學生兩者都沒有得到。",
+      "starter": "The",
+      "answer": "The school promised small classes and personal help, but it failed to live up to those promises.",
+      "answerZh": "學校承諾小班教學和個別協助,但未能履行那些承諾。",
+      "highlight": "it failed to live up to those promises",
+      "targetForm": "live up to something",
+      "targetMeaningZh": "達到期望、標準或承諾"
+    },
+    {
+      "id": "phrasal-verb-204-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The photographer had no regular employer. She supported herself by taking pictures at weddings and school events.",
+      "promptZh": "這名攝影師沒有固定僱主。她靠在婚禮和學校活動拍照維持生活。",
+      "starter": "The",
+      "answer": "The photographer had no regular employer. Taking pictures at weddings and school events was what she lived by.",
+      "answerZh": "這名攝影師沒有固定僱主。她靠在婚禮和學校活動拍照維持生活。",
+      "highlight": "was what she lived by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "靠某種工作或活動維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "They normally spend carefully, but during their week in Paris they ate in fine restaurants and enjoyed expensive shows.",
+      "promptZh": "他們平日花錢很小心,但在巴黎的一星期裏,他們到高級餐廳用膳,也欣賞昂貴表演。",
+      "starter": "They",
+      "answer": "They normally spend carefully, but during their week in Paris they lived it up with fine restaurants and expensive shows.",
+      "answerZh": "他們平日花錢很小心,但在巴黎的一星期裏,他們到高級餐廳用膳,也欣賞昂貴表演,盡情享受生活。",
+      "highlight": "lived it up with",
+      "targetForm": "live it up",
+      "targetMeaningZh": "盡情享受奢華或刺激的生活"
+    },
+    {
+      "id": "phrasal-verb-204-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Anyone who experienced that terrible winter remembers how the roads stayed closed for weeks.",
+      "promptZh": "任何經歷過那個嚴冬的人,都記得道路封閉了數星期。",
+      "starter": "Anyone",
+      "answer": "Anyone who lived through that terrible winter remembers how the roads stayed closed for weeks.",
+      "answerZh": "任何捱過那個嚴冬的人,都記得道路封閉了數星期。",
+      "highlight": "lived through",
+      "targetForm": "live through something",
+      "targetMeaningZh": "經歷並捱過某段時期或事件"
+    },
+    {
+      "id": "phrasal-verb-204-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The grant covers food and rent, but students still find it difficult to manage with that amount.",
+      "promptZh": "這筆津貼足以支付食物和租金,但學生仍然覺得很難只靠這筆金錢生活。",
+      "starter": "The",
+      "answer": "The grant covers food and rent, but students still find it difficult to live on that amount.",
+      "answerZh": "這筆津貼足以支付食物和租金,但學生仍然覺得很難只靠這筆金錢生活。",
+      "highlight": "live on",
+      "targetForm": "live on something",
+      "targetMeaningZh": "靠某筆收入或金錢維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "You chose to hide the truth from your closest friend. How will you accept yourself if she is hurt?",
+      "promptZh": "你選擇向最親近的朋友隱瞞真相。如果她受到傷害,你將如何面對自己?",
+      "starter": "You",
+      "answer": "You chose to hide the truth from your closest friend. How will you live with yourself if she is hurt?",
+      "answerZh": "你選擇向最親近的朋友隱瞞真相。如果她受到傷害,你將如何面對自己?",
+      "highlight": "live with",
+      "targetForm": "live with yourself",
+      "targetMeaningZh": "面對並接受自己所做的事"
+    },
+    {
+      "id": "phrasal-verb-204-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Even when nobody was watching, her grandfather followed the rule that a promise must be kept.",
+      "promptZh": "即使沒有人看着,她的祖父仍奉行承諾必須遵守的原則。",
+      "starter": "Even",
+      "answer": "Even when nobody was watching, her grandfather lived by the rule that a promise must be kept.",
+      "answerZh": "即使沒有人看着,她的祖父仍奉行承諾必須遵守的原則。",
+      "highlight": "lived by",
+      "targetForm": "live by something",
+      "targetMeaningZh": "奉行某項規則或原則"
+    },
+    {
+      "id": "phrasal-verb-204-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Since the rent became too high, Alex and his partner have shared a home with another couple.",
+      "promptZh": "自從租金變得太高後,亞歷克斯和伴侶一直和另一對伴侶同住。",
+      "starter": "Since",
+      "answer": "Since the rent became too high, Alex and his partner have lived with another couple.",
+      "answerZh": "自從租金變得太高後,亞歷克斯和伴侶一直和另一對伴侶同住。",
+      "highlight": "lived",
+      "targetForm": "live with somebody",
+      "targetMeaningZh": "與某人同住"
+    },
+    {
+      "id": "phrasal-verb-204-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "He hoped people would forget his embarrassing performance, but his friends played the video at every party.",
+      "promptZh": "他希望大家忘記那次尷尬的表演,但朋友在每次派對都播放那段影片。",
+      "starter": "He",
+      "answer": "He hoped to live his embarrassing performance down, but his friends played the video at every party.",
+      "answerZh": "他希望擺脫那次尷尬表演帶來的影響,但朋友在每次派對都播放那段影片。",
+      "highlight": "to live",
+      "targetForm": "live something down",
+      "targetMeaningZh": "使別人忘記自己的尷尬或失敗"
+    },
+    {
+      "id": "phrasal-verb-204-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The old building has disappeared, but stories about the people who worked there continue in the town.",
+      "promptZh": "這座舊建築已經消失,但有關曾在那裏工作的人們的故事仍在鎮上流傳。",
+      "starter": "The",
+      "answer": "The old building has disappeared, but stories about the people who worked there live on in the town.",
+      "answerZh": "這座舊建築已經消失,但有關曾在那裏工作的人們的故事仍在鎮上流傳。",
+      "highlight": "live on",
+      "targetForm": "live on",
+      "targetMeaningZh": "繼續存在或流傳"
+    },
+    {
+      "id": "phrasal-verb-204-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Students may use the centre’s rooms, but those with family nearby are allowed to stay elsewhere.",
+      "promptZh": "學生可以使用中心的房間,但家人住在附近的學生可以住在別處。",
+      "starter": "Students",
+      "answer": "Students may use the centre’s rooms, but those with family nearby are allowed to live out.",
+      "answerZh": "學生可以使用中心的房間,但家人住在附近的學生可以住在外面。",
+      "highlight": "live out",
+      "targetForm": "live out",
+      "targetMeaningZh": "不住在工作或學習場所提供的住所"
+    },
+    {
+      "id": "phrasal-verb-204-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "She enjoys many things, yet helping injured animals is what gives her life its real purpose.",
+      "promptZh": "她喜歡很多事情,但幫助受傷動物才是令她生命真正有意義的事。",
+      "starter": "She",
+      "answer": "She enjoys many things, yet helping injured animals is what she lives for.",
+      "answerZh": "她喜歡很多事情,但幫助受傷動物才是她生命中最重要的事。",
+      "highlight": "she lives for",
+      "targetForm": "live for something",
+      "targetMeaningZh": "把某事視為生活中最重要的部分"
+    },
+    {
+      "id": "phrasal-verb-204-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "When the road was closed by snow, the family had to eat only the tins of soup stored in the cupboard.",
+      "promptZh": "道路被大雪封閉時,這個家庭只能靠櫃內儲存的罐頭湯充飢。",
+      "starter": "When",
+      "answer": "When the road was closed by snow, the family had to live off the tins of soup stored in the cupboard.",
+      "answerZh": "道路被大雪封閉時,這個家庭只能靠櫃內儲存的罐頭湯充飢。",
+      "highlight": "live off",
+      "targetForm": "live off something",
+      "targetMeaningZh": "主要靠某種食物維持生活"
+    },
+    {
+      "id": "phrasal-verb-204-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Because the children sometimes need help before breakfast, the nanny must stay in the house.",
+      "promptZh": "因為孩子們有時在早餐前需要協助,保母必須住在屋內。",
+      "starter": "Because",
+      "answer": "Because the children sometimes need help before breakfast, the nanny must live in.",
+      "answerZh": "因為孩子們有時在早餐前需要協助,保母必須住在屋內。",
+      "highlight": "live",
+      "targetForm": "live in",
+      "targetMeaningZh": "住在工作或學習的地方"
+    },
+    {
+      "id": "phrasal-verb-204-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "He says he is independent, but his parents still pay his rent, food and travel costs.",
+      "promptZh": "他說自己很獨立,但父母仍然支付他的租金、食物和交通費。",
+      "starter": "He",
+      "answer": "He says he is independent, but he still lives off his parents.",
+      "answerZh": "他說自己很獨立,但仍然依靠父母供養。",
+      "highlight": "he still lives off",
+      "targetForm": "live off somebody",
+      "targetMeaningZh": "依靠某人供養"
+    },
+    {
+      "id": "phrasal-verb-204-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "For one week at the history camp, the children experienced their dream of living like people from two hundred years ago.",
+      "promptZh": "在歷史營的一星期裏,孩子們實現了像二百年前的人一樣生活的夢想。",
+      "starter": "For",
+      "answer": "For one week at the history camp, the children lived out their dream of living like people from two hundred years ago.",
+      "answerZh": "在歷史營的一星期裏,孩子們實現了像二百年前的人一樣生活的夢想。",
+      "highlight": "lived out",
+      "targetForm": "live out something",
+      "targetMeaningZh": "實現或親身經歷夢想"
+    }
+  ]
+}

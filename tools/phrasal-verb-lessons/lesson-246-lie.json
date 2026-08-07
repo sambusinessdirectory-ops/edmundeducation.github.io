@@ -1,0 +1,1745 @@
+{
+  "id": "phrasal-verb-246",
+  "order": 246,
+  "slug": "lie",
+  "version": "1",
+  "title": "LIE 動詞片語",
+  "titleEn": "Lie",
+  "titleZh": "LIE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 234 - LIE.pdf",
+    "sourceNumber": 234,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LIE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LIE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LIE",
+      "highlight": "LIE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Several books were lying about the room.",
+      "zh": "房間內隨處放着幾本書。",
+      "highlight": "lying about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Several difficult weeks lie ahead.",
+      "zh": "未來幾星期將會十分艱難。",
+      "highlight": "lie",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We lay around the house all afternoon.",
+      "zh": "我們整個下午都在家中閒着。",
+      "highlight": "lay around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "物件隨處擺放或散落,沒有收好；在未來等待着某人;將會發生；閒躺着或四處待着,甚麼也不做；展現在某人眼前;位於某人前方；躺下;平躺休息；比平日遲起床;早上在床上多睡一會兒；躲藏一段時間,以免被人發現；由某人或某方負責或作出決定",
+    "en": "lie about / lie about something; lie ahead / lie ahead of somebody; lie around / lie around something also: lie about / lie about something; lie before somebody; lie down; lie in; lie up; lie with somebody/something to do something",
+    "naturalZh": [
+      "物件隨處擺放或散落,沒有收好",
+      "在未來等待着某人;將會發生",
+      "閒躺着或四處待着,甚麼也不做",
+      "展現在某人眼前;位於某人前方",
+      "躺下;平躺休息",
+      "比平日遲起床;早上在床上多睡一會兒",
+      "躲藏一段時間,以免被人發現",
+      "由某人或某方負責或作出決定"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lie about / lie about something",
+      "titleZh": "物件隨處擺放或散落,沒有收好",
+      "titleEn": "lie about / lie about something",
+      "descriptionZh": "物件隨處擺放或散落,沒有收好",
+      "descriptionEn": "Several books were lying about the room.",
+      "examples": [
+        {
+          "en": "Several books were lying about the room.",
+          "zh": "房間內隨處放着幾本書。",
+          "highlight": "lying about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lie ahead / lie ahead of somebody",
+      "titleZh": "在未來等待着某人;將會發生",
+      "titleEn": "lie ahead / lie ahead of somebody",
+      "descriptionZh": "在未來等待着某人;將會發生",
+      "descriptionEn": "Several difficult weeks lie ahead.",
+      "examples": [
+        {
+          "en": "Several difficult weeks lie ahead.",
+          "zh": "未來幾星期將會十分艱難。",
+          "highlight": "lie"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lie around / lie around something also: lie about / lie about something",
+      "titleZh": "閒躺着或四處待着,甚麼也不做",
+      "titleEn": "lie around / lie around something also: lie about / lie about something",
+      "descriptionZh": "閒躺着或四處待着,甚麼也不做",
+      "descriptionEn": "We lay around the house all afternoon.",
+      "examples": [
+        {
+          "en": "We lay around the house all afternoon.",
+          "zh": "我們整個下午都在家中閒着。",
+          "highlight": "lay around"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lie before somebody",
+      "titleZh": "展現在某人眼前;位於某人前方",
+      "titleEn": "lie before somebody",
+      "descriptionZh": "展現在某人眼前;位於某人前方",
+      "descriptionEn": "A beautiful valley lay before us.",
+      "examples": [
+        {
+          "en": "A beautiful valley lay before us.",
+          "zh": "一個美麗的山谷展現在我們眼前。",
+          "highlight": "lay"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lie down",
+      "titleZh": "躺下;平躺休息",
+      "titleEn": "lie down",
+      "descriptionZh": "躺下;平躺休息",
+      "descriptionEn": "You should lie down for a while.",
+      "examples": [
+        {
+          "en": "You should lie down for a while.",
+          "zh": "你應該躺下休息一會兒。",
+          "highlight": "lie down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lie in",
+      "titleZh": "比平日遲起床;早上在床上多睡一會兒",
+      "titleEn": "lie in",
+      "descriptionZh": "比平日遲起床;早上在床上多睡一會兒",
+      "descriptionEn": "I usually lie in on Sundays.",
+      "examples": [
+        {
+          "en": "I usually lie in on Sundays.",
+          "zh": "我星期日通常會遲一點起床。",
+          "highlight": "lie in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lie up",
+      "titleZh": "躲藏一段時間,以免被人發現",
+      "titleEn": "lie up",
+      "descriptionZh": "躲藏一段時間,以免被人發現",
+      "descriptionEn": "The fugitives lay up in an empty house.",
+      "examples": [
+        {
+          "en": "The fugitives lay up in an empty house.",
+          "zh": "逃犯躲藏在一所空置房屋內。",
+          "highlight": "lay up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lie with somebody/something to do something",
+      "titleZh": "由某人或某方負責或作出決定",
+      "titleEn": "lie with somebody/something to do something",
+      "descriptionZh": "由某人或某方負責或作出決定",
+      "descriptionEn": "The final decision lies with the manager.",
+      "examples": [
+        {
+          "en": "The final decision lies with the manager.",
+          "zh": "最終決定由經理作出。",
+          "highlight": "lies with"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LIE 片語動詞的實際用途",
+    "labelEn": "LIE Phrasal Verbs in Use",
+    "summaryZh": "lie down 表示躺下休息;lie in 表示比平日遲起床;lie around 則表示閒着,沒有做甚麼事情。；lie before 可以描述展現在某人眼前的景象;lie ahead 則可以描述未來的機會、問題或經歷。；lie with 可以清楚說明由誰負責,或由誰作出決定。；lie about 可用來談論隨處擺放而沒有收好的衣物、書本、玩具或其他物件。；當某人躲藏起來,等待安全時才再次行動,故事中可能會使用 lie up。",
+    "summaryEn": "Lie down describes moving into a resting position, lie in means staying in bed later, and lie around describes spending time doing very little. Lie before can describe a view in front of someone, while lie ahead can describe future chances, problems or experiences. Lie with helps you state clearly who has the duty or power to make a decision. Lie about is useful when talking about clothes, books, toys or other things left untidily in different places. Lie up may appear in stories when a person hides somewhere and waits until it is safe to move again.",
+    "contextsZh": [
+      "更清楚地談論休息和睡眠",
+      "描述眼前景象和未來事情",
+      "說明責任或決定權屬於誰",
+      "描述沒有收好的物件",
+      "理解關於躲藏和逃走的故事"
+    ],
+    "contextsEn": [
+      "Talk about rest and sleep more clearly",
+      "Describe what is in front of you and what is waiting in the future",
+      "Explain where responsibility belongs",
+      "Describe objects that have not been put away",
+      "Understand stories about hiding and escape"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LIE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LIE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lie about / lie about something",
+    "fixedHighlight": "lie about / lie about something",
+    "fixedZh": "閱讀整句,選出意思相同的 LIE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LIE expression that gives the same meaning.",
+    "correct": "lying about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；lie about 可以描述沒有收好的物件;lie around 或 lie about 則可以描述某人閒着,甚麼也不做。；lie ahead 指未來將會出現的事情;lie before somebody 則描述展現在某人眼前的事物。",
+    "variableEn": "Keep the same people, things, time and meaning. Lie about can describe objects that have not been put away. Lie around or lie about can describe people spending time doing nothing. Lie ahead refers to the future. Lie before somebody describes something that is visible in front of that person.",
+    "variableItemsZh": [
+      "lie about / lie about something",
+      "lie ahead / lie ahead of somebody",
+      "lie around / lie around something also: lie about / lie about something",
+      "lie before somebody",
+      "lie down",
+      "lie in",
+      "lie up",
+      "lie with somebody/something to do something"
+    ],
+    "variableItemsEn": [
+      "lie about / lie about something",
+      "lie ahead / lie ahead of somebody",
+      "lie around / lie around something also: lie about / lie about something",
+      "lie before somebody",
+      "lie down",
+      "lie in",
+      "lie up",
+      "lie with somebody/something to do something"
+    ],
+    "forms": [
+      {
+        "formZh": "物件隨處擺放或散落,沒有收好",
+        "formEn": "lie about / lie about something",
+        "exampleZh": "房間內隨處放着幾本書。",
+        "exampleEn": "Several books were lying about the room.",
+        "highlight": "lying about"
+      },
+      {
+        "formZh": "在未來等待着某人;將會發生",
+        "formEn": "lie ahead / lie ahead of somebody",
+        "exampleZh": "未來幾星期將會十分艱難。",
+        "exampleEn": "Several difficult weeks lie ahead.",
+        "highlight": "lie"
+      },
+      {
+        "formZh": "閒躺着或四處待着,甚麼也不做",
+        "formEn": "lie around / lie around something also: lie about / lie about something",
+        "exampleZh": "我們整個下午都在家中閒着。",
+        "exampleEn": "We lay around the house all afternoon.",
+        "highlight": "lay around"
+      },
+      {
+        "formZh": "展現在某人眼前;位於某人前方",
+        "formEn": "lie before somebody",
+        "exampleZh": "一個美麗的山谷展現在我們眼前。",
+        "exampleEn": "A beautiful valley lay before us.",
+        "highlight": "lay"
+      },
+      {
+        "formZh": "躺下;平躺休息",
+        "formEn": "lie down",
+        "exampleZh": "你應該躺下休息一會兒。",
+        "exampleEn": "You should lie down for a while.",
+        "highlight": "lie down"
+      },
+      {
+        "formZh": "比平日遲起床;早上在床上多睡一會兒",
+        "formEn": "lie in",
+        "exampleZh": "我星期日通常會遲一點起床。",
+        "exampleEn": "I usually lie in on Sundays.",
+        "highlight": "lie in"
+      },
+      {
+        "formZh": "躲藏一段時間,以免被人發現",
+        "formEn": "lie up",
+        "exampleZh": "逃犯躲藏在一所空置房屋內。",
+        "exampleEn": "The fugitives lay up in an empty house.",
+        "highlight": "lay up"
+      },
+      {
+        "formZh": "由某人或某方負責或作出決定",
+        "formEn": "lie with somebody/something to do something",
+        "exampleZh": "最終決定由經理作出。",
+        "exampleEn": "The final decision lies with the manager.",
+        "highlight": "lies with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "物件隨處擺放或散落,沒有收好",
+      "titleEn": "lie about / lie about something",
+      "formula": "lie about / lie about something",
+      "highlight": "lie about / lie about something",
+      "descriptionZh": "物件隨處擺放或散落,沒有收好",
+      "descriptionEn": "Several books were lying about the room.",
+      "examples": [
+        {
+          "en": "Several books were lying about the room.",
+          "zh": "房間內隨處放着幾本書。",
+          "highlight": "lying about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在未來等待着某人;將會發生",
+      "titleEn": "lie ahead / lie ahead of somebody",
+      "formula": "lie ahead / lie ahead of somebody",
+      "highlight": "lie ahead / lie ahead of somebody",
+      "descriptionZh": "在未來等待着某人;將會發生",
+      "descriptionEn": "Several difficult weeks lie ahead.",
+      "examples": [
+        {
+          "en": "Several difficult weeks lie ahead.",
+          "zh": "未來幾星期將會十分艱難。",
+          "highlight": "lie"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "閒躺着或四處待着,甚麼也不做",
+      "titleEn": "lie around / lie around something also: lie about / lie about something",
+      "formula": "lie around / lie around something also: lie about / lie about something",
+      "highlight": "lie around / lie around something also: lie about / lie about something",
+      "descriptionZh": "閒躺着或四處待着,甚麼也不做",
+      "descriptionEn": "We lay around the house all afternoon.",
+      "examples": [
+        {
+          "en": "We lay around the house all afternoon.",
+          "zh": "我們整個下午都在家中閒着。",
+          "highlight": "lay around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "展現在某人眼前;位於某人前方",
+      "titleEn": "lie before somebody",
+      "formula": "lie before somebody",
+      "highlight": "lie before somebody",
+      "descriptionZh": "展現在某人眼前;位於某人前方",
+      "descriptionEn": "A beautiful valley lay before us.",
+      "examples": [
+        {
+          "en": "A beautiful valley lay before us.",
+          "zh": "一個美麗的山谷展現在我們眼前。",
+          "highlight": "lay"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "躺下;平躺休息",
+      "titleEn": "lie down",
+      "formula": "lie down",
+      "highlight": "lie down",
+      "descriptionZh": "躺下;平躺休息",
+      "descriptionEn": "You should lie down for a while.",
+      "examples": [
+        {
+          "en": "You should lie down for a while.",
+          "zh": "你應該躺下休息一會兒。",
+          "highlight": "lie down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "比平日遲起床;早上在床上多睡一會兒",
+      "titleEn": "lie in",
+      "formula": "lie in",
+      "highlight": "lie in",
+      "descriptionZh": "比平日遲起床;早上在床上多睡一會兒",
+      "descriptionEn": "I usually lie in on Sundays.",
+      "examples": [
+        {
+          "en": "I usually lie in on Sundays.",
+          "zh": "我星期日通常會遲一點起床。",
+          "highlight": "lie in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "躲藏一段時間,以免被人發現",
+      "titleEn": "lie up",
+      "formula": "lie up",
+      "highlight": "lie up",
+      "descriptionZh": "躲藏一段時間,以免被人發現",
+      "descriptionEn": "The fugitives lay up in an empty house.",
+      "examples": [
+        {
+          "en": "The fugitives lay up in an empty house.",
+          "zh": "逃犯躲藏在一所空置房屋內。",
+          "highlight": "lay up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "由某人或某方負責或作出決定",
+      "titleEn": "lie with somebody/something to do something",
+      "formula": "lie with somebody/something to do something",
+      "highlight": "lie with somebody/something to do something",
+      "descriptionZh": "由某人或某方負責或作出決定",
+      "descriptionEn": "The final decision lies with the manager.",
+      "examples": [
+        {
+          "en": "The final decision lies with the manager.",
+          "zh": "最終決定由經理作出。",
+          "highlight": "lies with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更清楚地談論休息和睡眠",
+      "titleEn": "Talk about rest and sleep more clearly",
+      "zh": "lie down 表示躺下休息;lie in 表示比平日遲起床;lie around 則表示閒着,沒有做甚麼事情。",
+      "en": "Lie down describes moving into a resting position, lie in means staying in bed later, and lie around describes spending time doing very little."
+    },
+    {
+      "titleZh": "描述眼前景象和未來事情",
+      "titleEn": "Describe what is in front of you and what is waiting in the future",
+      "zh": "lie before 可以描述展現在某人眼前的景象;lie ahead 則可以描述未來的機會、問題或經歷。",
+      "en": "Lie before can describe a view in front of someone, while lie ahead can describe future chances, problems or experiences."
+    },
+    {
+      "titleZh": "說明責任或決定權屬於誰",
+      "titleEn": "Explain where responsibility belongs",
+      "zh": "lie with 可以清楚說明由誰負責,或由誰作出決定。",
+      "en": "Lie with helps you state clearly who has the duty or power to make a decision."
+    },
+    {
+      "titleZh": "描述沒有收好的物件",
+      "titleEn": "Describe objects that have not been put away",
+      "zh": "lie about 可用來談論隨處擺放而沒有收好的衣物、書本、玩具或其他物件。",
+      "en": "Lie about is useful when talking about clothes, books, toys or other things left untidily in different places."
+    },
+    {
+      "titleZh": "理解關於躲藏和逃走的故事",
+      "titleEn": "Understand stories about hiding and escape",
+      "zh": "當某人躲藏起來,等待安全時才再次行動,故事中可能會使用 lie up。",
+      "en": "Lie up may appear in stories when a person hides somewhere and waits until it is safe to move again."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更清楚地談論休息和睡眠",
+      "描述眼前景象和未來事情",
+      "說明責任或決定權屬於誰",
+      "描述沒有收好的物件",
+      "理解關於躲藏和逃走的故事"
+    ],
+    "contextsEn": [
+      "Talk about rest and sleep more clearly",
+      "Describe what is in front of you and what is waiting in the future",
+      "Explain where responsibility belongs",
+      "Describe objects that have not been put away",
+      "Understand stories about hiding and escape"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更清楚地談論休息和睡眠",
+        "titleEn": "Talk about rest and sleep more clearly",
+        "zh": "lie down 表示躺下休息;lie in 表示比平日遲起床;lie around 則表示閒着,沒有做甚麼事情。",
+        "en": "Lie down describes moving into a resting position, lie in means staying in bed later, and lie around describes spending time doing very little.",
+        "examples": [
+          {
+            "en": "Several books were lying about the room.",
+            "zh": "房間內隨處放着幾本書。",
+            "highlight": "lying about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述眼前景象和未來事情",
+        "titleEn": "Describe what is in front of you and what is waiting in the future",
+        "zh": "lie before 可以描述展現在某人眼前的景象;lie ahead 則可以描述未來的機會、問題或經歷。",
+        "en": "Lie before can describe a view in front of someone, while lie ahead can describe future chances, problems or experiences.",
+        "examples": [
+          {
+            "en": "Several difficult weeks lie ahead.",
+            "zh": "未來幾星期將會十分艱難。",
+            "highlight": "lie"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明責任或決定權屬於誰",
+        "titleEn": "Explain where responsibility belongs",
+        "zh": "lie with 可以清楚說明由誰負責,或由誰作出決定。",
+        "en": "Lie with helps you state clearly who has the duty or power to make a decision.",
+        "examples": [
+          {
+            "en": "We lay around the house all afternoon.",
+            "zh": "我們整個下午都在家中閒着。",
+            "highlight": "lay around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述沒有收好的物件",
+        "titleEn": "Describe objects that have not been put away",
+        "zh": "lie about 可用來談論隨處擺放而沒有收好的衣物、書本、玩具或其他物件。",
+        "en": "Lie about is useful when talking about clothes, books, toys or other things left untidily in different places.",
+        "examples": [
+          {
+            "en": "A beautiful valley lay before us.",
+            "zh": "一個美麗的山谷展現在我們眼前。",
+            "highlight": "lay"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解關於躲藏和逃走的故事",
+        "titleEn": "Understand stories about hiding and escape",
+        "zh": "當某人躲藏起來,等待安全時才再次行動,故事中可能會使用 lie up。",
+        "en": "Lie up may appear in stories when a person hides somewhere and waits until it is safe to move again.",
+        "examples": [
+          {
+            "en": "You should lie down for a while.",
+            "zh": "你應該躺下休息一會兒。",
+            "highlight": "lie down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LIE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LIE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LIE 片語動詞。",
+      "en": "Read the whole sentence and choose the LIE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "lie about 可以描述沒有收好的物件;lie around 或 lie about 則可以描述某人閒着,甚麼也不做。",
+      "titleEn": "Lie about can describe objects that have not been put away.",
+      "zh": "lie about 可以描述沒有收好的物件;lie around 或 lie about 則可以描述某人閒着,甚麼也不做。",
+      "en": "Lie about can describe objects that have not been put away. Lie around or lie about can describe people spending time doing nothing."
+    },
+    {
+      "titleZh": "lie ahead 指未來將會出現的事情;lie before somebody 則描述展現在某人眼前的事物。",
+      "titleEn": "Lie ahead refers to the future.",
+      "zh": "lie ahead 指未來將會出現的事情;lie before somebody 則描述展現在某人眼前的事物。",
+      "en": "Lie ahead refers to the future. Lie before somebody describes something that is visible in front of that person."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LIE 動詞片語句子改寫練習",
+    "titleEn": "LIE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-246-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Great opportunities are waiting for you in the future.",
+      "promptZh": "未來有很多大好機會等待着你。",
+      "starter": "Great",
+      "answer": "Great opportunities lie ahead of you.",
+      "answerZh": "未來有很多大好機會等待着你。",
+      "highlight": "lie ahead of",
+      "targetForm": "lie ahead of somebody",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Go and rest in a flat position for a while.",
+      "promptZh": "去躺着休息一會兒吧。",
+      "starter": "Go",
+      "answer": "Go and lie down for a while.",
+      "answerZh": "去躺下休息一會兒吧。",
+      "highlight": "lie down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Several toys were left all over the living room.",
+      "promptZh": "客廳內隨處放着幾件玩具。",
+      "starter": "Several",
+      "answer": "Several toys lay about the living room.",
+      "answerZh": "客廳內隨處放着幾件玩具。",
+      "highlight": "lay about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "You must decide whether to accept or reject the offer.",
+      "promptZh": "你必須決定接受還是拒絕這項提議。",
+      "starter": "It",
+      "answer": "It lies with you to accept or reject the offer.",
+      "answerZh": "接受還是拒絕這項提議,由你決定。",
+      "highlight": "It lies with",
+      "targetForm": "lie with somebody to do something",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Noah spent the whole afternoon on the sofa doing nothing.",
+      "promptZh": "諾亞整個下午都躺在梳化上,甚麼也沒有做。",
+      "starter": "Noah",
+      "answer": "Noah lay around on the sofa all afternoon doing nothing.",
+      "answerZh": "諾亞整個下午都躺在梳化上,甚麼也沒有做。",
+      "highlight": "lay around",
+      "targetForm": "lie around",
+      "targetMeaningZh": "閒躺着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "It is Sunday, so I will stay in bed later than usual.",
+      "promptZh": "今天是星期日,所以我會比平日遲一點起床。",
+      "starter": "It",
+      "answer": "It is Sunday, so I will lie in.",
+      "answerZh": "今天是星期日,所以我會遲一點起床。",
+      "highlight": "lie",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "A wide green valley could be seen in front of us.",
+      "promptZh": "一個廣闊的翠綠山谷展現在我們眼前。",
+      "starter": "A",
+      "answer": "A wide green valley lay before us.",
+      "answerZh": "一個廣闊的翠綠山谷展現在我們眼前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The most difficult part is still in the future.",
+      "promptZh": "最困難的部分仍未到來。",
+      "starter": "The",
+      "answer": "The most difficult part still lies ahead.",
+      "answerZh": "最困難的部分仍未到來。",
+      "highlight": "lies ahead",
+      "targetForm": "lie ahead",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The fugitives hid in the caves until it became dark.",
+      "promptZh": "逃犯躲藏在山洞內,直至天黑。",
+      "starter": "The",
+      "answer": "The fugitives lay up in the caves until it became dark.",
+      "answerZh": "逃犯躲藏在山洞內,直至天黑。",
+      "highlight": "lay up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The tired dog lowered its body onto the rug.",
+      "promptZh": "疲倦的狗在地氈上躺了下來。",
+      "starter": "The",
+      "answer": "The tired dog lay down on the rug.",
+      "answerZh": "疲倦的狗在地氈上躺了下來。",
+      "highlight": "lay down on",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Old magazines were scattered around the waiting room.",
+      "promptZh": "候診室內隨處放着一些舊雜誌。",
+      "starter": "Old",
+      "answer": "Old magazines lay about the waiting room.",
+      "answerZh": "候診室內隨處放着一些舊雜誌。",
+      "highlight": "lay about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The final decision belongs to the head teacher.",
+      "promptZh": "最終決定由校長作出。",
+      "starter": "The",
+      "answer": "The final decision lies with the head teacher.",
+      "answerZh": "最終決定由校長作出。",
+      "highlight": "lies with",
+      "targetForm": "lie with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We stayed in bed until ten because we had no work.",
+      "promptZh": "我們因為不用工作,所以一直睡到十時才起床。",
+      "starter": "We",
+      "answer": "We lay in until ten because we had no work.",
+      "answerZh": "我們因為不用工作,所以一直睡到十時才起床。",
+      "highlight": "lay",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We stayed around the house all morning and did nothing useful.",
+      "promptZh": "我們整個早上都在家中閒着,沒有做任何有用的事情。",
+      "starter": "We",
+      "answer": "We lay around the house all morning doing nothing useful.",
+      "answerZh": "我們整個早上都在家中閒着,沒有做任何有用的事情。",
+      "highlight": "lay",
+      "targetForm": "lie around something",
+      "targetMeaningZh": "在某處閒着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "She usually stays in bed late on Saturdays.",
+      "promptZh": "她星期六通常會遲一點起床。",
+      "starter": "She",
+      "answer": "She usually lies in on Saturdays.",
+      "answerZh": "她星期六通常會遲一點起床。",
+      "highlight": "lies",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Wet towels are often left around the changing room.",
+      "promptZh": "更衣室內經常隨處放着濕毛巾。",
+      "starter": "Wet",
+      "answer": "Wet towels often lie about the changing room.",
+      "answerZh": "更衣室內經常隨處放着濕毛巾。",
+      "highlight": "lie about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The escaped prisoner is hiding in an empty shed until the search ends.",
+      "promptZh": "那名越獄犯正躲藏在一間空置小屋內,直至搜索結束。",
+      "starter": "The",
+      "answer": "The escaped prisoner is lying up in an empty shed until the search ends.",
+      "answerZh": "那名越獄犯正躲藏在一間空置小屋內,直至搜索結束。",
+      "highlight": "lying up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "She is spending the day at home resting and doing very little.",
+      "promptZh": "她今天整天都在家休息,幾乎甚麼也沒有做。",
+      "starter": "She",
+      "answer": "She is lying around at home all day doing very little.",
+      "answerZh": "她今天整天都在家中閒着,幾乎甚麼也沒有做。",
+      "highlight": "lying around",
+      "targetForm": "lie around",
+      "targetMeaningZh": "閒躺着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Many changes will happen in the months to come.",
+      "promptZh": "未來幾個月將會出現很多變化。",
+      "starter": "Many",
+      "answer": "Many changes lie ahead in the coming months.",
+      "answerZh": "未來幾個月將會出現很多變化。",
+      "highlight": "lie ahead",
+      "targetForm": "lie ahead",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "When they reached the hilltop, the whole town was spread out in front of them.",
+      "promptZh": "他們到達山頂時,整個城鎮展現在眼前。",
+      "starter": "When",
+      "answer": "When they reached the hilltop, the whole town lay before them.",
+      "answerZh": "他們到達山頂時,整個城鎮展現在眼前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I think I will rest on the bed for ten minutes.",
+      "promptZh": "我想我會在床上躺下休息十分鐘。",
+      "starter": "I",
+      "answer": "I think I will lie down on the bed for ten minutes.",
+      "answerZh": "我想我會在床上躺下休息十分鐘。",
+      "highlight": "lie down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The choice will belong to the voters.",
+      "promptZh": "這項選擇將由選民作出。",
+      "starter": "The",
+      "answer": "The choice will lie with the voters.",
+      "answerZh": "這項選擇將由選民作出。",
+      "highlight": "lie with",
+      "targetForm": "lie with somebody",
+      "targetMeaningZh": "由某人或某方負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why are so many cables left around the room?",
+      "promptZh": "為甚麼房間內隨處放着這麼多電線?",
+      "starter": "Why",
+      "answer": "Why are so many cables lying about the room?",
+      "answerZh": "為甚麼房間內隨處放着這麼多電線?",
+      "highlight": "lying about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The two thieves planned to hide in the woods for the night.",
+      "promptZh": "兩名小偷打算在樹林內躲藏一晚。",
+      "starter": "The",
+      "answer": "The two thieves planned to lie up in the woods for the night.",
+      "answerZh": "兩名小偷打算在樹林內躲藏一晚。",
+      "highlight": "lie up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "What future difficulties are waiting for us?",
+      "promptZh": "未來有甚麼困難等待着我們?",
+      "starter": "What",
+      "answer": "What difficulties lie ahead of us?",
+      "answerZh": "未來有甚麼困難等待着我們?",
+      "highlight": "lie ahead of",
+      "targetForm": "lie ahead of somebody",
+      "targetMeaningZh": "在未來等待着某人"
+    },
+    {
+      "id": "phrasal-verb-246-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why are you resting flat on the kitchen floor?",
+      "promptZh": "你為甚麼平躺在廚房地板上?",
+      "starter": "Why",
+      "answer": "Why are you lying down on the kitchen floor?",
+      "answerZh": "你為甚麼平躺在廚房地板上?",
+      "highlight": "lying down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "What was spread out in front of the travellers?",
+      "promptZh": "有甚麼展現在旅客眼前?",
+      "starter": "What",
+      "answer": "What lay before the travellers?",
+      "answerZh": "有甚麼展現在旅客眼前?",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why do you spend every Sunday doing nothing around the house?",
+      "promptZh": "你為甚麼每個星期日都在家中閒着,甚麼也不做?",
+      "starter": "Why",
+      "answer": "Why do you lie around the house every Sunday doing nothing?",
+      "answerZh": "你為甚麼每個星期日都在家中閒着,甚麼也不做?",
+      "highlight": "lie around the house",
+      "targetForm": "lie around something",
+      "targetMeaningZh": "在某處閒着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The office manager is responsible for checking the final list.",
+      "promptZh": "辦公室經理負責核對最終名單。",
+      "starter": "It",
+      "answer": "It lies with the office manager to check the final list.",
+      "answerZh": "核對最終名單是辦公室經理的責任。",
+      "highlight": "It lies with",
+      "targetForm": "lie with somebody to do something",
+      "targetMeaningZh": "由某人負責做某事"
+    },
+    {
+      "id": "phrasal-verb-246-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "A narrow path stretched out in front of the group.",
+      "promptZh": "一條狹窄的小路伸展在眾人面前。",
+      "starter": "A",
+      "answer": "A narrow path lay before the group.",
+      "answerZh": "一條狹窄的小路伸展在眾人面前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Books were left untidily around the classroom after the club meeting.",
+      "promptZh": "學會會議結束後,課室內隨處放着書本。",
+      "starter": "Books",
+      "answer": "Books lay about the classroom after the club meeting.",
+      "answerZh": "學會會議結束後,課室內隨處放着書本。",
+      "highlight": "lay about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Can I stay in bed later tomorrow morning?",
+      "promptZh": "我明早可以遲一點起床嗎?",
+      "starter": "Can",
+      "answer": "Can I lie in tomorrow morning?",
+      "answerZh": "我明早可以遲一點起床嗎?",
+      "highlight": "lie",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The spies had been hiding in a small flat for three days before moving again.",
+      "promptZh": "那些間諜在一個小單位內躲藏了三天,然後才再次行動。",
+      "starter": "The",
+      "answer": "The spies had been lying up in a small flat for three days before moving again.",
+      "answerZh": "那些間諜在一個小單位內躲藏了三天,然後才再次行動。",
+      "highlight": "lying up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The long road was still in front of us, and we had many hours of walking left.",
+      "promptZh": "那條漫長道路仍在我們前方,而我們還要步行很多小時。",
+      "starter": "The",
+      "answer": "The long road still lay ahead of us, and we had many hours of walking left.",
+      "answerZh": "那條漫長道路仍在我們前方,而我們還要步行很多小時。",
+      "highlight": "lay ahead",
+      "targetForm": "lie ahead of somebody",
+      "targetMeaningZh": "位於某人前方或在未來等待着某人"
+    },
+    {
+      "id": "phrasal-verb-246-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After lunch, they remained on the beach for hours without doing anything.",
+      "promptZh": "午飯後,他們在沙灘上待了幾小時,甚麼也沒有做。",
+      "starter": "After",
+      "answer": "After lunch, they lay around on the beach for hours without doing anything.",
+      "answerZh": "午飯後,他們在沙灘上閒了幾小時,甚麼也沒有做。",
+      "highlight": "lay around",
+      "targetForm": "lie around",
+      "targetMeaningZh": "閒躺着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The parents, not the school, must decide whether the child may travel.",
+      "promptZh": "是否讓孩子出發,必須由家長而不是學校決定。",
+      "starter": "It",
+      "answer": "It lies with the parents, not the school, to decide whether the child may travel.",
+      "answerZh": "是否讓孩子出發,由家長而不是學校決定。",
+      "highlight": "It lies with",
+      "targetForm": "lie with somebody to do something",
+      "targetMeaningZh": "由某人負責或決定做某事"
+    },
+    {
+      "id": "phrasal-verb-246-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the long walk, we put ourselves flat on the grass to rest.",
+      "promptZh": "長途步行後,我們躺在草地上休息。",
+      "starter": "After",
+      "answer": "After the long walk, we lay down on the grass to rest.",
+      "answerZh": "長途步行後,我們躺在草地上休息。",
+      "highlight": "lay down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "From the tower, the harbour and the islands were spread out below us.",
+      "promptZh": "從塔上望下去,海港和島嶼展現在我們眼前。",
+      "starter": "From",
+      "answer": "From the tower, the harbour and the islands lay before us.",
+      "answerZh": "從塔上望下去,海港和島嶼展現在我們眼前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The children had been looking forward to staying in bed late during the holiday.",
+      "promptZh": "孩子們一直期待假期時可以遲一點起床。",
+      "starter": "The",
+      "answer": "The children had been looking forward to lying in during the holiday.",
+      "answerZh": "孩子們一直期待假期時可以遲一點起床。",
+      "highlight": "lying",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Nobody had put the keys away; they were still somewhere around the kitchen.",
+      "promptZh": "沒有人把鑰匙收好;它們仍然散落在廚房內。",
+      "starter": "Nobody",
+      "answer": "Nobody had put the keys away; they were still lying about the kitchen.",
+      "answerZh": "沒有人把鑰匙收好;它們仍然散落在廚房內。",
+      "highlight": "lying about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Until the police left the area, the robber remained hidden in a farm building.",
+      "promptZh": "在警方離開該區前,那名劫匪一直躲藏在一座農場建築物內。",
+      "starter": "Until",
+      "answer": "Until the police left the area, the robber lay up in a farm building.",
+      "answerZh": "在警方離開該區前,那名劫匪一直躲藏在一座農場建築物內。",
+      "highlight": "lay up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Although the first test is over, several harder tests are still to come.",
+      "promptZh": "雖然第一次測驗已經結束,但之後仍有幾次更困難的測驗。",
+      "starter": "Although",
+      "answer": "Although the first test is over, several harder tests still lie ahead.",
+      "answerZh": "雖然第一次測驗已經結束,但之後仍有幾次更困難的測驗。",
+      "highlight": "lie ahead",
+      "targetForm": "lie ahead",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Instead of helping with the move, Leo spent the morning resting around the flat.",
+      "promptZh": "里奧沒有幫忙搬東西,反而整個早上都在單位內閒着。",
+      "starter": "Instead",
+      "answer": "Instead of helping with the move, Leo lay around the flat all morning.",
+      "answerZh": "里奧沒有幫忙搬東西,反而整個早上都在單位內閒着。",
+      "highlight": "lay",
+      "targetForm": "lie around something",
+      "targetMeaningZh": "在某處閒着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Only the club members have the power to accept the new rule.",
+      "promptZh": "只有學會會員有權接受這項新規則。",
+      "starter": "The",
+      "answer": "The power to accept the new rule lies with the club members.",
+      "answerZh": "接受這項新規則的權力屬於學會會員。",
+      "highlight": "lies with the club members",
+      "targetForm": "lie with somebody",
+      "targetMeaningZh": "由某人或某方負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The nurse told him to rest flat until the feeling of sickness passed.",
+      "promptZh": "護士叫他平躺休息,直至不適的感覺消失。",
+      "starter": "The",
+      "answer": "The nurse told him to lie down until the feeling of sickness passed.",
+      "answerZh": "護士叫他躺下休息,直至不適的感覺消失。",
+      "highlight": "lie down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The group could not travel in daylight, so they stayed hidden in the hills.",
+      "promptZh": "那群人不能在日間趕路,所以躲藏在山區內。",
+      "starter": "The",
+      "answer": "The group could not travel in daylight, so they lay up in the hills.",
+      "answerZh": "那群人不能在日間趕路,所以躲藏在山區內。",
+      "highlight": "lay up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "As the doors opened, a room full of broken furniture came into view in front of them.",
+      "promptZh": "門打開時,一個放滿破爛家具的房間展現在他們眼前。",
+      "starter": "As",
+      "answer": "As the doors opened, a room full of broken furniture lay before them.",
+      "answerZh": "門打開時,一個放滿破爛家具的房間展現在他們眼前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because the first lesson was cancelled, Ravi did not need to get up early.",
+      "promptZh": "由於第一堂課取消了,拉維不用早起。",
+      "starter": "Because",
+      "answer": "Because the first lesson was cancelled, Ravi could lie in.",
+      "answerZh": "由於第一堂課取消了,拉維可以遲一點起床。",
+      "highlight": "could lie in",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "No one had cleared the office. Empty cups were still scattered everywhere.",
+      "promptZh": "沒有人收拾辦公室,空杯仍然隨處擺放。",
+      "starter": "No",
+      "answer": "No one had cleared the office. Empty cups were still lying about.",
+      "answerZh": "沒有人收拾辦公室,空杯仍然隨處擺放。",
+      "highlight": "lying about",
+      "targetForm": "lie about",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The children had no plans, so they relaxed in the garden until dinner.",
+      "promptZh": "孩子們沒有任何計劃,所以在花園內閒着,直至晚飯時間。",
+      "starter": "The",
+      "answer": "The children had no plans, so they lay around in the garden until dinner.",
+      "answerZh": "孩子們沒有任何計劃,所以在花園內閒着,直至晚飯時間。",
+      "highlight": "lay around",
+      "targetForm": "lie around",
+      "targetMeaningZh": "閒躺着或四處待着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "No one knew what the next year would bring.",
+      "promptZh": "沒有人知道未來一年會發生甚麼事。",
+      "starter": "No",
+      "answer": "No one knew what lay ahead in the next year.",
+      "answerZh": "沒有人知道未來一年會發生甚麼事。",
+      "highlight": "lay ahead in",
+      "targetForm": "lie ahead",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The manager cannot choose the date; the choice belongs to the whole team.",
+      "promptZh": "經理不能選擇日期;這項決定由整個團隊作出。",
+      "starter": "The",
+      "answer": "The manager cannot choose the date; the choice lies with the whole team.",
+      "answerZh": "經理不能選擇日期;這項決定由整個團隊作出。",
+      "highlight": "lies with",
+      "targetForm": "lie with somebody/something",
+      "targetMeaningZh": "由某人或某方負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After escaping, the man found an old cabin where he could hide for a few days.",
+      "promptZh": "逃走後,那名男子找到一間舊木屋,可以在裏面躲藏幾天。",
+      "starter": "After",
+      "answer": "After escaping, the man found an old cabin where he could lie up for a few days.",
+      "answerZh": "逃走後,那名男子找到一間舊木屋,可以在裏面躲藏幾天。",
+      "highlight": "lie up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The child did not want to rest, but his mother asked him to get into a flat position.",
+      "promptZh": "那個孩子不想休息,但母親叫他躺下。",
+      "starter": "The",
+      "answer": "The child did not want to lie down, but his mother asked him to.",
+      "answerZh": "那個孩子不想躺下,但母親叫他這樣做。",
+      "highlight": "lie down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "At the top of the steps, the temple grounds were spread out in front of the visitors.",
+      "promptZh": "在梯級頂部,寺廟範圍展現在訪客眼前。",
+      "starter": "At",
+      "answer": "At the top of the steps, the temple grounds lay before the visitors.",
+      "answerZh": "在梯級頂部,寺廟範圍展現在訪客眼前。",
+      "highlight": "lay before",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We missed breakfast because we stayed in bed much later than planned.",
+      "promptZh": "我們因為比原定時間遲了很多起床,所以錯過了早餐。",
+      "starter": "We",
+      "answer": "We missed breakfast because we lay in much later than planned.",
+      "answerZh": "我們因為比原定時間遲了很多起床,所以錯過了早餐。",
+      "highlight": "lay",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the room began to spin, Ava moved to the sofa and rested in a flat position.",
+      "promptZh": "房間彷彿開始旋轉時,艾娃走到梳化並躺下。",
+      "starter": "When",
+      "answer": "When the room began to spin, Ava moved to the sofa and lay down.",
+      "answerZh": "房間彷彿開始旋轉時,艾娃走到梳化並躺下。",
+      "highlight": "lay down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The team has finished the easy stage, but its greatest challenge is still to come.",
+      "promptZh": "球隊已完成較容易的階段,但最大的挑戰仍未到來。",
+      "starter": "The",
+      "answer": "The team has finished the easy stage, but its greatest challenge still lies ahead.",
+      "answerZh": "球隊已完成較容易的階段,但最大的挑戰仍未到來。",
+      "highlight": "lies ahead",
+      "targetForm": "lie ahead",
+      "targetMeaningZh": "未來將會發生或出現"
+    },
+    {
+      "id": "phrasal-verb-246-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although the adviser can explain the risks, you are the person who must make the final choice.",
+      "promptZh": "雖然顧問可以解釋風險,但最終必須由你作出選擇。",
+      "starter": "Although",
+      "answer": "Although the adviser can explain the risks, the final choice lies with you.",
+      "answerZh": "雖然顧問可以解釋風險,但最終選擇由你作出。",
+      "highlight": "lies with you",
+      "targetForm": "lie with somebody",
+      "targetMeaningZh": "由某人負責或決定"
+    },
+    {
+      "id": "phrasal-verb-246-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the guests had gone, their coats and bags were still scattered around the hall.",
+      "promptZh": "客人離開後,他們的外套和袋仍然散落在大堂各處。",
+      "starter": "When",
+      "answer": "When the guests had gone, their coats and bags were still lying about the hall.",
+      "answerZh": "客人離開後,他們的外套和袋仍然散落在大堂各處。",
+      "highlight": "lying about",
+      "targetForm": "lie about something",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After working late all week, Priya plans to stay in bed late on Saturday morning.",
+      "promptZh": "普里雅整個星期都工作至很晚,所以打算星期六早上遲一點起床。",
+      "starter": "After",
+      "answer": "After working late all week, Priya plans to lie in on Saturday morning.",
+      "answerZh": "普里雅整個星期都工作至很晚,所以打算星期六早上遲一點起床。",
+      "highlight": "lie",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "During the holiday, Hana did not go anywhere; she simply stayed around the house and rested.",
+      "promptZh": "假期期間,哈娜沒有到任何地方,只是在家中閒着休息。",
+      "starter": "During",
+      "answer": "During the holiday, Hana did not go anywhere; she simply lay around the house.",
+      "answerZh": "假期期間,哈娜沒有到任何地方,只是在家中閒着。",
+      "highlight": "lay",
+      "targetForm": "lie around something",
+      "targetMeaningZh": "在某處閒着,甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-246-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Knowing that the roads were being watched, the fugitives decided to remain hidden until nightfall.",
+      "promptZh": "逃犯知道道路受到監視,所以決定躲藏至入夜。",
+      "starter": "Knowing",
+      "answer": "Knowing that the roads were being watched, the fugitives decided to lie up until nightfall.",
+      "answerZh": "逃犯知道道路受到監視,所以決定躲藏至入夜。",
+      "highlight": "lie up",
+      "targetForm": "lie up",
+      "targetMeaningZh": "躲藏一段時間"
+    },
+    {
+      "id": "phrasal-verb-246-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "You have been standing for hours; perhaps you should rest flat for a few minutes.",
+      "promptZh": "你已站了幾個小時;也許你應該躺下休息幾分鐘。",
+      "starter": "You",
+      "answer": "You have been standing for hours; perhaps you should lie down for a few minutes.",
+      "answerZh": "你已站了幾個小時;也許你應該躺下休息幾分鐘。",
+      "highlight": "lie down",
+      "targetForm": "lie down",
+      "targetMeaningZh": "躺下;平躺休息"
+    },
+    {
+      "id": "phrasal-verb-246-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After the fog cleared, they saw a long empty beach stretching into the distance.",
+      "promptZh": "霧散後,他們看見一片空曠的長灘伸展至遠方。",
+      "starter": "After",
+      "answer": "After the fog cleared, a long empty beach lay before them.",
+      "answerZh": "霧散後,一片空曠的長灘展現在他們眼前。",
+      "highlight": "lay before them",
+      "targetForm": "lie before somebody",
+      "targetMeaningZh": "展現在某人眼前"
+    },
+    {
+      "id": "phrasal-verb-246-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The committee can make suggestions, but the director must decide whether the event will continue.",
+      "promptZh": "委員會可以提出建議,但是否繼續舉行活動必須由總監決定。",
+      "starter": "The",
+      "answer": "The committee can make suggestions, but it lies with the director to decide whether the event will continue.",
+      "answerZh": "委員會可以提出建議,但是否繼續舉行活動由總監決定。",
+      "highlight": "it lies with",
+      "targetForm": "lie with somebody to do something",
+      "targetMeaningZh": "由某人負責或決定做某事"
+    },
+    {
+      "id": "phrasal-verb-246-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "As they started university, the students felt excited about the years waiting for them.",
+      "promptZh": "開始大學生活時,學生對未來幾年感到興奮。",
+      "starter": "As",
+      "answer": "As they started university, the students felt excited about the years that lay ahead of them.",
+      "answerZh": "開始大學生活時,學生對未來幾年感到興奮。",
+      "highlight": "that lay ahead of",
+      "targetForm": "lie ahead of somebody",
+      "targetMeaningZh": "在未來等待着某人"
+    },
+    {
+      "id": "phrasal-verb-246-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "There is no early train tomorrow, so everyone can stay in bed a little longer.",
+      "promptZh": "明天沒有早班火車,所以大家可以遲一點起床。",
+      "starter": "There",
+      "answer": "There is no early train tomorrow, so everyone can lie in a little longer.",
+      "answerZh": "明天沒有早班火車,所以大家可以遲一點起床。",
+      "highlight": "lie",
+      "targetForm": "lie in",
+      "targetMeaningZh": "比平日遲起床"
+    },
+    {
+      "id": "phrasal-verb-246-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The room looked messy because papers had been left in many different places.",
+      "promptZh": "房間看來十分凌亂,因為紙張散落在不同地方。",
+      "starter": "The",
+      "answer": "The room looked messy because papers lay about everywhere.",
+      "answerZh": "房間看來十分凌亂,因為紙張散落在不同地方。",
+      "highlight": "lay about everywhere",
+      "targetForm": "lie about",
+      "targetMeaningZh": "物件隨處擺放或散落"
+    },
+    {
+      "id": "phrasal-verb-246-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "You have spent the whole day doing nothing, so please help us now.",
+      "promptZh": "你整天都在閒着,甚麼也沒有做,所以現在請幫幫我們。",
+      "starter": "You",
+      "answer": "You have been lying about all day, so please help us now.",
+      "answerZh": "你整天都在閒着,甚麼也沒有做,所以現在請幫幫我們。",
+      "highlight": "been lying about all",
+      "targetForm": "lie about",
+      "targetMeaningZh": "閒着,甚麼也不做"
+    }
+  ]
+}

@@ -1,0 +1,1194 @@
+{
+  "id": "phrasal-verb-176",
+  "order": 176,
+  "slug": "get-down",
+  "version": "1",
+  "title": "GET DOWN 動詞片語",
+  "titleEn": "GET Down",
+  "titleZh": "GET DOWN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 175 - GET Down.pdf",
+    "sourceNumber": 175,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET DOWN",
+      "highlight": "GET DOWN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The driver got down from his truck to help me.",
+      "zh": "司機從貨車上下來幫助我。",
+      "highlight": "got down from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She is always getting down on me for arriving late.",
+      "zh": "她總是因為我遲到而責備我。",
+      "highlight": "getting down on me for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Let’s get down to business straight away.",
+      "zh": "我們立即開始處理正事吧。",
+      "highlight": "get down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "移到較低位置;從高處、車上或某物上下來；批評或責備某人或某事物,常可說明原因；開始認真處理某事;開始專心做某事",
+    "en": "get down / get down from something / get down something; get down on somebody/something (for something); get down to something / get down to doing something",
+    "naturalZh": [
+      "移到較低位置;從高處、車上或某物上下來",
+      "批評或責備某人或某事物,常可說明原因",
+      "開始認真處理某事;開始專心做某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get down / get down from something / get down something",
+      "titleZh": "移到較低位置;從高處、車上或某物上下來",
+      "titleEn": "get down / get down from something / get down something",
+      "descriptionZh": "移到較低位置;從高處、車上或某物上下來",
+      "descriptionEn": "The driver got down from his truck to help me.",
+      "examples": [
+        {
+          "en": "The driver got down from his truck to help me.",
+          "zh": "司機從貨車上下來幫助我。",
+          "highlight": "got down from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get down on somebody/something (for something)",
+      "titleZh": "批評或責備某人或某事物,常可說明原因",
+      "titleEn": "get down on somebody/something (for something)",
+      "descriptionZh": "批評或責備某人或某事物,常可說明原因",
+      "descriptionEn": "She is always getting down on me for arriving late.",
+      "examples": [
+        {
+          "en": "She is always getting down on me for arriving late.",
+          "zh": "她總是因為我遲到而責備我。",
+          "highlight": "getting down on me for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get down to something / get down to doing something",
+      "titleZh": "開始認真處理某事;開始專心做某事",
+      "titleEn": "get down to something / get down to doing something",
+      "descriptionZh": "開始認真處理某事;開始專心做某事",
+      "descriptionEn": "Let’s get down to business straight away.",
+      "examples": [
+        {
+          "en": "Let’s get down to business straight away.",
+          "zh": "我們立即開始處理正事吧。",
+          "highlight": "get down to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET DOWN 片語動詞的實際用途",
+    "labelEn": "GET DOWN Phrasal Verbs in Use",
+    "summaryZh": "get down 可以用來描述從椅子、桌子、梯子、屋頂、貨車或其他較高位置下來。；get down on 可以表示某人不斷批評另一個人或對方所做的事情。；get down to 可以表示人們停止聊天或拖延,開始認真處理功課、工作、計劃或討論。；完整語境可以幫助你分辨 get down 是表示「下來」、「批評」,還是「開始認真處理事情」。",
+    "summaryEn": "Get down can describe leaving a chair, table, ladder, roof, truck or another raised place. Get down on can show that someone repeatedly criticises a person or something they have done. Get down to can show that people stop chatting or delaying and begin their homework, work, planning or discussion. The full situation helps you decide whether get down means “move lower”, “criticise” or “begin serious work”.",
+    "contextsZh": [
+      "清楚描述從高處下來",
+      "表達批評和責備",
+      "表示開始認真做事",
+      "理解相同字詞的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving down from a higher place",
+      "Express criticism and blame",
+      "Show that serious work is beginning",
+      "Understand different meanings of the same words"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get down / get down from something / get down something",
+    "fixedHighlight": "get down / get down from something / get down something",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+    "correct": "got down from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 get down to 後,可以接一件事情或 -ing 形式:get down to workget down to writing the report；批評或責備的原因通常可以放在 for 之後:get down on him for being late",
+    "variableEn": "Keep the same people, things, time and meaning. After get down to, use a thing or an -ing form: get down to work get down to writing the report The reason for criticism often follows for: get down on him for being late",
+    "variableItemsZh": [
+      "get down / get down from something / get down something",
+      "get down on somebody/something (for something)",
+      "get down to something / get down to doing something"
+    ],
+    "variableItemsEn": [
+      "get down / get down from something / get down something",
+      "get down on somebody/something (for something)",
+      "get down to something / get down to doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "移到較低位置;從高處、車上或某物上下來",
+        "formEn": "get down / get down from something / get down something",
+        "exampleZh": "司機從貨車上下來幫助我。",
+        "exampleEn": "The driver got down from his truck to help me.",
+        "highlight": "got down from"
+      },
+      {
+        "formZh": "批評或責備某人或某事物,常可說明原因",
+        "formEn": "get down on somebody/something (for something)",
+        "exampleZh": "她總是因為我遲到而責備我。",
+        "exampleEn": "She is always getting down on me for arriving late.",
+        "highlight": "getting down on me for"
+      },
+      {
+        "formZh": "開始認真處理某事;開始專心做某事",
+        "formEn": "get down to something / get down to doing something",
+        "exampleZh": "我們立即開始處理正事吧。",
+        "exampleEn": "Let’s get down to business straight away.",
+        "highlight": "get down to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "移到較低位置;從高處、車上或某物上下來",
+      "titleEn": "get down / get down from something / get down something",
+      "formula": "get down / get down from something / get down something",
+      "highlight": "get down / get down from something / get down something",
+      "descriptionZh": "移到較低位置;從高處、車上或某物上下來",
+      "descriptionEn": "The driver got down from his truck to help me.",
+      "examples": [
+        {
+          "en": "The driver got down from his truck to help me.",
+          "zh": "司機從貨車上下來幫助我。",
+          "highlight": "got down from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "批評或責備某人或某事物,常可說明原因",
+      "titleEn": "get down on somebody/something (for something)",
+      "formula": "get down on somebody/something (for something)",
+      "highlight": "get down on somebody/something (for something)",
+      "descriptionZh": "批評或責備某人或某事物,常可說明原因",
+      "descriptionEn": "She is always getting down on me for arriving late.",
+      "examples": [
+        {
+          "en": "She is always getting down on me for arriving late.",
+          "zh": "她總是因為我遲到而責備我。",
+          "highlight": "getting down on me for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "開始認真處理某事;開始專心做某事",
+      "titleEn": "get down to something / get down to doing something",
+      "formula": "get down to something / get down to doing something",
+      "highlight": "get down to something / get down to doing something",
+      "descriptionZh": "開始認真處理某事;開始專心做某事",
+      "descriptionEn": "Let’s get down to business straight away.",
+      "examples": [
+        {
+          "en": "Let’s get down to business straight away.",
+          "zh": "我們立即開始處理正事吧。",
+          "highlight": "get down to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述從高處下來",
+      "titleEn": "Talk clearly about moving down from a higher place",
+      "zh": "get down 可以用來描述從椅子、桌子、梯子、屋頂、貨車或其他較高位置下來。",
+      "en": "Get down can describe leaving a chair, table, ladder, roof, truck or another raised place."
+    },
+    {
+      "titleZh": "表達批評和責備",
+      "titleEn": "Express criticism and blame",
+      "zh": "get down on 可以表示某人不斷批評另一個人或對方所做的事情。",
+      "en": "Get down on can show that someone repeatedly criticises a person or something they have done."
+    },
+    {
+      "titleZh": "表示開始認真做事",
+      "titleEn": "Show that serious work is beginning",
+      "zh": "get down to 可以表示人們停止聊天或拖延,開始認真處理功課、工作、計劃或討論。",
+      "en": "Get down to can show that people stop chatting or delaying and begin their homework, work, planning or discussion."
+    },
+    {
+      "titleZh": "理解相同字詞的不同意思",
+      "titleEn": "Understand different meanings of the same words",
+      "zh": "完整語境可以幫助你分辨 get down 是表示「下來」、「批評」,還是「開始認真處理事情」。",
+      "en": "The full situation helps you decide whether get down means “move lower”, “criticise” or “begin serious work”."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述從高處下來",
+      "表達批評和責備",
+      "表示開始認真做事",
+      "理解相同字詞的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving down from a higher place",
+      "Express criticism and blame",
+      "Show that serious work is beginning",
+      "Understand different meanings of the same words"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述從高處下來",
+        "titleEn": "Talk clearly about moving down from a higher place",
+        "zh": "get down 可以用來描述從椅子、桌子、梯子、屋頂、貨車或其他較高位置下來。",
+        "en": "Get down can describe leaving a chair, table, ladder, roof, truck or another raised place.",
+        "examples": [
+          {
+            "en": "The driver got down from his truck to help me.",
+            "zh": "司機從貨車上下來幫助我。",
+            "highlight": "got down from"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達批評和責備",
+        "titleEn": "Express criticism and blame",
+        "zh": "get down on 可以表示某人不斷批評另一個人或對方所做的事情。",
+        "en": "Get down on can show that someone repeatedly criticises a person or something they have done.",
+        "examples": [
+          {
+            "en": "She is always getting down on me for arriving late.",
+            "zh": "她總是因為我遲到而責備我。",
+            "highlight": "getting down on me for"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示開始認真做事",
+        "titleEn": "Show that serious work is beginning",
+        "zh": "get down to 可以表示人們停止聊天或拖延,開始認真處理功課、工作、計劃或討論。",
+        "en": "Get down to can show that people stop chatting or delaying and begin their homework, work, planning or discussion.",
+        "examples": [
+          {
+            "en": "Let’s get down to business straight away.",
+            "zh": "我們立即開始處理正事吧。",
+            "highlight": "get down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解相同字詞的不同意思",
+        "titleEn": "Understand different meanings of the same words",
+        "zh": "完整語境可以幫助你分辨 get down 是表示「下來」、「批評」,還是「開始認真處理事情」。",
+        "en": "The full situation helps you decide whether get down means “move lower”, “criticise” or “begin serious work”.",
+        "examples": [
+          {
+            "en": "The driver got down from his truck to help me.",
+            "zh": "司機從貨車上下來幫助我。",
+            "highlight": "got down from"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 get down to 後,可以接一件事情或 -ing 形式:get down to workget down to writing the report",
+      "titleEn": "After get down to, use a thing or an -ing form: get down to work get down to writing the report.",
+      "zh": "使用 get down to 後,可以接一件事情或 -ing 形式:get down to workget down to writing the report",
+      "en": "After get down to, use a thing or an -ing form: get down to work get down to writing the report"
+    },
+    {
+      "titleZh": "批評或責備的原因通常可以放在 for 之後:get down on him for being late",
+      "titleEn": "The reason for criticism often follows for: get down on him for being late.",
+      "zh": "批評或責備的原因通常可以放在 for 之後:get down on him for being late",
+      "en": "The reason for criticism often follows for: get down on him for being late"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET DOWN 動詞片語句子改寫練習",
+    "titleEn": "GET DOWN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-176-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The child moved from the chair to the floor and stood beside me.",
+      "promptZh": "那個孩子從椅子移到地上,並站在我旁邊。",
+      "starter": "The",
+      "answer": "The child got down from the chair and stood beside me.",
+      "answerZh": "那個孩子從椅子下來,並站在我旁邊。",
+      "highlight": "got down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "After a short chat, the team started the real work.",
+      "promptZh": "短暫聊天後,團隊開始處理真正的工作。",
+      "starter": "After",
+      "answer": "After a short chat, the team got down to the real work.",
+      "answerZh": "短暫聊天後,團隊開始認真處理真正的工作。",
+      "highlight": "got down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The coach criticised Leo for arriving late.",
+      "promptZh": "教練因里奧遲到而責備他。",
+      "starter": "The",
+      "answer": "The coach got down on Leo for arriving late.",
+      "answerZh": "教練因里奧遲到而責備他。",
+      "highlight": "got down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Move from the table to the floor now.",
+      "promptZh": "現在從桌子移到地上。",
+      "starter": "Get",
+      "answer": "Get down from the table now.",
+      "answerZh": "現在從桌子下來。",
+      "highlight": "Get down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Let’s start our homework now.",
+      "promptZh": "我們現在開始做功課吧。",
+      "starter": "Let’s",
+      "answer": "Let’s get down to our homework now.",
+      "answerZh": "我們現在開始認真做功課吧。",
+      "highlight": "get down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Do not criticise yourself for one small mistake.",
+      "promptZh": "不要因為一個小錯誤而責備自己。",
+      "starter": "Do",
+      "answer": "Do not get down on yourself for one small mistake.",
+      "answerZh": "不要因為一個小錯誤而責備自己。",
+      "highlight": "get down on",
+      "targetForm": "get down on yourself",
+      "targetMeaningZh": "責備自己"
+    },
+    {
+      "id": "phrasal-verb-176-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The driver left his truck and stepped onto the ground to help us.",
+      "promptZh": "司機離開貨車,踏到地上幫助我們。",
+      "starter": "The",
+      "answer": "The driver got down from his truck to help us.",
+      "answerZh": "司機從貨車上下來幫助我們。",
+      "highlight": "got down from",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從車上或較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We need to start discussing the class trip.",
+      "promptZh": "我們需要開始討論班級旅行。",
+      "starter": "We",
+      "answer": "We need to get down to discussing the class trip.",
+      "answerZh": "我們需要開始認真討論班級旅行。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Why are you criticising the new plan before we try it?",
+      "promptZh": "我們還未嘗試這個新計劃,你為甚麼已經在批評它?",
+      "starter": "Why",
+      "answer": "Why are you getting down on the new plan before we try it?",
+      "answerZh": "我們還未嘗試這個新計劃,你為甚麼已經在批評它?",
+      "highlight": "getting down on",
+      "targetForm": "get down on something",
+      "targetMeaningZh": "批評某事物"
+    },
+    {
+      "id": "phrasal-verb-176-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Carefully move from the top of the ladder to the ground.",
+      "promptZh": "小心地從梯子頂部移到地上。",
+      "starter": "Carefully",
+      "answer": "Carefully get down the ladder.",
+      "answerZh": "小心沿着梯子下來。",
+      "highlight": "get down",
+      "targetForm": "get down something",
+      "targetMeaningZh": "沿着某物往下走"
+    },
+    {
+      "id": "phrasal-verb-176-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The students are beginning the final task now.",
+      "promptZh": "學生現在開始做最後一項工作。",
+      "starter": "The",
+      "answer": "The students are getting down to the final task now.",
+      "answerZh": "學生現在開始認真做最後一項工作。",
+      "highlight": "getting down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad is criticising me again for leaving my shoes here.",
+      "promptZh": "爸爸又因為我把鞋子留在這裏而責備我。",
+      "starter": "Dad",
+      "answer": "Dad is getting down on me again for leaving my shoes here.",
+      "answerZh": "爸爸又因為我把鞋子留在這裏而責備我。",
+      "highlight": "getting down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "By the time we arrived, the cat had moved from the roof to the balcony.",
+      "promptZh": "我們到達時,那隻貓已經從屋頂移到露台。",
+      "starter": "By",
+      "answer": "By the time we arrived, the cat had got down from the roof to the balcony.",
+      "answerZh": "我們到達時,那隻貓已經從屋頂下到露台。",
+      "highlight": "got down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We should begin planning the school show today.",
+      "promptZh": "我們今天應該開始籌備學校表演。",
+      "starter": "We",
+      "answer": "We should get down to planning the school show today.",
+      "answerZh": "我們今天應該開始認真籌備學校表演。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "How did the workers reach the ground safely from the roof?",
+      "promptZh": "工人怎樣從屋頂安全到達地面?",
+      "starter": "How",
+      "answer": "How did the workers get down from the roof safely?",
+      "answerZh": "工人怎樣安全地從屋頂下來?",
+      "highlight": "get down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The teacher never criticises us for asking questions.",
+      "promptZh": "老師從不因為我們提問而責備我們。",
+      "starter": "The",
+      "answer": "The teacher never gets down on us for asking questions.",
+      "answerZh": "老師從不因為我們提問而責備我們。",
+      "highlight": "gets down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have finally started the main part of the project.",
+      "promptZh": "我們終於開始處理項目的主要部分。",
+      "starter": "We",
+      "answer": "We have finally got down to the main part of the project.",
+      "answerZh": "我們終於開始處理項目的主要部分。",
+      "highlight": "got down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You should not criticise Sam for needing more time.",
+      "promptZh": "你不應該因為森需要多一點時間而責備他。",
+      "starter": "You",
+      "answer": "You should not get down on Sam for needing more time.",
+      "answerZh": "你不應該因為森需要多一點時間而責備他。",
+      "highlight": "get down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The hikers are moving carefully down the steep path.",
+      "promptZh": "遠足者正小心地沿着陡斜的小路往下走。",
+      "starter": "The",
+      "answer": "The hikers are carefully getting down the steep path.",
+      "answerZh": "遠足者正小心地沿着陡斜的小路往下走。",
+      "highlight": "getting",
+      "targetForm": "get down something",
+      "targetMeaningZh": "沿着某處往下走"
+    },
+    {
+      "id": "phrasal-verb-176-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "When will you start writing your report?",
+      "promptZh": "你何時開始寫報告?",
+      "starter": "When",
+      "answer": "When will you get down to writing your report?",
+      "answerZh": "你何時開始認真寫報告?",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "One poor result does not mean you should criticise yourself.",
+      "promptZh": "一次成績不佳並不代表你應該責備自己。",
+      "starter": "One",
+      "answer": "One poor result does not mean you should get down on yourself.",
+      "answerZh": "一次成績不佳並不代表你應該責備自己。",
+      "highlight": "get down on",
+      "targetForm": "get down on yourself",
+      "targetMeaningZh": "責備自己"
+    },
+    {
+      "id": "phrasal-verb-176-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The boy was on the wall, and his father told him to move to the ground.",
+      "promptZh": "那個男孩在牆上,而他的父親叫他到地面。",
+      "starter": "His",
+      "answer": "His father told the boy to get down from the wall.",
+      "answerZh": "他的父親叫那個男孩從牆上下來。",
+      "highlight": "the boy",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The room needs cleaning, and we should start now.",
+      "promptZh": "房間需要清潔,而我們應該現在開始。",
+      "starter": "We",
+      "answer": "We should get down to cleaning the room now.",
+      "answerZh": "我們應該現在開始認真清潔房間。",
+      "highlight": "We should get down to cleaning",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Stop criticising the phone for every small problem; it is not perfect.",
+      "promptZh": "不要因為每個小問題而批評這部手機;它並不完美。",
+      "starter": "Stop",
+      "answer": "Stop getting down on the phone for every small problem; it is not perfect.",
+      "answerZh": "不要因為每個小問題而批評這部手機;它並不完美。",
+      "highlight": "getting down on",
+      "targetForm": "get down on something",
+      "targetMeaningZh": "批評某事物"
+    },
+    {
+      "id": "phrasal-verb-176-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We had to use the stairs to reach the ground floor from the tenth floor because the lift stopped.",
+      "promptZh": "升降機停了,所以我們只好使用樓梯,從十樓到達地下。",
+      "starter": "We",
+      "answer": "We had to get down the stairs from the tenth floor because the lift stopped.",
+      "answerZh": "升降機停了,所以我們只好從十樓沿樓梯走下去。",
+      "highlight": "get down",
+      "targetForm": "get down something",
+      "targetMeaningZh": "沿着某處往下走"
+    },
+    {
+      "id": "phrasal-verb-176-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "It is time to start work; the jokes are over.",
+      "promptZh": "現在是開始工作的時候;玩笑時間已經結束。",
+      "starter": "It",
+      "answer": "It is time to get down to work; the jokes are over.",
+      "answerZh": "現在是開始認真工作的時候;玩笑時間已經結束。",
+      "highlight": "get down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the manager criticise the staff for one late order?",
+      "promptZh": "經理為甚麼因為一張遲來的訂單而責備員工?",
+      "starter": "Why",
+      "answer": "Why did the manager get down on the staff for one late order?",
+      "answerZh": "經理為甚麼因為一張遲來的訂單而責備員工?",
+      "highlight": "get down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The boxes blocked the door, so the child could not move from the table to the floor.",
+      "promptZh": "箱子阻塞了門,所以孩子無法從桌子移到地上。",
+      "starter": "The",
+      "answer": "The boxes blocked the door, so the child could not get down from the table.",
+      "answerZh": "箱子阻塞了門,所以孩子無法從桌子下來。",
+      "highlight": "get down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although we were tired, we started checking every answer.",
+      "promptZh": "雖然我們很疲倦,但我們開始檢查每個答案。",
+      "starter": "Although",
+      "answer": "Although we were tired, we got down to checking every answer.",
+      "answerZh": "雖然我們很疲倦,但我們開始認真檢查每個答案。",
+      "highlight": "got down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The neighbours often criticise us because our dog barks at night.",
+      "promptZh": "鄰居常常因為我們的狗在晚上吠叫而責備我們。",
+      "starter": "The",
+      "answer": "The neighbours often get down on us because our dog barks at night.",
+      "answerZh": "鄰居常常因為我們的狗在晚上吠叫而責備我們。",
+      "highlight": "get down on",
+      "targetForm": "get down on somebody",
+      "targetMeaningZh": "批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The horse was tall, so Anna needed help to reach the ground.",
+      "promptZh": "那匹馬很高,所以安娜需要別人幫助她到達地面。",
+      "starter": "The",
+      "answer": "The horse was tall, so Anna needed help to get down.",
+      "answerZh": "那匹馬很高,所以安娜需要別人幫助她下來。",
+      "highlight": "get down",
+      "targetForm": "get down",
+      "targetMeaningZh": "移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-176-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The editor was too hard on the young writer for a few spelling mistakes.",
+      "promptZh": "編輯因為幾個串字錯誤而對那名年輕作家過分苛刻。",
+      "starter": "The",
+      "answer": "The editor got down on the young writer for a few spelling mistakes.",
+      "answerZh": "編輯因為幾個串字錯誤而責備那名年輕作家。",
+      "highlight": "got down",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We have discussed the easy points. Now we must start dealing with the difficult ones.",
+      "promptZh": "我們已討論較容易的重點。現在必須開始處理較困難的部分。",
+      "starter": "We",
+      "answer": "We have discussed the easy points. Now we must get down to the difficult ones.",
+      "answerZh": "我們已討論較容易的重點。現在必須開始認真處理較困難的部分。",
+      "highlight": "get down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The bird landed on a high shelf. We could not make it move to the floor.",
+      "promptZh": "那隻鳥停在高架上。我們無法令牠移到地面。",
+      "starter": "The",
+      "answer": "The bird landed on a high shelf. We could not make it get down.",
+      "answerZh": "那隻鳥停在高架上。我們無法令牠下來。",
+      "highlight": "get down",
+      "targetForm": "get down",
+      "targetMeaningZh": "移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-176-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Once everyone has arrived, we can start making the final list.",
+      "promptZh": "大家到齊後,我們便可以開始製作最後的清單。",
+      "starter": "Once",
+      "answer": "Once everyone has arrived, we can get down to making the final list.",
+      "answerZh": "大家到齊後,我們便可以開始認真製作最後的清單。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even before the match, some fans were criticising the goalkeeper for last week’s mistake.",
+      "promptZh": "比賽尚未開始,一些球迷已因守門員上星期的失誤而批評他。",
+      "starter": "Even",
+      "answer": "Even before the match, some fans were getting down on the goalkeeper for last week’s mistake.",
+      "answerZh": "比賽尚未開始,一些球迷已因守門員上星期的失誤而批評他。",
+      "highlight": "getting down on",
+      "targetForm": "get down on somebody for something",
+      "targetMeaningZh": "因某事批評某人"
+    },
+    {
+      "id": "phrasal-verb-176-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "There was no lift, but the nurse still reached the lower floor quickly by using the stairs.",
+      "promptZh": "那裏沒有升降機,但護士仍使用樓梯,很快到達較低樓層。",
+      "starter": "There",
+      "answer": "There was no lift, but the nurse still got down the stairs quickly.",
+      "answerZh": "那裏沒有升降機,但護士仍很快沿樓梯走到較低樓層。",
+      "highlight": "got down",
+      "targetForm": "get down something",
+      "targetMeaningZh": "沿着某處往下走"
+    },
+    {
+      "id": "phrasal-verb-176-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The class kept talking for ten minutes before it finally started work.",
+      "promptZh": "全班談了十分鐘,之後終於開始工作。",
+      "starter": "The",
+      "answer": "The class kept talking for ten minutes before it finally got down to work.",
+      "answerZh": "全班談了十分鐘,之後終於開始認真工作。",
+      "highlight": "got down to",
+      "targetForm": "get down to something",
+      "targetMeaningZh": "開始認真處理某事"
+    },
+    {
+      "id": "phrasal-verb-176-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not keep criticising Ben; he is still learning.",
+      "promptZh": "不要不停批評賓;他仍在學習。",
+      "starter": "Do",
+      "answer": "Do not keep getting down on Ben; he is still learning.",
+      "answerZh": "不要不停責備賓;他仍在學習。",
+      "highlight": "getting down on",
+      "targetForm": "get down on somebody",
+      "targetMeaningZh": "批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The child sat on the kitchen counter until his mother told him to return to the floor.",
+      "promptZh": "那個孩子坐在廚房工作枱上,直到母親叫他回到地面。",
+      "starter": "The",
+      "answer": "The child sat on the kitchen counter until his mother told him to get down.",
+      "answerZh": "那個孩子坐在廚房工作枱上,直到母親叫他下來。",
+      "highlight": "get down",
+      "targetForm": "get down",
+      "targetMeaningZh": "移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-176-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have collected enough ideas. Let us stop chatting and begin choosing the best three.",
+      "promptZh": "我們已收集足夠構思。不要再聊天,開始選出最好的三個吧。",
+      "starter": "We",
+      "answer": "We have collected enough ideas. Let us stop chatting and get down to choosing the best three.",
+      "answerZh": "我們已收集足夠構思。不要再聊天,開始認真選出最好的三個吧。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The rescue team reached the climber, but helping him move safely from the rock to the ground took another hour.",
+      "promptZh": "救援隊找到攀山者,但協助他安全地從岩石移到地面,仍多花了一小時。",
+      "starter": "The",
+      "answer": "The rescue team reached the climber, but helping him get down from the rock safely took another hour.",
+      "answerZh": "救援隊找到攀山者,但協助他安全地從岩石下來,仍多花了一小時。",
+      "highlight": "get down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Ava made one mistake in the school play, but the director continued to criticise her long after practice ended.",
+      "promptZh": "艾娃在學校話劇中犯了一個錯誤,但排練結束很久後,導演仍繼續批評她。",
+      "starter": "Ava",
+      "answer": "Ava made one mistake in the school play, but the director kept getting down on her long after practice ended.",
+      "answerZh": "艾娃在學校話劇中犯了一個錯誤,但排練結束很久後,導演仍不斷責備她。",
+      "highlight": "kept getting down on",
+      "targetForm": "get down on somebody",
+      "targetMeaningZh": "不斷批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The deadline is tomorrow, so after lunch we need to start finishing the last two pages.",
+      "promptZh": "截止日期是明天,所以午飯後我們需要開始完成最後兩頁。",
+      "starter": "The",
+      "answer": "The deadline is tomorrow, so after lunch we need to get down to finishing the last two pages.",
+      "answerZh": "截止日期是明天,所以午飯後我們需要開始認真完成最後兩頁。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the steps were wet, the driver moved slowly from the lorry cab to the road.",
+      "promptZh": "因為梯級濕滑,司機很慢地從貨車駕駛室移到路面。",
+      "starter": "Because",
+      "answer": "Because the steps were wet, the driver got down from the lorry cab slowly.",
+      "answerZh": "因為梯級濕滑,司機很慢地從貨車駕駛室下來。",
+      "highlight": "got down",
+      "targetForm": "get down from something",
+      "targetMeaningZh": "從車上或較高位置下來"
+    },
+    {
+      "id": "phrasal-verb-176-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The group leader should guide new members instead of criticising them whenever they ask for help.",
+      "promptZh": "小組領袖應該指導新成員,而不是每次他們求助時都批評他們。",
+      "starter": "The",
+      "answer": "The group leader should guide new members instead of getting down on them whenever they ask for help.",
+      "answerZh": "小組領袖應該指導新成員,而不是每次他們求助時都責備他們。",
+      "highlight": "getting down on",
+      "targetForm": "get down on somebody",
+      "targetMeaningZh": "批評或責備某人"
+    },
+    {
+      "id": "phrasal-verb-176-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For weeks, Noah avoided the report. This morning, he finally began writing the first section.",
+      "promptZh": "諾亞幾星期來一直逃避那份報告。今天早上,他終於開始寫第一部分。",
+      "starter": "For",
+      "answer": "For weeks, Noah avoided the report. This morning, he finally got down to writing the first section.",
+      "answerZh": "諾亞幾星期來一直逃避那份報告。今天早上,他終於開始認真寫第一部分。",
+      "highlight": "got down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    },
+    {
+      "id": "phrasal-verb-176-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Why do some people criticise this simple hobby without ever trying it?",
+      "promptZh": "有些人從未試過這個簡單興趣,為甚麼卻批評它?",
+      "starter": "Why",
+      "answer": "Why do some people get down on this simple hobby without ever trying it?",
+      "answerZh": "有些人從未試過這個簡單興趣,為甚麼卻批評它?",
+      "highlight": "get down on",
+      "targetForm": "get down on something",
+      "targetMeaningZh": "批評某事物"
+    },
+    {
+      "id": "phrasal-verb-176-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The power failed while we were upstairs, so we used our phone lights to reach the ground floor by the stairs.",
+      "promptZh": "我們在樓上時停電了,所以使用手機燈光,經樓梯到達地下。",
+      "starter": "The",
+      "answer": "The power failed while we were upstairs, so we used our phone lights to get down the stairs.",
+      "answerZh": "我們在樓上時停電了,所以使用手機燈光走下樓梯。",
+      "highlight": "get down",
+      "targetForm": "get down something",
+      "targetMeaningZh": "沿着某處往下走"
+    },
+    {
+      "id": "phrasal-verb-176-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Once the guests leave, we will stop talking and start working seriously on the plan.",
+      "promptZh": "客人離開後,我們會停止談話,開始認真處理計劃。",
+      "starter": "Once",
+      "answer": "Once the guests leave, we will stop talking and get down to working seriously on the plan.",
+      "answerZh": "客人離開後,我們會停止談話,開始認真處理計劃。",
+      "highlight": "get down to",
+      "targetForm": "get down to doing something",
+      "targetMeaningZh": "開始認真做某事"
+    }
+  ]
+}

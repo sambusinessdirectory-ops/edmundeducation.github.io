@@ -1,0 +1,1445 @@
+{
+  "id": "phrasal-verb-302",
+  "order": 302,
+  "slug": "muddle",
+  "version": "1",
+  "title": "MUDDLE 動詞片語",
+  "titleEn": "Muddle",
+  "titleZh": "MUDDLE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 287 - MUDDLE.pdf",
+    "sourceNumber": 287,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MUDDLE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MUDDLE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MUDDLE",
+      "highlight": "MUDDLE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We muddle along from day to day.",
+      "zh": "我們沒有甚麼清晰計劃,只是一天一天地勉強過下去。",
+      "highlight": "muddle along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Too much information may muddle you up.",
+      "zh": "太多資訊可能會令你感到混亂。",
+      "highlight": "muddle you up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I muddled his bag up with mine.",
+      "zh": "我把他的袋子錯當成自己的。",
+      "highlight": "muddled his bag up with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "沒有清晰或有效的計劃,仍勉強繼續下去；把某人弄糊塗;令某人感到混亂；把某人或某物錯當成另一個人或事物;混淆兩者；把某物跟其他東西胡亂混在一起；準備不足或遇到困難時,仍勉強應付過去",
+    "en": "muddle along / muddle on; muddle somebody up; muddle somebody/something up with somebody/something muddle A up with B; muddle something up with something; muddle through",
+    "naturalZh": [
+      "沒有清晰或有效的計劃,仍勉強繼續下去",
+      "把某人弄糊塗;令某人感到混亂",
+      "把某人或某物錯當成另一個人或事物;混淆兩者",
+      "把某物跟其他東西胡亂混在一起",
+      "準備不足或遇到困難時,仍勉強應付過去"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "muddle along / muddle on",
+      "titleZh": "沒有清晰或有效的計劃,仍勉強繼續下去",
+      "titleEn": "muddle along / muddle on",
+      "descriptionZh": "沒有清晰或有效的計劃,仍勉強繼續下去",
+      "descriptionEn": "We muddle along from day to day.",
+      "examples": [
+        {
+          "en": "We muddle along from day to day.",
+          "zh": "我們沒有甚麼清晰計劃,只是一天一天地勉強過下去。",
+          "highlight": "muddle along"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muddle somebody up",
+      "titleZh": "把某人弄糊塗;令某人感到混亂",
+      "titleEn": "muddle somebody up",
+      "descriptionZh": "把某人弄糊塗;令某人感到混亂",
+      "descriptionEn": "Too much information may muddle you up.",
+      "examples": [
+        {
+          "en": "Too much information may muddle you up.",
+          "zh": "太多資訊可能會令你感到混亂。",
+          "highlight": "muddle you up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muddle somebody/something up with somebody/something muddle A up with B",
+      "titleZh": "把某人或某物錯當成另一個人或事物;混淆兩者",
+      "titleEn": "muddle somebody/something up with somebody/something muddle A up with B",
+      "descriptionZh": "把某人或某物錯當成另一個人或事物;混淆兩者",
+      "descriptionEn": "I muddled his bag up with mine.",
+      "examples": [
+        {
+          "en": "I muddled his bag up with mine.",
+          "zh": "我把他的袋子錯當成自己的。",
+          "highlight": "muddled his bag up with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "muddle something up with something",
+      "titleZh": "把某物跟其他東西胡亂混在一起",
+      "titleEn": "muddle something up with something",
+      "descriptionZh": "把某物跟其他東西胡亂混在一起",
+      "descriptionEn": "The coins were muddled up with the receipts.",
+      "examples": [
+        {
+          "en": "The coins were muddled up with the receipts.",
+          "zh": "硬幣跟收據胡亂混在一起。",
+          "highlight": "muddled up with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "muddle through",
+      "titleZh": "準備不足或遇到困難時,仍勉強應付過去",
+      "titleEn": "muddle through",
+      "descriptionZh": "準備不足或遇到困難時,仍勉強應付過去",
+      "descriptionEn": "We had no clear plan, but we muddled through.",
+      "examples": [
+        {
+          "en": "We had no clear plan, but we muddled through.",
+          "zh": "我們沒有清晰計劃,但最後仍勉強應付過去。",
+          "highlight": "muddled through"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MUDDLE 片語動詞的實際用途",
+    "labelEn": "MUDDLE Phrasal Verbs in Use",
+    "summaryZh": "muddle along 和 muddle on 可以描述某人、家庭或組織雖然安排不完善,仍然勉強繼續下去。；muddle through 適合用來描述某人在知識、準備或協助不足的情況下,仍勉強完成或渡過難關。；muddle somebody up 表示令某人感到混亂;muddle A up with B 則表示把一個人或事物錯當成另一個。；muddle something up with something 可以描述文件、衣物、金錢或其他物品被雜亂無章地混在一起。",
+    "summaryEn": "Muddle along and muddle on describe people, families or organisations that keep going even though their situation is not well organised. Muddle through is useful when someone completes or survives a difficult situation without enough knowledge, preparation or help. Muddle somebody up means making a person confused. Muddle A up with B means mistaking one person or thing for another. Muddle something up with something can describe papers, clothes, money or other objects that have been mixed together without order.",
+    "contextsZh": [
+      "談論沒有妥善計劃下仍繼續下去",
+      "描述在困難中勉強應付過去",
+      "分辨「令人糊塗」和「錯認人或物」",
+      "描述物品被胡亂混在一起"
+    ],
+    "contextsEn": [
+      "Talk about continuing without a proper plan",
+      "Describe managing a difficult situation somehow",
+      "Distinguish confusion from mistaken identity",
+      "Describe things that have been mixed together carelessly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MUDDLE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MUDDLE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "muddle along / muddle on",
+    "fixedHighlight": "muddle along / muddle on",
+    "fixedZh": "閱讀整句,選出意思相同的 MUDDLE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MUDDLE expression that gives the same meaning.",
+    "correct": "muddle along",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；請仔細分辨:muddle along / muddle on 表示沒有清晰或有效的計劃,仍勉強繼續下去。muddle through 表示準備不足或遇到困難時,仍勉強應付過去。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: muddle him up muddle it up with mine muddle them up with the old ones Read carefully: muddle along / muddle on = continue without a clear or effective plan muddle through = manage in a difficult situation, although you are not fully prepared",
+    "variableItemsZh": [
+      "muddle along / muddle on",
+      "muddle somebody up",
+      "muddle somebody/something up with somebody/something muddle A up with B",
+      "muddle something up with something",
+      "muddle through"
+    ],
+    "variableItemsEn": [
+      "muddle along / muddle on",
+      "muddle somebody up",
+      "muddle somebody/something up with somebody/something muddle A up with B",
+      "muddle something up with something",
+      "muddle through"
+    ],
+    "forms": [
+      {
+        "formZh": "沒有清晰或有效的計劃,仍勉強繼續下去",
+        "formEn": "muddle along / muddle on",
+        "exampleZh": "我們沒有甚麼清晰計劃,只是一天一天地勉強過下去。",
+        "exampleEn": "We muddle along from day to day.",
+        "highlight": "muddle along"
+      },
+      {
+        "formZh": "把某人弄糊塗;令某人感到混亂",
+        "formEn": "muddle somebody up",
+        "exampleZh": "太多資訊可能會令你感到混亂。",
+        "exampleEn": "Too much information may muddle you up.",
+        "highlight": "muddle you up"
+      },
+      {
+        "formZh": "把某人或某物錯當成另一個人或事物;混淆兩者",
+        "formEn": "muddle somebody/something up with somebody/something muddle A up with B",
+        "exampleZh": "我把他的袋子錯當成自己的。",
+        "exampleEn": "I muddled his bag up with mine.",
+        "highlight": "muddled his bag up with"
+      },
+      {
+        "formZh": "把某物跟其他東西胡亂混在一起",
+        "formEn": "muddle something up with something",
+        "exampleZh": "硬幣跟收據胡亂混在一起。",
+        "exampleEn": "The coins were muddled up with the receipts.",
+        "highlight": "muddled up with"
+      },
+      {
+        "formZh": "準備不足或遇到困難時,仍勉強應付過去",
+        "formEn": "muddle through",
+        "exampleZh": "我們沒有清晰計劃,但最後仍勉強應付過去。",
+        "exampleEn": "We had no clear plan, but we muddled through.",
+        "highlight": "muddled through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "沒有清晰或有效的計劃,仍勉強繼續下去",
+      "titleEn": "muddle along / muddle on",
+      "formula": "muddle along / muddle on",
+      "highlight": "muddle along / muddle on",
+      "descriptionZh": "沒有清晰或有效的計劃,仍勉強繼續下去",
+      "descriptionEn": "We muddle along from day to day.",
+      "examples": [
+        {
+          "en": "We muddle along from day to day.",
+          "zh": "我們沒有甚麼清晰計劃,只是一天一天地勉強過下去。",
+          "highlight": "muddle along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人弄糊塗;令某人感到混亂",
+      "titleEn": "muddle somebody up",
+      "formula": "muddle somebody up",
+      "highlight": "muddle somebody up",
+      "descriptionZh": "把某人弄糊塗;令某人感到混亂",
+      "descriptionEn": "Too much information may muddle you up.",
+      "examples": [
+        {
+          "en": "Too much information may muddle you up.",
+          "zh": "太多資訊可能會令你感到混亂。",
+          "highlight": "muddle you up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物錯當成另一個人或事物;混淆兩者",
+      "titleEn": "muddle somebody/something up with somebody/something muddle A up with B",
+      "formula": "muddle somebody/something up with somebody/something muddle A up with B",
+      "highlight": "muddle somebody/something up with somebody/something muddle A up with B",
+      "descriptionZh": "把某人或某物錯當成另一個人或事物;混淆兩者",
+      "descriptionEn": "I muddled his bag up with mine.",
+      "examples": [
+        {
+          "en": "I muddled his bag up with mine.",
+          "zh": "我把他的袋子錯當成自己的。",
+          "highlight": "muddled his bag up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物跟其他東西胡亂混在一起",
+      "titleEn": "muddle something up with something",
+      "formula": "muddle something up with something",
+      "highlight": "muddle something up with something",
+      "descriptionZh": "把某物跟其他東西胡亂混在一起",
+      "descriptionEn": "The coins were muddled up with the receipts.",
+      "examples": [
+        {
+          "en": "The coins were muddled up with the receipts.",
+          "zh": "硬幣跟收據胡亂混在一起。",
+          "highlight": "muddled up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "準備不足或遇到困難時,仍勉強應付過去",
+      "titleEn": "muddle through",
+      "formula": "muddle through",
+      "highlight": "muddle through",
+      "descriptionZh": "準備不足或遇到困難時,仍勉強應付過去",
+      "descriptionEn": "We had no clear plan, but we muddled through.",
+      "examples": [
+        {
+          "en": "We had no clear plan, but we muddled through.",
+          "zh": "我們沒有清晰計劃,但最後仍勉強應付過去。",
+          "highlight": "muddled through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論沒有妥善計劃下仍繼續下去",
+      "titleEn": "Talk about continuing without a proper plan",
+      "zh": "muddle along 和 muddle on 可以描述某人、家庭或組織雖然安排不完善,仍然勉強繼續下去。",
+      "en": "Muddle along and muddle on describe people, families or organisations that keep going even though their situation is not well organised."
+    },
+    {
+      "titleZh": "描述在困難中勉強應付過去",
+      "titleEn": "Describe managing a difficult situation somehow",
+      "zh": "muddle through 適合用來描述某人在知識、準備或協助不足的情況下,仍勉強完成或渡過難關。",
+      "en": "Muddle through is useful when someone completes or survives a difficult situation without enough knowledge, preparation or help."
+    },
+    {
+      "titleZh": "分辨「令人糊塗」和「錯認人或物」",
+      "titleEn": "Distinguish confusion from mistaken identity",
+      "zh": "muddle somebody up 表示令某人感到混亂;muddle A up with B 則表示把一個人或事物錯當成另一個。",
+      "en": "Muddle somebody up means making a person confused. Muddle A up with B means mistaking one person or thing for another."
+    },
+    {
+      "titleZh": "描述物品被胡亂混在一起",
+      "titleEn": "Describe things that have been mixed together carelessly",
+      "zh": "muddle something up with something 可以描述文件、衣物、金錢或其他物品被雜亂無章地混在一起。",
+      "en": "Muddle something up with something can describe papers, clothes, money or other objects that have been mixed together without order."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論沒有妥善計劃下仍繼續下去",
+      "描述在困難中勉強應付過去",
+      "分辨「令人糊塗」和「錯認人或物」",
+      "描述物品被胡亂混在一起"
+    ],
+    "contextsEn": [
+      "Talk about continuing without a proper plan",
+      "Describe managing a difficult situation somehow",
+      "Distinguish confusion from mistaken identity",
+      "Describe things that have been mixed together carelessly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論沒有妥善計劃下仍繼續下去",
+        "titleEn": "Talk about continuing without a proper plan",
+        "zh": "muddle along 和 muddle on 可以描述某人、家庭或組織雖然安排不完善,仍然勉強繼續下去。",
+        "en": "Muddle along and muddle on describe people, families or organisations that keep going even though their situation is not well organised.",
+        "examples": [
+          {
+            "en": "We muddle along from day to day.",
+            "zh": "我們沒有甚麼清晰計劃,只是一天一天地勉強過下去。",
+            "highlight": "muddle along"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述在困難中勉強應付過去",
+        "titleEn": "Describe managing a difficult situation somehow",
+        "zh": "muddle through 適合用來描述某人在知識、準備或協助不足的情況下,仍勉強完成或渡過難關。",
+        "en": "Muddle through is useful when someone completes or survives a difficult situation without enough knowledge, preparation or help.",
+        "examples": [
+          {
+            "en": "Too much information may muddle you up.",
+            "zh": "太多資訊可能會令你感到混亂。",
+            "highlight": "muddle you up"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨「令人糊塗」和「錯認人或物」",
+        "titleEn": "Distinguish confusion from mistaken identity",
+        "zh": "muddle somebody up 表示令某人感到混亂;muddle A up with B 則表示把一個人或事物錯當成另一個。",
+        "en": "Muddle somebody up means making a person confused. Muddle A up with B means mistaking one person or thing for another.",
+        "examples": [
+          {
+            "en": "I muddled his bag up with mine.",
+            "zh": "我把他的袋子錯當成自己的。",
+            "highlight": "muddled his bag up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述物品被胡亂混在一起",
+        "titleEn": "Describe things that have been mixed together carelessly",
+        "zh": "muddle something up with something 可以描述文件、衣物、金錢或其他物品被雜亂無章地混在一起。",
+        "en": "Muddle something up with something can describe papers, clothes, money or other objects that have been mixed together without order.",
+        "examples": [
+          {
+            "en": "The coins were muddled up with the receipts.",
+            "zh": "硬幣跟收據胡亂混在一起。",
+            "highlight": "muddled up with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MUDDLE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MUDDLE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MUDDLE 片語動詞。",
+      "en": "Read the whole sentence and choose the MUDDLE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: muddle him up muddle it up with mine muddle them up with the old ones.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: muddle him up muddle it up with mine muddle them up with the old ones"
+    },
+    {
+      "titleZh": "請仔細分辨:muddle along / muddle on 表示沒有清晰或有效的計劃,仍勉強繼續下去。muddle through 表示準備不足或遇到困難時,仍勉強應付過去。",
+      "titleEn": "Read carefully: muddle along / muddle on = continue without a clear or effective plan muddle through = manage in a difficult situation, although you are not fully prepared.",
+      "zh": "請仔細分辨:muddle along / muddle on 表示沒有清晰或有效的計劃,仍勉強繼續下去。muddle through 表示準備不足或遇到困難時,仍勉強應付過去。",
+      "en": "Read carefully: muddle along / muddle on = continue without a clear or effective plan muddle through = manage in a difficult situation, although you are not fully prepared"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MUDDLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MUDDLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MUDDLE 動詞片語句子改寫練習",
+    "titleEn": "MUDDLE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MUDDLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MUDDLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-302-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Without a clear plan, we continued somehow from week to week.",
+      "promptZh": "沒有清晰計劃,我們仍勉強一星期又一星期地過下去。",
+      "starter": "Without",
+      "answer": "Without a clear plan, we muddled along from week to week.",
+      "answerZh": "沒有清晰計劃,我們仍勉強一星期又一星期地過下去。",
+      "highlight": "muddled along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The long instructions confused Arun.",
+      "promptZh": "冗長的指示令阿倫感到混亂。",
+      "starter": "The",
+      "answer": "The long instructions muddled Arun up.",
+      "answerZh": "冗長的指示令阿倫感到混亂。",
+      "highlight": "muddled",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I mistook Leo’s bag for mine.",
+      "promptZh": "我把里奧的袋子錯當成自己的。",
+      "starter": "I",
+      "answer": "I muddled Leo’s bag up with mine.",
+      "answerZh": "我把里奧的袋子錯當成自己的。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We did not know what to do, but we managed somehow.",
+      "promptZh": "我們不知道該怎麼辦,但最後仍勉強應付過去。",
+      "starter": "We",
+      "answer": "We did not know what to do, but we muddled through.",
+      "answerZh": "我們不知道該怎麼辦,但最後仍勉強應付過去。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The coins were mixed carelessly with old receipts in the drawer.",
+      "promptZh": "硬幣在抽屜裏跟舊收據胡亂混在一起。",
+      "starter": "The",
+      "answer": "The coins were muddled up with old receipts in the drawer.",
+      "answerZh": "硬幣在抽屜裏跟舊收據胡亂混在一起。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The family is continuing somehow while they look for a new flat.",
+      "promptZh": "這個家庭在尋找新住所期間,仍勉強繼續生活下去。",
+      "starter": "The",
+      "answer": "The family is muddling on while they look for a new flat.",
+      "answerZh": "這個家庭在尋找新住所期間,仍勉強繼續生活下去。",
+      "highlight": "muddling on",
+      "targetForm": "muddle on",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Too many numbers may confuse you.",
+      "promptZh": "太多數字可能會令你感到混亂。",
+      "starter": "Too",
+      "answer": "Too many numbers may muddle you up.",
+      "answerZh": "太多數字可能會令你感到混亂。",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The team had very little time, yet it still managed.",
+      "promptZh": "球隊的時間很少,但最後仍勉強應付過去。",
+      "starter": "The",
+      "answer": "The team had very little time, yet it still muddled through.",
+      "answerZh": "球隊的時間很少,但最後仍勉強應付過去。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The receptionist mistook my room key for yours.",
+      "promptZh": "接待員把我的房間鎖匙錯當成你的。",
+      "starter": "The",
+      "answer": "The receptionist muddled my room key up with yours.",
+      "answerZh": "接待員把我的房間鎖匙錯當成你的。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I accidentally mixed the clean socks with the dirty ones.",
+      "promptZh": "我不小心把乾淨襪子跟骯髒襪子混在一起。",
+      "starter": "I",
+      "answer": "I accidentally muddled the clean socks up with the dirty ones.",
+      "answerZh": "我不小心把乾淨襪子跟骯髒襪子混在一起。",
+      "highlight": "muddled",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "For months, the small shop continued somehow without making much money.",
+      "promptZh": "幾個月來,這間小店沒有賺到多少錢,但仍勉強經營下去。",
+      "starter": "For",
+      "answer": "For months, the small shop muddled along without making much money.",
+      "answerZh": "幾個月來,這間小店沒有賺到多少錢,但仍勉強經營下去。",
+      "highlight": "muddled along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Without a guide, she was still able to manage.",
+      "promptZh": "即使沒有嚮導,她最後仍能勉強應付過去。",
+      "starter": "Without",
+      "answer": "Without a guide, she was still able to muddle through.",
+      "answerZh": "即使沒有嚮導,她最後仍能勉強應付過去。",
+      "highlight": "muddle through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The last-minute changes have confused everyone.",
+      "promptZh": "最後一刻的改動令所有人感到混亂。",
+      "starter": "The",
+      "answer": "The last-minute changes have muddled everyone up.",
+      "answerZh": "最後一刻的改動令所有人感到混亂。",
+      "highlight": "muddled",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nora sometimes mistakes the twins for each other.",
+      "promptZh": "諾拉有時會把這對雙胞胎認錯。",
+      "starter": "Nora",
+      "answer": "Nora sometimes muddles the twins up.",
+      "answerZh": "諾拉有時會把這對雙胞胎認錯。",
+      "highlight": "muddles",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把兩個人的身分混淆"
+    },
+    {
+      "id": "phrasal-verb-302-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Since Dad lost his job, we have continued somehow from day to day.",
+      "promptZh": "爸爸失業後,我們一直一天一天地勉強生活下去。",
+      "starter": "Since",
+      "answer": "Since Dad lost his job, we have muddled along from day to day.",
+      "answerZh": "爸爸失業後,我們一直一天一天地勉強生活下去。",
+      "highlight": "muddled along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Her bus ticket was mixed in with all the papers in her bag.",
+      "promptZh": "她的巴士票跟袋內所有文件混在一起。",
+      "starter": "Her",
+      "answer": "Her bus ticket was muddled up with all the papers in her bag.",
+      "answerZh": "她的巴士票跟袋內所有文件混在一起。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Even with only one working computer, we have managed.",
+      "promptZh": "即使只有一部可以使用的電腦,我們仍勉強應付過去。",
+      "starter": "Even",
+      "answer": "Even with only one working computer, we have muddled through.",
+      "answerZh": "即使只有一部可以使用的電腦,我們仍勉強應付過去。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Please do not confuse the children by adding another set of rules.",
+      "promptZh": "請不要再增加一套規則,令孩子們更加混亂。",
+      "starter": "Please",
+      "answer": "Please do not muddle the children up by adding another set of rules.",
+      "answerZh": "請不要再增加一套規則,令孩子們更加混亂。",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The nurse had mistaken my file for another patient’s file.",
+      "promptZh": "護士把我的檔案錯當成另一名病人的檔案。",
+      "starter": "The",
+      "answer": "The nurse had muddled my file up with another patient’s file.",
+      "answerZh": "護士把我的檔案錯當成另一名病人的檔案。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Someone has mixed the red cards with the blue cards.",
+      "promptZh": "有人把紅色卡片跟藍色卡片混在一起。",
+      "starter": "Someone",
+      "answer": "Someone has muddled the red cards up with the blue cards.",
+      "answerZh": "有人把紅色卡片跟藍色卡片混在一起。",
+      "highlight": "muddled",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can the club continue somehow until a new leader arrives?",
+      "promptZh": "社團能否勉強繼續運作,直至新負責人到任?",
+      "starter": "Can",
+      "answer": "Can the club muddle on until a new leader arrives?",
+      "answerZh": "社團能否勉強繼續運作,直至新負責人到任?",
+      "highlight": "muddle on",
+      "targetForm": "muddle on",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could the group manage without its leader?",
+      "promptZh": "小組沒有負責人也能勉強應付過去嗎?",
+      "starter": "Could",
+      "answer": "Could the group muddle through without its leader?",
+      "answerZh": "小組沒有負責人也能勉強應付過去嗎?",
+      "highlight": "muddle through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Did you mistake the blue button for the green one?",
+      "promptZh": "你是否把藍色按鈕錯當成綠色按鈕?",
+      "starter": "Did",
+      "answer": "Did you muddle the blue button up with the green one?",
+      "answerZh": "你是否把藍色按鈕錯當成綠色按鈕?",
+      "highlight": "muddle",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why did the new map confuse Ben so much?",
+      "promptZh": "這張新地圖為何令賓如此混亂?",
+      "starter": "Why",
+      "answer": "Why did the new map muddle Ben up so much?",
+      "answerZh": "這張新地圖為何令賓如此混亂?",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The spare keys had become mixed with the coins at the bottom of the bag.",
+      "promptZh": "備用鎖匙跟袋底的硬幣混在一起。",
+      "starter": "The",
+      "answer": "The spare keys had become muddled up with the coins at the bottom of the bag.",
+      "answerZh": "備用鎖匙跟袋底的硬幣混在一起。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Although none of us had cooked for twenty people before, we managed somehow.",
+      "promptZh": "雖然我們從未為二十人煮食,但最後仍勉強應付過去。",
+      "starter": "Although",
+      "answer": "Although none of us had cooked for twenty people before, we somehow muddled through.",
+      "answerZh": "雖然我們從未為二十人煮食,但最後仍勉強應付過去。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "That explanation only confused me more.",
+      "promptZh": "那個解釋只令我更加混亂。",
+      "starter": "That",
+      "answer": "That explanation only muddled me up more.",
+      "answerZh": "那個解釋只令我更加混亂。",
+      "highlight": "muddled",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I keep mistaking bus 12 for bus 21.",
+      "promptZh": "我不斷把十二號巴士錯認為二十一號巴士。",
+      "starter": "I",
+      "answer": "I keep muddling bus 12 up with bus 21.",
+      "answerZh": "我不斷把十二號巴士錯認為二十一號巴士。",
+      "highlight": "muddling",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Even though no one was in charge, the group continued somehow.",
+      "promptZh": "雖然沒有人負責,小組仍勉強繼續運作。",
+      "starter": "Even",
+      "answer": "Even though no one was in charge, the group muddled along.",
+      "answerZh": "雖然沒有人負責,小組仍勉強繼續運作。",
+      "highlight": "muddled along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Please keep these forms separate; do not mix them with the old ones.",
+      "promptZh": "請把這些表格分開,不要跟舊表格混在一起。",
+      "starter": "Please",
+      "answer": "Please keep these forms separate; do not muddle them up with the old ones.",
+      "answerZh": "請把這些表格分開,不要跟舊表格混在一起。",
+      "highlight": "muddle",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "They were not fully prepared, but they are managing somehow.",
+      "promptZh": "他們準備不足,但目前仍勉強應付得來。",
+      "starter": "They",
+      "answer": "They were not fully prepared, but they are muddling through.",
+      "answerZh": "他們準備不足,但目前仍勉強應付得來。",
+      "highlight": "muddling through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A second password would only confuse her.",
+      "promptZh": "第二個密碼只會令她更加混亂。",
+      "starter": "A",
+      "answer": "A second password would only muddle her up.",
+      "answerZh": "第二個密碼只會令她更加混亂。",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Sam gave me Eva’s coat because he had mistaken it for mine.",
+      "promptZh": "森把伊娃的外套交給我,因為他把它錯當成我的外套。",
+      "starter": "Sam",
+      "answer": "Sam gave me Eva’s coat because he had muddled it up with mine.",
+      "answerZh": "森把伊娃的外套交給我,因為他把它錯當成我的外套。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "During the move, our winter clothes got mixed with the kitchen towels.",
+      "promptZh": "搬屋期間,我們的冬季衣物跟廚房毛巾混在一起。",
+      "starter": "During",
+      "answer": "During the move, our winter clothes got muddled up with the kitchen towels.",
+      "answerZh": "搬屋期間,我們的冬季衣物跟廚房毛巾混在一起。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We had no proper tools, yet we managed somehow.",
+      "promptZh": "我們沒有合適工具,但最後仍勉強應付過去。",
+      "starter": "We",
+      "answer": "We had no proper tools, yet we managed to muddle through.",
+      "answerZh": "我們沒有合適工具,但最後仍勉強應付過去。",
+      "highlight": "to muddle through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "With only a little money left, they tried to keep going until Friday.",
+      "promptZh": "他們只剩下一點錢,仍嘗試勉強維持到星期五。",
+      "starter": "With",
+      "answer": "With only a little money left, they tried to muddle on until Friday.",
+      "answerZh": "他們只剩下一點錢,仍嘗試勉強維持到星期五。",
+      "highlight": "muddle on",
+      "targetForm": "muddle on",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The assistant sent the wrong parcel after mistaking Hong’s address for Ken’s.",
+      "promptZh": "助理把康的地址錯當成肯的地址,因此寄錯了包裹。",
+      "starter": "The",
+      "answer": "The assistant sent the wrong parcel after muddling Hong’s address up with Ken’s.",
+      "answerZh": "助理把康的地址錯當成肯的地址,因此寄錯了包裹。",
+      "highlight": "muddling",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The café has no clear plan, but it continues somehow.",
+      "promptZh": "這間咖啡店沒有清晰計劃,但仍勉強經營下去。",
+      "starter": "The",
+      "answer": "The café has no clear plan, but it muddles along.",
+      "answerZh": "這間咖啡店沒有清晰計劃,但仍勉強經營下去。",
+      "highlight": "muddles along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The teacher’s first example confused several students.",
+      "promptZh": "老師的第一個例子令幾名學生感到混亂。",
+      "starter": "The",
+      "answer": "The teacher’s first example muddled several students up.",
+      "answerZh": "老師的第一個例子令幾名學生感到混亂。",
+      "highlight": "muddled",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "During the game, the child mixed all the puzzle pieces with the pieces from another box.",
+      "promptZh": "遊戲期間,孩子把所有拼圖塊跟另一盒的拼圖塊混在一起。",
+      "starter": "During",
+      "answer": "During the game, the child muddled all the puzzle pieces up with the pieces from another box.",
+      "answerZh": "遊戲期間,孩子把所有拼圖塊跟另一盒的拼圖塊混在一起。",
+      "highlight": "muddled",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The volunteers received little training, but they still managed.",
+      "promptZh": "義工接受的訓練很少,但最後仍勉強應付過去。",
+      "starter": "The",
+      "answer": "The volunteers received little training, but they still muddled through.",
+      "answerZh": "義工接受的訓練很少,但最後仍勉強應付過去。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "People often mistake this actor for his older brother.",
+      "promptZh": "人們經常把這名演員錯認為他的哥哥。",
+      "starter": "People",
+      "answer": "People often muddle this actor up with his older brother.",
+      "answerZh": "人們經常把這名演員錯認為他的哥哥。",
+      "highlight": "muddle",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We did not improve much, but we continued somehow all winter.",
+      "promptZh": "我們沒有多大改善,但整個冬季仍勉強維持下去。",
+      "starter": "We",
+      "answer": "We did not improve much, but we muddled on all winter.",
+      "answerZh": "我們沒有多大改善,但整個冬季仍勉強維持下去。",
+      "highlight": "muddled on",
+      "targetForm": "muddle on",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "If you explain both methods at once, you may confuse him.",
+      "promptZh": "如果你同時解釋兩種方法,可能會令他感到混亂。",
+      "starter": "If",
+      "answer": "If you explain both methods at once, you may muddle him up.",
+      "answerZh": "如果你同時解釋兩種方法,可能會令他感到混亂。",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "My notes were mixed with the handouts, so I could not find them quickly.",
+      "promptZh": "我的筆記跟講義混在一起,所以我無法迅速找到筆記。",
+      "starter": "My",
+      "answer": "My notes were muddled up with the handouts, so I could not find them quickly.",
+      "answerZh": "我的筆記跟講義混在一起,所以我無法迅速找到筆記。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "How did the class manage when the teacher was absent?",
+      "promptZh": "老師缺席時,全班是如何勉強應付過去的?",
+      "starter": "How",
+      "answer": "How did the class muddle through when the teacher was absent?",
+      "answerZh": "老師缺席時,全班是如何勉強應付過去的?",
+      "highlight": "muddle through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The labels were very similar, so I mistook the salt for the sugar.",
+      "promptZh": "標籤非常相似,所以我把鹽錯當成糖。",
+      "starter": "The",
+      "answer": "The labels were very similar, so I muddled the salt up with the sugar.",
+      "answerZh": "標籤非常相似,所以我把鹽錯當成糖。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the manager left, the office continued somehow for another month.",
+      "promptZh": "經理離職後,辦公室仍勉強運作了一個月。",
+      "starter": "After",
+      "answer": "After the manager left, the office muddled along for another month.",
+      "answerZh": "經理離職後,辦公室仍勉強運作了一個月。",
+      "highlight": "muddled along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "In the cupboard, the new cups had been mixed with the old ones.",
+      "promptZh": "櫃內的新杯子跟舊杯子混在一起。",
+      "starter": "In",
+      "answer": "In the cupboard, the new cups had been muddled up with the old ones.",
+      "answerZh": "櫃內的新杯子跟舊杯子混在一起。",
+      "highlight": "muddled up",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "All the arrows on the page were confusing the younger readers.",
+      "promptZh": "頁面上的所有箭嘴令年幼讀者感到混亂。",
+      "starter": "All",
+      "answer": "All the arrows on the page were muddling the younger readers up.",
+      "answerZh": "頁面上的所有箭嘴令年幼讀者感到混亂。",
+      "highlight": "muddling",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "No one had used the machine before, but somehow we completed the job.",
+      "promptZh": "以前沒有人使用過這部機器,但我們最後仍勉強完成了工作。",
+      "starter": "No",
+      "answer": "No one had used the machine before, but somehow we muddled through.",
+      "answerZh": "以前沒有人使用過這部機器,但我們最後仍勉強完成了工作。",
+      "highlight": "muddled through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The organiser treated our booking as another group’s because the two names were almost the same.",
+      "promptZh": "兩個名稱幾乎相同,所以主辦人把我們的預訂錯當成另一組的預訂。",
+      "starter": "The",
+      "answer": "The organiser muddled our booking up with another group’s because the two names were almost the same.",
+      "answerZh": "兩個名稱幾乎相同,所以主辦人把我們的預訂錯當成另一組的預訂。",
+      "highlight": "muddled",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "There was still no proper timetable, yet the class continued somehow.",
+      "promptZh": "仍然沒有合適的時間表,但課堂仍勉強繼續下去。",
+      "starter": "There",
+      "answer": "There was still no proper timetable, yet the class muddled on.",
+      "answerZh": "仍然沒有合適的時間表,但課堂仍勉強繼續下去。",
+      "highlight": "muddled on",
+      "targetForm": "muddle on",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The hotel put our luggage together with bags from another tour group.",
+      "promptZh": "酒店把我們的行李跟另一個旅行團的袋子混在一起。",
+      "starter": "The",
+      "answer": "The hotel muddled our luggage up with bags from another tour group.",
+      "answerZh": "酒店把我們的行李跟另一個旅行團的袋子混在一起。",
+      "highlight": "muddled",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Do not give Rosa three different times; that will confuse her.",
+      "promptZh": "不要向羅莎提供三個不同時間,這會令她感到混亂。",
+      "starter": "Do",
+      "answer": "Do not give Rosa three different times; that will muddle her up.",
+      "answerZh": "不要向羅莎提供三個不同時間,這會令她感到混亂。",
+      "highlight": "muddle",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    },
+    {
+      "id": "phrasal-verb-302-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "She may not know every step, but she will probably manage somehow.",
+      "promptZh": "她可能並不清楚每個步驟,但大概仍能勉強應付過去。",
+      "starter": "She",
+      "answer": "She may not know every step, but she will probably muddle through.",
+      "answerZh": "她可能並不清楚每個步驟,但大概仍能勉強應付過去。",
+      "highlight": "muddle through",
+      "targetForm": "muddle through",
+      "targetMeaningZh": "在困難中勉強應付過去"
+    },
+    {
+      "id": "phrasal-verb-302-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although the photos showed different beaches, I kept mistaking one for the other.",
+      "promptZh": "雖然照片顯示的是不同海灘,但我不斷把其中一個錯認為另一個。",
+      "starter": "Although",
+      "answer": "Although the photos showed different beaches, I kept muddling one up with the other.",
+      "answerZh": "雖然照片顯示的是不同海灘,但我不斷把其中一個錯認為另一個。",
+      "highlight": "muddling",
+      "targetForm": "muddle A up with B",
+      "targetMeaningZh": "把甲錯當成乙"
+    },
+    {
+      "id": "phrasal-verb-302-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "By the end of the game, the two teams’ score sheets had all been mixed together.",
+      "promptZh": "比賽結束時,兩隊的計分紙已全部混在一起。",
+      "starter": "By",
+      "answer": "By the end of the game, one team’s score sheets had been muddled up with the other’s.",
+      "answerZh": "比賽結束時,其中一隊的計分紙已跟另一隊的計分紙混在一起。",
+      "highlight": "one team’s",
+      "targetForm": "muddle something up with something",
+      "targetMeaningZh": "把某物跟其他東西胡亂混在一起"
+    },
+    {
+      "id": "phrasal-verb-302-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "They had no long-term plan and were simply continuing from one problem to the next.",
+      "promptZh": "他們沒有長遠計劃,只是在一個問題接一個問題之間勉強繼續下去。",
+      "starter": "They",
+      "answer": "They had no long-term plan and were simply muddling along from one problem to the next.",
+      "answerZh": "他們沒有長遠計劃,只是在一個問題接一個問題之間勉強繼續下去。",
+      "highlight": "muddling along",
+      "targetForm": "muddle along",
+      "targetMeaningZh": "沒有清晰計劃仍勉強繼續"
+    },
+    {
+      "id": "phrasal-verb-302-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "What confused the visitors was that every door had the same sign.",
+      "promptZh": "令訪客感到混亂的是,每道門都有相同標誌。",
+      "starter": "What",
+      "answer": "What muddled the visitors up was that every door had the same sign.",
+      "answerZh": "令訪客感到混亂的是,每道門都有相同標誌。",
+      "highlight": "muddled",
+      "targetForm": "muddle somebody up",
+      "targetMeaningZh": "把某人弄糊塗"
+    }
+  ]
+}

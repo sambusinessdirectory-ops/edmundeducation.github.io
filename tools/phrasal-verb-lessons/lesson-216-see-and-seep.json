@@ -1,0 +1,1806 @@
+{
+  "id": "phrasal-verb-216",
+  "order": 216,
+  "slug": "see-and-seep",
+  "version": "1",
+  "title": "SEE AND SEEP 動詞片語",
+  "titleEn": "SEE and SEEP",
+  "titleZh": "SEE AND SEEP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 214 - SEE and SEEP.pdf",
+    "sourceNumber": 214,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習以下與 SEE 和 SEEP 有關的片語動詞。",
+    "en": "Learn and practise the listed phrasal verbs related to SEE and SEEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SEE AND SEEP",
+      "highlight": "SEE AND SEEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I’ll go and see about lunch.",
+      "zh": "我會去安排午餐。",
+      "highlight": "see about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Leo saw his grandmother into the house.",
+      "zh": "里奧陪祖母進入屋內。",
+      "highlight": "saw his grandmother into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They saw in the New Year with friends.",
+      "zh": "他們與朋友一起迎接新年。",
+      "highlight": "saw in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "安排、處理或查詢某事；陪某人進入屋內或某地方；迎接新年；為某人送行；成功擊退、克服或消除威脅或挑戰；送某人到門口;自行離開；液體慢慢滲走；參觀並仔細查看某個地方；堅持把某事完成；照料某人;處理某事",
+    "en": "see about something / see about doing something; see somebody in / see somebody into something; see in the New Year / see the New Year in; see somebody off; see something off; see somebody/yourself out see somebody/yourself out of something; seep away; see over something / see round something; see something through; see to somebody/something",
+    "naturalZh": [
+      "安排、處理或查詢某事",
+      "陪某人進入屋內或某地方",
+      "迎接新年",
+      "為某人送行",
+      "成功擊退、克服或消除威脅或挑戰",
+      "送某人到門口;自行離開",
+      "液體慢慢滲走",
+      "參觀並仔細查看某個地方",
+      "堅持把某事完成",
+      "照料某人;處理某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "see about something / see about doing something",
+      "titleZh": "安排、處理或查詢某事",
+      "titleEn": "see about something / see about doing something",
+      "descriptionZh": "安排、處理或查詢某事",
+      "descriptionEn": "I’ll go and see about lunch.",
+      "examples": [
+        {
+          "en": "I’ll go and see about lunch.",
+          "zh": "我會去安排午餐。",
+          "highlight": "see about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "see somebody in / see somebody into something",
+      "titleZh": "陪某人進入屋內或某地方",
+      "titleEn": "see somebody in / see somebody into something",
+      "descriptionZh": "陪某人進入屋內或某地方",
+      "descriptionEn": "Leo saw his grandmother into the house.",
+      "examples": [
+        {
+          "en": "Leo saw his grandmother into the house.",
+          "zh": "里奧陪祖母進入屋內。",
+          "highlight": "saw his grandmother into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "see in the New Year / see the New Year in",
+      "titleZh": "迎接新年",
+      "titleEn": "see in the New Year / see the New Year in",
+      "descriptionZh": "迎接新年",
+      "descriptionEn": "They saw in the New Year with friends.",
+      "examples": [
+        {
+          "en": "They saw in the New Year with friends.",
+          "zh": "他們與朋友一起迎接新年。",
+          "highlight": "saw in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "see somebody off",
+      "titleZh": "為某人送行",
+      "titleEn": "see somebody off",
+      "descriptionZh": "為某人送行",
+      "descriptionEn": "We went to the airport to see her off.",
+      "examples": [
+        {
+          "en": "We went to the airport to see her off.",
+          "zh": "我們到機場為她送行。",
+          "highlight": "see her off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "see something off",
+      "titleZh": "成功擊退、克服或消除威脅或挑戰",
+      "titleEn": "see something off",
+      "descriptionZh": "成功擊退、克服或消除威脅或挑戰",
+      "descriptionEn": "The company saw off the threat of a takeover.",
+      "examples": [
+        {
+          "en": "The company saw off the threat of a takeover.",
+          "zh": "公司成功化解了被收購的威脅。",
+          "highlight": "saw off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "see somebody/yourself out see somebody/yourself out of something",
+      "titleZh": "送某人到門口;自行離開",
+      "titleEn": "see somebody/yourself out see somebody/yourself out of something",
+      "descriptionZh": "送某人到門口;自行離開",
+      "descriptionEn": "Jay saw the last guests out and locked the door.",
+      "examples": [
+        {
+          "en": "Jay saw the last guests out and locked the door.",
+          "zh": "傑伊把最後一批客人送到門口,然後鎖上門。",
+          "highlight": "saw the last guests out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "seep away",
+      "titleZh": "液體慢慢滲走",
+      "titleEn": "seep away",
+      "descriptionZh": "液體慢慢滲走",
+      "descriptionEn": "Water was slowly seeping away from the pond.",
+      "examples": [
+        {
+          "en": "Water was slowly seeping away from the pond.",
+          "zh": "池塘裏的水正慢慢滲走。",
+          "highlight": "seeping away"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "see over something / see round something",
+      "titleZh": "參觀並仔細查看某個地方",
+      "titleEn": "see over something / see round something",
+      "descriptionZh": "參觀並仔細查看某個地方",
+      "descriptionEn": "We’d like to see over the flat again.",
+      "examples": [
+        {
+          "en": "We’d like to see over the flat again.",
+          "zh": "我們想再次仔細看看這個單位。",
+          "highlight": "see over"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "see something through",
+      "titleZh": "堅持把某事完成",
+      "titleEn": "see something through",
+      "descriptionZh": "堅持把某事完成",
+      "descriptionEn": "She is determined to see the job through.",
+      "examples": [
+        {
+          "en": "She is determined to see the job through.",
+          "zh": "她決心把工作堅持完成。",
+          "highlight": "see the job through"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "see to somebody/something",
+      "titleZh": "照料某人;處理某事",
+      "titleEn": "see to somebody/something",
+      "descriptionZh": "照料某人;處理某事",
+      "descriptionEn": "I’ll see to the children.",
+      "examples": [
+        {
+          "en": "I’ll see to the children.",
+          "zh": "我會照料孩子們。",
+          "highlight": "see to"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SEE AND SEEP 片語動詞的實際用途",
+    "labelEn": "SEE AND SEEP Phrasal Verbs in Use",
+    "summaryZh": "see about 可以用來談論作出安排;see to 則可以表示處理工作或照料某人。；你可以用 see somebody in、see somebody out 和 see somebody off 描述陪伴或送別,也可以用see the New Year in 表示迎接新年。；see something through 表示堅持完成工作;see something off 則表示成功擊退威脅或挑戰。；see over 和 see round 適合用來描述查看住宅、學校或辦公室;seep away 則表示水慢慢滲走。",
+    "summaryEn": "See about helps you talk about making arrangements, while see to helps you talk about dealing with a job or caring for somebody. You can see somebody in, see somebody out or see somebody off. You can also see the New Year in. See something through shows that you continue until a task is finished. See something off shows that you successfully defeat a threat or challenge. See over and see round are useful when viewing a home, school or office. Seep away describes water slowly escaping.",
+    "contextsZh": [
+      "處理日常安排和責任",
+      "描述迎接、陪伴和送別",
+      "談論堅持和克服困難",
+      "描述查看地方和水分慢慢流失"
+    ],
+    "contextsEn": [
+      "Manage everyday arrangements and responsibilities",
+      "Describe welcoming, accompanying and saying goodbye",
+      "Talk about persistence and overcoming difficulties",
+      "Describe inspecting places and slowly escaping water"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的片語動詞。",
+    "formalEn": "Read the whole sentence and choose the expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "see about something / see about doing something",
+    "fixedHighlight": "see about something / see about doing something",
+    "fixedZh": "閱讀整句,選出意思相同的片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the expression that gives the same meaning.",
+    "correct": "see about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在 SEE 和後面的字之間。；seep away 使用 SEEP,而不是 SEE,表示液體慢慢滲走。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with SEE... OFF, SEE... OUT or SEE... THROUGH, place the word as shown: see her off see them out see it through Seep away is formed with SEEP, not SEE. It describes liquid slowly escaping.",
+    "variableItemsZh": [
+      "see about something / see about doing something",
+      "see somebody in / see somebody into something",
+      "see in the New Year / see the New Year in",
+      "see somebody off",
+      "see something off",
+      "see somebody/yourself out see somebody/yourself out of something",
+      "seep away",
+      "see over something / see round something",
+      "see something through",
+      "see to somebody/something"
+    ],
+    "variableItemsEn": [
+      "see about something / see about doing something",
+      "see somebody in / see somebody into something",
+      "see in the New Year / see the New Year in",
+      "see somebody off",
+      "see something off",
+      "see somebody/yourself out see somebody/yourself out of something",
+      "seep away",
+      "see over something / see round something",
+      "see something through",
+      "see to somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "安排、處理或查詢某事",
+        "formEn": "see about something / see about doing something",
+        "exampleZh": "我會去安排午餐。",
+        "exampleEn": "I’ll go and see about lunch.",
+        "highlight": "see about"
+      },
+      {
+        "formZh": "陪某人進入屋內或某地方",
+        "formEn": "see somebody in / see somebody into something",
+        "exampleZh": "里奧陪祖母進入屋內。",
+        "exampleEn": "Leo saw his grandmother into the house.",
+        "highlight": "saw his grandmother into"
+      },
+      {
+        "formZh": "迎接新年",
+        "formEn": "see in the New Year / see the New Year in",
+        "exampleZh": "他們與朋友一起迎接新年。",
+        "exampleEn": "They saw in the New Year with friends.",
+        "highlight": "saw in"
+      },
+      {
+        "formZh": "為某人送行",
+        "formEn": "see somebody off",
+        "exampleZh": "我們到機場為她送行。",
+        "exampleEn": "We went to the airport to see her off.",
+        "highlight": "see her off"
+      },
+      {
+        "formZh": "成功擊退、克服或消除威脅或挑戰",
+        "formEn": "see something off",
+        "exampleZh": "公司成功化解了被收購的威脅。",
+        "exampleEn": "The company saw off the threat of a takeover.",
+        "highlight": "saw off"
+      },
+      {
+        "formZh": "送某人到門口;自行離開",
+        "formEn": "see somebody/yourself out see somebody/yourself out of something",
+        "exampleZh": "傑伊把最後一批客人送到門口,然後鎖上門。",
+        "exampleEn": "Jay saw the last guests out and locked the door.",
+        "highlight": "saw the last guests out"
+      },
+      {
+        "formZh": "液體慢慢滲走",
+        "formEn": "seep away",
+        "exampleZh": "池塘裏的水正慢慢滲走。",
+        "exampleEn": "Water was slowly seeping away from the pond.",
+        "highlight": "seeping away"
+      },
+      {
+        "formZh": "參觀並仔細查看某個地方",
+        "formEn": "see over something / see round something",
+        "exampleZh": "我們想再次仔細看看這個單位。",
+        "exampleEn": "We’d like to see over the flat again.",
+        "highlight": "see over"
+      },
+      {
+        "formZh": "堅持把某事完成",
+        "formEn": "see something through",
+        "exampleZh": "她決心把工作堅持完成。",
+        "exampleEn": "She is determined to see the job through.",
+        "highlight": "see the job through"
+      },
+      {
+        "formZh": "照料某人;處理某事",
+        "formEn": "see to somebody/something",
+        "exampleZh": "我會照料孩子們。",
+        "exampleEn": "I’ll see to the children.",
+        "highlight": "see to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "安排、處理或查詢某事",
+      "titleEn": "see about something / see about doing something",
+      "formula": "see about something / see about doing something",
+      "highlight": "see about something / see about doing something",
+      "descriptionZh": "安排、處理或查詢某事",
+      "descriptionEn": "I’ll go and see about lunch.",
+      "examples": [
+        {
+          "en": "I’ll go and see about lunch.",
+          "zh": "我會去安排午餐。",
+          "highlight": "see about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "陪某人進入屋內或某地方",
+      "titleEn": "see somebody in / see somebody into something",
+      "formula": "see somebody in / see somebody into something",
+      "highlight": "see somebody in / see somebody into something",
+      "descriptionZh": "陪某人進入屋內或某地方",
+      "descriptionEn": "Leo saw his grandmother into the house.",
+      "examples": [
+        {
+          "en": "Leo saw his grandmother into the house.",
+          "zh": "里奧陪祖母進入屋內。",
+          "highlight": "saw his grandmother into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "迎接新年",
+      "titleEn": "see in the New Year / see the New Year in",
+      "formula": "see in the New Year / see the New Year in",
+      "highlight": "see in the New Year / see the New Year in",
+      "descriptionZh": "迎接新年",
+      "descriptionEn": "They saw in the New Year with friends.",
+      "examples": [
+        {
+          "en": "They saw in the New Year with friends.",
+          "zh": "他們與朋友一起迎接新年。",
+          "highlight": "saw in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "為某人送行",
+      "titleEn": "see somebody off",
+      "formula": "see somebody off",
+      "highlight": "see somebody off",
+      "descriptionZh": "為某人送行",
+      "descriptionEn": "We went to the airport to see her off.",
+      "examples": [
+        {
+          "en": "We went to the airport to see her off.",
+          "zh": "我們到機場為她送行。",
+          "highlight": "see her off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "成功擊退、克服或消除威脅或挑戰",
+      "titleEn": "see something off",
+      "formula": "see something off",
+      "highlight": "see something off",
+      "descriptionZh": "成功擊退、克服或消除威脅或挑戰",
+      "descriptionEn": "The company saw off the threat of a takeover.",
+      "examples": [
+        {
+          "en": "The company saw off the threat of a takeover.",
+          "zh": "公司成功化解了被收購的威脅。",
+          "highlight": "saw off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "送某人到門口;自行離開",
+      "titleEn": "see somebody/yourself out see somebody/yourself out of something",
+      "formula": "see somebody/yourself out see somebody/yourself out of something",
+      "highlight": "see somebody/yourself out see somebody/yourself out of something",
+      "descriptionZh": "送某人到門口;自行離開",
+      "descriptionEn": "Jay saw the last guests out and locked the door.",
+      "examples": [
+        {
+          "en": "Jay saw the last guests out and locked the door.",
+          "zh": "傑伊把最後一批客人送到門口,然後鎖上門。",
+          "highlight": "saw the last guests out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "液體慢慢滲走",
+      "titleEn": "seep away",
+      "formula": "seep away",
+      "highlight": "seep away",
+      "descriptionZh": "液體慢慢滲走",
+      "descriptionEn": "Water was slowly seeping away from the pond.",
+      "examples": [
+        {
+          "en": "Water was slowly seeping away from the pond.",
+          "zh": "池塘裏的水正慢慢滲走。",
+          "highlight": "seeping away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "參觀並仔細查看某個地方",
+      "titleEn": "see over something / see round something",
+      "formula": "see over something / see round something",
+      "highlight": "see over something / see round something",
+      "descriptionZh": "參觀並仔細查看某個地方",
+      "descriptionEn": "We’d like to see over the flat again.",
+      "examples": [
+        {
+          "en": "We’d like to see over the flat again.",
+          "zh": "我們想再次仔細看看這個單位。",
+          "highlight": "see over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "堅持把某事完成",
+      "titleEn": "see something through",
+      "formula": "see something through",
+      "highlight": "see something through",
+      "descriptionZh": "堅持把某事完成",
+      "descriptionEn": "She is determined to see the job through.",
+      "examples": [
+        {
+          "en": "She is determined to see the job through.",
+          "zh": "她決心把工作堅持完成。",
+          "highlight": "see the job through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "照料某人;處理某事",
+      "titleEn": "see to somebody/something",
+      "formula": "see to somebody/something",
+      "highlight": "see to somebody/something",
+      "descriptionZh": "照料某人;處理某事",
+      "descriptionEn": "I’ll see to the children.",
+      "examples": [
+        {
+          "en": "I’ll see to the children.",
+          "zh": "我會照料孩子們。",
+          "highlight": "see to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "處理日常安排和責任",
+      "titleEn": "Manage everyday arrangements and responsibilities",
+      "zh": "see about 可以用來談論作出安排;see to 則可以表示處理工作或照料某人。",
+      "en": "See about helps you talk about making arrangements, while see to helps you talk about dealing with a job or caring for somebody."
+    },
+    {
+      "titleZh": "描述迎接、陪伴和送別",
+      "titleEn": "Describe welcoming, accompanying and saying goodbye",
+      "zh": "你可以用 see somebody in、see somebody out 和 see somebody off 描述陪伴或送別,也可以用see the New Year in 表示迎接新年。",
+      "en": "You can see somebody in, see somebody out or see somebody off. You can also see the New Year in."
+    },
+    {
+      "titleZh": "談論堅持和克服困難",
+      "titleEn": "Talk about persistence and overcoming difficulties",
+      "zh": "see something through 表示堅持完成工作;see something off 則表示成功擊退威脅或挑戰。",
+      "en": "See something through shows that you continue until a task is finished. See something off shows that you successfully defeat a threat or challenge."
+    },
+    {
+      "titleZh": "描述查看地方和水分慢慢流失",
+      "titleEn": "Describe inspecting places and slowly escaping water",
+      "zh": "see over 和 see round 適合用來描述查看住宅、學校或辦公室;seep away 則表示水慢慢滲走。",
+      "en": "See over and see round are useful when viewing a home, school or office. Seep away describes water slowly escaping."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "處理日常安排和責任",
+      "描述迎接、陪伴和送別",
+      "談論堅持和克服困難",
+      "描述查看地方和水分慢慢流失"
+    ],
+    "contextsEn": [
+      "Manage everyday arrangements and responsibilities",
+      "Describe welcoming, accompanying and saying goodbye",
+      "Talk about persistence and overcoming difficulties",
+      "Describe inspecting places and slowly escaping water"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "處理日常安排和責任",
+        "titleEn": "Manage everyday arrangements and responsibilities",
+        "zh": "see about 可以用來談論作出安排;see to 則可以表示處理工作或照料某人。",
+        "en": "See about helps you talk about making arrangements, while see to helps you talk about dealing with a job or caring for somebody.",
+        "examples": [
+          {
+            "en": "I’ll go and see about lunch.",
+            "zh": "我會去安排午餐。",
+            "highlight": "see about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迎接、陪伴和送別",
+        "titleEn": "Describe welcoming, accompanying and saying goodbye",
+        "zh": "你可以用 see somebody in、see somebody out 和 see somebody off 描述陪伴或送別,也可以用see the New Year in 表示迎接新年。",
+        "en": "You can see somebody in, see somebody out or see somebody off. You can also see the New Year in.",
+        "examples": [
+          {
+            "en": "Leo saw his grandmother into the house.",
+            "zh": "里奧陪祖母進入屋內。",
+            "highlight": "saw his grandmother into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論堅持和克服困難",
+        "titleEn": "Talk about persistence and overcoming difficulties",
+        "zh": "see something through 表示堅持完成工作;see something off 則表示成功擊退威脅或挑戰。",
+        "en": "See something through shows that you continue until a task is finished. See something off shows that you successfully defeat a threat or challenge.",
+        "examples": [
+          {
+            "en": "They saw in the New Year with friends.",
+            "zh": "他們與朋友一起迎接新年。",
+            "highlight": "saw in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述查看地方和水分慢慢流失",
+        "titleEn": "Describe inspecting places and slowly escaping water",
+        "zh": "see over 和 see round 適合用來描述查看住宅、學校或辦公室;seep away 則表示水慢慢滲走。",
+        "en": "See over and see round are useful when viewing a home, school or office. Seep away describes water slowly escaping.",
+        "examples": [
+          {
+            "en": "We went to the airport to see her off.",
+            "zh": "我們到機場為她送行。",
+            "highlight": "see her off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的片語動詞。",
+      "titleEn": "Read the whole sentence and choose the expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的片語動詞。",
+      "en": "Read the whole sentence and choose the expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在 SEE 和後面的字之間。",
+      "titleEn": "When using him, her, it or them with SEE.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在 SEE 和後面的字之間。",
+      "en": "When using him, her, it or them with SEE... OFF, SEE... OUT or SEE... THROUGH, place the word as shown: see her off see them out see it through"
+    },
+    {
+      "titleZh": "seep away 使用 SEEP,而不是 SEE,表示液體慢慢滲走。",
+      "titleEn": "Seep away is formed with SEEP, not SEE.",
+      "zh": "seep away 使用 SEEP,而不是 SEE,表示液體慢慢滲走。",
+      "en": "Seep away is formed with SEEP, not SEE. It describes liquid slowly escaping."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SEE AND SEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SEE AND SEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SEE AND SEEP 動詞片語句子改寫練習",
+    "titleEn": "SEE AND SEEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SEE AND SEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SEE AND SEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-216-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I’ll go and make arrangements for lunch.",
+      "promptZh": "我會去安排午餐。",
+      "starter": "I’ll",
+      "answer": "I’ll go and see about lunch.",
+      "answerZh": "我會去安排午餐。",
+      "highlight": "see about",
+      "targetForm": "see about something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Water was slowly escaping through the ground from the pond.",
+      "promptZh": "池塘裏的水正慢慢從地下流失。",
+      "starter": "Water",
+      "answer": "Water was slowly seeping away from the pond.",
+      "answerZh": "池塘裏的水正慢慢滲走。",
+      "highlight": "seeping away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We went to the station to say goodbye to Ben before he left.",
+      "promptZh": "我們到車站,在賓離開前向他道別。",
+      "starter": "We",
+      "answer": "We went to the station to see Ben off.",
+      "answerZh": "我們到車站為賓送行。",
+      "highlight": "see",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "I’ll take care of the children while you cook.",
+      "promptZh": "你煮飯時,我會照料孩子們。",
+      "starter": "I’ll",
+      "answer": "I’ll see to the children while you cook.",
+      "answerZh": "你煮飯時,我會照料孩子們。",
+      "highlight": "see to",
+      "targetForm": "see to somebody",
+      "targetMeaningZh": "照料某人"
+    },
+    {
+      "id": "phrasal-verb-216-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We welcomed the New Year with our neighbours.",
+      "promptZh": "我們與鄰居一起迎接新年。",
+      "starter": "We",
+      "answer": "We saw in the New Year with our neighbours.",
+      "answerZh": "我們與鄰居一起迎接新年。",
+      "highlight": "saw in",
+      "targetForm": "see in the New Year",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We would like to inspect the flat again.",
+      "promptZh": "我們想再次仔細看看這個單位。",
+      "starter": "We",
+      "answer": "We would like to see over the flat again.",
+      "answerZh": "我們想再次仔細看看這個單位。",
+      "highlight": "see over",
+      "targetForm": "see over something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Leo walked with his grandmother until she was safely inside the house.",
+      "promptZh": "里奧陪祖母走進屋內,確保她安全進去。",
+      "starter": "Leo",
+      "answer": "Leo saw his grandmother into the house.",
+      "answerZh": "里奧陪祖母進入屋內。",
+      "highlight": "saw",
+      "targetForm": "see somebody into something",
+      "targetMeaningZh": "陪某人進入某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Ella is determined to continue the job until it is finished.",
+      "promptZh": "埃拉決心繼續工作,直至把它完成。",
+      "starter": "Ella",
+      "answer": "Ella is determined to see the job through.",
+      "answerZh": "埃拉決心把工作堅持完成。",
+      "highlight": "see",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Nora will make arrangements to book a table for six.",
+      "promptZh": "諾拉會安排預訂一張六人桌。",
+      "starter": "Nora",
+      "answer": "Nora will see about booking a table for six.",
+      "answerZh": "諾拉會安排預訂一張六人桌。",
+      "highlight": "see about booking",
+      "targetForm": "see about doing something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The team successfully defeated a late challenge from its rivals.",
+      "promptZh": "球隊成功擊退了對手在比賽後段的挑戰。",
+      "starter": "The",
+      "answer": "The team saw off a late challenge from its rivals.",
+      "answerZh": "球隊成功擊退了對手在比賽後段的挑戰。",
+      "highlight": "saw off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功擊退挑戰"
+    },
+    {
+      "id": "phrasal-verb-216-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Her parents went with her to the airport and said goodbye before she left.",
+      "promptZh": "她的父母陪她到機場,並在她離開前向她道別。",
+      "starter": "Her",
+      "answer": "Her parents saw her off at the airport.",
+      "answerZh": "她的父母到機場為她送行。",
+      "highlight": "saw",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Jay walked the last guests to the door as they left and then locked it.",
+      "promptZh": "傑伊把最後一批客人送到門口,然後鎖上門。",
+      "starter": "Jay",
+      "answer": "Jay saw the last guests out and then locked the door.",
+      "answerZh": "傑伊把最後一批客人送到門口,然後鎖上門。",
+      "highlight": "saw",
+      "targetForm": "see somebody out",
+      "targetMeaningZh": "把某人送到門口"
+    },
+    {
+      "id": "phrasal-verb-216-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The family plans to welcome the New Year at home.",
+      "promptZh": "這家人打算在家中迎接新年。",
+      "starter": "The",
+      "answer": "The family plans to see the New Year in at home.",
+      "answerZh": "這家人打算在家中迎接新年。",
+      "highlight": "see",
+      "targetForm": "see the New Year in",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I’ll accompany you inside before I leave.",
+      "promptZh": "我離開前會陪你進去。",
+      "starter": "I’ll",
+      "answer": "I’ll see you in before I leave.",
+      "answerZh": "我離開前會陪你進去。",
+      "highlight": "see",
+      "targetForm": "see somebody in",
+      "targetMeaningZh": "陪某人進入屋內"
+    },
+    {
+      "id": "phrasal-verb-216-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Could we inspect the school before we decide?",
+      "promptZh": "我們作決定前可以參觀並查看學校嗎?",
+      "starter": "Could",
+      "answer": "Could we see round the school before we decide?",
+      "answerZh": "我們作決定前可以參觀並查看學校嗎?",
+      "highlight": "see round",
+      "targetForm": "see round something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Could you arrange to get two more chairs?",
+      "promptZh": "你可以安排多取兩張椅子嗎?",
+      "starter": "Could",
+      "answer": "Could you see about getting two more chairs?",
+      "answerZh": "你可以安排多取兩張椅子嗎?",
+      "highlight": "see about getting",
+      "targetForm": "see about doing something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "A strong final round has defeated the main challenger.",
+      "promptZh": "出色的最後一輪表現擊退了主要挑戰者。",
+      "starter": "A",
+      "answer": "A strong final round has seen off the main challenger.",
+      "answerZh": "出色的最後一輪表現擊退了主要挑戰者。",
+      "highlight": "seen off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功擊退挑戰者"
+    },
+    {
+      "id": "phrasal-verb-216-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Are you welcoming the New Year with your classmates?",
+      "promptZh": "你會與同學一起迎接新年嗎?",
+      "starter": "Are",
+      "answer": "Are you seeing the New Year in with your classmates?",
+      "answerZh": "你會與同學一起迎接新年嗎?",
+      "highlight": "seeing",
+      "targetForm": "see the New Year in",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Rainwater has slowly escaped through a crack in the path.",
+      "promptZh": "雨水已慢慢從小路的裂縫滲走。",
+      "starter": "Rainwater",
+      "answer": "Rainwater has seeped away through a crack in the path.",
+      "answerZh": "雨水已慢慢從小路的裂縫滲走。",
+      "highlight": "seeped away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Will you continue the project until it is completed despite the delay?",
+      "promptZh": "即使出現延誤,你仍會堅持完成這個項目嗎?",
+      "starter": "Will",
+      "answer": "Will you see the project through despite the delay?",
+      "answerZh": "即使出現延誤,你仍會堅持完成這個項目嗎?",
+      "highlight": "see",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "You can leave by yourself when you are ready.",
+      "promptZh": "你準備好後可以自行離開。",
+      "starter": "You",
+      "answer": "You can see yourself out when you are ready.",
+      "answerZh": "你準備好後可以自行離開。",
+      "highlight": "see",
+      "targetForm": "see yourself out",
+      "targetMeaningZh": "自行離開"
+    },
+    {
+      "id": "phrasal-verb-216-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Could you accompany the children into the hall?",
+      "promptZh": "你可以陪孩子們進入禮堂嗎?",
+      "starter": "Could",
+      "answer": "Could you see the children into the hall?",
+      "answerZh": "你可以陪孩子們進入禮堂嗎?",
+      "highlight": "see",
+      "targetForm": "see somebody into something",
+      "targetMeaningZh": "陪某人進入某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "They have already inspected three houses this week.",
+      "promptZh": "他們本星期已仔細看過三間房子。",
+      "starter": "They",
+      "answer": "They have already seen over three houses this week.",
+      "answerZh": "他們本星期已仔細看過三間房子。",
+      "highlight": "seen over",
+      "targetForm": "see over something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Who is arranging the drinks for the party?",
+      "promptZh": "誰負責安排派對的飲品?",
+      "starter": "Who",
+      "answer": "Who is seeing to the drinks for the party?",
+      "answerZh": "誰負責安排派對的飲品?",
+      "highlight": "seeing to",
+      "targetForm": "see to something",
+      "targetMeaningZh": "處理或安排某事"
+    },
+    {
+      "id": "phrasal-verb-216-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Can this new plan remove the threat of closure?",
+      "promptZh": "這個新計劃能消除結業的威脅嗎?",
+      "starter": "Can",
+      "answer": "Can this new plan see off the threat of closure?",
+      "answerZh": "這個新計劃能消除結業的威脅嗎?",
+      "highlight": "see off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功消除威脅"
+    },
+    {
+      "id": "phrasal-verb-216-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Will anyone be there to say goodbye to the team before they leave?",
+      "promptZh": "球隊離開前,會有人到場送行嗎?",
+      "starter": "Will",
+      "answer": "Will anyone be there to see the team off?",
+      "answerZh": "球隊離開前,會有人到場送行嗎?",
+      "highlight": "see",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Without repairs, more water will slowly escape from the tank.",
+      "promptZh": "如果不維修,水箱會有更多水慢慢滲走。",
+      "starter": "Without",
+      "answer": "Without repairs, more water will seep away from the tank.",
+      "answerZh": "如果不維修,水箱會有更多水慢慢滲走。",
+      "highlight": "seep away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The receptionist is walking a visitor to the exit of the building.",
+      "promptZh": "接待員正陪一名訪客走到大樓出口。",
+      "starter": "The",
+      "answer": "The receptionist is seeing a visitor out of the building.",
+      "answerZh": "接待員正陪一名訪客走到大樓出口。",
+      "highlight": "seeing",
+      "targetForm": "see somebody out of something",
+      "targetMeaningZh": "送某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The task was difficult, but the group continued until it was finished.",
+      "promptZh": "任務很困難,但小組仍堅持把它完成。",
+      "starter": "The",
+      "answer": "The task was difficult, but the group saw it through.",
+      "answerZh": "任務很困難,但小組仍堅持把它完成。",
+      "highlight": "saw",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "At midnight, hundreds of people welcomed the New Year by the river.",
+      "promptZh": "午夜時,數百人在河邊迎接新年。",
+      "starter": "At",
+      "answer": "At midnight, hundreds of people saw the New Year in by the river.",
+      "answerZh": "午夜時,數百人在河邊迎接新年。",
+      "highlight": "saw",
+      "targetForm": "see the New Year in",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Before the meeting, Sam went to arrange the drinks.",
+      "promptZh": "會議前,山姆去安排飲品。",
+      "starter": "Before",
+      "answer": "Before the meeting, Sam went to see about the drinks.",
+      "answerZh": "會議前,山姆去安排飲品。",
+      "highlight": "see about",
+      "targetForm": "see about something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "After I walked them to the door as they left, I turned off the hall light.",
+      "promptZh": "我把他們送到門口後,便關掉大堂的燈。",
+      "starter": "After",
+      "answer": "After I saw them out, I turned off the hall light.",
+      "answerZh": "我把他們送到門口後,便關掉大堂的燈。",
+      "highlight": "saw",
+      "targetForm": "see somebody out",
+      "targetMeaningZh": "把某人送到門口"
+    },
+    {
+      "id": "phrasal-verb-216-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Please deal with the broken window before it rains.",
+      "promptZh": "請在下雨前處理那扇破裂的窗戶。",
+      "starter": "Please",
+      "answer": "Please see to the broken window before it rains.",
+      "answerZh": "請在下雨前處理那扇破裂的窗戶。",
+      "highlight": "see to",
+      "targetForm": "see to something",
+      "targetMeaningZh": "處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "After saying goodbye to the children as they left, the teacher returned to the classroom.",
+      "promptZh": "老師送別孩子們後,便返回課室。",
+      "starter": "After",
+      "answer": "After seeing the children off, the teacher returned to the classroom.",
+      "answerZh": "老師送別孩子們後,便返回課室。",
+      "highlight": "seeing",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "After accompanying the visitor inside, Grace returned to the front desk.",
+      "promptZh": "格蕾絲陪訪客進去後,便返回接待處。",
+      "starter": "Having",
+      "answer": "Having seen the visitor in, Grace returned to the front desk.",
+      "answerZh": "格蕾絲陪訪客進去後,便返回接待處。",
+      "highlight": "Having seen",
+      "targetForm": "see somebody in",
+      "targetMeaningZh": "陪某人進入屋內"
+    },
+    {
+      "id": "phrasal-verb-216-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The garden pool kept losing water as it slowly escaped through the soil.",
+      "promptZh": "花園水池的水不斷經泥土慢慢滲走。",
+      "starter": "The",
+      "answer": "The garden pool kept losing water as it seeped away through the soil.",
+      "answerZh": "花園水池的水不斷經泥土慢慢滲走。",
+      "highlight": "seeped away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Having promised to help, Omar stayed until the work was finished.",
+      "promptZh": "奧馬答應幫忙後,便留下來直至工作完成。",
+      "starter": "Having",
+      "answer": "Having promised to help, Omar stayed to see the work through.",
+      "answerZh": "奧馬答應幫忙後,便留下來直至工作完成。",
+      "highlight": "to see",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The takeover threat became serious, but the company managed to defeat it.",
+      "promptZh": "收購威脅變得嚴重,但公司成功化解了它。",
+      "starter": "The",
+      "answer": "The takeover threat became serious, but the company managed to see it off.",
+      "answerZh": "收購威脅變得嚴重,但公司成功化解了它。",
+      "highlight": "see",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功消除威脅"
+    },
+    {
+      "id": "phrasal-verb-216-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "We need to make arrangements to repair the kitchen light.",
+      "promptZh": "我們需要安排維修廚房的燈。",
+      "starter": "We",
+      "answer": "We need to see about repairing the kitchen light.",
+      "answerZh": "我們需要安排維修廚房的燈。",
+      "highlight": "see about repairing",
+      "targetForm": "see about doing something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Before renting it, Iris wants to inspect the shop once more.",
+      "promptZh": "租下店舖前,艾瑞絲想再仔細查看一次。",
+      "starter": "Before",
+      "answer": "Before renting it, Iris wants to see over the shop once more.",
+      "answerZh": "租下店舖前,艾瑞絲想再仔細查看一次。",
+      "highlight": "see over",
+      "targetForm": "see over something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The electrician has already checked and fixed the lights.",
+      "promptZh": "電工已經檢查並修理好那些燈。",
+      "starter": "The",
+      "answer": "The electrician has already seen to the lights.",
+      "answerZh": "電工已經處理好那些燈。",
+      "highlight": "seen to",
+      "targetForm": "see to something",
+      "targetMeaningZh": "處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The driver waited while the guard accompanied the guests into the building.",
+      "promptZh": "保安陪客人進入大樓時,司機在外面等候。",
+      "starter": "The",
+      "answer": "The driver waited while the guard saw the guests into the building.",
+      "answerZh": "保安陪客人進入大樓時,司機在外面等候。",
+      "highlight": "saw",
+      "targetForm": "see somebody into something",
+      "targetMeaningZh": "陪某人進入某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The home side defeated a strong challenge in the second half.",
+      "promptZh": "主隊在下半場擊退了強勁的挑戰。",
+      "starter": "The",
+      "answer": "The home side saw off a strong challenge in the second half.",
+      "answerZh": "主隊在下半場擊退了強勁的挑戰。",
+      "highlight": "saw off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功擊退挑戰"
+    },
+    {
+      "id": "phrasal-verb-216-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The manager has already made arrangements to replace the broken printer.",
+      "promptZh": "經理已安排更換損壞的打印機。",
+      "starter": "The",
+      "answer": "The manager has already seen about replacing the broken printer.",
+      "answerZh": "經理已安排更換損壞的打印機。",
+      "highlight": "seen about replacing",
+      "targetForm": "see about doing something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Instead of going to a large party, we welcomed the New Year over a quiet meal.",
+      "promptZh": "我們沒有參加大型派對,而是在一頓寧靜的晚餐中迎接新年。",
+      "starter": "Instead",
+      "answer": "Instead of going to a large party, we saw in the New Year over a quiet meal.",
+      "answerZh": "我們沒有參加大型派對,而是在一頓寧靜的晚餐中迎接新年。",
+      "highlight": "saw in",
+      "targetForm": "see in the New Year",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The couple asked whether they could inspect the flat without the agent.",
+      "promptZh": "這對夫婦詢問能否在代理不在場時查看單位。",
+      "starter": "The",
+      "answer": "The couple asked whether they could see round the flat without the agent.",
+      "answerZh": "這對夫婦詢問能否在代理不在場時查看單位。",
+      "highlight": "see round",
+      "targetForm": "see round something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Please leave by yourself; I need to answer this call.",
+      "promptZh": "請自行離開;我需要接聽這個電話。",
+      "starter": "Please",
+      "answer": "Please see yourself out; I need to answer this call.",
+      "answerZh": "請自行離開;我需要接聽這個電話。",
+      "highlight": "see",
+      "targetForm": "see yourself out",
+      "targetMeaningZh": "自行離開"
+    },
+    {
+      "id": "phrasal-verb-216-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Can you take care of the dog while I am at work?",
+      "promptZh": "我上班時,你可以照料小狗嗎?",
+      "starter": "Can",
+      "answer": "Can you see to the dog while I am at work?",
+      "answerZh": "我上班時,你可以照料小狗嗎?",
+      "highlight": "see to",
+      "targetForm": "see to somebody/something",
+      "targetMeaningZh": "照料某人或動物"
+    },
+    {
+      "id": "phrasal-verb-216-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Several neighbours came outside to say goodbye to the family before they left.",
+      "promptZh": "這家人離開前,幾名鄰居走到外面送別他們。",
+      "starter": "Several",
+      "answer": "Several neighbours came outside to see the family off.",
+      "answerZh": "這家人離開前,幾名鄰居走到外面送別他們。",
+      "highlight": "see",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After accompanying her brother inside the flat, Priya walked back to the station.",
+      "promptZh": "普里雅陪弟弟進入單位後,便步行返回車站。",
+      "starter": "After",
+      "answer": "After seeing her brother into the flat, Priya walked back to the station.",
+      "answerZh": "普里雅陪弟弟進入單位後,便步行返回車站。",
+      "highlight": "seeing",
+      "targetForm": "see somebody into something",
+      "targetMeaningZh": "陪某人進入某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The threat was finally removed by a better offer from the owners.",
+      "promptZh": "業主提出更好的方案後,威脅終於被消除。",
+      "starter": "The",
+      "answer": "The threat was finally seen off by a better offer from the owners.",
+      "answerZh": "業主提出更好的方案後,威脅終於被消除。",
+      "highlight": "seen off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功消除威脅"
+    },
+    {
+      "id": "phrasal-verb-216-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The plan will fail unless someone is willing to continue until it is completed.",
+      "promptZh": "除非有人願意堅持把計劃完成,否則它會失敗。",
+      "starter": "The",
+      "answer": "The plan will fail unless someone is willing to see it through.",
+      "answerZh": "除非有人願意堅持把計劃完成,否則它會失敗。",
+      "highlight": "see",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Where did Ava welcome the New Year last year?",
+      "promptZh": "艾娃去年在哪裏迎接新年?",
+      "starter": "Where",
+      "answer": "Where did Ava see the New Year in last year?",
+      "answerZh": "艾娃去年在哪裏迎接新年?",
+      "highlight": "see",
+      "targetForm": "see the New Year in",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "By morning, most of the water had slowly escaped from the shallow pond.",
+      "promptZh": "到了早上,淺池裏大部分的水已慢慢滲走。",
+      "starter": "By",
+      "answer": "By morning, most of the water had seeped away from the shallow pond.",
+      "answerZh": "到了早上,淺池裏大部分的水已慢慢滲走。",
+      "highlight": "seeped away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The host walked us to the restaurant exit after the meal.",
+      "promptZh": "飯後,主人陪我們走到餐廳出口。",
+      "starter": "The",
+      "answer": "The host saw us out of the restaurant after the meal.",
+      "answerZh": "飯後,主人陪我們走到餐廳出口。",
+      "highlight": "saw",
+      "targetForm": "see somebody out of something",
+      "targetMeaningZh": "送某人離開某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Who came to say goodbye when you left for university?",
+      "promptZh": "你離家升讀大學時,誰來為你送行?",
+      "starter": "Who",
+      "answer": "Who saw you off when you left for university?",
+      "answerZh": "你離家升讀大學時,誰來為你送行?",
+      "highlight": "saw you off",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As water continued to escape slowly beneath the wall, the ground became softer.",
+      "promptZh": "隨着水繼續從牆下慢慢滲走,地面變得更鬆軟。",
+      "starter": "As",
+      "answer": "As water continued to seep away beneath the wall, the ground became softer.",
+      "answerZh": "隨着水繼續從牆下慢慢滲走,地面變得更鬆軟。",
+      "highlight": "seep away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the final seconds ended, everyone raised a glass to welcome the New Year together.",
+      "promptZh": "最後幾秒結束時,大家舉杯共同迎接新年。",
+      "starter": "When",
+      "answer": "When the final seconds ended, everyone raised a glass to see the New Year in together.",
+      "answerZh": "最後幾秒結束時,大家舉杯共同迎接新年。",
+      "highlight": "see",
+      "targetForm": "see the New Year in",
+      "targetMeaningZh": "迎接新年"
+    },
+    {
+      "id": "phrasal-verb-216-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Even when the first idea failed, the students kept working until they completed the project.",
+      "promptZh": "即使第一個構思失敗,學生仍繼續工作,直至完成項目。",
+      "starter": "Even",
+      "answer": "Even when the first idea failed, the students kept working and saw the project through.",
+      "answerZh": "即使第一個構思失敗,學生仍繼續工作,直至完成項目。",
+      "highlight": "and saw",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Once everyone had chosen a date, Tara said she would make arrangements to find a suitable room.",
+      "promptZh": "大家選好日期後,塔拉表示會安排尋找合適的房間。",
+      "starter": "Once",
+      "answer": "Once everyone had chosen a date, Tara said she would see about finding a suitable room.",
+      "answerZh": "大家選好日期後,塔拉表示會安排尋找合適的房間。",
+      "highlight": "see about finding",
+      "targetForm": "see about doing something",
+      "targetMeaningZh": "安排或處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Although the photographs looked good, we still wanted to inspect the house before making a decision.",
+      "promptZh": "雖然相片看起來不錯,但我們作決定前仍想親自查看房子。",
+      "starter": "Although",
+      "answer": "Although the photographs looked good, we still wanted to see over the house before making a decision.",
+      "answerZh": "雖然相片看起來不錯,但我們作決定前仍想親自查看房子。",
+      "highlight": "see over",
+      "targetForm": "see over something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Once the host had walked the final guest to the door, the staff began cleaning the room.",
+      "promptZh": "主人把最後一名客人送到門口後,職員便開始清潔房間。",
+      "starter": "Once",
+      "answer": "Once the host had seen the final guest out, the staff began cleaning the room.",
+      "answerZh": "主人把最後一名客人送到門口後,職員便開始清潔房間。",
+      "highlight": "seen",
+      "targetForm": "see somebody out",
+      "targetMeaningZh": "把某人送到門口"
+    },
+    {
+      "id": "phrasal-verb-216-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before the guests arrive, someone needs to arrange the chairs and tables.",
+      "promptZh": "客人到達前,需要有人處理椅子和桌子的安排。",
+      "starter": "Before",
+      "answer": "Before the guests arrive, someone needs to see to the chairs and tables.",
+      "answerZh": "客人到達前,需要有人處理椅子和桌子的安排。",
+      "highlight": "see to",
+      "targetForm": "see to something",
+      "targetMeaningZh": "處理某事"
+    },
+    {
+      "id": "phrasal-verb-216-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the train left before sunrise, all of Jay’s friends came to say goodbye before he left.",
+      "promptZh": "雖然火車在日出前開出,傑伊所有朋友仍前來為他送行。",
+      "starter": "Although",
+      "answer": "Although the train left before sunrise, all of Jay’s friends came to see him off.",
+      "answerZh": "雖然火車在日出前開出,傑伊所有朋友仍前來為他送行。",
+      "highlight": "see him off",
+      "targetForm": "see somebody off",
+      "targetMeaningZh": "為某人送行"
+    },
+    {
+      "id": "phrasal-verb-216-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The crack was so small that no one noticed the water slowly escaping at first.",
+      "promptZh": "裂縫非常小,起初沒有人留意到水正慢慢滲走。",
+      "starter": "The",
+      "answer": "The crack was so small that no one noticed the water seeping away at first.",
+      "answerZh": "裂縫非常小,起初沒有人留意到水正慢慢滲走。",
+      "highlight": "seeping away",
+      "targetForm": "seep away",
+      "targetMeaningZh": "液體慢慢滲走"
+    },
+    {
+      "id": "phrasal-verb-216-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "No one left until Daniel had accompanied the older man safely into his home.",
+      "promptZh": "丹尼爾安全陪那名年長男子進入家中後,大家才離開。",
+      "starter": "No",
+      "answer": "No one left until Daniel had seen the older man safely into his home.",
+      "answerZh": "丹尼爾安全陪那名年長男子進入家中後,大家才離開。",
+      "highlight": "seen",
+      "targetForm": "see somebody into something",
+      "targetMeaningZh": "陪某人進入某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "What gave Priya the confidence to continue such a difficult task until it was finished?",
+      "promptZh": "甚麼令普里雅有信心堅持完成這項困難的任務?",
+      "starter": "What",
+      "answer": "What gave Priya the confidence to see such a difficult task through?",
+      "answerZh": "甚麼令普里雅有信心堅持完成這項困難的任務?",
+      "highlight": "see",
+      "targetForm": "see something through",
+      "targetMeaningZh": "堅持把某事完成"
+    },
+    {
+      "id": "phrasal-verb-216-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Even after losing the first game, the team recovered and defeated every later challenge.",
+      "promptZh": "即使輸掉第一場比賽,球隊仍重新振作,擊退其後每一次挑戰。",
+      "starter": "Even",
+      "answer": "Even after losing the first game, the team recovered and saw off every later challenge.",
+      "answerZh": "即使輸掉第一場比賽,球隊仍重新振作,擊退其後每一次挑戰。",
+      "highlight": "saw off",
+      "targetForm": "see something off",
+      "targetMeaningZh": "成功擊退挑戰"
+    },
+    {
+      "id": "phrasal-verb-216-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Having inspected both offices, the manager chose the smaller one.",
+      "promptZh": "經理查看過兩間辦公室後,選擇了較小的一間。",
+      "starter": "Having",
+      "answer": "Having seen round both offices, the manager chose the smaller one.",
+      "answerZh": "經理查看過兩間辦公室後,選擇了較小的一間。",
+      "highlight": "seen round",
+      "targetForm": "see round something",
+      "targetMeaningZh": "參觀並仔細查看某地方"
+    },
+    {
+      "id": "phrasal-verb-216-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "After the nurse had taken care of the children, their father called the doctor.",
+      "promptZh": "護士照料好孩子們後,他們的父親致電醫生。",
+      "starter": "After",
+      "answer": "After the nurse had seen to the children, their father called the doctor.",
+      "answerZh": "護士照料好孩子們後,他們的父親致電醫生。",
+      "highlight": "seen to",
+      "targetForm": "see to somebody",
+      "targetMeaningZh": "照料某人"
+    }
+  ]
+}

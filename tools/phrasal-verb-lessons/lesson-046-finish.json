@@ -1,0 +1,1752 @@
+{
+  "id": "phrasal-verb-46",
+  "order": 46,
+  "slug": "finish",
+  "version": "1",
+  "title": "FINISH 動詞片語",
+  "titleEn": "Finish",
+  "titleZh": "FINISH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 45 - FINISH.pdf",
+    "sourceNumber": 45,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FINISH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FINISH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FINISH",
+      "highlight": "FINISH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We finished off with tea and mints.",
+      "zh": "我們最後以茶和薄荷糖作結。",
+      "highlight": "finished off with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "One more goal finished the other team off.",
+      "zh": "再入一球便徹底擊敗了另一支球隊。",
+      "highlight": "finished the other team off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I finished off the last page before bed.",
+      "zh": "我在睡前完成了最後一頁。",
+      "highlight": "finished off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "最後以某事作結；徹底擊敗、摧毀或殺死某人或某事物；完成某事物的剩餘部分；把某件事情完成；最後到了某處、處於某種情況,或結果做了某事；與某人結束感情關係；用完某物;不再需要使用某物；使某人筋疲力盡或幾乎支持不住",
+    "en": "finish off with something / finish something off with something; finish somebody/something off; finish something off; finish something up; finish up / finish up doing something; finish with somebody; finish with something; finish somebody off",
+    "naturalZh": [
+      "最後以某事作結",
+      "徹底擊敗、摧毀或殺死某人或某事物",
+      "完成某事物的剩餘部分",
+      "把某件事情完成",
+      "最後到了某處、處於某種情況,或結果做了某事",
+      "與某人結束感情關係",
+      "用完某物;不再需要使用某物",
+      "使某人筋疲力盡或幾乎支持不住"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "finish off with something / finish something off with something",
+      "titleZh": "最後以某事作結",
+      "titleEn": "finish off with something / finish something off with something",
+      "descriptionZh": "最後以某事作結",
+      "descriptionEn": "We finished off with tea and mints.",
+      "examples": [
+        {
+          "en": "We finished off with tea and mints.",
+          "zh": "我們最後以茶和薄荷糖作結。",
+          "highlight": "finished off with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "finish somebody/something off",
+      "titleZh": "徹底擊敗、摧毀或殺死某人或某事物",
+      "titleEn": "finish somebody/something off",
+      "descriptionZh": "徹底擊敗、摧毀或殺死某人或某事物",
+      "descriptionEn": "One more goal finished the other team off.",
+      "examples": [
+        {
+          "en": "One more goal finished the other team off.",
+          "zh": "再入一球便徹底擊敗了另一支球隊。",
+          "highlight": "finished the other team off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "finish something off",
+      "titleZh": "完成某事物的剩餘部分",
+      "titleEn": "finish something off",
+      "descriptionZh": "完成某事物的剩餘部分",
+      "descriptionEn": "I finished off the last page before bed.",
+      "examples": [
+        {
+          "en": "I finished off the last page before bed.",
+          "zh": "我在睡前完成了最後一頁。",
+          "highlight": "finished off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "finish something up",
+      "titleZh": "把某件事情完成",
+      "titleEn": "finish something up",
+      "descriptionZh": "把某件事情完成",
+      "descriptionEn": "He stayed home to finish up his assignment.",
+      "examples": [
+        {
+          "en": "He stayed home to finish up his assignment.",
+          "zh": "他留在家中完成作業。",
+          "highlight": "finish up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "finish up / finish up doing something",
+      "titleZh": "最後到了某處、處於某種情況,或結果做了某事",
+      "titleEn": "finish up / finish up doing something",
+      "descriptionZh": "最後到了某處、處於某種情況,或結果做了某事",
+      "descriptionEn": "We took the wrong bus and finished up at the airport.",
+      "examples": [
+        {
+          "en": "We took the wrong bus and finished up at the airport.",
+          "zh": "我們搭錯了巴士,最後到了機場。",
+          "highlight": "finished up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "finish with somebody",
+      "titleZh": "與某人結束感情關係",
+      "titleEn": "finish with somebody",
+      "descriptionZh": "與某人結束感情關係",
+      "descriptionEn": "Ella has finished with Daniel.",
+      "examples": [
+        {
+          "en": "Ella has finished with Daniel.",
+          "zh": "Ella 已經與 Daniel 結束關係。",
+          "highlight": "finished with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "finish with something",
+      "titleZh": "用完某物;不再需要使用某物",
+      "titleEn": "finish with something",
+      "descriptionZh": "用完某物;不再需要使用某物",
+      "descriptionEn": "Please return the pen when you have finished with it.",
+      "examples": [
+        {
+          "en": "Please return the pen when you have finished with it.",
+          "zh": "用完這支筆後,請把它交還。",
+          "highlight": "finished with"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "finish somebody off",
+      "titleZh": "使某人筋疲力盡或幾乎支持不住",
+      "titleEn": "finish somebody off",
+      "descriptionZh": "使某人筋疲力盡或幾乎支持不住",
+      "descriptionEn": "The long walk nearly finished me off.",
+      "examples": [
+        {
+          "en": "The long walk nearly finished me off.",
+          "zh": "長途步行幾乎令我累得無法繼續。",
+          "highlight": "finished me off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FINISH 片語動詞的實際用途",
+    "labelEn": "FINISH Phrasal Verbs in Use",
+    "summaryZh": "finish something off 可以表示完成最後剩餘的部分;finish something up 則可以表示把整項工作完成。；finish off with something 可以指出最後的食物、飲品或活動。；finish up 可以表示某人最後到了哪裏,或結果做了甚麼事情。；finish somebody or something off 可以表示徹底擊敗或摧毀,也可以表示令人筋疲力盡。；finish with somebody 可以表示結束感情關係;finish with something 則可以表示已用完或不再需要某物。",
+    "summaryEn": "Finish something off can describe completing the last remaining part, while finish something up can describe completing the whole task. Finish off with something lets you name the final food, drink or activity. Finish up can show where someone finally goes or what someone eventually does. Finish somebody or something off can describe complete defeat or destruction. It can also describe extreme tiredness. Finish with somebody can describe ending a relationship, while finish with something can show that you no longer need it.",
+    "contextsZh": [
+      "清楚談論工作的最後階段",
+      "說明一頓飯、課堂或活動如何結束",
+      "描述意料之外的最後結果",
+      "理解故事、運動和日常生活中的強烈意思",
+      "談論感情關係和已用完的物件"
+    ],
+    "contextsEn": [
+      "Talk clearly about the final part of a task",
+      "Explain how a meal, lesson or event ends",
+      "Describe an unexpected final result",
+      "Understand strong meanings in stories, sports and daily life",
+      "Talk about relationships and things you have used"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FINISH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FINISH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "finish off with something / finish something off with something",
+    "fixedHighlight": "finish off with something / finish something off with something",
+    "fixedZh": "閱讀整句,選出意思相同的 FINISH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FINISH expression that gives the same meaning.",
+    "correct": "finished off with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FINISH ... OFF 或 FINISH ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。；finish with somebody 表示與某人結束關係;finish with something 則表示已用完某物或不再需要使用它。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in a FINISH... OFF or FINISH... UP expression, place the word as shown: finish it off finish him off finish it up Finish with somebody and finish with something have different meanings: finish with somebody = end a relationship finish with something = no longer need to use it",
+    "variableItemsZh": [
+      "finish off with something / finish something off with something",
+      "finish somebody/something off",
+      "finish something off",
+      "finish something up",
+      "finish up / finish up doing something",
+      "finish with somebody",
+      "finish with something",
+      "finish somebody off"
+    ],
+    "variableItemsEn": [
+      "finish off with something / finish something off with something",
+      "finish somebody/something off",
+      "finish something off",
+      "finish something up",
+      "finish up / finish up doing something",
+      "finish with somebody",
+      "finish with something",
+      "finish somebody off"
+    ],
+    "forms": [
+      {
+        "formZh": "最後以某事作結",
+        "formEn": "finish off with something / finish something off with something",
+        "exampleZh": "我們最後以茶和薄荷糖作結。",
+        "exampleEn": "We finished off with tea and mints.",
+        "highlight": "finished off with"
+      },
+      {
+        "formZh": "徹底擊敗、摧毀或殺死某人或某事物",
+        "formEn": "finish somebody/something off",
+        "exampleZh": "再入一球便徹底擊敗了另一支球隊。",
+        "exampleEn": "One more goal finished the other team off.",
+        "highlight": "finished the other team off"
+      },
+      {
+        "formZh": "完成某事物的剩餘部分",
+        "formEn": "finish something off",
+        "exampleZh": "我在睡前完成了最後一頁。",
+        "exampleEn": "I finished off the last page before bed.",
+        "highlight": "finished off"
+      },
+      {
+        "formZh": "把某件事情完成",
+        "formEn": "finish something up",
+        "exampleZh": "他留在家中完成作業。",
+        "exampleEn": "He stayed home to finish up his assignment.",
+        "highlight": "finish up"
+      },
+      {
+        "formZh": "最後到了某處、處於某種情況,或結果做了某事",
+        "formEn": "finish up / finish up doing something",
+        "exampleZh": "我們搭錯了巴士,最後到了機場。",
+        "exampleEn": "We took the wrong bus and finished up at the airport.",
+        "highlight": "finished up"
+      },
+      {
+        "formZh": "與某人結束感情關係",
+        "formEn": "finish with somebody",
+        "exampleZh": "Ella 已經與 Daniel 結束關係。",
+        "exampleEn": "Ella has finished with Daniel.",
+        "highlight": "finished with"
+      },
+      {
+        "formZh": "用完某物;不再需要使用某物",
+        "formEn": "finish with something",
+        "exampleZh": "用完這支筆後,請把它交還。",
+        "exampleEn": "Please return the pen when you have finished with it.",
+        "highlight": "finished with"
+      },
+      {
+        "formZh": "使某人筋疲力盡或幾乎支持不住",
+        "formEn": "finish somebody off",
+        "exampleZh": "長途步行幾乎令我累得無法繼續。",
+        "exampleEn": "The long walk nearly finished me off.",
+        "highlight": "finished me off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "最後以某事作結",
+      "titleEn": "finish off with something / finish something off with something",
+      "formula": "finish off with something / finish something off with something",
+      "highlight": "finish off with something / finish something off with something",
+      "descriptionZh": "最後以某事作結",
+      "descriptionEn": "We finished off with tea and mints.",
+      "examples": [
+        {
+          "en": "We finished off with tea and mints.",
+          "zh": "我們最後以茶和薄荷糖作結。",
+          "highlight": "finished off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "徹底擊敗、摧毀或殺死某人或某事物",
+      "titleEn": "finish somebody/something off",
+      "formula": "finish somebody/something off",
+      "highlight": "finish somebody/something off",
+      "descriptionZh": "徹底擊敗、摧毀或殺死某人或某事物",
+      "descriptionEn": "One more goal finished the other team off.",
+      "examples": [
+        {
+          "en": "One more goal finished the other team off.",
+          "zh": "再入一球便徹底擊敗了另一支球隊。",
+          "highlight": "finished the other team off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "完成某事物的剩餘部分",
+      "titleEn": "finish something off",
+      "formula": "finish something off",
+      "highlight": "finish something off",
+      "descriptionZh": "完成某事物的剩餘部分",
+      "descriptionEn": "I finished off the last page before bed.",
+      "examples": [
+        {
+          "en": "I finished off the last page before bed.",
+          "zh": "我在睡前完成了最後一頁。",
+          "highlight": "finished off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某件事情完成",
+      "titleEn": "finish something up",
+      "formula": "finish something up",
+      "highlight": "finish something up",
+      "descriptionZh": "把某件事情完成",
+      "descriptionEn": "He stayed home to finish up his assignment.",
+      "examples": [
+        {
+          "en": "He stayed home to finish up his assignment.",
+          "zh": "他留在家中完成作業。",
+          "highlight": "finish up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "最後到了某處、處於某種情況,或結果做了某事",
+      "titleEn": "finish up / finish up doing something",
+      "formula": "finish up / finish up doing something",
+      "highlight": "finish up / finish up doing something",
+      "descriptionZh": "最後到了某處、處於某種情況,或結果做了某事",
+      "descriptionEn": "We took the wrong bus and finished up at the airport.",
+      "examples": [
+        {
+          "en": "We took the wrong bus and finished up at the airport.",
+          "zh": "我們搭錯了巴士,最後到了機場。",
+          "highlight": "finished up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "與某人結束感情關係",
+      "titleEn": "finish with somebody",
+      "formula": "finish with somebody",
+      "highlight": "finish with somebody",
+      "descriptionZh": "與某人結束感情關係",
+      "descriptionEn": "Ella has finished with Daniel.",
+      "examples": [
+        {
+          "en": "Ella has finished with Daniel.",
+          "zh": "Ella 已經與 Daniel 結束關係。",
+          "highlight": "finished with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用完某物;不再需要使用某物",
+      "titleEn": "finish with something",
+      "formula": "finish with something",
+      "highlight": "finish with something",
+      "descriptionZh": "用完某物;不再需要使用某物",
+      "descriptionEn": "Please return the pen when you have finished with it.",
+      "examples": [
+        {
+          "en": "Please return the pen when you have finished with it.",
+          "zh": "用完這支筆後,請把它交還。",
+          "highlight": "finished with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "使某人筋疲力盡或幾乎支持不住",
+      "titleEn": "finish somebody off",
+      "formula": "finish somebody off",
+      "highlight": "finish somebody off",
+      "descriptionZh": "使某人筋疲力盡或幾乎支持不住",
+      "descriptionEn": "The long walk nearly finished me off.",
+      "examples": [
+        {
+          "en": "The long walk nearly finished me off.",
+          "zh": "長途步行幾乎令我累得無法繼續。",
+          "highlight": "finished me off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論工作的最後階段",
+      "titleEn": "Talk clearly about the final part of a task",
+      "zh": "finish something off 可以表示完成最後剩餘的部分;finish something up 則可以表示把整項工作完成。",
+      "en": "Finish something off can describe completing the last remaining part, while finish something up can describe completing the whole task."
+    },
+    {
+      "titleZh": "說明一頓飯、課堂或活動如何結束",
+      "titleEn": "Explain how a meal, lesson or event ends",
+      "zh": "finish off with something 可以指出最後的食物、飲品或活動。",
+      "en": "Finish off with something lets you name the final food, drink or activity."
+    },
+    {
+      "titleZh": "描述意料之外的最後結果",
+      "titleEn": "Describe an unexpected final result",
+      "zh": "finish up 可以表示某人最後到了哪裏,或結果做了甚麼事情。",
+      "en": "Finish up can show where someone finally goes or what someone eventually does."
+    },
+    {
+      "titleZh": "理解故事、運動和日常生活中的強烈意思",
+      "titleEn": "Understand strong meanings in stories, sports and daily life",
+      "zh": "finish somebody or something off 可以表示徹底擊敗或摧毀,也可以表示令人筋疲力盡。",
+      "en": "Finish somebody or something off can describe complete defeat or destruction. It can also describe extreme tiredness."
+    },
+    {
+      "titleZh": "談論感情關係和已用完的物件",
+      "titleEn": "Talk about relationships and things you have used",
+      "zh": "finish with somebody 可以表示結束感情關係;finish with something 則可以表示已用完或不再需要某物。",
+      "en": "Finish with somebody can describe ending a relationship, while finish with something can show that you no longer need it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論工作的最後階段",
+      "說明一頓飯、課堂或活動如何結束",
+      "描述意料之外的最後結果",
+      "理解故事、運動和日常生活中的強烈意思",
+      "談論感情關係和已用完的物件"
+    ],
+    "contextsEn": [
+      "Talk clearly about the final part of a task",
+      "Explain how a meal, lesson or event ends",
+      "Describe an unexpected final result",
+      "Understand strong meanings in stories, sports and daily life",
+      "Talk about relationships and things you have used"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論工作的最後階段",
+        "titleEn": "Talk clearly about the final part of a task",
+        "zh": "finish something off 可以表示完成最後剩餘的部分;finish something up 則可以表示把整項工作完成。",
+        "en": "Finish something off can describe completing the last remaining part, while finish something up can describe completing the whole task.",
+        "examples": [
+          {
+            "en": "We finished off with tea and mints.",
+            "zh": "我們最後以茶和薄荷糖作結。",
+            "highlight": "finished off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明一頓飯、課堂或活動如何結束",
+        "titleEn": "Explain how a meal, lesson or event ends",
+        "zh": "finish off with something 可以指出最後的食物、飲品或活動。",
+        "en": "Finish off with something lets you name the final food, drink or activity.",
+        "examples": [
+          {
+            "en": "One more goal finished the other team off.",
+            "zh": "再入一球便徹底擊敗了另一支球隊。",
+            "highlight": "finished the other team off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述意料之外的最後結果",
+        "titleEn": "Describe an unexpected final result",
+        "zh": "finish up 可以表示某人最後到了哪裏,或結果做了甚麼事情。",
+        "en": "Finish up can show where someone finally goes or what someone eventually does.",
+        "examples": [
+          {
+            "en": "I finished off the last page before bed.",
+            "zh": "我在睡前完成了最後一頁。",
+            "highlight": "finished off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解故事、運動和日常生活中的強烈意思",
+        "titleEn": "Understand strong meanings in stories, sports and daily life",
+        "zh": "finish somebody or something off 可以表示徹底擊敗或摧毀,也可以表示令人筋疲力盡。",
+        "en": "Finish somebody or something off can describe complete defeat or destruction. It can also describe extreme tiredness.",
+        "examples": [
+          {
+            "en": "He stayed home to finish up his assignment.",
+            "zh": "他留在家中完成作業。",
+            "highlight": "finish up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論感情關係和已用完的物件",
+        "titleEn": "Talk about relationships and things you have used",
+        "zh": "finish with somebody 可以表示結束感情關係;finish with something 則可以表示已用完或不再需要某物。",
+        "en": "Finish with somebody can describe ending a relationship, while finish with something can show that you no longer need it.",
+        "examples": [
+          {
+            "en": "We took the wrong bus and finished up at the airport.",
+            "zh": "我們搭錯了巴士,最後到了機場。",
+            "highlight": "finished up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FINISH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FINISH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FINISH 片語動詞。",
+      "en": "Read the whole sentence and choose the FINISH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FINISH ... OFF 或 FINISH ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。",
+      "titleEn": "When using him, her, it or them in a FINISH.",
+      "zh": "在 FINISH ... OFF 或 FINISH ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。",
+      "en": "When using him, her, it or them in a FINISH... OFF or FINISH... UP expression, place the word as shown: finish it off finish him off finish it up"
+    },
+    {
+      "titleZh": "finish with somebody 表示與某人結束關係;finish with something 則表示已用完某物或不再需要使用它。",
+      "titleEn": "Finish with somebody and finish with something have different meanings: finish with somebody = end a relationship finish with something = no longer need to use it.",
+      "zh": "finish with somebody 表示與某人結束關係;finish with something 則表示已用完某物或不再需要使用它。",
+      "en": "Finish with somebody and finish with something have different meanings: finish with somebody = end a relationship finish with something = no longer need to use it"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FINISH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FINISH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FINISH 動詞片語句子改寫練習",
+    "titleEn": "FINISH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FINISH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FINISH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-46-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "We took the wrong bus and eventually arrived at the airport.",
+      "promptZh": "我們搭錯了巴士,最後到達機場。",
+      "starter": "We",
+      "answer": "We took the wrong bus and finished up at the airport.",
+      "answerZh": "我們搭錯了巴士,最後到達機場。",
+      "highlight": "finished up",
+      "targetForm": "finish up",
+      "targetMeaningZh": "最後到了某處或處於某種情況"
+    },
+    {
+      "id": "phrasal-verb-46-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "I completed the last page before dinner.",
+      "promptZh": "我在晚飯前完成了最後一頁。",
+      "starter": "I",
+      "answer": "I finished off the last page before dinner.",
+      "answerZh": "我在晚飯前完成了最後一頁。",
+      "highlight": "finished off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please return the scissors when you no longer need to use them.",
+      "promptZh": "用完剪刀後,請把它們交還。",
+      "starter": "Please",
+      "answer": "Please return the scissors when you have finished with them.",
+      "answerZh": "用完剪刀後,請把它們交還。",
+      "highlight": "have finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After the meal, we ended by having tea.",
+      "promptZh": "用膳後,我們最後喝茶作結。",
+      "starter": "After",
+      "answer": "After the meal, we finished off with tea.",
+      "answerZh": "用膳後,我們最後喝茶作結。",
+      "highlight": "finished off with",
+      "targetForm": "finish off with something",
+      "targetMeaningZh": "最後以某事作結"
+    },
+    {
+      "id": "phrasal-verb-46-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The long climb nearly left us too tired to continue.",
+      "promptZh": "長途攀登幾乎令我們累得無法繼續。",
+      "starter": "The",
+      "answer": "The long climb nearly finished us off.",
+      "answerZh": "長途攀登幾乎令我們累得無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Noah stayed home to complete his project.",
+      "promptZh": "Noah 留在家中完成他的專題作業。",
+      "starter": "Noah",
+      "answer": "Noah stayed home to finish up his project.",
+      "answerZh": "Noah 留在家中完成他的專題作業。",
+      "highlight": "finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The final goal completely defeated the visiting team.",
+      "promptZh": "最後一球徹底擊敗了作客隊伍。",
+      "starter": "The",
+      "answer": "The final goal finished the visiting team off.",
+      "answerZh": "最後一球徹底擊敗了作客隊伍。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-46-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Grace has ended her relationship with Oliver.",
+      "promptZh": "Grace 已經與 Oliver 結束關係。",
+      "starter": "Grace",
+      "answer": "Grace has finished with Oliver.",
+      "answerZh": "Grace 已經與 Oliver 結束關係。",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We ended the evening with a song.",
+      "promptZh": "我們以一首歌為晚會作結。",
+      "starter": "We",
+      "answer": "We finished the evening off with a song.",
+      "answerZh": "我們以一首歌為晚會作結。",
+      "highlight": "finished",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某事物為活動作結"
+    },
+    {
+      "id": "phrasal-verb-46-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The ball rolled down the hill and finally landed in the pond.",
+      "promptZh": "球滾下山坡,最後落入池塘。",
+      "starter": "The",
+      "answer": "The ball rolled down the hill and finished up in the pond.",
+      "answerZh": "球滾下山坡,最後落入池塘。",
+      "highlight": "finished up",
+      "targetForm": "finish up",
+      "targetMeaningZh": "最後到了某處"
+    },
+    {
+      "id": "phrasal-verb-46-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Harper ate the rest of the cake.",
+      "promptZh": "Harper 吃完了餘下的蛋糕。",
+      "starter": "Harper",
+      "answer": "Harper finished off the rest of the cake.",
+      "answerZh": "Harper 吃完了餘下的蛋糕。",
+      "highlight": "finished off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成或吃完剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Have you stopped using the computer?",
+      "promptZh": "你用完電腦了嗎?",
+      "starter": "Are",
+      "answer": "Are you finished with the computer?",
+      "answerZh": "你用完電腦了嗎?",
+      "highlight": "Are",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Let us complete this job before lunch.",
+      "promptZh": "我們午飯前把這項工作完成吧。",
+      "starter": "Let’s",
+      "answer": "Let’s finish up this job before lunch.",
+      "answerZh": "我們午飯前把這項工作完成吧。",
+      "highlight": "Let’s finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "That heavy meal left me completely exhausted.",
+      "promptZh": "那頓豐富的飯令我累得完全沒有力氣。",
+      "starter": "That",
+      "answer": "That heavy meal finished me off.",
+      "answerZh": "那頓豐富的飯令我累得完全沒有力氣。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The guests are ending the meal by having coffee now.",
+      "promptZh": "客人現在正以咖啡為這頓飯作結。",
+      "starter": "The",
+      "answer": "The guests are finishing off with coffee now.",
+      "answerZh": "客人現在正以咖啡為這頓飯作結。",
+      "highlight": "finishing off with",
+      "targetForm": "finish off with something",
+      "targetMeaningZh": "最後以某事作結"
+    },
+    {
+      "id": "phrasal-verb-46-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "One more hit will destroy the old machine completely.",
+      "promptZh": "再撞一下便會徹底毀掉那部舊機器。",
+      "starter": "One",
+      "answer": "One more hit will finish the old machine off.",
+      "answerZh": "再撞一下便會徹底毀掉那部舊機器。",
+      "highlight": "finish",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "You may eventually find yourself waiting for hours if you arrive without a booking.",
+      "promptZh": "如果你沒有預約便到達,你最後可能要等上幾小時。",
+      "starter": "You",
+      "answer": "You may finish up waiting for hours if you arrive without a booking.",
+      "answerZh": "如果你沒有預約便到達,你最後可能要等上幾小時。",
+      "highlight": "finish up",
+      "targetForm": "finish up doing something",
+      "targetMeaningZh": "結果做了某事"
+    },
+    {
+      "id": "phrasal-verb-46-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She has completed the last two questions.",
+      "promptZh": "她已完成最後兩條問題。",
+      "starter": "She",
+      "answer": "She has finished off the last two questions.",
+      "answerZh": "她已完成最後兩條問題。",
+      "highlight": "finished off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Has Daniel ended his relationship with Sophie?",
+      "promptZh": "Daniel 已經與 Sophie 結束關係了嗎?",
+      "starter": "Has",
+      "answer": "Has Daniel finished with Sophie?",
+      "answerZh": "Daniel 已經與 Sophie 結束關係了嗎?",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "We are completing the report this afternoon.",
+      "promptZh": "我們今天下午會把報告完成。",
+      "starter": "We",
+      "answer": "We are finishing up the report this afternoon.",
+      "answerZh": "我們今天下午會把報告完成。",
+      "highlight": "finishing up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The heat is making the runners too tired to continue.",
+      "promptZh": "炎熱天氣正令跑手累得無法繼續。",
+      "starter": "The",
+      "answer": "The heat is finishing the runners off.",
+      "answerZh": "炎熱天氣正令跑手累得無法繼續。",
+      "highlight": "finishing",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I still need to use this book.",
+      "promptZh": "我還未用完這本書。",
+      "starter": "I",
+      "answer": "I have not finished with this book yet.",
+      "answerZh": "我還未用完這本書。",
+      "highlight": "have not finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "尚未用完某物"
+    },
+    {
+      "id": "phrasal-verb-46-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The storm had already destroyed the old fence completely.",
+      "promptZh": "暴風雨早已徹底摧毀那道舊圍欄。",
+      "starter": "The",
+      "answer": "The storm had already finished the old fence off.",
+      "answerZh": "暴風雨早已徹底摧毀那道舊圍欄。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Will you end the party with a game?",
+      "promptZh": "你會以一個遊戲為派對作結嗎?",
+      "starter": "Will",
+      "answer": "Will you finish the party off with a game?",
+      "answerZh": "你會以一個遊戲為派對作結嗎?",
+      "highlight": "finish",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某事物為活動作結"
+    },
+    {
+      "id": "phrasal-verb-46-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "After wandering all day, the missing cat finally returned home.",
+      "promptZh": "那隻失蹤的貓四處走了一整天後,最後回到家中。",
+      "starter": "After",
+      "answer": "After wandering all day, the missing cat finished up back at home.",
+      "answerZh": "那隻失蹤的貓四處走了一整天後,最後回到家中。",
+      "highlight": "finished up back at",
+      "targetForm": "finish up",
+      "targetMeaningZh": "最後到了某處"
+    },
+    {
+      "id": "phrasal-verb-46-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Have you completed your homework?",
+      "promptZh": "你完成家課了嗎?",
+      "starter": "Have",
+      "answer": "Have you finished up your homework?",
+      "answerZh": "你完成家課了嗎?",
+      "highlight": "finished up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Ben is completing the last few emails now.",
+      "promptZh": "Ben 現在正完成最後幾封電郵。",
+      "starter": "Ben",
+      "answer": "Ben is finishing off the last few emails now.",
+      "answerZh": "Ben 現在正完成最後幾封電郵。",
+      "highlight": "finishing off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They will end their relationship if the arguments continue.",
+      "promptZh": "如果爭吵持續,他們便會結束關係。",
+      "starter": "They",
+      "answer": "They will finish with each other if the arguments continue.",
+      "answerZh": "如果爭吵持續,他們便會結束關係。",
+      "highlight": "finish with each other",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "I no longer need the printer, so you can use it now.",
+      "promptZh": "我已用完打印機,所以你現在可以使用。",
+      "starter": "I",
+      "answer": "I have finished with the printer, so you can use it now.",
+      "answerZh": "我已用完打印機,所以你現在可以使用。",
+      "highlight": "have finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We missed the turning and eventually drove through the town centre.",
+      "promptZh": "我們錯過了轉彎位,最後駛經市中心。",
+      "starter": "We",
+      "answer": "We missed the turning and finished up driving through the town centre.",
+      "answerZh": "我們錯過了轉彎位,最後駛經市中心。",
+      "highlight": "finished up driving",
+      "targetForm": "finish up doing something",
+      "targetMeaningZh": "結果做了某事"
+    },
+    {
+      "id": "phrasal-verb-46-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The computer was already weak, and the power cut destroyed it completely.",
+      "promptZh": "那部電腦本來已很不穩定,而停電令它徹底壞掉。",
+      "starter": "The",
+      "answer": "The computer was already weak, and the power cut finished it off.",
+      "answerZh": "那部電腦本來已很不穩定,而停電令它徹底壞掉。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Please complete the whole form before the lesson ends.",
+      "promptZh": "請在課堂結束前把整份表格完成。",
+      "starter": "Please",
+      "answer": "Please finish up the whole form before the lesson ends.",
+      "answerZh": "請在課堂結束前把整份表格完成。",
+      "highlight": "finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We ended the school day with a short quiz.",
+      "promptZh": "我們以一個小測驗為上課日作結。",
+      "starter": "We",
+      "answer": "We finished the school day off with a short quiz.",
+      "answerZh": "我們以一個小測驗為上課日作結。",
+      "highlight": "finished",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某事物為活動作結"
+    },
+    {
+      "id": "phrasal-verb-46-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The run was only five kilometres, but it nearly left him unable to continue.",
+      "promptZh": "那段路只有五公里,但幾乎令他累得無法繼續。",
+      "starter": "The",
+      "answer": "The run was only five kilometres, but it nearly finished him off.",
+      "answerZh": "那段路只有五公里,但幾乎令他累得無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After another serious argument, Isla ended her relationship with Marcus.",
+      "promptZh": "又一次嚴重爭吵後,Isla 與 Marcus 結束了關係。",
+      "starter": "After",
+      "answer": "After another serious argument, Isla finished with Marcus.",
+      "answerZh": "又一次嚴重爭吵後,Isla 與 Marcus 結束了關係。",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I only had one paragraph left, so I completed it before bed.",
+      "promptZh": "我只剩一段未寫,所以睡前把它完成了。",
+      "starter": "I",
+      "answer": "I only had one paragraph left, so I finished it off before bed.",
+      "answerZh": "我只剩一段未寫,所以睡前把它完成了。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "When you no longer need the map, give it to Priya.",
+      "promptZh": "用完地圖後,請把它交給 Priya。",
+      "starter": "When",
+      "answer": "When you have finished with the map, give it to Priya.",
+      "answerZh": "用完地圖後,請把它交給 Priya。",
+      "highlight": "have finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The team stayed late because it wanted to complete the job.",
+      "promptZh": "球隊留下來至很晚,因為想把工作完成。",
+      "starter": "The",
+      "answer": "The team stayed late because it wanted to finish up the job.",
+      "answerZh": "球隊留下來至很晚,因為想把工作完成。",
+      "highlight": "finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The final round completely defeated them, and they lost the match.",
+      "promptZh": "最後一局徹底擊敗了他們,因此他們輸掉比賽。",
+      "starter": "The",
+      "answer": "The final round finished them off, and they lost the match.",
+      "answerZh": "最後一局徹底擊敗了他們,因此他們輸掉比賽。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "徹底擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-46-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "He wanted a quiet evening but eventually helped at the school event.",
+      "promptZh": "他原本想安靜地度過晚上,最後卻在學校活動幫忙。",
+      "starter": "He",
+      "answer": "He wanted a quiet evening but finished up helping at the school event.",
+      "answerZh": "他原本想安靜地度過晚上,最後卻在學校活動幫忙。",
+      "highlight": "finished up helping",
+      "targetForm": "finish up doing something",
+      "targetMeaningZh": "結果做了某事"
+    },
+    {
+      "id": "phrasal-verb-46-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The children enjoyed the walk, but the steep hill made them completely exhausted.",
+      "promptZh": "孩子們很享受這次步行,但陡峭山坡令他們筋疲力盡。",
+      "starter": "The",
+      "answer": "The children enjoyed the walk, but the steep hill finished them off.",
+      "answerZh": "孩子們很享受這次步行,但陡峭山坡令他們筋疲力盡。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Could you complete the last two forms before you leave?",
+      "promptZh": "你離開前可以完成最後兩份表格嗎?",
+      "starter": "Could",
+      "answer": "Could you finish the last two forms off before you leave?",
+      "answerZh": "你離開前可以完成最後兩份表格嗎?",
+      "highlight": "finish",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Ethan says he has ended his relationship with Ava, but she has not told her friends yet.",
+      "promptZh": "Ethan 說他已經與 Ava 結束關係,但她仍未告訴朋友。",
+      "starter": "Ethan",
+      "answer": "Ethan says he has finished with Ava, but she has not told her friends yet.",
+      "answerZh": "Ethan 說他已經與 Ava 結束關係,但她仍未告訴朋友。",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "To end the class on a cheerful note, the teacher ended by singing a song.",
+      "promptZh": "為了以輕鬆愉快的方式結束課堂,老師最後唱了一首歌。",
+      "starter": "To",
+      "answer": "To end the class on a cheerful note, the teacher finished off with a song.",
+      "answerZh": "為了以輕鬆愉快的方式結束課堂,老師最後唱了一首歌。",
+      "highlight": "finished off with",
+      "targetForm": "finish off with something",
+      "targetMeaningZh": "最後以某事作結"
+    },
+    {
+      "id": "phrasal-verb-46-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Before you leave the art room, complete the work you started.",
+      "promptZh": "離開美術室前,請完成你已開始的作品。",
+      "starter": "Before",
+      "answer": "Before you leave the art room, finish up the work you started.",
+      "answerZh": "離開美術室前,請完成你已開始的作品。",
+      "highlight": "finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The cold wind did not stop us, but the rain almost left us too tired to continue.",
+      "promptZh": "寒風沒有令我們停下來,但雨水幾乎令我們累得無法繼續。",
+      "starter": "The",
+      "answer": "The cold wind did not stop us, but the rain almost finished us off.",
+      "answerZh": "寒風沒有令我們停下來,但雨水幾乎令我們累得無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "They planned to stay for an hour but eventually spent the whole afternoon there.",
+      "promptZh": "他們原本打算逗留一小時,最後卻在那裏度過了整個下午。",
+      "starter": "They",
+      "answer": "They planned to stay for an hour but finished up spending the whole afternoon there.",
+      "answerZh": "他們原本打算逗留一小時,最後卻在那裏度過了整個下午。",
+      "highlight": "finished up spending",
+      "targetForm": "finish up doing something",
+      "targetMeaningZh": "結果做了某事"
+    },
+    {
+      "id": "phrasal-verb-46-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The second fire destroyed the empty building completely.",
+      "promptZh": "第二場火災徹底摧毀了那座空置建築物。",
+      "starter": "The",
+      "answer": "The second fire finished the empty building off.",
+      "answerZh": "第二場火災徹底摧毀了那座空置建築物。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Do not put the notes in the bin; I still need to use them.",
+      "promptZh": "不要把筆記放入垃圾桶;我仍然需要使用它們。",
+      "starter": "Do",
+      "answer": "Do not put the notes in the bin; I have not finished with them.",
+      "answerZh": "不要把筆記放入垃圾桶;我仍然需要使用它們。",
+      "highlight": "have not finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "尚未用完某物"
+    },
+    {
+      "id": "phrasal-verb-46-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Only three plates were still dirty, so Omar washed the last three.",
+      "promptZh": "只剩三隻碟仍未洗乾淨,所以 Omar 把它們洗完。",
+      "starter": "Only",
+      "answer": "Only three plates were still dirty, so Omar finished them off.",
+      "answerZh": "只剩三隻碟仍未洗乾淨,所以 Omar 把它們洗完。",
+      "highlight": "finished them off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The cooks completed all the food orders before the café closed.",
+      "promptZh": "廚師在咖啡店關門前完成了所有食物訂單。",
+      "starter": "The",
+      "answer": "The cooks finished up the food orders before the café closed.",
+      "answerZh": "廚師在咖啡店關門前完成了所有食物訂單。",
+      "highlight": "finished up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The speaker ended her talk with one final question.",
+      "promptZh": "講者以最後一條問題結束演講。",
+      "starter": "The",
+      "answer": "The speaker finished her talk off with one final question.",
+      "answerZh": "講者以最後一條問題結束演講。",
+      "highlight": "finished",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某事物為活動作結"
+    },
+    {
+      "id": "phrasal-verb-46-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why did Ruby end her relationship with Leo after only two months?",
+      "promptZh": "為甚麼 Ruby 只過了兩個月便與 Leo 結束關係?",
+      "starter": "Why",
+      "answer": "Why did Ruby finish with Leo after only two months?",
+      "answerZh": "為甚麼 Ruby 只過了兩個月便與 Leo 結束關係?",
+      "highlight": "finish",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "By the last kilometre, the heat had nearly left the cyclist unable to continue.",
+      "promptZh": "到了最後一公里時,炎熱天氣幾乎令那名單車手無法繼續。",
+      "starter": "By",
+      "answer": "By the last kilometre, the heat had nearly finished the cyclist off.",
+      "answerZh": "到了最後一公里時,炎熱天氣幾乎令那名單車手無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The last strong wave destroyed the small boat completely.",
+      "promptZh": "最後一道強浪徹底摧毀了那艘小船。",
+      "starter": "The",
+      "answer": "The last strong wave finished the small boat off.",
+      "answerZh": "最後一道強浪徹底摧毀了那艘小船。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Does the nurse no longer need to use the thermometer?",
+      "promptZh": "護士已用完溫度計了嗎?",
+      "starter": "Has",
+      "answer": "Has the nurse finished with the thermometer?",
+      "answerZh": "護士已用完溫度計了嗎?",
+      "highlight": "Has",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The report was almost complete, so Zane stayed for ten minutes to complete the last part.",
+      "promptZh": "報告幾乎完成,所以 Zane 多留了十分鐘完成最後部分。",
+      "starter": "The",
+      "answer": "The report was almost complete, so Zane stayed for ten minutes to finish it off.",
+      "answerZh": "報告幾乎完成,所以 Zane 多留了十分鐘完成最後部分。",
+      "highlight": "finish it off",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although they still work in the same office, Chloe has ended her relationship with Aaron.",
+      "promptZh": "雖然他們仍在同一間辦公室工作,但 Chloe 已經與 Aaron 結束關係。",
+      "starter": "Although",
+      "answer": "Although they still work in the same office, Chloe has finished with Aaron.",
+      "answerZh": "雖然他們仍在同一間辦公室工作,但 Chloe 已經與 Aaron 結束關係。",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The family ended the long day by having hot chocolate beside the fire.",
+      "promptZh": "一家人以在火爐旁喝熱朱古力來結束漫長的一天。",
+      "starter": "The",
+      "answer": "The family finished the long day off with hot chocolate beside the fire.",
+      "answerZh": "一家人以在火爐旁喝熱朱古力來結束漫長的一天。",
+      "highlight": "finished",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某事物為一天或活動作結"
+    },
+    {
+      "id": "phrasal-verb-46-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "We followed the wrong path and finally arrived at a farm several kilometres away.",
+      "promptZh": "我們走錯了小路,最後到達數公里外的一個農場。",
+      "starter": "We",
+      "answer": "We followed the wrong path and finished up at a farm several kilometres away.",
+      "answerZh": "我們走錯了小路,最後到達數公里外的一個農場。",
+      "highlight": "finished up",
+      "targetForm": "finish up",
+      "targetMeaningZh": "最後到了某處"
+    },
+    {
+      "id": "phrasal-verb-46-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "When the photographer no longer needs to use the room, we can return the chairs to their places.",
+      "promptZh": "攝影師用完房間後,我們便可以把椅子放回原位。",
+      "starter": "When",
+      "answer": "When the photographer has finished with the room, we can return the chairs to their places.",
+      "answerZh": "攝影師用完房間後,我們便可以把椅子放回原位。",
+      "highlight": "has finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    },
+    {
+      "id": "phrasal-verb-46-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The first two games were easy, but the three-hour final nearly left the players unable to continue.",
+      "promptZh": "首兩場比賽很輕鬆,但三小時的決賽幾乎令球員無法繼續。",
+      "starter": "The",
+      "answer": "The first two games were easy, but the three-hour final nearly finished the players off.",
+      "answerZh": "首兩場比賽很輕鬆,但三小時的決賽幾乎令球員無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The class needs only five more minutes to complete its group project.",
+      "promptZh": "全班只需再用五分鐘便能完成小組專題作業。",
+      "starter": "The",
+      "answer": "The class needs only five more minutes to finish up its group project.",
+      "answerZh": "全班只需再用五分鐘便能完成小組專題作業。",
+      "highlight": "finish up",
+      "targetForm": "finish something up",
+      "targetMeaningZh": "把某件事情完成"
+    },
+    {
+      "id": "phrasal-verb-46-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The shop had survived one flood, but the second one destroyed it completely.",
+      "promptZh": "店舖捱過了第一次水災,但第二次水災徹底摧毀了它。",
+      "starter": "The",
+      "answer": "The shop had survived one flood, but the second one finished it off.",
+      "answerZh": "店舖捱過了第一次水災,但第二次水災徹底摧毀了它。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "徹底摧毀某事物"
+    },
+    {
+      "id": "phrasal-verb-46-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "She went to the library for one book but eventually studied there until closing time.",
+      "promptZh": "她原本只是到圖書館取一本書,最後卻留在那裏溫習至關門。",
+      "starter": "She",
+      "answer": "She went to the library for one book but finished up studying there until closing time.",
+      "answerZh": "她原本只是到圖書館取一本書,最後卻留在那裏溫習至關門。",
+      "highlight": "finished up studying",
+      "targetForm": "finish up doing something",
+      "targetMeaningZh": "結果做了某事"
+    },
+    {
+      "id": "phrasal-verb-46-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "With only one corner left to paint, Theo completed the wall before sunset.",
+      "promptZh": "只剩一個角落未油,Theo 在日落前完成了整幅牆。",
+      "starter": "With",
+      "answer": "With only one corner left to paint, Theo finished the wall off before sunset.",
+      "answerZh": "只剩一個角落未油,Theo 在日落前完成了整幅牆。",
+      "highlight": "finished",
+      "targetForm": "finish something off",
+      "targetMeaningZh": "完成某事物的剩餘部分"
+    },
+    {
+      "id": "phrasal-verb-46-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Nora knew the relationship was over, so she ended her relationship with Ben before the holiday.",
+      "promptZh": "Nora 知道這段關係已經結束,所以在假期前與 Ben 分手。",
+      "starter": "Nora",
+      "answer": "Nora knew the relationship was over, so she finished with Ben before the holiday.",
+      "answerZh": "Nora 知道這段關係已經結束,所以在假期前與 Ben 分手。",
+      "highlight": "finished",
+      "targetForm": "finish with somebody",
+      "targetMeaningZh": "與某人結束感情關係"
+    },
+    {
+      "id": "phrasal-verb-46-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The café ended the special meal by serving a small lemon cake.",
+      "promptZh": "咖啡店以一件小檸檬蛋糕為特色餐膳作結。",
+      "starter": "The",
+      "answer": "The café finished the special meal off with a small lemon cake.",
+      "answerZh": "咖啡店以一件小檸檬蛋糕為特色餐膳作結。",
+      "highlight": "finished",
+      "targetForm": "finish something off with something",
+      "targetMeaningZh": "以某種食物為一頓飯作結"
+    },
+    {
+      "id": "phrasal-verb-46-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Carrying the boxes upstairs in the heat almost left Dad too exhausted to continue.",
+      "promptZh": "在炎熱天氣下把箱子搬上樓,幾乎令爸爸累得無法繼續。",
+      "starter": "Carrying",
+      "answer": "Carrying the boxes upstairs in the heat almost finished Dad off.",
+      "answerZh": "在炎熱天氣下把箱子搬上樓,幾乎令爸爸累得無法繼續。",
+      "highlight": "finished",
+      "targetForm": "finish somebody off",
+      "targetMeaningZh": "使某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-46-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Once the science class no longer needs the bottles, another group can use them.",
+      "promptZh": "科學班用完那些瓶子後,另一組便可以使用它們。",
+      "starter": "Once",
+      "answer": "Once the science class has finished with the bottles, another group can use them.",
+      "answerZh": "科學班用完那些瓶子後,另一組便可以使用它們。",
+      "highlight": "has finished with",
+      "targetForm": "finish with something",
+      "targetMeaningZh": "用完某物;不再需要使用某物"
+    }
+  ]
+}

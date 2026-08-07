@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-73",
+  "order": 73,
+  "slug": "fight",
+  "version": "1",
+  "title": "FIGHT 動詞片語",
+  "titleEn": "Fight",
+  "titleZh": "FIGHT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 72 - FIGHT.pdf",
+    "sourceNumber": 72,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FIGHT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FIGHT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FIGHT",
+      "highlight": "FIGHT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The team fought back after a poor start.",
+      "zh": "球隊開局不利後奮力反擊。",
+      "highlight": "fought back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She fought back her tears during the speech.",
+      "zh": "她在演說期間強忍淚水。",
+      "highlight": "fought back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He fought down a sudden feeling of panic.",
+      "zh": "他努力壓下突然湧起的恐慌。",
+      "highlight": "fought down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面；強忍眼淚、笑意等,不讓它表露出來；努力壓下恐慌、怒氣、恐懼或衝動；透過爭論、競賽或鬥爭解決問題或決出勝負；擊退或抵抗某人或某事物",
+    "en": "fight back / fight back against somebody or something; fight back something / fight it back; fight down something / fight it down; fight out something / fight it out; fight somebody or something off",
+    "naturalZh": [
+      "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+      "強忍眼淚、笑意等,不讓它表露出來",
+      "努力壓下恐慌、怒氣、恐懼或衝動",
+      "透過爭論、競賽或鬥爭解決問題或決出勝負",
+      "擊退或抵抗某人或某事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fight back / fight back against somebody or something",
+      "titleZh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+      "titleEn": "fight back / fight back against somebody or something",
+      "descriptionZh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+      "descriptionEn": "The team fought back after a poor start.",
+      "examples": [
+        {
+          "en": "The team fought back after a poor start.",
+          "zh": "球隊開局不利後奮力反擊。",
+          "highlight": "fought back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fight back something / fight it back",
+      "titleZh": "強忍眼淚、笑意等,不讓它表露出來",
+      "titleEn": "fight back something / fight it back",
+      "descriptionZh": "強忍眼淚、笑意等,不讓它表露出來",
+      "descriptionEn": "She fought back her tears during the speech.",
+      "examples": [
+        {
+          "en": "She fought back her tears during the speech.",
+          "zh": "她在演說期間強忍淚水。",
+          "highlight": "fought back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fight down something / fight it down",
+      "titleZh": "努力壓下恐慌、怒氣、恐懼或衝動",
+      "titleEn": "fight down something / fight it down",
+      "descriptionZh": "努力壓下恐慌、怒氣、恐懼或衝動",
+      "descriptionEn": "He fought down a sudden feeling of panic.",
+      "examples": [
+        {
+          "en": "He fought down a sudden feeling of panic.",
+          "zh": "他努力壓下突然湧起的恐慌。",
+          "highlight": "fought down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fight out something / fight it out",
+      "titleZh": "透過爭論、競賽或鬥爭解決問題或決出勝負",
+      "titleEn": "fight out something / fight it out",
+      "descriptionZh": "透過爭論、競賽或鬥爭解決問題或決出勝負",
+      "descriptionEn": "The two teams will fight it out in the final.",
+      "examples": [
+        {
+          "en": "The two teams will fight it out in the final.",
+          "zh": "兩支球隊會在決賽中一決勝負。",
+          "highlight": "fight it out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fight somebody or something off",
+      "titleZh": "擊退或抵抗某人或某事物",
+      "titleEn": "fight somebody or something off",
+      "descriptionZh": "擊退或抵抗某人或某事物",
+      "descriptionEn": "She fought off a bad cold.",
+      "examples": [
+        {
+          "en": "She fought off a bad cold.",
+          "zh": "她抵抗住重感冒。",
+          "highlight": "fought off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FIGHT 片語動詞的實際用途",
+    "labelEn": "FIGHT Phrasal Verbs in Use",
+    "summaryZh": "fight back 可以描述反抗不公平的壓力、作出還擊,或在落後後重新振作。；fight back 和 fight down 可以用來談論強忍淚水、笑意,以及壓下怒氣、恐懼和衝動。；fight it out 可以描述兩個人或群體持續競爭或爭論,直至分出結果。；fight off 可以描述抵抗感冒、睡意、攻擊、昆蟲或其他不想遇到的問題。",
+    "summaryEn": "Fight back helps you describe resisting unfair pressure, replying to an attack or recovering after falling behind. Fight back and fight down help you talk about controlling tears, laughter, anger, fear and sudden urges. Fight it out can describe two people or groups competing or arguing until a result is reached. Fight off can describe resisting a cold, sleep, an attack, insects or another unwanted problem.",
+    "contextsZh": [
+      "談論反抗和扭轉局面",
+      "描述如何控制強烈情緒",
+      "說明如何決出勝負或解決爭端",
+      "談論抵抗疾病和其他威脅"
+    ],
+    "contextsEn": [
+      "Talk about resistance and recovery",
+      "Describe how people control strong feelings",
+      "Explain how a result is decided",
+      "Talk about resisting illness and other threats"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FIGHT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FIGHT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fight back / fight back against somebody or something",
+    "fixedHighlight": "fight back / fight back against somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 FIGHT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FIGHT expression that gives the same meaning.",
+    "correct": "fought back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子把它放在正確位置。；fight back 可以表示反抗某事物或從不利形勢中重新振作;fight back tears 則表示強忍淚水。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: fight it back fight them down fight it out fight them off Fight back can mean resisting something or recovering from a difficult position. Fight back tears means stopping tears from showing.",
+    "variableItemsZh": [
+      "fight back / fight back against somebody or something",
+      "fight back something / fight it back",
+      "fight down something / fight it down",
+      "fight out something / fight it out",
+      "fight somebody or something off"
+    ],
+    "variableItemsEn": [
+      "fight back / fight back against somebody or something",
+      "fight back something / fight it back",
+      "fight down something / fight it down",
+      "fight out something / fight it out",
+      "fight somebody or something off"
+    ],
+    "forms": [
+      {
+        "formZh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+        "formEn": "fight back / fight back against somebody or something",
+        "exampleZh": "球隊開局不利後奮力反擊。",
+        "exampleEn": "The team fought back after a poor start.",
+        "highlight": "fought back"
+      },
+      {
+        "formZh": "強忍眼淚、笑意等,不讓它表露出來",
+        "formEn": "fight back something / fight it back",
+        "exampleZh": "她在演說期間強忍淚水。",
+        "exampleEn": "She fought back her tears during the speech.",
+        "highlight": "fought back"
+      },
+      {
+        "formZh": "努力壓下恐慌、怒氣、恐懼或衝動",
+        "formEn": "fight down something / fight it down",
+        "exampleZh": "他努力壓下突然湧起的恐慌。",
+        "exampleEn": "He fought down a sudden feeling of panic.",
+        "highlight": "fought down"
+      },
+      {
+        "formZh": "透過爭論、競賽或鬥爭解決問題或決出勝負",
+        "formEn": "fight out something / fight it out",
+        "exampleZh": "兩支球隊會在決賽中一決勝負。",
+        "exampleEn": "The two teams will fight it out in the final.",
+        "highlight": "fight it out"
+      },
+      {
+        "formZh": "擊退或抵抗某人或某事物",
+        "formEn": "fight somebody or something off",
+        "exampleZh": "她抵抗住重感冒。",
+        "exampleEn": "She fought off a bad cold.",
+        "highlight": "fought off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+      "titleEn": "fight back / fight back against somebody or something",
+      "formula": "fight back / fight back against somebody or something",
+      "highlight": "fight back / fight back against somebody or something",
+      "descriptionZh": "反抗、還擊;在落後或處於劣勢時努力扭轉局面",
+      "descriptionEn": "The team fought back after a poor start.",
+      "examples": [
+        {
+          "en": "The team fought back after a poor start.",
+          "zh": "球隊開局不利後奮力反擊。",
+          "highlight": "fought back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "強忍眼淚、笑意等,不讓它表露出來",
+      "titleEn": "fight back something / fight it back",
+      "formula": "fight back something / fight it back",
+      "highlight": "fight back something / fight it back",
+      "descriptionZh": "強忍眼淚、笑意等,不讓它表露出來",
+      "descriptionEn": "She fought back her tears during the speech.",
+      "examples": [
+        {
+          "en": "She fought back her tears during the speech.",
+          "zh": "她在演說期間強忍淚水。",
+          "highlight": "fought back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "努力壓下恐慌、怒氣、恐懼或衝動",
+      "titleEn": "fight down something / fight it down",
+      "formula": "fight down something / fight it down",
+      "highlight": "fight down something / fight it down",
+      "descriptionZh": "努力壓下恐慌、怒氣、恐懼或衝動",
+      "descriptionEn": "He fought down a sudden feeling of panic.",
+      "examples": [
+        {
+          "en": "He fought down a sudden feeling of panic.",
+          "zh": "他努力壓下突然湧起的恐慌。",
+          "highlight": "fought down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "透過爭論、競賽或鬥爭解決問題或決出勝負",
+      "titleEn": "fight out something / fight it out",
+      "formula": "fight out something / fight it out",
+      "highlight": "fight out something / fight it out",
+      "descriptionZh": "透過爭論、競賽或鬥爭解決問題或決出勝負",
+      "descriptionEn": "The two teams will fight it out in the final.",
+      "examples": [
+        {
+          "en": "The two teams will fight it out in the final.",
+          "zh": "兩支球隊會在決賽中一決勝負。",
+          "highlight": "fight it out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "擊退或抵抗某人或某事物",
+      "titleEn": "fight somebody or something off",
+      "formula": "fight somebody or something off",
+      "highlight": "fight somebody or something off",
+      "descriptionZh": "擊退或抵抗某人或某事物",
+      "descriptionEn": "She fought off a bad cold.",
+      "examples": [
+        {
+          "en": "She fought off a bad cold.",
+          "zh": "她抵抗住重感冒。",
+          "highlight": "fought off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論反抗和扭轉局面",
+      "titleEn": "Talk about resistance and recovery",
+      "zh": "fight back 可以描述反抗不公平的壓力、作出還擊,或在落後後重新振作。",
+      "en": "Fight back helps you describe resisting unfair pressure, replying to an attack or recovering after falling behind."
+    },
+    {
+      "titleZh": "描述如何控制強烈情緒",
+      "titleEn": "Describe how people control strong feelings",
+      "zh": "fight back 和 fight down 可以用來談論強忍淚水、笑意,以及壓下怒氣、恐懼和衝動。",
+      "en": "Fight back and fight down help you talk about controlling tears, laughter, anger, fear and sudden urges."
+    },
+    {
+      "titleZh": "說明如何決出勝負或解決爭端",
+      "titleEn": "Explain how a result is decided",
+      "zh": "fight it out 可以描述兩個人或群體持續競爭或爭論,直至分出結果。",
+      "en": "Fight it out can describe two people or groups competing or arguing until a result is reached."
+    },
+    {
+      "titleZh": "談論抵抗疾病和其他威脅",
+      "titleEn": "Talk about resisting illness and other threats",
+      "zh": "fight off 可以描述抵抗感冒、睡意、攻擊、昆蟲或其他不想遇到的問題。",
+      "en": "Fight off can describe resisting a cold, sleep, an attack, insects or another unwanted problem."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論反抗和扭轉局面",
+      "描述如何控制強烈情緒",
+      "說明如何決出勝負或解決爭端",
+      "談論抵抗疾病和其他威脅"
+    ],
+    "contextsEn": [
+      "Talk about resistance and recovery",
+      "Describe how people control strong feelings",
+      "Explain how a result is decided",
+      "Talk about resisting illness and other threats"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論反抗和扭轉局面",
+        "titleEn": "Talk about resistance and recovery",
+        "zh": "fight back 可以描述反抗不公平的壓力、作出還擊,或在落後後重新振作。",
+        "en": "Fight back helps you describe resisting unfair pressure, replying to an attack or recovering after falling behind.",
+        "examples": [
+          {
+            "en": "The team fought back after a poor start.",
+            "zh": "球隊開局不利後奮力反擊。",
+            "highlight": "fought back"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述如何控制強烈情緒",
+        "titleEn": "Describe how people control strong feelings",
+        "zh": "fight back 和 fight down 可以用來談論強忍淚水、笑意,以及壓下怒氣、恐懼和衝動。",
+        "en": "Fight back and fight down help you talk about controlling tears, laughter, anger, fear and sudden urges.",
+        "examples": [
+          {
+            "en": "She fought back her tears during the speech.",
+            "zh": "她在演說期間強忍淚水。",
+            "highlight": "fought back"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何決出勝負或解決爭端",
+        "titleEn": "Explain how a result is decided",
+        "zh": "fight it out 可以描述兩個人或群體持續競爭或爭論,直至分出結果。",
+        "en": "Fight it out can describe two people or groups competing or arguing until a result is reached.",
+        "examples": [
+          {
+            "en": "He fought down a sudden feeling of panic.",
+            "zh": "他努力壓下突然湧起的恐慌。",
+            "highlight": "fought down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論抵抗疾病和其他威脅",
+        "titleEn": "Talk about resisting illness and other threats",
+        "zh": "fight off 可以描述抵抗感冒、睡意、攻擊、昆蟲或其他不想遇到的問題。",
+        "en": "Fight off can describe resisting a cold, sleep, an attack, insects or another unwanted problem.",
+        "examples": [
+          {
+            "en": "The two teams will fight it out in the final.",
+            "zh": "兩支球隊會在決賽中一決勝負。",
+            "highlight": "fight it out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FIGHT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FIGHT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FIGHT 片語動詞。",
+      "en": "Read the whole sentence and choose the FIGHT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子把它放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: fight it back fight them down fight it out fight them off.",
+      "zh": "使用 it 或 them 時,請按照以上例子把它放在正確位置。",
+      "en": "When using it or them, place the word as shown: fight it back fight them down fight it out fight them off"
+    },
+    {
+      "titleZh": "fight back 可以表示反抗某事物或從不利形勢中重新振作;fight back tears 則表示強忍淚水。",
+      "titleEn": "Fight back can mean resisting something or recovering from a difficult position.",
+      "zh": "fight back 可以表示反抗某事物或從不利形勢中重新振作;fight back tears 則表示強忍淚水。",
+      "en": "Fight back can mean resisting something or recovering from a difficult position. Fight back tears means stopping tears from showing."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FIGHT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FIGHT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FIGHT 動詞片語句子改寫練習",
+    "titleEn": "FIGHT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FIGHT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FIGHT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-73-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The team recovered after falling two goals behind.",
+      "promptZh": "球隊落後兩球後重新振作。",
+      "starter": "The",
+      "answer": "The team fought back after falling two goals behind.",
+      "answerZh": "球隊落後兩球後奮力反擊。",
+      "highlight": "fought back",
+      "targetForm": "fight back",
+      "targetMeaningZh": "在落後或處於劣勢時奮力追回"
+    },
+    {
+      "id": "phrasal-verb-73-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "She stopped herself from crying during the farewell.",
+      "promptZh": "她在告別時忍住沒有哭。",
+      "starter": "She",
+      "answer": "She fought back her tears during the farewell.",
+      "answerZh": "她在告別時強忍淚水。",
+      "highlight": "fought back her tears",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "She overcame a bad cold and returned to school.",
+      "promptZh": "她戰勝重感冒後返回學校。",
+      "starter": "She",
+      "answer": "She fought off a bad cold and returned to school.",
+      "answerZh": "她抵抗住重感冒後返回學校。",
+      "highlight": "fought off",
+      "targetForm": "fight something off",
+      "targetMeaningZh": "抵抗疾病或其他不想遇到的事物"
+    },
+    {
+      "id": "phrasal-verb-73-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "He controlled a sudden rush of panic before speaking.",
+      "promptZh": "他在發言前壓下突然湧起的恐慌。",
+      "starter": "He",
+      "answer": "He fought down a sudden rush of panic before speaking.",
+      "answerZh": "他在發言前努力壓下突然湧起的恐慌。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The two teams will compete in the final to decide the winner.",
+      "promptZh": "兩支球隊會在決賽中競爭,以決出勝負。",
+      "starter": "The",
+      "answer": "The two teams will fight it out in the final.",
+      "answerZh": "兩支球隊會在決賽中一決勝負。",
+      "highlight": "fight it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過競賽決出勝負"
+    },
+    {
+      "id": "phrasal-verb-73-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Local people resisted the unfair rule.",
+      "promptZh": "當地居民反對這項不公平的規定。",
+      "starter": "Local",
+      "answer": "Local people fought back against the unfair rule.",
+      "answerZh": "當地居民反抗這項不公平的規定。",
+      "highlight": "fought back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "反抗或還擊某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I controlled my anger and answered politely.",
+      "promptZh": "我壓下怒氣,禮貌地回答。",
+      "starter": "I",
+      "answer": "I fought down my anger and answered politely.",
+      "answerZh": "我努力壓下怒氣,禮貌地回答。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I stopped myself from smiling when the teacher used the wrong name.",
+      "promptZh": "老師叫錯名字時,我忍住沒有笑。",
+      "starter": "I",
+      "answer": "I fought back a smile when the teacher used the wrong name.",
+      "answerZh": "老師叫錯名字時,我強忍笑意。",
+      "highlight": "fought back a smile",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The farmer used loud noises to make the birds leave.",
+      "promptZh": "農夫用巨響把雀鳥趕走。",
+      "starter": "The",
+      "answer": "The farmer fought the birds off with loud noises.",
+      "answerZh": "農夫用巨響擊退雀鳥。",
+      "highlight": "fought the birds off with",
+      "targetForm": "fight somebody/something off",
+      "targetMeaningZh": "擊退或趕走某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Our side recovered and made the score 2–2.",
+      "promptZh": "我方重新振作,把比分追成二比二。",
+      "starter": "Our",
+      "answer": "Our side fought back to make the score 2–2.",
+      "answerZh": "我方奮力反擊,把比分追成二比二。",
+      "highlight": "fought back to make",
+      "targetForm": "fight back",
+      "targetMeaningZh": "在落後或處於劣勢時奮力追回"
+    },
+    {
+      "id": "phrasal-verb-73-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Let them argue until they settle the matter between themselves.",
+      "promptZh": "讓他們自行爭論,直至解決這件事。",
+      "starter": "Let",
+      "answer": "Let them fight it out between themselves.",
+      "answerZh": "讓他們自行爭論到底並解決事情。",
+      "highlight": "fight it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過爭論解決問題"
+    },
+    {
+      "id": "phrasal-verb-73-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "She was trying to control the urge to run away.",
+      "promptZh": "她正努力控制逃走的衝動。",
+      "starter": "She",
+      "answer": "She was trying to fight down the urge to run away.",
+      "answerZh": "她正努力壓下逃走的衝動。",
+      "highlight": "fight down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "He was trying not to laugh during the serious talk.",
+      "promptZh": "他在嚴肅的談話期間努力忍住不笑。",
+      "starter": "He",
+      "answer": "He was fighting back laughter during the serious talk.",
+      "answerZh": "他在嚴肅的談話期間正強忍笑意。",
+      "highlight": "fighting back laughter",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The brothers settled their differences through a long argument.",
+      "promptZh": "兄弟二人在長時間爭論中解決了分歧。",
+      "starter": "The",
+      "answer": "The brothers fought out their differences in a long argument.",
+      "answerZh": "兄弟二人在長時間爭論中解決了分歧。",
+      "highlight": "fought out",
+      "targetForm": "fight out something",
+      "targetMeaningZh": "透過爭論解決問題或分歧"
+    },
+    {
+      "id": "phrasal-verb-73-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Even when criticised, he defended himself with clear facts.",
+      "promptZh": "即使受到批評,他仍以清楚的事實為自己辯護。",
+      "starter": "Even",
+      "answer": "Even when criticised, he fought back with clear facts.",
+      "answerZh": "即使受到批評,他仍以清楚的事實作出反擊。",
+      "highlight": "fought back",
+      "targetForm": "fight back",
+      "targetMeaningZh": "作出反抗或還擊"
+    },
+    {
+      "id": "phrasal-verb-73-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Our bodies protect us from many germs every day.",
+      "promptZh": "我們的身體每天保護我們免受許多細菌侵害。",
+      "starter": "Our",
+      "answer": "Our bodies fight off many germs every day.",
+      "answerZh": "我們的身體每天抵抗許多細菌。",
+      "highlight": "fight off",
+      "targetForm": "fight something off",
+      "targetMeaningZh": "抵抗疾病或其他不想遇到的事物"
+    },
+    {
+      "id": "phrasal-verb-73-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The speaker controlled the panic and began the talk.",
+      "promptZh": "講者壓下恐慌,開始發言。",
+      "starter": "The",
+      "answer": "The speaker fought down the panic and began the talk.",
+      "answerZh": "講者努力壓下恐慌,開始發言。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ella stopped her tears from showing until she reached home.",
+      "promptZh": "埃拉回到家前一直忍住淚水。",
+      "starter": "Ella",
+      "answer": "Ella fought back the tears until she reached home.",
+      "answerZh": "埃拉回到家前一直強忍淚水。",
+      "highlight": "fought back the",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We should not choose for them; they must argue until they decide it themselves.",
+      "promptZh": "我們不應替他們作決定;他們必須自行爭論,直至作出決定。",
+      "starter": "We",
+      "answer": "We should not choose for them; they must fight it out themselves.",
+      "answerZh": "我們不應替他們作決定;他們必須自行爭論,直至作出決定。",
+      "highlight": "fight",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過爭論解決問題"
+    },
+    {
+      "id": "phrasal-verb-73-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The small shop resisted pressure from a large chain by improving its service.",
+      "promptZh": "這間小店透過改善服務,抵抗大型連鎖店帶來的壓力。",
+      "starter": "The",
+      "answer": "The small shop fought back against pressure from a large chain by improving its service.",
+      "answerZh": "這間小店透過改善服務,抵抗大型連鎖店帶來的壓力。",
+      "highlight": "fought back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "抵抗壓力或威脅"
+    },
+    {
+      "id": "phrasal-verb-73-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Tears filled the child’s eyes. The child tried to stop them from falling, but they fell anyway.",
+      "promptZh": "孩子眼中充滿淚水。孩子嘗試忍住,但最後還是流了下來。",
+      "starter": "Tears",
+      "answer": "Tears filled the child’s eyes. The child tried to fight them back, but they fell anyway.",
+      "answerZh": "孩子眼中充滿淚水。孩子嘗試忍住,但最後還是流了下來。",
+      "highlight": "fight",
+      "targetForm": "fight them back",
+      "targetMeaningZh": "強忍眼淚,不讓它們流下來"
+    },
+    {
+      "id": "phrasal-verb-73-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "He resisted sleep during the late film.",
+      "promptZh": "他在深夜電影播放期間抵抗睡意。",
+      "starter": "He",
+      "answer": "He fought off sleep during the late film.",
+      "answerZh": "他在深夜電影播放期間努力趕走睡意。",
+      "highlight": "fought off",
+      "targetForm": "fight off something",
+      "targetMeaningZh": "努力抵抗睡意或其他感覺"
+    },
+    {
+      "id": "phrasal-verb-73-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The top two players are competing for first place.",
+      "promptZh": "排名最高的兩名選手正在爭奪第一名。",
+      "starter": "The",
+      "answer": "The top two players are fighting it out for first place.",
+      "answerZh": "排名最高的兩名選手正在一決勝負,爭奪第一名。",
+      "highlight": "fighting it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過競賽決出勝負"
+    },
+    {
+      "id": "phrasal-verb-73-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Anger rose inside him, but he controlled it.",
+      "promptZh": "怒氣在他心中升起,但他把它控制住了。",
+      "starter": "Anger",
+      "answer": "Anger rose inside him, but he fought it down.",
+      "answerZh": "怒氣在他心中升起,但他努力把它壓了下去。",
+      "highlight": "fought",
+      "targetForm": "fight it down",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The goalkeeper resisted pressure from two attackers and cleared the ball.",
+      "promptZh": "守門員抵擋住兩名進攻球員,並把球清走。",
+      "starter": "The",
+      "answer": "The goalkeeper fought off two attackers and cleared the ball.",
+      "answerZh": "守門員擊退兩名進攻球員,並把球清走。",
+      "highlight": "fought off",
+      "targetForm": "fight somebody off",
+      "targetMeaningZh": "擊退或抵擋某人"
+    },
+    {
+      "id": "phrasal-verb-73-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They controlled their fear and entered the dark room.",
+      "promptZh": "他們壓下恐懼,走進黑暗的房間。",
+      "starter": "They",
+      "answer": "They fought down their fear and entered the dark room.",
+      "answerZh": "他們努力壓下恐懼,走進黑暗的房間。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She could not stop herself from laughing when the dog wore the hat.",
+      "promptZh": "那隻狗戴上帽子時,她忍不住笑了。",
+      "starter": "She",
+      "answer": "She could not fight back a laugh when the dog wore the hat.",
+      "answerZh": "那隻狗戴上帽子時,她無法強忍笑意。",
+      "highlight": "fight back a laugh",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "After a weak first half, the players recovered and won.",
+      "promptZh": "上半場表現不佳後,球員重新振作並勝出。",
+      "starter": "After",
+      "answer": "After a weak first half, the players fought back and won.",
+      "answerZh": "上半場表現不佳後,球員奮力反擊並勝出。",
+      "highlight": "fought back",
+      "targetForm": "fight back",
+      "targetMeaningZh": "在落後或處於劣勢時奮力追回"
+    },
+    {
+      "id": "phrasal-verb-73-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The two groups argued throughout a long meeting until they settled the issue.",
+      "promptZh": "兩個小組在長時間會議中一直爭論,直至解決問題。",
+      "starter": "The",
+      "answer": "The two groups fought out the issue in a long meeting.",
+      "answerZh": "兩個小組在長時間會議中透過爭論解決問題。",
+      "highlight": "fought out the issue in",
+      "targetForm": "fight out something",
+      "targetMeaningZh": "透過爭論解決問題"
+    },
+    {
+      "id": "phrasal-verb-73-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The medicine helped her overcome the illness.",
+      "promptZh": "藥物幫助她戰勝疾病。",
+      "starter": "The",
+      "answer": "The medicine helped her fight the illness off.",
+      "answerZh": "藥物幫助她抵抗疾病。",
+      "highlight": "fight",
+      "targetForm": "fight something off",
+      "targetMeaningZh": "抵抗疾病或其他不想遇到的事物"
+    },
+    {
+      "id": "phrasal-verb-73-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Before pressing send, Lena controlled the urge to write an angry reply.",
+      "promptZh": "按下傳送前,莉娜壓下了寫出憤怒回覆的衝動。",
+      "starter": "Before",
+      "answer": "Before pressing send, Lena fought down the urge to write an angry reply.",
+      "answerZh": "按下傳送前,莉娜努力壓下了寫出憤怒回覆的衝動。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She did not stay silent; she answered the false claim strongly.",
+      "promptZh": "她沒有保持沉默;她有力地回應了這項不實指控。",
+      "starter": "She",
+      "answer": "She did not stay silent; she fought back against the false claim.",
+      "answerZh": "她沒有保持沉默;她反擊了這項不實指控。",
+      "highlight": "fought back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "反抗或還擊某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "During the goodbye, Arun had to stop himself from crying.",
+      "promptZh": "告別時,阿倫不得不忍住不哭。",
+      "starter": "During",
+      "answer": "During the goodbye, Arun had to fight back tears.",
+      "answerZh": "告別時,阿倫不得不強忍淚水。",
+      "highlight": "fight back tears",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She was resisting sleep while she finished the report.",
+      "promptZh": "她完成報告時一直抵抗睡意。",
+      "starter": "She",
+      "answer": "She was fighting off sleep while she finished the report.",
+      "answerZh": "她完成報告時一直努力趕走睡意。",
+      "highlight": "fighting off",
+      "targetForm": "fight off something",
+      "targetMeaningZh": "努力抵抗睡意或其他感覺"
+    },
+    {
+      "id": "phrasal-verb-73-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Who will compete against Ava in the last round until one wins?",
+      "promptZh": "誰會在最後一輪與艾娃競爭,直至分出勝負?",
+      "starter": "Who",
+      "answer": "Who will fight it out with Ava in the last round?",
+      "answerZh": "誰會在最後一輪與艾娃一決勝負?",
+      "highlight": "fight it out with",
+      "targetForm": "fight it out with somebody",
+      "targetMeaningZh": "與某人競爭並決出勝負"
+    },
+    {
+      "id": "phrasal-verb-73-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Can you control your fear long enough to speak?",
+      "promptZh": "你能否控制恐懼,讓自己有足夠時間開口?",
+      "starter": "Can",
+      "answer": "Can you fight down your fear long enough to speak?",
+      "answerZh": "你能否努力壓下恐懼,讓自己有足夠時間開口?",
+      "highlight": "fight down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The town is resisting pollution through a river-cleaning project.",
+      "promptZh": "這個城鎮透過清潔河流的計劃對抗污染。",
+      "starter": "The",
+      "answer": "The town is fighting back against pollution through a river-cleaning project.",
+      "answerZh": "這個城鎮透過清潔河流的計劃對抗污染。",
+      "highlight": "fighting back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "抵抗有害的事物或情況"
+    },
+    {
+      "id": "phrasal-verb-73-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "They had argued until they settled their differences before the trip began.",
+      "promptZh": "旅程開始前,他們已透過爭論解決彼此的分歧。",
+      "starter": "They",
+      "answer": "They had fought out their differences before the trip began.",
+      "answerZh": "旅程開始前,他們已透過爭論解決彼此的分歧。",
+      "highlight": "fought out",
+      "targetForm": "fight out something",
+      "targetMeaningZh": "透過爭論解決問題或分歧"
+    },
+    {
+      "id": "phrasal-verb-73-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A laugh was about to escape, but I stopped it.",
+      "promptZh": "我差點笑了出來,但還是忍住了笑意。",
+      "starter": "A",
+      "answer": "A laugh was about to escape, but I fought it back.",
+      "answerZh": "我差點笑了出來,但還是忍住了笑意。",
+      "highlight": "fought",
+      "targetForm": "fight it back",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Two runners challenged him near the end, but he resisted them and still won.",
+      "promptZh": "兩名跑手在接近終點時向他挑戰,但他抵擋住他們的挑戰,仍然勝出。",
+      "starter": "Two",
+      "answer": "Two runners challenged him near the end, but he fought them off and still won.",
+      "answerZh": "兩名跑手在接近終點時向他挑戰,但他成功抵擋住他們的挑戰,仍然勝出。",
+      "highlight": "fought",
+      "targetForm": "fight them off",
+      "targetMeaningZh": "擊退或抵擋某些人"
+    },
+    {
+      "id": "phrasal-verb-73-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Doubts returned, but he controlled them before the race began.",
+      "promptZh": "疑慮再次出現,但他在比賽開始前把它們壓了下去。",
+      "starter": "Doubts",
+      "answer": "Doubts returned, but he fought them down before the race began.",
+      "answerZh": "疑慮再次出現,但他在比賽開始前努力把它們壓了下去。",
+      "highlight": "fought",
+      "targetForm": "fight them down",
+      "targetMeaningZh": "努力壓下恐慌、疑慮或其他感覺"
+    },
+    {
+      "id": "phrasal-verb-73-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "When sales fell in winter, the café recovered quickly in spring.",
+      "promptZh": "冬季生意下跌後,咖啡店在春季很快恢復過來。",
+      "starter": "When",
+      "answer": "When sales fell in winter, the café fought back quickly in spring.",
+      "answerZh": "冬季生意下跌後,咖啡店在春季很快奮力扭轉局面。",
+      "highlight": "fought back",
+      "targetForm": "fight back",
+      "targetMeaningZh": "從困難或不利形勢中重新振作"
+    },
+    {
+      "id": "phrasal-verb-73-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The teams wanted to decide the result on the field without outside help.",
+      "promptZh": "兩支球隊希望在沒有外來協助下於球場上決定勝負。",
+      "starter": "The",
+      "answer": "The teams wanted to fight it out on the field without outside help.",
+      "answerZh": "兩支球隊希望在沒有外來協助下於球場上一決勝負。",
+      "highlight": "fight it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過競賽決出勝負"
+    },
+    {
+      "id": "phrasal-verb-73-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "She smiled for the camera while trying not to cry.",
+      "promptZh": "她面對鏡頭微笑,同時努力忍住不哭。",
+      "starter": "She",
+      "answer": "She smiled for the camera while fighting back tears.",
+      "answerZh": "她面對鏡頭微笑,同時努力強忍淚水。",
+      "highlight": "fighting back tears",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "She has resisted every cold this winter.",
+      "promptZh": "今年冬天,她抵抗住每一次感冒。",
+      "starter": "She",
+      "answer": "She has fought off every cold this winter.",
+      "answerZh": "今年冬天,她成功抵抗了每一次感冒。",
+      "highlight": "fought off",
+      "targetForm": "fight something off",
+      "targetMeaningZh": "抵抗疾病或其他不想遇到的事物"
+    },
+    {
+      "id": "phrasal-verb-73-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "They have resisted every plan to close the library.",
+      "promptZh": "他們一直反對每一項關閉圖書館的計劃。",
+      "starter": "They",
+      "answer": "They have fought back against every plan to close the library.",
+      "answerZh": "他們一直反對每一項關閉圖書館的計劃。",
+      "highlight": "fought back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "反抗或還擊某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The two candidates competed against each other in a live debate.",
+      "promptZh": "兩名候選人在直播辯論中互相較量。",
+      "starter": "The",
+      "answer": "The two candidates fought it out in a live debate.",
+      "answerZh": "兩名候選人在直播辯論中一決高下。",
+      "highlight": "fought it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過競爭或爭論決出結果"
+    },
+    {
+      "id": "phrasal-verb-73-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The nurse controlled her worry so the child would not notice.",
+      "promptZh": "護士壓下擔憂,不讓孩子察覺。",
+      "starter": "The",
+      "answer": "The nurse fought down her worry so the child would not notice.",
+      "answerZh": "護士努力壓下心中的擔憂,不讓孩子察覺。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、擔憂或其他感覺"
+    },
+    {
+      "id": "phrasal-verb-73-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Could the team stop another attack in the last minute?",
+      "promptZh": "球隊能否在最後一分鐘阻止對方再次進攻?",
+      "starter": "Could",
+      "answer": "Could the team fight off another attack in the last minute?",
+      "answerZh": "球隊能否在最後一分鐘擊退對方的再次進攻?",
+      "highlight": "fight off",
+      "targetForm": "fight off something",
+      "targetMeaningZh": "擊退或抵擋攻擊"
+    },
+    {
+      "id": "phrasal-verb-73-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why was Tom trying not to smile during the photo?",
+      "promptZh": "拍照時,湯姆為何努力忍住不笑?",
+      "starter": "Why",
+      "answer": "Why was Tom fighting back a smile during the photo?",
+      "answerZh": "拍照時,湯姆為何正強忍笑意?",
+      "highlight": "fighting back a",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After weeks of disagreement, the neighbours finally argued face to face until they settled it.",
+      "promptZh": "經過數星期的分歧後,鄰居終於面對面爭論,直至解決事情。",
+      "starter": "After",
+      "answer": "After weeks of disagreement, the neighbours finally fought it out face to face.",
+      "answerZh": "經過數星期的分歧後,鄰居終於面對面把事情爭論清楚。",
+      "highlight": "fought it out",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過爭論解決問題"
+    },
+    {
+      "id": "phrasal-verb-73-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Priya could not control the strong urge to check her phone.",
+      "promptZh": "普里雅無法控制查看手機的強烈衝動。",
+      "starter": "Priya",
+      "answer": "Priya could not fight down the strong urge to check her phone.",
+      "answerZh": "普里雅無法壓下查看手機的強烈衝動。",
+      "highlight": "fight down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或衝動"
+    },
+    {
+      "id": "phrasal-verb-73-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The students resisted a rule that banned music during lunch.",
+      "promptZh": "學生反對午膳時禁止播放音樂的規定。",
+      "starter": "The",
+      "answer": "The students fought back against a rule that banned music during lunch.",
+      "answerZh": "學生反對午膳時禁止播放音樂的規定。",
+      "highlight": "fought back against",
+      "targetForm": "fight back against something",
+      "targetMeaningZh": "反抗或還擊某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After several quiet nights, he finally overcame his fear of sleeping alone.",
+      "promptZh": "經過幾個平靜的晚上後,他終於克服獨自睡覺的恐懼。",
+      "starter": "After",
+      "answer": "After several quiet nights, he finally fought off his fear of sleeping alone.",
+      "answerZh": "經過幾個平靜的晚上後,他終於克服獨自睡覺的恐懼。",
+      "highlight": "fought off",
+      "targetForm": "fight off something",
+      "targetMeaningZh": "努力克服或擺脫不想遇到的事物"
+    },
+    {
+      "id": "phrasal-verb-73-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The actor stopped herself from crying as the audience thanked her.",
+      "promptZh": "觀眾向那名演員表示感謝時,她忍住沒有哭。",
+      "starter": "The",
+      "answer": "The actor fought back tears as the audience thanked her.",
+      "answerZh": "觀眾向那名演員表示感謝時,她強忍淚水。",
+      "highlight": "fought back tears",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    },
+    {
+      "id": "phrasal-verb-73-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Since both sides wanted the same prize, they agreed to decide the winner through fair competition.",
+      "promptZh": "由於雙方都想得到同一個獎品,他們同意以公平競爭決定勝負。",
+      "starter": "Since",
+      "answer": "Since both sides wanted the same prize, they agreed to fight it out fairly.",
+      "answerZh": "由於雙方都想得到同一個獎品,他們同意公平地一決勝負。",
+      "highlight": "fight it out fairly",
+      "targetForm": "fight it out",
+      "targetMeaningZh": "透過競賽決出勝負"
+    },
+    {
+      "id": "phrasal-verb-73-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although he was losing badly, Ben recovered and forced a final round.",
+      "promptZh": "雖然賓大幅落後,但他重新振作,把比賽帶入最後一輪。",
+      "starter": "Although",
+      "answer": "Although he was losing badly, Ben fought back and forced a final round.",
+      "answerZh": "雖然賓大幅落後,但他奮力反擊,把比賽帶入最後一輪。",
+      "highlight": "fought back",
+      "targetForm": "fight back",
+      "targetMeaningZh": "在落後或處於劣勢時奮力追回"
+    },
+    {
+      "id": "phrasal-verb-73-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Even after the lights went out, we controlled our fear and stayed calm.",
+      "promptZh": "即使燈光熄滅,我們仍壓下恐懼,保持冷靜。",
+      "starter": "Even",
+      "answer": "Even after the lights went out, we fought down our fear and stayed calm.",
+      "answerZh": "即使燈光熄滅,我們仍努力壓下恐懼,保持冷靜。",
+      "highlight": "fought down",
+      "targetForm": "fight down something",
+      "targetMeaningZh": "努力壓下恐慌、怒氣或恐懼"
+    },
+    {
+      "id": "phrasal-verb-73-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We spent the whole evening making mosquitoes leave us alone.",
+      "promptZh": "我們整晚都在設法把蚊子趕走。",
+      "starter": "We",
+      "answer": "We fought off mosquitoes all evening.",
+      "answerZh": "我們整晚都在趕走蚊子。",
+      "highlight": "fought off mosquitoes all",
+      "targetForm": "fight something off",
+      "targetMeaningZh": "擊退或趕走某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-73-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the joke was silly, I had to stop myself from laughing.",
+      "promptZh": "雖然那個笑話很傻氣,但我不得不忍住不笑。",
+      "starter": "Although",
+      "answer": "Although the joke was silly, I had to fight back laughter.",
+      "answerZh": "雖然那個笑話很傻氣,但我不得不強忍笑意。",
+      "highlight": "fight back laughter",
+      "targetForm": "fight back something",
+      "targetMeaningZh": "強忍眼淚、笑意等"
+    }
+  ]
+}

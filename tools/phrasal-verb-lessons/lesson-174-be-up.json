@@ -1,0 +1,1679 @@
+{
+  "id": "phrasal-verb-174",
+  "order": 174,
+  "slug": "be-up",
+  "version": "1",
+  "title": "BE UP 動詞片語",
+  "titleEn": "Be Up",
+  "titleZh": "BE UP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 173 - BE UP.pdf",
+    "sourceNumber": 173,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BE UP",
+      "highlight": "BE UP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I was up before sunrise.",
+      "zh": "我在日出前已經起床。",
+      "highlight": "was up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We are up against a difficult problem.",
+      "zh": "我們正面對一個困難問題。",
+      "highlight": "are up against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Kim was before the court yesterday.",
+      "zh": "金昨日在法庭出庭。",
+      "highlight": "was",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "已經起床;醒來並離開睡床；面對強勁對手、競爭或困難；在法官、法院或正式審理者面前出席；正獲考慮得到晉升、職位或獎項；由某人決定;是某人的責任；正在做甚麼或忙甚麼;有時別人並不知道；某件事已經來臨或快將來臨",
+    "en": "be up; be up against somebody/something; be up before somebody / be before somebody; be up for something; be up to somebody; be up to something; be upon somebody",
+    "naturalZh": [
+      "已經起床;醒來並離開睡床",
+      "面對強勁對手、競爭或困難",
+      "在法官、法院或正式審理者面前出席",
+      "正獲考慮得到晉升、職位或獎項",
+      "由某人決定;是某人的責任",
+      "正在做甚麼或忙甚麼;有時別人並不知道",
+      "某件事已經來臨或快將來臨"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "be up",
+      "titleZh": "已經起床;醒來並離開睡床",
+      "titleEn": "be up",
+      "descriptionZh": "已經起床;醒來並離開睡床",
+      "descriptionEn": "I was up before sunrise.",
+      "examples": [
+        {
+          "en": "I was up before sunrise.",
+          "zh": "我在日出前已經起床。",
+          "highlight": "was up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be up against somebody/something",
+      "titleZh": "面對強勁對手、競爭或困難",
+      "titleEn": "be up against somebody/something",
+      "descriptionZh": "面對強勁對手、競爭或困難",
+      "descriptionEn": "We are up against a difficult problem.",
+      "examples": [
+        {
+          "en": "We are up against a difficult problem.",
+          "zh": "我們正面對一個困難問題。",
+          "highlight": "are up against"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be up before somebody / be before somebody",
+      "titleZh": "在法官、法院或正式審理者面前出席",
+      "titleEn": "be up before somebody / be before somebody",
+      "descriptionZh": "在法官、法院或正式審理者面前出席",
+      "descriptionEn": "Kim was before the court yesterday.",
+      "examples": [
+        {
+          "en": "Kim was before the court yesterday.",
+          "zh": "金昨日在法庭出庭。",
+          "highlight": "was"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be up for something",
+      "titleZh": "正獲考慮得到晉升、職位或獎項",
+      "titleEn": "be up for something",
+      "descriptionZh": "正獲考慮得到晉升、職位或獎項",
+      "descriptionEn": "The photograph is up for a school prize.",
+      "examples": [
+        {
+          "en": "The photograph is up for a school prize.",
+          "zh": "這張照片有機會獲得學校獎項。",
+          "highlight": "is up for"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be up to somebody",
+      "titleZh": "由某人決定;是某人的責任",
+      "titleEn": "be up to somebody",
+      "descriptionZh": "由某人決定;是某人的責任",
+      "descriptionEn": "It is up to Ana to choose the music.",
+      "examples": [
+        {
+          "en": "It is up to Ana to choose the music.",
+          "zh": "由安娜決定選甚麼音樂。",
+          "highlight": "is up to Ana to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be up to something",
+      "titleZh": "正在做甚麼或忙甚麼;有時別人並不知道",
+      "titleEn": "be up to something",
+      "descriptionZh": "正在做甚麼或忙甚麼;有時別人並不知道",
+      "descriptionEn": "What are the children up to?",
+      "examples": [
+        {
+          "en": "What are the children up to?",
+          "zh": "孩子們在忙甚麼?",
+          "highlight": "are the children up to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be upon somebody",
+      "titleZh": "某件事已經來臨或快將來臨",
+      "titleEn": "be upon somebody",
+      "descriptionZh": "某件事已經來臨或快將來臨",
+      "descriptionEn": "The new school year is almost upon us.",
+      "examples": [
+        {
+          "en": "The new school year is almost upon us.",
+          "zh": "新學年快將來臨。",
+          "highlight": "is almost upon"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BE UP 片語動詞的實際用途",
+    "labelEn": "BE UP Phrasal Verbs in Use",
+    "summaryZh": "be up 可以表示某人已經醒來並離開睡床。；be up against 可以描述艱難的競爭;be up for 則可以表示有機會獲得晉升或獎項。；be up to something 可以詢問某人在做甚麼;be up to somebody 則可以說明由誰決定或負責。；be before somebody 可以描述正式出席聆訊;be upon somebody 則表示某件事快將來臨或已經來臨。",
+    "summaryEn": "Be up lets you say that someone is awake and has left their bed. Be up against can describe difficult competition, while be up for can describe a possible promotion or prize. Be up to something asks what someone is doing. Be up to somebody shows who must decide or take responsibility. Be before somebody can describe a formal appearance, while be upon somebody shows that an event is very close or has arrived.",
+    "contextsZh": [
+      "自然談論起床和日常生活",
+      "描述挑戰和機會",
+      "詢問活動及說明責任",
+      "理解正式情境和即將來臨的事情"
+    ],
+    "contextsEn": [
+      "Talk naturally about waking and daily routines",
+      "Describe challenges and opportunities",
+      "Ask about activities and explain responsibility",
+      "Understand formal situations and approaching events"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "be up",
+    "fixedHighlight": "be up",
+    "fixedZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+    "correct": "was up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；由你決定。)What are you up to?(你在做甚麼?；他在法官面前出庭。",
+    "variableEn": "Keep the same people, things, time and meaning. Be careful with these two expressions: It is up to you. Be up before somebody may also appear as be before somebody: He was up before the judge. He was before the judge.",
+    "variableItemsZh": [
+      "be up",
+      "be up against somebody/something",
+      "be up before somebody / be before somebody",
+      "be up for something",
+      "be up to somebody",
+      "be up to something",
+      "be upon somebody"
+    ],
+    "variableItemsEn": [
+      "be up",
+      "be up against somebody/something",
+      "be up before somebody / be before somebody",
+      "be up for something",
+      "be up to somebody",
+      "be up to something",
+      "be upon somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "已經起床;醒來並離開睡床",
+        "formEn": "be up",
+        "exampleZh": "我在日出前已經起床。",
+        "exampleEn": "I was up before sunrise.",
+        "highlight": "was up"
+      },
+      {
+        "formZh": "面對強勁對手、競爭或困難",
+        "formEn": "be up against somebody/something",
+        "exampleZh": "我們正面對一個困難問題。",
+        "exampleEn": "We are up against a difficult problem.",
+        "highlight": "are up against"
+      },
+      {
+        "formZh": "在法官、法院或正式審理者面前出席",
+        "formEn": "be up before somebody / be before somebody",
+        "exampleZh": "金昨日在法庭出庭。",
+        "exampleEn": "Kim was before the court yesterday.",
+        "highlight": "was"
+      },
+      {
+        "formZh": "正獲考慮得到晉升、職位或獎項",
+        "formEn": "be up for something",
+        "exampleZh": "這張照片有機會獲得學校獎項。",
+        "exampleEn": "The photograph is up for a school prize.",
+        "highlight": "is up for"
+      },
+      {
+        "formZh": "由某人決定;是某人的責任",
+        "formEn": "be up to somebody",
+        "exampleZh": "由安娜決定選甚麼音樂。",
+        "exampleEn": "It is up to Ana to choose the music.",
+        "highlight": "is up to Ana to"
+      },
+      {
+        "formZh": "正在做甚麼或忙甚麼;有時別人並不知道",
+        "formEn": "be up to something",
+        "exampleZh": "孩子們在忙甚麼?",
+        "exampleEn": "What are the children up to?",
+        "highlight": "are the children up to"
+      },
+      {
+        "formZh": "某件事已經來臨或快將來臨",
+        "formEn": "be upon somebody",
+        "exampleZh": "新學年快將來臨。",
+        "exampleEn": "The new school year is almost upon us.",
+        "highlight": "is almost upon"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "已經起床;醒來並離開睡床",
+      "titleEn": "be up",
+      "formula": "be up",
+      "highlight": "be up",
+      "descriptionZh": "已經起床;醒來並離開睡床",
+      "descriptionEn": "I was up before sunrise.",
+      "examples": [
+        {
+          "en": "I was up before sunrise.",
+          "zh": "我在日出前已經起床。",
+          "highlight": "was up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "面對強勁對手、競爭或困難",
+      "titleEn": "be up against somebody/something",
+      "formula": "be up against somebody/something",
+      "highlight": "be up against somebody/something",
+      "descriptionZh": "面對強勁對手、競爭或困難",
+      "descriptionEn": "We are up against a difficult problem.",
+      "examples": [
+        {
+          "en": "We are up against a difficult problem.",
+          "zh": "我們正面對一個困難問題。",
+          "highlight": "are up against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在法官、法院或正式審理者面前出席",
+      "titleEn": "be up before somebody / be before somebody",
+      "formula": "be up before somebody / be before somebody",
+      "highlight": "be up before somebody / be before somebody",
+      "descriptionZh": "在法官、法院或正式審理者面前出席",
+      "descriptionEn": "Kim was before the court yesterday.",
+      "examples": [
+        {
+          "en": "Kim was before the court yesterday.",
+          "zh": "金昨日在法庭出庭。",
+          "highlight": "was"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "正獲考慮得到晉升、職位或獎項",
+      "titleEn": "be up for something",
+      "formula": "be up for something",
+      "highlight": "be up for something",
+      "descriptionZh": "正獲考慮得到晉升、職位或獎項",
+      "descriptionEn": "The photograph is up for a school prize.",
+      "examples": [
+        {
+          "en": "The photograph is up for a school prize.",
+          "zh": "這張照片有機會獲得學校獎項。",
+          "highlight": "is up for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "由某人決定;是某人的責任",
+      "titleEn": "be up to somebody",
+      "formula": "be up to somebody",
+      "highlight": "be up to somebody",
+      "descriptionZh": "由某人決定;是某人的責任",
+      "descriptionEn": "It is up to Ana to choose the music.",
+      "examples": [
+        {
+          "en": "It is up to Ana to choose the music.",
+          "zh": "由安娜決定選甚麼音樂。",
+          "highlight": "is up to Ana to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "正在做甚麼或忙甚麼;有時別人並不知道",
+      "titleEn": "be up to something",
+      "formula": "be up to something",
+      "highlight": "be up to something",
+      "descriptionZh": "正在做甚麼或忙甚麼;有時別人並不知道",
+      "descriptionEn": "What are the children up to?",
+      "examples": [
+        {
+          "en": "What are the children up to?",
+          "zh": "孩子們在忙甚麼?",
+          "highlight": "are the children up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "某件事已經來臨或快將來臨",
+      "titleEn": "be upon somebody",
+      "formula": "be upon somebody",
+      "highlight": "be upon somebody",
+      "descriptionZh": "某件事已經來臨或快將來臨",
+      "descriptionEn": "The new school year is almost upon us.",
+      "examples": [
+        {
+          "en": "The new school year is almost upon us.",
+          "zh": "新學年快將來臨。",
+          "highlight": "is almost upon"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論起床和日常生活",
+      "titleEn": "Talk naturally about waking and daily routines",
+      "zh": "be up 可以表示某人已經醒來並離開睡床。",
+      "en": "Be up lets you say that someone is awake and has left their bed."
+    },
+    {
+      "titleZh": "描述挑戰和機會",
+      "titleEn": "Describe challenges and opportunities",
+      "zh": "be up against 可以描述艱難的競爭;be up for 則可以表示有機會獲得晉升或獎項。",
+      "en": "Be up against can describe difficult competition, while be up for can describe a possible promotion or prize."
+    },
+    {
+      "titleZh": "詢問活動及說明責任",
+      "titleEn": "Ask about activities and explain responsibility",
+      "zh": "be up to something 可以詢問某人在做甚麼;be up to somebody 則可以說明由誰決定或負責。",
+      "en": "Be up to something asks what someone is doing. Be up to somebody shows who must decide or take responsibility."
+    },
+    {
+      "titleZh": "理解正式情境和即將來臨的事情",
+      "titleEn": "Understand formal situations and approaching events",
+      "zh": "be before somebody 可以描述正式出席聆訊;be upon somebody 則表示某件事快將來臨或已經來臨。",
+      "en": "Be before somebody can describe a formal appearance, while be upon somebody shows that an event is very close or has arrived."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論起床和日常生活",
+      "描述挑戰和機會",
+      "詢問活動及說明責任",
+      "理解正式情境和即將來臨的事情"
+    ],
+    "contextsEn": [
+      "Talk naturally about waking and daily routines",
+      "Describe challenges and opportunities",
+      "Ask about activities and explain responsibility",
+      "Understand formal situations and approaching events"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論起床和日常生活",
+        "titleEn": "Talk naturally about waking and daily routines",
+        "zh": "be up 可以表示某人已經醒來並離開睡床。",
+        "en": "Be up lets you say that someone is awake and has left their bed.",
+        "examples": [
+          {
+            "en": "I was up before sunrise.",
+            "zh": "我在日出前已經起床。",
+            "highlight": "was up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述挑戰和機會",
+        "titleEn": "Describe challenges and opportunities",
+        "zh": "be up against 可以描述艱難的競爭;be up for 則可以表示有機會獲得晉升或獎項。",
+        "en": "Be up against can describe difficult competition, while be up for can describe a possible promotion or prize.",
+        "examples": [
+          {
+            "en": "We are up against a difficult problem.",
+            "zh": "我們正面對一個困難問題。",
+            "highlight": "are up against"
+          }
+        ]
+      },
+      {
+        "titleZh": "詢問活動及說明責任",
+        "titleEn": "Ask about activities and explain responsibility",
+        "zh": "be up to something 可以詢問某人在做甚麼;be up to somebody 則可以說明由誰決定或負責。",
+        "en": "Be up to something asks what someone is doing. Be up to somebody shows who must decide or take responsibility.",
+        "examples": [
+          {
+            "en": "Kim was before the court yesterday.",
+            "zh": "金昨日在法庭出庭。",
+            "highlight": "was"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解正式情境和即將來臨的事情",
+        "titleEn": "Understand formal situations and approaching events",
+        "zh": "be before somebody 可以描述正式出席聆訊;be upon somebody 則表示某件事快將來臨或已經來臨。",
+        "en": "Be before somebody can describe a formal appearance, while be upon somebody shows that an event is very close or has arrived.",
+        "examples": [
+          {
+            "en": "The photograph is up for a school prize.",
+            "zh": "這張照片有機會獲得學校獎項。",
+            "highlight": "is up for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BE 片語動詞。",
+      "en": "Read the whole sentence and choose the BE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "由你決定。)What are you up to?(你在做甚麼?",
+      "titleEn": "Be careful with these two expressions: It is up to you.",
+      "zh": "由你決定。)What are you up to?(你在做甚麼?",
+      "en": "Be careful with these two expressions: It is up to you."
+    },
+    {
+      "titleZh": "他在法官面前出庭。",
+      "titleEn": "Be up before somebody may also appear as be before somebody: He was up before the judge.",
+      "zh": "他在法官面前出庭。",
+      "en": "Be up before somebody may also appear as be before somebody: He was up before the judge. He was before the judge."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BE UP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BE UP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BE UP 動詞片語句子改寫練習",
+    "titleEn": "BE UP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BE UP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BE UP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-174-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben is awake and out of bed early today.",
+      "promptZh": "賓今天很早便醒來起床了。",
+      "starter": "Ben",
+      "answer": "Ben is up early today.",
+      "answerZh": "賓今天很早便起床了。",
+      "highlight": "is up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Our team must compete with very strong players.",
+      "promptZh": "我們的隊伍必須與實力很強的選手競爭。",
+      "starter": "Our",
+      "answer": "Our team is up against very strong players.",
+      "answerZh": "我們的隊伍要面對實力很強的選手。",
+      "highlight": "is up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Clara is being considered for promotion this year.",
+      "promptZh": "克拉拉今年正獲考慮晉升。",
+      "starter": "Clara",
+      "answer": "Clara is up for promotion this year.",
+      "answerZh": "克拉拉今年有機會獲得晉升。",
+      "highlight": "is up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The final choice of film belongs to you.",
+      "promptZh": "最後由你選擇電影。",
+      "starter": "It",
+      "answer": "It is up to you to choose the film.",
+      "answerZh": "由你決定選哪一部電影。",
+      "highlight": "It is up",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our school holidays are very close now.",
+      "promptZh": "我們的學校假期很快便會開始。",
+      "starter": "The",
+      "answer": "The school holidays are nearly upon us.",
+      "answerZh": "學校假期快將來臨。",
+      "highlight": "The",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Omar must appear before the judge tomorrow.",
+      "promptZh": "奧馬明天必須在法官面前出庭。",
+      "starter": "Omar",
+      "answer": "Omar is up before the judge tomorrow.",
+      "answerZh": "奧馬明天要在法官面前出庭。",
+      "highlight": "is up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "What have the neighbours been doing lately?",
+      "promptZh": "鄰居最近在做甚麼?",
+      "starter": "What",
+      "answer": "What have the neighbours been up to lately?",
+      "answerZh": "鄰居最近在忙甚麼?",
+      "highlight": "been up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The final decision belongs to the class.",
+      "promptZh": "最後決定由全班作出。",
+      "starter": "The",
+      "answer": "The final decision is up to the class.",
+      "answerZh": "最後決定由全班作出。",
+      "highlight": "is up",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The children were awake and out of bed before six.",
+      "promptZh": "孩子們在六時前已經醒來起床。",
+      "starter": "The",
+      "answer": "The children were up before six.",
+      "answerZh": "孩子們在六時前已經起床。",
+      "highlight": "were up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The driver appeared before the judge last Monday.",
+      "promptZh": "那名司機上星期一在法官面前出庭。",
+      "starter": "The",
+      "answer": "The driver was up before the judge last Monday.",
+      "answerZh": "那名司機上星期一在法官面前出庭。",
+      "highlight": "was up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I do not know what the children are doing.",
+      "promptZh": "我不知道孩子們在做甚麼。",
+      "starter": "I",
+      "answer": "I do not know what the children are up to.",
+      "answerZh": "我不知道孩子們在忙甚麼。",
+      "highlight": "are up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The election is now here.",
+      "promptZh": "選舉現在已經來臨。",
+      "starter": "The",
+      "answer": "The election is upon us.",
+      "answerZh": "選舉已經來臨。",
+      "highlight": "is upon us",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The small shop must compete with two large shops nearby.",
+      "promptZh": "這間小店必須與附近兩間大型店舖競爭。",
+      "starter": "The",
+      "answer": "The small shop is up against two large shops nearby.",
+      "answerZh": "這間小店要面對附近兩間大型店舖的競爭。",
+      "highlight": "is up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The school play is being considered for a local prize.",
+      "promptZh": "這齣學校話劇正獲考慮角逐一個本地獎項。",
+      "starter": "The",
+      "answer": "The school play is up for a local prize.",
+      "answerZh": "這齣學校話劇有機會獲得一個本地獎項。",
+      "highlight": "is up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "What is Ravi doing in the kitchen?",
+      "promptZh": "拉維在廚房做甚麼?",
+      "starter": "What",
+      "answer": "What is Ravi up to in the kitchen?",
+      "answerZh": "拉維在廚房忙甚麼?",
+      "highlight": "is Ravi up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Everyone is awake and out of bed now.",
+      "promptZh": "現在所有人都已經醒來起床。",
+      "starter": "Everyone",
+      "answer": "Everyone is up now.",
+      "answerZh": "現在所有人都已經起床。",
+      "highlight": "is up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why must Noor appear before the judge today?",
+      "promptZh": "努爾今天為甚麼必須在法官面前出庭?",
+      "starter": "Why",
+      "answer": "Why is Noor up before the judge today?",
+      "answerZh": "努爾今天為甚麼要在法官面前出庭?",
+      "highlight": "is",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Is the film being considered for any awards?",
+      "promptZh": "這部電影有獲考慮角逐任何獎項嗎?",
+      "starter": "Is",
+      "answer": "Is the film up for any awards?",
+      "answerZh": "這部電影有機會獲得任何獎項嗎?",
+      "highlight": "Is the film up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Next week, our class will compete with the school champions.",
+      "promptZh": "下星期,我們班將與校內冠軍隊伍競賽。",
+      "starter": "Next",
+      "answer": "Next week, our class will be up against the school champions.",
+      "answerZh": "下星期,我們班將要面對校內冠軍隊伍。",
+      "highlight": "be up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Winter will reach us very soon.",
+      "promptZh": "冬天很快便會來臨。",
+      "starter": "Winter",
+      "answer": "Winter will soon be upon us.",
+      "answerZh": "冬天很快便會來臨。",
+      "highlight": "soon be upon",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "It was my responsibility to explain the change.",
+      "promptZh": "解釋這項改動是我的責任。",
+      "starter": "It",
+      "answer": "It was up to me to explain the change.",
+      "answerZh": "由我負責解釋這項改動。",
+      "highlight": "was up to me",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "She has appeared before the same judge twice.",
+      "promptZh": "她曾兩次在同一名法官面前出庭。",
+      "starter": "She",
+      "answer": "She has been up before the same judge twice.",
+      "answerZh": "她曾兩次在同一名法官面前出庭。",
+      "highlight": "been up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do you know what Hana has been doing?",
+      "promptZh": "你知道哈娜最近在做甚麼嗎?",
+      "starter": "Do",
+      "answer": "Do you know what Hana has been up to?",
+      "answerZh": "你知道哈娜最近在忙甚麼嗎?",
+      "highlight": "been up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The runners had to face a strong wind.",
+      "promptZh": "跑手必須迎着強風前進。",
+      "starter": "The",
+      "answer": "The runners were up against a strong wind.",
+      "answerZh": "跑手要面對強風。",
+      "highlight": "were up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Two workers are being considered for promotion to team leader.",
+      "promptZh": "兩名員工正獲考慮晉升為組長。",
+      "starter": "Two",
+      "answer": "Two workers are up for promotion to team leader.",
+      "answerZh": "兩名員工有機會晉升為組長。",
+      "highlight": "are up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We will be awake and out of bed early tomorrow.",
+      "promptZh": "我們明天會很早醒來起床。",
+      "starter": "We",
+      "answer": "We will be up early tomorrow.",
+      "answerZh": "我們明天會很早起床。",
+      "highlight": "be up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Dad will make the choice of restaurant.",
+      "promptZh": "爸爸會決定選哪一間餐廳。",
+      "starter": "The",
+      "answer": "The choice of restaurant will be up to Dad.",
+      "answerZh": "選哪一間餐廳將由爸爸決定。",
+      "highlight": "will be up to Dad",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They were only a few days away from the final examination.",
+      "promptZh": "他們距離期末考試只有幾天。",
+      "starter": "The",
+      "answer": "The final examination was nearly upon them.",
+      "answerZh": "期末考試快將來臨。",
+      "highlight": "was nearly upon them",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "My manager said I might be considered for promotion next year.",
+      "promptZh": "我的經理說我明年可能會獲考慮晉升。",
+      "starter": "My",
+      "answer": "My manager said I might be up for promotion next year.",
+      "answerZh": "我的經理說我明年可能有機會獲得晉升。",
+      "highlight": "be up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The coach said the players could decide whether to train indoors.",
+      "promptZh": "教練說由球員決定是否在室內訓練。",
+      "starter": "The",
+      "answer": "The coach said it was up to the players whether to train indoors.",
+      "answerZh": "教練說由球員決定是否在室內訓練。",
+      "highlight": "it was up to",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "By the time I called, Dad was already awake and out of bed.",
+      "promptZh": "我打電話時,爸爸已經醒來起床。",
+      "starter": "By",
+      "answer": "By the time I called, Dad was already up.",
+      "answerZh": "我打電話時,爸爸已經起床。",
+      "highlight": "was already up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The dog is very quiet; what is it doing?",
+      "promptZh": "那隻狗非常安靜;牠在做甚麼?",
+      "starter": "The",
+      "answer": "The dog is very quiet; what is it up to?",
+      "answerZh": "那隻狗非常安靜;牠在搞甚麼?",
+      "highlight": "is it up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Although they had a good plan, they faced several problems.",
+      "promptZh": "雖然他們有一個好計劃,但仍要面對幾個問題。",
+      "starter": "Although",
+      "answer": "Although they had a good plan, they were up against several problems.",
+      "answerZh": "雖然他們有一個好計劃,但仍要面對幾個問題。",
+      "highlight": "were up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When the case begins, Amir will appear before the judge first.",
+      "promptZh": "案件開始審理時,阿米爾會先在法官面前出庭。",
+      "starter": "When",
+      "answer": "When the case begins, Amir will be before the judge first.",
+      "answerZh": "案件開始審理時,阿米爾會先在法官面前出庭。",
+      "highlight": "be",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "With the concert date now here, we checked the tickets again.",
+      "promptZh": "演唱會日期已經來臨,我們再次檢查門票。",
+      "starter": "With",
+      "answer": "With the concert date now upon us, we checked the tickets again.",
+      "answerZh": "演唱會日期已經來臨,我們再次檢查門票。",
+      "highlight": "upon us",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "If you enter the contest, you will compete with students from every school.",
+      "promptZh": "如果你參加比賽,便要與來自每間學校的學生競爭。",
+      "starter": "If",
+      "answer": "If you enter the contest, you will be up against students from every school.",
+      "answerZh": "如果你參加比賽,便要面對來自每間學校的學生。",
+      "highlight": "be up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Which student is being considered for the special art prize?",
+      "promptZh": "哪一名學生正獲考慮角逐特別藝術獎?",
+      "starter": "Which",
+      "answer": "Which student is up for the special art prize?",
+      "answerZh": "哪一名學生有機會獲得特別藝術獎?",
+      "highlight": "is up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The teacher asked what we had been doing during the break.",
+      "promptZh": "老師問我們小息期間做了甚麼。",
+      "starter": "The",
+      "answer": "The teacher asked what we had been up to during the break.",
+      "answerZh": "老師問我們小息期間忙了甚麼。",
+      "highlight": "been up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "By then, the deadline will have arrived for you.",
+      "promptZh": "到那時,限期便會來臨。",
+      "starter": "By",
+      "answer": "By then, the deadline will be upon you.",
+      "answerZh": "到那時,限期便會來臨。",
+      "highlight": "be upon",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "I am not the person who decides the final answer.",
+      "promptZh": "最後答案不是由我決定。",
+      "starter": "The",
+      "answer": "The final answer is not up to me.",
+      "answerZh": "最後答案不是由我決定。",
+      "highlight": "is not up to me",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "By noon, all three drivers had appeared before the judge.",
+      "promptZh": "到中午前,三名司機都已在法官面前出庭。",
+      "starter": "By",
+      "answer": "By noon, all three drivers had been before the judge.",
+      "answerZh": "到中午前,三名司機都已在法官面前出庭。",
+      "highlight": "been",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Why are you awake and out of bed so early on Sunday?",
+      "promptZh": "你為甚麼星期日這麼早便醒來起床?",
+      "starter": "Why",
+      "answer": "Why are you up so early on Sunday?",
+      "answerZh": "你為甚麼星期日這麼早便起床?",
+      "highlight": "are you up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Our long weekend will begin very soon.",
+      "promptZh": "我們的長週末假期很快便會開始。",
+      "starter": "The",
+      "answer": "The long weekend is nearly upon us.",
+      "answerZh": "長週末假期快將來臨。",
+      "highlight": "The",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The new player knew he had to compete with the best runner in the club.",
+      "promptZh": "那名新隊員知道自己要與會內最出色的跑手競賽。",
+      "starter": "The",
+      "answer": "The new player knew he was up against the best runner in the club.",
+      "answerZh": "那名新隊員知道自己要面對會內最出色的跑手。",
+      "highlight": "was up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Nobody knew what the boys had been doing behind the shed.",
+      "promptZh": "沒有人知道那些男孩在小屋後面做了甚麼。",
+      "starter": "Nobody",
+      "answer": "Nobody knew what the boys had been up to behind the shed.",
+      "answerZh": "沒有人知道那些男孩在小屋後面搞了甚麼。",
+      "highlight": "been up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "If the case goes ahead, Leo will appear before the court next month.",
+      "promptZh": "如果案件繼續審理,里奧下月會在法庭出庭。",
+      "starter": "If",
+      "answer": "If the case goes ahead, Leo will be up before the court next month.",
+      "answerZh": "如果案件繼續審理,里奧下月會在法庭出庭。",
+      "highlight": "be up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Checking the doors at night has always been our responsibility.",
+      "promptZh": "晚上檢查所有門鎖一直是我們的責任。",
+      "starter": "It",
+      "answer": "It has always been up to us to check the doors at night.",
+      "answerZh": "晚上檢查所有門鎖一直由我們負責。",
+      "highlight": "It has always been up to us to check",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the song is new, it is already being considered for an award.",
+      "promptZh": "雖然這首歌很新,但已經獲考慮角逐一個獎項。",
+      "starter": "Although",
+      "answer": "Although the song is new, it is already up for an award.",
+      "answerZh": "雖然這首歌很新,但已經有機會獲得一個獎項。",
+      "highlight": "is already up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After a late night, Ravi was still not awake and out of bed at nine.",
+      "promptZh": "拉維很晚才睡,所以到九時仍未醒來起床。",
+      "starter": "After",
+      "answer": "After a late night, Ravi was still not up at nine.",
+      "answerZh": "拉維很晚才睡,所以到九時仍未起床。",
+      "highlight": "was still not up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She would not say what she had been doing all afternoon.",
+      "promptZh": "她不肯說自己整個下午都在做甚麼。",
+      "starter": "She",
+      "answer": "She would not say what she had been up to all afternoon.",
+      "answerZh": "她不肯說自己整個下午都在忙甚麼。",
+      "highlight": "been up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The big day had arrived for them, so everyone in the family was busy.",
+      "promptZh": "那個重要日子已經來臨,所以全家人都很忙。",
+      "starter": "The",
+      "answer": "The big day was upon them, so everyone in the family was busy.",
+      "answerZh": "那個重要日子已經來臨,所以全家人都很忙。",
+      "highlight": "was upon",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Everyone in the house was awake and out of bed before the early train arrived.",
+      "promptZh": "早班火車到達前,屋內所有人都已經醒來起床。",
+      "starter": "The",
+      "answer": "The whole house was up before the early train arrived.",
+      "answerZh": "早班火車到達前,全屋的人都已經起床。",
+      "highlight": "whole",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "He has been considered for promotion twice, but he has not been chosen.",
+      "promptZh": "他曾兩次獲考慮晉升,但一直未獲選中。",
+      "starter": "He",
+      "answer": "He has been up for promotion twice, but he has not been chosen.",
+      "answerZh": "他曾兩次有機會獲得晉升,但一直未獲選中。",
+      "highlight": "been up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The shop owner is due to appear before the judge next month.",
+      "promptZh": "店主預定下月在法官面前出庭。",
+      "starter": "The",
+      "answer": "The shop owner is due to be up before the judge next month.",
+      "answerZh": "店主預定下月在法官面前出庭。",
+      "highlight": "be up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "For weeks, the team has faced the same problem.",
+      "promptZh": "幾個星期以來,這支隊伍一直面對同一個問題。",
+      "starter": "For",
+      "answer": "For weeks, the team has been up against the same problem.",
+      "answerZh": "幾個星期以來,這支隊伍一直面對同一個問題。",
+      "highlight": "been up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why is making this decision my responsibility?",
+      "promptZh": "為甚麼作出這個決定是我的責任?",
+      "starter": "Why",
+      "answer": "Why is it up to me to make this decision?",
+      "answerZh": "為甚麼由我作出這個決定?",
+      "highlight": "is it up to me to make",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the court closes, both drivers will appear before the judge.",
+      "promptZh": "法庭關門前,兩名司機都會在法官面前出庭。",
+      "starter": "Before",
+      "answer": "Before the court closes, both drivers will be up before the judge.",
+      "answerZh": "法庭關門前,兩名司機都會在法官面前出庭。",
+      "highlight": "be up",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I saw the lights on, but I could not tell what the neighbours were doing.",
+      "promptZh": "我看見燈亮着,但不知道鄰居在做甚麼。",
+      "starter": "I",
+      "answer": "I saw the lights on, but I could not tell what the neighbours were up to.",
+      "answerZh": "我看見燈亮着,但不知道鄰居在忙甚麼。",
+      "highlight": "were up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    },
+    {
+      "id": "phrasal-verb-174-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The organiser will decide whether the trip goes ahead.",
+      "promptZh": "是否繼續這次旅程將由主辦者決定。",
+      "starter": "Whether",
+      "answer": "Whether the trip goes ahead is up to the organiser.",
+      "answerZh": "是否繼續這次旅程將由主辦者決定。",
+      "highlight": "is up to the organiser",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Even with extra practice, we must face a team that has won every match.",
+      "promptZh": "即使增加練習,我們仍要面對一支每場比賽都勝出的隊伍。",
+      "starter": "Even",
+      "answer": "Even with extra practice, we are up against a team that has won every match.",
+      "answerZh": "即使增加練習,我們仍要面對一支每場比賽都勝出的隊伍。",
+      "highlight": "are up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She was not awake and out of bed when the taxi arrived, so we had to wait.",
+      "promptZh": "的士到達時,她還未醒來起床,所以我們只好等候。",
+      "starter": "She",
+      "answer": "She was not up when the taxi arrived, so we had to wait.",
+      "answerZh": "的士到達時,她還未起床,所以我們只好等候。",
+      "highlight": "was not up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "As the new term was about to begin, the teachers prepared the rooms.",
+      "promptZh": "新學期即將開始,老師們準備好課室。",
+      "starter": "As",
+      "answer": "As the new term was almost upon them, the teachers prepared the rooms.",
+      "answerZh": "新學期快將來臨,老師們準備好課室。",
+      "highlight": "was almost upon them",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "By the end of the year, she may be considered for another award.",
+      "promptZh": "到年底前,她可能會獲考慮角逐另一個獎項。",
+      "starter": "By",
+      "answer": "By the end of the year, she may be up for another award.",
+      "answerZh": "到年底前,她可能有機會獲得另一個獎項。",
+      "highlight": "be up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The decision about whether the answer is fair belongs to the judges.",
+      "promptZh": "答案是否公平由評判決定。",
+      "starter": "It",
+      "answer": "It is up to the judges to decide whether the answer is fair.",
+      "answerZh": "答案是否公平由評判決定。",
+      "highlight": "It is up to",
+      "targetForm": "be up to somebody",
+      "targetMeaningZh": "由某人決定;是某人的責任"
+    },
+    {
+      "id": "phrasal-verb-174-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The student appeared before the school committee because of the complaint.",
+      "promptZh": "那名學生因為投訴而在學校委員會面前出席聆訊。",
+      "starter": "The",
+      "answer": "The student was before the school committee because of the complaint.",
+      "answerZh": "那名學生因為投訴而在學校委員會面前出席聆訊。",
+      "highlight": "was",
+      "targetForm": "be up before somebody / be before somebody",
+      "targetMeaningZh": "在法官、法院或正式審理者面前出席"
+    },
+    {
+      "id": "phrasal-verb-174-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Three books will be considered for the main prize next month.",
+      "promptZh": "三本書下月將獲考慮角逐主要獎項。",
+      "starter": "Three",
+      "answer": "Three books will be up for the main prize next month.",
+      "answerZh": "三本書下月將有機會獲得主要獎項。",
+      "highlight": "be up",
+      "targetForm": "be up for something",
+      "targetMeaningZh": "正獲考慮得到晉升、職位或獎項"
+    },
+    {
+      "id": "phrasal-verb-174-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The small company must compete with larger companies that have more money.",
+      "promptZh": "這間小公司必須與資金較多的大公司競爭。",
+      "starter": "The",
+      "answer": "The small company is up against larger companies with more money.",
+      "answerZh": "這間小公司要面對資金較多的大公司。",
+      "highlight": "is up against",
+      "targetForm": "be up against somebody/something",
+      "targetMeaningZh": "面對強勁對手或困難"
+    },
+    {
+      "id": "phrasal-verb-174-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The festival has now come to us, and the town’s streets are already busy.",
+      "promptZh": "節日已經來臨,鎮上的街道已經十分繁忙。",
+      "starter": "The",
+      "answer": "The festival is now upon us, and the town’s streets are already busy.",
+      "answerZh": "節日已經來臨,鎮上的街道已經十分繁忙。",
+      "highlight": "is",
+      "targetForm": "be upon somebody",
+      "targetMeaningZh": "某件事已經來臨或快將來臨"
+    },
+    {
+      "id": "phrasal-verb-174-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "I have been awake and out of bed since five because I wanted to study.",
+      "promptZh": "我為了溫習,自五時起便已經醒來起床。",
+      "starter": "I",
+      "answer": "I have been up since five because I wanted to study.",
+      "answerZh": "我為了溫習,自五時起便已經起床。",
+      "highlight": "been up",
+      "targetForm": "be up",
+      "targetMeaningZh": "已經起床;醒來並離開睡床"
+    },
+    {
+      "id": "phrasal-verb-174-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "I wonder what the club will be doing during the school holiday.",
+      "promptZh": "我想知道學會在學校假期期間會做甚麼。",
+      "starter": "I",
+      "answer": "I wonder what the club will be up to during the school holiday.",
+      "answerZh": "我想知道學會在學校假期期間會忙甚麼。",
+      "highlight": "be up to",
+      "targetForm": "be up to something",
+      "targetMeaningZh": "正在做甚麼或忙甚麼"
+    }
+  ]
+}

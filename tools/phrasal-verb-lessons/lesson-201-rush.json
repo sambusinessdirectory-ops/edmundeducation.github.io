@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-201",
+  "order": 201,
+  "slug": "rush",
+  "version": "1",
+  "title": "RUSH 動詞片語",
+  "titleEn": "Rush",
+  "titleZh": "RUSH 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 199 - RUSH.pdf",
+    "sourceNumber": 199,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 RUSH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to RUSH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "RUSH",
+      "highlight": "RUSH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I have been rushing around all day.",
+      "zh": "我整天都在四處奔波。",
+      "highlight": "rushing around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do not rush off; I have not finished.",
+      "zh": "別急着離開;我還未說完。",
+      "highlight": "rush off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They rushed the posters out in time for the festival.",
+      "zh": "他們趕及在節日前製作並推出海報。",
+      "highlight": "rushed the posters out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "匆忙地四處走動;到處奔波；匆忙離開;急着離去；趕忙製作、發出、出版或推出某物；迅速處理或批准某事;使某事匆忙通過某個程序",
+    "en": "rush around / rush round; rush around/round somewhere; rush off; rush something out; rush something through; rush something through something",
+    "naturalZh": [
+      "匆忙地四處走動;到處奔波",
+      "匆忙離開;急着離去",
+      "趕忙製作、發出、出版或推出某物",
+      "迅速處理或批准某事;使某事匆忙通過某個程序"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "rush around / rush round; rush around/round somewhere",
+      "titleZh": "匆忙地四處走動;到處奔波",
+      "titleEn": "rush around / rush round; rush around/round somewhere",
+      "descriptionZh": "匆忙地四處走動;到處奔波",
+      "descriptionEn": "I have been rushing around all day.",
+      "examples": [
+        {
+          "en": "I have been rushing around all day.",
+          "zh": "我整天都在四處奔波。",
+          "highlight": "rushing around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rush off",
+      "titleZh": "匆忙離開;急着離去",
+      "titleEn": "rush off",
+      "descriptionZh": "匆忙離開;急着離去",
+      "descriptionEn": "Do not rush off; I have not finished.",
+      "examples": [
+        {
+          "en": "Do not rush off; I have not finished.",
+          "zh": "別急着離開;我還未說完。",
+          "highlight": "rush off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rush something out",
+      "titleZh": "趕忙製作、發出、出版或推出某物",
+      "titleEn": "rush something out",
+      "descriptionZh": "趕忙製作、發出、出版或推出某物",
+      "descriptionEn": "They rushed the posters out in time for the festival.",
+      "examples": [
+        {
+          "en": "They rushed the posters out in time for the festival.",
+          "zh": "他們趕及在節日前製作並推出海報。",
+          "highlight": "rushed the posters out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "rush something through; rush something through something",
+      "titleZh": "迅速處理或批准某事;使某事匆忙通過某個程序",
+      "titleEn": "rush something through; rush something through something",
+      "descriptionZh": "迅速處理或批准某事;使某事匆忙通過某個程序",
+      "descriptionEn": "The office rushed the order through the system.",
+      "examples": [
+        {
+          "en": "The office rushed the order through the system.",
+          "zh": "辦事處很快便讓訂單通過系統並完成處理。",
+          "highlight": "rushed the order through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "RUSH 片語動詞的實際用途",
+    "labelEn": "RUSH Phrasal Verbs in Use",
+    "summaryZh": "rush around 和 rush round 可表示某人匆忙地在不同地方或工作之間奔波。；rush off 可表示某人很快便離開,往往比其他人預期的時間更早。；rush something out 可用來描述海報、通告、影片、門票或報告被迅速製作及推出。；rush something through 可表示計劃、規則、申請或訂單被迅速批准或處理,有時甚至沒有足夠時間仔細檢查。",
+    "summaryEn": "Rush around and rush round help you describe someone who has to hurry from one place or task to another. Rush off shows that someone leaves quickly, often before other people expect them to leave. Rush something out can describe posters, notices, videos, tickets or reports that are produced and released very quickly. Rush something through can describe a plan, rule, request or order that is approved or processed quickly, sometimes without enough time for careful checking.",
+    "contextsZh": [
+      "描述非常忙碌的一天",
+      "描述某人突然匆忙離開",
+      "談論在時間壓力下趕忙完成的工作",
+      "描述被迅速處理的決定和申請"
+    ],
+    "contextsEn": [
+      "Describe a very busy day",
+      "Describe someone leaving suddenly",
+      "Talk about work produced under time pressure",
+      "Describe decisions and requests processed very quickly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 RUSH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the RUSH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "rush around / rush round; rush around/round somewhere",
+    "fixedHighlight": "rush around / rush round; rush around/round somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 RUSH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the RUSH expression that gives the same meaning.",
+    "correct": "rushing around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；rush around 和 rush round 在本課中意思相同。後面可以加上地點,說明事情在哪裏發生。；使用 it 或 them 時,把它放在 rush 和 out/through 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Rush around and rush round have the same meaning here. A place may be added to show where the activity happens: rush around rush around the office rush round town Notice where it and them are placed: rush it out rush them out rush it through rush them through With rush something out, a noun may also appear after out: rush the posters out rush out the posters",
+    "variableItemsZh": [
+      "rush around / rush round; rush around/round somewhere",
+      "rush off",
+      "rush something out",
+      "rush something through; rush something through something"
+    ],
+    "variableItemsEn": [
+      "rush around / rush round; rush around/round somewhere",
+      "rush off",
+      "rush something out",
+      "rush something through; rush something through something"
+    ],
+    "forms": [
+      {
+        "formZh": "匆忙地四處走動;到處奔波",
+        "formEn": "rush around / rush round; rush around/round somewhere",
+        "exampleZh": "我整天都在四處奔波。",
+        "exampleEn": "I have been rushing around all day.",
+        "highlight": "rushing around"
+      },
+      {
+        "formZh": "匆忙離開;急着離去",
+        "formEn": "rush off",
+        "exampleZh": "別急着離開;我還未說完。",
+        "exampleEn": "Do not rush off; I have not finished.",
+        "highlight": "rush off"
+      },
+      {
+        "formZh": "趕忙製作、發出、出版或推出某物",
+        "formEn": "rush something out",
+        "exampleZh": "他們趕及在節日前製作並推出海報。",
+        "exampleEn": "They rushed the posters out in time for the festival.",
+        "highlight": "rushed the posters out"
+      },
+      {
+        "formZh": "迅速處理或批准某事;使某事匆忙通過某個程序",
+        "formEn": "rush something through; rush something through something",
+        "exampleZh": "辦事處很快便讓訂單通過系統並完成處理。",
+        "exampleEn": "The office rushed the order through the system.",
+        "highlight": "rushed the order through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "匆忙地四處走動;到處奔波",
+      "titleEn": "rush around / rush round; rush around/round somewhere",
+      "formula": "rush around / rush round; rush around/round somewhere",
+      "highlight": "rush around / rush round; rush around/round somewhere",
+      "descriptionZh": "匆忙地四處走動;到處奔波",
+      "descriptionEn": "I have been rushing around all day.",
+      "examples": [
+        {
+          "en": "I have been rushing around all day.",
+          "zh": "我整天都在四處奔波。",
+          "highlight": "rushing around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "匆忙離開;急着離去",
+      "titleEn": "rush off",
+      "formula": "rush off",
+      "highlight": "rush off",
+      "descriptionZh": "匆忙離開;急着離去",
+      "descriptionEn": "Do not rush off; I have not finished.",
+      "examples": [
+        {
+          "en": "Do not rush off; I have not finished.",
+          "zh": "別急着離開;我還未說完。",
+          "highlight": "rush off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "趕忙製作、發出、出版或推出某物",
+      "titleEn": "rush something out",
+      "formula": "rush something out",
+      "highlight": "rush something out",
+      "descriptionZh": "趕忙製作、發出、出版或推出某物",
+      "descriptionEn": "They rushed the posters out in time for the festival.",
+      "examples": [
+        {
+          "en": "They rushed the posters out in time for the festival.",
+          "zh": "他們趕及在節日前製作並推出海報。",
+          "highlight": "rushed the posters out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "迅速處理或批准某事;使某事匆忙通過某個程序",
+      "titleEn": "rush something through; rush something through something",
+      "formula": "rush something through; rush something through something",
+      "highlight": "rush something through; rush something through something",
+      "descriptionZh": "迅速處理或批准某事;使某事匆忙通過某個程序",
+      "descriptionEn": "The office rushed the order through the system.",
+      "examples": [
+        {
+          "en": "The office rushed the order through the system.",
+          "zh": "辦事處很快便讓訂單通過系統並完成處理。",
+          "highlight": "rushed the order through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述非常忙碌的一天",
+      "titleEn": "Describe a very busy day",
+      "zh": "rush around 和 rush round 可表示某人匆忙地在不同地方或工作之間奔波。",
+      "en": "Rush around and rush round help you describe someone who has to hurry from one place or task to another."
+    },
+    {
+      "titleZh": "描述某人突然匆忙離開",
+      "titleEn": "Describe someone leaving suddenly",
+      "zh": "rush off 可表示某人很快便離開,往往比其他人預期的時間更早。",
+      "en": "Rush off shows that someone leaves quickly, often before other people expect them to leave."
+    },
+    {
+      "titleZh": "談論在時間壓力下趕忙完成的工作",
+      "titleEn": "Talk about work produced under time pressure",
+      "zh": "rush something out 可用來描述海報、通告、影片、門票或報告被迅速製作及推出。",
+      "en": "Rush something out can describe posters, notices, videos, tickets or reports that are produced and released very quickly."
+    },
+    {
+      "titleZh": "描述被迅速處理的決定和申請",
+      "titleEn": "Describe decisions and requests processed very quickly",
+      "zh": "rush something through 可表示計劃、規則、申請或訂單被迅速批准或處理,有時甚至沒有足夠時間仔細檢查。",
+      "en": "Rush something through can describe a plan, rule, request or order that is approved or processed quickly, sometimes without enough time for careful checking."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述非常忙碌的一天",
+      "描述某人突然匆忙離開",
+      "談論在時間壓力下趕忙完成的工作",
+      "描述被迅速處理的決定和申請"
+    ],
+    "contextsEn": [
+      "Describe a very busy day",
+      "Describe someone leaving suddenly",
+      "Talk about work produced under time pressure",
+      "Describe decisions and requests processed very quickly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述非常忙碌的一天",
+        "titleEn": "Describe a very busy day",
+        "zh": "rush around 和 rush round 可表示某人匆忙地在不同地方或工作之間奔波。",
+        "en": "Rush around and rush round help you describe someone who has to hurry from one place or task to another.",
+        "examples": [
+          {
+            "en": "I have been rushing around all day.",
+            "zh": "我整天都在四處奔波。",
+            "highlight": "rushing around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人突然匆忙離開",
+        "titleEn": "Describe someone leaving suddenly",
+        "zh": "rush off 可表示某人很快便離開,往往比其他人預期的時間更早。",
+        "en": "Rush off shows that someone leaves quickly, often before other people expect them to leave.",
+        "examples": [
+          {
+            "en": "Do not rush off; I have not finished.",
+            "zh": "別急着離開;我還未說完。",
+            "highlight": "rush off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論在時間壓力下趕忙完成的工作",
+        "titleEn": "Talk about work produced under time pressure",
+        "zh": "rush something out 可用來描述海報、通告、影片、門票或報告被迅速製作及推出。",
+        "en": "Rush something out can describe posters, notices, videos, tickets or reports that are produced and released very quickly.",
+        "examples": [
+          {
+            "en": "They rushed the posters out in time for the festival.",
+            "zh": "他們趕及在節日前製作並推出海報。",
+            "highlight": "rushed the posters out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述被迅速處理的決定和申請",
+        "titleEn": "Describe decisions and requests processed very quickly",
+        "zh": "rush something through 可表示計劃、規則、申請或訂單被迅速批准或處理,有時甚至沒有足夠時間仔細檢查。",
+        "en": "Rush something through can describe a plan, rule, request or order that is approved or processed quickly, sometimes without enough time for careful checking.",
+        "examples": [
+          {
+            "en": "The office rushed the order through the system.",
+            "zh": "辦事處很快便讓訂單通過系統並完成處理。",
+            "highlight": "rushed the order through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 RUSH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the RUSH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 RUSH 片語動詞。",
+      "en": "Read the whole sentence and choose the RUSH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "rush around 和 rush round 在本課中意思相同。後面可以加上地點,說明事情在哪裏發生。",
+      "titleEn": "Rush around and rush round have the same meaning here.",
+      "zh": "rush around 和 rush round 在本課中意思相同。後面可以加上地點,說明事情在哪裏發生。",
+      "en": "Rush around and rush round have the same meaning here. A place may be added to show where the activity happens: rush around rush around the office rush round town"
+    },
+    {
+      "titleZh": "使用 it 或 them 時,把它放在 rush 和 out/through 中間。",
+      "titleEn": "Notice where it and them are placed: rush it out rush them out rush it through rush them through With rush something out, a noun may also appear after out: rush the posters out rush out the posters.",
+      "zh": "使用 it 或 them 時,把它放在 rush 和 out/through 中間。",
+      "en": "Notice where it and them are placed: rush it out rush them out rush it through rush them through With rush something out, a noun may also appear after out: rush the posters out rush out the posters"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 RUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to RUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "RUSH 動詞片語句子改寫練習",
+    "titleEn": "RUSH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 RUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to RUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-201-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I have been hurrying from place to place all morning.",
+      "promptZh": "我整個早上都在不同地方之間匆忙奔波。",
+      "starter": "I’ve",
+      "answer": "I’ve been rushing around all morning.",
+      "answerZh": "我整個早上都在四處奔波。",
+      "highlight": "I’ve",
+      "targetForm": "rush around",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The school produced and sent the new notices very quickly before lunch.",
+      "promptZh": "學校在午飯前迅速製作並發出了新通告。",
+      "starter": "The",
+      "answer": "The school rushed the new notices out before lunch.",
+      "answerZh": "學校在午飯前趕忙製作並發出了新通告。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Do not leave in a hurry before the meeting ends.",
+      "promptZh": "會議結束前不要匆忙離開。",
+      "starter": "Do",
+      "answer": "Do not rush off before the meeting ends.",
+      "answerZh": "會議結束前不要匆忙離開。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The committee approved the new rule very quickly, without enough time for discussion.",
+      "promptZh": "委員會在沒有足夠時間討論的情況下,迅速批准了新規則。",
+      "starter": "The",
+      "answer": "The committee rushed the new rule through without enough time for discussion.",
+      "answerZh": "委員會在沒有足夠時間討論的情況下,匆忙批准了新規則。",
+      "highlight": "rushed",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nina hurried from shop to shop before they closed.",
+      "promptZh": "妮娜在店舖關門前匆忙地逐間店舖走訪。",
+      "starter": "Nina",
+      "answer": "Nina rushed round the shops before they closed.",
+      "answerZh": "妮娜在店舖關門前匆忙地逐間店舖走訪。",
+      "highlight": "rushed round the shops",
+      "targetForm": "rush round",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The office moved my request through the system very quickly.",
+      "promptZh": "辦事處很快便讓我的申請通過系統並完成處理。",
+      "starter": "The",
+      "answer": "The office rushed my request through the system.",
+      "answerZh": "辦事處很快便讓我的申請通過系統並完成處理。",
+      "highlight": "rushed",
+      "targetForm": "rush something through something",
+      "targetMeaningZh": "使某事迅速通過某個程序"
+    },
+    {
+      "id": "phrasal-verb-201-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They produced the festival posters very quickly on Friday.",
+      "promptZh": "他們在星期五迅速製作了節日海報。",
+      "starter": "They",
+      "answer": "They rushed the festival posters out on Friday.",
+      "answerZh": "他們在星期五趕忙製作並推出了節日海報。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo left in a hurry after the lesson.",
+      "promptZh": "里奧下課後匆忙離開。",
+      "starter": "Leo",
+      "answer": "Leo rushed off after the lesson.",
+      "answerZh": "里奧下課後匆忙離開。",
+      "highlight": "rushed off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We hurried all over the station looking for the correct platform.",
+      "promptZh": "我們在車站內四處奔走,尋找正確的月台。",
+      "starter": "We",
+      "answer": "We rushed around the station looking for the correct platform.",
+      "answerZh": "我們在車站內四處奔走,尋找正確的月台。",
+      "highlight": "rushed around",
+      "targetForm": "rush around somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new rule was approved very quickly before the holiday.",
+      "promptZh": "這項新規則在假期前被迅速批准。",
+      "starter": "The",
+      "answer": "The new rule was rushed through before the holiday.",
+      "answerZh": "這項新規則在假期前被匆忙批准。",
+      "highlight": "rushed through",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did you leave in a hurry without saying goodbye?",
+      "promptZh": "你為甚麼沒有道別便匆忙離開?",
+      "starter": "Why",
+      "answer": "Why did you rush off without saying goodbye?",
+      "answerZh": "你為甚麼沒有道別便匆忙離開?",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The print shop is producing the programmes very quickly now.",
+      "promptZh": "印刷店現在正迅速製作節目單。",
+      "starter": "The",
+      "answer": "The print shop is rushing the programmes out now.",
+      "answerZh": "印刷店現在正趕忙製作節目單。",
+      "highlight": "rushing",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sam has been hurrying from place to place since seven o’clock.",
+      "promptZh": "山姆自七時起便一直四處奔波。",
+      "starter": "Sam",
+      "answer": "Sam has been rushing around since seven o’clock.",
+      "answerZh": "山姆自七時起便一直四處奔波。",
+      "highlight": "rushing around",
+      "targetForm": "rush around",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The manager will move your order through the process very quickly today.",
+      "promptZh": "經理今天會迅速處理你的訂單。",
+      "starter": "The",
+      "answer": "The manager will rush your order through today.",
+      "answerZh": "經理今天會迅速處理你的訂單。",
+      "highlight": "rush",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速處理某事"
+    },
+    {
+      "id": "phrasal-verb-201-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Ella had to leave in a hurry to catch the last bus.",
+      "promptZh": "埃拉要匆忙離開,以趕上尾班巴士。",
+      "starter": "Ella",
+      "answer": "Ella had to rush off to catch the last bus.",
+      "answerZh": "埃拉要匆忙離開,以趕上尾班巴士。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can the team finish and release the update very quickly by tonight?",
+      "promptZh": "團隊可以在今晚前迅速完成並推出更新版本嗎?",
+      "starter": "Can",
+      "answer": "Can the team rush the update out by tonight?",
+      "answerZh": "團隊可以在今晚前趕忙完成並推出更新版本嗎?",
+      "highlight": "rush",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The nurse cannot leave in a hurry while the patient still needs help.",
+      "promptZh": "病人仍然需要協助時,護士不能匆忙離開。",
+      "starter": "The",
+      "answer": "The nurse cannot rush off while the patient still needs help.",
+      "answerZh": "病人仍然需要協助時,護士不能匆忙離開。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Are they still hurrying all over the office?",
+      "promptZh": "他們仍然在辦公室內四處奔走嗎?",
+      "starter": "Are",
+      "answer": "Are they still rushing round the office?",
+      "answerZh": "他們仍然在辦公室內四處奔走嗎?",
+      "highlight": "rushing round",
+      "targetForm": "rush round somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The company has produced and released three new videos very quickly this week.",
+      "promptZh": "公司本星期迅速製作並推出了三段新影片。",
+      "starter": "The",
+      "answer": "The company has rushed three new videos out this week.",
+      "answerZh": "公司本星期已趕忙製作並推出三段新影片。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Why was the plan approved with so little time for discussion?",
+      "promptZh": "為甚麼這項計劃在只有很少時間討論的情況下便獲批准?",
+      "starter": "Why",
+      "answer": "Why was the plan rushed through so quickly?",
+      "answerZh": "為甚麼這項計劃如此匆忙便獲批准?",
+      "highlight": "rushed through",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The message was urgent, so we prepared and sent it very quickly before noon.",
+      "promptZh": "這則訊息很緊急,所以我們在中午前迅速準備並發出了它。",
+      "starter": "The",
+      "answer": "The message was urgent, so we rushed it out before noon.",
+      "answerZh": "這則訊息很緊急,所以我們在中午前趕忙準備並發出了它。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作或發出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ben hurried from place to place all morning and forgot to eat breakfast.",
+      "promptZh": "賓整個早上四處奔波,忘記了吃早餐。",
+      "starter": "Rushing",
+      "answer": "Rushing around all morning, Ben forgot to eat breakfast.",
+      "answerZh": "賓整個早上四處奔波,忘記了吃早餐。",
+      "highlight": "Rushing around",
+      "targetForm": "rush around",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The application was complete, so the staff member processed it very quickly.",
+      "promptZh": "申請文件已經齊全,所以職員很快便完成了處理。",
+      "starter": "The",
+      "answer": "The application was complete, so the staff member rushed it through.",
+      "answerZh": "申請文件已經齊全,所以職員很快便完成了處理。",
+      "highlight": "rushed",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速處理某事"
+    },
+    {
+      "id": "phrasal-verb-201-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ava did not want to leave in a hurry, but her bus was waiting.",
+      "promptZh": "艾娃不想匆忙離開,但她的巴士正在等候。",
+      "starter": "Ava",
+      "answer": "Ava did not want to rush off, but her bus was waiting.",
+      "answerZh": "艾娃不想匆忙離開,但她的巴士正在等候。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The extra tickets were produced and released very quickly after every ticket for the first show had been sold.",
+      "promptZh": "第一場表演的門票全部售出後,額外門票很快便被製作及推出。",
+      "starter": "The",
+      "answer": "The extra tickets were rushed out after every ticket for the first show had been sold.",
+      "answerZh": "第一場表演的門票全部售出後,額外門票很快便被趕製及推出。",
+      "highlight": "rushed out",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We asked the travel office to process our forms very quickly through the system.",
+      "promptZh": "我們要求旅遊辦事處迅速讓表格通過系統並完成處理。",
+      "starter": "We",
+      "answer": "We asked the travel office to rush our forms through the system.",
+      "answerZh": "我們要求旅遊辦事處迅速讓表格通過系統並完成處理。",
+      "highlight": "rush",
+      "targetForm": "rush something through something",
+      "targetMeaningZh": "使某事迅速通過某個程序"
+    },
+    {
+      "id": "phrasal-verb-201-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Priya hurried from place to place around town all afternoon and finally found the gift.",
+      "promptZh": "普里雅整個下午在市內四處奔波,終於找到了禮物。",
+      "starter": "After",
+      "answer": "After rushing round town all afternoon, Priya finally found the gift.",
+      "answerZh": "普里雅整個下午在市內四處奔波,終於找到了禮物。",
+      "highlight": "After rushing round",
+      "targetForm": "rush round somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The editor published a short correction very quickly that evening.",
+      "promptZh": "編輯在當晚迅速刊登了一則簡短的更正。",
+      "starter": "The",
+      "answer": "The editor rushed out a short correction that evening.",
+      "answerZh": "編輯在當晚迅速刊登了一則簡短的更正。",
+      "highlight": "rushed out",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或出版某物"
+    },
+    {
+      "id": "phrasal-verb-201-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please do not leave in a hurry; I still need your help.",
+      "promptZh": "請不要匆忙離開;我仍然需要你的協助。",
+      "starter": "Please",
+      "answer": "Please do not rush off; I still need your help.",
+      "answerZh": "請不要匆忙離開;我仍然需要你的協助。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A final decision is being approved too quickly without enough discussion.",
+      "promptZh": "最終決定在沒有足夠討論的情況下被過急批准。",
+      "starter": "A",
+      "answer": "A final decision is being rushed through without enough discussion.",
+      "answerZh": "最終決定在沒有足夠討論的情況下被過急批准。",
+      "highlight": "rushed through",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The town council approved the plan very quickly even though many local people had questions.",
+      "promptZh": "雖然很多居民仍有疑問,但市議會很快便批准了計劃。",
+      "starter": "The",
+      "answer": "The town council rushed the plan through even though many local people had questions.",
+      "answerZh": "雖然很多居民仍有疑問,但市議會仍匆忙批准了計劃。",
+      "highlight": "rushed",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Ravi spent the whole lunch break hurrying from one part of the school to another.",
+      "promptZh": "拉維整個午飯時間都在校內不同地方之間匆忙奔走。",
+      "starter": "Ravi",
+      "answer": "Ravi spent the whole lunch break rushing around the school.",
+      "answerZh": "拉維整個午飯時間都在校內四處奔走。",
+      "highlight": "rushing around",
+      "targetForm": "rush around somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The speaker left in a hurry as soon as the questions began.",
+      "promptZh": "提問環節一開始,講者便匆忙離開。",
+      "starter": "The",
+      "answer": "The speaker rushed off as soon as the questions began.",
+      "answerZh": "提問環節一開始,講者便匆忙離開。",
+      "highlight": "rushed off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "To meet the deadline, the team released a simpler version of the app very quickly.",
+      "promptZh": "為了趕及限期,團隊迅速推出了較簡單的應用程式版本。",
+      "starter": "To",
+      "answer": "To meet the deadline, the team rushed out a simpler version of the app.",
+      "answerZh": "為了趕及限期,團隊迅速推出了較簡單的應用程式版本。",
+      "highlight": "rushed out",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They should not approve the safety plan too quickly merely to save time.",
+      "promptZh": "他們不應只為了節省時間而過急批准安全計劃。",
+      "starter": "They",
+      "answer": "They should not rush the safety plan through merely to save time.",
+      "answerZh": "他們不應只為了節省時間而過急批准安全計劃。",
+      "highlight": "rush",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The children were hurrying all over the house, looking for their shoes.",
+      "promptZh": "孩子們正在屋內四處奔走,尋找自己的鞋。",
+      "starter": "The",
+      "answer": "The children were rushing round the house, looking for their shoes.",
+      "answerZh": "孩子們正在屋內四處奔走,尋找自己的鞋。",
+      "highlight": "rushing round",
+      "targetForm": "rush round somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The magazine produced and published the festival guide very quickly before the opening day.",
+      "promptZh": "雜誌在開幕日前迅速製作並出版了節日指南。",
+      "starter": "The",
+      "answer": "The magazine rushed the festival guide out before the opening day.",
+      "answerZh": "雜誌在開幕日前趕忙製作並出版了節日指南。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或出版某物"
+    },
+    {
+      "id": "phrasal-verb-201-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "We had only just arrived when Omar left in a hurry again.",
+      "promptZh": "我們才剛到達,奧馬便再次匆忙離開。",
+      "starter": "We",
+      "answer": "We had only just arrived when Omar rushed off again.",
+      "answerZh": "我們才剛到達,奧馬便再次匆忙離開。",
+      "highlight": "rushed off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Has the school approved the timetable change too quickly without asking the teachers?",
+      "promptZh": "學校是否在沒有詢問老師的情況下,過急批准了時間表改動?",
+      "starter": "Has",
+      "answer": "Has the school rushed the timetable change through without asking the teachers?",
+      "answerZh": "學校是否在沒有詢問老師的情況下,過急批准了時間表改動?",
+      "highlight": "rushed",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Instead of hurrying from place to place, Lena made a list and completed one task at a time.",
+      "promptZh": "莉娜沒有四處奔波,而是列出清單,每次完成一項工作。",
+      "starter": "Instead",
+      "answer": "Instead of rushing around, Lena made a list and completed one task at a time.",
+      "answerZh": "莉娜沒有四處奔波,而是列出清單,每次完成一項工作。",
+      "highlight": "rushing around",
+      "targetForm": "rush around",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because the event date changed, the organisers had to produce and send the new tickets very quickly within two days.",
+      "promptZh": "由於活動日期有變,主辦單位必須在兩天內迅速製作並發出新門票。",
+      "starter": "Because",
+      "answer": "Because the event date changed, the organisers had to rush the new tickets out within two days.",
+      "answerZh": "由於活動日期有變,主辦單位必須在兩天內趕忙製作並發出新門票。",
+      "highlight": "rush",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not leave in a hurry the moment the bell rings; we need to move the tables first.",
+      "promptZh": "鈴聲一響便不要急着離開;我們要先搬動桌子。",
+      "starter": "Do",
+      "answer": "Do not rush off the moment the bell rings; we need to move the tables first.",
+      "answerZh": "鈴聲一響便不要急着離開;我們要先搬動桌子。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Kai had hurried from place to place around the city all day, so he was too tired to cook.",
+      "promptZh": "啟整天在市內四處奔波,因此累得無法煮飯。",
+      "starter": "Having",
+      "answer": "Having rushed around the city all day, Kai was too tired to cook.",
+      "answerZh": "啟整天在市內四處奔波,因此累得無法煮飯。",
+      "highlight": "Having rushed",
+      "targetForm": "rush around somewhere",
+      "targetMeaningZh": "在某處匆忙四處走動"
+    },
+    {
+      "id": "phrasal-verb-201-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The director was criticised for approving the new policy too quickly without enough testing.",
+      "promptZh": "總監因沒有進行足夠測試便過急批准新政策而受到批評。",
+      "starter": "The",
+      "answer": "The director was criticised for rushing the new policy through without enough testing.",
+      "answerZh": "總監因沒有進行足夠測試便過急批准新政策而受到批評。",
+      "highlight": "rushing",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The news site published the story very quickly before checking every fact.",
+      "promptZh": "新聞網站在核實所有事實前便迅速刊登了報道。",
+      "starter": "The",
+      "answer": "The news site rushed out the story before checking every fact.",
+      "answerZh": "新聞網站在核實所有事實前便匆忙刊登了報道。",
+      "highlight": "rushed out",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或出版某物"
+    },
+    {
+      "id": "phrasal-verb-201-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nora promised not to leave in a hurry before the discussion was finished.",
+      "promptZh": "諾拉答應在討論結束前不會匆忙離開。",
+      "starter": "Nora",
+      "answer": "Nora promised not to rush off before the discussion was finished.",
+      "answerZh": "諾拉答應在討論結束前不會匆忙離開。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    },
+    {
+      "id": "phrasal-verb-201-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the first posters contained the wrong date, the team produced and sent corrected ones very quickly that afternoon.",
+      "promptZh": "第一批海報印錯日期後,團隊在當天下午迅速製作並發出更正版本。",
+      "starter": "When",
+      "answer": "When the first posters contained the wrong date, the team rushed corrected ones out that afternoon.",
+      "answerZh": "第一批海報印錯日期後,團隊在當天下午趕忙製作並發出更正版本。",
+      "highlight": "rushed",
+      "targetForm": "rush something out",
+      "targetMeaningZh": "趕忙製作、發出或推出某物"
+    },
+    {
+      "id": "phrasal-verb-201-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "All week, the staff have been hurrying from one urgent job to another.",
+      "promptZh": "整個星期,員工都在不同的緊急工作之間匆忙奔波。",
+      "starter": "All",
+      "answer": "All week, the staff have been rushing around from one urgent job to another.",
+      "answerZh": "整個星期,員工都在不同的緊急工作之間匆忙奔波。",
+      "highlight": "rushing around",
+      "targetForm": "rush around",
+      "targetMeaningZh": "匆忙四處走動;到處奔波"
+    },
+    {
+      "id": "phrasal-verb-201-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Even a popular proposal should not be approved too quickly before everyone has read it.",
+      "promptZh": "即使是受歡迎的建議,也不應在所有人閱讀前便過急批准。",
+      "starter": "Even",
+      "answer": "Even a popular proposal should not be rushed through before everyone has read it.",
+      "answerZh": "即使是受歡迎的建議,也不應在所有人閱讀前便過急批准。",
+      "highlight": "rushed through",
+      "targetForm": "rush something through",
+      "targetMeaningZh": "迅速或過急處理、批准某事"
+    },
+    {
+      "id": "phrasal-verb-201-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The doctor asked the family not to leave in a hurry because she still had important news.",
+      "promptZh": "醫生請那家人不要匆忙離開,因為她仍有重要消息。",
+      "starter": "The",
+      "answer": "The doctor asked the family not to rush off because she still had important news.",
+      "answerZh": "醫生請那家人不要匆忙離開,因為她仍有重要消息。",
+      "highlight": "rush off",
+      "targetForm": "rush off",
+      "targetMeaningZh": "匆忙離開"
+    }
+  ]
+}

@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-195",
+  "order": 195,
+  "slug": "bump",
+  "version": "1",
+  "title": "BUMP 動詞片語",
+  "titleEn": "Bump",
+  "titleZh": "BUMP 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 194 - BUMP.pdf",
+    "sourceNumber": 194,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BUMP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BUMP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BUMP",
+      "highlight": "BUMP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I bumped into an old friend in town.",
+      "zh": "我在市中心偶然遇見一位老朋友。",
+      "highlight": "bumped into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "In the crime story, the gang bumped the witness off.",
+      "zh": "在那個犯罪故事中,匪幫殺害了證人。",
+      "highlight": "bumped the witness off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The airline bumped two passengers off the flight.",
+      "zh": "航空公司拒絕讓兩名乘客乘搭原定航班。",
+      "highlight": "bumped two passengers off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "偶然遇見某人；非正式說法,通常見於犯罪故事:殺害某人；因為賣出太多機票等原因,不讓某人乘搭原定航班；把某人提升或升級至較高級別；提高某事物的數量、價格或水平",
+    "en": "bump into somebody; bump somebody off; bump somebody off something; bump somebody up to something; bump something up",
+    "naturalZh": [
+      "偶然遇見某人",
+      "非正式說法,通常見於犯罪故事:殺害某人",
+      "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+      "把某人提升或升級至較高級別",
+      "提高某事物的數量、價格或水平"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bump into somebody",
+      "titleZh": "偶然遇見某人",
+      "titleEn": "bump into somebody",
+      "descriptionZh": "偶然遇見某人",
+      "descriptionEn": "I bumped into an old friend in town.",
+      "examples": [
+        {
+          "en": "I bumped into an old friend in town.",
+          "zh": "我在市中心偶然遇見一位老朋友。",
+          "highlight": "bumped into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bump somebody off",
+      "titleZh": "非正式說法,通常見於犯罪故事:殺害某人",
+      "titleEn": "bump somebody off",
+      "descriptionZh": "非正式說法,通常見於犯罪故事:殺害某人",
+      "descriptionEn": "In the crime story, the gang bumped the witness off.",
+      "examples": [
+        {
+          "en": "In the crime story, the gang bumped the witness off.",
+          "zh": "在那個犯罪故事中,匪幫殺害了證人。",
+          "highlight": "bumped the witness off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bump somebody off something",
+      "titleZh": "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+      "titleEn": "bump somebody off something",
+      "descriptionZh": "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+      "descriptionEn": "The airline bumped two passengers off the flight.",
+      "examples": [
+        {
+          "en": "The airline bumped two passengers off the flight.",
+          "zh": "航空公司拒絕讓兩名乘客乘搭原定航班。",
+          "highlight": "bumped two passengers off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bump somebody up to something",
+      "titleZh": "把某人提升或升級至較高級別",
+      "titleEn": "bump somebody up to something",
+      "descriptionZh": "把某人提升或升級至較高級別",
+      "descriptionEn": "The hotel bumped us up to a larger room.",
+      "examples": [
+        {
+          "en": "The hotel bumped us up to a larger room.",
+          "zh": "酒店把我們升級至較大的房間。",
+          "highlight": "bumped us up to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bump something up",
+      "titleZh": "提高某事物的數量、價格或水平",
+      "titleEn": "bump something up",
+      "descriptionZh": "提高某事物的數量、價格或水平",
+      "descriptionEn": "The shop bumped the price up by five dollars.",
+      "examples": [
+        {
+          "en": "The shop bumped the price up by five dollars.",
+          "zh": "店舖把價格提高了五元。",
+          "highlight": "bumped the price up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BUMP 片語動詞的實際用途",
+    "labelEn": "BUMP Phrasal Verbs in Use",
+    "summaryZh": "bump into 可以描述在店舖、車站或公眾活動中偶然遇見某人。；bump somebody up 可以描述某人獲安排至更好的座位、房間、班別或職位。；bump something up 可以描述價格、人數、費用、薪金和上限的增加。；bump somebody off 可以出現在犯罪故事中;bump somebody off a flight 則與航班和座位不足有關。",
+    "summaryEn": "Bump into helps you describe meeting somebody unexpectedly in places such as shops, stations and public events. Bump somebody up can describe receiving a better seat, room, class or position. Bump something up can describe increases in prices, numbers, fees, pay and limits. Bump somebody off may appear in crime stories, while bump somebody off a flight is commonly connected with air travel and insufficient seats.",
+    "contextsZh": [
+      "談論意料之外的相遇",
+      "談論升級和提升",
+      "清楚表達數量或價格上升",
+      "理解 OFF 所表達的兩種不同意思"
+    ],
+    "contextsEn": [
+      "Talk about unexpected meetings",
+      "Talk about upgrades and higher levels",
+      "Talk about increases clearly",
+      "Understand two very different meanings of OFF"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BUMP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BUMP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bump into somebody",
+    "fixedHighlight": "bump into somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 BUMP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BUMP expression that gives the same meaning.",
+    "correct": "bumped into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；bump somebody off 和 bump somebody off a flight 的意思非常不同。請仔細閱讀 off 後面的內容。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow these models: bump into him bump her off bump them off the flight bump him up bump it up Bump somebody off and bump somebody off a flight have very different meanings. Read the words after off carefully.",
+    "variableItemsZh": [
+      "bump into somebody",
+      "bump somebody off",
+      "bump somebody off something",
+      "bump somebody up to something",
+      "bump something up"
+    ],
+    "variableItemsEn": [
+      "bump into somebody",
+      "bump somebody off",
+      "bump somebody off something",
+      "bump somebody up to something",
+      "bump something up"
+    ],
+    "forms": [
+      {
+        "formZh": "偶然遇見某人",
+        "formEn": "bump into somebody",
+        "exampleZh": "我在市中心偶然遇見一位老朋友。",
+        "exampleEn": "I bumped into an old friend in town.",
+        "highlight": "bumped into"
+      },
+      {
+        "formZh": "非正式說法,通常見於犯罪故事:殺害某人",
+        "formEn": "bump somebody off",
+        "exampleZh": "在那個犯罪故事中,匪幫殺害了證人。",
+        "exampleEn": "In the crime story, the gang bumped the witness off.",
+        "highlight": "bumped the witness off"
+      },
+      {
+        "formZh": "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+        "formEn": "bump somebody off something",
+        "exampleZh": "航空公司拒絕讓兩名乘客乘搭原定航班。",
+        "exampleEn": "The airline bumped two passengers off the flight.",
+        "highlight": "bumped two passengers off"
+      },
+      {
+        "formZh": "把某人提升或升級至較高級別",
+        "formEn": "bump somebody up to something",
+        "exampleZh": "酒店把我們升級至較大的房間。",
+        "exampleEn": "The hotel bumped us up to a larger room.",
+        "highlight": "bumped us up to"
+      },
+      {
+        "formZh": "提高某事物的數量、價格或水平",
+        "formEn": "bump something up",
+        "exampleZh": "店舖把價格提高了五元。",
+        "exampleEn": "The shop bumped the price up by five dollars.",
+        "highlight": "bumped the price up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "偶然遇見某人",
+      "titleEn": "bump into somebody",
+      "formula": "bump into somebody",
+      "highlight": "bump into somebody",
+      "descriptionZh": "偶然遇見某人",
+      "descriptionEn": "I bumped into an old friend in town.",
+      "examples": [
+        {
+          "en": "I bumped into an old friend in town.",
+          "zh": "我在市中心偶然遇見一位老朋友。",
+          "highlight": "bumped into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "非正式說法,通常見於犯罪故事:殺害某人",
+      "titleEn": "bump somebody off",
+      "formula": "bump somebody off",
+      "highlight": "bump somebody off",
+      "descriptionZh": "非正式說法,通常見於犯罪故事:殺害某人",
+      "descriptionEn": "In the crime story, the gang bumped the witness off.",
+      "examples": [
+        {
+          "en": "In the crime story, the gang bumped the witness off.",
+          "zh": "在那個犯罪故事中,匪幫殺害了證人。",
+          "highlight": "bumped the witness off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+      "titleEn": "bump somebody off something",
+      "formula": "bump somebody off something",
+      "highlight": "bump somebody off something",
+      "descriptionZh": "因為賣出太多機票等原因,不讓某人乘搭原定航班",
+      "descriptionEn": "The airline bumped two passengers off the flight.",
+      "examples": [
+        {
+          "en": "The airline bumped two passengers off the flight.",
+          "zh": "航空公司拒絕讓兩名乘客乘搭原定航班。",
+          "highlight": "bumped two passengers off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人提升或升級至較高級別",
+      "titleEn": "bump somebody up to something",
+      "formula": "bump somebody up to something",
+      "highlight": "bump somebody up to something",
+      "descriptionZh": "把某人提升或升級至較高級別",
+      "descriptionEn": "The hotel bumped us up to a larger room.",
+      "examples": [
+        {
+          "en": "The hotel bumped us up to a larger room.",
+          "zh": "酒店把我們升級至較大的房間。",
+          "highlight": "bumped us up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "提高某事物的數量、價格或水平",
+      "titleEn": "bump something up",
+      "formula": "bump something up",
+      "highlight": "bump something up",
+      "descriptionZh": "提高某事物的數量、價格或水平",
+      "descriptionEn": "The shop bumped the price up by five dollars.",
+      "examples": [
+        {
+          "en": "The shop bumped the price up by five dollars.",
+          "zh": "店舖把價格提高了五元。",
+          "highlight": "bumped the price up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論意料之外的相遇",
+      "titleEn": "Talk about unexpected meetings",
+      "zh": "bump into 可以描述在店舖、車站或公眾活動中偶然遇見某人。",
+      "en": "Bump into helps you describe meeting somebody unexpectedly in places such as shops, stations and public events."
+    },
+    {
+      "titleZh": "談論升級和提升",
+      "titleEn": "Talk about upgrades and higher levels",
+      "zh": "bump somebody up 可以描述某人獲安排至更好的座位、房間、班別或職位。",
+      "en": "Bump somebody up can describe receiving a better seat, room, class or position."
+    },
+    {
+      "titleZh": "清楚表達數量或價格上升",
+      "titleEn": "Talk about increases clearly",
+      "zh": "bump something up 可以描述價格、人數、費用、薪金和上限的增加。",
+      "en": "Bump something up can describe increases in prices, numbers, fees, pay and limits."
+    },
+    {
+      "titleZh": "理解 OFF 所表達的兩種不同意思",
+      "titleEn": "Understand two very different meanings of OFF",
+      "zh": "bump somebody off 可以出現在犯罪故事中;bump somebody off a flight 則與航班和座位不足有關。",
+      "en": "Bump somebody off may appear in crime stories, while bump somebody off a flight is commonly connected with air travel and insufficient seats."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論意料之外的相遇",
+      "談論升級和提升",
+      "清楚表達數量或價格上升",
+      "理解 OFF 所表達的兩種不同意思"
+    ],
+    "contextsEn": [
+      "Talk about unexpected meetings",
+      "Talk about upgrades and higher levels",
+      "Talk about increases clearly",
+      "Understand two very different meanings of OFF"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論意料之外的相遇",
+        "titleEn": "Talk about unexpected meetings",
+        "zh": "bump into 可以描述在店舖、車站或公眾活動中偶然遇見某人。",
+        "en": "Bump into helps you describe meeting somebody unexpectedly in places such as shops, stations and public events.",
+        "examples": [
+          {
+            "en": "I bumped into an old friend in town.",
+            "zh": "我在市中心偶然遇見一位老朋友。",
+            "highlight": "bumped into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論升級和提升",
+        "titleEn": "Talk about upgrades and higher levels",
+        "zh": "bump somebody up 可以描述某人獲安排至更好的座位、房間、班別或職位。",
+        "en": "Bump somebody up can describe receiving a better seat, room, class or position.",
+        "examples": [
+          {
+            "en": "In the crime story, the gang bumped the witness off.",
+            "zh": "在那個犯罪故事中,匪幫殺害了證人。",
+            "highlight": "bumped the witness off"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達數量或價格上升",
+        "titleEn": "Talk about increases clearly",
+        "zh": "bump something up 可以描述價格、人數、費用、薪金和上限的增加。",
+        "en": "Bump something up can describe increases in prices, numbers, fees, pay and limits.",
+        "examples": [
+          {
+            "en": "The airline bumped two passengers off the flight.",
+            "zh": "航空公司拒絕讓兩名乘客乘搭原定航班。",
+            "highlight": "bumped two passengers off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 OFF 所表達的兩種不同意思",
+        "titleEn": "Understand two very different meanings of OFF",
+        "zh": "bump somebody off 可以出現在犯罪故事中;bump somebody off a flight 則與航班和座位不足有關。",
+        "en": "Bump somebody off may appear in crime stories, while bump somebody off a flight is commonly connected with air travel and insufficient seats.",
+        "examples": [
+          {
+            "en": "The hotel bumped us up to a larger room.",
+            "zh": "酒店把我們升級至較大的房間。",
+            "highlight": "bumped us up to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BUMP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BUMP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BUMP 片語動詞。",
+      "en": "Read the whole sentence and choose the BUMP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these models: bump into him bump her off bump them off the flight bump him up bump it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these models: bump into him bump her off bump them off the flight bump him up bump it up"
+    },
+    {
+      "titleZh": "bump somebody off 和 bump somebody off a flight 的意思非常不同。請仔細閱讀 off 後面的內容。",
+      "titleEn": "Bump somebody off and bump somebody off a flight have very different meanings.",
+      "zh": "bump somebody off 和 bump somebody off a flight 的意思非常不同。請仔細閱讀 off 後面的內容。",
+      "en": "Bump somebody off and bump somebody off a flight have very different meanings. Read the words after off carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BUMP 動詞片語句子改寫練習",
+    "titleEn": "BUMP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-195-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I met my old maths teacher by chance at the station yesterday.",
+      "promptZh": "我昨天在車站偶然遇見以前的數學老師。",
+      "starter": "I",
+      "answer": "I bumped into my old maths teacher at the station yesterday.",
+      "answerZh": "我昨天在車站偶然遇見以前的數學老師。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The airline upgraded us to business class.",
+      "promptZh": "航空公司把我們升級至商務艙。",
+      "starter": "The",
+      "answer": "The airline bumped us up to business class.",
+      "answerZh": "航空公司把我們升級至商務艙。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The café increased its lunch prices by two dollars.",
+      "promptZh": "咖啡店把午餐價格提高了兩元。",
+      "starter": "The",
+      "answer": "The café bumped up its lunch prices by two dollars.",
+      "answerZh": "咖啡店把午餐價格提高了兩元。",
+      "highlight": "bumped up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "In the crime novel, the gang killed the guard.",
+      "promptZh": "在犯罪小說中,匪幫殺害了警衛。",
+      "starter": "In",
+      "answer": "In the crime novel, the gang bumped off the guard.",
+      "answerZh": "在犯罪小說中,匪幫殺害了警衛。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The airline refused to let two passengers take the flight because there were not enough seats.",
+      "promptZh": "由於座位不足,航空公司拒絕讓兩名乘客乘搭該航班。",
+      "starter": "The",
+      "answer": "The airline bumped two passengers off the flight because there were not enough seats.",
+      "answerZh": "由於座位不足,航空公司拒絕讓兩名乘客乘搭該航班。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Lena met her neighbour by chance in the supermarket.",
+      "promptZh": "莉娜在超級市場偶然遇見鄰居。",
+      "starter": "Lena",
+      "answer": "Lena bumped into her neighbour in the supermarket.",
+      "answerZh": "莉娜在超級市場偶然遇見鄰居。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The hotel upgraded Olivia to a better room with a sea view.",
+      "promptZh": "酒店把奧莉維亞升級至一間更好的海景房間。",
+      "starter": "The",
+      "answer": "The hotel bumped Olivia up to a better room with a sea view.",
+      "answerZh": "酒店把奧莉維亞升級至一間更好的海景房間。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We increased the number of chairs to forty.",
+      "promptZh": "我們把椅子的數量增加至四十張。",
+      "starter": "We",
+      "answer": "We bumped the number of chairs up to forty.",
+      "answerZh": "我們把椅子的數量增加至四十張。",
+      "highlight": "bumped",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We were refused seats on our flight because the airline had sold too many tickets.",
+      "promptZh": "航空公司售出太多機票,所以我們被拒絕乘搭原定航班。",
+      "starter": "We",
+      "answer": "We were bumped off our flight because the airline had sold too many tickets.",
+      "answerZh": "航空公司售出太多機票,所以我們被拒絕乘搭原定航班。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Near the cinema, we met some classmates by chance.",
+      "promptZh": "我們在戲院附近偶然遇見幾位同學。",
+      "starter": "Near",
+      "answer": "Near the cinema, we bumped into some classmates.",
+      "answerZh": "我們在戲院附近偶然遇見幾位同學。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Her coach moved her to the advanced group.",
+      "promptZh": "她的教練把她提升至進階組。",
+      "starter": "Her",
+      "answer": "Her coach bumped her up to the advanced group.",
+      "answerZh": "她的教練把她提升至進階組。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The detective believed that someone had killed the shop owner.",
+      "promptZh": "偵探相信有人殺害了店主。",
+      "starter": "The",
+      "answer": "The detective believed that someone had bumped the shop owner off.",
+      "answerZh": "偵探相信有人殺害了店主。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The company has increased the starting pay by five per cent.",
+      "promptZh": "公司已把起薪提高百分之五。",
+      "starter": "The",
+      "answer": "The company has bumped up the starting pay by five per cent.",
+      "answerZh": "公司已把起薪提高百分之五。",
+      "highlight": "bumped up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "In the film, the villain is planning to kill the witness before the trial.",
+      "promptZh": "在電影中,反派正計劃在審訊前殺害證人。",
+      "starter": "In",
+      "answer": "In the film, the villain is planning to bump the witness off before the trial.",
+      "answerZh": "在電影中,反派正計劃在審訊前殺害證人。",
+      "highlight": "bump",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Have you ever met a famous singer by chance in Hong Kong?",
+      "promptZh": "你曾否在香港偶然遇見著名歌手?",
+      "starter": "Have",
+      "answer": "Have you ever bumped into a famous singer in Hong Kong?",
+      "answerZh": "你曾否在香港偶然遇見著名歌手?",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "They have upgraded me to a room with a balcony.",
+      "promptZh": "他們已把我升級至一間設有露台的房間。",
+      "starter": "They",
+      "answer": "They have bumped me up to a room with a balcony.",
+      "answerZh": "他們已把我升級至一間設有露台的房間。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Have you ever been refused a place on a flight at the last minute?",
+      "promptZh": "你曾否在最後一刻被拒絕乘搭原定航班?",
+      "starter": "Have",
+      "answer": "Have you ever been bumped off a flight at the last minute?",
+      "answerZh": "你曾否在最後一刻被拒絕乘搭原定航班?",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The theatre is increasing ticket prices again next month.",
+      "promptZh": "劇院下個月會再次提高票價。",
+      "starter": "The",
+      "answer": "The theatre is bumping up ticket prices again next month.",
+      "answerZh": "劇院下個月會再次提高票價。",
+      "highlight": "bumping up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The witness had disappeared. The police asked whether the gang had killed him.",
+      "promptZh": "證人失蹤了。警方詢問匪幫是否已殺害他。",
+      "starter": "The",
+      "answer": "The witness had disappeared. The police asked whether the gang had bumped him off.",
+      "answerZh": "證人失蹤了。警方詢問匪幫是否已殺害他。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Daniel keeps meeting the same man by chance on the morning bus.",
+      "promptZh": "丹尼爾乘搭早上的巴士時,總是偶然遇見同一名男子。",
+      "starter": "Daniel",
+      "answer": "Daniel keeps bumping into the same man on the morning bus.",
+      "answerZh": "丹尼爾乘搭早上的巴士時,總是偶然遇見同一名男子。",
+      "highlight": "bumping into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Will the school increase the class size to thirty?",
+      "promptZh": "學校會把班級人數增加至三十人嗎?",
+      "starter": "Will",
+      "answer": "Will the school bump the class size up to thirty?",
+      "answerZh": "學校會把班級人數增加至三十人嗎?",
+      "highlight": "bump",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Could the coach move Amir to the senior team?",
+      "promptZh": "教練可以把阿米爾提升至高級組嗎?",
+      "starter": "Could",
+      "answer": "Could the coach bump Amir up to the senior team?",
+      "answerZh": "教練可以把阿米爾提升至高級組嗎?",
+      "highlight": "bump",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "No one knew who had killed the driver.",
+      "promptZh": "沒有人知道是誰殺害了司機。",
+      "starter": "No",
+      "answer": "No one knew who had bumped off the driver.",
+      "answerZh": "沒有人知道是誰殺害了司機。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The airline may refuse to let some travellers take tonight’s flight because it sold too many tickets.",
+      "promptZh": "航空公司售出太多機票,因此今晚可能拒絕讓部分旅客乘搭該航班。",
+      "starter": "The",
+      "answer": "The airline may bump some travellers off tonight’s flight because it sold too many tickets.",
+      "answerZh": "航空公司售出太多機票,因此今晚可能拒絕讓部分旅客乘搭該航班。",
+      "highlight": "bump",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They refused to let us take the flight and offered us hotel rooms for the night.",
+      "promptZh": "他們拒絕讓我們乘搭該航班,並為我們提供住宿一晚的酒店房間。",
+      "starter": "They",
+      "answer": "They bumped us off the flight and offered us hotel rooms for the night.",
+      "answerZh": "他們拒絕讓我們乘搭該航班,並為我們提供住宿一晚的酒店房間。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The phone already cost two hundred dollars. The shop increased it by ten dollars without warning.",
+      "promptZh": "該電話原本已售二百元。店舖在沒有通知的情況下把價格提高了十元。",
+      "starter": "The",
+      "answer": "The phone already cost two hundred dollars. The shop bumped it up by ten dollars without warning.",
+      "answerZh": "該電話原本已售二百元。店舖在沒有通知的情況下把價格提高了十元。",
+      "highlight": "bumped",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "While I was shopping, I met my cousin by chance near the bookshop.",
+      "promptZh": "我購物時,在書店附近偶然遇見表親。",
+      "starter": "While",
+      "answer": "While I was shopping, I bumped into my cousin near the bookshop.",
+      "answerZh": "我購物時,在書店附近偶然遇見表親。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "In the film, the spy was killed by his own team.",
+      "promptZh": "在電影中,那名間諜被自己的隊伍殺害。",
+      "starter": "In",
+      "answer": "In the film, the spy was bumped off by his own team.",
+      "answerZh": "在電影中,那名間諜被自己的隊伍殺害。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We were upgraded to first class after the airline changed our seats.",
+      "promptZh": "航空公司更改我們的座位後,把我們升級至頭等艙。",
+      "starter": "We",
+      "answer": "We were bumped up to first class after the airline changed our seats.",
+      "answerZh": "航空公司更改我們的座位後,把我們升級至頭等艙。",
+      "highlight": "bumped up",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Three passengers had already been refused places on the flight when extra seats became available.",
+      "promptZh": "有額外座位空出時,三名乘客已被拒絕乘搭該航班。",
+      "starter": "Three",
+      "answer": "Three passengers had already been bumped off the flight when extra seats became available.",
+      "answerZh": "有額外座位空出時,三名乘客已被拒絕乘搭該航班。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The parking fee has been increased from ten to twelve dollars by the local council.",
+      "promptZh": "當地議會已把泊車費由十元提高至十二元。",
+      "starter": "The",
+      "answer": "The parking fee has been bumped up from ten to twelve dollars by the local council.",
+      "answerZh": "當地議會已把泊車費由十元提高至十二元。",
+      "highlight": "bumped up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She had met Leo by chance only once before that day.",
+      "promptZh": "在那天之前,她只曾偶然遇見里奧一次。",
+      "starter": "She",
+      "answer": "She had bumped into Leo only once before that day.",
+      "answerZh": "在那天之前,她只曾偶然遇見里奧一次。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why was your family refused seats on the morning flight?",
+      "promptZh": "為甚麼你的家人被拒絕乘搭早上的航班?",
+      "starter": "Why",
+      "answer": "Why was your family bumped off the morning flight?",
+      "answerZh": "為甚麼你的家人被拒絕乘搭早上的航班?",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did they increase the order to fifty boxes?",
+      "promptZh": "他們為甚麼把訂購數量增加至五十箱?",
+      "starter": "Why",
+      "answer": "Why did they bump the order up to fifty boxes?",
+      "answerZh": "他們為甚麼把訂購數量增加至五十箱?",
+      "highlight": "bump",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "They threatened to kill the reporter, but the police arrived in time.",
+      "promptZh": "他們威脅要殺害記者,但警方及時到達。",
+      "starter": "They",
+      "answer": "They threatened to bump off the reporter, but the police arrived in time.",
+      "answerZh": "他們威脅要殺害記者,但警方及時到達。",
+      "highlight": "bump off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The teacher decided to move them to the stronger reading group.",
+      "promptZh": "老師決定把他們提升至程度較高的閱讀組。",
+      "starter": "The",
+      "answer": "The teacher decided to bump them up to the stronger reading group.",
+      "answerZh": "老師決定把他們提升至程度較高的閱讀組。",
+      "highlight": "bump",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "On her first day at the new office, Priya unexpectedly met an old school friend.",
+      "promptZh": "普里雅在新辦公室上班的第一天,意外遇見了一位舊同學。",
+      "starter": "On",
+      "answer": "On her first day at the new office, Priya bumped into an old school friend.",
+      "answerZh": "普里雅在新辦公室上班的第一天,意外遇見了一位舊同學。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "In the old crime story, the boss orders his men to kill a rival.",
+      "promptZh": "在那個舊犯罪故事中,首領命令手下殺害一名對手。",
+      "starter": "In",
+      "answer": "In the old crime story, the boss orders his men to bump a rival off.",
+      "answerZh": "在那個舊犯罪故事中,首領命令手下殺害一名對手。",
+      "highlight": "bump",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Although we had confirmed tickets, the airline refused to let us take the flight.",
+      "promptZh": "雖然我們已確認機票,但航空公司仍拒絕讓我們乘搭該航班。",
+      "starter": "Although",
+      "answer": "Although we had confirmed tickets, the airline bumped us off the flight.",
+      "answerZh": "雖然我們已確認機票,但航空公司仍拒絕讓我們乘搭該航班。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Because the standard rooms were full, the hotel upgraded us to a suite at no extra cost.",
+      "promptZh": "由於標準房間已滿,酒店免費把我們升級至套房。",
+      "starter": "Because",
+      "answer": "Because the standard rooms were full, the hotel bumped us up to a suite at no extra cost.",
+      "answerZh": "由於標準房間已滿,酒店免費把我們升級至套房。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Food now costs more, so the restaurant had to increase its menu prices.",
+      "promptZh": "食物成本上升,所以餐廳不得不提高餐牌價格。",
+      "starter": "Food",
+      "answer": "Food now costs more, so the restaurant had to bump up its menu prices.",
+      "answerZh": "食物成本上升,所以餐廳不得不提高餐牌價格。",
+      "highlight": "bump up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "You may meet an old classmate by chance at the school fair tonight.",
+      "promptZh": "你今晚可能會在學校嘉年華偶然遇見一位舊同學。",
+      "starter": "You",
+      "answer": "You may bump into an old classmate at the school fair tonight.",
+      "answerZh": "你今晚可能會在學校嘉年華偶然遇見一位舊同學。",
+      "highlight": "bump into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The note made it clear that someone wanted the witness killed.",
+      "promptZh": "該字條清楚表明有人想殺害證人。",
+      "starter": "The",
+      "answer": "The note made it clear that someone wanted the witness bumped off.",
+      "answerZh": "該字條清楚表明有人想殺害證人。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After two excellent races, Hana was moved to the senior team.",
+      "promptZh": "哈娜在兩場比賽中表現出色後,被提升至高級組。",
+      "starter": "After",
+      "answer": "After two excellent races, Hana was bumped up to the senior team.",
+      "answerZh": "哈娜在兩場比賽中表現出色後,被提升至高級組。",
+      "highlight": "bumped up",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Selling too many tickets can lead to passengers being refused places on their flights.",
+      "promptZh": "售出太多機票可能導致乘客被拒絕乘搭原定航班。",
+      "starter": "Selling",
+      "answer": "Selling too many tickets can lead to passengers being bumped off their flights.",
+      "answerZh": "售出太多機票可能導致乘客被拒絕乘搭原定航班。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We did not expect to meet anyone we knew by chance during the trip.",
+      "promptZh": "我們沒有預期會在旅途中偶然遇見認識的人。",
+      "starter": "We",
+      "answer": "We did not expect to bump into anyone we knew during the trip.",
+      "answerZh": "我們沒有預期會在旅途中偶然遇見認識的人。",
+      "highlight": "bump into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The organiser promised not to increase the entry fee again.",
+      "promptZh": "主辦單位承諾不會再次提高參加費。",
+      "starter": "The",
+      "answer": "The organiser promised not to bump the entry fee up again.",
+      "answerZh": "主辦單位承諾不會再次提高參加費。",
+      "highlight": "bump",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Could the missing man have been killed?",
+      "promptZh": "那名失蹤男子有可能已被殺害嗎?",
+      "starter": "Could",
+      "answer": "Could the missing man have been bumped off?",
+      "answerZh": "那名失蹤男子有可能已被殺害嗎?",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The airline could not give us our original seats, so it upgraded us to premium economy.",
+      "promptZh": "航空公司無法提供我們原定的座位,所以把我們升級至特選經濟艙。",
+      "starter": "The",
+      "answer": "The airline could not give us our original seats, so it bumped us up to premium economy.",
+      "answerZh": "航空公司無法提供我們原定的座位,所以把我們升級至特選經濟艙。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The message said we might lose our places on the flight unless more seats became available.",
+      "promptZh": "訊息表示,除非有更多座位空出,否則我們可能會失去原定航班的位置。",
+      "starter": "The",
+      "answer": "The message said we might be bumped off the flight unless more seats became available.",
+      "answerZh": "訊息表示,除非有更多座位空出,否則我們可能會被拒絕乘搭原定航班。",
+      "highlight": "be bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Had you met Ben by chance before he joined your class?",
+      "promptZh": "賓加入你的班別前,你曾否偶然遇見他?",
+      "starter": "Had",
+      "answer": "Had you bumped into Ben before he joined your class?",
+      "answerZh": "賓加入你的班別前,你曾否偶然遇見他?",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The detective first thought the victim had died in an accident, but later learnt that someone had killed him.",
+      "promptZh": "偵探最初以為死者死於意外,但後來得知有人殺害了他。",
+      "starter": "The",
+      "answer": "The detective first thought the victim had died in an accident, but later learnt that someone had bumped him off.",
+      "answerZh": "偵探最初以為死者死於意外,但後來得知有人殺害了他。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After more people joined, the class size was increased from twenty to thirty.",
+      "promptZh": "有更多人加入後,班級人數由二十人增加至三十人。",
+      "starter": "After",
+      "answer": "After more people joined, the class size was bumped up from twenty to thirty.",
+      "answerZh": "有更多人加入後,班級人數由二十人增加至三十人。",
+      "highlight": "bumped up",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After waiting at the gate for an hour, four travellers were refused places on the flight and moved to the next one.",
+      "promptZh": "在登機閘口等候一小時後,四名旅客被拒絕乘搭該航班,並獲安排乘搭下一班。",
+      "starter": "After",
+      "answer": "After waiting at the gate for an hour, four travellers were bumped off the flight and moved to the next one.",
+      "answerZh": "在登機閘口等候一小時後,四名旅客被拒絕乘搭該航班,並獲安排乘搭下一班。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Would the school move him to the next class if he passed the test?",
+      "promptZh": "如果他通過測驗,學校會把他提升至下一個班別嗎?",
+      "starter": "Would",
+      "answer": "Would the school bump him up to the next class if he passed the test?",
+      "answerZh": "如果他通過測驗,學校會把他提升至下一個班別嗎?",
+      "highlight": "bump",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    },
+    {
+      "id": "phrasal-verb-195-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After moving to the area, Grace soon met two people from her old neighbourhood by chance.",
+      "promptZh": "格蕾絲搬到該區後不久,便偶然遇見兩名來自舊居附近的人。",
+      "starter": "After",
+      "answer": "After moving to the area, Grace soon bumped into two people from her old neighbourhood.",
+      "answerZh": "格蕾絲搬到該區後不久,便偶然遇見兩名來自舊居附近的人。",
+      "highlight": "bumped into",
+      "targetForm": "bump into somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-195-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The airline offered us a free hotel after refusing to let us take the final flight of the day.",
+      "promptZh": "航空公司拒絕讓我們乘搭當天最後一班航班後,為我們提供免費酒店住宿。",
+      "starter": "The",
+      "answer": "The airline offered us a free hotel after bumping us off the final flight of the day.",
+      "answerZh": "航空公司拒絕讓我們乘搭當天最後一班航班後,為我們提供免費酒店住宿。",
+      "highlight": "bumping",
+      "targetForm": "bump somebody off something",
+      "targetMeaningZh": "不讓某人乘搭原定航班"
+    },
+    {
+      "id": "phrasal-verb-195-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The seller first offered a low price, then increased it when more buyers became interested.",
+      "promptZh": "賣家最初提出較低的價格,其後在更多買家感興趣時提高了價格。",
+      "starter": "The",
+      "answer": "The seller first offered a low price, then bumped it up when more buyers became interested.",
+      "answerZh": "賣家最初提出較低的價格,其後在更多買家感興趣時提高了價格。",
+      "highlight": "bumped",
+      "targetForm": "bump something up",
+      "targetMeaningZh": "提高數量、價格或水平"
+    },
+    {
+      "id": "phrasal-verb-195-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The novel ends before we discover who killed the businessman.",
+      "promptZh": "小說在我們發現是誰殺害該商人之前便結束了。",
+      "starter": "The",
+      "answer": "The novel ends before we discover who bumped off the businessman.",
+      "answerZh": "小說在我們發現是誰殺害該商人之前便結束了。",
+      "highlight": "bumped off",
+      "targetForm": "bump somebody off",
+      "targetMeaningZh": "非正式:殺害某人"
+    },
+    {
+      "id": "phrasal-verb-195-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "By the end of the week, the coach had moved both players to the first team.",
+      "promptZh": "到了週末,教練已把兩名球員提升至一隊。",
+      "starter": "By",
+      "answer": "By the end of the week, the coach had bumped both players up to the first team.",
+      "answerZh": "到了週末,教練已把兩名球員提升至一隊。",
+      "highlight": "bumped",
+      "targetForm": "bump somebody up to something",
+      "targetMeaningZh": "把某人提升或升級至較高級別"
+    }
+  ]
+}

@@ -1,0 +1,2468 @@
+{
+  "id": "phrasal-verb-196",
+  "order": 196,
+  "slug": "kick",
+  "version": "1",
+  "title": "KICK 動詞片語",
+  "titleEn": "Kick",
+  "titleZh": "KICK 動詞片語",
+  "level": "B1",
+  "groupCount": 18,
+  "source": {
+    "file": "Phrasal Verbs 194 - KICK.pdf",
+    "sourceNumber": 194,
+    "pageCount": 37,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerKeyPdfPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 KICK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to KICK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "KICK",
+      "highlight": "KICK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We spent the afternoon kicking about town.",
+      "zh": "我們下午在城中四處閒逛。",
+      "highlight": "kicking about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "An old charger is kicking about in this drawer.",
+      "zh": "這個抽屜裏隨意放着一個舊充電器。",
+      "highlight": "kicking about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It is no use kicking against the new rule.",
+      "zh": "反抗這項新規則也沒有用。",
+      "highlight": "kicking against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "四處走動或遊蕩,沒有固定計劃；被隨意放在某處,長時間沒有使用或處理；反抗或拒絕接受某個制度、規則或決定；放鬆休息；開始運作或開始產生作用；開始;使活動或事件開始；突然用腳踢向某人或某物；粗暴或不公平地對待某人;任意使喚某人；把某人從隊伍、通話、網站或服務中移除;令某人斷線；強迫某人離開某處或某個團體；非正式地討論一個想法或計劃；把球或其他物件隨意踢來踢去；把部分款項秘密退回給某人作為非法回報；用腳踢破或踢開門、閘等障礙物；用腳把鞋、拖鞋或其他物件甩掉；用腳把某物踢翻或踢倒；踢起或揚起灰塵、沙土等；風或風暴開始增強",
+    "en": "kick about / kick around; kick around / kick about; kick against something; kick back; kick in; kick off / kick something off; kick out at somebody/something; kick somebody around / kick somebody about; kick somebody off / kick somebody off something; kick somebody out / kick somebody out of something; kick something around / kick something about; kick something around / kick something about; kick something back (to somebody); kick something down / kick something in; kick something off; kick something over; kick something up; kick up",
+    "naturalZh": [
+      "四處走動或遊蕩,沒有固定計劃",
+      "被隨意放在某處,長時間沒有使用或處理",
+      "反抗或拒絕接受某個制度、規則或決定",
+      "放鬆休息",
+      "開始運作或開始產生作用",
+      "開始;使活動或事件開始",
+      "突然用腳踢向某人或某物",
+      "粗暴或不公平地對待某人;任意使喚某人",
+      "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+      "強迫某人離開某處或某個團體",
+      "非正式地討論一個想法或計劃",
+      "把球或其他物件隨意踢來踢去",
+      "把部分款項秘密退回給某人作為非法回報",
+      "用腳踢破或踢開門、閘等障礙物",
+      "用腳把鞋、拖鞋或其他物件甩掉",
+      "用腳把某物踢翻或踢倒",
+      "踢起或揚起灰塵、沙土等",
+      "風或風暴開始增強"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "kick about / kick around",
+      "titleZh": "四處走動或遊蕩,沒有固定計劃",
+      "titleEn": "kick about / kick around",
+      "descriptionZh": "四處走動或遊蕩,沒有固定計劃",
+      "descriptionEn": "We spent the afternoon kicking about town.",
+      "examples": [
+        {
+          "en": "We spent the afternoon kicking about town.",
+          "zh": "我們下午在城中四處閒逛。",
+          "highlight": "kicking about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick around / kick about",
+      "titleZh": "被隨意放在某處,長時間沒有使用或處理",
+      "titleEn": "kick around / kick about",
+      "descriptionZh": "被隨意放在某處,長時間沒有使用或處理",
+      "descriptionEn": "An old charger is kicking about in this drawer.",
+      "examples": [
+        {
+          "en": "An old charger is kicking about in this drawer.",
+          "zh": "這個抽屜裏隨意放着一個舊充電器。",
+          "highlight": "kicking about"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick against something",
+      "titleZh": "反抗或拒絕接受某個制度、規則或決定",
+      "titleEn": "kick against something",
+      "descriptionZh": "反抗或拒絕接受某個制度、規則或決定",
+      "descriptionEn": "It is no use kicking against the new rule.",
+      "examples": [
+        {
+          "en": "It is no use kicking against the new rule.",
+          "zh": "反抗這項新規則也沒有用。",
+          "highlight": "kicking against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick back",
+      "titleZh": "放鬆休息",
+      "titleEn": "kick back",
+      "descriptionZh": "放鬆休息",
+      "descriptionEn": "We kicked back in the garden after lunch.",
+      "examples": [
+        {
+          "en": "We kicked back in the garden after lunch.",
+          "zh": "我們午膳後在花園裏放鬆休息。",
+          "highlight": "kicked back"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick in",
+      "titleZh": "開始運作或開始產生作用",
+      "titleEn": "kick in",
+      "descriptionZh": "開始運作或開始產生作用",
+      "descriptionEn": "The medicine should kick in soon.",
+      "examples": [
+        {
+          "en": "The medicine should kick in soon.",
+          "zh": "藥物應該很快便會開始發揮作用。",
+          "highlight": "kick in"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick off / kick something off",
+      "titleZh": "開始;使活動或事件開始",
+      "titleEn": "kick off / kick something off",
+      "descriptionZh": "開始;使活動或事件開始",
+      "descriptionEn": "The show kicks off at eight.",
+      "examples": [
+        {
+          "en": "The show kicks off at eight.",
+          "zh": "表演八時開始。",
+          "highlight": "kicks off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick out at somebody/something",
+      "titleZh": "突然用腳踢向某人或某物",
+      "titleEn": "kick out at somebody/something",
+      "descriptionZh": "突然用腳踢向某人或某物",
+      "descriptionEn": "The frightened horse kicked out at the gate.",
+      "examples": [
+        {
+          "en": "The frightened horse kicked out at the gate.",
+          "zh": "受驚的馬突然踢向閘門。",
+          "highlight": "kicked out at"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick somebody around / kick somebody about",
+      "titleZh": "粗暴或不公平地對待某人;任意使喚某人",
+      "titleEn": "kick somebody around / kick somebody about",
+      "descriptionZh": "粗暴或不公平地對待某人;任意使喚某人",
+      "descriptionEn": "Do not let anyone kick you around.",
+      "examples": [
+        {
+          "en": "Do not let anyone kick you around.",
+          "zh": "不要讓任何人粗暴或不公平地對待你。",
+          "highlight": "kick you around"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick somebody off / kick somebody off something",
+      "titleZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+      "titleEn": "kick somebody off / kick somebody off something",
+      "descriptionZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+      "descriptionEn": "The weak signal kicked me off the call.",
+      "examples": [
+        {
+          "en": "The weak signal kicked me off the call.",
+          "zh": "微弱的訊號令我從通話中斷線。",
+          "highlight": "kicked me off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "kick somebody out / kick somebody out of something",
+      "titleZh": "強迫某人離開某處或某個團體",
+      "titleEn": "kick somebody out / kick somebody out of something",
+      "descriptionZh": "強迫某人離開某處或某個團體",
+      "descriptionEn": "The club kicked him out for ignoring its rules.",
+      "examples": [
+        {
+          "en": "The club kicked him out for ignoring its rules.",
+          "zh": "會所因他無視規則而把他趕走。",
+          "highlight": "kicked him out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something around / kick something about",
+      "titleZh": "非正式地討論一個想法或計劃",
+      "titleEn": "kick something around / kick something about",
+      "descriptionZh": "非正式地討論一個想法或計劃",
+      "descriptionEn": "Let us kick a few ideas around after lunch.",
+      "examples": [
+        {
+          "en": "Let us kick a few ideas around after lunch.",
+          "zh": "我們午膳後隨意討論幾個構思吧。",
+          "highlight": "kick a few ideas around"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something around / kick something about",
+      "titleZh": "把球或其他物件隨意踢來踢去",
+      "titleEn": "kick something around / kick something about",
+      "descriptionZh": "把球或其他物件隨意踢來踢去",
+      "descriptionEn": "The children kicked a ball around in the park.",
+      "examples": [
+        {
+          "en": "The children kicked a ball around in the park.",
+          "zh": "孩子們在公園裏把球踢來踢去。",
+          "highlight": "kicked a ball around"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something back (to somebody)",
+      "titleZh": "把部分款項秘密退回給某人作為非法回報",
+      "titleEn": "kick something back (to somebody)",
+      "descriptionZh": "把部分款項秘密退回給某人作為非法回報",
+      "descriptionEn": "The builder kicked part of the payment back to the official.",
+      "examples": [
+        {
+          "en": "The builder kicked part of the payment back to the official.",
+          "zh": "建築商把部分款項秘密退回給該名官員作為非法回報。",
+          "highlight": "kicked part of the payment back to"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something down / kick something in",
+      "titleZh": "用腳踢破或踢開門、閘等障礙物",
+      "titleEn": "kick something down / kick something in",
+      "descriptionZh": "用腳踢破或踢開門、閘等障礙物",
+      "descriptionEn": "The firefighters kicked the locked door in.",
+      "examples": [
+        {
+          "en": "The firefighters kicked the locked door in.",
+          "zh": "消防員用腳踢開了上鎖的門。",
+          "highlight": "kicked the locked door in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something off",
+      "titleZh": "用腳把鞋、拖鞋或其他物件甩掉",
+      "titleEn": "kick something off",
+      "descriptionZh": "用腳把鞋、拖鞋或其他物件甩掉",
+      "descriptionEn": "She kicked off her shoes at the door.",
+      "examples": [
+        {
+          "en": "She kicked off her shoes at the door.",
+          "zh": "她在門口用腳把鞋甩掉。",
+          "highlight": "kicked off"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something over",
+      "titleZh": "用腳把某物踢翻或踢倒",
+      "titleEn": "kick something over",
+      "descriptionZh": "用腳把某物踢翻或踢倒",
+      "descriptionEn": "He accidentally kicked the bucket over.",
+      "examples": [
+        {
+          "en": "He accidentally kicked the bucket over.",
+          "zh": "他不小心把水桶踢翻了。",
+          "highlight": "kicked the bucket over"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick something up",
+      "titleZh": "踢起或揚起灰塵、沙土等",
+      "titleEn": "kick something up",
+      "descriptionZh": "踢起或揚起灰塵、沙土等",
+      "descriptionEn": "The horses kicked up a cloud of dust.",
+      "examples": [
+        {
+          "en": "The horses kicked up a cloud of dust.",
+          "zh": "馬群踢起了一大片塵土。",
+          "highlight": "kicked up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "kick up",
+      "titleZh": "風或風暴開始增強",
+      "titleEn": "kick up",
+      "descriptionZh": "風或風暴開始增強",
+      "descriptionEn": "The wind kicked up after sunset.",
+      "examples": [
+        {
+          "en": "The wind kicked up after sunset.",
+          "zh": "日落後,風勢開始增強。",
+          "highlight": "kicked up"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "KICK 片語動詞的實際用途",
+    "labelEn": "KICK Phrasal Verbs in Use",
+    "summaryZh": "KICK 片語動詞也可以描述放鬆、反抗規則、開始活動,以及某種作用開始出現。；kick off 可以表示活動開始;kick in 可以表示機器、規則或藥物開始運作;kick up 則可以表示風勢增強。；kick somebody around 表示不公平地對待某人;kick somebody off 和 kick somebody out則可以描述把某人從服務、團體或地方移除。；你可以用 KICK 片語動詞描述把球踢來踢去、用腳踢開門、把鞋甩掉、把物件踢翻,以及揚起塵土。",
+    "summaryEn": "KICK expressions can describe relaxing, resisting rules, starting events and beginning to feel an effect. Kick off shows that an event begins. Kick in shows that a machine, rule or medicine starts working. Kick up can show that the wind becomes stronger. Kick somebody around describes unfair treatment. Kick somebody off and kick somebody out describe different ways of removing a person from a service, group or place. You can use KICK expressions to talk about moving a ball, forcing a door open, removing shoes, knocking something over and raising dust.",
+    "contextsZh": [
+      "KICK 不只用來描述腳部動作",
+      "清楚談論開始和變化",
+      "描述某人如何被對待或被移除",
+      "準確描述各種實際動作"
+    ],
+    "contextsEn": [
+      "Use KICK for much more than foot movement",
+      "Talk clearly about beginnings and changes",
+      "Describe how people are treated or removed",
+      "Describe physical actions precisely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 KICK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the KICK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "kick about / kick around",
+    "fixedHighlight": "kick about / kick around",
+    "fixedZh": "閱讀整句,選出意思相同的 KICK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the KICK expression that gives the same meaning.",
+    "correct": "kicking about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請按照以下例子的語序使用代名詞:kick it around;kick them out;kick it over;kick her offthe call。；外形相近的表達可以有完全不同的意思。例如,kick off 可以表示「開始」,而 kick yourshoes off 則表示「用腳把鞋甩掉」。",
+    "variableEn": "Keep the same people, things, time and meaning. Follow the word order shown in these examples: kick it around; kick them out; kick it over; kick her off the call. Similar-looking expressions can have very different meanings. For example, kick off can mean “begin”, while kick your shoes off means “remove them with your feet”.",
+    "variableItemsZh": [
+      "kick about / kick around",
+      "kick around / kick about",
+      "kick against something",
+      "kick back",
+      "kick in",
+      "kick off / kick something off",
+      "kick out at somebody/something",
+      "kick somebody around / kick somebody about",
+      "kick somebody off / kick somebody off something",
+      "kick somebody out / kick somebody out of something",
+      "kick something around / kick something about",
+      "kick something around / kick something about",
+      "kick something back (to somebody)",
+      "kick something down / kick something in",
+      "kick something off",
+      "kick something over",
+      "kick something up",
+      "kick up"
+    ],
+    "variableItemsEn": [
+      "kick about / kick around",
+      "kick around / kick about",
+      "kick against something",
+      "kick back",
+      "kick in",
+      "kick off / kick something off",
+      "kick out at somebody/something",
+      "kick somebody around / kick somebody about",
+      "kick somebody off / kick somebody off something",
+      "kick somebody out / kick somebody out of something",
+      "kick something around / kick something about",
+      "kick something around / kick something about",
+      "kick something back (to somebody)",
+      "kick something down / kick something in",
+      "kick something off",
+      "kick something over",
+      "kick something up",
+      "kick up"
+    ],
+    "forms": [
+      {
+        "formZh": "四處走動或遊蕩,沒有固定計劃",
+        "formEn": "kick about / kick around",
+        "exampleZh": "我們下午在城中四處閒逛。",
+        "exampleEn": "We spent the afternoon kicking about town.",
+        "highlight": "kicking about"
+      },
+      {
+        "formZh": "被隨意放在某處,長時間沒有使用或處理",
+        "formEn": "kick around / kick about",
+        "exampleZh": "這個抽屜裏隨意放着一個舊充電器。",
+        "exampleEn": "An old charger is kicking about in this drawer.",
+        "highlight": "kicking about"
+      },
+      {
+        "formZh": "反抗或拒絕接受某個制度、規則或決定",
+        "formEn": "kick against something",
+        "exampleZh": "反抗這項新規則也沒有用。",
+        "exampleEn": "It is no use kicking against the new rule.",
+        "highlight": "kicking against"
+      },
+      {
+        "formZh": "放鬆休息",
+        "formEn": "kick back",
+        "exampleZh": "我們午膳後在花園裏放鬆休息。",
+        "exampleEn": "We kicked back in the garden after lunch.",
+        "highlight": "kicked back"
+      },
+      {
+        "formZh": "開始運作或開始產生作用",
+        "formEn": "kick in",
+        "exampleZh": "藥物應該很快便會開始發揮作用。",
+        "exampleEn": "The medicine should kick in soon.",
+        "highlight": "kick in"
+      },
+      {
+        "formZh": "開始;使活動或事件開始",
+        "formEn": "kick off / kick something off",
+        "exampleZh": "表演八時開始。",
+        "exampleEn": "The show kicks off at eight.",
+        "highlight": "kicks off"
+      },
+      {
+        "formZh": "突然用腳踢向某人或某物",
+        "formEn": "kick out at somebody/something",
+        "exampleZh": "受驚的馬突然踢向閘門。",
+        "exampleEn": "The frightened horse kicked out at the gate.",
+        "highlight": "kicked out at"
+      },
+      {
+        "formZh": "粗暴或不公平地對待某人;任意使喚某人",
+        "formEn": "kick somebody around / kick somebody about",
+        "exampleZh": "不要讓任何人粗暴或不公平地對待你。",
+        "exampleEn": "Do not let anyone kick you around.",
+        "highlight": "kick you around"
+      },
+      {
+        "formZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+        "formEn": "kick somebody off / kick somebody off something",
+        "exampleZh": "微弱的訊號令我從通話中斷線。",
+        "exampleEn": "The weak signal kicked me off the call.",
+        "highlight": "kicked me off"
+      },
+      {
+        "formZh": "強迫某人離開某處或某個團體",
+        "formEn": "kick somebody out / kick somebody out of something",
+        "exampleZh": "會所因他無視規則而把他趕走。",
+        "exampleEn": "The club kicked him out for ignoring its rules.",
+        "highlight": "kicked him out"
+      },
+      {
+        "formZh": "非正式地討論一個想法或計劃",
+        "formEn": "kick something around / kick something about",
+        "exampleZh": "我們午膳後隨意討論幾個構思吧。",
+        "exampleEn": "Let us kick a few ideas around after lunch.",
+        "highlight": "kick a few ideas around"
+      },
+      {
+        "formZh": "把球或其他物件隨意踢來踢去",
+        "formEn": "kick something around / kick something about",
+        "exampleZh": "孩子們在公園裏把球踢來踢去。",
+        "exampleEn": "The children kicked a ball around in the park.",
+        "highlight": "kicked a ball around"
+      },
+      {
+        "formZh": "把部分款項秘密退回給某人作為非法回報",
+        "formEn": "kick something back (to somebody)",
+        "exampleZh": "建築商把部分款項秘密退回給該名官員作為非法回報。",
+        "exampleEn": "The builder kicked part of the payment back to the official.",
+        "highlight": "kicked part of the payment back to"
+      },
+      {
+        "formZh": "用腳踢破或踢開門、閘等障礙物",
+        "formEn": "kick something down / kick something in",
+        "exampleZh": "消防員用腳踢開了上鎖的門。",
+        "exampleEn": "The firefighters kicked the locked door in.",
+        "highlight": "kicked the locked door in"
+      },
+      {
+        "formZh": "用腳把鞋、拖鞋或其他物件甩掉",
+        "formEn": "kick something off",
+        "exampleZh": "她在門口用腳把鞋甩掉。",
+        "exampleEn": "She kicked off her shoes at the door.",
+        "highlight": "kicked off"
+      },
+      {
+        "formZh": "用腳把某物踢翻或踢倒",
+        "formEn": "kick something over",
+        "exampleZh": "他不小心把水桶踢翻了。",
+        "exampleEn": "He accidentally kicked the bucket over.",
+        "highlight": "kicked the bucket over"
+      },
+      {
+        "formZh": "踢起或揚起灰塵、沙土等",
+        "formEn": "kick something up",
+        "exampleZh": "馬群踢起了一大片塵土。",
+        "exampleEn": "The horses kicked up a cloud of dust.",
+        "highlight": "kicked up"
+      },
+      {
+        "formZh": "風或風暴開始增強",
+        "formEn": "kick up",
+        "exampleZh": "日落後,風勢開始增強。",
+        "exampleEn": "The wind kicked up after sunset.",
+        "highlight": "kicked up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "四處走動或遊蕩,沒有固定計劃",
+      "titleEn": "kick about / kick around",
+      "formula": "kick about / kick around",
+      "highlight": "kick about / kick around",
+      "descriptionZh": "四處走動或遊蕩,沒有固定計劃",
+      "descriptionEn": "We spent the afternoon kicking about town.",
+      "examples": [
+        {
+          "en": "We spent the afternoon kicking about town.",
+          "zh": "我們下午在城中四處閒逛。",
+          "highlight": "kicking about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "被隨意放在某處,長時間沒有使用或處理",
+      "titleEn": "kick around / kick about",
+      "formula": "kick around / kick about",
+      "highlight": "kick around / kick about",
+      "descriptionZh": "被隨意放在某處,長時間沒有使用或處理",
+      "descriptionEn": "An old charger is kicking about in this drawer.",
+      "examples": [
+        {
+          "en": "An old charger is kicking about in this drawer.",
+          "zh": "這個抽屜裏隨意放着一個舊充電器。",
+          "highlight": "kicking about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "反抗或拒絕接受某個制度、規則或決定",
+      "titleEn": "kick against something",
+      "formula": "kick against something",
+      "highlight": "kick against something",
+      "descriptionZh": "反抗或拒絕接受某個制度、規則或決定",
+      "descriptionEn": "It is no use kicking against the new rule.",
+      "examples": [
+        {
+          "en": "It is no use kicking against the new rule.",
+          "zh": "反抗這項新規則也沒有用。",
+          "highlight": "kicking against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "放鬆休息",
+      "titleEn": "kick back",
+      "formula": "kick back",
+      "highlight": "kick back",
+      "descriptionZh": "放鬆休息",
+      "descriptionEn": "We kicked back in the garden after lunch.",
+      "examples": [
+        {
+          "en": "We kicked back in the garden after lunch.",
+          "zh": "我們午膳後在花園裏放鬆休息。",
+          "highlight": "kicked back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "開始運作或開始產生作用",
+      "titleEn": "kick in",
+      "formula": "kick in",
+      "highlight": "kick in",
+      "descriptionZh": "開始運作或開始產生作用",
+      "descriptionEn": "The medicine should kick in soon.",
+      "examples": [
+        {
+          "en": "The medicine should kick in soon.",
+          "zh": "藥物應該很快便會開始發揮作用。",
+          "highlight": "kick in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "開始;使活動或事件開始",
+      "titleEn": "kick off / kick something off",
+      "formula": "kick off / kick something off",
+      "highlight": "kick off / kick something off",
+      "descriptionZh": "開始;使活動或事件開始",
+      "descriptionEn": "The show kicks off at eight.",
+      "examples": [
+        {
+          "en": "The show kicks off at eight.",
+          "zh": "表演八時開始。",
+          "highlight": "kicks off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "突然用腳踢向某人或某物",
+      "titleEn": "kick out at somebody/something",
+      "formula": "kick out at somebody/something",
+      "highlight": "kick out at somebody/something",
+      "descriptionZh": "突然用腳踢向某人或某物",
+      "descriptionEn": "The frightened horse kicked out at the gate.",
+      "examples": [
+        {
+          "en": "The frightened horse kicked out at the gate.",
+          "zh": "受驚的馬突然踢向閘門。",
+          "highlight": "kicked out at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "粗暴或不公平地對待某人;任意使喚某人",
+      "titleEn": "kick somebody around / kick somebody about",
+      "formula": "kick somebody around / kick somebody about",
+      "highlight": "kick somebody around / kick somebody about",
+      "descriptionZh": "粗暴或不公平地對待某人;任意使喚某人",
+      "descriptionEn": "Do not let anyone kick you around.",
+      "examples": [
+        {
+          "en": "Do not let anyone kick you around.",
+          "zh": "不要讓任何人粗暴或不公平地對待你。",
+          "highlight": "kick you around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+      "titleEn": "kick somebody off / kick somebody off something",
+      "formula": "kick somebody off / kick somebody off something",
+      "highlight": "kick somebody off / kick somebody off something",
+      "descriptionZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線",
+      "descriptionEn": "The weak signal kicked me off the call.",
+      "examples": [
+        {
+          "en": "The weak signal kicked me off the call.",
+          "zh": "微弱的訊號令我從通話中斷線。",
+          "highlight": "kicked me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "強迫某人離開某處或某個團體",
+      "titleEn": "kick somebody out / kick somebody out of something",
+      "formula": "kick somebody out / kick somebody out of something",
+      "highlight": "kick somebody out / kick somebody out of something",
+      "descriptionZh": "強迫某人離開某處或某個團體",
+      "descriptionEn": "The club kicked him out for ignoring its rules.",
+      "examples": [
+        {
+          "en": "The club kicked him out for ignoring its rules.",
+          "zh": "會所因他無視規則而把他趕走。",
+          "highlight": "kicked him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "非正式地討論一個想法或計劃",
+      "titleEn": "kick something around / kick something about",
+      "formula": "kick something around / kick something about",
+      "highlight": "kick something around / kick something about",
+      "descriptionZh": "非正式地討論一個想法或計劃",
+      "descriptionEn": "Let us kick a few ideas around after lunch.",
+      "examples": [
+        {
+          "en": "Let us kick a few ideas around after lunch.",
+          "zh": "我們午膳後隨意討論幾個構思吧。",
+          "highlight": "kick a few ideas around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把球或其他物件隨意踢來踢去",
+      "titleEn": "kick something around / kick something about",
+      "formula": "kick something around / kick something about",
+      "highlight": "kick something around / kick something about",
+      "descriptionZh": "把球或其他物件隨意踢來踢去",
+      "descriptionEn": "The children kicked a ball around in the park.",
+      "examples": [
+        {
+          "en": "The children kicked a ball around in the park.",
+          "zh": "孩子們在公園裏把球踢來踢去。",
+          "highlight": "kicked a ball around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把部分款項秘密退回給某人作為非法回報",
+      "titleEn": "kick something back (to somebody)",
+      "formula": "kick something back (to somebody)",
+      "highlight": "kick something back (to somebody)",
+      "descriptionZh": "把部分款項秘密退回給某人作為非法回報",
+      "descriptionEn": "The builder kicked part of the payment back to the official.",
+      "examples": [
+        {
+          "en": "The builder kicked part of the payment back to the official.",
+          "zh": "建築商把部分款項秘密退回給該名官員作為非法回報。",
+          "highlight": "kicked part of the payment back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "用腳踢破或踢開門、閘等障礙物",
+      "titleEn": "kick something down / kick something in",
+      "formula": "kick something down / kick something in",
+      "highlight": "kick something down / kick something in",
+      "descriptionZh": "用腳踢破或踢開門、閘等障礙物",
+      "descriptionEn": "The firefighters kicked the locked door in.",
+      "examples": [
+        {
+          "en": "The firefighters kicked the locked door in.",
+          "zh": "消防員用腳踢開了上鎖的門。",
+          "highlight": "kicked the locked door in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "用腳把鞋、拖鞋或其他物件甩掉",
+      "titleEn": "kick something off",
+      "formula": "kick something off",
+      "highlight": "kick something off",
+      "descriptionZh": "用腳把鞋、拖鞋或其他物件甩掉",
+      "descriptionEn": "She kicked off her shoes at the door.",
+      "examples": [
+        {
+          "en": "She kicked off her shoes at the door.",
+          "zh": "她在門口用腳把鞋甩掉。",
+          "highlight": "kicked off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "用腳把某物踢翻或踢倒",
+      "titleEn": "kick something over",
+      "formula": "kick something over",
+      "highlight": "kick something over",
+      "descriptionZh": "用腳把某物踢翻或踢倒",
+      "descriptionEn": "He accidentally kicked the bucket over.",
+      "examples": [
+        {
+          "en": "He accidentally kicked the bucket over.",
+          "zh": "他不小心把水桶踢翻了。",
+          "highlight": "kicked the bucket over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "踢起或揚起灰塵、沙土等",
+      "titleEn": "kick something up",
+      "formula": "kick something up",
+      "highlight": "kick something up",
+      "descriptionZh": "踢起或揚起灰塵、沙土等",
+      "descriptionEn": "The horses kicked up a cloud of dust.",
+      "examples": [
+        {
+          "en": "The horses kicked up a cloud of dust.",
+          "zh": "馬群踢起了一大片塵土。",
+          "highlight": "kicked up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "風或風暴開始增強",
+      "titleEn": "kick up",
+      "formula": "kick up",
+      "highlight": "kick up",
+      "descriptionZh": "風或風暴開始增強",
+      "descriptionEn": "The wind kicked up after sunset.",
+      "examples": [
+        {
+          "en": "The wind kicked up after sunset.",
+          "zh": "日落後,風勢開始增強。",
+          "highlight": "kicked up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "KICK 不只用來描述腳部動作",
+      "titleEn": "Use KICK for much more than foot movement",
+      "zh": "KICK 片語動詞也可以描述放鬆、反抗規則、開始活動,以及某種作用開始出現。",
+      "en": "KICK expressions can describe relaxing, resisting rules, starting events and beginning to feel an effect."
+    },
+    {
+      "titleZh": "清楚談論開始和變化",
+      "titleEn": "Talk clearly about beginnings and changes",
+      "zh": "kick off 可以表示活動開始;kick in 可以表示機器、規則或藥物開始運作;kick up 則可以表示風勢增強。",
+      "en": "Kick off shows that an event begins. Kick in shows that a machine, rule or medicine starts working. Kick up can show that the wind becomes stronger."
+    },
+    {
+      "titleZh": "描述某人如何被對待或被移除",
+      "titleEn": "Describe how people are treated or removed",
+      "zh": "kick somebody around 表示不公平地對待某人;kick somebody off 和 kick somebody out則可以描述把某人從服務、團體或地方移除。",
+      "en": "Kick somebody around describes unfair treatment. Kick somebody off and kick somebody out describe different ways of removing a person from a service, group or place."
+    },
+    {
+      "titleZh": "準確描述各種實際動作",
+      "titleEn": "Describe physical actions precisely",
+      "zh": "你可以用 KICK 片語動詞描述把球踢來踢去、用腳踢開門、把鞋甩掉、把物件踢翻,以及揚起塵土。",
+      "en": "You can use KICK expressions to talk about moving a ball, forcing a door open, removing shoes, knocking something over and raising dust."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "KICK 不只用來描述腳部動作",
+      "清楚談論開始和變化",
+      "描述某人如何被對待或被移除",
+      "準確描述各種實際動作"
+    ],
+    "contextsEn": [
+      "Use KICK for much more than foot movement",
+      "Talk clearly about beginnings and changes",
+      "Describe how people are treated or removed",
+      "Describe physical actions precisely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "KICK 不只用來描述腳部動作",
+        "titleEn": "Use KICK for much more than foot movement",
+        "zh": "KICK 片語動詞也可以描述放鬆、反抗規則、開始活動,以及某種作用開始出現。",
+        "en": "KICK expressions can describe relaxing, resisting rules, starting events and beginning to feel an effect.",
+        "examples": [
+          {
+            "en": "We spent the afternoon kicking about town.",
+            "zh": "我們下午在城中四處閒逛。",
+            "highlight": "kicking about"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論開始和變化",
+        "titleEn": "Talk clearly about beginnings and changes",
+        "zh": "kick off 可以表示活動開始;kick in 可以表示機器、規則或藥物開始運作;kick up 則可以表示風勢增強。",
+        "en": "Kick off shows that an event begins. Kick in shows that a machine, rule or medicine starts working. Kick up can show that the wind becomes stronger.",
+        "examples": [
+          {
+            "en": "An old charger is kicking about in this drawer.",
+            "zh": "這個抽屜裏隨意放着一個舊充電器。",
+            "highlight": "kicking about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人如何被對待或被移除",
+        "titleEn": "Describe how people are treated or removed",
+        "zh": "kick somebody around 表示不公平地對待某人;kick somebody off 和 kick somebody out則可以描述把某人從服務、團體或地方移除。",
+        "en": "Kick somebody around describes unfair treatment. Kick somebody off and kick somebody out describe different ways of removing a person from a service, group or place.",
+        "examples": [
+          {
+            "en": "It is no use kicking against the new rule.",
+            "zh": "反抗這項新規則也沒有用。",
+            "highlight": "kicking against"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確描述各種實際動作",
+        "titleEn": "Describe physical actions precisely",
+        "zh": "你可以用 KICK 片語動詞描述把球踢來踢去、用腳踢開門、把鞋甩掉、把物件踢翻,以及揚起塵土。",
+        "en": "You can use KICK expressions to talk about moving a ball, forcing a door open, removing shoes, knocking something over and raising dust.",
+        "examples": [
+          {
+            "en": "We kicked back in the garden after lunch.",
+            "zh": "我們午膳後在花園裏放鬆休息。",
+            "highlight": "kicked back"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 KICK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the KICK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 KICK 片語動詞。",
+      "en": "Read the whole sentence and choose the KICK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請按照以下例子的語序使用代名詞:kick it around;kick them out;kick it over;kick her offthe call。",
+      "titleEn": "Follow the word order shown in these examples: kick it around; kick them out; kick it over; kick her off the call.",
+      "zh": "請按照以下例子的語序使用代名詞:kick it around;kick them out;kick it over;kick her offthe call。",
+      "en": "Follow the word order shown in these examples: kick it around; kick them out; kick it over; kick her off the call."
+    },
+    {
+      "titleZh": "外形相近的表達可以有完全不同的意思。例如,kick off 可以表示「開始」,而 kick yourshoes off 則表示「用腳把鞋甩掉」。",
+      "titleEn": "Similar-looking expressions can have very different meanings.",
+      "zh": "外形相近的表達可以有完全不同的意思。例如,kick off 可以表示「開始」,而 kick yourshoes off 則表示「用腳把鞋甩掉」。",
+      "en": "Similar-looking expressions can have very different meanings. For example, kick off can mean “begin”, while kick your shoes off means “remove them with your feet”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 KICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to KICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "KICK 動詞片語句子改寫練習",
+    "titleEn": "KICK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 KICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to KICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          18
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          19,
+          36
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          37,
+          54
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          55,
+          72
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          73,
+          90
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-196-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "A weak signal disconnected me from the video call.",
+      "promptZh": "微弱的訊號令我從視像通話中斷線。",
+      "starter": "A",
+      "answer": "A weak signal kicked me off the video call.",
+      "answerZh": "微弱的訊號令我從視像通話中斷線。",
+      "highlight": "kicked",
+      "targetForm": "kick somebody off / kick somebody off something",
+      "targetMeaningZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線"
+    },
+    {
+      "id": "phrasal-verb-196-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "After sunset, the wind became stronger.",
+      "promptZh": "日落後,風勢變強了。",
+      "starter": "After",
+      "answer": "After sunset, the wind kicked up.",
+      "answerZh": "日落後,風勢變強了。",
+      "highlight": "kicked up",
+      "targetForm": "kick up",
+      "targetMeaningZh": "風或風暴開始增強"
+    },
+    {
+      "id": "phrasal-verb-196-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "A builder secretly returned five per cent of the payment to the official as an illegal reward.",
+      "promptZh": "一名建築商把百分之五的款項秘密退回給該名官員作為非法回報。",
+      "starter": "A",
+      "answer": "A builder kicked five per cent of the payment back to the official.",
+      "answerZh": "一名建築商把百分之五的款項秘密退回給該名官員作為非法回報。",
+      "highlight": "kicked",
+      "targetForm": "kick something back (to somebody)",
+      "targetMeaningZh": "把部分款項秘密退回給某人作為非法回報"
+    },
+    {
+      "id": "phrasal-verb-196-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "After lunch, we discussed a few ideas informally.",
+      "promptZh": "我們午膳後隨意討論了幾個構思。",
+      "starter": "After",
+      "answer": "After lunch, we kicked a few ideas around.",
+      "answerZh": "我們午膳後隨意討論了幾個構思。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "非正式地討論一個想法或計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "A frightened horse suddenly struck at the fence with its back legs.",
+      "promptZh": "一匹受驚的馬突然用後腿踢向圍欄。",
+      "starter": "A",
+      "answer": "A frightened horse kicked out at the fence.",
+      "answerZh": "一匹受驚的馬突然用後腿踢向圍欄。",
+      "highlight": "kicked out",
+      "targetForm": "kick out at somebody/something",
+      "targetMeaningZh": "突然用腳踢向某人或某物"
+    },
+    {
+      "id": "phrasal-verb-196-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Caleb accidentally knocked the bucket over with his foot.",
+      "promptZh": "凱萊布不小心用腳把水桶踢翻了。",
+      "starter": "Caleb",
+      "answer": "Caleb accidentally kicked the bucket over.",
+      "answerZh": "凱萊布不小心用腳把水桶踢翻了。",
+      "highlight": "kicked",
+      "targetForm": "kick something over",
+      "targetMeaningZh": "用腳把某物踢翻或踢倒"
+    },
+    {
+      "id": "phrasal-verb-196-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Nora removed her shoes with her feet at the door.",
+      "promptZh": "諾拉在門口用腳把鞋甩掉。",
+      "starter": "Nora",
+      "answer": "Nora kicked off her shoes at the door.",
+      "answerZh": "諾拉在門口用腳把鞋甩掉。",
+      "highlight": "kicked off",
+      "targetForm": "kick something off",
+      "targetMeaningZh": "用腳把鞋、拖鞋或其他物件甩掉"
+    },
+    {
+      "id": "phrasal-verb-196-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Firefighters forced the locked door open with their feet.",
+      "promptZh": "消防員用腳踢開了上鎖的門。",
+      "starter": "Firefighters",
+      "answer": "Firefighters kicked the locked door in.",
+      "answerZh": "消防員用腳踢開了上鎖的門。",
+      "highlight": "kicked",
+      "targetForm": "kick something down / kick something in",
+      "targetMeaningZh": "用腳踢破或踢開門、閘等障礙物"
+    },
+    {
+      "id": "phrasal-verb-196-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "An old key is lying unused in the kitchen drawer.",
+      "promptZh": "廚房抽屜裏隨意放着一條沒有使用的舊鎖匙。",
+      "starter": "An",
+      "answer": "An old key is kicking about in the kitchen drawer.",
+      "answerZh": "廚房抽屜裏隨意放着一條沒有使用的舊鎖匙。",
+      "highlight": "kicking about",
+      "targetForm": "kick around / kick about",
+      "targetMeaningZh": "被隨意放在某處,長時間沒有使用或處理"
+    },
+    {
+      "id": "phrasal-verb-196-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "A horse made a cloud of dust rise with its hooves.",
+      "promptZh": "一匹馬用蹄踢起了一大片塵土。",
+      "starter": "A",
+      "answer": "A horse kicked up a cloud of dust.",
+      "answerZh": "一匹馬用蹄踢起了一大片塵土。",
+      "highlight": "kicked up",
+      "targetForm": "kick something up",
+      "targetMeaningZh": "踢起或揚起灰塵、沙土等"
+    },
+    {
+      "id": "phrasal-verb-196-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "We relaxed in the garden after dinner.",
+      "promptZh": "我們晚膳後在花園裏放鬆休息。",
+      "starter": "We",
+      "answer": "We kicked back in the garden after dinner.",
+      "answerZh": "我們晚膳後在花園裏放鬆休息。",
+      "highlight": "kicked back",
+      "targetForm": "kick back",
+      "targetMeaningZh": "放鬆休息"
+    },
+    {
+      "id": "phrasal-verb-196-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Within twenty minutes, the medicine should begin to work.",
+      "promptZh": "藥物應該會在二十分鐘內開始發揮作用。",
+      "starter": "Within",
+      "answer": "Within twenty minutes, the medicine should kick in.",
+      "answerZh": "藥物應該會在二十分鐘內開始發揮作用。",
+      "highlight": "kick in",
+      "targetForm": "kick in",
+      "targetMeaningZh": "開始運作或開始產生作用"
+    },
+    {
+      "id": "phrasal-verb-196-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "Do not let the older players treat you unfairly.",
+      "promptZh": "不要讓年長的球員不公平地對待你。",
+      "starter": "Do",
+      "answer": "Do not let the older players kick you around.",
+      "answerZh": "不要讓年長的球員不公平地對待你。",
+      "highlight": "kick",
+      "targetForm": "kick somebody around / kick somebody about",
+      "targetMeaningZh": "粗暴或不公平地對待某人;任意使喚某人"
+    },
+    {
+      "id": "phrasal-verb-196-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "The café owner forced the noisy group to leave the café.",
+      "promptZh": "咖啡店店主把嘈吵的一群人趕出咖啡店。",
+      "starter": "The",
+      "answer": "The café owner kicked the noisy group out of the café.",
+      "answerZh": "咖啡店店主把嘈吵的一群人趕出咖啡店。",
+      "highlight": "kicked",
+      "targetForm": "kick somebody out / kick somebody out of something",
+      "targetMeaningZh": "強迫某人離開某處或某個團體"
+    },
+    {
+      "id": "phrasal-verb-196-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "In the park, the children casually passed a ball to one another using their feet.",
+      "promptZh": "孩子們在公園裏隨意把球踢來踢去。",
+      "starter": "In",
+      "answer": "In the park, the children kicked a ball around.",
+      "answerZh": "孩子們在公園裏隨意把球踢來踢去。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "把球或其他物件隨意踢來踢去"
+    },
+    {
+      "id": "phrasal-verb-196-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "Tonight's concert begins at seven.",
+      "promptZh": "今晚的音樂會七時開始。",
+      "starter": "Tonight's",
+      "answer": "Tonight's concert kicks off at seven.",
+      "answerZh": "今晚的音樂會七時開始。",
+      "highlight": "kicks off",
+      "targetForm": "kick off / kick something off",
+      "targetMeaningZh": "開始;使活動或事件開始"
+    },
+    {
+      "id": "phrasal-verb-196-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "It is no use resisting the school rules.",
+      "promptZh": "反抗校規也沒有用。",
+      "starter": "It",
+      "answer": "It is no use kicking against the school rules.",
+      "answerZh": "反抗校規也沒有用。",
+      "highlight": "kicking against",
+      "targetForm": "kick against something",
+      "targetMeaningZh": "反抗或拒絕接受某個制度、規則或決定"
+    },
+    {
+      "id": "phrasal-verb-196-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "After lunch, we wandered around town for an hour.",
+      "promptZh": "午膳後,我們在城中四處閒逛了一小時。",
+      "starter": "After",
+      "answer": "After lunch, we kicked about town for an hour.",
+      "answerZh": "午膳後,我們在城中四處閒逛了一小時。",
+      "highlight": "kicked about",
+      "targetForm": "kick about / kick around",
+      "targetMeaningZh": "四處走動或遊蕩,沒有固定計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "With every payment, the firm was secretly returning two per cent to the manager who gave it the work.",
+      "promptZh": "該公司把每筆款項的百分之二秘密退回給安排工作給它的經理。",
+      "starter": "With",
+      "answer": "With every payment, the firm was kicking two per cent back to the manager who gave it the work.",
+      "answerZh": "該公司把每筆款項的百分之二秘密退回給安排工作給它的經理。",
+      "highlight": "kicking",
+      "targetForm": "kick something back (to somebody)",
+      "targetMeaningZh": "把部分款項秘密退回給某人作為非法回報"
+    },
+    {
+      "id": "phrasal-verb-196-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "For weeks, the manager has been treating the new workers badly.",
+      "promptZh": "經理已粗暴地對待新員工多個星期。",
+      "starter": "For",
+      "answer": "For weeks, the manager has been kicking the new workers about.",
+      "answerZh": "經理已粗暴地對待新員工多個星期。",
+      "highlight": "kicking",
+      "targetForm": "kick somebody around / kick somebody about",
+      "targetMeaningZh": "粗暴或不公平地對待某人;任意使喚某人"
+    },
+    {
+      "id": "phrasal-verb-196-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "With a short welcome, the host is starting the meeting.",
+      "promptZh": "主持人正以簡短的歡迎詞開始會議。",
+      "starter": "With",
+      "answer": "With a short welcome, the host is kicking off the meeting.",
+      "answerZh": "主持人正以簡短的歡迎詞開始會議。",
+      "highlight": "kicking off",
+      "targetForm": "kick off / kick something off",
+      "targetMeaningZh": "開始;使活動或事件開始"
+    },
+    {
+      "id": "phrasal-verb-196-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Before running onto the grass, the children are removing their sandals with their feet.",
+      "promptZh": "孩子們跑到草地前,正用腳把涼鞋甩掉。",
+      "starter": "Before",
+      "answer": "Before running onto the grass, the children are kicking their sandals off.",
+      "answerZh": "孩子們跑到草地前,正用腳把涼鞋甩掉。",
+      "highlight": "kicking",
+      "targetForm": "kick something off",
+      "targetMeaningZh": "用腳把鞋、拖鞋或其他物件甩掉"
+    },
+    {
+      "id": "phrasal-verb-196-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "With no fixed plan, the two friends are travelling around northern Spain.",
+      "promptZh": "兩位朋友正在西班牙北部四處遊歷,沒有固定計劃。",
+      "starter": "With",
+      "answer": "With no fixed plan, the two friends are kicking around northern Spain.",
+      "answerZh": "兩位朋友正在西班牙北部四處遊歷,沒有固定計劃。",
+      "highlight": "kicking",
+      "targetForm": "kick about / kick around",
+      "targetMeaningZh": "四處走動或遊蕩,沒有固定計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "For the party, the class is informally discussing a few ideas.",
+      "promptZh": "全班正隨意討論幾個派對構思。",
+      "starter": "For",
+      "answer": "For the party, the class is kicking around a few ideas.",
+      "answerZh": "全班正隨意討論幾個派對構思。",
+      "highlight": "kicking around",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "非正式地討論一個想法或計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Because Theo ignored its rules, the club has forced him to leave.",
+      "promptZh": "會所因西奧無視規則而把他趕走。",
+      "starter": "Because",
+      "answer": "Because Theo ignored its rules, the club has kicked him out.",
+      "answerZh": "會所因西奧無視規則而把他趕走。",
+      "highlight": "kicked",
+      "targetForm": "kick somebody out / kick somebody out of something",
+      "targetMeaningZh": "強迫某人離開某處或某個團體"
+    },
+    {
+      "id": "phrasal-verb-196-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "After a few minutes, the game keeps disconnecting us.",
+      "promptZh": "這款遊戲每隔幾分鐘便令我們斷線。",
+      "starter": "After",
+      "answer": "After a few minutes, the game keeps kicking us off.",
+      "answerZh": "這款遊戲每隔幾分鐘便令我們斷線。",
+      "highlight": "kicking",
+      "targetForm": "kick somebody off / kick somebody off something",
+      "targetMeaningZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線"
+    },
+    {
+      "id": "phrasal-verb-196-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Along the beach, the runners are making sand rise.",
+      "promptZh": "跑手正在海灘上揚起沙粒。",
+      "starter": "Along",
+      "answer": "Along the beach, the runners are kicking up sand.",
+      "answerZh": "跑手正在海灘上揚起沙粒。",
+      "highlight": "kicking up",
+      "targetForm": "kick something up",
+      "targetMeaningZh": "踢起或揚起灰塵、沙土等"
+    },
+    {
+      "id": "phrasal-verb-196-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "If the gate does not open, the rescue team may have to break it open with their feet.",
+      "promptZh": "如果閘門無法打開,救援隊可能要用腳把它踢開。",
+      "starter": "If",
+      "answer": "If the gate does not open, the rescue team may have to kick it down.",
+      "answerZh": "如果閘門無法打開,救援隊可能要用腳把它踢開。",
+      "highlight": "kick",
+      "targetForm": "kick something down / kick something in",
+      "targetMeaningZh": "用腳踢破或踢開門、閘等障礙物"
+    },
+    {
+      "id": "phrasal-verb-196-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Several unopened letters have remained unused in the office for days.",
+      "promptZh": "幾封未拆開的信件已在辦公室放了多天,仍未有人處理。",
+      "starter": "Several",
+      "answer": "Several unopened letters have been kicking around the office for days.",
+      "answerZh": "幾封未拆開的信件已在辦公室放了多天,仍未有人處理。",
+      "highlight": "been kicking around",
+      "targetForm": "kick around / kick about",
+      "targetMeaningZh": "被隨意放在某處,長時間沒有使用或處理"
+    },
+    {
+      "id": "phrasal-verb-196-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "Lena is relaxing with a book this evening.",
+      "promptZh": "莉娜今晚會看書放鬆。",
+      "starter": "Lena",
+      "answer": "Lena is kicking back with a book this evening.",
+      "answerZh": "莉娜今晚會看書放鬆。",
+      "highlight": "kicking back",
+      "targetForm": "kick back",
+      "targetMeaningZh": "放鬆休息"
+    },
+    {
+      "id": "phrasal-verb-196-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "When the power failed, the backup lights began operating.",
+      "promptZh": "停電時,後備照明開始運作。",
+      "starter": "When",
+      "answer": "When the power failed, the backup lights kicked in.",
+      "answerZh": "停電時,後備照明開始運作。",
+      "highlight": "kicked in",
+      "targetForm": "kick in",
+      "targetMeaningZh": "開始運作或開始產生作用"
+    },
+    {
+      "id": "phrasal-verb-196-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "In the yard, the boys are using their feet to send a soft ball in different directions.",
+      "promptZh": "男孩子正在院子裏隨意把軟球踢來踢去。",
+      "starter": "In",
+      "answer": "In the yard, the boys are kicking a soft ball about.",
+      "answerZh": "男孩子正在院子裏隨意把軟球踢來踢去。",
+      "highlight": "kicking",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "把球或其他物件隨意踢來踢去"
+    },
+    {
+      "id": "phrasal-verb-196-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "Over the sea, a storm is becoming stronger.",
+      "promptZh": "海上的風暴正在增強。",
+      "starter": "Over",
+      "answer": "Over the sea, a storm is kicking up.",
+      "answerZh": "海上的風暴正在增強。",
+      "highlight": "kicking up",
+      "targetForm": "kick up",
+      "targetMeaningZh": "風或風暴開始增強"
+    },
+    {
+      "id": "phrasal-verb-196-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Whenever anyone came too close, the pony kept striking at them with its back legs.",
+      "promptZh": "每當有人走得太近,小馬便不斷用後腿踢向他們。",
+      "starter": "Whenever",
+      "answer": "Whenever anyone came too close, the pony kept kicking out at them.",
+      "answerZh": "每當有人走得太近,小馬便不斷用後腿踢向他們。",
+      "highlight": "kicking out",
+      "targetForm": "kick out at somebody/something",
+      "targetMeaningZh": "突然用腳踢向某人或某物"
+    },
+    {
+      "id": "phrasal-verb-196-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Be careful not to knock that cup over with your foot.",
+      "promptZh": "小心不要用腳把那隻杯踢翻。",
+      "starter": "Be",
+      "answer": "Be careful not to kick that cup over.",
+      "answerZh": "小心不要用腳把那隻杯踢翻。",
+      "highlight": "kick",
+      "targetForm": "kick something over",
+      "targetMeaningZh": "用腳把某物踢翻或踢倒"
+    },
+    {
+      "id": "phrasal-verb-196-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "Some drivers are still refusing to accept the new parking system.",
+      "promptZh": "部分司機仍拒絕接受新的泊車制度。",
+      "starter": "Some",
+      "answer": "Some drivers are still kicking against the new parking system.",
+      "answerZh": "部分司機仍拒絕接受新的泊車制度。",
+      "highlight": "kicking against",
+      "targetForm": "kick against something",
+      "targetMeaningZh": "反抗或拒絕接受某個制度、規則或決定"
+    },
+    {
+      "id": "phrasal-verb-196-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "After the long journey, they just wanted to relax and rest.",
+      "promptZh": "長途旅程後,他們只想放鬆休息。",
+      "starter": "After",
+      "answer": "After the long journey, they just wanted to kick back and rest.",
+      "answerZh": "長途旅程後,他們只想放鬆休息。",
+      "highlight": "kick back",
+      "targetForm": "kick back",
+      "targetMeaningZh": "放鬆休息"
+    },
+    {
+      "id": "phrasal-verb-196-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "She was tired of being treated badly by people who ignored her ideas.",
+      "promptZh": "她厭倦了被那些無視她意見的人粗暴對待。",
+      "starter": "She",
+      "answer": "She was tired of being kicked around by people who ignored her ideas.",
+      "answerZh": "她厭倦了被那些無視她意見的人粗暴對待。",
+      "highlight": "kicked around",
+      "targetForm": "kick somebody around / kick somebody about",
+      "targetMeaningZh": "粗暴或不公平地對待某人;任意使喚某人"
+    },
+    {
+      "id": "phrasal-verb-196-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The new safety rules will take effect next Monday.",
+      "promptZh": "新的安全規則將於下星期一生效。",
+      "starter": "The",
+      "answer": "The new safety rules will kick in next Monday.",
+      "answerZh": "新的安全規則將於下星期一生效。",
+      "highlight": "kick in",
+      "targetForm": "kick in",
+      "targetMeaningZh": "開始運作或開始產生作用"
+    },
+    {
+      "id": "phrasal-verb-196-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "He refused to return any money secretly in order to win the contract.",
+      "promptZh": "他拒絕秘密退回任何款項以取得合約。",
+      "starter": "He",
+      "answer": "He refused to kick any money back to win the contract.",
+      "answerZh": "他拒絕秘密退回任何款項以取得合約。",
+      "highlight": "kick",
+      "targetForm": "kick something back (to somebody)",
+      "targetMeaningZh": "把部分款項秘密退回給某人作為非法回報"
+    },
+    {
+      "id": "phrasal-verb-196-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "They were forced to leave the cinema after shouting during the film.",
+      "promptZh": "他們因在電影播放期間大叫而被趕出戲院。",
+      "starter": "They",
+      "answer": "They were kicked out of the cinema after shouting during the film.",
+      "answerZh": "他們因在電影播放期間大叫而被趕出戲院。",
+      "highlight": "kicked out of",
+      "targetForm": "kick somebody out / kick somebody out of something",
+      "targetMeaningZh": "強迫某人離開某處或某個團體"
+    },
+    {
+      "id": "phrasal-verb-196-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "By midnight, the wind had become strong enough to shake the windows.",
+      "promptZh": "到了午夜,風勢已增強至令窗戶震動。",
+      "starter": "By",
+      "answer": "By midnight, the wind had kicked up enough to shake the windows.",
+      "answerZh": "到了午夜,風勢已增強至令窗戶震動。",
+      "highlight": "kicked up",
+      "targetForm": "kick up",
+      "targetMeaningZh": "風或風暴開始增強"
+    },
+    {
+      "id": "phrasal-verb-196-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "Dust covered the dry road, and the bus sent it into the air as it drove past.",
+      "promptZh": "乾燥的路面滿是塵土,巴士駛過時把塵土揚到空中。",
+      "starter": "Dust",
+      "answer": "Dust covered the dry road, and the bus kicked it up as it drove past.",
+      "answerZh": "乾燥的路面滿是塵土,巴士駛過時把塵土揚到空中。",
+      "highlight": "kicked",
+      "targetForm": "kick something up",
+      "targetMeaningZh": "踢起或揚起灰塵、沙土等"
+    },
+    {
+      "id": "phrasal-verb-196-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "As the farmer moved nearer, the mule suddenly struck at him with its back legs.",
+      "promptZh": "農夫走近時,騾子突然用後腿踢向他。",
+      "starter": "As",
+      "answer": "As the farmer moved nearer, the mule kicked out at him.",
+      "answerZh": "農夫走近時,騾子突然用後腿踢向他。",
+      "highlight": "kicked out",
+      "targetForm": "kick out at somebody/something",
+      "targetMeaningZh": "突然用腳踢向某人或某物"
+    },
+    {
+      "id": "phrasal-verb-196-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "Why do they keep resisting a decision that cannot be changed?",
+      "promptZh": "他們為何一直反抗一項無法改變的決定?",
+      "starter": "Why",
+      "answer": "Why do they keep kicking against a decision that cannot be changed?",
+      "answerZh": "他們為何一直反抗一項無法改變的決定?",
+      "highlight": "kicking against",
+      "targetForm": "kick against something",
+      "targetMeaningZh": "反抗或拒絕接受某個制度、規則或決定"
+    },
+    {
+      "id": "phrasal-verb-196-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The back door had been broken open by a hard blow from someone's foot before the police arrived.",
+      "promptZh": "警方到達前,後門已被人用腳踢開。",
+      "starter": "The",
+      "answer": "The back door had been kicked in before the police arrived.",
+      "answerZh": "警方到達前,後門已被人用腳踢開。",
+      "highlight": "kicked in",
+      "targetForm": "kick something down / kick something in",
+      "targetMeaningZh": "用腳踢破或踢開門、閘等障礙物"
+    },
+    {
+      "id": "phrasal-verb-196-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Her account was removed from the school network by mistake.",
+      "promptZh": "她的帳戶被錯誤地從學校網絡中移除。",
+      "starter": "Her",
+      "answer": "Her account was kicked off the school network by mistake.",
+      "answerZh": "她的帳戶被錯誤地從學校網絡中移除。",
+      "highlight": "kicked off",
+      "targetForm": "kick somebody off / kick somebody off something",
+      "targetMeaningZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線"
+    },
+    {
+      "id": "phrasal-verb-196-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Will the school fair begin with the dance show?",
+      "promptZh": "學校嘉年華會以舞蹈表演開始嗎?",
+      "starter": "Will",
+      "answer": "Will the school fair kick off with the dance show?",
+      "answerZh": "學校嘉年華會以舞蹈表演開始嗎?",
+      "highlight": "kick off",
+      "targetForm": "kick off / kick something off",
+      "targetMeaningZh": "開始;使活動或事件開始"
+    },
+    {
+      "id": "phrasal-verb-196-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "She knocked it over with her foot while reaching for her bag.",
+      "promptZh": "她伸手拿袋時,用腳把它踢翻了。",
+      "starter": "She",
+      "answer": "She kicked it over while reaching for her bag.",
+      "answerZh": "她伸手拿袋時,用腳把它踢翻了。",
+      "highlight": "kicked",
+      "targetForm": "kick something over",
+      "targetMeaningZh": "用腳把某物踢翻或踢倒"
+    },
+    {
+      "id": "phrasal-verb-196-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "That spare cable was lying unused under the desk, so I moved it.",
+      "promptZh": "那條備用電線一直閒置在書桌下,所以我把它移走了。",
+      "starter": "That",
+      "answer": "That spare cable was kicking about under the desk, so I moved it.",
+      "answerZh": "那條備用電線一直閒置在書桌下,所以我把它移走了。",
+      "highlight": "kicking about",
+      "targetForm": "kick around / kick about",
+      "targetMeaningZh": "被隨意放在某處,長時間沒有使用或處理"
+    },
+    {
+      "id": "phrasal-verb-196-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "We found the old football and sent it in different directions with our feet for ten minutes.",
+      "promptZh": "我們找到那個舊足球,並把它踢來踢去了十分鐘。",
+      "starter": "We",
+      "answer": "We found the old football and kicked it around for ten minutes.",
+      "answerZh": "我們找到那個舊足球,並把它踢來踢去了十分鐘。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "把球或其他物件隨意踢來踢去"
+    },
+    {
+      "id": "phrasal-verb-196-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Let us discuss it informally before we make a final decision.",
+      "promptZh": "我們作出最後決定前,先隨意討論一下吧。",
+      "starter": "Let",
+      "answer": "Let us kick it around before we make a final decision.",
+      "answerZh": "我們作出最後決定前,先隨意討論一下吧。",
+      "highlight": "kick",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "非正式地討論一個想法或計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "His boots were uncomfortable, so he removed them with his feet and lay on the sofa.",
+      "promptZh": "他的靴子不舒服,所以他用腳把它們甩掉,然後躺在梳化上。",
+      "starter": "His",
+      "answer": "His boots were uncomfortable, so he kicked them off and lay on the sofa.",
+      "answerZh": "他的靴子不舒服,所以他用腳把它們甩掉,然後躺在梳化上。",
+      "highlight": "kicked",
+      "targetForm": "kick something off",
+      "targetMeaningZh": "用腳把鞋、拖鞋或其他物件甩掉"
+    },
+    {
+      "id": "phrasal-verb-196-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "After the bus left, Jonah wandered around the city centre until evening.",
+      "promptZh": "巴士開走後,喬納在市中心四處閒逛至傍晚。",
+      "starter": "After",
+      "answer": "After the bus left, Jonah kicked about the city centre until evening.",
+      "answerZh": "巴士開走後,喬納在市中心四處閒逛至傍晚。",
+      "highlight": "kicked about",
+      "targetForm": "kick about / kick around",
+      "targetMeaningZh": "四處走動或遊蕩,沒有固定計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The club may force members to leave if they repeatedly ignore the rules.",
+      "promptZh": "會員如多次無視規則,會所可能會把他們趕走。",
+      "starter": "The",
+      "answer": "The club may kick members out if they repeatedly ignore the rules.",
+      "answerZh": "會員如多次無視規則,會所可能會把他們趕走。",
+      "highlight": "kick",
+      "targetForm": "kick somebody out / kick somebody out of something",
+      "targetMeaningZh": "強迫某人離開某處或某個團體"
+    },
+    {
+      "id": "phrasal-verb-196-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "A copy of the form is still sitting unused somewhere in the staff room.",
+      "promptZh": "職員室某處仍放着一份沒有人使用的表格。",
+      "starter": "A",
+      "answer": "A copy of the form is still kicking around somewhere in the staff room.",
+      "answerZh": "職員室某處仍放着一份沒有人使用的表格。",
+      "highlight": "kicking around",
+      "targetForm": "kick around / kick about",
+      "targetMeaningZh": "被隨意放在某處,長時間沒有使用或處理"
+    },
+    {
+      "id": "phrasal-verb-196-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The designers have been informally discussing the new plan all week.",
+      "promptZh": "設計師整個星期都在隨意討論新計劃。",
+      "starter": "The",
+      "answer": "The designers have been kicking the new plan about all week.",
+      "answerZh": "設計師整個星期都在隨意討論新計劃。",
+      "highlight": "kicking",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "非正式地討論一個想法或計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Why did the teacher remove Amir from the online class?",
+      "promptZh": "老師為何把阿米爾從網上課堂中移除?",
+      "starter": "Why",
+      "answer": "Why did the teacher kick Amir off the online class?",
+      "answerZh": "老師為何把阿米爾從網上課堂中移除?",
+      "highlight": "kick",
+      "targetForm": "kick somebody off / kick somebody off something",
+      "targetMeaningZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線"
+    },
+    {
+      "id": "phrasal-verb-196-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "The workers may resist the new timetable at first.",
+      "promptZh": "工人起初可能會抗拒新的時間表。",
+      "starter": "The",
+      "answer": "The workers may kick against the new timetable at first.",
+      "answerZh": "工人起初可能會抗拒新的時間表。",
+      "highlight": "kick against",
+      "targetForm": "kick against something",
+      "targetMeaningZh": "反抗或拒絕接受某個制度、規則或決定"
+    },
+    {
+      "id": "phrasal-verb-196-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "A short video started the training session.",
+      "promptZh": "一段短片為培訓課程揭開序幕。",
+      "starter": "A",
+      "answer": "A short video kicked off the training session.",
+      "answerZh": "一段短片為培訓課程揭開序幕。",
+      "highlight": "kicked off",
+      "targetForm": "kick off / kick something off",
+      "targetMeaningZh": "開始;使活動或事件開始"
+    },
+    {
+      "id": "phrasal-verb-196-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "During the break, the players used their feet to pass a tennis ball between them behind the hall.",
+      "promptZh": "休息期間,球員在禮堂後面隨意把網球踢來踢去。",
+      "starter": "During",
+      "answer": "During the break, the players kicked a tennis ball about behind the hall.",
+      "answerZh": "休息期間,球員在禮堂後面隨意把網球踢來踢去。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "把球或其他物件隨意踢來踢去"
+    },
+    {
+      "id": "phrasal-verb-196-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "The player fell and made a sudden movement with his foot towards the ball, but missed it.",
+      "promptZh": "球員跌倒後突然用腳踢向皮球,但沒有踢中。",
+      "starter": "The",
+      "answer": "The player fell and kicked out at the ball, but missed it.",
+      "answerZh": "球員跌倒後突然用腳踢向皮球,但沒有踢中。",
+      "highlight": "kicked out at",
+      "targetForm": "kick out at somebody/something",
+      "targetMeaningZh": "突然用腳踢向某人或某物"
+    },
+    {
+      "id": "phrasal-verb-196-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "With no hotel bookings, the cousins travelled around Italy for two weeks.",
+      "promptZh": "幾位表兄弟姊妹沒有預訂酒店,在意大利四處遊歷了兩星期。",
+      "starter": "With",
+      "answer": "With no hotel bookings, the cousins kicked around Italy for two weeks.",
+      "answerZh": "幾位表兄弟姊妹沒有預訂酒店,在意大利四處遊歷了兩星期。",
+      "highlight": "kicked",
+      "targetForm": "kick about / kick around",
+      "targetMeaningZh": "四處走動或遊蕩,沒有固定計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "If the wind becomes stronger, the small boats should return to shore.",
+      "promptZh": "如果風勢增強,小船應該返回岸邊。",
+      "starter": "If",
+      "answer": "If the wind kicks up, the small boats should return to shore.",
+      "answerZh": "如果風勢增強,小船應該返回岸邊。",
+      "highlight": "kicks up",
+      "targetForm": "kick up",
+      "targetMeaningZh": "風或風暴開始增強"
+    },
+    {
+      "id": "phrasal-verb-196-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "During the game, a player knocked the small cone over with his foot.",
+      "promptZh": "比賽期間,一名球員用腳把小圓筒踢倒了。",
+      "starter": "During",
+      "answer": "During the game, a player kicked the small cone over.",
+      "answerZh": "比賽期間,一名球員用腳把小圓筒踢倒了。",
+      "highlight": "kicked",
+      "targetForm": "kick something over",
+      "targetMeaningZh": "用腳把某物踢翻或踢倒"
+    },
+    {
+      "id": "phrasal-verb-196-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "After the muddy walk, we removed our boots with our feet outside.",
+      "promptZh": "走過泥濘的路後,我們在外面用腳把靴子甩掉。",
+      "starter": "After",
+      "answer": "After the muddy walk, we kicked off our boots outside.",
+      "answerZh": "走過泥濘的路後,我們在外面用腳把靴子甩掉。",
+      "highlight": "kicked off",
+      "targetForm": "kick something off",
+      "targetMeaningZh": "用腳把鞋、拖鞋或其他物件甩掉"
+    },
+    {
+      "id": "phrasal-verb-196-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Why not relax for an hour before the next activity?",
+      "promptZh": "下一項活動前,何不放鬆一小時?",
+      "starter": "Why",
+      "answer": "Why not kick back for an hour before the next activity?",
+      "answerZh": "下一項活動前,何不放鬆一小時?",
+      "highlight": "kick back",
+      "targetForm": "kick back",
+      "targetMeaningZh": "放鬆休息"
+    },
+    {
+      "id": "phrasal-verb-196-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "When smoke filled the room, a neighbour forced the door open with his foot so everyone could leave.",
+      "promptZh": "房間充滿濃煙時,一名鄰居用腳踢開門,讓所有人離開。",
+      "starter": "When",
+      "answer": "When smoke filled the room, a neighbour kicked the door down so everyone could leave.",
+      "answerZh": "房間充滿濃煙時,一名鄰居用腳踢開門,讓所有人離開。",
+      "highlight": "kicked",
+      "targetForm": "kick something down / kick something in",
+      "targetMeaningZh": "用腳踢破或踢開門、閘等障礙物"
+    },
+    {
+      "id": "phrasal-verb-196-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "A fair coach never treats younger players as if they do not matter.",
+      "promptZh": "公平的教練絕不會任意使喚年輕球員,彷彿他們並不重要。",
+      "starter": "A",
+      "answer": "A fair coach never kicks younger players about as if they do not matter.",
+      "answerZh": "公平的教練絕不會任意使喚年輕球員,彷彿他們並不重要。",
+      "highlight": "kicks",
+      "targetForm": "kick somebody around / kick somebody about",
+      "targetMeaningZh": "粗暴或不公平地對待某人;任意使喚某人"
+    },
+    {
+      "id": "phrasal-verb-196-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Walking quickly can make loose dirt rise on this path.",
+      "promptZh": "在這條小徑上快步行走會揚起鬆散的泥土。",
+      "starter": "Walking",
+      "answer": "Walking quickly can kick up loose dirt on this path.",
+      "answerZh": "在這條小徑上快步行走會揚起鬆散的泥土。",
+      "highlight": "kick up",
+      "targetForm": "kick something up",
+      "targetMeaningZh": "踢起或揚起灰塵、沙土等"
+    },
+    {
+      "id": "phrasal-verb-196-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The police found that several suppliers had secretly returned money to the official who chose them.",
+      "promptZh": "警方發現幾間供應商曾把款項秘密退回給選中它們的官員。",
+      "starter": "The",
+      "answer": "The police found that several suppliers had kicked money back to the official who chose them.",
+      "answerZh": "警方發現幾間供應商曾把款項秘密退回給選中它們的官員。",
+      "highlight": "kicked",
+      "targetForm": "kick something back (to somebody)",
+      "targetMeaningZh": "把部分款項秘密退回給某人作為非法回報"
+    },
+    {
+      "id": "phrasal-verb-196-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "At first the room was cold, but the heater soon started working.",
+      "promptZh": "房間起初很冷,但暖爐很快便開始運作。",
+      "starter": "At",
+      "answer": "At first the room was cold, but the heater soon kicked in.",
+      "answerZh": "房間起初很冷,但暖爐很快便開始運作。",
+      "highlight": "kicked in",
+      "targetForm": "kick in",
+      "targetMeaningZh": "開始運作或開始產生作用"
+    },
+    {
+      "id": "phrasal-verb-196-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The key would not turn, so the firefighters forced the side door open with their feet and carried the child outside.",
+      "promptZh": "鎖匙無法轉動,所以消防員用腳踢開側門,把孩子帶到外面。",
+      "starter": "The",
+      "answer": "The key would not turn, so the firefighters kicked in the side door and carried the child outside.",
+      "answerZh": "鎖匙無法轉動,所以消防員用腳踢開側門,把孩子帶到外面。",
+      "highlight": "kicked in",
+      "targetForm": "kick something down / kick something in",
+      "targetMeaningZh": "用腳踢破或踢開門、閘等障礙物"
+    },
+    {
+      "id": "phrasal-verb-196-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "After months of being treated unfairly at work, Daniel finally spoke to the owner.",
+      "promptZh": "丹尼爾在工作上被不公平對待數月後,終於向老闆反映。",
+      "starter": "After",
+      "answer": "After months of being kicked around at work, Daniel finally spoke to the owner.",
+      "answerZh": "丹尼爾在工作上被不公平對待數月後,終於向老闆反映。",
+      "highlight": "kicked around",
+      "targetForm": "kick somebody around / kick somebody about",
+      "targetMeaningZh": "粗暴或不公平地對待某人;任意使喚某人"
+    },
+    {
+      "id": "phrasal-verb-196-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The weekend festival will begin on Friday evening, with local bands performing in the main square.",
+      "promptZh": "週末節慶將於星期五傍晚開始,本地樂隊會在中央廣場演出。",
+      "starter": "The",
+      "answer": "The weekend festival will kick off on Friday evening, with local bands performing in the main square.",
+      "answerZh": "週末節慶將於星期五傍晚開始,本地樂隊會在中央廣場演出。",
+      "highlight": "kick off",
+      "targetForm": "kick off / kick something off",
+      "targetMeaningZh": "開始;使活動或事件開始"
+    },
+    {
+      "id": "phrasal-verb-196-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "While they waited for the coach, the team used their feet to play casually with a ball on the empty field.",
+      "promptZh": "等候教練期間,球隊在空地上隨意把球踢來踢去。",
+      "starter": "While",
+      "answer": "While they waited for the coach, the team kicked a ball around on the empty field.",
+      "answerZh": "等候教練期間,球隊在空地上隨意把球踢來踢去。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "把球或其他物件隨意踢來踢去"
+    },
+    {
+      "id": "phrasal-verb-196-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "The deal looked fair, but the supplier had secretly returned part of the payment to the person who chose his company.",
+      "promptZh": "交易看似公平,但供應商曾把部分款項秘密退回給選中其公司的人。",
+      "starter": "The",
+      "answer": "The deal looked fair, but the supplier had kicked part of the payment back to the person who chose his company.",
+      "answerZh": "交易看似公平,但供應商曾把部分款項秘密退回給選中其公司的人。",
+      "highlight": "kicked",
+      "targetForm": "kick something back (to somebody)",
+      "targetMeaningZh": "把部分款項秘密退回給某人作為非法回報"
+    },
+    {
+      "id": "phrasal-verb-196-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "As soon as the long flight ended, Sara removed her tight shoes with her feet and stretched her legs.",
+      "promptZh": "長途航班一結束,莎拉便用腳把緊窄的鞋甩掉,並伸展雙腿。",
+      "starter": "As",
+      "answer": "As soon as the long flight ended, Sara kicked her tight shoes off and stretched her legs.",
+      "answerZh": "長途航班一結束,莎拉便用腳把緊窄的鞋甩掉,並伸展雙腿。",
+      "highlight": "kicked",
+      "targetForm": "kick something off",
+      "targetMeaningZh": "用腳把鞋、拖鞋或其他物件甩掉"
+    },
+    {
+      "id": "phrasal-verb-196-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "The receipt had remained forgotten in a coat pocket for months before Priya finally found it.",
+      "promptZh": "那張收據被遺忘在外套口袋裏數月,普里雅最後才找到它。",
+      "starter": "The",
+      "answer": "The receipt had been kicking about in a coat pocket for months before Priya finally found it.",
+      "answerZh": "那張收據被遺忘在外套口袋裏數月,普里雅最後才找到它。",
+      "highlight": "been kicking about",
+      "targetForm": "kick around / kick about",
+      "targetMeaningZh": "被隨意放在某處,長時間沒有使用或處理"
+    },
+    {
+      "id": "phrasal-verb-196-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "As the horses raced past the farm, they made so much dust rise that the road disappeared for a moment.",
+      "promptZh": "馬群飛奔經過農場時,揚起大量塵土,令道路一度看不見。",
+      "starter": "As",
+      "answer": "As the horses raced past the farm, they kicked up so much dust that the road disappeared for a moment.",
+      "answerZh": "馬群飛奔經過農場時,揚起大量塵土,令道路一度看不見。",
+      "highlight": "kicked up",
+      "targetForm": "kick something up",
+      "targetMeaningZh": "踢起或揚起灰塵、沙土等"
+    },
+    {
+      "id": "phrasal-verb-196-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Just as everyone began to worry, the emergency system started operating and opened the doors.",
+      "promptZh": "正當大家開始擔心時,緊急系統開始運作,並打開了門。",
+      "starter": "Just",
+      "answer": "Just as everyone began to worry, the emergency system kicked in and opened the doors.",
+      "answerZh": "正當大家開始擔心時,緊急系統開始運作,並打開了門。",
+      "highlight": "kicked in",
+      "targetForm": "kick in",
+      "targetMeaningZh": "開始運作或開始產生作用"
+    },
+    {
+      "id": "phrasal-verb-196-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "During the summer break, Arlo and Ben travelled around Scotland without a fixed route, stopping wherever they found a cheap room.",
+      "promptZh": "暑假期間,阿洛和賓沒有固定路線地遊歷蘇格蘭,找到便宜房間便停下來。",
+      "starter": "During",
+      "answer": "During the summer break, Arlo and Ben kicked about Scotland without a fixed route, stopping wherever they found a cheap room.",
+      "answerZh": "暑假期間,阿洛和賓沒有固定路線地遊歷蘇格蘭,找到便宜房間便停下來。",
+      "highlight": "kicked about",
+      "targetForm": "kick about / kick around",
+      "targetMeaningZh": "四處走動或遊蕩,沒有固定計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "Once the children were asleep, the parents relaxed on the sofa and watched a comedy.",
+      "promptZh": "孩子入睡後,父母在梳化上放鬆,觀看一齣喜劇。",
+      "starter": "Once",
+      "answer": "Once the children were asleep, the parents kicked back on the sofa and watched a comedy.",
+      "answerZh": "孩子入睡後,父母在梳化上放鬆,觀看一齣喜劇。",
+      "highlight": "kicked back",
+      "targetForm": "kick back",
+      "targetMeaningZh": "放鬆休息"
+    },
+    {
+      "id": "phrasal-verb-196-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "The sky was still clear, but the wind suddenly became much stronger and made the outdoor tables shake.",
+      "promptZh": "天空仍然晴朗,但風勢突然大幅增強,令戶外桌子震動。",
+      "starter": "The",
+      "answer": "The sky was still clear, but the wind suddenly kicked up and made the outdoor tables shake.",
+      "answerZh": "天空仍然晴朗,但風勢突然大幅增強,令戶外桌子震動。",
+      "highlight": "kicked up",
+      "targetForm": "kick up",
+      "targetMeaningZh": "風或風暴開始增強"
+    },
+    {
+      "id": "phrasal-verb-196-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "Before choosing a date, the organisers informally discussed several possible dates and asked everyone for an opinion.",
+      "promptZh": "主辦單位在選擇日期前,隨意討論了幾個可能的日子,並詢問所有人的意見。",
+      "starter": "Before",
+      "answer": "Before choosing a date, the organisers kicked several possible dates around and asked everyone for an opinion.",
+      "answerZh": "主辦單位在選擇日期前,隨意討論了幾個可能的日子,並詢問所有人的意見。",
+      "highlight": "kicked",
+      "targetForm": "kick something around / kick something about",
+      "targetMeaningZh": "非正式地討論一個想法或計劃"
+    },
+    {
+      "id": "phrasal-verb-196-q86",
+      "number": 86,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "While stepping backwards in the dark, Owen knocked the plant pot over with his foot and spilled soil across the floor.",
+      "promptZh": "歐文在黑暗中向後踏步時,用腳把花盆踢翻,泥土灑滿地面。",
+      "starter": "While",
+      "answer": "While stepping backwards in the dark, Owen kicked the plant pot over and spilled soil across the floor.",
+      "answerZh": "歐文在黑暗中向後踏步時,用腳把花盆踢翻,泥土灑滿地面。",
+      "highlight": "kicked",
+      "targetForm": "kick something over",
+      "targetMeaningZh": "用腳把某物踢翻或踢倒"
+    },
+    {
+      "id": "phrasal-verb-196-q87",
+      "number": 87,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "After he damaged the equipment twice, the sports centre forced him to leave and cancelled his membership.",
+      "promptZh": "他兩度損壞器材後,體育中心把他趕走,並取消了他的會籍。",
+      "starter": "After",
+      "answer": "After he damaged the equipment twice, the sports centre kicked him out and cancelled his membership.",
+      "answerZh": "他兩度損壞器材後,體育中心把他趕走,並取消了他的會籍。",
+      "highlight": "kicked",
+      "targetForm": "kick somebody out / kick somebody out of something",
+      "targetMeaningZh": "強迫某人離開某處或某個團體"
+    },
+    {
+      "id": "phrasal-verb-196-q88",
+      "number": 88,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "When the loud door slammed, the nervous horse suddenly struck the wall with its back legs but did not hurt itself.",
+      "promptZh": "大門砰然關上時,那匹緊張的馬突然用後腿踢向牆壁,但沒有受傷。",
+      "starter": "When",
+      "answer": "When the loud door slammed, the nervous horse kicked out at the wall but did not hurt itself.",
+      "answerZh": "大門砰然關上時,那匹緊張的馬突然用後腿踢向牆壁,但沒有受傷。",
+      "highlight": "kicked out at",
+      "targetForm": "kick out at somebody/something",
+      "targetMeaningZh": "突然用腳踢向某人或某物"
+    },
+    {
+      "id": "phrasal-verb-196-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "If the Internet becomes unstable again, it may disconnect everyone before the lesson ends.",
+      "promptZh": "如果互聯網再次不穩定,可能會在課堂結束前令所有人斷線。",
+      "starter": "If",
+      "answer": "If the Internet becomes unstable again, it may kick everyone off before the lesson ends.",
+      "answerZh": "如果互聯網再次不穩定,可能會在課堂結束前令所有人斷線。",
+      "highlight": "kick",
+      "targetForm": "kick somebody off / kick somebody off something",
+      "targetMeaningZh": "把某人從隊伍、通話、網站或服務中移除;令某人斷線"
+    },
+    {
+      "id": "phrasal-verb-196-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "Although Rowan wanted to resist all the changes, he eventually agreed to the new plan.",
+      "promptZh": "雖然羅恩想反抗所有改動,但他最後同意了新計劃。",
+      "starter": "Although",
+      "answer": "Although Rowan wanted to kick against all the changes, he eventually agreed to the new plan.",
+      "answerZh": "雖然羅恩想反抗所有改動,但他最後同意了新計劃。",
+      "highlight": "kick against",
+      "targetForm": "kick against something",
+      "targetMeaningZh": "反抗或拒絕接受某個制度、規則或決定"
+    }
+  ]
+}

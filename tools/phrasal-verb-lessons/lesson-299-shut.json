@@ -1,0 +1,2091 @@
+{
+  "id": "phrasal-verb-299",
+  "order": 299,
+  "slug": "shut",
+  "version": "1",
+  "title": "SHUT 動詞片語",
+  "titleEn": "Shut",
+  "titleZh": "SHUT 動詞片語",
+  "level": "B1",
+  "groupCount": 13,
+  "source": {
+    "file": "Phrasal Verbs 284 - SHUT.pdf",
+    "sourceNumber": 284,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHUT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHUT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHUT",
+      "highlight": "SHUT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Noah shut himself away in his study to finish the report.",
+      "zh": "諾亞把自己關在書房裏,以完成報告。",
+      "highlight": "shut himself away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The factory shut down last month.",
+      "zh": "工廠上月停止營運。",
+      "highlight": "shut down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please shut the goats in for the night.",
+      "zh": "請把山羊關在裏面過夜。",
+      "highlight": "shut the goats in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把自己關在某處獨處;避開其他人或事情；停止營運或運作;使公司、服務、機器或系統停止運作；關上門或閘,把某人、動物或自己留在裏面；關門、抽屜或蓋子時,把身體部分或物件夾住；停止水、煤氣、電力或機器的供應或運作；使某人或某地與另一地方分隔或隔絕；停止與其他人溝通或接觸；拒絕讓某人了解或參與自己的想法、感受、生活或決定；阻止人或事物進入;阻隔光線、聲音、風或其他東西；意外把自己反鎖在房屋、房間、汽車或其他地方外面；令某人停止說話或叫喊；把某人、動物或自己長時間關在某個地方；把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+    "en": "shut yourself away from somebody/something; shut down / shut something down; shut somebody/something in / shut yourself in; shut something in something; shut off / shut something off; shut somebody/something off from something; shut yourself off from somebody/something; shut somebody out; shut somebody/something out / shut somebody/something out of something; shut yourself out / shut yourself out of something; shut somebody up; shut somebody/something up in something / shut yourself up in something; shut something up",
+    "naturalZh": [
+      "把自己關在某處獨處;避開其他人或事情",
+      "停止營運或運作;使公司、服務、機器或系統停止運作",
+      "關上門或閘,把某人、動物或自己留在裏面",
+      "關門、抽屜或蓋子時,把身體部分或物件夾住",
+      "停止水、煤氣、電力或機器的供應或運作",
+      "使某人或某地與另一地方分隔或隔絕",
+      "停止與其他人溝通或接觸",
+      "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+      "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+      "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+      "令某人停止說話或叫喊",
+      "把某人、動物或自己長時間關在某個地方",
+      "把建築物或地方的門窗關好鎖好,通常準備離開一段時間"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "shut yourself away from somebody/something",
+      "titleZh": "把自己關在某處獨處;避開其他人或事情",
+      "titleEn": "shut yourself away from somebody/something",
+      "descriptionZh": "把自己關在某處獨處;避開其他人或事情",
+      "descriptionEn": "Noah shut himself away in his study to finish the report.",
+      "examples": [
+        {
+          "en": "Noah shut himself away in his study to finish the report.",
+          "zh": "諾亞把自己關在書房裏,以完成報告。",
+          "highlight": "shut himself away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut down / shut something down",
+      "titleZh": "停止營運或運作;使公司、服務、機器或系統停止運作",
+      "titleEn": "shut down / shut something down",
+      "descriptionZh": "停止營運或運作;使公司、服務、機器或系統停止運作",
+      "descriptionEn": "The factory shut down last month.",
+      "examples": [
+        {
+          "en": "The factory shut down last month.",
+          "zh": "工廠上月停止營運。",
+          "highlight": "shut down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut somebody/something in / shut yourself in",
+      "titleZh": "關上門或閘,把某人、動物或自己留在裏面",
+      "titleEn": "shut somebody/something in / shut yourself in",
+      "descriptionZh": "關上門或閘,把某人、動物或自己留在裏面",
+      "descriptionEn": "Please shut the goats in for the night.",
+      "examples": [
+        {
+          "en": "Please shut the goats in for the night.",
+          "zh": "請把山羊關在裏面過夜。",
+          "highlight": "shut the goats in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut something in something",
+      "titleZh": "關門、抽屜或蓋子時,把身體部分或物件夾住",
+      "titleEn": "shut something in something",
+      "descriptionZh": "關門、抽屜或蓋子時,把身體部分或物件夾住",
+      "descriptionEn": "I shut my finger in the car door.",
+      "examples": [
+        {
+          "en": "I shut my finger in the car door.",
+          "zh": "我關車門時夾到了手指。",
+          "highlight": "shut my finger in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut off / shut something off",
+      "titleZh": "停止水、煤氣、電力或機器的供應或運作",
+      "titleEn": "shut off / shut something off",
+      "descriptionZh": "停止水、煤氣、電力或機器的供應或運作",
+      "descriptionEn": "The heating shuts off automatically at ten.",
+      "examples": [
+        {
+          "en": "The heating shuts off automatically at ten.",
+          "zh": "暖氣會在十時自動關掉。",
+          "highlight": "shuts off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut somebody/something off from something",
+      "titleZh": "使某人或某地與另一地方分隔或隔絕",
+      "titleEn": "shut somebody/something off from something",
+      "descriptionZh": "使某人或某地與另一地方分隔或隔絕",
+      "descriptionEn": "The mountains shut the village off from the coast.",
+      "examples": [
+        {
+          "en": "The mountains shut the village off from the coast.",
+          "zh": "群山把村莊與海岸分隔開來。",
+          "highlight": "shut the village off from"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut yourself off from somebody/something",
+      "titleZh": "停止與其他人溝通或接觸",
+      "titleEn": "shut yourself off from somebody/something",
+      "descriptionZh": "停止與其他人溝通或接觸",
+      "descriptionEn": "After the argument, she shut herself off from her friends.",
+      "examples": [
+        {
+          "en": "After the argument, she shut herself off from her friends.",
+          "zh": "爭執後,她不再與朋友交流。",
+          "highlight": "shut herself off from"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shut somebody out",
+      "titleZh": "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+      "titleEn": "shut somebody out",
+      "descriptionZh": "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+      "descriptionEn": "Do not shut your family out when you need help.",
+      "examples": [
+        {
+          "en": "Do not shut your family out when you need help.",
+          "zh": "需要幫忙時,不要把家人拒於自己的內心之外。",
+          "highlight": "shut your family out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shut somebody/something out / shut somebody/something out of something",
+      "titleZh": "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+      "titleEn": "shut somebody/something out / shut somebody/something out of something",
+      "descriptionZh": "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+      "descriptionEn": "The thick curtains shut out the morning light.",
+      "examples": [
+        {
+          "en": "The thick curtains shut out the morning light.",
+          "zh": "厚窗簾阻擋了晨光。",
+          "highlight": "shut out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shut yourself out / shut yourself out of something",
+      "titleZh": "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+      "titleEn": "shut yourself out / shut yourself out of something",
+      "descriptionZh": "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+      "descriptionEn": "I shut myself out of the flat.",
+      "examples": [
+        {
+          "en": "I shut myself out of the flat.",
+          "zh": "我把自己反鎖在住所外。",
+          "highlight": "shut myself out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shut somebody up",
+      "titleZh": "令某人停止說話或叫喊",
+      "titleEn": "shut somebody up",
+      "descriptionZh": "令某人停止說話或叫喊",
+      "descriptionEn": "The teacher could not shut the children up.",
+      "examples": [
+        {
+          "en": "The teacher could not shut the children up.",
+          "zh": "老師無法令孩子安靜下來。",
+          "highlight": "shut the children up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shut somebody/something up in something / shut yourself up in something",
+      "titleZh": "把某人、動物或自己長時間關在某個地方",
+      "titleEn": "shut somebody/something up in something / shut yourself up in something",
+      "descriptionZh": "把某人、動物或自己長時間關在某個地方",
+      "descriptionEn": "The prisoner was shut up in a small cell.",
+      "examples": [
+        {
+          "en": "The prisoner was shut up in a small cell.",
+          "zh": "那名囚犯被關在一間小囚室裏。",
+          "highlight": "shut up in"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shut something up",
+      "titleZh": "把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+      "titleEn": "shut something up",
+      "descriptionZh": "把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+      "descriptionEn": "We shut the holiday cottage up for winter.",
+      "examples": [
+        {
+          "en": "We shut the holiday cottage up for winter.",
+          "zh": "我們把度假小屋關好鎖好,準備過冬。",
+          "highlight": "shut the holiday cottage up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHUT 片語動詞的實際用途",
+    "labelEn": "SHUT Phrasal Verbs in Use",
+    "summaryZh": "shut down 可以描述公司、服務或系統停止運作;shut off 則可以描述停止水、煤氣、電力或機器。；shut in 描述把某人或某物留在裏面;shut out 則描述阻止人、光線、聲音或其他東西進入。；你可以用 shut yourself away 表示把自己關起來獨處;用 shut yourself off 表示拒絕與人交流;用shut yourself out 表示意外把自己反鎖在外。；shut something up 可以描述離開店舖、房屋或度假屋前,把門窗關好鎖好。",
+    "summaryEn": "Shut down can describe a business, service or system stopping. Shut off can describe stopping water, gas, electricity or a machine. Shut in describes keeping someone or something inside. Shut out describes preventing someone, light, sound or another thing from entering. You can use shut yourself away for physical privacy, shut yourself off for emotional distance and shut yourself out for an accidental lockout. Shut something up can describe closing and securing a shop, house or holiday home before leaving it empty.",
+    "contextsZh": [
+      "清楚表達不同形式的停止運作",
+      "描述誰或甚麼被留在裏面或擋在外面",
+      "表達不同形式的隔離",
+      "談論關閉和保護地方"
+    ],
+    "contextsEn": [
+      "Talk clearly about different ways of stopping things",
+      "Describe who or what is kept inside or outside",
+      "Express different kinds of isolation",
+      "Talk about closing and protecting places"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHUT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHUT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "shut yourself away from somebody/something",
+    "fixedHighlight": "shut yourself away from somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 SHUT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHUT expression that gives the same meaning.",
+    "correct": "shut himself away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以下三個不同意思:● shut yourself away:把自己關在某處獨處;● shut yourself off:不再與其他人溝通或來往;● shut yourself out:意外把自己反鎖在外。；shut somebody up 表示令某人停止說話。這是較口語的表達,有時可能顯得不禮貌。",
+    "variableEn": "Keep the same people, things, time and meaning. Pay attention to these three different ideas: ● shut yourself away: stay alone in a place; ● shut yourself off: stop communicating with other people; ● shut yourself out: accidentally leave yourself outside a locked place. Shut somebody up means to make somebody stop talking. It is informal and may sound impolite.",
+    "variableItemsZh": [
+      "shut yourself away from somebody/something",
+      "shut down / shut something down",
+      "shut somebody/something in / shut yourself in",
+      "shut something in something",
+      "shut off / shut something off",
+      "shut somebody/something off from something",
+      "shut yourself off from somebody/something",
+      "shut somebody out",
+      "shut somebody/something out / shut somebody/something out of something",
+      "shut yourself out / shut yourself out of something",
+      "shut somebody up",
+      "shut somebody/something up in something / shut yourself up in something",
+      "shut something up"
+    ],
+    "variableItemsEn": [
+      "shut yourself away from somebody/something",
+      "shut down / shut something down",
+      "shut somebody/something in / shut yourself in",
+      "shut something in something",
+      "shut off / shut something off",
+      "shut somebody/something off from something",
+      "shut yourself off from somebody/something",
+      "shut somebody out",
+      "shut somebody/something out / shut somebody/something out of something",
+      "shut yourself out / shut yourself out of something",
+      "shut somebody up",
+      "shut somebody/something up in something / shut yourself up in something",
+      "shut something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把自己關在某處獨處;避開其他人或事情",
+        "formEn": "shut yourself away from somebody/something",
+        "exampleZh": "諾亞把自己關在書房裏,以完成報告。",
+        "exampleEn": "Noah shut himself away in his study to finish the report.",
+        "highlight": "shut himself away"
+      },
+      {
+        "formZh": "停止營運或運作;使公司、服務、機器或系統停止運作",
+        "formEn": "shut down / shut something down",
+        "exampleZh": "工廠上月停止營運。",
+        "exampleEn": "The factory shut down last month.",
+        "highlight": "shut down"
+      },
+      {
+        "formZh": "關上門或閘,把某人、動物或自己留在裏面",
+        "formEn": "shut somebody/something in / shut yourself in",
+        "exampleZh": "請把山羊關在裏面過夜。",
+        "exampleEn": "Please shut the goats in for the night.",
+        "highlight": "shut the goats in"
+      },
+      {
+        "formZh": "關門、抽屜或蓋子時,把身體部分或物件夾住",
+        "formEn": "shut something in something",
+        "exampleZh": "我關車門時夾到了手指。",
+        "exampleEn": "I shut my finger in the car door.",
+        "highlight": "shut my finger in"
+      },
+      {
+        "formZh": "停止水、煤氣、電力或機器的供應或運作",
+        "formEn": "shut off / shut something off",
+        "exampleZh": "暖氣會在十時自動關掉。",
+        "exampleEn": "The heating shuts off automatically at ten.",
+        "highlight": "shuts off"
+      },
+      {
+        "formZh": "使某人或某地與另一地方分隔或隔絕",
+        "formEn": "shut somebody/something off from something",
+        "exampleZh": "群山把村莊與海岸分隔開來。",
+        "exampleEn": "The mountains shut the village off from the coast.",
+        "highlight": "shut the village off from"
+      },
+      {
+        "formZh": "停止與其他人溝通或接觸",
+        "formEn": "shut yourself off from somebody/something",
+        "exampleZh": "爭執後,她不再與朋友交流。",
+        "exampleEn": "After the argument, she shut herself off from her friends.",
+        "highlight": "shut herself off from"
+      },
+      {
+        "formZh": "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+        "formEn": "shut somebody out",
+        "exampleZh": "需要幫忙時,不要把家人拒於自己的內心之外。",
+        "exampleEn": "Do not shut your family out when you need help.",
+        "highlight": "shut your family out"
+      },
+      {
+        "formZh": "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+        "formEn": "shut somebody/something out / shut somebody/something out of something",
+        "exampleZh": "厚窗簾阻擋了晨光。",
+        "exampleEn": "The thick curtains shut out the morning light.",
+        "highlight": "shut out"
+      },
+      {
+        "formZh": "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+        "formEn": "shut yourself out / shut yourself out of something",
+        "exampleZh": "我把自己反鎖在住所外。",
+        "exampleEn": "I shut myself out of the flat.",
+        "highlight": "shut myself out"
+      },
+      {
+        "formZh": "令某人停止說話或叫喊",
+        "formEn": "shut somebody up",
+        "exampleZh": "老師無法令孩子安靜下來。",
+        "exampleEn": "The teacher could not shut the children up.",
+        "highlight": "shut the children up"
+      },
+      {
+        "formZh": "把某人、動物或自己長時間關在某個地方",
+        "formEn": "shut somebody/something up in something / shut yourself up in something",
+        "exampleZh": "那名囚犯被關在一間小囚室裏。",
+        "exampleEn": "The prisoner was shut up in a small cell.",
+        "highlight": "shut up in"
+      },
+      {
+        "formZh": "把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+        "formEn": "shut something up",
+        "exampleZh": "我們把度假小屋關好鎖好,準備過冬。",
+        "exampleEn": "We shut the holiday cottage up for winter.",
+        "highlight": "shut the holiday cottage up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把自己關在某處獨處;避開其他人或事情",
+      "titleEn": "shut yourself away from somebody/something",
+      "formula": "shut yourself away from somebody/something",
+      "highlight": "shut yourself away from somebody/something",
+      "descriptionZh": "把自己關在某處獨處;避開其他人或事情",
+      "descriptionEn": "Noah shut himself away in his study to finish the report.",
+      "examples": [
+        {
+          "en": "Noah shut himself away in his study to finish the report.",
+          "zh": "諾亞把自己關在書房裏,以完成報告。",
+          "highlight": "shut himself away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "停止營運或運作;使公司、服務、機器或系統停止運作",
+      "titleEn": "shut down / shut something down",
+      "formula": "shut down / shut something down",
+      "highlight": "shut down / shut something down",
+      "descriptionZh": "停止營運或運作;使公司、服務、機器或系統停止運作",
+      "descriptionEn": "The factory shut down last month.",
+      "examples": [
+        {
+          "en": "The factory shut down last month.",
+          "zh": "工廠上月停止營運。",
+          "highlight": "shut down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "關上門或閘,把某人、動物或自己留在裏面",
+      "titleEn": "shut somebody/something in / shut yourself in",
+      "formula": "shut somebody/something in / shut yourself in",
+      "highlight": "shut somebody/something in / shut yourself in",
+      "descriptionZh": "關上門或閘,把某人、動物或自己留在裏面",
+      "descriptionEn": "Please shut the goats in for the night.",
+      "examples": [
+        {
+          "en": "Please shut the goats in for the night.",
+          "zh": "請把山羊關在裏面過夜。",
+          "highlight": "shut the goats in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "關門、抽屜或蓋子時,把身體部分或物件夾住",
+      "titleEn": "shut something in something",
+      "formula": "shut something in something",
+      "highlight": "shut something in something",
+      "descriptionZh": "關門、抽屜或蓋子時,把身體部分或物件夾住",
+      "descriptionEn": "I shut my finger in the car door.",
+      "examples": [
+        {
+          "en": "I shut my finger in the car door.",
+          "zh": "我關車門時夾到了手指。",
+          "highlight": "shut my finger in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "停止水、煤氣、電力或機器的供應或運作",
+      "titleEn": "shut off / shut something off",
+      "formula": "shut off / shut something off",
+      "highlight": "shut off / shut something off",
+      "descriptionZh": "停止水、煤氣、電力或機器的供應或運作",
+      "descriptionEn": "The heating shuts off automatically at ten.",
+      "examples": [
+        {
+          "en": "The heating shuts off automatically at ten.",
+          "zh": "暖氣會在十時自動關掉。",
+          "highlight": "shuts off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "使某人或某地與另一地方分隔或隔絕",
+      "titleEn": "shut somebody/something off from something",
+      "formula": "shut somebody/something off from something",
+      "highlight": "shut somebody/something off from something",
+      "descriptionZh": "使某人或某地與另一地方分隔或隔絕",
+      "descriptionEn": "The mountains shut the village off from the coast.",
+      "examples": [
+        {
+          "en": "The mountains shut the village off from the coast.",
+          "zh": "群山把村莊與海岸分隔開來。",
+          "highlight": "shut the village off from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "停止與其他人溝通或接觸",
+      "titleEn": "shut yourself off from somebody/something",
+      "formula": "shut yourself off from somebody/something",
+      "highlight": "shut yourself off from somebody/something",
+      "descriptionZh": "停止與其他人溝通或接觸",
+      "descriptionEn": "After the argument, she shut herself off from her friends.",
+      "examples": [
+        {
+          "en": "After the argument, she shut herself off from her friends.",
+          "zh": "爭執後,她不再與朋友交流。",
+          "highlight": "shut herself off from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+      "titleEn": "shut somebody out",
+      "formula": "shut somebody out",
+      "highlight": "shut somebody out",
+      "descriptionZh": "拒絕讓某人了解或參與自己的想法、感受、生活或決定",
+      "descriptionEn": "Do not shut your family out when you need help.",
+      "examples": [
+        {
+          "en": "Do not shut your family out when you need help.",
+          "zh": "需要幫忙時,不要把家人拒於自己的內心之外。",
+          "highlight": "shut your family out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+      "titleEn": "shut somebody/something out / shut somebody/something out of something",
+      "formula": "shut somebody/something out / shut somebody/something out of something",
+      "highlight": "shut somebody/something out / shut somebody/something out of something",
+      "descriptionZh": "阻止人或事物進入;阻隔光線、聲音、風或其他東西",
+      "descriptionEn": "The thick curtains shut out the morning light.",
+      "examples": [
+        {
+          "en": "The thick curtains shut out the morning light.",
+          "zh": "厚窗簾阻擋了晨光。",
+          "highlight": "shut out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+      "titleEn": "shut yourself out / shut yourself out of something",
+      "formula": "shut yourself out / shut yourself out of something",
+      "highlight": "shut yourself out / shut yourself out of something",
+      "descriptionZh": "意外把自己反鎖在房屋、房間、汽車或其他地方外面",
+      "descriptionEn": "I shut myself out of the flat.",
+      "examples": [
+        {
+          "en": "I shut myself out of the flat.",
+          "zh": "我把自己反鎖在住所外。",
+          "highlight": "shut myself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "令某人停止說話或叫喊",
+      "titleEn": "shut somebody up",
+      "formula": "shut somebody up",
+      "highlight": "shut somebody up",
+      "descriptionZh": "令某人停止說話或叫喊",
+      "descriptionEn": "The teacher could not shut the children up.",
+      "examples": [
+        {
+          "en": "The teacher could not shut the children up.",
+          "zh": "老師無法令孩子安靜下來。",
+          "highlight": "shut the children up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人、動物或自己長時間關在某個地方",
+      "titleEn": "shut somebody/something up in something / shut yourself up in something",
+      "formula": "shut somebody/something up in something / shut yourself up in something",
+      "highlight": "shut somebody/something up in something / shut yourself up in something",
+      "descriptionZh": "把某人、動物或自己長時間關在某個地方",
+      "descriptionEn": "The prisoner was shut up in a small cell.",
+      "examples": [
+        {
+          "en": "The prisoner was shut up in a small cell.",
+          "zh": "那名囚犯被關在一間小囚室裏。",
+          "highlight": "shut up in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+      "titleEn": "shut something up",
+      "formula": "shut something up",
+      "highlight": "shut something up",
+      "descriptionZh": "把建築物或地方的門窗關好鎖好,通常準備離開一段時間",
+      "descriptionEn": "We shut the holiday cottage up for winter.",
+      "examples": [
+        {
+          "en": "We shut the holiday cottage up for winter.",
+          "zh": "我們把度假小屋關好鎖好,準備過冬。",
+          "highlight": "shut the holiday cottage up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達不同形式的停止運作",
+      "titleEn": "Talk clearly about different ways of stopping things",
+      "zh": "shut down 可以描述公司、服務或系統停止運作;shut off 則可以描述停止水、煤氣、電力或機器。",
+      "en": "Shut down can describe a business, service or system stopping. Shut off can describe stopping water, gas, electricity or a machine."
+    },
+    {
+      "titleZh": "描述誰或甚麼被留在裏面或擋在外面",
+      "titleEn": "Describe who or what is kept inside or outside",
+      "zh": "shut in 描述把某人或某物留在裏面;shut out 則描述阻止人、光線、聲音或其他東西進入。",
+      "en": "Shut in describes keeping someone or something inside. Shut out describes preventing someone, light, sound or another thing from entering."
+    },
+    {
+      "titleZh": "表達不同形式的隔離",
+      "titleEn": "Express different kinds of isolation",
+      "zh": "你可以用 shut yourself away 表示把自己關起來獨處;用 shut yourself off 表示拒絕與人交流;用shut yourself out 表示意外把自己反鎖在外。",
+      "en": "You can use shut yourself away for physical privacy, shut yourself off for emotional distance and shut yourself out for an accidental lockout."
+    },
+    {
+      "titleZh": "談論關閉和保護地方",
+      "titleEn": "Talk about closing and protecting places",
+      "zh": "shut something up 可以描述離開店舖、房屋或度假屋前,把門窗關好鎖好。",
+      "en": "Shut something up can describe closing and securing a shop, house or holiday home before leaving it empty."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達不同形式的停止運作",
+      "描述誰或甚麼被留在裏面或擋在外面",
+      "表達不同形式的隔離",
+      "談論關閉和保護地方"
+    ],
+    "contextsEn": [
+      "Talk clearly about different ways of stopping things",
+      "Describe who or what is kept inside or outside",
+      "Express different kinds of isolation",
+      "Talk about closing and protecting places"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達不同形式的停止運作",
+        "titleEn": "Talk clearly about different ways of stopping things",
+        "zh": "shut down 可以描述公司、服務或系統停止運作;shut off 則可以描述停止水、煤氣、電力或機器。",
+        "en": "Shut down can describe a business, service or system stopping. Shut off can describe stopping water, gas, electricity or a machine.",
+        "examples": [
+          {
+            "en": "Noah shut himself away in his study to finish the report.",
+            "zh": "諾亞把自己關在書房裏,以完成報告。",
+            "highlight": "shut himself away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述誰或甚麼被留在裏面或擋在外面",
+        "titleEn": "Describe who or what is kept inside or outside",
+        "zh": "shut in 描述把某人或某物留在裏面;shut out 則描述阻止人、光線、聲音或其他東西進入。",
+        "en": "Shut in describes keeping someone or something inside. Shut out describes preventing someone, light, sound or another thing from entering.",
+        "examples": [
+          {
+            "en": "The factory shut down last month.",
+            "zh": "工廠上月停止營運。",
+            "highlight": "shut down"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達不同形式的隔離",
+        "titleEn": "Express different kinds of isolation",
+        "zh": "你可以用 shut yourself away 表示把自己關起來獨處;用 shut yourself off 表示拒絕與人交流;用shut yourself out 表示意外把自己反鎖在外。",
+        "en": "You can use shut yourself away for physical privacy, shut yourself off for emotional distance and shut yourself out for an accidental lockout.",
+        "examples": [
+          {
+            "en": "Please shut the goats in for the night.",
+            "zh": "請把山羊關在裏面過夜。",
+            "highlight": "shut the goats in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論關閉和保護地方",
+        "titleEn": "Talk about closing and protecting places",
+        "zh": "shut something up 可以描述離開店舖、房屋或度假屋前,把門窗關好鎖好。",
+        "en": "Shut something up can describe closing and securing a shop, house or holiday home before leaving it empty.",
+        "examples": [
+          {
+            "en": "I shut my finger in the car door.",
+            "zh": "我關車門時夾到了手指。",
+            "highlight": "shut my finger in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHUT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHUT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHUT 片語動詞。",
+      "en": "Read the whole sentence and choose the SHUT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以下三個不同意思:● shut yourself away:把自己關在某處獨處;● shut yourself off:不再與其他人溝通或來往;● shut yourself out:意外把自己反鎖在外。",
+      "titleEn": "Pay attention to these three different ideas: ● shut yourself away: stay alone in a place; ● shut yourself off: stop communicating with other people; ● shut yourself out: accidentally leave yourself outside a locked place.",
+      "zh": "留意以下三個不同意思:● shut yourself away:把自己關在某處獨處;● shut yourself off:不再與其他人溝通或來往;● shut yourself out:意外把自己反鎖在外。",
+      "en": "Pay attention to these three different ideas: ● shut yourself away: stay alone in a place; ● shut yourself off: stop communicating with other people; ● shut yourself out: accidentally leave yourself outside a locked place."
+    },
+    {
+      "titleZh": "shut somebody up 表示令某人停止說話。這是較口語的表達,有時可能顯得不禮貌。",
+      "titleEn": "Shut somebody up means to make somebody stop talking.",
+      "zh": "shut somebody up 表示令某人停止說話。這是較口語的表達,有時可能顯得不禮貌。",
+      "en": "Shut somebody up means to make somebody stop talking. It is informal and may sound impolite."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHUT 動詞片語句子改寫練習",
+    "titleEn": "SHUT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-299-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The lights stop automatically at eleven o’clock.",
+      "promptZh": "燈光會在晚上十一時自動停止運作。",
+      "starter": "The",
+      "answer": "The lights shut off automatically at eleven o’clock.",
+      "answerZh": "燈光會在晚上十一時自動關掉。",
+      "highlight": "shut off",
+      "targetForm": "shut off",
+      "targetMeaningZh": "停止運作;自動關掉"
+    },
+    {
+      "id": "phrasal-verb-299-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Noah went to his room and stayed alone so he could finish the report.",
+      "promptZh": "諾亞走進房間獨處,以便完成報告。",
+      "starter": "Noah",
+      "answer": "Noah shut himself away in his room so he could finish the report.",
+      "answerZh": "諾亞把自己關在房間裏獨處,以便完成報告。",
+      "highlight": "shut himself away in",
+      "targetForm": "shut yourself away",
+      "targetMeaningZh": "把自己關在某處獨處"
+    },
+    {
+      "id": "phrasal-verb-299-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The thick curtains block most of the morning light.",
+      "promptZh": "厚窗簾阻擋了大部分晨光。",
+      "starter": "The",
+      "answer": "The thick curtains shut out most of the morning light.",
+      "answerZh": "厚窗簾阻擋了大部分晨光。",
+      "highlight": "shut out",
+      "targetForm": "shut something out",
+      "targetMeaningZh": "阻隔光線或其他東西"
+    },
+    {
+      "id": "phrasal-verb-299-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The factory stopped operating last month.",
+      "promptZh": "工廠上月停止營運。",
+      "starter": "The",
+      "answer": "The factory shut down last month.",
+      "answerZh": "工廠上月停止營運。",
+      "highlight": "shut down",
+      "targetForm": "shut down",
+      "targetMeaningZh": "停止營運或運作"
+    },
+    {
+      "id": "phrasal-verb-299-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The teacher could not make the excited children stop talking.",
+      "promptZh": "老師無法令興奮的孩子停止說話。",
+      "starter": "The",
+      "answer": "The teacher could not shut the excited children up.",
+      "answerZh": "老師無法令興奮的孩子安靜下來。",
+      "highlight": "shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話"
+    },
+    {
+      "id": "phrasal-verb-299-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "I trapped my finger when I closed the car door.",
+      "promptZh": "我關車門時夾到了手指。",
+      "starter": "I",
+      "answer": "I shut my finger in the car door.",
+      "answerZh": "我關車門時夾到了手指。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關門時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "After the argument, Lina stopped speaking to all her friends.",
+      "promptZh": "爭執後,莉娜不再跟任何朋友說話。",
+      "starter": "After",
+      "answer": "After the argument, Lina shut herself off from all her friends.",
+      "answerZh": "爭執後,莉娜不再與任何朋友來往。",
+      "highlight": "shut herself off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人溝通或接觸"
+    },
+    {
+      "id": "phrasal-verb-299-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We closed and secured the holiday cottage before leaving for winter.",
+      "promptZh": "我們離開度假小屋過冬前,把它關好鎖好。",
+      "starter": "We",
+      "answer": "We shut the holiday cottage up before leaving for winter.",
+      "answerZh": "我們離開度假小屋過冬前,把它關好鎖好。",
+      "highlight": "shut",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    },
+    {
+      "id": "phrasal-verb-299-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Please close the gate with the goats inside for the night.",
+      "promptZh": "請關上閘門,讓山羊晚上留在裏面。",
+      "starter": "Please",
+      "answer": "Please shut the goats in for the night.",
+      "answerZh": "請把山羊關在裏面過夜。",
+      "highlight": "shut",
+      "targetForm": "shut something in",
+      "targetMeaningZh": "把某人或某物關在裏面"
+    },
+    {
+      "id": "phrasal-verb-299-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Daniel refused to let his brother share his thoughts or feelings.",
+      "promptZh": "丹尼爾拒絕讓弟弟了解自己的想法或感受。",
+      "starter": "Daniel",
+      "answer": "Daniel shut his brother out of his thoughts and feelings.",
+      "answerZh": "丹尼爾不讓弟弟了解自己的想法和感受。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out",
+      "targetMeaningZh": "不讓某人了解自己的內心"
+    },
+    {
+      "id": "phrasal-verb-299-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "High mountains separate the village from the coast.",
+      "promptZh": "高山把村莊與海岸分隔開來。",
+      "starter": "High",
+      "answer": "High mountains shut the village off from the coast.",
+      "answerZh": "高山把村莊與海岸分隔開來。",
+      "highlight": "shut",
+      "targetForm": "shut something off from something",
+      "targetMeaningZh": "使某地與另一地方隔絕"
+    },
+    {
+      "id": "phrasal-verb-299-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "I closed the door with my keys inside and could not get back into the flat.",
+      "promptZh": "我把鎖匙留在屋內便關上門,無法返回住所。",
+      "starter": "I",
+      "answer": "I shut myself out of the flat.",
+      "answerZh": "我把自己反鎖在住所外。",
+      "highlight": "shut myself out of",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The prisoner was kept in a small cell for years.",
+      "promptZh": "那名囚犯多年來被困在一間小囚室內。",
+      "starter": "The",
+      "answer": "The prisoner was shut up in a small cell for years.",
+      "answerZh": "那名囚犯多年來被關在一間小囚室內。",
+      "highlight": "shut up",
+      "targetForm": "shut somebody up in something",
+      "targetMeaningZh": "把某人長時間關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "I spent the whole afternoon alone in the study to prepare for the exam.",
+      "promptZh": "我整個下午都獨自在書房準備考試。",
+      "starter": "I",
+      "answer": "I shut myself away in the study for the whole afternoon to prepare for the exam.",
+      "answerZh": "我整個下午都把自己關在書房裏準備考試。",
+      "highlight": "shut myself away in the study for",
+      "targetForm": "shut yourself away",
+      "targetMeaningZh": "把自己關在某處獨處"
+    },
+    {
+      "id": "phrasal-verb-299-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Eva went into the bedroom and closed the door so nobody could enter or leave.",
+      "promptZh": "伊娃走進睡房並關上門,令任何人都無法進出。",
+      "starter": "Eva",
+      "answer": "Eva shut herself in the bedroom.",
+      "answerZh": "伊娃把自己關在睡房裏。",
+      "highlight": "shut herself in",
+      "targetForm": "shut yourself in something",
+      "targetMeaningZh": "把自己關在某處裏面"
+    },
+    {
+      "id": "phrasal-verb-299-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The locked gate prevented visitors from entering the garden.",
+      "promptZh": "上鎖的閘門阻止訪客進入花園。",
+      "starter": "The",
+      "answer": "The locked gate shut visitors out of the garden.",
+      "answerZh": "上鎖的閘門把訪客擋在花園外。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out of something",
+      "targetMeaningZh": "阻止某人進入某處"
+    },
+    {
+      "id": "phrasal-verb-299-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Do not refuse to speak to us when something is wrong.",
+      "promptZh": "遇到問題時,不要拒絕跟我們說話。",
+      "starter": "Do",
+      "answer": "Do not shut us out when something is wrong.",
+      "answerZh": "遇到問題時,不要拒絕跟我們溝通。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out",
+      "targetMeaningZh": "不讓某人了解或參與"
+    },
+    {
+      "id": "phrasal-verb-299-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Be careful not to trap your scarf when you close the door.",
+      "promptZh": "關門時,小心不要夾住圍巾。",
+      "starter": "Be",
+      "answer": "Be careful not to shut your scarf in the door.",
+      "answerZh": "關門時,小心不要夾住圍巾。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關門時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The computer system will stop operating at midnight for repairs.",
+      "promptZh": "電腦系統將於午夜停止運作,以進行維修。",
+      "starter": "The",
+      "answer": "The computer system will shut down at midnight for repairs.",
+      "answerZh": "電腦系統將於午夜停止運作,以進行維修。",
+      "highlight": "shut down",
+      "targetForm": "shut down",
+      "targetMeaningZh": "停止運作"
+    },
+    {
+      "id": "phrasal-verb-299-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The injured bird has been kept safely inside a box.",
+      "promptZh": "受傷的小鳥一直被安全地關在盒子裏。",
+      "starter": "The",
+      "answer": "The injured bird has been shut up safely in a box.",
+      "answerZh": "受傷的小鳥一直被安全地關在盒子裏。",
+      "highlight": "shut up",
+      "targetForm": "shut something up in something",
+      "targetMeaningZh": "把動物關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "This heater stops automatically when the room becomes warm enough.",
+      "promptZh": "房間暖和到一定程度時,這部暖爐便會自動停止運作。",
+      "starter": "This",
+      "answer": "This heater shuts off automatically when the room becomes warm enough.",
+      "answerZh": "房間暖和到一定程度時,這部暖爐便會自動關掉。",
+      "highlight": "shuts off",
+      "targetForm": "shut off",
+      "targetMeaningZh": "自動停止運作"
+    },
+    {
+      "id": "phrasal-verb-299-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Have you ever closed a hotel-room door with the key still inside and been unable to enter?",
+      "promptZh": "你有否試過把鎖匙留在酒店房內便關上門,結果無法進入?",
+      "starter": "Have",
+      "answer": "Have you ever shut yourself out of a hotel room?",
+      "answerZh": "你有否試過把自己反鎖在酒店房外?",
+      "highlight": "shut yourself out of",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The keeper is closing the birds inside their shelter before the storm.",
+      "promptZh": "管理員正在暴風雨來臨前把鳥關在棚內。",
+      "starter": "The",
+      "answer": "The keeper is shutting the birds in their shelter before the storm.",
+      "answerZh": "管理員正在暴風雨來臨前把鳥關在棚內。",
+      "highlight": "shutting",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "把動物關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Floodwater is separating the village from the main road.",
+      "promptZh": "洪水正把村莊與主要道路分隔開來。",
+      "starter": "Floodwater",
+      "answer": "Floodwater is shutting the village off from the main road.",
+      "answerZh": "洪水正令村莊與主要道路隔絕。",
+      "highlight": "shutting",
+      "targetForm": "shut something off from something",
+      "targetMeaningZh": "使某地與另一地方隔絕"
+    },
+    {
+      "id": "phrasal-verb-299-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Sara often stays alone in the library when she needs to concentrate.",
+      "promptZh": "莎拉需要專心時,經常獨自留在圖書館。",
+      "starter": "Sara",
+      "answer": "Sara often shuts herself away in the library when she needs to concentrate.",
+      "answerZh": "莎拉需要專心時,經常把自己關在圖書館裏獨處。",
+      "highlight": "shuts herself away",
+      "targetForm": "shut yourself away",
+      "targetMeaningZh": "把自己關在某處獨處"
+    },
+    {
+      "id": "phrasal-verb-299-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Will anything make those two boys stop talking?",
+      "promptZh": "有任何事情能令那兩名男孩停止說話嗎?",
+      "starter": "Will",
+      "answer": "Will anything shut those two boys up?",
+      "answerZh": "有任何事情能令那兩名男孩安靜下來嗎?",
+      "highlight": "shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話"
+    },
+    {
+      "id": "phrasal-verb-299-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "These windows keep almost all the traffic noise outside.",
+      "promptZh": "這些窗戶把幾乎所有交通噪音擋在外面。",
+      "starter": "These",
+      "answer": "These windows shut out almost all the traffic noise.",
+      "answerZh": "這些窗戶阻隔了幾乎所有交通噪音。",
+      "highlight": "shut out",
+      "targetForm": "shut something out",
+      "targetMeaningZh": "阻隔聲音"
+    },
+    {
+      "id": "phrasal-verb-299-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The staff are closing and securing the café for the night.",
+      "promptZh": "職員正把咖啡店關好鎖好,準備晚上離開。",
+      "starter": "The",
+      "answer": "The staff are shutting the café up for the night.",
+      "answerZh": "職員正把咖啡店關好鎖好,準備晚上離開。",
+      "highlight": "shutting",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    },
+    {
+      "id": "phrasal-verb-299-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Ravi has stopped sharing his feelings with everyone around him.",
+      "promptZh": "拉維已不再向身邊任何人分享感受。",
+      "starter": "Ravi",
+      "answer": "Ravi has shut himself off from everyone around him.",
+      "answerZh": "拉維已不再與身邊任何人作情感交流。",
+      "highlight": "shut himself off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人交流"
+    },
+    {
+      "id": "phrasal-verb-299-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The council closed the unsafe market after the inspection.",
+      "promptZh": "市議會在檢查後關閉了不安全的市場。",
+      "starter": "The",
+      "answer": "The council shut the unsafe market down after the inspection.",
+      "answerZh": "市議會在檢查後關閉了不安全的市場。",
+      "highlight": "shut",
+      "targetForm": "shut something down",
+      "targetMeaningZh": "使某處停止營運"
+    },
+    {
+      "id": "phrasal-verb-299-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "He has trapped the end of his coat in the taxi door.",
+      "promptZh": "他的外套下襬被的士車門夾住了。",
+      "starter": "He",
+      "answer": "He has shut the end of his coat in the taxi door.",
+      "answerZh": "他的外套下襬被的士車門夾住了。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關門時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Please stop the water supply before changing the pipe.",
+      "promptZh": "更換水管前,請先停止供水。",
+      "starter": "Please",
+      "answer": "Please shut the water off before changing the pipe.",
+      "answerZh": "更換水管前,請先關掉水源。",
+      "highlight": "shut",
+      "targetForm": "shut something off",
+      "targetMeaningZh": "停止水、煤氣或電力供應"
+    },
+    {
+      "id": "phrasal-verb-299-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The rabbits were kept inside their hutch all night.",
+      "promptZh": "兔子整晚都被關在兔籠裏。",
+      "starter": "The",
+      "answer": "The rabbits were shut in their hutch all night.",
+      "answerZh": "兔子整晚都被關在兔籠裏。",
+      "highlight": "shut in",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "把動物關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The island was completely separated from the mainland by the storm.",
+      "promptZh": "暴風雨令該島與大陸完全隔絕。",
+      "starter": "The",
+      "answer": "The island was completely shut off from the mainland by the storm.",
+      "answerZh": "暴風雨令該島與大陸完全隔絕。",
+      "highlight": "shut off",
+      "targetForm": "shut something off from something",
+      "targetMeaningZh": "使某地與另一地方隔絕"
+    },
+    {
+      "id": "phrasal-verb-299-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Earplugs can block the sound of people talking nearby.",
+      "promptZh": "耳塞可以阻隔附近人們談話的聲音。",
+      "starter": "Earplugs",
+      "answer": "Earplugs can shut out the sound of people talking nearby.",
+      "answerZh": "耳塞可以阻隔附近人們談話的聲音。",
+      "highlight": "shut out",
+      "targetForm": "shut something out",
+      "targetMeaningZh": "阻隔聲音"
+    },
+    {
+      "id": "phrasal-verb-299-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The twins wanted no interruptions, so they stayed alone in the spare room until the model was finished.",
+      "promptZh": "雙胞胎不想受到打擾,因此獨自留在客房,直至模型完成。",
+      "starter": "The",
+      "answer": "The twins shut themselves away in the spare room until the model was finished.",
+      "answerZh": "雙胞胎把自己關在客房裏,直至模型完成。",
+      "highlight": "shut themselves away",
+      "targetForm": "shut yourself away",
+      "targetMeaningZh": "把自己關在某處獨處"
+    },
+    {
+      "id": "phrasal-verb-299-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "When Clara closed the drawer, she trapped the charger cable inside it.",
+      "promptZh": "克拉拉關上抽屜時,把充電線夾在裏面。",
+      "starter": "When",
+      "answer": "When Clara closed the drawer, she shut the charger cable in it.",
+      "answerZh": "克拉拉關上抽屜時,把充電線夾在裏面。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關抽屜時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Her parents tried to help, but she would not allow them into her private thoughts.",
+      "promptZh": "她的父母嘗試幫忙,但她不肯讓他們了解自己的內心想法。",
+      "starter": "Her",
+      "answer": "Her parents tried to help, but she shut them out of her private thoughts.",
+      "answerZh": "她的父母嘗試幫忙,但她不讓他們了解自己的內心想法。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out",
+      "targetMeaningZh": "不讓某人了解自己的內心"
+    },
+    {
+      "id": "phrasal-verb-299-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The small cinema has stopped operating because too few people visit it.",
+      "promptZh": "這間小型戲院因訪客太少而停止營運。",
+      "starter": "The",
+      "answer": "The small cinema has shut down because too few people visit it.",
+      "answerZh": "這間小型戲院因訪客太少而停止營運。",
+      "highlight": "shut down",
+      "targetForm": "shut down",
+      "targetMeaningZh": "停止營運"
+    },
+    {
+      "id": "phrasal-verb-299-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Grace stepped outside the house, and the door closed behind her before she took the key.",
+      "promptZh": "格蕾絲走到屋外,還未拿鎖匙,門便在她身後關上。",
+      "starter": "Grace",
+      "answer": "Grace shut herself out of the house when the door closed behind her.",
+      "answerZh": "門在身後關上時,格蕾絲把自己反鎖在屋外。",
+      "highlight": "shut herself out of",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The machine became too hot, so its safety system stopped the power.",
+      "promptZh": "機器變得過熱,因此安全系統停止了電源。",
+      "starter": "The",
+      "answer": "The machine became too hot, so its safety system shut the power off.",
+      "answerZh": "機器變得過熱,因此安全系統關掉了電源。",
+      "highlight": "shut",
+      "targetForm": "shut something off",
+      "targetMeaningZh": "停止電力供應"
+    },
+    {
+      "id": "phrasal-verb-299-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "They kept themselves inside the cabin until the storm had passed.",
+      "promptZh": "他們把自己留在小屋內,直至暴風雨過去。",
+      "starter": "They",
+      "answer": "They shut themselves up in the cabin until the storm had passed.",
+      "answerZh": "他們把自己關在小屋內,直至暴風雨過去。",
+      "highlight": "shut",
+      "targetForm": "shut yourself up in something",
+      "targetMeaningZh": "把自己長時間關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The brothers became upset and stopped talking to the rest of the family.",
+      "promptZh": "兩兄弟感到不快,並停止與其他家人交談。",
+      "starter": "The",
+      "answer": "The brothers became upset and shut themselves off from the rest of the family.",
+      "answerZh": "兩兄弟感到不快,並不再與其他家人來往。",
+      "highlight": "shut themselves off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人溝通或接觸"
+    },
+    {
+      "id": "phrasal-verb-299-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "One sharp look from the coach finally made the arguing players stop talking.",
+      "promptZh": "教練嚴厲地看了一眼,終於令爭吵中的球員停止說話。",
+      "starter": "One",
+      "answer": "One sharp look from the coach finally shut the arguing players up.",
+      "answerZh": "教練嚴厲地看了一眼,終於令爭吵中的球員安靜下來。",
+      "highlight": "shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話"
+    },
+    {
+      "id": "phrasal-verb-299-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Before the family left, they closed every window and secured the empty house.",
+      "promptZh": "一家人離開前,關上所有窗戶,並把空屋鎖好。",
+      "starter": "Before",
+      "answer": "Before the family left, they shut the empty house up.",
+      "answerZh": "一家人離開前,把空屋關好鎖好。",
+      "highlight": "shut",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    },
+    {
+      "id": "phrasal-verb-299-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "A locked glass wall separates staff from visitors.",
+      "promptZh": "一道上鎖的玻璃牆把職員與訪客分隔開來。",
+      "starter": "A",
+      "answer": "A locked glass wall shuts staff off from visitors.",
+      "answerZh": "一道上鎖的玻璃牆把職員與訪客分隔開來。",
+      "highlight": "shuts",
+      "targetForm": "shut somebody off from somebody",
+      "targetMeaningZh": "把兩群人分隔開來"
+    },
+    {
+      "id": "phrasal-verb-299-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "I had stopped all contact with people, and I still could not make myself speak to anyone.",
+      "promptZh": "我已停止與其他人來往,而且仍無法令自己跟任何人說話。",
+      "starter": "I",
+      "answer": "I had shut myself off from people, and I still could not make myself speak to anyone.",
+      "answerZh": "我已不再與其他人來往,而且仍無法令自己跟任何人說話。",
+      "highlight": "shut myself off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人交流"
+    },
+    {
+      "id": "phrasal-verb-299-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The manager made every decision alone and did not allow the team to take part.",
+      "promptZh": "經理獨自作出每項決定,不讓團隊參與。",
+      "starter": "The",
+      "answer": "The manager shut the team out of every decision.",
+      "answerZh": "經理不讓團隊參與任何決定。",
+      "highlight": "shut the team out of",
+      "targetForm": "shut somebody out of something",
+      "targetMeaningZh": "不讓某人參與某事"
+    },
+    {
+      "id": "phrasal-verb-299-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The tap was still running, but Grace could not find the valve that would stop the water.",
+      "promptZh": "水龍頭仍在流水,但格蕾絲找不到能停止水流的閥門。",
+      "starter": "The",
+      "answer": "The tap was still running, but Grace could not find the valve that would shut the water off.",
+      "answerZh": "水龍頭仍在流水,但格蕾絲找不到能關掉水源的閥門。",
+      "highlight": "shut",
+      "targetForm": "shut something off",
+      "targetMeaningZh": "停止水、煤氣或電力供應"
+    },
+    {
+      "id": "phrasal-verb-299-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The animals were not merely brought indoors for the night; they were kept in a tiny shed for several days.",
+      "promptZh": "這些動物不只是晚上被帶到室內,而是被困在一間小棚內數天。",
+      "starter": "The",
+      "answer": "The animals were shut up in a tiny shed for several days.",
+      "answerZh": "這些動物被關在一間小棚內數天。",
+      "highlight": "shut up",
+      "targetForm": "shut something up in something",
+      "targetMeaningZh": "把動物長時間關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Because the machine was making a strange noise, the engineer stopped it completely.",
+      "promptZh": "由於機器發出奇怪聲音,工程師把它完全停止。",
+      "starter": "Because",
+      "answer": "Because the machine was making a strange noise, the engineer shut it down completely.",
+      "answerZh": "由於機器發出奇怪聲音,工程師把它完全關掉。",
+      "highlight": "shut",
+      "targetForm": "shut something down",
+      "targetMeaningZh": "使機器或系統停止運作"
+    },
+    {
+      "id": "phrasal-verb-299-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Clara still attended school, but after the bad news she refused to share anything with her classmates.",
+      "promptZh": "克拉拉仍有上學,但得知壞消息後,她拒絕向同學分享任何事情。",
+      "starter": "Clara",
+      "answer": "Clara still attended school, but after the bad news she shut herself off from her classmates.",
+      "answerZh": "克拉拉仍有上學,但得知壞消息後,她不再與同學交流。",
+      "highlight": "shut herself off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人交流"
+    },
+    {
+      "id": "phrasal-verb-299-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The bag was not locked inside the car; only its long strap was trapped by the closed door.",
+      "promptZh": "袋子並非被鎖在車內;只有長帶被關上的車門夾住。",
+      "starter": "The",
+      "answer": "The bag was not locked inside the car; only its long strap was shut in the car door.",
+      "answerZh": "袋子並非被鎖在車內;只有長帶被車門夾住。",
+      "highlight": "shut in",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關門時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The wall prevented dust and wind from entering the garden while the road remained open.",
+      "promptZh": "那道牆阻止塵土和風進入花園,而道路仍然開放。",
+      "starter": "The",
+      "answer": "The wall shut dust and wind out of the garden while the road remained open.",
+      "answerZh": "那道牆把塵土和風擋在花園外,而道路仍然開放。",
+      "highlight": "shut",
+      "targetForm": "shut something out of something",
+      "targetMeaningZh": "阻止某物進入某處"
+    },
+    {
+      "id": "phrasal-verb-299-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The children were not locked in a room; their father simply wanted them to stop shouting.",
+      "promptZh": "孩子並非被鎖在房間裏;父親只是想令他們停止叫喊。",
+      "starter": "The",
+      "answer": "The children were not locked in a room; their father simply wanted to shut them up.",
+      "answerZh": "孩子並非被鎖在房間裏;父親只是想令他們安靜下來。",
+      "highlight": "to shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話或叫喊"
+    },
+    {
+      "id": "phrasal-verb-299-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "After the noisy week, Daniel avoided everyone and stayed alone in his small workshop on Sunday.",
+      "promptZh": "經過吵鬧的一星期後,丹尼爾在星期日避開所有人,獨自留在小工作室。",
+      "starter": "After",
+      "answer": "After the noisy week, Daniel shut himself away from everyone in his small workshop on Sunday.",
+      "answerZh": "經過吵鬧的一星期後,丹尼爾在星期日把自己關在小工作室裏,避開所有人。",
+      "highlight": "shut himself away from",
+      "targetForm": "shut yourself away from somebody",
+      "targetMeaningZh": "把自己關在某處避開其他人"
+    },
+    {
+      "id": "phrasal-verb-299-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The fallen trees did not block the whole road, but they separated three farms from the nearest town.",
+      "promptZh": "倒下的樹木沒有堵塞整條道路,但令三個農場與最近的城鎮隔絕。",
+      "starter": "The",
+      "answer": "The fallen trees did not block the whole road, but they shut three farms off from the nearest town.",
+      "answerZh": "倒下的樹木沒有堵塞整條道路,但令三個農場與最近的城鎮隔絕。",
+      "highlight": "shut",
+      "targetForm": "shut something off from something",
+      "targetMeaningZh": "使某地與另一地方隔絕"
+    },
+    {
+      "id": "phrasal-verb-299-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The owners will not sell the shop; they will simply close and secure it until next summer.",
+      "promptZh": "店主不會出售店舖,只會把它關好鎖好,直至明年夏天。",
+      "starter": "The",
+      "answer": "The owners will not sell the shop; they will simply shut it up until next summer.",
+      "answerZh": "店主不會出售店舖,只會把它關好鎖好,直至明年夏天。",
+      "highlight": "shut",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    },
+    {
+      "id": "phrasal-verb-299-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The front gate was open, so Priya closed the dog inside the kitchen before the delivery driver arrived.",
+      "promptZh": "前門開着,因此普里雅在送貨司機到達前,把狗關在廚房裏。",
+      "starter": "The",
+      "answer": "The front gate was open, so Priya shut the dog in the kitchen before the delivery driver arrived.",
+      "answerZh": "前門開着,因此普里雅在送貨司機到達前,把狗關在廚房裏。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "把動物關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Ben was not physically outside the room; his friends simply refused to include him in the discussion.",
+      "promptZh": "賓並非真的在房間外;他的朋友只是不讓他參與討論。",
+      "starter": "Ben",
+      "answer": "Ben was not physically outside the room; his friends shut him out of the discussion.",
+      "answerZh": "賓並非真的在房間外;他的朋友不讓他參與討論。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out of something",
+      "targetMeaningZh": "不讓某人參與某事"
+    },
+    {
+      "id": "phrasal-verb-299-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The children were not kept outside by another person; they closed the garden door and left the key inside.",
+      "promptZh": "孩子並非被別人留在外面;他們關上花園門,卻把鎖匙留在裏面。",
+      "starter": "The",
+      "answer": "The children shut themselves out of the garden by leaving the key inside.",
+      "answerZh": "孩子把鎖匙留在裏面,結果把自己反鎖在花園外。",
+      "highlight": "shut themselves out of",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "After the argument, Hugo closed himself inside the attic and refused to leave all afternoon.",
+      "promptZh": "爭執後,雨果把自己關在閣樓裏,整個下午都拒絕離開。",
+      "starter": "After",
+      "answer": "After the argument, Hugo shut himself up in the attic and refused to leave all afternoon.",
+      "answerZh": "爭執後,雨果把自己關在閣樓裏,整個下午都拒絕離開。",
+      "highlight": "shut",
+      "targetForm": "shut yourself up in something",
+      "targetMeaningZh": "把自己長時間關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Her long answer ended the complaints and made every critic stop talking.",
+      "promptZh": "她冗長的回答終止了投訴,令每名批評者停止說話。",
+      "starter": "Her",
+      "answer": "Her long answer shut every critic up.",
+      "answerZh": "她冗長的回答令每名批評者無話可說。",
+      "highlight": "shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話"
+    },
+    {
+      "id": "phrasal-verb-299-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "I heard the lock click and immediately realised that my bag and key were still inside the car.",
+      "promptZh": "我聽到門鎖扣上的聲音,立即發現手袋和鎖匙仍在車內。",
+      "starter": "I",
+      "answer": "I realised that I had shut myself out of the car when I heard the lock click.",
+      "answerZh": "我聽到門鎖扣上的聲音時,才發現自己被反鎖在車外。",
+      "highlight": "I realised that I had shut myself out of the car when",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Although her friends kept offering help, Sara avoided them and refused to let anyone become close to her.",
+      "promptZh": "雖然朋友不斷提出幫忙,莎拉仍避開他們,不讓任何人接近自己。",
+      "starter": "Although",
+      "answer": "Although her friends kept offering help, Sara shut herself off from them and refused to let anyone become close to her.",
+      "answerZh": "雖然朋友不斷提出幫忙,莎拉仍拒絕與他們交流,不讓任何人接近自己。",
+      "highlight": "shut herself off from",
+      "targetForm": "shut yourself off from somebody",
+      "targetMeaningZh": "停止與其他人交流"
+    },
+    {
+      "id": "phrasal-verb-299-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "As the storm grew stronger, the guide closed all the hikers inside the shelter until it was safe.",
+      "promptZh": "暴風雨愈來愈強,導遊把所有遠足者關在避風處,直至安全為止。",
+      "starter": "As",
+      "answer": "As the storm grew stronger, the guide shut all the hikers in the shelter until it was safe.",
+      "answerZh": "暴風雨愈來愈強,導遊把所有遠足者關在避風處,直至安全為止。",
+      "highlight": "shut",
+      "targetForm": "shut somebody in something",
+      "targetMeaningZh": "把某人關在某處裏面"
+    },
+    {
+      "id": "phrasal-verb-299-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "If you smell gas, stop the gas supply immediately and open the windows.",
+      "promptZh": "如果你聞到煤氣味,應立即停止煤氣供應並打開窗戶。",
+      "starter": "If",
+      "answer": "If you smell gas, shut the gas off immediately and open the windows.",
+      "answerZh": "如果你聞到煤氣味,應立即關掉煤氣並打開窗戶。",
+      "highlight": "shut",
+      "targetForm": "shut something off",
+      "targetMeaningZh": "停止煤氣供應"
+    },
+    {
+      "id": "phrasal-verb-299-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The class kept interrupting, but one surprising fact made everyone silent at once.",
+      "promptZh": "全班不斷插嘴,但一項驚人事實立即令所有人安靜下來。",
+      "starter": "The",
+      "answer": "The class kept interrupting, but one surprising fact shut everyone up at once.",
+      "answerZh": "全班不斷插嘴,但一項驚人事實立即令所有人安靜下來。",
+      "highlight": "shut",
+      "targetForm": "shut somebody up",
+      "targetMeaningZh": "令某人停止說話"
+    },
+    {
+      "id": "phrasal-verb-299-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "To finish the final chapter without interruptions, the writer stayed alone in her study for three days.",
+      "promptZh": "為了在不受打擾的情況下完成最後一章,作家獨自在書房留了三天。",
+      "starter": "To",
+      "answer": "To finish the final chapter without interruptions, the writer shut herself away in her study for three days.",
+      "answerZh": "為了在不受打擾的情況下完成最後一章,作家把自己關在書房裏三天。",
+      "highlight": "shut herself away",
+      "targetForm": "shut yourself away",
+      "targetMeaningZh": "把自己關在某處獨處"
+    },
+    {
+      "id": "phrasal-verb-299-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Because the hall was full, the staff prevented several late visitors from entering.",
+      "promptZh": "由於禮堂已滿,職員不讓數名遲到的訪客進入。",
+      "starter": "Because",
+      "answer": "Because the hall was full, the staff shut several late visitors out.",
+      "answerZh": "由於禮堂已滿,職員把數名遲到的訪客拒於門外。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out",
+      "targetMeaningZh": "阻止某人進入"
+    },
+    {
+      "id": "phrasal-verb-299-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Officials closed the old website after repeated security problems.",
+      "promptZh": "官方人員因網站多次出現保安問題而把它關閉。",
+      "starter": "Officials",
+      "answer": "Officials shut the old website down after repeated security problems.",
+      "answerZh": "官方人員因網站多次出現保安問題而把它關閉。",
+      "highlight": "shut",
+      "targetForm": "shut something down",
+      "targetMeaningZh": "使網站或系統停止運作"
+    },
+    {
+      "id": "phrasal-verb-299-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The old story describes a prince who was kept alone in a tower and was never allowed outside.",
+      "promptZh": "這個古老故事描述一名王子被獨自困在塔內,從不獲准外出。",
+      "starter": "The",
+      "answer": "The old story describes a prince who was shut up in a tower and was never allowed outside.",
+      "answerZh": "這個古老故事描述一名王子被獨自關在塔內,從不獲准外出。",
+      "highlight": "shut up",
+      "targetForm": "shut somebody up in something",
+      "targetMeaningZh": "把某人長時間關在某處"
+    },
+    {
+      "id": "phrasal-verb-299-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "While rushing to leave, Omar closed the van door on the edge of his jacket and could not move away.",
+      "promptZh": "奧馬趕着離開時,用客貨車車門夾住了外套邊緣,令自己無法走開。",
+      "starter": "While",
+      "answer": "While rushing to leave, Omar shut the edge of his jacket in the van door and could not move away.",
+      "answerZh": "奧馬趕着離開時,用客貨車車門夾住了外套邊緣,令自己無法走開。",
+      "highlight": "shut",
+      "targetForm": "shut something in something",
+      "targetMeaningZh": "關門時夾住某物"
+    },
+    {
+      "id": "phrasal-verb-299-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "For several days, deep snow separated the mountain hotel from the rest of the valley.",
+      "promptZh": "大雪連續數天令山區酒店與山谷其他地方隔絕。",
+      "starter": "For",
+      "answer": "For several days, deep snow shut the mountain hotel off from the rest of the valley.",
+      "answerZh": "大雪連續數天令山區酒店與山谷其他地方隔絕。",
+      "highlight": "shut",
+      "targetForm": "shut something off from something",
+      "targetMeaningZh": "使某地與另一地方隔絕"
+    },
+    {
+      "id": "phrasal-verb-299-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After stepping onto the balcony, Priya let the door close, leaving her unable to return to the room.",
+      "promptZh": "普里雅踏出露台後讓門關上,結果無法返回房間。",
+      "starter": "After",
+      "answer": "After stepping onto the balcony, Priya shut herself out of the room.",
+      "answerZh": "普里雅踏出露台後把自己反鎖在房間外。",
+      "highlight": "shut herself out of",
+      "targetForm": "shut yourself out of something",
+      "targetMeaningZh": "意外把自己反鎖在外"
+    },
+    {
+      "id": "phrasal-verb-299-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Even after the misunderstanding was explained, Omar would not let his sister be part of his life or plans.",
+      "promptZh": "即使誤會已經解釋清楚,奧馬仍不讓姐姐參與自己的生活或計劃。",
+      "starter": "Even",
+      "answer": "Even after the misunderstanding was explained, Omar shut his sister out of his life and plans.",
+      "answerZh": "即使誤會已經解釋清楚,奧馬仍把姐姐排除在自己的生活和計劃之外。",
+      "highlight": "shut",
+      "targetForm": "shut somebody out of something",
+      "targetMeaningZh": "不讓某人參與自己的生活或計劃"
+    },
+    {
+      "id": "phrasal-verb-299-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Once the final guests had gone, the caretaker closed and secured the hall for the long holiday.",
+      "promptZh": "最後一批賓客離開後,管理員把禮堂關好鎖好,準備長假期。",
+      "starter": "Once",
+      "answer": "Once the final guests had gone, the caretaker shut the hall up for the long holiday.",
+      "answerZh": "最後一批賓客離開後,管理員把禮堂關好鎖好,準備長假期。",
+      "highlight": "shut",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    },
+    {
+      "id": "phrasal-verb-299-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The automatic doors closed with us inside the room, so we could not leave.",
+      "promptZh": "自動門在我們仍在房內時關上,因此我們無法離開。",
+      "starter": "The",
+      "answer": "The automatic doors shut us in the room, so we could not leave.",
+      "answerZh": "自動門把我們關在房內,因此我們無法離開。",
+      "highlight": "shut",
+      "targetForm": "shut somebody in something",
+      "targetMeaningZh": "把某人關在某處裏面"
+    },
+    {
+      "id": "phrasal-verb-299-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The studio needed complete silence, so the new doors were designed to block every sound from the street.",
+      "promptZh": "錄音室需要完全安靜,因此新門的設計能阻隔街上的所有聲音。",
+      "starter": "The",
+      "answer": "The studio needed complete silence, so the new doors were designed to shut out every sound from the street.",
+      "answerZh": "錄音室需要完全安靜,因此新門的設計能阻隔街上的所有聲音。",
+      "highlight": "shut out",
+      "targetForm": "shut something out",
+      "targetMeaningZh": "阻隔聲音"
+    },
+    {
+      "id": "phrasal-verb-299-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Before the storm season began, the family closed every entrance to the beach house and left it empty.",
+      "promptZh": "風季開始前,一家人關上沙灘屋的所有入口,並把房子留空。",
+      "starter": "Before",
+      "answer": "Before the storm season began, the family shut the beach house up and left it empty.",
+      "answerZh": "風季開始前,一家人把沙灘屋關好鎖好,並把房子留空。",
+      "highlight": "shut",
+      "targetForm": "shut something up",
+      "targetMeaningZh": "把地方關好鎖好"
+    }
+  ]
+}

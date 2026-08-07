@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-67",
+  "order": 67,
+  "slug": "crash",
+  "version": "1",
+  "title": "CRASH 動詞片語",
+  "titleEn": "Crash",
+  "titleZh": "CRASH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 66 - CRASH.pdf",
+    "sourceNumber": 66,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CRASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CRASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CRASH",
+      "highlight": "CRASH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I heard someone crashing about in the garage.",
+      "zh": "我聽到有人在車房內乒乒乓乓地走動。",
+      "highlight": "crashing about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A heavy branch crashed down beside the gate.",
+      "zh": "一根沉重的樹枝重重地倒在閘門旁,發出巨響。",
+      "highlight": "crashed down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I was so tired that I crashed out before ten.",
+      "zh": "我太疲倦,十時前便累得很快睡着了。",
+      "highlight": "crashed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動；重重地倒下或掉下,並發出巨響；因非常疲倦而很快睡着;口語用法；在體育比賽中落敗並被淘汰出局",
+    "en": "crash around / crash about / crash round; crash down; crash out; crash out of something",
+    "naturalZh": [
+      "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+      "重重地倒下或掉下,並發出巨響",
+      "因非常疲倦而很快睡着;口語用法",
+      "在體育比賽中落敗並被淘汰出局"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "crash around / crash about / crash round",
+      "titleZh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+      "titleEn": "crash around / crash about / crash round",
+      "descriptionZh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+      "descriptionEn": "I heard someone crashing about in the garage.",
+      "examples": [
+        {
+          "en": "I heard someone crashing about in the garage.",
+          "zh": "我聽到有人在車房內乒乒乓乓地走動。",
+          "highlight": "crashing about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crash down",
+      "titleZh": "重重地倒下或掉下,並發出巨響",
+      "titleEn": "crash down",
+      "descriptionZh": "重重地倒下或掉下,並發出巨響",
+      "descriptionEn": "A heavy branch crashed down beside the gate.",
+      "examples": [
+        {
+          "en": "A heavy branch crashed down beside the gate.",
+          "zh": "一根沉重的樹枝重重地倒在閘門旁,發出巨響。",
+          "highlight": "crashed down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crash out",
+      "titleZh": "因非常疲倦而很快睡着;口語用法",
+      "titleEn": "crash out",
+      "descriptionZh": "因非常疲倦而很快睡着;口語用法",
+      "descriptionEn": "I was so tired that I crashed out before ten.",
+      "examples": [
+        {
+          "en": "I was so tired that I crashed out before ten.",
+          "zh": "我太疲倦,十時前便累得很快睡着了。",
+          "highlight": "crashed out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "crash out of something",
+      "titleZh": "在體育比賽中落敗並被淘汰出局",
+      "titleEn": "crash out of something",
+      "descriptionZh": "在體育比賽中落敗並被淘汰出局",
+      "descriptionEn": "The team crashed out of the cup in the second round.",
+      "examples": [
+        {
+          "en": "The team crashed out of the cup in the second round.",
+          "zh": "球隊在盃賽第二圈落敗出局。",
+          "highlight": "crashed out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CRASH 片語動詞的實際用途",
+    "labelEn": "CRASH Phrasal Verbs in Use",
+    "summaryZh": "crash around、crash about 和 crash round 可以描述人或動物走動時弄出很大聲響;crash down則可以描述沉重物件伴隨巨響倒下。；crash out 是自然的口語表達,用來表示某人因為非常疲倦而很快睡着。；crash out of a cup、tournament 或 competition 表示某名球員或某支球隊落敗,無法繼續參賽。；知道 around、about 和 round 可以表達相同的嘈吵走動意思,能幫助你理解更多對話和故事。",
+    "summaryEn": "Crash around, crash about and crash round describe people or animals moving very noisily. Crash down describes something heavy falling with a loud noise. Crash out is a natural informal expression for falling asleep very quickly because you are extremely tired. Crash out of a cup, tournament or competition tells you that a player or team has lost and cannot continue. Knowing that around, about and round can express the same noisy-movement meaning helps you understand more conversations and stories.",
+    "contextsZh": [
+      "清楚描述嘈吵的走動和突然倒下",
+      "自然談論極度疲倦",
+      "理解英式體育報道",
+      "辨認同一表達的不同形式"
+    ],
+    "contextsEn": [
+      "Describe noisy movement and sudden falls clearly",
+      "Talk naturally about extreme tiredness",
+      "Understand British sports reports",
+      "Recognise different forms of the same expression"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CRASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CRASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "crash around / crash about / crash round",
+    "fixedHighlight": "crash around / crash about / crash round",
+    "fixedZh": "閱讀整句,選出意思相同的 CRASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CRASH expression that gives the same meaning.",
+    "correct": "crashing about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；核心表達是 crash around / about / round、crash down、crash out 和 crash out of something。inthe kitchen、onto the path 和 on the sofa 等部分只補充地點資料。；在本練習中,crash around、crash about 和 crash round 表達相同意思。談論體育賽事時,可使用crash out of the cup、crash out of the tournament 或 crash out of the competition。",
+    "variableEn": "Keep the same people, things, time and meaning. The core expressions are crash around / about / round, crash down, crash out and crash out of something. Words such as in the kitchen, onto the path and on the sofa only add place information. Crash around, crash about and crash round have the same meaning in this exercise. In sport, use crash out of with words such as cup, tournament and competition.",
+    "variableItemsZh": [
+      "crash around / crash about / crash round",
+      "crash down",
+      "crash out",
+      "crash out of something"
+    ],
+    "variableItemsEn": [
+      "crash around / crash about / crash round",
+      "crash down",
+      "crash out",
+      "crash out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+        "formEn": "crash around / crash about / crash round",
+        "exampleZh": "我聽到有人在車房內乒乒乓乓地走動。",
+        "exampleEn": "I heard someone crashing about in the garage.",
+        "highlight": "crashing about"
+      },
+      {
+        "formZh": "重重地倒下或掉下,並發出巨響",
+        "formEn": "crash down",
+        "exampleZh": "一根沉重的樹枝重重地倒在閘門旁,發出巨響。",
+        "exampleEn": "A heavy branch crashed down beside the gate.",
+        "highlight": "crashed down"
+      },
+      {
+        "formZh": "因非常疲倦而很快睡着;口語用法",
+        "formEn": "crash out",
+        "exampleZh": "我太疲倦,十時前便累得很快睡着了。",
+        "exampleEn": "I was so tired that I crashed out before ten.",
+        "highlight": "crashed out"
+      },
+      {
+        "formZh": "在體育比賽中落敗並被淘汰出局",
+        "formEn": "crash out of something",
+        "exampleZh": "球隊在盃賽第二圈落敗出局。",
+        "exampleEn": "The team crashed out of the cup in the second round.",
+        "highlight": "crashed out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+      "titleEn": "crash around / crash about / crash round",
+      "formula": "crash around / crash about / crash round",
+      "highlight": "crash around / crash about / crash round",
+      "descriptionZh": "在某地方走動時弄出很大聲響;乒乒乓乓地走動",
+      "descriptionEn": "I heard someone crashing about in the garage.",
+      "examples": [
+        {
+          "en": "I heard someone crashing about in the garage.",
+          "zh": "我聽到有人在車房內乒乒乓乓地走動。",
+          "highlight": "crashing about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "重重地倒下或掉下,並發出巨響",
+      "titleEn": "crash down",
+      "formula": "crash down",
+      "highlight": "crash down",
+      "descriptionZh": "重重地倒下或掉下,並發出巨響",
+      "descriptionEn": "A heavy branch crashed down beside the gate.",
+      "examples": [
+        {
+          "en": "A heavy branch crashed down beside the gate.",
+          "zh": "一根沉重的樹枝重重地倒在閘門旁,發出巨響。",
+          "highlight": "crashed down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因非常疲倦而很快睡着;口語用法",
+      "titleEn": "crash out",
+      "formula": "crash out",
+      "highlight": "crash out",
+      "descriptionZh": "因非常疲倦而很快睡着;口語用法",
+      "descriptionEn": "I was so tired that I crashed out before ten.",
+      "examples": [
+        {
+          "en": "I was so tired that I crashed out before ten.",
+          "zh": "我太疲倦,十時前便累得很快睡着了。",
+          "highlight": "crashed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在體育比賽中落敗並被淘汰出局",
+      "titleEn": "crash out of something",
+      "formula": "crash out of something",
+      "highlight": "crash out of something",
+      "descriptionZh": "在體育比賽中落敗並被淘汰出局",
+      "descriptionEn": "The team crashed out of the cup in the second round.",
+      "examples": [
+        {
+          "en": "The team crashed out of the cup in the second round.",
+          "zh": "球隊在盃賽第二圈落敗出局。",
+          "highlight": "crashed out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述嘈吵的走動和突然倒下",
+      "titleEn": "Describe noisy movement and sudden falls clearly",
+      "zh": "crash around、crash about 和 crash round 可以描述人或動物走動時弄出很大聲響;crash down則可以描述沉重物件伴隨巨響倒下。",
+      "en": "Crash around, crash about and crash round describe people or animals moving very noisily. Crash down describes something heavy falling with a loud noise."
+    },
+    {
+      "titleZh": "自然談論極度疲倦",
+      "titleEn": "Talk naturally about extreme tiredness",
+      "zh": "crash out 是自然的口語表達,用來表示某人因為非常疲倦而很快睡着。",
+      "en": "Crash out is a natural informal expression for falling asleep very quickly because you are extremely tired."
+    },
+    {
+      "titleZh": "理解英式體育報道",
+      "titleEn": "Understand British sports reports",
+      "zh": "crash out of a cup、tournament 或 competition 表示某名球員或某支球隊落敗,無法繼續參賽。",
+      "en": "Crash out of a cup, tournament or competition tells you that a player or team has lost and cannot continue."
+    },
+    {
+      "titleZh": "辨認同一表達的不同形式",
+      "titleEn": "Recognise different forms of the same expression",
+      "zh": "知道 around、about 和 round 可以表達相同的嘈吵走動意思,能幫助你理解更多對話和故事。",
+      "en": "Knowing that around, about and round can express the same noisy-movement meaning helps you understand more conversations and stories."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述嘈吵的走動和突然倒下",
+      "自然談論極度疲倦",
+      "理解英式體育報道",
+      "辨認同一表達的不同形式"
+    ],
+    "contextsEn": [
+      "Describe noisy movement and sudden falls clearly",
+      "Talk naturally about extreme tiredness",
+      "Understand British sports reports",
+      "Recognise different forms of the same expression"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述嘈吵的走動和突然倒下",
+        "titleEn": "Describe noisy movement and sudden falls clearly",
+        "zh": "crash around、crash about 和 crash round 可以描述人或動物走動時弄出很大聲響;crash down則可以描述沉重物件伴隨巨響倒下。",
+        "en": "Crash around, crash about and crash round describe people or animals moving very noisily. Crash down describes something heavy falling with a loud noise.",
+        "examples": [
+          {
+            "en": "I heard someone crashing about in the garage.",
+            "zh": "我聽到有人在車房內乒乒乓乓地走動。",
+            "highlight": "crashing about"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論極度疲倦",
+        "titleEn": "Talk naturally about extreme tiredness",
+        "zh": "crash out 是自然的口語表達,用來表示某人因為非常疲倦而很快睡着。",
+        "en": "Crash out is a natural informal expression for falling asleep very quickly because you are extremely tired.",
+        "examples": [
+          {
+            "en": "A heavy branch crashed down beside the gate.",
+            "zh": "一根沉重的樹枝重重地倒在閘門旁,發出巨響。",
+            "highlight": "crashed down"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解英式體育報道",
+        "titleEn": "Understand British sports reports",
+        "zh": "crash out of a cup、tournament 或 competition 表示某名球員或某支球隊落敗,無法繼續參賽。",
+        "en": "Crash out of a cup, tournament or competition tells you that a player or team has lost and cannot continue.",
+        "examples": [
+          {
+            "en": "I was so tired that I crashed out before ten.",
+            "zh": "我太疲倦,十時前便累得很快睡着了。",
+            "highlight": "crashed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "辨認同一表達的不同形式",
+        "titleEn": "Recognise different forms of the same expression",
+        "zh": "知道 around、about 和 round 可以表達相同的嘈吵走動意思,能幫助你理解更多對話和故事。",
+        "en": "Knowing that around, about and round can express the same noisy-movement meaning helps you understand more conversations and stories.",
+        "examples": [
+          {
+            "en": "The team crashed out of the cup in the second round.",
+            "zh": "球隊在盃賽第二圈落敗出局。",
+            "highlight": "crashed out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CRASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CRASH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CRASH 片語動詞。",
+      "en": "Read the whole sentence and choose the CRASH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "核心表達是 crash around / about / round、crash down、crash out 和 crash out of something。inthe kitchen、onto the path 和 on the sofa 等部分只補充地點資料。",
+      "titleEn": "The core expressions are crash around / about / round, crash down, crash out and crash out of something.",
+      "zh": "核心表達是 crash around / about / round、crash down、crash out 和 crash out of something。inthe kitchen、onto the path 和 on the sofa 等部分只補充地點資料。",
+      "en": "The core expressions are crash around / about / round, crash down, crash out and crash out of something. Words such as in the kitchen, onto the path and on the sofa only add place information."
+    },
+    {
+      "titleZh": "在本練習中,crash around、crash about 和 crash round 表達相同意思。談論體育賽事時,可使用crash out of the cup、crash out of the tournament 或 crash out of the competition。",
+      "titleEn": "Crash around, crash about and crash round have the same meaning in this exercise.",
+      "zh": "在本練習中,crash around、crash about 和 crash round 表達相同意思。談論體育賽事時,可使用crash out of the cup、crash out of the tournament 或 crash out of the competition。",
+      "en": "Crash around, crash about and crash round have the same meaning in this exercise. In sport, use crash out of with words such as cup, tournament and competition."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CRASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CRASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CRASH 動詞片語句子改寫練習",
+    "titleEn": "CRASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CRASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CRASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-67-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The children moved noisily in the bedroom.",
+      "promptZh": "孩子們在睡房內走動時弄出很大聲響。",
+      "starter": "The",
+      "answer": "The children crashed around in the bedroom.",
+      "answerZh": "孩子們在睡房內乒乒乓乓地走動。",
+      "highlight": "crashed around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "After the long bus ride, I fell asleep immediately on the sofa.",
+      "promptZh": "坐了很久的巴士後,我立即在梳化上睡着了。",
+      "starter": "After",
+      "answer": "After the long bus ride, I crashed out immediately on the sofa.",
+      "answerZh": "坐了很久的巴士後,我累得立即在梳化上睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "A large branch fell onto the garden path with a loud noise.",
+      "promptZh": "一根大樹枝伴隨巨響倒在花園小路上。",
+      "starter": "A",
+      "answer": "A large branch crashed down onto the garden path.",
+      "answerZh": "一根大樹枝重重地倒在花園小路上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The school team lost its first cup match and could not continue in the competition.",
+      "promptZh": "校隊在盃賽首場比賽中落敗,無法繼續參賽。",
+      "starter": "The",
+      "answer": "The school team crashed out of the cup in its first match.",
+      "answerZh": "校隊在盃賽首場比賽中落敗出局。",
+      "highlight": "crashed out of the cup in",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I heard Ben moving noisily in the kitchen.",
+      "promptZh": "我聽到賓在廚房內走動時弄出很大聲響。",
+      "starter": "I",
+      "answer": "I heard Ben crashing about in the kitchen.",
+      "answerZh": "我聽到賓在廚房內乒乒乓乓地走動。",
+      "highlight": "crashing about",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ruby was so tired that she fell asleep at once.",
+      "promptZh": "露比累得立即睡着了。",
+      "starter": "Ruby",
+      "answer": "Ruby was so tired that she crashed out at once.",
+      "answerZh": "露比累得立即睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The old shelf suddenly fell to the floor with a loud bang.",
+      "promptZh": "舊層架突然伴隨巨響倒在地上。",
+      "starter": "The",
+      "answer": "The old shelf suddenly crashed down to the floor.",
+      "answerZh": "舊層架突然重重地倒在地上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Someone was making loud noises while moving in the hall.",
+      "promptZh": "有人在走廊內走動時弄出很大聲響。",
+      "starter": "Someone",
+      "answer": "Someone was crashing round in the hall.",
+      "answerZh": "有人在走廊內乒乒乓乓地走動。",
+      "highlight": "crashing round",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The home team lost 4–0 and could not continue in the tournament.",
+      "promptZh": "主隊以四比零落敗,無法繼續參加賽事。",
+      "starter": "The",
+      "answer": "The home team crashed out of the tournament after a 4–0 defeat.",
+      "answerZh": "主隊以四比零落敗,被淘汰出賽事。",
+      "highlight": "crashed out of the tournament after a",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Leo was exhausted and fell asleep in the armchair.",
+      "promptZh": "里奧筋疲力盡,在扶手椅上睡着了。",
+      "starter": "Leo",
+      "answer": "Leo was exhausted and crashed out in the armchair.",
+      "answerZh": "里奧筋疲力盡,在扶手椅上很快便睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "If they lose tonight, they will not be able to continue in the cup.",
+      "promptZh": "如果他們今晚落敗,便無法繼續參加盃賽。",
+      "starter": "If",
+      "answer": "If they lose tonight, they will crash out of the cup.",
+      "answerZh": "如果他們今晚落敗,便會在盃賽中被淘汰出局。",
+      "highlight": "crash out of",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Why are you moving so noisily in the bathroom?",
+      "promptZh": "你為甚麼在浴室內走動得這麼吵?",
+      "starter": "Why",
+      "answer": "Why are you crashing around in the bathroom?",
+      "answerZh": "你為甚麼在浴室內乒乒乓乓地走動?",
+      "highlight": "crashing around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I have been awake since 5 a.m., so I may fall asleep as soon as I get home.",
+      "promptZh": "我由早上五時起便一直沒有睡,所以回家後可能立即睡着。",
+      "starter": "I",
+      "answer": "I have been awake since 5 a.m., so I may crash out as soon as I get home.",
+      "answerZh": "我由早上五時起便一直沒有睡,所以回家後可能累得立即睡着。",
+      "highlight": "crash out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The boxes are falling from the top shelf with loud bangs.",
+      "promptZh": "那些箱子正從最高一層的架子上掉下來,發出巨響。",
+      "starter": "The",
+      "answer": "The boxes are crashing down from the top shelf.",
+      "answerZh": "那些箱子正從最高一層的架子上重重地掉下來,發出巨響。",
+      "highlight": "crashing down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "By the end of the afternoon, the team had lost and could no longer continue in the cup.",
+      "promptZh": "到下午結束時,球隊已經落敗,無法繼續參加盃賽。",
+      "starter": "By",
+      "answer": "By the end of the afternoon, the team had already crashed out of the cup.",
+      "answerZh": "到下午結束時,球隊已經落敗並在盃賽中出局。",
+      "highlight": "already crashed out of",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Please do not move so noisily while everyone is sleeping.",
+      "promptZh": "大家睡覺時,請不要走動得這麼吵。",
+      "starter": "Please",
+      "answer": "Please do not crash about while everyone is sleeping.",
+      "answerZh": "大家睡覺時,請不要乒乒乓乓地走動。",
+      "highlight": "crash about",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did Noah fall asleep immediately after the late flight?",
+      "promptZh": "乘搭夜機後,諾亞是否立即睡着了?",
+      "starter": "Did",
+      "answer": "Did Noah crash out immediately after the late flight?",
+      "answerZh": "乘搭夜機後,諾亞是否累得立即睡着了?",
+      "highlight": "crash out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Everyone expected the team to win, but it has lost its first match and is no longer in the tournament.",
+      "promptZh": "大家都預期這支球隊會勝出,但它在首場比賽中落敗,已被淘汰出賽事。",
+      "starter": "Everyone",
+      "answer": "Everyone expected the team to win, but it has crashed out of the tournament after losing its first match.",
+      "answerZh": "大家都預期這支球隊會勝出,但它在首場比賽中落敗,已被淘汰出賽事。",
+      "highlight": "crashed out of the tournament after losing",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "That loose sign could fall suddenly onto the pavement with a loud noise.",
+      "promptZh": "那塊鬆脫的招牌可能會突然伴隨巨響掉到行人路上。",
+      "starter": "That",
+      "answer": "That loose sign could crash down onto the pavement.",
+      "answerZh": "那塊鬆脫的招牌可能會重重地掉到行人路上,發出巨響。",
+      "highlight": "crash down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Our neighbour often moves noisily in the flat late at night.",
+      "promptZh": "我們的鄰居經常在深夜於單位內走動時弄出很大聲響。",
+      "starter": "Our",
+      "answer": "Our neighbour often crashes round in the flat late at night.",
+      "answerZh": "我們的鄰居經常在深夜於單位內乒乒乓乓地走動。",
+      "highlight": "crashes round",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The tall stack of boxes was not safe. It fell heavily to the floor with a loud noise a minute later.",
+      "promptZh": "那疊得很高的箱子並不穩固。一分鐘後,它伴隨巨響重重地倒在地上。",
+      "starter": "The",
+      "answer": "The tall stack of boxes was not safe. It crashed down to the floor a minute later.",
+      "answerZh": "那疊得很高的箱子並不穩固。一分鐘後,它重重地倒在地上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Emma finished the night shift at 7 a.m. She went to sleep as soon as she reached home.",
+      "promptZh": "愛瑪在早上七時完成夜班。她一回到家便睡着了。",
+      "starter": "Emma",
+      "answer": "Emma finished the night shift at 7 a.m. She crashed out as soon as she reached home.",
+      "answerZh": "愛瑪在早上七時完成夜班。她一回到家便累得立即睡着。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "While I was studying, my brother moved noisily in the room next door.",
+      "promptZh": "我溫習時,弟弟在隔壁房間走動得很吵。",
+      "starter": "While",
+      "answer": "While I was studying, my brother was crashing about in the room next door.",
+      "answerZh": "我溫習時,弟弟在隔壁房間乒乒乓乓地走動。",
+      "highlight": "was crashing about",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "How did the champions leave the competition? They lost 5–1 in the second round.",
+      "promptZh": "衛冕隊如何被淘汰出賽事?他們在第二圈以五比一落敗。",
+      "starter": "How",
+      "answer": "How did the champions crash out of the competition? They lost 5–1 in the second round.",
+      "answerZh": "衛冕隊如何被淘汰出賽事?他們在第二圈以五比一落敗。",
+      "highlight": "crash out of",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We heard a huge noise outside. A large piece of ice had fallen from the roof.",
+      "promptZh": "我們聽到外面傳來一聲巨響。一大塊冰已從屋頂掉下來。",
+      "starter": "We",
+      "answer": "We heard a huge noise outside. A large piece of ice had crashed down from the roof.",
+      "answerZh": "我們聽到外面傳來一聲巨響。一大塊冰已從屋頂重重地掉下來。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The sofa looked comfortable, and Arun fell asleep on it within minutes.",
+      "promptZh": "那張梳化看來很舒適,阿倫坐下後幾分鐘內便睡着了。",
+      "starter": "The",
+      "answer": "The sofa looked comfortable, and Arun crashed out on it within minutes.",
+      "answerZh": "那張梳化看來很舒適,阿倫坐下後幾分鐘內便累得睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The dog has been moving noisily in the kitchen since breakfast.",
+      "promptZh": "那隻狗由早餐時間起便一直在廚房內吵鬧地走動。",
+      "starter": "The",
+      "answer": "The dog has been crashing around in the kitchen since breakfast.",
+      "answerZh": "那隻狗由早餐時間起便一直在廚房內乒乒乓乓地走動。",
+      "highlight": "crashing around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "When the workers cut the old tree, it fell heavily into the empty field with a loud noise.",
+      "promptZh": "工人砍下那棵老樹時,它伴隨巨響重重地倒進空地。",
+      "starter": "When",
+      "answer": "When the workers cut the old tree, it crashed down into the empty field.",
+      "answerZh": "工人砍下那棵老樹時,它重重地倒進空地,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "After losing both matches, our team was eliminated from the cup.",
+      "promptZh": "兩場比賽均告落敗後,我們的球隊被淘汰出盃賽。",
+      "starter": "After",
+      "answer": "After losing both matches, our team crashed out of the cup.",
+      "answerZh": "兩場比賽均告落敗後,我們的球隊在盃賽中出局。",
+      "highlight": "crashed out of",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I was tired, but I did not fall asleep quickly on the train.",
+      "promptZh": "我很疲倦,但沒有在火車上很快睡着。",
+      "starter": "I",
+      "answer": "I was tired, but I did not crash out on the train.",
+      "answerZh": "我很疲倦,但沒有在火車上累得立即睡着。",
+      "highlight": "crash out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After helping at the event all day, Priya lay on the bed and was asleep almost immediately.",
+      "promptZh": "普里雅整天協助活動後躺在床上,幾乎立即便睡着了。",
+      "starter": "After",
+      "answer": "After helping at the event all day, Priya lay on the bed and crashed out almost immediately.",
+      "answerZh": "普里雅整天協助活動後躺在床上,幾乎立即便累得睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The wind became stronger, and part of the old fence suddenly fell with a loud noise.",
+      "promptZh": "風勢增強,部分舊圍欄突然伴隨巨響倒下。",
+      "starter": "The",
+      "answer": "The wind became stronger, and part of the old fence suddenly crashed down.",
+      "answerZh": "風勢增強,部分舊圍欄突然重重地倒下,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The player did not simply lose one point; he lost the match and could not continue in the tennis tournament.",
+      "promptZh": "這名球員並非只失一分;他輸掉整場比賽,無法繼續參加網球賽事。",
+      "starter": "The",
+      "answer": "The player did not simply lose one point; he crashed out of the tennis tournament.",
+      "answerZh": "這名球員並非只失一分;他輸掉整場比賽,被淘汰出網球賽事。",
+      "highlight": "crashed out of",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We could not hear the television because the children were moving noisily upstairs.",
+      "promptZh": "孩子們在樓上走動得很吵,所以我們聽不到電視聲。",
+      "starter": "We",
+      "answer": "We could not hear the television because the children were crashing around upstairs.",
+      "answerZh": "孩子們在樓上乒乒乓乓地走動,所以我們聽不到電視聲。",
+      "highlight": "crashing around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Where is Daniel? He was exhausted, so he went into the spare room and fell asleep almost immediately.",
+      "promptZh": "丹尼爾在哪裏?他筋疲力盡,所以走進客房後幾乎立即便睡着了。",
+      "starter": "Where",
+      "answer": "Where is Daniel? He was exhausted, so he went into the spare room and crashed out almost immediately.",
+      "answerZh": "丹尼爾在哪裏?他筋疲力盡,所以走進客房後幾乎立即便累得睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "If nobody repairs the old wall, it may suddenly fall into the empty yard with a great noise.",
+      "promptZh": "如果沒有人修理那幅舊牆,它可能會突然伴隨巨響倒進空置的院子。",
+      "starter": "If",
+      "answer": "If nobody repairs the old wall, it may crash down into the empty yard.",
+      "answerZh": "如果沒有人修理那幅舊牆,它可能會重重地倒進空置的院子,發出巨響。",
+      "highlight": "crash down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Please search for the keys quietly instead of making loud noises all over the room.",
+      "promptZh": "請安靜地尋找鎖匙,不要在房間各處弄出很大聲響。",
+      "starter": "Please",
+      "answer": "Please search for the keys quietly instead of crashing about all over the room.",
+      "answerZh": "請安靜地尋找鎖匙,不要在房間各處乒乒乓乓地走動。",
+      "highlight": "crashing about",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the team had won last year, it lost 3–0 in the first round of this year’s cup and could not continue.",
+      "promptZh": "雖然球隊去年奪冠,但今年在盃賽首圈以三比零落敗,無法繼續參賽。",
+      "starter": "Although",
+      "answer": "Although the team had won last year, it crashed out of this year’s cup in the first round after a 3–0 defeat.",
+      "answerZh": "雖然球隊去年奪冠,但今年在盃賽首圈以三比零落敗出局。",
+      "highlight": "crashed out of this year’s cup",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "A large pile of snow has just fallen from the roof onto the empty steps with a heavy thud.",
+      "promptZh": "一大堆積雪剛從屋頂重重地掉到空置的梯級上。",
+      "starter": "A",
+      "answer": "A large pile of snow has just crashed down from the roof onto the empty steps.",
+      "answerZh": "一大堆積雪剛從屋頂重重地掉到空置的梯級上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Kai had planned to watch the whole film, but he was so tired that he fell asleep after ten minutes.",
+      "promptZh": "啟原本打算看完整部電影,但他太疲倦,十分鐘後便睡着了。",
+      "starter": "Kai",
+      "answer": "Kai had planned to watch the whole film, but he was so tired that he crashed out after ten minutes.",
+      "answerZh": "啟原本打算看完整部電影,但他太疲倦,十分鐘後便累得睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The club expected to do well in the national cup, but it lost 6–0 in its first match and could not continue in the competition.",
+      "promptZh": "球會原本預期在全國盃賽有好表現,但首場比賽以六比零落敗,無法繼續參賽。",
+      "starter": "The",
+      "answer": "The club expected to do well in the national cup, but it crashed out of the competition after a 6–0 loss in its first match.",
+      "answerZh": "球會原本預期在全國盃賽有好表現,但首場比賽以六比零落敗,被淘汰出賽事。",
+      "highlight": "crashed out of the competition after a",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Dad asked us to be quiet, but my younger brothers continued making loud noises as they searched the cupboards.",
+      "promptZh": "爸爸叫我們保持安靜,但弟弟們搜尋櫥櫃時仍不斷弄出很大聲響。",
+      "starter": "Dad",
+      "answer": "Dad asked us to be quiet, but my younger brothers continued crashing around as they searched the cupboards.",
+      "answerZh": "爸爸叫我們保持安靜,但弟弟們搜尋櫥櫃時仍不斷乒乒乓乓地走動。",
+      "highlight": "crashing around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After two flights and a long train journey, Sarah only managed to remove her shoes before she fell asleep on the hotel bed.",
+      "promptZh": "乘搭兩班航機和一程長途火車後,莎拉只來得及脫鞋便在酒店床上睡着了。",
+      "starter": "After",
+      "answer": "After two flights and a long train journey, Sarah only managed to remove her shoes before she crashed out on the hotel bed.",
+      "answerZh": "乘搭兩班航機和一程長途火車後,莎拉只來得及脫鞋便累得在酒店床上睡着了。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The stage looked safe until one heavy light suddenly fell onto the empty floor with a loud bang.",
+      "promptZh": "舞台本來看似安全,直至一盞沉重的燈突然伴隨巨響掉到空置的地板上。",
+      "starter": "The",
+      "answer": "The stage looked safe until one heavy light suddenly crashed down onto the empty floor.",
+      "answerZh": "舞台本來看似安全,直至一盞沉重的燈突然重重地掉到空置的地板上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "I knew someone was awake because I could hear loud movement from the bathroom at three in the morning.",
+      "promptZh": "我知道有人仍然醒着,因為凌晨三時我聽到浴室傳來很大的走動聲。",
+      "starter": "I",
+      "answer": "I knew someone was awake because I could hear them crashing about in the bathroom at three in the morning.",
+      "answerZh": "我知道有人仍然醒着,因為凌晨三時我聽到對方在浴室內乒乒乓乓地走動。",
+      "highlight": "them crashing about in",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The young player had led for most of the match, but she lost the final set badly and had to leave the tournament.",
+      "promptZh": "這名年輕球員在大部分比賽時間領先,但最後一盤大敗,因而要退出賽事。",
+      "starter": "The",
+      "answer": "The young player had led for most of the match, but she crashed out of the tournament after losing the final set badly.",
+      "answerZh": "這名年輕球員在大部分比賽時間領先,但最後一盤大敗,因而被淘汰出賽事。",
+      "highlight": "crashed out of the tournament after losing",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    },
+    {
+      "id": "phrasal-verb-67-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "We had been awake for nearly twenty hours, so nobody was surprised when we went to sleep almost as soon as we sat down.",
+      "promptZh": "我們已接近二十小時沒有睡,所以當我們坐下後幾乎立即睡着時,沒有人感到意外。",
+      "starter": "We",
+      "answer": "We had been awake for nearly twenty hours, so nobody was surprised when we crashed out almost as soon as we sat down.",
+      "answerZh": "我們已接近二十小時沒有睡,所以當我們坐下後幾乎立即累得睡着時,沒有人感到意外。",
+      "highlight": "crashed out",
+      "targetForm": "crash out",
+      "targetMeaningZh": "因非常疲倦而很快睡着;口語"
+    },
+    {
+      "id": "phrasal-verb-67-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "Why was the house so noisy? The children were moving from room to room and knocking into the furniture.",
+      "promptZh": "屋內為甚麼這麼吵?孩子們從一個房間走到另一個房間,還撞到傢俬。",
+      "starter": "Why",
+      "answer": "Why was the house so noisy? The children were crashing around from room to room and knocking into the furniture.",
+      "answerZh": "屋內為甚麼這麼吵?孩子們乒乒乓乓地從一個房間走到另一個房間,還撞到傢俬。",
+      "highlight": "crashing around",
+      "targetForm": "crash around / crash about / crash round",
+      "targetMeaningZh": "在某地方走動時弄出很大聲響"
+    },
+    {
+      "id": "phrasal-verb-67-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "As the storm reached the village, a tree suddenly fell across the road with a huge noise.",
+      "promptZh": "暴風雨抵達村莊時,一棵樹突然伴隨巨響倒在路上。",
+      "starter": "As",
+      "answer": "As the storm reached the village, a tree suddenly crashed down across the road.",
+      "answerZh": "暴風雨抵達村莊時,一棵樹突然重重地倒在路上,發出巨響。",
+      "highlight": "crashed down",
+      "targetForm": "crash down",
+      "targetMeaningZh": "重重地倒下或掉下,並發出巨響"
+    },
+    {
+      "id": "phrasal-verb-67-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The fans expected a close game, but their team lost 5–0 and could not continue in the cup.",
+      "promptZh": "球迷原以為比賽會很接近,但球隊以五比零落敗,無法繼續參加盃賽。",
+      "starter": "The",
+      "answer": "The fans expected a close game, but their team crashed out of the cup after a 5–0 defeat.",
+      "answerZh": "球迷原以為比賽會很接近,但球隊以五比零落敗,在盃賽中出局。",
+      "highlight": "crashed out of the cup after a",
+      "targetForm": "crash out of something",
+      "targetMeaningZh": "體育:落敗並被淘汰出賽事"
+    }
+  ]
+}

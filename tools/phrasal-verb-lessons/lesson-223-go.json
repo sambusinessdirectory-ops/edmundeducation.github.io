@@ -1,0 +1,5119 @@
+{
+  "id": "phrasal-verb-223",
+  "order": 223,
+  "slug": "go",
+  "version": "1",
+  "title": "GO 動詞片語",
+  "titleEn": "Go",
+  "titleZh": "GO 動詞片語",
+  "level": "B1",
+  "groupCount": 40,
+  "source": {
+    "file": "Phrasal Verbs 221 - GO.pdf",
+    "sourceNumber": 221,
+    "pageCount": 77,
+    "teachingPdfPages": [
+      1,
+      8
+    ],
+    "exercisePdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "contentPdfPages": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "answerKeyPdfPages": [
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GO 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GO."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GO",
+      "highlight": "GO"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The noise went on all night.",
+      "zh": "噪音持續了整晚。",
+      "highlight": "went on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We have only her message to go on.",
+      "zh": "我們只有她的訊息可作依據。",
+      "highlight": "go on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Most of the budget goes on food.",
+      "zh": "大部分預算都花在食物上。",
+      "highlight": "goes on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "繼續發生或存在；根據資料、證據或說法作判斷；金錢、時間或精力花在某事上；裝得上;套得上;放得上；外出用膳、娛樂或參加社交活動；美式:參加選拔,爭取加入球隊、樂隊或小組；感覺、情緒或特質從某人或某物消失；離開房間、建築物或住所；走到某人或某物那邊；超過限額、時間或數量；改投另一方;轉用另一種制度或方法；經過;從某人或某物面前走過；到附近的人家或地方短暫探訪；圍着某人或某物;環繞；繞過角落、障礙物或地方；較舊式英式:與某人經常來往或一起活動；逐一探訪多個人、地方或某處各部分；消息、文件或疾病在人群中傳開或流傳；旋轉;沿圓形路線移動；數量足夠分給每個人；經常以某種方式打扮、行事或四處做某事；進入相連的房間或下一個地方；某種感覺突然傳遍某人的身體；透過某人或機構辦理事情；穿過地方、房間、入口或開口；即使困難或不愉快,仍把事情完成；美式口語:立即動手;努力開始做；歸予、給予或頒給某人或某事物；進入或開始某種狀態或活動；經常同時存在;彼此有關聯；沉到水面以下；以某個名稱或稱號為人所知；價格、水平或數量上升；美式:面對或迎戰強勁對手；延伸或達到某個時間、位置或程度；向上移動;上樓;沿斜坡或樓梯上去；較舊式:與某人拍拖或交往；接受或支持某人的決定、計劃或意見；與某物相襯、相配或搭配得宜；在沒有某物或沒有做某事的情況下生活或應付",
+    "en": "go on; go on something; go on something / go on doing something; go on / go on something; go out (for something); go out for something; go out of somebody/something; go out / go out of something; go over (to somebody/something); go over something; go over to somebody/something; go past / go past somebody/something; go round (to somebody/somewhere); go round somebody/something; go round something; go round with somebody / go round together; go round / go round something; go round / go round something; go round / go round something; go round; go round / go round something / go round doing something; go through (to something); go through somebody; go through somebody/something; go through / go through something; go through with something; go to it; go to somebody/something; go to something; go together; go under; go under something; go up; go up against somebody/something; go up to something; go up / go up something; go with somebody; go with somebody/something; go with something; go without / go without something / go without doing something",
+    "naturalZh": [
+      "繼續發生或存在",
+      "根據資料、證據或說法作判斷",
+      "金錢、時間或精力花在某事上",
+      "裝得上;套得上;放得上",
+      "外出用膳、娛樂或參加社交活動",
+      "美式:參加選拔,爭取加入球隊、樂隊或小組",
+      "感覺、情緒或特質從某人或某物消失",
+      "離開房間、建築物或住所",
+      "走到某人或某物那邊",
+      "超過限額、時間或數量",
+      "改投另一方;轉用另一種制度或方法",
+      "經過;從某人或某物面前走過",
+      "到附近的人家或地方短暫探訪",
+      "圍着某人或某物;環繞",
+      "繞過角落、障礙物或地方",
+      "較舊式英式:與某人經常來往或一起活動",
+      "逐一探訪多個人、地方或某處各部分",
+      "消息、文件或疾病在人群中傳開或流傳",
+      "旋轉;沿圓形路線移動",
+      "數量足夠分給每個人",
+      "經常以某種方式打扮、行事或四處做某事",
+      "進入相連的房間或下一個地方",
+      "某種感覺突然傳遍某人的身體",
+      "透過某人或機構辦理事情",
+      "穿過地方、房間、入口或開口",
+      "即使困難或不愉快,仍把事情完成",
+      "美式口語:立即動手;努力開始做",
+      "歸予、給予或頒給某人或某事物",
+      "進入或開始某種狀態或活動",
+      "經常同時存在;彼此有關聯",
+      "沉到水面以下",
+      "以某個名稱或稱號為人所知",
+      "價格、水平或數量上升",
+      "美式:面對或迎戰強勁對手",
+      "延伸或達到某個時間、位置或程度",
+      "向上移動;上樓;沿斜坡或樓梯上去",
+      "較舊式:與某人拍拖或交往",
+      "接受或支持某人的決定、計劃或意見",
+      "與某物相襯、相配或搭配得宜",
+      "在沒有某物或沒有做某事的情況下生活或應付"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "go on",
+      "titleZh": "繼續發生或存在",
+      "titleEn": "go on",
+      "descriptionZh": "繼續發生或存在",
+      "descriptionEn": "The noise went on all night.",
+      "examples": [
+        {
+          "en": "The noise went on all night.",
+          "zh": "噪音持續了整晚。",
+          "highlight": "went on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go on something",
+      "titleZh": "根據資料、證據或說法作判斷",
+      "titleEn": "go on something",
+      "descriptionZh": "根據資料、證據或說法作判斷",
+      "descriptionEn": "We have only her message to go on.",
+      "examples": [
+        {
+          "en": "We have only her message to go on.",
+          "zh": "我們只有她的訊息可作依據。",
+          "highlight": "go on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go on something / go on doing something",
+      "titleZh": "金錢、時間或精力花在某事上",
+      "titleEn": "go on something / go on doing something",
+      "descriptionZh": "金錢、時間或精力花在某事上",
+      "descriptionEn": "Most of the budget goes on food.",
+      "examples": [
+        {
+          "en": "Most of the budget goes on food.",
+          "zh": "大部分預算都花在食物上。",
+          "highlight": "goes on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go on / go on something",
+      "titleZh": "裝得上;套得上;放得上",
+      "titleEn": "go on / go on something",
+      "descriptionZh": "裝得上;套得上;放得上",
+      "descriptionEn": "This lid will not go on.",
+      "examples": [
+        {
+          "en": "This lid will not go on.",
+          "zh": "這個蓋子裝不上。",
+          "highlight": "go on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go out (for something)",
+      "titleZh": "外出用膳、娛樂或參加社交活動",
+      "titleEn": "go out (for something)",
+      "descriptionZh": "外出用膳、娛樂或參加社交活動",
+      "descriptionEn": "We went out for lunch.",
+      "examples": [
+        {
+          "en": "We went out for lunch.",
+          "zh": "我們外出吃午餐。",
+          "highlight": "went out for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go out for something",
+      "titleZh": "美式:參加選拔,爭取加入球隊、樂隊或小組",
+      "titleEn": "go out for something",
+      "descriptionZh": "美式:參加選拔,爭取加入球隊、樂隊或小組",
+      "descriptionEn": "Noah went out for the school team.",
+      "examples": [
+        {
+          "en": "Noah went out for the school team.",
+          "zh": "Noah 參加了校隊選拔。",
+          "highlight": "went out for"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go out of somebody/something",
+      "titleZh": "感覺、情緒或特質從某人或某物消失",
+      "titleEn": "go out of somebody/something",
+      "descriptionZh": "感覺、情緒或特質從某人或某物消失",
+      "descriptionEn": "The fear went out of his voice.",
+      "examples": [
+        {
+          "en": "The fear went out of his voice.",
+          "zh": "他聲音中的恐懼消失了。",
+          "highlight": "went out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go out / go out of something",
+      "titleZh": "離開房間、建築物或住所",
+      "titleEn": "go out / go out of something",
+      "descriptionZh": "離開房間、建築物或住所",
+      "descriptionEn": "Please go out of the room.",
+      "examples": [
+        {
+          "en": "Please go out of the room.",
+          "zh": "請離開房間。",
+          "highlight": "go out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go over (to somebody/something)",
+      "titleZh": "走到某人或某物那邊",
+      "titleEn": "go over (to somebody/something)",
+      "descriptionZh": "走到某人或某物那邊",
+      "descriptionEn": "She went over to the door.",
+      "examples": [
+        {
+          "en": "She went over to the door.",
+          "zh": "她走到門邊。",
+          "highlight": "went over to"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go over something",
+      "titleZh": "超過限額、時間或數量",
+      "titleEn": "go over something",
+      "descriptionZh": "超過限額、時間或數量",
+      "descriptionEn": "Do not go over ten minutes.",
+      "examples": [
+        {
+          "en": "Do not go over ten minutes.",
+          "zh": "不要超過十分鐘。",
+          "highlight": "go over"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go over to somebody/something",
+      "titleZh": "改投另一方;轉用另一種制度或方法",
+      "titleEn": "go over to somebody/something",
+      "descriptionZh": "改投另一方;轉用另一種制度或方法",
+      "descriptionEn": "The office went over to digital forms.",
+      "examples": [
+        {
+          "en": "The office went over to digital forms.",
+          "zh": "辦公室轉用了電子表格。",
+          "highlight": "went over to"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go past / go past somebody/something",
+      "titleZh": "經過;從某人或某物面前走過",
+      "titleEn": "go past / go past somebody/something",
+      "descriptionZh": "經過;從某人或某物面前走過",
+      "descriptionEn": "A taxi went past us.",
+      "examples": [
+        {
+          "en": "A taxi went past us.",
+          "zh": "一輛的士從我們身旁駛過。",
+          "highlight": "went"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round (to somebody/somewhere)",
+      "titleZh": "到附近的人家或地方短暫探訪",
+      "titleEn": "go round (to somebody/somewhere)",
+      "descriptionZh": "到附近的人家或地方短暫探訪",
+      "descriptionEn": "I will go round to Ben’s later.",
+      "examples": [
+        {
+          "en": "I will go round to Ben’s later.",
+          "zh": "我稍後會到 Ben 家一趟。",
+          "highlight": "go round to"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round somebody/something",
+      "titleZh": "圍着某人或某物;環繞",
+      "titleEn": "go round somebody/something",
+      "descriptionZh": "圍着某人或某物;環繞",
+      "descriptionEn": "A wall goes round the garden.",
+      "examples": [
+        {
+          "en": "A wall goes round the garden.",
+          "zh": "一道牆環繞着花園。",
+          "highlight": "goes round"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round something",
+      "titleZh": "繞過角落、障礙物或地方",
+      "titleEn": "go round something",
+      "descriptionZh": "繞過角落、障礙物或地方",
+      "descriptionEn": "We went round the roadworks.",
+      "examples": [
+        {
+          "en": "We went round the roadworks.",
+          "zh": "我們繞過道路工程。",
+          "highlight": "went round"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round with somebody / go round together",
+      "titleZh": "較舊式英式:與某人經常來往或一起活動",
+      "titleEn": "go round with somebody / go round together",
+      "descriptionZh": "較舊式英式:與某人經常來往或一起活動",
+      "descriptionEn": "He goes round with older students.",
+      "examples": [
+        {
+          "en": "He goes round with older students.",
+          "zh": "他經常與年紀較大的學生來往。",
+          "highlight": "goes round with"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round / go round something",
+      "titleZh": "逐一探訪多個人、地方或某處各部分",
+      "titleEn": "go round / go round something",
+      "descriptionZh": "逐一探訪多個人、地方或某處各部分",
+      "descriptionEn": "We went round the old town.",
+      "examples": [
+        {
+          "en": "We went round the old town.",
+          "zh": "我們遊遍了舊城區。",
+          "highlight": "went round"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round / go round something",
+      "titleZh": "消息、文件或疾病在人群中傳開或流傳",
+      "titleEn": "go round / go round something",
+      "descriptionZh": "消息、文件或疾病在人群中傳開或流傳",
+      "descriptionEn": "A rumour is going round.",
+      "examples": [
+        {
+          "en": "A rumour is going round.",
+          "zh": "一則傳聞正在流傳。",
+          "highlight": "going round"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round / go round something",
+      "titleZh": "旋轉;沿圓形路線移動",
+      "titleEn": "go round / go round something",
+      "descriptionZh": "旋轉;沿圓形路線移動",
+      "descriptionEn": "The wheel goes round slowly.",
+      "examples": [
+        {
+          "en": "The wheel goes round slowly.",
+          "zh": "車輪慢慢轉動。",
+          "highlight": "goes round"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round",
+      "titleZh": "數量足夠分給每個人",
+      "titleEn": "go round",
+      "descriptionZh": "數量足夠分給每個人",
+      "descriptionEn": "There is enough soup to go round.",
+      "examples": [
+        {
+          "en": "There is enough soup to go round.",
+          "zh": "湯足夠分給所有人。",
+          "highlight": "go round"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go round / go round something / go round doing something",
+      "titleZh": "經常以某種方式打扮、行事或四處做某事",
+      "titleEn": "go round / go round something / go round doing something",
+      "descriptionZh": "經常以某種方式打扮、行事或四處做某事",
+      "descriptionEn": "He goes round complaining all day.",
+      "examples": [
+        {
+          "en": "He goes round complaining all day.",
+          "zh": "他整天四處抱怨。",
+          "highlight": "goes round"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go through (to something)",
+      "titleZh": "進入相連的房間或下一個地方",
+      "titleEn": "go through (to something)",
+      "descriptionZh": "進入相連的房間或下一個地方",
+      "descriptionEn": "Please go through to the office.",
+      "examples": [
+        {
+          "en": "Please go through to the office.",
+          "zh": "請進入辦公室。",
+          "highlight": "go through to"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go through somebody",
+      "titleZh": "某種感覺突然傳遍某人的身體",
+      "titleEn": "go through somebody",
+      "descriptionZh": "某種感覺突然傳遍某人的身體",
+      "descriptionEn": "A chill went through me.",
+      "examples": [
+        {
+          "en": "A chill went through me.",
+          "zh": "一陣寒意傳遍我全身。",
+          "highlight": "went through"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go through somebody/something",
+      "titleZh": "透過某人或機構辦理事情",
+      "titleEn": "go through somebody/something",
+      "descriptionZh": "透過某人或機構辦理事情",
+      "descriptionEn": "We went through a local agent.",
+      "examples": [
+        {
+          "en": "We went through a local agent.",
+          "zh": "我們透過本地代理辦理。",
+          "highlight": "went through"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go through / go through something",
+      "titleZh": "穿過地方、房間、入口或開口",
+      "titleEn": "go through / go through something",
+      "descriptionZh": "穿過地方、房間、入口或開口",
+      "descriptionEn": "The train goes through the tunnel.",
+      "examples": [
+        {
+          "en": "The train goes through the tunnel.",
+          "zh": "火車穿過隧道。",
+          "highlight": "goes through"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go through with something",
+      "titleZh": "即使困難或不愉快,仍把事情完成",
+      "titleEn": "go through with something",
+      "descriptionZh": "即使困難或不愉快,仍把事情完成",
+      "descriptionEn": "She went through with the move.",
+      "examples": [
+        {
+          "en": "She went through with the move.",
+          "zh": "她仍完成了搬遷。",
+          "highlight": "went through with"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go to it",
+      "titleZh": "美式口語:立即動手;努力開始做",
+      "titleEn": "go to it",
+      "descriptionZh": "美式口語:立即動手;努力開始做",
+      "descriptionEn": "Stop waiting and go to it!",
+      "examples": [
+        {
+          "en": "Stop waiting and go to it!",
+          "zh": "不要再等,立即動手吧!",
+          "highlight": "go to"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go to somebody/something",
+      "titleZh": "歸予、給予或頒給某人或某事物",
+      "titleEn": "go to somebody/something",
+      "descriptionZh": "歸予、給予或頒給某人或某事物",
+      "descriptionEn": "The prize went to Eva.",
+      "examples": [
+        {
+          "en": "The prize went to Eva.",
+          "zh": "獎項由 Eva 獲得。",
+          "highlight": "went to"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go to something",
+      "titleZh": "進入或開始某種狀態或活動",
+      "titleEn": "go to something",
+      "descriptionZh": "進入或開始某種狀態或活動",
+      "descriptionEn": "The food went to waste.",
+      "examples": [
+        {
+          "en": "The food went to waste.",
+          "zh": "食物白白浪費了。",
+          "highlight": "went to"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go together",
+      "titleZh": "經常同時存在;彼此有關聯",
+      "titleEn": "go together",
+      "descriptionZh": "經常同時存在;彼此有關聯",
+      "descriptionEn": "Heat and tiredness often go together.",
+      "examples": [
+        {
+          "en": "Heat and tiredness often go together.",
+          "zh": "炎熱和疲倦經常同時出現。",
+          "highlight": "go together"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go under",
+      "titleZh": "沉到水面以下",
+      "titleEn": "go under",
+      "descriptionZh": "沉到水面以下",
+      "descriptionEn": "The boat went under quickly.",
+      "examples": [
+        {
+          "en": "The boat went under quickly.",
+          "zh": "小艇很快便沉沒。",
+          "highlight": "went under"
+        }
+      ],
+      "number": 31,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go under something",
+      "titleZh": "以某個名稱或稱號為人所知",
+      "titleEn": "go under something",
+      "descriptionZh": "以某個名稱或稱號為人所知",
+      "descriptionEn": "He goes under the name Green Fox.",
+      "examples": [
+        {
+          "en": "He goes under the name Green Fox.",
+          "zh": "他以 Green Fox 這個名字示人。",
+          "highlight": "goes under"
+        }
+      ],
+      "number": 32,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go up",
+      "titleZh": "價格、水平或數量上升",
+      "titleEn": "go up",
+      "descriptionZh": "價格、水平或數量上升",
+      "descriptionEn": "Prices are going up.",
+      "examples": [
+        {
+          "en": "Prices are going up.",
+          "zh": "價格正在上升。",
+          "highlight": "going up"
+        }
+      ],
+      "number": 33,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go up against somebody/something",
+      "titleZh": "美式:面對或迎戰強勁對手",
+      "titleEn": "go up against somebody/something",
+      "descriptionZh": "美式:面對或迎戰強勁對手",
+      "descriptionEn": "Our team went up against the champions.",
+      "examples": [
+        {
+          "en": "Our team went up against the champions.",
+          "zh": "我們的球隊迎戰冠軍隊伍。",
+          "highlight": "went up against"
+        }
+      ],
+      "number": 34,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go up to something",
+      "titleZh": "延伸或達到某個時間、位置或程度",
+      "titleEn": "go up to something",
+      "descriptionZh": "延伸或達到某個時間、位置或程度",
+      "descriptionEn": "The list only goes up to June.",
+      "examples": [
+        {
+          "en": "The list only goes up to June.",
+          "zh": "清單只列至六月。",
+          "highlight": "goes up to"
+        }
+      ],
+      "number": 35,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go up / go up something",
+      "titleZh": "向上移動;上樓;沿斜坡或樓梯上去",
+      "titleEn": "go up / go up something",
+      "descriptionZh": "向上移動;上樓;沿斜坡或樓梯上去",
+      "descriptionEn": "She went up the stairs.",
+      "examples": [
+        {
+          "en": "She went up the stairs.",
+          "zh": "她走上樓梯。",
+          "highlight": "went up"
+        }
+      ],
+      "number": 36,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go with somebody",
+      "titleZh": "較舊式:與某人拍拖或交往",
+      "titleEn": "go with somebody",
+      "descriptionZh": "較舊式:與某人拍拖或交往",
+      "descriptionEn": "Ella has been going with Sam.",
+      "examples": [
+        {
+          "en": "Ella has been going with Sam.",
+          "zh": "Ella 一直與 Sam 拍拖。",
+          "highlight": "going with"
+        }
+      ],
+      "number": 37,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go with somebody/something",
+      "titleZh": "接受或支持某人的決定、計劃或意見",
+      "titleEn": "go with somebody/something",
+      "descriptionZh": "接受或支持某人的決定、計劃或意見",
+      "descriptionEn": "We decided to go with the blue plan.",
+      "examples": [
+        {
+          "en": "We decided to go with the blue plan.",
+          "zh": "我們決定採用藍色方案。",
+          "highlight": "go with"
+        }
+      ],
+      "number": 38,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go with something",
+      "titleZh": "與某物相襯、相配或搭配得宜",
+      "titleEn": "go with something",
+      "descriptionZh": "與某物相襯、相配或搭配得宜",
+      "descriptionEn": "This jacket goes with those shoes.",
+      "examples": [
+        {
+          "en": "This jacket goes with those shoes.",
+          "zh": "這件外套與那雙鞋相配。",
+          "highlight": "goes with"
+        }
+      ],
+      "number": 39,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go without / go without something / go without doing something",
+      "titleZh": "在沒有某物或沒有做某事的情況下生活或應付",
+      "titleEn": "go without / go without something / go without doing something",
+      "descriptionZh": "在沒有某物或沒有做某事的情況下生活或應付",
+      "descriptionEn": "They went without electricity for a day.",
+      "examples": [
+        {
+          "en": "They went without electricity for a day.",
+          "zh": "他們有一天沒有電力供應。",
+          "highlight": "went"
+        }
+      ],
+      "number": 40,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GO 片語動詞的實際用途",
+    "labelEn": "GO Phrasal Verbs in Use",
+    "summaryZh": "GO 片語動詞可以清楚表示某人經過另一人、繞過障礙物、穿過地方、走到某人身邊,或沿樓梯向上走。；你可以用 GO 片語動詞描述事情持續、價格上升、感覺消失、消息傳開,或局勢發展至戰爭。；GO 片語動詞可以表示接受決定、支持計劃、與某人來往、與某人拍拖,或選擇彼此相配的事物。；你可以說明有甚麼證據可作依據、金錢花在哪裏、物資是否足夠所有人,以及人們如何在缺少某物的情況下生活。",
+    "summaryEn": "GO expressions can show whether someone moves past a person, round an obstacle, through a place, over to someone or up a staircase. You can use GO expressions to describe something continuing, prices rising, feelings disappearing, news spreading or a situation moving towards war. GO expressions can show that you accept a decision, support a plan, spend time with someone, date someone or choose something that matches well. You can explain what evidence you have to use, what money is spent on, whether there is enough for everyone and how people manage without something.",
+    "contextsZh": [
+      "使用 GO 準確描述不同移動方式",
+      "談論持續、轉變和發展",
+      "表達選擇、支持和人際關係",
+      "描述日常需要和實際限制"
+    ],
+    "contextsEn": [
+      "Use GO to describe movement in precise ways",
+      "Talk about continuation, change and development",
+      "Explain choices, support and relationships",
+      "Describe everyday needs and practical limits"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GO 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GO expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "go on",
+    "fixedHighlight": "go on",
+    "fixedZh": "閱讀整句,選出意思相同的 GO 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GO expression that gives the same meaning.",
+    "correct": "went on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；先掌握核心表達。在 We went round the building to reach the side entrance 中,核心表達是 goround the building。to reach the side entrance 只說明目的,並非核心表達的一部分。；外形相近的 GO 片語動詞可以有完全不同的意思。例如,go on 可表示「繼續」;go on evidence 表示「根據證據判斷」;money goes on rent 則表示「金錢花在租金上」。",
+    "variableEn": "Keep the same people, things, time and meaning. Learn the core expression first. In “We went round the building to reach the side entrance”, the core expression is go round the building. The words to reach the side entrance only explain why. Similar-looking GO expressions can have very different meanings. For example, go on can mean “continue”; go on evidence means “use evidence as a basis”; and money goes on rent means “money is spent on rent”.",
+    "variableItemsZh": [
+      "go on",
+      "go on something",
+      "go on something / go on doing something",
+      "go on / go on something",
+      "go out (for something)",
+      "go out for something",
+      "go out of somebody/something",
+      "go out / go out of something",
+      "go over (to somebody/something)",
+      "go over something",
+      "go over to somebody/something",
+      "go past / go past somebody/something",
+      "go round (to somebody/somewhere)",
+      "go round somebody/something",
+      "go round something",
+      "go round with somebody / go round together",
+      "go round / go round something",
+      "go round / go round something",
+      "go round / go round something",
+      "go round",
+      "go round / go round something / go round doing something",
+      "go through (to something)",
+      "go through somebody",
+      "go through somebody/something",
+      "go through / go through something",
+      "go through with something",
+      "go to it",
+      "go to somebody/something",
+      "go to something",
+      "go together",
+      "go under",
+      "go under something",
+      "go up",
+      "go up against somebody/something",
+      "go up to something",
+      "go up / go up something",
+      "go with somebody",
+      "go with somebody/something",
+      "go with something",
+      "go without / go without something / go without doing something"
+    ],
+    "variableItemsEn": [
+      "go on",
+      "go on something",
+      "go on something / go on doing something",
+      "go on / go on something",
+      "go out (for something)",
+      "go out for something",
+      "go out of somebody/something",
+      "go out / go out of something",
+      "go over (to somebody/something)",
+      "go over something",
+      "go over to somebody/something",
+      "go past / go past somebody/something",
+      "go round (to somebody/somewhere)",
+      "go round somebody/something",
+      "go round something",
+      "go round with somebody / go round together",
+      "go round / go round something",
+      "go round / go round something",
+      "go round / go round something",
+      "go round",
+      "go round / go round something / go round doing something",
+      "go through (to something)",
+      "go through somebody",
+      "go through somebody/something",
+      "go through / go through something",
+      "go through with something",
+      "go to it",
+      "go to somebody/something",
+      "go to something",
+      "go together",
+      "go under",
+      "go under something",
+      "go up",
+      "go up against somebody/something",
+      "go up to something",
+      "go up / go up something",
+      "go with somebody",
+      "go with somebody/something",
+      "go with something",
+      "go without / go without something / go without doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "繼續發生或存在",
+        "formEn": "go on",
+        "exampleZh": "噪音持續了整晚。",
+        "exampleEn": "The noise went on all night.",
+        "highlight": "went on"
+      },
+      {
+        "formZh": "根據資料、證據或說法作判斷",
+        "formEn": "go on something",
+        "exampleZh": "我們只有她的訊息可作依據。",
+        "exampleEn": "We have only her message to go on.",
+        "highlight": "go on"
+      },
+      {
+        "formZh": "金錢、時間或精力花在某事上",
+        "formEn": "go on something / go on doing something",
+        "exampleZh": "大部分預算都花在食物上。",
+        "exampleEn": "Most of the budget goes on food.",
+        "highlight": "goes on"
+      },
+      {
+        "formZh": "裝得上;套得上;放得上",
+        "formEn": "go on / go on something",
+        "exampleZh": "這個蓋子裝不上。",
+        "exampleEn": "This lid will not go on.",
+        "highlight": "go on"
+      },
+      {
+        "formZh": "外出用膳、娛樂或參加社交活動",
+        "formEn": "go out (for something)",
+        "exampleZh": "我們外出吃午餐。",
+        "exampleEn": "We went out for lunch.",
+        "highlight": "went out for"
+      },
+      {
+        "formZh": "美式:參加選拔,爭取加入球隊、樂隊或小組",
+        "formEn": "go out for something",
+        "exampleZh": "Noah 參加了校隊選拔。",
+        "exampleEn": "Noah went out for the school team.",
+        "highlight": "went out for"
+      },
+      {
+        "formZh": "感覺、情緒或特質從某人或某物消失",
+        "formEn": "go out of somebody/something",
+        "exampleZh": "他聲音中的恐懼消失了。",
+        "exampleEn": "The fear went out of his voice.",
+        "highlight": "went out"
+      },
+      {
+        "formZh": "離開房間、建築物或住所",
+        "formEn": "go out / go out of something",
+        "exampleZh": "請離開房間。",
+        "exampleEn": "Please go out of the room.",
+        "highlight": "go out"
+      },
+      {
+        "formZh": "走到某人或某物那邊",
+        "formEn": "go over (to somebody/something)",
+        "exampleZh": "她走到門邊。",
+        "exampleEn": "She went over to the door.",
+        "highlight": "went over to"
+      },
+      {
+        "formZh": "超過限額、時間或數量",
+        "formEn": "go over something",
+        "exampleZh": "不要超過十分鐘。",
+        "exampleEn": "Do not go over ten minutes.",
+        "highlight": "go over"
+      },
+      {
+        "formZh": "改投另一方;轉用另一種制度或方法",
+        "formEn": "go over to somebody/something",
+        "exampleZh": "辦公室轉用了電子表格。",
+        "exampleEn": "The office went over to digital forms.",
+        "highlight": "went over to"
+      },
+      {
+        "formZh": "經過;從某人或某物面前走過",
+        "formEn": "go past / go past somebody/something",
+        "exampleZh": "一輛的士從我們身旁駛過。",
+        "exampleEn": "A taxi went past us.",
+        "highlight": "went"
+      },
+      {
+        "formZh": "到附近的人家或地方短暫探訪",
+        "formEn": "go round (to somebody/somewhere)",
+        "exampleZh": "我稍後會到 Ben 家一趟。",
+        "exampleEn": "I will go round to Ben’s later.",
+        "highlight": "go round to"
+      },
+      {
+        "formZh": "圍着某人或某物;環繞",
+        "formEn": "go round somebody/something",
+        "exampleZh": "一道牆環繞着花園。",
+        "exampleEn": "A wall goes round the garden.",
+        "highlight": "goes round"
+      },
+      {
+        "formZh": "繞過角落、障礙物或地方",
+        "formEn": "go round something",
+        "exampleZh": "我們繞過道路工程。",
+        "exampleEn": "We went round the roadworks.",
+        "highlight": "went round"
+      },
+      {
+        "formZh": "較舊式英式:與某人經常來往或一起活動",
+        "formEn": "go round with somebody / go round together",
+        "exampleZh": "他經常與年紀較大的學生來往。",
+        "exampleEn": "He goes round with older students.",
+        "highlight": "goes round with"
+      },
+      {
+        "formZh": "逐一探訪多個人、地方或某處各部分",
+        "formEn": "go round / go round something",
+        "exampleZh": "我們遊遍了舊城區。",
+        "exampleEn": "We went round the old town.",
+        "highlight": "went round"
+      },
+      {
+        "formZh": "消息、文件或疾病在人群中傳開或流傳",
+        "formEn": "go round / go round something",
+        "exampleZh": "一則傳聞正在流傳。",
+        "exampleEn": "A rumour is going round.",
+        "highlight": "going round"
+      },
+      {
+        "formZh": "旋轉;沿圓形路線移動",
+        "formEn": "go round / go round something",
+        "exampleZh": "車輪慢慢轉動。",
+        "exampleEn": "The wheel goes round slowly.",
+        "highlight": "goes round"
+      },
+      {
+        "formZh": "數量足夠分給每個人",
+        "formEn": "go round",
+        "exampleZh": "湯足夠分給所有人。",
+        "exampleEn": "There is enough soup to go round.",
+        "highlight": "go round"
+      },
+      {
+        "formZh": "經常以某種方式打扮、行事或四處做某事",
+        "formEn": "go round / go round something / go round doing something",
+        "exampleZh": "他整天四處抱怨。",
+        "exampleEn": "He goes round complaining all day.",
+        "highlight": "goes round"
+      },
+      {
+        "formZh": "進入相連的房間或下一個地方",
+        "formEn": "go through (to something)",
+        "exampleZh": "請進入辦公室。",
+        "exampleEn": "Please go through to the office.",
+        "highlight": "go through to"
+      },
+      {
+        "formZh": "某種感覺突然傳遍某人的身體",
+        "formEn": "go through somebody",
+        "exampleZh": "一陣寒意傳遍我全身。",
+        "exampleEn": "A chill went through me.",
+        "highlight": "went through"
+      },
+      {
+        "formZh": "透過某人或機構辦理事情",
+        "formEn": "go through somebody/something",
+        "exampleZh": "我們透過本地代理辦理。",
+        "exampleEn": "We went through a local agent.",
+        "highlight": "went through"
+      },
+      {
+        "formZh": "穿過地方、房間、入口或開口",
+        "formEn": "go through / go through something",
+        "exampleZh": "火車穿過隧道。",
+        "exampleEn": "The train goes through the tunnel.",
+        "highlight": "goes through"
+      },
+      {
+        "formZh": "即使困難或不愉快,仍把事情完成",
+        "formEn": "go through with something",
+        "exampleZh": "她仍完成了搬遷。",
+        "exampleEn": "She went through with the move.",
+        "highlight": "went through with"
+      },
+      {
+        "formZh": "美式口語:立即動手;努力開始做",
+        "formEn": "go to it",
+        "exampleZh": "不要再等,立即動手吧!",
+        "exampleEn": "Stop waiting and go to it!",
+        "highlight": "go to"
+      },
+      {
+        "formZh": "歸予、給予或頒給某人或某事物",
+        "formEn": "go to somebody/something",
+        "exampleZh": "獎項由 Eva 獲得。",
+        "exampleEn": "The prize went to Eva.",
+        "highlight": "went to"
+      },
+      {
+        "formZh": "進入或開始某種狀態或活動",
+        "formEn": "go to something",
+        "exampleZh": "食物白白浪費了。",
+        "exampleEn": "The food went to waste.",
+        "highlight": "went to"
+      },
+      {
+        "formZh": "經常同時存在;彼此有關聯",
+        "formEn": "go together",
+        "exampleZh": "炎熱和疲倦經常同時出現。",
+        "exampleEn": "Heat and tiredness often go together.",
+        "highlight": "go together"
+      },
+      {
+        "formZh": "沉到水面以下",
+        "formEn": "go under",
+        "exampleZh": "小艇很快便沉沒。",
+        "exampleEn": "The boat went under quickly.",
+        "highlight": "went under"
+      },
+      {
+        "formZh": "以某個名稱或稱號為人所知",
+        "formEn": "go under something",
+        "exampleZh": "他以 Green Fox 這個名字示人。",
+        "exampleEn": "He goes under the name Green Fox.",
+        "highlight": "goes under"
+      },
+      {
+        "formZh": "價格、水平或數量上升",
+        "formEn": "go up",
+        "exampleZh": "價格正在上升。",
+        "exampleEn": "Prices are going up.",
+        "highlight": "going up"
+      },
+      {
+        "formZh": "美式:面對或迎戰強勁對手",
+        "formEn": "go up against somebody/something",
+        "exampleZh": "我們的球隊迎戰冠軍隊伍。",
+        "exampleEn": "Our team went up against the champions.",
+        "highlight": "went up against"
+      },
+      {
+        "formZh": "延伸或達到某個時間、位置或程度",
+        "formEn": "go up to something",
+        "exampleZh": "清單只列至六月。",
+        "exampleEn": "The list only goes up to June.",
+        "highlight": "goes up to"
+      },
+      {
+        "formZh": "向上移動;上樓;沿斜坡或樓梯上去",
+        "formEn": "go up / go up something",
+        "exampleZh": "她走上樓梯。",
+        "exampleEn": "She went up the stairs.",
+        "highlight": "went up"
+      },
+      {
+        "formZh": "較舊式:與某人拍拖或交往",
+        "formEn": "go with somebody",
+        "exampleZh": "Ella 一直與 Sam 拍拖。",
+        "exampleEn": "Ella has been going with Sam.",
+        "highlight": "going with"
+      },
+      {
+        "formZh": "接受或支持某人的決定、計劃或意見",
+        "formEn": "go with somebody/something",
+        "exampleZh": "我們決定採用藍色方案。",
+        "exampleEn": "We decided to go with the blue plan.",
+        "highlight": "go with"
+      },
+      {
+        "formZh": "與某物相襯、相配或搭配得宜",
+        "formEn": "go with something",
+        "exampleZh": "這件外套與那雙鞋相配。",
+        "exampleEn": "This jacket goes with those shoes.",
+        "highlight": "goes with"
+      },
+      {
+        "formZh": "在沒有某物或沒有做某事的情況下生活或應付",
+        "formEn": "go without / go without something / go without doing something",
+        "exampleZh": "他們有一天沒有電力供應。",
+        "exampleEn": "They went without electricity for a day.",
+        "highlight": "went"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "繼續發生或存在",
+      "titleEn": "go on",
+      "formula": "go on",
+      "highlight": "go on",
+      "descriptionZh": "繼續發生或存在",
+      "descriptionEn": "The noise went on all night.",
+      "examples": [
+        {
+          "en": "The noise went on all night.",
+          "zh": "噪音持續了整晚。",
+          "highlight": "went on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "根據資料、證據或說法作判斷",
+      "titleEn": "go on something",
+      "formula": "go on something",
+      "highlight": "go on something",
+      "descriptionZh": "根據資料、證據或說法作判斷",
+      "descriptionEn": "We have only her message to go on.",
+      "examples": [
+        {
+          "en": "We have only her message to go on.",
+          "zh": "我們只有她的訊息可作依據。",
+          "highlight": "go on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "金錢、時間或精力花在某事上",
+      "titleEn": "go on something / go on doing something",
+      "formula": "go on something / go on doing something",
+      "highlight": "go on something / go on doing something",
+      "descriptionZh": "金錢、時間或精力花在某事上",
+      "descriptionEn": "Most of the budget goes on food.",
+      "examples": [
+        {
+          "en": "Most of the budget goes on food.",
+          "zh": "大部分預算都花在食物上。",
+          "highlight": "goes on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "裝得上;套得上;放得上",
+      "titleEn": "go on / go on something",
+      "formula": "go on / go on something",
+      "highlight": "go on / go on something",
+      "descriptionZh": "裝得上;套得上;放得上",
+      "descriptionEn": "This lid will not go on.",
+      "examples": [
+        {
+          "en": "This lid will not go on.",
+          "zh": "這個蓋子裝不上。",
+          "highlight": "go on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "外出用膳、娛樂或參加社交活動",
+      "titleEn": "go out (for something)",
+      "formula": "go out (for something)",
+      "highlight": "go out (for something)",
+      "descriptionZh": "外出用膳、娛樂或參加社交活動",
+      "descriptionEn": "We went out for lunch.",
+      "examples": [
+        {
+          "en": "We went out for lunch.",
+          "zh": "我們外出吃午餐。",
+          "highlight": "went out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "美式:參加選拔,爭取加入球隊、樂隊或小組",
+      "titleEn": "go out for something",
+      "formula": "go out for something",
+      "highlight": "go out for something",
+      "descriptionZh": "美式:參加選拔,爭取加入球隊、樂隊或小組",
+      "descriptionEn": "Noah went out for the school team.",
+      "examples": [
+        {
+          "en": "Noah went out for the school team.",
+          "zh": "Noah 參加了校隊選拔。",
+          "highlight": "went out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "感覺、情緒或特質從某人或某物消失",
+      "titleEn": "go out of somebody/something",
+      "formula": "go out of somebody/something",
+      "highlight": "go out of somebody/something",
+      "descriptionZh": "感覺、情緒或特質從某人或某物消失",
+      "descriptionEn": "The fear went out of his voice.",
+      "examples": [
+        {
+          "en": "The fear went out of his voice.",
+          "zh": "他聲音中的恐懼消失了。",
+          "highlight": "went out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "離開房間、建築物或住所",
+      "titleEn": "go out / go out of something",
+      "formula": "go out / go out of something",
+      "highlight": "go out / go out of something",
+      "descriptionZh": "離開房間、建築物或住所",
+      "descriptionEn": "Please go out of the room.",
+      "examples": [
+        {
+          "en": "Please go out of the room.",
+          "zh": "請離開房間。",
+          "highlight": "go out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "走到某人或某物那邊",
+      "titleEn": "go over (to somebody/something)",
+      "formula": "go over (to somebody/something)",
+      "highlight": "go over (to somebody/something)",
+      "descriptionZh": "走到某人或某物那邊",
+      "descriptionEn": "She went over to the door.",
+      "examples": [
+        {
+          "en": "She went over to the door.",
+          "zh": "她走到門邊。",
+          "highlight": "went over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "超過限額、時間或數量",
+      "titleEn": "go over something",
+      "formula": "go over something",
+      "highlight": "go over something",
+      "descriptionZh": "超過限額、時間或數量",
+      "descriptionEn": "Do not go over ten minutes.",
+      "examples": [
+        {
+          "en": "Do not go over ten minutes.",
+          "zh": "不要超過十分鐘。",
+          "highlight": "go over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "改投另一方;轉用另一種制度或方法",
+      "titleEn": "go over to somebody/something",
+      "formula": "go over to somebody/something",
+      "highlight": "go over to somebody/something",
+      "descriptionZh": "改投另一方;轉用另一種制度或方法",
+      "descriptionEn": "The office went over to digital forms.",
+      "examples": [
+        {
+          "en": "The office went over to digital forms.",
+          "zh": "辦公室轉用了電子表格。",
+          "highlight": "went over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "經過;從某人或某物面前走過",
+      "titleEn": "go past / go past somebody/something",
+      "formula": "go past / go past somebody/something",
+      "highlight": "go past / go past somebody/something",
+      "descriptionZh": "經過;從某人或某物面前走過",
+      "descriptionEn": "A taxi went past us.",
+      "examples": [
+        {
+          "en": "A taxi went past us.",
+          "zh": "一輛的士從我們身旁駛過。",
+          "highlight": "went"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "到附近的人家或地方短暫探訪",
+      "titleEn": "go round (to somebody/somewhere)",
+      "formula": "go round (to somebody/somewhere)",
+      "highlight": "go round (to somebody/somewhere)",
+      "descriptionZh": "到附近的人家或地方短暫探訪",
+      "descriptionEn": "I will go round to Ben’s later.",
+      "examples": [
+        {
+          "en": "I will go round to Ben’s later.",
+          "zh": "我稍後會到 Ben 家一趟。",
+          "highlight": "go round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "圍着某人或某物;環繞",
+      "titleEn": "go round somebody/something",
+      "formula": "go round somebody/something",
+      "highlight": "go round somebody/something",
+      "descriptionZh": "圍着某人或某物;環繞",
+      "descriptionEn": "A wall goes round the garden.",
+      "examples": [
+        {
+          "en": "A wall goes round the garden.",
+          "zh": "一道牆環繞着花園。",
+          "highlight": "goes round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "繞過角落、障礙物或地方",
+      "titleEn": "go round something",
+      "formula": "go round something",
+      "highlight": "go round something",
+      "descriptionZh": "繞過角落、障礙物或地方",
+      "descriptionEn": "We went round the roadworks.",
+      "examples": [
+        {
+          "en": "We went round the roadworks.",
+          "zh": "我們繞過道路工程。",
+          "highlight": "went round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "較舊式英式:與某人經常來往或一起活動",
+      "titleEn": "go round with somebody / go round together",
+      "formula": "go round with somebody / go round together",
+      "highlight": "go round with somebody / go round together",
+      "descriptionZh": "較舊式英式:與某人經常來往或一起活動",
+      "descriptionEn": "He goes round with older students.",
+      "examples": [
+        {
+          "en": "He goes round with older students.",
+          "zh": "他經常與年紀較大的學生來往。",
+          "highlight": "goes round with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "逐一探訪多個人、地方或某處各部分",
+      "titleEn": "go round / go round something",
+      "formula": "go round / go round something",
+      "highlight": "go round / go round something",
+      "descriptionZh": "逐一探訪多個人、地方或某處各部分",
+      "descriptionEn": "We went round the old town.",
+      "examples": [
+        {
+          "en": "We went round the old town.",
+          "zh": "我們遊遍了舊城區。",
+          "highlight": "went round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "消息、文件或疾病在人群中傳開或流傳",
+      "titleEn": "go round / go round something",
+      "formula": "go round / go round something",
+      "highlight": "go round / go round something",
+      "descriptionZh": "消息、文件或疾病在人群中傳開或流傳",
+      "descriptionEn": "A rumour is going round.",
+      "examples": [
+        {
+          "en": "A rumour is going round.",
+          "zh": "一則傳聞正在流傳。",
+          "highlight": "going round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "旋轉;沿圓形路線移動",
+      "titleEn": "go round / go round something",
+      "formula": "go round / go round something",
+      "highlight": "go round / go round something",
+      "descriptionZh": "旋轉;沿圓形路線移動",
+      "descriptionEn": "The wheel goes round slowly.",
+      "examples": [
+        {
+          "en": "The wheel goes round slowly.",
+          "zh": "車輪慢慢轉動。",
+          "highlight": "goes round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "數量足夠分給每個人",
+      "titleEn": "go round",
+      "formula": "go round",
+      "highlight": "go round",
+      "descriptionZh": "數量足夠分給每個人",
+      "descriptionEn": "There is enough soup to go round.",
+      "examples": [
+        {
+          "en": "There is enough soup to go round.",
+          "zh": "湯足夠分給所有人。",
+          "highlight": "go round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "經常以某種方式打扮、行事或四處做某事",
+      "titleEn": "go round / go round something / go round doing something",
+      "formula": "go round / go round something / go round doing something",
+      "highlight": "go round / go round something / go round doing something",
+      "descriptionZh": "經常以某種方式打扮、行事或四處做某事",
+      "descriptionEn": "He goes round complaining all day.",
+      "examples": [
+        {
+          "en": "He goes round complaining all day.",
+          "zh": "他整天四處抱怨。",
+          "highlight": "goes round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "進入相連的房間或下一個地方",
+      "titleEn": "go through (to something)",
+      "formula": "go through (to something)",
+      "highlight": "go through (to something)",
+      "descriptionZh": "進入相連的房間或下一個地方",
+      "descriptionEn": "Please go through to the office.",
+      "examples": [
+        {
+          "en": "Please go through to the office.",
+          "zh": "請進入辦公室。",
+          "highlight": "go through to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "某種感覺突然傳遍某人的身體",
+      "titleEn": "go through somebody",
+      "formula": "go through somebody",
+      "highlight": "go through somebody",
+      "descriptionZh": "某種感覺突然傳遍某人的身體",
+      "descriptionEn": "A chill went through me.",
+      "examples": [
+        {
+          "en": "A chill went through me.",
+          "zh": "一陣寒意傳遍我全身。",
+          "highlight": "went through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "透過某人或機構辦理事情",
+      "titleEn": "go through somebody/something",
+      "formula": "go through somebody/something",
+      "highlight": "go through somebody/something",
+      "descriptionZh": "透過某人或機構辦理事情",
+      "descriptionEn": "We went through a local agent.",
+      "examples": [
+        {
+          "en": "We went through a local agent.",
+          "zh": "我們透過本地代理辦理。",
+          "highlight": "went through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "穿過地方、房間、入口或開口",
+      "titleEn": "go through / go through something",
+      "formula": "go through / go through something",
+      "highlight": "go through / go through something",
+      "descriptionZh": "穿過地方、房間、入口或開口",
+      "descriptionEn": "The train goes through the tunnel.",
+      "examples": [
+        {
+          "en": "The train goes through the tunnel.",
+          "zh": "火車穿過隧道。",
+          "highlight": "goes through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "即使困難或不愉快,仍把事情完成",
+      "titleEn": "go through with something",
+      "formula": "go through with something",
+      "highlight": "go through with something",
+      "descriptionZh": "即使困難或不愉快,仍把事情完成",
+      "descriptionEn": "She went through with the move.",
+      "examples": [
+        {
+          "en": "She went through with the move.",
+          "zh": "她仍完成了搬遷。",
+          "highlight": "went through with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "美式口語:立即動手;努力開始做",
+      "titleEn": "go to it",
+      "formula": "go to it",
+      "highlight": "go to it",
+      "descriptionZh": "美式口語:立即動手;努力開始做",
+      "descriptionEn": "Stop waiting and go to it!",
+      "examples": [
+        {
+          "en": "Stop waiting and go to it!",
+          "zh": "不要再等,立即動手吧!",
+          "highlight": "go to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "歸予、給予或頒給某人或某事物",
+      "titleEn": "go to somebody/something",
+      "formula": "go to somebody/something",
+      "highlight": "go to somebody/something",
+      "descriptionZh": "歸予、給予或頒給某人或某事物",
+      "descriptionEn": "The prize went to Eva.",
+      "examples": [
+        {
+          "en": "The prize went to Eva.",
+          "zh": "獎項由 Eva 獲得。",
+          "highlight": "went to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "進入或開始某種狀態或活動",
+      "titleEn": "go to something",
+      "formula": "go to something",
+      "highlight": "go to something",
+      "descriptionZh": "進入或開始某種狀態或活動",
+      "descriptionEn": "The food went to waste.",
+      "examples": [
+        {
+          "en": "The food went to waste.",
+          "zh": "食物白白浪費了。",
+          "highlight": "went to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "經常同時存在;彼此有關聯",
+      "titleEn": "go together",
+      "formula": "go together",
+      "highlight": "go together",
+      "descriptionZh": "經常同時存在;彼此有關聯",
+      "descriptionEn": "Heat and tiredness often go together.",
+      "examples": [
+        {
+          "en": "Heat and tiredness often go together.",
+          "zh": "炎熱和疲倦經常同時出現。",
+          "highlight": "go together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 31,
+      "titleZh": "沉到水面以下",
+      "titleEn": "go under",
+      "formula": "go under",
+      "highlight": "go under",
+      "descriptionZh": "沉到水面以下",
+      "descriptionEn": "The boat went under quickly.",
+      "examples": [
+        {
+          "en": "The boat went under quickly.",
+          "zh": "小艇很快便沉沒。",
+          "highlight": "went under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 32,
+      "titleZh": "以某個名稱或稱號為人所知",
+      "titleEn": "go under something",
+      "formula": "go under something",
+      "highlight": "go under something",
+      "descriptionZh": "以某個名稱或稱號為人所知",
+      "descriptionEn": "He goes under the name Green Fox.",
+      "examples": [
+        {
+          "en": "He goes under the name Green Fox.",
+          "zh": "他以 Green Fox 這個名字示人。",
+          "highlight": "goes under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 33,
+      "titleZh": "價格、水平或數量上升",
+      "titleEn": "go up",
+      "formula": "go up",
+      "highlight": "go up",
+      "descriptionZh": "價格、水平或數量上升",
+      "descriptionEn": "Prices are going up.",
+      "examples": [
+        {
+          "en": "Prices are going up.",
+          "zh": "價格正在上升。",
+          "highlight": "going up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 34,
+      "titleZh": "美式:面對或迎戰強勁對手",
+      "titleEn": "go up against somebody/something",
+      "formula": "go up against somebody/something",
+      "highlight": "go up against somebody/something",
+      "descriptionZh": "美式:面對或迎戰強勁對手",
+      "descriptionEn": "Our team went up against the champions.",
+      "examples": [
+        {
+          "en": "Our team went up against the champions.",
+          "zh": "我們的球隊迎戰冠軍隊伍。",
+          "highlight": "went up against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 35,
+      "titleZh": "延伸或達到某個時間、位置或程度",
+      "titleEn": "go up to something",
+      "formula": "go up to something",
+      "highlight": "go up to something",
+      "descriptionZh": "延伸或達到某個時間、位置或程度",
+      "descriptionEn": "The list only goes up to June.",
+      "examples": [
+        {
+          "en": "The list only goes up to June.",
+          "zh": "清單只列至六月。",
+          "highlight": "goes up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 36,
+      "titleZh": "向上移動;上樓;沿斜坡或樓梯上去",
+      "titleEn": "go up / go up something",
+      "formula": "go up / go up something",
+      "highlight": "go up / go up something",
+      "descriptionZh": "向上移動;上樓;沿斜坡或樓梯上去",
+      "descriptionEn": "She went up the stairs.",
+      "examples": [
+        {
+          "en": "She went up the stairs.",
+          "zh": "她走上樓梯。",
+          "highlight": "went up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 37,
+      "titleZh": "較舊式:與某人拍拖或交往",
+      "titleEn": "go with somebody",
+      "formula": "go with somebody",
+      "highlight": "go with somebody",
+      "descriptionZh": "較舊式:與某人拍拖或交往",
+      "descriptionEn": "Ella has been going with Sam.",
+      "examples": [
+        {
+          "en": "Ella has been going with Sam.",
+          "zh": "Ella 一直與 Sam 拍拖。",
+          "highlight": "going with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 38,
+      "titleZh": "接受或支持某人的決定、計劃或意見",
+      "titleEn": "go with somebody/something",
+      "formula": "go with somebody/something",
+      "highlight": "go with somebody/something",
+      "descriptionZh": "接受或支持某人的決定、計劃或意見",
+      "descriptionEn": "We decided to go with the blue plan.",
+      "examples": [
+        {
+          "en": "We decided to go with the blue plan.",
+          "zh": "我們決定採用藍色方案。",
+          "highlight": "go with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 39,
+      "titleZh": "與某物相襯、相配或搭配得宜",
+      "titleEn": "go with something",
+      "formula": "go with something",
+      "highlight": "go with something",
+      "descriptionZh": "與某物相襯、相配或搭配得宜",
+      "descriptionEn": "This jacket goes with those shoes.",
+      "examples": [
+        {
+          "en": "This jacket goes with those shoes.",
+          "zh": "這件外套與那雙鞋相配。",
+          "highlight": "goes with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 40,
+      "titleZh": "在沒有某物或沒有做某事的情況下生活或應付",
+      "titleEn": "go without / go without something / go without doing something",
+      "formula": "go without / go without something / go without doing something",
+      "highlight": "go without / go without something / go without doing something",
+      "descriptionZh": "在沒有某物或沒有做某事的情況下生活或應付",
+      "descriptionEn": "They went without electricity for a day.",
+      "examples": [
+        {
+          "en": "They went without electricity for a day.",
+          "zh": "他們有一天沒有電力供應。",
+          "highlight": "went"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 GO 準確描述不同移動方式",
+      "titleEn": "Use GO to describe movement in precise ways",
+      "zh": "GO 片語動詞可以清楚表示某人經過另一人、繞過障礙物、穿過地方、走到某人身邊,或沿樓梯向上走。",
+      "en": "GO expressions can show whether someone moves past a person, round an obstacle, through a place, over to someone or up a staircase."
+    },
+    {
+      "titleZh": "談論持續、轉變和發展",
+      "titleEn": "Talk about continuation, change and development",
+      "zh": "你可以用 GO 片語動詞描述事情持續、價格上升、感覺消失、消息傳開,或局勢發展至戰爭。",
+      "en": "You can use GO expressions to describe something continuing, prices rising, feelings disappearing, news spreading or a situation moving towards war."
+    },
+    {
+      "titleZh": "表達選擇、支持和人際關係",
+      "titleEn": "Explain choices, support and relationships",
+      "zh": "GO 片語動詞可以表示接受決定、支持計劃、與某人來往、與某人拍拖,或選擇彼此相配的事物。",
+      "en": "GO expressions can show that you accept a decision, support a plan, spend time with someone, date someone or choose something that matches well."
+    },
+    {
+      "titleZh": "描述日常需要和實際限制",
+      "titleEn": "Describe everyday needs and practical limits",
+      "zh": "你可以說明有甚麼證據可作依據、金錢花在哪裏、物資是否足夠所有人,以及人們如何在缺少某物的情況下生活。",
+      "en": "You can explain what evidence you have to use, what money is spent on, whether there is enough for everyone and how people manage without something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 GO 準確描述不同移動方式",
+      "談論持續、轉變和發展",
+      "表達選擇、支持和人際關係",
+      "描述日常需要和實際限制"
+    ],
+    "contextsEn": [
+      "Use GO to describe movement in precise ways",
+      "Talk about continuation, change and development",
+      "Explain choices, support and relationships",
+      "Describe everyday needs and practical limits"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 GO 準確描述不同移動方式",
+        "titleEn": "Use GO to describe movement in precise ways",
+        "zh": "GO 片語動詞可以清楚表示某人經過另一人、繞過障礙物、穿過地方、走到某人身邊,或沿樓梯向上走。",
+        "en": "GO expressions can show whether someone moves past a person, round an obstacle, through a place, over to someone or up a staircase.",
+        "examples": [
+          {
+            "en": "The noise went on all night.",
+            "zh": "噪音持續了整晚。",
+            "highlight": "went on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論持續、轉變和發展",
+        "titleEn": "Talk about continuation, change and development",
+        "zh": "你可以用 GO 片語動詞描述事情持續、價格上升、感覺消失、消息傳開,或局勢發展至戰爭。",
+        "en": "You can use GO expressions to describe something continuing, prices rising, feelings disappearing, news spreading or a situation moving towards war.",
+        "examples": [
+          {
+            "en": "We have only her message to go on.",
+            "zh": "我們只有她的訊息可作依據。",
+            "highlight": "go on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達選擇、支持和人際關係",
+        "titleEn": "Explain choices, support and relationships",
+        "zh": "GO 片語動詞可以表示接受決定、支持計劃、與某人來往、與某人拍拖,或選擇彼此相配的事物。",
+        "en": "GO expressions can show that you accept a decision, support a plan, spend time with someone, date someone or choose something that matches well.",
+        "examples": [
+          {
+            "en": "Most of the budget goes on food.",
+            "zh": "大部分預算都花在食物上。",
+            "highlight": "goes on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述日常需要和實際限制",
+        "titleEn": "Describe everyday needs and practical limits",
+        "zh": "你可以說明有甚麼證據可作依據、金錢花在哪裏、物資是否足夠所有人,以及人們如何在缺少某物的情況下生活。",
+        "en": "You can explain what evidence you have to use, what money is spent on, whether there is enough for everyone and how people manage without something.",
+        "examples": [
+          {
+            "en": "This lid will not go on.",
+            "zh": "這個蓋子裝不上。",
+            "highlight": "go on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GO 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GO expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GO 片語動詞。",
+      "en": "Read the whole sentence and choose the GO expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "先掌握核心表達。在 We went round the building to reach the side entrance 中,核心表達是 goround the building。to reach the side entrance 只說明目的,並非核心表達的一部分。",
+      "titleEn": "Learn the core expression first.",
+      "zh": "先掌握核心表達。在 We went round the building to reach the side entrance 中,核心表達是 goround the building。to reach the side entrance 只說明目的,並非核心表達的一部分。",
+      "en": "Learn the core expression first. In “We went round the building to reach the side entrance”, the core expression is go round the building. The words to reach the side entrance only explain why."
+    },
+    {
+      "titleZh": "外形相近的 GO 片語動詞可以有完全不同的意思。例如,go on 可表示「繼續」;go on evidence 表示「根據證據判斷」;money goes on rent 則表示「金錢花在租金上」。",
+      "titleEn": "Similar-looking GO expressions can have very different meanings.",
+      "zh": "外形相近的 GO 片語動詞可以有完全不同的意思。例如,go on 可表示「繼續」;go on evidence 表示「根據證據判斷」;money goes on rent 則表示「金錢花在租金上」。",
+      "en": "Similar-looking GO expressions can have very different meanings. For example, go on can mean “continue”; go on evidence means “use evidence as a basis”; and money goes on rent means “money is spent on rent”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GO 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GO. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GO 動詞片語句子改寫練習",
+    "titleEn": "GO Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GO 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GO. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          40
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          41,
+          80
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          81,
+          120
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          121,
+          160
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          161,
+          200
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-223-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 43,
+      "prompt": "We walked around the fallen tree.",
+      "promptZh": "我們繞過倒下的樹木。",
+      "starter": "We",
+      "answer": "We went round the fallen tree.",
+      "answerZh": "我們繞過倒下的樹木。",
+      "highlight": "went round",
+      "targetForm": "go round something",
+      "targetMeaningZh": "繞過角落、障礙物或地方"
+    },
+    {
+      "id": "phrasal-verb-223-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 43,
+      "prompt": "We visited every shop in the street.",
+      "promptZh": "我們逐一逛遍街上所有店舖。",
+      "starter": "We",
+      "answer": "We went round all the shops in the street.",
+      "answerZh": "我們逐一逛遍街上所有店舖。",
+      "highlight": "went round all the shops",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "逐一探訪多個人、地方或某處各部分"
+    },
+    {
+      "id": "phrasal-verb-223-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 44,
+      "prompt": "I stepped aside to let the cyclist pass me.",
+      "promptZh": "我退到一旁,讓單車手經過。",
+      "starter": "I",
+      "answer": "I stepped aside to let the cyclist go past.",
+      "answerZh": "我退到一旁,讓單車手經過。",
+      "highlight": "go past",
+      "targetForm": "go past / go past somebody/something",
+      "targetMeaningZh": "經過;從某人或某物面前走過"
+    },
+    {
+      "id": "phrasal-verb-223-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 44,
+      "prompt": "Money and happiness are not always connected.",
+      "promptZh": "金錢和快樂並非總是互相連繫。",
+      "starter": "Money",
+      "answer": "Money and happiness do not always go together.",
+      "answerZh": "金錢和快樂並非總是互相連繫。",
+      "highlight": "do",
+      "targetForm": "go together",
+      "targetMeaningZh": "經常同時存在;彼此有關聯"
+    },
+    {
+      "id": "phrasal-verb-223-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 44,
+      "prompt": "His arm surrounded my shoulders.",
+      "promptZh": "他的手臂環抱着我的肩膀。",
+      "starter": "His",
+      "answer": "His arm went round my shoulders.",
+      "answerZh": "他的手臂環抱着我的肩膀。",
+      "highlight": "went round",
+      "targetForm": "go round somebody/something",
+      "targetMeaningZh": "圍着某人或某物;環繞"
+    },
+    {
+      "id": "phrasal-verb-223-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 44,
+      "prompt": "We ate at a restaurant last night.",
+      "promptZh": "我們昨晚外出到餐廳用膳。",
+      "starter": "We",
+      "answer": "We went out for a meal last night.",
+      "answerZh": "我們昨晚外出到餐廳用膳。",
+      "highlight": "went out for",
+      "targetForm": "go out (for something)",
+      "targetMeaningZh": "外出用膳、娛樂或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-223-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 44,
+      "prompt": "Ben tried to join the school football team.",
+      "promptZh": "Ben 參加了校隊足球隊的選拔。",
+      "starter": "Ben",
+      "answer": "Ben went out for the school football team.",
+      "answerZh": "Ben 參加了校隊足球隊的選拔。",
+      "highlight": "went out for",
+      "targetForm": "go out for something",
+      "targetMeaningZh": "美式:參加選拔,爭取加入球隊、樂隊或小組"
+    },
+    {
+      "id": "phrasal-verb-223-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 44,
+      "prompt": "Theo moved towards the window.",
+      "promptZh": "Theo 走到窗邊。",
+      "starter": "Theo",
+      "answer": "Theo went over to the window.",
+      "answerZh": "Theo 走到窗邊。",
+      "highlight": "went over to",
+      "targetForm": "go over (to somebody/something)",
+      "targetMeaningZh": "走到某人或某物那邊"
+    },
+    {
+      "id": "phrasal-verb-223-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 45,
+      "prompt": "I am prepared to accept her decision.",
+      "promptZh": "我準備接受她的決定。",
+      "starter": "I",
+      "answer": "I am prepared to go with her decision.",
+      "answerZh": "我準備接受她的決定。",
+      "highlight": "go with",
+      "targetForm": "go with somebody/something",
+      "targetMeaningZh": "接受或支持某人的決定、計劃或意見"
+    },
+    {
+      "id": "phrasal-verb-223-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 45,
+      "prompt": "Two members left our group and joined the other side.",
+      "promptZh": "兩名成員離開我們的團體,轉投另一方。",
+      "starter": "Two",
+      "answer": "Two members went over to the other side.",
+      "answerZh": "兩名成員離開我們的團體,轉投另一方。",
+      "highlight": "went over to",
+      "targetForm": "go over to somebody/something",
+      "targetMeaningZh": "改投另一方;轉用另一種制度或方法"
+    },
+    {
+      "id": "phrasal-verb-223-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 45,
+      "prompt": "The two countries may begin a war over the border.",
+      "promptZh": "兩國可能因邊界問題開戰。",
+      "starter": "The",
+      "answer": "The two countries may go to war over the border.",
+      "answerZh": "兩國可能因邊界問題開戰。",
+      "highlight": "go to",
+      "targetForm": "go to something",
+      "targetMeaningZh": "進入或開始某種狀態或活動"
+    },
+    {
+      "id": "phrasal-verb-223-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 45,
+      "prompt": "There is not enough cake for everyone.",
+      "promptZh": "蛋糕不足以分給所有人。",
+      "starter": "There",
+      "answer": "There is not enough cake to go round.",
+      "answerZh": "蛋糕不足以分給所有人。",
+      "highlight": "to go round",
+      "targetForm": "go round",
+      "targetMeaningZh": "數量足夠分給每個人"
+    },
+    {
+      "id": "phrasal-verb-223-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 45,
+      "prompt": "Does the writer use another name?",
+      "promptZh": "這名作家是否使用另一個名字?",
+      "starter": "Does",
+      "answer": "Does the writer go under another name?",
+      "answerZh": "這名作家是否使用另一個名字?",
+      "highlight": "go under",
+      "targetForm": "go under something",
+      "targetMeaningZh": "以某個名稱或稱號為人所知"
+    },
+    {
+      "id": "phrasal-verb-223-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 45,
+      "prompt": "A rumour spread through the school.",
+      "promptZh": "一則傳聞在學校內傳開。",
+      "starter": "A",
+      "answer": "A rumour went round the school.",
+      "answerZh": "一則傳聞在學校內傳開。",
+      "highlight": "went round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "消息、文件或疾病在人群中傳開或流傳"
+    },
+    {
+      "id": "phrasal-verb-223-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 46,
+      "prompt": "He faced the champion in the second round.",
+      "promptZh": "他在第二回合迎戰冠軍。",
+      "starter": "He",
+      "answer": "He went up against the champion in the second round.",
+      "answerZh": "他在第二回合迎戰冠軍。",
+      "highlight": "went up against",
+      "targetForm": "go up against somebody/something",
+      "targetMeaningZh": "美式:面對或迎戰強勁對手"
+    },
+    {
+      "id": "phrasal-verb-223-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 46,
+      "prompt": "The argument continued after lunch.",
+      "promptZh": "爭論在午膳後仍然繼續。",
+      "starter": "The",
+      "answer": "The argument went on after lunch.",
+      "answerZh": "爭論在午膳後仍然繼續。",
+      "highlight": "went on",
+      "targetForm": "go on",
+      "targetMeaningZh": "繼續發生或存在"
+    },
+    {
+      "id": "phrasal-verb-223-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 46,
+      "prompt": "The family had to manage without a car.",
+      "promptZh": "這個家庭只好在沒有汽車的情況下生活。",
+      "starter": "The",
+      "answer": "The family had to go without a car.",
+      "answerZh": "這個家庭只好在沒有汽車的情況下生活。",
+      "highlight": "go",
+      "targetForm": "go without / go without something / go without doing something",
+      "targetMeaningZh": "在沒有某物或沒有做某事的情況下生活或應付"
+    },
+    {
+      "id": "phrasal-verb-223-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 46,
+      "prompt": "We walked through the woods to reach the lake.",
+      "promptZh": "我們穿過樹林到達湖邊。",
+      "starter": "We",
+      "answer": "We went through the woods to reach the lake.",
+      "answerZh": "我們穿過樹林到達湖邊。",
+      "highlight": "went",
+      "targetForm": "go through / go through something",
+      "targetMeaningZh": "穿過地方、房間、入口或開口"
+    },
+    {
+      "id": "phrasal-verb-223-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 46,
+      "prompt": "Start working now—we need this finished by six.",
+      "promptZh": "立即開始工作吧;我們要在六時前完成。",
+      "starter": "Go",
+      "answer": "Go to it—we need this finished by six.",
+      "answerZh": "立即開始工作吧;我們要在六時前完成。",
+      "highlight": "Go to it",
+      "targetForm": "go to it",
+      "targetMeaningZh": "美式口語:立即動手;努力開始做"
+    },
+    {
+      "id": "phrasal-verb-223-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 46,
+      "prompt": "The concert money will be given to charity.",
+      "promptZh": "音樂會的收益將撥捐慈善機構。",
+      "starter": "The",
+      "answer": "The concert money will go to charity.",
+      "answerZh": "音樂會的收益將撥捐慈善機構。",
+      "highlight": "go",
+      "targetForm": "go to somebody/something",
+      "targetMeaningZh": "歸予、給予或頒給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-223-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 47,
+      "prompt": "The lift moves up and down all day.",
+      "promptZh": "升降機整天上下運行。",
+      "starter": "The",
+      "answer": "The lift goes up and down all day.",
+      "answerZh": "升降機整天上下運行。",
+      "highlight": "goes",
+      "targetForm": "go up / go up something",
+      "targetMeaningZh": "向上移動;上樓;沿斜坡或樓梯上去"
+    },
+    {
+      "id": "phrasal-verb-223-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 47,
+      "prompt": "It is too cold to leave the house.",
+      "promptZh": "天氣太冷,不宜外出。",
+      "starter": "It",
+      "answer": "It is too cold to go out.",
+      "answerZh": "天氣太冷,不宜外出。",
+      "highlight": "go out",
+      "targetForm": "go out / go out of something",
+      "targetMeaningZh": "離開房間、建築物或住所"
+    },
+    {
+      "id": "phrasal-verb-223-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 47,
+      "prompt": "I will visit my sister at her home after work.",
+      "promptZh": "我下班後會到姐姐家探望她。",
+      "starter": "I",
+      "answer": "I will go round to my sister’s after work.",
+      "answerZh": "我下班後會到姐姐家探望她。",
+      "highlight": "go round to",
+      "targetForm": "go round (to somebody/somewhere)",
+      "targetMeaningZh": "到附近的人家或地方短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-223-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 47,
+      "prompt": "She decided not to have the operation.",
+      "promptZh": "她決定不接受這項手術。",
+      "starter": "She",
+      "answer": "She decided not to go through with the operation.",
+      "answerZh": "她決定不接受這項手術。",
+      "highlight": "go through with",
+      "targetForm": "go through with something",
+      "targetMeaningZh": "即使困難或不愉快,仍把事情完成"
+    },
+    {
+      "id": "phrasal-verb-223-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 47,
+      "prompt": "A shiver passed through her body.",
+      "promptZh": "她全身打了一個冷顫。",
+      "starter": "A",
+      "answer": "A shiver went through her.",
+      "answerZh": "她全身打了一個冷顫。",
+      "highlight": "went",
+      "targetForm": "go through somebody",
+      "targetMeaningZh": "某種感覺突然傳遍某人的身體"
+    },
+    {
+      "id": "phrasal-verb-223-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 47,
+      "prompt": "The wheel was still turning.",
+      "promptZh": "車輪仍在轉動。",
+      "starter": "The",
+      "answer": "The wheel was still going round.",
+      "answerZh": "車輪仍在轉動。",
+      "highlight": "going round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "旋轉;沿圓形路線移動"
+    },
+    {
+      "id": "phrasal-verb-223-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 48,
+      "prompt": "Most of her money is spent on rent.",
+      "promptZh": "她大部分金錢都花在租金上。",
+      "starter": "Most",
+      "answer": "Most of her money goes on rent.",
+      "answerZh": "她大部分金錢都花在租金上。",
+      "highlight": "goes",
+      "targetForm": "go on something / go on doing something",
+      "targetMeaningZh": "金錢、時間或精力花在某事上"
+    },
+    {
+      "id": "phrasal-verb-223-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 48,
+      "prompt": "He regularly walks around without shoes.",
+      "promptZh": "他經常赤腳四處走。",
+      "starter": "He",
+      "answer": "He goes round barefoot.",
+      "answerZh": "他經常赤腳四處走。",
+      "highlight": "goes round barefoot",
+      "targetForm": "go round / go round something / go round doing something",
+      "targetMeaningZh": "經常以某種方式打扮、行事或四處做某事"
+    },
+    {
+      "id": "phrasal-verb-223-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 48,
+      "prompt": "The price of rice is increasing.",
+      "promptZh": "米價正在上升。",
+      "starter": "The",
+      "answer": "The price of rice is going up.",
+      "answerZh": "米價正在上升。",
+      "highlight": "going up",
+      "targetForm": "go up",
+      "targetMeaningZh": "價格、水平或數量上升"
+    },
+    {
+      "id": "phrasal-verb-223-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 48,
+      "prompt": "The small boat sank near the island.",
+      "promptZh": "小艇在島附近沉沒。",
+      "starter": "The",
+      "answer": "The small boat went under near the island.",
+      "answerZh": "小艇在島附近沉沒。",
+      "highlight": "went under",
+      "targetForm": "go under",
+      "targetMeaningZh": "沉到水面以下"
+    },
+    {
+      "id": "phrasal-verb-223-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 48,
+      "prompt": "The lid will not fit.",
+      "promptZh": "這個蓋子裝不上。",
+      "starter": "The",
+      "answer": "The lid will not go on.",
+      "answerZh": "這個蓋子裝不上。",
+      "highlight": "go on",
+      "targetForm": "go on / go on something",
+      "targetMeaningZh": "裝得上;套得上;放得上"
+    },
+    {
+      "id": "phrasal-verb-223-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 48,
+      "prompt": "This sauce tastes good with lamb.",
+      "promptZh": "這款醬汁與羊肉很配。",
+      "starter": "This",
+      "answer": "This sauce goes well with lamb.",
+      "answerZh": "這款醬汁與羊肉很配。",
+      "highlight": "goes well",
+      "targetForm": "go with something",
+      "targetMeaningZh": "與某物相襯、相配或搭配得宜"
+    },
+    {
+      "id": "phrasal-verb-223-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 49,
+      "prompt": "Shall we move into my office?",
+      "promptZh": "我們到我的辦公室去好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we go through to my office?",
+      "answerZh": "我們到我的辦公室去好嗎?",
+      "highlight": "go through to",
+      "targetForm": "go through (to something)",
+      "targetMeaningZh": "進入相連的房間或下一個地方"
+    },
+    {
+      "id": "phrasal-verb-223-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 49,
+      "prompt": "This diary ends in November.",
+      "promptZh": "這本日記只記錄至十一月。",
+      "starter": "This",
+      "answer": "This diary only goes up to November.",
+      "answerZh": "這本日記只記錄至十一月。",
+      "highlight": "only goes up to",
+      "targetForm": "go up to something",
+      "targetMeaningZh": "延伸或達到某個時間、位置或程度"
+    },
+    {
+      "id": "phrasal-verb-223-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 49,
+      "prompt": "She relaxed, and the tension disappeared from her.",
+      "promptZh": "她放鬆下來,身上的緊張感亦消失了。",
+      "starter": "She",
+      "answer": "She relaxed, and the tension went out of her.",
+      "answerZh": "她放鬆下來,身上的緊張感亦消失了。",
+      "highlight": "went out of",
+      "targetForm": "go out of somebody/something",
+      "targetMeaningZh": "感覺、情緒或特質從某人或某物消失"
+    },
+    {
+      "id": "phrasal-verb-223-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 49,
+      "prompt": "The police have little evidence on which to base their decision.",
+      "promptZh": "警方沒有太多證據可供作出判斷。",
+      "starter": "The",
+      "answer": "The police have little evidence to go on.",
+      "answerZh": "警方沒有太多證據可供作出判斷。",
+      "highlight": "to go",
+      "targetForm": "go on something",
+      "targetMeaningZh": "根據資料、證據或說法作判斷"
+    },
+    {
+      "id": "phrasal-verb-223-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 15,
+      "answerSourcePage": 49,
+      "prompt": "You must use a travel agent to book this trip.",
+      "promptZh": "你必須透過旅行社預訂這次旅程。",
+      "starter": "You",
+      "answer": "You must go through a travel agent to book this trip.",
+      "answerZh": "你必須透過旅行社預訂這次旅程。",
+      "highlight": "go through",
+      "targetForm": "go through somebody/something",
+      "targetMeaningZh": "透過某人或機構辦理事情"
+    },
+    {
+      "id": "phrasal-verb-223-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 16,
+      "answerSourcePage": 49,
+      "prompt": "She has dated him for several months.",
+      "promptZh": "她已與他拍拖數月。",
+      "starter": "She",
+      "answer": "She has been going with him for several months.",
+      "answerZh": "她已與他拍拖數月。",
+      "highlight": "been going with",
+      "targetForm": "go with somebody",
+      "targetMeaningZh": "較舊式:與某人拍拖或交往"
+    },
+    {
+      "id": "phrasal-verb-223-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 16,
+      "answerSourcePage": 50,
+      "prompt": "Do not exceed the speed limit.",
+      "promptZh": "不要超過速度限制。",
+      "starter": "Do",
+      "answer": "Do not go over the speed limit.",
+      "answerZh": "不要超過速度限制。",
+      "highlight": "go over",
+      "targetForm": "go over something",
+      "targetMeaningZh": "超過限額、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-223-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 16,
+      "answerSourcePage": 50,
+      "prompt": "Sam spends a lot of time with the local football players.",
+      "promptZh": "Sam 經常與本地足球員來往。",
+      "starter": "Sam",
+      "answer": "Sam goes round with the local football players.",
+      "answerZh": "Sam 經常與本地足球員來往。",
+      "highlight": "goes round",
+      "targetForm": "go round with somebody / go round together",
+      "targetMeaningZh": "較舊式英式:與某人經常來往或一起活動"
+    },
+    {
+      "id": "phrasal-verb-223-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 50,
+      "prompt": "Why is the toy spinning so slowly?",
+      "promptZh": "這件玩具為甚麼轉得這麼慢?",
+      "starter": "Why",
+      "answer": "Why is the toy going round so slowly?",
+      "answerZh": "這件玩具為甚麼轉得這麼慢?",
+      "highlight": "going round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "旋轉;沿圓形路線移動"
+    },
+    {
+      "id": "phrasal-verb-223-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 50,
+      "prompt": "Who will our team compete against next?",
+      "promptZh": "我們的球隊下一場會迎戰誰?",
+      "starter": "Who",
+      "answer": "Who will our team go up against next?",
+      "answerZh": "我們的球隊下一場會迎戰誰?",
+      "highlight": "go up",
+      "targetForm": "go up against somebody/something",
+      "targetMeaningZh": "美式:面對或迎戰強勁對手"
+    },
+    {
+      "id": "phrasal-verb-223-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 50,
+      "prompt": "Please enter the kitchen and wait there.",
+      "promptZh": "請進入廚房並在那裏等候。",
+      "starter": "Please",
+      "answer": "Please go through to the kitchen and wait there.",
+      "answerZh": "請進入廚房並在那裏等候。",
+      "highlight": "go through to",
+      "targetForm": "go through (to something)",
+      "targetMeaningZh": "進入相連的房間或下一個地方"
+    },
+    {
+      "id": "phrasal-verb-223-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 50,
+      "prompt": "Could you move towards the desk and sign this form?",
+      "promptZh": "你可以走到書桌那邊簽署這份表格嗎?",
+      "starter": "Could",
+      "answer": "Could you go over to the desk and sign this form?",
+      "answerZh": "你可以走到書桌那邊簽署這份表格嗎?",
+      "highlight": "go over to",
+      "targetForm": "go over (to somebody/something)",
+      "targetMeaningZh": "走到某人或某物那邊"
+    },
+    {
+      "id": "phrasal-verb-223-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 51,
+      "prompt": "Please close the door when you leave the room.",
+      "promptZh": "你離開房間時,請關上門。",
+      "starter": "Please",
+      "answer": "Please close the door when you go out of the room.",
+      "answerZh": "你離開房間時,請關上門。",
+      "highlight": "go out of",
+      "targetForm": "go out / go out of something",
+      "targetMeaningZh": "離開房間、建築物或住所"
+    },
+    {
+      "id": "phrasal-verb-223-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 51,
+      "prompt": "Who received the first prize?",
+      "promptZh": "頭獎由誰獲得?",
+      "starter": "Who",
+      "answer": "Who did the first prize go to?",
+      "answerZh": "頭獎由誰獲得?",
+      "highlight": "did",
+      "targetForm": "go to somebody/something",
+      "targetMeaningZh": "歸予、給予或頒給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-223-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 51,
+      "prompt": "A lot of our time is spent answering simple questions.",
+      "promptZh": "我們很多時間都花在回答簡單問題上。",
+      "starter": "A",
+      "answer": "A lot of our time goes on answering simple questions.",
+      "answerZh": "我們很多時間都花在回答簡單問題上。",
+      "highlight": "goes on",
+      "targetForm": "go on something / go on doing something",
+      "targetMeaningZh": "金錢、時間或精力花在某事上"
+    },
+    {
+      "id": "phrasal-verb-223-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 51,
+      "prompt": "The bill exceeded our budget by twenty pounds.",
+      "promptZh": "帳單超出預算二十英鎊。",
+      "starter": "The",
+      "answer": "The bill went over our budget by twenty pounds.",
+      "answerZh": "帳單超出預算二十英鎊。",
+      "highlight": "went over",
+      "targetForm": "go over something",
+      "targetMeaningZh": "超過限額、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-223-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 51,
+      "prompt": "You cannot keep telling everyone that story.",
+      "promptZh": "你不能到處向所有人說那個故事。",
+      "starter": "You",
+      "answer": "You cannot go round telling everyone that story.",
+      "answerZh": "你不能到處向所有人說那個故事。",
+      "highlight": "go round",
+      "targetForm": "go round / go round something / go round doing something",
+      "targetMeaningZh": "經常以某種方式打扮、行事或四處做某事"
+    },
+    {
+      "id": "phrasal-verb-223-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 51,
+      "prompt": "How long will the rain continue?",
+      "promptZh": "這場雨還會持續多久?",
+      "starter": "How",
+      "answer": "How long will the rain go on?",
+      "answerZh": "這場雨還會持續多久?",
+      "highlight": "go on",
+      "targetForm": "go on",
+      "targetMeaningZh": "繼續發生或存在"
+    },
+    {
+      "id": "phrasal-verb-223-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 52,
+      "prompt": "A sudden wave of fear passed through me.",
+      "promptZh": "一陣突如其來的恐懼傳遍我全身。",
+      "starter": "A",
+      "answer": "A sudden wave of fear went through me.",
+      "answerZh": "一陣突如其來的恐懼傳遍我全身。",
+      "highlight": "went",
+      "targetForm": "go through somebody",
+      "targetMeaningZh": "某種感覺突然傳遍某人的身體"
+    },
+    {
+      "id": "phrasal-verb-223-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 52,
+      "prompt": "Why don’t you visit Leo this evening?",
+      "promptZh": "你今晚何不到 Leo 家探望他?",
+      "starter": "Why",
+      "answer": "Why don’t you go round and see Leo this evening?",
+      "answerZh": "你今晚何不到 Leo 家探望他?",
+      "highlight": "go round and see",
+      "targetForm": "go round (to somebody/somewhere)",
+      "targetMeaningZh": "到附近的人家或地方短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-223-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 52,
+      "prompt": "Do high prices and good quality always occur together?",
+      "promptZh": "高價格和高質素總是同時出現嗎?",
+      "starter": "Do",
+      "answer": "Do high prices and good quality always go together?",
+      "answerZh": "高價格和高質素總是同時出現嗎?",
+      "highlight": "go",
+      "targetForm": "go together",
+      "targetMeaningZh": "經常同時存在;彼此有關聯"
+    },
+    {
+      "id": "phrasal-verb-223-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 52,
+      "prompt": "I can only judge the plan from the figures you gave me.",
+      "promptZh": "我只能根據你提供的數字判斷這項計劃。",
+      "starter": "I",
+      "answer": "I can only go on the figures you gave me.",
+      "answerZh": "我只能根據你提供的數字判斷這項計劃。",
+      "highlight": "go on",
+      "targetForm": "go on something",
+      "targetMeaningZh": "根據資料、證據或說法作判斷"
+    },
+    {
+      "id": "phrasal-verb-223-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 52,
+      "prompt": "The tension disappeared from the room when everyone laughed.",
+      "promptZh": "大家笑起來時,房間內的緊張氣氛消失了。",
+      "starter": "The",
+      "answer": "The tension went out of the room when everyone laughed.",
+      "answerZh": "大家笑起來時,房間內的緊張氣氛消失了。",
+      "highlight": "went out of",
+      "targetForm": "go out of somebody/something",
+      "targetMeaningZh": "感覺、情緒或特質從某人或某物消失"
+    },
+    {
+      "id": "phrasal-verb-223-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 52,
+      "prompt": "The singer was known professionally as Silver Fox.",
+      "promptZh": "這名歌手以 Silver Fox 作為藝名。",
+      "starter": "The",
+      "answer": "The singer went under the name Silver Fox.",
+      "answerZh": "這名歌手以 Silver Fox 作為藝名。",
+      "highlight": "went under the name",
+      "targetForm": "go under something",
+      "targetMeaningZh": "以某個名稱或稱號為人所知"
+    },
+    {
+      "id": "phrasal-verb-223-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 53,
+      "prompt": "Turn around the corner and you will see the café.",
+      "promptZh": "繞過街角,你便會看見咖啡店。",
+      "starter": "Go",
+      "answer": "Go round the corner and you will see the café.",
+      "answerZh": "繞過街角,你便會看見咖啡店。",
+      "highlight": "Go round",
+      "targetForm": "go round something",
+      "targetMeaningZh": "繞過角落、障礙物或地方"
+    },
+    {
+      "id": "phrasal-verb-223-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 53,
+      "prompt": "I never want the children to lack food.",
+      "promptZh": "我永遠不希望孩子們捱餓。",
+      "starter": "I",
+      "answer": "I never want the children to go without food.",
+      "answerZh": "我永遠不希望孩子們捱餓。",
+      "highlight": "go without",
+      "targetForm": "go without / go without something / go without doing something",
+      "targetMeaningZh": "在沒有某物或沒有做某事的情況下生活或應付"
+    },
+    {
+      "id": "phrasal-verb-223-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 53,
+      "prompt": "Is Eva dating Leo?",
+      "promptZh": "Eva 正與 Leo 拍拖嗎?",
+      "starter": "Is",
+      "answer": "Is Eva going with Leo?",
+      "answerZh": "Eva 正與 Leo 拍拖嗎?",
+      "highlight": "going with",
+      "targetForm": "go with somebody",
+      "targetMeaningZh": "較舊式:與某人拍拖或交往"
+    },
+    {
+      "id": "phrasal-verb-223-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 53,
+      "prompt": "The path reaches the top of the hill.",
+      "promptZh": "這條小路一直延伸至山頂。",
+      "starter": "The",
+      "answer": "The path goes up to the top of the hill.",
+      "answerZh": "這條小路一直延伸至山頂。",
+      "highlight": "goes up to",
+      "targetForm": "go up to something",
+      "targetMeaningZh": "延伸或達到某個時間、位置或程度"
+    },
+    {
+      "id": "phrasal-verb-223-q61",
+      "number": 61,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 53,
+      "prompt": "Will you really carry out your plan to leave the team?",
+      "promptZh": "你真的會實行離隊的計劃嗎?",
+      "starter": "Will",
+      "answer": "Will you really go through with your plan to leave the team?",
+      "answerZh": "你真的會實行離隊的計劃嗎?",
+      "highlight": "go through with",
+      "targetForm": "go through with something",
+      "targetMeaningZh": "即使困難或不愉快,仍把事情完成"
+    },
+    {
+      "id": "phrasal-verb-223-q62",
+      "number": 62,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 53,
+      "prompt": "You know what to do, so begin now.",
+      "promptZh": "你知道該做甚麼,所以立即動手吧。",
+      "starter": "You",
+      "answer": "You know what to do, so go to it.",
+      "answerZh": "你知道該做甚麼,所以立即動手吧。",
+      "highlight": "go to it",
+      "targetForm": "go to it",
+      "targetMeaningZh": "美式口語:立即動手;努力開始做"
+    },
+    {
+      "id": "phrasal-verb-223-q63",
+      "number": 63,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 54,
+      "prompt": "We jumped into the water before the canoe sank.",
+      "promptZh": "獨木舟沉沒前,我們跳進水中。",
+      "starter": "We",
+      "answer": "We jumped into the water before the canoe went under.",
+      "answerZh": "獨木舟沉沒前,我們跳進水中。",
+      "highlight": "went under",
+      "targetForm": "go under",
+      "targetMeaningZh": "沉到水面以下"
+    },
+    {
+      "id": "phrasal-verb-223-q64",
+      "number": 64,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 54,
+      "prompt": "Have bus fares increased again?",
+      "promptZh": "巴士車費又上升了嗎?",
+      "starter": "Have",
+      "answer": "Have bus fares gone up again?",
+      "answerZh": "巴士車費又上升了嗎?",
+      "highlight": "gone up",
+      "targetForm": "go up",
+      "targetMeaningZh": "價格、水平或數量上升"
+    },
+    {
+      "id": "phrasal-verb-223-q65",
+      "number": 65,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 54,
+      "prompt": "Did Anna and Zoe spend time together when they were younger?",
+      "promptZh": "Anna 和 Zoe 年輕時是否經常一起活動?",
+      "starter": "Did",
+      "answer": "Did Anna and Zoe go round together when they were younger?",
+      "answerZh": "Anna 和 Zoe 年輕時是否經常一起活動?",
+      "highlight": "go round",
+      "targetForm": "go round with somebody / go round together",
+      "targetMeaningZh": "較舊式英式:與某人經常來往或一起活動"
+    },
+    {
+      "id": "phrasal-verb-223-q66",
+      "number": 66,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 54,
+      "prompt": "The gates opened, and the crowd passed through.",
+      "promptZh": "閘門打開後,人群穿過閘口。",
+      "starter": "The",
+      "answer": "The gates opened, and the crowd went through.",
+      "answerZh": "閘門打開後,人群穿過閘口。",
+      "highlight": "went",
+      "targetForm": "go through / go through something",
+      "targetMeaningZh": "穿過地方、房間、入口或開口"
+    },
+    {
+      "id": "phrasal-verb-223-q67",
+      "number": 67,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 54,
+      "prompt": "Does this cap fit on the bottle?",
+      "promptZh": "這個瓶蓋裝得上這個瓶子嗎?",
+      "starter": "Does",
+      "answer": "Does this cap go on the bottle?",
+      "answerZh": "這個瓶蓋裝得上這個瓶子嗎?",
+      "highlight": "go",
+      "targetForm": "go on / go on something",
+      "targetMeaningZh": "裝得上;套得上;放得上"
+    },
+    {
+      "id": "phrasal-verb-223-q68",
+      "number": 68,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 54,
+      "prompt": "Are you going to try to join the basketball team this year?",
+      "promptZh": "你今年會參加籃球隊的選拔嗎?",
+      "starter": "Are",
+      "answer": "Are you going to go out for the basketball team this year?",
+      "answerZh": "你今年會參加籃球隊的選拔嗎?",
+      "highlight": "go out for",
+      "targetForm": "go out for something",
+      "targetMeaningZh": "美式:參加選拔,爭取加入球隊、樂隊或小組"
+    },
+    {
+      "id": "phrasal-verb-223-q69",
+      "number": 69,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 55,
+      "prompt": "The shop has changed from paper receipts to digital ones.",
+      "promptZh": "這間店舖已由紙本收據轉用電子收據。",
+      "starter": "The",
+      "answer": "The shop has gone over to digital receipts.",
+      "answerZh": "這間店舖已由紙本收據轉用電子收據。",
+      "highlight": "gone over",
+      "targetForm": "go over to somebody/something",
+      "targetMeaningZh": "改投另一方;轉用另一種制度或方法"
+    },
+    {
+      "id": "phrasal-verb-223-q70",
+      "number": 70,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 55,
+      "prompt": "All complaints have to be handled by the office manager.",
+      "promptZh": "所有投訴都必須經辦公室經理處理。",
+      "starter": "All",
+      "answer": "All complaints have to go through the office manager.",
+      "answerZh": "所有投訴都必須經辦公室經理處理。",
+      "highlight": "go through",
+      "targetForm": "go through somebody/something",
+      "targetMeaningZh": "透過某人或機構辦理事情"
+    },
+    {
+      "id": "phrasal-verb-223-q71",
+      "number": 71,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 55,
+      "prompt": "This belt does not fit around my waist.",
+      "promptZh": "這條皮帶圍不住我的腰。",
+      "starter": "This",
+      "answer": "This belt will not go round my waist.",
+      "answerZh": "這條皮帶圍不住我的腰。",
+      "highlight": "will",
+      "targetForm": "go round somebody/something",
+      "targetMeaningZh": "圍着某人或某物;環繞"
+    },
+    {
+      "id": "phrasal-verb-223-q72",
+      "number": 72,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 55,
+      "prompt": "Which plan should we support?",
+      "promptZh": "我們應該支持哪個計劃?",
+      "starter": "Which",
+      "answer": "Which plan should we go with?",
+      "answerZh": "我們應該支持哪個計劃?",
+      "highlight": "go with",
+      "targetForm": "go with somebody/something",
+      "targetMeaningZh": "接受或支持某人的決定、計劃或意見"
+    },
+    {
+      "id": "phrasal-verb-223-q73",
+      "number": 73,
+      "band": 2,
+      "sourcePage": 21,
+      "answerSourcePage": 55,
+      "prompt": "Did you see the bus pass the school?",
+      "promptZh": "你有看見巴士駛過學校嗎?",
+      "starter": "Did",
+      "answer": "Did you see the bus go past the school?",
+      "answerZh": "你有看見巴士駛過學校嗎?",
+      "highlight": "go past",
+      "targetForm": "go past / go past somebody/something",
+      "targetMeaningZh": "經過;從某人或某物面前走過"
+    },
+    {
+      "id": "phrasal-verb-223-q74",
+      "number": 74,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 55,
+      "prompt": "We will visit every part of the museum with a guide.",
+      "promptZh": "我們會在導賞員帶領下參觀博物館各部分。",
+      "starter": "We",
+      "answer": "We will go round the museum with a guide.",
+      "answerZh": "我們會在導賞員帶領下參觀博物館各部分。",
+      "highlight": "go round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "逐一探訪多個人、地方或某處各部分"
+    },
+    {
+      "id": "phrasal-verb-223-q75",
+      "number": 75,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 56,
+      "prompt": "Will there be enough chairs for all the guests?",
+      "promptZh": "椅子足夠所有賓客使用嗎?",
+      "starter": "Will",
+      "answer": "Will there be enough chairs to go round?",
+      "answerZh": "椅子足夠所有賓客使用嗎?",
+      "highlight": "to go round",
+      "targetForm": "go round",
+      "targetMeaningZh": "數量足夠分給每個人"
+    },
+    {
+      "id": "phrasal-verb-223-q76",
+      "number": 76,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 56,
+      "prompt": "We climbed the stairs slowly.",
+      "promptZh": "我們慢慢走上樓梯。",
+      "starter": "We",
+      "answer": "We went up the stairs slowly.",
+      "answerZh": "我們慢慢走上樓梯。",
+      "highlight": "went up",
+      "targetForm": "go up / go up something",
+      "targetMeaningZh": "向上移動;上樓;沿斜坡或樓梯上去"
+    },
+    {
+      "id": "phrasal-verb-223-q77",
+      "number": 77,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 56,
+      "prompt": "Does this tie match my shirt?",
+      "promptZh": "這條領帶與我的恤衫相配嗎?",
+      "starter": "Does",
+      "answer": "Does this tie go with my shirt?",
+      "answerZh": "這條領帶與我的恤衫相配嗎?",
+      "highlight": "go with",
+      "targetForm": "go with something",
+      "targetMeaningZh": "與某物相襯、相配或搭配得宜"
+    },
+    {
+      "id": "phrasal-verb-223-q78",
+      "number": 78,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 56,
+      "prompt": "A cold is spreading through the office.",
+      "promptZh": "辦公室內正流行感冒。",
+      "starter": "A",
+      "answer": "A cold is going round the office.",
+      "answerZh": "辦公室內正流行感冒。",
+      "highlight": "going round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "消息、文件或疾病在人群中傳開或流傳"
+    },
+    {
+      "id": "phrasal-verb-223-q79",
+      "number": 79,
+      "band": 2,
+      "sourcePage": 22,
+      "answerSourcePage": 56,
+      "prompt": "Do not let the unused food be wasted.",
+      "promptZh": "不要讓未食用的食物白白浪費。",
+      "starter": "Do",
+      "answer": "Do not let the unused food go to waste.",
+      "answerZh": "不要讓未食用的食物白白浪費。",
+      "highlight": "go to waste",
+      "targetForm": "go to something",
+      "targetMeaningZh": "進入或開始某種狀態或活動"
+    },
+    {
+      "id": "phrasal-verb-223-q80",
+      "number": 80,
+      "band": 2,
+      "sourcePage": 23,
+      "answerSourcePage": 56,
+      "prompt": "Shall we have dinner at a restaurant tonight?",
+      "promptZh": "我們今晚外出吃晚餐好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we go out for dinner tonight?",
+      "answerZh": "我們今晚外出吃晚餐好嗎?",
+      "highlight": "go out for",
+      "targetForm": "go out (for something)",
+      "targetMeaningZh": "外出用膳、娛樂或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-223-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 57,
+      "prompt": "We went to our neighbour’s house for a short visit.",
+      "promptZh": "我們到鄰居家短暫探訪。",
+      "starter": "We",
+      "answer": "We went round to our neighbour’s for a short visit.",
+      "answerZh": "我們到鄰居家短暫探訪。",
+      "highlight": "went round",
+      "targetForm": "go round (to somebody/somewhere)",
+      "targetMeaningZh": "到附近的人家或地方短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-223-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 57,
+      "prompt": "The children had already left the building before the alarm stopped.",
+      "promptZh": "警鐘停止前,孩子們已離開大樓。",
+      "starter": "The",
+      "answer": "The children had already gone out of the building before the alarm stopped.",
+      "answerZh": "警鐘停止前,孩子們已離開大樓。",
+      "highlight": "gone out of",
+      "targetForm": "go out / go out of something",
+      "targetMeaningZh": "離開房間、建築物或住所"
+    },
+    {
+      "id": "phrasal-verb-223-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 57,
+      "prompt": "She was nervous about trying for a place on the basketball team.",
+      "promptZh": "她對參加籃球隊選拔感到緊張。",
+      "starter": "She",
+      "answer": "She was nervous about going out for the basketball team.",
+      "answerZh": "她對參加籃球隊選拔感到緊張。",
+      "highlight": "going out",
+      "targetForm": "go out for something",
+      "targetMeaningZh": "美式:參加選拔,爭取加入球隊、樂隊或小組"
+    },
+    {
+      "id": "phrasal-verb-223-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 57,
+      "prompt": "The toy ship slowly disappeared below the surface.",
+      "promptZh": "玩具船慢慢沉到水面以下。",
+      "starter": "The",
+      "answer": "The toy ship slowly went under.",
+      "answerZh": "玩具船慢慢沉到水面以下。",
+      "highlight": "went under",
+      "targetForm": "go under",
+      "targetMeaningZh": "沉到水面以下"
+    },
+    {
+      "id": "phrasal-verb-223-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 57,
+      "prompt": "A narrow path circles the lake.",
+      "promptZh": "一條狹窄小徑環繞着湖泊。",
+      "starter": "A",
+      "answer": "A narrow path goes round the lake.",
+      "answerZh": "一條狹窄小徑環繞着湖泊。",
+      "highlight": "goes round",
+      "targetForm": "go round somebody/something",
+      "targetMeaningZh": "圍着某人或某物;環繞"
+    },
+    {
+      "id": "phrasal-verb-223-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 57,
+      "prompt": "The blue chairs do not suit the orange table.",
+      "promptZh": "藍色椅子與橙色桌子不相襯。",
+      "starter": "The",
+      "answer": "The blue chairs do not go with the orange table.",
+      "answerZh": "藍色椅子與橙色桌子不相襯。",
+      "highlight": "go with",
+      "targetForm": "go with something",
+      "targetMeaningZh": "與某物相襯、相配或搭配得宜"
+    },
+    {
+      "id": "phrasal-verb-223-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 58,
+      "prompt": "The form was passed from person to person for everyone to sign.",
+      "promptZh": "表格逐一傳給各人簽署。",
+      "starter": "The",
+      "answer": "The form went round for everyone to sign.",
+      "answerZh": "表格逐一傳給各人簽署。",
+      "highlight": "went round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "消息、文件或疾病在人群中傳開或流傳"
+    },
+    {
+      "id": "phrasal-verb-223-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 58,
+      "prompt": "The bus travels through three villages before reaching the town.",
+      "promptZh": "巴士到達城鎮前會穿過三條村莊。",
+      "starter": "The",
+      "answer": "The bus goes through three villages before reaching the town.",
+      "answerZh": "巴士到達城鎮前會穿過三條村莊。",
+      "highlight": "goes",
+      "targetForm": "go through / go through something",
+      "targetMeaningZh": "穿過地方、房間、入口或開口"
+    },
+    {
+      "id": "phrasal-verb-223-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 58,
+      "prompt": "We had only one bottle of water, so there was not enough for the whole team.",
+      "promptZh": "我們只有一瓶水,所以不足以分給整隊人。",
+      "starter": "We",
+      "answer": "We had only one bottle of water, so there was not enough to go round.",
+      "answerZh": "我們只有一瓶水,所以不足以分給整隊人。",
+      "highlight": "to go round",
+      "targetForm": "go round",
+      "targetMeaningZh": "數量足夠分給每個人"
+    },
+    {
+      "id": "phrasal-verb-223-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 58,
+      "prompt": "The road was closed, so the bus travelled around the town instead of through it.",
+      "promptZh": "道路封閉,所以巴士繞過城鎮,而沒有駛進去。",
+      "starter": "The",
+      "answer": "The road was closed, so the bus went round the town instead of through it.",
+      "answerZh": "道路封閉,所以巴士繞過城鎮,而沒有駛進去。",
+      "highlight": "went round",
+      "targetForm": "go round something",
+      "targetMeaningZh": "繞過角落、障礙物或地方"
+    },
+    {
+      "id": "phrasal-verb-223-q91",
+      "number": 91,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 58,
+      "prompt": "He said he would make a formal complaint, but in the end he did not do it.",
+      "promptZh": "他說會正式投訴,但最後沒有付諸實行。",
+      "starter": "He",
+      "answer": "He said he would make a formal complaint, but in the end he did not go through with it.",
+      "answerZh": "他說會正式投訴,但最後沒有付諸實行。",
+      "highlight": "go through with",
+      "targetForm": "go through with something",
+      "targetMeaningZh": "即使困難或不愉快,仍把事情完成"
+    },
+    {
+      "id": "phrasal-verb-223-q92",
+      "number": 92,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 58,
+      "prompt": "We asked the school to apply for the tickets for us.",
+      "promptZh": "我們透過學校申請門票。",
+      "starter": "We",
+      "answer": "We went through the school to apply for the tickets.",
+      "answerZh": "我們透過學校申請門票。",
+      "highlight": "went through",
+      "targetForm": "go through somebody/something",
+      "targetMeaningZh": "透過某人或機構辦理事情"
+    },
+    {
+      "id": "phrasal-verb-223-q93",
+      "number": 93,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 59,
+      "prompt": "Why did the player leave his old club and join its main rival?",
+      "promptZh": "那名球員為甚麼離開舊球會,轉投其主要對手?",
+      "starter": "Why",
+      "answer": "Why did the player go over to his old club’s main rival?",
+      "answerZh": "那名球員為甚麼離開舊球會,轉投其主要對手?",
+      "highlight": "go over to",
+      "targetForm": "go over to somebody/something",
+      "targetMeaningZh": "改投另一方;轉用另一種制度或方法"
+    },
+    {
+      "id": "phrasal-verb-223-q94",
+      "number": 94,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 59,
+      "prompt": "He did not eat until evening.",
+      "promptZh": "他一直沒有進食,直至晚上。",
+      "starter": "He",
+      "answer": "He went without eating until evening.",
+      "answerZh": "他一直沒有進食,直至晚上。",
+      "highlight": "went without eating",
+      "targetForm": "go without / go without something / go without doing something",
+      "targetMeaningZh": "在沒有某物或沒有做某事的情況下生活或應付"
+    },
+    {
+      "id": "phrasal-verb-223-q95",
+      "number": 95,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 59,
+      "prompt": "As soon as the alarm sounded, the rescue team began working.",
+      "promptZh": "警鐘一響,救援隊便開始工作。",
+      "starter": "As",
+      "answer": "As soon as the alarm sounded, the rescue team went to work.",
+      "answerZh": "警鐘一響,救援隊便開始工作。",
+      "highlight": "went to work",
+      "targetForm": "go to something",
+      "targetMeaningZh": "進入或開始某種狀態或活動"
+    },
+    {
+      "id": "phrasal-verb-223-q96",
+      "number": 96,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 59,
+      "prompt": "We cannot allow this noise to continue all night.",
+      "promptZh": "我們不能容許這些噪音持續整晚。",
+      "starter": "We",
+      "answer": "We cannot allow this noise to go on all night.",
+      "answerZh": "我們不能容許這些噪音持續整晚。",
+      "highlight": "go on",
+      "targetForm": "go on",
+      "targetMeaningZh": "繼續發生或存在"
+    },
+    {
+      "id": "phrasal-verb-223-q97",
+      "number": 97,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 59,
+      "prompt": "She crossed the room to speak to the new student.",
+      "promptZh": "她走過房間,去跟新同學說話。",
+      "starter": "She",
+      "answer": "She went over to the new student to speak to them.",
+      "answerZh": "她走過房間,去跟新同學說話。",
+      "highlight": "went over",
+      "targetForm": "go over (to somebody/something)",
+      "targetMeaningZh": "走到某人或某物那邊"
+    },
+    {
+      "id": "phrasal-verb-223-q98",
+      "number": 98,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 59,
+      "prompt": "As the parade passed us, the children waved.",
+      "promptZh": "巡遊隊伍經過我們身旁時,孩子們揮手。",
+      "starter": "As",
+      "answer": "As the parade went past us, the children waved.",
+      "answerZh": "巡遊隊伍經過我們身旁時,孩子們揮手。",
+      "highlight": "went past",
+      "targetForm": "go past / go past somebody/something",
+      "targetMeaningZh": "經過;從某人或某物面前走過"
+    },
+    {
+      "id": "phrasal-verb-223-q99",
+      "number": 99,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 60,
+      "prompt": "The coach told the team to begin working with full effort.",
+      "promptZh": "教練叫球隊立即全力開始練習。",
+      "starter": "The",
+      "answer": "The coach told the team to go to it.",
+      "answerZh": "教練叫球隊立即全力開始練習。",
+      "highlight": "go to it",
+      "targetForm": "go to it",
+      "targetMeaningZh": "美式口語:立即動手;努力開始做"
+    },
+    {
+      "id": "phrasal-verb-223-q100",
+      "number": 100,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 60,
+      "prompt": "Hana does not often leave home for social activities during the week.",
+      "promptZh": "Hana 平日不常外出參加社交活動。",
+      "starter": "Hana",
+      "answer": "Hana does not often go out during the week.",
+      "answerZh": "Hana 平日不常外出參加社交活動。",
+      "highlight": "go out",
+      "targetForm": "go out (for something)",
+      "targetMeaningZh": "外出用膳、娛樂或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-223-q101",
+      "number": 101,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 60,
+      "prompt": "We had nothing except his message on which to base our search.",
+      "promptZh": "我們搜尋時除了他的訊息外,沒有其他線索可依據。",
+      "starter": "We",
+      "answer": "We had nothing except his message to go on in our search.",
+      "answerZh": "我們搜尋時除了他的訊息外,沒有其他線索可依據。",
+      "highlight": "to go",
+      "targetForm": "go on something",
+      "targetMeaningZh": "根據資料、證據或說法作判斷"
+    },
+    {
+      "id": "phrasal-verb-223-q102",
+      "number": 102,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 60,
+      "prompt": "He stopped spending time with that group after the argument.",
+      "promptZh": "爭吵後,他不再與那群人來往。",
+      "starter": "He",
+      "answer": "He stopped going round with that group after the argument.",
+      "answerZh": "爭吵後,他不再與那群人來往。",
+      "highlight": "going round",
+      "targetForm": "go round with somebody / go round together",
+      "targetMeaningZh": "較舊式英式:與某人經常來往或一起活動"
+    },
+    {
+      "id": "phrasal-verb-223-q103",
+      "number": 103,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 60,
+      "prompt": "The Earth moves around the Sun.",
+      "promptZh": "地球環繞太陽運行。",
+      "starter": "The",
+      "answer": "The Earth goes round the Sun.",
+      "answerZh": "地球環繞太陽運行。",
+      "highlight": "goes round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "旋轉;沿圓形路線移動"
+    },
+    {
+      "id": "phrasal-verb-223-q104",
+      "number": 104,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 60,
+      "prompt": "The nurse asked us to move into the next room.",
+      "promptZh": "護士叫我們進入下一個房間。",
+      "starter": "The",
+      "answer": "The nurse asked us to go through to the next room.",
+      "answerZh": "護士叫我們進入下一個房間。",
+      "highlight": "go through to",
+      "targetForm": "go through (to something)",
+      "targetMeaningZh": "進入相連的房間或下一個地方"
+    },
+    {
+      "id": "phrasal-verb-223-q105",
+      "number": 105,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 61,
+      "prompt": "Temperatures may increase tomorrow.",
+      "promptZh": "明日氣溫可能上升。",
+      "starter": "Temperatures",
+      "answer": "Temperatures may go up tomorrow.",
+      "answerZh": "明日氣溫可能上升。",
+      "highlight": "go up",
+      "targetForm": "go up",
+      "targetMeaningZh": "價格、水平或數量上升"
+    },
+    {
+      "id": "phrasal-verb-223-q106",
+      "number": 106,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 61,
+      "prompt": "She visited each table to say goodbye.",
+      "promptZh": "她逐桌向大家道別。",
+      "starter": "She",
+      "answer": "She went round the tables to say goodbye.",
+      "answerZh": "她逐桌向大家道別。",
+      "highlight": "went round the tables",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "逐一探訪多個人、地方或某處各部分"
+    },
+    {
+      "id": "phrasal-verb-223-q107",
+      "number": 107,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 61,
+      "prompt": "The course continues until June.",
+      "promptZh": "課程持續至六月。",
+      "starter": "The",
+      "answer": "The course goes up to June.",
+      "answerZh": "課程持續至六月。",
+      "highlight": "goes up to",
+      "targetForm": "go up to something",
+      "targetMeaningZh": "延伸或達到某個時間、位置或程度"
+    },
+    {
+      "id": "phrasal-verb-223-q108",
+      "number": 108,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 61,
+      "prompt": "I tried twice, but the cover still would not fit over the box.",
+      "promptZh": "我試了兩次,但這個盒蓋仍然套不上盒子。",
+      "starter": "I",
+      "answer": "I tried twice, but the cover still would not go on the box.",
+      "answerZh": "我試了兩次,但這個盒蓋仍然套不上盒子。",
+      "highlight": "go on",
+      "targetForm": "go on / go on something",
+      "targetMeaningZh": "裝得上;套得上;放得上"
+    },
+    {
+      "id": "phrasal-verb-223-q109",
+      "number": 109,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 61,
+      "prompt": "She has moved upstairs to change her clothes.",
+      "promptZh": "她已上樓回房換衣服。",
+      "starter": "She",
+      "answer": "She has gone up to her room to change her clothes.",
+      "answerZh": "她已上樓回房換衣服。",
+      "highlight": "gone up to her room",
+      "targetForm": "go up / go up something",
+      "targetMeaningZh": "向上移動;上樓;沿斜坡或樓梯上去"
+    },
+    {
+      "id": "phrasal-verb-223-q110",
+      "number": 110,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 61,
+      "prompt": "I did not know that Daniel was dating Priya.",
+      "promptZh": "我不知道 Daniel 正與 Priya 拍拖。",
+      "starter": "I",
+      "answer": "I did not know that Daniel was going with Priya.",
+      "answerZh": "我不知道 Daniel 正與 Priya 拍拖。",
+      "highlight": "going with",
+      "targetForm": "go with somebody",
+      "targetMeaningZh": "較舊式:與某人拍拖或交往"
+    },
+    {
+      "id": "phrasal-verb-223-q111",
+      "number": 111,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 62,
+      "prompt": "Nearly all the battery power was used to keep the screen bright.",
+      "promptZh": "幾乎所有電池電量都用來維持螢幕亮度。",
+      "starter": "Nearly",
+      "answer": "Nearly all the battery power went on keeping the screen bright.",
+      "answerZh": "幾乎所有電池電量都用來維持螢幕亮度。",
+      "highlight": "went on keeping",
+      "targetForm": "go on something / go on doing something",
+      "targetMeaningZh": "金錢、時間或精力花在某事上"
+    },
+    {
+      "id": "phrasal-verb-223-q112",
+      "number": 112,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 62,
+      "prompt": "The anger slowly disappeared from his voice as he listened.",
+      "promptZh": "他聆聽時,聲音中的怒氣慢慢消失。",
+      "starter": "The",
+      "answer": "The anger slowly went out of his voice as he listened.",
+      "answerZh": "他聆聽時,聲音中的怒氣慢慢消失。",
+      "highlight": "went out of",
+      "targetForm": "go out of somebody/something",
+      "targetMeaningZh": "感覺、情緒或特質從某人或某物消失"
+    },
+    {
+      "id": "phrasal-verb-223-q113",
+      "number": 113,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 62,
+      "prompt": "Some of the credit should be given to the design team.",
+      "promptZh": "部分功勞應歸於設計團隊。",
+      "starter": "Some",
+      "answer": "Some of the credit should go to the design team.",
+      "answerZh": "部分功勞應歸於設計團隊。",
+      "highlight": "go",
+      "targetForm": "go to somebody/something",
+      "targetMeaningZh": "歸予、給予或頒給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-223-q114",
+      "number": 114,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 62,
+      "prompt": "She spent the whole day wearing a large smile.",
+      "promptZh": "她整天都面帶燦爛笑容。",
+      "starter": "She",
+      "answer": "She went round with a large smile on her face all day.",
+      "answerZh": "她整天都面帶燦爛笑容。",
+      "highlight": "went round with",
+      "targetForm": "go round / go round something / go round doing something",
+      "targetMeaningZh": "經常以某種方式打扮、行事或四處做某事"
+    },
+    {
+      "id": "phrasal-verb-223-q115",
+      "number": 115,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 62,
+      "prompt": "Why did he use a different name online?",
+      "promptZh": "他為甚麼在網上使用另一個名字?",
+      "starter": "Why",
+      "answer": "Why did he go under a different name online?",
+      "answerZh": "他為甚麼在網上使用另一個名字?",
+      "highlight": "go under",
+      "targetForm": "go under something",
+      "targetMeaningZh": "以某個名稱或稱號為人所知"
+    },
+    {
+      "id": "phrasal-verb-223-q116",
+      "number": 116,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 62,
+      "prompt": "In this town, heavy rain and road problems often happen at the same time.",
+      "promptZh": "在這個城鎮,大雨和道路問題經常同時出現。",
+      "starter": "In",
+      "answer": "In this town, heavy rain and road problems often go together.",
+      "answerZh": "在這個城鎮,大雨和道路問題經常同時出現。",
+      "highlight": "go together",
+      "targetForm": "go together",
+      "targetMeaningZh": "經常同時存在;彼此有關聯"
+    },
+    {
+      "id": "phrasal-verb-223-q117",
+      "number": 117,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 63,
+      "prompt": "Have we spent more than the agreed amount?",
+      "promptZh": "我們花費的金額是否已超過協定數目?",
+      "starter": "Have",
+      "answer": "Have we gone over the agreed amount?",
+      "answerZh": "我們花費的金額是否已超過協定數目?",
+      "highlight": "gone over",
+      "targetForm": "go over something",
+      "targetMeaningZh": "超過限額、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-223-q118",
+      "number": 118,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 63,
+      "prompt": "The small school had never faced such a strong team before.",
+      "promptZh": "這間小學校以前從未迎戰過如此強勁的球隊。",
+      "starter": "The",
+      "answer": "The small school had never gone up against such a strong team before.",
+      "answerZh": "這間小學校以前從未迎戰過如此強勁的球隊。",
+      "highlight": "gone up against",
+      "targetForm": "go up against somebody/something",
+      "targetMeaningZh": "美式:面對或迎戰強勁對手"
+    },
+    {
+      "id": "phrasal-verb-223-q119",
+      "number": 119,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 63,
+      "prompt": "The group did not love the idea, but they accepted it.",
+      "promptZh": "團隊雖然不太喜歡這個構思,但仍接受了。",
+      "starter": "The",
+      "answer": "The group did not love the idea, but they went with it.",
+      "answerZh": "團隊雖然不太喜歡這個構思,但仍接受了。",
+      "highlight": "went with",
+      "targetForm": "go with somebody/something",
+      "targetMeaningZh": "接受或支持某人的決定、計劃或意見"
+    },
+    {
+      "id": "phrasal-verb-223-q120",
+      "number": 120,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 63,
+      "prompt": "When the lights went out, a cold feeling passed through the crowd.",
+      "promptZh": "燈光熄滅時,一陣寒意傳遍人群。",
+      "starter": "When",
+      "answer": "When the lights went out, a cold feeling went through the crowd.",
+      "answerZh": "燈光熄滅時,一陣寒意傳遍人群。",
+      "highlight": "went",
+      "targetForm": "go through somebody",
+      "targetMeaningZh": "某種感覺突然傳遍某人的身體"
+    },
+    {
+      "id": "phrasal-verb-223-q121",
+      "number": 121,
+      "band": 4,
+      "sourcePage": 29,
+      "answerSourcePage": 63,
+      "prompt": "To avoid the deep water, the hikers moved around the edge of the field.",
+      "promptZh": "為避開深水,遠足者沿着田野邊緣繞行。",
+      "starter": "To",
+      "answer": "To avoid the deep water, the hikers went round the edge of the field.",
+      "answerZh": "為避開深水,遠足者沿着田野邊緣繞行。",
+      "highlight": "went round",
+      "targetForm": "go round something",
+      "targetMeaningZh": "繞過角落、障礙物或地方"
+    },
+    {
+      "id": "phrasal-verb-223-q122",
+      "number": 122,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "When the owner died, the house passed to his eldest son.",
+      "promptZh": "屋主去世後,房子歸其長子所有。",
+      "starter": "When",
+      "answer": "When the owner died, the house went to his eldest son.",
+      "answerZh": "屋主去世後,房子歸其長子所有。",
+      "highlight": "went",
+      "targetForm": "go to somebody/something",
+      "targetMeaningZh": "歸予、給予或頒給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-223-q123",
+      "number": 123,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "After years of using cash only, the café changed to card payments.",
+      "promptZh": "咖啡店多年來只收現金,其後改為接受卡付款。",
+      "starter": "After",
+      "answer": "After years of using cash only, the café went over to card payments.",
+      "answerZh": "咖啡店多年來只收現金,其後改為接受卡付款。",
+      "highlight": "went over",
+      "targetForm": "go over to somebody/something",
+      "targetMeaningZh": "改投另一方;轉用另一種制度或方法"
+    },
+    {
+      "id": "phrasal-verb-223-q124",
+      "number": 124,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "The shop is on your left just after you pass the bank.",
+      "promptZh": "你經過銀行後,店舖就在左邊。",
+      "starter": "The",
+      "answer": "The shop is on your left just after you go past the bank.",
+      "answerZh": "你經過銀行後,店舖就在左邊。",
+      "highlight": "go past",
+      "targetForm": "go past / go past somebody/something",
+      "targetMeaningZh": "經過;從某人或某物面前走過"
+    },
+    {
+      "id": "phrasal-verb-223-q125",
+      "number": 125,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "Why did you leave the house so late last night?",
+      "promptZh": "你昨晚為甚麼這麼晚才外出?",
+      "starter": "Why",
+      "answer": "Why did you go out so late last night?",
+      "answerZh": "你昨晚為甚麼這麼晚才外出?",
+      "highlight": "go out",
+      "targetForm": "go out / go out of something",
+      "targetMeaningZh": "離開房間、建築物或住所"
+    },
+    {
+      "id": "phrasal-verb-223-q126",
+      "number": 126,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "Are you visiting Ben at his home before lunch?",
+      "promptZh": "你會在午膳前到 Ben 家探望他嗎?",
+      "starter": "Are",
+      "answer": "Are you going round to Ben’s before lunch?",
+      "answerZh": "你會在午膳前到 Ben 家探望他嗎?",
+      "highlight": "going round to Ben’s",
+      "targetForm": "go round (to somebody/somewhere)",
+      "targetMeaningZh": "到附近的人家或地方短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-223-q127",
+      "number": 127,
+      "band": 4,
+      "sourcePage": 30,
+      "answerSourcePage": 64,
+      "prompt": "Although everyone was tired, the meeting continued for another hour.",
+      "promptZh": "儘管大家都很疲倦,會議仍繼續了一小時。",
+      "starter": "Although",
+      "answer": "Although everyone was tired, the meeting went on for another hour.",
+      "answerZh": "儘管大家都很疲倦,會議仍繼續了一小時。",
+      "highlight": "went on",
+      "targetForm": "go on",
+      "targetMeaningZh": "繼續發生或存在"
+    },
+    {
+      "id": "phrasal-verb-223-q128",
+      "number": 128,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "The doctor made the first decision using the symptoms that the patient described.",
+      "promptZh": "醫生作出初步決定時,依據了病人所描述的症狀。",
+      "starter": "The",
+      "answer": "The doctor went on the symptoms that the patient described when making the first decision.",
+      "answerZh": "醫生作出初步決定時,依據了病人所描述的症狀。",
+      "highlight": "went on",
+      "targetForm": "go on something",
+      "targetMeaningZh": "根據資料、證據或說法作判斷"
+    },
+    {
+      "id": "phrasal-verb-223-q129",
+      "number": 129,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "Even though the move was difficult, they completed it as planned.",
+      "promptZh": "雖然搬遷十分困難,他們仍按計劃完成了。",
+      "starter": "Even",
+      "answer": "Even though the move was difficult, they went through with it as planned.",
+      "answerZh": "雖然搬遷十分困難,他們仍按計劃完成了。",
+      "highlight": "went through with",
+      "targetForm": "go through with something",
+      "targetMeaningZh": "即使困難或不愉快,仍把事情完成"
+    },
+    {
+      "id": "phrasal-verb-223-q130",
+      "number": 130,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "We chose plain shoes because they match almost every outfit.",
+      "promptZh": "我們選了款式簡單的鞋,因為它們幾乎與每套衣服都相配。",
+      "starter": "We",
+      "answer": "We chose plain shoes because they go with almost every outfit.",
+      "answerZh": "我們選了款式簡單的鞋,因為它們幾乎與每套衣服都相配。",
+      "highlight": "go with",
+      "targetForm": "go with something",
+      "targetMeaningZh": "與某物相襯、相配或搭配得宜"
+    },
+    {
+      "id": "phrasal-verb-223-q131",
+      "number": 131,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "News of the cancelled match quickly spread throughout the town.",
+      "promptZh": "比賽取消的消息很快傳遍全城。",
+      "starter": "News",
+      "answer": "News of the cancelled match quickly went round the town.",
+      "answerZh": "比賽取消的消息很快傳遍全城。",
+      "highlight": "went round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "消息、文件或疾病在人群中傳開或流傳"
+    },
+    {
+      "id": "phrasal-verb-223-q132",
+      "number": 132,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "It is unfair to accuse people without checking the facts.",
+      "promptZh": "未查清事實便四處指責別人是不公平的。",
+      "starter": "It",
+      "answer": "It is unfair to go round accusing people without checking the facts.",
+      "answerZh": "未查清事實便四處指責別人是不公平的。",
+      "highlight": "go round accusing",
+      "targetForm": "go round / go round something / go round doing something",
+      "targetMeaningZh": "經常以某種方式打扮、行事或四處做某事"
+    },
+    {
+      "id": "phrasal-verb-223-q133",
+      "number": 133,
+      "band": 4,
+      "sourcePage": 31,
+      "answerSourcePage": 65,
+      "prompt": "As the music ended, Daniel moved across the room towards his parents.",
+      "promptZh": "音樂結束時,Daniel 走過房間到父母身邊。",
+      "starter": "As",
+      "answer": "As the music ended, Daniel went over to his parents.",
+      "answerZh": "音樂結束時,Daniel 走過房間到父母身邊。",
+      "highlight": "went over to",
+      "targetForm": "go over (to somebody/something)",
+      "targetMeaningZh": "走到某人或某物那邊"
+    },
+    {
+      "id": "phrasal-verb-223-q134",
+      "number": 134,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "The old fruit was left in the heat and was completely wasted.",
+      "promptZh": "舊水果被放在炎熱環境中,最後全都浪費了。",
+      "starter": "The",
+      "answer": "The old fruit was left in the heat and went to waste.",
+      "answerZh": "舊水果被放在炎熱環境中,最後全都浪費了。",
+      "highlight": "went to waste",
+      "targetForm": "go to something",
+      "targetMeaningZh": "進入或開始某種狀態或活動"
+    },
+    {
+      "id": "phrasal-verb-223-q135",
+      "number": 135,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "The children moved up the hill to see the view.",
+      "promptZh": "孩子們走上山坡看風景。",
+      "starter": "The",
+      "answer": "The children went up the hill to see the view.",
+      "answerZh": "孩子們走上山坡看風景。",
+      "highlight": "went",
+      "targetForm": "go up / go up something",
+      "targetMeaningZh": "向上移動;上樓;沿斜坡或樓梯上去"
+    },
+    {
+      "id": "phrasal-verb-223-q136",
+      "number": 136,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "A wave of relief passed through him when he saw that the child was safe.",
+      "promptZh": "他看見孩子安全無恙時,一陣如釋重負的感覺傳遍全身。",
+      "starter": "A",
+      "answer": "A wave of relief went through him when he saw that the child was safe.",
+      "answerZh": "他看見孩子安全無恙時,一陣如釋重負的感覺傳遍全身。",
+      "highlight": "went",
+      "targetForm": "go through somebody",
+      "targetMeaningZh": "某種感覺突然傳遍某人的身體"
+    },
+    {
+      "id": "phrasal-verb-223-q137",
+      "number": 137,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "People often think success and long working hours are naturally connected.",
+      "promptZh": "人們常認為成功與長時間工作自然相連。",
+      "starter": "People",
+      "answer": "People often think success and long working hours naturally go together.",
+      "answerZh": "人們常認為成功與長時間工作自然相連。",
+      "highlight": "go together",
+      "targetForm": "go together",
+      "targetMeaningZh": "經常同時存在;彼此有關聯"
+    },
+    {
+      "id": "phrasal-verb-223-q138",
+      "number": 138,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "The old case is too small, so it cannot fit over the new phone.",
+      "promptZh": "舊手機殼太小,所以套不上新手機。",
+      "starter": "The",
+      "answer": "The old case is too small, so it will not go on the new phone.",
+      "answerZh": "舊手機殼太小,所以套不上新手機。",
+      "highlight": "will not go on",
+      "targetForm": "go on / go on something",
+      "targetMeaningZh": "裝得上;套得上;放得上"
+    },
+    {
+      "id": "phrasal-verb-223-q139",
+      "number": 139,
+      "band": 4,
+      "sourcePage": 32,
+      "answerSourcePage": 66,
+      "prompt": "After finishing their exams, the students left home to celebrate together.",
+      "promptZh": "學生完成考試後一起外出慶祝。",
+      "starter": "After",
+      "answer": "After finishing their exams, the students went out to celebrate together.",
+      "answerZh": "學生完成考試後一起外出慶祝。",
+      "highlight": "went out",
+      "targetForm": "go out (for something)",
+      "targetMeaningZh": "外出用膳、娛樂或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-223-q140",
+      "number": 140,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "To reach the kitchen, you must cross the living room.",
+      "promptZh": "要到達廚房,你必須穿過客廳。",
+      "starter": "To",
+      "answer": "To reach the kitchen, you must go through the living room.",
+      "answerZh": "要到達廚房,你必須穿過客廳。",
+      "highlight": "go through",
+      "targetForm": "go through / go through something",
+      "targetMeaningZh": "穿過地方、房間、入口或開口"
+    },
+    {
+      "id": "phrasal-verb-223-q141",
+      "number": 141,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "Several students trained all summer before trying to join the school volleyball team.",
+      "promptZh": "幾名學生整個夏天都在練習,之後參加校排球隊選拔。",
+      "starter": "Several",
+      "answer": "Several students trained all summer before going out for the school volleyball team.",
+      "answerZh": "幾名學生整個夏天都在練習,之後參加校排球隊選拔。",
+      "highlight": "going out for",
+      "targetForm": "go out for something",
+      "targetMeaningZh": "美式:參加選拔,爭取加入球隊、樂隊或小組"
+    },
+    {
+      "id": "phrasal-verb-223-q142",
+      "number": 142,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "To get permission, you must ask the building manager first.",
+      "promptZh": "要取得批准,你必須先透過大廈經理辦理。",
+      "starter": "To",
+      "answer": "To get permission, you must go through the building manager first.",
+      "answerZh": "要取得批准,你必須先透過大廈經理辦理。",
+      "highlight": "go through",
+      "targetForm": "go through somebody/something",
+      "targetMeaningZh": "透過某人或機構辦理事情"
+    },
+    {
+      "id": "phrasal-verb-223-q143",
+      "number": 143,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "The speech must not last longer than five minutes.",
+      "promptZh": "演說不得超過五分鐘。",
+      "starter": "The",
+      "answer": "The speech must not go over five minutes.",
+      "answerZh": "演說不得超過五分鐘。",
+      "highlight": "go over",
+      "targetForm": "go over something",
+      "targetMeaningZh": "超過限額、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-223-q144",
+      "number": 144,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "The water reached my knees.",
+      "promptZh": "水深達到我的膝蓋。",
+      "starter": "The",
+      "answer": "The water went up to my knees.",
+      "answerZh": "水深達到我的膝蓋。",
+      "highlight": "went up to",
+      "targetForm": "go up to something",
+      "targetMeaningZh": "延伸或達到某個時間、位置或程度"
+    },
+    {
+      "id": "phrasal-verb-223-q145",
+      "number": 145,
+      "band": 4,
+      "sourcePage": 33,
+      "answerSourcePage": 67,
+      "prompt": "The café is now called Blue Door, but it used to be known by another name.",
+      "promptZh": "這間咖啡店現稱 Blue Door,但以前使用另一個名稱。",
+      "starter": "The",
+      "answer": "The café is now called Blue Door, but it used to go under another name.",
+      "answerZh": "這間咖啡店現稱 Blue Door,但以前使用另一個名稱。",
+      "highlight": "go under",
+      "targetForm": "go under something",
+      "targetMeaningZh": "以某個名稱或稱號為人所知"
+    },
+    {
+      "id": "phrasal-verb-223-q146",
+      "number": 146,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "When the heavy wave hit, the front of the boat sank for a moment.",
+      "promptZh": "巨浪打來時,船頭一度沉到水面以下。",
+      "starter": "When",
+      "answer": "When the heavy wave hit, the front of the boat went under for a moment.",
+      "answerZh": "巨浪打來時,船頭一度沉到水面以下。",
+      "highlight": "went under",
+      "targetForm": "go under",
+      "targetMeaningZh": "沉到水面以下"
+    },
+    {
+      "id": "phrasal-verb-223-q147",
+      "number": 147,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "Could you manage without coffee for a week?",
+      "promptZh": "你可以一星期不喝咖啡嗎?",
+      "starter": "Could",
+      "answer": "Could you go without coffee for a week?",
+      "answerZh": "你可以一星期不喝咖啡嗎?",
+      "highlight": "go",
+      "targetForm": "go without / go without something / go without doing something",
+      "targetMeaningZh": "在沒有某物或沒有做某事的情況下生活或應付"
+    },
+    {
+      "id": "phrasal-verb-223-q148",
+      "number": 148,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "In the final, Zoe will compete against last year’s winner.",
+      "promptZh": "Zoe 將在決賽迎戰去年的冠軍。",
+      "starter": "In",
+      "answer": "In the final, Zoe will go up against last year’s winner.",
+      "answerZh": "Zoe 將在決賽迎戰去年的冠軍。",
+      "highlight": "go up",
+      "targetForm": "go up against somebody/something",
+      "targetMeaningZh": "美式:面對或迎戰強勁對手"
+    },
+    {
+      "id": "phrasal-verb-223-q149",
+      "number": 149,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "After signing in, visitors should enter the waiting area.",
+      "promptZh": "訪客登記後應進入等候區。",
+      "starter": "After",
+      "answer": "After signing in, visitors should go through to the waiting area.",
+      "answerZh": "訪客登記後應進入等候區。",
+      "highlight": "go through to",
+      "targetForm": "go through (to something)",
+      "targetMeaningZh": "進入相連的房間或下一個地方"
+    },
+    {
+      "id": "phrasal-verb-223-q150",
+      "number": 150,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "Once the tools arrived, the workers began the job without delay.",
+      "promptZh": "工具送到後,工人立即開始工作。",
+      "starter": "Once",
+      "answer": "Once the tools arrived, the workers went to it without delay.",
+      "answerZh": "工具送到後,工人立即開始工作。",
+      "highlight": "went to it",
+      "targetForm": "go to it",
+      "targetMeaningZh": "美式口語:立即動手;努力開始做"
+    },
+    {
+      "id": "phrasal-verb-223-q151",
+      "number": 151,
+      "band": 4,
+      "sourcePage": 34,
+      "answerSourcePage": 68,
+      "prompt": "The fence completely surrounds the garden.",
+      "promptZh": "圍欄完全環繞花園。",
+      "starter": "The",
+      "answer": "The fence goes right round the garden.",
+      "answerZh": "圍欄完全環繞花園。",
+      "highlight": "goes right round",
+      "targetForm": "go round somebody/something",
+      "targetMeaningZh": "圍着某人或某物;環繞"
+    },
+    {
+      "id": "phrasal-verb-223-q152",
+      "number": 152,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "If the teacher recommends the shorter route, I will follow her choice.",
+      "promptZh": "如果老師建議較短的路線,我會接受她的選擇。",
+      "starter": "If",
+      "answer": "If the teacher recommends the shorter route, I will go with her choice.",
+      "answerZh": "如果老師建議較短的路線,我會接受她的選擇。",
+      "highlight": "go with",
+      "targetForm": "go with somebody/something",
+      "targetMeaningZh": "接受或支持某人的決定、計劃或意見"
+    },
+    {
+      "id": "phrasal-verb-223-q153",
+      "number": 153,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "My parents did not like the people I regularly spent time with at school.",
+      "promptZh": "我的父母不喜歡我在學校經常來往的那群人。",
+      "starter": "My",
+      "answer": "My parents did not like the people I went round with at school.",
+      "answerZh": "我的父母不喜歡我在學校經常來往的那群人。",
+      "highlight": "went round",
+      "targetForm": "go round with somebody / go round together",
+      "targetMeaningZh": "較舊式英式:與某人經常來往或一起活動"
+    },
+    {
+      "id": "phrasal-verb-223-q154",
+      "number": 154,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "How long has Hana been dating Felix?",
+      "promptZh": "Hana 與 Felix 拍拖多久了?",
+      "starter": "How",
+      "answer": "How long has Hana been going with Felix?",
+      "answerZh": "Hana 與 Felix 拍拖多久了?",
+      "highlight": "going with",
+      "targetForm": "go with somebody",
+      "targetMeaningZh": "較舊式:與某人拍拖或交往"
+    },
+    {
+      "id": "phrasal-verb-223-q155",
+      "number": 155,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "Before closing, the guard checked every room one by one.",
+      "promptZh": "關門前,保安員逐一巡查所有房間。",
+      "starter": "Before",
+      "answer": "Before closing, the guard went round all the rooms.",
+      "answerZh": "關門前,保安員逐一巡查所有房間。",
+      "highlight": "went round all the rooms",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "逐一探訪多個人、地方或某處各部分"
+    },
+    {
+      "id": "phrasal-verb-223-q156",
+      "number": 156,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "When the danger passed, all the stiffness and fear disappeared from her.",
+      "promptZh": "危險過去後,她身上的僵硬和恐懼全都消失了。",
+      "starter": "When",
+      "answer": "When the danger passed, all the stiffness and fear went out of her.",
+      "answerZh": "危險過去後,她身上的僵硬和恐懼全都消失了。",
+      "highlight": "went out of",
+      "targetForm": "go out of somebody/something",
+      "targetMeaningZh": "感覺、情緒或特質從某人或某物消失"
+    },
+    {
+      "id": "phrasal-verb-223-q157",
+      "number": 157,
+      "band": 4,
+      "sourcePage": 35,
+      "answerSourcePage": 69,
+      "prompt": "Why is so much of the budget spent on repairing the old lift?",
+      "promptZh": "為甚麼這麼多預算都花在維修舊升降機上?",
+      "starter": "Why",
+      "answer": "Why does so much of the budget go on repairing the old lift?",
+      "answerZh": "為甚麼這麼多預算都花在維修舊升降機上?",
+      "highlight": "does",
+      "targetForm": "go on something / go on doing something",
+      "targetMeaningZh": "金錢、時間或精力花在某事上"
+    },
+    {
+      "id": "phrasal-verb-223-q158",
+      "number": 158,
+      "band": 4,
+      "sourcePage": 36,
+      "answerSourcePage": 70,
+      "prompt": "Make sure every child gets a pen; there should be enough for all of them.",
+      "promptZh": "確保每名孩子都有一支筆;筆的數量應該足夠分給所有人。",
+      "starter": "Make",
+      "answer": "Make sure every child gets a pen; there should be enough pens to go round.",
+      "answerZh": "確保每名孩子都有一支筆;筆的數量應該足夠分給所有人。",
+      "highlight": "pens to go round",
+      "targetForm": "go round",
+      "targetMeaningZh": "數量足夠分給每個人"
+    },
+    {
+      "id": "phrasal-verb-223-q159",
+      "number": 159,
+      "band": 4,
+      "sourcePage": 36,
+      "answerSourcePage": 70,
+      "prompt": "The number of students using the library has increased since January.",
+      "promptZh": "自一月以來,使用圖書館的學生人數有所上升。",
+      "starter": "The",
+      "answer": "The number of students using the library has gone up since January.",
+      "answerZh": "自一月以來,使用圖書館的學生人數有所上升。",
+      "highlight": "gone up",
+      "targetForm": "go up",
+      "targetMeaningZh": "價格、水平或數量上升"
+    },
+    {
+      "id": "phrasal-verb-223-q160",
+      "number": 160,
+      "band": 4,
+      "sourcePage": 36,
+      "answerSourcePage": 70,
+      "prompt": "The cyclist travelled around the roundabout twice.",
+      "promptZh": "單車手繞着迴旋處踏了兩圈。",
+      "starter": "The",
+      "answer": "The cyclist went round the roundabout twice.",
+      "answerZh": "單車手繞着迴旋處踏了兩圈。",
+      "highlight": "went round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "旋轉;沿圓形路線移動"
+    },
+    {
+      "id": "phrasal-verb-223-q161",
+      "number": 161,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 70,
+      "prompt": "The problem has existed for months, and nobody knows how much longer it will continue.",
+      "promptZh": "這個問題已持續數月,沒有人知道還會延續多久。",
+      "starter": "The",
+      "answer": "The problem has gone on for months, and nobody knows how much longer it will go on.",
+      "answerZh": "這個問題已持續數月,沒有人知道還會延續多久。",
+      "highlight": "gone on",
+      "targetForm": "go on",
+      "targetMeaningZh": "繼續發生或存在"
+    },
+    {
+      "id": "phrasal-verb-223-q162",
+      "number": 162,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 70,
+      "prompt": "Check the picture before attaching the final piece, because it fits only one way.",
+      "promptZh": "安裝最後一件零件前先查看圖片,因為它只有一種正確裝法。",
+      "starter": "Check",
+      "answer": "Check the picture before attaching the final piece, because it only goes on one way.",
+      "answerZh": "安裝最後一件零件前先查看圖片,因為它只有一種正確裝法。",
+      "highlight": "goes on",
+      "targetForm": "go on / go on something",
+      "targetMeaningZh": "裝得上;套得上;放得上"
+    },
+    {
+      "id": "phrasal-verb-223-q163",
+      "number": 163,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 70,
+      "prompt": "The teacher waited until every student had left the hall before turning off the lights.",
+      "promptZh": "老師等到所有學生離開禮堂後才關燈。",
+      "starter": "The",
+      "answer": "The teacher waited until every student had gone out of the hall before turning off the lights.",
+      "answerZh": "老師等到所有學生離開禮堂後才關燈。",
+      "highlight": "gone out of",
+      "targetForm": "go out / go out of something",
+      "targetMeaningZh": "離開房間、建築物或住所"
+    },
+    {
+      "id": "phrasal-verb-223-q164",
+      "number": 164,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 71,
+      "prompt": "Although they belonged to different classes, the four students spent most weekends together.",
+      "promptZh": "雖然四名學生來自不同班別,但他們大多數週末都一起活動。",
+      "starter": "Although",
+      "answer": "Although they belonged to different classes, the four students went round together most weekends.",
+      "answerZh": "雖然四名學生來自不同班別,但他們大多數週末都一起活動。",
+      "highlight": "went round together",
+      "targetForm": "go round with somebody / go round together",
+      "targetMeaningZh": "較舊式英式:與某人經常來往或一起活動"
+    },
+    {
+      "id": "phrasal-verb-223-q165",
+      "number": 165,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 71,
+      "prompt": "Although more people arrived than expected, the cook had prepared enough food for everyone.",
+      "promptZh": "雖然到場人數比預期多,但廚師準備的食物仍足夠分給所有人。",
+      "starter": "Although",
+      "answer": "Although more people arrived than expected, the cook had prepared enough food to go round.",
+      "answerZh": "雖然到場人數比預期多,但廚師準備的食物仍足夠分給所有人。",
+      "highlight": "to go round",
+      "targetForm": "go round",
+      "targetMeaningZh": "數量足夠分給每個人"
+    },
+    {
+      "id": "phrasal-verb-223-q166",
+      "number": 166,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 71,
+      "prompt": "When the heating failed, the family spent three days without hot water.",
+      "promptZh": "暖氣系統故障後,這個家庭有三天沒有熱水使用。",
+      "starter": "When",
+      "answer": "When the heating failed, the family went without hot water for three days.",
+      "answerZh": "暖氣系統故障後,這個家庭有三天沒有熱水使用。",
+      "highlight": "went",
+      "targetForm": "go without / go without something / go without doing something",
+      "targetMeaningZh": "在沒有某物或沒有做某事的情況下生活或應付"
+    },
+    {
+      "id": "phrasal-verb-223-q167",
+      "number": 167,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 71,
+      "prompt": "Although the two ideas are often found together, one can exist without the other.",
+      "promptZh": "雖然這兩個概念經常同時出現,但其中一個也可以獨立存在。",
+      "starter": "Although",
+      "answer": "Although the two ideas often go together, one can exist without the other.",
+      "answerZh": "雖然這兩個概念經常同時出現,但其中一個也可以獨立存在。",
+      "highlight": "go",
+      "targetForm": "go together",
+      "targetMeaningZh": "經常同時存在;彼此有關聯"
+    },
+    {
+      "id": "phrasal-verb-223-q168",
+      "number": 168,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 71,
+      "prompt": "Although their opponents had won every match, our players were excited to face them.",
+      "promptZh": "雖然對手每場比賽都勝出,但我們的球員仍很期待迎戰他們。",
+      "starter": "Although",
+      "answer": "Although their opponents had won every match, our players were excited to go up against them.",
+      "answerZh": "雖然對手每場比賽都勝出,但我們的球員仍很期待迎戰他們。",
+      "highlight": "go up against",
+      "targetForm": "go up against somebody/something",
+      "targetMeaningZh": "美式:面對或迎戰強勁對手"
+    },
+    {
+      "id": "phrasal-verb-223-q169",
+      "number": 169,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 71,
+      "prompt": "Unless both sides return to talks, the two countries may begin fighting.",
+      "promptZh": "除非雙方恢復談判,否則兩國可能開戰。",
+      "starter": "Unless",
+      "answer": "Unless both sides return to talks, the two countries may go to war.",
+      "answerZh": "除非雙方恢復談判,否則兩國可能開戰。",
+      "highlight": "go to war",
+      "targetForm": "go to something",
+      "targetMeaningZh": "進入或開始某種狀態或活動"
+    },
+    {
+      "id": "phrasal-verb-223-q170",
+      "number": 170,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 72,
+      "prompt": "Although the shop sold fewer items, its total costs continued to increase throughout the year.",
+      "promptZh": "雖然店舖售出的貨品較少,但全年總成本仍持續上升。",
+      "starter": "Although",
+      "answer": "Although the shop sold fewer items, its total costs continued to go up throughout the year.",
+      "answerZh": "雖然店舖售出的貨品較少,但全年總成本仍持續上升。",
+      "highlight": "go up",
+      "targetForm": "go up",
+      "targetMeaningZh": "價格、水平或數量上升"
+    },
+    {
+      "id": "phrasal-verb-223-q171",
+      "number": 171,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 72,
+      "prompt": "Although Leo had never played in a formal match, his coach encouraged him to try for a place on the team.",
+      "promptZh": "雖然 Leo 從未參加正式比賽,但教練鼓勵他參加球隊選拔。",
+      "starter": "Although",
+      "answer": "Although Leo had never played in a formal match, his coach encouraged him to go out for the team.",
+      "answerZh": "雖然 Leo 從未參加正式比賽,但教練鼓勵他參加球隊選拔。",
+      "highlight": "go out",
+      "targetForm": "go out for something",
+      "targetMeaningZh": "美式:參加選拔,爭取加入球隊、樂隊或小組"
+    },
+    {
+      "id": "phrasal-verb-223-q172",
+      "number": 172,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 72,
+      "prompt": "Although the green jacket and purple trousers each looked attractive alone, they did not match each other.",
+      "promptZh": "雖然綠色外套和紫色長褲單獨看都很吸引,但兩者並不相配。",
+      "starter": "Although",
+      "answer": "Although the green jacket and purple trousers each looked attractive alone, the green jacket did not go with the purple trousers.",
+      "answerZh": "雖然綠色外套和紫色長褲單獨看都很吸引,但兩者並不相配。",
+      "highlight": "the green jacket",
+      "targetForm": "go with something",
+      "targetMeaningZh": "與某物相襯、相配或搭配得宜"
+    },
+    {
+      "id": "phrasal-verb-223-q173",
+      "number": 173,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 72,
+      "prompt": "During the holiday, we travelled to different parts of the island and visited several small villages.",
+      "promptZh": "假期期間,我們遊遍島上各地,並探訪了幾條小村莊。",
+      "starter": "During",
+      "answer": "During the holiday, we went round the island and visited several small villages.",
+      "answerZh": "假期期間,我們遊遍島上各地,並探訪了幾條小村莊。",
+      "highlight": "went round",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "逐一探訪多個人、地方或某處各部分"
+    },
+    {
+      "id": "phrasal-verb-223-q174",
+      "number": 174,
+      "band": 5,
+      "sourcePage": 38,
+      "answerSourcePage": 72,
+      "prompt": "We had only twenty minutes left, so the teacher told us to stop talking and start the task immediately.",
+      "promptZh": "我們只餘下二十分鐘,所以老師叫我們停止說話,立即開始做題。",
+      "starter": "We",
+      "answer": "We had only twenty minutes left, so the teacher told us to stop talking and go to it immediately.",
+      "answerZh": "我們只餘下二十分鐘,所以老師叫我們停止說話,立即開始做題。",
+      "highlight": "go to it",
+      "targetForm": "go to it",
+      "targetMeaningZh": "美式口語:立即動手;努力開始做"
+    },
+    {
+      "id": "phrasal-verb-223-q175",
+      "number": 175,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 72,
+      "prompt": "By lunchtime, the message that the school would close early had spread to every class.",
+      "promptZh": "到了午膳時間,學校將提早關閉的消息已傳遍全校。",
+      "starter": "By",
+      "answer": "By lunchtime, the message that the school would close early had gone round the school.",
+      "answerZh": "到了午膳時間,學校將提早關閉的消息已傳遍全校。",
+      "highlight": "gone round the school",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "消息、文件或疾病在人群中傳開或流傳"
+    },
+    {
+      "id": "phrasal-verb-223-q176",
+      "number": 176,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 73,
+      "prompt": "After paying for food and transport, the rest of his weekly income is spent on caring for his dog.",
+      "promptZh": "支付食物和交通費後,他每星期餘下的收入都花在照顧狗隻上。",
+      "starter": "After",
+      "answer": "After paying for food and transport, the rest of his weekly income goes on caring for his dog.",
+      "answerZh": "支付食物和交通費後,他每星期餘下的收入都花在照顧狗隻上。",
+      "highlight": "goes",
+      "targetForm": "go on something / go on doing something",
+      "targetMeaningZh": "金錢、時間或精力花在某事上"
+    },
+    {
+      "id": "phrasal-verb-223-q177",
+      "number": 177,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 73,
+      "prompt": "The same person used a different name for each of the three accounts.",
+      "promptZh": "同一個人在三個帳戶中各自使用不同名字。",
+      "starter": "The",
+      "answer": "The same person went under a different name on each of the three accounts.",
+      "answerZh": "同一個人在三個帳戶中各自使用不同名字。",
+      "highlight": "went under",
+      "targetForm": "go under something",
+      "targetMeaningZh": "以某個名稱或稱號為人所知"
+    },
+    {
+      "id": "phrasal-verb-223-q178",
+      "number": 178,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 73,
+      "prompt": "We waited beside the path until the last group of runners had passed before crossing.",
+      "promptZh": "我們在小路旁等候,直至最後一批跑手經過後才橫過。",
+      "starter": "We",
+      "answer": "We waited beside the path until the last group of runners had gone past before crossing.",
+      "answerZh": "我們在小路旁等候,直至最後一批跑手經過後才橫過。",
+      "highlight": "gone past",
+      "targetForm": "go past / go past somebody/something",
+      "targetMeaningZh": "經過;從某人或某物面前走過"
+    },
+    {
+      "id": "phrasal-verb-223-q179",
+      "number": 179,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 73,
+      "prompt": "With no clear records and only one short phone call as evidence, the team could not make a safe decision.",
+      "promptZh": "由於沒有清楚紀錄,亦只有一通簡短電話可作依據,團隊無法作出穩妥決定。",
+      "starter": "With",
+      "answer": "With no clear records and only one short phone call to go on, the team could not make a safe decision.",
+      "answerZh": "由於沒有清楚紀錄,亦只有一通簡短電話可作依據,團隊無法作出穩妥決定。",
+      "highlight": "to go on",
+      "targetForm": "go on something",
+      "targetMeaningZh": "根據資料、證據或說法作判斷"
+    },
+    {
+      "id": "phrasal-verb-223-q180",
+      "number": 180,
+      "band": 5,
+      "sourcePage": 39,
+      "answerSourcePage": 73,
+      "prompt": "After the votes were counted, the final place on the committee was awarded to Hana.",
+      "promptZh": "點票後,委員會最後一個席位由 Hana 獲得。",
+      "starter": "After",
+      "answer": "After the votes were counted, the final place on the committee went to Hana.",
+      "answerZh": "點票後,委員會最後一個席位由 Hana 獲得。",
+      "highlight": "went",
+      "targetForm": "go to somebody/something",
+      "targetMeaningZh": "歸予、給予或頒給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-223-q181",
+      "number": 181,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 73,
+      "prompt": "They kept the relationship quiet, so few people knew that she was dating him.",
+      "promptZh": "他們一直低調交往,因此很少人知道她正與他拍拖。",
+      "starter": "They",
+      "answer": "They kept the relationship quiet, so few people knew that she was going with him.",
+      "answerZh": "他們一直低調交往,因此很少人知道她正與他拍拖。",
+      "highlight": "going with",
+      "targetForm": "go with somebody",
+      "targetMeaningZh": "較舊式:與某人拍拖或交往"
+    },
+    {
+      "id": "phrasal-verb-223-q182",
+      "number": 182,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 74,
+      "prompt": "The ball passed through the open window and landed on the sofa.",
+      "promptZh": "球穿過打開的窗戶,落在梳化上。",
+      "starter": "The",
+      "answer": "The ball went through the open window and landed on the sofa.",
+      "answerZh": "球穿過打開的窗戶,落在梳化上。",
+      "highlight": "went",
+      "targetForm": "go through / go through something",
+      "targetMeaningZh": "穿過地方、房間、入口或開口"
+    },
+    {
+      "id": "phrasal-verb-223-q183",
+      "number": 183,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 74,
+      "prompt": "After comparing all three designs, the team decided to accept the simplest one.",
+      "promptZh": "比較三個設計後,團隊決定採用最簡單的一個。",
+      "starter": "After",
+      "answer": "After comparing all three designs, the team decided to go with the simplest one.",
+      "answerZh": "比較三個設計後,團隊決定採用最簡單的一個。",
+      "highlight": "go with",
+      "targetForm": "go with somebody/something",
+      "targetMeaningZh": "接受或支持某人的決定、計劃或意見"
+    },
+    {
+      "id": "phrasal-verb-223-q184",
+      "number": 184,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 74,
+      "prompt": "We had planned to stay at home, but the weather improved, so we decided to eat at a café.",
+      "promptZh": "我們原本打算留在家中,但天氣轉好,因此決定外出到咖啡店用膳。",
+      "starter": "We",
+      "answer": "We had planned to stay at home, but the weather improved, so we decided to go out for a meal.",
+      "answerZh": "我們原本打算留在家中,但天氣轉好,因此決定外出到咖啡店用膳。",
+      "highlight": "go out for",
+      "targetForm": "go out (for something)",
+      "targetMeaningZh": "外出用膳、娛樂或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-223-q185",
+      "number": 185,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 74,
+      "prompt": "The report covers events only until the day before the election.",
+      "promptZh": "報告只涵蓋至選舉前一天發生的事情。",
+      "starter": "The",
+      "answer": "The report only goes up to the day before the election.",
+      "answerZh": "報告只涵蓋至選舉前一天發生的事情。",
+      "highlight": "goes up to",
+      "targetForm": "go up to something",
+      "targetMeaningZh": "延伸或達到某個時間、位置或程度"
+    },
+    {
+      "id": "phrasal-verb-223-q186",
+      "number": 186,
+      "band": 5,
+      "sourcePage": 40,
+      "answerSourcePage": 74,
+      "prompt": "He began the speech sounding cold and nervous, but after the first joke, the tension disappeared from his voice.",
+      "promptZh": "他開始演說時語氣冷淡而緊張,但說過第一個笑話後,聲音中的緊張感便消失了。",
+      "starter": "He",
+      "answer": "He began the speech sounding cold and nervous, but after the first joke, the tension went out of his voice.",
+      "answerZh": "他開始演說時語氣冷淡而緊張,但說過第一個笑話後,聲音中的緊張感便消失了。",
+      "highlight": "went out of",
+      "targetForm": "go out of somebody/something",
+      "targetMeaningZh": "感覺、情緒或特質從某人或某物消失"
+    },
+    {
+      "id": "phrasal-verb-223-q187",
+      "number": 187,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 74,
+      "prompt": "Once the first group had finished, the teacher invited the next students to enter the interview room.",
+      "promptZh": "第一組完成後,老師請下一批學生進入面試室。",
+      "starter": "Once",
+      "answer": "Once the first group had finished, the teacher invited the next students to go through to the interview room.",
+      "answerZh": "第一組完成後,老師請下一批學生進入面試室。",
+      "highlight": "go through to",
+      "targetForm": "go through (to something)",
+      "targetMeaningZh": "進入相連的房間或下一個地方"
+    },
+    {
+      "id": "phrasal-verb-223-q188",
+      "number": 188,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 75,
+      "prompt": "The sailors had only a few minutes to leave the damaged boat before it sank completely.",
+      "promptZh": "水手只有數分鐘離開受損的船,之後它便完全沉沒。",
+      "starter": "The",
+      "answer": "The sailors had only a few minutes to leave the damaged boat before it went under completely.",
+      "answerZh": "水手只有數分鐘離開受損的船,之後它便完全沉沒。",
+      "highlight": "went under",
+      "targetForm": "go under",
+      "targetMeaningZh": "沉到水面以下"
+    },
+    {
+      "id": "phrasal-verb-223-q189",
+      "number": 189,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 75,
+      "prompt": "When the committee rejected her idea, she left its side and joined the group supporting the new plan.",
+      "promptZh": "委員會否決她的構思後,她轉而加入支持新計劃的一方。",
+      "starter": "When",
+      "answer": "When the committee rejected her idea, she went over to the group supporting the new plan.",
+      "answerZh": "委員會否決她的構思後,她轉而加入支持新計劃的一方。",
+      "highlight": "went over to",
+      "targetForm": "go over to somebody/something",
+      "targetMeaningZh": "改投另一方;轉用另一種制度或方法"
+    },
+    {
+      "id": "phrasal-verb-223-q190",
+      "number": 190,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 75,
+      "prompt": "After weeks of doubt, Priya finally decided to carry out the interview she had agreed to give.",
+      "promptZh": "經過數星期的猶豫,Priya 最終決定完成她早已答應接受的訪問。",
+      "starter": "After",
+      "answer": "After weeks of doubt, Priya finally decided to go through with the interview she had agreed to give.",
+      "answerZh": "經過數星期的猶豫,Priya 最終決定完成她早已答應接受的訪問。",
+      "highlight": "go through with",
+      "targetForm": "go through with something",
+      "targetMeaningZh": "即使困難或不愉快,仍把事情完成"
+    },
+    {
+      "id": "phrasal-verb-223-q191",
+      "number": 191,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 75,
+      "prompt": "When the child began to cry, the nurse left her chair and moved towards him to see what was wrong.",
+      "promptZh": "孩子開始哭泣時,護士離開座位走到他身邊,看看發生了甚麼事。",
+      "starter": "When",
+      "answer": "When the child began to cry, the nurse left her chair and went over to him to see what was wrong.",
+      "answerZh": "孩子開始哭泣時,護士離開座位走到他身邊,看看發生了甚麼事。",
+      "highlight": "went over to",
+      "targetForm": "go over (to somebody/something)",
+      "targetMeaningZh": "走到某人或某物那邊"
+    },
+    {
+      "id": "phrasal-verb-223-q192",
+      "number": 192,
+      "band": 5,
+      "sourcePage": 41,
+      "answerSourcePage": 75,
+      "prompt": "Because the table was too wide, the cloth did not reach all the way around it.",
+      "promptZh": "由於桌子太闊,桌布無法完全圍住桌子。",
+      "starter": "Because",
+      "answer": "Because the table was too wide, the cloth did not go all the way round it.",
+      "answerZh": "由於桌子太闊,桌布無法完全圍住桌子。",
+      "highlight": "go",
+      "targetForm": "go round somebody/something",
+      "targetMeaningZh": "圍着某人或某物;環繞"
+    },
+    {
+      "id": "phrasal-verb-223-q193",
+      "number": 193,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "As the final result appeared on the screen, a mixture of excitement and fear passed through everyone in the room.",
+      "promptZh": "最終結果出現在螢幕上時,房內每個人都同時感到興奮和害怕。",
+      "starter": "As",
+      "answer": "As the final result appeared on the screen, a mixture of excitement and fear went through everyone in the room.",
+      "answerZh": "最終結果出現在螢幕上時,房內每個人都同時感到興奮和害怕。",
+      "highlight": "went",
+      "targetForm": "go through somebody",
+      "targetMeaningZh": "某種感覺突然傳遍某人的身體"
+    },
+    {
+      "id": "phrasal-verb-223-q194",
+      "number": 194,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "Since winning the prize, he has behaved as though he is better than everyone else.",
+      "promptZh": "自從獲獎後,他一直表現得好像比所有人優越。",
+      "starter": "Since",
+      "answer": "Since winning the prize, he has been going round acting as though he is better than everyone else.",
+      "answerZh": "自從獲獎後,他一直表現得好像比所有人優越。",
+      "highlight": "been going round acting",
+      "targetForm": "go round / go round something / go round doing something",
+      "targetMeaningZh": "經常以某種方式打扮、行事或四處做某事"
+    },
+    {
+      "id": "phrasal-verb-223-q195",
+      "number": 195,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "Because the repair cost exceeded the limit set by the school, the manager had to ask for permission.",
+      "promptZh": "由於維修費超過學校所定的限額,經理必須申請批准。",
+      "starter": "Because",
+      "answer": "Because the repair cost went over the limit set by the school, the manager had to ask for permission.",
+      "answerZh": "由於維修費超過學校所定的限額,經理必須申請批准。",
+      "highlight": "went over",
+      "targetForm": "go over something",
+      "targetMeaningZh": "超過限額、時間或數量"
+    },
+    {
+      "id": "phrasal-verb-223-q196",
+      "number": 196,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "Since Elena was feeling unwell, we decided to visit her at home and take her some soup.",
+      "promptZh": "由於 Elena 身體不適,我們決定到她家探望她,並帶些湯給她。",
+      "starter": "Since",
+      "answer": "Since Elena was feeling unwell, we decided to go round to her house and take her some soup.",
+      "answerZh": "由於 Elena 身體不適,我們決定到她家探望她,並帶些湯給她。",
+      "highlight": "go round to",
+      "targetForm": "go round (to somebody/somewhere)",
+      "targetMeaningZh": "到附近的人家或地方短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-223-q197",
+      "number": 197,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "When the lift stopped working, we had to climb six floors by the stairs.",
+      "promptZh": "升降機停止運作時,我們只好沿樓梯上六層。",
+      "starter": "When",
+      "answer": "When the lift stopped working, we had to go up six floors by the stairs.",
+      "answerZh": "升降機停止運作時,我們只好沿樓梯上六層。",
+      "highlight": "go up",
+      "targetForm": "go up / go up something",
+      "targetMeaningZh": "向上移動;上樓;沿斜坡或樓梯上去"
+    },
+    {
+      "id": "phrasal-verb-223-q198",
+      "number": 198,
+      "band": 5,
+      "sourcePage": 42,
+      "answerSourcePage": 76,
+      "prompt": "When the machine is working properly, the small red part turns in a complete circle every second.",
+      "promptZh": "機器正常運作時,那個紅色小零件每秒轉一圈。",
+      "starter": "When",
+      "answer": "When the machine is working properly, the small red part goes round once every second.",
+      "answerZh": "機器正常運作時,那個紅色小零件每秒轉一圈。",
+      "highlight": "goes round once",
+      "targetForm": "go round / go round something",
+      "targetMeaningZh": "旋轉;沿圓形路線移動"
+    },
+    {
+      "id": "phrasal-verb-223-q199",
+      "number": 199,
+      "band": 5,
+      "sourcePage": 43,
+      "answerSourcePage": 77,
+      "prompt": "Because the company would not accept direct orders, we had to use a local shop to buy the part.",
+      "promptZh": "由於公司不接受直接訂購,我們只好透過本地店舖購買零件。",
+      "starter": "Because",
+      "answer": "Because the company would not accept direct orders, we had to go through a local shop to buy the part.",
+      "answerZh": "由於公司不接受直接訂購,我們只好透過本地店舖購買零件。",
+      "highlight": "go through",
+      "targetForm": "go through somebody/something",
+      "targetMeaningZh": "透過某人或機構辦理事情"
+    },
+    {
+      "id": "phrasal-verb-223-q200",
+      "number": 200,
+      "band": 5,
+      "sourcePage": 43,
+      "answerSourcePage": 77,
+      "prompt": "The main gate was locked, so we had to walk around the building to reach the side entrance.",
+      "promptZh": "正門上鎖了,所以我們必須繞過大樓才能到達側門。",
+      "starter": "The",
+      "answer": "The main gate was locked, so we had to go round the building to reach the side entrance.",
+      "answerZh": "正門上鎖了,所以我們必須繞過大樓才能到達側門。",
+      "highlight": "go round",
+      "targetForm": "go round something",
+      "targetMeaningZh": "繞過角落、障礙物或地方"
+    }
+  ]
+}

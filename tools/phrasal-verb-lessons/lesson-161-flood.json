@@ -1,0 +1,1439 @@
+{
+  "id": "phrasal-verb-161",
+  "order": 161,
+  "slug": "flood",
+  "version": "1",
+  "title": "FLOOD 動詞片語",
+  "titleEn": "Flood",
+  "titleZh": "FLOOD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 160 - FLOOD.pdf",
+    "sourceNumber": 160,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLOOD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLOOD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLOOD",
+      "highlight": "FLOOD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The smell of bread made his school memories come flooding back.",
+      "zh": "麵包的氣味令他的校園回憶突然湧回腦海。",
+      "highlight": "flooding back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "People flooded into the station after the concert.",
+      "zh": "音樂會結束後,大批人群湧進車站。",
+      "highlight": "flooded into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Relief flooded through Daniel when his dog came home.",
+      "zh": "丹尼爾的狗回家時,一股如釋重負的感覺湧遍他全身。",
+      "highlight": "flooded through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "回憶、想法或感受突然強烈地再次出現；大量的人、物件、訊息或液體迅速湧來或進入；強烈感受突然湧上心頭或湧遍全身；水浸逼使某人離開住所或建築物；使某人或某處收到大量電話、訊息、問題或要求等",
+    "en": "flood back; flood in / flood into something; flood over/through somebody; flood somebody out; flood something with something",
+    "naturalZh": [
+      "回憶、想法或感受突然強烈地再次出現",
+      "大量的人、物件、訊息或液體迅速湧來或進入",
+      "強烈感受突然湧上心頭或湧遍全身",
+      "水浸逼使某人離開住所或建築物",
+      "使某人或某處收到大量電話、訊息、問題或要求等"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "flood back",
+      "titleZh": "回憶、想法或感受突然強烈地再次出現",
+      "titleEn": "flood back",
+      "descriptionZh": "回憶、想法或感受突然強烈地再次出現",
+      "descriptionEn": "The smell of bread made his school memories come flooding back.",
+      "examples": [
+        {
+          "en": "The smell of bread made his school memories come flooding back.",
+          "zh": "麵包的氣味令他的校園回憶突然湧回腦海。",
+          "highlight": "flooding back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flood in / flood into something",
+      "titleZh": "大量的人、物件、訊息或液體迅速湧來或進入",
+      "titleEn": "flood in / flood into something",
+      "descriptionZh": "大量的人、物件、訊息或液體迅速湧來或進入",
+      "descriptionEn": "People flooded into the station after the concert.",
+      "examples": [
+        {
+          "en": "People flooded into the station after the concert.",
+          "zh": "音樂會結束後,大批人群湧進車站。",
+          "highlight": "flooded into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flood over/through somebody",
+      "titleZh": "強烈感受突然湧上心頭或湧遍全身",
+      "titleEn": "flood over/through somebody",
+      "descriptionZh": "強烈感受突然湧上心頭或湧遍全身",
+      "descriptionEn": "Relief flooded through Daniel when his dog came home.",
+      "examples": [
+        {
+          "en": "Relief flooded through Daniel when his dog came home.",
+          "zh": "丹尼爾的狗回家時,一股如釋重負的感覺湧遍他全身。",
+          "highlight": "flooded through"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flood somebody out",
+      "titleZh": "水浸逼使某人離開住所或建築物",
+      "titleEn": "flood somebody out",
+      "descriptionZh": "水浸逼使某人離開住所或建築物",
+      "descriptionEn": "The storm flooded the neighbours out of their house.",
+      "examples": [
+        {
+          "en": "The storm flooded the neighbours out of their house.",
+          "zh": "暴風雨造成水浸,逼使鄰居離開住所。",
+          "highlight": "flooded the neighbours out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "flood something with something",
+      "titleZh": "使某人或某處收到大量電話、訊息、問題或要求等",
+      "titleEn": "flood something with something",
+      "descriptionZh": "使某人或某處收到大量電話、訊息、問題或要求等",
+      "descriptionEn": "Listeners flooded the radio station with messages.",
+      "examples": [
+        {
+          "en": "Listeners flooded the radio station with messages.",
+          "zh": "聽眾向電台傳送大量訊息。",
+          "highlight": "flooded the radio station with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FLOOD 片語動詞的實際用途",
+    "labelEn": "FLOOD Phrasal Verbs in Use",
+    "summaryZh": "flood back 可以描述回憶、想法或恐懼突然再次湧現。；flood in 和 flood into 可以描述人群、水、訊息、電話和訂單大量湧來。；flood over 和 flood through 可以表示某種強烈感受突然湧上心頭或湧遍全身。；flood out 可以解釋人們為何因水浸而要離開建築物;flood something with something 則可以描述收到大量電話、訊息或要求。",
+    "summaryEn": "Flood back helps you describe memories, thoughts or fears that suddenly return. Flood in and flood into can describe crowds, water, messages, calls and orders arriving in large numbers. Flood over and flood through show that a strong feeling suddenly fills someone. Flood out explains why people must leave a building because of water. Flood something with something describes receiving too many calls, messages or requests.",
+    "contextsZh": [
+      "使用 FLOOD 描述回憶強烈地再次出現",
+      "描述大量人或事物迅速湧來",
+      "清楚表達強烈感受",
+      "談論水浸破壞和大量回應"
+    ],
+    "contextsEn": [
+      "Use FLOOD to describe memories returning strongly",
+      "Describe large numbers arriving quickly",
+      "Express strong feelings clearly",
+      "Talk about water damage and overwhelming responses"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FLOOD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLOOD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "flood back",
+    "fixedHighlight": "flood back",
+    "fixedZh": "閱讀整句,選出意思相同的 FLOOD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLOOD expression that gives the same meaning.",
+    "correct": "flooding back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在指定地點前使用 flood into;若後面沒有直接接上地點,則可使用 flood in。；flood somebody out 經常以 be flooded out 的形式出現。",
+    "variableEn": "Keep the same people, things, time and meaning. Use flood into before a named place. Use flood in when no place follows it directly. People flooded into the hall. Messages flooded in. Flood somebody out often appears as be flooded out. We were flooded out by the storm.",
+    "variableItemsZh": [
+      "flood back",
+      "flood in / flood into something",
+      "flood over/through somebody",
+      "flood somebody out",
+      "flood something with something"
+    ],
+    "variableItemsEn": [
+      "flood back",
+      "flood in / flood into something",
+      "flood over/through somebody",
+      "flood somebody out",
+      "flood something with something"
+    ],
+    "forms": [
+      {
+        "formZh": "回憶、想法或感受突然強烈地再次出現",
+        "formEn": "flood back",
+        "exampleZh": "麵包的氣味令他的校園回憶突然湧回腦海。",
+        "exampleEn": "The smell of bread made his school memories come flooding back.",
+        "highlight": "flooding back"
+      },
+      {
+        "formZh": "大量的人、物件、訊息或液體迅速湧來或進入",
+        "formEn": "flood in / flood into something",
+        "exampleZh": "音樂會結束後,大批人群湧進車站。",
+        "exampleEn": "People flooded into the station after the concert.",
+        "highlight": "flooded into"
+      },
+      {
+        "formZh": "強烈感受突然湧上心頭或湧遍全身",
+        "formEn": "flood over/through somebody",
+        "exampleZh": "丹尼爾的狗回家時,一股如釋重負的感覺湧遍他全身。",
+        "exampleEn": "Relief flooded through Daniel when his dog came home.",
+        "highlight": "flooded through"
+      },
+      {
+        "formZh": "水浸逼使某人離開住所或建築物",
+        "formEn": "flood somebody out",
+        "exampleZh": "暴風雨造成水浸,逼使鄰居離開住所。",
+        "exampleEn": "The storm flooded the neighbours out of their house.",
+        "highlight": "flooded the neighbours out"
+      },
+      {
+        "formZh": "使某人或某處收到大量電話、訊息、問題或要求等",
+        "formEn": "flood something with something",
+        "exampleZh": "聽眾向電台傳送大量訊息。",
+        "exampleEn": "Listeners flooded the radio station with messages.",
+        "highlight": "flooded the radio station with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "回憶、想法或感受突然強烈地再次出現",
+      "titleEn": "flood back",
+      "formula": "flood back",
+      "highlight": "flood back",
+      "descriptionZh": "回憶、想法或感受突然強烈地再次出現",
+      "descriptionEn": "The smell of bread made his school memories come flooding back.",
+      "examples": [
+        {
+          "en": "The smell of bread made his school memories come flooding back.",
+          "zh": "麵包的氣味令他的校園回憶突然湧回腦海。",
+          "highlight": "flooding back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "大量的人、物件、訊息或液體迅速湧來或進入",
+      "titleEn": "flood in / flood into something",
+      "formula": "flood in / flood into something",
+      "highlight": "flood in / flood into something",
+      "descriptionZh": "大量的人、物件、訊息或液體迅速湧來或進入",
+      "descriptionEn": "People flooded into the station after the concert.",
+      "examples": [
+        {
+          "en": "People flooded into the station after the concert.",
+          "zh": "音樂會結束後,大批人群湧進車站。",
+          "highlight": "flooded into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "強烈感受突然湧上心頭或湧遍全身",
+      "titleEn": "flood over/through somebody",
+      "formula": "flood over/through somebody",
+      "highlight": "flood over/through somebody",
+      "descriptionZh": "強烈感受突然湧上心頭或湧遍全身",
+      "descriptionEn": "Relief flooded through Daniel when his dog came home.",
+      "examples": [
+        {
+          "en": "Relief flooded through Daniel when his dog came home.",
+          "zh": "丹尼爾的狗回家時,一股如釋重負的感覺湧遍他全身。",
+          "highlight": "flooded through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "水浸逼使某人離開住所或建築物",
+      "titleEn": "flood somebody out",
+      "formula": "flood somebody out",
+      "highlight": "flood somebody out",
+      "descriptionZh": "水浸逼使某人離開住所或建築物",
+      "descriptionEn": "The storm flooded the neighbours out of their house.",
+      "examples": [
+        {
+          "en": "The storm flooded the neighbours out of their house.",
+          "zh": "暴風雨造成水浸,逼使鄰居離開住所。",
+          "highlight": "flooded the neighbours out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "使某人或某處收到大量電話、訊息、問題或要求等",
+      "titleEn": "flood something with something",
+      "formula": "flood something with something",
+      "highlight": "flood something with something",
+      "descriptionZh": "使某人或某處收到大量電話、訊息、問題或要求等",
+      "descriptionEn": "Listeners flooded the radio station with messages.",
+      "examples": [
+        {
+          "en": "Listeners flooded the radio station with messages.",
+          "zh": "聽眾向電台傳送大量訊息。",
+          "highlight": "flooded the radio station with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 FLOOD 描述回憶強烈地再次出現",
+      "titleEn": "Use FLOOD to describe memories returning strongly",
+      "zh": "flood back 可以描述回憶、想法或恐懼突然再次湧現。",
+      "en": "Flood back helps you describe memories, thoughts or fears that suddenly return."
+    },
+    {
+      "titleZh": "描述大量人或事物迅速湧來",
+      "titleEn": "Describe large numbers arriving quickly",
+      "zh": "flood in 和 flood into 可以描述人群、水、訊息、電話和訂單大量湧來。",
+      "en": "Flood in and flood into can describe crowds, water, messages, calls and orders arriving in large numbers."
+    },
+    {
+      "titleZh": "清楚表達強烈感受",
+      "titleEn": "Express strong feelings clearly",
+      "zh": "flood over 和 flood through 可以表示某種強烈感受突然湧上心頭或湧遍全身。",
+      "en": "Flood over and flood through show that a strong feeling suddenly fills someone."
+    },
+    {
+      "titleZh": "談論水浸破壞和大量回應",
+      "titleEn": "Talk about water damage and overwhelming responses",
+      "zh": "flood out 可以解釋人們為何因水浸而要離開建築物;flood something with something 則可以描述收到大量電話、訊息或要求。",
+      "en": "Flood out explains why people must leave a building because of water. Flood something with something describes receiving too many calls, messages or requests."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 FLOOD 描述回憶強烈地再次出現",
+      "描述大量人或事物迅速湧來",
+      "清楚表達強烈感受",
+      "談論水浸破壞和大量回應"
+    ],
+    "contextsEn": [
+      "Use FLOOD to describe memories returning strongly",
+      "Describe large numbers arriving quickly",
+      "Express strong feelings clearly",
+      "Talk about water damage and overwhelming responses"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 FLOOD 描述回憶強烈地再次出現",
+        "titleEn": "Use FLOOD to describe memories returning strongly",
+        "zh": "flood back 可以描述回憶、想法或恐懼突然再次湧現。",
+        "en": "Flood back helps you describe memories, thoughts or fears that suddenly return.",
+        "examples": [
+          {
+            "en": "The smell of bread made his school memories come flooding back.",
+            "zh": "麵包的氣味令他的校園回憶突然湧回腦海。",
+            "highlight": "flooding back"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述大量人或事物迅速湧來",
+        "titleEn": "Describe large numbers arriving quickly",
+        "zh": "flood in 和 flood into 可以描述人群、水、訊息、電話和訂單大量湧來。",
+        "en": "Flood in and flood into can describe crowds, water, messages, calls and orders arriving in large numbers.",
+        "examples": [
+          {
+            "en": "People flooded into the station after the concert.",
+            "zh": "音樂會結束後,大批人群湧進車站。",
+            "highlight": "flooded into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達強烈感受",
+        "titleEn": "Express strong feelings clearly",
+        "zh": "flood over 和 flood through 可以表示某種強烈感受突然湧上心頭或湧遍全身。",
+        "en": "Flood over and flood through show that a strong feeling suddenly fills someone.",
+        "examples": [
+          {
+            "en": "Relief flooded through Daniel when his dog came home.",
+            "zh": "丹尼爾的狗回家時,一股如釋重負的感覺湧遍他全身。",
+            "highlight": "flooded through"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論水浸破壞和大量回應",
+        "titleEn": "Talk about water damage and overwhelming responses",
+        "zh": "flood out 可以解釋人們為何因水浸而要離開建築物;flood something with something 則可以描述收到大量電話、訊息或要求。",
+        "en": "Flood out explains why people must leave a building because of water. Flood something with something describes receiving too many calls, messages or requests.",
+        "examples": [
+          {
+            "en": "The storm flooded the neighbours out of their house.",
+            "zh": "暴風雨造成水浸,逼使鄰居離開住所。",
+            "highlight": "flooded the neighbours out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FLOOD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLOOD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FLOOD 片語動詞。",
+      "en": "Read the whole sentence and choose the FLOOD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在指定地點前使用 flood into;若後面沒有直接接上地點,則可使用 flood in。",
+      "titleEn": "Use flood into before a named place.",
+      "zh": "在指定地點前使用 flood into;若後面沒有直接接上地點,則可使用 flood in。",
+      "en": "Use flood into before a named place. Use flood in when no place follows it directly. People flooded into the hall. Messages flooded in."
+    },
+    {
+      "titleZh": "flood somebody out 經常以 be flooded out 的形式出現。",
+      "titleEn": "Flood somebody out often appears as be flooded out.",
+      "zh": "flood somebody out 經常以 be flooded out 的形式出現。",
+      "en": "Flood somebody out often appears as be flooded out. We were flooded out by the storm."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLOOD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLOOD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLOOD 動詞片語句子改寫練習",
+    "titleEn": "FLOOD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLOOD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLOOD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-161-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Many messages arrived quickly after the school announced the trip.",
+      "promptZh": "學校宣布旅行活動後,大量訊息迅速傳來。",
+      "starter": "Messages",
+      "answer": "Messages flooded in after the school announced the trip.",
+      "answerZh": "學校宣布旅行活動後,大量訊息迅速湧來。",
+      "highlight": "flooded in",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量湧來"
+    },
+    {
+      "id": "phrasal-verb-161-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Old memories suddenly returned when Leo opened the box.",
+      "promptZh": "里奧打開盒子時,舊日回憶突然再次出現。",
+      "starter": "Old",
+      "answer": "Old memories flooded back when Leo opened the box.",
+      "answerZh": "里奧打開盒子時,舊日回憶突然湧回腦海。",
+      "highlight": "flooded back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Viewers made a huge number of calls to the station after the programme.",
+      "promptZh": "節目結束後,觀眾向電台打了大量電話。",
+      "starter": "Viewers",
+      "answer": "Viewers flooded the station with calls after the programme.",
+      "answerZh": "節目結束後,觀眾向電台打了大量電話。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量電話、訊息或要求"
+    },
+    {
+      "id": "phrasal-verb-161-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sara suddenly felt great relief when she found her keys.",
+      "promptZh": "莎拉找到鎖匙時,突然感到非常安心。",
+      "starter": "Relief",
+      "answer": "Relief flooded through Sara when she found her keys.",
+      "answerZh": "莎拉找到鎖匙時,一股如釋重負的感覺湧遍她全身。",
+      "highlight": "Relief flooded through",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The storm forced three families to leave their homes because of the water.",
+      "promptZh": "暴風雨造成水浸,逼使三個家庭離開住所。",
+      "starter": "The",
+      "answer": "The storm flooded three families out of their homes.",
+      "answerZh": "暴風雨造成水浸,逼使三個家庭離開住所。",
+      "highlight": "flooded",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "All his fears suddenly returned before the exam.",
+      "promptZh": "考試前,他所有恐懼突然再次出現。",
+      "starter": "All",
+      "answer": "All his fears came flooding back before the exam.",
+      "answerZh": "考試前,他所有恐懼突然再次湧現。",
+      "highlight": "came flooding back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Students asked the teacher a very large number of questions after class.",
+      "promptZh": "下課後,學生向老師問了大量問題。",
+      "starter": "Students",
+      "answer": "Students flooded the teacher with questions after class.",
+      "answerZh": "下課後,學生向老師提出了大量問題。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某人收到大量問題或訊息"
+    },
+    {
+      "id": "phrasal-verb-161-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A large amount of water rushed into the kitchen through the back door.",
+      "promptZh": "大量的水從後門湧進廚房。",
+      "starter": "Water",
+      "answer": "Water flooded into the kitchen through the back door.",
+      "answerZh": "大量的水從後門湧進廚房。",
+      "highlight": "flooded",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nina was suddenly filled with happiness at the news.",
+      "promptZh": "妮娜聽到消息時,突然感到非常開心。",
+      "starter": "A",
+      "answer": "A wave of happiness flooded over Nina at the news.",
+      "answerZh": "妮娜聽到消息時,一股喜悅突然湧上心頭。",
+      "highlight": "A wave of happiness flooded over",
+      "targetForm": "flood over somebody",
+      "targetMeaningZh": "強烈感受突然湧上某人心頭"
+    },
+    {
+      "id": "phrasal-verb-161-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A broken water pipe forced us to leave our flat because of the water.",
+      "promptZh": "爆裂水管令我們因水浸而被迫離開住所。",
+      "starter": "We",
+      "answer": "We were flooded out of our flat by a broken water pipe.",
+      "answerZh": "爆裂水管造成水浸,逼使我們離開住所。",
+      "highlight": "We were flooded out of our flat by",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The old song made childhood memories suddenly return.",
+      "promptZh": "那首舊歌令童年回憶突然再次出現。",
+      "starter": "The",
+      "answer": "The old song made childhood memories flood back.",
+      "answerZh": "那首舊歌令童年回憶突然再次湧現。",
+      "highlight": "flood back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Fans sent a huge number of messages to the actor’s page.",
+      "promptZh": "粉絲向那名演員的專頁傳送了大量訊息。",
+      "starter": "Fans",
+      "answer": "Fans flooded the actor’s page with messages.",
+      "answerZh": "粉絲向那名演員的專頁傳送了大量訊息。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量訊息"
+    },
+    {
+      "id": "phrasal-verb-161-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Water from the storm forced five residents to leave their homes during the night.",
+      "promptZh": "夜間,積水逼使五名居民離開住所。",
+      "starter": "Five",
+      "answer": "Five residents were flooded out of their homes during the night.",
+      "answerZh": "夜間,五名居民因水浸而被迫離開住所。",
+      "highlight": "were flooded out of",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Orders are arriving in very large numbers from across the city.",
+      "promptZh": "來自全市的訂單正大量湧來。",
+      "starter": "Orders",
+      "answer": "Orders are flooding in from across the city.",
+      "answerZh": "來自全市的訂單正大量湧來。",
+      "highlight": "flooding",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量湧來"
+    },
+    {
+      "id": "phrasal-verb-161-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Since I read the letter, more and more details have returned to my mind.",
+      "promptZh": "自從我讀過那封信後,愈來愈多細節再次浮現在腦海。",
+      "starter": "Since",
+      "answer": "Since I read the letter, more and more details have flooded back.",
+      "answerZh": "自從我讀過那封信後,愈來愈多細節再次湧回腦海。",
+      "highlight": "flooded back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Parents have sent a huge number of emails to the office since Monday.",
+      "promptZh": "自星期一以來,家長向辦公室傳送了大量電郵。",
+      "starter": "Parents",
+      "answer": "Parents have flooded the office with emails since Monday.",
+      "answerZh": "自星期一以來,家長向辦公室傳送了大量電郵。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量電郵"
+    },
+    {
+      "id": "phrasal-verb-161-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I was suddenly filled with anger when I saw the damage.",
+      "promptZh": "我看到損毀時,怒氣突然湧上心頭。",
+      "starter": "Anger",
+      "answer": "Anger flooded through me when I saw the damage.",
+      "answerZh": "我看到損毀時,怒氣突然湧遍全身。",
+      "highlight": "flooded through me",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By noon, tourists were entering the old town in very large numbers.",
+      "promptZh": "到了中午,大批遊客正湧進舊城區。",
+      "starter": "Tourists",
+      "answer": "Tourists were flooding into the old town by noon.",
+      "answerZh": "到了中午,大批遊客正湧進舊城區。",
+      "highlight": "flooding into",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A burst pipe almost forced us to leave the flat because of the water.",
+      "promptZh": "爆裂水管差點令我們因水浸而被迫離開單位。",
+      "starter": "A",
+      "answer": "A burst pipe nearly flooded us out of the flat.",
+      "answerZh": "爆裂水管差點造成水浸,逼使我們離開單位。",
+      "highlight": "nearly flooded",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Her worries are suddenly returning now.",
+      "promptZh": "她的憂慮現在突然再次出現。",
+      "starter": "Her",
+      "answer": "Her worries are flooding back now.",
+      "answerZh": "她的憂慮現在突然再次湧現。",
+      "highlight": "flooding back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The shop received a huge number of orders after the advert.",
+      "promptZh": "廣告刊出後,店舖收到大量訂單。",
+      "starter": "The",
+      "answer": "The shop was flooded with orders after the advert.",
+      "answerZh": "廣告刊出後,店舖收到大量訂單。",
+      "highlight": "was flooded with",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量訂單或要求"
+    },
+    {
+      "id": "phrasal-verb-161-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The players were suddenly filled with pride after their win.",
+      "promptZh": "勝出比賽後,球員突然感到非常自豪。",
+      "starter": "Pride",
+      "answer": "Pride flooded through the players after their win.",
+      "answerZh": "勝出比賽後,自豪感突然湧遍球員全身。",
+      "highlight": "Pride flooded through",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "High water has forced the family to leave their home twice this year.",
+      "promptZh": "這個家庭今年已兩度因水浸而被迫離開住所。",
+      "starter": "The",
+      "answer": "The family has been flooded out twice this year.",
+      "answerZh": "這個家庭今年已兩度因水浸而被迫離開住所。",
+      "highlight": "has been flooded out",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why are so many people entering the hall so early?",
+      "promptZh": "為甚麼這麼多人這麼早便進入禮堂?",
+      "starter": "Why",
+      "answer": "Why are so many people flooding into the hall so early?",
+      "answerZh": "為甚麼這麼多人這麼早便湧進禮堂?",
+      "highlight": "flooding into",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please do not send so many photos to the group chat.",
+      "promptZh": "請不要在群組聊天室傳送太多相片。",
+      "starter": "Please",
+      "answer": "Please do not flood the group chat with photos.",
+      "answerZh": "請不要在群組聊天室傳送太多相片。",
+      "highlight": "flood",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到過多訊息或內容"
+    },
+    {
+      "id": "phrasal-verb-161-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the result appeared, the students were suddenly full of excitement.",
+      "promptZh": "結果出現時,學生突然感到非常興奮。",
+      "starter": "When",
+      "answer": "When the result appeared, excitement flooded through the students.",
+      "answerZh": "結果出現時,興奮的感覺突然湧遍學生全身。",
+      "highlight": "excitement flooded through",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The name sounded familiar, and then Ella suddenly remembered the whole story.",
+      "promptZh": "那個名字聽起來很熟悉,然後埃拉突然記起整個故事。",
+      "starter": "The",
+      "answer": "The name sounded familiar, and then the whole story came flooding back to Ella.",
+      "answerZh": "那個名字聽起來很熟悉,然後整個故事突然湧回埃拉的腦海。",
+      "highlight": "came flooding back to Ella",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Could the rising river force the villagers to leave their homes again this winter?",
+      "promptZh": "今年冬天,河水會否再次逼使村民離開住所?",
+      "starter": "Could",
+      "answer": "Could the river flood the villagers out again this winter?",
+      "answerZh": "今年冬天,河水會否再次造成水浸,逼使村民離開住所?",
+      "highlight": "flood",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "As soon as the doors opened, children entered the hall all at once in large numbers.",
+      "promptZh": "門一打開,大批孩子便同時進入禮堂。",
+      "starter": "As",
+      "answer": "As soon as the doors opened, children came flooding into the hall.",
+      "answerZh": "門一打開,大批孩子便湧進禮堂。",
+      "highlight": "came flooding into",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the video, viewers sent a huge number of questions to our inbox.",
+      "promptZh": "影片發布後,觀眾向我們的收件匣傳送了大量問題。",
+      "starter": "After",
+      "answer": "After the video, viewers flooded our inbox with questions.",
+      "answerZh": "影片發布後,觀眾向我們的收件匣傳送了大量問題。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量問題或訊息"
+    },
+    {
+      "id": "phrasal-verb-161-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He was suddenly filled with sadness when the party ended.",
+      "promptZh": "派對結束時,他突然感到一陣悲傷。",
+      "starter": "A",
+      "answer": "A sudden sadness flooded over him when the party ended.",
+      "answerZh": "派對結束時,一陣悲傷突然湧上他的心頭。",
+      "highlight": "A sudden",
+      "targetForm": "flood over somebody",
+      "targetMeaningZh": "強烈感受突然湧上某人心頭"
+    },
+    {
+      "id": "phrasal-verb-161-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Did all the instructions suddenly return to your mind during the test?",
+      "promptZh": "考試期間,所有指示有沒有突然再次浮現在你的腦海?",
+      "starter": "Did",
+      "answer": "Did all the instructions come flooding back during the test?",
+      "answerZh": "考試期間,所有指示有沒有突然再次湧回你的腦海?",
+      "highlight": "come flooding back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或內容突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The rising river forced the shop owners to leave their shops.",
+      "promptZh": "河水上漲後,店主被迫離開店舖。",
+      "starter": "The",
+      "answer": "The shop owners were flooded out of their shops after the river rose.",
+      "answerZh": "河水上漲後,店主因水浸而被迫離開店舖。",
+      "highlight": "were flooded out of",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開建築物"
+    },
+    {
+      "id": "phrasal-verb-161-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The school received a huge number of requests for places next term.",
+      "promptZh": "學校收到大量下學期學位申請。",
+      "starter": "The",
+      "answer": "The school was flooded with requests for places next term.",
+      "answerZh": "學校收到大量下學期學位申請。",
+      "highlight": "was flooded with",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量申請或要求"
+    },
+    {
+      "id": "phrasal-verb-161-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "More applications began arriving in large numbers after the deadline was extended.",
+      "promptZh": "截止日期延長後,更多申請開始大量送達。",
+      "starter": "More",
+      "answer": "More applications began flooding in after the deadline was extended.",
+      "answerZh": "截止日期延長後,更多申請開始大量湧來。",
+      "highlight": "flooding",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量湧來"
+    },
+    {
+      "id": "phrasal-verb-161-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "She suddenly felt calm as the baby fell asleep.",
+      "promptZh": "嬰兒入睡時,她突然感到一陣平靜。",
+      "starter": "A",
+      "answer": "A sense of calm flooded through her as the baby fell asleep.",
+      "answerZh": "嬰兒入睡時,一陣平靜的感覺突然湧遍她全身。",
+      "highlight": "A sense of",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "As I walked into the old classroom, I suddenly remembered the voices I had forgotten.",
+      "promptZh": "我走進舊課室時,突然記起那些早已忘記的聲音。",
+      "starter": "As",
+      "answer": "As I walked into the old classroom, forgotten voices came flooding back.",
+      "answerZh": "我走進舊課室時,那些早已忘記的聲音突然湧回腦海。",
+      "highlight": "old classroom, forgotten",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The final whistle blew, and the whole team suddenly felt relief.",
+      "promptZh": "終場哨聲響起時,全隊突然感到如釋重負。",
+      "starter": "The",
+      "answer": "The final whistle blew, and relief flooded over the whole team.",
+      "answerZh": "終場哨聲響起時,如釋重負的感覺突然湧上全隊心頭。",
+      "highlight": "relief flooded over",
+      "targetForm": "flood over somebody",
+      "targetMeaningZh": "強烈感受突然湧上某人心頭"
+    },
+    {
+      "id": "phrasal-verb-161-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A huge number of complaints arrived after the price change was announced.",
+      "promptZh": "價格變動公布後,大量投訴迅速湧來。",
+      "starter": "Complaints",
+      "answer": "Complaints flooded in after the price change was announced.",
+      "answerZh": "價格變動公布後,大量投訴迅速湧來。",
+      "highlight": "flooded in",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量湧來"
+    },
+    {
+      "id": "phrasal-verb-161-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If the rain continues, several villagers may have to leave their homes because of the water.",
+      "promptZh": "如果雨勢持續,幾名村民可能要因水浸而離開住所。",
+      "starter": "If",
+      "answer": "If the rain continues, several villagers may be flooded out of their homes.",
+      "answerZh": "如果雨勢持續,幾名村民可能要因水浸而離開住所。",
+      "highlight": "be flooded out of",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did customers send so many emails to the help desk?",
+      "promptZh": "顧客為甚麼向服務台傳送這麼多電郵?",
+      "starter": "Why",
+      "answer": "Why did customers flood the help desk with emails?",
+      "answerZh": "顧客為甚麼向服務台傳送這麼多電郵?",
+      "highlight": "flood",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量電郵"
+    },
+    {
+      "id": "phrasal-verb-161-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "For a moment, Aisha could not remember the answer; then she suddenly remembered it.",
+      "promptZh": "有一刻,艾莎記不起答案;然後她突然記起了。",
+      "starter": "For",
+      "answer": "For a moment, Aisha could not remember the answer; then it came flooding back.",
+      "answerZh": "有一刻,艾莎記不起答案;然後答案突然再次湧回腦海。",
+      "highlight": "came flooding back",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或內容突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Sam was suddenly filled with fear when the lights stopped working.",
+      "promptZh": "燈突然停止運作時,森姆突然感到害怕。",
+      "starter": "Fear",
+      "answer": "Fear flooded through Sam when the lights stopped working.",
+      "answerZh": "燈突然停止運作時,恐懼感突然湧遍森姆全身。",
+      "highlight": "Fear flooded through",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The room suddenly filled with sunlight when the curtains opened.",
+      "promptZh": "窗簾打開時,房間突然充滿陽光。",
+      "starter": "Sunlight",
+      "answer": "Sunlight flooded into the room when the curtains opened.",
+      "answerZh": "窗簾打開時,陽光大量湧進房間。",
+      "highlight": "Sunlight flooded into",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the burst pipe forced the family to leave their home, they stayed with friends.",
+      "promptZh": "爆裂水管逼使那個家庭離開住所後,他們暫住在朋友家中。",
+      "starter": "After",
+      "answer": "After the burst pipe flooded the family out of their home, they stayed with friends.",
+      "answerZh": "爆裂水管造成水浸,逼使那個家庭離開住所後,他們暫住在朋友家中。",
+      "highlight": "flooded",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Seeing the old team photo made him suddenly remember every detail.",
+      "promptZh": "看到那張舊隊伍合照,令他突然記起每一個細節。",
+      "starter": "Seeing",
+      "answer": "Seeing the old team photo made every detail come flooding back to him.",
+      "answerZh": "看到那張舊隊伍合照,令每一個細節突然湧回他的腦海。",
+      "highlight": "come flooding back to him",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或內容突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Reporters asked the player a huge number of questions after the match.",
+      "promptZh": "比賽後,記者向那名球員提出了大量問題。",
+      "starter": "Reporters",
+      "answer": "Reporters flooded the player with questions after the match.",
+      "answerZh": "比賽後,記者向那名球員提出了大量問題。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某人收到大量問題"
+    },
+    {
+      "id": "phrasal-verb-161-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We were suddenly filled with warmth when everyone welcomed us home.",
+      "promptZh": "大家歡迎我們回家時,一股溫暖的感覺突然湧上心頭。",
+      "starter": "Warmth",
+      "answer": "Warmth flooded over us when everyone welcomed us home.",
+      "answerZh": "大家歡迎我們回家時,一股溫暖的感覺突然湧上心頭。",
+      "highlight": "flooded over us",
+      "targetForm": "flood over somebody",
+      "targetMeaningZh": "強烈感受突然湧上某人心頭"
+    },
+    {
+      "id": "phrasal-verb-161-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When registration opened, applications arrived so quickly that the team could not read them all.",
+      "promptZh": "報名開始後,申請送達得太快,團隊根本來不及閱讀。",
+      "starter": "When",
+      "answer": "When registration opened, applications flooded in faster than the team could read them.",
+      "answerZh": "報名開始後,申請大量湧來,速度快得團隊根本來不及閱讀。",
+      "highlight": "flooded in faster than",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量迅速湧來"
+    },
+    {
+      "id": "phrasal-verb-161-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before help arrived, heavy rain had forced the couple to leave their home.",
+      "promptZh": "救援到達前,大雨已逼使那對夫婦離開住所。",
+      "starter": "Heavy",
+      "answer": "Heavy rain had flooded the couple out of their home before help arrived.",
+      "answerZh": "救援到達前,大雨已造成水浸,逼使那對夫婦離開住所。",
+      "highlight": "Heavy rain had flooded the couple out of their home",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The smell of the sea made Karim suddenly remember the whole holiday.",
+      "promptZh": "海水的氣味令卡里姆突然記起整個假期。",
+      "starter": "The",
+      "answer": "The smell of the sea made the whole holiday come flooding back to Karim.",
+      "answerZh": "海水的氣味令整個假期的回憶突然湧回卡里姆的腦海。",
+      "highlight": "come flooding back to Karim",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或感受突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Since the announcement, job seekers have sent the company a huge number of applications.",
+      "promptZh": "公布消息後,求職者向公司遞交了大量申請。",
+      "starter": "Since",
+      "answer": "Since the announcement, job seekers have flooded the company with applications.",
+      "answerZh": "公布消息後,求職者向公司遞交了大量申請。",
+      "highlight": "flooded",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量申請"
+    },
+    {
+      "id": "phrasal-verb-161-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the parents heard that everyone was safe, they suddenly felt great relief.",
+      "promptZh": "家長聽到所有人都安全時,突然感到如釋重負。",
+      "starter": "On",
+      "answer": "On hearing that everyone was safe, relief flooded through the parents.",
+      "answerZh": "家長聽到所有人都安全時,如釋重負的感覺突然湧遍全身。",
+      "highlight": "On hearing",
+      "targetForm": "flood through somebody",
+      "targetMeaningZh": "強烈感受突然湧遍某人全身"
+    },
+    {
+      "id": "phrasal-verb-161-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "By the time the concert began, hundreds of fans had entered the square in a large crowd.",
+      "promptZh": "音樂會開始前,數百名粉絲已大批湧進廣場。",
+      "starter": "By",
+      "answer": "By the time the concert began, hundreds of fans had flooded into the square.",
+      "answerZh": "音樂會開始前,數百名粉絲已大批湧進廣場。",
+      "highlight": "flooded into",
+      "targetForm": "flood into something",
+      "targetMeaningZh": "大量迅速湧進某處"
+    },
+    {
+      "id": "phrasal-verb-161-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family did not have to leave their home because the sandbags stopped the water.",
+      "promptZh": "沙包成功擋住水,所以那個家庭不用離開住所。",
+      "starter": "The",
+      "answer": "The family was not flooded out of their home because the sandbags held.",
+      "answerZh": "沙包成功擋住水,所以那個家庭沒有因水浸而被迫離開住所。",
+      "highlight": "was",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once the teacher mentioned the play, Ben suddenly remembered the missing lines.",
+      "promptZh": "老師一提到那齣話劇,賓便突然記起忘掉的台詞。",
+      "starter": "Once",
+      "answer": "Once the teacher mentioned the play, the missing lines came flooding back to Ben.",
+      "answerZh": "老師一提到那齣話劇,忘掉的台詞便突然湧回賓的腦海。",
+      "highlight": "came flooding back to Ben",
+      "targetForm": "flood back",
+      "targetMeaningZh": "回憶、想法或內容突然再次湧現"
+    },
+    {
+      "id": "phrasal-verb-161-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The website may receive a huge number of orders when the sale begins.",
+      "promptZh": "減價活動開始時,網站可能會收到大量訂單。",
+      "starter": "The",
+      "answer": "The website may be flooded with orders when the sale begins.",
+      "answerZh": "減價活動開始時,網站可能會收到大量訂單。",
+      "highlight": "be flooded with",
+      "targetForm": "flood something with something",
+      "targetMeaningZh": "使某處收到大量訂單或要求"
+    },
+    {
+      "id": "phrasal-verb-161-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "As the winner’s name was announced, her parents suddenly felt very proud.",
+      "promptZh": "得獎者的名字公布時,她的父母突然感到非常自豪。",
+      "starter": "As",
+      "answer": "As the winner’s name was announced, pride flooded over her parents.",
+      "answerZh": "得獎者的名字公布時,自豪感突然湧上她父母的心頭。",
+      "highlight": "pride flooded over",
+      "targetForm": "flood over somebody",
+      "targetMeaningZh": "強烈感受突然湧上某人心頭"
+    },
+    {
+      "id": "phrasal-verb-161-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "How many people had to leave their homes because of the water from last night’s storm?",
+      "promptZh": "昨晚的暴風雨令多少人因水浸而被迫離開住所?",
+      "starter": "How",
+      "answer": "How many people were flooded out by last night’s storm?",
+      "answerZh": "昨晚的暴風雨令多少人因水浸而被迫離開住所?",
+      "highlight": "were flooded out by",
+      "targetForm": "flood somebody out",
+      "targetMeaningZh": "因水浸逼使某人離開住所"
+    },
+    {
+      "id": "phrasal-verb-161-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Calls kept arriving in large numbers, even after the office had closed.",
+      "promptZh": "辦公室關門後,電話仍然大量打來。",
+      "starter": "Calls",
+      "answer": "Calls kept flooding in, even after the office had closed.",
+      "answerZh": "辦公室關門後,電話仍然大量打來。",
+      "highlight": "flooding",
+      "targetForm": "flood in",
+      "targetMeaningZh": "大量持續湧來"
+    }
+  ]
+}

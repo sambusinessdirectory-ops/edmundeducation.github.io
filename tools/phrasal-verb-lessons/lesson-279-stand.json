@@ -1,0 +1,2205 @@
+{
+  "id": "phrasal-verb-279",
+  "order": 279,
+  "slug": "stand",
+  "version": "1",
+  "title": "STAND 動詞片語",
+  "titleEn": "Stand",
+  "titleZh": "STAND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 264 - STAND.pdf",
+    "sourceNumber": 264,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STAND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STAND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STAND",
+      "highlight": "STAND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Several people stood around the street performer.",
+      "zh": "幾個人站在街頭表演者周圍觀看。",
+      "highlight": "stood around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please stand back from the edge.",
+      "zh": "請與邊緣保持距離。",
+      "highlight": "stand back from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "One final test stands between her and graduation.",
+      "zh": "只剩下一次測驗阻礙她畢業。",
+      "highlight": "stands",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事；往後站;與某物保持安全距離；成為 A 與 B 之間的障礙;阻止 A 得到 B；袖手旁觀;在事情發生時甚麼也不做；支持某人;對某人不離不棄；堅持某項說法、決定、承諾或意見；辭去職位;退任；代表;意思是；暫時代替某人；顯眼;突出;容易被注意到；在旁緊盯或監督某人；站起來；爽約;沒有按約定出現,使某人白等；維護;支持;替某人或某事物說話；勇敢反抗;不向某人、威嚇或壓力屈服；物料或產品經得起某種環境、天氣或長期使用",
+    "en": "stand around / stand round; stand around/round somebody or something; stand back; stand back from something; stand between A and B; stand by; stand by somebody; stand by something; stand down; stand for something; stand in; stand in for somebody; stand out; stand over somebody; stand up; stand somebody up; stand up for somebody, something or yourself; stand up to somebody or something; stand up to something",
+    "naturalZh": [
+      "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+      "往後站;與某物保持安全距離",
+      "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+      "袖手旁觀;在事情發生時甚麼也不做",
+      "支持某人;對某人不離不棄",
+      "堅持某項說法、決定、承諾或意見",
+      "辭去職位;退任",
+      "代表;意思是",
+      "暫時代替某人",
+      "顯眼;突出;容易被注意到",
+      "在旁緊盯或監督某人",
+      "站起來",
+      "爽約;沒有按約定出現,使某人白等",
+      "維護;支持;替某人或某事物說話",
+      "勇敢反抗;不向某人、威嚇或壓力屈服",
+      "物料或產品經得起某種環境、天氣或長期使用"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "stand around / stand round; stand around/round somebody or something",
+      "titleZh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+      "titleEn": "stand around / stand round; stand around/round somebody or something",
+      "descriptionZh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+      "descriptionEn": "Several people stood around the street performer.",
+      "examples": [
+        {
+          "en": "Several people stood around the street performer.",
+          "zh": "幾個人站在街頭表演者周圍觀看。",
+          "highlight": "stood around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand back; stand back from something",
+      "titleZh": "往後站;與某物保持安全距離",
+      "titleEn": "stand back; stand back from something",
+      "descriptionZh": "往後站;與某物保持安全距離",
+      "descriptionEn": "Please stand back from the edge.",
+      "examples": [
+        {
+          "en": "Please stand back from the edge.",
+          "zh": "請與邊緣保持距離。",
+          "highlight": "stand back from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand between A and B",
+      "titleZh": "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+      "titleEn": "stand between A and B",
+      "descriptionZh": "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+      "descriptionEn": "One final test stands between her and graduation.",
+      "examples": [
+        {
+          "en": "One final test stands between her and graduation.",
+          "zh": "只剩下一次測驗阻礙她畢業。",
+          "highlight": "stands"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand by",
+      "titleZh": "袖手旁觀;在事情發生時甚麼也不做",
+      "titleEn": "stand by",
+      "descriptionZh": "袖手旁觀;在事情發生時甚麼也不做",
+      "descriptionEn": "We cannot stand by while someone is treated unfairly.",
+      "examples": [
+        {
+          "en": "We cannot stand by while someone is treated unfairly.",
+          "zh": "有人受到不公平對待時,我們不能袖手旁觀。",
+          "highlight": "stand by"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand by somebody",
+      "titleZh": "支持某人;對某人不離不棄",
+      "titleEn": "stand by somebody",
+      "descriptionZh": "支持某人;對某人不離不棄",
+      "descriptionEn": "Her friends stood by her during the difficult week.",
+      "examples": [
+        {
+          "en": "Her friends stood by her during the difficult week.",
+          "zh": "在艱難的一星期裏,她的朋友一直支持她。",
+          "highlight": "stood by"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand by something",
+      "titleZh": "堅持某項說法、決定、承諾或意見",
+      "titleEn": "stand by something",
+      "descriptionZh": "堅持某項說法、決定、承諾或意見",
+      "descriptionEn": "I still stand by my decision.",
+      "examples": [
+        {
+          "en": "I still stand by my decision.",
+          "zh": "我仍然堅持自己的決定。",
+          "highlight": "stand by"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand down",
+      "titleZh": "辭去職位;退任",
+      "titleEn": "stand down",
+      "descriptionZh": "辭去職位;退任",
+      "descriptionEn": "The captain will stand down next month.",
+      "examples": [
+        {
+          "en": "The captain will stand down next month.",
+          "zh": "隊長將於下月退任。",
+          "highlight": "stand down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand for something",
+      "titleZh": "代表;意思是",
+      "titleEn": "stand for something",
+      "descriptionZh": "代表;意思是",
+      "descriptionEn": "What does this letter stand for?",
+      "examples": [
+        {
+          "en": "What does this letter stand for?",
+          "zh": "這個字母代表甚麼?",
+          "highlight": "stand for"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stand in; stand in for somebody",
+      "titleZh": "暫時代替某人",
+      "titleEn": "stand in; stand in for somebody",
+      "descriptionZh": "暫時代替某人",
+      "descriptionEn": "Can you stand in for me tomorrow?",
+      "examples": [
+        {
+          "en": "Can you stand in for me tomorrow?",
+          "zh": "你明天可以暫時代替我嗎?",
+          "highlight": "stand in for"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand out",
+      "titleZh": "顯眼;突出;容易被注意到",
+      "titleEn": "stand out",
+      "descriptionZh": "顯眼;突出;容易被注意到",
+      "descriptionEn": "Her red coat stood out in the crowd.",
+      "examples": [
+        {
+          "en": "Her red coat stood out in the crowd.",
+          "zh": "她的紅色外套在人群中十分顯眼。",
+          "highlight": "stood out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand over somebody",
+      "titleZh": "在旁緊盯或監督某人",
+      "titleEn": "stand over somebody",
+      "descriptionZh": "在旁緊盯或監督某人",
+      "descriptionEn": "He only works when somebody stands over him.",
+      "examples": [
+        {
+          "en": "He only works when somebody stands over him.",
+          "zh": "只有在有人從旁監督時,他才會工作。",
+          "highlight": "stands over"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand up",
+      "titleZh": "站起來",
+      "titleEn": "stand up",
+      "descriptionZh": "站起來",
+      "descriptionEn": "Everyone stood up when the teacher entered.",
+      "examples": [
+        {
+          "en": "Everyone stood up when the teacher entered.",
+          "zh": "老師進來時,所有人都站了起來。",
+          "highlight": "stood up"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand somebody up",
+      "titleZh": "爽約;沒有按約定出現,使某人白等",
+      "titleEn": "stand somebody up",
+      "descriptionZh": "爽約;沒有按約定出現,使某人白等",
+      "descriptionEn": "He stood me up at the restaurant.",
+      "examples": [
+        {
+          "en": "He stood me up at the restaurant.",
+          "zh": "他在餐廳爽約,令我白等。",
+          "highlight": "stood me up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand up for somebody, something or yourself",
+      "titleZh": "維護;支持;替某人或某事物說話",
+      "titleEn": "stand up for somebody, something or yourself",
+      "descriptionZh": "維護;支持;替某人或某事物說話",
+      "descriptionEn": "You must learn to stand up for yourself.",
+      "examples": [
+        {
+          "en": "You must learn to stand up for yourself.",
+          "zh": "你必須學會維護自己。",
+          "highlight": "stand up for"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand up to somebody or something",
+      "titleZh": "勇敢反抗;不向某人、威嚇或壓力屈服",
+      "titleEn": "stand up to somebody or something",
+      "descriptionZh": "勇敢反抗;不向某人、威嚇或壓力屈服",
+      "descriptionEn": "She finally stood up to the bully.",
+      "examples": [
+        {
+          "en": "She finally stood up to the bully.",
+          "zh": "她終於勇敢反抗那名惡霸。",
+          "highlight": "stood up to"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stand up to something",
+      "titleZh": "物料或產品經得起某種環境、天氣或長期使用",
+      "titleEn": "stand up to something",
+      "descriptionZh": "物料或產品經得起某種環境、天氣或長期使用",
+      "descriptionEn": "These boots can stand up to heavy rain.",
+      "examples": [
+        {
+          "en": "These boots can stand up to heavy rain.",
+          "zh": "這雙靴可以抵受大雨。",
+          "highlight": "stand up to"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STAND 片語動詞的實際用途",
+    "labelEn": "STAND Phrasal Verbs in Use",
+    "summaryZh": "stand by somebody 表示在某人面對困難時繼續支持對方;stand up for somebody 則表示在對方受到不公平對待時維護他。；stand up to 可以表示某人拒絕接受欺凌、威嚇、壓力或惡劣對待。；stand back、stand around、stand over、stand up 和 stand out 可以幫助你描述人物的位置、動作,以及某物是否顯眼。；stand in 表示暫時代替某人;stand for 用來解釋意思;stand down 表示退任;stand between 則表示成為障礙。",
+    "summaryEn": "Stand by somebody shows that you continue supporting a person during a difficult time. Stand up for somebody shows that you defend them when they are treated unfairly. Stand up to can show that someone refuses to accept bullying, threats, pressure or bad treatment. Stand back, stand around, stand over, stand up and stand out help you describe where people are, how they move and whether something is easy to notice. Stand in describes temporarily replacing somebody. Stand for explains a meaning. Stand down describes leaving a position, while stand between describes an obstacle.",
+    "contextsZh": [
+      "清楚談論支持和忠誠",
+      "描述勇氣和反抗",
+      "描述位置、動作和顯眼程度",
+      "談論職務、意思和障礙"
+    ],
+    "contextsEn": [
+      "Talk clearly about support and loyalty",
+      "Describe courage and resistance",
+      "Describe position, movement and visibility",
+      "Talk about roles, meanings and obstacles"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STAND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STAND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "stand around / stand round; stand around/round somebody or something",
+    "fixedHighlight": "stand around / stand round; stand around/round somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 STAND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STAND expression that gives the same meaning.",
+    "correct": "stood around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；請仔細閱讀完整情境,因為相似的表達可以有不同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. Place words such as him, her, it and them as shown: stand by her stand him up stand up for them stand up to him stand over her Read the complete situation carefully because similar expressions may have different meanings: stand by = do nothing stand by somebody = support somebody stand by something = continue to support a statement or decision stand up to somebody = resist somebody stand up to bad weather = remain strong in bad weather",
+    "variableItemsZh": [
+      "stand around / stand round; stand around/round somebody or something",
+      "stand back; stand back from something",
+      "stand between A and B",
+      "stand by",
+      "stand by somebody",
+      "stand by something",
+      "stand down",
+      "stand for something",
+      "stand in; stand in for somebody",
+      "stand out",
+      "stand over somebody",
+      "stand up",
+      "stand somebody up",
+      "stand up for somebody, something or yourself",
+      "stand up to somebody or something",
+      "stand up to something"
+    ],
+    "variableItemsEn": [
+      "stand around / stand round; stand around/round somebody or something",
+      "stand back; stand back from something",
+      "stand between A and B",
+      "stand by",
+      "stand by somebody",
+      "stand by something",
+      "stand down",
+      "stand for something",
+      "stand in; stand in for somebody",
+      "stand out",
+      "stand over somebody",
+      "stand up",
+      "stand somebody up",
+      "stand up for somebody, something or yourself",
+      "stand up to somebody or something",
+      "stand up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+        "formEn": "stand around / stand round; stand around/round somebody or something",
+        "exampleZh": "幾個人站在街頭表演者周圍觀看。",
+        "exampleEn": "Several people stood around the street performer.",
+        "highlight": "stood around"
+      },
+      {
+        "formZh": "往後站;與某物保持安全距離",
+        "formEn": "stand back; stand back from something",
+        "exampleZh": "請與邊緣保持距離。",
+        "exampleEn": "Please stand back from the edge.",
+        "highlight": "stand back from"
+      },
+      {
+        "formZh": "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+        "formEn": "stand between A and B",
+        "exampleZh": "只剩下一次測驗阻礙她畢業。",
+        "exampleEn": "One final test stands between her and graduation.",
+        "highlight": "stands"
+      },
+      {
+        "formZh": "袖手旁觀;在事情發生時甚麼也不做",
+        "formEn": "stand by",
+        "exampleZh": "有人受到不公平對待時,我們不能袖手旁觀。",
+        "exampleEn": "We cannot stand by while someone is treated unfairly.",
+        "highlight": "stand by"
+      },
+      {
+        "formZh": "支持某人;對某人不離不棄",
+        "formEn": "stand by somebody",
+        "exampleZh": "在艱難的一星期裏,她的朋友一直支持她。",
+        "exampleEn": "Her friends stood by her during the difficult week.",
+        "highlight": "stood by"
+      },
+      {
+        "formZh": "堅持某項說法、決定、承諾或意見",
+        "formEn": "stand by something",
+        "exampleZh": "我仍然堅持自己的決定。",
+        "exampleEn": "I still stand by my decision.",
+        "highlight": "stand by"
+      },
+      {
+        "formZh": "辭去職位;退任",
+        "formEn": "stand down",
+        "exampleZh": "隊長將於下月退任。",
+        "exampleEn": "The captain will stand down next month.",
+        "highlight": "stand down"
+      },
+      {
+        "formZh": "代表;意思是",
+        "formEn": "stand for something",
+        "exampleZh": "這個字母代表甚麼?",
+        "exampleEn": "What does this letter stand for?",
+        "highlight": "stand for"
+      },
+      {
+        "formZh": "暫時代替某人",
+        "formEn": "stand in; stand in for somebody",
+        "exampleZh": "你明天可以暫時代替我嗎?",
+        "exampleEn": "Can you stand in for me tomorrow?",
+        "highlight": "stand in for"
+      },
+      {
+        "formZh": "顯眼;突出;容易被注意到",
+        "formEn": "stand out",
+        "exampleZh": "她的紅色外套在人群中十分顯眼。",
+        "exampleEn": "Her red coat stood out in the crowd.",
+        "highlight": "stood out"
+      },
+      {
+        "formZh": "在旁緊盯或監督某人",
+        "formEn": "stand over somebody",
+        "exampleZh": "只有在有人從旁監督時,他才會工作。",
+        "exampleEn": "He only works when somebody stands over him.",
+        "highlight": "stands over"
+      },
+      {
+        "formZh": "站起來",
+        "formEn": "stand up",
+        "exampleZh": "老師進來時,所有人都站了起來。",
+        "exampleEn": "Everyone stood up when the teacher entered.",
+        "highlight": "stood up"
+      },
+      {
+        "formZh": "爽約;沒有按約定出現,使某人白等",
+        "formEn": "stand somebody up",
+        "exampleZh": "他在餐廳爽約,令我白等。",
+        "exampleEn": "He stood me up at the restaurant.",
+        "highlight": "stood me up"
+      },
+      {
+        "formZh": "維護;支持;替某人或某事物說話",
+        "formEn": "stand up for somebody, something or yourself",
+        "exampleZh": "你必須學會維護自己。",
+        "exampleEn": "You must learn to stand up for yourself.",
+        "highlight": "stand up for"
+      },
+      {
+        "formZh": "勇敢反抗;不向某人、威嚇或壓力屈服",
+        "formEn": "stand up to somebody or something",
+        "exampleZh": "她終於勇敢反抗那名惡霸。",
+        "exampleEn": "She finally stood up to the bully.",
+        "highlight": "stood up to"
+      },
+      {
+        "formZh": "物料或產品經得起某種環境、天氣或長期使用",
+        "formEn": "stand up to something",
+        "exampleZh": "這雙靴可以抵受大雨。",
+        "exampleEn": "These boots can stand up to heavy rain.",
+        "highlight": "stand up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+      "titleEn": "stand around / stand round; stand around/round somebody or something",
+      "formula": "stand around / stand round; stand around/round somebody or something",
+      "highlight": "stand around / stand round; stand around/round somebody or something",
+      "descriptionZh": "站在附近或圍在某人或某物周圍,通常只是在等候、觀看或沒有做事",
+      "descriptionEn": "Several people stood around the street performer.",
+      "examples": [
+        {
+          "en": "Several people stood around the street performer.",
+          "zh": "幾個人站在街頭表演者周圍觀看。",
+          "highlight": "stood around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "往後站;與某物保持安全距離",
+      "titleEn": "stand back; stand back from something",
+      "formula": "stand back; stand back from something",
+      "highlight": "stand back; stand back from something",
+      "descriptionZh": "往後站;與某物保持安全距離",
+      "descriptionEn": "Please stand back from the edge.",
+      "examples": [
+        {
+          "en": "Please stand back from the edge.",
+          "zh": "請與邊緣保持距離。",
+          "highlight": "stand back from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+      "titleEn": "stand between A and B",
+      "formula": "stand between A and B",
+      "highlight": "stand between A and B",
+      "descriptionZh": "成為 A 與 B 之間的障礙;阻止 A 得到 B",
+      "descriptionEn": "One final test stands between her and graduation.",
+      "examples": [
+        {
+          "en": "One final test stands between her and graduation.",
+          "zh": "只剩下一次測驗阻礙她畢業。",
+          "highlight": "stands"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "袖手旁觀;在事情發生時甚麼也不做",
+      "titleEn": "stand by",
+      "formula": "stand by",
+      "highlight": "stand by",
+      "descriptionZh": "袖手旁觀;在事情發生時甚麼也不做",
+      "descriptionEn": "We cannot stand by while someone is treated unfairly.",
+      "examples": [
+        {
+          "en": "We cannot stand by while someone is treated unfairly.",
+          "zh": "有人受到不公平對待時,我們不能袖手旁觀。",
+          "highlight": "stand by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "支持某人;對某人不離不棄",
+      "titleEn": "stand by somebody",
+      "formula": "stand by somebody",
+      "highlight": "stand by somebody",
+      "descriptionZh": "支持某人;對某人不離不棄",
+      "descriptionEn": "Her friends stood by her during the difficult week.",
+      "examples": [
+        {
+          "en": "Her friends stood by her during the difficult week.",
+          "zh": "在艱難的一星期裏,她的朋友一直支持她。",
+          "highlight": "stood by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "堅持某項說法、決定、承諾或意見",
+      "titleEn": "stand by something",
+      "formula": "stand by something",
+      "highlight": "stand by something",
+      "descriptionZh": "堅持某項說法、決定、承諾或意見",
+      "descriptionEn": "I still stand by my decision.",
+      "examples": [
+        {
+          "en": "I still stand by my decision.",
+          "zh": "我仍然堅持自己的決定。",
+          "highlight": "stand by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "辭去職位;退任",
+      "titleEn": "stand down",
+      "formula": "stand down",
+      "highlight": "stand down",
+      "descriptionZh": "辭去職位;退任",
+      "descriptionEn": "The captain will stand down next month.",
+      "examples": [
+        {
+          "en": "The captain will stand down next month.",
+          "zh": "隊長將於下月退任。",
+          "highlight": "stand down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "代表;意思是",
+      "titleEn": "stand for something",
+      "formula": "stand for something",
+      "highlight": "stand for something",
+      "descriptionZh": "代表;意思是",
+      "descriptionEn": "What does this letter stand for?",
+      "examples": [
+        {
+          "en": "What does this letter stand for?",
+          "zh": "這個字母代表甚麼?",
+          "highlight": "stand for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "暫時代替某人",
+      "titleEn": "stand in; stand in for somebody",
+      "formula": "stand in; stand in for somebody",
+      "highlight": "stand in; stand in for somebody",
+      "descriptionZh": "暫時代替某人",
+      "descriptionEn": "Can you stand in for me tomorrow?",
+      "examples": [
+        {
+          "en": "Can you stand in for me tomorrow?",
+          "zh": "你明天可以暫時代替我嗎?",
+          "highlight": "stand in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "顯眼;突出;容易被注意到",
+      "titleEn": "stand out",
+      "formula": "stand out",
+      "highlight": "stand out",
+      "descriptionZh": "顯眼;突出;容易被注意到",
+      "descriptionEn": "Her red coat stood out in the crowd.",
+      "examples": [
+        {
+          "en": "Her red coat stood out in the crowd.",
+          "zh": "她的紅色外套在人群中十分顯眼。",
+          "highlight": "stood out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "在旁緊盯或監督某人",
+      "titleEn": "stand over somebody",
+      "formula": "stand over somebody",
+      "highlight": "stand over somebody",
+      "descriptionZh": "在旁緊盯或監督某人",
+      "descriptionEn": "He only works when somebody stands over him.",
+      "examples": [
+        {
+          "en": "He only works when somebody stands over him.",
+          "zh": "只有在有人從旁監督時,他才會工作。",
+          "highlight": "stands over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "站起來",
+      "titleEn": "stand up",
+      "formula": "stand up",
+      "highlight": "stand up",
+      "descriptionZh": "站起來",
+      "descriptionEn": "Everyone stood up when the teacher entered.",
+      "examples": [
+        {
+          "en": "Everyone stood up when the teacher entered.",
+          "zh": "老師進來時,所有人都站了起來。",
+          "highlight": "stood up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "爽約;沒有按約定出現,使某人白等",
+      "titleEn": "stand somebody up",
+      "formula": "stand somebody up",
+      "highlight": "stand somebody up",
+      "descriptionZh": "爽約;沒有按約定出現,使某人白等",
+      "descriptionEn": "He stood me up at the restaurant.",
+      "examples": [
+        {
+          "en": "He stood me up at the restaurant.",
+          "zh": "他在餐廳爽約,令我白等。",
+          "highlight": "stood me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "維護;支持;替某人或某事物說話",
+      "titleEn": "stand up for somebody, something or yourself",
+      "formula": "stand up for somebody, something or yourself",
+      "highlight": "stand up for somebody, something or yourself",
+      "descriptionZh": "維護;支持;替某人或某事物說話",
+      "descriptionEn": "You must learn to stand up for yourself.",
+      "examples": [
+        {
+          "en": "You must learn to stand up for yourself.",
+          "zh": "你必須學會維護自己。",
+          "highlight": "stand up for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "勇敢反抗;不向某人、威嚇或壓力屈服",
+      "titleEn": "stand up to somebody or something",
+      "formula": "stand up to somebody or something",
+      "highlight": "stand up to somebody or something",
+      "descriptionZh": "勇敢反抗;不向某人、威嚇或壓力屈服",
+      "descriptionEn": "She finally stood up to the bully.",
+      "examples": [
+        {
+          "en": "She finally stood up to the bully.",
+          "zh": "她終於勇敢反抗那名惡霸。",
+          "highlight": "stood up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "物料或產品經得起某種環境、天氣或長期使用",
+      "titleEn": "stand up to something",
+      "formula": "stand up to something",
+      "highlight": "stand up to something",
+      "descriptionZh": "物料或產品經得起某種環境、天氣或長期使用",
+      "descriptionEn": "These boots can stand up to heavy rain.",
+      "examples": [
+        {
+          "en": "These boots can stand up to heavy rain.",
+          "zh": "這雙靴可以抵受大雨。",
+          "highlight": "stand up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論支持和忠誠",
+      "titleEn": "Talk clearly about support and loyalty",
+      "zh": "stand by somebody 表示在某人面對困難時繼續支持對方;stand up for somebody 則表示在對方受到不公平對待時維護他。",
+      "en": "Stand by somebody shows that you continue supporting a person during a difficult time. Stand up for somebody shows that you defend them when they are treated unfairly."
+    },
+    {
+      "titleZh": "描述勇氣和反抗",
+      "titleEn": "Describe courage and resistance",
+      "zh": "stand up to 可以表示某人拒絕接受欺凌、威嚇、壓力或惡劣對待。",
+      "en": "Stand up to can show that someone refuses to accept bullying, threats, pressure or bad treatment."
+    },
+    {
+      "titleZh": "描述位置、動作和顯眼程度",
+      "titleEn": "Describe position, movement and visibility",
+      "zh": "stand back、stand around、stand over、stand up 和 stand out 可以幫助你描述人物的位置、動作,以及某物是否顯眼。",
+      "en": "Stand back, stand around, stand over, stand up and stand out help you describe where people are, how they move and whether something is easy to notice."
+    },
+    {
+      "titleZh": "談論職務、意思和障礙",
+      "titleEn": "Talk about roles, meanings and obstacles",
+      "zh": "stand in 表示暫時代替某人;stand for 用來解釋意思;stand down 表示退任;stand between 則表示成為障礙。",
+      "en": "Stand in describes temporarily replacing somebody. Stand for explains a meaning. Stand down describes leaving a position, while stand between describes an obstacle."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論支持和忠誠",
+      "描述勇氣和反抗",
+      "描述位置、動作和顯眼程度",
+      "談論職務、意思和障礙"
+    ],
+    "contextsEn": [
+      "Talk clearly about support and loyalty",
+      "Describe courage and resistance",
+      "Describe position, movement and visibility",
+      "Talk about roles, meanings and obstacles"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論支持和忠誠",
+        "titleEn": "Talk clearly about support and loyalty",
+        "zh": "stand by somebody 表示在某人面對困難時繼續支持對方;stand up for somebody 則表示在對方受到不公平對待時維護他。",
+        "en": "Stand by somebody shows that you continue supporting a person during a difficult time. Stand up for somebody shows that you defend them when they are treated unfairly.",
+        "examples": [
+          {
+            "en": "Several people stood around the street performer.",
+            "zh": "幾個人站在街頭表演者周圍觀看。",
+            "highlight": "stood around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述勇氣和反抗",
+        "titleEn": "Describe courage and resistance",
+        "zh": "stand up to 可以表示某人拒絕接受欺凌、威嚇、壓力或惡劣對待。",
+        "en": "Stand up to can show that someone refuses to accept bullying, threats, pressure or bad treatment.",
+        "examples": [
+          {
+            "en": "Please stand back from the edge.",
+            "zh": "請與邊緣保持距離。",
+            "highlight": "stand back from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述位置、動作和顯眼程度",
+        "titleEn": "Describe position, movement and visibility",
+        "zh": "stand back、stand around、stand over、stand up 和 stand out 可以幫助你描述人物的位置、動作,以及某物是否顯眼。",
+        "en": "Stand back, stand around, stand over, stand up and stand out help you describe where people are, how they move and whether something is easy to notice.",
+        "examples": [
+          {
+            "en": "One final test stands between her and graduation.",
+            "zh": "只剩下一次測驗阻礙她畢業。",
+            "highlight": "stands"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論職務、意思和障礙",
+        "titleEn": "Talk about roles, meanings and obstacles",
+        "zh": "stand in 表示暫時代替某人;stand for 用來解釋意思;stand down 表示退任;stand between 則表示成為障礙。",
+        "en": "Stand in describes temporarily replacing somebody. Stand for explains a meaning. Stand down describes leaving a position, while stand between describes an obstacle.",
+        "examples": [
+          {
+            "en": "We cannot stand by while someone is treated unfairly.",
+            "zh": "有人受到不公平對待時,我們不能袖手旁觀。",
+            "highlight": "stand by"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STAND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STAND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STAND 片語動詞。",
+      "en": "Read the whole sentence and choose the STAND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "Place words such as him, her, it and them as shown: stand by her stand him up stand up for them stand up to him stand over her.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "Place words such as him, her, it and them as shown: stand by her stand him up stand up for them stand up to him stand over her"
+    },
+    {
+      "titleZh": "請仔細閱讀完整情境,因為相似的表達可以有不同意思。",
+      "titleEn": "Read the complete situation carefully because similar expressions may have different meanings: stand by = do nothing stand by somebody = support somebody stand by something = continue to support a statement or decision stand up to somebody = resist somebody stand up to bad weather = remain strong in bad weather.",
+      "zh": "請仔細閱讀完整情境,因為相似的表達可以有不同意思。",
+      "en": "Read the complete situation carefully because similar expressions may have different meanings: stand by = do nothing stand by somebody = support somebody stand by something = continue to support a statement or decision stand up to somebody = resist somebody stand up to bad weather = remain strong in bad weather"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STAND 動詞片語句子改寫練習",
+    "titleEn": "STAND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-279-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "His yellow jacket was easy to see against the grey hillside.",
+      "promptZh": "他的黃色外套在灰色山坡的襯托下很容易看見。",
+      "starter": "His",
+      "answer": "His yellow jacket stood out clearly against the grey hillside.",
+      "answerZh": "他的黃色外套在灰色山坡的襯托下十分顯眼。",
+      "highlight": "stood out clearly",
+      "targetForm": "stand out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-279-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "I will support you whatever happens.",
+      "promptZh": "無論發生甚麼事,我都會支持你。",
+      "starter": "I’ll",
+      "answer": "I’ll stand by you whatever happens.",
+      "answerZh": "無論發生甚麼事,我都會支持你。",
+      "highlight": "I’ll stand by",
+      "targetForm": "stand by somebody",
+      "targetMeaningZh": "支持某人;不離不棄"
+    },
+    {
+      "id": "phrasal-verb-279-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "What does DVD mean?",
+      "promptZh": "DVD 代表甚麼?",
+      "starter": "What",
+      "answer": "What does DVD stand for?",
+      "answerZh": "DVD 代表甚麼?",
+      "highlight": "stand for",
+      "targetForm": "stand for something",
+      "targetMeaningZh": "代表;意思是"
+    },
+    {
+      "id": "phrasal-verb-279-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Darcy rose to her feet when Emma came into the room.",
+      "promptZh": "愛瑪走進房間時,達西站了起來。",
+      "starter": "Darcy",
+      "answer": "Darcy stood up when Emma came into the room.",
+      "answerZh": "愛瑪走進房間時,達西站了起來。",
+      "highlight": "stood up",
+      "targetForm": "stand up",
+      "targetMeaningZh": "站起來"
+    },
+    {
+      "id": "phrasal-verb-279-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Keep a safe distance from the flames.",
+      "promptZh": "請與火焰保持安全距離。",
+      "starter": "Stand",
+      "answer": "Stand well back from the flames.",
+      "answerZh": "請與火焰保持一段安全距離。",
+      "highlight": "Stand well back",
+      "targetForm": "stand back from something",
+      "targetMeaningZh": "往後站;保持距離"
+    },
+    {
+      "id": "phrasal-verb-279-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "We will need someone to replace you temporarily while you are away.",
+      "promptZh": "你不在期間,我們需要有人暫時代替你。",
+      "starter": "We’ll",
+      "answer": "We’ll need someone to stand in for you while you’re away.",
+      "answerZh": "你不在期間,我們需要有人暫時代替你。",
+      "highlight": "We’ll",
+      "targetForm": "stand in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-279-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "She always defends her friends when they are treated unfairly.",
+      "promptZh": "她的朋友受到不公平對待時,她總會維護他們。",
+      "starter": "She",
+      "answer": "She always stands up for her friends when they are treated unfairly.",
+      "answerZh": "她的朋友受到不公平對待時,她總會維護他們。",
+      "highlight": "stands up for",
+      "targetForm": "stand up for somebody",
+      "targetMeaningZh": "維護或支持某人"
+    },
+    {
+      "id": "phrasal-verb-279-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Do not just stay there doing nothing while you watch me; help me.",
+      "promptZh": "不要只是站在那裏看着我而甚麼也不做;來幫忙吧。",
+      "starter": "Don’t",
+      "answer": "Don’t just stand around watching me; give me a hand.",
+      "answerZh": "不要只是站在那裏看着我;來幫忙吧。",
+      "highlight": "Don’t",
+      "targetForm": "stand around",
+      "targetMeaningZh": "站在附近觀看或甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-279-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "She resigned after only three months as chairwoman.",
+      "promptZh": "她擔任主席僅三個月便辭職了。",
+      "starter": "She",
+      "answer": "She stood down after only three months as chairwoman.",
+      "answerZh": "她擔任主席僅三個月便辭職了。",
+      "highlight": "stood down",
+      "targetForm": "stand down",
+      "targetMeaningZh": "辭去職位;退任"
+    },
+    {
+      "id": "phrasal-verb-279-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Only three people were preventing him from becoming king.",
+      "promptZh": "只有三個人阻礙他登上王位。",
+      "starter": "Only",
+      "answer": "Only three people stood between him and the crown.",
+      "answerZh": "只有三個人阻礙他登上王位。",
+      "highlight": "stood between",
+      "targetForm": "stand between A and B",
+      "targetMeaningZh": "成為 A 與 B 之間的障礙"
+    },
+    {
+      "id": "phrasal-verb-279-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Will the tent remain strong in strong winds?",
+      "promptZh": "這個帳篷能抵受強風嗎?",
+      "starter": "Will",
+      "answer": "Will the tent stand up to strong winds?",
+      "answerZh": "這個帳篷能抵受強風嗎?",
+      "highlight": "stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "經得起某種天氣或環境"
+    },
+    {
+      "id": "phrasal-verb-279-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "I will continue to support what I said earlier.",
+      "promptZh": "我會繼續堅持自己較早前所說的話。",
+      "starter": "I’ll",
+      "answer": "I’ll stand by what I said earlier.",
+      "answerZh": "我會堅持自己較早前所說的話。",
+      "highlight": "I’ll stand by",
+      "targetForm": "stand by something",
+      "targetMeaningZh": "堅持某項說法或決定"
+    },
+    {
+      "id": "phrasal-verb-279-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We agreed to meet at the cinema, but she did not come.",
+      "promptZh": "我們約定在戲院見面,但她沒有出現。",
+      "starter": "We",
+      "answer": "We agreed to meet at the cinema, but she stood me up.",
+      "answerZh": "我們約定在戲院見面,但她爽約令我白等。",
+      "highlight": "stood me up",
+      "targetForm": "stand somebody up",
+      "targetMeaningZh": "對某人爽約"
+    },
+    {
+      "id": "phrasal-verb-279-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "I cannot simply watch and do nothing while he takes the blame for what happened.",
+      "promptZh": "我不能只是袖手旁觀,任由他為發生的事情承擔責任。",
+      "starter": "I",
+      "answer": "I can’t stand by and let him take the blame for what happened.",
+      "answerZh": "我不能袖手旁觀,任由他為發生的事情承擔責任。",
+      "highlight": "can’t stand by",
+      "targetForm": "stand by",
+      "targetMeaningZh": "袖手旁觀;任由事情發生"
+    },
+    {
+      "id": "phrasal-verb-279-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "She will not do her homework unless I watch her closely.",
+      "promptZh": "除非我在旁緊盯着她,否則她不會做功課。",
+      "starter": "She",
+      "answer": "She won’t do her homework unless I stand over her.",
+      "answerZh": "除非我在旁緊盯着她,否則她不會做功課。",
+      "highlight": "won’t",
+      "targetForm": "stand over somebody",
+      "targetMeaningZh": "在旁緊盯或監督某人"
+    },
+    {
+      "id": "phrasal-verb-279-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "If you do not resist him, he will continue treating you badly.",
+      "promptZh": "如果你不反抗他,他便會繼續惡劣地對待你。",
+      "starter": "If",
+      "answer": "If you don’t stand up to him, he’ll keep treating you badly.",
+      "answerZh": "如果你不反抗他,他便會繼續惡劣地對待你。",
+      "highlight": "don’t stand up to",
+      "targetForm": "stand up to somebody",
+      "targetMeaningZh": "勇敢反抗某人"
+    },
+    {
+      "id": "phrasal-verb-279-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "The guide asked us to keep our distance while the workers moved the glass.",
+      "promptZh": "工人搬動玻璃時,導遊叫我們保持距離。",
+      "starter": "The",
+      "answer": "The guide asked us to stand back while the workers moved the glass.",
+      "answerZh": "工人搬動玻璃時,導遊叫我們往後站。",
+      "highlight": "stand back",
+      "targetForm": "stand back",
+      "targetMeaningZh": "往後站;保持距離"
+    },
+    {
+      "id": "phrasal-verb-279-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "The red umbrella is still easy to notice in the crowd.",
+      "promptZh": "那把紅色雨傘在人群中仍然很容易被看見。",
+      "starter": "The",
+      "answer": "The red umbrella still stands out in the crowd.",
+      "answerZh": "那把紅色雨傘在人群中仍然十分顯眼。",
+      "highlight": "stands out",
+      "targetForm": "stand out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-279-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "The company still says it will keep its promise to repair the machines for free.",
+      "promptZh": "公司仍然表示會履行承諾,免費維修機器。",
+      "starter": "The",
+      "answer": "The company still stands by its promise to repair the machines for free.",
+      "answerZh": "公司仍然堅持承諾,免費維修機器。",
+      "highlight": "stands by",
+      "targetForm": "stand by something",
+      "targetMeaningZh": "堅持承諾或決定"
+    },
+    {
+      "id": "phrasal-verb-279-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Please do not fail to meet him again; he waited for an hour last time.",
+      "promptZh": "請不要再次對他爽約;他上次等了一小時。",
+      "starter": "Please",
+      "answer": "Please do not stand him up again; he waited for an hour last time.",
+      "answerZh": "請不要再次對他爽約;他上次等了一小時。",
+      "highlight": "stand",
+      "targetForm": "stand somebody up",
+      "targetMeaningZh": "對某人爽約"
+    },
+    {
+      "id": "phrasal-verb-279-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Several people gathered on all sides of the street map and discussed the route.",
+      "promptZh": "幾個人圍在街道地圖四周討論路線。",
+      "starter": "Several",
+      "answer": "Several people stood round the street map and discussed the route.",
+      "answerZh": "幾個人圍在街道地圖四周討論路線。",
+      "highlight": "stood round",
+      "targetForm": "stand round something",
+      "targetMeaningZh": "站在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-279-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Nora finally resisted the bully and told him to stop.",
+      "promptZh": "諾拉終於反抗那名惡霸,叫他停止。",
+      "starter": "Nora",
+      "answer": "Nora finally stood up to the bully and told him to stop.",
+      "answerZh": "諾拉終於反抗那名惡霸,叫他停止。",
+      "highlight": "stood up to",
+      "targetForm": "stand up to somebody",
+      "targetMeaningZh": "勇敢反抗某人"
+    },
+    {
+      "id": "phrasal-verb-279-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Eva is ill, so I am temporarily replacing her at today’s meeting.",
+      "promptZh": "伊娃生病了,所以我會在今天的會議上暫時代替她。",
+      "starter": "Eva",
+      "answer": "Eva is ill, so I am standing in for her at today’s meeting.",
+      "answerZh": "伊娃生病了,所以我會在今天的會議上暫時代替她。",
+      "highlight": "standing in for",
+      "targetForm": "stand in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-279-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Please rise to your feet when your name is called.",
+      "promptZh": "叫到你的名字時,請站起來。",
+      "starter": "Please",
+      "answer": "Please stand up when your name is called.",
+      "answerZh": "叫到你的名字時,請站起來。",
+      "highlight": "stand up",
+      "targetForm": "stand up",
+      "targetMeaningZh": "站起來"
+    },
+    {
+      "id": "phrasal-verb-279-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "These boots should remain in good condition after daily use for several years.",
+      "promptZh": "這雙靴每天使用,數年後仍應保持良好狀況。",
+      "starter": "These",
+      "answer": "These boots should stand up to daily use for several years.",
+      "answerZh": "這雙靴應該可以承受數年的日常使用。",
+      "highlight": "stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "經得起長期使用"
+    },
+    {
+      "id": "phrasal-verb-279-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Her family has always supported her during difficult times.",
+      "promptZh": "在困難時期,她的家人一直支持她。",
+      "starter": "Her",
+      "answer": "Her family has always stood by her during difficult times.",
+      "answerZh": "在困難時期,她的家人一直支持她。",
+      "highlight": "stood by",
+      "targetForm": "stand by somebody",
+      "targetMeaningZh": "支持某人;不離不棄"
+    },
+    {
+      "id": "phrasal-verb-279-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Why did the adults do nothing while the children argued?",
+      "promptZh": "孩子們爭吵時,成年人為甚麼甚麼也不做?",
+      "starter": "Why",
+      "answer": "Why did the adults stand by while the children argued?",
+      "answerZh": "孩子們爭吵時,成年人為甚麼袖手旁觀?",
+      "highlight": "stand by",
+      "targetForm": "stand by",
+      "targetMeaningZh": "袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-279-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The team captain will leave his position at the end of the season.",
+      "promptZh": "隊長將於球季結束時退任。",
+      "starter": "The",
+      "answer": "The team captain will stand down at the end of the season.",
+      "answerZh": "隊長將於球季結束時退任。",
+      "highlight": "stand down",
+      "targetForm": "stand down",
+      "targetMeaningZh": "辭去職位;退任"
+    },
+    {
+      "id": "phrasal-verb-279-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The letters VIP mean “very important person”.",
+      "promptZh": "VIP 這幾個字母代表「非常重要的人」。",
+      "starter": "The",
+      "answer": "The letters VIP stand for “very important person”.",
+      "answerZh": "VIP 這幾個字母代表「非常重要的人」。",
+      "highlight": "stand for",
+      "targetForm": "stand for something",
+      "targetMeaningZh": "代表;意思是"
+    },
+    {
+      "id": "phrasal-verb-279-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "I dislike people watching me closely while I type.",
+      "promptZh": "我不喜歡別人在我打字時從旁緊盯着我。",
+      "starter": "I",
+      "answer": "I dislike people standing over me while I type.",
+      "answerZh": "我不喜歡別人在我打字時從旁緊盯着我。",
+      "highlight": "standing over",
+      "targetForm": "stand over somebody",
+      "targetMeaningZh": "在旁緊盯或監督某人"
+    },
+    {
+      "id": "phrasal-verb-279-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "One final examination is the only thing stopping Lina from graduating.",
+      "promptZh": "只剩下最後一次考試阻礙莉娜畢業。",
+      "starter": "One",
+      "answer": "One final examination stands between Lina and graduation.",
+      "answerZh": "只剩下最後一次考試阻礙莉娜畢業。",
+      "highlight": "stands between",
+      "targetForm": "stand between A and B",
+      "targetMeaningZh": "成為 A 與 B 之間的障礙"
+    },
+    {
+      "id": "phrasal-verb-279-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "You should defend yourself when someone speaks to you badly.",
+      "promptZh": "有人用惡劣的態度跟你說話時,你應該維護自己。",
+      "starter": "You",
+      "answer": "You should stand up for yourself when someone speaks to you badly.",
+      "answerZh": "有人用惡劣的態度跟你說話時,你應該維護自己。",
+      "highlight": "stand up for",
+      "targetForm": "stand up for yourself",
+      "targetMeaningZh": "維護自己"
+    },
+    {
+      "id": "phrasal-verb-279-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Could Ben temporarily replace the coach until she returns?",
+      "promptZh": "教練回來前,賓可以暫時代替她嗎?",
+      "starter": "Could",
+      "answer": "Could Ben stand in for the coach until she returns?",
+      "answerZh": "教練回來前,賓可以暫時代替她嗎?",
+      "highlight": "stand in for",
+      "targetForm": "stand in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-279-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The paint was damaged by the heavy rain.",
+      "promptZh": "油漆受到大雨破壞。",
+      "starter": "The",
+      "answer": "The paint did not stand up to the heavy rain.",
+      "answerZh": "油漆抵受不住大雨。",
+      "highlight": "did not stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "經得起天氣或外來影響"
+    },
+    {
+      "id": "phrasal-verb-279-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The neighbours would not simply watch while rubbish filled the park.",
+      "promptZh": "公園裏的垃圾愈來愈多時,居民不願只是袖手旁觀。",
+      "starter": "The",
+      "answer": "The neighbours would not stand by while rubbish filled the park.",
+      "answerZh": "公園裏的垃圾愈來愈多時,居民不願袖手旁觀。",
+      "highlight": "stand by",
+      "targetForm": "stand by",
+      "targetMeaningZh": "袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-279-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "In this map, a blue line represents a river.",
+      "promptZh": "在這張地圖中,藍線代表河流。",
+      "starter": "In",
+      "answer": "In this map, a blue line stands for a river.",
+      "answerZh": "在這張地圖中,藍線代表河流。",
+      "highlight": "stands for",
+      "targetForm": "stand for something",
+      "targetMeaningZh": "代表;意思是"
+    },
+    {
+      "id": "phrasal-verb-279-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The class defended the new student after others blamed him unfairly.",
+      "promptZh": "其他人不公平地責怪新同學後,全班都維護他。",
+      "starter": "The",
+      "answer": "The class stood up for the new student after others blamed him unfairly.",
+      "answerZh": "其他人不公平地責怪新同學後,全班都維護他。",
+      "highlight": "stood up for",
+      "targetForm": "stand up for somebody",
+      "targetMeaningZh": "維護或支持某人"
+    },
+    {
+      "id": "phrasal-verb-279-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The coach watched the players closely until they completed the exercise.",
+      "promptZh": "教練一直緊盯着球員,直至他們完成練習。",
+      "starter": "The",
+      "answer": "The coach stood over the players until they completed the exercise.",
+      "answerZh": "教練一直在旁緊盯着球員,直至他們完成練習。",
+      "highlight": "stood over",
+      "targetForm": "stand over somebody",
+      "targetMeaningZh": "在旁緊盯或監督某人"
+    },
+    {
+      "id": "phrasal-verb-279-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Please keep away from the platform edge until the train has stopped.",
+      "promptZh": "列車停下前,請與月台邊緣保持距離。",
+      "starter": "Please",
+      "answer": "Please stand back from the platform edge until the train has stopped.",
+      "answerZh": "列車停下前,請與月台邊緣保持距離。",
+      "highlight": "stand back",
+      "targetForm": "stand back from something",
+      "targetMeaningZh": "往後站;保持距離"
+    },
+    {
+      "id": "phrasal-verb-279-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Even after the criticism, she continued to support her decision.",
+      "promptZh": "即使受到批評,她仍然堅持自己的決定。",
+      "starter": "Even",
+      "answer": "Even after the criticism, she stood by her decision.",
+      "answerZh": "即使受到批評,她仍然堅持自己的決定。",
+      "highlight": "stood by",
+      "targetForm": "stand by something",
+      "targetMeaningZh": "堅持某項決定"
+    },
+    {
+      "id": "phrasal-verb-279-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Although his leg hurt, Leo slowly rose to his feet and walked to the door.",
+      "promptZh": "雖然里奧的腿很痛,但他仍慢慢站起來,走向門口。",
+      "starter": "Although",
+      "answer": "Although his leg hurt, Leo slowly stood up and walked to the door.",
+      "answerZh": "雖然里奧的腿很痛,但他仍慢慢站起來,走向門口。",
+      "highlight": "stood up",
+      "targetForm": "stand up",
+      "targetMeaningZh": "站起來"
+    },
+    {
+      "id": "phrasal-verb-279-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "A locked gate was the only barrier between us and the beach.",
+      "promptZh": "一道上鎖的大閘是我們前往海灘的唯一障礙。",
+      "starter": "A",
+      "answer": "A locked gate stood between us and the beach.",
+      "answerZh": "一道上鎖的大閘阻礙我們前往海灘。",
+      "highlight": "stood",
+      "targetForm": "stand between A and B",
+      "targetMeaningZh": "成為 A 與 B 之間的障礙"
+    },
+    {
+      "id": "phrasal-verb-279-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Why are all these people waiting near the entrance instead of going inside?",
+      "promptZh": "為甚麼這些人全都在入口附近等候,而不進去?",
+      "starter": "Why",
+      "answer": "Why are all these people standing around the entrance instead of going inside?",
+      "answerZh": "為甚麼這些人全都站在入口附近,而不進去?",
+      "highlight": "standing around",
+      "targetForm": "stand around something",
+      "targetMeaningZh": "站在某物附近等候或觀看"
+    },
+    {
+      "id": "phrasal-verb-279-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The person I was meeting did not arrive at the café, so I had to eat alone.",
+      "promptZh": "本來要跟我見面的人沒有到達咖啡店,所以我只好獨自用餐。",
+      "starter": "I",
+      "answer": "I was stood up at the café and had to eat alone.",
+      "answerZh": "有人在咖啡店對我爽約,所以我只好獨自用餐。",
+      "highlight": "stood up",
+      "targetForm": "stand somebody up",
+      "targetMeaningZh": "對某人爽約"
+    },
+    {
+      "id": "phrasal-verb-279-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Can you resist unfair pressure from your teammates?",
+      "promptZh": "你能抵抗隊友施加的不公平壓力嗎?",
+      "starter": "Can",
+      "answer": "Can you stand up to unfair pressure from your teammates?",
+      "answerZh": "你能抵抗隊友施加的不公平壓力嗎?",
+      "highlight": "stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "不向壓力屈服"
+    },
+    {
+      "id": "phrasal-verb-279-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Among all the drawings, this one was especially easy to notice because of its bright colours.",
+      "promptZh": "在所有畫作中,這一幅因色彩鮮明而特別顯眼。",
+      "starter": "Among",
+      "answer": "Among all the drawings, this one stands out because of its bright colours.",
+      "answerZh": "在所有畫作中,這一幅因色彩鮮明而特別突出。",
+      "highlight": "stands out",
+      "targetForm": "stand out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-279-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Has the manager decided to leave her position, or will she remain in the job?",
+      "promptZh": "經理已決定退任,還是會繼續留任?",
+      "starter": "Has",
+      "answer": "Has the manager decided to stand down, or will she remain in the job?",
+      "answerZh": "經理已決定退任,還是會繼續留任?",
+      "highlight": "stand down",
+      "targetForm": "stand down",
+      "targetMeaningZh": "辭去職位;退任"
+    },
+    {
+      "id": "phrasal-verb-279-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Even after the mistake, we chose to continue supporting him and help him improve.",
+      "promptZh": "即使他犯了錯,我們仍選擇繼續支持他,幫助他進步。",
+      "starter": "Even",
+      "answer": "Even after the mistake, we chose to stand by him and help him improve.",
+      "answerZh": "即使他犯了錯,我們仍選擇支持他,幫助他進步。",
+      "highlight": "stand by",
+      "targetForm": "stand by somebody",
+      "targetMeaningZh": "支持某人;不離不棄"
+    },
+    {
+      "id": "phrasal-verb-279-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "If they win tonight, only one match will remain before they can win the cup.",
+      "promptZh": "如果他們今晚勝出,便只剩下一場比賽阻礙他們贏得獎盃。",
+      "starter": "If",
+      "answer": "If they win tonight, only one match will stand between them and the cup.",
+      "answerZh": "如果他們今晚勝出,便只剩下一場比賽阻礙他們贏得獎盃。",
+      "highlight": "stand between them and",
+      "targetForm": "stand between A and B",
+      "targetMeaningZh": "成為 A 與 B 之間的障礙"
+    },
+    {
+      "id": "phrasal-verb-279-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The assistant was nervous, but she calmly refused to accept the rude customer’s bad behaviour.",
+      "promptZh": "助理雖然緊張,但仍冷靜地拒絕接受那名無禮顧客的惡劣行為。",
+      "starter": "The",
+      "answer": "The assistant was nervous, but she stood up to the rude customer calmly.",
+      "answerZh": "助理雖然緊張,但仍冷靜地反抗那名無禮的顧客。",
+      "highlight": "stood up",
+      "targetForm": "stand up to somebody",
+      "targetMeaningZh": "勇敢反抗某人"
+    },
+    {
+      "id": "phrasal-verb-279-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Even from across the road, the small blue sign was clearly visible against the white wall.",
+      "promptZh": "即使在馬路對面,那個藍色小招牌在白牆的襯托下仍清楚可見。",
+      "starter": "Even",
+      "answer": "Even from across the road, the small blue sign stood out against the white wall.",
+      "answerZh": "即使在馬路對面,那個藍色小招牌在白牆的襯托下仍十分顯眼。",
+      "highlight": "stood out",
+      "targetForm": "stand out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-279-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Would you continue supporting a friend if everyone else blamed them unfairly?",
+      "promptZh": "如果其他人都不公平地責怪你的朋友,你仍會繼續支持對方嗎?",
+      "starter": "Would",
+      "answer": "Would you stand by a friend if everyone else blamed them unfairly?",
+      "answerZh": "如果其他人都不公平地責怪你的朋友,你仍會支持對方嗎?",
+      "highlight": "stand by",
+      "targetForm": "stand by somebody",
+      "targetMeaningZh": "支持某人;不離不棄"
+    },
+    {
+      "id": "phrasal-verb-279-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Why does your father have to watch you closely whenever you clean your room?",
+      "promptZh": "你每次收拾房間時,為甚麼爸爸都要在旁緊盯着你?",
+      "starter": "Why",
+      "answer": "Why does your father have to stand over you whenever you clean your room?",
+      "answerZh": "你每次收拾房間時,為甚麼爸爸都要在旁緊盯着你?",
+      "highlight": "stand over",
+      "targetForm": "stand over somebody",
+      "targetMeaningZh": "在旁緊盯或監督某人"
+    },
+    {
+      "id": "phrasal-verb-279-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Do the letters on this button mean different settings?",
+      "promptZh": "這個按鈕上的字母代表不同設定嗎?",
+      "starter": "Do",
+      "answer": "Do the letters on this button stand for different settings?",
+      "answerZh": "這個按鈕上的字母代表不同設定嗎?",
+      "highlight": "stand for",
+      "targetForm": "stand for something",
+      "targetMeaningZh": "代表;意思是"
+    },
+    {
+      "id": "phrasal-verb-279-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "After the complaints, two committee members left their positions.",
+      "promptZh": "收到投訴後,兩名委員會成員辭去了職位。",
+      "starter": "After",
+      "answer": "After the complaints, two committee members stood down from their positions.",
+      "answerZh": "收到投訴後,兩名委員會成員辭去了職位。",
+      "highlight": "stood down from",
+      "targetForm": "stand down",
+      "targetMeaningZh": "辭去職位;退任"
+    },
+    {
+      "id": "phrasal-verb-279-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Can this phone case remain strong after being dropped on a hard floor?",
+      "promptZh": "這個電話保護殼掉在堅硬地面後仍能保持堅固嗎?",
+      "starter": "Can",
+      "answer": "Can this phone case stand up to being dropped on a hard floor?",
+      "answerZh": "這個電話保護殼能承受掉在堅硬地面上的撞擊嗎?",
+      "highlight": "stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "經得起撞擊或使用"
+    },
+    {
+      "id": "phrasal-verb-279-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Has anyone ever failed to meet you after making a clear plan to meet?",
+      "promptZh": "有沒有人曾經在明確約定見面後對你爽約?",
+      "starter": "Has",
+      "answer": "Has anyone ever stood you up after making a clear plan to meet?",
+      "answerZh": "有沒有人曾經在明確約定見面後對你爽約?",
+      "highlight": "stood",
+      "targetForm": "stand somebody up",
+      "targetMeaningZh": "對某人爽約"
+    },
+    {
+      "id": "phrasal-verb-279-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Do you still support the answer you gave yesterday?",
+      "promptZh": "你仍然堅持昨天所給的答案嗎?",
+      "starter": "Do",
+      "answer": "Do you still stand by the answer you gave yesterday?",
+      "answerZh": "你仍然堅持昨天所給的答案嗎?",
+      "highlight": "stand by",
+      "targetForm": "stand by something",
+      "targetMeaningZh": "堅持某項說法或答案"
+    },
+    {
+      "id": "phrasal-verb-279-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Who will defend the small shops if the new rule harms them?",
+      "promptZh": "如果新規則損害小店的利益,誰會維護它們?",
+      "starter": "Who",
+      "answer": "Who will stand up for the small shops if the new rule harms them?",
+      "answerZh": "如果新規則損害小店的利益,誰會維護它們?",
+      "highlight": "stand up for",
+      "targetForm": "stand up for something",
+      "targetMeaningZh": "維護或支持某事物"
+    },
+    {
+      "id": "phrasal-verb-279-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "When the horse became nervous, everyone moved away and gave it more space.",
+      "promptZh": "那匹馬變得不安時,所有人都往後退,給牠更多空間。",
+      "starter": "When",
+      "answer": "When the horse became nervous, everyone stood back and gave it more space.",
+      "answerZh": "那匹馬變得不安時,所有人都往後退,給牠更多空間。",
+      "highlight": "stood back",
+      "targetForm": "stand back",
+      "targetMeaningZh": "往後站;保持距離"
+    },
+    {
+      "id": "phrasal-verb-279-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "We cannot simply watch while one student is treated unfairly.",
+      "promptZh": "一名學生受到不公平對待時,我們不能只是袖手旁觀。",
+      "starter": "We",
+      "answer": "We cannot stand idly by while one student is treated unfairly.",
+      "answerZh": "一名學生受到不公平對待時,我們不能袖手旁觀。",
+      "highlight": "stand idly by",
+      "targetForm": "stand by",
+      "targetMeaningZh": "袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-279-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "No one knew the lines, so a stage worker had to temporarily replace the missing actor.",
+      "promptZh": "沒有人熟悉台詞,所以一名舞台工作人員只好暫時代替缺席的演員。",
+      "starter": "No",
+      "answer": "No one knew the lines, so a stage worker had to stand in for the missing actor.",
+      "answerZh": "沒有人熟悉台詞,所以一名舞台工作人員只好暫時代替缺席的演員。",
+      "highlight": "stand in for",
+      "targetForm": "stand in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-279-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "While the workers carried the table, the others stayed nearby and watched without helping.",
+      "promptZh": "工人搬桌子時,其他人只是站在附近觀看,沒有幫忙。",
+      "starter": "While",
+      "answer": "While the workers carried the table, the others stood around and watched without helping.",
+      "answerZh": "工人搬桌子時,其他人只是站在附近觀看,沒有幫忙。",
+      "highlight": "stood around",
+      "targetForm": "stand around",
+      "targetMeaningZh": "站在附近觀看或甚麼也不做"
+    },
+    {
+      "id": "phrasal-verb-279-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Why did everyone rise to their feet as soon as the head teacher entered?",
+      "promptZh": "校長一進來,為甚麼所有人都站了起來?",
+      "starter": "Why",
+      "answer": "Why did everyone stand up as soon as the head teacher entered?",
+      "answerZh": "校長一進來,為甚麼所有人都站了起來?",
+      "highlight": "stand up",
+      "targetForm": "stand up",
+      "targetMeaningZh": "站起來"
+    },
+    {
+      "id": "phrasal-verb-279-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Although the new figures caused questions, the writer continued to support every statement in the report.",
+      "promptZh": "雖然新數字引起疑問,但作者仍堅持報告中的每項說法。",
+      "starter": "Although",
+      "answer": "Although the new figures caused questions, the writer stood by every statement in the report.",
+      "answerZh": "雖然新數字引起疑問,但作者仍堅持報告中的每項說法。",
+      "highlight": "stood by",
+      "targetForm": "stand by something",
+      "targetMeaningZh": "堅持某項說法"
+    },
+    {
+      "id": "phrasal-verb-279-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Even though speaking was difficult, Priya defended what she believed was right.",
+      "promptZh": "即使開口發言並不容易,普里雅仍維護她認為正確的事情。",
+      "starter": "Even",
+      "answer": "Even though speaking was difficult, Priya stood up for what she believed was right.",
+      "answerZh": "即使開口發言並不容易,普里雅仍維護她認為正確的事情。",
+      "highlight": "stood up for",
+      "targetForm": "stand up for something",
+      "targetMeaningZh": "維護或支持某項信念"
+    },
+    {
+      "id": "phrasal-verb-279-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "A crowd had begun to form a circle close to the singer, so the staff asked everyone to leave some space.",
+      "promptZh": "一群人開始圍着歌手站立,所以工作人員請大家騰出空間。",
+      "starter": "A",
+      "answer": "A crowd had begun to stand round the singer, so the staff asked everyone to leave some space.",
+      "answerZh": "一群人開始圍着歌手站立,所以工作人員請大家騰出空間。",
+      "highlight": "stand round",
+      "targetForm": "stand round somebody",
+      "targetMeaningZh": "站在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-279-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "The cheap fabric looked fine at first, but repeated washing soon damaged it.",
+      "promptZh": "這種便宜布料起初看來不錯,但多次清洗後很快便受損。",
+      "starter": "The",
+      "answer": "The cheap fabric looked fine at first, but it could not stand up to repeated washing.",
+      "answerZh": "這種便宜布料起初看來不錯,但經不起多次清洗。",
+      "highlight": "it could not stand up to",
+      "targetForm": "stand up to something",
+      "targetMeaningZh": "經得起長期或重複使用"
+    },
+    {
+      "id": "phrasal-verb-279-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "After sitting silently through the whole meeting, Sam suddenly rose to his feet and asked to speak.",
+      "promptZh": "森姆在整場會議中一直安靜地坐着,後來突然站起來要求發言。",
+      "starter": "After",
+      "answer": "After sitting silently through the whole meeting, Sam suddenly stood up and asked to speak.",
+      "answerZh": "森姆在整場會議中一直安靜地坐着,後來突然站起來要求發言。",
+      "highlight": "stood up",
+      "targetForm": "stand up",
+      "targetMeaningZh": "站起來"
+    },
+    {
+      "id": "phrasal-verb-279-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "Although nobody forced him to leave, the director chose to leave his position before the next meeting.",
+      "promptZh": "雖然沒有人迫他離開,但主管仍選擇在下次會議前退任。",
+      "starter": "Although",
+      "answer": "Although nobody forced him to leave, the director chose to stand down before the next meeting.",
+      "answerZh": "雖然沒有人迫他離開,但主管仍選擇在下次會議前退任。",
+      "highlight": "stand down",
+      "targetForm": "stand down",
+      "targetMeaningZh": "辭去職位;退任"
+    },
+    {
+      "id": "phrasal-verb-279-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "For years, fear had prevented Omar from living the life he wanted.",
+      "promptZh": "多年來,恐懼一直阻礙奧馬過自己想要的生活。",
+      "starter": "For",
+      "answer": "For years, fear had stood between Omar and the life he wanted.",
+      "answerZh": "多年來,恐懼一直阻礙奧馬過自己想要的生活。",
+      "highlight": "stood between",
+      "targetForm": "stand between A and B",
+      "targetMeaningZh": "成為 A 與 B 之間的障礙"
+    },
+    {
+      "id": "phrasal-verb-279-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "After Ben failed to meet her twice, Eva refused to arrange another meeting with him.",
+      "promptZh": "賓兩次對伊娃爽約後,她拒絕再跟他安排見面。",
+      "starter": "After",
+      "answer": "After Ben stood her up twice, Eva refused to arrange another meeting with him.",
+      "answerZh": "賓兩次對伊娃爽約後,她拒絕再跟他安排見面。",
+      "highlight": "stood",
+      "targetForm": "stand somebody up",
+      "targetMeaningZh": "對某人爽約"
+    },
+    {
+      "id": "phrasal-verb-279-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "Although every shop used bright lights, one simple window display was much easier to notice than the others.",
+      "promptZh": "雖然每間店舖都使用明亮燈光,但其中一個簡單的櫥窗陳列比其他陳列更顯眼。",
+      "starter": "Although",
+      "answer": "Although every shop used bright lights, one simple window display stood out from the others.",
+      "answerZh": "雖然每間店舖都使用明亮燈光,但其中一個簡單的櫥窗陳列比其他陳列更顯眼。",
+      "highlight": "stood out from",
+      "targetForm": "stand out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-279-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "The staff had watched and done nothing for too long, so one of them finally reported the problem.",
+      "promptZh": "員工袖手旁觀了太久,所以其中一人終於報告了問題。",
+      "starter": "The",
+      "answer": "The staff had stood idly by for too long, so one of them finally reported the problem.",
+      "answerZh": "員工袖手旁觀了太久,所以其中一人終於報告了問題。",
+      "highlight": "stood idly by",
+      "targetForm": "stand by",
+      "targetMeaningZh": "袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-279-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "Once the younger players began resisting the captain, he stopped shouting at them.",
+      "promptZh": "年輕球員開始反抗隊長後,他便不再向他們大叫。",
+      "starter": "Once",
+      "answer": "Once the younger players began standing up to the captain, he stopped shouting at them.",
+      "answerZh": "年輕球員開始反抗隊長後,他便不再向他們大叫。",
+      "highlight": "standing up to",
+      "targetForm": "stand up to somebody",
+      "targetMeaningZh": "勇敢反抗某人"
+    },
+    {
+      "id": "phrasal-verb-279-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "Although the plan failed, the coach continued supporting the young player and gave him another chance.",
+      "promptZh": "雖然計劃失敗,但教練仍繼續支持那名年輕球員,並再給他一次機會。",
+      "starter": "Although",
+      "answer": "Although the plan failed, the coach stood by the young player and gave him another chance.",
+      "answerZh": "雖然計劃失敗,但教練仍支持那名年輕球員,並再給他一次機會。",
+      "highlight": "stood by",
+      "targetForm": "stand by somebody",
+      "targetMeaningZh": "支持某人;不離不棄"
+    },
+    {
+      "id": "phrasal-verb-279-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "Because the usual driver was sick, Arun agreed to replace him temporarily and take the group to the airport.",
+      "promptZh": "因為平日的司機生病了,阿倫同意暫時代替他,接載團隊前往機場。",
+      "starter": "Because",
+      "answer": "Because the usual driver was sick, Arun agreed to stand in and take the group to the airport.",
+      "answerZh": "因為平日的司機生病了,阿倫同意暫時代替他,接載團隊前往機場。",
+      "highlight": "stand in",
+      "targetForm": "stand in",
+      "targetMeaningZh": "暫時代替另一人"
+    },
+    {
+      "id": "phrasal-verb-279-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "Before the machine was switched on, the teacher made sure that every student kept a safe distance.",
+      "promptZh": "啟動機器前,老師確保每名學生都保持安全距離。",
+      "starter": "Before",
+      "answer": "Before the machine was switched on, the teacher made sure that every student was standing well back.",
+      "answerZh": "啟動機器前,老師確保每名學生都站在安全距離以外。",
+      "highlight": "was standing well back",
+      "targetForm": "stand back",
+      "targetMeaningZh": "往後站;保持距離"
+    },
+    {
+      "id": "phrasal-verb-279-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 18,
+      "prompt": "On the club badge, the small tree represents growth and a fresh start.",
+      "promptZh": "在會徽上,那棵小樹代表成長和新的開始。",
+      "starter": "On",
+      "answer": "On the club badge, the small tree stands for growth and a fresh start.",
+      "answerZh": "在會徽上,那棵小樹代表成長和新的開始。",
+      "highlight": "stands for",
+      "targetForm": "stand for something",
+      "targetMeaningZh": "代表;象徵"
+    },
+    {
+      "id": "phrasal-verb-279-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 18,
+      "prompt": "Without someone watching him closely, the new worker often stops before the job is finished.",
+      "promptZh": "如果沒有人在旁緊盯着他,那名新員工往往會在完成工作前停下來。",
+      "starter": "Without",
+      "answer": "Without someone standing over him, the new worker often stops before the job is finished.",
+      "answerZh": "如果沒有人在旁緊盯着他,那名新員工往往會在完成工作前停下來。",
+      "highlight": "standing over",
+      "targetForm": "stand over somebody",
+      "targetMeaningZh": "在旁緊盯或監督某人"
+    }
+  ]
+}

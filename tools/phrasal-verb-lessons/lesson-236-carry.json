@@ -1,0 +1,2164 @@
+{
+  "id": "phrasal-verb-236",
+  "order": 236,
+  "slug": "carry",
+  "version": "1",
+  "title": "CARRY 動詞片語",
+  "titleEn": "Carry",
+  "titleZh": "CARRY 動詞片語",
+  "level": "B1",
+  "groupCount": 14,
+  "source": {
+    "file": "Phrasal Verbs 229 - CARRY.pdf",
+    "sourceNumber": 229,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CARRY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CARRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CARRY",
+      "highlight": "CARRY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Please carry on with your work.",
+      "zh": "請繼續你的工作。",
+      "highlight": "carry on with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The song carried him back to his school days.",
+      "zh": "這首歌把他的思緒帶回求學時期。",
+      "highlight": "carried him back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The illness carried him off.",
+      "zh": "這種疾病奪去了他的生命。",
+      "highlight": "carried him off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "繼續做某事;延續某項工作、活動或傳統；使某人回想起過去某段時光；疾病等使某人死亡；幫助某人度過困難時期；水流、風、人群等帶着某人或某物向前移動；水流、風等把某人或某物沖走、吹走或帶離原處；把某人或某物帶走;偷走；隨身攜帶某物；把數字或總數轉到下一頁或下一欄；贏得獎品或獎項；執行並完成計劃、指示或工作；把比賽、會議或討論延期至較後時間；把計劃或工作成功完成到底；做到答應的事;履行承諾",
+    "en": "carry on / carry on with something / carry something on; carry somebody back (to something); carry somebody off; carry somebody through / carry somebody through something; carry somebody/something along; carry somebody/something away/off; carry somebody/something off; carry something around/about/round (with you); carry something forward; carry something off; carry something out; carry something over; carry something through; carry through on/with something",
+    "naturalZh": [
+      "繼續做某事;延續某項工作、活動或傳統",
+      "使某人回想起過去某段時光",
+      "疾病等使某人死亡",
+      "幫助某人度過困難時期",
+      "水流、風、人群等帶着某人或某物向前移動",
+      "水流、風等把某人或某物沖走、吹走或帶離原處",
+      "把某人或某物帶走;偷走",
+      "隨身攜帶某物",
+      "把數字或總數轉到下一頁或下一欄",
+      "贏得獎品或獎項",
+      "執行並完成計劃、指示或工作",
+      "把比賽、會議或討論延期至較後時間",
+      "把計劃或工作成功完成到底",
+      "做到答應的事;履行承諾"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "carry on / carry on with something / carry something on",
+      "titleZh": "繼續做某事;延續某項工作、活動或傳統",
+      "titleEn": "carry on / carry on with something / carry something on",
+      "descriptionZh": "繼續做某事;延續某項工作、活動或傳統",
+      "descriptionEn": "Please carry on with your work.",
+      "examples": [
+        {
+          "en": "Please carry on with your work.",
+          "zh": "請繼續你的工作。",
+          "highlight": "carry on with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody back (to something)",
+      "titleZh": "使某人回想起過去某段時光",
+      "titleEn": "carry somebody back (to something)",
+      "descriptionZh": "使某人回想起過去某段時光",
+      "descriptionEn": "The song carried him back to his school days.",
+      "examples": [
+        {
+          "en": "The song carried him back to his school days.",
+          "zh": "這首歌把他的思緒帶回求學時期。",
+          "highlight": "carried him back to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody off",
+      "titleZh": "疾病等使某人死亡",
+      "titleEn": "carry somebody off",
+      "descriptionZh": "疾病等使某人死亡",
+      "descriptionEn": "The illness carried him off.",
+      "examples": [
+        {
+          "en": "The illness carried him off.",
+          "zh": "這種疾病奪去了他的生命。",
+          "highlight": "carried him off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody through / carry somebody through something",
+      "titleZh": "幫助某人度過困難時期",
+      "titleEn": "carry somebody through / carry somebody through something",
+      "descriptionZh": "幫助某人度過困難時期",
+      "descriptionEn": "Her friends carried her through the difficult month.",
+      "examples": [
+        {
+          "en": "Her friends carried her through the difficult month.",
+          "zh": "朋友們幫助她度過了艱難的一個月。",
+          "highlight": "carried her through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody/something along",
+      "titleZh": "水流、風、人群等帶着某人或某物向前移動",
+      "titleEn": "carry somebody/something along",
+      "descriptionZh": "水流、風、人群等帶着某人或某物向前移動",
+      "descriptionEn": "The river carried the leaves along.",
+      "examples": [
+        {
+          "en": "The river carried the leaves along.",
+          "zh": "河水帶着樹葉向前流動。",
+          "highlight": "carried the leaves along"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody/something away/off",
+      "titleZh": "水流、風等把某人或某物沖走、吹走或帶離原處",
+      "titleEn": "carry somebody/something away/off",
+      "descriptionZh": "水流、風等把某人或某物沖走、吹走或帶離原處",
+      "descriptionEn": "The wind carried the paper away.",
+      "examples": [
+        {
+          "en": "The wind carried the paper away.",
+          "zh": "風吹走了那張紙。",
+          "highlight": "carried the paper away"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry somebody/something off",
+      "titleZh": "把某人或某物帶走;偷走",
+      "titleEn": "carry somebody/something off",
+      "descriptionZh": "把某人或某物帶走;偷走",
+      "descriptionEn": "A monkey carried off his hat.",
+      "examples": [
+        {
+          "en": "A monkey carried off his hat.",
+          "zh": "一隻猴子拿走了他的帽子。",
+          "highlight": "carried off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "carry something around/about/round (with you)",
+      "titleZh": "隨身攜帶某物",
+      "titleEn": "carry something around/about/round (with you)",
+      "descriptionZh": "隨身攜帶某物",
+      "descriptionEn": "I carry a notebook round with me.",
+      "examples": [
+        {
+          "en": "I carry a notebook round with me.",
+          "zh": "我隨身帶着一本筆記簿。",
+          "highlight": "carry a notebook round with"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry something forward",
+      "titleZh": "把數字或總數轉到下一頁或下一欄",
+      "titleEn": "carry something forward",
+      "descriptionZh": "把數字或總數轉到下一頁或下一欄",
+      "descriptionEn": "Carry the total forward to the next page.",
+      "examples": [
+        {
+          "en": "Carry the total forward to the next page.",
+          "zh": "把總數轉到下一頁。",
+          "highlight": "Carry the total forward"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry something off",
+      "titleZh": "贏得獎品或獎項",
+      "titleEn": "carry something off",
+      "descriptionZh": "贏得獎品或獎項",
+      "descriptionEn": "She carried off first prize.",
+      "examples": [
+        {
+          "en": "She carried off first prize.",
+          "zh": "她奪得一等獎。",
+          "highlight": "carried off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry something out",
+      "titleZh": "執行並完成計劃、指示或工作",
+      "titleEn": "carry something out",
+      "descriptionZh": "執行並完成計劃、指示或工作",
+      "descriptionEn": "They carried out the safety check.",
+      "examples": [
+        {
+          "en": "They carried out the safety check.",
+          "zh": "他們進行了安全檢查。",
+          "highlight": "carried out"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry something over",
+      "titleZh": "把比賽、會議或討論延期至較後時間",
+      "titleEn": "carry something over",
+      "descriptionZh": "把比賽、會議或討論延期至較後時間",
+      "descriptionEn": "The match was carried over until Friday.",
+      "examples": [
+        {
+          "en": "The match was carried over until Friday.",
+          "zh": "比賽延期至星期五。",
+          "highlight": "carried over"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry something through",
+      "titleZh": "把計劃或工作成功完成到底",
+      "titleEn": "carry something through",
+      "descriptionZh": "把計劃或工作成功完成到底",
+      "descriptionEn": "They carried the project through.",
+      "examples": [
+        {
+          "en": "They carried the project through.",
+          "zh": "他們把項目完成到底。",
+          "highlight": "carried the project through"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "carry through on/with something",
+      "titleZh": "做到答應的事;履行承諾",
+      "titleEn": "carry through on/with something",
+      "descriptionZh": "做到答應的事;履行承諾",
+      "descriptionEn": "He carried through on his promise.",
+      "examples": [
+        {
+          "en": "He carried through on his promise.",
+          "zh": "他履行了自己的承諾。",
+          "highlight": "carried through on"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CARRY 片語動詞的實際用途",
+    "labelEn": "CARRY Phrasal Verbs in Use",
+    "summaryZh": "carry on 可以表示繼續進行某項活動;carry something on 則可以表示延續傳統或工作。；carry somebody back 可以表示聲音、氣味或照片令人回想起過去;carry somebodythrough 則表示支持、信心或決心幫助某人度過難關。；carry along、carry away 和 carry off 可以描述水流、風或其他力量如何移動某人或某物。；你可以 carry out 一項計劃、carry it through 至完成,或在有需要時把它 carry over至較後時間。；同一個表達可以表示因疾病死亡、某物被帶走,或贏得獎項。",
+    "summaryEn": "Carry on can describe continuing an activity, while carry something on can describe keeping a tradition or project alive. Carry somebody back connects a present sound, smell or picture with a past memory. Carry somebody through shows how support, confidence or determination helps someone continue. Carry along, carry away and carry off can show how a natural force moves a person or object. You can carry out a plan, carry it through to the end, or carry it over when it must be delayed. The same expression can describe being killed by an illness, having something taken away or winning a prize.",
+    "contextsZh": [
+      "談論延續工作和傳統",
+      "描述回憶和度過困難時期的支持",
+      "描述水流、風或人群造成的移動",
+      "談論計劃的執行、完成和延期",
+      "理解 CARRY OFF 的不同意思"
+    ],
+    "contextsEn": [
+      "Talk about continuing work and traditions",
+      "Describe memories and support during difficult times",
+      "Describe movement caused by water, wind or crowds",
+      "Talk about plans from beginning to completion",
+      "Understand the different meanings of CARRY OFF"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CARRY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CARRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "carry on / carry on with something / carry something on",
+    "fixedHighlight": "carry on / carry on with something / carry something on",
+    "fixedZh": "閱讀整句,選出意思相同的 CARRY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CARRY expression that gives the same meaning.",
+    "correct": "carry on with",
+    "incorrectForms": [],
+    "variableZh": "疾病令他死亡。)The thieves carried the bags off.(賊人把袋子偷走。)She carried off the prize.(她奪得獎項。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；表示隨身攜帶某物時,可以使用 around、about 或 round。carry through on something和 carry through with something 均可表示履行承諾。",
+    "variableEn": "Carry off has three different meanings in this exercise. Read the situation carefully: The illness carried him off. When using him, her, it or them, place the word as shown: carry him through carry it on carry it out carry them off In the “take something with you” meaning, around, about and round are all possible. Both carry through on something and carry through with something can describe fulfilling a promise.",
+    "variableItemsZh": [
+      "carry on / carry on with something / carry something on",
+      "carry somebody back (to something)",
+      "carry somebody off",
+      "carry somebody through / carry somebody through something",
+      "carry somebody/something along",
+      "carry somebody/something away/off",
+      "carry somebody/something off",
+      "carry something around/about/round (with you)",
+      "carry something forward",
+      "carry something off",
+      "carry something out",
+      "carry something over",
+      "carry something through",
+      "carry through on/with something"
+    ],
+    "variableItemsEn": [
+      "carry on / carry on with something / carry something on",
+      "carry somebody back (to something)",
+      "carry somebody off",
+      "carry somebody through / carry somebody through something",
+      "carry somebody/something along",
+      "carry somebody/something away/off",
+      "carry somebody/something off",
+      "carry something around/about/round (with you)",
+      "carry something forward",
+      "carry something off",
+      "carry something out",
+      "carry something over",
+      "carry something through",
+      "carry through on/with something"
+    ],
+    "forms": [
+      {
+        "formZh": "繼續做某事;延續某項工作、活動或傳統",
+        "formEn": "carry on / carry on with something / carry something on",
+        "exampleZh": "請繼續你的工作。",
+        "exampleEn": "Please carry on with your work.",
+        "highlight": "carry on with"
+      },
+      {
+        "formZh": "使某人回想起過去某段時光",
+        "formEn": "carry somebody back (to something)",
+        "exampleZh": "這首歌把他的思緒帶回求學時期。",
+        "exampleEn": "The song carried him back to his school days.",
+        "highlight": "carried him back to"
+      },
+      {
+        "formZh": "疾病等使某人死亡",
+        "formEn": "carry somebody off",
+        "exampleZh": "這種疾病奪去了他的生命。",
+        "exampleEn": "The illness carried him off.",
+        "highlight": "carried him off"
+      },
+      {
+        "formZh": "幫助某人度過困難時期",
+        "formEn": "carry somebody through / carry somebody through something",
+        "exampleZh": "朋友們幫助她度過了艱難的一個月。",
+        "exampleEn": "Her friends carried her through the difficult month.",
+        "highlight": "carried her through"
+      },
+      {
+        "formZh": "水流、風、人群等帶着某人或某物向前移動",
+        "formEn": "carry somebody/something along",
+        "exampleZh": "河水帶着樹葉向前流動。",
+        "exampleEn": "The river carried the leaves along.",
+        "highlight": "carried the leaves along"
+      },
+      {
+        "formZh": "水流、風等把某人或某物沖走、吹走或帶離原處",
+        "formEn": "carry somebody/something away/off",
+        "exampleZh": "風吹走了那張紙。",
+        "exampleEn": "The wind carried the paper away.",
+        "highlight": "carried the paper away"
+      },
+      {
+        "formZh": "把某人或某物帶走;偷走",
+        "formEn": "carry somebody/something off",
+        "exampleZh": "一隻猴子拿走了他的帽子。",
+        "exampleEn": "A monkey carried off his hat.",
+        "highlight": "carried off"
+      },
+      {
+        "formZh": "隨身攜帶某物",
+        "formEn": "carry something around/about/round (with you)",
+        "exampleZh": "我隨身帶着一本筆記簿。",
+        "exampleEn": "I carry a notebook round with me.",
+        "highlight": "carry a notebook round with"
+      },
+      {
+        "formZh": "把數字或總數轉到下一頁或下一欄",
+        "formEn": "carry something forward",
+        "exampleZh": "把總數轉到下一頁。",
+        "exampleEn": "Carry the total forward to the next page.",
+        "highlight": "Carry the total forward"
+      },
+      {
+        "formZh": "贏得獎品或獎項",
+        "formEn": "carry something off",
+        "exampleZh": "她奪得一等獎。",
+        "exampleEn": "She carried off first prize.",
+        "highlight": "carried off"
+      },
+      {
+        "formZh": "執行並完成計劃、指示或工作",
+        "formEn": "carry something out",
+        "exampleZh": "他們進行了安全檢查。",
+        "exampleEn": "They carried out the safety check.",
+        "highlight": "carried out"
+      },
+      {
+        "formZh": "把比賽、會議或討論延期至較後時間",
+        "formEn": "carry something over",
+        "exampleZh": "比賽延期至星期五。",
+        "exampleEn": "The match was carried over until Friday.",
+        "highlight": "carried over"
+      },
+      {
+        "formZh": "把計劃或工作成功完成到底",
+        "formEn": "carry something through",
+        "exampleZh": "他們把項目完成到底。",
+        "exampleEn": "They carried the project through.",
+        "highlight": "carried the project through"
+      },
+      {
+        "formZh": "做到答應的事;履行承諾",
+        "formEn": "carry through on/with something",
+        "exampleZh": "他履行了自己的承諾。",
+        "exampleEn": "He carried through on his promise.",
+        "highlight": "carried through on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "繼續做某事;延續某項工作、活動或傳統",
+      "titleEn": "carry on / carry on with something / carry something on",
+      "formula": "carry on / carry on with something / carry something on",
+      "highlight": "carry on / carry on with something / carry something on",
+      "descriptionZh": "繼續做某事;延續某項工作、活動或傳統",
+      "descriptionEn": "Please carry on with your work.",
+      "examples": [
+        {
+          "en": "Please carry on with your work.",
+          "zh": "請繼續你的工作。",
+          "highlight": "carry on with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "使某人回想起過去某段時光",
+      "titleEn": "carry somebody back (to something)",
+      "formula": "carry somebody back (to something)",
+      "highlight": "carry somebody back (to something)",
+      "descriptionZh": "使某人回想起過去某段時光",
+      "descriptionEn": "The song carried him back to his school days.",
+      "examples": [
+        {
+          "en": "The song carried him back to his school days.",
+          "zh": "這首歌把他的思緒帶回求學時期。",
+          "highlight": "carried him back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "疾病等使某人死亡",
+      "titleEn": "carry somebody off",
+      "formula": "carry somebody off",
+      "highlight": "carry somebody off",
+      "descriptionZh": "疾病等使某人死亡",
+      "descriptionEn": "The illness carried him off.",
+      "examples": [
+        {
+          "en": "The illness carried him off.",
+          "zh": "這種疾病奪去了他的生命。",
+          "highlight": "carried him off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "幫助某人度過困難時期",
+      "titleEn": "carry somebody through / carry somebody through something",
+      "formula": "carry somebody through / carry somebody through something",
+      "highlight": "carry somebody through / carry somebody through something",
+      "descriptionZh": "幫助某人度過困難時期",
+      "descriptionEn": "Her friends carried her through the difficult month.",
+      "examples": [
+        {
+          "en": "Her friends carried her through the difficult month.",
+          "zh": "朋友們幫助她度過了艱難的一個月。",
+          "highlight": "carried her through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "水流、風、人群等帶着某人或某物向前移動",
+      "titleEn": "carry somebody/something along",
+      "formula": "carry somebody/something along",
+      "highlight": "carry somebody/something along",
+      "descriptionZh": "水流、風、人群等帶着某人或某物向前移動",
+      "descriptionEn": "The river carried the leaves along.",
+      "examples": [
+        {
+          "en": "The river carried the leaves along.",
+          "zh": "河水帶着樹葉向前流動。",
+          "highlight": "carried the leaves along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "水流、風等把某人或某物沖走、吹走或帶離原處",
+      "titleEn": "carry somebody/something away/off",
+      "formula": "carry somebody/something away/off",
+      "highlight": "carry somebody/something away/off",
+      "descriptionZh": "水流、風等把某人或某物沖走、吹走或帶離原處",
+      "descriptionEn": "The wind carried the paper away.",
+      "examples": [
+        {
+          "en": "The wind carried the paper away.",
+          "zh": "風吹走了那張紙。",
+          "highlight": "carried the paper away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某人或某物帶走;偷走",
+      "titleEn": "carry somebody/something off",
+      "formula": "carry somebody/something off",
+      "highlight": "carry somebody/something off",
+      "descriptionZh": "把某人或某物帶走;偷走",
+      "descriptionEn": "A monkey carried off his hat.",
+      "examples": [
+        {
+          "en": "A monkey carried off his hat.",
+          "zh": "一隻猴子拿走了他的帽子。",
+          "highlight": "carried off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "隨身攜帶某物",
+      "titleEn": "carry something around/about/round (with you)",
+      "formula": "carry something around/about/round (with you)",
+      "highlight": "carry something around/about/round (with you)",
+      "descriptionZh": "隨身攜帶某物",
+      "descriptionEn": "I carry a notebook round with me.",
+      "examples": [
+        {
+          "en": "I carry a notebook round with me.",
+          "zh": "我隨身帶着一本筆記簿。",
+          "highlight": "carry a notebook round with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把數字或總數轉到下一頁或下一欄",
+      "titleEn": "carry something forward",
+      "formula": "carry something forward",
+      "highlight": "carry something forward",
+      "descriptionZh": "把數字或總數轉到下一頁或下一欄",
+      "descriptionEn": "Carry the total forward to the next page.",
+      "examples": [
+        {
+          "en": "Carry the total forward to the next page.",
+          "zh": "把總數轉到下一頁。",
+          "highlight": "Carry the total forward"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "贏得獎品或獎項",
+      "titleEn": "carry something off",
+      "formula": "carry something off",
+      "highlight": "carry something off",
+      "descriptionZh": "贏得獎品或獎項",
+      "descriptionEn": "She carried off first prize.",
+      "examples": [
+        {
+          "en": "She carried off first prize.",
+          "zh": "她奪得一等獎。",
+          "highlight": "carried off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "執行並完成計劃、指示或工作",
+      "titleEn": "carry something out",
+      "formula": "carry something out",
+      "highlight": "carry something out",
+      "descriptionZh": "執行並完成計劃、指示或工作",
+      "descriptionEn": "They carried out the safety check.",
+      "examples": [
+        {
+          "en": "They carried out the safety check.",
+          "zh": "他們進行了安全檢查。",
+          "highlight": "carried out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把比賽、會議或討論延期至較後時間",
+      "titleEn": "carry something over",
+      "formula": "carry something over",
+      "highlight": "carry something over",
+      "descriptionZh": "把比賽、會議或討論延期至較後時間",
+      "descriptionEn": "The match was carried over until Friday.",
+      "examples": [
+        {
+          "en": "The match was carried over until Friday.",
+          "zh": "比賽延期至星期五。",
+          "highlight": "carried over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把計劃或工作成功完成到底",
+      "titleEn": "carry something through",
+      "formula": "carry something through",
+      "highlight": "carry something through",
+      "descriptionZh": "把計劃或工作成功完成到底",
+      "descriptionEn": "They carried the project through.",
+      "examples": [
+        {
+          "en": "They carried the project through.",
+          "zh": "他們把項目完成到底。",
+          "highlight": "carried the project through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "做到答應的事;履行承諾",
+      "titleEn": "carry through on/with something",
+      "formula": "carry through on/with something",
+      "highlight": "carry through on/with something",
+      "descriptionZh": "做到答應的事;履行承諾",
+      "descriptionEn": "He carried through on his promise.",
+      "examples": [
+        {
+          "en": "He carried through on his promise.",
+          "zh": "他履行了自己的承諾。",
+          "highlight": "carried through on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論延續工作和傳統",
+      "titleEn": "Talk about continuing work and traditions",
+      "zh": "carry on 可以表示繼續進行某項活動;carry something on 則可以表示延續傳統或工作。",
+      "en": "Carry on can describe continuing an activity, while carry something on can describe keeping a tradition or project alive."
+    },
+    {
+      "titleZh": "描述回憶和度過困難時期的支持",
+      "titleEn": "Describe memories and support during difficult times",
+      "zh": "carry somebody back 可以表示聲音、氣味或照片令人回想起過去;carry somebodythrough 則表示支持、信心或決心幫助某人度過難關。",
+      "en": "Carry somebody back connects a present sound, smell or picture with a past memory. Carry somebody through shows how support, confidence or determination helps someone continue."
+    },
+    {
+      "titleZh": "描述水流、風或人群造成的移動",
+      "titleEn": "Describe movement caused by water, wind or crowds",
+      "zh": "carry along、carry away 和 carry off 可以描述水流、風或其他力量如何移動某人或某物。",
+      "en": "Carry along, carry away and carry off can show how a natural force moves a person or object."
+    },
+    {
+      "titleZh": "談論計劃的執行、完成和延期",
+      "titleEn": "Talk about plans from beginning to completion",
+      "zh": "你可以 carry out 一項計劃、carry it through 至完成,或在有需要時把它 carry over至較後時間。",
+      "en": "You can carry out a plan, carry it through to the end, or carry it over when it must be delayed."
+    },
+    {
+      "titleZh": "理解 CARRY OFF 的不同意思",
+      "titleEn": "Understand the different meanings of CARRY OFF",
+      "zh": "同一個表達可以表示因疾病死亡、某物被帶走,或贏得獎項。",
+      "en": "The same expression can describe being killed by an illness, having something taken away or winning a prize."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論延續工作和傳統",
+      "描述回憶和度過困難時期的支持",
+      "描述水流、風或人群造成的移動",
+      "談論計劃的執行、完成和延期",
+      "理解 CARRY OFF 的不同意思"
+    ],
+    "contextsEn": [
+      "Talk about continuing work and traditions",
+      "Describe memories and support during difficult times",
+      "Describe movement caused by water, wind or crowds",
+      "Talk about plans from beginning to completion",
+      "Understand the different meanings of CARRY OFF"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論延續工作和傳統",
+        "titleEn": "Talk about continuing work and traditions",
+        "zh": "carry on 可以表示繼續進行某項活動;carry something on 則可以表示延續傳統或工作。",
+        "en": "Carry on can describe continuing an activity, while carry something on can describe keeping a tradition or project alive.",
+        "examples": [
+          {
+            "en": "Please carry on with your work.",
+            "zh": "請繼續你的工作。",
+            "highlight": "carry on with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述回憶和度過困難時期的支持",
+        "titleEn": "Describe memories and support during difficult times",
+        "zh": "carry somebody back 可以表示聲音、氣味或照片令人回想起過去;carry somebodythrough 則表示支持、信心或決心幫助某人度過難關。",
+        "en": "Carry somebody back connects a present sound, smell or picture with a past memory. Carry somebody through shows how support, confidence or determination helps someone continue.",
+        "examples": [
+          {
+            "en": "The song carried him back to his school days.",
+            "zh": "這首歌把他的思緒帶回求學時期。",
+            "highlight": "carried him back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述水流、風或人群造成的移動",
+        "titleEn": "Describe movement caused by water, wind or crowds",
+        "zh": "carry along、carry away 和 carry off 可以描述水流、風或其他力量如何移動某人或某物。",
+        "en": "Carry along, carry away and carry off can show how a natural force moves a person or object.",
+        "examples": [
+          {
+            "en": "The illness carried him off.",
+            "zh": "這種疾病奪去了他的生命。",
+            "highlight": "carried him off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論計劃的執行、完成和延期",
+        "titleEn": "Talk about plans from beginning to completion",
+        "zh": "你可以 carry out 一項計劃、carry it through 至完成,或在有需要時把它 carry over至較後時間。",
+        "en": "You can carry out a plan, carry it through to the end, or carry it over when it must be delayed.",
+        "examples": [
+          {
+            "en": "Her friends carried her through the difficult month.",
+            "zh": "朋友們幫助她度過了艱難的一個月。",
+            "highlight": "carried her through"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 CARRY OFF 的不同意思",
+        "titleEn": "Understand the different meanings of CARRY OFF",
+        "zh": "同一個表達可以表示因疾病死亡、某物被帶走,或贏得獎項。",
+        "en": "The same expression can describe being killed by an illness, having something taken away or winning a prize.",
+        "examples": [
+          {
+            "en": "The river carried the leaves along.",
+            "zh": "河水帶着樹葉向前流動。",
+            "highlight": "carried the leaves along"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CARRY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CARRY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CARRY 片語動詞。",
+      "en": "Read the whole sentence and choose the CARRY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "疾病令他死亡。)The thieves carried the bags off.(賊人把袋子偷走。)She carried off the prize.(她奪得獎項。",
+      "titleEn": "Carry off has three different meanings in this exercise.",
+      "zh": "疾病令他死亡。)The thieves carried the bags off.(賊人把袋子偷走。)She carried off the prize.(她奪得獎項。",
+      "en": "Carry off has three different meanings in this exercise. Read the situation carefully: The illness carried him off."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: carry him through carry it on carry it out carry them off.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: carry him through carry it on carry it out carry them off"
+    },
+    {
+      "titleZh": "表示隨身攜帶某物時,可以使用 around、about 或 round。carry through on something和 carry through with something 均可表示履行承諾。",
+      "titleEn": "In the “take something with you” meaning, around, about and round are all possible.",
+      "zh": "表示隨身攜帶某物時,可以使用 around、about 或 round。carry through on something和 carry through with something 均可表示履行承諾。",
+      "en": "In the “take something with you” meaning, around, about and round are all possible. Both carry through on something and carry through with something can describe fulfilling a promise."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CARRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CARRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CARRY 動詞片語句子改寫練習",
+    "titleEn": "CARRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CARRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CARRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-236-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "This morning, the school completed a fire drill.",
+      "promptZh": "學校今早完成了一次消防演習。",
+      "starter": "This",
+      "answer": "This morning, the school carried out a fire drill.",
+      "answerZh": "學校今早進行了一次消防演習。",
+      "highlight": "carried out",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "An old photograph made Leo remember his first day at school.",
+      "promptZh": "一張舊照片令里奧回想起上學的第一天。",
+      "starter": "An",
+      "answer": "An old photograph carried Leo back to his first day at school.",
+      "answerZh": "一張舊照片把里奧的思緒帶回上學的第一天。",
+      "highlight": "carried",
+      "targetForm": "carry somebody back (to something)",
+      "targetMeaningZh": "使某人回想起過去"
+    },
+    {
+      "id": "phrasal-verb-236-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "I take this water bottle with me every day.",
+      "promptZh": "我每天都隨身帶着這個水樽。",
+      "starter": "I",
+      "answer": "I carry this water bottle around with me every day.",
+      "answerZh": "我每天都隨身帶着這個水樽。",
+      "highlight": "carry",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The river moved the fallen leaves along.",
+      "promptZh": "河水帶着落葉向前流動。",
+      "starter": "The",
+      "answer": "The river carried the fallen leaves along.",
+      "answerZh": "河水帶着落葉向前流動。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Eva won the first prize in the art competition.",
+      "promptZh": "伊娃在美術比賽中贏得一等獎。",
+      "starter": "Eva",
+      "answer": "Eva carried off the first prize in the art competition.",
+      "answerZh": "伊娃在美術比賽中奪得一等獎。",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Please continue with your work while I am away.",
+      "promptZh": "我不在時,請繼續工作。",
+      "starter": "Please",
+      "answer": "Please carry on with your work while I am away.",
+      "answerZh": "我不在時,請繼續工作。",
+      "highlight": "carry on",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "A strong wind blew the paper away.",
+      "promptZh": "一陣強風吹走了那張紙。",
+      "starter": "A",
+      "answer": "A strong wind carried the paper away.",
+      "answerZh": "一陣強風吹走了那張紙。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Sam promised to help, and he did what he had promised.",
+      "promptZh": "森姆答應幫忙,並履行了自己的承諾。",
+      "starter": "Sam",
+      "answer": "Sam promised to help, and he carried through on his promise.",
+      "answerZh": "森姆答應幫忙,並履行了自己的承諾。",
+      "highlight": "carried through on his promise",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    },
+    {
+      "id": "phrasal-verb-236-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Please move the total to the next page.",
+      "promptZh": "請把總數轉到下一頁。",
+      "starter": "Please",
+      "answer": "Please carry the total forward to the next page.",
+      "answerZh": "請把總數轉到下一頁。",
+      "highlight": "carry",
+      "targetForm": "carry something forward",
+      "targetMeaningZh": "把數字或總數轉到下一頁或下一欄"
+    },
+    {
+      "id": "phrasal-verb-236-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Her friends helped Nina get through a difficult week.",
+      "promptZh": "朋友們幫助妮娜度過了艱難的一星期。",
+      "starter": "Her",
+      "answer": "Her friends carried Nina through a difficult week.",
+      "answerZh": "朋友們幫助妮娜度過了艱難的一星期。",
+      "highlight": "carried",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The match was delayed until Wednesday.",
+      "promptZh": "比賽延期至星期三。",
+      "starter": "The",
+      "answer": "The match was carried over until Wednesday.",
+      "answerZh": "比賽延期至星期三。",
+      "highlight": "carried over",
+      "targetForm": "carry something over",
+      "targetMeaningZh": "把事情延期至較後時間"
+    },
+    {
+      "id": "phrasal-verb-236-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "A monkey took a tourist’s hat away.",
+      "promptZh": "一隻猴子拿走了一名遊客的帽子。",
+      "starter": "A",
+      "answer": "A monkey carried off a tourist’s hat.",
+      "answerZh": "一隻猴子拿走了一名遊客的帽子。",
+      "highlight": "carried off",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Our team completed the plan successfully.",
+      "promptZh": "我們的團隊成功完成了計劃。",
+      "starter": "Our",
+      "answer": "Our team carried the plan through successfully.",
+      "answerZh": "我們的團隊成功把計劃完成到底。",
+      "highlight": "carried",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Several villagers died because of the disease.",
+      "promptZh": "幾名村民因這種疾病死亡。",
+      "starter": "Several",
+      "answer": "Several villagers were carried off by the disease.",
+      "answerZh": "幾名村民被這種疾病奪去生命。",
+      "highlight": "were carried off by",
+      "targetForm": "carry somebody off",
+      "targetMeaningZh": "使某人因疾病等死亡"
+    },
+    {
+      "id": "phrasal-verb-236-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Our children will continue this tradition after us.",
+      "promptZh": "我們的孩子會在我們之後延續這項傳統。",
+      "starter": "Our",
+      "answer": "Our children will carry this tradition on after us.",
+      "answerZh": "我們的孩子會在我們之後延續這項傳統。",
+      "highlight": "carry",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "He does not want to take the heavy bag with him all day.",
+      "promptZh": "他不想整天隨身帶着這個沉重的袋。",
+      "starter": "He",
+      "answer": "He does not want to carry the heavy bag about with him all day.",
+      "answerZh": "他不想整天隨身帶着這個沉重的袋。",
+      "highlight": "carry",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Before winter ended, the epidemic had caused many people to die.",
+      "promptZh": "冬季結束前,這場疫症已令許多人死亡。",
+      "starter": "Before",
+      "answer": "Before winter ended, the epidemic had carried many people off.",
+      "answerZh": "冬季結束前,這場疫症已奪去許多人的生命。",
+      "highlight": "carried",
+      "targetForm": "carry somebody off",
+      "targetMeaningZh": "使某人因疾病等死亡"
+    },
+    {
+      "id": "phrasal-verb-236-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "At the moment, the workers are performing the safety checks.",
+      "promptZh": "工人現正進行安全檢查。",
+      "starter": "At",
+      "answer": "At the moment, the workers are carrying out the safety checks.",
+      "answerZh": "工人現正進行安全檢查。",
+      "highlight": "carrying out",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Priya usually takes a small notebook with her.",
+      "promptZh": "普里雅通常會隨身帶着一本小筆記簿。",
+      "starter": "Priya",
+      "answer": "Priya usually carries a small notebook round with her.",
+      "answerZh": "普里雅通常會隨身帶着一本小筆記簿。",
+      "highlight": "carries",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Her confidence is helping her get through the interview.",
+      "promptZh": "她的自信正幫助她捱過這次面試。",
+      "starter": "Her",
+      "answer": "Her confidence is carrying her through the interview.",
+      "answerZh": "她的自信正幫助她捱過這次面試。",
+      "highlight": "carrying",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Our school has won three sports awards this year.",
+      "promptZh": "本校今年已贏得三個體育獎項。",
+      "starter": "Our",
+      "answer": "Our school has carried off three sports awards this year.",
+      "answerZh": "本校今年已奪得三個體育獎項。",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "She has continued working despite the noise.",
+      "promptZh": "儘管有噪音,她仍繼續工作。",
+      "starter": "She",
+      "answer": "She has carried on working despite the noise.",
+      "answerZh": "儘管有噪音,她仍繼續工作。",
+      "highlight": "carried on",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Strong winds may blow the balloons away.",
+      "promptZh": "強風可能會把氣球吹走。",
+      "starter": "Strong",
+      "answer": "Strong winds may carry the balloons away.",
+      "answerZh": "強風可能會把氣球吹走。",
+      "highlight": "carry",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Have you moved the figures to the next column?",
+      "promptZh": "你有把數字轉到下一欄嗎?",
+      "starter": "Have",
+      "answer": "Have you carried the figures forward to the next column?",
+      "answerZh": "你有把數字轉到下一欄嗎?",
+      "highlight": "carried",
+      "targetForm": "carry something forward",
+      "targetMeaningZh": "把數字或總數轉到下一頁或下一欄"
+    },
+    {
+      "id": "phrasal-verb-236-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "A strong current was moving the small boat along.",
+      "promptZh": "一股強勁水流正帶着小艇向前移動。",
+      "starter": "A",
+      "answer": "A strong current was carrying the small boat along.",
+      "answerZh": "一股強勁水流正帶着小艇向前移動。",
+      "highlight": "carrying",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "He has not done what he promised about calling.",
+      "promptZh": "他尚未履行打電話的承諾。",
+      "starter": "He",
+      "answer": "He has not carried through with his promise to call.",
+      "answerZh": "他尚未履行打電話的承諾。",
+      "highlight": "carried through with his promise to call",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    },
+    {
+      "id": "phrasal-verb-236-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "This song always makes my father remember his school days.",
+      "promptZh": "這首歌總會令父親回想起求學時期。",
+      "starter": "This",
+      "answer": "This song always carries my father back to his school days.",
+      "answerZh": "這首歌總會把父親的思緒帶回求學時期。",
+      "highlight": "carries",
+      "targetForm": "carry somebody back (to something)",
+      "targetMeaningZh": "使某人回想起過去"
+    },
+    {
+      "id": "phrasal-verb-236-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Because the manager is away, the meeting may be delayed until Friday.",
+      "promptZh": "由於經理不在,會議可能延期至星期五。",
+      "starter": "Because",
+      "answer": "Because the manager is away, the meeting may be carried over until Friday.",
+      "answerZh": "由於經理不在,會議可能延期至星期五。",
+      "highlight": "carried over",
+      "targetForm": "carry something over",
+      "targetMeaningZh": "把事情延期至較後時間"
+    },
+    {
+      "id": "phrasal-verb-236-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Thieves have taken several bicycles from the station.",
+      "promptZh": "賊人已從車站偷走數架單車。",
+      "starter": "Thieves",
+      "answer": "Thieves have carried off several bicycles from the station.",
+      "answerZh": "賊人已從車站偷走數架單車。",
+      "highlight": "carried off",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We will complete the project before the end of term.",
+      "promptZh": "我們會在學期結束前完成項目。",
+      "starter": "We",
+      "answer": "We will carry the project through before the end of term.",
+      "answerZh": "我們會在學期結束前把項目完成到底。",
+      "highlight": "carry",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Could this money support you until the end of the week?",
+      "promptZh": "這筆錢能否幫助你維持到本週結束?",
+      "starter": "Could",
+      "answer": "Could this money carry you through the week?",
+      "answerZh": "這筆錢能否幫助你維持一星期?",
+      "highlight": "carry",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Why did the class conduct the survey?",
+      "promptZh": "全班為甚麼進行這項調查?",
+      "starter": "Why",
+      "answer": "Why did the class carry out the survey?",
+      "answerZh": "全班為甚麼進行這項調查?",
+      "highlight": "carry out",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "When I travel, I take this useful guidebook with me.",
+      "promptZh": "旅行時,我會隨身帶着這本實用的旅遊指南。",
+      "starter": "When",
+      "answer": "When I travel, I carry this useful guidebook around with me.",
+      "answerZh": "旅行時,我會隨身帶着這本實用的旅遊指南。",
+      "highlight": "carry",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "A serious fever caused him to die during the winter.",
+      "promptZh": "一場嚴重高燒令他在冬季去世。",
+      "starter": "He",
+      "answer": "He was carried off by a serious fever during the winter.",
+      "answerZh": "他在冬季因一場嚴重高燒而去世。",
+      "highlight": "He was carried off by",
+      "targetForm": "carry somebody off",
+      "targetMeaningZh": "使某人因疾病等死亡"
+    },
+    {
+      "id": "phrasal-verb-236-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Although the job was difficult, Rosa completed it successfully.",
+      "promptZh": "雖然這項工作很困難,但羅莎仍成功完成了。",
+      "starter": "Although",
+      "answer": "Although the job was difficult, Rosa carried it through.",
+      "answerZh": "雖然這項工作很困難,但羅莎仍把它完成到底。",
+      "highlight": "carried",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "As the water flowed quickly, it moved the empty box along.",
+      "promptZh": "水流很急,並帶着空箱向前移動。",
+      "starter": "As",
+      "answer": "As the water flowed quickly, it carried the empty box along.",
+      "answerZh": "水流很急,並帶着空箱向前移動。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "After lunch, the discussion continued.",
+      "promptZh": "午膳後,討論繼續進行。",
+      "starter": "After",
+      "answer": "After lunch, the discussion carried on.",
+      "answerZh": "午膳後,討論繼續進行。",
+      "highlight": "carried on",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Everyone was surprised when the young singer won the main award.",
+      "promptZh": "這名年輕歌手贏得主要獎項,令大家十分驚喜。",
+      "starter": "Everyone",
+      "answer": "Everyone was surprised when the young singer carried off the main award.",
+      "answerZh": "這名年輕歌手奪得主要獎項,令大家十分驚喜。",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "A sudden wave swept the child’s toy boat away.",
+      "promptZh": "一個突如其來的浪把孩子的玩具船沖走。",
+      "starter": "A",
+      "answer": "A sudden wave carried the child’s toy boat off.",
+      "answerZh": "一個突如其來的浪把孩子的玩具船沖走。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "After the plan was approved, the team completed it the next day.",
+      "promptZh": "計劃獲得批准後,團隊翌日便執行了。",
+      "starter": "After",
+      "answer": "After the plan was approved, the team carried it out the next day.",
+      "answerZh": "計劃獲得批准後,團隊翌日便執行了。",
+      "highlight": "carried",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The smell of fresh bread made her remember Sunday mornings at home.",
+      "promptZh": "新鮮麵包的氣味令她回想起在家度過的星期日早上。",
+      "starter": "The",
+      "answer": "The smell of fresh bread carried her back to Sunday mornings at home.",
+      "answerZh": "新鮮麵包的氣味把她的思緒帶回在家度過的星期日早上。",
+      "highlight": "carried",
+      "targetForm": "carry somebody back (to something)",
+      "targetMeaningZh": "使某人回想起過去"
+    },
+    {
+      "id": "phrasal-verb-236-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Support from her family helped her get through the final month of training.",
+      "promptZh": "家人的支持幫助她度過訓練的最後一個月。",
+      "starter": "Support",
+      "answer": "Support from her family carried her through the final month of training.",
+      "answerZh": "家人的支持幫助她度過訓練的最後一個月。",
+      "highlight": "carried",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Copy the total at the bottom, then move it to the next page.",
+      "promptZh": "抄下底部的總數,然後把它轉到下一頁。",
+      "starter": "Copy",
+      "answer": "Copy the total at the bottom, then carry it forward to the next page.",
+      "answerZh": "抄下底部的總數,然後把它轉到下一頁。",
+      "highlight": "carry",
+      "targetForm": "carry something forward",
+      "targetMeaningZh": "把數字或總數轉到下一頁或下一欄"
+    },
+    {
+      "id": "phrasal-verb-236-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "After promising to make the change, the coach did what he had promised.",
+      "promptZh": "教練承諾作出改動後,履行了自己的承諾。",
+      "starter": "After",
+      "answer": "After promising to make the change, the coach carried through with it.",
+      "answerZh": "教練承諾作出改動後,履行了自己的承諾。",
+      "highlight": "carried through with it",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    },
+    {
+      "id": "phrasal-verb-236-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "After finding the bread, the birds took it away.",
+      "promptZh": "雀鳥找到麵包後把它帶走。",
+      "starter": "After",
+      "answer": "After finding the bread, the birds carried it off.",
+      "answerZh": "雀鳥找到麵包後把它帶走。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "We could not finish the discussion, so we delayed it until Monday.",
+      "promptZh": "我們未能完成討論,因此把它延期至星期一。",
+      "starter": "We",
+      "answer": "We could not finish the discussion, so we carried it over until Monday.",
+      "answerZh": "我們未能完成討論,因此把它延期至星期一。",
+      "highlight": "carried",
+      "targetForm": "carry something over",
+      "targetMeaningZh": "把事情延期至較後時間"
+    },
+    {
+      "id": "phrasal-verb-236-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "As the crowd moved towards the gate, it pushed us along with it.",
+      "promptZh": "人群朝閘口移動,並帶着我們一起向前。",
+      "starter": "As",
+      "answer": "As the crowd moved towards the gate, it carried us along with it.",
+      "answerZh": "人群朝閘口移動,並帶着我們一起向前。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Although organising the school play was difficult, the students completed the job.",
+      "promptZh": "雖然籌辦學校話劇很困難,但學生仍完成了這項工作。",
+      "starter": "Although",
+      "answer": "Although organising the school play was difficult, the students carried the job through.",
+      "answerZh": "雖然籌辦學校話劇很困難,但學生仍把這項工作完成到底。",
+      "highlight": "carried",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The wind lifted the tent cover and blew it across the field.",
+      "promptZh": "風吹起帳篷頂布,並把它吹過田野。",
+      "starter": "The",
+      "answer": "The wind lifted the tent cover and carried it off across the field.",
+      "answerZh": "風吹起帳篷頂布,並把它吹過田野。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "At the bottom of this page, the number should be moved to the next page, not treated as a new number.",
+      "promptZh": "本頁底部的數字應轉到下一頁,不應當作新的數字。",
+      "starter": "At",
+      "answer": "At the bottom of this page, the number should be carried forward, not treated as a new number.",
+      "answerZh": "本頁底部的數字應轉到下一頁,不應當作新的數字。",
+      "highlight": "carried forward",
+      "targetForm": "carry something forward",
+      "targetMeaningZh": "把數字或總數轉到下一頁或下一欄"
+    },
+    {
+      "id": "phrasal-verb-236-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "When the older members left, the younger members continued the tradition.",
+      "promptZh": "年長成員離開後,年輕成員把傳統延續下去。",
+      "starter": "When",
+      "answer": "When the older members left, the younger members carried the tradition on.",
+      "answerZh": "年長成員離開後,年輕成員把傳統延續下去。",
+      "highlight": "carried",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Before modern treatment was available, that illness caused him to die.",
+      "promptZh": "在現代治療方法出現前,那種疾病令他去世。",
+      "starter": "Before",
+      "answer": "Before modern treatment was available, that illness carried him off.",
+      "answerZh": "在現代治療方法出現前,那種疾病奪去了他的生命。",
+      "highlight": "carried",
+      "targetForm": "carry somebody off",
+      "targetMeaningZh": "使某人因疾病等死亡"
+    },
+    {
+      "id": "phrasal-verb-236-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Although Kai played against older students, he still won the chess prize.",
+      "promptZh": "雖然啟與年長學生比賽,但他仍贏得國際象棋獎項。",
+      "starter": "Although",
+      "answer": "Although Kai played against older students, he still carried off the chess prize.",
+      "answerZh": "雖然啟與年長學生比賽,但他仍奪得國際象棋獎項。",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Instead of leaving the charger at home, Aisha takes it with her.",
+      "promptZh": "艾莎沒有把充電器留在家中,而是隨身攜帶。",
+      "starter": "Instead",
+      "answer": "Instead of leaving the charger at home, Aisha carries it about with her.",
+      "answerZh": "艾莎沒有把充電器留在家中,而是隨身攜帶。",
+      "highlight": "carries",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "A small amount of savings supported the family through a winter with little work.",
+      "promptZh": "一小筆積蓄幫助這個家庭度過工作不多的冬季。",
+      "starter": "A",
+      "answer": "A small amount of savings carried the family through a winter with little work.",
+      "answerZh": "一小筆積蓄幫助這個家庭度過工作不多的冬季。",
+      "highlight": "carried",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "After discussing the plan, the committee put it into action.",
+      "promptZh": "委員會討論計劃後,把它付諸實行。",
+      "starter": "After",
+      "answer": "After discussing the plan, the committee carried it out.",
+      "answerZh": "委員會討論計劃後,把它付諸實行。",
+      "highlight": "carried",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "As the wind blew down the street, it moved the smoke along.",
+      "promptZh": "風吹過街道時,帶着煙霧向前飄動。",
+      "starter": "As",
+      "answer": "As the wind blew down the street, it carried the smoke along.",
+      "answerZh": "風吹過街道時,帶着煙霧向前飄動。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Although the company said it would return the money, it did not do what it had promised.",
+      "promptZh": "雖然公司表示會退款,但沒有履行承諾。",
+      "starter": "Although",
+      "answer": "Although the company said it would return the money, it did not carry through on that promise.",
+      "answerZh": "雖然公司表示會退款,但沒有履行承諾。",
+      "highlight": "carry through on that promise",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    },
+    {
+      "id": "phrasal-verb-236-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Hearing the school bell made Ben remember his first year as a teacher.",
+      "promptZh": "聽到校鐘聲令賓回想起自己任教的第一年。",
+      "starter": "Hearing",
+      "answer": "Hearing the school bell carried Ben back to his first year as a teacher.",
+      "answerZh": "校鐘聲把賓的思緒帶回任教的第一年。",
+      "highlight": "carried",
+      "targetForm": "carry somebody back (to something)",
+      "targetMeaningZh": "使某人回想起過去"
+    },
+    {
+      "id": "phrasal-verb-236-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Because the field was too wet, the game was delayed until the following Saturday.",
+      "promptZh": "由於球場太濕,比賽延期至下一個星期六。",
+      "starter": "Because",
+      "answer": "Because the field was too wet, the game was carried over to the following Saturday.",
+      "answerZh": "由於球場太濕,比賽延期至下一個星期六。",
+      "highlight": "carried over to",
+      "targetForm": "carry something over",
+      "targetMeaningZh": "把事情延期至較後時間"
+    },
+    {
+      "id": "phrasal-verb-236-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "After entering the empty shop, the thieves took the computers away.",
+      "promptZh": "賊人進入空置店舖後,把電腦偷走。",
+      "starter": "After",
+      "answer": "After entering the empty shop, the thieves carried the computers off.",
+      "answerZh": "賊人進入空置店舖後,把電腦偷走。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "After making the plan, the group did not stop; it completed the whole plan.",
+      "promptZh": "小組制訂計劃後沒有停下來,而是把整項計劃完成。",
+      "starter": "After",
+      "answer": "After making the plan, the group did not stop; it carried the whole plan through.",
+      "answerZh": "小組制訂計劃後沒有停下來,而是把整項計劃完成到底。",
+      "highlight": "carried",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The current pulled the swimmer’s board away from the beach.",
+      "promptZh": "水流把泳手的浮板沖離海灘。",
+      "starter": "The",
+      "answer": "The current carried the swimmer’s board away from the beach.",
+      "answerZh": "水流把泳手的浮板沖離海灘。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Which pupil won the science trophy this year?",
+      "promptZh": "今年哪名學生贏得科學獎盃?",
+      "starter": "Which",
+      "answer": "Which pupil carried off the science trophy this year?",
+      "answerZh": "今年哪名學生奪得科學獎盃?",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Eventually, the company did what it had promised and replaced the damaged chairs.",
+      "promptZh": "公司最終履行承諾,更換了損壞的椅子。",
+      "starter": "Eventually",
+      "answer": "Eventually, the company carried through on its promise and replaced the damaged chairs.",
+      "answerZh": "公司最終履行承諾,更換了損壞的椅子。",
+      "highlight": "carried through on its promise",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    },
+    {
+      "id": "phrasal-verb-236-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After dropping the wooden boat into the stream, the children watched the water move it towards the bridge.",
+      "promptZh": "孩子們把木船放進小溪後,看着水流把它帶向橋邊。",
+      "starter": "After",
+      "answer": "After dropping the wooden boat into the stream, the children watched the water carry it along towards the bridge.",
+      "answerZh": "孩子們把木船放進小溪後,看着水流把它帶向橋邊。",
+      "highlight": "carry",
+      "targetForm": "carry somebody/something along",
+      "targetMeaningZh": "隨着水流、風或其他力量向前移動"
+    },
+    {
+      "id": "phrasal-verb-236-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "As soon as the music began, it made the grandfather remember the dances he had enjoyed when he was young.",
+      "promptZh": "音樂一響起,祖父便回想起年輕時參加過的舞會。",
+      "starter": "As",
+      "answer": "As soon as the music began, it carried the grandfather back to the dances he had enjoyed when he was young.",
+      "answerZh": "音樂一響起,祖父的思緒便被帶回年輕時參加過的舞會。",
+      "highlight": "carried",
+      "targetForm": "carry somebody back (to something)",
+      "targetMeaningZh": "使某人回想起過去"
+    },
+    {
+      "id": "phrasal-verb-236-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After agreeing on a clean-up plan, the town asked local volunteers to complete it the following weekend.",
+      "promptZh": "小鎮同意清潔計劃後,請當地義工在下一個週末把它付諸實行。",
+      "starter": "After",
+      "answer": "After agreeing on a clean-up plan, the town asked local volunteers to carry it out the following weekend.",
+      "answerZh": "小鎮同意清潔計劃後,請當地義工在下一個週末把它付諸實行。",
+      "highlight": "carry",
+      "targetForm": "carry something out",
+      "targetMeaningZh": "執行並完成計劃、指示或工作"
+    },
+    {
+      "id": "phrasal-verb-236-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "While the family was outside, thieves entered the house and took several small items away.",
+      "promptZh": "一家人外出時,賊人進入屋內,偷走數件小物品。",
+      "starter": "While",
+      "answer": "While the family was outside, thieves entered the house and carried several small items off.",
+      "answerZh": "一家人外出時,賊人進入屋內,偷走數件小物品。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Although the club’s founder has retired, the new members intend to continue with the same community work.",
+      "promptZh": "雖然社團創辦人已退休,新成員仍打算繼續同一項社區工作。",
+      "starter": "Although",
+      "answer": "Although the club’s founder has retired, the new members intend to carry on with the same community work.",
+      "answerZh": "雖然社團創辦人已退休,新成員仍打算繼續同一項社區工作。",
+      "highlight": "carry on",
+      "targetForm": "carry on / carry on with something / carry something on",
+      "targetMeaningZh": "繼續做某事;延續某項工作或傳統"
+    },
+    {
+      "id": "phrasal-verb-236-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Before anyone noticed, the rising water swept the bag away from the shore.",
+      "promptZh": "在有人察覺前,上升的水位已把袋子從岸邊沖走。",
+      "starter": "Before",
+      "answer": "Before anyone noticed, the rising water carried the bag away from the shore.",
+      "answerZh": "在有人察覺前,上升的水位已把袋子從岸邊沖走。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something away/off",
+      "targetMeaningZh": "把某人或某物沖走、吹走或帶離原處"
+    },
+    {
+      "id": "phrasal-verb-236-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Although several experienced players entered, the youngest player won the top prize.",
+      "promptZh": "雖然有數名經驗豐富的選手參賽,最年輕的選手仍贏得最高獎項。",
+      "starter": "Although",
+      "answer": "Although several experienced players entered, the youngest player carried off the top prize.",
+      "answerZh": "雖然有數名經驗豐富的選手參賽,最年輕的選手仍奪得最高獎項。",
+      "highlight": "carried off",
+      "targetForm": "carry something off",
+      "targetMeaningZh": "贏得獎項或獎品"
+    },
+    {
+      "id": "phrasal-verb-236-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "When the last part of the journey became exhausting, the thought of home helped the walkers continue.",
+      "promptZh": "旅程最後一段令人筋疲力盡,對家的思念幫助步行者堅持下去。",
+      "starter": "When",
+      "answer": "When the last part of the journey became exhausting, the thought of home carried the walkers through.",
+      "answerZh": "旅程最後一段令人筋疲力盡,對家的思念幫助步行者堅持下去。",
+      "highlight": "carried",
+      "targetForm": "carry somebody through / carry somebody through something",
+      "targetMeaningZh": "幫助某人度過困難時期"
+    },
+    {
+      "id": "phrasal-verb-236-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Because the weather changes quickly, Noah takes a light jacket with him even on sunny mornings.",
+      "promptZh": "由於天氣轉變得很快,即使早上天晴,諾亞也會隨身帶着一件薄外套。",
+      "starter": "Because",
+      "answer": "Because the weather changes quickly, Noah carries a light jacket round with him even on sunny mornings.",
+      "answerZh": "由於天氣轉變得很快,即使早上天晴,諾亞也會隨身帶着一件薄外套。",
+      "highlight": "carries",
+      "targetForm": "carry something around/about/round (with you)",
+      "targetMeaningZh": "隨身攜帶某物"
+    },
+    {
+      "id": "phrasal-verb-236-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "In the years before the new medicine, the disease caused many young adults to die.",
+      "promptZh": "在新藥出現前的年代,這種疾病令許多年輕人死亡。",
+      "starter": "In",
+      "answer": "In the years before the new medicine, the disease carried many young adults off.",
+      "answerZh": "在新藥出現前的年代,這種疾病奪去了許多年輕人的生命。",
+      "highlight": "carried",
+      "targetForm": "carry somebody off",
+      "targetMeaningZh": "使某人因疾病等死亡"
+    },
+    {
+      "id": "phrasal-verb-236-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Even when costs rose, the organisers completed the event successfully.",
+      "promptZh": "即使成本上升,主辦單位仍成功完成了活動。",
+      "starter": "Even",
+      "answer": "Even when costs rose, the organisers carried the event through to the end.",
+      "answerZh": "即使成本上升,主辦單位仍把活動完成到底。",
+      "highlight": "carried",
+      "targetForm": "carry something through",
+      "targetMeaningZh": "把某事成功完成到底"
+    },
+    {
+      "id": "phrasal-verb-236-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "After checking the first page, the clerk moved the final total to the next page and continued the calculation.",
+      "promptZh": "職員核對第一頁後,把最後總數轉到下一頁,並繼續計算。",
+      "starter": "After",
+      "answer": "After checking the first page, the clerk carried the final total forward and continued the calculation.",
+      "answerZh": "職員核對第一頁後,把最後總數轉到下一頁,並繼續計算。",
+      "highlight": "carried",
+      "targetForm": "carry something forward",
+      "targetMeaningZh": "把數字或總數轉到下一頁或下一欄"
+    },
+    {
+      "id": "phrasal-verb-236-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Since neither side was ready to decide, the discussion was delayed until the next meeting.",
+      "promptZh": "由於雙方均未準備好作出決定,討論延期至下次會議。",
+      "starter": "Since",
+      "answer": "Since neither side was ready to decide, the discussion was carried over until the next meeting.",
+      "answerZh": "由於雙方均未準備好作出決定,討論延期至下次會議。",
+      "highlight": "carried over",
+      "targetForm": "carry something over",
+      "targetMeaningZh": "把事情延期至較後時間"
+    },
+    {
+      "id": "phrasal-verb-236-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "After flying down and picking up the fish, the eagle took it away.",
+      "promptZh": "老鷹飛下來抓起那條魚後,把它帶走。",
+      "starter": "After",
+      "answer": "After flying down and picking up the fish, the eagle carried it off.",
+      "answerZh": "老鷹飛下來抓起那條魚後,把它帶走。",
+      "highlight": "carried",
+      "targetForm": "carry somebody/something off",
+      "targetMeaningZh": "把某人或某物帶走;偷走"
+    },
+    {
+      "id": "phrasal-verb-236-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Will the team do what it promised and practise every week?",
+      "promptZh": "球隊會否履行承諾,每星期練習?",
+      "starter": "Will",
+      "answer": "Will the team carry through with its promise to practise every week?",
+      "answerZh": "球隊會否履行承諾,每星期練習?",
+      "highlight": "carry through with its promise to",
+      "targetForm": "carry through on/with something",
+      "targetMeaningZh": "做到答應的事;履行承諾"
+    }
+  ]
+}

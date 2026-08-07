@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-115",
+  "order": 115,
+  "slug": "cry",
+  "version": "1",
+  "title": "CRY 動詞片語",
+  "titleEn": "Cry",
+  "titleZh": "CRY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 114 - CRY.pdf",
+    "sourceNumber": 114,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CRY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CRY",
+      "highlight": "CRY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "People have been crying out against this abuse for years.",
+      "zh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+      "highlight": "crying out against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The group is crying out for new members.",
+      "zh": "這個小組迫切需要新成員。",
+      "highlight": "crying out for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He suddenly cried out, ‘Stop at once!’",
+      "zh": "他突然大聲喊道:「立即停下來!」",
+      "highlight": "cried out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "公開而強烈地反對或抗議某事；迫切需要某事物;強烈要求某事；大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+    "en": "cry out against something; cry out for something; cry out something",
+    "naturalZh": [
+      "公開而強烈地反對或抗議某事",
+      "迫切需要某事物;強烈要求某事",
+      "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cry out against something",
+      "titleZh": "公開而強烈地反對或抗議某事",
+      "titleEn": "cry out against something",
+      "descriptionZh": "公開而強烈地反對或抗議某事",
+      "descriptionEn": "People have been crying out against this abuse for years.",
+      "examples": [
+        {
+          "en": "People have been crying out against this abuse for years.",
+          "zh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+          "highlight": "crying out against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cry out for something",
+      "titleZh": "迫切需要某事物;強烈要求某事",
+      "titleEn": "cry out for something",
+      "descriptionZh": "迫切需要某事物;強烈要求某事",
+      "descriptionEn": "The group is crying out for new members.",
+      "examples": [
+        {
+          "en": "The group is crying out for new members.",
+          "zh": "這個小組迫切需要新成員。",
+          "highlight": "crying out for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cry out something",
+      "titleZh": "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+      "titleEn": "cry out something",
+      "descriptionZh": "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+      "descriptionEn": "He suddenly cried out, ‘Stop at once!’",
+      "examples": [
+        {
+          "en": "He suddenly cried out, ‘Stop at once!’",
+          "zh": "他突然大聲喊道:「立即停下來!」",
+          "highlight": "cried out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CRY 片語動詞的實際用途",
+    "labelEn": "CRY Phrasal Verbs in Use",
+    "summaryZh": "cry out against 可以用來描述人們公開而強烈地反對不公平規則、有害行為或錯誤決定。；學校、社團、社區或房間即使不能真正叫喊,也可以用 be crying out for 表示迫切需要某事物。；當人物因害怕、痛楚、驚訝或興奮而突然叫喊時,cry out 可以令故事和對話更加生動。；cry out 可以表示抗議、迫切需要或大聲喊出的說話。閱讀完整句子便能判斷所需意思。",
+    "summaryEn": "Cry out against helps you describe people openly and strongly opposing unfair rules, harmful actions or bad decisions. A school, club, neighbourhood or room can be crying out for something even though it cannot literally shout. Cry out can make stories and conversations more lively when someone suddenly shouts because of fear, pain, surprise or excitement. Cry out may describe a protest, an urgent need or words shouted aloud. The full sentence shows which meaning is intended.",
+    "contextsZh": [
+      "清楚表達公開而強烈的抗議",
+      "表達某事物的迫切需要",
+      "自然描述突然喊出的說話",
+      "理解同一表達的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about strong public protest",
+      "Show that something is urgently needed",
+      "Report sudden words naturally",
+      "Understand different meanings of the same expression"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cry out against something",
+    "fixedHighlight": "cry out against something",
+    "fixedZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CRY expression that gives the same meaning.",
+    "correct": "crying out against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；表示強烈抗議時使用 cry out against;表示強烈要求或迫切需要時使用 cry out for。；當句子提供某人大聲喊出的說話時,把說話放在 cry out 之後:She cried out, ‘Be careful!’",
+    "variableEn": "Keep the same people, things, time and meaning. Use cry out against when someone strongly protests. Use cry out for when someone strongly demands something or when something is urgently needed. When the exact shouted words are given, place them after cry out: She cried out, ‘Be careful!’",
+    "variableItemsZh": [
+      "cry out against something",
+      "cry out for something",
+      "cry out something"
+    ],
+    "variableItemsEn": [
+      "cry out against something",
+      "cry out for something",
+      "cry out something"
+    ],
+    "forms": [
+      {
+        "formZh": "公開而強烈地反對或抗議某事",
+        "formEn": "cry out against something",
+        "exampleZh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+        "exampleEn": "People have been crying out against this abuse for years.",
+        "highlight": "crying out against"
+      },
+      {
+        "formZh": "迫切需要某事物;強烈要求某事",
+        "formEn": "cry out for something",
+        "exampleZh": "這個小組迫切需要新成員。",
+        "exampleEn": "The group is crying out for new members.",
+        "highlight": "crying out for"
+      },
+      {
+        "formZh": "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+        "formEn": "cry out something",
+        "exampleZh": "他突然大聲喊道:「立即停下來!」",
+        "exampleEn": "He suddenly cried out, ‘Stop at once!’",
+        "highlight": "cried out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "公開而強烈地反對或抗議某事",
+      "titleEn": "cry out against something",
+      "formula": "cry out against something",
+      "highlight": "cry out against something",
+      "descriptionZh": "公開而強烈地反對或抗議某事",
+      "descriptionEn": "People have been crying out against this abuse for years.",
+      "examples": [
+        {
+          "en": "People have been crying out against this abuse for years.",
+          "zh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+          "highlight": "crying out against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "迫切需要某事物;強烈要求某事",
+      "titleEn": "cry out for something",
+      "formula": "cry out for something",
+      "highlight": "cry out for something",
+      "descriptionZh": "迫切需要某事物;強烈要求某事",
+      "descriptionEn": "The group is crying out for new members.",
+      "examples": [
+        {
+          "en": "The group is crying out for new members.",
+          "zh": "這個小組迫切需要新成員。",
+          "highlight": "crying out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+      "titleEn": "cry out something",
+      "formula": "cry out something",
+      "highlight": "cry out something",
+      "descriptionZh": "大聲喊出某些話,尤其用來表達突然的害怕、痛楚、憤怒或興奮",
+      "descriptionEn": "He suddenly cried out, ‘Stop at once!’",
+      "examples": [
+        {
+          "en": "He suddenly cried out, ‘Stop at once!’",
+          "zh": "他突然大聲喊道:「立即停下來!」",
+          "highlight": "cried out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達公開而強烈的抗議",
+      "titleEn": "Talk clearly about strong public protest",
+      "zh": "cry out against 可以用來描述人們公開而強烈地反對不公平規則、有害行為或錯誤決定。",
+      "en": "Cry out against helps you describe people openly and strongly opposing unfair rules, harmful actions or bad decisions."
+    },
+    {
+      "titleZh": "表達某事物的迫切需要",
+      "titleEn": "Show that something is urgently needed",
+      "zh": "學校、社團、社區或房間即使不能真正叫喊,也可以用 be crying out for 表示迫切需要某事物。",
+      "en": "A school, club, neighbourhood or room can be crying out for something even though it cannot literally shout."
+    },
+    {
+      "titleZh": "自然描述突然喊出的說話",
+      "titleEn": "Report sudden words naturally",
+      "zh": "當人物因害怕、痛楚、驚訝或興奮而突然叫喊時,cry out 可以令故事和對話更加生動。",
+      "en": "Cry out can make stories and conversations more lively when someone suddenly shouts because of fear, pain, surprise or excitement."
+    },
+    {
+      "titleZh": "理解同一表達的不同意思",
+      "titleEn": "Understand different meanings of the same expression",
+      "zh": "cry out 可以表示抗議、迫切需要或大聲喊出的說話。閱讀完整句子便能判斷所需意思。",
+      "en": "Cry out may describe a protest, an urgent need or words shouted aloud. The full sentence shows which meaning is intended."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達公開而強烈的抗議",
+      "表達某事物的迫切需要",
+      "自然描述突然喊出的說話",
+      "理解同一表達的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about strong public protest",
+      "Show that something is urgently needed",
+      "Report sudden words naturally",
+      "Understand different meanings of the same expression"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達公開而強烈的抗議",
+        "titleEn": "Talk clearly about strong public protest",
+        "zh": "cry out against 可以用來描述人們公開而強烈地反對不公平規則、有害行為或錯誤決定。",
+        "en": "Cry out against helps you describe people openly and strongly opposing unfair rules, harmful actions or bad decisions.",
+        "examples": [
+          {
+            "en": "People have been crying out against this abuse for years.",
+            "zh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+            "highlight": "crying out against"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達某事物的迫切需要",
+        "titleEn": "Show that something is urgently needed",
+        "zh": "學校、社團、社區或房間即使不能真正叫喊,也可以用 be crying out for 表示迫切需要某事物。",
+        "en": "A school, club, neighbourhood or room can be crying out for something even though it cannot literally shout.",
+        "examples": [
+          {
+            "en": "The group is crying out for new members.",
+            "zh": "這個小組迫切需要新成員。",
+            "highlight": "crying out for"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述突然喊出的說話",
+        "titleEn": "Report sudden words naturally",
+        "zh": "當人物因害怕、痛楚、驚訝或興奮而突然叫喊時,cry out 可以令故事和對話更加生動。",
+        "en": "Cry out can make stories and conversations more lively when someone suddenly shouts because of fear, pain, surprise or excitement.",
+        "examples": [
+          {
+            "en": "He suddenly cried out, ‘Stop at once!’",
+            "zh": "他突然大聲喊道:「立即停下來!」",
+            "highlight": "cried out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解同一表達的不同意思",
+        "titleEn": "Understand different meanings of the same expression",
+        "zh": "cry out 可以表示抗議、迫切需要或大聲喊出的說話。閱讀完整句子便能判斷所需意思。",
+        "en": "Cry out may describe a protest, an urgent need or words shouted aloud. The full sentence shows which meaning is intended.",
+        "examples": [
+          {
+            "en": "People have been crying out against this abuse for years.",
+            "zh": "多年來,人們一直公開強烈抗議這種虐待行為。",
+            "highlight": "crying out against"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CRY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+      "en": "Read the whole sentence and choose the CRY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "表示強烈抗議時使用 cry out against;表示強烈要求或迫切需要時使用 cry out for。",
+      "titleEn": "Use cry out against when someone strongly protests.",
+      "zh": "表示強烈抗議時使用 cry out against;表示強烈要求或迫切需要時使用 cry out for。",
+      "en": "Use cry out against when someone strongly protests. Use cry out for when someone strongly demands something or when something is urgently needed."
+    },
+    {
+      "titleZh": "當句子提供某人大聲喊出的說話時,把說話放在 cry out 之後:She cried out, ‘Be careful!’",
+      "titleEn": "When the exact shouted words are given, place them after cry out: She cried out, ‘Be careful!’.",
+      "zh": "當句子提供某人大聲喊出的說話時,把說話放在 cry out 之後:She cried out, ‘Be careful!’",
+      "en": "When the exact shouted words are given, place them after cry out: She cried out, ‘Be careful!’"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CRY 動詞片語句子改寫練習",
+    "titleEn": "CRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-115-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The students protested strongly against the unfair rule.",
+      "promptZh": "學生強烈抗議這項不公平的規則。",
+      "starter": "The",
+      "answer": "The students cried out against the unfair rule.",
+      "answerZh": "學生強烈抗議這項不公平的規則。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The village urgently needs a better bus service.",
+      "promptZh": "這條村迫切需要更好的巴士服務。",
+      "starter": "The",
+      "answer": "The village is crying out for a better bus service.",
+      "answerZh": "這條村迫切需要更好的巴士服務。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Daniel suddenly shouted, ‘Stop!’",
+      "promptZh": "丹尼爾突然大聲喊道:「停下來!」",
+      "starter": "Daniel",
+      "answer": "Daniel suddenly cried out, ‘Stop!’",
+      "answerZh": "丹尼爾突然大聲喊道:「停下來!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Local parents protested strongly against the closing of the playground.",
+      "promptZh": "當地家長強烈抗議關閉遊樂場。",
+      "starter": "Local",
+      "answer": "Local parents cried out against the closing of the playground.",
+      "answerZh": "當地家長強烈抗議關閉遊樂場。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Our football club urgently needs more players.",
+      "promptZh": "我們的足球會迫切需要更多球員。",
+      "starter": "Our",
+      "answer": "Our football club is crying out for more players.",
+      "answerZh": "我們的足球會迫切需要更多球員。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She shouted, ‘Be careful!’",
+      "promptZh": "她大聲喊道:「小心!」",
+      "starter": "She",
+      "answer": "She cried out, ‘Be careful!’",
+      "answerZh": "她大聲喊道:「小心!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Many shoppers are protesting strongly against the sudden price rise.",
+      "promptZh": "許多顧客正強烈抗議突然加價。",
+      "starter": "Many",
+      "answer": "Many shoppers are crying out against the sudden price rise.",
+      "answerZh": "許多顧客正強烈抗議突然加價。",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This dark room urgently needs a brighter light.",
+      "promptZh": "這個昏暗的房間迫切需要更明亮的燈。",
+      "starter": "This",
+      "answer": "This dark room is crying out for a brighter light.",
+      "answerZh": "這個昏暗的房間迫切需要更明亮的燈。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child shouted loudly, ‘Where are you?’",
+      "promptZh": "那個孩子大聲喊道:「你在哪裏?」",
+      "starter": "The",
+      "answer": "The child cried out, ‘Where are you?’",
+      "answerZh": "那個孩子大聲喊道:「你在哪裏?」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "People have protested strongly against this cruel treatment for years.",
+      "promptZh": "多年來,人們一直強烈抗議這種殘酷的對待方式。",
+      "starter": "People",
+      "answer": "People have cried out against this cruel treatment for years.",
+      "answerZh": "多年來,人們一直強烈抗議這種殘酷的對待方式。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Parents strongly demanded safer road crossings near the school.",
+      "promptZh": "家長強烈要求學校附近設置更安全的過路設施。",
+      "starter": "Parents",
+      "answer": "Parents cried out for safer road crossings near the school.",
+      "answerZh": "家長強烈要求學校附近設置更安全的過路設施。",
+      "highlight": "cried out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-115-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo was shouting, ‘Help me!’ from the pool.",
+      "promptZh": "里奧在泳池中大聲喊道:「救我!」",
+      "starter": "Leo",
+      "answer": "Leo was crying out, ‘Help me!’ from the pool.",
+      "answerZh": "里奧在泳池中大聲喊道:「救我!」",
+      "highlight": "crying out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Residents are protesting strongly against the plan to remove the trees.",
+      "promptZh": "居民正強烈抗議移走樹木的計劃。",
+      "starter": "Residents",
+      "answer": "Residents are crying out against the plan to remove the trees.",
+      "answerZh": "居民正強烈抗議移走樹木的計劃。",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "For weeks, the small team has badly needed extra help.",
+      "promptZh": "幾個星期以來,這個小團隊一直迫切需要額外幫助。",
+      "starter": "For",
+      "answer": "For weeks, the small team has been crying out for extra help.",
+      "answerZh": "幾個星期以來,這個小團隊一直迫切需要額外幫助。",
+      "highlight": "been crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The workers did not protest strongly against the new rule at first.",
+      "promptZh": "工人起初沒有強烈抗議新規則。",
+      "starter": "The",
+      "answer": "The workers did not cry out against the new rule at first.",
+      "answerZh": "工人起初沒有強烈抗議新規則。",
+      "highlight": "cry out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Eva often shouts, ‘Wait for me!’ when her friends walk too fast.",
+      "promptZh": "朋友走得太快時,伊娃經常大聲喊道:「等等我!」",
+      "starter": "Eva",
+      "answer": "Eva often cries out, ‘Wait for me!’ when her friends walk too fast.",
+      "answerZh": "朋友走得太快時,伊娃經常大聲喊道:「等等我!」",
+      "highlight": "cries out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Our neighbourhood may soon urgently need another clinic.",
+      "promptZh": "我們的社區可能很快便迫切需要另一間診所。",
+      "starter": "Our",
+      "answer": "Our neighbourhood may soon be crying out for another clinic.",
+      "answerZh": "我們的社區可能很快便迫切需要另一間診所。",
+      "highlight": "be crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Several teachers have been protesting strongly against the shorter lunch break.",
+      "promptZh": "幾位老師一直強烈抗議縮短午膳時間。",
+      "starter": "Several",
+      "answer": "Several teachers have been crying out against the shorter lunch break.",
+      "answerZh": "幾位老師一直強烈抗議縮短午膳時間。",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "During the match, Ben suddenly shouted, ‘My ankle hurts!’",
+      "promptZh": "比賽期間,賓突然大聲喊道:「我的腳踝很痛!」",
+      "starter": "During",
+      "answer": "During the match, Ben suddenly cried out, ‘My ankle hurts!’",
+      "answerZh": "比賽期間,賓突然大聲喊道:「我的腳踝很痛!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does this old kitchen badly need new cupboards?",
+      "promptZh": "這個舊廚房是否非常需要新廚櫃?",
+      "starter": "Does",
+      "answer": "Does this old kitchen cry out for new cupboards?",
+      "answerZh": "這個舊廚房是否迫切需要新廚櫃?",
+      "highlight": "cry out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach heard Nora shout, ‘Pass the ball!’",
+      "promptZh": "教練聽到諾拉大聲喊道:「傳球!」",
+      "starter": "The",
+      "answer": "The coach heard Nora cry out, ‘Pass the ball!’",
+      "answerZh": "教練聽到諾拉大聲喊道:「傳球!」",
+      "highlight": "cry out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The class president asked why students had protested strongly against the timetable change.",
+      "promptZh": "班長問學生為何曾強烈抗議更改時間表。",
+      "starter": "The",
+      "answer": "The class president asked why students had cried out against the timetable change.",
+      "answerZh": "班長問學生為何曾強烈抗議更改時間表。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The crowd strongly demanded that the singer return to the stage.",
+      "promptZh": "觀眾強烈要求歌手返回舞台。",
+      "starter": "The",
+      "answer": "The crowd cried out for the singer to return to the stage.",
+      "answerZh": "觀眾強烈要求歌手返回舞台。",
+      "highlight": "cried out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-115-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "As the door began to close, he shouted, ‘Don’t close it!’",
+      "promptZh": "門開始關上時,他大聲喊道:「不要關門!」",
+      "starter": "As",
+      "answer": "As the door began to close, he cried out, ‘Don’t close it!’",
+      "answerZh": "門開始關上時,他大聲喊道:「不要關門!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children’s club urgently needs someone to lead Saturday activities.",
+      "promptZh": "兒童會迫切需要一個人帶領星期六的活動。",
+      "starter": "The",
+      "answer": "The children’s club is crying out for someone to lead Saturday activities.",
+      "answerZh": "兒童會迫切需要一個人帶領星期六的活動。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A large group protested strongly against the decision to cut the music lessons.",
+      "promptZh": "一大群人強烈抗議削減音樂課的決定。",
+      "starter": "A",
+      "answer": "A large group cried out against the decision to cut the music lessons.",
+      "answerZh": "一大群人強烈抗議削減音樂課的決定。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I heard someone shout, ‘The bus is leaving!’",
+      "promptZh": "我聽到有人大聲喊道:「巴士要開了!」",
+      "starter": "I",
+      "answer": "I heard someone cry out, ‘The bus is leaving!’",
+      "answerZh": "我聽到有人大聲喊道:「巴士要開了!」",
+      "highlight": "cry out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The newspaper reported that local families were protesting strongly against the high fees.",
+      "promptZh": "報章報道,當地家庭正強烈抗議高昂的費用。",
+      "starter": "The",
+      "answer": "The newspaper reported that local families were crying out against the high fees.",
+      "answerZh": "報章報道,當地家庭正強烈抗議高昂的費用。",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Our website badly needs clearer instructions on the first page.",
+      "promptZh": "我們的網站首頁迫切需要更清楚的指示。",
+      "starter": "Our",
+      "answer": "Our website is crying out for clearer instructions on the first page.",
+      "answerZh": "我們的網站首頁迫切需要更清楚的指示。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before the race began, one runner shouted, ‘Good luck, everyone!’",
+      "promptZh": "比賽開始前,一名跑手大聲喊道:「祝大家好運!」",
+      "starter": "Before",
+      "answer": "Before the race began, one runner cried out, ‘Good luck, everyone!’",
+      "answerZh": "比賽開始前,一名跑手大聲喊道:「祝大家好運!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Parents have begun to protest strongly against ending the evening bus service.",
+      "promptZh": "家長開始強烈抗議取消晚間巴士服務。",
+      "starter": "Parents",
+      "answer": "Parents have begun to cry out against ending the evening bus service.",
+      "answerZh": "家長開始強烈抗議取消晚間巴士服務。",
+      "highlight": "cry out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The old park badly needs new benches and better lights.",
+      "promptZh": "這個舊公園迫切需要新長椅和更好的照明。",
+      "starter": "The",
+      "answer": "The old park is crying out for new benches and better lights.",
+      "answerZh": "這個舊公園迫切需要新長椅和更好的照明。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When the room suddenly became dark, Amir shouted, ‘I can’t see!’",
+      "promptZh": "房間突然變暗時,阿米爾大聲喊道:「我看不見!」",
+      "starter": "When",
+      "answer": "When the room suddenly became dark, Amir cried out, ‘I can’t see!’",
+      "answerZh": "房間突然變暗時,阿米爾大聲喊道:「我看不見!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Why are so many customers protesting strongly against the new service charge?",
+      "promptZh": "為何這麼多顧客正強烈抗議新的服務費?",
+      "starter": "Why",
+      "answer": "Why are so many customers crying out against the new service charge?",
+      "answerZh": "為何這麼多顧客正強烈抗議新的服務費?",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The teacher turned towards the hall when a pupil shouted, ‘There’s smoke!’",
+      "promptZh": "一名學生大聲喊道:「有煙!」老師於是轉身望向禮堂。",
+      "starter": "The",
+      "answer": "The teacher turned towards the hall when a pupil cried out, ‘There’s smoke!’",
+      "answerZh": "一名學生大聲喊道:「有煙!」老師於是轉身望向禮堂。",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After several busy weeks, the shop urgently needs another member of staff.",
+      "promptZh": "幾個繁忙的星期過後,這間店舖迫切需要多一名員工。",
+      "starter": "After",
+      "answer": "After several busy weeks, the shop is crying out for another member of staff.",
+      "answerZh": "幾個繁忙的星期過後,這間店舖迫切需要多一名員工。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the plan was popular at first, many people later protested strongly against it.",
+      "promptZh": "雖然這項計劃起初很受歡迎,但很多人後來強烈抗議它。",
+      "starter": "Although",
+      "answer": "Although the plan was popular at first, many people later cried out against it.",
+      "answerZh": "雖然這項計劃起初很受歡迎,但很多人後來強烈抗議它。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This short story badly needs a stronger ending.",
+      "promptZh": "這篇短篇故事迫切需要一個更有力的結局。",
+      "starter": "This",
+      "answer": "This short story is crying out for a stronger ending.",
+      "answerZh": "這篇短篇故事迫切需要一個更有力的結局。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The guide heard someone shout, ‘My bag is missing!’",
+      "promptZh": "導遊聽到有人大聲喊道:「我的手袋不見了!」",
+      "starter": "The",
+      "answer": "The guide heard someone cry out, ‘My bag is missing!’",
+      "answerZh": "導遊聽到有人大聲喊道:「我的手袋不見了!」",
+      "highlight": "cry out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Local artists strongly protested against turning the old theatre into offices.",
+      "promptZh": "當地藝術家強烈抗議把舊劇院改成辦公室。",
+      "starter": "Local",
+      "answer": "Local artists cried out against turning the old theatre into offices.",
+      "answerZh": "當地藝術家強烈抗議把舊劇院改成辦公室。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "With only two nurses working, the clinic urgently needs more staff.",
+      "promptZh": "只有兩名護士工作,這間診所迫切需要更多員工。",
+      "starter": "With",
+      "answer": "With only two nurses working, the clinic is crying out for more staff.",
+      "answerZh": "只有兩名護士工作,這間診所迫切需要更多員工。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The moment she saw the falling box, Grace shouted, ‘Move!’",
+      "promptZh": "格蕾絲看見箱子掉下來的一刻,大聲喊道:「快走開!」",
+      "starter": "The",
+      "answer": "The moment she saw the falling box, Grace cried out, ‘Move!’",
+      "answerZh": "格蕾絲看見箱子掉下來的一刻,大聲喊道:「快走開!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Community groups are protesting strongly against a rule that keeps the sports hall closed at weekends.",
+      "promptZh": "社區團體正強烈抗議一項令體育館在週末關閉的規則。",
+      "starter": "Community",
+      "answer": "Community groups are crying out against a rule that keeps the sports hall closed at weekends.",
+      "answerZh": "社區團體正強烈抗議一項令體育館在週末關閉的規則。",
+      "highlight": "crying out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team had excellent ideas but badly needed someone who could organise them.",
+      "promptZh": "團隊有很好的構思,但迫切需要有人把它們整理好。",
+      "starter": "The",
+      "answer": "The team had excellent ideas but was crying out for someone who could organise them.",
+      "answerZh": "團隊有很好的構思,但迫切需要有人把它們整理好。",
+      "highlight": "was crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Even after the meeting, the residents continued to protest strongly against the plan for a new rubbish site near their homes.",
+      "promptZh": "即使會議結束後,居民仍強烈抗議在住家附近設置新垃圾場的計劃。",
+      "starter": "Even",
+      "answer": "Even after the meeting, the residents continued to cry out against the plan for a new rubbish site near their homes.",
+      "answerZh": "即使會議結束後,居民仍強烈抗議在住家附近設置新垃圾場的計劃。",
+      "highlight": "cry out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Jack had just opened the letter when he shouted, ‘They accepted me!’",
+      "promptZh": "積克剛打開信,便大聲喊道:「他們取錄我了!」",
+      "starter": "Jack",
+      "answer": "Jack had just opened the letter when he cried out, ‘They accepted me!’",
+      "answerZh": "積克剛打開信,便大聲喊道:「他們取錄我了!」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The old computer room urgently needs faster machines and more chairs.",
+      "promptZh": "舊電腦室迫切需要更快的電腦和更多椅子。",
+      "starter": "The",
+      "answer": "The old computer room is crying out for faster machines and more chairs.",
+      "answerZh": "舊電腦室迫切需要更快的電腦和更多椅子。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某事物"
+    },
+    {
+      "id": "phrasal-verb-115-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When no one answered, Priya shouted, ‘Is anybody there?’",
+      "promptZh": "沒有人回答時,普里雅大聲喊道:「有人在嗎?」",
+      "starter": "When",
+      "answer": "When no one answered, Priya cried out, ‘Is anybody there?’",
+      "answerZh": "沒有人回答時,普里雅大聲喊道:「有人在嗎?」",
+      "highlight": "cried out",
+      "targetForm": "cry out something",
+      "targetMeaningZh": "大聲喊出某些話"
+    },
+    {
+      "id": "phrasal-verb-115-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The players finally protested strongly against the unsafe training conditions after two more people slipped.",
+      "promptZh": "再有兩個人滑倒後,球員終於強烈抗議不安全的訓練環境。",
+      "starter": "The",
+      "answer": "The players finally cried out against the unsafe training conditions after two more people slipped.",
+      "answerZh": "再有兩個人滑倒後,球員終於強烈抗議不安全的訓練環境。",
+      "highlight": "cried out",
+      "targetForm": "cry out against something",
+      "targetMeaningZh": "強烈抗議或反對某事"
+    },
+    {
+      "id": "phrasal-verb-115-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Rather than adding more rules, the club badly needs someone to lead it well.",
+      "promptZh": "與其增加更多規則,這個社團迫切需要有人好好帶領它。",
+      "starter": "Rather",
+      "answer": "Rather than adding more rules, the club is crying out for someone to lead it well.",
+      "answerZh": "與其增加更多規則,這個社團迫切需要有人好好帶領它。",
+      "highlight": "is crying out for",
+      "targetForm": "cry out for something",
+      "targetMeaningZh": "迫切需要某人或某事物"
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-178",
+  "order": 178,
+  "slug": "get-around",
+  "version": "1",
+  "title": "GET AROUND 動詞片語",
+  "titleEn": "GET Around",
+  "titleZh": "GET AROUND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 177 - GET Around.pdf",
+    "sourceNumber": 177,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET AROUND",
+      "highlight": "GET AROUND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Rosa can usually get around her uncle with a friendly smile.",
+      "zh": "羅莎通常能用友善的笑容哄得叔叔答應。",
+      "highlight": "get around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It’s easy to get around Amsterdam on a bicycle.",
+      "zh": "踏單車在阿姆斯特丹四處走動很方便。",
+      "highlight": "get around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Omar finally got around to washing the car.",
+      "zh": "奧馬終於抽出時間洗車。",
+      "highlight": "got around to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以親切、討好或有魅力的方式說服某人答應你的要求；在城市、地區或其他地方四處走動或乘搭交通工具；終於抽出時間處理或完成一直打算做的事情；消息或資訊傳開,讓很多人知道",
+    "en": "get around somebody; get around something; get around to something / get around to doing something; get around / get around something",
+    "naturalZh": [
+      "以親切、討好或有魅力的方式說服某人答應你的要求",
+      "在城市、地區或其他地方四處走動或乘搭交通工具",
+      "終於抽出時間處理或完成一直打算做的事情",
+      "消息或資訊傳開,讓很多人知道"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get around somebody",
+      "titleZh": "以親切、討好或有魅力的方式說服某人答應你的要求",
+      "titleEn": "get around somebody",
+      "descriptionZh": "以親切、討好或有魅力的方式說服某人答應你的要求",
+      "descriptionEn": "Rosa can usually get around her uncle with a friendly smile.",
+      "examples": [
+        {
+          "en": "Rosa can usually get around her uncle with a friendly smile.",
+          "zh": "羅莎通常能用友善的笑容哄得叔叔答應。",
+          "highlight": "get around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get around something",
+      "titleZh": "在城市、地區或其他地方四處走動或乘搭交通工具",
+      "titleEn": "get around something",
+      "descriptionZh": "在城市、地區或其他地方四處走動或乘搭交通工具",
+      "descriptionEn": "It’s easy to get around Amsterdam on a bicycle.",
+      "examples": [
+        {
+          "en": "It’s easy to get around Amsterdam on a bicycle.",
+          "zh": "踏單車在阿姆斯特丹四處走動很方便。",
+          "highlight": "get around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get around to something / get around to doing something",
+      "titleZh": "終於抽出時間處理或完成一直打算做的事情",
+      "titleEn": "get around to something / get around to doing something",
+      "descriptionZh": "終於抽出時間處理或完成一直打算做的事情",
+      "descriptionEn": "Omar finally got around to washing the car.",
+      "examples": [
+        {
+          "en": "Omar finally got around to washing the car.",
+          "zh": "奧馬終於抽出時間洗車。",
+          "highlight": "got around to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get around / get around something",
+      "titleZh": "消息或資訊傳開,讓很多人知道",
+      "titleEn": "get around / get around something",
+      "descriptionZh": "消息或資訊傳開,讓很多人知道",
+      "descriptionEn": "The news soon got around the neighbourhood.",
+      "examples": [
+        {
+          "en": "The news soon got around the neighbourhood.",
+          "zh": "這則消息很快便在附近一帶傳開。",
+          "highlight": "got around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET AROUND 片語動詞的實際用途",
+    "labelEn": "GET AROUND Phrasal Verbs in Use",
+    "summaryZh": "get around 可以說明人們怎樣在城市、島嶼、公園或其他地方四處走動。；get around to 可以表示你終於抽出時間處理一直打算完成的事情。；get around 可以表示消息、事情、傳聞或其他資訊已傳給很多人知道。；get around somebody 可以表示透過特別友善、主動幫忙或討好的方式說服某人。",
+    "summaryEn": "Get around can explain how people travel through a city, island, park or other place. Get around to helps you explain that you finally found time for something you had intended to do. Get around can show that news, a story, a rumour or other information has become known to many people. Get around somebody can describe persuading a person by being especially friendly, helpful or charming.",
+    "contextsZh": [
+      "清楚談論在不同地方走動",
+      "談論擱置了一段時間的事情",
+      "描述消息怎樣傳開",
+      "描述以友善或討好的方式說服別人"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving through places",
+      "Talk about tasks that have been waiting",
+      "Describe how news travels",
+      "Describe friendly or charming persuasion"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。保留原句中的人物、事物、時間和結果。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning. Keep the same people, things, time and result."
+  },
+  "fixedVariable": {
+    "fixed": "get around somebody",
+    "fixedHighlight": "get around somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。保留原句中的人物、事物、時間和結果。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning. Keep the same people, things, time and result.",
+    "correct": "get around",
+    "incorrectForms": [],
+    "variableZh": "get around somebody 本身已是完整表達。句子可以加入額外資料,說明說服的方法,但這些資料並非固定表達的一部分。；get around to 後面可以接一件事物,亦可以接 -ing 形式。；留意句子的主語,因為相同字詞可以表達不同意思。遊客在城市內四處走動。消息在城市內傳開。",
+    "variableEn": "Get around somebody is complete by itself. An extra phrase may explain how the person persuaded them, but it is optional. She got around her uncle. She got around her uncle with a friendly smile. After get around to, use a thing or an -ing form. get around to the report get around to writing the report Read the subject carefully because the same words may express different ideas. Tourists get around the city. News gets around the city.",
+    "variableItemsZh": [
+      "get around somebody",
+      "get around something",
+      "get around to something / get around to doing something",
+      "get around / get around something"
+    ],
+    "variableItemsEn": [
+      "get around somebody",
+      "get around something",
+      "get around to something / get around to doing something",
+      "get around / get around something"
+    ],
+    "forms": [
+      {
+        "formZh": "以親切、討好或有魅力的方式說服某人答應你的要求",
+        "formEn": "get around somebody",
+        "exampleZh": "羅莎通常能用友善的笑容哄得叔叔答應。",
+        "exampleEn": "Rosa can usually get around her uncle with a friendly smile.",
+        "highlight": "get around"
+      },
+      {
+        "formZh": "在城市、地區或其他地方四處走動或乘搭交通工具",
+        "formEn": "get around something",
+        "exampleZh": "踏單車在阿姆斯特丹四處走動很方便。",
+        "exampleEn": "It’s easy to get around Amsterdam on a bicycle.",
+        "highlight": "get around"
+      },
+      {
+        "formZh": "終於抽出時間處理或完成一直打算做的事情",
+        "formEn": "get around to something / get around to doing something",
+        "exampleZh": "奧馬終於抽出時間洗車。",
+        "exampleEn": "Omar finally got around to washing the car.",
+        "highlight": "got around to"
+      },
+      {
+        "formZh": "消息或資訊傳開,讓很多人知道",
+        "formEn": "get around / get around something",
+        "exampleZh": "這則消息很快便在附近一帶傳開。",
+        "exampleEn": "The news soon got around the neighbourhood.",
+        "highlight": "got around"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以親切、討好或有魅力的方式說服某人答應你的要求",
+      "titleEn": "get around somebody",
+      "formula": "get around somebody",
+      "highlight": "get around somebody",
+      "descriptionZh": "以親切、討好或有魅力的方式說服某人答應你的要求",
+      "descriptionEn": "Rosa can usually get around her uncle with a friendly smile.",
+      "examples": [
+        {
+          "en": "Rosa can usually get around her uncle with a friendly smile.",
+          "zh": "羅莎通常能用友善的笑容哄得叔叔答應。",
+          "highlight": "get around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在城市、地區或其他地方四處走動或乘搭交通工具",
+      "titleEn": "get around something",
+      "formula": "get around something",
+      "highlight": "get around something",
+      "descriptionZh": "在城市、地區或其他地方四處走動或乘搭交通工具",
+      "descriptionEn": "It’s easy to get around Amsterdam on a bicycle.",
+      "examples": [
+        {
+          "en": "It’s easy to get around Amsterdam on a bicycle.",
+          "zh": "踏單車在阿姆斯特丹四處走動很方便。",
+          "highlight": "get around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "終於抽出時間處理或完成一直打算做的事情",
+      "titleEn": "get around to something / get around to doing something",
+      "formula": "get around to something / get around to doing something",
+      "highlight": "get around to something / get around to doing something",
+      "descriptionZh": "終於抽出時間處理或完成一直打算做的事情",
+      "descriptionEn": "Omar finally got around to washing the car.",
+      "examples": [
+        {
+          "en": "Omar finally got around to washing the car.",
+          "zh": "奧馬終於抽出時間洗車。",
+          "highlight": "got around to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "消息或資訊傳開,讓很多人知道",
+      "titleEn": "get around / get around something",
+      "formula": "get around / get around something",
+      "highlight": "get around / get around something",
+      "descriptionZh": "消息或資訊傳開,讓很多人知道",
+      "descriptionEn": "The news soon got around the neighbourhood.",
+      "examples": [
+        {
+          "en": "The news soon got around the neighbourhood.",
+          "zh": "這則消息很快便在附近一帶傳開。",
+          "highlight": "got around"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論在不同地方走動",
+      "titleEn": "Talk clearly about moving through places",
+      "zh": "get around 可以說明人們怎樣在城市、島嶼、公園或其他地方四處走動。",
+      "en": "Get around can explain how people travel through a city, island, park or other place."
+    },
+    {
+      "titleZh": "談論擱置了一段時間的事情",
+      "titleEn": "Talk about tasks that have been waiting",
+      "zh": "get around to 可以表示你終於抽出時間處理一直打算完成的事情。",
+      "en": "Get around to helps you explain that you finally found time for something you had intended to do."
+    },
+    {
+      "titleZh": "描述消息怎樣傳開",
+      "titleEn": "Describe how news travels",
+      "zh": "get around 可以表示消息、事情、傳聞或其他資訊已傳給很多人知道。",
+      "en": "Get around can show that news, a story, a rumour or other information has become known to many people."
+    },
+    {
+      "titleZh": "描述以友善或討好的方式說服別人",
+      "titleEn": "Describe friendly or charming persuasion",
+      "zh": "get around somebody 可以表示透過特別友善、主動幫忙或討好的方式說服某人。",
+      "en": "Get around somebody can describe persuading a person by being especially friendly, helpful or charming."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論在不同地方走動",
+      "談論擱置了一段時間的事情",
+      "描述消息怎樣傳開",
+      "描述以友善或討好的方式說服別人"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving through places",
+      "Talk about tasks that have been waiting",
+      "Describe how news travels",
+      "Describe friendly or charming persuasion"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論在不同地方走動",
+        "titleEn": "Talk clearly about moving through places",
+        "zh": "get around 可以說明人們怎樣在城市、島嶼、公園或其他地方四處走動。",
+        "en": "Get around can explain how people travel through a city, island, park or other place.",
+        "examples": [
+          {
+            "en": "Rosa can usually get around her uncle with a friendly smile.",
+            "zh": "羅莎通常能用友善的笑容哄得叔叔答應。",
+            "highlight": "get around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論擱置了一段時間的事情",
+        "titleEn": "Talk about tasks that have been waiting",
+        "zh": "get around to 可以表示你終於抽出時間處理一直打算完成的事情。",
+        "en": "Get around to helps you explain that you finally found time for something you had intended to do.",
+        "examples": [
+          {
+            "en": "It’s easy to get around Amsterdam on a bicycle.",
+            "zh": "踏單車在阿姆斯特丹四處走動很方便。",
+            "highlight": "get around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述消息怎樣傳開",
+        "titleEn": "Describe how news travels",
+        "zh": "get around 可以表示消息、事情、傳聞或其他資訊已傳給很多人知道。",
+        "en": "Get around can show that news, a story, a rumour or other information has become known to many people.",
+        "examples": [
+          {
+            "en": "Omar finally got around to washing the car.",
+            "zh": "奧馬終於抽出時間洗車。",
+            "highlight": "got around to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述以友善或討好的方式說服別人",
+        "titleEn": "Describe friendly or charming persuasion",
+        "zh": "get around somebody 可以表示透過特別友善、主動幫忙或討好的方式說服某人。",
+        "en": "Get around somebody can describe persuading a person by being especially friendly, helpful or charming.",
+        "examples": [
+          {
+            "en": "The news soon got around the neighbourhood.",
+            "zh": "這則消息很快便在附近一帶傳開。",
+            "highlight": "got around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。保留原句中的人物、事物、時間和結果。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。保留原句中的人物、事物、時間和結果。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning. Keep the same people, things, time and result."
+    },
+    {
+      "titleZh": "get around somebody 本身已是完整表達。句子可以加入額外資料,說明說服的方法,但這些資料並非固定表達的一部分。",
+      "titleEn": "Get around somebody is complete by itself.",
+      "zh": "get around somebody 本身已是完整表達。句子可以加入額外資料,說明說服的方法,但這些資料並非固定表達的一部分。",
+      "en": "Get around somebody is complete by itself. An extra phrase may explain how the person persuaded them, but it is optional. She got around her uncle. She got around her uncle with a friendly smile."
+    },
+    {
+      "titleZh": "get around to 後面可以接一件事物,亦可以接 -ing 形式。",
+      "titleEn": "After get around to, use a thing or an -ing form.",
+      "zh": "get around to 後面可以接一件事物,亦可以接 -ing 形式。",
+      "en": "After get around to, use a thing or an -ing form. get around to the report get around to writing the report"
+    },
+    {
+      "titleZh": "留意句子的主語,因為相同字詞可以表達不同意思。遊客在城市內四處走動。消息在城市內傳開。",
+      "titleEn": "Read the subject carefully because the same words may express different ideas.",
+      "zh": "留意句子的主語,因為相同字詞可以表達不同意思。遊客在城市內四處走動。消息在城市內傳開。",
+      "en": "Read the subject carefully because the same words may express different ideas. Tourists get around the city. News gets around the city."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET AROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET AROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET AROUND 動詞片語句子改寫練習",
+    "titleEn": "GET AROUND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET AROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET AROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-178-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "It is easy to travel around the city centre by tram.",
+      "promptZh": "乘搭電車在市中心四處走動很方便。",
+      "starter": "It",
+      "answer": "It is easy to get around the city centre by tram.",
+      "answerZh": "乘搭電車在市中心四處走動很方便。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Lena persuaded her mother to let her attend the concert by being especially helpful.",
+      "promptZh": "莉娜特別主動幫忙,說服母親讓她參加音樂會。",
+      "starter": "Lena",
+      "answer": "Lena got around her mother by being especially helpful and was allowed to attend the concert.",
+      "answerZh": "莉娜特別主動幫忙,哄得母親答應讓她參加音樂會。",
+      "highlight": "got around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "I finally found time to clean the kitchen yesterday.",
+      "promptZh": "我昨天終於抽出時間清潔廚房。",
+      "starter": "I",
+      "answer": "I finally got around to cleaning the kitchen yesterday.",
+      "answerZh": "我昨天終於抽出時間清潔廚房。",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "News of the surprise soon became known to everyone.",
+      "promptZh": "有關這個驚喜的消息很快便傳開,人人都知道了。",
+      "starter": "News",
+      "answer": "News of the surprise soon got around.",
+      "answerZh": "有關這個驚喜的消息很快便傳開了。",
+      "highlight": "got around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben often persuades his older brother by being charming when he wants to borrow the bicycle.",
+      "promptZh": "賓想借單車時,常常靠討好哥哥來說服他答應。",
+      "starter": "Ben",
+      "answer": "Ben often gets around his older brother when he wants to borrow the bicycle.",
+      "answerZh": "賓想借單車時,常常懂得哄哥哥答應。",
+      "highlight": "gets around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The school finally found time to repair the broken gate last week.",
+      "promptZh": "學校上星期終於抽出時間修理損壞的校門。",
+      "starter": "The",
+      "answer": "The school finally got around to repairing the broken gate last week.",
+      "answerZh": "學校上星期終於抽出時間修理損壞的校門。",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Tourists can travel around the old town easily on foot.",
+      "promptZh": "遊客可以輕鬆步行遊覽舊城區。",
+      "starter": "Tourists",
+      "answer": "Tourists can get around the old town easily on foot.",
+      "answerZh": "遊客可以輕鬆步行遊覽舊城區。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The rumour spread through the school before lunchtime.",
+      "promptZh": "這則傳聞在午飯前已傳遍全校。",
+      "starter": "The",
+      "answer": "The rumour got around the school before lunchtime.",
+      "answerZh": "這則傳聞在午飯前已傳遍全校。",
+      "highlight": "got around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Do not think you can persuade me with a few kind words.",
+      "promptZh": "別以為說幾句好話便能說服我。",
+      "starter": "Do",
+      "answer": "Do not think you can get around me with a few kind words.",
+      "answerZh": "別以為說幾句好話便能哄得我答應。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The repair shop will finally work on your bicycle after lunch, when the earlier jobs are finished.",
+      "promptZh": "維修店完成較早的工作後,午飯後便會處理你的單車。",
+      "starter": "The",
+      "answer": "The repair shop will get around to your bicycle after lunch, when the earlier jobs are finished.",
+      "answerZh": "維修店完成較早的工作後,午飯後便會輪到處理你的單車。",
+      "highlight": "get around to",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "You may persuade Dad with that smile, but you will not persuade me so easily.",
+      "promptZh": "你或許能用那個笑容說服爸爸,但不能這麼輕易說服我。",
+      "starter": "You",
+      "answer": "You may get around Dad with that smile, but you will not get around me so easily.",
+      "answerZh": "你或許能用那個笑容哄得爸爸答應,但不能這麼輕易哄得我答應。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Many people have heard that the café is closing.",
+      "promptZh": "很多人已聽說這間咖啡店即將結業。",
+      "starter": "Word",
+      "answer": "Word has got around that the café is closing.",
+      "answerZh": "這間咖啡店即將結業的消息已經傳開。",
+      "highlight": "Word has got around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "How did you travel around the island without a car?",
+      "promptZh": "你沒有汽車,是怎樣在島上四處走動的?",
+      "starter": "How",
+      "answer": "How did you get around the island without a car?",
+      "answerZh": "你沒有汽車,是怎樣在島上四處走動的?",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "When will you finally start the report?",
+      "promptZh": "你何時才會開始處理這份報告?",
+      "starter": "When",
+      "answer": "When will you get around to the report?",
+      "answerZh": "你何時才會開始處理這份報告?",
+      "highlight": "get around to",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We spent two days travelling around the city by bus.",
+      "promptZh": "我們花了兩天乘巴士遊覽這座城市。",
+      "starter": "We",
+      "answer": "We spent two days getting around the city by bus.",
+      "answerZh": "我們花了兩天乘巴士遊覽這座城市。",
+      "highlight": "getting",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "How did the story become widely known so quickly?",
+      "promptZh": "這件事為何這麼快便廣為人知?",
+      "starter": "How",
+      "answer": "How did the story get around so quickly?",
+      "answerZh": "這件事為何這麼快便傳開?",
+      "highlight": "get around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The twins were trying to persuade their aunt with smiles and compliments so that she would buy them a new game.",
+      "promptZh": "這對雙胞胎正用笑容和讚美說服姨姨,希望她買一款新遊戲給他們。",
+      "starter": "The",
+      "answer": "The twins were trying to get around their aunt with smiles and compliments so that she would buy them a new game.",
+      "answerZh": "這對雙胞胎正用笑容和讚美哄姨姨,希望她買一款新遊戲給他們。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "She has not found time to reply to the message yet.",
+      "promptZh": "她尚未抽出時間回覆這則訊息。",
+      "starter": "She",
+      "answer": "She has not got around to replying to the message yet.",
+      "answerZh": "她尚未抽出時間回覆這則訊息。",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The free map will help visitors travel around the park.",
+      "promptZh": "這張免費地圖能幫助遊客在公園內四處走動。",
+      "starter": "The",
+      "answer": "The free map will help visitors get around the park.",
+      "answerZh": "這張免費地圖能幫助遊客在公園內四處走動。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The message will spread through the village very quickly.",
+      "promptZh": "這則消息很快便會傳遍全村。",
+      "starter": "It",
+      "answer": "It will not take long for the message to get around the village.",
+      "answerZh": "這則消息很快便會傳遍全村。",
+      "highlight": "It will not take long for",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "If many people hear that the tickets are free, the hall will fill quickly.",
+      "promptZh": "如果很多人聽說門票免費,會場很快便會坐滿。",
+      "starter": "If",
+      "answer": "If word gets around that the tickets are free, the hall will fill quickly.",
+      "answerZh": "如果免費門票的消息傳開,會場很快便會坐滿。",
+      "highlight": "word gets around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Has Leo managed to persuade the coach after their long friendly talk? Is he allowed to join the team after all?",
+      "promptZh": "里奧與教練友善地長談後,成功說服教練了嗎?他最終獲准加入球隊嗎?",
+      "starter": "Has",
+      "answer": "Has Leo managed to get around the coach after their long friendly talk? Is he allowed to join the team after all?",
+      "answerZh": "里奧與教練友善地長談後,成功哄得教練答應了嗎?他最終獲准加入球隊嗎?",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We hope to find time to paint the bedroom this weekend.",
+      "promptZh": "我們希望本週末能抽出時間粉刷睡房。",
+      "starter": "We",
+      "answer": "We hope to get around to painting the bedroom this weekend.",
+      "answerZh": "我們希望本週末能抽出時間粉刷睡房。",
+      "highlight": "get around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Travelling around London is cheaper with a travel card.",
+      "promptZh": "使用交通卡在倫敦四處乘車會較便宜。",
+      "starter": "Getting",
+      "answer": "Getting around London is cheaper with a travel card.",
+      "answerZh": "使用交通卡在倫敦四處乘車會較便宜。",
+      "highlight": "Getting",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I doubt that you can persuade her simply by offering to wash the dishes.",
+      "promptZh": "我懷疑你單靠答應洗碗碟便能說服她。",
+      "starter": "I",
+      "answer": "I doubt that you can get around her simply by offering to wash the dishes.",
+      "answerZh": "我懷疑你單靠答應洗碗碟便能哄得她答應。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The news was spreading through the office while the manager was still speaking.",
+      "promptZh": "經理仍在說話時,消息已在辦公室內傳開。",
+      "starter": "The",
+      "answer": "The news was getting around the office while the manager was still speaking.",
+      "answerZh": "經理仍在說話時,消息已在辦公室內傳開。",
+      "highlight": "getting around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Have you found time to book the tickets yet?",
+      "promptZh": "你抽出時間訂票了嗎?",
+      "starter": "Have",
+      "answer": "Have you got around to booking the tickets yet?",
+      "answerZh": "你抽出時間訂票了嗎?",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "No amount of praise will persuade the head teacher; she will not change her decision.",
+      "promptZh": "無論說多少好話也無法說服校長;她不會改變決定。",
+      "starter": "No",
+      "answer": "No amount of praise will get around the head teacher; she will not change her decision.",
+      "answerZh": "無論說多少好話也無法哄得校長答應;她不會改變決定。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "She has learnt to travel around the campus without asking for directions.",
+      "promptZh": "她已學會不用問路也能在校園內四處走動。",
+      "starter": "She",
+      "answer": "She has learnt to get around the campus without asking for directions.",
+      "answerZh": "她已學會不用問路也能在校園內四處走動。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "By evening, everyone in the club had heard the details.",
+      "promptZh": "到了晚上,社團內所有人都已聽說詳情。",
+      "starter": "By",
+      "answer": "By evening, the details had got around the whole club.",
+      "answerZh": "到了晚上,詳情已傳遍整個社團。",
+      "highlight": "had got around the whole club",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Older visitors may find it difficult to move around the museum without a lift.",
+      "promptZh": "年長遊客在沒有升降機的情況下,可能難以在博物館內四處走動。",
+      "starter": "Older",
+      "answer": "Older visitors may find it difficult to get around the museum without a lift.",
+      "answerZh": "年長遊客在沒有升降機的情況下,可能難以在博物館內四處走動。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The manager promised that she would finally deal with our request on Friday.",
+      "promptZh": "經理答應會在星期五處理我們的要求。",
+      "starter": "The",
+      "answer": "The manager promised that she would get around to our request on Friday.",
+      "answerZh": "經理答應會在星期五處理我們的要求。",
+      "highlight": "get around to",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After several friendly messages, Arun finally persuaded the club leader, who gave him another chance.",
+      "promptZh": "阿倫發出幾則友善訊息後,終於說服社團負責人再給他一次機會。",
+      "starter": "After",
+      "answer": "After several friendly messages, Arun finally got around the club leader, who gave him another chance.",
+      "answerZh": "阿倫發出幾則友善訊息後,終於哄得社團負責人答應,再給他一次機會。",
+      "highlight": "got around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Do not let many people hear this information before Friday.",
+      "promptZh": "星期五之前,不要讓太多人知道這項資訊。",
+      "starter": "Do",
+      "answer": "Do not let this information get around before Friday.",
+      "answerZh": "星期五之前,不要讓這項資訊傳開。",
+      "highlight": "get around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "By renting bicycles, we were able to travel around the whole island in one day.",
+      "promptZh": "我們租用單車後,能在一天內遊遍整個島。",
+      "starter": "By",
+      "answer": "By renting bicycles, we were able to get around the whole island in one day.",
+      "answerZh": "我們租用單車後,能在一天內遊遍整個島。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I meant to read the last chapter, but I never found time to do it.",
+      "promptZh": "我本來打算閱讀最後一章,但一直沒有抽出時間。",
+      "starter": "I",
+      "answer": "I meant to read the last chapter, but I never got around to doing it.",
+      "answerZh": "我本來打算閱讀最後一章,但一直沒有抽出時間。",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "She can usually persuade her neighbours with a friendly smile when she needs help with the garden.",
+      "promptZh": "她需要別人幫忙打理花園時,通常能用友善的笑容說服鄰居。",
+      "starter": "She",
+      "answer": "She can usually get around her neighbours with a friendly smile when she needs help with the garden.",
+      "answerZh": "她需要別人幫忙打理花園時,通常能用友善的笑容哄得鄰居答應。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "A false story may spread through the town unless we correct it now.",
+      "promptZh": "除非我們現在澄清,否則一則不實消息可能會傳遍全鎮。",
+      "starter": "A",
+      "answer": "A false story may get around the town unless we correct it now.",
+      "answerZh": "除非我們現在澄清,否則一則不實消息可能會傳遍全鎮。",
+      "highlight": "get around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The city introduced small buses so that people could travel around the centre more easily.",
+      "promptZh": "市政府引入小型巴士,讓人們更容易在市中心四處走動。",
+      "starter": "The",
+      "answer": "The city introduced small buses so that people could get around the centre more easily.",
+      "answerZh": "市政府引入小型巴士,讓人們更容易在市中心四處走動。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Once the exams are over, Kai can finally make time for his driving lessons.",
+      "promptZh": "考試結束後,啟終於可以抽時間上駕駛課。",
+      "starter": "Once",
+      "answer": "Once the exams are over, Kai can get around to his driving lessons.",
+      "answerZh": "考試結束後,啟終於可以抽時間上駕駛課。",
+      "highlight": "get around to",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Once people heard that the shop was giving away books, a long queue formed.",
+      "promptZh": "人們聽說店舖免費派書後,很快便排起長長的人龍。",
+      "starter": "Once",
+      "answer": "Once word got around that the shop was giving away books, a long queue formed.",
+      "answerZh": "店舖免費派書的消息傳開後,很快便排起長長的人龍。",
+      "highlight": "word got around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "It may be weeks before they find time to fix the lift.",
+      "promptZh": "他們可能要過幾個星期才有時間修理升降機。",
+      "starter": "It",
+      "answer": "It may be weeks before they get around to fixing the lift.",
+      "answerZh": "他們可能要過幾個星期才有時間修理升降機。",
+      "highlight": "get around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Can everyone move around the market safely when it is this crowded?",
+      "promptZh": "市集這麼擠迫時,所有人都能安全地四處走動嗎?",
+      "starter": "Can",
+      "answer": "Can everyone get around the market safely when it is this crowded?",
+      "answerZh": "市集這麼擠迫時,所有人都能安全地四處走動嗎?",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The sales assistant tried to persuade the customer with compliments, but the customer still said no.",
+      "promptZh": "售貨員嘗試用讚美說服顧客,但顧客仍然拒絕。",
+      "starter": "The",
+      "answer": "The sales assistant tried to get around the customer with compliments, but the customer still said no.",
+      "answerZh": "售貨員嘗試用讚美哄顧客答應,但顧客仍然拒絕。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why has nobody found time to wash the cups?",
+      "promptZh": "為甚麼一直沒有人抽時間清洗杯子?",
+      "starter": "Why",
+      "answer": "Why has nobody got around to washing the cups?",
+      "answerZh": "為甚麼一直沒有人抽時間清洗杯子?",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "It surprised us how quickly the announcement became known to everyone.",
+      "promptZh": "這項公告這麼快便廣為人知,令我們感到驚訝。",
+      "starter": "It",
+      "answer": "It surprised us how quickly the announcement got around.",
+      "answerZh": "這項公告這麼快便傳開,令我們感到驚訝。",
+      "highlight": "got around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    },
+    {
+      "id": "phrasal-verb-178-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After the bridge reopened, residents could once again travel around the area easily.",
+      "promptZh": "大橋重開後,居民再次可以輕鬆在區內四處走動。",
+      "starter": "After",
+      "answer": "After the bridge reopened, residents could once again get around the area easily.",
+      "answerZh": "大橋重開後,居民再次可以輕鬆在區內四處走動。",
+      "highlight": "get",
+      "targetForm": "get around something",
+      "targetMeaningZh": "在某地四處走動或乘搭交通工具"
+    },
+    {
+      "id": "phrasal-verb-178-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Even though Ravi had managed to persuade his father with his charm before, this request was refused.",
+      "promptZh": "雖然拉維以前曾成功靠魅力說服父親,但這次要求被拒絕了。",
+      "starter": "Even",
+      "answer": "Even though Ravi had managed to get around his father with his charm before, this request was refused.",
+      "answerZh": "雖然拉維以前曾成功靠魅力哄得父親答應,但這次要求被拒絕了。",
+      "highlight": "get around",
+      "targetForm": "get around somebody",
+      "targetMeaningZh": "以親切或討好的方式說服某人答應"
+    },
+    {
+      "id": "phrasal-verb-178-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The team had planned the video for months but only found time to film it yesterday.",
+      "promptZh": "團隊已籌備這段影片多月,但昨天才抽出時間拍攝。",
+      "starter": "The",
+      "answer": "The team had planned the video for months but only got around to filming it yesterday.",
+      "answerZh": "團隊已籌備這段影片多月,但昨天才抽出時間拍攝。",
+      "highlight": "got around",
+      "targetForm": "get around to something / get around to doing something",
+      "targetMeaningZh": "終於抽時間處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-178-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The secret will not become known throughout the class if nobody repeats it.",
+      "promptZh": "如果沒有人把秘密說出去,全班便不會知道。",
+      "starter": "The",
+      "answer": "The secret will not get around the class if nobody repeats it.",
+      "answerZh": "如果沒有人把秘密說出去,它便不會在全班傳開。",
+      "highlight": "get around",
+      "targetForm": "get around / get around something",
+      "targetMeaningZh": "消息或資訊傳開,讓很多人知道"
+    }
+  ]
+}

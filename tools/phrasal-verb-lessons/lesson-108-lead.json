@@ -1,0 +1,1435 @@
+{
+  "id": "phrasal-verb-108",
+  "order": 108,
+  "slug": "lead",
+  "version": "1",
+  "title": "LEAD 動詞片語",
+  "titleEn": "Lead",
+  "titleZh": "LEAD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 107 - LEAD.pdf",
+    "sourceNumber": 107,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LEAD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LEAD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LEAD",
+      "highlight": "LEAD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The short game led into a talk about teamwork.",
+      "zh": "小遊戲自然帶入了有關團隊合作的討論。",
+      "highlight": "led into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Lena led off with a simple question.",
+      "zh": "莉娜以一條簡單問題帶頭開始。",
+      "highlight": "led off with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A small road leads off from the village square.",
+      "zh": "一條小路從村內廣場岔出。",
+      "highlight": "leads off from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "自然帶入或接着進入另一個話題、活動或部分；帶頭開始;以某事物開始；道路、小徑或通道從某處岔出或延伸出去；誤導某人,使對方相信不實的事情或抱有錯誤希望；在某事之前發生,並逐步造成、解釋或準備該事",
+    "en": "lead into something; lead off / lead off with something; lead off something / lead off from something; lead somebody on; lead up to something",
+    "naturalZh": [
+      "自然帶入或接着進入另一個話題、活動或部分",
+      "帶頭開始;以某事物開始",
+      "道路、小徑或通道從某處岔出或延伸出去",
+      "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+      "在某事之前發生,並逐步造成、解釋或準備該事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lead into something",
+      "titleZh": "自然帶入或接着進入另一個話題、活動或部分",
+      "titleEn": "lead into something",
+      "descriptionZh": "自然帶入或接着進入另一個話題、活動或部分",
+      "descriptionEn": "The short game led into a talk about teamwork.",
+      "examples": [
+        {
+          "en": "The short game led into a talk about teamwork.",
+          "zh": "小遊戲自然帶入了有關團隊合作的討論。",
+          "highlight": "led into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lead off / lead off with something",
+      "titleZh": "帶頭開始;以某事物開始",
+      "titleEn": "lead off / lead off with something",
+      "descriptionZh": "帶頭開始;以某事物開始",
+      "descriptionEn": "Lena led off with a simple question.",
+      "examples": [
+        {
+          "en": "Lena led off with a simple question.",
+          "zh": "莉娜以一條簡單問題帶頭開始。",
+          "highlight": "led off with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lead off something / lead off from something",
+      "titleZh": "道路、小徑或通道從某處岔出或延伸出去",
+      "titleEn": "lead off something / lead off from something",
+      "descriptionZh": "道路、小徑或通道從某處岔出或延伸出去",
+      "descriptionEn": "A small road leads off from the village square.",
+      "examples": [
+        {
+          "en": "A small road leads off from the village square.",
+          "zh": "一條小路從村內廣場岔出。",
+          "highlight": "leads off from"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lead somebody on",
+      "titleZh": "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+      "titleEn": "lead somebody on",
+      "descriptionZh": "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+      "descriptionEn": "He led them on with promises he could not keep.",
+      "examples": [
+        {
+          "en": "He led them on with promises he could not keep.",
+          "zh": "他以無法兌現的承諾誤導他們。",
+          "highlight": "led them on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lead up to something",
+      "titleZh": "在某事之前發生,並逐步造成、解釋或準備該事",
+      "titleEn": "lead up to something",
+      "descriptionZh": "在某事之前發生,並逐步造成、解釋或準備該事",
+      "descriptionEn": "The film shows the events leading up to the race.",
+      "examples": [
+        {
+          "en": "The film shows the events leading up to the race.",
+          "zh": "這齣電影展示比賽前發生的一連串事件。",
+          "highlight": "leading up to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LEAD 片語動詞的實際用途",
+    "labelEn": "LEAD Phrasal Verbs in Use",
+    "summaryZh": "lead into 可以描述問題、故事或活動如何自然帶入下一部分。；lead off 和 lead off with 可以說明誰先開始,以及以甚麼內容開始。；lead off 和 lead off from 可以描述從另一條道路或某個地點岔出的街道、小徑和通道。；lead somebody on 可以描述誤導他人;lead up to 則可以解釋重要事情發生前的事件或時期。",
+    "summaryEn": "Lead into helps you describe how a question, story or activity naturally introduces the next part. Lead off and lead off with help you say who begins and what they use to begin. Lead off and lead off from can describe streets, paths and passages that leave another road or place. Lead somebody on describes misleading someone. Lead up to helps explain the events or period before something important happens.",
+    "contextsZh": [
+      "自然地由一個話題或活動過渡到另一個",
+      "自然描述會議、演說和表演的開始",
+      "更清楚地描述路線",
+      "描述錯誤希望和事情發生前的經過"
+    ],
+    "contextsEn": [
+      "Move smoothly from one idea or activity to another",
+      "Start meetings, talks and performances naturally",
+      "Give clear directions",
+      "Explain false hopes and earlier events"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LEAD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LEAD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lead into something",
+    "fixedHighlight": "lead into something",
+    "fixedZh": "閱讀整句,選出意思相同的 LEAD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LEAD expression that gives the same meaning.",
+    "correct": "led into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 lead somebody on 時,把表示人物的字放在 lead 和 on 之間。；請仔細閱讀情境:lead off 可以表示「帶頭開始」,也可以表示道路或小徑「從某處岔出」。lead into 表示自然帶入下一個話題或活動;lead up to 則描述某事發生前的時間或事件。",
+    "variableEn": "Keep the same people, things, time and meaning. In lead somebody on, place the person between lead and on: lead him on lead the customers on Read the situation carefully: lead off can mean “start first”, but a road or path can also lead off another road or place. lead into introduces the next topic or activity, while lead up to describes the time or events before something happens.",
+    "variableItemsZh": [
+      "lead into something",
+      "lead off / lead off with something",
+      "lead off something / lead off from something",
+      "lead somebody on",
+      "lead up to something"
+    ],
+    "variableItemsEn": [
+      "lead into something",
+      "lead off / lead off with something",
+      "lead off something / lead off from something",
+      "lead somebody on",
+      "lead up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "自然帶入或接着進入另一個話題、活動或部分",
+        "formEn": "lead into something",
+        "exampleZh": "小遊戲自然帶入了有關團隊合作的討論。",
+        "exampleEn": "The short game led into a talk about teamwork.",
+        "highlight": "led into"
+      },
+      {
+        "formZh": "帶頭開始;以某事物開始",
+        "formEn": "lead off / lead off with something",
+        "exampleZh": "莉娜以一條簡單問題帶頭開始。",
+        "exampleEn": "Lena led off with a simple question.",
+        "highlight": "led off with"
+      },
+      {
+        "formZh": "道路、小徑或通道從某處岔出或延伸出去",
+        "formEn": "lead off something / lead off from something",
+        "exampleZh": "一條小路從村內廣場岔出。",
+        "exampleEn": "A small road leads off from the village square.",
+        "highlight": "leads off from"
+      },
+      {
+        "formZh": "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+        "formEn": "lead somebody on",
+        "exampleZh": "他以無法兌現的承諾誤導他們。",
+        "exampleEn": "He led them on with promises he could not keep.",
+        "highlight": "led them on"
+      },
+      {
+        "formZh": "在某事之前發生,並逐步造成、解釋或準備該事",
+        "formEn": "lead up to something",
+        "exampleZh": "這齣電影展示比賽前發生的一連串事件。",
+        "exampleEn": "The film shows the events leading up to the race.",
+        "highlight": "leading up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "自然帶入或接着進入另一個話題、活動或部分",
+      "titleEn": "lead into something",
+      "formula": "lead into something",
+      "highlight": "lead into something",
+      "descriptionZh": "自然帶入或接着進入另一個話題、活動或部分",
+      "descriptionEn": "The short game led into a talk about teamwork.",
+      "examples": [
+        {
+          "en": "The short game led into a talk about teamwork.",
+          "zh": "小遊戲自然帶入了有關團隊合作的討論。",
+          "highlight": "led into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "帶頭開始;以某事物開始",
+      "titleEn": "lead off / lead off with something",
+      "formula": "lead off / lead off with something",
+      "highlight": "lead off / lead off with something",
+      "descriptionZh": "帶頭開始;以某事物開始",
+      "descriptionEn": "Lena led off with a simple question.",
+      "examples": [
+        {
+          "en": "Lena led off with a simple question.",
+          "zh": "莉娜以一條簡單問題帶頭開始。",
+          "highlight": "led off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "道路、小徑或通道從某處岔出或延伸出去",
+      "titleEn": "lead off something / lead off from something",
+      "formula": "lead off something / lead off from something",
+      "highlight": "lead off something / lead off from something",
+      "descriptionZh": "道路、小徑或通道從某處岔出或延伸出去",
+      "descriptionEn": "A small road leads off from the village square.",
+      "examples": [
+        {
+          "en": "A small road leads off from the village square.",
+          "zh": "一條小路從村內廣場岔出。",
+          "highlight": "leads off from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+      "titleEn": "lead somebody on",
+      "formula": "lead somebody on",
+      "highlight": "lead somebody on",
+      "descriptionZh": "誤導某人,使對方相信不實的事情或抱有錯誤希望",
+      "descriptionEn": "He led them on with promises he could not keep.",
+      "examples": [
+        {
+          "en": "He led them on with promises he could not keep.",
+          "zh": "他以無法兌現的承諾誤導他們。",
+          "highlight": "led them on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "在某事之前發生,並逐步造成、解釋或準備該事",
+      "titleEn": "lead up to something",
+      "formula": "lead up to something",
+      "highlight": "lead up to something",
+      "descriptionZh": "在某事之前發生,並逐步造成、解釋或準備該事",
+      "descriptionEn": "The film shows the events leading up to the race.",
+      "examples": [
+        {
+          "en": "The film shows the events leading up to the race.",
+          "zh": "這齣電影展示比賽前發生的一連串事件。",
+          "highlight": "leading up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地由一個話題或活動過渡到另一個",
+      "titleEn": "Move smoothly from one idea or activity to another",
+      "zh": "lead into 可以描述問題、故事或活動如何自然帶入下一部分。",
+      "en": "Lead into helps you describe how a question, story or activity naturally introduces the next part."
+    },
+    {
+      "titleZh": "自然描述會議、演說和表演的開始",
+      "titleEn": "Start meetings, talks and performances naturally",
+      "zh": "lead off 和 lead off with 可以說明誰先開始,以及以甚麼內容開始。",
+      "en": "Lead off and lead off with help you say who begins and what they use to begin."
+    },
+    {
+      "titleZh": "更清楚地描述路線",
+      "titleEn": "Give clear directions",
+      "zh": "lead off 和 lead off from 可以描述從另一條道路或某個地點岔出的街道、小徑和通道。",
+      "en": "Lead off and lead off from can describe streets, paths and passages that leave another road or place."
+    },
+    {
+      "titleZh": "描述錯誤希望和事情發生前的經過",
+      "titleEn": "Explain false hopes and earlier events",
+      "zh": "lead somebody on 可以描述誤導他人;lead up to 則可以解釋重要事情發生前的事件或時期。",
+      "en": "Lead somebody on describes misleading someone. Lead up to helps explain the events or period before something important happens."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地由一個話題或活動過渡到另一個",
+      "自然描述會議、演說和表演的開始",
+      "更清楚地描述路線",
+      "描述錯誤希望和事情發生前的經過"
+    ],
+    "contextsEn": [
+      "Move smoothly from one idea or activity to another",
+      "Start meetings, talks and performances naturally",
+      "Give clear directions",
+      "Explain false hopes and earlier events"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地由一個話題或活動過渡到另一個",
+        "titleEn": "Move smoothly from one idea or activity to another",
+        "zh": "lead into 可以描述問題、故事或活動如何自然帶入下一部分。",
+        "en": "Lead into helps you describe how a question, story or activity naturally introduces the next part.",
+        "examples": [
+          {
+            "en": "The short game led into a talk about teamwork.",
+            "zh": "小遊戲自然帶入了有關團隊合作的討論。",
+            "highlight": "led into"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述會議、演說和表演的開始",
+        "titleEn": "Start meetings, talks and performances naturally",
+        "zh": "lead off 和 lead off with 可以說明誰先開始,以及以甚麼內容開始。",
+        "en": "Lead off and lead off with help you say who begins and what they use to begin.",
+        "examples": [
+          {
+            "en": "Lena led off with a simple question.",
+            "zh": "莉娜以一條簡單問題帶頭開始。",
+            "highlight": "led off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "更清楚地描述路線",
+        "titleEn": "Give clear directions",
+        "zh": "lead off 和 lead off from 可以描述從另一條道路或某個地點岔出的街道、小徑和通道。",
+        "en": "Lead off and lead off from can describe streets, paths and passages that leave another road or place.",
+        "examples": [
+          {
+            "en": "A small road leads off from the village square.",
+            "zh": "一條小路從村內廣場岔出。",
+            "highlight": "leads off from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述錯誤希望和事情發生前的經過",
+        "titleEn": "Explain false hopes and earlier events",
+        "zh": "lead somebody on 可以描述誤導他人;lead up to 則可以解釋重要事情發生前的事件或時期。",
+        "en": "Lead somebody on describes misleading someone. Lead up to helps explain the events or period before something important happens.",
+        "examples": [
+          {
+            "en": "He led them on with promises he could not keep.",
+            "zh": "他以無法兌現的承諾誤導他們。",
+            "highlight": "led them on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LEAD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LEAD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LEAD 片語動詞。",
+      "en": "Read the whole sentence and choose the LEAD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 lead somebody on 時,把表示人物的字放在 lead 和 on 之間。",
+      "titleEn": "In lead somebody on, place the person between lead and on: lead him on lead the customers on.",
+      "zh": "使用 lead somebody on 時,把表示人物的字放在 lead 和 on 之間。",
+      "en": "In lead somebody on, place the person between lead and on: lead him on lead the customers on"
+    },
+    {
+      "titleZh": "請仔細閱讀情境:lead off 可以表示「帶頭開始」,也可以表示道路或小徑「從某處岔出」。lead into 表示自然帶入下一個話題或活動;lead up to 則描述某事發生前的時間或事件。",
+      "titleEn": "Read the situation carefully: lead off can mean “start first”, but a road or path can also lead off another road or place.",
+      "zh": "請仔細閱讀情境:lead off 可以表示「帶頭開始」,也可以表示道路或小徑「從某處岔出」。lead into 表示自然帶入下一個話題或活動;lead up to 則描述某事發生前的時間或事件。",
+      "en": "Read the situation carefully: lead off can mean “start first”, but a road or path can also lead off another road or place. lead into introduces the next topic or activity, while lead up to describes the time or events before something happens."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LEAD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LEAD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LEAD 動詞片語句子改寫練習",
+    "titleEn": "LEAD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LEAD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LEAD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-108-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The welcome activity was followed naturally by a short class discussion.",
+      "promptZh": "迎新活動之後,自然接着進行了一段簡短的課堂討論。",
+      "starter": "The",
+      "answer": "The welcome activity led into a short class discussion.",
+      "answerZh": "迎新活動自然帶入了一段簡短的課堂討論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A narrow path leaves the main road near the farm.",
+      "promptZh": "農場附近有一條窄路從大路岔出。",
+      "starter": "A",
+      "answer": "A narrow path leads off the main road near the farm.",
+      "answerZh": "農場附近有一條窄路從大路岔出。",
+      "highlight": "leads off",
+      "targetForm": "lead off something",
+      "targetMeaningZh": "從某條道路或某個地點岔出"
+    },
+    {
+      "id": "phrasal-verb-108-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Several small problems happened one after another before the final argument and helped cause it.",
+      "promptZh": "幾個小問題在最後一次爭吵前接連出現,並促成了這場爭吵。",
+      "starter": "Several",
+      "answer": "Several small problems led up to the final argument.",
+      "answerZh": "幾個小問題逐步導致了最後一次爭吵。",
+      "highlight": "led up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事之前發生,並逐步造成該事"
+    },
+    {
+      "id": "phrasal-verb-108-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our captain will begin with a short welcome.",
+      "promptZh": "隊長會以簡短的歡迎辭開始。",
+      "starter": "Our",
+      "answer": "Our captain will lead off with a short welcome.",
+      "answerZh": "隊長會以簡短歡迎辭帶頭開始。",
+      "highlight": "lead off",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The coach gave Ben false hope by saying that he might join the main team.",
+      "promptZh": "教練說賓可能加入主隊,令他抱有錯誤希望。",
+      "starter": "The",
+      "answer": "The coach led Ben on by saying that he might join the main team.",
+      "answerZh": "教練說賓可能加入主隊,令他抱有錯誤希望。",
+      "highlight": "led",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Her final question brought the class naturally to a talk about online safety.",
+      "promptZh": "她最後一條問題自然把課堂帶到有關網絡安全的討論。",
+      "starter": "Her",
+      "answer": "Her final question led into a talk about online safety.",
+      "answerZh": "她最後一條問題自然帶入了有關網絡安全的討論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The days before the school show were very busy.",
+      "promptZh": "學校演出前的日子非常忙碌。",
+      "starter": "The",
+      "answer": "The days leading up to the school show were very busy.",
+      "answerZh": "學校演出前的日子非常忙碌。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前的一段時間"
+    },
+    {
+      "id": "phrasal-verb-108-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A quiet street starts at the town square and continues away from it.",
+      "promptZh": "一條寧靜街道從市鎮廣場開始,並向外延伸。",
+      "starter": "A",
+      "answer": "A quiet street leads off from the town square.",
+      "answerZh": "一條寧靜街道從市鎮廣場岔出。",
+      "highlight": "leads off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I will speak first, and everyone else can speak after me.",
+      "promptZh": "我會先發言,其他人可以在我之後發言。",
+      "starter": "I",
+      "answer": "I will lead off, and everyone else can speak after me.",
+      "answerZh": "我會先開始,其他人可以在我之後發言。",
+      "highlight": "lead off",
+      "targetForm": "lead off",
+      "targetMeaningZh": "帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The short video comes just before and introduces the main lesson.",
+      "promptZh": "這段短片緊接在主要課堂內容之前,並為它作介紹。",
+      "starter": "The",
+      "answer": "The short video leads into the main lesson.",
+      "answerZh": "這段短片自然帶入主要課堂內容。",
+      "highlight": "leads into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Do not give her false hope if you are not interested.",
+      "promptZh": "若你沒有興趣,便不要令她抱有錯誤希望。",
+      "starter": "Do",
+      "answer": "Do not lead her on if you are not interested.",
+      "answerZh": "若你沒有興趣,便不要令她抱有錯誤希望。",
+      "highlight": "lead",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The meeting described the events that happened before the accident.",
+      "promptZh": "會議描述了意外發生前的一連串事件。",
+      "starter": "The",
+      "answer": "The meeting described the events leading up to the accident.",
+      "answerZh": "會議描述了意外發生前的一連串事件。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前出現的一連串事件"
+    },
+    {
+      "id": "phrasal-verb-108-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Who is going to begin by asking the first question?",
+      "promptZh": "誰會先問第一條問題,帶頭開始?",
+      "starter": "Who",
+      "answer": "Who is going to lead off with the first question?",
+      "answerZh": "誰會以第一條問題帶頭開始?",
+      "highlight": "lead off with",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The warm-up game is moving naturally into a longer team activity.",
+      "promptZh": "熱身遊戲正自然過渡到一項更長的團隊活動。",
+      "starter": "The",
+      "answer": "The warm-up game is leading into a longer team activity.",
+      "answerZh": "熱身遊戲正自然帶入一項更長的團隊活動。",
+      "highlight": "leading",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The company has given customers false hope with repeated promises of early delivery.",
+      "promptZh": "公司多次承諾提早送貨,令顧客抱有錯誤希望。",
+      "starter": "The",
+      "answer": "The company has led customers on with repeated promises of early delivery.",
+      "answerZh": "公司多次承諾提早送貨,令顧客抱有錯誤希望。",
+      "highlight": "led",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Two small lanes leave the main road before the bridge.",
+      "promptZh": "橋前有兩條小路從大路岔出。",
+      "starter": "Two",
+      "answer": "Two small lanes lead off the main road before the bridge.",
+      "answerZh": "橋前有兩條小路從大路岔出。",
+      "highlight": "lead off",
+      "targetForm": "lead off something",
+      "targetMeaningZh": "從某條道路或某個地點岔出"
+    },
+    {
+      "id": "phrasal-verb-108-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "What happened before the sudden change in the school rules?",
+      "promptZh": "學校規則突然改變前發生了甚麼事?",
+      "starter": "What",
+      "answer": "What led up to the sudden change in the school rules?",
+      "answerZh": "學校規則突然改變前發生了甚麼事?",
+      "highlight": "led up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事之前發生並逐步造成該事"
+    },
+    {
+      "id": "phrasal-verb-108-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The singer began the show with her best-known song.",
+      "promptZh": "歌手以她最著名的歌曲開始表演。",
+      "starter": "The",
+      "answer": "The singer led off with her best-known song.",
+      "answerZh": "歌手以她最著名的歌曲為表演揭開序幕。",
+      "highlight": "led off",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The short review has been followed naturally by a useful discussion about homework.",
+      "promptZh": "簡短重溫之後,自然接着進行了一場有用的家課討論。",
+      "starter": "The",
+      "answer": "The short review has led into a useful discussion about homework.",
+      "answerZh": "簡短重溫自然帶入了一場有用的家課討論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "A narrow corridor begins at the main hall and continues towards the garden.",
+      "promptZh": "一條窄走廊從大堂開始,並伸延至花園方向。",
+      "starter": "A",
+      "answer": "A narrow corridor leads off from the main hall towards the garden.",
+      "answerZh": "一條窄走廊從大堂岔出,並伸延至花園方向。",
+      "highlight": "leads off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Were they giving us false hope when they promised free tickets?",
+      "promptZh": "他們承諾送免費門票時,是否只是在令我們抱有錯誤希望?",
+      "starter": "Were",
+      "answer": "Were they leading us on when they promised free tickets?",
+      "answerZh": "他們承諾送免費門票時,是否只是在令我們抱有錯誤希望?",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The weeks before the exam can feel stressful.",
+      "promptZh": "考試前的幾個星期可能令人感到壓力。",
+      "starter": "The",
+      "answer": "The weeks leading up to the exam can feel stressful.",
+      "answerZh": "考試前的幾個星期可能令人感到壓力。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前的一段時間"
+    },
+    {
+      "id": "phrasal-verb-108-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The chairperson did not begin with the usual speech.",
+      "promptZh": "主席沒有以慣常的演說開始。",
+      "starter": "The",
+      "answer": "The chairperson did not lead off with the usual speech.",
+      "answerZh": "主席沒有以慣常的演說開始。",
+      "highlight": "lead off",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "A simple question can naturally begin a much deeper conversation.",
+      "promptZh": "一條簡單問題可以自然開展一場更深入的對話。",
+      "starter": "A",
+      "answer": "A simple question can lead into a much deeper conversation.",
+      "answerZh": "一條簡單問題可以自然帶入一場更深入的對話。",
+      "highlight": "lead into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We found a small path that began beside the lake and continued into the woods.",
+      "promptZh": "我們找到一條小路,它從湖邊開始並伸入樹林。",
+      "starter": "We",
+      "answer": "We found a small path leading off from the lake and into the woods.",
+      "answerZh": "我們找到一條從湖邊岔出並伸入樹林的小路。",
+      "highlight": "leading off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Let Carla speak first, then we can add our ideas.",
+      "promptZh": "讓卡拉先發言,然後我們再補充想法。",
+      "starter": "Let",
+      "answer": "Let Carla lead off, then we can add our ideas.",
+      "answerZh": "讓卡拉先開始,然後我們再補充想法。",
+      "highlight": "lead off",
+      "targetForm": "lead off",
+      "targetMeaningZh": "帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The report explains the earlier discussions that helped produce the final decision.",
+      "promptZh": "報告解釋了促成最後決定的早期討論。",
+      "starter": "The",
+      "answer": "The report explains the earlier discussions that led up to the final decision.",
+      "answerZh": "報告解釋了最後決定之前並促成該決定的早期討論。",
+      "highlight": "led up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事之前發生並逐步造成該事"
+    },
+    {
+      "id": "phrasal-verb-108-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "He realised that the coach had given him false hope for weeks.",
+      "promptZh": "他發現教練數星期以來一直令他抱有錯誤希望。",
+      "starter": "He",
+      "answer": "He realised that the coach had led him on for weeks.",
+      "answerZh": "他發現教練數星期以來一直令他抱有錯誤希望。",
+      "highlight": "led",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The road that starts at the corner of the village square becomes very narrow.",
+      "promptZh": "從村內廣場角落開始的道路變得十分狹窄。",
+      "starter": "The",
+      "answer": "The road leading off from the corner of the village square becomes very narrow.",
+      "answerZh": "從村內廣場角落岔出的道路變得十分狹窄。",
+      "highlight": "leading off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The opening story was followed naturally by a class discussion about courage.",
+      "promptZh": "開場故事之後,自然接着進行了有關勇氣的課堂討論。",
+      "starter": "The",
+      "answer": "The opening story led into a class discussion about courage.",
+      "answerZh": "開場故事自然帶入了有關勇氣的課堂討論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The host began by asking a question that everyone could answer.",
+      "promptZh": "主持人先問了一條人人都能回答的問題。",
+      "starter": "The",
+      "answer": "The host led off with a question that everyone could answer.",
+      "answerZh": "主持人以一條人人都能回答的問題開始。",
+      "highlight": "led off with",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "In the month before the move, we packed one room at a time.",
+      "promptZh": "搬屋前的一個月,我們每次收拾一個房間。",
+      "starter": "In",
+      "answer": "In the month leading up to the move, we packed one room at a time.",
+      "answerZh": "搬屋前的一個月,我們每次收拾一個房間。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前的一段時間"
+    },
+    {
+      "id": "phrasal-verb-108-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Take the second street that leaves the roundabout.",
+      "promptZh": "選擇從迴旋處岔出的第二條街。",
+      "starter": "Take",
+      "answer": "Take the second street leading off the roundabout.",
+      "answerZh": "選擇從迴旋處岔出的第二條街。",
+      "highlight": "leading off",
+      "targetForm": "lead off something",
+      "targetMeaningZh": "從某條道路或某個地點岔出"
+    },
+    {
+      "id": "phrasal-verb-108-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The messages made it clear that she had been giving him false hope.",
+      "promptZh": "那些訊息清楚顯示,她一直令他抱有錯誤希望。",
+      "starter": "The",
+      "answer": "The messages made it clear that she had been leading him on.",
+      "answerZh": "那些訊息清楚顯示,她一直令他抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The first exercise should prepare students for and move naturally to the main reading task.",
+      "promptZh": "第一項練習應為學生作準備,並自然過渡到主要閱讀任務。",
+      "starter": "The",
+      "answer": "The first exercise should lead into the main reading task.",
+      "answerZh": "第一項練習應自然帶入主要閱讀任務。",
+      "highlight": "lead into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After a short pause, the youngest speaker was the first to speak.",
+      "promptZh": "短暫停頓後,最年輕的講者首先發言。",
+      "starter": "After",
+      "answer": "After a short pause, the youngest speaker led off.",
+      "answerZh": "短暫停頓後,最年輕的講者先開始發言。",
+      "highlight": "led off",
+      "targetForm": "lead off",
+      "targetMeaningZh": "帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The club kept giving parents false hope by hinting that more places might open.",
+      "promptZh": "該興趣班不斷暗示可能會增加名額,令家長抱有錯誤希望。",
+      "starter": "The",
+      "answer": "The club kept leading parents on with hints that more places might open.",
+      "answerZh": "該興趣班不斷暗示可能會增加名額,令家長抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A side road leaves the coast road near the old café.",
+      "promptZh": "舊咖啡店附近有一條支路從沿海道路岔出。",
+      "starter": "A",
+      "answer": "A side road leads off the coast road near the old café.",
+      "answerZh": "舊咖啡店附近有一條支路從沿海道路岔出。",
+      "highlight": "leads off",
+      "targetForm": "lead off something",
+      "targetMeaningZh": "從某條道路或某個地點岔出"
+    },
+    {
+      "id": "phrasal-verb-108-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The teacher’s example was followed naturally by a comparison of the two stories.",
+      "promptZh": "老師舉例後,自然接着比較兩個故事。",
+      "starter": "The",
+      "answer": "The teacher’s example led into a comparison of the two stories.",
+      "answerZh": "老師的例子自然帶入了兩個故事的比較。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The documentary looks at the months before the first flight.",
+      "promptZh": "這齣紀錄片探討首次飛行前的幾個月。",
+      "starter": "The",
+      "answer": "The documentary looks at the months leading up to the first flight.",
+      "answerZh": "這齣紀錄片探討首次飛行前的幾個月。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前的一段時間"
+    },
+    {
+      "id": "phrasal-verb-108-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The first team will begin the session with a two-minute presentation.",
+      "promptZh": "第一隊會以兩分鐘簡報開始這個環節。",
+      "starter": "The",
+      "answer": "The first team will lead off with a two-minute presentation.",
+      "answerZh": "第一隊會以兩分鐘簡報帶頭開始這個環節。",
+      "highlight": "lead off",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "A short passage starts at the kitchen and continues to the back door.",
+      "promptZh": "一條短通道從廚房開始,一直伸延至後門。",
+      "starter": "A",
+      "answer": "A short passage leads off from the kitchen to the back door.",
+      "answerZh": "一條短通道從廚房岔出,一直伸延至後門。",
+      "highlight": "leads off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Do not keep giving the children false hope with promises you cannot keep.",
+      "promptZh": "不要以無法兌現的承諾,不斷令孩子抱有錯誤希望。",
+      "starter": "Do",
+      "answer": "Do not keep leading the children on with promises you cannot keep.",
+      "answerZh": "不要以無法兌現的承諾,不斷令孩子抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The interviewer’s final comment was followed naturally by a discussion of working hours.",
+      "promptZh": "訪問員最後的說話之後,自然接着討論工作時間。",
+      "starter": "The",
+      "answer": "The interviewer’s final comment led into a discussion of working hours.",
+      "answerZh": "訪問員最後的說話自然帶入了有關工作時間的討論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The map shows three paths that leave the main track.",
+      "promptZh": "地圖顯示有三條小路從主要路線岔出。",
+      "starter": "The",
+      "answer": "The map shows three paths leading off the main track.",
+      "answerZh": "地圖顯示有三條小路從主要路線岔出。",
+      "highlight": "leading off",
+      "targetForm": "lead off something",
+      "targetMeaningZh": "從某條道路或某個地點岔出"
+    },
+    {
+      "id": "phrasal-verb-108-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "No one understood what had happened before and caused the sudden cancellation.",
+      "promptZh": "沒有人明白突然取消之前發生了甚麼事,以及是甚麼造成了取消。",
+      "starter": "No",
+      "answer": "No one understood what had led up to the sudden cancellation.",
+      "answerZh": "沒有人明白突然取消之前發生了甚麼事,以及是甚麼造成了取消。",
+      "highlight": "led up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事之前發生並逐步造成該事"
+    },
+    {
+      "id": "phrasal-verb-108-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The drummer began with a short solo.",
+      "promptZh": "鼓手以一段簡短獨奏開始。",
+      "starter": "The",
+      "answer": "The drummer led off with a short solo.",
+      "answerZh": "鼓手以一段簡短獨奏揭開序幕。",
+      "highlight": "led off",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I thought the company wanted to hire me, but it was only giving me false hope.",
+      "promptZh": "我以為公司想聘用我,但它其實只是在令我抱有錯誤希望。",
+      "starter": "I",
+      "answer": "I thought the company wanted to hire me, but it was only leading me on.",
+      "answerZh": "我以為公司想聘用我,但它其實只是在令我抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The book follows the small steps that happened before and helped create the team’s final success.",
+      "promptZh": "這本書記錄了球隊最終成功前的一連串小步驟,而這些步驟促成了成功。",
+      "starter": "The",
+      "answer": "The book follows the small steps leading up to the team’s final success.",
+      "answerZh": "這本書記錄了球隊最終成功前並促成成功的一連串小步驟。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事之前發生並逐步造成該事"
+    },
+    {
+      "id": "phrasal-verb-108-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "For months, the owner gave the workers false hope by talking about higher pay that never came.",
+      "promptZh": "幾個月來,老闆一直談及加薪,令員工抱有錯誤希望,但加薪從未實現。",
+      "starter": "For",
+      "answer": "For months, the owner led the workers on with talk of higher pay that never came.",
+      "answerZh": "幾個月來,老闆一直談及加薪,令員工抱有錯誤希望,但加薪從未實現。",
+      "highlight": "led",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "To make everyone feel relaxed, Grace began by telling a funny story.",
+      "promptZh": "為了令大家放鬆,格蕾絲先講了一個有趣故事。",
+      "starter": "To",
+      "answer": "To make everyone feel relaxed, Grace led off with a funny story.",
+      "answerZh": "為了令大家放鬆,格蕾絲以一個有趣故事開始。",
+      "highlight": "led off with",
+      "targetForm": "lead off with something",
+      "targetMeaningZh": "以某事物帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Behind the library, a narrow lane leaves the main street and continues to the park.",
+      "promptZh": "圖書館後面有一條窄巷從大街岔出,並一直通往公園。",
+      "starter": "Behind",
+      "answer": "Behind the library, a narrow lane leads off from the main street and continues to the park.",
+      "answerZh": "圖書館後面有一條窄巷從大街岔出,並一直通往公園。",
+      "highlight": "leads off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The final scene moves directly into the next part of the story without a clear break.",
+      "promptZh": "最後一幕沒有明顯中斷,直接進入故事的下一部分。",
+      "starter": "The",
+      "answer": "The final scene leads into the next part of the story without a clear break.",
+      "answerZh": "最後一幕沒有明顯中斷,直接帶入故事的下一部分。",
+      "highlight": "leads",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "During the days before the race, Kai trained for only short periods.",
+      "promptZh": "比賽前的幾天,啟每次只訓練一小段時間。",
+      "starter": "During",
+      "answer": "During the days leading up to the race, Kai trained for only short periods.",
+      "answerZh": "比賽前的幾天,啟每次只訓練一小段時間。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前的一段時間"
+    },
+    {
+      "id": "phrasal-verb-108-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "She finally asked whether he was serious or simply giving her false hope.",
+      "promptZh": "她最後問他是否認真,還是只是在令她抱有錯誤希望。",
+      "starter": "She",
+      "answer": "She finally asked whether he was serious or simply leading her on.",
+      "answerZh": "她最後問他是否認真,還是只是在令她抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    },
+    {
+      "id": "phrasal-verb-108-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Visitors should take the path that leaves the square beside the post office.",
+      "promptZh": "遊客應選擇在郵局旁從廣場岔出的那條小路。",
+      "starter": "Visitors",
+      "answer": "Visitors should take the path leading off from the square beside the post office.",
+      "answerZh": "遊客應選擇在郵局旁從廣場岔出的那條小路。",
+      "highlight": "leading off from",
+      "targetForm": "lead off from something",
+      "targetMeaningZh": "從某個地點岔出或延伸出去"
+    },
+    {
+      "id": "phrasal-verb-108-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After the welcome, Daniel spoke first, followed by the other three speakers.",
+      "promptZh": "歡迎環節後,丹尼爾先發言,接着是另外三名講者。",
+      "starter": "After",
+      "answer": "After the welcome, Daniel led off, followed by the other three speakers.",
+      "answerZh": "歡迎環節後,丹尼爾先開始,接着是另外三名講者。",
+      "highlight": "led off",
+      "targetForm": "lead off",
+      "targetMeaningZh": "帶頭開始"
+    },
+    {
+      "id": "phrasal-verb-108-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The teacher asked about every event that happened before the playground accident.",
+      "promptZh": "老師詢問了遊樂場意外發生前的每一件事。",
+      "starter": "The",
+      "answer": "The teacher asked about every event leading up to the playground accident.",
+      "answerZh": "老師詢問了遊樂場意外發生前的每一件事。",
+      "highlight": "leading up to",
+      "targetForm": "lead up to something",
+      "targetMeaningZh": "在某事發生前出現的一連串事件"
+    },
+    {
+      "id": "phrasal-verb-108-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The pair work was followed naturally by a class debate on whether phones should be used at school.",
+      "promptZh": "二人活動之後,自然接着進行了一場關於學校是否應使用手機的全班辯論。",
+      "starter": "The",
+      "answer": "The pair work led into a class debate on whether phones should be used at school.",
+      "answerZh": "二人活動自然帶入了一場關於學校是否應使用手機的全班辯論。",
+      "highlight": "led into",
+      "targetForm": "lead into something",
+      "targetMeaningZh": "自然帶入另一個話題、活動或部分"
+    },
+    {
+      "id": "phrasal-verb-108-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The repeated delays showed that the organiser had been giving everyone false hope with promises that the event would still happen.",
+      "promptZh": "一次又一次的延期顯示,主辦人一直承諾活動仍會舉行,令所有人抱有錯誤希望。",
+      "starter": "The",
+      "answer": "The repeated delays showed that the organiser had been leading everyone on with promises that the event would still happen.",
+      "answerZh": "一次又一次的延期顯示,主辦人一直承諾活動仍會舉行,令所有人抱有錯誤希望。",
+      "highlight": "leading",
+      "targetForm": "lead somebody on",
+      "targetMeaningZh": "誤導某人;使某人抱有錯誤希望"
+    }
+  ]
+}

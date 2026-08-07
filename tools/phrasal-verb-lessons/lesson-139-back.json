@@ -1,0 +1,2008 @@
+{
+  "id": "phrasal-verb-139",
+  "order": 139,
+  "slug": "back",
+  "version": "1",
+  "title": "BACK 動詞片語",
+  "titleEn": "Back",
+  "titleZh": "BACK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 138 - BACK.pdf",
+    "sourceNumber": 138,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BACK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BACK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BACK",
+      "highlight": "BACK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We will not back away from making the road safer.",
+      "zh": "我們不會因困難而放棄令道路更安全。",
+      "highlight": "back away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The child backed away from the barking dog.",
+      "zh": "孩子向後退,離開那隻吠叫的狗。",
+      "highlight": "backed away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Neither side would back down on the issue.",
+      "zh": "雙方都不肯在這個問題上讓步。",
+      "highlight": "back down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "因困難、壓力或害怕而不再打算做某事；向後退開;與某人或某物保持距離；放棄原有立場、要求或反對;讓步；停止逼近、威嚇、批評或干涉;退開；停止或減少推行、要求或參與某事；建築物或地方的後方與某處相連；退出已答應或安排好的事情；支持某人;證實某個說法；備份電腦、手機或其他數碼資料；向後移動;使某人或某物向後移動；車輛排成長龍;使交通擠塞",
+    "en": "back away from something / back away from doing something; back away / back away from somebody/something; back down / back down on/from something; back off; back off something / back off from something / back off from doing something; back onto something; back out / back out of something / back out of doing something; back somebody/something up; back something up; back up / back somebody/something up; back up / back something up",
+    "naturalZh": [
+      "因困難、壓力或害怕而不再打算做某事",
+      "向後退開;與某人或某物保持距離",
+      "放棄原有立場、要求或反對;讓步",
+      "停止逼近、威嚇、批評或干涉;退開",
+      "停止或減少推行、要求或參與某事",
+      "建築物或地方的後方與某處相連",
+      "退出已答應或安排好的事情",
+      "支持某人;證實某個說法",
+      "備份電腦、手機或其他數碼資料",
+      "向後移動;使某人或某物向後移動",
+      "車輛排成長龍;使交通擠塞"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "back away from something / back away from doing something",
+      "titleZh": "因困難、壓力或害怕而不再打算做某事",
+      "titleEn": "back away from something / back away from doing something",
+      "descriptionZh": "因困難、壓力或害怕而不再打算做某事",
+      "descriptionEn": "We will not back away from making the road safer.",
+      "examples": [
+        {
+          "en": "We will not back away from making the road safer.",
+          "zh": "我們不會因困難而放棄令道路更安全。",
+          "highlight": "back away from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back away / back away from somebody/something",
+      "titleZh": "向後退開;與某人或某物保持距離",
+      "titleEn": "back away / back away from somebody/something",
+      "descriptionZh": "向後退開;與某人或某物保持距離",
+      "descriptionEn": "The child backed away from the barking dog.",
+      "examples": [
+        {
+          "en": "The child backed away from the barking dog.",
+          "zh": "孩子向後退,離開那隻吠叫的狗。",
+          "highlight": "backed away from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back down / back down on/from something",
+      "titleZh": "放棄原有立場、要求或反對;讓步",
+      "titleEn": "back down / back down on/from something",
+      "descriptionZh": "放棄原有立場、要求或反對;讓步",
+      "descriptionEn": "Neither side would back down on the issue.",
+      "examples": [
+        {
+          "en": "Neither side would back down on the issue.",
+          "zh": "雙方都不肯在這個問題上讓步。",
+          "highlight": "back down on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back off",
+      "titleZh": "停止逼近、威嚇、批評或干涉;退開",
+      "titleEn": "back off",
+      "descriptionZh": "停止逼近、威嚇、批評或干涉;退開",
+      "descriptionEn": "Back off and give her some room.",
+      "examples": [
+        {
+          "en": "Back off and give her some room.",
+          "zh": "退開一點,給她一些空間。",
+          "highlight": "Back off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back off something / back off from something / back off from doing something",
+      "titleZh": "停止或減少推行、要求或參與某事",
+      "titleEn": "back off something / back off from something / back off from doing something",
+      "descriptionZh": "停止或減少推行、要求或參與某事",
+      "descriptionEn": "The council backed off from the plan after complaints.",
+      "examples": [
+        {
+          "en": "The council backed off from the plan after complaints.",
+          "zh": "收到投訴後,市議會不再推行該計劃。",
+          "highlight": "backed off from"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back onto something",
+      "titleZh": "建築物或地方的後方與某處相連",
+      "titleEn": "back onto something",
+      "descriptionZh": "建築物或地方的後方與某處相連",
+      "descriptionEn": "Our garden backs onto a small park.",
+      "examples": [
+        {
+          "en": "Our garden backs onto a small park.",
+          "zh": "我們的花園後方連接一個小公園。",
+          "highlight": "backs onto"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "back out / back out of something / back out of doing something",
+      "titleZh": "退出已答應或安排好的事情",
+      "titleEn": "back out / back out of something / back out of doing something",
+      "descriptionZh": "退出已答應或安排好的事情",
+      "descriptionEn": "You cannot back out now; everything is ready.",
+      "examples": [
+        {
+          "en": "You cannot back out now; everything is ready.",
+          "zh": "一切已準備好,你現在不能退出。",
+          "highlight": "back out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "back somebody/something up",
+      "titleZh": "支持某人;證實某個說法",
+      "titleEn": "back somebody/something up",
+      "descriptionZh": "支持某人;證實某個說法",
+      "descriptionEn": "The photos backed up his story.",
+      "examples": [
+        {
+          "en": "The photos backed up his story.",
+          "zh": "照片證實了他的說法。",
+          "highlight": "backed up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "back something up",
+      "titleZh": "備份電腦、手機或其他數碼資料",
+      "titleEn": "back something up",
+      "descriptionZh": "備份電腦、手機或其他數碼資料",
+      "descriptionEn": "Please back up your files tonight.",
+      "examples": [
+        {
+          "en": "Please back up your files tonight.",
+          "zh": "請今晚備份你的檔案。",
+          "highlight": "back up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "back up / back somebody/something up",
+      "titleZh": "向後移動;使某人或某物向後移動",
+      "titleEn": "back up / back somebody/something up",
+      "descriptionZh": "向後移動;使某人或某物向後移動",
+      "descriptionEn": "Back the car up a little.",
+      "examples": [
+        {
+          "en": "Back the car up a little.",
+          "zh": "把車向後移一點。",
+          "highlight": "Back the car up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "back up / back something up",
+      "titleZh": "車輛排成長龍;使交通擠塞",
+      "titleEn": "back up / back something up",
+      "descriptionZh": "車輛排成長龍;使交通擠塞",
+      "descriptionEn": "The accident backed traffic up for miles.",
+      "examples": [
+        {
+          "en": "The accident backed traffic up for miles.",
+          "zh": "意外令車龍延綿數英里。",
+          "highlight": "backed traffic up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BACK 片語動詞的實際用途",
+    "labelEn": "BACK Phrasal Verbs in Use",
+    "summaryZh": "BACK 片語動詞可以表示某人向後退、車輛倒後移動,或建築物後方連接某處。；back away from、back down、back off 和 back out 可以分別表示因困難而退縮、讓步、停止施壓或退出安排。；back somebody up 可以表示支持某人;back a story up 可以表示證實某個說法。；你可以 back up files 來保護工作檔案,也可以用 traffic is backing up 表示車輛排成長龍。",
+    "summaryEn": "BACK expressions can show someone moving away, a vehicle moving backwards, or a building having a particular place behind it. back away from, back down, back off and back out describe different ways of retreating from an action, position, demand or arrangement. back somebody up can show support for a person. Backing a story up means showing that it is true. You can back up files to protect your work. You can also say that traffic is backing up when vehicles form a long queue.",
+    "contextsZh": [
+      "清楚描述移動和位置",
+      "談論艱難決定和壓力",
+      "表示支持和證明",
+      "談論數碼安全和道路情況"
+    ],
+    "contextsEn": [
+      "Describe movement and place clearly",
+      "Talk about difficult decisions and pressure",
+      "Show support and proof",
+      "Talk about digital safety and road problems"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BACK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BACK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "back away from something / back away from doing something",
+    "fixedHighlight": "back away from something / back away from doing something",
+    "fixedZh": "閱讀整句,選出意思相同的 BACK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BACK expression that gives the same meaning.",
+    "correct": "back away from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 BACK ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；請仔細閱讀整個情境:back away from — 因事情困難或令人擔心而退縮back off — 停止施壓或停止某項行動back out — 退出已答應或安排好的事情",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in a BACK... UP expression, place the word as shown: back him up back it up Read the full situation carefully: back away from — stop because something is difficult or worrying back off — stop putting pressure on someone or stop an action back out — leave something that has already been agreed or arranged",
+    "variableItemsZh": [
+      "back away from something / back away from doing something",
+      "back away / back away from somebody/something",
+      "back down / back down on/from something",
+      "back off",
+      "back off something / back off from something / back off from doing something",
+      "back onto something",
+      "back out / back out of something / back out of doing something",
+      "back somebody/something up",
+      "back something up",
+      "back up / back somebody/something up",
+      "back up / back something up"
+    ],
+    "variableItemsEn": [
+      "back away from something / back away from doing something",
+      "back away / back away from somebody/something",
+      "back down / back down on/from something",
+      "back off",
+      "back off something / back off from something / back off from doing something",
+      "back onto something",
+      "back out / back out of something / back out of doing something",
+      "back somebody/something up",
+      "back something up",
+      "back up / back somebody/something up",
+      "back up / back something up"
+    ],
+    "forms": [
+      {
+        "formZh": "因困難、壓力或害怕而不再打算做某事",
+        "formEn": "back away from something / back away from doing something",
+        "exampleZh": "我們不會因困難而放棄令道路更安全。",
+        "exampleEn": "We will not back away from making the road safer.",
+        "highlight": "back away from"
+      },
+      {
+        "formZh": "向後退開;與某人或某物保持距離",
+        "formEn": "back away / back away from somebody/something",
+        "exampleZh": "孩子向後退,離開那隻吠叫的狗。",
+        "exampleEn": "The child backed away from the barking dog.",
+        "highlight": "backed away from"
+      },
+      {
+        "formZh": "放棄原有立場、要求或反對;讓步",
+        "formEn": "back down / back down on/from something",
+        "exampleZh": "雙方都不肯在這個問題上讓步。",
+        "exampleEn": "Neither side would back down on the issue.",
+        "highlight": "back down on"
+      },
+      {
+        "formZh": "停止逼近、威嚇、批評或干涉;退開",
+        "formEn": "back off",
+        "exampleZh": "退開一點,給她一些空間。",
+        "exampleEn": "Back off and give her some room.",
+        "highlight": "Back off"
+      },
+      {
+        "formZh": "停止或減少推行、要求或參與某事",
+        "formEn": "back off something / back off from something / back off from doing something",
+        "exampleZh": "收到投訴後,市議會不再推行該計劃。",
+        "exampleEn": "The council backed off from the plan after complaints.",
+        "highlight": "backed off from"
+      },
+      {
+        "formZh": "建築物或地方的後方與某處相連",
+        "formEn": "back onto something",
+        "exampleZh": "我們的花園後方連接一個小公園。",
+        "exampleEn": "Our garden backs onto a small park.",
+        "highlight": "backs onto"
+      },
+      {
+        "formZh": "退出已答應或安排好的事情",
+        "formEn": "back out / back out of something / back out of doing something",
+        "exampleZh": "一切已準備好,你現在不能退出。",
+        "exampleEn": "You cannot back out now; everything is ready.",
+        "highlight": "back out"
+      },
+      {
+        "formZh": "支持某人;證實某個說法",
+        "formEn": "back somebody/something up",
+        "exampleZh": "照片證實了他的說法。",
+        "exampleEn": "The photos backed up his story.",
+        "highlight": "backed up"
+      },
+      {
+        "formZh": "備份電腦、手機或其他數碼資料",
+        "formEn": "back something up",
+        "exampleZh": "請今晚備份你的檔案。",
+        "exampleEn": "Please back up your files tonight.",
+        "highlight": "back up"
+      },
+      {
+        "formZh": "向後移動;使某人或某物向後移動",
+        "formEn": "back up / back somebody/something up",
+        "exampleZh": "把車向後移一點。",
+        "exampleEn": "Back the car up a little.",
+        "highlight": "Back the car up"
+      },
+      {
+        "formZh": "車輛排成長龍;使交通擠塞",
+        "formEn": "back up / back something up",
+        "exampleZh": "意外令車龍延綿數英里。",
+        "exampleEn": "The accident backed traffic up for miles.",
+        "highlight": "backed traffic up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "因困難、壓力或害怕而不再打算做某事",
+      "titleEn": "back away from something / back away from doing something",
+      "formula": "back away from something / back away from doing something",
+      "highlight": "back away from something / back away from doing something",
+      "descriptionZh": "因困難、壓力或害怕而不再打算做某事",
+      "descriptionEn": "We will not back away from making the road safer.",
+      "examples": [
+        {
+          "en": "We will not back away from making the road safer.",
+          "zh": "我們不會因困難而放棄令道路更安全。",
+          "highlight": "back away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "向後退開;與某人或某物保持距離",
+      "titleEn": "back away / back away from somebody/something",
+      "formula": "back away / back away from somebody/something",
+      "highlight": "back away / back away from somebody/something",
+      "descriptionZh": "向後退開;與某人或某物保持距離",
+      "descriptionEn": "The child backed away from the barking dog.",
+      "examples": [
+        {
+          "en": "The child backed away from the barking dog.",
+          "zh": "孩子向後退,離開那隻吠叫的狗。",
+          "highlight": "backed away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "放棄原有立場、要求或反對;讓步",
+      "titleEn": "back down / back down on/from something",
+      "formula": "back down / back down on/from something",
+      "highlight": "back down / back down on/from something",
+      "descriptionZh": "放棄原有立場、要求或反對;讓步",
+      "descriptionEn": "Neither side would back down on the issue.",
+      "examples": [
+        {
+          "en": "Neither side would back down on the issue.",
+          "zh": "雙方都不肯在這個問題上讓步。",
+          "highlight": "back down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "停止逼近、威嚇、批評或干涉;退開",
+      "titleEn": "back off",
+      "formula": "back off",
+      "highlight": "back off",
+      "descriptionZh": "停止逼近、威嚇、批評或干涉;退開",
+      "descriptionEn": "Back off and give her some room.",
+      "examples": [
+        {
+          "en": "Back off and give her some room.",
+          "zh": "退開一點,給她一些空間。",
+          "highlight": "Back off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "停止或減少推行、要求或參與某事",
+      "titleEn": "back off something / back off from something / back off from doing something",
+      "formula": "back off something / back off from something / back off from doing something",
+      "highlight": "back off something / back off from something / back off from doing something",
+      "descriptionZh": "停止或減少推行、要求或參與某事",
+      "descriptionEn": "The council backed off from the plan after complaints.",
+      "examples": [
+        {
+          "en": "The council backed off from the plan after complaints.",
+          "zh": "收到投訴後,市議會不再推行該計劃。",
+          "highlight": "backed off from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "建築物或地方的後方與某處相連",
+      "titleEn": "back onto something",
+      "formula": "back onto something",
+      "highlight": "back onto something",
+      "descriptionZh": "建築物或地方的後方與某處相連",
+      "descriptionEn": "Our garden backs onto a small park.",
+      "examples": [
+        {
+          "en": "Our garden backs onto a small park.",
+          "zh": "我們的花園後方連接一個小公園。",
+          "highlight": "backs onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "退出已答應或安排好的事情",
+      "titleEn": "back out / back out of something / back out of doing something",
+      "formula": "back out / back out of something / back out of doing something",
+      "highlight": "back out / back out of something / back out of doing something",
+      "descriptionZh": "退出已答應或安排好的事情",
+      "descriptionEn": "You cannot back out now; everything is ready.",
+      "examples": [
+        {
+          "en": "You cannot back out now; everything is ready.",
+          "zh": "一切已準備好,你現在不能退出。",
+          "highlight": "back out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "支持某人;證實某個說法",
+      "titleEn": "back somebody/something up",
+      "formula": "back somebody/something up",
+      "highlight": "back somebody/something up",
+      "descriptionZh": "支持某人;證實某個說法",
+      "descriptionEn": "The photos backed up his story.",
+      "examples": [
+        {
+          "en": "The photos backed up his story.",
+          "zh": "照片證實了他的說法。",
+          "highlight": "backed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "備份電腦、手機或其他數碼資料",
+      "titleEn": "back something up",
+      "formula": "back something up",
+      "highlight": "back something up",
+      "descriptionZh": "備份電腦、手機或其他數碼資料",
+      "descriptionEn": "Please back up your files tonight.",
+      "examples": [
+        {
+          "en": "Please back up your files tonight.",
+          "zh": "請今晚備份你的檔案。",
+          "highlight": "back up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "向後移動;使某人或某物向後移動",
+      "titleEn": "back up / back somebody/something up",
+      "formula": "back up / back somebody/something up",
+      "highlight": "back up / back somebody/something up",
+      "descriptionZh": "向後移動;使某人或某物向後移動",
+      "descriptionEn": "Back the car up a little.",
+      "examples": [
+        {
+          "en": "Back the car up a little.",
+          "zh": "把車向後移一點。",
+          "highlight": "Back the car up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "車輛排成長龍;使交通擠塞",
+      "titleEn": "back up / back something up",
+      "formula": "back up / back something up",
+      "highlight": "back up / back something up",
+      "descriptionZh": "車輛排成長龍;使交通擠塞",
+      "descriptionEn": "The accident backed traffic up for miles.",
+      "examples": [
+        {
+          "en": "The accident backed traffic up for miles.",
+          "zh": "意外令車龍延綿數英里。",
+          "highlight": "backed traffic up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述移動和位置",
+      "titleEn": "Describe movement and place clearly",
+      "zh": "BACK 片語動詞可以表示某人向後退、車輛倒後移動,或建築物後方連接某處。",
+      "en": "BACK expressions can show someone moving away, a vehicle moving backwards, or a building having a particular place behind it."
+    },
+    {
+      "titleZh": "談論艱難決定和壓力",
+      "titleEn": "Talk about difficult decisions and pressure",
+      "zh": "back away from、back down、back off 和 back out 可以分別表示因困難而退縮、讓步、停止施壓或退出安排。",
+      "en": "back away from, back down, back off and back out describe different ways of retreating from an action, position, demand or arrangement."
+    },
+    {
+      "titleZh": "表示支持和證明",
+      "titleEn": "Show support and proof",
+      "zh": "back somebody up 可以表示支持某人;back a story up 可以表示證實某個說法。",
+      "en": "back somebody up can show support for a person. Backing a story up means showing that it is true."
+    },
+    {
+      "titleZh": "談論數碼安全和道路情況",
+      "titleEn": "Talk about digital safety and road problems",
+      "zh": "你可以 back up files 來保護工作檔案,也可以用 traffic is backing up 表示車輛排成長龍。",
+      "en": "You can back up files to protect your work. You can also say that traffic is backing up when vehicles form a long queue."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述移動和位置",
+      "談論艱難決定和壓力",
+      "表示支持和證明",
+      "談論數碼安全和道路情況"
+    ],
+    "contextsEn": [
+      "Describe movement and place clearly",
+      "Talk about difficult decisions and pressure",
+      "Show support and proof",
+      "Talk about digital safety and road problems"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述移動和位置",
+        "titleEn": "Describe movement and place clearly",
+        "zh": "BACK 片語動詞可以表示某人向後退、車輛倒後移動,或建築物後方連接某處。",
+        "en": "BACK expressions can show someone moving away, a vehicle moving backwards, or a building having a particular place behind it.",
+        "examples": [
+          {
+            "en": "We will not back away from making the road safer.",
+            "zh": "我們不會因困難而放棄令道路更安全。",
+            "highlight": "back away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論艱難決定和壓力",
+        "titleEn": "Talk about difficult decisions and pressure",
+        "zh": "back away from、back down、back off 和 back out 可以分別表示因困難而退縮、讓步、停止施壓或退出安排。",
+        "en": "back away from, back down, back off and back out describe different ways of retreating from an action, position, demand or arrangement.",
+        "examples": [
+          {
+            "en": "The child backed away from the barking dog.",
+            "zh": "孩子向後退,離開那隻吠叫的狗。",
+            "highlight": "backed away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示支持和證明",
+        "titleEn": "Show support and proof",
+        "zh": "back somebody up 可以表示支持某人;back a story up 可以表示證實某個說法。",
+        "en": "back somebody up can show support for a person. Backing a story up means showing that it is true.",
+        "examples": [
+          {
+            "en": "Neither side would back down on the issue.",
+            "zh": "雙方都不肯在這個問題上讓步。",
+            "highlight": "back down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論數碼安全和道路情況",
+        "titleEn": "Talk about digital safety and road problems",
+        "zh": "你可以 back up files 來保護工作檔案,也可以用 traffic is backing up 表示車輛排成長龍。",
+        "en": "You can back up files to protect your work. You can also say that traffic is backing up when vehicles form a long queue.",
+        "examples": [
+          {
+            "en": "Back off and give her some room.",
+            "zh": "退開一點,給她一些空間。",
+            "highlight": "Back off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BACK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BACK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BACK 片語動詞。",
+      "en": "Read the whole sentence and choose the BACK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 BACK ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in a BACK.",
+      "zh": "在 BACK ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in a BACK... UP expression, place the word as shown: back him up back it up"
+    },
+    {
+      "titleZh": "請仔細閱讀整個情境:back away from — 因事情困難或令人擔心而退縮back off — 停止施壓或停止某項行動back out — 退出已答應或安排好的事情",
+      "titleEn": "Read the full situation carefully: back away from — stop because something is difficult or worrying back off — stop putting pressure on someone or stop an action back out — leave something that has already been agreed or arranged.",
+      "zh": "請仔細閱讀整個情境:back away from — 因事情困難或令人擔心而退縮back off — 停止施壓或停止某項行動back out — 退出已答應或安排好的事情",
+      "en": "Read the full situation carefully: back away from — stop because something is difficult or worrying back off — stop putting pressure on someone or stop an action back out — leave something that has already been agreed or arranged"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BACK 動詞片語句子改寫練習",
+    "titleEn": "BACK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-139-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Cars formed a long queue after the tunnel closed.",
+      "promptZh": "隧道關閉後,車輛排成長龍。",
+      "starter": "Cars",
+      "answer": "Cars backed up after the tunnel closed.",
+      "answerZh": "隧道關閉後,車輛排成長龍。",
+      "highlight": "backed up",
+      "targetForm": "back up",
+      "targetMeaningZh": "車輛排成長龍"
+    },
+    {
+      "id": "phrasal-verb-139-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Please support me when I explain the mistake to the teacher.",
+      "promptZh": "我向老師解釋這個錯誤時,請支持我。",
+      "starter": "Please",
+      "answer": "Please back me up when I explain the mistake to the teacher.",
+      "answerZh": "我向老師解釋這個錯誤時,請支持我。",
+      "highlight": "back",
+      "targetForm": "back somebody up",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-139-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The boy moved backwards when the large dog came near.",
+      "promptZh": "那隻大狗走近時,男孩向後退。",
+      "starter": "The",
+      "answer": "The boy backed away when the large dog came near.",
+      "answerZh": "那隻大狗走近時,男孩向後退。",
+      "highlight": "backed away",
+      "targetForm": "back away",
+      "targetMeaningZh": "向後退開"
+    },
+    {
+      "id": "phrasal-verb-139-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Ravi agreed to join the trip, but later withdrew from the arrangement.",
+      "promptZh": "拉維答應參加旅程,但後來退出了這項安排。",
+      "starter": "Ravi",
+      "answer": "Ravi agreed to join the trip, but later backed out of the arrangement.",
+      "answerZh": "拉維答應參加旅程,但後來退出了這項安排。",
+      "highlight": "backed out of",
+      "targetForm": "back out of something",
+      "targetMeaningZh": "退出已安排好的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The hotel has the golf course directly behind it.",
+      "promptZh": "酒店後方直接連接高爾夫球場。",
+      "starter": "The",
+      "answer": "The hotel backs onto the golf course.",
+      "answerZh": "酒店後方直接連接高爾夫球場。",
+      "highlight": "backs onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We make a copy of all the files every night.",
+      "promptZh": "我們每晚都會備份所有檔案。",
+      "starter": "We",
+      "answer": "We back up all the files every night.",
+      "answerZh": "我們每晚都會備份所有檔案。",
+      "highlight": "back up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Neither side will give up its position on this issue.",
+      "promptZh": "雙方都不會在這個問題上放棄自己的立場。",
+      "starter": "Neither",
+      "answer": "Neither side will back down on this issue.",
+      "answerZh": "雙方都不會在這個問題上讓步。",
+      "highlight": "back down",
+      "targetForm": "back down on something",
+      "targetMeaningZh": "在某個問題上讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Move the car backwards a little.",
+      "promptZh": "把車向後移一點。",
+      "starter": "Back",
+      "answer": "Back the car up a little.",
+      "answerZh": "把車向後移一點。",
+      "highlight": "Back",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The council stopped pushing its parking plan after many people complained.",
+      "promptZh": "許多人投訴後,市議會停止推動其泊車計劃。",
+      "starter": "The",
+      "answer": "The council backed off from its parking plan after many people complained.",
+      "answerZh": "許多人投訴後,市議會不再推動其泊車計劃。",
+      "highlight": "backed off from",
+      "targetForm": "back off from something",
+      "targetMeaningZh": "停止推行某事"
+    },
+    {
+      "id": "phrasal-verb-139-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Stop bothering me and let me finish my work.",
+      "promptZh": "別再煩我,讓我完成工作。",
+      "starter": "Back",
+      "answer": "Back off and let me finish my work.",
+      "answerZh": "別再煩我,讓我完成工作。",
+      "highlight": "Back off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止打擾或干涉"
+    },
+    {
+      "id": "phrasal-verb-139-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The coach refused to abandon the hard training plan simply because it was difficult.",
+      "promptZh": "教練拒絕只因訓練計劃困難便放棄。",
+      "starter": "The",
+      "answer": "The coach refused to back away from the hard training plan simply because it was difficult.",
+      "answerZh": "教練拒絕只因訓練計劃困難便退縮。",
+      "highlight": "back away from",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "因困難而退縮"
+    },
+    {
+      "id": "phrasal-verb-139-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The photos confirmed her story about the broken window.",
+      "promptZh": "照片證實了她關於窗戶破裂的說法。",
+      "starter": "The",
+      "answer": "The photos backed up her story about the broken window.",
+      "answerZh": "照片證實了她關於窗戶破裂的說法。",
+      "highlight": "backed up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-139-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The accident caused traffic to form a queue for several kilometres.",
+      "promptZh": "意外令車龍延綿數公里。",
+      "starter": "The",
+      "answer": "The accident backed traffic up for several kilometres.",
+      "answerZh": "意外令車龍延綿數公里。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使交通擠塞"
+    },
+    {
+      "id": "phrasal-verb-139-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The cat moved away backwards when the vacuum cleaner started.",
+      "promptZh": "吸塵機啟動時,那隻貓向後退開。",
+      "starter": "The",
+      "answer": "The cat backed away when the vacuum cleaner started.",
+      "answerZh": "吸塵機啟動時,那隻貓向後退開。",
+      "highlight": "backed",
+      "targetForm": "back away",
+      "targetMeaningZh": "向後退開"
+    },
+    {
+      "id": "phrasal-verb-139-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Remember to make a copy of your phone photos before changing phones.",
+      "promptZh": "換電話前,記得備份手機照片。",
+      "starter": "Remember",
+      "answer": "Remember to back up your phone photos before changing phones.",
+      "answerZh": "換電話前,記得備份手機照片。",
+      "highlight": "back up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We will not stop taking action to make the roads safer just because the work is difficult.",
+      "promptZh": "我們不會只因工作困難便停止採取行動,令道路更安全。",
+      "starter": "We",
+      "answer": "We will not back away from taking action to make the roads safer just because the work is difficult.",
+      "answerZh": "我們不會只因工作困難便退縮,停止採取行動令道路更安全。",
+      "highlight": "back away from",
+      "targetForm": "back away from doing something",
+      "targetMeaningZh": "因困難而不再做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The school is not giving up its plan to introduce stricter safety checks.",
+      "promptZh": "學校並沒有放棄引入更嚴格安全檢查的計劃。",
+      "starter": "The",
+      "answer": "The school is not backing away from its plan to introduce stricter safety checks.",
+      "answerZh": "學校並沒有因壓力而放棄引入更嚴格安全檢查的計劃。",
+      "highlight": "backing away from",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "因壓力而放棄某事"
+    },
+    {
+      "id": "phrasal-verb-139-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Move the van backwards another metre.",
+      "promptZh": "把客貨車再向後移一米。",
+      "starter": "Back",
+      "answer": "Back the van up another metre.",
+      "answerZh": "把客貨車再向後移一米。",
+      "highlight": "Back",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Our kitchen has a small public garden directly behind it.",
+      "promptZh": "我們的廚房後方直接連接一個小型公共花園。",
+      "starter": "Our",
+      "answer": "Our kitchen backs onto a small public garden.",
+      "answerZh": "我們的廚房後方直接連接一個小型公共花園。",
+      "highlight": "backs onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Will you support me if the manager asks what happened?",
+      "promptZh": "如果經理問發生了甚麼事,你會支持我嗎?",
+      "starter": "Will",
+      "answer": "Will you back me up if the manager asks what happened?",
+      "answerZh": "如果經理問發生了甚麼事,你會支持我嗎?",
+      "highlight": "back",
+      "targetForm": "back somebody up",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-139-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The players have not given up their request for a fairer timetable.",
+      "promptZh": "球員並沒有放棄要求一個更公平的時間表。",
+      "starter": "The",
+      "answer": "The players have not backed down on their request for a fairer timetable.",
+      "answerZh": "球員並沒有在要求更公平時間表一事上讓步。",
+      "highlight": "backed down on",
+      "targetForm": "back down on something",
+      "targetMeaningZh": "放棄要求或讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "As the horse moved closer, I was moving backwards slowly.",
+      "promptZh": "那匹馬走近時,我正慢慢向後退。",
+      "starter": "As",
+      "answer": "As the horse moved closer, I was backing away slowly.",
+      "answerZh": "那匹馬走近時,我正慢慢向後退。",
+      "highlight": "backing away",
+      "targetForm": "back away",
+      "targetMeaningZh": "向後退開"
+    },
+    {
+      "id": "phrasal-verb-139-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Have you made a copy of the report on another drive?",
+      "promptZh": "你有把報告備份到另一個硬碟嗎?",
+      "starter": "Have",
+      "answer": "Have you backed up the report on another drive?",
+      "answerZh": "你有把報告備份到另一個硬碟嗎?",
+      "highlight": "backed up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The organisers have stopped trying to charge an extra fee after complaints.",
+      "promptZh": "收到投訴後,主辦單位已停止嘗試收取額外費用。",
+      "starter": "The",
+      "answer": "The organisers have backed off from charging an extra fee after complaints.",
+      "answerZh": "收到投訴後,主辦單位已不再收取額外費用。",
+      "highlight": "backed off from charging",
+      "targetForm": "back off from doing something",
+      "targetMeaningZh": "停止做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Cars are forming a longer and longer queue near the bridge.",
+      "promptZh": "大橋附近的車龍愈來愈長。",
+      "starter": "Cars",
+      "answer": "Cars are backing up near the bridge.",
+      "answerZh": "大橋附近的車輛正愈排愈長。",
+      "highlight": "backing up",
+      "targetForm": "back up",
+      "targetMeaningZh": "車輛排成長龍"
+    },
+    {
+      "id": "phrasal-verb-139-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The man stopped coming closer when the guard raised a hand.",
+      "promptZh": "保安舉起手時,那名男子停止走近。",
+      "starter": "The",
+      "answer": "The man backed off when the guard raised a hand.",
+      "answerZh": "保安舉起手時,那名男子退開了。",
+      "highlight": "backed off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止逼近;退開"
+    },
+    {
+      "id": "phrasal-verb-139-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why did Ella withdraw from giving the speech after agreeing to it?",
+      "promptZh": "埃拉答應發言後,為甚麼又退出?",
+      "starter": "Why",
+      "answer": "Why did Ella back out of giving the speech after agreeing to it?",
+      "answerZh": "埃拉答應發言後,為甚麼又退出?",
+      "highlight": "back out of",
+      "targetForm": "back out of doing something",
+      "targetMeaningZh": "退出已答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Our captain never gives up his position when he believes he is right.",
+      "promptZh": "我們的隊長認為自己正確時,從不放棄立場。",
+      "starter": "Our",
+      "answer": "Our captain never backs down from his position when he believes he is right.",
+      "answerZh": "我們的隊長認為自己正確時,從不在立場上讓步。",
+      "highlight": "backs down from",
+      "targetForm": "back down from something",
+      "targetMeaningZh": "放棄立場;讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Could you move the trolley backwards to the wall?",
+      "promptZh": "你可以把手推車向後移到牆邊嗎?",
+      "starter": "Could",
+      "answer": "Could you back the trolley up to the wall?",
+      "answerZh": "你可以把手推車向後移到牆邊嗎?",
+      "highlight": "back",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The new reading room will have the playground directly behind it.",
+      "promptZh": "新閱讀室後方將直接連接操場。",
+      "starter": "The",
+      "answer": "The new reading room will back onto the playground.",
+      "answerZh": "新閱讀室後方將直接連接操場。",
+      "highlight": "back onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The shop may stop its plan to stay open all night.",
+      "promptZh": "店舖可能會停止通宵營業的計劃。",
+      "starter": "The",
+      "answer": "The shop may back off from its plan to stay open all night.",
+      "answerZh": "店舖可能會放棄通宵營業的計劃。",
+      "highlight": "back off from",
+      "targetForm": "back off from something",
+      "targetMeaningZh": "停止或減少推行某事"
+    },
+    {
+      "id": "phrasal-verb-139-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "They will not withdraw from hosting the school show now that everything is ready.",
+      "promptZh": "既然一切已準備好,他們不會退出主辦學校表演。",
+      "starter": "They",
+      "answer": "They will not back out of hosting the school show now that everything is ready.",
+      "answerZh": "既然一切已準備好,他們不會退出主辦學校表演。",
+      "highlight": "back out of",
+      "targetForm": "back out of doing something",
+      "targetMeaningZh": "退出已安排好的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I told the truth, so please support me when Dad asks.",
+      "promptZh": "我說了實話,所以爸爸問起時,請支持我。",
+      "starter": "I",
+      "answer": "I told the truth, so please back me up when Dad asks.",
+      "answerZh": "我說了實話,所以爸爸問起時,請支持我。",
+      "highlight": "back",
+      "targetForm": "back somebody up",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-139-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Before you reset the tablet, make a copy of everything on it.",
+      "promptZh": "重設平板電腦前,先備份裏面的所有資料。",
+      "starter": "Before",
+      "answer": "Before you reset the tablet, back it up.",
+      "answerZh": "重設平板電腦前,先把裏面的所有資料備份好。",
+      "highlight": "back",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The snake moved towards us, so we moved backwards away from it.",
+      "promptZh": "那條蛇向我們移動,所以我們向後退開。",
+      "starter": "The",
+      "answer": "The snake moved towards us, so we backed away from it.",
+      "answerZh": "那條蛇向我們移動,所以我們向後退開。",
+      "highlight": "backed",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "向後退離某物"
+    },
+    {
+      "id": "phrasal-verb-139-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "They had promised to pay for the meal, but they withdrew from doing so.",
+      "promptZh": "他們曾答應支付餐費,但後來反悔了。",
+      "starter": "They",
+      "answer": "They had promised to pay for the meal, but they backed out of doing so.",
+      "answerZh": "他們曾答應支付餐費,但後來反悔了。",
+      "highlight": "backed out of",
+      "targetForm": "back out of doing something",
+      "targetMeaningZh": "退出已答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The house we rented has a field directly behind it.",
+      "promptZh": "我們租住的房子後方直接連接一片田地。",
+      "starter": "The",
+      "answer": "The house we rented backs onto a field.",
+      "answerZh": "我們租住的房子後方直接連接一片田地。",
+      "highlight": "backs onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Roadworks caused traffic to form a long queue.",
+      "promptZh": "道路工程令車輛排成長龍。",
+      "starter": "Roadworks",
+      "answer": "Roadworks backed traffic up for a long distance.",
+      "answerZh": "道路工程令車龍延伸了很長一段距離。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使交通擠塞"
+    },
+    {
+      "id": "phrasal-verb-139-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "When the student asked for space, the others stopped crowding around him.",
+      "promptZh": "那名學生要求留點空間時,其他人不再圍着他。",
+      "starter": "When",
+      "answer": "When the student asked for space, the others backed off.",
+      "answerZh": "那名學生要求留點空間時,其他人便退開了。",
+      "highlight": "backed off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止逼近或干涉"
+    },
+    {
+      "id": "phrasal-verb-139-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The company decided to stop pushing for a price rise.",
+      "promptZh": "公司決定停止爭取加價。",
+      "starter": "The",
+      "answer": "The company decided to back off from pushing for a price rise.",
+      "answerZh": "公司決定不再爭取加價。",
+      "highlight": "back off from",
+      "targetForm": "back off from doing something",
+      "targetMeaningZh": "停止推動或要求某事"
+    },
+    {
+      "id": "phrasal-verb-139-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Lena knew the facts were against her, but she refused to give up her position.",
+      "promptZh": "莉娜知道事實對她不利,但她拒絕放棄自己的立場。",
+      "starter": "Lena",
+      "answer": "Lena knew the facts were against her, but she refused to back down from her position.",
+      "answerZh": "莉娜知道事實對她不利,但她拒絕在立場上讓步。",
+      "highlight": "back down from",
+      "targetForm": "back down from something",
+      "targetMeaningZh": "放棄立場;讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The work became harder, but we did not abandon it.",
+      "promptZh": "工作變得更困難,但我們沒有因此放棄。",
+      "starter": "The",
+      "answer": "The work became harder, but we did not back away from it.",
+      "answerZh": "工作變得更困難,但我們沒有因此退縮。",
+      "highlight": "back away from",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "因困難而退縮"
+    },
+    {
+      "id": "phrasal-verb-139-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The driver moved the car backwards until it reached the gate.",
+      "promptZh": "司機把車向後移,直至到達閘門。",
+      "starter": "The",
+      "answer": "The driver backed it up until it reached the gate.",
+      "answerZh": "司機把車向後移,直至到達閘門。",
+      "highlight": "backed it up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The video confirmed the witness’s account.",
+      "promptZh": "影片證實了目擊者的說法。",
+      "starter": "The",
+      "answer": "The witness’s account was backed up by the video.",
+      "answerZh": "目擊者的說法得到影片證實。",
+      "highlight": "was backed up by the video",
+      "targetForm": "back something up",
+      "targetMeaningZh": "證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-139-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Copies of all customer files are made automatically every evening.",
+      "promptZh": "所有客戶檔案每晚都會自動備份。",
+      "starter": "All",
+      "answer": "All customer files are backed up automatically every evening.",
+      "answerZh": "所有客戶檔案每晚都會自動備份。",
+      "highlight": "backed up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Cars were in a queue for nearly two kilometres after the crash.",
+      "promptZh": "意外後,車龍接近兩公里長。",
+      "starter": "Cars",
+      "answer": "Cars were backed up for nearly two kilometres after the crash.",
+      "answerZh": "意外後,車龍接近兩公里長。",
+      "highlight": "backed up",
+      "targetForm": "back up",
+      "targetMeaningZh": "車輛排成長龍"
+    },
+    {
+      "id": "phrasal-verb-139-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Could you stop pressing him and give him time to answer?",
+      "promptZh": "你可以別再逼他,給他時間回答嗎?",
+      "starter": "Could",
+      "answer": "Could you back off and give him time to answer?",
+      "answerZh": "你可以別再逼他,給他時間回答嗎?",
+      "highlight": "back off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-139-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The charity did not stop helping the village when costs rose.",
+      "promptZh": "成本上升時,慈善機構沒有停止幫助該村。",
+      "starter": "The",
+      "answer": "The charity did not back away from helping the village when costs rose.",
+      "answerZh": "成本上升時,慈善機構沒有因而退縮,仍然幫助該村。",
+      "highlight": "back away from",
+      "targetForm": "back away from doing something",
+      "targetMeaningZh": "因困難而停止做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The food company had accepted the booking, but cancelled the agreement two days before the party.",
+      "promptZh": "食品公司已接受預訂,卻在派對前兩天退出了協議。",
+      "starter": "The",
+      "answer": "The food company had accepted the booking, but backed out of the agreement two days before the party.",
+      "answerZh": "食品公司已接受預訂,卻在派對前兩天退出了協議。",
+      "highlight": "backed out of",
+      "targetForm": "back out of something",
+      "targetMeaningZh": "退出已同意的安排"
+    },
+    {
+      "id": "phrasal-verb-139-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "When the fireworks began, the horse stepped backwards from the gate.",
+      "promptZh": "煙花開始時,那匹馬從閘門向後退。",
+      "starter": "When",
+      "answer": "When the fireworks began, the horse backed away from the gate.",
+      "answerZh": "煙花開始時,那匹馬從閘門向後退。",
+      "highlight": "backed away",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "向後退離某物"
+    },
+    {
+      "id": "phrasal-verb-139-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Two other students confirmed Leo’s account of the accident.",
+      "promptZh": "另外兩名學生證實了里奧對意外的說法。",
+      "starter": "Two",
+      "answer": "Two other students backed up Leo’s account of the accident.",
+      "answerZh": "另外兩名學生證實了里奧對意外的說法。",
+      "highlight": "backed up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-139-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "After strong complaints, the school stopped trying to remove the lunch break.",
+      "promptZh": "收到強烈投訴後,學校停止嘗試取消午膳時間。",
+      "starter": "After",
+      "answer": "After strong complaints, the school backed off from trying to remove the lunch break.",
+      "answerZh": "收到強烈投訴後,學校不再嘗試取消午膳時間。",
+      "highlight": "backed off from",
+      "targetForm": "back off from doing something",
+      "targetMeaningZh": "停止嘗試做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The café’s rear wall faces a quiet canal.",
+      "promptZh": "咖啡店的後牆面向一條寧靜的運河。",
+      "starter": "The",
+      "answer": "The café backs onto a quiet canal.",
+      "answerZh": "咖啡店後方連接一條寧靜的運河。",
+      "highlight": "café backs onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The coach refused to withdraw his demand for another practice session.",
+      "promptZh": "教練拒絕撤回加開一次練習的要求。",
+      "starter": "The",
+      "answer": "The coach refused to back down on his demand for another practice session.",
+      "answerZh": "教練拒絕在加開一次練習的要求上讓步。",
+      "highlight": "back down on",
+      "targetForm": "back down on something",
+      "targetMeaningZh": "放棄要求;讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The council says it will not abandon the new safety checks merely because they are unpopular.",
+      "promptZh": "市議會表示,不會只因新的安全檢查不受歡迎便放棄。",
+      "starter": "The",
+      "answer": "The council says it will not back away from the new safety checks merely because they are unpopular.",
+      "answerZh": "市議會表示,不會只因新的安全檢查不受歡迎便退縮。",
+      "highlight": "back away from",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "因壓力而放棄某事"
+    },
+    {
+      "id": "phrasal-verb-139-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The larger boys stopped bothering Arun when a teacher arrived.",
+      "promptZh": "老師到場時,那幾名較高大的男孩停止騷擾阿倫。",
+      "starter": "The",
+      "answer": "The larger boys backed off when a teacher arrived.",
+      "answerZh": "老師到場時,那幾名較高大的男孩便退開了。",
+      "highlight": "backed off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止威嚇或騷擾"
+    },
+    {
+      "id": "phrasal-verb-139-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Before the update, make copies of your contacts and photos.",
+      "promptZh": "更新前,先備份你的聯絡人和照片。",
+      "starter": "Before",
+      "answer": "Before the update, back up your contacts and photos.",
+      "answerZh": "更新前,先備份你的聯絡人和照片。",
+      "highlight": "back up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Nora moved the car backwards so the ambulance could pass.",
+      "promptZh": "諾拉把車向後移,讓救護車通過。",
+      "starter": "Nora",
+      "answer": "Nora backed the car up so the ambulance could pass.",
+      "answerZh": "諾拉把車向後移,讓救護車通過。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The roadworks caused buses to queue all the way to the station.",
+      "promptZh": "道路工程令巴士一直排隊至車站。",
+      "starter": "The",
+      "answer": "The roadworks backed buses up all the way to the station.",
+      "answerZh": "道路工程令巴士一直排隊至車站。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使交通擠塞"
+    },
+    {
+      "id": "phrasal-verb-139-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The child reached for the bee, then quickly moved backwards from it.",
+      "promptZh": "孩子伸手碰那隻蜜蜂,然後迅速向後退開。",
+      "starter": "The",
+      "answer": "The child reached for the bee, then quickly backed away from it.",
+      "answerZh": "孩子伸手碰那隻蜜蜂,然後迅速向後退開。",
+      "highlight": "backed away",
+      "targetForm": "back away from something",
+      "targetMeaningZh": "向後退離某物"
+    },
+    {
+      "id": "phrasal-verb-139-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Did the company finally give up its position and agree to refund the money?",
+      "promptZh": "公司最後有沒有放棄原有立場,同意退款?",
+      "starter": "Did",
+      "answer": "Did the company finally back down and agree to refund the money?",
+      "answerZh": "公司最後有沒有讓步,同意退款?",
+      "highlight": "back down",
+      "targetForm": "back down",
+      "targetMeaningZh": "放棄立場;讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The group reduced its demand for a later closing time after the vote.",
+      "promptZh": "投票後,該小組降低了延遲關門時間的要求。",
+      "starter": "The",
+      "answer": "The group backed off its demand for a later closing time after the vote.",
+      "answerZh": "投票後,該小組降低了延遲關門時間的要求。",
+      "highlight": "backed off",
+      "targetForm": "back off something",
+      "targetMeaningZh": "降低或放棄某項要求"
+    },
+    {
+      "id": "phrasal-verb-139-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The new flats will have the railway line directly behind them.",
+      "promptZh": "新建住宅後方將直接連接鐵路線。",
+      "starter": "The",
+      "answer": "The new flats will back onto the railway line.",
+      "answerZh": "新建住宅後方將直接連接鐵路線。",
+      "highlight": "back onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Jules promised to organise the games, but later refused to do it.",
+      "promptZh": "朱爾斯答應籌辦遊戲,但後來反悔了。",
+      "starter": "Jules",
+      "answer": "Jules backed out of organising the games after promising to do it.",
+      "answerZh": "朱爾斯答應籌辦遊戲後,卻反悔退出。",
+      "highlight": "backed out of organising",
+      "targetForm": "back out of doing something",
+      "targetMeaningZh": "退出已答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The task became more difficult, but the team refused to stop testing the safer design.",
+      "promptZh": "工作變得更困難,但團隊拒絕停止測試較安全的設計。",
+      "starter": "The",
+      "answer": "The task became more difficult, but the team refused to back away from testing the safer design.",
+      "answerZh": "工作變得更困難,但團隊拒絕退縮,繼續測試較安全的設計。",
+      "highlight": "back away from",
+      "targetForm": "back away from doing something",
+      "targetMeaningZh": "因困難而停止做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The cyclist asked for room, and the crowd stopped moving towards him.",
+      "promptZh": "單車手要求大家留點空間,人群便停止向他靠近。",
+      "starter": "The",
+      "answer": "The cyclist asked for room, and the crowd backed off.",
+      "answerZh": "單車手要求大家留點空間,人群便退開了。",
+      "highlight": "backed off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止逼近;退開"
+    },
+    {
+      "id": "phrasal-verb-139-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The restaurant planned to charge for tap water, but stopped the idea after customers complained.",
+      "promptZh": "餐廳原本計劃收取自來水費,但顧客投訴後便停止了這項構思。",
+      "starter": "The",
+      "answer": "The restaurant backed off from its plan to charge for tap water after customers complained.",
+      "answerZh": "顧客投訴後,餐廳不再推行收取自來水費的計劃。",
+      "highlight": "backed off from its plan",
+      "targetForm": "back off from something",
+      "targetMeaningZh": "停止推行某項計劃"
+    },
+    {
+      "id": "phrasal-verb-139-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Everything for the school play had been arranged, but one actor withdrew the night before.",
+      "promptZh": "學校話劇的一切都已安排好,但一名演員在前一晚退出。",
+      "starter": "Everything",
+      "answer": "Everything for the school play had been arranged, but one actor backed out the night before.",
+      "answerZh": "學校話劇的一切都已安排好,但一名演員在前一晚退出。",
+      "highlight": "backed out",
+      "targetForm": "back out",
+      "targetMeaningZh": "退出已安排好的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "A delivery van blocked the entrance, so the driver moved it backwards into an empty space.",
+      "promptZh": "一輛送貨客貨車阻塞入口,所以司機把它倒後駛入一個空位。",
+      "starter": "A",
+      "answer": "A delivery van blocked the entrance, so the driver backed it up into an empty space.",
+      "answerZh": "一輛送貨客貨車阻塞入口,所以司機把它倒後駛入一個空位。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    },
+    {
+      "id": "phrasal-verb-139-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Both teams argued for an hour, but neither was willing to give up its position.",
+      "promptZh": "兩隊爭論了一小時,但雙方都不願放棄立場。",
+      "starter": "Both",
+      "answer": "Both teams argued for an hour, but neither was willing to back down.",
+      "answerZh": "兩隊爭論了一小時,但雙方都不願讓步。",
+      "highlight": "back down",
+      "targetForm": "back down",
+      "targetMeaningZh": "放棄立場;讓步"
+    },
+    {
+      "id": "phrasal-verb-139-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The family chose the flat because its rear rooms face a large park.",
+      "promptZh": "這個家庭選擇該單位,因為其後方房間面向一個大型公園。",
+      "starter": "The",
+      "answer": "The family chose the flat because it backs onto a large park.",
+      "answerZh": "這個家庭選擇該單位,因為其後方連接一個大型公園。",
+      "highlight": "it backs onto",
+      "targetForm": "back onto something",
+      "targetMeaningZh": "後方與某處相連"
+    },
+    {
+      "id": "phrasal-verb-139-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The teacher doubted Sam’s story until three classmates confirmed it.",
+      "promptZh": "老師起初懷疑森姆的說法,直至三名同學證實了他的說法。",
+      "starter": "The",
+      "answer": "The teacher doubted Sam’s story until three classmates backed him up.",
+      "answerZh": "老師起初懷疑森姆的說法,直至三名同學支持並證實了他的說法。",
+      "highlight": "backed him up",
+      "targetForm": "back somebody up",
+      "targetMeaningZh": "支持某人或證實其說法"
+    },
+    {
+      "id": "phrasal-verb-139-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "One lane closed during rush hour, causing cars to queue far beyond the bridge.",
+      "promptZh": "繁忙時間有一條行車線封閉,令車龍延伸至大橋很遠之外。",
+      "starter": "One",
+      "answer": "One lane closed during rush hour, causing cars to back up far beyond the bridge.",
+      "answerZh": "繁忙時間有一條行車線封閉,令車龍延伸至大橋很遠之外。",
+      "highlight": "back up",
+      "targetForm": "back up",
+      "targetMeaningZh": "車輛排成長龍"
+    },
+    {
+      "id": "phrasal-verb-139-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "If you are changing computers, make a copy of your work before moving anything.",
+      "promptZh": "如果你要更換電腦,搬移任何資料前先備份工作檔案。",
+      "starter": "If",
+      "answer": "If you are changing computers, back up your work before moving anything.",
+      "answerZh": "如果你要更換電腦,搬移任何資料前先備份工作檔案。",
+      "highlight": "back up",
+      "targetForm": "back something up",
+      "targetMeaningZh": "備份數碼資料"
+    },
+    {
+      "id": "phrasal-verb-139-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The animal did not attack, but we still moved backwards when it came nearer.",
+      "promptZh": "那隻動物沒有攻擊,但牠走近時,我們仍向後退。",
+      "starter": "The",
+      "answer": "The animal did not attack, but we still backed away when it came nearer.",
+      "answerZh": "那隻動物沒有攻擊,但牠走近時,我們仍向後退。",
+      "highlight": "backed away",
+      "targetForm": "back away",
+      "targetMeaningZh": "向後退開"
+    },
+    {
+      "id": "phrasal-verb-139-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Even after the first test failed, the students did not stop trying to improve the robot.",
+      "promptZh": "即使第一次測試失敗,學生仍沒有停止嘗試改良機械人。",
+      "starter": "Even",
+      "answer": "Even after the first test failed, the students did not back away from trying to improve the robot.",
+      "answerZh": "即使第一次測試失敗,學生仍沒有退縮,繼續嘗試改良機械人。",
+      "highlight": "back away from",
+      "targetForm": "back away from doing something",
+      "targetMeaningZh": "因困難而停止做某事"
+    },
+    {
+      "id": "phrasal-verb-139-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The reporter kept asking personal questions until the singer told him to stop.",
+      "promptZh": "記者不斷追問私人問題,直至歌手叫他停止。",
+      "starter": "The",
+      "answer": "The reporter kept asking personal questions until the singer told him to back off.",
+      "answerZh": "記者不斷追問私人問題,直至歌手叫他別再逼問。",
+      "highlight": "back off",
+      "targetForm": "back off",
+      "targetMeaningZh": "停止逼迫或干涉"
+    },
+    {
+      "id": "phrasal-verb-139-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The company wanted all staff to work Sundays, but it reduced the plan after a meeting.",
+      "promptZh": "公司原本希望所有員工星期日上班,但會議後縮減了計劃。",
+      "starter": "The",
+      "answer": "The company wanted all staff to work Sundays, but it backed off from the plan after a meeting.",
+      "answerZh": "公司原本希望所有員工星期日上班,但會議後縮減了計劃。",
+      "highlight": "backed off from",
+      "targetForm": "back off from something",
+      "targetMeaningZh": "停止或減少推行某事"
+    },
+    {
+      "id": "phrasal-verb-139-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Sana had agreed to sell cakes at the fair, but she later withdrew from doing it.",
+      "promptZh": "薩娜已答應在市集售賣蛋糕,但後來反悔退出。",
+      "starter": "Sana",
+      "answer": "Sana had agreed to sell cakes at the fair, but she later backed out of doing it.",
+      "answerZh": "薩娜已答應在市集售賣蛋糕,但後來反悔退出。",
+      "highlight": "backed out of",
+      "targetForm": "back out of doing something",
+      "targetMeaningZh": "退出已答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-139-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The bus was too close to the wall, so the driver moved it backwards by two metres.",
+      "promptZh": "巴士太接近牆壁,所以司機把它向後移了兩米。",
+      "starter": "The",
+      "answer": "The bus was too close to the wall, so the driver backed it up by two metres.",
+      "answerZh": "巴士太接近牆壁,所以司機把它向後移了兩米。",
+      "highlight": "backed",
+      "targetForm": "back something up",
+      "targetMeaningZh": "使某物向後移動"
+    }
+  ]
+}

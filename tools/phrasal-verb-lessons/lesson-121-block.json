@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-121",
+  "order": 121,
+  "slug": "block",
+  "version": "1",
+  "title": "BLOCK 動詞片語",
+  "titleEn": "Block",
+  "titleZh": "BLOCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 120 - BLOCK.pdf",
+    "sourceNumber": 120,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BLOCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BLOCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BLOCK",
+      "highlight": "BLOCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The red van blocked our neighbour’s car in.",
+      "zh": "那輛紅色客貨車阻住了鄰居的汽車,令它無法駛離。",
+      "highlight": "blocked our neighbour’s car in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tried to block the painful memory out of his mind.",
+      "zh": "他嘗試不再想起那段痛苦的回憶。",
+      "highlight": "block the painful memory out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Staff blocked off the damaged room.",
+      "zh": "職員封鎖了受損的房間。",
+      "highlight": "blocked off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人或某車輛阻住,令其無法離開；刻意不去想某人或某件不愉快的事；封鎖道路、入口或地方,阻止人進入或通過；擋住光線或視線；堵塞或封住洞口、管道或入口",
+    "en": "block somebody/something in; block somebody/something out / block somebody/something out of something; block something off; block something out; block something up",
+    "naturalZh": [
+      "把某人或某車輛阻住,令其無法離開",
+      "刻意不去想某人或某件不愉快的事",
+      "封鎖道路、入口或地方,阻止人進入或通過",
+      "擋住光線或視線",
+      "堵塞或封住洞口、管道或入口"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "block somebody/something in",
+      "titleZh": "把某人或某車輛阻住,令其無法離開",
+      "titleEn": "block somebody/something in",
+      "descriptionZh": "把某人或某車輛阻住,令其無法離開",
+      "descriptionEn": "The red van blocked our neighbour’s car in.",
+      "examples": [
+        {
+          "en": "The red van blocked our neighbour’s car in.",
+          "zh": "那輛紅色客貨車阻住了鄰居的汽車,令它無法駛離。",
+          "highlight": "blocked our neighbour’s car in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "block somebody/something out / block somebody/something out of something",
+      "titleZh": "刻意不去想某人或某件不愉快的事",
+      "titleEn": "block somebody/something out / block somebody/something out of something",
+      "descriptionZh": "刻意不去想某人或某件不愉快的事",
+      "descriptionEn": "He tried to block the painful memory out of his mind.",
+      "examples": [
+        {
+          "en": "He tried to block the painful memory out of his mind.",
+          "zh": "他嘗試不再想起那段痛苦的回憶。",
+          "highlight": "block the painful memory out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "block something off",
+      "titleZh": "封鎖道路、入口或地方,阻止人進入或通過",
+      "titleEn": "block something off",
+      "descriptionZh": "封鎖道路、入口或地方,阻止人進入或通過",
+      "descriptionEn": "Staff blocked off the damaged room.",
+      "examples": [
+        {
+          "en": "Staff blocked off the damaged room.",
+          "zh": "職員封鎖了受損的房間。",
+          "highlight": "blocked off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "block something out",
+      "titleZh": "擋住光線或視線",
+      "titleEn": "block something out",
+      "descriptionZh": "擋住光線或視線",
+      "descriptionEn": "The wide hat blocked out the bright light.",
+      "examples": [
+        {
+          "en": "The wide hat blocked out the bright light.",
+          "zh": "那頂闊邊帽擋住了強光。",
+          "highlight": "blocked out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "block something up",
+      "titleZh": "堵塞或封住洞口、管道或入口",
+      "titleEn": "block something up",
+      "descriptionZh": "堵塞或封住洞口、管道或入口",
+      "descriptionEn": "They blocked up the unused chimney.",
+      "examples": [
+        {
+          "en": "They blocked up the unused chimney.",
+          "zh": "他們封住了已停用的煙囪。",
+          "highlight": "blocked up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BLOCK 片語動詞的實際用途",
+    "labelEn": "BLOCK Phrasal Verbs in Use",
+    "summaryZh": "block in 可用來說明車輛或某人為何無法離開。；block off 可用來談論因安全理由而封閉的道路、小徑、房間等地方。；它可表示擋住光線或視線,也可表示嘗試不去想某人或某事。；block up 可用來描述被堵塞或封住的管道、洞口、窗戶或門口。",
+    "summaryEn": "Block in helps you explain why a car or person cannot leave. Block off helps you talk about roads, paths, rooms and other places that are closed for safety. It can describe keeping light or a view away, or trying not to think about someone or something. Block up helps you describe a pipe, hole, window or doorway that has been filled or closed.",
+    "contextsZh": [
+      "清楚說明泊車或受困問題",
+      "描述安全封鎖安排",
+      "掌握 block out 的兩個實用意思",
+      "說明孔洞或通道為何無法使用"
+    ],
+    "contextsEn": [
+      "Explain parking problems clearly",
+      "Describe safety closures",
+      "Use block out for two useful ideas",
+      "Explain why an opening cannot be used"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BLOCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BLOCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "block somebody/something in",
+    "fixedHighlight": "block somebody/something in",
+    "fixedZh": "閱讀整句,選出意思相同的 BLOCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BLOCK expression that gives the same meaning.",
+    "correct": "blocked our neighbour’s car in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；block out 有兩個不同用法。它可以表示令自己不去想某事,也可以表示擋住光線或視線。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: block him in block it off block it out block it up Block out has two different uses. It can mean stopping yourself from thinking about something, or stopping light or a view. Read the full situation carefully.",
+    "variableItemsZh": [
+      "block somebody/something in",
+      "block somebody/something out / block somebody/something out of something",
+      "block something off",
+      "block something out",
+      "block something up"
+    ],
+    "variableItemsEn": [
+      "block somebody/something in",
+      "block somebody/something out / block somebody/something out of something",
+      "block something off",
+      "block something out",
+      "block something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人或某車輛阻住,令其無法離開",
+        "formEn": "block somebody/something in",
+        "exampleZh": "那輛紅色客貨車阻住了鄰居的汽車,令它無法駛離。",
+        "exampleEn": "The red van blocked our neighbour’s car in.",
+        "highlight": "blocked our neighbour’s car in"
+      },
+      {
+        "formZh": "刻意不去想某人或某件不愉快的事",
+        "formEn": "block somebody/something out / block somebody/something out of something",
+        "exampleZh": "他嘗試不再想起那段痛苦的回憶。",
+        "exampleEn": "He tried to block the painful memory out of his mind.",
+        "highlight": "block the painful memory out"
+      },
+      {
+        "formZh": "封鎖道路、入口或地方,阻止人進入或通過",
+        "formEn": "block something off",
+        "exampleZh": "職員封鎖了受損的房間。",
+        "exampleEn": "Staff blocked off the damaged room.",
+        "highlight": "blocked off"
+      },
+      {
+        "formZh": "擋住光線或視線",
+        "formEn": "block something out",
+        "exampleZh": "那頂闊邊帽擋住了強光。",
+        "exampleEn": "The wide hat blocked out the bright light.",
+        "highlight": "blocked out"
+      },
+      {
+        "formZh": "堵塞或封住洞口、管道或入口",
+        "formEn": "block something up",
+        "exampleZh": "他們封住了已停用的煙囪。",
+        "exampleEn": "They blocked up the unused chimney.",
+        "highlight": "blocked up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人或某車輛阻住,令其無法離開",
+      "titleEn": "block somebody/something in",
+      "formula": "block somebody/something in",
+      "highlight": "block somebody/something in",
+      "descriptionZh": "把某人或某車輛阻住,令其無法離開",
+      "descriptionEn": "The red van blocked our neighbour’s car in.",
+      "examples": [
+        {
+          "en": "The red van blocked our neighbour’s car in.",
+          "zh": "那輛紅色客貨車阻住了鄰居的汽車,令它無法駛離。",
+          "highlight": "blocked our neighbour’s car in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "刻意不去想某人或某件不愉快的事",
+      "titleEn": "block somebody/something out / block somebody/something out of something",
+      "formula": "block somebody/something out / block somebody/something out of something",
+      "highlight": "block somebody/something out / block somebody/something out of something",
+      "descriptionZh": "刻意不去想某人或某件不愉快的事",
+      "descriptionEn": "He tried to block the painful memory out of his mind.",
+      "examples": [
+        {
+          "en": "He tried to block the painful memory out of his mind.",
+          "zh": "他嘗試不再想起那段痛苦的回憶。",
+          "highlight": "block the painful memory out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "封鎖道路、入口或地方,阻止人進入或通過",
+      "titleEn": "block something off",
+      "formula": "block something off",
+      "highlight": "block something off",
+      "descriptionZh": "封鎖道路、入口或地方,阻止人進入或通過",
+      "descriptionEn": "Staff blocked off the damaged room.",
+      "examples": [
+        {
+          "en": "Staff blocked off the damaged room.",
+          "zh": "職員封鎖了受損的房間。",
+          "highlight": "blocked off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "擋住光線或視線",
+      "titleEn": "block something out",
+      "formula": "block something out",
+      "highlight": "block something out",
+      "descriptionZh": "擋住光線或視線",
+      "descriptionEn": "The wide hat blocked out the bright light.",
+      "examples": [
+        {
+          "en": "The wide hat blocked out the bright light.",
+          "zh": "那頂闊邊帽擋住了強光。",
+          "highlight": "blocked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "堵塞或封住洞口、管道或入口",
+      "titleEn": "block something up",
+      "formula": "block something up",
+      "highlight": "block something up",
+      "descriptionZh": "堵塞或封住洞口、管道或入口",
+      "descriptionEn": "They blocked up the unused chimney.",
+      "examples": [
+        {
+          "en": "They blocked up the unused chimney.",
+          "zh": "他們封住了已停用的煙囪。",
+          "highlight": "blocked up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明泊車或受困問題",
+      "titleEn": "Explain parking problems clearly",
+      "zh": "block in 可用來說明車輛或某人為何無法離開。",
+      "en": "Block in helps you explain why a car or person cannot leave."
+    },
+    {
+      "titleZh": "描述安全封鎖安排",
+      "titleEn": "Describe safety closures",
+      "zh": "block off 可用來談論因安全理由而封閉的道路、小徑、房間等地方。",
+      "en": "Block off helps you talk about roads, paths, rooms and other places that are closed for safety."
+    },
+    {
+      "titleZh": "掌握 block out 的兩個實用意思",
+      "titleEn": "Use block out for two useful ideas",
+      "zh": "它可表示擋住光線或視線,也可表示嘗試不去想某人或某事。",
+      "en": "It can describe keeping light or a view away, or trying not to think about someone or something."
+    },
+    {
+      "titleZh": "說明孔洞或通道為何無法使用",
+      "titleEn": "Explain why an opening cannot be used",
+      "zh": "block up 可用來描述被堵塞或封住的管道、洞口、窗戶或門口。",
+      "en": "Block up helps you describe a pipe, hole, window or doorway that has been filled or closed."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明泊車或受困問題",
+      "描述安全封鎖安排",
+      "掌握 block out 的兩個實用意思",
+      "說明孔洞或通道為何無法使用"
+    ],
+    "contextsEn": [
+      "Explain parking problems clearly",
+      "Describe safety closures",
+      "Use block out for two useful ideas",
+      "Explain why an opening cannot be used"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明泊車或受困問題",
+        "titleEn": "Explain parking problems clearly",
+        "zh": "block in 可用來說明車輛或某人為何無法離開。",
+        "en": "Block in helps you explain why a car or person cannot leave.",
+        "examples": [
+          {
+            "en": "The red van blocked our neighbour’s car in.",
+            "zh": "那輛紅色客貨車阻住了鄰居的汽車,令它無法駛離。",
+            "highlight": "blocked our neighbour’s car in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述安全封鎖安排",
+        "titleEn": "Describe safety closures",
+        "zh": "block off 可用來談論因安全理由而封閉的道路、小徑、房間等地方。",
+        "en": "Block off helps you talk about roads, paths, rooms and other places that are closed for safety.",
+        "examples": [
+          {
+            "en": "He tried to block the painful memory out of his mind.",
+            "zh": "他嘗試不再想起那段痛苦的回憶。",
+            "highlight": "block the painful memory out"
+          }
+        ]
+      },
+      {
+        "titleZh": "掌握 block out 的兩個實用意思",
+        "titleEn": "Use block out for two useful ideas",
+        "zh": "它可表示擋住光線或視線,也可表示嘗試不去想某人或某事。",
+        "en": "It can describe keeping light or a view away, or trying not to think about someone or something.",
+        "examples": [
+          {
+            "en": "Staff blocked off the damaged room.",
+            "zh": "職員封鎖了受損的房間。",
+            "highlight": "blocked off"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明孔洞或通道為何無法使用",
+        "titleEn": "Explain why an opening cannot be used",
+        "zh": "block up 可用來描述被堵塞或封住的管道、洞口、窗戶或門口。",
+        "en": "Block up helps you describe a pipe, hole, window or doorway that has been filled or closed.",
+        "examples": [
+          {
+            "en": "The wide hat blocked out the bright light.",
+            "zh": "那頂闊邊帽擋住了強光。",
+            "highlight": "blocked out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BLOCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BLOCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BLOCK 片語動詞。",
+      "en": "Read the whole sentence and choose the BLOCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: block him in block it off block it out block it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: block him in block it off block it out block it up"
+    },
+    {
+      "titleZh": "block out 有兩個不同用法。它可以表示令自己不去想某事,也可以表示擋住光線或視線。請仔細閱讀整個情境。",
+      "titleEn": "Block out has two different uses.",
+      "zh": "block out 有兩個不同用法。它可以表示令自己不去想某事,也可以表示擋住光線或視線。請仔細閱讀整個情境。",
+      "en": "Block out has two different uses. It can mean stopping yourself from thinking about something, or stopping light or a view. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BLOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BLOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BLOCK 動詞片語句子改寫練習",
+    "titleEn": "BLOCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BLOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BLOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-121-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "A delivery van was parked behind our car, so we could not drive away.",
+      "promptZh": "一輛送貨車停在我們的汽車後面,令我們無法駛離。",
+      "starter": "A",
+      "answer": "A delivery van blocked our car in, so we could not drive away.",
+      "answerZh": "一輛送貨車阻住了我們的汽車,令我們無法駛離。",
+      "highlight": "blocked",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The police closed the road so nobody could use it.",
+      "promptZh": "警方封閉了道路,令任何人都不能使用。",
+      "starter": "The",
+      "answer": "The police blocked off the road so nobody could use it.",
+      "answerZh": "警方封鎖了道路,令任何人都不能使用。",
+      "highlight": "blocked off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方,阻止人進入或通過"
+    },
+    {
+      "id": "phrasal-verb-121-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The thick clouds hid most of the sunlight.",
+      "promptZh": "厚厚的雲層遮住了大部分陽光。",
+      "starter": "The",
+      "answer": "The thick clouds blocked out most of the sunlight.",
+      "answerZh": "厚厚的雲層擋住了大部分陽光。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線或視線"
+    },
+    {
+      "id": "phrasal-verb-121-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leaves filled the drain, so the water could not flow away.",
+      "promptZh": "樹葉堵塞了去水渠,令水無法流走。",
+      "starter": "Leaves",
+      "answer": "Leaves blocked up the drain, so the water could not flow away.",
+      "answerZh": "樹葉堵塞了去水渠,令水無法流走。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住管道或開口"
+    },
+    {
+      "id": "phrasal-verb-121-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Your car is stopping the blue car from leaving its space.",
+      "promptZh": "你的汽車阻礙那輛藍色汽車離開泊位。",
+      "starter": "Your",
+      "answer": "Your car is blocking the blue car in, so it cannot leave its space.",
+      "answerZh": "你的汽車阻住了那輛藍色汽車,令它無法離開泊位。",
+      "highlight": "blocking",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He tried not to think about the frightening accident.",
+      "promptZh": "他嘗試不去想那宗令人害怕的意外。",
+      "starter": "He",
+      "answer": "He tried to block the frightening accident out of his mind.",
+      "answerZh": "他嘗試不再想起那宗令人害怕的意外。",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Workers closed the area around the broken lift with barriers.",
+      "promptZh": "工人用圍欄封閉了故障升降機附近的地方。",
+      "starter": "Workers",
+      "answer": "Workers blocked off the area around the broken lift with barriers.",
+      "answerZh": "工人用圍欄封鎖了故障升降機附近的地方。",
+      "highlight": "blocked off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方,阻止人進入"
+    },
+    {
+      "id": "phrasal-verb-121-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "This tall fence stops us from seeing the sea.",
+      "promptZh": "這道高高的圍欄令我們看不到大海。",
+      "starter": "This",
+      "answer": "This tall fence blocks out our view of the sea.",
+      "answerZh": "這道高高的圍欄擋住了我們看海的視線。",
+      "highlight": "blocks out our view of",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線或視線"
+    },
+    {
+      "id": "phrasal-verb-121-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The builders filled the old doorway with bricks.",
+      "promptZh": "建築工人用磚塊封住了舊門口。",
+      "starter": "The",
+      "answer": "The builders blocked up the old doorway with bricks.",
+      "answerZh": "建築工人用磚塊封住了舊門口。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住入口"
+    },
+    {
+      "id": "phrasal-verb-121-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nina stopped herself from thinking about the bad dream.",
+      "promptZh": "妮娜令自己不再去想那個噩夢。",
+      "starter": "Nina",
+      "answer": "Nina blocked the bad dream out of her mind.",
+      "answerZh": "妮娜令自己不再去想那個噩夢。",
+      "highlight": "blocked",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Two vans stopped the bus from leaving the car park.",
+      "promptZh": "兩輛客貨車阻礙巴士離開停車場。",
+      "starter": "Two",
+      "answer": "Two vans blocked the bus in, so it could not leave the car park.",
+      "answerZh": "兩輛客貨車阻住了巴士,令它無法離開停車場。",
+      "highlight": "blocked",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "She closed the curtains to stop the morning light entering the room.",
+      "promptZh": "她拉上窗簾,阻止早上的光線照進房間。",
+      "starter": "She",
+      "answer": "She closed the curtains to block out the morning light.",
+      "answerZh": "她拉上窗簾,擋住早上的光線。",
+      "highlight": "block out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I am trying not to think about the argument.",
+      "promptZh": "我正嘗試不去想那場爭執。",
+      "starter": "I",
+      "answer": "I am trying to block the argument out of my mind.",
+      "answerZh": "我正嘗試不再去想那場爭執。",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The small air hole has been filled with dust.",
+      "promptZh": "細小的通風孔已被灰塵堵塞。",
+      "starter": "The",
+      "answer": "The small air hole has been blocked up with dust.",
+      "answerZh": "細小的通風孔已被灰塵堵塞。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住孔洞"
+    },
+    {
+      "id": "phrasal-verb-121-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Is that taxi stopping our car from leaving?",
+      "promptZh": "那輛的士是否阻礙我們的汽車離開?",
+      "starter": "Is",
+      "answer": "Is that taxi blocking our car in?",
+      "answerZh": "那輛的士是否阻住了我們的汽車?",
+      "highlight": "blocking",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The school will close the back gate during the repairs.",
+      "promptZh": "學校會在維修期間封閉後門。",
+      "starter": "The",
+      "answer": "The school will block off the back gate during the repairs.",
+      "answerZh": "學校會在維修期間封閉後門。",
+      "highlight": "block off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖入口或地方"
+    },
+    {
+      "id": "phrasal-verb-121-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The smoke is stopping us from seeing the stage.",
+      "promptZh": "煙霧令我們看不到舞台。",
+      "starter": "The",
+      "answer": "The smoke is blocking out our view of the stage.",
+      "answerZh": "煙霧正擋住我們看舞台的視線。",
+      "highlight": "blocking out our view of",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住視線"
+    },
+    {
+      "id": "phrasal-verb-121-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Mud is filling the pipe and stopping the water from flowing.",
+      "promptZh": "泥濘正在堵塞管道,令水無法流動。",
+      "starter": "Mud",
+      "answer": "Mud is blocking up the pipe and stopping the water from flowing.",
+      "answerZh": "泥濘正在堵塞管道,令水無法流動。",
+      "highlight": "blocking up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞管道"
+    },
+    {
+      "id": "phrasal-verb-121-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "You cannot simply stop yourself from thinking about every painful memory.",
+      "promptZh": "你不能輕易令自己不去想每一段痛苦的回憶。",
+      "starter": "You",
+      "answer": "You cannot simply block every painful memory out of your mind.",
+      "answerZh": "你不能輕易把每一段痛苦的回憶排除在腦海之外。",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Part of the park has been closed because a tree fell.",
+      "promptZh": "公園的一部分因有樹木倒下而被封閉。",
+      "starter": "Part",
+      "answer": "Part of the park has been blocked off because a tree fell.",
+      "answerZh": "公園的一部分因有樹木倒下而被封鎖。",
+      "highlight": "blocked off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A large lorry has parked across the exit and trapped three cars.",
+      "promptZh": "一輛大型貨車停在出口前,令三輛汽車無法離開。",
+      "starter": "A",
+      "answer": "A large lorry has parked across the exit and blocked three cars in.",
+      "answerZh": "一輛大型貨車停在出口前,阻住了三輛汽車。",
+      "highlight": "blocked",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why is Leo trying not to think about yesterday’s mistake?",
+      "promptZh": "里奧為何嘗試不去想昨天的錯誤?",
+      "starter": "Why",
+      "answer": "Why is Leo trying to block yesterday’s mistake out of his mind?",
+      "answerZh": "里奧為何嘗試不再去想昨天的錯誤?",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We must fill the hole in the wall before winter.",
+      "promptZh": "我們必須在冬天前封住牆上的洞。",
+      "starter": "We",
+      "answer": "We must block up the hole in the wall before winter.",
+      "answerZh": "我們必須在冬天前封住牆上的洞。",
+      "highlight": "block up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住洞口"
+    },
+    {
+      "id": "phrasal-verb-121-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Most of the sunlight was hidden by the large sign.",
+      "promptZh": "大部分陽光被那塊大型招牌擋住了。",
+      "starter": "Most",
+      "answer": "Most of the sunlight was blocked out by the large sign.",
+      "answerZh": "大部分陽光被那塊大型招牌擋住了。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The floor is wet, so please close this area with the chairs.",
+      "promptZh": "地面濕滑,請用椅子封閉這個範圍。",
+      "starter": "The",
+      "answer": "The floor is wet, so please block it off with the chairs.",
+      "answerZh": "地面濕滑,請用椅子封鎖這個範圍。",
+      "highlight": "block it off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "This van is stopping us from driving away.",
+      "promptZh": "這輛客貨車令我們無法駛離。",
+      "starter": "This",
+      "answer": "This van is blocking us in.",
+      "answerZh": "這輛客貨車正阻住我們,令我們無法離開。",
+      "highlight": "blocking",
+      "targetForm": "block somebody in",
+      "targetMeaningZh": "阻住某人,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The memory kept returning, but she tried not to think about it.",
+      "promptZh": "那段回憶不斷出現,但她嘗試不去想它。",
+      "starter": "The",
+      "answer": "The memory kept returning, but she tried to block it out.",
+      "answerZh": "那段回憶不斷出現,但她嘗試不再去想它。",
+      "highlight": "block",
+      "targetForm": "block something out",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The gap under the door lets cold air in, so we should fill it.",
+      "promptZh": "門下的空隙讓冷空氣進入,所以我們應該把它封住。",
+      "starter": "The",
+      "answer": "The gap under the door lets cold air in, so we should block it up.",
+      "answerZh": "門下的空隙讓冷空氣進入,所以我們應該把它封住。",
+      "highlight": "block",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住開口"
+    },
+    {
+      "id": "phrasal-verb-121-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The light was too bright, so I used my hand to stop it reaching my eyes.",
+      "promptZh": "光線太強,所以我用手擋住它,不讓它照進眼睛。",
+      "starter": "The",
+      "answer": "The light was too bright, so I used my hand to block it out.",
+      "answerZh": "光線太強,所以我用手把它擋住。",
+      "highlight": "block",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why did the staff close the stairs with a rope?",
+      "promptZh": "職員為何用繩子封閉樓梯?",
+      "starter": "Why",
+      "answer": "Why did the staff block off the stairs with a rope?",
+      "answerZh": "職員為何用繩子封鎖樓梯?",
+      "highlight": "block off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖道路、入口或地方"
+    },
+    {
+      "id": "phrasal-verb-121-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "By the time we returned, a coach parked behind our car had trapped it.",
+      "promptZh": "我們回來時,一輛停在後面的旅遊巴已令我們的汽車無法離開。",
+      "starter": "By",
+      "answer": "By the time we returned, our car had been blocked in by a coach parked behind it.",
+      "answerZh": "我們回來時,一輛停在後面的旅遊巴已阻住我們的汽車。",
+      "highlight": "our car had been blocked in by",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "For years, he had stopped himself from thinking about that painful day.",
+      "promptZh": "多年來,他一直令自己不去想那個痛苦的日子。",
+      "starter": "For",
+      "answer": "For years, he had blocked that painful day out of his mind.",
+      "answerZh": "多年來,他一直令自己不去想那個痛苦的日子。",
+      "highlight": "blocked",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Firefighters closed the narrow street to keep people away.",
+      "promptZh": "消防員封閉了狹窄的街道,不讓人們接近。",
+      "starter": "Firefighters",
+      "answer": "Firefighters blocked the narrow street off to keep people away.",
+      "answerZh": "消防員封鎖了狹窄的街道,不讓人們接近。",
+      "highlight": "blocked",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The workers filled every unused window with wood.",
+      "promptZh": "工人用木板封住每一扇已停用的窗戶。",
+      "starter": "The",
+      "answer": "The workers blocked every unused window up with wood.",
+      "answerZh": "工人用木板封住每一扇已停用的窗戶。",
+      "highlight": "blocked",
+      "targetForm": "block something up",
+      "targetMeaningZh": "封住窗戶或入口"
+    },
+    {
+      "id": "phrasal-verb-121-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The lorry trapped both cars at the back of the yard.",
+      "promptZh": "那輛貨車令兩輛汽車困在院子的後方。",
+      "starter": "The",
+      "answer": "The lorry blocked both cars in at the back of the yard.",
+      "answerZh": "那輛貨車阻住了院子後方的兩輛汽車。",
+      "highlight": "blocked",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The new building completely hid the mountain view.",
+      "promptZh": "新的建築物完全遮住了山景。",
+      "starter": "The",
+      "answer": "The new building blocked out the mountain view completely.",
+      "answerZh": "新的建築物完全遮住了山景。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住視線"
+    },
+    {
+      "id": "phrasal-verb-121-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Closing his eyes stopped the bright light, but it did not stop him thinking about the problem.",
+      "promptZh": "閉上眼睛可以擋住強光,卻無法令他不去想那個問題。",
+      "starter": "Closing",
+      "answer": "Closing his eyes blocked out the bright light, but it did not stop him thinking about the problem.",
+      "answerZh": "閉上眼睛擋住了強光,卻無法令他不去想那個問題。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The workers did not fill the doorway with bricks; they only closed the entrance with a barrier.",
+      "promptZh": "工人沒有用磚塊封住門口;他們只是用圍欄封閉入口。",
+      "starter": "The",
+      "answer": "The workers did not fill the doorway with bricks; they only blocked off the entrance with a barrier.",
+      "answerZh": "工人沒有用磚塊封住門口;他們只是用圍欄封鎖入口。",
+      "highlight": "blocked off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "用障礙物封鎖入口或地方"
+    },
+    {
+      "id": "phrasal-verb-121-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Please move your bike; it is stopping the wheelchair user from leaving.",
+      "promptZh": "請移開你的單車;它正阻礙那名輪椅使用者離開。",
+      "starter": "Please",
+      "answer": "Please move your bike; it is blocking the wheelchair user in.",
+      "answerZh": "請移開你的單車;它正阻住那名輪椅使用者,令他無法離開。",
+      "highlight": "blocking",
+      "targetForm": "block somebody in",
+      "targetMeaningZh": "阻住某人,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Closing her eyes did not help; Priya still needed to stop herself from thinking about the frightening scene.",
+      "promptZh": "閉上眼睛並沒有幫助;普里雅仍需要令自己不去想那個可怕的畫面。",
+      "starter": "Closing",
+      "answer": "Closing her eyes did not help; Priya still needed to block the frightening scene out of her mind.",
+      "answerZh": "閉上眼睛並沒有幫助;普里雅仍需要令自己不去想那個可怕的畫面。",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "They did not use a temporary barrier; they filled the old tunnel entrance with stone.",
+      "promptZh": "他們沒有使用臨時圍欄,而是用石頭封住舊隧道入口。",
+      "starter": "They",
+      "answer": "They did not use a temporary barrier; they blocked up the old tunnel entrance with stone.",
+      "answerZh": "他們沒有使用臨時圍欄,而是用石頭封住舊隧道入口。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住入口"
+    },
+    {
+      "id": "phrasal-verb-121-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The trees were useful in summer because they kept the afternoon sun from reaching the windows.",
+      "promptZh": "那些樹木在夏天很有用,因為它們阻擋了午後陽光照到窗戶。",
+      "starter": "The",
+      "answer": "The trees were useful in summer because they blocked out the afternoon sun.",
+      "answerZh": "那些樹木在夏天很有用,因為它們擋住了午後陽光。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A pipe had burst in the shop. Staff used chairs to stop customers entering that part.",
+      "promptZh": "店內有水管爆裂。職員用椅子阻止顧客進入該範圍。",
+      "starter": "A",
+      "answer": "A pipe had burst in the shop, so staff blocked that part off with chairs.",
+      "answerZh": "店內有水管爆裂,所以職員用椅子封鎖了該範圍。",
+      "highlight": "so",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "During the exam, Jay refused to think about the morning’s argument.",
+      "promptZh": "考試期間,傑拒絕再想起早上的爭執。",
+      "starter": "During",
+      "answer": "During the exam, Jay blocked the morning’s argument out of his mind.",
+      "answerZh": "考試期間,傑令自己不再去想早上的爭執。",
+      "highlight": "blocked",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The small car was ready to leave. A van parked behind it and stopped it.",
+      "promptZh": "那輛小型汽車正準備離開。一輛客貨車停在它後面,令它無法駛離。",
+      "starter": "The",
+      "answer": "The small car was ready to leave, but a van blocked it in.",
+      "answerZh": "那輛小型汽車正準備離開,但一輛客貨車阻住了它。",
+      "highlight": "but",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Why did the family put thick paper over the window? They wanted to stop all light entering.",
+      "promptZh": "那家人為何把厚紙貼在窗戶上?他們想阻止所有光線進入。",
+      "starter": "Why",
+      "answer": "Why did the family put thick paper over the window? They wanted to block out all light.",
+      "answerZh": "那家人為何把厚紙貼在窗戶上?他們想擋住所有光線。",
+      "highlight": "block out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    },
+    {
+      "id": "phrasal-verb-121-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Food waste had filled the sink pipe, and no water could pass through.",
+      "promptZh": "食物殘渣堵塞了洗手盆的水管,令水無法通過。",
+      "starter": "Food",
+      "answer": "Food waste had blocked up the sink pipe, and no water could pass through.",
+      "answerZh": "食物殘渣堵塞了洗手盆的水管,令水無法通過。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞管道"
+    },
+    {
+      "id": "phrasal-verb-121-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After the friendship ended, Hana could not stop thinking about Leo.",
+      "promptZh": "那段友誼結束後,哈娜仍無法令自己不去想里奧。",
+      "starter": "After",
+      "answer": "After the friendship ended, Hana could not block Leo out of her mind.",
+      "answerZh": "那段友誼結束後,哈娜仍無法令自己不去想里奧。",
+      "highlight": "block",
+      "targetForm": "block somebody out of your mind",
+      "targetMeaningZh": "刻意不去想某人"
+    },
+    {
+      "id": "phrasal-verb-121-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "To stop animals getting into the empty building, the owners filled every hole in the wall with strong boards.",
+      "promptZh": "為了阻止動物進入空置建築物,業主用堅固木板封住牆上的每個洞口。",
+      "starter": "To",
+      "answer": "To stop animals getting into the empty building, the owners blocked up every hole in the wall with strong boards.",
+      "answerZh": "為了阻止動物進入空置建築物,業主用堅固木板封住牆上的每個洞口。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住洞口"
+    },
+    {
+      "id": "phrasal-verb-121-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Because glass was falling from the old building, workers closed the pavement until the area was safe.",
+      "promptZh": "由於舊建築物有玻璃掉下,工人封閉了行人路,直至該處安全為止。",
+      "starter": "Because",
+      "answer": "Because glass was falling from the old building, workers blocked off the pavement until the area was safe.",
+      "answerZh": "由於舊建築物有玻璃掉下,工人封鎖了行人路,直至該處安全為止。",
+      "highlight": "blocked off",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why can’t we drive away? That black car is parked across our exit.",
+      "promptZh": "我們為何不能駛離?那輛黑色汽車停在我們的出口前。",
+      "starter": "We",
+      "answer": "We cannot drive away because that black car is blocking us in.",
+      "answerZh": "我們無法駛離,因為那輛黑色汽車正阻住我們。",
+      "highlight": "cannot",
+      "targetForm": "block somebody in",
+      "targetMeaningZh": "阻住某人,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She wanted to enjoy the trip, so she tried hard not to think about the upsetting phone call.",
+      "promptZh": "她想享受旅程,所以努力令自己不去想那通令人不快的電話。",
+      "starter": "She",
+      "answer": "She wanted to enjoy the trip, so she tried hard to block the upsetting phone call out of her mind.",
+      "answerZh": "她想享受旅程,所以努力令自己不去想那通令人不快的電話。",
+      "highlight": "block",
+      "targetForm": "block something out of your mind",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By spring, sand had filled the narrow water channel, so the water could no longer reach the field.",
+      "promptZh": "到了春天,沙泥已堵塞狹窄的水道,令水無法再流到田地。",
+      "starter": "By",
+      "answer": "By spring, the narrow water channel had been blocked up with sand, so the water could no longer reach the field.",
+      "answerZh": "到了春天,狹窄的水道已被沙泥堵塞,令水無法再流到田地。",
+      "highlight": "had been blocked up with sand",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞管道或水道"
+    },
+    {
+      "id": "phrasal-verb-121-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "From our seats, a large speaker stood between us and the screen, so we could not see the lower half.",
+      "promptZh": "從我們的座位望去,一個大型揚聲器擋在我們與屏幕之間,令我們看不到屏幕下半部分。",
+      "starter": "From",
+      "answer": "From our seats, a large speaker blocked out the lower half of the screen.",
+      "answerZh": "從我們的座位望去,一個大型揚聲器擋住了屏幕的下半部分。",
+      "highlight": "blocked out",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住視線"
+    },
+    {
+      "id": "phrasal-verb-121-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The kitchen floor was unsafe after the spill, so the manager used boxes to keep everyone away from it.",
+      "promptZh": "液體濺出後,廚房地面並不安全,所以經理用箱子阻止所有人接近。",
+      "starter": "The",
+      "answer": "The kitchen floor was unsafe after the spill, so the manager blocked it off with boxes.",
+      "answerZh": "液體濺出後,廚房地面並不安全,所以經理用箱子把該處封鎖。",
+      "highlight": "blocked it off with",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖某地方"
+    },
+    {
+      "id": "phrasal-verb-121-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the family returned to the car park, they found that two delivery bikes had made it impossible for their car to leave.",
+      "promptZh": "那家人回到停車場時,發現兩輛送貨單車令他們的汽車無法駛離。",
+      "starter": "When",
+      "answer": "When the family returned to the car park, they found that two delivery bikes had blocked their car in.",
+      "answerZh": "那家人回到停車場時,發現兩輛送貨單車阻住了他們的汽車。",
+      "highlight": "blocked",
+      "targetForm": "block something in",
+      "targetMeaningZh": "阻住某物,令其無法離開"
+    },
+    {
+      "id": "phrasal-verb-121-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The old fireplace was no longer used, so the family filled its opening with bricks before decorating the room.",
+      "promptZh": "舊壁爐已不再使用,所以那家人在裝修房間前用磚塊封住它的開口。",
+      "starter": "The",
+      "answer": "The old fireplace was no longer used, so the family blocked up its opening with bricks before decorating the room.",
+      "answerZh": "舊壁爐已不再使用,所以那家人在裝修房間前用磚塊封住它的開口。",
+      "highlight": "blocked up",
+      "targetForm": "block something up",
+      "targetMeaningZh": "堵塞或封住開口"
+    },
+    {
+      "id": "phrasal-verb-121-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Whenever he remembered the old mistake, Ben focused on his work and tried not to think about it.",
+      "promptZh": "每當賓想起以前的錯誤時,他便專心工作,嘗試不再想它。",
+      "starter": "Whenever",
+      "answer": "Whenever he remembered the old mistake, Ben focused on his work and tried to block it out.",
+      "answerZh": "每當賓想起以前的錯誤時,他便專心工作,嘗試不再去想它。",
+      "highlight": "block",
+      "targetForm": "block something out",
+      "targetMeaningZh": "刻意不去想某事"
+    },
+    {
+      "id": "phrasal-verb-121-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Do not enter the path near the river; staff have closed it while they repair the bridge.",
+      "promptZh": "不要進入河邊的小徑;職員在維修橋樑期間已把它封閉。",
+      "starter": "Do",
+      "answer": "Do not enter the path near the river; staff have blocked it off while they repair the bridge.",
+      "answerZh": "不要進入河邊的小徑;職員在維修橋樑期間已把它封鎖。",
+      "highlight": "blocked",
+      "targetForm": "block something off",
+      "targetMeaningZh": "封鎖道路或地方"
+    },
+    {
+      "id": "phrasal-verb-121-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "As the storm clouds moved across the sky, the room grew dark because almost no sunlight could get through.",
+      "promptZh": "隨着暴風雨雲層橫過天空,幾乎沒有陽光能夠穿過,房間因而變暗。",
+      "starter": "As",
+      "answer": "As the storm clouds moved across the sky, they blocked out almost all the sunlight, and the room grew dark.",
+      "answerZh": "隨着暴風雨雲層橫過天空,它們擋住了幾乎所有陽光,房間因而變暗。",
+      "highlight": "they blocked out almost all the sunlight, and",
+      "targetForm": "block something out",
+      "targetMeaningZh": "擋住光線"
+    }
+  ]
+}

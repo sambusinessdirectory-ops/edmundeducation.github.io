@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-263",
+  "order": 263,
+  "slug": "tick",
+  "version": "1",
+  "title": "TICK 動詞片語",
+  "titleEn": "Tick",
+  "titleZh": "TICK 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 248 - TICK.pdf",
+    "sourceNumber": 248,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TICK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TICK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TICK",
+      "highlight": "TICK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The old clock ticked away the minutes.",
+      "zh": "舊時鐘滴答地走過每一分鐘。",
+      "highlight": "ticked away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The final seconds ticked away.",
+      "zh": "最後幾秒一分一秒地過去。",
+      "highlight": "ticked away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I ticked the finished jobs off the list.",
+      "zh": "我在清單上為已完成的工作打了剔。",
+      "highlight": "ticked the finished jobs off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝；時間逐分逐秒地流逝；在名單上為某人或某項目打剔,表示已點名、完成或處理；車輛停下時,引擎仍以低速運轉",
+    "en": "tick away / tick something away; tick away / tick by / tick past; tick somebody/something off; tick over",
+    "naturalZh": [
+      "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+      "時間逐分逐秒地流逝",
+      "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+      "車輛停下時,引擎仍以低速運轉"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tick away / tick something away",
+      "titleZh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+      "titleEn": "tick away / tick something away",
+      "descriptionZh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+      "descriptionEn": "The old clock ticked away the minutes.",
+      "examples": [
+        {
+          "en": "The old clock ticked away the minutes.",
+          "zh": "舊時鐘滴答地走過每一分鐘。",
+          "highlight": "ticked away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tick away / tick by / tick past",
+      "titleZh": "時間逐分逐秒地流逝",
+      "titleEn": "tick away / tick by / tick past",
+      "descriptionZh": "時間逐分逐秒地流逝",
+      "descriptionEn": "The final seconds ticked away.",
+      "examples": [
+        {
+          "en": "The final seconds ticked away.",
+          "zh": "最後幾秒一分一秒地過去。",
+          "highlight": "ticked away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tick somebody/something off",
+      "titleZh": "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+      "titleEn": "tick somebody/something off",
+      "descriptionZh": "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+      "descriptionEn": "I ticked the finished jobs off the list.",
+      "examples": [
+        {
+          "en": "I ticked the finished jobs off the list.",
+          "zh": "我在清單上為已完成的工作打了剔。",
+          "highlight": "ticked the finished jobs off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tick over",
+      "titleZh": "車輛停下時,引擎仍以低速運轉",
+      "titleEn": "tick over",
+      "descriptionZh": "車輛停下時,引擎仍以低速運轉",
+      "descriptionEn": "The taxi waited outside with its engine ticking over.",
+      "examples": [
+        {
+          "en": "The taxi waited outside with its engine ticking over.",
+          "zh": "的士在外面等候,引擎仍在低速空轉。",
+          "highlight": "ticking over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TICK 片語動詞的實際用途",
+    "labelEn": "TICK Phrasal Verbs in Use",
+    "summaryZh": "tick away 可以描述時鐘在安靜環境中持續發出的規律滴答聲。；當某人正在等候、面對限期或所餘時間不多時,可以使用 tick away、tick by 和 tick past。；tick off 可以描述在核對或完成某人的姓名、工作或其他項目後,在名單上打剔。；tick over 常用來表示車輛停下時,引擎仍然低速運轉。",
+    "summaryEn": "Tick away can describe the regular sound of a clock continuing in a quiet room. Tick away, tick by and tick past are useful when somebody is waiting, facing a deadline or running out of time. Tick off helps you describe marking names, jobs or other items after they have been checked or completed. Tick over commonly appears when people talk about an engine continuing to run while a vehicle is not moving.",
+    "contextsZh": [
+      "清楚描述時鐘和安靜環境中的聲音",
+      "表達時間正在不斷流逝",
+      "談論名單和已完成的工作",
+      "理解與車輛引擎有關的指示"
+    ],
+    "contextsEn": [
+      "Describe clocks and quiet sounds clearly",
+      "Show that time is continuing to pass",
+      "Talk about lists and completed work",
+      "Understand instructions involving vehicle engines"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TICK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TICK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tick away / tick something away",
+    "fixedHighlight": "tick away / tick something away",
+    "fixedZh": "閱讀整句,選出意思相同的 TICK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TICK expression that gives the same meaning.",
+    "correct": "ticked away",
+    "incorrectForms": [],
+    "variableZh": "(時鐘滴答地走過每一分鐘。)The minutes ticked away.(時間一分一秒地過去。)In the first sentence, the clock marks the passing time. In the second, the minutes themselvespass.第一句表示時鐘滴答地記錄時間;第二句則表示分鐘本身正在流逝。；使用 it 或 them 時,把它放在 TICK 和 OFF 中間。；核心表達是 tick over。它可以配合不同句式使用。",
+    "variableEn": "Compare these two uses: The clock ticked away the minutes. When using it or them with tick off, place the word between TICK and OFF: tick it off tick them off The core expression is tick over. It can appear in different sentence forms: let the engine tick over leave the engine ticking over keep the engine ticking over",
+    "variableItemsZh": [
+      "tick away / tick something away",
+      "tick away / tick by / tick past",
+      "tick somebody/something off",
+      "tick over"
+    ],
+    "variableItemsEn": [
+      "tick away / tick something away",
+      "tick away / tick by / tick past",
+      "tick somebody/something off",
+      "tick over"
+    ],
+    "forms": [
+      {
+        "formZh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+        "formEn": "tick away / tick something away",
+        "exampleZh": "舊時鐘滴答地走過每一分鐘。",
+        "exampleEn": "The old clock ticked away the minutes.",
+        "highlight": "ticked away"
+      },
+      {
+        "formZh": "時間逐分逐秒地流逝",
+        "formEn": "tick away / tick by / tick past",
+        "exampleZh": "最後幾秒一分一秒地過去。",
+        "exampleEn": "The final seconds ticked away.",
+        "highlight": "ticked away"
+      },
+      {
+        "formZh": "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+        "formEn": "tick somebody/something off",
+        "exampleZh": "我在清單上為已完成的工作打了剔。",
+        "exampleEn": "I ticked the finished jobs off the list.",
+        "highlight": "ticked the finished jobs off"
+      },
+      {
+        "formZh": "車輛停下時,引擎仍以低速運轉",
+        "formEn": "tick over",
+        "exampleZh": "的士在外面等候,引擎仍在低速空轉。",
+        "exampleEn": "The taxi waited outside with its engine ticking over.",
+        "highlight": "ticking over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+      "titleEn": "tick away / tick something away",
+      "formula": "tick away / tick something away",
+      "highlight": "tick away / tick something away",
+      "descriptionZh": "鐘、計時器等持續發出規律的滴答聲;滴答地記錄時間流逝",
+      "descriptionEn": "The old clock ticked away the minutes.",
+      "examples": [
+        {
+          "en": "The old clock ticked away the minutes.",
+          "zh": "舊時鐘滴答地走過每一分鐘。",
+          "highlight": "ticked away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "時間逐分逐秒地流逝",
+      "titleEn": "tick away / tick by / tick past",
+      "formula": "tick away / tick by / tick past",
+      "highlight": "tick away / tick by / tick past",
+      "descriptionZh": "時間逐分逐秒地流逝",
+      "descriptionEn": "The final seconds ticked away.",
+      "examples": [
+        {
+          "en": "The final seconds ticked away.",
+          "zh": "最後幾秒一分一秒地過去。",
+          "highlight": "ticked away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+      "titleEn": "tick somebody/something off",
+      "formula": "tick somebody/something off",
+      "highlight": "tick somebody/something off",
+      "descriptionZh": "在名單上為某人或某項目打剔,表示已點名、完成或處理",
+      "descriptionEn": "I ticked the finished jobs off the list.",
+      "examples": [
+        {
+          "en": "I ticked the finished jobs off the list.",
+          "zh": "我在清單上為已完成的工作打了剔。",
+          "highlight": "ticked the finished jobs off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "車輛停下時,引擎仍以低速運轉",
+      "titleEn": "tick over",
+      "formula": "tick over",
+      "highlight": "tick over",
+      "descriptionZh": "車輛停下時,引擎仍以低速運轉",
+      "descriptionEn": "The taxi waited outside with its engine ticking over.",
+      "examples": [
+        {
+          "en": "The taxi waited outside with its engine ticking over.",
+          "zh": "的士在外面等候,引擎仍在低速空轉。",
+          "highlight": "ticking over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述時鐘和安靜環境中的聲音",
+      "titleEn": "Describe clocks and quiet sounds clearly",
+      "zh": "tick away 可以描述時鐘在安靜環境中持續發出的規律滴答聲。",
+      "en": "Tick away can describe the regular sound of a clock continuing in a quiet room."
+    },
+    {
+      "titleZh": "表達時間正在不斷流逝",
+      "titleEn": "Show that time is continuing to pass",
+      "zh": "當某人正在等候、面對限期或所餘時間不多時,可以使用 tick away、tick by 和 tick past。",
+      "en": "Tick away, tick by and tick past are useful when somebody is waiting, facing a deadline or running out of time."
+    },
+    {
+      "titleZh": "談論名單和已完成的工作",
+      "titleEn": "Talk about lists and completed work",
+      "zh": "tick off 可以描述在核對或完成某人的姓名、工作或其他項目後,在名單上打剔。",
+      "en": "Tick off helps you describe marking names, jobs or other items after they have been checked or completed."
+    },
+    {
+      "titleZh": "理解與車輛引擎有關的指示",
+      "titleEn": "Understand instructions involving vehicle engines",
+      "zh": "tick over 常用來表示車輛停下時,引擎仍然低速運轉。",
+      "en": "Tick over commonly appears when people talk about an engine continuing to run while a vehicle is not moving."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述時鐘和安靜環境中的聲音",
+      "表達時間正在不斷流逝",
+      "談論名單和已完成的工作",
+      "理解與車輛引擎有關的指示"
+    ],
+    "contextsEn": [
+      "Describe clocks and quiet sounds clearly",
+      "Show that time is continuing to pass",
+      "Talk about lists and completed work",
+      "Understand instructions involving vehicle engines"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述時鐘和安靜環境中的聲音",
+        "titleEn": "Describe clocks and quiet sounds clearly",
+        "zh": "tick away 可以描述時鐘在安靜環境中持續發出的規律滴答聲。",
+        "en": "Tick away can describe the regular sound of a clock continuing in a quiet room.",
+        "examples": [
+          {
+            "en": "The old clock ticked away the minutes.",
+            "zh": "舊時鐘滴答地走過每一分鐘。",
+            "highlight": "ticked away"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達時間正在不斷流逝",
+        "titleEn": "Show that time is continuing to pass",
+        "zh": "當某人正在等候、面對限期或所餘時間不多時,可以使用 tick away、tick by 和 tick past。",
+        "en": "Tick away, tick by and tick past are useful when somebody is waiting, facing a deadline or running out of time.",
+        "examples": [
+          {
+            "en": "The final seconds ticked away.",
+            "zh": "最後幾秒一分一秒地過去。",
+            "highlight": "ticked away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論名單和已完成的工作",
+        "titleEn": "Talk about lists and completed work",
+        "zh": "tick off 可以描述在核對或完成某人的姓名、工作或其他項目後,在名單上打剔。",
+        "en": "Tick off helps you describe marking names, jobs or other items after they have been checked or completed.",
+        "examples": [
+          {
+            "en": "I ticked the finished jobs off the list.",
+            "zh": "我在清單上為已完成的工作打了剔。",
+            "highlight": "ticked the finished jobs off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解與車輛引擎有關的指示",
+        "titleEn": "Understand instructions involving vehicle engines",
+        "zh": "tick over 常用來表示車輛停下時,引擎仍然低速運轉。",
+        "en": "Tick over commonly appears when people talk about an engine continuing to run while a vehicle is not moving.",
+        "examples": [
+          {
+            "en": "The taxi waited outside with its engine ticking over.",
+            "zh": "的士在外面等候,引擎仍在低速空轉。",
+            "highlight": "ticking over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TICK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TICK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TICK 片語動詞。",
+      "en": "Read the whole sentence and choose the TICK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "(時鐘滴答地走過每一分鐘。)The minutes ticked away.(時間一分一秒地過去。)In the first sentence, the clock marks the passing time. In the second, the minutes themselvespass.第一句表示時鐘滴答地記錄時間;第二句則表示分鐘本身正在流逝。",
+      "titleEn": "Compare these two uses: The clock ticked away the minutes.",
+      "zh": "(時鐘滴答地走過每一分鐘。)The minutes ticked away.(時間一分一秒地過去。)In the first sentence, the clock marks the passing time. In the second, the minutes themselvespass.第一句表示時鐘滴答地記錄時間;第二句則表示分鐘本身正在流逝。",
+      "en": "Compare these two uses: The clock ticked away the minutes."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,把它放在 TICK 和 OFF 中間。",
+      "titleEn": "When using it or them with tick off, place the word between TICK and OFF: tick it off tick them off.",
+      "zh": "使用 it 或 them 時,把它放在 TICK 和 OFF 中間。",
+      "en": "When using it or them with tick off, place the word between TICK and OFF: tick it off tick them off"
+    },
+    {
+      "titleZh": "核心表達是 tick over。它可以配合不同句式使用。",
+      "titleEn": "The core expression is tick over.",
+      "zh": "核心表達是 tick over。它可以配合不同句式使用。",
+      "en": "The core expression is tick over. It can appear in different sentence forms: let the engine tick over leave the engine ticking over keep the engine ticking over"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TICK 動詞片語句子改寫練習",
+    "titleEn": "TICK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-263-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The old clock made soft regular sounds in the quiet room.",
+      "promptZh": "舊時鐘在安靜的房間裏發出輕柔而規律的聲音。",
+      "starter": "The",
+      "answer": "The old clock ticked away in the quiet room.",
+      "answerZh": "舊時鐘在安靜的房間裏滴答作響。",
+      "highlight": "ticked away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Priya put a mark beside each completed job on her list.",
+      "promptZh": "普里雅在清單上為每項已完成的工作加上剔號。",
+      "starter": "Priya",
+      "answer": "Priya ticked off each completed job on her list.",
+      "answerZh": "普里雅在清單上為每項已完成的工作打了剔。",
+      "highlight": "ticked off",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成或已處理的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The final seconds passed before the bell rang.",
+      "promptZh": "鐘聲響起前,最後幾秒逐漸過去。",
+      "starter": "The",
+      "answer": "The final seconds ticked away before the bell rang.",
+      "answerZh": "鐘聲響起前,最後幾秒一分一秒地過去。",
+      "highlight": "ticked away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The taxi waited outside while its engine ran slowly.",
+      "promptZh": "的士在外面等候,引擎仍在低速運轉。",
+      "starter": "The",
+      "answer": "The taxi waited outside with its engine ticking over.",
+      "answerZh": "的士在外面等候,引擎仍在低速空轉。",
+      "highlight": "taxi waited outside with",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The kitchen clock marked every minute while we waited.",
+      "promptZh": "我們等候期間,廚房時鐘記錄着每一分鐘。",
+      "starter": "The",
+      "answer": "The kitchen clock ticked away the minutes while we waited.",
+      "answerZh": "我們等候期間,廚房時鐘滴答地走過每一分鐘。",
+      "highlight": "ticked away the minutes",
+      "targetForm": "tick something away",
+      "targetMeaningZh": "時鐘滴答地記錄時間流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "During the test, the minutes passed slowly.",
+      "promptZh": "考試期間,時間過得很慢。",
+      "starter": "During",
+      "answer": "During the test, the minutes ticked by slowly.",
+      "answerZh": "考試期間,時間一分一秒地慢慢過去。",
+      "highlight": "ticked by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I marked Daniel’s name on the list when he arrived.",
+      "promptZh": "丹尼爾到達時,我在名單上為他的姓名打了剔。",
+      "starter": "I",
+      "answer": "I ticked Daniel’s name off the list when he arrived.",
+      "answerZh": "丹尼爾到達時,我在名單上為他的姓名打了剔。",
+      "highlight": "ticked",
+      "targetForm": "tick somebody/something off",
+      "targetMeaningZh": "在名單上為某人或某項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do not leave the car engine running while you are in the shop.",
+      "promptZh": "你在店內時,不要讓汽車引擎繼續空轉。",
+      "starter": "Do",
+      "answer": "Do not leave the car engine ticking over while you are in the shop.",
+      "answerZh": "你在店內時,不要讓汽車引擎繼續空轉。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "One long hour passed before the doctor called us.",
+      "promptZh": "醫生叫我們之前,漫長的一小時過去了。",
+      "starter": "One",
+      "answer": "One long hour ticked past before the doctor called us.",
+      "answerZh": "醫生叫我們之前,漫長的一小時逐漸過去了。",
+      "highlight": "ticked past",
+      "targetForm": "tick past",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A small clock continued making regular sounds beside the bed.",
+      "promptZh": "一個小時鐘在床邊持續發出規律的聲音。",
+      "starter": "A",
+      "answer": "A small clock ticked away beside the bed.",
+      "answerZh": "一個小時鐘在床邊滴答作響。",
+      "highlight": "ticked away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have you marked every item that we have already packed?",
+      "promptZh": "你是否已在清單上為所有已包裝的物品打剔?",
+      "starter": "Have",
+      "answer": "Have you ticked off every item that we have already packed?",
+      "answerZh": "你是否已在清單上為所有已包裝的物品打剔?",
+      "highlight": "ticked off",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成或已處理的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The school days are passing quickly now.",
+      "promptZh": "現在的上課日子過得很快。",
+      "starter": "The",
+      "answer": "The school days are ticking by quickly now.",
+      "answerZh": "現在的上課日子一天天快速過去。",
+      "highlight": "ticking by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The driver had left the van engine running at low speed outside.",
+      "promptZh": "司機讓客貨車的引擎在外面低速空轉。",
+      "starter": "The",
+      "answer": "The driver had left the van engine ticking over outside.",
+      "answerZh": "司機讓客貨車的引擎在外面低速空轉。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The clock has continued making its regular sound all night.",
+      "promptZh": "時鐘整晚都在持續發出規律的聲音。",
+      "starter": "The",
+      "answer": "The clock has been ticking away all night.",
+      "answerZh": "時鐘整晚都在滴答作響。",
+      "highlight": "been ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo marks each returned book on the list.",
+      "promptZh": "里奧會在清單上為每本已歸還的書打剔。",
+      "starter": "Leo",
+      "answer": "Leo ticks off each returned book on the list.",
+      "answerZh": "里奧會在清單上為每本已歸還的書打剔。",
+      "highlight": "ticks off",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已處理的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Only five minutes are left, and they are passing fast.",
+      "promptZh": "只剩下五分鐘,而且時間過得很快。",
+      "starter": "Only",
+      "answer": "Only five minutes are left, and they are ticking away fast.",
+      "answerZh": "只剩下五分鐘,而且時間正在快速流逝。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Let the engine run at low speed for a minute before you drive away.",
+      "promptZh": "駕車離開前,先讓引擎低速運轉一分鐘。",
+      "starter": "Let",
+      "answer": "Let the engine tick over for a minute before you drive away.",
+      "answerZh": "駕車離開前,先讓引擎低速運轉一分鐘。",
+      "highlight": "tick over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We have marked all the names of the people who replied.",
+      "promptZh": "我們已為所有作出回覆的人在名單上打剔。",
+      "starter": "We",
+      "answer": "We have ticked off all the names of the people who replied.",
+      "answerZh": "我們已為所有作出回覆的人在名單上打剔。",
+      "highlight": "ticked off",
+      "targetForm": "tick somebody off",
+      "targetMeaningZh": "在名單上為某人的姓名打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the wall clock mark the hours while they waited?",
+      "promptZh": "他們等候期間,牆上時鐘是否滴答地走過了那幾個小時?",
+      "starter": "Did",
+      "answer": "Did the wall clock tick away the hours while they waited?",
+      "answerZh": "他們等候期間,牆上時鐘是否滴答地走過了那幾個小時?",
+      "highlight": "tick away",
+      "targetForm": "tick something away",
+      "targetMeaningZh": "時鐘滴答地記錄時間流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Another year has passed since we moved here.",
+      "promptZh": "自從我們搬到這裏後,又過了一年。",
+      "starter": "Another",
+      "answer": "Another year has ticked by since we moved here.",
+      "answerZh": "自從我們搬到這裏後,又一年過去了。",
+      "highlight": "ticked by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "While we checked the map, the minibus stood still with its engine running slowly.",
+      "promptZh": "我們查看地圖期間,小巴停在原地,引擎仍在低速空轉。",
+      "starter": "While",
+      "answer": "While we checked the map, the minibus stood still with its engine ticking over.",
+      "answerZh": "我們查看地圖期間,小巴停在原地,引擎仍在低速空轉。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "In the dark, we could hear the hall clock making its regular sound.",
+      "promptZh": "在黑暗中,我們聽到大堂時鐘發出規律的聲音。",
+      "starter": "In",
+      "answer": "In the dark, we could hear the hall clock ticking away.",
+      "answerZh": "在黑暗中,我們聽到大堂時鐘滴答作響。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The task is finished, so put a mark beside it on the list.",
+      "promptZh": "這項工作已經完成,所以請在清單上為它打剔。",
+      "starter": "The",
+      "answer": "The task is finished, so tick it off the list.",
+      "answerZh": "這項工作已經完成,所以請在清單上為它打剔。",
+      "highlight": "tick",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the hours passed, the waiting room became quieter.",
+      "promptZh": "隨着幾個小時過去,候診室變得更安靜。",
+      "starter": "As",
+      "answer": "As the hours ticked by, the waiting room became quieter.",
+      "answerZh": "隨着幾個小時過去,候診室變得更安靜。",
+      "highlight": "ticked by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Was the bus engine still running even though the bus was not moving?",
+      "promptZh": "巴士停下時,引擎是否仍在低速運轉?",
+      "starter": "Was",
+      "answer": "Was the bus engine still ticking over when the bus was not moving?",
+      "answerZh": "巴士停下時,引擎是否仍在低速空轉?",
+      "highlight": "ticking over when",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By sunrise, the old clock had marked six silent hours.",
+      "promptZh": "到日出時,舊時鐘已在寂靜中走過了六個小時。",
+      "starter": "By",
+      "answer": "By sunrise, the old clock had ticked away six silent hours.",
+      "answerZh": "到日出時,舊時鐘已在寂靜中滴答地走過了六個小時。",
+      "highlight": "ticked away",
+      "targetForm": "tick something away",
+      "targetMeaningZh": "時鐘滴答地記錄時間流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The last few minutes were passing while the team tried to score.",
+      "promptZh": "球隊嘗試得分時,最後幾分鐘正在逐漸流逝。",
+      "starter": "The",
+      "answer": "The last few minutes were ticking away while the team tried to score.",
+      "answerZh": "球隊嘗試得分時,最後幾分鐘正在逐漸流逝。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When each box arrives, mark it on this delivery list.",
+      "promptZh": "每個箱子送到時,請在這張送貨清單上為它打剔。",
+      "starter": "When",
+      "answer": "When each box arrives, tick it off the delivery list.",
+      "answerZh": "每個箱子送到時,請在送貨清單上為它打剔。",
+      "highlight": "tick",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已收到或已處理的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The driver should not have kept the engine running while the bus stood beside the school.",
+      "promptZh": "巴士停在學校旁邊時,司機不應讓引擎繼續空轉。",
+      "starter": "The",
+      "answer": "The driver should not have kept the engine ticking over beside the school.",
+      "answerZh": "巴士停在學校旁邊時,司機不應讓引擎繼續空轉。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "No clock was making regular sounds in the empty house.",
+      "promptZh": "空置的房子裏沒有時鐘發出規律的聲音。",
+      "starter": "No",
+      "answer": "No clock was ticking away in the empty house.",
+      "answerZh": "空置的房子裏沒有時鐘滴答作響。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "As the days passed, our chance of finding cheap tickets became smaller.",
+      "promptZh": "隨着日子過去,我們找到廉價門票的機會愈來愈小。",
+      "starter": "As",
+      "answer": "As the days ticked by, our chance of finding cheap tickets became smaller.",
+      "answerZh": "隨着日子一天天過去,我們找到廉價門票的機會愈來愈小。",
+      "highlight": "ticked by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The receptionist checked the list and marked every guest who had arrived.",
+      "promptZh": "接待員查看名單,並為每位已到達的賓客打剔。",
+      "starter": "The",
+      "answer": "The receptionist checked the list and ticked off every guest who had arrived.",
+      "answerZh": "接待員查看名單,並為每位已到達的賓客打剔。",
+      "highlight": "ticked off",
+      "targetForm": "tick somebody off",
+      "targetMeaningZh": "在名單上為某人的姓名打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The room was silent except for the regular sound of a clock.",
+      "promptZh": "房間裏一片寂靜,只聽到時鐘規律的聲音。",
+      "starter": "The",
+      "answer": "The room was silent except for a clock ticking away.",
+      "answerZh": "房間裏一片寂靜,只聽到時鐘滴答作響。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why was the delivery van parked with its engine still running?",
+      "promptZh": "送貨客貨車停泊時,引擎為甚麼仍在空轉?",
+      "starter": "Why",
+      "answer": "Why was the delivery van parked with its engine ticking over?",
+      "answerZh": "送貨客貨車停泊時,引擎為甚麼仍在低速空轉?",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "While the final moments passed, nobody knew which team would win.",
+      "promptZh": "最後一刻逐漸過去時,沒有人知道哪支球隊會勝出。",
+      "starter": "While",
+      "answer": "While the final moments ticked away, nobody knew which team would win.",
+      "answerZh": "最後一刻逐漸流逝時,沒有人知道哪支球隊會勝出。",
+      "highlight": "ticked away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "時間逐分逐秒地流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Please mark the two finished jobs before you start a new one.",
+      "promptZh": "開始新工作前,請先為兩項已完成的工作打剔。",
+      "starter": "Please",
+      "answer": "Please tick the two finished jobs off before you start a new one.",
+      "answerZh": "開始新工作前,請先為兩項已完成的工作打剔。",
+      "highlight": "tick",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The old clock may mark the final minutes before the shop closes.",
+      "promptZh": "舊時鐘可能會滴答地走過店舖關門前的最後幾分鐘。",
+      "starter": "The",
+      "answer": "The old clock may tick away the final minutes before the shop closes.",
+      "answerZh": "舊時鐘可能會滴答地走過店舖關門前的最後幾分鐘。",
+      "highlight": "tick away",
+      "targetForm": "tick something away",
+      "targetMeaningZh": "時鐘滴答地記錄時間流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The weeks passed, but there was still no reply.",
+      "promptZh": "幾個星期過去了,但仍然沒有回覆。",
+      "starter": "The",
+      "answer": "The weeks ticked past, but there was still no reply.",
+      "answerZh": "幾個星期逐漸過去了,但仍然沒有回覆。",
+      "highlight": "ticked past",
+      "targetForm": "tick past",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The car was not moving, but its engine was running quietly, so we could hear the radio clearly.",
+      "promptZh": "汽車沒有移動,但引擎正在安靜地低速運轉,因此我們可以清楚聽到收音機。",
+      "starter": "With",
+      "answer": "With the car engine ticking over quietly, we could hear the radio clearly.",
+      "answerZh": "汽車引擎安靜地低速空轉,因此我們可以清楚聽到收音機。",
+      "highlight": "With",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The teacher had marked every student’s name before the lesson began.",
+      "promptZh": "課堂開始前,老師已在名單上為每名學生打剔。",
+      "starter": "The",
+      "answer": "The teacher had ticked off every student’s name before the lesson began.",
+      "answerZh": "課堂開始前,老師已在名單上為每名學生打剔。",
+      "highlight": "ticked off",
+      "targetForm": "tick somebody off",
+      "targetMeaningZh": "在名單上為某人的姓名打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Everyone had gone to bed, but the kitchen clock continued its soft regular sound.",
+      "promptZh": "所有人都已上床睡覺,但廚房時鐘仍持續發出輕柔而規律的聲音。",
+      "starter": "Everyone",
+      "answer": "Everyone had gone to bed, but the kitchen clock kept ticking away softly.",
+      "answerZh": "所有人都已上床睡覺,但廚房時鐘仍在輕輕地滴答作響。",
+      "highlight": "kept ticking away softly",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    },
+    {
+      "id": "phrasal-verb-263-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The old bus stood by the gate with its engine running at low speed.",
+      "promptZh": "舊巴士停在閘口旁,引擎仍在低速空轉。",
+      "starter": "The",
+      "answer": "The old bus stood by the gate with its engine ticking over.",
+      "answerZh": "舊巴士停在閘口旁,引擎仍在低速空轉。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As the years pass, children often forget how small their old school felt.",
+      "promptZh": "隨着年月過去,孩子往往會忘記昔日的學校感覺有多小。",
+      "starter": "As",
+      "answer": "As the years tick by, children often forget how small their old school felt.",
+      "answerZh": "隨着年月過去,孩子往往會忘記昔日的學校感覺有多小。",
+      "highlight": "tick by",
+      "targetForm": "tick by",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Arun checked the completed orders one by one and marked them on the list.",
+      "promptZh": "阿倫逐一核對已完成的訂單,並在清單上為它們打剔。",
+      "starter": "Arun",
+      "answer": "Arun checked the completed orders one by one and ticked them off the list.",
+      "answerZh": "阿倫逐一核對已完成的訂單,並在清單上為它們打剔。",
+      "highlight": "ticked",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成或已處理的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We waited without speaking while the clock marked each slow minute.",
+      "promptZh": "我們默不作聲地等候,時鐘慢慢走過每一分鐘。",
+      "starter": "We",
+      "answer": "We waited without speaking while the clock ticked away each slow minute.",
+      "answerZh": "我們默不作聲地等候,時鐘滴答地走過每個漫長的分鐘。",
+      "highlight": "ticked away",
+      "targetForm": "tick something away",
+      "targetMeaningZh": "時鐘滴答地記錄時間流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The driver did not allow the engine to keep running while he unloaded the bags.",
+      "promptZh": "司機卸下袋子時,沒有讓引擎繼續空轉。",
+      "starter": "The",
+      "answer": "The driver did not let the engine tick over while he unloaded the bags.",
+      "answerZh": "司機卸下袋子時,沒有讓引擎繼續空轉。",
+      "highlight": "let",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Before sending the form, mark each completed section on the checklist.",
+      "promptZh": "寄出表格前,請在核對清單上為每個已完成的部分打剔。",
+      "starter": "Before",
+      "answer": "Before sending the form, tick each completed section off the checklist.",
+      "answerZh": "寄出表格前,請在核對清單上為每個已完成的部分打剔。",
+      "highlight": "tick",
+      "targetForm": "tick something off",
+      "targetMeaningZh": "在名單上為已完成或已檢查的項目打剔"
+    },
+    {
+      "id": "phrasal-verb-263-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Two more hours passed before the storm finally ended.",
+      "promptZh": "再過了兩個小時,暴風雨才終於停止。",
+      "starter": "Two",
+      "answer": "Two more hours ticked past before the storm finally ended.",
+      "answerZh": "再過了兩個小時,暴風雨才終於停止。",
+      "highlight": "ticked past",
+      "targetForm": "tick past",
+      "targetMeaningZh": "時間逐漸流逝"
+    },
+    {
+      "id": "phrasal-verb-263-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The taxi was waiting outside, and its engine had been running at low speed for several minutes.",
+      "promptZh": "的士在外面等候,引擎已低速空轉了幾分鐘。",
+      "starter": "The",
+      "answer": "The taxi was waiting outside, and its engine had been ticking over for several minutes.",
+      "answerZh": "的士在外面等候,引擎已低速空轉了幾分鐘。",
+      "highlight": "ticking over",
+      "targetForm": "tick over",
+      "targetMeaningZh": "車輛停下時,引擎仍以低速運轉"
+    },
+    {
+      "id": "phrasal-verb-263-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Somewhere behind the wall, a clock was making a faint regular sound.",
+      "promptZh": "牆後某處有一個時鐘正在發出微弱而規律的聲音。",
+      "starter": "Somewhere",
+      "answer": "Somewhere behind the wall, a clock was ticking away.",
+      "answerZh": "牆後某處有一個時鐘正在滴答作響。",
+      "highlight": "ticking away",
+      "targetForm": "tick away",
+      "targetMeaningZh": "持續發出規律的滴答聲"
+    }
+  ]
+}

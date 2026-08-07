@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-123",
+  "order": 123,
+  "slug": "vote",
+  "version": "1",
+  "title": "VOTE 動詞片語",
+  "titleEn": "Vote",
+  "titleZh": "VOTE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 122 - VOTE.pdf",
+    "sourceNumber": 122,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 VOTE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to VOTE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "VOTE",
+      "highlight": "VOTE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The council voted the plan down.",
+      "zh": "議會投票否決了這項計劃。",
+      "highlight": "voted the plan down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The members voted Grace in as chairperson.",
+      "zh": "成員投票選出格蕾絲擔任主席。",
+      "highlight": "voted Grace in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Viewers voted the singer off the programme.",
+      "zh": "觀眾投票把該名歌手淘汰出節目。",
+      "highlight": "voted the singer off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "投票否決某項建議、計劃或人選；投票選出某人擔任職位,或加入委員會、議會或其他組織；投票淘汰某人,或使某人離開節目、比賽、隊伍或小組；就某件事情正式投票；透過選舉或正式投票使某人失去職位、權力或席位；投票通過某項計劃、規則、預算或法案",
+    "en": "vote somebody/something down; vote somebody in; vote somebody into/onto something; vote somebody off something; vote on something; vote somebody out; vote somebody out of/off something; vote something through",
+    "naturalZh": [
+      "投票否決某項建議、計劃或人選",
+      "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+      "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+      "就某件事情正式投票",
+      "透過選舉或正式投票使某人失去職位、權力或席位",
+      "投票通過某項計劃、規則、預算或法案"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "vote somebody/something down",
+      "titleZh": "投票否決某項建議、計劃或人選",
+      "titleEn": "vote somebody/something down",
+      "descriptionZh": "投票否決某項建議、計劃或人選",
+      "descriptionEn": "The council voted the plan down.",
+      "examples": [
+        {
+          "en": "The council voted the plan down.",
+          "zh": "議會投票否決了這項計劃。",
+          "highlight": "voted the plan down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "vote somebody in; vote somebody into/onto something",
+      "titleZh": "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+      "titleEn": "vote somebody in; vote somebody into/onto something",
+      "descriptionZh": "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+      "descriptionEn": "The members voted Grace in as chairperson.",
+      "examples": [
+        {
+          "en": "The members voted Grace in as chairperson.",
+          "zh": "成員投票選出格蕾絲擔任主席。",
+          "highlight": "voted Grace in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "vote somebody off something",
+      "titleZh": "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+      "titleEn": "vote somebody off something",
+      "descriptionZh": "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+      "descriptionEn": "Viewers voted the singer off the programme.",
+      "examples": [
+        {
+          "en": "Viewers voted the singer off the programme.",
+          "zh": "觀眾投票把該名歌手淘汰出節目。",
+          "highlight": "voted the singer off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "vote on something",
+      "titleZh": "就某件事情正式投票",
+      "titleEn": "vote on something",
+      "descriptionZh": "就某件事情正式投票",
+      "descriptionEn": "The class will vote on the trip plan tomorrow.",
+      "examples": [
+        {
+          "en": "The class will vote on the trip plan tomorrow.",
+          "zh": "全班明天會就旅行計劃進行投票。",
+          "highlight": "vote on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "vote somebody out; vote somebody out of/off something",
+      "titleZh": "透過選舉或正式投票使某人失去職位、權力或席位",
+      "titleEn": "vote somebody out; vote somebody out of/off something",
+      "descriptionZh": "透過選舉或正式投票使某人失去職位、權力或席位",
+      "descriptionEn": "Voters voted the mayor out of office.",
+      "examples": [
+        {
+          "en": "Voters voted the mayor out of office.",
+          "zh": "選民投票令市長下台。",
+          "highlight": "voted the mayor out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "vote something through",
+      "titleZh": "投票通過某項計劃、規則、預算或法案",
+      "titleEn": "vote something through",
+      "descriptionZh": "投票通過某項計劃、規則、預算或法案",
+      "descriptionEn": "The committee voted the new rule through.",
+      "examples": [
+        {
+          "en": "The committee voted the new rule through.",
+          "zh": "委員會投票通過了新規則。",
+          "highlight": "voted the new rule through"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "VOTE 片語動詞的實際用途",
+    "labelEn": "VOTE Phrasal Verbs in Use",
+    "summaryZh": "vote something down 表示投票否決某事;vote something through 則表示投票通過某事。；vote somebody in 可以表示某人獲投票選出;vote somebody out 則可以表示某人被投票罷免。；vote on something 可以表示大家正就某件事情進行正式投票。；這些表達常見於新聞報道、會議、選舉、學校活動和電視比賽。",
+    "summaryEn": "Vote something down means rejecting it, while vote something through means approving it. Vote somebody in can show that a person is chosen for a position. Vote somebody out can show that the person loses the position. Vote on something describes the act of formally considering and voting about an issue. These expressions often appear in news reports, meetings, elections, school activities and television competitions.",
+    "contextsZh": [
+      "清楚表達否決和通過建議",
+      "描述某人如何取得或失去職位",
+      "談論結果公布前的投票過程",
+      "理解選舉、組織會議和比賽中的英語"
+    ],
+    "contextsEn": [
+      "Talk clearly about rejecting and approving ideas",
+      "Describe how people gain or lose positions",
+      "Talk about decisions before the result is known",
+      "Understand elections, clubs, committees and competitions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 VOTE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the VOTE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "vote somebody/something down",
+    "fixedHighlight": "vote somebody/something down",
+    "fixedZh": "閱讀整句,選出意思相同的 VOTE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the VOTE expression that gives the same meaning.",
+    "correct": "voted the plan down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；vote somebody off 通常表示投票使某人離開節目、比賽或小組;vote somebody out 通常表示投票使某人失去職位或權力。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: vote it down vote her in vote him off vote them out vote it through vote on it Vote somebody off usually refers to removing someone from a programme, competition or group. Vote somebody out usually refers to removing someone from a position or power.",
+    "variableItemsZh": [
+      "vote somebody/something down",
+      "vote somebody in; vote somebody into/onto something",
+      "vote somebody off something",
+      "vote on something",
+      "vote somebody out; vote somebody out of/off something",
+      "vote something through"
+    ],
+    "variableItemsEn": [
+      "vote somebody/something down",
+      "vote somebody in; vote somebody into/onto something",
+      "vote somebody off something",
+      "vote on something",
+      "vote somebody out; vote somebody out of/off something",
+      "vote something through"
+    ],
+    "forms": [
+      {
+        "formZh": "投票否決某項建議、計劃或人選",
+        "formEn": "vote somebody/something down",
+        "exampleZh": "議會投票否決了這項計劃。",
+        "exampleEn": "The council voted the plan down.",
+        "highlight": "voted the plan down"
+      },
+      {
+        "formZh": "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+        "formEn": "vote somebody in; vote somebody into/onto something",
+        "exampleZh": "成員投票選出格蕾絲擔任主席。",
+        "exampleEn": "The members voted Grace in as chairperson.",
+        "highlight": "voted Grace in"
+      },
+      {
+        "formZh": "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+        "formEn": "vote somebody off something",
+        "exampleZh": "觀眾投票把該名歌手淘汰出節目。",
+        "exampleEn": "Viewers voted the singer off the programme.",
+        "highlight": "voted the singer off"
+      },
+      {
+        "formZh": "就某件事情正式投票",
+        "formEn": "vote on something",
+        "exampleZh": "全班明天會就旅行計劃進行投票。",
+        "exampleEn": "The class will vote on the trip plan tomorrow.",
+        "highlight": "vote on"
+      },
+      {
+        "formZh": "透過選舉或正式投票使某人失去職位、權力或席位",
+        "formEn": "vote somebody out; vote somebody out of/off something",
+        "exampleZh": "選民投票令市長下台。",
+        "exampleEn": "Voters voted the mayor out of office.",
+        "highlight": "voted the mayor out"
+      },
+      {
+        "formZh": "投票通過某項計劃、規則、預算或法案",
+        "formEn": "vote something through",
+        "exampleZh": "委員會投票通過了新規則。",
+        "exampleEn": "The committee voted the new rule through.",
+        "highlight": "voted the new rule through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "投票否決某項建議、計劃或人選",
+      "titleEn": "vote somebody/something down",
+      "formula": "vote somebody/something down",
+      "highlight": "vote somebody/something down",
+      "descriptionZh": "投票否決某項建議、計劃或人選",
+      "descriptionEn": "The council voted the plan down.",
+      "examples": [
+        {
+          "en": "The council voted the plan down.",
+          "zh": "議會投票否決了這項計劃。",
+          "highlight": "voted the plan down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+      "titleEn": "vote somebody in; vote somebody into/onto something",
+      "formula": "vote somebody in; vote somebody into/onto something",
+      "highlight": "vote somebody in; vote somebody into/onto something",
+      "descriptionZh": "投票選出某人擔任職位,或加入委員會、議會或其他組織",
+      "descriptionEn": "The members voted Grace in as chairperson.",
+      "examples": [
+        {
+          "en": "The members voted Grace in as chairperson.",
+          "zh": "成員投票選出格蕾絲擔任主席。",
+          "highlight": "voted Grace in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+      "titleEn": "vote somebody off something",
+      "formula": "vote somebody off something",
+      "highlight": "vote somebody off something",
+      "descriptionZh": "投票淘汰某人,或使某人離開節目、比賽、隊伍或小組",
+      "descriptionEn": "Viewers voted the singer off the programme.",
+      "examples": [
+        {
+          "en": "Viewers voted the singer off the programme.",
+          "zh": "觀眾投票把該名歌手淘汰出節目。",
+          "highlight": "voted the singer off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "就某件事情正式投票",
+      "titleEn": "vote on something",
+      "formula": "vote on something",
+      "highlight": "vote on something",
+      "descriptionZh": "就某件事情正式投票",
+      "descriptionEn": "The class will vote on the trip plan tomorrow.",
+      "examples": [
+        {
+          "en": "The class will vote on the trip plan tomorrow.",
+          "zh": "全班明天會就旅行計劃進行投票。",
+          "highlight": "vote on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "透過選舉或正式投票使某人失去職位、權力或席位",
+      "titleEn": "vote somebody out; vote somebody out of/off something",
+      "formula": "vote somebody out; vote somebody out of/off something",
+      "highlight": "vote somebody out; vote somebody out of/off something",
+      "descriptionZh": "透過選舉或正式投票使某人失去職位、權力或席位",
+      "descriptionEn": "Voters voted the mayor out of office.",
+      "examples": [
+        {
+          "en": "Voters voted the mayor out of office.",
+          "zh": "選民投票令市長下台。",
+          "highlight": "voted the mayor out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "投票通過某項計劃、規則、預算或法案",
+      "titleEn": "vote something through",
+      "formula": "vote something through",
+      "highlight": "vote something through",
+      "descriptionZh": "投票通過某項計劃、規則、預算或法案",
+      "descriptionEn": "The committee voted the new rule through.",
+      "examples": [
+        {
+          "en": "The committee voted the new rule through.",
+          "zh": "委員會投票通過了新規則。",
+          "highlight": "voted the new rule through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達否決和通過建議",
+      "titleEn": "Talk clearly about rejecting and approving ideas",
+      "zh": "vote something down 表示投票否決某事;vote something through 則表示投票通過某事。",
+      "en": "Vote something down means rejecting it, while vote something through means approving it."
+    },
+    {
+      "titleZh": "描述某人如何取得或失去職位",
+      "titleEn": "Describe how people gain or lose positions",
+      "zh": "vote somebody in 可以表示某人獲投票選出;vote somebody out 則可以表示某人被投票罷免。",
+      "en": "Vote somebody in can show that a person is chosen for a position. Vote somebody out can show that the person loses the position."
+    },
+    {
+      "titleZh": "談論結果公布前的投票過程",
+      "titleEn": "Talk about decisions before the result is known",
+      "zh": "vote on something 可以表示大家正就某件事情進行正式投票。",
+      "en": "Vote on something describes the act of formally considering and voting about an issue."
+    },
+    {
+      "titleZh": "理解選舉、組織會議和比賽中的英語",
+      "titleEn": "Understand elections, clubs, committees and competitions",
+      "zh": "這些表達常見於新聞報道、會議、選舉、學校活動和電視比賽。",
+      "en": "These expressions often appear in news reports, meetings, elections, school activities and television competitions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達否決和通過建議",
+      "描述某人如何取得或失去職位",
+      "談論結果公布前的投票過程",
+      "理解選舉、組織會議和比賽中的英語"
+    ],
+    "contextsEn": [
+      "Talk clearly about rejecting and approving ideas",
+      "Describe how people gain or lose positions",
+      "Talk about decisions before the result is known",
+      "Understand elections, clubs, committees and competitions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達否決和通過建議",
+        "titleEn": "Talk clearly about rejecting and approving ideas",
+        "zh": "vote something down 表示投票否決某事;vote something through 則表示投票通過某事。",
+        "en": "Vote something down means rejecting it, while vote something through means approving it.",
+        "examples": [
+          {
+            "en": "The council voted the plan down.",
+            "zh": "議會投票否決了這項計劃。",
+            "highlight": "voted the plan down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人如何取得或失去職位",
+        "titleEn": "Describe how people gain or lose positions",
+        "zh": "vote somebody in 可以表示某人獲投票選出;vote somebody out 則可以表示某人被投票罷免。",
+        "en": "Vote somebody in can show that a person is chosen for a position. Vote somebody out can show that the person loses the position.",
+        "examples": [
+          {
+            "en": "The members voted Grace in as chairperson.",
+            "zh": "成員投票選出格蕾絲擔任主席。",
+            "highlight": "voted Grace in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論結果公布前的投票過程",
+        "titleEn": "Talk about decisions before the result is known",
+        "zh": "vote on something 可以表示大家正就某件事情進行正式投票。",
+        "en": "Vote on something describes the act of formally considering and voting about an issue.",
+        "examples": [
+          {
+            "en": "Viewers voted the singer off the programme.",
+            "zh": "觀眾投票把該名歌手淘汰出節目。",
+            "highlight": "voted the singer off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解選舉、組織會議和比賽中的英語",
+        "titleEn": "Understand elections, clubs, committees and competitions",
+        "zh": "這些表達常見於新聞報道、會議、選舉、學校活動和電視比賽。",
+        "en": "These expressions often appear in news reports, meetings, elections, school activities and television competitions.",
+        "examples": [
+          {
+            "en": "The class will vote on the trip plan tomorrow.",
+            "zh": "全班明天會就旅行計劃進行投票。",
+            "highlight": "vote on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 VOTE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the VOTE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 VOTE 片語動詞。",
+      "en": "Read the whole sentence and choose the VOTE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: vote it down vote her in vote him off vote them out vote it through vote on it.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: vote it down vote her in vote him off vote them out vote it through vote on it"
+    },
+    {
+      "titleZh": "vote somebody off 通常表示投票使某人離開節目、比賽或小組;vote somebody out 通常表示投票使某人失去職位或權力。",
+      "titleEn": "Vote somebody off usually refers to removing someone from a programme, competition or group.",
+      "zh": "vote somebody off 通常表示投票使某人離開節目、比賽或小組;vote somebody out 通常表示投票使某人失去職位或權力。",
+      "en": "Vote somebody off usually refers to removing someone from a programme, competition or group. Vote somebody out usually refers to removing someone from a position or power."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 VOTE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to VOTE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "VOTE 動詞片語句子改寫練習",
+    "titleEn": "VOTE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 VOTE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to VOTE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-123-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The council rejected the car park plan by voting.",
+      "promptZh": "議會透過投票否決了停車場計劃。",
+      "starter": "The",
+      "answer": "The council voted the car park plan down.",
+      "answerZh": "議會投票否決了停車場計劃。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The class will hold a vote about the new trip plan tomorrow.",
+      "promptZh": "全班明天會就新的旅行計劃進行投票。",
+      "starter": "The",
+      "answer": "The class will vote on the new trip plan tomorrow.",
+      "answerZh": "全班明天會就新的旅行計劃進行投票。",
+      "highlight": "vote on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Club members chose Grace as their new leader by voting.",
+      "promptZh": "俱樂部成員透過投票選出格蕾絲擔任新領袖。",
+      "starter": "Club",
+      "answer": "Club members voted Grace in as their new leader.",
+      "answerZh": "俱樂部成員投票選出格蕾絲擔任新領袖。",
+      "highlight": "voted",
+      "targetForm": "vote somebody in",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    },
+    {
+      "id": "phrasal-verb-123-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The committee approved the new safety rule by voting.",
+      "promptZh": "委員會透過投票通過了新的安全規則。",
+      "starter": "The",
+      "answer": "The committee voted the new safety rule through.",
+      "answerZh": "委員會投票通過了新的安全規則。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項規則或建議"
+    },
+    {
+      "id": "phrasal-verb-123-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Viewers chose by voting that the weakest singer had to leave the programme.",
+      "promptZh": "觀眾透過投票淘汰了表現最弱的歌手。",
+      "starter": "Viewers",
+      "answer": "Viewers voted the weakest singer off the programme.",
+      "answerZh": "觀眾投票把表現最弱的歌手淘汰出節目。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人或使某人離開"
+    },
+    {
+      "id": "phrasal-verb-123-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Local voters removed the mayor from office in an election.",
+      "promptZh": "當地選民在選舉中令市長下台。",
+      "starter": "Local",
+      "answer": "Local voters voted the mayor out of office.",
+      "answerZh": "當地選民投票令市長下台。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out of office",
+      "targetMeaningZh": "投票使某人失去職位"
+    },
+    {
+      "id": "phrasal-verb-123-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We are holding a vote about the party date this afternoon.",
+      "promptZh": "我們今天下午會就派對日期進行投票。",
+      "starter": "We",
+      "answer": "We are voting on the party date this afternoon.",
+      "answerZh": "我們今天下午會就派對日期進行投票。",
+      "highlight": "voting on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The school board rejected the longer school day by voting.",
+      "promptZh": "校董會透過投票否決了延長上課日的建議。",
+      "starter": "The",
+      "answer": "The school board voted the longer school day down.",
+      "answerZh": "校董會投票否決了延長上課日的建議。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The members removed their chairperson from the position by voting.",
+      "promptZh": "成員透過投票罷免了主席。",
+      "starter": "The",
+      "answer": "The members voted their chairperson out.",
+      "answerZh": "成員投票罷免了主席。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out",
+      "targetMeaningZh": "投票使某人失去職位或權力"
+    },
+    {
+      "id": "phrasal-verb-123-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Students chose Daniel to join the school council by voting.",
+      "promptZh": "學生透過投票選出丹尼爾加入學生會。",
+      "starter": "Students",
+      "answer": "Students voted Daniel onto the school council.",
+      "answerZh": "學生投票選出丹尼爾加入學生會。",
+      "highlight": "voted",
+      "targetForm": "vote somebody onto something",
+      "targetMeaningZh": "投票選出某人加入組織"
+    },
+    {
+      "id": "phrasal-verb-123-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Parliament approved the new road law by voting.",
+      "promptZh": "國會透過投票通過了新的道路法例。",
+      "starter": "Parliament",
+      "answer": "Parliament voted the new road law through.",
+      "answerZh": "國會投票通過了新的道路法例。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項法例"
+    },
+    {
+      "id": "phrasal-verb-123-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The club chose by voting that one player had to leave the team.",
+      "promptZh": "俱樂部透過投票令一名球員離隊。",
+      "starter": "The",
+      "answer": "The club voted one player off the team.",
+      "answerZh": "俱樂部投票令一名球員離隊。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票使某人離開隊伍或小組"
+    },
+    {
+      "id": "phrasal-verb-123-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The public has chosen by voting that Jack must leave the show.",
+      "promptZh": "公眾已透過投票淘汰積克,令他離開節目。",
+      "starter": "The",
+      "answer": "The public has voted Jack off the show.",
+      "answerZh": "公眾已投票把積克淘汰出節目。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人"
+    },
+    {
+      "id": "phrasal-verb-123-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Could the voters remove the government from power in next year’s election?",
+      "promptZh": "選民明年能否在選舉中令政府下台?",
+      "starter": "Could",
+      "answer": "Could the voters vote the government out next year?",
+      "answerZh": "選民明年能否投票令政府下台?",
+      "highlight": "vote",
+      "targetForm": "vote somebody out",
+      "targetMeaningZh": "透過選舉使某人或政府失去權力"
+    },
+    {
+      "id": "phrasal-verb-123-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The committee did not reject the idea when it voted.",
+      "promptZh": "委員會投票時沒有否決這個構思。",
+      "starter": "The",
+      "answer": "The committee did not vote the idea down.",
+      "answerZh": "委員會沒有投票否決這個構思。",
+      "highlight": "vote",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are the members holding a vote about the new opening hours now?",
+      "promptZh": "成員現在是否正就新的營業時間進行投票?",
+      "starter": "Are",
+      "answer": "Are the members voting on the new opening hours now?",
+      "answerZh": "成員現在是否正就新的營業時間進行投票?",
+      "highlight": "voting on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The council may approve the repair budget by voting tonight.",
+      "promptZh": "議會今晚可能會透過投票通過維修預算。",
+      "starter": "The",
+      "answer": "The council may vote the repair budget through tonight.",
+      "answerZh": "議會今晚可能會投票通過維修預算。",
+      "highlight": "vote",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項預算或建議"
+    },
+    {
+      "id": "phrasal-verb-123-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Our club usually chooses a new leader by voting every September.",
+      "promptZh": "我們的俱樂部通常每年九月透過投票選出新領袖。",
+      "starter": "Our",
+      "answer": "Our club usually votes in a new leader every September.",
+      "answerZh": "我們的俱樂部通常每年九月投票選出新領袖。",
+      "highlight": "votes in",
+      "targetForm": "vote somebody in",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    },
+    {
+      "id": "phrasal-verb-123-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The shareholders have removed two directors from the board by voting.",
+      "promptZh": "股東已透過投票把兩名董事逐出董事會。",
+      "starter": "The",
+      "answer": "The shareholders have voted two directors off the board.",
+      "answerZh": "股東已投票把兩名董事逐出董事會。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off a board",
+      "targetMeaningZh": "投票使某人失去董事會席位"
+    },
+    {
+      "id": "phrasal-verb-123-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did the judges decide by voting that she had to leave the talent show?",
+      "promptZh": "評判是否透過投票決定要她離開才藝節目?",
+      "starter": "Did",
+      "answer": "Did the judges vote her off the talent show?",
+      "answerZh": "評判是否投票把她淘汰出才藝節目?",
+      "highlight": "vote her off",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人"
+    },
+    {
+      "id": "phrasal-verb-123-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The town council will not hold a vote about the plan until Friday.",
+      "promptZh": "市議會要到星期五才會就該計劃進行投票。",
+      "starter": "The",
+      "answer": "The town council will not vote on the plan until Friday.",
+      "answerZh": "市議會要到星期五才會就該計劃進行投票。",
+      "highlight": "vote on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why did the students reject the rule when they voted?",
+      "promptZh": "學生為甚麼在投票時否決這項規則?",
+      "starter": "Why",
+      "answer": "Why did the students vote the rule down?",
+      "answerZh": "學生為甚麼投票否決這項規則?",
+      "highlight": "vote",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The workers have chosen Farah for the top job by voting.",
+      "promptZh": "工人已透過投票選出法拉擔任最高職位。",
+      "starter": "The",
+      "answer": "The workers have voted Farah into the top job.",
+      "answerZh": "工人已投票選出法拉擔任最高職位。",
+      "highlight": "voted",
+      "targetForm": "vote somebody into something",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    },
+    {
+      "id": "phrasal-verb-123-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the board approved the change by voting yet?",
+      "promptZh": "董事會是否已透過投票通過這項改動?",
+      "starter": "Has",
+      "answer": "Has the board voted the change through yet?",
+      "answerZh": "董事會是否已投票通過這項改動?",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項改動或建議"
+    },
+    {
+      "id": "phrasal-verb-123-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The members trusted her, so they chose her as leader by voting.",
+      "promptZh": "成員信任她,所以透過投票選她擔任領袖。",
+      "starter": "The",
+      "answer": "The members trusted her, so they voted her in as leader.",
+      "answerZh": "成員信任她,所以投票選她擔任領袖。",
+      "highlight": "voted",
+      "targetForm": "vote somebody in",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    },
+    {
+      "id": "phrasal-verb-123-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The plan was popular, and the committee approved it by voting.",
+      "promptZh": "這項計劃很受歡迎,委員會透過投票通過了它。",
+      "starter": "The",
+      "answer": "The plan was popular, and the committee voted it through.",
+      "answerZh": "這項計劃很受歡迎,委員會投票通過了它。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某事"
+    },
+    {
+      "id": "phrasal-verb-123-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We discussed the two dates before holding a vote about them.",
+      "promptZh": "我們在就兩個日期進行投票前,先討論了它們。",
+      "starter": "We",
+      "answer": "We discussed the two dates before voting on them.",
+      "answerZh": "我們在就兩個日期進行投票前,先討論了它們。",
+      "highlight": "voting on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Leo found the least food, so the other players chose by voting that he had to leave the island.",
+      "promptZh": "里奧找到的食物最少,所以其他參賽者透過投票把他逐出小島。",
+      "starter": "Leo",
+      "answer": "Leo found the least food, so the other players voted him off the island.",
+      "answerZh": "里奧找到的食物最少,所以其他參賽者投票把他逐出小島。",
+      "highlight": "voted him off",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人或使某人離開"
+    },
+    {
+      "id": "phrasal-verb-123-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The parents disliked the plan and rejected it by voting.",
+      "promptZh": "家長不喜歡這項計劃,並透過投票否決了它。",
+      "starter": "The",
+      "answer": "The parents disliked the plan and voted it down.",
+      "answerZh": "家長不喜歡這項計劃,並投票否決了它。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The club had lost confidence in its leader, so members removed him from the position by voting.",
+      "promptZh": "俱樂部已不再信任領袖,所以成員透過投票罷免了他。",
+      "starter": "The",
+      "answer": "The club had lost confidence in its leader, so members voted him out.",
+      "answerZh": "俱樂部已不再信任領袖,所以成員投票罷免了他。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out",
+      "targetMeaningZh": "投票使某人失去職位"
+    },
+    {
+      "id": "phrasal-verb-123-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The new club rule was approved by voting after a short discussion.",
+      "promptZh": "新會規在短暫討論後獲投票通過。",
+      "starter": "The",
+      "answer": "The new club rule was voted through after a short discussion.",
+      "answerZh": "新會規在短暫討論後獲投票通過。",
+      "highlight": "voted through",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項規則"
+    },
+    {
+      "id": "phrasal-verb-123-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After two speeches, the staff chose Chloe to join the safety group by voting.",
+      "promptZh": "職員在聽取兩段發言後,透過投票選出克洛伊加入安全小組。",
+      "starter": "After",
+      "answer": "After two speeches, the staff voted Chloe onto the safety group.",
+      "answerZh": "職員在聽取兩段發言後,投票選出克洛伊加入安全小組。",
+      "highlight": "voted",
+      "targetForm": "vote somebody onto something",
+      "targetMeaningZh": "投票選出某人加入小組"
+    },
+    {
+      "id": "phrasal-verb-123-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Voters removed the party from office in an election after ten years.",
+      "promptZh": "該政黨執政十年後,在選舉中被選民趕下台。",
+      "starter": "Voters",
+      "answer": "Voters voted the party out of office after ten years.",
+      "answerZh": "該政黨執政十年後,被選民投票趕下台。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out of office",
+      "targetMeaningZh": "投票使某人或政黨失去權力"
+    },
+    {
+      "id": "phrasal-verb-123-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A vote about the school trip will take place at Friday’s meeting.",
+      "promptZh": "星期五的會議將會就學校旅行進行投票。",
+      "starter": "The",
+      "answer": "The school trip will be voted on at Friday’s meeting.",
+      "answerZh": "星期五的會議將會就學校旅行進行投票。",
+      "highlight": "be voted on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The audience found the act boring and chose by voting that they had to leave the talent show.",
+      "promptZh": "觀眾覺得這個表演單位很沉悶,並透過投票把他們淘汰出才藝節目。",
+      "starter": "The",
+      "answer": "The audience found the act boring and voted them off the talent show.",
+      "answerZh": "觀眾覺得這個表演單位很沉悶,並投票把他們淘汰出才藝節目。",
+      "highlight": "voted them off",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人"
+    },
+    {
+      "id": "phrasal-verb-123-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The plan was rejected by voting because it cost too much.",
+      "promptZh": "這項計劃因為成本太高而被投票否決。",
+      "starter": "The",
+      "answer": "The plan was voted down because it cost too much.",
+      "answerZh": "這項計劃因為成本太高而被投票否決。",
+      "highlight": "voted down",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The owners removed the manager from the job by voting after another poor year.",
+      "promptZh": "公司又經歷了表現欠佳的一年後,東主透過投票罷免了經理。",
+      "starter": "The",
+      "answer": "The owners voted the manager out after another poor year.",
+      "answerZh": "公司又經歷了表現欠佳的一年後,東主投票罷免了經理。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out",
+      "targetMeaningZh": "投票使某人失去職位"
+    },
+    {
+      "id": "phrasal-verb-123-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "In the dance show, viewers chose by voting that Hassan had to leave after his second performance.",
+      "promptZh": "在舞蹈節目中,觀眾在哈桑第二次表演後透過投票把他淘汰。",
+      "starter": "In",
+      "answer": "In the dance show, viewers voted Hassan off the show after his second performance.",
+      "answerZh": "在舞蹈節目中,觀眾在哈桑第二次表演後投票把他淘汰。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人"
+    },
+    {
+      "id": "phrasal-verb-123-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The committee approved the small pay rise by voting but rejected the larger one.",
+      "promptZh": "委員會透過投票通過了小幅加薪,但否決了較大幅度的加薪。",
+      "starter": "The",
+      "answer": "The committee voted the small pay rise through but rejected the larger one.",
+      "answerZh": "委員會投票通過了小幅加薪,但否決了較大幅度的加薪。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項建議"
+    },
+    {
+      "id": "phrasal-verb-123-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The council rejected the new market plan by voting but approved the repair plan.",
+      "promptZh": "議會透過投票否決了新的市場計劃,但通過了維修計劃。",
+      "starter": "The",
+      "answer": "The council voted down the new market plan but approved the repair plan.",
+      "answerZh": "議會投票否決了新的市場計劃,但通過了維修計劃。",
+      "highlight": "voted down",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before choosing a winner, the judges held a vote about three final designs.",
+      "promptZh": "評判在選出勝出者前,就最後三個設計進行了投票。",
+      "starter": "Before",
+      "answer": "Before choosing a winner, the judges voted on three final designs.",
+      "answerZh": "評判在選出勝出者前,就最後三個設計進行了投票。",
+      "highlight": "voted on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The residents chose Ivy for office in an election after hearing both candidates.",
+      "promptZh": "居民聽過兩名候選人的發言後,在選舉中選出艾薇出任公職。",
+      "starter": "The",
+      "answer": "The residents voted Ivy into office after hearing both candidates.",
+      "answerZh": "居民聽過兩名候選人的發言後,投票選出艾薇出任公職。",
+      "highlight": "voted",
+      "targetForm": "vote somebody into office",
+      "targetMeaningZh": "投票選出某人擔任公職"
+    },
+    {
+      "id": "phrasal-verb-123-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although Omar was popular at first, the players later chose by voting that he had to leave the team.",
+      "promptZh": "奧馬起初很受歡迎,但球員後來透過投票令他離隊。",
+      "starter": "Although",
+      "answer": "Although Omar was popular at first, the players later voted him off the team.",
+      "answerZh": "奧馬起初很受歡迎,但球員後來投票令他離隊。",
+      "highlight": "voted him off",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票使某人離開隊伍"
+    },
+    {
+      "id": "phrasal-verb-123-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The board members removed two directors from the board by voting because they kept missing meetings.",
+      "promptZh": "董事會成員因兩名董事經常缺席會議,透過投票把他們逐出董事會。",
+      "starter": "The",
+      "answer": "The board members voted two directors off the board because they kept missing meetings.",
+      "answerZh": "董事會成員因兩名董事經常缺席會議,投票把他們逐出董事會。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off a board",
+      "targetMeaningZh": "投票使某人失去董事會席位"
+    },
+    {
+      "id": "phrasal-verb-123-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nobody expected the team to choose Ben as captain by voting.",
+      "promptZh": "沒有人預料球隊會透過投票選出賓擔任隊長。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the team to vote Ben in as captain.",
+      "answerZh": "沒有人預料球隊會投票選出賓擔任隊長。",
+      "highlight": "vote",
+      "targetForm": "vote somebody in",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    },
+    {
+      "id": "phrasal-verb-123-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After months of argument, the council finally approved the housing plan by voting.",
+      "promptZh": "經過數月爭論後,議會終於透過投票通過房屋計劃。",
+      "starter": "After",
+      "answer": "After months of argument, the council finally voted the housing plan through.",
+      "answerZh": "經過數月爭論後,議會終於投票通過房屋計劃。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項計劃"
+    },
+    {
+      "id": "phrasal-verb-123-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The members rejected the first proposal by voting and discussed the second one.",
+      "promptZh": "成員透過投票否決了第一項建議,然後討論第二項。",
+      "starter": "The",
+      "answer": "The members voted the first proposal down and discussed the second one.",
+      "answerZh": "成員投票否決了第一項建議,然後討論第二項。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某項建議"
+    },
+    {
+      "id": "phrasal-verb-123-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The neighbourhood group must hold a vote about the new parking rule before using it.",
+      "promptZh": "居民小組必須先就新的泊車規則進行投票,才能實施。",
+      "starter": "The",
+      "answer": "The neighbourhood group must vote on the new parking rule before using it.",
+      "answerZh": "居民小組必須先就新的泊車規則進行投票,才能實施。",
+      "highlight": "vote on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After hearing both sides, the school council held a vote about whether phones should be allowed at lunch.",
+      "promptZh": "學生會聽取雙方意見後,就午膳時間是否准許使用電話進行投票。",
+      "starter": "After",
+      "answer": "After hearing both sides, the school council voted on whether phones should be allowed at lunch.",
+      "answerZh": "學生會聽取雙方意見後,就午膳時間是否准許使用電話進行投票。",
+      "highlight": "voted on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The club rejected the costly plan by voting because it would leave no money for other activities.",
+      "promptZh": "俱樂部透過投票否決了昂貴的計劃,因為這會令其他活動沒有經費。",
+      "starter": "The",
+      "answer": "The club voted the costly plan down because it would leave no money for other activities.",
+      "answerZh": "俱樂部投票否決了昂貴的計劃,因為這會令其他活動沒有經費。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某項計劃"
+    },
+    {
+      "id": "phrasal-verb-123-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Rosa stayed in the programme for three rounds, but viewers chose by voting that she had to leave after a weak song.",
+      "promptZh": "羅莎留在節目中三輪,但觀眾在她唱得不好後透過投票把她淘汰。",
+      "starter": "Rosa",
+      "answer": "Rosa stayed in the programme for three rounds, but viewers voted her off the programme after a weak song.",
+      "answerZh": "羅莎留在節目中三輪,但觀眾在她唱得不好後投票把她淘汰。",
+      "highlight": "voted her off the programme",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人"
+    },
+    {
+      "id": "phrasal-verb-123-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The board approved the new training plan by voting after staff agreed to the final changes.",
+      "promptZh": "職員同意最後改動後,董事會透過投票通過了新的培訓計劃。",
+      "starter": "The",
+      "answer": "The board voted the new training plan through after staff agreed to the final changes.",
+      "answerZh": "職員同意最後改動後,董事會投票通過了新的培訓計劃。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項計劃"
+    },
+    {
+      "id": "phrasal-verb-123-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although Alex was the youngest candidate, members chose him to join the committee by voting.",
+      "promptZh": "雖然亞歷克斯是最年輕的候選人,成員仍透過投票選他加入委員會。",
+      "starter": "Although",
+      "answer": "Although Alex was the youngest candidate, members voted him onto the committee.",
+      "answerZh": "雖然亞歷克斯是最年輕的候選人,成員仍投票選他加入委員會。",
+      "highlight": "voted",
+      "targetForm": "vote somebody onto something",
+      "targetMeaningZh": "投票選出某人加入委員會"
+    },
+    {
+      "id": "phrasal-verb-123-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After prices rose for a year, voters removed the ruling party from power in an election.",
+      "promptZh": "物價上升了一年後,選民在選舉中令執政黨下台。",
+      "starter": "After",
+      "answer": "After prices rose for a year, voters voted the ruling party out.",
+      "answerZh": "物價上升了一年後,選民投票令執政黨下台。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out",
+      "targetMeaningZh": "透過選舉使某人或政黨失去權力"
+    },
+    {
+      "id": "phrasal-verb-123-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Several parents supported the rule, but most rejected it by voting after hearing the full cost.",
+      "promptZh": "數名家長支持這項規則,但大部分人在得知全部費用後投票否決了它。",
+      "starter": "Several",
+      "answer": "Several parents supported the rule, but most voted it down after hearing the full cost.",
+      "answerZh": "數名家長支持這項規則,但大部分人在得知全部費用後投票否決了它。",
+      "highlight": "voted",
+      "targetForm": "vote something down",
+      "targetMeaningZh": "投票否決某事"
+    },
+    {
+      "id": "phrasal-verb-123-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The club cannot act yet because members have not held a vote about the final plan.",
+      "promptZh": "俱樂部仍未能行動,因為成員尚未就最終計劃進行投票。",
+      "starter": "The",
+      "answer": "The club cannot act yet because members have not voted on the final plan.",
+      "answerZh": "俱樂部仍未能行動,因為成員尚未就最終計劃進行投票。",
+      "highlight": "voted on",
+      "targetForm": "vote on something",
+      "targetMeaningZh": "就某事正式投票"
+    },
+    {
+      "id": "phrasal-verb-123-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The company owners removed the old directors from office by voting and chose a new team.",
+      "promptZh": "公司東主透過投票罷免舊董事,並選出新團隊。",
+      "starter": "The",
+      "answer": "The company owners voted the old directors out of office and chose a new team.",
+      "answerZh": "公司東主投票罷免舊董事,並選出新團隊。",
+      "highlight": "voted",
+      "targetForm": "vote somebody out of office",
+      "targetMeaningZh": "投票使某人失去職位"
+    },
+    {
+      "id": "phrasal-verb-123-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "In the final challenge, the contestants used votes to remove one another from the island until only two remained.",
+      "promptZh": "在最後挑戰中,參賽者透過投票逐一把對方淘汰出小島,直至只餘兩人。",
+      "starter": "In",
+      "answer": "In the final challenge, the contestants voted one another off the island until only two remained.",
+      "answerZh": "在最後挑戰中,參賽者投票逐一把對方淘汰出小島,直至只餘兩人。",
+      "highlight": "voted",
+      "targetForm": "vote somebody off something",
+      "targetMeaningZh": "投票淘汰某人或使某人離開"
+    },
+    {
+      "id": "phrasal-verb-123-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The council approved the emergency repair money by voting before the storm arrived.",
+      "promptZh": "暴風雨來臨前,議會透過投票通過了緊急維修撥款。",
+      "starter": "The",
+      "answer": "The council voted the emergency repair money through before the storm arrived.",
+      "answerZh": "暴風雨來臨前,議會投票通過了緊急維修撥款。",
+      "highlight": "voted",
+      "targetForm": "vote something through",
+      "targetMeaningZh": "投票通過某項撥款或預算"
+    },
+    {
+      "id": "phrasal-verb-123-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Members wanted a careful organiser, so they chose Tara as treasurer by voting.",
+      "promptZh": "成員想找一名細心的組織者,所以透過投票選出塔拉擔任財政。",
+      "starter": "Members",
+      "answer": "Members wanted a careful organiser, so they voted Tara in as treasurer.",
+      "answerZh": "成員想找一名細心的組織者,所以投票選出塔拉擔任財政。",
+      "highlight": "voted",
+      "targetForm": "vote somebody in",
+      "targetMeaningZh": "投票選出某人擔任職位"
+    }
+  ]
+}

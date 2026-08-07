@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-45",
+  "order": 45,
+  "slug": "force",
+  "version": "1",
+  "title": "FORCE 動詞片語",
+  "titleEn": "Force",
+  "titleZh": "FORCE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 44 - FORCE.pdf",
+    "sourceNumber": 44,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FORCE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FORCE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FORCE",
+      "highlight": "FORCE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Forcing back the tears, she nodded and smiled.",
+      "zh": "(她強忍淚水,點頭並微笑。)This expression is commonly used when somebody tries very hard not to show an emotion.",
+      "highlight": "Forcing back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She forced down her breakfast.",
+      "zh": "(她勉強吃下早餐。)This use means making yourself swallow food or drink that you do not want.",
+      "highlight": "forced down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "When he read the letter, the truth forced itself on him.",
+      "zh": "(他讀信時,不得不意識到事情的真相。)This expression is used when somebody can no longer avoid becoming aware of something.",
+      "highlight": "forced itself on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "努力強忍某種情緒,不讓它表露出來；即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物；某個事實、想法或情況變得無法忽視,使某人不得不意識到它；強迫某人接受他們不想要的物品、想法、安排或責任",
+    "en": "force back something / force it or them back; force something down; force itself/themselves on somebody force itself/themselves upon somebody; force something on somebody force something upon somebody",
+    "naturalZh": [
+      "努力強忍某種情緒,不讓它表露出來",
+      "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+      "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+      "強迫某人接受他們不想要的物品、想法、安排或責任"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "force back something / force it or them back",
+      "titleZh": "努力強忍某種情緒,不讓它表露出來",
+      "titleEn": "force back something / force it or them back",
+      "descriptionZh": "努力強忍某種情緒,不讓它表露出來",
+      "descriptionEn": "Forcing back the tears, she nodded and smiled.",
+      "examples": [
+        {
+          "en": "Forcing back the tears, she nodded and smiled.",
+          "zh": "(她強忍淚水,點頭並微笑。)This expression is commonly used when somebody tries very hard not to show an emotion.",
+          "highlight": "Forcing back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "force something down",
+      "titleZh": "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+      "titleEn": "force something down",
+      "descriptionZh": "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+      "descriptionEn": "She forced down her breakfast.",
+      "examples": [
+        {
+          "en": "She forced down her breakfast.",
+          "zh": "(她勉強吃下早餐。)This use means making yourself swallow food or drink that you do not want.",
+          "highlight": "forced down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "force itself/themselves on somebody force itself/themselves upon somebody",
+      "titleZh": "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+      "titleEn": "force itself/themselves on somebody force itself/themselves upon somebody",
+      "descriptionZh": "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+      "descriptionEn": "When he read the letter, the truth forced itself on him.",
+      "examples": [
+        {
+          "en": "When he read the letter, the truth forced itself on him.",
+          "zh": "(他讀信時,不得不意識到事情的真相。)This expression is used when somebody can no longer avoid becoming aware of something.",
+          "highlight": "forced itself on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "force something on somebody force something upon somebody",
+      "titleZh": "強迫某人接受他們不想要的物品、想法、安排或責任",
+      "titleEn": "force something on somebody force something upon somebody",
+      "descriptionZh": "強迫某人接受他們不想要的物品、想法、安排或責任",
+      "descriptionEn": "I did not want the money, but she forced it on me.",
+      "examples": [
+        {
+          "en": "I did not want the money, but she forced it on me.",
+          "zh": "(我不想要那筆錢,但她硬要我收下。)This expression means making somebody accept something that they do not want.",
+          "highlight": "forced it on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FORCE 片語動詞的實際用途",
+    "labelEn": "FORCE Phrasal Verbs in Use",
+    "summaryZh": "force back 可以描述某人努力忍住眼淚、笑聲、尖叫或其他強烈情緒。；當某人沒有胃口、不喜歡食物,或覺得某物難以吞嚥時,可以使用 force something down。；force itself on somebody 可以描述某個事實、想法或現實變得非常清楚,令人再也無法忽視。；force something on somebody 表示某人或機構違反對方意願,強迫他們接受某事物。",
+    "summaryEn": "Force back helps you describe somebody trying hard not to cry, laugh, scream or show another strong feeling. Force something down is useful when somebody has no appetite, dislikes the food or finds something difficult to swallow. Force itself on somebody can describe the moment when a fact, idea or difficult reality becomes completely clear. Force something on somebody shows that a person or organisation makes somebody accept something against their wishes.",
+    "contextsZh": [
+      "清楚描述被強忍的情緒",
+      "談論勉強進食或吞嚥",
+      "表示真相變得無法忽視",
+      "描述被迫接受某事物"
+    ],
+    "contextsEn": [
+      "Describe hidden emotions clearly",
+      "Talk about eating when it is difficult",
+      "Show that a truth becomes impossible to ignore",
+      "Describe unwanted pressure"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FORCE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FORCE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "force back something / force it or them back",
+    "fixedHighlight": "force back something / force it or them back",
+    "fixedZh": "閱讀整句,選出意思相同的 FORCE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FORCE expression that gives the same meaning.",
+    "correct": "Forcing back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 等代名詞時,請按照以上例子排列。；在本課的片語動詞中,on 和 upon 可以表達相同意思;upon 較為正式。",
+    "variableEn": "Keep the same people, things, time and meaning. When using a short word such as it or them, follow these examples: force them back force it down force it on me On and upon can express the same meaning in the expressions in this lesson. Upon is more formal.",
+    "variableItemsZh": [
+      "force back something / force it or them back",
+      "force something down",
+      "force itself/themselves on somebody force itself/themselves upon somebody",
+      "force something on somebody force something upon somebody"
+    ],
+    "variableItemsEn": [
+      "force back something / force it or them back",
+      "force something down",
+      "force itself/themselves on somebody force itself/themselves upon somebody",
+      "force something on somebody force something upon somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "努力強忍某種情緒,不讓它表露出來",
+        "formEn": "force back something / force it or them back",
+        "exampleZh": "(她強忍淚水,點頭並微笑。)This expression is commonly used when somebody tries very hard not to show an emotion.",
+        "exampleEn": "Forcing back the tears, she nodded and smiled.",
+        "highlight": "Forcing back"
+      },
+      {
+        "formZh": "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+        "formEn": "force something down",
+        "exampleZh": "(她勉強吃下早餐。)This use means making yourself swallow food or drink that you do not want.",
+        "exampleEn": "She forced down her breakfast.",
+        "highlight": "forced down"
+      },
+      {
+        "formZh": "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+        "formEn": "force itself/themselves on somebody force itself/themselves upon somebody",
+        "exampleZh": "(他讀信時,不得不意識到事情的真相。)This expression is used when somebody can no longer avoid becoming aware of something.",
+        "exampleEn": "When he read the letter, the truth forced itself on him.",
+        "highlight": "forced itself on"
+      },
+      {
+        "formZh": "強迫某人接受他們不想要的物品、想法、安排或責任",
+        "formEn": "force something on somebody force something upon somebody",
+        "exampleZh": "(我不想要那筆錢,但她硬要我收下。)This expression means making somebody accept something that they do not want.",
+        "exampleEn": "I did not want the money, but she forced it on me.",
+        "highlight": "forced it on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "努力強忍某種情緒,不讓它表露出來",
+      "titleEn": "force back something / force it or them back",
+      "formula": "force back something / force it or them back",
+      "highlight": "force back something / force it or them back",
+      "descriptionZh": "努力強忍某種情緒,不讓它表露出來",
+      "descriptionEn": "Forcing back the tears, she nodded and smiled.",
+      "examples": [
+        {
+          "en": "Forcing back the tears, she nodded and smiled.",
+          "zh": "(她強忍淚水,點頭並微笑。)This expression is commonly used when somebody tries very hard not to show an emotion.",
+          "highlight": "Forcing back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+      "titleEn": "force something down",
+      "formula": "force something down",
+      "highlight": "force something down",
+      "descriptionZh": "即使不想吃、沒有胃口或難以吞嚥,仍勉強吃下或喝下某物",
+      "descriptionEn": "She forced down her breakfast.",
+      "examples": [
+        {
+          "en": "She forced down her breakfast.",
+          "zh": "(她勉強吃下早餐。)This use means making yourself swallow food or drink that you do not want.",
+          "highlight": "forced down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+      "titleEn": "force itself/themselves on somebody force itself/themselves upon somebody",
+      "formula": "force itself/themselves on somebody force itself/themselves upon somebody",
+      "highlight": "force itself/themselves on somebody force itself/themselves upon somebody",
+      "descriptionZh": "某個事實、想法或情況變得無法忽視,使某人不得不意識到它",
+      "descriptionEn": "When he read the letter, the truth forced itself on him.",
+      "examples": [
+        {
+          "en": "When he read the letter, the truth forced itself on him.",
+          "zh": "(他讀信時,不得不意識到事情的真相。)This expression is used when somebody can no longer avoid becoming aware of something.",
+          "highlight": "forced itself on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "強迫某人接受他們不想要的物品、想法、安排或責任",
+      "titleEn": "force something on somebody force something upon somebody",
+      "formula": "force something on somebody force something upon somebody",
+      "highlight": "force something on somebody force something upon somebody",
+      "descriptionZh": "強迫某人接受他們不想要的物品、想法、安排或責任",
+      "descriptionEn": "I did not want the money, but she forced it on me.",
+      "examples": [
+        {
+          "en": "I did not want the money, but she forced it on me.",
+          "zh": "(我不想要那筆錢,但她硬要我收下。)This expression means making somebody accept something that they do not want.",
+          "highlight": "forced it on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述被強忍的情緒",
+      "titleEn": "Describe hidden emotions clearly",
+      "zh": "force back 可以描述某人努力忍住眼淚、笑聲、尖叫或其他強烈情緒。",
+      "en": "Force back helps you describe somebody trying hard not to cry, laugh, scream or show another strong feeling."
+    },
+    {
+      "titleZh": "談論勉強進食或吞嚥",
+      "titleEn": "Talk about eating when it is difficult",
+      "zh": "當某人沒有胃口、不喜歡食物,或覺得某物難以吞嚥時,可以使用 force something down。",
+      "en": "Force something down is useful when somebody has no appetite, dislikes the food or finds something difficult to swallow."
+    },
+    {
+      "titleZh": "表示真相變得無法忽視",
+      "titleEn": "Show that a truth becomes impossible to ignore",
+      "zh": "force itself on somebody 可以描述某個事實、想法或現實變得非常清楚,令人再也無法忽視。",
+      "en": "Force itself on somebody can describe the moment when a fact, idea or difficult reality becomes completely clear."
+    },
+    {
+      "titleZh": "描述被迫接受某事物",
+      "titleEn": "Describe unwanted pressure",
+      "zh": "force something on somebody 表示某人或機構違反對方意願,強迫他們接受某事物。",
+      "en": "Force something on somebody shows that a person or organisation makes somebody accept something against their wishes."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述被強忍的情緒",
+      "談論勉強進食或吞嚥",
+      "表示真相變得無法忽視",
+      "描述被迫接受某事物"
+    ],
+    "contextsEn": [
+      "Describe hidden emotions clearly",
+      "Talk about eating when it is difficult",
+      "Show that a truth becomes impossible to ignore",
+      "Describe unwanted pressure"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述被強忍的情緒",
+        "titleEn": "Describe hidden emotions clearly",
+        "zh": "force back 可以描述某人努力忍住眼淚、笑聲、尖叫或其他強烈情緒。",
+        "en": "Force back helps you describe somebody trying hard not to cry, laugh, scream or show another strong feeling.",
+        "examples": [
+          {
+            "en": "Forcing back the tears, she nodded and smiled.",
+            "zh": "(她強忍淚水,點頭並微笑。)This expression is commonly used when somebody tries very hard not to show an emotion.",
+            "highlight": "Forcing back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論勉強進食或吞嚥",
+        "titleEn": "Talk about eating when it is difficult",
+        "zh": "當某人沒有胃口、不喜歡食物,或覺得某物難以吞嚥時,可以使用 force something down。",
+        "en": "Force something down is useful when somebody has no appetite, dislikes the food or finds something difficult to swallow.",
+        "examples": [
+          {
+            "en": "She forced down her breakfast.",
+            "zh": "(她勉強吃下早餐。)This use means making yourself swallow food or drink that you do not want.",
+            "highlight": "forced down"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示真相變得無法忽視",
+        "titleEn": "Show that a truth becomes impossible to ignore",
+        "zh": "force itself on somebody 可以描述某個事實、想法或現實變得非常清楚,令人再也無法忽視。",
+        "en": "Force itself on somebody can describe the moment when a fact, idea or difficult reality becomes completely clear.",
+        "examples": [
+          {
+            "en": "When he read the letter, the truth forced itself on him.",
+            "zh": "(他讀信時,不得不意識到事情的真相。)This expression is used when somebody can no longer avoid becoming aware of something.",
+            "highlight": "forced itself on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述被迫接受某事物",
+        "titleEn": "Describe unwanted pressure",
+        "zh": "force something on somebody 表示某人或機構違反對方意願,強迫他們接受某事物。",
+        "en": "Force something on somebody shows that a person or organisation makes somebody accept something against their wishes.",
+        "examples": [
+          {
+            "en": "I did not want the money, but she forced it on me.",
+            "zh": "(我不想要那筆錢,但她硬要我收下。)This expression means making somebody accept something that they do not want.",
+            "highlight": "forced it on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FORCE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FORCE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FORCE 片語動詞。",
+      "en": "Read the whole sentence and choose the FORCE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 等代名詞時,請按照以上例子排列。",
+      "titleEn": "When using a short word such as it or them, follow these examples: force them back force it down force it on me.",
+      "zh": "使用 it 或 them 等代名詞時,請按照以上例子排列。",
+      "en": "When using a short word such as it or them, follow these examples: force them back force it down force it on me"
+    },
+    {
+      "titleZh": "在本課的片語動詞中,on 和 upon 可以表達相同意思;upon 較為正式。",
+      "titleEn": "On and upon can express the same meaning in the expressions in this lesson.",
+      "zh": "在本課的片語動詞中,on 和 upon 可以表達相同意思;upon 較為正式。",
+      "en": "On and upon can express the same meaning in the expressions in this lesson. Upon is more formal."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FORCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FORCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FORCE 動詞片語句子改寫練習",
+    "titleEn": "FORCE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FORCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FORCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-45-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "When Ben read the final message, he could no longer avoid realising the truth.",
+      "promptZh": "賓讀到最後一則訊息時,再也無法逃避事情的真相。",
+      "starter": "When",
+      "answer": "When Ben read the final message, the truth forced itself on him.",
+      "answerZh": "賓讀到最後一則訊息時,不得不意識到事情的真相。",
+      "highlight": "forced itself on him",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Tom tried very hard not to cry and thanked everyone.",
+      "promptZh": "湯姆努力忍住眼淚,並感謝大家。",
+      "starter": "Tom",
+      "answer": "Tom forced back the tears and thanked everyone.",
+      "answerZh": "湯姆強忍淚水,並感謝大家。",
+      "highlight": "forced back the tears",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Clara made me accept the money although I did not want it.",
+      "promptZh": "雖然我不想要那筆錢,但克拉拉硬要我收下。",
+      "starter": "Clara",
+      "answer": "Clara forced the money on me although I did not want it.",
+      "answerZh": "雖然我不想要那筆錢,但克拉拉硬要我收下。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Although Leo had no appetite, he made himself eat his breakfast before leaving for school.",
+      "promptZh": "雖然里奧沒有胃口,但他在上學前仍勉強吃下早餐。",
+      "starter": "Although",
+      "answer": "Although Leo had no appetite, he forced down his breakfast before leaving for school.",
+      "answerZh": "雖然里奧沒有胃口,但他在上學前仍勉強吃下早餐。",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dan tried very hard not to laugh during the quiet meeting.",
+      "promptZh": "在安靜的會議期間,丹努力忍住笑聲。",
+      "starter": "Dan",
+      "answer": "Dan forced back a laugh during the quiet meeting.",
+      "answerZh": "在安靜的會議期間,丹努力忍住笑聲。",
+      "highlight": "forced back a",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒或反應"
+    },
+    {
+      "id": "phrasal-verb-45-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The host made Amir accept another piece of cake although he did not want it.",
+      "promptZh": "雖然阿米爾不想吃,但主人仍硬要他接受另一件蛋糕。",
+      "starter": "The",
+      "answer": "The host forced another piece of cake on Amir although he did not want it.",
+      "answerZh": "雖然阿米爾不想吃,但主人仍硬要他接受另一件蛋糕。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Everyone in the class could no longer avoid realising how serious the problem was.",
+      "promptZh": "班上所有人再也無法忽視問題的嚴重性。",
+      "starter": "The",
+      "answer": "The seriousness of the problem forced itself on everyone in the class.",
+      "answerZh": "班上所有人都不得不意識到問題的嚴重性。",
+      "highlight": "The seriousness of the problem forced itself on",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nora made herself eat some soup because she needed to eat.",
+      "promptZh": "諾拉雖然不想吃,但因為需要進食,仍勉強喝下了一些湯。",
+      "starter": "Nora",
+      "answer": "Nora forced down some soup because she needed to eat.",
+      "answerZh": "諾拉因為需要進食,勉強喝下了一些湯。",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The manager made the staff accept the new timetable although they did not want it.",
+      "promptZh": "雖然員工不想接受,但經理仍強迫他們採用新時間表。",
+      "starter": "The",
+      "answer": "The manager forced the new timetable on the staff.",
+      "answerZh": "經理強迫員工接受新時間表。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某事物"
+    },
+    {
+      "id": "phrasal-verb-45-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The child tried very hard not to scream when the dog jumped up.",
+      "promptZh": "那隻狗跳起來時,孩子努力忍住尖叫。",
+      "starter": "The",
+      "answer": "The child forced back a scream when the dog jumped up.",
+      "answerZh": "那隻狗跳起來時,孩子努力忍住尖叫。",
+      "highlight": "forced back a",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒或反應"
+    },
+    {
+      "id": "phrasal-verb-45-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I am making myself eat this sandwich although I do not want it because I have not eaten all day.",
+      "promptZh": "雖然我不想吃,但因為整天沒有進食,我正勉強吃下這份三文治。",
+      "starter": "I",
+      "answer": "I am forcing down this sandwich because I have not eaten all day.",
+      "answerZh": "因為整天沒有進食,我正勉強吃下這份三文治。",
+      "highlight": "forcing down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Everyone in the group can no longer avoid becoming aware of the facts.",
+      "promptZh": "小組內所有人再也無法忽視這些事實。",
+      "starter": "The",
+      "answer": "The facts have forced themselves on everyone in the group.",
+      "answerZh": "小組內所有人都已無法忽視這些事實。",
+      "highlight": "The facts have forced themselves on",
+      "targetForm": "force themselves on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "She had tried very hard not to cry before she entered the room.",
+      "promptZh": "她進入房間前,一直努力忍住眼淚。",
+      "starter": "She",
+      "answer": "She had forced back the tears before she entered the room.",
+      "answerZh": "她進入房間前已努力忍住眼淚。",
+      "highlight": "forced back the tears",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are they making us accept this plan when we do not want it?",
+      "promptZh": "我們並不想接受這項計劃,他們為甚麼仍要強迫我們接受?",
+      "starter": "Why",
+      "answer": "Why are they forcing this plan on us?",
+      "answerZh": "他們為甚麼要強迫我們接受這項計劃?",
+      "highlight": "forcing",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某事物"
+    },
+    {
+      "id": "phrasal-verb-45-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Maya is becoming unable to ignore a worrying thought.",
+      "promptZh": "瑪雅愈來愈無法忽視一個令人擔心的想法。",
+      "starter": "A",
+      "answer": "A worrying thought is forcing itself on Maya.",
+      "answerZh": "一個令人擔心的想法正變得令瑪雅無法忽視。",
+      "highlight": "is forcing itself on Maya",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "He could not make himself swallow the bitter medicine.",
+      "promptZh": "他無法勉強自己吞下那種苦藥。",
+      "starter": "He",
+      "answer": "He could not force down the bitter medicine.",
+      "answerZh": "他無法勉強自己吞下那種苦藥。",
+      "highlight": "force down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吞下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You could see that Omar was trying very hard not to sob.",
+      "promptZh": "你可以看出奧馬正努力忍住啜泣。",
+      "starter": "You",
+      "answer": "You could see that Omar was forcing back a sob.",
+      "answerZh": "你可以看出奧馬正努力忍住啜泣。",
+      "highlight": "forcing back a",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒或反應"
+    },
+    {
+      "id": "phrasal-verb-45-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The teachers are being made to accept the changes against their wishes.",
+      "promptZh": "教師正被迫接受他們不希望實行的改動。",
+      "starter": "The",
+      "answer": "The changes are being forced on the teachers.",
+      "answerZh": "教師正被迫接受這些改動。",
+      "highlight": "The changes are being forced on",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某事物"
+    },
+    {
+      "id": "phrasal-verb-45-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "He slowly became unable to ignore the meaning of her words.",
+      "promptZh": "他慢慢變得無法忽視她說話中的含意。",
+      "starter": "The",
+      "answer": "The meaning of her words slowly forced itself upon him.",
+      "answerZh": "她說話中的含意慢慢變得令他無法忽視。",
+      "highlight": "slowly forced itself upon him",
+      "targetForm": "force itself upon somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Has Ella made herself eat enough food to take the tablet?",
+      "promptZh": "埃拉是否已勉強自己吃下足夠食物,以便服用藥片?",
+      "starter": "Has",
+      "answer": "Has Ella forced down enough food to take the tablet?",
+      "answerZh": "埃拉是否已勉強自己吃下足夠食物,以便服用藥片?",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I did not want the old chair, but my uncle made me accept it.",
+      "promptZh": "我不想要那張舊椅子,但叔叔硬要我收下。",
+      "starter": "I",
+      "answer": "I did not want the old chair, but my uncle forced it on me.",
+      "answerZh": "我不想要那張舊椅子,但叔叔硬要我收下。",
+      "highlight": "forced it on",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The tears came suddenly, but Lena tried very hard not to show them.",
+      "promptZh": "眼淚突然湧出來,但莉娜努力不讓它們流下來。",
+      "starter": "The",
+      "answer": "The tears came suddenly, but Lena forced them back.",
+      "answerZh": "眼淚突然湧出來,但莉娜努力把它們忍住。",
+      "highlight": "forced",
+      "targetForm": "force it or them back",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The facts were difficult to accept. However, we could no longer ignore them.",
+      "promptZh": "這些事實令人難以接受。然而,我們再也無法忽視它們。",
+      "starter": "The",
+      "answer": "The facts were difficult to accept. However, they forced themselves on us.",
+      "answerZh": "這些事實令人難以接受。然而,我們再也無法忽視它們。",
+      "highlight": "they forced themselves on us",
+      "targetForm": "force themselves on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The rice tasted terrible, but Ben made himself swallow it.",
+      "promptZh": "那些飯非常難吃,但賓仍勉強自己把它吞下。",
+      "starter": "The",
+      "answer": "The rice tasted terrible, but Ben forced it down.",
+      "answerZh": "那些飯非常難吃,但賓仍勉強把它吞下。",
+      "highlight": "forced",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或吞下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The club did not ask the helpers first; it made them accept extra work.",
+      "promptZh": "會所沒有先詢問義工,便強迫他們接受額外工作。",
+      "starter": "The",
+      "answer": "The club did not ask the helpers first; it forced extra work on them.",
+      "answerZh": "會所沒有先詢問義工,便強迫他們接受額外工作。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某事物或責任"
+    },
+    {
+      "id": "phrasal-verb-45-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When I saw the empty room, I could no longer ignore the truth. She had gone.",
+      "promptZh": "我看到空房間時,再也無法逃避真相。她已經離開了。",
+      "starter": "When",
+      "answer": "When I saw the empty room, the truth forced itself on me. She had gone.",
+      "answerZh": "我看到空房間時,不得不面對真相。她已經離開了。",
+      "highlight": "forced itself on me",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Kai wanted to cry, but he tried very hard not to let the tears show.",
+      "promptZh": "啟想哭,但他努力不讓眼淚流下來。",
+      "starter": "Kai",
+      "answer": "Kai wanted to cry, but he forced back the tears.",
+      "answerZh": "啟想哭,但他努力忍住眼淚。",
+      "highlight": "forced back",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The family did not want the large gift, but the neighbour made them accept it.",
+      "promptZh": "那家人不想要這份大禮物,但鄰居硬要他們收下。",
+      "starter": "The",
+      "answer": "The family did not want the large gift, but the neighbour forced it on them.",
+      "answerZh": "那家人不想要這份大禮物,但鄰居硬要他們收下。",
+      "highlight": "forced it on",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I had no appetite. Even so, I made myself eat the toast.",
+      "promptZh": "我沒有胃口。即使如此,我仍勉強自己吃下多士。",
+      "starter": "I",
+      "answer": "I had no appetite. Even so, I forced down the toast.",
+      "answerZh": "我沒有胃口。即使如此,我仍勉強吃下多士。",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The same questions became impossible for the team to ignore.",
+      "promptZh": "同樣的問題變得令團隊無法忽視。",
+      "starter": "The",
+      "answer": "The same questions forced themselves on the team.",
+      "answerZh": "同樣的問題變得令團隊無法忽視。",
+      "highlight": "forced themselves on",
+      "targetForm": "force themselves on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "For a moment, Ravi nearly laughed, but he stopped himself because the news was serious.",
+      "promptZh": "拉維有一刻差點笑了出來,但因為消息非常嚴肅,他忍住了。",
+      "starter": "For",
+      "answer": "For a moment, Ravi nearly laughed, but he forced back a laugh because the news was serious.",
+      "answerZh": "拉維有一刻差點笑了出來,但因為消息非常嚴肅,他忍住了笑聲。",
+      "highlight": "forced back a laugh",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒或反應"
+    },
+    {
+      "id": "phrasal-verb-45-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The app kept making users accept adverts that they did not want.",
+      "promptZh": "這個應用程式不斷強迫用戶接受他們不想看到的廣告。",
+      "starter": "The",
+      "answer": "The app kept forcing unwanted adverts on its users.",
+      "answerZh": "這個應用程式不斷強迫用戶接受他們不想看到的廣告。",
+      "highlight": "forcing unwanted adverts on its",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before the race, Nia had to make herself swallow a few bites of food.",
+      "promptZh": "比賽前,妮亞不得不勉強自己吃下幾口食物。",
+      "starter": "Before",
+      "answer": "Before the race, Nia had to force down a few bites of food.",
+      "answerZh": "比賽前,妮亞不得不勉強吃下幾口食物。",
+      "highlight": "force down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "As the meeting continued, everyone became unable to ignore the problem.",
+      "promptZh": "隨着會議繼續進行,所有人都變得無法忽視這個問題。",
+      "starter": "As",
+      "answer": "As the meeting continued, the problem forced itself on everyone.",
+      "answerZh": "隨着會議繼續進行,所有人都變得無法忽視這個問題。",
+      "highlight": "forced itself on everyone",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Trying very hard not to cry, Leo smiled for the photograph.",
+      "promptZh": "里奧努力忍住眼淚,為照片露出微笑。",
+      "starter": "Forcing",
+      "answer": "Forcing back the tears, Leo smiled for the photograph.",
+      "answerZh": "里奧強忍淚水,為照片露出微笑。",
+      "highlight": "Forcing back the tears",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The older students tried to make the whole group accept their opinions.",
+      "promptZh": "年長的學生嘗試強迫整個小組接受他們的意見。",
+      "starter": "The",
+      "answer": "The older students tried to force their opinions on the whole group.",
+      "answerZh": "年長的學生嘗試強迫整個小組接受他們的意見。",
+      "highlight": "force their opinions on",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某種意見"
+    },
+    {
+      "id": "phrasal-verb-45-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the drink tasted awful, she made herself swallow it without complaining.",
+      "promptZh": "雖然飲品味道很差,但她沒有抱怨,仍勉強把它喝下。",
+      "starter": "Although",
+      "answer": "Although the drink tasted awful, she forced it down without complaining.",
+      "answerZh": "雖然飲品味道很差,但她沒有抱怨,仍勉強把它喝下。",
+      "highlight": "forced",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the lights went out, we could no longer ignore how dangerous the situation was.",
+      "promptZh": "燈光熄滅時,我們再也無法忽視當時的危險情況。",
+      "starter": "When",
+      "answer": "When the lights went out, the danger of the situation forced itself on us.",
+      "answerZh": "燈光熄滅時,我們再也無法忽視當時的危險情況。",
+      "highlight": "the danger of",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The school made every club accept the new rule without discussion.",
+      "promptZh": "學校沒有進行討論,便強迫所有學會接受新規則。",
+      "starter": "The",
+      "answer": "The school forced the new rule on every club without discussion.",
+      "answerZh": "學校沒有進行討論,便強迫所有學會接受新規則。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某事物"
+    },
+    {
+      "id": "phrasal-verb-45-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Ava felt a scream rising, but she stopped it from escaping.",
+      "promptZh": "艾娃感到自己快要尖叫出來,但她努力忍住了。",
+      "starter": "Ava",
+      "answer": "Ava felt a scream rising, but she forced it back.",
+      "answerZh": "艾娃感到自己快要尖叫出來,但她努力忍住了。",
+      "highlight": "forced",
+      "targetForm": "force it back",
+      "targetMeaningZh": "強忍某種情緒或反應"
+    },
+    {
+      "id": "phrasal-verb-45-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At first, the family avoided the facts, but after seeing the bill, everyone could no longer ignore them.",
+      "promptZh": "起初,那家人一直逃避事實,但看到帳單後,所有人再也無法忽視它們。",
+      "starter": "At",
+      "answer": "At first, the family avoided the facts, but after seeing the bill, those facts forced themselves on everyone.",
+      "answerZh": "起初,那家人一直逃避事實,但看到帳單後,所有人再也無法忽視它們。",
+      "highlight": "those facts forced themselves on",
+      "targetForm": "force themselves on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The doctor said he needed some food before taking the medicine, so he made himself eat a small bowl of rice.",
+      "promptZh": "醫生說他服藥前需要吃些東西,所以他勉強自己吃下了一小碗飯。",
+      "starter": "The",
+      "answer": "The doctor said he needed some food before taking the medicine, so he forced down a small bowl of rice.",
+      "answerZh": "醫生說他服藥前需要吃些東西,所以他勉強吃下了一小碗飯。",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I had already refused the ticket twice, but she still made me accept it before I left.",
+      "promptZh": "我已經兩次拒絕那張門票,但她在我離開前仍硬要我收下。",
+      "starter": "I",
+      "answer": "I had already refused the ticket twice, but she still forced it on me before I left.",
+      "answerZh": "我已經兩次拒絕那張門票,但她在我離開前仍硬要我收下。",
+      "highlight": "forced it on",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受不想要的事物"
+    },
+    {
+      "id": "phrasal-verb-45-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although Mei was close to crying, she tried very hard not to show her tears and finished her speech.",
+      "promptZh": "雖然梅快要哭了,但她仍努力忍住眼淚,完成演說。",
+      "starter": "Although",
+      "answer": "Although Mei was close to crying, she forced back the tears and finished her speech.",
+      "answerZh": "雖然梅快要哭了,但她仍努力忍住眼淚,完成演說。",
+      "highlight": "forced back the",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The children had ignored the warning, but when the water reached the door, they could no longer avoid seeing the danger.",
+      "promptZh": "孩子們一直忽視警告,但當水升至門邊時,他們再也無法忽視危險。",
+      "starter": "The",
+      "answer": "The children had ignored the warning, but when the water reached the door, the danger forced itself on them.",
+      "answerZh": "孩子們一直忽視警告,但當水升至門邊時,他們再也無法忽視危險。",
+      "highlight": "forced itself on them",
+      "targetForm": "force itself on somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I did not feel well enough to eat, but I made myself swallow the soup because I needed some energy.",
+      "promptZh": "我身體不適,沒有胃口,但因為需要一些體力,我仍勉強喝下那碗湯。",
+      "starter": "I",
+      "answer": "I did not feel well enough to eat, but I forced down the soup because I needed some energy.",
+      "answerZh": "我身體不適,沒有胃口,但因為需要一些體力,我仍勉強喝下那碗湯。",
+      "highlight": "forced down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下或喝下某物"
+    },
+    {
+      "id": "phrasal-verb-45-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The group wanted to choose its own activity, but the leader made everyone accept his choice.",
+      "promptZh": "小組希望自行選擇活動,但組長強迫所有人接受他的選擇。",
+      "starter": "The",
+      "answer": "The group wanted to choose its own activity, but the leader forced his choice on everyone.",
+      "answerZh": "小組希望自行選擇活動,但組長強迫所有人接受他的選擇。",
+      "highlight": "forced",
+      "targetForm": "force something on somebody",
+      "targetMeaningZh": "強迫某人接受某種選擇"
+    },
+    {
+      "id": "phrasal-verb-45-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We had heard the news earlier, but its full meaning became impossible for us to ignore only when we saw the empty desks.",
+      "promptZh": "我們較早前已聽到消息,但直至看見空着的書桌時,才再也無法忽視消息的完整含意。",
+      "starter": "We",
+      "answer": "We had heard the news earlier, but its full meaning forced itself upon us only when we saw the empty desks.",
+      "answerZh": "我們較早前已聽到消息,但直至看見空着的書桌時,消息的完整含意才變得令我們無法忽視。",
+      "highlight": "forced itself upon",
+      "targetForm": "force itself upon somebody",
+      "targetMeaningZh": "變得無法忽視,使某人不得不意識到"
+    },
+    {
+      "id": "phrasal-verb-45-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Zara nearly cried when she said goodbye, but she stopped the tears from showing until the bus had left.",
+      "promptZh": "扎拉道別時差點哭出來,但她忍住眼淚,直至巴士離開。",
+      "starter": "Zara",
+      "answer": "Zara nearly cried when she said goodbye, but she forced back the tears until the bus had left.",
+      "answerZh": "扎拉道別時差點哭出來,但她忍住眼淚,直至巴士離開。",
+      "highlight": "forced back",
+      "targetForm": "force back something",
+      "targetMeaningZh": "強忍某種情緒,不讓它表露"
+    },
+    {
+      "id": "phrasal-verb-45-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The medicine was hard to swallow, but Arun made himself take every drop because the nurse said it would help.",
+      "promptZh": "藥物很難吞下,但護士說它會有幫助,所以阿倫勉強自己把它全部喝下。",
+      "starter": "The",
+      "answer": "The medicine was hard to swallow, but Arun forced it down because the nurse said it would help.",
+      "answerZh": "藥物很難吞下,但護士說它會有幫助,所以阿倫勉強把它全部喝下。",
+      "highlight": "forced it down",
+      "targetForm": "force something down",
+      "targetMeaningZh": "勉強吃下、喝下或吞下某物"
+    }
+  ]
+}

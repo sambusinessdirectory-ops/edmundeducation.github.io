@@ -1,0 +1,1488 @@
+{
+  "id": "phrasal-verb-105",
+  "order": 105,
+  "slug": "wave",
+  "version": "1",
+  "title": "WAVE 動詞片語",
+  "titleEn": "Wave",
+  "titleZh": "WAVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 104 - WAVE.pdf",
+    "sourceNumber": 104,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WAVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WAVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WAVE",
+      "highlight": "WAVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The girl waved a red ribbon about.",
+      "zh": "那個女孩在空中揮動一條紅絲帶。",
+      "highlight": "waved a red ribbon about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He waved my question aside.",
+      "zh": "他對我的問題不予理會。",
+      "highlight": "waved",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Tom waved the bus down near the library.",
+      "zh": "湯姆在圖書館附近揮手截停巴士。",
+      "highlight": "waved the bus down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在空中揮動某物,通常為了展示它或吸引注意；揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會；揮手示意某人或車輛停下；在某人離開時揮手送別；揮手示意某人或某物繼續前進；揮手示意某人或某物通過,或通過某個地方",
+    "en": "wave something around / wave something about; wave somebody/something aside / away; wave somebody/something down; wave somebody off; wave somebody/something on; wave somebody/something through / wave somebody/something through something",
+    "naturalZh": [
+      "在空中揮動某物,通常為了展示它或吸引注意",
+      "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+      "揮手示意某人或車輛停下",
+      "在某人離開時揮手送別",
+      "揮手示意某人或某物繼續前進",
+      "揮手示意某人或某物通過,或通過某個地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "wave something around / wave something about",
+      "titleZh": "在空中揮動某物,通常為了展示它或吸引注意",
+      "titleEn": "wave something around / wave something about",
+      "descriptionZh": "在空中揮動某物,通常為了展示它或吸引注意",
+      "descriptionEn": "The girl waved a red ribbon about.",
+      "examples": [
+        {
+          "en": "The girl waved a red ribbon about.",
+          "zh": "那個女孩在空中揮動一條紅絲帶。",
+          "highlight": "waved a red ribbon about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wave somebody/something aside / away",
+      "titleZh": "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+      "titleEn": "wave somebody/something aside / away",
+      "descriptionZh": "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+      "descriptionEn": "He waved my question aside.",
+      "examples": [
+        {
+          "en": "He waved my question aside.",
+          "zh": "他對我的問題不予理會。",
+          "highlight": "waved"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wave somebody/something down",
+      "titleZh": "揮手示意某人或車輛停下",
+      "titleEn": "wave somebody/something down",
+      "descriptionZh": "揮手示意某人或車輛停下",
+      "descriptionEn": "Tom waved the bus down near the library.",
+      "examples": [
+        {
+          "en": "Tom waved the bus down near the library.",
+          "zh": "湯姆在圖書館附近揮手截停巴士。",
+          "highlight": "waved the bus down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wave somebody off",
+      "titleZh": "在某人離開時揮手送別",
+      "titleEn": "wave somebody off",
+      "descriptionZh": "在某人離開時揮手送別",
+      "descriptionEn": "Ava waved her friends off at the station.",
+      "examples": [
+        {
+          "en": "Ava waved her friends off at the station.",
+          "zh": "艾娃在車站揮手送別朋友。",
+          "highlight": "waved her friends off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wave somebody/something on",
+      "titleZh": "揮手示意某人或某物繼續前進",
+      "titleEn": "wave somebody/something on",
+      "descriptionZh": "揮手示意某人或某物繼續前進",
+      "descriptionEn": "The guard waved the visitors on.",
+      "examples": [
+        {
+          "en": "The guard waved the visitors on.",
+          "zh": "守衛揮手示意訪客繼續前進。",
+          "highlight": "waved the visitors on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wave somebody/something through / wave somebody/something through something",
+      "titleZh": "揮手示意某人或某物通過,或通過某個地方",
+      "titleEn": "wave somebody/something through / wave somebody/something through something",
+      "descriptionZh": "揮手示意某人或某物通過,或通過某個地方",
+      "descriptionEn": "The officer waved two cyclists through.",
+      "examples": [
+        {
+          "en": "The officer waved two cyclists through.",
+          "zh": "警員揮手示意兩名單車手通過。",
+          "highlight": "waved two cyclists through"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WAVE 片語動詞的實際用途",
+    "labelEn": "WAVE Phrasal Verbs in Use",
+    "summaryZh": "wave down、wave on 和 wave through 分別表示三種不同手勢:停下、繼續前進和通過。；wave somebody off 可以表示某人出發上學、旅行或前往其他地方時,向對方揮手道別。；wave something aside 可以表示警告、擔憂、問題或抗議被視為不重要。；wave something around 或 about 可以描述某人在空中揮動旗幟、門票、紙張或圍巾。",
+    "summaryEn": "Wave down, wave on and wave through describe three very different hand signals: stop, continue and pass. Wave somebody off describes saying goodbye with a wave when someone leaves for school, a journey or another place. Wave something aside can show that a warning, concern, question or protest was treated as unimportant. Wave something around or about helps you describe someone moving a flag, ticket, paper or scarf in the air.",
+    "contextsZh": [
+      "毋須說話也能清楚指示方向",
+      "自然地表達揮手送別",
+      "描述某事遭到拒絕或忽視",
+      "清楚描述揮動物件的動作"
+    ],
+    "contextsEn": [
+      "Give clear directions without speaking",
+      "Say goodbye naturally",
+      "Describe rejection or dismissal",
+      "Describe visible movements clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WAVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WAVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "wave something around / wave something about",
+    "fixedHighlight": "wave something around / wave something about",
+    "fixedZh": "閱讀整句,選出意思相同的 WAVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WAVE expression that gives the same meaning.",
+    "correct": "waved a red ribbon about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。；留意不同方向所表達的意思:down=示意停下on=示意繼續前進through=示意通過off=揮手送別",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it, us or them, place the word as shown: wave it around wave them aside wave him down wave her off wave us on wave them through Pay attention to the direction: down = signal someone to stop on = signal someone to continue through = signal someone to pass off = say goodbye as someone leaves",
+    "variableItemsZh": [
+      "wave something around / wave something about",
+      "wave somebody/something aside / away",
+      "wave somebody/something down",
+      "wave somebody off",
+      "wave somebody/something on",
+      "wave somebody/something through / wave somebody/something through something"
+    ],
+    "variableItemsEn": [
+      "wave something around / wave something about",
+      "wave somebody/something aside / away",
+      "wave somebody/something down",
+      "wave somebody off",
+      "wave somebody/something on",
+      "wave somebody/something through / wave somebody/something through something"
+    ],
+    "forms": [
+      {
+        "formZh": "在空中揮動某物,通常為了展示它或吸引注意",
+        "formEn": "wave something around / wave something about",
+        "exampleZh": "那個女孩在空中揮動一條紅絲帶。",
+        "exampleEn": "The girl waved a red ribbon about.",
+        "highlight": "waved a red ribbon about"
+      },
+      {
+        "formZh": "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+        "formEn": "wave somebody/something aside / away",
+        "exampleZh": "他對我的問題不予理會。",
+        "exampleEn": "He waved my question aside.",
+        "highlight": "waved"
+      },
+      {
+        "formZh": "揮手示意某人或車輛停下",
+        "formEn": "wave somebody/something down",
+        "exampleZh": "湯姆在圖書館附近揮手截停巴士。",
+        "exampleEn": "Tom waved the bus down near the library.",
+        "highlight": "waved the bus down"
+      },
+      {
+        "formZh": "在某人離開時揮手送別",
+        "formEn": "wave somebody off",
+        "exampleZh": "艾娃在車站揮手送別朋友。",
+        "exampleEn": "Ava waved her friends off at the station.",
+        "highlight": "waved her friends off"
+      },
+      {
+        "formZh": "揮手示意某人或某物繼續前進",
+        "formEn": "wave somebody/something on",
+        "exampleZh": "守衛揮手示意訪客繼續前進。",
+        "exampleEn": "The guard waved the visitors on.",
+        "highlight": "waved the visitors on"
+      },
+      {
+        "formZh": "揮手示意某人或某物通過,或通過某個地方",
+        "formEn": "wave somebody/something through / wave somebody/something through something",
+        "exampleZh": "警員揮手示意兩名單車手通過。",
+        "exampleEn": "The officer waved two cyclists through.",
+        "highlight": "waved two cyclists through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在空中揮動某物,通常為了展示它或吸引注意",
+      "titleEn": "wave something around / wave something about",
+      "formula": "wave something around / wave something about",
+      "highlight": "wave something around / wave something about",
+      "descriptionZh": "在空中揮動某物,通常為了展示它或吸引注意",
+      "descriptionEn": "The girl waved a red ribbon about.",
+      "examples": [
+        {
+          "en": "The girl waved a red ribbon about.",
+          "zh": "那個女孩在空中揮動一條紅絲帶。",
+          "highlight": "waved a red ribbon about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+      "titleEn": "wave somebody/something aside / away",
+      "formula": "wave somebody/something aside / away",
+      "highlight": "wave somebody/something aside / away",
+      "descriptionZh": "揮手示意某人離開或走到一旁;對意見、擔憂或抗議不予理會",
+      "descriptionEn": "He waved my question aside.",
+      "examples": [
+        {
+          "en": "He waved my question aside.",
+          "zh": "他對我的問題不予理會。",
+          "highlight": "waved"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "揮手示意某人或車輛停下",
+      "titleEn": "wave somebody/something down",
+      "formula": "wave somebody/something down",
+      "highlight": "wave somebody/something down",
+      "descriptionZh": "揮手示意某人或車輛停下",
+      "descriptionEn": "Tom waved the bus down near the library.",
+      "examples": [
+        {
+          "en": "Tom waved the bus down near the library.",
+          "zh": "湯姆在圖書館附近揮手截停巴士。",
+          "highlight": "waved the bus down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在某人離開時揮手送別",
+      "titleEn": "wave somebody off",
+      "formula": "wave somebody off",
+      "highlight": "wave somebody off",
+      "descriptionZh": "在某人離開時揮手送別",
+      "descriptionEn": "Ava waved her friends off at the station.",
+      "examples": [
+        {
+          "en": "Ava waved her friends off at the station.",
+          "zh": "艾娃在車站揮手送別朋友。",
+          "highlight": "waved her friends off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "揮手示意某人或某物繼續前進",
+      "titleEn": "wave somebody/something on",
+      "formula": "wave somebody/something on",
+      "highlight": "wave somebody/something on",
+      "descriptionZh": "揮手示意某人或某物繼續前進",
+      "descriptionEn": "The guard waved the visitors on.",
+      "examples": [
+        {
+          "en": "The guard waved the visitors on.",
+          "zh": "守衛揮手示意訪客繼續前進。",
+          "highlight": "waved the visitors on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "揮手示意某人或某物通過,或通過某個地方",
+      "titleEn": "wave somebody/something through / wave somebody/something through something",
+      "formula": "wave somebody/something through / wave somebody/something through something",
+      "highlight": "wave somebody/something through / wave somebody/something through something",
+      "descriptionZh": "揮手示意某人或某物通過,或通過某個地方",
+      "descriptionEn": "The officer waved two cyclists through.",
+      "examples": [
+        {
+          "en": "The officer waved two cyclists through.",
+          "zh": "警員揮手示意兩名單車手通過。",
+          "highlight": "waved two cyclists through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "毋須說話也能清楚指示方向",
+      "titleEn": "Give clear directions without speaking",
+      "zh": "wave down、wave on 和 wave through 分別表示三種不同手勢:停下、繼續前進和通過。",
+      "en": "Wave down, wave on and wave through describe three very different hand signals: stop, continue and pass."
+    },
+    {
+      "titleZh": "自然地表達揮手送別",
+      "titleEn": "Say goodbye naturally",
+      "zh": "wave somebody off 可以表示某人出發上學、旅行或前往其他地方時,向對方揮手道別。",
+      "en": "Wave somebody off describes saying goodbye with a wave when someone leaves for school, a journey or another place."
+    },
+    {
+      "titleZh": "描述某事遭到拒絕或忽視",
+      "titleEn": "Describe rejection or dismissal",
+      "zh": "wave something aside 可以表示警告、擔憂、問題或抗議被視為不重要。",
+      "en": "Wave something aside can show that a warning, concern, question or protest was treated as unimportant."
+    },
+    {
+      "titleZh": "清楚描述揮動物件的動作",
+      "titleEn": "Describe visible movements clearly",
+      "zh": "wave something around 或 about 可以描述某人在空中揮動旗幟、門票、紙張或圍巾。",
+      "en": "Wave something around or about helps you describe someone moving a flag, ticket, paper or scarf in the air."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "毋須說話也能清楚指示方向",
+      "自然地表達揮手送別",
+      "描述某事遭到拒絕或忽視",
+      "清楚描述揮動物件的動作"
+    ],
+    "contextsEn": [
+      "Give clear directions without speaking",
+      "Say goodbye naturally",
+      "Describe rejection or dismissal",
+      "Describe visible movements clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "毋須說話也能清楚指示方向",
+        "titleEn": "Give clear directions without speaking",
+        "zh": "wave down、wave on 和 wave through 分別表示三種不同手勢:停下、繼續前進和通過。",
+        "en": "Wave down, wave on and wave through describe three very different hand signals: stop, continue and pass.",
+        "examples": [
+          {
+            "en": "The girl waved a red ribbon about.",
+            "zh": "那個女孩在空中揮動一條紅絲帶。",
+            "highlight": "waved a red ribbon about"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地表達揮手送別",
+        "titleEn": "Say goodbye naturally",
+        "zh": "wave somebody off 可以表示某人出發上學、旅行或前往其他地方時,向對方揮手道別。",
+        "en": "Wave somebody off describes saying goodbye with a wave when someone leaves for school, a journey or another place.",
+        "examples": [
+          {
+            "en": "He waved my question aside.",
+            "zh": "他對我的問題不予理會。",
+            "highlight": "waved"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某事遭到拒絕或忽視",
+        "titleEn": "Describe rejection or dismissal",
+        "zh": "wave something aside 可以表示警告、擔憂、問題或抗議被視為不重要。",
+        "en": "Wave something aside can show that a warning, concern, question or protest was treated as unimportant.",
+        "examples": [
+          {
+            "en": "Tom waved the bus down near the library.",
+            "zh": "湯姆在圖書館附近揮手截停巴士。",
+            "highlight": "waved the bus down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述揮動物件的動作",
+        "titleEn": "Describe visible movements clearly",
+        "zh": "wave something around 或 about 可以描述某人在空中揮動旗幟、門票、紙張或圍巾。",
+        "en": "Wave something around or about helps you describe someone moving a flag, ticket, paper or scarf in the air.",
+        "examples": [
+          {
+            "en": "Ava waved her friends off at the station.",
+            "zh": "艾娃在車站揮手送別朋友。",
+            "highlight": "waved her friends off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WAVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WAVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WAVE 片語動詞。",
+      "en": "Read the whole sentence and choose the WAVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it, us or them, place the word as shown: wave it around wave them aside wave him down wave her off wave us on wave them through.",
+      "zh": "使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it, us or them, place the word as shown: wave it around wave them aside wave him down wave her off wave us on wave them through"
+    },
+    {
+      "titleZh": "留意不同方向所表達的意思:down=示意停下on=示意繼續前進through=示意通過off=揮手送別",
+      "titleEn": "Pay attention to the direction: down = signal someone to stop on = signal someone to continue through = signal someone to pass off = say goodbye as someone leaves.",
+      "zh": "留意不同方向所表達的意思:down=示意停下on=示意繼續前進through=示意通過off=揮手送別",
+      "en": "Pay attention to the direction: down = signal someone to stop on = signal someone to continue through = signal someone to pass off = say goodbye as someone leaves"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WAVE 動詞片語句子改寫練習",
+    "titleEn": "WAVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-105-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We stood by the road and signalled a taxi to stop.",
+      "promptZh": "我們站在路旁,打手勢叫一輛的士停下來。",
+      "starter": "We",
+      "answer": "We stood by the road and waved a taxi down.",
+      "answerZh": "我們站在路旁,揮手截停一輛的士。",
+      "highlight": "waved",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The child moved the flag from side to side in the air.",
+      "promptZh": "那個孩子在空中左右揮動旗幟。",
+      "starter": "The",
+      "answer": "The child waved the flag around in the air.",
+      "answerZh": "那個孩子在空中揮舞旗幟。",
+      "highlight": "waved",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I said goodbye to the children with a wave as they left for school.",
+      "promptZh": "孩子們出發上學時,我揮手向他們道別。",
+      "starter": "I",
+      "answer": "I waved the children off as they left for school.",
+      "answerZh": "孩子們出發上學時,我揮手送別他們。",
+      "highlight": "waved",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The soldier returned our passports and signalled that we could pass.",
+      "promptZh": "士兵把護照交還給我們,並打手勢示意我們可以通過。",
+      "starter": "The",
+      "answer": "The soldier returned our passports and waved us through.",
+      "answerZh": "士兵把護照交還給我們,並揮手示意我們通過。",
+      "highlight": "waved us through",
+      "targetForm": "wave somebody through",
+      "targetMeaningZh": "揮手示意某人通過"
+    },
+    {
+      "id": "phrasal-verb-105-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The manager refused to consider their protests.",
+      "promptZh": "經理拒絕考慮他們的抗議。",
+      "starter": "The",
+      "answer": "The manager waved their protests aside.",
+      "answerZh": "經理對他們的抗議不予理會。",
+      "highlight": "waved",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The police officer made a hand signal telling the traffic to continue.",
+      "promptZh": "警員打手勢,示意車流繼續前進。",
+      "starter": "The",
+      "answer": "The police officer waved the traffic on.",
+      "answerZh": "警員揮手示意車流繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave something on",
+      "targetMeaningZh": "揮手示意車流等繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Rita held the winning ticket up and moved it excitedly in the air.",
+      "promptZh": "麗塔高舉得獎門票,興奮地在空中揮動它。",
+      "starter": "Rita",
+      "answer": "Rita held the winning ticket up and waved it about excitedly.",
+      "answerZh": "麗塔高舉得獎門票,興奮地揮動它。",
+      "highlight": "waved",
+      "targetForm": "wave something about",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Lena raised her arm and made the bus stop.",
+      "promptZh": "莉娜舉起手臂,示意巴士停下來。",
+      "starter": "Lena",
+      "answer": "Lena raised her arm and waved the bus down.",
+      "answerZh": "莉娜舉起手臂,揮手截停巴士。",
+      "highlight": "waved",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The guard checked the car and signalled that it could pass through the gate.",
+      "promptZh": "守衛檢查了汽車,並打手勢示意它可以駛過閘口。",
+      "starter": "The",
+      "answer": "The guard checked the car and waved it through the gate.",
+      "answerZh": "守衛檢查了汽車,並揮手示意它駛過閘口。",
+      "highlight": "waved",
+      "targetForm": "wave something through something",
+      "targetMeaningZh": "揮手示意某物通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The whole family went to the station to say goodbye to Ravi with a wave.",
+      "promptZh": "全家人都到車站揮手送別拉維。",
+      "starter": "The",
+      "answer": "The whole family went to the station to wave Ravi off.",
+      "answerZh": "全家人都到車站揮手送別拉維。",
+      "highlight": "wave",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "A road worker signalled the cyclists to keep moving.",
+      "promptZh": "一名道路工人打手勢,示意單車手繼續前進。",
+      "starter": "A",
+      "answer": "A road worker waved the cyclists on.",
+      "answerZh": "一名道路工人揮手示意單車手繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The guard made a hand signal telling the children to move away from the gate.",
+      "promptZh": "守衛打手勢,叫孩子們離開閘口。",
+      "starter": "The",
+      "answer": "The guard waved the children away from the gate.",
+      "answerZh": "守衛揮手示意孩子們離開閘口。",
+      "highlight": "waved",
+      "targetForm": "wave somebody away",
+      "targetMeaningZh": "揮手示意某人離開"
+    },
+    {
+      "id": "phrasal-verb-105-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The guard has signalled three cars to continue.",
+      "promptZh": "守衛已打手勢,示意三輛車繼續前進。",
+      "starter": "The",
+      "answer": "The guard has waved three cars on.",
+      "answerZh": "守衛已揮手示意三輛車繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave something on",
+      "targetMeaningZh": "揮手示意車輛繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "She often treats his worries as unimportant and ignores them.",
+      "promptZh": "她經常把他的擔憂視為不重要,並不予理會。",
+      "starter": "She",
+      "answer": "She often waves his worries aside.",
+      "answerZh": "她經常對他的擔憂不予理會。",
+      "highlight": "waves",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The police officer is signalling a car to stop near the crossing.",
+      "promptZh": "警員正在行人過路處附近打手勢,叫一輛車停下來。",
+      "starter": "The",
+      "answer": "The police officer is waving a car down near the crossing.",
+      "answerZh": "警員正在行人過路處附近揮手截停一輛車。",
+      "highlight": "waving",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "That man is moving a large sign from side to side near the entrance.",
+      "promptZh": "那名男子正在入口附近左右揮動一塊大牌。",
+      "starter": "That",
+      "answer": "That man is waving a large sign around near the entrance.",
+      "answerZh": "那名男子正在入口附近揮動一塊大牌。",
+      "highlight": "waving",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Security staff are allowing ticket holders to pass without stopping.",
+      "promptZh": "保安人員正示意持票人士毋須停下便可通過。",
+      "starter": "Security",
+      "answer": "Security staff are waving ticket holders through without stopping.",
+      "answerZh": "保安人員正揮手示意持票人士毋須停下便可通過。",
+      "highlight": "waving",
+      "targetForm": "wave somebody through",
+      "targetMeaningZh": "揮手示意某人通過"
+    },
+    {
+      "id": "phrasal-verb-105-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Her parents are saying goodbye to her with a wave at the airport.",
+      "promptZh": "她的父母正在機場揮手向她道別。",
+      "starter": "Her",
+      "answer": "Her parents are waving her off at the airport.",
+      "answerZh": "她的父母正在機場揮手送別她。",
+      "highlight": "waving",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The guard made a hand signal telling the visitor to move to one side.",
+      "promptZh": "守衛打手勢,叫訪客走到一旁。",
+      "starter": "The",
+      "answer": "The guard waved the visitor aside.",
+      "answerZh": "守衛揮手示意訪客走到一旁。",
+      "highlight": "waved",
+      "targetForm": "wave somebody aside",
+      "targetMeaningZh": "揮手示意某人走到一旁"
+    },
+    {
+      "id": "phrasal-verb-105-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The road worker told us with a hand signal to keep moving.",
+      "promptZh": "道路工人打手勢,叫我們繼續前進。",
+      "starter": "The",
+      "answer": "The road worker waved us on.",
+      "answerZh": "道路工人揮手示意我們繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please stop moving it in the air where everyone can see it.",
+      "promptZh": "請不要再在所有人都看得到的地方把它揮來揮去。",
+      "starter": "Please",
+      "answer": "Please stop waving it around where everyone can see it.",
+      "answerZh": "請不要再在人人都看得見的地方揮動它。",
+      "highlight": "waving",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "By noon, the police had signalled all buses to pass through the roadblock.",
+      "promptZh": "到中午時,警方已打手勢示意所有巴士通過路障。",
+      "starter": "By",
+      "answer": "By noon, the police had waved all buses through the roadblock.",
+      "answerZh": "到中午時,警方已揮手示意所有巴士通過路障。",
+      "highlight": "waved",
+      "targetForm": "wave something through something",
+      "targetMeaningZh": "揮手示意某物通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Can you signal that driver to stop before he passes us?",
+      "promptZh": "你可以在那名司機駛過我們之前打手勢叫他停下來嗎?",
+      "starter": "Can",
+      "answer": "Can you wave that driver down before he passes us?",
+      "answerZh": "你可以在那名司機駛過我們之前揮手叫他停下來嗎?",
+      "highlight": "wave",
+      "targetForm": "wave somebody down",
+      "targetMeaningZh": "揮手示意某人停下"
+    },
+    {
+      "id": "phrasal-verb-105-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I always say goodbye to my sister with a wave when she leaves for work.",
+      "promptZh": "姐姐出門上班時,我總會揮手向她道別。",
+      "starter": "I",
+      "answer": "I always wave my sister off when she leaves for work.",
+      "answerZh": "姐姐出門上班時,我總會揮手送別她。",
+      "highlight": "wave",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The receipt was in Ben's hand. He kept swinging it in the air while arguing.",
+      "promptZh": "收據在賓手中。他爭論時一直在空中揮動它。",
+      "starter": "The",
+      "answer": "The receipt was in Ben's hand. He kept waving it around while arguing.",
+      "answerZh": "收據在賓手中。他爭論時一直揮動它。",
+      "highlight": "waving",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The guard checked our names and then signalled that we could pass.",
+      "promptZh": "守衛核對我們的姓名後,打手勢示意我們可以通過。",
+      "starter": "The",
+      "answer": "The guard checked our names and then waved us through.",
+      "answerZh": "守衛核對我們的姓名後,揮手示意我們通過。",
+      "highlight": "waved us through",
+      "targetForm": "wave somebody through",
+      "targetMeaningZh": "揮手示意某人通過"
+    },
+    {
+      "id": "phrasal-verb-105-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The parents raised several concerns, but the organiser quickly dismissed them.",
+      "promptZh": "家長提出了幾項擔憂,但主辦人很快便不予理會。",
+      "starter": "The",
+      "answer": "The parents raised several concerns, but the organiser quickly waved them aside.",
+      "answerZh": "家長提出了幾項擔憂,但主辦人很快便對這些擔憂不予理會。",
+      "highlight": "waved",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We went to the station to say goodbye to them with a wave.",
+      "promptZh": "我們到車站揮手向他們道別。",
+      "starter": "We",
+      "answer": "We went to the station to wave them off.",
+      "answerZh": "我們到車站揮手送別他們。",
+      "highlight": "wave",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The car was passing quickly, but Sara managed to signal it to stop.",
+      "promptZh": "那輛車快速駛過,但莎拉成功打手勢叫它停下來。",
+      "starter": "The",
+      "answer": "The car was passing quickly, but Sara managed to wave it down.",
+      "answerZh": "那輛車快速駛過,但莎拉成功揮手截停它。",
+      "highlight": "wave",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I slowed beside the officer, but she signalled me to continue.",
+      "promptZh": "我在警員旁減速,但她打手勢示意我繼續前進。",
+      "starter": "I",
+      "answer": "I slowed beside the officer, but she waved me on.",
+      "answerZh": "我在警員旁減速,但她揮手示意我繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After a quick check, the guard allowed the delivery van to pass through the gate with a hand signal.",
+      "promptZh": "守衛快速檢查後,打手勢讓送貨客貨車駛過閘口。",
+      "starter": "After",
+      "answer": "After a quick check, the guard waved the delivery van through the gate.",
+      "answerZh": "守衛快速檢查後,揮手示意送貨客貨車駛過閘口。",
+      "highlight": "waved",
+      "targetForm": "wave something through something",
+      "targetMeaningZh": "揮手示意某物通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the teacher took the phone, Aaron had been holding it up and moving it from side to side.",
+      "promptZh": "老師拿走手機前,亞倫一直高舉手機並左右揮動。",
+      "starter": "Before",
+      "answer": "Before the teacher took the phone, Aaron had been holding it up and waving it about.",
+      "answerZh": "老師拿走手機前,亞倫一直高舉手機並揮動它。",
+      "highlight": "waving",
+      "targetForm": "wave something about",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Hundreds of fans gave the players a warm goodbye with waves before the bus left.",
+      "promptZh": "巴士開出前,數百名球迷熱情揮手送別球員。",
+      "starter": "The",
+      "answer": "The players were warmly waved off by hundreds of fans before the bus left.",
+      "answerZh": "巴士開出前,球員獲數百名球迷熱情揮手送別。",
+      "highlight": "The players were warmly waved off by",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When the reporters came closer, the actor signalled with his hand that they should leave.",
+      "promptZh": "記者走近時,那名演員打手勢叫他們離開。",
+      "starter": "When",
+      "answer": "When the reporters came closer, the actor waved them away.",
+      "answerZh": "記者走近時,那名演員揮手示意他們離開。",
+      "highlight": "waved them away",
+      "targetForm": "wave somebody away",
+      "targetMeaningZh": "揮手示意某人離開"
+    },
+    {
+      "id": "phrasal-verb-105-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A guide signalled the first group to continue towards the bridge.",
+      "promptZh": "導遊打手勢,示意第一組繼續向橋的方向前進。",
+      "starter": "A",
+      "answer": "A guide waved the first group on towards the bridge.",
+      "answerZh": "導遊揮手示意第一組繼續向橋的方向前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A worker signalled the delivery van to stop beside the building.",
+      "promptZh": "一名工人打手勢,叫送貨客貨車在大樓旁停下來。",
+      "starter": "A",
+      "answer": "A worker waved the delivery van down beside the building.",
+      "answerZh": "一名工人揮手示意送貨客貨車在大樓旁停下來。",
+      "highlight": "waved",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Who went to the harbour to say goodbye to the sailors with a wave?",
+      "promptZh": "誰到港口揮手送別水手?",
+      "starter": "Who",
+      "answer": "Who went to the harbour to wave the sailors off?",
+      "answerZh": "誰到港口揮手送別水手?",
+      "highlight": "wave",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "No buses had stopped. Finally, Daniel stood near the road and signalled one to stop.",
+      "promptZh": "一直沒有巴士停下來。最後,丹尼爾站在路旁,打手勢叫其中一輛停下來。",
+      "starter": "No",
+      "answer": "No buses had stopped. Finally, Daniel stood near the road and waved one down.",
+      "answerZh": "一直沒有巴士停下來。最後,丹尼爾站在路旁,揮手截停其中一輛。",
+      "highlight": "waved",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The line was long, but staff let families with small children pass through the gate without delay.",
+      "promptZh": "隊伍很長,但職員讓帶着年幼孩子的家庭毋須等候便通過閘口。",
+      "starter": "The",
+      "answer": "The line was long, but staff waved families with small children through the gate without delay.",
+      "answerZh": "隊伍很長,但職員揮手示意帶着年幼孩子的家庭毋須等候便通過閘口。",
+      "highlight": "waved",
+      "targetForm": "wave somebody through something",
+      "targetMeaningZh": "揮手示意某人通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Why did the committee ignore such a clear warning?",
+      "promptZh": "委員會為甚麼不理會如此清楚的警告?",
+      "starter": "Why",
+      "answer": "Why did the committee wave such a clear warning aside?",
+      "answerZh": "委員會為甚麼對如此清楚的警告不予理會?",
+      "highlight": "wave",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The speaker did not simply show the paper; she kept moving it above her head to attract attention.",
+      "promptZh": "講者不只是展示那張紙;她一直在頭頂上揮動它,以吸引注意。",
+      "starter": "The",
+      "answer": "The speaker did not simply show the paper; she kept waving it around above her head to attract attention.",
+      "answerZh": "講者不只是展示那張紙;她一直在頭頂上揮動它,以吸引注意。",
+      "highlight": "waving",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The traffic light was broken, so an officer used his hand to tell each driver to continue.",
+      "promptZh": "交通燈壞了,所以一名警員用手勢示意每名司機繼續前進。",
+      "starter": "The",
+      "answer": "The traffic light was broken, so an officer waved each driver on.",
+      "answerZh": "交通燈壞了,所以一名警員揮手示意每名司機繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The hikers raised their arms and signalled the rescue vehicle to stop.",
+      "promptZh": "遠足人士舉起手臂,打手勢示意救援車輛停下來。",
+      "starter": "The",
+      "answer": "The hikers raised their arms and waved the rescue vehicle down.",
+      "answerZh": "遠足人士舉起手臂,揮手截停救援車輛。",
+      "highlight": "waved",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After saying goodbye to the last guest with a wave, Julia closed the door.",
+      "promptZh": "茱莉亞揮手送別最後一名客人後,便關上門。",
+      "starter": "After",
+      "answer": "After waving the last guest off, Julia closed the door.",
+      "answerZh": "茱莉亞揮手送別最後一名客人後,便關上門。",
+      "highlight": "waving",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The nurse tried to explain the problem, but the doctor treated her words as unimportant.",
+      "promptZh": "護士嘗試解釋問題,但醫生把她的話視為不重要。",
+      "starter": "The",
+      "answer": "The nurse tried to explain the problem, but the doctor waved her words aside.",
+      "answerZh": "護士嘗試解釋問題,但醫生對她的話不予理會。",
+      "highlight": "waved",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why were the two ambulances allowed to pass through the police barrier so quickly?",
+      "promptZh": "為甚麼那兩輛救護車獲准這麼快通過警方路障?",
+      "starter": "Why",
+      "answer": "Why were the two ambulances waved through the police barrier so quickly?",
+      "answerZh": "為甚麼警方這麼快便揮手示意那兩輛救護車通過路障?",
+      "highlight": "waved",
+      "targetForm": "wave something through something",
+      "targetMeaningZh": "揮手示意某物通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why did the marshal tell the runners to keep moving instead of stopping?",
+      "promptZh": "工作人員為甚麼示意跑手繼續前進,而不是停下來?",
+      "starter": "Why",
+      "answer": "Why did the marshal wave the runners on instead of stopping them?",
+      "answerZh": "工作人員為甚麼揮手示意跑手繼續前進,而不是叫他們停下來?",
+      "highlight": "wave",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Why was the fan moving his scarf wildly in the air after the goal?",
+      "promptZh": "入球後,那名球迷為甚麼在空中猛烈揮動圍巾?",
+      "starter": "Why",
+      "answer": "Why was the fan waving his scarf around wildly after the goal?",
+      "answerZh": "入球後,那名球迷為甚麼在空中猛烈揮動圍巾?",
+      "highlight": "waving",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The neighbours asked several questions, yet the owner dismissed all of them without discussion.",
+      "promptZh": "鄰居提出了幾個問題,但業主沒有討論便把它們全部置之不理。",
+      "starter": "The",
+      "answer": "The neighbours asked several questions, yet the owner waved them all aside without discussion.",
+      "answerZh": "鄰居提出了幾個問題,但業主沒有討論便把它們全部置之不理。",
+      "highlight": "waved them",
+      "targetForm": "wave something aside",
+      "targetMeaningZh": "對某事不予理會"
+    },
+    {
+      "id": "phrasal-verb-105-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The queue paused near the entrance, but a staff member signalled for the next six people to keep moving towards the waiting area.",
+      "promptZh": "隊伍在入口附近停下來,但一名職員打手勢,示意接下來六人繼續前往等候區。",
+      "starter": "The",
+      "answer": "The queue paused near the entrance, but a staff member waved the next six people on towards the waiting area.",
+      "answerZh": "隊伍在入口附近停下來,但一名職員揮手示意接下來六人繼續前往等候區。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Even after everyone had seen the broken card, Noah continued to move it in front of the staff member's face.",
+      "promptZh": "即使人人都已看見那張損壞的卡,諾亞仍繼續在職員面前揮動它。",
+      "starter": "Even",
+      "answer": "Even after everyone had seen the broken card, Noah continued to wave it around in front of the staff member's face.",
+      "answerZh": "即使人人都已看見那張損壞的卡,諾亞仍繼續在職員面前揮動它。",
+      "highlight": "wave",
+      "targetForm": "wave something around",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The station was closed, so we stood by the road until we managed to signal a taxi to stop.",
+      "promptZh": "車站關閉了,所以我們站在路旁,直至成功打手勢叫一輛的士停下來。",
+      "starter": "The",
+      "answer": "The station was closed, so we stood by the road until we managed to wave a taxi down.",
+      "answerZh": "車站關閉了,所以我們站在路旁,直至成功揮手截停一輛的士。",
+      "highlight": "wave",
+      "targetForm": "wave something down",
+      "targetMeaningZh": "揮手示意車輛停下"
+    },
+    {
+      "id": "phrasal-verb-105-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The family stayed at the airport until the gate closed because they wanted to say goodbye to their son with a final wave.",
+      "promptZh": "這家人留在機場直至閘口關閉,因為他們想最後揮手送別兒子。",
+      "starter": "The",
+      "answer": "The family stayed at the airport until the gate closed because they wanted to wave their son off.",
+      "answerZh": "這家人留在機場直至閘口關閉,因為他們想揮手送別兒子。",
+      "highlight": "wave",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    },
+    {
+      "id": "phrasal-verb-105-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The machine could not read our tickets, but the station worker looked at them and signalled that we could pass through the gate.",
+      "promptZh": "機器無法讀取我們的車票,但車站職員查看車票後,打手勢示意我們可以通過閘口。",
+      "starter": "The",
+      "answer": "The machine could not read our tickets, but the station worker looked at them and waved us through the gate.",
+      "answerZh": "機器無法讀取我們的車票,但車站職員查看車票後,揮手示意我們通過閘口。",
+      "highlight": "waved us",
+      "targetForm": "wave somebody through something",
+      "targetMeaningZh": "揮手示意某人通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the driver expected to stop for questions, the officer looked at the clear road and signalled him to continue.",
+      "promptZh": "雖然司機以為要停下來回答問題,但警員看見道路暢通,便打手勢示意他繼續前進。",
+      "starter": "Although",
+      "answer": "Although the driver expected to stop for questions, the officer looked at the clear road and waved him on.",
+      "answerZh": "雖然司機以為要停下來回答問題,但警員看見道路暢通,便揮手示意他繼續前進。",
+      "highlight": "waved",
+      "targetForm": "wave somebody on",
+      "targetMeaningZh": "揮手示意某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-105-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The child wanted to enter the room, but an assistant signalled for him to move away from the doorway.",
+      "promptZh": "那個孩子想進入房間,但一名助理打手勢叫他離開門口。",
+      "starter": "The",
+      "answer": "The child wanted to enter the room, but an assistant waved him away from the doorway.",
+      "answerZh": "那個孩子想進入房間,但一名助理揮手示意他離開門口。",
+      "highlight": "waved",
+      "targetForm": "wave somebody away",
+      "targetMeaningZh": "揮手示意某人離開"
+    },
+    {
+      "id": "phrasal-verb-105-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although the driver had almost passed the village, several residents raised their arms and made him stop.",
+      "promptZh": "雖然司機幾乎已駛過村莊,但幾名居民舉起手臂,示意他停下來。",
+      "starter": "Although",
+      "answer": "Although the driver had almost passed the village, several residents raised their arms and waved him down.",
+      "answerZh": "雖然司機幾乎已駛過村莊,但幾名居民舉起手臂,揮手示意他停下來。",
+      "highlight": "waved",
+      "targetForm": "wave somebody down",
+      "targetMeaningZh": "揮手示意某人停下"
+    },
+    {
+      "id": "phrasal-verb-105-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The protester wanted the cameras to notice the sign, so she held it high and moved it repeatedly above the crowd.",
+      "promptZh": "那名示威者想讓攝影機注意到標語牌,所以她高舉標語牌,在人群上方反覆揮動。",
+      "starter": "The",
+      "answer": "The protester wanted the cameras to notice the sign, so she held it high and waved it about above the crowd.",
+      "answerZh": "那名示威者想讓攝影機注意到標語牌,所以她高舉標語牌,在人群上方反覆揮動。",
+      "highlight": "waved",
+      "targetForm": "wave something about",
+      "targetMeaningZh": "在空中揮動某物"
+    },
+    {
+      "id": "phrasal-verb-105-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Because the driver had the correct permit, the officer returned it and signalled that the lorry could pass through the checkpoint.",
+      "promptZh": "由於司機持有正確許可證,警員把許可證交還給他,並打手勢示意貨車可以通過檢查站。",
+      "starter": "Because",
+      "answer": "Because the driver had the correct permit, the officer returned it and waved the lorry through the checkpoint.",
+      "answerZh": "由於司機持有正確許可證,警員把許可證交還給他,並揮手示意貨車通過檢查站。",
+      "highlight": "waved",
+      "targetForm": "wave something through something",
+      "targetMeaningZh": "揮手示意某物通過某處"
+    },
+    {
+      "id": "phrasal-verb-105-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before the school bus left for camp, teachers and parents stood outside and said goodbye to the children by moving their hands.",
+      "promptZh": "校巴出發前往營地前,老師和家長站在外面揮手向孩子們道別。",
+      "starter": "Before",
+      "answer": "Before the school bus left for camp, teachers and parents stood outside and waved the children off.",
+      "answerZh": "校巴出發前往營地前,老師和家長站在外面揮手送別孩子們。",
+      "highlight": "waved",
+      "targetForm": "wave somebody off",
+      "targetMeaningZh": "揮手送別某人"
+    }
+  ]
+}

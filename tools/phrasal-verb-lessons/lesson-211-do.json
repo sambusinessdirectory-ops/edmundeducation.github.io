@@ -1,0 +1,2363 @@
+{
+  "id": "phrasal-verb-211",
+  "order": 211,
+  "slug": "do",
+  "version": "1",
+  "title": "DO 動詞片語",
+  "titleEn": "Do",
+  "titleZh": "DO 動詞片語",
+  "level": "B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 209 - DO.pdf",
+    "sourceNumber": 209,
+    "pageCount": 36,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerKeyPdfPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DO 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DO."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DO",
+      "highlight": "DO"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The villain planned to do away with the witness.",
+      "zh": "壞人計劃殺害證人。",
+      "highlight": "do away with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The school has done away with its old uniform.",
+      "zh": "學校已取消舊校服規定。",
+      "highlight": "done away with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The illness nearly did for him.",
+      "zh": "那場病差點令他喪命。",
+      "highlight": "did for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "殺害某人或自己;除掉某人；廢除、取消或停止使用某事物；嚴重傷害、殺死某人,或嚴重損壞某物；不公平地批評或貶低某人;看輕自己；殺死某人；令某人極度疲倦;把某人累垮；襲擊並痛打某人；佈置或裝飾房間、房屋等；闖入房屋或其他地方偷竊,並把地方翻亂；用紙或其他物料包好某物；處理、使用或放置某事物；找事情做;打發自己的時間；扣好、綁好、拉上或關緊；完成使用或處理某人或某事;不再理會；在沒有某人或某物的情況下應付；自殺；悉心打扮,使自己看來漂亮或醒目",
+    "en": "do away with somebody/yourself; do away with something; do for somebody/something; do somebody down / do yourself down; do somebody in — kill; do somebody in — exhaust; do somebody over; do something out; do something over; do something up — wrap; do something with something; do something with yourself; do up / do something up — fasten; have done with somebody/something / be done with somebody/something; do without / do without somebody/something; do yourself in; do yourself up",
+    "naturalZh": [
+      "殺害某人或自己;除掉某人",
+      "廢除、取消或停止使用某事物",
+      "嚴重傷害、殺死某人,或嚴重損壞某物",
+      "不公平地批評或貶低某人;看輕自己",
+      "殺死某人",
+      "令某人極度疲倦;把某人累垮",
+      "襲擊並痛打某人",
+      "佈置或裝飾房間、房屋等",
+      "闖入房屋或其他地方偷竊,並把地方翻亂",
+      "用紙或其他物料包好某物",
+      "處理、使用或放置某事物",
+      "找事情做;打發自己的時間",
+      "扣好、綁好、拉上或關緊",
+      "完成使用或處理某人或某事;不再理會",
+      "在沒有某人或某物的情況下應付",
+      "自殺",
+      "悉心打扮,使自己看來漂亮或醒目"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "do away with somebody/yourself",
+      "titleZh": "殺害某人或自己;除掉某人",
+      "titleEn": "do away with somebody/yourself",
+      "descriptionZh": "殺害某人或自己;除掉某人",
+      "descriptionEn": "The villain planned to do away with the witness.",
+      "examples": [
+        {
+          "en": "The villain planned to do away with the witness.",
+          "zh": "壞人計劃殺害證人。",
+          "highlight": "do away with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do away with something",
+      "titleZh": "廢除、取消或停止使用某事物",
+      "titleEn": "do away with something",
+      "descriptionZh": "廢除、取消或停止使用某事物",
+      "descriptionEn": "The school has done away with its old uniform.",
+      "examples": [
+        {
+          "en": "The school has done away with its old uniform.",
+          "zh": "學校已取消舊校服規定。",
+          "highlight": "done away with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do for somebody/something",
+      "titleZh": "嚴重傷害、殺死某人,或嚴重損壞某物",
+      "titleEn": "do for somebody/something",
+      "descriptionZh": "嚴重傷害、殺死某人,或嚴重損壞某物",
+      "descriptionEn": "The illness nearly did for him.",
+      "examples": [
+        {
+          "en": "The illness nearly did for him.",
+          "zh": "那場病差點令他喪命。",
+          "highlight": "did for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do somebody down / do yourself down",
+      "titleZh": "不公平地批評或貶低某人;看輕自己",
+      "titleEn": "do somebody down / do yourself down",
+      "descriptionZh": "不公平地批評或貶低某人;看輕自己",
+      "descriptionEn": "Do not do yourself down.",
+      "examples": [
+        {
+          "en": "Do not do yourself down.",
+          "zh": "不要貶低自己。",
+          "highlight": "Do not do yourself down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do somebody in — kill",
+      "titleZh": "殺死某人",
+      "titleEn": "do somebody in — kill",
+      "descriptionZh": "殺死某人",
+      "descriptionEn": "In the story, the poison did the king in.",
+      "examples": [
+        {
+          "en": "In the story, the poison did the king in.",
+          "zh": "在故事中,毒藥殺死了國王。",
+          "highlight": "did the king in"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do somebody in — exhaust",
+      "titleZh": "令某人極度疲倦;把某人累垮",
+      "titleEn": "do somebody in — exhaust",
+      "descriptionZh": "令某人極度疲倦;把某人累垮",
+      "descriptionEn": "The long walk really did us in.",
+      "examples": [
+        {
+          "en": "The long walk really did us in.",
+          "zh": "那段長途步行令我們疲憊不堪。",
+          "highlight": "did us in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do somebody over",
+      "titleZh": "襲擊並痛打某人",
+      "titleEn": "do somebody over",
+      "descriptionZh": "襲擊並痛打某人",
+      "descriptionEn": "They threatened to do him over.",
+      "examples": [
+        {
+          "en": "They threatened to do him over.",
+          "zh": "他們威脅要襲擊並痛打他。",
+          "highlight": "do him over"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do something out",
+      "titleZh": "佈置或裝飾房間、房屋等",
+      "titleEn": "do something out",
+      "descriptionZh": "佈置或裝飾房間、房屋等",
+      "descriptionEn": "They did the hall out in blue and white.",
+      "examples": [
+        {
+          "en": "They did the hall out in blue and white.",
+          "zh": "他們把禮堂佈置成藍白兩色。",
+          "highlight": "did the hall out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do something over",
+      "titleZh": "闖入房屋或其他地方偷竊,並把地方翻亂",
+      "titleEn": "do something over",
+      "descriptionZh": "闖入房屋或其他地方偷竊,並把地方翻亂",
+      "descriptionEn": "Thieves did the shop over during the night.",
+      "examples": [
+        {
+          "en": "Thieves did the shop over during the night.",
+          "zh": "竊賊在夜間闖入店舖偷竊,並把店內翻得一片凌亂。",
+          "highlight": "did the shop over"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "do something up — wrap",
+      "titleZh": "用紙或其他物料包好某物",
+      "titleEn": "do something up — wrap",
+      "descriptionZh": "用紙或其他物料包好某物",
+      "descriptionEn": "She did the gift up in red paper.",
+      "examples": [
+        {
+          "en": "She did the gift up in red paper.",
+          "zh": "她用紅紙包好禮物。",
+          "highlight": "did the gift up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do something with something",
+      "titleZh": "處理、使用或放置某事物",
+      "titleEn": "do something with something",
+      "descriptionZh": "處理、使用或放置某事物",
+      "descriptionEn": "What have you done with my keys?",
+      "examples": [
+        {
+          "en": "What have you done with my keys?",
+          "zh": "你把我的鎖匙放到哪裏去了?",
+          "highlight": "done with"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do something with yourself",
+      "titleZh": "找事情做;打發自己的時間",
+      "titleEn": "do something with yourself",
+      "descriptionZh": "找事情做;打發自己的時間",
+      "descriptionEn": "She does not know what to do with herself.",
+      "examples": [
+        {
+          "en": "She does not know what to do with herself.",
+          "zh": "她不知道可以做甚麼來打發時間。",
+          "highlight": "does not know what to do with"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do up / do something up — fasten",
+      "titleZh": "扣好、綁好、拉上或關緊",
+      "titleEn": "do up / do something up — fasten",
+      "descriptionZh": "扣好、綁好、拉上或關緊",
+      "descriptionEn": "This dress does up at the side.",
+      "examples": [
+        {
+          "en": "This dress does up at the side.",
+          "zh": "這條裙在側面扣上。",
+          "highlight": "does up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "have done with somebody/something / be done with somebody/something",
+      "titleZh": "完成使用或處理某人或某事;不再理會",
+      "titleEn": "have done with somebody/something / be done with somebody/something",
+      "descriptionZh": "完成使用或處理某人或某事;不再理會",
+      "descriptionEn": "Tear up the form and be done with it.",
+      "examples": [
+        {
+          "en": "Tear up the form and be done with it.",
+          "zh": "把表格撕掉,事情就此完結。",
+          "highlight": "Tear"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do without / do without somebody/something",
+      "titleZh": "在沒有某人或某物的情況下應付",
+      "titleEn": "do without / do without somebody/something",
+      "descriptionZh": "在沒有某人或某物的情況下應付",
+      "descriptionEn": "We have no milk, so we will have to do without.",
+      "examples": [
+        {
+          "en": "We have no milk, so we will have to do without.",
+          "zh": "我們沒有牛奶,所以只好不用牛奶也照常過。",
+          "highlight": "do"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do yourself in",
+      "titleZh": "自殺",
+      "titleEn": "do yourself in",
+      "descriptionZh": "自殺",
+      "descriptionEn": "His friend stopped him from doing himself in.",
+      "examples": [
+        {
+          "en": "His friend stopped him from doing himself in.",
+          "zh": "他的朋友阻止了他自殺。",
+          "highlight": "doing himself in"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "do yourself up",
+      "titleZh": "悉心打扮,使自己看來漂亮或醒目",
+      "titleEn": "do yourself up",
+      "descriptionZh": "悉心打扮,使自己看來漂亮或醒目",
+      "descriptionEn": "She did herself up for the party.",
+      "examples": [
+        {
+          "en": "She did herself up for the party.",
+          "zh": "她為派對悉心打扮。",
+          "highlight": "did herself up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DO 片語動詞的實際用途",
+    "labelEn": "DO Phrasal Verbs in Use",
+    "summaryZh": "do away with 可以表示取消舊制度;do without 則表示在缺少某事物時仍然應付得到。；DO 片語動詞可以描述不公平的批評、極度疲倦、襲擊和其他對人的重大影響。；do up 可以表示包好或扣好某物;do yourself up 與個人打扮有關;do something out 則與佈置地方有關。；do something with something 可以詢問物件放了在哪裏或會如何使用;do something withyourself 則表示找事情打發時間。；be done with something 表示一項工作、爭論或事物已處理完畢,不再需要理會。",
+    "summaryEn": "Do away with can describe ending an old system, while do without describes managing when something is unavailable. The DO family can describe unfair criticism, serious tiredness, attacks and other strong effects on people. Do up can describe wrapping or fastening something. Do yourself up concerns personal appearance, while do something out concerns decorating a place. Do something with something can ask where an object went or how it will be used. Do something with yourself concerns keeping busy. Be done with something shows that a task, argument or object no longer needs attention.",
+    "contextsZh": [
+      "使用 DO 談論取消事物或在缺少事物時應付",
+      "描述別人受到的對待或影響",
+      "談論衣物、包裝和佈置",
+      "詢問物件去了哪裏或某人如何打發時間",
+      "談論徹底完成某事"
+    ],
+    "contextsEn": [
+      "Use DO to talk about removing things or managing without them",
+      "Describe how people are treated or affected",
+      "Talk about clothes, wrapping and decoration",
+      "Ask what happened to an object or how someone will spend their time",
+      "Talk about finishing something completely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DO 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DO expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "do away with somebody/yourself",
+    "fixedHighlight": "do away with somebody/yourself",
+    "fixedZh": "閱讀整句,選出意思相同的 DO 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DO expression that gives the same meaning.",
+    "correct": "do away with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、結果和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；DO 片語動詞不會永遠出現在句子的同一位置,請仔細閱讀整句。",
+    "variableEn": "Keep the same people, things, time, result and meaning. When using him, her, it or them, place the word as shown: do him down do it up do them over do her in The DO expression will not always appear in the same place. Read the complete answer carefully: to do without can do without has done without Doing without a car was difficult.",
+    "variableItemsZh": [
+      "do away with somebody/yourself",
+      "do away with something",
+      "do for somebody/something",
+      "do somebody down / do yourself down",
+      "do somebody in — kill",
+      "do somebody in — exhaust",
+      "do somebody over",
+      "do something out",
+      "do something over",
+      "do something up — wrap",
+      "do something with something",
+      "do something with yourself",
+      "do up / do something up — fasten",
+      "have done with somebody/something / be done with somebody/something",
+      "do without / do without somebody/something",
+      "do yourself in",
+      "do yourself up"
+    ],
+    "variableItemsEn": [
+      "do away with somebody/yourself",
+      "do away with something",
+      "do for somebody/something",
+      "do somebody down / do yourself down",
+      "do somebody in — kill",
+      "do somebody in — exhaust",
+      "do somebody over",
+      "do something out",
+      "do something over",
+      "do something up — wrap",
+      "do something with something",
+      "do something with yourself",
+      "do up / do something up — fasten",
+      "have done with somebody/something / be done with somebody/something",
+      "do without / do without somebody/something",
+      "do yourself in",
+      "do yourself up"
+    ],
+    "forms": [
+      {
+        "formZh": "殺害某人或自己;除掉某人",
+        "formEn": "do away with somebody/yourself",
+        "exampleZh": "壞人計劃殺害證人。",
+        "exampleEn": "The villain planned to do away with the witness.",
+        "highlight": "do away with"
+      },
+      {
+        "formZh": "廢除、取消或停止使用某事物",
+        "formEn": "do away with something",
+        "exampleZh": "學校已取消舊校服規定。",
+        "exampleEn": "The school has done away with its old uniform.",
+        "highlight": "done away with"
+      },
+      {
+        "formZh": "嚴重傷害、殺死某人,或嚴重損壞某物",
+        "formEn": "do for somebody/something",
+        "exampleZh": "那場病差點令他喪命。",
+        "exampleEn": "The illness nearly did for him.",
+        "highlight": "did for"
+      },
+      {
+        "formZh": "不公平地批評或貶低某人;看輕自己",
+        "formEn": "do somebody down / do yourself down",
+        "exampleZh": "不要貶低自己。",
+        "exampleEn": "Do not do yourself down.",
+        "highlight": "Do not do yourself down"
+      },
+      {
+        "formZh": "殺死某人",
+        "formEn": "do somebody in — kill",
+        "exampleZh": "在故事中,毒藥殺死了國王。",
+        "exampleEn": "In the story, the poison did the king in.",
+        "highlight": "did the king in"
+      },
+      {
+        "formZh": "令某人極度疲倦;把某人累垮",
+        "formEn": "do somebody in — exhaust",
+        "exampleZh": "那段長途步行令我們疲憊不堪。",
+        "exampleEn": "The long walk really did us in.",
+        "highlight": "did us in"
+      },
+      {
+        "formZh": "襲擊並痛打某人",
+        "formEn": "do somebody over",
+        "exampleZh": "他們威脅要襲擊並痛打他。",
+        "exampleEn": "They threatened to do him over.",
+        "highlight": "do him over"
+      },
+      {
+        "formZh": "佈置或裝飾房間、房屋等",
+        "formEn": "do something out",
+        "exampleZh": "他們把禮堂佈置成藍白兩色。",
+        "exampleEn": "They did the hall out in blue and white.",
+        "highlight": "did the hall out"
+      },
+      {
+        "formZh": "闖入房屋或其他地方偷竊,並把地方翻亂",
+        "formEn": "do something over",
+        "exampleZh": "竊賊在夜間闖入店舖偷竊,並把店內翻得一片凌亂。",
+        "exampleEn": "Thieves did the shop over during the night.",
+        "highlight": "did the shop over"
+      },
+      {
+        "formZh": "用紙或其他物料包好某物",
+        "formEn": "do something up — wrap",
+        "exampleZh": "她用紅紙包好禮物。",
+        "exampleEn": "She did the gift up in red paper.",
+        "highlight": "did the gift up"
+      },
+      {
+        "formZh": "處理、使用或放置某事物",
+        "formEn": "do something with something",
+        "exampleZh": "你把我的鎖匙放到哪裏去了?",
+        "exampleEn": "What have you done with my keys?",
+        "highlight": "done with"
+      },
+      {
+        "formZh": "找事情做;打發自己的時間",
+        "formEn": "do something with yourself",
+        "exampleZh": "她不知道可以做甚麼來打發時間。",
+        "exampleEn": "She does not know what to do with herself.",
+        "highlight": "does not know what to do with"
+      },
+      {
+        "formZh": "扣好、綁好、拉上或關緊",
+        "formEn": "do up / do something up — fasten",
+        "exampleZh": "這條裙在側面扣上。",
+        "exampleEn": "This dress does up at the side.",
+        "highlight": "does up"
+      },
+      {
+        "formZh": "完成使用或處理某人或某事;不再理會",
+        "formEn": "have done with somebody/something / be done with somebody/something",
+        "exampleZh": "把表格撕掉,事情就此完結。",
+        "exampleEn": "Tear up the form and be done with it.",
+        "highlight": "Tear"
+      },
+      {
+        "formZh": "在沒有某人或某物的情況下應付",
+        "formEn": "do without / do without somebody/something",
+        "exampleZh": "我們沒有牛奶,所以只好不用牛奶也照常過。",
+        "exampleEn": "We have no milk, so we will have to do without.",
+        "highlight": "do"
+      },
+      {
+        "formZh": "自殺",
+        "formEn": "do yourself in",
+        "exampleZh": "他的朋友阻止了他自殺。",
+        "exampleEn": "His friend stopped him from doing himself in.",
+        "highlight": "doing himself in"
+      },
+      {
+        "formZh": "悉心打扮,使自己看來漂亮或醒目",
+        "formEn": "do yourself up",
+        "exampleZh": "她為派對悉心打扮。",
+        "exampleEn": "She did herself up for the party.",
+        "highlight": "did herself up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "殺害某人或自己;除掉某人",
+      "titleEn": "do away with somebody/yourself",
+      "formula": "do away with somebody/yourself",
+      "highlight": "do away with somebody/yourself",
+      "descriptionZh": "殺害某人或自己;除掉某人",
+      "descriptionEn": "The villain planned to do away with the witness.",
+      "examples": [
+        {
+          "en": "The villain planned to do away with the witness.",
+          "zh": "壞人計劃殺害證人。",
+          "highlight": "do away with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "廢除、取消或停止使用某事物",
+      "titleEn": "do away with something",
+      "formula": "do away with something",
+      "highlight": "do away with something",
+      "descriptionZh": "廢除、取消或停止使用某事物",
+      "descriptionEn": "The school has done away with its old uniform.",
+      "examples": [
+        {
+          "en": "The school has done away with its old uniform.",
+          "zh": "學校已取消舊校服規定。",
+          "highlight": "done away with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "嚴重傷害、殺死某人,或嚴重損壞某物",
+      "titleEn": "do for somebody/something",
+      "formula": "do for somebody/something",
+      "highlight": "do for somebody/something",
+      "descriptionZh": "嚴重傷害、殺死某人,或嚴重損壞某物",
+      "descriptionEn": "The illness nearly did for him.",
+      "examples": [
+        {
+          "en": "The illness nearly did for him.",
+          "zh": "那場病差點令他喪命。",
+          "highlight": "did for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "不公平地批評或貶低某人;看輕自己",
+      "titleEn": "do somebody down / do yourself down",
+      "formula": "do somebody down / do yourself down",
+      "highlight": "do somebody down / do yourself down",
+      "descriptionZh": "不公平地批評或貶低某人;看輕自己",
+      "descriptionEn": "Do not do yourself down.",
+      "examples": [
+        {
+          "en": "Do not do yourself down.",
+          "zh": "不要貶低自己。",
+          "highlight": "Do not do yourself down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "殺死某人",
+      "titleEn": "do somebody in — kill",
+      "formula": "do somebody in — kill",
+      "highlight": "do somebody in — kill",
+      "descriptionZh": "殺死某人",
+      "descriptionEn": "In the story, the poison did the king in.",
+      "examples": [
+        {
+          "en": "In the story, the poison did the king in.",
+          "zh": "在故事中,毒藥殺死了國王。",
+          "highlight": "did the king in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "令某人極度疲倦;把某人累垮",
+      "titleEn": "do somebody in — exhaust",
+      "formula": "do somebody in — exhaust",
+      "highlight": "do somebody in — exhaust",
+      "descriptionZh": "令某人極度疲倦;把某人累垮",
+      "descriptionEn": "The long walk really did us in.",
+      "examples": [
+        {
+          "en": "The long walk really did us in.",
+          "zh": "那段長途步行令我們疲憊不堪。",
+          "highlight": "did us in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "襲擊並痛打某人",
+      "titleEn": "do somebody over",
+      "formula": "do somebody over",
+      "highlight": "do somebody over",
+      "descriptionZh": "襲擊並痛打某人",
+      "descriptionEn": "They threatened to do him over.",
+      "examples": [
+        {
+          "en": "They threatened to do him over.",
+          "zh": "他們威脅要襲擊並痛打他。",
+          "highlight": "do him over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "佈置或裝飾房間、房屋等",
+      "titleEn": "do something out",
+      "formula": "do something out",
+      "highlight": "do something out",
+      "descriptionZh": "佈置或裝飾房間、房屋等",
+      "descriptionEn": "They did the hall out in blue and white.",
+      "examples": [
+        {
+          "en": "They did the hall out in blue and white.",
+          "zh": "他們把禮堂佈置成藍白兩色。",
+          "highlight": "did the hall out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "闖入房屋或其他地方偷竊,並把地方翻亂",
+      "titleEn": "do something over",
+      "formula": "do something over",
+      "highlight": "do something over",
+      "descriptionZh": "闖入房屋或其他地方偷竊,並把地方翻亂",
+      "descriptionEn": "Thieves did the shop over during the night.",
+      "examples": [
+        {
+          "en": "Thieves did the shop over during the night.",
+          "zh": "竊賊在夜間闖入店舖偷竊,並把店內翻得一片凌亂。",
+          "highlight": "did the shop over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "用紙或其他物料包好某物",
+      "titleEn": "do something up — wrap",
+      "formula": "do something up — wrap",
+      "highlight": "do something up — wrap",
+      "descriptionZh": "用紙或其他物料包好某物",
+      "descriptionEn": "She did the gift up in red paper.",
+      "examples": [
+        {
+          "en": "She did the gift up in red paper.",
+          "zh": "她用紅紙包好禮物。",
+          "highlight": "did the gift up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "處理、使用或放置某事物",
+      "titleEn": "do something with something",
+      "formula": "do something with something",
+      "highlight": "do something with something",
+      "descriptionZh": "處理、使用或放置某事物",
+      "descriptionEn": "What have you done with my keys?",
+      "examples": [
+        {
+          "en": "What have you done with my keys?",
+          "zh": "你把我的鎖匙放到哪裏去了?",
+          "highlight": "done with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "找事情做;打發自己的時間",
+      "titleEn": "do something with yourself",
+      "formula": "do something with yourself",
+      "highlight": "do something with yourself",
+      "descriptionZh": "找事情做;打發自己的時間",
+      "descriptionEn": "She does not know what to do with herself.",
+      "examples": [
+        {
+          "en": "She does not know what to do with herself.",
+          "zh": "她不知道可以做甚麼來打發時間。",
+          "highlight": "does not know what to do with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "扣好、綁好、拉上或關緊",
+      "titleEn": "do up / do something up — fasten",
+      "formula": "do up / do something up — fasten",
+      "highlight": "do up / do something up — fasten",
+      "descriptionZh": "扣好、綁好、拉上或關緊",
+      "descriptionEn": "This dress does up at the side.",
+      "examples": [
+        {
+          "en": "This dress does up at the side.",
+          "zh": "這條裙在側面扣上。",
+          "highlight": "does up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "完成使用或處理某人或某事;不再理會",
+      "titleEn": "have done with somebody/something / be done with somebody/something",
+      "formula": "have done with somebody/something / be done with somebody/something",
+      "highlight": "have done with somebody/something / be done with somebody/something",
+      "descriptionZh": "完成使用或處理某人或某事;不再理會",
+      "descriptionEn": "Tear up the form and be done with it.",
+      "examples": [
+        {
+          "en": "Tear up the form and be done with it.",
+          "zh": "把表格撕掉,事情就此完結。",
+          "highlight": "Tear"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "在沒有某人或某物的情況下應付",
+      "titleEn": "do without / do without somebody/something",
+      "formula": "do without / do without somebody/something",
+      "highlight": "do without / do without somebody/something",
+      "descriptionZh": "在沒有某人或某物的情況下應付",
+      "descriptionEn": "We have no milk, so we will have to do without.",
+      "examples": [
+        {
+          "en": "We have no milk, so we will have to do without.",
+          "zh": "我們沒有牛奶,所以只好不用牛奶也照常過。",
+          "highlight": "do"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "自殺",
+      "titleEn": "do yourself in",
+      "formula": "do yourself in",
+      "highlight": "do yourself in",
+      "descriptionZh": "自殺",
+      "descriptionEn": "His friend stopped him from doing himself in.",
+      "examples": [
+        {
+          "en": "His friend stopped him from doing himself in.",
+          "zh": "他的朋友阻止了他自殺。",
+          "highlight": "doing himself in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "悉心打扮,使自己看來漂亮或醒目",
+      "titleEn": "do yourself up",
+      "formula": "do yourself up",
+      "highlight": "do yourself up",
+      "descriptionZh": "悉心打扮,使自己看來漂亮或醒目",
+      "descriptionEn": "She did herself up for the party.",
+      "examples": [
+        {
+          "en": "She did herself up for the party.",
+          "zh": "她為派對悉心打扮。",
+          "highlight": "did herself up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 DO 談論取消事物或在缺少事物時應付",
+      "titleEn": "Use DO to talk about removing things or managing without them",
+      "zh": "do away with 可以表示取消舊制度;do without 則表示在缺少某事物時仍然應付得到。",
+      "en": "Do away with can describe ending an old system, while do without describes managing when something is unavailable."
+    },
+    {
+      "titleZh": "描述別人受到的對待或影響",
+      "titleEn": "Describe how people are treated or affected",
+      "zh": "DO 片語動詞可以描述不公平的批評、極度疲倦、襲擊和其他對人的重大影響。",
+      "en": "The DO family can describe unfair criticism, serious tiredness, attacks and other strong effects on people."
+    },
+    {
+      "titleZh": "談論衣物、包裝和佈置",
+      "titleEn": "Talk about clothes, wrapping and decoration",
+      "zh": "do up 可以表示包好或扣好某物;do yourself up 與個人打扮有關;do something out 則與佈置地方有關。",
+      "en": "Do up can describe wrapping or fastening something. Do yourself up concerns personal appearance, while do something out concerns decorating a place."
+    },
+    {
+      "titleZh": "詢問物件去了哪裏或某人如何打發時間",
+      "titleEn": "Ask what happened to an object or how someone will spend their time",
+      "zh": "do something with something 可以詢問物件放了在哪裏或會如何使用;do something withyourself 則表示找事情打發時間。",
+      "en": "Do something with something can ask where an object went or how it will be used. Do something with yourself concerns keeping busy."
+    },
+    {
+      "titleZh": "談論徹底完成某事",
+      "titleEn": "Talk about finishing something completely",
+      "zh": "be done with something 表示一項工作、爭論或事物已處理完畢,不再需要理會。",
+      "en": "Be done with something shows that a task, argument or object no longer needs attention."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 DO 談論取消事物或在缺少事物時應付",
+      "描述別人受到的對待或影響",
+      "談論衣物、包裝和佈置",
+      "詢問物件去了哪裏或某人如何打發時間",
+      "談論徹底完成某事"
+    ],
+    "contextsEn": [
+      "Use DO to talk about removing things or managing without them",
+      "Describe how people are treated or affected",
+      "Talk about clothes, wrapping and decoration",
+      "Ask what happened to an object or how someone will spend their time",
+      "Talk about finishing something completely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 DO 談論取消事物或在缺少事物時應付",
+        "titleEn": "Use DO to talk about removing things or managing without them",
+        "zh": "do away with 可以表示取消舊制度;do without 則表示在缺少某事物時仍然應付得到。",
+        "en": "Do away with can describe ending an old system, while do without describes managing when something is unavailable.",
+        "examples": [
+          {
+            "en": "The villain planned to do away with the witness.",
+            "zh": "壞人計劃殺害證人。",
+            "highlight": "do away with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述別人受到的對待或影響",
+        "titleEn": "Describe how people are treated or affected",
+        "zh": "DO 片語動詞可以描述不公平的批評、極度疲倦、襲擊和其他對人的重大影響。",
+        "en": "The DO family can describe unfair criticism, serious tiredness, attacks and other strong effects on people.",
+        "examples": [
+          {
+            "en": "The school has done away with its old uniform.",
+            "zh": "學校已取消舊校服規定。",
+            "highlight": "done away with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論衣物、包裝和佈置",
+        "titleEn": "Talk about clothes, wrapping and decoration",
+        "zh": "do up 可以表示包好或扣好某物;do yourself up 與個人打扮有關;do something out 則與佈置地方有關。",
+        "en": "Do up can describe wrapping or fastening something. Do yourself up concerns personal appearance, while do something out concerns decorating a place.",
+        "examples": [
+          {
+            "en": "The illness nearly did for him.",
+            "zh": "那場病差點令他喪命。",
+            "highlight": "did for"
+          }
+        ]
+      },
+      {
+        "titleZh": "詢問物件去了哪裏或某人如何打發時間",
+        "titleEn": "Ask what happened to an object or how someone will spend their time",
+        "zh": "do something with something 可以詢問物件放了在哪裏或會如何使用;do something withyourself 則表示找事情打發時間。",
+        "en": "Do something with something can ask where an object went or how it will be used. Do something with yourself concerns keeping busy.",
+        "examples": [
+          {
+            "en": "Do not do yourself down.",
+            "zh": "不要貶低自己。",
+            "highlight": "Do not do yourself down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論徹底完成某事",
+        "titleEn": "Talk about finishing something completely",
+        "zh": "be done with something 表示一項工作、爭論或事物已處理完畢,不再需要理會。",
+        "en": "Be done with something shows that a task, argument or object no longer needs attention.",
+        "examples": [
+          {
+            "en": "In the story, the poison did the king in.",
+            "zh": "在故事中,毒藥殺死了國王。",
+            "highlight": "did the king in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DO 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DO expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DO 片語動詞。",
+      "en": "Read the whole sentence and choose the DO expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: do him down do it up do them over do her in.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: do him down do it up do them over do her in"
+    },
+    {
+      "titleZh": "DO 片語動詞不會永遠出現在句子的同一位置,請仔細閱讀整句。",
+      "titleEn": "The DO expression will not always appear in the same place.",
+      "zh": "DO 片語動詞不會永遠出現在句子的同一位置,請仔細閱讀整句。",
+      "en": "The DO expression will not always appear in the same place. Read the complete answer carefully: to do without can do without has done without Doing without a car was difficult."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DO 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DO. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DO 動詞片語句子改寫練習",
+    "titleEn": "DO Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DO 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DO. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-211-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The school has stopped using its old uniform.",
+      "promptZh": "學校已停止使用舊校服。",
+      "starter": "The",
+      "answer": "The school has done away with its old uniform.",
+      "answerZh": "學校已取消舊校服規定。",
+      "highlight": "done away with",
+      "targetForm": "do away with something",
+      "targetMeaningZh": "廢除、取消或停止使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Where have you put my keys?",
+      "promptZh": "你把我的鎖匙放到哪裏去了?",
+      "starter": "What",
+      "answer": "What have you done with my keys?",
+      "answerZh": "你把我的鎖匙放到哪裏去了?",
+      "highlight": "What",
+      "targetForm": "do something with something",
+      "targetMeaningZh": "處理、使用或放置某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "This dress fastens at the side.",
+      "promptZh": "這條裙在側面扣上。",
+      "starter": "This",
+      "answer": "This dress does up at the side.",
+      "answerZh": "這條裙在側面扣上。",
+      "highlight": "does up",
+      "targetForm": "do up",
+      "targetMeaningZh": "扣好、綁好或拉上"
+    },
+    {
+      "id": "phrasal-verb-211-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Do not speak badly about yourself; your work is good.",
+      "promptZh": "不要貶低自己;你的作品很好。",
+      "starter": "Do",
+      "answer": "Do not do yourself down; your work is good.",
+      "answerZh": "不要貶低自己;你的作品很好。",
+      "highlight": "do",
+      "targetForm": "do yourself down",
+      "targetMeaningZh": "貶低或看輕自己"
+    },
+    {
+      "id": "phrasal-verb-211-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "We have no milk, so we will have to manage without any.",
+      "promptZh": "我們沒有牛奶,所以只好不用牛奶也照常過。",
+      "starter": "We",
+      "answer": "We have no milk, so we will have to do without.",
+      "answerZh": "我們沒有牛奶,所以只好不用牛奶也照常過。",
+      "highlight": "do",
+      "targetForm": "do without",
+      "targetMeaningZh": "在缺少某物的情況下應付"
+    },
+    {
+      "id": "phrasal-verb-211-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "They decorated the hall in blue and white.",
+      "promptZh": "他們把禮堂佈置成藍白兩色。",
+      "starter": "They",
+      "answer": "They did the hall out in blue and white.",
+      "answerZh": "他們把禮堂佈置成藍白兩色。",
+      "highlight": "did",
+      "targetForm": "do something out",
+      "targetMeaningZh": "佈置或裝飾地方"
+    },
+    {
+      "id": "phrasal-verb-211-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The last illness nearly killed him.",
+      "promptZh": "上一次生病差點令他喪命。",
+      "starter": "The",
+      "answer": "The last illness nearly did for him.",
+      "answerZh": "上一次生病差點令他喪命。",
+      "highlight": "did for",
+      "targetForm": "do for somebody",
+      "targetMeaningZh": "嚴重傷害或殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "She does not know how to keep herself busy during the long holiday.",
+      "promptZh": "她不知道漫長假期中可以做甚麼來打發時間。",
+      "starter": "She",
+      "answer": "She does not know what to do with herself during the long holiday.",
+      "answerZh": "她不知道漫長假期中可以做甚麼來打發時間。",
+      "highlight": "does not know what",
+      "targetForm": "do something with yourself",
+      "targetMeaningZh": "找事情做;打發時間"
+    },
+    {
+      "id": "phrasal-verb-211-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "She wrapped the gift in red paper.",
+      "promptZh": "她用紅紙包好禮物。",
+      "starter": "She",
+      "answer": "She did the gift up in red paper.",
+      "answerZh": "她用紅紙包好禮物。",
+      "highlight": "did",
+      "targetForm": "do something up",
+      "targetMeaningZh": "包好某物"
+    },
+    {
+      "id": "phrasal-verb-211-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The gang threatened to attack and beat the shopkeeper.",
+      "promptZh": "那幫人威脅要襲擊並痛打店主。",
+      "starter": "The",
+      "answer": "The gang threatened to do the shopkeeper over.",
+      "answerZh": "那幫人威脅要襲擊並痛打店主。",
+      "highlight": "do",
+      "targetForm": "do somebody over",
+      "targetMeaningZh": "襲擊並痛打某人"
+    },
+    {
+      "id": "phrasal-verb-211-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Tear up the old form and finish with it.",
+      "promptZh": "把舊表格撕掉,事情就此完結。",
+      "starter": "Tear",
+      "answer": "Tear up the old form and be done with it.",
+      "answerZh": "把舊表格撕掉,事情就此完結。",
+      "highlight": "be done",
+      "targetForm": "be done with something",
+      "targetMeaningZh": "完成處理某事;不再理會"
+    },
+    {
+      "id": "phrasal-verb-211-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "She dressed and made herself look attractive for the school dance.",
+      "promptZh": "她為學校舞會悉心打扮。",
+      "starter": "She",
+      "answer": "She did herself up for the school dance.",
+      "answerZh": "她為學校舞會悉心打扮。",
+      "highlight": "did",
+      "targetForm": "do yourself up",
+      "targetMeaningZh": "悉心打扮"
+    },
+    {
+      "id": "phrasal-verb-211-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Thieves entered the small shop and stole things during the night.",
+      "promptZh": "竊賊在夜間闖入小店並偷走物品。",
+      "starter": "Thieves",
+      "answer": "Thieves did the small shop over during the night.",
+      "answerZh": "竊賊在夜間闖入小店偷竊,並把店內翻得一片凌亂。",
+      "highlight": "did",
+      "targetForm": "do something over",
+      "targetMeaningZh": "闖入地方偷竊並翻亂"
+    },
+    {
+      "id": "phrasal-verb-211-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The villain planned to murder the witness.",
+      "promptZh": "壞人計劃殺害證人。",
+      "starter": "The",
+      "answer": "The villain planned to do away with the witness.",
+      "answerZh": "壞人計劃殺害證人。",
+      "highlight": "do away with",
+      "targetForm": "do away with somebody",
+      "targetMeaningZh": "殺害或除掉某人"
+    },
+    {
+      "id": "phrasal-verb-211-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The long walk made us extremely tired.",
+      "promptZh": "那段長途步行令我們疲憊不堪。",
+      "starter": "The",
+      "answer": "The long walk really did us in.",
+      "answerZh": "那段長途步行令我們疲憊不堪。",
+      "highlight": "really did",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "令某人極度疲倦"
+    },
+    {
+      "id": "phrasal-verb-211-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "In the story, the poison killed the king.",
+      "promptZh": "在故事中,毒藥殺死了國王。",
+      "starter": "In",
+      "answer": "In the story, the poison did the king in.",
+      "answerZh": "在故事中,毒藥殺死了國王。",
+      "highlight": "did",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "In the play, the prisoner planned to kill himself.",
+      "promptZh": "在話劇中,囚犯計劃自殺。",
+      "starter": "In",
+      "answer": "In the play, the prisoner planned to do himself in.",
+      "answerZh": "在話劇中,囚犯計劃自殺。",
+      "highlight": "do",
+      "targetForm": "do yourself in",
+      "targetMeaningZh": "自殺"
+    },
+    {
+      "id": "phrasal-verb-211-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The team cannot manage successfully without its best goalkeeper.",
+      "promptZh": "球隊缺少最佳守門員便難以正常應付。",
+      "starter": "The",
+      "answer": "The team cannot do without its best goalkeeper.",
+      "answerZh": "球隊缺少最佳守門員便難以正常應付。",
+      "highlight": "do",
+      "targetForm": "do without somebody",
+      "targetMeaningZh": "在沒有某人的情況下應付"
+    },
+    {
+      "id": "phrasal-verb-211-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Some people are always trying to make their rivals look bad.",
+      "promptZh": "有些人總是企圖令對手看來很差。",
+      "starter": "Some",
+      "answer": "Some people are always trying to do their rivals down.",
+      "answerZh": "有些人總是企圖貶低對手。",
+      "highlight": "do",
+      "targetForm": "do somebody down",
+      "targetMeaningZh": "不公平地批評或貶低某人"
+    },
+    {
+      "id": "phrasal-verb-211-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The books were wrapped in brown paper and tied with string.",
+      "promptZh": "那些書用啡色紙包好,並以繩綁着。",
+      "starter": "The",
+      "answer": "The books were done up in brown paper and tied with string.",
+      "answerZh": "那些書用啡色紙包好,並以繩綁着。",
+      "highlight": "done up",
+      "targetForm": "do something up",
+      "targetMeaningZh": "包好某物"
+    },
+    {
+      "id": "phrasal-verb-211-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The gang may have murdered the missing man.",
+      "promptZh": "那幫人可能殺害了失蹤男子。",
+      "starter": "The",
+      "answer": "The gang may have done away with the missing man.",
+      "answerZh": "那幫人可能殺害了失蹤男子。",
+      "highlight": "done away with",
+      "targetForm": "do away with somebody",
+      "targetMeaningZh": "殺害或除掉某人"
+    },
+    {
+      "id": "phrasal-verb-211-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Please fasten your coat before you go outside.",
+      "promptZh": "外出前請扣好外套。",
+      "starter": "Please",
+      "answer": "Please do your coat up before you go outside.",
+      "answerZh": "外出前請扣好外套。",
+      "highlight": "do",
+      "targetForm": "do something up",
+      "targetMeaningZh": "扣好或拉上某物"
+    },
+    {
+      "id": "phrasal-verb-211-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "We returned home and discovered that thieves had entered the flat and stolen things.",
+      "promptZh": "我們回家後發現有竊賊曾闖入單位偷竊。",
+      "starter": "We",
+      "answer": "We got home to find that the flat had been done over.",
+      "answerZh": "我們回家後發現單位曾遭竊賊搜掠。",
+      "highlight": "got",
+      "targetForm": "do something over",
+      "targetMeaningZh": "闖入地方偷竊並翻亂"
+    },
+    {
+      "id": "phrasal-verb-211-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "How will you keep yourself busy while everyone else is at work?",
+      "promptZh": "其他人工作時,你會做甚麼來打發時間?",
+      "starter": "What",
+      "answer": "What will you do with yourself while everyone else is at work?",
+      "answerZh": "其他人工作時,你會做甚麼來打發時間?",
+      "highlight": "What",
+      "targetForm": "do something with yourself",
+      "targetMeaningZh": "找事情做;打發時間"
+    },
+    {
+      "id": "phrasal-verb-211-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Working all night will make you extremely tired.",
+      "promptZh": "通宵工作會令你疲憊不堪。",
+      "starter": "Working",
+      "answer": "Working all night will do you in.",
+      "answerZh": "通宵工作會令你疲憊不堪。",
+      "highlight": "do",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "令某人極度疲倦"
+    },
+    {
+      "id": "phrasal-verb-211-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Many shops are stopping the use of paper receipts.",
+      "promptZh": "很多店舖正停止使用紙張收據。",
+      "starter": "Many",
+      "answer": "Many shops are doing away with paper receipts.",
+      "answerZh": "很多店舖正停止使用紙張收據。",
+      "highlight": "doing away with",
+      "targetForm": "do away with something",
+      "targetMeaningZh": "廢除或停止使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The actors were dressing and making themselves look attractive before the show.",
+      "promptZh": "演員在演出前正在悉心打扮。",
+      "starter": "The",
+      "answer": "The actors were doing themselves up before the show.",
+      "answerZh": "演員在演出前正在悉心打扮。",
+      "highlight": "doing",
+      "targetForm": "do yourself up",
+      "targetMeaningZh": "悉心打扮"
+    },
+    {
+      "id": "phrasal-verb-211-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "I have finished using the scissors, so you can use them now.",
+      "promptZh": "我已用完剪刀,你現在可以使用了。",
+      "starter": "I",
+      "answer": "I have done with the scissors, so you can use them now.",
+      "answerZh": "我已用完剪刀,你現在可以使用了。",
+      "highlight": "have done with",
+      "targetForm": "have done with something",
+      "targetMeaningZh": "完成使用某物"
+    },
+    {
+      "id": "phrasal-verb-211-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "He was afraid that they might attack and beat him outside the station.",
+      "promptZh": "他擔心那些人可能會在車站外襲擊並痛打他。",
+      "starter": "He",
+      "answer": "He was afraid that they might do him over outside the station.",
+      "answerZh": "他擔心那些人可能會在車站外襲擊並痛打他。",
+      "highlight": "do",
+      "targetForm": "do somebody over",
+      "targetMeaningZh": "襲擊並痛打某人"
+    },
+    {
+      "id": "phrasal-verb-211-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "I do not know how to use all these empty boxes.",
+      "promptZh": "我不知道可以如何處理這些空盒。",
+      "starter": "I",
+      "answer": "I do not know what to do with all these empty boxes.",
+      "answerZh": "我不知道可以如何處理這些空盒。",
+      "highlight": "do not know what",
+      "targetForm": "do something with something",
+      "targetMeaningZh": "處理或使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "One more long journey could seriously damage the old van beyond use.",
+      "promptZh": "再走一次長途旅程,可能會令那輛舊客貨車徹底損壞。",
+      "starter": "One",
+      "answer": "One more long journey could do for the old van.",
+      "answerZh": "再走一次長途旅程,可能會令那輛舊客貨車徹底損壞。",
+      "highlight": "do for",
+      "targetForm": "do for something",
+      "targetMeaningZh": "嚴重損壞某物"
+    },
+    {
+      "id": "phrasal-verb-211-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The counsellor feared that the man might kill himself.",
+      "promptZh": "輔導員擔心那名男子可能會自殺。",
+      "starter": "The",
+      "answer": "The counsellor feared that the man might do himself in.",
+      "answerZh": "輔導員擔心那名男子可能會自殺。",
+      "highlight": "do",
+      "targetForm": "do yourself in",
+      "targetMeaningZh": "自殺"
+    },
+    {
+      "id": "phrasal-verb-211-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We are having the café decorated with plants and warm lights.",
+      "promptZh": "我們正請人用植物和溫暖的燈光佈置咖啡店。",
+      "starter": "We",
+      "answer": "We are having the café done out with plants and warm lights.",
+      "answerZh": "我們正請人用植物和溫暖的燈光佈置咖啡店。",
+      "highlight": "done out",
+      "targetForm": "do something out",
+      "targetMeaningZh": "佈置或裝飾地方"
+    },
+    {
+      "id": "phrasal-verb-211-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The gang threatened to kill him if he spoke to the police.",
+      "promptZh": "那幫人威脅說,如果他向警方說話,便會殺死他。",
+      "starter": "The",
+      "answer": "The gang threatened to do him in if he spoke to the police.",
+      "answerZh": "那幫人威脅說,如果他向警方說話,便會殺死他。",
+      "highlight": "do",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The teacher asked how we were going to use or remove the old computers.",
+      "promptZh": "老師問我們打算如何處理那些舊電腦。",
+      "starter": "The",
+      "answer": "The teacher asked what we were going to do with the old computers.",
+      "answerZh": "老師問我們打算如何處理那些舊電腦。",
+      "highlight": "what",
+      "targetForm": "do something with something",
+      "targetMeaningZh": "處理或使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "For the party, the children decorated the room with paper stars.",
+      "promptZh": "孩子們為派對用紙星星佈置房間。",
+      "starter": "For",
+      "answer": "For the party, the children did the room out with paper stars.",
+      "answerZh": "孩子們為派對用紙星星佈置房間。",
+      "highlight": "did",
+      "targetForm": "do something out",
+      "targetMeaningZh": "佈置或裝飾地方"
+    },
+    {
+      "id": "phrasal-verb-211-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "It was the final attack that killed the monster.",
+      "promptZh": "正是最後一次攻擊殺死了怪物。",
+      "starter": "It",
+      "answer": "It was the final attack that did the monster in.",
+      "answerZh": "正是最後一次攻擊殺死了怪物。",
+      "highlight": "did",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I cannot close the suitcase because it is too full.",
+      "promptZh": "我無法關好行李箱,因為裏面太滿了。",
+      "starter": "I",
+      "answer": "I cannot do the suitcase up because it is too full.",
+      "answerZh": "我無法關好行李箱,因為裏面太滿了。",
+      "highlight": "do",
+      "targetForm": "do something up",
+      "targetMeaningZh": "扣好、拉上或關緊"
+    },
+    {
+      "id": "phrasal-verb-211-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The guard stopped the spy from killing himself.",
+      "promptZh": "守衞阻止了間諜自殺。",
+      "starter": "The",
+      "answer": "The guard stopped the spy from doing away with himself.",
+      "answerZh": "守衞阻止了間諜自殺。",
+      "highlight": "doing away with",
+      "targetForm": "do away with yourself",
+      "targetMeaningZh": "殺死自己"
+    },
+    {
+      "id": "phrasal-verb-211-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "For one week, the family managed without a car.",
+      "promptZh": "這個家庭有一星期沒有汽車也應付得到。",
+      "starter": "For",
+      "answer": "For one week, the family managed to do without a car.",
+      "answerZh": "這個家庭有一星期沒有汽車也應付得到。",
+      "highlight": "to do",
+      "targetForm": "do without something",
+      "targetMeaningZh": "在沒有某物的情況下應付"
+    },
+    {
+      "id": "phrasal-verb-211-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The police asked whether thieves had searched the office and stolen things before anything was moved.",
+      "promptZh": "警方詢問在任何物件被移動前,辦公室是否曾遭竊賊搜掠。",
+      "starter": "The",
+      "answer": "The police asked whether the office had been done over before anything was moved.",
+      "answerZh": "警方詢問在任何物件被移動前,辦公室是否曾遭竊賊搜掠。",
+      "highlight": "had been done over",
+      "targetForm": "do something over",
+      "targetMeaningZh": "闖入地方偷竊並翻亂"
+    },
+    {
+      "id": "phrasal-verb-211-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The article treated the young player unfairly by ignoring his good work.",
+      "promptZh": "文章忽略了那名年輕球員的良好表現,對他作出不公平的批評。",
+      "starter": "The",
+      "answer": "The article did the young player down by ignoring his good work.",
+      "answerZh": "文章忽略了那名年輕球員的良好表現,對他作出不公平的批評。",
+      "highlight": "did",
+      "targetForm": "do somebody down",
+      "targetMeaningZh": "不公平地批評或貶低某人"
+    },
+    {
+      "id": "phrasal-verb-211-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "After making herself look attractive with great care, Grace went downstairs to meet the guests.",
+      "promptZh": "格蕾絲悉心打扮後,下樓迎接客人。",
+      "starter": "Having",
+      "answer": "Having done herself up carefully, Grace went downstairs to meet the guests.",
+      "answerZh": "格蕾絲悉心打扮後,下樓迎接客人。",
+      "highlight": "Having done",
+      "targetForm": "do yourself up",
+      "targetMeaningZh": "悉心打扮"
+    },
+    {
+      "id": "phrasal-verb-211-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The rough roads have finally ruined the car.",
+      "promptZh": "崎嶇的道路終於把汽車嚴重損壞。",
+      "starter": "The",
+      "answer": "The rough roads have finally done for the car.",
+      "answerZh": "崎嶇的道路終於把汽車嚴重損壞。",
+      "highlight": "done for",
+      "targetForm": "do for something",
+      "targetMeaningZh": "嚴重損壞某物"
+    },
+    {
+      "id": "phrasal-verb-211-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Left alone for the afternoon, the children could not decide how to keep themselves busy.",
+      "promptZh": "孩子們下午獨自在家,不知道可以做甚麼打發時間。",
+      "starter": "Left",
+      "answer": "Left alone for the afternoon, the children could not decide what to do with themselves.",
+      "answerZh": "孩子們下午獨自在家,不知道可以做甚麼打發時間。",
+      "highlight": "what",
+      "targetForm": "do something with yourself",
+      "targetMeaningZh": "找事情做;打發時間"
+    },
+    {
+      "id": "phrasal-verb-211-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Could you wrap these flowers in clear paper for me?",
+      "promptZh": "你可以替我用透明紙包好這些花嗎?",
+      "starter": "Could",
+      "answer": "Could you do these flowers up in clear paper for me?",
+      "answerZh": "你可以替我用透明紙包好這些花嗎?",
+      "highlight": "do",
+      "targetForm": "do something up",
+      "targetMeaningZh": "包好某物"
+    },
+    {
+      "id": "phrasal-verb-211-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The man said that three attackers had beaten him badly.",
+      "promptZh": "那名男子說,三名襲擊者曾痛打他。",
+      "starter": "The",
+      "answer": "The man said that he had been done over by three attackers.",
+      "answerZh": "那名男子說,他曾遭三名襲擊者痛打。",
+      "highlight": "he had been done over by",
+      "targetForm": "do somebody over",
+      "targetMeaningZh": "襲擊並痛打某人"
+    },
+    {
+      "id": "phrasal-verb-211-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Do not leave yet; the teacher has not finished speaking to you.",
+      "promptZh": "先不要離開;老師還未跟你說完。",
+      "starter": "Do",
+      "answer": "Do not leave yet; the teacher has not done with you.",
+      "answerZh": "先不要離開;老師還未跟你說完。",
+      "highlight": "has not done with",
+      "targetForm": "have done with somebody",
+      "targetMeaningZh": "完成與某人的談話或處理"
+    },
+    {
+      "id": "phrasal-verb-211-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The rule should have been abolished years ago.",
+      "promptZh": "這項規則多年前便應該被廢除。",
+      "starter": "The",
+      "answer": "The rule should have been done away with years ago.",
+      "answerZh": "這項規則多年前便應該被廢除。",
+      "highlight": "done away with",
+      "targetForm": "do away with something",
+      "targetMeaningZh": "廢除或取消某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The emergency team acted after he had threatened to kill himself.",
+      "promptZh": "他威脅要自殺後,緊急支援人員採取了行動。",
+      "starter": "The",
+      "answer": "The emergency team acted after he had threatened to do himself in.",
+      "answerZh": "他威脅要自殺後,緊急支援人員採取了行動。",
+      "highlight": "do",
+      "targetForm": "do yourself in",
+      "targetMeaningZh": "自殺"
+    },
+    {
+      "id": "phrasal-verb-211-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "By the end of the match, the heat had made the players extremely tired.",
+      "promptZh": "比賽結束時,炎熱天氣已令球員疲憊不堪。",
+      "starter": "By",
+      "answer": "By the end of the match, the heat had done the players in.",
+      "answerZh": "比賽結束時,炎熱天氣已令球員疲憊不堪。",
+      "highlight": "done",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "令某人極度疲倦"
+    },
+    {
+      "id": "phrasal-verb-211-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "That fall might have killed her without the safety rope.",
+      "promptZh": "若沒有安全繩,那次墮下可能已令她喪命。",
+      "starter": "That",
+      "answer": "That fall might have done for her without the safety rope.",
+      "answerZh": "若沒有安全繩,那次墮下可能已令她喪命。",
+      "highlight": "done for",
+      "targetForm": "do for somebody",
+      "targetMeaningZh": "嚴重傷害或殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Once we have finished this job, we can go home.",
+      "promptZh": "完成這項工作後,我們便可以回家。",
+      "starter": "Once",
+      "answer": "Once we are done with this job, we can go home.",
+      "answerZh": "完成這項工作後,我們便可以回家。",
+      "highlight": "are done with",
+      "targetForm": "be done with something",
+      "targetMeaningZh": "完成處理某事"
+    },
+    {
+      "id": "phrasal-verb-211-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Why would anyone want to beat the driver badly for such a small amount of money?",
+      "promptZh": "為何有人會為了這麼少的金錢而想痛打那名司機?",
+      "starter": "Why",
+      "answer": "Why would anyone want to do the driver over for such a small amount of money?",
+      "answerZh": "為何有人會為了這麼少的金錢而想痛打那名司機?",
+      "highlight": "do",
+      "targetForm": "do somebody over",
+      "targetMeaningZh": "襲擊並痛打某人"
+    },
+    {
+      "id": "phrasal-verb-211-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "By removing the extra form, the club made joining easier.",
+      "promptZh": "會所取消額外表格後,加入程序變得更容易。",
+      "starter": "By",
+      "answer": "By doing away with the extra form, the club made joining easier.",
+      "answerZh": "會所取消額外表格後,加入程序變得更容易。",
+      "highlight": "doing away with",
+      "targetForm": "do away with something",
+      "targetMeaningZh": "廢除或取消某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "You do not need to dress very smartly for a simple family meal.",
+      "promptZh": "普通家庭聚餐不需要悉心打扮。",
+      "starter": "You",
+      "answer": "You do not need to do yourself up for a simple family meal.",
+      "answerZh": "普通家庭聚餐不需要悉心打扮。",
+      "highlight": "do yourself up",
+      "targetForm": "do yourself up",
+      "targetMeaningZh": "悉心打扮"
+    },
+    {
+      "id": "phrasal-verb-211-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "If you do not want the extra ticket, how will you use it?",
+      "promptZh": "如果你不需要額外門票,你會如何處理它?",
+      "starter": "If",
+      "answer": "If you do not want the extra ticket, what will you do with it?",
+      "answerZh": "如果你不需要額外門票,你會如何處理它?",
+      "highlight": "do not want the extra ticket, what",
+      "targetForm": "do something with something",
+      "targetMeaningZh": "處理或使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "His friend stayed with him to stop him from killing himself.",
+      "promptZh": "他的朋友陪伴着他,以阻止他自殺。",
+      "starter": "His",
+      "answer": "His friend stayed with him to stop him from doing himself in.",
+      "answerZh": "他的朋友陪伴着他,以阻止他自殺。",
+      "highlight": "doing",
+      "targetForm": "do yourself in",
+      "targetMeaningZh": "自殺"
+    },
+    {
+      "id": "phrasal-verb-211-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The bedroom was decorated in pale green rather than dark red.",
+      "promptZh": "睡房採用淺綠色而非深紅色來佈置。",
+      "starter": "The",
+      "answer": "The bedroom was done out in pale green rather than dark red.",
+      "answerZh": "睡房採用淺綠色而非深紅色來佈置。",
+      "highlight": "done out",
+      "targetForm": "do something out",
+      "targetMeaningZh": "佈置或裝飾地方"
+    },
+    {
+      "id": "phrasal-verb-211-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Why are you speaking so badly about yourself when you passed every test?",
+      "promptZh": "你每項測驗都合格,為何仍要貶低自己?",
+      "starter": "Why",
+      "answer": "Why are you doing yourself down when you passed every test?",
+      "answerZh": "你每項測驗都合格,為何仍要貶低自己?",
+      "highlight": "doing",
+      "targetForm": "do yourself down",
+      "targetMeaningZh": "貶低或看輕自己"
+    },
+    {
+      "id": "phrasal-verb-211-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Were all the children's seat belts fastened before the car moved?",
+      "promptZh": "汽車開動前,所有孩子的安全帶都有扣好嗎?",
+      "starter": "Were",
+      "answer": "Were all the children's seat belts done up before the car moved?",
+      "answerZh": "汽車開動前,所有孩子的安全帶都有扣好嗎?",
+      "highlight": "done up",
+      "targetForm": "do something up",
+      "targetMeaningZh": "扣好或繫緊某物"
+    },
+    {
+      "id": "phrasal-verb-211-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "In the final chapter, the ruler orders a servant to kill his rival.",
+      "promptZh": "在最後一章,統治者命令僕人殺害他的對手。",
+      "starter": "In",
+      "answer": "In the final chapter, the ruler orders a servant to do away with his rival.",
+      "answerZh": "在最後一章,統治者命令僕人殺害他的對手。",
+      "highlight": "do away with",
+      "targetForm": "do away with somebody",
+      "targetMeaningZh": "殺害或除掉某人"
+    },
+    {
+      "id": "phrasal-verb-211-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Rather than use a box, he wrapped the shirt in soft paper.",
+      "promptZh": "他沒有使用盒子,而是用柔軟的紙包好恤衫。",
+      "starter": "Rather",
+      "answer": "Rather than use a box, he did the shirt up in soft paper.",
+      "answerZh": "他沒有使用盒子,而是用柔軟的紙包好恤衫。",
+      "highlight": "did",
+      "targetForm": "do something up",
+      "targetMeaningZh": "包好某物"
+    },
+    {
+      "id": "phrasal-verb-211-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Could you manage without your phone for a whole day?",
+      "promptZh": "你可以一整天不用電話也應付得到嗎?",
+      "starter": "Could",
+      "answer": "Could you do without your phone for a whole day?",
+      "answerZh": "你可以一整天不用電話也應付得到嗎?",
+      "highlight": "do",
+      "targetForm": "do without something",
+      "targetMeaningZh": "在沒有某物的情況下應付"
+    },
+    {
+      "id": "phrasal-verb-211-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The detective believed that someone had tried to kill the witness.",
+      "promptZh": "偵探相信有人曾企圖殺害證人。",
+      "starter": "The",
+      "answer": "The detective believed that someone had tried to do the witness in.",
+      "answerZh": "偵探相信有人曾企圖殺害證人。",
+      "highlight": "do",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "While the family was away, someone entered the house, searched it and stole several computers.",
+      "promptZh": "那家人外出期間,有人闖入房屋搜掠,並偷走數部電腦。",
+      "starter": "While",
+      "answer": "While the family was away, someone did the house over and stole several computers.",
+      "answerZh": "那家人外出期間,有人闖入房屋搜掠,並偷走數部電腦。",
+      "highlight": "did",
+      "targetForm": "do something over",
+      "targetMeaningZh": "闖入地方偷竊並翻亂"
+    },
+    {
+      "id": "phrasal-verb-211-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "He has so much free time now that he hardly knows how to keep himself busy.",
+      "promptZh": "他現在有太多空閒時間,幾乎不知道可以做甚麼來打發時間。",
+      "starter": "He",
+      "answer": "He has so much free time now that he hardly knows what to do with himself.",
+      "answerZh": "他現在有太多空閒時間,幾乎不知道可以做甚麼來打發時間。",
+      "highlight": "what",
+      "targetForm": "do something with yourself",
+      "targetMeaningZh": "找事情做;打發時間"
+    },
+    {
+      "id": "phrasal-verb-211-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Having to wake up at five every day is making me extremely tired.",
+      "promptZh": "每天早上五時起牀令我疲憊不堪。",
+      "starter": "What",
+      "answer": "What is doing me in is having to wake up at five every day.",
+      "answerZh": "每天早上五時起牀令我疲憊不堪。",
+      "highlight": "What is doing me in is",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "令某人極度疲倦"
+    },
+    {
+      "id": "phrasal-verb-211-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "By the time the owner arrived, the thieves had searched the place, stolen things and left every drawer open.",
+      "promptZh": "店主抵達時,竊賊已搜掠了整個地方、偷走物品,並把每個抽屜打開。",
+      "starter": "By",
+      "answer": "By the time the owner arrived, the thieves had done the place over and left every drawer open.",
+      "answerZh": "店主抵達時,竊賊已搜掠了整個地方,並把每個抽屜打開。",
+      "highlight": "done",
+      "targetForm": "do something over",
+      "targetMeaningZh": "闖入地方偷竊並翻亂"
+    },
+    {
+      "id": "phrasal-verb-211-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Once the course ended, Ava wondered how she would keep herself busy until the new term began.",
+      "promptZh": "課程結束後,艾娃不知道新學期開始前可以做甚麼來打發時間。",
+      "starter": "Once",
+      "answer": "Once the course ended, Ava wondered what she would do with herself until the new term began.",
+      "answerZh": "課程結束後,艾娃不知道新學期開始前可以做甚麼來打發時間。",
+      "highlight": "what",
+      "targetForm": "do something with yourself",
+      "targetMeaningZh": "找事情做;打發時間"
+    },
+    {
+      "id": "phrasal-verb-211-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The council decided not to repair the old system but to remove it completely.",
+      "promptZh": "市議會決定不修理舊系統,而是把它完全取消。",
+      "starter": "The",
+      "answer": "The council decided not to repair the old system but to do away with it completely.",
+      "answerZh": "市議會決定不修理舊系統,而是把它完全取消。",
+      "highlight": "do away with",
+      "targetForm": "do away with something",
+      "targetMeaningZh": "廢除或取消某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Nobody knew which enemy had killed the general until the letter was found.",
+      "promptZh": "在找到那封信之前,沒有人知道是哪一名敵人殺死了將軍。",
+      "starter": "Nobody",
+      "answer": "Nobody knew which enemy had done the general in until the letter was found.",
+      "answerZh": "在找到那封信之前,沒有人知道是哪一名敵人殺死了將軍。",
+      "highlight": "done",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "殺死某人"
+    },
+    {
+      "id": "phrasal-verb-211-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Because the new machine was too expensive, the small shop decided it would have to manage without it.",
+      "promptZh": "由於新機器太昂貴,小店決定沒有它也要設法應付。",
+      "starter": "Because",
+      "answer": "Because the new machine was too expensive, the small shop decided it would have to do without it.",
+      "answerZh": "由於新機器太昂貴,小店決定沒有它也要設法應付。",
+      "highlight": "do",
+      "targetForm": "do without something",
+      "targetMeaningZh": "在沒有某物的情況下應付"
+    },
+    {
+      "id": "phrasal-verb-211-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Although the invitation said the party was informal, Daniel dressed in his smartest clothes.",
+      "promptZh": "雖然邀請函表示派對並不正式,丹尼爾仍穿上最醒目的衣服悉心打扮。",
+      "starter": "Although",
+      "answer": "Although the invitation said the party was informal, Daniel did himself up in his smartest clothes.",
+      "answerZh": "雖然邀請函表示派對並不正式,丹尼爾仍穿上最醒目的衣服悉心打扮。",
+      "highlight": "did himself up",
+      "targetForm": "do yourself up",
+      "targetMeaningZh": "悉心打扮"
+    },
+    {
+      "id": "phrasal-verb-211-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Although the manager praised the team in public, he often criticised them unfairly in private.",
+      "promptZh": "雖然經理公開讚揚團隊,但私下經常不公平地批評他們。",
+      "starter": "Although",
+      "answer": "Although the manager praised the team in public, he often did them down in private.",
+      "answerZh": "雖然經理公開讚揚團隊,但私下經常不公平地批評他們。",
+      "highlight": "did",
+      "targetForm": "do somebody down",
+      "targetMeaningZh": "不公平地批評或貶低某人"
+    },
+    {
+      "id": "phrasal-verb-211-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "After choosing the smallest toys, they wrapped them separately so that each child received one parcel.",
+      "promptZh": "他們選出最小的玩具後,逐件分開包好,讓每個孩子收到一份包裹。",
+      "starter": "After",
+      "answer": "After choosing the smallest toys, they did them up separately so that each child received one parcel.",
+      "answerZh": "他們選出最小的玩具後,逐件分開包好,讓每個孩子收到一份包裹。",
+      "highlight": "did",
+      "targetForm": "do something up",
+      "targetMeaningZh": "包好某物"
+    },
+    {
+      "id": "phrasal-verb-211-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Water getting inside the machine finally destroyed it.",
+      "promptZh": "水進入機器內部,最終令它徹底損壞。",
+      "starter": "What",
+      "answer": "What finally did for the machine was water getting inside it.",
+      "answerZh": "水進入機器內部,最終令它徹底損壞。",
+      "highlight": "What finally did for the machine was",
+      "targetForm": "do for something",
+      "targetMeaningZh": "嚴重損壞某物"
+    },
+    {
+      "id": "phrasal-verb-211-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Although the plot was secret, the detective discovered that they intended to murder the mayor.",
+      "promptZh": "雖然陰謀十分秘密,偵探仍發現他們打算殺害市長。",
+      "starter": "Although",
+      "answer": "Although the plot was secret, the detective discovered that they meant to do away with the mayor.",
+      "answerZh": "雖然陰謀十分秘密,偵探仍發現他們打算殺害市長。",
+      "highlight": "meant",
+      "targetForm": "do away with somebody",
+      "targetMeaningZh": "殺害或除掉某人"
+    },
+    {
+      "id": "phrasal-verb-211-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Although the jacket looked loose, it fastened tightly once every button was in place.",
+      "promptZh": "雖然外套看來寬鬆,但扣上所有鈕扣後便變得很緊。",
+      "starter": "Although",
+      "answer": "Although the jacket looked loose, it did up tightly once every button was in place.",
+      "answerZh": "雖然外套看來寬鬆,但扣上所有鈕扣後便變得很緊。",
+      "highlight": "did up",
+      "targetForm": "do up",
+      "targetMeaningZh": "扣好或繫緊"
+    },
+    {
+      "id": "phrasal-verb-211-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "The police arrived before the group could attack and beat the witness.",
+      "promptZh": "警方在那群人襲擊並痛打證人前趕到。",
+      "starter": "The",
+      "answer": "The police arrived before the group could do the witness over.",
+      "answerZh": "警方在那群人襲擊並痛打證人前趕到。",
+      "highlight": "do",
+      "targetForm": "do somebody over",
+      "targetMeaningZh": "襲擊並痛打某人"
+    },
+    {
+      "id": "phrasal-verb-211-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "She wanted to finish the argument quickly and stop thinking about it before dinner.",
+      "promptZh": "她想在晚飯前迅速結束爭論,不再理會此事。",
+      "starter": "She",
+      "answer": "She wanted to finish the argument quickly and be done with it before dinner.",
+      "answerZh": "她想在晚飯前迅速結束爭論,不再理會此事。",
+      "highlight": "be done with",
+      "targetForm": "be done with something",
+      "targetMeaningZh": "完成處理某事;不再理會"
+    },
+    {
+      "id": "phrasal-verb-211-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Having decided on a sea theme, the family decorated the whole flat in blues and soft greys.",
+      "promptZh": "這家人決定採用海洋主題後,以藍色和柔和的灰色佈置整個單位。",
+      "starter": "Having",
+      "answer": "Having decided on a sea theme, the family did the whole flat out in blues and soft greys.",
+      "answerZh": "這家人決定採用海洋主題後,以藍色和柔和的灰色佈置整個單位。",
+      "highlight": "did",
+      "targetForm": "do something out",
+      "targetMeaningZh": "佈置或裝飾地方"
+    },
+    {
+      "id": "phrasal-verb-211-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Although the character believed there was no escape, help arrived before he could kill himself.",
+      "promptZh": "雖然角色認為自己無路可逃,但救援在他自殺前趕到。",
+      "starter": "Although",
+      "answer": "Although the character believed there was no escape, help arrived before he could do himself in.",
+      "answerZh": "雖然角色認為自己無路可逃,但救援在他自殺前趕到。",
+      "highlight": "do",
+      "targetForm": "do yourself in",
+      "targetMeaningZh": "自殺"
+    },
+    {
+      "id": "phrasal-verb-211-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 35,
+      "prompt": "After the event was cancelled, nobody knew how to use the food that had already been prepared.",
+      "promptZh": "活動取消後,沒有人知道應該如何處理已準備好的食物。",
+      "starter": "After",
+      "answer": "After the event was cancelled, nobody knew what to do with the food that had already been prepared.",
+      "answerZh": "活動取消後,沒有人知道應該如何處理已準備好的食物。",
+      "highlight": "what",
+      "targetForm": "do something with something",
+      "targetMeaningZh": "處理或使用某事物"
+    },
+    {
+      "id": "phrasal-verb-211-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 35,
+      "prompt": "The journey looked easy at first, but carrying the bags uphill made them completely exhausted.",
+      "promptZh": "旅程起初看來很容易,但把行李搬上山令他們筋疲力盡。",
+      "starter": "The",
+      "answer": "The journey looked easy at first, but carrying the bags uphill completely did them in.",
+      "answerZh": "旅程起初看來很容易,但把行李搬上山令他們筋疲力盡。",
+      "highlight": "completely did",
+      "targetForm": "do somebody in",
+      "targetMeaningZh": "令某人極度疲倦"
+    }
+  ]
+}

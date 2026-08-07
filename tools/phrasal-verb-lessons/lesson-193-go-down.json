@@ -1,0 +1,1485 @@
+{
+  "id": "phrasal-verb-193",
+  "order": 193,
+  "slug": "go-down",
+  "version": "1",
+  "title": "GO DOWN 動詞片語",
+  "titleEn": "Go Down",
+  "titleZh": "GO DOWN 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 192 - GO DOWN.pdf",
+    "sourceNumber": 192,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GO DOWN 有關的片語動詞及表達。",
+    "en": "Learn and practise the phrasal verbs and expressions related to GO DOWN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GO DOWN",
+      "highlight": "GO DOWN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We’re going down to London next week.",
+      "zh": "我們下星期會南下倫敦。",
+      "highlight": "going down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I went down on my hands and knees to look for the pen.",
+      "zh": "我跪下並以雙手和膝蓋着地,尋找那枝筆。",
+      "highlight": "went down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Shall we go down to the beach for a swim?",
+      "zh": "我們到下面的海灘游泳,好嗎?",
+      "highlight": "go down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "前往另一個地方,尤其是較南方的城市或地區；跪下或俯身,使膝蓋、雙手等着地；從較高位置前往較低的地方；患上某種疾病；向下移動;沿樓梯、斜坡等往下走；被銘記或記錄為某種人物、事件或結果",
+    "en": "go down / go down to a town or city; go down on something; go down to a lower place; go down with something; go down / go down something; go down as something",
+    "naturalZh": [
+      "前往另一個地方,尤其是較南方的城市或地區",
+      "跪下或俯身,使膝蓋、雙手等着地",
+      "從較高位置前往較低的地方",
+      "患上某種疾病",
+      "向下移動;沿樓梯、斜坡等往下走",
+      "被銘記或記錄為某種人物、事件或結果"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "go down / go down to a town or city",
+      "titleZh": "前往另一個地方,尤其是較南方的城市或地區",
+      "titleEn": "go down / go down to a town or city",
+      "descriptionZh": "前往另一個地方,尤其是較南方的城市或地區",
+      "descriptionEn": "We’re going down to London next week.",
+      "examples": [
+        {
+          "en": "We’re going down to London next week.",
+          "zh": "我們下星期會南下倫敦。",
+          "highlight": "going down to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go down on something",
+      "titleZh": "跪下或俯身,使膝蓋、雙手等着地",
+      "titleEn": "go down on something",
+      "descriptionZh": "跪下或俯身,使膝蓋、雙手等着地",
+      "descriptionEn": "I went down on my hands and knees to look for the pen.",
+      "examples": [
+        {
+          "en": "I went down on my hands and knees to look for the pen.",
+          "zh": "我跪下並以雙手和膝蓋着地,尋找那枝筆。",
+          "highlight": "went down on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go down to a lower place",
+      "titleZh": "從較高位置前往較低的地方",
+      "titleEn": "go down to a lower place",
+      "descriptionZh": "從較高位置前往較低的地方",
+      "descriptionEn": "Shall we go down to the beach for a swim?",
+      "examples": [
+        {
+          "en": "Shall we go down to the beach for a swim?",
+          "zh": "我們到下面的海灘游泳,好嗎?",
+          "highlight": "go down to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "go down with something",
+      "titleZh": "患上某種疾病",
+      "titleEn": "go down with something",
+      "descriptionZh": "患上某種疾病",
+      "descriptionEn": "I think I’m going down with a cold.",
+      "examples": [
+        {
+          "en": "I think I’m going down with a cold.",
+          "zh": "我想我可能患上感冒了。",
+          "highlight": "going down with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go down / go down something",
+      "titleZh": "向下移動;沿樓梯、斜坡等往下走",
+      "titleEn": "go down / go down something",
+      "descriptionZh": "向下移動;沿樓梯、斜坡等往下走",
+      "descriptionEn": "We went down the stairs carefully.",
+      "examples": [
+        {
+          "en": "We went down the stairs carefully.",
+          "zh": "我們小心翼翼地走下樓梯。",
+          "highlight": "went down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "go down as something",
+      "titleZh": "被銘記或記錄為某種人物、事件或結果",
+      "titleEn": "go down as something",
+      "descriptionZh": "被銘記或記錄為某種人物、事件或結果",
+      "descriptionEn": "The match went down as one of the best finals in school history.",
+      "examples": [
+        {
+          "en": "The match went down as one of the best finals in school history.",
+          "zh": "這場比賽被銘記為校史上最精彩的決賽之一。",
+          "highlight": "went down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GO DOWN 片語動詞的實際用途",
+    "labelEn": "GO DOWN Phrasal Verbs in Use",
+    "summaryZh": "GO DOWN 表達可以描述南下另一個城市,也可以描述由較高位置前往較低位置。；你可以使用 go down 描述升降機、道路、樓梯、山坡、滑梯及其他向下移動的情況。；go down with something 是英式英語中表示患病的常見說法。；go down as something 可以描述一場比賽、演說、決定或事件日後會如何被銘記。",
+    "summaryEn": "GO DOWN expressions can describe travelling south to another city or moving from a high place to a lower one. You can use go down for lifts, roads, stairs, hills, slides and other downward movement. Go down with something is a common British English expression for becoming ill. Go down as something helps you describe how a match, speech, decision or event will be remembered.",
+    "contextsZh": [
+      "清楚描述不同種類的行程",
+      "自然描述向下移動",
+      "談論患病情況",
+      "說明人們如何記住一件事情"
+    ],
+    "contextsEn": [
+      "Talk clearly about different kinds of journeys",
+      "Describe downward movement naturally",
+      "Talk about becoming ill",
+      "Explain how people remember an event"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GO DOWN 表達。",
+    "formalEn": "Read the whole sentence and choose the GO DOWN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "go down / go down to a town or city",
+    "fixedHighlight": "go down / go down to a town or city",
+    "fixedZh": "閱讀整句,選出意思相同的 GO DOWN 表達。",
+    "fixedEn": "Read the whole sentence and choose the GO DOWN expression that gives the same meaning.",
+    "correct": "going down to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、地點和意思。；留意句子描述的是前往另一個地區,還是由較高位置前往較低位置。；請按照以上方式使用:go down with a cold 表示患上感冒go down as a great success 表示被銘記為一次巨大成功",
+    "variableEn": "Keep the same people, things, time, place and meaning. Notice whether the sentence describes travelling to another area or moving from a higher place to a lower place. Use the expressions as shown: go down with a cold go down as a great success",
+    "variableItemsZh": [
+      "go down / go down to a town or city",
+      "go down on something",
+      "go down to a lower place",
+      "go down with something",
+      "go down / go down something",
+      "go down as something"
+    ],
+    "variableItemsEn": [
+      "go down / go down to a town or city",
+      "go down on something",
+      "go down to a lower place",
+      "go down with something",
+      "go down / go down something",
+      "go down as something"
+    ],
+    "forms": [
+      {
+        "formZh": "前往另一個地方,尤其是較南方的城市或地區",
+        "formEn": "go down / go down to a town or city",
+        "exampleZh": "我們下星期會南下倫敦。",
+        "exampleEn": "We’re going down to London next week.",
+        "highlight": "going down to"
+      },
+      {
+        "formZh": "跪下或俯身,使膝蓋、雙手等着地",
+        "formEn": "go down on something",
+        "exampleZh": "我跪下並以雙手和膝蓋着地,尋找那枝筆。",
+        "exampleEn": "I went down on my hands and knees to look for the pen.",
+        "highlight": "went down on"
+      },
+      {
+        "formZh": "從較高位置前往較低的地方",
+        "formEn": "go down to a lower place",
+        "exampleZh": "我們到下面的海灘游泳,好嗎?",
+        "exampleEn": "Shall we go down to the beach for a swim?",
+        "highlight": "go down to"
+      },
+      {
+        "formZh": "患上某種疾病",
+        "formEn": "go down with something",
+        "exampleZh": "我想我可能患上感冒了。",
+        "exampleEn": "I think I’m going down with a cold.",
+        "highlight": "going down with"
+      },
+      {
+        "formZh": "向下移動;沿樓梯、斜坡等往下走",
+        "formEn": "go down / go down something",
+        "exampleZh": "我們小心翼翼地走下樓梯。",
+        "exampleEn": "We went down the stairs carefully.",
+        "highlight": "went down"
+      },
+      {
+        "formZh": "被銘記或記錄為某種人物、事件或結果",
+        "formEn": "go down as something",
+        "exampleZh": "這場比賽被銘記為校史上最精彩的決賽之一。",
+        "exampleEn": "The match went down as one of the best finals in school history.",
+        "highlight": "went down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "前往另一個地方,尤其是較南方的城市或地區",
+      "titleEn": "go down / go down to a town or city",
+      "formula": "go down / go down to a town or city",
+      "highlight": "go down / go down to a town or city",
+      "descriptionZh": "前往另一個地方,尤其是較南方的城市或地區",
+      "descriptionEn": "We’re going down to London next week.",
+      "examples": [
+        {
+          "en": "We’re going down to London next week.",
+          "zh": "我們下星期會南下倫敦。",
+          "highlight": "going down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "跪下或俯身,使膝蓋、雙手等着地",
+      "titleEn": "go down on something",
+      "formula": "go down on something",
+      "highlight": "go down on something",
+      "descriptionZh": "跪下或俯身,使膝蓋、雙手等着地",
+      "descriptionEn": "I went down on my hands and knees to look for the pen.",
+      "examples": [
+        {
+          "en": "I went down on my hands and knees to look for the pen.",
+          "zh": "我跪下並以雙手和膝蓋着地,尋找那枝筆。",
+          "highlight": "went down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "從較高位置前往較低的地方",
+      "titleEn": "go down to a lower place",
+      "formula": "go down to a lower place",
+      "highlight": "go down to a lower place",
+      "descriptionZh": "從較高位置前往較低的地方",
+      "descriptionEn": "Shall we go down to the beach for a swim?",
+      "examples": [
+        {
+          "en": "Shall we go down to the beach for a swim?",
+          "zh": "我們到下面的海灘游泳,好嗎?",
+          "highlight": "go down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "患上某種疾病",
+      "titleEn": "go down with something",
+      "formula": "go down with something",
+      "highlight": "go down with something",
+      "descriptionZh": "患上某種疾病",
+      "descriptionEn": "I think I’m going down with a cold.",
+      "examples": [
+        {
+          "en": "I think I’m going down with a cold.",
+          "zh": "我想我可能患上感冒了。",
+          "highlight": "going down with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "向下移動;沿樓梯、斜坡等往下走",
+      "titleEn": "go down / go down something",
+      "formula": "go down / go down something",
+      "highlight": "go down / go down something",
+      "descriptionZh": "向下移動;沿樓梯、斜坡等往下走",
+      "descriptionEn": "We went down the stairs carefully.",
+      "examples": [
+        {
+          "en": "We went down the stairs carefully.",
+          "zh": "我們小心翼翼地走下樓梯。",
+          "highlight": "went down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "被銘記或記錄為某種人物、事件或結果",
+      "titleEn": "go down as something",
+      "formula": "go down as something",
+      "highlight": "go down as something",
+      "descriptionZh": "被銘記或記錄為某種人物、事件或結果",
+      "descriptionEn": "The match went down as one of the best finals in school history.",
+      "examples": [
+        {
+          "en": "The match went down as one of the best finals in school history.",
+          "zh": "這場比賽被銘記為校史上最精彩的決賽之一。",
+          "highlight": "went down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述不同種類的行程",
+      "titleEn": "Talk clearly about different kinds of journeys",
+      "zh": "GO DOWN 表達可以描述南下另一個城市,也可以描述由較高位置前往較低位置。",
+      "en": "GO DOWN expressions can describe travelling south to another city or moving from a high place to a lower one."
+    },
+    {
+      "titleZh": "自然描述向下移動",
+      "titleEn": "Describe downward movement naturally",
+      "zh": "你可以使用 go down 描述升降機、道路、樓梯、山坡、滑梯及其他向下移動的情況。",
+      "en": "You can use go down for lifts, roads, stairs, hills, slides and other downward movement."
+    },
+    {
+      "titleZh": "談論患病情況",
+      "titleEn": "Talk about becoming ill",
+      "zh": "go down with something 是英式英語中表示患病的常見說法。",
+      "en": "Go down with something is a common British English expression for becoming ill."
+    },
+    {
+      "titleZh": "說明人們如何記住一件事情",
+      "titleEn": "Explain how people remember an event",
+      "zh": "go down as something 可以描述一場比賽、演說、決定或事件日後會如何被銘記。",
+      "en": "Go down as something helps you describe how a match, speech, decision or event will be remembered."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述不同種類的行程",
+      "自然描述向下移動",
+      "談論患病情況",
+      "說明人們如何記住一件事情"
+    ],
+    "contextsEn": [
+      "Talk clearly about different kinds of journeys",
+      "Describe downward movement naturally",
+      "Talk about becoming ill",
+      "Explain how people remember an event"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述不同種類的行程",
+        "titleEn": "Talk clearly about different kinds of journeys",
+        "zh": "GO DOWN 表達可以描述南下另一個城市,也可以描述由較高位置前往較低位置。",
+        "en": "GO DOWN expressions can describe travelling south to another city or moving from a high place to a lower one.",
+        "examples": [
+          {
+            "en": "We’re going down to London next week.",
+            "zh": "我們下星期會南下倫敦。",
+            "highlight": "going down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述向下移動",
+        "titleEn": "Describe downward movement naturally",
+        "zh": "你可以使用 go down 描述升降機、道路、樓梯、山坡、滑梯及其他向下移動的情況。",
+        "en": "You can use go down for lifts, roads, stairs, hills, slides and other downward movement.",
+        "examples": [
+          {
+            "en": "I went down on my hands and knees to look for the pen.",
+            "zh": "我跪下並以雙手和膝蓋着地,尋找那枝筆。",
+            "highlight": "went down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論患病情況",
+        "titleEn": "Talk about becoming ill",
+        "zh": "go down with something 是英式英語中表示患病的常見說法。",
+        "en": "Go down with something is a common British English expression for becoming ill.",
+        "examples": [
+          {
+            "en": "Shall we go down to the beach for a swim?",
+            "zh": "我們到下面的海灘游泳,好嗎?",
+            "highlight": "go down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明人們如何記住一件事情",
+        "titleEn": "Explain how people remember an event",
+        "zh": "go down as something 可以描述一場比賽、演說、決定或事件日後會如何被銘記。",
+        "en": "Go down as something helps you describe how a match, speech, decision or event will be remembered.",
+        "examples": [
+          {
+            "en": "I think I’m going down with a cold.",
+            "zh": "我想我可能患上感冒了。",
+            "highlight": "going down with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GO DOWN 表達。",
+      "titleEn": "Read the whole sentence and choose the GO DOWN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GO DOWN 表達。",
+      "en": "Read the whole sentence and choose the GO DOWN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、地點和意思。",
+      "titleEn": "Keep the same people, things, time, place and meaning.",
+      "zh": "保留原句中的人物、事物、時間、地點和意思。",
+      "en": "Keep the same people, things, time, place and meaning."
+    },
+    {
+      "titleZh": "留意句子描述的是前往另一個地區,還是由較高位置前往較低位置。",
+      "titleEn": "Notice whether the sentence describes travelling to another area or moving from a higher place to a lower place.",
+      "zh": "留意句子描述的是前往另一個地區,還是由較高位置前往較低位置。",
+      "en": "Notice whether the sentence describes travelling to another area or moving from a higher place to a lower place."
+    },
+    {
+      "titleZh": "請按照以上方式使用:go down with a cold 表示患上感冒go down as a great success 表示被銘記為一次巨大成功",
+      "titleEn": "Use the expressions as shown: go down with a cold go down as a great success.",
+      "zh": "請按照以上方式使用:go down with a cold 表示患上感冒go down as a great success 表示被銘記為一次巨大成功",
+      "en": "Use the expressions as shown: go down with a cold go down as a great success"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GO DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GO DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GO DOWN 動詞片語句子改寫練習",
+    "titleEn": "GO DOWN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GO DOWN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GO DOWN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-193-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We are travelling south to London next week.",
+      "promptZh": "我們下星期會南下倫敦。",
+      "starter": "We",
+      "answer": "We are going down to London next week.",
+      "answerZh": "我們下星期會南下倫敦。",
+      "highlight": "going down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben became ill with a cold yesterday.",
+      "promptZh": "賓昨天患上了感冒。",
+      "starter": "Ben",
+      "answer": "Ben went down with a cold yesterday.",
+      "answerZh": "賓昨天患上了感冒。",
+      "highlight": "went down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Noah lowered himself onto his hands and knees to look under the sofa.",
+      "promptZh": "諾亞跪下並以雙手和膝蓋着地,查看梳化底下。",
+      "starter": "Noah",
+      "answer": "Noah went down on his hands and knees to look under the sofa.",
+      "answerZh": "諾亞跪下並以雙手和膝蓋着地,查看梳化底下。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The concert was remembered as the best school event of the year.",
+      "promptZh": "這場音樂會被銘記為本年度最佳校園活動。",
+      "starter": "The",
+      "answer": "The concert went down as the best school event of the year.",
+      "answerZh": "這場音樂會被銘記為本年度最佳校園活動。",
+      "highlight": "went down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Shall we move to the beach below the cliff path for a swim?",
+      "promptZh": "我們到懸崖小徑下面的海灘游泳,好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we go down to the beach for a swim?",
+      "answerZh": "我們到下面的海灘游泳,好嗎?",
+      "highlight": "go down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The lift is moving to a lower floor.",
+      "promptZh": "升降機正在前往較低樓層。",
+      "starter": "The",
+      "answer": "The lift is going down to a lower floor.",
+      "answerZh": "升降機正在下降至較低樓層。",
+      "highlight": "going down",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ella travelled from Leeds to London for a concert.",
+      "promptZh": "埃拉從列斯南下倫敦參加音樂會。",
+      "starter": "Ella",
+      "answer": "Ella went down to London for a concert.",
+      "answerZh": "埃拉南下倫敦參加音樂會。",
+      "highlight": "went down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "After lunch, the children moved to the river below.",
+      "promptZh": "午飯後,孩子們前往下面的河邊。",
+      "starter": "After",
+      "answer": "After lunch, the children went down to the river below.",
+      "answerZh": "午飯後,孩子們前往下面的河邊。",
+      "highlight": "went down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Her goal will be remembered as one of the finest in the club’s history.",
+      "promptZh": "她的入球將被銘記為球會史上最精彩的入球之一。",
+      "starter": "Her",
+      "answer": "Her goal will go down as one of the finest in the club’s history.",
+      "answerZh": "她的入球將被銘記為球會史上最精彩的入球之一。",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The teacher lowered herself onto one knee to speak to the small child.",
+      "promptZh": "老師單膝跪下,與那名小孩說話。",
+      "starter": "The",
+      "answer": "The teacher went down on one knee to speak to the small child.",
+      "answerZh": "老師單膝跪下,與那名小孩說話。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We walked to the bottom of the stairs very carefully.",
+      "promptZh": "我們非常小心地走到樓梯底部。",
+      "starter": "We",
+      "answer": "We went down the stairs very carefully.",
+      "answerZh": "我們非常小心地走下樓梯。",
+      "highlight": "went down",
+      "targetForm": "go down something",
+      "targetMeaningZh": "沿某處往下走"
+    },
+    {
+      "id": "phrasal-verb-193-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Several pupils became ill with flu after the trip.",
+      "promptZh": "旅程結束後,幾名學生患上了流感。",
+      "starter": "Several",
+      "answer": "Several pupils went down with flu after the trip.",
+      "answerZh": "旅程結束後,幾名學生患上了流感。",
+      "highlight": "went down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The cyclist travelled from the top to the bottom of the steep hill.",
+      "promptZh": "單車手由陡峭山坡的頂部走到山腳。",
+      "starter": "The",
+      "answer": "The cyclist went down the steep hill.",
+      "answerZh": "單車手沿着陡峭山坡向下駛。",
+      "highlight": "went down",
+      "targetForm": "go down something",
+      "targetMeaningZh": "沿某處往下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "That final has been remembered as a classic match.",
+      "promptZh": "那場決賽一直被銘記為一場經典比賽。",
+      "starter": "That",
+      "answer": "That final has gone down as a classic match.",
+      "answerZh": "那場決賽一直被銘記為一場經典比賽。",
+      "highlight": "gone down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The team is travelling south to Birmingham for Saturday’s match.",
+      "promptZh": "球隊正南下伯明翰,參加星期六的比賽。",
+      "starter": "The",
+      "answer": "The team is going down to Birmingham for Saturday’s match.",
+      "answerZh": "球隊正南下伯明翰,參加星期六的比賽。",
+      "highlight": "going down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The goalkeeper is lowering himself onto both knees to stop the ball.",
+      "promptZh": "守門員正雙膝跪下,以阻擋來球。",
+      "starter": "The",
+      "answer": "The goalkeeper is going down on both knees to stop the ball.",
+      "answerZh": "守門員正雙膝跪下,以阻擋來球。",
+      "highlight": "going down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "It seems that Aisha is becoming ill with the same stomach bug as her brother.",
+      "promptZh": "看來艾莎正患上與弟弟相同的腸胃病毒。",
+      "starter": "It",
+      "answer": "It seems that Aisha is going down with the same stomach bug as her brother.",
+      "answerZh": "看來艾莎正患上與弟弟相同的腸胃病毒。",
+      "highlight": "going down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We are moving from the top floor to reception now.",
+      "promptZh": "我們現在正由頂層前往接待處。",
+      "starter": "We",
+      "answer": "We are going down to reception now.",
+      "answerZh": "我們現在正下去接待處。",
+      "highlight": "going down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Could this day be remembered as the start of a new school tradition?",
+      "promptZh": "這一天會被銘記為新校園傳統的開始嗎?",
+      "starter": "Could",
+      "answer": "Could this day go down as the start of a new school tradition?",
+      "answerZh": "這一天會被銘記為新校園傳統的開始嗎?",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has anyone else become ill with the same cold?",
+      "promptZh": "還有其他人患上同一種感冒嗎?",
+      "starter": "Has",
+      "answer": "Has anyone else gone down with the same cold?",
+      "answerZh": "還有其他人患上同一種感冒嗎?",
+      "highlight": "gone down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Could you go to the basement below and get the spare chairs?",
+      "promptZh": "你可以到下面的地下室拿後備椅子嗎?",
+      "starter": "Could",
+      "answer": "Could you go down to the basement and get the spare chairs?",
+      "answerZh": "你可以下去地下室拿後備椅子嗎?",
+      "highlight": "go down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "This road slopes towards the valley after the bridge.",
+      "promptZh": "這條路過橋後便向山谷方向下斜。",
+      "starter": "This",
+      "answer": "This road goes down towards the valley after the bridge.",
+      "answerZh": "這條路過橋後便向山谷方向下斜。",
+      "highlight": "goes down",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下延伸或移動"
+    },
+    {
+      "id": "phrasal-verb-193-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why did Eva lower herself onto her hands and knees?",
+      "promptZh": "伊娃為何跪下並以雙手和膝蓋着地?",
+      "starter": "Why",
+      "answer": "Why did Eva go down on her hands and knees?",
+      "answerZh": "伊娃為何跪下並以雙手和膝蓋着地?",
+      "highlight": "go down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Are you travelling from York to London tomorrow?",
+      "promptZh": "你明天會由約克南下倫敦嗎?",
+      "starter": "Are",
+      "answer": "Are you going down to London tomorrow?",
+      "answerZh": "你明天會南下倫敦嗎?",
+      "highlight": "going down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I lowered myself onto one knee to tie my shoe.",
+      "promptZh": "我單膝跪下綁鞋帶。",
+      "starter": "I",
+      "answer": "I went down on one knee to tie my shoe.",
+      "answerZh": "我單膝跪下綁鞋帶。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The visitors moved to the village below the castle.",
+      "promptZh": "遊客前往城堡下面的村莊。",
+      "starter": "The",
+      "answer": "The visitors went down to the village below the castle.",
+      "answerZh": "遊客前往城堡下面的村莊。",
+      "highlight": "went down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Leo has travelled south to Bristol for a few days.",
+      "promptZh": "里奧已南下布里斯托,逗留數天。",
+      "starter": "Leo",
+      "answer": "Leo has gone down to Bristol for a few days.",
+      "answerZh": "里奧已南下布里斯托,逗留數天。",
+      "highlight": "gone down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The red platform was moving to a lower position when the machine stopped.",
+      "promptZh": "機器停下時,紅色平台正在下降。",
+      "starter": "The",
+      "answer": "The red platform was going down when the machine stopped.",
+      "answerZh": "機器停下時,紅色平台正在下降。",
+      "highlight": "going down",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The mistake was recorded as the team’s worst decision of the season.",
+      "promptZh": "這個錯誤被記錄為球隊今季最差的決定。",
+      "starter": "The",
+      "answer": "The mistake went down as the team’s worst decision of the season.",
+      "answerZh": "這個錯誤被記錄為球隊今季最差的決定。",
+      "highlight": "went down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Two players had become ill with food poisoning before the final.",
+      "promptZh": "決賽前,兩名球員已因食物中毒而患病。",
+      "starter": "Two",
+      "answer": "Two players had gone down with food poisoning before the final.",
+      "answerZh": "決賽前,兩名球員已因食物中毒而患病。",
+      "highlight": "gone down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Dad asked me to go from our room to the hotel lobby downstairs.",
+      "promptZh": "爸爸叫我從房間到樓下的酒店大堂。",
+      "starter": "Dad",
+      "answer": "Dad asked me to go down to the hotel lobby.",
+      "answerZh": "爸爸叫我下去酒店大堂。",
+      "highlight": "go down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "This small café may be remembered as the place where the band first played together.",
+      "promptZh": "這間小咖啡店可能會被銘記為這支樂隊首次一起演出的地方。",
+      "starter": "This",
+      "answer": "This small café may go down as the place where the band first played together.",
+      "answerZh": "這間小咖啡店可能會被銘記為這支樂隊首次一起演出的地方。",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I may become ill with the virus if I do not rest.",
+      "promptZh": "如果我不休息,便可能感染這種病毒。",
+      "starter": "I",
+      "answer": "I may go down with the virus if I do not rest.",
+      "answerZh": "如果我不休息,便可能感染這種病毒。",
+      "highlight": "go down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The boy had lowered himself onto all fours before crawling through the small opening.",
+      "promptZh": "那名男孩在爬過小洞之前,已俯身以四肢着地。",
+      "starter": "The",
+      "answer": "The boy had gone down on all fours before crawling through the small opening.",
+      "answerZh": "那名男孩在爬過小洞之前,已俯身以四肢着地。",
+      "highlight": "gone down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We travelled south to the capital by train, not by car.",
+      "promptZh": "我們乘火車南下首都,而不是駕車。",
+      "starter": "We",
+      "answer": "We went down to the capital by train, not by car.",
+      "answerZh": "我們乘火車南下首都,而不是駕車。",
+      "highlight": "went down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The hikers had walked to the bottom of the narrow stone steps before it became dark.",
+      "promptZh": "天黑之前,遠足者已走到狹窄石階的底部。",
+      "starter": "The",
+      "answer": "The hikers had gone down the narrow stone steps before it became dark.",
+      "answerZh": "天黑之前,遠足者已走下狹窄的石階。",
+      "highlight": "gone down",
+      "targetForm": "go down something",
+      "targetMeaningZh": "沿某處往下走"
+    },
+    {
+      "id": "phrasal-verb-193-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "By Friday, three people in the office had become ill with flu.",
+      "promptZh": "到星期五,辦公室已有三人患上流感。",
+      "starter": "By",
+      "answer": "By Friday, three people in the office had gone down with flu.",
+      "answerZh": "到星期五,辦公室已有三人患上流感。",
+      "highlight": "gone down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Nina said that she would travel south to London after work.",
+      "promptZh": "妮娜說,她下班後會南下倫敦。",
+      "starter": "Nina",
+      "answer": "Nina said that she would go down to London after work.",
+      "answerZh": "妮娜說,她下班後會南下倫敦。",
+      "highlight": "go down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The science fair will probably be remembered as the school’s biggest success this term.",
+      "promptZh": "這次科學展很可能會被銘記為學校本學期最大的成功。",
+      "starter": "The",
+      "answer": "The science fair will probably go down as the school’s biggest success this term.",
+      "answerZh": "這次科學展很可能會被銘記為學校本學期最大的成功。",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the rain stopped, we moved to the lake below the campsite.",
+      "promptZh": "雨停後,我們前往營地下面的湖邊。",
+      "starter": "After",
+      "answer": "After the rain stopped, we went down to the lake below the campsite.",
+      "answerZh": "雨停後,我們前往營地下面的湖邊。",
+      "highlight": "went down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "One side of the see-saw rises while the other side moves lower.",
+      "promptZh": "蹺蹺板的一邊升高,另一邊則下降。",
+      "starter": "One",
+      "answer": "One side of the see-saw rises while the other side goes down.",
+      "answerZh": "蹺蹺板的一邊升高,另一邊則下降。",
+      "highlight": "goes down",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Please lower yourself onto one knee so I can check your shoe.",
+      "promptZh": "請單膝跪下,讓我檢查你的鞋子。",
+      "starter": "Please",
+      "answer": "Please go down on one knee so I can check your shoe.",
+      "answerZh": "請單膝跪下,讓我檢查你的鞋子。",
+      "highlight": "go down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the team lost, the match was remembered as one of the team’s bravest performances.",
+      "promptZh": "雖然球隊輸了,但這場比賽被銘記為球隊最勇敢的表現之一。",
+      "starter": "Although",
+      "answer": "Although the team lost, the match went down as one of the team’s bravest performances.",
+      "answerZh": "雖然球隊輸了,但這場比賽被銘記為球隊最勇敢的表現之一。",
+      "highlight": "went down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The children moved towards the bottom of the slide one after another.",
+      "promptZh": "孩子們一個接一個地滑到滑梯底部。",
+      "starter": "The",
+      "answer": "The children went down the slide one after another.",
+      "answerZh": "孩子們一個接一個地滑下滑梯。",
+      "highlight": "went down",
+      "targetForm": "go down something",
+      "targetMeaningZh": "沿某處往下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "As the coin rolled under the cabinet, Priya lowered herself onto her hands and knees to find it.",
+      "promptZh": "硬幣滾到櫃子底下時,普里雅跪下並以雙手和膝蓋着地找它。",
+      "starter": "As",
+      "answer": "As the coin rolled under the cabinet, Priya went down on her hands and knees to find it.",
+      "answerZh": "硬幣滾到櫃子底下時,普里雅跪下並以雙手和膝蓋着地找它。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The whole family became ill with the same stomach bug within two days.",
+      "promptZh": "全家人在兩天內患上同一種腸胃病毒。",
+      "starter": "The",
+      "answer": "The whole family went down with the same stomach bug within two days.",
+      "answerZh": "全家人在兩天內患上同一種腸胃病毒。",
+      "highlight": "went down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Why don’t we move to the harbour below the viewing point for lunch?",
+      "promptZh": "我們何不到觀景台下面的海港吃午飯?",
+      "starter": "Why",
+      "answer": "Why don’t we go down to the harbour for lunch?",
+      "answerZh": "我們何不到下面的海港吃午飯?",
+      "highlight": "go down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The club may travel from Newcastle to Manchester for the final.",
+      "promptZh": "球會可能會由紐卡素南下曼徹斯特參加決賽。",
+      "starter": "The",
+      "answer": "The club may go down to Manchester for the final.",
+      "answerZh": "球會可能會由紐卡素南下曼徹斯特參加決賽。",
+      "highlight": "go down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The lift was busy, so we went from the sixth floor to the café on the ground floor.",
+      "promptZh": "升降機很忙,所以我們由六樓前往地下的咖啡店。",
+      "starter": "The",
+      "answer": "The lift was busy, so we went down from the sixth floor to the café on the ground floor.",
+      "answerZh": "升降機很忙,所以我們由六樓下去地下的咖啡店。",
+      "highlight": "went down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Many people believe that this speech will be remembered as the event that changed everything for the club.",
+      "promptZh": "很多人相信,這場演說將被銘記為改變球會一切的事件。",
+      "starter": "Many",
+      "answer": "Many people believe that this speech will go down as the event that changed everything for the club.",
+      "answerZh": "很多人相信,這場演說將被銘記為改變球會一切的事件。",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The photographer lowered himself onto one knee so that he could take the picture from a lower angle.",
+      "promptZh": "攝影師單膝跪下,以較低角度拍照。",
+      "starter": "The",
+      "answer": "The photographer went down on one knee so that he could take the picture from a lower angle.",
+      "answerZh": "攝影師單膝跪下,以較低角度拍照。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    },
+    {
+      "id": "phrasal-verb-193-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Why did Sam travel south to Oxford so early?",
+      "promptZh": "森為何那麼早便南下牛津?",
+      "starter": "Why",
+      "answer": "Why did Sam go down to Oxford so early?",
+      "answerZh": "森為何那麼早便南下牛津?",
+      "highlight": "go down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Rosa was worried that she might become ill with a cold before the school show.",
+      "promptZh": "羅莎擔心自己會在學校表演前患上感冒。",
+      "starter": "Rosa",
+      "answer": "Rosa was worried that she might go down with a cold before the school show.",
+      "answerZh": "羅莎擔心自己會在學校表演前患上感冒。",
+      "highlight": "go down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "As the cable car moved towards the lower station, the children looked out of the window.",
+      "promptZh": "纜車前往下面的車站時,孩子們望出窗外。",
+      "starter": "As",
+      "answer": "As the cable car went down towards the lower station, the children looked out of the window.",
+      "answerZh": "纜車向下面的車站下降時,孩子們望出窗外。",
+      "highlight": "went down",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下移動"
+    },
+    {
+      "id": "phrasal-verb-193-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "During the holidays, our family often travelled south to London to visit relatives.",
+      "promptZh": "假期期間,我們一家常常南下倫敦探望親戚。",
+      "starter": "During",
+      "answer": "During the holidays, our family often went down to London to visit relatives.",
+      "answerZh": "假期期間,我們一家常常南下倫敦探望親戚。",
+      "highlight": "went down",
+      "targetForm": "go down to a place",
+      "targetMeaningZh": "前往另一個地方,尤其是較南方的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After caring for his sick brother, Jamal also became ill with the same bug.",
+      "promptZh": "照顧生病的弟弟後,賈邁勒也患上相同的病毒。",
+      "starter": "After",
+      "answer": "After caring for his sick brother, Jamal also went down with the same bug.",
+      "answerZh": "照顧生病的弟弟後,賈邁勒也患上相同的病毒。",
+      "highlight": "went down",
+      "targetForm": "go down with something",
+      "targetMeaningZh": "患上某種疾病"
+    },
+    {
+      "id": "phrasal-verb-193-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The path becomes lower and steeper after the old gate.",
+      "promptZh": "這條小徑在舊閘門後變得更低和更陡。",
+      "starter": "The",
+      "answer": "The path goes down and becomes steeper after the old gate.",
+      "answerZh": "這條小徑在舊閘門後向下延伸,並變得更陡。",
+      "highlight": "goes down and",
+      "targetForm": "go down",
+      "targetMeaningZh": "向下延伸或移動"
+    },
+    {
+      "id": "phrasal-verb-193-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the concert began, Chloe moved from the balcony to the main hall below to find her friends.",
+      "promptZh": "音樂會開始前,克洛伊由露台前往下面的主禮堂找朋友。",
+      "starter": "Before",
+      "answer": "Before the concert began, Chloe went down from the balcony to the main hall below to find her friends.",
+      "answerZh": "音樂會開始前,克洛伊由露台下去下面的主禮堂找朋友。",
+      "highlight": "went down",
+      "targetForm": "go down to a lower place",
+      "targetMeaningZh": "前往較低位置的地方"
+    },
+    {
+      "id": "phrasal-verb-193-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The day could be remembered as the moment the town saved its old theatre.",
+      "promptZh": "這一天可能會被銘記為小鎮拯救舊戲院的一刻。",
+      "starter": "The",
+      "answer": "The day could go down as the moment the town saved its old theatre.",
+      "answerZh": "這一天可能會被銘記為小鎮拯救舊戲院的一刻。",
+      "highlight": "go down",
+      "targetForm": "go down as something",
+      "targetMeaningZh": "被銘記或記錄為......"
+    },
+    {
+      "id": "phrasal-verb-193-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "When the child started crying, Arun lowered himself onto both knees and spoke to her quietly.",
+      "promptZh": "那名孩子開始哭泣時,阿倫雙膝跪下,輕聲跟她說話。",
+      "starter": "When",
+      "answer": "When the child started crying, Arun went down on both knees and spoke to her quietly.",
+      "answerZh": "那名孩子開始哭泣時,阿倫雙膝跪下,輕聲跟她說話。",
+      "highlight": "went down on",
+      "targetForm": "go down on something",
+      "targetMeaningZh": "跪下或俯身,使膝蓋或雙手着地"
+    }
+  ]
+}

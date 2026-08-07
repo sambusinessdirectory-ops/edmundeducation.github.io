@@ -1,0 +1,1210 @@
+{
+  "id": "phrasal-verb-247",
+  "order": 247,
+  "slug": "match",
+  "version": "1",
+  "title": "MATCH 動詞片語",
+  "titleEn": "Match",
+  "titleZh": "MATCH 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 234 - MATCH.pdf",
+    "sourceNumber": 234,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MATCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MATCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MATCH",
+      "highlight": "MATCH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Our team was matched against the champions.",
+      "zh": "我們的球隊被安排與冠軍隊比賽。",
+      "highlight": "matched against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The teacher matched each new pupil with a partner.",
+      "zh": "老師為每名新生配上一名伙伴。",
+      "highlight": "matched each new pupil with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We matched the code against the booking list.",
+      "zh": "我們把編碼與預訂名單作對照。",
+      "highlight": "matched the code against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "安排某人、隊伍或事物與另一方比賽或競爭；把合適的人或事物配在一起；把一項資料與另一項資料對照核實；互相吻合;與某項資料或事物相符",
+    "en": "match somebody/something against/with somebody/something; match somebody/something with somebody/something; match something against something; match up / match up with something",
+    "naturalZh": [
+      "安排某人、隊伍或事物與另一方比賽或競爭",
+      "把合適的人或事物配在一起",
+      "把一項資料與另一項資料對照核實",
+      "互相吻合;與某項資料或事物相符"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "match somebody/something against/with somebody/something",
+      "titleZh": "安排某人、隊伍或事物與另一方比賽或競爭",
+      "titleEn": "match somebody/something against/with somebody/something",
+      "descriptionZh": "安排某人、隊伍或事物與另一方比賽或競爭",
+      "descriptionEn": "Our team was matched against the champions.",
+      "examples": [
+        {
+          "en": "Our team was matched against the champions.",
+          "zh": "我們的球隊被安排與冠軍隊比賽。",
+          "highlight": "matched against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "match somebody/something with somebody/something",
+      "titleZh": "把合適的人或事物配在一起",
+      "titleEn": "match somebody/something with somebody/something",
+      "descriptionZh": "把合適的人或事物配在一起",
+      "descriptionEn": "The teacher matched each new pupil with a partner.",
+      "examples": [
+        {
+          "en": "The teacher matched each new pupil with a partner.",
+          "zh": "老師為每名新生配上一名伙伴。",
+          "highlight": "matched each new pupil with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "match something against something",
+      "titleZh": "把一項資料與另一項資料對照核實",
+      "titleEn": "match something against something",
+      "descriptionZh": "把一項資料與另一項資料對照核實",
+      "descriptionEn": "We matched the code against the booking list.",
+      "examples": [
+        {
+          "en": "We matched the code against the booking list.",
+          "zh": "我們把編碼與預訂名單作對照。",
+          "highlight": "matched the code against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "match up / match up with something",
+      "titleZh": "互相吻合;與某項資料或事物相符",
+      "titleEn": "match up / match up with something",
+      "descriptionZh": "互相吻合;與某項資料或事物相符",
+      "descriptionEn": "The names do not match up with our records.",
+      "examples": [
+        {
+          "en": "The names do not match up with our records.",
+          "zh": "這些姓名與我們的紀錄不相符。",
+          "highlight": "match up with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MATCH 片語動詞的實際用途",
+    "labelEn": "MATCH Phrasal Verbs in Use",
+    "summaryZh": "MATCH 片語動詞可以說明某人或某隊被安排與哪一方比賽。；當兩個人或事物互相適合時,可以使用 match somebody/something with somebody/something。；match something against something 適合用來核對姓名、數字、照片、表格和電腦紀錄。；match up 可以表示說法、日期、總額和其他細節是否相符。",
+    "summaryEn": "MATCH expressions can explain who has been chosen to play against another person or team. You can use match somebody or something with another person or thing when they suit each other. Match something against something is useful when checking names, numbers, photographs, forms and computer records. Match up can show whether stories, dates, totals and other details are the same or consistent.",
+    "contextsZh": [
+      "談論比賽和對手",
+      "配對合適的人和事物",
+      "仔細核對資料",
+      "表示細節是否吻合"
+    ],
+    "contextsEn": [
+      "Talk about competitions and opponents",
+      "Pair suitable people and things",
+      "Check information carefully",
+      "Show whether details agree"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MATCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MATCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "match somebody/something against/with somebody/something",
+    "fixedHighlight": "match somebody/something against/with somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 MATCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MATCH expression that gives the same meaning.",
+    "correct": "matched against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在比賽情境中,match somebody against/with somebody 表示安排某人或隊伍與另一方比賽。；match up 可以單獨使用,也可以在後面使用 with。",
+    "variableEn": "Keep the same people, things, time and meaning. In a competition, match somebody against or with somebody means arranging for them to compete: match our team against the champions match our team with the champions Match up can be used alone or followed by with: The two totals match up. The total matches up with the receipt.",
+    "variableItemsZh": [
+      "match somebody/something against/with somebody/something",
+      "match somebody/something with somebody/something",
+      "match something against something",
+      "match up / match up with something"
+    ],
+    "variableItemsEn": [
+      "match somebody/something against/with somebody/something",
+      "match somebody/something with somebody/something",
+      "match something against something",
+      "match up / match up with something"
+    ],
+    "forms": [
+      {
+        "formZh": "安排某人、隊伍或事物與另一方比賽或競爭",
+        "formEn": "match somebody/something against/with somebody/something",
+        "exampleZh": "我們的球隊被安排與冠軍隊比賽。",
+        "exampleEn": "Our team was matched against the champions.",
+        "highlight": "matched against"
+      },
+      {
+        "formZh": "把合適的人或事物配在一起",
+        "formEn": "match somebody/something with somebody/something",
+        "exampleZh": "老師為每名新生配上一名伙伴。",
+        "exampleEn": "The teacher matched each new pupil with a partner.",
+        "highlight": "matched each new pupil with"
+      },
+      {
+        "formZh": "把一項資料與另一項資料對照核實",
+        "formEn": "match something against something",
+        "exampleZh": "我們把編碼與預訂名單作對照。",
+        "exampleEn": "We matched the code against the booking list.",
+        "highlight": "matched the code against"
+      },
+      {
+        "formZh": "互相吻合;與某項資料或事物相符",
+        "formEn": "match up / match up with something",
+        "exampleZh": "這些姓名與我們的紀錄不相符。",
+        "exampleEn": "The names do not match up with our records.",
+        "highlight": "match up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "安排某人、隊伍或事物與另一方比賽或競爭",
+      "titleEn": "match somebody/something against/with somebody/something",
+      "formula": "match somebody/something against/with somebody/something",
+      "highlight": "match somebody/something against/with somebody/something",
+      "descriptionZh": "安排某人、隊伍或事物與另一方比賽或競爭",
+      "descriptionEn": "Our team was matched against the champions.",
+      "examples": [
+        {
+          "en": "Our team was matched against the champions.",
+          "zh": "我們的球隊被安排與冠軍隊比賽。",
+          "highlight": "matched against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把合適的人或事物配在一起",
+      "titleEn": "match somebody/something with somebody/something",
+      "formula": "match somebody/something with somebody/something",
+      "highlight": "match somebody/something with somebody/something",
+      "descriptionZh": "把合適的人或事物配在一起",
+      "descriptionEn": "The teacher matched each new pupil with a partner.",
+      "examples": [
+        {
+          "en": "The teacher matched each new pupil with a partner.",
+          "zh": "老師為每名新生配上一名伙伴。",
+          "highlight": "matched each new pupil with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把一項資料與另一項資料對照核實",
+      "titleEn": "match something against something",
+      "formula": "match something against something",
+      "highlight": "match something against something",
+      "descriptionZh": "把一項資料與另一項資料對照核實",
+      "descriptionEn": "We matched the code against the booking list.",
+      "examples": [
+        {
+          "en": "We matched the code against the booking list.",
+          "zh": "我們把編碼與預訂名單作對照。",
+          "highlight": "matched the code against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "互相吻合;與某項資料或事物相符",
+      "titleEn": "match up / match up with something",
+      "formula": "match up / match up with something",
+      "highlight": "match up / match up with something",
+      "descriptionZh": "互相吻合;與某項資料或事物相符",
+      "descriptionEn": "The names do not match up with our records.",
+      "examples": [
+        {
+          "en": "The names do not match up with our records.",
+          "zh": "這些姓名與我們的紀錄不相符。",
+          "highlight": "match up with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論比賽和對手",
+      "titleEn": "Talk about competitions and opponents",
+      "zh": "MATCH 片語動詞可以說明某人或某隊被安排與哪一方比賽。",
+      "en": "MATCH expressions can explain who has been chosen to play against another person or team."
+    },
+    {
+      "titleZh": "配對合適的人和事物",
+      "titleEn": "Pair suitable people and things",
+      "zh": "當兩個人或事物互相適合時,可以使用 match somebody/something with somebody/something。",
+      "en": "You can use match somebody or something with another person or thing when they suit each other."
+    },
+    {
+      "titleZh": "仔細核對資料",
+      "titleEn": "Check information carefully",
+      "zh": "match something against something 適合用來核對姓名、數字、照片、表格和電腦紀錄。",
+      "en": "Match something against something is useful when checking names, numbers, photographs, forms and computer records."
+    },
+    {
+      "titleZh": "表示細節是否吻合",
+      "titleEn": "Show whether details agree",
+      "zh": "match up 可以表示說法、日期、總額和其他細節是否相符。",
+      "en": "Match up can show whether stories, dates, totals and other details are the same or consistent."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論比賽和對手",
+      "配對合適的人和事物",
+      "仔細核對資料",
+      "表示細節是否吻合"
+    ],
+    "contextsEn": [
+      "Talk about competitions and opponents",
+      "Pair suitable people and things",
+      "Check information carefully",
+      "Show whether details agree"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論比賽和對手",
+        "titleEn": "Talk about competitions and opponents",
+        "zh": "MATCH 片語動詞可以說明某人或某隊被安排與哪一方比賽。",
+        "en": "MATCH expressions can explain who has been chosen to play against another person or team.",
+        "examples": [
+          {
+            "en": "Our team was matched against the champions.",
+            "zh": "我們的球隊被安排與冠軍隊比賽。",
+            "highlight": "matched against"
+          }
+        ]
+      },
+      {
+        "titleZh": "配對合適的人和事物",
+        "titleEn": "Pair suitable people and things",
+        "zh": "當兩個人或事物互相適合時,可以使用 match somebody/something with somebody/something。",
+        "en": "You can use match somebody or something with another person or thing when they suit each other.",
+        "examples": [
+          {
+            "en": "The teacher matched each new pupil with a partner.",
+            "zh": "老師為每名新生配上一名伙伴。",
+            "highlight": "matched each new pupil with"
+          }
+        ]
+      },
+      {
+        "titleZh": "仔細核對資料",
+        "titleEn": "Check information carefully",
+        "zh": "match something against something 適合用來核對姓名、數字、照片、表格和電腦紀錄。",
+        "en": "Match something against something is useful when checking names, numbers, photographs, forms and computer records.",
+        "examples": [
+          {
+            "en": "We matched the code against the booking list.",
+            "zh": "我們把編碼與預訂名單作對照。",
+            "highlight": "matched the code against"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示細節是否吻合",
+        "titleEn": "Show whether details agree",
+        "zh": "match up 可以表示說法、日期、總額和其他細節是否相符。",
+        "en": "Match up can show whether stories, dates, totals and other details are the same or consistent.",
+        "examples": [
+          {
+            "en": "The names do not match up with our records.",
+            "zh": "這些姓名與我們的紀錄不相符。",
+            "highlight": "match up with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MATCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MATCH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MATCH 片語動詞。",
+      "en": "Read the whole sentence and choose the MATCH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在比賽情境中,match somebody against/with somebody 表示安排某人或隊伍與另一方比賽。",
+      "titleEn": "In a competition, match somebody against or with somebody means arranging for them to compete: match our team against the champions match our team with the champions.",
+      "zh": "在比賽情境中,match somebody against/with somebody 表示安排某人或隊伍與另一方比賽。",
+      "en": "In a competition, match somebody against or with somebody means arranging for them to compete: match our team against the champions match our team with the champions"
+    },
+    {
+      "titleZh": "match up 可以單獨使用,也可以在後面使用 with。",
+      "titleEn": "Match up can be used alone or followed by with: The two totals match up.",
+      "zh": "match up 可以單獨使用,也可以在後面使用 with。",
+      "en": "Match up can be used alone or followed by with: The two totals match up. The total matches up with the receipt."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MATCH 動詞片語句子改寫練習",
+    "titleEn": "MATCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MATCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MATCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-247-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The organiser arranged for our school team to play the city champions.",
+      "promptZh": "主辦人安排我們的校隊與市內冠軍隊比賽。",
+      "starter": "The",
+      "answer": "The organiser matched our school team against the city champions.",
+      "answerZh": "主辦人安排我們的校隊與市內冠軍隊比賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody/something against somebody/something",
+      "targetMeaningZh": "安排某人或隊伍與另一方比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "All the information in the two lists agrees.",
+      "promptZh": "兩份清單中的所有資料都互相吻合。",
+      "starter": "All",
+      "answer": "All the information in the two lists matches up.",
+      "answerZh": "兩份清單中的所有資料都互相吻合。",
+      "highlight": "matches up",
+      "targetForm": "match up",
+      "targetMeaningZh": "互相吻合"
+    },
+    {
+      "id": "phrasal-verb-247-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The teacher paired each new pupil with a class helper.",
+      "promptZh": "老師為每名新生配上一名同學助手。",
+      "starter": "The",
+      "answer": "The teacher matched each new pupil with a class helper.",
+      "answerZh": "老師為每名新生配上一名同學助手。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We compared the booking number with the list at the desk.",
+      "promptZh": "我們把預訂編號與服務台的清單作對照。",
+      "starter": "We",
+      "answer": "We matched the booking number against the list at the desk.",
+      "answerZh": "我們把預訂編號與服務台的清單作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please pair this blue tie with a shirt that suits it.",
+      "promptZh": "請為這條藍色領帶配上一件合適的恤衫。",
+      "starter": "Please",
+      "answer": "Please match this blue tie with a shirt that suits it.",
+      "answerZh": "請為這條藍色領帶配上一件合適的恤衫。",
+      "highlight": "match",
+      "targetForm": "match something with something",
+      "targetMeaningZh": "把合適的事物配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Lena was chosen to play against the strongest student.",
+      "promptZh": "莉娜被安排與最強的學生比賽。",
+      "starter": "Lena",
+      "answer": "Lena was matched against the strongest student.",
+      "answerZh": "莉娜被安排與最強的學生比賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "His name is the same as one in our computer records.",
+      "promptZh": "他的姓名與我們電腦紀錄中的一個姓名相符。",
+      "starter": "His",
+      "answer": "His name matches up with one in our computer records.",
+      "answerZh": "他的姓名與我們電腦紀錄中的一個姓名相符。",
+      "highlight": "matches up with",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The guard compared my face with the photograph on the card.",
+      "promptZh": "保安員把我的樣貌與卡上的照片作對照。",
+      "starter": "The",
+      "answer": "The guard matched my face against the photograph on the card.",
+      "answerZh": "保安員把我的樣貌與卡上的照片作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Each runner was paired with someone of similar speed by the app.",
+      "promptZh": "應用程式為每名跑手配上一名速度相近的人。",
+      "starter": "Each",
+      "answer": "Each runner was matched with someone of similar speed by the app.",
+      "answerZh": "應用程式為每名跑手配上一名速度相近的人。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The dates on the two forms are not the same.",
+      "promptZh": "兩份表格上的日期並不相符。",
+      "starter": "The",
+      "answer": "The dates on the two forms do not match up.",
+      "answerZh": "兩份表格上的日期並不相符。",
+      "highlight": "the two forms do",
+      "targetForm": "match up",
+      "targetMeaningZh": "互相吻合"
+    },
+    {
+      "id": "phrasal-verb-247-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The office will compare your address with its records tomorrow.",
+      "promptZh": "辦事處明天會把你的地址與其紀錄作對照。",
+      "starter": "The",
+      "answer": "The office will match your address against its records tomorrow.",
+      "answerZh": "辦事處明天會把你的地址與其紀錄作對照。",
+      "highlight": "match",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "In the next round, the organiser will arrange for our youngest player to compete against Daniel.",
+      "promptZh": "下一輪,主辦人會安排我們最年輕的選手與丹尼爾比賽。",
+      "starter": "In",
+      "answer": "In the next round, the organiser will match our youngest player against Daniel.",
+      "answerZh": "下一輪,主辦人會安排我們最年輕的選手與丹尼爾比賽。",
+      "highlight": "match",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do the names agree with any names in the club list?",
+      "promptZh": "這些姓名與會所名單中的任何姓名相符嗎?",
+      "starter": "Do",
+      "answer": "Do the names match up with any in the club list?",
+      "answerZh": "這些姓名與會所名單中的任何姓名相符嗎?",
+      "highlight": "match up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Can you pair me with someone who speaks French?",
+      "promptZh": "你可以為我配上一名會說法語的人嗎?",
+      "starter": "Can",
+      "answer": "Can you match me with someone who speaks French?",
+      "answerZh": "你可以為我配上一名會說法語的人嗎?",
+      "highlight": "match",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The bank has compared the signature with the one on the form.",
+      "promptZh": "銀行已把這個簽名與表格上的簽名作對照。",
+      "starter": "The",
+      "answer": "The bank has matched the signature against the one on the form.",
+      "answerZh": "銀行已把這個簽名與表格上的簽名作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Eva may be chosen to play against the taller player.",
+      "promptZh": "伊娃可能會被安排與較高的選手比賽。",
+      "starter": "Eva",
+      "answer": "Eva may be matched against the taller player.",
+      "answerZh": "伊娃可能會被安排與較高的選手比賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Customers are being paired with nearby drivers through the website.",
+      "promptZh": "顧客正透過網站獲配對附近的司機。",
+      "starter": "Customers",
+      "answer": "Customers are being matched with nearby drivers through the website.",
+      "answerZh": "顧客正透過網站獲配對附近的司機。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The final total still does not agree with the number on the receipt.",
+      "promptZh": "最終總額仍與收據上的數字不相符。",
+      "starter": "The",
+      "answer": "The final total still does not match up with the number on the receipt.",
+      "answerZh": "最終總額仍與收據上的數字不相符。",
+      "highlight": "match up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Was our team chosen to play the red team?",
+      "promptZh": "我們的球隊被安排與紅隊比賽嗎?",
+      "starter": "Was",
+      "answer": "Was our team matched with the red team?",
+      "answerZh": "我們的球隊被安排與紅隊比賽嗎?",
+      "highlight": "matched with",
+      "targetForm": "match somebody/something with somebody/something",
+      "targetMeaningZh": "安排某人或隊伍與另一方比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Before we accept the ticket, we should compare its code with the code in the booking email.",
+      "promptZh": "接受門票前,我們應把門票編碼與預訂電郵中的編碼作對照。",
+      "starter": "Before",
+      "answer": "Before we accept the ticket, we should match its code against the code in the booking email.",
+      "answerZh": "接受門票前,我們應把門票編碼與預訂電郵中的編碼作對照。",
+      "highlight": "match",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The card was paired with an envelope of the same colour.",
+      "promptZh": "這張卡配上了一個同色信封。",
+      "starter": "The",
+      "answer": "The card was matched with an envelope of the same colour.",
+      "answerZh": "這張卡配上了一個同色信封。",
+      "highlight": "matched",
+      "targetForm": "match something with something",
+      "targetMeaningZh": "把合適的事物配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The first story and the later story do not agree.",
+      "promptZh": "最初的說法與後來的說法並不吻合。",
+      "starter": "The",
+      "answer": "The first story and the later story do not match up.",
+      "answerZh": "最初的說法與後來的說法並不吻合。",
+      "highlight": "match up",
+      "targetForm": "match up",
+      "targetMeaningZh": "互相吻合"
+    },
+    {
+      "id": "phrasal-verb-247-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The draw arranged for the two fastest runners to compete against each other.",
+      "promptZh": "抽籤結果安排兩名最快的跑手互相競賽。",
+      "starter": "The",
+      "answer": "The draw matched the two fastest runners against each other.",
+      "answerZh": "抽籤結果安排兩名最快的跑手互相競賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They compared it with the name in the school record.",
+      "promptZh": "他們把它與學校紀錄中的姓名作對照。",
+      "starter": "They",
+      "answer": "They matched it against the name in the school record.",
+      "answerZh": "他們把它與學校紀錄中的姓名作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Each child needs a reading partner, so please pair them with suitable classmates.",
+      "promptZh": "每名孩子都需要一名閱讀伙伴,所以請為他們配上合適的同學。",
+      "starter": "Each",
+      "answer": "Each child needs a reading partner, so please match them with suitable classmates.",
+      "answerZh": "每名孩子都需要一名閱讀伙伴,所以請為他們配上合適的同學。",
+      "highlight": "match",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "When the two totals agree, we can send the bill.",
+      "promptZh": "當兩個總額相符時,我們便可以寄出帳單。",
+      "starter": "When",
+      "answer": "When the two totals match up, we can send the bill.",
+      "answerZh": "當兩個總額相符時,我們便可以寄出帳單。",
+      "highlight": "match up",
+      "targetForm": "match up",
+      "targetMeaningZh": "互相吻合"
+    },
+    {
+      "id": "phrasal-verb-247-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A member of staff compared every ticket with the list before opening the doors.",
+      "promptZh": "一名職員在開門前把每張門票與清單作對照。",
+      "starter": "A",
+      "answer": "A member of staff matched every ticket against the list before opening the doors.",
+      "answerZh": "一名職員在開門前把每張門票與清單作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the organiser choose Sam to play against a much older player?",
+      "promptZh": "主辦人為甚麼安排山姆與一名年長得多的選手比賽?",
+      "starter": "Why",
+      "answer": "Why did the organiser match Sam against a much older player?",
+      "answerZh": "主辦人為甚麼安排山姆與一名年長得多的選手比賽?",
+      "highlight": "match",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I put the black bag and my shoes together because they suited each other.",
+      "promptZh": "我把黑色手袋與鞋子配在一起,因為兩者很相襯。",
+      "starter": "I",
+      "answer": "I matched the black bag with my shoes because they suited each other.",
+      "answerZh": "我把黑色手袋與鞋子配在一起,因為兩者很相襯。",
+      "highlight": "matched",
+      "targetForm": "match something with something",
+      "targetMeaningZh": "把合適的事物配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The times in her message agree with the times shown on the camera.",
+      "promptZh": "她訊息中的時間與相機顯示的時間相符。",
+      "starter": "The",
+      "answer": "The times in her message match up with those shown on the camera.",
+      "answerZh": "她訊息中的時間與相機顯示的時間相符。",
+      "highlight": "match up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The judges have arranged for the new singer to compete against last year’s winner.",
+      "promptZh": "評判已安排這名新歌手與去年的冠軍比賽。",
+      "starter": "The",
+      "answer": "The judges have matched the new singer against last year’s winner.",
+      "answerZh": "評判已安排這名新歌手與去年的冠軍比賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The nurse compared the child’s name and date of birth with the details on the form.",
+      "promptZh": "護士把孩子的姓名和出生日期與表格上的資料作對照。",
+      "starter": "The",
+      "answer": "The nurse matched the child’s name and date of birth against the details on the form.",
+      "answerZh": "護士把孩子的姓名和出生日期與表格上的資料作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Each reader receives a book chosen to suit their interests.",
+      "promptZh": "每名讀者都會獲配一本符合其興趣的書。",
+      "starter": "Each",
+      "answer": "Each reader is matched with a book based on their interests.",
+      "answerZh": "每名讀者都會獲配一本符合其興趣的書。",
+      "highlight": "is matched with",
+      "targetForm": "match somebody with something",
+      "targetMeaningZh": "把合適的人和事物配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "In the email, the amount is different from the amount shown in the app.",
+      "promptZh": "電郵中的金額與應用程式顯示的金額不同。",
+      "starter": "In",
+      "answer": "In the email, the amount does not match up with the amount shown in the app.",
+      "answerZh": "電郵中的金額與應用程式顯示的金額不同。",
+      "highlight": "does not match up with",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the first player became ill, Leo was chosen to compete with the reserve player.",
+      "promptZh": "第一名選手生病後,里奧被安排與後備選手比賽。",
+      "starter": "After",
+      "answer": "After the first player became ill, Leo was matched with the reserve player.",
+      "answerZh": "第一名選手生病後,里奧被安排與後備選手比賽。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We knew the phone was genuine only after we compared its serial number with our records.",
+      "promptZh": "我們把手機的序號與紀錄作對照後,才知道它是真貨。",
+      "starter": "We",
+      "answer": "We knew the phone was genuine only after we matched its serial number against our records.",
+      "answerZh": "我們把手機的序號與紀錄作對照後,才知道它是真貨。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "At first, her explanation seemed possible, but it did not agree with the messages.",
+      "promptZh": "起初,她的解釋看似合理,但與那些訊息並不吻合。",
+      "starter": "At",
+      "answer": "At first, her explanation seemed possible, but it did not match up with the messages.",
+      "answerZh": "起初,她的解釋看似合理,但與那些訊息並不吻合。",
+      "highlight": "match up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Each person was paired with someone who liked the same games.",
+      "promptZh": "每個人都獲配一名喜歡相同遊戲的人。",
+      "starter": "Each",
+      "answer": "Each person was matched with someone who liked the same games.",
+      "answerZh": "每個人都獲配一名喜歡相同遊戲的人。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The coach should not arrange a beginner to compete against the national champion.",
+      "promptZh": "教練不應安排初學者與全國冠軍比賽。",
+      "starter": "The",
+      "answer": "The coach should not match a beginner against the national champion.",
+      "answerZh": "教練不應安排初學者與全國冠軍比賽。",
+      "highlight": "match",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could you compare the names on these bags with the passenger list?",
+      "promptZh": "你可以把這些袋上的姓名與乘客名單作對照嗎?",
+      "starter": "Could",
+      "answer": "Could you match the names on these bags against the passenger list?",
+      "answerZh": "你可以把這些袋上的姓名與乘客名單作對照嗎?",
+      "highlight": "match",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q41",
+      "number": 41,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The shop’s total agrees with our total, so the payment appears correct.",
+      "promptZh": "店舖的總額與我們的總額相符,所以付款看來正確。",
+      "starter": "The",
+      "answer": "The shop’s total matches up with ours, so the payment appears correct.",
+      "answerZh": "店舖的總額與我們的總額相符,所以付款看來正確。",
+      "highlight": "matches up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    },
+    {
+      "id": "phrasal-verb-247-q42",
+      "number": 42,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because Noah is new to the club, the leader paired him with a friendly older member.",
+      "promptZh": "因為諾亞是會所新成員,負責人為他配上一名友善的年長會員。",
+      "starter": "Because",
+      "answer": "Because Noah is new to the club, the leader matched him with a friendly older member.",
+      "answerZh": "因為諾亞是會所新成員,負責人為他配上一名友善的年長會員。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q43",
+      "number": 43,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "No one expected the youngest boxer to be chosen to fight the most experienced boxer in the first round.",
+      "promptZh": "沒有人預料最年輕的拳手會在第一回合被安排與最有經驗的拳手比賽。",
+      "starter": "No",
+      "answer": "No one expected the youngest boxer to be matched against the most experienced boxer in the first round.",
+      "answerZh": "沒有人預料最年輕的拳手會在第一回合被安排與最有經驗的拳手比賽。",
+      "highlight": "matched against",
+      "targetForm": "match somebody against somebody",
+      "targetMeaningZh": "安排某人與另一人比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q44",
+      "number": 44,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The officer compared the details the man gave with the information stored on the computer.",
+      "promptZh": "職員把該男子提供的資料與電腦中儲存的資料作對照。",
+      "starter": "The",
+      "answer": "The officer matched the details the man gave against the information stored on the computer.",
+      "answerZh": "職員把該男子提供的資料與電腦中儲存的資料作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q45",
+      "number": 45,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although both reports describe the same event, several important details do not agree.",
+      "promptZh": "雖然兩份報告描述同一事件,但幾項重要細節並不吻合。",
+      "starter": "Although",
+      "answer": "Although both reports describe the same event, several important details do not match up.",
+      "answerZh": "雖然兩份報告描述同一事件,但幾項重要細節並不吻合。",
+      "highlight": "match up",
+      "targetForm": "match up",
+      "targetMeaningZh": "互相吻合"
+    },
+    {
+      "id": "phrasal-verb-247-q46",
+      "number": 46,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For the final task, each student was paired with someone whose skills were different but useful.",
+      "promptZh": "在最後一項任務中,每名學生都獲配一名技能不同但有幫助的伙伴。",
+      "starter": "For",
+      "answer": "For the final task, each student was matched with someone whose skills were different but useful.",
+      "answerZh": "在最後一項任務中,每名學生都獲配一名技能不同但有幫助的伙伴。",
+      "highlight": "matched",
+      "targetForm": "match somebody with somebody",
+      "targetMeaningZh": "把合適的人配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q47",
+      "number": 47,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before sending the refund, the shop compared the order number with the number in its system.",
+      "promptZh": "退款前,店舖把訂單編號與系統中的編號作對照。",
+      "starter": "Before",
+      "answer": "Before sending the refund, the shop matched the order number against the number in its system.",
+      "answerZh": "退款前,店舖把訂單編號與系統中的編號作對照。",
+      "highlight": "matched",
+      "targetForm": "match something against something",
+      "targetMeaningZh": "把一項資料與另一項資料對照核實"
+    },
+    {
+      "id": "phrasal-verb-247-q48",
+      "number": 48,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once the draw had arranged for our team to face the champions, everyone knew the match would be difficult.",
+      "promptZh": "抽籤結果安排我們的球隊迎戰冠軍隊後,大家都知道比賽會很艱難。",
+      "starter": "Once",
+      "answer": "Once the draw had matched our team against the champions, everyone knew the match would be difficult.",
+      "answerZh": "抽籤結果安排我們的球隊迎戰冠軍隊後,大家都知道比賽會很艱難。",
+      "highlight": "matched",
+      "targetForm": "match somebody/something against somebody/something",
+      "targetMeaningZh": "安排某人或隊伍與另一方比賽"
+    },
+    {
+      "id": "phrasal-verb-247-q49",
+      "number": 49,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "You have six photographs and six captions; pair each photograph with the correct caption.",
+      "promptZh": "你有六張照片和六段說明文字;請把每張照片與正確的說明文字配對。",
+      "starter": "You",
+      "answer": "You have six photographs and six captions; match each photograph with the correct caption.",
+      "answerZh": "你有六張照片和六段說明文字;請把每張照片與正確的說明文字配對。",
+      "highlight": "match",
+      "targetForm": "match something with something",
+      "targetMeaningZh": "把合適的事物配在一起"
+    },
+    {
+      "id": "phrasal-verb-247-q50",
+      "number": 50,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "If the names, dates and phone numbers all agree with our records, we can approve the form.",
+      "promptZh": "如果姓名、日期和電話號碼全都與我們的紀錄相符,我們便可以批准表格。",
+      "starter": "If",
+      "answer": "If the names, dates and phone numbers all match up with our records, we can approve the form.",
+      "answerZh": "如果姓名、日期和電話號碼全都與我們的紀錄相符,我們便可以批准表格。",
+      "highlight": "match up",
+      "targetForm": "match up with something",
+      "targetMeaningZh": "與某項資料相符"
+    }
+  ]
+}

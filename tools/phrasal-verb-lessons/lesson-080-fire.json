@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-80",
+  "order": 80,
+  "slug": "fire",
+  "version": "1",
+  "title": "FIRE 動詞片語",
+  "titleEn": "Fire",
+  "titleZh": "FIRE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 79 - FIRE.pdf",
+    "sourceNumber": 79,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FIRE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FIRE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FIRE",
+      "highlight": "FIRE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "“Can I ask you some questions?” “Fire away.”",
+      "zh": "「我可以問你幾個問題嗎?」「儘管問吧。」",
+      "highlight": "Fire away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The manager fired the team up at half-time.",
+      "zh": "經理在半場休息時激勵了球隊。",
+      "highlight": "fired the team up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The rescue worker fired off a red flare.",
+      "zh": "救援人員發射了一枚紅色信號彈。",
+      "highlight": "fired off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "表示准許對方開始提問或說話;儘管問吧;請開始吧；令某人或一群人興奮、振奮或充滿幹勁；迅速發射、射出或放出子彈、信號彈、煙花等；啟動機器、引擎、暖爐、焗爐或燒烤爐",
+    "en": "fire away; fire somebody/something up; fire something off; fire something up",
+    "naturalZh": [
+      "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+      "令某人或一群人興奮、振奮或充滿幹勁",
+      "迅速發射、射出或放出子彈、信號彈、煙花等",
+      "啟動機器、引擎、暖爐、焗爐或燒烤爐"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fire away",
+      "titleZh": "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+      "titleEn": "fire away",
+      "descriptionZh": "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+      "descriptionEn": "“Can I ask you some questions?” “Fire away.”",
+      "examples": [
+        {
+          "en": "“Can I ask you some questions?” “Fire away.”",
+          "zh": "「我可以問你幾個問題嗎?」「儘管問吧。」",
+          "highlight": "Fire away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fire somebody/something up",
+      "titleZh": "令某人或一群人興奮、振奮或充滿幹勁",
+      "titleEn": "fire somebody/something up",
+      "descriptionZh": "令某人或一群人興奮、振奮或充滿幹勁",
+      "descriptionEn": "The manager fired the team up at half-time.",
+      "examples": [
+        {
+          "en": "The manager fired the team up at half-time.",
+          "zh": "經理在半場休息時激勵了球隊。",
+          "highlight": "fired the team up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fire something off",
+      "titleZh": "迅速發射、射出或放出子彈、信號彈、煙花等",
+      "titleEn": "fire something off",
+      "descriptionZh": "迅速發射、射出或放出子彈、信號彈、煙花等",
+      "descriptionEn": "The rescue worker fired off a red flare.",
+      "examples": [
+        {
+          "en": "The rescue worker fired off a red flare.",
+          "zh": "救援人員發射了一枚紅色信號彈。",
+          "highlight": "fired off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fire something up",
+      "titleZh": "啟動機器、引擎、暖爐、焗爐或燒烤爐",
+      "titleEn": "fire something up",
+      "descriptionZh": "啟動機器、引擎、暖爐、焗爐或燒烤爐",
+      "descriptionEn": "I will prepare the food while you fire up the grill.",
+      "examples": [
+        {
+          "en": "I will prepare the food while you fire up the grill.",
+          "zh": "我會準備食物,你則負責點燃燒烤爐。",
+          "highlight": "fire up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FIRE 片語動詞的實際用途",
+    "labelEn": "FIRE Phrasal Verbs in Use",
+    "summaryZh": "fire away 讓你可以用友善而直接的方式,請對方開始提問或解釋自己的構思。；fire somebody up 可以描述一段講話、一首歌曲、教練或群眾如何令他人振奮起來,準備行動。；fire something off 可以描述迅速發射信號彈、煙花、火箭或槍炮的情況。；fire something up 適合用來談論啟動燒烤爐、暖爐、發電機、焗爐和其他機器。",
+    "summaryEn": "Fire away gives you a friendly and confident way to tell someone that they may begin asking questions or explaining an idea. Fire somebody up helps you describe how a speech, song, coach or crowd makes people excited and ready to act. Fire something off allows you to describe the quick launching of flares, fireworks, rockets or shots. Fire something up is useful when starting grills, heaters, generators, ovens and other machines.",
+    "contextsZh": [
+      "自然地請別人開始提問",
+      "描述激勵和振奮的感覺",
+      "談論信號彈、煙花和鳴槍",
+      "談論啟動設備"
+    ],
+    "contextsEn": [
+      "Invite questions naturally",
+      "Describe motivation and excitement",
+      "Talk about signals, fireworks and shots",
+      "Talk about starting equipment"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FIRE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+    "formalEn": "Read the whole sentence and choose the FIRE expression that gives the same meaning. Keep the same people, things, time and situation."
+  },
+  "fixedVariable": {
+    "fixed": "fire away",
+    "fixedHighlight": "fire away",
+    "fixedZh": "閱讀整句,選出意思相同的 FIRE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+    "fixedEn": "Read the whole sentence and choose the FIRE expression that gives the same meaning. Keep the same people, things, time and situation.",
+    "correct": "Fire away",
+    "incorrectForms": [],
+    "variableZh": "Fire away 本身已是完整表達。你可以按需要加上 with your questions 等資料,但這些字並不是核心表達的一部分。；使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 FIRE 和 UP/OFF 之間。；請仔細閱讀情境:fire somebody up 表示令某人或一群人振奮起來;fire something up 表示啟動機器、暖爐、焗爐或燒烤爐。",
+    "variableEn": "Fire away is complete by itself. Extra words such as with your questions may be added when useful, but they are not part of the core expression. When using him, her, it or them, place the word as shown: fire them up fire it off fire it up Read the context carefully: fire somebody up = make a person or group excited and ready fire something up = start a machine, heater, oven or grill",
+    "variableItemsZh": [
+      "fire away",
+      "fire somebody/something up",
+      "fire something off",
+      "fire something up"
+    ],
+    "variableItemsEn": [
+      "fire away",
+      "fire somebody/something up",
+      "fire something off",
+      "fire something up"
+    ],
+    "forms": [
+      {
+        "formZh": "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+        "formEn": "fire away",
+        "exampleZh": "「我可以問你幾個問題嗎?」「儘管問吧。」",
+        "exampleEn": "“Can I ask you some questions?” “Fire away.”",
+        "highlight": "Fire away"
+      },
+      {
+        "formZh": "令某人或一群人興奮、振奮或充滿幹勁",
+        "formEn": "fire somebody/something up",
+        "exampleZh": "經理在半場休息時激勵了球隊。",
+        "exampleEn": "The manager fired the team up at half-time.",
+        "highlight": "fired the team up"
+      },
+      {
+        "formZh": "迅速發射、射出或放出子彈、信號彈、煙花等",
+        "formEn": "fire something off",
+        "exampleZh": "救援人員發射了一枚紅色信號彈。",
+        "exampleEn": "The rescue worker fired off a red flare.",
+        "highlight": "fired off"
+      },
+      {
+        "formZh": "啟動機器、引擎、暖爐、焗爐或燒烤爐",
+        "formEn": "fire something up",
+        "exampleZh": "我會準備食物,你則負責點燃燒烤爐。",
+        "exampleEn": "I will prepare the food while you fire up the grill.",
+        "highlight": "fire up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+      "titleEn": "fire away",
+      "formula": "fire away",
+      "highlight": "fire away",
+      "descriptionZh": "表示准許對方開始提問或說話;儘管問吧;請開始吧",
+      "descriptionEn": "“Can I ask you some questions?” “Fire away.”",
+      "examples": [
+        {
+          "en": "“Can I ask you some questions?” “Fire away.”",
+          "zh": "「我可以問你幾個問題嗎?」「儘管問吧。」",
+          "highlight": "Fire away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "令某人或一群人興奮、振奮或充滿幹勁",
+      "titleEn": "fire somebody/something up",
+      "formula": "fire somebody/something up",
+      "highlight": "fire somebody/something up",
+      "descriptionZh": "令某人或一群人興奮、振奮或充滿幹勁",
+      "descriptionEn": "The manager fired the team up at half-time.",
+      "examples": [
+        {
+          "en": "The manager fired the team up at half-time.",
+          "zh": "經理在半場休息時激勵了球隊。",
+          "highlight": "fired the team up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "迅速發射、射出或放出子彈、信號彈、煙花等",
+      "titleEn": "fire something off",
+      "formula": "fire something off",
+      "highlight": "fire something off",
+      "descriptionZh": "迅速發射、射出或放出子彈、信號彈、煙花等",
+      "descriptionEn": "The rescue worker fired off a red flare.",
+      "examples": [
+        {
+          "en": "The rescue worker fired off a red flare.",
+          "zh": "救援人員發射了一枚紅色信號彈。",
+          "highlight": "fired off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "啟動機器、引擎、暖爐、焗爐或燒烤爐",
+      "titleEn": "fire something up",
+      "formula": "fire something up",
+      "highlight": "fire something up",
+      "descriptionZh": "啟動機器、引擎、暖爐、焗爐或燒烤爐",
+      "descriptionEn": "I will prepare the food while you fire up the grill.",
+      "examples": [
+        {
+          "en": "I will prepare the food while you fire up the grill.",
+          "zh": "我會準備食物,你則負責點燃燒烤爐。",
+          "highlight": "fire up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地請別人開始提問",
+      "titleEn": "Invite questions naturally",
+      "zh": "fire away 讓你可以用友善而直接的方式,請對方開始提問或解釋自己的構思。",
+      "en": "Fire away gives you a friendly and confident way to tell someone that they may begin asking questions or explaining an idea."
+    },
+    {
+      "titleZh": "描述激勵和振奮的感覺",
+      "titleEn": "Describe motivation and excitement",
+      "zh": "fire somebody up 可以描述一段講話、一首歌曲、教練或群眾如何令他人振奮起來,準備行動。",
+      "en": "Fire somebody up helps you describe how a speech, song, coach or crowd makes people excited and ready to act."
+    },
+    {
+      "titleZh": "談論信號彈、煙花和鳴槍",
+      "titleEn": "Talk about signals, fireworks and shots",
+      "zh": "fire something off 可以描述迅速發射信號彈、煙花、火箭或槍炮的情況。",
+      "en": "Fire something off allows you to describe the quick launching of flares, fireworks, rockets or shots."
+    },
+    {
+      "titleZh": "談論啟動設備",
+      "titleEn": "Talk about starting equipment",
+      "zh": "fire something up 適合用來談論啟動燒烤爐、暖爐、發電機、焗爐和其他機器。",
+      "en": "Fire something up is useful when starting grills, heaters, generators, ovens and other machines."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地請別人開始提問",
+      "描述激勵和振奮的感覺",
+      "談論信號彈、煙花和鳴槍",
+      "談論啟動設備"
+    ],
+    "contextsEn": [
+      "Invite questions naturally",
+      "Describe motivation and excitement",
+      "Talk about signals, fireworks and shots",
+      "Talk about starting equipment"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地請別人開始提問",
+        "titleEn": "Invite questions naturally",
+        "zh": "fire away 讓你可以用友善而直接的方式,請對方開始提問或解釋自己的構思。",
+        "en": "Fire away gives you a friendly and confident way to tell someone that they may begin asking questions or explaining an idea.",
+        "examples": [
+          {
+            "en": "“Can I ask you some questions?” “Fire away.”",
+            "zh": "「我可以問你幾個問題嗎?」「儘管問吧。」",
+            "highlight": "Fire away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述激勵和振奮的感覺",
+        "titleEn": "Describe motivation and excitement",
+        "zh": "fire somebody up 可以描述一段講話、一首歌曲、教練或群眾如何令他人振奮起來,準備行動。",
+        "en": "Fire somebody up helps you describe how a speech, song, coach or crowd makes people excited and ready to act.",
+        "examples": [
+          {
+            "en": "The manager fired the team up at half-time.",
+            "zh": "經理在半場休息時激勵了球隊。",
+            "highlight": "fired the team up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論信號彈、煙花和鳴槍",
+        "titleEn": "Talk about signals, fireworks and shots",
+        "zh": "fire something off 可以描述迅速發射信號彈、煙花、火箭或槍炮的情況。",
+        "en": "Fire something off allows you to describe the quick launching of flares, fireworks, rockets or shots.",
+        "examples": [
+          {
+            "en": "The rescue worker fired off a red flare.",
+            "zh": "救援人員發射了一枚紅色信號彈。",
+            "highlight": "fired off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論啟動設備",
+        "titleEn": "Talk about starting equipment",
+        "zh": "fire something up 適合用來談論啟動燒烤爐、暖爐、發電機、焗爐和其他機器。",
+        "en": "Fire something up is useful when starting grills, heaters, generators, ovens and other machines.",
+        "examples": [
+          {
+            "en": "I will prepare the food while you fire up the grill.",
+            "zh": "我會準備食物,你則負責點燃燒烤爐。",
+            "highlight": "fire up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FIRE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+      "titleEn": "Read the whole sentence and choose the FIRE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FIRE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+      "en": "Read the whole sentence and choose the FIRE expression that gives the same meaning. Keep the same people, things, time and situation."
+    },
+    {
+      "titleZh": "Fire away 本身已是完整表達。你可以按需要加上 with your questions 等資料,但這些字並不是核心表達的一部分。",
+      "titleEn": "Fire away is complete by itself.",
+      "zh": "Fire away 本身已是完整表達。你可以按需要加上 with your questions 等資料,但這些字並不是核心表達的一部分。",
+      "en": "Fire away is complete by itself. Extra words such as with your questions may be added when useful, but they are not part of the core expression."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 FIRE 和 UP/OFF 之間。",
+      "titleEn": "When using him, her, it or them, place the word as shown: fire them up fire it off fire it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 FIRE 和 UP/OFF 之間。",
+      "en": "When using him, her, it or them, place the word as shown: fire them up fire it off fire it up"
+    },
+    {
+      "titleZh": "請仔細閱讀情境:fire somebody up 表示令某人或一群人振奮起來;fire something up 表示啟動機器、暖爐、焗爐或燒烤爐。",
+      "titleEn": "Read the context carefully: fire somebody up = make a person or group excited and ready fire something up = start a machine, heater, oven or grill.",
+      "zh": "請仔細閱讀情境:fire somebody up 表示令某人或一群人振奮起來;fire something up 表示啟動機器、暖爐、焗爐或燒烤爐。",
+      "en": "Read the context carefully: fire somebody up = make a person or group excited and ready fire something up = start a machine, heater, oven or grill"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FIRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FIRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FIRE 動詞片語句子改寫練習",
+    "titleEn": "FIRE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FIRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FIRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-80-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "A student asked, “May I ask two questions?” The teacher replied, “Please begin.”",
+      "promptZh": "一名學生問:「我可以問兩個問題嗎?」老師回答:「請開始吧。」",
+      "starter": "A",
+      "answer": "A student asked, “May I ask two questions?” The teacher replied, “Fire away.”",
+      "answerZh": "一名學生問:「我可以問兩個問題嗎?」老師回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad started the barbecue before the guests arrived.",
+      "promptZh": "爸爸在客人到達前點燃了燒烤爐。",
+      "starter": "Dad",
+      "answer": "Dad fired up the barbecue before the guests arrived.",
+      "answerZh": "爸爸在客人到達前點燃了燒烤爐。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach made the players excited and ready before the match.",
+      "promptZh": "教練在比賽前令球員振奮起來,準備作賽。",
+      "starter": "The",
+      "answer": "The coach fired the players up before the match.",
+      "answerZh": "教練在比賽前激勵球員,令他們準備作賽。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The rescue worker launched a red flare into the sky.",
+      "promptZh": "救援人員向天空發射了一枚紅色信號彈。",
+      "starter": "The",
+      "answer": "The rescue worker fired off a red flare into the sky.",
+      "answerZh": "救援人員向天空發射了一枚紅色信號彈。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Chloe asked if she could explain her idea, and Ben said, “Please begin.”",
+      "promptZh": "Chloe 問她可否解釋自己的構思,Ben 回答:「請開始吧。」",
+      "starter": "Chloe",
+      "answer": "Chloe asked if she could explain her idea, and Ben said, “Fire away.”",
+      "answerZh": "Chloe 問她可否解釋自己的構思,Ben 回答:「請說吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The lively music made the crowd excited.",
+      "promptZh": "輕快的音樂令群眾興奮起來。",
+      "starter": "The",
+      "answer": "The lively music fired the crowd up.",
+      "answerZh": "輕快的音樂令群眾興奮起來。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ryan started the old heater because the room was cold.",
+      "promptZh": "Ryan 因為房間很冷而啟動了舊暖爐。",
+      "starter": "Ryan",
+      "answer": "Ryan fired up the old heater because the room was cold.",
+      "answerZh": "Ryan 因為房間很冷而啟動了舊暖爐。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The reporter asked if he could begin the interview, and the actor said, “Please begin.”",
+      "promptZh": "記者問可否開始訪問,演員回答:「請開始吧。」",
+      "starter": "The",
+      "answer": "The reporter asked if he could begin the interview, and the actor said, “Fire away.”",
+      "answerZh": "記者問可否開始訪問,演員回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The festival team launched three small fireworks after dark.",
+      "promptZh": "節慶工作人員在天黑後燃放了三枚小型煙花。",
+      "starter": "The",
+      "answer": "The festival team fired off three small fireworks after dark.",
+      "answerZh": "節慶工作人員在天黑後燃放了三枚小型煙花。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her half-time talk made the team feel excited and ready.",
+      "promptZh": "她在半場休息時的講話令球隊振奮起來,準備繼續作賽。",
+      "starter": "Her",
+      "answer": "Her half-time talk fired the team up.",
+      "answerZh": "她在半場休息時的講話激勵了球隊。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We are starting the grill now.",
+      "promptZh": "我們現在正點燃燒烤爐。",
+      "starter": "We",
+      "answer": "We are firing up the grill now.",
+      "answerZh": "我們現在正點燃燒烤爐。",
+      "highlight": "firing up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The sailors have launched two signal flares.",
+      "promptZh": "水手已經發射了兩枚信號彈。",
+      "starter": "The",
+      "answer": "The sailors have fired off two signal flares.",
+      "answerZh": "水手已經發射了兩枚信號彈。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "A parent said she had questions about the new timetable, and the head teacher replied, “Please ask.”",
+      "promptZh": "一名家長表示她對新時間表有幾個問題,校長回答:「請問吧。」",
+      "starter": "A",
+      "answer": "A parent said she had questions about the new timetable, and the head teacher replied, “Fire away.”",
+      "answerZh": "一名家長表示她對新時間表有幾個問題,校長回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "That song always makes the runners excited before a race.",
+      "promptZh": "那首歌總會在比賽前令跑手振奮起來。",
+      "starter": "That",
+      "answer": "That song always fires the runners up before a race.",
+      "answerZh": "那首歌總會在比賽前令跑手振奮起來。",
+      "highlight": "fires",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has Leo started the generator yet?",
+      "promptZh": "Leo 啟動發電機了嗎?",
+      "starter": "Has",
+      "answer": "Has Leo fired up the generator yet?",
+      "answerZh": "Leo 啟動發電機了嗎?",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "At noon, the team launched the first test rocket.",
+      "promptZh": "中午時,團隊發射了第一枚測試火箭。",
+      "starter": "At",
+      "answer": "At noon, the team fired off the first test rocket.",
+      "answerZh": "中午時,團隊發射了第一枚測試火箭。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The captain’s final words did not make the team excited.",
+      "promptZh": "隊長最後的說話未能令球隊振奮起來。",
+      "starter": "The",
+      "answer": "The captain’s final words did not fire the team up.",
+      "answerZh": "隊長最後的說話未能激勵球隊。",
+      "highlight": "fire",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ava asked whether she could begin her questions, and the guide said, “Please begin.”",
+      "promptZh": "Ava 問可否開始提問,導遊回答:「請開始吧。」",
+      "starter": "Ava",
+      "answer": "Ava asked whether she could begin her questions, and the guide said, “Fire away.”",
+      "answerZh": "Ava 問可否開始提問,導遊回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Please start the outdoor oven before we bake the bread.",
+      "promptZh": "請在我們焗麵包前啟動戶外焗爐。",
+      "starter": "Please",
+      "answer": "Please fire up the outdoor oven before we bake the bread.",
+      "answerZh": "請在我們焗麵包前啟動戶外焗爐。",
+      "highlight": "fire up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "During the show, the actor used a stage gun three times. It had no real bullets.",
+      "promptZh": "演出期間,演員使用道具槍三次。槍內沒有真正的子彈。",
+      "starter": "During",
+      "answer": "During the show, the actor fired off three shots with a stage gun that had no real bullets.",
+      "answerZh": "演出期間,演員用一支沒有真正子彈的道具槍鳴放了三次。",
+      "highlight": "fired off three shots with",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The coach’s message made them excited before the final.",
+      "promptZh": "教練的訊息在決賽前令他們振奮起來。",
+      "starter": "The",
+      "answer": "The coach’s message fired them up before the final.",
+      "answerZh": "教練的訊息在決賽前激勵了他們。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The barbecue is ready, so please start it.",
+      "promptZh": "燒烤爐已準備好,所以請把它點燃。",
+      "starter": "The",
+      "answer": "The barbecue is ready, so please fire it up.",
+      "answerZh": "燒烤爐已準備好,所以請把它點燃。",
+      "highlight": "fire",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When Nina asked whether she could continue with more questions, the speaker said, “Yes, continue.”",
+      "promptZh": "Nina 問可否繼續提出更多問題時,講者回答:「可以,繼續吧。」",
+      "starter": "When",
+      "answer": "When Nina asked whether she could continue with more questions, the speaker said, “Fire away.”",
+      "answerZh": "Nina 問可否繼續提出更多問題時,講者回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The ship’s crew used the cannon five times during the ceremony.",
+      "promptZh": "船員在儀式中鳴放了五炮。",
+      "starter": "The",
+      "answer": "The ship’s crew fired off five cannon shots during the ceremony.",
+      "answerZh": "船員在儀式中鳴放了五炮。",
+      "highlight": "fired off five",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ella pressed the button and started the machine.",
+      "promptZh": "Ella 按下按鈕並啟動了機器。",
+      "starter": "Ella",
+      "answer": "Ella pressed the button and fired up the machine.",
+      "answerZh": "Ella 按下按鈕並啟動了機器。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A few strong words from the captain made us excited and ready.",
+      "promptZh": "隊長幾句有力的說話令我們振奮起來,準備行動。",
+      "starter": "A",
+      "answer": "A few strong words from the captain fired us up.",
+      "answerZh": "隊長幾句有力的說話激勵了我們。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The cook had started the grill before the rain began.",
+      "promptZh": "廚師在下雨前已點燃燒烤爐。",
+      "starter": "The",
+      "answer": "The cook had fired up the grill before the rain began.",
+      "answerZh": "廚師在下雨前已點燃燒烤爐。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Omar asked, “May I explain what happened?” and the manager answered, “Please begin.”",
+      "promptZh": "Omar 問:「我可以解釋發生了甚麼事嗎?」經理回答:「請開始吧。」",
+      "starter": "Omar",
+      "answer": "Omar asked, “May I explain what happened?” and the manager answered, “Fire away.”",
+      "answerZh": "Omar 問:「我可以解釋發生了甚麼事嗎?」經理回答:「請說吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The team had one signal flare. They launched it when they saw the search plane.",
+      "promptZh": "團隊有一枚信號彈。他們看見搜索飛機時便把它發射出去。",
+      "starter": "The",
+      "answer": "The team had one signal flare. They fired it off when they saw the search plane.",
+      "answerZh": "團隊有一枚信號彈。他們看見搜索飛機時便把它發射出去。",
+      "highlight": "fired",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The crowd’s cheers were making the players more excited.",
+      "promptZh": "群眾的歡呼聲正令球員愈來愈振奮。",
+      "starter": "The",
+      "answer": "The crowd’s cheers were firing the players up.",
+      "answerZh": "群眾的歡呼聲正令球員愈來愈振奮。",
+      "highlight": "firing",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Just before the race, the official used the starting pistol once to start the runners.",
+      "promptZh": "比賽開始前,工作人員使用起步槍一次,讓跑手起步。",
+      "starter": "Just",
+      "answer": "Just before the race, the official fired off one shot to start the runners.",
+      "answerZh": "比賽開始前,工作人員鳴槍一次,讓跑手起步。",
+      "highlight": "fired off one shot",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The doctor told the family, “You can begin asking your questions.”",
+      "promptZh": "醫生對家人說:「你們可以開始提問了。」",
+      "starter": "The",
+      "answer": "The doctor told the family, “Fire away.”",
+      "answerZh": "醫生對家人說:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The drumbeat made the dancers excited before they went on stage.",
+      "promptZh": "鼓聲令舞蹈員在上台前振奮起來。",
+      "starter": "The",
+      "answer": "The drumbeat fired the dancers up before they went on stage.",
+      "answerZh": "鼓聲令舞蹈員在上台前振奮起來。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before the power cut, the caretaker started the small generator.",
+      "promptZh": "停電前,管理員啟動了小型發電機。",
+      "starter": "Before",
+      "answer": "Before the power cut, the caretaker fired up the small generator.",
+      "answerZh": "停電前,管理員啟動了小型發電機。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Hana said she had several questions about the course, and the adviser replied, “Please ask them.”",
+      "promptZh": "Hana 說她對課程有幾個問題,顧問回答:「請問吧。」",
+      "starter": "Hana",
+      "answer": "Hana said she had several questions about the course, and the adviser replied, “Fire away.”",
+      "answerZh": "Hana 說她對課程有幾個問題,顧問回答:「儘管問吧。」",
+      "highlight": "Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "At the festival, the crew launched a series of bright fireworks above the river.",
+      "promptZh": "節慶期間,工作人員在河上空燃放了一連串鮮艷煙花。",
+      "starter": "At",
+      "answer": "At the festival, the crew fired off a series of bright fireworks above the river.",
+      "answerZh": "節慶期間,工作人員在河上空燃放了一連串鮮艷煙花。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The manager’s short speech made everyone feel excited and ready for the busy day.",
+      "promptZh": "經理的簡短講話令大家振奮起來,準備迎接忙碌的一天。",
+      "starter": "The",
+      "answer": "The manager’s short speech fired everyone up for the busy day.",
+      "answerZh": "經理的簡短講話激勵大家,準備迎接忙碌的一天。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The guard shot once into the air as a warning, not at anyone.",
+      "promptZh": "守衛向空中開了一槍作為警告,並沒有瞄準任何人。",
+      "starter": "The",
+      "answer": "The guard fired off a warning shot into the air, not at anyone.",
+      "answerZh": "守衛向空中鳴放了一槍作為警告,並沒有瞄準任何人。",
+      "highlight": "fired off a warning",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could you start the coffee machine before the meeting?",
+      "promptZh": "你可以在會議前啟動咖啡機嗎?",
+      "starter": "Could",
+      "answer": "Could you fire up the coffee machine before the meeting?",
+      "answerZh": "你可以在會議前啟動咖啡機嗎?",
+      "highlight": "fire up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At the end of the talk, the speaker smiled and said that the audience could start asking questions.",
+      "promptZh": "講座結束時,講者微笑着表示觀眾可以開始提問。",
+      "starter": "At",
+      "answer": "At the end of the talk, the speaker smiled and told the audience, “Fire away.”",
+      "answerZh": "講座結束時,講者微笑着對觀眾說:「儘管問吧。」",
+      "highlight": "told",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because the kitchen was cold, we started the old stove before making soup.",
+      "promptZh": "因為廚房很冷,我們在煮湯前啟動了舊爐。",
+      "starter": "Because",
+      "answer": "Because the kitchen was cold, we fired up the old stove before making soup.",
+      "answerZh": "因為廚房很冷,我們在煮湯前啟動了舊爐。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The fans’ loud support made the tired team excited for the last ten minutes.",
+      "promptZh": "球迷響亮的支持令疲倦的球隊在最後十分鐘振奮起來。",
+      "starter": "The",
+      "answer": "The fans’ loud support fired the tired team up for the last ten minutes.",
+      "answerZh": "球迷響亮的支持令疲倦的球隊在最後十分鐘振奮起來。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the short presentation, Priya told the audience that they could begin asking questions.",
+      "promptZh": "簡短匯報後,Priya 告訴觀眾可以開始提問。",
+      "starter": "After",
+      "answer": "After the short presentation, Priya told the audience, “Fire away.”",
+      "answerZh": "簡短匯報後,Priya 對觀眾說:「儘管問吧。」",
+      "highlight": "“Fire away",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As the storm grew worse, the rescue crew launched another flare so the helicopter could find them.",
+      "promptZh": "風暴加劇時,救援隊再發射一枚信號彈,讓直升機可以找到他們。",
+      "starter": "As",
+      "answer": "As the storm grew worse, the rescue crew fired off another flare so the helicopter could find them.",
+      "answerZh": "風暴加劇時,救援隊再發射一枚信號彈,讓直升機可以找到他們。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Everyone had brought food, but nobody could begin cooking until Sam started the barbecue.",
+      "promptZh": "每個人都帶來了食物,但 Sam 點燃燒烤爐前,沒有人可以開始烹調。",
+      "starter": "Everyone",
+      "answer": "Everyone had brought food, but nobody could begin cooking until Sam fired up the barbecue.",
+      "answerZh": "每個人都帶來了食物,但 Sam 點燃燒烤爐前,沒有人可以開始烹調。",
+      "highlight": "fired up",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "One clear message from the captain made the whole group eager again when their energy was low.",
+      "promptZh": "全組人精神不足時,隊長一個清晰的訊息再次令大家充滿幹勁。",
+      "starter": "One",
+      "answer": "One clear message from the captain fired the whole group up when their energy was low.",
+      "answerZh": "全組人精神不足時,隊長一個清晰的訊息再次激勵了大家。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    },
+    {
+      "id": "phrasal-verb-80-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The outdoor oven was ready. Once the guests were seated, the chef started it and began cooking.",
+      "promptZh": "戶外焗爐已準備好。客人坐好後,廚師便啟動它並開始烹調。",
+      "starter": "The",
+      "answer": "The outdoor oven was ready. Once the guests were seated, the chef fired it up and began cooking.",
+      "answerZh": "戶外焗爐已準備好。客人坐好後,廚師便啟動它並開始烹調。",
+      "highlight": "fired",
+      "targetForm": "fire something up",
+      "targetMeaningZh": "啟動機器、爐火或燒烤爐"
+    },
+    {
+      "id": "phrasal-verb-80-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The host saw three hands in the air and told the guests to begin asking their questions.",
+      "promptZh": "主持人看見三隻手舉起,便叫客人開始提問。",
+      "starter": "The",
+      "answer": "The host saw three hands in the air and said, “Fire away with your questions.”",
+      "answerZh": "主持人看見三隻手舉起,便說:「儘管提出你們的問題吧。」",
+      "highlight": "said, “Fire away with your",
+      "targetForm": "fire away",
+      "targetMeaningZh": "儘管問吧;請開始吧"
+    },
+    {
+      "id": "phrasal-verb-80-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "For the final scene, the stage team used the stage guns several times while the actors stayed behind a wall.",
+      "promptZh": "在最後一幕中,舞台工作人員多次使用道具槍,而演員則留在牆後。",
+      "starter": "For",
+      "answer": "For the final scene, the stage team fired off several shots while the actors stayed behind a wall.",
+      "answerZh": "在最後一幕中,舞台工作人員鳴放了數槍,而演員則留在牆後。",
+      "highlight": "fired off",
+      "targetForm": "fire something off",
+      "targetMeaningZh": "迅速發射、射出或放出"
+    },
+    {
+      "id": "phrasal-verb-80-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Although the team had lost twice, the coach’s calm talk made them eager for one more attempt.",
+      "promptZh": "雖然球隊已經輸了兩次,但教練平靜的講話令他們願意再試一次。",
+      "starter": "Although",
+      "answer": "Although the team had lost twice, the coach’s calm talk fired them up for one more attempt.",
+      "answerZh": "雖然球隊已經輸了兩次,但教練平靜的講話激勵他們再試一次。",
+      "highlight": "fired",
+      "targetForm": "fire somebody/something up",
+      "targetMeaningZh": "令某人或一群人振奮或充滿幹勁"
+    }
+  ]
+}

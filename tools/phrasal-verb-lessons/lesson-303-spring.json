@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-303",
+  "order": 303,
+  "slug": "spring",
+  "version": "1",
+  "title": "SPRING 動詞片語",
+  "titleEn": "Spring",
+  "titleZh": "SPRING 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 288 - SPRING.pdf",
+    "sourceNumber": 288,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SPRING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SPRING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SPRING",
+      "highlight": "SPRING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I’ll spring for lunch today.",
+      "zh": "今天午餐由我請客。",
+      "highlight": "spring for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The idea sprang from a class discussion.",
+      "zh": "這個構思源自一次課堂討論。",
+      "highlight": "sprang from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They sprang the change on us at the last minute.",
+      "zh": "他們在最後一刻才突然把這項改動告訴我們。",
+      "highlight": "sprang the change on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "主動出錢支付某物;請客或替大家付款；源自某事物;由某件事引起；在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人；突然出現、形成或快速生長",
+    "en": "spring for something; spring from something; spring something on somebody; spring up",
+    "naturalZh": [
+      "主動出錢支付某物;請客或替大家付款",
+      "源自某事物;由某件事引起",
+      "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+      "突然出現、形成或快速生長"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "spring for something",
+      "titleZh": "主動出錢支付某物;請客或替大家付款",
+      "titleEn": "spring for something",
+      "descriptionZh": "主動出錢支付某物;請客或替大家付款",
+      "descriptionEn": "I’ll spring for lunch today.",
+      "examples": [
+        {
+          "en": "I’ll spring for lunch today.",
+          "zh": "今天午餐由我請客。",
+          "highlight": "spring for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spring from something",
+      "titleZh": "源自某事物;由某件事引起",
+      "titleEn": "spring from something",
+      "descriptionZh": "源自某事物;由某件事引起",
+      "descriptionEn": "The idea sprang from a class discussion.",
+      "examples": [
+        {
+          "en": "The idea sprang from a class discussion.",
+          "zh": "這個構思源自一次課堂討論。",
+          "highlight": "sprang from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spring something on somebody",
+      "titleZh": "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+      "titleEn": "spring something on somebody",
+      "descriptionZh": "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+      "descriptionEn": "They sprang the change on us at the last minute.",
+      "examples": [
+        {
+          "en": "They sprang the change on us at the last minute.",
+          "zh": "他們在最後一刻才突然把這項改動告訴我們。",
+          "highlight": "sprang the change on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "spring up",
+      "titleZh": "突然出現、形成或快速生長",
+      "titleEn": "spring up",
+      "descriptionZh": "突然出現、形成或快速生長",
+      "descriptionEn": "New cafés are springing up near the station.",
+      "examples": [
+        {
+          "en": "New cafés are springing up near the station.",
+          "zh": "車站附近正陸續出現新的咖啡店。",
+          "highlight": "springing up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SPRING 片語動詞的實際用途",
+    "labelEn": "SPRING Phrasal Verbs in Use",
+    "summaryZh": "spring for something 可以用來表示主動支付膳食、門票、交通或其他共同費用。；spring from something 可以說明某件事背後最初的事件、經歷或原因。；spring something on somebody 可以清楚表示某人在沒有準備或預先通知的情況下收到消息。；spring up 可以描述植物、店舖、建築物、問題或團體突然開始出現。",
+    "summaryEn": "Spring for something is useful when you offer to pay for a meal, tickets, transport or another shared cost. Spring from something helps you describe the original event, experience or cause behind something. Spring something on somebody clearly shows that the person received little or no warning. Spring up can describe plants, shops, buildings, problems, groups and other things that suddenly begin to appear.",
+    "contextsZh": [
+      "以親切自然的方式表示請客",
+      "說明構思、感受或問題的來源",
+      "描述突如其來的消息和臨時改動",
+      "描述事物迅速出現"
+    ],
+    "contextsEn": [
+      "Offer to pay in a friendly and natural way",
+      "Explain where an idea, feeling or problem began",
+      "Talk about unexpected news and last-minute changes",
+      "Describe things appearing quickly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SPRING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SPRING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "spring for something",
+    "fixedHighlight": "spring for something",
+    "fixedZh": "閱讀整句,選出意思相同的 SPRING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SPRING expression that gives the same meaning.",
+    "correct": "spring for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 spring something on somebody 中,消息、改動、問題或工作放在 on 前面,而接收消息的人則放在 on 後面。；suddenly、without warning 和 at the last minute 等字眼只提供額外資料,並非 spring somethingon somebody 的固定部分。",
+    "variableEn": "Keep the same people, things, time and meaning. In spring something on somebody, put the news, change, question or task before on, and the person after on: spring the news on us spring it on them Words such as suddenly, without warning and at the last minute give extra information. They are not part of the fixed expression spring something on somebody.",
+    "variableItemsZh": [
+      "spring for something",
+      "spring from something",
+      "spring something on somebody",
+      "spring up"
+    ],
+    "variableItemsEn": [
+      "spring for something",
+      "spring from something",
+      "spring something on somebody",
+      "spring up"
+    ],
+    "forms": [
+      {
+        "formZh": "主動出錢支付某物;請客或替大家付款",
+        "formEn": "spring for something",
+        "exampleZh": "今天午餐由我請客。",
+        "exampleEn": "I’ll spring for lunch today.",
+        "highlight": "spring for"
+      },
+      {
+        "formZh": "源自某事物;由某件事引起",
+        "formEn": "spring from something",
+        "exampleZh": "這個構思源自一次課堂討論。",
+        "exampleEn": "The idea sprang from a class discussion.",
+        "highlight": "sprang from"
+      },
+      {
+        "formZh": "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+        "formEn": "spring something on somebody",
+        "exampleZh": "他們在最後一刻才突然把這項改動告訴我們。",
+        "exampleEn": "They sprang the change on us at the last minute.",
+        "highlight": "sprang the change on"
+      },
+      {
+        "formZh": "突然出現、形成或快速生長",
+        "formEn": "spring up",
+        "exampleZh": "車站附近正陸續出現新的咖啡店。",
+        "exampleEn": "New cafés are springing up near the station.",
+        "highlight": "springing up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "主動出錢支付某物;請客或替大家付款",
+      "titleEn": "spring for something",
+      "formula": "spring for something",
+      "highlight": "spring for something",
+      "descriptionZh": "主動出錢支付某物;請客或替大家付款",
+      "descriptionEn": "I’ll spring for lunch today.",
+      "examples": [
+        {
+          "en": "I’ll spring for lunch today.",
+          "zh": "今天午餐由我請客。",
+          "highlight": "spring for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "源自某事物;由某件事引起",
+      "titleEn": "spring from something",
+      "formula": "spring from something",
+      "highlight": "spring from something",
+      "descriptionZh": "源自某事物;由某件事引起",
+      "descriptionEn": "The idea sprang from a class discussion.",
+      "examples": [
+        {
+          "en": "The idea sprang from a class discussion.",
+          "zh": "這個構思源自一次課堂討論。",
+          "highlight": "sprang from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+      "titleEn": "spring something on somebody",
+      "formula": "spring something on somebody",
+      "highlight": "spring something on somebody",
+      "descriptionZh": "在沒有預先通知的情況下,突然把消息、問題、要求或改動告訴某人",
+      "descriptionEn": "They sprang the change on us at the last minute.",
+      "examples": [
+        {
+          "en": "They sprang the change on us at the last minute.",
+          "zh": "他們在最後一刻才突然把這項改動告訴我們。",
+          "highlight": "sprang the change on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "突然出現、形成或快速生長",
+      "titleEn": "spring up",
+      "formula": "spring up",
+      "highlight": "spring up",
+      "descriptionZh": "突然出現、形成或快速生長",
+      "descriptionEn": "New cafés are springing up near the station.",
+      "examples": [
+        {
+          "en": "New cafés are springing up near the station.",
+          "zh": "車站附近正陸續出現新的咖啡店。",
+          "highlight": "springing up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "以親切自然的方式表示請客",
+      "titleEn": "Offer to pay in a friendly and natural way",
+      "zh": "spring for something 可以用來表示主動支付膳食、門票、交通或其他共同費用。",
+      "en": "Spring for something is useful when you offer to pay for a meal, tickets, transport or another shared cost."
+    },
+    {
+      "titleZh": "說明構思、感受或問題的來源",
+      "titleEn": "Explain where an idea, feeling or problem began",
+      "zh": "spring from something 可以說明某件事背後最初的事件、經歷或原因。",
+      "en": "Spring from something helps you describe the original event, experience or cause behind something."
+    },
+    {
+      "titleZh": "描述突如其來的消息和臨時改動",
+      "titleEn": "Talk about unexpected news and last-minute changes",
+      "zh": "spring something on somebody 可以清楚表示某人在沒有準備或預先通知的情況下收到消息。",
+      "en": "Spring something on somebody clearly shows that the person received little or no warning."
+    },
+    {
+      "titleZh": "描述事物迅速出現",
+      "titleEn": "Describe things appearing quickly",
+      "zh": "spring up 可以描述植物、店舖、建築物、問題或團體突然開始出現。",
+      "en": "Spring up can describe plants, shops, buildings, problems, groups and other things that suddenly begin to appear."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "以親切自然的方式表示請客",
+      "說明構思、感受或問題的來源",
+      "描述突如其來的消息和臨時改動",
+      "描述事物迅速出現"
+    ],
+    "contextsEn": [
+      "Offer to pay in a friendly and natural way",
+      "Explain where an idea, feeling or problem began",
+      "Talk about unexpected news and last-minute changes",
+      "Describe things appearing quickly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "以親切自然的方式表示請客",
+        "titleEn": "Offer to pay in a friendly and natural way",
+        "zh": "spring for something 可以用來表示主動支付膳食、門票、交通或其他共同費用。",
+        "en": "Spring for something is useful when you offer to pay for a meal, tickets, transport or another shared cost.",
+        "examples": [
+          {
+            "en": "I’ll spring for lunch today.",
+            "zh": "今天午餐由我請客。",
+            "highlight": "spring for"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明構思、感受或問題的來源",
+        "titleEn": "Explain where an idea, feeling or problem began",
+        "zh": "spring from something 可以說明某件事背後最初的事件、經歷或原因。",
+        "en": "Spring from something helps you describe the original event, experience or cause behind something.",
+        "examples": [
+          {
+            "en": "The idea sprang from a class discussion.",
+            "zh": "這個構思源自一次課堂討論。",
+            "highlight": "sprang from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突如其來的消息和臨時改動",
+        "titleEn": "Talk about unexpected news and last-minute changes",
+        "zh": "spring something on somebody 可以清楚表示某人在沒有準備或預先通知的情況下收到消息。",
+        "en": "Spring something on somebody clearly shows that the person received little or no warning.",
+        "examples": [
+          {
+            "en": "They sprang the change on us at the last minute.",
+            "zh": "他們在最後一刻才突然把這項改動告訴我們。",
+            "highlight": "sprang the change on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述事物迅速出現",
+        "titleEn": "Describe things appearing quickly",
+        "zh": "spring up 可以描述植物、店舖、建築物、問題或團體突然開始出現。",
+        "en": "Spring up can describe plants, shops, buildings, problems, groups and other things that suddenly begin to appear.",
+        "examples": [
+          {
+            "en": "New cafés are springing up near the station.",
+            "zh": "車站附近正陸續出現新的咖啡店。",
+            "highlight": "springing up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SPRING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SPRING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SPRING 片語動詞。",
+      "en": "Read the whole sentence and choose the SPRING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 spring something on somebody 中,消息、改動、問題或工作放在 on 前面,而接收消息的人則放在 on 後面。",
+      "titleEn": "In spring something on somebody, put the news, change, question or task before on, and the person after on: spring the news on us spring it on them.",
+      "zh": "在 spring something on somebody 中,消息、改動、問題或工作放在 on 前面,而接收消息的人則放在 on 後面。",
+      "en": "In spring something on somebody, put the news, change, question or task before on, and the person after on: spring the news on us spring it on them"
+    },
+    {
+      "titleZh": "suddenly、without warning 和 at the last minute 等字眼只提供額外資料,並非 spring somethingon somebody 的固定部分。",
+      "titleEn": "Words such as suddenly, without warning and at the last minute give extra information.",
+      "zh": "suddenly、without warning 和 at the last minute 等字眼只提供額外資料,並非 spring somethingon somebody 的固定部分。",
+      "en": "Words such as suddenly, without warning and at the last minute give extra information. They are not part of the fixed expression spring something on somebody."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SPRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SPRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SPRING 動詞片語句子改寫練習",
+    "titleEn": "SPRING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SPRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SPRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-303-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Several new cafés appeared near the station over the summer.",
+      "promptZh": "夏季期間,車站附近出現了數間新的咖啡店。",
+      "starter": "Several",
+      "answer": "Several new cafés sprang up near the station over the summer.",
+      "answerZh": "夏季期間,車站附近出現了數間新的咖啡店。",
+      "highlight": "sprang up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現、形成或生長"
+    },
+    {
+      "id": "phrasal-verb-303-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I will pay for lunch today.",
+      "promptZh": "今天午餐由我付款。",
+      "starter": "I’ll",
+      "answer": "I’ll spring for lunch today.",
+      "answerZh": "今天午餐由我請客。",
+      "highlight": "I’ll spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The idea for the game began with a rainy afternoon at home.",
+      "promptZh": "這款遊戲的構思源自一個在家中度過的下雨下午。",
+      "starter": "The",
+      "answer": "The idea for the game sprang from a rainy afternoon at home.",
+      "answerZh": "這款遊戲的構思源自一個在家中度過的下雨下午。",
+      "highlight": "sprang from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The teacher gave us a surprise test without any warning.",
+      "promptZh": "老師毫無預警地給我們做了一次突擊測驗。",
+      "starter": "The",
+      "answer": "The teacher sprang a surprise test on us without any warning.",
+      "answerZh": "老師毫無預警地突然給我們做了一次突擊測驗。",
+      "highlight": "sprang",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把事情告訴或交給某人"
+    },
+    {
+      "id": "phrasal-verb-303-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Weeds appeared everywhere after the heavy rain.",
+      "promptZh": "大雨過後,雜草到處生長出來。",
+      "starter": "Weeds",
+      "answer": "Weeds sprang up everywhere after the heavy rain.",
+      "answerZh": "大雨過後,雜草到處生長出來。",
+      "highlight": "sprang up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現、形成或生長"
+    },
+    {
+      "id": "phrasal-verb-303-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Let me pay for the taxi home.",
+      "promptZh": "讓我支付回家的的士費吧。",
+      "starter": "Let",
+      "answer": "Let me spring for the taxi home.",
+      "answerZh": "讓我支付回家的的士費吧。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Her love of cooking began with weekends in her grandmother’s kitchen.",
+      "promptZh": "她對烹飪的熱愛源自週末在祖母廚房度過的時光。",
+      "starter": "Her",
+      "answer": "Her love of cooking sprang from weekends in her grandmother’s kitchen.",
+      "answerZh": "她對烹飪的熱愛源自週末在祖母廚房度過的時光。",
+      "highlight": "sprang from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A long queue suddenly formed outside the shop.",
+      "promptZh": "店外突然排起了長龍。",
+      "starter": "A",
+      "answer": "A long queue sprang up outside the shop.",
+      "answerZh": "店外突然排起了長龍。",
+      "highlight": "sprang up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please do not tell me about another change at the last minute.",
+      "promptZh": "請不要在最後一刻才突然告訴我又有改動。",
+      "starter": "Please",
+      "answer": "Please do not spring another change on me at the last minute.",
+      "answerZh": "請不要在最後一刻才突然告訴我又有改動。",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把改動告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Since Noah bought the tickets, I offered to pay for the snacks.",
+      "promptZh": "既然諾亞買了門票,我便提出支付小食的費用。",
+      "starter": "Since",
+      "answer": "Since Noah bought the tickets, I offered to spring for the snacks.",
+      "answerZh": "既然諾亞買了門票,我便提出支付小食的費用。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I hate to tell you this at such short notice, but the meeting has been moved.",
+      "promptZh": "我很不想這麼臨急才告訴你,但會議已經改期。",
+      "starter": "I",
+      "answer": "I hate to spring this on you at such short notice, but the meeting has been moved.",
+      "answerZh": "我很不想這麼臨急才告訴你,但會議已經改期。",
+      "highlight": "spring this on",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把消息告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Many of her song ideas come from everyday conversations.",
+      "promptZh": "她許多歌曲構思都來自日常對話。",
+      "starter": "Many",
+      "answer": "Many of her song ideas spring from everyday conversations.",
+      "answerZh": "她許多歌曲構思都來自日常對話。",
+      "highlight": "spring",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Several small online shops have appeared this year.",
+      "promptZh": "今年出現了數間小型網上商店。",
+      "starter": "Several",
+      "answer": "Several small online shops have sprung up this year.",
+      "answerZh": "今年出現了數間小型網上商店。",
+      "highlight": "sprung up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Who is going to pay for the pizza tonight?",
+      "promptZh": "今晚誰會支付薄餅的費用?",
+      "starter": "Who",
+      "answer": "Who is going to spring for the pizza tonight?",
+      "answerZh": "今晚誰會支付薄餅的費用?",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did the coach announce the new rule to us only five minutes before the match?",
+      "promptZh": "教練為甚麼在比賽前五分鐘才突然向我們宣布新規則?",
+      "starter": "Why",
+      "answer": "Why did the coach spring the new rule on us only five minutes before the match?",
+      "answerZh": "教練為甚麼在比賽前五分鐘才突然向我們宣布新規則?",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把新消息或改動告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The delay may have been caused by a small booking mistake.",
+      "promptZh": "這次延誤可能是由一個小小的預訂錯誤引起。",
+      "starter": "The",
+      "answer": "The delay may have sprung from a small booking mistake.",
+      "answerZh": "這次延誤可能是由一個小小的預訂錯誤引起。",
+      "highlight": "sprung from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Rosa has agreed to pay for the hotel breakfast.",
+      "promptZh": "羅莎已答應支付酒店早餐的費用。",
+      "starter": "Rosa",
+      "answer": "Rosa has agreed to spring for the hotel breakfast.",
+      "answerZh": "羅莎已答應支付酒店早餐的費用。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "More food stalls are appearing around the market.",
+      "promptZh": "市場附近正出現愈來愈多食物攤檔。",
+      "starter": "More",
+      "answer": "More food stalls are springing up around the market.",
+      "answerZh": "市場附近正出現愈來愈多食物攤檔。",
+      "highlight": "springing up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "開始迅速出現"
+    },
+    {
+      "id": "phrasal-verb-303-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does his fear of dogs come from a bad childhood experience?",
+      "promptZh": "他對狗的恐懼是否源自一次不愉快的童年經歷?",
+      "starter": "Does",
+      "answer": "Does his fear of dogs spring from a bad childhood experience?",
+      "answerZh": "他對狗的恐懼是否源自一次不愉快的童年經歷?",
+      "highlight": "spring",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The manager has promised not to give us another task without warning late on Friday.",
+      "promptZh": "經理已答應不會在星期五臨近下班時毫無預警地再給我們工作。",
+      "starter": "The",
+      "answer": "The manager has promised not to spring another task on us late on Friday.",
+      "answerZh": "經理已答應不會在星期五臨近下班時突然再給我們工作。",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把工作或要求交給某人"
+    },
+    {
+      "id": "phrasal-verb-303-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We cannot afford both meals, but my aunt offered to pay for dinner.",
+      "promptZh": "我們無法負擔兩餐的費用,但我的姨姨提出支付晚餐費用。",
+      "starter": "We",
+      "answer": "We cannot afford both meals, but my aunt offered to spring for dinner.",
+      "answerZh": "我們無法負擔兩餐的費用,但我的姨姨提出支付晚餐費用。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The extra work was suddenly given to us late on Friday.",
+      "promptZh": "那項額外工作在星期五臨近下班時突然交給了我們。",
+      "starter": "The",
+      "answer": "The extra work was sprung on us late on Friday.",
+      "answerZh": "那項額外工作在星期五臨近下班時突然交給了我們。",
+      "highlight": "sprung on",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-303-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the weather became warmer, wild flowers began to appear along the path.",
+      "promptZh": "天氣轉暖後,野花開始在小路旁生長出來。",
+      "starter": "When",
+      "answer": "When the weather became warmer, wild flowers began to spring up along the path.",
+      "answerZh": "天氣轉暖後,野花開始在小路旁生長出來。",
+      "highlight": "spring up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或生長"
+    },
+    {
+      "id": "phrasal-verb-303-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Their friendship began because they worked on the same project.",
+      "promptZh": "他們的友誼始於一起參與同一個項目。",
+      "starter": "Their",
+      "answer": "Their friendship sprang from working on the same project.",
+      "answerZh": "他們的友誼源自一起參與同一個項目。",
+      "highlight": "sprang from working",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "If the club pays for a professional coach, the parents can cover the equipment costs.",
+      "promptZh": "如果俱樂部支付專業教練的費用,家長便可以負擔器材費。",
+      "starter": "If",
+      "answer": "If the club springs for a professional coach, the parents can cover the equipment costs.",
+      "answerZh": "如果俱樂部支付專業教練的費用,家長便可以負擔器材費。",
+      "highlight": "springs",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付"
+    },
+    {
+      "id": "phrasal-verb-303-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She was about to leave when her boss suddenly gave her one more job.",
+      "promptZh": "她正準備離開時,上司突然再給她一項工作。",
+      "starter": "She",
+      "answer": "She was about to leave when her boss sprang one more job on her.",
+      "answerZh": "她正準備離開時,上司突然再給她一項工作。",
+      "highlight": "sprang",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-303-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The story began with a letter that the writer found in the attic.",
+      "promptZh": "這個故事源自作者在閣樓找到的一封信。",
+      "starter": "The",
+      "answer": "The story sprang from a letter that the writer found in the attic.",
+      "answerZh": "這個故事源自作者在閣樓找到的一封信。",
+      "highlight": "sprang from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "No one expected so many tents to appear beside the lake overnight.",
+      "promptZh": "沒有人預料到一夜之間會有這麼多帳篷出現在湖邊。",
+      "starter": "No",
+      "answer": "No one expected so many tents to spring up beside the lake overnight.",
+      "answerZh": "沒有人預料到一夜之間會有這麼多帳篷出現在湖邊。",
+      "highlight": "spring up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not suddenly give the students the bad news just before the examination.",
+      "promptZh": "不要在考試前才突然把壞消息告訴學生。",
+      "starter": "Do",
+      "answer": "Do not spring the bad news on the students just before the examination.",
+      "answerZh": "不要在考試前才突然把壞消息告訴學生。",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把消息告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Since the team paid for the room, we decided to pay for dinner.",
+      "promptZh": "既然球隊支付了房間費用,我們便決定支付晚餐費。",
+      "starter": "Since",
+      "answer": "Since the team paid for the room, we decided to spring for dinner.",
+      "answerZh": "既然球隊支付了房間費用,我們便決定支付晚餐費。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the novel seems original, its main idea began with an old family story.",
+      "promptZh": "雖然這本小說看來很有原創性,但主要構思源自一個古老的家庭故事。",
+      "starter": "Although",
+      "answer": "Although the novel seems original, its main idea sprang from an old family story.",
+      "answerZh": "雖然這本小說看來很有原創性,但主要構思源自一個古老的家庭故事。",
+      "highlight": "sprang from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Temporary shops appeared all over the town before the festival.",
+      "promptZh": "節日前,城內各處都出現了臨時店舖。",
+      "starter": "Temporary",
+      "answer": "Temporary shops sprang up all over the town before the festival.",
+      "answerZh": "節日前,城內各處都出現了臨時店舖。",
+      "highlight": "sprang up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The tickets are expensive, but Daniel says he is willing to pay for them.",
+      "promptZh": "門票很昂貴,但丹尼爾表示願意付款。",
+      "starter": "The",
+      "answer": "The tickets are expensive, but Daniel says he is willing to spring for them.",
+      "answerZh": "門票很昂貴,但丹尼爾表示願意付款。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付"
+    },
+    {
+      "id": "phrasal-verb-303-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "It was unfair to announce the weekend work to us just before closing time.",
+      "promptZh": "在臨近下班時才突然告訴我們要在週末工作,實在不公平。",
+      "starter": "It",
+      "answer": "It was unfair to spring the weekend work on us just before closing time.",
+      "answerZh": "在臨近下班時才突然告訴我們要在週末工作,實在不公平。",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把工作或要求告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The misunderstanding did not come from the email; it came from the wrong date.",
+      "promptZh": "這場誤會並非由電郵引起,而是由錯誤的日期引起。",
+      "starter": "The",
+      "answer": "The misunderstanding did not spring from the email; it sprang from the wrong date.",
+      "answerZh": "這場誤會並非由電郵引起,而是由錯誤的日期引起。",
+      "highlight": "spring",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why have new exercise groups appeared in every park this month?",
+      "promptZh": "為甚麼這個月每個公園都出現了新的運動小組?",
+      "starter": "Why",
+      "answer": "Why have new exercise groups sprung up in every park this month?",
+      "answerZh": "為甚麼這個月每個公園都出現了新的運動小組?",
+      "highlight": "sprung up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If nobody else wants to pay for the birthday cake, I can do it.",
+      "promptZh": "如果沒有其他人願意支付生日蛋糕的費用,我可以付款。",
+      "starter": "If",
+      "answer": "If nobody else wants to spring for the birthday cake, I can do it.",
+      "answerZh": "如果沒有其他人願意支付生日蛋糕的費用,我可以付款。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Much of his confidence comes from years of practice.",
+      "promptZh": "他的自信很大程度上來自多年的練習。",
+      "starter": "Much",
+      "answer": "Much of his confidence springs from years of practice.",
+      "answerZh": "他的自信很大程度上來自多年的練習。",
+      "highlight": "springs",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "They should not suddenly tell the new players about three extra training days.",
+      "promptZh": "他們不應突然告訴新球員要增加三天訓練。",
+      "starter": "They",
+      "answer": "They should not spring three extra training days on the new players.",
+      "answerZh": "他們不應突然告訴新球員要增加三天訓練。",
+      "highlight": "spring",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把改動或要求告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Small problems can appear when a project has no clear plan.",
+      "promptZh": "項目沒有清晰計劃時,可能會出現一些小問題。",
+      "starter": "Small",
+      "answer": "Small problems can spring up when a project has no clear plan.",
+      "answerZh": "項目沒有清晰計劃時,可能會出現一些小問題。",
+      "highlight": "spring up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the new station opened, cafés and small shops began appearing along every nearby street.",
+      "promptZh": "新車站啟用後,附近每條街道都開始出現咖啡店和小型店舖。",
+      "starter": "After",
+      "answer": "After the new station opened, cafés and small shops began springing up along every nearby street.",
+      "answerZh": "新車站啟用後,附近每條街道都開始出現咖啡店和小型店舖。",
+      "highlight": "springing up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "開始迅速出現"
+    },
+    {
+      "id": "phrasal-verb-303-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Just as we thought the plan was final, the organiser suddenly announced a new date to everyone.",
+      "promptZh": "就在我們以為計劃已經落實時,主辦人突然向所有人宣布一個新日期。",
+      "starter": "Just",
+      "answer": "Just as we thought the plan was final, the organiser sprang a new date on everyone.",
+      "answerZh": "就在我們以為計劃已經落實時,主辦人突然向所有人宣布一個新日期。",
+      "highlight": "sprang",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把消息或改動告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "What looked like a complex school project actually began with one student’s simple question.",
+      "promptZh": "這個看似複雜的學校項目,其實源自一名學生提出的簡單問題。",
+      "starter": "What",
+      "answer": "What looked like a complex school project actually sprang from one student’s simple question.",
+      "answerZh": "這個看似複雜的學校項目,其實源自一名學生提出的簡單問題。",
+      "highlight": "sprang from",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "You paid for the concert tickets, so at least allow me to pay for our meal afterwards.",
+      "promptZh": "你支付了演唱會門票,所以之後至少讓我支付膳食費吧。",
+      "starter": "You",
+      "answer": "You paid for the concert tickets, so at least allow me to spring for our meal afterwards.",
+      "answerZh": "你支付了演唱會門票,所以之後至少讓我支付膳食費吧。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "By the time the rain stopped, small mushrooms had appeared all across the field.",
+      "promptZh": "雨停時,田野各處已經長出了小蘑菇。",
+      "starter": "By",
+      "answer": "By the time the rain stopped, small mushrooms had sprung up all across the field.",
+      "answerZh": "雨停時,田野各處已經長出了小蘑菇。",
+      "highlight": "sprung up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "突然出現或生長"
+    },
+    {
+      "id": "phrasal-verb-303-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The company waited until Monday morning and then suddenly announced a major change to the whole team.",
+      "promptZh": "公司等到星期一早上,才突然向整個團隊宣布一項重大改動。",
+      "starter": "The",
+      "answer": "The company waited until Monday morning and then sprang a major change on the whole team.",
+      "answerZh": "公司等到星期一早上,才突然向整個團隊宣布一項重大改動。",
+      "highlight": "sprang",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把改動告訴某人"
+    },
+    {
+      "id": "phrasal-verb-303-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Her decision to become a nurse came from the care she received when she was young.",
+      "promptZh": "她決定成為護士,源自年幼時曾經得到的照顧。",
+      "starter": "Her",
+      "answer": "Her decision to become a nurse sprang from the care she received when she was young.",
+      "answerZh": "她決定成為護士,源自年幼時曾經得到的照顧。",
+      "highlight": "sprang",
+      "targetForm": "spring from something",
+      "targetMeaningZh": "源自;由某事物引起"
+    },
+    {
+      "id": "phrasal-verb-303-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Wherever the new bus route became popular, small cafés soon appeared near the stops.",
+      "promptZh": "新巴士路線在甚麼地方受到歡迎,附近的車站很快便會出現小型咖啡店。",
+      "starter": "Wherever",
+      "answer": "Wherever the new bus route became popular, small cafés soon sprang up near the stops.",
+      "answerZh": "新巴士路線在甚麼地方受到歡迎,附近的車站很快便會出現小型咖啡店。",
+      "highlight": "sprang up",
+      "targetForm": "spring up",
+      "targetMeaningZh": "迅速出現或形成"
+    },
+    {
+      "id": "phrasal-verb-303-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We had planned to share the cost, but Aaron quietly offered to pay for everything.",
+      "promptZh": "我們原本打算分擔費用,但亞倫悄悄提出支付所有費用。",
+      "starter": "We",
+      "answer": "We had planned to share the cost, but Aaron quietly offered to spring for everything.",
+      "answerZh": "我們原本打算分擔費用,但亞倫悄悄提出支付所有費用。",
+      "highlight": "spring",
+      "targetForm": "spring for something",
+      "targetMeaningZh": "出錢支付;請客"
+    },
+    {
+      "id": "phrasal-verb-303-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I know the timing is bad, and I am sorry to tell you this with almost no warning: tomorrow’s trip has been cancelled.",
+      "promptZh": "我知道現在並非合適時候,也很抱歉在幾乎沒有預先通知的情況下才告訴你:明天的旅程已取消。",
+      "starter": "I",
+      "answer": "I know the timing is bad, and I am sorry to spring this on you at such short notice: tomorrow’s trip has been cancelled.",
+      "answerZh": "我知道現在並非合適時候,也很抱歉這麼臨急才突然告訴你:明天的旅程已取消。",
+      "highlight": "spring this on",
+      "targetForm": "spring something on somebody",
+      "targetMeaningZh": "突然把消息告訴某人"
+    }
+  ]
+}

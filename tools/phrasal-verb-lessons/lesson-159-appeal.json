@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-159",
+  "order": 159,
+  "slug": "appeal",
+  "version": "1",
+  "title": "APPEAL 動詞片語",
+  "titleEn": "Appeal",
+  "titleZh": "APPEAL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 158 - APPEAL.pdf",
+    "sourceNumber": 158,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 APPEAL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to APPEAL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "APPEAL",
+      "highlight": "APPEAL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The police appealed for witnesses to contact them.",
+      "zh": "警方呼籲目擊者與他們聯絡。",
+      "highlight": "appealed for witnesses to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The course appeals to busy adults.",
+      "zh": "這個課程對忙碌的成年人很有吸引力。",
+      "highlight": "appeals to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She appealed to his sense of fairness.",
+      "zh": "她訴諸他的公平意識來勸說他。",
+      "highlight": "appealed to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事；對某人有吸引力;令某人感興趣；訴諸某種情感、原則或善意來勸說某人",
+    "en": "appeal for something/somebody; appeal for somebody to do something; appeal to somebody; appeal to something",
+    "naturalZh": [
+      "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+      "對某人有吸引力;令某人感興趣",
+      "訴諸某種情感、原則或善意來勸說某人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "appeal for something/somebody; appeal for somebody to do something",
+      "titleZh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+      "titleEn": "appeal for something/somebody; appeal for somebody to do something",
+      "descriptionZh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+      "descriptionEn": "The police appealed for witnesses to contact them.",
+      "examples": [
+        {
+          "en": "The police appealed for witnesses to contact them.",
+          "zh": "警方呼籲目擊者與他們聯絡。",
+          "highlight": "appealed for witnesses to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "appeal to somebody",
+      "titleZh": "對某人有吸引力;令某人感興趣",
+      "titleEn": "appeal to somebody",
+      "descriptionZh": "對某人有吸引力;令某人感興趣",
+      "descriptionEn": "The course appeals to busy adults.",
+      "examples": [
+        {
+          "en": "The course appeals to busy adults.",
+          "zh": "這個課程對忙碌的成年人很有吸引力。",
+          "highlight": "appeals to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "appeal to something",
+      "titleZh": "訴諸某種情感、原則或善意來勸說某人",
+      "titleEn": "appeal to something",
+      "descriptionZh": "訴諸某種情感、原則或善意來勸說某人",
+      "descriptionEn": "She appealed to his sense of fairness.",
+      "examples": [
+        {
+          "en": "She appealed to his sense of fairness.",
+          "zh": "她訴諸他的公平意識來勸說他。",
+          "highlight": "appealed to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "APPEAL 片語動詞的實際用途",
+    "labelEn": "APPEAL Phrasal Verbs in Use",
+    "summaryZh": "慈善機構、學校、醫院或公共機構需要援助、捐款、義工或行動時,可以使用 appeal for。；appeal to 可以描述哪些書籍、課程、工作、產品或活動對某一群人具有吸引力。；要求別人採取行動時,可以訴諸對方的善意、公平意識、常識或責任感。；這些表達常見於新聞報道、公共訊息、慈善活動、廣告和評論。",
+    "summaryEn": "Appeal for can be used when charities, schools, hospitals or public organisations urgently request help, money, volunteers or action. Appeal to can describe the books, courses, jobs, products or activities that interest a particular group. You can appeal to someone’s kindness, fairness, common sense or sense of responsibility when asking that person to act. These expressions often appear in news reports, public messages, charity campaigns, advertisements and reviews.",
+    "contextsZh": [
+      "作出正式或迫切的公開呼籲",
+      "說明甚麼事物能吸引不同的人",
+      "訴諸正面的價值觀來勸說別人",
+      "理解真實生活中的 APPEAL 表達"
+    ],
+    "contextsEn": [
+      "Make serious public requests",
+      "Explain what different people find attractive",
+      "Persuade people through positive values",
+      "Understand APPEAL in real-life English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 APPEAL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the APPEAL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "appeal for something/somebody; appeal for somebody to do something",
+    "fixedHighlight": "appeal for something/somebody; appeal for somebody to do something",
+    "fixedZh": "閱讀整句,選出意思相同的 APPEAL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the APPEAL expression that gives the same meaning.",
+    "correct": "appealed for witnesses to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；作出正式、迫切或公開的呼籲時,可使用 appeal for。；appeal to readers 表示「吸引讀者」;appeal to someone’s kindness 則表示「訴諸某人的善意來勸說對方」。",
+    "variableEn": "Keep the same people, things, time and meaning. Use appeal for when making a serious or public request: appeal for help appeal for people to stay calm Read appeal to carefully: appeal to readers = interest readers appeal to someone’s kindness = try to persuade that person through kindness",
+    "variableItemsZh": [
+      "appeal for something/somebody; appeal for somebody to do something",
+      "appeal to somebody",
+      "appeal to something"
+    ],
+    "variableItemsEn": [
+      "appeal for something/somebody; appeal for somebody to do something",
+      "appeal to somebody",
+      "appeal to something"
+    ],
+    "forms": [
+      {
+        "formZh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+        "formEn": "appeal for something/somebody; appeal for somebody to do something",
+        "exampleZh": "警方呼籲目擊者與他們聯絡。",
+        "exampleEn": "The police appealed for witnesses to contact them.",
+        "highlight": "appealed for witnesses to"
+      },
+      {
+        "formZh": "對某人有吸引力;令某人感興趣",
+        "formEn": "appeal to somebody",
+        "exampleZh": "這個課程對忙碌的成年人很有吸引力。",
+        "exampleEn": "The course appeals to busy adults.",
+        "highlight": "appeals to"
+      },
+      {
+        "formZh": "訴諸某種情感、原則或善意來勸說某人",
+        "formEn": "appeal to something",
+        "exampleZh": "她訴諸他的公平意識來勸說他。",
+        "exampleEn": "She appealed to his sense of fairness.",
+        "highlight": "appealed to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+      "titleEn": "appeal for something/somebody; appeal for somebody to do something",
+      "formula": "appeal for something/somebody; appeal for somebody to do something",
+      "highlight": "appeal for something/somebody; appeal for somebody to do something",
+      "descriptionZh": "正式或迫切地要求某物、尋求某人,或呼籲某人做某事",
+      "descriptionEn": "The police appealed for witnesses to contact them.",
+      "examples": [
+        {
+          "en": "The police appealed for witnesses to contact them.",
+          "zh": "警方呼籲目擊者與他們聯絡。",
+          "highlight": "appealed for witnesses to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "對某人有吸引力;令某人感興趣",
+      "titleEn": "appeal to somebody",
+      "formula": "appeal to somebody",
+      "highlight": "appeal to somebody",
+      "descriptionZh": "對某人有吸引力;令某人感興趣",
+      "descriptionEn": "The course appeals to busy adults.",
+      "examples": [
+        {
+          "en": "The course appeals to busy adults.",
+          "zh": "這個課程對忙碌的成年人很有吸引力。",
+          "highlight": "appeals to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "訴諸某種情感、原則或善意來勸說某人",
+      "titleEn": "appeal to something",
+      "formula": "appeal to something",
+      "highlight": "appeal to something",
+      "descriptionZh": "訴諸某種情感、原則或善意來勸說某人",
+      "descriptionEn": "She appealed to his sense of fairness.",
+      "examples": [
+        {
+          "en": "She appealed to his sense of fairness.",
+          "zh": "她訴諸他的公平意識來勸說他。",
+          "highlight": "appealed to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "作出正式或迫切的公開呼籲",
+      "titleEn": "Make serious public requests",
+      "zh": "慈善機構、學校、醫院或公共機構需要援助、捐款、義工或行動時,可以使用 appeal for。",
+      "en": "Appeal for can be used when charities, schools, hospitals or public organisations urgently request help, money, volunteers or action."
+    },
+    {
+      "titleZh": "說明甚麼事物能吸引不同的人",
+      "titleEn": "Explain what different people find attractive",
+      "zh": "appeal to 可以描述哪些書籍、課程、工作、產品或活動對某一群人具有吸引力。",
+      "en": "Appeal to can describe the books, courses, jobs, products or activities that interest a particular group."
+    },
+    {
+      "titleZh": "訴諸正面的價值觀來勸說別人",
+      "titleEn": "Persuade people through positive values",
+      "zh": "要求別人採取行動時,可以訴諸對方的善意、公平意識、常識或責任感。",
+      "en": "You can appeal to someone’s kindness, fairness, common sense or sense of responsibility when asking that person to act."
+    },
+    {
+      "titleZh": "理解真實生活中的 APPEAL 表達",
+      "titleEn": "Understand APPEAL in real-life English",
+      "zh": "這些表達常見於新聞報道、公共訊息、慈善活動、廣告和評論。",
+      "en": "These expressions often appear in news reports, public messages, charity campaigns, advertisements and reviews."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "作出正式或迫切的公開呼籲",
+      "說明甚麼事物能吸引不同的人",
+      "訴諸正面的價值觀來勸說別人",
+      "理解真實生活中的 APPEAL 表達"
+    ],
+    "contextsEn": [
+      "Make serious public requests",
+      "Explain what different people find attractive",
+      "Persuade people through positive values",
+      "Understand APPEAL in real-life English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "作出正式或迫切的公開呼籲",
+        "titleEn": "Make serious public requests",
+        "zh": "慈善機構、學校、醫院或公共機構需要援助、捐款、義工或行動時,可以使用 appeal for。",
+        "en": "Appeal for can be used when charities, schools, hospitals or public organisations urgently request help, money, volunteers or action.",
+        "examples": [
+          {
+            "en": "The police appealed for witnesses to contact them.",
+            "zh": "警方呼籲目擊者與他們聯絡。",
+            "highlight": "appealed for witnesses to"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明甚麼事物能吸引不同的人",
+        "titleEn": "Explain what different people find attractive",
+        "zh": "appeal to 可以描述哪些書籍、課程、工作、產品或活動對某一群人具有吸引力。",
+        "en": "Appeal to can describe the books, courses, jobs, products or activities that interest a particular group.",
+        "examples": [
+          {
+            "en": "The course appeals to busy adults.",
+            "zh": "這個課程對忙碌的成年人很有吸引力。",
+            "highlight": "appeals to"
+          }
+        ]
+      },
+      {
+        "titleZh": "訴諸正面的價值觀來勸說別人",
+        "titleEn": "Persuade people through positive values",
+        "zh": "要求別人採取行動時,可以訴諸對方的善意、公平意識、常識或責任感。",
+        "en": "You can appeal to someone’s kindness, fairness, common sense or sense of responsibility when asking that person to act.",
+        "examples": [
+          {
+            "en": "She appealed to his sense of fairness.",
+            "zh": "她訴諸他的公平意識來勸說他。",
+            "highlight": "appealed to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解真實生活中的 APPEAL 表達",
+        "titleEn": "Understand APPEAL in real-life English",
+        "zh": "這些表達常見於新聞報道、公共訊息、慈善活動、廣告和評論。",
+        "en": "These expressions often appear in news reports, public messages, charity campaigns, advertisements and reviews.",
+        "examples": [
+          {
+            "en": "The police appealed for witnesses to contact them.",
+            "zh": "警方呼籲目擊者與他們聯絡。",
+            "highlight": "appealed for witnesses to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 APPEAL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the APPEAL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 APPEAL 片語動詞。",
+      "en": "Read the whole sentence and choose the APPEAL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "作出正式、迫切或公開的呼籲時,可使用 appeal for。",
+      "titleEn": "Use appeal for when making a serious or public request: appeal for help appeal for people to stay calm.",
+      "zh": "作出正式、迫切或公開的呼籲時,可使用 appeal for。",
+      "en": "Use appeal for when making a serious or public request: appeal for help appeal for people to stay calm"
+    },
+    {
+      "titleZh": "appeal to readers 表示「吸引讀者」;appeal to someone’s kindness 則表示「訴諸某人的善意來勸說對方」。",
+      "titleEn": "Read appeal to carefully: appeal to readers = interest readers appeal to someone’s kindness = try to persuade that person through kindness.",
+      "zh": "appeal to readers 表示「吸引讀者」;appeal to someone’s kindness 則表示「訴諸某人的善意來勸說對方」。",
+      "en": "Read appeal to carefully: appeal to readers = interest readers appeal to someone’s kindness = try to persuade that person through kindness"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 APPEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to APPEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "APPEAL 動詞片語句子改寫練習",
+    "titleEn": "APPEAL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 APPEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to APPEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-159-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The town council publicly asked everyone to stay calm after the power cut.",
+      "promptZh": "市議會在停電後公開呼籲所有人保持冷靜。",
+      "starter": "The",
+      "answer": "The town council appealed for everyone to stay calm after the power cut.",
+      "answerZh": "市議會在停電後公開呼籲所有人保持冷靜。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "This simple puzzle interests children of different ages.",
+      "promptZh": "這個簡單謎題能引起不同年齡兒童的興趣。",
+      "starter": "This",
+      "answer": "This simple puzzle appeals to children of different ages.",
+      "answerZh": "這個簡單謎題對不同年齡的兒童都有吸引力。",
+      "highlight": "appeals to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The coach tried to persuade the players by reminding them to be fair.",
+      "promptZh": "教練提醒球員要公平,試圖藉此說服他們。",
+      "starter": "The",
+      "answer": "The coach appealed to the players’ sense of fairness.",
+      "answerZh": "教練訴諸球員的公平意識來勸說他們。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某種情感或原則來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The animal centre made a serious request for more blankets before winter.",
+      "promptZh": "動物收容中心在冬季來臨前鄭重呼籲捐贈更多毛氈。",
+      "starter": "The",
+      "answer": "The animal centre appealed for more blankets before winter.",
+      "answerZh": "動物收容中心在冬季來臨前鄭重呼籲捐贈更多毛氈。",
+      "highlight": "appealed",
+      "targetForm": "appeal for something",
+      "targetMeaningZh": "呼籲或懇求獲得某物"
+    },
+    {
+      "id": "phrasal-verb-159-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Travellers who want a peaceful holiday find the quiet hotel attractive.",
+      "promptZh": "想度過寧靜假期的旅客覺得這間安靜的酒店很有吸引力。",
+      "starter": "The",
+      "answer": "The quiet hotel appeals to travellers who want a peaceful holiday.",
+      "answerZh": "這間安靜的酒店對想度過寧靜假期的旅客很有吸引力。",
+      "highlight": "The quiet hotel appeals to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Lena tried to persuade her brother to help by reminding him to be kind.",
+      "promptZh": "莉娜提醒弟弟要善良,試圖說服他幫忙。",
+      "starter": "Lena",
+      "answer": "Lena appealed to her brother’s better nature to get him to help.",
+      "answerZh": "莉娜訴諸弟弟善良的一面,讓他答應幫忙。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某人的善意來勸說對方"
+    },
+    {
+      "id": "phrasal-verb-159-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The police publicly asked anyone with information to contact them.",
+      "promptZh": "警方公開呼籲任何掌握資料的人與他們聯絡。",
+      "starter": "The",
+      "answer": "The police appealed for anyone with information to contact them.",
+      "answerZh": "警方公開呼籲任何掌握資料的人與他們聯絡。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Adults with busy jobs find online lessons attractive.",
+      "promptZh": "工作繁忙的成年人覺得網上課程很有吸引力。",
+      "starter": "Online",
+      "answer": "Online lessons appeal to adults with busy jobs.",
+      "answerZh": "網上課程對工作繁忙的成年人很有吸引力。",
+      "highlight": "Online lessons appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The teacher tried to persuade the class by asking them to think sensibly.",
+      "promptZh": "老師提醒全班要理性思考,試圖說服他們。",
+      "starter": "The",
+      "answer": "The teacher appealed to the class’s common sense.",
+      "answerZh": "老師訴諸全班的常識來勸說他們。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸常識來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Local doctors made a public request for more blood donors.",
+      "promptZh": "當地醫生公開呼籲更多人捐血。",
+      "starter": "Local",
+      "answer": "Local doctors appealed for more blood donors.",
+      "answerZh": "當地醫生公開呼籲更多人捐血。",
+      "highlight": "appealed",
+      "targetForm": "appeal for somebody",
+      "targetMeaningZh": "公開呼籲某類人士提供協助"
+    },
+    {
+      "id": "phrasal-verb-159-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "People who enjoy taking photos may find this phone app attractive.",
+      "promptZh": "喜歡拍照的人可能會覺得這個手機應用程式很有吸引力。",
+      "starter": "This",
+      "answer": "This phone app may appeal to people who enjoy taking photos.",
+      "answerZh": "這個手機應用程式可能會吸引喜歡拍照的人。",
+      "highlight": "This phone app may appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The school has publicly asked parents to drive slowly near the gate.",
+      "promptZh": "學校已公開呼籲家長在校門附近慢駛。",
+      "starter": "The",
+      "answer": "The school has appealed for parents to drive slowly near the gate.",
+      "answerZh": "學校已公開呼籲家長在校門附近慢駛。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "During the meeting, Ravi tried to persuade everyone by reminding them to act responsibly.",
+      "promptZh": "會議期間,拉維提醒大家要負責任,試圖說服他們。",
+      "starter": "During",
+      "answer": "During the meeting, Ravi appealed to everyone’s sense of responsibility.",
+      "answerZh": "會議期間,拉維訴諸大家的責任感來勸說他們。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸責任感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Younger customers do not find the new menu attractive.",
+      "promptZh": "年輕顧客覺得新餐牌沒有吸引力。",
+      "starter": "The",
+      "answer": "The new menu does not appeal to younger customers.",
+      "answerZh": "新餐牌對年輕顧客沒有吸引力。",
+      "highlight": "does not appeal to younger customers",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We are making a public request for volunteers to help at Saturday’s event.",
+      "promptZh": "我們正公開呼籲義工協助星期六的活動。",
+      "starter": "We",
+      "answer": "We are appealing for volunteers to help at Saturday’s event.",
+      "answerZh": "我們正公開呼籲義工協助星期六的活動。",
+      "highlight": "appealing",
+      "targetForm": "appeal for somebody",
+      "targetMeaningZh": "公開呼籲某類人士提供協助"
+    },
+    {
+      "id": "phrasal-verb-159-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She tried to persuade him by reminding him to be kind when she asked for another chance.",
+      "promptZh": "她要求再給一次機會時,提醒他要善良,試圖說服他。",
+      "starter": "She",
+      "answer": "She appealed to his kindness when she asked for another chance.",
+      "answerZh": "她要求再給一次機會時,訴諸他的善意來勸說他。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某人的善意來勸說對方"
+    },
+    {
+      "id": "phrasal-verb-159-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why does this old story still interest modern readers?",
+      "promptZh": "為甚麼這個古老故事至今仍能引起現代讀者的興趣?",
+      "starter": "Why",
+      "answer": "Why does this old story still appeal to modern readers?",
+      "answerZh": "為甚麼這個古老故事至今仍對現代讀者有吸引力?",
+      "highlight": "appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has the charity made a public request for enough food to fill the boxes?",
+      "promptZh": "該慈善機構有否公開呼籲捐贈足夠食物,把所有箱子裝滿?",
+      "starter": "Has",
+      "answer": "Has the charity appealed for enough food to fill the boxes?",
+      "answerZh": "該慈善機構有否公開呼籲捐贈足夠食物,把所有箱子裝滿?",
+      "highlight": "appealed",
+      "targetForm": "appeal for something",
+      "targetMeaningZh": "呼籲或懇求獲得某物"
+    },
+    {
+      "id": "phrasal-verb-159-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The speaker was trying to persuade the audience by reminding them how much they loved their town.",
+      "promptZh": "講者正提醒聽眾他們多麼熱愛自己的城鎮,試圖藉此說服他們。",
+      "starter": "The",
+      "answer": "The speaker was appealing to the audience’s love of their town.",
+      "answerZh": "講者正訴諸聽眾對城鎮的熱愛來勸說他們。",
+      "highlight": "appealing",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某種情感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Very young children often find bright colours attractive.",
+      "promptZh": "幼兒通常覺得鮮艷的顏色很有吸引力。",
+      "starter": "Bright",
+      "answer": "Bright colours often appeal to very young children.",
+      "answerZh": "鮮艷的顏色通常對幼兒很有吸引力。",
+      "highlight": "Bright colours often appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Priya did not want to share the equipment, so the teacher reminded her that everyone deserved a turn.",
+      "promptZh": "普麗雅不願分享器材,因此老師提醒她每個人都應有機會使用。",
+      "starter": "Priya",
+      "answer": "Priya did not want to share the equipment, so the teacher appealed to her sense of fairness.",
+      "answerZh": "普麗雅不願分享器材,因此老師訴諸她的公平意識來勸說她。",
+      "highlight": "appealed to",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸公平意識來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After the storm, the village made an urgent request for help, food and clean water.",
+      "promptZh": "暴風雨過後,村民緊急呼籲援助、食物和清潔食水。",
+      "starter": "After",
+      "answer": "After the storm, the village appealed for help, food and clean water.",
+      "answerZh": "暴風雨過後,村民緊急呼籲援助、食物和清潔食水。",
+      "highlight": "appealed",
+      "targetForm": "appeal for something",
+      "targetMeaningZh": "呼籲或懇求獲得某物"
+    },
+    {
+      "id": "phrasal-verb-159-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The museum hopes its new games will attract family visitors.",
+      "promptZh": "博物館希望新遊戲能吸引家庭訪客。",
+      "starter": "The",
+      "answer": "The museum hopes its new games will appeal to family visitors.",
+      "answerZh": "博物館希望新遊戲能吸引家庭訪客。",
+      "highlight": "appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I could not order him to stay, so I tried to persuade him by reminding him of his duty.",
+      "promptZh": "我不能命令他留下,所以我提醒他履行責任,試圖說服他。",
+      "starter": "I",
+      "answer": "I could not order him to stay, so I appealed to his sense of duty.",
+      "answerZh": "我不能命令他留下,所以我訴諸他的責任感來勸說他。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸責任感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The police publicly asked witnesses to speak to them before Friday.",
+      "promptZh": "警方公開呼籲目擊者在星期五前與他們聯絡。",
+      "starter": "The",
+      "answer": "The police appealed for witnesses to speak to them before Friday.",
+      "answerZh": "警方公開呼籲目擊者在星期五前與他們聯絡。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The idea interested us because it was simple and cheap.",
+      "promptZh": "這個構思因為簡單又便宜,所以吸引了我們。",
+      "starter": "The",
+      "answer": "The idea appealed to us because it was simple and cheap.",
+      "answerZh": "這個構思因為簡單又便宜,所以吸引了我們。",
+      "highlight": "appealed to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Instead of offering money, the organiser tried to persuade the neighbours by asking them to be kind.",
+      "promptZh": "主辦單位沒有提供金錢,而是請鄰居發揮善意,試圖說服他們。",
+      "starter": "Instead",
+      "answer": "Instead of offering money, the organiser appealed to the neighbours’ kindness.",
+      "answerZh": "主辦單位沒有提供金錢,而是訴諸鄰居的善意來勸說他們。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某人的善意來勸說對方"
+    },
+    {
+      "id": "phrasal-verb-159-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The hospital is making a public request for local people to give blood this week.",
+      "promptZh": "醫院正公開呼籲當地居民本星期捐血。",
+      "starter": "The",
+      "answer": "The hospital is appealing for local people to give blood this week.",
+      "answerZh": "醫院正公開呼籲當地居民本星期捐血。",
+      "highlight": "appealing",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Some students find the video useful, but not everyone finds it interesting.",
+      "promptZh": "有些學生覺得影片有用,但並非所有人都覺得有趣。",
+      "starter": "Some",
+      "answer": "Some students find the video useful, but it does not appeal to everyone.",
+      "answerZh": "有些學生覺得影片有用,但它並非對所有人都有吸引力。",
+      "highlight": "it does",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "To stop the argument, Dad tried to persuade us to think sensibly.",
+      "promptZh": "為了停止爭吵,爸爸提醒我們要理性思考,試圖說服我們。",
+      "starter": "To",
+      "answer": "To stop the argument, Dad appealed to our common sense.",
+      "answerZh": "為了停止爭吵,爸爸訴諸我們的常識來勸說我們。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸常識來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The rescue team publicly asked anyone with a boat to help search the lake.",
+      "promptZh": "救援隊公開呼籲任何有船隻的人協助搜索湖面。",
+      "starter": "The",
+      "answer": "The rescue team appealed for anyone with a boat to help search the lake.",
+      "answerZh": "救援隊公開呼籲任何有船隻的人協助搜索湖面。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The head teacher tried to persuade the students by reminding them to be fair, rather than warning them about punishment.",
+      "promptZh": "校長沒有以懲罰作警告,而是提醒學生要公平,試圖說服他們。",
+      "starter": "The",
+      "answer": "The head teacher appealed to the students’ sense of fairness rather than warning them about punishment.",
+      "answerZh": "校長訴諸學生的公平意識,而沒有以懲罰作警告。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸公平意識來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the course is useful, working parents may not find its late classes attractive.",
+      "promptZh": "雖然課程很有用,但在職家長可能覺得深夜上課時間沒有吸引力。",
+      "starter": "Although",
+      "answer": "Although the course is useful, its late classes may not appeal to working parents.",
+      "answerZh": "雖然課程很有用,但深夜上課時間可能對在職家長沒有吸引力。",
+      "highlight": "may not appeal to working parents",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the fire, the family made an urgent request for a safe place to stay.",
+      "promptZh": "火災後,該家庭緊急呼籲提供一個安全的住處。",
+      "starter": "After",
+      "answer": "After the fire, the family appealed for a safe place to stay.",
+      "answerZh": "火災後,該家庭緊急呼籲提供一個安全的住處。",
+      "highlight": "appealed",
+      "targetForm": "appeal for something",
+      "targetMeaningZh": "呼籲或懇求獲得某物"
+    },
+    {
+      "id": "phrasal-verb-159-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Readers with little free time find the book’s short chapters attractive.",
+      "promptZh": "閱讀時間不多的讀者覺得這本書的短章節很有吸引力。",
+      "starter": "The",
+      "answer": "The book’s short chapters appeal to readers with little free time.",
+      "answerZh": "這本書的短章節對閱讀時間不多的讀者很有吸引力。",
+      "highlight": "The book’s short chapters appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Noor tried to persuade Evan to help by reminding him how much he loved animals.",
+      "promptZh": "努爾提醒埃文他有多麼喜愛動物,試圖說服他幫忙。",
+      "starter": "Noor",
+      "answer": "Noor appealed to Evan’s love of animals when asking him to help.",
+      "answerZh": "努爾請埃文幫忙時,訴諸他對動物的愛護。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某種情感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The organisers made a serious public request for people not to leave rubbish in the park.",
+      "promptZh": "主辦單位鄭重公開呼籲人們不要在公園留下垃圾。",
+      "starter": "The",
+      "answer": "The organisers appealed for people not to leave rubbish in the park.",
+      "answerZh": "主辦單位鄭重公開呼籲人們不要在公園留下垃圾。",
+      "highlight": "appealed",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The mother tried to persuade the children to share by reminding them to be kind.",
+      "promptZh": "母親提醒孩子們要善良,試圖說服他們分享。",
+      "starter": "The",
+      "answer": "The mother appealed to their better nature to get them to share.",
+      "answerZh": "母親訴諸孩子們善良的一面,讓他們願意分享。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某人的善意來勸說對方"
+    },
+    {
+      "id": "phrasal-verb-159-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Someone who enjoys meeting new people may find this job attractive.",
+      "promptZh": "喜歡認識新朋友的人可能會覺得這份工作很有吸引力。",
+      "starter": "This",
+      "answer": "This job may appeal to someone who enjoys meeting new people.",
+      "answerZh": "這份工作可能會吸引喜歡認識新朋友的人。",
+      "highlight": "This job may appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Airport officials urgently asked passengers to arrive early because of the bad weather.",
+      "promptZh": "由於天氣惡劣,機場人員緊急呼籲旅客提早抵達。",
+      "starter": "Airport",
+      "answer": "Airport officials appealed for passengers to arrive early because of the bad weather.",
+      "answerZh": "由於天氣惡劣,機場人員緊急呼籲旅客提早抵達。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Both beginners and more confident learners find the programme attractive because each lesson offers two levels.",
+      "promptZh": "初學者和較有信心的學習者都覺得這個課程很有吸引力,因為每堂課都提供兩個程度。",
+      "starter": "The",
+      "answer": "The programme appeals to both beginners and more confident learners because each lesson offers two levels.",
+      "answerZh": "這個課程對初學者和較有信心的學習者都有吸引力,因為每堂課都提供兩個程度。",
+      "highlight": "The programme appeals to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the team wanted to cancel the visit, Sara tried to persuade them by reminding them of their responsibility to the children.",
+      "promptZh": "團隊想取消探訪時,莎拉提醒他們對孩子負有責任,試圖說服他們。",
+      "starter": "When",
+      "answer": "When the team wanted to cancel the visit, Sara appealed to their sense of responsibility towards the children.",
+      "answerZh": "團隊想取消探訪時,莎拉訴諸他們對孩子的責任感。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸責任感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "As the river rose, local radio stations urgently asked people near the river to move to safety.",
+      "promptZh": "河水上漲時,當地電台緊急呼籲河邊居民移到安全地方。",
+      "starter": "As",
+      "answer": "As the river rose, local radio stations appealed for people near the river to move to safety.",
+      "answerZh": "河水上漲時,當地電台緊急呼籲河邊居民移到安全地方。",
+      "highlight": "appealed for",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A product may attract teenagers but fail to interest their parents.",
+      "promptZh": "一件產品可能會吸引青少年,卻未必能引起他們父母的興趣。",
+      "starter": "A",
+      "answer": "A product may appeal to teenagers but fail to interest their parents.",
+      "answerZh": "一件產品可能對青少年有吸引力,卻未必能引起他們父母的興趣。",
+      "highlight": "appeal to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The school made a public request for donations so that every child could receive a winter coat.",
+      "promptZh": "學校公開呼籲捐款,讓每名兒童都能獲得一件冬季外套。",
+      "starter": "The",
+      "answer": "The school appealed for donations so that every child could receive a winter coat.",
+      "answerZh": "學校公開呼籲捐款,讓每名兒童都能獲得一件冬季外套。",
+      "highlight": "appealed",
+      "targetForm": "appeal for something",
+      "targetMeaningZh": "呼籲或懇求獲得某物"
+    },
+    {
+      "id": "phrasal-verb-159-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "He reminded the group how much they loved the neighbourhood when he asked them to help clean the park.",
+      "promptZh": "他請大家協助清理公園時,提醒他們有多麼熱愛這個社區。",
+      "starter": "He",
+      "answer": "He appealed to the group’s love for the neighbourhood when asking them to help clean the park.",
+      "answerZh": "他請大家協助清理公園時,訴諸他們對社區的熱愛。",
+      "highlight": "appealed to",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某種情感來勸說某人"
+    },
+    {
+      "id": "phrasal-verb-159-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The large kitchen is what attracts me most about the flat.",
+      "promptZh": "這個單位最吸引我的地方是寬敞的廚房。",
+      "starter": "What",
+      "answer": "What appeals to me most about the flat is the large kitchen.",
+      "answerZh": "這個單位最吸引我的地方是寬敞的廚房。",
+      "highlight": "appeals to",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    },
+    {
+      "id": "phrasal-verb-159-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Rather than blaming Leo, the manager tried to persuade him to do the right thing and gave him one chance to correct the mistake.",
+      "promptZh": "經理沒有責怪里奧,而是勸他做正確的事,並給他一次改正錯誤的機會。",
+      "starter": "Rather",
+      "answer": "Rather than blaming Leo, the manager appealed to his better nature and gave him one chance to correct the mistake.",
+      "answerZh": "經理沒有責怪里奧,而是訴諸他善良的一面,並給他一次改正錯誤的機會。",
+      "highlight": "appealed",
+      "targetForm": "appeal to something",
+      "targetMeaningZh": "訴諸某人的善意來勸說對方"
+    },
+    {
+      "id": "phrasal-verb-159-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The charity made a serious public request for shop owners to place collection boxes near the door.",
+      "promptZh": "該慈善機構鄭重公開呼籲店主在門旁放置募捐箱。",
+      "starter": "The",
+      "answer": "The charity appealed for shop owners to place collection boxes near the door.",
+      "answerZh": "該慈善機構鄭重公開呼籲店主在門旁放置募捐箱。",
+      "highlight": "appealed",
+      "targetForm": "appeal for somebody to do something",
+      "targetMeaningZh": "呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-159-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The film’s gentle humour interests older viewers, while younger viewers enjoy its fast action.",
+      "promptZh": "這部電影的溫和幽默吸引年長觀眾,而年輕觀眾則喜歡它明快的動作場面。",
+      "starter": "The",
+      "answer": "The film appeals to older viewers through its gentle humour, while younger viewers enjoy its fast action.",
+      "answerZh": "這部電影以溫和幽默吸引年長觀眾,而年輕觀眾則喜歡它明快的動作場面。",
+      "highlight": "film appeals to older viewers through its",
+      "targetForm": "appeal to somebody",
+      "targetMeaningZh": "對某人有吸引力;令某人感興趣"
+    }
+  ]
+}

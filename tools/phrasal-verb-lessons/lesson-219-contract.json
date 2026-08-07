@@ -1,0 +1,1192 @@
+{
+  "id": "phrasal-verb-219",
+  "order": 219,
+  "slug": "contract",
+  "version": "1",
+  "title": "CONTRACT 動詞片語",
+  "titleEn": "Contract",
+  "titleZh": "CONTRACT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 217 - CONTRACT.pdf",
+    "sourceNumber": 217,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CONTRACT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CONTRACT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CONTRACT",
+      "highlight": "CONTRACT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Employees can contract into the company pension scheme.",
+      "zh": "員工可以正式加入公司的退休金計劃。",
+      "highlight": "contract into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Only a few employees have contracted out of the pension scheme so far.",
+      "zh": "目前只有少數員工正式選擇不參加退休金計劃。",
+      "highlight": "contracted out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The company contracts the printing out to an outside firm.",
+      "zh": "公司把印刷工作外判給外部公司。",
+      "highlight": "contracts the printing out to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "正式同意加入某項官方計劃或制度；正式選擇不參加或退出某項官方計劃或制度；把某項工作外判給外部公司或人士",
+    "en": "contract in / contract into something; contract out / contract out of something; contract something out to somebody",
+    "naturalZh": [
+      "正式同意加入某項官方計劃或制度",
+      "正式選擇不參加或退出某項官方計劃或制度",
+      "把某項工作外判給外部公司或人士"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "contract in / contract into something",
+      "titleZh": "正式同意加入某項官方計劃或制度",
+      "titleEn": "contract in / contract into something",
+      "descriptionZh": "正式同意加入某項官方計劃或制度",
+      "descriptionEn": "Employees can contract into the company pension scheme.",
+      "examples": [
+        {
+          "en": "Employees can contract into the company pension scheme.",
+          "zh": "員工可以正式加入公司的退休金計劃。",
+          "highlight": "contract into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "contract out / contract out of something",
+      "titleZh": "正式選擇不參加或退出某項官方計劃或制度",
+      "titleEn": "contract out / contract out of something",
+      "descriptionZh": "正式選擇不參加或退出某項官方計劃或制度",
+      "descriptionEn": "Only a few employees have contracted out of the pension scheme so far.",
+      "examples": [
+        {
+          "en": "Only a few employees have contracted out of the pension scheme so far.",
+          "zh": "目前只有少數員工正式選擇不參加退休金計劃。",
+          "highlight": "contracted out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "contract something out to somebody",
+      "titleZh": "把某項工作外判給外部公司或人士",
+      "titleEn": "contract something out to somebody",
+      "descriptionZh": "把某項工作外判給外部公司或人士",
+      "descriptionEn": "The company contracts the printing out to an outside firm.",
+      "examples": [
+        {
+          "en": "The company contracts the printing out to an outside firm.",
+          "zh": "公司把印刷工作外判給外部公司。",
+          "highlight": "contracts the printing out to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CONTRACT 片語動詞的實際用途",
+    "labelEn": "CONTRACT Phrasal Verbs in Use",
+    "summaryZh": "contract in 和 contract into 可以描述正式選擇加入公司退休金計劃或其他官方制度。；contract out 和 contract out of 可以描述某人正式決定不加入或不再參加某項官方計劃。；contract something out 可以表示公司安排外部機構承辦某項工作。；這些表達可以出現在公司表格、退休金資料、會議和商業服務的討論中。",
+    "summaryEn": "Contract in and contract into help you describe the formal decision to join a company pension plan or another official system. Contract out and contract out of help you describe someone’s formal decision not to join or remain in an official plan. Contract something out explains that a company has arranged for an outside business to perform a job. These expressions may appear in company forms, pension information, meetings and discussions about business services.",
+    "contextsZh": [
+      "清楚談論加入公司計劃",
+      "說明不參加計劃的決定",
+      "描述由外部公司承辦的工作",
+      "理解常見的職場決定"
+    ],
+    "contextsEn": [
+      "Talk clearly about joining workplace plans",
+      "Explain the choice not to take part",
+      "Describe work done by an outside company",
+      "Understand common workplace decisions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CONTRACT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CONTRACT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "contract in / contract into something",
+    "fixedHighlight": "contract in / contract into something",
+    "fixedZh": "閱讀整句,選出意思相同的 CONTRACT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CONTRACT expression that gives the same meaning.",
+    "correct": "contract into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；如果上文已清楚指出是哪項計劃,contract in 和 contract out 可以單獨使用。若要說明計劃名稱,則使用 contract into 和 contract out of。；工作名稱可以放在 contract 和 out 中間,也可以放在 out 後面。使用 it 或 them 時,則把它放在contract 和 out 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Contract in and contract out can be used alone when the plan or system is already clear: Employees can contract in. Employees may contract out. When the plan is named, use: contract into the pension scheme contract out of the pension scheme Work can appear in either of these positions: contract the cleaning out contract out the cleaning With it or them, place the word in the middle: contract it out contract them out",
+    "variableItemsZh": [
+      "contract in / contract into something",
+      "contract out / contract out of something",
+      "contract something out to somebody"
+    ],
+    "variableItemsEn": [
+      "contract in / contract into something",
+      "contract out / contract out of something",
+      "contract something out to somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "正式同意加入某項官方計劃或制度",
+        "formEn": "contract in / contract into something",
+        "exampleZh": "員工可以正式加入公司的退休金計劃。",
+        "exampleEn": "Employees can contract into the company pension scheme.",
+        "highlight": "contract into"
+      },
+      {
+        "formZh": "正式選擇不參加或退出某項官方計劃或制度",
+        "formEn": "contract out / contract out of something",
+        "exampleZh": "目前只有少數員工正式選擇不參加退休金計劃。",
+        "exampleEn": "Only a few employees have contracted out of the pension scheme so far.",
+        "highlight": "contracted out"
+      },
+      {
+        "formZh": "把某項工作外判給外部公司或人士",
+        "formEn": "contract something out to somebody",
+        "exampleZh": "公司把印刷工作外判給外部公司。",
+        "exampleEn": "The company contracts the printing out to an outside firm.",
+        "highlight": "contracts the printing out to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "正式同意加入某項官方計劃或制度",
+      "titleEn": "contract in / contract into something",
+      "formula": "contract in / contract into something",
+      "highlight": "contract in / contract into something",
+      "descriptionZh": "正式同意加入某項官方計劃或制度",
+      "descriptionEn": "Employees can contract into the company pension scheme.",
+      "examples": [
+        {
+          "en": "Employees can contract into the company pension scheme.",
+          "zh": "員工可以正式加入公司的退休金計劃。",
+          "highlight": "contract into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "正式選擇不參加或退出某項官方計劃或制度",
+      "titleEn": "contract out / contract out of something",
+      "formula": "contract out / contract out of something",
+      "highlight": "contract out / contract out of something",
+      "descriptionZh": "正式選擇不參加或退出某項官方計劃或制度",
+      "descriptionEn": "Only a few employees have contracted out of the pension scheme so far.",
+      "examples": [
+        {
+          "en": "Only a few employees have contracted out of the pension scheme so far.",
+          "zh": "目前只有少數員工正式選擇不參加退休金計劃。",
+          "highlight": "contracted out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某項工作外判給外部公司或人士",
+      "titleEn": "contract something out to somebody",
+      "formula": "contract something out to somebody",
+      "highlight": "contract something out to somebody",
+      "descriptionZh": "把某項工作外判給外部公司或人士",
+      "descriptionEn": "The company contracts the printing out to an outside firm.",
+      "examples": [
+        {
+          "en": "The company contracts the printing out to an outside firm.",
+          "zh": "公司把印刷工作外判給外部公司。",
+          "highlight": "contracts the printing out to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論加入公司計劃",
+      "titleEn": "Talk clearly about joining workplace plans",
+      "zh": "contract in 和 contract into 可以描述正式選擇加入公司退休金計劃或其他官方制度。",
+      "en": "Contract in and contract into help you describe the formal decision to join a company pension plan or another official system."
+    },
+    {
+      "titleZh": "說明不參加計劃的決定",
+      "titleEn": "Explain the choice not to take part",
+      "zh": "contract out 和 contract out of 可以描述某人正式決定不加入或不再參加某項官方計劃。",
+      "en": "Contract out and contract out of help you describe someone’s formal decision not to join or remain in an official plan."
+    },
+    {
+      "titleZh": "描述由外部公司承辦的工作",
+      "titleEn": "Describe work done by an outside company",
+      "zh": "contract something out 可以表示公司安排外部機構承辦某項工作。",
+      "en": "Contract something out explains that a company has arranged for an outside business to perform a job."
+    },
+    {
+      "titleZh": "理解常見的職場決定",
+      "titleEn": "Understand common workplace decisions",
+      "zh": "這些表達可以出現在公司表格、退休金資料、會議和商業服務的討論中。",
+      "en": "These expressions may appear in company forms, pension information, meetings and discussions about business services."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論加入公司計劃",
+      "說明不參加計劃的決定",
+      "描述由外部公司承辦的工作",
+      "理解常見的職場決定"
+    ],
+    "contextsEn": [
+      "Talk clearly about joining workplace plans",
+      "Explain the choice not to take part",
+      "Describe work done by an outside company",
+      "Understand common workplace decisions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論加入公司計劃",
+        "titleEn": "Talk clearly about joining workplace plans",
+        "zh": "contract in 和 contract into 可以描述正式選擇加入公司退休金計劃或其他官方制度。",
+        "en": "Contract in and contract into help you describe the formal decision to join a company pension plan or another official system.",
+        "examples": [
+          {
+            "en": "Employees can contract into the company pension scheme.",
+            "zh": "員工可以正式加入公司的退休金計劃。",
+            "highlight": "contract into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明不參加計劃的決定",
+        "titleEn": "Explain the choice not to take part",
+        "zh": "contract out 和 contract out of 可以描述某人正式決定不加入或不再參加某項官方計劃。",
+        "en": "Contract out and contract out of help you describe someone’s formal decision not to join or remain in an official plan.",
+        "examples": [
+          {
+            "en": "Only a few employees have contracted out of the pension scheme so far.",
+            "zh": "目前只有少數員工正式選擇不參加退休金計劃。",
+            "highlight": "contracted out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述由外部公司承辦的工作",
+        "titleEn": "Describe work done by an outside company",
+        "zh": "contract something out 可以表示公司安排外部機構承辦某項工作。",
+        "en": "Contract something out explains that a company has arranged for an outside business to perform a job.",
+        "examples": [
+          {
+            "en": "The company contracts the printing out to an outside firm.",
+            "zh": "公司把印刷工作外判給外部公司。",
+            "highlight": "contracts the printing out to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見的職場決定",
+        "titleEn": "Understand common workplace decisions",
+        "zh": "這些表達可以出現在公司表格、退休金資料、會議和商業服務的討論中。",
+        "en": "These expressions may appear in company forms, pension information, meetings and discussions about business services.",
+        "examples": [
+          {
+            "en": "Employees can contract into the company pension scheme.",
+            "zh": "員工可以正式加入公司的退休金計劃。",
+            "highlight": "contract into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CONTRACT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CONTRACT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CONTRACT 片語動詞。",
+      "en": "Read the whole sentence and choose the CONTRACT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "如果上文已清楚指出是哪項計劃,contract in 和 contract out 可以單獨使用。若要說明計劃名稱,則使用 contract into 和 contract out of。",
+      "titleEn": "Contract in and contract out can be used alone when the plan or system is already clear: Employees can contract in.",
+      "zh": "如果上文已清楚指出是哪項計劃,contract in 和 contract out 可以單獨使用。若要說明計劃名稱,則使用 contract into 和 contract out of。",
+      "en": "Contract in and contract out can be used alone when the plan or system is already clear: Employees can contract in. Employees may contract out. When the plan is named, use: contract into the pension scheme contract out of the pension scheme"
+    },
+    {
+      "titleZh": "工作名稱可以放在 contract 和 out 中間,也可以放在 out 後面。使用 it 或 them 時,則把它放在contract 和 out 中間。",
+      "titleEn": "Work can appear in either of these positions: contract the cleaning out contract out the cleaning With it or them, place the word in the middle: contract it out contract them out.",
+      "zh": "工作名稱可以放在 contract 和 out 中間,也可以放在 out 後面。使用 it 或 them 時,則把它放在contract 和 out 中間。",
+      "en": "Work can appear in either of these positions: contract the cleaning out contract out the cleaning With it or them, place the word in the middle: contract it out contract them out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CONTRACT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CONTRACT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CONTRACT 動詞片語句子改寫練習",
+    "titleEn": "CONTRACT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CONTRACT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CONTRACT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-219-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The company arranges for an outside firm to do the printing.",
+      "promptZh": "公司安排外部公司負責印刷工作。",
+      "starter": "The",
+      "answer": "The company contracts the printing out to an outside firm.",
+      "answerZh": "公司把印刷工作外判給外部公司。",
+      "highlight": "contracts the printing out to",
+      "targetForm": "contract something out to somebody",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "New employees can formally agree to join the company pension scheme.",
+      "promptZh": "新員工可以正式同意加入公司的退休金計劃。",
+      "starter": "New",
+      "answer": "New employees can contract into the company pension scheme.",
+      "answerZh": "新員工可以正式加入公司的退休金計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Only a few employees have formally chosen not to take part in the pension scheme so far.",
+      "promptZh": "目前只有少數員工正式選擇不參加退休金計劃。",
+      "starter": "Only",
+      "answer": "Only a few employees have contracted out of the pension scheme so far.",
+      "answerZh": "目前只有少數員工正式選擇不參加退休金計劃。",
+      "highlight": "contracted out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The council arranged for a local company to do the repairs.",
+      "promptZh": "市議會安排一間本地公司負責維修工作。",
+      "starter": "The",
+      "answer": "The council contracted the repairs out to a local company.",
+      "answerZh": "市議會把維修工作外判給一間本地公司。",
+      "highlight": "contracted the repairs out to",
+      "targetForm": "contract something out to somebody",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "You may formally choose not to take part if you do not want to join.",
+      "promptZh": "如果你不想加入,可以正式選擇不參加。",
+      "starter": "You",
+      "answer": "You may contract out if you do not want to join.",
+      "answerZh": "如果你不想加入,可以正式選擇不參加。",
+      "highlight": "contract out",
+      "targetForm": "contract out",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Grace decided to formally join the staff pension scheme.",
+      "promptZh": "格蕾絲決定正式加入員工退休金計劃。",
+      "starter": "Grace",
+      "answer": "Grace decided to contract into the staff pension scheme.",
+      "answerZh": "格蕾絲決定正式加入員工退休金計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo chose not to take part in the company pension plan.",
+      "promptZh": "里奧選擇不參加公司的退休金計劃。",
+      "starter": "Leo",
+      "answer": "Leo chose to contract out of the company pension plan.",
+      "answerZh": "里奧選擇正式不參加公司的退休金計劃。",
+      "highlight": "contract out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We decided to arrange for another company to clean the office.",
+      "promptZh": "我們決定安排另一家公司負責辦公室清潔工作。",
+      "starter": "We",
+      "answer": "We decided to contract out the office cleaning.",
+      "answerZh": "我們決定把辦公室清潔工作外判。",
+      "highlight": "contract out",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The company opened its pension scheme last week. Only two new workers have formally joined it so far.",
+      "promptZh": "公司上星期開放員工參加退休金計劃。目前只有兩名新員工正式加入。",
+      "starter": "The",
+      "answer": "The company opened its pension scheme last week. Only two new workers have contracted in so far.",
+      "answerZh": "公司上星期開放員工參加退休金計劃。目前只有兩名新員工正式加入。",
+      "highlight": "contracted in",
+      "targetForm": "contract in",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The pension scheme was open to all staff. Why did the three workers formally choose not to take part?",
+      "promptZh": "所有員工都可以參加退休金計劃。那三名員工為甚麼正式選擇不參加?",
+      "starter": "The",
+      "answer": "The pension scheme was open to all staff. Why did the three workers contract out?",
+      "answerZh": "所有員工都可以參加退休金計劃。那三名員工為甚麼正式選擇不參加?",
+      "highlight": "contract out",
+      "targetForm": "contract out",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "They may arrange for another company to do it next year.",
+      "promptZh": "他們明年可能會安排另一家公司負責這項工作。",
+      "starter": "They",
+      "answer": "They may contract it out next year.",
+      "answerZh": "他們明年可能會把這項工作外判。",
+      "highlight": "contract",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have you formally agreed to join the pension scheme yet?",
+      "promptZh": "你已正式同意加入退休金計劃了嗎?",
+      "starter": "Have",
+      "answer": "Have you contracted into the pension scheme yet?",
+      "answerZh": "你已正式加入退休金計劃了嗎?",
+      "highlight": "contracted into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "No one has formally chosen not to take part in the new scheme yet.",
+      "promptZh": "目前仍沒有人正式選擇不參加這項新計劃。",
+      "starter": "No",
+      "answer": "No one has contracted out of the new scheme yet.",
+      "answerZh": "目前仍沒有人正式選擇不參加這項新計劃。",
+      "highlight": "contracted out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A small design firm has been officially chosen to do the work.",
+      "promptZh": "一間小型設計公司已獲正式安排負責這項工作。",
+      "starter": "The",
+      "answer": "The work has been contracted out to a small design firm.",
+      "answerZh": "這項工作已外判給一間小型設計公司。",
+      "highlight": "The work has been contracted out to",
+      "targetForm": "contract something out to somebody",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The pension scheme is optional. Employees do not have to formally join it.",
+      "promptZh": "退休金計劃並非強制參加。員工不一定要正式加入。",
+      "starter": "The",
+      "answer": "The pension scheme is optional. Employees do not have to contract in.",
+      "answerZh": "退休金計劃並非強制參加。員工不一定要正式加入。",
+      "highlight": "contract in",
+      "targetForm": "contract in",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did the school arrange for another company to operate the bus service?",
+      "promptZh": "學校為甚麼安排另一家公司營運校巴服務?",
+      "starter": "Why",
+      "answer": "Why did the school contract out the bus service?",
+      "answerZh": "學校為甚麼把校巴服務外判?",
+      "highlight": "contract out",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作或服務外判"
+    },
+    {
+      "id": "phrasal-verb-219-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "After formally choosing not to take part in the company scheme, she arranged her own pension.",
+      "promptZh": "她正式選擇不參加公司計劃後,便自行安排退休金。",
+      "starter": "After",
+      "answer": "After contracting out of the company scheme, she arranged her own pension.",
+      "answerZh": "她正式選擇不參加公司計劃後,便自行安排退休金。",
+      "highlight": "contracting out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After formally joining the scheme, Ben began making monthly payments.",
+      "promptZh": "賓正式加入計劃後,便開始每月供款。",
+      "starter": "After",
+      "answer": "After contracting into the scheme, Ben began making monthly payments.",
+      "answerZh": "賓正式加入計劃後,便開始每月供款。",
+      "highlight": "contracting into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Because the team was too small, it arranged for another company to do the website work.",
+      "promptZh": "由於團隊人數太少,因此安排另一家公司負責網站工作。",
+      "starter": "Because",
+      "answer": "Because the team was too small, it contracted out the website work.",
+      "answerZh": "由於團隊人數太少,因此把網站工作外判。",
+      "highlight": "contracted out",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Employees are allowed to formally choose not to take part in the plan.",
+      "promptZh": "員工可以正式選擇不參加這項計劃。",
+      "starter": "Employees",
+      "answer": "Employees are allowed to contract out of the plan.",
+      "answerZh": "員工可以正式選擇不參加這項計劃。",
+      "highlight": "contract out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The choice is whether to formally join the pension scheme this year.",
+      "promptZh": "要作出的選擇是今年是否正式加入退休金計劃。",
+      "starter": "The",
+      "answer": "The choice is whether to contract into the pension scheme this year.",
+      "answerZh": "要作出的選擇是今年是否正式加入退休金計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The shop saved time by arranging for another company to do the delivery work.",
+      "promptZh": "店舖安排另一家公司負責送貨工作,因而節省了時間。",
+      "starter": "Contracting",
+      "answer": "Contracting the delivery work out saved the shop time.",
+      "answerZh": "把送貨工作外判為店舖節省了時間。",
+      "highlight": "Contracting",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The form explains how to formally stop taking part in the pension scheme.",
+      "promptZh": "表格說明如何正式選擇不再參加退休金計劃。",
+      "starter": "The",
+      "answer": "The form explains how to contract out of the pension scheme.",
+      "answerZh": "表格說明如何正式選擇退出退休金計劃。",
+      "highlight": "contract out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the new staff formally agree to join the plan?",
+      "promptZh": "新員工為甚麼正式同意加入這項計劃?",
+      "starter": "Why",
+      "answer": "Why did the new staff contract into the plan?",
+      "answerZh": "新員工為甚麼正式加入這項計劃?",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The plan is to arrange for another company to provide the phone support.",
+      "promptZh": "計劃是安排另一家公司提供電話支援服務。",
+      "starter": "The",
+      "answer": "The plan is to contract the phone support out to another company.",
+      "answerZh": "計劃是把電話支援服務外判給另一家公司。",
+      "highlight": "contract",
+      "targetForm": "contract something out to somebody",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Anyone who wants the company pension may formally agree to join the scheme.",
+      "promptZh": "任何希望獲得公司退休金的員工,都可以正式同意加入計劃。",
+      "starter": "Anyone",
+      "answer": "Anyone who wants the company pension may contract in.",
+      "answerZh": "任何希望獲得公司退休金的員工,都可以正式加入計劃。",
+      "highlight": "contract in",
+      "targetForm": "contract in",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Formally choosing not to join the scheme means you will not take part.",
+      "promptZh": "正式選擇不加入這項計劃,表示你將不會參加。",
+      "starter": "Contracting",
+      "answer": "Contracting out of the scheme means you will not take part.",
+      "answerZh": "正式選擇不加入這項計劃,表示你將不會參加。",
+      "highlight": "Contracting out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The company does not arrange for another business to provide its customer service.",
+      "promptZh": "公司不會安排另一間企業提供客戶服務。",
+      "starter": "The",
+      "answer": "The company does not contract out its customer service.",
+      "answerZh": "公司不會把客戶服務外判。",
+      "highlight": "contract out",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作或服務外判"
+    },
+    {
+      "id": "phrasal-verb-219-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Formally agreeing to join the scheme is a personal choice.",
+      "promptZh": "正式同意加入這項計劃是個人選擇。",
+      "starter": "Contracting",
+      "answer": "Contracting into the scheme is a personal choice.",
+      "answerZh": "正式加入這項計劃是個人選擇。",
+      "highlight": "Contracting into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The employees are in the pension plan. If they formally leave it, the company will stop taking payments.",
+      "promptZh": "員工現正參加退休金計劃。如果他們正式退出,公司便會停止扣除供款。",
+      "starter": "The",
+      "answer": "The employees are in the pension plan. If they contract out, the company will stop taking payments.",
+      "answerZh": "員工現正參加退休金計劃。如果他們正式退出,公司便會停止扣除供款。",
+      "highlight": "contract out",
+      "targetForm": "contract out",
+      "targetMeaningZh": "正式選擇不再參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Several older employees had formally chosen not to take part in the scheme before the rules changed.",
+      "promptZh": "幾名年紀較大的員工在規則改變前,已正式選擇不參加該計劃。",
+      "starter": "Several",
+      "answer": "Several older employees had contracted out of the scheme before the rules changed.",
+      "answerZh": "幾名年紀較大的員工在規則改變前,已正式選擇不參加該計劃。",
+      "highlight": "contracted out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After the factory arranged for another company to do the cleaning, its staff had more time.",
+      "promptZh": "工廠安排另一家公司負責清潔工作後,員工便有更多時間。",
+      "starter": "After",
+      "answer": "After the factory contracted the cleaning out, its staff had more time.",
+      "answerZh": "工廠把清潔工作外判後,員工便有更多時間。",
+      "highlight": "contracted",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The workers were free to formally join the pension plan.",
+      "promptZh": "員工可以自由選擇正式加入退休金計劃。",
+      "starter": "The",
+      "answer": "The workers were free to contract into the pension plan.",
+      "answerZh": "員工可以自由選擇正式加入退休金計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do you still want to formally stop taking part in the scheme?",
+      "promptZh": "你仍然希望正式退出這項計劃嗎?",
+      "starter": "Do",
+      "answer": "Do you still want to contract out of the scheme?",
+      "answerZh": "你仍然希望正式退出這項計劃嗎?",
+      "highlight": "contract out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Last year, the company arranged for outside firms to provide two services: printing and delivery.",
+      "promptZh": "去年,公司安排外部公司提供兩項服務:印刷和送貨。",
+      "starter": "The",
+      "answer": "The company contracted out two services last year: printing and delivery.",
+      "answerZh": "去年,公司把兩項服務外判:印刷和送貨。",
+      "highlight": "The company contracted out two services",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作或服務外判"
+    },
+    {
+      "id": "phrasal-verb-219-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Employees may still formally choose not to join the pension scheme until Friday.",
+      "promptZh": "員工仍可在星期五前正式選擇不加入退休金計劃。",
+      "starter": "The",
+      "answer": "The option to contract out of the pension scheme remains open until Friday.",
+      "answerZh": "正式選擇不參加退休金計劃的期限仍開放至星期五。",
+      "highlight": "The option",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The pension scheme is open all year. Some staff formally join it as soon as they can.",
+      "promptZh": "退休金計劃全年開放參加。有些員工一有機會便正式加入。",
+      "starter": "The",
+      "answer": "The pension scheme is open all year. Some staff contract in as soon as they can.",
+      "answerZh": "退休金計劃全年開放參加。有些員工一有機會便正式加入。",
+      "highlight": "contract in",
+      "targetForm": "contract in",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "If the job is too large, we can arrange for another company to do it.",
+      "promptZh": "如果這項工作規模太大,我們可以安排另一家公司負責。",
+      "starter": "If",
+      "answer": "If the job is too large, we can contract it out.",
+      "answerZh": "如果這項工作規模太大,我們可以把它外判。",
+      "highlight": "contract",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "When she joined the company, she did not formally choose to stay outside its pension plan.",
+      "promptZh": "她加入公司時,並沒有正式選擇不參加公司的退休金計劃。",
+      "starter": "She",
+      "answer": "She did not contract out when she joined the company.",
+      "answerZh": "她加入公司時,並沒有正式選擇不參加公司的退休金計劃。",
+      "highlight": "She did not contract out",
+      "targetForm": "contract out",
+      "targetMeaningZh": "正式選擇不參加某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Rather than wait another year, Ella chose to formally join the scheme.",
+      "promptZh": "埃拉沒有再等一年,而是選擇正式加入這項計劃。",
+      "starter": "Rather",
+      "answer": "Rather than wait another year, Ella chose to contract into the scheme.",
+      "answerZh": "埃拉沒有再等一年,而是選擇正式加入這項計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The manager asked whether another company should be formally chosen to do the repairs.",
+      "promptZh": "經理詢問是否應正式安排另一家公司負責維修工作。",
+      "starter": "The",
+      "answer": "The manager asked whether the repairs should be contracted out.",
+      "answerZh": "經理詢問是否應把維修工作外判。",
+      "highlight": "the repairs",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The company pension scheme opened on Monday. By Friday, all five trainees had formally joined it.",
+      "promptZh": "公司的退休金計劃星期一開放參加。到了星期五,五名實習員工都已正式加入。",
+      "starter": "The",
+      "answer": "The company pension scheme opened on Monday. By Friday, all five trainees had contracted in.",
+      "answerZh": "公司的退休金計劃星期一開放參加。到了星期五,五名實習員工都已正式加入。",
+      "highlight": "contracted in",
+      "targetForm": "contract in",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Anyone who wants to formally stop taking part in the pension scheme must complete this form.",
+      "promptZh": "任何希望正式退出退休金計劃的人,都必須填寫這份表格。",
+      "starter": "Anyone",
+      "answer": "Anyone wishing to contract out of the pension scheme must complete this form.",
+      "answerZh": "任何希望正式退出退休金計劃的人,都必須填寫這份表格。",
+      "highlight": "wishing",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Instead of employing more staff, the museum arranged for an outside firm to print the tickets.",
+      "promptZh": "博物館沒有增聘員工,而是安排外部公司印製門票。",
+      "starter": "Instead",
+      "answer": "Instead of employing more staff, the museum contracted out the ticket printing.",
+      "answerZh": "博物館沒有增聘員工,而是把門票印刷工作外判。",
+      "highlight": "contracted out",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The form asks whether you wish to formally join the plan.",
+      "promptZh": "表格詢問你是否希望正式加入這項計劃。",
+      "starter": "The",
+      "answer": "The form asks whether you wish to contract into the plan.",
+      "answerZh": "表格詢問你是否希望正式加入這項計劃。",
+      "highlight": "contract into",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The company plans to arrange for an outside business to do the night-time cleaning.",
+      "promptZh": "公司計劃安排外部企業負責晚間清潔工作。",
+      "starter": "The",
+      "answer": "The company plans to contract the night-time cleaning out.",
+      "answerZh": "公司計劃把晚間清潔工作外判。",
+      "highlight": "contract",
+      "targetForm": "contract something out",
+      "targetMeaningZh": "把工作外判給外部公司或人士"
+    },
+    {
+      "id": "phrasal-verb-219-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "What happens after an employee formally stops taking part in the plan?",
+      "promptZh": "員工正式退出計劃後會發生甚麼事?",
+      "starter": "What",
+      "answer": "What happens after an employee contracts out of the plan?",
+      "answerZh": "員工正式退出計劃後會發生甚麼事?",
+      "highlight": "contracts out of",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-219-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "You can formally join the pension scheme now. If you do, your payments will begin next month.",
+      "promptZh": "你現在可以正式加入退休金計劃。如果加入,供款將於下個月開始。",
+      "starter": "If",
+      "answer": "If you contract into the pension scheme now, your payments will begin next month.",
+      "answerZh": "如果你現在正式加入退休金計劃,供款將於下個月開始。",
+      "highlight": "If",
+      "targetForm": "contract into something",
+      "targetMeaningZh": "正式加入某項官方計劃或制度"
+    },
+    {
+      "id": "phrasal-verb-219-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Once the new outside company is chosen, that company will formally provide the lunch service for us.",
+      "promptZh": "一旦選定新的外部公司,該公司便會正式為我們提供午膳服務。",
+      "starter": "Once",
+      "answer": "Once the new outside company is chosen, the lunch service will be contracted out to that company.",
+      "answerZh": "一旦選定新的外部公司,午膳服務便會外判給該公司。",
+      "highlight": "will be contracted out to that company",
+      "targetForm": "contract something out to somebody",
+      "targetMeaningZh": "把工作或服務外判給外部公司"
+    },
+    {
+      "id": "phrasal-verb-219-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "They signed the second form and formally chose not to take part in the scheme.",
+      "promptZh": "他們簽署了第二份表格,正式選擇不參加這項計劃。",
+      "starter": "By",
+      "answer": "By signing the second form, they formally contracted out of the scheme.",
+      "answerZh": "他們透過簽署第二份表格,正式選擇不參加這項計劃。",
+      "highlight": "By signing",
+      "targetForm": "contract out of something",
+      "targetMeaningZh": "正式選擇不參加或退出某項計劃"
+    }
+  ]
+}

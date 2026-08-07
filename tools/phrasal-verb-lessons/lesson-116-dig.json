@@ -1,0 +1,1677 @@
+{
+  "id": "phrasal-verb-116",
+  "order": 116,
+  "slug": "dig",
+  "version": "1",
+  "title": "DIG 動詞片語",
+  "titleEn": "Dig",
+  "titleZh": "DIG 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verb 115 - Dig.pdf",
+    "sourceNumber": 115,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DIG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DIG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DIG",
+      "highlight": "DIG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The soup is ready, so dig in while it is hot.",
+      "zh": "湯已經準備好,趁熱開始吃吧。",
+      "highlight": "dig in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The team saw the pile of work and dug in straight away.",
+      "zh": "團隊看見那堆工作後,立即埋頭開始做。",
+      "highlight": "dug in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They dug the bicycle out of the deep snow.",
+      "zh": "他們把單車從厚厚的積雪中挖了出來。",
+      "highlight": "dug the bicycle out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "開始大吃;津津有味地吃；立即投入工作;埋頭開始做；從泥土、沙、雪或瓦礫中挖出或救出；把爪、鞋跟或尖端牢牢插入或壓入某物；搜尋後找出舊物、收藏品或收起來的東西；挖開地面;把埋在地下的東西挖出；挖好掩護位置準備防守;處於掩護位置",
+    "en": "dig in / dig into something; dig in / dig into something; dig somebody/something out / dig somebody/something out of something; dig something in / dig something into something; dig something out; dig something up; dig yourself in / be dug in",
+    "naturalZh": [
+      "開始大吃;津津有味地吃",
+      "立即投入工作;埋頭開始做",
+      "從泥土、沙、雪或瓦礫中挖出或救出",
+      "把爪、鞋跟或尖端牢牢插入或壓入某物",
+      "搜尋後找出舊物、收藏品或收起來的東西",
+      "挖開地面;把埋在地下的東西挖出",
+      "挖好掩護位置準備防守;處於掩護位置"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dig in / dig into something",
+      "titleZh": "開始大吃;津津有味地吃",
+      "titleEn": "dig in / dig into something",
+      "descriptionZh": "開始大吃;津津有味地吃",
+      "descriptionEn": "The soup is ready, so dig in while it is hot.",
+      "examples": [
+        {
+          "en": "The soup is ready, so dig in while it is hot.",
+          "zh": "湯已經準備好,趁熱開始吃吧。",
+          "highlight": "dig in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dig in / dig into something",
+      "titleZh": "立即投入工作;埋頭開始做",
+      "titleEn": "dig in / dig into something",
+      "descriptionZh": "立即投入工作;埋頭開始做",
+      "descriptionEn": "The team saw the pile of work and dug in straight away.",
+      "examples": [
+        {
+          "en": "The team saw the pile of work and dug in straight away.",
+          "zh": "團隊看見那堆工作後,立即埋頭開始做。",
+          "highlight": "dug in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dig somebody/something out / dig somebody/something out of something",
+      "titleZh": "從泥土、沙、雪或瓦礫中挖出或救出",
+      "titleEn": "dig somebody/something out / dig somebody/something out of something",
+      "descriptionZh": "從泥土、沙、雪或瓦礫中挖出或救出",
+      "descriptionEn": "They dug the bicycle out of the deep snow.",
+      "examples": [
+        {
+          "en": "They dug the bicycle out of the deep snow.",
+          "zh": "他們把單車從厚厚的積雪中挖了出來。",
+          "highlight": "dug the bicycle out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dig something in / dig something into something",
+      "titleZh": "把爪、鞋跟或尖端牢牢插入或壓入某物",
+      "titleEn": "dig something in / dig something into something",
+      "descriptionZh": "把爪、鞋跟或尖端牢牢插入或壓入某物",
+      "descriptionEn": "The bird dug its claws into the branch.",
+      "examples": [
+        {
+          "en": "The bird dug its claws into the branch.",
+          "zh": "那隻鳥把爪牢牢抓進樹枝。",
+          "highlight": "dug its claws into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dig something out",
+      "titleZh": "搜尋後找出舊物、收藏品或收起來的東西",
+      "titleEn": "dig something out",
+      "descriptionZh": "搜尋後找出舊物、收藏品或收起來的東西",
+      "descriptionEn": "Dad dug out an old photo album.",
+      "examples": [
+        {
+          "en": "Dad dug out an old photo album.",
+          "zh": "爸爸找出了一本舊相簿。",
+          "highlight": "dug out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "dig something up",
+      "titleZh": "挖開地面;把埋在地下的東西挖出",
+      "titleEn": "dig something up",
+      "descriptionZh": "挖開地面;把埋在地下的東西挖出",
+      "descriptionEn": "Workers dug up the road to repair a pipe.",
+      "examples": [
+        {
+          "en": "Workers dug up the road to repair a pipe.",
+          "zh": "工人挖開道路,以修理水管。",
+          "highlight": "dug up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "dig yourself in / be dug in",
+      "titleZh": "挖好掩護位置準備防守;處於掩護位置",
+      "titleEn": "dig yourself in / be dug in",
+      "descriptionZh": "挖好掩護位置準備防守;處於掩護位置",
+      "descriptionEn": "The soldiers were dug in before nightfall.",
+      "examples": [
+        {
+          "en": "The soldiers were dug in before nightfall.",
+          "zh": "士兵在入夜前已挖好掩護位置。",
+          "highlight": "dug in"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DIG 片語動詞的實際用途",
+    "labelEn": "DIG Phrasal Verbs in Use",
+    "summaryZh": "DIG 片語動詞可以用來請人開始吃東西,也可以表示某人充滿幹勁地投入工作。；你可以用 DIG 表達找出舊物、從積雪或泥土中挖出事物,以及把地下的東西挖出來。；DIG 可以描述爪、腳跟或尖端牢牢抓進或插進某個表面。；這些表達可見於飲食對話、工作情境、工程、戶外故事,以及描述掩護位置的報道。",
+    "summaryEn": "DIG expressions let you invite people to start eating and show that someone begins a task with energy. You can use DIG to talk about finding an old item, freeing something from snow or earth, and uncovering something buried. DIG can describe claws, heels or a sharp point pressing firmly into a surface. These expressions appear in food talk, work situations, building work, outdoor stories and reports about protected positions.",
+    "contextsZh": [
+      "自然談論吃東西和開始工作",
+      "清楚描述找出和挖出事物",
+      "表達牢牢抓住或插入",
+      "理解故事、指示和新聞中的 DIG 表達"
+    ],
+    "contextsEn": [
+      "Talk naturally about food and starting work",
+      "Describe finding and uncovering things clearly",
+      "Show a firm physical grip",
+      "Understand DIG in stories, instructions and news"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DIG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DIG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dig in / dig into something",
+    "fixedHighlight": "dig in / dig into something",
+    "fixedZh": "閱讀整句,選出意思相同的 DIG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DIG expression that gives the same meaning.",
+    "correct": "dig in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照例子放在正確位置:dig him out;dig it out;dig its claws in。；dig in 和 dig into 可以表示開始吃東西,也可以表示投入艱辛工作。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: dig him out; dig it out; dig its claws in. Dig in and dig into can describe eating or starting hard work. Read the full situation carefully.",
+    "variableItemsZh": [
+      "dig in / dig into something",
+      "dig in / dig into something",
+      "dig somebody/something out / dig somebody/something out of something",
+      "dig something in / dig something into something",
+      "dig something out",
+      "dig something up",
+      "dig yourself in / be dug in"
+    ],
+    "variableItemsEn": [
+      "dig in / dig into something",
+      "dig in / dig into something",
+      "dig somebody/something out / dig somebody/something out of something",
+      "dig something in / dig something into something",
+      "dig something out",
+      "dig something up",
+      "dig yourself in / be dug in"
+    ],
+    "forms": [
+      {
+        "formZh": "開始大吃;津津有味地吃",
+        "formEn": "dig in / dig into something",
+        "exampleZh": "湯已經準備好,趁熱開始吃吧。",
+        "exampleEn": "The soup is ready, so dig in while it is hot.",
+        "highlight": "dig in"
+      },
+      {
+        "formZh": "立即投入工作;埋頭開始做",
+        "formEn": "dig in / dig into something",
+        "exampleZh": "團隊看見那堆工作後,立即埋頭開始做。",
+        "exampleEn": "The team saw the pile of work and dug in straight away.",
+        "highlight": "dug in"
+      },
+      {
+        "formZh": "從泥土、沙、雪或瓦礫中挖出或救出",
+        "formEn": "dig somebody/something out / dig somebody/something out of something",
+        "exampleZh": "他們把單車從厚厚的積雪中挖了出來。",
+        "exampleEn": "They dug the bicycle out of the deep snow.",
+        "highlight": "dug the bicycle out"
+      },
+      {
+        "formZh": "把爪、鞋跟或尖端牢牢插入或壓入某物",
+        "formEn": "dig something in / dig something into something",
+        "exampleZh": "那隻鳥把爪牢牢抓進樹枝。",
+        "exampleEn": "The bird dug its claws into the branch.",
+        "highlight": "dug its claws into"
+      },
+      {
+        "formZh": "搜尋後找出舊物、收藏品或收起來的東西",
+        "formEn": "dig something out",
+        "exampleZh": "爸爸找出了一本舊相簿。",
+        "exampleEn": "Dad dug out an old photo album.",
+        "highlight": "dug out"
+      },
+      {
+        "formZh": "挖開地面;把埋在地下的東西挖出",
+        "formEn": "dig something up",
+        "exampleZh": "工人挖開道路,以修理水管。",
+        "exampleEn": "Workers dug up the road to repair a pipe.",
+        "highlight": "dug up"
+      },
+      {
+        "formZh": "挖好掩護位置準備防守;處於掩護位置",
+        "formEn": "dig yourself in / be dug in",
+        "exampleZh": "士兵在入夜前已挖好掩護位置。",
+        "exampleEn": "The soldiers were dug in before nightfall.",
+        "highlight": "dug in"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "開始大吃;津津有味地吃",
+      "titleEn": "dig in / dig into something",
+      "formula": "dig in / dig into something",
+      "highlight": "dig in / dig into something",
+      "descriptionZh": "開始大吃;津津有味地吃",
+      "descriptionEn": "The soup is ready, so dig in while it is hot.",
+      "examples": [
+        {
+          "en": "The soup is ready, so dig in while it is hot.",
+          "zh": "湯已經準備好,趁熱開始吃吧。",
+          "highlight": "dig in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "立即投入工作;埋頭開始做",
+      "titleEn": "dig in / dig into something",
+      "formula": "dig in / dig into something",
+      "highlight": "dig in / dig into something",
+      "descriptionZh": "立即投入工作;埋頭開始做",
+      "descriptionEn": "The team saw the pile of work and dug in straight away.",
+      "examples": [
+        {
+          "en": "The team saw the pile of work and dug in straight away.",
+          "zh": "團隊看見那堆工作後,立即埋頭開始做。",
+          "highlight": "dug in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "從泥土、沙、雪或瓦礫中挖出或救出",
+      "titleEn": "dig somebody/something out / dig somebody/something out of something",
+      "formula": "dig somebody/something out / dig somebody/something out of something",
+      "highlight": "dig somebody/something out / dig somebody/something out of something",
+      "descriptionZh": "從泥土、沙、雪或瓦礫中挖出或救出",
+      "descriptionEn": "They dug the bicycle out of the deep snow.",
+      "examples": [
+        {
+          "en": "They dug the bicycle out of the deep snow.",
+          "zh": "他們把單車從厚厚的積雪中挖了出來。",
+          "highlight": "dug the bicycle out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把爪、鞋跟或尖端牢牢插入或壓入某物",
+      "titleEn": "dig something in / dig something into something",
+      "formula": "dig something in / dig something into something",
+      "highlight": "dig something in / dig something into something",
+      "descriptionZh": "把爪、鞋跟或尖端牢牢插入或壓入某物",
+      "descriptionEn": "The bird dug its claws into the branch.",
+      "examples": [
+        {
+          "en": "The bird dug its claws into the branch.",
+          "zh": "那隻鳥把爪牢牢抓進樹枝。",
+          "highlight": "dug its claws into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "搜尋後找出舊物、收藏品或收起來的東西",
+      "titleEn": "dig something out",
+      "formula": "dig something out",
+      "highlight": "dig something out",
+      "descriptionZh": "搜尋後找出舊物、收藏品或收起來的東西",
+      "descriptionEn": "Dad dug out an old photo album.",
+      "examples": [
+        {
+          "en": "Dad dug out an old photo album.",
+          "zh": "爸爸找出了一本舊相簿。",
+          "highlight": "dug out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "挖開地面;把埋在地下的東西挖出",
+      "titleEn": "dig something up",
+      "formula": "dig something up",
+      "highlight": "dig something up",
+      "descriptionZh": "挖開地面;把埋在地下的東西挖出",
+      "descriptionEn": "Workers dug up the road to repair a pipe.",
+      "examples": [
+        {
+          "en": "Workers dug up the road to repair a pipe.",
+          "zh": "工人挖開道路,以修理水管。",
+          "highlight": "dug up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "挖好掩護位置準備防守;處於掩護位置",
+      "titleEn": "dig yourself in / be dug in",
+      "formula": "dig yourself in / be dug in",
+      "highlight": "dig yourself in / be dug in",
+      "descriptionZh": "挖好掩護位置準備防守;處於掩護位置",
+      "descriptionEn": "The soldiers were dug in before nightfall.",
+      "examples": [
+        {
+          "en": "The soldiers were dug in before nightfall.",
+          "zh": "士兵在入夜前已挖好掩護位置。",
+          "highlight": "dug in"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論吃東西和開始工作",
+      "titleEn": "Talk naturally about food and starting work",
+      "zh": "DIG 片語動詞可以用來請人開始吃東西,也可以表示某人充滿幹勁地投入工作。",
+      "en": "DIG expressions let you invite people to start eating and show that someone begins a task with energy."
+    },
+    {
+      "titleZh": "清楚描述找出和挖出事物",
+      "titleEn": "Describe finding and uncovering things clearly",
+      "zh": "你可以用 DIG 表達找出舊物、從積雪或泥土中挖出事物,以及把地下的東西挖出來。",
+      "en": "You can use DIG to talk about finding an old item, freeing something from snow or earth, and uncovering something buried."
+    },
+    {
+      "titleZh": "表達牢牢抓住或插入",
+      "titleEn": "Show a firm physical grip",
+      "zh": "DIG 可以描述爪、腳跟或尖端牢牢抓進或插進某個表面。",
+      "en": "DIG can describe claws, heels or a sharp point pressing firmly into a surface."
+    },
+    {
+      "titleZh": "理解故事、指示和新聞中的 DIG 表達",
+      "titleEn": "Understand DIG in stories, instructions and news",
+      "zh": "這些表達可見於飲食對話、工作情境、工程、戶外故事,以及描述掩護位置的報道。",
+      "en": "These expressions appear in food talk, work situations, building work, outdoor stories and reports about protected positions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論吃東西和開始工作",
+      "清楚描述找出和挖出事物",
+      "表達牢牢抓住或插入",
+      "理解故事、指示和新聞中的 DIG 表達"
+    ],
+    "contextsEn": [
+      "Talk naturally about food and starting work",
+      "Describe finding and uncovering things clearly",
+      "Show a firm physical grip",
+      "Understand DIG in stories, instructions and news"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論吃東西和開始工作",
+        "titleEn": "Talk naturally about food and starting work",
+        "zh": "DIG 片語動詞可以用來請人開始吃東西,也可以表示某人充滿幹勁地投入工作。",
+        "en": "DIG expressions let you invite people to start eating and show that someone begins a task with energy.",
+        "examples": [
+          {
+            "en": "The soup is ready, so dig in while it is hot.",
+            "zh": "湯已經準備好,趁熱開始吃吧。",
+            "highlight": "dig in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述找出和挖出事物",
+        "titleEn": "Describe finding and uncovering things clearly",
+        "zh": "你可以用 DIG 表達找出舊物、從積雪或泥土中挖出事物,以及把地下的東西挖出來。",
+        "en": "You can use DIG to talk about finding an old item, freeing something from snow or earth, and uncovering something buried.",
+        "examples": [
+          {
+            "en": "The team saw the pile of work and dug in straight away.",
+            "zh": "團隊看見那堆工作後,立即埋頭開始做。",
+            "highlight": "dug in"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達牢牢抓住或插入",
+        "titleEn": "Show a firm physical grip",
+        "zh": "DIG 可以描述爪、腳跟或尖端牢牢抓進或插進某個表面。",
+        "en": "DIG can describe claws, heels or a sharp point pressing firmly into a surface.",
+        "examples": [
+          {
+            "en": "They dug the bicycle out of the deep snow.",
+            "zh": "他們把單車從厚厚的積雪中挖了出來。",
+            "highlight": "dug the bicycle out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解故事、指示和新聞中的 DIG 表達",
+        "titleEn": "Understand DIG in stories, instructions and news",
+        "zh": "這些表達可見於飲食對話、工作情境、工程、戶外故事,以及描述掩護位置的報道。",
+        "en": "These expressions appear in food talk, work situations, building work, outdoor stories and reports about protected positions.",
+        "examples": [
+          {
+            "en": "The bird dug its claws into the branch.",
+            "zh": "那隻鳥把爪牢牢抓進樹枝。",
+            "highlight": "dug its claws into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DIG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DIG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DIG 片語動詞。",
+      "en": "Read the whole sentence and choose the DIG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照例子放在正確位置:dig him out;dig it out;dig its claws in。",
+      "titleEn": "When using him, her, it or them, place the word as shown: dig him out; dig it out; dig its claws in.",
+      "zh": "使用 him、her、it 或 them 時,請按照例子放在正確位置:dig him out;dig it out;dig its claws in。",
+      "en": "When using him, her, it or them, place the word as shown: dig him out; dig it out; dig its claws in."
+    },
+    {
+      "titleZh": "dig in 和 dig into 可以表示開始吃東西,也可以表示投入艱辛工作。請仔細閱讀整個情境。",
+      "titleEn": "Dig in and dig into can describe eating or starting hard work.",
+      "zh": "dig in 和 dig into 可以表示開始吃東西,也可以表示投入艱辛工作。請仔細閱讀整個情境。",
+      "en": "Dig in and dig into can describe eating or starting hard work. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DIG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DIG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DIG 動詞片語句子改寫練習",
+    "titleEn": "DIG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DIG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DIG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-116-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Since the curry is ready, start eating while it is hot.",
+      "promptZh": "既然咖喱已經準備好,趁熱開始吃吧。",
+      "starter": "Since",
+      "answer": "Since the curry is ready, dig in while it is hot.",
+      "answerZh": "既然咖喱已經準備好,趁熱開始吃吧。",
+      "highlight": "dig in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Dad found an old map at the back of the cupboard.",
+      "promptZh": "爸爸在櫥櫃深處找到了一張舊地圖。",
+      "starter": "Dad",
+      "answer": "Dad dug out an old map from the back of the cupboard.",
+      "answerZh": "爸爸從櫥櫃深處找出了一張舊地圖。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The toy truck was stuck in wet sand, so the children cleared the sand from around it with small spades.",
+      "promptZh": "玩具貨車陷在濕沙中,孩子們用小鏟子清走四周的沙。",
+      "starter": "The",
+      "answer": "The children dug the toy truck out of the wet sand.",
+      "answerZh": "孩子們把玩具貨車從濕沙中挖了出來。",
+      "highlight": "The children dug",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "After seeing the large pile of forms, the volunteers began work immediately.",
+      "promptZh": "義工看見那一大堆表格後,立即開始工作。",
+      "starter": "After",
+      "answer": "After seeing the large pile of forms, the volunteers dug in immediately.",
+      "answerZh": "義工看見那一大堆表格後,立即埋頭工作。",
+      "highlight": "dug in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Workers broke open the road to repair a water pipe.",
+      "promptZh": "工人挖開道路,以修理水管。",
+      "starter": "Workers",
+      "answer": "Workers dug up the road to repair a water pipe.",
+      "answerZh": "工人挖開道路,以修理水管。",
+      "highlight": "dug up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The cat pressed its claws firmly into the thick blanket.",
+      "promptZh": "那隻貓把爪牢牢抓進厚毛氈。",
+      "starter": "The",
+      "answer": "The cat dug its claws into the thick blanket.",
+      "answerZh": "那隻貓把爪牢牢抓進厚毛氈。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Before dark, the soldiers made protected places in the ground.",
+      "promptZh": "天黑前,士兵挖好地面掩護位置。",
+      "starter": "Before",
+      "answer": "Before dark, the soldiers dug themselves in.",
+      "answerZh": "天黑前,士兵挖好掩護位置。",
+      "highlight": "dug themselves",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nora began working on the school project with great energy.",
+      "promptZh": "諾拉充滿幹勁地開始處理學校專題。",
+      "starter": "Nora",
+      "answer": "Nora dug into the school project with great energy.",
+      "answerZh": "諾拉充滿幹勁地投入學校專題。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Hungry after the game, the children began eating the noodles.",
+      "promptZh": "比賽後,孩子們餓着肚子開始吃麵條。",
+      "starter": "Hungry",
+      "answer": "Hungry after the game, the children dug into the noodles.",
+      "answerZh": "比賽後,孩子們餓着肚子大吃麵條。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Using spades, the family removed the potatoes from the ground.",
+      "promptZh": "那家人用鏟子把薯仔從泥土中挖出來。",
+      "starter": "Using",
+      "answer": "Using spades, the family dug up the potatoes.",
+      "answerZh": "那家人用鏟子把薯仔從泥土中挖了出來。",
+      "highlight": "dug up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Rina found the primary-school photos after searching through an old drawer.",
+      "promptZh": "里娜翻找一個舊抽屜後,找到了小學時的照片。",
+      "starter": "Rina",
+      "answer": "Rina dug out the primary-school photos after searching through an old drawer.",
+      "answerZh": "里娜翻找一個舊抽屜後,找出了小學時的照片。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "By morning, the soldiers were already protected in positions they had made in the ground.",
+      "promptZh": "到了早上,士兵已躲在自己挖好的地面掩護位置內。",
+      "starter": "By",
+      "answer": "By morning, the soldiers were already dug in.",
+      "answerZh": "到了早上,士兵已挖好掩護位置並躲在其中。",
+      "highlight": "dug",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ben pressed his heels firmly into the soft earth to stop himself sliding.",
+      "promptZh": "賓把腳跟牢牢壓進鬆軟的泥土,以免自己滑動。",
+      "starter": "Ben",
+      "answer": "Ben dug his heels into the soft earth to stop himself sliding.",
+      "answerZh": "賓把腳跟牢牢插進鬆軟的泥土,以免自己滑動。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Workers freed the garden gate from the deep snow with shovels.",
+      "promptZh": "工人用鏟子把花園閘門從厚厚的積雪中清了出來。",
+      "starter": "Workers",
+      "answer": "Workers dug the garden gate out of the deep snow.",
+      "answerZh": "工人把花園閘門從厚厚的積雪中挖了出來。",
+      "highlight": "dug",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "To keep a firm grip, the bird is pressing its claws into the branch.",
+      "promptZh": "為了牢牢抓住樹枝,那隻鳥正把爪抓進去。",
+      "starter": "To",
+      "answer": "To keep a firm grip, the bird is digging its claws into the branch.",
+      "answerZh": "為了牢牢抓住樹枝,那隻鳥正把爪牢牢抓進去。",
+      "highlight": "digging",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are you going to start eating that pie now?",
+      "promptZh": "你現在要開始吃那個批嗎?",
+      "starter": "Are",
+      "answer": "Are you going to dig into that pie now?",
+      "answerZh": "你現在要開始大吃那個批嗎?",
+      "highlight": "dig into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Right now, the soldiers are making protected positions in the ground.",
+      "promptZh": "士兵現在正在挖掘地面掩護位置。",
+      "starter": "Right",
+      "answer": "Right now, the soldiers are digging themselves in.",
+      "answerZh": "士兵現在正在挖好掩護位置。",
+      "highlight": "digging themselves",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I have found my old winter coat for the trip.",
+      "promptZh": "我已找出旅行時要穿的舊冬褸。",
+      "starter": "I",
+      "answer": "I have dug out my old winter coat for the trip.",
+      "answerZh": "我已找出旅行時要穿的舊冬褸。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "She is starting the difficult homework now and plans to finish it tonight.",
+      "promptZh": "她現在開始做那份困難的功課,並打算今晚完成。",
+      "starter": "She",
+      "answer": "She is digging into the difficult homework now and plans to finish it tonight.",
+      "answerZh": "她現在正埋頭做那份困難的功課,並打算今晚完成。",
+      "highlight": "digging into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Firefighters are freeing the car from a pile of earth with shovels.",
+      "promptZh": "消防員正用鏟子把汽車從一堆泥土中清出來。",
+      "starter": "Firefighters",
+      "answer": "Firefighters are digging the car out of a pile of earth.",
+      "answerZh": "消防員正把汽車從一堆泥土中挖出來。",
+      "highlight": "digging",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "To lay a new pipe, the council is breaking open the park path.",
+      "promptZh": "為了鋪設新水管,市政部門正挖開公園小路。",
+      "starter": "To",
+      "answer": "To lay a new pipe, the council is digging up the park path.",
+      "answerZh": "為了鋪設新水管,市政部門正挖開公園小路。",
+      "highlight": "digging up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We were eating the warm bread with great enthusiasm.",
+      "promptZh": "我們當時正津津有味地吃着暖麵包。",
+      "starter": "We",
+      "answer": "We were digging into the warm bread with great enthusiasm.",
+      "answerZh": "我們當時正津津有味地吃着暖麵包。",
+      "highlight": "digging into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She pressed the metal tip of the umbrella firmly into the soft ground.",
+      "promptZh": "她把雨傘的金屬尖端牢牢插進鬆軟的地面。",
+      "starter": "She",
+      "answer": "She dug the metal tip of the umbrella firmly into the soft ground.",
+      "answerZh": "她把雨傘的金屬尖端牢牢插進鬆軟的地面。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Once the bell rings, we will begin cleaning the hall immediately.",
+      "promptZh": "鈴聲一響,我們便會立即開始清潔禮堂。",
+      "starter": "Once",
+      "answer": "Once the bell rings, we will dig in and clean the hall immediately.",
+      "answerZh": "鈴聲一響,我們便會立即投入清潔禮堂的工作。",
+      "highlight": "dig in and clean",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will the soldiers be protected in their prepared ground positions before nightfall?",
+      "promptZh": "士兵會在入夜前躲進準備好的地面掩護位置嗎?",
+      "starter": "Will",
+      "answer": "Will the soldiers be dug in before nightfall?",
+      "answerZh": "士兵會在入夜前挖好掩護位置嗎?",
+      "highlight": "dug",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the farmer removed all the carrots from the ground with a spade?",
+      "promptZh": "農夫已用鏟子把所有甘筍從泥土中挖出來嗎?",
+      "starter": "Has",
+      "answer": "Has the farmer dug up all the carrots?",
+      "answerZh": "農夫已把所有甘筍從泥土中挖出來嗎?",
+      "highlight": "dug up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can we free the wheel that is stuck deep in the sand with a spade?",
+      "promptZh": "我們可以用鏟子把深陷沙中的車輪弄出來嗎?",
+      "starter": "Can",
+      "answer": "Can we dig the wheel out of the sand?",
+      "answerZh": "我們可以把深陷沙中的車輪挖出來嗎?",
+      "highlight": "dig",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will you search for the spare key and find it for me?",
+      "promptZh": "你可以替我找出後備鎖匙嗎?",
+      "starter": "Will",
+      "answer": "Will you dig out the spare key for me?",
+      "answerZh": "你可以替我找出後備鎖匙嗎?",
+      "highlight": "dig out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because the garden path is damaged, the workers will break it open with heavy machines.",
+      "promptZh": "由於花園小路已損壞,工人會用重型機器把它挖開。",
+      "starter": "Because",
+      "answer": "Because the garden path is damaged, the workers will dig it up with heavy machines.",
+      "answerZh": "由於花園小路已損壞,工人會用重型機器把它挖開。",
+      "highlight": "dig",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Although the team faced a large pile of order forms, the members immediately began dealing with it.",
+      "promptZh": "雖然團隊面前有一大堆訂單表格,但成員立即開始處理。",
+      "starter": "Although",
+      "answer": "Although the team faced a large pile of order forms, the members immediately dug into it.",
+      "answerZh": "雖然團隊面前有一大堆訂單表格,但成員立即埋頭處理。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We needed the old receipt, so I searched through the files and found it.",
+      "promptZh": "我們需要那張舊收據,所以我翻查文件並把它找了出來。",
+      "starter": "We",
+      "answer": "We needed the old receipt, so I dug it out.",
+      "answerZh": "我們需要那張舊收據,所以我把它找了出來。",
+      "highlight": "dug",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We had reached the hill and made protected positions in the ground.",
+      "promptZh": "我們到達山丘後,挖好了地面掩護位置。",
+      "starter": "We",
+      "answer": "We had reached the hill and dug ourselves in.",
+      "answerZh": "我們到達山丘後,挖好了掩護位置。",
+      "highlight": "dug ourselves",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Please start eating; everyone else already has some food.",
+      "promptZh": "請開始吃吧;其他人已經有食物了。",
+      "starter": "Please",
+      "answer": "Please dig in; everyone else already has some food.",
+      "answerZh": "請開始吃吧;其他人已經有食物了。",
+      "highlight": "dig in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The dog held the rubber toy and pressed its teeth into it.",
+      "promptZh": "那隻狗咬着橡膠玩具,把牙齒緊緊陷進去。",
+      "starter": "The",
+      "answer": "The dog held the rubber toy and dug its teeth into it.",
+      "answerZh": "那隻狗咬着橡膠玩具,把牙齒緊緊陷進去。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The puppy was under a pile of snow, but the family freed it with shovels.",
+      "promptZh": "小狗被埋在一堆雪下,但那家人用鏟子把牠救了出來。",
+      "starter": "The",
+      "answer": "The puppy was under a pile of snow, but the family dug it out.",
+      "answerZh": "小狗被埋在一堆雪下,但那家人把牠挖了出來。",
+      "highlight": "dug",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Last year's poster was needed for the display, and Omar found it in a storage box.",
+      "promptZh": "展覽需要去年的海報,奧馬在儲物箱中把它找了出來。",
+      "starter": "Last",
+      "answer": "Last year's poster was needed for the display, and Omar dug it out of a storage box.",
+      "answerZh": "展覽需要去年的海報,奧馬從儲物箱中把它找了出來。",
+      "highlight": "dug",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "An old coin was removed from the field with a small spade.",
+      "promptZh": "一枚舊硬幣被人用小鏟子從田地中挖了出來。",
+      "starter": "An",
+      "answer": "An old coin was dug up in the field.",
+      "answerZh": "一枚舊硬幣在田地中被挖了出來。",
+      "highlight": "dug up in",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the plates arrived, the hungry players immediately began eating the pasta.",
+      "promptZh": "食物送到後,飢餓的球員立即開始大吃意粉。",
+      "starter": "After",
+      "answer": "After the plates arrived, the hungry players immediately dug into the pasta.",
+      "answerZh": "食物送到後,飢餓的球員立即大吃意粉。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A garden chair had sunk deep into the wet soil, so the workers freed it with shovels.",
+      "promptZh": "一張花園椅深陷濕泥中,所以工人用鏟子把它弄了出來。",
+      "starter": "A",
+      "answer": "A garden chair had sunk deep into the wet soil, so the workers dug it out.",
+      "answerZh": "一張花園椅深陷濕泥中,所以工人把它挖了出來。",
+      "highlight": "dug",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Because its members were protected in fixed ground positions, the group could not move quickly.",
+      "promptZh": "由於成員正躲在固定的地面掩護位置內,那個小組無法迅速移動。",
+      "starter": "Because",
+      "answer": "Because its members were dug in, the group could not move quickly.",
+      "answerZh": "由於成員已挖好掩護位置並躲在其中,那個小組無法迅速移動。",
+      "highlight": "dug",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did the class begin the research task so eagerly?",
+      "promptZh": "全班為何如此積極地開始那項研究任務?",
+      "starter": "Why",
+      "answer": "Why did the class dig into the research task so eagerly?",
+      "answerZh": "全班為何如此積極地投入那項研究任務?",
+      "highlight": "dig into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The climber pressed the sharp points of her boots into the ice.",
+      "promptZh": "攀爬者把靴子的尖端牢牢插進冰面。",
+      "starter": "The",
+      "answer": "The climber dug the sharp points of her boots into the ice.",
+      "answerZh": "攀爬者把靴子的尖端牢牢插進冰面。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the wall fell, the rescue team spent two hours freeing one worker from the broken bricks.",
+      "promptZh": "牆倒塌後,救援隊花了兩小時把一名工人從碎磚中救出來。",
+      "starter": "After",
+      "answer": "After the wall fell, the rescue team spent two hours digging one worker out of the broken bricks.",
+      "answerZh": "牆倒塌後,救援隊花了兩小時把一名工人從碎磚中挖出來。",
+      "highlight": "digging",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before planting new trees, the club broke the hard ground into small pieces.",
+      "promptZh": "種植新樹前,園藝小組把堅硬的泥土挖鬆。",
+      "starter": "Before",
+      "answer": "Before planting new trees, the club dug up the hard ground.",
+      "answerZh": "種植新樹前,園藝小組把堅硬的泥土挖鬆。",
+      "highlight": "dug up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We need to begin this urgent repair job now; the meal can wait.",
+      "promptZh": "我們現在需要開始這項緊急維修工作;這頓飯可以等一等。",
+      "starter": "We",
+      "answer": "We need to dig into this urgent repair job now; the meal can wait.",
+      "answerZh": "我們現在需要立即投入這項緊急維修工作;這頓飯可以等一等。",
+      "highlight": "dig into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "When the boat moved, Arlo pressed the metal point of his pole into the riverbed for support.",
+      "promptZh": "小船移動時,阿洛把長杆的金屬尖端牢牢插進河床以取得支撐。",
+      "starter": "When",
+      "answer": "When the boat moved, Arlo dug the metal point of his pole into the riverbed for support.",
+      "answerZh": "小船移動時,阿洛把長杆的金屬尖端牢牢插進河床以取得支撐。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "During the training exercise, the two groups made safe positions in the ground and waited.",
+      "promptZh": "在訓練演習期間,兩個小組挖好安全的地面掩護位置並等待。",
+      "starter": "During",
+      "answer": "During the training exercise, the two groups dug themselves in and waited.",
+      "answerZh": "在訓練演習期間,兩個小組挖好掩護位置並等待。",
+      "highlight": "dug themselves",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We did not wait for the others; we began eating the pizza at once.",
+      "promptZh": "我們沒有等其他人,立即開始大吃薄餅。",
+      "starter": "We",
+      "answer": "We did not wait for the others; we dug into the pizza at once.",
+      "answerZh": "我們沒有等其他人,立即大吃薄餅。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before the family party, Alex searched through the cupboard and found an old cake stand.",
+      "promptZh": "家庭聚會前,亞歷克斯翻找櫥櫃,找出了一個舊蛋糕架。",
+      "starter": "Before",
+      "answer": "Before the family party, Alex dug out an old cake stand.",
+      "answerZh": "家庭聚會前,亞歷克斯找出了一個舊蛋糕架。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When the teacher showed us twenty problems, we began working with determination.",
+      "promptZh": "老師給我們看二十道題目時,我們便下定決心開始做。",
+      "starter": "When",
+      "answer": "When the teacher showed us twenty problems, we dug in with determination.",
+      "answerZh": "老師給我們看二十道題目時,我們便下定決心埋頭做。",
+      "highlight": "dug in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The old gate was completely covered by mud, so the workers removed it with shovels.",
+      "promptZh": "舊閘門完全被泥土覆蓋,所以工人用鏟子把它清了出來。",
+      "starter": "The",
+      "answer": "The old gate was completely covered by mud, so the workers dug it out.",
+      "answerZh": "舊閘門完全被泥土覆蓋,所以工人把它挖了出來。",
+      "highlight": "dug",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although the shop had stopped selling the game, Lila found an old copy after searching the back room.",
+      "promptZh": "雖然店舖已停止出售那款遊戲,但莉拉翻找後房後找到了一盒舊版本。",
+      "starter": "Although",
+      "answer": "Although the shop had stopped selling the game, Lila dug out an old copy after searching the back room.",
+      "answerZh": "雖然店舖已停止出售那款遊戲,但莉拉翻找後房後找出了一盒舊版本。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The cook placed the hot soup on the table and told us to start eating.",
+      "promptZh": "廚師把熱湯放在桌上,叫我們開始吃。",
+      "starter": "The",
+      "answer": "The cook placed the hot soup on the table and told us to dig in.",
+      "answerZh": "廚師把熱湯放在桌上,叫我們開始吃。",
+      "highlight": "dig in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Holding the fish, the eagle pressed its claws in firmly.",
+      "promptZh": "那隻鷹抓住魚,把爪牢牢陷了進去。",
+      "starter": "Holding",
+      "answer": "Holding the fish, the eagle dug its claws in firmly.",
+      "answerZh": "那隻鷹抓住魚,把爪牢牢陷了進去。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "During the work, the team found stones from an old wall under the car park they were breaking open.",
+      "promptZh": "工程期間,團隊在正在挖開的停車場下發現了舊牆的石塊。",
+      "starter": "During",
+      "answer": "During the work, the team found stones from an old wall under the car park they were digging up.",
+      "answerZh": "工程期間,團隊在正在挖開的停車場下發現了舊牆的石塊。",
+      "highlight": "digging up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Instead of moving forward, the soldiers remained protected in their ground positions.",
+      "promptZh": "士兵沒有向前移動,而是仍躲在地面掩護位置內。",
+      "starter": "Instead",
+      "answer": "Instead of moving forward, the soldiers remained dug in.",
+      "answerZh": "士兵沒有向前移動,而是仍留在挖好的掩護位置內。",
+      "highlight": "dug",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the cold weather returned suddenly, we searched through the storage boxes for our thick blankets.",
+      "promptZh": "寒冷天氣突然回來時,我們翻找儲物箱,尋找厚毛氈。",
+      "starter": "When",
+      "answer": "When the cold weather returned suddenly, we dug out our thick blankets.",
+      "answerZh": "寒冷天氣突然回來時,我們找出了厚毛氈。",
+      "highlight": "dug out",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the practice attack began, the groups had made hidden, protected positions in the ground.",
+      "promptZh": "模擬攻擊開始前,各組已挖好隱蔽的地面掩護位置。",
+      "starter": "Before",
+      "answer": "Before the practice attack began, the groups had dug themselves in.",
+      "answerZh": "模擬攻擊開始前,各組已挖好掩護位置。",
+      "highlight": "dug themselves",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "While the food was still steaming, our host invited us to start eating before it became cold.",
+      "promptZh": "食物仍冒着熱氣時,主人請我們趁食物變冷前開始吃。",
+      "starter": "While",
+      "answer": "While the food was still steaming, our host invited us to dig in before it became cold.",
+      "answerZh": "食物仍冒着熱氣時,主人請我們趁食物變冷前開始吃。",
+      "highlight": "dig in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-116-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Heavy snow covered the family's front gate, and they had to free it before they could leave.",
+      "promptZh": "厚厚的積雪覆蓋了那家人的前門閘,他們必須先把它清出來才能離開。",
+      "starter": "Heavy",
+      "answer": "Heavy snow covered the family's front gate, and they had to dig it out before they could leave.",
+      "answerZh": "厚厚的積雪覆蓋了那家人的前門閘,他們必須先把它挖出來才能離開。",
+      "highlight": "dig",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "As the runner turned sharply, she pressed the points of her shoes into the wet track to keep her balance.",
+      "promptZh": "跑手急速轉彎時,把鞋底尖端牢牢壓進濕滑的跑道,以保持平衡。",
+      "starter": "As",
+      "answer": "As the runner turned sharply, she dug the points of her shoes into the wet track to keep her balance.",
+      "answerZh": "跑手急速轉彎時,把鞋底尖端牢牢壓進濕滑的跑道,以保持平衡。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although the files looked difficult, Zara chose the first one and began working without delay.",
+      "promptZh": "雖然那些文件看來很難,但扎拉選了第一份,毫不拖延地開始工作。",
+      "starter": "Although",
+      "answer": "Although the files looked difficult, Zara chose the first one and dug in without delay.",
+      "answerZh": "雖然那些文件看來很難,但扎拉選了第一份,毫不拖延地埋頭工作。",
+      "highlight": "dug in",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Without damaging it, the museum team carefully removed the buried pot from the earth.",
+      "promptZh": "博物館團隊沒有把陶罐弄破,小心地把它從地下挖出來。",
+      "starter": "Without",
+      "answer": "Without damaging it, the museum team carefully dug up the buried pot.",
+      "answerZh": "博物館團隊沒有把陶罐弄破,小心地把它從地下挖出來。",
+      "highlight": "dug up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Because the tunnel entrance had disappeared under loose earth, the workers spent the morning uncovering it with shovels.",
+      "promptZh": "由於隧道入口被鬆散的泥土掩埋,工人花了一個早上用鏟子把它清出來。",
+      "starter": "Because",
+      "answer": "Because the tunnel entrance had disappeared under loose earth, the workers spent the morning digging it out.",
+      "answerZh": "由於隧道入口被鬆散的泥土掩埋,工人花了一個早上把它挖出來。",
+      "highlight": "digging",
+      "targetForm": "dig somebody/something out / dig somebody/something out of something",
+      "targetMeaningZh": "從泥土、沙、雪或瓦礫中挖出或救出"
+    },
+    {
+      "id": "phrasal-verb-116-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "To show its first team photo, the school asked the office staff to search the old files and find it.",
+      "promptZh": "為了展示第一張校隊合照,學校請辦公室職員翻查舊文件並把它找出來。",
+      "starter": "To",
+      "answer": "To show its first team photo, the school asked the office staff to dig it out.",
+      "answerZh": "為了展示第一張校隊合照,學校請辦公室職員把它找出來。",
+      "highlight": "dig",
+      "targetForm": "dig something out",
+      "targetMeaningZh": "搜尋後找出舊物、收藏品或收起來的東西"
+    },
+    {
+      "id": "phrasal-verb-116-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Because the old pipes were under the playground, workers had to break open the whole surface.",
+      "promptZh": "由於舊水管位於操場下,工人必須把整個地面挖開。",
+      "starter": "Because",
+      "answer": "Because the old pipes were under the playground, workers had to dig up the whole surface.",
+      "answerZh": "由於舊水管位於操場下,工人必須把整個地面挖開。",
+      "highlight": "dig up",
+      "targetForm": "dig something up",
+      "targetMeaningZh": "挖開地面;把埋在地下的東西挖出"
+    },
+    {
+      "id": "phrasal-verb-116-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "There was a great deal to prepare before the fair, so everyone began the work with energy.",
+      "promptZh": "展覽會前有很多事情要準備,所以每個人都充滿幹勁地開始工作。",
+      "starter": "There",
+      "answer": "There was a great deal to prepare before the fair, so everyone dug into the work with energy.",
+      "answerZh": "展覽會前有很多事情要準備,所以每個人都充滿幹勁地投入工作。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "立即投入工作;埋頭開始做"
+    },
+    {
+      "id": "phrasal-verb-116-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Because its members were protected in prepared ground positions, the other side could not be seen from the road.",
+      "promptZh": "由於成員躲在預先挖好的地面掩護位置內,從道路看不見另一方。",
+      "starter": "Because",
+      "answer": "Because its members were dug in, the other side could not be seen from the road.",
+      "answerZh": "由於成員已挖好掩護位置並躲在其中,從道路看不見另一方。",
+      "highlight": "dug",
+      "targetForm": "dig yourself in / be dug in",
+      "targetMeaningZh": "挖好掩護位置準備防守;處於掩護位置"
+    },
+    {
+      "id": "phrasal-verb-116-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After landing on the moving branch, the bird pressed its claws in to keep its balance.",
+      "promptZh": "那隻鳥降落在搖動的樹枝上後,把爪牢牢抓住,以保持平衡。",
+      "starter": "After",
+      "answer": "After landing on the moving branch, the bird dug its claws in to keep its balance.",
+      "answerZh": "那隻鳥降落在搖動的樹枝上後,把爪牢牢抓住,以保持平衡。",
+      "highlight": "dug",
+      "targetForm": "dig something in / dig something into something",
+      "targetMeaningZh": "把爪、鞋跟或尖端牢牢插入或壓入某物"
+    },
+    {
+      "id": "phrasal-verb-116-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After a long walk, the group sat together and began eating the rice and vegetables eagerly.",
+      "promptZh": "走了很久後,大家坐在一起,開始津津有味地吃飯和蔬菜。",
+      "starter": "After",
+      "answer": "After a long walk, the group sat together and dug into the rice and vegetables eagerly.",
+      "answerZh": "走了很久後,大家坐在一起,津津有味地吃飯和蔬菜。",
+      "highlight": "dug into",
+      "targetForm": "dig in / dig into something",
+      "targetMeaningZh": "開始大吃;津津有味地吃"
+    }
+  ]
+}

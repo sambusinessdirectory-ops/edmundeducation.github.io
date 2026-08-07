@@ -1,0 +1,1677 @@
+{
+  "id": "phrasal-verb-120",
+  "order": 120,
+  "slug": "fix",
+  "version": "1",
+  "title": "FIX 動詞片語",
+  "titleEn": "Fix",
+  "titleZh": "FIX 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 119 - FIX.pdf",
+    "sourceNumber": 119,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FIX 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FIX."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FIX",
+      "highlight": "FIX"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We have not fixed on a date yet.",
+      "zh": "我們尚未選定日期。",
+      "highlight": "fixed on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The hostel fixed us up with a room.",
+      "zh": "旅舍替我們安排了一個房間。",
+      "highlight": "fixed us up with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She fixed him with a cold stare.",
+      "zh": "她冷冷地盯着他。",
+      "highlight": "fixed him with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "經考慮後選定或決定採用某事物；替某人或自己安排或提供所需的事物；以某種眼神長時間看着某人；把目光或注意力集中在某人或某事物上；安排好會面、假期、活動或其他事情；安排自己或某人做某事；梳洗打扮;整理儀容",
+    "en": "fix on something; fix somebody/yourself up with something; fix somebody with something; fix something on somebody/something; fix something up; fix up to do something / fix up for somebody to do something; fix yourself up",
+    "naturalZh": [
+      "經考慮後選定或決定採用某事物",
+      "替某人或自己安排或提供所需的事物",
+      "以某種眼神長時間看着某人",
+      "把目光或注意力集中在某人或某事物上",
+      "安排好會面、假期、活動或其他事情",
+      "安排自己或某人做某事",
+      "梳洗打扮;整理儀容"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fix on something",
+      "titleZh": "經考慮後選定或決定採用某事物",
+      "titleEn": "fix on something",
+      "descriptionZh": "經考慮後選定或決定採用某事物",
+      "descriptionEn": "We have not fixed on a date yet.",
+      "examples": [
+        {
+          "en": "We have not fixed on a date yet.",
+          "zh": "我們尚未選定日期。",
+          "highlight": "fixed on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fix somebody/yourself up with something",
+      "titleZh": "替某人或自己安排或提供所需的事物",
+      "titleEn": "fix somebody/yourself up with something",
+      "descriptionZh": "替某人或自己安排或提供所需的事物",
+      "descriptionEn": "The hostel fixed us up with a room.",
+      "examples": [
+        {
+          "en": "The hostel fixed us up with a room.",
+          "zh": "旅舍替我們安排了一個房間。",
+          "highlight": "fixed us up with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fix somebody with something",
+      "titleZh": "以某種眼神長時間看着某人",
+      "titleEn": "fix somebody with something",
+      "descriptionZh": "以某種眼神長時間看着某人",
+      "descriptionEn": "She fixed him with a cold stare.",
+      "examples": [
+        {
+          "en": "She fixed him with a cold stare.",
+          "zh": "她冷冷地盯着他。",
+          "highlight": "fixed him with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fix something on somebody/something",
+      "titleZh": "把目光或注意力集中在某人或某事物上",
+      "titleEn": "fix something on somebody/something",
+      "descriptionZh": "把目光或注意力集中在某人或某事物上",
+      "descriptionEn": "He fixed his eyes on the door.",
+      "examples": [
+        {
+          "en": "He fixed his eyes on the door.",
+          "zh": "他把目光集中在門上。",
+          "highlight": "fixed his eyes on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fix something up",
+      "titleZh": "安排好會面、假期、活動或其他事情",
+      "titleEn": "fix something up",
+      "descriptionZh": "安排好會面、假期、活動或其他事情",
+      "descriptionEn": "We fixed up a meeting for Friday.",
+      "examples": [
+        {
+          "en": "We fixed up a meeting for Friday.",
+          "zh": "我們安排了星期五開會。",
+          "highlight": "fixed up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fix up to do something / fix up for somebody to do something",
+      "titleZh": "安排自己或某人做某事",
+      "titleEn": "fix up to do something / fix up for somebody to do something",
+      "descriptionZh": "安排自己或某人做某事",
+      "descriptionEn": "We fixed up to meet after school.",
+      "examples": [
+        {
+          "en": "We fixed up to meet after school.",
+          "zh": "我們安排好放學後見面。",
+          "highlight": "fixed up to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fix yourself up",
+      "titleZh": "梳洗打扮;整理儀容",
+      "titleEn": "fix yourself up",
+      "descriptionZh": "梳洗打扮;整理儀容",
+      "descriptionEn": "She fixed herself up before dinner.",
+      "examples": [
+        {
+          "en": "She fixed herself up before dinner.",
+          "zh": "她在晚飯前整理好儀容。",
+          "highlight": "fixed herself up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FIX 片語動詞的實際用途",
+    "labelEn": "FIX Phrasal Verbs in Use",
+    "summaryZh": "fix on 可以表示某人考慮過幾個可能性後,最終選定日期、地點、顏色或計劃。；你可以用 fix up 談論安排會議、參觀或假期,也可以用 fix somebody up with something 表示替某人安排房間、門票、電腦或其他所需物品。；FIX 片語可以描述某人以強烈眼神盯着另一個人,或把目光和注意力集中在某事物上。；fix yourself up 可用來表示某人整理頭髮或衣服,準備出席晚飯、拍照、派對或會面。",
+    "summaryEn": "Fix on helps you explain that somebody has considered several possibilities and finally selected one, such as a date, place, colour or plan. You can use fix up to discuss arranging meetings, visits and holidays. You can also fix somebody up with a room, ticket, computer or other useful item. The FIX family helps you describe somebody staring strongly at another person or concentrating their eyes and attention on something. Fix yourself up is useful when somebody tidies their hair or clothes and makes themselves look ready for a meal, photograph, party or meeting.",
+    "contextsZh": [
+      "清楚表達經考慮後作出的選擇",
+      "談論安排和實際協助",
+      "描述強烈的眼神和集中的注意力",
+      "自然談論整理儀容"
+    ],
+    "contextsEn": [
+      "Make choices clear",
+      "Talk about arrangements and practical help",
+      "Describe powerful looks and careful attention",
+      "Talk naturally about getting ready"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FIX 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FIX expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fix on something",
+    "fixedHighlight": "fix on something",
+    "fixedZh": "閱讀整句,選出意思相同的 FIX 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FIX expression that gives the same meaning.",
+    "correct": "fixed on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FIX ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在 FIX 和 UP 中間。；她冷冷地盯着他。)She fixed her eyes on him.(她把目光集中在他身上。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in a FIX... UP expression, place the word as shown: fix him up fix her up fix it up fix them up Notice the difference between these two expressions: She fixed him with a cold stare.",
+    "variableItemsZh": [
+      "fix on something",
+      "fix somebody/yourself up with something",
+      "fix somebody with something",
+      "fix something on somebody/something",
+      "fix something up",
+      "fix up to do something / fix up for somebody to do something",
+      "fix yourself up"
+    ],
+    "variableItemsEn": [
+      "fix on something",
+      "fix somebody/yourself up with something",
+      "fix somebody with something",
+      "fix something on somebody/something",
+      "fix something up",
+      "fix up to do something / fix up for somebody to do something",
+      "fix yourself up"
+    ],
+    "forms": [
+      {
+        "formZh": "經考慮後選定或決定採用某事物",
+        "formEn": "fix on something",
+        "exampleZh": "我們尚未選定日期。",
+        "exampleEn": "We have not fixed on a date yet.",
+        "highlight": "fixed on"
+      },
+      {
+        "formZh": "替某人或自己安排或提供所需的事物",
+        "formEn": "fix somebody/yourself up with something",
+        "exampleZh": "旅舍替我們安排了一個房間。",
+        "exampleEn": "The hostel fixed us up with a room.",
+        "highlight": "fixed us up with"
+      },
+      {
+        "formZh": "以某種眼神長時間看着某人",
+        "formEn": "fix somebody with something",
+        "exampleZh": "她冷冷地盯着他。",
+        "exampleEn": "She fixed him with a cold stare.",
+        "highlight": "fixed him with"
+      },
+      {
+        "formZh": "把目光或注意力集中在某人或某事物上",
+        "formEn": "fix something on somebody/something",
+        "exampleZh": "他把目光集中在門上。",
+        "exampleEn": "He fixed his eyes on the door.",
+        "highlight": "fixed his eyes on"
+      },
+      {
+        "formZh": "安排好會面、假期、活動或其他事情",
+        "formEn": "fix something up",
+        "exampleZh": "我們安排了星期五開會。",
+        "exampleEn": "We fixed up a meeting for Friday.",
+        "highlight": "fixed up"
+      },
+      {
+        "formZh": "安排自己或某人做某事",
+        "formEn": "fix up to do something / fix up for somebody to do something",
+        "exampleZh": "我們安排好放學後見面。",
+        "exampleEn": "We fixed up to meet after school.",
+        "highlight": "fixed up to"
+      },
+      {
+        "formZh": "梳洗打扮;整理儀容",
+        "formEn": "fix yourself up",
+        "exampleZh": "她在晚飯前整理好儀容。",
+        "exampleEn": "She fixed herself up before dinner.",
+        "highlight": "fixed herself up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "經考慮後選定或決定採用某事物",
+      "titleEn": "fix on something",
+      "formula": "fix on something",
+      "highlight": "fix on something",
+      "descriptionZh": "經考慮後選定或決定採用某事物",
+      "descriptionEn": "We have not fixed on a date yet.",
+      "examples": [
+        {
+          "en": "We have not fixed on a date yet.",
+          "zh": "我們尚未選定日期。",
+          "highlight": "fixed on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "替某人或自己安排或提供所需的事物",
+      "titleEn": "fix somebody/yourself up with something",
+      "formula": "fix somebody/yourself up with something",
+      "highlight": "fix somebody/yourself up with something",
+      "descriptionZh": "替某人或自己安排或提供所需的事物",
+      "descriptionEn": "The hostel fixed us up with a room.",
+      "examples": [
+        {
+          "en": "The hostel fixed us up with a room.",
+          "zh": "旅舍替我們安排了一個房間。",
+          "highlight": "fixed us up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "以某種眼神長時間看着某人",
+      "titleEn": "fix somebody with something",
+      "formula": "fix somebody with something",
+      "highlight": "fix somebody with something",
+      "descriptionZh": "以某種眼神長時間看着某人",
+      "descriptionEn": "She fixed him with a cold stare.",
+      "examples": [
+        {
+          "en": "She fixed him with a cold stare.",
+          "zh": "她冷冷地盯着他。",
+          "highlight": "fixed him with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把目光或注意力集中在某人或某事物上",
+      "titleEn": "fix something on somebody/something",
+      "formula": "fix something on somebody/something",
+      "highlight": "fix something on somebody/something",
+      "descriptionZh": "把目光或注意力集中在某人或某事物上",
+      "descriptionEn": "He fixed his eyes on the door.",
+      "examples": [
+        {
+          "en": "He fixed his eyes on the door.",
+          "zh": "他把目光集中在門上。",
+          "highlight": "fixed his eyes on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "安排好會面、假期、活動或其他事情",
+      "titleEn": "fix something up",
+      "formula": "fix something up",
+      "highlight": "fix something up",
+      "descriptionZh": "安排好會面、假期、活動或其他事情",
+      "descriptionEn": "We fixed up a meeting for Friday.",
+      "examples": [
+        {
+          "en": "We fixed up a meeting for Friday.",
+          "zh": "我們安排了星期五開會。",
+          "highlight": "fixed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "安排自己或某人做某事",
+      "titleEn": "fix up to do something / fix up for somebody to do something",
+      "formula": "fix up to do something / fix up for somebody to do something",
+      "highlight": "fix up to do something / fix up for somebody to do something",
+      "descriptionZh": "安排自己或某人做某事",
+      "descriptionEn": "We fixed up to meet after school.",
+      "examples": [
+        {
+          "en": "We fixed up to meet after school.",
+          "zh": "我們安排好放學後見面。",
+          "highlight": "fixed up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "梳洗打扮;整理儀容",
+      "titleEn": "fix yourself up",
+      "formula": "fix yourself up",
+      "highlight": "fix yourself up",
+      "descriptionZh": "梳洗打扮;整理儀容",
+      "descriptionEn": "She fixed herself up before dinner.",
+      "examples": [
+        {
+          "en": "She fixed herself up before dinner.",
+          "zh": "她在晚飯前整理好儀容。",
+          "highlight": "fixed herself up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達經考慮後作出的選擇",
+      "titleEn": "Make choices clear",
+      "zh": "fix on 可以表示某人考慮過幾個可能性後,最終選定日期、地點、顏色或計劃。",
+      "en": "Fix on helps you explain that somebody has considered several possibilities and finally selected one, such as a date, place, colour or plan."
+    },
+    {
+      "titleZh": "談論安排和實際協助",
+      "titleEn": "Talk about arrangements and practical help",
+      "zh": "你可以用 fix up 談論安排會議、參觀或假期,也可以用 fix somebody up with something 表示替某人安排房間、門票、電腦或其他所需物品。",
+      "en": "You can use fix up to discuss arranging meetings, visits and holidays. You can also fix somebody up with a room, ticket, computer or other useful item."
+    },
+    {
+      "titleZh": "描述強烈的眼神和集中的注意力",
+      "titleEn": "Describe powerful looks and careful attention",
+      "zh": "FIX 片語可以描述某人以強烈眼神盯着另一個人,或把目光和注意力集中在某事物上。",
+      "en": "The FIX family helps you describe somebody staring strongly at another person or concentrating their eyes and attention on something."
+    },
+    {
+      "titleZh": "自然談論整理儀容",
+      "titleEn": "Talk naturally about getting ready",
+      "zh": "fix yourself up 可用來表示某人整理頭髮或衣服,準備出席晚飯、拍照、派對或會面。",
+      "en": "Fix yourself up is useful when somebody tidies their hair or clothes and makes themselves look ready for a meal, photograph, party or meeting."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達經考慮後作出的選擇",
+      "談論安排和實際協助",
+      "描述強烈的眼神和集中的注意力",
+      "自然談論整理儀容"
+    ],
+    "contextsEn": [
+      "Make choices clear",
+      "Talk about arrangements and practical help",
+      "Describe powerful looks and careful attention",
+      "Talk naturally about getting ready"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達經考慮後作出的選擇",
+        "titleEn": "Make choices clear",
+        "zh": "fix on 可以表示某人考慮過幾個可能性後,最終選定日期、地點、顏色或計劃。",
+        "en": "Fix on helps you explain that somebody has considered several possibilities and finally selected one, such as a date, place, colour or plan.",
+        "examples": [
+          {
+            "en": "We have not fixed on a date yet.",
+            "zh": "我們尚未選定日期。",
+            "highlight": "fixed on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論安排和實際協助",
+        "titleEn": "Talk about arrangements and practical help",
+        "zh": "你可以用 fix up 談論安排會議、參觀或假期,也可以用 fix somebody up with something 表示替某人安排房間、門票、電腦或其他所需物品。",
+        "en": "You can use fix up to discuss arranging meetings, visits and holidays. You can also fix somebody up with a room, ticket, computer or other useful item.",
+        "examples": [
+          {
+            "en": "The hostel fixed us up with a room.",
+            "zh": "旅舍替我們安排了一個房間。",
+            "highlight": "fixed us up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述強烈的眼神和集中的注意力",
+        "titleEn": "Describe powerful looks and careful attention",
+        "zh": "FIX 片語可以描述某人以強烈眼神盯着另一個人,或把目光和注意力集中在某事物上。",
+        "en": "The FIX family helps you describe somebody staring strongly at another person or concentrating their eyes and attention on something.",
+        "examples": [
+          {
+            "en": "She fixed him with a cold stare.",
+            "zh": "她冷冷地盯着他。",
+            "highlight": "fixed him with"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論整理儀容",
+        "titleEn": "Talk naturally about getting ready",
+        "zh": "fix yourself up 可用來表示某人整理頭髮或衣服,準備出席晚飯、拍照、派對或會面。",
+        "en": "Fix yourself up is useful when somebody tidies their hair or clothes and makes themselves look ready for a meal, photograph, party or meeting.",
+        "examples": [
+          {
+            "en": "He fixed his eyes on the door.",
+            "zh": "他把目光集中在門上。",
+            "highlight": "fixed his eyes on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FIX 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FIX expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FIX 片語動詞。",
+      "en": "Read the whole sentence and choose the FIX expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FIX ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在 FIX 和 UP 中間。",
+      "titleEn": "When using him, her, it or them in a FIX.",
+      "zh": "在 FIX ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在 FIX 和 UP 中間。",
+      "en": "When using him, her, it or them in a FIX... UP expression, place the word as shown: fix him up fix her up fix it up fix them up"
+    },
+    {
+      "titleZh": "她冷冷地盯着他。)She fixed her eyes on him.(她把目光集中在他身上。",
+      "titleEn": "Notice the difference between these two expressions: She fixed him with a cold stare.",
+      "zh": "她冷冷地盯着他。)She fixed her eyes on him.(她把目光集中在他身上。",
+      "en": "Notice the difference between these two expressions: She fixed him with a cold stare."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FIX 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FIX. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FIX 動詞片語句子改寫練習",
+    "titleEn": "FIX Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FIX 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FIX. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-120-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "For the trip, the club chose Saturday.",
+      "promptZh": "俱樂部為這次旅行選定了星期六。",
+      "starter": "For",
+      "answer": "For the trip, the club fixed on Saturday.",
+      "answerZh": "俱樂部為這次旅行選定了星期六。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We arranged the parents’ meeting for next Tuesday.",
+      "promptZh": "我們把家長會安排在下星期二。",
+      "starter": "We",
+      "answer": "We fixed up the parents’ meeting for next Tuesday.",
+      "answerZh": "我們把家長會安排在下星期二。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The shopkeeper looked at the boy with a cold stare.",
+      "promptZh": "店主冷冷地盯着那個男孩。",
+      "starter": "The",
+      "answer": "The shopkeeper fixed the boy with a cold stare.",
+      "answerZh": "店主冷冷地盯着那個男孩。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Ella made herself look neat before the party.",
+      "promptZh": "埃拉在派對前整理好儀容。",
+      "starter": "Ella",
+      "answer": "Ella fixed herself up before the party.",
+      "answerZh": "埃拉在派對前整理好儀容。",
+      "highlight": "fixed",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "For the night, the hotel found us a place to stay.",
+      "promptZh": "酒店替我們找到一個留宿的地方。",
+      "starter": "For",
+      "answer": "For the night, the hotel fixed us up with a place to stay.",
+      "answerZh": "酒店替我們安排了一個留宿的地方。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody/yourself up with something",
+      "targetMeaningZh": "為某人或自己安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "His eyes stayed on the bright kite.",
+      "promptZh": "他的目光一直留在色彩鮮艷的風箏上。",
+      "starter": "His",
+      "answer": "His eyes were fixed on the bright kite.",
+      "answerZh": "他的目光一直集中在色彩鮮艷的風箏上。",
+      "highlight": "were fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "I arranged to see the dentist on Friday.",
+      "promptZh": "我安排了星期五看牙醫。",
+      "starter": "I",
+      "answer": "I fixed up to see the dentist on Friday.",
+      "answerZh": "我安排了星期五看牙醫。",
+      "highlight": "fixed up",
+      "targetForm": "fix up to do something",
+      "targetMeaningZh": "安排自己做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Have you arranged your summer holiday yet?",
+      "promptZh": "你安排好暑假行程了嗎?",
+      "starter": "Have",
+      "answer": "Have you fixed your summer holiday up yet?",
+      "answerZh": "你安排好暑假行程了嗎?",
+      "highlight": "fixed",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "After looking at several colours, Ava chose blue.",
+      "promptZh": "艾娃看過幾種顏色後,選定了藍色。",
+      "starter": "After",
+      "answer": "After looking at several colours, Ava fixed on blue.",
+      "answerZh": "艾娃看過幾種顏色後,選定了藍色。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Please keep your attention on the road.",
+      "promptZh": "請把注意力集中在路面上。",
+      "starter": "Please",
+      "answer": "Please fix your attention on the road.",
+      "answerZh": "請把注意力集中在路面上。",
+      "highlight": "fix",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The school provided Ben with a laptop for the week.",
+      "promptZh": "學校為賓提供了一部手提電腦,讓他使用一星期。",
+      "starter": "The",
+      "answer": "The school fixed Ben up with a laptop for the week.",
+      "answerZh": "學校為賓安排了一部手提電腦,讓他使用一星期。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "We arranged for the plumber to come on Monday.",
+      "promptZh": "我們安排了水喉匠星期一上門。",
+      "starter": "We",
+      "answer": "We fixed up for the plumber to come on Monday.",
+      "answerZh": "我們安排了水喉匠星期一上門。",
+      "highlight": "fixed up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Noah quickly tidied his hair and clothes before the photo.",
+      "promptZh": "諾亞在拍照前迅速整理好頭髮和衣服。",
+      "starter": "Noah",
+      "answer": "Noah quickly fixed himself up before the photo.",
+      "answerZh": "諾亞在拍照前迅速整理好儀容。",
+      "highlight": "fixed himself up",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The teacher looked at the noisy pupils with a serious look.",
+      "promptZh": "老師神情嚴肅地望着吵鬧的學生們。",
+      "starter": "The",
+      "answer": "The teacher fixed the noisy pupils with a serious look.",
+      "answerZh": "老師神情嚴肅地盯着吵鬧的學生們。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "When the singer walked onto the stage, everyone turned their eyes towards her.",
+      "promptZh": "歌手走上舞台時,所有人都把目光轉向她。",
+      "starter": "When",
+      "answer": "When the singer walked onto the stage, everyone fixed their eyes on her.",
+      "answerZh": "歌手走上舞台時,所有人都把目光集中在她身上。",
+      "highlight": "fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The travel office has found us a cheap room near the station.",
+      "promptZh": "旅行社已替我們找到一個車站附近的便宜房間。",
+      "starter": "The",
+      "answer": "The travel office has fixed us up with a cheap room near the station.",
+      "answerZh": "旅行社已替我們安排了一個車站附近的便宜房間。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "They will arrange to meet outside the cinema at seven.",
+      "promptZh": "他們會安排在七時於戲院外見面。",
+      "starter": "They",
+      "answer": "They will fix up to meet outside the cinema at seven.",
+      "answerZh": "他們會安排在七時於戲院外見面。",
+      "highlight": "fix up",
+      "targetForm": "fix up to do something",
+      "targetMeaningZh": "安排自己做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "We still have not chosen a name for the school magazine.",
+      "promptZh": "我們仍未選定校刊的名稱。",
+      "starter": "We",
+      "answer": "We still have not fixed on a name for the school magazine.",
+      "answerZh": "我們仍未選定校刊的名稱。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Will you make yourself look neat before the guests arrive?",
+      "promptZh": "你會在客人到達前整理好儀容嗎?",
+      "starter": "Will",
+      "answer": "Will you fix yourself up before the guests arrive?",
+      "answerZh": "你會在客人到達前整理好儀容嗎?",
+      "highlight": "fix",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Just now, the manager looked at me with a warning stare.",
+      "promptZh": "經理剛才用警告的眼神盯着我。",
+      "starter": "Just",
+      "answer": "Just now, the manager fixed me with a warning stare.",
+      "answerZh": "經理剛才用警告的眼神盯着我。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "At present, the office is arranging a short visit for the new students.",
+      "promptZh": "辦公室目前正在為新生安排一次短途參觀。",
+      "starter": "At",
+      "answer": "At present, the office is fixing up a short visit for the new students.",
+      "answerZh": "辦公室目前正在為新生安排一次短途參觀。",
+      "highlight": "fixing up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Could you find me a lift home after the concert?",
+      "promptZh": "音樂會後,你可以替我安排車輛送我回家嗎?",
+      "starter": "Could",
+      "answer": "Could you fix me up with a lift home after the concert?",
+      "answerZh": "音樂會後,你可以替我安排車輛送我回家嗎?",
+      "highlight": "fix",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "During the film, he could not keep his attention on the story.",
+      "promptZh": "看電影期間,他無法把注意力集中在故事上。",
+      "starter": "During",
+      "answer": "During the film, he could not fix his attention on the story.",
+      "answerZh": "看電影期間,他無法把注意力集中在故事上。",
+      "highlight": "fix",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "She is tidying her hair and clothes for dinner now.",
+      "promptZh": "她現在正整理頭髮和衣服,準備吃晚飯。",
+      "starter": "She",
+      "answer": "She is fixing herself up for dinner now.",
+      "answerZh": "她現在正整理儀容,準備吃晚飯。",
+      "highlight": "fixing herself up",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Daniel usually looks around the library and chooses a quiet corner.",
+      "promptZh": "丹尼爾通常會看看圖書館四周,然後選一個安靜的角落。",
+      "starter": "Daniel",
+      "answer": "Daniel usually looks around the library and fixes on a quiet corner.",
+      "answerZh": "丹尼爾通常會看看圖書館四周,然後選定一個安靜的角落。",
+      "highlight": "fixes on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "A meeting has been arranged for Thursday afternoon.",
+      "promptZh": "會議已安排在星期四下午舉行。",
+      "starter": "A",
+      "answer": "A meeting has been fixed up for Thursday afternoon.",
+      "answerZh": "會議已安排在星期四下午舉行。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Do not look at me with that angry stare.",
+      "promptZh": "不要用那種憤怒的眼神盯着我。",
+      "starter": "Do",
+      "answer": "Do not fix me with that angry stare.",
+      "answerZh": "不要用那種憤怒的眼神盯着我。",
+      "highlight": "fix",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I have arranged for the nurse to call my father tomorrow.",
+      "promptZh": "我已安排護士明天致電給我父親。",
+      "starter": "I",
+      "answer": "I have fixed up for the nurse to call my father tomorrow.",
+      "answerZh": "我已安排護士明天致電給我父親。",
+      "highlight": "fixed up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Although the visit was difficult to arrange, we arranged it yesterday.",
+      "promptZh": "雖然這次參觀很難安排,但我們昨天終於安排好了。",
+      "starter": "Although",
+      "answer": "Although the visit was difficult to arrange, we fixed it up yesterday.",
+      "answerZh": "雖然這次參觀很難安排,但我們昨天終於安排好了。",
+      "highlight": "fixed",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I gave the interviewer a nervous answer, and she looked at me with a questioning look.",
+      "promptZh": "我緊張地回答了訪問員,而她以疑惑的眼神望着我。",
+      "starter": "I",
+      "answer": "I gave the interviewer a nervous answer, and she fixed me with a questioning look.",
+      "answerZh": "我緊張地回答了訪問員,而她以疑惑的眼神盯着我。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "After a long discussion, the team finally chose the shorter route.",
+      "promptZh": "經過長時間討論後,團隊終於選定了較短的路線。",
+      "starter": "After",
+      "answer": "After a long discussion, the team finally fixed on the shorter route.",
+      "answerZh": "經過長時間討論後,團隊終於選定了較短的路線。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We arranged for Ella to speak to the teacher after class.",
+      "promptZh": "我們安排了埃拉在課後與老師談話。",
+      "starter": "We",
+      "answer": "We fixed up for Ella to speak to the teacher after class.",
+      "answerZh": "我們安排了埃拉在課後與老師談話。",
+      "highlight": "fixed up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "All the visitors kept their eyes on the tower after the guide pointed to it.",
+      "promptZh": "導遊指向那座塔後,所有遊客都一直望着它。",
+      "starter": "All",
+      "answer": "All the visitors fixed their eyes on the tower after the guide pointed to it.",
+      "answerZh": "導遊指向那座塔後,所有遊客都把目光集中在塔上。",
+      "highlight": "fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Before the school show, the actors tidied their hair and clothes.",
+      "promptZh": "在學校表演前,演員們整理好頭髮和衣服。",
+      "starter": "Before",
+      "answer": "Before the school show, the actors fixed themselves up.",
+      "answerZh": "在學校表演前,演員們整理好儀容。",
+      "highlight": "fixed themselves up",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "I had no tools, but my neighbour provided me with everything I needed.",
+      "promptZh": "我沒有工具,但鄰居為我提供了所需的一切。",
+      "starter": "I",
+      "answer": "I had no tools, but my neighbour fixed me up with everything I needed.",
+      "answerZh": "我沒有工具,但鄰居替我安排了所需的一切。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "We had three possible places, but in the end we chose the library.",
+      "promptZh": "我們有三個可選地點,但最後選定了圖書館。",
+      "starter": "We",
+      "answer": "We had three possible places, but in the end we fixed on the library.",
+      "answerZh": "我們有三個可選地點,但最後選定了圖書館。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Who arranged the interview for you?",
+      "promptZh": "誰替你安排了面試?",
+      "starter": "Who",
+      "answer": "Who fixed the interview up for you?",
+      "answerZh": "誰替你安排了面試?",
+      "highlight": "fixed",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I managed to find myself a cheap room near the bus station.",
+      "promptZh": "我設法為自己找到一個巴士站附近的便宜房間。",
+      "starter": "I",
+      "answer": "I fixed myself up with a cheap room near the bus station.",
+      "answerZh": "我為自己安排了一個巴士站附近的便宜房間。",
+      "highlight": "fixed",
+      "targetForm": "fix yourself up with something",
+      "targetMeaningZh": "為自己安排或取得所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Can you arrange for the doctor to see my son this afternoon?",
+      "promptZh": "你可以安排醫生今天下午替我兒子看診嗎?",
+      "starter": "Can",
+      "answer": "Can you fix up for the doctor to see my son this afternoon?",
+      "answerZh": "你可以安排醫生今天下午替我兒子看診嗎?",
+      "highlight": "fix up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "When the guard gave the boy a hard stare, he stopped talking.",
+      "promptZh": "警衞嚴厲地盯着那個男孩時,他便停止說話。",
+      "starter": "When",
+      "answer": "When the guard fixed the boy with a hard stare, he stopped talking.",
+      "answerZh": "警衞嚴厲地盯着那個男孩時,他便停止說話。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Her gaze stayed on the screen during the whole final scene.",
+      "promptZh": "在最後一幕的整段時間裏,她的目光一直留在螢幕上。",
+      "starter": "Her",
+      "answer": "Her gaze was fixed on the screen during the whole final scene.",
+      "answerZh": "在最後一幕的整段時間裏,她的目光一直集中在螢幕上。",
+      "highlight": "was fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "I need ten minutes to make myself look neat before we leave.",
+      "promptZh": "我們出發前,我需要十分鐘整理儀容。",
+      "starter": "I",
+      "answer": "I need ten minutes to fix myself up before we leave.",
+      "answerZh": "我們出發前,我需要十分鐘整理儀容。",
+      "highlight": "fix",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The youth club gave each new member a simple uniform.",
+      "promptZh": "青年中心為每位新會員提供了一套簡單的制服。",
+      "starter": "The",
+      "answer": "The youth club fixed each new member up with a simple uniform.",
+      "answerZh": "青年中心為每位新會員安排了一套簡單的制服。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "We have arranged to meet at the station, not at the café.",
+      "promptZh": "我們已安排在車站見面,而不是在咖啡店。",
+      "starter": "We",
+      "answer": "We have fixed up to meet at the station, not at the café.",
+      "answerZh": "我們已安排在車站見面,而不是在咖啡店。",
+      "highlight": "fixed up",
+      "targetForm": "fix up to do something",
+      "targetMeaningZh": "安排自己做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The photographer asked Ruby to keep looking at the camera, not at him.",
+      "promptZh": "攝影師叫露比一直望着鏡頭,而不是望着他。",
+      "starter": "The",
+      "answer": "The photographer asked Ruby to fix her gaze on the camera, not on him.",
+      "answerZh": "攝影師叫露比把目光集中在鏡頭上,而不是望着他。",
+      "highlight": "fix her gaze on",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "He did not have time to tidy his hair and clothes before the video call.",
+      "promptZh": "視像通話前,他沒有時間整理頭髮和衣服。",
+      "starter": "He",
+      "answer": "He did not have time to fix himself up before the video call.",
+      "answerZh": "視像通話前,他沒有時間整理儀容。",
+      "highlight": "fix himself up",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "After considering several beaches, the family chose the quietest one.",
+      "promptZh": "一家人考慮過幾個海灘後,選定了最寧靜的一個。",
+      "starter": "After",
+      "answer": "After considering several beaches, the family fixed on the quietest one.",
+      "answerZh": "一家人考慮過幾個海灘後,選定了最寧靜的一個。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "After several phone calls, the two schools arranged a friendly match.",
+      "promptZh": "兩間學校通過幾次電話後,安排了一場友誼賽。",
+      "starter": "After",
+      "answer": "After several phone calls, the two schools fixed up a friendly match.",
+      "answerZh": "兩間學校通過幾次電話後,安排了一場友誼賽。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The woman looked at the waiter with a cold, unhappy stare.",
+      "promptZh": "那名女子冷冷而不悅地盯着侍應。",
+      "starter": "The",
+      "answer": "The woman fixed the waiter with a cold, unhappy stare.",
+      "answerZh": "那名女子冷冷而不悅地盯着侍應。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Before the museum closed, the teacher arranged for the class to visit it.",
+      "promptZh": "博物館關門前,老師安排全班前往參觀。",
+      "starter": "Before",
+      "answer": "Before the museum closed, the teacher fixed up for the class to visit it.",
+      "answerZh": "博物館關門前,老師安排全班前往參觀。",
+      "highlight": "fixed up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Could the office provide them with somewhere quiet to work?",
+      "promptZh": "辦公室可以為他們安排一個安靜的工作地方嗎?",
+      "starter": "Could",
+      "answer": "Could the office fix them up with somewhere quiet to work?",
+      "answerZh": "辦公室可以為他們安排一個安靜的工作地方嗎?",
+      "highlight": "fix",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Without saying a word, the coach looked at us with a serious look.",
+      "promptZh": "教練一言不發,以嚴肅的眼神望着我們。",
+      "starter": "Without",
+      "answer": "Without saying a word, the coach fixed us with a serious look.",
+      "answerZh": "教練一言不發,以嚴肅的眼神盯着我們。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "We have not arranged the family dinner yet because two people are away.",
+      "promptZh": "我們仍未安排家庭聚餐,因為有兩個人不在。",
+      "starter": "We",
+      "answer": "We have not fixed up the family dinner yet because two people are away.",
+      "answerZh": "我們仍未安排家庭聚餐,因為有兩個人不在。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The committee could not choose between the two poster designs.",
+      "promptZh": "委員會無法在兩款海報設計之間作出選擇。",
+      "starter": "The",
+      "answer": "The committee could not fix on either of the two poster designs.",
+      "answerZh": "委員會無法選定兩款海報設計中的任何一款。",
+      "highlight": "fix on either of",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the long train journey, Priya made herself look neat again before meeting her friends.",
+      "promptZh": "坐了很久火車後,普里雅在見朋友前再次整理好儀容。",
+      "starter": "After",
+      "answer": "After the long train journey, Priya fixed herself up before meeting her friends.",
+      "answerZh": "坐了很久火車後,普里雅在見朋友前整理好儀容。",
+      "highlight": "fixed",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Even when people moved around him, the player kept his attention on the ball.",
+      "promptZh": "即使身邊有人走動,那名球員仍把注意力集中在球上。",
+      "starter": "Even",
+      "answer": "Even when people moved around him, the player fixed his attention on the ball.",
+      "answerZh": "即使身邊有人走動,那名球員仍把注意力集中在球上。",
+      "highlight": "fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Because the guests arrived earlier than expected, Luca had only a few minutes to make himself look ready.",
+      "promptZh": "由於客人比預期早到,盧卡只有幾分鐘整理儀容。",
+      "starter": "Because",
+      "answer": "Because the guests arrived earlier than expected, Luca had only a few minutes to fix himself up.",
+      "answerZh": "由於客人比預期早到,盧卡只有幾分鐘整理儀容。",
+      "highlight": "fix",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After discussing four possible titles, the team chose the one that sounded clearest.",
+      "promptZh": "團隊討論過四個可能的標題後,選定了聽起來最清楚的一個。",
+      "starter": "After",
+      "answer": "After discussing four possible titles, the team fixed on the one that sounded clearest.",
+      "answerZh": "團隊討論過四個可能的標題後,選定了聽起來最清楚的一個。",
+      "highlight": "fixed on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Although the dates were difficult for everyone, the organiser finally arranged the workshop for the first Saturday in June.",
+      "promptZh": "雖然各人的時間都難以配合,但主辦人最後把工作坊安排在六月第一個星期六。",
+      "starter": "Although",
+      "answer": "Although the dates were difficult for everyone, the organiser finally fixed up the workshop for the first Saturday in June.",
+      "answerZh": "雖然各人的時間都難以配合,但主辦人最後把工作坊安排在六月第一個星期六。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    },
+    {
+      "id": "phrasal-verb-120-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the child denied breaking the cup, his father silently looked at him with a long, doubtful stare.",
+      "promptZh": "孩子否認打破杯子時,父親默默地以懷疑的眼神長時間望着他。",
+      "starter": "When",
+      "answer": "When the child denied breaking the cup, his father silently fixed him with a long, doubtful stare.",
+      "answerZh": "孩子否認打破杯子時,父親默默地以懷疑的眼神長時間盯着他。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Before leaving the clinic, I arranged for my mother to have another check next month.",
+      "promptZh": "離開診所前,我安排了母親下月再接受檢查。",
+      "starter": "Before",
+      "answer": "Before leaving the clinic, I fixed up for my mother to have another check next month.",
+      "answerZh": "離開診所前,我安排了母親下月再接受檢查。",
+      "highlight": "fixed up",
+      "targetForm": "fix up for somebody to do something",
+      "targetMeaningZh": "安排某人做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Our train was cancelled, but a station worker found us seats on the next bus.",
+      "promptZh": "我們的火車班次取消了,但車站職員替我們找到下一班巴士的座位。",
+      "starter": "Our",
+      "answer": "Our train was cancelled, but a station worker fixed us up with seats on the next bus.",
+      "answerZh": "我們的火車班次取消了,但車站職員替我們安排了下一班巴士的座位。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Although the room was noisy, the student kept all her attention on the instructions on the screen.",
+      "promptZh": "雖然房間很嘈吵,那名學生仍把全部注意力集中在螢幕上的指示。",
+      "starter": "Although",
+      "answer": "Although the room was noisy, the student fixed all her attention on the instructions on the screen.",
+      "answerZh": "雖然房間很嘈吵,那名學生仍把全部注意力集中在螢幕上的指示。",
+      "highlight": "fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We did not make a quick choice; we compared the plans carefully before choosing the cheapest one.",
+      "promptZh": "我們沒有匆忙選擇;我們仔細比較各個計劃後,才選定最便宜的一個。",
+      "starter": "We",
+      "answer": "We did not make a quick choice; we compared the plans carefully before fixing on the cheapest one.",
+      "answerZh": "我們沒有匆忙選擇;我們仔細比較各個計劃後,才選定最便宜的一個。",
+      "highlight": "fixing on",
+      "targetForm": "fix on something",
+      "targetMeaningZh": "選定;決定採用"
+    },
+    {
+      "id": "phrasal-verb-120-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The camera crew was waiting, so the singer quickly tidied her hair and clothes and came outside.",
+      "promptZh": "攝製隊正在等候,所以歌手迅速整理好頭髮和衣服,然後走到外面。",
+      "starter": "The",
+      "answer": "The camera crew was waiting, so the singer quickly fixed herself up and came outside.",
+      "answerZh": "攝製隊正在等候,所以歌手迅速整理好儀容,然後走到外面。",
+      "highlight": "fixed herself up",
+      "targetForm": "fix yourself up",
+      "targetMeaningZh": "梳洗打扮;整理儀容"
+    },
+    {
+      "id": "phrasal-verb-120-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "For the whole final minute, the crowd kept its eyes on the runner nearest the finish line.",
+      "promptZh": "在最後一分鐘,觀眾一直望着最接近終點線的跑手。",
+      "starter": "For",
+      "answer": "For the whole final minute, the crowd fixed its eyes on the runner nearest the finish line.",
+      "answerZh": "在最後一分鐘,觀眾一直把目光集中在最接近終點線的跑手身上。",
+      "highlight": "fixed",
+      "targetForm": "fix something on somebody/something",
+      "targetMeaningZh": "把目光或注意力集中在某人或某事物上"
+    },
+    {
+      "id": "phrasal-verb-120-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "I arrived without a coat, but the event staff found me one that I could borrow.",
+      "promptZh": "我到達時沒有外套,但活動職員替我找到一件可以借用的外套。",
+      "starter": "I",
+      "answer": "I arrived without a coat, but the event staff fixed me up with one that I could borrow.",
+      "answerZh": "我到達時沒有外套,但活動職員替我安排了一件可以借用的外套。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody up with something",
+      "targetMeaningZh": "為某人安排或提供所需事物"
+    },
+    {
+      "id": "phrasal-verb-120-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "After several messages, the cousins arranged to have lunch together when they were both free.",
+      "promptZh": "傳了幾次訊息後,兩位表親安排在大家都有空時一起吃午飯。",
+      "starter": "After",
+      "answer": "After several messages, the cousins fixed up to have lunch together when they were both free.",
+      "answerZh": "傳了幾次訊息後,兩位表親安排在大家都有空時一起吃午飯。",
+      "highlight": "fixed up",
+      "targetForm": "fix up to do something",
+      "targetMeaningZh": "安排自己做某事"
+    },
+    {
+      "id": "phrasal-verb-120-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "When the principal entered and looked at everyone with a firm, warning look, the room became quiet.",
+      "promptZh": "校長進入房間,以堅定而帶警告意味的眼神望着所有人時,房間便安靜下來。",
+      "starter": "When",
+      "answer": "When the principal entered and fixed everyone with a firm, warning look, the room became quiet.",
+      "answerZh": "校長進入房間,以堅定而帶警告意味的眼神盯着所有人時,房間便安靜下來。",
+      "highlight": "fixed",
+      "targetForm": "fix somebody with something",
+      "targetMeaningZh": "以某種眼神長時間看着某人"
+    },
+    {
+      "id": "phrasal-verb-120-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We needed a place and a time that suited everyone, but by Friday we had arranged the small celebration.",
+      "promptZh": "我們需要一個適合所有人的地點和時間,但到了星期五,我們已安排好這個小型慶祝活動。",
+      "starter": "We",
+      "answer": "We needed a place and a time that suited everyone, but by Friday we had fixed up the small celebration.",
+      "answerZh": "我們需要一個適合所有人的地點和時間,但到了星期五,我們已安排好這個小型慶祝活動。",
+      "highlight": "fixed up",
+      "targetForm": "fix something up",
+      "targetMeaningZh": "安排好會面、假期或活動等"
+    }
+  ]
+}

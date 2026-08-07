@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-313",
+  "order": 313,
+  "slug": "gun",
+  "version": "1",
+  "title": "GUN 動詞片語",
+  "titleEn": "Gun",
+  "titleZh": "GUN 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 298 - GUN.pdf",
+    "sourceNumber": 298,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GUN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GUN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GUN",
+      "highlight": "GUN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She has been gunning for me since I joined the company.",
+      "zh": "自從我加入公司後,她便一直處處針對我。",
+      "highlight": "gunning for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Both teams are gunning for the championship.",
+      "zh": "兩支球隊都正全力爭奪錦標賽冠軍。",
+      "highlight": "gunning for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The reporter was gunned down outside his home.",
+      "zh": "那名記者在住所外遭開槍殺害。",
+      "highlight": "gunned down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位；努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位；開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+    "en": "gun for somebody; gun for something; gun somebody down",
+    "naturalZh": [
+      "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+      "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+      "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "gun for somebody",
+      "titleZh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+      "titleEn": "gun for somebody",
+      "descriptionZh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+      "descriptionEn": "She has been gunning for me since I joined the company.",
+      "examples": [
+        {
+          "en": "She has been gunning for me since I joined the company.",
+          "zh": "自從我加入公司後,她便一直處處針對我。",
+          "highlight": "gunning for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "gun for something",
+      "titleZh": "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+      "titleEn": "gun for something",
+      "descriptionZh": "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+      "descriptionEn": "Both teams are gunning for the championship.",
+      "examples": [
+        {
+          "en": "Both teams are gunning for the championship.",
+          "zh": "兩支球隊都正全力爭奪錦標賽冠軍。",
+          "highlight": "gunning for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "gun somebody down",
+      "titleZh": "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+      "titleEn": "gun somebody down",
+      "descriptionZh": "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+      "descriptionEn": "The reporter was gunned down outside his home.",
+      "examples": [
+        {
+          "en": "The reporter was gunned down outside his home.",
+          "zh": "那名記者在住所外遭開槍殺害。",
+          "highlight": "gunned down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GUN 片語動詞的實際用途",
+    "labelEn": "GUN Phrasal Verbs in Use",
+    "summaryZh": "gun for something 可以表示個人或團隊全力爭取冠軍、獎項、名額或職位。；gun for somebody 可以表示有人持續企圖擊敗、傷害或除去另一個人。；gun somebody down 常見於槍擊案和暴力襲擊的新聞報道。；gun for something 表示爭取目標;gun for somebody 表示針對某人;gun somebody down 則描述實際槍擊。",
+    "summaryEn": "Gun for something can describe a person or team making a serious effort to win a title, prize, place or job. Gun for somebody can show that a person is repeatedly trying to defeat, harm or remove someone else. Gun somebody down often appears in reports about shootings and violent attacks. Gun for something concerns a goal. Gun for somebody concerns a human target. Gun somebody down describes an actual shooting.",
+    "contextsZh": [
+      "談論全力爭取目標",
+      "描述某人被刻意針對",
+      "理解嚴肅的新聞報道",
+      "分辨爭取目標、針對他人和槍擊事件"
+    ],
+    "contextsEn": [
+      "Talk about determined competition",
+      "Describe someone being deliberately targeted",
+      "Understand serious news reports",
+      "Distinguish ambition from violence"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GUN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GUN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "gun for somebody",
+    "fixedHighlight": "gun for somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 GUN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GUN expression that gives the same meaning.",
+    "correct": "gunning for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；(經理正處處針對他。)The attacker gunned him down.(襲擊者開槍射倒了他。)gun for somebody 表示把某人當作針對或擊敗的目標;gun somebody down 則表示開槍射倒某人。；使用 him、her 或 them 時,請按照以上例子放在 GUN 和 DOWN 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Gun for somebody and gun somebody down have very different meanings: The manager is gunning for him. When using him, her or them with GUN... DOWN, place the word as shown: gun him down gun her down gun them down",
+    "variableItemsZh": [
+      "gun for somebody",
+      "gun for something",
+      "gun somebody down"
+    ],
+    "variableItemsEn": [
+      "gun for somebody",
+      "gun for something",
+      "gun somebody down"
+    ],
+    "forms": [
+      {
+        "formZh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+        "formEn": "gun for somebody",
+        "exampleZh": "自從我加入公司後,她便一直處處針對我。",
+        "exampleEn": "She has been gunning for me since I joined the company.",
+        "highlight": "gunning for"
+      },
+      {
+        "formZh": "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+        "formEn": "gun for something",
+        "exampleZh": "兩支球隊都正全力爭奪錦標賽冠軍。",
+        "exampleEn": "Both teams are gunning for the championship.",
+        "highlight": "gunning for"
+      },
+      {
+        "formZh": "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+        "formEn": "gun somebody down",
+        "exampleZh": "那名記者在住所外遭開槍殺害。",
+        "exampleEn": "The reporter was gunned down outside his home.",
+        "highlight": "gunned down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+      "titleEn": "gun for somebody",
+      "formula": "gun for somebody",
+      "highlight": "gun for somebody",
+      "descriptionZh": "(非正式)把某人當作目標,設法擊敗、傷害、針對或令對方失去職位",
+      "descriptionEn": "She has been gunning for me since I joined the company.",
+      "examples": [
+        {
+          "en": "She has been gunning for me since I joined the company.",
+          "zh": "自從我加入公司後,她便一直處處針對我。",
+          "highlight": "gunning for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+      "titleEn": "gun for something",
+      "formula": "gun for something",
+      "highlight": "gun for something",
+      "descriptionZh": "努力爭取或決心贏得某物,例如獎項、名次、冠軍或職位",
+      "descriptionEn": "Both teams are gunning for the championship.",
+      "examples": [
+        {
+          "en": "Both teams are gunning for the championship.",
+          "zh": "兩支球隊都正全力爭奪錦標賽冠軍。",
+          "highlight": "gunning for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+      "titleEn": "gun somebody down",
+      "formula": "gun somebody down",
+      "highlight": "gun somebody down",
+      "descriptionZh": "開槍射倒某人,通常指將對方殺死或重傷;常見於新聞和犯罪報道",
+      "descriptionEn": "The reporter was gunned down outside his home.",
+      "examples": [
+        {
+          "en": "The reporter was gunned down outside his home.",
+          "zh": "那名記者在住所外遭開槍殺害。",
+          "highlight": "gunned down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論全力爭取目標",
+      "titleEn": "Talk about determined competition",
+      "zh": "gun for something 可以表示個人或團隊全力爭取冠軍、獎項、名額或職位。",
+      "en": "Gun for something can describe a person or team making a serious effort to win a title, prize, place or job."
+    },
+    {
+      "titleZh": "描述某人被刻意針對",
+      "titleEn": "Describe someone being deliberately targeted",
+      "zh": "gun for somebody 可以表示有人持續企圖擊敗、傷害或除去另一個人。",
+      "en": "Gun for somebody can show that a person is repeatedly trying to defeat, harm or remove someone else."
+    },
+    {
+      "titleZh": "理解嚴肅的新聞報道",
+      "titleEn": "Understand serious news reports",
+      "zh": "gun somebody down 常見於槍擊案和暴力襲擊的新聞報道。",
+      "en": "Gun somebody down often appears in reports about shootings and violent attacks."
+    },
+    {
+      "titleZh": "分辨爭取目標、針對他人和槍擊事件",
+      "titleEn": "Distinguish ambition from violence",
+      "zh": "gun for something 表示爭取目標;gun for somebody 表示針對某人;gun somebody down 則描述實際槍擊。",
+      "en": "Gun for something concerns a goal. Gun for somebody concerns a human target. Gun somebody down describes an actual shooting."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論全力爭取目標",
+      "描述某人被刻意針對",
+      "理解嚴肅的新聞報道",
+      "分辨爭取目標、針對他人和槍擊事件"
+    ],
+    "contextsEn": [
+      "Talk about determined competition",
+      "Describe someone being deliberately targeted",
+      "Understand serious news reports",
+      "Distinguish ambition from violence"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論全力爭取目標",
+        "titleEn": "Talk about determined competition",
+        "zh": "gun for something 可以表示個人或團隊全力爭取冠軍、獎項、名額或職位。",
+        "en": "Gun for something can describe a person or team making a serious effort to win a title, prize, place or job.",
+        "examples": [
+          {
+            "en": "She has been gunning for me since I joined the company.",
+            "zh": "自從我加入公司後,她便一直處處針對我。",
+            "highlight": "gunning for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人被刻意針對",
+        "titleEn": "Describe someone being deliberately targeted",
+        "zh": "gun for somebody 可以表示有人持續企圖擊敗、傷害或除去另一個人。",
+        "en": "Gun for somebody can show that a person is repeatedly trying to defeat, harm or remove someone else.",
+        "examples": [
+          {
+            "en": "Both teams are gunning for the championship.",
+            "zh": "兩支球隊都正全力爭奪錦標賽冠軍。",
+            "highlight": "gunning for"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解嚴肅的新聞報道",
+        "titleEn": "Understand serious news reports",
+        "zh": "gun somebody down 常見於槍擊案和暴力襲擊的新聞報道。",
+        "en": "Gun somebody down often appears in reports about shootings and violent attacks.",
+        "examples": [
+          {
+            "en": "The reporter was gunned down outside his home.",
+            "zh": "那名記者在住所外遭開槍殺害。",
+            "highlight": "gunned down"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨爭取目標、針對他人和槍擊事件",
+        "titleEn": "Distinguish ambition from violence",
+        "zh": "gun for something 表示爭取目標;gun for somebody 表示針對某人;gun somebody down 則描述實際槍擊。",
+        "en": "Gun for something concerns a goal. Gun for somebody concerns a human target. Gun somebody down describes an actual shooting.",
+        "examples": [
+          {
+            "en": "She has been gunning for me since I joined the company.",
+            "zh": "自從我加入公司後,她便一直處處針對我。",
+            "highlight": "gunning for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GUN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GUN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GUN 片語動詞。",
+      "en": "Read the whole sentence and choose the GUN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "(經理正處處針對他。)The attacker gunned him down.(襲擊者開槍射倒了他。)gun for somebody 表示把某人當作針對或擊敗的目標;gun somebody down 則表示開槍射倒某人。",
+      "titleEn": "Gun for somebody and gun somebody down have very different meanings: The manager is gunning for him.",
+      "zh": "(經理正處處針對他。)The attacker gunned him down.(襲擊者開槍射倒了他。)gun for somebody 表示把某人當作針對或擊敗的目標;gun somebody down 則表示開槍射倒某人。",
+      "en": "Gun for somebody and gun somebody down have very different meanings: The manager is gunning for him."
+    },
+    {
+      "titleZh": "使用 him、her 或 them 時,請按照以上例子放在 GUN 和 DOWN 中間。",
+      "titleEn": "When using him, her or them with GUN.",
+      "zh": "使用 him、her 或 them 時,請按照以上例子放在 GUN 和 DOWN 中間。",
+      "en": "When using him, her or them with GUN... DOWN, place the word as shown: gun him down gun her down gun them down"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GUN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GUN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GUN 動詞片語句子改寫練習",
+    "titleEn": "GUN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GUN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GUN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-313-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Both teams are trying hard to win the cup.",
+      "promptZh": "兩支球隊都正努力爭奪獎盃。",
+      "starter": "Both",
+      "answer": "Both teams are gunning for the cup.",
+      "answerZh": "兩支球隊都正全力爭奪獎盃。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The supervisor has been trying to get me dismissed since I complained.",
+      "promptZh": "自從我投訴後,那名主管一直企圖令我被解僱。",
+      "starter": "The",
+      "answer": "The supervisor has been gunning for me since I complained.",
+      "answerZh": "自從我投訴後,那名主管便一直處處針對我。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "An attacker shot and killed the guard outside the bank.",
+      "promptZh": "一名襲擊者在銀行外開槍殺死了警衛。",
+      "starter": "An",
+      "answer": "An attacker gunned down the guard outside the bank.",
+      "answerZh": "一名襲擊者在銀行外開槍殺死了警衛。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Why is the editor trying to damage Leo’s career?",
+      "promptZh": "那名編輯為何企圖破壞里奧的事業?",
+      "starter": "Why",
+      "answer": "Why is the editor gunning for Leo?",
+      "answerZh": "那名編輯為何處處針對里奧?",
+      "highlight": "gunning for Leo",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Priya is trying hard to win one of the two places in the final.",
+      "promptZh": "普里雅正努力爭取決賽中的兩個名額之一。",
+      "starter": "Priya",
+      "answer": "Priya is gunning for one of the two places in the final.",
+      "answerZh": "普里雅正全力爭取決賽中的兩個名額之一。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The reporter was shot and killed outside his home.",
+      "promptZh": "那名記者在住所外遭開槍殺害。",
+      "starter": "The",
+      "answer": "The reporter was gunned down outside his home.",
+      "answerZh": "那名記者在住所外遭開槍殺害。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the argument, Dan seemed determined to make Omar lose his place in the team.",
+      "promptZh": "爭執後,丹似乎決心令奧馬失去隊中位置。",
+      "starter": "After",
+      "answer": "After the argument, Dan seemed to be gunning for Omar.",
+      "answerZh": "爭執後,丹似乎開始處處針對奧馬。",
+      "highlight": "be gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our school is trying hard to win the science prize.",
+      "promptZh": "我們學校正努力爭取科學獎。",
+      "starter": "Our",
+      "answer": "Our school is gunning for the science prize.",
+      "answerZh": "我們學校正全力爭取科學獎。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The gang shot and killed the shop owner near the station.",
+      "promptZh": "那幫人在車站附近開槍殺死了店主。",
+      "starter": "The",
+      "answer": "The gang gunned the shop owner down near the station.",
+      "answerZh": "那幫人在車站附近開槍殺死了店主。",
+      "highlight": "gunned",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I think the coach is trying to remove Ben from the team.",
+      "promptZh": "我認為教練正企圖把賓逐出球隊。",
+      "starter": "I",
+      "answer": "I think the coach is gunning for Ben.",
+      "answerZh": "我認為教練正處處針對賓。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Police stopped the attacker before he could shoot the witness.",
+      "promptZh": "警方在襲擊者開槍射殺證人前制止了他。",
+      "starter": "Police",
+      "answer": "Police stopped the attacker before he could gun down the witness.",
+      "answerZh": "警方在襲擊者開槍射殺證人前制止了他。",
+      "highlight": "gun down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The runner will try hard to win gold next year.",
+      "promptZh": "那名跑手明年會努力爭取金牌。",
+      "starter": "The",
+      "answer": "The runner will gun for gold next year.",
+      "answerZh": "那名跑手明年會全力爭取金牌。",
+      "highlight": "gun for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ella has been trying to cause trouble for me since the meeting.",
+      "promptZh": "自從那次會議後,埃拉一直企圖找我麻煩。",
+      "starter": "Ella",
+      "answer": "Ella has been gunning for me since the meeting.",
+      "answerZh": "自從那次會議後,埃拉便一直處處針對我。",
+      "highlight": "gunning",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Is Noah trying to get the top job?",
+      "promptZh": "諾亞是否正努力爭取最高職位?",
+      "starter": "Is",
+      "answer": "Is Noah gunning for the top job?",
+      "answerZh": "諾亞是否正全力爭取最高職位?",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "No one was shot or killed during the failed attack.",
+      "promptZh": "那次失敗的襲擊中沒有人中槍或死亡。",
+      "starter": "No",
+      "answer": "No one was gunned down during the failed attack.",
+      "answerZh": "那次失敗的襲擊中沒有人遭開槍射倒。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The captain may be trying to make Ravi leave the team.",
+      "promptZh": "隊長可能正企圖令拉維離隊。",
+      "starter": "The",
+      "answer": "The captain may be gunning for Ravi.",
+      "answerZh": "隊長可能正處處針對拉維。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We are not trying to win first place this season.",
+      "promptZh": "我們今季並非要爭取第一名。",
+      "starter": "We",
+      "answer": "We are not gunning for first place this season.",
+      "answerZh": "我們今季並非要全力爭取第一名。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Was the actor shot and killed before the police arrived?",
+      "promptZh": "警方到場前,那名演員是否已遭開槍殺害?",
+      "starter": "Was",
+      "answer": "Was the actor gunned down before the police arrived?",
+      "answerZh": "警方到場前,那名演員是否已遭開槍殺害?",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why have two managers been trying to get Tara dismissed?",
+      "promptZh": "為何兩名經理一直企圖令塔拉被解僱?",
+      "starter": "Why",
+      "answer": "Why have two managers been gunning for Tara?",
+      "answerZh": "為何兩名經理一直處處針對塔拉?",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After last year’s loss, the club is now trying to win the league title.",
+      "promptZh": "經歷去年的失利後,球會現正努力爭取聯賽冠軍。",
+      "starter": "After",
+      "answer": "After last year’s loss, the club is now gunning for the league title.",
+      "answerZh": "經歷去年的失利後,球會現正全力爭取聯賽冠軍。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The chairperson believes three members want to remove her from the post.",
+      "promptZh": "主席相信有三名成員想把她撤職。",
+      "starter": "The",
+      "answer": "The chairperson believes three members are gunning for her.",
+      "answerZh": "主席相信有三名成員正企圖把她撤職。",
+      "highlight": "are gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The police stopped the men before they could shoot him.",
+      "promptZh": "警方在那些男子開槍射殺他之前制止了他們。",
+      "starter": "The",
+      "answer": "The police stopped the men before they could gun him down.",
+      "answerZh": "警方在那些男子開槍射殺他之前制止了他們。",
+      "highlight": "gun",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Only one scholarship is left, and both students are trying hard to win it.",
+      "promptZh": "只剩下一份獎學金,兩名學生都正努力爭取。",
+      "starter": "Only",
+      "answer": "Only one scholarship is left, and both students are gunning for it.",
+      "answerZh": "只剩下一份獎學金,兩名學生都正全力爭取。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The mayor, who had been shot and killed outside the hall, was remembered at the event.",
+      "promptZh": "那名在會堂外遭開槍殺害的市長,在活動中獲人悼念。",
+      "starter": "The",
+      "answer": "The mayor, who had been gunned down outside the hall, was remembered at the event.",
+      "answerZh": "那名在會堂外遭開槍殺害的市長,在活動中獲人悼念。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Although the critic denies it, he seems determined to ruin the singer’s career.",
+      "promptZh": "雖然那名評論員否認,但他似乎決心毀掉那名歌手的事業。",
+      "starter": "Although",
+      "answer": "Although the critic denies it, he seems to be gunning for the singer.",
+      "answerZh": "雖然那名評論員否認,但他似乎正企圖毀掉那名歌手的事業。",
+      "highlight": "be gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team has improved, and it now plans to compete seriously for promotion.",
+      "promptZh": "球隊已有進步,現計劃全力爭取升班。",
+      "starter": "The",
+      "answer": "The team has improved, and it now plans to gun for promotion.",
+      "answerZh": "球隊已有進步,現計劃全力爭取升班。",
+      "highlight": "gun",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The driver feared that the attackers might shoot him.",
+      "promptZh": "那名司機擔心襲擊者可能會開槍射殺他。",
+      "starter": "The",
+      "answer": "The driver feared that the attackers might gun him down.",
+      "answerZh": "那名司機擔心襲擊者可能會開槍射殺他。",
+      "highlight": "gun",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Since I questioned her decision, the manager has tried to make me leave the department.",
+      "promptZh": "自從我質疑她的決定後,那名經理一直企圖令我離開部門。",
+      "starter": "Since",
+      "answer": "Since I questioned her decision, the manager has been gunning for me.",
+      "answerZh": "自從我質疑她的決定後,那名經理便一直處處針對我。",
+      "highlight": "been gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Who is trying hardest to win the last available place in the final?",
+      "promptZh": "誰正最努力爭取決賽的最後一個名額?",
+      "starter": "Who",
+      "answer": "Who is gunning for the last available place in the final?",
+      "answerZh": "誰正全力爭取決賽的最後一個名額?",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The news report said two guards had been shot and killed during the robbery.",
+      "promptZh": "新聞報道指兩名警衛在劫案中遭開槍殺害。",
+      "starter": "The",
+      "answer": "The news report said two guards had been gunned down during the robbery.",
+      "answerZh": "新聞報道指兩名警衛在劫案中遭開槍殺害。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The victim was shot and seriously wounded, but he survived.",
+      "promptZh": "受害者中槍重傷,但最終生還。",
+      "starter": "The",
+      "answer": "The victim was gunned down, but he survived.",
+      "answerZh": "受害者中槍重傷,但最終生還。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The player believes the coach wants to make her lose her place in the team.",
+      "promptZh": "那名球員相信教練想令她失去隊中位置。",
+      "starter": "The",
+      "answer": "The player believes the coach is gunning for her.",
+      "answerZh": "那名球員相信教練正處處針對她。",
+      "highlight": "is gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The company has done well in its home market and now wants to win the international prize.",
+      "promptZh": "公司在本地市場表現良好,現希望贏得國際獎項。",
+      "starter": "The",
+      "answer": "The company has done well in its home market and is now gunning for the international prize.",
+      "answerZh": "公司在本地市場表現良好,現正全力爭取國際獎項。",
+      "highlight": "is",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Whoever keeps trying to get Sam removed from the project has not succeeded.",
+      "promptZh": "一直企圖令森被調離項目的人尚未成功。",
+      "starter": "Whoever",
+      "answer": "Whoever has been gunning for Sam has not succeeded.",
+      "answerZh": "一直企圖把森調離項目的人尚未成功。",
+      "highlight": "has been gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A camera recorded the gunman shooting and killing the guard outside the station.",
+      "promptZh": "攝影機拍下槍手在車站外開槍殺死警衛的過程。",
+      "starter": "A",
+      "answer": "A camera recorded the gunman gunning down the guard outside the station.",
+      "answerZh": "攝影機拍下槍手在車站外開槍殺死警衛的過程。",
+      "highlight": "gunning down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Neither runner is trying to win the record; both only want to finish.",
+      "promptZh": "兩名跑手都沒有打算爭奪紀錄;他們只想完成賽事。",
+      "starter": "Neither",
+      "answer": "Neither runner is gunning for the record; both only want to finish.",
+      "answerZh": "兩名跑手都沒有打算爭奪紀錄;他們只想完成賽事。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The new director may be trying to dismiss everyone who supported the old plan.",
+      "promptZh": "新任主管可能正企圖解僱所有支持舊計劃的人。",
+      "starter": "The",
+      "answer": "The new director may be gunning for everyone who supported the old plan.",
+      "answerZh": "新任主管可能正企圖解僱所有支持舊計劃的人。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The gang tried to shoot the driver, but they missed.",
+      "promptZh": "那幫人企圖開槍射殺司機,但沒有擊中。",
+      "starter": "The",
+      "answer": "The gang tried to gun the driver down, but they missed.",
+      "answerZh": "那幫人企圖開槍射殺司機,但沒有擊中。",
+      "highlight": "gun",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A place at the world championship is what both swimmers are trying hard to win.",
+      "promptZh": "兩名泳手都正努力爭取世界錦標賽的參賽名額。",
+      "starter": "Both",
+      "answer": "Both swimmers are gunning for a place at the world championship.",
+      "answerZh": "兩名泳手都正全力爭取世界錦標賽的參賽名額。",
+      "highlight": "Both swimmers are gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one understood why the reporter was trying so hard to damage the actor.",
+      "promptZh": "沒有人明白那名記者為何極力針對那名演員。",
+      "starter": "No",
+      "answer": "No one understood why the reporter was gunning for the actor.",
+      "answerZh": "沒有人明白那名記者為何極力針對那名演員。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I had only joined the office a week earlier, yet one colleague was already trying to get me into trouble.",
+      "promptZh": "我加入辦公室才一星期,但已有一名同事企圖令我惹上麻煩。",
+      "starter": "I",
+      "answer": "I had only joined the office a week earlier, yet one colleague was already gunning for me.",
+      "answerZh": "我加入辦公室才一星期,但已有一名同事處處針對我。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After finishing second twice, Ava is determined to win the championship this year.",
+      "promptZh": "兩度取得亞軍後,艾娃決心今年贏得錦標賽冠軍。",
+      "starter": "After",
+      "answer": "After finishing second twice, Ava is gunning for the championship this year.",
+      "answerZh": "兩度取得亞軍後,艾娃正全力爭取今年的錦標賽冠軍。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The witness was afraid that the same attackers would shoot him before the trial.",
+      "promptZh": "證人擔心同一批襲擊者會在審訊前開槍射殺他。",
+      "starter": "The",
+      "answer": "The witness was afraid that the same attackers would gun him down before the trial.",
+      "answerZh": "證人擔心同一批襲擊者會在審訊前開槍射殺他。",
+      "highlight": "gun",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The final audition will be difficult because six singers are trying hard to win two places.",
+      "promptZh": "最後試演將會十分艱難,因為六名歌手正爭奪兩個名額。",
+      "starter": "The",
+      "answer": "The final audition will be difficult because six singers are gunning for two places.",
+      "answerZh": "最後試演將會十分艱難,因為六名歌手正全力爭奪兩個名額。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although her manager smiles at her in meetings, Priya believes he is secretly trying to get her dismissed.",
+      "promptZh": "雖然經理在會議中對她微笑,普里雅相信他暗中企圖令她被解僱。",
+      "starter": "Although",
+      "answer": "Although her manager smiles at her in meetings, Priya believes he is secretly gunning for her.",
+      "answerZh": "雖然經理在會議中對她微笑,普里雅相信他暗中企圖令她被解僱。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The article remembered three local leaders who were shot and killed during the conflict.",
+      "promptZh": "文章悼念了三名在衝突中遭開槍殺害的地方領袖。",
+      "starter": "The",
+      "answer": "The article remembered three local leaders who were gunned down during the conflict.",
+      "answerZh": "文章悼念了三名在衝突中遭開槍殺害的地方領袖。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The club is not satisfied with a place in the final and is trying to win the title.",
+      "promptZh": "球會並不滿足於晉身決賽,並正努力爭取冠軍。",
+      "starter": "The",
+      "answer": "The club is not satisfied with a place in the final and is gunning for the title.",
+      "answerZh": "球會並不滿足於晉身決賽,並正全力爭取冠軍。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    },
+    {
+      "id": "phrasal-verb-313-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The committee keeps pretending to support Leo, but it is really trying to defeat him.",
+      "promptZh": "委員會一直假裝支持里奧,但其實正企圖擊敗他。",
+      "starter": "The",
+      "answer": "The committee keeps pretending to support Leo, but it is really gunning for him.",
+      "answerZh": "委員會一直假裝支持里奧,但其實正企圖擊敗他。",
+      "highlight": "gunning for",
+      "targetForm": "gun for somebody",
+      "targetMeaningZh": "把某人當作目標,設法擊敗、傷害或令對方失去職位"
+    },
+    {
+      "id": "phrasal-verb-313-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "By the time help arrived, the security guard had been shot and killed near the back door.",
+      "promptZh": "救援人員到達時,保安員已在後門附近遭開槍殺害。",
+      "starter": "By",
+      "answer": "By the time help arrived, the security guard had been gunned down near the back door.",
+      "answerZh": "救援人員到達時,保安員已在後門附近遭開槍殺害。",
+      "highlight": "gunned down",
+      "targetForm": "gun somebody down",
+      "targetMeaningZh": "開槍射倒某人,通常指殺死或重傷"
+    },
+    {
+      "id": "phrasal-verb-313-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "With only one race left, both cyclists are trying hard to win the last available place in the championship.",
+      "promptZh": "只剩下一場賽事,兩名單車手都正努力爭取錦標賽的最後一個名額。",
+      "starter": "With",
+      "answer": "With only one race left, both cyclists are gunning for the last available place in the championship.",
+      "answerZh": "只剩下一場賽事,兩名單車手都正全力爭取錦標賽的最後一個名額。",
+      "highlight": "gunning for",
+      "targetForm": "gun for something",
+      "targetMeaningZh": "努力爭取或決心贏得某物"
+    }
+  ]
+}

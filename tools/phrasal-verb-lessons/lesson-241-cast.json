@@ -1,0 +1,1813 @@
+{
+  "id": "phrasal-verb-241",
+  "order": 241,
+  "slug": "cast",
+  "version": "1",
+  "title": "CAST 動詞片語",
+  "titleEn": "Cast",
+  "titleZh": "CAST 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 231 - CAST.pdf",
+    "sourceNumber": 231,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CAST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CAST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CAST",
+      "highlight": "CAST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The team cast around for a simple answer.",
+      "zh": "團隊設法尋找一個簡單答案。",
+      "highlight": "cast around for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "When the scarf is long enough, cast off.",
+      "zh": "圍巾長度足夠時,便可以收針。",
+      "highlight": "cast off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Cast on forty stitches for the sleeve.",
+      "zh": "為衣袖起四十針。",
+      "highlight": "Cast on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "四處尋找或設法找出某物,尤其是方法、答案或主意；在編織完成時收針；在開始編織時起針；拋棄某人,或摒棄不再重視的事物；把某人或某物逐出某處或某個群體；被海浪或水沖到岸上；把某物扔到或放到一旁；回想過去的事情；垂低眼睛或視線；脫下衣物或除去身上的東西",
+    "en": "cast around for something / cast about for something; cast off / cast something off; cast on / cast something on; cast somebody/something aside; cast somebody/something out / cast somebody/something out of something; cast somebody/something up on something; cast something aside; cast your mind back to something; cast something down; cast something off",
+    "naturalZh": [
+      "四處尋找或設法找出某物,尤其是方法、答案或主意",
+      "在編織完成時收針",
+      "在開始編織時起針",
+      "拋棄某人,或摒棄不再重視的事物",
+      "把某人或某物逐出某處或某個群體",
+      "被海浪或水沖到岸上",
+      "把某物扔到或放到一旁",
+      "回想過去的事情",
+      "垂低眼睛或視線",
+      "脫下衣物或除去身上的東西"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cast around for something / cast about for something",
+      "titleZh": "四處尋找或設法找出某物,尤其是方法、答案或主意",
+      "titleEn": "cast around for something / cast about for something",
+      "descriptionZh": "四處尋找或設法找出某物,尤其是方法、答案或主意",
+      "descriptionEn": "The team cast around for a simple answer.",
+      "examples": [
+        {
+          "en": "The team cast around for a simple answer.",
+          "zh": "團隊設法尋找一個簡單答案。",
+          "highlight": "cast around for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cast off / cast something off",
+      "titleZh": "在編織完成時收針",
+      "titleEn": "cast off / cast something off",
+      "descriptionZh": "在編織完成時收針",
+      "descriptionEn": "When the scarf is long enough, cast off.",
+      "examples": [
+        {
+          "en": "When the scarf is long enough, cast off.",
+          "zh": "圍巾長度足夠時,便可以收針。",
+          "highlight": "cast off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cast on / cast something on",
+      "titleZh": "在開始編織時起針",
+      "titleEn": "cast on / cast something on",
+      "descriptionZh": "在開始編織時起針",
+      "descriptionEn": "Cast on forty stitches for the sleeve.",
+      "examples": [
+        {
+          "en": "Cast on forty stitches for the sleeve.",
+          "zh": "為衣袖起四十針。",
+          "highlight": "Cast on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cast somebody/something aside",
+      "titleZh": "拋棄某人,或摒棄不再重視的事物",
+      "titleEn": "cast somebody/something aside",
+      "descriptionZh": "拋棄某人,或摒棄不再重視的事物",
+      "descriptionEn": "She cast him aside when she no longer needed his help.",
+      "examples": [
+        {
+          "en": "She cast him aside when she no longer needed his help.",
+          "zh": "她不再需要他的幫助時,便把他拋棄了。",
+          "highlight": "cast"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cast somebody/something out / cast somebody/something out of something",
+      "titleZh": "把某人或某物逐出某處或某個群體",
+      "titleEn": "cast somebody/something out / cast somebody/something out of something",
+      "descriptionZh": "把某人或某物逐出某處或某個群體",
+      "descriptionEn": "The club cast him out for cheating.",
+      "examples": [
+        {
+          "en": "The club cast him out for cheating.",
+          "zh": "球會因他作弊而把他逐出。",
+          "highlight": "cast him out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cast somebody/something up on something",
+      "titleZh": "被海浪或水沖到岸上",
+      "titleEn": "cast somebody/something up on something",
+      "descriptionZh": "被海浪或水沖到岸上",
+      "descriptionEn": "A wooden box was cast up on the beach.",
+      "examples": [
+        {
+          "en": "A wooden box was cast up on the beach.",
+          "zh": "一個木箱被沖上沙灘。",
+          "highlight": "cast up on"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cast something aside",
+      "titleZh": "把某物扔到或放到一旁",
+      "titleEn": "cast something aside",
+      "descriptionZh": "把某物扔到或放到一旁",
+      "descriptionEn": "He cast the newspaper aside.",
+      "examples": [
+        {
+          "en": "He cast the newspaper aside.",
+          "zh": "他把報紙扔到一旁。",
+          "highlight": "cast"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cast your mind back to something",
+      "titleZh": "回想過去的事情",
+      "titleEn": "cast your mind back to something",
+      "descriptionZh": "回想過去的事情",
+      "descriptionEn": "Cast your mind back to your first day at school.",
+      "examples": [
+        {
+          "en": "Cast your mind back to your first day at school.",
+          "zh": "回想一下你上學的第一天。",
+          "highlight": "Cast your mind back to"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cast something down",
+      "titleZh": "垂低眼睛或視線",
+      "titleEn": "cast something down",
+      "descriptionZh": "垂低眼睛或視線",
+      "descriptionEn": "She cast her eyes down.",
+      "examples": [
+        {
+          "en": "She cast her eyes down.",
+          "zh": "她垂下雙眼。",
+          "highlight": "cast her eyes down"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "cast something off",
+      "titleZh": "脫下衣物或除去身上的東西",
+      "titleEn": "cast something off",
+      "descriptionZh": "脫下衣物或除去身上的東西",
+      "descriptionEn": "They cast off their wet coats.",
+      "examples": [
+        {
+          "en": "They cast off their wet coats.",
+          "zh": "他們脫下濕外套。",
+          "highlight": "cast off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CAST 片語動詞的實際用途",
+    "labelEn": "CAST Phrasal Verbs in Use",
+    "summaryZh": "cast around 或 cast about 可以表示設法尋找答案或解決方法;cast your mind back 則表示刻意回想過去。；cast on 和 cast off 是編織圖樣和口頭指示中常見的重要表達。；cast somebody aside 表示拋棄某人;cast somebody out 則表示強迫某人離開某處或某個群體。；CAST 片語動詞可以描述物件被沖上岸、脫下衣物,以及某人垂低雙眼。",
+    "summaryEn": "Cast around or cast about describes searching for an answer or solution. Cast your mind back describes deliberately remembering the past. Cast on and cast off are important expressions in knitting patterns and spoken instructions. Cast somebody aside describes abandoning someone, while cast somebody out describes forcing someone to leave a place or group. The CAST family can describe objects being washed ashore, clothes being removed and a person lowering their eyes.",
+    "contextsZh": [
+      "談論尋找方法和回想往事",
+      "理解常見的編織指示",
+      "清楚描述拋棄和逐出",
+      "描述移動、衣物和身體語言"
+    ],
+    "contextsEn": [
+      "Talk about searching and remembering",
+      "Understand common knitting instructions",
+      "Describe rejection and exclusion clearly",
+      "Describe movement, clothing and body language"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CAST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CAST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cast around for something / cast about for something",
+    "fixedHighlight": "cast around for something / cast about for something",
+    "fixedZh": "閱讀整句,選出意思相同的 CAST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CAST expression that gives the same meaning.",
+    "correct": "cast around for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在編織中,cast on 表示起針,cast off 則表示收針。；cast off 也可以表示脫下衣物。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. In knitting, cast on begins a piece, while cast off finishes it. Cast off can also mean removing clothes. Read the full situation carefully.",
+    "variableItemsZh": [
+      "cast around for something / cast about for something",
+      "cast off / cast something off",
+      "cast on / cast something on",
+      "cast somebody/something aside",
+      "cast somebody/something out / cast somebody/something out of something",
+      "cast somebody/something up on something",
+      "cast something aside",
+      "cast your mind back to something",
+      "cast something down",
+      "cast something off"
+    ],
+    "variableItemsEn": [
+      "cast around for something / cast about for something",
+      "cast off / cast something off",
+      "cast on / cast something on",
+      "cast somebody/something aside",
+      "cast somebody/something out / cast somebody/something out of something",
+      "cast somebody/something up on something",
+      "cast something aside",
+      "cast your mind back to something",
+      "cast something down",
+      "cast something off"
+    ],
+    "forms": [
+      {
+        "formZh": "四處尋找或設法找出某物,尤其是方法、答案或主意",
+        "formEn": "cast around for something / cast about for something",
+        "exampleZh": "團隊設法尋找一個簡單答案。",
+        "exampleEn": "The team cast around for a simple answer.",
+        "highlight": "cast around for"
+      },
+      {
+        "formZh": "在編織完成時收針",
+        "formEn": "cast off / cast something off",
+        "exampleZh": "圍巾長度足夠時,便可以收針。",
+        "exampleEn": "When the scarf is long enough, cast off.",
+        "highlight": "cast off"
+      },
+      {
+        "formZh": "在開始編織時起針",
+        "formEn": "cast on / cast something on",
+        "exampleZh": "為衣袖起四十針。",
+        "exampleEn": "Cast on forty stitches for the sleeve.",
+        "highlight": "Cast on"
+      },
+      {
+        "formZh": "拋棄某人,或摒棄不再重視的事物",
+        "formEn": "cast somebody/something aside",
+        "exampleZh": "她不再需要他的幫助時,便把他拋棄了。",
+        "exampleEn": "She cast him aside when she no longer needed his help.",
+        "highlight": "cast"
+      },
+      {
+        "formZh": "把某人或某物逐出某處或某個群體",
+        "formEn": "cast somebody/something out / cast somebody/something out of something",
+        "exampleZh": "球會因他作弊而把他逐出。",
+        "exampleEn": "The club cast him out for cheating.",
+        "highlight": "cast him out"
+      },
+      {
+        "formZh": "被海浪或水沖到岸上",
+        "formEn": "cast somebody/something up on something",
+        "exampleZh": "一個木箱被沖上沙灘。",
+        "exampleEn": "A wooden box was cast up on the beach.",
+        "highlight": "cast up on"
+      },
+      {
+        "formZh": "把某物扔到或放到一旁",
+        "formEn": "cast something aside",
+        "exampleZh": "他把報紙扔到一旁。",
+        "exampleEn": "He cast the newspaper aside.",
+        "highlight": "cast"
+      },
+      {
+        "formZh": "回想過去的事情",
+        "formEn": "cast your mind back to something",
+        "exampleZh": "回想一下你上學的第一天。",
+        "exampleEn": "Cast your mind back to your first day at school.",
+        "highlight": "Cast your mind back to"
+      },
+      {
+        "formZh": "垂低眼睛或視線",
+        "formEn": "cast something down",
+        "exampleZh": "她垂下雙眼。",
+        "exampleEn": "She cast her eyes down.",
+        "highlight": "cast her eyes down"
+      },
+      {
+        "formZh": "脫下衣物或除去身上的東西",
+        "formEn": "cast something off",
+        "exampleZh": "他們脫下濕外套。",
+        "exampleEn": "They cast off their wet coats.",
+        "highlight": "cast off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "四處尋找或設法找出某物,尤其是方法、答案或主意",
+      "titleEn": "cast around for something / cast about for something",
+      "formula": "cast around for something / cast about for something",
+      "highlight": "cast around for something / cast about for something",
+      "descriptionZh": "四處尋找或設法找出某物,尤其是方法、答案或主意",
+      "descriptionEn": "The team cast around for a simple answer.",
+      "examples": [
+        {
+          "en": "The team cast around for a simple answer.",
+          "zh": "團隊設法尋找一個簡單答案。",
+          "highlight": "cast around for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在編織完成時收針",
+      "titleEn": "cast off / cast something off",
+      "formula": "cast off / cast something off",
+      "highlight": "cast off / cast something off",
+      "descriptionZh": "在編織完成時收針",
+      "descriptionEn": "When the scarf is long enough, cast off.",
+      "examples": [
+        {
+          "en": "When the scarf is long enough, cast off.",
+          "zh": "圍巾長度足夠時,便可以收針。",
+          "highlight": "cast off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在開始編織時起針",
+      "titleEn": "cast on / cast something on",
+      "formula": "cast on / cast something on",
+      "highlight": "cast on / cast something on",
+      "descriptionZh": "在開始編織時起針",
+      "descriptionEn": "Cast on forty stitches for the sleeve.",
+      "examples": [
+        {
+          "en": "Cast on forty stitches for the sleeve.",
+          "zh": "為衣袖起四十針。",
+          "highlight": "Cast on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "拋棄某人,或摒棄不再重視的事物",
+      "titleEn": "cast somebody/something aside",
+      "formula": "cast somebody/something aside",
+      "highlight": "cast somebody/something aside",
+      "descriptionZh": "拋棄某人,或摒棄不再重視的事物",
+      "descriptionEn": "She cast him aside when she no longer needed his help.",
+      "examples": [
+        {
+          "en": "She cast him aside when she no longer needed his help.",
+          "zh": "她不再需要他的幫助時,便把他拋棄了。",
+          "highlight": "cast"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某人或某物逐出某處或某個群體",
+      "titleEn": "cast somebody/something out / cast somebody/something out of something",
+      "formula": "cast somebody/something out / cast somebody/something out of something",
+      "highlight": "cast somebody/something out / cast somebody/something out of something",
+      "descriptionZh": "把某人或某物逐出某處或某個群體",
+      "descriptionEn": "The club cast him out for cheating.",
+      "examples": [
+        {
+          "en": "The club cast him out for cheating.",
+          "zh": "球會因他作弊而把他逐出。",
+          "highlight": "cast him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "被海浪或水沖到岸上",
+      "titleEn": "cast somebody/something up on something",
+      "formula": "cast somebody/something up on something",
+      "highlight": "cast somebody/something up on something",
+      "descriptionZh": "被海浪或水沖到岸上",
+      "descriptionEn": "A wooden box was cast up on the beach.",
+      "examples": [
+        {
+          "en": "A wooden box was cast up on the beach.",
+          "zh": "一個木箱被沖上沙灘。",
+          "highlight": "cast up on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某物扔到或放到一旁",
+      "titleEn": "cast something aside",
+      "formula": "cast something aside",
+      "highlight": "cast something aside",
+      "descriptionZh": "把某物扔到或放到一旁",
+      "descriptionEn": "He cast the newspaper aside.",
+      "examples": [
+        {
+          "en": "He cast the newspaper aside.",
+          "zh": "他把報紙扔到一旁。",
+          "highlight": "cast"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "回想過去的事情",
+      "titleEn": "cast your mind back to something",
+      "formula": "cast your mind back to something",
+      "highlight": "cast your mind back to something",
+      "descriptionZh": "回想過去的事情",
+      "descriptionEn": "Cast your mind back to your first day at school.",
+      "examples": [
+        {
+          "en": "Cast your mind back to your first day at school.",
+          "zh": "回想一下你上學的第一天。",
+          "highlight": "Cast your mind back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "垂低眼睛或視線",
+      "titleEn": "cast something down",
+      "formula": "cast something down",
+      "highlight": "cast something down",
+      "descriptionZh": "垂低眼睛或視線",
+      "descriptionEn": "She cast her eyes down.",
+      "examples": [
+        {
+          "en": "She cast her eyes down.",
+          "zh": "她垂下雙眼。",
+          "highlight": "cast her eyes down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "脫下衣物或除去身上的東西",
+      "titleEn": "cast something off",
+      "formula": "cast something off",
+      "highlight": "cast something off",
+      "descriptionZh": "脫下衣物或除去身上的東西",
+      "descriptionEn": "They cast off their wet coats.",
+      "examples": [
+        {
+          "en": "They cast off their wet coats.",
+          "zh": "他們脫下濕外套。",
+          "highlight": "cast off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論尋找方法和回想往事",
+      "titleEn": "Talk about searching and remembering",
+      "zh": "cast around 或 cast about 可以表示設法尋找答案或解決方法;cast your mind back 則表示刻意回想過去。",
+      "en": "Cast around or cast about describes searching for an answer or solution. Cast your mind back describes deliberately remembering the past."
+    },
+    {
+      "titleZh": "理解常見的編織指示",
+      "titleEn": "Understand common knitting instructions",
+      "zh": "cast on 和 cast off 是編織圖樣和口頭指示中常見的重要表達。",
+      "en": "Cast on and cast off are important expressions in knitting patterns and spoken instructions."
+    },
+    {
+      "titleZh": "清楚描述拋棄和逐出",
+      "titleEn": "Describe rejection and exclusion clearly",
+      "zh": "cast somebody aside 表示拋棄某人;cast somebody out 則表示強迫某人離開某處或某個群體。",
+      "en": "Cast somebody aside describes abandoning someone, while cast somebody out describes forcing someone to leave a place or group."
+    },
+    {
+      "titleZh": "描述移動、衣物和身體語言",
+      "titleEn": "Describe movement, clothing and body language",
+      "zh": "CAST 片語動詞可以描述物件被沖上岸、脫下衣物,以及某人垂低雙眼。",
+      "en": "The CAST family can describe objects being washed ashore, clothes being removed and a person lowering their eyes."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論尋找方法和回想往事",
+      "理解常見的編織指示",
+      "清楚描述拋棄和逐出",
+      "描述移動、衣物和身體語言"
+    ],
+    "contextsEn": [
+      "Talk about searching and remembering",
+      "Understand common knitting instructions",
+      "Describe rejection and exclusion clearly",
+      "Describe movement, clothing and body language"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論尋找方法和回想往事",
+        "titleEn": "Talk about searching and remembering",
+        "zh": "cast around 或 cast about 可以表示設法尋找答案或解決方法;cast your mind back 則表示刻意回想過去。",
+        "en": "Cast around or cast about describes searching for an answer or solution. Cast your mind back describes deliberately remembering the past.",
+        "examples": [
+          {
+            "en": "The team cast around for a simple answer.",
+            "zh": "團隊設法尋找一個簡單答案。",
+            "highlight": "cast around for"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見的編織指示",
+        "titleEn": "Understand common knitting instructions",
+        "zh": "cast on 和 cast off 是編織圖樣和口頭指示中常見的重要表達。",
+        "en": "Cast on and cast off are important expressions in knitting patterns and spoken instructions.",
+        "examples": [
+          {
+            "en": "When the scarf is long enough, cast off.",
+            "zh": "圍巾長度足夠時,便可以收針。",
+            "highlight": "cast off"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述拋棄和逐出",
+        "titleEn": "Describe rejection and exclusion clearly",
+        "zh": "cast somebody aside 表示拋棄某人;cast somebody out 則表示強迫某人離開某處或某個群體。",
+        "en": "Cast somebody aside describes abandoning someone, while cast somebody out describes forcing someone to leave a place or group.",
+        "examples": [
+          {
+            "en": "Cast on forty stitches for the sleeve.",
+            "zh": "為衣袖起四十針。",
+            "highlight": "Cast on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述移動、衣物和身體語言",
+        "titleEn": "Describe movement, clothing and body language",
+        "zh": "CAST 片語動詞可以描述物件被沖上岸、脫下衣物,以及某人垂低雙眼。",
+        "en": "The CAST family can describe objects being washed ashore, clothes being removed and a person lowering their eyes.",
+        "examples": [
+          {
+            "en": "She cast him aside when she no longer needed his help.",
+            "zh": "她不再需要他的幫助時,便把他拋棄了。",
+            "highlight": "cast"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CAST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CAST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CAST 片語動詞。",
+      "en": "Read the whole sentence and choose the CAST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在編織中,cast on 表示起針,cast off 則表示收針。",
+      "titleEn": "In knitting, cast on begins a piece, while cast off finishes it.",
+      "zh": "在編織中,cast on 表示起針,cast off 則表示收針。",
+      "en": "In knitting, cast on begins a piece, while cast off finishes it."
+    },
+    {
+      "titleZh": "cast off 也可以表示脫下衣物。請仔細閱讀整個情境。",
+      "titleEn": "Cast off can also mean removing clothes.",
+      "zh": "cast off 也可以表示脫下衣物。請仔細閱讀整個情境。",
+      "en": "Cast off can also mean removing clothes. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CAST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CAST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CAST 動詞片語句子改寫練習",
+    "titleEn": "CAST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CAST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CAST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-241-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "He looked everywhere for a way out of the locked room.",
+      "promptZh": "他四處尋找離開上鎖房間的方法。",
+      "starter": "He",
+      "answer": "He cast around for a way out of the locked room.",
+      "answerZh": "他四處尋找離開上鎖房間的方法。",
+      "highlight": "cast around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The club forced him to leave after he cheated repeatedly.",
+      "promptZh": "他多次作弊後,球會強迫他離開。",
+      "starter": "The",
+      "answer": "The club cast him out after he cheated repeatedly.",
+      "answerZh": "他多次作弊後,球會把他逐出。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "When the scarf reached the right length, she finished the edge.",
+      "promptZh": "圍巾達到合適長度後,她便完成收邊。",
+      "starter": "When",
+      "answer": "When the scarf reached the right length, she cast off.",
+      "answerZh": "圍巾達到合適長度後,她便收針。",
+      "highlight": "cast off",
+      "targetForm": "cast off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "I tried to remember our first day at school.",
+      "promptZh": "我嘗試回想我們上學的第一天。",
+      "starter": "I",
+      "answer": "I cast my mind back to our first day at school.",
+      "answerZh": "我回想起我們上學的第一天。",
+      "highlight": "cast my mind back",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Begin the hat by making eighty stitches.",
+      "promptZh": "先起八十針,開始編織帽子。",
+      "starter": "Cast",
+      "answer": "Cast on eighty stitches to begin the hat.",
+      "answerZh": "起八十針,開始編織帽子。",
+      "highlight": "Cast on eighty stitches to",
+      "targetForm": "cast on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A large piece of wood was washed onto the beach.",
+      "promptZh": "一大塊木頭被沖上沙灘。",
+      "starter": "A",
+      "answer": "A large piece of wood was cast up on the beach.",
+      "answerZh": "一大塊木頭被沖上沙灘。",
+      "highlight": "cast up on",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "被海浪或水沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "When he was no longer useful, the team rejected him.",
+      "promptZh": "當他不再有利用價值時,團隊便拋棄了他。",
+      "starter": "When",
+      "answer": "When he was no longer useful, the team cast him aside.",
+      "answerZh": "當他不再有利用價值時,團隊便拋棄了他。",
+      "highlight": "cast",
+      "targetForm": "cast somebody aside",
+      "targetMeaningZh": "拋棄不再重視的人"
+    },
+    {
+      "id": "phrasal-verb-241-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She lowered her eyes shyly.",
+      "promptZh": "她害羞地垂下雙眼。",
+      "starter": "She",
+      "answer": "She cast her eyes down shyly.",
+      "answerZh": "她害羞地垂下雙眼。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "He put the newspaper to one side and stood up.",
+      "promptZh": "他把報紙放到一旁,然後站起來。",
+      "starter": "He",
+      "answer": "He cast the newspaper aside and stood up.",
+      "answerZh": "他把報紙放到一旁,然後站起來。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The children removed their wet coats and ran inside.",
+      "promptZh": "孩子們脫下濕外套,跑進室內。",
+      "starter": "The",
+      "answer": "The children cast off their wet coats and ran inside.",
+      "answerZh": "孩子們脫下濕外套,跑進室內。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Finish the last row, then remove the stitches from the needle.",
+      "promptZh": "完成最後一行後,便把針上的線圈收好。",
+      "starter": "Finish",
+      "answer": "Finish the last row, then cast off.",
+      "answerZh": "完成最後一行後便收針。",
+      "highlight": "cast off",
+      "targetForm": "cast off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The police searched for another route through the building.",
+      "promptZh": "警方設法尋找另一條穿過大樓的路線。",
+      "starter": "The",
+      "answer": "The police cast about for another route through the building.",
+      "answerZh": "警方設法尋找另一條穿過大樓的路線。",
+      "highlight": "cast about",
+      "targetForm": "cast about for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The manager rejected the old plan immediately.",
+      "promptZh": "經理立即摒棄了舊計劃。",
+      "starter": "The",
+      "answer": "The manager cast the old plan aside immediately.",
+      "answerZh": "經理立即摒棄了舊計劃。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "摒棄不再重視的事物"
+    },
+    {
+      "id": "phrasal-verb-241-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The student made the starting stitches for a new scarf.",
+      "promptZh": "學生為一條新圍巾起了針。",
+      "starter": "The",
+      "answer": "The student cast on the stitches for a new scarf.",
+      "answerZh": "學生為一條新圍巾起了針。",
+      "highlight": "cast on",
+      "targetForm": "cast something on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "She is making forty starting stitches for a new sleeve.",
+      "promptZh": "她正為一隻新衣袖起四十針。",
+      "starter": "She",
+      "answer": "She is casting on forty stitches for a new sleeve.",
+      "answerZh": "她正為一隻新衣袖起四十針。",
+      "highlight": "casting on",
+      "targetForm": "cast something on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Have you tried to remember where we first met?",
+      "promptZh": "你有沒有嘗試回想我們第一次見面的地方?",
+      "starter": "Have",
+      "answer": "Have you cast your mind back to where we first met?",
+      "answerZh": "你有沒有回想我們第一次見面的地方?",
+      "highlight": "cast your mind back",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The swimmers had removed their shirts before entering the water.",
+      "promptZh": "泳手進入水中前已脫下上衣。",
+      "starter": "The",
+      "answer": "The swimmers had cast off their shirts before entering the water.",
+      "answerZh": "泳手進入水中前已脫下上衣。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We are searching everywhere for a simple answer.",
+      "promptZh": "我們正四處尋找一個簡單答案。",
+      "starter": "We",
+      "answer": "We are casting around for a simple answer.",
+      "answerZh": "我們正設法尋找一個簡單答案。",
+      "highlight": "casting around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The broken box had been washed onto the rocks overnight.",
+      "promptZh": "那個破箱子在夜間被沖上岩石。",
+      "starter": "The",
+      "answer": "The broken box had been cast up on the rocks overnight.",
+      "answerZh": "那個破箱子在夜間被沖上岩石。",
+      "highlight": "cast up on",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "被海浪或水沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He would never reject a loyal friend so easily.",
+      "promptZh": "他絕不會這麼輕易拋棄一位忠誠的朋友。",
+      "starter": "He",
+      "answer": "He would never cast a loyal friend aside so easily.",
+      "answerZh": "他絕不會這麼輕易拋棄一位忠誠的朋友。",
+      "highlight": "cast",
+      "targetForm": "cast somebody aside",
+      "targetMeaningZh": "拋棄不再重視的人"
+    },
+    {
+      "id": "phrasal-verb-241-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why did the boy lower his eyes when the teacher spoke?",
+      "promptZh": "老師說話時,那個男孩為何垂下雙眼?",
+      "starter": "Why",
+      "answer": "Why did the boy cast his eyes down when the teacher spoke?",
+      "answerZh": "老師說話時,那個男孩為何垂下雙眼?",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do I finish the edge now or knit another row?",
+      "promptZh": "我現在應該收針,還是再織一行?",
+      "starter": "Do",
+      "answer": "Do I cast off now or knit another row?",
+      "answerZh": "我現在應該收針,還是再織一行?",
+      "highlight": "cast off",
+      "targetForm": "cast off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The village has forced the thieves to leave.",
+      "promptZh": "村民已把那些小偷逐走。",
+      "starter": "The",
+      "answer": "The village has cast the thieves out.",
+      "answerZh": "村民已把那些小偷逐走。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "In frustration, she threw the phone to one side.",
+      "promptZh": "她感到十分氣憤,把電話扔到一旁。",
+      "starter": "In",
+      "answer": "In frustration, she cast the phone aside.",
+      "answerZh": "她感到十分氣憤,把電話扔到一旁。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "They may force her out of the group if she breaks the rules again.",
+      "promptZh": "如果她再次違反規則,他們可能會把她逐出小組。",
+      "starter": "They",
+      "answer": "They may cast her out of the group if she breaks the rules again.",
+      "answerZh": "如果她再次違反規則,他們可能會把她逐出小組。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out of something",
+      "targetMeaningZh": "把某人逐出某個群體"
+    },
+    {
+      "id": "phrasal-verb-241-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Several shells were washed onto the sand by the strong waves.",
+      "promptZh": "幾個貝殼被強浪沖上沙灘。",
+      "starter": "Several",
+      "answer": "Several shells were cast up on the sand by the strong waves.",
+      "answerZh": "幾個貝殼被強浪沖上沙灘。",
+      "highlight": "cast up on",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "被海浪或水沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She did not put the letter to one side after reading it.",
+      "promptZh": "她看完信後沒有把它放到一旁。",
+      "starter": "She",
+      "answer": "She did not cast the letter aside after reading it.",
+      "answerZh": "她看完信後沒有把它放到一旁。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "While waiting, Ben remembered his first job.",
+      "promptZh": "等待期間,賓回想起自己的第一份工作。",
+      "starter": "While",
+      "answer": "While waiting, Ben cast his mind back to his first job.",
+      "answerZh": "等待期間,賓回想起自己的第一份工作。",
+      "highlight": "cast his mind back to",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The broken toy was in his way. He threw it to one side.",
+      "promptZh": "那件破玩具阻礙着他。他把它扔到一旁。",
+      "starter": "The",
+      "answer": "The broken toy was in his way, so he cast it aside.",
+      "answerZh": "那件破玩具阻礙着他,所以他把它扔到一旁。",
+      "highlight": "so he cast it aside",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The scarf is long enough. The final stitches can now be removed from the needle.",
+      "promptZh": "圍巾已經夠長。現在可以把最後的線圈收好。",
+      "starter": "The",
+      "answer": "The scarf is long enough. The final stitches can now be cast off.",
+      "answerZh": "圍巾已經夠長。現在可以把最後的線圈收好。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Eva listened quietly and lowered her eyes towards the floor.",
+      "promptZh": "伊娃安靜地聽着,並把雙眼垂向地面。",
+      "starter": "Eva",
+      "answer": "Eva listened quietly and cast her eyes down towards the floor.",
+      "answerZh": "伊娃安靜地聽着,並把雙眼垂向地面。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The group decided that he could no longer stay, so they forced him out.",
+      "promptZh": "小組認為他不能再留下,因此把他逐走。",
+      "starter": "The",
+      "answer": "The group decided that he could no longer stay, so they cast him out.",
+      "answerZh": "小組認為他不能再留下,因此把他逐走。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "These sixty starting stitches were made yesterday.",
+      "promptZh": "這六十針是昨天起的。",
+      "starter": "These",
+      "answer": "These sixty stitches were cast on yesterday.",
+      "answerZh": "這六十針是昨天起的。",
+      "highlight": "cast on",
+      "targetForm": "cast something on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The path was blocked. We searched for another way across the river.",
+      "promptZh": "道路受阻。我們設法尋找另一條過河路線。",
+      "starter": "The",
+      "answer": "The path was blocked. We cast around for another way across the river.",
+      "answerZh": "道路受阻。我們設法尋找另一條過河路線。",
+      "highlight": "cast around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "To remember the answer, I thought about what the teacher said last week.",
+      "promptZh": "為了記起答案,我回想老師上星期說過的話。",
+      "starter": "To",
+      "answer": "To remember the answer, I cast my mind back to what the teacher said last week.",
+      "answerZh": "為了記起答案,我回想老師上星期說過的話。",
+      "highlight": "cast my mind back to",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The room was hot, so Leo removed his jacket and tie.",
+      "promptZh": "房間很熱,所以里奧脫下外套和領帶。",
+      "starter": "The",
+      "answer": "The room was hot, so Leo cast off his jacket and tie.",
+      "answerZh": "房間很熱,所以里奧脫下外套和領帶。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After the storm, an old boat was washed onto the shore.",
+      "promptZh": "暴風雨過後,一艘舊船被沖上岸。",
+      "starter": "After",
+      "answer": "After the storm, an old boat was cast up on the shore.",
+      "answerZh": "暴風雨過後,一艘舊船被沖上岸。",
+      "highlight": "cast up on",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "被海浪或水沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The company no longer needed the small project and abandoned it.",
+      "promptZh": "公司不再需要這個小項目,於是把它放棄了。",
+      "starter": "The",
+      "answer": "The company no longer needed the small project and cast it aside.",
+      "answerZh": "公司不再需要這個小項目,於是把它放棄了。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "摒棄或放棄不再重視的事物"
+    },
+    {
+      "id": "phrasal-verb-241-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Her eyes met everyone else’s, but she lowered them in embarrassment.",
+      "promptZh": "她與眾人目光相遇,卻尷尬地垂下雙眼。",
+      "starter": "Her",
+      "answer": "Her eyes met everyone else’s, but she cast them down in embarrassment.",
+      "answerZh": "她與眾人目光相遇,卻尷尬地垂下雙眼。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Their light jackets were too warm, so the runners removed them.",
+      "promptZh": "那些輕便外套太暖,所以跑手把它們脫下。",
+      "starter": "Their",
+      "answer": "Their light jackets were too warm, so the runners cast them off.",
+      "answerZh": "那些輕便外套太暖,所以跑手把它們脫下。",
+      "highlight": "cast",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Could you search for another explanation before we give up?",
+      "promptZh": "在我們放棄前,你可以設法找出另一個解釋嗎?",
+      "starter": "Could",
+      "answer": "Could you cast around for another explanation before we give up?",
+      "answerZh": "在我們放棄前,你可以設法找出另一個解釋嗎?",
+      "highlight": "cast around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The last four stitches should be removed from the needle carefully.",
+      "promptZh": "最後四針應小心收好。",
+      "starter": "The",
+      "answer": "The last four stitches should be cast off carefully.",
+      "answerZh": "最後四針應小心收好。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Instead of searching for a new answer, we tried to remember how the old machine worked.",
+      "promptZh": "我們沒有尋找新答案,而是嘗試回想那部舊機器如何運作。",
+      "starter": "Instead",
+      "answer": "Instead of searching for a new answer, we cast our minds back to how the old machine worked.",
+      "answerZh": "我們沒有尋找新答案,而是回想那部舊機器如何運作。",
+      "highlight": "cast our minds back",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Nora has finished one scarf and is now beginning another by making the first stitches.",
+      "promptZh": "諾拉已完成一條圍巾,現在正為另一條圍巾起針。",
+      "starter": "Nora",
+      "answer": "Nora has finished one scarf and is now casting on for another.",
+      "answerZh": "諾拉已完成一條圍巾,現在正為另一條圍巾起針。",
+      "highlight": "casting on for",
+      "targetForm": "cast on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The waves did not sink the empty bottle; they washed it onto the beach.",
+      "promptZh": "海浪沒有令空瓶沉下去,而是把它沖上沙灘。",
+      "starter": "The",
+      "answer": "The waves did not sink the empty bottle; they cast it up on the beach.",
+      "answerZh": "海浪沒有令空瓶沉下去,而是把它沖上沙灘。",
+      "highlight": "cast",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "把某物沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "After promising to support Leo, they later rejected him when he needed help.",
+      "promptZh": "他們答應支持里奧,後來卻在他需要幫助時拋棄了他。",
+      "starter": "After",
+      "answer": "After promising to support Leo, they later cast him aside when he needed help.",
+      "answerZh": "他們答應支持里奧,後來卻在他需要幫助時拋棄了他。",
+      "highlight": "cast",
+      "targetForm": "cast somebody aside",
+      "targetMeaningZh": "拋棄不再重視的人"
+    },
+    {
+      "id": "phrasal-verb-241-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The sun came out, and the hikers removed their coats.",
+      "promptZh": "太陽出來後,遠足人士脫下了外套。",
+      "starter": "The",
+      "answer": "The sun came out, and the hikers cast off their coats.",
+      "answerZh": "太陽出來後,遠足人士脫下了外套。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The main door was blocked, so the crew searched for another escape route.",
+      "promptZh": "正門受阻,所以工作人員設法尋找另一條逃生路線。",
+      "starter": "The",
+      "answer": "The main door was blocked, so the crew cast around for another escape route.",
+      "answerZh": "正門受阻,所以工作人員設法尋找另一條逃生路線。",
+      "highlight": "cast around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The group did not merely criticise Omar; it forced him to leave the club.",
+      "promptZh": "小組不只是批評奧馬,更把他逐出會所。",
+      "starter": "The",
+      "answer": "The group did not merely criticise Omar; it cast him out of the club.",
+      "answerZh": "小組不只是批評奧馬,更把他逐出會所。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out of something",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "You are not beginning a new piece; the scarf is complete, so remove the final stitches.",
+      "promptZh": "你不是要開始編織新作品;圍巾已完成,所以現在要收針。",
+      "starter": "You",
+      "answer": "You are not beginning a new piece; the scarf is complete, so cast off.",
+      "answerZh": "你不是要開始編織新作品;圍巾已完成,所以現在要收針。",
+      "highlight": "cast off",
+      "targetForm": "cast off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The glass was empty, and he pushed it to one side without looking.",
+      "promptZh": "玻璃杯已經空了,他看也不看便把它推到一旁。",
+      "starter": "The",
+      "answer": "The glass was empty, and he cast it aside without looking.",
+      "answerZh": "玻璃杯已經空了,他看也不看便把它放到一旁。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The speaker praised her, and she lowered her eyes instead of looking at the crowd.",
+      "promptZh": "講者稱讚她時,她沒有望向人群,而是垂下雙眼。",
+      "starter": "The",
+      "answer": "The speaker praised her, and she cast her eyes down instead of looking at the crowd.",
+      "answerZh": "講者稱讚她時,她沒有望向人群,而是垂下雙眼。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why is Anna making the first stitches for the scarf now?",
+      "promptZh": "安娜現在為何正在替圍巾起針?",
+      "starter": "Why",
+      "answer": "Why is Anna casting on for the scarf now?",
+      "answerZh": "安娜現在為何正在替圍巾起針?",
+      "highlight": "casting on",
+      "targetForm": "cast on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The coach rejected the suggestion without even discussing it.",
+      "promptZh": "教練甚至沒有討論便摒棄了這項建議。",
+      "starter": "The",
+      "answer": "The coach cast the suggestion aside without even discussing it.",
+      "answerZh": "教練甚至沒有討論便摒棄了這項建議。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "摒棄不再重視的事物"
+    },
+    {
+      "id": "phrasal-verb-241-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The team removed the student because he kept cheating.",
+      "promptZh": "那名學生不斷作弊,所以球隊把他逐走。",
+      "starter": "The",
+      "answer": "The team cast the student out because he kept cheating.",
+      "answerZh": "那名學生不斷作弊,所以球隊把他逐走。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "What did the storm wash onto the beach during the night?",
+      "promptZh": "暴風雨在夜間把甚麼沖上了沙灘?",
+      "starter": "What",
+      "answer": "What did the storm cast up on the beach during the night?",
+      "answerZh": "暴風雨在夜間把甚麼沖上了沙灘?",
+      "highlight": "cast up on",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "把某物沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "After knitting ten more rows, finish the scarf so the stitches do not come loose.",
+      "promptZh": "再織十行後便為圍巾收針,以免線圈鬆開。",
+      "starter": "After",
+      "answer": "After knitting ten more rows, cast off so the stitches do not come loose.",
+      "answerZh": "再織十行後便收針,以免線圈鬆開。",
+      "highlight": "cast off",
+      "targetForm": "cast off",
+      "targetMeaningZh": "在編織完成時收針"
+    },
+    {
+      "id": "phrasal-verb-241-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "When the message made him angry, he pushed the tablet to one side and left the room.",
+      "promptZh": "那則訊息令他生氣時,他把平板電腦推到一旁,然後離開房間。",
+      "starter": "When",
+      "answer": "When the message made him angry, he cast the tablet aside and left the room.",
+      "answerZh": "那則訊息令他生氣時,他把平板電腦扔到一旁,然後離開房間。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "With smoke blocking the main exit, the firefighters searched quickly for another way out.",
+      "promptZh": "濃煙封住主要出口時,消防員迅速尋找另一條出路。",
+      "starter": "With",
+      "answer": "With smoke blocking the main exit, the firefighters cast around for another way out.",
+      "answerZh": "濃煙封住主要出口時,消防員迅速尋找另一條出路。",
+      "highlight": "cast around",
+      "targetForm": "cast around for something",
+      "targetMeaningZh": "四處尋找或設法找出某物"
+    },
+    {
+      "id": "phrasal-verb-241-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although everyone was watching, Nina lowered her eyes and said nothing.",
+      "promptZh": "儘管所有人都在看着,妮娜仍垂下雙眼,一言不發。",
+      "starter": "Although",
+      "answer": "Although everyone was watching, Nina cast her eyes down and said nothing.",
+      "answerZh": "儘管所有人都在看着,妮娜仍垂下雙眼,一言不發。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The group had welcomed him at first, but later forced him out of the club.",
+      "promptZh": "小組起初歡迎他,後來卻把他逐出會所。",
+      "starter": "The",
+      "answer": "The group had welcomed him at first, but later cast him out of the club.",
+      "answerZh": "小組起初歡迎他,後來卻把他逐出會所。",
+      "highlight": "cast",
+      "targetForm": "cast somebody out of something",
+      "targetMeaningZh": "把某人逐出某處或群體"
+    },
+    {
+      "id": "phrasal-verb-241-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Standing outside the old school, I remembered the day we first arrived.",
+      "promptZh": "站在舊校舍外,我回想起我們第一天到達的情景。",
+      "starter": "Standing",
+      "answer": "Standing outside the old school, I cast my mind back to the day we first arrived.",
+      "answerZh": "站在舊校舍外,我回想起我們第一天到達的情景。",
+      "highlight": "cast my mind back to",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "As soon as they reached the warm cabin, the hikers removed their wet outer clothes.",
+      "promptZh": "遠足人士一到達溫暖的小屋,便脫下濕透的外衣。",
+      "starter": "As",
+      "answer": "As soon as they reached the warm cabin, the hikers cast off their wet outer clothes.",
+      "answerZh": "遠足人士一到達溫暖的小屋,便脫下濕透的外衣。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-241-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "By morning, the sea had washed several large branches onto the beach.",
+      "promptZh": "到了早上,海水已把幾根大樹枝沖上沙灘。",
+      "starter": "By",
+      "answer": "By morning, the sea had cast several large branches up on the beach.",
+      "answerZh": "到了早上,海水已把幾根大樹枝沖上沙灘。",
+      "highlight": "cast",
+      "targetForm": "cast something up on something",
+      "targetMeaningZh": "把某物沖到岸上"
+    },
+    {
+      "id": "phrasal-verb-241-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before you begin the second glove, make thirty new stitches on the needle.",
+      "promptZh": "開始編織第二隻手套前,先在針上起三十針。",
+      "starter": "Before",
+      "answer": "Before you begin the second glove, cast on thirty new stitches.",
+      "answerZh": "開始編織第二隻手套前,先起三十針。",
+      "highlight": "cast on",
+      "targetForm": "cast something on",
+      "targetMeaningZh": "在開始編織時起針"
+    },
+    {
+      "id": "phrasal-verb-241-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "She treated their friendship as unimportant and rejected it as soon as life became busy.",
+      "promptZh": "生活一變得忙碌,她便不再重視並放棄了這段友誼。",
+      "starter": "She",
+      "answer": "She cast their friendship aside as soon as life became busy.",
+      "answerZh": "生活一變得忙碌,她便放棄了這段友誼。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "摒棄或放棄不再重視的事物"
+    },
+    {
+      "id": "phrasal-verb-241-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "He read the note twice, then impatiently put it to one side.",
+      "promptZh": "他把便條看了兩次,然後不耐煩地把它放到一旁。",
+      "starter": "He",
+      "answer": "He read the note twice, then impatiently cast it aside.",
+      "answerZh": "他把便條看了兩次,然後不耐煩地把它放到一旁。",
+      "highlight": "cast",
+      "targetForm": "cast something aside",
+      "targetMeaningZh": "把某物扔到或放到一旁"
+    },
+    {
+      "id": "phrasal-verb-241-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "To explain why the song mattered, the singer thought about her childhood again.",
+      "promptZh": "為了解釋這首歌為何重要,歌手再次回想自己的童年。",
+      "starter": "To",
+      "answer": "To explain why the song mattered, the singer cast her mind back to her childhood.",
+      "answerZh": "為了解釋這首歌為何重要,歌手回想起自己的童年。",
+      "highlight": "cast her mind back to",
+      "targetForm": "cast your mind back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-241-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "When the head teacher asked about the broken window, the two boys lowered their eyes in silence.",
+      "promptZh": "校長問及破窗時,兩名男孩沉默地垂下雙眼。",
+      "starter": "When",
+      "answer": "When the head teacher asked about the broken window, the two boys cast their eyes down in silence.",
+      "answerZh": "校長問及破窗時,兩名男孩沉默地垂下雙眼。",
+      "highlight": "cast",
+      "targetForm": "cast something down",
+      "targetMeaningZh": "垂低眼睛或視線"
+    },
+    {
+      "id": "phrasal-verb-241-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The dancers quickly removed their long coats before the show began.",
+      "promptZh": "表演開始前,舞蹈員迅速脫下長外套。",
+      "starter": "The",
+      "answer": "The dancers quickly cast off their long coats before the show began.",
+      "answerZh": "表演開始前,舞蹈員迅速脫下長外套。",
+      "highlight": "cast off",
+      "targetForm": "cast something off",
+      "targetMeaningZh": "脫下衣物"
+    }
+  ]
+}

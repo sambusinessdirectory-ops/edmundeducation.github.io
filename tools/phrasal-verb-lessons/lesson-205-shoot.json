@@ -1,0 +1,1684 @@
+{
+  "id": "phrasal-verb-205",
+  "order": 205,
+  "slug": "shoot",
+  "version": "1",
+  "title": "SHOOT 動詞片語",
+  "titleEn": "Shoot",
+  "titleZh": "SHOOT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 203 - SHOOT.pdf",
+    "sourceNumber": 203,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHOOT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHOOT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHOOT",
+      "highlight": "SHOOT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The army shot the drone down.",
+      "zh": "軍隊開槍擊落了那架無人機。",
+      "highlight": "shot the drone down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The guard shot the lock off the door.",
+      "zh": "守衞開槍把門鎖打掉。",
+      "highlight": "shot the lock off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They are shooting for another victory this season.",
+      "zh": "他們今季正力爭再勝一場。",
+      "highlight": "shooting for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物；開槍把某物打掉；力爭某個結果;以某事物為目標；匆匆離開,通常因為要趕往另一個地方；突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。；急升;迅速增加；向某人或某物連開多槍,使其受傷或受損",
+    "en": "shoot somebody/something down; shoot something off; shoot for something; shoot off; shoot through; shoot up; shoot somebody/something up",
+    "naturalZh": [
+      "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+      "開槍把某物打掉",
+      "力爭某個結果;以某事物為目標",
+      "匆匆離開,通常因為要趕往另一個地方",
+      "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+      "急升;迅速增加",
+      "向某人或某物連開多槍,使其受傷或受損"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "shoot somebody/something down",
+      "titleZh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+      "titleEn": "shoot somebody/something down",
+      "descriptionZh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+      "descriptionEn": "The army shot the drone down.",
+      "examples": [
+        {
+          "en": "The army shot the drone down.",
+          "zh": "軍隊開槍擊落了那架無人機。",
+          "highlight": "shot the drone down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shoot something off",
+      "titleZh": "開槍把某物打掉",
+      "titleEn": "shoot something off",
+      "descriptionZh": "開槍把某物打掉",
+      "descriptionEn": "The guard shot the lock off the door.",
+      "examples": [
+        {
+          "en": "The guard shot the lock off the door.",
+          "zh": "守衞開槍把門鎖打掉。",
+          "highlight": "shot the lock off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shoot for something",
+      "titleZh": "力爭某個結果;以某事物為目標",
+      "titleEn": "shoot for something",
+      "descriptionZh": "力爭某個結果;以某事物為目標",
+      "descriptionEn": "They are shooting for another victory this season.",
+      "examples": [
+        {
+          "en": "They are shooting for another victory this season.",
+          "zh": "他們今季正力爭再勝一場。",
+          "highlight": "shooting for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shoot off",
+      "titleZh": "匆匆離開,通常因為要趕往另一個地方",
+      "titleEn": "shoot off",
+      "descriptionZh": "匆匆離開,通常因為要趕往另一個地方",
+      "descriptionEn": "I have to shoot off to catch my train.",
+      "examples": [
+        {
+          "en": "I have to shoot off to catch my train.",
+          "zh": "我得趕快離開去乘火車。",
+          "highlight": "shoot off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shoot through",
+      "titleZh": "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+      "titleEn": "shoot through",
+      "descriptionZh": "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+      "descriptionEn": "He shot through without saying goodbye.",
+      "examples": [
+        {
+          "en": "He shot through without saying goodbye.",
+          "zh": "他沒有道別便突然離開了。",
+          "highlight": "shot through"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shoot up",
+      "titleZh": "急升;迅速增加",
+      "titleEn": "shoot up",
+      "descriptionZh": "急升;迅速增加",
+      "descriptionEn": "Food prices have shot up.",
+      "examples": [
+        {
+          "en": "Food prices have shot up.",
+          "zh": "食品價格急升了。",
+          "highlight": "shot up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "shoot somebody/something up",
+      "titleZh": "向某人或某物連開多槍,使其受傷或受損",
+      "titleEn": "shoot somebody/something up",
+      "descriptionZh": "向某人或某物連開多槍,使其受傷或受損",
+      "descriptionEn": "The gang shot up the empty building.",
+      "examples": [
+        {
+          "en": "The gang shot up the empty building.",
+          "zh": "(那幫人向空置大樓連開多槍。)────────────────────────",
+          "highlight": "shot up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHOOT 片語動詞的實際用途",
+    "labelEn": "SHOOT Phrasal Verbs in Use",
+    "summaryZh": "shoot for something 可以自然地表達某人希望取得的結果、分數或名次。；shoot off 和 shoot through 可以描述迅速離開;shoot up 則可以描述價格、數字或水平急升。；shoot down、shoot something off 和 shoot something up 常見於涉及槍擊的報道和故事。；shoot up 可以表示急升或槍擊;shoot off 和 shoot through 都與離開有關,但一般用於不同情境。────────────────────────",
+    "summaryEn": "Shoot for something lets you talk naturally about the result, score or position that someone hopes to achieve. Shoot off and shoot through describe people leaving quickly, while shoot up describes prices, numbers or levels rising very fast. Shoot down, shoot something off and shoot something up often appear in reports and stories involving gunfire. Shoot up may describe a sudden increase or an armed attack. Shoot off and shoot through both involve leaving, but they are normally used in different situations.",
+    "contextsZh": [
+      "使用 SHOOT 談論目標,而不一定與槍械有關",
+      "描述突然離開和突然變化",
+      "理解動作故事和新聞報道",
+      "避免混淆外形相近的表達"
+    ],
+    "contextsEn": [
+      "Use SHOOT to talk about goals without referring to guns",
+      "Describe sudden movement and sudden change",
+      "Understand action stories and news reports",
+      "Avoid confusing expressions that look similar"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHOOT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHOOT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "shoot somebody/something down",
+    "fixedHighlight": "shoot somebody/something down",
+    "fixedZh": "閱讀整句,選出意思相同的 SHOOT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHOOT expression that gives the same meaning.",
+    "correct": "shot the drone down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；shoot up 可以表示數字或價格急升,也可以表示向某人或某物連開多槍。請仔細閱讀整個情境。────────────────────────",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: shoot it down shoot it off shoot them up Shoot up has two very different meanings: Prices shot up. The attackers shot the car up.",
+    "variableItemsZh": [
+      "shoot somebody/something down",
+      "shoot something off",
+      "shoot for something",
+      "shoot off",
+      "shoot through",
+      "shoot up",
+      "shoot somebody/something up"
+    ],
+    "variableItemsEn": [
+      "shoot somebody/something down",
+      "shoot something off",
+      "shoot for something",
+      "shoot off",
+      "shoot through",
+      "shoot up",
+      "shoot somebody/something up"
+    ],
+    "forms": [
+      {
+        "formZh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+        "formEn": "shoot somebody/something down",
+        "exampleZh": "軍隊開槍擊落了那架無人機。",
+        "exampleEn": "The army shot the drone down.",
+        "highlight": "shot the drone down"
+      },
+      {
+        "formZh": "開槍把某物打掉",
+        "formEn": "shoot something off",
+        "exampleZh": "守衞開槍把門鎖打掉。",
+        "exampleEn": "The guard shot the lock off the door.",
+        "highlight": "shot the lock off"
+      },
+      {
+        "formZh": "力爭某個結果;以某事物為目標",
+        "formEn": "shoot for something",
+        "exampleZh": "他們今季正力爭再勝一場。",
+        "exampleEn": "They are shooting for another victory this season.",
+        "highlight": "shooting for"
+      },
+      {
+        "formZh": "匆匆離開,通常因為要趕往另一個地方",
+        "formEn": "shoot off",
+        "exampleZh": "我得趕快離開去乘火車。",
+        "exampleEn": "I have to shoot off to catch my train.",
+        "highlight": "shoot off"
+      },
+      {
+        "formZh": "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+        "formEn": "shoot through",
+        "exampleZh": "他沒有道別便突然離開了。",
+        "exampleEn": "He shot through without saying goodbye.",
+        "highlight": "shot through"
+      },
+      {
+        "formZh": "急升;迅速增加",
+        "formEn": "shoot up",
+        "exampleZh": "食品價格急升了。",
+        "exampleEn": "Food prices have shot up.",
+        "highlight": "shot up"
+      },
+      {
+        "formZh": "向某人或某物連開多槍,使其受傷或受損",
+        "formEn": "shoot somebody/something up",
+        "exampleZh": "(那幫人向空置大樓連開多槍。)────────────────────────",
+        "exampleEn": "The gang shot up the empty building.",
+        "highlight": "shot up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+      "titleEn": "shoot somebody/something down",
+      "formula": "shoot somebody/something down",
+      "highlight": "shoot somebody/something down",
+      "descriptionZh": "開槍射殺某人;開槍擊落飛機、無人機或其他飛行物",
+      "descriptionEn": "The army shot the drone down.",
+      "examples": [
+        {
+          "en": "The army shot the drone down.",
+          "zh": "軍隊開槍擊落了那架無人機。",
+          "highlight": "shot the drone down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "開槍把某物打掉",
+      "titleEn": "shoot something off",
+      "formula": "shoot something off",
+      "highlight": "shoot something off",
+      "descriptionZh": "開槍把某物打掉",
+      "descriptionEn": "The guard shot the lock off the door.",
+      "examples": [
+        {
+          "en": "The guard shot the lock off the door.",
+          "zh": "守衞開槍把門鎖打掉。",
+          "highlight": "shot the lock off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "力爭某個結果;以某事物為目標",
+      "titleEn": "shoot for something",
+      "formula": "shoot for something",
+      "highlight": "shoot for something",
+      "descriptionZh": "力爭某個結果;以某事物為目標",
+      "descriptionEn": "They are shooting for another victory this season.",
+      "examples": [
+        {
+          "en": "They are shooting for another victory this season.",
+          "zh": "他們今季正力爭再勝一場。",
+          "highlight": "shooting for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "匆匆離開,通常因為要趕往另一個地方",
+      "titleEn": "shoot off",
+      "formula": "shoot off",
+      "highlight": "shoot off",
+      "descriptionZh": "匆匆離開,通常因為要趕往另一個地方",
+      "descriptionEn": "I have to shoot off to catch my train.",
+      "examples": [
+        {
+          "en": "I have to shoot off to catch my train.",
+          "zh": "我得趕快離開去乘火車。",
+          "highlight": "shoot off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+      "titleEn": "shoot through",
+      "formula": "shoot through",
+      "highlight": "shoot through",
+      "descriptionZh": "突然離開;一走了之此用法較為非正式,常見於澳洲及紐西蘭英語。",
+      "descriptionEn": "He shot through without saying goodbye.",
+      "examples": [
+        {
+          "en": "He shot through without saying goodbye.",
+          "zh": "他沒有道別便突然離開了。",
+          "highlight": "shot through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "急升;迅速增加",
+      "titleEn": "shoot up",
+      "formula": "shoot up",
+      "highlight": "shoot up",
+      "descriptionZh": "急升;迅速增加",
+      "descriptionEn": "Food prices have shot up.",
+      "examples": [
+        {
+          "en": "Food prices have shot up.",
+          "zh": "食品價格急升了。",
+          "highlight": "shot up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "向某人或某物連開多槍,使其受傷或受損",
+      "titleEn": "shoot somebody/something up",
+      "formula": "shoot somebody/something up",
+      "highlight": "shoot somebody/something up",
+      "descriptionZh": "向某人或某物連開多槍,使其受傷或受損",
+      "descriptionEn": "The gang shot up the empty building.",
+      "examples": [
+        {
+          "en": "The gang shot up the empty building.",
+          "zh": "(那幫人向空置大樓連開多槍。)────────────────────────",
+          "highlight": "shot up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 SHOOT 談論目標,而不一定與槍械有關",
+      "titleEn": "Use SHOOT to talk about goals without referring to guns",
+      "zh": "shoot for something 可以自然地表達某人希望取得的結果、分數或名次。",
+      "en": "Shoot for something lets you talk naturally about the result, score or position that someone hopes to achieve."
+    },
+    {
+      "titleZh": "描述突然離開和突然變化",
+      "titleEn": "Describe sudden movement and sudden change",
+      "zh": "shoot off 和 shoot through 可以描述迅速離開;shoot up 則可以描述價格、數字或水平急升。",
+      "en": "Shoot off and shoot through describe people leaving quickly, while shoot up describes prices, numbers or levels rising very fast."
+    },
+    {
+      "titleZh": "理解動作故事和新聞報道",
+      "titleEn": "Understand action stories and news reports",
+      "zh": "shoot down、shoot something off 和 shoot something up 常見於涉及槍擊的報道和故事。",
+      "en": "Shoot down, shoot something off and shoot something up often appear in reports and stories involving gunfire."
+    },
+    {
+      "titleZh": "避免混淆外形相近的表達",
+      "titleEn": "Avoid confusing expressions that look similar",
+      "zh": "shoot up 可以表示急升或槍擊;shoot off 和 shoot through 都與離開有關,但一般用於不同情境。────────────────────────",
+      "en": "Shoot up may describe a sudden increase or an armed attack. Shoot off and shoot through both involve leaving, but they are normally used in different situations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 SHOOT 談論目標,而不一定與槍械有關",
+      "描述突然離開和突然變化",
+      "理解動作故事和新聞報道",
+      "避免混淆外形相近的表達"
+    ],
+    "contextsEn": [
+      "Use SHOOT to talk about goals without referring to guns",
+      "Describe sudden movement and sudden change",
+      "Understand action stories and news reports",
+      "Avoid confusing expressions that look similar"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 SHOOT 談論目標,而不一定與槍械有關",
+        "titleEn": "Use SHOOT to talk about goals without referring to guns",
+        "zh": "shoot for something 可以自然地表達某人希望取得的結果、分數或名次。",
+        "en": "Shoot for something lets you talk naturally about the result, score or position that someone hopes to achieve.",
+        "examples": [
+          {
+            "en": "The army shot the drone down.",
+            "zh": "軍隊開槍擊落了那架無人機。",
+            "highlight": "shot the drone down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然離開和突然變化",
+        "titleEn": "Describe sudden movement and sudden change",
+        "zh": "shoot off 和 shoot through 可以描述迅速離開;shoot up 則可以描述價格、數字或水平急升。",
+        "en": "Shoot off and shoot through describe people leaving quickly, while shoot up describes prices, numbers or levels rising very fast.",
+        "examples": [
+          {
+            "en": "The guard shot the lock off the door.",
+            "zh": "守衞開槍把門鎖打掉。",
+            "highlight": "shot the lock off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解動作故事和新聞報道",
+        "titleEn": "Understand action stories and news reports",
+        "zh": "shoot down、shoot something off 和 shoot something up 常見於涉及槍擊的報道和故事。",
+        "en": "Shoot down, shoot something off and shoot something up often appear in reports and stories involving gunfire.",
+        "examples": [
+          {
+            "en": "They are shooting for another victory this season.",
+            "zh": "他們今季正力爭再勝一場。",
+            "highlight": "shooting for"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免混淆外形相近的表達",
+        "titleEn": "Avoid confusing expressions that look similar",
+        "zh": "shoot up 可以表示急升或槍擊;shoot off 和 shoot through 都與離開有關,但一般用於不同情境。────────────────────────",
+        "en": "Shoot up may describe a sudden increase or an armed attack. Shoot off and shoot through both involve leaving, but they are normally used in different situations.",
+        "examples": [
+          {
+            "en": "I have to shoot off to catch my train.",
+            "zh": "我得趕快離開去乘火車。",
+            "highlight": "shoot off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHOOT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHOOT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHOOT 片語動詞。",
+      "en": "Read the whole sentence and choose the SHOOT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: shoot it down shoot it off shoot them up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: shoot it down shoot it off shoot them up"
+    },
+    {
+      "titleZh": "shoot up 可以表示數字或價格急升,也可以表示向某人或某物連開多槍。請仔細閱讀整個情境。────────────────────────",
+      "titleEn": "Shoot up has two very different meanings: Prices shot up.",
+      "zh": "shoot up 可以表示數字或價格急升,也可以表示向某人或某物連開多槍。請仔細閱讀整個情境。────────────────────────",
+      "en": "Shoot up has two very different meanings: Prices shot up. The attackers shot the car up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHOOT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHOOT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHOOT 動詞片語句子改寫練習",
+    "titleEn": "SHOOT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHOOT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHOOT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-205-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The soldiers used gunfire to make the enemy drone fall.",
+      "promptZh": "士兵開槍令敵方無人機墜落。",
+      "starter": "The",
+      "answer": "The soldiers shot the enemy drone down.",
+      "answerZh": "士兵開槍擊落了敵方無人機。",
+      "highlight": "shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "They are trying to win another match this season.",
+      "promptZh": "他們今季正努力爭取再勝一場。",
+      "starter": "They",
+      "answer": "They are shooting for another victory this season.",
+      "answerZh": "他們今季正力爭再勝一場。",
+      "highlight": "shooting for",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The inflation rate has risen very quickly to 20%.",
+      "promptZh": "通脹率已急升至20%。",
+      "starter": "The",
+      "answer": "The inflation rate has shot up to 20%.",
+      "answerZh": "通脹率已急升至20%。",
+      "highlight": "shot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "I have to leave quickly to meet someone.",
+      "promptZh": "我得趕快離開去見一個人。",
+      "starter": "I",
+      "answer": "I have to shoot off to meet someone.",
+      "answerZh": "我得趕快離開去見一個人。",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The guard fired at the lock and removed it from the door.",
+      "promptZh": "守衞向門鎖開槍,把它從門上打掉。",
+      "starter": "The",
+      "answer": "The guard shot the lock off the door.",
+      "answerZh": "守衞開槍把門鎖打掉。",
+      "highlight": "shot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "An armed gang fired many shots into the nightclub.",
+      "promptZh": "一個持械幫派向夜總會連開多槍。",
+      "starter": "An",
+      "answer": "An armed gang shot up the nightclub.",
+      "answerZh": "一個持械幫派向夜總會連開多槍。",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "My father suddenly left us when I was five.",
+      "promptZh": "我五歲時,父親突然離開了我們。",
+      "starter": "My",
+      "answer": "My father shot through when I was five.",
+      "answerZh": "我五歲時,父親突然離開了我們。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Our class is aiming for an average score of 85.",
+      "promptZh": "我們班正以平均85分為目標。",
+      "starter": "Our",
+      "answer": "Our class is shooting for an average score of 85.",
+      "answerZh": "我們班正以平均85分為目標。",
+      "highlight": "shooting",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The officer fired once and removed the chain from the gate with the bullet.",
+      "promptZh": "警員開了一槍,把閘門上的鐵鏈打掉。",
+      "starter": "The",
+      "answer": "The officer fired once and shot the chain off the gate.",
+      "answerZh": "警員開了一槍,把閘門上的鐵鏈打掉。",
+      "highlight": "shot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She left quickly after lunch because she had another meeting.",
+      "promptZh": "她午飯後匆匆離開,因為還要出席另一個會議。",
+      "starter": "She",
+      "answer": "She shot off after lunch because she had another meeting.",
+      "answerZh": "她午飯後匆匆離開,因為還要出席另一個會議。",
+      "highlight": "shot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The two men were killed by gunfire in cold blood.",
+      "promptZh": "兩名男子遭人冷血槍殺。",
+      "starter": "The",
+      "answer": "The two men were shot down in cold blood.",
+      "answerZh": "兩名男子遭人冷血射殺。",
+      "highlight": "shot down",
+      "targetForm": "shoot somebody down",
+      "targetMeaningZh": "開槍射殺某人"
+    },
+    {
+      "id": "phrasal-verb-205-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The driver suddenly left without paying for the petrol.",
+      "promptZh": "司機沒有支付汽油費便突然離開。",
+      "starter": "The",
+      "answer": "The driver shot through without paying for the petrol.",
+      "answerZh": "司機沒有支付汽油費便突然離開。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "House prices rose very quickly after the new station opened.",
+      "promptZh": "新車站啟用後,樓價急升。",
+      "starter": "House",
+      "answer": "House prices shot up after the new station opened.",
+      "answerZh": "新車站啟用後,樓價急升。",
+      "highlight": "shot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The attackers fired many bullets into the parked car.",
+      "promptZh": "襲擊者向停泊的汽車連開多槍。",
+      "starter": "The",
+      "answer": "The attackers shot up the parked car.",
+      "answerZh": "襲擊者向停泊的汽車連開多槍。",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Food prices are rising very quickly this month.",
+      "promptZh": "本月食品價格正在急升。",
+      "starter": "Food",
+      "answer": "Food prices are shooting up this month.",
+      "answerZh": "本月食品價格正在急升。",
+      "highlight": "shooting up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The pilots have destroyed three drones in the air with gunfire.",
+      "promptZh": "機師已在空中開槍擊落三架無人機。",
+      "starter": "The",
+      "answer": "The pilots have shot three drones down.",
+      "answerZh": "機師已開槍擊落三架無人機。",
+      "highlight": "shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why did Ben leave so quickly for his next class?",
+      "promptZh": "賓為甚麼匆匆離開去上下一堂課?",
+      "starter": "Why",
+      "answer": "Why did Ben shoot off so quickly for his next class?",
+      "answerZh": "賓為甚麼匆匆離開去上下一堂課?",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The shop was badly damaged when someone fired many shots at it.",
+      "promptZh": "有人向店舖連開多槍,令店舖嚴重受損。",
+      "starter": "The",
+      "answer": "The shop was shot up.",
+      "answerZh": "店舖遭人連開多槍,嚴重受損。",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "You should aim for a place in the top three.",
+      "promptZh": "你應該力爭前三名。",
+      "starter": "You",
+      "answer": "You should shoot for a place in the top three.",
+      "answerZh": "你應該力爭前三名。",
+      "highlight": "shoot",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why did the guest suddenly leave without saying goodbye?",
+      "promptZh": "那名賓客為甚麼沒有道別便突然離開?",
+      "starter": "Why",
+      "answer": "Why did the guest shoot through without saying goodbye?",
+      "answerZh": "那名賓客為甚麼沒有道別便突然離開?",
+      "highlight": "shoot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "They have removed the padlock from the gate with a gunshot.",
+      "promptZh": "他們已開槍把閘門上的掛鎖打掉。",
+      "starter": "They",
+      "answer": "They have shot the padlock off the gate.",
+      "answerZh": "他們已開槍把閘門上的掛鎖打掉。",
+      "highlight": "shot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The tenant has suddenly left and taken all his things.",
+      "promptZh": "租客已突然離開,並帶走了所有物品。",
+      "starter": "The",
+      "answer": "The tenant has shot through and taken all his things.",
+      "answerZh": "租客已突然離開,並帶走了所有物品。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "What result are the runners aiming for?",
+      "promptZh": "跑手正以甚麼成績為目標?",
+      "starter": "What",
+      "answer": "What result are the runners shooting for?",
+      "answerZh": "跑手正以甚麼成績為目標?",
+      "highlight": "shooting",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Can you use one shot to remove the handle from the box?",
+      "promptZh": "你能否用一槍把箱子的手柄打掉?",
+      "starter": "Can",
+      "answer": "Can you shoot the handle off the box with one shot?",
+      "answerZh": "你能否用一槍把箱子的手柄打掉?",
+      "highlight": "shoot the handle off the box with",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why has the cost of electricity risen so quickly?",
+      "promptZh": "電費為甚麼急升了?",
+      "starter": "Why",
+      "answer": "Why has the cost of electricity shot up?",
+      "answerZh": "電費為甚麼急升了?",
+      "highlight": "shot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Who fired many shots into the empty bus?",
+      "promptZh": "誰向那輛空置巴士連開多槍?",
+      "starter": "Who",
+      "answer": "Who shot up the empty bus?",
+      "answerZh": "誰向那輛空置巴士連開多槍?",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Could the defence team destroy the missile in the air with gunfire?",
+      "promptZh": "防衞隊能否在空中開槍摧毀導彈?",
+      "starter": "Could",
+      "answer": "Could the defence team shoot the missile down?",
+      "answerZh": "防衞隊能否在空中開槍擊落導彈?",
+      "highlight": "shoot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "I am leaving now because my train is due soon.",
+      "promptZh": "我現在要匆匆離開,因為火車快到了。",
+      "starter": "I",
+      "answer": "I am shooting off now because my train is due soon.",
+      "answerZh": "我現在要匆匆離開,因為火車快到了。",
+      "highlight": "shooting off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The lock was removed from the door by a gunshot.",
+      "promptZh": "門鎖被一槍從門上打掉。",
+      "starter": "The",
+      "answer": "The lock was shot off the door.",
+      "answerZh": "門鎖被一槍從門上打掉。",
+      "highlight": "shot off",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Sales could rise very quickly if the video becomes popular.",
+      "promptZh": "如果影片受到歡迎,銷量可能會急升。",
+      "starter": "Sales",
+      "answer": "Sales could shoot up if the video becomes popular.",
+      "answerZh": "如果影片受到歡迎,銷量可能會急升。",
+      "highlight": "shoot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "He may suddenly leave before anyone can question him.",
+      "promptZh": "他可能會在任何人能夠盤問他之前突然離開。",
+      "starter": "He",
+      "answer": "He may shoot through before anyone can question him.",
+      "answerZh": "他可能會在任何人能夠盤問他之前突然離開。",
+      "highlight": "shoot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The coach wants us to aim for ten wins this year.",
+      "promptZh": "教練希望我們今年力爭十場勝仗。",
+      "starter": "The",
+      "answer": "The coach wants us to shoot for ten wins this year.",
+      "answerZh": "教練希望我們今年力爭十場勝仗。",
+      "highlight": "shoot",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The plane was brought down by gunfire before it reached the coast.",
+      "promptZh": "飛機在抵達海岸前被炮火擊落。",
+      "starter": "The",
+      "answer": "The plane was shot down before it reached the coast.",
+      "answerZh": "飛機在抵達海岸前被炮火擊落。",
+      "highlight": "shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We need to leave quickly before the roads get busy.",
+      "promptZh": "我們要在道路變得繁忙前趕快離開。",
+      "starter": "We",
+      "answer": "We need to shoot off before the roads get busy.",
+      "answerZh": "我們要在道路變得繁忙前趕快離開。",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The gang threatened to fire many shots into the place.",
+      "promptZh": "那幫人威脅要向該處連開多槍。",
+      "starter": "The",
+      "answer": "The gang threatened to shoot the place up.",
+      "answerZh": "那幫人威脅要向該處連開多槍。",
+      "highlight": "shoot",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "They tried to destroy it in the air, but they missed.",
+      "promptZh": "他們嘗試在空中將它擊落,但沒有擊中。",
+      "starter": "They",
+      "answer": "They tried to shoot it down, but they missed.",
+      "answerZh": "他們嘗試在空中將它擊落,但沒有擊中。",
+      "highlight": "shoot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The attackers found the car and fired many shots into it.",
+      "promptZh": "襲擊者找到那輛汽車,並向它連開多槍。",
+      "starter": "The",
+      "answer": "The attackers found the car and shot it up.",
+      "answerZh": "襲擊者找到那輛汽車,並向它連開多槍。",
+      "highlight": "shot",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Finish your drink, and then you can leave quickly.",
+      "promptZh": "喝完飲品後,你便可以趕快離開。",
+      "starter": "Finish",
+      "answer": "Finish your drink, and then you can shoot off.",
+      "answerZh": "喝完飲品後,你便可以趕快離開。",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The metal tag was hanging from the post. They removed it with a single shot.",
+      "promptZh": "金屬牌掛在柱上。他們用一槍把它打掉。",
+      "starter": "The",
+      "answer": "The metal tag was hanging from the post. They shot it off with a single shot.",
+      "answerZh": "金屬牌掛在柱上。他們用一槍把它打掉。",
+      "highlight": "shot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We expect ticket demand to rise very quickly next week.",
+      "promptZh": "我們預計下星期門票需求會急升。",
+      "starter": "We",
+      "answer": "We expect ticket demand to shoot up next week.",
+      "answerZh": "我們預計下星期門票需求會急升。",
+      "highlight": "shoot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Even if winning gold is difficult, she is aiming for a medal.",
+      "promptZh": "即使奪金十分困難,她仍以獎牌為目標。",
+      "starter": "Even",
+      "answer": "Even if winning gold is difficult, she is shooting for a medal.",
+      "answerZh": "即使奪金十分困難,她仍以獎牌為目標。",
+      "highlight": "shooting",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The band decided to leave suddenly after the argument without telling the organiser.",
+      "promptZh": "樂隊在爭執後決定不通知主辦人便突然離開。",
+      "starter": "The",
+      "answer": "The band decided to shoot through after the argument without telling the organiser.",
+      "answerZh": "樂隊在爭執後決定不通知主辦人便突然離開。",
+      "highlight": "shoot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The company is aiming for sales of 10,000 phones this month.",
+      "promptZh": "公司本月的目標是售出一萬部手機。",
+      "starter": "The",
+      "answer": "The company is shooting for sales of 10,000 phones this month.",
+      "answerZh": "公司本月的目標是售出一萬部手機。",
+      "highlight": "shooting",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The van had been badly damaged by many bullets and was left beside the road.",
+      "promptZh": "客貨車被多發子彈嚴重破壞,並被遺棄在路旁。",
+      "starter": "The",
+      "answer": "The van, which had been shot up, was left beside the road.",
+      "answerZh": "遭多發子彈嚴重破壞的客貨車被遺棄在路旁。",
+      "highlight": "which",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The helicopter that enemy fire brought down landed in a field.",
+      "promptZh": "被敵方炮火擊落的直升機降落在田野上。",
+      "starter": "The",
+      "answer": "The helicopter that was shot down landed in a field.",
+      "answerZh": "被敵方炮火擊落的直升機降落在田野上。",
+      "highlight": "was shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the police car appeared, the thief suddenly fled from the area.",
+      "promptZh": "警車一出現,小偷便突然逃離該區。",
+      "starter": "As",
+      "answer": "As soon as the police car appeared, the thief shot through.",
+      "answerZh": "警車一出現,小偷便突然逃離該區。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;逃走"
+    },
+    {
+      "id": "phrasal-verb-205-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "After the singer shared the post, the number of views rose from 500 to 20,000 in one day.",
+      "promptZh": "歌手分享帖文後,觀看次數在一天內由500急升至20,000。",
+      "starter": "After",
+      "answer": "After the singer shared the post, the number of views shot up from 500 to 20,000 in one day.",
+      "answerZh": "歌手分享帖文後,觀看次數在一天內由500急升至20,000。",
+      "highlight": "shot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Who removed the sign from its post by shooting it?",
+      "promptZh": "誰開槍把路牌從柱上打掉?",
+      "starter": "Who",
+      "answer": "Who shot the sign off its post?",
+      "answerZh": "誰開槍把路牌從柱上打掉?",
+      "highlight": "shot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the final bell rang, Jay left quickly for football practice.",
+      "promptZh": "最後一下鐘聲響起後,杰便匆匆離開去參加足球訓練。",
+      "starter": "As",
+      "answer": "As soon as the final bell rang, Jay shot off for football practice.",
+      "answerZh": "最後一下鐘聲響起後,杰便匆匆離開去參加足球訓練。",
+      "highlight": "shot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The police may have to remove the lock with a gunshot to open the gate.",
+      "promptZh": "警方可能要開槍打掉門鎖,才能打開閘門。",
+      "starter": "The",
+      "answer": "The police may have to shoot the lock off to open the gate.",
+      "answerZh": "警方可能要開槍打掉門鎖,才能打開閘門。",
+      "highlight": "shoot",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "By the time I arrived, they had already left in a hurry to catch the last bus.",
+      "promptZh": "我到達時,他們已匆匆離開去乘搭尾班巴士。",
+      "starter": "By",
+      "answer": "By the time I arrived, they had already shot off to catch the last bus.",
+      "answerZh": "我到達時,他們已匆匆離開去乘搭尾班巴士。",
+      "highlight": "shot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "As temperatures rose very quickly, the school moved sports practice indoors.",
+      "promptZh": "由於氣溫急升,學校把體育訓練移到室內進行。",
+      "starter": "As",
+      "answer": "As temperatures were shooting up, the school moved sports practice indoors.",
+      "answerZh": "由於氣溫急升,學校把體育訓練移到室內進行。",
+      "highlight": "were shooting up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We may not break the record, but that is still our goal.",
+      "promptZh": "我們未必能打破紀錄,但這仍然是我們的目標。",
+      "starter": "We",
+      "answer": "We may not break the record, but we are still shooting for it.",
+      "answerZh": "我們未必能打破紀錄,但這仍然是我們的目標。",
+      "highlight": "not break the record, but we are",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After they fired many shots into the building, they drove away.",
+      "promptZh": "他們向大樓連開多槍後駕車離開。",
+      "starter": "After",
+      "answer": "After they shot up the building, they drove away.",
+      "answerZh": "他們向大樓連開多槍後駕車離開。",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not leave suddenly without telling the rest of the team.",
+      "promptZh": "不要不通知其他隊員便突然離開。",
+      "starter": "Do",
+      "answer": "Do not shoot through without telling the rest of the team.",
+      "answerZh": "不要不通知其他隊員便突然離開。",
+      "highlight": "shoot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Was the small aircraft destroyed in the air by gunfire?",
+      "promptZh": "那架小型飛機是否被炮火擊落?",
+      "starter": "Was",
+      "answer": "Was the small aircraft shot down?",
+      "answerZh": "那架小型飛機是否被炮火擊落?",
+      "highlight": "shot down",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The owner came to collect the rent, but the young man had already left without warning.",
+      "promptZh": "業主前來收租,但那名年輕男子早已不辭而別。",
+      "starter": "The",
+      "answer": "The owner came to collect the rent, but the young man had already shot through.",
+      "answerZh": "業主前來收租,但那名年輕男子早已不辭而別。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the padlock had been removed from the door with a shot, the rescue team entered the room.",
+      "promptZh": "掛鎖被一槍從門上打掉後,救援隊進入房間。",
+      "starter": "After",
+      "answer": "After the padlock had been shot off the door, the rescue team entered the room.",
+      "answerZh": "掛鎖被一槍從門上打掉後,救援隊進入房間。",
+      "highlight": "shot off",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After finishing second twice, the team has decided that its goal this season is first place.",
+      "promptZh": "兩次取得第二名後,球隊決定今季以第一名為目標。",
+      "starter": "After",
+      "answer": "After finishing second twice, the team has decided to shoot for first place this season.",
+      "answerZh": "兩次取得第二名後,球隊決定今季力爭第一名。",
+      "highlight": "to shoot for first place",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The price had stayed low for months, but it rose very quickly after supplies became limited.",
+      "promptZh": "價格維持低位數月,但供應減少後便急升。",
+      "starter": "The",
+      "answer": "The price had stayed low for months, but it shot up after supplies became limited.",
+      "answerZh": "價格維持低位數月,但供應減少後便急升。",
+      "highlight": "shot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    },
+    {
+      "id": "phrasal-verb-205-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "I will answer this last email and then leave quickly for the airport.",
+      "promptZh": "我會回覆這最後一封電郵,然後趕快離開前往機場。",
+      "starter": "I",
+      "answer": "I will answer this last email and then shoot off for the airport.",
+      "answerZh": "我會回覆這最後一封電郵,然後趕快離開前往機場。",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before the drone could reach the city centre, the army destroyed it in the air with gunfire.",
+      "promptZh": "無人機抵達市中心前,軍方已在空中開槍將它擊落。",
+      "starter": "Before",
+      "answer": "Before the drone could reach the city centre, the army shot it down.",
+      "answerZh": "無人機抵達市中心前,軍方已在空中開槍將它擊落。",
+      "highlight": "shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Police found a car that had been badly damaged by gunfire during the night.",
+      "promptZh": "警方發現一輛在夜間遭槍擊而嚴重受損的汽車。",
+      "starter": "Police",
+      "answer": "Police found a car that had been shot up during the night.",
+      "answerZh": "警方發現一輛在夜間遭人連開多槍的汽車。",
+      "highlight": "shot up",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before I leave, let me give you the door key.",
+      "promptZh": "我離開前,先把門匙交給你。",
+      "starter": "Before",
+      "answer": "Before I shoot off, let me give you the door key.",
+      "answerZh": "我匆匆離開前,先把門匙交給你。",
+      "highlight": "shoot off",
+      "targetForm": "shoot off",
+      "targetMeaningZh": "匆匆離開"
+    },
+    {
+      "id": "phrasal-verb-205-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Reports say that another military plane has been brought down by gunfire near the border.",
+      "promptZh": "有報道指,另一架軍機在邊境附近被炮火擊落。",
+      "starter": "Reports",
+      "answer": "Reports say that another military plane has been shot down near the border.",
+      "answerZh": "有報道指,另一架軍機在邊境附近被炮火擊落。",
+      "highlight": "shot",
+      "targetForm": "shoot something down",
+      "targetMeaningZh": "開槍擊落某物"
+    },
+    {
+      "id": "phrasal-verb-205-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Everyone expected him to explain what happened, yet he suddenly disappeared before the meeting.",
+      "promptZh": "所有人都以為他會解釋事件,但他卻在會議前突然離開。",
+      "starter": "Everyone",
+      "answer": "Everyone expected him to explain what happened, yet he shot through before the meeting.",
+      "answerZh": "所有人都以為他會解釋事件,但他卻在會議前突然離開。",
+      "highlight": "shot through",
+      "targetForm": "shoot through",
+      "targetMeaningZh": "突然離開;一走了之"
+    },
+    {
+      "id": "phrasal-verb-205-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "In the film, the hero used one bullet to remove the rope from the hook.",
+      "promptZh": "在電影中,主角用一發子彈把繩索從掛鈎上打掉。",
+      "starter": "In",
+      "answer": "In the film, the hero shot the rope off the hook with one bullet.",
+      "answerZh": "在電影中,主角用一發子彈把繩索從掛鈎上打掉。",
+      "highlight": "shot the rope off the hook with",
+      "targetForm": "shoot something off",
+      "targetMeaningZh": "開槍把某物打掉"
+    },
+    {
+      "id": "phrasal-verb-205-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The club was closed after armed men fired many shots into it during the night.",
+      "promptZh": "持械男子在夜間向會所連開多槍後,會所被迫關閉。",
+      "starter": "The",
+      "answer": "The club was closed after armed men shot it up during the night.",
+      "answerZh": "持械男子在夜間向會所連開多槍後,會所被迫關閉。",
+      "highlight": "shot",
+      "targetForm": "shoot something up",
+      "targetMeaningZh": "向某物連開多槍"
+    },
+    {
+      "id": "phrasal-verb-205-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "If we complete the first stage early, we can aim for a June launch instead of July.",
+      "promptZh": "如果我們提早完成第一階段,便可以六月推出為目標,而不是七月。",
+      "starter": "If",
+      "answer": "If we complete the first stage early, we can shoot for a June launch instead of July.",
+      "answerZh": "如果我們提早完成第一階段,便可以六月推出為目標,而不是七月。",
+      "highlight": "shoot",
+      "targetForm": "shoot for something",
+      "targetMeaningZh": "力爭;以某事物為目標"
+    },
+    {
+      "id": "phrasal-verb-205-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Experts warn that rents may rise sharply again if more people move into the area.",
+      "promptZh": "專家警告,如果有更多人遷入該區,租金可能再次急升。",
+      "starter": "Experts",
+      "answer": "Experts warn that rents may shoot up again if more people move into the area.",
+      "answerZh": "專家警告,如果有更多人遷入該區,租金可能再次急升。",
+      "highlight": "shoot up",
+      "targetForm": "shoot up",
+      "targetMeaningZh": "急升;迅速增加"
+    }
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "id": "phrasal-verb-76",
+  "order": 76,
+  "slug": "fill",
+  "version": "1",
+  "title": "FILL 動詞片語",
+  "titleEn": "Fill",
+  "titleZh": "FILL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 75 - FILL.pdf",
+    "sourceNumber": 75,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FILL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FILL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FILL",
+      "highlight": "FILL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I can fill in today, and Leo can fill in for me tomorrow.",
+      "zh": "我今天可以代班,而 Leo 明天可以替我代班。",
+      "highlight": "fill in today, and Leo can fill in for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The baby has filled out a lot recently.",
+      "zh": "這名嬰兒最近豐滿了很多。",
+      "highlight": "filled out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I was away yesterday, so please fill me in.",
+      "zh": "我昨天不在,所以請告訴我發生了甚麼事。",
+      "highlight": "fill me in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "暫時代替某人工作;代班；身體變得較豐滿；告訴某人最新情況或所需資料；使某人或自己吃飽；填寫表格、空格或資料；加入細節,使故事、文章或描述更完整；變滿;把某物填滿",
+    "en": "fill in / fill in for somebody; fill out; fill somebody in / fill somebody in on something; fill somebody/yourself up; fill something in; fill something out; fill up / fill something up",
+    "naturalZh": [
+      "暫時代替某人工作;代班",
+      "身體變得較豐滿",
+      "告訴某人最新情況或所需資料",
+      "使某人或自己吃飽",
+      "填寫表格、空格或資料",
+      "加入細節,使故事、文章或描述更完整",
+      "變滿;把某物填滿"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fill in / fill in for somebody",
+      "titleZh": "暫時代替某人工作;代班",
+      "titleEn": "fill in / fill in for somebody",
+      "descriptionZh": "暫時代替某人工作;代班",
+      "descriptionEn": "I can fill in today, and Leo can fill in for me tomorrow.",
+      "examples": [
+        {
+          "en": "I can fill in today, and Leo can fill in for me tomorrow.",
+          "zh": "我今天可以代班,而 Leo 明天可以替我代班。",
+          "highlight": "fill in today, and Leo can fill in for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fill out",
+      "titleZh": "身體變得較豐滿",
+      "titleEn": "fill out",
+      "descriptionZh": "身體變得較豐滿",
+      "descriptionEn": "The baby has filled out a lot recently.",
+      "examples": [
+        {
+          "en": "The baby has filled out a lot recently.",
+          "zh": "這名嬰兒最近豐滿了很多。",
+          "highlight": "filled out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fill somebody in / fill somebody in on something",
+      "titleZh": "告訴某人最新情況或所需資料",
+      "titleEn": "fill somebody in / fill somebody in on something",
+      "descriptionZh": "告訴某人最新情況或所需資料",
+      "descriptionEn": "I was away yesterday, so please fill me in.",
+      "examples": [
+        {
+          "en": "I was away yesterday, so please fill me in.",
+          "zh": "我昨天不在,所以請告訴我發生了甚麼事。",
+          "highlight": "fill me in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fill somebody/yourself up",
+      "titleZh": "使某人或自己吃飽",
+      "titleEn": "fill somebody/yourself up",
+      "descriptionZh": "使某人或自己吃飽",
+      "descriptionEn": "This bowl of noodles will fill you up.",
+      "examples": [
+        {
+          "en": "This bowl of noodles will fill you up.",
+          "zh": "這碗麵會令你吃飽。",
+          "highlight": "fill you up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fill something in",
+      "titleZh": "填寫表格、空格或資料",
+      "titleEn": "fill something in",
+      "descriptionZh": "填寫表格、空格或資料",
+      "descriptionEn": "Please fill in this application form.",
+      "examples": [
+        {
+          "en": "Please fill in this application form.",
+          "zh": "請填寫這份申請表。",
+          "highlight": "fill in"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fill something out",
+      "titleZh": "加入細節,使故事、文章或描述更完整",
+      "titleEn": "fill something out",
+      "descriptionZh": "加入細節,使故事、文章或描述更完整",
+      "descriptionEn": "We added another scene to fill the story out.",
+      "examples": [
+        {
+          "en": "We added another scene to fill the story out.",
+          "zh": "我們加入了另一個場景,使故事更完整。",
+          "highlight": "fill the story out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fill up / fill something up",
+      "titleZh": "變滿;把某物填滿",
+      "titleEn": "fill up / fill something up",
+      "descriptionZh": "變滿;把某物填滿",
+      "descriptionEn": "The bus filled up with passengers.",
+      "examples": [
+        {
+          "en": "The bus filled up with passengers.",
+          "zh": "巴士坐滿了乘客。",
+          "highlight": "filled up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FILL 片語動詞的實際用途",
+    "labelEn": "FILL Phrasal Verbs in Use",
+    "summaryZh": "fill in for somebody 可以表示某人暫時代替另一個人工作;fill somebody in 則可以表示把某人錯過的資料告訴他。；你可以 fill in a form,表示填寫表格;也可以 fill out a short story,表示加入有用細節,使故事更完整。；談論正餐、小食或某人是否已吃飽時,可以使用 fill somebody up。；FILL 片語動詞可以描述人或動物變得豐滿、地方坐滿了人,或容器被裝滿。",
+    "summaryEn": "Fill in for somebody lets you explain that one person is temporarily doing another person’s job. Fill somebody in lets you give someone information they have missed. You can fill in a form or fill out a short story by adding useful details. Fill somebody up is useful when discussing meals, snacks and whether someone has eaten enough. The FILL family can describe a person or animal becoming fuller, a place becoming crowded, or a container being made full.",
+    "contextsZh": [
+      "談論臨時代班和錯過的資料",
+      "處理表格和擴充文章內容",
+      "描述食物帶來的飽足感",
+      "描述不同種類的「變滿」"
+    ],
+    "contextsEn": [
+      "Talk about temporary work and missing information",
+      "Deal with forms and develop pieces of writing",
+      "Describe how food makes people feel",
+      "Describe different kinds of fullness"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FILL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FILL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fill in / fill in for somebody",
+    "fixedHighlight": "fill in / fill in for somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 FILL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FILL expression that gives the same meaning.",
+    "correct": "fill in today, and Leo can fill in for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以下分別:fill in for a teacher = 暫時代替老師工作fill a teacher in = 把資料告訴老師；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the difference: fill in for a teacher = do the teacher’s work for a short time fill a teacher in = give the teacher information When using him, her, it or them, place the word as shown: fill her in fill it in fill him up fill it out fill it up",
+    "variableItemsZh": [
+      "fill in / fill in for somebody",
+      "fill out",
+      "fill somebody in / fill somebody in on something",
+      "fill somebody/yourself up",
+      "fill something in",
+      "fill something out",
+      "fill up / fill something up"
+    ],
+    "variableItemsEn": [
+      "fill in / fill in for somebody",
+      "fill out",
+      "fill somebody in / fill somebody in on something",
+      "fill somebody/yourself up",
+      "fill something in",
+      "fill something out",
+      "fill up / fill something up"
+    ],
+    "forms": [
+      {
+        "formZh": "暫時代替某人工作;代班",
+        "formEn": "fill in / fill in for somebody",
+        "exampleZh": "我今天可以代班,而 Leo 明天可以替我代班。",
+        "exampleEn": "I can fill in today, and Leo can fill in for me tomorrow.",
+        "highlight": "fill in today, and Leo can fill in for"
+      },
+      {
+        "formZh": "身體變得較豐滿",
+        "formEn": "fill out",
+        "exampleZh": "這名嬰兒最近豐滿了很多。",
+        "exampleEn": "The baby has filled out a lot recently.",
+        "highlight": "filled out"
+      },
+      {
+        "formZh": "告訴某人最新情況或所需資料",
+        "formEn": "fill somebody in / fill somebody in on something",
+        "exampleZh": "我昨天不在,所以請告訴我發生了甚麼事。",
+        "exampleEn": "I was away yesterday, so please fill me in.",
+        "highlight": "fill me in"
+      },
+      {
+        "formZh": "使某人或自己吃飽",
+        "formEn": "fill somebody/yourself up",
+        "exampleZh": "這碗麵會令你吃飽。",
+        "exampleEn": "This bowl of noodles will fill you up.",
+        "highlight": "fill you up"
+      },
+      {
+        "formZh": "填寫表格、空格或資料",
+        "formEn": "fill something in",
+        "exampleZh": "請填寫這份申請表。",
+        "exampleEn": "Please fill in this application form.",
+        "highlight": "fill in"
+      },
+      {
+        "formZh": "加入細節,使故事、文章或描述更完整",
+        "formEn": "fill something out",
+        "exampleZh": "我們加入了另一個場景,使故事更完整。",
+        "exampleEn": "We added another scene to fill the story out.",
+        "highlight": "fill the story out"
+      },
+      {
+        "formZh": "變滿;把某物填滿",
+        "formEn": "fill up / fill something up",
+        "exampleZh": "巴士坐滿了乘客。",
+        "exampleEn": "The bus filled up with passengers.",
+        "highlight": "filled up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "暫時代替某人工作;代班",
+      "titleEn": "fill in / fill in for somebody",
+      "formula": "fill in / fill in for somebody",
+      "highlight": "fill in / fill in for somebody",
+      "descriptionZh": "暫時代替某人工作;代班",
+      "descriptionEn": "I can fill in today, and Leo can fill in for me tomorrow.",
+      "examples": [
+        {
+          "en": "I can fill in today, and Leo can fill in for me tomorrow.",
+          "zh": "我今天可以代班,而 Leo 明天可以替我代班。",
+          "highlight": "fill in today, and Leo can fill in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "身體變得較豐滿",
+      "titleEn": "fill out",
+      "formula": "fill out",
+      "highlight": "fill out",
+      "descriptionZh": "身體變得較豐滿",
+      "descriptionEn": "The baby has filled out a lot recently.",
+      "examples": [
+        {
+          "en": "The baby has filled out a lot recently.",
+          "zh": "這名嬰兒最近豐滿了很多。",
+          "highlight": "filled out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "告訴某人最新情況或所需資料",
+      "titleEn": "fill somebody in / fill somebody in on something",
+      "formula": "fill somebody in / fill somebody in on something",
+      "highlight": "fill somebody in / fill somebody in on something",
+      "descriptionZh": "告訴某人最新情況或所需資料",
+      "descriptionEn": "I was away yesterday, so please fill me in.",
+      "examples": [
+        {
+          "en": "I was away yesterday, so please fill me in.",
+          "zh": "我昨天不在,所以請告訴我發生了甚麼事。",
+          "highlight": "fill me in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "使某人或自己吃飽",
+      "titleEn": "fill somebody/yourself up",
+      "formula": "fill somebody/yourself up",
+      "highlight": "fill somebody/yourself up",
+      "descriptionZh": "使某人或自己吃飽",
+      "descriptionEn": "This bowl of noodles will fill you up.",
+      "examples": [
+        {
+          "en": "This bowl of noodles will fill you up.",
+          "zh": "這碗麵會令你吃飽。",
+          "highlight": "fill you up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "填寫表格、空格或資料",
+      "titleEn": "fill something in",
+      "formula": "fill something in",
+      "highlight": "fill something in",
+      "descriptionZh": "填寫表格、空格或資料",
+      "descriptionEn": "Please fill in this application form.",
+      "examples": [
+        {
+          "en": "Please fill in this application form.",
+          "zh": "請填寫這份申請表。",
+          "highlight": "fill in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "加入細節,使故事、文章或描述更完整",
+      "titleEn": "fill something out",
+      "formula": "fill something out",
+      "highlight": "fill something out",
+      "descriptionZh": "加入細節,使故事、文章或描述更完整",
+      "descriptionEn": "We added another scene to fill the story out.",
+      "examples": [
+        {
+          "en": "We added another scene to fill the story out.",
+          "zh": "我們加入了另一個場景,使故事更完整。",
+          "highlight": "fill the story out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "變滿;把某物填滿",
+      "titleEn": "fill up / fill something up",
+      "formula": "fill up / fill something up",
+      "highlight": "fill up / fill something up",
+      "descriptionZh": "變滿;把某物填滿",
+      "descriptionEn": "The bus filled up with passengers.",
+      "examples": [
+        {
+          "en": "The bus filled up with passengers.",
+          "zh": "巴士坐滿了乘客。",
+          "highlight": "filled up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論臨時代班和錯過的資料",
+      "titleEn": "Talk about temporary work and missing information",
+      "zh": "fill in for somebody 可以表示某人暫時代替另一個人工作;fill somebody in 則可以表示把某人錯過的資料告訴他。",
+      "en": "Fill in for somebody lets you explain that one person is temporarily doing another person’s job. Fill somebody in lets you give someone information they have missed."
+    },
+    {
+      "titleZh": "處理表格和擴充文章內容",
+      "titleEn": "Deal with forms and develop pieces of writing",
+      "zh": "你可以 fill in a form,表示填寫表格;也可以 fill out a short story,表示加入有用細節,使故事更完整。",
+      "en": "You can fill in a form or fill out a short story by adding useful details."
+    },
+    {
+      "titleZh": "描述食物帶來的飽足感",
+      "titleEn": "Describe how food makes people feel",
+      "zh": "談論正餐、小食或某人是否已吃飽時,可以使用 fill somebody up。",
+      "en": "Fill somebody up is useful when discussing meals, snacks and whether someone has eaten enough."
+    },
+    {
+      "titleZh": "描述不同種類的「變滿」",
+      "titleEn": "Describe different kinds of fullness",
+      "zh": "FILL 片語動詞可以描述人或動物變得豐滿、地方坐滿了人,或容器被裝滿。",
+      "en": "The FILL family can describe a person or animal becoming fuller, a place becoming crowded, or a container being made full."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論臨時代班和錯過的資料",
+      "處理表格和擴充文章內容",
+      "描述食物帶來的飽足感",
+      "描述不同種類的「變滿」"
+    ],
+    "contextsEn": [
+      "Talk about temporary work and missing information",
+      "Deal with forms and develop pieces of writing",
+      "Describe how food makes people feel",
+      "Describe different kinds of fullness"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論臨時代班和錯過的資料",
+        "titleEn": "Talk about temporary work and missing information",
+        "zh": "fill in for somebody 可以表示某人暫時代替另一個人工作;fill somebody in 則可以表示把某人錯過的資料告訴他。",
+        "en": "Fill in for somebody lets you explain that one person is temporarily doing another person’s job. Fill somebody in lets you give someone information they have missed.",
+        "examples": [
+          {
+            "en": "I can fill in today, and Leo can fill in for me tomorrow.",
+            "zh": "我今天可以代班,而 Leo 明天可以替我代班。",
+            "highlight": "fill in today, and Leo can fill in for"
+          }
+        ]
+      },
+      {
+        "titleZh": "處理表格和擴充文章內容",
+        "titleEn": "Deal with forms and develop pieces of writing",
+        "zh": "你可以 fill in a form,表示填寫表格;也可以 fill out a short story,表示加入有用細節,使故事更完整。",
+        "en": "You can fill in a form or fill out a short story by adding useful details.",
+        "examples": [
+          {
+            "en": "The baby has filled out a lot recently.",
+            "zh": "這名嬰兒最近豐滿了很多。",
+            "highlight": "filled out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述食物帶來的飽足感",
+        "titleEn": "Describe how food makes people feel",
+        "zh": "談論正餐、小食或某人是否已吃飽時,可以使用 fill somebody up。",
+        "en": "Fill somebody up is useful when discussing meals, snacks and whether someone has eaten enough.",
+        "examples": [
+          {
+            "en": "I was away yesterday, so please fill me in.",
+            "zh": "我昨天不在,所以請告訴我發生了甚麼事。",
+            "highlight": "fill me in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同種類的「變滿」",
+        "titleEn": "Describe different kinds of fullness",
+        "zh": "FILL 片語動詞可以描述人或動物變得豐滿、地方坐滿了人,或容器被裝滿。",
+        "en": "The FILL family can describe a person or animal becoming fuller, a place becoming crowded, or a container being made full.",
+        "examples": [
+          {
+            "en": "This bowl of noodles will fill you up.",
+            "zh": "這碗麵會令你吃飽。",
+            "highlight": "fill you up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FILL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FILL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FILL 片語動詞。",
+      "en": "Read the whole sentence and choose the FILL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以下分別:fill in for a teacher = 暫時代替老師工作fill a teacher in = 把資料告訴老師",
+      "titleEn": "Notice the difference: fill in for a teacher = do the teacher’s work for a short time fill a teacher in = give the teacher information.",
+      "zh": "留意以下分別:fill in for a teacher = 暫時代替老師工作fill a teacher in = 把資料告訴老師",
+      "en": "Notice the difference: fill in for a teacher = do the teacher’s work for a short time fill a teacher in = give the teacher information"
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: fill her in fill it in fill him up fill it out fill it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: fill her in fill it in fill him up fill it out fill it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FILL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FILL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FILL 動詞片語句子改寫練習",
+    "titleEn": "FILL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FILL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FILL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-76-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please complete the application form now.",
+      "promptZh": "請現在填妥申請表。",
+      "starter": "Please",
+      "answer": "Please fill in the application form now.",
+      "answerZh": "請現在填妥申請表。",
+      "highlight": "fill in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ms Chan is away today, so Mr Ho is doing her job.",
+      "promptZh": "陳老師今天不在,所以何老師正在代替她工作。",
+      "starter": "Mr",
+      "answer": "Mr Ho is filling in for Ms Chan today.",
+      "answerZh": "何老師今天正在替陳老師代班。",
+      "highlight": "filling in for Ms Chan today",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The bus slowly became full of passengers.",
+      "promptZh": "巴士慢慢坐滿乘客。",
+      "starter": "The",
+      "answer": "The bus slowly filled up with passengers.",
+      "answerZh": "巴士慢慢坐滿乘客。",
+      "highlight": "filled up with",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please tell Nina what happened in this morning’s meeting.",
+      "promptZh": "請告訴 Nina 今早會議發生了甚麼事。",
+      "starter": "Please",
+      "answer": "Please fill Nina in on what happened in this morning’s meeting.",
+      "answerZh": "請告訴 Nina 今早會議發生了甚麼事。",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The baby has become much fuller recently.",
+      "promptZh": "這名嬰兒最近豐滿了很多。",
+      "starter": "The",
+      "answer": "The baby has filled out a lot recently.",
+      "answerZh": "這名嬰兒最近豐滿了很多。",
+      "highlight": "filled out a lot",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "This soup makes me feel completely full.",
+      "promptZh": "這碗湯令我完全吃飽。",
+      "starter": "This",
+      "answer": "This soup fills me up.",
+      "answerZh": "這碗湯令我完全吃飽。",
+      "highlight": "fills",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Add more details to the story so that it is longer.",
+      "promptZh": "為故事加入更多細節,使它更長。",
+      "starter": "Fill",
+      "answer": "Fill out the story with more details so that it is longer.",
+      "answerZh": "為故事補充更多細節,使它更長。",
+      "highlight": "Fill out the story with",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please make the bottle full of water.",
+      "promptZh": "請把瓶子裝滿水。",
+      "starter": "Please",
+      "answer": "Please fill up the bottle with water.",
+      "answerZh": "請把瓶子裝滿水。",
+      "highlight": "fill up",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I completed it online last night.",
+      "promptZh": "我昨晚在網上填妥了它。",
+      "starter": "I",
+      "answer": "I filled it in online last night.",
+      "answerZh": "我昨晚在網上填妥了它。",
+      "highlight": "filled",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "After a year of regular meals, the thin puppy became fuller.",
+      "promptZh": "定時進食一年後,這隻瘦小狗變得較豐滿。",
+      "starter": "After",
+      "answer": "After a year of regular meals, the thin puppy filled out.",
+      "answerZh": "定時進食一年後,這隻瘦小狗變得豐滿了。",
+      "highlight": "filled out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I was absent yesterday. Can you tell me what happened?",
+      "promptZh": "我昨天缺席了。你可以告訴我發生了甚麼事嗎?",
+      "starter": "I",
+      "answer": "I was absent yesterday. Can you fill me in?",
+      "answerZh": "我昨天缺席了。你可以告訴我發生了甚麼事嗎?",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The report is too short; we need to add examples to make it complete.",
+      "promptZh": "報告太短;我們需要加入例子,使它更完整。",
+      "starter": "The",
+      "answer": "The report is too short; we need to fill it out with examples.",
+      "answerZh": "報告太短;我們需要加入例子,使它更完整。",
+      "highlight": "fill it out with",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Our goalkeeper was injured, and Jay took his place for the second half.",
+      "promptZh": "我們的守門員受傷了,Jay 在下半場代替了他。",
+      "starter": "Our",
+      "answer": "Our goalkeeper was injured, so Jay filled in for him during the second half.",
+      "answerZh": "我們的守門員受傷了,所以 Jay 在下半場替他上陣。",
+      "highlight": "so",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Do not eat so much bread that you feel full before dinner.",
+      "promptZh": "晚餐前不要吃太多麵包,令自己吃飽。",
+      "starter": "Do",
+      "answer": "Do not fill yourself up with bread before dinner.",
+      "answerZh": "晚餐前不要吃太多麵包,令自己吃飽。",
+      "highlight": "fill yourself up with",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "After the holiday, Leo told us about all the changes.",
+      "promptZh": "假期後,Leo 告訴了我們所有改動。",
+      "starter": "After",
+      "answer": "After the holiday, Leo filled us in on all the changes.",
+      "answerZh": "假期後,Leo 告訴了我們所有改動。",
+      "highlight": "filled",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The writer added two scenes to make the chapter fuller.",
+      "promptZh": "作者加入了兩個場景,使章節更充實。",
+      "starter": "The",
+      "answer": "The writer filled out the chapter with two extra scenes.",
+      "answerZh": "作者加入了兩個額外場景,使章節更充實。",
+      "highlight": "filled out",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Who will do your work while you are on holiday?",
+      "promptZh": "你放假期間,誰會代替你工作?",
+      "starter": "Who",
+      "answer": "Who will fill in for you while you are on holiday?",
+      "answerZh": "你放假期間,誰會替你代班?",
+      "highlight": "fill in for you",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The school lunch never makes the children feel full.",
+      "promptZh": "學校午餐從來不能令孩子們吃飽。",
+      "starter": "The",
+      "answer": "The school lunch never fills the children up.",
+      "answerZh": "學校午餐從來不能令孩子們吃飽。",
+      "highlight": "fills",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The car park was becoming full.",
+      "promptZh": "停車場正逐漸泊滿車輛。",
+      "starter": "The",
+      "answer": "The car park was filling up.",
+      "answerZh": "停車場正逐漸泊滿車輛。",
+      "highlight": "filling up",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Has your son become a little fuller since last summer?",
+      "promptZh": "你兒子自去年夏天起是否變得豐滿了一點?",
+      "starter": "Has",
+      "answer": "Has your son filled out a little since last summer?",
+      "answerZh": "你兒子自去年夏天起是否變得豐滿了一點?",
+      "highlight": "filled out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Have you completed your name and address?",
+      "promptZh": "你填寫了姓名和地址嗎?",
+      "starter": "Have",
+      "answer": "Have you filled in your name and address?",
+      "answerZh": "你填寫了姓名和地址嗎?",
+      "highlight": "filled in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A large bowl of noodles should make you feel full.",
+      "promptZh": "一大碗麵應該可以令你吃飽。",
+      "starter": "A",
+      "answer": "A large bowl of noodles should fill you up.",
+      "answerZh": "一大碗麵應該可以令你吃飽。",
+      "highlight": "fill",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We should give the new coach all the information about what has happened with the team.",
+      "promptZh": "我們應該把球隊發生的所有事情告訴新教練。",
+      "starter": "We",
+      "answer": "We should fill the new coach in on what has happened with the team.",
+      "answerZh": "我們應該把球隊發生的所有事情告訴新教練。",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We made every bag full of clothes.",
+      "promptZh": "我們把每個袋子都裝滿衣服。",
+      "starter": "We",
+      "answer": "We filled every bag up with clothes.",
+      "answerZh": "我們把每個袋子都裝滿衣服。",
+      "highlight": "filled",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can you add more details to this short description?",
+      "promptZh": "你可以為這段簡短描述加入更多細節嗎?",
+      "starter": "Can",
+      "answer": "Can you fill this short description out?",
+      "answerZh": "你可以為這段簡短描述補充更多細節嗎?",
+      "highlight": "fill",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Each student must complete this card.",
+      "promptZh": "每名學生都必須填寫這張卡。",
+      "starter": "Each",
+      "answer": "Each student must fill this card in.",
+      "answerZh": "每名學生都必須填寫這張卡。",
+      "highlight": "fill",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The young horse is becoming broader as it grows.",
+      "promptZh": "這匹小馬隨着成長,身形正變得更厚實。",
+      "starter": "The",
+      "answer": "The young horse is filling out as it grows.",
+      "answerZh": "這匹小馬隨着成長,身形正變得更豐滿。",
+      "highlight": "filling out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The receptionist is away, and I can do her job until she returns.",
+      "promptZh": "接待員不在,而我可以代替她工作,直至她回來。",
+      "starter": "I",
+      "answer": "I can fill in until the receptionist returns.",
+      "answerZh": "我可以代班,直至接待員回來。",
+      "highlight": "I can fill in until",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "By noon, the café had become full.",
+      "promptZh": "到中午時,咖啡店已坐滿客人。",
+      "starter": "By",
+      "answer": "By noon, the café had filled up.",
+      "answerZh": "到中午時,咖啡店已坐滿客人。",
+      "highlight": "filled up",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She was very thin at twelve, but her face became fuller later.",
+      "promptZh": "她十二歲時非常瘦,但後來臉龐變得較豐滿。",
+      "starter": "She",
+      "answer": "She was very thin at twelve, but her face filled out later.",
+      "answerZh": "她十二歲時非常瘦,但後來臉龐變得較豐滿。",
+      "highlight": "filled out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The nurse asked me to complete two forms.",
+      "promptZh": "護士叫我填寫兩份表格。",
+      "starter": "The",
+      "answer": "The nurse asked me to fill in two forms.",
+      "answerZh": "護士叫我填寫兩份表格。",
+      "highlight": "fill in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The shop needs someone to replace Ben on Saturday.",
+      "promptZh": "店舖星期六需要有人代替 Ben 工作。",
+      "starter": "The",
+      "answer": "The shop needs someone to fill in for Ben on Saturday.",
+      "answerZh": "店舖星期六需要有人替 Ben 代班。",
+      "highlight": "fill in for",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We had only three lines, so we added quotes to make the article long enough.",
+      "promptZh": "我們只有三行文字,所以加入引述,使文章達到所需長度。",
+      "starter": "We",
+      "answer": "We had only three lines, so we filled out the article with quotes to make it long enough.",
+      "answerZh": "我們只有三行文字,所以加入引述,使文章達到所需長度。",
+      "highlight": "filled out the article with",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We ate too much fruit before the meal and became full.",
+      "promptZh": "我們在正餐前吃了太多水果,因此吃飽了。",
+      "starter": "We",
+      "answer": "We filled ourselves up with too much fruit before the meal.",
+      "answerZh": "我們在正餐前吃了太多水果,因此吃飽了。",
+      "highlight": "filled ourselves up with",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Did anyone tell Sara about the new schedule?",
+      "promptZh": "有人告訴 Sara 新時間表的內容嗎?",
+      "starter": "Did",
+      "answer": "Did anyone fill Sara in on the new schedule?",
+      "answerZh": "有人告訴 Sara 新時間表的內容嗎?",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Do not leave this box empty; write your phone number there.",
+      "promptZh": "不要把這個方格留空;請在那裏填上電話號碼。",
+      "starter": "Do",
+      "answer": "Do not leave this box empty; fill in your phone number.",
+      "answerZh": "不要把這個方格留空;請填上電話號碼。",
+      "highlight": "fill in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The tank was nearly empty, so she made it full of petrol.",
+      "promptZh": "油缸差不多空了,所以她把它加滿汽油。",
+      "starter": "The",
+      "answer": "The tank was nearly empty, so she filled it up with petrol.",
+      "answerZh": "油缸差不多空了,所以她把它加滿汽油。",
+      "highlight": "filled",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Will this sandwich make him feel full until dinner?",
+      "promptZh": "這份三文治能令他飽到晚餐時間嗎?",
+      "starter": "Will",
+      "answer": "Will this sandwich fill him up until dinner?",
+      "answerZh": "這份三文治能令他飽到晚餐時間嗎?",
+      "highlight": "fill",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The rescued cat has become much less thin.",
+      "promptZh": "這隻獲救的貓已沒有以前那麼瘦。",
+      "starter": "The",
+      "answer": "The rescued cat has filled out a lot.",
+      "answerZh": "這隻獲救的貓已豐滿了很多。",
+      "highlight": "filled out a lot",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the client arrives, tell me what I need to know.",
+      "promptZh": "客人到達前,請告訴我需要知道的事情。",
+      "starter": "Before",
+      "answer": "Before the client arrives, fill me in on what I need to know.",
+      "answerZh": "客人到達前,請告訴我需要知道的事情。",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Because the teacher was ill, Mrs Wong taught the class for one day.",
+      "promptZh": "因為老師生病,黃太替那位老師教了一天課。",
+      "starter": "Mrs",
+      "answer": "Mrs Wong filled in for the teacher for one day because the teacher was ill.",
+      "answerZh": "黃太替那位老師代了一天課,因為老師生病了。",
+      "highlight": "Mrs Wong filled in for the teacher for one day",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The speaker made the short account fuller by adding examples.",
+      "promptZh": "講者加入例子,使這段簡短敘述更充實。",
+      "starter": "The",
+      "answer": "The speaker filled the short account out with examples.",
+      "answerZh": "講者加入例子,使這段簡短敘述更充實。",
+      "highlight": "filled",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The children made themselves full with biscuits.",
+      "promptZh": "孩子們吃餅乾吃飽了。",
+      "starter": "The",
+      "answer": "The children filled themselves up with biscuits.",
+      "answerZh": "孩子們吃餅乾吃飽了。",
+      "highlight": "filled",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The hall became full within ten minutes.",
+      "promptZh": "禮堂在十分鐘內便坐滿了人。",
+      "starter": "The",
+      "answer": "The hall filled up within ten minutes.",
+      "answerZh": "禮堂在十分鐘內便坐滿了人。",
+      "highlight": "filled up",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Ben had missed two classes, so I gave him the latest information.",
+      "promptZh": "Ben 缺席了兩堂課,所以我把最新情況告訴了他。",
+      "starter": "Ben",
+      "answer": "Ben had missed two classes, so I filled him in on the latest information.",
+      "answerZh": "Ben 缺席了兩堂課,所以我把最新情況告訴了他。",
+      "highlight": "filled",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The ending is too sudden; add one more scene to make it complete.",
+      "promptZh": "結局太突然;請多加一個場景,使它更完整。",
+      "starter": "Fill",
+      "answer": "Fill out the ending with one more scene to make it complete.",
+      "answerZh": "請多加一個場景,使結局更完整。",
+      "highlight": "Fill out",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Could you replace me at the front desk for an hour?",
+      "promptZh": "你可以在接待處代替我一小時嗎?",
+      "starter": "Could",
+      "answer": "Could you fill in for me at the front desk for an hour?",
+      "answerZh": "你可以在接待處替我代班一小時嗎?",
+      "highlight": "fill in for",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "We had already completed the form before we arrived.",
+      "promptZh": "我們到達前已填妥表格。",
+      "starter": "We",
+      "answer": "We had already filled the form in before we arrived.",
+      "answerZh": "我們到達前已填妥表格。",
+      "highlight": "filled",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The child is slowly becoming rounder after eating better.",
+      "promptZh": "這名孩子改善飲食後,正慢慢變得圓潤。",
+      "starter": "The",
+      "answer": "The child is slowly filling out after eating better.",
+      "answerZh": "這名孩子改善飲食後,正慢慢變得豐滿。",
+      "highlight": "filling out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The staff had not heard about the change. The manager has just told them.",
+      "promptZh": "員工之前未聽說這項改動。經理剛剛把事情告訴了他們。",
+      "starter": "The",
+      "answer": "The staff had not heard about the change. The manager has just filled them in.",
+      "answerZh": "員工之前未聽說這項改動。經理剛剛把事情告訴了他們。",
+      "highlight": "filled",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Rice usually makes me feel full for hours.",
+      "promptZh": "米飯通常能令我飽幾個小時。",
+      "starter": "Rice",
+      "answer": "Rice usually fills me up for hours.",
+      "answerZh": "米飯通常能令我飽幾個小時。",
+      "highlight": "fills",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "No one was available to do the Saturday shift temporarily.",
+      "promptZh": "沒有人有空在星期六暫時代班。",
+      "starter": "No",
+      "answer": "No one was available to fill in on Saturday.",
+      "answerZh": "沒有人有空在星期六代班。",
+      "highlight": "fill in on",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Could you make this bucket full of sand?",
+      "promptZh": "你可以把這個桶裝滿沙嗎?",
+      "starter": "Could",
+      "answer": "Could you fill this bucket up with sand?",
+      "answerZh": "你可以把這個桶裝滿沙嗎?",
+      "highlight": "fill",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "His cheeks became fuller during the school holiday.",
+      "promptZh": "他的臉頰在學校假期期間變得較豐滿。",
+      "starter": "His",
+      "answer": "His cheeks filled out during the school holiday.",
+      "answerZh": "他的臉頰在學校假期期間變得較豐滿。",
+      "highlight": "filled out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The teacher asked us to add details to the outline and make a full story.",
+      "promptZh": "老師叫我們在大綱中加入細節,寫成完整故事。",
+      "starter": "The",
+      "answer": "The teacher asked us to fill out the outline with details and make a full story.",
+      "answerZh": "老師叫我們在大綱中補充細節,寫成完整故事。",
+      "highlight": "fill out",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "You can complete the survey on your phone.",
+      "promptZh": "你可以在手機上填寫問卷。",
+      "starter": "You",
+      "answer": "You can fill in the survey on your phone.",
+      "answerZh": "你可以在手機上填寫問卷。",
+      "highlight": "fill in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "She has added characters and places to make the idea into a full story.",
+      "promptZh": "她加入了人物和地點,把構思發展成完整故事。",
+      "starter": "She",
+      "answer": "She has filled the idea out with characters and places to make it into a full story.",
+      "answerZh": "她加入了人物和地點,把構思發展成完整故事。",
+      "highlight": "filled the idea out with",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Please complete it in black ink.",
+      "promptZh": "請用黑色墨水填寫它。",
+      "starter": "Please",
+      "answer": "Please fill it in with black ink.",
+      "answerZh": "請用黑色墨水填寫它。",
+      "highlight": "fill",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The puppy had become fuller by the time we saw it again.",
+      "promptZh": "我們再次見到那隻小狗時,牠已變得較豐滿。",
+      "starter": "The",
+      "answer": "The puppy had filled out by the time we saw it again.",
+      "answerZh": "我們再次見到那隻小狗時,牠已變得較豐滿。",
+      "highlight": "filled out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The empty seats were quickly taken, and the room became full.",
+      "promptZh": "空座位很快便有人坐下,房間亦坐滿了人。",
+      "starter": "The",
+      "answer": "The room quickly filled up as the empty seats were taken.",
+      "answerZh": "隨着空座位很快有人坐下,房間亦迅速坐滿了人。",
+      "highlight": "The room quickly filled up as",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She did not want to become full before the party food arrived.",
+      "promptZh": "派對食物送到前,她不想先吃飽。",
+      "starter": "She",
+      "answer": "She did not want to fill herself up before the party food arrived.",
+      "answerZh": "派對食物送到前,她不想先吃飽。",
+      "highlight": "fill herself up",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Priya has been working as a temporary replacement since Monday.",
+      "promptZh": "Priya 自星期一起一直擔任臨時替工。",
+      "starter": "Priya",
+      "answer": "Priya has been filling in since Monday.",
+      "answerZh": "Priya 自星期一起一直在代班。",
+      "highlight": "filling in",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    },
+    {
+      "id": "phrasal-verb-76-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Could you tell your parents about the trip plan?",
+      "promptZh": "你可以把旅行計劃告訴父母嗎?",
+      "starter": "Could",
+      "answer": "Could you fill your parents in on the trip plan?",
+      "answerZh": "你可以把旅行計劃告訴父母嗎?",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "With good food, the weak dog should become fuller soon.",
+      "promptZh": "有了良好食物,這隻虛弱的狗應該很快變得較豐滿。",
+      "starter": "With",
+      "answer": "With good food, the weak dog should fill out soon.",
+      "answerZh": "有了良好食物,這隻虛弱的狗應該很快變得較豐滿。",
+      "highlight": "fill out",
+      "targetForm": "fill out",
+      "targetMeaningZh": "身體變得較豐滿"
+    },
+    {
+      "id": "phrasal-verb-76-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "They made the article longer by adding a short interview.",
+      "promptZh": "他們加入了一段簡短訪問,使文章更長。",
+      "starter": "They",
+      "answer": "They filled out the article with a short interview to make it longer.",
+      "answerZh": "他們加入了一段簡短訪問,使文章更長。",
+      "highlight": "filled out",
+      "targetForm": "fill something out",
+      "targetMeaningZh": "加入細節,使故事、文章或描述更完整"
+    },
+    {
+      "id": "phrasal-verb-76-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Once you know more, tell us.",
+      "promptZh": "你知道更多資料後,請告訴我們。",
+      "starter": "Once",
+      "answer": "Once you know more, fill us in.",
+      "answerZh": "你知道更多資料後,請告訴我們。",
+      "highlight": "fill",
+      "targetForm": "fill somebody in / fill somebody in on something",
+      "targetMeaningZh": "告訴某人最新情況或所需資料"
+    },
+    {
+      "id": "phrasal-verb-76-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After he completed all the empty spaces, he signed the page.",
+      "promptZh": "他填妥所有空格後,在頁面上簽了名。",
+      "starter": "After",
+      "answer": "After he filled in all the empty spaces, he signed the page.",
+      "answerZh": "他填妥所有空格後,在頁面上簽了名。",
+      "highlight": "filled in",
+      "targetForm": "fill something in",
+      "targetMeaningZh": "填寫表格、空格或資料"
+    },
+    {
+      "id": "phrasal-verb-76-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "These small snacks will not make us feel full.",
+      "promptZh": "這些小食不會令我們吃飽。",
+      "starter": "These",
+      "answer": "These small snacks will not fill us up.",
+      "answerZh": "這些小食不會令我們吃飽。",
+      "highlight": "fill",
+      "targetForm": "fill somebody/yourself up",
+      "targetMeaningZh": "使某人或自己吃飽"
+    },
+    {
+      "id": "phrasal-verb-76-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "They had made the boxes full of books before moving day.",
+      "promptZh": "搬屋日前,他們已把箱子裝滿書本。",
+      "starter": "They",
+      "answer": "They had filled up the boxes with books before moving day.",
+      "answerZh": "搬屋日前,他們已把箱子裝滿書本。",
+      "highlight": "filled up",
+      "targetForm": "fill up / fill something up",
+      "targetMeaningZh": "變滿;把某物填滿"
+    },
+    {
+      "id": "phrasal-verb-76-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "If the cook is late, Daniel will take his place for a short time.",
+      "promptZh": "如果廚師遲到,Daniel 會暫時代替他。",
+      "starter": "If",
+      "answer": "If the cook is late, Daniel will fill in for him for a short time.",
+      "answerZh": "如果廚師遲到,Daniel 會暫時替他代班。",
+      "highlight": "fill in for him",
+      "targetForm": "fill in / fill in for somebody",
+      "targetMeaningZh": "暫時代替某人工作;代班"
+    }
+  ]
+}

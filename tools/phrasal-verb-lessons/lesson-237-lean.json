@@ -1,0 +1,1469 @@
+{
+  "id": "phrasal-verb-237",
+  "order": 237,
+  "slug": "lean",
+  "version": "1",
+  "title": "LEAN 動詞片語",
+  "titleEn": "Lean",
+  "titleZh": "LEAN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 229 - LEAN.pdf",
+    "sourceNumber": 229,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LEAN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LEAN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LEAN",
+      "highlight": "LEAN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Laura leaned weakly against the door.",
+      "zh": "羅拉虛弱地靠着門。",
+      "highlight": "leaned weakly against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They leaned on him to withdraw his complaint.",
+      "zh": "他們向他施壓,要他撤回投訴。",
+      "highlight": "leaned on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He leaned the ladder against the wall.",
+      "zh": "他把梯子斜靠在牆上。",
+      "highlight": "leaned the ladder against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把身體靠在某人或某物上,以取得支撐；向某人施壓,逼使或說服對方做某事；把某物斜靠在另一物件上,讓後者支撐它；傾向某個選擇、意見或做法；依靠某人或某事物取得協助或支持",
+    "en": "lean against/on somebody/something; lean up against something; lean on somebody; lean something against/on something; lean something up against something; lean towards something; lean toward something; lean on/upon somebody/something",
+    "naturalZh": [
+      "把身體靠在某人或某物上,以取得支撐",
+      "向某人施壓,逼使或說服對方做某事",
+      "把某物斜靠在另一物件上,讓後者支撐它",
+      "傾向某個選擇、意見或做法",
+      "依靠某人或某事物取得協助或支持"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lean against/on somebody/something; lean up against something",
+      "titleZh": "把身體靠在某人或某物上,以取得支撐",
+      "titleEn": "lean against/on somebody/something; lean up against something",
+      "descriptionZh": "把身體靠在某人或某物上,以取得支撐",
+      "descriptionEn": "Laura leaned weakly against the door.",
+      "examples": [
+        {
+          "en": "Laura leaned weakly against the door.",
+          "zh": "羅拉虛弱地靠着門。",
+          "highlight": "leaned weakly against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lean on somebody",
+      "titleZh": "向某人施壓,逼使或說服對方做某事",
+      "titleEn": "lean on somebody",
+      "descriptionZh": "向某人施壓,逼使或說服對方做某事",
+      "descriptionEn": "They leaned on him to withdraw his complaint.",
+      "examples": [
+        {
+          "en": "They leaned on him to withdraw his complaint.",
+          "zh": "他們向他施壓,要他撤回投訴。",
+          "highlight": "leaned on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lean something against/on something; lean something up against something",
+      "titleZh": "把某物斜靠在另一物件上,讓後者支撐它",
+      "titleEn": "lean something against/on something; lean something up against something",
+      "descriptionZh": "把某物斜靠在另一物件上,讓後者支撐它",
+      "descriptionEn": "He leaned the ladder against the wall.",
+      "examples": [
+        {
+          "en": "He leaned the ladder against the wall.",
+          "zh": "他把梯子斜靠在牆上。",
+          "highlight": "leaned the ladder against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lean towards something; lean toward something",
+      "titleZh": "傾向某個選擇、意見或做法",
+      "titleEn": "lean towards something; lean toward something",
+      "descriptionZh": "傾向某個選擇、意見或做法",
+      "descriptionEn": "I am leaning towards the earlier train.",
+      "examples": [
+        {
+          "en": "I am leaning towards the earlier train.",
+          "zh": "我較傾向乘搭較早班次的火車。",
+          "highlight": "leaning"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lean on/upon somebody/something",
+      "titleZh": "依靠某人或某事物取得協助或支持",
+      "titleEn": "lean on/upon somebody/something",
+      "descriptionZh": "依靠某人或某事物取得協助或支持",
+      "descriptionEn": "You can lean on me when things are difficult.",
+      "examples": [
+        {
+          "en": "You can lean on me when things are difficult.",
+          "zh": "遇到困難時,你可以依靠我。",
+          "highlight": "lean on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LEAN 片語動詞的實際用途",
+    "labelEn": "LEAN Phrasal Verbs in Use",
+    "summaryZh": "lean against 和 lean on 可以說明某人如何靠着牆壁、桌子、另一個人或其他物件取得支撐。；你可以使用 LEAN 描述梯子、單車、木板或其他物件斜靠在某處。；lean on somebody 可以表示依靠某人,也可以表示向某人施壓。完整情境會顯示句子使用哪一個意思。；當你尚未作出最後決定,但目前較喜歡其中一個選擇時,可以使用 lean towards。；lean on 和 lean upon 可以描述依靠朋友、親人、同事或其他支援。",
+    "summaryEn": "Lean against and lean on help you explain how someone uses a wall, table, person or other object for physical support. You can use LEAN to describe a ladder, bicycle, board or other object resting at an angle against something. Lean on somebody can mean depending on a person for help or putting pressure on that person. The complete situation shows which meaning is intended. Lean towards is useful when you have not made a final decision but currently prefer one option. Lean on and lean upon help you describe depending on friends, relatives, colleagues or other sources of support.",
+    "contextsZh": [
+      "清楚描述身體姿勢",
+      "說明物件斜放的位置",
+      "分辨依靠和施壓",
+      "表達尚未確定的取向",
+      "自然談論接受幫助"
+    ],
+    "contextsEn": [
+      "Describe body position clearly",
+      "Explain where an object has been placed",
+      "Distinguish support from pressure",
+      "Express an uncertain preference",
+      "Talk naturally about receiving help"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LEAN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LEAN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lean against/on somebody/something; lean up against something",
+    "fixedHighlight": "lean against/on somebody/something; lean up against something",
+    "fixedZh": "閱讀整句,選出意思相同的 LEAN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LEAN expression that gives the same meaning.",
+    "correct": "leaned weakly against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；他把身體靠在桌上。They leaned on him to sign.他們向他施壓,要他簽署文件。She leaned on her family for help.她依靠家人幫忙。lean on 可以表示身體靠着某物、向某人施壓,或依靠某人。請仔細閱讀完整情境。；句子可以在核心表達後加入其他資料。例如,to sign 說明對方被要求做甚麼;for advice 則說明需要哪一種支援。核心表達仍然是 lean on somebody。",
+    "variableEn": "Keep the same people, things, time and meaning. Lean on can express three different ideas. Read the complete situation carefully: He leaned on the table. Additional words may explain the situation, but they are not always part of the core expression: They leaned on him to sign. The core expression is lean on him. To sign tells us what they wanted him to do. She leaned on her sister for advice. The core expression is lean on her sister. For advice tells us what kind of support she needed.",
+    "variableItemsZh": [
+      "lean against/on somebody/something; lean up against something",
+      "lean on somebody",
+      "lean something against/on something; lean something up against something",
+      "lean towards something; lean toward something",
+      "lean on/upon somebody/something"
+    ],
+    "variableItemsEn": [
+      "lean against/on somebody/something; lean up against something",
+      "lean on somebody",
+      "lean something against/on something; lean something up against something",
+      "lean towards something; lean toward something",
+      "lean on/upon somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "把身體靠在某人或某物上,以取得支撐",
+        "formEn": "lean against/on somebody/something; lean up against something",
+        "exampleZh": "羅拉虛弱地靠着門。",
+        "exampleEn": "Laura leaned weakly against the door.",
+        "highlight": "leaned weakly against"
+      },
+      {
+        "formZh": "向某人施壓,逼使或說服對方做某事",
+        "formEn": "lean on somebody",
+        "exampleZh": "他們向他施壓,要他撤回投訴。",
+        "exampleEn": "They leaned on him to withdraw his complaint.",
+        "highlight": "leaned on"
+      },
+      {
+        "formZh": "把某物斜靠在另一物件上,讓後者支撐它",
+        "formEn": "lean something against/on something; lean something up against something",
+        "exampleZh": "他把梯子斜靠在牆上。",
+        "exampleEn": "He leaned the ladder against the wall.",
+        "highlight": "leaned the ladder against"
+      },
+      {
+        "formZh": "傾向某個選擇、意見或做法",
+        "formEn": "lean towards something; lean toward something",
+        "exampleZh": "我較傾向乘搭較早班次的火車。",
+        "exampleEn": "I am leaning towards the earlier train.",
+        "highlight": "leaning"
+      },
+      {
+        "formZh": "依靠某人或某事物取得協助或支持",
+        "formEn": "lean on/upon somebody/something",
+        "exampleZh": "遇到困難時,你可以依靠我。",
+        "exampleEn": "You can lean on me when things are difficult.",
+        "highlight": "lean on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把身體靠在某人或某物上,以取得支撐",
+      "titleEn": "lean against/on somebody/something; lean up against something",
+      "formula": "lean against/on somebody/something; lean up against something",
+      "highlight": "lean against/on somebody/something; lean up against something",
+      "descriptionZh": "把身體靠在某人或某物上,以取得支撐",
+      "descriptionEn": "Laura leaned weakly against the door.",
+      "examples": [
+        {
+          "en": "Laura leaned weakly against the door.",
+          "zh": "羅拉虛弱地靠着門。",
+          "highlight": "leaned weakly against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "向某人施壓,逼使或說服對方做某事",
+      "titleEn": "lean on somebody",
+      "formula": "lean on somebody",
+      "highlight": "lean on somebody",
+      "descriptionZh": "向某人施壓,逼使或說服對方做某事",
+      "descriptionEn": "They leaned on him to withdraw his complaint.",
+      "examples": [
+        {
+          "en": "They leaned on him to withdraw his complaint.",
+          "zh": "他們向他施壓,要他撤回投訴。",
+          "highlight": "leaned on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物斜靠在另一物件上,讓後者支撐它",
+      "titleEn": "lean something against/on something; lean something up against something",
+      "formula": "lean something against/on something; lean something up against something",
+      "highlight": "lean something against/on something; lean something up against something",
+      "descriptionZh": "把某物斜靠在另一物件上,讓後者支撐它",
+      "descriptionEn": "He leaned the ladder against the wall.",
+      "examples": [
+        {
+          "en": "He leaned the ladder against the wall.",
+          "zh": "他把梯子斜靠在牆上。",
+          "highlight": "leaned the ladder against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "傾向某個選擇、意見或做法",
+      "titleEn": "lean towards something; lean toward something",
+      "formula": "lean towards something; lean toward something",
+      "highlight": "lean towards something; lean toward something",
+      "descriptionZh": "傾向某個選擇、意見或做法",
+      "descriptionEn": "I am leaning towards the earlier train.",
+      "examples": [
+        {
+          "en": "I am leaning towards the earlier train.",
+          "zh": "我較傾向乘搭較早班次的火車。",
+          "highlight": "leaning"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "依靠某人或某事物取得協助或支持",
+      "titleEn": "lean on/upon somebody/something",
+      "formula": "lean on/upon somebody/something",
+      "highlight": "lean on/upon somebody/something",
+      "descriptionZh": "依靠某人或某事物取得協助或支持",
+      "descriptionEn": "You can lean on me when things are difficult.",
+      "examples": [
+        {
+          "en": "You can lean on me when things are difficult.",
+          "zh": "遇到困難時,你可以依靠我。",
+          "highlight": "lean on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述身體姿勢",
+      "titleEn": "Describe body position clearly",
+      "zh": "lean against 和 lean on 可以說明某人如何靠着牆壁、桌子、另一個人或其他物件取得支撐。",
+      "en": "Lean against and lean on help you explain how someone uses a wall, table, person or other object for physical support."
+    },
+    {
+      "titleZh": "說明物件斜放的位置",
+      "titleEn": "Explain where an object has been placed",
+      "zh": "你可以使用 LEAN 描述梯子、單車、木板或其他物件斜靠在某處。",
+      "en": "You can use LEAN to describe a ladder, bicycle, board or other object resting at an angle against something."
+    },
+    {
+      "titleZh": "分辨依靠和施壓",
+      "titleEn": "Distinguish support from pressure",
+      "zh": "lean on somebody 可以表示依靠某人,也可以表示向某人施壓。完整情境會顯示句子使用哪一個意思。",
+      "en": "Lean on somebody can mean depending on a person for help or putting pressure on that person. The complete situation shows which meaning is intended."
+    },
+    {
+      "titleZh": "表達尚未確定的取向",
+      "titleEn": "Express an uncertain preference",
+      "zh": "當你尚未作出最後決定,但目前較喜歡其中一個選擇時,可以使用 lean towards。",
+      "en": "Lean towards is useful when you have not made a final decision but currently prefer one option."
+    },
+    {
+      "titleZh": "自然談論接受幫助",
+      "titleEn": "Talk naturally about receiving help",
+      "zh": "lean on 和 lean upon 可以描述依靠朋友、親人、同事或其他支援。",
+      "en": "Lean on and lean upon help you describe depending on friends, relatives, colleagues or other sources of support."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述身體姿勢",
+      "說明物件斜放的位置",
+      "分辨依靠和施壓",
+      "表達尚未確定的取向",
+      "自然談論接受幫助"
+    ],
+    "contextsEn": [
+      "Describe body position clearly",
+      "Explain where an object has been placed",
+      "Distinguish support from pressure",
+      "Express an uncertain preference",
+      "Talk naturally about receiving help"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述身體姿勢",
+        "titleEn": "Describe body position clearly",
+        "zh": "lean against 和 lean on 可以說明某人如何靠着牆壁、桌子、另一個人或其他物件取得支撐。",
+        "en": "Lean against and lean on help you explain how someone uses a wall, table, person or other object for physical support.",
+        "examples": [
+          {
+            "en": "Laura leaned weakly against the door.",
+            "zh": "羅拉虛弱地靠着門。",
+            "highlight": "leaned weakly against"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明物件斜放的位置",
+        "titleEn": "Explain where an object has been placed",
+        "zh": "你可以使用 LEAN 描述梯子、單車、木板或其他物件斜靠在某處。",
+        "en": "You can use LEAN to describe a ladder, bicycle, board or other object resting at an angle against something.",
+        "examples": [
+          {
+            "en": "They leaned on him to withdraw his complaint.",
+            "zh": "他們向他施壓,要他撤回投訴。",
+            "highlight": "leaned on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨依靠和施壓",
+        "titleEn": "Distinguish support from pressure",
+        "zh": "lean on somebody 可以表示依靠某人,也可以表示向某人施壓。完整情境會顯示句子使用哪一個意思。",
+        "en": "Lean on somebody can mean depending on a person for help or putting pressure on that person. The complete situation shows which meaning is intended.",
+        "examples": [
+          {
+            "en": "He leaned the ladder against the wall.",
+            "zh": "他把梯子斜靠在牆上。",
+            "highlight": "leaned the ladder against"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達尚未確定的取向",
+        "titleEn": "Express an uncertain preference",
+        "zh": "當你尚未作出最後決定,但目前較喜歡其中一個選擇時,可以使用 lean towards。",
+        "en": "Lean towards is useful when you have not made a final decision but currently prefer one option.",
+        "examples": [
+          {
+            "en": "I am leaning towards the earlier train.",
+            "zh": "我較傾向乘搭較早班次的火車。",
+            "highlight": "leaning"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論接受幫助",
+        "titleEn": "Talk naturally about receiving help",
+        "zh": "lean on 和 lean upon 可以描述依靠朋友、親人、同事或其他支援。",
+        "en": "Lean on and lean upon help you describe depending on friends, relatives, colleagues or other sources of support.",
+        "examples": [
+          {
+            "en": "You can lean on me when things are difficult.",
+            "zh": "遇到困難時,你可以依靠我。",
+            "highlight": "lean on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LEAN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LEAN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LEAN 片語動詞。",
+      "en": "Read the whole sentence and choose the LEAN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "他把身體靠在桌上。They leaned on him to sign.他們向他施壓,要他簽署文件。She leaned on her family for help.她依靠家人幫忙。lean on 可以表示身體靠着某物、向某人施壓,或依靠某人。請仔細閱讀完整情境。",
+      "titleEn": "Lean on can express three different ideas.",
+      "zh": "他把身體靠在桌上。They leaned on him to sign.他們向他施壓,要他簽署文件。She leaned on her family for help.她依靠家人幫忙。lean on 可以表示身體靠着某物、向某人施壓,或依靠某人。請仔細閱讀完整情境。",
+      "en": "Lean on can express three different ideas. Read the complete situation carefully: He leaned on the table."
+    },
+    {
+      "titleZh": "句子可以在核心表達後加入其他資料。例如,to sign 說明對方被要求做甚麼;for advice 則說明需要哪一種支援。核心表達仍然是 lean on somebody。",
+      "titleEn": "Additional words may explain the situation, but they are not always part of the core expression: They leaned on him to sign.",
+      "zh": "句子可以在核心表達後加入其他資料。例如,to sign 說明對方被要求做甚麼;for advice 則說明需要哪一種支援。核心表達仍然是 lean on somebody。",
+      "en": "Additional words may explain the situation, but they are not always part of the core expression: They leaned on him to sign. The core expression is lean on him. To sign tells us what they wanted him to do. She leaned on her sister for advice. The core expression is lean on her sister. For advice tells us what kind of support she needed."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LEAN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LEAN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LEAN 動詞片語句子改寫練習",
+    "titleEn": "LEAN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LEAN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LEAN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-237-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I am not certain which jacket to buy, but I currently prefer the blue one.",
+      "promptZh": "我不確定應買哪件外套,但目前較喜歡藍色那件。",
+      "starter": "I",
+      "answer": "I am not certain which jacket to buy, but I am leaning towards the blue one.",
+      "answerZh": "我不確定應買哪件外套,但目前較傾向藍色那件。",
+      "highlight": "am leaning towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Laura rested weakly against the door.",
+      "promptZh": "羅拉虛弱地靠着門。",
+      "starter": "Laura",
+      "answer": "Laura leaned weakly against the door.",
+      "answerZh": "羅拉虛弱地靠着門。",
+      "highlight": "leaned",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He placed his head on his hand and closed his eyes.",
+      "promptZh": "他把頭靠在手上,然後閉上眼睛。",
+      "starter": "He",
+      "answer": "He leaned his head on his hand and closed his eyes.",
+      "answerZh": "他把頭靠在手上,然後閉上眼睛。",
+      "highlight": "leaned",
+      "targetForm": "lean something on something",
+      "targetMeaningZh": "把身體某部分靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "During difficult weeks, Sam depends on his sister for support.",
+      "promptZh": "在艱難的日子裏,山姆依靠姐姐支持自己。",
+      "starter": "During",
+      "answer": "During difficult weeks, Sam leans on his sister for support.",
+      "answerZh": "在艱難的日子裏,山姆依靠姐姐支持自己。",
+      "highlight": "leans",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得支持"
+    },
+    {
+      "id": "phrasal-verb-237-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "They are pressuring him to withdraw his complaints.",
+      "promptZh": "他們正向他施壓,要求他撤回投訴。",
+      "starter": "They",
+      "answer": "They are leaning on him to withdraw his complaints.",
+      "answerZh": "他們正向他施壓,要求他撤回投訴。",
+      "highlight": "leaning on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The tired runner rested against the fence.",
+      "promptZh": "疲倦的跑手靠着圍欄休息。",
+      "starter": "The",
+      "answer": "The tired runner leaned against the fence.",
+      "answerZh": "疲倦的跑手靠着圍欄休息。",
+      "highlight": "leaned",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please place the ladder against the wall at an angle.",
+      "promptZh": "請把梯子斜靠在牆上。",
+      "starter": "Please",
+      "answer": "Please lean the ladder against the wall at an angle.",
+      "answerZh": "請把梯子斜靠在牆上。",
+      "highlight": "lean",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We have not decided yet, but we currently prefer the earlier train.",
+      "promptZh": "我們尚未決定,但目前較傾向乘搭較早班次的火車。",
+      "starter": "We",
+      "answer": "We have not decided yet, but we are leaning towards the earlier train.",
+      "answerZh": "我們尚未決定,但目前較傾向乘搭較早班次的火車。",
+      "highlight": "are leaning towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The company pressured the shop owner to accept the new price.",
+      "promptZh": "公司向店主施壓,要他接受新價格。",
+      "starter": "The",
+      "answer": "The company leaned on the shop owner to accept the new price.",
+      "answerZh": "公司向店主施壓,要他接受新價格。",
+      "highlight": "leaned on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "You can depend on me when the work becomes difficult.",
+      "promptZh": "工作變得困難時,你可以依靠我。",
+      "starter": "You",
+      "answer": "You can lean on me when the work becomes difficult.",
+      "answerZh": "工作變得困難時,你可以依靠我。",
+      "highlight": "lean",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得支持"
+    },
+    {
+      "id": "phrasal-verb-237-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The child rested against his father while waiting.",
+      "promptZh": "孩子等候時靠着父親。",
+      "starter": "The",
+      "answer": "The child leaned against his father while waiting.",
+      "answerZh": "孩子等候時靠着父親。",
+      "highlight": "leaned",
+      "targetForm": "lean against somebody",
+      "targetMeaningZh": "把身體靠在某人身上"
+    },
+    {
+      "id": "phrasal-verb-237-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nora placed the broom against the cupboard.",
+      "promptZh": "諾拉把掃帚斜靠在櫃上。",
+      "starter": "Nora",
+      "answer": "Nora leaned the broom against the cupboard.",
+      "answerZh": "諾拉把掃帚斜靠在櫃上。",
+      "highlight": "leaned",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are the organisers pressuring Eva to change her answer?",
+      "promptZh": "主辦單位為何正向伊娃施壓,要她改變答案?",
+      "starter": "Why",
+      "answer": "Why are the organisers leaning on Eva to change her answer?",
+      "answerZh": "主辦單位為何正向伊娃施壓,要她改變答案?",
+      "highlight": "leaning on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Kai usually prefers the safer choice when the weather is bad.",
+      "promptZh": "天氣欠佳時,啟通常較傾向選擇較安全的方案。",
+      "starter": "Kai",
+      "answer": "Kai usually leans towards the safer choice when the weather is bad.",
+      "answerZh": "天氣欠佳時,啟通常較傾向選擇較安全的方案。",
+      "highlight": "leans towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The passenger is resting against the window because she feels tired.",
+      "promptZh": "那名乘客因感到疲倦而正靠着窗戶。",
+      "starter": "The",
+      "answer": "The passenger is leaning against the window because she feels tired.",
+      "answerZh": "那名乘客因感到疲倦而正靠着窗戶。",
+      "highlight": "leaning",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Ben has depended heavily on his tutor for advice since starting at the school.",
+      "promptZh": "賓入讀這間學校後,一直十分依靠導師的意見。",
+      "starter": "Ben",
+      "answer": "Ben has leaned heavily on his tutor for advice since starting at the school.",
+      "answerZh": "賓入讀這間學校後,一直十分依靠導師的意見。",
+      "highlight": "leaned",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The bicycle is in the way, so please place it against the wall.",
+      "promptZh": "單車阻路,所以請把它斜靠在牆上。",
+      "starter": "The",
+      "answer": "The bicycle is in the way, so please lean it against the wall.",
+      "answerZh": "單車阻路,所以請把它斜靠在牆上。",
+      "highlight": "lean",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "At the moment, I do not prefer the most expensive plan.",
+      "promptZh": "目前,我不傾向選擇最昂貴的計劃。",
+      "starter": "At",
+      "answer": "At the moment, I am not leaning towards the most expensive plan.",
+      "answerZh": "目前,我不傾向選擇最昂貴的計劃。",
+      "highlight": "am",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The manager may pressure the worker to sign the form today.",
+      "promptZh": "經理今天可能會向那名員工施壓,要他簽署表格。",
+      "starter": "The",
+      "answer": "The manager may lean on the worker to sign the form today.",
+      "answerZh": "經理今天可能會向那名員工施壓,要他簽署表格。",
+      "highlight": "lean on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "For several minutes, the old man has rested against the rail.",
+      "promptZh": "那名老人已靠着欄杆幾分鐘。",
+      "starter": "For",
+      "answer": "For several minutes, the old man has leaned against the rail.",
+      "answerZh": "那名老人已靠着欄杆幾分鐘。",
+      "highlight": "leaned",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "During the trip, we may need to depend on local friends for help.",
+      "promptZh": "旅程期間,我們可能需要依靠當地朋友幫忙。",
+      "starter": "During",
+      "answer": "During the trip, we may need to lean on local friends for help.",
+      "answerZh": "旅程期間,我們可能需要依靠當地朋友幫忙。",
+      "highlight": "lean",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Which design are you currently more likely to choose?",
+      "promptZh": "你目前較傾向選擇哪個設計?",
+      "starter": "Which",
+      "answer": "Which design are you currently leaning towards?",
+      "answerZh": "你目前較傾向選擇哪個設計?",
+      "highlight": "leaning towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Aiden has placed the old sign against the gate.",
+      "promptZh": "艾登已把舊標誌斜靠在閘門上。",
+      "starter": "Aiden",
+      "answer": "Aiden has leaned the old sign against the gate.",
+      "answerZh": "艾登已把舊標誌斜靠在閘門上。",
+      "highlight": "leaned",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The player was pressured to leave the team.",
+      "promptZh": "那名球員受到壓力,被要求離隊。",
+      "starter": "The",
+      "answer": "The player was leaned on to leave the team.",
+      "answerZh": "那名球員受到壓力,被要求離隊。",
+      "highlight": "leaned on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The board is too large to lie flat. Put it against the wall at an angle.",
+      "promptZh": "木板太大,不能平放。把它直立斜靠在牆上。",
+      "starter": "The",
+      "answer": "The board is too large to lie flat. Lean it up against the wall at an angle.",
+      "answerZh": "木板太大,不能平放。把它直立斜靠在牆上。",
+      "highlight": "Lean",
+      "targetForm": "lean something up against something",
+      "targetMeaningZh": "把某物直立斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Rina was new to the job. She depended on her team whenever she needed help.",
+      "promptZh": "莉娜剛開始這份工作。每當需要幫忙時,她都依靠團隊。",
+      "starter": "Rina",
+      "answer": "Rina was new to the job. She leaned on her team whenever she needed help.",
+      "answerZh": "莉娜剛開始這份工作。每當需要幫忙時,她都依靠團隊。",
+      "highlight": "leaned",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Because the bus moved suddenly, Theo rested against the person beside him.",
+      "promptZh": "巴士突然移動,西奧因而靠着身旁的人。",
+      "starter": "Because",
+      "answer": "Because the bus moved suddenly, Theo leaned against the person beside him.",
+      "answerZh": "巴士突然移動,西奧因而靠着身旁的人。",
+      "highlight": "leaned",
+      "targetForm": "lean against somebody",
+      "targetMeaningZh": "把身體靠在某人身上"
+    },
+    {
+      "id": "phrasal-verb-237-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We are still undecided, but we currently prefer staying at home.",
+      "promptZh": "我們仍未決定,但目前較傾向留在家中。",
+      "starter": "We",
+      "answer": "We are still undecided, but we are leaning towards staying at home.",
+      "answerZh": "我們仍未決定,但目前較傾向留在家中。",
+      "highlight": "are leaning towards",
+      "targetForm": "lean towards doing something",
+      "targetMeaningZh": "傾向採取某個做法"
+    },
+    {
+      "id": "phrasal-verb-237-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Several parents tried to pressure the school to cancel the trip.",
+      "promptZh": "幾位家長企圖向學校施壓,要求取消旅程。",
+      "starter": "Several",
+      "answer": "Several parents tried to lean on the school to cancel the trip.",
+      "answerZh": "幾位家長企圖向學校施壓,要求取消旅程。",
+      "highlight": "lean on",
+      "targetForm": "lean on somebody/something",
+      "targetMeaningZh": "向某人或某組織施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She placed her elbows on the table and looked at the screen.",
+      "promptZh": "她把手肘靠在桌上,望着螢幕。",
+      "starter": "She",
+      "answer": "She leaned her elbows on the table and looked at the screen.",
+      "answerZh": "她把手肘靠在桌上,望着螢幕。",
+      "highlight": "leaned",
+      "targetForm": "lean something on something",
+      "targetMeaningZh": "把身體某部分靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The small club has no paid staff, so it depends on volunteers.",
+      "promptZh": "這個小型會社沒有受薪員工,因此依靠義工。",
+      "starter": "The",
+      "answer": "The small club has no paid staff, so it leans on volunteers.",
+      "answerZh": "這個小型會社沒有受薪員工,因此依靠義工。",
+      "highlight": "leans",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why was Noah resting on the desk instead of sitting?",
+      "promptZh": "諾亞為何靠在書桌上,而不坐下?",
+      "starter": "Why",
+      "answer": "Why was Noah leaning on the desk instead of sitting?",
+      "answerZh": "諾亞為何靠在書桌上,而不坐下?",
+      "highlight": "leaning",
+      "targetForm": "lean on something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After reading both plans, the group became more likely to choose the cheaper one.",
+      "promptZh": "看過兩個計劃後,小組較傾向選擇較便宜的一個。",
+      "starter": "After",
+      "answer": "After reading both plans, the group leaned towards the cheaper one.",
+      "answerZh": "看過兩個計劃後,小組較傾向選擇較便宜的一個。",
+      "highlight": "leaned towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Please place these two boards upright against the shed.",
+      "promptZh": "請把這兩塊木板直立斜靠在小屋上。",
+      "starter": "Please",
+      "answer": "Please lean these two boards up against the shed.",
+      "answerZh": "請把這兩塊木板直立斜靠在小屋上。",
+      "highlight": "lean",
+      "targetForm": "lean something up against something",
+      "targetMeaningZh": "把某物直立斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The landlord kept pressuring them to leave before Friday.",
+      "promptZh": "業主持續向他們施壓,要求他們在星期五前離開。",
+      "starter": "The",
+      "answer": "The landlord kept leaning on them to leave before Friday.",
+      "answerZh": "業主持續向他們施壓,要求他們在星期五前離開。",
+      "highlight": "leaning on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "You do not have to solve this alone; depend on us when you need help.",
+      "promptZh": "你不必獨自解決這件事;需要幫忙時可以依靠我們。",
+      "starter": "You",
+      "answer": "You do not have to solve this alone; lean on us when you need help.",
+      "answerZh": "你不必獨自解決這件事;需要幫忙時可以依靠我們。",
+      "highlight": "lean",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The vote is close, but most members now seem to prefer the second plan.",
+      "promptZh": "投票結果很接近,但現時大多數成員似乎較傾向第二個計劃。",
+      "starter": "The",
+      "answer": "The vote is close, but most members now seem to lean towards the second plan.",
+      "answerZh": "投票結果很接近,但現時大多數成員似乎較傾向第二個計劃。",
+      "highlight": "lean towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或意見"
+    },
+    {
+      "id": "phrasal-verb-237-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "There were no seats left, so I rested against a post while I waited.",
+      "promptZh": "沒有座位,所以我等候時靠着一根柱子。",
+      "starter": "There",
+      "answer": "There were no seats left, so I leaned against a post while I waited.",
+      "answerZh": "沒有座位,所以我等候時靠着一根柱子。",
+      "highlight": "leaned",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The editor refused to remove the story even though several people had pressured her.",
+      "promptZh": "儘管幾個人曾向編輯施壓,她仍拒絕刪除那篇報道。",
+      "starter": "The",
+      "answer": "The editor refused to remove the story even though several people had leaned on her.",
+      "answerZh": "儘管幾個人曾向編輯施壓,她仍拒絕刪除那篇報道。",
+      "highlight": "leaned on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The picture frame kept falling, so he placed it against a pile of books.",
+      "promptZh": "相架不斷倒下,所以他把它斜靠在一疊書上。",
+      "starter": "The",
+      "answer": "The picture frame kept falling, so he leaned it against a pile of books.",
+      "answerZh": "相架不斷倒下,所以他把它斜靠在一疊書上。",
+      "highlight": "leaned",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "For many years, the school depended upon local volunteers to run the club.",
+      "promptZh": "多年來,學校依靠當地義工營辦這個學會。",
+      "starter": "For",
+      "answer": "For many years, the school leaned upon local volunteers to run the club.",
+      "answerZh": "多年來,學校依靠當地義工營辦這個學會。",
+      "highlight": "leaned",
+      "targetForm": "lean upon somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The committee is beginning to favour a shorter event.",
+      "promptZh": "委員會開始較傾向舉辦較短的活動。",
+      "starter": "The",
+      "answer": "The committee is beginning to lean toward a shorter event.",
+      "answerZh": "委員會開始較傾向舉辦較短的活動。",
+      "highlight": "lean toward",
+      "targetForm": "lean toward something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When her ankle hurt, Priya rested some of her weight on her brother as they walked.",
+      "promptZh": "普里雅腳踝疼痛,所以走路時靠着哥哥借力。",
+      "starter": "When",
+      "answer": "When her ankle hurt, Priya leaned on her brother as they walked.",
+      "answerZh": "普里雅腳踝疼痛,所以走路時靠着哥哥借力。",
+      "highlight": "leaned",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "把部分身體重量靠在某人身上"
+    },
+    {
+      "id": "phrasal-verb-237-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The workers could not carry the glass flat, so they placed it carefully against the wall.",
+      "promptZh": "工人無法平放搬運玻璃,所以小心地把它斜靠在牆上。",
+      "starter": "The",
+      "answer": "The workers could not carry the glass flat, so they leaned it carefully against the wall.",
+      "answerZh": "工人無法平放搬運玻璃,所以小心地把它斜靠在牆上。",
+      "highlight": "leaned",
+      "targetForm": "lean something against something",
+      "targetMeaningZh": "把某物斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "No teacher should pressure a student to hide a safety problem.",
+      "promptZh": "教師不應向學生施壓,要求對方隱瞞安全問題。",
+      "starter": "No",
+      "answer": "No teacher should lean on a student to hide a safety problem.",
+      "answerZh": "教師不應向學生施壓,要求對方隱瞞安全問題。",
+      "highlight": "lean on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although June made the final decision herself, she depended on her friends for calm advice.",
+      "promptZh": "雖然朱恩自行作出最後決定,但她依靠朋友給予冷靜的意見。",
+      "starter": "Although",
+      "answer": "Although June made the final decision herself, she leaned on her friends for calm advice.",
+      "answerZh": "雖然朱恩自行作出最後決定,但她依靠朋友給予冷靜的意見。",
+      "highlight": "leaned",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得支持或意見"
+    },
+    {
+      "id": "phrasal-verb-237-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After hearing the new cost, are you now more likely to choose the basic package?",
+      "promptZh": "聽到新價格後,你現在是否較傾向選擇基本套餐?",
+      "starter": "After",
+      "answer": "After hearing the new cost, are you now leaning towards the basic package?",
+      "answerZh": "聽到新價格後,你現在是否較傾向選擇基本套餐?",
+      "highlight": "leaning towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The queue moved slowly, and several tired people rested against the station wall.",
+      "promptZh": "隊伍移動緩慢,幾名疲倦的人靠着車站的牆。",
+      "starter": "The",
+      "answer": "The queue moved slowly, and several tired people leaned against the station wall.",
+      "answerZh": "隊伍移動緩慢,幾名疲倦的人靠着車站的牆。",
+      "highlight": "leaned",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the café became busy, the new worker knew she could depend on Omar for help without giving him every task.",
+      "promptZh": "咖啡店變得繁忙時,新員工知道自己可以依靠奧馬幫忙,而不用把每項工作都交給他。",
+      "starter": "When",
+      "answer": "When the café became busy, the new worker knew she could lean on Omar for help without giving him every task.",
+      "answerZh": "咖啡店變得繁忙時,新員工知道自己可以依靠奧馬幫忙,而不用把每項工作都交給他。",
+      "highlight": "lean",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The group did not threaten the reporter directly, but it repeatedly tried to make her drop the story.",
+      "promptZh": "該團體沒有直接威脅記者,但一再向她施壓,試圖令她放棄報道。",
+      "starter": "The",
+      "answer": "The group did not threaten the reporter directly, but it repeatedly leaned on her to drop the story.",
+      "answerZh": "該團體沒有直接威脅記者,但一再向她施壓,試圖令她放棄報道。",
+      "highlight": "leaned on her",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We still like both ideas, but after testing them, we are now more likely to choose the one with fewer steps.",
+      "promptZh": "我們仍喜歡兩個構思,但測試後,現在較傾向選擇步驟較少的一個。",
+      "starter": "We",
+      "answer": "We still like both ideas, but after testing them, we are now leaning towards the one with fewer steps.",
+      "answerZh": "我們仍喜歡兩個構思,但測試後,現在較傾向選擇步驟較少的一個。",
+      "highlight": "leaning towards",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The shelf was already full, so Ava stood the folded table upright against the wall until later.",
+      "promptZh": "架子已放滿,所以艾娃把摺枱直立斜靠在牆上,留待稍後處理。",
+      "starter": "The",
+      "answer": "The shelf was already full, so Ava leaned the folded table up against the wall until later.",
+      "answerZh": "架子已放滿,所以艾娃把摺枱直立斜靠在牆上,留待稍後處理。",
+      "highlight": "leaned",
+      "targetForm": "lean something up against something",
+      "targetMeaningZh": "把某物直立斜靠在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-237-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The train stopped suddenly, and Daniel had to rest against the door to keep his balance.",
+      "promptZh": "火車突然停下,丹尼爾只好靠着門保持平衡。",
+      "starter": "The",
+      "answer": "The train stopped suddenly, and Daniel had to lean against the door to keep his balance.",
+      "answerZh": "火車突然停下,丹尼爾只好靠着門保持平衡。",
+      "highlight": "lean",
+      "targetForm": "lean against something",
+      "targetMeaningZh": "把身體靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The project belongs to everyone, so the leader should not depend on one person for every answer.",
+      "promptZh": "項目屬於所有人,因此領袖不應每個答案都依賴同一個人。",
+      "starter": "The",
+      "answer": "The project belongs to everyone, so the leader should not lean on one person for every answer.",
+      "answerZh": "項目屬於所有人,因此領袖不應每個答案都依賴同一個人。",
+      "highlight": "lean",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "依靠某人取得協助"
+    },
+    {
+      "id": "phrasal-verb-237-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Because the owner would not lower the rent, they began putting strong pressure on him to reconsider.",
+      "promptZh": "業主不肯減租,所以他們開始大力向他施壓,要求他重新考慮。",
+      "starter": "Because",
+      "answer": "Because the owner would not lower the rent, they began leaning on him to reconsider.",
+      "answerZh": "業主不肯減租,所以他們開始大力向他施壓,要求他重新考慮。",
+      "highlight": "leaning",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Her neck was sore, so she placed her head on a cushion while reading.",
+      "promptZh": "她頸部疼痛,所以閱讀時把頭靠在軟墊上。",
+      "starter": "Her",
+      "answer": "Her neck was sore, so she leaned her head on a cushion while reading.",
+      "answerZh": "她頸部疼痛,所以閱讀時把頭靠在軟墊上。",
+      "highlight": "leaned",
+      "targetForm": "lean something on something",
+      "targetMeaningZh": "把身體某部分靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The final choice has not been made, although the judges appear slightly more likely to choose the simpler design.",
+      "promptZh": "尚未作出最終選擇,但評判似乎稍為傾向較簡單的設計。",
+      "starter": "The",
+      "answer": "The final choice has not been made, although the judges appear to lean slightly towards the simpler design.",
+      "answerZh": "尚未作出最終選擇,但評判似乎稍為傾向較簡單的設計。",
+      "highlight": "to lean",
+      "targetForm": "lean towards something",
+      "targetMeaningZh": "傾向某個選擇或做法"
+    },
+    {
+      "id": "phrasal-verb-237-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "As the talk continued, Leo became tired and began resting heavily on the table.",
+      "promptZh": "隨着演講繼續,里奧感到疲倦,開始重重靠在桌上。",
+      "starter": "As",
+      "answer": "As the talk continued, Leo became tired and began leaning heavily on the table.",
+      "answerZh": "隨着演講繼續,里奧感到疲倦,開始重重靠在桌上。",
+      "highlight": "leaning",
+      "targetForm": "lean on something",
+      "targetMeaningZh": "把身體重量靠在某物上"
+    },
+    {
+      "id": "phrasal-verb-237-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Several players said they had been pressured to ignore the problem before the match.",
+      "promptZh": "幾名球員表示,他們賽前曾受壓,被要求忽視問題。",
+      "starter": "Several",
+      "answer": "Several players said they had been leaned on to ignore the problem before the match.",
+      "answerZh": "幾名球員表示,他們賽前曾受壓,被要求忽視問題。",
+      "highlight": "leaned on",
+      "targetForm": "lean on somebody",
+      "targetMeaningZh": "向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-237-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 25,
+      "prompt": "Even after moving away, the twins still depended upon each other whenever life became difficult.",
+      "promptZh": "即使搬走後,雙胞胎在生活遇到困難時仍互相依靠。",
+      "starter": "Even",
+      "answer": "Even after moving away, the twins still leaned upon each other whenever life became difficult.",
+      "answerZh": "即使搬走後,雙胞胎在生活遇到困難時仍互相依靠。",
+      "highlight": "leaned",
+      "targetForm": "lean upon somebody",
+      "targetMeaningZh": "依靠某人取得支持"
+    }
+  ]
+}

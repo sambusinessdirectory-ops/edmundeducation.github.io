@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-328",
+  "order": 328,
+  "slug": "sing",
+  "version": "1",
+  "title": "SING 動詞片語",
+  "titleEn": "Sing",
+  "titleZh": "SING 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 313 - SING.pdf",
+    "sourceNumber": 313,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SING",
+      "highlight": "SING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We sang along to all the songs.",
+      "zh": "我們跟着所有歌曲一起唱。",
+      "highlight": "sang along to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Sing the last line out clearly.",
+      "zh": "把最後一句大聲清楚地唱出來。",
+      "highlight": "Sing the last line out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Sing up; I cannot hear you.",
+      "zh": "唱大聲一點;我聽不到你。",
+      "highlight": "Sing up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "跟着某人、錄音、歌曲或音樂一起唱；放聲唱;把某些歌詞或內容大聲清楚地唱出來；唱大聲一點,讓別人聽得到",
+    "en": "sing along / sing along with somebody or something / sing along to something; sing out / sing something out; sing up",
+    "naturalZh": [
+      "跟着某人、錄音、歌曲或音樂一起唱",
+      "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+      "唱大聲一點,讓別人聽得到"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sing along / sing along with somebody or something / sing along to something",
+      "titleZh": "跟着某人、錄音、歌曲或音樂一起唱",
+      "titleEn": "sing along / sing along with somebody or something / sing along to something",
+      "descriptionZh": "跟着某人、錄音、歌曲或音樂一起唱",
+      "descriptionEn": "We sang along to all the songs.",
+      "examples": [
+        {
+          "en": "We sang along to all the songs.",
+          "zh": "我們跟着所有歌曲一起唱。",
+          "highlight": "sang along to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sing out / sing something out",
+      "titleZh": "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+      "titleEn": "sing out / sing something out",
+      "descriptionZh": "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+      "descriptionEn": "Sing the last line out clearly.",
+      "examples": [
+        {
+          "en": "Sing the last line out clearly.",
+          "zh": "把最後一句大聲清楚地唱出來。",
+          "highlight": "Sing the last line out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sing up",
+      "titleZh": "唱大聲一點,讓別人聽得到",
+      "titleEn": "sing up",
+      "descriptionZh": "唱大聲一點,讓別人聽得到",
+      "descriptionEn": "Sing up; I cannot hear you.",
+      "examples": [
+        {
+          "en": "Sing up; I cannot hear you.",
+          "zh": "唱大聲一點;我聽不到你。",
+          "highlight": "Sing up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SING 片語動詞的實際用途",
+    "labelEn": "SING Phrasal Verbs in Use",
+    "summaryZh": "sing along 可以用來描述跟朋友、表演者、錄音、影片或歌曲一起唱。；你可以在派對、車上、學校表演期間或收聽電台時 sing along。；sing out 和 sing something out 表示某人放聲並清楚地唱,讓聽眾聽得到。；當歌者的聲音太小時,sing up 是要求對方唱大聲一點的自然說法。",
+    "summaryEn": "Sing along lets you describe singing with friends, performers, recordings, films or songs. You can sing along at a party, in a car, during a school show or while listening to the radio. Sing out and sing something out show that a person is singing loudly and clearly enough for an audience to hear. Sing up is a direct and natural way to tell a quiet singer that their voice needs to be louder.",
+    "contextsZh": [
+      "自然地表達跟着音樂一起唱",
+      "描述不同情境中的集體歌唱",
+      "表示歌詞需要讓人清楚聽到",
+      "要求某人提高聲量"
+    ],
+    "contextsEn": [
+      "Talk naturally about joining familiar music",
+      "Describe shared singing in different situations",
+      "Make it clear that the words should be heard",
+      "Ask someone to increase their volume"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sing along / sing along with somebody or something / sing along to something",
+    "fixedHighlight": "sing along / sing along with somebody or something / sing along to something",
+    "fixedZh": "閱讀整句,選出意思相同的 SING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SING expression that gives the same meaning.",
+    "correct": "sang along to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；sing along 本身已經完整。with somebody/something 和 to something 是可選的補充資料,用來指出跟着哪個人、錄音、歌曲或音樂一起唱。；sing out 表示放聲並清楚地唱;使用 it 時,應說 sing it out。sing up 通常用來要求某人唱大聲一點,因為別人聽不到其歌聲。",
+    "variableEn": "Keep the same people, things, time and meaning. Sing along is already complete. With somebody/something and to something are optional additions that tell us who or what provides the singing or music. Sing out means to sing loudly and clearly. When using it, say sing it out. Sing up usually asks someone to sing more loudly because their voice cannot be heard.",
+    "variableItemsZh": [
+      "sing along / sing along with somebody or something / sing along to something",
+      "sing out / sing something out",
+      "sing up"
+    ],
+    "variableItemsEn": [
+      "sing along / sing along with somebody or something / sing along to something",
+      "sing out / sing something out",
+      "sing up"
+    ],
+    "forms": [
+      {
+        "formZh": "跟着某人、錄音、歌曲或音樂一起唱",
+        "formEn": "sing along / sing along with somebody or something / sing along to something",
+        "exampleZh": "我們跟着所有歌曲一起唱。",
+        "exampleEn": "We sang along to all the songs.",
+        "highlight": "sang along to"
+      },
+      {
+        "formZh": "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+        "formEn": "sing out / sing something out",
+        "exampleZh": "把最後一句大聲清楚地唱出來。",
+        "exampleEn": "Sing the last line out clearly.",
+        "highlight": "Sing the last line out"
+      },
+      {
+        "formZh": "唱大聲一點,讓別人聽得到",
+        "formEn": "sing up",
+        "exampleZh": "唱大聲一點;我聽不到你。",
+        "exampleEn": "Sing up; I cannot hear you.",
+        "highlight": "Sing up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "跟着某人、錄音、歌曲或音樂一起唱",
+      "titleEn": "sing along / sing along with somebody or something / sing along to something",
+      "formula": "sing along / sing along with somebody or something / sing along to something",
+      "highlight": "sing along / sing along with somebody or something / sing along to something",
+      "descriptionZh": "跟着某人、錄音、歌曲或音樂一起唱",
+      "descriptionEn": "We sang along to all the songs.",
+      "examples": [
+        {
+          "en": "We sang along to all the songs.",
+          "zh": "我們跟着所有歌曲一起唱。",
+          "highlight": "sang along to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+      "titleEn": "sing out / sing something out",
+      "formula": "sing out / sing something out",
+      "highlight": "sing out / sing something out",
+      "descriptionZh": "放聲唱;把某些歌詞或內容大聲清楚地唱出來",
+      "descriptionEn": "Sing the last line out clearly.",
+      "examples": [
+        {
+          "en": "Sing the last line out clearly.",
+          "zh": "把最後一句大聲清楚地唱出來。",
+          "highlight": "Sing the last line out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "唱大聲一點,讓別人聽得到",
+      "titleEn": "sing up",
+      "formula": "sing up",
+      "highlight": "sing up",
+      "descriptionZh": "唱大聲一點,讓別人聽得到",
+      "descriptionEn": "Sing up; I cannot hear you.",
+      "examples": [
+        {
+          "en": "Sing up; I cannot hear you.",
+          "zh": "唱大聲一點;我聽不到你。",
+          "highlight": "Sing up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地表達跟着音樂一起唱",
+      "titleEn": "Talk naturally about joining familiar music",
+      "zh": "sing along 可以用來描述跟朋友、表演者、錄音、影片或歌曲一起唱。",
+      "en": "Sing along lets you describe singing with friends, performers, recordings, films or songs."
+    },
+    {
+      "titleZh": "描述不同情境中的集體歌唱",
+      "titleEn": "Describe shared singing in different situations",
+      "zh": "你可以在派對、車上、學校表演期間或收聽電台時 sing along。",
+      "en": "You can sing along at a party, in a car, during a school show or while listening to the radio."
+    },
+    {
+      "titleZh": "表示歌詞需要讓人清楚聽到",
+      "titleEn": "Make it clear that the words should be heard",
+      "zh": "sing out 和 sing something out 表示某人放聲並清楚地唱,讓聽眾聽得到。",
+      "en": "Sing out and sing something out show that a person is singing loudly and clearly enough for an audience to hear."
+    },
+    {
+      "titleZh": "要求某人提高聲量",
+      "titleEn": "Ask someone to increase their volume",
+      "zh": "當歌者的聲音太小時,sing up 是要求對方唱大聲一點的自然說法。",
+      "en": "Sing up is a direct and natural way to tell a quiet singer that their voice needs to be louder."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地表達跟着音樂一起唱",
+      "描述不同情境中的集體歌唱",
+      "表示歌詞需要讓人清楚聽到",
+      "要求某人提高聲量"
+    ],
+    "contextsEn": [
+      "Talk naturally about joining familiar music",
+      "Describe shared singing in different situations",
+      "Make it clear that the words should be heard",
+      "Ask someone to increase their volume"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地表達跟着音樂一起唱",
+        "titleEn": "Talk naturally about joining familiar music",
+        "zh": "sing along 可以用來描述跟朋友、表演者、錄音、影片或歌曲一起唱。",
+        "en": "Sing along lets you describe singing with friends, performers, recordings, films or songs.",
+        "examples": [
+          {
+            "en": "We sang along to all the songs.",
+            "zh": "我們跟着所有歌曲一起唱。",
+            "highlight": "sang along to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同情境中的集體歌唱",
+        "titleEn": "Describe shared singing in different situations",
+        "zh": "你可以在派對、車上、學校表演期間或收聽電台時 sing along。",
+        "en": "You can sing along at a party, in a car, during a school show or while listening to the radio.",
+        "examples": [
+          {
+            "en": "Sing the last line out clearly.",
+            "zh": "把最後一句大聲清楚地唱出來。",
+            "highlight": "Sing the last line out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示歌詞需要讓人清楚聽到",
+        "titleEn": "Make it clear that the words should be heard",
+        "zh": "sing out 和 sing something out 表示某人放聲並清楚地唱,讓聽眾聽得到。",
+        "en": "Sing out and sing something out show that a person is singing loudly and clearly enough for an audience to hear.",
+        "examples": [
+          {
+            "en": "Sing up; I cannot hear you.",
+            "zh": "唱大聲一點;我聽不到你。",
+            "highlight": "Sing up"
+          }
+        ]
+      },
+      {
+        "titleZh": "要求某人提高聲量",
+        "titleEn": "Ask someone to increase their volume",
+        "zh": "當歌者的聲音太小時,sing up 是要求對方唱大聲一點的自然說法。",
+        "en": "Sing up is a direct and natural way to tell a quiet singer that their voice needs to be louder.",
+        "examples": [
+          {
+            "en": "We sang along to all the songs.",
+            "zh": "我們跟着所有歌曲一起唱。",
+            "highlight": "sang along to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SING 片語動詞。",
+      "en": "Read the whole sentence and choose the SING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "sing along 本身已經完整。with somebody/something 和 to something 是可選的補充資料,用來指出跟着哪個人、錄音、歌曲或音樂一起唱。",
+      "titleEn": "Sing along is already complete.",
+      "zh": "sing along 本身已經完整。with somebody/something 和 to something 是可選的補充資料,用來指出跟着哪個人、錄音、歌曲或音樂一起唱。",
+      "en": "Sing along is already complete. With somebody/something and to something are optional additions that tell us who or what provides the singing or music."
+    },
+    {
+      "titleZh": "sing out 表示放聲並清楚地唱;使用 it 時,應說 sing it out。sing up 通常用來要求某人唱大聲一點,因為別人聽不到其歌聲。",
+      "titleEn": "Sing out means to sing loudly and clearly.",
+      "zh": "sing out 表示放聲並清楚地唱;使用 it 時,應說 sing it out。sing up 通常用來要求某人唱大聲一點,因為別人聽不到其歌聲。",
+      "en": "Sing out means to sing loudly and clearly. When using it, say sing it out. Sing up usually asks someone to sing more loudly because their voice cannot be heard."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SING 動詞片語句子改寫練習",
+    "titleEn": "SING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-328-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The children sang together with the recording.",
+      "promptZh": "孩子們跟着錄音一起唱。",
+      "starter": "The",
+      "answer": "The children sang along with the recording.",
+      "answerZh": "孩子們跟着錄音一起唱。",
+      "highlight": "sang along",
+      "targetForm": "sing along with something",
+      "targetMeaningZh": "跟着錄音或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Sing more loudly; I cannot hear you.",
+      "promptZh": "唱大聲一點;我聽不到你。",
+      "starter": "Sing",
+      "answer": "Sing up; I cannot hear you.",
+      "answerZh": "唱大聲一點;我聽不到你。",
+      "highlight": "Sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please sing loudly and clearly so everyone can hear you.",
+      "promptZh": "請大聲清楚地唱,讓所有人都聽得到。",
+      "starter": "Please",
+      "answer": "Please sing out so everyone can hear you.",
+      "answerZh": "請放聲唱,讓所有人都聽得到。",
+      "highlight": "sing out",
+      "targetForm": "sing out",
+      "targetMeaningZh": "放聲並清楚地唱"
+    },
+    {
+      "id": "phrasal-verb-328-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We sang every song together with the music at the party.",
+      "promptZh": "我們在派對上跟着音樂唱了每一首歌。",
+      "starter": "We",
+      "answer": "We sang along to every song at the party.",
+      "answerZh": "我們在派對上跟着每一首歌一起唱。",
+      "highlight": "sang along to",
+      "targetForm": "sing along to something",
+      "targetMeaningZh": "跟着歌曲或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The choir sang the final word loudly and clearly.",
+      "promptZh": "合唱團把最後一個字大聲清楚地唱了出來。",
+      "starter": "The",
+      "answer": "The choir sang the final word out clearly.",
+      "answerZh": "合唱團把最後一個字大聲清楚地唱了出來。",
+      "highlight": "sang the final word out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please sing more loudly during the next verse.",
+      "promptZh": "下一段請唱大聲一點。",
+      "starter": "Please",
+      "answer": "Please sing up during the next verse.",
+      "answerZh": "下一段請唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Clara likes to join her brother when he sings.",
+      "promptZh": "克拉拉喜歡在哥哥唱歌時跟他一起唱。",
+      "starter": "Clara",
+      "answer": "Clara likes to sing along with her brother.",
+      "answerZh": "克拉拉喜歡跟哥哥一起唱。",
+      "highlight": "sing along with",
+      "targetForm": "sing along with somebody",
+      "targetMeaningZh": "跟着某人一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben sang loudly across the hall.",
+      "promptZh": "賓的歌聲響遍大堂。",
+      "starter": "Ben",
+      "answer": "Ben sang out across the hall.",
+      "answerZh": "賓放聲歌唱,歌聲響遍大堂。",
+      "highlight": "sang out",
+      "targetForm": "sing out",
+      "targetMeaningZh": "放聲並清楚地唱"
+    },
+    {
+      "id": "phrasal-verb-328-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher told Adam to sing more loudly.",
+      "promptZh": "老師叫亞當唱大聲一點。",
+      "starter": "The",
+      "answer": "The teacher told Adam to sing up.",
+      "answerZh": "老師叫亞當唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "During the chorus, everyone joined the singing.",
+      "promptZh": "唱到副歌時,所有人都加入一起唱。",
+      "starter": "During",
+      "answer": "During the chorus, everyone sang along.",
+      "answerZh": "唱到副歌時,所有人都跟着一起唱。",
+      "highlight": "sang along",
+      "targetForm": "sing along",
+      "targetMeaningZh": "跟着一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The teacher asked us to sing the answer loudly.",
+      "promptZh": "老師叫我們把答案大聲唱出來。",
+      "starter": "The",
+      "answer": "The teacher asked us to sing the answer out.",
+      "answerZh": "老師叫我們把答案大聲唱出來。",
+      "highlight": "sing the answer out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I was singing the song playing on the radio in the kitchen.",
+      "promptZh": "我當時正在廚房跟着收音機播放的歌曲一起唱。",
+      "starter": "I",
+      "answer": "I was singing along to the song on the radio in the kitchen.",
+      "answerZh": "我當時正在廚房跟着收音機播放的歌曲一起唱。",
+      "highlight": "singing along to",
+      "targetForm": "sing along to something",
+      "targetMeaningZh": "跟着歌曲或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I wish the back row would sing more loudly.",
+      "promptZh": "我希望後排的人唱大聲一點。",
+      "starter": "I",
+      "answer": "I wish the back row would sing up.",
+      "answerZh": "我希望後排的人唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Could you sing the answer loudly so the back row can hear?",
+      "promptZh": "你可以把答案唱大聲一點,讓後排的人聽到嗎?",
+      "starter": "Could",
+      "answer": "Could you sing the answer out so the back row can hear?",
+      "answerZh": "你可以把答案唱大聲一點,讓後排的人聽到嗎?",
+      "highlight": "sing the answer out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why do you not join us while we sing?",
+      "promptZh": "你何不在我們唱歌時加入一起唱?",
+      "starter": "Why",
+      "answer": "Why do you not sing along with us?",
+      "answerZh": "你何不跟我們一起唱?",
+      "highlight": "sing along with",
+      "targetForm": "sing along with somebody",
+      "targetMeaningZh": "跟着某人一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Sara has begun to sing each line loudly and clearly.",
+      "promptZh": "莎拉開始把每一句都大聲清楚地唱出來。",
+      "starter": "Sara",
+      "answer": "Sara has begun to sing each line out clearly.",
+      "answerZh": "莎拉開始把每一句都大聲清楚地唱出來。",
+      "highlight": "sing each line out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "You will need to sing more loudly in this large room.",
+      "promptZh": "在這個大房間裏,你需要唱大聲一點。",
+      "starter": "You",
+      "answer": "You will need to sing up in this large room.",
+      "answerZh": "在這個大房間裏,你需要唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The class has learnt to sing together with the piano.",
+      "promptZh": "全班已學會跟着鋼琴一起唱。",
+      "starter": "The",
+      "answer": "The class has learnt to sing along with the piano.",
+      "answerZh": "全班已學會跟着鋼琴一起唱。",
+      "highlight": "sing along",
+      "targetForm": "sing along with something",
+      "targetMeaningZh": "跟着樂器或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can everyone sing a little more loudly?",
+      "promptZh": "大家可以唱大聲一點嗎?",
+      "starter": "Can",
+      "answer": "Can everyone sing up a little?",
+      "answerZh": "大家可以唱大聲一點嗎?",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "When your solo line comes, sing it loudly and clearly.",
+      "promptZh": "輪到你的獨唱句時,把它大聲清楚地唱出來。",
+      "starter": "When",
+      "answer": "When your solo line comes, sing it out.",
+      "answerZh": "輪到你的獨唱句時,把它大聲唱出來。",
+      "highlight": "sing it out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The first group sang more loudly after the teacher moved farther away.",
+      "promptZh": "老師走得更遠後,第一組便唱得更大聲。",
+      "starter": "The",
+      "answer": "The first group sang up after the teacher moved farther away.",
+      "answerZh": "老師走得更遠後,第一組便唱得更大聲。",
+      "highlight": "sang up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "While the band played, several people joined the singing.",
+      "promptZh": "樂隊演奏時,有幾個人跟着一起唱。",
+      "starter": "While",
+      "answer": "While the band played, several people sang along.",
+      "answerZh": "樂隊演奏時,有幾個人跟着一起唱。",
+      "highlight": "sang along",
+      "targetForm": "sing along",
+      "targetMeaningZh": "跟着一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The group sang the words loudly together.",
+      "promptZh": "小組一起把歌詞大聲唱了出來。",
+      "starter": "The",
+      "answer": "The group sang the words out together.",
+      "answerZh": "小組一起把歌詞大聲唱出來。",
+      "highlight": "sang the words out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "If your voice is too quiet, sing more loudly.",
+      "promptZh": "如果你的聲音太小,便唱大聲一點。",
+      "starter": "If",
+      "answer": "If your voice is too quiet, sing up.",
+      "answerZh": "如果你的聲音太小,便唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After the conductor’s signal, Ravi sang the high note loudly and clearly.",
+      "promptZh": "指揮發出訊號後,拉維把那個高音大聲清楚地唱了出來。",
+      "starter": "After",
+      "answer": "After the conductor’s signal, Ravi sang the high note out clearly.",
+      "answerZh": "指揮發出訊號後,拉維把那個高音清楚地唱了出來。",
+      "highlight": "sang the high note out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Evan could not stop singing the old tune as it played.",
+      "promptZh": "那首舊曲播放時,埃文忍不住跟着一起唱。",
+      "starter": "Evan",
+      "answer": "Evan could not stop singing along to the old tune.",
+      "answerZh": "埃文忍不住跟着那首舊曲一起唱。",
+      "highlight": "singing along to",
+      "targetForm": "sing along to something",
+      "targetMeaningZh": "跟着歌曲或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nora tried to sing more loudly, but she was still hard to hear.",
+      "promptZh": "諾拉嘗試唱大聲一點,但仍然很難聽到她的聲音。",
+      "starter": "Nora",
+      "answer": "Nora tried to sing up, but she was still hard to hear.",
+      "answerZh": "諾拉嘗試唱大聲一點,但仍然很難聽到她的聲音。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Do not whisper the last line; sing it loudly.",
+      "promptZh": "不要低聲唱最後一句;把它大聲唱出來。",
+      "starter": "Do",
+      "answer": "Do not whisper the last line; sing it out.",
+      "answerZh": "不要低聲唱最後一句;把它大聲唱出來。",
+      "highlight": "sing it out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After one verse, everyone on the bus was singing with the music.",
+      "promptZh": "唱完第一段後,巴士上的所有人都跟着音樂一起唱。",
+      "starter": "After",
+      "answer": "After one verse, everyone on the bus was singing along with the music.",
+      "answerZh": "唱完第一段後,巴士上的所有人都跟着音樂一起唱。",
+      "highlight": "singing along",
+      "targetForm": "sing along with something",
+      "targetMeaningZh": "跟着音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the conductor ask the children to sing more loudly?",
+      "promptZh": "指揮為甚麼叫孩子們唱大聲一點?",
+      "starter": "Why",
+      "answer": "Why did the conductor ask the children to sing up?",
+      "answerZh": "指揮為甚麼叫孩子們唱大聲一點?",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The audience sang together with the singer during the last song.",
+      "promptZh": "最後一首歌時,觀眾跟着歌手一起唱。",
+      "starter": "The",
+      "answer": "The audience sang along with the singer during the last song.",
+      "answerZh": "最後一首歌時,觀眾跟着歌手一起唱。",
+      "highlight": "sang along",
+      "targetForm": "sing along with somebody",
+      "targetMeaningZh": "跟着某人一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children sang the welcome song loudly so the visitors at the back could hear.",
+      "promptZh": "孩子們把歡迎歌曲唱得很大聲,讓後排的訪客也能聽到。",
+      "starter": "The",
+      "answer": "The children sang the welcome song out so the visitors at the back could hear.",
+      "answerZh": "孩子們把歡迎歌曲大聲唱出來,讓後排的訪客也能聽到。",
+      "highlight": "sang the welcome song out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please sing more loudly because the music is covering your voices.",
+      "promptZh": "請唱大聲一點,因為音樂蓋過了你們的聲音。",
+      "starter": "Please",
+      "answer": "Please sing up because the music is covering your voices.",
+      "answerZh": "請唱大聲一點,因為音樂蓋過了你們的聲音。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Even though she did not know every word, she sang with the recording during the chorus.",
+      "promptZh": "即使她不是每個字都懂,唱到副歌時仍跟着錄音一起唱。",
+      "starter": "Even",
+      "answer": "Even though she did not know every word, she sang along with the recording during the chorus.",
+      "answerZh": "即使她不是每個字都懂,唱到副歌時仍跟着錄音一起唱。",
+      "highlight": "sang along",
+      "targetForm": "sing along with something",
+      "targetMeaningZh": "跟着錄音或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The boys were asked to sing more loudly during the second verse.",
+      "promptZh": "男孩子們被要求在第二段唱大聲一點。",
+      "starter": "The",
+      "answer": "The boys were asked to sing up during the second verse.",
+      "answerZh": "男孩子們被要求在第二段唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "While the machines were running, she sang loudly over the noise.",
+      "promptZh": "機器運作時,她提高聲量,蓋過噪音唱歌。",
+      "starter": "While",
+      "answer": "While the machines were running, she sang out over the noise.",
+      "answerZh": "機器運作時,她提高聲量,蓋過噪音唱了出來。",
+      "highlight": "sang out",
+      "targetForm": "sing out",
+      "targetMeaningZh": "放聲並清楚地唱"
+    },
+    {
+      "id": "phrasal-verb-328-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Singing together with the video helped the children remember the words.",
+      "promptZh": "跟着影片一起唱,幫助孩子們記住歌詞。",
+      "starter": "Singing",
+      "answer": "Singing along with the video helped the children remember the words.",
+      "answerZh": "跟着影片一起唱,幫助孩子們記住歌詞。",
+      "highlight": "Singing along",
+      "targetForm": "sing along with something",
+      "targetMeaningZh": "跟着錄音或影片一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Unless you sing more loudly, the people at the back will miss the words.",
+      "promptZh": "除非你唱大聲一點,否則後排的人會聽不清歌詞。",
+      "starter": "Unless",
+      "answer": "Unless you sing up, the people at the back will miss the words.",
+      "answerZh": "除非你唱大聲一點,否則後排的人會聽不清歌詞。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We were told to sing the school name loudly at the end.",
+      "promptZh": "我們被叫在結尾把校名大聲唱出來。",
+      "starter": "We",
+      "answer": "We were told to sing the school name out at the end.",
+      "answerZh": "我們被叫在結尾把校名大聲唱出來。",
+      "highlight": "sing the school name out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "You can join the singing if you know the song.",
+      "promptZh": "如果你會唱這首歌,便可以跟着一起唱。",
+      "starter": "You",
+      "answer": "You can sing along if you know the song.",
+      "answerZh": "如果你會唱這首歌,便可以跟着一起唱。",
+      "highlight": "sing along",
+      "targetForm": "sing along",
+      "targetMeaningZh": "跟着一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the music stopped suddenly, the lead singer sang the last line loudly by herself.",
+      "promptZh": "音樂突然停下時,主唱獨自把最後一句大聲唱了出來。",
+      "starter": "When",
+      "answer": "When the music stopped suddenly, the lead singer sang the last line out alone.",
+      "answerZh": "音樂突然停下時,主唱獨自把最後一句大聲唱了出來。",
+      "highlight": "sang the last line out alone",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The teacher could hear only the front row, so she asked the others to sing more loudly.",
+      "promptZh": "老師只能聽到前排,所以叫其他人唱大聲一點。",
+      "starter": "The",
+      "answer": "The teacher could hear only the front row, so she asked the others to sing up.",
+      "answerZh": "老師只能聽到前排,所以叫其他人唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As soon as the familiar music began, the grandparents started singing with it.",
+      "promptZh": "一聽到熟悉的音樂,祖父母便開始跟着一起唱。",
+      "starter": "As",
+      "answer": "As soon as the familiar music began, the grandparents started singing along.",
+      "answerZh": "一聽到熟悉的音樂,祖父母便開始跟着一起唱。",
+      "highlight": "singing along",
+      "targetForm": "sing along",
+      "targetMeaningZh": "跟着一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The coach wanted the team to sing loudly and confidently so their voices carried across the field.",
+      "promptZh": "教練希望隊員大聲自信地唱,讓歌聲傳遍球場。",
+      "starter": "The",
+      "answer": "The coach wanted the team to sing out so their voices carried across the field.",
+      "answerZh": "教練希望隊員放聲唱,讓歌聲傳遍球場。",
+      "highlight": "sing out",
+      "targetForm": "sing out",
+      "targetMeaningZh": "放聲並清楚地唱"
+    },
+    {
+      "id": "phrasal-verb-328-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We did not just listen; we sang every chorus with the music.",
+      "promptZh": "我們不只是聆聽;我們跟着音樂唱了每段副歌。",
+      "starter": "We",
+      "answer": "We did not just listen; we sang along to every chorus.",
+      "answerZh": "我們不只是聆聽;我們跟着每段副歌一起唱。",
+      "highlight": "sang along to",
+      "targetForm": "sing along to something",
+      "targetMeaningZh": "跟着歌曲或音樂一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "If the hall is full tomorrow, we may all have to sing more loudly.",
+      "promptZh": "如果明天大堂坐滿了人,我們可能全都要唱大聲一點。",
+      "starter": "If",
+      "answer": "If the hall is full tomorrow, we may all have to sing up.",
+      "answerZh": "如果明天大堂坐滿了人,我們可能全都要唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even without a microphone, Hana sang the words loudly and clearly enough for the whole hall.",
+      "promptZh": "即使沒有咪高峰,哈娜仍把歌詞唱得響亮清楚,整個大堂都能聽到。",
+      "starter": "Even",
+      "answer": "Even without a microphone, Hana sang the words out clearly enough for the whole hall.",
+      "answerZh": "即使沒有咪高峰,哈娜仍把歌詞清楚地唱出來,整個大堂都能聽到。",
+      "highlight": "sang the words out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    },
+    {
+      "id": "phrasal-verb-328-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "He invited the younger pupils to sing with the school band.",
+      "promptZh": "他邀請年幼的學生跟着學校樂隊一起唱。",
+      "starter": "He",
+      "answer": "He invited the younger pupils to sing along with the school band.",
+      "answerZh": "他邀請年幼的學生跟着學校樂隊一起唱。",
+      "highlight": "sing along",
+      "targetForm": "sing along with somebody or something",
+      "targetMeaningZh": "跟着某人或樂隊一起唱"
+    },
+    {
+      "id": "phrasal-verb-328-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "You need not shout, but you do need to sing more loudly.",
+      "promptZh": "你不必大叫,但確實需要唱大聲一點。",
+      "starter": "You",
+      "answer": "You need not shout, but you do need to sing up.",
+      "answerZh": "你不必大叫,但確實需要唱大聲一點。",
+      "highlight": "sing up",
+      "targetForm": "sing up",
+      "targetMeaningZh": "唱大聲一點"
+    },
+    {
+      "id": "phrasal-verb-328-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At the final rehearsal, the director asked the choir to sing every word loudly and clearly from the first note.",
+      "promptZh": "最後一次綵排時,導演要求合唱團從第一個音開始,把每個字都大聲清楚地唱出來。",
+      "starter": "At",
+      "answer": "At the final rehearsal, the director asked the choir to sing every word out clearly from the first note.",
+      "answerZh": "最後一次綵排時,導演要求合唱團從第一個音開始,把每個字都清楚地唱出來。",
+      "highlight": "sing every word out",
+      "targetForm": "sing something out",
+      "targetMeaningZh": "把某些內容大聲清楚地唱出來"
+    }
+  ]
+}

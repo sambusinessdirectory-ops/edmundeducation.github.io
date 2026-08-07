@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-325",
+  "order": 325,
+  "slug": "fence",
+  "version": "1",
+  "title": "FENCE 動詞片語",
+  "titleEn": "Fence",
+  "titleZh": "FENCE 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 310 - FENCE.pdf",
+    "sourceNumber": 310,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FENCE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FENCE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FENCE",
+      "highlight": "FENCE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Too many rules fenced the students in.",
+      "zh": "太多規則限制了學生的自由。",
+      "highlight": "fenced the students in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They fenced the field in to keep the sheep safe.",
+      "zh": "他們用圍欄把整個田地圍起來,以保障羊群安全。",
+      "highlight": "fenced the field in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The workers fenced off the dangerous area.",
+      "zh": "工人用圍欄把危險範圍隔開。",
+      "highlight": "fenced off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "限制某人的選擇或自由;使某人感到受束縛；用圍欄把整個地方圍起來；用圍欄把某地方隔開,阻止人或動物進入",
+    "en": "fence somebody in; fence something in; fence something off",
+    "naturalZh": [
+      "限制某人的選擇或自由;使某人感到受束縛",
+      "用圍欄把整個地方圍起來",
+      "用圍欄把某地方隔開,阻止人或動物進入"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fence somebody in",
+      "titleZh": "限制某人的選擇或自由;使某人感到受束縛",
+      "titleEn": "fence somebody in",
+      "descriptionZh": "限制某人的選擇或自由;使某人感到受束縛",
+      "descriptionEn": "Too many rules fenced the students in.",
+      "examples": [
+        {
+          "en": "Too many rules fenced the students in.",
+          "zh": "太多規則限制了學生的自由。",
+          "highlight": "fenced the students in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fence something in",
+      "titleZh": "用圍欄把整個地方圍起來",
+      "titleEn": "fence something in",
+      "descriptionZh": "用圍欄把整個地方圍起來",
+      "descriptionEn": "They fenced the field in to keep the sheep safe.",
+      "examples": [
+        {
+          "en": "They fenced the field in to keep the sheep safe.",
+          "zh": "他們用圍欄把整個田地圍起來,以保障羊群安全。",
+          "highlight": "fenced the field in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fence something off",
+      "titleZh": "用圍欄把某地方隔開,阻止人或動物進入",
+      "titleEn": "fence something off",
+      "descriptionZh": "用圍欄把某地方隔開,阻止人或動物進入",
+      "descriptionEn": "The workers fenced off the dangerous area.",
+      "examples": [
+        {
+          "en": "The workers fenced off the dangerous area.",
+          "zh": "工人用圍欄把危險範圍隔開。",
+          "highlight": "fenced off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FENCE 片語動詞的實際用途",
+    "labelEn": "FENCE Phrasal Verbs in Use",
+    "summaryZh": "FENCE SOMEBODY IN 可以描述規則、承諾、計劃或期望如何令某人沒有多少選擇。；FENCE SOMETHING IN 通常表示把整個範圍圍起來;FENCE SOMETHING OFF 則通常表示封閉某個地方或部分,防止別人進入。；這些表達適合用來談論危險小路、建築工程、池塘、動物活動範圍,以及需要受到保護的地方。；英文告示和報告經常使用 the area has been fenced off 或 the field is fenced in 等表達。",
+    "summaryEn": "FENCE SOMEBODY IN can describe how rules, promises, plans or expectations leave somebody with very few choices. FENCE SOMETHING IN usually refers to surrounding a complete area. FENCE SOMETHING OFF usually refers to closing one place or section to prevent entry. These expressions are useful when talking about unsafe paths, building work, ponds, animal areas and places that need protection. English notices and reports often use expressions such as the area has been fenced off or the field is fenced in.",
+    "contextsZh": [
+      "談論限制別人自由的規則",
+      "分辨圍起整個地方和隔開其中一部分",
+      "清楚描述安全安排",
+      "理解常見告示和報告"
+    ],
+    "contextsEn": [
+      "Talk about rules that limit people’s freedom",
+      "Distinguish between enclosing a whole place and separating one part",
+      "Describe safety arrangements clearly",
+      "Understand common signs and reports"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FENCE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FENCE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fence somebody in",
+    "fixedHighlight": "fence somebody in",
+    "fixedZh": "閱讀整句,選出意思相同的 FENCE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FENCE expression that gives the same meaning.",
+    "correct": "fenced the students in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 me、you、him、her、it、us 或 them 時,請按照以上例子放在 FENCE 和 IN/OFF 之間。；FENCE SOMETHING IN 表示用圍欄把整個地方圍起來;FENCE SOMETHING OFF 則表示用圍欄把某地方或其中一部分隔開,防止人或動物進入。",
+    "variableEn": "Keep the same people, things, time and meaning. When using me, you, him, her, it, us or them, place the word as shown: fence us in fence it in fence it off FENCE SOMETHING IN means surrounding the whole place with a fence. FENCE SOMETHING OFF means separating a place or part of a place so that people or animals cannot enter it.",
+    "variableItemsZh": [
+      "fence somebody in",
+      "fence something in",
+      "fence something off"
+    ],
+    "variableItemsEn": [
+      "fence somebody in",
+      "fence something in",
+      "fence something off"
+    ],
+    "forms": [
+      {
+        "formZh": "限制某人的選擇或自由;使某人感到受束縛",
+        "formEn": "fence somebody in",
+        "exampleZh": "太多規則限制了學生的自由。",
+        "exampleEn": "Too many rules fenced the students in.",
+        "highlight": "fenced the students in"
+      },
+      {
+        "formZh": "用圍欄把整個地方圍起來",
+        "formEn": "fence something in",
+        "exampleZh": "他們用圍欄把整個田地圍起來,以保障羊群安全。",
+        "exampleEn": "They fenced the field in to keep the sheep safe.",
+        "highlight": "fenced the field in"
+      },
+      {
+        "formZh": "用圍欄把某地方隔開,阻止人或動物進入",
+        "formEn": "fence something off",
+        "exampleZh": "工人用圍欄把危險範圍隔開。",
+        "exampleEn": "The workers fenced off the dangerous area.",
+        "highlight": "fenced off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "限制某人的選擇或自由;使某人感到受束縛",
+      "titleEn": "fence somebody in",
+      "formula": "fence somebody in",
+      "highlight": "fence somebody in",
+      "descriptionZh": "限制某人的選擇或自由;使某人感到受束縛",
+      "descriptionEn": "Too many rules fenced the students in.",
+      "examples": [
+        {
+          "en": "Too many rules fenced the students in.",
+          "zh": "太多規則限制了學生的自由。",
+          "highlight": "fenced the students in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用圍欄把整個地方圍起來",
+      "titleEn": "fence something in",
+      "formula": "fence something in",
+      "highlight": "fence something in",
+      "descriptionZh": "用圍欄把整個地方圍起來",
+      "descriptionEn": "They fenced the field in to keep the sheep safe.",
+      "examples": [
+        {
+          "en": "They fenced the field in to keep the sheep safe.",
+          "zh": "他們用圍欄把整個田地圍起來,以保障羊群安全。",
+          "highlight": "fenced the field in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用圍欄把某地方隔開,阻止人或動物進入",
+      "titleEn": "fence something off",
+      "formula": "fence something off",
+      "highlight": "fence something off",
+      "descriptionZh": "用圍欄把某地方隔開,阻止人或動物進入",
+      "descriptionEn": "The workers fenced off the dangerous area.",
+      "examples": [
+        {
+          "en": "The workers fenced off the dangerous area.",
+          "zh": "工人用圍欄把危險範圍隔開。",
+          "highlight": "fenced off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論限制別人自由的規則",
+      "titleEn": "Talk about rules that limit people’s freedom",
+      "zh": "FENCE SOMEBODY IN 可以描述規則、承諾、計劃或期望如何令某人沒有多少選擇。",
+      "en": "FENCE SOMEBODY IN can describe how rules, promises, plans or expectations leave somebody with very few choices."
+    },
+    {
+      "titleZh": "分辨圍起整個地方和隔開其中一部分",
+      "titleEn": "Distinguish between enclosing a whole place and separating one part",
+      "zh": "FENCE SOMETHING IN 通常表示把整個範圍圍起來;FENCE SOMETHING OFF 則通常表示封閉某個地方或部分,防止別人進入。",
+      "en": "FENCE SOMETHING IN usually refers to surrounding a complete area. FENCE SOMETHING OFF usually refers to closing one place or section to prevent entry."
+    },
+    {
+      "titleZh": "清楚描述安全安排",
+      "titleEn": "Describe safety arrangements clearly",
+      "zh": "這些表達適合用來談論危險小路、建築工程、池塘、動物活動範圍,以及需要受到保護的地方。",
+      "en": "These expressions are useful when talking about unsafe paths, building work, ponds, animal areas and places that need protection."
+    },
+    {
+      "titleZh": "理解常見告示和報告",
+      "titleEn": "Understand common signs and reports",
+      "zh": "英文告示和報告經常使用 the area has been fenced off 或 the field is fenced in 等表達。",
+      "en": "English notices and reports often use expressions such as the area has been fenced off or the field is fenced in."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論限制別人自由的規則",
+      "分辨圍起整個地方和隔開其中一部分",
+      "清楚描述安全安排",
+      "理解常見告示和報告"
+    ],
+    "contextsEn": [
+      "Talk about rules that limit people’s freedom",
+      "Distinguish between enclosing a whole place and separating one part",
+      "Describe safety arrangements clearly",
+      "Understand common signs and reports"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論限制別人自由的規則",
+        "titleEn": "Talk about rules that limit people’s freedom",
+        "zh": "FENCE SOMEBODY IN 可以描述規則、承諾、計劃或期望如何令某人沒有多少選擇。",
+        "en": "FENCE SOMEBODY IN can describe how rules, promises, plans or expectations leave somebody with very few choices.",
+        "examples": [
+          {
+            "en": "Too many rules fenced the students in.",
+            "zh": "太多規則限制了學生的自由。",
+            "highlight": "fenced the students in"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨圍起整個地方和隔開其中一部分",
+        "titleEn": "Distinguish between enclosing a whole place and separating one part",
+        "zh": "FENCE SOMETHING IN 通常表示把整個範圍圍起來;FENCE SOMETHING OFF 則通常表示封閉某個地方或部分,防止別人進入。",
+        "en": "FENCE SOMETHING IN usually refers to surrounding a complete area. FENCE SOMETHING OFF usually refers to closing one place or section to prevent entry.",
+        "examples": [
+          {
+            "en": "They fenced the field in to keep the sheep safe.",
+            "zh": "他們用圍欄把整個田地圍起來,以保障羊群安全。",
+            "highlight": "fenced the field in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述安全安排",
+        "titleEn": "Describe safety arrangements clearly",
+        "zh": "這些表達適合用來談論危險小路、建築工程、池塘、動物活動範圍,以及需要受到保護的地方。",
+        "en": "These expressions are useful when talking about unsafe paths, building work, ponds, animal areas and places that need protection.",
+        "examples": [
+          {
+            "en": "The workers fenced off the dangerous area.",
+            "zh": "工人用圍欄把危險範圍隔開。",
+            "highlight": "fenced off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見告示和報告",
+        "titleEn": "Understand common signs and reports",
+        "zh": "英文告示和報告經常使用 the area has been fenced off 或 the field is fenced in 等表達。",
+        "en": "English notices and reports often use expressions such as the area has been fenced off or the field is fenced in.",
+        "examples": [
+          {
+            "en": "Too many rules fenced the students in.",
+            "zh": "太多規則限制了學生的自由。",
+            "highlight": "fenced the students in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FENCE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FENCE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FENCE 片語動詞。",
+      "en": "Read the whole sentence and choose the FENCE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 me、you、him、her、it、us 或 them 時,請按照以上例子放在 FENCE 和 IN/OFF 之間。",
+      "titleEn": "When using me, you, him, her, it, us or them, place the word as shown: fence us in fence it in fence it off.",
+      "zh": "使用 me、you、him、her、it、us 或 them 時,請按照以上例子放在 FENCE 和 IN/OFF 之間。",
+      "en": "When using me, you, him, her, it, us or them, place the word as shown: fence us in fence it in fence it off"
+    },
+    {
+      "titleZh": "FENCE SOMETHING IN 表示用圍欄把整個地方圍起來;FENCE SOMETHING OFF 則表示用圍欄把某地方或其中一部分隔開,防止人或動物進入。",
+      "titleEn": "FENCE SOMETHING IN means surrounding the whole place with a fence.",
+      "zh": "FENCE SOMETHING IN 表示用圍欄把整個地方圍起來;FENCE SOMETHING OFF 則表示用圍欄把某地方或其中一部分隔開,防止人或動物進入。",
+      "en": "FENCE SOMETHING IN means surrounding the whole place with a fence. FENCE SOMETHING OFF means separating a place or part of a place so that people or animals cannot enter it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FENCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FENCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FENCE 動詞片語句子改寫練習",
+    "titleEn": "FENCE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FENCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FENCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-325-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The gardener surrounded the whole garden with a fence.",
+      "promptZh": "園丁用圍欄把整個花園圍起來。",
+      "starter": "The",
+      "answer": "The gardener fenced in the whole garden.",
+      "answerZh": "園丁用圍欄把整個花園圍起來。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The club’s strict rules limited the players’ choices.",
+      "promptZh": "球會的嚴格規則限制了球員的選擇。",
+      "starter": "The",
+      "answer": "The club’s strict rules fenced the players in.",
+      "answerZh": "球會的嚴格規則限制了球員的選擇。",
+      "highlight": "fenced",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The school separated the wet part of the playground to prevent children from entering it.",
+      "promptZh": "學校把操場濕滑的部分隔開,防止兒童進入。",
+      "starter": "The",
+      "answer": "The school fenced off the wet part of the playground to prevent children from entering it.",
+      "answerZh": "學校把操場濕滑的部分隔開,防止兒童進入。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This strict timetable leaves us with very little freedom.",
+      "promptZh": "這份嚴格的時間表令我們幾乎沒有自由。",
+      "starter": "This",
+      "answer": "This strict timetable fences us in and leaves us with very little freedom.",
+      "answerZh": "這份嚴格的時間表限制了我們,令我們幾乎沒有自由。",
+      "highlight": "fences us in and",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They surrounded the entire field with a strong fence.",
+      "promptZh": "他們用堅固的圍欄把整個田地圍起來。",
+      "starter": "They",
+      "answer": "They fenced the entire field in with a strong fence.",
+      "answerZh": "他們用堅固的圍欄把整個田地圍起來。",
+      "highlight": "fenced",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We separated the vegetable patch to stop rabbits from entering it.",
+      "promptZh": "我們把菜圃隔開,防止兔子進入。",
+      "starter": "We",
+      "answer": "We fenced the vegetable patch off to stop rabbits from entering it.",
+      "answerZh": "我們把菜圃隔開,防止兔子進入。",
+      "highlight": "fenced",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Her family’s expectations made her feel that she had no freedom.",
+      "promptZh": "家人的期望令她感到毫無自由。",
+      "starter": "Her",
+      "answer": "Her family’s expectations made her feel fenced in.",
+      "answerZh": "家人的期望令她感到受到束縛。",
+      "highlight": "fenced in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的自由"
+    },
+    {
+      "id": "phrasal-verb-325-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The zoo surrounded the small animal area with a high fence.",
+      "promptZh": "動物園用高圍欄把小動物活動範圍圍起來。",
+      "starter": "The",
+      "answer": "The zoo fenced in the small animal area with a high fence.",
+      "answerZh": "動物園用高圍欄把小動物活動範圍圍起來。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The workers separated the damaged section of the bridge to keep visitors away.",
+      "promptZh": "工人把橋樑損壞的部分隔開,防止遊人走近。",
+      "starter": "The",
+      "answer": "The workers fenced off the damaged section of the bridge to keep visitors away.",
+      "answerZh": "工人把橋樑損壞的部分隔開,防止遊人走近。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "把某地方隔開,阻止別人進入"
+    },
+    {
+      "id": "phrasal-verb-325-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Too many instructions restricted the staff and stopped them making simple decisions.",
+      "promptZh": "太多指示限制了職員,令他們無法作出簡單決定。",
+      "starter": "Too",
+      "answer": "Too many instructions fenced the staff in and stopped them making simple decisions.",
+      "answerZh": "太多指示限制了職員,令他們無法作出簡單決定。",
+      "highlight": "fenced",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The school has separated the pond from the rest of the playground.",
+      "promptZh": "學校已把池塘與操場其他部分隔開。",
+      "starter": "The",
+      "answer": "The school has fenced the pond off from the rest of the playground.",
+      "answerZh": "學校已把池塘與操場其他部分隔開。",
+      "highlight": "fenced",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The council will surround the new dog area with a fence next week.",
+      "promptZh": "市政部門下星期會用圍欄把新的狗隻活動範圍圍起來。",
+      "starter": "The",
+      "answer": "The council will fence in the new dog area next week.",
+      "answerZh": "市政部門下星期會用圍欄把新的狗隻活動範圍圍起來。",
+      "highlight": "fence in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why do these regulations limit your choices so much?",
+      "promptZh": "這些規例為甚麼如此限制你的選擇?",
+      "starter": "Why",
+      "answer": "Why do these regulations fence you in so much?",
+      "answerZh": "這些規例為甚麼如此限制你的選擇?",
+      "highlight": "fence you in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The workers are surrounding the new playground with a metal fence.",
+      "promptZh": "工人正在用金屬圍欄把新操場圍起來。",
+      "starter": "The",
+      "answer": "The workers are fencing in the new playground with a metal fence.",
+      "answerZh": "工人正在用金屬圍欄把新操場圍起來。",
+      "highlight": "fencing in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Please separate the repair area with a temporary fence.",
+      "promptZh": "請用臨時圍欄把維修範圍隔開。",
+      "starter": "Please",
+      "answer": "Please fence off the repair area with a temporary fence.",
+      "answerZh": "請用臨時圍欄把維修範圍隔開。",
+      "highlight": "fence off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The new contract has limited the team and left it with only one supplier.",
+      "promptZh": "新合約限制了團隊,令其只能選用一間供應商。",
+      "starter": "The",
+      "answer": "The new contract has fenced the team in and left it with only one supplier.",
+      "answerZh": "新合約限制了團隊,令其只能選用一間供應商。",
+      "highlight": "fenced",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The whole field has been surrounded by a fence since last week.",
+      "promptZh": "自上星期起,整個田地已被圍欄圍起來。",
+      "starter": "The",
+      "answer": "The whole field has been fenced in since last week.",
+      "answerZh": "自上星期起,整個田地已被圍欄圍起來。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They did not separate the flowerbeds from the public path.",
+      "promptZh": "他們沒有把花圃與公眾小路隔開。",
+      "starter": "They",
+      "answer": "They did not fence off the flowerbeds from the public path.",
+      "answerZh": "他們沒有把花圃與公眾小路隔開。",
+      "highlight": "fence off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "One school rule should not restrict all the students’ choices.",
+      "promptZh": "一項校規不應限制所有學生的選擇。",
+      "starter": "One",
+      "answer": "One school rule should not fence all the students in.",
+      "answerZh": "一項校規不應限制所有學生的選擇。",
+      "highlight": "fence",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will they surround the garden with a fence before the dog arrives?",
+      "promptZh": "他們會在狗隻到達前用圍欄把花園圍起來嗎?",
+      "starter": "Will",
+      "answer": "Will they fence the garden in before the dog arrives?",
+      "answerZh": "他們會在狗隻到達前用圍欄把花園圍起來嗎?",
+      "highlight": "fence",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new rules restrict them during every practice session.",
+      "promptZh": "新規則在每次練習期間都限制着他們。",
+      "starter": "The",
+      "answer": "The new rules fence them in during every practice session.",
+      "answerZh": "新規則在每次練習期間都限制着他們。",
+      "highlight": "fence",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We separated the unsafe corner before the visitors arrived.",
+      "promptZh": "我們在遊人到達前把不安全的角落隔開。",
+      "starter": "We",
+      "answer": "We fenced it off before the visitors arrived.",
+      "answerZh": "我們在遊人到達前把它隔開。",
+      "highlight": "fenced it off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They surrounded the picnic area with a fence before the event.",
+      "promptZh": "他們在活動前用圍欄把野餐範圍圍起來。",
+      "starter": "They",
+      "answer": "They fenced it in before the event.",
+      "answerZh": "他們在活動前用圍欄把它圍起來。",
+      "highlight": "fenced it in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old well was separated from the walking path for safety.",
+      "promptZh": "為了安全,舊水井已與行人路隔開。",
+      "starter": "The",
+      "answer": "The old well was fenced off from the walking path for safety.",
+      "answerZh": "為了安全,舊水井已與行人路隔開。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "把某地方隔開,阻止別人進入"
+    },
+    {
+      "id": "phrasal-verb-325-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Feeling restricted by the rules, Ava decided to leave the club.",
+      "promptZh": "艾娃感到受到規則限制,因此決定離開球會。",
+      "starter": "Feeling",
+      "answer": "Feeling fenced in by the rules, Ava decided to leave the club.",
+      "answerZh": "艾娃感到受到規則限制,因此決定離開球會。",
+      "highlight": "fenced in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "使某人感到受束縛"
+    },
+    {
+      "id": "phrasal-verb-325-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Surrounding the field with a fence will prevent the sheep from reaching the road.",
+      "promptZh": "用圍欄把田地圍起來,可以防止羊群走上馬路。",
+      "starter": "Fencing",
+      "answer": "Fencing the field in will prevent the sheep from reaching the road.",
+      "answerZh": "用圍欄把田地圍起來,可以防止羊群走上馬路。",
+      "highlight": "Fencing",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The safest choice is to separate the broken steps until they are repaired.",
+      "promptZh": "最安全的做法是把損壞的梯級隔開,直至完成維修。",
+      "starter": "The",
+      "answer": "The safest choice is to fence the broken steps off until they are repaired.",
+      "answerZh": "最安全的做法是把損壞的梯級隔開,直至完成維修。",
+      "highlight": "fence",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Teachers should try not to limit pupils with too many small rules.",
+      "promptZh": "老師應盡量避免用太多細小規則限制學生。",
+      "starter": "Teachers",
+      "answer": "Teachers should try not to fence pupils in with too many small rules.",
+      "answerZh": "老師應盡量避免用太多細小規則限制學生。",
+      "highlight": "fence",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The farmer said that he would surround the chicken area with a fence.",
+      "promptZh": "農夫表示會用圍欄把雞隻活動範圍圍起來。",
+      "starter": "The",
+      "answer": "The farmer said that he would fence in the chicken area.",
+      "answerZh": "農夫表示會用圍欄把雞隻活動範圍圍起來。",
+      "highlight": "fence in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The part of the park that was separated by a fence will reopen tomorrow.",
+      "promptZh": "公園內被圍欄隔開的部分將於明日重開。",
+      "starter": "The",
+      "answer": "The part of the park that was fenced off will reopen tomorrow.",
+      "answerZh": "公園內被圍欄隔開的部分將於明日重開。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club did not lock the players in a room; its many rules limited their choices.",
+      "promptZh": "球會沒有把球員鎖在房間裏;真正限制他們的是眾多規則。",
+      "starter": "The",
+      "answer": "The club did not lock the players in a room; its many rules fenced the players in.",
+      "answerZh": "球會沒有把球員鎖在房間裏;真正限制他們的是眾多規則。",
+      "highlight": "fenced the players in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "They surrounded the whole playground, not merely one dangerous corner.",
+      "promptZh": "他們把整個操場圍起來,而不只是隔開一個危險角落。",
+      "starter": "They",
+      "answer": "They fenced in the whole playground, not merely one dangerous corner.",
+      "answerZh": "他們把整個操場圍起來,而不只是隔開一個危險角落。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The workers separated only the dangerous corner and left the rest of the park open.",
+      "promptZh": "工人只把危險的角落隔開,公園其他部分仍然開放。",
+      "starter": "The",
+      "answer": "The workers fenced off only the dangerous corner and left the rest of the park open.",
+      "answerZh": "工人只把危險的角落隔開,公園其他部分仍然開放。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某部分隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The promises he had made left him with almost no freedom to change his mind.",
+      "promptZh": "他作出的承諾令他幾乎沒有改變主意的自由。",
+      "starter": "The",
+      "answer": "The promises he had made fenced him in and left him with almost no freedom to change his mind.",
+      "answerZh": "他作出的承諾限制了他,令他幾乎沒有改變主意的自由。",
+      "highlight": "fenced him in and",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The museum plans to separate the old staircase so that visitors cannot use it.",
+      "promptZh": "博物館計劃把舊樓梯隔開,防止遊人使用。",
+      "starter": "The",
+      "answer": "The museum plans to fence off the old staircase so that visitors cannot use it.",
+      "answerZh": "博物館計劃把舊樓梯隔開,防止遊人使用。",
+      "highlight": "fence off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They have surrounded the whole campsite with a low wooden fence.",
+      "promptZh": "他們已用低矮的木圍欄把整個營地圍起來。",
+      "starter": "They",
+      "answer": "They have fenced in the whole campsite with a low wooden fence.",
+      "answerZh": "他們已用低矮的木圍欄把整個營地圍起來。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "No student should feel restricted by one teacher’s opinion.",
+      "promptZh": "任何學生都不應因一名老師的意見而感到受束縛。",
+      "starter": "No",
+      "answer": "No student should feel fenced in by one teacher’s opinion.",
+      "answerZh": "任何學生都不應因一名老師的意見而感到受束縛。",
+      "highlight": "fenced in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "使某人感到受束縛"
+    },
+    {
+      "id": "phrasal-verb-325-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before repairs begin, the workers must separate the broken gate area from the public.",
+      "promptZh": "維修開始前,工人必須把損壞的閘門範圍與公眾隔開。",
+      "starter": "Before",
+      "answer": "Before repairs begin, the workers must fence off the broken gate area from the public.",
+      "answerZh": "維修開始前,工人必須把損壞的閘門範圍與公眾隔開。",
+      "highlight": "fence off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "把某地方隔開,阻止別人進入"
+    },
+    {
+      "id": "phrasal-verb-325-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The farmer chose to surround the young-tree area instead of closing the whole farm.",
+      "promptZh": "農夫選擇把幼樹範圍圍起來,而不是關閉整個農場。",
+      "starter": "The",
+      "answer": "The farmer chose to fence the young-tree area in instead of closing the whole farm.",
+      "answerZh": "農夫選擇把幼樹範圍圍起來,而不是關閉整個農場。",
+      "highlight": "fence",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "What really restricted us was the promise we had already made.",
+      "promptZh": "真正限制我們的是我們早已作出的承諾。",
+      "starter": "What",
+      "answer": "What really fenced us in was the promise we had already made.",
+      "answerZh": "真正限制我們的是我們早已作出的承諾。",
+      "highlight": "fenced",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The organisers plan to separate the backstage area so that visitors cannot enter it during the show.",
+      "promptZh": "主辦單位計劃把後台範圍隔開,防止遊人在演出期間進入。",
+      "starter": "The",
+      "answer": "The organisers plan to fence the backstage area off so that visitors cannot enter it during the show.",
+      "answerZh": "主辦單位計劃把後台範圍隔開,防止遊人在演出期間進入。",
+      "highlight": "fence",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She wanted the freedom to change direction, so she refused a plan that would limit her future choices.",
+      "promptZh": "她希望保留改變方向的自由,因此拒絕了一項會限制她未來選擇的計劃。",
+      "starter": "She",
+      "answer": "She wanted the freedom to change direction, so she refused a plan that would fence her in.",
+      "answerZh": "她希望保留改變方向的自由,因此拒絕了一項會限制她未來選擇的計劃。",
+      "highlight": "fence",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After deer ate several young trees, the family surrounded the entire orchard with a tall wire fence.",
+      "promptZh": "鹿吃掉數棵幼樹後,這家人用高大的鐵絲圍欄把整個果園圍起來。",
+      "starter": "After",
+      "answer": "After deer ate several young trees, the family fenced in the entire orchard with a tall wire fence.",
+      "answerZh": "鹿吃掉數棵幼樹後,這家人用高大的鐵絲圍欄把整個果園圍起來。",
+      "highlight": "fenced in",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "While the park remained open, the workers separated the damaged section of the path until it could be repaired.",
+      "promptZh": "公園維持開放期間,工人把小路損壞的部分隔開,直至完成維修。",
+      "starter": "While",
+      "answer": "While the park remained open, the workers fenced off the damaged section of the path until it could be repaired.",
+      "answerZh": "公園維持開放期間,工人把小路損壞的部分隔開,直至完成維修。",
+      "highlight": "fenced off",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once every small choice requires approval, workers can begin to feel that they have no freedom.",
+      "promptZh": "一旦每項小決定都要獲得批准,職員便可能開始感到毫無自由。",
+      "starter": "Once",
+      "answer": "Once every small choice requires approval, workers can begin to feel fenced in.",
+      "answerZh": "一旦每項小決定都要獲得批准,職員便可能開始感到毫無自由。",
+      "highlight": "fenced in",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "使某人感到受束縛"
+    },
+    {
+      "id": "phrasal-verb-325-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Instead of closing the whole farm, they surrounded the children’s animal area with a secure fence.",
+      "promptZh": "他們沒有關閉整個農場,而是用安全圍欄把兒童動物區圍起來。",
+      "starter": "Instead",
+      "answer": "Instead of closing the whole farm, they fenced the children’s animal area in with a secure fence.",
+      "answerZh": "他們沒有關閉整個農場,而是用安全圍欄把兒童動物區圍起來。",
+      "highlight": "fenced",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The school left most of the playground open and separated only the wet corner.",
+      "promptZh": "學校讓操場大部分範圍維持開放,只把濕滑的角落隔開。",
+      "starter": "The",
+      "answer": "The school left most of the playground open and fenced only the wet corner off.",
+      "answerZh": "學校讓操場大部分範圍維持開放,只把濕滑的角落隔開。",
+      "highlight": "fenced",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某部分隔開"
+    },
+    {
+      "id": "phrasal-verb-325-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even without direct orders, the promise he had made left him with almost no choice.",
+      "promptZh": "即使沒有直接命令,他作出的承諾也令他幾乎沒有選擇。",
+      "starter": "Even",
+      "answer": "Even without direct orders, the promise he had made fenced him in and left him with almost no choice.",
+      "answerZh": "即使沒有直接命令,他作出的承諾也限制了他,令他幾乎沒有選擇。",
+      "highlight": "fenced him in and",
+      "targetForm": "fence somebody in",
+      "targetMeaningZh": "限制某人的選擇或自由"
+    },
+    {
+      "id": "phrasal-verb-325-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "To stop the goats from reaching the road, they surrounded the whole lower field with a fence.",
+      "promptZh": "為了防止山羊走上馬路,他們用圍欄把整個較低位置的田地圍起來。",
+      "starter": "To",
+      "answer": "To stop the goats from reaching the road, they fenced the whole lower field in.",
+      "answerZh": "為了防止山羊走上馬路,他們用圍欄把整個較低位置的田地圍起來。",
+      "highlight": "fenced",
+      "targetForm": "fence something in",
+      "targetMeaningZh": "用圍欄把整個地方圍起來"
+    },
+    {
+      "id": "phrasal-verb-325-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "What should we do with the unsafe pond until repairs are finished? We should separate it from the rest of the park with a temporary fence.",
+      "promptZh": "維修完成前,我們應如何處理不安全的池塘?我們應用臨時圍欄把它與公園其他部分隔開。",
+      "starter": "What",
+      "answer": "What should we do with the unsafe pond until repairs are finished? We should fence it off from the rest of the park with a temporary fence.",
+      "answerZh": "維修完成前,我們應如何處理不安全的池塘?我們應用臨時圍欄把它與公園其他部分隔開。",
+      "highlight": "fence",
+      "targetForm": "fence something off",
+      "targetMeaningZh": "用圍欄把某地方隔開"
+    }
+  ]
+}

@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-88",
+  "order": 88,
+  "slug": "double",
+  "version": "1",
+  "title": "DOUBLE 動詞片語",
+  "titleEn": "Double",
+  "titleZh": "DOUBLE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 87 - DOUBLE.pdf",
+    "sourceNumber": 87,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DOUBLE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DOUBLE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DOUBLE",
+      "highlight": "DOUBLE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The sofa doubles as a guest bed.",
+      "zh": "這張梳化也可當作客床。",
+      "highlight": "doubles",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We doubled back to look for the keys.",
+      "zh": "我們原路折返尋找鎖匙。",
+      "highlight": "doubled back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He doubled over in pain.",
+      "zh": "他痛得彎下身。",
+      "highlight": "doubled over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "兼作;也可用作；原路折返;掉頭返回;彎回原來的方向；因疼痛或大笑而彎下身;令某人彎下身；把某物對摺；與某人共住一間房或共用一張床",
+    "en": "double as something / double up as something; double back / double back on yourself; double over / double up; double somebody over / up; double something over; double up / double up with somebody",
+    "naturalZh": [
+      "兼作;也可用作",
+      "原路折返;掉頭返回;彎回原來的方向",
+      "因疼痛或大笑而彎下身;令某人彎下身",
+      "把某物對摺",
+      "與某人共住一間房或共用一張床"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "double as something / double up as something",
+      "titleZh": "兼作;也可用作",
+      "titleEn": "double as something / double up as something",
+      "descriptionZh": "兼作;也可用作",
+      "descriptionEn": "The sofa doubles as a guest bed.",
+      "examples": [
+        {
+          "en": "The sofa doubles as a guest bed.",
+          "zh": "這張梳化也可當作客床。",
+          "highlight": "doubles"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "double back / double back on yourself",
+      "titleZh": "原路折返;掉頭返回;彎回原來的方向",
+      "titleEn": "double back / double back on yourself",
+      "descriptionZh": "原路折返;掉頭返回;彎回原來的方向",
+      "descriptionEn": "We doubled back to look for the keys.",
+      "examples": [
+        {
+          "en": "We doubled back to look for the keys.",
+          "zh": "我們原路折返尋找鎖匙。",
+          "highlight": "doubled back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "double over / double up; double somebody over / up",
+      "titleZh": "因疼痛或大笑而彎下身;令某人彎下身",
+      "titleEn": "double over / double up; double somebody over / up",
+      "descriptionZh": "因疼痛或大笑而彎下身;令某人彎下身",
+      "descriptionEn": "He doubled over in pain.",
+      "examples": [
+        {
+          "en": "He doubled over in pain.",
+          "zh": "他痛得彎下身。",
+          "highlight": "doubled over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "double something over",
+      "titleZh": "把某物對摺",
+      "titleEn": "double something over",
+      "descriptionZh": "把某物對摺",
+      "descriptionEn": "Double the paper over before you cut it.",
+      "examples": [
+        {
+          "en": "Double the paper over before you cut it.",
+          "zh": "剪紙前先把紙對摺。",
+          "highlight": "Double the paper over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "double up / double up with somebody",
+      "titleZh": "與某人共住一間房或共用一張床",
+      "titleEn": "double up / double up with somebody",
+      "descriptionZh": "與某人共住一間房或共用一張床",
+      "descriptionEn": "You will have to double up with Ben.",
+      "examples": [
+        {
+          "en": "You will have to double up with Ben.",
+          "zh": "你需要和 Ben 共住一間房。",
+          "highlight": "double up with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DOUBLE 片語動詞的實際用途",
+    "labelEn": "DOUBLE Phrasal Verbs in Use",
+    "summaryZh": "double as 和 double up as 能幫助你說明房間、物件或建築物除了原來的用途外,還有另一種用途。；當路線錯誤、封閉或不安全,需要掉頭返回時,可以使用 double back。；double over 和 double up 可以描述某人因劇痛或大笑而突然彎下身。；double something over 可以表示把物件對摺;double up 則可以表示多人需要共用房間或床。",
+    "summaryEn": "Double as and double up as help you explain that a room, object or building has a second purpose. Double back is useful when someone turns around and returns because the original route is wrong, closed or unsafe. Double over and double up can describe how someone bends sharply because of strong pain or laughter. Double something over describes folding, while double up helps you explain that people need to share a room or bed.",
+    "contextsZh": [
+      "表示一個地方或物件有兩種用途",
+      "描述沿同一路線折返",
+      "自然描述疼痛和大笑時的身體反應",
+      "談論對摺物件和共用有限空間"
+    ],
+    "contextsEn": [
+      "Show that one place or object has two uses",
+      "Describe returning along the same route",
+      "Talk naturally about pain and laughter",
+      "Talk about folding things and sharing limited space"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DOUBLE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DOUBLE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "double as something / double up as something",
+    "fixedHighlight": "double as something / double up as something",
+    "fixedZh": "閱讀整句,選出意思相同的 DOUBLE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DOUBLE expression that gives the same meaning.",
+    "correct": "doubles",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；double as 和 double up as 表示某物有第二種用途;double over 和 double up 則可以表示某人因疼痛或大笑而彎下身。請仔細閱讀整個情境。；in pain 和 with laughter 只是說明某人彎下身的原因。基本表達是 double over 和 double up。表示把某物對摺時,可使用 double it over 等形式。",
+    "variableEn": "Keep the same people, things, time and meaning. Double as and double up as describe a second use. Double over and double up can describe someone bending because of pain or laughter. Read the whole situation carefully. In pain and with laughter only explain why someone bends. The basic expressions are double over and double up. When folding something, use forms such as double it over.",
+    "variableItemsZh": [
+      "double as something / double up as something",
+      "double back / double back on yourself",
+      "double over / double up; double somebody over / up",
+      "double something over",
+      "double up / double up with somebody"
+    ],
+    "variableItemsEn": [
+      "double as something / double up as something",
+      "double back / double back on yourself",
+      "double over / double up; double somebody over / up",
+      "double something over",
+      "double up / double up with somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "兼作;也可用作",
+        "formEn": "double as something / double up as something",
+        "exampleZh": "這張梳化也可當作客床。",
+        "exampleEn": "The sofa doubles as a guest bed.",
+        "highlight": "doubles"
+      },
+      {
+        "formZh": "原路折返;掉頭返回;彎回原來的方向",
+        "formEn": "double back / double back on yourself",
+        "exampleZh": "我們原路折返尋找鎖匙。",
+        "exampleEn": "We doubled back to look for the keys.",
+        "highlight": "doubled back"
+      },
+      {
+        "formZh": "因疼痛或大笑而彎下身;令某人彎下身",
+        "formEn": "double over / double up; double somebody over / up",
+        "exampleZh": "他痛得彎下身。",
+        "exampleEn": "He doubled over in pain.",
+        "highlight": "doubled over"
+      },
+      {
+        "formZh": "把某物對摺",
+        "formEn": "double something over",
+        "exampleZh": "剪紙前先把紙對摺。",
+        "exampleEn": "Double the paper over before you cut it.",
+        "highlight": "Double the paper over"
+      },
+      {
+        "formZh": "與某人共住一間房或共用一張床",
+        "formEn": "double up / double up with somebody",
+        "exampleZh": "你需要和 Ben 共住一間房。",
+        "exampleEn": "You will have to double up with Ben.",
+        "highlight": "double up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "兼作;也可用作",
+      "titleEn": "double as something / double up as something",
+      "formula": "double as something / double up as something",
+      "highlight": "double as something / double up as something",
+      "descriptionZh": "兼作;也可用作",
+      "descriptionEn": "The sofa doubles as a guest bed.",
+      "examples": [
+        {
+          "en": "The sofa doubles as a guest bed.",
+          "zh": "這張梳化也可當作客床。",
+          "highlight": "doubles"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "原路折返;掉頭返回;彎回原來的方向",
+      "titleEn": "double back / double back on yourself",
+      "formula": "double back / double back on yourself",
+      "highlight": "double back / double back on yourself",
+      "descriptionZh": "原路折返;掉頭返回;彎回原來的方向",
+      "descriptionEn": "We doubled back to look for the keys.",
+      "examples": [
+        {
+          "en": "We doubled back to look for the keys.",
+          "zh": "我們原路折返尋找鎖匙。",
+          "highlight": "doubled back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因疼痛或大笑而彎下身;令某人彎下身",
+      "titleEn": "double over / double up; double somebody over / up",
+      "formula": "double over / double up; double somebody over / up",
+      "highlight": "double over / double up; double somebody over / up",
+      "descriptionZh": "因疼痛或大笑而彎下身;令某人彎下身",
+      "descriptionEn": "He doubled over in pain.",
+      "examples": [
+        {
+          "en": "He doubled over in pain.",
+          "zh": "他痛得彎下身。",
+          "highlight": "doubled over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物對摺",
+      "titleEn": "double something over",
+      "formula": "double something over",
+      "highlight": "double something over",
+      "descriptionZh": "把某物對摺",
+      "descriptionEn": "Double the paper over before you cut it.",
+      "examples": [
+        {
+          "en": "Double the paper over before you cut it.",
+          "zh": "剪紙前先把紙對摺。",
+          "highlight": "Double the paper over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "與某人共住一間房或共用一張床",
+      "titleEn": "double up / double up with somebody",
+      "formula": "double up / double up with somebody",
+      "highlight": "double up / double up with somebody",
+      "descriptionZh": "與某人共住一間房或共用一張床",
+      "descriptionEn": "You will have to double up with Ben.",
+      "examples": [
+        {
+          "en": "You will have to double up with Ben.",
+          "zh": "你需要和 Ben 共住一間房。",
+          "highlight": "double up with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "表示一個地方或物件有兩種用途",
+      "titleEn": "Show that one place or object has two uses",
+      "zh": "double as 和 double up as 能幫助你說明房間、物件或建築物除了原來的用途外,還有另一種用途。",
+      "en": "Double as and double up as help you explain that a room, object or building has a second purpose."
+    },
+    {
+      "titleZh": "描述沿同一路線折返",
+      "titleEn": "Describe returning along the same route",
+      "zh": "當路線錯誤、封閉或不安全,需要掉頭返回時,可以使用 double back。",
+      "en": "Double back is useful when someone turns around and returns because the original route is wrong, closed or unsafe."
+    },
+    {
+      "titleZh": "自然描述疼痛和大笑時的身體反應",
+      "titleEn": "Talk naturally about pain and laughter",
+      "zh": "double over 和 double up 可以描述某人因劇痛或大笑而突然彎下身。",
+      "en": "Double over and double up can describe how someone bends sharply because of strong pain or laughter."
+    },
+    {
+      "titleZh": "談論對摺物件和共用有限空間",
+      "titleEn": "Talk about folding things and sharing limited space",
+      "zh": "double something over 可以表示把物件對摺;double up 則可以表示多人需要共用房間或床。",
+      "en": "Double something over describes folding, while double up helps you explain that people need to share a room or bed."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "表示一個地方或物件有兩種用途",
+      "描述沿同一路線折返",
+      "自然描述疼痛和大笑時的身體反應",
+      "談論對摺物件和共用有限空間"
+    ],
+    "contextsEn": [
+      "Show that one place or object has two uses",
+      "Describe returning along the same route",
+      "Talk naturally about pain and laughter",
+      "Talk about folding things and sharing limited space"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "表示一個地方或物件有兩種用途",
+        "titleEn": "Show that one place or object has two uses",
+        "zh": "double as 和 double up as 能幫助你說明房間、物件或建築物除了原來的用途外,還有另一種用途。",
+        "en": "Double as and double up as help you explain that a room, object or building has a second purpose.",
+        "examples": [
+          {
+            "en": "The sofa doubles as a guest bed.",
+            "zh": "這張梳化也可當作客床。",
+            "highlight": "doubles"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述沿同一路線折返",
+        "titleEn": "Describe returning along the same route",
+        "zh": "當路線錯誤、封閉或不安全,需要掉頭返回時,可以使用 double back。",
+        "en": "Double back is useful when someone turns around and returns because the original route is wrong, closed or unsafe.",
+        "examples": [
+          {
+            "en": "We doubled back to look for the keys.",
+            "zh": "我們原路折返尋找鎖匙。",
+            "highlight": "doubled back"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述疼痛和大笑時的身體反應",
+        "titleEn": "Talk naturally about pain and laughter",
+        "zh": "double over 和 double up 可以描述某人因劇痛或大笑而突然彎下身。",
+        "en": "Double over and double up can describe how someone bends sharply because of strong pain or laughter.",
+        "examples": [
+          {
+            "en": "He doubled over in pain.",
+            "zh": "他痛得彎下身。",
+            "highlight": "doubled over"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論對摺物件和共用有限空間",
+        "titleEn": "Talk about folding things and sharing limited space",
+        "zh": "double something over 可以表示把物件對摺;double up 則可以表示多人需要共用房間或床。",
+        "en": "Double something over describes folding, while double up helps you explain that people need to share a room or bed.",
+        "examples": [
+          {
+            "en": "Double the paper over before you cut it.",
+            "zh": "剪紙前先把紙對摺。",
+            "highlight": "Double the paper over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DOUBLE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DOUBLE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DOUBLE 片語動詞。",
+      "en": "Read the whole sentence and choose the DOUBLE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "double as 和 double up as 表示某物有第二種用途;double over 和 double up 則可以表示某人因疼痛或大笑而彎下身。請仔細閱讀整個情境。",
+      "titleEn": "Double as and double up as describe a second use.",
+      "zh": "double as 和 double up as 表示某物有第二種用途;double over 和 double up 則可以表示某人因疼痛或大笑而彎下身。請仔細閱讀整個情境。",
+      "en": "Double as and double up as describe a second use. Double over and double up can describe someone bending because of pain or laughter. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "in pain 和 with laughter 只是說明某人彎下身的原因。基本表達是 double over 和 double up。表示把某物對摺時,可使用 double it over 等形式。",
+      "titleEn": "In pain and with laughter only explain why someone bends.",
+      "zh": "in pain 和 with laughter 只是說明某人彎下身的原因。基本表達是 double over 和 double up。表示把某物對摺時,可使用 double it over 等形式。",
+      "en": "In pain and with laughter only explain why someone bends. The basic expressions are double over and double up. When folding something, use forms such as double it over."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DOUBLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DOUBLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DOUBLE 動詞片語句子改寫練習",
+    "titleEn": "DOUBLE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DOUBLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DOUBLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-88-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The sofa also serves as a bed for guests.",
+      "promptZh": "這張梳化也可當作客床。",
+      "starter": "The",
+      "answer": "The sofa doubles as a bed for guests.",
+      "answerZh": "這張梳化也可當作客床。",
+      "highlight": "doubles",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We turned round and went back because Sam had left his wallet.",
+      "promptZh": "因為 Sam 遺下了銀包,我們掉頭走回去。",
+      "starter": "We",
+      "answer": "We doubled back because Sam had left his wallet.",
+      "answerZh": "因為 Sam 遺下了銀包,我們原路折返。",
+      "highlight": "doubled",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "A sudden stomach pain made Leo bend sharply forward.",
+      "promptZh": "突如其來的胃痛令 Leo 猛然彎下身。",
+      "starter": "A",
+      "answer": "A sudden stomach pain doubled Leo over.",
+      "answerZh": "突如其來的胃痛令 Leo 猛然彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody over",
+      "targetMeaningZh": "令某人因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Fold the paper in half before you cut it.",
+      "promptZh": "剪紙前先把紙對摺。",
+      "starter": "Double",
+      "answer": "Double the paper over before you cut it.",
+      "answerZh": "剪紙前先把紙對摺。",
+      "highlight": "Double",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "You will have to share a room with your cousin tonight.",
+      "promptZh": "今晚你要和表親共住一間房。",
+      "starter": "You",
+      "answer": "You will have to double up with your cousin tonight.",
+      "answerZh": "今晚你要和表親共住一間房。",
+      "highlight": "double up",
+      "targetForm": "double up with somebody",
+      "targetMeaningZh": "與某人共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our school hall also serves as a dining room at lunchtime.",
+      "promptZh": "我們學校的禮堂在午膳時間也用作飯堂。",
+      "starter": "Our",
+      "answer": "Our school hall doubles up as a dining room at lunchtime.",
+      "answerZh": "我們學校的禮堂在午膳時間也用作飯堂。",
+      "highlight": "doubles up",
+      "targetForm": "double up as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The road turns back towards the village near the old bridge.",
+      "promptZh": "這條路在舊橋附近彎回村莊方向。",
+      "starter": "The",
+      "answer": "The road doubles back towards the village near the old bridge.",
+      "answerZh": "這條路在舊橋附近彎回村莊方向。",
+      "highlight": "doubles",
+      "targetForm": "double back",
+      "targetMeaningZh": "彎回原來的方向"
+    },
+    {
+      "id": "phrasal-verb-88-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nina folded the towel in half to make the seat softer.",
+      "promptZh": "Nina 把毛巾對摺,令座位坐起來更柔軟。",
+      "starter": "Nina",
+      "answer": "Nina doubled the towel over to make the seat softer.",
+      "answerZh": "Nina 把毛巾對摺,令座位坐起來更柔軟。",
+      "highlight": "doubled",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The funny video made everyone bend forward with laughter.",
+      "promptZh": "那段有趣的影片令所有人笑得彎下身。",
+      "starter": "The",
+      "answer": "The funny video doubled everyone up with laughter.",
+      "answerZh": "那段有趣的影片令所有人笑得彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody up",
+      "targetMeaningZh": "令某人笑得彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Only one bedroom is free, so Arun and I must share it.",
+      "promptZh": "只有一間睡房空着,所以 Arun 和我必須共住一間房。",
+      "starter": "Only",
+      "answer": "Only one bedroom is free, so Arun and I must double up.",
+      "answerZh": "只有一間睡房空着,所以 Arun 和我必須共住一間房。",
+      "highlight": "double up",
+      "targetForm": "double up",
+      "targetMeaningZh": "共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "This wooden box can also be used as a small table.",
+      "promptZh": "這個木箱也可以當作小桌子。",
+      "starter": "This",
+      "answer": "This wooden box can double as a small table.",
+      "answerZh": "這個木箱也可以當作小桌子。",
+      "highlight": "double",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I walked back along the same path to find my hat.",
+      "promptZh": "我沿同一條小路折返尋找帽子。",
+      "starter": "I",
+      "answer": "I doubled back along the same path to find my hat.",
+      "answerZh": "我沿同一條小路折返尋找帽子。",
+      "highlight": "doubled",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返"
+    },
+    {
+      "id": "phrasal-verb-88-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Eva is bent forward because of stomach pain.",
+      "promptZh": "Eva 因胃痛而彎下身。",
+      "starter": "Eva",
+      "answer": "Eva is doubled over with stomach pain.",
+      "answerZh": "Eva 因胃痛而彎下身。",
+      "highlight": "doubled over with",
+      "targetForm": "double over",
+      "targetMeaningZh": "因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The spare classroom is now also being used as the music room.",
+      "promptZh": "那間備用課室現時也用作音樂室。",
+      "starter": "The",
+      "answer": "The spare classroom is now doubling as the music room.",
+      "answerZh": "那間備用課室現時也用作音樂室。",
+      "highlight": "doubling",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Please fold it in half before putting it in the bag.",
+      "promptZh": "放進袋前,請先把它對摺。",
+      "starter": "Please",
+      "answer": "Please double it over before putting it in the bag.",
+      "answerZh": "放進袋前,請先把它對摺。",
+      "highlight": "double",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Did you turn round and go back when you saw the closed gate?",
+      "promptZh": "你看到閘門關上時,有沒有掉頭走回去?",
+      "starter": "Did",
+      "answer": "Did you double back when you saw the closed gate?",
+      "answerZh": "你看到閘門關上時,有沒有原路折返?",
+      "highlight": "double",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We are sharing one room while our bedroom is being painted.",
+      "promptZh": "我們的睡房正在髹油,所以我們現時共住一間房。",
+      "starter": "We",
+      "answer": "We are doubling up in one room while our bedroom is being painted.",
+      "answerZh": "我們的睡房正在髹油,所以我們現時共住一間房。",
+      "highlight": "doubling up in",
+      "targetForm": "double up",
+      "targetMeaningZh": "共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The joke has made the children bend forward with laughter.",
+      "promptZh": "那個笑話令孩子們笑得彎下身。",
+      "starter": "The",
+      "answer": "The joke has doubled the children up with laughter.",
+      "answerZh": "那個笑話令孩子們笑得彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody up",
+      "targetMeaningZh": "令某人笑得彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I am folding the cloth in half so that I can carry it easily.",
+      "promptZh": "我正在把布對摺,方便攜帶。",
+      "starter": "I",
+      "answer": "I am doubling the cloth over so that I can carry it easily.",
+      "answerZh": "我正在把布對摺,方便攜帶。",
+      "highlight": "doubling",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "During the fair, the library also served as a quiet rest area.",
+      "promptZh": "市集舉行期間,圖書館也用作安靜的休息區。",
+      "starter": "During",
+      "answer": "During the fair, the library doubled up as a quiet rest area.",
+      "answerZh": "市集舉行期間,圖書館也用作安靜的休息區。",
+      "highlight": "doubled up",
+      "targetForm": "double up as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The bus had to turn round and go back after the road was closed.",
+      "promptZh": "道路封閉後,巴士只好掉頭返回。",
+      "starter": "The",
+      "answer": "The bus had to double back after the road was closed.",
+      "answerZh": "道路封閉後,巴士只好原路折返。",
+      "highlight": "double",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Will Kai share a room with you if the hotel is full?",
+      "promptZh": "如果酒店客滿,Kai 會和你共住一間房嗎?",
+      "starter": "Will",
+      "answer": "Will Kai double up with you if the hotel is full?",
+      "answerZh": "如果酒店客滿,Kai 會和你共住一間房嗎?",
+      "highlight": "double up",
+      "targetForm": "double up with somebody",
+      "targetMeaningZh": "與某人共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "A sharp pain in his side has made him bend forward.",
+      "promptZh": "他身旁一陣劇痛令他彎下身。",
+      "starter": "A",
+      "answer": "A sharp pain in his side has doubled him over.",
+      "answerZh": "他身旁一陣劇痛令他彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody over",
+      "targetMeaningZh": "令某人因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The large map was folded in half before it was placed in the drawer.",
+      "promptZh": "那張大型地圖在放進抽屜前被對摺了。",
+      "starter": "The",
+      "answer": "The large map was doubled over before it was placed in the drawer.",
+      "answerZh": "那張大型地圖在放進抽屜前被對摺了。",
+      "highlight": "doubled over",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The hotel gave us one room. It asked Rob and me to share it.",
+      "promptZh": "酒店只給了我們一間房,並要求 Rob 和我共住。",
+      "starter": "The",
+      "answer": "The hotel gave us one room. It asked Rob and me to double up.",
+      "answerZh": "酒店只給了我們一間房,並要求 Rob 和我共住。",
+      "highlight": "double up",
+      "targetForm": "double up",
+      "targetMeaningZh": "共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The card is too large for the envelope, so fold it in half.",
+      "promptZh": "這張卡太大,放不進信封,所以把它對摺吧。",
+      "starter": "The",
+      "answer": "The card is too large for the envelope, so double it over.",
+      "answerZh": "這張卡太大,放不進信封,所以把它對摺吧。",
+      "highlight": "double",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The kitchen table is where we eat, but it is also my work desk.",
+      "promptZh": "這張廚房桌是我們吃飯的地方,但也是我的工作桌。",
+      "starter": "The",
+      "answer": "The kitchen table is where we eat, but it also doubles as my work desk.",
+      "answerZh": "這張廚房桌是我們吃飯的地方,但也是我的工作桌。",
+      "highlight": "doubles as",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "When the pain returned, she suddenly bent sharply at the waist.",
+      "promptZh": "疼痛再次出現時,她突然彎下腰。",
+      "starter": "When",
+      "answer": "When the pain returned, she suddenly doubled over.",
+      "answerZh": "疼痛再次出現時,她突然彎下腰。",
+      "highlight": "doubled over",
+      "targetForm": "double over",
+      "targetMeaningZh": "因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We realised that we had passed the café, so we walked back along the same road.",
+      "promptZh": "我們發現已經走過了咖啡店,所以沿同一條路折返。",
+      "starter": "We",
+      "answer": "We realised that we had passed the café, so we doubled back along the same road.",
+      "answerZh": "我們發現已經走過了咖啡店,所以沿同一條路折返。",
+      "highlight": "doubled",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返"
+    },
+    {
+      "id": "phrasal-verb-88-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The group has only three tents, so some hikers will need to share.",
+      "promptZh": "這組人只有三個帳幕,所以部分遠足者需要共用帳幕。",
+      "starter": "The",
+      "answer": "The group has only three tents, so some hikers will need to double up.",
+      "answerZh": "這組人只有三個帳幕,所以部分遠足者需要共用帳幕。",
+      "highlight": "double up",
+      "targetForm": "double up",
+      "targetMeaningZh": "共用睡房、床位或帳幕"
+    },
+    {
+      "id": "phrasal-verb-88-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Use the sheet after folding it in half.",
+      "promptZh": "把床單對摺後使用。",
+      "starter": "Use",
+      "answer": "Use the sheet doubled over.",
+      "answerZh": "把床單對摺後使用。",
+      "highlight": "doubled over",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "This is our guest room, but it can also be used as a study during the day.",
+      "promptZh": "這是我們的客房,但日間也可用作書房。",
+      "starter": "This",
+      "answer": "This is our guest room, but it can double as a study during the day.",
+      "answerZh": "這是我們的客房,但日間也可用作書房。",
+      "highlight": "double",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The path ahead became unsafe. The walkers turned around and went back.",
+      "promptZh": "前方的小路變得不安全。遠足者掉頭走回去。",
+      "starter": "The",
+      "answer": "The path ahead became unsafe. The walkers doubled back.",
+      "answerZh": "前方的小路變得不安全。遠足者原路折返。",
+      "highlight": "doubled",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The audience bent forward because they were laughing so hard.",
+      "promptZh": "觀眾笑得太厲害,全都彎下身。",
+      "starter": "The",
+      "answer": "The audience doubled up with laughter.",
+      "answerZh": "觀眾笑得太厲害,全都彎下身。",
+      "highlight": "doubled up with laughter",
+      "targetForm": "double up",
+      "targetMeaningZh": "因大笑而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Who will share the room with Daniel during the school trip?",
+      "promptZh": "學校旅行期間,誰會和 Daniel 共住一間房?",
+      "starter": "Who",
+      "answer": "Who will double up with Daniel during the school trip?",
+      "answerZh": "學校旅行期間,誰會和 Daniel 共住一間房?",
+      "highlight": "double up",
+      "targetForm": "double up with somebody",
+      "targetMeaningZh": "與某人共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before placing the blanket on the floor, Zara folded it in half.",
+      "promptZh": "把毛氈放在地上前,Zara 先把它對摺。",
+      "starter": "Before",
+      "answer": "Before placing the blanket on the floor, Zara doubled it over.",
+      "answerZh": "把毛氈放在地上前,Zara 先把它對摺。",
+      "highlight": "doubled",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The shop is a café in the morning, but it becomes a small music space at night.",
+      "promptZh": "這間店早上是咖啡店,晚上則成為小型音樂場地。",
+      "starter": "The",
+      "answer": "The shop is a café in the morning, but it doubles up as a small music space at night.",
+      "answerZh": "這間店早上是咖啡店,晚上則用作小型音樂場地。",
+      "highlight": "doubles up as",
+      "targetForm": "double up as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The little boy bent forward with laughter when the dog wore the hat.",
+      "promptZh": "那隻狗戴上帽子時,小男孩笑得彎下身。",
+      "starter": "The",
+      "answer": "The little boy doubled over with laughter when the dog wore the hat.",
+      "answerZh": "那隻狗戴上帽子時,小男孩笑得彎下身。",
+      "highlight": "doubled over",
+      "targetForm": "double over",
+      "targetMeaningZh": "因大笑而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The river path curves so far back that it points towards the place where it began.",
+      "promptZh": "河畔小路大幅彎回,指向起點方向。",
+      "starter": "The",
+      "answer": "The river path doubles back on itself and points towards the place where it began.",
+      "answerZh": "河畔小路彎回原來的方向,指向起點。",
+      "highlight": "doubles",
+      "targetForm": "double back on itself",
+      "targetMeaningZh": "彎回原來的方向"
+    },
+    {
+      "id": "phrasal-verb-88-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Could you fold these two sheets in half before you hand them out?",
+      "promptZh": "你可以在派發前把這兩張紙對摺嗎?",
+      "starter": "Could",
+      "answer": "Could you double these two sheets over before you hand them out?",
+      "answerZh": "你可以在派發前把這兩張紙對摺嗎?",
+      "highlight": "double",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The family cannot afford a second hotel room, so the brothers will share one.",
+      "promptZh": "這家人負擔不起第二間酒店房,所以兩兄弟會共住一間房。",
+      "starter": "The",
+      "answer": "The family cannot afford a second hotel room, so the brothers will double up.",
+      "answerZh": "這家人負擔不起第二間酒店房,所以兩兄弟會共住一間房。",
+      "highlight": "double up",
+      "targetForm": "double up",
+      "targetMeaningZh": "共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The front room is used for meetings, and it also becomes a classroom twice a week.",
+      "promptZh": "前面的房間用作會議,亦每星期兩次用作課室。",
+      "starter": "The",
+      "answer": "The front room is used for meetings, and it also doubles as a classroom twice a week.",
+      "answerZh": "前面的房間用作會議,亦每星期兩次用作課室。",
+      "highlight": "doubles as",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The sudden cramp made Ben bend sharply forward during the race.",
+      "promptZh": "比賽期間,突如其來的抽筋令 Ben 猛然彎下身。",
+      "starter": "The",
+      "answer": "The sudden cramp doubled Ben over during the race.",
+      "answerZh": "比賽期間,突如其來的抽筋令 Ben 猛然彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody over",
+      "targetMeaningZh": "令某人因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because the lane ended at a locked gate, the driver turned round and returned by the same route.",
+      "promptZh": "小路盡頭有一道上鎖的閘門,所以司機沿同一路線掉頭返回。",
+      "starter": "Because",
+      "answer": "Because the lane ended at a locked gate, the driver doubled back by the same route.",
+      "answerZh": "小路盡頭有一道上鎖的閘門,所以司機沿同一路線折返。",
+      "highlight": "doubled back",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A second bed will not fit, so the children are sharing the same bed tonight.",
+      "promptZh": "放不下第二張床,所以孩子們今晚共用同一張床。",
+      "starter": "A",
+      "answer": "A second bed will not fit, so the children are doubling up in the same bed tonight.",
+      "answerZh": "放不下第二張床,所以孩子們今晚共用同一張床。",
+      "highlight": "doubling up in",
+      "targetForm": "double up",
+      "targetMeaningZh": "共用一張床"
+    },
+    {
+      "id": "phrasal-verb-88-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The scarf was too long, so I folded it in half before packing it.",
+      "promptZh": "這條頸巾太長,所以我在收拾前把它對摺。",
+      "starter": "The",
+      "answer": "The scarf was too long, so I doubled it over before packing it.",
+      "answerZh": "這條頸巾太長,所以我在收拾前把它對摺。",
+      "highlight": "doubled",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Our largest classroom may also be used as the exam room next month.",
+      "promptZh": "我們最大的課室下月也可用作考試室。",
+      "starter": "Our",
+      "answer": "Our largest classroom may double as the exam room next month.",
+      "answerZh": "我們最大的課室下月也可用作考試室。",
+      "highlight": "double",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The comedy was so funny that it made us bend forward again and again.",
+      "promptZh": "那齣喜劇非常有趣,令我們一次又一次笑得彎下身。",
+      "starter": "The",
+      "answer": "The comedy was so funny that it doubled us up again and again.",
+      "answerZh": "那齣喜劇非常有趣,令我們一次又一次笑得彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody up",
+      "targetMeaningZh": "令某人笑得彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After twenty minutes, Suki noticed that she was walking away from the village, so she turned round and followed the same road back.",
+      "promptZh": "二十分鐘後,Suki 發現自己正遠離村莊,所以她掉頭沿同一條路走回去。",
+      "starter": "After",
+      "answer": "After twenty minutes, Suki noticed that she was walking away from the village, so she doubled back along the same road.",
+      "answerZh": "二十分鐘後,Suki 發現自己正遠離村莊,所以她沿同一條路折返。",
+      "highlight": "doubled back along",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The guest list grew at the last minute. Since no extra rooms were available, four friends had to share two rooms.",
+      "promptZh": "賓客名單在最後一刻增加了。由於沒有額外房間,四名朋友只好兩人一組,共住兩間房。",
+      "starter": "The",
+      "answer": "The guest list grew at the last minute. Since no extra rooms were available, four friends had to double up in two rooms.",
+      "answerZh": "賓客名單在最後一刻增加了。由於沒有額外房間,四名朋友只好兩人一組,共住兩間房。",
+      "highlight": "double up in",
+      "targetForm": "double up",
+      "targetMeaningZh": "共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We normally eat in this room, but during the storm it was also used as a safe place to sleep.",
+      "promptZh": "我們通常在這個房間用膳,但暴風雨期間,它也用作安全的睡覺地方。",
+      "starter": "We",
+      "answer": "We normally eat in this room, but during the storm it doubled as a safe place to sleep.",
+      "answerZh": "我們通常在這個房間用膳,但暴風雨期間,它也用作安全的睡覺地方。",
+      "highlight": "doubled",
+      "targetForm": "double as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "At first, Noah tried to stand straight, but the stomach pain soon made him bend forward.",
+      "promptZh": "起初 Noah 試着站直,但胃痛很快令他彎下身。",
+      "starter": "At",
+      "answer": "At first, Noah tried to stand straight, but the stomach pain soon doubled him over.",
+      "answerZh": "起初 Noah 試着站直,但胃痛很快令他彎下身。",
+      "highlight": "doubled",
+      "targetForm": "double somebody over",
+      "targetMeaningZh": "令某人因疼痛而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The poster would not fit in her bag until she folded it in half.",
+      "promptZh": "那張海報太大,直至她把它對摺後才放得進袋。",
+      "starter": "The",
+      "answer": "The poster would not fit in her bag until she doubled it over.",
+      "answerZh": "那張海報太大,直至她把它對摺後才放得進袋。",
+      "highlight": "doubled",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The mountain path was blocked by fallen rocks, so the group returned to the last safe crossing.",
+      "promptZh": "山路被倒下的石塊堵塞,所以一行人折返至上一個安全的過路點。",
+      "starter": "The",
+      "answer": "The mountain path was blocked by fallen rocks, so the group doubled back to the last safe crossing.",
+      "answerZh": "山路被倒下的石塊堵塞,所以一行人折返至上一個安全的過路點。",
+      "highlight": "doubled back",
+      "targetForm": "double back",
+      "targetMeaningZh": "原路折返;掉頭返回"
+    },
+    {
+      "id": "phrasal-verb-88-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "There are six students but only three bedrooms. Decide who should share with whom.",
+      "promptZh": "有六名學生,但只有三間睡房。請決定誰應與誰共住。",
+      "starter": "There",
+      "answer": "There are six students but only three bedrooms. Decide who should double up with whom.",
+      "answerZh": "有六名學生,但只有三間睡房。請決定誰應與誰共住。",
+      "highlight": "double up",
+      "targetForm": "double up with somebody",
+      "targetMeaningZh": "與某人共住一間房"
+    },
+    {
+      "id": "phrasal-verb-88-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The new community room is mainly for classes, although it can also serve as a place for weekend markets.",
+      "promptZh": "新的社區室主要用作上課,但也可在週末用作市集場地。",
+      "starter": "The",
+      "answer": "The new community room is mainly for classes, although it can double up as a place for weekend markets.",
+      "answerZh": "新的社區室主要用作上課,但也可在週末用作市集場地。",
+      "highlight": "double up",
+      "targetForm": "double up as something",
+      "targetMeaningZh": "兼作;也可用作"
+    },
+    {
+      "id": "phrasal-verb-88-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "To make the thin cloth stronger, fold it in half before sewing the edges.",
+      "promptZh": "為了令薄布更結實,縫邊前先把它對摺。",
+      "starter": "To",
+      "answer": "To make the thin cloth stronger, double it over before sewing the edges.",
+      "answerZh": "為了令薄布更結實,縫邊前先把它對摺。",
+      "highlight": "double",
+      "targetForm": "double something over",
+      "targetMeaningZh": "把某物對摺"
+    },
+    {
+      "id": "phrasal-verb-88-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Nobody expected the final joke, and everyone bent forward laughing when they heard it.",
+      "promptZh": "沒有人料到最後那個笑話;大家聽到後都笑得彎下身。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the final joke, and everyone doubled over with laughter when they heard it.",
+      "answerZh": "沒有人料到最後那個笑話;大家聽到後都笑得彎下身。",
+      "highlight": "doubled over with laughter",
+      "targetForm": "double over",
+      "targetMeaningZh": "因大笑而彎下身"
+    },
+    {
+      "id": "phrasal-verb-88-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The road does not continue towards the lake; it bends around and points back towards the town.",
+      "promptZh": "這條路沒有繼續通往湖邊,而是彎回並指向城鎮方向。",
+      "starter": "The",
+      "answer": "The road does not continue towards the lake; it doubles back towards the town.",
+      "answerZh": "這條路沒有繼續通往湖邊,而是彎回城鎮方向。",
+      "highlight": "doubles",
+      "targetForm": "double back",
+      "targetMeaningZh": "彎回原來的方向"
+    },
+    {
+      "id": "phrasal-verb-88-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "By the end of the trip, we were used to sharing rooms with different classmates.",
+      "promptZh": "旅程結束時,我們已習慣與不同同學共住一間房。",
+      "starter": "By",
+      "answer": "By the end of the trip, we were used to doubling up with different classmates.",
+      "answerZh": "旅程結束時,我們已習慣與不同同學共住一間房。",
+      "highlight": "doubling up",
+      "targetForm": "double up with somebody",
+      "targetMeaningZh": "與某人共住一間房"
+    }
+  ]
+}

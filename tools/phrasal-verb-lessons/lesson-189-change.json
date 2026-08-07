@@ -1,0 +1,1815 @@
+{
+  "id": "phrasal-verb-189",
+  "order": 189,
+  "slug": "change",
+  "version": "1",
+  "title": "CHANGE 動詞片語",
+  "titleEn": "Change",
+  "titleZh": "CHANGE 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 188 - CHANGE.pdf",
+    "sourceNumber": 188,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHANGE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHANGE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHANGE",
+      "highlight": "CHANGE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "After the show, Ben changed back into his own clothes.",
+      "zh": "表演後,賓換回自己的衣服。",
+      "highlight": "changed back into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Change down to second gear before the bend.",
+      "zh": "在彎位前轉用二波。",
+      "highlight": "Change down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ella changed into her sports kit.",
+      "zh": "埃拉換上了運動服。",
+      "highlight": "changed into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "換回原先穿着的衣服；駕車時轉用較低波檔；換上另一套衣服；變成另一種形態或用途;把某人或某物變成另一種形態或用途；換下身上的衣物；改用另一套系統、方法、材料或能源；與另一人互換位置、工作或角色；重新排列某人或某物的位置或次序；把某物改回原來的狀態、形態、設定或單位；駕車時轉用較高波檔",
+    "en": "change back / change back into something; change down / change down to or into something; change into something; change into something / change somebody or something into something; change out of something; change over / change over from something to something; change over / change round; change somebody or something around / round; change something back / change something back into or to something; change up / change up to or into something",
+    "naturalZh": [
+      "換回原先穿着的衣服",
+      "駕車時轉用較低波檔",
+      "換上另一套衣服",
+      "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+      "換下身上的衣物",
+      "改用另一套系統、方法、材料或能源",
+      "與另一人互換位置、工作或角色",
+      "重新排列某人或某物的位置或次序",
+      "把某物改回原來的狀態、形態、設定或單位",
+      "駕車時轉用較高波檔"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "change back / change back into something",
+      "titleZh": "換回原先穿着的衣服",
+      "titleEn": "change back / change back into something",
+      "descriptionZh": "換回原先穿着的衣服",
+      "descriptionEn": "After the show, Ben changed back into his own clothes.",
+      "examples": [
+        {
+          "en": "After the show, Ben changed back into his own clothes.",
+          "zh": "表演後,賓換回自己的衣服。",
+          "highlight": "changed back into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "change down / change down to or into something",
+      "titleZh": "駕車時轉用較低波檔",
+      "titleEn": "change down / change down to or into something",
+      "descriptionZh": "駕車時轉用較低波檔",
+      "descriptionEn": "Change down to second gear before the bend.",
+      "examples": [
+        {
+          "en": "Change down to second gear before the bend.",
+          "zh": "在彎位前轉用二波。",
+          "highlight": "Change down to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "change into something",
+      "titleZh": "換上另一套衣服",
+      "titleEn": "change into something",
+      "descriptionZh": "換上另一套衣服",
+      "descriptionEn": "Ella changed into her sports kit.",
+      "examples": [
+        {
+          "en": "Ella changed into her sports kit.",
+          "zh": "埃拉換上了運動服。",
+          "highlight": "changed into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "change into something / change somebody or something into something",
+      "titleZh": "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+      "titleEn": "change into something / change somebody or something into something",
+      "descriptionZh": "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+      "descriptionEn": "The old shop changed into a café.",
+      "examples": [
+        {
+          "en": "The old shop changed into a café.",
+          "zh": "那間舊店變成了咖啡店。",
+          "highlight": "changed into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "change out of something",
+      "titleZh": "換下身上的衣物",
+      "titleEn": "change out of something",
+      "descriptionZh": "換下身上的衣物",
+      "descriptionEn": "Sam changed out of his wet shirt.",
+      "examples": [
+        {
+          "en": "Sam changed out of his wet shirt.",
+          "zh": "森換下了濕恤衫。",
+          "highlight": "changed out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "change over / change over from something to something",
+      "titleZh": "改用另一套系統、方法、材料或能源",
+      "titleEn": "change over / change over from something to something",
+      "descriptionZh": "改用另一套系統、方法、材料或能源",
+      "descriptionEn": "The school changed over to digital tickets.",
+      "examples": [
+        {
+          "en": "The school changed over to digital tickets.",
+          "zh": "學校改用電子票。",
+          "highlight": "changed over to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "change over / change round",
+      "titleZh": "與另一人互換位置、工作或角色",
+      "titleEn": "change over / change round",
+      "descriptionZh": "與另一人互換位置、工作或角色",
+      "descriptionEn": "We changed round after lunch.",
+      "examples": [
+        {
+          "en": "We changed round after lunch.",
+          "zh": "午飯後,我們互換了工作。",
+          "highlight": "changed round"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "change somebody or something around / round",
+      "titleZh": "重新排列某人或某物的位置或次序",
+      "titleEn": "change somebody or something around / round",
+      "descriptionZh": "重新排列某人或某物的位置或次序",
+      "descriptionEn": "We changed the chairs around.",
+      "examples": [
+        {
+          "en": "We changed the chairs around.",
+          "zh": "我們重新排列了椅子的位置。",
+          "highlight": "changed the chairs around"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "change something back / change something back into or to something",
+      "titleZh": "把某物改回原來的狀態、形態、設定或單位",
+      "titleEn": "change something back / change something back into or to something",
+      "descriptionZh": "把某物改回原來的狀態、形態、設定或單位",
+      "descriptionEn": "Please change the screen back to normal.",
+      "examples": [
+        {
+          "en": "Please change the screen back to normal.",
+          "zh": "請把螢幕改回正常設定。",
+          "highlight": "change the screen back to"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "change up / change up to or into something",
+      "titleZh": "駕車時轉用較高波檔",
+      "titleEn": "change up / change up to or into something",
+      "descriptionZh": "駕車時轉用較高波檔",
+      "descriptionEn": "Change up to fourth gear on the open road.",
+      "examples": [
+        {
+          "en": "Change up to fourth gear on the open road.",
+          "zh": "在暢通道路上轉用四波。",
+          "highlight": "Change up to"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CHANGE 片語動詞的實際用途",
+    "labelEn": "CHANGE Phrasal Verbs in Use",
+    "summaryZh": "CHANGE 片語動詞可以清楚表示某人換上另一套衣服、換下濕或骯髒的衣服,或換回之前穿着的衣服。；change down 和 change up 可以表示在斜坡、彎位或暢通道路上轉用較低或較高波檔。；change over 可以表示改用新的系統或方法;change over 和 change round 也可以表示兩人互換工作或位置。；你可以用 CHANGE 片語動詞表示某地方改作新用途、某物改回原來狀態,或多件物品重新排列。",
+    "summaryEn": "CHANGE expressions let you show whether someone puts on different clothes, removes wet or dirty clothes, or returns to clothes worn earlier. Change down and change up help you describe moving to a lower or higher gear on hills, bends and open roads. Change over can describe using a new system or method, while change over and change round can describe two people swapping jobs or positions. You can use CHANGE expressions to show that a place gains a new use, an object returns to an earlier state, or items are put in a different order.",
+    "contextsZh": [
+      "清楚談論更換衣服",
+      "描述駕車時轉換波檔",
+      "說明改用新系統和互換角色",
+      "描述改變、還原和重新排列"
+    ],
+    "contextsEn": [
+      "Talk clearly about changing clothes",
+      "Describe changing gears while driving",
+      "Explain new systems and shared roles",
+      "Describe transformation, restoration and rearrangement"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CHANGE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHANGE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "change back / change back into something",
+    "fixedHighlight": "change back / change back into something",
+    "fixedZh": "閱讀整句,選出意思相同的 CHANGE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHANGE expression that gives the same meaning.",
+    "correct": "changed back into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；談論衣服時,change into 表示換上另一套衣服;change back into 表示換回之前穿着的衣服;change out of 表示換下身上的衣服。；在 CHANGE ... AROUND/ROUND 或 CHANGE ... BACK 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. For clothes, change into means putting on different clothes, change back into means returning to clothes worn earlier, and change out of means removing the clothes currently being worn. With it or them in a CHANGE... AROUND/ROUND or CHANGE... BACK expression, place the word as shown: change it around, change them round, change it back.",
+    "variableItemsZh": [
+      "change back / change back into something",
+      "change down / change down to or into something",
+      "change into something",
+      "change into something / change somebody or something into something",
+      "change out of something",
+      "change over / change over from something to something",
+      "change over / change round",
+      "change somebody or something around / round",
+      "change something back / change something back into or to something",
+      "change up / change up to or into something"
+    ],
+    "variableItemsEn": [
+      "change back / change back into something",
+      "change down / change down to or into something",
+      "change into something",
+      "change into something / change somebody or something into something",
+      "change out of something",
+      "change over / change over from something to something",
+      "change over / change round",
+      "change somebody or something around / round",
+      "change something back / change something back into or to something",
+      "change up / change up to or into something"
+    ],
+    "forms": [
+      {
+        "formZh": "換回原先穿着的衣服",
+        "formEn": "change back / change back into something",
+        "exampleZh": "表演後,賓換回自己的衣服。",
+        "exampleEn": "After the show, Ben changed back into his own clothes.",
+        "highlight": "changed back into"
+      },
+      {
+        "formZh": "駕車時轉用較低波檔",
+        "formEn": "change down / change down to or into something",
+        "exampleZh": "在彎位前轉用二波。",
+        "exampleEn": "Change down to second gear before the bend.",
+        "highlight": "Change down to"
+      },
+      {
+        "formZh": "換上另一套衣服",
+        "formEn": "change into something",
+        "exampleZh": "埃拉換上了運動服。",
+        "exampleEn": "Ella changed into her sports kit.",
+        "highlight": "changed into"
+      },
+      {
+        "formZh": "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+        "formEn": "change into something / change somebody or something into something",
+        "exampleZh": "那間舊店變成了咖啡店。",
+        "exampleEn": "The old shop changed into a café.",
+        "highlight": "changed into"
+      },
+      {
+        "formZh": "換下身上的衣物",
+        "formEn": "change out of something",
+        "exampleZh": "森換下了濕恤衫。",
+        "exampleEn": "Sam changed out of his wet shirt.",
+        "highlight": "changed out"
+      },
+      {
+        "formZh": "改用另一套系統、方法、材料或能源",
+        "formEn": "change over / change over from something to something",
+        "exampleZh": "學校改用電子票。",
+        "exampleEn": "The school changed over to digital tickets.",
+        "highlight": "changed over to"
+      },
+      {
+        "formZh": "與另一人互換位置、工作或角色",
+        "formEn": "change over / change round",
+        "exampleZh": "午飯後,我們互換了工作。",
+        "exampleEn": "We changed round after lunch.",
+        "highlight": "changed round"
+      },
+      {
+        "formZh": "重新排列某人或某物的位置或次序",
+        "formEn": "change somebody or something around / round",
+        "exampleZh": "我們重新排列了椅子的位置。",
+        "exampleEn": "We changed the chairs around.",
+        "highlight": "changed the chairs around"
+      },
+      {
+        "formZh": "把某物改回原來的狀態、形態、設定或單位",
+        "formEn": "change something back / change something back into or to something",
+        "exampleZh": "請把螢幕改回正常設定。",
+        "exampleEn": "Please change the screen back to normal.",
+        "highlight": "change the screen back to"
+      },
+      {
+        "formZh": "駕車時轉用較高波檔",
+        "formEn": "change up / change up to or into something",
+        "exampleZh": "在暢通道路上轉用四波。",
+        "exampleEn": "Change up to fourth gear on the open road.",
+        "highlight": "Change up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "換回原先穿着的衣服",
+      "titleEn": "change back / change back into something",
+      "formula": "change back / change back into something",
+      "highlight": "change back / change back into something",
+      "descriptionZh": "換回原先穿着的衣服",
+      "descriptionEn": "After the show, Ben changed back into his own clothes.",
+      "examples": [
+        {
+          "en": "After the show, Ben changed back into his own clothes.",
+          "zh": "表演後,賓換回自己的衣服。",
+          "highlight": "changed back into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "駕車時轉用較低波檔",
+      "titleEn": "change down / change down to or into something",
+      "formula": "change down / change down to or into something",
+      "highlight": "change down / change down to or into something",
+      "descriptionZh": "駕車時轉用較低波檔",
+      "descriptionEn": "Change down to second gear before the bend.",
+      "examples": [
+        {
+          "en": "Change down to second gear before the bend.",
+          "zh": "在彎位前轉用二波。",
+          "highlight": "Change down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "換上另一套衣服",
+      "titleEn": "change into something",
+      "formula": "change into something",
+      "highlight": "change into something",
+      "descriptionZh": "換上另一套衣服",
+      "descriptionEn": "Ella changed into her sports kit.",
+      "examples": [
+        {
+          "en": "Ella changed into her sports kit.",
+          "zh": "埃拉換上了運動服。",
+          "highlight": "changed into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+      "titleEn": "change into something / change somebody or something into something",
+      "formula": "change into something / change somebody or something into something",
+      "highlight": "change into something / change somebody or something into something",
+      "descriptionZh": "變成另一種形態或用途;把某人或某物變成另一種形態或用途",
+      "descriptionEn": "The old shop changed into a café.",
+      "examples": [
+        {
+          "en": "The old shop changed into a café.",
+          "zh": "那間舊店變成了咖啡店。",
+          "highlight": "changed into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "換下身上的衣物",
+      "titleEn": "change out of something",
+      "formula": "change out of something",
+      "highlight": "change out of something",
+      "descriptionZh": "換下身上的衣物",
+      "descriptionEn": "Sam changed out of his wet shirt.",
+      "examples": [
+        {
+          "en": "Sam changed out of his wet shirt.",
+          "zh": "森換下了濕恤衫。",
+          "highlight": "changed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "改用另一套系統、方法、材料或能源",
+      "titleEn": "change over / change over from something to something",
+      "formula": "change over / change over from something to something",
+      "highlight": "change over / change over from something to something",
+      "descriptionZh": "改用另一套系統、方法、材料或能源",
+      "descriptionEn": "The school changed over to digital tickets.",
+      "examples": [
+        {
+          "en": "The school changed over to digital tickets.",
+          "zh": "學校改用電子票。",
+          "highlight": "changed over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "與另一人互換位置、工作或角色",
+      "titleEn": "change over / change round",
+      "formula": "change over / change round",
+      "highlight": "change over / change round",
+      "descriptionZh": "與另一人互換位置、工作或角色",
+      "descriptionEn": "We changed round after lunch.",
+      "examples": [
+        {
+          "en": "We changed round after lunch.",
+          "zh": "午飯後,我們互換了工作。",
+          "highlight": "changed round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "重新排列某人或某物的位置或次序",
+      "titleEn": "change somebody or something around / round",
+      "formula": "change somebody or something around / round",
+      "highlight": "change somebody or something around / round",
+      "descriptionZh": "重新排列某人或某物的位置或次序",
+      "descriptionEn": "We changed the chairs around.",
+      "examples": [
+        {
+          "en": "We changed the chairs around.",
+          "zh": "我們重新排列了椅子的位置。",
+          "highlight": "changed the chairs around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某物改回原來的狀態、形態、設定或單位",
+      "titleEn": "change something back / change something back into or to something",
+      "formula": "change something back / change something back into or to something",
+      "highlight": "change something back / change something back into or to something",
+      "descriptionZh": "把某物改回原來的狀態、形態、設定或單位",
+      "descriptionEn": "Please change the screen back to normal.",
+      "examples": [
+        {
+          "en": "Please change the screen back to normal.",
+          "zh": "請把螢幕改回正常設定。",
+          "highlight": "change the screen back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "駕車時轉用較高波檔",
+      "titleEn": "change up / change up to or into something",
+      "formula": "change up / change up to or into something",
+      "highlight": "change up / change up to or into something",
+      "descriptionZh": "駕車時轉用較高波檔",
+      "descriptionEn": "Change up to fourth gear on the open road.",
+      "examples": [
+        {
+          "en": "Change up to fourth gear on the open road.",
+          "zh": "在暢通道路上轉用四波。",
+          "highlight": "Change up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論更換衣服",
+      "titleEn": "Talk clearly about changing clothes",
+      "zh": "CHANGE 片語動詞可以清楚表示某人換上另一套衣服、換下濕或骯髒的衣服,或換回之前穿着的衣服。",
+      "en": "CHANGE expressions let you show whether someone puts on different clothes, removes wet or dirty clothes, or returns to clothes worn earlier."
+    },
+    {
+      "titleZh": "描述駕車時轉換波檔",
+      "titleEn": "Describe changing gears while driving",
+      "zh": "change down 和 change up 可以表示在斜坡、彎位或暢通道路上轉用較低或較高波檔。",
+      "en": "Change down and change up help you describe moving to a lower or higher gear on hills, bends and open roads."
+    },
+    {
+      "titleZh": "說明改用新系統和互換角色",
+      "titleEn": "Explain new systems and shared roles",
+      "zh": "change over 可以表示改用新的系統或方法;change over 和 change round 也可以表示兩人互換工作或位置。",
+      "en": "Change over can describe using a new system or method, while change over and change round can describe two people swapping jobs or positions."
+    },
+    {
+      "titleZh": "描述改變、還原和重新排列",
+      "titleEn": "Describe transformation, restoration and rearrangement",
+      "zh": "你可以用 CHANGE 片語動詞表示某地方改作新用途、某物改回原來狀態,或多件物品重新排列。",
+      "en": "You can use CHANGE expressions to show that a place gains a new use, an object returns to an earlier state, or items are put in a different order."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論更換衣服",
+      "描述駕車時轉換波檔",
+      "說明改用新系統和互換角色",
+      "描述改變、還原和重新排列"
+    ],
+    "contextsEn": [
+      "Talk clearly about changing clothes",
+      "Describe changing gears while driving",
+      "Explain new systems and shared roles",
+      "Describe transformation, restoration and rearrangement"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論更換衣服",
+        "titleEn": "Talk clearly about changing clothes",
+        "zh": "CHANGE 片語動詞可以清楚表示某人換上另一套衣服、換下濕或骯髒的衣服,或換回之前穿着的衣服。",
+        "en": "CHANGE expressions let you show whether someone puts on different clothes, removes wet or dirty clothes, or returns to clothes worn earlier.",
+        "examples": [
+          {
+            "en": "After the show, Ben changed back into his own clothes.",
+            "zh": "表演後,賓換回自己的衣服。",
+            "highlight": "changed back into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述駕車時轉換波檔",
+        "titleEn": "Describe changing gears while driving",
+        "zh": "change down 和 change up 可以表示在斜坡、彎位或暢通道路上轉用較低或較高波檔。",
+        "en": "Change down and change up help you describe moving to a lower or higher gear on hills, bends and open roads.",
+        "examples": [
+          {
+            "en": "Change down to second gear before the bend.",
+            "zh": "在彎位前轉用二波。",
+            "highlight": "Change down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明改用新系統和互換角色",
+        "titleEn": "Explain new systems and shared roles",
+        "zh": "change over 可以表示改用新的系統或方法;change over 和 change round 也可以表示兩人互換工作或位置。",
+        "en": "Change over can describe using a new system or method, while change over and change round can describe two people swapping jobs or positions.",
+        "examples": [
+          {
+            "en": "Ella changed into her sports kit.",
+            "zh": "埃拉換上了運動服。",
+            "highlight": "changed into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述改變、還原和重新排列",
+        "titleEn": "Describe transformation, restoration and rearrangement",
+        "zh": "你可以用 CHANGE 片語動詞表示某地方改作新用途、某物改回原來狀態,或多件物品重新排列。",
+        "en": "You can use CHANGE expressions to show that a place gains a new use, an object returns to an earlier state, or items are put in a different order.",
+        "examples": [
+          {
+            "en": "The old shop changed into a café.",
+            "zh": "那間舊店變成了咖啡店。",
+            "highlight": "changed into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CHANGE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHANGE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CHANGE 片語動詞。",
+      "en": "Read the whole sentence and choose the CHANGE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "談論衣服時,change into 表示換上另一套衣服;change back into 表示換回之前穿着的衣服;change out of 表示換下身上的衣服。",
+      "titleEn": "For clothes, change into means putting on different clothes, change back into means returning to clothes worn earlier, and change out of means removing the clothes currently being worn.",
+      "zh": "談論衣服時,change into 表示換上另一套衣服;change back into 表示換回之前穿着的衣服;change out of 表示換下身上的衣服。",
+      "en": "For clothes, change into means putting on different clothes, change back into means returning to clothes worn earlier, and change out of means removing the clothes currently being worn."
+    },
+    {
+      "titleZh": "在 CHANGE ... AROUND/ROUND 或 CHANGE ... BACK 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "With it or them in a CHANGE.",
+      "zh": "在 CHANGE ... AROUND/ROUND 或 CHANGE ... BACK 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "With it or them in a CHANGE... AROUND/ROUND or CHANGE... BACK expression, place the word as shown: change it around, change them round, change it back."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHANGE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHANGE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHANGE 動詞片語句子改寫練習",
+    "titleEn": "CHANGE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHANGE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHANGE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-189-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 16,
+      "prompt": "The café started using paper cups instead of plastic ones.",
+      "promptZh": "這間咖啡店開始使用紙杯,不再使用膠杯。",
+      "starter": "The",
+      "answer": "The café changed over to paper cups instead of plastic ones.",
+      "answerZh": "這間咖啡店改用紙杯,不再使用膠杯。",
+      "highlight": "changed over to",
+      "targetForm": "change over",
+      "targetMeaningZh": "改用另一套系統、方法或材料"
+    },
+    {
+      "id": "phrasal-verb-189-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Nora dressed in her swimsuit before going to the pool.",
+      "promptZh": "諾拉去泳池前換上了泳衣。",
+      "starter": "Nora",
+      "answer": "Nora changed into her swimsuit before going to the pool.",
+      "answerZh": "諾拉去泳池前換上了泳衣。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Move to fourth gear now.",
+      "promptZh": "現在轉用四波。",
+      "starter": "Change",
+      "answer": "Change up to fourth gear now.",
+      "answerZh": "現在轉用四波。",
+      "highlight": "Change up",
+      "targetForm": "change up to something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "After the match, I dressed in my tracksuit again.",
+      "promptZh": "比賽後,我換回運動套裝。",
+      "starter": "After",
+      "answer": "After the match, I changed back into my tracksuit.",
+      "answerZh": "比賽後,我換回運動套裝。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Who moved the desks into a different order?",
+      "promptZh": "誰把書桌重新排列了?",
+      "starter": "Who",
+      "answer": "Who changed the desks around?",
+      "answerZh": "誰把書桌重新排列了?",
+      "highlight": "changed",
+      "targetForm": "change something around",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The old library became a youth centre.",
+      "promptZh": "那間舊圖書館變成了青年中心。",
+      "starter": "The",
+      "answer": "The old library changed into a youth centre.",
+      "answerZh": "那間舊圖書館變成了青年中心。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "變成另一種形態或用途"
+    },
+    {
+      "id": "phrasal-verb-189-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Move to second gear before the sharp bend.",
+      "promptZh": "在急彎前轉用二波。",
+      "starter": "Change",
+      "answer": "Change down to second gear before the sharp bend.",
+      "answerZh": "在急彎前轉用二波。",
+      "highlight": "Change down",
+      "targetForm": "change down to something",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Can you and Omar swap places?",
+      "promptZh": "你和奧馬可以互換位置嗎?",
+      "starter": "Can",
+      "answer": "Can you and Omar change round?",
+      "answerZh": "你和奧馬可以互換位置嗎?",
+      "highlight": "change round",
+      "targetForm": "change round",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Sam removed his wet shirt as soon as he got home.",
+      "promptZh": "森一回到家便換下了濕恤衫。",
+      "starter": "Sam",
+      "answer": "Sam changed out of his wet shirt as soon as he got home.",
+      "answerZh": "森一回到家便換下了濕恤衫。",
+      "highlight": "changed out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Please return the screen to its normal brightness.",
+      "promptZh": "請把螢幕調回正常亮度。",
+      "starter": "Please",
+      "answer": "Please change the screen back to its normal brightness.",
+      "answerZh": "請把螢幕調回正常亮度。",
+      "highlight": "change",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的狀態"
+    },
+    {
+      "id": "phrasal-verb-189-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The players dressed in clean shirts after training.",
+      "promptZh": "球員訓練後換上了乾淨的上衣。",
+      "starter": "The",
+      "answer": "The players changed into clean shirts after training.",
+      "answerZh": "球員訓練後換上了乾淨的上衣。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "After the play, the children dressed in their normal clothes again.",
+      "promptZh": "話劇結束後,孩子們換回平日的衣服。",
+      "starter": "After",
+      "answer": "After the play, the children changed back into their normal clothes.",
+      "answerZh": "話劇結束後,孩子們換回平日的衣服。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The caterpillar became a butterfly.",
+      "promptZh": "毛毛蟲變成了蝴蝶。",
+      "starter": "The",
+      "answer": "The caterpillar changed into a butterfly.",
+      "answerZh": "毛毛蟲變成了蝴蝶。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "變成另一種形態"
+    },
+    {
+      "id": "phrasal-verb-189-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The driver moved to a lower gear as the hill became steeper.",
+      "promptZh": "斜坡愈來愈陡時,司機轉用了較低波檔。",
+      "starter": "The",
+      "answer": "The driver changed down as the hill became steeper.",
+      "answerZh": "斜坡愈來愈陡時,司機轉用了較低波檔。",
+      "highlight": "changed down",
+      "targetForm": "change down",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "They are giving the spare room a new use as an art room.",
+      "promptZh": "他們正把空置房間改作美術室。",
+      "starter": "They",
+      "answer": "They are changing the spare room into an art room.",
+      "answerZh": "他們正把空置房間改成美術室。",
+      "highlight": "changing",
+      "targetForm": "change something into something",
+      "targetMeaningZh": "把某物變成另一種形態或用途"
+    },
+    {
+      "id": "phrasal-verb-189-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The editor has returned the title to its original size.",
+      "promptZh": "編輯已把標題調回原來的大小。",
+      "starter": "The",
+      "answer": "The editor has changed the title back to its original size.",
+      "answerZh": "編輯已把標題調回原來的大小。",
+      "highlight": "changed",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的狀態"
+    },
+    {
+      "id": "phrasal-verb-189-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The children are removing their costumes now.",
+      "promptZh": "孩子們現在正換下戲服。",
+      "starter": "The",
+      "answer": "The children are changing out of their costumes now.",
+      "answerZh": "孩子們現在正換下戲服。",
+      "highlight": "changing out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Will you dress in your school uniform again after lunch?",
+      "promptZh": "你午飯後會換回校服嗎?",
+      "starter": "Will",
+      "answer": "Will you change back into your school uniform after lunch?",
+      "answerZh": "你午飯後會換回校服嗎?",
+      "highlight": "change back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "After lunch, I did Ella’s job, and she did mine.",
+      "promptZh": "午飯後,我做埃拉的工作,她則做我的工作。",
+      "starter": "After",
+      "answer": "After lunch, Ella and I changed over.",
+      "answerZh": "午飯後,埃拉和我互換了工作。",
+      "highlight": "Ella and",
+      "targetForm": "change over",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The car was moving faster, so Priya moved to fifth gear.",
+      "promptZh": "汽車行駛得更快,因此普里雅轉用了五波。",
+      "starter": "The",
+      "answer": "The car was moving faster, so Priya changed up to fifth gear.",
+      "answerZh": "汽車行駛得更快,因此普里雅轉用了五波。",
+      "highlight": "changed up",
+      "targetForm": "change up to something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Leo usually dresses in his uniform before breakfast.",
+      "promptZh": "里奧通常在早餐前換上制服。",
+      "starter": "Leo",
+      "answer": "Leo usually changes into his uniform before breakfast.",
+      "answerZh": "里奧通常在早餐前換上制服。",
+      "highlight": "changes into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Our school is replacing paper tickets with digital tickets this month.",
+      "promptZh": "本校本月正以電子票取代紙票。",
+      "starter": "Our",
+      "answer": "Our school is changing over from paper tickets to digital tickets this month.",
+      "answerZh": "本校本月正由紙票改用電子票。",
+      "highlight": "changing over from",
+      "targetForm": "change over from something to something",
+      "targetMeaningZh": "由一套系統或方法改用另一套"
+    },
+    {
+      "id": "phrasal-verb-189-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Should I move to third gear before the roundabout?",
+      "promptZh": "我應否在迴旋處前轉用三波?",
+      "starter": "Should",
+      "answer": "Should I change down to third gear before the roundabout?",
+      "answerZh": "我應否在迴旋處前轉用三波?",
+      "highlight": "change down",
+      "targetForm": "change down to something",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The shop has moved its tables into new positions for the sale.",
+      "promptZh": "店舖為了減價活動,已重新擺放桌子。",
+      "starter": "The",
+      "answer": "The shop has changed its tables round for the sale.",
+      "answerZh": "店舖為了減價活動,已重新擺放桌子。",
+      "highlight": "changed",
+      "targetForm": "change something round",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Did you remove your school clothes before painting?",
+      "promptZh": "你畫畫前有換下校服嗎?",
+      "starter": "Did",
+      "answer": "Did you change out of your school clothes before painting?",
+      "answerZh": "你畫畫前有換下校服嗎?",
+      "highlight": "change out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The two actors will swap roles in the second scene.",
+      "promptZh": "兩名演員會在第二幕互換角色。",
+      "starter": "The",
+      "answer": "The two actors will change round in the second scene.",
+      "answerZh": "兩名演員會在第二幕互換角色。",
+      "highlight": "change round",
+      "targetForm": "change round",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "When did the shop begin using the new payment system?",
+      "promptZh": "店舖何時開始使用新的付款系統?",
+      "starter": "When",
+      "answer": "When did the shop change over to the new payment system?",
+      "answerZh": "店舖何時改用新的付款系統?",
+      "highlight": "change over to",
+      "targetForm": "change over to something",
+      "targetMeaningZh": "改用另一套系統或方法"
+    },
+    {
+      "id": "phrasal-verb-189-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Please put the pictures in a different order.",
+      "promptZh": "請把圖片重新排列。",
+      "starter": "Please",
+      "answer": "Please change the pictures around.",
+      "answerZh": "請把圖片重新排列。",
+      "highlight": "change",
+      "targetForm": "change something around",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The road became narrow. Ben moved from fourth gear to second.",
+      "promptZh": "道路變窄了。賓由四波轉到二波。",
+      "starter": "The",
+      "answer": "The road became narrow. Ben changed down from fourth gear to second.",
+      "answerZh": "道路變窄了。賓由四波轉到二波。",
+      "highlight": "changed down",
+      "targetForm": "change down from something to something",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The office used the old system yesterday, but it began using the new one this morning.",
+      "promptZh": "辦公室昨天仍使用舊系統,但今早開始使用新系統。",
+      "starter": "The",
+      "answer": "The office used the old system yesterday, but it changed over to the new one this morning.",
+      "answerZh": "辦公室昨天仍使用舊系統,但今早改用了新系統。",
+      "highlight": "changed over to",
+      "targetForm": "change over to something",
+      "targetMeaningZh": "改用另一套系統或方法"
+    },
+    {
+      "id": "phrasal-verb-189-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The garage was made into a music room last summer.",
+      "promptZh": "車房在去年夏天被改成了音樂室。",
+      "starter": "The",
+      "answer": "The garage was changed into a music room last summer.",
+      "answerZh": "車房在去年夏天被改成了音樂室。",
+      "highlight": "was changed",
+      "targetForm": "be changed into something",
+      "targetMeaningZh": "被改成另一種用途"
+    },
+    {
+      "id": "phrasal-verb-189-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I wore a suit for the photo. Afterwards, I dressed in my jeans again.",
+      "promptZh": "我拍照時穿西裝,之後換回牛仔褲。",
+      "starter": "I",
+      "answer": "I wore a suit for the photo. Afterwards, I changed back into my jeans.",
+      "answerZh": "我拍照時穿西裝,之後換回牛仔褲。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The chairs were in the wrong places, so we moved them to make more space.",
+      "promptZh": "椅子的位置不合適,所以我們重新擺放它們,以騰出更多空間。",
+      "starter": "The",
+      "answer": "The chairs were in the wrong places, so we changed them around to make more space.",
+      "answerZh": "椅子的位置不合適,所以我們重新擺放它們,以騰出更多空間。",
+      "highlight": "changed",
+      "targetForm": "change something around",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The car reached the open road. Ava moved from third gear to fifth.",
+      "promptZh": "汽車駛上暢通道路。艾娃由三波轉到五波。",
+      "starter": "The",
+      "answer": "The car reached the open road. Ava changed up from third gear to fifth.",
+      "answerZh": "汽車駛上暢通道路。艾娃由三波轉到五波。",
+      "highlight": "changed up",
+      "targetForm": "change up from something to something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The toy was a robot, but Ravi made it a car again.",
+      "promptZh": "那件玩具當時是機械人形態,但拉維把它變回玩具車。",
+      "starter": "The",
+      "answer": "The toy was a robot, but Ravi changed it back into a car.",
+      "answerZh": "那件玩具當時是機械人形態,但拉維把它變回玩具車。",
+      "highlight": "changed",
+      "targetForm": "change something back into something",
+      "targetMeaningZh": "把某物變回原來的形態"
+    },
+    {
+      "id": "phrasal-verb-189-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Before sitting on the sofa, Ella removed her rain-soaked trousers.",
+      "promptZh": "坐上梳化前,埃拉換下了被雨水濕透的長褲。",
+      "starter": "Before",
+      "answer": "Before sitting on the sofa, Ella changed out of her rain-soaked trousers.",
+      "answerZh": "坐上梳化前,埃拉換下了被雨水濕透的長褲。",
+      "highlight": "changed out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The team arrived in school clothes. Then they dressed in their sports kit.",
+      "promptZh": "隊員穿着校服到達,然後換上運動服。",
+      "starter": "The",
+      "answer": "The team arrived in school clothes. Then they changed into their sports kit.",
+      "answerZh": "隊員穿着校服到達,然後換上運動服。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Do not remain in fifth gear on this steep hill; move to a lower one.",
+      "promptZh": "在這條陡斜坡上不要一直使用五波;請轉用較低波檔。",
+      "starter": "Do",
+      "answer": "Do not remain in fifth gear on this steep hill; change down.",
+      "answerZh": "在這條陡斜坡上不要一直使用五波;請轉用較低波檔。",
+      "highlight": "change down",
+      "targetForm": "change down",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The video call ended, and Dad dressed in his old T-shirt again.",
+      "promptZh": "視像通話結束後,爸爸換回舊T恤。",
+      "starter": "The",
+      "answer": "The video call ended, and Dad changed back into his old T-shirt.",
+      "answerZh": "視像通話結束後,爸爸換回舊T恤。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Ava drove first. After an hour, she and Ben swapped.",
+      "promptZh": "艾娃先開車。一小時後,她和賓互換了工作。",
+      "starter": "Ava",
+      "answer": "Ava drove first. After an hour, she and Ben changed over.",
+      "answerZh": "艾娃先開車。一小時後,她和賓互換了工作。",
+      "highlight": "changed over",
+      "targetForm": "change over",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The learner driver has just moved from second gear to third.",
+      "promptZh": "學車司機剛由二波轉到三波。",
+      "starter": "The",
+      "answer": "The learner driver has just changed up from second gear to third.",
+      "answerZh": "學車司機剛由二波轉到三波。",
+      "highlight": "changed up",
+      "targetForm": "change up from something to something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The wall was blue for a week, but we made it white again.",
+      "promptZh": "牆壁一星期都是藍色,但我們後來把它改回白色。",
+      "starter": "The",
+      "answer": "The wall was blue for a week, but we changed it back to white.",
+      "answerZh": "牆壁一星期都是藍色,但我們後來把它改回白色。",
+      "highlight": "changed",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的狀態"
+    },
+    {
+      "id": "phrasal-verb-189-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After work, my aunt replaces her uniform with comfortable clothes.",
+      "promptZh": "下班後,我姨姨會換上舒適的衣服。",
+      "starter": "After",
+      "answer": "After work, my aunt changes into comfortable clothes.",
+      "answerZh": "下班後,我姨姨會換上舒適的衣服。",
+      "highlight": "changes into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The class had two group leaders. Halfway through the task, they swapped jobs.",
+      "promptZh": "班上有兩名小組組長。任務進行到一半時,他們互換了工作。",
+      "starter": "The",
+      "answer": "The class had two group leaders. Halfway through the task, they changed round.",
+      "answerZh": "班上有兩名小組組長。任務進行到一半時,他們互換了工作。",
+      "highlight": "changed round",
+      "targetForm": "change round",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The school wants to make the old hall a study room.",
+      "promptZh": "學校想把舊禮堂改作自修室。",
+      "starter": "The",
+      "answer": "The school wants to change the old hall into a study room.",
+      "answerZh": "學校想把舊禮堂改成自修室。",
+      "highlight": "change",
+      "targetForm": "change something into something",
+      "targetMeaningZh": "把某物變成另一種用途"
+    },
+    {
+      "id": "phrasal-verb-189-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Has Ben returned the phone language to English?",
+      "promptZh": "賓已把手機語言改回英文嗎?",
+      "starter": "Has",
+      "answer": "Has Ben changed the phone language back to English?",
+      "answerZh": "賓已把手機語言改回英文嗎?",
+      "highlight": "changed",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的設定"
+    },
+    {
+      "id": "phrasal-verb-189-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "At first, the family cooked with gas, but later they began using electricity.",
+      "promptZh": "起初這家人用煤氣煮食,後來改用電力。",
+      "starter": "At",
+      "answer": "At first, the family cooked with gas, but later they changed over to electricity.",
+      "answerZh": "起初這家人用煤氣煮食,後來改用電力。",
+      "highlight": "changed over to",
+      "targetForm": "change over to something",
+      "targetMeaningZh": "改用另一種系統、方法或能源"
+    },
+    {
+      "id": "phrasal-verb-189-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The dance teacher lent me a costume. When the lesson ended, I dressed in my own clothes again.",
+      "promptZh": "舞蹈老師借了一套戲服給我。課堂結束時,我換回自己的衣服。",
+      "starter": "The",
+      "answer": "The dance teacher lent me a costume. When the lesson ended, I changed back into my own clothes.",
+      "answerZh": "舞蹈老師借了一套戲服給我。課堂結束時,我換回自己的衣服。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "I did not like the order of the slides, so I rearranged them to improve the order.",
+      "promptZh": "我不喜歡投影片的次序,所以重新排列它們,以改善次序。",
+      "starter": "I",
+      "answer": "I did not like the order of the slides, so I changed them round to improve the order.",
+      "answerZh": "我不喜歡投影片的次序,所以重新排列它們,以改善次序。",
+      "highlight": "changed",
+      "targetForm": "change something round",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The runners removed their sweaty clothes before travelling home.",
+      "promptZh": "跑手回家前換下了汗濕的衣服。",
+      "starter": "The",
+      "answer": "The runners changed out of their sweaty clothes before travelling home.",
+      "answerZh": "跑手回家前換下了汗濕的衣服。",
+      "highlight": "changed out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "As the car approached the village, Priya moved to third gear to slow down.",
+      "promptZh": "汽車接近村莊時,普里雅轉用三波減速。",
+      "starter": "As",
+      "answer": "As the car approached the village, Priya changed down to third gear to slow down.",
+      "answerZh": "汽車接近村莊時,普里雅轉用三波減速。",
+      "highlight": "changed down",
+      "targetForm": "change down to something",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The road became clear, so Leo moved to a higher gear.",
+      "promptZh": "道路變得暢通,因此里奧轉用了較高波檔。",
+      "starter": "The",
+      "answer": "The road became clear, so Leo changed up.",
+      "answerZh": "道路變得暢通,因此里奧轉用了較高波檔。",
+      "highlight": "changed up",
+      "targetForm": "change up",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We had to dress in dry clothes before the school trip continued.",
+      "promptZh": "學校旅程繼續前,我們必須換上乾衣服。",
+      "starter": "We",
+      "answer": "We had to change into dry clothes before the school trip continued.",
+      "answerZh": "學校旅程繼續前,我們必須換上乾衣服。",
+      "highlight": "change into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I always remove my work clothes as soon as I arrive home.",
+      "promptZh": "我一回到家,總會立即換下工作服。",
+      "starter": "I",
+      "answer": "I always change out of my work clothes as soon as I arrive home.",
+      "answerZh": "我一回到家,總會立即換下工作服。",
+      "highlight": "change out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The warm sunlight made the ice melt.",
+      "promptZh": "溫暖的陽光使冰融化。",
+      "starter": "The",
+      "answer": "The warm sunlight changed the ice into water.",
+      "answerZh": "溫暖的陽光使冰變成了水。",
+      "highlight": "changed",
+      "targetForm": "change something into something",
+      "targetMeaningZh": "把某物變成另一種形態"
+    },
+    {
+      "id": "phrasal-verb-189-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Next year, the bus company will replace printed timetables with an app.",
+      "promptZh": "明年,巴士公司會以應用程式取代印刷時間表。",
+      "starter": "Next",
+      "answer": "Next year, the bus company will change over from printed timetables to an app.",
+      "answerZh": "明年,巴士公司會由印刷時間表改用應用程式。",
+      "highlight": "change over from",
+      "targetForm": "change over from something to something",
+      "targetMeaningZh": "由一套系統或方法改用另一套"
+    },
+    {
+      "id": "phrasal-verb-189-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The hikers were cold and wet when they reached the cabin, so they dressed in the clean clothes from their bags.",
+      "promptZh": "遠足者到達小屋時又冷又濕,所以換上袋中的乾淨衣服。",
+      "starter": "The",
+      "answer": "The hikers were cold and wet when they reached the cabin, so they changed into the clean clothes from their bags.",
+      "answerZh": "遠足者到達小屋時又冷又濕,所以換上袋中的乾淨衣服。",
+      "highlight": "changed into",
+      "targetForm": "change into something",
+      "targetMeaningZh": "換上另一套衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The room still felt crowded after we moved one chair, so we rearranged all the furniture.",
+      "promptZh": "我們移動了一張椅子後,房間仍很擠迫,所以把所有家具重新擺放。",
+      "starter": "The",
+      "answer": "The room still felt crowded after we moved one chair, so we changed all the furniture around.",
+      "answerZh": "我們移動了一張椅子後,房間仍很擠迫,所以把所有家具重新擺放。",
+      "highlight": "changed",
+      "targetForm": "change something around",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    },
+    {
+      "id": "phrasal-verb-189-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Because his jeans were covered in paint, Ben removed them before he sat in the car.",
+      "promptZh": "賓的牛仔褲沾滿油漆,所以他坐進車內前先把它換下。",
+      "starter": "Because",
+      "answer": "Because his jeans were covered in paint, Ben changed out of them before he sat in the car.",
+      "answerZh": "賓的牛仔褲沾滿油漆,所以他坐進車內前先把它換下。",
+      "highlight": "changed out of",
+      "targetForm": "change out of something",
+      "targetMeaningZh": "換下身上的衣物"
+    },
+    {
+      "id": "phrasal-verb-189-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The empty station building was no longer needed, so the town gave it a new use as a small market.",
+      "promptZh": "空置的車站大樓已不再需要,所以小鎮把它改作小型市場。",
+      "starter": "The",
+      "answer": "The empty station building was no longer needed, so the town changed it into a small market.",
+      "answerZh": "空置的車站大樓已不再需要,所以小鎮把它改成小型市場。",
+      "highlight": "changed",
+      "targetForm": "change something into something",
+      "targetMeaningZh": "把某物變成另一種用途"
+    },
+    {
+      "id": "phrasal-verb-189-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The engine sounded ready for more speed, so the instructor told Sam to move from third gear to fourth.",
+      "promptZh": "引擎的聲音顯示汽車可以加速,所以導師叫森由三波轉到四波。",
+      "starter": "The",
+      "answer": "The engine sounded ready for more speed, so the instructor told Sam to change up from third gear to fourth.",
+      "answerZh": "引擎的聲音顯示汽車可以加速,所以導師叫森由三波轉到四波。",
+      "highlight": "change up",
+      "targetForm": "change up from something to something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Omar packed the boxes while Ella wrote the labels. After twenty minutes, they swapped jobs.",
+      "promptZh": "奧馬負責把物品放進箱子,埃拉則寫標籤。二十分鐘後,他們互換了工作。",
+      "starter": "Omar",
+      "answer": "Omar packed the boxes while Ella wrote the labels. After twenty minutes, they changed over.",
+      "answerZh": "奧馬負責把物品放進箱子,埃拉則寫標籤。二十分鐘後,他們互換了工作。",
+      "highlight": "changed over",
+      "targetForm": "change over",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The costume was hot, so as soon as the show ended, Priya dressed in the light clothes she had worn earlier.",
+      "promptZh": "戲服很熱,所以表演一結束,普里雅便換回之前穿的輕便衣服。",
+      "starter": "The",
+      "answer": "The costume was hot, so as soon as the show ended, Priya changed back into the light clothes she had worn earlier.",
+      "answerZh": "戲服很熱,所以表演一結束,普里雅便換回之前穿的輕便衣服。",
+      "highlight": "changed back into",
+      "targetForm": "change back into something",
+      "targetMeaningZh": "換回原先的衣服"
+    },
+    {
+      "id": "phrasal-verb-189-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The picture looked too dark after my edit, so I returned it to the lighter setting I had used before.",
+      "promptZh": "我編輯後,圖片看起來太暗,所以把它調回之前使用的較亮設定。",
+      "starter": "The",
+      "answer": "The picture looked too dark after my edit, so I changed it back to the lighter setting I had used before.",
+      "answerZh": "我編輯後,圖片看起來太暗,所以把它調回之前使用的較亮設定。",
+      "highlight": "changed",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的設定"
+    },
+    {
+      "id": "phrasal-verb-189-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The club used cash for years, but after many members asked to pay by card, it began accepting card payments.",
+      "promptZh": "這個會所多年來一直使用現金,但許多會員要求以卡付款後,它便開始接受卡付款。",
+      "starter": "The",
+      "answer": "The club used cash for years, but after many members asked to pay by card, it changed over to card payments.",
+      "answerZh": "這個會所多年來一直使用現金,但許多會員要求以卡付款後,它便改用卡付款。",
+      "highlight": "changed over to",
+      "targetForm": "change over to something",
+      "targetMeaningZh": "改用另一套系統或付款方法"
+    },
+    {
+      "id": "phrasal-verb-189-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After the science lesson, we had to return all the computer settings to their earlier values.",
+      "promptZh": "科學課後,我們必須把所有電腦設定改回原來的數值。",
+      "starter": "After",
+      "answer": "After the science lesson, we had to change all the computer settings back to their earlier values.",
+      "answerZh": "科學課後,我們必須把所有電腦設定改回原來的數值。",
+      "highlight": "change",
+      "targetForm": "change something back to something",
+      "targetMeaningZh": "把某物改回原來的設定"
+    },
+    {
+      "id": "phrasal-verb-189-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The two children took turns sitting by the window, and after the first hour they swapped places.",
+      "promptZh": "兩名孩子輪流坐在窗邊,第一小時過後便互換位置。",
+      "starter": "The",
+      "answer": "The two children took turns sitting by the window, and after the first hour they changed round.",
+      "answerZh": "兩名孩子輪流坐在窗邊,第一小時過後便互換位置。",
+      "highlight": "changed round",
+      "targetForm": "change round",
+      "targetMeaningZh": "互換位置、工作或角色"
+    },
+    {
+      "id": "phrasal-verb-189-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The car was moving too fast for the narrow street, so the instructor told Ava to move to a lower gear.",
+      "promptZh": "汽車在狹窄街道上行駛得太快,所以導師叫艾娃轉用較低波檔。",
+      "starter": "The",
+      "answer": "The car was moving too fast for the narrow street, so the instructor told Ava to change down.",
+      "answerZh": "汽車在狹窄街道上行駛得太快,所以導師叫艾娃轉用較低波檔。",
+      "highlight": "change down",
+      "targetForm": "change down",
+      "targetMeaningZh": "駕車時轉用較低波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Once the bus left the busy town and reached the open road, the driver moved into a higher gear.",
+      "promptZh": "巴士離開繁忙市區並駛上暢通道路後,司機轉用了較高波檔。",
+      "starter": "Once",
+      "answer": "Once the bus left the busy town and reached the open road, the driver changed up into a higher gear.",
+      "answerZh": "巴士離開繁忙市區並駛上暢通道路後,司機轉用了較高波檔。",
+      "highlight": "changed up",
+      "targetForm": "change up into something",
+      "targetMeaningZh": "駕車時轉用較高波檔"
+    },
+    {
+      "id": "phrasal-verb-189-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The speaker swapped the opening and final examples because the old order was confusing.",
+      "promptZh": "講者把開首和最後的例子對調,因為原來的次序令人混亂。",
+      "starter": "The",
+      "answer": "The speaker changed the opening and final examples round because the old order was confusing.",
+      "answerZh": "講者把開首和最後的例子對調,因為原來的次序令人混亂。",
+      "highlight": "changed",
+      "targetForm": "change something round",
+      "targetMeaningZh": "重新排列某物的位置或次序"
+    }
+  ]
+}

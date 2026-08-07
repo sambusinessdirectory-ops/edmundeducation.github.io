@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-228",
+  "order": 228,
+  "slug": "bear",
+  "version": "1",
+  "title": "BEAR 動詞片語",
+  "titleEn": "Bear",
+  "titleZh": "BEAR 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 225 - BEAR.pdf",
+    "sourceNumber": 225,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BEAR",
+      "highlight": "BEAR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A lorry bore down on us.",
+      "zh": "一輛貨車迅速向我們逼近。",
+      "highlight": "bore down on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The decision bears directly on our daily lives.",
+      "zh": "這項決定直接影響我們的日常生活。",
+      "highlight": "bears directly on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The facts bear her out.",
+      "zh": "事實證明她所言屬實。",
+      "highlight": "bear her out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "迅速或帶威脅地逼近某人或某物；與某人或某事有關;對其造成影響；證明某人所言屬實;支持或證實某個說法；在困難、壓力或痛苦下撐住;保持堅強；耐心等候;對某人保持耐性",
+    "en": "bear down on somebody/something / bear down upon somebody/something; bear on somebody/something / bear upon somebody/something; bear somebody/something out; bear up / bear up under something; bear with somebody",
+    "naturalZh": [
+      "迅速或帶威脅地逼近某人或某物",
+      "與某人或某事有關;對其造成影響",
+      "證明某人所言屬實;支持或證實某個說法",
+      "在困難、壓力或痛苦下撐住;保持堅強",
+      "耐心等候;對某人保持耐性"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bear down on somebody/something / bear down upon somebody/something",
+      "titleZh": "迅速或帶威脅地逼近某人或某物",
+      "titleEn": "bear down on somebody/something / bear down upon somebody/something",
+      "descriptionZh": "迅速或帶威脅地逼近某人或某物",
+      "descriptionEn": "A lorry bore down on us.",
+      "examples": [
+        {
+          "en": "A lorry bore down on us.",
+          "zh": "一輛貨車迅速向我們逼近。",
+          "highlight": "bore down on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bear on somebody/something / bear upon somebody/something",
+      "titleZh": "與某人或某事有關;對其造成影響",
+      "titleEn": "bear on somebody/something / bear upon somebody/something",
+      "descriptionZh": "與某人或某事有關;對其造成影響",
+      "descriptionEn": "The decision bears directly on our daily lives.",
+      "examples": [
+        {
+          "en": "The decision bears directly on our daily lives.",
+          "zh": "這項決定直接影響我們的日常生活。",
+          "highlight": "bears directly on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bear somebody/something out",
+      "titleZh": "證明某人所言屬實;支持或證實某個說法",
+      "titleEn": "bear somebody/something out",
+      "descriptionZh": "證明某人所言屬實;支持或證實某個說法",
+      "descriptionEn": "The facts bear her out.",
+      "examples": [
+        {
+          "en": "The facts bear her out.",
+          "zh": "事實證明她所言屬實。",
+          "highlight": "bear her out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bear up / bear up under something",
+      "titleZh": "在困難、壓力或痛苦下撐住;保持堅強",
+      "titleEn": "bear up / bear up under something",
+      "descriptionZh": "在困難、壓力或痛苦下撐住;保持堅強",
+      "descriptionEn": "He is bearing up well under the pressure.",
+      "examples": [
+        {
+          "en": "He is bearing up well under the pressure.",
+          "zh": "他在壓力下仍然撐得很好。",
+          "highlight": "bearing up well under"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bear with somebody",
+      "titleZh": "耐心等候;對某人保持耐性",
+      "titleEn": "bear with somebody",
+      "descriptionZh": "耐心等候;對某人保持耐性",
+      "descriptionEn": "Please bear with me for a minute.",
+      "examples": [
+        {
+          "en": "Please bear with me for a minute.",
+          "zh": "請耐心等我一分鐘。",
+          "highlight": "bear with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BEAR 片語動詞的實際用途",
+    "labelEn": "BEAR Phrasal Verbs in Use",
+    "summaryZh": "bear down on 可以描述車輛、風暴、人群或其他危險迅速逼近某人或某處。；bear on 可以表示某項事實、規則、決定或意見與特定主題或情況有關,並可能造成影響。；當事實、訊息、結果或其他人支持某人的說法時,可以使用 bear somebody out。；bear up 表示在困難中保持堅強;bear with 則用來請別人耐心等候。",
+    "summaryEn": "Bear down on can describe a vehicle, storm, crowd or other danger moving quickly towards someone or somewhere. Bear on can show that a fact, rule, decision or comment affects a particular subject or situation. Bear somebody out can be used when facts, messages, results or other people support what someone has said. Bear up describes remaining strong during difficulty, while bear with asks someone to wait patiently.",
+    "contextsZh": [
+      "清楚描述正在逼近的危險",
+      "說明資料為何與某事有關",
+      "證明某人或某個說法正確",
+      "自然談論堅強和耐性"
+    ],
+    "contextsEn": [
+      "Describe approaching danger clearly",
+      "Explain why information is relevant",
+      "Show that a person or statement is correct",
+      "Talk naturally about strength and patience"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bear down on somebody/something / bear down upon somebody/something",
+    "fixedHighlight": "bear down on somebody/something / bear down upon somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 BEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BEAR expression that gives the same meaning.",
+    "correct": "bore down on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 bear somebody/something out 時,請按照以上例子放置 me、her、it 等較短的詞語。；在 bear down on/upon 和 bear on/upon 中,on 和 upon 可以表達相同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. In bear somebody/something out, place short words as shown: bear me out bear her out bore it out On and upon can express the same meaning in bear down on/upon and bear on/upon.",
+    "variableItemsZh": [
+      "bear down on somebody/something / bear down upon somebody/something",
+      "bear on somebody/something / bear upon somebody/something",
+      "bear somebody/something out",
+      "bear up / bear up under something",
+      "bear with somebody"
+    ],
+    "variableItemsEn": [
+      "bear down on somebody/something / bear down upon somebody/something",
+      "bear on somebody/something / bear upon somebody/something",
+      "bear somebody/something out",
+      "bear up / bear up under something",
+      "bear with somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "迅速或帶威脅地逼近某人或某物",
+        "formEn": "bear down on somebody/something / bear down upon somebody/something",
+        "exampleZh": "一輛貨車迅速向我們逼近。",
+        "exampleEn": "A lorry bore down on us.",
+        "highlight": "bore down on"
+      },
+      {
+        "formZh": "與某人或某事有關;對其造成影響",
+        "formEn": "bear on somebody/something / bear upon somebody/something",
+        "exampleZh": "這項決定直接影響我們的日常生活。",
+        "exampleEn": "The decision bears directly on our daily lives.",
+        "highlight": "bears directly on"
+      },
+      {
+        "formZh": "證明某人所言屬實;支持或證實某個說法",
+        "formEn": "bear somebody/something out",
+        "exampleZh": "事實證明她所言屬實。",
+        "exampleEn": "The facts bear her out.",
+        "highlight": "bear her out"
+      },
+      {
+        "formZh": "在困難、壓力或痛苦下撐住;保持堅強",
+        "formEn": "bear up / bear up under something",
+        "exampleZh": "他在壓力下仍然撐得很好。",
+        "exampleEn": "He is bearing up well under the pressure.",
+        "highlight": "bearing up well under"
+      },
+      {
+        "formZh": "耐心等候;對某人保持耐性",
+        "formEn": "bear with somebody",
+        "exampleZh": "請耐心等我一分鐘。",
+        "exampleEn": "Please bear with me for a minute.",
+        "highlight": "bear with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "迅速或帶威脅地逼近某人或某物",
+      "titleEn": "bear down on somebody/something / bear down upon somebody/something",
+      "formula": "bear down on somebody/something / bear down upon somebody/something",
+      "highlight": "bear down on somebody/something / bear down upon somebody/something",
+      "descriptionZh": "迅速或帶威脅地逼近某人或某物",
+      "descriptionEn": "A lorry bore down on us.",
+      "examples": [
+        {
+          "en": "A lorry bore down on us.",
+          "zh": "一輛貨車迅速向我們逼近。",
+          "highlight": "bore down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "與某人或某事有關;對其造成影響",
+      "titleEn": "bear on somebody/something / bear upon somebody/something",
+      "formula": "bear on somebody/something / bear upon somebody/something",
+      "highlight": "bear on somebody/something / bear upon somebody/something",
+      "descriptionZh": "與某人或某事有關;對其造成影響",
+      "descriptionEn": "The decision bears directly on our daily lives.",
+      "examples": [
+        {
+          "en": "The decision bears directly on our daily lives.",
+          "zh": "這項決定直接影響我們的日常生活。",
+          "highlight": "bears directly on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "證明某人所言屬實;支持或證實某個說法",
+      "titleEn": "bear somebody/something out",
+      "formula": "bear somebody/something out",
+      "highlight": "bear somebody/something out",
+      "descriptionZh": "證明某人所言屬實;支持或證實某個說法",
+      "descriptionEn": "The facts bear her out.",
+      "examples": [
+        {
+          "en": "The facts bear her out.",
+          "zh": "事實證明她所言屬實。",
+          "highlight": "bear her out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在困難、壓力或痛苦下撐住;保持堅強",
+      "titleEn": "bear up / bear up under something",
+      "formula": "bear up / bear up under something",
+      "highlight": "bear up / bear up under something",
+      "descriptionZh": "在困難、壓力或痛苦下撐住;保持堅強",
+      "descriptionEn": "He is bearing up well under the pressure.",
+      "examples": [
+        {
+          "en": "He is bearing up well under the pressure.",
+          "zh": "他在壓力下仍然撐得很好。",
+          "highlight": "bearing up well under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "耐心等候;對某人保持耐性",
+      "titleEn": "bear with somebody",
+      "formula": "bear with somebody",
+      "highlight": "bear with somebody",
+      "descriptionZh": "耐心等候;對某人保持耐性",
+      "descriptionEn": "Please bear with me for a minute.",
+      "examples": [
+        {
+          "en": "Please bear with me for a minute.",
+          "zh": "請耐心等我一分鐘。",
+          "highlight": "bear with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述正在逼近的危險",
+      "titleEn": "Describe approaching danger clearly",
+      "zh": "bear down on 可以描述車輛、風暴、人群或其他危險迅速逼近某人或某處。",
+      "en": "Bear down on can describe a vehicle, storm, crowd or other danger moving quickly towards someone or somewhere."
+    },
+    {
+      "titleZh": "說明資料為何與某事有關",
+      "titleEn": "Explain why information is relevant",
+      "zh": "bear on 可以表示某項事實、規則、決定或意見與特定主題或情況有關,並可能造成影響。",
+      "en": "Bear on can show that a fact, rule, decision or comment affects a particular subject or situation."
+    },
+    {
+      "titleZh": "證明某人或某個說法正確",
+      "titleEn": "Show that a person or statement is correct",
+      "zh": "當事實、訊息、結果或其他人支持某人的說法時,可以使用 bear somebody out。",
+      "en": "Bear somebody out can be used when facts, messages, results or other people support what someone has said."
+    },
+    {
+      "titleZh": "自然談論堅強和耐性",
+      "titleEn": "Talk naturally about strength and patience",
+      "zh": "bear up 表示在困難中保持堅強;bear with 則用來請別人耐心等候。",
+      "en": "Bear up describes remaining strong during difficulty, while bear with asks someone to wait patiently."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述正在逼近的危險",
+      "說明資料為何與某事有關",
+      "證明某人或某個說法正確",
+      "自然談論堅強和耐性"
+    ],
+    "contextsEn": [
+      "Describe approaching danger clearly",
+      "Explain why information is relevant",
+      "Show that a person or statement is correct",
+      "Talk naturally about strength and patience"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述正在逼近的危險",
+        "titleEn": "Describe approaching danger clearly",
+        "zh": "bear down on 可以描述車輛、風暴、人群或其他危險迅速逼近某人或某處。",
+        "en": "Bear down on can describe a vehicle, storm, crowd or other danger moving quickly towards someone or somewhere.",
+        "examples": [
+          {
+            "en": "A lorry bore down on us.",
+            "zh": "一輛貨車迅速向我們逼近。",
+            "highlight": "bore down on"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明資料為何與某事有關",
+        "titleEn": "Explain why information is relevant",
+        "zh": "bear on 可以表示某項事實、規則、決定或意見與特定主題或情況有關,並可能造成影響。",
+        "en": "Bear on can show that a fact, rule, decision or comment affects a particular subject or situation.",
+        "examples": [
+          {
+            "en": "The decision bears directly on our daily lives.",
+            "zh": "這項決定直接影響我們的日常生活。",
+            "highlight": "bears directly on"
+          }
+        ]
+      },
+      {
+        "titleZh": "證明某人或某個說法正確",
+        "titleEn": "Show that a person or statement is correct",
+        "zh": "當事實、訊息、結果或其他人支持某人的說法時,可以使用 bear somebody out。",
+        "en": "Bear somebody out can be used when facts, messages, results or other people support what someone has said.",
+        "examples": [
+          {
+            "en": "The facts bear her out.",
+            "zh": "事實證明她所言屬實。",
+            "highlight": "bear her out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論堅強和耐性",
+        "titleEn": "Talk naturally about strength and patience",
+        "zh": "bear up 表示在困難中保持堅強;bear with 則用來請別人耐心等候。",
+        "en": "Bear up describes remaining strong during difficulty, while bear with asks someone to wait patiently.",
+        "examples": [
+          {
+            "en": "He is bearing up well under the pressure.",
+            "zh": "他在壓力下仍然撐得很好。",
+            "highlight": "bearing up well under"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BEAR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the BEAR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 bear somebody/something out 時,請按照以上例子放置 me、her、it 等較短的詞語。",
+      "titleEn": "In bear somebody/something out, place short words as shown: bear me out bear her out bore it out.",
+      "zh": "使用 bear somebody/something out 時,請按照以上例子放置 me、her、it 等較短的詞語。",
+      "en": "In bear somebody/something out, place short words as shown: bear me out bear her out bore it out"
+    },
+    {
+      "titleZh": "在 bear down on/upon 和 bear on/upon 中,on 和 upon 可以表達相同意思。",
+      "titleEn": "On and upon can express the same meaning in bear down on/upon and bear on/upon.",
+      "zh": "在 bear down on/upon 和 bear on/upon 中,on 和 upon 可以表達相同意思。",
+      "en": "On and upon can express the same meaning in bear down on/upon and bear on/upon."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BEAR 動詞片語句子改寫練習",
+    "titleEn": "BEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-228-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "This rule directly affects every student in the school.",
+      "promptZh": "這項規則直接影響學校裏的每一名學生。",
+      "starter": "This",
+      "answer": "This rule bears directly on every student in the school.",
+      "answerZh": "這項規則直接影響學校裏的每一名學生。",
+      "highlight": "bears",
+      "targetForm": "bear on somebody/something",
+      "targetMeaningZh": "與某人或某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "A crowd of photographers moved quickly towards the actor.",
+      "promptZh": "一群攝影師迅速向那名演員逼近。",
+      "starter": "A",
+      "answer": "A crowd of photographers bore down on the actor.",
+      "answerZh": "一群攝影師迅速向那名演員逼近。",
+      "highlight": "bore down on",
+      "targetForm": "bear down on somebody",
+      "targetMeaningZh": "迅速或帶威脅地逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Nora is staying strong after the bad news.",
+      "promptZh": "Nora 得知壞消息後仍然堅強地撐着。",
+      "starter": "Nora",
+      "answer": "Nora is bearing up well after the bad news.",
+      "answerZh": "Nora 得知壞消息後仍然堅強地撐着。",
+      "highlight": "bearing up well",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The photos support what he said.",
+      "promptZh": "這些照片證明他所言屬實。",
+      "starter": "The",
+      "answer": "The photos bear him out.",
+      "answerZh": "這些照片證明他所言屬實。",
+      "highlight": "bear him out",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please be patient with me for a moment.",
+      "promptZh": "請耐心等我一會兒。",
+      "starter": "Please",
+      "answer": "Please bear with me for a moment.",
+      "answerZh": "請耐心等我一會兒。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A large wave was moving quickly towards the boat.",
+      "promptZh": "一個巨浪正迅速向小船逼近。",
+      "starter": "A",
+      "answer": "A large wave was bearing down on the boat.",
+      "answerZh": "一個巨浪正迅速向小船逼近。",
+      "highlight": "bearing down on",
+      "targetForm": "bear down on something",
+      "targetMeaningZh": "迅速逼近某物"
+    },
+    {
+      "id": "phrasal-verb-228-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The family stayed strong during the difficult week.",
+      "promptZh": "這個家庭在艱難的一星期裏仍然堅強地撐着。",
+      "starter": "The",
+      "answer": "The family bore up well during the difficult week.",
+      "answerZh": "這個家庭在艱難的一星期裏仍然堅強地撐着。",
+      "highlight": "bore up well",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The new bus route affects our journey to work.",
+      "promptZh": "新巴士路線影響我們上班的路程。",
+      "starter": "The",
+      "answer": "The new bus route bears on our journey to work.",
+      "answerZh": "新巴士路線影響我們上班的路程。",
+      "highlight": "bears on",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The final score showed that the coach was right.",
+      "promptZh": "最後比分證明教練是對的。",
+      "starter": "The",
+      "answer": "The final score bore the coach out.",
+      "answerZh": "最後比分證明教練是對的。",
+      "highlight": "bore",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The angry dog rushed towards the gate.",
+      "promptZh": "那隻憤怒的狗衝向大閘。",
+      "starter": "The",
+      "answer": "The angry dog bore down upon the gate.",
+      "answerZh": "那隻憤怒的狗衝向大閘。",
+      "highlight": "bore down upon",
+      "targetForm": "bear down upon something",
+      "targetMeaningZh": "迅速或帶威脅地逼近某物"
+    },
+    {
+      "id": "phrasal-verb-228-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please wait patiently while we check your booking.",
+      "promptZh": "請耐心等候,讓我們檢查你的預約。",
+      "starter": "Bear",
+      "answer": "Bear with us while we check your booking.",
+      "answerZh": "請耐心等候,讓我們檢查你的預約。",
+      "highlight": "Bear with us",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Despite the pain, Leo remained brave and strong.",
+      "promptZh": "儘管感到痛楚,Leo 仍勇敢堅強地撐着。",
+      "starter": "Despite",
+      "answer": "Despite the pain, Leo bore up bravely.",
+      "answerZh": "儘管感到痛楚,Leo 仍勇敢堅強地撐着。",
+      "highlight": "bore up bravely",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在痛苦或困難下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Will you be patient with me while I restart the computer?",
+      "promptZh": "我重新啟動電腦時,你可以耐心等我嗎?",
+      "starter": "Will",
+      "answer": "Will you bear with me while I restart the computer?",
+      "answerZh": "我重新啟動電腦時,你可以耐心等我嗎?",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "These changes may directly affect your monthly costs.",
+      "promptZh": "這些改動可能直接影響你的每月開支。",
+      "starter": "These",
+      "answer": "These changes may bear directly on your monthly costs.",
+      "answerZh": "這些改動可能直接影響你的每月開支。",
+      "highlight": "bear",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The bus was moving quickly towards the crossing.",
+      "promptZh": "巴士正迅速駛向行人過路處。",
+      "starter": "The",
+      "answer": "The bus was bearing down on the crossing.",
+      "answerZh": "巴士正迅速駛向行人過路處。",
+      "highlight": "bearing down on",
+      "targetForm": "bear down on something",
+      "targetMeaningZh": "迅速逼近某處或某物"
+    },
+    {
+      "id": "phrasal-verb-228-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Her later success has shown that I was right.",
+      "promptZh": "她後來取得的成功證明我是對的。",
+      "starter": "Her",
+      "answer": "Her later success has borne me out.",
+      "answerZh": "她後來取得的成功證明我是對的。",
+      "highlight": "borne me out",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "How is Ava staying strong under all this pressure?",
+      "promptZh": "Ava 在這麼大的壓力下撐得怎樣?",
+      "starter": "How",
+      "answer": "How is Ava bearing up under all this pressure?",
+      "answerZh": "Ava 在這麼大的壓力下撐得怎樣?",
+      "highlight": "bearing up",
+      "targetForm": "bear up under something",
+      "targetMeaningZh": "在壓力或困難下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Does the new rule affect part-time workers?",
+      "promptZh": "新規則會否影響兼職員工?",
+      "starter": "Does",
+      "answer": "Does the new rule bear upon part-time workers?",
+      "answerZh": "新規則會否影響兼職員工?",
+      "highlight": "bear upon",
+      "targetForm": "bear upon somebody",
+      "targetMeaningZh": "與某人有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I hope you can be patient with us a little longer.",
+      "promptZh": "我希望你可以再耐心等我們一會兒。",
+      "starter": "I",
+      "answer": "I hope you can bear with us a little longer.",
+      "answerZh": "我希望你可以再耐心等我們一會兒。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Dark clouds were moving quickly towards the island.",
+      "promptZh": "烏雲正迅速向小島逼近。",
+      "starter": "Dark",
+      "answer": "Dark clouds were bearing down upon the island.",
+      "answerZh": "烏雲正迅速向小島逼近。",
+      "highlight": "bearing down upon",
+      "targetForm": "bear down upon something",
+      "targetMeaningZh": "迅速逼近某處或某物"
+    },
+    {
+      "id": "phrasal-verb-228-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The question is not relevant to today’s discussion.",
+      "promptZh": "這個問題與今天的討論無關。",
+      "starter": "The",
+      "answer": "The question does not bear on today’s discussion.",
+      "answerZh": "這個問題與今天的討論無關。",
+      "highlight": "does",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關"
+    },
+    {
+      "id": "phrasal-verb-228-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Sam has coped better than we expected.",
+      "promptZh": "Sam 撐得比我們預期中好。",
+      "starter": "Sam",
+      "answer": "Sam has borne up better than we expected.",
+      "answerZh": "Sam 撐得比我們預期中好。",
+      "highlight": "borne up",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Will the other messages support what she said?",
+      "promptZh": "其他訊息會否證明她所言屬實?",
+      "starter": "Will",
+      "answer": "Will the other messages bear her out?",
+      "answerZh": "其他訊息會否證明她所言屬實?",
+      "highlight": "bear her out",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please be patient with the new assistant while he learns.",
+      "promptZh": "新助理學習期間,請對他保持耐性。",
+      "starter": "Please",
+      "answer": "Please bear with the new assistant while he learns.",
+      "answerZh": "新助理學習期間,請對他保持耐性。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The receipt confirmed what the customer had told us.",
+      "promptZh": "收據證實了顧客告訴我們的事情。",
+      "starter": "The",
+      "answer": "The receipt bore out what the customer had told us.",
+      "answerZh": "收據證實了顧客告訴我們的事情。",
+      "highlight": "bore out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The line is moving slowly, so please be patient with us.",
+      "promptZh": "隊伍前進得很慢,所以請耐心等候我們。",
+      "starter": "The",
+      "answer": "The line is moving slowly, so please bear with us.",
+      "answerZh": "隊伍前進得很慢,所以請耐心等候我們。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "What she said directly affects the choice we must make.",
+      "promptZh": "她所說的話直接影響我們必須作出的選擇。",
+      "starter": "What",
+      "answer": "What she said bears directly on the choice we must make.",
+      "answerZh": "她所說的話直接影響我們必須作出的選擇。",
+      "highlight": "bears",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Even under heavy pressure, the team continued to stay strong.",
+      "promptZh": "即使面對沉重壓力,團隊仍繼續堅強地撐着。",
+      "starter": "Even",
+      "answer": "Even under heavy pressure, the team continued to bear up.",
+      "answerZh": "即使面對沉重壓力,團隊仍繼續堅強地撐着。",
+      "highlight": "bear up",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在壓力或困難下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "As we crossed the road, a cyclist came quickly towards us.",
+      "promptZh": "我們過馬路時,一名單車手迅速向我們駛來。",
+      "starter": "As",
+      "answer": "As we crossed the road, a cyclist bore down on us.",
+      "answerZh": "我們過馬路時,一名單車手迅速向我們駛來。",
+      "highlight": "bore down on",
+      "targetForm": "bear down on somebody",
+      "targetMeaningZh": "迅速逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I said the plan would work, and the result showed that I was right.",
+      "promptZh": "我曾說這項計劃會成功,而結果證明我是對的。",
+      "starter": "I",
+      "answer": "I said the plan would work, and the result bore me out.",
+      "answerZh": "我曾說這項計劃會成功,而結果證明我是對的。",
+      "highlight": "bore me out",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Could you be patient with him while he explains the problem?",
+      "promptZh": "他解釋問題時,你可以對他保持耐性嗎?",
+      "starter": "Could",
+      "answer": "Could you bear with him while he explains the problem?",
+      "answerZh": "他解釋問題時,你可以對他保持耐性嗎?",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The report may affect how the school uses its money.",
+      "promptZh": "這份報告可能影響學校如何使用資金。",
+      "starter": "The",
+      "answer": "The report may bear upon how the school uses its money.",
+      "answerZh": "這份報告可能影響學校如何使用資金。",
+      "highlight": "bear upon",
+      "targetForm": "bear upon something",
+      "targetMeaningZh": "與某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Her account was confirmed by two other passengers.",
+      "promptZh": "她的說法獲另外兩名乘客證實。",
+      "starter": "Her",
+      "answer": "Her account was borne out by two other passengers.",
+      "answerZh": "她的說法獲另外兩名乘客證實。",
+      "highlight": "borne out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The storm is now moving quickly towards the northern coast.",
+      "promptZh": "風暴現正迅速逼近北部海岸。",
+      "starter": "The",
+      "answer": "The storm is now bearing down on the northern coast.",
+      "answerZh": "風暴現正迅速逼近北部海岸。",
+      "highlight": "bearing down on",
+      "targetForm": "bear down on something",
+      "targetMeaningZh": "迅速逼近某處或某物"
+    },
+    {
+      "id": "phrasal-verb-228-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We wondered whether he would stay strong under the extra work.",
+      "promptZh": "我們不知道他能否在額外工作下撐住。",
+      "starter": "We",
+      "answer": "We wondered whether he would bear up under the extra work.",
+      "answerZh": "我們不知道他能否在額外工作下撐住。",
+      "highlight": "bear up",
+      "targetForm": "bear up under something",
+      "targetMeaningZh": "在壓力或困難下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "If you are patient with me, I can finish the form correctly.",
+      "promptZh": "如果你耐心等我,我便可以正確填妥表格。",
+      "starter": "If",
+      "answer": "If you bear with me, I can finish the form correctly.",
+      "answerZh": "如果你耐心等我,我便可以正確填妥表格。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The reporters saw the singer leave and immediately moved towards her in a crowd.",
+      "promptZh": "記者看見那名歌手離開,立即一擁而上,向她逼近。",
+      "starter": "The",
+      "answer": "The reporters saw the singer leave and immediately bore down on her.",
+      "answerZh": "記者看見那名歌手離開,立即一擁而上,向她逼近。",
+      "highlight": "bore down on",
+      "targetForm": "bear down on somebody",
+      "targetMeaningZh": "迅速或帶威脅地逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The empty boxes supported his claim that nothing had arrived.",
+      "promptZh": "空箱子支持了他的說法,證明沒有任何東西送到。",
+      "starter": "The",
+      "answer": "The empty boxes bore out his claim that nothing had arrived.",
+      "answerZh": "空箱子支持了他的說法,證明沒有任何東西送到。",
+      "highlight": "bore out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Although the journey was exhausting, the children remained cheerful and strong.",
+      "promptZh": "雖然旅程令人疲累,孩子們仍然保持開朗和堅強。",
+      "starter": "Although",
+      "answer": "Although the journey was exhausting, the children bore up well.",
+      "answerZh": "雖然旅程令人疲累,孩子們仍然保持開朗和堅強。",
+      "highlight": "bore up well",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Only facts that are relevant to the complaint should be included.",
+      "promptZh": "只應包括與投訴有關的事實。",
+      "starter": "Only",
+      "answer": "Only facts that bear on the complaint should be included.",
+      "answerZh": "只應包括與投訴有關的事實。",
+      "highlight": "bear on",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關"
+    },
+    {
+      "id": "phrasal-verb-228-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The doctor was delayed, but the patients waited patiently for her.",
+      "promptZh": "醫生有所延誤,但病人仍耐心等候她。",
+      "starter": "The",
+      "answer": "The doctor was delayed, but the patients bore with her.",
+      "answerZh": "醫生有所延誤,但病人仍耐心等候她。",
+      "highlight": "bore with",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A huge lorry came quickly towards us from behind.",
+      "promptZh": "一輛大型貨車從後迅速向我們駛來。",
+      "starter": "A",
+      "answer": "A huge lorry bore down upon us from behind.",
+      "answerZh": "一輛大型貨車從後迅速向我們駛來。",
+      "highlight": "bore down upon",
+      "targetForm": "bear down upon somebody",
+      "targetMeaningZh": "迅速逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Nothing in the report supports what the driver said.",
+      "promptZh": "報告中沒有任何內容支持司機的說法。",
+      "starter": "Nothing",
+      "answer": "Nothing in the report bears the driver out.",
+      "answerZh": "報告中沒有任何內容支持司機的說法。",
+      "highlight": "bears",
+      "targetForm": "bear somebody out",
+      "targetMeaningZh": "證明某人所言屬實"
+    },
+    {
+      "id": "phrasal-verb-228-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "How does this change affect families with young children?",
+      "promptZh": "這項改動如何影響有年幼子女的家庭?",
+      "starter": "How",
+      "answer": "How does this change bear upon families with young children?",
+      "answerZh": "這項改動如何影響有年幼子女的家庭?",
+      "highlight": "bear upon",
+      "targetForm": "bear upon somebody",
+      "targetMeaningZh": "與某人有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "She is tired, but she seems to be staying strong.",
+      "promptZh": "她很疲倦,但看來仍然撐得住。",
+      "starter": "She",
+      "answer": "She is tired, but she seems to be bearing up.",
+      "answerZh": "她很疲倦,但看來仍然撐得住。",
+      "highlight": "bearing up",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "With the final seconds disappearing, the other team rushed towards our goal.",
+      "promptZh": "比賽只餘最後幾秒時,對方球隊迅速逼近我們的龍門。",
+      "starter": "With",
+      "answer": "With the final seconds disappearing, the other team bore down on our goal.",
+      "answerZh": "比賽只餘最後幾秒時,對方球隊迅速逼近我們的龍門。",
+      "highlight": "bore down on",
+      "targetForm": "bear down on something",
+      "targetMeaningZh": "迅速逼近某處或某物"
+    },
+    {
+      "id": "phrasal-verb-228-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Please be patient with our staff while they fix the page.",
+      "promptZh": "職員修正網頁期間,請對他們保持耐性。",
+      "starter": "Please",
+      "answer": "Please bear with our staff while they fix the page.",
+      "answerZh": "職員修正網頁期間,請對他們保持耐性。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The test results have confirmed the teacher’s early guess.",
+      "promptZh": "測試結果證實了老師最初的猜測。",
+      "starter": "The",
+      "answer": "The test results have borne out the teacher’s early guess.",
+      "answerZh": "測試結果證實了老師最初的猜測。",
+      "highlight": "borne out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "No one knew how well he would cope after losing the match.",
+      "promptZh": "沒有人知道他輸掉比賽後能撐得怎樣。",
+      "starter": "No",
+      "answer": "No one knew how well he would bear up after losing the match.",
+      "answerZh": "沒有人知道他輸掉比賽後能撐得怎樣。",
+      "highlight": "bear up",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難或失望下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The points raised today will directly affect tomorrow’s decision.",
+      "promptZh": "今天提出的要點將直接影響明天的決定。",
+      "starter": "The",
+      "answer": "The points raised today will bear directly on tomorrow’s decision.",
+      "answerZh": "今天提出的要點將直接影響明天的決定。",
+      "highlight": "bear",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Before anyone could stop them, fans moved quickly towards the players.",
+      "promptZh": "任何人來得及阻止之前,球迷已迅速向球員逼近。",
+      "starter": "Before",
+      "answer": "Before anyone could stop them, fans bore down on the players.",
+      "answerZh": "任何人來得及阻止之前,球迷已迅速向球員逼近。",
+      "highlight": "bore down on",
+      "targetForm": "bear down on somebody",
+      "targetMeaningZh": "迅速或帶威脅地逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "If you can be patient with us until Friday, we will send the missing part.",
+      "promptZh": "如果你可以耐心等到星期五,我們便會寄出遺漏的零件。",
+      "starter": "If",
+      "answer": "If you can bear with us until Friday, we will send the missing part.",
+      "answerZh": "如果你可以耐心等到星期五,我們便會寄出遺漏的零件。",
+      "highlight": "bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The school said the crossing was unsafe, and the accident confirmed this.",
+      "promptZh": "學校曾表示該行人過路處不安全,而這宗意外證實了這一點。",
+      "starter": "The",
+      "answer": "The school said the crossing was unsafe, and the accident bore it out.",
+      "answerZh": "學校曾表示該行人過路處不安全,而這宗意外證實了這一點。",
+      "highlight": "bore it out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Even strong people may find it hard to stay strong under months of worry.",
+      "promptZh": "即使是堅強的人,長期面對憂慮也可能難以撐下去。",
+      "starter": "Even",
+      "answer": "Even strong people may find it hard to bear up under months of worry.",
+      "answerZh": "即使是堅強的人,長期面對憂慮也可能難以撐下去。",
+      "highlight": "bear up",
+      "targetForm": "bear up under something",
+      "targetMeaningZh": "在長期壓力或困難下撐住"
+    },
+    {
+      "id": "phrasal-verb-228-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Whether the shop stays open affects everyone who works there.",
+      "promptZh": "店舖會否繼續營業,影響每一名在那裏工作的人。",
+      "starter": "Whether",
+      "answer": "Whether the shop stays open bears upon everyone who works there.",
+      "answerZh": "店舖會否繼續營業,影響每一名在那裏工作的人。",
+      "highlight": "bears upon",
+      "targetForm": "bear upon somebody",
+      "targetMeaningZh": "與某人有關;對其造成影響"
+    },
+    {
+      "id": "phrasal-verb-228-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "We heard the engine before the motorbike came quickly towards us.",
+      "promptZh": "電單車迅速向我們駛來前,我們先聽見了引擎聲。",
+      "starter": "We",
+      "answer": "We heard the engine before the motorbike bore down upon us.",
+      "answerZh": "電單車迅速向我們駛來前,我們先聽見了引擎聲。",
+      "highlight": "bore down upon",
+      "targetForm": "bear down upon somebody",
+      "targetMeaningZh": "迅速逼近某人"
+    },
+    {
+      "id": "phrasal-verb-228-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Despite losing their home, they stayed strong with surprising courage.",
+      "promptZh": "儘管失去了家園,他們仍以令人驚訝的勇氣堅強地撐着。",
+      "starter": "Despite",
+      "answer": "Despite losing their home, they bore up with surprising courage.",
+      "answerZh": "儘管失去了家園,他們仍以令人驚訝的勇氣堅強地撐着。",
+      "highlight": "bore up",
+      "targetForm": "bear up",
+      "targetMeaningZh": "在困難下撐住;保持堅強"
+    },
+    {
+      "id": "phrasal-verb-228-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Later events confirmed the warning that the road was unsafe.",
+      "promptZh": "後來發生的事情證實了道路不安全的警告。",
+      "starter": "Later",
+      "answer": "Later events bore out the warning that the road was unsafe.",
+      "answerZh": "後來發生的事情證實了道路不安全的警告。",
+      "highlight": "bore out",
+      "targetForm": "bear something out",
+      "targetMeaningZh": "支持或證實某個說法"
+    },
+    {
+      "id": "phrasal-verb-228-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Please be patient with me while I explain why the plan had to change.",
+      "promptZh": "請耐心聽我解釋為何必須更改計劃。",
+      "starter": "Bear",
+      "answer": "Bear with me while I explain why the plan had to change.",
+      "answerZh": "請耐心聽我解釋為何必須更改計劃。",
+      "highlight": "Bear",
+      "targetForm": "bear with somebody",
+      "targetMeaningZh": "耐心等候;對某人保持耐性"
+    },
+    {
+      "id": "phrasal-verb-228-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Few of these comments are relevant to the problem we are trying to solve.",
+      "promptZh": "這些意見中,只有少數與我們正嘗試解決的問題有關。",
+      "starter": "Few",
+      "answer": "Few of these comments bear on the problem we are trying to solve.",
+      "answerZh": "這些意見中,只有少數與我們正嘗試解決的問題有關。",
+      "highlight": "bear on",
+      "targetForm": "bear on something",
+      "targetMeaningZh": "與某事有關"
+    }
+  ]
+}

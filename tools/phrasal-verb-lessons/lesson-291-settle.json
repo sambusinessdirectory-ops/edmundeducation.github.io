@@ -1,0 +1,1686 @@
+{
+  "id": "phrasal-verb-291",
+  "order": 291,
+  "slug": "settle",
+  "version": "1",
+  "title": "SETTLE 動詞片語",
+  "titleEn": "Settle",
+  "titleZh": "SETTLE 動詞片語",
+  "level": "B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 276 - SETTLE.pdf",
+    "sourceNumber": 276,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SETTLE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SETTLE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SETTLE",
+      "highlight": "SETTLE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She settled down in an armchair with a book.",
+      "zh": "她舒適地坐進扶手椅,拿着一本書準備閱讀。",
+      "highlight": "settled down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The teacher soon settled the noisy class down.",
+      "zh": "老師很快便令嘈吵的全班安靜下來。",
+      "highlight": "settled the noisy class down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We settled up with the owner before leaving.",
+      "zh": "我們離開前向負責人付清了欠款。",
+      "highlight": "settled up with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情；變得平靜或安靜;令某人平靜或安靜；結清欠款;把所欠款項付清；接受不完全符合心意、但在當時可接受的選擇；透過遺囑或正式安排,把金錢或財產留給某人；開始把注意力放在某項工作或活動上；考慮不同選擇後作出決定或選定某事物",
+    "en": "settle down; settle down / settle somebody down; settle up / settle up with somebody; settle for something / settle for doing something; settle something on/upon somebody; settle to something; settle upon something",
+    "naturalZh": [
+      "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+      "變得平靜或安靜;令某人平靜或安靜",
+      "結清欠款;把所欠款項付清",
+      "接受不完全符合心意、但在當時可接受的選擇",
+      "透過遺囑或正式安排,把金錢或財產留給某人",
+      "開始把注意力放在某項工作或活動上",
+      "考慮不同選擇後作出決定或選定某事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "settle down",
+      "titleZh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+      "titleEn": "settle down",
+      "descriptionZh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+      "descriptionEn": "She settled down in an armchair with a book.",
+      "examples": [
+        {
+          "en": "She settled down in an armchair with a book.",
+          "zh": "她舒適地坐進扶手椅,拿着一本書準備閱讀。",
+          "highlight": "settled down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "settle down / settle somebody down",
+      "titleZh": "變得平靜或安靜;令某人平靜或安靜",
+      "titleEn": "settle down / settle somebody down",
+      "descriptionZh": "變得平靜或安靜;令某人平靜或安靜",
+      "descriptionEn": "The teacher soon settled the noisy class down.",
+      "examples": [
+        {
+          "en": "The teacher soon settled the noisy class down.",
+          "zh": "老師很快便令嘈吵的全班安靜下來。",
+          "highlight": "settled the noisy class down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "settle up / settle up with somebody",
+      "titleZh": "結清欠款;把所欠款項付清",
+      "titleEn": "settle up / settle up with somebody",
+      "descriptionZh": "結清欠款;把所欠款項付清",
+      "descriptionEn": "We settled up with the owner before leaving.",
+      "examples": [
+        {
+          "en": "We settled up with the owner before leaving.",
+          "zh": "我們離開前向負責人付清了欠款。",
+          "highlight": "settled up with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "settle for something / settle for doing something",
+      "titleZh": "接受不完全符合心意、但在當時可接受的選擇",
+      "titleEn": "settle for something / settle for doing something",
+      "descriptionZh": "接受不完全符合心意、但在當時可接受的選擇",
+      "descriptionEn": "They hoped to win but settled for a draw.",
+      "examples": [
+        {
+          "en": "They hoped to win but settled for a draw.",
+          "zh": "他們原本希望取勝,但最後接受了和局。",
+          "highlight": "settled for"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "settle something on/upon somebody",
+      "titleZh": "透過遺囑或正式安排,把金錢或財產留給某人",
+      "titleEn": "settle something on/upon somebody",
+      "descriptionZh": "透過遺囑或正式安排,把金錢或財產留給某人",
+      "descriptionEn": "He settled the family home on his daughter.",
+      "examples": [
+        {
+          "en": "He settled the family home on his daughter.",
+          "zh": "他正式把祖屋留給女兒。",
+          "highlight": "settled the family home on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "settle to something",
+      "titleZh": "開始把注意力放在某項工作或活動上",
+      "titleEn": "settle to something",
+      "descriptionZh": "開始把注意力放在某項工作或活動上",
+      "descriptionEn": "After lunch, we settled to our work.",
+      "examples": [
+        {
+          "en": "After lunch, we settled to our work.",
+          "zh": "午飯後,我們開始專心工作。",
+          "highlight": "settled to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "settle upon something",
+      "titleZh": "考慮不同選擇後作出決定或選定某事物",
+      "titleEn": "settle upon something",
+      "descriptionZh": "考慮不同選擇後作出決定或選定某事物",
+      "descriptionEn": "They finally settled upon a date for the trip.",
+      "examples": [
+        {
+          "en": "They finally settled upon a date for the trip.",
+          "zh": "他們最後選定了旅行日期。",
+          "highlight": "settled upon"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SETTLE 片語動詞的實際用途",
+    "labelEn": "SETTLE Phrasal Verbs in Use",
+    "summaryZh": "settle down 可以表示舒適地坐下,也可以表示變得平靜;settle somebody down 則表示令另一個人平靜下來。；朋友分賬、有人代購門票,或旅程後仍有款項未付時,都可以使用 settle up。；settle for 表示原本想要的選擇無法得到,因此接受一個不完全符合心意的選擇。；settle to 表示開始專心工作;settle upon 表示考慮後作出選擇;settle something on somebody 則表示正式把金錢或財產留給某人。",
+    "summaryEn": "Settle down can describe making yourself comfortable or becoming calm. Settle somebody down shows that one person helps another person become calm. Settle up is useful when friends share a bill, someone has bought tickets for a group, or money is still owed after a trip. Settle for shows that the first choice was unavailable and a person accepted something that was not quite what they wanted. Settle to describes beginning to focus on work. Settle upon describes choosing after consideration. Settle something on somebody describes formally giving money or property.",
+    "contextsZh": [
+      "以兩種不同方式談論舒適和平靜",
+      "清楚談論付清欠款",
+      "表達接受不完全理想的選擇",
+      "談論專心、決定和正式安排"
+    ],
+    "contextsEn": [
+      "Talk about comfort and calm in two different ways",
+      "Talk clearly about paying what you owe",
+      "Express an acceptable but less-than-perfect choice",
+      "Talk about focus, decisions and formal arrangements"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SETTLE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SETTLE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "settle down",
+    "fixedHighlight": "settle down",
+    "fixedZh": "閱讀整句,選出意思相同的 SETTLE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SETTLE expression that gives the same meaning.",
+    "correct": "settled down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,把它放在 settle 和 down 中間。；留意以下不同意思:● settle down in a chair=舒適地坐下● settle to your work=開始專心工作● settle upon a plan=考慮後選定計劃● settle money on somebody=正式把金錢留給某人",
+    "variableEn": "Keep the same people, things, time and meaning. When him, her, it or them follows settle... down, put the word in the middle: settle her down settle them down Notice these different meanings: ● settle down in a chair = make yourself comfortable ● settle to your work = begin to focus ● settle upon a plan = choose after thinking ● settle money on somebody = formally give the money to that person",
+    "variableItemsZh": [
+      "settle down",
+      "settle down / settle somebody down",
+      "settle up / settle up with somebody",
+      "settle for something / settle for doing something",
+      "settle something on/upon somebody",
+      "settle to something",
+      "settle upon something"
+    ],
+    "variableItemsEn": [
+      "settle down",
+      "settle down / settle somebody down",
+      "settle up / settle up with somebody",
+      "settle for something / settle for doing something",
+      "settle something on/upon somebody",
+      "settle to something",
+      "settle upon something"
+    ],
+    "forms": [
+      {
+        "formZh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+        "formEn": "settle down",
+        "exampleZh": "她舒適地坐進扶手椅,拿着一本書準備閱讀。",
+        "exampleEn": "She settled down in an armchair with a book.",
+        "highlight": "settled down"
+      },
+      {
+        "formZh": "變得平靜或安靜;令某人平靜或安靜",
+        "formEn": "settle down / settle somebody down",
+        "exampleZh": "老師很快便令嘈吵的全班安靜下來。",
+        "exampleEn": "The teacher soon settled the noisy class down.",
+        "highlight": "settled the noisy class down"
+      },
+      {
+        "formZh": "結清欠款;把所欠款項付清",
+        "formEn": "settle up / settle up with somebody",
+        "exampleZh": "我們離開前向負責人付清了欠款。",
+        "exampleEn": "We settled up with the owner before leaving.",
+        "highlight": "settled up with"
+      },
+      {
+        "formZh": "接受不完全符合心意、但在當時可接受的選擇",
+        "formEn": "settle for something / settle for doing something",
+        "exampleZh": "他們原本希望取勝,但最後接受了和局。",
+        "exampleEn": "They hoped to win but settled for a draw.",
+        "highlight": "settled for"
+      },
+      {
+        "formZh": "透過遺囑或正式安排,把金錢或財產留給某人",
+        "formEn": "settle something on/upon somebody",
+        "exampleZh": "他正式把祖屋留給女兒。",
+        "exampleEn": "He settled the family home on his daughter.",
+        "highlight": "settled the family home on"
+      },
+      {
+        "formZh": "開始把注意力放在某項工作或活動上",
+        "formEn": "settle to something",
+        "exampleZh": "午飯後,我們開始專心工作。",
+        "exampleEn": "After lunch, we settled to our work.",
+        "highlight": "settled to"
+      },
+      {
+        "formZh": "考慮不同選擇後作出決定或選定某事物",
+        "formEn": "settle upon something",
+        "exampleZh": "他們最後選定了旅行日期。",
+        "exampleEn": "They finally settled upon a date for the trip.",
+        "highlight": "settled upon"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+      "titleEn": "settle down",
+      "formula": "settle down",
+      "highlight": "settle down",
+      "descriptionZh": "舒服地坐下或躺下,準備閱讀、休息或做其他事情",
+      "descriptionEn": "She settled down in an armchair with a book.",
+      "examples": [
+        {
+          "en": "She settled down in an armchair with a book.",
+          "zh": "她舒適地坐進扶手椅,拿着一本書準備閱讀。",
+          "highlight": "settled down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "變得平靜或安靜;令某人平靜或安靜",
+      "titleEn": "settle down / settle somebody down",
+      "formula": "settle down / settle somebody down",
+      "highlight": "settle down / settle somebody down",
+      "descriptionZh": "變得平靜或安靜;令某人平靜或安靜",
+      "descriptionEn": "The teacher soon settled the noisy class down.",
+      "examples": [
+        {
+          "en": "The teacher soon settled the noisy class down.",
+          "zh": "老師很快便令嘈吵的全班安靜下來。",
+          "highlight": "settled the noisy class down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "結清欠款;把所欠款項付清",
+      "titleEn": "settle up / settle up with somebody",
+      "formula": "settle up / settle up with somebody",
+      "highlight": "settle up / settle up with somebody",
+      "descriptionZh": "結清欠款;把所欠款項付清",
+      "descriptionEn": "We settled up with the owner before leaving.",
+      "examples": [
+        {
+          "en": "We settled up with the owner before leaving.",
+          "zh": "我們離開前向負責人付清了欠款。",
+          "highlight": "settled up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "接受不完全符合心意、但在當時可接受的選擇",
+      "titleEn": "settle for something / settle for doing something",
+      "formula": "settle for something / settle for doing something",
+      "highlight": "settle for something / settle for doing something",
+      "descriptionZh": "接受不完全符合心意、但在當時可接受的選擇",
+      "descriptionEn": "They hoped to win but settled for a draw.",
+      "examples": [
+        {
+          "en": "They hoped to win but settled for a draw.",
+          "zh": "他們原本希望取勝,但最後接受了和局。",
+          "highlight": "settled for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "透過遺囑或正式安排,把金錢或財產留給某人",
+      "titleEn": "settle something on/upon somebody",
+      "formula": "settle something on/upon somebody",
+      "highlight": "settle something on/upon somebody",
+      "descriptionZh": "透過遺囑或正式安排,把金錢或財產留給某人",
+      "descriptionEn": "He settled the family home on his daughter.",
+      "examples": [
+        {
+          "en": "He settled the family home on his daughter.",
+          "zh": "他正式把祖屋留給女兒。",
+          "highlight": "settled the family home on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "開始把注意力放在某項工作或活動上",
+      "titleEn": "settle to something",
+      "formula": "settle to something",
+      "highlight": "settle to something",
+      "descriptionZh": "開始把注意力放在某項工作或活動上",
+      "descriptionEn": "After lunch, we settled to our work.",
+      "examples": [
+        {
+          "en": "After lunch, we settled to our work.",
+          "zh": "午飯後,我們開始專心工作。",
+          "highlight": "settled to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "考慮不同選擇後作出決定或選定某事物",
+      "titleEn": "settle upon something",
+      "formula": "settle upon something",
+      "highlight": "settle upon something",
+      "descriptionZh": "考慮不同選擇後作出決定或選定某事物",
+      "descriptionEn": "They finally settled upon a date for the trip.",
+      "examples": [
+        {
+          "en": "They finally settled upon a date for the trip.",
+          "zh": "他們最後選定了旅行日期。",
+          "highlight": "settled upon"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "以兩種不同方式談論舒適和平靜",
+      "titleEn": "Talk about comfort and calm in two different ways",
+      "zh": "settle down 可以表示舒適地坐下,也可以表示變得平靜;settle somebody down 則表示令另一個人平靜下來。",
+      "en": "Settle down can describe making yourself comfortable or becoming calm. Settle somebody down shows that one person helps another person become calm."
+    },
+    {
+      "titleZh": "清楚談論付清欠款",
+      "titleEn": "Talk clearly about paying what you owe",
+      "zh": "朋友分賬、有人代購門票,或旅程後仍有款項未付時,都可以使用 settle up。",
+      "en": "Settle up is useful when friends share a bill, someone has bought tickets for a group, or money is still owed after a trip."
+    },
+    {
+      "titleZh": "表達接受不完全理想的選擇",
+      "titleEn": "Express an acceptable but less-than-perfect choice",
+      "zh": "settle for 表示原本想要的選擇無法得到,因此接受一個不完全符合心意的選擇。",
+      "en": "Settle for shows that the first choice was unavailable and a person accepted something that was not quite what they wanted."
+    },
+    {
+      "titleZh": "談論專心、決定和正式安排",
+      "titleEn": "Talk about focus, decisions and formal arrangements",
+      "zh": "settle to 表示開始專心工作;settle upon 表示考慮後作出選擇;settle something on somebody 則表示正式把金錢或財產留給某人。",
+      "en": "Settle to describes beginning to focus on work. Settle upon describes choosing after consideration. Settle something on somebody describes formally giving money or property."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "以兩種不同方式談論舒適和平靜",
+      "清楚談論付清欠款",
+      "表達接受不完全理想的選擇",
+      "談論專心、決定和正式安排"
+    ],
+    "contextsEn": [
+      "Talk about comfort and calm in two different ways",
+      "Talk clearly about paying what you owe",
+      "Express an acceptable but less-than-perfect choice",
+      "Talk about focus, decisions and formal arrangements"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "以兩種不同方式談論舒適和平靜",
+        "titleEn": "Talk about comfort and calm in two different ways",
+        "zh": "settle down 可以表示舒適地坐下,也可以表示變得平靜;settle somebody down 則表示令另一個人平靜下來。",
+        "en": "Settle down can describe making yourself comfortable or becoming calm. Settle somebody down shows that one person helps another person become calm.",
+        "examples": [
+          {
+            "en": "She settled down in an armchair with a book.",
+            "zh": "她舒適地坐進扶手椅,拿着一本書準備閱讀。",
+            "highlight": "settled down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論付清欠款",
+        "titleEn": "Talk clearly about paying what you owe",
+        "zh": "朋友分賬、有人代購門票,或旅程後仍有款項未付時,都可以使用 settle up。",
+        "en": "Settle up is useful when friends share a bill, someone has bought tickets for a group, or money is still owed after a trip.",
+        "examples": [
+          {
+            "en": "The teacher soon settled the noisy class down.",
+            "zh": "老師很快便令嘈吵的全班安靜下來。",
+            "highlight": "settled the noisy class down"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達接受不完全理想的選擇",
+        "titleEn": "Express an acceptable but less-than-perfect choice",
+        "zh": "settle for 表示原本想要的選擇無法得到,因此接受一個不完全符合心意的選擇。",
+        "en": "Settle for shows that the first choice was unavailable and a person accepted something that was not quite what they wanted.",
+        "examples": [
+          {
+            "en": "We settled up with the owner before leaving.",
+            "zh": "我們離開前向負責人付清了欠款。",
+            "highlight": "settled up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論專心、決定和正式安排",
+        "titleEn": "Talk about focus, decisions and formal arrangements",
+        "zh": "settle to 表示開始專心工作;settle upon 表示考慮後作出選擇;settle something on somebody 則表示正式把金錢或財產留給某人。",
+        "en": "Settle to describes beginning to focus on work. Settle upon describes choosing after consideration. Settle something on somebody describes formally giving money or property.",
+        "examples": [
+          {
+            "en": "They hoped to win but settled for a draw.",
+            "zh": "他們原本希望取勝,但最後接受了和局。",
+            "highlight": "settled for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SETTLE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SETTLE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SETTLE 片語動詞。",
+      "en": "Read the whole sentence and choose the SETTLE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,把它放在 settle 和 down 中間。",
+      "titleEn": "When him, her, it or them follows settle.",
+      "zh": "使用 him、her、it 或 them 時,把它放在 settle 和 down 中間。",
+      "en": "When him, her, it or them follows settle... down, put the word in the middle: settle her down settle them down"
+    },
+    {
+      "titleZh": "留意以下不同意思:● settle down in a chair=舒適地坐下● settle to your work=開始專心工作● settle upon a plan=考慮後選定計劃● settle money on somebody=正式把金錢留給某人",
+      "titleEn": "Notice these different meanings: ● settle down in a chair = make yourself comfortable ● settle to your work = begin to focus ● settle upon a plan = choose after thinking ● settle money on somebody = formally give the money to that person.",
+      "zh": "留意以下不同意思:● settle down in a chair=舒適地坐下● settle to your work=開始專心工作● settle upon a plan=考慮後選定計劃● settle money on somebody=正式把金錢留給某人",
+      "en": "Notice these different meanings: ● settle down in a chair = make yourself comfortable ● settle to your work = begin to focus ● settle upon a plan = choose after thinking ● settle money on somebody = formally give the money to that person"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SETTLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SETTLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SETTLE 動詞片語句子改寫練習",
+    "titleEn": "SETTLE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SETTLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SETTLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-291-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "After lunch, Erin made herself comfortable in an armchair with a book.",
+      "promptZh": "午飯後,Erin 舒適地坐在扶手椅上看書。",
+      "starter": "After",
+      "answer": "After lunch, Erin settled down in an armchair with a book.",
+      "answerZh": "午飯後,Erin 舒適地坐在扶手椅上看書。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "We need to pay the hall owner everything we owe for the room.",
+      "promptZh": "我們需要把租用房間所欠的款項全數付給禮堂負責人。",
+      "starter": "We",
+      "answer": "We need to settle up with the hall owner for the room.",
+      "answerZh": "我們需要向禮堂負責人付清租用房間的款項。",
+      "highlight": "settle up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The children finally became quiet and started their work.",
+      "promptZh": "孩子們終於安靜下來,開始做功課。",
+      "starter": "The",
+      "answer": "The children finally settled down and started their work.",
+      "answerZh": "孩子們終於安靜下來,開始做功課。",
+      "highlight": "settled down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After the break, the class began to concentrate on its work.",
+      "promptZh": "小休後,全班開始專心做功課。",
+      "starter": "After",
+      "answer": "After the break, the class settled to its work.",
+      "answerZh": "小休後,全班開始專心做功課。",
+      "highlight": "settled",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Both teams wanted to win, but they accepted a draw.",
+      "promptZh": "兩隊都想取勝,但最後接受了和局。",
+      "starter": "Both",
+      "answer": "Both teams wanted to win, but they settled for a draw.",
+      "answerZh": "兩隊都想取勝,但最後接受了和局。",
+      "highlight": "settled for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After looking at several names, they chose the name “Blue Door” for the café.",
+      "promptZh": "他們看過幾個名字後,選定「Blue Door」作為咖啡店的名稱。",
+      "starter": "After",
+      "answer": "After looking at several names, they settled upon the name “Blue Door” for the café.",
+      "answerZh": "他們看過幾個名字後,選定「Blue Door」作為咖啡店的名稱。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "In his will, Mr Ho formally left the family home to his daughter.",
+      "promptZh": "何先生在遺囑中正式把祖屋留給女兒。",
+      "starter": "In",
+      "answer": "In his will, Mr Ho settled the family home on his daughter.",
+      "answerZh": "何先生在遺囑中正式把祖屋留給女兒。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Sana sat comfortably on the sofa to watch the film.",
+      "promptZh": "Sana 舒適地坐在梳化上看電影。",
+      "starter": "Sana",
+      "answer": "Sana settled down on the sofa to watch the film.",
+      "answerZh": "Sana 舒適地坐在梳化上看電影。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The teacher made the noisy class calm before the test.",
+      "promptZh": "老師在測驗前令嘈吵的全班安靜下來。",
+      "starter": "The",
+      "answer": "The teacher settled the noisy class down before the test.",
+      "answerZh": "老師在測驗前令嘈吵的全班安靜下來。",
+      "highlight": "settled",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The blue jacket was sold out, so I accepted the grey one.",
+      "promptZh": "藍色外套已售罄,所以我接受了灰色那件。",
+      "starter": "The",
+      "answer": "The blue jacket was sold out, so I settled for the grey one.",
+      "answerZh": "藍色外套已售罄,所以我接受了灰色那件。",
+      "highlight": "settled for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I still need to pay Aaron the money I owe for the concert tickets.",
+      "promptZh": "我仍需把音樂會門票的欠款付給 Aaron。",
+      "starter": "I",
+      "answer": "I still need to settle up with Aaron for the concert tickets.",
+      "answerZh": "我仍需向 Aaron 付清音樂會門票的欠款。",
+      "highlight": "settle up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Her aunt formally arranged for £5,000 to go to each grandchild.",
+      "promptZh": "她的姨母正式安排把五千英鎊留給每名孫兒。",
+      "starter": "Her",
+      "answer": "Her aunt settled £5,000 on each grandchild.",
+      "answerZh": "她的姨母正式把五千英鎊留給每名孫兒。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We considered three dates and finally chose 14 May.",
+      "promptZh": "我們考慮了三個日期,最後選定五月十四日。",
+      "starter": "We",
+      "answer": "We considered three dates and finally settled upon 14 May.",
+      "answerZh": "我們考慮了三個日期,最後選定五月十四日。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I found it difficult to begin concentrating on my revision.",
+      "promptZh": "我發現自己很難開始專心溫習。",
+      "starter": "I",
+      "answer": "I found it difficult to settle to my revision.",
+      "answerZh": "我發現自己很難開始專心溫習。",
+      "highlight": "settle to",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Have you chosen a colour after looking at all the samples?",
+      "promptZh": "你看過所有樣本後,選定顏色了嗎?",
+      "starter": "Have",
+      "answer": "Have you settled upon a colour after looking at all the samples?",
+      "answerZh": "你看過所有樣本後,選定顏色了嗎?",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The baby is becoming calm now that the room is quiet.",
+      "promptZh": "房間安靜下來後,嬰兒正逐漸平靜。",
+      "starter": "The",
+      "answer": "The baby is settling down now that the room is quiet.",
+      "answerZh": "房間安靜下來後,嬰兒正逐漸平靜。",
+      "highlight": "settling down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Can we pay the full café bill now?",
+      "promptZh": "我們現在可以把咖啡店的賬單全數付清嗎?",
+      "starter": "Can",
+      "answer": "Can we settle up at the café now?",
+      "answerZh": "我們現在可以在咖啡店結賬嗎?",
+      "highlight": "settle up at",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Nora is making herself comfortable under a blanket with a magazine.",
+      "promptZh": "Nora 正蓋着毛氈,舒適地看雜誌。",
+      "starter": "Nora",
+      "answer": "Nora is settling down under a blanket with a magazine.",
+      "answerZh": "Nora 正蓋着毛氈,舒適地看雜誌。",
+      "highlight": "settling down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The land was formally given to the youngest son under the will.",
+      "promptZh": "按照遺囑,該幅土地正式留給了幼子。",
+      "starter": "The",
+      "answer": "The land was settled on the youngest son under the will.",
+      "answerZh": "按照遺囑,該幅土地正式留給了幼子。",
+      "highlight": "settled on",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I will not accept anything less than a full apology.",
+      "promptZh": "我不會接受任何不完整的道歉。",
+      "starter": "I",
+      "answer": "I will not settle for anything less than a full apology.",
+      "answerZh": "我不會接受任何不完整的道歉。",
+      "highlight": "settle for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We should begin concentrating on the report now.",
+      "promptZh": "我們現在應該開始專心處理報告。",
+      "starter": "We",
+      "answer": "We should settle to work on the report now.",
+      "answerZh": "我們現在應該開始專心處理報告。",
+      "highlight": "settle to work",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "A quiet song may make her less upset.",
+      "promptZh": "一首輕柔的歌曲或許能令她平靜一點。",
+      "starter": "A",
+      "answer": "A quiet song may settle her down.",
+      "answerZh": "一首輕柔的歌曲或許能令她平靜一點。",
+      "highlight": "settle",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The committee will choose a plan after hearing everyone’s ideas.",
+      "promptZh": "委員會聽取所有人的意見後,會選定一項計劃。",
+      "starter": "The",
+      "answer": "The committee will settle upon a plan after hearing everyone’s ideas.",
+      "answerZh": "委員會聽取所有人的意見後,會選定一項計劃。",
+      "highlight": "settle upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "You can make yourself comfortable by the fire with your tea.",
+      "promptZh": "你可以拿着茶,在火爐旁舒適地坐下。",
+      "starter": "You",
+      "answer": "You can settle down by the fire with your tea.",
+      "answerZh": "你可以拿着茶,在火爐旁舒適地坐下。",
+      "highlight": "settle down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I will pay you everything I owe tomorrow.",
+      "promptZh": "我明天會把所欠的款項全部付給你。",
+      "starter": "I",
+      "answer": "I will settle up with you tomorrow.",
+      "answerZh": "我明天會向你付清欠款。",
+      "highlight": "settle up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "When will you begin to concentrate on your homework?",
+      "promptZh": "你何時才會開始專心做功課?",
+      "starter": "When",
+      "answer": "When will you settle to your homework?",
+      "answerZh": "你何時才會開始專心做功課?",
+      "highlight": "settle",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Could we accept taking the bus if the last train has gone?",
+      "promptZh": "如果尾班火車已經開出,我們可否接受乘巴士?",
+      "starter": "Could",
+      "answer": "Could we settle for taking the bus if the last train has gone?",
+      "answerZh": "如果尾班火車已經開出,我們可否接受乘巴士?",
+      "highlight": "settle for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She plans to formally give part of her property to her nephew.",
+      "promptZh": "她打算正式把部分財產留給侄兒。",
+      "starter": "She",
+      "answer": "She plans to settle part of her property upon her nephew.",
+      "answerZh": "她打算正式把部分財產留給侄兒。",
+      "highlight": "settle",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They had hoped for a large room, but they had to accept a small one.",
+      "promptZh": "他們原本希望入住大房間,但最後只好接受一間小房間。",
+      "starter": "They",
+      "answer": "They had hoped for a large room, but they had to settle for a small one.",
+      "answerZh": "他們原本希望入住大房間,但最後只好接受一間小房間。",
+      "highlight": "settle for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The students have finally begun to focus on their writing.",
+      "promptZh": "學生們終於開始專心寫作。",
+      "starter": "The",
+      "answer": "The students have finally settled to their writing.",
+      "answerZh": "學生們終於開始專心寫作。",
+      "highlight": "settled",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did you make yourself comfortable in the corner with the newspaper?",
+      "promptZh": "你為何拿着報紙,舒適地坐在角落?",
+      "starter": "Why",
+      "answer": "Why did you settle down in the corner with the newspaper?",
+      "answerZh": "你為何拿着報紙,舒適地坐在角落?",
+      "highlight": "settle down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Have you paid the bicycle-hire shop everything you owe?",
+      "promptZh": "你已把所欠款項全數付給單車租借店嗎?",
+      "starter": "Have",
+      "answer": "Have you settled up with the bicycle-hire shop?",
+      "answerZh": "你已向單車租借店付清欠款嗎?",
+      "highlight": "settled up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Before he died, he had formally arranged for the house to belong to his niece.",
+      "promptZh": "他去世前,已正式安排把房子留給姪女。",
+      "starter": "Before",
+      "answer": "Before he died, he had settled the house on his niece.",
+      "answerZh": "他去世前,已正式把房子留給姪女。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "How long did it take the crowd to become calm after the goal?",
+      "promptZh": "入球後,觀眾花了多久才平靜下來?",
+      "starter": "How",
+      "answer": "How long did it take the crowd to settle down after the goal?",
+      "answerZh": "入球後,觀眾花了多久才平靜下來?",
+      "highlight": "settle down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "They have not yet chosen a place for the party.",
+      "promptZh": "他們仍未選定舉行派對的地點。",
+      "starter": "They",
+      "answer": "They have not yet settled upon a place for the party.",
+      "answerZh": "他們仍未選定舉行派對的地點。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We cannot leave until we have paid the boat owner everything we owe.",
+      "promptZh": "我們必須先向船主付清欠款,才能離開。",
+      "starter": "We",
+      "answer": "We cannot leave until we have settled up with the boat owner.",
+      "answerZh": "我們必須先向船主付清欠款,才能離開。",
+      "highlight": "settled up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "By eight o’clock, the family had made themselves comfortable around the fire.",
+      "promptZh": "到了八時,一家人已舒適地坐在火爐旁。",
+      "starter": "By",
+      "answer": "By eight o’clock, the family had settled down around the fire.",
+      "answerZh": "到了八時,一家人已舒適地坐在火爐旁。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "It took us an hour to choose the shorter route.",
+      "promptZh": "我們花了一小時才選定較短的路線。",
+      "starter": "It",
+      "answer": "It took us an hour to settle upon the shorter route.",
+      "answerZh": "我們花了一小時才選定較短的路線。",
+      "highlight": "settle upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The coach spoke slowly and made them less nervous.",
+      "promptZh": "教練慢慢說話,令他們沒有那麼緊張。",
+      "starter": "The",
+      "answer": "The coach spoke slowly and settled them down.",
+      "answerZh": "教練慢慢說話,令他們平靜下來。",
+      "highlight": "settled",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "How much money did the old woman formally leave to the children?",
+      "promptZh": "那位老婦人正式把多少錢留給孩子們?",
+      "starter": "How",
+      "answer": "How much money did the old woman settle on the children?",
+      "answerZh": "那位老婦人正式把多少錢留給孩子們?",
+      "highlight": "settle on",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "He could not begin to concentrate on his reading while the television was on.",
+      "promptZh": "電視開着時,他無法開始專心閱讀。",
+      "starter": "He",
+      "answer": "He could not settle to his reading while the television was on.",
+      "answerZh": "電視開着時,他無法開始專心閱讀。",
+      "highlight": "settle",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "She is unwilling to accept being the second choice.",
+      "promptZh": "她不願接受自己只是第二選擇。",
+      "starter": "She",
+      "answer": "She is unwilling to settle for being the second choice.",
+      "answerZh": "她不願接受自己只是第二選擇。",
+      "highlight": "settle for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Everyone in the room has finally become calm after the noisy game.",
+      "promptZh": "嘈吵的遊戲結束後,房內所有人終於平靜下來。",
+      "starter": "Everyone",
+      "answer": "Everyone in the room has finally settled down after the noisy game.",
+      "answerZh": "嘈吵的遊戲結束後,房內所有人終於平靜下來。",
+      "highlight": "settled down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Under the agreement, he will formally provide his wife with a regular income.",
+      "promptZh": "按照協議,他會正式安排妻子獲得固定收入。",
+      "starter": "Under",
+      "answer": "Under the agreement, he will settle a regular income on his wife.",
+      "answerZh": "按照協議,他會正式安排妻子獲得固定收入。",
+      "highlight": "settle",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "A final design was chosen after a long discussion.",
+      "promptZh": "經過長時間討論後,最終設計獲得選定。",
+      "starter": "A",
+      "answer": "A final design was settled upon after a long discussion.",
+      "answerZh": "經過長時間討論後,最終設計獲得選定。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We have accepted a simpler plan because there is not enough time.",
+      "promptZh": "由於時間不足,我們已接受一個較簡單的計劃。",
+      "starter": "We",
+      "answer": "We have settled for a simpler plan because there is not enough time.",
+      "answerZh": "由於時間不足,我們已接受一個較簡單的計劃。",
+      "highlight": "settled for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "After a long day, I wanted to make myself comfortable in the large chair.",
+      "promptZh": "漫長的一天過後,我想舒適地坐在那張大椅子上。",
+      "starter": "After",
+      "answer": "After a long day, I wanted to settle down in the large chair.",
+      "answerZh": "漫長的一天過後,我想舒適地坐在那張大椅子上。",
+      "highlight": "settle down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Once the music stopped, everyone began to give full attention to the task.",
+      "promptZh": "音樂停止後,所有人都開始專心處理任務。",
+      "starter": "Once",
+      "answer": "Once the music stopped, everyone settled to the task.",
+      "answerZh": "音樂停止後,所有人都開始專心處理任務。",
+      "highlight": "settled",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Paying the flat owner before noon will let us leave early.",
+      "promptZh": "在中午前向業主付清欠款,便可讓我們提早離開。",
+      "starter": "Settling",
+      "answer": "Settling up with the flat owner before noon will let us leave early.",
+      "answerZh": "在中午前向業主付清欠款,便可讓我們提早離開。",
+      "highlight": "Settling up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The owner formally transferred the cottage to his nephew.",
+      "promptZh": "屋主正式把小屋留給侄兒。",
+      "starter": "The",
+      "answer": "The owner settled the cottage upon his nephew.",
+      "answerZh": "屋主正式把小屋留給侄兒。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "We waited for everyone to become quiet before starting the video.",
+      "promptZh": "我們等到所有人安靜下來,才開始播放影片。",
+      "starter": "We",
+      "answer": "We waited for everyone to settle down before starting the video.",
+      "answerZh": "我們等到所有人安靜下來,才開始播放影片。",
+      "highlight": "settle down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After checking the cost, each friend paid Sam what they owed.",
+      "promptZh": "大家核對費用後,各自把所欠的款項付給 Sam。",
+      "starter": "After",
+      "answer": "After checking the cost, each friend settled up with Sam.",
+      "answerZh": "大家核對費用後,各自向 Sam 付清欠款。",
+      "highlight": "settled up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "It took us ten minutes to stop chatting and focus on the discussion.",
+      "promptZh": "我們花了十分鐘才停止聊天,專心討論。",
+      "starter": "It",
+      "answer": "It took us ten minutes to settle to the discussion.",
+      "answerZh": "我們花了十分鐘才停止聊天,專心討論。",
+      "highlight": "settle to",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Once everyone had a drink, they made themselves comfortable in seats beside the window.",
+      "promptZh": "每個人拿到飲品後,都舒適地坐在窗邊。",
+      "starter": "Once",
+      "answer": "Once everyone had a drink, they settled down in seats beside the window.",
+      "answerZh": "每個人拿到飲品後,都舒適地坐在窗邊。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why should customers accept poor service when they have paid full price?",
+      "promptZh": "顧客既然付了全費,為何要接受差劣的服務?",
+      "starter": "Why",
+      "answer": "Why should customers settle for poor service when they have paid full price?",
+      "answerZh": "顧客既然付了全費,為何要接受差劣的服務?",
+      "highlight": "settle for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After comparing all the pictures, Eva chose the green logo.",
+      "promptZh": "Eva 比較所有圖片後,選定了綠色標誌。",
+      "starter": "After",
+      "answer": "After comparing all the pictures, Eva settled upon the green logo.",
+      "answerZh": "Eva 比較所有圖片後,選定了綠色標誌。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After checking their phones and getting drinks, the group finally began working seriously on the plan.",
+      "promptZh": "大家查看手機並拿了飲品後,終於開始認真處理計劃。",
+      "starter": "After",
+      "answer": "After checking their phones and getting drinks, the group finally settled to work on the plan.",
+      "answerZh": "大家查看手機並拿了飲品後,終於開始認真處理計劃。",
+      "highlight": "settled to work",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Leo wanted a cash refund, but in the end he accepted a shop voucher.",
+      "promptZh": "Leo 想獲得現金退款,但最後接受了商店現金券。",
+      "starter": "Leo",
+      "answer": "Leo wanted a cash refund, but in the end he settled for a shop voucher.",
+      "answerZh": "Leo 想獲得現金退款,但最後接受了商店現金券。",
+      "highlight": "settled for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "You booked the room and paid the deposit. Tell me my share so I can pay you what I owe.",
+      "promptZh": "你預訂了房間並支付訂金。告訴我應付的份額,讓我把欠款付給你。",
+      "starter": "You",
+      "answer": "You booked the room and paid the deposit. Tell me my share so I can settle up with you.",
+      "answerZh": "你預訂了房間並支付訂金。告訴我應付的份額,讓我向你付清欠款。",
+      "highlight": "settle up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "No one knew which logo the team had chosen until the boxes arrived.",
+      "promptZh": "箱子送到前,沒有人知道團隊選定了哪個標誌。",
+      "starter": "No",
+      "answer": "No one knew which logo the team had settled upon until the boxes arrived.",
+      "answerZh": "箱子送到前,沒有人知道團隊選定了哪個標誌。",
+      "highlight": "settled upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The sudden alarm excited the pupils, but the head teacher made them calm before they left.",
+      "promptZh": "突然響起的警報令學生十分激動,但校長在他們離開前令他們平靜下來。",
+      "starter": "The",
+      "answer": "The sudden alarm excited the pupils, but the head teacher settled them down before they left.",
+      "answerZh": "突然響起的警報令學生十分激動,但校長在他們離開前令他們平靜下來。",
+      "highlight": "settled",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    },
+    {
+      "id": "phrasal-verb-291-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The cabin was cold, but we wrapped ourselves in blankets and made ourselves comfortable by the stove to read.",
+      "promptZh": "小屋很冷,但我們裹上毛氈,舒適地坐在火爐旁閱讀。",
+      "starter": "The",
+      "answer": "The cabin was cold, but we wrapped ourselves in blankets and settled down by the stove to read.",
+      "answerZh": "小屋很冷,但我們裹上毛氈,舒適地坐在火爐旁閱讀。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Her grandfather has formally arranged for the money to go to her under the agreement.",
+      "promptZh": "按照協議,她的祖父已正式安排把款項留給她。",
+      "starter": "Her",
+      "answer": "Her grandfather has settled the money on her under the agreement.",
+      "answerZh": "按照協議,她的祖父已正式把款項留給她。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "There was no direct train, so after checking the options we accepted travelling through Leeds.",
+      "promptZh": "沒有直達列車,所以我們查看各個選擇後,接受了經 Leeds 轉車。",
+      "starter": "There",
+      "answer": "There was no direct train, so after checking the options we settled for travelling through Leeds.",
+      "answerZh": "沒有直達列車,所以我們查看各個選擇後,接受了經 Leeds 轉車。",
+      "highlight": "settled for",
+      "targetForm": "settle for something / settle for doing something",
+      "targetMeaningZh": "接受不完全理想但可接受的選擇"
+    },
+    {
+      "id": "phrasal-verb-291-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The first ten minutes were noisy, but the class then began to work seriously on the maths problems.",
+      "promptZh": "最初十分鐘十分嘈吵,但全班之後開始認真處理數學題。",
+      "starter": "The",
+      "answer": "The first ten minutes were noisy, but the class then settled to work on the maths problems.",
+      "answerZh": "最初十分鐘十分嘈吵,但全班之後開始認真處理數學題。",
+      "highlight": "settled",
+      "targetForm": "settle to something",
+      "targetMeaningZh": "開始專心處理某事"
+    },
+    {
+      "id": "phrasal-verb-291-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Her father formally gave the house to the eldest daughter rather than to all three children.",
+      "promptZh": "她的父親正式把房子留給長女,而不是三名子女共同擁有。",
+      "starter": "Her",
+      "answer": "Her father settled the house on the eldest daughter rather than on all three children.",
+      "answerZh": "她的父親正式把房子留給長女,而不是三名子女共同擁有。",
+      "highlight": "settled",
+      "targetForm": "settle something on/upon somebody",
+      "targetMeaningZh": "透過正式安排把金錢或財產留給某人"
+    },
+    {
+      "id": "phrasal-verb-291-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the rain started, the hikers made themselves comfortable in a dry corner and opened their maps.",
+      "promptZh": "下雨後,遠足者在一個乾爽的角落舒適地坐下,並打開地圖。",
+      "starter": "When",
+      "answer": "When the rain started, the hikers settled down in a dry corner and opened their maps.",
+      "answerZh": "下雨後,遠足者在一個乾爽的角落舒適地坐下,並打開地圖。",
+      "highlight": "settled down",
+      "targetForm": "settle down",
+      "targetMeaningZh": "舒服地坐下或躺下,準備做某事"
+    },
+    {
+      "id": "phrasal-verb-291-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before the trip ends, we must pay the guide all the money we owe for the extra day.",
+      "promptZh": "旅程結束前,我們必須向導遊付清額外一天的欠款。",
+      "starter": "Before",
+      "answer": "Before the trip ends, we must settle up with the guide for the extra day.",
+      "answerZh": "旅程結束前,我們必須向導遊付清額外一天的欠款。",
+      "highlight": "settle up with",
+      "targetForm": "settle up / settle up with somebody",
+      "targetMeaningZh": "結清欠款;把所欠款項付清"
+    },
+    {
+      "id": "phrasal-verb-291-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "They compared the routes, prices and times before finally choosing the overnight train.",
+      "promptZh": "他們比較路線、價錢和時間後,最後選定了夜間列車。",
+      "starter": "They",
+      "answer": "They compared the routes, prices and times before finally settling upon the overnight train.",
+      "answerZh": "他們比較路線、價錢和時間後,最後選定了夜間列車。",
+      "highlight": "settling upon",
+      "targetForm": "settle upon something",
+      "targetMeaningZh": "考慮不同選擇後作出決定"
+    },
+    {
+      "id": "phrasal-verb-291-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The audience kept talking after the lights went down, so the host asked them to become quiet.",
+      "promptZh": "燈光轉暗後,觀眾仍不停交談,所以主持人請他們安靜下來。",
+      "starter": "The",
+      "answer": "The audience kept talking after the lights went down, so the host asked them to settle down.",
+      "answerZh": "燈光轉暗後,觀眾仍不停交談,所以主持人請他們安靜下來。",
+      "highlight": "settle down",
+      "targetForm": "settle down / settle somebody down",
+      "targetMeaningZh": "變得平靜或安靜;令某人平靜或安靜"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-251",
+  "order": 251,
+  "slug": "grind",
+  "version": "1",
+  "title": "GRIND 動詞片語",
+  "titleEn": "Grind",
+  "titleZh": "GRIND 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 236 - GRIND.pdf",
+    "sourceNumber": 236,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GRIND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GRIND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GRIND",
+      "highlight": "GRIND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The talks ground on until midnight.",
+      "zh": "談判一直持續至午夜。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Constant criticism can grind you down.",
+      "zh": "持續不斷的批評可以逐漸消磨你的信心。",
+      "highlight": "grind you down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The worker ground the rough edge down.",
+      "zh": "工人把粗糙的邊緣磨平。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "令人不快、沉悶或困難的事情持續很久；長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力；把某物磨平、磨薄或磨小；以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+    "en": "grind on; grind somebody down; grind something down; grind something out",
+    "naturalZh": [
+      "令人不快、沉悶或困難的事情持續很久",
+      "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+      "把某物磨平、磨薄或磨小",
+      "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "grind on",
+      "titleZh": "令人不快、沉悶或困難的事情持續很久",
+      "titleEn": "grind on",
+      "descriptionZh": "令人不快、沉悶或困難的事情持續很久",
+      "descriptionEn": "The talks ground on until midnight.",
+      "examples": [
+        {
+          "en": "The talks ground on until midnight.",
+          "zh": "談判一直持續至午夜。",
+          "highlight": "The"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "grind somebody down",
+      "titleZh": "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+      "titleEn": "grind somebody down",
+      "descriptionZh": "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+      "descriptionEn": "Constant criticism can grind you down.",
+      "examples": [
+        {
+          "en": "Constant criticism can grind you down.",
+          "zh": "持續不斷的批評可以逐漸消磨你的信心。",
+          "highlight": "grind you down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "grind something down",
+      "titleZh": "把某物磨平、磨薄或磨小",
+      "titleEn": "grind something down",
+      "descriptionZh": "把某物磨平、磨薄或磨小",
+      "descriptionEn": "The worker ground the rough edge down.",
+      "examples": [
+        {
+          "en": "The worker ground the rough edge down.",
+          "zh": "工人把粗糙的邊緣磨平。",
+          "highlight": "The"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "grind something out",
+      "titleZh": "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+      "titleEn": "grind something out",
+      "descriptionZh": "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+      "descriptionEn": "The factory grinds out hundreds of cups a day.",
+      "examples": [
+        {
+          "en": "The factory grinds out hundreds of cups a day.",
+          "zh": "工廠每天機械式地製造數百隻杯子。",
+          "highlight": "grinds out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GRIND 片語動詞的實際用途",
+    "labelEn": "GRIND Phrasal Verbs in Use",
+    "summaryZh": "grind on 可以描述談判、爭論、會議和其他長時間持續的困難情況。；grind somebody down 可以表示反覆的批評、不公平對待或壓力逐漸消磨一個人。；grind something down 適合用來描述處理粗糙邊緣、金屬零件和其他堅硬物件。；grind something out 可以描述作家、樂隊、工廠或機構不斷製作相似的作品或產品。",
+    "summaryEn": "Grind on can describe talks, arguments, meetings and other difficult situations that continue for a long time. Grind somebody down shows that repeated criticism, unfair treatment or pressure slowly weakens a person. Grind something down is useful when describing work on rough edges, metal parts and other hard objects. Grind something out can describe a writer, band, factory or organisation repeatedly producing similar work.",
+    "contextsZh": [
+      "描述持續過久的困難情況",
+      "說明長期壓力如何影響人",
+      "描述把實物磨平或磨小",
+      "描述重複而例行的生產過程"
+    ],
+    "contextsEn": [
+      "Describe unpleasant situations that continue for too long",
+      "Explain how long-term pressure affects people",
+      "Talk about making a physical object smoother or smaller",
+      "Describe repeated and routine production"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GRIND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GRIND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "grind on",
+    "fixedHighlight": "grind on",
+    "fixedZh": "閱讀整句,選出意思相同的 GRIND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GRIND expression that gives the same meaning.",
+    "correct": "The",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請仔細閱讀,因為相近的形式可以描述完全不同的情況:談判持續了很久。壓力逐漸消磨 Lee 的意志。工人把邊緣磨平。；使用 you、him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Read carefully because similar forms can describe very different situations: The talks ground on. The pressure ground Lee down. The worker ground the edge down. When using you, him, her, it or them, place the word as shown: grind you down grind it down grind them out",
+    "variableItemsZh": [
+      "grind on",
+      "grind somebody down",
+      "grind something down",
+      "grind something out"
+    ],
+    "variableItemsEn": [
+      "grind on",
+      "grind somebody down",
+      "grind something down",
+      "grind something out"
+    ],
+    "forms": [
+      {
+        "formZh": "令人不快、沉悶或困難的事情持續很久",
+        "formEn": "grind on",
+        "exampleZh": "談判一直持續至午夜。",
+        "exampleEn": "The talks ground on until midnight.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+        "formEn": "grind somebody down",
+        "exampleZh": "持續不斷的批評可以逐漸消磨你的信心。",
+        "exampleEn": "Constant criticism can grind you down.",
+        "highlight": "grind you down"
+      },
+      {
+        "formZh": "把某物磨平、磨薄或磨小",
+        "formEn": "grind something down",
+        "exampleZh": "工人把粗糙的邊緣磨平。",
+        "exampleEn": "The worker ground the rough edge down.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+        "formEn": "grind something out",
+        "exampleZh": "工廠每天機械式地製造數百隻杯子。",
+        "exampleEn": "The factory grinds out hundreds of cups a day.",
+        "highlight": "grinds out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "令人不快、沉悶或困難的事情持續很久",
+      "titleEn": "grind on",
+      "formula": "grind on",
+      "highlight": "grind on",
+      "descriptionZh": "令人不快、沉悶或困難的事情持續很久",
+      "descriptionEn": "The talks ground on until midnight.",
+      "examples": [
+        {
+          "en": "The talks ground on until midnight.",
+          "zh": "談判一直持續至午夜。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+      "titleEn": "grind somebody down",
+      "formula": "grind somebody down",
+      "highlight": "grind somebody down",
+      "descriptionZh": "長期向某人施壓、欺壓或折磨,使其逐漸失去信心或反抗能力",
+      "descriptionEn": "Constant criticism can grind you down.",
+      "examples": [
+        {
+          "en": "Constant criticism can grind you down.",
+          "zh": "持續不斷的批評可以逐漸消磨你的信心。",
+          "highlight": "grind you down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物磨平、磨薄或磨小",
+      "titleEn": "grind something down",
+      "formula": "grind something down",
+      "highlight": "grind something down",
+      "descriptionZh": "把某物磨平、磨薄或磨小",
+      "descriptionEn": "The worker ground the rough edge down.",
+      "examples": [
+        {
+          "en": "The worker ground the rough edge down.",
+          "zh": "工人把粗糙的邊緣磨平。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+      "titleEn": "grind something out",
+      "formula": "grind something out",
+      "highlight": "grind something out",
+      "descriptionZh": "以沉悶、機械或例行的方式不斷寫出、演奏或製造某物",
+      "descriptionEn": "The factory grinds out hundreds of cups a day.",
+      "examples": [
+        {
+          "en": "The factory grinds out hundreds of cups a day.",
+          "zh": "工廠每天機械式地製造數百隻杯子。",
+          "highlight": "grinds out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述持續過久的困難情況",
+      "titleEn": "Describe unpleasant situations that continue for too long",
+      "zh": "grind on 可以描述談判、爭論、會議和其他長時間持續的困難情況。",
+      "en": "Grind on can describe talks, arguments, meetings and other difficult situations that continue for a long time."
+    },
+    {
+      "titleZh": "說明長期壓力如何影響人",
+      "titleEn": "Explain how long-term pressure affects people",
+      "zh": "grind somebody down 可以表示反覆的批評、不公平對待或壓力逐漸消磨一個人。",
+      "en": "Grind somebody down shows that repeated criticism, unfair treatment or pressure slowly weakens a person."
+    },
+    {
+      "titleZh": "描述把實物磨平或磨小",
+      "titleEn": "Talk about making a physical object smoother or smaller",
+      "zh": "grind something down 適合用來描述處理粗糙邊緣、金屬零件和其他堅硬物件。",
+      "en": "Grind something down is useful when describing work on rough edges, metal parts and other hard objects."
+    },
+    {
+      "titleZh": "描述重複而例行的生產過程",
+      "titleEn": "Describe repeated and routine production",
+      "zh": "grind something out 可以描述作家、樂隊、工廠或機構不斷製作相似的作品或產品。",
+      "en": "Grind something out can describe a writer, band, factory or organisation repeatedly producing similar work."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述持續過久的困難情況",
+      "說明長期壓力如何影響人",
+      "描述把實物磨平或磨小",
+      "描述重複而例行的生產過程"
+    ],
+    "contextsEn": [
+      "Describe unpleasant situations that continue for too long",
+      "Explain how long-term pressure affects people",
+      "Talk about making a physical object smoother or smaller",
+      "Describe repeated and routine production"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述持續過久的困難情況",
+        "titleEn": "Describe unpleasant situations that continue for too long",
+        "zh": "grind on 可以描述談判、爭論、會議和其他長時間持續的困難情況。",
+        "en": "Grind on can describe talks, arguments, meetings and other difficult situations that continue for a long time.",
+        "examples": [
+          {
+            "en": "The talks ground on until midnight.",
+            "zh": "談判一直持續至午夜。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明長期壓力如何影響人",
+        "titleEn": "Explain how long-term pressure affects people",
+        "zh": "grind somebody down 可以表示反覆的批評、不公平對待或壓力逐漸消磨一個人。",
+        "en": "Grind somebody down shows that repeated criticism, unfair treatment or pressure slowly weakens a person.",
+        "examples": [
+          {
+            "en": "Constant criticism can grind you down.",
+            "zh": "持續不斷的批評可以逐漸消磨你的信心。",
+            "highlight": "grind you down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述把實物磨平或磨小",
+        "titleEn": "Talk about making a physical object smoother or smaller",
+        "zh": "grind something down 適合用來描述處理粗糙邊緣、金屬零件和其他堅硬物件。",
+        "en": "Grind something down is useful when describing work on rough edges, metal parts and other hard objects.",
+        "examples": [
+          {
+            "en": "The worker ground the rough edge down.",
+            "zh": "工人把粗糙的邊緣磨平。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述重複而例行的生產過程",
+        "titleEn": "Describe repeated and routine production",
+        "zh": "grind something out 可以描述作家、樂隊、工廠或機構不斷製作相似的作品或產品。",
+        "en": "Grind something out can describe a writer, band, factory or organisation repeatedly producing similar work.",
+        "examples": [
+          {
+            "en": "The factory grinds out hundreds of cups a day.",
+            "zh": "工廠每天機械式地製造數百隻杯子。",
+            "highlight": "grinds out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GRIND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GRIND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GRIND 片語動詞。",
+      "en": "Read the whole sentence and choose the GRIND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請仔細閱讀,因為相近的形式可以描述完全不同的情況:談判持續了很久。壓力逐漸消磨 Lee 的意志。工人把邊緣磨平。",
+      "titleEn": "Read carefully because similar forms can describe very different situations: The talks ground on.",
+      "zh": "請仔細閱讀,因為相近的形式可以描述完全不同的情況:談判持續了很久。壓力逐漸消磨 Lee 的意志。工人把邊緣磨平。",
+      "en": "Read carefully because similar forms can describe very different situations: The talks ground on. The pressure ground Lee down. The worker ground the edge down."
+    },
+    {
+      "titleZh": "使用 you、him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using you, him, her, it or them, place the word as shown: grind you down grind it down grind them out.",
+      "zh": "使用 you、him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using you, him, her, it or them, place the word as shown: grind you down grind it down grind them out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GRIND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GRIND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GRIND 動詞片語句子改寫練習",
+    "titleEn": "GRIND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GRIND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GRIND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-251-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The talks continued for weeks, and everyone became tired of them.",
+      "promptZh": "談判持續了數星期,大家都感到厭倦。",
+      "starter": "The",
+      "answer": "The talks ground on for weeks, and everyone became tired of them.",
+      "answerZh": "談判持續了數星期,大家都感到厭倦。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The writer produces a new crime story every month in the same routine way.",
+      "promptZh": "這名作家每月都以同一種例行方式寫出一篇新的犯罪故事。",
+      "starter": "The",
+      "answer": "The writer grinds out a new crime story every month.",
+      "answerZh": "這名作家每月都以例行方式寫出一篇新的犯罪故事。",
+      "highlight": "grinds out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Years of unfair treatment slowly weakened the workers until they lost hope.",
+      "promptZh": "多年的不公平對待逐漸削弱工人的意志,直至他們失去希望。",
+      "starter": "Years",
+      "answer": "Years of unfair treatment slowly ground the workers down until they lost hope.",
+      "answerZh": "多年的不公平對待逐漸消磨工人的意志,直至他們失去希望。",
+      "highlight": "ground",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The worker used a machine to make the sharp metal edge smooth.",
+      "promptZh": "工人使用機器把尖銳的金屬邊緣磨至平滑。",
+      "starter": "The",
+      "answer": "The worker ground the sharp metal edge down with a machine until it was smooth.",
+      "answerZh": "工人使用機器把尖銳的金屬邊緣磨至平滑。",
+      "highlight": "ground",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The argument continued late into the night, although everyone wanted to stop.",
+      "promptZh": "爭論持續至深夜,儘管所有人都想停止。",
+      "starter": "The",
+      "answer": "The argument ground on late into the night, although everyone wanted to stop.",
+      "answerZh": "爭論一直持續至深夜,儘管所有人都想停止。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The factory produces hundreds of the same cheap cups every day.",
+      "promptZh": "工廠每天都以例行方式製造數百隻相同的廉價杯子。",
+      "starter": "The",
+      "answer": "The factory grinds out hundreds of the same cheap cups every day.",
+      "answerZh": "工廠每天都以例行方式製造數百隻相同的廉價杯子。",
+      "highlight": "grinds out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please use the tool to make this rough corner smooth before anyone touches it.",
+      "promptZh": "在有人觸碰這個粗糙角位前,請使用工具把它磨平。",
+      "starter": "Please",
+      "answer": "Please grind this rough corner down with the tool before anyone touches it.",
+      "answerZh": "在有人觸碰這個粗糙角位前,請使用工具把它磨平。",
+      "highlight": "grind",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Do not let their repeated criticism slowly destroy your confidence.",
+      "promptZh": "不要讓他們反覆的批評逐漸摧毀你的信心。",
+      "starter": "Don’t",
+      "answer": "Don’t let their repeated criticism grind you down.",
+      "answerZh": "不要讓他們反覆的批評逐漸摧毀你的信心。",
+      "highlight": "Don’t",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "This website produces several nearly identical articles every morning.",
+      "promptZh": "這個網站每天早上都製作幾篇幾乎相同的文章。",
+      "starter": "This",
+      "answer": "This website grinds out several nearly identical articles every morning.",
+      "answerZh": "這個網站每天早上都例行製作幾篇幾乎相同的文章。",
+      "highlight": "grinds out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Although everyone wanted a decision, the discussion continued for another hour.",
+      "promptZh": "雖然所有人都希望作出決定,但討論仍持續了另一個小時。",
+      "starter": "Although",
+      "answer": "Although everyone wanted a decision, the discussion ground on for another hour.",
+      "answerZh": "雖然所有人都希望作出決定,但討論仍持續了另一個小時。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Constant pressure at work is making Tara feel less able to continue each day.",
+      "promptZh": "工作上的持續壓力令 Tara 每天都覺得愈來愈難以堅持下去。",
+      "starter": "Constant",
+      "answer": "Constant pressure at work is slowly grinding Tara down.",
+      "answerZh": "工作上的持續壓力正逐漸消磨 Tara 的意志。",
+      "highlight": "slowly grinding",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The sharp points were made smooth before the toy was painted.",
+      "promptZh": "玩具上尖銳的部分在上色前已被磨平。",
+      "starter": "The",
+      "answer": "The sharp points were ground down before the toy was painted.",
+      "answerZh": "玩具上尖銳的部分在上色前已被磨平。",
+      "highlight": "ground down",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "That band has played the same tired songs in the same routine way for years.",
+      "promptZh": "那支樂隊多年來一直以同一種機械式方式演奏那些沉悶的歌曲。",
+      "starter": "That",
+      "answer": "That band has ground out the same tired songs for years.",
+      "answerZh": "那支樂隊多年來一直機械式地演奏那些沉悶的歌曲。",
+      "highlight": "ground out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作或演奏某物"
+    },
+    {
+      "id": "phrasal-verb-251-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The court case has continued for years, causing stress for both families.",
+      "promptZh": "這宗法庭案件持續了多年,令兩個家庭都承受壓力。",
+      "starter": "The",
+      "answer": "The court case has ground on for years, causing stress for both families.",
+      "answerZh": "這宗法庭案件持續了多年,令兩個家庭都承受壓力。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We need to use the machine to make the metal bump smaller so the door can close.",
+      "promptZh": "我們需要使用機器把金屬凸起部分磨小,讓門能夠關上。",
+      "starter": "We",
+      "answer": "We need to grind the metal bump down with the machine so the door can close.",
+      "answerZh": "我們需要使用機器把金屬凸起部分磨小,讓門能夠關上。",
+      "highlight": "grind",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The long hours had weakened him until he was too tired to keep arguing.",
+      "promptZh": "長時間工作已逐漸消磨他的精力,令他疲倦得無法繼續爭辯。",
+      "starter": "The",
+      "answer": "The long hours had ground him down until he was too tired to keep arguing.",
+      "answerZh": "長時間工作已逐漸消磨他的精力,令他疲倦得無法繼續爭辯。",
+      "highlight": "ground",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could one person really produce a new short novel every week in such a routine way?",
+      "promptZh": "一個人真的可以每星期都以這種例行方式寫出一本新的短篇小說嗎?",
+      "starter": "Could",
+      "answer": "Could one person really grind out a new short novel every week?",
+      "answerZh": "一個人真的可以每星期都以例行方式寫出一本新的短篇小說嗎?",
+      "highlight": "grind out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The worker is using a tool to make both rough edges smooth.",
+      "promptZh": "工人正在使用工具把兩個粗糙的邊緣磨平。",
+      "starter": "The",
+      "answer": "The worker is grinding both rough edges down with a tool.",
+      "answerZh": "工人正在使用工具把兩個粗糙的邊緣磨平。",
+      "highlight": "grinding",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will the meeting continue much longer? Everyone is already tired.",
+      "promptZh": "會議還會持續很久嗎?所有人都已經感到疲倦。",
+      "starter": "Will",
+      "answer": "Will the meeting grind on much longer? Everyone is already tired.",
+      "answerZh": "會議還會持續很久嗎?所有人都已經感到疲倦。",
+      "highlight": "grind on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Their threats will not weaken us or make us give up.",
+      "promptZh": "他們的威脅不會削弱我們的意志,也不會令我們放棄。",
+      "starter": "Their",
+      "answer": "Their threats will not grind us down.",
+      "answerZh": "他們的威脅不會消磨我們的意志。",
+      "highlight": "grind",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The editor asks for three routine reports each week, and the team produces them one after another.",
+      "promptZh": "編輯每星期要求三份例行報告,而團隊會逐一把它們寫出來。",
+      "starter": "The",
+      "answer": "The editor asks for three routine reports each week, and the team grinds them out one after another.",
+      "answerZh": "編輯每星期要求三份例行報告,而團隊會逐一把它們寫出來。",
+      "highlight": "grinds",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Being treated unfairly year after year had left the workers with no strength to fight back.",
+      "promptZh": "工人年復一年受到不公平對待,已失去反抗的力量。",
+      "starter": "Being",
+      "answer": "Being treated unfairly year after year had ground the workers down until they had no strength to fight back.",
+      "answerZh": "工人年復一年受到不公平對待,已逐漸失去反抗的力量。",
+      "highlight": "ground",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "As the delay continued, the passengers became more annoyed.",
+      "promptZh": "隨着延誤持續,乘客變得愈來愈不滿。",
+      "starter": "As",
+      "answer": "As the delay ground on, the passengers became more annoyed.",
+      "answerZh": "隨着延誤持續下去,乘客變得愈來愈不滿。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The metal edge was too high, so Jin used a small machine to make it lower.",
+      "promptZh": "金屬邊緣太高,因此 Jin 使用小型機器把它磨低。",
+      "starter": "The",
+      "answer": "The metal edge was too high, so Jin ground it down with a small machine.",
+      "answerZh": "金屬邊緣太高,因此 Jin 使用小型機器把它磨低。",
+      "highlight": "ground it down with",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "He produced three similar articles yesterday with little care.",
+      "promptZh": "他昨天草率地寫出了三篇相似的文章。",
+      "starter": "He",
+      "answer": "He ground out three similar articles yesterday with little care.",
+      "answerZh": "他昨天草率地寫出了三篇相似的文章。",
+      "highlight": "ground out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Are the daily complaints slowly making you lose confidence?",
+      "promptZh": "每天的投訴是否正在逐漸令你失去信心?",
+      "starter": "Are",
+      "answer": "Are the daily complaints slowly grinding you down?",
+      "answerZh": "每天的投訴是否正在逐漸消磨你的信心?",
+      "highlight": "grinding",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Can you use the tool to make them smooth before we use the metal parts?",
+      "promptZh": "我們使用這些金屬零件前,你可以用工具把它們磨平嗎?",
+      "starter": "Can",
+      "answer": "Can you grind them down with the tool before we use the metal parts?",
+      "answerZh": "我們使用這些金屬零件前,你可以用工具把它們磨平嗎?",
+      "highlight": "grind them down with",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The system produces the same standard letters again and again, with almost no change.",
+      "promptZh": "這套系統反覆製作相同的標準信件,內容幾乎沒有改變。",
+      "starter": "The",
+      "answer": "The system grinds out the same standard letters again and again, with almost no change.",
+      "answerZh": "這套系統反覆製作相同的標準信件,內容幾乎沒有改變。",
+      "highlight": "grinds out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The dispute may continue for many more months if neither side agrees.",
+      "promptZh": "如果雙方都不肯同意,這場爭議可能還會持續多個月。",
+      "starter": "The",
+      "answer": "The dispute may grind on for many more months if neither side agrees.",
+      "answerZh": "如果雙方都不肯同意,這場爭議可能還會持續多個月。",
+      "highlight": "grind on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "She refused to allow months of pressure to weaken her until she gave up.",
+      "promptZh": "她拒絕讓數月以來的壓力逐漸消磨她,令她放棄。",
+      "starter": "She",
+      "answer": "She refused to allow months of pressure to grind her down.",
+      "answerZh": "她拒絕讓數月以來的壓力消磨她的意志。",
+      "highlight": "grind",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The rough part of the key must be made smaller before the key will fit.",
+      "promptZh": "鎖匙上粗糙的部分必須磨小,鎖匙才能放進去。",
+      "starter": "The",
+      "answer": "The rough part of the key must be ground down before the key will fit.",
+      "answerZh": "鎖匙上粗糙的部分必須磨小,鎖匙才能放進去。",
+      "highlight": "ground down",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Even after midnight, the talks continued without an agreement.",
+      "promptZh": "即使已過午夜,談判仍在繼續,雙方尚未達成協議。",
+      "starter": "Even",
+      "answer": "Even after midnight, the talks ground on without an agreement.",
+      "answerZh": "即使已過午夜,談判仍持續下去,雙方尚未達成協議。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Repeated insults can slowly weaken a person until they no longer want to resist.",
+      "promptZh": "反覆的侮辱可以逐漸消磨一個人,令其不再願意反抗。",
+      "starter": "Repeated",
+      "answer": "Repeated insults can grind a person down until they no longer want to resist.",
+      "answerZh": "反覆的侮辱可以逐漸消磨一個人,令其不再願意反抗。",
+      "highlight": "grind",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The newspaper expects its writers to produce five short reports a day in a routine way.",
+      "promptZh": "報社要求作者每天以例行方式寫出五篇短報道。",
+      "starter": "The",
+      "answer": "The newspaper expects its writers to grind out five short reports a day.",
+      "answerZh": "報社要求作者每天例行寫出五篇短報道。",
+      "highlight": "grind out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They used a machine to make the thick piece of metal thinner.",
+      "promptZh": "他們使用機器把那塊厚金屬磨薄。",
+      "starter": "They",
+      "answer": "They ground the thick piece of metal down with a machine.",
+      "answerZh": "他們使用機器把那塊厚金屬磨薄。",
+      "highlight": "ground",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Nobody expected the argument to continue for so long.",
+      "promptZh": "沒有人預料這場爭論會持續這麼久。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the argument to grind on for so long.",
+      "answerZh": "沒有人預料這場爭論會持續這麼久。",
+      "highlight": "grind on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She can produce another simple song whenever the company asks, even without a new idea.",
+      "promptZh": "只要公司提出要求,即使沒有新構思,她也能再寫出一首簡單的歌曲。",
+      "starter": "She",
+      "answer": "She can grind out another simple song whenever the company asks, even without a new idea.",
+      "answerZh": "只要公司提出要求,即使沒有新構思,她也能再例行寫出一首簡單的歌曲。",
+      "highlight": "grind out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The edge has been made smooth, so it is now safe to touch.",
+      "promptZh": "邊緣已被磨平,因此現在可以安全觸碰。",
+      "starter": "The",
+      "answer": "The edge has been ground down, so it is now safe to touch.",
+      "answerZh": "邊緣已被磨平,因此現在可以安全觸碰。",
+      "highlight": "ground down",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The manager’s daily criticism was slowly weakening the new employee and destroying his confidence.",
+      "promptZh": "經理每天的批評正逐漸消磨新員工,並摧毀他的信心。",
+      "starter": "The",
+      "answer": "The manager’s daily criticism was slowly grinding the new employee down and destroying his confidence.",
+      "answerZh": "經理每天的批評正逐漸消磨新員工,並摧毀他的信心。",
+      "highlight": "grinding",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The same boring discussion was still continuing when I left.",
+      "promptZh": "我離開時,同一場沉悶的討論仍在繼續。",
+      "starter": "The",
+      "answer": "The same boring discussion was still grinding on when I left.",
+      "answerZh": "我離開時,同一場沉悶的討論仍在持續。",
+      "highlight": "grinding on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Years of being ignored and treated badly had left him without the confidence to speak for himself.",
+      "promptZh": "多年來受到忽視和惡劣對待,令他失去為自己發聲的信心。",
+      "starter": "Years",
+      "answer": "Years of being ignored and treated badly had ground him down, leaving him without the confidence to speak for himself.",
+      "answerZh": "多年來受到忽視和惡劣對待,已逐漸消磨他的信心,令他無法為自己發聲。",
+      "highlight": "ground him down, leaving",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Month after month, the studio produced almost identical shows.",
+      "promptZh": "工作室月復一月地製作幾乎相同的節目。",
+      "starter": "Month",
+      "answer": "Month after month, the studio ground out almost identical shows.",
+      "answerZh": "工作室月復一月地機械式製作幾乎相同的節目。",
+      "highlight": "ground out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Because no one would change their position, the negotiations continued for months.",
+      "promptZh": "由於沒有人願意改變立場,談判持續了數月。",
+      "starter": "Because",
+      "answer": "Because no one would change their position, the negotiations ground on for months.",
+      "answerZh": "由於沒有人願意改變立場,談判持續了數月。",
+      "highlight": "ground on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The repair worker had to use a machine to make one side of the metal plate thinner so it would fit the space.",
+      "promptZh": "維修工人必須使用機器把金屬板的一邊磨薄,讓它能夠放進那個位置。",
+      "starter": "The",
+      "answer": "The repair worker had to grind one side of the metal plate down so it would fit the space.",
+      "answerZh": "維修工人必須把金屬板的一邊磨薄,讓它能夠放進那個位置。",
+      "highlight": "grind",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The publisher had forced the writer to produce two similar novels every year.",
+      "promptZh": "出版社曾迫使這名作家每年寫出兩本相似的小說。",
+      "starter": "The",
+      "answer": "The publisher had forced the writer to grind out two similar novels every year.",
+      "answerZh": "出版社曾迫使這名作家每年例行寫出兩本相似的小說。",
+      "highlight": "grind out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The constant pressure may eventually weaken even experienced staff until they stop resisting.",
+      "promptZh": "持續的壓力最終可能連經驗豐富的員工也逐漸消磨,使他們停止反抗。",
+      "starter": "The",
+      "answer": "The constant pressure may eventually grind even experienced staff down until they stop resisting.",
+      "answerZh": "持續的壓力最終可能連經驗豐富的員工也逐漸消磨,使他們停止反抗。",
+      "highlight": "grind",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    },
+    {
+      "id": "phrasal-verb-251-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the old gate could close properly, its rough metal edge needed to be made smaller.",
+      "promptZh": "舊閘門要正常關上,便需要先把粗糙的金屬邊緣磨小。",
+      "starter": "Before",
+      "answer": "Before the old gate could close properly, its rough metal edge needed to be ground down.",
+      "answerZh": "舊閘門要正常關上,便需要先把粗糙的金屬邊緣磨小。",
+      "highlight": "ground down",
+      "targetForm": "grind something down",
+      "targetMeaningZh": "把某物磨平、磨薄或磨小"
+    },
+    {
+      "id": "phrasal-verb-251-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even when he has no fresh ideas, he continues producing one article after another.",
+      "promptZh": "即使沒有新構思,他仍繼續逐篇寫出文章。",
+      "starter": "Even",
+      "answer": "Even when he has no fresh ideas, he continues grinding out one article after another.",
+      "answerZh": "即使沒有新構思,他仍繼續逐篇例行寫出文章。",
+      "highlight": "grinding out",
+      "targetForm": "grind something out",
+      "targetMeaningZh": "以沉悶或例行方式不斷製作某物"
+    },
+    {
+      "id": "phrasal-verb-251-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "If the talks are allowed to continue, more people will lose patience.",
+      "promptZh": "如果任由談判繼續下去,更多人會失去耐性。",
+      "starter": "If",
+      "answer": "If the talks are allowed to grind on, more people will lose patience.",
+      "answerZh": "如果任由談判持續下去,更多人會失去耐性。",
+      "highlight": "grind on",
+      "targetForm": "grind on",
+      "targetMeaningZh": "令人不快或困難的事情持續很久"
+    },
+    {
+      "id": "phrasal-verb-251-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Whatever they say, do not allow months of unfair treatment to destroy your confidence.",
+      "promptZh": "無論他們說甚麼,也不要讓數月的不公平對待摧毀你的信心。",
+      "starter": "Whatever",
+      "answer": "Whatever they say, do not let months of unfair treatment grind you down.",
+      "answerZh": "無論他們說甚麼,也不要讓數月的不公平對待摧毀你的信心。",
+      "highlight": "let",
+      "targetForm": "grind somebody down",
+      "targetMeaningZh": "長期消磨某人的信心或反抗能力"
+    }
+  ]
+}

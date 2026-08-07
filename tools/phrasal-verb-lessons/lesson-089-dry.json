@@ -1,0 +1,1439 @@
+{
+  "id": "phrasal-verb-89",
+  "order": 89,
+  "slug": "dry",
+  "version": "1",
+  "title": "DRY 動詞片語",
+  "titleEn": "Dry",
+  "titleZh": "DRY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 88 - DRY.pdf",
+    "sourceNumber": 88,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRY",
+      "highlight": "DRY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We sat beside the fire to dry off.",
+      "zh": "我們坐在火旁讓身體變乾。",
+      "highlight": "dry off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He stayed at a clinic to dry out.",
+      "zh": "他留在診所接受戒酒治療。",
+      "highlight": "dry out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Leave the wet bag open so it can dry out.",
+      "zh": "把濕袋打開,讓它完全乾透。",
+      "highlight": "dry out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾；接受或協助接受戒酒治療；變得乾透;使某物乾透或失去水分；金錢、工作、訂單或其他供應逐漸停止或消失；水源或水分完全乾涸;使其完全乾涸",
+    "en": "dry off; dry somebody/something off; dry yourself off; dry out; dry somebody out; dry out; dry something out; dry up; dry up; dry something up",
+    "naturalZh": [
+      "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+      "接受或協助接受戒酒治療",
+      "變得乾透;使某物乾透或失去水分",
+      "金錢、工作、訂單或其他供應逐漸停止或消失",
+      "水源或水分完全乾涸;使其完全乾涸"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dry off; dry somebody/something off; dry yourself off",
+      "titleZh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+      "titleEn": "dry off; dry somebody/something off; dry yourself off",
+      "descriptionZh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+      "descriptionEn": "We sat beside the fire to dry off.",
+      "examples": [
+        {
+          "en": "We sat beside the fire to dry off.",
+          "zh": "我們坐在火旁讓身體變乾。",
+          "highlight": "dry off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dry out; dry somebody out",
+      "titleZh": "接受或協助接受戒酒治療",
+      "titleEn": "dry out; dry somebody out",
+      "descriptionZh": "接受或協助接受戒酒治療",
+      "descriptionEn": "He stayed at a clinic to dry out.",
+      "examples": [
+        {
+          "en": "He stayed at a clinic to dry out.",
+          "zh": "他留在診所接受戒酒治療。",
+          "highlight": "dry out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dry out; dry something out",
+      "titleZh": "變得乾透;使某物乾透或失去水分",
+      "titleEn": "dry out; dry something out",
+      "descriptionZh": "變得乾透;使某物乾透或失去水分",
+      "descriptionEn": "Leave the wet bag open so it can dry out.",
+      "examples": [
+        {
+          "en": "Leave the wet bag open so it can dry out.",
+          "zh": "把濕袋打開,讓它完全乾透。",
+          "highlight": "dry out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dry up",
+      "titleZh": "金錢、工作、訂單或其他供應逐漸停止或消失",
+      "titleEn": "dry up",
+      "descriptionZh": "金錢、工作、訂單或其他供應逐漸停止或消失",
+      "descriptionEn": "Their work dried up after winter.",
+      "examples": [
+        {
+          "en": "Their work dried up after winter.",
+          "zh": "冬季過後,他們的工作逐漸停止了。",
+          "highlight": "dried up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "dry up; dry something up",
+      "titleZh": "水源或水分完全乾涸;使其完全乾涸",
+      "titleEn": "dry up; dry something up",
+      "descriptionZh": "水源或水分完全乾涸;使其完全乾涸",
+      "descriptionEn": "The small pond dried up in the heat.",
+      "examples": [
+        {
+          "en": "The small pond dried up in the heat.",
+          "zh": "小池塘在炎熱天氣下乾涸了。",
+          "highlight": "dried up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRY 片語動詞的實際用途",
+    "labelEn": "DRY Phrasal Verbs in Use",
+    "summaryZh": "dry off 可用來描述人或物件在游泳、淋雨、清洗或清潔後變乾的情況。；dry off 通常談及表面的水分;dry out 則可表示某物進一步失去水分,直至乾透。；dry up 可自然地表示金錢、工作、預訂或支援逐漸停止或不再出現。；在診所或治療情境中,dry out 可以表示接受戒酒治療。",
+    "summaryEn": "Dry off helps you describe what people and things do after swimming, rain, washing or cleaning. Dry off usually concerns water on the surface, while dry out can describe something losing moisture more fully. Dry up gives you a natural way to describe money, work, bookings or support becoming unavailable. In a clinic or treatment context, dry out can mean receiving treatment to stop drinking alcohol.",
+    "contextsZh": [
+      "自然談論游泳或淋濕後變乾的情況",
+      "分辨表面水分與內部水分",
+      "描述金錢、工作或訂單停止",
+      "理解一個與健康有關的特別意思"
+    ],
+    "contextsEn": [
+      "Talk naturally about becoming dry after water activities",
+      "Describe the difference between surface water and deep moisture",
+      "Explain when money, work or orders stop",
+      "Understand a special health-related meaning"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dry off; dry somebody/something off; dry yourself off",
+    "fixedHighlight": "dry off; dry somebody/something off; dry yourself off",
+    "fixedZh": "閱讀整句,選出意思相同的 DRY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRY expression that gives the same meaning.",
+    "correct": "dry off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；要擦去人或物件表面的水分,可使用 dry it off 和 dry yourself off 等形式。；在本練習中,dry out 和 dry up 各有多於一個意思。請根據整個情境,判斷句子談及的是治療、水分、供應,還是水源。",
+    "variableEn": "Keep the same people, things, time and meaning. To remove water from the surface of a person or thing, use forms such as dry it off and dry yourself off. Dry out and dry up each have more than one meaning in this set. Use the full situation to decide whether the sentence is about treatment, moisture, a supply or a water source.",
+    "variableItemsZh": [
+      "dry off; dry somebody/something off; dry yourself off",
+      "dry out; dry somebody out",
+      "dry out; dry something out",
+      "dry up",
+      "dry up; dry something up"
+    ],
+    "variableItemsEn": [
+      "dry off; dry somebody/something off; dry yourself off",
+      "dry out; dry somebody out",
+      "dry out; dry something out",
+      "dry up",
+      "dry up; dry something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+        "formEn": "dry off; dry somebody/something off; dry yourself off",
+        "exampleZh": "我們坐在火旁讓身體變乾。",
+        "exampleEn": "We sat beside the fire to dry off.",
+        "highlight": "dry off"
+      },
+      {
+        "formZh": "接受或協助接受戒酒治療",
+        "formEn": "dry out; dry somebody out",
+        "exampleZh": "他留在診所接受戒酒治療。",
+        "exampleEn": "He stayed at a clinic to dry out.",
+        "highlight": "dry out"
+      },
+      {
+        "formZh": "變得乾透;使某物乾透或失去水分",
+        "formEn": "dry out; dry something out",
+        "exampleZh": "把濕袋打開,讓它完全乾透。",
+        "exampleEn": "Leave the wet bag open so it can dry out.",
+        "highlight": "dry out"
+      },
+      {
+        "formZh": "金錢、工作、訂單或其他供應逐漸停止或消失",
+        "formEn": "dry up",
+        "exampleZh": "冬季過後,他們的工作逐漸停止了。",
+        "exampleEn": "Their work dried up after winter.",
+        "highlight": "dried up"
+      },
+      {
+        "formZh": "水源或水分完全乾涸;使其完全乾涸",
+        "formEn": "dry up; dry something up",
+        "exampleZh": "小池塘在炎熱天氣下乾涸了。",
+        "exampleEn": "The small pond dried up in the heat.",
+        "highlight": "dried up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+      "titleEn": "dry off; dry somebody/something off; dry yourself off",
+      "formula": "dry off; dry somebody/something off; dry yourself off",
+      "highlight": "dry off; dry somebody/something off; dry yourself off",
+      "descriptionZh": "把人或物件表面的水分擦乾或弄乾;讓自己變乾",
+      "descriptionEn": "We sat beside the fire to dry off.",
+      "examples": [
+        {
+          "en": "We sat beside the fire to dry off.",
+          "zh": "我們坐在火旁讓身體變乾。",
+          "highlight": "dry off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "接受或協助接受戒酒治療",
+      "titleEn": "dry out; dry somebody out",
+      "formula": "dry out; dry somebody out",
+      "highlight": "dry out; dry somebody out",
+      "descriptionZh": "接受或協助接受戒酒治療",
+      "descriptionEn": "He stayed at a clinic to dry out.",
+      "examples": [
+        {
+          "en": "He stayed at a clinic to dry out.",
+          "zh": "他留在診所接受戒酒治療。",
+          "highlight": "dry out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "變得乾透;使某物乾透或失去水分",
+      "titleEn": "dry out; dry something out",
+      "formula": "dry out; dry something out",
+      "highlight": "dry out; dry something out",
+      "descriptionZh": "變得乾透;使某物乾透或失去水分",
+      "descriptionEn": "Leave the wet bag open so it can dry out.",
+      "examples": [
+        {
+          "en": "Leave the wet bag open so it can dry out.",
+          "zh": "把濕袋打開,讓它完全乾透。",
+          "highlight": "dry out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "金錢、工作、訂單或其他供應逐漸停止或消失",
+      "titleEn": "dry up",
+      "formula": "dry up",
+      "highlight": "dry up",
+      "descriptionZh": "金錢、工作、訂單或其他供應逐漸停止或消失",
+      "descriptionEn": "Their work dried up after winter.",
+      "examples": [
+        {
+          "en": "Their work dried up after winter.",
+          "zh": "冬季過後,他們的工作逐漸停止了。",
+          "highlight": "dried up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "水源或水分完全乾涸;使其完全乾涸",
+      "titleEn": "dry up; dry something up",
+      "formula": "dry up; dry something up",
+      "highlight": "dry up; dry something up",
+      "descriptionZh": "水源或水分完全乾涸;使其完全乾涸",
+      "descriptionEn": "The small pond dried up in the heat.",
+      "examples": [
+        {
+          "en": "The small pond dried up in the heat.",
+          "zh": "小池塘在炎熱天氣下乾涸了。",
+          "highlight": "dried up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論游泳或淋濕後變乾的情況",
+      "titleEn": "Talk naturally about becoming dry after water activities",
+      "zh": "dry off 可用來描述人或物件在游泳、淋雨、清洗或清潔後變乾的情況。",
+      "en": "Dry off helps you describe what people and things do after swimming, rain, washing or cleaning."
+    },
+    {
+      "titleZh": "分辨表面水分與內部水分",
+      "titleEn": "Describe the difference between surface water and deep moisture",
+      "zh": "dry off 通常談及表面的水分;dry out 則可表示某物進一步失去水分,直至乾透。",
+      "en": "Dry off usually concerns water on the surface, while dry out can describe something losing moisture more fully."
+    },
+    {
+      "titleZh": "描述金錢、工作或訂單停止",
+      "titleEn": "Explain when money, work or orders stop",
+      "zh": "dry up 可自然地表示金錢、工作、預訂或支援逐漸停止或不再出現。",
+      "en": "Dry up gives you a natural way to describe money, work, bookings or support becoming unavailable."
+    },
+    {
+      "titleZh": "理解一個與健康有關的特別意思",
+      "titleEn": "Understand a special health-related meaning",
+      "zh": "在診所或治療情境中,dry out 可以表示接受戒酒治療。",
+      "en": "In a clinic or treatment context, dry out can mean receiving treatment to stop drinking alcohol."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論游泳或淋濕後變乾的情況",
+      "分辨表面水分與內部水分",
+      "描述金錢、工作或訂單停止",
+      "理解一個與健康有關的特別意思"
+    ],
+    "contextsEn": [
+      "Talk naturally about becoming dry after water activities",
+      "Describe the difference between surface water and deep moisture",
+      "Explain when money, work or orders stop",
+      "Understand a special health-related meaning"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論游泳或淋濕後變乾的情況",
+        "titleEn": "Talk naturally about becoming dry after water activities",
+        "zh": "dry off 可用來描述人或物件在游泳、淋雨、清洗或清潔後變乾的情況。",
+        "en": "Dry off helps you describe what people and things do after swimming, rain, washing or cleaning.",
+        "examples": [
+          {
+            "en": "We sat beside the fire to dry off.",
+            "zh": "我們坐在火旁讓身體變乾。",
+            "highlight": "dry off"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨表面水分與內部水分",
+        "titleEn": "Describe the difference between surface water and deep moisture",
+        "zh": "dry off 通常談及表面的水分;dry out 則可表示某物進一步失去水分,直至乾透。",
+        "en": "Dry off usually concerns water on the surface, while dry out can describe something losing moisture more fully.",
+        "examples": [
+          {
+            "en": "He stayed at a clinic to dry out.",
+            "zh": "他留在診所接受戒酒治療。",
+            "highlight": "dry out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述金錢、工作或訂單停止",
+        "titleEn": "Explain when money, work or orders stop",
+        "zh": "dry up 可自然地表示金錢、工作、預訂或支援逐漸停止或不再出現。",
+        "en": "Dry up gives you a natural way to describe money, work, bookings or support becoming unavailable.",
+        "examples": [
+          {
+            "en": "Leave the wet bag open so it can dry out.",
+            "zh": "把濕袋打開,讓它完全乾透。",
+            "highlight": "dry out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解一個與健康有關的特別意思",
+        "titleEn": "Understand a special health-related meaning",
+        "zh": "在診所或治療情境中,dry out 可以表示接受戒酒治療。",
+        "en": "In a clinic or treatment context, dry out can mean receiving treatment to stop drinking alcohol.",
+        "examples": [
+          {
+            "en": "Their work dried up after winter.",
+            "zh": "冬季過後,他們的工作逐漸停止了。",
+            "highlight": "dried up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRY 片語動詞。",
+      "en": "Read the whole sentence and choose the DRY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "要擦去人或物件表面的水分,可使用 dry it off 和 dry yourself off 等形式。",
+      "titleEn": "To remove water from the surface of a person or thing, use forms such as dry it off and dry yourself off.",
+      "zh": "要擦去人或物件表面的水分,可使用 dry it off 和 dry yourself off 等形式。",
+      "en": "To remove water from the surface of a person or thing, use forms such as dry it off and dry yourself off."
+    },
+    {
+      "titleZh": "在本練習中,dry out 和 dry up 各有多於一個意思。請根據整個情境,判斷句子談及的是治療、水分、供應,還是水源。",
+      "titleEn": "Dry out and dry up each have more than one meaning in this set.",
+      "zh": "在本練習中,dry out 和 dry up 各有多於一個意思。請根據整個情境,判斷句子談及的是治療、水分、供應,還是水源。",
+      "en": "Dry out and dry up each have more than one meaning in this set. Use the full situation to decide whether the sentence is about treatment, moisture, a supply or a water source."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRY 動詞片語句子改寫練習",
+    "titleEn": "DRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-89-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "After swimming, Ava lay in the sun so her skin could become dry.",
+      "promptZh": "游泳後,艾娃躺在陽光下,讓皮膚上的水分乾掉。",
+      "starter": "After",
+      "answer": "After swimming, Ava lay in the sun to dry off.",
+      "answerZh": "游泳後,艾娃躺在陽光下,讓皮膚上的水分乾掉。",
+      "highlight": "to",
+      "targetForm": "dry off",
+      "targetMeaningZh": "變乾;讓表面的水分乾掉"
+    },
+    {
+      "id": "phrasal-verb-89-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Water the plant before the soil becomes completely dry.",
+      "promptZh": "在泥土完全乾掉前,給植物澆水。",
+      "starter": "Water",
+      "answer": "Water the plant before the soil dries out.",
+      "answerZh": "在泥土完全乾掉前,給植物澆水。",
+      "highlight": "dries out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Daniel entered a clinic to receive treatment and stop drinking alcohol.",
+      "promptZh": "丹尼爾到診所接受治療並戒酒。",
+      "starter": "Daniel",
+      "answer": "Daniel entered a clinic to dry out.",
+      "answerZh": "丹尼爾到診所接受戒酒治療。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The village well became completely dry during the long summer.",
+      "promptZh": "漫長夏季期間,村裏的水井完全乾涸了。",
+      "starter": "The",
+      "answer": "The village well dried up during the long summer.",
+      "answerZh": "漫長夏季期間,村裏的水井完全乾涸了。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "The project ended when no more money was available.",
+      "promptZh": "再沒有資金可用後,這個項目便結束了。",
+      "starter": "The",
+      "answer": "The project ended when the money dried up.",
+      "answerZh": "資金耗盡後,這個項目便結束了。",
+      "highlight": "the",
+      "targetForm": "dry up",
+      "targetMeaningZh": "金錢或供應停止;耗盡"
+    },
+    {
+      "id": "phrasal-verb-89-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "We used a towel to remove the rainwater from the dog.",
+      "promptZh": "我們用毛巾擦去狗身上的雨水。",
+      "starter": "We",
+      "answer": "We used a towel to dry the dog off.",
+      "answerZh": "我們用毛巾把狗身上的雨水擦乾。",
+      "highlight": "dry",
+      "targetForm": "dry something off",
+      "targetMeaningZh": "把某物表面的水分弄乾"
+    },
+    {
+      "id": "phrasal-verb-89-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She spent two weeks in hospital receiving treatment to stop drinking alcohol.",
+      "promptZh": "她在醫院住了兩星期,接受戒酒治療。",
+      "starter": "She",
+      "answer": "She spent two weeks in hospital drying out.",
+      "answerZh": "她在醫院住了兩星期,接受戒酒治療。",
+      "highlight": "drying out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Keep the bread covered so it does not lose all its moisture.",
+      "promptZh": "把麵包蓋好,以免它完全失去水分。",
+      "starter": "Keep",
+      "answer": "Keep the bread covered so it does not dry out.",
+      "answerZh": "把麵包蓋好,以免它乾掉。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The hot sun made the small puddle disappear completely.",
+      "promptZh": "烈日令小水窪完全消失。",
+      "starter": "The",
+      "answer": "The hot sun dried up the small puddle.",
+      "answerZh": "烈日把小水窪曬乾了。",
+      "highlight": "dried up",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水分完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The treatment centre is helping her stop drinking alcohol safely.",
+      "promptZh": "治療中心正安全地協助她戒酒。",
+      "starter": "The",
+      "answer": "The treatment centre is helping her dry out safely.",
+      "answerZh": "治療中心正安全地協助她接受戒酒治療。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The shop closed after it stopped receiving new orders.",
+      "promptZh": "店舖停止收到新訂單後便結業了。",
+      "starter": "The",
+      "answer": "The shop closed after its new orders dried up.",
+      "answerZh": "新訂單停止後,店舖便結業了。",
+      "highlight": "its",
+      "targetForm": "dry up",
+      "targetMeaningZh": "訂單、工作或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Use this towel to remove the water from your body.",
+      "promptZh": "用這條毛巾把身上的水擦乾。",
+      "starter": "Use",
+      "answer": "Use this towel to dry yourself off.",
+      "answerZh": "用這條毛巾把自己擦乾。",
+      "highlight": "dry yourself off",
+      "targetForm": "dry yourself off",
+      "targetMeaningZh": "把自己擦乾"
+    },
+    {
+      "id": "phrasal-verb-89-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The heater has removed too much moisture from my skin.",
+      "promptZh": "暖爐令我的皮膚失去太多水分。",
+      "starter": "The",
+      "answer": "The heater has dried out my skin.",
+      "answerZh": "暖爐令我的皮膚變得太乾。",
+      "highlight": "dried out",
+      "targetForm": "dry something out",
+      "targetMeaningZh": "使某物乾透或失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah is sitting by the pool while the water on his skin disappears.",
+      "promptZh": "諾亞坐在泳池旁,等皮膚上的水分乾掉。",
+      "starter": "Noah",
+      "answer": "Noah is sitting by the pool while he dries off.",
+      "answerZh": "諾亞坐在泳池旁,讓皮膚上的水分乾掉。",
+      "highlight": "he dries off",
+      "targetForm": "dry off",
+      "targetMeaningZh": "變乾;讓表面的水分乾掉"
+    },
+    {
+      "id": "phrasal-verb-89-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Without new customers, the work may soon stop coming.",
+      "promptZh": "沒有新顧客,工作可能很快便不再出現。",
+      "starter": "Without",
+      "answer": "Without new customers, the work may soon dry up.",
+      "answerZh": "沒有新顧客,工作可能很快便會停止。",
+      "highlight": "dry up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "工作、訂單或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why is Grace going to the clinic to receive treatment and stop drinking alcohol?",
+      "promptZh": "格蕾絲為甚麼要到診所接受戒酒治療?",
+      "starter": "Why",
+      "answer": "Why is Grace going to the clinic to dry out?",
+      "answerZh": "格蕾絲為甚麼要到診所接受戒酒治療?",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Weeks without rain have made the stream completely dry.",
+      "promptZh": "連續多星期沒有下雨,令溪流完全乾涸。",
+      "starter": "Weeks",
+      "answer": "Weeks without rain have dried up the stream.",
+      "answerZh": "連續多星期沒有下雨,令溪流完全乾涸。",
+      "highlight": "dried up",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Do not leave the wet clay in the sun, or it will lose too much moisture.",
+      "promptZh": "不要把濕黏土放在陽光下,否則它會失去太多水分。",
+      "starter": "Do",
+      "answer": "Do not leave the wet clay in the sun, or it will dry out.",
+      "answerZh": "不要把濕黏土放在陽光下,否則它會乾掉。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Because fewer people are travelling, hotel bookings are becoming less and less common.",
+      "promptZh": "由於旅客減少,酒店預訂愈來愈少。",
+      "starter": "Because",
+      "answer": "Because fewer people are travelling, hotel bookings are drying up.",
+      "answerZh": "由於旅客減少,酒店預訂正在逐漸消失。",
+      "highlight": "drying up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "訂單、工作或供應逐漸停止"
+    },
+    {
+      "id": "phrasal-verb-89-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have the children removed the water from themselves after swimming?",
+      "promptZh": "孩子們游泳後有沒有把自己擦乾?",
+      "starter": "Have",
+      "answer": "Have the children dried themselves off after swimming?",
+      "answerZh": "孩子們游泳後有沒有把自己擦乾?",
+      "highlight": "dried",
+      "targetForm": "dry yourself off",
+      "targetMeaningZh": "把自己擦乾"
+    },
+    {
+      "id": "phrasal-verb-89-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The fan is removing the moisture from the wet tent.",
+      "promptZh": "風扇正把濕帳篷的水分吹走。",
+      "starter": "The",
+      "answer": "The fan is drying out the wet tent.",
+      "answerZh": "風扇正把濕帳篷吹乾。",
+      "highlight": "drying out",
+      "targetForm": "dry something out",
+      "targetMeaningZh": "使某物乾透或失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The lake will not become completely dry if the rain continues.",
+      "promptZh": "如果繼續下雨,湖泊不會完全乾涸。",
+      "starter": "The",
+      "answer": "The lake will not dry up if the rain continues.",
+      "answerZh": "如果繼續下雨,湖泊不會完全乾涸。",
+      "highlight": "dry up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The doctor said he should receive treatment and stop drinking before going home.",
+      "promptZh": "醫生說他回家前應接受戒酒治療。",
+      "starter": "The",
+      "answer": "The doctor said he should dry out before going home.",
+      "answerZh": "醫生說他回家前應接受戒酒治療。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By June, the family's extra income had completely stopped.",
+      "promptZh": "到六月,這個家庭的額外收入已完全停止。",
+      "starter": "By",
+      "answer": "By June, the family's extra income had dried up.",
+      "answerZh": "到六月,這個家庭的額外收入已經沒有了。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "收入、金錢或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The sun heated the puddle for hours. By noon, it had made the puddle disappear.",
+      "promptZh": "太陽曬了水窪數小時。到中午時,水窪已完全消失。",
+      "starter": "The",
+      "answer": "The sun heated the puddle for hours. By noon, it had dried it up.",
+      "answerZh": "太陽曬了水窪數小時。到中午時,它已把水窪曬乾了。",
+      "highlight": "dried it up",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水分完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "A short stay at the clinic helped him stop drinking alcohol.",
+      "promptZh": "在診所短住一段時間,幫助他戒酒。",
+      "starter": "A",
+      "answer": "A short stay at the clinic helped dry him out.",
+      "answerZh": "在診所短住一段時間,幫助他接受戒酒治療。",
+      "highlight": "dry",
+      "targetForm": "dry somebody out",
+      "targetMeaningZh": "協助某人接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The table was wet, so I used a cloth to remove the water from it.",
+      "promptZh": "桌面濕了,所以我用布把水擦掉。",
+      "starter": "The",
+      "answer": "The table was wet, so I used a cloth to dry it off.",
+      "answerZh": "桌面濕了,所以我用布把它擦乾。",
+      "highlight": "dry",
+      "targetForm": "dry something off",
+      "targetMeaningZh": "把某物表面的水分弄乾"
+    },
+    {
+      "id": "phrasal-verb-89-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We left the wet boots near the fan so they could become completely dry inside.",
+      "promptZh": "我們把濕靴放在風扇旁,讓它們的內部完全乾透。",
+      "starter": "We",
+      "answer": "We left the wet boots near the fan to dry them out.",
+      "answerZh": "我們把濕靴放在風扇旁,讓它們完全乾透。",
+      "highlight": "to",
+      "targetForm": "dry something out",
+      "targetMeaningZh": "使某物乾透或失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The café depended on office workers. When they moved away, the café stopped getting business.",
+      "promptZh": "咖啡店依靠辦公室員工光顧。他們搬走後,咖啡店便沒有生意了。",
+      "starter": "The",
+      "answer": "The café depended on office workers. When they moved away, its business dried up.",
+      "answerZh": "咖啡店依靠辦公室員工光顧。他們搬走後,店舖的生意便停止了。",
+      "highlight": "its",
+      "targetForm": "dry up",
+      "targetMeaningZh": "生意、工作或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The last pools of water were made completely dry by the heat.",
+      "promptZh": "最後幾灘水被熱力完全弄乾。",
+      "starter": "The",
+      "answer": "The last pools of water were dried up by the heat.",
+      "answerZh": "最後幾灘水被熱力完全弄乾。",
+      "highlight": "dried up",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水分完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We were wet after the boat trip, so we used towels on ourselves.",
+      "promptZh": "乘船後我們全身濕透,所以用毛巾擦身。",
+      "starter": "We",
+      "answer": "We were wet after the boat trip, so we dried ourselves off with towels.",
+      "answerZh": "乘船後我們全身濕透,所以用毛巾把自己擦乾。",
+      "highlight": "dried ourselves off with",
+      "targetForm": "dry yourself off",
+      "targetMeaningZh": "把自己擦乾"
+    },
+    {
+      "id": "phrasal-verb-89-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Over three weeks, the clinic treated him until he stopped drinking alcohol.",
+      "promptZh": "診所用了三星期治療他,直至他成功戒酒。",
+      "starter": "Over",
+      "answer": "Over three weeks, the clinic helped dry him out.",
+      "answerZh": "三星期內,診所協助他完成戒酒治療。",
+      "highlight": "helped dry",
+      "targetForm": "dry somebody out",
+      "targetMeaningZh": "協助某人接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The hot weather made every small pool beside the road disappear completely.",
+      "promptZh": "炎熱天氣令路旁每一個小水窪都完全消失。",
+      "starter": "The",
+      "answer": "The hot weather dried up every small pool beside the road.",
+      "answerZh": "炎熱天氣把路旁每一個小水窪都曬乾了。",
+      "highlight": "dried up",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水分完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The wet room was made completely dry with two large fans.",
+      "promptZh": "那個濕房間用兩部大型風扇弄至完全乾透。",
+      "starter": "The",
+      "answer": "The wet room was dried out with two large fans.",
+      "answerZh": "那個濕房間用兩部大型風扇弄至完全乾透。",
+      "highlight": "dried out",
+      "targetForm": "dry something out",
+      "targetMeaningZh": "使某物乾透或失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club received help for years. Then that help suddenly stopped.",
+      "promptZh": "這個會所多年來一直得到幫助,後來那些幫助突然停止了。",
+      "starter": "The",
+      "answer": "The club received help for years. Then the help suddenly dried up.",
+      "answerZh": "這個會所多年來一直得到幫助,後來那些幫助突然消失了。",
+      "highlight": "the",
+      "targetForm": "dry up",
+      "targetMeaningZh": "幫助、金錢或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the water fight, Priya used a large towel to remove the water from her body.",
+      "promptZh": "水戰後,普里雅用大毛巾把身上的水擦乾。",
+      "starter": "After",
+      "answer": "After the water fight, Priya used a large towel to dry herself off.",
+      "answerZh": "水戰後,普里雅用大毛巾把自己擦乾。",
+      "highlight": "dry herself off",
+      "targetForm": "dry yourself off",
+      "targetMeaningZh": "把自己擦乾"
+    },
+    {
+      "id": "phrasal-verb-89-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Kai entered the clinic because he needed treatment to stop drinking alcohol, not because his clothes were wet.",
+      "promptZh": "啟到診所,是因為他需要戒酒治療,而不是衣服濕了。",
+      "starter": "Kai",
+      "answer": "Kai entered the clinic to dry out, not because his clothes were wet.",
+      "answerZh": "啟到診所接受戒酒治療,而不是因為衣服濕了。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the soil remained damp, the shallow pond lost all its water.",
+      "promptZh": "雖然泥土仍然濕潤,但淺池已完全沒有水。",
+      "starter": "Although",
+      "answer": "Although the soil remained damp, the shallow pond dried up.",
+      "answerZh": "雖然泥土仍然濕潤,但淺池已乾涸。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "While the towel's surface felt dry, the thick coat was still wet inside and needed to lose more moisture.",
+      "promptZh": "毛巾表面摸起來是乾的,但厚外套內部仍然濕,還要再失去一些水分。",
+      "starter": "While",
+      "answer": "While the towel's surface felt dry, the thick coat still needed to dry out.",
+      "answerZh": "毛巾表面摸起來是乾的,但厚外套仍要乾透。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Only rainwater remained on the outside of the bag; the inside was already dry.",
+      "promptZh": "袋內已經乾了;只有外面仍有雨水。",
+      "starter": "Only",
+      "answer": "Only rainwater remained on the outside of the bag; we just needed to dry it off.",
+      "answerZh": "袋內已經乾了;我們只需把袋的外面擦乾。",
+      "highlight": "we just needed to",
+      "targetForm": "dry something off",
+      "targetMeaningZh": "把某物表面的水分弄乾"
+    },
+    {
+      "id": "phrasal-verb-89-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the lake still had water, the charity stopped receiving money from donors.",
+      "promptZh": "雖然湖裏仍有水,但慈善機構不再收到捐款。",
+      "starter": "Although",
+      "answer": "Although the lake still had water, the charity's donations dried up.",
+      "answerZh": "雖然湖裏仍有水,但慈善機構的捐款停止了。",
+      "highlight": "charity's donations dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "捐款、金錢或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This programme was not about removing water from his body; it was meant to help him stop drinking alcohol.",
+      "promptZh": "這個計劃不是要擦去他身上的水,而是要幫助他戒酒。",
+      "starter": "This",
+      "answer": "This programme was not about removing water from his body; it was meant to dry him out.",
+      "answerZh": "這個計劃不是要擦去他身上的水,而是要協助他接受戒酒治療。",
+      "highlight": "dry",
+      "targetForm": "dry somebody out",
+      "targetMeaningZh": "協助某人接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the outside of the wooden box was dry, the inside still needed to lose its moisture.",
+      "promptZh": "雖然木盒外面已乾,但裏面仍要失去水分。",
+      "starter": "Although",
+      "answer": "Although the outside of the wooden box was dry, the inside still needed to dry out.",
+      "answerZh": "雖然木盒外面已乾,但裏面仍要乾透。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The clothes stayed wet, but all the water in the bird bath disappeared.",
+      "promptZh": "衣服仍然濕,但鳥浴盆裏的水已全部消失。",
+      "starter": "The",
+      "answer": "The clothes stayed wet, but the water in the bird bath dried up.",
+      "answerZh": "衣服仍然濕,但鳥浴盆裏的水已乾涸。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Lena had stopped drinking for a few days, but she still needed full treatment at the clinic.",
+      "promptZh": "莉娜已停止喝酒數天,但仍需要在診所接受完整治療。",
+      "starter": "Lena",
+      "answer": "Lena had stopped drinking for a few days, but she still needed to dry out at the clinic.",
+      "answerZh": "莉娜已停止喝酒數天,但仍需要在診所完成戒酒治療。",
+      "highlight": "to dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Although the river was full, all the small repair jobs in the town had stopped appearing.",
+      "promptZh": "雖然河裏仍有很多水,但鎮上的小型維修工作已不再出現。",
+      "starter": "Although",
+      "answer": "Although the river was full, the small repair jobs in the town had dried up.",
+      "answerZh": "雖然河裏仍有很多水,但鎮上的小型維修工作都停止了。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "工作、訂單或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Only the rainwater on the shoes needed to be removed.",
+      "promptZh": "只需把鞋子上的雨水擦走。",
+      "starter": "Only",
+      "answer": "Only the shoes needed to be dried off.",
+      "answerZh": "只需把鞋子擦乾。",
+      "highlight": "dried off",
+      "targetForm": "dry something off",
+      "targetMeaningZh": "把某物表面的水分弄乾"
+    },
+    {
+      "id": "phrasal-verb-89-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the puddle was already gone, the wet ground beneath it still needed to lose more moisture.",
+      "promptZh": "雖然水窪已消失,但下面的濕地面仍要失去更多水分。",
+      "starter": "Although",
+      "answer": "Although the puddle was already gone, the wet ground beneath it still needed to dry out.",
+      "answerZh": "雖然水窪已消失,但下面的濕地面仍要乾透。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At first, the small theatre did well, but after the holiday season it received almost no bookings and had to close.",
+      "promptZh": "小劇院起初生意很好,但假期後幾乎沒有預訂,最後要結業。",
+      "starter": "At",
+      "answer": "At first, the small theatre did well, but after the holiday season its bookings dried up and it had to close.",
+      "answerZh": "小劇院起初生意很好,但假期後預訂停止,最後要結業。",
+      "highlight": "its bookings dried up and",
+      "targetForm": "dry up",
+      "targetMeaningZh": "訂單、生意或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After helping in the rain, the volunteers entered the hall, took towels and removed the water from themselves.",
+      "promptZh": "義工在雨中幫忙後走進禮堂,拿起毛巾把自己擦乾。",
+      "starter": "After",
+      "answer": "After helping in the rain, the volunteers entered the hall, took towels and dried themselves off.",
+      "answerZh": "義工在雨中幫忙後走進禮堂,拿起毛巾把自己擦乾。",
+      "highlight": "dried",
+      "targetForm": "dry yourself off",
+      "targetMeaningZh": "把自己擦乾"
+    },
+    {
+      "id": "phrasal-verb-89-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The garden soil was still moist, but the small stream beside it had completely lost its water after weeks of heat.",
+      "promptZh": "花園泥土仍然濕潤,但旁邊的小溪經過數星期炎熱天氣後已完全沒有水。",
+      "starter": "The",
+      "answer": "The garden soil was still moist, but the small stream beside it dried up after weeks of heat.",
+      "answerZh": "花園泥土仍然濕潤,但旁邊的小溪經過數星期炎熱天氣後已乾涸。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Harvey knew that avoiding alcohol for one evening was not enough, so he entered a clinic for proper treatment.",
+      "promptZh": "哈維知道只是一晚不喝酒並不足夠,所以到診所接受適當治療。",
+      "starter": "Harvey",
+      "answer": "Harvey knew that avoiding alcohol for one evening was not enough, so he entered a clinic to dry out.",
+      "answerZh": "哈維知道只是一晚不喝酒並不足夠,所以到診所接受戒酒治療。",
+      "highlight": "to dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The old photo album became wet in the rain, so we opened every page and left it near a fan so it could become completely dry.",
+      "promptZh": "舊相簿被雨淋濕,所以我們翻開每一頁,放在風扇旁讓它完全乾透。",
+      "starter": "The",
+      "answer": "The old photo album became wet in the rain, so we opened every page and left it near a fan to dry out.",
+      "answerZh": "舊相簿被雨淋濕,所以我們翻開每一頁,放在風扇旁讓它完全乾透。",
+      "highlight": "every page and left it near a fan to",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The youth club could continue only while local shops gave it money, but that support slowly stopped.",
+      "promptZh": "青年會只有在本地店舖提供資金時才能繼續運作,但那些支持慢慢停止了。",
+      "starter": "The",
+      "answer": "The youth club could continue only while local shops gave it money, but that support slowly dried up.",
+      "answerZh": "青年會只有在本地店舖提供資金時才能繼續運作,但那些支持慢慢消失了。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "金錢、支持或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A hot, windy month did not just make the river lower; it removed every last pool of water.",
+      "promptZh": "炎熱多風的一個月不只令河水下降,還令最後幾灘水全部消失。",
+      "starter": "A",
+      "answer": "A hot, windy month did not just make the river lower; it dried the river up completely.",
+      "answerZh": "炎熱多風的一個月不只令河水下降,還令河流完全乾涸。",
+      "highlight": "dried the river up completely",
+      "targetForm": "dry something up",
+      "targetMeaningZh": "使水源完全乾涸"
+    },
+    {
+      "id": "phrasal-verb-89-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The rescue team brought the wet puppy inside and used warm towels until no rainwater remained on its fur.",
+      "promptZh": "救援隊把濕漉漉的小狗帶進室內,用暖毛巾擦乾牠毛上的雨水。",
+      "starter": "The",
+      "answer": "The rescue team brought the wet puppy inside and dried it off with warm towels.",
+      "answerZh": "救援隊把濕漉漉的小狗帶進室內,用暖毛巾把牠擦乾。",
+      "highlight": "dried it off with",
+      "targetForm": "dry something off",
+      "targetMeaningZh": "把某物表面的水分弄乾"
+    },
+    {
+      "id": "phrasal-verb-89-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family had saved enough money for one year, but no new income arrived, and the money was soon gone.",
+      "promptZh": "這個家庭的積蓄足夠一年使用,但沒有新收入,金錢很快便用完。",
+      "starter": "The",
+      "answer": "The family had saved enough money for one year, but no new income arrived, and the money soon dried up.",
+      "answerZh": "這個家庭的積蓄足夠一年使用,但沒有新收入,金錢很快便耗盡。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "收入、金錢或供應停止"
+    },
+    {
+      "id": "phrasal-verb-89-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After several failed attempts to stop drinking alone, Omar decided to receive treatment in a clinic.",
+      "promptZh": "奧馬多次嘗試自行戒酒但不成功後,決定到診所接受治療。",
+      "starter": "After",
+      "answer": "After several failed attempts to stop drinking alone, Omar decided to dry out in a clinic.",
+      "answerZh": "奧馬多次嘗試自行戒酒但不成功後,決定到診所接受戒酒治療。",
+      "highlight": "dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "接受戒酒治療"
+    },
+    {
+      "id": "phrasal-verb-89-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The tent looked dry outside, but we kept it open because the material inside still held water.",
+      "promptZh": "帳篷外面看來已乾,但我們仍把它打開,因為裏面的物料仍有水分。",
+      "starter": "The",
+      "answer": "The tent looked dry outside, but we kept it open because the material still needed to dry out.",
+      "answerZh": "帳篷外面看來已乾,但我們仍把它打開,因為物料仍要乾透。",
+      "highlight": "needed to dry out",
+      "targetForm": "dry out",
+      "targetMeaningZh": "變得乾透;失去水分"
+    },
+    {
+      "id": "phrasal-verb-89-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the rain finally returned, it was too late: the farm pond had already lost all its water.",
+      "promptZh": "雨終於再下時已經太遲:農場池塘的水已全部消失。",
+      "starter": "When",
+      "answer": "When the rain finally returned, it was too late: the farm pond had already dried up.",
+      "answerZh": "雨終於再下時已經太遲:農場池塘已經乾涸。",
+      "highlight": "dried up",
+      "targetForm": "dry up",
+      "targetMeaningZh": "水源完全乾涸"
+    }
+  ]
+}

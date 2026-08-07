@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-250",
+  "order": 250,
+  "slug": "flush",
+  "version": "1",
+  "title": "FLUSH 動詞片語",
+  "titleEn": "Flush",
+  "titleZh": "FLUSH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 236 - FLUSH.pdf",
+    "sourceNumber": 236,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLUSH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLUSH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLUSH",
+      "highlight": "FLUSH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The dogs flushed the fox out of the shed.",
+      "zh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+      "highlight": "flushed the fox out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The rain flushed the dust away.",
+      "zh": "雨水把塵埃沖走了。",
+      "highlight": "flushed the dust away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Run water through the pipe to flush the dirt out.",
+      "zh": "讓水流過水管,把裏面的污垢沖出來。",
+      "highlight": "flush the dirt out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把藏起來的人或動物趕出藏身處；用水把某物沖走；用水或其他液體,把某物內部不需要的物質沖出或清除",
+    "en": "flush somebody/something out flush somebody/something out of something; flush something away; flush something out flush something out of something",
+    "naturalZh": [
+      "把藏起來的人或動物趕出藏身處",
+      "用水把某物沖走",
+      "用水或其他液體,把某物內部不需要的物質沖出或清除"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "flush somebody/something out flush somebody/something out of something",
+      "titleZh": "把藏起來的人或動物趕出藏身處",
+      "titleEn": "flush somebody/something out flush somebody/something out of something",
+      "descriptionZh": "把藏起來的人或動物趕出藏身處",
+      "descriptionEn": "The dogs flushed the fox out of the shed.",
+      "examples": [
+        {
+          "en": "The dogs flushed the fox out of the shed.",
+          "zh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+          "highlight": "flushed the fox out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flush something away",
+      "titleZh": "用水把某物沖走",
+      "titleEn": "flush something away",
+      "descriptionZh": "用水把某物沖走",
+      "descriptionEn": "The rain flushed the dust away.",
+      "examples": [
+        {
+          "en": "The rain flushed the dust away.",
+          "zh": "雨水把塵埃沖走了。",
+          "highlight": "flushed the dust away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flush something out flush something out of something",
+      "titleZh": "用水或其他液體,把某物內部不需要的物質沖出或清除",
+      "titleEn": "flush something out flush something out of something",
+      "descriptionZh": "用水或其他液體,把某物內部不需要的物質沖出或清除",
+      "descriptionEn": "Run water through the pipe to flush the dirt out.",
+      "examples": [
+        {
+          "en": "Run water through the pipe to flush the dirt out.",
+          "zh": "讓水流過水管,把裏面的污垢沖出來。",
+          "highlight": "flush the dirt out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FLUSH 片語動詞的實際用途",
+    "labelEn": "FLUSH Phrasal Verbs in Use",
+    "summaryZh": "flush out 可以描述狗隻、聲音、光線或其他行動把藏起來的人或動物趕離藏身處。；雨水、溪水或流動的水把塵埃、樹葉、泥土或其他鬆散物質沖走時,可以使用 flush away。；用水把水管、瓶子、水缸或其他物件裏的污垢、沙粒、肥皂或舊液體沖出來時,可以使用 flush out。；這些表達可以出現在清潔、供水系統、大自然和日常安全指示中。",
+    "summaryEn": "Flush out can describe dogs, noise, light or another action making a hidden animal or person leave a place. Flush away is useful when rain, a stream or flowing water removes dust, leaves, mud or other loose material. Flush out can describe using water to remove dirt, sand, soap or old liquid from a pipe, bottle, tank or similar object. These expressions can appear in instructions about cleaning, water systems, nature and everyday safety.",
+    "contextsZh": [
+      "描述把藏起來的人或動物趕出來",
+      "談論水把不需要的東西沖走",
+      "解釋如何清潔物件內部",
+      "更容易理解實用指示"
+    ],
+    "contextsEn": [
+      "Describe hidden animals or people being forced to leave",
+      "Talk about water carrying unwanted things away",
+      "Explain how the inside of something is cleaned",
+      "Understand practical instructions more easily"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FLUSH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLUSH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "flush somebody/something out flush somebody/something out of something",
+    "fixedHighlight": "flush somebody/something out flush somebody/something out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 FLUSH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLUSH expression that gives the same meaning.",
+    "correct": "flushed the fox out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；把藏起來的動物趕出藏身處flush dirt out of a pipe用水把水管裏的污垢沖出來Read the full situation carefully.flush ... out 可以表達兩種不同意思。請仔細閱讀整個情境。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Flush... out can express two different ideas: flush an animal out of a place When using him, her, it or them, place the word as shown: flush them out flush it away flush it out of the pipe",
+    "variableItemsZh": [
+      "flush somebody/something out flush somebody/something out of something",
+      "flush something away",
+      "flush something out flush something out of something"
+    ],
+    "variableItemsEn": [
+      "flush somebody/something out flush somebody/something out of something",
+      "flush something away",
+      "flush something out flush something out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "把藏起來的人或動物趕出藏身處",
+        "formEn": "flush somebody/something out flush somebody/something out of something",
+        "exampleZh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+        "exampleEn": "The dogs flushed the fox out of the shed.",
+        "highlight": "flushed the fox out"
+      },
+      {
+        "formZh": "用水把某物沖走",
+        "formEn": "flush something away",
+        "exampleZh": "雨水把塵埃沖走了。",
+        "exampleEn": "The rain flushed the dust away.",
+        "highlight": "flushed the dust away"
+      },
+      {
+        "formZh": "用水或其他液體,把某物內部不需要的物質沖出或清除",
+        "formEn": "flush something out flush something out of something",
+        "exampleZh": "讓水流過水管,把裏面的污垢沖出來。",
+        "exampleEn": "Run water through the pipe to flush the dirt out.",
+        "highlight": "flush the dirt out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把藏起來的人或動物趕出藏身處",
+      "titleEn": "flush somebody/something out flush somebody/something out of something",
+      "formula": "flush somebody/something out flush somebody/something out of something",
+      "highlight": "flush somebody/something out flush somebody/something out of something",
+      "descriptionZh": "把藏起來的人或動物趕出藏身處",
+      "descriptionEn": "The dogs flushed the fox out of the shed.",
+      "examples": [
+        {
+          "en": "The dogs flushed the fox out of the shed.",
+          "zh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+          "highlight": "flushed the fox out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用水把某物沖走",
+      "titleEn": "flush something away",
+      "formula": "flush something away",
+      "highlight": "flush something away",
+      "descriptionZh": "用水把某物沖走",
+      "descriptionEn": "The rain flushed the dust away.",
+      "examples": [
+        {
+          "en": "The rain flushed the dust away.",
+          "zh": "雨水把塵埃沖走了。",
+          "highlight": "flushed the dust away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用水或其他液體,把某物內部不需要的物質沖出或清除",
+      "titleEn": "flush something out flush something out of something",
+      "formula": "flush something out flush something out of something",
+      "highlight": "flush something out flush something out of something",
+      "descriptionZh": "用水或其他液體,把某物內部不需要的物質沖出或清除",
+      "descriptionEn": "Run water through the pipe to flush the dirt out.",
+      "examples": [
+        {
+          "en": "Run water through the pipe to flush the dirt out.",
+          "zh": "讓水流過水管,把裏面的污垢沖出來。",
+          "highlight": "flush the dirt out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述把藏起來的人或動物趕出來",
+      "titleEn": "Describe hidden animals or people being forced to leave",
+      "zh": "flush out 可以描述狗隻、聲音、光線或其他行動把藏起來的人或動物趕離藏身處。",
+      "en": "Flush out can describe dogs, noise, light or another action making a hidden animal or person leave a place."
+    },
+    {
+      "titleZh": "談論水把不需要的東西沖走",
+      "titleEn": "Talk about water carrying unwanted things away",
+      "zh": "雨水、溪水或流動的水把塵埃、樹葉、泥土或其他鬆散物質沖走時,可以使用 flush away。",
+      "en": "Flush away is useful when rain, a stream or flowing water removes dust, leaves, mud or other loose material."
+    },
+    {
+      "titleZh": "解釋如何清潔物件內部",
+      "titleEn": "Explain how the inside of something is cleaned",
+      "zh": "用水把水管、瓶子、水缸或其他物件裏的污垢、沙粒、肥皂或舊液體沖出來時,可以使用 flush out。",
+      "en": "Flush out can describe using water to remove dirt, sand, soap or old liquid from a pipe, bottle, tank or similar object."
+    },
+    {
+      "titleZh": "更容易理解實用指示",
+      "titleEn": "Understand practical instructions more easily",
+      "zh": "這些表達可以出現在清潔、供水系統、大自然和日常安全指示中。",
+      "en": "These expressions can appear in instructions about cleaning, water systems, nature and everyday safety."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述把藏起來的人或動物趕出來",
+      "談論水把不需要的東西沖走",
+      "解釋如何清潔物件內部",
+      "更容易理解實用指示"
+    ],
+    "contextsEn": [
+      "Describe hidden animals or people being forced to leave",
+      "Talk about water carrying unwanted things away",
+      "Explain how the inside of something is cleaned",
+      "Understand practical instructions more easily"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述把藏起來的人或動物趕出來",
+        "titleEn": "Describe hidden animals or people being forced to leave",
+        "zh": "flush out 可以描述狗隻、聲音、光線或其他行動把藏起來的人或動物趕離藏身處。",
+        "en": "Flush out can describe dogs, noise, light or another action making a hidden animal or person leave a place.",
+        "examples": [
+          {
+            "en": "The dogs flushed the fox out of the shed.",
+            "zh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+            "highlight": "flushed the fox out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論水把不需要的東西沖走",
+        "titleEn": "Talk about water carrying unwanted things away",
+        "zh": "雨水、溪水或流動的水把塵埃、樹葉、泥土或其他鬆散物質沖走時,可以使用 flush away。",
+        "en": "Flush away is useful when rain, a stream or flowing water removes dust, leaves, mud or other loose material.",
+        "examples": [
+          {
+            "en": "The rain flushed the dust away.",
+            "zh": "雨水把塵埃沖走了。",
+            "highlight": "flushed the dust away"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋如何清潔物件內部",
+        "titleEn": "Explain how the inside of something is cleaned",
+        "zh": "用水把水管、瓶子、水缸或其他物件裏的污垢、沙粒、肥皂或舊液體沖出來時,可以使用 flush out。",
+        "en": "Flush out can describe using water to remove dirt, sand, soap or old liquid from a pipe, bottle, tank or similar object.",
+        "examples": [
+          {
+            "en": "Run water through the pipe to flush the dirt out.",
+            "zh": "讓水流過水管,把裏面的污垢沖出來。",
+            "highlight": "flush the dirt out"
+          }
+        ]
+      },
+      {
+        "titleZh": "更容易理解實用指示",
+        "titleEn": "Understand practical instructions more easily",
+        "zh": "這些表達可以出現在清潔、供水系統、大自然和日常安全指示中。",
+        "en": "These expressions can appear in instructions about cleaning, water systems, nature and everyday safety.",
+        "examples": [
+          {
+            "en": "The dogs flushed the fox out of the shed.",
+            "zh": "狗隻把藏在小屋裏的狐狸趕了出來。",
+            "highlight": "flushed the fox out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FLUSH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLUSH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FLUSH 片語動詞。",
+      "en": "Read the whole sentence and choose the FLUSH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "把藏起來的動物趕出藏身處flush dirt out of a pipe用水把水管裏的污垢沖出來Read the full situation carefully.flush ... out 可以表達兩種不同意思。請仔細閱讀整個情境。",
+      "titleEn": "Flush.",
+      "zh": "把藏起來的動物趕出藏身處flush dirt out of a pipe用水把水管裏的污垢沖出來Read the full situation carefully.flush ... out 可以表達兩種不同意思。請仔細閱讀整個情境。",
+      "en": "Flush... out can express two different ideas: flush an animal out of a place"
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: flush them out flush it away flush it out of the pipe.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: flush them out flush it away flush it out of the pipe"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLUSH 動詞片語句子改寫練習",
+    "titleEn": "FLUSH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-250-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The dogs forced the deer to leave their hiding places in the wood.",
+      "promptZh": "狗隻使躲在樹林裏的鹿離開藏身處。",
+      "starter": "The",
+      "answer": "The dogs flushed the deer out of the wood.",
+      "answerZh": "狗隻把躲在樹林裏的鹿趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Clean water removed the dirt from inside the pipe.",
+      "promptZh": "清水清除了水管裏的污垢。",
+      "starter": "Clean",
+      "answer": "Clean water flushed the dirt out of the pipe.",
+      "answerZh": "清水把水管裏的污垢沖了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The rain removed the dust from the road.",
+      "promptZh": "雨水清除了路上的塵埃。",
+      "starter": "The",
+      "answer": "The rain flushed the dust away from the road.",
+      "answerZh": "雨水把路上的塵埃沖走了。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A loud noise made the birds leave their hiding places in the bushes.",
+      "promptZh": "一聲巨響使藏在樹叢裏的鳥飛了出來。",
+      "starter": "A",
+      "answer": "A loud noise flushed the birds out of the bushes.",
+      "answerZh": "一聲巨響把藏在樹叢裏的鳥趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please remove the soap with clean water.",
+      "promptZh": "請用清水清除肥皂。",
+      "starter": "Please",
+      "answer": "Please flush the soap away with clean water.",
+      "answerZh": "請用清水把肥皂沖走。",
+      "highlight": "flush",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Clean water removed the dust from his eye.",
+      "promptZh": "清水清除了他眼裏的塵埃。",
+      "starter": "Clean",
+      "answer": "Clean water flushed the dust out of his eye.",
+      "answerZh": "清水把他眼裏的塵埃沖了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The bright torch made the cat leave its hiding place under the bed.",
+      "promptZh": "明亮的電筒光使藏在床下的貓走了出來。",
+      "starter": "The",
+      "answer": "The bright torch flushed the cat out of its hiding place under the bed.",
+      "answerZh": "明亮的電筒光把藏在床下的貓趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Using clean water, the gardener removed the soil from inside the watering can.",
+      "promptZh": "園丁用清水清除了灑水壺裏的泥土。",
+      "starter": "Using",
+      "answer": "Using clean water, the gardener flushed the soil out of the watering can.",
+      "answerZh": "園丁用清水把灑水壺裏的泥土沖了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "A fast stream removed the leaves from the path.",
+      "promptZh": "急流清除了小徑上的樹葉。",
+      "starter": "A",
+      "answer": "A fast stream flushed the leaves away from the path.",
+      "answerZh": "急流把小徑上的樹葉沖走了。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The noise from the mower made the rabbits leave their hiding places in the long grass.",
+      "promptZh": "割草機的聲音使藏在長草裏的兔子跑了出來。",
+      "starter": "The",
+      "answer": "The noise from the mower flushed the rabbits out of the long grass.",
+      "answerZh": "割草機的聲音把藏在長草裏的兔子趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The machine is removing the dirty water from the system.",
+      "promptZh": "機器正在清除系統裏的污水。",
+      "starter": "The",
+      "answer": "The machine is flushing the dirty water out of the system.",
+      "answerZh": "機器正在把系統裏的污水沖出來。",
+      "highlight": "flushing",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水或液體把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have the dogs forced the fox to leave the shed where it was hiding yet?",
+      "promptZh": "狗隻已把藏在小屋裏的狐狸趕出來了嗎?",
+      "starter": "Have",
+      "answer": "Have the dogs flushed the fox out of the shed yet?",
+      "answerZh": "狗隻已把藏在小屋裏的狐狸趕出來了嗎?",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The cleaner has removed the dirty water through the floor drain.",
+      "promptZh": "清潔工已經讓污水經地面去水口排走。",
+      "starter": "The",
+      "answer": "The cleaner has flushed the dirty water away through the floor drain.",
+      "answerZh": "清潔工已經讓污水經地面去水口排走。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We should clean the inside of the bottle with water before using it again.",
+      "promptZh": "我們再次使用瓶子前,應先用水清潔瓶內。",
+      "starter": "We",
+      "answer": "We should flush the bottle out before using it again.",
+      "answerZh": "我們再次使用瓶子前,應先用水沖洗瓶內。",
+      "highlight": "flush",
+      "targetForm": "flush something out",
+      "targetMeaningZh": "用水清除某物內部不需要的物質"
+    },
+    {
+      "id": "phrasal-verb-250-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Heavy rain will remove the loose soil from the garden path.",
+      "promptZh": "大雨會沖走花園小徑上鬆散的泥土。",
+      "starter": "Heavy",
+      "answer": "Heavy rain will flush the loose soil away from the garden path.",
+      "answerZh": "大雨會沖走花園小徑上鬆散的泥土。",
+      "highlight": "flush",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The sudden music made several birds leave the trees.",
+      "promptZh": "突如其來的音樂使幾隻鳥飛離樹木。",
+      "starter": "The",
+      "answer": "The sudden music flushed several birds out of the trees.",
+      "answerZh": "突如其來的音樂把幾隻鳥趕離了樹木。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把動物趕離原本躲藏的地方"
+    },
+    {
+      "id": "phrasal-verb-250-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has the clean water removed the sand from inside the tube?",
+      "promptZh": "清水已把管子裏的沙粒清除嗎?",
+      "starter": "Has",
+      "answer": "Has the clean water flushed the sand out of the tube?",
+      "answerZh": "清水已把管子裏的沙粒沖出來了嗎?",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "One strong wave carried the empty bottles far from the beach.",
+      "promptZh": "一個大浪把空瓶沖離海灘。",
+      "starter": "One",
+      "answer": "One strong wave flushed the empty bottles away from the beach.",
+      "answerZh": "一個大浪把空瓶沖離了海灘。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The workers are trying to make the bats leave the roof space where they are hiding.",
+      "promptZh": "工人正嘗試把藏在屋頂內的蝙蝠趕出來。",
+      "starter": "The",
+      "answer": "The workers are trying to flush the bats out of the roof space.",
+      "answerZh": "工人正嘗試把藏在屋頂內的蝙蝠趕出來。",
+      "highlight": "flush",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Too much water may remove useful salts from the soil.",
+      "promptZh": "太多水可能會把泥土裏有用的鹽分帶走。",
+      "starter": "Too",
+      "answer": "Too much water may flush useful salts out of the soil.",
+      "answerZh": "太多水可能會把泥土裏有用的鹽分沖走。",
+      "highlight": "flush",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Foam covered the floor. The final rinse removed it.",
+      "promptZh": "泡沫蓋滿地面。最後一次沖洗把它清除了。",
+      "starter": "Foam",
+      "answer": "Foam covered the floor. The final rinse flushed it away.",
+      "answerZh": "泡沫蓋滿地面。最後一次沖洗把它沖走了。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Several rabbits were hiding in the hedge. The dog had forced them to leave before we arrived.",
+      "promptZh": "幾隻兔子藏在樹籬裏。我們到達前,狗隻已把牠們趕了出來。",
+      "starter": "Several",
+      "answer": "Several rabbits were hiding in the hedge. The dog had flushed them out before we arrived.",
+      "answerZh": "幾隻兔子藏在樹籬裏。我們到達前,狗隻已把牠們趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out",
+      "targetMeaningZh": "把藏起來的人或動物趕出來"
+    },
+    {
+      "id": "phrasal-verb-250-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Mud was blocking the hose. We used clean water to remove it from inside the hose.",
+      "promptZh": "泥土堵塞了水喉。我們用清水把它從水喉裏清除。",
+      "starter": "Mud",
+      "answer": "Mud was blocking the hose. We used clean water to flush it out of the hose.",
+      "answerZh": "泥土堵塞了水喉。我們用清水把它從水喉裏沖出來。",
+      "highlight": "flush",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please use clean water to remove the last of the foam.",
+      "promptZh": "請用清水清除剩下的泡沫。",
+      "starter": "Please",
+      "answer": "Please flush the last of the foam away with clean water.",
+      "answerZh": "請用清水把剩下的泡沫沖走。",
+      "highlight": "flush",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The cleaner ran water through the drain to remove the small stones inside it.",
+      "promptZh": "清潔工讓水流過去水口,把裏面的小石子清除。",
+      "starter": "The",
+      "answer": "The cleaner ran water through the drain to flush the small stones out.",
+      "answerZh": "清潔工讓水流過去水口,把裏面的小石子沖出來。",
+      "highlight": "flush",
+      "targetForm": "flush something out",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The dogs forced the fox to leave its hiding place in the barn.",
+      "promptZh": "狗隻把藏在穀倉裏的狐狸趕了出來。",
+      "starter": "The",
+      "answer": "The fox was flushed out of the barn by the dogs.",
+      "answerZh": "狐狸被狗隻從穀倉裏趕了出來。",
+      "highlight": "The fox was flushed out of the barn by",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The strong current removed the rubbish from the area near the bridge.",
+      "promptZh": "急流清除了橋附近的垃圾。",
+      "starter": "The",
+      "answer": "The strong current flushed the rubbish away from the bridge.",
+      "answerZh": "急流把橋附近的垃圾沖走了。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before using the filter again, remove the dirt from inside it with clean water.",
+      "promptZh": "再次使用濾網前,請用清水清除裏面的污垢。",
+      "starter": "Before",
+      "answer": "Before using the filter again, flush the dirt out with clean water.",
+      "answerZh": "再次使用濾網前,請用清水把裏面的污垢沖出來。",
+      "highlight": "flush",
+      "targetForm": "flush something out",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We could hear the cat, but we could not make it leave its hiding place behind the boxes.",
+      "promptZh": "我們聽到貓的聲音,但無法使牠離開箱子後面的藏身處。",
+      "starter": "We",
+      "answer": "We could hear the cat, but we could not flush it out of its hiding place behind the boxes.",
+      "answerZh": "我們聽到貓的聲音,但無法把牠趕離箱子後面的藏身處。",
+      "highlight": "flush",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the floor was washed, the water removed the remaining dirt.",
+      "promptZh": "地面清洗後,水把餘下的污垢清除了。",
+      "starter": "After",
+      "answer": "After the floor was washed, the water flushed the remaining dirt away.",
+      "answerZh": "地面清洗後,水把餘下的污垢沖走了。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The search team used noise to force the goats to leave the cave where they were hiding.",
+      "promptZh": "搜索隊利用聲音,把藏在山洞裏的山羊趕出來。",
+      "starter": "The",
+      "answer": "The search team used noise to flush the goats out of the cave.",
+      "answerZh": "搜索隊利用聲音,把藏在山洞裏的山羊趕出來。",
+      "highlight": "flush",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Running the tap for a minute should remove the old water from the pipe.",
+      "promptZh": "讓水龍頭開着一分鐘,應能把水管裏的舊水排走。",
+      "starter": "Running",
+      "answer": "Running the tap for a minute should flush the old water out of the pipe.",
+      "answerZh": "讓水龍頭開着一分鐘,應能把水管裏的舊水排走。",
+      "highlight": "flush",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of leaving the soap in the sink, she removed it with plenty of water.",
+      "promptZh": "她沒有把肥皂留在洗手盆裏,而是用大量清水把它沖走。",
+      "starter": "Instead",
+      "answer": "Instead of leaving the soap in the sink, she flushed it away with plenty of water.",
+      "answerZh": "她沒有把肥皂留在洗手盆裏,而是用大量清水把它沖走。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The dogs could not force the deer to leave the thick trees.",
+      "promptZh": "狗隻無法把躲在茂密樹木間的鹿趕出來。",
+      "starter": "The",
+      "answer": "The dogs failed to flush the deer out of the thick trees.",
+      "answerZh": "狗隻未能把躲在茂密樹木間的鹿趕出來。",
+      "highlight": "failed to flush",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A sudden rush of water removed the sand from the steps.",
+      "promptZh": "一股突然湧來的水沖走了梯級上的沙粒。",
+      "starter": "A",
+      "answer": "A sudden rush of water flushed the sand away from the steps.",
+      "answerZh": "一股突然湧來的水沖走了梯級上的沙粒。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The cleaner removed all the dirty liquid from the tank before filling it again.",
+      "promptZh": "清潔工再次注滿水缸前,清除了裏面所有骯髒液體。",
+      "starter": "The",
+      "answer": "The cleaner flushed all the dirty liquid out of the tank before filling it again.",
+      "answerZh": "清潔工再次注滿水缸前,把裏面所有骯髒液體沖了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水或液體把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "What finally made the mouse leave its hiding place behind the cupboard?",
+      "promptZh": "甚麼最後使老鼠離開櫃子後面的藏身處?",
+      "starter": "What",
+      "answer": "What finally flushed the mouse out of its hiding place behind the cupboard?",
+      "answerZh": "甚麼最後把老鼠趕離櫃子後面的藏身處?",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The first rinse did not remove all the colour from the cloth.",
+      "promptZh": "第一次沖洗未能清除布上的所有顏色。",
+      "starter": "The",
+      "answer": "The first rinse did not flush all the colour out of the cloth.",
+      "answerZh": "第一次沖洗未能把布上的所有顏色沖走。",
+      "highlight": "flush",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把物件內的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The water could not remove the thick mud from the yard.",
+      "promptZh": "水無法沖走院子裏的厚泥。",
+      "starter": "The",
+      "answer": "The water could not flush the thick mud away from the yard.",
+      "answerZh": "水無法把院子裏的厚泥沖走。",
+      "highlight": "flush",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The farmer’s dog forced the birds to leave the long grass by running towards them.",
+      "promptZh": "農夫的狗跑向藏在長草裏的鳥,把牠們趕了出來。",
+      "starter": "The",
+      "answer": "The farmer’s dog flushed the birds out of the long grass by running towards them.",
+      "answerZh": "農夫的狗跑向藏在長草裏的鳥,把牠們趕了出來。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the pipe had been repaired, clean water was used to remove the metal pieces from inside it.",
+      "promptZh": "水管修理完成後,人們使用清水清除裏面的金屬碎片。",
+      "starter": "After",
+      "answer": "After the pipe had been repaired, clean water was used to flush the metal pieces out.",
+      "answerZh": "水管修理完成後,人們使用清水把裏面的金屬碎片沖出來。",
+      "highlight": "flush",
+      "targetForm": "flush something out",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The rain kept falling until it removed the chalk marks.",
+      "promptZh": "雨一直下,直至粉筆痕跡被清除。",
+      "starter": "The",
+      "answer": "The rain kept falling until it had flushed the chalk marks away.",
+      "answerZh": "雨一直下,直至粉筆痕跡被沖走。",
+      "highlight": "had flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the birds were well hidden, the dogs eventually forced them to leave the tall grass near the lake.",
+      "promptZh": "雖然鳥兒藏得很好,但狗隻最終仍把牠們趕離湖邊的長草。",
+      "starter": "Although",
+      "answer": "Although the birds were well hidden, the dogs eventually flushed them out of the tall grass near the lake.",
+      "answerZh": "雖然鳥兒藏得很好,但狗隻最終仍把牠們趕離湖邊的長草。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "To prepare the bottle for milk, remove the cleaning liquid with fresh water.",
+      "promptZh": "為了準備用瓶子盛載牛奶,請用清水清除裏面的清潔液。",
+      "starter": "To",
+      "answer": "To prepare the bottle for milk, flush the cleaning liquid out with fresh water.",
+      "answerZh": "為了準備用瓶子盛載牛奶,請用清水把裏面的清潔液沖出來。",
+      "highlight": "flush",
+      "targetForm": "flush something out",
+      "targetMeaningZh": "用水把某物內部不需要的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The teacher’s whistle made the children leave their hiding places during the game.",
+      "promptZh": "遊戲期間,老師的哨聲使孩子們離開藏身處。",
+      "starter": "The",
+      "answer": "The teacher’s whistle flushed the children out of their hiding places during the game.",
+      "answerZh": "遊戲期間,老師的哨聲把孩子們趕離了藏身處。",
+      "highlight": "flushed",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The strong flow of water removed every loose leaf from the drain.",
+      "promptZh": "強勁的水流沖走了去水口附近所有鬆散的樹葉。",
+      "starter": "The",
+      "answer": "The strong flow of water flushed every loose leaf away from the drain.",
+      "answerZh": "強勁的水流沖走了去水口附近所有鬆散的樹葉。",
+      "highlight": "flushed",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even after two rinses, we had not removed all the soap from the cloth.",
+      "promptZh": "即使沖洗了兩次,我們仍未清除布上的所有肥皂。",
+      "starter": "Even",
+      "answer": "Even after two rinses, we had not flushed all the soap out of the cloth.",
+      "answerZh": "即使沖洗了兩次,我們仍未把布上的所有肥皂沖走。",
+      "highlight": "flushed",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把物件內的物質沖出"
+    },
+    {
+      "id": "phrasal-verb-250-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please use plenty of water to remove the chalk dust from the sink.",
+      "promptZh": "請用大量清水清除洗手盆裏的粉筆塵。",
+      "starter": "Please",
+      "answer": "Please flush the chalk dust away with plenty of water.",
+      "answerZh": "請用大量清水把洗手盆裏的粉筆塵沖走。",
+      "highlight": "flush the chalk dust away with",
+      "targetForm": "flush something away",
+      "targetMeaningZh": "用水把某物沖走"
+    },
+    {
+      "id": "phrasal-verb-250-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The lights and noise may force the foxes to leave their hiding places in the empty building.",
+      "promptZh": "燈光和聲音可能會把藏在空置建築物裏的狐狸趕出來。",
+      "starter": "The",
+      "answer": "The lights and noise may flush the foxes out of the empty building.",
+      "answerZh": "燈光和聲音可能會把藏在空置建築物裏的狐狸趕出來。",
+      "highlight": "flush",
+      "targetForm": "flush somebody/something out of something",
+      "targetMeaningZh": "把藏起來的人或動物趕出藏身處"
+    },
+    {
+      "id": "phrasal-verb-250-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "During the next heavy rain, water could remove the extra salt from the soil and carry it into the river.",
+      "promptZh": "下次下大雨時,雨水可能會把泥土裏多餘的鹽分沖出,並帶進河流。",
+      "starter": "During",
+      "answer": "During the next heavy rain, water could flush the extra salt out of the soil and into the river.",
+      "answerZh": "下次下大雨時,雨水可能會把泥土裏多餘的鹽分沖出,並帶進河流。",
+      "highlight": "flush",
+      "targetForm": "flush something out of something",
+      "targetMeaningZh": "用水把某物內部的物質沖出"
+    }
+  ]
+}

@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-51",
+  "order": 51,
+  "slug": "feed",
+  "version": "1",
+  "title": "FEED 動詞片語",
+  "titleEn": "Feed",
+  "titleZh": "FEED 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 50 - FEED.pdf",
+    "sourceNumber": 50,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FEED 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FEED."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FEED",
+      "highlight": "FEED"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The test results will feed back into next week’s lesson.",
+      "zh": "測驗結果會反過來影響下星期的課堂。",
+      "highlight": "feed back into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "These bats feed on fruit.",
+      "zh": "這些蝙蝠以水果為食。",
+      "highlight": "feed on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We need to feed the puppy up before winter.",
+      "zh": "我們需要在冬季前讓小狗多吃有營養的食物,使牠變得更強壯。",
+      "highlight": "feed the puppy up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分；以某物為食;靠某物提供食物或能量；給某人或動物吃大量有營養的食物,使其變得更強壯或健康；把資料、意見或結果交回或告訴某人；把資料、紙張或材料輸入或供應給機器、系統或過程；某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+    "en": "feed back into/to something; feed on/off something; feed somebody/something up; feed something back to somebody; feed something in / feed A into B / feed B with A; feed through to/into something",
+    "naturalZh": [
+      "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+      "以某物為食;靠某物提供食物或能量",
+      "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+      "把資料、意見或結果交回或告訴某人",
+      "把資料、紙張或材料輸入或供應給機器、系統或過程",
+      "某項改變或影響經過一個過程後,傳到較後階段或另一部分"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "feed back into/to something",
+      "titleZh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+      "titleEn": "feed back into/to something",
+      "descriptionZh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+      "descriptionEn": "The test results will feed back into next week’s lesson.",
+      "examples": [
+        {
+          "en": "The test results will feed back into next week’s lesson.",
+          "zh": "測驗結果會反過來影響下星期的課堂。",
+          "highlight": "feed back into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "feed on/off something",
+      "titleZh": "以某物為食;靠某物提供食物或能量",
+      "titleEn": "feed on/off something",
+      "descriptionZh": "以某物為食;靠某物提供食物或能量",
+      "descriptionEn": "These bats feed on fruit.",
+      "examples": [
+        {
+          "en": "These bats feed on fruit.",
+          "zh": "這些蝙蝠以水果為食。",
+          "highlight": "feed on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "feed somebody/something up",
+      "titleZh": "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+      "titleEn": "feed somebody/something up",
+      "descriptionZh": "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+      "descriptionEn": "We need to feed the puppy up before winter.",
+      "examples": [
+        {
+          "en": "We need to feed the puppy up before winter.",
+          "zh": "我們需要在冬季前讓小狗多吃有營養的食物,使牠變得更強壯。",
+          "highlight": "feed the puppy up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "feed something back to somebody",
+      "titleZh": "把資料、意見或結果交回或告訴某人",
+      "titleEn": "feed something back to somebody",
+      "descriptionZh": "把資料、意見或結果交回或告訴某人",
+      "descriptionEn": "I will feed your comments back to the team.",
+      "examples": [
+        {
+          "en": "I will feed your comments back to the team.",
+          "zh": "我會把你的意見回饋給團隊。",
+          "highlight": "feed your comments back to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "feed something in / feed A into B / feed B with A",
+      "titleZh": "把資料、紙張或材料輸入或供應給機器、系統或過程",
+      "titleEn": "feed something in / feed A into B / feed B with A",
+      "descriptionZh": "把資料、紙張或材料輸入或供應給機器、系統或過程",
+      "descriptionEn": "Feed the data into the computer.",
+      "examples": [
+        {
+          "en": "Feed the data into the computer.",
+          "zh": "把數據輸入電腦。",
+          "highlight": "Feed the data into"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "feed through to/into something",
+      "titleZh": "某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+      "titleEn": "feed through to/into something",
+      "descriptionZh": "某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+      "descriptionEn": "Higher costs may feed through to shop prices.",
+      "examples": [
+        {
+          "en": "Higher costs may feed through to shop prices.",
+          "zh": "較高的成本所帶來的影響可能會傳到店舖價格。",
+          "highlight": "feed through to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FEED 片語動詞的實際用途",
+    "labelEn": "FEED Phrasal Verbs in Use",
+    "summaryZh": "feed on 和 feed off 可以幫助你說明動物以甚麼為食,或機器依靠甚麼取得能量。；你可以把資料 feed into 一個系統,也可以把意見或結果 feed back 給另一個人。；feed back into 和 feed through 可以表示某個結果或改變其後如何影響另一件事。；feed somebody 或 something up 可以表示給虛弱的人或動物吃足夠食物,使其變得更強壯。",
+    "summaryEn": "Feed on and feed off help you explain what an animal eats or what a machine uses as a source of power. You can feed information into a system and feed comments or results back to another person. Feed back into and feed through help you show how one result or change affects something else later. Feed somebody or something up describes giving plenty of food to a weak person or animal.",
+    "contextsZh": [
+      "談論動物的食物或事物的能量來源",
+      "說明資料如何傳遞",
+      "描述一連串影響",
+      "談論如何讓人或動物變得強壯"
+    ],
+    "contextsEn": [
+      "Talk about what animals eat or use for energy",
+      "Explain how information moves",
+      "Describe a chain of effects",
+      "Talk about helping someone or an animal become stronger"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FEED 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FEED expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "feed back into/to something",
+    "fixedHighlight": "feed back into/to something",
+    "fixedZh": "閱讀整句,選出意思相同的 FEED 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FEED expression that gives the same meaning.",
+    "correct": "feed back into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FEED ... UP 和 FEED ... BACK 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；表示輸入或供應資料及材料時,可以使用以上幾種 FEED 形式。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in FEED... UP and FEED... BACK expressions, place the word as shown: feed him up feed it back to the team The input-and-supply group has several useful forms: feed the paper in feed the data into the computer feed the printer with paper",
+    "variableItemsZh": [
+      "feed back into/to something",
+      "feed on/off something",
+      "feed somebody/something up",
+      "feed something back to somebody",
+      "feed something in / feed A into B / feed B with A",
+      "feed through to/into something"
+    ],
+    "variableItemsEn": [
+      "feed back into/to something",
+      "feed on/off something",
+      "feed somebody/something up",
+      "feed something back to somebody",
+      "feed something in / feed A into B / feed B with A",
+      "feed through to/into something"
+    ],
+    "forms": [
+      {
+        "formZh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+        "formEn": "feed back into/to something",
+        "exampleZh": "測驗結果會反過來影響下星期的課堂。",
+        "exampleEn": "The test results will feed back into next week’s lesson.",
+        "highlight": "feed back into"
+      },
+      {
+        "formZh": "以某物為食;靠某物提供食物或能量",
+        "formEn": "feed on/off something",
+        "exampleZh": "這些蝙蝠以水果為食。",
+        "exampleEn": "These bats feed on fruit.",
+        "highlight": "feed on"
+      },
+      {
+        "formZh": "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+        "formEn": "feed somebody/something up",
+        "exampleZh": "我們需要在冬季前讓小狗多吃有營養的食物,使牠變得更強壯。",
+        "exampleEn": "We need to feed the puppy up before winter.",
+        "highlight": "feed the puppy up"
+      },
+      {
+        "formZh": "把資料、意見或結果交回或告訴某人",
+        "formEn": "feed something back to somebody",
+        "exampleZh": "我會把你的意見回饋給團隊。",
+        "exampleEn": "I will feed your comments back to the team.",
+        "highlight": "feed your comments back to"
+      },
+      {
+        "formZh": "把資料、紙張或材料輸入或供應給機器、系統或過程",
+        "formEn": "feed something in / feed A into B / feed B with A",
+        "exampleZh": "把數據輸入電腦。",
+        "exampleEn": "Feed the data into the computer.",
+        "highlight": "Feed the data into"
+      },
+      {
+        "formZh": "某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+        "formEn": "feed through to/into something",
+        "exampleZh": "較高的成本所帶來的影響可能會傳到店舖價格。",
+        "exampleEn": "Higher costs may feed through to shop prices.",
+        "highlight": "feed through to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+      "titleEn": "feed back into/to something",
+      "formula": "feed back into/to something",
+      "highlight": "feed back into/to something",
+      "descriptionZh": "某個結果、意見或變化返回原來的過程,並反過來影響另一部分",
+      "descriptionEn": "The test results will feed back into next week’s lesson.",
+      "examples": [
+        {
+          "en": "The test results will feed back into next week’s lesson.",
+          "zh": "測驗結果會反過來影響下星期的課堂。",
+          "highlight": "feed back into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "以某物為食;靠某物提供食物或能量",
+      "titleEn": "feed on/off something",
+      "formula": "feed on/off something",
+      "highlight": "feed on/off something",
+      "descriptionZh": "以某物為食;靠某物提供食物或能量",
+      "descriptionEn": "These bats feed on fruit.",
+      "examples": [
+        {
+          "en": "These bats feed on fruit.",
+          "zh": "這些蝙蝠以水果為食。",
+          "highlight": "feed on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+      "titleEn": "feed somebody/something up",
+      "formula": "feed somebody/something up",
+      "highlight": "feed somebody/something up",
+      "descriptionZh": "給某人或動物吃大量有營養的食物,使其變得更強壯或健康",
+      "descriptionEn": "We need to feed the puppy up before winter.",
+      "examples": [
+        {
+          "en": "We need to feed the puppy up before winter.",
+          "zh": "我們需要在冬季前讓小狗多吃有營養的食物,使牠變得更強壯。",
+          "highlight": "feed the puppy up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把資料、意見或結果交回或告訴某人",
+      "titleEn": "feed something back to somebody",
+      "formula": "feed something back to somebody",
+      "highlight": "feed something back to somebody",
+      "descriptionZh": "把資料、意見或結果交回或告訴某人",
+      "descriptionEn": "I will feed your comments back to the team.",
+      "examples": [
+        {
+          "en": "I will feed your comments back to the team.",
+          "zh": "我會把你的意見回饋給團隊。",
+          "highlight": "feed your comments back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把資料、紙張或材料輸入或供應給機器、系統或過程",
+      "titleEn": "feed something in / feed A into B / feed B with A",
+      "formula": "feed something in / feed A into B / feed B with A",
+      "highlight": "feed something in / feed A into B / feed B with A",
+      "descriptionZh": "把資料、紙張或材料輸入或供應給機器、系統或過程",
+      "descriptionEn": "Feed the data into the computer.",
+      "examples": [
+        {
+          "en": "Feed the data into the computer.",
+          "zh": "把數據輸入電腦。",
+          "highlight": "Feed the data into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+      "titleEn": "feed through to/into something",
+      "formula": "feed through to/into something",
+      "highlight": "feed through to/into something",
+      "descriptionZh": "某項改變或影響經過一個過程後,傳到較後階段或另一部分",
+      "descriptionEn": "Higher costs may feed through to shop prices.",
+      "examples": [
+        {
+          "en": "Higher costs may feed through to shop prices.",
+          "zh": "較高的成本所帶來的影響可能會傳到店舖價格。",
+          "highlight": "feed through to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論動物的食物或事物的能量來源",
+      "titleEn": "Talk about what animals eat or use for energy",
+      "zh": "feed on 和 feed off 可以幫助你說明動物以甚麼為食,或機器依靠甚麼取得能量。",
+      "en": "Feed on and feed off help you explain what an animal eats or what a machine uses as a source of power."
+    },
+    {
+      "titleZh": "說明資料如何傳遞",
+      "titleEn": "Explain how information moves",
+      "zh": "你可以把資料 feed into 一個系統,也可以把意見或結果 feed back 給另一個人。",
+      "en": "You can feed information into a system and feed comments or results back to another person."
+    },
+    {
+      "titleZh": "描述一連串影響",
+      "titleEn": "Describe a chain of effects",
+      "zh": "feed back into 和 feed through 可以表示某個結果或改變其後如何影響另一件事。",
+      "en": "Feed back into and feed through help you show how one result or change affects something else later."
+    },
+    {
+      "titleZh": "談論如何讓人或動物變得強壯",
+      "titleEn": "Talk about helping someone or an animal become stronger",
+      "zh": "feed somebody 或 something up 可以表示給虛弱的人或動物吃足夠食物,使其變得更強壯。",
+      "en": "Feed somebody or something up describes giving plenty of food to a weak person or animal."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論動物的食物或事物的能量來源",
+      "說明資料如何傳遞",
+      "描述一連串影響",
+      "談論如何讓人或動物變得強壯"
+    ],
+    "contextsEn": [
+      "Talk about what animals eat or use for energy",
+      "Explain how information moves",
+      "Describe a chain of effects",
+      "Talk about helping someone or an animal become stronger"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論動物的食物或事物的能量來源",
+        "titleEn": "Talk about what animals eat or use for energy",
+        "zh": "feed on 和 feed off 可以幫助你說明動物以甚麼為食,或機器依靠甚麼取得能量。",
+        "en": "Feed on and feed off help you explain what an animal eats or what a machine uses as a source of power.",
+        "examples": [
+          {
+            "en": "The test results will feed back into next week’s lesson.",
+            "zh": "測驗結果會反過來影響下星期的課堂。",
+            "highlight": "feed back into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明資料如何傳遞",
+        "titleEn": "Explain how information moves",
+        "zh": "你可以把資料 feed into 一個系統,也可以把意見或結果 feed back 給另一個人。",
+        "en": "You can feed information into a system and feed comments or results back to another person.",
+        "examples": [
+          {
+            "en": "These bats feed on fruit.",
+            "zh": "這些蝙蝠以水果為食。",
+            "highlight": "feed on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述一連串影響",
+        "titleEn": "Describe a chain of effects",
+        "zh": "feed back into 和 feed through 可以表示某個結果或改變其後如何影響另一件事。",
+        "en": "Feed back into and feed through help you show how one result or change affects something else later.",
+        "examples": [
+          {
+            "en": "We need to feed the puppy up before winter.",
+            "zh": "我們需要在冬季前讓小狗多吃有營養的食物,使牠變得更強壯。",
+            "highlight": "feed the puppy up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論如何讓人或動物變得強壯",
+        "titleEn": "Talk about helping someone or an animal become stronger",
+        "zh": "feed somebody 或 something up 可以表示給虛弱的人或動物吃足夠食物,使其變得更強壯。",
+        "en": "Feed somebody or something up describes giving plenty of food to a weak person or animal.",
+        "examples": [
+          {
+            "en": "I will feed your comments back to the team.",
+            "zh": "我會把你的意見回饋給團隊。",
+            "highlight": "feed your comments back to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FEED 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FEED expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FEED 片語動詞。",
+      "en": "Read the whole sentence and choose the FEED expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FEED ... UP 和 FEED ... BACK 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in FEED.",
+      "zh": "在 FEED ... UP 和 FEED ... BACK 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in FEED... UP and FEED... BACK expressions, place the word as shown: feed him up feed it back to the team"
+    },
+    {
+      "titleZh": "表示輸入或供應資料及材料時,可以使用以上幾種 FEED 形式。",
+      "titleEn": "The input-and-supply group has several useful forms: feed the paper in feed the data into the computer feed the printer with paper.",
+      "zh": "表示輸入或供應資料及材料時,可以使用以上幾種 FEED 形式。",
+      "en": "The input-and-supply group has several useful forms: feed the paper in feed the data into the computer feed the printer with paper"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FEED 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FEED. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FEED 動詞片語句子改寫練習",
+    "titleEn": "FEED Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FEED 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FEED. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-51-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "These bats eat fruit.",
+      "promptZh": "這些蝙蝠以水果為食。",
+      "starter": "These",
+      "answer": "These bats feed on fruit.",
+      "answerZh": "這些蝙蝠以水果為食。",
+      "highlight": "feed on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The assistant entered the numbers into the computer.",
+      "promptZh": "助理把數字輸入電腦。",
+      "starter": "The",
+      "answer": "The assistant fed the numbers into the computer.",
+      "answerZh": "助理把數字輸入電腦。",
+      "highlight": "fed",
+      "targetForm": "feed A into B",
+      "targetMeaningZh": "把資料或內容輸入另一個系統"
+    },
+    {
+      "id": "phrasal-verb-51-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The family gave the thin puppy plenty of food to make it stronger.",
+      "promptZh": "這家人給那隻瘦弱的小狗大量食物,讓牠變得更強壯。",
+      "starter": "The",
+      "answer": "The family fed the thin puppy up to make it stronger.",
+      "answerZh": "這家人給那隻瘦弱的小狗大量食物,讓牠變得更強壯。",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Test results often influence the next lesson.",
+      "promptZh": "測驗結果經常會影響下一堂課。",
+      "starter": "Test",
+      "answer": "Test results often feed back into the next lesson.",
+      "answerZh": "測驗結果經常會反過來影響下一堂課。",
+      "highlight": "feed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I will send your comments to the design team.",
+      "promptZh": "我會把你的意見交給設計團隊。",
+      "starter": "I",
+      "answer": "I will feed your comments back to the design team.",
+      "answerZh": "我會把你的意見回饋給設計團隊。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Rising food costs may later increase restaurant prices.",
+      "promptZh": "食品成本上升,其後可能會令餐廳價格提高。",
+      "starter": "Rising",
+      "answer": "Rising food costs may feed through to restaurant prices.",
+      "answerZh": "食品成本上升的影響可能會傳到餐廳價格。",
+      "highlight": "feed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please put the paper into the machine slowly.",
+      "promptZh": "請慢慢把紙張放進機器。",
+      "starter": "Please",
+      "answer": "Please feed the paper in slowly.",
+      "answerZh": "請慢慢把紙張送進機器。",
+      "highlight": "feed",
+      "targetForm": "feed something in",
+      "targetMeaningZh": "把紙張或材料送進機器"
+    },
+    {
+      "id": "phrasal-verb-51-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "These insects get food from dead leaves.",
+      "promptZh": "這些昆蟲從枯葉中取得食物。",
+      "starter": "These",
+      "answer": "These insects feed off dead leaves.",
+      "answerZh": "這些昆蟲以枯葉為食。",
+      "highlight": "feed off",
+      "targetForm": "feed off something",
+      "targetMeaningZh": "靠某物取得食物"
+    },
+    {
+      "id": "phrasal-verb-51-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The new school hours will later affect the bus timetable.",
+      "promptZh": "新的上課時間其後會影響巴士時間表。",
+      "starter": "The",
+      "answer": "The new school hours will feed through to the bus timetable.",
+      "answerZh": "新的上課時間所帶來的影響會傳到巴士時間表。",
+      "highlight": "feed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please send the result to me after the test.",
+      "promptZh": "測試後請把結果告訴我。",
+      "starter": "Please",
+      "answer": "Please feed the result back to me after the test.",
+      "answerZh": "測試後請把結果告訴我。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把結果或資料告訴某人"
+    },
+    {
+      "id": "phrasal-verb-51-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "What the students say will later reach the people who plan the course.",
+      "promptZh": "學生所說的意見其後會傳達給課程策劃人員。",
+      "starter": "What",
+      "answer": "What the students say will feed back to the people who plan the course.",
+      "answerZh": "學生所說的意見會回饋給課程策劃人員。",
+      "highlight": "feed back to",
+      "targetForm": "feed back to somebody",
+      "targetMeaningZh": "意見或結果返回給相關的人"
+    },
+    {
+      "id": "phrasal-verb-51-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The keeper gave the weak birds plenty of food before winter.",
+      "promptZh": "飼養員在冬季前給那些虛弱的鳥大量食物。",
+      "starter": "The",
+      "answer": "The keeper fed the weak birds up before winter.",
+      "answerZh": "飼養員在冬季前把那些虛弱的鳥餵得更強壯。",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We have already sent the survey results to the manager.",
+      "promptZh": "我們已經把問卷結果交給經理。",
+      "starter": "We",
+      "answer": "We have already fed the survey results back to the manager.",
+      "answerZh": "我們已經把問卷結果回饋給經理。",
+      "highlight": "fed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把結果或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The goats are eating leaves from the low trees.",
+      "promptZh": "山羊正在吃矮樹上的葉子。",
+      "starter": "The",
+      "answer": "The goats are feeding on leaves from the low trees.",
+      "answerZh": "山羊正在以矮樹上的葉子為食。",
+      "highlight": "feeding on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The rise in rent is now affecting café prices.",
+      "promptZh": "租金上升現正影響咖啡店的價格。",
+      "starter": "The",
+      "answer": "The rise in rent is now feeding through to café prices.",
+      "answerZh": "租金上升所帶來的影響現正傳到咖啡店的價格。",
+      "highlight": "feeding through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "This cat needs plenty of good food before it returns home.",
+      "promptZh": "這隻貓回家前需要吃大量有營養的食物。",
+      "starter": "This",
+      "answer": "This cat needs feeding up before it returns home.",
+      "answerZh": "這隻貓回家前需要多吃有營養的食物,讓身體變得強壯。",
+      "highlight": "feeding up",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The poor test results are changing next month’s lessons.",
+      "promptZh": "較差的測驗結果正在改變下個月的課堂安排。",
+      "starter": "The",
+      "answer": "The poor test results are feeding back into next month’s lessons.",
+      "answerZh": "較差的測驗結果正在反過來影響下個月的課堂安排。",
+      "highlight": "feeding back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Give the printer fresh paper before you start.",
+      "promptZh": "開始前請把新紙張放進打印機。",
+      "starter": "Feed",
+      "answer": "Feed the printer with fresh paper before you start.",
+      "answerZh": "開始前請把新紙張放進打印機。",
+      "highlight": "Feed",
+      "targetForm": "feed B with A",
+      "targetMeaningZh": "向機器或系統供應材料"
+    },
+    {
+      "id": "phrasal-verb-51-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why do these birds not eat seeds?",
+      "promptZh": "為甚麼這些鳥不吃種子?",
+      "starter": "Why",
+      "answer": "Why do these birds not feed on seeds?",
+      "answerZh": "為甚麼這些鳥不以種子為食?",
+      "highlight": "feed on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did you send my comments to the club leader?",
+      "promptZh": "你有把我的意見交給社團負責人嗎?",
+      "starter": "Did",
+      "answer": "Did you feed my comments back to the club leader?",
+      "answerZh": "你有把我的意見轉告社團負責人嗎?",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The app is entering new words into the game now.",
+      "promptZh": "這個應用程式現正把新詞語輸入遊戲。",
+      "starter": "The",
+      "answer": "The app is feeding new words into the game now.",
+      "answerZh": "這個應用程式現正把新詞語輸入遊戲。",
+      "highlight": "feeding",
+      "targetForm": "feed A into B",
+      "targetMeaningZh": "把資料或內容輸入另一個系統"
+    },
+    {
+      "id": "phrasal-verb-51-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "A problem found during practice may change the team’s final plan.",
+      "promptZh": "練習時發現的問題可能會改變球隊的最終計劃。",
+      "starter": "A",
+      "answer": "A problem found during practice may feed back into the team’s final plan.",
+      "answerZh": "練習時發現的問題可能會反過來影響球隊的最終計劃。",
+      "highlight": "feed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The rescue centre is giving the horse extra food to make it stronger.",
+      "promptZh": "救援中心正給那匹馬額外食物,讓牠變得更強壯。",
+      "starter": "The",
+      "answer": "The rescue centre is feeding the horse up to make it stronger.",
+      "answerZh": "救援中心正給那匹馬額外食物,讓牠變得更強壯。",
+      "highlight": "feeding",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The higher fuel price eventually increased delivery charges.",
+      "promptZh": "燃油價格上升最終令送貨費提高。",
+      "starter": "The",
+      "answer": "The higher fuel price fed through to delivery charges.",
+      "answerZh": "燃油價格上升的影響最終傳到送貨費。",
+      "highlight": "fed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The machine needs the card. Insert it slowly.",
+      "promptZh": "機器需要這張卡。請慢慢把它放進去。",
+      "starter": "The",
+      "answer": "The machine needs the card. Feed it in slowly.",
+      "answerZh": "機器需要這張卡。請慢慢把它送進去。",
+      "highlight": "Feed",
+      "targetForm": "feed something in",
+      "targetMeaningZh": "把紙張、卡或材料送進機器"
+    },
+    {
+      "id": "phrasal-verb-51-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Parents’ comments had already affected the new school plan.",
+      "promptZh": "家長的意見已經影響了新的學校計劃。",
+      "starter": "Parents’",
+      "answer": "Parents’ comments had already fed back into the new school plan.",
+      "answerZh": "家長的意見已經反過來影響了新的學校計劃。",
+      "highlight": "fed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The coaches need the results today, so send the results to them now.",
+      "promptZh": "教練今天需要結果,所以現在把結果交給他們。",
+      "starter": "The",
+      "answer": "The coaches need the results today, so feed the results back to them now.",
+      "answerZh": "教練今天需要結果,所以現在把結果回饋給他們。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把結果或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because this animal eats leaves, it cannot live here in winter.",
+      "promptZh": "由於這種動物以樹葉為食,牠冬天不能在這裏生存。",
+      "starter": "Because",
+      "answer": "Because this animal feeds on leaves, it cannot live here in winter.",
+      "answerZh": "由於這種動物以樹葉為食,牠冬天不能在這裏生存。",
+      "highlight": "feeds on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The lower cost has already affected the price customers pay.",
+      "promptZh": "較低的成本已經影響了顧客所付的價格。",
+      "starter": "The",
+      "answer": "The lower cost has already fed through to the price customers pay.",
+      "answerZh": "較低成本的影響已經傳到顧客所付的價格。",
+      "highlight": "fed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Grandad was weak after being ill, so we gave him plenty of food.",
+      "promptZh": "祖父病後身體虛弱,所以我們給他大量食物。",
+      "starter": "Grandad",
+      "answer": "Grandad was weak after being ill, so we fed him up.",
+      "answerZh": "祖父病後身體虛弱,所以我們給他多吃有營養的食物,讓他強壯起來。",
+      "highlight": "fed",
+      "targetForm": "feed somebody up",
+      "targetMeaningZh": "給某人大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "How will the survey results influence next year’s plan?",
+      "promptZh": "問卷結果會如何影響明年的計劃?",
+      "starter": "How",
+      "answer": "How will the survey results feed back into next year’s plan?",
+      "answerZh": "問卷結果會如何反過來影響明年的計劃?",
+      "highlight": "feed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The machine needs clean water all day. Supply it with clean water through this pipe.",
+      "promptZh": "這部機器整天都需要清水。請透過這條管向它供應清水。",
+      "starter": "The",
+      "answer": "The machine needs clean water all day. Feed it with clean water through this pipe.",
+      "answerZh": "這部機器整天都需要清水。請透過這條管向它供應清水。",
+      "highlight": "Feed",
+      "targetForm": "feed B with A",
+      "targetMeaningZh": "向機器或系統供應材料"
+    },
+    {
+      "id": "phrasal-verb-51-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The family has given the young dog plenty of food, and it is much stronger now.",
+      "promptZh": "這家人已經給那隻小狗大量食物,牠現在強壯得多。",
+      "starter": "The",
+      "answer": "The family has fed the young dog up, and it is much stronger now.",
+      "answerZh": "這家人已經把那隻小狗餵得更強壯,牠現在強壯得多。",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Could this change later affect the price of school meals?",
+      "promptZh": "這項改變其後會影響學校膳食的價格嗎?",
+      "starter": "Could",
+      "answer": "Could this change later feed through to the price of school meals?",
+      "answerZh": "這項改變所帶來的影響其後會傳到學校膳食的價格嗎?",
+      "highlight": "feed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The small fish lives by eating the food left by larger fish.",
+      "promptZh": "這條小魚靠吃大魚留下的食物生存。",
+      "starter": "The",
+      "answer": "The small fish feeds off the food left by larger fish.",
+      "answerZh": "這條小魚以大魚留下的食物為食。",
+      "highlight": "feeds off",
+      "targetForm": "feed off something",
+      "targetMeaningZh": "靠某物取得食物"
+    },
+    {
+      "id": "phrasal-verb-51-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The teacher asked me to send the class’s comments to the book company.",
+      "promptZh": "老師請我把全班的意見交給圖書公司。",
+      "starter": "The",
+      "answer": "The teacher asked me to feed the class’s comments back to the book company.",
+      "answerZh": "老師請我把全班的意見回饋給圖書公司。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Customer complaints changed the way the shop trained its staff.",
+      "promptZh": "顧客投訴改變了店舖培訓員工的方式。",
+      "starter": "Customer",
+      "answer": "Customer complaints fed back into the way the shop trained its staff.",
+      "answerZh": "顧客投訴反過來影響了店舖培訓員工的方式。",
+      "highlight": "fed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The duck was underweight, so the farmer gave it extra food for several weeks.",
+      "promptZh": "那隻鴨體重不足,所以農夫連續數星期給牠額外食物。",
+      "starter": "The",
+      "answer": "The duck was underweight, so the farmer fed it up for several weeks.",
+      "answerZh": "那隻鴨體重不足,所以農夫連續數星期給牠多吃食物,讓牠強壯起來。",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Each group added one idea to the class discussion.",
+      "promptZh": "每組都把一個想法加入課堂討論。",
+      "starter": "Each",
+      "answer": "Each group fed one idea into the class discussion.",
+      "answerZh": "每組都把一個想法帶入課堂討論。",
+      "highlight": "fed",
+      "targetForm": "feed A into B",
+      "targetMeaningZh": "把資料或內容加入另一個過程"
+    },
+    {
+      "id": "phrasal-verb-51-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The new safety rule will later affect the way every class is run.",
+      "promptZh": "新的安全規則其後會影響每堂課的進行方式。",
+      "starter": "The",
+      "answer": "The new safety rule will feed through into the way every class is run.",
+      "answerZh": "新的安全規則所帶來的影響會傳到每堂課的進行方式。",
+      "highlight": "feed through into",
+      "targetForm": "feed through into something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The birds survive by eating insects found near the lake.",
+      "promptZh": "這些鳥靠吃湖邊的昆蟲生存。",
+      "starter": "The",
+      "answer": "The birds feed on insects found near the lake.",
+      "answerZh": "這些鳥以湖邊的昆蟲為食。",
+      "highlight": "feed on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After the meeting, Ava gave the players’ comments to the coach.",
+      "promptZh": "會議後,艾娃把球員的意見交給教練。",
+      "starter": "After",
+      "answer": "After the meeting, Ava fed the players’ comments back to the coach.",
+      "answerZh": "會議後,艾娃把球員的意見回饋給教練。",
+      "highlight": "fed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Who gave the weak kitten enough food to make it healthy again?",
+      "promptZh": "誰給那隻虛弱的小貓足夠食物,讓牠恢復健康?",
+      "starter": "Who",
+      "answer": "Who fed the weak kitten up to make it healthy again?",
+      "answerZh": "誰給那隻虛弱的小貓多吃食物,讓牠恢復健康?",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其恢復健康"
+    },
+    {
+      "id": "phrasal-verb-51-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When students struggle, this should change the next lesson.",
+      "promptZh": "當學生遇到困難時,這應該改變下一堂課。",
+      "starter": "When",
+      "answer": "When students struggle, this should feed back into the next lesson.",
+      "answerZh": "當學生遇到困難時,這應該反過來影響下一堂課。",
+      "highlight": "feed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "A shortage of parts will later affect how many bikes the factory can make.",
+      "promptZh": "零件短缺其後會影響工廠可以製造多少輛單車。",
+      "starter": "A",
+      "answer": "A shortage of parts will feed through to the number of bikes the factory can make.",
+      "answerZh": "零件短缺所帶來的影響會傳到工廠可以製造的單車數量。",
+      "highlight": "feed through to the number of",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The map app receives fresh traffic information every minute.",
+      "promptZh": "地圖應用程式每分鐘都會收到最新交通資訊。",
+      "starter": "The",
+      "answer": "The map app is fed with fresh traffic information every minute.",
+      "answerZh": "地圖應用程式每分鐘都會獲輸入最新交通資訊。",
+      "highlight": "is fed with",
+      "targetForm": "feed B with A",
+      "targetMeaningZh": "向機器或系統供應資料"
+    },
+    {
+      "id": "phrasal-verb-51-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I have the parents’ comments here. I will send them to the head teacher.",
+      "promptZh": "我手上有家長的意見。我會把這些意見交給校長。",
+      "starter": "I",
+      "answer": "I have the parents’ comments here. I will feed them back to the head teacher.",
+      "answerZh": "我手上有家長的意見。我會把這些意見回饋給校長。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The small speakers take power from the same battery.",
+      "promptZh": "這些小型揚聲器使用同一枚電池供電。",
+      "starter": "The",
+      "answer": "The small speakers feed off the same battery.",
+      "answerZh": "這些小型揚聲器靠同一枚電池供電。",
+      "highlight": "feed off",
+      "targetForm": "feed off something",
+      "targetMeaningZh": "靠某物提供能量"
+    },
+    {
+      "id": "phrasal-verb-51-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "A rise in the cost of flour may not affect bread prices immediately because shops may still have cheaper flour.",
+      "promptZh": "麵粉成本上升未必會立即影響麵包價格,因為店舖可能仍有較便宜的麵粉。",
+      "starter": "A",
+      "answer": "A rise in the cost of flour may not feed through to bread prices immediately because shops may still have cheaper flour.",
+      "answerZh": "麵粉成本上升的影響未必會立即傳到麵包價格,因為店舖可能仍有較便宜的麵粉。",
+      "highlight": "feed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Please send this message to the club committee: most members want an earlier start.",
+      "promptZh": "請把這個訊息交給社團委員會:大部分成員希望提早開始。",
+      "starter": "Please",
+      "answer": "Please feed this message back to the club committee: most members want an earlier start.",
+      "answerZh": "請把這個訊息回饋給社團委員會:大部分成員希望提早開始。",
+      "highlight": "feed",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把訊息或意見回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The insects live in old wood and use it as their main source of food.",
+      "promptZh": "這些昆蟲住在舊木材中,並以它作為主要食物來源。",
+      "starter": "The",
+      "answer": "The insects feed on old wood as their main source of food.",
+      "answerZh": "這些昆蟲以舊木材作為主要食物來源。",
+      "highlight": "feed on",
+      "targetForm": "feed on something",
+      "targetMeaningZh": "以某物為食"
+    },
+    {
+      "id": "phrasal-verb-51-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the show begins, enter the final song list into the sound system.",
+      "promptZh": "表演開始前,把最後的歌曲清單輸入音響系統。",
+      "starter": "Before",
+      "answer": "Before the show begins, feed the final song list into the sound system.",
+      "answerZh": "表演開始前,把最後的歌曲清單輸入音響系統。",
+      "highlight": "feed",
+      "targetForm": "feed A into B",
+      "targetMeaningZh": "把資料或內容輸入另一個系統"
+    },
+    {
+      "id": "phrasal-verb-51-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The comments from the first class changed how the teacher planned the second class.",
+      "promptZh": "第一班學生的意見改變了老師規劃第二班課堂的方式。",
+      "starter": "The",
+      "answer": "The comments from the first class fed back into how the teacher planned the second class.",
+      "answerZh": "第一班學生的意見反過來影響了老師規劃第二班課堂的方式。",
+      "highlight": "fed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The rescued fox was very thin, so the centre gave it extra food until it was strong enough to return to the forest.",
+      "promptZh": "獲救的狐狸非常瘦弱,所以中心給牠額外食物,直至牠強壯得可以返回森林。",
+      "starter": "The",
+      "answer": "The rescued fox was very thin, so the centre fed it up until it was strong enough to return to the forest.",
+      "answerZh": "獲救的狐狸非常瘦弱,所以中心把牠餵得更強壯,直至牠可以返回森林。",
+      "highlight": "fed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The manager will collect our ideas today and tell the shop owner tomorrow.",
+      "promptZh": "經理今天會收集我們的意見,並於明天告訴店主。",
+      "starter": "The",
+      "answer": "The manager will collect our ideas today and feed them back to the shop owner tomorrow.",
+      "answerZh": "經理今天會收集我們的意見,並於明天回饋給店主。",
+      "highlight": "feed them back to",
+      "targetForm": "feed something back to somebody",
+      "targetMeaningZh": "把意見或資料回饋給某人"
+    },
+    {
+      "id": "phrasal-verb-51-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A small delay at the factory can later affect delivery times in every shop.",
+      "promptZh": "工廠的一次小延誤其後可能會影響每間店舖的送貨時間。",
+      "starter": "A",
+      "answer": "A small delay at the factory can feed through to delivery times in every shop.",
+      "answerZh": "工廠的一次小延誤所帶來的影響可能會傳到每間店舖的送貨時間。",
+      "highlight": "feed through to",
+      "targetForm": "feed through to something",
+      "targetMeaningZh": "影響傳到較後階段或另一部分"
+    },
+    {
+      "id": "phrasal-verb-51-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Give the young horse plenty of food before the long journey.",
+      "promptZh": "在長途旅程前,給那匹小馬大量食物。",
+      "starter": "Feed",
+      "answer": "Feed the young horse up before the long journey.",
+      "answerZh": "在長途旅程前,給那匹小馬多吃食物,讓牠強壯起來。",
+      "highlight": "Feed",
+      "targetForm": "feed somebody/something up",
+      "targetMeaningZh": "給某人或動物大量食物,使其變得更強壯"
+    },
+    {
+      "id": "phrasal-verb-51-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The results from this practice test should influence what we study next week.",
+      "promptZh": "這次練習測驗的結果應該影響我們下星期學習的內容。",
+      "starter": "The",
+      "answer": "The results from this practice test should feed back into what we study next week.",
+      "answerZh": "這次練習測驗的結果應該反過來影響我們下星期學習的內容。",
+      "highlight": "feed back into",
+      "targetForm": "feed back into something",
+      "targetMeaningZh": "反過來影響另一部分或過程"
+    },
+    {
+      "id": "phrasal-verb-51-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "This programme needs new weather information every hour, so supply it with fresh data regularly.",
+      "promptZh": "這個程式每小時都需要新的天氣資訊,所以要定時向它提供最新數據。",
+      "starter": "This",
+      "answer": "This programme needs new weather information every hour, so feed it with fresh data regularly.",
+      "answerZh": "這個程式每小時都需要新的天氣資訊,所以要定時向它輸入最新數據。",
+      "highlight": "feed",
+      "targetForm": "feed B with A",
+      "targetMeaningZh": "向機器、系統或程式供應資料"
+    },
+    {
+      "id": "phrasal-verb-51-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "These plants get the food they need from small insects.",
+      "promptZh": "這些植物從小昆蟲中取得所需的養分。",
+      "starter": "These",
+      "answer": "These plants feed off small insects.",
+      "answerZh": "這些植物從小昆蟲中取得養分。",
+      "highlight": "feed off",
+      "targetForm": "feed off something",
+      "targetMeaningZh": "靠某物取得食物或養分"
+    }
+  ]
+}

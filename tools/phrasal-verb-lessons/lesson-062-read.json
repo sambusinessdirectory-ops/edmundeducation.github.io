@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-62",
+  "order": 62,
+  "slug": "read",
+  "version": "1",
+  "title": "READ 動詞片語",
+  "titleEn": "Read",
+  "titleZh": "READ 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 61 - READ.pdf",
+    "sourceNumber": 61,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 READ 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to READ."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "READ",
+      "highlight": "READ"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I wrote down the address and read it back to the caller.",
+      "zh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+      "highlight": "read it back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You are reading too much into his short reply.",
+      "zh": "你把他簡短的回覆想得太多了。",
+      "highlight": "reading too much into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She read out the names of the winners.",
+      "zh": "她大聲讀出得獎者的名字。",
+      "highlight": "read out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把資料讀回給人聽,以核對是否正確；從說話、行為或情況中看出可能並不存在的額外意思；把文字大聲讀出來,讓人聽到",
+    "en": "read something back (to somebody); read something into something; read something out (to somebody)",
+    "naturalZh": [
+      "把資料讀回給人聽,以核對是否正確",
+      "從說話、行為或情況中看出可能並不存在的額外意思",
+      "把文字大聲讀出來,讓人聽到"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "read something back (to somebody)",
+      "titleZh": "把資料讀回給人聽,以核對是否正確",
+      "titleEn": "read something back (to somebody)",
+      "descriptionZh": "把資料讀回給人聽,以核對是否正確",
+      "descriptionEn": "I wrote down the address and read it back to the caller.",
+      "examples": [
+        {
+          "en": "I wrote down the address and read it back to the caller.",
+          "zh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+          "highlight": "read it back to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "read something into something",
+      "titleZh": "從說話、行為或情況中看出可能並不存在的額外意思",
+      "titleEn": "read something into something",
+      "descriptionZh": "從說話、行為或情況中看出可能並不存在的額外意思",
+      "descriptionEn": "You are reading too much into his short reply.",
+      "examples": [
+        {
+          "en": "You are reading too much into his short reply.",
+          "zh": "你把他簡短的回覆想得太多了。",
+          "highlight": "reading too much into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "read something out (to somebody)",
+      "titleZh": "把文字大聲讀出來,讓人聽到",
+      "titleEn": "read something out (to somebody)",
+      "descriptionZh": "把文字大聲讀出來,讓人聽到",
+      "descriptionEn": "She read out the names of the winners.",
+      "examples": [
+        {
+          "en": "She read out the names of the winners.",
+          "zh": "她大聲讀出得獎者的名字。",
+          "highlight": "read out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "READ 片語動詞的實際用途",
+    "labelEn": "READ Phrasal Verbs in Use",
+    "summaryZh": "read something back 適合用於核對電話號碼、地址、預訂資料和其他重要內容。；read something out 可以用來向一群人讀出規則、指示、結果、名字和訊息。；read something into something 可以描述某人把說話、行為或沉默想得太多的情況。；這些表達能幫助你分辨核對資料、大聲讀出文字,以及解讀潛在意思這三種用途。",
+    "summaryEn": "Read something back is useful when checking telephone numbers, addresses, booking details and other information. Read something out allows you to share rules, instructions, results, names and messages with a group. Read something into something helps you describe situations in which a person may be giving words, actions or silence more meaning than they really have. These expressions help you distinguish between checking information, reading words aloud and interpreting possible meanings.",
+    "contextsZh": [
+      "更準確地核對重要資料",
+      "清楚地分享書面資料",
+      "談論隱藏或想像出來的意思",
+      "理解使用 READ 的三種不同目的"
+    ],
+    "contextsEn": [
+      "Check important details more accurately",
+      "Share written information clearly",
+      "Talk about hidden or imagined meanings",
+      "Understand three different reasons for using READ"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 READ 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the READ expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "read something back (to somebody)",
+    "fixedHighlight": "read something back (to somebody)",
+    "fixedZh": "閱讀整句,選出意思相同的 READ 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the READ expression that gives the same meaning.",
+    "correct": "read it back to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；read something back 用於讀回資料以作核對;read something out 用於把文字大聲讀給別人聽。如需說明聆聽者,可以加上 to + somebody。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the words as shown: read it back read it out read too much into it Read something back when the purpose is to check information. Read something out when the purpose is to let people hear written words. You may add to + somebody when you need to name the listener: read the number back to me read the notice out to the class",
+    "variableItemsZh": [
+      "read something back (to somebody)",
+      "read something into something",
+      "read something out (to somebody)"
+    ],
+    "variableItemsEn": [
+      "read something back (to somebody)",
+      "read something into something",
+      "read something out (to somebody)"
+    ],
+    "forms": [
+      {
+        "formZh": "把資料讀回給人聽,以核對是否正確",
+        "formEn": "read something back (to somebody)",
+        "exampleZh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+        "exampleEn": "I wrote down the address and read it back to the caller.",
+        "highlight": "read it back to"
+      },
+      {
+        "formZh": "從說話、行為或情況中看出可能並不存在的額外意思",
+        "formEn": "read something into something",
+        "exampleZh": "你把他簡短的回覆想得太多了。",
+        "exampleEn": "You are reading too much into his short reply.",
+        "highlight": "reading too much into"
+      },
+      {
+        "formZh": "把文字大聲讀出來,讓人聽到",
+        "formEn": "read something out (to somebody)",
+        "exampleZh": "她大聲讀出得獎者的名字。",
+        "exampleEn": "She read out the names of the winners.",
+        "highlight": "read out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把資料讀回給人聽,以核對是否正確",
+      "titleEn": "read something back (to somebody)",
+      "formula": "read something back (to somebody)",
+      "highlight": "read something back (to somebody)",
+      "descriptionZh": "把資料讀回給人聽,以核對是否正確",
+      "descriptionEn": "I wrote down the address and read it back to the caller.",
+      "examples": [
+        {
+          "en": "I wrote down the address and read it back to the caller.",
+          "zh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+          "highlight": "read it back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "從說話、行為或情況中看出可能並不存在的額外意思",
+      "titleEn": "read something into something",
+      "formula": "read something into something",
+      "highlight": "read something into something",
+      "descriptionZh": "從說話、行為或情況中看出可能並不存在的額外意思",
+      "descriptionEn": "You are reading too much into his short reply.",
+      "examples": [
+        {
+          "en": "You are reading too much into his short reply.",
+          "zh": "你把他簡短的回覆想得太多了。",
+          "highlight": "reading too much into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把文字大聲讀出來,讓人聽到",
+      "titleEn": "read something out (to somebody)",
+      "formula": "read something out (to somebody)",
+      "highlight": "read something out (to somebody)",
+      "descriptionZh": "把文字大聲讀出來,讓人聽到",
+      "descriptionEn": "She read out the names of the winners.",
+      "examples": [
+        {
+          "en": "She read out the names of the winners.",
+          "zh": "她大聲讀出得獎者的名字。",
+          "highlight": "read out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更準確地核對重要資料",
+      "titleEn": "Check important details more accurately",
+      "zh": "read something back 適合用於核對電話號碼、地址、預訂資料和其他重要內容。",
+      "en": "Read something back is useful when checking telephone numbers, addresses, booking details and other information."
+    },
+    {
+      "titleZh": "清楚地分享書面資料",
+      "titleEn": "Share written information clearly",
+      "zh": "read something out 可以用來向一群人讀出規則、指示、結果、名字和訊息。",
+      "en": "Read something out allows you to share rules, instructions, results, names and messages with a group."
+    },
+    {
+      "titleZh": "談論隱藏或想像出來的意思",
+      "titleEn": "Talk about hidden or imagined meanings",
+      "zh": "read something into something 可以描述某人把說話、行為或沉默想得太多的情況。",
+      "en": "Read something into something helps you describe situations in which a person may be giving words, actions or silence more meaning than they really have."
+    },
+    {
+      "titleZh": "理解使用 READ 的三種不同目的",
+      "titleEn": "Understand three different reasons for using READ",
+      "zh": "這些表達能幫助你分辨核對資料、大聲讀出文字,以及解讀潛在意思這三種用途。",
+      "en": "These expressions help you distinguish between checking information, reading words aloud and interpreting possible meanings."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更準確地核對重要資料",
+      "清楚地分享書面資料",
+      "談論隱藏或想像出來的意思",
+      "理解使用 READ 的三種不同目的"
+    ],
+    "contextsEn": [
+      "Check important details more accurately",
+      "Share written information clearly",
+      "Talk about hidden or imagined meanings",
+      "Understand three different reasons for using READ"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更準確地核對重要資料",
+        "titleEn": "Check important details more accurately",
+        "zh": "read something back 適合用於核對電話號碼、地址、預訂資料和其他重要內容。",
+        "en": "Read something back is useful when checking telephone numbers, addresses, booking details and other information.",
+        "examples": [
+          {
+            "en": "I wrote down the address and read it back to the caller.",
+            "zh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+            "highlight": "read it back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚地分享書面資料",
+        "titleEn": "Share written information clearly",
+        "zh": "read something out 可以用來向一群人讀出規則、指示、結果、名字和訊息。",
+        "en": "Read something out allows you to share rules, instructions, results, names and messages with a group.",
+        "examples": [
+          {
+            "en": "You are reading too much into his short reply.",
+            "zh": "你把他簡短的回覆想得太多了。",
+            "highlight": "reading too much into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論隱藏或想像出來的意思",
+        "titleEn": "Talk about hidden or imagined meanings",
+        "zh": "read something into something 可以描述某人把說話、行為或沉默想得太多的情況。",
+        "en": "Read something into something helps you describe situations in which a person may be giving words, actions or silence more meaning than they really have.",
+        "examples": [
+          {
+            "en": "She read out the names of the winners.",
+            "zh": "她大聲讀出得獎者的名字。",
+            "highlight": "read out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解使用 READ 的三種不同目的",
+        "titleEn": "Understand three different reasons for using READ",
+        "zh": "這些表達能幫助你分辨核對資料、大聲讀出文字,以及解讀潛在意思這三種用途。",
+        "en": "These expressions help you distinguish between checking information, reading words aloud and interpreting possible meanings.",
+        "examples": [
+          {
+            "en": "I wrote down the address and read it back to the caller.",
+            "zh": "我記下地址後,把它讀回給來電者聽,以核對是否正確。",
+            "highlight": "read it back to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 READ 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the READ expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 READ 片語動詞。",
+      "en": "Read the whole sentence and choose the READ expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the words as shown: read it back read it out read too much into it.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the words as shown: read it back read it out read too much into it"
+    },
+    {
+      "titleZh": "read something back 用於讀回資料以作核對;read something out 用於把文字大聲讀給別人聽。如需說明聆聽者,可以加上 to + somebody。",
+      "titleEn": "Read something back when the purpose is to check information.",
+      "zh": "read something back 用於讀回資料以作核對;read something out 用於把文字大聲讀給別人聽。如需說明聆聽者,可以加上 to + somebody。",
+      "en": "Read something back when the purpose is to check information. Read something out when the purpose is to let people hear written words. You may add to + somebody when you need to name the listener: read the number back to me read the notice out to the class"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 READ 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to READ. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "READ 動詞片語句子改寫練習",
+    "titleEn": "READ Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 READ 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to READ. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-62-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The hotel receptionist repeated the room number aloud so I could check it.",
+      "promptZh": "酒店接待員把房間號碼大聲重複一次,讓我核對。",
+      "starter": "The",
+      "answer": "The hotel receptionist read the room number back to me so I could check it.",
+      "answerZh": "酒店接待員把房間號碼讀回給我聽,讓我核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The teacher said the new class rules aloud to everyone.",
+      "promptZh": "老師把新的課堂規則大聲讀給大家聽。",
+      "starter": "The",
+      "answer": "The teacher read the new class rules out to everyone.",
+      "answerZh": "老師把新的課堂規則大聲讀給大家聽。",
+      "highlight": "read",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Do not give his short reply more meaning than it may have.",
+      "promptZh": "不要把他簡短的回覆想得太多。",
+      "starter": "Do",
+      "answer": "Do not read too much into his short reply.",
+      "answerZh": "不要把他簡短的回覆想得太多。",
+      "highlight": "read too much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I repeated the address aloud to the caller so we could check it.",
+      "promptZh": "我把地址大聲重複給來電者聽,讓我們核對。",
+      "starter": "I",
+      "answer": "I read the address back to the caller so we could check it.",
+      "answerZh": "我把地址讀回給來電者聽,讓我們核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ella believed his quiet voice showed anger, although she had no clear reason.",
+      "promptZh": "Ella 認為他低聲說話的語氣帶有怒氣,但她沒有明確理由這樣想。",
+      "starter": "Ella",
+      "answer": "Ella read anger into his quiet voice, although she had no clear reason.",
+      "answerZh": "Ella 從他低聲說話的語氣中看出怒氣,但她沒有明確理由這樣想。",
+      "highlight": "read anger into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam said every item on the shopping list aloud to his brother.",
+      "promptZh": "Sam 把購物清單上的每一項大聲讀給弟弟聽。",
+      "starter": "Sam",
+      "answer": "Sam read the shopping list out to his brother.",
+      "answerZh": "Sam 把購物清單大聲讀給弟弟聽。",
+      "highlight": "read",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please repeat the phone number aloud so I can check it.",
+      "promptZh": "請把電話號碼大聲重複給我聽,讓我核對。",
+      "starter": "Please",
+      "answer": "Please read the phone number back to me so I can check it.",
+      "answerZh": "請把電話號碼讀回給我聽,讓我核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The host said the winners’ names aloud.",
+      "promptZh": "主持人大聲讀出得獎者的名字。",
+      "starter": "The",
+      "answer": "The host read the winners’ names out.",
+      "answerZh": "主持人大聲讀出得獎者的名字。",
+      "highlight": "read",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We should not believe her words contain a promise when she did not clearly make one.",
+      "promptZh": "當她沒有清楚作出承諾時,我們不應以為她的話包含承諾。",
+      "starter": "We",
+      "answer": "We should not read a promise into her words when she did not clearly make one.",
+      "answerZh": "當她沒有清楚作出承諾時,我們不應把承諾的意思加在她的話中。",
+      "highlight": "read a promise into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The student repeated his answer aloud to the teacher so they could check it.",
+      "promptZh": "學生把自己的答案大聲重複給老師聽,讓他們核對。",
+      "starter": "The",
+      "answer": "The student read his answer back to the teacher so they could check it.",
+      "answerZh": "學生把自己的答案讀回給老師聽,讓他們核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nina often gives small changes in his messages more meaning than they really have.",
+      "promptZh": "Nina 常常把他訊息中的小變化想得太多。",
+      "starter": "Nina",
+      "answer": "Nina often reads too much into small changes in his messages.",
+      "answerZh": "Nina 常常把他訊息中的小變化想得太多。",
+      "highlight": "reads too much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guide will say the written safety instructions aloud before the trip.",
+      "promptZh": "導遊會在旅程開始前大聲讀出安全指示。",
+      "starter": "The",
+      "answer": "The guide will read the safety instructions out before the trip.",
+      "answerZh": "導遊會在旅程開始前大聲讀出安全指示。",
+      "highlight": "read",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Could you repeat the booking details aloud so I can check them?",
+      "promptZh": "你可以把預訂資料大聲重複給我聽,讓我核對嗎?",
+      "starter": "Could",
+      "answer": "Could you read back the booking details so I can check them?",
+      "answerZh": "你可以把預訂資料讀回給我聽,讓我核對嗎?",
+      "highlight": "read back",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why are you giving one smile so much hidden meaning?",
+      "promptZh": "你為何把一個微笑想成有這麼多隱藏意思?",
+      "starter": "Why",
+      "answer": "Why are you reading so much into one smile?",
+      "answerZh": "你為何把一個微笑想成有這麼多隱藏意思?",
+      "highlight": "reading so much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The nurse has repeated the appointment time aloud to the patient so the patient can check it.",
+      "promptZh": "護士已把預約時間大聲重複給病人聽,讓病人核對。",
+      "starter": "The",
+      "answer": "The nurse has read the appointment time back to the patient so the patient can check it.",
+      "answerZh": "護士已把預約時間讀回給病人聽,讓病人核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Has anyone said the written message aloud to the group yet?",
+      "promptZh": "有人已把訊息大聲讀給全組人聽嗎?",
+      "starter": "Has",
+      "answer": "Has anyone read the message out to the group yet?",
+      "answerZh": "有人已把訊息大聲讀給全組人聽嗎?",
+      "highlight": "read",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I did not think her comment contained any criticism.",
+      "promptZh": "我沒有認為她的說話包含任何批評。",
+      "starter": "I",
+      "answer": "I did not read any criticism into her comment.",
+      "answerZh": "我沒有從她的說話中看出任何批評。",
+      "highlight": "read any criticism into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo was saying the final written question aloud when the bell rang.",
+      "promptZh": "鈴聲響起時,Leo 正在大聲讀最後一道問題。",
+      "starter": "Leo",
+      "answer": "Leo was reading the final question out when the bell rang.",
+      "answerZh": "鈴聲響起時,Leo 正在大聲讀最後一道問題。",
+      "highlight": "reading",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The receptionist did not repeat the email address aloud clearly enough for me to check it.",
+      "promptZh": "接待員沒有清楚地把電郵地址大聲重複給我聽,令我無法核對。",
+      "starter": "The",
+      "answer": "The receptionist did not read the email address back clearly enough for me to check it.",
+      "answerZh": "接待員沒有清楚地把電郵地址讀回給我聽,令我無法核對。",
+      "highlight": "read",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They may be giving the team’s silence more meaning than it really has.",
+      "promptZh": "他們可能把球隊的沉默想得太多。",
+      "starter": "They",
+      "answer": "They may be reading too much into the team’s silence.",
+      "answerZh": "他們可能把球隊的沉默想得太多。",
+      "highlight": "reading too much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Dad could not see the note clearly. Ava read it aloud to him slowly.",
+      "promptZh": "爸爸看不清那張字條。Ava 慢慢把它大聲讀給他聽。",
+      "starter": "Dad",
+      "answer": "Dad could not see the note clearly. Ava read it out to him slowly.",
+      "answerZh": "爸爸看不清那張字條。Ava 慢慢把它大聲讀給他聽。",
+      "highlight": "read it out",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I wrote down the code and repeated it aloud to the technician so we could check it.",
+      "promptZh": "我記下代碼後,把它大聲重複給技術人員聽,讓我們核對。",
+      "starter": "I",
+      "answer": "I wrote down the code and read it back to the technician so we could check it.",
+      "answerZh": "我記下代碼後,把它讀回給技術人員聽,讓我們核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "His reply was only “OK”. Please do not give it more meaning than it really has.",
+      "promptZh": "他的回覆只有「OK」。請不要把它想得太多。",
+      "starter": "His",
+      "answer": "His reply was only “OK”. Please do not read too much into it.",
+      "answerZh": "他的回覆只有「OK」。請不要把它想得太多。",
+      "highlight": "read too much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A volunteer read the notice aloud to everyone at the meeting.",
+      "promptZh": "一名義工在會議上把通告大聲讀給所有人聽。",
+      "starter": "A",
+      "answer": "A volunteer read the notice out to everyone at the meeting.",
+      "answerZh": "一名義工在會議上把通告大聲讀給所有人聽。",
+      "highlight": "read the notice out",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Some fans believed the song title contained a secret message, although there was no proof.",
+      "promptZh": "有些歌迷相信歌名包含秘密訊息,但沒有證據。",
+      "starter": "Some",
+      "answer": "Some fans read a secret message into the song title, although there was no proof.",
+      "answerZh": "有些歌迷從歌名中看出秘密訊息,但沒有證據。",
+      "highlight": "read a secret message into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I have given you four numbers. Please repeat them aloud in the same order so I can check them.",
+      "promptZh": "我已給你四個數字。請按相同次序大聲重複,讓我核對。",
+      "starter": "I",
+      "answer": "I have given you four numbers. Please read them back in the same order so I can check them.",
+      "answerZh": "我已給你四個數字。請按相同次序把它們讀回給我聽,讓我核對。",
+      "highlight": "read",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The team captain had the names on a list and said them aloud one by one.",
+      "promptZh": "隊長手上有一份名單,並逐一大聲讀出名字。",
+      "starter": "The",
+      "answer": "The team captain had the names on a list and read them out one by one.",
+      "answerZh": "隊長手上有一份名單,並逐一大聲讀出名字。",
+      "highlight": "read",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The operator asked me to repeat the number aloud so she could check it.",
+      "promptZh": "接線員請我把號碼大聲重複一次,讓她核對。",
+      "starter": "The",
+      "answer": "The operator asked me to read the number back so she could check it.",
+      "answerZh": "接線員請我把號碼讀回給她聽,讓她核對。",
+      "highlight": "read",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A few people thought her serious face showed dislike, but that may not have been true.",
+      "promptZh": "有些人認為她嚴肅的表情表示不喜歡,但這未必是真的。",
+      "starter": "A",
+      "answer": "A few people read dislike into her serious face, but that may not have been true.",
+      "answerZh": "有些人從她嚴肅的表情中看出不喜歡,但這未必是真的。",
+      "highlight": "read dislike into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could you read this part aloud to us again?",
+      "promptZh": "你可以再次把這一段大聲讀給我們聽嗎?",
+      "starter": "Could",
+      "answer": "Could you read this part out to us again?",
+      "answerZh": "你可以再次把這一段大聲讀給我們聽嗎?",
+      "highlight": "read this part out",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After writing down the order, Jo repeated it aloud so the customer could check it.",
+      "promptZh": "Jo 記下訂單後,把內容大聲重複給顧客聽,讓顧客核對。",
+      "starter": "After",
+      "answer": "After writing down the order, Jo read it back to the customer so the customer could check it.",
+      "answerZh": "Jo 記下訂單後,把內容讀回給顧客聽,讓顧客核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not assume a delayed reply means rejection.",
+      "promptZh": "不要假設回覆遲了便代表被拒絕。",
+      "starter": "Do",
+      "answer": "Do not read rejection into a delayed reply.",
+      "answerZh": "不要把回覆遲了理解為被拒絕。",
+      "highlight": "read rejection into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "At the meeting, Chen said aloud the names of the people who had volunteered.",
+      "promptZh": "在會議上,Chen 大聲讀出所有自願幫忙者的名字。",
+      "starter": "At",
+      "answer": "At the meeting, Chen read out the names of the people who had volunteered.",
+      "answerZh": "在會議上,Chen 大聲讀出所有自願幫忙者的名字。",
+      "highlight": "read out",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The assistant repeated the delivery address aloud for checking, but one number was wrong.",
+      "promptZh": "助理把送貨地址大聲重複一次供核對,但其中一個數字錯了。",
+      "starter": "The",
+      "answer": "The assistant read the delivery address back, but one number was wrong.",
+      "answerZh": "助理把送貨地址讀回供核對,但其中一個數字錯了。",
+      "highlight": "read",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The announcer read the result aloud before the screen changed.",
+      "promptZh": "螢幕轉換前,廣播員大聲讀出結果。",
+      "starter": "The",
+      "answer": "The announcer read the result out before the screen changed.",
+      "answerZh": "螢幕轉換前,廣播員大聲讀出結果。",
+      "highlight": "read the result out",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Owen believed her answer showed more confidence than she actually felt.",
+      "promptZh": "Owen 以為她的答案顯得比她實際感受到的更有自信。",
+      "starter": "Owen",
+      "answer": "Owen read more confidence into her answer than she actually felt.",
+      "answerZh": "Owen 從她的答案中看出比她實際感受到的更多自信。",
+      "highlight": "read more confidence into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When I called the bank, the worker repeated my new details aloud so I could check them.",
+      "promptZh": "我致電銀行時,職員把我的新資料大聲重複給我聽,讓我核對。",
+      "starter": "When",
+      "answer": "When I called the bank, the worker read my new details back to me so I could check them.",
+      "answerZh": "我致電銀行時,職員把我的新資料讀回給我聽,讓我核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "She thought a general online post was a personal message for her.",
+      "promptZh": "她以為一則一般的網上帖文是給她的私人訊息。",
+      "starter": "She",
+      "answer": "She read a personal message into a general online post.",
+      "answerZh": "她把一則一般的網上帖文理解為給她的私人訊息。",
+      "highlight": "read a personal message into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The coach said the written starting order aloud to both teams.",
+      "promptZh": "教練把出場次序大聲讀給兩隊聽。",
+      "starter": "The",
+      "answer": "The coach read the starting order out to both teams.",
+      "answerZh": "教練把出場次序大聲讀給兩隊聽。",
+      "highlight": "read",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before ending the call, Priya repeated all the recorded information aloud once more to make sure it was correct.",
+      "promptZh": "結束通話前,Priya 再次大聲重複所有記錄資料,以確保正確。",
+      "starter": "Before",
+      "answer": "Before ending the call, Priya read everything back once more to make sure it was correct.",
+      "answerZh": "結束通話前,Priya 再次讀回所有資料,以確保正確。",
+      "highlight": "read everything back",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because the reply ended with a full stop, Dan thought it showed annoyance, although that was not certain.",
+      "promptZh": "因為回覆以句號結尾,Dan 認為當中帶有不滿,但這並不確定。",
+      "starter": "Because",
+      "answer": "Because the reply ended with a full stop, Dan read annoyance into it, although that was not certain.",
+      "answerZh": "因為回覆以句號結尾,Dan 從中看出不滿,但這並不確定。",
+      "highlight": "read annoyance into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Since several people could not see the notice, Lena read it aloud to the whole room.",
+      "promptZh": "因為有幾個人看不清通告,Lena 把它大聲讀給整個房間的人聽。",
+      "starter": "Since",
+      "answer": "Since several people could not see the notice, Lena read it out to the whole room.",
+      "answerZh": "因為有幾個人看不清通告,Lena 把它大聲讀給整個房間的人聽。",
+      "highlight": "read it out",
+      "targetForm": "read something out to somebody",
+      "targetMeaningZh": "把文字大聲讀給某人聽"
+    },
+    {
+      "id": "phrasal-verb-62-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The travel agent carefully repeated the dates aloud for checking, and I noticed the mistake.",
+      "promptZh": "旅行社職員小心地把日期大聲重複一次供核對,而我發現了錯誤。",
+      "starter": "The",
+      "answer": "The travel agent carefully read back the dates, and I noticed the mistake.",
+      "answerZh": "旅行社職員小心地把日期讀回供核對,而我發現了錯誤。",
+      "highlight": "read back",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We should not assume the manager’s silence shows disapproval without asking her.",
+      "promptZh": "未問清楚經理前,我們不應假設她沉默便表示不滿。",
+      "starter": "We",
+      "answer": "We should not read disapproval into the manager’s silence without asking her.",
+      "answerZh": "未問清楚經理前,我們不應把她的沉默理解為不滿。",
+      "highlight": "read disapproval into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Once the form was complete, I repeated all the answers aloud to the caller so we could check them.",
+      "promptZh": "表格完成後,我把所有答案大聲重複給來電者聽,讓我們核對。",
+      "starter": "Once",
+      "answer": "Once the form was complete, I read all the answers back to the caller so we could check them.",
+      "answerZh": "表格完成後,我把所有答案讀回給來電者聽,讓我們核對。",
+      "highlight": "read",
+      "targetForm": "read something back to somebody",
+      "targetMeaningZh": "把資料讀回給人聽,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At the school show, the presenter said the final scores aloud before naming the winner.",
+      "promptZh": "在學校表演中,司儀在宣布勝出者前大聲讀出最終分數。",
+      "starter": "At",
+      "answer": "At the school show, the presenter read out the final scores before naming the winner.",
+      "answerZh": "在學校表演中,司儀在宣布勝出者前大聲讀出最終分數。",
+      "highlight": "read out",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Some viewers believed the final scene contained a warning about the future, although the writer did not say so.",
+      "promptZh": "有些觀眾認為最後一幕包含對未來的警告,但作者並沒有這樣說。",
+      "starter": "Some",
+      "answer": "Some viewers read a warning about the future into the final scene, although the writer did not say so.",
+      "answerZh": "有些觀眾從最後一幕中看出對未來的警告,但作者並沒有這樣說。",
+      "highlight": "read",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    },
+    {
+      "id": "phrasal-verb-62-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please read the last two lines aloud, but do not explain them yet.",
+      "promptZh": "請大聲讀出最後兩行,但暫時不要解釋。",
+      "starter": "Please",
+      "answer": "Please read the last two lines out, but do not explain them yet.",
+      "answerZh": "請大聲讀出最後兩行,但暫時不要解釋。",
+      "highlight": "read the last two lines out",
+      "targetForm": "read something out",
+      "targetMeaningZh": "把文字大聲讀出來"
+    },
+    {
+      "id": "phrasal-verb-62-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The staff member repeated the new reference number aloud twice to avoid a mistake.",
+      "promptZh": "職員把新的參考編號大聲重複兩次,以免出錯。",
+      "starter": "The",
+      "answer": "The staff member read the new reference number back twice to avoid a mistake.",
+      "answerZh": "職員把新的參考編號讀回兩次,以免出錯。",
+      "highlight": "read",
+      "targetForm": "read something back",
+      "targetMeaningZh": "把資料讀回,以便核對"
+    },
+    {
+      "id": "phrasal-verb-62-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Even a friendly joke can be misunderstood if you give it more meaning than it really has.",
+      "promptZh": "即使是一個友善的笑話,如果你把它想得太多,也可能造成誤會。",
+      "starter": "Even",
+      "answer": "Even a friendly joke can be misunderstood if you read too much into it.",
+      "answerZh": "即使是一個友善的笑話,如果你把它想得太多,也可能造成誤會。",
+      "highlight": "read too much into",
+      "targetForm": "read something into something",
+      "targetMeaningZh": "看出或加上可能不存在的額外意思"
+    }
+  ]
+}

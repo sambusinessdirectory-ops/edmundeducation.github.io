@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-240",
+  "order": 240,
+  "slug": "bounce",
+  "version": "1",
+  "title": "BOUNCE 動詞片語",
+  "titleEn": "Bounce",
+  "titleZh": "BOUNCE 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 231 - BOUNCE.pdf",
+    "sourceNumber": 231,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BOUNCE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BOUNCE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BOUNCE",
+      "highlight": "BOUNCE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "No matter what happens, she always bounces back very quickly.",
+      "zh": "無論發生甚麼事,她總能很快恢復過來。",
+      "highlight": "bounces back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The email bounced back because the address was wrong.",
+      "zh": "由於電郵地址錯誤,該封電郵被退回。)The system bounced the message back to me.(系統把訊息退回給我。",
+      "highlight": "bounced back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+      "zh": "我覺得自己在未有足夠時間考慮的情況下,被迫支持一項並不真正認同的提案。",
+      "highlight": "bounced into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。；電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。；在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。；把想法、建議或選項提出來與其他人討論。",
+    "en": "bounce back / bounce back from something; bounce back / bounce something back; bounce somebody into something / bounce somebody into doing something; bounce something around",
+    "naturalZh": [
+      "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+      "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+      "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+      "把想法、建議或選項提出來與其他人討論。"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bounce back / bounce back from something",
+      "titleZh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+      "titleEn": "bounce back / bounce back from something",
+      "descriptionZh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+      "descriptionEn": "No matter what happens, she always bounces back very quickly.",
+      "examples": [
+        {
+          "en": "No matter what happens, she always bounces back very quickly.",
+          "zh": "無論發生甚麼事,她總能很快恢復過來。",
+          "highlight": "bounces back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bounce back / bounce something back",
+      "titleZh": "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+      "titleEn": "bounce back / bounce something back",
+      "descriptionZh": "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+      "descriptionEn": "The email bounced back because the address was wrong.",
+      "examples": [
+        {
+          "en": "The email bounced back because the address was wrong.",
+          "zh": "由於電郵地址錯誤,該封電郵被退回。)The system bounced the message back to me.(系統把訊息退回給我。",
+          "highlight": "bounced back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bounce somebody into something / bounce somebody into doing something",
+      "titleZh": "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+      "titleEn": "bounce somebody into something / bounce somebody into doing something",
+      "descriptionZh": "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+      "descriptionEn": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+      "examples": [
+        {
+          "en": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+          "zh": "我覺得自己在未有足夠時間考慮的情況下,被迫支持一項並不真正認同的提案。",
+          "highlight": "bounced into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bounce something around",
+      "titleZh": "把想法、建議或選項提出來與其他人討論。",
+      "titleEn": "bounce something around",
+      "descriptionZh": "把想法、建議或選項提出來與其他人討論。",
+      "descriptionEn": "We are bouncing some new ideas around.",
+      "examples": [
+        {
+          "en": "We are bouncing some new ideas around.",
+          "zh": "我們正在一起討論一些新構思。",
+          "highlight": "bouncing some new ideas around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BOUNCE 片語動詞的實際用途",
+    "labelEn": "BOUNCE Phrasal Verbs in Use",
+    "summaryZh": "bounce back 可以描述一個人、球隊或商店在困難後恢復健康、信心或良好表現。；bounce back 可以清楚表示電郵未能送達收件者,因而被退回。；bounce somebody into something 可以表示某人在未有足夠時間考慮前,便被迫作出決定。；bounce ideas around 適合用來表示一群人在作決定前,一起討論不同可能性。",
+    "summaryEn": "Bounce back helps you describe a person, team or business becoming well, confident or successful again. Bounce back can explain clearly that an email did not reach the intended person and was returned. Bounce somebody into something shows that a person was pushed into deciding before having enough time to think. Bounce ideas around is useful when a group wants to explore different possibilities before deciding.",
+    "contextsZh": [
+      "談論經歷困難後重新振作",
+      "理解電郵未能送達的情況",
+      "描述某人被迫匆忙作決定",
+      "作決定前一起討論不同構思"
+    ],
+    "contextsEn": [
+      "Talk about recovering after difficulties",
+      "Understand failed email delivery",
+      "Describe pressure to make a quick decision",
+      "Discuss ideas before making a choice"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BOUNCE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BOUNCE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bounce back / bounce back from something",
+    "fixedHighlight": "bounce back / bounce back from something",
+    "fixedZh": "閱讀整句,選出意思相同的 BOUNCE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BOUNCE expression that gives the same meaning.",
+    "correct": "bounces back",
+    "incorrectForms": [],
+    "variableZh": "BOUNCE BACK 在本練習中有兩個不同意思:它可以表示從困難中恢復,也可以表示電郵因無法送達而被退回。；BOUNCE SOMEBODY INTO 後面可以接一件事情,也可以接一個行動。；把 idea、suggestion、option 或代名詞放在 BOUNCE 和 AROUND 之間。",
+    "variableEn": "BOUNCE BACK has two different meanings in this exercise. It may describe recovering from a problem, or an email returning because it could not be delivered. BOUNCE SOMEBODY INTO may be followed by a thing or an action: bounce him into an agreement bounce him into signing an agreement Place the idea, suggestion or option between BOUNCE and AROUND: bounce the idea around bounce it around",
+    "variableItemsZh": [
+      "bounce back / bounce back from something",
+      "bounce back / bounce something back",
+      "bounce somebody into something / bounce somebody into doing something",
+      "bounce something around"
+    ],
+    "variableItemsEn": [
+      "bounce back / bounce back from something",
+      "bounce back / bounce something back",
+      "bounce somebody into something / bounce somebody into doing something",
+      "bounce something around"
+    ],
+    "forms": [
+      {
+        "formZh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+        "formEn": "bounce back / bounce back from something",
+        "exampleZh": "無論發生甚麼事,她總能很快恢復過來。",
+        "exampleEn": "No matter what happens, she always bounces back very quickly.",
+        "highlight": "bounces back"
+      },
+      {
+        "formZh": "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+        "formEn": "bounce back / bounce something back",
+        "exampleZh": "由於電郵地址錯誤,該封電郵被退回。)The system bounced the message back to me.(系統把訊息退回給我。",
+        "exampleEn": "The email bounced back because the address was wrong.",
+        "highlight": "bounced back"
+      },
+      {
+        "formZh": "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+        "formEn": "bounce somebody into something / bounce somebody into doing something",
+        "exampleZh": "我覺得自己在未有足夠時間考慮的情況下,被迫支持一項並不真正認同的提案。",
+        "exampleEn": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+        "highlight": "bounced into"
+      },
+      {
+        "formZh": "把想法、建議或選項提出來與其他人討論。",
+        "formEn": "bounce something around",
+        "exampleZh": "我們正在一起討論一些新構思。",
+        "exampleEn": "We are bouncing some new ideas around.",
+        "highlight": "bouncing some new ideas around"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+      "titleEn": "bounce back / bounce back from something",
+      "formula": "bounce back / bounce back from something",
+      "highlight": "bounce back / bounce back from something",
+      "descriptionZh": "從疾病、失敗、失望或其他困難中恢復過來;重振狀態。",
+      "descriptionEn": "No matter what happens, she always bounces back very quickly.",
+      "examples": [
+        {
+          "en": "No matter what happens, she always bounces back very quickly.",
+          "zh": "無論發生甚麼事,她總能很快恢復過來。",
+          "highlight": "bounces back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+      "titleEn": "bounce back / bounce something back",
+      "formula": "bounce back / bounce something back",
+      "highlight": "bounce back / bounce something back",
+      "descriptionZh": "電郵因地址錯誤或系統問題而無法送達,並被退回寄件者;系統把電郵退回。",
+      "descriptionEn": "The email bounced back because the address was wrong.",
+      "examples": [
+        {
+          "en": "The email bounced back because the address was wrong.",
+          "zh": "由於電郵地址錯誤,該封電郵被退回。)The system bounced the message back to me.(系統把訊息退回給我。",
+          "highlight": "bounced back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+      "titleEn": "bounce somebody into something / bounce somebody into doing something",
+      "formula": "bounce somebody into something / bounce somebody into doing something",
+      "highlight": "bounce somebody into something / bounce somebody into doing something",
+      "descriptionZh": "在對方未有足夠時間考慮的情況下,迫使或誘使對方作出決定或做某事。",
+      "descriptionEn": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+      "examples": [
+        {
+          "en": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+          "zh": "我覺得自己在未有足夠時間考慮的情況下,被迫支持一項並不真正認同的提案。",
+          "highlight": "bounced into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把想法、建議或選項提出來與其他人討論。",
+      "titleEn": "bounce something around",
+      "formula": "bounce something around",
+      "highlight": "bounce something around",
+      "descriptionZh": "把想法、建議或選項提出來與其他人討論。",
+      "descriptionEn": "We are bouncing some new ideas around.",
+      "examples": [
+        {
+          "en": "We are bouncing some new ideas around.",
+          "zh": "我們正在一起討論一些新構思。",
+          "highlight": "bouncing some new ideas around"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論經歷困難後重新振作",
+      "titleEn": "Talk about recovering after difficulties",
+      "zh": "bounce back 可以描述一個人、球隊或商店在困難後恢復健康、信心或良好表現。",
+      "en": "Bounce back helps you describe a person, team or business becoming well, confident or successful again."
+    },
+    {
+      "titleZh": "理解電郵未能送達的情況",
+      "titleEn": "Understand failed email delivery",
+      "zh": "bounce back 可以清楚表示電郵未能送達收件者,因而被退回。",
+      "en": "Bounce back can explain clearly that an email did not reach the intended person and was returned."
+    },
+    {
+      "titleZh": "描述某人被迫匆忙作決定",
+      "titleEn": "Describe pressure to make a quick decision",
+      "zh": "bounce somebody into something 可以表示某人在未有足夠時間考慮前,便被迫作出決定。",
+      "en": "Bounce somebody into something shows that a person was pushed into deciding before having enough time to think."
+    },
+    {
+      "titleZh": "作決定前一起討論不同構思",
+      "titleEn": "Discuss ideas before making a choice",
+      "zh": "bounce ideas around 適合用來表示一群人在作決定前,一起討論不同可能性。",
+      "en": "Bounce ideas around is useful when a group wants to explore different possibilities before deciding."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論經歷困難後重新振作",
+      "理解電郵未能送達的情況",
+      "描述某人被迫匆忙作決定",
+      "作決定前一起討論不同構思"
+    ],
+    "contextsEn": [
+      "Talk about recovering after difficulties",
+      "Understand failed email delivery",
+      "Describe pressure to make a quick decision",
+      "Discuss ideas before making a choice"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論經歷困難後重新振作",
+        "titleEn": "Talk about recovering after difficulties",
+        "zh": "bounce back 可以描述一個人、球隊或商店在困難後恢復健康、信心或良好表現。",
+        "en": "Bounce back helps you describe a person, team or business becoming well, confident or successful again.",
+        "examples": [
+          {
+            "en": "No matter what happens, she always bounces back very quickly.",
+            "zh": "無論發生甚麼事,她總能很快恢復過來。",
+            "highlight": "bounces back"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解電郵未能送達的情況",
+        "titleEn": "Understand failed email delivery",
+        "zh": "bounce back 可以清楚表示電郵未能送達收件者,因而被退回。",
+        "en": "Bounce back can explain clearly that an email did not reach the intended person and was returned.",
+        "examples": [
+          {
+            "en": "The email bounced back because the address was wrong.",
+            "zh": "由於電郵地址錯誤,該封電郵被退回。)The system bounced the message back to me.(系統把訊息退回給我。",
+            "highlight": "bounced back"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人被迫匆忙作決定",
+        "titleEn": "Describe pressure to make a quick decision",
+        "zh": "bounce somebody into something 可以表示某人在未有足夠時間考慮前,便被迫作出決定。",
+        "en": "Bounce somebody into something shows that a person was pushed into deciding before having enough time to think.",
+        "examples": [
+          {
+            "en": "I felt I had been bounced into supporting a proposal I did not really agree with.",
+            "zh": "我覺得自己在未有足夠時間考慮的情況下,被迫支持一項並不真正認同的提案。",
+            "highlight": "bounced into"
+          }
+        ]
+      },
+      {
+        "titleZh": "作決定前一起討論不同構思",
+        "titleEn": "Discuss ideas before making a choice",
+        "zh": "bounce ideas around 適合用來表示一群人在作決定前,一起討論不同可能性。",
+        "en": "Bounce ideas around is useful when a group wants to explore different possibilities before deciding.",
+        "examples": [
+          {
+            "en": "We are bouncing some new ideas around.",
+            "zh": "我們正在一起討論一些新構思。",
+            "highlight": "bouncing some new ideas around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BOUNCE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BOUNCE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BOUNCE 片語動詞。",
+      "en": "Read the whole sentence and choose the BOUNCE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "BOUNCE BACK 在本練習中有兩個不同意思:它可以表示從困難中恢復,也可以表示電郵因無法送達而被退回。",
+      "titleEn": "BOUNCE BACK has two different meanings in this exercise.",
+      "zh": "BOUNCE BACK 在本練習中有兩個不同意思:它可以表示從困難中恢復,也可以表示電郵因無法送達而被退回。",
+      "en": "BOUNCE BACK has two different meanings in this exercise. It may describe recovering from a problem, or an email returning because it could not be delivered."
+    },
+    {
+      "titleZh": "BOUNCE SOMEBODY INTO 後面可以接一件事情,也可以接一個行動。",
+      "titleEn": "BOUNCE SOMEBODY INTO may be followed by a thing or an action: bounce him into an agreement bounce him into signing an agreement.",
+      "zh": "BOUNCE SOMEBODY INTO 後面可以接一件事情,也可以接一個行動。",
+      "en": "BOUNCE SOMEBODY INTO may be followed by a thing or an action: bounce him into an agreement bounce him into signing an agreement"
+    },
+    {
+      "titleZh": "把 idea、suggestion、option 或代名詞放在 BOUNCE 和 AROUND 之間。",
+      "titleEn": "Place the idea, suggestion or option between BOUNCE and AROUND: bounce the idea around bounce it around.",
+      "zh": "把 idea、suggestion、option 或代名詞放在 BOUNCE 和 AROUND 之間。",
+      "en": "Place the idea, suggestion or option between BOUNCE and AROUND: bounce the idea around bounce it around"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BOUNCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BOUNCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BOUNCE 動詞片語句子改寫練習",
+    "titleEn": "BOUNCE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BOUNCE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BOUNCE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-240-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "After losing the first match, the team recovered quickly and won the next two.",
+      "promptZh": "球隊輸掉第一場比賽後很快便恢復過來,並勝出接下來兩場比賽。",
+      "starter": "After",
+      "answer": "After losing the first match, the team bounced back and won the next two.",
+      "answerZh": "球隊輸掉第一場比賽後重新振作,並勝出接下來兩場比賽。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "從失敗或困難中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "My email was returned to me because I had typed the address wrongly.",
+      "promptZh": "由於我輸入了錯誤的地址,該封電郵被退回給我。",
+      "starter": "My",
+      "answer": "My email bounced back because I had typed the address wrongly.",
+      "answerZh": "由於我輸入了錯誤的地址,該封電郵被退回。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "電郵因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The chair pressured the members into a quick vote before they had time to think.",
+      "promptZh": "主席在成員有時間考慮前,便迫使他們迅速投票。",
+      "starter": "The",
+      "answer": "The chair bounced the members into a quick vote before they had time to think.",
+      "answerZh": "主席在成員有時間考慮前,便迫使他們迅速投票。",
+      "highlight": "bounced",
+      "targetForm": "bounce somebody into something",
+      "targetMeaningZh": "迫使某人在未充分考慮下作決定"
+    },
+    {
+      "id": "phrasal-verb-240-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We discussed a few ideas before choosing the poster.",
+      "promptZh": "我們選擇海報前,先討論了幾個構思。",
+      "starter": "We",
+      "answer": "We bounced a few ideas around before choosing the poster.",
+      "answerZh": "我們選擇海報前,先一起討論了幾個構思。",
+      "highlight": "bounced",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Lena recovered quickly after being ill.",
+      "promptZh": "莉娜生病後很快便恢復過來。",
+      "starter": "Lena",
+      "answer": "Lena bounced back quickly after being ill.",
+      "answerZh": "莉娜生病後很快便恢復過來。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "從疾病中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach made Ravi agree to join the race before he had time to think.",
+      "promptZh": "教練在拉維有時間考慮前,便使他答應參加比賽。",
+      "starter": "The",
+      "answer": "The coach bounced Ravi into joining the race before he had time to think.",
+      "answerZh": "教練在拉維有時間考慮前,便迫使他答應參加比賽。",
+      "highlight": "bounced",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The system returned the message because the address did not exist.",
+      "promptZh": "由於該地址不存在,系統退回了訊息。",
+      "starter": "The",
+      "answer": "The system bounced the message back because the address did not exist.",
+      "answerZh": "由於該地址不存在,系統退回了訊息。",
+      "highlight": "bounced",
+      "targetForm": "bounce something back",
+      "targetMeaningZh": "把未能送達的訊息退回"
+    },
+    {
+      "id": "phrasal-verb-240-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Our shop became successful again after a difficult month.",
+      "promptZh": "我們的店舖經歷艱難的一個月後,生意再次好轉。",
+      "starter": "Our",
+      "answer": "Our shop bounced back after a difficult month.",
+      "answerZh": "我們的店舖經歷艱難的一個月後,生意再次好轉。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "經歷困難後恢復良好表現"
+    },
+    {
+      "id": "phrasal-verb-240-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The class discussed possible names for the school magazine.",
+      "promptZh": "全班討論了校刊可以使用的名稱。",
+      "starter": "The",
+      "answer": "The class bounced possible names around for the school magazine.",
+      "answerZh": "全班一起討論了校刊可以使用的名稱。",
+      "highlight": "bounced",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I felt I had been pressured into supporting a plan I did not really like.",
+      "promptZh": "我覺得自己被迫支持一項並不真正喜歡的計劃。",
+      "starter": "I",
+      "answer": "I felt I had been bounced into supporting a plan I did not really like.",
+      "answerZh": "我覺得自己被迫支持一項並不真正喜歡的計劃。",
+      "highlight": "been bounced",
+      "targetForm": "be bounced into doing something",
+      "targetMeaningZh": "在未充分考慮下被迫做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Let’s discuss two possible titles before we decide.",
+      "promptZh": "我們作決定前,先討論兩個可能的標題吧。",
+      "starter": "Let’s",
+      "answer": "Let’s bounce two possible titles around before we decide.",
+      "answerZh": "我們作決定前,先一起討論兩個可能的標題吧。",
+      "highlight": "bounce",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Zoe has recovered well from her ankle injury.",
+      "promptZh": "佐伊的腳踝受傷後恢復得很好。",
+      "starter": "Zoe",
+      "answer": "Zoe has bounced back well from her ankle injury.",
+      "answerZh": "佐伊的腳踝受傷後恢復得很好。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back from something",
+      "targetMeaningZh": "從受傷或困難中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did the email return to me instead of reaching him?",
+      "promptZh": "為甚麼該封電郵沒有送達他那裏,反而退回給我?",
+      "starter": "Why",
+      "answer": "Why did the email bounce back to me instead of reaching him?",
+      "answerZh": "為甚麼該封電郵沒有送達他那裏,反而退回給我?",
+      "highlight": "bounce back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "電郵因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Do not let them pressure you to sign today before you have time to think.",
+      "promptZh": "不要讓他們在你有時間考慮前,便迫使你今天簽署。",
+      "starter": "Do",
+      "answer": "Do not let them bounce you into signing today before you have time to think.",
+      "answerZh": "不要讓他們在你有時間考慮前,便迫使你今天簽署。",
+      "highlight": "bounce",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The designers are discussing several colour ideas this afternoon.",
+      "promptZh": "設計師今天下午正在討論幾個顏色構思。",
+      "starter": "The",
+      "answer": "The designers are bouncing several colour ideas around this afternoon.",
+      "answerZh": "設計師今天下午正在一起討論幾個顏色構思。",
+      "highlight": "bouncing",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The school email system may return large messages to the sender.",
+      "promptZh": "學校的電郵系統可能會把容量較大的訊息退回寄件者。",
+      "starter": "The",
+      "answer": "The school email system may bounce large messages back to the sender.",
+      "answerZh": "學校的電郵系統可能會把容量較大的訊息退回寄件者。",
+      "highlight": "bounce",
+      "targetForm": "bounce something back",
+      "targetMeaningZh": "把未能送達的訊息退回"
+    },
+    {
+      "id": "phrasal-verb-240-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Daniel usually recovers quickly from disappointment.",
+      "promptZh": "丹尼爾通常能很快從失望中恢復過來。",
+      "starter": "Daniel",
+      "answer": "Daniel usually bounces back quickly from disappointment.",
+      "answerZh": "丹尼爾通常能很快從失望中恢復過來。",
+      "highlight": "bounces back",
+      "targetForm": "bounce back from something",
+      "targetMeaningZh": "從失望或困難中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Were you pressured into accepting their first offer before you could consider it properly?",
+      "promptZh": "你是否在未能充分考慮前,便被迫接受他們的第一個提議?",
+      "starter": "Were",
+      "answer": "Were you bounced into accepting their first offer before you could consider it properly?",
+      "answerZh": "你是否在未能充分考慮前,便被迫接受他們的第一個提議?",
+      "highlight": "Were you bounced",
+      "targetForm": "be bounced into doing something",
+      "targetMeaningZh": "在未充分考慮下被迫做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Every message I sent was returned to me without being delivered.",
+      "promptZh": "我傳送的每一則訊息都未能送達,並被退回給我。",
+      "starter": "Every",
+      "answer": "Every message I sent bounced back to me without being delivered.",
+      "answerZh": "我傳送的每一則訊息都未能送達,並被退回給我。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "訊息因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Could we discuss your suggestion at tomorrow’s meeting?",
+      "promptZh": "我們可以在明天的會議上討論你的建議嗎?",
+      "starter": "Could",
+      "answer": "Could we bounce your suggestion around at tomorrow’s meeting?",
+      "answerZh": "我們可以在明天的會議上一起討論你的建議嗎?",
+      "highlight": "bounce",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論建議或想法"
+    },
+    {
+      "id": "phrasal-verb-240-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They pressured her into an agreement she had not had time to read.",
+      "promptZh": "他們在她未有時間閱讀協議前,便迫使她接受了它。",
+      "starter": "They",
+      "answer": "They bounced her into an agreement she had not had time to read.",
+      "answerZh": "他們在她未有時間閱讀協議前,便迫使她接受了它。",
+      "highlight": "bounced",
+      "targetForm": "bounce somebody into something",
+      "targetMeaningZh": "迫使某人在未充分考慮下接受某事"
+    },
+    {
+      "id": "phrasal-verb-240-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I sent a message to Leo. The address was wrong, so the system returned it to me.",
+      "promptZh": "我向里奧傳送了一則訊息。由於地址錯誤,系統把它退回給我。",
+      "starter": "I",
+      "answer": "I sent a message to Leo. The address was wrong, so the system bounced it back to me.",
+      "answerZh": "我向里奧傳送了一則訊息。由於地址錯誤,系統把它退回給我。",
+      "highlight": "bounced",
+      "targetForm": "bounce something back",
+      "targetMeaningZh": "把未能送達的訊息退回"
+    },
+    {
+      "id": "phrasal-verb-240-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Although the first week was hard, Aaron recovered surprisingly fast.",
+      "promptZh": "雖然第一個星期很艱難,但亞倫恢復得出奇地快。",
+      "starter": "Although",
+      "answer": "Although the first week was hard, Aaron bounced back surprisingly fast.",
+      "answerZh": "雖然第一個星期很艱難,但亞倫恢復得出奇地快。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "經歷困難後恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We had one possible solution, so we discussed it for a while.",
+      "promptZh": "我們有一個可能的解決方法,因此討論了一會。",
+      "starter": "We",
+      "answer": "We had one possible solution, so we bounced it around for a while.",
+      "answerZh": "我們有一個可能的解決方法,因此一起討論了一會。",
+      "highlight": "bounced",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或方案"
+    },
+    {
+      "id": "phrasal-verb-240-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The message has been returned to me twice because it could not be delivered.",
+      "promptZh": "由於訊息未能送達,它已兩次被退回給我。",
+      "starter": "The",
+      "answer": "The message has been bounced back to me twice because it could not be delivered.",
+      "answerZh": "由於訊息未能送達,它已兩次被退回給我。",
+      "highlight": "been bounced back",
+      "targetForm": "be bounced back",
+      "targetMeaningZh": "因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Can the team recover from such a heavy defeat?",
+      "promptZh": "球隊能否從這場慘敗中恢復過來?",
+      "starter": "Can",
+      "answer": "Can the team bounce back from such a heavy defeat?",
+      "answerZh": "球隊能否從這場慘敗中恢復過來?",
+      "highlight": "bounce back",
+      "targetForm": "bounce back from something",
+      "targetMeaningZh": "從失敗或困難中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The manager set a sudden deadline and pressured us into making a decision too quickly.",
+      "promptZh": "經理突然設定限期,迫使我們過於匆忙地作出決定。",
+      "starter": "The",
+      "answer": "The manager bounced us into making a decision too quickly by setting a sudden deadline.",
+      "answerZh": "經理突然設定限期,迫使我們過於匆忙地作出決定。",
+      "highlight": "bounced",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If the address is incomplete, your email may be returned to you.",
+      "promptZh": "如果地址不完整,你的電郵可能會被退回。",
+      "starter": "If",
+      "answer": "If the address is incomplete, your email may bounce back to you.",
+      "answerZh": "如果地址不完整,你的電郵可能會被退回給你。",
+      "highlight": "bounce back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "電郵因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Several ideas were discussed during the club meeting.",
+      "promptZh": "大家在學會會議上討論了幾個構思。",
+      "starter": "Several",
+      "answer": "Several ideas were bounced around during the club meeting.",
+      "answerZh": "大家在學會會議上一起討論了幾個構思。",
+      "highlight": "bounced around",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The business is slowly recovering after the fire.",
+      "promptZh": "該公司正在火災後慢慢恢復。",
+      "starter": "The",
+      "answer": "The business is slowly bouncing back after the fire.",
+      "answerZh": "該公司正在火災後慢慢恢復。",
+      "highlight": "bouncing back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "經歷困難後恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Before choosing the final design, the group discussed three different options.",
+      "promptZh": "小組選擇最終設計前,討論了三個不同選項。",
+      "starter": "Before",
+      "answer": "Before choosing the final design, the group bounced three different options around.",
+      "answerZh": "小組選擇最終設計前,一起討論了三個不同選項。",
+      "highlight": "bounced",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The organiser tried to pressure us into a decision before the meeting ended.",
+      "promptZh": "主辦人在會議結束前,企圖迫使我們作出決定。",
+      "starter": "The",
+      "answer": "The organiser tried to bounce us into a decision before the meeting ended.",
+      "answerZh": "主辦人在會議結束前,企圖迫使我們作出決定。",
+      "highlight": "bounce",
+      "targetForm": "bounce somebody into something",
+      "targetMeaningZh": "迫使某人在未充分考慮下作決定"
+    },
+    {
+      "id": "phrasal-verb-240-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Her confidence returned once she began practising with a friend.",
+      "promptZh": "她開始與朋友一起練習後,信心便恢復了。",
+      "starter": "Her",
+      "answer": "Her confidence bounced back once she began practising with a friend.",
+      "answerZh": "她開始與朋友一起練習後,信心便恢復了。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "恢復信心或良好狀態"
+    },
+    {
+      "id": "phrasal-verb-240-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The email did not reach the hotel; it was returned to me.",
+      "promptZh": "該封電郵未能送達酒店,而是被退回給我。",
+      "starter": "The",
+      "answer": "The email did not reach the hotel; it bounced back to me.",
+      "answerZh": "該封電郵未能送達酒店,而是被退回給我。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "電郵因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The writers have been discussing ideas for the ending all week.",
+      "promptZh": "作家們整個星期都在討論故事結局的不同構思。",
+      "starter": "The",
+      "answer": "The writers have been bouncing ideas for the ending around all week.",
+      "answerZh": "作家們整個星期都在一起討論故事結局的不同構思。",
+      "highlight": "bouncing",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "She said the group had pressured her into taking a job she did not want.",
+      "promptZh": "她說該小組迫使她接受了一份並不想要的工作。",
+      "starter": "She",
+      "answer": "She said the group had bounced her into taking a job she did not want.",
+      "answerZh": "她說該小組迫使她接受了一份並不想要的工作。",
+      "highlight": "bounced",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The young player recovered from a poor start and finished strongly.",
+      "promptZh": "這名年輕球員從不理想的開局中恢復過來,並以出色表現完成比賽。",
+      "starter": "The",
+      "answer": "The young player bounced back from a poor start and finished strongly.",
+      "answerZh": "這名年輕球員從不理想的開局中恢復過來,並以出色表現完成比賽。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back from something",
+      "targetMeaningZh": "從不理想的表現中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Instead of accepting the first plan, let us discuss some alternatives.",
+      "promptZh": "我們不要立即接受第一個計劃,先討論一些其他選擇吧。",
+      "starter": "Instead",
+      "answer": "Instead of accepting the first plan, let us bounce some alternatives around.",
+      "answerZh": "我們不要立即接受第一個計劃,先一起討論一些其他選擇吧。",
+      "highlight": "bounce",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The system keeps returning my emails to me, although the address looks correct.",
+      "promptZh": "雖然地址看來正確,但系統不斷把我的電郵退回給我。",
+      "starter": "The",
+      "answer": "The system keeps bouncing my emails back to me, although the address looks correct.",
+      "answerZh": "雖然地址看來正確,但系統不斷把我的電郵退回給我。",
+      "highlight": "bouncing",
+      "targetForm": "bounce something back",
+      "targetMeaningZh": "把未能送達的電郵退回"
+    },
+    {
+      "id": "phrasal-verb-240-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nobody should be pressured into giving an answer immediately.",
+      "promptZh": "任何人都不應被迫立即作出回答。",
+      "starter": "Nobody",
+      "answer": "Nobody should be bounced into giving an answer immediately.",
+      "answerZh": "任何人都不應被迫立即作出回答。",
+      "highlight": "be bounced",
+      "targetForm": "be bounced into doing something",
+      "targetMeaningZh": "在未充分考慮下被迫做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the café lost many customers, it changed its menu and became successful again within a few months.",
+      "promptZh": "咖啡店失去許多顧客後更改了餐牌,並在幾個月內再次取得成功。",
+      "starter": "After",
+      "answer": "After the café lost many customers, it changed its menu and bounced back within a few months.",
+      "answerZh": "咖啡店失去許多顧客後更改了餐牌,並在幾個月內恢復生意。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "經歷困難後恢復良好表現"
+    },
+    {
+      "id": "phrasal-verb-240-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because everyone else had agreed, Felix felt pressured into saying yes before he was ready.",
+      "promptZh": "由於其他人都已同意,菲力斯覺得自己在尚未準備好時便被迫答應。",
+      "starter": "Because",
+      "answer": "Because everyone else had agreed, Felix felt bounced into saying yes before he was ready.",
+      "answerZh": "由於其他人都已同意,菲力斯覺得自己在尚未準備好時便被迫答應。",
+      "highlight": "felt bounced",
+      "targetForm": "feel bounced into doing something",
+      "targetMeaningZh": "覺得自己在未充分考慮下被迫做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "I sent the form twice, but both emails were returned without reaching the office.",
+      "promptZh": "我兩次傳送表格,但兩封電郵都未能送達辦公室,並被退回。",
+      "starter": "I",
+      "answer": "I sent the form twice, but both emails bounced back without reaching the office.",
+      "answerZh": "我兩次傳送表格,但兩封電郵都未能送達辦公室,並被退回。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "電郵因未能送達而被退回"
+    },
+    {
+      "id": "phrasal-verb-240-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the club spends any money, we should discuss the new event ideas.",
+      "promptZh": "學會花費任何金錢前,我們應該先討論新活動的構思。",
+      "starter": "Before",
+      "answer": "Before the club spends any money, we should bounce the new event ideas around.",
+      "answerZh": "學會花費任何金錢前,我們應該先一起討論新活動的構思。",
+      "highlight": "bounce",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No matter how badly the first performance goes, Ella always recovers and tries again.",
+      "promptZh": "無論第一次演出的情況多麼差,埃拉總能重新振作並再次嘗試。",
+      "starter": "No",
+      "answer": "No matter how badly the first performance goes, Ella always bounces back and tries again.",
+      "answerZh": "無論第一次演出的情況多麼差,埃拉總能重新振作並再次嘗試。",
+      "highlight": "bounces back",
+      "targetForm": "bounce back",
+      "targetMeaningZh": "經歷失敗後重新振作"
+    },
+    {
+      "id": "phrasal-verb-240-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The manager may be trying to pressure the team into working through the weekend.",
+      "promptZh": "經理可能正企圖迫使團隊在整個週末工作。",
+      "starter": "The",
+      "answer": "The manager may be trying to bounce the team into working through the weekend.",
+      "answerZh": "經理可能正企圖迫使團隊在整個週末工作。",
+      "highlight": "bounce",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    },
+    {
+      "id": "phrasal-verb-240-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the email system returned the invitation to me, I checked the address and sent it again.",
+      "promptZh": "電郵系統把邀請退回給我後,我檢查了地址並再次傳送。",
+      "starter": "When",
+      "answer": "When the email system bounced the invitation back to me, I checked the address and sent it again.",
+      "answerZh": "電郵系統把邀請退回給我後,我檢查了地址並再次傳送。",
+      "highlight": "bounced",
+      "targetForm": "bounce something back",
+      "targetMeaningZh": "把未能送達的電郵退回"
+    },
+    {
+      "id": "phrasal-verb-240-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The town recovered from the storm faster than anyone expected.",
+      "promptZh": "該城鎮在風暴後恢復的速度比任何人預期都快。",
+      "starter": "The",
+      "answer": "The town bounced back from the storm faster than anyone expected.",
+      "answerZh": "該城鎮在風暴後恢復的速度比任何人預期都快。",
+      "highlight": "bounced back",
+      "targetForm": "bounce back from something",
+      "targetMeaningZh": "從災難或困難中恢復"
+    },
+    {
+      "id": "phrasal-verb-240-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Rather than choose a name immediately, the group spent half an hour discussing several ideas.",
+      "promptZh": "小組沒有立即選擇名稱,而是花了半小時討論幾個構思。",
+      "starter": "Rather",
+      "answer": "Rather than choose a name immediately, the group spent half an hour bouncing several ideas around.",
+      "answerZh": "小組沒有立即選擇名稱,而是花了半小時一起討論幾個構思。",
+      "highlight": "bouncing",
+      "targetForm": "bounce something around",
+      "targetMeaningZh": "一起討論想法或選項"
+    },
+    {
+      "id": "phrasal-verb-240-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Did the sudden announcement pressure the committee into approving the plan before they had enough time to study it?",
+      "promptZh": "這項突然公布的消息是否在委員會有足夠時間研究計劃前,便迫使他們通過它?",
+      "starter": "Did",
+      "answer": "Did the sudden announcement bounce the committee into approving the plan before they had enough time to study it?",
+      "answerZh": "這項突然公布的消息是否在委員會有足夠時間研究計劃前,便迫使他們通過它?",
+      "highlight": "bounce",
+      "targetForm": "bounce somebody into doing something",
+      "targetMeaningZh": "迫使某人在未充分考慮下做某事"
+    }
+  ]
+}

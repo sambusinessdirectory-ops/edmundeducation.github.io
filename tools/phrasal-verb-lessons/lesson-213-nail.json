@@ -1,0 +1,1232 @@
+{
+  "id": "phrasal-verb-213",
+  "order": 213,
+  "slug": "nail",
+  "version": "1",
+  "title": "NAIL 動詞片語",
+  "titleEn": "Nail",
+  "titleZh": "NAIL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 211 - NAIL.pdf",
+    "sourceNumber": 211,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      4,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 NAIL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to NAIL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "NAIL",
+      "highlight": "NAIL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We finally nailed him down to a delivery date.",
+      "zh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+      "highlight": "nailed him down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "After two meetings, they nailed down the price.",
+      "zh": "(經過兩次會議後,他們敲定了價錢。)This set practises the agreement-and-decision meaning supplied in the target list.",
+      "highlight": "nailed down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The caretaker nailed a notice up beside the door.",
+      "zh": "管理員把一張告示釘在門旁。",
+      "highlight": "nailed a notice up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等；經過討論後敲定或最終確定協議、安排、決定或細節；用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+    "en": "nail somebody down / nail somebody down to something; nail something down; nail something up",
+    "naturalZh": [
+      "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+      "經過討論後敲定或最終確定協議、安排、決定或細節",
+      "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "nail somebody down / nail somebody down to something",
+      "titleZh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+      "titleEn": "nail somebody down / nail somebody down to something",
+      "descriptionZh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+      "descriptionEn": "We finally nailed him down to a delivery date.",
+      "examples": [
+        {
+          "en": "We finally nailed him down to a delivery date.",
+          "zh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+          "highlight": "nailed him down to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "nail something down",
+      "titleZh": "經過討論後敲定或最終確定協議、安排、決定或細節",
+      "titleEn": "nail something down",
+      "descriptionZh": "經過討論後敲定或最終確定協議、安排、決定或細節",
+      "descriptionEn": "After two meetings, they nailed down the price.",
+      "examples": [
+        {
+          "en": "After two meetings, they nailed down the price.",
+          "zh": "(經過兩次會議後,他們敲定了價錢。)This set practises the agreement-and-decision meaning supplied in the target list.",
+          "highlight": "nailed down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "nail something up",
+      "titleZh": "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+      "titleEn": "nail something up",
+      "descriptionZh": "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+      "descriptionEn": "The caretaker nailed a notice up beside the door.",
+      "examples": [
+        {
+          "en": "The caretaker nailed a notice up beside the door.",
+          "zh": "管理員把一張告示釘在門旁。",
+          "highlight": "nailed a notice up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "NAIL 片語動詞的實際用途",
+    "labelEn": "NAIL Phrasal Verbs in Use",
+    "summaryZh": "當某人一直不肯確定日期、時間、價錢或承諾時,可以使用 nail somebody down。；nail something down 可以描述最終確定價錢、計劃、協議或其他重要細節。；nail something up 可以清楚表示告示、海報或標牌如何用釘固定在顯眼的位置。；nail something up 描述實際動作;兩個 nail down 表達則通常與明確答覆、協議和決定有關。",
+    "summaryEn": "Nail somebody down is useful when a person keeps avoiding an exact date, time, price or promise. Nail something down can describe the final stage of deciding a price, plan, agreement or other important detail. Nail something up lets you explain clearly how a notice, poster or sign was fixed in a visible place. Nail something up describes a physical action. The two nail down expressions usually concern firm answers, agreements and decisions.",
+    "contextsZh": [
+      "令對方給出明確答覆",
+      "談論敲定計劃和協議",
+      "描述用釘固定標牌和告示",
+      "理解 NAIL 的實際動作和引申意思"
+    ],
+    "contextsEn": [
+      "Get a clear answer from another person",
+      "Talk about making plans and agreements final",
+      "Describe fixing signs and notices with nails",
+      "Understand both physical and non-physical uses of NAIL"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 NAIL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the NAIL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "nail somebody down / nail somebody down to something",
+    "fixedHighlight": "nail somebody down / nail somebody down to something",
+    "fixedZh": "閱讀整句,選出意思相同的 NAIL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the NAIL expression that gives the same meaning.",
+    "correct": "nailed him down to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 nail somebody down 中,to 後面的內容說明對方最終確定的日期、時間、價錢或決定。語境清楚時,這部分不一定需要出現。We finally nailed him down.(我們終於令他給出明確答覆。)We finally nailed him down to Friday.(我們終於令他確定星期五。)；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。Useful Sentence Forms 常用句式；我們需要令他確定一個日期。)The team hopes to nail down the final price.(團隊希望敲定最終價錢。)The caretaker plans to nail the notice up.(管理員計劃把告示釘起來。；你可以令她確定一個時間嗎?)We must nail down the details today.(我們今天必須敲定細節。)You should nail the sign up above the door.(你應該把標牌釘在門的上方。；記者令講者給出了明確答覆。)The two sides nailed down an agreement.(雙方敲定了一項協議。)The caretaker nailed up a notice.(管理員釘起了一張告示。；我們正嘗試令他確定一個日子。)They have nailed the final details down.(他們已經敲定最後的細節。)She has nailed the poster up.(她已經把海報釘起來。；協議昨天已經敲定。)The notice was nailed up beside the entrance.(告示已釘在入口旁邊。；(雙方經過兩次會議後敲定了交易。)They nailed him down by asking for one clear answer.(他們要求他給出一個明確答覆,終於令他作出決定。)After two meetings and by asking for one clear answer provide extra information. They are notpart of the phrasal verbs.after two meetings 和 by asking for one clear answer 只是補充時間或方法,並不是片語動詞的一部分。",
+    "variableEn": "Keep the same people, things, time and meaning. In nail somebody down, the words beginning with to explain the exact date, time, price or decision. They are not always necessary when the situation is already clear. When using him, her, it or them, place the word as shown: nail him down nail it down nail it up After “to” Subject + verb + to nail... We need to nail him down to a date. After a modal verb Subject + can / may / must / should + nail... Can you nail her down to a time? As an ordinary verb phrase The reporter nailed the speaker down. In continuous and perfect forms We are trying to nail him down to a day. In passive sentences The agreement was nailed down yesterday. With an optional time or method The two sides nailed down the deal after two meetings.",
+    "variableItemsZh": [
+      "nail somebody down / nail somebody down to something",
+      "nail something down",
+      "nail something up"
+    ],
+    "variableItemsEn": [
+      "nail somebody down / nail somebody down to something",
+      "nail something down",
+      "nail something up"
+    ],
+    "forms": [
+      {
+        "formZh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+        "formEn": "nail somebody down / nail somebody down to something",
+        "exampleZh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+        "exampleEn": "We finally nailed him down to a delivery date.",
+        "highlight": "nailed him down to"
+      },
+      {
+        "formZh": "經過討論後敲定或最終確定協議、安排、決定或細節",
+        "formEn": "nail something down",
+        "exampleZh": "(經過兩次會議後,他們敲定了價錢。)This set practises the agreement-and-decision meaning supplied in the target list.",
+        "exampleEn": "After two meetings, they nailed down the price.",
+        "highlight": "nailed down"
+      },
+      {
+        "formZh": "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+        "formEn": "nail something up",
+        "exampleZh": "管理員把一張告示釘在門旁。",
+        "exampleEn": "The caretaker nailed a notice up beside the door.",
+        "highlight": "nailed a notice up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+      "titleEn": "nail somebody down / nail somebody down to something",
+      "formula": "nail somebody down / nail somebody down to something",
+      "highlight": "nail somebody down / nail somebody down to something",
+      "descriptionZh": "令某人給出明確答覆或作出確定承諾;令某人確定日期、時間、價錢等",
+      "descriptionEn": "We finally nailed him down to a delivery date.",
+      "examples": [
+        {
+          "en": "We finally nailed him down to a delivery date.",
+          "zh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+          "highlight": "nailed him down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "經過討論後敲定或最終確定協議、安排、決定或細節",
+      "titleEn": "nail something down",
+      "formula": "nail something down",
+      "highlight": "nail something down",
+      "descriptionZh": "經過討論後敲定或最終確定協議、安排、決定或細節",
+      "descriptionEn": "After two meetings, they nailed down the price.",
+      "examples": [
+        {
+          "en": "After two meetings, they nailed down the price.",
+          "zh": "(經過兩次會議後,他們敲定了價錢。)This set practises the agreement-and-decision meaning supplied in the target list.",
+          "highlight": "nailed down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+      "titleEn": "nail something up",
+      "formula": "nail something up",
+      "highlight": "nail something up",
+      "descriptionZh": "用釘把告示、海報、標牌等固定在牆、門、柱或其他位置",
+      "descriptionEn": "The caretaker nailed a notice up beside the door.",
+      "examples": [
+        {
+          "en": "The caretaker nailed a notice up beside the door.",
+          "zh": "管理員把一張告示釘在門旁。",
+          "highlight": "nailed a notice up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "令對方給出明確答覆",
+      "titleEn": "Get a clear answer from another person",
+      "zh": "當某人一直不肯確定日期、時間、價錢或承諾時,可以使用 nail somebody down。",
+      "en": "Nail somebody down is useful when a person keeps avoiding an exact date, time, price or promise."
+    },
+    {
+      "titleZh": "談論敲定計劃和協議",
+      "titleEn": "Talk about making plans and agreements final",
+      "zh": "nail something down 可以描述最終確定價錢、計劃、協議或其他重要細節。",
+      "en": "Nail something down can describe the final stage of deciding a price, plan, agreement or other important detail."
+    },
+    {
+      "titleZh": "描述用釘固定標牌和告示",
+      "titleEn": "Describe fixing signs and notices with nails",
+      "zh": "nail something up 可以清楚表示告示、海報或標牌如何用釘固定在顯眼的位置。",
+      "en": "Nail something up lets you explain clearly how a notice, poster or sign was fixed in a visible place."
+    },
+    {
+      "titleZh": "理解 NAIL 的實際動作和引申意思",
+      "titleEn": "Understand both physical and non-physical uses of NAIL",
+      "zh": "nail something up 描述實際動作;兩個 nail down 表達則通常與明確答覆、協議和決定有關。",
+      "en": "Nail something up describes a physical action. The two nail down expressions usually concern firm answers, agreements and decisions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "令對方給出明確答覆",
+      "談論敲定計劃和協議",
+      "描述用釘固定標牌和告示",
+      "理解 NAIL 的實際動作和引申意思"
+    ],
+    "contextsEn": [
+      "Get a clear answer from another person",
+      "Talk about making plans and agreements final",
+      "Describe fixing signs and notices with nails",
+      "Understand both physical and non-physical uses of NAIL"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "令對方給出明確答覆",
+        "titleEn": "Get a clear answer from another person",
+        "zh": "當某人一直不肯確定日期、時間、價錢或承諾時,可以使用 nail somebody down。",
+        "en": "Nail somebody down is useful when a person keeps avoiding an exact date, time, price or promise.",
+        "examples": [
+          {
+            "en": "We finally nailed him down to a delivery date.",
+            "zh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+            "highlight": "nailed him down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論敲定計劃和協議",
+        "titleEn": "Talk about making plans and agreements final",
+        "zh": "nail something down 可以描述最終確定價錢、計劃、協議或其他重要細節。",
+        "en": "Nail something down can describe the final stage of deciding a price, plan, agreement or other important detail.",
+        "examples": [
+          {
+            "en": "After two meetings, they nailed down the price.",
+            "zh": "(經過兩次會議後,他們敲定了價錢。)This set practises the agreement-and-decision meaning supplied in the target list.",
+            "highlight": "nailed down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述用釘固定標牌和告示",
+        "titleEn": "Describe fixing signs and notices with nails",
+        "zh": "nail something up 可以清楚表示告示、海報或標牌如何用釘固定在顯眼的位置。",
+        "en": "Nail something up lets you explain clearly how a notice, poster or sign was fixed in a visible place.",
+        "examples": [
+          {
+            "en": "The caretaker nailed a notice up beside the door.",
+            "zh": "管理員把一張告示釘在門旁。",
+            "highlight": "nailed a notice up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 NAIL 的實際動作和引申意思",
+        "titleEn": "Understand both physical and non-physical uses of NAIL",
+        "zh": "nail something up 描述實際動作;兩個 nail down 表達則通常與明確答覆、協議和決定有關。",
+        "en": "Nail something up describes a physical action. The two nail down expressions usually concern firm answers, agreements and decisions.",
+        "examples": [
+          {
+            "en": "We finally nailed him down to a delivery date.",
+            "zh": "(我們終於令他確定送貨日期。)This expression is generally informal.",
+            "highlight": "nailed him down to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 NAIL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the NAIL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 NAIL 片語動詞。",
+      "en": "Read the whole sentence and choose the NAIL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 nail somebody down 中,to 後面的內容說明對方最終確定的日期、時間、價錢或決定。語境清楚時,這部分不一定需要出現。We finally nailed him down.(我們終於令他給出明確答覆。)We finally nailed him down to Friday.(我們終於令他確定星期五。)",
+      "titleEn": "In nail somebody down, the words beginning with to explain the exact date, time, price or decision.",
+      "zh": "在 nail somebody down 中,to 後面的內容說明對方最終確定的日期、時間、價錢或決定。語境清楚時,這部分不一定需要出現。We finally nailed him down.(我們終於令他給出明確答覆。)We finally nailed him down to Friday.(我們終於令他確定星期五。)",
+      "en": "In nail somebody down, the words beginning with to explain the exact date, time, price or decision. They are not always necessary when the situation is already clear."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。Useful Sentence Forms 常用句式",
+      "titleEn": "When using him, her, it or them, place the word as shown: nail him down nail it down nail it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。Useful Sentence Forms 常用句式",
+      "en": "When using him, her, it or them, place the word as shown: nail him down nail it down nail it up"
+    },
+    {
+      "titleZh": "我們需要令他確定一個日期。)The team hopes to nail down the final price.(團隊希望敲定最終價錢。)The caretaker plans to nail the notice up.(管理員計劃把告示釘起來。",
+      "titleEn": "After “to” Subject + verb + to nail.",
+      "zh": "我們需要令他確定一個日期。)The team hopes to nail down the final price.(團隊希望敲定最終價錢。)The caretaker plans to nail the notice up.(管理員計劃把告示釘起來。",
+      "en": "After “to” Subject + verb + to nail... We need to nail him down to a date."
+    },
+    {
+      "titleZh": "你可以令她確定一個時間嗎?)We must nail down the details today.(我們今天必須敲定細節。)You should nail the sign up above the door.(你應該把標牌釘在門的上方。",
+      "titleEn": "After a modal verb Subject + can / may / must / should + nail.",
+      "zh": "你可以令她確定一個時間嗎?)We must nail down the details today.(我們今天必須敲定細節。)You should nail the sign up above the door.(你應該把標牌釘在門的上方。",
+      "en": "After a modal verb Subject + can / may / must / should + nail... Can you nail her down to a time?"
+    },
+    {
+      "titleZh": "記者令講者給出了明確答覆。)The two sides nailed down an agreement.(雙方敲定了一項協議。)The caretaker nailed up a notice.(管理員釘起了一張告示。",
+      "titleEn": "As an ordinary verb phrase The reporter nailed the speaker down.",
+      "zh": "記者令講者給出了明確答覆。)The two sides nailed down an agreement.(雙方敲定了一項協議。)The caretaker nailed up a notice.(管理員釘起了一張告示。",
+      "en": "As an ordinary verb phrase The reporter nailed the speaker down."
+    },
+    {
+      "titleZh": "我們正嘗試令他確定一個日子。)They have nailed the final details down.(他們已經敲定最後的細節。)She has nailed the poster up.(她已經把海報釘起來。",
+      "titleEn": "In continuous and perfect forms We are trying to nail him down to a day.",
+      "zh": "我們正嘗試令他確定一個日子。)They have nailed the final details down.(他們已經敲定最後的細節。)She has nailed the poster up.(她已經把海報釘起來。",
+      "en": "In continuous and perfect forms We are trying to nail him down to a day."
+    },
+    {
+      "titleZh": "協議昨天已經敲定。)The notice was nailed up beside the entrance.(告示已釘在入口旁邊。",
+      "titleEn": "In passive sentences The agreement was nailed down yesterday.",
+      "zh": "協議昨天已經敲定。)The notice was nailed up beside the entrance.(告示已釘在入口旁邊。",
+      "en": "In passive sentences The agreement was nailed down yesterday."
+    },
+    {
+      "titleZh": "(雙方經過兩次會議後敲定了交易。)They nailed him down by asking for one clear answer.(他們要求他給出一個明確答覆,終於令他作出決定。)After two meetings and by asking for one clear answer provide extra information. They are notpart of the phrasal verbs.after two meetings 和 by asking for one clear answer 只是補充時間或方法,並不是片語動詞的一部分。",
+      "titleEn": "With an optional time or method The two sides nailed down the deal after two meetings.",
+      "zh": "(雙方經過兩次會議後敲定了交易。)They nailed him down by asking for one clear answer.(他們要求他給出一個明確答覆,終於令他作出決定。)After two meetings and by asking for one clear answer provide extra information. They are notpart of the phrasal verbs.after two meetings 和 by asking for one clear answer 只是補充時間或方法,並不是片語動詞的一部分。",
+      "en": "With an optional time or method The two sides nailed down the deal after two meetings."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 NAIL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to NAIL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "NAIL 動詞片語句子改寫練習",
+    "titleEn": "NAIL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 NAIL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to NAIL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-213-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We cannot get the coach to give us a definite day for the extra practice.",
+      "promptZh": "我們無法令教練為額外練習確定一個日子。",
+      "starter": "We",
+      "answer": "We cannot nail the coach down to a definite day for the extra practice.",
+      "answerZh": "我們無法令教練為額外練習確定一個日子。",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After a long talk, the two sides finally agreed on the price.",
+      "promptZh": "經過長時間商討,雙方終於就價錢達成共識。",
+      "starter": "After",
+      "answer": "After a long talk, the two sides finally nailed down the price.",
+      "answerZh": "經過長時間商討,雙方終於敲定了價錢。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Dad fixed a warning sign to the gate with nails.",
+      "promptZh": "爸爸用釘把警告牌固定在大閘上。",
+      "starter": "Dad",
+      "answer": "Dad nailed a warning sign up on the gate.",
+      "answerZh": "爸爸用釘把警告牌固定在大閘上。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Please get Lisa to agree to Friday for the meeting.",
+      "promptZh": "請讓莉莎確定星期五開會。",
+      "starter": "Please",
+      "answer": "Please nail Lisa down to Friday for the meeting.",
+      "answerZh": "請讓莉莎確定星期五開會。",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The caretaker fixed a notice to the wall with nails.",
+      "promptZh": "管理員用釘把告示固定在牆上。",
+      "starter": "The",
+      "answer": "The caretaker nailed up a notice on the wall.",
+      "answerZh": "管理員用釘把告示固定在牆上。",
+      "highlight": "nailed up",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We need to make the final meeting time certain today.",
+      "promptZh": "我們今天需要敲定最後的開會時間。",
+      "starter": "We",
+      "answer": "We need to nail down the final meeting time today.",
+      "answerZh": "我們今天需要敲定最後的開會時間。",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The reporter finally got the actor to give a clear answer.",
+      "promptZh": "記者終於令那名演員給出明確答覆。",
+      "starter": "The",
+      "answer": "The reporter finally nailed the actor down.",
+      "answerZh": "記者終於令那名演員給出明確答覆。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down",
+      "targetMeaningZh": "令某人給出明確答覆或作出承諾"
+    },
+    {
+      "id": "phrasal-verb-213-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They reached a firm agreement with the shop owner.",
+      "promptZh": "他們與店主敲定了一項協議。",
+      "starter": "They",
+      "answer": "They nailed down an agreement with the shop owner.",
+      "answerZh": "他們與店主敲定了一項協議。",
+      "highlight": "nailed down an",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The worker fixed the poster to the wooden board with nails.",
+      "promptZh": "工人用釘把海報固定在木板上。",
+      "starter": "The",
+      "answer": "The worker nailed the poster up on the wooden board.",
+      "answerZh": "工人用釘把海報固定在木板上。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I cannot get Aaron to say exactly when he will arrive.",
+      "promptZh": "我無法令亞倫確切說出他會何時到達。",
+      "starter": "I",
+      "answer": "I cannot nail Aaron down to an arrival time.",
+      "answerZh": "我無法令亞倫確定到達時間。",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club is now agreeing on the last details of the trip.",
+      "promptZh": "會社現正敲定旅行的最後細節。",
+      "starter": "The",
+      "answer": "The club is now nailing down the last details of the trip.",
+      "answerZh": "會社現正敲定旅行的最後細節。",
+      "highlight": "nailing down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "They have fixed three signs to the fence with nails.",
+      "promptZh": "他們已用釘把三個標牌固定在圍欄上。",
+      "starter": "They",
+      "answer": "They have nailed three signs up on the fence.",
+      "answerZh": "他們已用釘把三個標牌固定在圍欄上。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Can you get the singer to agree to a time for the interview?",
+      "promptZh": "你可以令歌手確定訪問時間嗎?",
+      "starter": "Can",
+      "answer": "Can you nail the singer down to an interview time?",
+      "answerZh": "你可以令歌手確定訪問時間嗎?",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We have not yet agreed on the exact price.",
+      "promptZh": "我們尚未敲定確實價錢。",
+      "starter": "We",
+      "answer": "We have not yet nailed down the exact price.",
+      "answerZh": "我們尚未敲定確實價錢。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The organiser has finally made Jordan give a firm answer about Saturday.",
+      "promptZh": "主辦人終於令喬丹就星期六給出明確答覆。",
+      "starter": "The",
+      "answer": "The organiser has finally nailed Jordan down to Saturday.",
+      "answerZh": "主辦人終於令喬丹確定星期六。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The owner will fix the new opening-hours notice to the door with nails.",
+      "promptZh": "店主會用釘把新的營業時間告示固定在門上。",
+      "starter": "The",
+      "answer": "The owner will nail up the new opening-hours notice on the door.",
+      "answerZh": "店主會用釘把新的營業時間告示固定在門上。",
+      "highlight": "nail up",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Did the two teams finally agree on a date for the match?",
+      "promptZh": "兩隊最終有沒有敲定比賽日期?",
+      "starter": "Did",
+      "answer": "Did the two teams finally nail down a date for the match?",
+      "answerZh": "兩隊最終有沒有敲定比賽日期?",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A bright sign was fixed to the tree with nails.",
+      "promptZh": "一個鮮明的標牌被釘在樹上。",
+      "starter": "A",
+      "answer": "A bright sign was nailed up on the tree.",
+      "answerZh": "一個鮮明的標牌被釘在樹上。",
+      "highlight": "nailed up on",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We may be able to get him to promise a delivery day tomorrow.",
+      "promptZh": "我們明天可能可以令他承諾一個送貨日子。",
+      "starter": "We",
+      "answer": "We may be able to nail him down to a delivery day tomorrow.",
+      "answerZh": "我們明天可能可以令他承諾一個送貨日子。",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The final details should be agreed before Friday.",
+      "promptZh": "最後的細節應在星期五前敲定。",
+      "starter": "The",
+      "answer": "The final details should be nailed down before Friday.",
+      "answerZh": "最後的細節應在星期五前敲定。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The notice is ready. Please fix it to the gate with nails before lunch.",
+      "promptZh": "告示已經準備好。請在午膳前用釘把它固定在大閘上。",
+      "starter": "The",
+      "answer": "The notice is ready. Please nail it up on the gate before lunch.",
+      "answerZh": "告示已經準備好。請在午膳前用釘把它固定在大閘上。",
+      "highlight": "nail",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Sam keeps saying he is free next week, but he will not give us one exact day.",
+      "promptZh": "森姆一直說下星期有空,但他不肯給我們一個確實日子。",
+      "starter": "Sam",
+      "answer": "Sam keeps saying he is free next week, but we cannot nail him down to an exact day.",
+      "answerZh": "森姆一直說下星期有空,但我們無法令他確定一個日子。",
+      "highlight": "we cannot nail him down to an",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have agreed on the plan now, so please write the final version.",
+      "promptZh": "我們現在已經敲定計劃,所以請寫出最後版本。",
+      "starter": "We",
+      "answer": "We have nailed the plan down now, so please write the final version.",
+      "answerZh": "我們現在已經敲定計劃,所以請寫出最後版本。",
+      "highlight": "nailed",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The poster is ready. The caretaker is fixing it to the wall with nails now.",
+      "promptZh": "海報已經準備好。管理員現正用釘把它固定在牆上。",
+      "starter": "The",
+      "answer": "The poster is ready. The caretaker is nailing it up on the wall now.",
+      "answerZh": "海報已經準備好。管理員現正用釘把它固定在牆上。",
+      "highlight": "nailing",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the price is still not certain, the manager hopes to agree it today.",
+      "promptZh": "雖然價錢仍未確定,但經理希望今天把它敲定。",
+      "starter": "Although",
+      "answer": "Although the price is still not certain, the manager hopes to nail it down today.",
+      "answerZh": "雖然價錢仍未確定,但經理希望今天把它敲定。",
+      "highlight": "nail",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After several attempts, the teacher got the guest to choose a time for the visit.",
+      "promptZh": "嘗試了幾次後,老師終於令嘉賓選定探訪時間。",
+      "starter": "After",
+      "answer": "After several attempts, the teacher nailed the guest down to a time for the visit.",
+      "answerZh": "嘗試了幾次後,老師終於令嘉賓選定探訪時間。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A notice saying “Keep out” was fixed to the old door with nails.",
+      "promptZh": "一張寫着「請勿進入」的告示被釘在舊門上。",
+      "starter": "A",
+      "answer": "A notice saying “Keep out” was nailed up on the old door.",
+      "answerZh": "一張寫着「請勿進入」的告示被釘在舊門上。",
+      "highlight": "nailed up on",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I asked again and finally got her to make a definite promise.",
+      "promptZh": "我再次詢問,終於令她作出確定承諾。",
+      "starter": "I",
+      "answer": "I asked again and finally nailed her down.",
+      "answerZh": "我再次詢問,終於令她作出確定承諾。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down",
+      "targetMeaningZh": "令某人給出明確答覆或作出承諾"
+    },
+    {
+      "id": "phrasal-verb-213-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The details were finally agreed after two more phone calls.",
+      "promptZh": "再通了兩次電話後,細節終於敲定。",
+      "starter": "The",
+      "answer": "The details were finally nailed down after two more phone calls.",
+      "answerZh": "再通了兩次電話後,細節終於敲定。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Do not leave the sign on the floor; fix it to the post with nails.",
+      "promptZh": "不要把標牌留在地上;請用釘把它固定在柱上。",
+      "starter": "Do",
+      "answer": "Do not leave the sign on the floor; nail it up on the post.",
+      "answerZh": "不要把標牌留在地上;請用釘把它固定在柱上。",
+      "highlight": "nail",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The photographer says he can come, but he still will not agree to a starting time.",
+      "promptZh": "攝影師說他可以出席,但仍不肯確定開始時間。",
+      "starter": "The",
+      "answer": "The photographer says he can come, but we still cannot nail him down to a starting time.",
+      "answerZh": "攝影師說他可以出席,但我們仍無法令他確定開始時間。",
+      "highlight": "we",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The owner used nails to fix the new opening-time notice beside the entrance.",
+      "promptZh": "店主用釘把新的營業時間告示固定在入口旁邊。",
+      "starter": "The",
+      "answer": "The owner nailed up the new opening-time notice beside the entrance.",
+      "answerZh": "店主用釘把新的營業時間告示固定在入口旁邊。",
+      "highlight": "nailed up",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After discussing several choices, the family finally made its holiday plans certain.",
+      "promptZh": "討論過幾個選擇後,這個家庭終於敲定了度假計劃。",
+      "starter": "After",
+      "answer": "After discussing several choices, the family finally nailed down its holiday plans.",
+      "answerZh": "討論過幾個選擇後,這個家庭終於敲定了度假計劃。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Could we get the driver to promise a pickup time before we book?",
+      "promptZh": "我們可以在預訂前令司機承諾接載時間嗎?",
+      "starter": "Could",
+      "answer": "Could we nail the driver down to a pickup time before we book?",
+      "answerZh": "我們可以在預訂前令司機承諾接載時間嗎?",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The main idea is clear, but we still need to agree on the ending.",
+      "promptZh": "主要構思已經清楚,但我們仍要敲定結尾。",
+      "starter": "The",
+      "answer": "The main idea is clear, but we still need to nail down the ending.",
+      "answerZh": "主要構思已經清楚,但我們仍要敲定結尾。",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "They used nails to fix the missing-cat poster outside the shop.",
+      "promptZh": "他們用釘把尋貓海報固定在店外。",
+      "starter": "They",
+      "answer": "They nailed the missing-cat poster up outside the shop.",
+      "answerZh": "他們用釘把尋貓海報固定在店外。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Until we asked once more, the shop owner would not give us an exact price.",
+      "promptZh": "直至我們再問一次,店主仍不肯給我們一個確實價錢。",
+      "starter": "Until",
+      "answer": "Until we asked once more, we could not nail the shop owner down to a price.",
+      "answerZh": "直至我們再問一次,我們仍無法令店主確定價錢。",
+      "highlight": "we could not nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、價錢或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After finding the event notice on the table, the children fixed it to the club wall with nails.",
+      "promptZh": "孩子們在桌上找到活動告示後,用釘把它固定在會社的牆上。",
+      "starter": "After",
+      "answer": "After finding the event notice on the table, the children nailed it up on the club wall.",
+      "answerZh": "孩子們在桌上找到活動告示後,用釘把它固定在會社的牆上。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "Although the class has chosen the topic, it has not yet agreed on the final questions.",
+      "promptZh": "雖然全班已選定主題,但尚未敲定最後的問題。",
+      "starter": "Although",
+      "answer": "Although the class has chosen the topic, it has not yet nailed down the final questions.",
+      "answerZh": "雖然全班已選定主題,但尚未敲定最後的問題。",
+      "highlight": "nailed down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "Even after three emails, I could not make the builder promise a finishing date.",
+      "promptZh": "即使傳送了三封電郵,我仍無法令建築工人承諾完工日期。",
+      "starter": "Even",
+      "answer": "Even after three emails, I could not nail the builder down to a finishing date.",
+      "answerZh": "即使傳送了三封電郵,我仍無法令建築工人承諾完工日期。",
+      "highlight": "nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "The venue and food are decided; the last task is to reach a firm agreement on the cost.",
+      "promptZh": "場地和食物已經決定;最後一項工作是敲定費用。",
+      "starter": "The",
+      "answer": "The venue and food are decided; the last task is to nail down the cost.",
+      "answerZh": "場地和食物已經決定;最後一項工作是敲定費用。",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "Our guide says the tour will start in the morning, but we need him to give us an exact time.",
+      "promptZh": "導遊說行程會在早上開始,但我們需要他給出確實時間。",
+      "starter": "Our",
+      "answer": "Our guide says the tour will start in the morning, but we need to nail him down to an exact time.",
+      "answerZh": "導遊說行程會在早上開始,但我們需要令他確定一個確實時間。",
+      "highlight": "to nail",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The notice had to be easy to see, so a worker fixed it above the entrance with nails.",
+      "promptZh": "告示必須容易看見,所以一名工人用釘把它固定在入口上方。",
+      "starter": "The",
+      "answer": "The notice had to be easy to see, so a worker nailed it up above the entrance.",
+      "answerZh": "告示必須容易看見,所以一名工人用釘把它固定在入口上方。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "Before we print the invitations, we must make the guest list final.",
+      "promptZh": "印製邀請函前,我們必須敲定賓客名單。",
+      "starter": "Before",
+      "answer": "Before we print the invitations, we must nail down the guest list.",
+      "answerZh": "印製邀請函前,我們必須敲定賓客名單。",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "The wind kept moving the poster, so Lee fixed it firmly to the board with nails.",
+      "promptZh": "風吹得海報不停移動,所以李用釘把它牢牢固定在木板上。",
+      "starter": "The",
+      "answer": "The wind kept moving the poster, so Lee nailed it up firmly on the board.",
+      "answerZh": "風吹得海報不停移動,所以李用釘把它牢牢固定在木板上。",
+      "highlight": "nailed",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "The singer has agreed to perform, but no one has yet made her choose between Friday and Saturday.",
+      "promptZh": "歌手已答應演出,但仍沒有人令她在星期五和星期六之間作出選擇。",
+      "starter": "The",
+      "answer": "The singer has agreed to perform, but no one has yet nailed her down to Friday or Saturday.",
+      "answerZh": "歌手已答應演出,但仍沒有人令她在星期五和星期六之間作出選擇。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down to something",
+      "targetMeaningZh": "令某人確定日期、時間或其他細節"
+    },
+    {
+      "id": "phrasal-verb-213-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "If we can agree on the payment details today, the work can begin tomorrow.",
+      "promptZh": "如果我們今天能敲定付款細節,工作明天便可以開始。",
+      "starter": "If",
+      "answer": "If we can nail down the payment details today, the work can begin tomorrow.",
+      "answerZh": "如果我們今天能敲定付款細節,工作明天便可以開始。",
+      "highlight": "nail down",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    },
+    {
+      "id": "phrasal-verb-213-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "By the end of the call, we had finally made the manager give us one clear answer.",
+      "promptZh": "通話結束時,我們終於令經理給出一個明確答覆。",
+      "starter": "By",
+      "answer": "By the end of the call, we had finally nailed the manager down.",
+      "answerZh": "通話結束時,我們終於令經理給出一個明確答覆。",
+      "highlight": "nailed",
+      "targetForm": "nail somebody down",
+      "targetMeaningZh": "令某人給出明確答覆或作出承諾"
+    },
+    {
+      "id": "phrasal-verb-213-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Because visitors kept entering, the staff fixed a “Private” sign to the gate with nails.",
+      "promptZh": "由於訪客不斷進入,職員用釘把「私人地方」標牌固定在大閘上。",
+      "starter": "Because",
+      "answer": "Because visitors kept entering, the staff nailed up a “Private” sign on the gate.",
+      "answerZh": "由於訪客不斷進入,職員用釘把「私人地方」標牌固定在大閘上。",
+      "highlight": "nailed up",
+      "targetForm": "nail something up",
+      "targetMeaningZh": "用釘把某物固定在某處"
+    },
+    {
+      "id": "phrasal-verb-213-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 24,
+      "prompt": "The two sides spoke for hours before they finally reached a firm agreement.",
+      "promptZh": "雙方談了數小時,最後終於達成確實協議。",
+      "starter": "The",
+      "answer": "The two sides spoke for hours before they finally nailed down an agreement.",
+      "answerZh": "雙方談了數小時,最後終於敲定了一項協議。",
+      "highlight": "nailed down an",
+      "targetForm": "nail something down",
+      "targetMeaningZh": "敲定或最終確定某事"
+    }
+  ]
+}

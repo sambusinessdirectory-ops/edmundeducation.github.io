@@ -1,0 +1,1709 @@
+{
+  "id": "phrasal-verb-309",
+  "order": 309,
+  "slug": "string",
+  "version": "1",
+  "title": "STRING 動詞片語",
+  "titleEn": "String",
+  "titleZh": "STRING 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 294 - STRING.pdf",
+    "sourceNumber": 294,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STRING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STRING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STRING",
+      "highlight": "STRING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can I string along with you to the shops?",
+      "zh": "我可以跟你一起去商店嗎?",
+      "highlight": "string along with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The company was only stringing her along.",
+      "zh": "公司只是不斷給她虛假希望,令她一直等待。",
+      "highlight": "stringing her along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The walkers strung out along the narrow path.",
+      "zh": "步行者沿着狹窄小路散開成長長一列。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "跟着某人同行;與某人一起去；不斷給某人虛假希望,使其一直等待；在某處散開成長長一列；把某事拖長;使其持續得比必要時間更久；把詞語、想法或物件串連起來；把某人吊起或吊死,常見於威嚇、故事或歷史情境；把某物掛起",
+    "en": "string along; string along with somebody; string somebody along; string out across/along something; string something out; string something together; string somebody up; string something up",
+    "naturalZh": [
+      "跟着某人同行;與某人一起去",
+      "不斷給某人虛假希望,使其一直等待",
+      "在某處散開成長長一列",
+      "把某事拖長;使其持續得比必要時間更久",
+      "把詞語、想法或物件串連起來",
+      "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+      "把某物掛起"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "string along; string along with somebody",
+      "titleZh": "跟着某人同行;與某人一起去",
+      "titleEn": "string along; string along with somebody",
+      "descriptionZh": "跟着某人同行;與某人一起去",
+      "descriptionEn": "Can I string along with you to the shops?",
+      "examples": [
+        {
+          "en": "Can I string along with you to the shops?",
+          "zh": "我可以跟你一起去商店嗎?",
+          "highlight": "string along with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "string somebody along",
+      "titleZh": "不斷給某人虛假希望,使其一直等待",
+      "titleEn": "string somebody along",
+      "descriptionZh": "不斷給某人虛假希望,使其一直等待",
+      "descriptionEn": "The company was only stringing her along.",
+      "examples": [
+        {
+          "en": "The company was only stringing her along.",
+          "zh": "公司只是不斷給她虛假希望,令她一直等待。",
+          "highlight": "stringing her along"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "string out across/along something",
+      "titleZh": "在某處散開成長長一列",
+      "titleEn": "string out across/along something",
+      "descriptionZh": "在某處散開成長長一列",
+      "descriptionEn": "The walkers strung out along the narrow path.",
+      "examples": [
+        {
+          "en": "The walkers strung out along the narrow path.",
+          "zh": "步行者沿着狹窄小路散開成長長一列。",
+          "highlight": "The"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "string something out",
+      "titleZh": "把某事拖長;使其持續得比必要時間更久",
+      "titleEn": "string something out",
+      "descriptionZh": "把某事拖長;使其持續得比必要時間更久",
+      "descriptionEn": "We should not string out the argument.",
+      "examples": [
+        {
+          "en": "We should not string out the argument.",
+          "zh": "我們不應把爭論拖長。",
+          "highlight": "string out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "string something together",
+      "titleZh": "把詞語、想法或物件串連起來",
+      "titleEn": "string something together",
+      "descriptionZh": "把詞語、想法或物件串連起來",
+      "descriptionEn": "He managed to string a few sentences together.",
+      "examples": [
+        {
+          "en": "He managed to string a few sentences together.",
+          "zh": "他設法把幾個句子連起來。",
+          "highlight": "string a few sentences together"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "string somebody up",
+      "titleZh": "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+      "titleEn": "string somebody up",
+      "descriptionZh": "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+      "descriptionEn": "The crowd threatened to string the thief up.",
+      "examples": [
+        {
+          "en": "The crowd threatened to string the thief up.",
+          "zh": "群眾威脅要把那名小偷吊死。",
+          "highlight": "string the thief up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "string something up",
+      "titleZh": "把某物掛起",
+      "titleEn": "string something up",
+      "descriptionZh": "把某物掛起",
+      "descriptionEn": "They strung up some lights for the party.",
+      "examples": [
+        {
+          "en": "They strung up some lights for the party.",
+          "zh": "他們為派對掛起了一些燈飾。",
+          "highlight": "They"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STRING 片語動詞的實際用途",
+    "labelEn": "STRING Phrasal Verbs in Use",
+    "summaryZh": "string along with somebody 可以自然地詢問自己能否跟別人一起前往某處。；string out 可以描述步行者、跑手、車輛或船隻散開成長長一列。；string together 可以描述某人如何把詞語、句子或想法連接起來。；string somebody along 表示令某人一直抱有虛假希望;string something out 則表示把事情拖得太久。；string something up 適合用來談論橫額、燈飾、照片和派對裝飾。",
+    "summaryEn": "String along with somebody is a casual way to ask whether you may accompany them somewhere. String out can describe walkers, runners, vehicles or boats spreading into a long line. String together is useful when describing how someone connects words, sentences or ideas. String somebody along describes misleading someone, while string something out describes making an event continue for too long. String something up is useful when talking about banners, lights, photographs and party decorations.",
+    "contextsZh": [
+      "使用 STRING 談論與別人同行",
+      "描述排成長列的人或物",
+      "談論如何組織語言和想法",
+      "描述虛假希望和不必要的拖延",
+      "談論掛起裝飾和告示"
+    ],
+    "contextsEn": [
+      "Use STRING to talk about joining other people",
+      "Describe people or objects arranged in a line",
+      "Talk about forming language and ideas",
+      "Describe false hope and unnecessary delay",
+      "Talk about putting up decorations and signs"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STRING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STRING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "string along; string along with somebody",
+    "fixedHighlight": "string along; string along with somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 STRING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STRING expression that gives the same meaning.",
+    "correct": "string along with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；string out 可以表達兩種不同意思。人群可以沿道路散開成長長一列;某人亦可以把會議或爭論拖長。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: string him along string her up string it out string them together string it up String out has two different meanings. People may string out along a road, while somebody may string out a meeting or argument. Read the full situation carefully.",
+    "variableItemsZh": [
+      "string along; string along with somebody",
+      "string somebody along",
+      "string out across/along something",
+      "string something out",
+      "string something together",
+      "string somebody up",
+      "string something up"
+    ],
+    "variableItemsEn": [
+      "string along; string along with somebody",
+      "string somebody along",
+      "string out across/along something",
+      "string something out",
+      "string something together",
+      "string somebody up",
+      "string something up"
+    ],
+    "forms": [
+      {
+        "formZh": "跟着某人同行;與某人一起去",
+        "formEn": "string along; string along with somebody",
+        "exampleZh": "我可以跟你一起去商店嗎?",
+        "exampleEn": "Can I string along with you to the shops?",
+        "highlight": "string along with"
+      },
+      {
+        "formZh": "不斷給某人虛假希望,使其一直等待",
+        "formEn": "string somebody along",
+        "exampleZh": "公司只是不斷給她虛假希望,令她一直等待。",
+        "exampleEn": "The company was only stringing her along.",
+        "highlight": "stringing her along"
+      },
+      {
+        "formZh": "在某處散開成長長一列",
+        "formEn": "string out across/along something",
+        "exampleZh": "步行者沿着狹窄小路散開成長長一列。",
+        "exampleEn": "The walkers strung out along the narrow path.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "把某事拖長;使其持續得比必要時間更久",
+        "formEn": "string something out",
+        "exampleZh": "我們不應把爭論拖長。",
+        "exampleEn": "We should not string out the argument.",
+        "highlight": "string out"
+      },
+      {
+        "formZh": "把詞語、想法或物件串連起來",
+        "formEn": "string something together",
+        "exampleZh": "他設法把幾個句子連起來。",
+        "exampleEn": "He managed to string a few sentences together.",
+        "highlight": "string a few sentences together"
+      },
+      {
+        "formZh": "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+        "formEn": "string somebody up",
+        "exampleZh": "群眾威脅要把那名小偷吊死。",
+        "exampleEn": "The crowd threatened to string the thief up.",
+        "highlight": "string the thief up"
+      },
+      {
+        "formZh": "把某物掛起",
+        "formEn": "string something up",
+        "exampleZh": "他們為派對掛起了一些燈飾。",
+        "exampleEn": "They strung up some lights for the party.",
+        "highlight": "They"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "跟着某人同行;與某人一起去",
+      "titleEn": "string along; string along with somebody",
+      "formula": "string along; string along with somebody",
+      "highlight": "string along; string along with somebody",
+      "descriptionZh": "跟着某人同行;與某人一起去",
+      "descriptionEn": "Can I string along with you to the shops?",
+      "examples": [
+        {
+          "en": "Can I string along with you to the shops?",
+          "zh": "我可以跟你一起去商店嗎?",
+          "highlight": "string along with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "不斷給某人虛假希望,使其一直等待",
+      "titleEn": "string somebody along",
+      "formula": "string somebody along",
+      "highlight": "string somebody along",
+      "descriptionZh": "不斷給某人虛假希望,使其一直等待",
+      "descriptionEn": "The company was only stringing her along.",
+      "examples": [
+        {
+          "en": "The company was only stringing her along.",
+          "zh": "公司只是不斷給她虛假希望,令她一直等待。",
+          "highlight": "stringing her along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在某處散開成長長一列",
+      "titleEn": "string out across/along something",
+      "formula": "string out across/along something",
+      "highlight": "string out across/along something",
+      "descriptionZh": "在某處散開成長長一列",
+      "descriptionEn": "The walkers strung out along the narrow path.",
+      "examples": [
+        {
+          "en": "The walkers strung out along the narrow path.",
+          "zh": "步行者沿着狹窄小路散開成長長一列。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某事拖長;使其持續得比必要時間更久",
+      "titleEn": "string something out",
+      "formula": "string something out",
+      "highlight": "string something out",
+      "descriptionZh": "把某事拖長;使其持續得比必要時間更久",
+      "descriptionEn": "We should not string out the argument.",
+      "examples": [
+        {
+          "en": "We should not string out the argument.",
+          "zh": "我們不應把爭論拖長。",
+          "highlight": "string out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把詞語、想法或物件串連起來",
+      "titleEn": "string something together",
+      "formula": "string something together",
+      "highlight": "string something together",
+      "descriptionZh": "把詞語、想法或物件串連起來",
+      "descriptionEn": "He managed to string a few sentences together.",
+      "examples": [
+        {
+          "en": "He managed to string a few sentences together.",
+          "zh": "他設法把幾個句子連起來。",
+          "highlight": "string a few sentences together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+      "titleEn": "string somebody up",
+      "formula": "string somebody up",
+      "highlight": "string somebody up",
+      "descriptionZh": "把某人吊起或吊死,常見於威嚇、故事或歷史情境",
+      "descriptionEn": "The crowd threatened to string the thief up.",
+      "examples": [
+        {
+          "en": "The crowd threatened to string the thief up.",
+          "zh": "群眾威脅要把那名小偷吊死。",
+          "highlight": "string the thief up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某物掛起",
+      "titleEn": "string something up",
+      "formula": "string something up",
+      "highlight": "string something up",
+      "descriptionZh": "把某物掛起",
+      "descriptionEn": "They strung up some lights for the party.",
+      "examples": [
+        {
+          "en": "They strung up some lights for the party.",
+          "zh": "他們為派對掛起了一些燈飾。",
+          "highlight": "They"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 STRING 談論與別人同行",
+      "titleEn": "Use STRING to talk about joining other people",
+      "zh": "string along with somebody 可以自然地詢問自己能否跟別人一起前往某處。",
+      "en": "String along with somebody is a casual way to ask whether you may accompany them somewhere."
+    },
+    {
+      "titleZh": "描述排成長列的人或物",
+      "titleEn": "Describe people or objects arranged in a line",
+      "zh": "string out 可以描述步行者、跑手、車輛或船隻散開成長長一列。",
+      "en": "String out can describe walkers, runners, vehicles or boats spreading into a long line."
+    },
+    {
+      "titleZh": "談論如何組織語言和想法",
+      "titleEn": "Talk about forming language and ideas",
+      "zh": "string together 可以描述某人如何把詞語、句子或想法連接起來。",
+      "en": "String together is useful when describing how someone connects words, sentences or ideas."
+    },
+    {
+      "titleZh": "描述虛假希望和不必要的拖延",
+      "titleEn": "Describe false hope and unnecessary delay",
+      "zh": "string somebody along 表示令某人一直抱有虛假希望;string something out 則表示把事情拖得太久。",
+      "en": "String somebody along describes misleading someone, while string something out describes making an event continue for too long."
+    },
+    {
+      "titleZh": "談論掛起裝飾和告示",
+      "titleEn": "Talk about putting up decorations and signs",
+      "zh": "string something up 適合用來談論橫額、燈飾、照片和派對裝飾。",
+      "en": "String something up is useful when talking about banners, lights, photographs and party decorations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 STRING 談論與別人同行",
+      "描述排成長列的人或物",
+      "談論如何組織語言和想法",
+      "描述虛假希望和不必要的拖延",
+      "談論掛起裝飾和告示"
+    ],
+    "contextsEn": [
+      "Use STRING to talk about joining other people",
+      "Describe people or objects arranged in a line",
+      "Talk about forming language and ideas",
+      "Describe false hope and unnecessary delay",
+      "Talk about putting up decorations and signs"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 STRING 談論與別人同行",
+        "titleEn": "Use STRING to talk about joining other people",
+        "zh": "string along with somebody 可以自然地詢問自己能否跟別人一起前往某處。",
+        "en": "String along with somebody is a casual way to ask whether you may accompany them somewhere.",
+        "examples": [
+          {
+            "en": "Can I string along with you to the shops?",
+            "zh": "我可以跟你一起去商店嗎?",
+            "highlight": "string along with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述排成長列的人或物",
+        "titleEn": "Describe people or objects arranged in a line",
+        "zh": "string out 可以描述步行者、跑手、車輛或船隻散開成長長一列。",
+        "en": "String out can describe walkers, runners, vehicles or boats spreading into a long line.",
+        "examples": [
+          {
+            "en": "The company was only stringing her along.",
+            "zh": "公司只是不斷給她虛假希望,令她一直等待。",
+            "highlight": "stringing her along"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論如何組織語言和想法",
+        "titleEn": "Talk about forming language and ideas",
+        "zh": "string together 可以描述某人如何把詞語、句子或想法連接起來。",
+        "en": "String together is useful when describing how someone connects words, sentences or ideas.",
+        "examples": [
+          {
+            "en": "The walkers strung out along the narrow path.",
+            "zh": "步行者沿着狹窄小路散開成長長一列。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述虛假希望和不必要的拖延",
+        "titleEn": "Describe false hope and unnecessary delay",
+        "zh": "string somebody along 表示令某人一直抱有虛假希望;string something out 則表示把事情拖得太久。",
+        "en": "String somebody along describes misleading someone, while string something out describes making an event continue for too long.",
+        "examples": [
+          {
+            "en": "We should not string out the argument.",
+            "zh": "我們不應把爭論拖長。",
+            "highlight": "string out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論掛起裝飾和告示",
+        "titleEn": "Talk about putting up decorations and signs",
+        "zh": "string something up 適合用來談論橫額、燈飾、照片和派對裝飾。",
+        "en": "String something up is useful when talking about banners, lights, photographs and party decorations.",
+        "examples": [
+          {
+            "en": "He managed to string a few sentences together.",
+            "zh": "他設法把幾個句子連起來。",
+            "highlight": "string a few sentences together"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STRING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STRING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STRING 片語動詞。",
+      "en": "Read the whole sentence and choose the STRING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: string him along string her up string it out string them together string it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: string him along string her up string it out string them together string it up"
+    },
+    {
+      "titleZh": "string out 可以表達兩種不同意思。人群可以沿道路散開成長長一列;某人亦可以把會議或爭論拖長。請仔細閱讀整個情境。",
+      "titleEn": "String out has two different meanings.",
+      "zh": "string out 可以表達兩種不同意思。人群可以沿道路散開成長長一列;某人亦可以把會議或爭論拖長。請仔細閱讀整個情境。",
+      "en": "String out has two different meanings. People may string out along a road, while somebody may string out a meeting or argument. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STRING 動詞片語句子改寫練習",
+    "titleEn": "STRING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-309-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "She hung a banner above the door.",
+      "promptZh": "她在門上方掛起了一幅橫額。",
+      "starter": "She",
+      "answer": "She strung up a banner above the door.",
+      "answerZh": "她在門上方掛起了一幅橫額。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The company never planned to hire Ava; it was only giving her false hope.",
+      "promptZh": "公司從沒有打算聘請艾娃,只是不斷給她虛假希望。",
+      "starter": "The",
+      "answer": "The company never planned to hire Ava; it was only stringing her along.",
+      "answerZh": "公司從沒有打算聘請艾娃,只是不斷給她虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "I am free this morning. Can I come with you when you go to the shops?",
+      "promptZh": "我今早有空。我可以在你去商店時跟你一起去嗎?",
+      "starter": "I",
+      "answer": "I am free this morning. Can I string along with you when you go to the shops?",
+      "answerZh": "我今早有空。我可以在你去商店時跟你一起去嗎?",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "He could barely put two German words together.",
+      "promptZh": "他幾乎連兩個德語詞語也無法組合起來。",
+      "starter": "He",
+      "answer": "He could barely string together two German words.",
+      "answerZh": "他幾乎連兩個德語詞語也無法組合起來。",
+      "highlight": "string together",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語或想法連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "As we climbed, the walkers began to spread into a long line along the path.",
+      "promptZh": "我們向上攀登時,步行者開始沿小路散開成長長一列。",
+      "starter": "As",
+      "answer": "As we climbed, the walkers began to string out along the path.",
+      "answerZh": "我們向上攀登時,步行者開始沿小路散開成長長一列。",
+      "highlight": "string out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I did not want to make the argument last any longer.",
+      "promptZh": "我不想再把爭論拖長。",
+      "starter": "I",
+      "answer": "I did not want to string out the argument.",
+      "answerZh": "我不想再把爭論拖長。",
+      "highlight": "string out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "In the old story, the villagers planned to hang the thief as punishment.",
+      "promptZh": "在那個古老故事中,村民打算把小偷吊死作為懲罰。",
+      "starter": "In",
+      "answer": "In the old story, the villagers planned to string the thief up.",
+      "answerZh": "在那個古老故事中,村民打算把小偷吊死作為懲罰。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We are walking to the market. You can come with us.",
+      "promptZh": "我們正步行前往市場。你可以跟我們一起去。",
+      "starter": "We",
+      "answer": "We are walking to the market. You can string along with us.",
+      "answerZh": "我們正步行前往市場。你可以跟我們一起去。",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The family hung coloured lights around the window.",
+      "promptZh": "那家人在窗戶周圍掛起了彩色燈飾。",
+      "starter": "The",
+      "answer": "The family strung up coloured lights around the window.",
+      "answerZh": "那家人在窗戶周圍掛起了彩色燈飾。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The chairperson promised not to make the meeting last longer than necessary.",
+      "promptZh": "主席承諾不會把會議拖得比必要時間更長。",
+      "starter": "The",
+      "answer": "The chairperson promised not to string the meeting out.",
+      "answerZh": "主席承諾不會把會議拖得比必要時間更長。",
+      "highlight": "string",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "By the final kilometre, the runners had spread into a long line along the road.",
+      "promptZh": "到了最後一公里,跑手已沿道路散開成長長一列。",
+      "starter": "By",
+      "answer": "By the final kilometre, the runners had strung out along the road.",
+      "answerZh": "到了最後一公里,跑手已沿道路散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The child managed to put a few words together to make a short sentence.",
+      "promptZh": "那名孩子設法把幾個詞語組合成一個短句。",
+      "starter": "The",
+      "answer": "The child managed to string a short sentence together.",
+      "answerZh": "那名孩子設法組成了一個短句。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語連接成句子"
+    },
+    {
+      "id": "phrasal-verb-309-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The coach never planned to choose Noah; he was only giving him false hope about a place on the team.",
+      "promptZh": "教練從沒有打算選擇諾亞,只是不斷令他對入選球隊抱有虛假希望。",
+      "starter": "The",
+      "answer": "The coach never planned to choose Noah; he was just stringing him along.",
+      "answerZh": "教練從沒有打算選擇諾亞,只是不斷令他對入選球隊抱有虛假希望。",
+      "highlight": "just stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "In the western film, the gang threatened to hang the sheriff.",
+      "promptZh": "在那部西部電影中,匪幫威脅要吊死警長。",
+      "starter": "In",
+      "answer": "In the western film, the gang threatened to string the sheriff up.",
+      "answerZh": "在那部西部電影中,匪幫威脅要吊死警長。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The hikers are spreading into a long line across the hillside as the path gets steeper.",
+      "promptZh": "隨着小路變得更陡,遠足者正沿山坡散開成長長一列。",
+      "starter": "The",
+      "answer": "The hikers are stringing out across the hillside as the path gets steeper.",
+      "answerZh": "隨着小路變得更陡,遠足者正沿山坡散開成長長一列。",
+      "highlight": "stringing out",
+      "targetForm": "string out across something",
+      "targetMeaningZh": "在某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We have hung the photographs above the desk.",
+      "promptZh": "我們已把照片掛在書桌上方。",
+      "starter": "We",
+      "answer": "We have strung the photographs up above the desk.",
+      "answerZh": "我們已把照片掛在書桌上方。",
+      "highlight": "strung",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "May I come with you when you visit the new library?",
+      "promptZh": "你參觀新圖書館時,我可以跟你一起去嗎?",
+      "starter": "May",
+      "answer": "May I string along with you when you visit the new library?",
+      "answerZh": "你參觀新圖書館時,我可以跟你一起去嗎?",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The two sides are making the talks continue instead of making a decision.",
+      "promptZh": "雙方沒有作出決定,反而正把會談拖長。",
+      "starter": "The",
+      "answer": "The two sides are stringing out the talks instead of making a decision.",
+      "answerZh": "雙方沒有作出決定,反而正把會談拖長。",
+      "highlight": "stringing out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The manager is giving the applicants false hope with promises of a second interview.",
+      "promptZh": "經理以第二次面試的承諾,不斷給申請人虛假希望。",
+      "starter": "The",
+      "answer": "The manager is stringing the applicants along with promises of a second interview.",
+      "answerZh": "經理以第二次面試的承諾,不斷給申請人虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Before the bell rang, Lily had managed to put three clear sentences together.",
+      "promptZh": "鐘聲響起前,莉莉已設法組成三個清楚的句子。",
+      "starter": "Before",
+      "answer": "Before the bell rang, Lily had managed to string three clear sentences together.",
+      "answerZh": "鐘聲響起前,莉莉已設法組成三個清楚的句子。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語或句子連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "In the play, the angry crowd may hang the prisoner if the guards do not arrive.",
+      "promptZh": "在劇中,如果守衛沒有到達,憤怒的群眾可能會吊死囚犯。",
+      "starter": "In",
+      "answer": "In the play, the angry crowd may string the prisoner up if the guards do not arrive.",
+      "answerZh": "在劇中,如果守衛沒有到達,憤怒的群眾可能會吊死囚犯。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please hang the birthday cards before the guests arrive.",
+      "promptZh": "請在賓客到達前把生日卡掛起來。",
+      "starter": "Please",
+      "answer": "Please string the birthday cards up before the guests arrive.",
+      "answerZh": "請在賓客到達前把生日卡掛起來。",
+      "highlight": "string",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Ella will not come with us because she has another appointment.",
+      "promptZh": "埃拉不會跟我們一起去,因為她另有約會。",
+      "starter": "Ella",
+      "answer": "Ella will not string along with us because she has another appointment.",
+      "answerZh": "埃拉不會跟我們一起去,因為她另有約會。",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Before the rain began, the cyclists had spread into a long line along the country road.",
+      "promptZh": "下雨前,踏單車的人已沿鄉間道路散開成長長一列。",
+      "starter": "Before",
+      "answer": "Before the rain began, the cyclists had strung out along the country road.",
+      "answerZh": "下雨前,踏單車的人已沿鄉間道路散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Can you connect these ideas to make one short paragraph?",
+      "promptZh": "你可以把這些想法連接起來,組成一個短段落嗎?",
+      "starter": "Can",
+      "answer": "Can you string these ideas together into one short paragraph?",
+      "answerZh": "你可以把這些想法連接起來,組成一個短段落嗎?",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把想法連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The seller has been giving us false promises for weeks without sending the phone.",
+      "promptZh": "賣家數星期來一直作出虛假承諾,卻沒有寄出電話。",
+      "starter": "The",
+      "answer": "The seller has been stringing us along for weeks without sending the phone.",
+      "answerZh": "賣家數星期來一直給我們虛假希望,卻沒有寄出電話。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why are they making the final part of the show last so long?",
+      "promptZh": "他們為甚麼把表演的最後部分拖得這麼長?",
+      "starter": "Why",
+      "answer": "Why are they stringing out the final part of the show?",
+      "answerZh": "他們為甚麼把表演的最後部分拖得這麼長?",
+      "highlight": "stringing out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "In the drama, the prisoner was about to be hanged when the king stopped the guards.",
+      "promptZh": "在劇中,國王制止守衛時,囚犯正要被吊死。",
+      "starter": "In",
+      "answer": "In the drama, the prisoner was about to be strung up when the king stopped the guards.",
+      "answerZh": "在劇中,國王制止守衛時,囚犯正要被吊死。",
+      "highlight": "strung up",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They kept promising him a place on the course even though they had no plan to accept him.",
+      "promptZh": "他們明明沒有打算取錄他,卻不斷承諾給他一個課程學額。",
+      "starter": "They",
+      "answer": "They were stringing him along with promises of a place on the course.",
+      "answerZh": "他們以課程學額的承諾,不斷給他虛假希望。",
+      "highlight": "were stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "As the group became tired, it started to spread into a long line along the narrow path.",
+      "promptZh": "隨着眾人感到疲倦,他們開始沿狹窄小路散開成長長一列。",
+      "starter": "As",
+      "answer": "As the group became tired, it started to string out along the narrow path.",
+      "answerZh": "隨着眾人感到疲倦,他們開始沿狹窄小路散開成長長一列。",
+      "highlight": "string out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The sign is ready. Please hang it beside the door.",
+      "promptZh": "告示已經準備好。請把它掛在門旁。",
+      "starter": "The",
+      "answer": "The sign is ready. Please string it up beside the door.",
+      "answerZh": "告示已經準備好。請把它掛在門旁。",
+      "highlight": "string",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I had several useful facts, but I could not connect them to form a clear explanation.",
+      "promptZh": "我有幾項有用的事實,但無法把它們連接成一個清楚的解釋。",
+      "starter": "I",
+      "answer": "I had several useful facts, but I could not string them together into a clear explanation.",
+      "answerZh": "我有幾項有用的事實,但無法把它們連接成一個清楚的解釋。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把事實或想法連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Can I come with you and Jay when you walk home?",
+      "promptZh": "你和杰步行回家時,我可以跟你們一起去嗎?",
+      "starter": "Can",
+      "answer": "Can I string along with you and Jay when you walk home?",
+      "answerZh": "你和杰步行回家時,我可以跟你們一起去嗎?",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The disagreement is already over, so let us not make it continue.",
+      "promptZh": "爭議已經結束,所以我們不要再把它拖長。",
+      "starter": "The",
+      "answer": "The disagreement is already over, so let us not string it out.",
+      "answerZh": "爭議已經結束,所以我們不要再把它拖長。",
+      "highlight": "string",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The crowd caught the thief and threatened to hang him.",
+      "promptZh": "群眾捉住小偷,並威脅要吊死他。",
+      "starter": "The",
+      "answer": "The crowd caught the thief and threatened to string him up.",
+      "answerZh": "群眾捉住小偷,並威脅要吊死他。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The small boats were spread in a long line across the bay.",
+      "promptZh": "小船在海灣上散開成長長一列。",
+      "starter": "The",
+      "answer": "The small boats were strung out across the bay.",
+      "answerZh": "小船在海灣上散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out across something",
+      "targetMeaningZh": "在某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Ravi asked whether he could come with us on the school trip.",
+      "promptZh": "拉維問他能否跟我們一起參加學校旅行。",
+      "starter": "Ravi",
+      "answer": "Ravi asked whether he could string along with us on the school trip.",
+      "answerZh": "拉維問他能否跟我們一起參加學校旅行。",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "She began to realise that the agency had no real offer and was only giving her false hope.",
+      "promptZh": "她開始發現那間公司根本沒有真正的工作機會,只是不斷給她虛假希望。",
+      "starter": "She",
+      "answer": "She began to realise that the agency was only stringing her along.",
+      "answerZh": "她開始發現那間公司只是不斷給她虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The repair work was made to last for three weeks even though it could have been finished sooner.",
+      "promptZh": "維修工作本可更早完成,卻被拖延了三星期。",
+      "starter": "The",
+      "answer": "The repair work was strung out over three weeks.",
+      "answerZh": "維修工作被拖延了三星期。",
+      "highlight": "strung out over",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Paper stars had been hung across the classroom before the party began.",
+      "promptZh": "派對開始前,紙製星星已掛滿課室。",
+      "starter": "Paper",
+      "answer": "Paper stars had been strung up across the classroom before the party began.",
+      "answerZh": "派對開始前,紙製星星已掛滿課室。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "He knew the right words, but he could not put them into a full sentence.",
+      "promptZh": "他知道正確的詞語,卻無法把它們組成一個完整句子。",
+      "starter": "He",
+      "answer": "He knew the right words, but he could not string a full sentence together.",
+      "answerZh": "他知道正確的詞語,卻無法組成一個完整句子。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語連接成句子"
+    },
+    {
+      "id": "phrasal-verb-309-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If the villagers catch the robber in the story, they say they will hang him.",
+      "promptZh": "在故事中,如果村民捉到那名強盜,他們說會把他吊死。",
+      "starter": "If",
+      "answer": "If the villagers catch the robber in the story, they say they will string him up.",
+      "answerZh": "在故事中,如果村民捉到那名強盜,他們說會把他吊死。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The speaker paused several times but still managed to connect a few clear ideas.",
+      "promptZh": "講者停頓了數次,但仍設法把幾個清楚的想法連接起來。",
+      "starter": "The",
+      "answer": "The speaker paused several times but still managed to string a few clear ideas together.",
+      "answerZh": "講者停頓了數次,但仍設法把幾個清楚的想法連接起來。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把想法連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "I have nothing planned this afternoon. May I come with you to the museum?",
+      "promptZh": "我今天下午沒有安排。我可以跟你一起去博物館嗎?",
+      "starter": "I",
+      "answer": "I have nothing planned this afternoon. May I string along with you to the museum?",
+      "answerZh": "我今天下午沒有安排。我可以跟你一起去博物館嗎?",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "In the old adventure story, the captain said he would hang the spy if he returned.",
+      "promptZh": "在那個古老冒險故事中,船長說如果間諜回來,他便會把間諜吊死。",
+      "starter": "In",
+      "answer": "In the old adventure story, the captain said he would string the spy up if he returned.",
+      "answerZh": "在那個古老冒險故事中,船長說如果間諜回來,他便會把間諜吊死。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The manager ended the discussion quickly because she did not want to make it continue unnecessarily.",
+      "promptZh": "經理迅速結束討論,因為她不想無故把討論拖長。",
+      "starter": "The",
+      "answer": "The manager ended the discussion quickly because she did not want to string it out.",
+      "answerZh": "經理迅速結束討論,因為她不想無故把討論拖長。",
+      "highlight": "string",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "For the school fair, the pupils hung small flags above the entrance.",
+      "promptZh": "學生為學校嘉年華在入口上方掛起小旗。",
+      "starter": "For",
+      "answer": "For the school fair, the pupils strung up small flags above the entrance.",
+      "answerZh": "學生為學校嘉年華在入口上方掛起小旗。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The travel company kept giving the family false hope about a refund that it never planned to pay.",
+      "promptZh": "旅遊公司從沒有打算退款,卻一直令那家人抱有虛假希望。",
+      "starter": "The",
+      "answer": "The travel company kept stringing the family along about a refund that it never planned to pay.",
+      "answerZh": "旅遊公司從沒有打算退款,卻一直令那家人抱有虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The people in the parade had spread into a long line along the whole street by noon.",
+      "promptZh": "到了中午,巡遊隊伍的人已沿整條街道散開成長長一列。",
+      "starter": "The",
+      "answer": "The people in the parade had strung out along the whole street by noon.",
+      "answerZh": "到了中午,巡遊隊伍的人已沿整條街道散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Even under pressure, the host managed to put together a sensible reply.",
+      "promptZh": "即使面對壓力,主持人仍設法組織出一個合理的回答。",
+      "starter": "Even",
+      "answer": "Even under pressure, the host managed to string together a sensible reply.",
+      "answerZh": "即使面對壓力,主持人仍設法組織出一個合理的回答。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語或想法連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "They were walking to the bookshop, and I asked whether I could go with them.",
+      "promptZh": "他們正步行前往書店,而我問自己能否跟他們一起去。",
+      "starter": "They",
+      "answer": "They were walking to the bookshop, and I asked whether I could string along with them.",
+      "answerZh": "他們正步行前往書店,而我問自己能否跟他們一起去。",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "In the old tale, the captured bandit was nearly hanged by the angry townspeople.",
+      "promptZh": "在那個古老故事中,被捕的強盜差點被憤怒的鎮民吊死。",
+      "starter": "In",
+      "answer": "In the old tale, the captured bandit was nearly strung up by the angry townspeople.",
+      "answerZh": "在那個古老故事中,被捕的強盜差點被憤怒的鎮民吊死。",
+      "highlight": "strung up",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The club kept giving the new players false hope with promises of a place in the final team.",
+      "promptZh": "俱樂部以入選最終隊伍的承諾,不斷給新球員虛假希望。",
+      "starter": "The",
+      "answer": "The club kept stringing the new players along with promises of a place in the final team.",
+      "answerZh": "俱樂部以入選最終隊伍的承諾,不斷給新球員虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The children hung a row of paper birds across the classroom.",
+      "promptZh": "孩子們在課室掛起了一排紙鳥。",
+      "starter": "The",
+      "answer": "The children strung up a row of paper birds across the classroom.",
+      "answerZh": "孩子們在課室掛起了一排紙鳥。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "As the race continued, the slower runners spread into a long line behind the leaders.",
+      "promptZh": "隨着比賽繼續,較慢的跑手在領先者後方散開成長長一列。",
+      "starter": "As",
+      "answer": "As the race continued, the slower runners strung out behind the leaders.",
+      "answerZh": "隨着比賽繼續,較慢的跑手在領先者後方散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out",
+      "targetMeaningZh": "散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The writer made the ending last for too many pages.",
+      "promptZh": "作者把結局拖了太多頁。",
+      "starter": "The",
+      "answer": "The writer strung out the ending for too many pages.",
+      "answerZh": "作者把結局拖了太多頁。",
+      "highlight": "strung out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The hotel kept saying that a job would be available soon, but it was only giving Grace false hope.",
+      "promptZh": "酒店一直聲稱很快會有職位空缺,但其實只是在給格蕾絲虛假希望。",
+      "starter": "The",
+      "answer": "The hotel kept saying that a job would be available soon, but it was only stringing Grace along.",
+      "answerZh": "酒店一直聲稱很快會有職位空缺,但其實只是在給格蕾絲虛假希望。",
+      "highlight": "stringing",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As the climb became harder, our group spread into a long line along the mountain path, with the strongest walkers moving ahead.",
+      "promptZh": "隨着攀登變得更困難,我們沿山路散開成長長一列,體力最好的人走在前方。",
+      "starter": "As",
+      "answer": "As the climb became harder, our group strung out along the mountain path, with the strongest walkers moving ahead.",
+      "answerZh": "隨着攀登變得更困難,我們沿山路散開成長長一列,體力最好的人走在前方。",
+      "highlight": "strung out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "My friends were going to the market, so I asked whether I could go with them.",
+      "promptZh": "我的朋友正前往市場,所以我問自己能否跟他們一起去。",
+      "starter": "My",
+      "answer": "My friends were going to the market, so I asked whether I could string along with them.",
+      "answerZh": "我的朋友正前往市場,所以我問自己能否跟他們一起去。",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before the doors opened, the staff hung the welcome signs and checked the lights.",
+      "promptZh": "大門開啟前,職員掛起歡迎告示,並檢查燈光。",
+      "starter": "Before",
+      "answer": "Before the doors opened, the staff strung up the welcome signs and checked the lights.",
+      "answerZh": "大門開啟前,職員掛起歡迎告示,並檢查燈光。",
+      "highlight": "strung up",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although Ken knew the words, he could not put together more than one simple sentence in Italian.",
+      "promptZh": "雖然肯知道那些詞語,但他無法用意大利語組成超過一個簡單句子。",
+      "starter": "Although",
+      "answer": "Although Ken knew the words, he could not string together more than one simple sentence in Italian.",
+      "answerZh": "雖然肯知道那些詞語,但他無法用意大利語組成超過一個簡單句子。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語連接成句子"
+    },
+    {
+      "id": "phrasal-verb-309-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Neither side wanted to make the negotiation last longer, so they agreed to meet again the next morning.",
+      "promptZh": "雙方都不想把談判拖長,所以同意翌日早上再次會面。",
+      "starter": "Neither",
+      "answer": "Neither side wanted to string out the negotiation, so they agreed to meet again the next morning.",
+      "answerZh": "雙方都不想把談判拖長,所以同意翌日早上再次會面。",
+      "highlight": "string out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "In the final scene, the judge arrives just before the crowd can hang the prisoner.",
+      "promptZh": "在最後一幕中,法官在群眾吊死囚犯前及時到達。",
+      "starter": "In",
+      "answer": "In the final scene, the judge arrives just before the crowd can string the prisoner up.",
+      "answerZh": "在最後一幕中,法官在群眾吊死囚犯前及時到達。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    },
+    {
+      "id": "phrasal-verb-309-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Our cousins are visiting the night market. Would you like to come with us?",
+      "promptZh": "我們的表兄弟姊妹正參觀夜市。你想跟我們一起去嗎?",
+      "starter": "Our",
+      "answer": "Our cousins are visiting the night market. Would you like to string along with us?",
+      "answerZh": "我們的表兄弟姊妹正參觀夜市。你想跟我們一起去嗎?",
+      "highlight": "string along",
+      "targetForm": "string along with somebody",
+      "targetMeaningZh": "跟着某人同行"
+    },
+    {
+      "id": "phrasal-verb-309-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The producer had no place for Carla in the show, but he continued giving her false hope with friendly promises.",
+      "promptZh": "製作人沒有打算讓卡拉參與演出,卻繼續以友善的承諾給她虛假希望。",
+      "starter": "The",
+      "answer": "The producer had no place for Carla in the show, but he continued to string her along with friendly promises.",
+      "answerZh": "製作人沒有打算讓卡拉參與演出,卻繼續以友善的承諾給她虛假希望。",
+      "highlight": "to string",
+      "targetForm": "string somebody along",
+      "targetMeaningZh": "不斷給某人虛假希望"
+    },
+    {
+      "id": "phrasal-verb-309-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "I was so nervous that I could barely put two sensible words together.",
+      "promptZh": "我緊張得幾乎連兩個有意思的詞語也無法組合起來。",
+      "starter": "I",
+      "answer": "I was so nervous that I could barely string two sensible words together.",
+      "answerZh": "我緊張得幾乎連兩個有意思的詞語也無法組合起來。",
+      "highlight": "string",
+      "targetForm": "string something together",
+      "targetMeaningZh": "把詞語連接起來"
+    },
+    {
+      "id": "phrasal-verb-309-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "From the cliff, we could see fishing boats spread in a long line along the coast.",
+      "promptZh": "我們從懸崖上看見漁船沿海岸散開成長長一列。",
+      "starter": "From",
+      "answer": "From the cliff, we could see fishing boats strung out along the coast.",
+      "answerZh": "我們從懸崖上看見漁船沿海岸散開成長長一列。",
+      "highlight": "strung out",
+      "targetForm": "string out along something",
+      "targetMeaningZh": "沿某處散開成長長一列"
+    },
+    {
+      "id": "phrasal-verb-309-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "She hung the “Happy 40th Birthday” banner above the table before her brother arrived.",
+      "promptZh": "她在弟弟到達前,把「四十歲生日快樂」橫額掛在桌子上方。",
+      "starter": "She",
+      "answer": "She strung the “Happy 40th Birthday” banner up above the table before her brother arrived.",
+      "answerZh": "她在弟弟到達前,把「四十歲生日快樂」橫額掛在桌子上方。",
+      "highlight": "strung",
+      "targetForm": "string something up",
+      "targetMeaningZh": "把某物掛起"
+    },
+    {
+      "id": "phrasal-verb-309-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The neighbours finally agreed to stop making the argument last longer and discuss the real problem calmly.",
+      "promptZh": "鄰居終於同意停止把爭論拖長,並冷靜討論真正的問題。",
+      "starter": "The",
+      "answer": "The neighbours finally agreed to stop stringing out the argument and discuss the real problem calmly.",
+      "answerZh": "鄰居終於同意停止把爭論拖長,並冷靜討論真正的問題。",
+      "highlight": "stringing out",
+      "targetForm": "string something out",
+      "targetMeaningZh": "把某事拖長"
+    },
+    {
+      "id": "phrasal-verb-309-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "In the play, the guards were ordered to hang the traitor, but the queen stopped them.",
+      "promptZh": "在劇中,守衛奉命吊死叛徒,但女王制止了他們。",
+      "starter": "In",
+      "answer": "In the play, the guards were ordered to string the traitor up, but the queen stopped them.",
+      "answerZh": "在劇中,守衛奉命吊死叛徒,但女王制止了他們。",
+      "highlight": "string",
+      "targetForm": "string somebody up",
+      "targetMeaningZh": "把某人吊起或吊死"
+    }
+  ]
+}

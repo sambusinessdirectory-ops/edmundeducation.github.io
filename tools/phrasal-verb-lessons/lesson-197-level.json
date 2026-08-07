@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-197",
+  "order": 197,
+  "slug": "level",
+  "version": "1",
+  "title": "LEVEL 動詞片語",
+  "titleEn": "Level",
+  "titleZh": "LEVEL 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 195 - LEVEL.pdf",
+    "sourceNumber": 195,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LEVEL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LEVEL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LEVEL",
+      "highlight": "LEVEL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Visitor numbers levelled off in May.",
+      "zh": "訪客人數在五月趨於穩定。",
+      "highlight": "levelled off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The plane levelled out at 9,000 feet.",
+      "zh": "飛機在九千英尺的高度轉為水平飛行。",
+      "highlight": "levelled out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The report levelled criticism at the organisers.",
+      "zh": "報告公開批評主辦單位。",
+      "highlight": "levelled criticism at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "經過上升或下降後停止變化,並保持穩定；道路、飛機等停止上升或下降,變得水平；公開批評、指責某人或某事物;公開提出指控；把不同的標準或數量降低或提高至相同水平；把地面或表面弄平；向某人坦白;誠實而直接地說出真相",
+    "en": "level off / level out; level off / level out; level something at/against somebody/something; level something down/up; level something off/out; level with somebody",
+    "naturalZh": [
+      "經過上升或下降後停止變化,並保持穩定",
+      "道路、飛機等停止上升或下降,變得水平",
+      "公開批評、指責某人或某事物;公開提出指控",
+      "把不同的標準或數量降低或提高至相同水平",
+      "把地面或表面弄平",
+      "向某人坦白;誠實而直接地說出真相"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "level off / level out",
+      "titleZh": "經過上升或下降後停止變化,並保持穩定",
+      "titleEn": "level off / level out",
+      "descriptionZh": "經過上升或下降後停止變化,並保持穩定",
+      "descriptionEn": "Visitor numbers levelled off in May.",
+      "examples": [
+        {
+          "en": "Visitor numbers levelled off in May.",
+          "zh": "訪客人數在五月趨於穩定。",
+          "highlight": "levelled off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "level off / level out",
+      "titleZh": "道路、飛機等停止上升或下降,變得水平",
+      "titleEn": "level off / level out",
+      "descriptionZh": "道路、飛機等停止上升或下降,變得水平",
+      "descriptionEn": "The plane levelled out at 9,000 feet.",
+      "examples": [
+        {
+          "en": "The plane levelled out at 9,000 feet.",
+          "zh": "飛機在九千英尺的高度轉為水平飛行。",
+          "highlight": "levelled out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "level something at/against somebody/something",
+      "titleZh": "公開批評、指責某人或某事物;公開提出指控",
+      "titleEn": "level something at/against somebody/something",
+      "descriptionZh": "公開批評、指責某人或某事物;公開提出指控",
+      "descriptionEn": "The report levelled criticism at the organisers.",
+      "examples": [
+        {
+          "en": "The report levelled criticism at the organisers.",
+          "zh": "報告公開批評主辦單位。",
+          "highlight": "levelled criticism at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "level something down/up",
+      "titleZh": "把不同的標準或數量降低或提高至相同水平",
+      "titleEn": "level something down/up",
+      "descriptionZh": "把不同的標準或數量降低或提高至相同水平",
+      "descriptionEn": "The plan should level school standards up, not level them down.",
+      "examples": [
+        {
+          "en": "The plan should level school standards up, not level them down.",
+          "zh": "這項計劃應提高學校水平,而不是把水平降低。",
+          "highlight": "level school standards up, not level them down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "level something off/out",
+      "titleZh": "把地面或表面弄平",
+      "titleEn": "level something off/out",
+      "descriptionZh": "把地面或表面弄平",
+      "descriptionEn": "Level the soil out before planting.",
+      "examples": [
+        {
+          "en": "Level the soil out before planting.",
+          "zh": "種植前先把泥土弄平。",
+          "highlight": "Level the soil out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "level with somebody",
+      "titleZh": "向某人坦白;誠實而直接地說出真相",
+      "titleEn": "level with somebody",
+      "descriptionZh": "向某人坦白;誠實而直接地說出真相",
+      "descriptionEn": "I need to level with you: the job is difficult.",
+      "examples": [
+        {
+          "en": "I need to level with you: the job is difficult.",
+          "zh": "我必須向你坦白:這份工作並不容易。",
+          "highlight": "level with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LEVEL 片語動詞的實際用途",
+    "labelEn": "LEVEL Phrasal Verbs in Use",
+    "summaryZh": "level off 和 level out 可以表示銷量、價格、增長或其他數字不再上升或下降。；你可以使用 LEVEL 片語動詞描述道路變得平坦、飛機轉為水平飛行,或有人把地面弄平。；level something up 表示提高較低的水平;level something down 則表示降低較高的水平來達致一致。；level criticism at someone 可以描述公開批評;level with someone 則適合用來表示坦白而直接地說話。",
+    "summaryEn": "Level off and level out allow you to explain that sales, prices, growth or other figures are no longer rising or falling. You can use LEVEL expressions when a road becomes flat, an aircraft begins flying horizontally or someone makes the ground smooth. Level something up describes improving a lower standard, while level something down describes creating equality by lowering a higher standard. Level criticism at someone describes public criticism. Level with someone is useful when you need to speak honestly and directly.",
+    "contextsZh": [
+      "描述數字和價格逐漸穩定",
+      "清楚描述移動和實際表面",
+      "談論相同的標準和機會",
+      "準確表達批評和坦白"
+    ],
+    "contextsEn": [
+      "Describe numbers and prices becoming steady",
+      "Describe movement and physical surfaces clearly",
+      "Talk about equal standards and opportunities",
+      "Express criticism and honesty precisely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LEVEL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LEVEL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "level off / level out",
+    "fixedHighlight": "level off / level out",
+    "fixedZh": "閱讀整句,選出意思相同的 LEVEL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LEVEL expression that gives the same meaning.",
+    "correct": "levelled off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 LEVEL ... OFF、OUT、UP 或 DOWN 中使用 it 或 them 時,請按照以上例子放在正確位置。；level off/out 可以表達兩種不同意思。價格或數字可以變得穩定;道路或飛機則可以變得水平。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them in a LEVEL... OFF, OUT, UP or DOWN expression, place the word as shown: level it out level it off level them up level them down Level off/out can express two different ideas. Prices or numbers can become steady, while a road or aircraft can become horizontal.",
+    "variableItemsZh": [
+      "level off / level out",
+      "level off / level out",
+      "level something at/against somebody/something",
+      "level something down/up",
+      "level something off/out",
+      "level with somebody"
+    ],
+    "variableItemsEn": [
+      "level off / level out",
+      "level off / level out",
+      "level something at/against somebody/something",
+      "level something down/up",
+      "level something off/out",
+      "level with somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "經過上升或下降後停止變化,並保持穩定",
+        "formEn": "level off / level out",
+        "exampleZh": "訪客人數在五月趨於穩定。",
+        "exampleEn": "Visitor numbers levelled off in May.",
+        "highlight": "levelled off"
+      },
+      {
+        "formZh": "道路、飛機等停止上升或下降,變得水平",
+        "formEn": "level off / level out",
+        "exampleZh": "飛機在九千英尺的高度轉為水平飛行。",
+        "exampleEn": "The plane levelled out at 9,000 feet.",
+        "highlight": "levelled out"
+      },
+      {
+        "formZh": "公開批評、指責某人或某事物;公開提出指控",
+        "formEn": "level something at/against somebody/something",
+        "exampleZh": "報告公開批評主辦單位。",
+        "exampleEn": "The report levelled criticism at the organisers.",
+        "highlight": "levelled criticism at"
+      },
+      {
+        "formZh": "把不同的標準或數量降低或提高至相同水平",
+        "formEn": "level something down/up",
+        "exampleZh": "這項計劃應提高學校水平,而不是把水平降低。",
+        "exampleEn": "The plan should level school standards up, not level them down.",
+        "highlight": "level school standards up, not level them down"
+      },
+      {
+        "formZh": "把地面或表面弄平",
+        "formEn": "level something off/out",
+        "exampleZh": "種植前先把泥土弄平。",
+        "exampleEn": "Level the soil out before planting.",
+        "highlight": "Level the soil out"
+      },
+      {
+        "formZh": "向某人坦白;誠實而直接地說出真相",
+        "formEn": "level with somebody",
+        "exampleZh": "我必須向你坦白:這份工作並不容易。",
+        "exampleEn": "I need to level with you: the job is difficult.",
+        "highlight": "level with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "經過上升或下降後停止變化,並保持穩定",
+      "titleEn": "level off / level out",
+      "formula": "level off / level out",
+      "highlight": "level off / level out",
+      "descriptionZh": "經過上升或下降後停止變化,並保持穩定",
+      "descriptionEn": "Visitor numbers levelled off in May.",
+      "examples": [
+        {
+          "en": "Visitor numbers levelled off in May.",
+          "zh": "訪客人數在五月趨於穩定。",
+          "highlight": "levelled off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "道路、飛機等停止上升或下降,變得水平",
+      "titleEn": "level off / level out",
+      "formula": "level off / level out",
+      "highlight": "level off / level out",
+      "descriptionZh": "道路、飛機等停止上升或下降,變得水平",
+      "descriptionEn": "The plane levelled out at 9,000 feet.",
+      "examples": [
+        {
+          "en": "The plane levelled out at 9,000 feet.",
+          "zh": "飛機在九千英尺的高度轉為水平飛行。",
+          "highlight": "levelled out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "公開批評、指責某人或某事物;公開提出指控",
+      "titleEn": "level something at/against somebody/something",
+      "formula": "level something at/against somebody/something",
+      "highlight": "level something at/against somebody/something",
+      "descriptionZh": "公開批評、指責某人或某事物;公開提出指控",
+      "descriptionEn": "The report levelled criticism at the organisers.",
+      "examples": [
+        {
+          "en": "The report levelled criticism at the organisers.",
+          "zh": "報告公開批評主辦單位。",
+          "highlight": "levelled criticism at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把不同的標準或數量降低或提高至相同水平",
+      "titleEn": "level something down/up",
+      "formula": "level something down/up",
+      "highlight": "level something down/up",
+      "descriptionZh": "把不同的標準或數量降低或提高至相同水平",
+      "descriptionEn": "The plan should level school standards up, not level them down.",
+      "examples": [
+        {
+          "en": "The plan should level school standards up, not level them down.",
+          "zh": "這項計劃應提高學校水平,而不是把水平降低。",
+          "highlight": "level school standards up, not level them down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把地面或表面弄平",
+      "titleEn": "level something off/out",
+      "formula": "level something off/out",
+      "highlight": "level something off/out",
+      "descriptionZh": "把地面或表面弄平",
+      "descriptionEn": "Level the soil out before planting.",
+      "examples": [
+        {
+          "en": "Level the soil out before planting.",
+          "zh": "種植前先把泥土弄平。",
+          "highlight": "Level the soil out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "向某人坦白;誠實而直接地說出真相",
+      "titleEn": "level with somebody",
+      "formula": "level with somebody",
+      "highlight": "level with somebody",
+      "descriptionZh": "向某人坦白;誠實而直接地說出真相",
+      "descriptionEn": "I need to level with you: the job is difficult.",
+      "examples": [
+        {
+          "en": "I need to level with you: the job is difficult.",
+          "zh": "我必須向你坦白:這份工作並不容易。",
+          "highlight": "level with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述數字和價格逐漸穩定",
+      "titleEn": "Describe numbers and prices becoming steady",
+      "zh": "level off 和 level out 可以表示銷量、價格、增長或其他數字不再上升或下降。",
+      "en": "Level off and level out allow you to explain that sales, prices, growth or other figures are no longer rising or falling."
+    },
+    {
+      "titleZh": "清楚描述移動和實際表面",
+      "titleEn": "Describe movement and physical surfaces clearly",
+      "zh": "你可以使用 LEVEL 片語動詞描述道路變得平坦、飛機轉為水平飛行,或有人把地面弄平。",
+      "en": "You can use LEVEL expressions when a road becomes flat, an aircraft begins flying horizontally or someone makes the ground smooth."
+    },
+    {
+      "titleZh": "談論相同的標準和機會",
+      "titleEn": "Talk about equal standards and opportunities",
+      "zh": "level something up 表示提高較低的水平;level something down 則表示降低較高的水平來達致一致。",
+      "en": "Level something up describes improving a lower standard, while level something down describes creating equality by lowering a higher standard."
+    },
+    {
+      "titleZh": "準確表達批評和坦白",
+      "titleEn": "Express criticism and honesty precisely",
+      "zh": "level criticism at someone 可以描述公開批評;level with someone 則適合用來表示坦白而直接地說話。",
+      "en": "Level criticism at someone describes public criticism. Level with someone is useful when you need to speak honestly and directly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述數字和價格逐漸穩定",
+      "清楚描述移動和實際表面",
+      "談論相同的標準和機會",
+      "準確表達批評和坦白"
+    ],
+    "contextsEn": [
+      "Describe numbers and prices becoming steady",
+      "Describe movement and physical surfaces clearly",
+      "Talk about equal standards and opportunities",
+      "Express criticism and honesty precisely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述數字和價格逐漸穩定",
+        "titleEn": "Describe numbers and prices becoming steady",
+        "zh": "level off 和 level out 可以表示銷量、價格、增長或其他數字不再上升或下降。",
+        "en": "Level off and level out allow you to explain that sales, prices, growth or other figures are no longer rising or falling.",
+        "examples": [
+          {
+            "en": "Visitor numbers levelled off in May.",
+            "zh": "訪客人數在五月趨於穩定。",
+            "highlight": "levelled off"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述移動和實際表面",
+        "titleEn": "Describe movement and physical surfaces clearly",
+        "zh": "你可以使用 LEVEL 片語動詞描述道路變得平坦、飛機轉為水平飛行,或有人把地面弄平。",
+        "en": "You can use LEVEL expressions when a road becomes flat, an aircraft begins flying horizontally or someone makes the ground smooth.",
+        "examples": [
+          {
+            "en": "The plane levelled out at 9,000 feet.",
+            "zh": "飛機在九千英尺的高度轉為水平飛行。",
+            "highlight": "levelled out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論相同的標準和機會",
+        "titleEn": "Talk about equal standards and opportunities",
+        "zh": "level something up 表示提高較低的水平;level something down 則表示降低較高的水平來達致一致。",
+        "en": "Level something up describes improving a lower standard, while level something down describes creating equality by lowering a higher standard.",
+        "examples": [
+          {
+            "en": "The report levelled criticism at the organisers.",
+            "zh": "報告公開批評主辦單位。",
+            "highlight": "levelled criticism at"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確表達批評和坦白",
+        "titleEn": "Express criticism and honesty precisely",
+        "zh": "level criticism at someone 可以描述公開批評;level with someone 則適合用來表示坦白而直接地說話。",
+        "en": "Level criticism at someone describes public criticism. Level with someone is useful when you need to speak honestly and directly.",
+        "examples": [
+          {
+            "en": "The plan should level school standards up, not level them down.",
+            "zh": "這項計劃應提高學校水平,而不是把水平降低。",
+            "highlight": "level school standards up, not level them down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LEVEL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LEVEL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LEVEL 片語動詞。",
+      "en": "Read the whole sentence and choose the LEVEL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 LEVEL ... OFF、OUT、UP 或 DOWN 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in a LEVEL.",
+      "zh": "在 LEVEL ... OFF、OUT、UP 或 DOWN 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in a LEVEL... OFF, OUT, UP or DOWN expression, place the word as shown: level it out level it off level them up level them down"
+    },
+    {
+      "titleZh": "level off/out 可以表達兩種不同意思。價格或數字可以變得穩定;道路或飛機則可以變得水平。",
+      "titleEn": "Level off/out can express two different ideas.",
+      "zh": "level off/out 可以表達兩種不同意思。價格或數字可以變得穩定;道路或飛機則可以變得水平。",
+      "en": "Level off/out can express two different ideas. Prices or numbers can become steady, while a road or aircraft can become horizontal."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LEVEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LEVEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LEVEL 動詞片語句子改寫練習",
+    "titleEn": "LEVEL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LEVEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LEVEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-197-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "After rising for three months, ticket sales stopped increasing in June.",
+      "promptZh": "門票銷量上升了三個月後,在六月停止增長。",
+      "starter": "After",
+      "answer": "After rising for three months, ticket sales levelled off in June.",
+      "answerZh": "門票銷量上升了三個月後,在六月趨於穩定。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Several parents publicly directed criticism at the new rule.",
+      "promptZh": "幾名家長公開批評這項新規則。",
+      "starter": "Several",
+      "answer": "Several parents levelled criticism at the new rule.",
+      "answerZh": "幾名家長公開批評這項新規則。",
+      "highlight": "levelled",
+      "targetForm": "level something at something",
+      "targetMeaningZh": "公開批評或指責某事物"
+    },
+    {
+      "id": "phrasal-verb-197-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Please make the sand flat before placing the chairs on it.",
+      "promptZh": "把椅子放在沙地上之前,請先把沙面弄平。",
+      "starter": "Please",
+      "answer": "Please level the sand out before placing the chairs on it.",
+      "answerZh": "把椅子放在沙地上之前,請先把沙面弄平。",
+      "highlight": "level",
+      "targetForm": "level something out",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I will be honest with you: this plan is too expensive.",
+      "promptZh": "我會向你坦白:這項計劃太昂貴。",
+      "starter": "I",
+      "answer": "I will level with you: this plan is too expensive.",
+      "answerZh": "我會向你坦白:這項計劃太昂貴。",
+      "highlight": "level",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Near the coast, the road became flat.",
+      "promptZh": "接近海岸時,道路變得平坦。",
+      "starter": "Near",
+      "answer": "Near the coast, the road levelled out.",
+      "answerZh": "接近海岸時,道路變得平坦。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "To match the best schools, the plan will raise standards in weaker schools.",
+      "promptZh": "為了追上最優秀的學校,這項計劃會提高較弱學校的水平。",
+      "starter": "To",
+      "answer": "To match the best schools, the plan will level up standards in weaker schools.",
+      "answerZh": "為了追上最優秀的學校,這項計劃會提高較弱學校的水平。",
+      "highlight": "level up",
+      "targetForm": "level something up",
+      "targetMeaningZh": "把較低水平提高"
+    },
+    {
+      "id": "phrasal-verb-197-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Later, the unfair charges made against Mr Lee were dropped.",
+      "promptZh": "後來,針對李先生的不公平指控被撤銷了。",
+      "starter": "Later",
+      "answer": "Later, the unfair charges levelled against Mr Lee were dropped.",
+      "answerZh": "後來,針對李先生的不公平指控被撤銷了。",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    },
+    {
+      "id": "phrasal-verb-197-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "After a quick fall, the number of visitors stayed at about 200 a day.",
+      "promptZh": "訪客人數迅速下降後,維持在每日約二百人。",
+      "starter": "After",
+      "answer": "After a quick fall, the number of visitors levelled out at about 200 a day.",
+      "answerZh": "訪客人數迅速下降後,穩定在每日約二百人。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Under the new rule, all the scores were made equal at a lower point.",
+      "promptZh": "根據新規則,所有分數都被降低至相同的較低水平。",
+      "starter": "Under",
+      "answer": "Under the new rule, all the scores were levelled down to the same lower point.",
+      "answerZh": "根據新規則,所有分數都被降低至相同的較低水平。",
+      "highlight": "levelled down to the same",
+      "targetForm": "level something down",
+      "targetMeaningZh": "把標準或數量降至相同的較低水平"
+    },
+    {
+      "id": "phrasal-verb-197-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Before the cement dried, the worker made it smooth and flat.",
+      "promptZh": "水泥乾透前,工人把它弄得平滑。",
+      "starter": "Before",
+      "answer": "Before the cement dried, the worker levelled it off.",
+      "answerZh": "水泥乾透前,工人把它弄平。",
+      "highlight": "levelled",
+      "targetForm": "level something off",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ella finally told her parents the truth about the broken window.",
+      "promptZh": "埃拉終於向父母坦白窗戶破爛的真相。",
+      "starter": "Ella",
+      "answer": "Ella finally levelled with her parents about the broken window.",
+      "answerZh": "埃拉終於向父母坦白窗戶破爛的真相。",
+      "highlight": "levelled with",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Beyond the steep hill, the path became flat beside the lake.",
+      "promptZh": "越過陡峭的山坡後,小路在湖邊變得平坦。",
+      "starter": "Beyond",
+      "answer": "Beyond the steep hill, the path levelled off beside the lake.",
+      "answerZh": "越過陡峭的山坡後,小路在湖邊變得平坦。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The council is raising services in poorer areas to match the rest of the city.",
+      "promptZh": "市議會正改善較貧困地區的服務,使其追上市內其他地區。",
+      "starter": "The",
+      "answer": "The council is levelling up services in poorer areas to match the rest of the city.",
+      "answerZh": "市議會正改善較貧困地區的服務,使其追上市內其他地區。",
+      "highlight": "levelling up",
+      "targetForm": "level something up",
+      "targetMeaningZh": "把較低水平提高"
+    },
+    {
+      "id": "phrasal-verb-197-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "At 8,000 feet, the plane stopped climbing and began flying horizontally.",
+      "promptZh": "飛機在八千英尺的高度停止上升,開始水平飛行。",
+      "starter": "At",
+      "answer": "At 8,000 feet, the plane levelled off.",
+      "answerZh": "飛機在八千英尺的高度轉為水平飛行。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "飛機停止上升或下降並水平飛行"
+    },
+    {
+      "id": "phrasal-verb-197-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are you being completely honest with me?",
+      "promptZh": "你有完全向我說真話嗎?",
+      "starter": "Are",
+      "answer": "Are you levelling with me?",
+      "answerZh": "你有向我說真話嗎?",
+      "highlight": "levelling",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Prices are now becoming steady after several sharp rises.",
+      "promptZh": "價格經過幾次急升後,現在正逐漸穩定。",
+      "starter": "Prices",
+      "answer": "Prices are now levelling off after several sharp rises.",
+      "answerZh": "價格經過幾次急升後,現在正逐漸穩定。",
+      "highlight": "levelling off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "They are making the ground flat before planting the trees.",
+      "promptZh": "他們正在種樹前把地面弄平。",
+      "starter": "They",
+      "answer": "They are levelling the ground out before planting the trees.",
+      "answerZh": "他們正在種樹前把地面弄平。",
+      "highlight": "levelling",
+      "targetForm": "level something out",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The newspaper has publicly directed strong criticism at the company.",
+      "promptZh": "這份報章公開強烈批評該公司。",
+      "starter": "The",
+      "answer": "The newspaper has levelled strong criticism at the company.",
+      "answerZh": "這份報章公開強烈批評該公司。",
+      "highlight": "levelled",
+      "targetForm": "level something at somebody/something",
+      "targetMeaningZh": "公開批評或指責"
+    },
+    {
+      "id": "phrasal-verb-197-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "As it enters the village, the track is becoming flat.",
+      "promptZh": "小路進入村莊時逐漸變得平坦。",
+      "starter": "As",
+      "answer": "As it enters the village, the track is levelling out.",
+      "answerZh": "小路進入村莊時逐漸變得平坦。",
+      "highlight": "levelling out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We should not make every class equal by lowering all of them to the weakest class’s standard.",
+      "promptZh": "我們不應把所有班別降低至最弱班別的水平,以達致一致。",
+      "starter": "We",
+      "answer": "We should not level every class down to the standard of the weakest one.",
+      "answerZh": "我們不應把每個班別降低至最弱班別的水平。",
+      "highlight": "level",
+      "targetForm": "level something down",
+      "targetMeaningZh": "把標準降至相同的較低水平"
+    },
+    {
+      "id": "phrasal-verb-197-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the number of new members stopped falling?",
+      "promptZh": "新會員人數已經停止下降嗎?",
+      "starter": "Has",
+      "answer": "Has the number of new members levelled out?",
+      "answerZh": "新會員人數已經穩定下來嗎?",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "He has never told us the full truth about the money.",
+      "promptZh": "他從未向我們說出有關那筆金錢的全部真相。",
+      "starter": "He",
+      "answer": "He has never levelled with us about the money.",
+      "answerZh": "他從未向我們說出有關那筆金錢的全部真相。",
+      "highlight": "levelled with",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Were any accusations publicly made against the coach?",
+      "promptZh": "有人公開指控那名教練嗎?",
+      "starter": "Were",
+      "answer": "Were any accusations levelled against the coach?",
+      "answerZh": "有人公開指控那名教練嗎?",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    },
+    {
+      "id": "phrasal-verb-197-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Could you make this soil flat before we lay the grass?",
+      "promptZh": "我們鋪草前,你可以把這片泥土弄平嗎?",
+      "starter": "Could",
+      "answer": "Could you level this soil off before we lay the grass?",
+      "answerZh": "我們鋪草前,你可以把這片泥土弄平嗎?",
+      "highlight": "level",
+      "targetForm": "level something off",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because the sand is uneven, please make it flat.",
+      "promptZh": "由於沙面不平,請把它弄平。",
+      "starter": "Because",
+      "answer": "Because the sand is uneven, please level it out.",
+      "answerZh": "由於沙面不平,請把它弄平。",
+      "highlight": "level",
+      "targetForm": "level something out",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Experts expect growth to become steady at about two per cent.",
+      "promptZh": "專家預計增長率會穩定在約百分之二。",
+      "starter": "Experts",
+      "answer": "Experts expect growth to level off at about two per cent.",
+      "answerZh": "專家預計增長率會穩定在約百分之二。",
+      "highlight": "level off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Although the criticism was serious, it was directed at the wrong person.",
+      "promptZh": "雖然這項批評十分嚴重,但它針對了錯誤的人。",
+      "starter": "Although",
+      "answer": "Although the criticism was serious, it was levelled at the wrong person.",
+      "answerZh": "雖然這項批評十分嚴重,但它針對了錯誤的人。",
+      "highlight": "levelled",
+      "targetForm": "level something at somebody",
+      "targetMeaningZh": "公開批評或指責某人"
+    },
+    {
+      "id": "phrasal-verb-197-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Pay rates are lower in one office. The company plans to raise them to match the other office.",
+      "promptZh": "其中一間辦公室的薪酬水平較低。公司計劃把它們提高至另一間辦公室的水平。",
+      "starter": "Pay",
+      "answer": "Pay rates are lower in one office. The company plans to level them up to match the other office.",
+      "answerZh": "其中一間辦公室的薪酬水平較低。公司計劃把它們提高至另一間辦公室的水平。",
+      "highlight": "level",
+      "targetForm": "level something up",
+      "targetMeaningZh": "把較低水平提高"
+    },
+    {
+      "id": "phrasal-verb-197-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We need you to be honest with us before we make a decision.",
+      "promptZh": "我們作出決定前,需要你向我們坦白。",
+      "starter": "We",
+      "answer": "We need you to level with us before we make a decision.",
+      "answerZh": "我們作出決定前,需要你向我們坦白。",
+      "highlight": "level",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Just after the bridge, the road should become flat.",
+      "promptZh": "道路越過大橋後應該會變得平坦。",
+      "starter": "Just",
+      "answer": "Just after the bridge, the road should level out.",
+      "answerZh": "道路越過大橋後應該會變得平坦。",
+      "highlight": "level out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After a quick drop, online orders have stayed at about 500 a week.",
+      "promptZh": "網上訂單迅速下跌後,維持在每星期約五百張。",
+      "starter": "After",
+      "answer": "After a quick drop, online orders have levelled out at about 500 a week.",
+      "answerZh": "網上訂單迅速下跌後,穩定在每星期約五百張。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the floor is painted, the surface must be made flat.",
+      "promptZh": "在地板上漆前,表面必須弄平。",
+      "starter": "Before",
+      "answer": "Before the floor is painted, the surface must be levelled off.",
+      "answerZh": "在地板上漆前,表面必須弄平。",
+      "highlight": "levelled off",
+      "targetForm": "level something off",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Because of the change, all services were reduced to the same lower standard.",
+      "promptZh": "這項改動令所有服務都被降低至相同的較低水平。",
+      "starter": "Because",
+      "answer": "Because of the change, all services were levelled down to the same lower standard.",
+      "answerZh": "這項改動令所有服務都被降低至相同的較低水平。",
+      "highlight": "levelled down",
+      "targetForm": "level something down",
+      "targetMeaningZh": "把標準降至相同的較低水平"
+    },
+    {
+      "id": "phrasal-verb-197-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Several charges have been publicly made against the former manager.",
+      "promptZh": "有人公開向前任經理提出了多項指控。",
+      "starter": "Several",
+      "answer": "Several charges have been levelled against the former manager.",
+      "answerZh": "有人公開向前任經理提出了多項指控。",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    },
+    {
+      "id": "phrasal-verb-197-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Did the plane stop descending and begin flying horizontally above the clouds?",
+      "promptZh": "飛機是否停止下降,並開始在雲層上方水平飛行?",
+      "starter": "Did",
+      "answer": "Did the plane level off above the clouds?",
+      "answerZh": "飛機是否在雲層上方停止下降,並轉為水平飛行?",
+      "highlight": "level off",
+      "targetForm": "level off",
+      "targetMeaningZh": "飛機停止上升或下降並水平飛行"
+    },
+    {
+      "id": "phrasal-verb-197-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "I am going to be completely honest with you now: I do not think the event will succeed.",
+      "promptZh": "我現在會向你完全坦白:我認為這項活動不會成功。",
+      "starter": "I",
+      "answer": "I am going to level with you now: I do not think the event will succeed.",
+      "answerZh": "我現在會向你坦白:我認為這項活動不會成功。",
+      "highlight": "level",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "During the meeting, two members made accusations against the chair for ignoring their questions.",
+      "promptZh": "會議期間,兩名成員指責主席沒有理會他們的問題。",
+      "starter": "During",
+      "answer": "During the meeting, two members levelled accusations against the chair for ignoring their questions.",
+      "answerZh": "會議期間,兩名成員指責主席沒有理會他們的問題。",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    },
+    {
+      "id": "phrasal-verb-197-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Why will the manager not be honest with the staff about the delays?",
+      "promptZh": "經理為何不向員工坦白有關延誤的情況?",
+      "starter": "Why",
+      "answer": "Why will the manager not level with the staff about the delays?",
+      "answerZh": "經理為何不向員工坦白有關延誤的情況?",
+      "highlight": "level",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "As the bus left the hills, the road became less steep and then flat.",
+      "promptZh": "巴士離開山區時,道路的斜度逐漸減少,最後變得平坦。",
+      "starter": "As",
+      "answer": "As the bus left the hills, the road levelled out.",
+      "answerZh": "巴士離開山區時,道路逐漸變得平坦。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Using the back of the tool, Sam made the top of the soil smooth before adding the seeds.",
+      "promptZh": "山姆用工具的背面把泥土表面弄平,然後才加入種子。",
+      "starter": "Using",
+      "answer": "Using the back of the tool, Sam levelled out the top of the soil before adding the seeds.",
+      "answerZh": "山姆用工具的背面把泥土表面弄平,然後才加入種子。",
+      "highlight": "levelled out",
+      "targetForm": "level something out",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "For six weeks, the price rose sharply; it has now become steady at £12.",
+      "promptZh": "價格連續六星期急升,現在已穩定在十二英鎊。",
+      "starter": "For",
+      "answer": "For six weeks, the price rose sharply; it has now levelled off at £12.",
+      "answerZh": "價格連續六星期急升,現在已穩定在十二英鎊。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The policy did not raise the lower standards; it reduced the higher standards instead.",
+      "promptZh": "這項政策沒有提高較低的標準,反而降低了較高的標準。",
+      "starter": "The",
+      "answer": "The policy did not level the lower standards up; it levelled the higher standards down instead.",
+      "answerZh": "這項政策沒有提高較低的標準,反而降低了較高的標準。",
+      "highlight": "level",
+      "targetForm": "level something up/down",
+      "targetMeaningZh": "把標準提高或降低至相同水平"
+    },
+    {
+      "id": "phrasal-verb-197-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After avoiding the question for weeks, Nina finally told me the truth.",
+      "promptZh": "妮娜避開問題數星期後,終於向我說出真相。",
+      "starter": "After",
+      "answer": "After avoiding the question for weeks, Nina finally levelled with me.",
+      "answerZh": "妮娜避開問題數星期後,終於向我說出真相。",
+      "highlight": "levelled with",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The criticism in the report was aimed at the way the shop treated customers.",
+      "promptZh": "報告中的批評針對店舖對待顧客的方式。",
+      "starter": "The",
+      "answer": "The criticism in the report was levelled at the way the shop treated customers.",
+      "answerZh": "報告中的批評針對店舖對待顧客的方式。",
+      "highlight": "levelled",
+      "targetForm": "level something at something",
+      "targetMeaningZh": "公開批評或指責某事物"
+    },
+    {
+      "id": "phrasal-verb-197-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The new plan aims to raise the lowest pay rates until all workers receive similar pay.",
+      "promptZh": "新計劃旨在提高最低的薪酬水平,直至所有工人的薪酬相若。",
+      "starter": "The",
+      "answer": "The new plan aims to level the lowest pay rates up until all workers receive similar pay.",
+      "answerZh": "新計劃旨在提高最低的薪酬水平,直至所有工人的薪酬相若。",
+      "highlight": "level",
+      "targetForm": "level something up",
+      "targetMeaningZh": "把較低水平提高"
+    },
+    {
+      "id": "phrasal-verb-197-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After climbing for ten minutes, the path becomes flat before the old gate.",
+      "promptZh": "小路向上延伸十分鐘後,在舊閘前變得平坦。",
+      "starter": "After",
+      "answer": "After climbing for ten minutes, the path levels off before the old gate.",
+      "answerZh": "小路向上延伸十分鐘後,在舊閘前變得平坦。",
+      "highlight": "levels off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The builders had to make the floor smooth before fitting the tiles.",
+      "promptZh": "建築工人在鋪設瓷磚前,必須把地板弄平。",
+      "starter": "The",
+      "answer": "The builders had to level the floor off before fitting the tiles.",
+      "answerZh": "建築工人在鋪設瓷磚前,必須把地板弄平。",
+      "highlight": "level",
+      "targetForm": "level something off",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The class size fell for several months and then stayed at twenty-four.",
+      "promptZh": "班級人數下降了幾個月,然後維持在二十四人。",
+      "starter": "The",
+      "answer": "The class size levelled out at twenty-four after falling for several months.",
+      "answerZh": "班級人數下降了幾個月後,穩定在二十四人。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Once the aircraft had stopped climbing and was flying horizontally, the crew turned off the seat-belt sign.",
+      "promptZh": "飛機停止上升並轉為水平飛行後,機組人員關掉了安全帶指示燈。",
+      "starter": "Once",
+      "answer": "Once the aircraft had levelled off, the crew turned off the seat-belt sign.",
+      "answerZh": "飛機轉為水平飛行後,機組人員關掉了安全帶指示燈。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "飛機停止上升或下降並水平飛行"
+    },
+    {
+      "id": "phrasal-verb-197-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "To make the areas more equal, the council will improve services in the poorest areas instead of reducing them in the best-served areas.",
+      "promptZh": "為了令各區更平等,市議會會改善最貧困地區的服務,而不是削減服務最完善地區的水平。",
+      "starter": "To",
+      "answer": "To make the areas more equal, the council will level up services in the poorest areas instead of levelling them down in the best-served areas.",
+      "answerZh": "為了令各區更平等,市議會會改善最貧困地區的服務,而不是削減服務最完善地區的水平。",
+      "highlight": "level up",
+      "targetForm": "level something up/down",
+      "targetMeaningZh": "把標準提高或降低至相同水平"
+    },
+    {
+      "id": "phrasal-verb-197-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although demand rose quickly at first, it has now stayed at about 1,000 orders a month.",
+      "promptZh": "雖然需求最初迅速上升,但現在已維持在每月約一千張訂單。",
+      "starter": "Although",
+      "answer": "Although demand rose quickly at first, it has now levelled off at about 1,000 orders a month.",
+      "answerZh": "雖然需求最初迅速上升,但現在已穩定在每月約一千張訂單。",
+      "highlight": "levelled off",
+      "targetForm": "level off",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I need to be honest with you, even though what I say may disappoint you.",
+      "promptZh": "我需要向你坦白,即使我的說話可能會令你失望。",
+      "starter": "I",
+      "answer": "I need to level with you, even though what I say may disappoint you.",
+      "answerZh": "我需要向你坦白,即使我的說話可能會令你失望。",
+      "highlight": "level",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the charges made against her sounded serious, she showed that they were false.",
+      "promptZh": "雖然針對她的指控聽起來很嚴重,但她證明了那些指控並不真確。",
+      "starter": "Although",
+      "answer": "Although the charges levelled against her sounded serious, she showed that they were false.",
+      "answerZh": "雖然針對她的指控聽起來很嚴重,但她證明了那些指控並不真確。",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    },
+    {
+      "id": "phrasal-verb-197-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the children could play safely, the workers made the rough ground flat and removed the small stones.",
+      "promptZh": "孩子們可以安全玩耍前,工人把粗糙的地面弄平,並移走小石頭。",
+      "starter": "Before",
+      "answer": "Before the children could play safely, the workers levelled the rough ground out and removed the small stones.",
+      "answerZh": "孩子們可以安全玩耍前,工人把粗糙的地面弄平,並移走小石頭。",
+      "highlight": "levelled",
+      "targetForm": "level something out",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If a school is doing well, the answer is not to lower its standards simply to make every school equal.",
+      "promptZh": "如果一間學校表現良好,解決方法並不是為了令所有學校一致而降低它的水平。",
+      "starter": "If",
+      "answer": "If a school is doing well, the answer is not to level its standards down simply to make every school equal.",
+      "answerZh": "如果一間學校表現良好,解決方法並不是為了令所有學校一致而降低它的水平。",
+      "highlight": "level",
+      "targetForm": "level something down",
+      "targetMeaningZh": "把標準降至相同的較低水平"
+    },
+    {
+      "id": "phrasal-verb-197-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The road rises sharply from the town, but it becomes flat as it reaches the fields.",
+      "promptZh": "道路從市鎮開始陡斜上升,但到達田野時便變得平坦。",
+      "starter": "The",
+      "answer": "The road rises sharply from the town, but it levels out as it reaches the fields.",
+      "answerZh": "道路從市鎮開始陡斜上升,但到達田野時便變得平坦。",
+      "highlight": "levels out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止上升或下降並變得水平"
+    },
+    {
+      "id": "phrasal-verb-197-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Unless the company tells customers the truth about the problem, it will lose their trust.",
+      "promptZh": "除非公司向顧客坦白問題,否則便會失去他們的信任。",
+      "starter": "Unless",
+      "answer": "Unless the company levels with customers about the problem, it will lose their trust.",
+      "answerZh": "除非公司向顧客坦白問題,否則便會失去他們的信任。",
+      "highlight": "levels with",
+      "targetForm": "level with somebody",
+      "targetMeaningZh": "向某人坦白"
+    },
+    {
+      "id": "phrasal-verb-197-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The number rose and fell for most of the year, but it finally became steady in October.",
+      "promptZh": "這個數字在年內大部分時間上升和下降,但最終在十月穩定下來。",
+      "starter": "The",
+      "answer": "The number rose and fell for most of the year, but it finally levelled out in October.",
+      "answerZh": "這個數字在年內大部分時間上升和下降,但最終在十月穩定下來。",
+      "highlight": "levelled out",
+      "targetForm": "level out",
+      "targetMeaningZh": "停止升跌並保持穩定"
+    },
+    {
+      "id": "phrasal-verb-197-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Once the sand had been made flat, the team could mark the lines for the game.",
+      "promptZh": "沙面弄平後,隊員便可以畫上比賽用的界線。",
+      "starter": "Once",
+      "answer": "Once the sand had been levelled off, the team could mark the lines for the game.",
+      "answerZh": "沙面弄平後,隊員便可以畫上比賽用的界線。",
+      "highlight": "levelled off",
+      "targetForm": "level something off",
+      "targetMeaningZh": "把表面弄平"
+    },
+    {
+      "id": "phrasal-verb-197-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The board rejected the accusations that several former workers had publicly made against the director.",
+      "promptZh": "董事會否定了幾名前員工公開向董事提出的指控。",
+      "starter": "The",
+      "answer": "The board rejected the accusations that several former workers had levelled against the director.",
+      "answerZh": "董事會否定了幾名前員工公開向董事提出的指控。",
+      "highlight": "levelled",
+      "targetForm": "level something against somebody",
+      "targetMeaningZh": "公開向某人提出指控"
+    }
+  ]
+}

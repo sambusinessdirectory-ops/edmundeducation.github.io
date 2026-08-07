@@ -1,0 +1,3403 @@
+{
+  "id": "phrasal-verb-288",
+  "order": 288,
+  "slug": "stick",
+  "version": "1",
+  "title": "STICK 動詞片語",
+  "titleEn": "Stick",
+  "titleZh": "STICK 動詞片語",
+  "level": "B1",
+  "groupCount": 26,
+  "source": {
+    "file": "Phrasal Verbs 273 - STICK.pdf",
+    "sourceNumber": 273,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STICK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STICK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STICK",
+      "highlight": "STICK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I’ll stick around until the bus arrives.",
+      "zh": "我會留下來,直至巴士到達。",
+      "highlight": "stick around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stick at it and you will improve.",
+      "zh": "堅持下去,你便會進步。",
+      "highlight": "Stick at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stick the milk back in the fridge.",
+      "zh": "把牛奶放回雪櫃。",
+      "highlight": "Stick the milk back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "留下來;留在附近一段時間；即使遇到困難,仍堅持繼續做某事；把某物放回原處；在困難時仍忠於或支持某人；把某物平貼並黏牢在表面上；卡在或插在某物之中；把某物放入或插入另一物件；開啟電器;把水煲、收音機等開動；把某物黏在另一物件上；把某物放在某處；顯眼;突出；向外突出；非常顯眼;一眼便看得出；把身體部分或物件伸出；堅持要求某事物,不肯接受較少；穿過某物並突出來；堅持、遵守或依照某事物；團結一致;互相支持；把不同部分黏合在一起；向上突出；持械威脅並行劫某人或某處；把海報、告示等張貼起來；舉起或豎起某物；為某人、自己或某事辯護；留在某人身邊;跟着某人；繼續採用或做某事",
+    "en": "stick around; stick at something; stick something back; stick by somebody; stick something down; stick in something; stick something in/into something; stick something on; stick something on/onto something; stick something on something; stick out; stick out / stick out of something; stick out a mile; stick something out / stick something out of something; stick out for something; stick through / stick through something; stick to something; stick together; stick something together; stick up; stick somebody/something up; stick something up; stick something up; stick up for somebody/yourself/something; stick with somebody; stick with something",
+    "naturalZh": [
+      "留下來;留在附近一段時間",
+      "即使遇到困難,仍堅持繼續做某事",
+      "把某物放回原處",
+      "在困難時仍忠於或支持某人",
+      "把某物平貼並黏牢在表面上",
+      "卡在或插在某物之中",
+      "把某物放入或插入另一物件",
+      "開啟電器;把水煲、收音機等開動",
+      "把某物黏在另一物件上",
+      "把某物放在某處",
+      "顯眼;突出",
+      "向外突出",
+      "非常顯眼;一眼便看得出",
+      "把身體部分或物件伸出",
+      "堅持要求某事物,不肯接受較少",
+      "穿過某物並突出來",
+      "堅持、遵守或依照某事物",
+      "團結一致;互相支持",
+      "把不同部分黏合在一起",
+      "向上突出",
+      "持械威脅並行劫某人或某處",
+      "把海報、告示等張貼起來",
+      "舉起或豎起某物",
+      "為某人、自己或某事辯護",
+      "留在某人身邊;跟着某人",
+      "繼續採用或做某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "stick around",
+      "titleZh": "留下來;留在附近一段時間",
+      "titleEn": "stick around",
+      "descriptionZh": "留下來;留在附近一段時間",
+      "descriptionEn": "I’ll stick around until the bus arrives.",
+      "examples": [
+        {
+          "en": "I’ll stick around until the bus arrives.",
+          "zh": "我會留下來,直至巴士到達。",
+          "highlight": "stick around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick at something",
+      "titleZh": "即使遇到困難,仍堅持繼續做某事",
+      "titleEn": "stick at something",
+      "descriptionZh": "即使遇到困難,仍堅持繼續做某事",
+      "descriptionEn": "Stick at it and you will improve.",
+      "examples": [
+        {
+          "en": "Stick at it and you will improve.",
+          "zh": "堅持下去,你便會進步。",
+          "highlight": "Stick at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something back",
+      "titleZh": "把某物放回原處",
+      "titleEn": "stick something back",
+      "descriptionZh": "把某物放回原處",
+      "descriptionEn": "Stick the milk back in the fridge.",
+      "examples": [
+        {
+          "en": "Stick the milk back in the fridge.",
+          "zh": "把牛奶放回雪櫃。",
+          "highlight": "Stick the milk back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick by somebody",
+      "titleZh": "在困難時仍忠於或支持某人",
+      "titleEn": "stick by somebody",
+      "descriptionZh": "在困難時仍忠於或支持某人",
+      "descriptionEn": "Her family stuck by her.",
+      "examples": [
+        {
+          "en": "Her family stuck by her.",
+          "zh": "她的家人一直支持她。",
+          "highlight": "stuck by"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something down",
+      "titleZh": "把某物平貼並黏牢在表面上",
+      "titleEn": "stick something down",
+      "descriptionZh": "把某物平貼並黏牢在表面上",
+      "descriptionEn": "Stick the loose edge down with tape.",
+      "examples": [
+        {
+          "en": "Stick the loose edge down with tape.",
+          "zh": "用膠紙把鬆脫的邊緣黏牢。",
+          "highlight": "Stick the loose edge down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick in something",
+      "titleZh": "卡在或插在某物之中",
+      "titleEn": "stick in something",
+      "descriptionZh": "卡在或插在某物之中",
+      "descriptionEn": "A thorn was sticking in his shoe.",
+      "examples": [
+        {
+          "en": "A thorn was sticking in his shoe.",
+          "zh": "一根刺卡在他的鞋裏。",
+          "highlight": "sticking in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something in/into something",
+      "titleZh": "把某物放入或插入另一物件",
+      "titleEn": "stick something in/into something",
+      "descriptionZh": "把某物放入或插入另一物件",
+      "descriptionEn": "Stick the card into the slot.",
+      "examples": [
+        {
+          "en": "Stick the card into the slot.",
+          "zh": "把卡插入卡槽。",
+          "highlight": "Stick the card into"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something on",
+      "titleZh": "開啟電器;把水煲、收音機等開動",
+      "titleEn": "stick something on",
+      "descriptionZh": "開啟電器;把水煲、收音機等開動",
+      "descriptionEn": "I’ll stick the washing machine on.",
+      "examples": [
+        {
+          "en": "I’ll stick the washing machine on.",
+          "zh": "我會開洗衣機。",
+          "highlight": "stick the washing machine on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something on/onto something",
+      "titleZh": "把某物黏在另一物件上",
+      "titleEn": "stick something on/onto something",
+      "descriptionZh": "把某物黏在另一物件上",
+      "descriptionEn": "She stuck a star onto the card.",
+      "examples": [
+        {
+          "en": "She stuck a star onto the card.",
+          "zh": "她把一顆星星黏在卡片上。",
+          "highlight": "stuck a star onto"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something on something",
+      "titleZh": "把某物放在某處",
+      "titleEn": "stick something on something",
+      "descriptionZh": "把某物放在某處",
+      "descriptionEn": "Stick the keys on the shelf.",
+      "examples": [
+        {
+          "en": "Stick the keys on the shelf.",
+          "zh": "把鑰匙放在層架上。",
+          "highlight": "Stick the keys on"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick out",
+      "titleZh": "顯眼;突出",
+      "titleEn": "stick out",
+      "descriptionZh": "顯眼;突出",
+      "descriptionEn": "The red door really sticks out.",
+      "examples": [
+        {
+          "en": "The red door really sticks out.",
+          "zh": "那扇紅色的門真的很顯眼。",
+          "highlight": "sticks out"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick out / stick out of something",
+      "titleZh": "向外突出",
+      "titleEn": "stick out / stick out of something",
+      "descriptionZh": "向外突出",
+      "descriptionEn": "A pipe sticks out of the wall.",
+      "examples": [
+        {
+          "en": "A pipe sticks out of the wall.",
+          "zh": "一條水管從牆上突出來。",
+          "highlight": "sticks out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick out a mile",
+      "titleZh": "非常顯眼;一眼便看得出",
+      "titleEn": "stick out a mile",
+      "descriptionZh": "非常顯眼;一眼便看得出",
+      "descriptionEn": "In that hat, you stick out a mile.",
+      "examples": [
+        {
+          "en": "In that hat, you stick out a mile.",
+          "zh": "你戴着那頂帽子,實在非常顯眼。",
+          "highlight": "stick out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stick something out / stick something out of something",
+      "titleZh": "把身體部分或物件伸出",
+      "titleEn": "stick something out / stick something out of something",
+      "descriptionZh": "把身體部分或物件伸出",
+      "descriptionEn": "He stuck his hand out of the car.",
+      "examples": [
+        {
+          "en": "He stuck his hand out of the car.",
+          "zh": "他把手伸出車外。",
+          "highlight": "stuck his hand out"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick out for something",
+      "titleZh": "堅持要求某事物,不肯接受較少",
+      "titleEn": "stick out for something",
+      "descriptionZh": "堅持要求某事物,不肯接受較少",
+      "descriptionEn": "They are sticking out for a better deal.",
+      "examples": [
+        {
+          "en": "They are sticking out for a better deal.",
+          "zh": "他們堅持要求更好的條件。",
+          "highlight": "sticking out for"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick through / stick through something",
+      "titleZh": "穿過某物並突出來",
+      "titleEn": "stick through / stick through something",
+      "descriptionZh": "穿過某物並突出來",
+      "descriptionEn": "A nail was sticking through the box.",
+      "examples": [
+        {
+          "en": "A nail was sticking through the box.",
+          "zh": "一口釘穿過箱子突出來。",
+          "highlight": "sticking through"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick to something",
+      "titleZh": "堅持、遵守或依照某事物",
+      "titleEn": "stick to something",
+      "descriptionZh": "堅持、遵守或依照某事物",
+      "descriptionEn": "Let’s stick to the plan.",
+      "examples": [
+        {
+          "en": "Let’s stick to the plan.",
+          "zh": "我們依照計劃行事吧。",
+          "highlight": "stick to"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick together",
+      "titleZh": "團結一致;互相支持",
+      "titleEn": "stick together",
+      "descriptionZh": "團結一致;互相支持",
+      "descriptionEn": "Good friends stick together.",
+      "examples": [
+        {
+          "en": "Good friends stick together.",
+          "zh": "好朋友會互相支持。",
+          "highlight": "stick together"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick something together",
+      "titleZh": "把不同部分黏合在一起",
+      "titleEn": "stick something together",
+      "descriptionZh": "把不同部分黏合在一起",
+      "descriptionEn": "Stick the sides together with glue.",
+      "examples": [
+        {
+          "en": "Stick the sides together with glue.",
+          "zh": "用膠水把兩邊黏在一起。",
+          "highlight": "Stick the sides together"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick up",
+      "titleZh": "向上突出",
+      "titleEn": "stick up",
+      "descriptionZh": "向上突出",
+      "descriptionEn": "A piece of wire was sticking up.",
+      "examples": [
+        {
+          "en": "A piece of wire was sticking up.",
+          "zh": "一條鐵線向上突出。",
+          "highlight": "sticking up"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick somebody/something up",
+      "titleZh": "持械威脅並行劫某人或某處",
+      "titleEn": "stick somebody/something up",
+      "descriptionZh": "持械威脅並行劫某人或某處",
+      "descriptionEn": "The thieves stuck up a shop.",
+      "examples": [
+        {
+          "en": "The thieves stuck up a shop.",
+          "zh": "賊人行劫了一間店舖。",
+          "highlight": "stuck up"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick something up",
+      "titleZh": "把海報、告示等張貼起來",
+      "titleEn": "stick something up",
+      "descriptionZh": "把海報、告示等張貼起來",
+      "descriptionEn": "We stuck the notice up.",
+      "examples": [
+        {
+          "en": "We stuck the notice up.",
+          "zh": "我們把告示張貼起來。",
+          "highlight": "stuck the notice up"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick something up",
+      "titleZh": "舉起或豎起某物",
+      "titleEn": "stick something up",
+      "descriptionZh": "舉起或豎起某物",
+      "descriptionEn": "Stick your hand up.",
+      "examples": [
+        {
+          "en": "Stick your hand up.",
+          "zh": "舉手。",
+          "highlight": "Stick your hand up"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick up for somebody/yourself/something",
+      "titleZh": "為某人、自己或某事辯護",
+      "titleEn": "stick up for somebody/yourself/something",
+      "descriptionZh": "為某人、自己或某事辯護",
+      "descriptionEn": "She stuck up for her friend.",
+      "examples": [
+        {
+          "en": "She stuck up for her friend.",
+          "zh": "她替朋友辯護。",
+          "highlight": "stuck up for"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick with somebody",
+      "titleZh": "留在某人身邊;跟着某人",
+      "titleEn": "stick with somebody",
+      "descriptionZh": "留在某人身邊;跟着某人",
+      "descriptionEn": "Stick with the guide.",
+      "examples": [
+        {
+          "en": "Stick with the guide.",
+          "zh": "跟着導遊。",
+          "highlight": "Stick with"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stick with something",
+      "titleZh": "繼續採用或做某事",
+      "titleEn": "stick with something",
+      "descriptionZh": "繼續採用或做某事",
+      "descriptionEn": "We’ll stick with the first plan.",
+      "examples": [
+        {
+          "en": "We’ll stick with the first plan.",
+          "zh": "我們會繼續採用第一個計劃。",
+          "highlight": "stick with"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STICK 片語動詞的實際用途",
+    "labelEn": "STICK Phrasal Verbs in Use",
+    "summaryZh": "stick around、stick at、stick to 和 stick with 可以分別表示留在附近、堅持嘗試、遵守規則或繼續某個選擇。；stick by、stick together 和 stick up for 可以表示支持某人、保持團結,以及為某人或某個想法辯護。；把物件放入口袋、黏上標籤、開水煲、黏合不同部分或把報告放在桌上時,都可以使用 STICK 表達。；stick out、stick up 和 stick through 可以描述某物十分顯眼,或向某個方向突出。",
+    "summaryEn": "Stick around, stick at, stick to and stick with distinguish staying nearby, continuing despite difficulty, following a rule and continuing with a choice. Stick by, stick together and stick up for describe supporting someone, remaining united and defending a person or idea. Use STICK expressions when putting things in a pocket, attaching a label, switching on the kettle, joining pieces or placing a report on a desk. Stick out, stick up and stick through describe something noticeable or projecting in a particular direction.",
+    "contextsZh": [
+      "談論留下來和繼續做某事",
+      "描述忠誠、團結和維護他人",
+      "自然地發出日常指示",
+      "清楚描述位置和顯眼程度"
+    ],
+    "contextsEn": [
+      "Talk about staying and continuing",
+      "Describe loyalty, unity and defence",
+      "Give natural everyday instructions",
+      "Describe position and visibility clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STICK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STICK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "stick around",
+    "fixedHighlight": "stick around",
+    "fixedZh": "閱讀整句,選出意思相同的 STICK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STICK expression that gives the same meaning.",
+    "correct": "stick around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；參考表列出的是核心表達。其他字詞可以補充時間、地點、方法或原因,但不會自動成為固定表達的一部分。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；有些表達看來相似,但意思不同。stick out 可以表示「顯眼」或「向外突出」;stick up 則可以表示「向上突出」、「張貼」、「舉起」或「行劫」。",
+    "variableEn": "Keep the same people, things, time and meaning. The reference bank shows the core expression. Extra words may add a time, place, method or reason, but they are not automatically part of the fixed expression: stick around stick around after class stick something down stick something down with tape With it, him, her or them, place the word as shown: stick it back stick it down stick it in stick it on stick it out stick them together stick it up Some expressions look alike but have different meanings. Stick out can mean “be noticeable” or “project outwards”; stick up can mean “point upwards”, “display”, “raise” or “rob”.",
+    "variableItemsZh": [
+      "stick around",
+      "stick at something",
+      "stick something back",
+      "stick by somebody",
+      "stick something down",
+      "stick in something",
+      "stick something in/into something",
+      "stick something on",
+      "stick something on/onto something",
+      "stick something on something",
+      "stick out",
+      "stick out / stick out of something",
+      "stick out a mile",
+      "stick something out / stick something out of something",
+      "stick out for something",
+      "stick through / stick through something",
+      "stick to something",
+      "stick together",
+      "stick something together",
+      "stick up",
+      "stick somebody/something up",
+      "stick something up",
+      "stick something up",
+      "stick up for somebody/yourself/something",
+      "stick with somebody",
+      "stick with something"
+    ],
+    "variableItemsEn": [
+      "stick around",
+      "stick at something",
+      "stick something back",
+      "stick by somebody",
+      "stick something down",
+      "stick in something",
+      "stick something in/into something",
+      "stick something on",
+      "stick something on/onto something",
+      "stick something on something",
+      "stick out",
+      "stick out / stick out of something",
+      "stick out a mile",
+      "stick something out / stick something out of something",
+      "stick out for something",
+      "stick through / stick through something",
+      "stick to something",
+      "stick together",
+      "stick something together",
+      "stick up",
+      "stick somebody/something up",
+      "stick something up",
+      "stick something up",
+      "stick up for somebody/yourself/something",
+      "stick with somebody",
+      "stick with something"
+    ],
+    "forms": [
+      {
+        "formZh": "留下來;留在附近一段時間",
+        "formEn": "stick around",
+        "exampleZh": "我會留下來,直至巴士到達。",
+        "exampleEn": "I’ll stick around until the bus arrives.",
+        "highlight": "stick around"
+      },
+      {
+        "formZh": "即使遇到困難,仍堅持繼續做某事",
+        "formEn": "stick at something",
+        "exampleZh": "堅持下去,你便會進步。",
+        "exampleEn": "Stick at it and you will improve.",
+        "highlight": "Stick at"
+      },
+      {
+        "formZh": "把某物放回原處",
+        "formEn": "stick something back",
+        "exampleZh": "把牛奶放回雪櫃。",
+        "exampleEn": "Stick the milk back in the fridge.",
+        "highlight": "Stick the milk back"
+      },
+      {
+        "formZh": "在困難時仍忠於或支持某人",
+        "formEn": "stick by somebody",
+        "exampleZh": "她的家人一直支持她。",
+        "exampleEn": "Her family stuck by her.",
+        "highlight": "stuck by"
+      },
+      {
+        "formZh": "把某物平貼並黏牢在表面上",
+        "formEn": "stick something down",
+        "exampleZh": "用膠紙把鬆脫的邊緣黏牢。",
+        "exampleEn": "Stick the loose edge down with tape.",
+        "highlight": "Stick the loose edge down"
+      },
+      {
+        "formZh": "卡在或插在某物之中",
+        "formEn": "stick in something",
+        "exampleZh": "一根刺卡在他的鞋裏。",
+        "exampleEn": "A thorn was sticking in his shoe.",
+        "highlight": "sticking in"
+      },
+      {
+        "formZh": "把某物放入或插入另一物件",
+        "formEn": "stick something in/into something",
+        "exampleZh": "把卡插入卡槽。",
+        "exampleEn": "Stick the card into the slot.",
+        "highlight": "Stick the card into"
+      },
+      {
+        "formZh": "開啟電器;把水煲、收音機等開動",
+        "formEn": "stick something on",
+        "exampleZh": "我會開洗衣機。",
+        "exampleEn": "I’ll stick the washing machine on.",
+        "highlight": "stick the washing machine on"
+      },
+      {
+        "formZh": "把某物黏在另一物件上",
+        "formEn": "stick something on/onto something",
+        "exampleZh": "她把一顆星星黏在卡片上。",
+        "exampleEn": "She stuck a star onto the card.",
+        "highlight": "stuck a star onto"
+      },
+      {
+        "formZh": "把某物放在某處",
+        "formEn": "stick something on something",
+        "exampleZh": "把鑰匙放在層架上。",
+        "exampleEn": "Stick the keys on the shelf.",
+        "highlight": "Stick the keys on"
+      },
+      {
+        "formZh": "顯眼;突出",
+        "formEn": "stick out",
+        "exampleZh": "那扇紅色的門真的很顯眼。",
+        "exampleEn": "The red door really sticks out.",
+        "highlight": "sticks out"
+      },
+      {
+        "formZh": "向外突出",
+        "formEn": "stick out / stick out of something",
+        "exampleZh": "一條水管從牆上突出來。",
+        "exampleEn": "A pipe sticks out of the wall.",
+        "highlight": "sticks out"
+      },
+      {
+        "formZh": "非常顯眼;一眼便看得出",
+        "formEn": "stick out a mile",
+        "exampleZh": "你戴着那頂帽子,實在非常顯眼。",
+        "exampleEn": "In that hat, you stick out a mile.",
+        "highlight": "stick out"
+      },
+      {
+        "formZh": "把身體部分或物件伸出",
+        "formEn": "stick something out / stick something out of something",
+        "exampleZh": "他把手伸出車外。",
+        "exampleEn": "He stuck his hand out of the car.",
+        "highlight": "stuck his hand out"
+      },
+      {
+        "formZh": "堅持要求某事物,不肯接受較少",
+        "formEn": "stick out for something",
+        "exampleZh": "他們堅持要求更好的條件。",
+        "exampleEn": "They are sticking out for a better deal.",
+        "highlight": "sticking out for"
+      },
+      {
+        "formZh": "穿過某物並突出來",
+        "formEn": "stick through / stick through something",
+        "exampleZh": "一口釘穿過箱子突出來。",
+        "exampleEn": "A nail was sticking through the box.",
+        "highlight": "sticking through"
+      },
+      {
+        "formZh": "堅持、遵守或依照某事物",
+        "formEn": "stick to something",
+        "exampleZh": "我們依照計劃行事吧。",
+        "exampleEn": "Let’s stick to the plan.",
+        "highlight": "stick to"
+      },
+      {
+        "formZh": "團結一致;互相支持",
+        "formEn": "stick together",
+        "exampleZh": "好朋友會互相支持。",
+        "exampleEn": "Good friends stick together.",
+        "highlight": "stick together"
+      },
+      {
+        "formZh": "把不同部分黏合在一起",
+        "formEn": "stick something together",
+        "exampleZh": "用膠水把兩邊黏在一起。",
+        "exampleEn": "Stick the sides together with glue.",
+        "highlight": "Stick the sides together"
+      },
+      {
+        "formZh": "向上突出",
+        "formEn": "stick up",
+        "exampleZh": "一條鐵線向上突出。",
+        "exampleEn": "A piece of wire was sticking up.",
+        "highlight": "sticking up"
+      },
+      {
+        "formZh": "持械威脅並行劫某人或某處",
+        "formEn": "stick somebody/something up",
+        "exampleZh": "賊人行劫了一間店舖。",
+        "exampleEn": "The thieves stuck up a shop.",
+        "highlight": "stuck up"
+      },
+      {
+        "formZh": "把海報、告示等張貼起來",
+        "formEn": "stick something up",
+        "exampleZh": "我們把告示張貼起來。",
+        "exampleEn": "We stuck the notice up.",
+        "highlight": "stuck the notice up"
+      },
+      {
+        "formZh": "舉起或豎起某物",
+        "formEn": "stick something up",
+        "exampleZh": "舉手。",
+        "exampleEn": "Stick your hand up.",
+        "highlight": "Stick your hand up"
+      },
+      {
+        "formZh": "為某人、自己或某事辯護",
+        "formEn": "stick up for somebody/yourself/something",
+        "exampleZh": "她替朋友辯護。",
+        "exampleEn": "She stuck up for her friend.",
+        "highlight": "stuck up for"
+      },
+      {
+        "formZh": "留在某人身邊;跟着某人",
+        "formEn": "stick with somebody",
+        "exampleZh": "跟着導遊。",
+        "exampleEn": "Stick with the guide.",
+        "highlight": "Stick with"
+      },
+      {
+        "formZh": "繼續採用或做某事",
+        "formEn": "stick with something",
+        "exampleZh": "我們會繼續採用第一個計劃。",
+        "exampleEn": "We’ll stick with the first plan.",
+        "highlight": "stick with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "留下來;留在附近一段時間",
+      "titleEn": "stick around",
+      "formula": "stick around",
+      "highlight": "stick around",
+      "descriptionZh": "留下來;留在附近一段時間",
+      "descriptionEn": "I’ll stick around until the bus arrives.",
+      "examples": [
+        {
+          "en": "I’ll stick around until the bus arrives.",
+          "zh": "我會留下來,直至巴士到達。",
+          "highlight": "stick around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "即使遇到困難,仍堅持繼續做某事",
+      "titleEn": "stick at something",
+      "formula": "stick at something",
+      "highlight": "stick at something",
+      "descriptionZh": "即使遇到困難,仍堅持繼續做某事",
+      "descriptionEn": "Stick at it and you will improve.",
+      "examples": [
+        {
+          "en": "Stick at it and you will improve.",
+          "zh": "堅持下去,你便會進步。",
+          "highlight": "Stick at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物放回原處",
+      "titleEn": "stick something back",
+      "formula": "stick something back",
+      "highlight": "stick something back",
+      "descriptionZh": "把某物放回原處",
+      "descriptionEn": "Stick the milk back in the fridge.",
+      "examples": [
+        {
+          "en": "Stick the milk back in the fridge.",
+          "zh": "把牛奶放回雪櫃。",
+          "highlight": "Stick the milk back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在困難時仍忠於或支持某人",
+      "titleEn": "stick by somebody",
+      "formula": "stick by somebody",
+      "highlight": "stick by somebody",
+      "descriptionZh": "在困難時仍忠於或支持某人",
+      "descriptionEn": "Her family stuck by her.",
+      "examples": [
+        {
+          "en": "Her family stuck by her.",
+          "zh": "她的家人一直支持她。",
+          "highlight": "stuck by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某物平貼並黏牢在表面上",
+      "titleEn": "stick something down",
+      "formula": "stick something down",
+      "highlight": "stick something down",
+      "descriptionZh": "把某物平貼並黏牢在表面上",
+      "descriptionEn": "Stick the loose edge down with tape.",
+      "examples": [
+        {
+          "en": "Stick the loose edge down with tape.",
+          "zh": "用膠紙把鬆脫的邊緣黏牢。",
+          "highlight": "Stick the loose edge down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "卡在或插在某物之中",
+      "titleEn": "stick in something",
+      "formula": "stick in something",
+      "highlight": "stick in something",
+      "descriptionZh": "卡在或插在某物之中",
+      "descriptionEn": "A thorn was sticking in his shoe.",
+      "examples": [
+        {
+          "en": "A thorn was sticking in his shoe.",
+          "zh": "一根刺卡在他的鞋裏。",
+          "highlight": "sticking in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某物放入或插入另一物件",
+      "titleEn": "stick something in/into something",
+      "formula": "stick something in/into something",
+      "highlight": "stick something in/into something",
+      "descriptionZh": "把某物放入或插入另一物件",
+      "descriptionEn": "Stick the card into the slot.",
+      "examples": [
+        {
+          "en": "Stick the card into the slot.",
+          "zh": "把卡插入卡槽。",
+          "highlight": "Stick the card into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "開啟電器;把水煲、收音機等開動",
+      "titleEn": "stick something on",
+      "formula": "stick something on",
+      "highlight": "stick something on",
+      "descriptionZh": "開啟電器;把水煲、收音機等開動",
+      "descriptionEn": "I’ll stick the washing machine on.",
+      "examples": [
+        {
+          "en": "I’ll stick the washing machine on.",
+          "zh": "我會開洗衣機。",
+          "highlight": "stick the washing machine on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某物黏在另一物件上",
+      "titleEn": "stick something on/onto something",
+      "formula": "stick something on/onto something",
+      "highlight": "stick something on/onto something",
+      "descriptionZh": "把某物黏在另一物件上",
+      "descriptionEn": "She stuck a star onto the card.",
+      "examples": [
+        {
+          "en": "She stuck a star onto the card.",
+          "zh": "她把一顆星星黏在卡片上。",
+          "highlight": "stuck a star onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把某物放在某處",
+      "titleEn": "stick something on something",
+      "formula": "stick something on something",
+      "highlight": "stick something on something",
+      "descriptionZh": "把某物放在某處",
+      "descriptionEn": "Stick the keys on the shelf.",
+      "examples": [
+        {
+          "en": "Stick the keys on the shelf.",
+          "zh": "把鑰匙放在層架上。",
+          "highlight": "Stick the keys on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "顯眼;突出",
+      "titleEn": "stick out",
+      "formula": "stick out",
+      "highlight": "stick out",
+      "descriptionZh": "顯眼;突出",
+      "descriptionEn": "The red door really sticks out.",
+      "examples": [
+        {
+          "en": "The red door really sticks out.",
+          "zh": "那扇紅色的門真的很顯眼。",
+          "highlight": "sticks out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "向外突出",
+      "titleEn": "stick out / stick out of something",
+      "formula": "stick out / stick out of something",
+      "highlight": "stick out / stick out of something",
+      "descriptionZh": "向外突出",
+      "descriptionEn": "A pipe sticks out of the wall.",
+      "examples": [
+        {
+          "en": "A pipe sticks out of the wall.",
+          "zh": "一條水管從牆上突出來。",
+          "highlight": "sticks out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "非常顯眼;一眼便看得出",
+      "titleEn": "stick out a mile",
+      "formula": "stick out a mile",
+      "highlight": "stick out a mile",
+      "descriptionZh": "非常顯眼;一眼便看得出",
+      "descriptionEn": "In that hat, you stick out a mile.",
+      "examples": [
+        {
+          "en": "In that hat, you stick out a mile.",
+          "zh": "你戴着那頂帽子,實在非常顯眼。",
+          "highlight": "stick out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把身體部分或物件伸出",
+      "titleEn": "stick something out / stick something out of something",
+      "formula": "stick something out / stick something out of something",
+      "highlight": "stick something out / stick something out of something",
+      "descriptionZh": "把身體部分或物件伸出",
+      "descriptionEn": "He stuck his hand out of the car.",
+      "examples": [
+        {
+          "en": "He stuck his hand out of the car.",
+          "zh": "他把手伸出車外。",
+          "highlight": "stuck his hand out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "堅持要求某事物,不肯接受較少",
+      "titleEn": "stick out for something",
+      "formula": "stick out for something",
+      "highlight": "stick out for something",
+      "descriptionZh": "堅持要求某事物,不肯接受較少",
+      "descriptionEn": "They are sticking out for a better deal.",
+      "examples": [
+        {
+          "en": "They are sticking out for a better deal.",
+          "zh": "他們堅持要求更好的條件。",
+          "highlight": "sticking out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "穿過某物並突出來",
+      "titleEn": "stick through / stick through something",
+      "formula": "stick through / stick through something",
+      "highlight": "stick through / stick through something",
+      "descriptionZh": "穿過某物並突出來",
+      "descriptionEn": "A nail was sticking through the box.",
+      "examples": [
+        {
+          "en": "A nail was sticking through the box.",
+          "zh": "一口釘穿過箱子突出來。",
+          "highlight": "sticking through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "堅持、遵守或依照某事物",
+      "titleEn": "stick to something",
+      "formula": "stick to something",
+      "highlight": "stick to something",
+      "descriptionZh": "堅持、遵守或依照某事物",
+      "descriptionEn": "Let’s stick to the plan.",
+      "examples": [
+        {
+          "en": "Let’s stick to the plan.",
+          "zh": "我們依照計劃行事吧。",
+          "highlight": "stick to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "團結一致;互相支持",
+      "titleEn": "stick together",
+      "formula": "stick together",
+      "highlight": "stick together",
+      "descriptionZh": "團結一致;互相支持",
+      "descriptionEn": "Good friends stick together.",
+      "examples": [
+        {
+          "en": "Good friends stick together.",
+          "zh": "好朋友會互相支持。",
+          "highlight": "stick together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "把不同部分黏合在一起",
+      "titleEn": "stick something together",
+      "formula": "stick something together",
+      "highlight": "stick something together",
+      "descriptionZh": "把不同部分黏合在一起",
+      "descriptionEn": "Stick the sides together with glue.",
+      "examples": [
+        {
+          "en": "Stick the sides together with glue.",
+          "zh": "用膠水把兩邊黏在一起。",
+          "highlight": "Stick the sides together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "向上突出",
+      "titleEn": "stick up",
+      "formula": "stick up",
+      "highlight": "stick up",
+      "descriptionZh": "向上突出",
+      "descriptionEn": "A piece of wire was sticking up.",
+      "examples": [
+        {
+          "en": "A piece of wire was sticking up.",
+          "zh": "一條鐵線向上突出。",
+          "highlight": "sticking up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "持械威脅並行劫某人或某處",
+      "titleEn": "stick somebody/something up",
+      "formula": "stick somebody/something up",
+      "highlight": "stick somebody/something up",
+      "descriptionZh": "持械威脅並行劫某人或某處",
+      "descriptionEn": "The thieves stuck up a shop.",
+      "examples": [
+        {
+          "en": "The thieves stuck up a shop.",
+          "zh": "賊人行劫了一間店舖。",
+          "highlight": "stuck up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "把海報、告示等張貼起來",
+      "titleEn": "stick something up",
+      "formula": "stick something up",
+      "highlight": "stick something up",
+      "descriptionZh": "把海報、告示等張貼起來",
+      "descriptionEn": "We stuck the notice up.",
+      "examples": [
+        {
+          "en": "We stuck the notice up.",
+          "zh": "我們把告示張貼起來。",
+          "highlight": "stuck the notice up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "舉起或豎起某物",
+      "titleEn": "stick something up",
+      "formula": "stick something up",
+      "highlight": "stick something up",
+      "descriptionZh": "舉起或豎起某物",
+      "descriptionEn": "Stick your hand up.",
+      "examples": [
+        {
+          "en": "Stick your hand up.",
+          "zh": "舉手。",
+          "highlight": "Stick your hand up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "為某人、自己或某事辯護",
+      "titleEn": "stick up for somebody/yourself/something",
+      "formula": "stick up for somebody/yourself/something",
+      "highlight": "stick up for somebody/yourself/something",
+      "descriptionZh": "為某人、自己或某事辯護",
+      "descriptionEn": "She stuck up for her friend.",
+      "examples": [
+        {
+          "en": "She stuck up for her friend.",
+          "zh": "她替朋友辯護。",
+          "highlight": "stuck up for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "留在某人身邊;跟着某人",
+      "titleEn": "stick with somebody",
+      "formula": "stick with somebody",
+      "highlight": "stick with somebody",
+      "descriptionZh": "留在某人身邊;跟着某人",
+      "descriptionEn": "Stick with the guide.",
+      "examples": [
+        {
+          "en": "Stick with the guide.",
+          "zh": "跟着導遊。",
+          "highlight": "Stick with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "繼續採用或做某事",
+      "titleEn": "stick with something",
+      "formula": "stick with something",
+      "highlight": "stick with something",
+      "descriptionZh": "繼續採用或做某事",
+      "descriptionEn": "We’ll stick with the first plan.",
+      "examples": [
+        {
+          "en": "We’ll stick with the first plan.",
+          "zh": "我們會繼續採用第一個計劃。",
+          "highlight": "stick with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論留下來和繼續做某事",
+      "titleEn": "Talk about staying and continuing",
+      "zh": "stick around、stick at、stick to 和 stick with 可以分別表示留在附近、堅持嘗試、遵守規則或繼續某個選擇。",
+      "en": "Stick around, stick at, stick to and stick with distinguish staying nearby, continuing despite difficulty, following a rule and continuing with a choice."
+    },
+    {
+      "titleZh": "描述忠誠、團結和維護他人",
+      "titleEn": "Describe loyalty, unity and defence",
+      "zh": "stick by、stick together 和 stick up for 可以表示支持某人、保持團結,以及為某人或某個想法辯護。",
+      "en": "Stick by, stick together and stick up for describe supporting someone, remaining united and defending a person or idea."
+    },
+    {
+      "titleZh": "自然地發出日常指示",
+      "titleEn": "Give natural everyday instructions",
+      "zh": "把物件放入口袋、黏上標籤、開水煲、黏合不同部分或把報告放在桌上時,都可以使用 STICK 表達。",
+      "en": "Use STICK expressions when putting things in a pocket, attaching a label, switching on the kettle, joining pieces or placing a report on a desk."
+    },
+    {
+      "titleZh": "清楚描述位置和顯眼程度",
+      "titleEn": "Describe position and visibility clearly",
+      "zh": "stick out、stick up 和 stick through 可以描述某物十分顯眼,或向某個方向突出。",
+      "en": "Stick out, stick up and stick through describe something noticeable or projecting in a particular direction."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論留下來和繼續做某事",
+      "描述忠誠、團結和維護他人",
+      "自然地發出日常指示",
+      "清楚描述位置和顯眼程度"
+    ],
+    "contextsEn": [
+      "Talk about staying and continuing",
+      "Describe loyalty, unity and defence",
+      "Give natural everyday instructions",
+      "Describe position and visibility clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論留下來和繼續做某事",
+        "titleEn": "Talk about staying and continuing",
+        "zh": "stick around、stick at、stick to 和 stick with 可以分別表示留在附近、堅持嘗試、遵守規則或繼續某個選擇。",
+        "en": "Stick around, stick at, stick to and stick with distinguish staying nearby, continuing despite difficulty, following a rule and continuing with a choice.",
+        "examples": [
+          {
+            "en": "I’ll stick around until the bus arrives.",
+            "zh": "我會留下來,直至巴士到達。",
+            "highlight": "stick around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述忠誠、團結和維護他人",
+        "titleEn": "Describe loyalty, unity and defence",
+        "zh": "stick by、stick together 和 stick up for 可以表示支持某人、保持團結,以及為某人或某個想法辯護。",
+        "en": "Stick by, stick together and stick up for describe supporting someone, remaining united and defending a person or idea.",
+        "examples": [
+          {
+            "en": "Stick at it and you will improve.",
+            "zh": "堅持下去,你便會進步。",
+            "highlight": "Stick at"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地發出日常指示",
+        "titleEn": "Give natural everyday instructions",
+        "zh": "把物件放入口袋、黏上標籤、開水煲、黏合不同部分或把報告放在桌上時,都可以使用 STICK 表達。",
+        "en": "Use STICK expressions when putting things in a pocket, attaching a label, switching on the kettle, joining pieces or placing a report on a desk.",
+        "examples": [
+          {
+            "en": "Stick the milk back in the fridge.",
+            "zh": "把牛奶放回雪櫃。",
+            "highlight": "Stick the milk back"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述位置和顯眼程度",
+        "titleEn": "Describe position and visibility clearly",
+        "zh": "stick out、stick up 和 stick through 可以描述某物十分顯眼,或向某個方向突出。",
+        "en": "Stick out, stick up and stick through describe something noticeable or projecting in a particular direction.",
+        "examples": [
+          {
+            "en": "Her family stuck by her.",
+            "zh": "她的家人一直支持她。",
+            "highlight": "stuck by"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STICK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STICK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STICK 片語動詞。",
+      "en": "Read the whole sentence and choose the STICK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "參考表列出的是核心表達。其他字詞可以補充時間、地點、方法或原因,但不會自動成為固定表達的一部分。",
+      "titleEn": "The reference bank shows the core expression.",
+      "zh": "參考表列出的是核心表達。其他字詞可以補充時間、地點、方法或原因,但不會自動成為固定表達的一部分。",
+      "en": "The reference bank shows the core expression. Extra words may add a time, place, method or reason, but they are not automatically part of the fixed expression: stick around stick around after class stick something down stick something down with tape"
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "With it, him, her or them, place the word as shown: stick it back stick it down stick it in stick it on stick it out stick them together stick it up.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "With it, him, her or them, place the word as shown: stick it back stick it down stick it in stick it on stick it out stick them together stick it up"
+    },
+    {
+      "titleZh": "有些表達看來相似,但意思不同。stick out 可以表示「顯眼」或「向外突出」;stick up 則可以表示「向上突出」、「張貼」、「舉起」或「行劫」。",
+      "titleEn": "Some expressions look alike but have different meanings.",
+      "zh": "有些表達看來相似,但意思不同。stick out 可以表示「顯眼」或「向外突出」;stick up 則可以表示「向上突出」、「張貼」、「舉起」或「行劫」。",
+      "en": "Some expressions look alike but have different meanings. Stick out can mean “be noticeable” or “project outwards”; stick up can mean “point upwards”, “display”, “raise” or “rob”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STICK 動詞片語句子改寫練習",
+    "titleEn": "STICK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STICK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STICK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          26
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          27,
+          52
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          53,
+          78
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          79,
+          104
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          105,
+          130
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-288-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Put your arm outside the window to signal.",
+      "promptZh": "把手臂伸出窗外示意。",
+      "starter": "Stick",
+      "answer": "Stick your arm out of the window to signal.",
+      "answerZh": "把手臂伸出窗外示意。",
+      "highlight": "Stick",
+      "targetForm": "stick something out / out of something",
+      "targetMeaningZh": "把身體部分或物件伸出"
+    },
+    {
+      "id": "phrasal-verb-288-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The handle projected from the side of the box.",
+      "promptZh": "把手從箱子側面突出來。",
+      "starter": "The",
+      "answer": "The handle stuck out of the side of the box.",
+      "answerZh": "把手從箱子側面突出來。",
+      "highlight": "stuck out of",
+      "targetForm": "stick out / stick out of something",
+      "targetMeaningZh": "向外突出"
+    },
+    {
+      "id": "phrasal-verb-288-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I put the key in my pocket before leaving.",
+      "promptZh": "我離開前把鑰匙放進口袋。",
+      "starter": "I",
+      "answer": "I stuck the key in my pocket before leaving.",
+      "answerZh": "我離開前把鑰匙放進口袋。",
+      "highlight": "stuck",
+      "targetForm": "stick something in/into something",
+      "targetMeaningZh": "把某物放入或插入另一物件"
+    },
+    {
+      "id": "phrasal-verb-288-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Continue with the puzzle, even if it seems difficult.",
+      "promptZh": "即使這個謎題看來很難,也要繼續嘗試。",
+      "starter": "Stick",
+      "answer": "Stick at the puzzle, even if it seems difficult.",
+      "answerZh": "即使這個謎題看來很難,也要繼續嘗試。",
+      "highlight": "Stick at",
+      "targetForm": "stick at something",
+      "targetMeaningZh": "堅持做某事,不因困難而放棄"
+    },
+    {
+      "id": "phrasal-verb-288-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A small piece of glass was caught in the tyre.",
+      "promptZh": "一小塊玻璃卡在輪胎裏。",
+      "starter": "A",
+      "answer": "A small piece of glass was sticking in the tyre.",
+      "answerZh": "一小塊玻璃卡在輪胎裏。",
+      "highlight": "sticking",
+      "targetForm": "stick in something",
+      "targetMeaningZh": "卡在或插在某物之中"
+    },
+    {
+      "id": "phrasal-verb-288-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I will switch on the kettle and make some tea.",
+      "promptZh": "我會開水煲泡茶。",
+      "starter": "I",
+      "answer": "I will stick the kettle on and make some tea.",
+      "answerZh": "我會開水煲泡茶。",
+      "highlight": "stick",
+      "targetForm": "stick something on",
+      "targetMeaningZh": "開啟電器;把水煲等開動"
+    },
+    {
+      "id": "phrasal-verb-288-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Stay with me until we find the main path.",
+      "promptZh": "跟着我,直至我們找到大路。",
+      "starter": "Stick",
+      "answer": "Stick with me until we find the main path.",
+      "answerZh": "跟着我,直至我們找到大路。",
+      "highlight": "Stick",
+      "targetForm": "stick with somebody",
+      "targetMeaningZh": "留在某人身邊;跟着某人"
+    },
+    {
+      "id": "phrasal-verb-288-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Two thieves robbed the small shop late at night.",
+      "promptZh": "兩名賊人在深夜行劫那間小店。",
+      "starter": "Two",
+      "answer": "Two thieves stuck up the small shop late at night.",
+      "answerZh": "兩名賊人在深夜行劫那間小店。",
+      "highlight": "stuck up",
+      "targetForm": "stick somebody/something up",
+      "targetMeaningZh": "持械威脅並行劫某人或某處"
+    },
+    {
+      "id": "phrasal-verb-288-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Follow the marked path through the park.",
+      "promptZh": "沿着公園內有標記的小路走。",
+      "starter": "Stick",
+      "answer": "Stick to the marked path through the park.",
+      "answerZh": "沿着公園內有標記的小路走。",
+      "highlight": "Stick to",
+      "targetForm": "stick to something",
+      "targetMeaningZh": "堅持或遵守某事物"
+    },
+    {
+      "id": "phrasal-verb-288-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "She attached the name label to her suitcase.",
+      "promptZh": "她把姓名標籤黏在行李箱上。",
+      "starter": "She",
+      "answer": "She stuck the name label onto her suitcase.",
+      "answerZh": "她把姓名標籤黏在行李箱上。",
+      "highlight": "stuck",
+      "targetForm": "stick something on/onto something",
+      "targetMeaningZh": "把某物黏在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-288-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "They put several posters on the school wall.",
+      "promptZh": "他們在學校牆上張貼了幾張海報。",
+      "starter": "They",
+      "answer": "They stuck several posters up on the school wall.",
+      "answerZh": "他們在學校牆上張貼了幾張海報。",
+      "highlight": "stuck",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "把海報、告示等張貼起來"
+    },
+    {
+      "id": "phrasal-verb-288-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Join the two pieces of card with glue.",
+      "promptZh": "用膠水把兩張卡紙黏在一起。",
+      "starter": "Stick",
+      "answer": "Stick the two pieces of card together with glue.",
+      "answerZh": "用膠水把兩張卡紙黏在一起。",
+      "highlight": "Stick",
+      "targetForm": "stick something together",
+      "targetMeaningZh": "把不同部分黏合在一起"
+    },
+    {
+      "id": "phrasal-verb-288-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The team must remain united during this difficult time.",
+      "promptZh": "球隊在這段困難時期必須團結一致。",
+      "starter": "The",
+      "answer": "The team must stick together during this difficult time.",
+      "answerZh": "球隊在這段困難時期必須團結一致。",
+      "highlight": "stick together",
+      "targetForm": "stick together",
+      "targetMeaningZh": "團結一致;互相支持"
+    },
+    {
+      "id": "phrasal-verb-288-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "One thin branch pointed upwards above the fence.",
+      "promptZh": "一根幼細的樹枝在圍欄上方向上突出。",
+      "starter": "One",
+      "answer": "One thin branch stuck up above the fence.",
+      "answerZh": "一根幼細的樹枝在圍欄上方向上突出。",
+      "highlight": "stuck up",
+      "targetForm": "stick up",
+      "targetMeaningZh": "向上突出"
+    },
+    {
+      "id": "phrasal-verb-288-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Her closest friend supported her during the difficult year.",
+      "promptZh": "她最要好的朋友在那段困難時期一直支持她。",
+      "starter": "Her",
+      "answer": "Her closest friend stuck by her during the difficult year.",
+      "answerZh": "她最要好的朋友在那段困難時期一直支持她。",
+      "highlight": "stuck by",
+      "targetForm": "stick by somebody",
+      "targetMeaningZh": "在困難時仍忠於或支持某人"
+    },
+    {
+      "id": "phrasal-verb-288-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Put the cake in the oven again for five minutes.",
+      "promptZh": "把蛋糕放回焗爐再焗五分鐘。",
+      "starter": "Stick",
+      "answer": "Stick the cake back in the oven for five minutes.",
+      "answerZh": "把蛋糕放回焗爐再焗五分鐘。",
+      "highlight": "Stick",
+      "targetForm": "stick something back",
+      "targetMeaningZh": "把某物放回原處"
+    },
+    {
+      "id": "phrasal-verb-288-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Use glue to fix the loose corner of the poster firmly.",
+      "promptZh": "用膠水把海報鬆脫的一角黏牢。",
+      "starter": "Use",
+      "answer": "Use glue to stick the loose corner of the poster down.",
+      "answerZh": "用膠水把海報鬆脫的一角黏牢。",
+      "highlight": "stick",
+      "targetForm": "stick something down",
+      "targetMeaningZh": "把某物黏牢在表面上"
+    },
+    {
+      "id": "phrasal-verb-288-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ben always defends his younger brother.",
+      "promptZh": "賓總是維護他的弟弟。",
+      "starter": "Ben",
+      "answer": "Ben always sticks up for his younger brother.",
+      "answerZh": "賓總是維護他的弟弟。",
+      "highlight": "sticks up for",
+      "targetForm": "stick up for somebody/yourself/something",
+      "targetMeaningZh": "為某人、自己或某事辯護"
+    },
+    {
+      "id": "phrasal-verb-288-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Raise your hand if you know the answer.",
+      "promptZh": "知道答案便舉手。",
+      "starter": "Stick",
+      "answer": "Stick your hand up if you know the answer.",
+      "answerZh": "知道答案便舉手。",
+      "highlight": "Stick",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "舉起或豎起某物"
+    },
+    {
+      "id": "phrasal-verb-288-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The workers continued to demand a larger pay rise.",
+      "promptZh": "工人繼續堅持要求較大的加薪幅度。",
+      "starter": "The",
+      "answer": "The workers stuck out for a larger pay rise.",
+      "answerZh": "工人堅持要求較大的加薪幅度。",
+      "highlight": "stuck out for",
+      "targetForm": "stick out for something",
+      "targetMeaningZh": "堅持要求某事物,不肯接受較少"
+    },
+    {
+      "id": "phrasal-verb-288-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Continue using this plan for another week.",
+      "promptZh": "繼續採用這個計劃多一個星期。",
+      "starter": "Stick",
+      "answer": "Stick with this plan for another week.",
+      "answerZh": "繼續採用這個計劃多一個星期。",
+      "highlight": "Stick with",
+      "targetForm": "stick with something",
+      "targetMeaningZh": "繼續採用或做某事"
+    },
+    {
+      "id": "phrasal-verb-288-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Please stay for a while; we may need your help.",
+      "promptZh": "請留下來一會兒;我們可能需要你的幫忙。",
+      "starter": "Please",
+      "answer": "Please stick around for a while; we may need your help.",
+      "answerZh": "請留下來一會兒;我們可能需要你的幫忙。",
+      "highlight": "stick around",
+      "targetForm": "stick around",
+      "targetMeaningZh": "留下來;留在附近"
+    },
+    {
+      "id": "phrasal-verb-288-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The bright yellow coat was easy to notice in the crowd.",
+      "promptZh": "那件鮮黃色外套在人群中十分顯眼。",
+      "starter": "The",
+      "answer": "The bright yellow coat stuck out in the crowd.",
+      "answerZh": "那件鮮黃色外套在人群中十分顯眼。",
+      "highlight": "stuck out",
+      "targetForm": "stick out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-288-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "In that shiny silver suit, you are extremely easy to notice.",
+      "promptZh": "你穿着那套閃亮的銀色西裝,實在非常顯眼。",
+      "starter": "In",
+      "answer": "In that shiny silver suit, you stick out a mile.",
+      "answerZh": "你穿着那套閃亮的銀色西裝,實在非常顯眼。",
+      "highlight": "stick out a mile",
+      "targetForm": "stick out a mile",
+      "targetMeaningZh": "非常顯眼;一眼便看得出"
+    },
+    {
+      "id": "phrasal-verb-288-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Put your finished report on my desk.",
+      "promptZh": "把完成的報告放在我的書桌上。",
+      "starter": "Stick",
+      "answer": "Stick your finished report on my desk.",
+      "answerZh": "把完成的報告放在我的書桌上。",
+      "highlight": "Stick",
+      "targetForm": "stick something on something",
+      "targetMeaningZh": "把某物放在某處"
+    },
+    {
+      "id": "phrasal-verb-288-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "A rusty nail was coming through the wooden board.",
+      "promptZh": "一口生鏽的釘穿過木板突出來。",
+      "starter": "A",
+      "answer": "A rusty nail was sticking through the wooden board.",
+      "answerZh": "一口生鏽的釘穿過木板突出來。",
+      "highlight": "sticking",
+      "targetForm": "stick through / stick through something",
+      "targetMeaningZh": "穿過某物並突出來"
+    },
+    {
+      "id": "phrasal-verb-288-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "One sharp wire is coming through the cloth.",
+      "promptZh": "一條尖銳的鐵線正穿過布料突出來。",
+      "starter": "One",
+      "answer": "One sharp wire is sticking through the cloth.",
+      "answerZh": "一條尖銳的鐵線正穿過布料突出來。",
+      "highlight": "sticking",
+      "targetForm": "stick through / stick through something",
+      "targetMeaningZh": "穿過某物並突出來"
+    },
+    {
+      "id": "phrasal-verb-288-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why did nobody defend Clara when the others blamed her?",
+      "promptZh": "其他人責怪克拉拉時,為何沒有人替她辯護?",
+      "starter": "Why",
+      "answer": "Why did nobody stick up for Clara when the others blamed her?",
+      "answerZh": "其他人責怪克拉拉時,為何沒有人替她辯護?",
+      "highlight": "stick up for",
+      "targetForm": "stick up for somebody/yourself/something",
+      "targetMeaningZh": "為某人、自己或某事辯護"
+    },
+    {
+      "id": "phrasal-verb-288-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "A few short hairs were pointing upwards from the brush.",
+      "promptZh": "幾根短毛從刷子向上突出。",
+      "starter": "A",
+      "answer": "A few short hairs were sticking up from the brush.",
+      "answerZh": "幾根短毛從刷子向上突出。",
+      "highlight": "sticking up",
+      "targetForm": "stick up",
+      "targetMeaningZh": "向上突出"
+    },
+    {
+      "id": "phrasal-verb-288-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The players are still demanding better training times.",
+      "promptZh": "球員仍然堅持要求更好的訓練時間。",
+      "starter": "The",
+      "answer": "The players are still sticking out for better training times.",
+      "answerZh": "球員仍然堅持要求更好的訓練時間。",
+      "highlight": "sticking out for",
+      "targetForm": "stick out for something",
+      "targetMeaningZh": "堅持要求某事物,不肯接受較少"
+    },
+    {
+      "id": "phrasal-verb-288-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I have put your parcel on the kitchen table.",
+      "promptZh": "我已把你的包裹放在廚房桌上。",
+      "starter": "I",
+      "answer": "I have stuck your parcel on the kitchen table.",
+      "answerZh": "我已把你的包裹放在廚房桌上。",
+      "highlight": "stuck",
+      "targetForm": "stick something on something",
+      "targetMeaningZh": "把某物放在某處"
+    },
+    {
+      "id": "phrasal-verb-288-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We will put the new timetable on the noticeboard tomorrow.",
+      "promptZh": "我們明天會把新時間表張貼在告示板上。",
+      "starter": "We",
+      "answer": "We will stick the new timetable up on the noticeboard tomorrow.",
+      "answerZh": "我們明天會把新時間表張貼在告示板上。",
+      "highlight": "stick",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "把海報、告示等張貼起來"
+    },
+    {
+      "id": "phrasal-verb-288-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Ella has supported me through every problem.",
+      "promptZh": "埃拉在我面對每個難題時都一直支持我。",
+      "starter": "Ella",
+      "answer": "Ella has stuck by me through every problem.",
+      "answerZh": "埃拉在我面對每個難題時都一直支持我。",
+      "highlight": "stuck by",
+      "targetForm": "stick by somebody",
+      "targetMeaningZh": "在困難時仍忠於或支持某人"
+    },
+    {
+      "id": "phrasal-verb-288-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "When the teacher asks, will everyone raise their hands?",
+      "promptZh": "老師提問時,每個人都會舉手嗎?",
+      "starter": "When",
+      "answer": "When the teacher asks, will everyone stick their hands up?",
+      "answerZh": "老師提問時,每個人都會舉手嗎?",
+      "highlight": "stick",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "舉起或豎起某物"
+    },
+    {
+      "id": "phrasal-verb-288-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "She is putting a note into his lunchbox now.",
+      "promptZh": "她現在正把字條放進他的飯盒。",
+      "starter": "She",
+      "answer": "She is sticking a note into his lunchbox now.",
+      "answerZh": "她現在正把字條放進他的飯盒。",
+      "highlight": "sticking",
+      "targetForm": "stick something in/into something",
+      "targetMeaningZh": "把某物放入或插入另一物件"
+    },
+    {
+      "id": "phrasal-verb-288-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The spelling mistake really becomes noticeable in the title.",
+      "promptZh": "標題中的拼字錯誤真的十分顯眼。",
+      "starter": "The",
+      "answer": "The spelling mistake really sticks out in the title.",
+      "answerZh": "標題中的拼字錯誤真的十分顯眼。",
+      "highlight": "sticks out",
+      "targetForm": "stick out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-288-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do not put your head outside the moving train.",
+      "promptZh": "不要把頭伸出行駛中的火車外。",
+      "starter": "Do",
+      "answer": "Do not stick your head out of the moving train.",
+      "answerZh": "不要把頭伸出行駛中的火車外。",
+      "highlight": "stick",
+      "targetForm": "stick something out / out of something",
+      "targetMeaningZh": "把身體部分或物件伸出"
+    },
+    {
+      "id": "phrasal-verb-288-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The police said that the gang had robbed three petrol stations.",
+      "promptZh": "警方表示,那個匪幫曾行劫三間油站。",
+      "starter": "The",
+      "answer": "The police said that the gang had stuck up three petrol stations.",
+      "answerZh": "警方表示,那個匪幫曾行劫三間油站。",
+      "highlight": "stuck up",
+      "targetForm": "stick somebody/something up",
+      "targetMeaningZh": "持械威脅並行劫某人或某處"
+    },
+    {
+      "id": "phrasal-verb-288-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I am attaching the photo to the front of the card.",
+      "promptZh": "我正把相片黏在卡片正面。",
+      "starter": "I",
+      "answer": "I am sticking the photo onto the front of the card.",
+      "answerZh": "我正把相片黏在卡片正面。",
+      "highlight": "sticking",
+      "targetForm": "stick something on/onto something",
+      "targetMeaningZh": "把某物黏在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-288-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The tape has not fixed the edges firmly enough.",
+      "promptZh": "膠紙未能把邊緣黏得夠牢。",
+      "starter": "The",
+      "answer": "The tape has not stuck the edges down firmly enough.",
+      "answerZh": "膠紙未能把邊緣黏得夠牢。",
+      "highlight": "stuck",
+      "targetForm": "stick something down",
+      "targetMeaningZh": "把某物黏牢在表面上"
+    },
+    {
+      "id": "phrasal-verb-288-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Several roots are projecting from the soil after the rain.",
+      "promptZh": "下雨後,幾條樹根正從泥土中突出來。",
+      "starter": "Several",
+      "answer": "Several roots are sticking out of the soil after the rain.",
+      "answerZh": "下雨後,幾條樹根正從泥土中突出來。",
+      "highlight": "sticking out of",
+      "targetForm": "stick out / stick out of something",
+      "targetMeaningZh": "向外突出"
+    },
+    {
+      "id": "phrasal-verb-288-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could you switch on the radio while I cook?",
+      "promptZh": "我煮食時,你可以開收音機嗎?",
+      "starter": "Could",
+      "answer": "Could you stick the radio on while I cook?",
+      "answerZh": "我煮食時,你可以開收音機嗎?",
+      "highlight": "stick",
+      "targetForm": "stick something on",
+      "targetMeaningZh": "開啟電器;把水煲等開動"
+    },
+    {
+      "id": "phrasal-verb-288-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Our neighbours have remained united since the storm.",
+      "promptZh": "自暴風雨以來,我們的鄰居一直團結一致。",
+      "starter": "Our",
+      "answer": "Our neighbours have stuck together since the storm.",
+      "answerZh": "自暴風雨以來,我們的鄰居一直團結一致。",
+      "highlight": "stuck together",
+      "targetForm": "stick together",
+      "targetMeaningZh": "團結一致;互相支持"
+    },
+    {
+      "id": "phrasal-verb-288-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "With those bright green shoes, he will be extremely easy to notice.",
+      "promptZh": "他穿着那雙鮮綠色鞋子,將會非常顯眼。",
+      "starter": "With",
+      "answer": "With those bright green shoes, he will stick out a mile.",
+      "answerZh": "他穿着那雙鮮綠色鞋子,將會非常顯眼。",
+      "highlight": "stick out a mile",
+      "targetForm": "stick out a mile",
+      "targetMeaningZh": "非常顯眼;一眼便看得出"
+    },
+    {
+      "id": "phrasal-verb-288-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The soup is still cold, so put it in the microwave again.",
+      "promptZh": "湯仍然很冷,所以把它放回微波爐。",
+      "starter": "The",
+      "answer": "The soup is still cold, so stick it back in the microwave.",
+      "answerZh": "湯仍然很冷,所以把它放回微波爐。",
+      "highlight": "stick",
+      "targetForm": "stick something back",
+      "targetMeaningZh": "把某物放回原處"
+    },
+    {
+      "id": "phrasal-verb-288-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "If we continue working at this, we should finish before lunch.",
+      "promptZh": "如果我們繼續努力做這件事,應該能在午飯前完成。",
+      "starter": "If",
+      "answer": "If we stick at this, we should finish before lunch.",
+      "answerZh": "如果我們繼續努力做這件事,應該能在午飯前完成。",
+      "highlight": "stick",
+      "targetForm": "stick at something",
+      "targetMeaningZh": "堅持做某事,不因困難而放棄"
+    },
+    {
+      "id": "phrasal-verb-288-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The children are joining the paper shapes with tape.",
+      "promptZh": "孩子們正用膠紙把紙製圖形黏在一起。",
+      "starter": "The",
+      "answer": "The children are sticking the paper shapes together with tape.",
+      "answerZh": "孩子們正用膠紙把紙製圖形黏在一起。",
+      "highlight": "sticking",
+      "targetForm": "stick something together",
+      "targetMeaningZh": "把不同部分黏合在一起"
+    },
+    {
+      "id": "phrasal-verb-288-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Nadia has followed the same study timetable all month.",
+      "promptZh": "娜迪亞整個月都一直依照同一個溫習時間表。",
+      "starter": "Nadia",
+      "answer": "Nadia has stuck to the same study timetable all month.",
+      "answerZh": "娜迪亞整個月都一直依照同一個溫習時間表。",
+      "highlight": "stuck to",
+      "targetForm": "stick to something",
+      "targetMeaningZh": "堅持或遵守某事物"
+    },
+    {
+      "id": "phrasal-verb-288-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The arrow had become fixed in the tree trunk.",
+      "promptZh": "那支箭已卡在樹幹裏。",
+      "starter": "The",
+      "answer": "The arrow had stuck in the tree trunk.",
+      "answerZh": "那支箭已卡在樹幹裏。",
+      "highlight": "stuck",
+      "targetForm": "stick in something",
+      "targetMeaningZh": "卡在或插在某物之中"
+    },
+    {
+      "id": "phrasal-verb-288-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Are you staying after the meeting?",
+      "promptZh": "會議結束後你會留下來嗎?",
+      "starter": "Are",
+      "answer": "Are you sticking around after the meeting?",
+      "answerZh": "會議結束後你會留下來嗎?",
+      "highlight": "sticking around",
+      "targetForm": "stick around",
+      "targetMeaningZh": "留下來;留在附近"
+    },
+    {
+      "id": "phrasal-verb-288-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The guide told us to remain with her in the busy market.",
+      "promptZh": "導遊叫我們在繁忙的市場內跟着她。",
+      "starter": "The",
+      "answer": "The guide told us to stick with her in the busy market.",
+      "answerZh": "導遊叫我們在繁忙的市場內跟着她。",
+      "highlight": "stick",
+      "targetForm": "stick with somebody",
+      "targetMeaningZh": "留在某人身邊;跟着某人"
+    },
+    {
+      "id": "phrasal-verb-288-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Will you continue with the blue design or choose another one?",
+      "promptZh": "你會繼續採用藍色設計,還是選擇另一款?",
+      "starter": "Will",
+      "answer": "Will you stick with the blue design or choose another one?",
+      "answerZh": "你會繼續採用藍色設計,還是選擇另一款?",
+      "highlight": "stick",
+      "targetForm": "stick with something",
+      "targetMeaningZh": "繼續採用或做某事"
+    },
+    {
+      "id": "phrasal-verb-288-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The first few exercises were frustrating, but Jasmin continued working at them.",
+      "promptZh": "最初幾道練習令人沮喪,但嘉絲敏仍繼續努力完成。",
+      "starter": "The",
+      "answer": "The first few exercises were frustrating, but Jasmin stuck at them.",
+      "answerZh": "最初幾道練習令人沮喪,但嘉絲敏仍繼續努力完成。",
+      "highlight": "stuck",
+      "targetForm": "stick at something",
+      "targetMeaningZh": "堅持做某事,不因困難而放棄"
+    },
+    {
+      "id": "phrasal-verb-288-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Most of the room was grey, so the single red chair was especially noticeable.",
+      "promptZh": "房間大部分都是灰色,因此唯一的紅色椅子特別顯眼。",
+      "starter": "Most",
+      "answer": "Most of the room was grey, so the single red chair stuck out.",
+      "answerZh": "房間大部分都是灰色,因此唯一的紅色椅子特別顯眼。",
+      "highlight": "stuck out",
+      "targetForm": "stick out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-288-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The first method is slow but reliable, so we have decided to continue using it.",
+      "promptZh": "第一個方法雖然慢,但很可靠,所以我們決定繼續採用。",
+      "starter": "The",
+      "answer": "The first method is slow but reliable, so we have decided to stick with it.",
+      "answerZh": "第一個方法雖然慢,但很可靠,所以我們決定繼續採用。",
+      "highlight": "stick with",
+      "targetForm": "stick with something",
+      "targetMeaningZh": "繼續採用或做某事"
+    },
+    {
+      "id": "phrasal-verb-288-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "A thorn became fixed in my glove while I was gardening.",
+      "promptZh": "我整理花園時,一根刺卡在手套裏。",
+      "starter": "A",
+      "answer": "A thorn stuck in my glove while I was gardening.",
+      "answerZh": "我整理花園時,一根刺卡在手套裏。",
+      "highlight": "stuck",
+      "targetForm": "stick in something",
+      "targetMeaningZh": "卡在或插在某物之中"
+    },
+    {
+      "id": "phrasal-verb-288-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The broken spring came through the seat and scratched his leg.",
+      "promptZh": "斷裂的彈簧穿過座位突出來,刮傷了他的腿。",
+      "starter": "The",
+      "answer": "The broken spring stuck through the seat and scratched his leg.",
+      "answerZh": "斷裂的彈簧穿過座位突出來,刮傷了他的腿。",
+      "highlight": "stuck",
+      "targetForm": "stick through / stick through something",
+      "targetMeaningZh": "穿過某物並突出來"
+    },
+    {
+      "id": "phrasal-verb-288-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The four cousins argued sometimes, but they always remained united when the family needed them.",
+      "promptZh": "四名表兄弟姊妹有時會爭吵,但家人需要他們時,他們總會團結一致。",
+      "starter": "The",
+      "answer": "The four cousins argued sometimes, but they always stuck together when the family needed them.",
+      "answerZh": "四名表兄弟姊妹有時會爭吵,但家人需要他們時,他們總會團結一致。",
+      "highlight": "stuck together",
+      "targetForm": "stick together",
+      "targetMeaningZh": "團結一致;互相支持"
+    },
+    {
+      "id": "phrasal-verb-288-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Everyone else wore dark clothes. In her orange dress, Priya was impossible not to notice.",
+      "promptZh": "其他人都穿深色衣服。普里雅穿着橙色裙子,令人無法不注意她。",
+      "starter": "Everyone",
+      "answer": "Everyone else wore dark clothes. In her orange dress, Priya stuck out a mile.",
+      "answerZh": "其他人都穿深色衣服。普里雅穿着橙色裙子,非常顯眼。",
+      "highlight": "stuck out a mile",
+      "targetForm": "stick out a mile",
+      "targetMeaningZh": "非常顯眼;一眼便看得出"
+    },
+    {
+      "id": "phrasal-verb-288-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The map kept curling at the edges, so we fixed them firmly with tape.",
+      "promptZh": "地圖邊緣不停捲起,所以我們用膠紙把它們黏牢。",
+      "starter": "The",
+      "answer": "The map kept curling at the edges, so we stuck them down with tape.",
+      "answerZh": "地圖邊緣不停捲起,所以我們用膠紙把它們黏牢。",
+      "highlight": "stuck",
+      "targetForm": "stick something down",
+      "targetMeaningZh": "把某物黏牢在表面上"
+    },
+    {
+      "id": "phrasal-verb-288-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The concert has ended, but a few fans are staying near the stage.",
+      "promptZh": "音樂會已經結束,但仍有幾名歌迷留在舞台附近。",
+      "starter": "The",
+      "answer": "The concert has ended, but a few fans are sticking around near the stage.",
+      "answerZh": "音樂會已經結束,但仍有幾名歌迷留在舞台附近。",
+      "highlight": "sticking around",
+      "targetForm": "stick around",
+      "targetMeaningZh": "留下來;留在附近"
+    },
+    {
+      "id": "phrasal-verb-288-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "When you finish the form, put it on the tray beside the door.",
+      "promptZh": "完成表格後,把它放在門旁的托盤上。",
+      "starter": "When",
+      "answer": "When you finish the form, stick it on the tray beside the door.",
+      "answerZh": "完成表格後,把它放在門旁的托盤上。",
+      "highlight": "stick",
+      "targetForm": "stick something on something",
+      "targetMeaningZh": "把某物放在某處"
+    },
+    {
+      "id": "phrasal-verb-288-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The notice was printed this morning and placed on every classroom door.",
+      "promptZh": "告示今早印好,並張貼在每間課室門上。",
+      "starter": "The",
+      "answer": "The notice was printed this morning and stuck up on every classroom door.",
+      "answerZh": "告示今早印好,並張貼在每間課室門上。",
+      "highlight": "stuck up",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "把海報、告示等張貼起來"
+    },
+    {
+      "id": "phrasal-verb-288-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "These drinks belong in the fridge. Please put them there again.",
+      "promptZh": "這些飲品應放在雪櫃內。請把它們放回去。",
+      "starter": "These",
+      "answer": "These drinks belong in the fridge. Please stick them back in.",
+      "answerZh": "這些飲品應放在雪櫃內。請把它們放回去。",
+      "highlight": "stick",
+      "targetForm": "stick something back",
+      "targetMeaningZh": "把某物放回原處"
+    },
+    {
+      "id": "phrasal-verb-288-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The tenants rejected the smaller reduction and continued to demand a twenty per cent cut.",
+      "promptZh": "租戶拒絕較小的減幅,並繼續堅持要求減租百分之二十。",
+      "starter": "The",
+      "answer": "The tenants rejected the smaller reduction and stuck out for a twenty per cent cut.",
+      "answerZh": "租戶拒絕較小的減幅,並堅持要求減租百分之二十。",
+      "highlight": "stuck out for",
+      "targetForm": "stick out for something",
+      "targetMeaningZh": "堅持要求某事物,不肯接受較少"
+    },
+    {
+      "id": "phrasal-verb-288-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The envelope was open, so I put the ticket inside it before sealing it.",
+      "promptZh": "信封仍然打開,所以我在封口前把門票放進去。",
+      "starter": "The",
+      "answer": "The envelope was open, so I stuck the ticket in it before sealing it.",
+      "answerZh": "信封仍然打開,所以我在封口前把門票放進去。",
+      "highlight": "stuck",
+      "targetForm": "stick something in/into something",
+      "targetMeaningZh": "把某物放入或插入另一物件"
+    },
+    {
+      "id": "phrasal-verb-288-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "It is getting cold. Could somebody switch the heating on?",
+      "promptZh": "天氣開始變冷。可以有人開暖氣嗎?",
+      "starter": "It",
+      "answer": "It is getting cold. Could somebody stick the heating on?",
+      "answerZh": "天氣開始變冷。可以有人開暖氣嗎?",
+      "highlight": "stick",
+      "targetForm": "stick something on",
+      "targetMeaningZh": "開啟電器;把水煲等開動"
+    },
+    {
+      "id": "phrasal-verb-288-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The cashier remembered the man who had robbed the shop the night before.",
+      "promptZh": "收銀員記得前一晚行劫店舖的男子。",
+      "starter": "The",
+      "answer": "The cashier remembered the man who had stuck up the shop the night before.",
+      "answerZh": "收銀員記得前一晚行劫店舖的男子。",
+      "highlight": "stuck up",
+      "targetForm": "stick somebody/something up",
+      "targetMeaningZh": "持械威脅並行劫某人或某處"
+    },
+    {
+      "id": "phrasal-verb-288-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "You did nothing wrong, so you should defend yourself.",
+      "promptZh": "你沒有做錯事,所以應該為自己辯護。",
+      "starter": "You",
+      "answer": "You did nothing wrong, so you should stick up for yourself.",
+      "answerZh": "你沒有做錯事,所以應該為自己辯護。",
+      "highlight": "stick up for",
+      "targetForm": "stick up for somebody/yourself/something",
+      "targetMeaningZh": "為某人、自己或某事辯護"
+    },
+    {
+      "id": "phrasal-verb-288-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The bus was full, but a passenger still extended his umbrella into the aisle.",
+      "promptZh": "巴士十分擠迫,但仍有一名乘客把雨傘伸到通道上。",
+      "starter": "The",
+      "answer": "The bus was full, but a passenger still stuck his umbrella out into the aisle.",
+      "answerZh": "巴士十分擠迫,但仍有一名乘客把雨傘伸到通道上。",
+      "highlight": "stuck",
+      "targetForm": "stick something out / out of something",
+      "targetMeaningZh": "把身體部分或物件伸出"
+    },
+    {
+      "id": "phrasal-verb-288-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The box would not fit because two long screws projected from its base.",
+      "promptZh": "箱子放不進去,因為兩口長螺絲從底部突出來。",
+      "starter": "The",
+      "answer": "The box would not fit because two long screws stuck out of its base.",
+      "answerZh": "箱子放不進去,因為兩口長螺絲從底部突出來。",
+      "highlight": "stuck out of",
+      "targetForm": "stick out / stick out of something",
+      "targetMeaningZh": "向外突出"
+    },
+    {
+      "id": "phrasal-verb-288-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We may become separated in the crowd, so stay with your partner.",
+      "promptZh": "我們在人群中可能會走散,所以要跟着你的拍檔。",
+      "starter": "We",
+      "answer": "We may become separated in the crowd, so stick with your partner.",
+      "answerZh": "我們在人群中可能會走散,所以要跟着你的拍檔。",
+      "highlight": "stick",
+      "targetForm": "stick with somebody",
+      "targetMeaningZh": "留在某人身邊;跟着某人"
+    },
+    {
+      "id": "phrasal-verb-288-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The umbrella would not close because one metal piece was pointing upwards.",
+      "promptZh": "雨傘無法合上,因為有一塊金屬片向上突出。",
+      "starter": "The",
+      "answer": "The umbrella would not close because one metal piece was sticking up.",
+      "answerZh": "雨傘無法合上,因為有一塊金屬片向上突出。",
+      "highlight": "sticking up",
+      "targetForm": "stick up",
+      "targetMeaningZh": "向上突出"
+    },
+    {
+      "id": "phrasal-verb-288-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The toy broke into three parts, but Dad joined them again with strong glue.",
+      "promptZh": "玩具斷成三部分,但爸爸用強力膠把它們重新黏在一起。",
+      "starter": "The",
+      "answer": "The toy broke into three parts, but Dad stuck them together again with strong glue.",
+      "answerZh": "玩具斷成三部分,但爸爸用強力膠把它們重新黏在一起。",
+      "highlight": "stuck",
+      "targetForm": "stick something together",
+      "targetMeaningZh": "把不同部分黏合在一起"
+    },
+    {
+      "id": "phrasal-verb-288-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "When everyone else doubted Rosa, her coach continued to support her.",
+      "promptZh": "其他人都懷疑羅莎時,她的教練仍繼續支持她。",
+      "starter": "When",
+      "answer": "When everyone else doubted Rosa, her coach stuck by her.",
+      "answerZh": "其他人都懷疑羅莎時,她的教練仍繼續支持她。",
+      "highlight": "stuck by",
+      "targetForm": "stick by somebody",
+      "targetMeaningZh": "在困難時仍忠於或支持某人"
+    },
+    {
+      "id": "phrasal-verb-288-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The room was noisy, so Kai raised his hand to get the teacher’s attention.",
+      "promptZh": "房間很嘈吵,所以啟舉手引起老師注意。",
+      "starter": "The",
+      "answer": "The room was noisy, so Kai stuck his hand up to get the teacher’s attention.",
+      "answerZh": "房間很嘈吵,所以啟舉手引起老師注意。",
+      "highlight": "stuck",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "舉起或豎起某物"
+    },
+    {
+      "id": "phrasal-verb-288-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The label had fallen off. I attached it to the jar again.",
+      "promptZh": "標籤掉了下來。我再次把它黏在瓶子上。",
+      "starter": "The",
+      "answer": "The label had fallen off. I stuck it onto the jar again.",
+      "answerZh": "標籤掉了下來。我再次把它黏在瓶子上。",
+      "highlight": "stuck",
+      "targetForm": "stick something on/onto something",
+      "targetMeaningZh": "把某物黏在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-288-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We agreed on three simple rules, and everyone must follow them.",
+      "promptZh": "我們同意了三條簡單規則,而每個人都必須遵守。",
+      "starter": "We",
+      "answer": "We agreed on three simple rules, and everyone must stick to them.",
+      "answerZh": "我們同意了三條簡單規則,而每個人都必須遵守。",
+      "highlight": "stick to",
+      "targetForm": "stick to something",
+      "targetMeaningZh": "堅持或遵守某事物"
+    },
+    {
+      "id": "phrasal-verb-288-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The news report said the men had threatened the driver and robbed him, not merely stolen the parked van.",
+      "promptZh": "新聞報道指那些男子曾威脅並行劫司機,而不只是偷走停泊的客貨車。",
+      "starter": "The",
+      "answer": "The news report said the men had stuck the driver up, not merely stolen the parked van.",
+      "answerZh": "新聞報道指那些男子曾威脅並行劫司機,而不只是偷走停泊的客貨車。",
+      "highlight": "stuck",
+      "targetForm": "stick somebody/something up",
+      "targetMeaningZh": "持械威脅並行劫某人或某處"
+    },
+    {
+      "id": "phrasal-verb-288-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The organisers wanted everyone to read the rules, so they displayed copies beside every entrance.",
+      "promptZh": "主辦單位希望所有人閱讀規則,所以在每個入口旁張貼副本。",
+      "starter": "The",
+      "answer": "The organisers wanted everyone to read the rules, so they stuck copies up beside every entrance.",
+      "answerZh": "主辦單位希望所有人閱讀規則,所以在每個入口旁張貼副本。",
+      "highlight": "stuck",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "把海報、告示等張貼起來"
+    },
+    {
+      "id": "phrasal-verb-288-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The wire was not lying on the cloth; its sharp end had passed through the material.",
+      "promptZh": "鐵線並非放在布料表面;它尖銳的一端已穿過布料。",
+      "starter": "The",
+      "answer": "The wire was not lying on the cloth; its sharp end was sticking through the material.",
+      "answerZh": "鐵線並非放在布料表面;它尖銳的一端已穿過布料。",
+      "highlight": "was sticking",
+      "targetForm": "stick through / stick through something",
+      "targetMeaningZh": "穿過某物並突出來"
+    },
+    {
+      "id": "phrasal-verb-288-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We tested two routes. The riverside route was safer, so we continued using it.",
+      "promptZh": "我們試了兩條路線。河畔路線較安全,所以我們繼續採用。",
+      "starter": "We",
+      "answer": "We tested two routes. The riverside route was safer, so we stuck with it.",
+      "answerZh": "我們試了兩條路線。河畔路線較安全,所以我們繼續採用。",
+      "highlight": "stuck with",
+      "targetForm": "stick with something",
+      "targetMeaningZh": "繼續採用或做某事"
+    },
+    {
+      "id": "phrasal-verb-288-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The broken tile was not projecting sideways; one corner pointed straight upwards.",
+      "promptZh": "破裂的瓦片並非向旁突出;其中一角直直向上翹起。",
+      "starter": "The",
+      "answer": "The broken tile was not projecting sideways; one corner stuck straight up.",
+      "answerZh": "破裂的瓦片並非向旁突出;其中一角直直向上翹起。",
+      "highlight": "stuck",
+      "targetForm": "stick up",
+      "targetMeaningZh": "向上突出"
+    },
+    {
+      "id": "phrasal-verb-288-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The cups are ready, so switch on the kettle rather than putting it on the table.",
+      "promptZh": "杯子已準備好,所以請開水煲,而不是把它放在桌上。",
+      "starter": "The",
+      "answer": "The cups are ready, so stick the kettle on rather than putting it on the table.",
+      "answerZh": "杯子已準備好,所以請開水煲,而不是把它放在桌上。",
+      "highlight": "stick",
+      "targetForm": "stick something on",
+      "targetMeaningZh": "開啟電器;把水煲等開動"
+    },
+    {
+      "id": "phrasal-verb-288-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The report does not need to be attached; simply put it on the manager’s chair.",
+      "promptZh": "報告不需要黏住;只需把它放在經理的椅子上。",
+      "starter": "The",
+      "answer": "The report does not need to be attached; simply stick it on the manager’s chair.",
+      "answerZh": "報告不需要黏住;只需把它放在經理的椅子上。",
+      "highlight": "stick",
+      "targetForm": "stick something on something",
+      "targetMeaningZh": "把某物放在某處"
+    },
+    {
+      "id": "phrasal-verb-288-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Even after the singer lost her contract, her manager remained loyal to her.",
+      "promptZh": "即使歌手失去合約,她的經理仍然忠於並支持她。",
+      "starter": "Even",
+      "answer": "Even after the singer lost her contract, her manager stuck by her.",
+      "answerZh": "即使歌手失去合約,她的經理仍然忠於並支持她。",
+      "highlight": "stuck by",
+      "targetForm": "stick by somebody",
+      "targetMeaningZh": "在困難時仍忠於或支持某人"
+    },
+    {
+      "id": "phrasal-verb-288-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The cyclist did not raise his hand; he extended it sideways to show that he was turning.",
+      "promptZh": "單車手並非舉手;他把手向旁伸出,表示準備轉彎。",
+      "starter": "The",
+      "answer": "The cyclist did not raise his hand; he stuck it out sideways to show that he was turning.",
+      "answerZh": "單車手並非舉手;他把手向旁伸出,表示準備轉彎。",
+      "highlight": "stuck",
+      "targetForm": "stick something out / out of something",
+      "targetMeaningZh": "把身體部分或物件伸出"
+    },
+    {
+      "id": "phrasal-verb-288-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The buyers would not accept the smaller discount and continued to demand fifteen per cent.",
+      "promptZh": "買家不接受較小的折扣,並繼續堅持要求百分之十五的折扣。",
+      "starter": "The",
+      "answer": "The buyers would not accept the smaller discount and stuck out for fifteen per cent.",
+      "answerZh": "買家不接受較小的折扣,並堅持要求百分之十五的折扣。",
+      "highlight": "stuck out for",
+      "targetForm": "stick out for something",
+      "targetMeaningZh": "堅持要求某事物,不肯接受較少"
+    },
+    {
+      "id": "phrasal-verb-288-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The piano piece is difficult, but you will improve only if you continue practising it.",
+      "promptZh": "這首鋼琴曲很難,但你只有堅持練習才會進步。",
+      "starter": "The",
+      "answer": "The piano piece is difficult, but you will improve only if you stick at it.",
+      "answerZh": "這首鋼琴曲很難,但你只有堅持練習才會進步。",
+      "highlight": "stick at",
+      "targetForm": "stick at something",
+      "targetMeaningZh": "堅持做某事,不因困難而放棄"
+    },
+    {
+      "id": "phrasal-verb-288-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Do not merely place the paper on the table; use tape to fix all four corners firmly.",
+      "promptZh": "不要只把紙放在桌上;要用膠紙把四角黏牢。",
+      "starter": "Do",
+      "answer": "Do not merely place the paper on the table; use tape to stick all four corners down.",
+      "answerZh": "不要只把紙放在桌上;要用膠紙把四角黏牢。",
+      "highlight": "stick",
+      "targetForm": "stick something down",
+      "targetMeaningZh": "把某物黏牢在表面上"
+    },
+    {
+      "id": "phrasal-verb-288-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The blue chair was not physically projecting from the row; its colour simply made it easy to notice.",
+      "promptZh": "藍色椅子並非從座位列中向外突出;只是它的顏色令它格外顯眼。",
+      "starter": "The",
+      "answer": "The blue chair was not physically projecting from the row; its colour simply made it stick out.",
+      "answerZh": "藍色椅子並非從座位列中向外突出;只是它的顏色令它格外顯眼。",
+      "highlight": "stick out",
+      "targetForm": "stick out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-288-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The speaker asked everyone who agreed to raise their thumbs.",
+      "promptZh": "講者請所有同意的人豎起拇指。",
+      "starter": "The",
+      "answer": "The speaker asked everyone who agreed to stick their thumbs up.",
+      "answerZh": "講者請所有同意的人豎起拇指。",
+      "highlight": "stick",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "舉起或豎起某物"
+    },
+    {
+      "id": "phrasal-verb-288-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "You do not need to work, but please remain nearby until the delivery arrives.",
+      "promptZh": "你不用工作,但請留在附近,直至貨物送到。",
+      "starter": "You",
+      "answer": "You do not need to work, but please stick around until the delivery arrives.",
+      "answerZh": "你不用工作,但請留在附近,直至貨物送到。",
+      "highlight": "stick around",
+      "targetForm": "stick around",
+      "targetMeaningZh": "留下來;留在附近"
+    },
+    {
+      "id": "phrasal-verb-288-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The badge must be attached to the bag, not simply placed inside it.",
+      "promptZh": "襟章必須黏在袋上,而不是只放進袋裏。",
+      "starter": "The",
+      "answer": "The badge must be stuck onto the bag, not simply placed inside it.",
+      "answerZh": "襟章必須黏在袋上,而不是只放進袋裏。",
+      "highlight": "stuck onto",
+      "targetForm": "stick something on/onto something",
+      "targetMeaningZh": "把某物黏在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-288-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The plant was hidden behind the curtain, but two leaves projected beyond its edge.",
+      "promptZh": "植物藏在窗簾後,但有兩片葉子從窗簾邊緣突出來。",
+      "starter": "The",
+      "answer": "The plant was hidden behind the curtain, but two leaves stuck out beyond its edge.",
+      "answerZh": "植物藏在窗簾後,但有兩片葉子從窗簾邊緣突出來。",
+      "highlight": "stuck out",
+      "targetForm": "stick out / stick out of something",
+      "targetMeaningZh": "向外突出"
+    },
+    {
+      "id": "phrasal-verb-288-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The club was criticised unfairly, and its captain publicly defended it.",
+      "promptZh": "會社受到不公平批評,而隊長公開為它辯護。",
+      "starter": "The",
+      "answer": "The club was criticised unfairly, and its captain publicly stuck up for it.",
+      "answerZh": "會社受到不公平批評,而隊長公開為它辯護。",
+      "highlight": "stuck up for",
+      "targetForm": "stick up for somebody/yourself/something",
+      "targetMeaningZh": "為某人、自己或某事辯護"
+    },
+    {
+      "id": "phrasal-verb-288-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Do not follow the signs alone; remain with the guide because the path changes after the bridge.",
+      "promptZh": "不要只依照指示牌;要跟着導遊,因為過橋後路線會改變。",
+      "starter": "Do",
+      "answer": "Do not follow the signs alone; stick with the guide because the path changes after the bridge.",
+      "answerZh": "不要只依照指示牌;要跟着導遊,因為過橋後路線會改變。",
+      "highlight": "stick",
+      "targetForm": "stick with somebody",
+      "targetMeaningZh": "留在某人身邊;跟着某人"
+    },
+    {
+      "id": "phrasal-verb-288-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The message was meant to be secret, but the huge red word “PRIVATE” made it completely obvious.",
+      "promptZh": "這則訊息本應保密,但巨大的紅色「私人」二字令它非常顯眼。",
+      "starter": "The",
+      "answer": "The message was meant to be secret, but the huge red word “PRIVATE” made it stick out a mile.",
+      "answerZh": "這則訊息本應保密,但巨大的紅色「私人」二字令它非常顯眼。",
+      "highlight": "stick out a mile",
+      "targetForm": "stick out a mile",
+      "targetMeaningZh": "非常顯眼;一眼便看得出"
+    },
+    {
+      "id": "phrasal-verb-288-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The bread needs another two minutes, so place it in the toaster again.",
+      "promptZh": "麵包還需要多烘兩分鐘,所以把它放回多士爐。",
+      "starter": "The",
+      "answer": "The bread needs another two minutes, so stick it back in the toaster.",
+      "answerZh": "麵包還需要多烘兩分鐘,所以把它放回多士爐。",
+      "highlight": "stick",
+      "targetForm": "stick something back",
+      "targetMeaningZh": "把某物放回原處"
+    },
+    {
+      "id": "phrasal-verb-288-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The pieces must be joined to form one model, not attached separately to the wall.",
+      "promptZh": "這些部分必須黏合成一個模型,而不是分開黏在牆上。",
+      "starter": "The",
+      "answer": "The pieces must be stuck together to form one model, not attached separately to the wall.",
+      "answerZh": "這些部分必須黏合成一個模型,而不是分開黏在牆上。",
+      "highlight": "stuck together",
+      "targetForm": "stick something together",
+      "targetMeaningZh": "把不同部分黏合在一起"
+    },
+    {
+      "id": "phrasal-verb-288-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Do not attach the receipt to the wallet; put it inside the small pocket.",
+      "promptZh": "不要把收據黏在銀包上;把它放進小袋格內。",
+      "starter": "Do",
+      "answer": "Do not attach the receipt to the wallet; stick it in the small pocket.",
+      "answerZh": "不要把收據黏在銀包上;把它放進小袋格內。",
+      "highlight": "stick",
+      "targetForm": "stick something in/into something",
+      "targetMeaningZh": "把某物放入或插入另一物件"
+    },
+    {
+      "id": "phrasal-verb-288-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The group discussed several ideas but finally followed the original plan.",
+      "promptZh": "小組討論了幾個構思,但最後仍依照原來的計劃。",
+      "starter": "The",
+      "answer": "The group discussed several ideas but finally stuck to the original plan.",
+      "answerZh": "小組討論了幾個構思,但最後仍依照原來的計劃。",
+      "highlight": "stuck to",
+      "targetForm": "stick to something",
+      "targetMeaningZh": "堅持或遵守某事物"
+    },
+    {
+      "id": "phrasal-verb-288-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The siblings live in different cities, but they remain united whenever one of them needs help.",
+      "promptZh": "這些兄弟姊妹住在不同城市,但每當其中一人需要幫助時,他們都會團結一致。",
+      "starter": "The",
+      "answer": "The siblings live in different cities, but they stick together whenever one of them needs help.",
+      "answerZh": "這些兄弟姊妹住在不同城市,但每當其中一人需要幫助時,他們都會團結一致。",
+      "highlight": "stick together",
+      "targetForm": "stick together",
+      "targetMeaningZh": "團結一致;互相支持"
+    },
+    {
+      "id": "phrasal-verb-288-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The pin was not passing through the board; it had become fixed inside the wood.",
+      "promptZh": "大頭針並非穿過木板;它卡在木頭裏。",
+      "starter": "The",
+      "answer": "The pin was not passing through the board; it had stuck in the wood.",
+      "answerZh": "大頭針並非穿過木板;它卡在木頭裏。",
+      "highlight": "stuck in",
+      "targetForm": "stick in something",
+      "targetMeaningZh": "卡在或插在某物之中"
+    },
+    {
+      "id": "phrasal-verb-288-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Most people left when the project failed, but Arun continued to support the director and helped her begin again.",
+      "promptZh": "項目失敗後,大多數人都離開了,但阿倫仍支持導演,並幫助她重新開始。",
+      "starter": "Most",
+      "answer": "Most people left when the project failed, but Arun stuck by the director and helped her begin again.",
+      "answerZh": "項目失敗後,大多數人都離開了,但阿倫仍支持導演,並幫助她重新開始。",
+      "highlight": "stuck by",
+      "targetForm": "stick by somebody",
+      "targetMeaningZh": "在困難時仍忠於或支持某人"
+    },
+    {
+      "id": "phrasal-verb-288-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The room was too noisy for voices to carry, so the leader asked anyone needing help to raise both hands.",
+      "promptZh": "房間太嘈吵,大家聽不清楚說話,所以領隊請需要幫助的人舉起雙手。",
+      "starter": "The",
+      "answer": "The room was too noisy for voices to carry, so the leader asked anyone needing help to stick both hands up.",
+      "answerZh": "房間太嘈吵,大家聽不清楚說話,所以領隊請需要幫助的人舉起雙手。",
+      "highlight": "stick",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "舉起或豎起某物"
+    },
+    {
+      "id": "phrasal-verb-288-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Noah found the new dance steps difficult, but he continued practising them every evening until he could perform the whole routine.",
+      "promptZh": "諾亞覺得新的舞步很難,但他每晚仍堅持練習,直至能完成整套舞步。",
+      "starter": "Noah",
+      "answer": "Noah found the new dance steps difficult, but he stuck at them every evening until he could perform the whole routine.",
+      "answerZh": "諾亞覺得新的舞步很難,但他每晚仍堅持練習,直至能完成整套舞步。",
+      "highlight": "stuck at",
+      "targetForm": "stick at something",
+      "targetMeaningZh": "堅持做某事,不因困難而放棄"
+    },
+    {
+      "id": "phrasal-verb-288-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The museum ticket is small, so put it into the inside pocket where it will not fall out.",
+      "promptZh": "博物館門票很小,所以把它放進內袋,以免掉出來。",
+      "starter": "The",
+      "answer": "The museum ticket is small, so stick it into the inside pocket where it will not fall out.",
+      "answerZh": "博物館門票很小,所以把它放進內袋,以免掉出來。",
+      "highlight": "stick",
+      "targetForm": "stick something in/into something",
+      "targetMeaningZh": "把某物放入或插入另一物件"
+    },
+    {
+      "id": "phrasal-verb-288-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The hall was difficult to find, so the volunteers displayed large arrows along the corridor before the guests arrived.",
+      "promptZh": "禮堂很難找到,所以義工在客人到達前,沿走廊張貼了大型箭嘴標誌。",
+      "starter": "The",
+      "answer": "The hall was difficult to find, so the volunteers stuck large arrows up along the corridor before the guests arrived.",
+      "answerZh": "禮堂很難找到,所以義工在客人到達前,沿走廊張貼了大型箭嘴標誌。",
+      "highlight": "stuck",
+      "targetForm": "stick something up",
+      "targetMeaningZh": "把海報、告示等張貼起來"
+    },
+    {
+      "id": "phrasal-verb-288-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We have finished setting the table, so switch on the coffee machine while I bring the cakes from the kitchen.",
+      "promptZh": "我們已擺好餐桌,所以請開咖啡機,我去廚房拿蛋糕。",
+      "starter": "We",
+      "answer": "We have finished setting the table, so stick the coffee machine on while I bring the cakes from the kitchen.",
+      "answerZh": "我們已擺好餐桌,所以請開咖啡機,我去廚房拿蛋糕。",
+      "highlight": "stick",
+      "targetForm": "stick something on",
+      "targetMeaningZh": "開啟電器;把水煲等開動"
+    },
+    {
+      "id": "phrasal-verb-288-q111",
+      "number": 111,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The class considered changing books, but the current one was clear and useful, so everyone agreed to continue with it.",
+      "promptZh": "全班考慮過更換課本,但現有課本清楚實用,所以大家同意繼續使用。",
+      "starter": "The",
+      "answer": "The class considered changing books, but the current one was clear and useful, so everyone agreed to stick with it.",
+      "answerZh": "全班考慮過更換課本,但現有課本清楚實用,所以大家同意繼續使用。",
+      "highlight": "stick",
+      "targetForm": "stick with something",
+      "targetMeaningZh": "繼續採用或做某事"
+    },
+    {
+      "id": "phrasal-verb-288-q112",
+      "number": 112,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "You do not need to file the note yet; just put it on my keyboard so that I see it first thing tomorrow.",
+      "promptZh": "你暫時不用把字條歸檔;只需把它放在我的鍵盤上,讓我明早首先看見。",
+      "starter": "You",
+      "answer": "You do not need to file the note yet; just stick it on my keyboard so that I see it first thing tomorrow.",
+      "answerZh": "你暫時不用把字條歸檔;只需把它放在我的鍵盤上,讓我明早首先看見。",
+      "highlight": "stick",
+      "targetForm": "stick something on something",
+      "targetMeaningZh": "把某物放在某處"
+    },
+    {
+      "id": "phrasal-verb-288-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The model bridge had broken into six pieces, but the students carefully joined them again before the exhibition.",
+      "promptZh": "模型橋斷成六部分,但學生在展覽前小心地把它們重新黏合。",
+      "starter": "The",
+      "answer": "The model bridge had broken into six pieces, but the students carefully stuck them together again before the exhibition.",
+      "answerZh": "模型橋斷成六部分,但學生在展覽前小心地把它們重新黏合。",
+      "highlight": "stuck",
+      "targetForm": "stick something together",
+      "targetMeaningZh": "把不同部分黏合在一起"
+    },
+    {
+      "id": "phrasal-verb-288-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The cupboard door would not close because the handle of a large pan projected beyond the edge of the shelf.",
+      "promptZh": "櫃門無法關上,因為一個大平底鍋的把手從層架邊緣突出來。",
+      "starter": "The",
+      "answer": "The cupboard door would not close because the handle of a large pan stuck out beyond the edge of the shelf.",
+      "answerZh": "櫃門無法關上,因為一個大平底鍋的把手從層架邊緣突出來。",
+      "highlight": "stuck out",
+      "targetForm": "stick out / stick out of something",
+      "targetMeaningZh": "向外突出"
+    },
+    {
+      "id": "phrasal-verb-288-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although the discussion became lively, the chairperson followed the agreed list of topics and ended the meeting on time.",
+      "promptZh": "雖然討論變得熱烈,主席仍依照已同意的議題清單,並準時結束會議。",
+      "starter": "Although",
+      "answer": "Although the discussion became lively, the chairperson stuck to the agreed list of topics and ended the meeting on time.",
+      "answerZh": "雖然討論變得熱烈,主席仍依照已同意的議題清單,並準時結束會議。",
+      "highlight": "stuck to",
+      "targetForm": "stick to something",
+      "targetMeaningZh": "堅持或遵守某事物"
+    },
+    {
+      "id": "phrasal-verb-288-q116",
+      "number": 116,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The hikers were tired and frightened, but they remained united and made sure nobody walked alone.",
+      "promptZh": "遠足者又累又害怕,但他們仍團結一致,並確保沒有人獨自行走。",
+      "starter": "The",
+      "answer": "The hikers were tired and frightened, but they stuck together and made sure nobody walked alone.",
+      "answerZh": "遠足者又累又害怕,但他們仍團結一致,並確保沒有人獨自行走。",
+      "highlight": "stuck together",
+      "targetForm": "stick together",
+      "targetMeaningZh": "團結一致;互相支持"
+    },
+    {
+      "id": "phrasal-verb-288-q117",
+      "number": 117,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "According to the old newspaper report, two men threatened the night guard and robbed the warehouse before escaping in a car.",
+      "promptZh": "根據舊報章報道,兩名男子威脅夜更保安員並行劫貨倉,之後乘車逃走。",
+      "starter": "According",
+      "answer": "According to the old newspaper report, two men stuck up the warehouse after threatening the night guard, then escaped in a car.",
+      "answerZh": "根據舊報章報道,兩名男子威脅夜更保安員後行劫貨倉,然後乘車逃走。",
+      "highlight": "stuck up the warehouse after threatening",
+      "targetForm": "stick somebody/something up",
+      "targetMeaningZh": "持械威脅並行劫某人或某處"
+    },
+    {
+      "id": "phrasal-verb-288-q118",
+      "number": 118,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The wind kept lifting the corners of the picnic sheet, so we fixed them firmly with wide tape before placing the food on it.",
+      "promptZh": "風吹起野餐墊的四角,所以我們在擺放食物前,用闊膠紙把它們黏牢。",
+      "starter": "The",
+      "answer": "The wind kept lifting the corners of the picnic sheet, so we stuck them down with wide tape before placing the food on it.",
+      "answerZh": "風吹起野餐墊的四角,所以我們在擺放食物前,用闊膠紙把它們黏牢。",
+      "highlight": "stuck",
+      "targetForm": "stick something down",
+      "targetMeaningZh": "把某物黏牢在表面上"
+    },
+    {
+      "id": "phrasal-verb-288-q119",
+      "number": 119,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The company offered an extra day of leave, but the staff refused to settle and continued to demand two days.",
+      "promptZh": "公司提出多給一天假期,但員工拒絕接受,並堅持要求兩天。",
+      "starter": "The",
+      "answer": "The company offered an extra day of leave, but the staff refused to settle and stuck out for two days.",
+      "answerZh": "公司提出多給一天假期,但員工拒絕接受,並堅持要求兩天。",
+      "highlight": "stuck out for",
+      "targetForm": "stick out for something",
+      "targetMeaningZh": "堅持要求某事物,不肯接受較少"
+    },
+    {
+      "id": "phrasal-verb-288-q120",
+      "number": 120,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Everyone at the formal dinner wore black or navy, so Dan’s bright pink sports clothes made him impossible to miss.",
+      "promptZh": "正式晚宴上人人都穿黑色或深藍色服裝,因此丹的鮮粉紅色運動服令他非常顯眼。",
+      "starter": "Everyone",
+      "answer": "Everyone at the formal dinner wore black or navy, so Dan’s bright pink sports clothes made him stick out a mile.",
+      "answerZh": "正式晚宴上人人都穿黑色或深藍色服裝,因此丹的鮮粉紅色運動服令他非常顯眼。",
+      "highlight": "stick out a mile",
+      "targetForm": "stick out a mile",
+      "targetMeaningZh": "非常顯眼;一眼便看得出"
+    },
+    {
+      "id": "phrasal-verb-288-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The chicken is not fully cooked. Put it in the oven again and check it after another ten minutes.",
+      "promptZh": "雞肉尚未完全煮熟。把它放回焗爐,再過十分鐘檢查。",
+      "starter": "The",
+      "answer": "The chicken is not fully cooked. Stick it back in the oven and check it after another ten minutes.",
+      "answerZh": "雞肉尚未完全煮熟。把它放回焗爐,再過十分鐘檢查。",
+      "highlight": "Stick",
+      "targetForm": "stick something back",
+      "targetMeaningZh": "把某物放回原處"
+    },
+    {
+      "id": "phrasal-verb-288-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The station has several exits, so remain with me until we reach the platform for the airport train.",
+      "promptZh": "車站有多個出口,所以請跟着我,直至我們到達機場列車的月台。",
+      "starter": "The",
+      "answer": "The station has several exits, so stick with me until we reach the platform for the airport train.",
+      "answerZh": "車站有多個出口,所以請跟着我,直至我們到達機場列車的月台。",
+      "highlight": "stick",
+      "targetForm": "stick with somebody",
+      "targetMeaningZh": "留在某人身邊;跟着某人"
+    },
+    {
+      "id": "phrasal-verb-288-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "As we crossed the field, we saw the top of an old sign pointing upwards above the long grass.",
+      "promptZh": "我們走過田野時,看見一塊舊路牌的頂部在長草上方向上突出。",
+      "starter": "As",
+      "answer": "As we crossed the field, we saw the top of an old sign sticking up above the long grass.",
+      "answerZh": "我們走過田野時,看見一塊舊路牌的頂部在長草上方向上突出。",
+      "highlight": "sticking up",
+      "targetForm": "stick up",
+      "targetMeaningZh": "向上突出"
+    },
+    {
+      "id": "phrasal-verb-288-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The ball became soft during the match because a tiny thorn had become fixed in its side.",
+      "promptZh": "皮球在比賽期間變軟,因為一根小刺卡在球的側面。",
+      "starter": "The",
+      "answer": "The ball became soft during the match because a tiny thorn had stuck in its side.",
+      "answerZh": "皮球在比賽期間變軟,因為一根小刺卡在球的側面。",
+      "highlight": "stuck",
+      "targetForm": "stick in something",
+      "targetMeaningZh": "卡在或插在某物之中"
+    },
+    {
+      "id": "phrasal-verb-288-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "When the group blamed a quiet student unfairly, Sofia defended him and explained what had really happened.",
+      "promptZh": "小組不公平地責怪一名沉默的學生時,索菲亞為他辯護,並解釋事情的真相。",
+      "starter": "When",
+      "answer": "When the group blamed a quiet student unfairly, Sofia stuck up for him and explained what had really happened.",
+      "answerZh": "小組不公平地責怪一名沉默的學生時,索菲亞為他辯護,並解釋事情的真相。",
+      "highlight": "stuck up for",
+      "targetForm": "stick up for somebody/yourself/something",
+      "targetMeaningZh": "為某人、自己或某事辯護"
+    },
+    {
+      "id": "phrasal-verb-288-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The website used the same pale colours everywhere except for one bright red button, which was immediately noticeable.",
+      "promptZh": "網站各處都使用相同的淺色,只有一個鮮紅色按鈕,令人立即注意到。",
+      "starter": "The",
+      "answer": "The website used the same pale colours everywhere except for one bright red button, which immediately stuck out.",
+      "answerZh": "網站各處都使用相同的淺色,只有一個鮮紅色按鈕,令人立即注意到。",
+      "highlight": "stuck out",
+      "targetForm": "stick out",
+      "targetMeaningZh": "顯眼;突出"
+    },
+    {
+      "id": "phrasal-verb-288-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Before sitting down, check the chair carefully because a broken piece of metal may be coming through the cushion.",
+      "promptZh": "坐下前要仔細檢查椅子,因為可能有一塊斷裂的金屬穿過坐墊突出來。",
+      "starter": "Before",
+      "answer": "Before sitting down, check the chair carefully because a broken piece of metal may be sticking through the cushion.",
+      "answerZh": "坐下前要仔細檢查椅子,因為可能有一塊斷裂的金屬穿過坐墊突出來。",
+      "highlight": "sticking",
+      "targetForm": "stick through / stick through something",
+      "targetMeaningZh": "穿過某物並突出來"
+    },
+    {
+      "id": "phrasal-verb-288-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The sign kept falling from the glass door, so Ravi cleaned the surface and attached it again with stronger tape.",
+      "promptZh": "告示不斷從玻璃門掉下來,所以拉維清潔表面後,用較強的膠紙再次把它黏上。",
+      "starter": "The",
+      "answer": "The sign kept falling from the glass door, so Ravi cleaned the surface and stuck it on again with stronger tape.",
+      "answerZh": "告示不斷從玻璃門掉下來,所以拉維清潔表面後,用較強的膠紙再次把它黏上。",
+      "highlight": "stuck",
+      "targetForm": "stick something on/onto something",
+      "targetMeaningZh": "把某物黏在另一物件上"
+    },
+    {
+      "id": "phrasal-verb-288-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although the rain had stopped, Ella extended her hand beyond the shelter to check whether drops were still falling.",
+      "promptZh": "雖然雨已停,埃拉仍把手伸出上蓋外,看看是否仍有雨點落下。",
+      "starter": "Although",
+      "answer": "Although the rain had stopped, Ella stuck her hand out beyond the shelter to check whether drops were still falling.",
+      "answerZh": "雖然雨已停,埃拉仍把手伸出上蓋外,看看是否仍有雨點落下。",
+      "highlight": "stuck",
+      "targetForm": "stick something out / out of something",
+      "targetMeaningZh": "把身體部分或物件伸出"
+    },
+    {
+      "id": "phrasal-verb-288-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The repair may take another hour. You may leave, but anyone who remains nearby can help us test the machine afterwards.",
+      "promptZh": "維修可能還需要一小時。你可以離開,但留下來的人之後可以幫我們測試機器。",
+      "starter": "The",
+      "answer": "The repair may take another hour. You may leave, but anyone who sticks around can help us test the machine afterwards.",
+      "answerZh": "維修可能還需要一小時。你可以離開,但留下來的人之後可以幫我們測試機器。",
+      "highlight": "sticks around",
+      "targetForm": "stick around",
+      "targetMeaningZh": "留下來;留在附近"
+    }
+  ]
+}

@@ -1,0 +1,1686 @@
+{
+  "id": "phrasal-verb-277",
+  "order": 277,
+  "slug": "rub",
+  "version": "1",
+  "title": "RUB 動詞片語",
+  "titleEn": "Rub",
+  "titleZh": "RUB 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 262 - RUB.pdf",
+    "sourceNumber": 262,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 RUB 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to RUB."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "RUB",
+      "highlight": "RUB"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The cat rubbed up against my legs.",
+      "zh": "那隻貓貼着我的雙腿磨擦。",
+      "highlight": "rubbed up against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "After the swim, Leo rubbed himself down with a towel.",
+      "zh": "游泳後,里奧用毛巾把自己全身擦乾。",
+      "highlight": "rubbed himself down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Rub the door down before you paint it.",
+      "zh": "上漆前,先把門的表面磨平。",
+      "highlight": "Rub the door down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "身體或物件貼着某人或某物移動或磨擦；用毛巾或布把某人、動物或自己擦乾或擦拭乾淨；把牆壁、木材等表面磨平或擦淨,通常為上漆作準備；把乳霜、藥膏、油等揉擦進皮膚；某人的性格、習慣、情緒或態度感染另一個人；把污漬、墨水、泥或其他物質擦掉；擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+    "en": "rub against somebody/something rub up against somebody/something; rub somebody/something down rub yourself down; rub something down; rub something in rub something into something; rub off on/onto somebody; rub off rub something off rub something off something; rub something out",
+    "naturalZh": [
+      "身體或物件貼着某人或某物移動或磨擦",
+      "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+      "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+      "把乳霜、藥膏、油等揉擦進皮膚",
+      "某人的性格、習慣、情緒或態度感染另一個人",
+      "把污漬、墨水、泥或其他物質擦掉",
+      "擦掉用鉛筆寫下或畫出的字、線條或圖畫"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "rub against somebody/something rub up against somebody/something",
+      "titleZh": "身體或物件貼着某人或某物移動或磨擦",
+      "titleEn": "rub against somebody/something rub up against somebody/something",
+      "descriptionZh": "身體或物件貼着某人或某物移動或磨擦",
+      "descriptionEn": "The cat rubbed up against my legs.",
+      "examples": [
+        {
+          "en": "The cat rubbed up against my legs.",
+          "zh": "那隻貓貼着我的雙腿磨擦。",
+          "highlight": "rubbed up against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rub somebody/something down rub yourself down",
+      "titleZh": "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+      "titleEn": "rub somebody/something down rub yourself down",
+      "descriptionZh": "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+      "descriptionEn": "After the swim, Leo rubbed himself down with a towel.",
+      "examples": [
+        {
+          "en": "After the swim, Leo rubbed himself down with a towel.",
+          "zh": "游泳後,里奧用毛巾把自己全身擦乾。",
+          "highlight": "rubbed himself down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rub something down",
+      "titleZh": "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+      "titleEn": "rub something down",
+      "descriptionZh": "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+      "descriptionEn": "Rub the door down before you paint it.",
+      "examples": [
+        {
+          "en": "Rub the door down before you paint it.",
+          "zh": "上漆前,先把門的表面磨平。",
+          "highlight": "Rub the door down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rub something in rub something into something",
+      "titleZh": "把乳霜、藥膏、油等揉擦進皮膚",
+      "titleEn": "rub something in rub something into something",
+      "descriptionZh": "把乳霜、藥膏、油等揉擦進皮膚",
+      "descriptionEn": "Rub the cream into your skin gently.",
+      "examples": [
+        {
+          "en": "Rub the cream into your skin gently.",
+          "zh": "把乳霜輕輕揉擦進皮膚。",
+          "highlight": "Rub the cream into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rub off on/onto somebody",
+      "titleZh": "某人的性格、習慣、情緒或態度感染另一個人",
+      "titleEn": "rub off on/onto somebody",
+      "descriptionZh": "某人的性格、習慣、情緒或態度感染另一個人",
+      "descriptionEn": "Her confidence rubbed off on the whole team.",
+      "examples": [
+        {
+          "en": "Her confidence rubbed off on the whole team.",
+          "zh": "她的自信感染了整支隊伍。",
+          "highlight": "rubbed off on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "rub off rub something off rub something off something",
+      "titleZh": "把污漬、墨水、泥或其他物質擦掉",
+      "titleEn": "rub off rub something off rub something off something",
+      "descriptionZh": "把污漬、墨水、泥或其他物質擦掉",
+      "descriptionEn": "The ink mark will not rub off.",
+      "examples": [
+        {
+          "en": "The ink mark will not rub off.",
+          "zh": "那道墨水痕擦不掉。",
+          "highlight": "rub off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "rub something out",
+      "titleZh": "擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+      "titleEn": "rub something out",
+      "descriptionZh": "擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+      "descriptionEn": "Rub the pencil line out before you add colour.",
+      "examples": [
+        {
+          "en": "Rub the pencil line out before you add colour.",
+          "zh": "上色前,先把鉛筆線擦掉。",
+          "highlight": "Rub the pencil line out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "RUB 片語動詞的實際用途",
+    "labelEn": "RUB Phrasal Verbs in Use",
+    "summaryZh": "rub against 和 rub up against 可以描述貓貼着人的雙腿磨擦、袋子不斷擦着身體,或兩件物件反覆接觸。；rub down 可以表示用毛巾把人或動物擦乾,也可以表示在上漆前磨平牆壁、門或傢俬的表面。；rub in 和 rub into 可以表示塗抹乳霜或油;rub off 和 rub out 則可以表示清除污漬或鉛筆字。；rub off on 可以表示某人的自信、興奮情緒、好習慣或壞習慣開始影響其他人。",
+    "summaryEn": "Rub against and rub up against can describe a cat touching someone’s legs, a bag moving against your body or two objects touching repeatedly. Rub down can describe drying a person or animal with a towel. It can also describe preparing a wall, door or piece of furniture for painting. Rub in and rub into describe applying cream or oil. Rub off and rub out describe removing marks, dirt or pencil writing. Rub off on can show that one person’s confidence, excitement, good habits or bad habits begin to affect other people.",
+    "contextsZh": [
+      "清楚描述接觸和磨擦",
+      "談論擦乾身體和處理表面",
+      "描述塗抹和清除物質",
+      "解釋人與人之間的影響"
+    ],
+    "contextsEn": [
+      "Describe contact and movement clearly",
+      "Talk about drying bodies and preparing surfaces",
+      "Describe putting substances on and removing them",
+      "Explain how people influence one another"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 RUB 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the RUB expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "rub against somebody/something rub up against somebody/something",
+    "fixedHighlight": "rub against somebody/something rub up against somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 RUB 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the RUB expression that gives the same meaning.",
+    "correct": "rubbed up against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；rub down 和 rub off 各自可以表達不同意思。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: rub him down rub it down rub it in rub it off rub it out Rub down and rub off can each express different ideas. Read the full situation carefully: rub the dog down rub the wall down her confidence rubbed off on me the ink rubbed off",
+    "variableItemsZh": [
+      "rub against somebody/something rub up against somebody/something",
+      "rub somebody/something down rub yourself down",
+      "rub something down",
+      "rub something in rub something into something",
+      "rub off on/onto somebody",
+      "rub off rub something off rub something off something",
+      "rub something out"
+    ],
+    "variableItemsEn": [
+      "rub against somebody/something rub up against somebody/something",
+      "rub somebody/something down rub yourself down",
+      "rub something down",
+      "rub something in rub something into something",
+      "rub off on/onto somebody",
+      "rub off rub something off rub something off something",
+      "rub something out"
+    ],
+    "forms": [
+      {
+        "formZh": "身體或物件貼着某人或某物移動或磨擦",
+        "formEn": "rub against somebody/something rub up against somebody/something",
+        "exampleZh": "那隻貓貼着我的雙腿磨擦。",
+        "exampleEn": "The cat rubbed up against my legs.",
+        "highlight": "rubbed up against"
+      },
+      {
+        "formZh": "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+        "formEn": "rub somebody/something down rub yourself down",
+        "exampleZh": "游泳後,里奧用毛巾把自己全身擦乾。",
+        "exampleEn": "After the swim, Leo rubbed himself down with a towel.",
+        "highlight": "rubbed himself down"
+      },
+      {
+        "formZh": "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+        "formEn": "rub something down",
+        "exampleZh": "上漆前,先把門的表面磨平。",
+        "exampleEn": "Rub the door down before you paint it.",
+        "highlight": "Rub the door down"
+      },
+      {
+        "formZh": "把乳霜、藥膏、油等揉擦進皮膚",
+        "formEn": "rub something in rub something into something",
+        "exampleZh": "把乳霜輕輕揉擦進皮膚。",
+        "exampleEn": "Rub the cream into your skin gently.",
+        "highlight": "Rub the cream into"
+      },
+      {
+        "formZh": "某人的性格、習慣、情緒或態度感染另一個人",
+        "formEn": "rub off on/onto somebody",
+        "exampleZh": "她的自信感染了整支隊伍。",
+        "exampleEn": "Her confidence rubbed off on the whole team.",
+        "highlight": "rubbed off on"
+      },
+      {
+        "formZh": "把污漬、墨水、泥或其他物質擦掉",
+        "formEn": "rub off rub something off rub something off something",
+        "exampleZh": "那道墨水痕擦不掉。",
+        "exampleEn": "The ink mark will not rub off.",
+        "highlight": "rub off"
+      },
+      {
+        "formZh": "擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+        "formEn": "rub something out",
+        "exampleZh": "上色前,先把鉛筆線擦掉。",
+        "exampleEn": "Rub the pencil line out before you add colour.",
+        "highlight": "Rub the pencil line out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "身體或物件貼着某人或某物移動或磨擦",
+      "titleEn": "rub against somebody/something rub up against somebody/something",
+      "formula": "rub against somebody/something rub up against somebody/something",
+      "highlight": "rub against somebody/something rub up against somebody/something",
+      "descriptionZh": "身體或物件貼着某人或某物移動或磨擦",
+      "descriptionEn": "The cat rubbed up against my legs.",
+      "examples": [
+        {
+          "en": "The cat rubbed up against my legs.",
+          "zh": "那隻貓貼着我的雙腿磨擦。",
+          "highlight": "rubbed up against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+      "titleEn": "rub somebody/something down rub yourself down",
+      "formula": "rub somebody/something down rub yourself down",
+      "highlight": "rub somebody/something down rub yourself down",
+      "descriptionZh": "用毛巾或布把某人、動物或自己擦乾或擦拭乾淨",
+      "descriptionEn": "After the swim, Leo rubbed himself down with a towel.",
+      "examples": [
+        {
+          "en": "After the swim, Leo rubbed himself down with a towel.",
+          "zh": "游泳後,里奧用毛巾把自己全身擦乾。",
+          "highlight": "rubbed himself down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+      "titleEn": "rub something down",
+      "formula": "rub something down",
+      "highlight": "rub something down",
+      "descriptionZh": "把牆壁、木材等表面磨平或擦淨,通常為上漆作準備",
+      "descriptionEn": "Rub the door down before you paint it.",
+      "examples": [
+        {
+          "en": "Rub the door down before you paint it.",
+          "zh": "上漆前,先把門的表面磨平。",
+          "highlight": "Rub the door down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把乳霜、藥膏、油等揉擦進皮膚",
+      "titleEn": "rub something in rub something into something",
+      "formula": "rub something in rub something into something",
+      "highlight": "rub something in rub something into something",
+      "descriptionZh": "把乳霜、藥膏、油等揉擦進皮膚",
+      "descriptionEn": "Rub the cream into your skin gently.",
+      "examples": [
+        {
+          "en": "Rub the cream into your skin gently.",
+          "zh": "把乳霜輕輕揉擦進皮膚。",
+          "highlight": "Rub the cream into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "某人的性格、習慣、情緒或態度感染另一個人",
+      "titleEn": "rub off on/onto somebody",
+      "formula": "rub off on/onto somebody",
+      "highlight": "rub off on/onto somebody",
+      "descriptionZh": "某人的性格、習慣、情緒或態度感染另一個人",
+      "descriptionEn": "Her confidence rubbed off on the whole team.",
+      "examples": [
+        {
+          "en": "Her confidence rubbed off on the whole team.",
+          "zh": "她的自信感染了整支隊伍。",
+          "highlight": "rubbed off on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把污漬、墨水、泥或其他物質擦掉",
+      "titleEn": "rub off rub something off rub something off something",
+      "formula": "rub off rub something off rub something off something",
+      "highlight": "rub off rub something off rub something off something",
+      "descriptionZh": "把污漬、墨水、泥或其他物質擦掉",
+      "descriptionEn": "The ink mark will not rub off.",
+      "examples": [
+        {
+          "en": "The ink mark will not rub off.",
+          "zh": "那道墨水痕擦不掉。",
+          "highlight": "rub off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+      "titleEn": "rub something out",
+      "formula": "rub something out",
+      "highlight": "rub something out",
+      "descriptionZh": "擦掉用鉛筆寫下或畫出的字、線條或圖畫",
+      "descriptionEn": "Rub the pencil line out before you add colour.",
+      "examples": [
+        {
+          "en": "Rub the pencil line out before you add colour.",
+          "zh": "上色前,先把鉛筆線擦掉。",
+          "highlight": "Rub the pencil line out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述接觸和磨擦",
+      "titleEn": "Describe contact and movement clearly",
+      "zh": "rub against 和 rub up against 可以描述貓貼着人的雙腿磨擦、袋子不斷擦着身體,或兩件物件反覆接觸。",
+      "en": "Rub against and rub up against can describe a cat touching someone’s legs, a bag moving against your body or two objects touching repeatedly."
+    },
+    {
+      "titleZh": "談論擦乾身體和處理表面",
+      "titleEn": "Talk about drying bodies and preparing surfaces",
+      "zh": "rub down 可以表示用毛巾把人或動物擦乾,也可以表示在上漆前磨平牆壁、門或傢俬的表面。",
+      "en": "Rub down can describe drying a person or animal with a towel. It can also describe preparing a wall, door or piece of furniture for painting."
+    },
+    {
+      "titleZh": "描述塗抹和清除物質",
+      "titleEn": "Describe putting substances on and removing them",
+      "zh": "rub in 和 rub into 可以表示塗抹乳霜或油;rub off 和 rub out 則可以表示清除污漬或鉛筆字。",
+      "en": "Rub in and rub into describe applying cream or oil. Rub off and rub out describe removing marks, dirt or pencil writing."
+    },
+    {
+      "titleZh": "解釋人與人之間的影響",
+      "titleEn": "Explain how people influence one another",
+      "zh": "rub off on 可以表示某人的自信、興奮情緒、好習慣或壞習慣開始影響其他人。",
+      "en": "Rub off on can show that one person’s confidence, excitement, good habits or bad habits begin to affect other people."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述接觸和磨擦",
+      "談論擦乾身體和處理表面",
+      "描述塗抹和清除物質",
+      "解釋人與人之間的影響"
+    ],
+    "contextsEn": [
+      "Describe contact and movement clearly",
+      "Talk about drying bodies and preparing surfaces",
+      "Describe putting substances on and removing them",
+      "Explain how people influence one another"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述接觸和磨擦",
+        "titleEn": "Describe contact and movement clearly",
+        "zh": "rub against 和 rub up against 可以描述貓貼着人的雙腿磨擦、袋子不斷擦着身體,或兩件物件反覆接觸。",
+        "en": "Rub against and rub up against can describe a cat touching someone’s legs, a bag moving against your body or two objects touching repeatedly.",
+        "examples": [
+          {
+            "en": "The cat rubbed up against my legs.",
+            "zh": "那隻貓貼着我的雙腿磨擦。",
+            "highlight": "rubbed up against"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論擦乾身體和處理表面",
+        "titleEn": "Talk about drying bodies and preparing surfaces",
+        "zh": "rub down 可以表示用毛巾把人或動物擦乾,也可以表示在上漆前磨平牆壁、門或傢俬的表面。",
+        "en": "Rub down can describe drying a person or animal with a towel. It can also describe preparing a wall, door or piece of furniture for painting.",
+        "examples": [
+          {
+            "en": "After the swim, Leo rubbed himself down with a towel.",
+            "zh": "游泳後,里奧用毛巾把自己全身擦乾。",
+            "highlight": "rubbed himself down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述塗抹和清除物質",
+        "titleEn": "Describe putting substances on and removing them",
+        "zh": "rub in 和 rub into 可以表示塗抹乳霜或油;rub off 和 rub out 則可以表示清除污漬或鉛筆字。",
+        "en": "Rub in and rub into describe applying cream or oil. Rub off and rub out describe removing marks, dirt or pencil writing.",
+        "examples": [
+          {
+            "en": "Rub the door down before you paint it.",
+            "zh": "上漆前,先把門的表面磨平。",
+            "highlight": "Rub the door down"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋人與人之間的影響",
+        "titleEn": "Explain how people influence one another",
+        "zh": "rub off on 可以表示某人的自信、興奮情緒、好習慣或壞習慣開始影響其他人。",
+        "en": "Rub off on can show that one person’s confidence, excitement, good habits or bad habits begin to affect other people.",
+        "examples": [
+          {
+            "en": "Rub the cream into your skin gently.",
+            "zh": "把乳霜輕輕揉擦進皮膚。",
+            "highlight": "Rub the cream into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 RUB 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the RUB expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 RUB 片語動詞。",
+      "en": "Read the whole sentence and choose the RUB expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: rub him down rub it down rub it in rub it off rub it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: rub him down rub it down rub it in rub it off rub it out"
+    },
+    {
+      "titleZh": "rub down 和 rub off 各自可以表達不同意思。請仔細閱讀整個情境。",
+      "titleEn": "Rub down and rub off can each express different ideas.",
+      "zh": "rub down 和 rub off 各自可以表達不同意思。請仔細閱讀整個情境。",
+      "en": "Rub down and rub off can each express different ideas. Read the full situation carefully: rub the dog down rub the wall down her confidence rubbed off on me the ink rubbed off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 RUB 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to RUB. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "RUB 動詞片語句子改寫練習",
+    "titleEn": "RUB Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 RUB 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to RUB. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-277-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The cat moved its body gently along Ava’s legs.",
+      "promptZh": "那隻貓把身體輕輕貼着艾娃的雙腿擦過。",
+      "starter": "The",
+      "answer": "The cat rubbed against Ava’s legs.",
+      "answerZh": "那隻貓貼着艾娃的雙腿磨擦。",
+      "highlight": "rubbed against",
+      "targetForm": "rub against somebody",
+      "targetMeaningZh": "貼着某人磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Omar’s calm mood made the rest of the team calmer too.",
+      "promptZh": "奧馬平靜的情緒也令隊內其他人變得較為平靜。",
+      "starter": "Omar’s",
+      "answer": "Omar’s calm mood rubbed off on the rest of the team.",
+      "answerZh": "奧馬平靜的情緒感染了隊內其他人。",
+      "highlight": "rubbed off on",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的情緒或特質感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Dad smoothed the old door carefully before painting it.",
+      "promptZh": "爸爸在舊門上漆前,仔細把它的表面磨平。",
+      "starter": "Dad",
+      "answer": "Dad rubbed the old door down carefully before painting it.",
+      "answerZh": "爸爸在舊門上漆前,仔細把它的表面磨平。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Lina erased the pencil line.",
+      "promptZh": "莉娜擦掉了那條鉛筆線。",
+      "starter": "Lina",
+      "answer": "Lina rubbed the pencil line out.",
+      "answerZh": "莉娜擦掉了那條鉛筆線。",
+      "highlight": "rubbed",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字或線條"
+    },
+    {
+      "id": "phrasal-verb-277-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After the swim, Ben dried his whole body thoroughly with a towel.",
+      "promptZh": "游泳後,賓用毛巾把自己全身徹底擦乾。",
+      "starter": "After",
+      "answer": "After the swim, Ben rubbed himself down thoroughly with a towel.",
+      "answerZh": "游泳後,賓用毛巾把自己全身徹底擦乾。",
+      "highlight": "rubbed himself down",
+      "targetForm": "rub yourself down",
+      "targetMeaningZh": "用毛巾把自己全身擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The ink on the whiteboard would not disappear when we tried to clean it with a cloth.",
+      "promptZh": "我們嘗試用布清潔白板,但上面的墨水仍然擦不掉。",
+      "starter": "The",
+      "answer": "The ink on the whiteboard would not rub off.",
+      "answerZh": "白板上的墨水擦不掉。",
+      "highlight": "rub off",
+      "targetForm": "rub off",
+      "targetMeaningZh": "被擦掉;擦得掉"
+    },
+    {
+      "id": "phrasal-verb-277-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Spread the cream well over the skin on your hands with your fingers.",
+      "promptZh": "用手指把乳霜均勻塗在雙手的皮膚上。",
+      "starter": "Rub",
+      "answer": "Rub the cream into the skin on your hands with your fingers.",
+      "answerZh": "用手指把乳霜揉擦進雙手的皮膚。",
+      "highlight": "Rub",
+      "targetForm": "rub something into something",
+      "targetMeaningZh": "把乳霜等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "My bag kept touching and moving against my side as I walked.",
+      "promptZh": "我走路時,袋子一直擦着我的身側。",
+      "starter": "My",
+      "answer": "My bag kept rubbing up against my side as I walked.",
+      "answerZh": "我走路時,袋子一直擦着我的身側。",
+      "highlight": "rubbing up",
+      "targetForm": "rub up against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The painter smoothed and cleaned the walls before adding the new colour.",
+      "promptZh": "油漆工人在髹上新顏色前,把牆壁磨平並清潔乾淨。",
+      "starter": "The",
+      "answer": "The painter rubbed the walls down before adding the new colour.",
+      "answerZh": "油漆工人在髹上新顏色前,把牆壁磨平並清潔乾淨。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Her love of reading made her younger brother interested in books too.",
+      "promptZh": "她對閱讀的熱愛也令弟弟開始對書本產生興趣。",
+      "starter": "Her",
+      "answer": "Her love of reading rubbed off on her younger brother.",
+      "answerZh": "她對閱讀的熱愛也感染了弟弟。",
+      "highlight": "rubbed off on",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的興趣或習慣感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The trainer dried and cleaned the horse with a cloth after the ride.",
+      "promptZh": "騎乘結束後,訓練員用布把馬擦乾並清潔乾淨。",
+      "starter": "The",
+      "answer": "The trainer rubbed the horse down with a cloth after the ride.",
+      "answerZh": "騎乘結束後,訓練員用布把馬擦乾並清潔乾淨。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "用布把動物擦乾或擦拭乾淨"
+    },
+    {
+      "id": "phrasal-verb-277-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Please erase your old answer.",
+      "promptZh": "請擦掉你的舊答案。",
+      "starter": "Please",
+      "answer": "Please rub your old answer out.",
+      "answerZh": "請擦掉你的舊答案。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字"
+    },
+    {
+      "id": "phrasal-verb-277-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Nina gently spread the lotion until it went into her skin.",
+      "promptZh": "妮娜輕輕塗抹乳液,直至乳液滲進皮膚。",
+      "starter": "Nina",
+      "answer": "Nina rubbed the lotion in gently.",
+      "answerZh": "妮娜輕輕把乳液揉擦進皮膚。",
+      "highlight": "rubbed",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把乳液等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Sam used a cloth to remove the mud from his shoes.",
+      "promptZh": "森用布清除鞋上的泥。",
+      "starter": "Sam",
+      "answer": "Sam rubbed the mud off his shoes with a cloth.",
+      "answerZh": "森用布擦掉了鞋上的泥。",
+      "highlight": "rubbed the mud off his shoes with",
+      "targetForm": "rub something off something",
+      "targetMeaningZh": "從某物表面擦掉污垢"
+    },
+    {
+      "id": "phrasal-verb-277-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "I easily removed the chalk mark with a cloth.",
+      "promptZh": "我用布輕易擦掉了粉筆痕。",
+      "starter": "I",
+      "answer": "I easily rubbed the chalk mark off with a cloth.",
+      "answerZh": "我用布輕易擦掉了粉筆痕。",
+      "highlight": "rubbed",
+      "targetForm": "rub something off",
+      "targetMeaningZh": "把污痕擦掉"
+    },
+    {
+      "id": "phrasal-verb-277-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ella is drying the dog thoroughly with a dry towel.",
+      "promptZh": "埃拉正在用乾毛巾把小狗徹底擦乾。",
+      "starter": "Ella",
+      "answer": "Ella is rubbing the dog down thoroughly with a dry towel.",
+      "answerZh": "埃拉正在用乾毛巾把小狗徹底擦乾。",
+      "highlight": "rubbing",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "用毛巾把動物擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "His excitement has made all of us feel excited too.",
+      "promptZh": "他的興奮情緒也令我們所有人感到興奮。",
+      "starter": "His",
+      "answer": "His excitement has rubbed off onto all of us.",
+      "answerZh": "他的興奮情緒已感染了我們所有人。",
+      "highlight": "rubbed off onto",
+      "targetForm": "rub off onto somebody",
+      "targetMeaningZh": "某人的情緒感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "A loose strap kept touching and moving against my neck.",
+      "promptZh": "一條鬆脫的帶子一直磨擦我的頸部。",
+      "starter": "A",
+      "answer": "A loose strap was rubbing against my neck.",
+      "answerZh": "一條鬆脫的帶子一直磨擦我的頸部。",
+      "highlight": "was rubbing",
+      "targetForm": "rub against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Why are you spreading the oil over the skin on your shoulder with your fingers?",
+      "promptZh": "你為甚麼正用手指把油塗在肩膀的皮膚上?",
+      "starter": "Why",
+      "answer": "Why are you rubbing the oil into the skin on your shoulder?",
+      "answerZh": "你為甚麼正把油揉擦進肩膀的皮膚?",
+      "highlight": "rubbing",
+      "targetForm": "rub something into something",
+      "targetMeaningZh": "把油等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I will erase the wrong date before I write the new one.",
+      "promptZh": "我會先擦掉錯誤的日期,然後寫上新日期。",
+      "starter": "I",
+      "answer": "I will rub the wrong date out before I write the new one.",
+      "answerZh": "我會先擦掉錯誤的日期,然後寫上新日期。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字"
+    },
+    {
+      "id": "phrasal-verb-277-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "We should smooth the table before we paint it.",
+      "promptZh": "我們應該在桌子上漆前把它的表面磨平。",
+      "starter": "We",
+      "answer": "We should rub the table down before we paint it.",
+      "answerZh": "我們應該在桌子上漆前把它的表面磨平。",
+      "highlight": "rub",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The teacher hopes the class will begin to copy her good habits.",
+      "promptZh": "老師希望全班開始學習她的好習慣。",
+      "starter": "The",
+      "answer": "The teacher hopes her good habits will rub off on the class.",
+      "answerZh": "老師希望自己的好習慣會感染全班。",
+      "highlight": "will rub off on the class",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的習慣感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why can’t this pen mark be removed with a cloth?",
+      "promptZh": "為甚麼這道筆痕不能用布擦掉?",
+      "starter": "Why",
+      "answer": "Why won’t this pen mark rub off?",
+      "answerZh": "為甚麼這道筆痕擦不掉?",
+      "highlight": "won’t",
+      "targetForm": "rub off",
+      "targetMeaningZh": "被擦掉;擦得掉"
+    },
+    {
+      "id": "phrasal-verb-277-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The puppy often presses its body gently along the sofa.",
+      "promptZh": "小狗經常把身體貼着梳化輕輕磨擦。",
+      "starter": "The",
+      "answer": "The puppy often rubs up against the sofa.",
+      "answerZh": "小狗經常貼着梳化磨擦。",
+      "highlight": "rubs up against",
+      "targetForm": "rub up against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The workers are smoothing the wooden shelves today before painting them.",
+      "promptZh": "工人今天正在把木架磨平,準備為它們上漆。",
+      "starter": "The",
+      "answer": "The workers are rubbing the wooden shelves down today before painting them.",
+      "answerZh": "工人今天正在把木架磨平,準備為它們上漆。",
+      "highlight": "rubbing",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do not forget to spread the sun cream well over your skin.",
+      "promptZh": "不要忘記把防曬霜均勻塗在皮膚上。",
+      "starter": "Do",
+      "answer": "Do not forget to rub the sun cream in.",
+      "answerZh": "不要忘記把防曬霜揉擦進皮膚。",
+      "highlight": "rub",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把乳霜等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "We had dried ourselves thoroughly with towels before putting on dry clothes.",
+      "promptZh": "我們穿上乾衣服前,已用毛巾把自己全身徹底擦乾。",
+      "starter": "We",
+      "answer": "We had rubbed ourselves down with towels before putting on dry clothes.",
+      "answerZh": "我們穿上乾衣服前,已用毛巾把自己全身擦乾。",
+      "highlight": "rubbed",
+      "targetForm": "rub yourself down",
+      "targetMeaningZh": "用毛巾把自己全身擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The child has erased the first drawing.",
+      "promptZh": "那個孩子已擦掉第一幅圖畫。",
+      "starter": "The",
+      "answer": "The child has rubbed the first drawing out.",
+      "answerZh": "那個孩子已擦掉第一幅圖畫。",
+      "highlight": "rubbed",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆圖畫"
+    },
+    {
+      "id": "phrasal-verb-277-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The lotion was still sitting on her skin, so she spread it well with her fingers.",
+      "promptZh": "乳液仍留在她的皮膚表面,所以她用手指把它塗開。",
+      "starter": "The",
+      "answer": "The lotion was still on her skin, so she rubbed it in with her fingers.",
+      "answerZh": "乳液仍留在她的皮膚表面,所以她用手指把它揉擦進皮膚。",
+      "highlight": "rubbed",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把乳液等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Before the chair was painted, Theo smoothed it carefully.",
+      "promptZh": "椅子上漆前,西奧仔細把它的表面磨平。",
+      "starter": "Before",
+      "answer": "Before the chair was painted, Theo rubbed it down carefully.",
+      "answerZh": "椅子上漆前,西奧仔細把它的表面磨平。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "While we waited in the narrow hall, my shoulder kept touching and moving against the wall.",
+      "promptZh": "我們在狹窄的大堂等候時,我的肩膀一直擦着牆壁。",
+      "starter": "While",
+      "answer": "While we waited in the narrow hall, my shoulder kept rubbing against the wall.",
+      "answerZh": "我們在狹窄的大堂等候時,我的肩膀一直擦着牆壁。",
+      "highlight": "rubbing",
+      "targetForm": "rub against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The paint was fresh, and Leo accidentally removed some of it from the sign with his sleeve.",
+      "promptZh": "油漆仍未乾,里奧的衣袖意外擦掉了標誌上的部分油漆。",
+      "starter": "The",
+      "answer": "The paint was fresh, and Leo accidentally rubbed some of it off the sign with his sleeve.",
+      "answerZh": "油漆仍未乾,里奧的衣袖意外擦掉了標誌上的部分油漆。",
+      "highlight": "rubbed",
+      "targetForm": "rub something off something",
+      "targetMeaningZh": "從某物表面擦掉物質"
+    },
+    {
+      "id": "phrasal-verb-277-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "There is one extra line in the picture. Erase it before you finish.",
+      "promptZh": "圖畫中多了一條線。完成前把它擦掉。",
+      "starter": "There",
+      "answer": "There is one extra line in the picture. Rub it out before you finish.",
+      "answerZh": "圖畫中多了一條線。完成前把它擦掉。",
+      "highlight": "Rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆線條"
+    },
+    {
+      "id": "phrasal-verb-277-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Ava practised every day, and her hard-working attitude soon made her friends work harder too.",
+      "promptZh": "艾娃每天練習,而她勤奮的態度很快也令朋友更加努力。",
+      "starter": "Ava",
+      "answer": "Ava practised every day, and her hard-working attitude soon rubbed off on her friends.",
+      "answerZh": "艾娃每天練習,而她勤奮的態度很快也感染了朋友。",
+      "highlight": "rubbed off on",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的態度感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The children were wet after the water game, so the teacher dried them thoroughly with towels.",
+      "promptZh": "孩子們玩水後全身濕透,所以老師用毛巾把他們徹底擦乾。",
+      "starter": "The",
+      "answer": "The children were wet after the water game, so the teacher rubbed them down with towels.",
+      "answerZh": "孩子們玩水後全身濕透,所以老師用毛巾把他們擦乾。",
+      "highlight": "rubbed",
+      "targetForm": "rub somebody down",
+      "targetMeaningZh": "用毛巾把某人擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The room is ready for painting now because we have smoothed and cleaned the walls.",
+      "promptZh": "我們已把牆壁磨平並清潔乾淨,所以房間現在可以上漆了。",
+      "starter": "The",
+      "answer": "The room is ready for painting now because we have rubbed the walls down.",
+      "answerZh": "我們已把牆壁磨平並清潔乾淨,所以房間現在可以上漆了。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I put a little cream on the sore area and spread it gently with my fingers.",
+      "promptZh": "我在疼痛的位置塗上一點乳霜,再用手指輕輕塗開。",
+      "starter": "I",
+      "answer": "I put a little cream on the sore area and rubbed it in gently.",
+      "answerZh": "我在疼痛的位置塗上一點乳霜,再輕輕把它揉擦進皮膚。",
+      "highlight": "rubbed",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把乳霜等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "You wrote the wrong number in pencil, so you can erase it.",
+      "promptZh": "你用鉛筆寫錯了數字,所以可以把它擦掉。",
+      "starter": "You",
+      "answer": "You wrote the wrong number in pencil, so you can rub it out.",
+      "answerZh": "你用鉛筆寫錯了數字,所以可以把它擦掉。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字"
+    },
+    {
+      "id": "phrasal-verb-277-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "After washing the dog, Dad dried it thoroughly with a towel until its fur was almost dry.",
+      "promptZh": "爸爸替小狗洗澡後,用毛巾徹底擦拭,直至牠的毛差不多乾透。",
+      "starter": "After",
+      "answer": "After washing the dog, Dad rubbed it down with a towel until its fur was almost dry.",
+      "answerZh": "爸爸替小狗洗澡後,用毛巾擦拭牠,直至牠的毛差不多乾透。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "用毛巾把動物擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The path was crowded, and my arm kept touching another runner’s arm as we moved.",
+      "promptZh": "小路十分擠迫,我們前進時,我的手臂一直擦着另一名跑手的手臂。",
+      "starter": "The",
+      "answer": "The path was crowded, and my arm kept rubbing up against another runner’s arm as we moved.",
+      "answerZh": "小路十分擠迫,我們前進時,我的手臂一直擦着另一名跑手的手臂。",
+      "highlight": "rubbing up against",
+      "targetForm": "rub up against somebody/something",
+      "targetMeaningZh": "貼着某人或某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The table was dirty, but I removed the marks with a damp cloth.",
+      "promptZh": "桌子很骯髒,但我用濕布擦掉了上面的污痕。",
+      "starter": "The",
+      "answer": "The table was dirty, but I rubbed the marks off with a damp cloth.",
+      "answerZh": "桌子很骯髒,但我用濕布擦掉了上面的污痕。",
+      "highlight": "rubbed",
+      "targetForm": "rub something off",
+      "targetMeaningZh": "把污痕擦掉"
+    },
+    {
+      "id": "phrasal-verb-277-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Nia’s cheerful way of speaking is making her new classmates speak more cheerfully too.",
+      "promptZh": "妮亞開朗的說話方式也令新同學說話時變得更開朗。",
+      "starter": "Nia’s",
+      "answer": "Nia’s cheerful way of speaking is rubbing off on her new classmates.",
+      "answerZh": "妮亞開朗的說話方式正在感染她的新同學。",
+      "highlight": "rubbing off on",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的情緒或行為感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Before the match, the nervous players became more confident after spending time with the coach.",
+      "promptZh": "比賽前,緊張的球員與教練相處後變得更有自信。",
+      "starter": "The",
+      "answer": "The coach’s confidence rubbed off on the nervous players before the match.",
+      "answerZh": "比賽前,教練的自信感染了緊張的球員。",
+      "highlight": "The coach’s confidence rubbed off on the nervous players",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的態度或特質感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "If the pencil outline is too dark, erase part of it.",
+      "promptZh": "如果鉛筆輪廓太深,便擦掉其中一部分。",
+      "starter": "If",
+      "answer": "If the pencil outline is too dark, rub part of it out.",
+      "answerZh": "如果鉛筆輪廓太深,便擦掉其中一部分。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆線條"
+    },
+    {
+      "id": "phrasal-verb-277-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The rain left us soaked, so we dried ourselves thoroughly with towels before entering the tent.",
+      "promptZh": "大雨令我們全身濕透,所以進入帳篷前,我們先用毛巾把自己徹底擦乾。",
+      "starter": "The",
+      "answer": "The rain left us soaked, so we rubbed ourselves down with towels before entering the tent.",
+      "answerZh": "大雨令我們全身濕透,所以進入帳篷前,我們先用毛巾把自己擦乾。",
+      "highlight": "rubbed",
+      "targetForm": "rub yourself down",
+      "targetMeaningZh": "用毛巾把自己全身擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He spread the medicine well over the skin on his knee with his fingers.",
+      "promptZh": "他用手指把藥膏均勻塗在膝蓋的皮膚上。",
+      "starter": "He",
+      "answer": "He rubbed the medicine into the skin on his knee with his fingers.",
+      "answerZh": "他用手指把藥膏揉擦進膝蓋的皮膚。",
+      "highlight": "rubbed",
+      "targetForm": "rub something into something",
+      "targetMeaningZh": "把藥膏等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The writing on the glass looked permanent, but we removed it with a wet cloth.",
+      "promptZh": "玻璃上的字看似無法清除,但我們用濕布把它擦掉了。",
+      "starter": "The",
+      "answer": "The writing on the glass looked permanent, but we rubbed it off with a wet cloth.",
+      "answerZh": "玻璃上的字看似無法清除,但我們用濕布把它擦掉了。",
+      "highlight": "rubbed",
+      "targetForm": "rub something off",
+      "targetMeaningZh": "把字跡或污痕擦掉"
+    },
+    {
+      "id": "phrasal-verb-277-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Before you paint the cupboard, smooth the rough areas.",
+      "promptZh": "為櫃子上漆前,先把粗糙的位置磨平。",
+      "starter": "Before",
+      "answer": "Before you paint the cupboard, rub the rough areas down.",
+      "answerZh": "為櫃子上漆前,先把粗糙的位置磨平。",
+      "highlight": "rub",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "As the bus turned sharply, my backpack kept touching and moving against the seat beside me.",
+      "promptZh": "巴士急轉彎時,我的背囊一直擦着旁邊的座位。",
+      "starter": "As",
+      "answer": "As the bus turned sharply, my backpack kept rubbing against the seat beside me.",
+      "answerZh": "巴士急轉彎時,我的背囊一直擦着旁邊的座位。",
+      "highlight": "rubbing",
+      "targetForm": "rub against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The teacher asked Daniel to erase the pencil notes but leave the printed words.",
+      "promptZh": "老師叫丹尼爾擦掉鉛筆筆記,但保留印刷文字。",
+      "starter": "The",
+      "answer": "The teacher asked Daniel to rub the pencil notes out but leave the printed words.",
+      "answerZh": "老師叫丹尼爾擦掉鉛筆筆記,但保留印刷文字。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字"
+    },
+    {
+      "id": "phrasal-verb-277-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Lena has been very lucky, and I hope I will become lucky too.",
+      "promptZh": "莉娜一直非常幸運,我希望自己也會變得幸運。",
+      "starter": "Lena",
+      "answer": "Lena has been very lucky, and I hope some of her good luck rubs off on me.",
+      "answerZh": "莉娜一直非常幸運,我希望她的一些好運也會傳給我。",
+      "highlight": "some of her good luck rubs off on me",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某種特質或運氣傳給另一人"
+    },
+    {
+      "id": "phrasal-verb-277-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The old paint was uneven, so we smoothed the whole surface before adding new paint.",
+      "promptZh": "舊油漆的表面不平,所以我們在髹上新油漆前把整個表面磨平。",
+      "starter": "The",
+      "answer": "The old paint was uneven, so we rubbed the whole surface down before adding new paint.",
+      "answerZh": "舊油漆的表面不平,所以我們在髹上新油漆前把整個表面磨平。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Please remove the chocolate from the child’s face gently with a damp cloth.",
+      "promptZh": "請用濕布輕輕擦掉孩子臉上的朱古力。",
+      "starter": "Please",
+      "answer": "Please rub the chocolate off the child’s face gently with a damp cloth.",
+      "answerZh": "請用濕布輕輕擦掉孩子臉上的朱古力。",
+      "highlight": "rub",
+      "targetForm": "rub something off something",
+      "targetMeaningZh": "從某物表面擦掉污漬"
+    },
+    {
+      "id": "phrasal-verb-277-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The horse was covered in rain, and its owner dried it thoroughly with a large cloth.",
+      "promptZh": "那匹馬全身被雨水弄濕,主人用一塊大布把牠徹底擦乾。",
+      "starter": "The",
+      "answer": "The horse was covered in rain, and its owner rubbed it down with a large cloth.",
+      "answerZh": "那匹馬全身被雨水弄濕,主人用一塊大布把牠擦乾。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "用布把動物擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why does this label keep touching and moving against my wrist?",
+      "promptZh": "為甚麼這個標籤一直磨擦我的手腕?",
+      "starter": "Why",
+      "answer": "Why does this label keep rubbing up against my wrist?",
+      "answerZh": "為甚麼這個標籤一直磨擦我的手腕?",
+      "highlight": "rubbing up",
+      "targetForm": "rub up against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The instructions say to spread the gel well until the skin feels dry.",
+      "promptZh": "說明指示要把凝膠均勻塗開,直至皮膚感覺乾爽。",
+      "starter": "The",
+      "answer": "The instructions say to rub the gel in until the skin feels dry.",
+      "answerZh": "說明指示要把凝膠揉擦進皮膚,直至皮膚感覺乾爽。",
+      "highlight": "rub",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把凝膠等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the long walk in heavy rain, everyone dried themselves from head to foot with a towel.",
+      "promptZh": "在大雨中長途步行後,所有人都用毛巾從頭到腳把自己擦乾。",
+      "starter": "After",
+      "answer": "After the long walk in heavy rain, everyone rubbed themselves down with a towel from head to foot.",
+      "answerZh": "在大雨中長途步行後,所有人都用毛巾從頭到腳把自己擦乾。",
+      "highlight": "rubbed",
+      "targetForm": "rub yourself down",
+      "targetMeaningZh": "用毛巾把自己全身擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the board looked clean, one dark mark could not be removed, even with soap and water.",
+      "promptZh": "雖然木板看來很乾淨,但其中一道深色污痕即使用肥皂和水也無法清除。",
+      "starter": "Although",
+      "answer": "Although the board looked clean, one dark mark would not rub off, even with soap and water.",
+      "answerZh": "雖然木板看來很乾淨,但其中一道深色污痕即使用肥皂和水也擦不掉。",
+      "highlight": "would",
+      "targetForm": "rub off",
+      "targetMeaningZh": "被擦掉;擦得掉"
+    },
+    {
+      "id": "phrasal-verb-277-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The cream was only on the surface, so the nurse told him to massage it gently into his skin.",
+      "promptZh": "乳霜只留在皮膚表面,所以護士叫他輕輕按摩,讓乳霜滲進皮膚。",
+      "starter": "The",
+      "answer": "The cream was only on the surface, so the nurse told him to rub it gently into his skin.",
+      "answerZh": "乳霜只留在皮膚表面,所以護士叫他把它輕輕揉擦進皮膚。",
+      "highlight": "rub",
+      "targetForm": "rub something into something",
+      "targetMeaningZh": "把乳霜等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "In the crowded train, the box in my bag kept pressing and moving against my back whenever the train moved.",
+      "promptZh": "在擠迫的列車上,每當列車移動時,袋中的盒子都一直磨擦我的背部。",
+      "starter": "In",
+      "answer": "In the crowded train, the box in my bag kept rubbing against my back whenever the train moved.",
+      "answerZh": "在擠迫的列車上,每當列車移動時,袋中的盒子都一直磨擦我的背部。",
+      "highlight": "rubbing",
+      "targetForm": "rub against something",
+      "targetMeaningZh": "貼着某物磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Soon, two friends also started arriving late because they copied the new student’s habit.",
+      "promptZh": "不久後,兩名朋友也開始遲到,因為他們模仿了新同學的習慣。",
+      "starter": "The",
+      "answer": "The new student’s habit of arriving late soon rubbed off on two friends.",
+      "answerZh": "新同學遲到的習慣很快便感染了兩名朋友。",
+      "highlight": "of arriving late soon rubbed off on two friends",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的壞習慣感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The shelf looked ready, but the painter smoothed it once more before using the white paint.",
+      "promptZh": "木架看來已準備好,但油漆工人在髹上白色油漆前再次把它磨平。",
+      "starter": "The",
+      "answer": "The shelf looked ready, but the painter rubbed it down once more before using the white paint.",
+      "answerZh": "木架看來已準備好,但油漆工人在髹上白色油漆前再次把它磨平。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    },
+    {
+      "id": "phrasal-verb-277-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Since the answer was written in pencil, Priya could erase it and try again.",
+      "promptZh": "由於答案是用鉛筆寫的,普里雅可以把它擦掉再試一次。",
+      "starter": "Since",
+      "answer": "Since the answer was written in pencil, Priya could rub it out and try again.",
+      "answerZh": "由於答案是用鉛筆寫的,普里雅可以把它擦掉再試一次。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆字"
+    },
+    {
+      "id": "phrasal-verb-277-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Ben used a cloth to remove the sticky glue from the jar before putting food inside it.",
+      "promptZh": "賓把食物放進玻璃瓶前,用布清除瓶上的黏膠。",
+      "starter": "Ben",
+      "answer": "Ben rubbed the sticky glue off the jar before putting food inside it.",
+      "answerZh": "賓把食物放進玻璃瓶前,擦掉了瓶上的黏膠。",
+      "highlight": "rubbed",
+      "targetForm": "rub something off something",
+      "targetMeaningZh": "從某物表面擦掉黏膠或污漬"
+    },
+    {
+      "id": "phrasal-verb-277-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before the dog came indoors, its owner dried it thoroughly with an old towel so it would not wet the floor.",
+      "promptZh": "小狗進屋前,主人用舊毛巾把牠徹底擦乾,以免弄濕地板。",
+      "starter": "Before",
+      "answer": "Before the dog came indoors, its owner rubbed it down with an old towel so it would not wet the floor.",
+      "answerZh": "小狗進屋前,主人用舊毛巾把牠擦乾,以免弄濕地板。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "用毛巾把動物擦乾"
+    },
+    {
+      "id": "phrasal-verb-277-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We spent a week with the cheerful guide, and we became more cheerful because of her.",
+      "promptZh": "我們與那名開朗的導遊相處了一星期,也因她而變得更加開朗。",
+      "starter": "We",
+      "answer": "We spent a week with the cheerful guide, and some of her good mood rubbed off on us.",
+      "answerZh": "我們與那名開朗的導遊相處了一星期,而她的好心情也感染了我們。",
+      "highlight": "some",
+      "targetForm": "rub off on somebody",
+      "targetMeaningZh": "某人的情緒感染他人"
+    },
+    {
+      "id": "phrasal-verb-277-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The map was almost correct, but I had to erase one road and draw it again.",
+      "promptZh": "地圖差不多完全正確,但我需要擦掉其中一條道路,再重新畫一次。",
+      "starter": "The",
+      "answer": "The map was almost correct, but I had to rub one road out and draw it again.",
+      "answerZh": "地圖差不多完全正確,但我需要擦掉其中一條道路,再重新畫一次。",
+      "highlight": "rub",
+      "targetForm": "rub something out",
+      "targetMeaningZh": "擦掉鉛筆圖畫或線條"
+    },
+    {
+      "id": "phrasal-verb-277-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After putting the oil on both hands, Kai spread it well until no wet feeling remained.",
+      "promptZh": "啟把油倒在雙手後,把它均勻塗開,直至雙手不再有濕潤的感覺。",
+      "starter": "After",
+      "answer": "After putting the oil on both hands, Kai rubbed it in until no wet feeling remained.",
+      "answerZh": "啟把油倒在雙手後,把它揉擦進皮膚,直至雙手不再有濕潤的感覺。",
+      "highlight": "rubbed",
+      "targetForm": "rub something in",
+      "targetMeaningZh": "把油等揉擦進皮膚"
+    },
+    {
+      "id": "phrasal-verb-277-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The kitten moved between the guests and gently pressed its body against anyone who stood still.",
+      "promptZh": "小貓在賓客之間走動,並把身體輕輕貼着任何站着不動的人磨擦。",
+      "starter": "The",
+      "answer": "The kitten moved between the guests, rubbing up against anyone who stood still.",
+      "answerZh": "小貓在賓客之間走動,並貼着任何站着不動的人磨擦。",
+      "highlight": "rubbing up",
+      "targetForm": "rub up against somebody",
+      "targetMeaningZh": "貼着某人磨擦"
+    },
+    {
+      "id": "phrasal-verb-277-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Because the wall still felt rough, we smoothed it again before painting it a second time.",
+      "promptZh": "由於牆壁摸起來仍然粗糙,我們在第二次上漆前再次把它磨平。",
+      "starter": "Because",
+      "answer": "Because the wall still felt rough, we rubbed it down again before painting it a second time.",
+      "answerZh": "由於牆壁摸起來仍然粗糙,我們在第二次上漆前再次把它磨平。",
+      "highlight": "rubbed",
+      "targetForm": "rub something down",
+      "targetMeaningZh": "把表面磨平或擦淨"
+    }
+  ]
+}

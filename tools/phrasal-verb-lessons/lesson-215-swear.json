@@ -1,0 +1,1481 @@
+{
+  "id": "phrasal-verb-215",
+  "order": 215,
+  "slug": "swear",
+  "version": "1",
+  "title": "SWEAR 動詞片語",
+  "titleEn": "Swear",
+  "titleZh": "SWEAR 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 213 - SWEAR.pdf",
+    "sourceNumber": 213,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SWEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SWEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SWEAR",
+      "highlight": "SWEAR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The witness swore by Almighty God that he would tell the truth.",
+      "zh": "證人以全能的上帝之名起誓,保證會說出真相。",
+      "highlight": "swore by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She was sworn in as president in January.",
+      "zh": "她在一月宣誓就任總統。",
+      "highlight": "sworn in as president in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "My brother swears by lemon and honey drinks as a cold remedy.",
+      "zh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+      "highlight": "swears by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以神明或某人之名莊嚴起誓；使某人正式宣誓就職或加入某職位；非常信賴某事物或某人;深信其有效或可靠；發誓戒掉或不再使用、食用或參與某事物；斷言某事屬實;完全肯定某項資料；使某人發誓保密或保持沉默",
+    "en": "swear by somebody; swear somebody in / swear somebody into office; swear by something/somebody; swear off something; swear to something; swear somebody to something",
+    "naturalZh": [
+      "以神明或某人之名莊嚴起誓",
+      "使某人正式宣誓就職或加入某職位",
+      "非常信賴某事物或某人;深信其有效或可靠",
+      "發誓戒掉或不再使用、食用或參與某事物",
+      "斷言某事屬實;完全肯定某項資料",
+      "使某人發誓保密或保持沉默"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "swear by somebody",
+      "titleZh": "以神明或某人之名莊嚴起誓",
+      "titleEn": "swear by somebody",
+      "descriptionZh": "以神明或某人之名莊嚴起誓",
+      "descriptionEn": "The witness swore by Almighty God that he would tell the truth.",
+      "examples": [
+        {
+          "en": "The witness swore by Almighty God that he would tell the truth.",
+          "zh": "證人以全能的上帝之名起誓,保證會說出真相。",
+          "highlight": "swore by"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "swear somebody in / swear somebody into office",
+      "titleZh": "使某人正式宣誓就職或加入某職位",
+      "titleEn": "swear somebody in / swear somebody into office",
+      "descriptionZh": "使某人正式宣誓就職或加入某職位",
+      "descriptionEn": "She was sworn in as president in January.",
+      "examples": [
+        {
+          "en": "She was sworn in as president in January.",
+          "zh": "她在一月宣誓就任總統。",
+          "highlight": "sworn in as president in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "swear by something/somebody",
+      "titleZh": "非常信賴某事物或某人;深信其有效或可靠",
+      "titleEn": "swear by something/somebody",
+      "descriptionZh": "非常信賴某事物或某人;深信其有效或可靠",
+      "descriptionEn": "My brother swears by lemon and honey drinks as a cold remedy.",
+      "examples": [
+        {
+          "en": "My brother swears by lemon and honey drinks as a cold remedy.",
+          "zh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+          "highlight": "swears by"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "swear off something",
+      "titleZh": "發誓戒掉或不再使用、食用或參與某事物",
+      "titleEn": "swear off something",
+      "descriptionZh": "發誓戒掉或不再使用、食用或參與某事物",
+      "descriptionEn": "He intends to swear off alcohol.",
+      "examples": [
+        {
+          "en": "He intends to swear off alcohol.",
+          "zh": "他打算發誓戒酒。",
+          "highlight": "swear off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "swear to something",
+      "titleZh": "斷言某事屬實;完全肯定某項資料",
+      "titleEn": "swear to something",
+      "descriptionZh": "斷言某事屬實;完全肯定某項資料",
+      "descriptionEn": "I think I have met him before, but I could not swear to it.",
+      "examples": [
+        {
+          "en": "I think I have met him before, but I could not swear to it.",
+          "zh": "我想自己以前曾見過他,但不能完全肯定。",
+          "highlight": "swear to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "swear somebody to something",
+      "titleZh": "使某人發誓保密或保持沉默",
+      "titleEn": "swear somebody to something",
+      "descriptionZh": "使某人發誓保密或保持沉默",
+      "descriptionEn": "The actors were sworn to secrecy.",
+      "examples": [
+        {
+          "en": "The actors were sworn to secrecy.",
+          "zh": "演員被要求發誓保密。",
+          "highlight": "sworn to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SWEAR 片語動詞的實際用途",
+    "labelEn": "SWEAR Phrasal Verbs in Use",
+    "summaryZh": "SWEAR 片語動詞可以描述以神明之名作出的承諾,以及某人正式就任重要職位的儀式。；swear by 可以表示你非常信賴某種療法、產品、習慣、專家或方法。；swear off 可用來表示某人認真決定戒掉酒精、甜食、能量飲品、購物或其他習慣。；swear to 可以表示某人是否完全肯定;swear somebody to secrecy 或 silence 則表示資料不得外傳。",
+    "summaryEn": "The SWEAR family can describe promises made in God’s name and formal ceremonies in which somebody enters an important position. Swear by lets you show that you believe strongly in a remedy, product, habit, expert or method. Swear off is useful when somebody makes a serious decision to stop alcohol, sweets, energy drinks, shopping or another habit. Swear to can show whether somebody is completely certain. Swear somebody to secrecy or silence shows that information must not be shared.",
+    "contextsZh": [
+      "談論莊嚴承諾和正式就職儀式",
+      "表達對人物、產品和方法的高度信賴",
+      "談論戒除不想保留的習慣",
+      "談論肯定程度和保密資料"
+    ],
+    "contextsEn": [
+      "Talk about solemn promises and official ceremonies",
+      "Express strong trust in people, products and methods",
+      "Talk about stopping an unwanted habit",
+      "Describe certainty and confidential information"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SWEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SWEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "swear by somebody",
+    "fixedHighlight": "swear by somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 SWEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SWEAR expression that gives the same meaning.",
+    "correct": "swore by",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；swear by 有兩個不同意思。它可以表示以某人或神明之名莊嚴起誓,也可以表示非常信賴某人、產品或方法。；請留意以上常見完整用法。",
+    "variableEn": "Keep the same people, things, time and meaning. Swear by has two different meanings. It can mean making a solemn promise in somebody’s or God’s name, or strongly trusting a person, product or method. Notice these useful complete forms: swear somebody in be sworn in as president swear somebody into office swear somebody to secrecy be sworn to silence",
+    "variableItemsZh": [
+      "swear by somebody",
+      "swear somebody in / swear somebody into office",
+      "swear by something/somebody",
+      "swear off something",
+      "swear to something",
+      "swear somebody to something"
+    ],
+    "variableItemsEn": [
+      "swear by somebody",
+      "swear somebody in / swear somebody into office",
+      "swear by something/somebody",
+      "swear off something",
+      "swear to something",
+      "swear somebody to something"
+    ],
+    "forms": [
+      {
+        "formZh": "以神明或某人之名莊嚴起誓",
+        "formEn": "swear by somebody",
+        "exampleZh": "證人以全能的上帝之名起誓,保證會說出真相。",
+        "exampleEn": "The witness swore by Almighty God that he would tell the truth.",
+        "highlight": "swore by"
+      },
+      {
+        "formZh": "使某人正式宣誓就職或加入某職位",
+        "formEn": "swear somebody in / swear somebody into office",
+        "exampleZh": "她在一月宣誓就任總統。",
+        "exampleEn": "She was sworn in as president in January.",
+        "highlight": "sworn in as president in"
+      },
+      {
+        "formZh": "非常信賴某事物或某人;深信其有效或可靠",
+        "formEn": "swear by something/somebody",
+        "exampleZh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+        "exampleEn": "My brother swears by lemon and honey drinks as a cold remedy.",
+        "highlight": "swears by"
+      },
+      {
+        "formZh": "發誓戒掉或不再使用、食用或參與某事物",
+        "formEn": "swear off something",
+        "exampleZh": "他打算發誓戒酒。",
+        "exampleEn": "He intends to swear off alcohol.",
+        "highlight": "swear off"
+      },
+      {
+        "formZh": "斷言某事屬實;完全肯定某項資料",
+        "formEn": "swear to something",
+        "exampleZh": "我想自己以前曾見過他,但不能完全肯定。",
+        "exampleEn": "I think I have met him before, but I could not swear to it.",
+        "highlight": "swear to"
+      },
+      {
+        "formZh": "使某人發誓保密或保持沉默",
+        "formEn": "swear somebody to something",
+        "exampleZh": "演員被要求發誓保密。",
+        "exampleEn": "The actors were sworn to secrecy.",
+        "highlight": "sworn to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以神明或某人之名莊嚴起誓",
+      "titleEn": "swear by somebody",
+      "formula": "swear by somebody",
+      "highlight": "swear by somebody",
+      "descriptionZh": "以神明或某人之名莊嚴起誓",
+      "descriptionEn": "The witness swore by Almighty God that he would tell the truth.",
+      "examples": [
+        {
+          "en": "The witness swore by Almighty God that he would tell the truth.",
+          "zh": "證人以全能的上帝之名起誓,保證會說出真相。",
+          "highlight": "swore by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "使某人正式宣誓就職或加入某職位",
+      "titleEn": "swear somebody in / swear somebody into office",
+      "formula": "swear somebody in / swear somebody into office",
+      "highlight": "swear somebody in / swear somebody into office",
+      "descriptionZh": "使某人正式宣誓就職或加入某職位",
+      "descriptionEn": "She was sworn in as president in January.",
+      "examples": [
+        {
+          "en": "She was sworn in as president in January.",
+          "zh": "她在一月宣誓就任總統。",
+          "highlight": "sworn in as president in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "非常信賴某事物或某人;深信其有效或可靠",
+      "titleEn": "swear by something/somebody",
+      "formula": "swear by something/somebody",
+      "highlight": "swear by something/somebody",
+      "descriptionZh": "非常信賴某事物或某人;深信其有效或可靠",
+      "descriptionEn": "My brother swears by lemon and honey drinks as a cold remedy.",
+      "examples": [
+        {
+          "en": "My brother swears by lemon and honey drinks as a cold remedy.",
+          "zh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+          "highlight": "swears by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "發誓戒掉或不再使用、食用或參與某事物",
+      "titleEn": "swear off something",
+      "formula": "swear off something",
+      "highlight": "swear off something",
+      "descriptionZh": "發誓戒掉或不再使用、食用或參與某事物",
+      "descriptionEn": "He intends to swear off alcohol.",
+      "examples": [
+        {
+          "en": "He intends to swear off alcohol.",
+          "zh": "他打算發誓戒酒。",
+          "highlight": "swear off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "斷言某事屬實;完全肯定某項資料",
+      "titleEn": "swear to something",
+      "formula": "swear to something",
+      "highlight": "swear to something",
+      "descriptionZh": "斷言某事屬實;完全肯定某項資料",
+      "descriptionEn": "I think I have met him before, but I could not swear to it.",
+      "examples": [
+        {
+          "en": "I think I have met him before, but I could not swear to it.",
+          "zh": "我想自己以前曾見過他,但不能完全肯定。",
+          "highlight": "swear to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "使某人發誓保密或保持沉默",
+      "titleEn": "swear somebody to something",
+      "formula": "swear somebody to something",
+      "highlight": "swear somebody to something",
+      "descriptionZh": "使某人發誓保密或保持沉默",
+      "descriptionEn": "The actors were sworn to secrecy.",
+      "examples": [
+        {
+          "en": "The actors were sworn to secrecy.",
+          "zh": "演員被要求發誓保密。",
+          "highlight": "sworn to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論莊嚴承諾和正式就職儀式",
+      "titleEn": "Talk about solemn promises and official ceremonies",
+      "zh": "SWEAR 片語動詞可以描述以神明之名作出的承諾,以及某人正式就任重要職位的儀式。",
+      "en": "The SWEAR family can describe promises made in God’s name and formal ceremonies in which somebody enters an important position."
+    },
+    {
+      "titleZh": "表達對人物、產品和方法的高度信賴",
+      "titleEn": "Express strong trust in people, products and methods",
+      "zh": "swear by 可以表示你非常信賴某種療法、產品、習慣、專家或方法。",
+      "en": "Swear by lets you show that you believe strongly in a remedy, product, habit, expert or method."
+    },
+    {
+      "titleZh": "談論戒除不想保留的習慣",
+      "titleEn": "Talk about stopping an unwanted habit",
+      "zh": "swear off 可用來表示某人認真決定戒掉酒精、甜食、能量飲品、購物或其他習慣。",
+      "en": "Swear off is useful when somebody makes a serious decision to stop alcohol, sweets, energy drinks, shopping or another habit."
+    },
+    {
+      "titleZh": "談論肯定程度和保密資料",
+      "titleEn": "Describe certainty and confidential information",
+      "zh": "swear to 可以表示某人是否完全肯定;swear somebody to secrecy 或 silence 則表示資料不得外傳。",
+      "en": "Swear to can show whether somebody is completely certain. Swear somebody to secrecy or silence shows that information must not be shared."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論莊嚴承諾和正式就職儀式",
+      "表達對人物、產品和方法的高度信賴",
+      "談論戒除不想保留的習慣",
+      "談論肯定程度和保密資料"
+    ],
+    "contextsEn": [
+      "Talk about solemn promises and official ceremonies",
+      "Express strong trust in people, products and methods",
+      "Talk about stopping an unwanted habit",
+      "Describe certainty and confidential information"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論莊嚴承諾和正式就職儀式",
+        "titleEn": "Talk about solemn promises and official ceremonies",
+        "zh": "SWEAR 片語動詞可以描述以神明之名作出的承諾,以及某人正式就任重要職位的儀式。",
+        "en": "The SWEAR family can describe promises made in God’s name and formal ceremonies in which somebody enters an important position.",
+        "examples": [
+          {
+            "en": "The witness swore by Almighty God that he would tell the truth.",
+            "zh": "證人以全能的上帝之名起誓,保證會說出真相。",
+            "highlight": "swore by"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達對人物、產品和方法的高度信賴",
+        "titleEn": "Express strong trust in people, products and methods",
+        "zh": "swear by 可以表示你非常信賴某種療法、產品、習慣、專家或方法。",
+        "en": "Swear by lets you show that you believe strongly in a remedy, product, habit, expert or method.",
+        "examples": [
+          {
+            "en": "She was sworn in as president in January.",
+            "zh": "她在一月宣誓就任總統。",
+            "highlight": "sworn in as president in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論戒除不想保留的習慣",
+        "titleEn": "Talk about stopping an unwanted habit",
+        "zh": "swear off 可用來表示某人認真決定戒掉酒精、甜食、能量飲品、購物或其他習慣。",
+        "en": "Swear off is useful when somebody makes a serious decision to stop alcohol, sweets, energy drinks, shopping or another habit.",
+        "examples": [
+          {
+            "en": "My brother swears by lemon and honey drinks as a cold remedy.",
+            "zh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+            "highlight": "swears by"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論肯定程度和保密資料",
+        "titleEn": "Describe certainty and confidential information",
+        "zh": "swear to 可以表示某人是否完全肯定;swear somebody to secrecy 或 silence 則表示資料不得外傳。",
+        "en": "Swear to can show whether somebody is completely certain. Swear somebody to secrecy or silence shows that information must not be shared.",
+        "examples": [
+          {
+            "en": "He intends to swear off alcohol.",
+            "zh": "他打算發誓戒酒。",
+            "highlight": "swear off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SWEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SWEAR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SWEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the SWEAR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "swear by 有兩個不同意思。它可以表示以某人或神明之名莊嚴起誓,也可以表示非常信賴某人、產品或方法。",
+      "titleEn": "Swear by has two different meanings.",
+      "zh": "swear by 有兩個不同意思。它可以表示以某人或神明之名莊嚴起誓,也可以表示非常信賴某人、產品或方法。",
+      "en": "Swear by has two different meanings. It can mean making a solemn promise in somebody’s or God’s name, or strongly trusting a person, product or method."
+    },
+    {
+      "titleZh": "請留意以上常見完整用法。",
+      "titleEn": "Notice these useful complete forms: swear somebody in be sworn in as president swear somebody into office swear somebody to secrecy be sworn to silence.",
+      "zh": "請留意以上常見完整用法。",
+      "en": "Notice these useful complete forms: swear somebody in be sworn in as president swear somebody into office swear somebody to secrecy be sworn to silence"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SWEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SWEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SWEAR 動詞片語句子改寫練習",
+    "titleEn": "SWEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SWEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SWEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-215-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "My brother strongly believes that lemon and honey drinks are an excellent cold remedy.",
+      "promptZh": "我哥哥深信檸檬蜜糖飲品是很好的感冒療法。",
+      "starter": "My",
+      "answer": "My brother swears by lemon and honey drinks as a cold remedy.",
+      "answerZh": "我哥哥非常信賴檸檬蜜糖飲品這種感冒療法。",
+      "highlight": "swears by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;深信有效"
+    },
+    {
+      "id": "phrasal-verb-215-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He officially took the oath of office as president in January.",
+      "promptZh": "他在一月正式宣誓就任總統。",
+      "starter": "He",
+      "answer": "He was sworn in as president in January.",
+      "answerZh": "他在一月宣誓就任總統。",
+      "highlight": "was sworn in",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He intends to promise that he will stop drinking alcohol.",
+      "promptZh": "他打算發誓不再飲酒。",
+      "starter": "He",
+      "answer": "He intends to swear off alcohol.",
+      "answerZh": "他打算發誓戒酒。",
+      "highlight": "swear off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The producers made the actors promise not to reveal how the series ends.",
+      "promptZh": "監製要求演員承諾不會透露劇集的結局。",
+      "starter": "The",
+      "answer": "The producers swore the actors to secrecy about how the series ends.",
+      "answerZh": "監製要求演員發誓對劇集結局保密。",
+      "highlight": "swore",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I think I have met him somewhere before, but I am not completely certain.",
+      "promptZh": "我想自己以前曾在某處見過他,但不能完全肯定。",
+      "starter": "I",
+      "answer": "I think I have met him somewhere before, but I could not swear to it.",
+      "answerZh": "我想自己以前曾在某處見過他,但不能斷言這是真的。",
+      "highlight": "somewhere before, but I could",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "斷言某事屬實;完全肯定"
+    },
+    {
+      "id": "phrasal-verb-215-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Make a solemn promise before Almighty God that your statement is true.",
+      "promptZh": "請在全能的上帝面前莊嚴起誓,保證你的陳述屬實。",
+      "starter": "Swear",
+      "answer": "Swear by Almighty God that your statement is true.",
+      "answerZh": "請以全能的上帝之名起誓,保證你的陳述屬實。",
+      "highlight": "Swear by",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "At noon, the judge will officially give the new officers their oath.",
+      "promptZh": "中午時,法官會正式主持新任人員的宣誓儀式。",
+      "starter": "At",
+      "answer": "At noon, the judge will swear the new officers in.",
+      "answerZh": "中午時,法官會主持新任人員宣誓就職。",
+      "highlight": "swear",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Our coach has complete trust in her assistant.",
+      "promptZh": "我們的教練完全信任她的助理。",
+      "starter": "Our",
+      "answer": "Our coach swears by her assistant.",
+      "answerZh": "我們的教練非常信賴她的助理。",
+      "highlight": "swears by",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "非常信賴某人"
+    },
+    {
+      "id": "phrasal-verb-215-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Jeff told me about his promotion and made me promise not to tell anyone.",
+      "promptZh": "Jeff 告訴我他升職的消息,並要求我承諾不告訴任何人。",
+      "starter": "Jeff",
+      "answer": "Jeff told me about his promotion and swore me to silence.",
+      "answerZh": "Jeff 告訴我他升職的消息,並要我發誓保持沉默。",
+      "highlight": "swore",
+      "targetForm": "swear somebody to silence",
+      "targetMeaningZh": "使某人發誓保持沉默"
+    },
+    {
+      "id": "phrasal-verb-215-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After the terrible flight, Lena promised never to take another helicopter trip.",
+      "promptZh": "經歷那次可怕的飛行後,Lena 承諾以後不再乘坐直升機。",
+      "starter": "After",
+      "answer": "After the terrible flight, Lena swore off helicopter trips.",
+      "answerZh": "經歷那次可怕的飛行後,Lena 發誓不再乘坐直升機。",
+      "highlight": "swore off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓不再參與某事"
+    },
+    {
+      "id": "phrasal-verb-215-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Before speaking, the witness made a solemn promise in God’s name that he would tell the truth.",
+      "promptZh": "發言前,證人以上帝之名莊嚴承諾會說出真相。",
+      "starter": "Before",
+      "answer": "Before speaking, the witness swore by God that he would tell the truth.",
+      "answerZh": "發言前,證人以上帝之名起誓會說出真相。",
+      "highlight": "swore by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "No one could say with certainty exactly when the lights went out.",
+      "promptZh": "沒有人能夠肯定地說出燈光究竟在甚麼時候熄滅。",
+      "starter": "No",
+      "answer": "No one could swear to the exact time the lights went out.",
+      "answerZh": "沒有人能斷言燈光熄滅的確實時間。",
+      "highlight": "swear to the exact time",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "斷言某項資料屬實"
+    },
+    {
+      "id": "phrasal-verb-215-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Since New Year’s Day, Noah has promised not to drink fizzy drinks.",
+      "promptZh": "自元旦以來,Noah 已承諾不再喝汽水。",
+      "starter": "Since",
+      "answer": "Since New Year’s Day, Noah has sworn off fizzy drinks.",
+      "answerZh": "自元旦以來,Noah 已發誓戒掉汽水。",
+      "highlight": "sworn off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Can you say with complete certainty what colour the bag was?",
+      "promptZh": "你能完全肯定那個袋是甚麼顏色嗎?",
+      "starter": "Can",
+      "answer": "Can you swear to the colour of the bag?",
+      "answerZh": "你能斷言那個袋的顏色嗎?",
+      "highlight": "swear to the",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "When will the new mayor officially take the oath of office?",
+      "promptZh": "新任市長會在甚麼時候正式宣誓就職?",
+      "starter": "When",
+      "answer": "When will the new mayor be sworn in?",
+      "answerZh": "新任市長會在甚麼時候宣誓就職?",
+      "highlight": "be sworn in",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Does your father strongly recommend this brand of coffee?",
+      "promptZh": "你父親是否非常推薦這個咖啡品牌?",
+      "starter": "Does",
+      "answer": "Does your father swear by this brand of coffee?",
+      "answerZh": "你父親是否非常信賴這個咖啡品牌?",
+      "highlight": "swear by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;大力推薦"
+    },
+    {
+      "id": "phrasal-verb-215-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "You must make a solemn promise in God’s name that the information is true before you sign.",
+      "promptZh": "簽署前,你必須以上帝之名莊嚴起誓,保證資料屬實。",
+      "starter": "You",
+      "answer": "You must swear by God that the information is true before you sign.",
+      "answerZh": "簽署前,你必須以上帝之名起誓,保證資料屬實。",
+      "highlight": "swear by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Everyone who saw the new design has been made to promise not to discuss it.",
+      "promptZh": "每個看過新設計的人都被要求承諾不會討論它。",
+      "starter": "Everyone",
+      "answer": "Everyone who saw the new design has been sworn to secrecy.",
+      "answerZh": "每個看過新設計的人都被要求發誓保密。",
+      "highlight": "sworn",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "For years, this chef has strongly recommended fresh ginger.",
+      "promptZh": "多年來,這名廚師一直非常推薦新鮮薑。",
+      "starter": "For",
+      "answer": "For years, this chef has sworn by fresh ginger.",
+      "answerZh": "多年來,這名廚師一直非常信賴新鮮薑。",
+      "highlight": "sworn by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;深信有效"
+    },
+    {
+      "id": "phrasal-verb-215-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Who will officially give the new club captain the oath?",
+      "promptZh": "誰會正式主持新任學會隊長的宣誓儀式?",
+      "starter": "Who",
+      "answer": "Who will swear the new club captain in?",
+      "answerZh": "誰會主持新任學會隊長宣誓就職?",
+      "highlight": "swear",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I remember the month, but I cannot say for certain which day it happened.",
+      "promptZh": "我記得月份,但不能肯定事情發生在哪一天。",
+      "starter": "I",
+      "answer": "I remember the month, but I cannot swear to the exact day.",
+      "answerZh": "我記得月份,但不能斷言事情發生的確實日期。",
+      "highlight": "swear to the exact",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why did the director make the whole team promise not to talk?",
+      "promptZh": "導演為甚麼要求整個團隊承諾保持沉默?",
+      "starter": "Why",
+      "answer": "Why did the director swear the whole team to silence?",
+      "answerZh": "導演為甚麼要求整個團隊發誓保持沉默?",
+      "highlight": "swear",
+      "targetForm": "swear somebody to silence",
+      "targetMeaningZh": "使某人發誓保持沉默"
+    },
+    {
+      "id": "phrasal-verb-215-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After losing so much money, he may promise to stop shopping online.",
+      "promptZh": "損失了這麼多金錢後,他可能會發誓不再網上購物。",
+      "starter": "After",
+      "answer": "After losing so much money, he may swear off online shopping.",
+      "answerZh": "損失了這麼多金錢後,他可能會發誓戒掉網上購物。",
+      "highlight": "swear off online",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某項活動"
+    },
+    {
+      "id": "phrasal-verb-215-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Did the old soldier promise in God’s name that the story was true?",
+      "promptZh": "那名老兵有否以上帝之名起誓,保證故事屬實?",
+      "starter": "Did",
+      "answer": "Did the old soldier swear by God that the story was true?",
+      "answerZh": "那名老兵有否以上帝之名起誓,保證故事屬實?",
+      "highlight": "swear by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The students learnt the surprise ending. The teacher made them promise not to reveal it.",
+      "promptZh": "學生得知了出人意表的結局。老師要求他們承諾不會透露。",
+      "starter": "The",
+      "answer": "The students learnt the surprise ending. The teacher swore them to secrecy.",
+      "answerZh": "學生得知了出人意表的結局。老師要求他們發誓保密。",
+      "highlight": "swore",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "This simple shoe insert is cheap. Many runners trust it completely.",
+      "promptZh": "這款簡單的鞋墊很便宜。許多跑手都完全信賴它。",
+      "starter": "This",
+      "answer": "This simple shoe insert is cheap. Many runners swear by it.",
+      "answerZh": "這款簡單的鞋墊很便宜。許多跑手都非常信賴它。",
+      "highlight": "swear by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;深信有效"
+    },
+    {
+      "id": "phrasal-verb-215-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The witness was asked to make a solemn promise in God’s name that every word was true.",
+      "promptZh": "證人被要求以上帝之名莊嚴起誓,保證每一句話都屬實。",
+      "starter": "The",
+      "answer": "The witness was asked to swear by God that every word was true.",
+      "answerZh": "證人被要求以上帝之名起誓,保證每一句話都屬實。",
+      "highlight": "swear by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Has Priya promised to stop eating sweets for a month?",
+      "promptZh": "Priya 有否承諾一個月內不再吃甜食?",
+      "starter": "Has",
+      "answer": "Has Priya sworn off sweets for a month?",
+      "answerZh": "Priya 有否發誓一個月內戒掉甜食?",
+      "highlight": "sworn off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The judge officially gave them the oath before the ceremony began.",
+      "promptZh": "儀式開始前,法官正式主持了他們的宣誓。",
+      "starter": "The",
+      "answer": "The judge swore them in before the ceremony began.",
+      "answerZh": "儀式開始前,法官主持了他們宣誓就職。",
+      "highlight": "swore",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "I remember seeing the sign, but I cannot be certain about it.",
+      "promptZh": "我記得見過那個標誌,但不能完全肯定。",
+      "starter": "I",
+      "answer": "I remember seeing the sign, but I cannot swear to it.",
+      "answerZh": "我記得見過那個標誌,但不能斷言這是真的。",
+      "highlight": "swear to",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "斷言某事屬實"
+    },
+    {
+      "id": "phrasal-verb-215-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Although the app is old, Daniel still believes it is the most reliable one.",
+      "promptZh": "雖然這個應用程式很舊,Daniel 仍深信它最可靠。",
+      "starter": "Although",
+      "answer": "Although the app is old, Daniel still swears by it.",
+      "answerZh": "雖然這個應用程式很舊,Daniel 仍然非常信賴它。",
+      "highlight": "swears by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Before we entered the room, we were made to promise not to describe what we saw.",
+      "promptZh": "進入房間前,我們被要求承諾不會描述所見的一切。",
+      "starter": "Before",
+      "answer": "Before we entered the room, we were sworn to secrecy.",
+      "answerZh": "進入房間前,我們被要求發誓保密。",
+      "highlight": "sworn",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The dentist advised Ben to promise that he would stop sugary drinks.",
+      "promptZh": "牙醫建議 Ben 發誓不再喝含糖飲品。",
+      "starter": "The",
+      "answer": "The dentist advised Ben to swear off sugary drinks.",
+      "answerZh": "牙醫建議 Ben 發誓戒掉含糖飲品。",
+      "highlight": "swear off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before the group trusted him, he had promised in God’s name that he had told the truth.",
+      "promptZh": "那個團體信任他之前,他曾以上帝之名起誓,表示自己說了真話。",
+      "starter": "Before",
+      "answer": "Before the group trusted him, he had sworn by God that he had told the truth.",
+      "answerZh": "那個團體信任他之前,他曾以上帝之名起誓,表示自己說了真話。",
+      "highlight": "sworn by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "No one can state every detail with complete certainty.",
+      "promptZh": "沒有人能完全肯定地說出每個細節。",
+      "starter": "No",
+      "answer": "No one can swear to every detail.",
+      "answerZh": "沒有人能斷言每個細節都完全正確。",
+      "highlight": "swear to",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the public vote, Eva officially took the oath and entered office as chairperson.",
+      "promptZh": "公開投票後,Eva 正式宣誓並就任主席。",
+      "starter": "After",
+      "answer": "After the public vote, Eva was sworn into office as chairperson.",
+      "answerZh": "公開投票後,Eva 宣誓就任主席。",
+      "highlight": "was sworn into",
+      "targetForm": "swear somebody into office",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The official who gave the councillors their oath arrived early.",
+      "promptZh": "主持議員宣誓的官員提早到達。",
+      "starter": "The",
+      "answer": "The official who swore the councillors in arrived early.",
+      "answerZh": "主持議員宣誓就職的官員提早到達。",
+      "highlight": "swore",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The witness recognised the man, but she was not certain of his exact height.",
+      "promptZh": "證人認得那名男子,但不能肯定他的確實身高。",
+      "starter": "The",
+      "answer": "The witness recognised the man, but she could not swear to his exact height.",
+      "answerZh": "證人認得那名男子,但不能斷言他的確實身高。",
+      "highlight": "she could",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The players have complete confidence in their fitness coach, even when training is difficult.",
+      "promptZh": "即使訓練很辛苦,球員仍完全信任體能教練。",
+      "starter": "The",
+      "answer": "The players swear by their fitness coach, even when training is difficult.",
+      "answerZh": "即使訓練很辛苦,球員仍非常信賴體能教練。",
+      "highlight": "swear by",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "非常信賴某人"
+    },
+    {
+      "id": "phrasal-verb-215-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The court will accept the statement only if he makes the promise in God’s name that it is true.",
+      "promptZh": "只有他以上帝之名起誓,保證陳述屬實,法庭才會接納。",
+      "starter": "The",
+      "answer": "The court will accept the statement only if he swears by God that it is true.",
+      "answerZh": "只有他以上帝之名起誓,保證陳述屬實,法庭才會接納。",
+      "highlight": "swears by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The editor showed us the final cover but made us promise not to mention it online.",
+      "promptZh": "編輯向我們展示了最終封面,但要求我們承諾不在網上提及。",
+      "starter": "The",
+      "answer": "The editor showed us the final cover but swore us to secrecy.",
+      "answerZh": "編輯向我們展示了最終封面,但要求我們發誓保密。",
+      "highlight": "swore",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She used to buy takeaway coffee every morning, but last month she promised to stop drinking it completely.",
+      "promptZh": "她以往每天早上都買外賣咖啡,但上個月承諾完全戒掉。",
+      "starter": "She",
+      "answer": "She used to buy takeaway coffee every morning, but last month she swore off takeaway coffee.",
+      "answerZh": "她以往每天早上都買外賣咖啡,但上個月發誓戒掉外賣咖啡。",
+      "highlight": "swore off takeaway coffee",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The man refused to make a promise in God’s name because he did not share the belief.",
+      "promptZh": "那名男子拒絕以上帝之名起誓,因為他不持有這種信仰。",
+      "starter": "The",
+      "answer": "The man refused to swear by God because he did not share the belief.",
+      "answerZh": "那名男子拒絕以上帝之名起誓,因為他不持有這種信仰。",
+      "highlight": "swear by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Ask Hana about the sleep mask; she will strongly recommend it.",
+      "promptZh": "可以問 Hana 那個睡眠眼罩;她一定會大力推薦。",
+      "starter": "Ask",
+      "answer": "Ask Hana about the sleep mask; she will swear by it.",
+      "answerZh": "可以問 Hana 那個睡眠眼罩;她一定會說自己非常信賴它。",
+      "highlight": "swear by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;大力推薦"
+    },
+    {
+      "id": "phrasal-verb-215-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Could any passenger say with certainty what colour the car was?",
+      "promptZh": "有沒有乘客能肯定地說出那輛車的顏色?",
+      "starter": "Could",
+      "answer": "Could any passenger swear to the colour of the car?",
+      "answerZh": "有沒有乘客能斷言那輛車的顏色?",
+      "highlight": "swear to the",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "New members may not vote until the club has officially given them the oath.",
+      "promptZh": "新會員在學會正式主持宣誓前不得投票。",
+      "starter": "New",
+      "answer": "New members may not vote until they have been sworn in.",
+      "answerZh": "新會員在宣誓就任前不得投票。",
+      "highlight": "they have been sworn in",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After reading the health advice, Leo is planning to promise that he will stop energy drinks.",
+      "promptZh": "閱讀健康建議後,Leo 正計劃發誓不再喝能量飲品。",
+      "starter": "After",
+      "answer": "After reading the health advice, Leo is planning to swear off energy drinks.",
+      "answerZh": "閱讀健康建議後,Leo 正計劃發誓戒掉能量飲品。",
+      "highlight": "swear off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The crew knew about the surprise guest, but they had all promised not to tell anyone.",
+      "promptZh": "工作人員知道神秘嘉賓是誰,但全都承諾不告訴任何人。",
+      "starter": "The",
+      "answer": "The crew knew about the surprise guest, but they had all been sworn to secrecy.",
+      "answerZh": "工作人員知道神秘嘉賓是誰,但全都被要求發誓保密。",
+      "highlight": "been sworn",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I clearly remember his face, but I am not completely certain of his name.",
+      "promptZh": "我清楚記得他的樣子,但不能完全肯定他的名字。",
+      "starter": "I",
+      "answer": "I clearly remember his face, but I could not swear to his name.",
+      "answerZh": "我清楚記得他的樣子,但不能斷言他的名字。",
+      "highlight": "clearly remember his face, but I could",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "完全肯定某項資料"
+    },
+    {
+      "id": "phrasal-verb-215-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After the election result was announced, the chief judge officially gave the new president the oath in front of the public.",
+      "promptZh": "選舉結果公布後,首席法官在公眾面前正式主持新任總統宣誓。",
+      "starter": "After",
+      "answer": "After the election result was announced, the chief judge publicly swore the new president in.",
+      "answerZh": "選舉結果公布後,首席法官公開主持新任總統宣誓就職。",
+      "highlight": "publicly swore",
+      "targetForm": "swear somebody in",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The judge asked the witness whether he was willing to make the promise in Almighty God’s name.",
+      "promptZh": "法官問證人是否願意以全能的上帝之名起誓。",
+      "starter": "The",
+      "answer": "The judge asked the witness whether he was willing to swear by Almighty God.",
+      "answerZh": "法官問證人是否願意以全能的上帝之名起誓。",
+      "highlight": "swear by",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even after trying three newer methods, the teacher still strongly recommends her original reading plan.",
+      "promptZh": "即使試過三種較新的方法,老師仍非常推薦原本的閱讀計劃。",
+      "starter": "Even",
+      "answer": "Even after trying three newer methods, the teacher still swears by her original reading plan.",
+      "answerZh": "即使試過三種較新的方法,老師仍非常信賴原本的閱讀計劃。",
+      "highlight": "swears by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;深信有效"
+    },
+    {
+      "id": "phrasal-verb-215-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Sam spent too much time playing games, so he has promised not to play computer games for the rest of the year.",
+      "promptZh": "Sam 花了太多時間玩遊戲,所以已承諾今年餘下時間不再玩電腦遊戲。",
+      "starter": "Sam",
+      "answer": "Sam spent too much time playing games, so he has sworn off computer games for the rest of the year.",
+      "answerZh": "Sam 花了太多時間玩遊戲,所以已發誓今年餘下時間戒掉電腦遊戲。",
+      "highlight": "sworn off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某事物"
+    },
+    {
+      "id": "phrasal-verb-215-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before the manager let the visitors see the new phone, she made each of them promise not to discuss it.",
+      "promptZh": "經理讓訪客查看新手機前,要求每個人承諾不會討論它。",
+      "starter": "Before",
+      "answer": "Before the manager let the visitors see the new phone, she swore each of them to secrecy.",
+      "answerZh": "經理讓訪客查看新手機前,要求每個人發誓保密。",
+      "highlight": "swore",
+      "targetForm": "swear somebody to secrecy",
+      "targetMeaningZh": "使某人發誓保密"
+    },
+    {
+      "id": "phrasal-verb-215-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "If you ask the older cooks, they will strongly recommend this kind of pan.",
+      "promptZh": "假如你問資深廚師,他們一定會非常推薦這種平底鍋。",
+      "starter": "If",
+      "answer": "If you ask the older cooks, they will swear by this kind of pan.",
+      "answerZh": "假如你問資深廚師,他們一定會說自己非常信賴這種平底鍋。",
+      "highlight": "swear by",
+      "targetForm": "swear by something",
+      "targetMeaningZh": "非常信賴;大力推薦"
+    },
+    {
+      "id": "phrasal-verb-215-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "In the old ceremony, each officer had to make a promise in God’s name before receiving the key.",
+      "promptZh": "在古老儀式中,每名官員取得鑰匙前都要以上帝之名起誓。",
+      "starter": "In",
+      "answer": "In the old ceremony, each officer had to swear by God before receiving the key.",
+      "answerZh": "在古老儀式中,每名官員取得鑰匙前都要以上帝之名起誓。",
+      "highlight": "swear by God",
+      "targetForm": "swear by somebody",
+      "targetMeaningZh": "以神明或某人之名起誓"
+    },
+    {
+      "id": "phrasal-verb-215-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The new ministers cannot begin their work until they officially take the oath of office.",
+      "promptZh": "新任部長在正式宣誓就職前不能開始工作。",
+      "starter": "The",
+      "answer": "The new ministers cannot begin their work until they are sworn into office.",
+      "answerZh": "新任部長在宣誓就職前不能開始工作。",
+      "highlight": "are sworn into",
+      "targetForm": "swear somebody into office",
+      "targetMeaningZh": "使某人宣誓就職"
+    },
+    {
+      "id": "phrasal-verb-215-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The three actors who had been made to promise silence knew the ending but avoided every question about it.",
+      "promptZh": "三名被要求承諾保持沉默的演員知道結局,但避開了所有相關問題。",
+      "starter": "The",
+      "answer": "The three actors who had been sworn to silence knew the ending but avoided every question about it.",
+      "answerZh": "三名被要求發誓保持沉默的演員知道結局,但避開了所有相關問題。",
+      "highlight": "sworn",
+      "targetForm": "swear somebody to silence",
+      "targetMeaningZh": "使某人發誓保持沉默"
+    },
+    {
+      "id": "phrasal-verb-215-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "For the school challenge, Nora has decided to promise that she will stop using social media for thirty days.",
+      "promptZh": "為了學校挑戰,Nora 決定承諾三十天內不使用社交媒體。",
+      "starter": "For",
+      "answer": "For the school challenge, Nora has decided to swear off social media for thirty days.",
+      "answerZh": "為了學校挑戰,Nora 決定發誓三十天內戒掉社交媒體。",
+      "highlight": "swear off",
+      "targetForm": "swear off something",
+      "targetMeaningZh": "發誓戒掉某項活動"
+    },
+    {
+      "id": "phrasal-verb-215-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "The photos suggest that the car was red, but nobody can state with complete certainty that it was.",
+      "promptZh": "相片顯示那輛車可能是紅色,但沒有人能完全肯定。",
+      "starter": "The",
+      "answer": "The photos suggest that the car was red, but nobody can swear to it.",
+      "answerZh": "相片顯示那輛車可能是紅色,但沒有人能斷言這是真的。",
+      "highlight": "swear to",
+      "targetForm": "swear to something",
+      "targetMeaningZh": "斷言某事屬實;完全肯定"
+    }
+  ]
+}

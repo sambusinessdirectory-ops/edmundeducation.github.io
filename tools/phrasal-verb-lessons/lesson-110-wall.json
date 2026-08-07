@@ -1,0 +1,998 @@
+{
+  "id": "phrasal-verb-110",
+  "order": 110,
+  "slug": "wall",
+  "version": "1",
+  "title": "WALL 動詞片語",
+  "titleEn": "Wall",
+  "titleZh": "WALL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 109 - WALL.pdf",
+    "sourceNumber": 109,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WALL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WALL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WALL",
+      "highlight": "WALL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Part of the yard had been walled off.",
+      "zh": "院子的一部分已用牆隔開。",
+      "highlight": "walled off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The entrance had been walled up in the 17th century.",
+      "zh": "該入口早在十七世紀已用磚石封起。",
+      "highlight": "walled up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "用牆把某個地方隔開或圍封；用磚石把入口、門窗或洞口完全封起",
+    "en": "wall something off; wall something up",
+    "naturalZh": [
+      "用牆把某個地方隔開或圍封",
+      "用磚石把入口、門窗或洞口完全封起"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "wall something off",
+      "titleZh": "用牆把某個地方隔開或圍封",
+      "titleEn": "wall something off",
+      "descriptionZh": "用牆把某個地方隔開或圍封",
+      "descriptionEn": "Part of the yard had been walled off.",
+      "examples": [
+        {
+          "en": "Part of the yard had been walled off.",
+          "zh": "院子的一部分已用牆隔開。",
+          "highlight": "walled off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wall something up",
+      "titleZh": "用磚石把入口、門窗或洞口完全封起",
+      "titleEn": "wall something up",
+      "descriptionZh": "用磚石把入口、門窗或洞口完全封起",
+      "descriptionEn": "The entrance had been walled up in the 17th century.",
+      "examples": [
+        {
+          "en": "The entrance had been walled up in the 17th century.",
+          "zh": "該入口早在十七世紀已用磚石封起。",
+          "highlight": "walled up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WALL 片語動詞的實際用途",
+    "labelEn": "WALL Phrasal Verbs in Use",
+    "summaryZh": "wall off 可以清楚表示把危險區域或私人區域與其他人分隔開來。；wall up 可以表示舊門口、窗戶、壁爐或其他開口已被完全封起。；人們談論維修、舊建築物、停用房間和安全工程時,經常會使用這些表達。；你可以清楚說明某個區域只是被隔開,還是某個開口已用磚完全封起。",
+    "summaryEn": "Wall off can clearly describe separating a dangerous or private area from other people. Wall up helps you explain that an old door, window, fireplace or other opening has been completely closed. These expressions often appear when people talk about repairs, old buildings, unused rooms and safety work. You can show whether an area was separated or whether an opening was completely filled with bricks.",
+    "contextsZh": [
+      "清楚給出安全指示",
+      "描述建築物的改動",
+      "理解維修和樓宇描述",
+      "準確表達兩種不同的封閉方式"
+    ],
+    "contextsEn": [
+      "Give clear safety instructions",
+      "Describe changes to buildings",
+      "Understand repair and property descriptions",
+      "Express two different kinds of closing clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WALL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WALL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "wall something off",
+    "fixedHighlight": "wall something off",
+    "fixedZh": "閱讀整句,選出意思相同的 WALL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WALL expression that gives the same meaning.",
+    "correct": "walled off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,把它放在 WALL 和 OFF 或 UP 之間。；wall off 通常表示用牆隔開一個區域;wall up 通常表示用磚石把入口、門窗或洞口完全封起。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word between WALL and OFF or UP: wall it off wall them off wall it up wall them up Wall off normally separates an area. Wall up normally closes an opening completely with bricks or stone.",
+    "variableItemsZh": [
+      "wall something off",
+      "wall something up"
+    ],
+    "variableItemsEn": [
+      "wall something off",
+      "wall something up"
+    ],
+    "forms": [
+      {
+        "formZh": "用牆把某個地方隔開或圍封",
+        "formEn": "wall something off",
+        "exampleZh": "院子的一部分已用牆隔開。",
+        "exampleEn": "Part of the yard had been walled off.",
+        "highlight": "walled off"
+      },
+      {
+        "formZh": "用磚石把入口、門窗或洞口完全封起",
+        "formEn": "wall something up",
+        "exampleZh": "該入口早在十七世紀已用磚石封起。",
+        "exampleEn": "The entrance had been walled up in the 17th century.",
+        "highlight": "walled up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "用牆把某個地方隔開或圍封",
+      "titleEn": "wall something off",
+      "formula": "wall something off",
+      "highlight": "wall something off",
+      "descriptionZh": "用牆把某個地方隔開或圍封",
+      "descriptionEn": "Part of the yard had been walled off.",
+      "examples": [
+        {
+          "en": "Part of the yard had been walled off.",
+          "zh": "院子的一部分已用牆隔開。",
+          "highlight": "walled off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用磚石把入口、門窗或洞口完全封起",
+      "titleEn": "wall something up",
+      "formula": "wall something up",
+      "highlight": "wall something up",
+      "descriptionZh": "用磚石把入口、門窗或洞口完全封起",
+      "descriptionEn": "The entrance had been walled up in the 17th century.",
+      "examples": [
+        {
+          "en": "The entrance had been walled up in the 17th century.",
+          "zh": "該入口早在十七世紀已用磚石封起。",
+          "highlight": "walled up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚給出安全指示",
+      "titleEn": "Give clear safety instructions",
+      "zh": "wall off 可以清楚表示把危險區域或私人區域與其他人分隔開來。",
+      "en": "Wall off can clearly describe separating a dangerous or private area from other people."
+    },
+    {
+      "titleZh": "描述建築物的改動",
+      "titleEn": "Describe changes to buildings",
+      "zh": "wall up 可以表示舊門口、窗戶、壁爐或其他開口已被完全封起。",
+      "en": "Wall up helps you explain that an old door, window, fireplace or other opening has been completely closed."
+    },
+    {
+      "titleZh": "理解維修和樓宇描述",
+      "titleEn": "Understand repair and property descriptions",
+      "zh": "人們談論維修、舊建築物、停用房間和安全工程時,經常會使用這些表達。",
+      "en": "These expressions often appear when people talk about repairs, old buildings, unused rooms and safety work."
+    },
+    {
+      "titleZh": "準確表達兩種不同的封閉方式",
+      "titleEn": "Express two different kinds of closing clearly",
+      "zh": "你可以清楚說明某個區域只是被隔開,還是某個開口已用磚完全封起。",
+      "en": "You can show whether an area was separated or whether an opening was completely filled with bricks."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚給出安全指示",
+      "描述建築物的改動",
+      "理解維修和樓宇描述",
+      "準確表達兩種不同的封閉方式"
+    ],
+    "contextsEn": [
+      "Give clear safety instructions",
+      "Describe changes to buildings",
+      "Understand repair and property descriptions",
+      "Express two different kinds of closing clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚給出安全指示",
+        "titleEn": "Give clear safety instructions",
+        "zh": "wall off 可以清楚表示把危險區域或私人區域與其他人分隔開來。",
+        "en": "Wall off can clearly describe separating a dangerous or private area from other people.",
+        "examples": [
+          {
+            "en": "Part of the yard had been walled off.",
+            "zh": "院子的一部分已用牆隔開。",
+            "highlight": "walled off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述建築物的改動",
+        "titleEn": "Describe changes to buildings",
+        "zh": "wall up 可以表示舊門口、窗戶、壁爐或其他開口已被完全封起。",
+        "en": "Wall up helps you explain that an old door, window, fireplace or other opening has been completely closed.",
+        "examples": [
+          {
+            "en": "The entrance had been walled up in the 17th century.",
+            "zh": "該入口早在十七世紀已用磚石封起。",
+            "highlight": "walled up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解維修和樓宇描述",
+        "titleEn": "Understand repair and property descriptions",
+        "zh": "人們談論維修、舊建築物、停用房間和安全工程時,經常會使用這些表達。",
+        "en": "These expressions often appear when people talk about repairs, old buildings, unused rooms and safety work.",
+        "examples": [
+          {
+            "en": "Part of the yard had been walled off.",
+            "zh": "院子的一部分已用牆隔開。",
+            "highlight": "walled off"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確表達兩種不同的封閉方式",
+        "titleEn": "Express two different kinds of closing clearly",
+        "zh": "你可以清楚說明某個區域只是被隔開,還是某個開口已用磚完全封起。",
+        "en": "You can show whether an area was separated or whether an opening was completely filled with bricks.",
+        "examples": [
+          {
+            "en": "The entrance had been walled up in the 17th century.",
+            "zh": "該入口早在十七世紀已用磚石封起。",
+            "highlight": "walled up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WALL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WALL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WALL 片語動詞。",
+      "en": "Read the whole sentence and choose the WALL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,把它放在 WALL 和 OFF 或 UP 之間。",
+      "titleEn": "When using it or them, place the word between WALL and OFF or UP: wall it off wall them off wall it up wall them up.",
+      "zh": "使用 it 或 them 時,把它放在 WALL 和 OFF 或 UP 之間。",
+      "en": "When using it or them, place the word between WALL and OFF or UP: wall it off wall them off wall it up wall them up"
+    },
+    {
+      "titleZh": "wall off 通常表示用牆隔開一個區域;wall up 通常表示用磚石把入口、門窗或洞口完全封起。",
+      "titleEn": "Wall off normally separates an area.",
+      "zh": "wall off 通常表示用牆隔開一個區域;wall up 通常表示用磚石把入口、門窗或洞口完全封起。",
+      "en": "Wall off normally separates an area. Wall up normally closes an opening completely with bricks or stone."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WALL 動詞片語句子改寫練習",
+    "titleEn": "WALL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-110-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Part of the playground was separated from the rest by a wall.",
+      "promptZh": "遊樂場其中一部分以牆與其餘地方分隔開來。",
+      "starter": "Part",
+      "answer": "Part of the playground was walled off from the rest.",
+      "answerZh": "遊樂場其中一部分已用牆與其餘地方分隔開來。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The old doorway was closed with bricks.",
+      "promptZh": "舊門口已用磚封起。",
+      "starter": "The",
+      "answer": "The old doorway was walled up.",
+      "answerZh": "舊門口已用磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Workers built a wall around the damaged area to keep people away.",
+      "promptZh": "工人築牆圍封受損區域,以免人們走近。",
+      "starter": "Workers",
+      "answer": "Workers walled the damaged area off to keep people away.",
+      "answerZh": "工人築牆圍封受損區域,以免人們走近。",
+      "highlight": "walled",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "A new brick wall separated one end of the garden from the rest.",
+      "promptZh": "一幅新的磚牆把花園的一端與其餘部分分隔開來。",
+      "starter": "One",
+      "answer": "One end of the garden was walled off by a new brick wall.",
+      "answerZh": "花園的一端已用一道新的磚牆與其餘部分分隔開來。",
+      "highlight": "was walled off by a new brick wall",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "They closed the unused window with bricks.",
+      "promptZh": "他們用磚把那扇不用的窗戶封起來。",
+      "starter": "They",
+      "answer": "They walled the unused window up.",
+      "answerZh": "他們用磚把那扇不用的窗戶封起來。",
+      "highlight": "walled",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The tunnel entrance was completely closed with stone.",
+      "promptZh": "隧道入口已完全用石塊封起。",
+      "starter": "The",
+      "answer": "The tunnel entrance was completely walled up.",
+      "answerZh": "隧道入口已完全用石塊封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "At the school, a wall separated the bicycle area from the playground.",
+      "promptZh": "在學校裏,單車停放區以牆與遊樂場分隔開來。",
+      "starter": "At",
+      "answer": "At the school, the bicycle area was walled off from the playground.",
+      "answerZh": "在學校裏,單車停放區已用牆與遊樂場分隔開來。",
+      "highlight": "was walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "A builder closed the hole in the wall with bricks.",
+      "promptZh": "一名建築工人用磚把牆上的洞封起來。",
+      "starter": "A",
+      "answer": "A builder walled up the hole in the wall.",
+      "answerZh": "一名建築工人用磚把牆上的洞封起來。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The builders are closing the side entrance with bricks now.",
+      "promptZh": "工人現正用磚封起側門入口。",
+      "starter": "The",
+      "answer": "The builders are walling up the side entrance now.",
+      "answerZh": "工人現正用磚封起側門入口。",
+      "highlight": "walling up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Park workers have separated the unsafe path from the rest of the park with a wall.",
+      "promptZh": "公園職員已築牆把不安全的小路與公園其餘地方分隔開來。",
+      "starter": "Park",
+      "answer": "Park workers have walled off the unsafe path from the rest of the park.",
+      "answerZh": "公園職員已築牆把不安全的小路與公園其餘地方分隔開來。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "We will close the old fireplace with bricks next week.",
+      "promptZh": "我們下星期會用磚把舊壁爐封起。",
+      "starter": "We",
+      "answer": "We will wall up the old fireplace next week.",
+      "answerZh": "我們下星期會用磚把舊壁爐封起。",
+      "highlight": "wall up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The museum should separate the repair area with a wall.",
+      "promptZh": "博物館應該築牆把維修區隔開。",
+      "starter": "The",
+      "answer": "The museum should wall off the repair area.",
+      "answerZh": "博物館應該築牆把維修區隔開。",
+      "highlight": "wall off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Why did the owner separate the back room from the shop with a wall?",
+      "promptZh": "店主為何築牆把後面的房間與店舖分隔開來?",
+      "starter": "Why",
+      "answer": "Why did the owner wall off the back room from the shop?",
+      "answerZh": "店主為何築牆把後面的房間與店舖分隔開來?",
+      "highlight": "wall off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "They did not close the window with bricks after all.",
+      "promptZh": "他們最後沒有用磚把窗戶封起。",
+      "starter": "They",
+      "answer": "They did not wall up the window after all.",
+      "answerZh": "他們最後沒有用磚把窗戶封起。",
+      "highlight": "wall up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The narrow doorway has already been closed with bricks.",
+      "promptZh": "狹窄的門口已經用磚封起。",
+      "starter": "The",
+      "answer": "The narrow doorway has already been walled up.",
+      "answerZh": "狹窄的門口已經用磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "A small section of the car park will be separated from the rest by a wall.",
+      "promptZh": "停車場的一小部分將會以牆與其餘地方分隔開來。",
+      "starter": "A",
+      "answer": "A small section of the car park will be walled off from the rest.",
+      "answerZh": "停車場的一小部分將會以牆與其餘地方分隔開來。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The pond is dangerous, so park staff will separate it from the path with a wall.",
+      "promptZh": "池塘很危險,所以公園職員會築牆把它與小路分隔開來。",
+      "starter": "The",
+      "answer": "The pond is dangerous, so park staff will wall it off from the path.",
+      "answerZh": "池塘很危險,所以公園職員會築牆把它與小路分隔開來。",
+      "highlight": "wall",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "That doorway is no longer needed, so the builders will close it with bricks.",
+      "promptZh": "那個門口已不再需要,所以工人會用磚把它封起。",
+      "starter": "That",
+      "answer": "That doorway is no longer needed, so the builders will wall it up.",
+      "answerZh": "那個門口已不再需要,所以工人會用磚把它封起。",
+      "highlight": "wall",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "There was a quiet study area at the back. The school separated it from the main hall with a wall.",
+      "promptZh": "後面設有一個安靜的溫習區。學校築牆把它與大堂分隔開來。",
+      "starter": "There",
+      "answer": "There was a quiet study area at the back. The school walled it off from the main hall.",
+      "answerZh": "後面設有一個安靜的溫習區。學校築牆把它與大堂分隔開來。",
+      "highlight": "walled",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "To protect the children, a high wall separated the play area from the road.",
+      "promptZh": "為了保護兒童,一幅高牆把遊樂區與馬路分隔開來。",
+      "starter": "To",
+      "answer": "To protect the children, the play area was walled off from the road by a high wall.",
+      "answerZh": "為了保護兒童,遊樂區已用一道高牆與馬路分隔開來。",
+      "highlight": "the play area was walled off from the road by",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The small opening let in cold air, so we closed it with bricks.",
+      "promptZh": "那個小開口讓冷風吹進來,所以我們用磚把它封起。",
+      "starter": "The",
+      "answer": "The small opening let in cold air, so we walled it up.",
+      "answerZh": "那個小開口讓冷風吹進來,所以我們用磚把它封起。",
+      "highlight": "walled",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The old house had two front doors. One was closed with bricks many years ago.",
+      "promptZh": "這間舊屋有兩道前門,其中一道在多年前已用磚封起。",
+      "starter": "The",
+      "answer": "The old house had two front doors. One was walled up many years ago.",
+      "answerZh": "這間舊屋有兩道前門,其中一道在多年前已用磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The manager decided to separate the storage area from the office with a wall.",
+      "promptZh": "經理決定築牆把儲物區與辦公室分隔開來。",
+      "starter": "The",
+      "answer": "The manager decided to wall off the storage area from the office.",
+      "answerZh": "經理決定築牆把儲物區與辦公室分隔開來。",
+      "highlight": "wall off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "During the repairs, the unused entrance was closed with bricks.",
+      "promptZh": "維修期間,那個不用的入口被磚封起。",
+      "starter": "During",
+      "answer": "During the repairs, the unused entrance was walled up.",
+      "answerZh": "維修期間,那個不用的入口被磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Although the shop still needed the room, the old serving window was filled with bricks so nobody could use it.",
+      "promptZh": "雖然店舖仍需要使用該房間,但舊服務窗口已用磚封起,因此沒有人可以再使用它。",
+      "starter": "Although",
+      "answer": "Although the shop still needed the room, the old serving window was walled up so nobody could use it.",
+      "answerZh": "雖然店舖仍需要使用該房間,但舊服務窗口已用磚封起,因此沒有人可以再使用它。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Only the noisy machine area was separated with a wall; the doorway stayed open.",
+      "promptZh": "只有嘈吵的機器區域被牆隔開;門口仍然開放。",
+      "starter": "Only",
+      "answer": "Only the noisy machine area was walled off; the doorway stayed open.",
+      "answerZh": "只有嘈吵的機器區域被牆隔開;門口仍然開放。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "A private dining area was created with a low wall, while the café entrance stayed open.",
+      "promptZh": "咖啡店以矮牆劃出一個私人用餐區,而入口仍然開放。",
+      "starter": "A",
+      "answer": "A private dining area was walled off with a low wall, while the café entrance stayed open.",
+      "answerZh": "咖啡店以矮牆圍出一個私人用餐區,而入口仍然開放。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Although the room was still usable, the old door to the outside was permanently closed with bricks.",
+      "promptZh": "雖然房間仍可使用,但通往外面的舊門已用磚永久封起。",
+      "starter": "Although",
+      "answer": "Although the room was still usable, the old door to the outside was permanently walled up.",
+      "answerZh": "雖然房間仍可使用,但通往外面的舊門已用磚永久封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Nobody could pass through the old doorway because it had been completely filled with bricks.",
+      "promptZh": "沒有人可以穿過舊門口,因為它已完全用磚封起。",
+      "starter": "Nobody",
+      "answer": "Nobody could pass through the old doorway because it had been completely walled up.",
+      "answerZh": "沒有人可以穿過舊門口,因為它已完全用磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "At the zoo, the main gate stayed open, but a separate area for sick animals was created with a wall.",
+      "promptZh": "在動物園裏,正門仍然開放,但園方以牆劃出一個安置生病動物的獨立區域。",
+      "starter": "At",
+      "answer": "At the zoo, the main gate stayed open, but a separate area for sick animals was walled off.",
+      "answerZh": "在動物園裏,正門仍然開放,但園方以牆圍出一個安置生病動物的獨立區域。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Because the floor was weak, the library built a wall around that corner to stop visitors entering.",
+      "promptZh": "由於地板不穩固,圖書館築牆圍封該角落,以免訪客進入。",
+      "starter": "Because",
+      "answer": "Because the floor was weak, the library walled off that corner to stop visitors entering.",
+      "answerZh": "由於地板不穩固,圖書館築牆圍封該角落,以免訪客進入。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Long before the tour began, the castle’s side entrance had been closed with stone.",
+      "promptZh": "早在導賞團開始前,城堡的側門入口已用石塊封起。",
+      "starter": "Long",
+      "answer": "Long before the tour began, the castle’s side entrance had been walled up.",
+      "answerZh": "早在導賞團開始前,城堡的側門入口已用石塊封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "During the event, temporary walls were used to separate the cooking area from visitors.",
+      "promptZh": "活動期間,主辦單位使用臨時牆把煮食區與訪客分隔開來。",
+      "starter": "During",
+      "answer": "During the event, the cooking area was walled off from visitors with temporary walls.",
+      "answerZh": "活動期間,煮食區以臨時牆與訪客分隔開來。",
+      "highlight": "was walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "After the new entrance was built, workers closed the original entrance with bricks and painted over it.",
+      "promptZh": "新入口建成後,工人用磚封起原有入口,並在表面髹上油漆。",
+      "starter": "After",
+      "answer": "After the new entrance was built, workers walled up the original entrance and painted over it.",
+      "answerZh": "新入口建成後,工人用磚封起原有入口,並在表面髹上油漆。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The children could still see the building, but a wall stopped them from entering the unsafe section.",
+      "promptZh": "孩子仍然可以看見該建築物,但一道牆阻止他們進入不安全的區域。",
+      "starter": "The",
+      "answer": "The children could still see the building, but the unsafe section was walled off to stop them entering.",
+      "answerZh": "孩子仍然可以看見該建築物,但不安全的區域已用牆圍封,以免他們進入。",
+      "highlight": "was walled off to stop them entering",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Once the police had finished their checks, the owner used a wall to separate the damaged room from the rest of the house.",
+      "promptZh": "警方完成檢查後,屋主築牆把受損房間與屋內其餘地方分隔開來。",
+      "starter": "Once",
+      "answer": "Once the police had finished their checks, the owner walled off the damaged room from the rest of the house.",
+      "answerZh": "警方完成檢查後,屋主築牆把受損房間與屋內其餘地方分隔開來。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The old fireplace was no longer safe, so the family had it closed permanently with bricks.",
+      "promptZh": "舊壁爐已不再安全,所以這家人請人用磚把它永久封起。",
+      "starter": "The",
+      "answer": "The old fireplace was no longer safe, so the family had it walled up permanently.",
+      "answerZh": "舊壁爐已不再安全,所以這家人請人用磚把它永久封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "By the time the café reopened, its unused side door had been closed with bricks.",
+      "promptZh": "咖啡店重新開業時,那道不用的側門已用磚封起。",
+      "starter": "By",
+      "answer": "By the time the café reopened, its unused side door had been walled up.",
+      "answerZh": "咖啡店重新開業時,那道不用的側門已用磚封起。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    },
+    {
+      "id": "phrasal-verb-110-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Inside the tunnel, the entrance must stay open, but the repair area needs to be separated with a wall.",
+      "promptZh": "隧道入口必須保持開放,但裏面的維修區需要用牆隔開。",
+      "starter": "Inside",
+      "answer": "Inside the tunnel, the entrance must stay open, but the repair area needs to be walled off.",
+      "answerZh": "隧道入口必須保持開放,但裏面的維修區需要用牆隔開。",
+      "highlight": "walled off",
+      "targetForm": "wall something off",
+      "targetMeaningZh": "用牆把某個地方隔開或圍封"
+    },
+    {
+      "id": "phrasal-verb-110-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The old window between the two rooms was filled with bricks, so the wall became solid again.",
+      "promptZh": "兩個房間之間的舊窗戶已用磚封起,因此牆壁再次變得完整。",
+      "starter": "The",
+      "answer": "The old window between the two rooms was walled up, so the wall became solid again.",
+      "answerZh": "兩個房間之間的舊窗戶已用磚封起,因此牆壁再次變得完整。",
+      "highlight": "walled up",
+      "targetForm": "wall something up",
+      "targetMeaningZh": "用磚石把入口、門窗或洞口完全封起"
+    }
+  ]
+}

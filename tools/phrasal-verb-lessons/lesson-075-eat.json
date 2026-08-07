@@ -1,0 +1,1768 @@
+{
+  "id": "phrasal-verb-75",
+  "order": 75,
+  "slug": "eat",
+  "version": "1",
+  "title": "EAT 動詞片語",
+  "titleEn": "Eat",
+  "titleZh": "EAT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 74 - EAT.pdf",
+    "sourceNumber": 74,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 EAT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to EAT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "EAT",
+      "highlight": "EAT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Jealousy is eating away at him.",
+      "zh": "嫉妒正慢慢折磨着他。",
+      "highlight": "eating away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Pollution is eating away at the stone.",
+      "zh": "污染正逐漸侵蝕石頭。",
+      "highlight": "eating away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Are you eating in tonight?",
+      "zh": "你今晚會在家吃飯嗎?",
+      "highlight": "eating in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "憂慮、嫉妒等長時間慢慢折磨某人；逐漸侵蝕或損害某物；在家吃飯;不外出用膳；侵入某物內部並造成損害；外出到餐廳或食肆用膳；強烈情緒完全佔據某人內心,使其非常痛苦；逐漸侵蝕、消耗或毀掉某物；把某樣食物全部吃完；吃完;把食物吃光",
+    "en": "eat away at somebody; eat away at something; eat in; eat into something; eat out; eat somebody up; eat something away; eat something up; eat up",
+    "naturalZh": [
+      "憂慮、嫉妒等長時間慢慢折磨某人",
+      "逐漸侵蝕或損害某物",
+      "在家吃飯;不外出用膳",
+      "侵入某物內部並造成損害",
+      "外出到餐廳或食肆用膳",
+      "強烈情緒完全佔據某人內心,使其非常痛苦",
+      "逐漸侵蝕、消耗或毀掉某物",
+      "把某樣食物全部吃完",
+      "吃完;把食物吃光"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "eat away at somebody",
+      "titleZh": "憂慮、嫉妒等長時間慢慢折磨某人",
+      "titleEn": "eat away at somebody",
+      "descriptionZh": "憂慮、嫉妒等長時間慢慢折磨某人",
+      "descriptionEn": "Jealousy is eating away at him.",
+      "examples": [
+        {
+          "en": "Jealousy is eating away at him.",
+          "zh": "嫉妒正慢慢折磨着他。",
+          "highlight": "eating away at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eat away at something",
+      "titleZh": "逐漸侵蝕或損害某物",
+      "titleEn": "eat away at something",
+      "descriptionZh": "逐漸侵蝕或損害某物",
+      "descriptionEn": "Pollution is eating away at the stone.",
+      "examples": [
+        {
+          "en": "Pollution is eating away at the stone.",
+          "zh": "污染正逐漸侵蝕石頭。",
+          "highlight": "eating away at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eat in",
+      "titleZh": "在家吃飯;不外出用膳",
+      "titleEn": "eat in",
+      "descriptionZh": "在家吃飯;不外出用膳",
+      "descriptionEn": "Are you eating in tonight?",
+      "examples": [
+        {
+          "en": "Are you eating in tonight?",
+          "zh": "你今晚會在家吃飯嗎?",
+          "highlight": "eating in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eat into something",
+      "titleZh": "侵入某物內部並造成損害",
+      "titleEn": "eat into something",
+      "descriptionZh": "侵入某物內部並造成損害",
+      "descriptionEn": "Small insects had eaten into the old table.",
+      "examples": [
+        {
+          "en": "Small insects had eaten into the old table.",
+          "zh": "小昆蟲已蛀入舊桌子的內部。",
+          "highlight": "eaten into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eat out",
+      "titleZh": "外出到餐廳或食肆用膳",
+      "titleEn": "eat out",
+      "descriptionZh": "外出到餐廳或食肆用膳",
+      "descriptionEn": "We ate out almost every night.",
+      "examples": [
+        {
+          "en": "We ate out almost every night.",
+          "zh": "我們幾乎每晚都外出用膳。",
+          "highlight": "ate out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "eat somebody up",
+      "titleZh": "強烈情緒完全佔據某人內心,使其非常痛苦",
+      "titleEn": "eat somebody up",
+      "descriptionZh": "強烈情緒完全佔據某人內心,使其非常痛苦",
+      "descriptionEn": "The anger was eating her up inside.",
+      "examples": [
+        {
+          "en": "The anger was eating her up inside.",
+          "zh": "憤怒正從內心折磨着她。",
+          "highlight": "eating her up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "eat something away",
+      "titleZh": "逐漸侵蝕、消耗或毀掉某物",
+      "titleEn": "eat something away",
+      "descriptionZh": "逐漸侵蝕、消耗或毀掉某物",
+      "descriptionEn": "Small insects were eating the leaves away.",
+      "examples": [
+        {
+          "en": "Small insects were eating the leaves away.",
+          "zh": "小昆蟲正逐漸啃掉那些葉子。",
+          "highlight": "eating the leaves away"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "eat something up",
+      "titleZh": "把某樣食物全部吃完",
+      "titleEn": "eat something up",
+      "descriptionZh": "把某樣食物全部吃完",
+      "descriptionEn": "Please eat your broccoli up.",
+      "examples": [
+        {
+          "en": "Please eat your broccoli up.",
+          "zh": "請把你的西蘭花吃光。",
+          "highlight": "eat your broccoli up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "eat up",
+      "titleZh": "吃完;把食物吃光",
+      "titleEn": "eat up",
+      "descriptionZh": "吃完;把食物吃光",
+      "descriptionEn": "Eat up before your food gets cold.",
+      "examples": [
+        {
+          "en": "Eat up before your food gets cold.",
+          "zh": "在食物變冷前吃完吧。",
+          "highlight": "Eat up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "EAT 片語動詞的實際用途",
+    "labelEn": "EAT Phrasal Verbs in Use",
+    "summaryZh": "eat in 表示在家吃飯;eat out 則表示到餐廳或咖啡店用膳。；eat away at 可以描述表面受到慢慢侵蝕;eat into 可以表示損害深入內部;eat somethingaway 則可表示某部分逐漸被侵蝕或毀掉。；eat away at somebody 表示某種情緒長時間困擾某人;eat somebody up 則表示強烈情緒佔據內心,使人十分痛苦。；eat something up 會說明要吃完哪種食物;當大家已知道所指的食物時,eat up 可作為簡短自然的指示。",
+    "summaryEn": "Eat in means having a meal at home, while eat out means having one at a restaurant or café. Eat away at can describe slow damage to a surface, eat into can show damage going inside, and eat something away can show part of something being removed or destroyed. Eat away at somebody describes a feeling that troubles someone over time. Eat somebody up shows a strong feeling filling and hurting someone inside. Eat something up names the food that must be finished. Eat up gives a short, natural instruction when the food is already clear.",
+    "contextsZh": [
+      "清楚說明在哪裏用膳",
+      "描述不同形式的逐漸損壞",
+      "表達負面情緒如何影響人",
+      "自然地提醒別人把食物吃完"
+    ],
+    "contextsEn": [
+      "Talk clearly about where you have a meal",
+      "Describe different kinds of slow damage",
+      "Express how difficult feelings affect people",
+      "Give natural reminders to finish food"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 EAT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the EAT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "eat away at somebody",
+    "fixedHighlight": "eat away at somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 EAT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the EAT expression that gives the same meaning.",
+    "correct": "eating away at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 EAT ... UP 或 EAT ... AWAY 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；eat away at somebody 通常表示憂慮或情緒長時間慢慢折磨某人;eat somebody up 則表示強烈情緒佔據某人內心,使其非常痛苦。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with EAT... UP or EAT... AWAY, place the word as shown: eat him up eat it up eat it away Eat away at somebody often describes a worry or feeling that hurts the person slowly over time. Eat somebody up describes a strong feeling that fills and troubles the person inside.",
+    "variableItemsZh": [
+      "eat away at somebody",
+      "eat away at something",
+      "eat in",
+      "eat into something",
+      "eat out",
+      "eat somebody up",
+      "eat something away",
+      "eat something up",
+      "eat up"
+    ],
+    "variableItemsEn": [
+      "eat away at somebody",
+      "eat away at something",
+      "eat in",
+      "eat into something",
+      "eat out",
+      "eat somebody up",
+      "eat something away",
+      "eat something up",
+      "eat up"
+    ],
+    "forms": [
+      {
+        "formZh": "憂慮、嫉妒等長時間慢慢折磨某人",
+        "formEn": "eat away at somebody",
+        "exampleZh": "嫉妒正慢慢折磨着他。",
+        "exampleEn": "Jealousy is eating away at him.",
+        "highlight": "eating away at"
+      },
+      {
+        "formZh": "逐漸侵蝕或損害某物",
+        "formEn": "eat away at something",
+        "exampleZh": "污染正逐漸侵蝕石頭。",
+        "exampleEn": "Pollution is eating away at the stone.",
+        "highlight": "eating away at"
+      },
+      {
+        "formZh": "在家吃飯;不外出用膳",
+        "formEn": "eat in",
+        "exampleZh": "你今晚會在家吃飯嗎?",
+        "exampleEn": "Are you eating in tonight?",
+        "highlight": "eating in"
+      },
+      {
+        "formZh": "侵入某物內部並造成損害",
+        "formEn": "eat into something",
+        "exampleZh": "小昆蟲已蛀入舊桌子的內部。",
+        "exampleEn": "Small insects had eaten into the old table.",
+        "highlight": "eaten into"
+      },
+      {
+        "formZh": "外出到餐廳或食肆用膳",
+        "formEn": "eat out",
+        "exampleZh": "我們幾乎每晚都外出用膳。",
+        "exampleEn": "We ate out almost every night.",
+        "highlight": "ate out"
+      },
+      {
+        "formZh": "強烈情緒完全佔據某人內心,使其非常痛苦",
+        "formEn": "eat somebody up",
+        "exampleZh": "憤怒正從內心折磨着她。",
+        "exampleEn": "The anger was eating her up inside.",
+        "highlight": "eating her up"
+      },
+      {
+        "formZh": "逐漸侵蝕、消耗或毀掉某物",
+        "formEn": "eat something away",
+        "exampleZh": "小昆蟲正逐漸啃掉那些葉子。",
+        "exampleEn": "Small insects were eating the leaves away.",
+        "highlight": "eating the leaves away"
+      },
+      {
+        "formZh": "把某樣食物全部吃完",
+        "formEn": "eat something up",
+        "exampleZh": "請把你的西蘭花吃光。",
+        "exampleEn": "Please eat your broccoli up.",
+        "highlight": "eat your broccoli up"
+      },
+      {
+        "formZh": "吃完;把食物吃光",
+        "formEn": "eat up",
+        "exampleZh": "在食物變冷前吃完吧。",
+        "exampleEn": "Eat up before your food gets cold.",
+        "highlight": "Eat up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "憂慮、嫉妒等長時間慢慢折磨某人",
+      "titleEn": "eat away at somebody",
+      "formula": "eat away at somebody",
+      "highlight": "eat away at somebody",
+      "descriptionZh": "憂慮、嫉妒等長時間慢慢折磨某人",
+      "descriptionEn": "Jealousy is eating away at him.",
+      "examples": [
+        {
+          "en": "Jealousy is eating away at him.",
+          "zh": "嫉妒正慢慢折磨着他。",
+          "highlight": "eating away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "逐漸侵蝕或損害某物",
+      "titleEn": "eat away at something",
+      "formula": "eat away at something",
+      "highlight": "eat away at something",
+      "descriptionZh": "逐漸侵蝕或損害某物",
+      "descriptionEn": "Pollution is eating away at the stone.",
+      "examples": [
+        {
+          "en": "Pollution is eating away at the stone.",
+          "zh": "污染正逐漸侵蝕石頭。",
+          "highlight": "eating away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在家吃飯;不外出用膳",
+      "titleEn": "eat in",
+      "formula": "eat in",
+      "highlight": "eat in",
+      "descriptionZh": "在家吃飯;不外出用膳",
+      "descriptionEn": "Are you eating in tonight?",
+      "examples": [
+        {
+          "en": "Are you eating in tonight?",
+          "zh": "你今晚會在家吃飯嗎?",
+          "highlight": "eating in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "侵入某物內部並造成損害",
+      "titleEn": "eat into something",
+      "formula": "eat into something",
+      "highlight": "eat into something",
+      "descriptionZh": "侵入某物內部並造成損害",
+      "descriptionEn": "Small insects had eaten into the old table.",
+      "examples": [
+        {
+          "en": "Small insects had eaten into the old table.",
+          "zh": "小昆蟲已蛀入舊桌子的內部。",
+          "highlight": "eaten into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "外出到餐廳或食肆用膳",
+      "titleEn": "eat out",
+      "formula": "eat out",
+      "highlight": "eat out",
+      "descriptionZh": "外出到餐廳或食肆用膳",
+      "descriptionEn": "We ate out almost every night.",
+      "examples": [
+        {
+          "en": "We ate out almost every night.",
+          "zh": "我們幾乎每晚都外出用膳。",
+          "highlight": "ate out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "強烈情緒完全佔據某人內心,使其非常痛苦",
+      "titleEn": "eat somebody up",
+      "formula": "eat somebody up",
+      "highlight": "eat somebody up",
+      "descriptionZh": "強烈情緒完全佔據某人內心,使其非常痛苦",
+      "descriptionEn": "The anger was eating her up inside.",
+      "examples": [
+        {
+          "en": "The anger was eating her up inside.",
+          "zh": "憤怒正從內心折磨着她。",
+          "highlight": "eating her up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "逐漸侵蝕、消耗或毀掉某物",
+      "titleEn": "eat something away",
+      "formula": "eat something away",
+      "highlight": "eat something away",
+      "descriptionZh": "逐漸侵蝕、消耗或毀掉某物",
+      "descriptionEn": "Small insects were eating the leaves away.",
+      "examples": [
+        {
+          "en": "Small insects were eating the leaves away.",
+          "zh": "小昆蟲正逐漸啃掉那些葉子。",
+          "highlight": "eating the leaves away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把某樣食物全部吃完",
+      "titleEn": "eat something up",
+      "formula": "eat something up",
+      "highlight": "eat something up",
+      "descriptionZh": "把某樣食物全部吃完",
+      "descriptionEn": "Please eat your broccoli up.",
+      "examples": [
+        {
+          "en": "Please eat your broccoli up.",
+          "zh": "請把你的西蘭花吃光。",
+          "highlight": "eat your broccoli up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "吃完;把食物吃光",
+      "titleEn": "eat up",
+      "formula": "eat up",
+      "highlight": "eat up",
+      "descriptionZh": "吃完;把食物吃光",
+      "descriptionEn": "Eat up before your food gets cold.",
+      "examples": [
+        {
+          "en": "Eat up before your food gets cold.",
+          "zh": "在食物變冷前吃完吧。",
+          "highlight": "Eat up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明在哪裏用膳",
+      "titleEn": "Talk clearly about where you have a meal",
+      "zh": "eat in 表示在家吃飯;eat out 則表示到餐廳或咖啡店用膳。",
+      "en": "Eat in means having a meal at home, while eat out means having one at a restaurant or café."
+    },
+    {
+      "titleZh": "描述不同形式的逐漸損壞",
+      "titleEn": "Describe different kinds of slow damage",
+      "zh": "eat away at 可以描述表面受到慢慢侵蝕;eat into 可以表示損害深入內部;eat somethingaway 則可表示某部分逐漸被侵蝕或毀掉。",
+      "en": "Eat away at can describe slow damage to a surface, eat into can show damage going inside, and eat something away can show part of something being removed or destroyed."
+    },
+    {
+      "titleZh": "表達負面情緒如何影響人",
+      "titleEn": "Express how difficult feelings affect people",
+      "zh": "eat away at somebody 表示某種情緒長時間困擾某人;eat somebody up 則表示強烈情緒佔據內心,使人十分痛苦。",
+      "en": "Eat away at somebody describes a feeling that troubles someone over time. Eat somebody up shows a strong feeling filling and hurting someone inside."
+    },
+    {
+      "titleZh": "自然地提醒別人把食物吃完",
+      "titleEn": "Give natural reminders to finish food",
+      "zh": "eat something up 會說明要吃完哪種食物;當大家已知道所指的食物時,eat up 可作為簡短自然的指示。",
+      "en": "Eat something up names the food that must be finished. Eat up gives a short, natural instruction when the food is already clear."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明在哪裏用膳",
+      "描述不同形式的逐漸損壞",
+      "表達負面情緒如何影響人",
+      "自然地提醒別人把食物吃完"
+    ],
+    "contextsEn": [
+      "Talk clearly about where you have a meal",
+      "Describe different kinds of slow damage",
+      "Express how difficult feelings affect people",
+      "Give natural reminders to finish food"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明在哪裏用膳",
+        "titleEn": "Talk clearly about where you have a meal",
+        "zh": "eat in 表示在家吃飯;eat out 則表示到餐廳或咖啡店用膳。",
+        "en": "Eat in means having a meal at home, while eat out means having one at a restaurant or café.",
+        "examples": [
+          {
+            "en": "Jealousy is eating away at him.",
+            "zh": "嫉妒正慢慢折磨着他。",
+            "highlight": "eating away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同形式的逐漸損壞",
+        "titleEn": "Describe different kinds of slow damage",
+        "zh": "eat away at 可以描述表面受到慢慢侵蝕;eat into 可以表示損害深入內部;eat somethingaway 則可表示某部分逐漸被侵蝕或毀掉。",
+        "en": "Eat away at can describe slow damage to a surface, eat into can show damage going inside, and eat something away can show part of something being removed or destroyed.",
+        "examples": [
+          {
+            "en": "Pollution is eating away at the stone.",
+            "zh": "污染正逐漸侵蝕石頭。",
+            "highlight": "eating away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達負面情緒如何影響人",
+        "titleEn": "Express how difficult feelings affect people",
+        "zh": "eat away at somebody 表示某種情緒長時間困擾某人;eat somebody up 則表示強烈情緒佔據內心,使人十分痛苦。",
+        "en": "Eat away at somebody describes a feeling that troubles someone over time. Eat somebody up shows a strong feeling filling and hurting someone inside.",
+        "examples": [
+          {
+            "en": "Are you eating in tonight?",
+            "zh": "你今晚會在家吃飯嗎?",
+            "highlight": "eating in"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地提醒別人把食物吃完",
+        "titleEn": "Give natural reminders to finish food",
+        "zh": "eat something up 會說明要吃完哪種食物;當大家已知道所指的食物時,eat up 可作為簡短自然的指示。",
+        "en": "Eat something up names the food that must be finished. Eat up gives a short, natural instruction when the food is already clear.",
+        "examples": [
+          {
+            "en": "Small insects had eaten into the old table.",
+            "zh": "小昆蟲已蛀入舊桌子的內部。",
+            "highlight": "eaten into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 EAT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the EAT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 EAT 片語動詞。",
+      "en": "Read the whole sentence and choose the EAT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 EAT ... UP 或 EAT ... AWAY 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them with EAT.",
+      "zh": "在 EAT ... UP 或 EAT ... AWAY 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them with EAT... UP or EAT... AWAY, place the word as shown: eat him up eat it up eat it away"
+    },
+    {
+      "titleZh": "eat away at somebody 通常表示憂慮或情緒長時間慢慢折磨某人;eat somebody up 則表示強烈情緒佔據某人內心,使其非常痛苦。",
+      "titleEn": "Eat away at somebody often describes a worry or feeling that hurts the person slowly over time.",
+      "zh": "eat away at somebody 通常表示憂慮或情緒長時間慢慢折磨某人;eat somebody up 則表示強烈情緒佔據某人內心,使其非常痛苦。",
+      "en": "Eat away at somebody often describes a worry or feeling that hurts the person slowly over time. Eat somebody up describes a strong feeling that fills and troubles the person inside."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 EAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to EAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "EAT 動詞片語句子改寫練習",
+    "titleEn": "EAT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 EAT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to EAT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-75-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We are having dinner at home tonight.",
+      "promptZh": "我們今晚會在家吃飯。",
+      "starter": "We",
+      "answer": "We are eating in tonight.",
+      "answerZh": "我們今晚會在家吃飯。",
+      "highlight": "eating in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Salt was slowly damaging the stone steps.",
+      "promptZh": "鹽分正慢慢侵蝕石級。",
+      "starter": "Salt",
+      "answer": "Salt was eating away at the stone steps.",
+      "answerZh": "鹽分正逐漸侵蝕石級。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please finish all your carrots.",
+      "promptZh": "請把所有甘筍吃完。",
+      "starter": "Please",
+      "answer": "Please eat your carrots up.",
+      "answerZh": "請把你的甘筍吃光。",
+      "highlight": "eat",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A small worry was slowly making Daniel unhappy.",
+      "promptZh": "一個小小的憂慮正慢慢令丹尼爾不快。",
+      "starter": "A",
+      "answer": "A small worry was eating away at Daniel.",
+      "answerZh": "一個小小的憂慮正慢慢折磨着丹尼爾。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We had dinner at a restaurant last night.",
+      "promptZh": "我們昨晚到餐廳吃飯。",
+      "starter": "We",
+      "answer": "We ate out last night.",
+      "answerZh": "我們昨晚外出用膳。",
+      "highlight": "ate out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Small insects had damaged the inside of the old table.",
+      "promptZh": "小昆蟲已損壞舊桌子的內部。",
+      "starter": "Small",
+      "answer": "Small insects had eaten into the old table.",
+      "answerZh": "小昆蟲已蛀入舊桌子的內部。",
+      "highlight": "eaten into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Children, finish eating before we leave.",
+      "promptZh": "孩子們,在我們離開前吃完。",
+      "starter": "Children",
+      "answer": "Children, eat up before we leave.",
+      "answerZh": "孩子們,在我們離開前吃完吧。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Caterpillars slowly destroyed the leaves.",
+      "promptZh": "毛蟲慢慢啃掉了那些葉子。",
+      "starter": "Caterpillars",
+      "answer": "Caterpillars slowly ate the leaves away.",
+      "answerZh": "毛蟲慢慢把那些葉子啃掉了。",
+      "highlight": "ate",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The anger was making her feel terrible inside.",
+      "promptZh": "憤怒令她內心非常難受。",
+      "starter": "The",
+      "answer": "The anger was eating her up inside.",
+      "answerZh": "憤怒正從內心折磨着她。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Rain was slowly damaging the old wall.",
+      "promptZh": "雨水正慢慢損壞那幅舊牆。",
+      "starter": "Rain",
+      "answer": "Rain was eating away at the old wall.",
+      "answerZh": "雨水正逐漸侵蝕那幅舊牆。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The insects had made deep holes in the cupboard.",
+      "promptZh": "昆蟲已在櫃子內蛀出深洞。",
+      "starter": "The",
+      "answer": "The insects had eaten into the cupboard.",
+      "answerZh": "昆蟲已蛀入櫃子內部。",
+      "highlight": "eaten into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Guilt was troubling Noah more every day.",
+      "promptZh": "罪疚感一天比一天更折磨諾亞。",
+      "starter": "Guilt",
+      "answer": "Guilt was eating away at Noah more every day.",
+      "answerZh": "罪疚感一天比一天更折磨諾亞。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ben finished all the soup.",
+      "promptZh": "賓把湯全部喝光了。",
+      "starter": "Ben",
+      "answer": "Ben ate the soup up.",
+      "answerZh": "賓把湯全部喝光了。",
+      "highlight": "ate",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Come on, finish eating.",
+      "promptZh": "快點,吃完吧。",
+      "starter": "Come",
+      "answer": "Come on, eat up.",
+      "answerZh": "快點,吃完吧。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The damp is slowly damaging the wood from inside.",
+      "promptZh": "濕氣正從內部慢慢損壞木材。",
+      "starter": "The",
+      "answer": "The damp is eating into the wood.",
+      "answerZh": "濕氣正侵蝕木材的內部。",
+      "highlight": "eating into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Are you having lunch at home today?",
+      "promptZh": "你今天會在家吃午飯嗎?",
+      "starter": "Are",
+      "answer": "Are you eating in for lunch today?",
+      "answerZh": "你今天會在家吃午飯嗎?",
+      "highlight": "eating in for",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Her fear had been troubling her a little more each day for weeks.",
+      "promptZh": "數星期以來,恐懼每天都更折磨她一點。",
+      "starter": "Her",
+      "answer": "Her fear had been eating away at her a little more each day for weeks.",
+      "answerZh": "數星期以來,恐懼每天都更折磨她一點。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The last piece of toast was on his plate. Leo has finished it.",
+      "promptZh": "最後一片多士原本在他的碟上。里奧已把它吃完。",
+      "starter": "The",
+      "answer": "The last piece of toast was on his plate. Leo has eaten it up.",
+      "answerZh": "最後一片多士原本在他的碟上。里奧已把它吃光。",
+      "highlight": "eaten",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Shall we have dinner at a café tonight?",
+      "promptZh": "我們今晚到咖啡店吃飯好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we eat out tonight?",
+      "answerZh": "我們今晚外出用膳好嗎?",
+      "highlight": "eat out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The sea is slowly damaging the cliff.",
+      "promptZh": "海水正慢慢侵蝕懸崖。",
+      "starter": "The",
+      "answer": "The sea is eating away at the cliff.",
+      "answerZh": "海水正逐漸侵蝕懸崖。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Jealousy was filling all his thoughts and making him miserable inside.",
+      "promptZh": "嫉妒正佔據他所有思想,令他內心十分痛苦。",
+      "starter": "Jealousy",
+      "answer": "Jealousy was eating him up inside.",
+      "answerZh": "嫉妒正從內心折磨着他。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will you finish eating before we leave?",
+      "promptZh": "你會在我們離開前吃完嗎?",
+      "starter": "Will",
+      "answer": "Will you eat up before we leave?",
+      "answerZh": "你會在我們離開前吃完嗎?",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The acid is slowly removing the paint.",
+      "promptZh": "酸液正慢慢除去油漆。",
+      "starter": "The",
+      "answer": "The acid is eating the paint away.",
+      "answerZh": "酸液正逐漸侵蝕掉油漆。",
+      "highlight": "eating",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We usually have dinner at home on Fridays.",
+      "promptZh": "我們通常在星期五留在家中吃飯。",
+      "starter": "We",
+      "answer": "We usually eat in on Fridays.",
+      "answerZh": "我們通常在星期五留在家中用膳。",
+      "highlight": "eat in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Please finish it before the bell rings.",
+      "promptZh": "請在鐘聲響起前把它吃完。",
+      "starter": "Please",
+      "answer": "Please eat it up before the bell rings.",
+      "answerZh": "請在鐘聲響起前把它吃光。",
+      "highlight": "eat",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Shame was filling his thoughts and making him feel awful inside.",
+      "promptZh": "羞愧感正佔據他的思想,令他內心非常難受。",
+      "starter": "Shame",
+      "answer": "Shame was eating him up inside.",
+      "answerZh": "羞愧感正從內心折磨着他。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They do not have dinner at restaurants very often.",
+      "promptZh": "他們不常到餐廳吃晚飯。",
+      "starter": "They",
+      "answer": "They do not eat out very often.",
+      "answerZh": "他們不常外出用膳。",
+      "highlight": "eat out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The strong cleaner has slowly removed the paint.",
+      "promptZh": "強力清潔劑已慢慢除去油漆。",
+      "starter": "The",
+      "answer": "The strong cleaner has eaten the paint away.",
+      "answerZh": "強力清潔劑已逐漸侵蝕掉油漆。",
+      "highlight": "eaten",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The cake was still on the plate, but Ava finished it.",
+      "promptZh": "蛋糕仍在碟上,但艾娃把它吃完了。",
+      "starter": "The",
+      "answer": "The cake was still on the plate, but Ava ate it up.",
+      "answerZh": "蛋糕仍在碟上,但艾娃把它吃光了。",
+      "highlight": "ate",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Ethan smiled in class, but his worry troubled him a little more each day.",
+      "promptZh": "伊森在課堂上微笑,但憂慮一天比一天更折磨他。",
+      "starter": "Ethan",
+      "answer": "Ethan smiled in class, but his worry ate away at him a little more each day.",
+      "answerZh": "伊森在課堂上微笑,但憂慮一天比一天更折磨他。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Rot had spread deep inside the wooden post and damaged much of it.",
+      "promptZh": "腐爛已深入木柱內部,並損壞了其中一大部分。",
+      "starter": "Rot",
+      "answer": "Rot had eaten deep into the wooden post and damaged much of it.",
+      "answerZh": "腐爛已深入侵蝕木柱內部,並損壞了其中一大部分。",
+      "highlight": "eaten",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The rain is heavy, so we will have dinner at home.",
+      "promptZh": "雨勢很大,所以我們會在家吃晚飯。",
+      "starter": "The",
+      "answer": "The rain is heavy, so we will eat in.",
+      "answerZh": "雨勢很大,所以我們會在家用膳。",
+      "highlight": "eat in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She tried to hide it, but guilt was filling her thoughts and making her miserable inside.",
+      "promptZh": "她嘗試把它藏起來,但罪疚感正佔據她的思想,令她內心十分痛苦。",
+      "starter": "She",
+      "answer": "She tried to hide it, but guilt was eating her up inside.",
+      "answerZh": "她嘗試把它藏起來,但罪疚感正從內心折磨着她。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The metal looked strong, but rust was slowly damaging it.",
+      "promptZh": "金屬看來很堅固,但鐵鏽正慢慢損壞它。",
+      "starter": "The",
+      "answer": "The metal looked strong, but rust was eating away at it.",
+      "answerZh": "金屬看來很堅固,但鐵鏽正逐漸侵蝕它。",
+      "highlight": "eating away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "It is our anniversary, so we are having dinner at a restaurant.",
+      "promptZh": "今天是我們的周年紀念日,所以我們會到餐廳吃晚飯。",
+      "starter": "It",
+      "answer": "It is our anniversary, so we are eating out.",
+      "answerZh": "今天是我們的周年紀念日,所以我們會外出用膳。",
+      "highlight": "eating out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "You have only five minutes left, so finish eating now.",
+      "promptZh": "你只剩下五分鐘,所以現在吃完。",
+      "starter": "You",
+      "answer": "You have only five minutes left, so eat up now.",
+      "answerZh": "你只剩下五分鐘,所以現在吃完吧。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "By morning, insects had destroyed much of the soft wood.",
+      "promptZh": "到了早上,昆蟲已破壞了大部分軟木。",
+      "starter": "By",
+      "answer": "By morning, insects had eaten much of the soft wood away.",
+      "answerZh": "到了早上,昆蟲已蛀掉了大部分軟木。",
+      "highlight": "eaten",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The water found a crack and slowly damaged the wall inside.",
+      "promptZh": "水從一道裂縫滲入,並慢慢損壞牆壁內部。",
+      "starter": "The",
+      "answer": "The water found a crack and ate into the wall.",
+      "answerZh": "水從一道裂縫滲入,並侵蝕牆壁內部。",
+      "highlight": "ate into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She could not relax because doubt troubled her a little more each day.",
+      "promptZh": "她無法放鬆,因為疑慮一天比一天更困擾她。",
+      "starter": "She",
+      "answer": "She could not relax because doubt ate away at her a little more each day.",
+      "answerZh": "她無法放鬆,因為疑慮一天比一天更折磨她。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "He said he was fine, but anger was still filling all his thoughts.",
+      "promptZh": "他說自己沒事,但憤怒仍佔據着他所有思想。",
+      "starter": "He",
+      "answer": "He said he was fine, but anger was still eating him up inside.",
+      "answerZh": "他說自己沒事,但憤怒仍從內心折磨着他。",
+      "highlight": "eating him up inside",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Over the years, pollution has slowly damaged the statue’s surface.",
+      "promptZh": "多年來,污染一直慢慢損壞雕像表面。",
+      "starter": "Over",
+      "answer": "Over the years, pollution has eaten away at the statue’s surface.",
+      "answerZh": "多年來,污染一直逐漸侵蝕雕像表面。",
+      "highlight": "eaten away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The bus leaves soon. Everyone, finish eating.",
+      "promptZh": "巴士很快開出。各位,吃完吧。",
+      "starter": "The",
+      "answer": "The bus leaves soon. Everyone, eat up.",
+      "answerZh": "巴士很快開出。各位,吃完吧。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Small waves slowly weakened the rock’s surface.",
+      "promptZh": "小浪慢慢削弱岩石表面。",
+      "starter": "Small",
+      "answer": "Small waves slowly ate away at the rock.",
+      "answerZh": "小浪逐漸侵蝕岩石。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The kitchen is closed, so we will have dinner at a restaurant.",
+      "promptZh": "廚房關閉了,所以我們會到餐廳吃晚飯。",
+      "starter": "The",
+      "answer": "The kitchen is closed, so we will eat out.",
+      "answerZh": "廚房關閉了,所以我們會外出用膳。",
+      "highlight": "eat out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I gave the sandwich to Ryan, and he finished every bite.",
+      "promptZh": "我把三文治交給賴恩,而他把每一口都吃完了。",
+      "starter": "I",
+      "answer": "I gave the sandwich to Ryan, and he ate it up.",
+      "answerZh": "我把三文治交給賴恩,而他把它吃光了。",
+      "highlight": "ate it up",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nothing was wrong yet, but the fear of failure troubled Priya day after day.",
+      "promptZh": "事情尚未出錯,但對失敗的恐懼每天都困擾着普里雅。",
+      "starter": "Nothing",
+      "answer": "Nothing was wrong yet, but the fear of failure ate away at Priya day after day.",
+      "answerZh": "事情尚未出錯,但對失敗的恐懼每天都慢慢折磨着普里雅。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The roads are icy, so the family decided to have dinner at home.",
+      "promptZh": "路面結冰了,所以一家人決定在家吃晚飯。",
+      "starter": "The",
+      "answer": "The roads are icy, so the family decided to eat in.",
+      "answerZh": "路面結冰了,所以一家人決定在家用膳。",
+      "highlight": "eat in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The river slowly removed the soft soil beside the path.",
+      "promptZh": "河水慢慢沖走小路旁的鬆軟泥土。",
+      "starter": "The",
+      "answer": "The river slowly ate the soft soil away beside the path.",
+      "answerZh": "河水逐漸侵蝕掉小路旁的鬆軟泥土。",
+      "highlight": "ate",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The wood looked fine outside, but insects had damaged it deep inside.",
+      "promptZh": "木材外面看來完好,但昆蟲已從深處損壞它。",
+      "starter": "The",
+      "answer": "The wood looked fine outside, but insects had eaten into it.",
+      "answerZh": "木材外面看來完好,但昆蟲已蛀入其內部。",
+      "highlight": "eaten into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Everyone else had finished eating, so the teacher told Omar to finish.",
+      "promptZh": "其他人都吃完了,所以老師叫奧馬也吃完。",
+      "starter": "Everyone",
+      "answer": "Everyone else had finished eating, so the teacher told Omar to eat up.",
+      "answerZh": "其他人都吃完了,所以老師叫奧馬也吃完。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The problem was filling all her thoughts and making her deeply unhappy.",
+      "promptZh": "那個問題正佔據她所有思想,令她非常不快。",
+      "starter": "The",
+      "answer": "The problem was eating her up inside.",
+      "answerZh": "那個問題正從內心折磨着她。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because nobody wanted to wash dishes, they had dinner at a nearby café.",
+      "promptZh": "因為沒有人想洗碗,所以他們到附近的咖啡店吃晚飯。",
+      "starter": "Because",
+      "answer": "Because nobody wanted to wash dishes, they ate out at a nearby café.",
+      "answerZh": "因為沒有人想洗碗,所以他們到附近的咖啡店用膳。",
+      "highlight": "ate out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The baby was asleep, so the parents had dinner at home.",
+      "promptZh": "嬰兒睡着了,所以父母在家吃晚飯。",
+      "starter": "The",
+      "answer": "The baby was asleep, so the parents ate in.",
+      "answerZh": "嬰兒睡着了,所以父母在家用膳。",
+      "highlight": "ate in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The bowl was almost full, but the puppy soon finished everything in it.",
+      "promptZh": "碗幾乎是滿的,但小狗很快便把裏面的東西全吃完。",
+      "starter": "The",
+      "answer": "The bowl was almost full, but the puppy soon ate everything up.",
+      "answerZh": "碗幾乎是滿的,但小狗很快便把所有東西吃光。",
+      "highlight": "ate",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The paint was thin, and the chemical slowly removed it from the door.",
+      "promptZh": "油漆很薄,而化學品慢慢把它從門上除去。",
+      "starter": "The",
+      "answer": "The paint was thin, and the chemical slowly ate it away.",
+      "answerZh": "油漆很薄,而化學品逐漸把它侵蝕掉。",
+      "highlight": "ate",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Do not sit there talking; finish eating.",
+      "promptZh": "不要坐在那裏說話;把東西吃完。",
+      "starter": "Do",
+      "answer": "Do not sit there talking; eat up.",
+      "answerZh": "不要坐在那裏說話;吃完吧。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Everyone thought Lucas was calm, but anger had been filling all his thoughts for days.",
+      "promptZh": "大家都以為盧卡斯很冷靜,但憤怒已佔據他所有思想多天。",
+      "starter": "Everyone",
+      "answer": "Everyone thought Lucas was calm, but anger had been eating him up inside for days.",
+      "answerZh": "大家都以為盧卡斯很冷靜,但憤怒已從內心折磨了他多天。",
+      "highlight": "eating him up inside",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The weather is getting worse, and the nearest restaurant is far away, so let us have dinner at home.",
+      "promptZh": "天氣愈來愈差,而最近的餐廳也很遠,所以我們留在家中吃晚飯吧。",
+      "starter": "The",
+      "answer": "The weather is getting worse, and the nearest restaurant is far away, so let us eat in.",
+      "answerZh": "天氣愈來愈差,而最近的餐廳也很遠,所以我們留在家中用膳吧。",
+      "highlight": "eat in",
+      "targetForm": "eat in",
+      "targetMeaningZh": "在家吃飯;不外出用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The old gate still stood, but years of salt and rain had slowly weakened its surface.",
+      "promptZh": "舊閘門仍然屹立,但多年的鹽分和雨水已慢慢削弱其表面。",
+      "starter": "The",
+      "answer": "The old gate still stood, but years of salt and rain had eaten away at its surface.",
+      "answerZh": "舊閘門仍然屹立,但多年的鹽分和雨水已逐漸侵蝕其表面。",
+      "highlight": "eaten away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Sana said she was not hungry, but a few minutes later the bowl was empty because she had finished it all.",
+      "promptZh": "薩娜說自己不餓,但幾分鐘後碗便空了,因為她已把裏面的東西全部吃完。",
+      "starter": "Sana",
+      "answer": "Sana said she was not hungry, but a few minutes later the bowl was empty because she had eaten it all up.",
+      "answerZh": "薩娜說自己不餓,但幾分鐘後碗便空了,因為她已把裏面的東西全部吃光。",
+      "highlight": "eaten",
+      "targetForm": "eat something up",
+      "targetMeaningZh": "把某樣食物全部吃完"
+    },
+    {
+      "id": "phrasal-verb-75-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The shelf looked safe until the worker found that insects had damaged the wood deeply from within.",
+      "promptZh": "架子看來很安全,直至工人發現昆蟲已從內部深處損壞木材。",
+      "starter": "The",
+      "answer": "The shelf looked safe until the worker found that insects had eaten into the wood.",
+      "answerZh": "架子看來很安全,直至工人發現昆蟲已蛀入木材內部。",
+      "highlight": "eaten into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although Amir had done nothing wrong, the same small doubt troubled him a little more every night.",
+      "promptZh": "雖然阿米爾沒有做錯任何事,但同一個小疑慮每晚都更折磨他一點。",
+      "starter": "Although",
+      "answer": "Although Amir had done nothing wrong, the same small doubt ate away at him a little more every night.",
+      "answerZh": "雖然阿米爾沒有做錯任何事,但同一個小疑慮每晚都更折磨他一點。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "We had planned to cook, but there was no electricity, so we had dinner at a restaurant nearby.",
+      "promptZh": "我們原本打算煮飯,但當時沒有電,所以我們到附近的餐廳吃晚飯。",
+      "starter": "We",
+      "answer": "We had planned to cook, but there was no electricity, so we ate out at a nearby restaurant.",
+      "answerZh": "我們原本打算煮飯,但當時沒有電,所以我們到附近的餐廳用膳。",
+      "highlight": "ate out",
+      "targetForm": "eat out",
+      "targetMeaningZh": "外出到餐廳或食肆用膳"
+    },
+    {
+      "id": "phrasal-verb-75-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After months of rain, water had slowly removed much of the soft earth under the steps.",
+      "promptZh": "下了幾個月雨後,水已慢慢沖走梯級下的大量鬆軟泥土。",
+      "starter": "After",
+      "answer": "After months of rain, water had eaten much of the soft earth away under the steps.",
+      "answerZh": "下了幾個月雨後,水已逐漸侵蝕掉梯級下的大量鬆軟泥土。",
+      "highlight": "eaten",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    },
+    {
+      "id": "phrasal-verb-75-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The coach was waiting, so the children had to finish eating without talking.",
+      "promptZh": "教練正在等候,所以孩子們必須不說話地吃完。",
+      "starter": "The",
+      "answer": "The coach was waiting, so the children had to eat up without talking.",
+      "answerZh": "教練正在等候,所以孩子們必須不說話地吃完。",
+      "highlight": "eat up",
+      "targetForm": "eat up",
+      "targetMeaningZh": "吃完;把食物吃光"
+    },
+    {
+      "id": "phrasal-verb-75-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The top of the table looked normal, but small insects had damaged most of it from inside.",
+      "promptZh": "桌面看來正常,但小昆蟲已從內部損壞其中大部分。",
+      "starter": "The",
+      "answer": "The top of the table looked normal, but small insects had eaten into most of it.",
+      "answerZh": "桌面看來正常,但小昆蟲已蛀入其中大部分。",
+      "highlight": "eaten into",
+      "targetForm": "eat into something",
+      "targetMeaningZh": "侵入某物內部並造成損害"
+    },
+    {
+      "id": "phrasal-verb-75-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "She wanted to forgive him, but anger was still filling all her thoughts and making her miserable.",
+      "promptZh": "她想原諒他,但憤怒仍佔據她所有思想,令她十分痛苦。",
+      "starter": "She",
+      "answer": "She wanted to forgive him, but anger was still eating her up inside.",
+      "answerZh": "她想原諒他,但憤怒仍從內心折磨着她。",
+      "highlight": "eating",
+      "targetForm": "eat somebody up",
+      "targetMeaningZh": "強烈情緒完全佔據某人內心,使其非常痛苦"
+    },
+    {
+      "id": "phrasal-verb-75-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The details on the stone lion had become less clear because dirty air had slowly damaged it for years.",
+      "promptZh": "石獅上的細節變得不再清晰,因為污濁空氣多年來一直慢慢損壞它。",
+      "starter": "The",
+      "answer": "The details on the stone lion had become less clear because dirty air had been eating away at it for years.",
+      "answerZh": "石獅上的細節變得不再清晰,因為污濁空氣多年來一直逐漸侵蝕它。",
+      "highlight": "been eating away at",
+      "targetForm": "eat away at something",
+      "targetMeaningZh": "逐漸侵蝕或損害某物"
+    },
+    {
+      "id": "phrasal-verb-75-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 25,
+      "prompt": "He kept laughing with his friends, yet worry about the test troubled him more each day.",
+      "promptZh": "他一直和朋友說笑,但對測驗的憂慮一天比一天更困擾他。",
+      "starter": "He",
+      "answer": "He kept laughing with his friends, yet worry about the test ate away at him more each day.",
+      "answerZh": "他一直和朋友說笑,但對測驗的憂慮一天比一天更折磨他。",
+      "highlight": "ate away at",
+      "targetForm": "eat away at somebody",
+      "targetMeaningZh": "長時間慢慢折磨或困擾某人"
+    },
+    {
+      "id": "phrasal-verb-75-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 25,
+      "prompt": "The garden looked healthy in spring, but tiny insects slowly destroyed the young leaves one by one.",
+      "promptZh": "春天時花園看來很健康,但小昆蟲逐片慢慢破壞嫩葉。",
+      "starter": "The",
+      "answer": "The garden looked healthy in spring, but tiny insects slowly ate the young leaves away one by one.",
+      "answerZh": "春天時花園看來很健康,但小昆蟲逐片慢慢啃掉嫩葉。",
+      "highlight": "ate",
+      "targetForm": "eat something away",
+      "targetMeaningZh": "逐漸侵蝕、消耗或毀掉某物"
+    }
+  ]
+}

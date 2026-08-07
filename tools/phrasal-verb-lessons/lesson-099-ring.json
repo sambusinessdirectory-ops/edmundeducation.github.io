@@ -1,0 +1,1681 @@
+{
+  "id": "phrasal-verb-99",
+  "order": 99,
+  "slug": "ring",
+  "version": "1",
+  "title": "RING 動詞片語",
+  "titleEn": "Ring",
+  "titleZh": "RING 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 98 - RING.pdf",
+    "sourceNumber": 98,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 RING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to RING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "RING",
+      "highlight": "RING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I rang round several hotels to find a room.",
+      "zh": "我致電多間酒店尋找房間。",
+      "highlight": "rang round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I’ll ring you back after lunch.",
+      "zh": "我會在午飯後回電給你。",
+      "highlight": "ring you back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Listeners rang in with their opinions.",
+      "zh": "聽眾致電節目發表意見。",
+      "highlight": "rang in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "逐一打電話給不同的人或地方,以查詢資料或作出安排；稍後再打電話;回覆某人的來電；致電電台、電視節目或機構參與、發表意見或投票；聲音清楚而響亮地傳開；透過同一機構內的電話線致電某人或部門；打電話給某人或某地方；把貨品或交易輸入收銀機並結帳",
+    "en": "ring around / ring round; ring around / round somebody or something; ring back; ring somebody back; ring in; ring out; ring through to somebody or something; ring up; ring somebody or something up; ring something up",
+    "naturalZh": [
+      "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+      "稍後再打電話;回覆某人的來電",
+      "致電電台、電視節目或機構參與、發表意見或投票",
+      "聲音清楚而響亮地傳開",
+      "透過同一機構內的電話線致電某人或部門",
+      "打電話給某人或某地方",
+      "把貨品或交易輸入收銀機並結帳"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "ring around / ring round; ring around / round somebody or something",
+      "titleZh": "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+      "titleEn": "ring around / ring round; ring around / round somebody or something",
+      "descriptionZh": "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+      "descriptionEn": "I rang round several hotels to find a room.",
+      "examples": [
+        {
+          "en": "I rang round several hotels to find a room.",
+          "zh": "我致電多間酒店尋找房間。",
+          "highlight": "rang round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ring back; ring somebody back",
+      "titleZh": "稍後再打電話;回覆某人的來電",
+      "titleEn": "ring back; ring somebody back",
+      "descriptionZh": "稍後再打電話;回覆某人的來電",
+      "descriptionEn": "I’ll ring you back after lunch.",
+      "examples": [
+        {
+          "en": "I’ll ring you back after lunch.",
+          "zh": "我會在午飯後回電給你。",
+          "highlight": "ring you back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ring in",
+      "titleZh": "致電電台、電視節目或機構參與、發表意見或投票",
+      "titleEn": "ring in",
+      "descriptionZh": "致電電台、電視節目或機構參與、發表意見或投票",
+      "descriptionEn": "Listeners rang in with their opinions.",
+      "examples": [
+        {
+          "en": "Listeners rang in with their opinions.",
+          "zh": "聽眾致電節目發表意見。",
+          "highlight": "rang in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ring out",
+      "titleZh": "聲音清楚而響亮地傳開",
+      "titleEn": "ring out",
+      "descriptionZh": "聲音清楚而響亮地傳開",
+      "descriptionEn": "The school bell rang out across the playground.",
+      "examples": [
+        {
+          "en": "The school bell rang out across the playground.",
+          "zh": "校鐘聲響徹整個操場。",
+          "highlight": "rang out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ring through to somebody or something",
+      "titleZh": "透過同一機構內的電話線致電某人或部門",
+      "titleEn": "ring through to somebody or something",
+      "descriptionZh": "透過同一機構內的電話線致電某人或部門",
+      "descriptionEn": "Reception rang through to the office upstairs.",
+      "examples": [
+        {
+          "en": "Reception rang through to the office upstairs.",
+          "zh": "接待處透過內線致電樓上的辦公室。",
+          "highlight": "rang through to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "ring up; ring somebody or something up",
+      "titleZh": "打電話給某人或某地方",
+      "titleEn": "ring up; ring somebody or something up",
+      "descriptionZh": "打電話給某人或某地方",
+      "descriptionEn": "I rang the restaurant up to book a table.",
+      "examples": [
+        {
+          "en": "I rang the restaurant up to book a table.",
+          "zh": "我致電餐廳訂位。",
+          "highlight": "rang the restaurant up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "ring something up",
+      "titleZh": "把貨品或交易輸入收銀機並結帳",
+      "titleEn": "ring something up",
+      "descriptionZh": "把貨品或交易輸入收銀機並結帳",
+      "descriptionEn": "The cashier rang up the drinks on the till.",
+      "examples": [
+        {
+          "en": "The cashier rang up the drinks on the till.",
+          "zh": "收銀員把飲品輸入收銀機結帳。",
+          "highlight": "rang up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "RING 片語動詞的實際用途",
+    "labelEn": "RING Phrasal Verbs in Use",
+    "summaryZh": "RING 片語動詞可以說明你是致電一個人、聯絡多個地方、回覆來電、參與直播節目,還是透過內線聯絡另一個部門。；這些表達常見於酒店、學校、辦公室、診所、商店,以及電台或電視節目。；ring somebody up 表示致電某人;ring something up 則表示把貨品或交易輸入收銀機結帳。；ring out 可以描述鐘聲、人聲、音符、警告聲或歡呼聲清楚而響亮地傳開。",
+    "summaryEn": "RING expressions can show whether you contacted one person, called several places, returned a call, joined a live programme or contacted another department. These expressions commonly appear in hotels, schools, offices, clinics, shops and radio or television programmes. Ring somebody up means to telephone somebody. Ring something up means to enter a purchase on a till. Ring out can describe a bell, voice, musical note, warning or cheer that is heard loudly and clearly.",
+    "contextsZh": [
+      "清楚描述不同種類的電話聯絡",
+      "理解服務場所和工作環境中的英語",
+      "分辨 RING UP 的兩個常見意思",
+      "使用 RING 描述電話以外的聲音"
+    ],
+    "contextsEn": [
+      "Talk about different kinds of telephone calls",
+      "Understand English used in services and workplaces",
+      "Avoid confusing the two meanings of RING UP",
+      "Use RING to describe sounds as well as calls"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 RING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the RING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "ring around / ring round; ring around / round somebody or something",
+    "fixedHighlight": "ring around / ring round; ring around / round somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 RING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the RING expression that gives the same meaning.",
+    "correct": "rang round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 RING ... BACK 或 RING ... UP 中使用 him、her、us 或 them 時,把這個字放在中間。；在本練習中,around 和 round 的意思相同。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, us or them with RING... BACK or RING... UP, place the word in the middle: ring him back ring her up ring them up Around and round have the same meaning in this exercise.",
+    "variableItemsZh": [
+      "ring around / ring round; ring around / round somebody or something",
+      "ring back; ring somebody back",
+      "ring in",
+      "ring out",
+      "ring through to somebody or something",
+      "ring up; ring somebody or something up",
+      "ring something up"
+    ],
+    "variableItemsEn": [
+      "ring around / ring round; ring around / round somebody or something",
+      "ring back; ring somebody back",
+      "ring in",
+      "ring out",
+      "ring through to somebody or something",
+      "ring up; ring somebody or something up",
+      "ring something up"
+    ],
+    "forms": [
+      {
+        "formZh": "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+        "formEn": "ring around / ring round; ring around / round somebody or something",
+        "exampleZh": "我致電多間酒店尋找房間。",
+        "exampleEn": "I rang round several hotels to find a room.",
+        "highlight": "rang round"
+      },
+      {
+        "formZh": "稍後再打電話;回覆某人的來電",
+        "formEn": "ring back; ring somebody back",
+        "exampleZh": "我會在午飯後回電給你。",
+        "exampleEn": "I’ll ring you back after lunch.",
+        "highlight": "ring you back"
+      },
+      {
+        "formZh": "致電電台、電視節目或機構參與、發表意見或投票",
+        "formEn": "ring in",
+        "exampleZh": "聽眾致電節目發表意見。",
+        "exampleEn": "Listeners rang in with their opinions.",
+        "highlight": "rang in"
+      },
+      {
+        "formZh": "聲音清楚而響亮地傳開",
+        "formEn": "ring out",
+        "exampleZh": "校鐘聲響徹整個操場。",
+        "exampleEn": "The school bell rang out across the playground.",
+        "highlight": "rang out"
+      },
+      {
+        "formZh": "透過同一機構內的電話線致電某人或部門",
+        "formEn": "ring through to somebody or something",
+        "exampleZh": "接待處透過內線致電樓上的辦公室。",
+        "exampleEn": "Reception rang through to the office upstairs.",
+        "highlight": "rang through to"
+      },
+      {
+        "formZh": "打電話給某人或某地方",
+        "formEn": "ring up; ring somebody or something up",
+        "exampleZh": "我致電餐廳訂位。",
+        "exampleEn": "I rang the restaurant up to book a table.",
+        "highlight": "rang the restaurant up"
+      },
+      {
+        "formZh": "把貨品或交易輸入收銀機並結帳",
+        "formEn": "ring something up",
+        "exampleZh": "收銀員把飲品輸入收銀機結帳。",
+        "exampleEn": "The cashier rang up the drinks on the till.",
+        "highlight": "rang up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+      "titleEn": "ring around / ring round; ring around / round somebody or something",
+      "formula": "ring around / ring round; ring around / round somebody or something",
+      "highlight": "ring around / ring round; ring around / round somebody or something",
+      "descriptionZh": "逐一打電話給不同的人或地方,以查詢資料或作出安排",
+      "descriptionEn": "I rang round several hotels to find a room.",
+      "examples": [
+        {
+          "en": "I rang round several hotels to find a room.",
+          "zh": "我致電多間酒店尋找房間。",
+          "highlight": "rang round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "稍後再打電話;回覆某人的來電",
+      "titleEn": "ring back; ring somebody back",
+      "formula": "ring back; ring somebody back",
+      "highlight": "ring back; ring somebody back",
+      "descriptionZh": "稍後再打電話;回覆某人的來電",
+      "descriptionEn": "I’ll ring you back after lunch.",
+      "examples": [
+        {
+          "en": "I’ll ring you back after lunch.",
+          "zh": "我會在午飯後回電給你。",
+          "highlight": "ring you back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "致電電台、電視節目或機構參與、發表意見或投票",
+      "titleEn": "ring in",
+      "formula": "ring in",
+      "highlight": "ring in",
+      "descriptionZh": "致電電台、電視節目或機構參與、發表意見或投票",
+      "descriptionEn": "Listeners rang in with their opinions.",
+      "examples": [
+        {
+          "en": "Listeners rang in with their opinions.",
+          "zh": "聽眾致電節目發表意見。",
+          "highlight": "rang in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "聲音清楚而響亮地傳開",
+      "titleEn": "ring out",
+      "formula": "ring out",
+      "highlight": "ring out",
+      "descriptionZh": "聲音清楚而響亮地傳開",
+      "descriptionEn": "The school bell rang out across the playground.",
+      "examples": [
+        {
+          "en": "The school bell rang out across the playground.",
+          "zh": "校鐘聲響徹整個操場。",
+          "highlight": "rang out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "透過同一機構內的電話線致電某人或部門",
+      "titleEn": "ring through to somebody or something",
+      "formula": "ring through to somebody or something",
+      "highlight": "ring through to somebody or something",
+      "descriptionZh": "透過同一機構內的電話線致電某人或部門",
+      "descriptionEn": "Reception rang through to the office upstairs.",
+      "examples": [
+        {
+          "en": "Reception rang through to the office upstairs.",
+          "zh": "接待處透過內線致電樓上的辦公室。",
+          "highlight": "rang through to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "打電話給某人或某地方",
+      "titleEn": "ring up; ring somebody or something up",
+      "formula": "ring up; ring somebody or something up",
+      "highlight": "ring up; ring somebody or something up",
+      "descriptionZh": "打電話給某人或某地方",
+      "descriptionEn": "I rang the restaurant up to book a table.",
+      "examples": [
+        {
+          "en": "I rang the restaurant up to book a table.",
+          "zh": "我致電餐廳訂位。",
+          "highlight": "rang the restaurant up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把貨品或交易輸入收銀機並結帳",
+      "titleEn": "ring something up",
+      "formula": "ring something up",
+      "highlight": "ring something up",
+      "descriptionZh": "把貨品或交易輸入收銀機並結帳",
+      "descriptionEn": "The cashier rang up the drinks on the till.",
+      "examples": [
+        {
+          "en": "The cashier rang up the drinks on the till.",
+          "zh": "收銀員把飲品輸入收銀機結帳。",
+          "highlight": "rang up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述不同種類的電話聯絡",
+      "titleEn": "Talk about different kinds of telephone calls",
+      "zh": "RING 片語動詞可以說明你是致電一個人、聯絡多個地方、回覆來電、參與直播節目,還是透過內線聯絡另一個部門。",
+      "en": "RING expressions can show whether you contacted one person, called several places, returned a call, joined a live programme or contacted another department."
+    },
+    {
+      "titleZh": "理解服務場所和工作環境中的英語",
+      "titleEn": "Understand English used in services and workplaces",
+      "zh": "這些表達常見於酒店、學校、辦公室、診所、商店,以及電台或電視節目。",
+      "en": "These expressions commonly appear in hotels, schools, offices, clinics, shops and radio or television programmes."
+    },
+    {
+      "titleZh": "分辨 RING UP 的兩個常見意思",
+      "titleEn": "Avoid confusing the two meanings of RING UP",
+      "zh": "ring somebody up 表示致電某人;ring something up 則表示把貨品或交易輸入收銀機結帳。",
+      "en": "Ring somebody up means to telephone somebody. Ring something up means to enter a purchase on a till."
+    },
+    {
+      "titleZh": "使用 RING 描述電話以外的聲音",
+      "titleEn": "Use RING to describe sounds as well as calls",
+      "zh": "ring out 可以描述鐘聲、人聲、音符、警告聲或歡呼聲清楚而響亮地傳開。",
+      "en": "Ring out can describe a bell, voice, musical note, warning or cheer that is heard loudly and clearly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述不同種類的電話聯絡",
+      "理解服務場所和工作環境中的英語",
+      "分辨 RING UP 的兩個常見意思",
+      "使用 RING 描述電話以外的聲音"
+    ],
+    "contextsEn": [
+      "Talk about different kinds of telephone calls",
+      "Understand English used in services and workplaces",
+      "Avoid confusing the two meanings of RING UP",
+      "Use RING to describe sounds as well as calls"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述不同種類的電話聯絡",
+        "titleEn": "Talk about different kinds of telephone calls",
+        "zh": "RING 片語動詞可以說明你是致電一個人、聯絡多個地方、回覆來電、參與直播節目,還是透過內線聯絡另一個部門。",
+        "en": "RING expressions can show whether you contacted one person, called several places, returned a call, joined a live programme or contacted another department.",
+        "examples": [
+          {
+            "en": "I rang round several hotels to find a room.",
+            "zh": "我致電多間酒店尋找房間。",
+            "highlight": "rang round"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解服務場所和工作環境中的英語",
+        "titleEn": "Understand English used in services and workplaces",
+        "zh": "這些表達常見於酒店、學校、辦公室、診所、商店,以及電台或電視節目。",
+        "en": "These expressions commonly appear in hotels, schools, offices, clinics, shops and radio or television programmes.",
+        "examples": [
+          {
+            "en": "I’ll ring you back after lunch.",
+            "zh": "我會在午飯後回電給你。",
+            "highlight": "ring you back"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨 RING UP 的兩個常見意思",
+        "titleEn": "Avoid confusing the two meanings of RING UP",
+        "zh": "ring somebody up 表示致電某人;ring something up 則表示把貨品或交易輸入收銀機結帳。",
+        "en": "Ring somebody up means to telephone somebody. Ring something up means to enter a purchase on a till.",
+        "examples": [
+          {
+            "en": "Listeners rang in with their opinions.",
+            "zh": "聽眾致電節目發表意見。",
+            "highlight": "rang in"
+          }
+        ]
+      },
+      {
+        "titleZh": "使用 RING 描述電話以外的聲音",
+        "titleEn": "Use RING to describe sounds as well as calls",
+        "zh": "ring out 可以描述鐘聲、人聲、音符、警告聲或歡呼聲清楚而響亮地傳開。",
+        "en": "Ring out can describe a bell, voice, musical note, warning or cheer that is heard loudly and clearly.",
+        "examples": [
+          {
+            "en": "The school bell rang out across the playground.",
+            "zh": "校鐘聲響徹整個操場。",
+            "highlight": "rang out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 RING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the RING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 RING 片語動詞。",
+      "en": "Read the whole sentence and choose the RING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 RING ... BACK 或 RING ... UP 中使用 him、her、us 或 them 時,把這個字放在中間。",
+      "titleEn": "When using him, her, us or them with RING.",
+      "zh": "在 RING ... BACK 或 RING ... UP 中使用 him、her、us 或 them 時,把這個字放在中間。",
+      "en": "When using him, her, us or them with RING... BACK or RING... UP, place the word in the middle: ring him back ring her up ring them up"
+    },
+    {
+      "titleZh": "在本練習中,around 和 round 的意思相同。",
+      "titleEn": "Around and round have the same meaning in this exercise.",
+      "zh": "在本練習中,around 和 round 的意思相同。",
+      "en": "Around and round have the same meaning in this exercise."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 RING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to RING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "RING 動詞片語句子改寫練習",
+    "titleEn": "RING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 RING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to RING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-99-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "She phoned several hotels to find a room.",
+      "promptZh": "她致電多間酒店尋找房間。",
+      "starter": "She",
+      "answer": "She rang round several hotels to find a room.",
+      "answerZh": "她致電多間酒店尋找房間。",
+      "highlight": "rang round",
+      "targetForm": "ring round something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I phoned the dentist yesterday.",
+      "promptZh": "我昨天致電牙醫診所。",
+      "starter": "I",
+      "answer": "I rang up the dentist yesterday.",
+      "answerZh": "我昨天致電牙醫診所。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The school bell sounded loudly across the playground.",
+      "promptZh": "校鐘聲響徹整個操場。",
+      "starter": "The",
+      "answer": "The school bell rang out across the playground.",
+      "answerZh": "校鐘聲響徹整個操場。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "I will call you again after lunch.",
+      "promptZh": "我會在午飯後再打電話給你。",
+      "starter": "I",
+      "answer": "I will ring you back after lunch.",
+      "answerZh": "我會在午飯後回電給你。",
+      "highlight": "ring",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The cashier entered the two drinks on the till.",
+      "promptZh": "收銀員把兩杯飲品輸入收銀機。",
+      "starter": "The",
+      "answer": "The cashier rang up the two drinks on the till.",
+      "answerZh": "收銀員把兩杯飲品輸入收銀機結帳。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Many listeners phoned the radio station with their views.",
+      "promptZh": "許多聽眾致電電台發表意見。",
+      "starter": "Many",
+      "answer": "Many listeners rang in with their views.",
+      "answerZh": "許多聽眾致電電台發表意見。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目發表意見"
+    },
+    {
+      "id": "phrasal-verb-99-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Reception phoned the manager’s office to say a guest had arrived.",
+      "promptZh": "接待處致電經理辦公室,通知有訪客到達。",
+      "starter": "Reception",
+      "answer": "Reception rang through to the manager’s office to say a guest had arrived.",
+      "answerZh": "接待處透過內線致電經理辦公室,通知有訪客到達。",
+      "highlight": "rang through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please return my call this evening.",
+      "promptZh": "請今晚回電給我。",
+      "starter": "Please",
+      "answer": "Please ring me back this evening.",
+      "answerZh": "請今晚回電給我。",
+      "highlight": "ring me back",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Dad phoned several repair shops to compare prices.",
+      "promptZh": "爸爸致電多間維修店比較價錢。",
+      "starter": "Dad",
+      "answer": "Dad rang around several repair shops to compare prices.",
+      "answerZh": "爸爸致電多間維修店比較價錢。",
+      "highlight": "rang around",
+      "targetForm": "ring around something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "People phoned the programme to vote for their favourite song.",
+      "promptZh": "人們致電節目,投票選出最喜愛的歌曲。",
+      "starter": "People",
+      "answer": "People rang in to vote for their favourite song.",
+      "answerZh": "人們致電節目,投票選出最喜愛的歌曲。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目參與或投票"
+    },
+    {
+      "id": "phrasal-verb-99-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We phoned the restaurant to book a table.",
+      "promptZh": "我們致電餐廳訂位。",
+      "starter": "We",
+      "answer": "We rang the restaurant up to book a table.",
+      "answerZh": "我們致電餐廳訂位。",
+      "highlight": "rang",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The school office phoned the classroom to ask for Ben.",
+      "promptZh": "校務處致電課室找賓。",
+      "starter": "The",
+      "answer": "The school office rang through to the classroom to ask for Ben.",
+      "answerZh": "校務處透過內線致電課室找賓。",
+      "highlight": "rang through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The assistant entered the books on the till.",
+      "promptZh": "店員把這些書輸入收銀機。",
+      "starter": "The",
+      "answer": "The assistant rang up the books on the till.",
+      "answerZh": "店員把這些書輸入收銀機結帳。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Her clear voice sounded through the hall.",
+      "promptZh": "她清晰的聲音響徹禮堂。",
+      "starter": "Her",
+      "answer": "Her clear voice rang out through the hall.",
+      "answerZh": "她清晰的聲音響徹禮堂。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are so many people phoning the live radio programme with comments today?",
+      "promptZh": "為甚麼今天有這麼多人致電電台直播節目發表意見?",
+      "starter": "Why",
+      "answer": "Why are so many people ringing in with comments today?",
+      "answerZh": "為甚麼今天有這麼多人致電電台直播節目發表意見?",
+      "highlight": "ringing in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目發表意見"
+    },
+    {
+      "id": "phrasal-verb-99-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The cashier has already entered those items on the till.",
+      "promptZh": "收銀員已把那些貨品輸入收銀機。",
+      "starter": "The",
+      "answer": "The cashier has already rung up those items on the till.",
+      "answerZh": "收銀員已把那些貨品輸入收銀機結帳。",
+      "highlight": "rung up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Sam called earlier, and I have not returned his call yet.",
+      "promptZh": "山姆較早前打過電話,而我還未回電給他。",
+      "starter": "Sam",
+      "answer": "Sam called earlier, and I have not rung him back yet.",
+      "answerZh": "山姆較早前打過電話,而我還未回電給他。",
+      "highlight": "rung him back",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Cheers were sounding from the crowd.",
+      "promptZh": "人群中傳來響亮的歡呼聲。",
+      "starter": "Cheers",
+      "answer": "Cheers were ringing out from the crowd.",
+      "answerZh": "人群中傳來響亮的歡呼聲。",
+      "highlight": "ringing out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Can you phone the kitchen from the front desk?",
+      "promptZh": "你可以從接待處致電廚房嗎?",
+      "starter": "Can",
+      "answer": "Can you ring through to the kitchen from the front desk?",
+      "answerZh": "你可以從接待處透過內線致電廚房嗎?",
+      "highlight": "ring through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We are phoning several airlines to find the cheapest flight.",
+      "promptZh": "我們正致電多間航空公司,尋找最便宜的航班。",
+      "starter": "We",
+      "answer": "We are ringing round several airlines to find the cheapest flight.",
+      "answerZh": "我們正致電多間航空公司,尋找最便宜的航班。",
+      "highlight": "ringing round",
+      "targetForm": "ring round something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has Tom phoned the school yet?",
+      "promptZh": "湯姆已致電學校了嗎?",
+      "starter": "Has",
+      "answer": "Has Tom rung the school up yet?",
+      "answerZh": "湯姆已致電學校了嗎?",
+      "highlight": "rung",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Are you phoning different garages for a cheaper repair?",
+      "promptZh": "你正在致電不同車房,尋找較便宜的維修服務嗎?",
+      "starter": "Are",
+      "answer": "Are you ringing around different garages for a cheaper repair?",
+      "answerZh": "你正在致電不同車房,尋找較便宜的維修服務嗎?",
+      "highlight": "ringing around",
+      "targetForm": "ring around something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "A loud laugh suddenly sounded from the back of the room.",
+      "promptZh": "房間後方突然傳來響亮的笑聲。",
+      "starter": "A",
+      "answer": "A loud laugh suddenly rang out from the back of the room.",
+      "answerZh": "房間後方突然傳來響亮的笑聲。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I will phone the travel agent tomorrow morning.",
+      "promptZh": "我明早會致電旅行社職員。",
+      "starter": "I",
+      "answer": "I will ring the travel agent up tomorrow morning.",
+      "answerZh": "我明早會致電旅行社職員。",
+      "highlight": "ring",
+      "targetForm": "ring somebody up",
+      "targetMeaningZh": "打電話給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Could you call us again in ten minutes?",
+      "promptZh": "你可以在十分鐘後再打電話給我們嗎?",
+      "starter": "Could",
+      "answer": "Could you ring us back in ten minutes?",
+      "answerZh": "你可以在十分鐘後再打電話給我們嗎?",
+      "highlight": "ring",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "稍後再打電話給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The receptionist is phoning the nurse’s room now.",
+      "promptZh": "接待員現在正致電護士的房間。",
+      "starter": "The",
+      "answer": "The receptionist is ringing through to the nurse’s room now.",
+      "answerZh": "接待員現在正透過內線致電護士的房間。",
+      "highlight": "ringing through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The station asked viewers to call the live programme and share their ideas.",
+      "promptZh": "電視台請觀眾致電直播節目分享想法。",
+      "starter": "The",
+      "answer": "The station asked viewers to ring in and share their ideas.",
+      "answerZh": "電視台請觀眾致電直播節目分享想法。",
+      "highlight": "ring in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目參與或發表意見"
+    },
+    {
+      "id": "phrasal-verb-99-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Have you entered this sale on the till yet?",
+      "promptZh": "你已把這宗交易輸入收銀機了嗎?",
+      "starter": "Have",
+      "answer": "Have you rung up this sale on the till yet?",
+      "answerZh": "你已把這宗交易輸入收銀機了嗎?",
+      "highlight": "rung up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把交易輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "These three shirts are ready. Please enter them on the till.",
+      "promptZh": "這三件恤衫已準備好。請把它們輸入收銀機。",
+      "starter": "These",
+      "answer": "These three shirts are ready. Please ring them up on the till.",
+      "answerZh": "這三件恤衫已準備好。請把它們輸入收銀機結帳。",
+      "highlight": "ring",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Priya left a message. I returned her call after class.",
+      "promptZh": "普里雅留下了口訊。我下課後回電給她。",
+      "starter": "Priya",
+      "answer": "Priya left a message. I rang her back after class.",
+      "answerZh": "普里雅留下了口訊。我下課後回電給她。",
+      "highlight": "rang",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "A visitor is here. Could reception phone your office to tell you?",
+      "promptZh": "有訪客到了。接待處可以致電你的辦公室通知你嗎?",
+      "starter": "A",
+      "answer": "A visitor is here. Could reception ring through to your office to tell you?",
+      "answerZh": "有訪客到了。接待處可以透過內線致電你的辦公室通知你嗎?",
+      "highlight": "ring through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The clinic gave me Mrs Chan’s number, so I phoned her this morning.",
+      "promptZh": "診所把陳太的電話號碼給了我,所以我今早致電給她。",
+      "starter": "The",
+      "answer": "The clinic gave me Mrs Chan’s number, so I rang her up this morning.",
+      "answerZh": "診所把陳太的電話號碼給了我,所以我今早致電給她。",
+      "highlight": "rang",
+      "targetForm": "ring somebody up",
+      "targetMeaningZh": "打電話給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We needed a babysitter, so we phoned several friends.",
+      "promptZh": "我們需要找人照顧孩子,所以致電了幾位朋友。",
+      "starter": "We",
+      "answer": "We needed a babysitter, so we rang round several friends.",
+      "answerZh": "我們需要找人照顧孩子,所以致電了幾位朋友。",
+      "highlight": "rang round",
+      "targetForm": "ring round somebody",
+      "targetMeaningZh": "逐一打電話聯絡多人"
+    },
+    {
+      "id": "phrasal-verb-99-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The final note was heard clearly through the theatre.",
+      "promptZh": "最後一個音符清楚地響徹劇院。",
+      "starter": "The",
+      "answer": "The final note rang out through the theatre.",
+      "answerZh": "最後一個音符清楚地響徹劇院。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The host asked a question, and I phoned the show with my answer.",
+      "promptZh": "主持人提出了一條問題,而我致電節目回答。",
+      "starter": "The",
+      "answer": "The host asked a question, and I rang in with my answer.",
+      "answerZh": "主持人提出了一條問題,而我致電節目回答。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目參與或回答"
+    },
+    {
+      "id": "phrasal-verb-99-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Leah is expecting your call. Phone her when you get home.",
+      "promptZh": "莉亞正在等你的電話。你回家後致電給她吧。",
+      "starter": "Leah",
+      "answer": "Leah is expecting your call. Ring her up when you get home.",
+      "answerZh": "莉亞正在等你的電話。你回家後致電給她吧。",
+      "highlight": "Ring",
+      "targetForm": "ring somebody up",
+      "targetMeaningZh": "打電話給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "People can phone the programme during the live discussion and give examples.",
+      "promptZh": "人們可以在直播討論期間致電節目並舉例。",
+      "starter": "People",
+      "answer": "People can ring in during the live discussion and give examples.",
+      "answerZh": "人們可以在直播討論期間致電節目並舉例。",
+      "highlight": "ring in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電直播節目參與討論"
+    },
+    {
+      "id": "phrasal-verb-99-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "After the first shop said it had no tickets, Keira phoned several others.",
+      "promptZh": "第一間店表示沒有門票後,凱拉便致電另外幾間店。",
+      "starter": "After",
+      "answer": "After the first shop said it had no tickets, Keira rang around several others.",
+      "answerZh": "第一間店表示沒有門票後,凱拉便致電另外幾間店。",
+      "highlight": "rang around",
+      "targetForm": "ring around something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Inside the hotel, the chef needed more plates, so he phoned the front desk.",
+      "promptZh": "在酒店內,廚師需要更多碟子,所以他致電接待處。",
+      "starter": "Inside",
+      "answer": "Inside the hotel, the chef needed more plates, so he rang through to the front desk.",
+      "answerZh": "在酒店內,廚師需要更多碟子,所以他透過內線致電接待處。",
+      "highlight": "rang through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The customer bought six small items. The cashier entered them together.",
+      "promptZh": "顧客購買了六件小貨品。收銀員把它們一起輸入收銀機。",
+      "starter": "The",
+      "answer": "The customer bought six small items. The cashier rang them up together.",
+      "answerZh": "顧客購買了六件小貨品。收銀員把它們一起輸入收銀機結帳。",
+      "highlight": "rang",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A warning was shouted clearly across the field.",
+      "promptZh": "一聲警告清楚地響徹場地。",
+      "starter": "A",
+      "answer": "A warning rang out across the field.",
+      "answerZh": "一聲警告清楚地響徹場地。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I missed your call because I was driving. I called you again when I stopped.",
+      "promptZh": "我因為正在駕駛而錯過了你的電話。我停車後再打電話給你。",
+      "starter": "I",
+      "answer": "I missed your call because I was driving. I rang you back when I stopped.",
+      "answerZh": "我因為正在駕駛而錯過了你的電話。我停車後回電給你。",
+      "highlight": "rang",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "At the hotel, reception phoned the kitchen on the internal line to say that the guest in room 12 wanted breakfast.",
+      "promptZh": "在酒店內,接待處透過內線致電廚房,表示12號房的住客想要早餐。",
+      "starter": "At",
+      "answer": "At the hotel, reception rang through to the kitchen to say that the guest in room 12 wanted breakfast.",
+      "answerZh": "在酒店內,接待處透過內線致電廚房,表示12號房的住客想要早餐。",
+      "highlight": "rang through to",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "One travel agent could not help, so we phoned several others before choosing a flight.",
+      "promptZh": "一間旅行社未能提供協助,所以我們在選擇航班前致電了另外幾間。",
+      "starter": "One",
+      "answer": "One travel agent could not help, so we rang round several others before choosing a flight.",
+      "answerZh": "一間旅行社未能提供協助,所以我們在選擇航班前致電了另外幾間。",
+      "highlight": "rang round",
+      "targetForm": "ring round something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The assistant scanned the coat and entered it on the till.",
+      "promptZh": "店員掃描了那件外套,並把它輸入收銀機。",
+      "starter": "The",
+      "answer": "The assistant scanned the coat and rang it up on the till.",
+      "answerZh": "店員掃描了那件外套,並把它輸入收銀機結帳。",
+      "highlight": "rang",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The presenter did not ask people to phone her privately; she asked them to call the live show with their opinions.",
+      "promptZh": "主持人不是請人私下致電給她;她是請他們致電直播節目發表意見。",
+      "starter": "The",
+      "answer": "The presenter did not ask people to phone her privately; she asked them to ring in with their opinions.",
+      "answerZh": "主持人不是請人私下致電給她;她是請他們致電直播節目發表意見。",
+      "highlight": "ring in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目發表意見"
+    },
+    {
+      "id": "phrasal-verb-99-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After a moment of silence, one child’s answer was heard loudly across the room.",
+      "promptZh": "短暫沉默後,一名孩子的答案響亮地傳遍房間。",
+      "starter": "After",
+      "answer": "After a moment of silence, one child’s answer rang out across the room.",
+      "answerZh": "短暫沉默後,一名孩子的答案響亮地傳遍房間。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The line was busy, so the nurse said she would call again in five minutes.",
+      "promptZh": "電話線繁忙,所以護士說她會在五分鐘後再打來。",
+      "starter": "The",
+      "answer": "The line was busy, so the nurse said she would ring back in five minutes.",
+      "answerZh": "電話線繁忙,所以護士說她會在五分鐘後再打來。",
+      "highlight": "ring back",
+      "targetForm": "ring back",
+      "targetMeaningZh": "稍後再打電話"
+    },
+    {
+      "id": "phrasal-verb-99-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We did not need to contact several hotels; we only phoned the one near the station.",
+      "promptZh": "我們不需要聯絡多間酒店;只致電了車站附近的一間。",
+      "starter": "We",
+      "answer": "We did not need to contact several hotels; we only rang up the one near the station.",
+      "answerZh": "我們不需要聯絡多間酒店;只致電了車站附近的一間。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "During the live football programme, viewers phoned to say who should play next week.",
+      "promptZh": "在足球直播節目期間,觀眾致電表示下星期應由誰出賽。",
+      "starter": "During",
+      "answer": "During the live football programme, viewers rang in to say who should play next week.",
+      "answerZh": "在足球直播節目期間,觀眾致電表示下星期應由誰出賽。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電直播節目發表意見"
+    },
+    {
+      "id": "phrasal-verb-99-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the website was not working, I phoned the cinema directly.",
+      "promptZh": "因為網站無法運作,所以我直接致電電影院。",
+      "starter": "Because",
+      "answer": "Because the website was not working, I rang the cinema up directly.",
+      "answerZh": "因為網站無法運作,所以我直接致電電影院。",
+      "highlight": "rang",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the singer stopped, the last piano note sounded clearly in the quiet hall.",
+      "promptZh": "歌手停下來時,最後一個鋼琴音符在安靜的禮堂內清楚響起。",
+      "starter": "When",
+      "answer": "When the singer stopped, the last piano note rang out in the quiet hall.",
+      "answerZh": "歌手停下來時,最後一個鋼琴音符在安靜的禮堂內清楚響起。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the cashier entered the sale, the customer asked for a receipt.",
+      "promptZh": "收銀員把交易輸入收銀機後,顧客要求收據。",
+      "starter": "After",
+      "answer": "After the cashier rang up the sale, the customer asked for a receipt.",
+      "answerZh": "收銀員把交易輸入收銀機後,顧客要求收據。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把交易輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the first three garages were too expensive, Noor continued phoning other garages.",
+      "promptZh": "因為首三間車房收費太高,努爾繼續致電其他車房。",
+      "starter": "Because",
+      "answer": "Because the first three garages were too expensive, Noor continued ringing around other garages.",
+      "answerZh": "因為首三間車房收費太高,努爾繼續致電其他車房。",
+      "highlight": "ringing around",
+      "targetForm": "ring around something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "You left your number on my desk, but I forgot to return your call.",
+      "promptZh": "你把電話號碼留在我的桌上,但我忘記回電給你。",
+      "starter": "You",
+      "answer": "You left your number on my desk, but I forgot to ring you back.",
+      "answerZh": "你把電話號碼留在我的桌上,但我忘記回電給你。",
+      "highlight": "ring you back",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "回覆某人的來電"
+    },
+    {
+      "id": "phrasal-verb-99-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The meeting had started, so the front desk used the internal line to contact the meeting room.",
+      "promptZh": "會議已經開始,所以接待處使用內線聯絡會議室。",
+      "starter": "The",
+      "answer": "The meeting had started, so the front desk rang through to the meeting room.",
+      "answerZh": "會議已經開始,所以接待處透過內線聯絡會議室。",
+      "highlight": "rang through",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Jordan said he could not talk while boarding the bus and promised to call me again when he got home.",
+      "promptZh": "喬丹說他上車時不方便說話,並答應回家後再打電話給我。",
+      "starter": "Jordan",
+      "answer": "Jordan said he could not talk while boarding the bus and promised to ring me back when he got home.",
+      "answerZh": "喬丹說他上車時不方便說話,並答應回家後再打電話給我。",
+      "highlight": "ring",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "稍後再打電話給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The hall became quiet, then the winner’s name was called so clearly that everyone heard it.",
+      "promptZh": "禮堂安靜下來,然後得獎者的名字被清楚叫出,所有人都聽見了。",
+      "starter": "The",
+      "answer": "The hall became quiet, then the winner’s name rang out so clearly that everyone heard it.",
+      "answerZh": "禮堂安靜下來,然後得獎者的名字清楚響徹禮堂,所有人都聽見了。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After the online booking page failed twice, we phoned the guesthouse and reserved the room directly.",
+      "promptZh": "網上訂房頁面兩次失靈後,我們致電旅館並直接預訂房間。",
+      "starter": "After",
+      "answer": "After the online booking page failed twice, we rang up the guesthouse and reserved the room directly.",
+      "answerZh": "網上訂房頁面兩次失靈後,我們致電旅館並直接預訂房間。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "When the parcel arrived at reception, the receptionist used the internal phone to tell the office upstairs.",
+      "promptZh": "包裹送到接待處後,接待員使用內線電話通知樓上的辦公室。",
+      "starter": "When",
+      "answer": "When the parcel arrived at reception, the receptionist rang through to the office upstairs to tell them.",
+      "answerZh": "包裹送到接待處後,接待員透過內線致電樓上的辦公室通知他們。",
+      "highlight": "rang through",
+      "targetForm": "ring through to something",
+      "targetMeaningZh": "透過內線致電某部門"
+    },
+    {
+      "id": "phrasal-verb-99-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The local station asked parents for real examples, so many parents phoned the live programme and shared their experiences.",
+      "promptZh": "本地電台請家長提供真實例子,所以很多家長致電直播節目,分享自己的經歷。",
+      "starter": "The",
+      "answer": "The local station asked parents for real examples, so many parents rang in and shared their experiences.",
+      "answerZh": "本地電台請家長提供真實例子,所以很多家長致電直播節目,分享自己的經歷。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目參與或分享資料"
+    },
+    {
+      "id": "phrasal-verb-99-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The cashier entered every item, reduced the total by ten per cent, and then gave us the final price.",
+      "promptZh": "收銀員輸入每件貨品,把總額減少百分之十,然後告訴我們最後價錢。",
+      "starter": "The",
+      "answer": "The cashier rang up every item, reduced the total by ten per cent, and then gave us the final price.",
+      "answerZh": "收銀員把每件貨品輸入收銀機,把總額減少百分之十,然後告訴我們最後價錢。",
+      "highlight": "rang up",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "We had no idea which bus company served the village, so we phoned several companies until one could help.",
+      "promptZh": "我們不知道哪間巴士公司服務該村,所以致電多間公司,直至有一間能提供協助。",
+      "starter": "We",
+      "answer": "We had no idea which bus company served the village, so we rang round several companies until one could help.",
+      "answerZh": "我們不知道哪間巴士公司服務該村,所以致電多間公司,直至有一間能提供協助。",
+      "highlight": "rang round",
+      "targetForm": "ring round something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The note said the class had moved, so I phoned the school office to check the new room.",
+      "promptZh": "通知寫着課堂已轉到另一個課室,所以我致電校務處確認新課室。",
+      "starter": "The",
+      "answer": "The note said the class had moved, so I rang the school office up to check the new room.",
+      "answerZh": "通知寫着課堂已轉到另一個課室,所以我致電校務處確認新課室。",
+      "highlight": "rang",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "打電話給某地方"
+    },
+    {
+      "id": "phrasal-verb-99-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After the first hotel was full and the second was too expensive, Elena kept phoning other hotels until she found a room.",
+      "promptZh": "第一間酒店客滿,而第二間太昂貴,所以艾蓮娜繼續致電其他酒店,直至找到房間。",
+      "starter": "After",
+      "answer": "After the first hotel was full and the second was too expensive, Elena kept ringing around other hotels until she found a room.",
+      "answerZh": "第一間酒店客滿,而第二間太昂貴,所以艾蓮娜繼續致電其他酒店,直至找到房間。",
+      "highlight": "ringing around",
+      "targetForm": "ring around something",
+      "targetMeaningZh": "逐一打電話聯絡多個地方"
+    },
+    {
+      "id": "phrasal-verb-99-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before paying, the customer changed her mind, so the assistant removed one scarf after entering it on the till.",
+      "promptZh": "付款前,顧客改變主意,所以店員在把其中一條頸巾輸入收銀機後將它刪除。",
+      "starter": "Before",
+      "answer": "Before paying, the customer changed her mind, so the assistant removed one scarf after ringing it up on the till.",
+      "answerZh": "付款前,顧客改變主意,所以店員在把其中一條頸巾輸入收銀機後將它刪除。",
+      "highlight": "ringing",
+      "targetForm": "ring something up",
+      "targetMeaningZh": "把貨品輸入收銀機並結帳"
+    },
+    {
+      "id": "phrasal-verb-99-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "A guest was waiting in the lobby, so reception phoned the restaurant manager on the internal line.",
+      "promptZh": "一名住客正在大堂等候,所以接待處透過內線致電餐廳經理。",
+      "starter": "A",
+      "answer": "A guest was waiting in the lobby, so reception rang through to the restaurant manager.",
+      "answerZh": "一名住客正在大堂等候,所以接待處透過內線致電餐廳經理。",
+      "highlight": "rang through to",
+      "targetForm": "ring through to somebody",
+      "targetMeaningZh": "透過內線致電某人"
+    },
+    {
+      "id": "phrasal-verb-99-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Because the caller gave no details, the office asked for his number and said it would contact him again later.",
+      "promptZh": "因為來電者沒有提供詳情,辦公室請他留下電話號碼,並表示稍後會再聯絡他。",
+      "starter": "Because",
+      "answer": "Because the caller gave no details, the office asked for his number and said it would ring him back later.",
+      "answerZh": "因為來電者沒有提供詳情,辦公室請他留下電話號碼,並表示稍後會回電給他。",
+      "highlight": "ring",
+      "targetForm": "ring somebody back",
+      "targetMeaningZh": "稍後回電給某人"
+    },
+    {
+      "id": "phrasal-verb-99-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "As the final runner crossed the line, loud cheers could be heard all around the stadium.",
+      "promptZh": "最後一名跑手衝過終點時,整個運動場都聽到響亮的歡呼聲。",
+      "starter": "As",
+      "answer": "As the final runner crossed the line, loud cheers rang out all around the stadium.",
+      "answerZh": "最後一名跑手衝過終點時,響亮的歡呼聲響徹整個運動場。",
+      "highlight": "rang out",
+      "targetForm": "ring out",
+      "targetMeaningZh": "清楚而響亮地傳開"
+    },
+    {
+      "id": "phrasal-verb-99-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "Because the audience disagreed about the question, hundreds of listeners phoned the programme to give different views.",
+      "promptZh": "因為觀眾對這條問題意見分歧,數百名聽眾致電節目表達不同看法。",
+      "starter": "Because",
+      "answer": "Because the audience disagreed about the question, hundreds of listeners rang in to give different views.",
+      "answerZh": "因為觀眾對這條問題意見分歧,數百名聽眾致電節目表達不同看法。",
+      "highlight": "rang in",
+      "targetForm": "ring in",
+      "targetMeaningZh": "致電節目發表意見"
+    }
+  ]
+}

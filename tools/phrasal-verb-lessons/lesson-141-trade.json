@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-141",
+  "order": 141,
+  "slug": "trade",
+  "version": "1",
+  "title": "TRADE 動詞片語",
+  "titleEn": "Trade",
+  "titleZh": "TRADE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 140 - TRADE.pdf",
+    "sourceNumber": 140,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TRADE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TRADE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TRADE",
+      "highlight": "TRADE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We traded down to a basic phone plan.",
+      "zh": "我們改用了較基本的電話計劃。",
+      "highlight": "traded down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I traded my old guitar in for a keyboard.",
+      "zh": "我交出舊結他作為部分付款,換購了一部電子琴。",
+      "highlight": "traded my old guitar in for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The maker traded off speed against safety.",
+      "zh": "製造商在速度與安全之間作出取捨。",
+      "highlight": "traded off speed against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "改用較便宜、較小或較基本的版本；交出舊物作為部分付款,以換購新物；在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差；利用名聲、關係、信任或其他優勢取得好處；改用較好、較大或較昂貴的版本",
+    "en": "trade down (to something); trade something in (for something); trade something off (against something); trade on something / trade upon something; trade up (to something)",
+    "naturalZh": [
+      "改用較便宜、較小或較基本的版本",
+      "交出舊物作為部分付款,以換購新物",
+      "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+      "利用名聲、關係、信任或其他優勢取得好處",
+      "改用較好、較大或較昂貴的版本"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "trade down (to something)",
+      "titleZh": "改用較便宜、較小或較基本的版本",
+      "titleEn": "trade down (to something)",
+      "descriptionZh": "改用較便宜、較小或較基本的版本",
+      "descriptionEn": "We traded down to a basic phone plan.",
+      "examples": [
+        {
+          "en": "We traded down to a basic phone plan.",
+          "zh": "我們改用了較基本的電話計劃。",
+          "highlight": "traded down to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "trade something in (for something)",
+      "titleZh": "交出舊物作為部分付款,以換購新物",
+      "titleEn": "trade something in (for something)",
+      "descriptionZh": "交出舊物作為部分付款,以換購新物",
+      "descriptionEn": "I traded my old guitar in for a keyboard.",
+      "examples": [
+        {
+          "en": "I traded my old guitar in for a keyboard.",
+          "zh": "我交出舊結他作為部分付款,換購了一部電子琴。",
+          "highlight": "traded my old guitar in for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "trade something off (against something)",
+      "titleZh": "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+      "titleEn": "trade something off (against something)",
+      "descriptionZh": "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+      "descriptionEn": "The maker traded off speed against safety.",
+      "examples": [
+        {
+          "en": "The maker traded off speed against safety.",
+          "zh": "製造商在速度與安全之間作出取捨。",
+          "highlight": "traded off speed against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "trade on something / trade upon something",
+      "titleZh": "利用名聲、關係、信任或其他優勢取得好處",
+      "titleEn": "trade on something / trade upon something",
+      "descriptionZh": "利用名聲、關係、信任或其他優勢取得好處",
+      "descriptionEn": "She traded on her local fame to attract customers.",
+      "examples": [
+        {
+          "en": "She traded on her local fame to attract customers.",
+          "zh": "她利用自己在區內的名氣吸引顧客。",
+          "highlight": "traded on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "trade up (to something)",
+      "titleZh": "改用較好、較大或較昂貴的版本",
+      "titleEn": "trade up (to something)",
+      "descriptionZh": "改用較好、較大或較昂貴的版本",
+      "descriptionEn": "They traded up to a larger car.",
+      "examples": [
+        {
+          "en": "They traded up to a larger car.",
+          "zh": "他們換購了一輛較大的汽車。",
+          "highlight": "traded up to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TRADE 片語動詞的實際用途",
+    "labelEn": "TRADE Phrasal Verbs in Use",
+    "summaryZh": "trade down 表示轉用較便宜或較基本的選擇;trade up 則表示轉用較好、較大或較昂貴的選擇。；店舖接受舊物作為購買另一件物品的部分付款時,可以使用 trade something in。；trade something off against something 可以表示改善一方面時,需要犧牲另一方面。；trade on 或 trade upon 可以表示某人利用名聲、關係、恐懼或信任取得好處。",
+    "summaryEn": "Trade down describes changing to a cheaper or more basic option. Trade up describes changing to a better, larger or more expensive option. Trade something in is useful when a shop accepts an old item as part of the payment for another one. Trade something off against something helps you explain that improving one thing may require giving up part of another. Trade on or trade upon can show that somebody is using a name, relationship, fear or trust to gain something.",
+    "contextsZh": [
+      "清楚談論較便宜或較好的選擇",
+      "描述以舊換新",
+      "解釋兩方面之間的取捨",
+      "看出別人如何利用優勢"
+    ],
+    "contextsEn": [
+      "Talk clearly about choosing cheaper or better options",
+      "Describe exchanging an old item for a new one",
+      "Explain difficult choices between two benefits",
+      "Recognise when somebody uses an advantage"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TRADE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TRADE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "trade down (to something)",
+    "fixedHighlight": "trade down (to something)",
+    "fixedZh": "閱讀整句,選出意思相同的 TRADE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TRADE expression that gives the same meaning.",
+    "correct": "traded down to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請仔細留意以上例子的用法和詞語位置。；trade on 和 trade upon 可以表達相同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. Follow these models carefully: trade down/up to a different option trade the old phone in for a new one trade off speed against safety trade speed off against safety Trade on and trade upon can express the same idea.",
+    "variableItemsZh": [
+      "trade down (to something)",
+      "trade something in (for something)",
+      "trade something off (against something)",
+      "trade on something / trade upon something",
+      "trade up (to something)"
+    ],
+    "variableItemsEn": [
+      "trade down (to something)",
+      "trade something in (for something)",
+      "trade something off (against something)",
+      "trade on something / trade upon something",
+      "trade up (to something)"
+    ],
+    "forms": [
+      {
+        "formZh": "改用較便宜、較小或較基本的版本",
+        "formEn": "trade down (to something)",
+        "exampleZh": "我們改用了較基本的電話計劃。",
+        "exampleEn": "We traded down to a basic phone plan.",
+        "highlight": "traded down to"
+      },
+      {
+        "formZh": "交出舊物作為部分付款,以換購新物",
+        "formEn": "trade something in (for something)",
+        "exampleZh": "我交出舊結他作為部分付款,換購了一部電子琴。",
+        "exampleEn": "I traded my old guitar in for a keyboard.",
+        "highlight": "traded my old guitar in for"
+      },
+      {
+        "formZh": "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+        "formEn": "trade something off (against something)",
+        "exampleZh": "製造商在速度與安全之間作出取捨。",
+        "exampleEn": "The maker traded off speed against safety.",
+        "highlight": "traded off speed against"
+      },
+      {
+        "formZh": "利用名聲、關係、信任或其他優勢取得好處",
+        "formEn": "trade on something / trade upon something",
+        "exampleZh": "她利用自己在區內的名氣吸引顧客。",
+        "exampleEn": "She traded on her local fame to attract customers.",
+        "highlight": "traded on"
+      },
+      {
+        "formZh": "改用較好、較大或較昂貴的版本",
+        "formEn": "trade up (to something)",
+        "exampleZh": "他們換購了一輛較大的汽車。",
+        "exampleEn": "They traded up to a larger car.",
+        "highlight": "traded up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "改用較便宜、較小或較基本的版本",
+      "titleEn": "trade down (to something)",
+      "formula": "trade down (to something)",
+      "highlight": "trade down (to something)",
+      "descriptionZh": "改用較便宜、較小或較基本的版本",
+      "descriptionEn": "We traded down to a basic phone plan.",
+      "examples": [
+        {
+          "en": "We traded down to a basic phone plan.",
+          "zh": "我們改用了較基本的電話計劃。",
+          "highlight": "traded down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "交出舊物作為部分付款,以換購新物",
+      "titleEn": "trade something in (for something)",
+      "formula": "trade something in (for something)",
+      "highlight": "trade something in (for something)",
+      "descriptionZh": "交出舊物作為部分付款,以換購新物",
+      "descriptionEn": "I traded my old guitar in for a keyboard.",
+      "examples": [
+        {
+          "en": "I traded my old guitar in for a keyboard.",
+          "zh": "我交出舊結他作為部分付款,換購了一部電子琴。",
+          "highlight": "traded my old guitar in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+      "titleEn": "trade something off (against something)",
+      "formula": "trade something off (against something)",
+      "highlight": "trade something off (against something)",
+      "descriptionZh": "在兩方面之間作出取捨;為了得到一方面的好處而接受另一方面減少或變差",
+      "descriptionEn": "The maker traded off speed against safety.",
+      "examples": [
+        {
+          "en": "The maker traded off speed against safety.",
+          "zh": "製造商在速度與安全之間作出取捨。",
+          "highlight": "traded off speed against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "利用名聲、關係、信任或其他優勢取得好處",
+      "titleEn": "trade on something / trade upon something",
+      "formula": "trade on something / trade upon something",
+      "highlight": "trade on something / trade upon something",
+      "descriptionZh": "利用名聲、關係、信任或其他優勢取得好處",
+      "descriptionEn": "She traded on her local fame to attract customers.",
+      "examples": [
+        {
+          "en": "She traded on her local fame to attract customers.",
+          "zh": "她利用自己在區內的名氣吸引顧客。",
+          "highlight": "traded on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "改用較好、較大或較昂貴的版本",
+      "titleEn": "trade up (to something)",
+      "formula": "trade up (to something)",
+      "highlight": "trade up (to something)",
+      "descriptionZh": "改用較好、較大或較昂貴的版本",
+      "descriptionEn": "They traded up to a larger car.",
+      "examples": [
+        {
+          "en": "They traded up to a larger car.",
+          "zh": "他們換購了一輛較大的汽車。",
+          "highlight": "traded up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論較便宜或較好的選擇",
+      "titleEn": "Talk clearly about choosing cheaper or better options",
+      "zh": "trade down 表示轉用較便宜或較基本的選擇;trade up 則表示轉用較好、較大或較昂貴的選擇。",
+      "en": "Trade down describes changing to a cheaper or more basic option. Trade up describes changing to a better, larger or more expensive option."
+    },
+    {
+      "titleZh": "描述以舊換新",
+      "titleEn": "Describe exchanging an old item for a new one",
+      "zh": "店舖接受舊物作為購買另一件物品的部分付款時,可以使用 trade something in。",
+      "en": "Trade something in is useful when a shop accepts an old item as part of the payment for another one."
+    },
+    {
+      "titleZh": "解釋兩方面之間的取捨",
+      "titleEn": "Explain difficult choices between two benefits",
+      "zh": "trade something off against something 可以表示改善一方面時,需要犧牲另一方面。",
+      "en": "Trade something off against something helps you explain that improving one thing may require giving up part of another."
+    },
+    {
+      "titleZh": "看出別人如何利用優勢",
+      "titleEn": "Recognise when somebody uses an advantage",
+      "zh": "trade on 或 trade upon 可以表示某人利用名聲、關係、恐懼或信任取得好處。",
+      "en": "Trade on or trade upon can show that somebody is using a name, relationship, fear or trust to gain something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論較便宜或較好的選擇",
+      "描述以舊換新",
+      "解釋兩方面之間的取捨",
+      "看出別人如何利用優勢"
+    ],
+    "contextsEn": [
+      "Talk clearly about choosing cheaper or better options",
+      "Describe exchanging an old item for a new one",
+      "Explain difficult choices between two benefits",
+      "Recognise when somebody uses an advantage"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論較便宜或較好的選擇",
+        "titleEn": "Talk clearly about choosing cheaper or better options",
+        "zh": "trade down 表示轉用較便宜或較基本的選擇;trade up 則表示轉用較好、較大或較昂貴的選擇。",
+        "en": "Trade down describes changing to a cheaper or more basic option. Trade up describes changing to a better, larger or more expensive option.",
+        "examples": [
+          {
+            "en": "We traded down to a basic phone plan.",
+            "zh": "我們改用了較基本的電話計劃。",
+            "highlight": "traded down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述以舊換新",
+        "titleEn": "Describe exchanging an old item for a new one",
+        "zh": "店舖接受舊物作為購買另一件物品的部分付款時,可以使用 trade something in。",
+        "en": "Trade something in is useful when a shop accepts an old item as part of the payment for another one.",
+        "examples": [
+          {
+            "en": "I traded my old guitar in for a keyboard.",
+            "zh": "我交出舊結他作為部分付款,換購了一部電子琴。",
+            "highlight": "traded my old guitar in for"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋兩方面之間的取捨",
+        "titleEn": "Explain difficult choices between two benefits",
+        "zh": "trade something off against something 可以表示改善一方面時,需要犧牲另一方面。",
+        "en": "Trade something off against something helps you explain that improving one thing may require giving up part of another.",
+        "examples": [
+          {
+            "en": "The maker traded off speed against safety.",
+            "zh": "製造商在速度與安全之間作出取捨。",
+            "highlight": "traded off speed against"
+          }
+        ]
+      },
+      {
+        "titleZh": "看出別人如何利用優勢",
+        "titleEn": "Recognise when somebody uses an advantage",
+        "zh": "trade on 或 trade upon 可以表示某人利用名聲、關係、恐懼或信任取得好處。",
+        "en": "Trade on or trade upon can show that somebody is using a name, relationship, fear or trust to gain something.",
+        "examples": [
+          {
+            "en": "She traded on her local fame to attract customers.",
+            "zh": "她利用自己在區內的名氣吸引顧客。",
+            "highlight": "traded on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TRADE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TRADE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TRADE 片語動詞。",
+      "en": "Read the whole sentence and choose the TRADE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請仔細留意以上例子的用法和詞語位置。",
+      "titleEn": "Follow these models carefully: trade down/up to a different option trade the old phone in for a new one trade off speed against safety trade speed off against safety.",
+      "zh": "請仔細留意以上例子的用法和詞語位置。",
+      "en": "Follow these models carefully: trade down/up to a different option trade the old phone in for a new one trade off speed against safety trade speed off against safety"
+    },
+    {
+      "titleZh": "trade on 和 trade upon 可以表達相同意思。",
+      "titleEn": "Trade on and trade upon can express the same idea.",
+      "zh": "trade on 和 trade upon 可以表達相同意思。",
+      "en": "Trade on and trade upon can express the same idea."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TRADE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TRADE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TRADE 動詞片語句子改寫練習",
+    "titleEn": "TRADE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TRADE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TRADE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-141-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "Families are choosing cheaper brands this month.",
+      "promptZh": "這個月,不少家庭正選擇較便宜的品牌。",
+      "starter": "Families",
+      "answer": "Families are trading down to cheaper brands this month.",
+      "answerZh": "這個月,不少家庭正改買較便宜的品牌。",
+      "highlight": "trading down to",
+      "targetForm": "trade down (to something)",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The singer used her well-known family name to get attention.",
+      "promptZh": "這名歌手利用自己家族的名聲吸引注意。",
+      "starter": "The",
+      "answer": "The singer traded on her well-known family name to get attention.",
+      "answerZh": "這名歌手利用自己家族的名聲吸引注意。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben gave the shop his old bicycle as part of the payment for a new one.",
+      "promptZh": "Ben 把舊單車交給店舖,作為購買新單車的部分付款。",
+      "starter": "Ben",
+      "answer": "Ben traded his old bicycle in for a new one.",
+      "answerZh": "Ben 把舊單車交給店舖作部分付款,換購了一輛新單車。",
+      "highlight": "traded",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Our family replaced its small fridge with a larger, better one.",
+      "promptZh": "我們家把小雪櫃換成較大、較好的雪櫃。",
+      "starter": "Our",
+      "answer": "Our family traded up to a larger, better fridge.",
+      "answerZh": "我們家換購了一部較大、較好的雪櫃。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較大或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The designer accepted a slower machine to make it safer.",
+      "promptZh": "設計師接受機器速度較慢,以提高安全性。",
+      "starter": "The",
+      "answer": "The designer traded off speed against safety.",
+      "answerZh": "設計師在速度與安全之間作出取捨。",
+      "highlight": "traded off speed against safety",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "I replaced my phone with a cheaper model.",
+      "promptZh": "我把手機換成較便宜的型號。",
+      "starter": "I",
+      "answer": "I traded down to a cheaper phone.",
+      "answerZh": "我改用了一部較便宜的手機。",
+      "highlight": "traded down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The shop used its good name to attract new customers.",
+      "promptZh": "這間店舖利用自己的良好聲譽吸引新顧客。",
+      "starter": "The",
+      "answer": "The shop traded on its good name to attract new customers.",
+      "answerZh": "這間店舖利用自己的良好聲譽吸引新顧客。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We gave the shop our small table as part of the payment for a larger one.",
+      "promptZh": "我們把小桌子交給店舖,作為購買較大桌子的部分付款。",
+      "starter": "We",
+      "answer": "We traded our small table in for a larger one.",
+      "answerZh": "我們把小桌子交給店舖作部分付款,換購了一張較大的桌子。",
+      "highlight": "traded",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ella replaced her basic laptop with a better model.",
+      "promptZh": "Ella 把基本型號的手提電腦換成較好的型號。",
+      "starter": "Ella",
+      "answer": "Ella traded up to a better laptop.",
+      "answerZh": "Ella 換購了一部較好的手提電腦。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較大或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The coach accepted a slower game to gain more control.",
+      "promptZh": "教練接受比賽節奏較慢,以加強控制。",
+      "starter": "The",
+      "answer": "The coach traded speed off against control.",
+      "answerZh": "教練在速度與控制之間作出取捨。",
+      "highlight": "traded speed off against",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The actor used his popularity to sell the product.",
+      "promptZh": "這名演員利用自己的知名度推銷產品。",
+      "starter": "The",
+      "answer": "The actor traded on his popularity to sell the product.",
+      "answerZh": "這名演員利用自己的知名度推銷產品。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Many shoppers started buying cheaper food when prices rose.",
+      "promptZh": "物價上升時,許多顧客開始購買較便宜的食物。",
+      "starter": "Many",
+      "answer": "Many shoppers traded down when food prices rose.",
+      "answerZh": "物價上升時,許多顧客改買較便宜的食物。",
+      "highlight": "traded down when",
+      "targetForm": "trade down",
+      "targetMeaningZh": "改買較便宜或較基本的商品"
+    },
+    {
+      "id": "phrasal-verb-141-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We are giving the shop our old printer as part of the payment for a new one today.",
+      "promptZh": "今天,我們正把舊打印機交給店舖,作為購買新打印機的部分付款。",
+      "starter": "We",
+      "answer": "We are trading our old printer in for a new one today.",
+      "answerZh": "今天,我們正把舊打印機交給店舖作部分付款,換購新打印機。",
+      "highlight": "trading",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "She has changed to a faster and more expensive internet plan.",
+      "promptZh": "她已改用速度更快、費用更高的上網計劃。",
+      "starter": "She",
+      "answer": "She has traded up to a faster, more expensive internet plan.",
+      "answerZh": "她已升級至速度更快、費用更高的上網計劃。",
+      "highlight": "traded up",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The team must accept less speed to get more accurate results.",
+      "promptZh": "團隊必須接受速度較慢,以取得更準確的結果。",
+      "starter": "The",
+      "answer": "The team must trade off speed against accuracy.",
+      "answerZh": "團隊必須在速度與準確度之間作出取捨。",
+      "highlight": "trade off",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Are you moving to a smaller and cheaper flat?",
+      "promptZh": "你是否正搬到一個較小、租金較便宜的單位?",
+      "starter": "Are",
+      "answer": "Are you trading down to a smaller, cheaper flat?",
+      "answerZh": "你是否正改住一個較小、租金較便宜的單位?",
+      "highlight": "trading down",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The company has been using customers’ trust for years to make money.",
+      "promptZh": "多年來,這家公司一直利用顧客的信任賺錢。",
+      "starter": "The",
+      "answer": "The company has been trading on customers’ trust for years to make money.",
+      "answerZh": "多年來,這家公司一直利用顧客的信任賺錢。",
+      "highlight": "trading on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用信任或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Have they given the old camera to the shop as part of the payment yet?",
+      "promptZh": "他們已把舊相機交給店舖作部分付款了嗎?",
+      "starter": "Have",
+      "answer": "Have they traded the old camera in yet?",
+      "answerZh": "他們已把舊相機交給店舖作部分付款了嗎?",
+      "highlight": "traded",
+      "targetForm": "trade something in",
+      "targetMeaningZh": "交出舊物作部分付款"
+    },
+    {
+      "id": "phrasal-verb-141-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We may pay more and choose business class next time.",
+      "promptZh": "下次我們可能多付一點,選擇商務客位。",
+      "starter": "We",
+      "answer": "We may trade up to business class next time.",
+      "answerZh": "下次我們可能升級至商務客位。",
+      "highlight": "trade up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好或較昂貴的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The new model does not reduce safety in order to improve its style.",
+      "promptZh": "這款新型號沒有為了改善外觀而降低安全性。",
+      "starter": "The",
+      "answer": "The new model does not trade safety off against style.",
+      "answerZh": "這款新型號沒有為了改善外觀而犧牲安全性。",
+      "highlight": "trade",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "為了得到一方面的好處而犧牲另一方面"
+    },
+    {
+      "id": "phrasal-verb-141-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "He is choosing a simpler and cheaper meal plan.",
+      "promptZh": "他正選擇一個較簡單、較便宜的膳食計劃。",
+      "starter": "He",
+      "answer": "He is trading down to a simpler, cheaper meal plan.",
+      "answerZh": "他正改用一個較簡單、較便宜的膳食計劃。",
+      "highlight": "trading down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Some influencers use fear to sell products.",
+      "promptZh": "一些網絡紅人利用恐懼推銷產品。",
+      "starter": "Some",
+      "answer": "Some influencers trade on fear to sell products.",
+      "answerZh": "一些網絡紅人利用恐懼推銷產品。",
+      "highlight": "trade on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用恐懼、信任或其他因素取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Carla will give the shop her old watch and receive shop credit.",
+      "promptZh": "Carla 會把舊手錶交給店舖,換取購物額。",
+      "starter": "Carla",
+      "answer": "Carla will trade her old watch in for shop credit.",
+      "answerZh": "Carla 會把舊手錶交給店舖,換取購物額。",
+      "highlight": "trade",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物以換取付款額或新物"
+    },
+    {
+      "id": "phrasal-verb-141-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the school replaced its computers with newer, better ones?",
+      "promptZh": "學校是否已把電腦換成較新、較好的型號?",
+      "starter": "Has",
+      "answer": "Has the school traded up to newer, better computers?",
+      "answerZh": "學校是否已換用較新、較好的電腦?",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較新或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The family accepted less space so that it could pay lower rent.",
+      "promptZh": "這個家庭接受較少的空間,以支付較低租金。",
+      "starter": "The",
+      "answer": "The family traded off space against lower rent.",
+      "answerZh": "這個家庭在居住空間與較低租金之間作出取捨。",
+      "highlight": "traded off",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "He had little experience, but he used his father’s name to win the job.",
+      "promptZh": "他經驗不多,卻利用父親的名聲取得那份工作。",
+      "starter": "He",
+      "answer": "He had little experience, but he traded on his father’s name to win the job.",
+      "answerZh": "他經驗不多,卻利用父親的名聲取得那份工作。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I wanted to spend less each month, so I changed to a cheaper phone plan.",
+      "promptZh": "我想減少每月開支,所以改用較便宜的電話計劃。",
+      "starter": "I",
+      "answer": "I wanted to spend less each month, so I traded down to a cheaper phone plan.",
+      "answerZh": "我想減少每月開支,所以改用較便宜的電話計劃。",
+      "highlight": "traded down",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The shop offered £80 for my old tablet, so I gave it to them as part of the payment for a new one.",
+      "promptZh": "店舖願意為我的舊平板電腦提供八十英鎊,所以我把它交給店舖作部分付款,換購新機。",
+      "starter": "The",
+      "answer": "The shop offered £80 for my old tablet, so I traded it in for a new one.",
+      "answerZh": "店舖願意為我的舊平板電腦提供八十英鎊,所以我把它交給店舖作部分付款,換購新機。",
+      "highlight": "traded",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "After saving for a year, we replaced our small sofa with a better one.",
+      "promptZh": "儲蓄一年後,我們把小梳化換成較好的梳化。",
+      "starter": "After",
+      "answer": "After saving for a year, we traded up to a better sofa.",
+      "answerZh": "儲蓄一年後,我們換購了一張較好的梳化。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較大或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The maker accepted lower camera quality to keep the price low.",
+      "promptZh": "製造商接受較低的相機質素,以維持較低價格。",
+      "starter": "The",
+      "answer": "The maker traded camera quality off against a lower price.",
+      "answerZh": "製造商在相機質素與較低價格之間作出取捨。",
+      "highlight": "traded",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The club was new, but it used the coach’s famous name to attract players.",
+      "promptZh": "這間球會剛成立,但它利用教練的知名度吸引球員。",
+      "starter": "The",
+      "answer": "The club was new, but it traded on the coach’s famous name to attract players.",
+      "answerZh": "這間球會剛成立,但它利用教練的知名度吸引球員。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They sold their large car and bought a smaller, cheaper one.",
+      "promptZh": "他們賣掉大型汽車,買了一輛較小、較便宜的汽車。",
+      "starter": "They",
+      "answer": "They traded down to a smaller, cheaper car.",
+      "answerZh": "他們換用了一輛較小、較便宜的汽車。",
+      "highlight": "traded down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The old machines were given back to the seller as part of the payment for new ones.",
+      "promptZh": "舊機器被交還賣方,作為購買新機器的部分付款。",
+      "starter": "The",
+      "answer": "The old machines were traded in for new ones.",
+      "answerZh": "舊機器被交還賣方,作為購買新機器的部分付款。",
+      "highlight": "traded in",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Could we replace these seats with more comfortable ones?",
+      "promptZh": "我們可以把這些座位換成較舒適的座位嗎?",
+      "starter": "Could",
+      "answer": "Could we trade up to more comfortable seats?",
+      "answerZh": "我們可以升級至較舒適的座位嗎?",
+      "highlight": "trade up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好或較昂貴的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The designer accepted shorter battery life to improve picture quality.",
+      "promptZh": "設計師接受較短的電池使用時間,以提高相片質素。",
+      "starter": "The",
+      "answer": "The designer traded off battery life against picture quality.",
+      "answerZh": "設計師在電池使用時間與相片質素之間作出取捨。",
+      "highlight": "traded off",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The brand used its long history to win buyers’ trust.",
+      "promptZh": "這個品牌利用自己的悠久歷史贏得買家信任。",
+      "starter": "The",
+      "answer": "The brand traded upon its long history to win buyers’ trust.",
+      "answerZh": "這個品牌利用自己的悠久歷史贏得買家信任。",
+      "highlight": "traded upon",
+      "targetForm": "trade upon something",
+      "targetMeaningZh": "利用名聲、歷史或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Customers did not stop eating out; they started choosing cheaper dishes.",
+      "promptZh": "顧客沒有停止外出用膳;他們開始選擇較便宜的菜式。",
+      "starter": "Customers",
+      "answer": "Customers did not stop eating out; they traded down to cheaper dishes.",
+      "answerZh": "顧客沒有停止外出用膳;他們改為選擇較便宜的菜式。",
+      "highlight": "traded down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜或較基本的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Buyers had to balance price against quality.",
+      "promptZh": "買家必須在價格與質素之間取得平衡。",
+      "starter": "Buyers",
+      "answer": "Buyers had to trade price off against quality.",
+      "answerZh": "買家必須在價格與質素之間作出取捨。",
+      "highlight": "trade",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Jay’s laptop still worked, but he gave it to the shop as part of the payment for a lighter model.",
+      "promptZh": "Jay 的手提電腦仍能使用,但他把它交給店舖作部分付款,換購較輕的型號。",
+      "starter": "Jay’s",
+      "answer": "Jay’s laptop still worked, but he traded it in for a lighter model.",
+      "answerZh": "Jay 的手提電腦仍能使用,但他把它交給店舖作部分付款,換購較輕的型號。",
+      "highlight": "traded",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Without any new ideas, the speaker used his old success to impress the audience.",
+      "promptZh": "這名講者沒有新想法,所以利用過往的成功令觀眾留下深刻印象。",
+      "starter": "Without",
+      "answer": "Without any new ideas, the speaker traded on his old success to impress the audience.",
+      "answerZh": "這名講者沒有新想法,所以利用過往的成功令觀眾留下深刻印象。",
+      "highlight": "traded on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用以往的成功或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We chose the better seats even though they cost more.",
+      "promptZh": "我們選擇了較好的座位,雖然價錢較高。",
+      "starter": "We",
+      "answer": "We traded up to the better seats even though they cost more.",
+      "answerZh": "我們升級至較好的座位,雖然價錢較高。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好或較昂貴的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After losing one job, the family moved from a large house to a smaller, cheaper flat.",
+      "promptZh": "家中一人失去工作後,這個家庭由大屋搬到一個較小、較便宜的單位。",
+      "starter": "After",
+      "answer": "After losing one job, the family traded down to a smaller, cheaper flat.",
+      "answerZh": "家中一人失去工作後,這個家庭搬到一個較小、租金較便宜的單位。",
+      "highlight": "traded down",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The designers accepted less privacy to make the app more convenient.",
+      "promptZh": "設計人員接受較少私隱,以令這個應用程式使用起來更方便。",
+      "starter": "The",
+      "answer": "The designers traded off privacy against convenience.",
+      "answerZh": "設計人員在私隱與方便程度之間作出取捨。",
+      "highlight": "traded off",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "When the new model arrived, Mum gave the old coffee machine to the shop as part of the payment.",
+      "promptZh": "新型號到貨時,媽媽把舊咖啡機交給店舖作部分付款。",
+      "starter": "When",
+      "answer": "When the new model arrived, Mum traded the old coffee machine in.",
+      "answerZh": "新型號到貨時,媽媽把舊咖啡機交給店舖作部分付款。",
+      "highlight": "traded",
+      "targetForm": "trade something in",
+      "targetMeaningZh": "交出舊物作部分付款"
+    },
+    {
+      "id": "phrasal-verb-141-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The website uses people’s fear of missing a sale to make them buy quickly.",
+      "promptZh": "這個網站利用人們害怕錯過減價的心理,令他們很快購買。",
+      "starter": "The",
+      "answer": "The website trades upon people’s fear of missing a sale to make them buy quickly.",
+      "answerZh": "這個網站利用人們害怕錯過減價的心理,令他們很快購買。",
+      "highlight": "trades upon",
+      "targetForm": "trade upon something",
+      "targetMeaningZh": "利用恐懼、信任或其他因素取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The club moved from a small hall to a larger, better one.",
+      "promptZh": "這間球會由一個小禮堂搬到一個較大、較好的禮堂。",
+      "starter": "The",
+      "answer": "The club traded up to a larger, better hall.",
+      "answerZh": "這間球會換用了一個較大、較好的禮堂。",
+      "highlight": "traded up",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較大或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Why did Noah replace his new car with a cheaper second-hand one?",
+      "promptZh": "Noah 為何把新車換成一輛較便宜的二手車?",
+      "starter": "Why",
+      "answer": "Why did Noah trade down to a cheaper second-hand car?",
+      "answerZh": "Noah 為何把新車換成一輛較便宜的二手車?",
+      "highlight": "trade down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The bus company chose fewer stops, giving passengers less convenience but faster journeys.",
+      "promptZh": "巴士公司減少停站,令乘客較不方便,但車程更快。",
+      "starter": "The",
+      "answer": "The bus company traded convenience off against speed.",
+      "answerZh": "巴士公司在方便程度與速度之間作出取捨。",
+      "highlight": "traded",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The family first bought a small tent. After several camping trips, they replaced it with a larger, stronger one.",
+      "promptZh": "這個家庭起初買了一個小帳幕。露營數次後,他們把它換成一個較大、較結實的帳幕。",
+      "starter": "The",
+      "answer": "The family first bought a small tent. After several camping trips, they traded up to a larger, stronger one.",
+      "answerZh": "這個家庭起初買了一個小帳幕。露營數次後,他們換購了一個較大、較結實的帳幕。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較大或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Ravi paid less for a new phone because the shop accepted his old phone as part of the payment.",
+      "promptZh": "店舖接受 Ravi 的舊手機作部分付款,所以他購買新手機時少付了一些錢。",
+      "starter": "Ravi",
+      "answer": "Ravi paid less for a new phone because he traded his old phone in.",
+      "answerZh": "Ravi 把舊手機交給店舖作部分付款,所以購買新手機時少付了一些錢。",
+      "highlight": "he traded",
+      "targetForm": "trade something in",
+      "targetMeaningZh": "交出舊物作部分付款"
+    },
+    {
+      "id": "phrasal-verb-141-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The company had made few improvements, but it kept using its well-known name to sell the same product.",
+      "promptZh": "這家公司沒有作出多少改進,卻一直利用自己的知名品牌名稱推銷同一款產品。",
+      "starter": "The",
+      "answer": "The company had made few improvements, but it kept trading on its well-known name to sell the same product.",
+      "answerZh": "這家公司沒有作出多少改進,卻一直利用自己的知名品牌名稱推銷同一款產品。",
+      "highlight": "trading on",
+      "targetForm": "trade on something",
+      "targetMeaningZh": "利用名聲或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "To save money without giving up the holiday, we chose a smaller room in a cheaper hotel.",
+      "promptZh": "為了省錢又不放棄旅行,我們在較便宜的酒店選擇了較小的房間。",
+      "starter": "To",
+      "answer": "To save money without giving up the holiday, we traded down to a smaller room in a cheaper hotel.",
+      "answerZh": "為了省錢又不放棄旅行,我們改住較便宜酒店中的較小房間。",
+      "highlight": "traded down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜、較小或較基本的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The school wanted more sports time, so it accepted less time for art.",
+      "promptZh": "學校想增加體育課時間,所以接受減少美術課時間。",
+      "starter": "The",
+      "answer": "The school traded off art time against more sports time.",
+      "answerZh": "學校在美術課時間與更多體育課時間之間作出取捨。",
+      "highlight": "traded off art time against",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After two years in a basic job, Zara accepted a better-paid job with more responsibility.",
+      "promptZh": "做了兩年基本職位後,Zara 接受了一份薪金較高、責任較多的工作。",
+      "starter": "After",
+      "answer": "After two years in a basic job, Zara traded up to a better-paid job with more responsibility.",
+      "answerZh": "做了兩年基本職位後,Zara 轉到一份薪金較高、責任較多的工作。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "轉到較好或條件較佳的選擇"
+    },
+    {
+      "id": "phrasal-verb-141-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We no longer needed the small speakers, so we gave them to the shop as part of the payment for a larger pair.",
+      "promptZh": "我們不再需要那對小型揚聲器,所以把它們交給店舖作部分付款,換購一對較大的揚聲器。",
+      "starter": "We",
+      "answer": "We no longer needed the small speakers, so we traded them in for a larger pair.",
+      "answerZh": "我們不再需要那對小型揚聲器,所以把它們交給店舖作部分付款,換購一對較大的揚聲器。",
+      "highlight": "traded",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    },
+    {
+      "id": "phrasal-verb-141-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Without a clear plan, the candidate used his family name to win support.",
+      "promptZh": "在沒有清晰計劃的情況下,這名候選人利用家族名聲爭取支持。",
+      "starter": "Without",
+      "answer": "Without a clear plan, the candidate traded upon his family name to win support.",
+      "answerZh": "在沒有清晰計劃的情況下,這名候選人利用家族名聲爭取支持。",
+      "highlight": "traded upon",
+      "targetForm": "trade upon something",
+      "targetMeaningZh": "利用名聲、關係或其他優勢取得好處"
+    },
+    {
+      "id": "phrasal-verb-141-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The café kept serving coffee, but when costs rose, it began buying cheaper beans.",
+      "promptZh": "這間咖啡店繼續供應咖啡,但成本上升時,它開始購買較便宜的咖啡豆。",
+      "starter": "The",
+      "answer": "The café kept serving coffee, but when costs rose, it traded down to cheaper beans.",
+      "answerZh": "這間咖啡店繼續供應咖啡,但成本上升時,它改買較便宜的咖啡豆。",
+      "highlight": "traded down to",
+      "targetForm": "trade down to something",
+      "targetMeaningZh": "改用較便宜或較基本的商品"
+    },
+    {
+      "id": "phrasal-verb-141-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The company accepted less comfort to make the new train faster.",
+      "promptZh": "這家公司接受較低舒適度,以令新列車行駛得更快。",
+      "starter": "The",
+      "answer": "The company traded comfort off against speed.",
+      "answerZh": "這家公司在舒適度與速度之間作出取捨。",
+      "highlight": "traded",
+      "targetForm": "trade something off against something",
+      "targetMeaningZh": "在兩方面之間作出取捨"
+    },
+    {
+      "id": "phrasal-verb-141-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The school had used old tablets for years. When it had enough money, it replaced them with newer, better models.",
+      "promptZh": "學校多年來一直使用舊平板電腦。資金足夠後,便把它們換成較新、較好的型號。",
+      "starter": "The",
+      "answer": "The school had used old tablets for years. When it had enough money, it traded up to newer, better models.",
+      "answerZh": "學校多年來一直使用舊平板電腦。資金足夠後,便換用了較新、較好的型號。",
+      "highlight": "traded up to",
+      "targetForm": "trade up to something",
+      "targetMeaningZh": "改用較好、較新或較昂貴的版本"
+    },
+    {
+      "id": "phrasal-verb-141-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Can I give this old game console to the shop as part of the payment for a new one?",
+      "promptZh": "我可以把這部舊遊戲機交給店舖作部分付款,換購新機嗎?",
+      "starter": "Can",
+      "answer": "Can I trade this old game console in for a new one?",
+      "answerZh": "我可以把這部舊遊戲機交給店舖作部分付款,換購新機嗎?",
+      "highlight": "trade",
+      "targetForm": "trade something in for something",
+      "targetMeaningZh": "交出舊物作部分付款,以換購新物"
+    }
+  ]
+}

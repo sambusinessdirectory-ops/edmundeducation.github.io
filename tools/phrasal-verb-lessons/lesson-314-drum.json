@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-314",
+  "order": 314,
+  "slug": "drum",
+  "version": "1",
+  "title": "DRUM 動詞片語",
+  "titleEn": "Drum",
+  "titleZh": "DRUM 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 299 - DRUM.pdf",
+    "sourceNumber": 299,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRUM 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRUM."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRUM",
+      "highlight": "DRUM"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The club drummed him out after he stole money.",
+      "zh": "他偷錢後,學會把他逐出。",
+      "highlight": "drummed him out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach drummed the safety rules into us.",
+      "zh": "教練反覆向我們灌輸安全規則。",
+      "highlight": "drummed the safety rules into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The posters drummed up interest in the event.",
+      "zh": "那些海報引起了大家對活動的興趣。",
+      "highlight": "drummed up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "因某人嚴重犯錯而把他逐出團體或組織；反覆向某人教導或灌輸某事,直至對方牢記；努力爭取支持、引起興趣、招攬生意或找到所需的人",
+    "en": "drum somebody out / drum somebody out of something; drum something into somebody; drum something up",
+    "naturalZh": [
+      "因某人嚴重犯錯而把他逐出團體或組織",
+      "反覆向某人教導或灌輸某事,直至對方牢記",
+      "努力爭取支持、引起興趣、招攬生意或找到所需的人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "drum somebody out / drum somebody out of something",
+      "titleZh": "因某人嚴重犯錯而把他逐出團體或組織",
+      "titleEn": "drum somebody out / drum somebody out of something",
+      "descriptionZh": "因某人嚴重犯錯而把他逐出團體或組織",
+      "descriptionEn": "The club drummed him out after he stole money.",
+      "examples": [
+        {
+          "en": "The club drummed him out after he stole money.",
+          "zh": "他偷錢後,學會把他逐出。",
+          "highlight": "drummed him out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drum something into somebody",
+      "titleZh": "反覆向某人教導或灌輸某事,直至對方牢記",
+      "titleEn": "drum something into somebody",
+      "descriptionZh": "反覆向某人教導或灌輸某事,直至對方牢記",
+      "descriptionEn": "The coach drummed the safety rules into us.",
+      "examples": [
+        {
+          "en": "The coach drummed the safety rules into us.",
+          "zh": "教練反覆向我們灌輸安全規則。",
+          "highlight": "drummed the safety rules into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drum something up",
+      "titleZh": "努力爭取支持、引起興趣、招攬生意或找到所需的人",
+      "titleEn": "drum something up",
+      "descriptionZh": "努力爭取支持、引起興趣、招攬生意或找到所需的人",
+      "descriptionEn": "The posters drummed up interest in the event.",
+      "examples": [
+        {
+          "en": "The posters drummed up interest in the event.",
+          "zh": "那些海報引起了大家對活動的興趣。",
+          "highlight": "drummed up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRUM 片語動詞的實際用途",
+    "labelEn": "DRUM Phrasal Verbs in Use",
+    "summaryZh": "drum somebody out 可以表示某人因犯錯而被迫離開學會、球隊或組織。；drum something into somebody 表示反覆講解某個構思、規則或警告,直至對方牢記。；drum something up 適合描述人們主動爭取支持、吸引顧客或引起他人興趣。；在這些表達中,DRUM 並非指敲鼓,而可以描述反覆教導、強行逐出或積極爭取某事物。",
+    "summaryEn": "Drum somebody out lets you explain that a person was forced to leave a club, team or organisation because of wrongdoing. Drum something into somebody shows that an idea, rule or warning has been repeated until the person remembers it. Drum something up is useful when people actively try to gain support, attract customers or make others interested. In these expressions, DRUM does not mean playing a musical instrument. It can describe repetition, strong removal or an active effort to attract something.",
+    "contextsZh": [
+      "描述某人因嚴重犯錯而被逐出團體",
+      "談論反覆教導和提醒",
+      "談論爭取支持、引起興趣或招攬生意",
+      "理解 DRUM 更廣泛的意思"
+    ],
+    "contextsEn": [
+      "Describe serious removal from a group",
+      "Talk about repeated teaching and reminders",
+      "Talk about attracting support, interest or business",
+      "Understand a wider meaning of DRUM"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRUM 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRUM expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "drum somebody out / drum somebody out of something",
+    "fixedHighlight": "drum somebody out / drum somebody out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 DRUM 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRUM expression that gives the same meaning.",
+    "correct": "drummed him out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請按照以上例子使用正確語序。；drum somebody out 通常表示某人因嚴重犯錯而被逐出,並非一般或友善地離開。",
+    "variableEn": "Keep the same people, things, time and meaning. Follow the word order shown in these examples: drum him out of the club drum the rule into them drum up more support Drum somebody out normally means forcing a person to leave because of serious wrongdoing. It does not describe an ordinary or friendly departure.",
+    "variableItemsZh": [
+      "drum somebody out / drum somebody out of something",
+      "drum something into somebody",
+      "drum something up"
+    ],
+    "variableItemsEn": [
+      "drum somebody out / drum somebody out of something",
+      "drum something into somebody",
+      "drum something up"
+    ],
+    "forms": [
+      {
+        "formZh": "因某人嚴重犯錯而把他逐出團體或組織",
+        "formEn": "drum somebody out / drum somebody out of something",
+        "exampleZh": "他偷錢後,學會把他逐出。",
+        "exampleEn": "The club drummed him out after he stole money.",
+        "highlight": "drummed him out"
+      },
+      {
+        "formZh": "反覆向某人教導或灌輸某事,直至對方牢記",
+        "formEn": "drum something into somebody",
+        "exampleZh": "教練反覆向我們灌輸安全規則。",
+        "exampleEn": "The coach drummed the safety rules into us.",
+        "highlight": "drummed the safety rules into"
+      },
+      {
+        "formZh": "努力爭取支持、引起興趣、招攬生意或找到所需的人",
+        "formEn": "drum something up",
+        "exampleZh": "那些海報引起了大家對活動的興趣。",
+        "exampleEn": "The posters drummed up interest in the event.",
+        "highlight": "drummed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "因某人嚴重犯錯而把他逐出團體或組織",
+      "titleEn": "drum somebody out / drum somebody out of something",
+      "formula": "drum somebody out / drum somebody out of something",
+      "highlight": "drum somebody out / drum somebody out of something",
+      "descriptionZh": "因某人嚴重犯錯而把他逐出團體或組織",
+      "descriptionEn": "The club drummed him out after he stole money.",
+      "examples": [
+        {
+          "en": "The club drummed him out after he stole money.",
+          "zh": "他偷錢後,學會把他逐出。",
+          "highlight": "drummed him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "反覆向某人教導或灌輸某事,直至對方牢記",
+      "titleEn": "drum something into somebody",
+      "formula": "drum something into somebody",
+      "highlight": "drum something into somebody",
+      "descriptionZh": "反覆向某人教導或灌輸某事,直至對方牢記",
+      "descriptionEn": "The coach drummed the safety rules into us.",
+      "examples": [
+        {
+          "en": "The coach drummed the safety rules into us.",
+          "zh": "教練反覆向我們灌輸安全規則。",
+          "highlight": "drummed the safety rules into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "努力爭取支持、引起興趣、招攬生意或找到所需的人",
+      "titleEn": "drum something up",
+      "formula": "drum something up",
+      "highlight": "drum something up",
+      "descriptionZh": "努力爭取支持、引起興趣、招攬生意或找到所需的人",
+      "descriptionEn": "The posters drummed up interest in the event.",
+      "examples": [
+        {
+          "en": "The posters drummed up interest in the event.",
+          "zh": "那些海報引起了大家對活動的興趣。",
+          "highlight": "drummed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某人因嚴重犯錯而被逐出團體",
+      "titleEn": "Describe serious removal from a group",
+      "zh": "drum somebody out 可以表示某人因犯錯而被迫離開學會、球隊或組織。",
+      "en": "Drum somebody out lets you explain that a person was forced to leave a club, team or organisation because of wrongdoing."
+    },
+    {
+      "titleZh": "談論反覆教導和提醒",
+      "titleEn": "Talk about repeated teaching and reminders",
+      "zh": "drum something into somebody 表示反覆講解某個構思、規則或警告,直至對方牢記。",
+      "en": "Drum something into somebody shows that an idea, rule or warning has been repeated until the person remembers it."
+    },
+    {
+      "titleZh": "談論爭取支持、引起興趣或招攬生意",
+      "titleEn": "Talk about attracting support, interest or business",
+      "zh": "drum something up 適合描述人們主動爭取支持、吸引顧客或引起他人興趣。",
+      "en": "Drum something up is useful when people actively try to gain support, attract customers or make others interested."
+    },
+    {
+      "titleZh": "理解 DRUM 更廣泛的意思",
+      "titleEn": "Understand a wider meaning of DRUM",
+      "zh": "在這些表達中,DRUM 並非指敲鼓,而可以描述反覆教導、強行逐出或積極爭取某事物。",
+      "en": "In these expressions, DRUM does not mean playing a musical instrument. It can describe repetition, strong removal or an active effort to attract something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某人因嚴重犯錯而被逐出團體",
+      "談論反覆教導和提醒",
+      "談論爭取支持、引起興趣或招攬生意",
+      "理解 DRUM 更廣泛的意思"
+    ],
+    "contextsEn": [
+      "Describe serious removal from a group",
+      "Talk about repeated teaching and reminders",
+      "Talk about attracting support, interest or business",
+      "Understand a wider meaning of DRUM"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某人因嚴重犯錯而被逐出團體",
+        "titleEn": "Describe serious removal from a group",
+        "zh": "drum somebody out 可以表示某人因犯錯而被迫離開學會、球隊或組織。",
+        "en": "Drum somebody out lets you explain that a person was forced to leave a club, team or organisation because of wrongdoing.",
+        "examples": [
+          {
+            "en": "The club drummed him out after he stole money.",
+            "zh": "他偷錢後,學會把他逐出。",
+            "highlight": "drummed him out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論反覆教導和提醒",
+        "titleEn": "Talk about repeated teaching and reminders",
+        "zh": "drum something into somebody 表示反覆講解某個構思、規則或警告,直至對方牢記。",
+        "en": "Drum something into somebody shows that an idea, rule or warning has been repeated until the person remembers it.",
+        "examples": [
+          {
+            "en": "The coach drummed the safety rules into us.",
+            "zh": "教練反覆向我們灌輸安全規則。",
+            "highlight": "drummed the safety rules into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論爭取支持、引起興趣或招攬生意",
+        "titleEn": "Talk about attracting support, interest or business",
+        "zh": "drum something up 適合描述人們主動爭取支持、吸引顧客或引起他人興趣。",
+        "en": "Drum something up is useful when people actively try to gain support, attract customers or make others interested.",
+        "examples": [
+          {
+            "en": "The posters drummed up interest in the event.",
+            "zh": "那些海報引起了大家對活動的興趣。",
+            "highlight": "drummed up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 DRUM 更廣泛的意思",
+        "titleEn": "Understand a wider meaning of DRUM",
+        "zh": "在這些表達中,DRUM 並非指敲鼓,而可以描述反覆教導、強行逐出或積極爭取某事物。",
+        "en": "In these expressions, DRUM does not mean playing a musical instrument. It can describe repetition, strong removal or an active effort to attract something.",
+        "examples": [
+          {
+            "en": "The club drummed him out after he stole money.",
+            "zh": "他偷錢後,學會把他逐出。",
+            "highlight": "drummed him out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRUM 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRUM expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRUM 片語動詞。",
+      "en": "Read the whole sentence and choose the DRUM expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請按照以上例子使用正確語序。",
+      "titleEn": "Follow the word order shown in these examples: drum him out of the club drum the rule into them drum up more support.",
+      "zh": "請按照以上例子使用正確語序。",
+      "en": "Follow the word order shown in these examples: drum him out of the club drum the rule into them drum up more support"
+    },
+    {
+      "titleZh": "drum somebody out 通常表示某人因嚴重犯錯而被逐出,並非一般或友善地離開。",
+      "titleEn": "Drum somebody out normally means forcing a person to leave because of serious wrongdoing.",
+      "zh": "drum somebody out 通常表示某人因嚴重犯錯而被逐出,並非一般或友善地離開。",
+      "en": "Drum somebody out normally means forcing a person to leave because of serious wrongdoing. It does not describe an ordinary or friendly departure."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRUM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRUM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRUM 動詞片語句子改寫練習",
+    "titleEn": "DRUM Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRUM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRUM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-314-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The shop started a sale because it wanted more business.",
+      "promptZh": "那間店為了增加生意而開始減價促銷。",
+      "starter": "The",
+      "answer": "The shop started a sale to drum up more business.",
+      "answerZh": "那間店開始減價促銷,以招攬更多生意。",
+      "highlight": "to drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法招攬生意"
+    },
+    {
+      "id": "phrasal-verb-314-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Dad repeated the road-safety rules until we remembered them.",
+      "promptZh": "爸爸反覆講解道路安全規則,直到我們記住為止。",
+      "starter": "Dad",
+      "answer": "Dad drummed the road-safety rules into us.",
+      "answerZh": "爸爸反覆向我們灌輸道路安全規則。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The club forced Ben to leave after he stole money.",
+      "promptZh": "賓偷錢後,學會把他逐出。",
+      "starter": "The",
+      "answer": "The club drummed Ben out after he stole money.",
+      "answerZh": "賓偷錢後,學會把他逐出。",
+      "highlight": "drummed",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "因犯錯而把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher repeated the spellings until her pupils knew them.",
+      "promptZh": "老師反覆教那些拼字,直到學生記住為止。",
+      "starter": "The",
+      "answer": "The teacher drummed the spellings into her pupils.",
+      "answerZh": "老師反覆教導學生那些拼字,直至他們牢記。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We need to find more people who will support the school fair.",
+      "promptZh": "我們需要爭取更多人支持學校嘉年華。",
+      "starter": "We",
+      "answer": "We need to drum up more support for the school fair.",
+      "answerZh": "我們需要為學校嘉年華爭取更多支持。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法爭取支持"
+    },
+    {
+      "id": "phrasal-verb-314-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The team forced Ravi to leave because he cheated.",
+      "promptZh": "拉維作弊,所以球隊把他逐出。",
+      "starter": "The",
+      "answer": "The team drummed Ravi out because he cheated.",
+      "answerZh": "拉維作弊,所以球隊把他逐出。",
+      "highlight": "drummed",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "因犯錯而把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach repeated the need to wear helmets until the riders remembered it.",
+      "promptZh": "教練反覆強調必須戴頭盔,直到騎單車的人記住為止。",
+      "starter": "The",
+      "answer": "The coach drummed the need to wear helmets into the riders.",
+      "answerZh": "教練反覆向騎單車的人灌輸戴頭盔的重要性。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nina was forced to leave the group after she broke the rules many times.",
+      "promptZh": "妮娜多次違反規則後,被逐出小組。",
+      "starter": "Nina",
+      "answer": "Nina was drummed out of the group after she broke the rules many times.",
+      "answerZh": "妮娜多次違反規則後,被逐出小組。",
+      "highlight": "drummed out of",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因犯錯而把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The band is trying to make more people interested in its concert.",
+      "promptZh": "樂隊正設法令更多人對其音樂會感興趣。",
+      "starter": "The",
+      "answer": "The band is trying to drum up more interest in its concert.",
+      "answerZh": "樂隊正設法引起更多人對其音樂會的興趣。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Mum kept repeating the emergency number until the children remembered it.",
+      "promptZh": "媽媽不斷重複緊急電話號碼,直到孩子們記住為止。",
+      "starter": "Mum",
+      "answer": "Mum drummed the emergency number into the children.",
+      "answerZh": "媽媽反覆向孩子們灌輸緊急電話號碼,直至他們牢記。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They may force him to leave the club if he lies again.",
+      "promptZh": "如果他再次說謊,他們可能會把他逐出學會。",
+      "starter": "They",
+      "answer": "They may drum him out of the club if he lies again.",
+      "answerZh": "如果他再次說謊,他們可能會把他逐出學會。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因犯錯而把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The café is offering free samples because it wants more business.",
+      "promptZh": "那間咖啡店為了招攬更多生意,正提供免費試食。",
+      "starter": "The",
+      "answer": "The café is offering free samples to drum up more business.",
+      "answerZh": "那間咖啡店正提供免費試食,以招攬更多生意。",
+      "highlight": "to drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法招攬生意"
+    },
+    {
+      "id": "phrasal-verb-314-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our teacher has repeated these rules to us all week.",
+      "promptZh": "老師整個星期都在向我們重複這些規則。",
+      "starter": "Our",
+      "answer": "Our teacher has drummed these rules into us all week.",
+      "answerZh": "老師整個星期都反覆向我們灌輸這些規則。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Can you find a few more people to help at the event?",
+      "promptZh": "你可以多找幾個人來協助這項活動嗎?",
+      "starter": "Can",
+      "answer": "Can you drum up a few more volunteers for the event?",
+      "answerZh": "你可以為這項活動多找幾名義工嗎?",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法找到或爭取所需的人"
+    },
+    {
+      "id": "phrasal-verb-314-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The committee has decided to force him to leave after he lied.",
+      "promptZh": "他說謊後,委員會已決定把他逐出。",
+      "starter": "The",
+      "answer": "The committee has decided to drum him out after he lied.",
+      "answerZh": "他說謊後,委員會已決定把他逐出。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "因犯錯而把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The same warning is being repeated again and again to every new worker.",
+      "promptZh": "每名新員工都會一再聽到同一項警告。",
+      "starter": "The",
+      "answer": "The same warning is being drummed into every new worker.",
+      "answerZh": "每名新員工都被反覆灌輸同一項警告。",
+      "highlight": "drummed into",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The online posts did not create much interest in the event.",
+      "promptZh": "網上帖文沒有引起大家對這項活動太大興趣。",
+      "starter": "The",
+      "answer": "The online posts did not drum up much interest in the event.",
+      "answerZh": "網上帖文沒有引起大家對這項活動太大興趣。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why was the player forced to leave the team?",
+      "promptZh": "為甚麼那名球員被逐出球隊?",
+      "starter": "Why",
+      "answer": "Why was the player drummed out of the team?",
+      "answerZh": "為甚麼那名球員被逐出球隊?",
+      "highlight": "drummed out of",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因犯錯而把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I keep repeating the closing time so the children will remember it.",
+      "promptZh": "我不斷重複關門時間,讓孩子們記住。",
+      "starter": "I",
+      "answer": "I keep drumming the closing time into the children.",
+      "answerZh": "我不斷向孩子們灌輸關門時間,讓他們牢記。",
+      "highlight": "drumming",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Enough support has been gained for the project to continue.",
+      "promptZh": "這個項目已獲得足夠支持,可以繼續進行。",
+      "starter": "Enough",
+      "answer": "Enough support has been drummed up for the project to continue.",
+      "answerZh": "這個項目已爭取到足夠支持,可以繼續進行。",
+      "highlight": "drummed up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法爭取支持"
+    },
+    {
+      "id": "phrasal-verb-314-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please repeat it until they remember that the gate must stay closed.",
+      "promptZh": "請反覆提醒他們大門必須保持關閉,直到他們記住為止。",
+      "starter": "Please",
+      "answer": "Please drum it into them that the gate must stay closed.",
+      "answerZh": "請反覆提醒他們大門必須保持關閉,直至他們牢記。",
+      "highlight": "drum",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The other members forced Omar to leave the band before the tour because he had stolen money.",
+      "promptZh": "奧馬曾偷錢,所以其他成員在巡演前把他逐出樂隊。",
+      "starter": "The",
+      "answer": "The other members drummed Omar out of the band before the tour because he had stolen money.",
+      "answerZh": "奧馬曾偷錢,所以其他成員在巡演前把他逐出樂隊。",
+      "highlight": "drummed",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因犯錯而把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "What can we do to sell more before the holiday?",
+      "promptZh": "假期前,我們可以怎樣做來增加銷量?",
+      "starter": "What",
+      "answer": "What can we do to drum up more sales before the holiday?",
+      "answerZh": "假期前,我們可以怎樣做來增加銷量?",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法增加銷量或生意"
+    },
+    {
+      "id": "phrasal-verb-314-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Road safety had been repeated to the pupils many times before the cycling trip.",
+      "promptZh": "在單車活動前,學生已多次聽到道路安全的提醒。",
+      "starter": "Road",
+      "answer": "Road safety had been drummed into the pupils many times before the cycling trip.",
+      "answerZh": "在單車活動前,學生已被多次灌輸道路安全知識。",
+      "highlight": "drummed into",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The organisation tried to force Eva to leave, but the vote failed.",
+      "promptZh": "該組織企圖把伊娃逐出,但表決未能通過。",
+      "starter": "The",
+      "answer": "The organisation tried to drum Eva out, but the vote failed.",
+      "answerZh": "該組織企圖把伊娃逐出,但表決未能通過。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "企圖把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "A short video may make more people interested in the clean-up day.",
+      "promptZh": "一段短片可能會令更多人對清潔日感興趣。",
+      "starter": "A",
+      "answer": "A short video may drum up more interest in the clean-up day.",
+      "answerZh": "一段短片可能會引起更多人對清潔日的興趣。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Her parents taught her good manners by repeating them often from an early age.",
+      "promptZh": "她的父母自她年幼時便經常重複教導她要有禮貌。",
+      "starter": "Her",
+      "answer": "Her parents drummed good manners into her from an early age.",
+      "answerZh": "她的父母自她年幼時便反覆教導她要有禮貌。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The school is trying to gain support among local parents for the new reading room.",
+      "promptZh": "學校正設法爭取區內家長支持新的閱讀室。",
+      "starter": "The",
+      "answer": "The school is trying to drum up support among local parents for the new reading room.",
+      "answerZh": "學校正設法爭取區內家長支持新的閱讀室。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法爭取支持"
+    },
+    {
+      "id": "phrasal-verb-314-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Anyone who steals from the club may be forced to leave.",
+      "promptZh": "任何偷取學會財物的人都可能會被逐出。",
+      "starter": "Anyone",
+      "answer": "Anyone who steals from the club may be drummed out.",
+      "answerZh": "任何偷取學會財物的人都可能會被逐出。",
+      "highlight": "drummed out",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "因犯錯而把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "You cannot make students remember every rule by repeating it in one lesson.",
+      "promptZh": "你不可能只在一堂課內反覆講解,便令學生記住每一條規則。",
+      "starter": "You",
+      "answer": "You cannot drum every rule into students in one lesson.",
+      "answerZh": "你不可能在一堂課內便令學生牢記每一條規則。",
+      "highlight": "drum",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The officer was officially forced to leave the police force after the report showed that he had lied.",
+      "promptZh": "報告顯示那名警員曾說謊後,他被正式逐出警隊。",
+      "starter": "The",
+      "answer": "The officer was drummed out of the police force after the report showed that he had lied.",
+      "answerZh": "報告顯示那名警員曾說謊後,他被逐出警隊。",
+      "highlight": "drummed out of",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因嚴重犯錯而把某人逐出某組織"
+    },
+    {
+      "id": "phrasal-verb-314-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The posters created a lot of interest in the class.",
+      "promptZh": "那些海報引起了大家對這個課程的濃厚興趣。",
+      "starter": "The",
+      "answer": "The posters drummed up a lot of interest in the class.",
+      "answerZh": "那些海報引起了大家對這個課程的濃厚興趣。",
+      "highlight": "drummed up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After several accidents, the coach repeated the importance of helmets until every rider remembered it.",
+      "promptZh": "發生數宗意外後,教練反覆強調頭盔的重要性,直到每名騎單車的人都記住為止。",
+      "starter": "After",
+      "answer": "After several accidents, the coach drummed the importance of helmets into every rider.",
+      "answerZh": "發生數宗意外後,教練反覆向每名騎單車的人灌輸頭盔的重要性。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The committee refused to force Zara to leave without first hearing her side of the story.",
+      "promptZh": "委員會拒絕在未先聽取扎拉的說法前把她逐出。",
+      "starter": "The",
+      "answer": "The committee refused to drum Zara out without first hearing her side of the story.",
+      "answerZh": "委員會拒絕在未先聽取扎拉的說法前把她逐出。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The warning had been repeated to Leo so often that he checked the lock twice.",
+      "promptZh": "那項警告已向里奧重複了很多次,因此他把門鎖檢查了兩遍。",
+      "starter": "The",
+      "answer": "The warning had been drummed into Leo so often that he checked the lock twice.",
+      "answerZh": "那項警告已反覆灌輸給里奧,因此他把門鎖檢查了兩遍。",
+      "highlight": "drummed into",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The shopkeeper attracted extra business by offering free delivery.",
+      "promptZh": "店主透過提供免費送貨服務,招攬了額外生意。",
+      "starter": "The",
+      "answer": "The shopkeeper drummed up extra business by offering free delivery.",
+      "answerZh": "店主透過提供免費送貨服務,招攬了額外生意。",
+      "highlight": "drummed up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法招攬生意"
+    },
+    {
+      "id": "phrasal-verb-314-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Should a member be forced to leave the club for one mistake?",
+      "promptZh": "會員應否因一次錯誤而被逐出學會?",
+      "starter": "Should",
+      "answer": "Should a member be drummed out of the club for one mistake?",
+      "answerZh": "會員應否因一次錯誤而被逐出學會?",
+      "highlight": "drummed out of",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Despite weeks of work, the team could not make the public very interested in the new app.",
+      "promptZh": "儘管努力了數星期,團隊仍未能令公眾對新應用程式產生太大興趣。",
+      "starter": "Despite",
+      "answer": "Despite weeks of work, the team could not drum up much public interest in the new app.",
+      "answerZh": "儘管努力了數星期,團隊仍未能引起公眾對新應用程式太大興趣。",
+      "highlight": "drum up much",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起公眾興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No matter how often I repeat the rule, they still forget it.",
+      "promptZh": "無論我把規則重複多少次,他們仍然會忘記。",
+      "starter": "No",
+      "answer": "No matter how often I drum the rule into them, they still forget it.",
+      "answerZh": "無論我多麼反覆地向他們灌輸這條規則,他們仍然會忘記。",
+      "highlight": "drum",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By the end of the meeting, they had voted to force the manager to leave the club.",
+      "promptZh": "會議結束前,他們已投票決定把經理逐出學會。",
+      "starter": "By",
+      "answer": "By the end of the meeting, they had voted to drum the manager out of the club.",
+      "answerZh": "會議結束前,他們已投票決定把經理逐出學會。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "With only two days left, the club quickly found ten more people willing to help.",
+      "promptZh": "只餘兩天,學會很快便多找了十名願意幫忙的人。",
+      "starter": "With",
+      "answer": "With only two days left, the club quickly drummed up ten more volunteers.",
+      "answerZh": "只餘兩天,學會很快便多找了十名義工。",
+      "highlight": "drummed up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法找到或爭取所需的人"
+    },
+    {
+      "id": "phrasal-verb-314-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although Ben apologised, the team still forced him to leave for cheating.",
+      "promptZh": "雖然賓已道歉,但球隊仍因他作弊而把他逐出。",
+      "starter": "Although",
+      "answer": "Although Ben apologised, the team still drummed him out for cheating.",
+      "answerZh": "雖然賓已道歉,但球隊仍因他作弊而把他逐出。",
+      "highlight": "drummed",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "因犯錯而把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Before the trip, the guide repeated the meeting time several times so that everyone would remember it.",
+      "promptZh": "出發前,導遊多次重複集合時間,讓所有人記住。",
+      "starter": "Before",
+      "answer": "Before the trip, the guide drummed the meeting time into everyone.",
+      "answerZh": "出發前,導遊反覆提醒所有人集合時間,讓他們牢記。",
+      "highlight": "drummed",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The charity used short videos and school visits to gain support for a new playground.",
+      "promptZh": "該慈善團體利用短片和到訪學校,爭取大家支持興建新遊樂場。",
+      "starter": "The",
+      "answer": "The charity used short videos and school visits to drum up support for a new playground.",
+      "answerZh": "該慈善團體利用短片和到訪學校,爭取大家支持興建新遊樂場。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法爭取支持"
+    },
+    {
+      "id": "phrasal-verb-314-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The singer had already been forced to leave the group before the tour began.",
+      "promptZh": "巡演開始前,那名歌手早已被逐出組合。",
+      "starter": "The",
+      "answer": "The singer had already been drummed out of the group before the tour began.",
+      "answerZh": "巡演開始前,那名歌手早已被逐出組合。",
+      "highlight": "drummed out of",
+      "targetForm": "drum somebody out of something",
+      "targetMeaningZh": "因犯錯而把某人逐出某團體"
+    },
+    {
+      "id": "phrasal-verb-314-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The teacher did not have to repeat the answer until we remembered it; one example was enough.",
+      "promptZh": "老師無須反覆講解答案,因為一個例子已經足夠。",
+      "starter": "The",
+      "answer": "The teacher did not have to drum the answer into us; one example was enough.",
+      "answerZh": "老師無須反覆向我們灌輸答案,因為一個例子已經足夠。",
+      "highlight": "drum",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆教導,直至對方牢記"
+    },
+    {
+      "id": "phrasal-verb-314-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the first event was quiet, the organisers hope to make more people interested in the next one.",
+      "promptZh": "雖然第一場活動反應冷淡,但主辦單位希望令更多人對下一場感興趣。",
+      "starter": "Although",
+      "answer": "Although the first event was quiet, the organisers hope to drum up more interest in the next one.",
+      "answerZh": "雖然第一場活動反應冷淡,但主辦單位希望引起更多人對下一場的興趣。",
+      "highlight": "drum up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法引起興趣"
+    },
+    {
+      "id": "phrasal-verb-314-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The club wanted to force Niko to leave, but several members defended him.",
+      "promptZh": "學會想把尼高逐出,但數名會員為他辯護。",
+      "starter": "The",
+      "answer": "The club wanted to drum Niko out, but several members defended him.",
+      "answerZh": "學會想把尼高逐出,但數名會員為他辯護。",
+      "highlight": "drum",
+      "targetForm": "drum somebody out",
+      "targetMeaningZh": "把某人逐出團體"
+    },
+    {
+      "id": "phrasal-verb-314-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The safety message had been repeated so often that everyone checked the doors without being reminded.",
+      "promptZh": "安全提示已重複了很多次,因此大家不用提醒也會檢查所有門。",
+      "starter": "The",
+      "answer": "The safety message had been drummed into everyone so often that they checked the doors without being reminded.",
+      "answerZh": "安全提示已反覆灌輸給所有人,因此他們不用提醒也會檢查所有門。",
+      "highlight": "drummed into everyone",
+      "targetForm": "drum something into somebody",
+      "targetMeaningZh": "反覆向某人灌輸某事"
+    },
+    {
+      "id": "phrasal-verb-314-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The small company had already gained a lot of new business before the holiday sale began.",
+      "promptZh": "假期減價促銷開始前,這間小公司已招攬了大量新生意。",
+      "starter": "The",
+      "answer": "The small company had already drummed up a lot of new business before the holiday sale began.",
+      "answerZh": "假期減價促銷開始前,這間小公司已招攬了大量新生意。",
+      "highlight": "drummed up",
+      "targetForm": "drum something up",
+      "targetMeaningZh": "設法招攬生意"
+    }
+  ]
+}

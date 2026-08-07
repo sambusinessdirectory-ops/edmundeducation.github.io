@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-186",
+  "order": 186,
+  "slug": "come-out",
+  "version": "1",
+  "title": "COME OUT 動詞片語",
+  "titleEn": "COME out",
+  "titleZh": "COME OUT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 185 - COME out.pdf",
+    "sourceNumber": 185,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME OUT",
+      "highlight": "COME OUT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The sun came out after lunch.",
+      "zh": "午飯後太陽出來了。",
+      "highlight": "came out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The bill came out at £48.",
+      "zh": "帳單最後是48英鎊。",
+      "highlight": "came out at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She came out in a rash after using the soap.",
+      "zh": "她使用那種肥皂後出疹了。",
+      "highlight": "came out in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "太陽、月亮等出現;露出來；總數、價錢或結果最後是某個數目；身上出現疹子、紅點等；逐漸走出衰退、危機或其他困難情況；突然說出令人意外、奇怪或愚蠢的話；出來;從某處走出來或離開裡面",
+    "en": "come out; come out at something; come out in something; come out of something; come out with something; come out / come out of something",
+    "naturalZh": [
+      "太陽、月亮等出現;露出來",
+      "總數、價錢或結果最後是某個數目",
+      "身上出現疹子、紅點等",
+      "逐漸走出衰退、危機或其他困難情況",
+      "突然說出令人意外、奇怪或愚蠢的話",
+      "出來;從某處走出來或離開裡面"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come out",
+      "titleZh": "太陽、月亮等出現;露出來",
+      "titleEn": "come out",
+      "descriptionZh": "太陽、月亮等出現;露出來",
+      "descriptionEn": "The sun came out after lunch.",
+      "examples": [
+        {
+          "en": "The sun came out after lunch.",
+          "zh": "午飯後太陽出來了。",
+          "highlight": "came out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come out at something",
+      "titleZh": "總數、價錢或結果最後是某個數目",
+      "titleEn": "come out at something",
+      "descriptionZh": "總數、價錢或結果最後是某個數目",
+      "descriptionEn": "The bill came out at £48.",
+      "examples": [
+        {
+          "en": "The bill came out at £48.",
+          "zh": "帳單最後是48英鎊。",
+          "highlight": "came out at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come out in something",
+      "titleZh": "身上出現疹子、紅點等",
+      "titleEn": "come out in something",
+      "descriptionZh": "身上出現疹子、紅點等",
+      "descriptionEn": "She came out in a rash after using the soap.",
+      "examples": [
+        {
+          "en": "She came out in a rash after using the soap.",
+          "zh": "她使用那種肥皂後出疹了。",
+          "highlight": "came out in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come out of something",
+      "titleZh": "逐漸走出衰退、危機或其他困難情況",
+      "titleEn": "come out of something",
+      "descriptionZh": "逐漸走出衰退、危機或其他困難情況",
+      "descriptionEn": "The town is slowly coming out of a difficult year.",
+      "examples": [
+        {
+          "en": "The town is slowly coming out of a difficult year.",
+          "zh": "這個小鎮正慢慢走出艱難的一年。",
+          "highlight": "coming out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come out with something",
+      "titleZh": "突然說出令人意外、奇怪或愚蠢的話",
+      "titleEn": "come out with something",
+      "descriptionZh": "突然說出令人意外、奇怪或愚蠢的話",
+      "descriptionEn": "He came out with a strange excuse.",
+      "examples": [
+        {
+          "en": "He came out with a strange excuse.",
+          "zh": "他突然說出一個奇怪的藉口。",
+          "highlight": "came out with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come out / come out of something",
+      "titleZh": "出來;從某處走出來或離開裡面",
+      "titleEn": "come out / come out of something",
+      "descriptionZh": "出來;從某處走出來或離開裡面",
+      "descriptionEn": "The dog came out of the kitchen.",
+      "examples": [
+        {
+          "en": "The dog came out of the kitchen.",
+          "zh": "那隻狗從廚房走了出來。",
+          "highlight": "came out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME OUT 片語動詞的實際用途",
+    "labelEn": "COME OUT Phrasal Verbs in Use",
+    "summaryZh": "come out 可以描述太陽、月亮或星星出現。；come out at 可以表示帳單、預訂或購物的最後費用。；come out in 可以描述疹子或紅點;come out of 則可以描述逐漸走出困難情況。；你可以用 come out 表示從某處出來,並用 come out with 表示突然說出令人意外的話。",
+    "summaryEn": "Come out can describe the sun, moon or stars becoming visible. Come out at helps you say what a bill, booking or purchase finally costs. Come out in can describe a rash or spots, while come out of can describe recovery from a difficult situation. You can use come out for leaving a place and come out with for saying something surprising.",
+    "contextsZh": [
+      "自然談論天空和天氣",
+      "清楚說明最後價錢和總額",
+      "描述皮膚反應和走出困境",
+      "描述離開某處和突然說話"
+    ],
+    "contextsEn": [
+      "Talk naturally about the sky and weather",
+      "State final prices and totals clearly",
+      "Describe skin reactions and recovery from difficulties",
+      "Describe movement and unexpected speech"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come out",
+    "fixedHighlight": "come out",
+    "fixedZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+    "correct": "came out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；仔細閱讀 out 後面的字詞,因為不同配搭會表達不同意思。；come out 可以單獨使用,但其意思取決於整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. Read the words after out carefully: come out at £50 come out in a rash come out of the room come out of recession come out with a strange comment Come out can be used by itself, but the situation determines its meaning: The sun came out. Come out!",
+    "variableItemsZh": [
+      "come out",
+      "come out at something",
+      "come out in something",
+      "come out of something",
+      "come out with something",
+      "come out / come out of something"
+    ],
+    "variableItemsEn": [
+      "come out",
+      "come out at something",
+      "come out in something",
+      "come out of something",
+      "come out with something",
+      "come out / come out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "太陽、月亮等出現;露出來",
+        "formEn": "come out",
+        "exampleZh": "午飯後太陽出來了。",
+        "exampleEn": "The sun came out after lunch.",
+        "highlight": "came out"
+      },
+      {
+        "formZh": "總數、價錢或結果最後是某個數目",
+        "formEn": "come out at something",
+        "exampleZh": "帳單最後是48英鎊。",
+        "exampleEn": "The bill came out at £48.",
+        "highlight": "came out at"
+      },
+      {
+        "formZh": "身上出現疹子、紅點等",
+        "formEn": "come out in something",
+        "exampleZh": "她使用那種肥皂後出疹了。",
+        "exampleEn": "She came out in a rash after using the soap.",
+        "highlight": "came out in"
+      },
+      {
+        "formZh": "逐漸走出衰退、危機或其他困難情況",
+        "formEn": "come out of something",
+        "exampleZh": "這個小鎮正慢慢走出艱難的一年。",
+        "exampleEn": "The town is slowly coming out of a difficult year.",
+        "highlight": "coming out"
+      },
+      {
+        "formZh": "突然說出令人意外、奇怪或愚蠢的話",
+        "formEn": "come out with something",
+        "exampleZh": "他突然說出一個奇怪的藉口。",
+        "exampleEn": "He came out with a strange excuse.",
+        "highlight": "came out with"
+      },
+      {
+        "formZh": "出來;從某處走出來或離開裡面",
+        "formEn": "come out / come out of something",
+        "exampleZh": "那隻狗從廚房走了出來。",
+        "exampleEn": "The dog came out of the kitchen.",
+        "highlight": "came out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "太陽、月亮等出現;露出來",
+      "titleEn": "come out",
+      "formula": "come out",
+      "highlight": "come out",
+      "descriptionZh": "太陽、月亮等出現;露出來",
+      "descriptionEn": "The sun came out after lunch.",
+      "examples": [
+        {
+          "en": "The sun came out after lunch.",
+          "zh": "午飯後太陽出來了。",
+          "highlight": "came out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "總數、價錢或結果最後是某個數目",
+      "titleEn": "come out at something",
+      "formula": "come out at something",
+      "highlight": "come out at something",
+      "descriptionZh": "總數、價錢或結果最後是某個數目",
+      "descriptionEn": "The bill came out at £48.",
+      "examples": [
+        {
+          "en": "The bill came out at £48.",
+          "zh": "帳單最後是48英鎊。",
+          "highlight": "came out at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "身上出現疹子、紅點等",
+      "titleEn": "come out in something",
+      "formula": "come out in something",
+      "highlight": "come out in something",
+      "descriptionZh": "身上出現疹子、紅點等",
+      "descriptionEn": "She came out in a rash after using the soap.",
+      "examples": [
+        {
+          "en": "She came out in a rash after using the soap.",
+          "zh": "她使用那種肥皂後出疹了。",
+          "highlight": "came out in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "逐漸走出衰退、危機或其他困難情況",
+      "titleEn": "come out of something",
+      "formula": "come out of something",
+      "highlight": "come out of something",
+      "descriptionZh": "逐漸走出衰退、危機或其他困難情況",
+      "descriptionEn": "The town is slowly coming out of a difficult year.",
+      "examples": [
+        {
+          "en": "The town is slowly coming out of a difficult year.",
+          "zh": "這個小鎮正慢慢走出艱難的一年。",
+          "highlight": "coming out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然說出令人意外、奇怪或愚蠢的話",
+      "titleEn": "come out with something",
+      "formula": "come out with something",
+      "highlight": "come out with something",
+      "descriptionZh": "突然說出令人意外、奇怪或愚蠢的話",
+      "descriptionEn": "He came out with a strange excuse.",
+      "examples": [
+        {
+          "en": "He came out with a strange excuse.",
+          "zh": "他突然說出一個奇怪的藉口。",
+          "highlight": "came out with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "出來;從某處走出來或離開裡面",
+      "titleEn": "come out / come out of something",
+      "formula": "come out / come out of something",
+      "highlight": "come out / come out of something",
+      "descriptionZh": "出來;從某處走出來或離開裡面",
+      "descriptionEn": "The dog came out of the kitchen.",
+      "examples": [
+        {
+          "en": "The dog came out of the kitchen.",
+          "zh": "那隻狗從廚房走了出來。",
+          "highlight": "came out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論天空和天氣",
+      "titleEn": "Talk naturally about the sky and weather",
+      "zh": "come out 可以描述太陽、月亮或星星出現。",
+      "en": "Come out can describe the sun, moon or stars becoming visible."
+    },
+    {
+      "titleZh": "清楚說明最後價錢和總額",
+      "titleEn": "State final prices and totals clearly",
+      "zh": "come out at 可以表示帳單、預訂或購物的最後費用。",
+      "en": "Come out at helps you say what a bill, booking or purchase finally costs."
+    },
+    {
+      "titleZh": "描述皮膚反應和走出困境",
+      "titleEn": "Describe skin reactions and recovery from difficulties",
+      "zh": "come out in 可以描述疹子或紅點;come out of 則可以描述逐漸走出困難情況。",
+      "en": "Come out in can describe a rash or spots, while come out of can describe recovery from a difficult situation."
+    },
+    {
+      "titleZh": "描述離開某處和突然說話",
+      "titleEn": "Describe movement and unexpected speech",
+      "zh": "你可以用 come out 表示從某處出來,並用 come out with 表示突然說出令人意外的話。",
+      "en": "You can use come out for leaving a place and come out with for saying something surprising."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論天空和天氣",
+      "清楚說明最後價錢和總額",
+      "描述皮膚反應和走出困境",
+      "描述離開某處和突然說話"
+    ],
+    "contextsEn": [
+      "Talk naturally about the sky and weather",
+      "State final prices and totals clearly",
+      "Describe skin reactions and recovery from difficulties",
+      "Describe movement and unexpected speech"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論天空和天氣",
+        "titleEn": "Talk naturally about the sky and weather",
+        "zh": "come out 可以描述太陽、月亮或星星出現。",
+        "en": "Come out can describe the sun, moon or stars becoming visible.",
+        "examples": [
+          {
+            "en": "The sun came out after lunch.",
+            "zh": "午飯後太陽出來了。",
+            "highlight": "came out"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明最後價錢和總額",
+        "titleEn": "State final prices and totals clearly",
+        "zh": "come out at 可以表示帳單、預訂或購物的最後費用。",
+        "en": "Come out at helps you say what a bill, booking or purchase finally costs.",
+        "examples": [
+          {
+            "en": "The bill came out at £48.",
+            "zh": "帳單最後是48英鎊。",
+            "highlight": "came out at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述皮膚反應和走出困境",
+        "titleEn": "Describe skin reactions and recovery from difficulties",
+        "zh": "come out in 可以描述疹子或紅點;come out of 則可以描述逐漸走出困難情況。",
+        "en": "Come out in can describe a rash or spots, while come out of can describe recovery from a difficult situation.",
+        "examples": [
+          {
+            "en": "She came out in a rash after using the soap.",
+            "zh": "她使用那種肥皂後出疹了。",
+            "highlight": "came out in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述離開某處和突然說話",
+        "titleEn": "Describe movement and unexpected speech",
+        "zh": "你可以用 come out 表示從某處出來,並用 come out with 表示突然說出令人意外的話。",
+        "en": "You can use come out for leaving a place and come out with for saying something surprising.",
+        "examples": [
+          {
+            "en": "The town is slowly coming out of a difficult year.",
+            "zh": "這個小鎮正慢慢走出艱難的一年。",
+            "highlight": "coming out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "en": "Read the whole sentence and choose the COME expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "仔細閱讀 out 後面的字詞,因為不同配搭會表達不同意思。",
+      "titleEn": "Read the words after out carefully: come out at £50 come out in a rash come out of the room come out of recession come out with a strange comment.",
+      "zh": "仔細閱讀 out 後面的字詞,因為不同配搭會表達不同意思。",
+      "en": "Read the words after out carefully: come out at £50 come out in a rash come out of the room come out of recession come out with a strange comment"
+    },
+    {
+      "titleZh": "come out 可以單獨使用,但其意思取決於整個情境。",
+      "titleEn": "Come out can be used by itself, but the situation determines its meaning: The sun came out.",
+      "zh": "come out 可以單獨使用,但其意思取決於整個情境。",
+      "en": "Come out can be used by itself, but the situation determines its meaning: The sun came out. Come out!"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME OUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME OUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME OUT 動詞片語句子改寫練習",
+    "titleEn": "COME OUT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME OUT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME OUT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-186-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The sun appeared after lunch.",
+      "promptZh": "午飯後太陽出現了。",
+      "starter": "The",
+      "answer": "The sun came out after lunch.",
+      "answerZh": "午飯後太陽出來了。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽等出現;露出來"
+    },
+    {
+      "id": "phrasal-verb-186-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The cat left the box.",
+      "promptZh": "那隻貓離開了盒子。",
+      "starter": "The",
+      "answer": "The cat came out of the box.",
+      "answerZh": "那隻貓從盒子裏走了出來。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The total bill was £36.",
+      "promptZh": "帳單總額是36英鎊。",
+      "starter": "The",
+      "answer": "The bill came out at £36.",
+      "answerZh": "帳單最後是36英鎊。",
+      "highlight": "came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "總數或價錢最後是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo suddenly gave a strange excuse.",
+      "promptZh": "里奧突然說出一個奇怪的藉口。",
+      "starter": "Leo",
+      "answer": "Leo came out with a strange excuse.",
+      "answerZh": "里奧突然說出一個奇怪的藉口。",
+      "highlight": "came out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人意外或奇怪的話"
+    },
+    {
+      "id": "phrasal-verb-186-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A rash appeared on Sara’s skin after she used the cream.",
+      "promptZh": "莎拉使用那種乳霜後,皮膚出現了疹子。",
+      "starter": "Sara",
+      "answer": "Sara came out in a rash after using the cream.",
+      "answerZh": "莎拉使用那種乳霜後出疹了。",
+      "highlight": "Sara came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現疹子或紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The country is slowly recovering from the recession.",
+      "promptZh": "這個國家正慢慢走出經濟衰退。",
+      "starter": "The",
+      "answer": "The country is slowly coming out of recession.",
+      "answerZh": "這個國家正慢慢走出經濟衰退。",
+      "highlight": "coming out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出困難情況"
+    },
+    {
+      "id": "phrasal-verb-186-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Soon, the moon appeared above the trees.",
+      "promptZh": "不久,月亮在樹梢上方出現了。",
+      "starter": "Soon",
+      "answer": "Soon, the moon came out above the trees.",
+      "answerZh": "不久,月亮在樹梢上方出現了。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽或月亮等出現"
+    },
+    {
+      "id": "phrasal-verb-186-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "After the discount, the final price of the shoes was £24.",
+      "promptZh": "折扣後,這雙鞋的最後價錢是24英鎊。",
+      "starter": "After",
+      "answer": "After the discount, the shoes came out at £24 in total.",
+      "answerZh": "折扣後,這雙鞋合共24英鎊。",
+      "highlight": "came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後價錢是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The children left the tent.",
+      "promptZh": "孩子們離開了帳篷。",
+      "starter": "The",
+      "answer": "The children came out of the tent.",
+      "answerZh": "孩子們從帳篷裏走了出來。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Red spots appeared on his skin after the walk.",
+      "promptZh": "散步後,他的皮膚出現了紅點。",
+      "starter": "He",
+      "answer": "He came out in red spots after the walk.",
+      "answerZh": "散步後,他身上出現了紅點。",
+      "highlight": "He came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I cannot believe the strange things he says.",
+      "promptZh": "我真不敢相信他說出的那些怪話。",
+      "starter": "I",
+      "answer": "I cannot believe what he comes out with.",
+      "answerZh": "我真不敢相信他說出的那些怪話。",
+      "highlight": "what",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "說出令人意外或奇怪的話"
+    },
+    {
+      "id": "phrasal-verb-186-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Our shop is finally recovering after a difficult period.",
+      "promptZh": "我們的店舖終於正在走出一段困難時期。",
+      "starter": "Our",
+      "answer": "Our shop is finally coming out of a difficult period.",
+      "answerZh": "我們的店舖終於正走出一段困難時期。",
+      "highlight": "coming out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出困難情況"
+    },
+    {
+      "id": "phrasal-verb-186-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did Ben suddenly make that rude comment?",
+      "promptZh": "賓為甚麼突然說出那句無禮的話?",
+      "starter": "Why",
+      "answer": "Why did Ben come out with that rude comment?",
+      "answerZh": "賓為甚麼突然說出那句無禮的話?",
+      "highlight": "come out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出某些話"
+    },
+    {
+      "id": "phrasal-verb-186-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The final cost of the meal is about £15 per person.",
+      "promptZh": "這頓飯最後每人大約15英鎊。",
+      "starter": "The",
+      "answer": "The meal comes out at about £15 per person.",
+      "answerZh": "這頓飯最後每人大約15英鎊。",
+      "highlight": "comes out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The sun has finally appeared.",
+      "promptZh": "太陽終於出來了。",
+      "starter": "The",
+      "answer": "The sun has come out at last.",
+      "answerZh": "太陽終於出來了。",
+      "highlight": "come out at last",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The town has finally recovered from a long crisis.",
+      "promptZh": "這個小鎮終於走出了一場長期危機。",
+      "starter": "The",
+      "answer": "The town has finally come out of a long crisis.",
+      "answerZh": "這個小鎮終於走出了一場長期危機。",
+      "highlight": "come out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "走出危機或困難情況"
+    },
+    {
+      "id": "phrasal-verb-186-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The children are leaving the hall now.",
+      "promptZh": "孩子們現在正離開禮堂。",
+      "starter": "Now",
+      "answer": "Now, the children are coming out of the hall.",
+      "answerZh": "孩子們現在正從禮堂走出來。",
+      "highlight": "Now",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A rash has appeared on her skin again.",
+      "promptZh": "她的皮膚又出疹了。",
+      "starter": "She",
+      "answer": "She has come out in a rash again.",
+      "answerZh": "她又出疹了。",
+      "highlight": "She has come out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現疹子"
+    },
+    {
+      "id": "phrasal-verb-186-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Was the final cost of the booking less than £200?",
+      "promptZh": "這次預訂的最後費用少於200英鎊嗎?",
+      "starter": "Did",
+      "answer": "Did the booking come out at less than £200?",
+      "answerZh": "這次預訂的最後費用少於200英鎊嗎?",
+      "highlight": "Did",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has the rabbit left its hiding place yet?",
+      "promptZh": "那隻兔子已離開藏身處了嗎?",
+      "starter": "Has",
+      "answer": "Has the rabbit come out of its hiding place yet?",
+      "answerZh": "那隻兔子已從藏身處走出來了嗎?",
+      "highlight": "come out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從藏身處出來"
+    },
+    {
+      "id": "phrasal-verb-186-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Is the business starting to recover from the crisis?",
+      "promptZh": "這間公司正開始走出危機嗎?",
+      "starter": "Is",
+      "answer": "Is the business coming out of the crisis?",
+      "answerZh": "這間公司正開始走出危機嗎?",
+      "highlight": "coming out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出危機"
+    },
+    {
+      "id": "phrasal-verb-186-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will the sun appear this afternoon?",
+      "promptZh": "今天下午太陽會出來嗎?",
+      "starter": "Will",
+      "answer": "Will the sun come out this afternoon?",
+      "answerZh": "今天下午太陽會出來嗎?",
+      "highlight": "come out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why are red spots appearing on Tom’s skin?",
+      "promptZh": "湯姆身上為甚麼正出現紅點?",
+      "starter": "Why",
+      "answer": "Why is Tom coming out in red spots?",
+      "answerZh": "湯姆身上為甚麼正出現紅點?",
+      "highlight": "is Tom coming out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She often surprises us with funny comments.",
+      "promptZh": "她常常突然說些有趣的話,令我們感到意外。",
+      "starter": "She",
+      "answer": "She often comes out with funny comments.",
+      "answerZh": "她常常突然說出有趣的話。",
+      "highlight": "comes out",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人意外的話"
+    },
+    {
+      "id": "phrasal-verb-186-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Ella used the new face wash, and a rash appeared on her skin that evening.",
+      "promptZh": "埃拉使用了新的洗面產品,當晚皮膚便出疹了。",
+      "starter": "Ella",
+      "answer": "Ella used the new face wash, and she came out in a rash that evening.",
+      "answerZh": "埃拉使用了新的洗面產品,當晚便出疹了。",
+      "highlight": "she came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現疹子"
+    },
+    {
+      "id": "phrasal-verb-186-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The lights turned on, and two actors left a side room.",
+      "promptZh": "燈光亮起,兩名演員離開了旁邊的房間。",
+      "starter": "The",
+      "answer": "The lights turned on, and two actors came out of a side room.",
+      "answerZh": "燈光亮起,兩名演員從旁邊的房間走了出來。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I asked one simple question, and he suddenly gave a very surprising answer.",
+      "promptZh": "我只問了一個簡單問題,他卻突然給出一個非常令人意外的答案。",
+      "starter": "I",
+      "answer": "I asked one simple question, and he came out with a very surprising answer.",
+      "answerZh": "我只問了一個簡單問題,他卻突然說出一個非常令人意外的答案。",
+      "highlight": "came out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人意外的話"
+    },
+    {
+      "id": "phrasal-verb-186-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The clouds covered the sky all morning, but the sun appeared at noon.",
+      "promptZh": "雲層整個上午都遮着天空,但中午太陽出來了。",
+      "starter": "The",
+      "answer": "The clouds covered the sky all morning, but the sun came out at noon.",
+      "answerZh": "雲層整個上午都遮着天空,但中午太陽出來了。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After months of low sales, the café is beginning to recover from its difficult period.",
+      "promptZh": "經過數月生意低迷後,這間咖啡店正開始走出困難時期。",
+      "starter": "After",
+      "answer": "After months of low sales, the café is beginning to come out of its difficult period.",
+      "answerZh": "經過數月生意低迷後,這間咖啡店正開始走出困難時期。",
+      "highlight": "come out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出困難情況"
+    },
+    {
+      "id": "phrasal-verb-186-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We added the food and drinks together. The final total was £82.",
+      "promptZh": "我們把食物和飲品的費用加起來,最後總額是82英鎊。",
+      "starter": "We",
+      "answer": "We added the food and drinks together. The total came out at £82.",
+      "answerZh": "我們把食物和飲品的費用加起來,最後總額是82英鎊。",
+      "highlight": "came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "總額最後是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We waited outside until everyone left the building.",
+      "promptZh": "我們在外面等候,直至所有人離開大樓。",
+      "starter": "We",
+      "answer": "We waited outside until everyone came out of the building.",
+      "answerZh": "我們在外面等候,直至所有人從大樓走出來。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Small red spots appeared around his neck after he wore the scarf.",
+      "promptZh": "他戴上圍巾後,頸部周圍出現了細小紅點。",
+      "starter": "He",
+      "answer": "He came out in small red spots around his neck after he wore the scarf.",
+      "answerZh": "他戴上圍巾後,頸部周圍出現了細小紅點。",
+      "highlight": "He came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The final cost of the three tickets was just under £100 altogether.",
+      "promptZh": "三張門票合共的最後費用略低於100英鎊。",
+      "starter": "The",
+      "answer": "The three tickets came out at just under £100 altogether.",
+      "answerZh": "三張門票合共略低於100英鎊。",
+      "highlight": "came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The team recovered from a bad season and gained new confidence.",
+      "promptZh": "球隊走出一個差劣球季後,重拾了信心。",
+      "starter": "The",
+      "answer": "The team came out of a bad season with new confidence.",
+      "answerZh": "球隊走出一個差劣球季後,重拾了信心。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "走出困難時期"
+    },
+    {
+      "id": "phrasal-verb-186-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We stayed inside until the sun appeared.",
+      "promptZh": "我們留在室內,直至太陽出來。",
+      "starter": "We",
+      "answer": "We stayed inside until the sun came out.",
+      "answerZh": "我們留在室內,直至太陽出來。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "During dinner, Ava suddenly suggested moving abroad.",
+      "promptZh": "吃晚飯時,艾娃突然提議移居外地。",
+      "starter": "During",
+      "answer": "During dinner, Ava came out with the idea of moving abroad.",
+      "answerZh": "吃晚飯時,艾娃突然提出移居外地的想法。",
+      "highlight": "came out with the idea of",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然提出某個想法"
+    },
+    {
+      "id": "phrasal-verb-186-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Once we included delivery, the final cost of the order was £67.",
+      "promptZh": "計入送貨費後,訂單最後總額是67英鎊。",
+      "starter": "Once",
+      "answer": "Once we included delivery, the order came out at £67.",
+      "answerZh": "計入送貨費後,訂單最後總額是67英鎊。",
+      "highlight": "came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後總額是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The family is slowly recovering after a very hard year.",
+      "promptZh": "這個家庭正慢慢走出非常艱難的一年。",
+      "starter": "The",
+      "answer": "The family is slowly coming out of a very hard year.",
+      "answerZh": "這個家庭正慢慢走出非常艱難的一年。",
+      "highlight": "coming out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出困難時期"
+    },
+    {
+      "id": "phrasal-verb-186-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A nurse opened the door, and the patient left the room.",
+      "promptZh": "一名護士打開門,病人離開了房間。",
+      "starter": "A",
+      "answer": "A nurse opened the door, and the patient came out of the room.",
+      "answerZh": "一名護士打開門,病人從房間走了出來。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The child suddenly asked a question nobody expected.",
+      "promptZh": "那個孩子突然問了一條沒有人料到的問題。",
+      "starter": "The",
+      "answer": "The child suddenly came out with a question nobody expected.",
+      "answerZh": "那個孩子突然問了一條沒有人料到的問題。",
+      "highlight": "came out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人意外的話"
+    },
+    {
+      "id": "phrasal-verb-186-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Although the rain had stopped, the sun did not appear before sunset.",
+      "promptZh": "雖然雨已停,但太陽在日落前仍沒有出現。",
+      "starter": "Although",
+      "answer": "Although the rain had stopped, the sun did not come out before sunset.",
+      "answerZh": "雖然雨已停,但太陽在日落前仍沒有出來。",
+      "highlight": "come out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The medicine helped her cough, but a rash appeared on her skin.",
+      "promptZh": "那種藥減輕了她的咳嗽,但她的皮膚卻出疹了。",
+      "starter": "The",
+      "answer": "The medicine helped her cough, but she came out in a rash.",
+      "answerZh": "那種藥減輕了她的咳嗽,但她卻出疹了。",
+      "highlight": "she came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現疹子"
+    },
+    {
+      "id": "phrasal-verb-186-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The club recovered from its money problems and started growing again.",
+      "promptZh": "這間球會走出財政困難後,又開始發展。",
+      "starter": "The",
+      "answer": "The club came out of its money problems and started growing again.",
+      "answerZh": "這間球會走出財政困難後,又開始發展。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "走出困難情況"
+    },
+    {
+      "id": "phrasal-verb-186-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Just as the sun appeared, the children ran into the garden.",
+      "promptZh": "太陽剛出來,孩子們便跑進花園。",
+      "starter": "Just",
+      "answer": "Just as the sun came out, the children ran into the garden.",
+      "answerZh": "太陽剛出來,孩子們便跑進花園。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Several students developed spots after touching the plant.",
+      "promptZh": "幾名學生接觸那棵植物後,身上出現了紅點。",
+      "starter": "Several",
+      "answer": "Several students came out in spots after touching the plant.",
+      "answerZh": "幾名學生接觸那棵植物後,身上出現了紅點。",
+      "highlight": "came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The mouse did not leave its hiding place until the kitchen was quiet.",
+      "promptZh": "廚房安靜下來後,那隻老鼠才離開藏身處。",
+      "starter": "The",
+      "answer": "The mouse did not come out of its hiding place until the kitchen was quiet.",
+      "answerZh": "廚房安靜下來後,那隻老鼠才從藏身處走出來。",
+      "highlight": "come out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從藏身處出來"
+    },
+    {
+      "id": "phrasal-verb-186-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "You never know what surprising thing Uncle Ray will say next.",
+      "promptZh": "你永遠猜不到雷叔叔接下來會說出甚麼令人意外的話。",
+      "starter": "You",
+      "answer": "You never know what Uncle Ray will come out with next.",
+      "answerZh": "你永遠猜不到雷叔叔接下來會說出甚麼話。",
+      "highlight": "come out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "說出令人意外或奇怪的話"
+    },
+    {
+      "id": "phrasal-verb-186-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "What was the final cost of the repairs?",
+      "promptZh": "修理費最後是多少?",
+      "starter": "How",
+      "answer": "How much did the repairs come out at in the end?",
+      "answerZh": "修理費最後是多少?",
+      "highlight": "How much did",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Everyone expected a serious answer, but the manager suddenly told a joke.",
+      "promptZh": "人人都以為經理會認真回答,但他卻突然說了一個笑話。",
+      "starter": "Everyone",
+      "answer": "Everyone expected a serious answer, but the manager came out with a joke.",
+      "answerZh": "人人都以為經理會認真回答,但他卻突然說了一個笑話。",
+      "highlight": "came out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人意外的話"
+    },
+    {
+      "id": "phrasal-verb-186-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We were about to cancel the picnic, but the sun appeared and the weather quickly improved.",
+      "promptZh": "我們正準備取消野餐,但太陽出來了,天氣很快便好轉。",
+      "starter": "We",
+      "answer": "We were about to cancel the picnic, but the sun came out and the weather quickly improved.",
+      "answerZh": "我們正準備取消野餐,但太陽出來了,天氣很快便好轉。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We heard a noise behind the curtain, and a small dog appeared from behind it.",
+      "promptZh": "我們聽到窗簾後面有聲音,接着一隻小狗從後面出現。",
+      "starter": "We",
+      "answer": "We heard a noise behind the curtain, and a small dog came out from behind it.",
+      "answerZh": "我們聽到窗簾後面有聲音,接着一隻小狗從後面走了出來。",
+      "highlight": "came out",
+      "targetForm": "come out",
+      "targetMeaningZh": "從藏身位置出來"
+    },
+    {
+      "id": "phrasal-verb-186-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After losing many customers, the shop changed its prices and slowly recovered from the crisis.",
+      "promptZh": "失去許多顧客後,店舖調整了價格,並慢慢走出危機。",
+      "starter": "After",
+      "answer": "After losing many customers, the shop changed its prices and slowly came out of the crisis.",
+      "answerZh": "失去許多顧客後,店舖調整了價格,並慢慢走出危機。",
+      "highlight": "came out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出危機"
+    },
+    {
+      "id": "phrasal-verb-186-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After we shared the taxi cost among four people, the final amount was only £9 each.",
+      "promptZh": "我們四人分擔的士費後,每人最後只需9英鎊。",
+      "starter": "After",
+      "answer": "After we shared the taxi cost among four people, it came out at only £9 each.",
+      "answerZh": "我們四人分擔的士費後,每人最後只需9英鎊。",
+      "highlight": "it came out at",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The cream was meant to help his skin, but instead a painful rash appeared on it.",
+      "promptZh": "那種乳霜本來應該改善他的皮膚,結果卻出現了疼痛的疹子。",
+      "starter": "The",
+      "answer": "The cream was meant to help his skin, but instead he came out in a painful rash.",
+      "answerZh": "那種乳霜本來應該改善他的皮膚,結果他卻出了疼痛的疹子。",
+      "highlight": "he came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現疹子"
+    },
+    {
+      "id": "phrasal-verb-186-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The guide asked everyone to leave the cave before the rain became heavier.",
+      "promptZh": "導遊要求所有人在雨勢加劇前離開洞穴。",
+      "starter": "Before",
+      "answer": "Before the rain became heavier, the guide asked everyone to come out of the cave.",
+      "answerZh": "導遊要求所有人在雨勢加劇前從洞穴走出來。",
+      "highlight": "Before the rain became heavier",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "從某處走出來"
+    },
+    {
+      "id": "phrasal-verb-186-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The hotel looked cheap online, but with breakfast and fees, the final cost of the stay was £180.",
+      "promptZh": "酒店在網上看來很便宜,但加上早餐和其他費用後,住宿最後要180英鎊。",
+      "starter": "With",
+      "answer": "With breakfast and fees included, the stay came out at £180, although the hotel looked cheap online.",
+      "answerZh": "雖然酒店在網上看來很便宜,但加上早餐和其他費用後,住宿最後要180英鎊。",
+      "highlight": "With breakfast and fees included, the stay came out at £180, although",
+      "targetForm": "come out at something",
+      "targetMeaningZh": "最後費用是某個數目"
+    },
+    {
+      "id": "phrasal-verb-186-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The sky stayed grey for hours. Then, just before the match began, the sun finally appeared.",
+      "promptZh": "天空灰暗了幾個小時。就在比賽開始前,太陽終於出來了。",
+      "starter": "For",
+      "answer": "For hours, the sky stayed grey. Then, just before the match began, the sun finally came out.",
+      "answerZh": "天空灰暗了幾個小時。就在比賽開始前,太陽終於出來了。",
+      "highlight": "For hours",
+      "targetForm": "come out",
+      "targetMeaningZh": "太陽出現"
+    },
+    {
+      "id": "phrasal-verb-186-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Soon after eating the cake, red spots appeared on Nina’s skin, and she stopped eating it.",
+      "promptZh": "妮娜吃蛋糕後不久,皮膚便出現紅點,她也停止再吃。",
+      "starter": "Soon",
+      "answer": "Soon after eating the cake, Nina came out in red spots and stopped eating it.",
+      "answerZh": "妮娜吃蛋糕後不久,身上便出現紅點,她也停止再吃。",
+      "highlight": "Nina came out in",
+      "targetForm": "come out in something",
+      "targetMeaningZh": "身上出現紅點"
+    },
+    {
+      "id": "phrasal-verb-186-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The area is finally recovering after a long period of low business, and new shops are opening.",
+      "promptZh": "這個地區經歷長時間生意低迷後,終於正在復甦,新的店舖也陸續開張。",
+      "starter": "The",
+      "answer": "The area is finally coming out of a long period of low business, and new shops are opening.",
+      "answerZh": "這個地區經歷長時間生意低迷後,終於正在復甦,新的店舖也陸續開張。",
+      "highlight": "coming out of",
+      "targetForm": "come out of something",
+      "targetMeaningZh": "逐漸走出困難時期"
+    },
+    {
+      "id": "phrasal-verb-186-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "When asked why he was late, Sam suddenly told the most unlikely story.",
+      "promptZh": "別人問山姆為甚麼遲到時,他突然說出一個極不可信的故事。",
+      "starter": "When",
+      "answer": "When asked why he was late, Sam came out with the most unlikely story.",
+      "answerZh": "別人問山姆為甚麼遲到時,他突然說出一個極不可信的故事。",
+      "highlight": "came out with",
+      "targetForm": "come out with something",
+      "targetMeaningZh": "突然說出令人難以相信的話"
+    }
+  ]
+}

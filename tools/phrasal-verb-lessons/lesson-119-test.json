@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-119",
+  "order": 119,
+  "slug": "test",
+  "version": "1",
+  "title": "TEST 動詞片語",
+  "titleEn": "Test",
+  "titleZh": "TEST 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 118 - TEST.pdf",
+    "sourceNumber": 118,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TEST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TEST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TEST",
+      "highlight": "TEST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The lab tested the water for lead.",
+      "zh": "化驗所檢測食水是否含鉛。",
+      "highlight": "tested the water for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach tested the new player out in a practice match.",
+      "zh": "教練讓新球員在練習賽中接受實際考驗。",
+      "highlight": "tested the new player out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We tested the new app out on ten users.",
+      "zh": "我們讓十名使用者試用這個新應用程式。",
+      "highlight": "tested the new app out on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "檢查某種物質、疾病或問題是否存在；讓某人實際做一件事,以了解其能力、表現或是否適合；先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+    "en": "test for something; test somebody/something for something; test somebody out; test something out (on somebody/something)",
+    "naturalZh": [
+      "檢查某種物質、疾病或問題是否存在",
+      "讓某人實際做一件事,以了解其能力、表現或是否適合",
+      "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "test for something; test somebody/something for something",
+      "titleZh": "檢查某種物質、疾病或問題是否存在",
+      "titleEn": "test for something; test somebody/something for something",
+      "descriptionZh": "檢查某種物質、疾病或問題是否存在",
+      "descriptionEn": "The lab tested the water for lead.",
+      "examples": [
+        {
+          "en": "The lab tested the water for lead.",
+          "zh": "化驗所檢測食水是否含鉛。",
+          "highlight": "tested the water for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "test somebody out",
+      "titleZh": "讓某人實際做一件事,以了解其能力、表現或是否適合",
+      "titleEn": "test somebody out",
+      "descriptionZh": "讓某人實際做一件事,以了解其能力、表現或是否適合",
+      "descriptionEn": "The coach tested the new player out in a practice match.",
+      "examples": [
+        {
+          "en": "The coach tested the new player out in a practice match.",
+          "zh": "教練讓新球員在練習賽中接受實際考驗。",
+          "highlight": "tested the new player out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "test something out (on somebody/something)",
+      "titleZh": "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+      "titleEn": "test something out (on somebody/something)",
+      "descriptionZh": "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+      "descriptionEn": "We tested the new app out on ten users.",
+      "examples": [
+        {
+          "en": "We tested the new app out on ten users.",
+          "zh": "我們讓十名使用者試用這個新應用程式。",
+          "highlight": "tested the new app out on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TEST 片語動詞的實際用途",
+    "labelEn": "TEST Phrasal Verbs in Use",
+    "summaryZh": "test for 和 test somebody/something for something 可以幫助你說明醫生、化驗所和安全人員正在檢查甚麼。；test somebody out 可以表示讓某人實際完成一項工作,從而了解其能力和表現。；在全面採用應用程式、計劃、食譜、工具或方法前,可以用 test something out 表示先行試用。；TEST 片語動詞可以幫助你分辨:檢查某個問題是否存在、考察某人的能力,以及試用某事物是否有效。",
+    "summaryEn": "Test for and test somebody/something for something help you explain what doctors, laboratories and safety workers are trying to find. Test somebody out lets you explain that a person is given a real task so that others can see how well they perform. Test something out is useful when an app, plan, recipe, tool or method is tried before it is used more widely. The TEST family helps you distinguish between looking for a possible problem, checking a person’s ability and trying a thing to see whether it works.",
+    "contextsZh": [
+      "清楚談論健康和安全檢測",
+      "描述對某人能力的實際考察",
+      "談論正式採用某事物前的試用過程",
+      "分辨三種不同的「測試」"
+    ],
+    "contextsEn": [
+      "Talk clearly about health and safety checks",
+      "Describe a practical check of someone’s ability",
+      "Talk about trying an idea or product before using it fully",
+      "Distinguish three different kinds of testing"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TEST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TEST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "test for something; test somebody/something for something",
+    "fixedHighlight": "test for something; test somebody/something for something",
+    "fixedZh": "閱讀整句,選出意思相同的 TEST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TEST expression that gives the same meaning.",
+    "correct": "tested the water for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；test somebody out 和 test something out 本身已是完整表達。使用 him、her、it 或 them 時,把代名詞放在 TEST 和 OUT 中間:test him outtest it outduring a shift、on a class 或 by giving somebody a task 等部分只補充情境、對象或方法,並不是固定表達的一部分。；沒有說明受檢的人或事物時,可使用 test for something;有說明受檢對象時,則使用 testsomebody/something for something。",
+    "variableEn": "Keep the same people, things, time and meaning. Test somebody out and test something out are complete expressions. With him, her, it or them, place the word between TEST and OUT: test him out test it out Extra parts such as during a shift, on a class or by giving somebody a task only add details. They are not fixed parts of the expression. Use test for something when the person or thing being checked is not named. Use test somebody/something for something when it is named. They are testing for oil. They tested the water for lead.",
+    "variableItemsZh": [
+      "test for something; test somebody/something for something",
+      "test somebody out",
+      "test something out (on somebody/something)"
+    ],
+    "variableItemsEn": [
+      "test for something; test somebody/something for something",
+      "test somebody out",
+      "test something out (on somebody/something)"
+    ],
+    "forms": [
+      {
+        "formZh": "檢查某種物質、疾病或問題是否存在",
+        "formEn": "test for something; test somebody/something for something",
+        "exampleZh": "化驗所檢測食水是否含鉛。",
+        "exampleEn": "The lab tested the water for lead.",
+        "highlight": "tested the water for"
+      },
+      {
+        "formZh": "讓某人實際做一件事,以了解其能力、表現或是否適合",
+        "formEn": "test somebody out",
+        "exampleZh": "教練讓新球員在練習賽中接受實際考驗。",
+        "exampleEn": "The coach tested the new player out in a practice match.",
+        "highlight": "tested the new player out"
+      },
+      {
+        "formZh": "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+        "formEn": "test something out (on somebody/something)",
+        "exampleZh": "我們讓十名使用者試用這個新應用程式。",
+        "exampleEn": "We tested the new app out on ten users.",
+        "highlight": "tested the new app out on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "檢查某種物質、疾病或問題是否存在",
+      "titleEn": "test for something; test somebody/something for something",
+      "formula": "test for something; test somebody/something for something",
+      "highlight": "test for something; test somebody/something for something",
+      "descriptionZh": "檢查某種物質、疾病或問題是否存在",
+      "descriptionEn": "The lab tested the water for lead.",
+      "examples": [
+        {
+          "en": "The lab tested the water for lead.",
+          "zh": "化驗所檢測食水是否含鉛。",
+          "highlight": "tested the water for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "讓某人實際做一件事,以了解其能力、表現或是否適合",
+      "titleEn": "test somebody out",
+      "formula": "test somebody out",
+      "highlight": "test somebody out",
+      "descriptionZh": "讓某人實際做一件事,以了解其能力、表現或是否適合",
+      "descriptionEn": "The coach tested the new player out in a practice match.",
+      "examples": [
+        {
+          "en": "The coach tested the new player out in a practice match.",
+          "zh": "教練讓新球員在練習賽中接受實際考驗。",
+          "highlight": "tested the new player out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+      "titleEn": "test something out (on somebody/something)",
+      "formula": "test something out (on somebody/something)",
+      "highlight": "test something out (on somebody/something)",
+      "descriptionZh": "先試用或試驗某事物,看看它是否有效或合適;on somebody/something 只補充試驗對象",
+      "descriptionEn": "We tested the new app out on ten users.",
+      "examples": [
+        {
+          "en": "We tested the new app out on ten users.",
+          "zh": "我們讓十名使用者試用這個新應用程式。",
+          "highlight": "tested the new app out on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論健康和安全檢測",
+      "titleEn": "Talk clearly about health and safety checks",
+      "zh": "test for 和 test somebody/something for something 可以幫助你說明醫生、化驗所和安全人員正在檢查甚麼。",
+      "en": "Test for and test somebody/something for something help you explain what doctors, laboratories and safety workers are trying to find."
+    },
+    {
+      "titleZh": "描述對某人能力的實際考察",
+      "titleEn": "Describe a practical check of someone’s ability",
+      "zh": "test somebody out 可以表示讓某人實際完成一項工作,從而了解其能力和表現。",
+      "en": "Test somebody out lets you explain that a person is given a real task so that others can see how well they perform."
+    },
+    {
+      "titleZh": "談論正式採用某事物前的試用過程",
+      "titleEn": "Talk about trying an idea or product before using it fully",
+      "zh": "在全面採用應用程式、計劃、食譜、工具或方法前,可以用 test something out 表示先行試用。",
+      "en": "Test something out is useful when an app, plan, recipe, tool or method is tried before it is used more widely."
+    },
+    {
+      "titleZh": "分辨三種不同的「測試」",
+      "titleEn": "Distinguish three different kinds of testing",
+      "zh": "TEST 片語動詞可以幫助你分辨:檢查某個問題是否存在、考察某人的能力,以及試用某事物是否有效。",
+      "en": "The TEST family helps you distinguish between looking for a possible problem, checking a person’s ability and trying a thing to see whether it works."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論健康和安全檢測",
+      "描述對某人能力的實際考察",
+      "談論正式採用某事物前的試用過程",
+      "分辨三種不同的「測試」"
+    ],
+    "contextsEn": [
+      "Talk clearly about health and safety checks",
+      "Describe a practical check of someone’s ability",
+      "Talk about trying an idea or product before using it fully",
+      "Distinguish three different kinds of testing"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論健康和安全檢測",
+        "titleEn": "Talk clearly about health and safety checks",
+        "zh": "test for 和 test somebody/something for something 可以幫助你說明醫生、化驗所和安全人員正在檢查甚麼。",
+        "en": "Test for and test somebody/something for something help you explain what doctors, laboratories and safety workers are trying to find.",
+        "examples": [
+          {
+            "en": "The lab tested the water for lead.",
+            "zh": "化驗所檢測食水是否含鉛。",
+            "highlight": "tested the water for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述對某人能力的實際考察",
+        "titleEn": "Describe a practical check of someone’s ability",
+        "zh": "test somebody out 可以表示讓某人實際完成一項工作,從而了解其能力和表現。",
+        "en": "Test somebody out lets you explain that a person is given a real task so that others can see how well they perform.",
+        "examples": [
+          {
+            "en": "The coach tested the new player out in a practice match.",
+            "zh": "教練讓新球員在練習賽中接受實際考驗。",
+            "highlight": "tested the new player out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論正式採用某事物前的試用過程",
+        "titleEn": "Talk about trying an idea or product before using it fully",
+        "zh": "在全面採用應用程式、計劃、食譜、工具或方法前,可以用 test something out 表示先行試用。",
+        "en": "Test something out is useful when an app, plan, recipe, tool or method is tried before it is used more widely.",
+        "examples": [
+          {
+            "en": "We tested the new app out on ten users.",
+            "zh": "我們讓十名使用者試用這個新應用程式。",
+            "highlight": "tested the new app out on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨三種不同的「測試」",
+        "titleEn": "Distinguish three different kinds of testing",
+        "zh": "TEST 片語動詞可以幫助你分辨:檢查某個問題是否存在、考察某人的能力,以及試用某事物是否有效。",
+        "en": "The TEST family helps you distinguish between looking for a possible problem, checking a person’s ability and trying a thing to see whether it works.",
+        "examples": [
+          {
+            "en": "The lab tested the water for lead.",
+            "zh": "化驗所檢測食水是否含鉛。",
+            "highlight": "tested the water for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TEST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TEST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TEST 片語動詞。",
+      "en": "Read the whole sentence and choose the TEST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "test somebody out 和 test something out 本身已是完整表達。使用 him、her、it 或 them 時,把代名詞放在 TEST 和 OUT 中間:test him outtest it outduring a shift、on a class 或 by giving somebody a task 等部分只補充情境、對象或方法,並不是固定表達的一部分。",
+      "titleEn": "Test somebody out and test something out are complete expressions.",
+      "zh": "test somebody out 和 test something out 本身已是完整表達。使用 him、her、it 或 them 時,把代名詞放在 TEST 和 OUT 中間:test him outtest it outduring a shift、on a class 或 by giving somebody a task 等部分只補充情境、對象或方法,並不是固定表達的一部分。",
+      "en": "Test somebody out and test something out are complete expressions. With him, her, it or them, place the word between TEST and OUT: test him out test it out Extra parts such as during a shift, on a class or by giving somebody a task only add details. They are not fixed parts of the expression."
+    },
+    {
+      "titleZh": "沒有說明受檢的人或事物時,可使用 test for something;有說明受檢對象時,則使用 testsomebody/something for something。",
+      "titleEn": "Use test for something when the person or thing being checked is not named.",
+      "zh": "沒有說明受檢的人或事物時,可使用 test for something;有說明受檢對象時,則使用 testsomebody/something for something。",
+      "en": "Use test for something when the person or thing being checked is not named. Use test somebody/something for something when it is named. They are testing for oil. They tested the water for lead."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TEST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TEST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TEST 動詞片語句子改寫練習",
+    "titleEn": "TEST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TEST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TEST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-119-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Nora tried the new recipe before serving it to her guests.",
+      "promptZh": "諾拉在把新食譜做成的菜式端給客人前,先試做了一次。",
+      "starter": "Nora",
+      "answer": "Nora tested the new recipe out before serving it to her guests.",
+      "answerZh": "諾拉在把新食譜做成的菜式端給客人前,先試驗了這個新食譜。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The doctor checked whether Leo had flu.",
+      "promptZh": "醫生檢查里奧是否患上流感。",
+      "starter": "The",
+      "answer": "The doctor tested Leo for flu.",
+      "answerZh": "醫生為里奧進行流感檢測。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach gave Ava a difficult practice match to see how well she played.",
+      "promptZh": "教練讓艾娃參加一場困難的練習賽,看看她表現得怎樣。",
+      "starter": "The",
+      "answer": "The coach tested Ava out in a difficult practice match.",
+      "answerZh": "教練讓艾娃在一場困難的練習賽中接受實際考驗。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Workers checked whether there was oil under the ground.",
+      "promptZh": "工人檢查地下是否有石油。",
+      "starter": "Workers",
+      "answer": "Workers tested for oil under the ground.",
+      "answerZh": "工人在該處勘探地下是否有石油。",
+      "highlight": "tested for",
+      "targetForm": "test for something",
+      "targetMeaningZh": "檢查某種物質、疾病或問題是否存在"
+    },
+    {
+      "id": "phrasal-verb-119-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We tried the new app before the class used it.",
+      "promptZh": "我們在全班使用這個新應用程式前,先試用了一次。",
+      "starter": "We",
+      "answer": "We tested the new app out before the class used it.",
+      "answerZh": "我們在全班使用這個新應用程式前,先試用並檢查它的效果。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The manager gave Ravi one busy shift to see whether he could do the job.",
+      "promptZh": "經理讓拉維應付一個繁忙的更次,看看他能否勝任工作。",
+      "starter": "The",
+      "answer": "The manager tested Ravi out during one busy shift to see whether he could do the job.",
+      "answerZh": "經理讓拉維在一個繁忙的更次接受實際考驗,看看他能否勝任工作。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The lab checked the drinking water for lead.",
+      "promptZh": "化驗所檢查食水是否含鉛。",
+      "starter": "The",
+      "answer": "The lab tested the drinking water for lead.",
+      "answerZh": "化驗所檢測食水是否含鉛。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Lina tried her new lesson idea with one small class.",
+      "promptZh": "莉娜先在一個小班試行她的新教學構思。",
+      "starter": "Lina",
+      "answer": "Lina tested her new lesson idea out on one small class.",
+      "answerZh": "莉娜先在一個小班試驗她的新教學構思。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The teacher gave Omar a harder reading task to see how he managed.",
+      "promptZh": "老師給奧馬一項較難的閱讀任務,看看他能否應付。",
+      "starter": "The",
+      "answer": "The teacher tested Omar out during a harder reading task.",
+      "answerZh": "老師讓奧馬在一項較難的閱讀任務中接受實際考驗。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The school checked whether the old paint contained harmful chemicals.",
+      "promptZh": "學校檢查舊油漆是否含有有害化學物質。",
+      "starter": "The",
+      "answer": "The school tested the old paint for harmful chemicals.",
+      "answerZh": "學校檢測舊油漆是否含有有害化學物質。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The club is giving Felix several roles to see which one suits him best.",
+      "promptZh": "會社正讓菲力斯嘗試幾個角色,看看哪一個最適合他。",
+      "starter": "The",
+      "answer": "The club is testing Felix out in several roles to see which one suits him best.",
+      "answerZh": "會社正讓菲力斯在幾個角色中接受實際考驗,看看哪一個最適合他。",
+      "highlight": "testing",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We have tried the new booking system with ten customers.",
+      "promptZh": "我們已讓十名顧客試用新的預訂系統。",
+      "starter": "We",
+      "answer": "We have tested the new booking system out on ten customers.",
+      "answerZh": "我們已在十名顧客身上試驗新的預訂系統。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Scientists are checking whether natural gas is present in the area.",
+      "promptZh": "科學家正檢查該區是否有天然氣。",
+      "starter": "Scientists",
+      "answer": "Scientists are testing for natural gas in the area.",
+      "answerZh": "科學家正勘探該區是否有天然氣。",
+      "highlight": "testing for",
+      "targetForm": "test for something",
+      "targetMeaningZh": "檢查某種物質、疾病或問題是否存在"
+    },
+    {
+      "id": "phrasal-verb-119-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The design team will try the new button with older users tomorrow.",
+      "promptZh": "設計團隊明天會讓年長使用者試用新按鈕。",
+      "starter": "The",
+      "answer": "The design team will test the new button out on older users tomorrow.",
+      "answerZh": "設計團隊明天會在年長使用者身上測試新按鈕。",
+      "highlight": "test",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will the chef give the new helper a chance to show whether he can do the job?",
+      "promptZh": "廚師會讓新幫工有機會證明自己能否勝任嗎?",
+      "starter": "Will",
+      "answer": "Will the chef test the new helper out?",
+      "answerZh": "廚師會實際考察這名新幫工是否勝任嗎?",
+      "highlight": "test",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The clinic has not yet checked Nina for the virus.",
+      "promptZh": "診所尚未為妮娜進行病毒檢測。",
+      "starter": "The",
+      "answer": "The clinic has not yet tested Nina for the virus.",
+      "answerZh": "診所尚未為妮娜進行病毒檢測。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This tool looks useful, but I need to try it before buying it.",
+      "promptZh": "這件工具看來很有用,但我購買前需要先試用。",
+      "starter": "This",
+      "answer": "This tool looks useful, but I need to test it out before buying it.",
+      "answerZh": "這件工具看來很有用,但我購買前需要先試用並檢查效果。",
+      "highlight": "test",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The director gave the two new actors the same scene to see who was better.",
+      "promptZh": "導演讓兩名新演員演出同一場戲,看看誰表現得較好。",
+      "starter": "The",
+      "answer": "The director tested the two new actors out in the same scene to see who was better.",
+      "answerZh": "導演讓兩名新演員在同一場戲中接受實際考驗,看看誰表現得較好。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The hospital checks every new patient for this infection.",
+      "promptZh": "醫院會檢查每名新病人是否感染這種疾病。",
+      "starter": "The",
+      "answer": "The hospital tests every new patient for this infection.",
+      "answerZh": "醫院會為每名新病人檢測這種感染。",
+      "highlight": "tests",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The team has not tried the new camera in low light yet.",
+      "promptZh": "團隊尚未在光線不足的環境試用新相機。",
+      "starter": "The",
+      "answer": "The team has not tested the new camera out in low light yet.",
+      "answerZh": "團隊尚未在光線不足的環境測試新相機。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The machine may have a fault, so the engineers are checking whether one is present.",
+      "promptZh": "這部機器可能有故障,所以工程師正檢查是否真的有問題。",
+      "starter": "The",
+      "answer": "The machine may have a fault, so the engineers are testing for one.",
+      "answerZh": "這部機器可能有故障,所以工程師正檢查是否真的有問題。",
+      "highlight": "testing for",
+      "targetForm": "test for something",
+      "targetMeaningZh": "檢查某種物質、疾病或問題是否存在"
+    },
+    {
+      "id": "phrasal-verb-119-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The class created a quiz. The teacher tried it with three pupils first.",
+      "promptZh": "全班設計了一份小測。老師先讓三名學生試做。",
+      "starter": "The",
+      "answer": "The class created a quiz. The teacher tested it out on three pupils first.",
+      "answerZh": "全班設計了一份小測。老師先在三名學生身上試驗它。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Sofia says she can lead the group. Let us give her a difficult job and see how she handles it.",
+      "promptZh": "索菲亞說她能帶領小組。我們給她一項困難的工作,看看她如何應付吧。",
+      "starter": "Sofia",
+      "answer": "Sofia says she can lead the group. Let us test her out and see how she handles a difficult job.",
+      "answerZh": "索菲亞說她能帶領小組。我們考察她一下,看看她如何應付一項困難的工作。",
+      "highlight": "test",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Every blood sample was checked for signs of the illness.",
+      "promptZh": "每個血液樣本都接受檢查,以找出這種疾病的跡象。",
+      "starter": "Every",
+      "answer": "Every blood sample was tested for signs of the illness.",
+      "answerZh": "每個血液樣本都接受檢測,以找出這種疾病的跡象。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The new goalkeeper was given two hard matches so the coach could judge him.",
+      "promptZh": "新守門員獲安排參加兩場困難的比賽,讓教練評估他的表現。",
+      "starter": "The",
+      "answer": "The new goalkeeper was tested out in two hard matches.",
+      "answerZh": "新守門員在兩場困難的比賽中接受實際考驗。",
+      "highlight": "tested out in",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before launch, the company tried the new payment page with a small group of regular customers.",
+      "promptZh": "公司在正式推出前,先讓一小群熟客試用新的付款頁面。",
+      "starter": "Before",
+      "answer": "Before launch, the company tested the new payment page out on a small group of regular customers.",
+      "answerZh": "公司在正式推出前,先在一小群熟客身上測試新的付款頁面。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not choose Sam yet; first give him a chance to show how he works.",
+      "promptZh": "先不要選森;先給他機會展示自己的工作表現。",
+      "starter": "Do",
+      "answer": "Do not choose Sam yet; first test him out.",
+      "answerZh": "先不要選森;先實際考察他的表現。",
+      "highlight": "test",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did the vet check the dog for a stomach problem?",
+      "promptZh": "獸醫為何檢查那隻狗是否有胃部問題?",
+      "starter": "Why",
+      "answer": "Why did the vet test the dog for a stomach problem?",
+      "answerZh": "獸醫為何檢測那隻狗是否有胃部問題?",
+      "highlight": "test",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Try this idea with your study group before using it in every class.",
+      "promptZh": "在每堂課都採用這個構思前,先在你的學習小組試用。",
+      "starter": "Test",
+      "answer": "Test this idea out on your study group before using it in every class.",
+      "answerZh": "在每堂課都採用這個構思前,先在你的學習小組測試。",
+      "highlight": "Test",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The store has already given Priya a busy weekend shift to see if she can manage.",
+      "promptZh": "店舖已讓普里雅應付一個繁忙的週末更次,看看她能否勝任。",
+      "starter": "The",
+      "answer": "The store has already tested Priya out during a busy weekend shift to see if she can manage.",
+      "answerZh": "店舖已讓普里雅在一個繁忙的週末更次接受實際考驗,看看她能否勝任。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The theatre wanted to judge the new assistant, so it gave her a busy evening at the ticket desk.",
+      "promptZh": "劇院想評估新助理的表現,所以讓她在售票處應付一個繁忙的晚上。",
+      "starter": "The",
+      "answer": "The theatre tested the new assistant out during a busy evening at the ticket desk.",
+      "answerZh": "劇院讓新助理在售票處一個繁忙的晚上接受實際考驗。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The engineers did not try a new machine; they checked the old one for gas leaks.",
+      "promptZh": "工程師並非試用新機器;他們是檢查舊機器是否漏氣。",
+      "starter": "The",
+      "answer": "The engineers did not try a new machine; they tested the old one for gas leaks.",
+      "answerZh": "工程師並非試用新機器;他們是檢測舊機器是否漏氣。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before changing every menu, the café tried the new layout with a few customers.",
+      "promptZh": "咖啡店在更改所有餐牌前,先讓幾名顧客試用新的版面。",
+      "starter": "Before",
+      "answer": "Before changing every menu, the café tested the new layout out on a few customers.",
+      "answerZh": "咖啡店在更改所有餐牌前,先在幾名顧客身上測試新的版面。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "No person was being judged; the lab was checking the soil for harmful metals.",
+      "promptZh": "沒有人正在接受能力評估;化驗所是在檢查泥土是否含有有害金屬。",
+      "starter": "No",
+      "answer": "No person was being judged; the lab was testing the soil for harmful metals.",
+      "answerZh": "沒有人正在接受能力評估;化驗所是在檢測泥土是否含有有害金屬。",
+      "highlight": "testing",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The coach wanted to judge Leo, not the new training plan, so she gave him the last twenty minutes of the match.",
+      "promptZh": "教練想評估里奧,而不是新的訓練計劃,所以讓他參與比賽最後二十分鐘。",
+      "starter": "The",
+      "answer": "The coach wanted to judge Leo, not the new training plan, so she tested him out during the last twenty minutes of the match.",
+      "answerZh": "教練想評估里奧,而不是新的訓練計劃,所以讓他在比賽最後二十分鐘接受實際考驗。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The teacher wanted to judge the worksheet, not the pupils, so she tried it with one class.",
+      "promptZh": "老師想評估的是工作紙,而不是學生,所以先在一個班試用。",
+      "starter": "The",
+      "answer": "The teacher wanted to judge the worksheet, not the pupils, so she tested it out on one class.",
+      "answerZh": "老師想評估的是工作紙,而不是學生,所以先在一個班測試它。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because of the cough, the clinic checked whether this virus was present.",
+      "promptZh": "由於出現咳嗽,診所檢查是否有這種病毒。",
+      "starter": "Because",
+      "answer": "Because of the cough, the clinic tested for this virus.",
+      "answerZh": "由於出現咳嗽,診所檢測是否有這種病毒。",
+      "highlight": "tested for",
+      "targetForm": "test for something",
+      "targetMeaningZh": "檢查某種物質、疾病或問題是否存在"
+    },
+    {
+      "id": "phrasal-verb-119-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before offering Aisha the full job, the company gave her one real project to see how she worked with clients.",
+      "promptZh": "公司在向艾莎提供全職工作前,先給她一個真實項目,看看她如何與客戶合作。",
+      "starter": "Before",
+      "answer": "Before offering Aisha the full job, the company tested her out by giving her one real project with clients.",
+      "answerZh": "公司在向艾莎提供全職工作前,先給她一個真實的客戶項目,以考察她的表現。",
+      "highlight": "tested her out by giving",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team did not want to use the idea everywhere before trying it with younger users.",
+      "promptZh": "團隊不想在年輕使用者試用這個構思之前,便在各處採用它。",
+      "starter": "The",
+      "answer": "The team did not want to use the idea everywhere before testing it out on younger users.",
+      "answerZh": "團隊不想在年輕使用者身上測試這個構思之前,便在各處採用它。",
+      "highlight": "testing",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before opening the beach, officials checked the sea water for harmful bacteria.",
+      "promptZh": "官員在開放泳灘前,檢查海水是否含有有害細菌。",
+      "starter": "Before",
+      "answer": "Before opening the beach, officials tested the sea water for harmful bacteria.",
+      "answerZh": "官員在開放泳灘前,檢測海水是否含有有害細菌。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The school has designed a new online homework page, but it will let only one class use it before giving it to everyone.",
+      "promptZh": "學校設計了一個新的網上功課頁面,但會先讓一個班使用,才提供給所有人。",
+      "starter": "The",
+      "answer": "The school has designed a new online homework page, but it will test it out on one class only before giving it to everyone.",
+      "answerZh": "學校設計了一個新的網上功課頁面,但會先在一個班測試,才提供給所有人。",
+      "highlight": "test it out on",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although Felix spoke confidently in the interview, the manager wanted to see how he handled a real customer call.",
+      "promptZh": "雖然菲力斯在面試時說話很有自信,但經理想看看他如何處理真正的顧客來電。",
+      "starter": "Although",
+      "answer": "Although Felix spoke confidently in the interview, the manager wanted to test him out during a real customer call.",
+      "answerZh": "雖然菲力斯在面試時說話很有自信,但經理想讓他在真正的顧客來電中接受實際考驗。",
+      "highlight": "test him out during",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The food looked normal, but lab staff checked it for a harmful chemical.",
+      "promptZh": "食物看來正常,但化驗所職員仍檢查它是否含有有害化學物質。",
+      "starter": "The",
+      "answer": "The food looked normal, but lab staff tested it for a harmful chemical.",
+      "answerZh": "食物看來正常,但化驗所職員仍檢測它是否含有有害化學物質。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nora had a plan for shorter meetings. She first tried it with her own team to see whether it saved time.",
+      "promptZh": "諾拉有一個縮短會議的計劃。她先在自己的團隊試行,看看能否節省時間。",
+      "starter": "Nora",
+      "answer": "Nora had a plan for shorter meetings. She first tested it out on her own team to see whether it saved time.",
+      "answerZh": "諾拉有一個縮短會議的計劃。她先在自己的團隊測試,看看能否節省時間。",
+      "highlight": "tested",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The child had no clear symptoms, but the doctor still checked her for the illness because her brother had it.",
+      "promptZh": "這名孩子沒有明顯病徵,但由於她的哥哥患上了這種疾病,醫生仍為她檢查。",
+      "starter": "The",
+      "answer": "The child had no clear symptoms, but the doctor still tested her for the illness because her brother had it.",
+      "answerZh": "這名孩子沒有明顯病徵,但由於她的哥哥患上了這種疾病,醫生仍為她進行檢測。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The restaurant was unsure about the new cook, so it asked him to prepare a full lunch service before making a final decision.",
+      "promptZh": "餐廳不確定新廚師是否合適,所以在作最後決定前,先請他負責一次完整的午餐時段。",
+      "starter": "The",
+      "answer": "The restaurant was unsure about the new cook, so it tested him out during a full lunch service before making a final decision.",
+      "answerZh": "餐廳不確定新廚師是否合適,所以在作最後決定前,先讓他在一次完整的午餐時段接受實際考驗。",
+      "highlight": "tested",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The phone company had created a simpler screen. Before changing every phone, it let older customers try the screen.",
+      "promptZh": "電話公司設計了較簡單的畫面。在更改所有電話前,公司先讓年長顧客試用。",
+      "starter": "The",
+      "answer": "The phone company had created a simpler screen. Before changing every phone, it tested the screen out on older customers.",
+      "answerZh": "電話公司設計了較簡單的畫面。在更改所有電話前,公司先在年長顧客身上測試這個畫面。",
+      "highlight": "tested the screen out on",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    },
+    {
+      "id": "phrasal-verb-119-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The team knew Rosa was fast, but the coach wanted to see whether she could play well in defence during a real game.",
+      "promptZh": "球隊知道羅莎速度很快,但教練想看看她能否在真正比賽中防守得好。",
+      "starter": "The",
+      "answer": "The team knew Rosa was fast, but the coach wanted to test her out in defence during a real game.",
+      "answerZh": "球隊知道羅莎速度很快,但教練想讓她在真正比賽中擔任防守,考察她的表現。",
+      "highlight": "test her out",
+      "targetForm": "test somebody out",
+      "targetMeaningZh": "讓某人接受實際考驗,看看其能力或是否合適"
+    },
+    {
+      "id": "phrasal-verb-119-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After the family became ill, health workers checked both the food and the water for the same germ.",
+      "promptZh": "這家人患病後,衞生人員檢查食物和食水是否含有同一種病菌。",
+      "starter": "After",
+      "answer": "After the family became ill, health workers tested both the food and the water for the same germ.",
+      "answerZh": "這家人患病後,衞生人員檢測食物和食水是否含有同一種病菌。",
+      "highlight": "tested",
+      "targetForm": "test somebody/something for something",
+      "targetMeaningZh": "檢查某人或某物是否有某種疾病、物質或問題"
+    },
+    {
+      "id": "phrasal-verb-119-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The new study method sounded helpful, but Omar wanted to use it for one week before recommending it to the whole class.",
+      "promptZh": "這個新學習方法聽來很有幫助,但奧馬想先使用一星期,才向全班推薦。",
+      "starter": "The",
+      "answer": "The new study method sounded helpful, but Omar wanted to test it out for one week before recommending it to the whole class.",
+      "answerZh": "這個新學習方法聽來很有幫助,但奧馬想先測試一星期,才向全班推薦。",
+      "highlight": "test",
+      "targetForm": "test something out (on somebody/something)",
+      "targetMeaningZh": "試用或試驗某事物,看看效果"
+    }
+  ]
+}

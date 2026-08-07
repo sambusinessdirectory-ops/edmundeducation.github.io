@@ -1,0 +1,2710 @@
+{
+  "id": "phrasal-verb-276",
+  "order": 276,
+  "slug": "set",
+  "version": "1",
+  "title": "SET 動詞片語",
+  "titleEn": "Set",
+  "titleZh": "SET 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 20,
+  "source": {
+    "file": "Phrasal Verbs 261 - SET.pdf",
+    "sourceNumber": 261,
+    "pageCount": 40,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "answerKeyPdfPages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SET",
+      "highlight": "SET"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Several men set about him with sticks.",
+      "zh": "(幾名男子用棍襲擊他。)Set about somebody is recorded with the meaning “attack”.",
+      "highlight": "set about him with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We set about cleaning the room.",
+      "zh": "我們開始清潔房間。",
+      "highlight": "set about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The false story set the two friends against each other.",
+      "zh": "那個虛假故事令兩名朋友互相敵對。",
+      "highlight": "set the two friends against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "襲擊某人;用某物攻擊某人；着手處理某事;開始做某事；使某人反對另一人;挑動雙方敵對；把兩者作比較或權衡;以一筆款項抵銷另一筆款項；把鐘錶撥快；使某人或某事物與別不同；預留某物作特定用途;把某物放在一旁稍後處理；使某人花費某筆金錢；把鐘錶撥慢或撥回較早時間；飛機降落;使飛機或直升機降落；出發;啟程；正式陳述、說明或闡明某事；天氣、季節或某種情況開始並持續；把某物牢固地嵌入另一物；令某人開始笑、哭、說話或做另一件事；觸發警報、燃放物品或引起某事；命令某人或動物襲擊另一人或動物；把物品排列好;把設備安裝或準備好；開始經營生意；自稱具有某種身分;把自己說成某類人物",
+    "en": "set about somebody with something / set on or upon somebody; set about something / set about doing something; set somebody against somebody; set something against something / set something off against something; set something ahead; set somebody or something apart from somebody or something; set something apart / set something aside; set somebody back something; set something back; set down / set something down; set off / set out / set forth; set forth something / set it or them forth; set in; set something in or into something; set somebody off / set somebody off doing something; set something off; set somebody or something on somebody; set something out / set something up; set up / set yourself up; set yourself up as something",
+    "naturalZh": [
+      "襲擊某人;用某物攻擊某人",
+      "着手處理某事;開始做某事",
+      "使某人反對另一人;挑動雙方敵對",
+      "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+      "把鐘錶撥快",
+      "使某人或某事物與別不同",
+      "預留某物作特定用途;把某物放在一旁稍後處理",
+      "使某人花費某筆金錢",
+      "把鐘錶撥慢或撥回較早時間",
+      "飛機降落;使飛機或直升機降落",
+      "出發;啟程",
+      "正式陳述、說明或闡明某事",
+      "天氣、季節或某種情況開始並持續",
+      "把某物牢固地嵌入另一物",
+      "令某人開始笑、哭、說話或做另一件事",
+      "觸發警報、燃放物品或引起某事",
+      "命令某人或動物襲擊另一人或動物",
+      "把物品排列好;把設備安裝或準備好",
+      "開始經營生意",
+      "自稱具有某種身分;把自己說成某類人物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "set about somebody with something / set on or upon somebody",
+      "titleZh": "襲擊某人;用某物攻擊某人",
+      "titleEn": "set about somebody with something / set on or upon somebody",
+      "descriptionZh": "襲擊某人;用某物攻擊某人",
+      "descriptionEn": "Several men set about him with sticks.",
+      "examples": [
+        {
+          "en": "Several men set about him with sticks.",
+          "zh": "(幾名男子用棍襲擊他。)Set about somebody is recorded with the meaning “attack”.",
+          "highlight": "set about him with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set about something / set about doing something",
+      "titleZh": "着手處理某事;開始做某事",
+      "titleEn": "set about something / set about doing something",
+      "descriptionZh": "着手處理某事;開始做某事",
+      "descriptionEn": "We set about cleaning the room.",
+      "examples": [
+        {
+          "en": "We set about cleaning the room.",
+          "zh": "我們開始清潔房間。",
+          "highlight": "set about"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set somebody against somebody",
+      "titleZh": "使某人反對另一人;挑動雙方敵對",
+      "titleEn": "set somebody against somebody",
+      "descriptionZh": "使某人反對另一人;挑動雙方敵對",
+      "descriptionEn": "The false story set the two friends against each other.",
+      "examples": [
+        {
+          "en": "The false story set the two friends against each other.",
+          "zh": "那個虛假故事令兩名朋友互相敵對。",
+          "highlight": "set the two friends against"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set something against something / set something off against something",
+      "titleZh": "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+      "titleEn": "set something against something / set something off against something",
+      "descriptionZh": "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+      "descriptionEn": "Set the cost against the benefits before you decide.",
+      "examples": [
+        {
+          "en": "Set the cost against the benefits before you decide.",
+          "zh": "(作決定前,先把成本與好處作比較。)These forms can describe comparing positive and negative points or using a cost to reduce tax.",
+          "highlight": "Set the cost against"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set something ahead",
+      "titleZh": "把鐘錶撥快",
+      "titleEn": "set something ahead",
+      "descriptionZh": "把鐘錶撥快",
+      "descriptionEn": "Set the clock ahead by one hour.",
+      "examples": [
+        {
+          "en": "Set the clock ahead by one hour.",
+          "zh": "把時鐘撥快一小時。",
+          "highlight": "Set"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set somebody or something apart from somebody or something",
+      "titleZh": "使某人或某事物與別不同",
+      "titleEn": "set somebody or something apart from somebody or something",
+      "descriptionZh": "使某人或某事物與別不同",
+      "descriptionEn": "Her voice sets her apart from the other singers.",
+      "examples": [
+        {
+          "en": "Her voice sets her apart from the other singers.",
+          "zh": "她的聲線令她有別於其他歌手。",
+          "highlight": "sets her apart from"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set something apart / set something aside",
+      "titleZh": "預留某物作特定用途;把某物放在一旁稍後處理",
+      "titleEn": "set something apart / set something aside",
+      "descriptionZh": "預留某物作特定用途;把某物放在一旁稍後處理",
+      "descriptionEn": "I set some money aside for the trip.",
+      "examples": [
+        {
+          "en": "I set some money aside for the trip.",
+          "zh": "我預留了一些錢作旅行之用。",
+          "highlight": "set"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set somebody back something",
+      "titleZh": "使某人花費某筆金錢",
+      "titleEn": "set somebody back something",
+      "descriptionZh": "使某人花費某筆金錢",
+      "descriptionEn": "The new phone set him back £600.",
+      "examples": [
+        {
+          "en": "The new phone set him back £600.",
+          "zh": "這部新電話花了他六百英鎊。",
+          "highlight": "set him back"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set something back",
+      "titleZh": "把鐘錶撥慢或撥回較早時間",
+      "titleEn": "set something back",
+      "descriptionZh": "把鐘錶撥慢或撥回較早時間",
+      "descriptionEn": "Remember to set your watch back tonight.",
+      "examples": [
+        {
+          "en": "Remember to set your watch back tonight.",
+          "zh": "今晚記得把手錶撥慢。",
+          "highlight": "set your watch back"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set down / set something down",
+      "titleZh": "飛機降落;使飛機或直升機降落",
+      "titleEn": "set down / set something down",
+      "descriptionZh": "飛機降落;使飛機或直升機降落",
+      "descriptionEn": "The pilot set the helicopter down beside the lake.",
+      "examples": [
+        {
+          "en": "The pilot set the helicopter down beside the lake.",
+          "zh": "機師把直升機降落在湖邊。",
+          "highlight": "set the helicopter down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "set off / set out / set forth",
+      "titleZh": "出發;啟程",
+      "titleEn": "set off / set out / set forth",
+      "descriptionZh": "出發;啟程",
+      "descriptionEn": "We set off for work at seven.",
+      "examples": [
+        {
+          "en": "We set off for work at seven.",
+          "zh": "我們七時出發上班。",
+          "highlight": "set off"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set forth something / set it or them forth",
+      "titleZh": "正式陳述、說明或闡明某事",
+      "titleEn": "set forth something / set it or them forth",
+      "descriptionZh": "正式陳述、說明或闡明某事",
+      "descriptionEn": "The report sets forth the reasons for the change.",
+      "examples": [
+        {
+          "en": "The report sets forth the reasons for the change.",
+          "zh": "報告列明改動的原因。",
+          "highlight": "sets"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set in",
+      "titleZh": "天氣、季節或某種情況開始並持續",
+      "titleEn": "set in",
+      "descriptionZh": "天氣、季節或某種情況開始並持續",
+      "descriptionEn": "Heavy rain has set in.",
+      "examples": [
+        {
+          "en": "Heavy rain has set in.",
+          "zh": "大雨已經開始,而且看來會持續下去。",
+          "highlight": "set in"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set something in or into something",
+      "titleZh": "把某物牢固地嵌入另一物",
+      "titleEn": "set something in or into something",
+      "descriptionZh": "把某物牢固地嵌入另一物",
+      "descriptionEn": "A small safe was set into the wall.",
+      "examples": [
+        {
+          "en": "A small safe was set into the wall.",
+          "zh": "一個小型保險箱被嵌入牆內。",
+          "highlight": "set into"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set somebody off / set somebody off doing something",
+      "titleZh": "令某人開始笑、哭、說話或做另一件事",
+      "titleEn": "set somebody off / set somebody off doing something",
+      "descriptionZh": "令某人開始笑、哭、說話或做另一件事",
+      "descriptionEn": "The joke set us off laughing.",
+      "examples": [
+        {
+          "en": "The joke set us off laughing.",
+          "zh": "那個笑話令我們笑了起來。",
+          "highlight": "set us off"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set something off",
+      "titleZh": "觸發警報、燃放物品或引起某事",
+      "titleEn": "set something off",
+      "descriptionZh": "觸發警報、燃放物品或引起某事",
+      "descriptionEn": "Smoke set off the fire alarm.",
+      "examples": [
+        {
+          "en": "Smoke set off the fire alarm.",
+          "zh": "(煙霧觸發了火警鐘。)Set something off can describe triggering an alarm, explosion or series of events.",
+          "highlight": "set off"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set somebody or something on somebody",
+      "titleZh": "命令某人或動物襲擊另一人或動物",
+      "titleEn": "set somebody or something on somebody",
+      "descriptionZh": "命令某人或動物襲擊另一人或動物",
+      "descriptionEn": "The farmer set his dogs on the fox.",
+      "examples": [
+        {
+          "en": "The farmer set his dogs on the fox.",
+          "zh": "農夫放狗追趕狐狸。",
+          "highlight": "set his dogs on"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set something out / set something up",
+      "titleZh": "把物品排列好;把設備安裝或準備好",
+      "titleEn": "set something out / set something up",
+      "descriptionZh": "把物品排列好;把設備安裝或準備好",
+      "descriptionEn": "She set out the plates.",
+      "examples": [
+        {
+          "en": "She set out the plates.",
+          "zh": "她把碟子擺放好。)The band set up its equipment.(樂隊把設備安裝好。",
+          "highlight": "set out"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set up / set yourself up",
+      "titleZh": "開始經營生意",
+      "titleEn": "set up / set yourself up",
+      "descriptionZh": "開始經營生意",
+      "descriptionEn": "Sam set up in business on his own.",
+      "examples": [
+        {
+          "en": "Sam set up in business on his own.",
+          "zh": "Sam 開始獨自經營生意。",
+          "highlight": "set up"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "set yourself up as something",
+      "titleZh": "自稱具有某種身分;把自己說成某類人物",
+      "titleEn": "set yourself up as something",
+      "descriptionZh": "自稱具有某種身分;把自己說成某類人物",
+      "descriptionEn": "He set himself up as an art expert.",
+      "examples": [
+        {
+          "en": "He set himself up as an art expert.",
+          "zh": "他把自己說成藝術專家。",
+          "highlight": "set himself up"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SET 片語動詞的實際用途",
+    "labelEn": "SET Phrasal Verbs in Use",
+    "summaryZh": "set about 可以描述着手處理工作;set off 和 set out 可以描述出發;set in 則可以描述天氣或某種情況開始。；你可以用 set apart 表示某人與眾不同,用 set something against something 比較兩方面,也可以用 set somebody against somebody 描述有人挑動雙方互相反對。；set something off 可以描述警報或事件被觸發;set somebody off 則可以描述某人突然開始笑、哭或說話。；SET 片語動詞可以幫助你談論鐘錶、費用、旅程、設備、生意、預留的金錢和擺放好的物品。",
+    "summaryEn": "Set about describes beginning a task, set off and set out describe beginning a journey, and set in describes weather or a condition beginning. You can use set apart to show that somebody is different, set something against something to compare two sides, and set somebody against somebody to describe people being made to oppose each other. Set something off can describe an alarm or event beginning. Set somebody off can describe a person suddenly laughing, crying or talking. The SET family can help you talk about clocks, costs, journeys, equipment, business, saved money and arranged objects.",
+    "contextsZh": [
+      "使用 SET 描述不同類型的開始",
+      "談論差異、比較和衝突",
+      "清楚描述原因和反應",
+      "在實際日常情境中使用 SET"
+    ],
+    "contextsEn": [
+      "Use SET to describe different kinds of beginnings",
+      "Talk about differences, comparisons and conflict",
+      "Describe causes and reactions clearly",
+      "Use SET in practical daily situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "set about somebody with something / set on or upon somebody",
+    "fixedHighlight": "set about somebody with something / set on or upon somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 SET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SET expression that gives the same meaning.",
+    "correct": "set about him with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子排列字詞。；set off、set out 和 set forth 都可以描述出發,但它們常與不同的字詞配搭使用。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow the word order shown below: set him back set her off crying set it aside set them out set it up Set off, set out and set forth can all describe beginning a journey, but they commonly appear with different surrounding words: set off for work set out on a journey set forth for the island",
+    "variableItemsZh": [
+      "set about somebody with something / set on or upon somebody",
+      "set about something / set about doing something",
+      "set somebody against somebody",
+      "set something against something / set something off against something",
+      "set something ahead",
+      "set somebody or something apart from somebody or something",
+      "set something apart / set something aside",
+      "set somebody back something",
+      "set something back",
+      "set down / set something down",
+      "set off / set out / set forth",
+      "set forth something / set it or them forth",
+      "set in",
+      "set something in or into something",
+      "set somebody off / set somebody off doing something",
+      "set something off",
+      "set somebody or something on somebody",
+      "set something out / set something up",
+      "set up / set yourself up",
+      "set yourself up as something"
+    ],
+    "variableItemsEn": [
+      "set about somebody with something / set on or upon somebody",
+      "set about something / set about doing something",
+      "set somebody against somebody",
+      "set something against something / set something off against something",
+      "set something ahead",
+      "set somebody or something apart from somebody or something",
+      "set something apart / set something aside",
+      "set somebody back something",
+      "set something back",
+      "set down / set something down",
+      "set off / set out / set forth",
+      "set forth something / set it or them forth",
+      "set in",
+      "set something in or into something",
+      "set somebody off / set somebody off doing something",
+      "set something off",
+      "set somebody or something on somebody",
+      "set something out / set something up",
+      "set up / set yourself up",
+      "set yourself up as something"
+    ],
+    "forms": [
+      {
+        "formZh": "襲擊某人;用某物攻擊某人",
+        "formEn": "set about somebody with something / set on or upon somebody",
+        "exampleZh": "(幾名男子用棍襲擊他。)Set about somebody is recorded with the meaning “attack”.",
+        "exampleEn": "Several men set about him with sticks.",
+        "highlight": "set about him with"
+      },
+      {
+        "formZh": "着手處理某事;開始做某事",
+        "formEn": "set about something / set about doing something",
+        "exampleZh": "我們開始清潔房間。",
+        "exampleEn": "We set about cleaning the room.",
+        "highlight": "set about"
+      },
+      {
+        "formZh": "使某人反對另一人;挑動雙方敵對",
+        "formEn": "set somebody against somebody",
+        "exampleZh": "那個虛假故事令兩名朋友互相敵對。",
+        "exampleEn": "The false story set the two friends against each other.",
+        "highlight": "set the two friends against"
+      },
+      {
+        "formZh": "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+        "formEn": "set something against something / set something off against something",
+        "exampleZh": "(作決定前,先把成本與好處作比較。)These forms can describe comparing positive and negative points or using a cost to reduce tax.",
+        "exampleEn": "Set the cost against the benefits before you decide.",
+        "highlight": "Set the cost against"
+      },
+      {
+        "formZh": "把鐘錶撥快",
+        "formEn": "set something ahead",
+        "exampleZh": "把時鐘撥快一小時。",
+        "exampleEn": "Set the clock ahead by one hour.",
+        "highlight": "Set"
+      },
+      {
+        "formZh": "使某人或某事物與別不同",
+        "formEn": "set somebody or something apart from somebody or something",
+        "exampleZh": "她的聲線令她有別於其他歌手。",
+        "exampleEn": "Her voice sets her apart from the other singers.",
+        "highlight": "sets her apart from"
+      },
+      {
+        "formZh": "預留某物作特定用途;把某物放在一旁稍後處理",
+        "formEn": "set something apart / set something aside",
+        "exampleZh": "我預留了一些錢作旅行之用。",
+        "exampleEn": "I set some money aside for the trip.",
+        "highlight": "set"
+      },
+      {
+        "formZh": "使某人花費某筆金錢",
+        "formEn": "set somebody back something",
+        "exampleZh": "這部新電話花了他六百英鎊。",
+        "exampleEn": "The new phone set him back £600.",
+        "highlight": "set him back"
+      },
+      {
+        "formZh": "把鐘錶撥慢或撥回較早時間",
+        "formEn": "set something back",
+        "exampleZh": "今晚記得把手錶撥慢。",
+        "exampleEn": "Remember to set your watch back tonight.",
+        "highlight": "set your watch back"
+      },
+      {
+        "formZh": "飛機降落;使飛機或直升機降落",
+        "formEn": "set down / set something down",
+        "exampleZh": "機師把直升機降落在湖邊。",
+        "exampleEn": "The pilot set the helicopter down beside the lake.",
+        "highlight": "set the helicopter down"
+      },
+      {
+        "formZh": "出發;啟程",
+        "formEn": "set off / set out / set forth",
+        "exampleZh": "我們七時出發上班。",
+        "exampleEn": "We set off for work at seven.",
+        "highlight": "set off"
+      },
+      {
+        "formZh": "正式陳述、說明或闡明某事",
+        "formEn": "set forth something / set it or them forth",
+        "exampleZh": "報告列明改動的原因。",
+        "exampleEn": "The report sets forth the reasons for the change.",
+        "highlight": "sets"
+      },
+      {
+        "formZh": "天氣、季節或某種情況開始並持續",
+        "formEn": "set in",
+        "exampleZh": "大雨已經開始,而且看來會持續下去。",
+        "exampleEn": "Heavy rain has set in.",
+        "highlight": "set in"
+      },
+      {
+        "formZh": "把某物牢固地嵌入另一物",
+        "formEn": "set something in or into something",
+        "exampleZh": "一個小型保險箱被嵌入牆內。",
+        "exampleEn": "A small safe was set into the wall.",
+        "highlight": "set into"
+      },
+      {
+        "formZh": "令某人開始笑、哭、說話或做另一件事",
+        "formEn": "set somebody off / set somebody off doing something",
+        "exampleZh": "那個笑話令我們笑了起來。",
+        "exampleEn": "The joke set us off laughing.",
+        "highlight": "set us off"
+      },
+      {
+        "formZh": "觸發警報、燃放物品或引起某事",
+        "formEn": "set something off",
+        "exampleZh": "(煙霧觸發了火警鐘。)Set something off can describe triggering an alarm, explosion or series of events.",
+        "exampleEn": "Smoke set off the fire alarm.",
+        "highlight": "set off"
+      },
+      {
+        "formZh": "命令某人或動物襲擊另一人或動物",
+        "formEn": "set somebody or something on somebody",
+        "exampleZh": "農夫放狗追趕狐狸。",
+        "exampleEn": "The farmer set his dogs on the fox.",
+        "highlight": "set his dogs on"
+      },
+      {
+        "formZh": "把物品排列好;把設備安裝或準備好",
+        "formEn": "set something out / set something up",
+        "exampleZh": "她把碟子擺放好。)The band set up its equipment.(樂隊把設備安裝好。",
+        "exampleEn": "She set out the plates.",
+        "highlight": "set out"
+      },
+      {
+        "formZh": "開始經營生意",
+        "formEn": "set up / set yourself up",
+        "exampleZh": "Sam 開始獨自經營生意。",
+        "exampleEn": "Sam set up in business on his own.",
+        "highlight": "set up"
+      },
+      {
+        "formZh": "自稱具有某種身分;把自己說成某類人物",
+        "formEn": "set yourself up as something",
+        "exampleZh": "他把自己說成藝術專家。",
+        "exampleEn": "He set himself up as an art expert.",
+        "highlight": "set himself up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "襲擊某人;用某物攻擊某人",
+      "titleEn": "set about somebody with something / set on or upon somebody",
+      "formula": "set about somebody with something / set on or upon somebody",
+      "highlight": "set about somebody with something / set on or upon somebody",
+      "descriptionZh": "襲擊某人;用某物攻擊某人",
+      "descriptionEn": "Several men set about him with sticks.",
+      "examples": [
+        {
+          "en": "Several men set about him with sticks.",
+          "zh": "(幾名男子用棍襲擊他。)Set about somebody is recorded with the meaning “attack”.",
+          "highlight": "set about him with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "着手處理某事;開始做某事",
+      "titleEn": "set about something / set about doing something",
+      "formula": "set about something / set about doing something",
+      "highlight": "set about something / set about doing something",
+      "descriptionZh": "着手處理某事;開始做某事",
+      "descriptionEn": "We set about cleaning the room.",
+      "examples": [
+        {
+          "en": "We set about cleaning the room.",
+          "zh": "我們開始清潔房間。",
+          "highlight": "set about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "使某人反對另一人;挑動雙方敵對",
+      "titleEn": "set somebody against somebody",
+      "formula": "set somebody against somebody",
+      "highlight": "set somebody against somebody",
+      "descriptionZh": "使某人反對另一人;挑動雙方敵對",
+      "descriptionEn": "The false story set the two friends against each other.",
+      "examples": [
+        {
+          "en": "The false story set the two friends against each other.",
+          "zh": "那個虛假故事令兩名朋友互相敵對。",
+          "highlight": "set the two friends against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+      "titleEn": "set something against something / set something off against something",
+      "formula": "set something against something / set something off against something",
+      "highlight": "set something against something / set something off against something",
+      "descriptionZh": "把兩者作比較或權衡;以一筆款項抵銷另一筆款項",
+      "descriptionEn": "Set the cost against the benefits before you decide.",
+      "examples": [
+        {
+          "en": "Set the cost against the benefits before you decide.",
+          "zh": "(作決定前,先把成本與好處作比較。)These forms can describe comparing positive and negative points or using a cost to reduce tax.",
+          "highlight": "Set the cost against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把鐘錶撥快",
+      "titleEn": "set something ahead",
+      "formula": "set something ahead",
+      "highlight": "set something ahead",
+      "descriptionZh": "把鐘錶撥快",
+      "descriptionEn": "Set the clock ahead by one hour.",
+      "examples": [
+        {
+          "en": "Set the clock ahead by one hour.",
+          "zh": "把時鐘撥快一小時。",
+          "highlight": "Set"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "使某人或某事物與別不同",
+      "titleEn": "set somebody or something apart from somebody or something",
+      "formula": "set somebody or something apart from somebody or something",
+      "highlight": "set somebody or something apart from somebody or something",
+      "descriptionZh": "使某人或某事物與別不同",
+      "descriptionEn": "Her voice sets her apart from the other singers.",
+      "examples": [
+        {
+          "en": "Her voice sets her apart from the other singers.",
+          "zh": "她的聲線令她有別於其他歌手。",
+          "highlight": "sets her apart from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "預留某物作特定用途;把某物放在一旁稍後處理",
+      "titleEn": "set something apart / set something aside",
+      "formula": "set something apart / set something aside",
+      "highlight": "set something apart / set something aside",
+      "descriptionZh": "預留某物作特定用途;把某物放在一旁稍後處理",
+      "descriptionEn": "I set some money aside for the trip.",
+      "examples": [
+        {
+          "en": "I set some money aside for the trip.",
+          "zh": "我預留了一些錢作旅行之用。",
+          "highlight": "set"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "使某人花費某筆金錢",
+      "titleEn": "set somebody back something",
+      "formula": "set somebody back something",
+      "highlight": "set somebody back something",
+      "descriptionZh": "使某人花費某筆金錢",
+      "descriptionEn": "The new phone set him back £600.",
+      "examples": [
+        {
+          "en": "The new phone set him back £600.",
+          "zh": "這部新電話花了他六百英鎊。",
+          "highlight": "set him back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把鐘錶撥慢或撥回較早時間",
+      "titleEn": "set something back",
+      "formula": "set something back",
+      "highlight": "set something back",
+      "descriptionZh": "把鐘錶撥慢或撥回較早時間",
+      "descriptionEn": "Remember to set your watch back tonight.",
+      "examples": [
+        {
+          "en": "Remember to set your watch back tonight.",
+          "zh": "今晚記得把手錶撥慢。",
+          "highlight": "set your watch back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "飛機降落;使飛機或直升機降落",
+      "titleEn": "set down / set something down",
+      "formula": "set down / set something down",
+      "highlight": "set down / set something down",
+      "descriptionZh": "飛機降落;使飛機或直升機降落",
+      "descriptionEn": "The pilot set the helicopter down beside the lake.",
+      "examples": [
+        {
+          "en": "The pilot set the helicopter down beside the lake.",
+          "zh": "機師把直升機降落在湖邊。",
+          "highlight": "set the helicopter down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "出發;啟程",
+      "titleEn": "set off / set out / set forth",
+      "formula": "set off / set out / set forth",
+      "highlight": "set off / set out / set forth",
+      "descriptionZh": "出發;啟程",
+      "descriptionEn": "We set off for work at seven.",
+      "examples": [
+        {
+          "en": "We set off for work at seven.",
+          "zh": "我們七時出發上班。",
+          "highlight": "set off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "正式陳述、說明或闡明某事",
+      "titleEn": "set forth something / set it or them forth",
+      "formula": "set forth something / set it or them forth",
+      "highlight": "set forth something / set it or them forth",
+      "descriptionZh": "正式陳述、說明或闡明某事",
+      "descriptionEn": "The report sets forth the reasons for the change.",
+      "examples": [
+        {
+          "en": "The report sets forth the reasons for the change.",
+          "zh": "報告列明改動的原因。",
+          "highlight": "sets"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "天氣、季節或某種情況開始並持續",
+      "titleEn": "set in",
+      "formula": "set in",
+      "highlight": "set in",
+      "descriptionZh": "天氣、季節或某種情況開始並持續",
+      "descriptionEn": "Heavy rain has set in.",
+      "examples": [
+        {
+          "en": "Heavy rain has set in.",
+          "zh": "大雨已經開始,而且看來會持續下去。",
+          "highlight": "set in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把某物牢固地嵌入另一物",
+      "titleEn": "set something in or into something",
+      "formula": "set something in or into something",
+      "highlight": "set something in or into something",
+      "descriptionZh": "把某物牢固地嵌入另一物",
+      "descriptionEn": "A small safe was set into the wall.",
+      "examples": [
+        {
+          "en": "A small safe was set into the wall.",
+          "zh": "一個小型保險箱被嵌入牆內。",
+          "highlight": "set into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "令某人開始笑、哭、說話或做另一件事",
+      "titleEn": "set somebody off / set somebody off doing something",
+      "formula": "set somebody off / set somebody off doing something",
+      "highlight": "set somebody off / set somebody off doing something",
+      "descriptionZh": "令某人開始笑、哭、說話或做另一件事",
+      "descriptionEn": "The joke set us off laughing.",
+      "examples": [
+        {
+          "en": "The joke set us off laughing.",
+          "zh": "那個笑話令我們笑了起來。",
+          "highlight": "set us off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "觸發警報、燃放物品或引起某事",
+      "titleEn": "set something off",
+      "formula": "set something off",
+      "highlight": "set something off",
+      "descriptionZh": "觸發警報、燃放物品或引起某事",
+      "descriptionEn": "Smoke set off the fire alarm.",
+      "examples": [
+        {
+          "en": "Smoke set off the fire alarm.",
+          "zh": "(煙霧觸發了火警鐘。)Set something off can describe triggering an alarm, explosion or series of events.",
+          "highlight": "set off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "命令某人或動物襲擊另一人或動物",
+      "titleEn": "set somebody or something on somebody",
+      "formula": "set somebody or something on somebody",
+      "highlight": "set somebody or something on somebody",
+      "descriptionZh": "命令某人或動物襲擊另一人或動物",
+      "descriptionEn": "The farmer set his dogs on the fox.",
+      "examples": [
+        {
+          "en": "The farmer set his dogs on the fox.",
+          "zh": "農夫放狗追趕狐狸。",
+          "highlight": "set his dogs on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "把物品排列好;把設備安裝或準備好",
+      "titleEn": "set something out / set something up",
+      "formula": "set something out / set something up",
+      "highlight": "set something out / set something up",
+      "descriptionZh": "把物品排列好;把設備安裝或準備好",
+      "descriptionEn": "She set out the plates.",
+      "examples": [
+        {
+          "en": "She set out the plates.",
+          "zh": "她把碟子擺放好。)The band set up its equipment.(樂隊把設備安裝好。",
+          "highlight": "set out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "開始經營生意",
+      "titleEn": "set up / set yourself up",
+      "formula": "set up / set yourself up",
+      "highlight": "set up / set yourself up",
+      "descriptionZh": "開始經營生意",
+      "descriptionEn": "Sam set up in business on his own.",
+      "examples": [
+        {
+          "en": "Sam set up in business on his own.",
+          "zh": "Sam 開始獨自經營生意。",
+          "highlight": "set up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "自稱具有某種身分;把自己說成某類人物",
+      "titleEn": "set yourself up as something",
+      "formula": "set yourself up as something",
+      "highlight": "set yourself up as something",
+      "descriptionZh": "自稱具有某種身分;把自己說成某類人物",
+      "descriptionEn": "He set himself up as an art expert.",
+      "examples": [
+        {
+          "en": "He set himself up as an art expert.",
+          "zh": "他把自己說成藝術專家。",
+          "highlight": "set himself up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 SET 描述不同類型的開始",
+      "titleEn": "Use SET to describe different kinds of beginnings",
+      "zh": "set about 可以描述着手處理工作;set off 和 set out 可以描述出發;set in 則可以描述天氣或某種情況開始。",
+      "en": "Set about describes beginning a task, set off and set out describe beginning a journey, and set in describes weather or a condition beginning."
+    },
+    {
+      "titleZh": "談論差異、比較和衝突",
+      "titleEn": "Talk about differences, comparisons and conflict",
+      "zh": "你可以用 set apart 表示某人與眾不同,用 set something against something 比較兩方面,也可以用 set somebody against somebody 描述有人挑動雙方互相反對。",
+      "en": "You can use set apart to show that somebody is different, set something against something to compare two sides, and set somebody against somebody to describe people being made to oppose each other."
+    },
+    {
+      "titleZh": "清楚描述原因和反應",
+      "titleEn": "Describe causes and reactions clearly",
+      "zh": "set something off 可以描述警報或事件被觸發;set somebody off 則可以描述某人突然開始笑、哭或說話。",
+      "en": "Set something off can describe an alarm or event beginning. Set somebody off can describe a person suddenly laughing, crying or talking."
+    },
+    {
+      "titleZh": "在實際日常情境中使用 SET",
+      "titleEn": "Use SET in practical daily situations",
+      "zh": "SET 片語動詞可以幫助你談論鐘錶、費用、旅程、設備、生意、預留的金錢和擺放好的物品。",
+      "en": "The SET family can help you talk about clocks, costs, journeys, equipment, business, saved money and arranged objects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 SET 描述不同類型的開始",
+      "談論差異、比較和衝突",
+      "清楚描述原因和反應",
+      "在實際日常情境中使用 SET"
+    ],
+    "contextsEn": [
+      "Use SET to describe different kinds of beginnings",
+      "Talk about differences, comparisons and conflict",
+      "Describe causes and reactions clearly",
+      "Use SET in practical daily situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 SET 描述不同類型的開始",
+        "titleEn": "Use SET to describe different kinds of beginnings",
+        "zh": "set about 可以描述着手處理工作;set off 和 set out 可以描述出發;set in 則可以描述天氣或某種情況開始。",
+        "en": "Set about describes beginning a task, set off and set out describe beginning a journey, and set in describes weather or a condition beginning.",
+        "examples": [
+          {
+            "en": "Several men set about him with sticks.",
+            "zh": "(幾名男子用棍襲擊他。)Set about somebody is recorded with the meaning “attack”.",
+            "highlight": "set about him with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論差異、比較和衝突",
+        "titleEn": "Talk about differences, comparisons and conflict",
+        "zh": "你可以用 set apart 表示某人與眾不同,用 set something against something 比較兩方面,也可以用 set somebody against somebody 描述有人挑動雙方互相反對。",
+        "en": "You can use set apart to show that somebody is different, set something against something to compare two sides, and set somebody against somebody to describe people being made to oppose each other.",
+        "examples": [
+          {
+            "en": "We set about cleaning the room.",
+            "zh": "我們開始清潔房間。",
+            "highlight": "set about"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述原因和反應",
+        "titleEn": "Describe causes and reactions clearly",
+        "zh": "set something off 可以描述警報或事件被觸發;set somebody off 則可以描述某人突然開始笑、哭或說話。",
+        "en": "Set something off can describe an alarm or event beginning. Set somebody off can describe a person suddenly laughing, crying or talking.",
+        "examples": [
+          {
+            "en": "The false story set the two friends against each other.",
+            "zh": "那個虛假故事令兩名朋友互相敵對。",
+            "highlight": "set the two friends against"
+          }
+        ]
+      },
+      {
+        "titleZh": "在實際日常情境中使用 SET",
+        "titleEn": "Use SET in practical daily situations",
+        "zh": "SET 片語動詞可以幫助你談論鐘錶、費用、旅程、設備、生意、預留的金錢和擺放好的物品。",
+        "en": "The SET family can help you talk about clocks, costs, journeys, equipment, business, saved money and arranged objects.",
+        "examples": [
+          {
+            "en": "Set the cost against the benefits before you decide.",
+            "zh": "(作決定前,先把成本與好處作比較。)These forms can describe comparing positive and negative points or using a cost to reduce tax.",
+            "highlight": "Set the cost against"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SET 片語動詞。",
+      "en": "Read the whole sentence and choose the SET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子排列字詞。",
+      "titleEn": "When using him, her, it or them, follow the word order shown below: set him back set her off crying set it aside set them out set it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子排列字詞。",
+      "en": "When using him, her, it or them, follow the word order shown below: set him back set her off crying set it aside set them out set it up"
+    },
+    {
+      "titleZh": "set off、set out 和 set forth 都可以描述出發,但它們常與不同的字詞配搭使用。",
+      "titleEn": "Set off, set out and set forth can all describe beginning a journey, but they commonly appear with different surrounding words: set off for work set out on a journey set forth for the island.",
+      "zh": "set off、set out 和 set forth 都可以描述出發,但它們常與不同的字詞配搭使用。",
+      "en": "Set off, set out and set forth can all describe beginning a journey, but they commonly appear with different surrounding words: set off for work set out on a journey set forth for the island"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SET 動詞片語句子改寫練習",
+    "titleEn": "SET Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          20
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          41,
+          60
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          61,
+          80
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          81,
+          100
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-276-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 23,
+      "prompt": "Winter began early this year.",
+      "promptZh": "今年冬季很早便開始了。",
+      "starter": "Winter",
+      "answer": "Winter set in early this year.",
+      "answerZh": "今年冬季很早便開始了。",
+      "highlight": "set in",
+      "targetForm": "set in",
+      "targetMeaningZh": "天氣或情況開始並持續"
+    },
+    {
+      "id": "phrasal-verb-276-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 23,
+      "prompt": "The new laptop cost Ben £700.",
+      "promptZh": "這部新手提電腦花了 Ben 七百英鎊。",
+      "starter": "The",
+      "answer": "The new laptop set Ben back £700.",
+      "answerZh": "這部新手提電腦花了 Ben 七百英鎊。",
+      "highlight": "set",
+      "targetForm": "set somebody back something",
+      "targetMeaningZh": "使某人花費某筆金錢"
+    },
+    {
+      "id": "phrasal-verb-276-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "The class began cleaning the art room.",
+      "promptZh": "全班開始清潔美術室。",
+      "starter": "The",
+      "answer": "The class set about cleaning the art room.",
+      "answerZh": "全班開始清潔美術室。",
+      "highlight": "set about",
+      "targetForm": "set about doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "She began arranging plates and glasses on the table.",
+      "promptZh": "她開始把碟子和玻璃杯擺放在桌上。",
+      "starter": "She",
+      "answer": "She began setting out plates and glasses on the table.",
+      "answerZh": "她開始把碟子和玻璃杯擺放在桌上。",
+      "highlight": "setting out",
+      "targetForm": "set something out",
+      "targetMeaningZh": "把物品擺放好"
+    },
+    {
+      "id": "phrasal-verb-276-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "Her clear voice makes her different from the other singers.",
+      "promptZh": "她清晰的聲線令她有別於其他歌手。",
+      "starter": "Her",
+      "answer": "Her clear voice sets her apart from the other singers.",
+      "answerZh": "她清晰的聲線令她有別於其他歌手。",
+      "highlight": "sets",
+      "targetForm": "set somebody apart from somebody",
+      "targetMeaningZh": "使某人與眾不同"
+    },
+    {
+      "id": "phrasal-verb-276-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "We left for work at seven.",
+      "promptZh": "我們七時出發上班。",
+      "starter": "We",
+      "answer": "We set off for work at seven.",
+      "answerZh": "我們七時出發上班。",
+      "highlight": "set off",
+      "targetForm": "set off",
+      "targetMeaningZh": "出發"
+    },
+    {
+      "id": "phrasal-verb-276-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "The joke made us start laughing.",
+      "promptZh": "那個笑話令我們笑了起來。",
+      "starter": "The",
+      "answer": "The joke set us off laughing.",
+      "answerZh": "那個笑話令我們笑了起來。",
+      "highlight": "set",
+      "targetForm": "set somebody off doing something",
+      "targetMeaningZh": "令某人開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "We should compare the small cost with the time we will save.",
+      "promptZh": "我們應該把這筆小額費用與可節省的時間作比較。",
+      "starter": "We",
+      "answer": "We should set the small cost against the time we will save.",
+      "answerZh": "我們應該把這筆小額費用與可節省的時間作比較。",
+      "highlight": "set",
+      "targetForm": "set something against something",
+      "targetMeaningZh": "把兩者作比較或權衡"
+    },
+    {
+      "id": "phrasal-verb-276-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "After leaving the company, Sam started his own business.",
+      "promptZh": "Sam 離開公司後,開始經營自己的生意。",
+      "starter": "After",
+      "answer": "After leaving the company, Sam set up in business on his own.",
+      "answerZh": "Sam 離開公司後,開始獨自經營生意。",
+      "highlight": "set up in business on",
+      "targetForm": "set up in business",
+      "targetMeaningZh": "開始經營生意"
+    },
+    {
+      "id": "phrasal-verb-276-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "Remember to move your watch back by one hour tonight.",
+      "promptZh": "今晚記得把手錶撥慢一小時。",
+      "starter": "Remember",
+      "answer": "Remember to set your watch back by one hour tonight.",
+      "answerZh": "今晚記得把手錶撥慢一小時。",
+      "highlight": "set",
+      "targetForm": "set something back",
+      "targetMeaningZh": "把鐘錶撥慢"
+    },
+    {
+      "id": "phrasal-verb-276-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "Two angry men attacked the traveller near the gate.",
+      "promptZh": "兩名憤怒的男子在閘口附近襲擊那名旅客。",
+      "starter": "Two",
+      "answer": "Two angry men set upon the traveller near the gate.",
+      "answerZh": "兩名憤怒的男子在閘口附近襲擊那名旅客。",
+      "highlight": "set upon",
+      "targetForm": "set upon somebody",
+      "targetMeaningZh": "襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "A small safe was fixed into the wall.",
+      "promptZh": "一個小型保險箱被嵌入牆內。",
+      "starter": "A",
+      "answer": "A small safe was set into the wall.",
+      "answerZh": "一個小型保險箱被嵌入牆內。",
+      "highlight": "set",
+      "targetForm": "set something into something",
+      "targetMeaningZh": "把某物嵌入另一物"
+    },
+    {
+      "id": "phrasal-verb-276-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "The false story made the two friends turn against each other.",
+      "promptZh": "那個虛假故事令兩名朋友互相敵對。",
+      "starter": "The",
+      "answer": "The false story set the two friends against each other.",
+      "answerZh": "那個虛假故事令兩名朋友互相敵對。",
+      "highlight": "set",
+      "targetForm": "set somebody against somebody",
+      "targetMeaningZh": "使某人與另一人敵對"
+    },
+    {
+      "id": "phrasal-verb-276-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "He presented himself as an expert on modern art.",
+      "promptZh": "他把自己說成現代藝術專家。",
+      "starter": "He",
+      "answer": "He set himself up as an expert on modern art.",
+      "answerZh": "他把自己說成現代藝術專家。",
+      "highlight": "set",
+      "targetForm": "set yourself up as something",
+      "targetMeaningZh": "自稱或把自己說成某種身分"
+    },
+    {
+      "id": "phrasal-verb-276-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "Move your clocks forward by one hour tonight.",
+      "promptZh": "今晚把時鐘撥快一小時。",
+      "starter": "Set",
+      "answer": "Set your clocks ahead by one hour tonight.",
+      "answerZh": "今晚把時鐘撥快一小時。",
+      "highlight": "Set",
+      "targetForm": "set something ahead",
+      "targetMeaningZh": "把鐘錶撥快"
+    },
+    {
+      "id": "phrasal-verb-276-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "Smoke activated the fire alarm.",
+      "promptZh": "煙霧觸發了火警鐘。",
+      "starter": "Smoke",
+      "answer": "Smoke set off the fire alarm.",
+      "answerZh": "煙霧觸發了火警鐘。",
+      "highlight": "set off",
+      "targetForm": "set something off",
+      "targetMeaningZh": "觸發警報或使某事開始"
+    },
+    {
+      "id": "phrasal-verb-276-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "I saved some money for the school trip.",
+      "promptZh": "我預留了一些錢作學校旅行之用。",
+      "starter": "I",
+      "answer": "I set aside some money for the school trip.",
+      "answerZh": "我預留了一些錢作學校旅行之用。",
+      "highlight": "set aside",
+      "targetForm": "set something aside",
+      "targetMeaningZh": "預留某物作特定用途"
+    },
+    {
+      "id": "phrasal-verb-276-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "The small plane landed safely in a field.",
+      "promptZh": "小型飛機安全降落在一片田地上。",
+      "starter": "The",
+      "answer": "The small plane set down safely in a field.",
+      "answerZh": "小型飛機安全降落在一片田地上。",
+      "highlight": "set down",
+      "targetForm": "set down",
+      "targetMeaningZh": "飛機降落"
+    },
+    {
+      "id": "phrasal-verb-276-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "The farmer told his dogs to chase the fox.",
+      "promptZh": "農夫吩咐他的狗追趕狐狸。",
+      "starter": "The",
+      "answer": "The farmer set his dogs on the fox.",
+      "answerZh": "農夫吩咐他的狗追趕狐狸。",
+      "highlight": "set",
+      "targetForm": "set somebody or something on somebody",
+      "targetMeaningZh": "命令某人或動物襲擊"
+    },
+    {
+      "id": "phrasal-verb-276-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "The guide clearly stated the rules for using the room.",
+      "promptZh": "指南清楚列明使用房間的規則。",
+      "starter": "The",
+      "answer": "The guide set forth the rules for using the room.",
+      "answerZh": "指南清楚列明使用房間的規則。",
+      "highlight": "set forth",
+      "targetForm": "set forth something",
+      "targetMeaningZh": "正式陳述或說明某事"
+    },
+    {
+      "id": "phrasal-verb-276-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "Have you moved the kitchen clock forward yet?",
+      "promptZh": "你把廚房的時鐘撥快了沒有?",
+      "starter": "Have",
+      "answer": "Have you set the kitchen clock ahead yet?",
+      "answerZh": "你把廚房的時鐘撥快了沒有?",
+      "highlight": "set",
+      "targetForm": "set something ahead",
+      "targetMeaningZh": "把鐘錶撥快"
+    },
+    {
+      "id": "phrasal-verb-276-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "Those old photos always make Grace start crying.",
+      "promptZh": "那些舊照片總會令 Grace 哭起來。",
+      "starter": "Those",
+      "answer": "Those old photos always set Grace off crying.",
+      "answerZh": "那些舊照片總會令 Grace 哭起來。",
+      "highlight": "set",
+      "targetForm": "set somebody off doing something",
+      "targetMeaningZh": "令某人開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "How much did the repairs cost you?",
+      "promptZh": "這次維修花了你多少錢?",
+      "starter": "How",
+      "answer": "How much did the repairs set you back?",
+      "answerZh": "這次維修花了你多少錢?",
+      "highlight": "set",
+      "targetForm": "set somebody back something",
+      "targetMeaningZh": "使某人花費某筆金錢"
+    },
+    {
+      "id": "phrasal-verb-276-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "Heavy rain has begun and looks likely to continue.",
+      "promptZh": "大雨已經開始,而且看來會持續下去。",
+      "starter": "Heavy",
+      "answer": "Heavy rain has set in.",
+      "answerZh": "大雨已經開始,而且看來會持續下去。",
+      "highlight": "set in",
+      "targetForm": "set in",
+      "targetMeaningZh": "天氣或情況開始並持續"
+    },
+    {
+      "id": "phrasal-verb-276-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "The band is assembling its equipment now.",
+      "promptZh": "樂隊現正組裝設備。",
+      "starter": "The",
+      "answer": "The band is setting up its equipment now.",
+      "answerZh": "樂隊現正組裝設備。",
+      "highlight": "setting up",
+      "targetForm": "set something up",
+      "targetMeaningZh": "把設備組裝或準備好"
+    },
+    {
+      "id": "phrasal-verb-276-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "The argument has made several club members oppose the chairperson.",
+      "promptZh": "這場爭論令幾名學會成員反對主席。",
+      "starter": "The",
+      "answer": "The argument has set several club members against the chairperson.",
+      "answerZh": "這場爭論令幾名學會成員反對主席。",
+      "highlight": "set",
+      "targetForm": "set somebody against somebody",
+      "targetMeaningZh": "使某人反對另一人"
+    },
+    {
+      "id": "phrasal-verb-276-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "The pilot landed the helicopter beside the lake.",
+      "promptZh": "機師把直升機降落在湖邊。",
+      "starter": "The",
+      "answer": "The pilot set the helicopter down beside the lake.",
+      "answerZh": "機師把直升機降落在湖邊。",
+      "highlight": "set",
+      "targetForm": "set something down",
+      "targetMeaningZh": "使飛機或直升機降落"
+    },
+    {
+      "id": "phrasal-verb-276-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "She has started presenting herself as the team's official adviser.",
+      "promptZh": "她開始把自己說成球隊的正式顧問。",
+      "starter": "She",
+      "answer": "She has set herself up as the team's official adviser.",
+      "answerZh": "她開始把自己說成球隊的正式顧問。",
+      "highlight": "set",
+      "targetForm": "set yourself up as something",
+      "targetMeaningZh": "自稱或把自己說成某種身分"
+    },
+    {
+      "id": "phrasal-verb-276-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "The hotel reserved two rooms for families with young children.",
+      "promptZh": "酒店預留了兩個房間給有年幼孩子的家庭。",
+      "starter": "The",
+      "answer": "The hotel set apart two rooms for families with young children.",
+      "answerZh": "酒店預留了兩個房間給有年幼孩子的家庭。",
+      "highlight": "set apart",
+      "targetForm": "set something apart",
+      "targetMeaningZh": "預留某物作特定用途"
+    },
+    {
+      "id": "phrasal-verb-276-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "The sudden message started a long argument.",
+      "promptZh": "那則突然收到的訊息引起了一場長時間的爭論。",
+      "starter": "The",
+      "answer": "The sudden message set off a long argument.",
+      "answerZh": "那則突然收到的訊息引起了一場長時間的爭論。",
+      "highlight": "set off",
+      "targetForm": "set something off",
+      "targetMeaningZh": "引起某事"
+    },
+    {
+      "id": "phrasal-verb-276-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "How should we begin solving this problem?",
+      "promptZh": "我們應該如何開始解決這個問題?",
+      "starter": "How",
+      "answer": "How should we set about solving this problem?",
+      "answerZh": "我們應該如何開始解決這個問題?",
+      "highlight": "set about",
+      "targetForm": "set about doing something",
+      "targetMeaningZh": "着手做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "They began the last stage of their journey after lunch.",
+      "promptZh": "午飯後,他們開始旅程的最後一段。",
+      "starter": "They",
+      "answer": "They set out on the last stage of their journey after lunch.",
+      "answerZh": "午飯後,他們開始旅程的最後一段。",
+      "highlight": "set out on",
+      "targetForm": "set out",
+      "targetMeaningZh": "出發;開始一段旅程"
+    },
+    {
+      "id": "phrasal-verb-276-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "They placed a glass shelf firmly in the wooden frame.",
+      "promptZh": "他們把一塊玻璃架牢固地嵌入木框。",
+      "starter": "They",
+      "answer": "They set a glass shelf into the wooden frame.",
+      "answerZh": "他們把一塊玻璃架牢固地嵌入木框。",
+      "highlight": "set",
+      "targetForm": "set something into something",
+      "targetMeaningZh": "把某物嵌入另一物"
+    },
+    {
+      "id": "phrasal-verb-276-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "What makes this small café different from the others?",
+      "promptZh": "甚麼令這間小咖啡店有別於其他咖啡店?",
+      "starter": "What",
+      "answer": "What sets this small café apart from the others?",
+      "answerZh": "甚麼令這間小咖啡店有別於其他咖啡店?",
+      "highlight": "sets",
+      "targetForm": "set something apart from something",
+      "targetMeaningZh": "使某事物與別不同"
+    },
+    {
+      "id": "phrasal-verb-276-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "Lena is starting a small business with her sister.",
+      "promptZh": "Lena 正與姊妹一起開辦一門小生意。",
+      "starter": "Lena",
+      "answer": "Lena is setting up in business with her sister.",
+      "answerZh": "Lena 正與姊妹一起開辦一門小生意。",
+      "highlight": "setting up in",
+      "targetForm": "set up in business",
+      "targetMeaningZh": "開始經營生意"
+    },
+    {
+      "id": "phrasal-verb-276-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "Compare the phone's high price with its long battery life before you decide.",
+      "promptZh": "作決定前,先把這部電話的高價格與長電池壽命作比較。",
+      "starter": "Set",
+      "answer": "Set the phone's high price against its long battery life before you decide.",
+      "answerZh": "作決定前,先把這部電話的高價格與長電池壽命作比較。",
+      "highlight": "Set",
+      "targetForm": "set something against something",
+      "targetMeaningZh": "把兩者作比較或權衡"
+    },
+    {
+      "id": "phrasal-verb-276-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "Did you move the car clock back after the time change?",
+      "promptZh": "時間更改後,你有把車上的時鐘撥慢嗎?",
+      "starter": "Did",
+      "answer": "Did you set the car clock back after the time change?",
+      "answerZh": "時間更改後,你有把車上的時鐘撥慢嗎?",
+      "highlight": "set",
+      "targetForm": "set something back",
+      "targetMeaningZh": "把鐘錶撥慢"
+    },
+    {
+      "id": "phrasal-verb-276-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "The email explains the reasons for the change in a clear order.",
+      "promptZh": "電郵有條理地解釋了改動的原因。",
+      "starter": "The",
+      "answer": "The email sets forth the reasons for the change in a clear order.",
+      "answerZh": "電郵有條理地解釋了改動的原因。",
+      "highlight": "sets forth",
+      "targetForm": "set forth something",
+      "targetMeaningZh": "正式陳述或說明某事"
+    },
+    {
+      "id": "phrasal-verb-276-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "A large dog suddenly attacked him as he entered the yard.",
+      "promptZh": "他進入院子時,一隻大狗突然襲擊他。",
+      "starter": "A",
+      "answer": "A large dog suddenly set on him as he entered the yard.",
+      "answerZh": "他進入院子時,一隻大狗突然襲擊他。",
+      "highlight": "set on",
+      "targetForm": "set on somebody",
+      "targetMeaningZh": "襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "Do not tell the dog to attack the cat.",
+      "promptZh": "不要吩咐那隻狗襲擊貓。",
+      "starter": "Do",
+      "answer": "Do not set the dog on the cat.",
+      "answerZh": "不要吩咐那隻狗襲擊貓。",
+      "highlight": "set",
+      "targetForm": "set something on somebody",
+      "targetMeaningZh": "命令動物襲擊"
+    },
+    {
+      "id": "phrasal-verb-276-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "The letter arrived during dinner. I put it to one side because I planned to read it later.",
+      "promptZh": "那封信在晚飯期間送到。我把它放在一旁,打算稍後再看。",
+      "starter": "The",
+      "answer": "The letter arrived during dinner. I set it aside because I planned to read it later.",
+      "answerZh": "那封信在晚飯期間送到。我把它放在一旁,打算稍後再看。",
+      "highlight": "set",
+      "targetForm": "set something aside",
+      "targetMeaningZh": "把某物放在一旁稍後處理"
+    },
+    {
+      "id": "phrasal-verb-276-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "The children were made to oppose their new teacher by a series of untrue messages.",
+      "promptZh": "一連串失實訊息令孩子們反對新老師。",
+      "starter": "The",
+      "answer": "The children were set against their new teacher by a series of untrue messages.",
+      "answerZh": "一連串失實訊息令孩子們反對新老師。",
+      "highlight": "set against",
+      "targetForm": "set somebody against somebody",
+      "targetMeaningZh": "使某人反對另一人"
+    },
+    {
+      "id": "phrasal-verb-276-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "Do not touch the alarm button; you may activate it.",
+      "promptZh": "不要觸碰警報按鈕;你可能會觸發警報。",
+      "starter": "Do",
+      "answer": "Do not touch the alarm button; you may set it off.",
+      "answerZh": "不要觸碰警報按鈕;你可能會觸發警報。",
+      "highlight": "set",
+      "targetForm": "set something off",
+      "targetMeaningZh": "觸發警報或裝置"
+    },
+    {
+      "id": "phrasal-verb-276-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "The kitchen clock is one hour fast; please move it back.",
+      "promptZh": "廚房的時鐘快了一小時;請把它撥慢。",
+      "starter": "The",
+      "answer": "The kitchen clock is one hour fast; please set it back.",
+      "answerZh": "廚房的時鐘快了一小時;請把它撥慢。",
+      "highlight": "set",
+      "targetForm": "set something back",
+      "targetMeaningZh": "把鐘錶撥慢"
+    },
+    {
+      "id": "phrasal-verb-276-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "The new rules were simple. The teacher explained them clearly on the first page.",
+      "promptZh": "新規則很簡單。老師在第一頁清楚說明了它們。",
+      "starter": "The",
+      "answer": "The new rules were simple. The teacher set them forth clearly on the first page.",
+      "answerZh": "新規則很簡單。老師在第一頁清楚說明了它們。",
+      "highlight": "set",
+      "targetForm": "set something forth",
+      "targetMeaningZh": "正式陳述或說明某事"
+    },
+    {
+      "id": "phrasal-verb-276-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "This clock is one hour slow, so please move it forward.",
+      "promptZh": "這個時鐘慢了一小時,所以請把它撥快。",
+      "starter": "This",
+      "answer": "This clock is one hour slow, so please set it ahead.",
+      "answerZh": "這個時鐘慢了一小時,所以請把它撥快。",
+      "highlight": "set",
+      "targetForm": "set something ahead",
+      "targetMeaningZh": "把鐘錶撥快"
+    },
+    {
+      "id": "phrasal-verb-276-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "The chairs are in the cupboard. Please arrange them in a circle.",
+      "promptZh": "椅子放在櫃內。請把它們排成一圈。",
+      "starter": "The",
+      "answer": "The chairs are in the cupboard. Please set them out in a circle.",
+      "answerZh": "椅子放在櫃內。請把它們排成一圈。",
+      "highlight": "set",
+      "targetForm": "set something out",
+      "targetMeaningZh": "把物品排列好"
+    },
+    {
+      "id": "phrasal-verb-276-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "The robbers attacked us with wooden sticks.",
+      "promptZh": "那些劫匪用木棍襲擊我們。",
+      "starter": "The",
+      "answer": "The robbers set about us with wooden sticks.",
+      "answerZh": "那些劫匪用木棍襲擊我們。",
+      "highlight": "set about",
+      "targetForm": "set about somebody with something",
+      "targetMeaningZh": "用某物襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "Because of the storm, the plane had to land on a quiet road.",
+      "promptZh": "由於暴風雨,飛機只好降落在一條安靜的道路上。",
+      "starter": "Because",
+      "answer": "Because of the storm, the plane had to set down on a quiet road.",
+      "answerZh": "由於暴風雨,飛機只好降落在一條安靜的道路上。",
+      "highlight": "set down",
+      "targetForm": "set down",
+      "targetMeaningZh": "飛機降落"
+    },
+    {
+      "id": "phrasal-verb-276-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "Do not mention football; it may make him start talking for an hour.",
+      "promptZh": "不要提足球;這可能會令他一說便說上一小時。",
+      "starter": "Do",
+      "answer": "Do not mention football; it may set him off talking for an hour.",
+      "answerZh": "不要提足球;這可能會令他一說便說上一小時。",
+      "highlight": "set",
+      "targetForm": "set somebody off doing something",
+      "targetMeaningZh": "令某人開始不停做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "The accountant recorded the equipment cost so that the business would pay less tax.",
+      "promptZh": "會計師把設備費用列作成本,以減少公司須繳付的稅款。",
+      "starter": "The",
+      "answer": "The accountant set the equipment cost off against tax.",
+      "answerZh": "會計師把設備費用列作成本,以減少公司須繳付的稅款。",
+      "highlight": "set",
+      "targetForm": "set something off against something",
+      "targetMeaningZh": "以一筆款項抵銷另一筆款項"
+    },
+    {
+      "id": "phrasal-verb-276-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "The new lights have been fixed into the floor.",
+      "promptZh": "新燈已被嵌入地板內。",
+      "starter": "The",
+      "answer": "The new lights have been set into the floor.",
+      "answerZh": "新燈已被嵌入地板內。",
+      "highlight": "set",
+      "targetForm": "set something into something",
+      "targetMeaningZh": "把某物嵌入另一物"
+    },
+    {
+      "id": "phrasal-verb-276-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "A family holiday there could cost us more than £2,000.",
+      "promptZh": "一家人到那裏度假可能會花費我們超過二千英鎊。",
+      "starter": "A",
+      "answer": "A family holiday there could set us back more than £2,000.",
+      "answerZh": "一家人到那裏度假可能會花費我們超過二千英鎊。",
+      "highlight": "set",
+      "targetForm": "set somebody back something",
+      "targetMeaningZh": "使某人花費某筆金錢"
+    },
+    {
+      "id": "phrasal-verb-276-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "The guard threatened to send the dogs after us if we entered.",
+      "promptZh": "保安員威脅說,如果我們進去,他便會放狗追趕我們。",
+      "starter": "The",
+      "answer": "The guard threatened to set the dogs on us if we entered.",
+      "answerZh": "保安員威脅說,如果我們進去,他便會放狗追趕我們。",
+      "highlight": "set",
+      "targetForm": "set something on somebody",
+      "targetMeaningZh": "命令動物襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "Why are you presenting yourself as the person who can judge everyone else?",
+      "promptZh": "你為甚麼把自己說成有資格評判所有人的人?",
+      "starter": "Why",
+      "answer": "Why are you setting yourself up as the person who can judge everyone else?",
+      "answerZh": "你為甚麼把自己說成有資格評判所有人的人?",
+      "highlight": "setting",
+      "targetForm": "set yourself up as something",
+      "targetMeaningZh": "自稱或把自己說成某種身分"
+    },
+    {
+      "id": "phrasal-verb-276-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "Once the boxes arrived, the volunteers began the task of sorting them.",
+      "promptZh": "箱子送到後,義工開始把它們分類。",
+      "starter": "Once",
+      "answer": "Once the boxes arrived, the volunteers set about the task of sorting them.",
+      "answerZh": "箱子送到後,義工開始把它們分類。",
+      "highlight": "set about",
+      "targetForm": "set about something",
+      "targetMeaningZh": "着手處理某事"
+    },
+    {
+      "id": "phrasal-verb-276-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "Once the cold weather had begun, the roads became icy.",
+      "promptZh": "寒冷天氣開始後,道路便結了冰。",
+      "starter": "Once",
+      "answer": "Once the cold weather had set in, the roads became icy.",
+      "answerZh": "寒冷天氣開始後,道路便結了冰。",
+      "highlight": "set in",
+      "targetForm": "set in",
+      "targetMeaningZh": "天氣或情況開始並持續"
+    },
+    {
+      "id": "phrasal-verb-276-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "When did they start working for themselves?",
+      "promptZh": "他們甚麼時候開始自行經營生意?",
+      "starter": "When",
+      "answer": "When did they set up in business for themselves?",
+      "answerZh": "他們甚麼時候開始自行經營生意?",
+      "highlight": "set up in business",
+      "targetForm": "set up in business",
+      "targetMeaningZh": "開始自行經營生意"
+    },
+    {
+      "id": "phrasal-verb-276-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "In the old tale, the sailors began their journey to the island at dawn.",
+      "promptZh": "在那個古老故事中,水手在黎明時分啟程前往小島。",
+      "starter": "In",
+      "answer": "In the old tale, the sailors set forth for the island at dawn.",
+      "answerZh": "在那個古老故事中,水手在黎明時分啟程前往小島。",
+      "highlight": "set forth for",
+      "targetForm": "set forth",
+      "targetMeaningZh": "啟程"
+    },
+    {
+      "id": "phrasal-verb-276-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "His calm manner has always made him different from his classmates.",
+      "promptZh": "他冷靜的態度一直令他有別於同學。",
+      "starter": "His",
+      "answer": "His calm manner has always set him apart from his classmates.",
+      "answerZh": "他冷靜的態度一直令他有別於同學。",
+      "highlight": "set",
+      "targetForm": "set somebody apart from somebody",
+      "targetMeaningZh": "使某人與眾不同"
+    },
+    {
+      "id": "phrasal-verb-276-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "What time should we leave tomorrow?",
+      "promptZh": "我們明天應該甚麼時候出發?",
+      "starter": "What",
+      "answer": "What time should we set off tomorrow?",
+      "answerZh": "我們明天應該甚麼時候出發?",
+      "highlight": "set off",
+      "targetForm": "set off",
+      "targetMeaningZh": "出發"
+    },
+    {
+      "id": "phrasal-verb-276-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "The fact that every pupil learns music makes the school different from nearby schools.",
+      "promptZh": "每名學生都學習音樂,令這所學校有別於附近的學校。",
+      "starter": "The",
+      "answer": "The fact that every pupil learns music sets the school apart from nearby schools.",
+      "answerZh": "每名學生都學習音樂,令這所學校有別於附近的學校。",
+      "highlight": "sets",
+      "targetForm": "set something apart from something",
+      "targetMeaningZh": "使某事物與別不同"
+    },
+    {
+      "id": "phrasal-verb-276-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "In the story, the queen sent her soldiers to attack the young hero.",
+      "promptZh": "在故事中,女王派士兵襲擊年輕英雄。",
+      "starter": "In",
+      "answer": "In the story, the queen set her soldiers on the young hero.",
+      "answerZh": "在故事中,女王派士兵襲擊年輕英雄。",
+      "highlight": "set",
+      "targetForm": "set somebody on somebody",
+      "targetMeaningZh": "命令某人襲擊另一人"
+    },
+    {
+      "id": "phrasal-verb-276-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "Instead of complaining, Ava began looking for a solution.",
+      "promptZh": "Ava 沒有抱怨,而是開始尋找解決方法。",
+      "starter": "Instead",
+      "answer": "Instead of complaining, Ava set about looking for a solution.",
+      "answerZh": "Ava 沒有抱怨,而是開始尋找解決方法。",
+      "highlight": "set about",
+      "targetForm": "set about doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "The stone was loose, so the worker placed it firmly in the path again.",
+      "promptZh": "那塊石頭鬆脫了,所以工人再次把它牢固地嵌入小路。",
+      "starter": "The",
+      "answer": "The stone was loose, so the worker set it into the path again.",
+      "answerZh": "那塊石頭鬆脫了,所以工人再次把它牢固地嵌入小路。",
+      "highlight": "set",
+      "targetForm": "set something into something",
+      "targetMeaningZh": "把某物牢固地嵌入另一物"
+    },
+    {
+      "id": "phrasal-verb-276-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "That new kitchen must have cost them a lot of money.",
+      "promptZh": "那個新廚房一定花了他們很多錢。",
+      "starter": "That",
+      "answer": "That new kitchen must have set them back a lot of money.",
+      "answerZh": "那個新廚房一定花了他們很多錢。",
+      "highlight": "set",
+      "targetForm": "set somebody back something",
+      "targetMeaningZh": "使某人花費某筆金錢"
+    },
+    {
+      "id": "phrasal-verb-276-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "Different stories from the manager made one team distrust the other.",
+      "promptZh": "經理向兩隊說出不同的故事,令其中一隊不信任另一隊。",
+      "starter": "Different",
+      "answer": "Different stories from the manager set one team against the other.",
+      "answerZh": "經理向兩隊說出不同的故事,令其中一隊與另一隊敵對。",
+      "highlight": "set",
+      "targetForm": "set somebody against somebody",
+      "targetMeaningZh": "使雙方敵對"
+    },
+    {
+      "id": "phrasal-verb-276-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "The fireworks were started at nine o'clock.",
+      "promptZh": "煙花在九時燃放。",
+      "starter": "The",
+      "answer": "The fireworks were set off at nine o'clock.",
+      "answerZh": "煙花在九時燃放。",
+      "highlight": "set off",
+      "targetForm": "set something off",
+      "targetMeaningZh": "燃放煙花或引爆物品"
+    },
+    {
+      "id": "phrasal-verb-276-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "The geese attacked the visitor when he entered their field.",
+      "promptZh": "那名訪客走進田地時,幾隻鵝襲擊了他。",
+      "starter": "The",
+      "answer": "The geese set upon the visitor when he entered their field.",
+      "answerZh": "那名訪客走進田地時,幾隻鵝襲擊了他。",
+      "highlight": "set upon",
+      "targetForm": "set upon somebody",
+      "targetMeaningZh": "襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "They presented themselves as leaders of the whole group, although nobody chose them.",
+      "promptZh": "儘管沒有人選他們,他們卻把自己說成整個團體的領袖。",
+      "starter": "They",
+      "answer": "They set themselves up as leaders of the whole group, although nobody chose them.",
+      "answerZh": "儘管沒有人選他們,他們卻把自己說成整個團體的領袖。",
+      "highlight": "set",
+      "targetForm": "set yourself up as something",
+      "targetMeaningZh": "自稱或把自己說成某種身分"
+    },
+    {
+      "id": "phrasal-verb-276-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "All the station clocks will be moved forward at midnight.",
+      "promptZh": "車站內所有時鐘都會在午夜撥快。",
+      "starter": "All",
+      "answer": "All the station clocks will be set ahead at midnight.",
+      "answerZh": "車站內所有時鐘都會在午夜撥快。",
+      "highlight": "set ahead",
+      "targetForm": "set something ahead",
+      "targetMeaningZh": "把鐘錶撥快"
+    },
+    {
+      "id": "phrasal-verb-276-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "All the reasons for the decision were explained in the report.",
+      "promptZh": "作出這項決定的所有原因都在報告中列明。",
+      "starter": "All",
+      "answer": "All the reasons for the decision were set forth in the report.",
+      "answerZh": "作出這項決定的所有原因都在報告中列明。",
+      "highlight": "set forth",
+      "targetForm": "set forth something",
+      "targetMeaningZh": "正式陳述或說明某事"
+    },
+    {
+      "id": "phrasal-verb-276-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "Two hours have been reserved for questions at the end.",
+      "promptZh": "最後已預留兩小時供大家提問。",
+      "starter": "Two",
+      "answer": "Two hours have been set aside for questions at the end.",
+      "answerZh": "最後已預留兩小時供大家提問。",
+      "highlight": "set aside",
+      "targetForm": "set something aside",
+      "targetMeaningZh": "預留時間或資源"
+    },
+    {
+      "id": "phrasal-verb-276-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "We carried the projector inside and prepared it for use.",
+      "promptZh": "我們把投影機搬進室內,並把它準備好供使用。",
+      "starter": "We",
+      "answer": "We carried the projector inside and set it up.",
+      "answerZh": "我們把投影機搬進室內,並把它準備好供使用。",
+      "highlight": "set",
+      "targetForm": "set something up",
+      "targetMeaningZh": "把設備安裝或準備好"
+    },
+    {
+      "id": "phrasal-verb-276-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "We need to repair the roof before the wet season begins.",
+      "promptZh": "我們需要在雨季開始前修理屋頂。",
+      "starter": "We",
+      "answer": "We need to repair the roof before the wet season sets in.",
+      "answerZh": "我們需要在雨季開始前修理屋頂。",
+      "highlight": "sets in",
+      "targetForm": "set in",
+      "targetMeaningZh": "季節或天氣開始並持續"
+    },
+    {
+      "id": "phrasal-verb-276-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "Compared with the benefits of the new timetable, the extra work seems small.",
+      "promptZh": "與新時間表的好處相比,額外工作看來不算多。",
+      "starter": "Set",
+      "answer": "Set against the benefits of the new timetable, the extra work seems small.",
+      "answerZh": "與新時間表的好處相比,額外工作看來不算多。",
+      "highlight": "Set against",
+      "targetForm": "set something against something",
+      "targetMeaningZh": "把兩者作比較或權衡"
+    },
+    {
+      "id": "phrasal-verb-276-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "Where can the pilot safely land it?",
+      "promptZh": "機師可以在哪裏安全地把它降落?",
+      "starter": "Where",
+      "answer": "Where can the pilot safely set it down?",
+      "answerZh": "機師可以在哪裏安全地把它降落?",
+      "highlight": "set",
+      "targetForm": "set something down",
+      "targetMeaningZh": "使飛機或直升機降落"
+    },
+    {
+      "id": "phrasal-verb-276-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "One quiet giggle made the whole class start laughing again.",
+      "promptZh": "一聲輕輕的傻笑令全班再次笑起來。",
+      "starter": "One",
+      "answer": "One quiet giggle set the whole class off laughing again.",
+      "answerZh": "一聲輕輕的傻笑令全班再次笑起來。",
+      "highlight": "set",
+      "targetForm": "set somebody off doing something",
+      "targetMeaningZh": "令某人開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "The clocks had not been moved back, so everyone arrived early.",
+      "promptZh": "那些時鐘沒有撥慢,所以所有人都提早到了。",
+      "starter": "The",
+      "answer": "The clocks had not been set back, so everyone arrived early.",
+      "answerZh": "那些時鐘沒有撥慢,所以所有人都提早到了。",
+      "highlight": "set",
+      "targetForm": "set something back",
+      "targetMeaningZh": "把鐘錶撥慢"
+    },
+    {
+      "id": "phrasal-verb-276-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "The two friends had saved enough money to start working for themselves.",
+      "promptZh": "兩名朋友已儲夠金錢,可以開始自行經營生意。",
+      "starter": "The",
+      "answer": "The two friends had saved enough money to set up in business.",
+      "answerZh": "兩名朋友已儲夠金錢,可以開始自行經營生意。",
+      "highlight": "set up in business",
+      "targetForm": "set up in business",
+      "targetMeaningZh": "開始經營生意"
+    },
+    {
+      "id": "phrasal-verb-276-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "Without any formal training, Daniel claimed to be an authority on healthy eating.",
+      "promptZh": "Daniel 沒有接受過任何正式訓練,卻自稱是健康飲食權威。",
+      "starter": "Without",
+      "answer": "Without any formal training, Daniel set himself up as an authority on healthy eating.",
+      "answerZh": "Daniel 沒有接受過任何正式訓練,卻自稱是健康飲食權威。",
+      "highlight": "set himself up as",
+      "targetForm": "set yourself up as something",
+      "targetMeaningZh": "自稱或把自己說成某種身分"
+    },
+    {
+      "id": "phrasal-verb-276-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "At first the tiredness was mild, but by evening it had begun and was not going away.",
+      "promptZh": "起初疲倦感很輕微,但到了晚上,它已經出現,而且沒有消退。",
+      "starter": "At",
+      "answer": "At first the tiredness was mild, but by evening it had set in.",
+      "answerZh": "起初疲倦感很輕微,但到了晚上,它已經出現,而且沒有消退。",
+      "highlight": "set in",
+      "targetForm": "set in",
+      "targetMeaningZh": "某種情況開始並持續"
+    },
+    {
+      "id": "phrasal-verb-276-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "Although the message looked important, Priya put it to one side until after class.",
+      "promptZh": "雖然那則訊息看來很重要,Priya 仍把它放在一旁,留待下課後處理。",
+      "starter": "Although",
+      "answer": "Although the message looked important, Priya set it aside until after class.",
+      "answerZh": "雖然那則訊息看來很重要,Priya 仍把它放在一旁,留待下課後處理。",
+      "highlight": "set",
+      "targetForm": "set something aside",
+      "targetMeaningZh": "把某物放在一旁稍後處理"
+    },
+    {
+      "id": "phrasal-verb-276-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "With thick fog covering the airport, the pilot found a clear field and landed the plane there.",
+      "promptZh": "機場被濃霧籠罩,機師找到一片清晰可見的田地,並把飛機降落在那裏。",
+      "starter": "With",
+      "answer": "With thick fog covering the airport, the pilot found a clear field and set the plane down there.",
+      "answerZh": "機場被濃霧籠罩,機師找到一片清晰可見的田地,並把飛機降落在那裏。",
+      "highlight": "set",
+      "targetForm": "set something down",
+      "targetMeaningZh": "使飛機降落"
+    },
+    {
+      "id": "phrasal-verb-276-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "One small mistake caused a series of delays across the whole project.",
+      "promptZh": "一個小錯誤令整個項目出現連串延誤。",
+      "starter": "One",
+      "answer": "One small mistake set off a series of delays across the whole project.",
+      "answerZh": "一個小錯誤令整個項目出現連串延誤。",
+      "highlight": "set off",
+      "targetForm": "set something off",
+      "targetMeaningZh": "引起一連串事件"
+    },
+    {
+      "id": "phrasal-verb-276-q86",
+      "number": 86,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Do not judge the plan by its cost alone; compare the cost with the time and energy it saves.",
+      "promptZh": "不要只按成本判斷這項計劃;應把成本與它所節省的時間和精力作比較。",
+      "starter": "Do",
+      "answer": "Do not judge the plan by its cost alone; set the cost against the time and energy it saves.",
+      "answerZh": "不要只按成本判斷這項計劃;應把成本與它所節省的時間和精力作比較。",
+      "highlight": "set",
+      "targetForm": "set something against something",
+      "targetMeaningZh": "把兩者作比較或權衡"
+    },
+    {
+      "id": "phrasal-verb-276-q87",
+      "number": 87,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "After checking their map and water, the hikers began walking towards the mountain village.",
+      "promptZh": "遠足者檢查地圖和食水後,開始步行前往山村。",
+      "starter": "After",
+      "answer": "After checking their map and water, the hikers set out for the mountain village.",
+      "answerZh": "遠足者檢查地圖和食水後,出發前往山村。",
+      "highlight": "set out for",
+      "targetForm": "set out",
+      "targetMeaningZh": "出發前往某地"
+    },
+    {
+      "id": "phrasal-verb-276-q88",
+      "number": 88,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Before the science show, the students connected and prepared all the equipment.",
+      "promptZh": "科學表演開始前,學生接駁並準備好所有設備。",
+      "starter": "Before",
+      "answer": "Before the science show, the students set up all the equipment.",
+      "answerZh": "科學表演開始前,學生接駁並準備好所有設備。",
+      "highlight": "set up",
+      "targetForm": "set something up",
+      "targetMeaningZh": "把設備安裝或準備好"
+    },
+    {
+      "id": "phrasal-verb-276-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Summer time begins tonight; remember to move every clock forward before bed.",
+      "promptZh": "夏令時間今晚開始;睡前記得把所有時鐘撥快。",
+      "starter": "Summer",
+      "answer": "Summer time begins tonight; remember to set every clock ahead before bed.",
+      "answerZh": "夏令時間今晚開始;睡前記得把所有時鐘撥快。",
+      "highlight": "set",
+      "targetForm": "set something ahead",
+      "targetMeaningZh": "把鐘錶撥快"
+    },
+    {
+      "id": "phrasal-verb-276-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "In the story, the hero was suddenly attacked by three masked men.",
+      "promptZh": "在故事中,英雄突然遭三名蒙面男子襲擊。",
+      "starter": "In",
+      "answer": "In the story, the hero was suddenly set upon by three masked men.",
+      "answerZh": "在故事中,英雄突然遭三名蒙面男子襲擊。",
+      "highlight": "set upon",
+      "targetForm": "set upon somebody",
+      "targetMeaningZh": "襲擊某人"
+    },
+    {
+      "id": "phrasal-verb-276-q91",
+      "number": 91,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Everyone had become calm, but one funny sound made them all start laughing again.",
+      "promptZh": "所有人本來已平靜下來,但一個有趣的聲音令他們再次全都笑起來。",
+      "starter": "Everyone",
+      "answer": "Everyone had become calm, but one funny sound set them all off laughing again.",
+      "answerZh": "所有人本來已平靜下來,但一個有趣的聲音令他們再次全都笑起來。",
+      "highlight": "set",
+      "targetForm": "set somebody off doing something",
+      "targetMeaningZh": "令某人開始做某事"
+    },
+    {
+      "id": "phrasal-verb-276-q92",
+      "number": 92,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "After years at the shop, Henry saved enough money and began working for himself.",
+      "promptZh": "Henry 在店舖工作多年後儲夠金錢,開始自行經營生意。",
+      "starter": "After",
+      "answer": "After years at the shop, Henry saved enough money and set himself up in business.",
+      "answerZh": "Henry 在店舖工作多年後儲夠金錢,開始自行經營生意。",
+      "highlight": "set",
+      "targetForm": "set yourself up in business",
+      "targetMeaningZh": "開始自行經營生意"
+    },
+    {
+      "id": "phrasal-verb-276-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "After flying home, Theo forgot to move his watch back to local time.",
+      "promptZh": "乘飛機回家後,Theo 忘記把手錶撥回當地時間。",
+      "starter": "After",
+      "answer": "After flying home, Theo forgot to set his watch back to local time.",
+      "answerZh": "乘飛機回家後,Theo 忘記把手錶撥回當地時間。",
+      "highlight": "set",
+      "targetForm": "set something back",
+      "targetMeaningZh": "把鐘錶撥回較早時間"
+    },
+    {
+      "id": "phrasal-verb-276-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "During the long interview, the president clearly explained her views on the new plan.",
+      "promptZh": "在長時間的訪問中,主席清楚闡述了她對新計劃的看法。",
+      "starter": "During",
+      "answer": "During the long interview, the president clearly set forth her views on the new plan.",
+      "answerZh": "在長時間的訪問中,主席清楚闡述了她對新計劃的看法。",
+      "highlight": "set forth",
+      "targetForm": "set forth something",
+      "targetMeaningZh": "正式陳述或闡明某事"
+    },
+    {
+      "id": "phrasal-verb-276-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "Instead of working together, the two neighbourhood groups were made to oppose each other.",
+      "promptZh": "兩個街坊團體沒有合作,反而被人挑動互相反對。",
+      "starter": "Instead",
+      "answer": "Instead of working together, the two neighbourhood groups were set against each other.",
+      "answerZh": "兩個街坊團體沒有合作,反而被人挑動互相反對。",
+      "highlight": "set against",
+      "targetForm": "set somebody against somebody",
+      "targetMeaningZh": "使雙方互相敵對"
+    },
+    {
+      "id": "phrasal-verb-276-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "The ticket looked cheap at first, but the extra fees made it cost Ruby nearly £200.",
+      "promptZh": "那張門票起初看來很便宜,但額外費用令 Ruby 最終花了接近二百英鎊。",
+      "starter": "The",
+      "answer": "The ticket looked cheap at first, but the extra fees set Ruby back nearly £200.",
+      "answerZh": "那張門票起初看來很便宜,但額外費用令 Ruby 最終花了接近二百英鎊。",
+      "highlight": "set",
+      "targetForm": "set somebody back something",
+      "targetMeaningZh": "使某人花費某筆金錢"
+    },
+    {
+      "id": "phrasal-verb-276-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "When the fox entered the yard, the farmer told both dogs to attack it.",
+      "promptZh": "狐狸走進院子時,農夫吩咐兩隻狗襲擊牠。",
+      "starter": "When",
+      "answer": "When the fox entered the yard, the farmer set both dogs on it.",
+      "answerZh": "狐狸走進院子時,農夫吩咐兩隻狗襲擊牠。",
+      "highlight": "set",
+      "targetForm": "set something on somebody or something",
+      "targetMeaningZh": "命令動物襲擊"
+    },
+    {
+      "id": "phrasal-verb-276-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 40,
+      "prompt": "The artist placed small blue stones in the picture frame so they became part of the design.",
+      "promptZh": "藝術家把小顆藍色石頭嵌入畫框,使它們成為設計的一部分。",
+      "starter": "The",
+      "answer": "The artist set small blue stones into the picture frame so they became part of the design.",
+      "answerZh": "藝術家把小顆藍色石頭嵌入畫框,使它們成為設計的一部分。",
+      "highlight": "set",
+      "targetForm": "set something into something",
+      "targetMeaningZh": "把某物嵌入另一物"
+    },
+    {
+      "id": "phrasal-verb-276-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 40,
+      "prompt": "Many phones have good cameras, but this one's battery life makes it different from the rest.",
+      "promptZh": "很多電話都有不錯的相機,但這部電話的電池壽命令它與別不同。",
+      "starter": "Many",
+      "answer": "Many phones have good cameras, but this one's battery life sets it apart from the rest.",
+      "answerZh": "很多電話都有不錯的相機,但這部電話的電池壽命令它與別不同。",
+      "highlight": "sets",
+      "targetForm": "set something apart from something",
+      "targetMeaningZh": "使某事物與別不同"
+    },
+    {
+      "id": "phrasal-verb-276-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 40,
+      "prompt": "Everyone agreed that the hall needed work, but nobody knew how to begin repairing it.",
+      "promptZh": "所有人都同意禮堂需要修理,但沒有人知道該如何着手。",
+      "starter": "Everyone",
+      "answer": "Everyone agreed that the hall needed work, but nobody knew how to set about repairing it.",
+      "answerZh": "所有人都同意禮堂需要修理,但沒有人知道該如何着手。",
+      "highlight": "set about",
+      "targetForm": "set about doing something",
+      "targetMeaningZh": "着手做某事"
+    }
+  ]
+}

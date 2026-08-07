@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-122",
+  "order": 122,
+  "slug": "dine",
+  "version": "1",
+  "title": "DINE 動詞片語",
+  "titleEn": "Dine",
+  "titleZh": "DINE 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 121 - DINE.pdf",
+    "sourceNumber": 121,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DINE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DINE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DINE",
+      "highlight": "DINE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We dined on fresh fish beside the harbour.",
+      "zh": "我們在海港旁享用新鮮魚。",
+      "highlight": "dined on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We dined out every night during our holiday.",
+      "zh": "我們度假期間每晚都外出到餐廳吃飯。",
+      "highlight": "dined out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He met a famous actor once and dined out on the story for years.",
+      "zh": "他曾遇上一位著名演員,之後多年都反覆談論這段故事。",
+      "highlight": "dined out on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "享用某種食物;以某種食物作一餐；外出到餐廳吃飯；反覆談論某段特別經歷或故事,藉此吸引注意",
+    "en": "dine on something; dine out; dine out on something",
+    "naturalZh": [
+      "享用某種食物;以某種食物作一餐",
+      "外出到餐廳吃飯",
+      "反覆談論某段特別經歷或故事,藉此吸引注意"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dine on something",
+      "titleZh": "享用某種食物;以某種食物作一餐",
+      "titleEn": "dine on something",
+      "descriptionZh": "享用某種食物;以某種食物作一餐",
+      "descriptionEn": "We dined on fresh fish beside the harbour.",
+      "examples": [
+        {
+          "en": "We dined on fresh fish beside the harbour.",
+          "zh": "我們在海港旁享用新鮮魚。",
+          "highlight": "dined on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dine out",
+      "titleZh": "外出到餐廳吃飯",
+      "titleEn": "dine out",
+      "descriptionZh": "外出到餐廳吃飯",
+      "descriptionEn": "We dined out every night during our holiday.",
+      "examples": [
+        {
+          "en": "We dined out every night during our holiday.",
+          "zh": "我們度假期間每晚都外出到餐廳吃飯。",
+          "highlight": "dined out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dine out on something",
+      "titleZh": "反覆談論某段特別經歷或故事,藉此吸引注意",
+      "titleEn": "dine out on something",
+      "descriptionZh": "反覆談論某段特別經歷或故事,藉此吸引注意",
+      "descriptionEn": "He met a famous actor once and dined out on the story for years.",
+      "examples": [
+        {
+          "en": "He met a famous actor once and dined out on the story for years.",
+          "zh": "他曾遇上一位著名演員,之後多年都反覆談論這段故事。",
+          "highlight": "dined out on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DINE 片語動詞的實際用途",
+    "labelEn": "DINE Phrasal Verbs in Use",
+    "summaryZh": "dine on 可以指出一餐所享用的具體食物,例如新鮮魚、當地海鮮或烤雞。；dine on 說明某人吃甚麼;dine out 則表示某人不在家吃飯,通常是到餐廳用餐。；dine out on something 表示反覆講述一段有趣故事,或不斷談論一次特別經歷。；這些 DINE 表達適合用來談論假期、餐廳、慶祝活動和令人難忘的會面。",
+    "summaryEn": "Dine on lets you name the particular food served at a meal, such as fresh fish, local seafood or roast chicken. Dine on tells us what someone eats. Dine out tells us that the person eats away from home, usually at a restaurant. Dine out on something describes repeatedly telling an interesting story or talking about a special experience. These DINE expressions are useful when talking about holidays, restaurants, celebrations and memorable meetings.",
+    "contextsZh": [
+      "清楚說明人們享用甚麼食物",
+      "分清楚食物和用餐地點",
+      "理解一個並非真正談論食物的表達",
+      "自然談論用餐、旅遊和社交故事"
+    ],
+    "contextsEn": [
+      "Talk clearly about the food people enjoy",
+      "Distinguish the food from the place",
+      "Understand an expression that is not really about food",
+      "Describe meals, travel and social stories naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DINE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DINE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dine on something",
+    "fixedHighlight": "dine on something",
+    "fixedZh": "閱讀整句,選出意思相同的 DINE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DINE expression that gives the same meaning.",
+    "correct": "dined on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意三個不同意思:● dine on something=享用某種食物● dine out=外出到餐廳吃飯● dine out on something=反覆談論一段有趣經歷；核心表達是 dine on something、dine out 和 dine out on something。every night、at a restaurant和 for years 等資料只是額外細節,可以出現在句子的不同位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the three different meanings: ● dine on something = eat a particular kind of food ● dine out = eat at a restaurant ● dine out on something = keep telling people about an interesting experience The core expressions are dine on something, dine out and dine out on something. Details such as every night, at a restaurant and for years are optional and may appear in different places in a sentence.",
+    "variableItemsZh": [
+      "dine on something",
+      "dine out",
+      "dine out on something"
+    ],
+    "variableItemsEn": [
+      "dine on something",
+      "dine out",
+      "dine out on something"
+    ],
+    "forms": [
+      {
+        "formZh": "享用某種食物;以某種食物作一餐",
+        "formEn": "dine on something",
+        "exampleZh": "我們在海港旁享用新鮮魚。",
+        "exampleEn": "We dined on fresh fish beside the harbour.",
+        "highlight": "dined on"
+      },
+      {
+        "formZh": "外出到餐廳吃飯",
+        "formEn": "dine out",
+        "exampleZh": "我們度假期間每晚都外出到餐廳吃飯。",
+        "exampleEn": "We dined out every night during our holiday.",
+        "highlight": "dined out"
+      },
+      {
+        "formZh": "反覆談論某段特別經歷或故事,藉此吸引注意",
+        "formEn": "dine out on something",
+        "exampleZh": "他曾遇上一位著名演員,之後多年都反覆談論這段故事。",
+        "exampleEn": "He met a famous actor once and dined out on the story for years.",
+        "highlight": "dined out on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "享用某種食物;以某種食物作一餐",
+      "titleEn": "dine on something",
+      "formula": "dine on something",
+      "highlight": "dine on something",
+      "descriptionZh": "享用某種食物;以某種食物作一餐",
+      "descriptionEn": "We dined on fresh fish beside the harbour.",
+      "examples": [
+        {
+          "en": "We dined on fresh fish beside the harbour.",
+          "zh": "我們在海港旁享用新鮮魚。",
+          "highlight": "dined on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "外出到餐廳吃飯",
+      "titleEn": "dine out",
+      "formula": "dine out",
+      "highlight": "dine out",
+      "descriptionZh": "外出到餐廳吃飯",
+      "descriptionEn": "We dined out every night during our holiday.",
+      "examples": [
+        {
+          "en": "We dined out every night during our holiday.",
+          "zh": "我們度假期間每晚都外出到餐廳吃飯。",
+          "highlight": "dined out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "反覆談論某段特別經歷或故事,藉此吸引注意",
+      "titleEn": "dine out on something",
+      "formula": "dine out on something",
+      "highlight": "dine out on something",
+      "descriptionZh": "反覆談論某段特別經歷或故事,藉此吸引注意",
+      "descriptionEn": "He met a famous actor once and dined out on the story for years.",
+      "examples": [
+        {
+          "en": "He met a famous actor once and dined out on the story for years.",
+          "zh": "他曾遇上一位著名演員,之後多年都反覆談論這段故事。",
+          "highlight": "dined out on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明人們享用甚麼食物",
+      "titleEn": "Talk clearly about the food people enjoy",
+      "zh": "dine on 可以指出一餐所享用的具體食物,例如新鮮魚、當地海鮮或烤雞。",
+      "en": "Dine on lets you name the particular food served at a meal, such as fresh fish, local seafood or roast chicken."
+    },
+    {
+      "titleZh": "分清楚食物和用餐地點",
+      "titleEn": "Distinguish the food from the place",
+      "zh": "dine on 說明某人吃甚麼;dine out 則表示某人不在家吃飯,通常是到餐廳用餐。",
+      "en": "Dine on tells us what someone eats. Dine out tells us that the person eats away from home, usually at a restaurant."
+    },
+    {
+      "titleZh": "理解一個並非真正談論食物的表達",
+      "titleEn": "Understand an expression that is not really about food",
+      "zh": "dine out on something 表示反覆講述一段有趣故事,或不斷談論一次特別經歷。",
+      "en": "Dine out on something describes repeatedly telling an interesting story or talking about a special experience."
+    },
+    {
+      "titleZh": "自然談論用餐、旅遊和社交故事",
+      "titleEn": "Describe meals, travel and social stories naturally",
+      "zh": "這些 DINE 表達適合用來談論假期、餐廳、慶祝活動和令人難忘的會面。",
+      "en": "These DINE expressions are useful when talking about holidays, restaurants, celebrations and memorable meetings."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明人們享用甚麼食物",
+      "分清楚食物和用餐地點",
+      "理解一個並非真正談論食物的表達",
+      "自然談論用餐、旅遊和社交故事"
+    ],
+    "contextsEn": [
+      "Talk clearly about the food people enjoy",
+      "Distinguish the food from the place",
+      "Understand an expression that is not really about food",
+      "Describe meals, travel and social stories naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明人們享用甚麼食物",
+        "titleEn": "Talk clearly about the food people enjoy",
+        "zh": "dine on 可以指出一餐所享用的具體食物,例如新鮮魚、當地海鮮或烤雞。",
+        "en": "Dine on lets you name the particular food served at a meal, such as fresh fish, local seafood or roast chicken.",
+        "examples": [
+          {
+            "en": "We dined on fresh fish beside the harbour.",
+            "zh": "我們在海港旁享用新鮮魚。",
+            "highlight": "dined on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分清楚食物和用餐地點",
+        "titleEn": "Distinguish the food from the place",
+        "zh": "dine on 說明某人吃甚麼;dine out 則表示某人不在家吃飯,通常是到餐廳用餐。",
+        "en": "Dine on tells us what someone eats. Dine out tells us that the person eats away from home, usually at a restaurant.",
+        "examples": [
+          {
+            "en": "We dined out every night during our holiday.",
+            "zh": "我們度假期間每晚都外出到餐廳吃飯。",
+            "highlight": "dined out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解一個並非真正談論食物的表達",
+        "titleEn": "Understand an expression that is not really about food",
+        "zh": "dine out on something 表示反覆講述一段有趣故事,或不斷談論一次特別經歷。",
+        "en": "Dine out on something describes repeatedly telling an interesting story or talking about a special experience.",
+        "examples": [
+          {
+            "en": "He met a famous actor once and dined out on the story for years.",
+            "zh": "他曾遇上一位著名演員,之後多年都反覆談論這段故事。",
+            "highlight": "dined out on"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論用餐、旅遊和社交故事",
+        "titleEn": "Describe meals, travel and social stories naturally",
+        "zh": "這些 DINE 表達適合用來談論假期、餐廳、慶祝活動和令人難忘的會面。",
+        "en": "These DINE expressions are useful when talking about holidays, restaurants, celebrations and memorable meetings.",
+        "examples": [
+          {
+            "en": "We dined on fresh fish beside the harbour.",
+            "zh": "我們在海港旁享用新鮮魚。",
+            "highlight": "dined on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DINE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DINE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DINE 片語動詞。",
+      "en": "Read the whole sentence and choose the DINE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意三個不同意思:● dine on something=享用某種食物● dine out=外出到餐廳吃飯● dine out on something=反覆談論一段有趣經歷",
+      "titleEn": "Notice the three different meanings: ● dine on something = eat a particular kind of food ● dine out = eat at a restaurant ● dine out on something = keep telling people about an interesting experience.",
+      "zh": "留意三個不同意思:● dine on something=享用某種食物● dine out=外出到餐廳吃飯● dine out on something=反覆談論一段有趣經歷",
+      "en": "Notice the three different meanings: ● dine on something = eat a particular kind of food ● dine out = eat at a restaurant ● dine out on something = keep telling people about an interesting experience"
+    },
+    {
+      "titleZh": "核心表達是 dine on something、dine out 和 dine out on something。every night、at a restaurant和 for years 等資料只是額外細節,可以出現在句子的不同位置。",
+      "titleEn": "The core expressions are dine on something, dine out and dine out on something.",
+      "zh": "核心表達是 dine on something、dine out 和 dine out on something。every night、at a restaurant和 for years 等資料只是額外細節,可以出現在句子的不同位置。",
+      "en": "The core expressions are dine on something, dine out and dine out on something. Details such as every night, at a restaurant and for years are optional and may appear in different places in a sentence."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DINE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DINE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DINE 動詞片語句子改寫練習",
+    "titleEn": "DINE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DINE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DINE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-122-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "That evening, we ate fresh fish and rice by the sea.",
+      "promptZh": "那天晚上,我們在海邊吃了新鮮魚和米飯。",
+      "starter": "That",
+      "answer": "That evening, we dined on fresh fish and rice by the sea.",
+      "answerZh": "那天晚上,我們在海邊享用了新鮮魚和米飯。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Liam went to a restaurant for dinner with his parents.",
+      "promptZh": "Liam 和父母到餐廳吃晚飯。",
+      "starter": "Liam",
+      "answer": "Liam dined out with his parents.",
+      "answerZh": "Liam 和父母外出到餐廳吃晚飯。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ava met a famous singer once and told that story for years.",
+      "promptZh": "Ava 曾遇上一位著名歌手,之後多年都講述這段故事。",
+      "starter": "Ava",
+      "answer": "Ava dined out on having met a famous singer for years.",
+      "answerZh": "Ava 多年來一直反覆談論自己曾遇上一位著名歌手的經歷。",
+      "highlight": "dined out on having",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The guests ate roast chicken and vegetables at the celebration.",
+      "promptZh": "賓客在慶祝活動上吃了烤雞和蔬菜。",
+      "starter": "The",
+      "answer": "The guests dined on roast chicken and vegetables at the celebration.",
+      "answerZh": "賓客在慶祝活動上享用了烤雞和蔬菜。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We ate at a restaurant every night during our holiday.",
+      "promptZh": "我們度假期間每晚都到餐廳吃飯。",
+      "starter": "We",
+      "answer": "We dined out every night during our holiday.",
+      "answerZh": "我們度假期間每晚都外出到餐廳吃飯。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "At the farm, the children ate warm bread and cheese.",
+      "promptZh": "孩子們在農場吃了暖麵包和芝士。",
+      "starter": "At",
+      "answer": "At the farm, the children dined on warm bread and cheese.",
+      "answerZh": "孩子們在農場享用了暖麵包和芝士。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben won one small school prize and kept telling everyone about it for months.",
+      "promptZh": "Ben 贏得一個小小的校內獎項,之後幾個月都不斷向大家講述這件事。",
+      "starter": "Ben",
+      "answer": "Ben dined out on winning that small school prize for months.",
+      "answerZh": "Ben 幾個月來一直反覆談論自己贏得那個小小校內獎項的經歷。",
+      "highlight": "dined out on winning that",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "On Friday, Sophie and Dan had dinner at a café instead of at home.",
+      "promptZh": "星期五,Sophie 和 Dan 沒有在家吃飯,而是到咖啡店吃晚餐。",
+      "starter": "On",
+      "answer": "On Friday, Sophie and Dan dined out instead of eating at home.",
+      "answerZh": "星期五,Sophie 和 Dan 沒有在家吃飯,而是外出用餐。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "During the trip, we ate local lamb and fresh vegetables each evening.",
+      "promptZh": "旅途中,我們每天晚上都吃當地羊肉和新鮮蔬菜。",
+      "starter": "During",
+      "answer": "During the trip, we dined on local lamb and fresh vegetables each evening.",
+      "answerZh": "旅途中,我們每天晚上都享用當地羊肉和新鮮蔬菜。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah appeared on television for ten seconds and told people about it for years.",
+      "promptZh": "Noah 曾在電視上出現十秒,之後多年都向別人談起這件事。",
+      "starter": "Noah",
+      "answer": "Noah dined out on his ten seconds on television for years.",
+      "answerZh": "Noah 多年來一直反覆談論自己在電視上出現十秒的經歷。",
+      "highlight": "dined out on his ten seconds",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ella has kept telling people about the day she shook hands with the mayor.",
+      "promptZh": "Ella 一直向別人講述她與市長握手的那一天。",
+      "starter": "Ella",
+      "answer": "Ella has dined out on the day she shook hands with the mayor.",
+      "answerZh": "Ella 一直反覆談論自己與市長握手的那一天。",
+      "highlight": "dined out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The family is eating grilled fish and salad beside the lake.",
+      "promptZh": "一家人正在湖邊吃烤魚和沙律。",
+      "starter": "The",
+      "answer": "The family is dining on grilled fish and salad beside the lake.",
+      "answerZh": "一家人正在湖邊享用烤魚和沙律。",
+      "highlight": "dining on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Are you going to eat at a restaurant tonight?",
+      "promptZh": "你今晚會到餐廳吃飯嗎?",
+      "starter": "Are",
+      "answer": "Are you going to dine out tonight?",
+      "answerZh": "你今晚會外出到餐廳吃飯嗎?",
+      "highlight": "dine out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Ravi does not keep telling people about his brief radio interview.",
+      "promptZh": "Ravi 不會不斷向別人講述自己那次短暫的電台訪問。",
+      "starter": "Ravi",
+      "answer": "Ravi does not dine out on his brief radio interview.",
+      "answerZh": "Ravi 不會反覆談論自己那次短暫的電台訪問。",
+      "highlight": "dine out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Grace usually eats at restaurants on Saturday evenings.",
+      "promptZh": "Grace 通常在星期六晚上到餐廳吃飯。",
+      "starter": "Grace",
+      "answer": "Grace usually dines out on Saturday evenings.",
+      "answerZh": "Grace 通常在星期六晚上外出到餐廳吃飯。",
+      "highlight": "dines out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have eaten soup and fresh rolls here many times.",
+      "promptZh": "我們已經多次在這裏吃湯和新鮮麵包卷。",
+      "starter": "We",
+      "answer": "We have dined on soup and fresh rolls here many times.",
+      "answerZh": "我們已經多次在這裏享用湯和新鮮麵包卷。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo could tell people the story behind that photo for years.",
+      "promptZh": "Leo 可以把那張相片背後的故事講上多年。",
+      "starter": "Leo",
+      "answer": "Leo could dine out on the story behind that photo for years.",
+      "answerZh": "Leo 可以把那張相片背後的故事反覆講上多年。",
+      "highlight": "dine out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They will have dinner at a restaurant after the concert.",
+      "promptZh": "音樂會結束後,他們會到餐廳吃晚飯。",
+      "starter": "They",
+      "answer": "They will dine out after the concert.",
+      "answerZh": "音樂會結束後,他們會外出到餐廳吃飯。",
+      "highlight": "dine out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did the visitors eat local seafood at the harbour?",
+      "promptZh": "遊客是否在海港吃了當地海鮮?",
+      "starter": "Did",
+      "answer": "Did the visitors dine on local seafood at the harbour?",
+      "answerZh": "遊客是否在海港享用了當地海鮮?",
+      "highlight": "dine on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Our grandfather has told people the same story about meeting a famous chef for years.",
+      "promptZh": "我們的祖父多年來一直向別人講述他遇上一位著名廚師的故事。",
+      "starter": "Our",
+      "answer": "Our grandfather has dined out on having met a famous chef for years.",
+      "answerZh": "我們的祖父多年來一直反覆談論自己遇上一位著名廚師的經歷。",
+      "highlight": "dined out on having met",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The kitchen was being repaired. We ate at a nearby restaurant for three nights.",
+      "promptZh": "廚房正在維修。我們連續三晚都到附近的餐廳吃飯。",
+      "starter": "The",
+      "answer": "The kitchen was being repaired, so we dined out at a nearby restaurant for three nights.",
+      "answerZh": "廚房正在維修,所以我們連續三晚都到附近的餐廳吃飯。",
+      "highlight": "so",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The hotel guests wanted to eat fresh crab for dinner.",
+      "promptZh": "酒店住客想在晚餐吃新鮮蟹。",
+      "starter": "The",
+      "answer": "The hotel guests wanted to dine on fresh crab for dinner.",
+      "answerZh": "酒店住客想在晚餐享用新鮮蟹。",
+      "highlight": "dine on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Priya told everyone about her one-minute chat with an actor again and again for years.",
+      "promptZh": "Priya 多年來一再向大家講述她與一位演員交談一分鐘的經歷。",
+      "starter": "Priya",
+      "answer": "Priya dined out on it for years.",
+      "answerZh": "Priya 多年來一直反覆談論那次經歷。",
+      "highlight": "dined out on it",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Eating at restaurants can cost a lot in this city.",
+      "promptZh": "在這個城市,到餐廳吃飯可能很昂貴。",
+      "starter": "Dining",
+      "answer": "Dining out can cost a lot in this city.",
+      "answerZh": "在這個城市,外出到餐廳吃飯可能很昂貴。",
+      "highlight": "Dining out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The short meeting became a story that Omar repeated at every party.",
+      "promptZh": "那次短暫的會面成為 Omar 每次聚會都會重複講述的故事。",
+      "starter": "The",
+      "answer": "The short meeting became a story that Omar dined out on at every party.",
+      "answerZh": "那次短暫的會面成為 Omar 每次聚會都會反覆講述的故事。",
+      "highlight": "dined out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "While the adults were eating lamb and rice, the children played outside.",
+      "promptZh": "大人吃羊肉和米飯時,孩子們在外面玩耍。",
+      "starter": "While",
+      "answer": "While the adults were dining on lamb and rice, the children played outside.",
+      "answerZh": "大人享用羊肉和米飯時,孩子們在外面玩耍。",
+      "highlight": "dining on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We could eat at a restaurant if nobody wanted to cook.",
+      "promptZh": "如果沒有人想煮飯,我們可以到餐廳吃。",
+      "starter": "We",
+      "answer": "We could dine out if nobody wanted to cook.",
+      "answerZh": "如果沒有人想煮飯,我們可以外出到餐廳吃。",
+      "highlight": "dine out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "For months before the final, the coach had told people about meeting the champion.",
+      "promptZh": "決賽前的幾個月,教練一直向別人講述他遇上冠軍的故事。",
+      "starter": "For",
+      "answer": "For months before the final, the coach had dined out on meeting the champion.",
+      "answerZh": "決賽前的幾個月,教練一直反覆談論自己遇上冠軍的經歷。",
+      "highlight": "dined out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After they ate a large meal of beef and potatoes, the hikers rested.",
+      "promptZh": "遠足者吃了一大餐牛肉和薯仔後便休息。",
+      "starter": "After",
+      "answer": "After dining on a large meal of beef and potatoes, the hikers rested.",
+      "answerZh": "遠足者享用了一大餐牛肉和薯仔後便休息。",
+      "highlight": "dining on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Since nobody wants to cook, Nina and her friends are eating at a restaurant tonight.",
+      "promptZh": "既然沒有人想煮飯,Nina 和朋友今晚會到餐廳吃飯。",
+      "starter": "Since",
+      "answer": "Since nobody wants to cook, Nina and her friends are dining out tonight.",
+      "answerZh": "既然沒有人想煮飯,Nina 和朋友今晚會外出到餐廳吃飯。",
+      "highlight": "dining out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The menu was simple, but we ate freshly caught fish in the hotel restaurant.",
+      "promptZh": "餐單很簡單,但我們在酒店餐廳吃了新鮮捕獲的魚。",
+      "starter": "The",
+      "answer": "The menu was simple, but we dined on freshly caught fish in the hotel restaurant.",
+      "answerZh": "餐單很簡單,但我們在酒店餐廳享用了新鮮捕獲的魚。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the hotel served dinner, we chose a restaurant across the road.",
+      "promptZh": "雖然酒店有供應晚餐,我們仍選擇了馬路對面的餐廳。",
+      "starter": "Although",
+      "answer": "Although the hotel served dinner, we chose to dine out at a restaurant across the road.",
+      "answerZh": "雖然酒店有供應晚餐,我們仍選擇到馬路對面的餐廳用餐。",
+      "highlight": "to dine out at",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Aisha only spoke to the singer for a minute, but she told the story at every family meal.",
+      "promptZh": "Aisha 只跟那位歌手交談了一分鐘,但她在每次家庭聚餐都講述這段故事。",
+      "starter": "Aisha",
+      "answer": "Aisha dined out on her one-minute conversation with the singer at every family meal.",
+      "answerZh": "Aisha 在每次家庭聚餐都反覆談論她與那位歌手交談一分鐘的經歷。",
+      "highlight": "dined out on her one-minute conversation with",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The group did not go to a restaurant; they ate bread, olives and cheese in the garden.",
+      "promptZh": "那群人沒有到餐廳;他們在花園吃了麵包、橄欖和芝士。",
+      "starter": "The",
+      "answer": "The group dined on bread, olives and cheese in the garden.",
+      "answerZh": "那群人在花園享用了麵包、橄欖和芝士。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Because the flat had no cooker, Daniel ate every evening meal in a restaurant.",
+      "promptZh": "因為單位內沒有煮食爐,Daniel 每晚都在餐廳吃飯。",
+      "starter": "Because",
+      "answer": "Because the flat had no cooker, Daniel dined out every evening.",
+      "answerZh": "因為單位內沒有煮食爐,Daniel 每晚都外出到餐廳吃飯。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At the food festival, visitors ate dishes made with local vegetables.",
+      "promptZh": "在美食節上,遊客吃了以當地蔬菜製成的菜式。",
+      "starter": "At",
+      "answer": "At the food festival, visitors dined on dishes made with local vegetables.",
+      "answerZh": "在美食節上,遊客享用了以當地蔬菜製成的菜式。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At social events, she kept telling people that the article had mentioned her name once.",
+      "promptZh": "在社交場合,她不斷告訴別人那篇文章曾提及她的名字一次。",
+      "starter": "At",
+      "answer": "At social events, she dined out on the fact that the article had mentioned her name once.",
+      "answerZh": "在社交場合,她反覆談論自己只曾在那篇文章中被提及一次的事情。",
+      "highlight": "dined out on the fact",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Rather than cook after the late meeting, the team went to a restaurant.",
+      "promptZh": "團隊在很晚的會議後沒有煮飯,而是到餐廳吃。",
+      "starter": "Rather",
+      "answer": "Rather than cook after the late meeting, the team dined out.",
+      "answerZh": "團隊在很晚的會議後沒有煮飯,而是外出到餐廳吃。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "For the first course, everyone ate a cold soup made from tomatoes.",
+      "promptZh": "第一道菜,大家吃了一款用番茄製成的凍湯。",
+      "starter": "For",
+      "answer": "For the first course, everyone dined on a cold soup made from tomatoes.",
+      "answerZh": "第一道菜,大家享用了一款用番茄製成的凍湯。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Years later, Ken still told people that a famous player had once called him “sir”.",
+      "promptZh": "多年後,Ken 仍向別人講述一位著名球員曾稱他為「先生」的故事。",
+      "starter": "Years",
+      "answer": "Years later, Ken still dined out on the story of a famous player once calling him “sir”.",
+      "answerZh": "多年後,Ken 仍反覆講述一位著名球員曾稱他為「先生」的故事。",
+      "highlight": "dined out on the story of",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Clara had only been in the newspaper once, but she kept mentioning it whenever she met new people.",
+      "promptZh": "Clara 只在報章出現過一次,但每當遇到新朋友,她都會提起這件事。",
+      "starter": "Clara",
+      "answer": "Clara dined out on that one newspaper appearance whenever she met new people.",
+      "answerZh": "Clara 每次遇到新朋友,都會反覆談論自己那次在報章出現的經歷。",
+      "highlight": "dined out on that one",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After a long walk through the hills, the group ate hot stew and fresh bread at the inn.",
+      "promptZh": "在山中走了很久後,那群人在旅館吃了熱燉菜和新鮮麵包。",
+      "starter": "After",
+      "answer": "After a long walk through the hills, the group dined on hot stew and fresh bread at the inn.",
+      "answerZh": "在山中走了很久後,那群人在旅館享用了熱燉菜和新鮮麵包。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The children wanted pizza, so the family decided to have dinner at a restaurant instead of cooking.",
+      "promptZh": "孩子們想吃薄餅,所以一家人決定到餐廳吃晚飯,而不是自己煮。",
+      "starter": "The",
+      "answer": "The children wanted pizza, so the family decided to dine out instead of cooking.",
+      "answerZh": "孩子們想吃薄餅,所以一家人決定外出到餐廳吃飯,而不是自己煮。",
+      "highlight": "dine out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "For years, the manager told people about the time he sat next to a film star on a flight.",
+      "promptZh": "多年來,那位經理一直向別人講述自己曾在航班上坐在電影明星旁邊的故事。",
+      "starter": "For",
+      "answer": "For years, the manager dined out on the story of sitting next to a film star on a flight.",
+      "answerZh": "多年來,那位經理一直反覆講述自己曾在航班上坐在電影明星旁邊的故事。",
+      "highlight": "dined out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We had planned to cook, but after the power failed, we ate at a nearby restaurant.",
+      "promptZh": "我們原本打算煮飯,但停電後便到附近的餐廳吃。",
+      "starter": "We",
+      "answer": "We had planned to cook, but after the power failed, we dined out at a nearby restaurant.",
+      "answerZh": "我們原本打算煮飯,但停電後便到附近的餐廳用餐。",
+      "highlight": "dined out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the boat reached the island, the travellers ate fruit, rice and grilled chicken prepared by local families.",
+      "promptZh": "船到達小島後,旅客吃了當地家庭準備的水果、米飯和烤雞。",
+      "starter": "When",
+      "answer": "When the boat reached the island, the travellers dined on fruit, rice and grilled chicken prepared by local families.",
+      "answerZh": "船到達小島後,旅客享用了當地家庭準備的水果、米飯和烤雞。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For the rest of the year, he kept telling people that one teacher had called his drawing excellent.",
+      "promptZh": "在該學年的餘下時間,他一直向別人講述一位老師曾稱讚他的畫很出色。",
+      "starter": "For",
+      "answer": "For the rest of the year, he dined out on that teacher’s kind words about his drawing.",
+      "answerZh": "在該學年的餘下時間,他一直反覆談論那位老師對他的畫所作的稱讚。",
+      "highlight": "dined out on",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    },
+    {
+      "id": "phrasal-verb-122-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the train arrives too late for us to cook, shall we have dinner at a restaurant?",
+      "promptZh": "如果火車太遲到達,令我們沒有時間煮飯,我們要不要到餐廳吃?",
+      "starter": "If",
+      "answer": "If the train arrives too late for us to cook, shall we dine out?",
+      "answerZh": "如果火車太遲到達,令我們沒有時間煮飯,我們要不要外出到餐廳吃?",
+      "highlight": "dine out",
+      "targetForm": "dine out",
+      "targetMeaningZh": "外出到餐廳吃飯"
+    },
+    {
+      "id": "phrasal-verb-122-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "At the wedding, the guests ate duck, noodles and several kinds of seafood.",
+      "promptZh": "婚宴上,賓客吃了鴨肉、麵條和幾種海鮮。",
+      "starter": "At",
+      "answer": "At the wedding, the guests dined on duck, noodles and several kinds of seafood.",
+      "answerZh": "婚宴上,賓客享用了鴨肉、麵條和幾種海鮮。",
+      "highlight": "dined on",
+      "targetForm": "dine on something",
+      "targetMeaningZh": "享用某種食物;以某種食物作一餐"
+    },
+    {
+      "id": "phrasal-verb-122-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The club had won only one small match, yet its oldest members told the story whenever a new player joined.",
+      "promptZh": "那支球會只贏過一場小比賽,但每當有新球員加入,資深成員都會講述這段故事。",
+      "starter": "The",
+      "answer": "The club’s oldest members dined out on that one small win whenever a new player joined.",
+      "answerZh": "每當有新球員加入,球會的資深成員都會反覆談論那次小勝利。",
+      "highlight": "club’s oldest members dined out on that",
+      "targetForm": "dine out on something",
+      "targetMeaningZh": "反覆談論某段特別經歷或故事"
+    }
+  ]
+}

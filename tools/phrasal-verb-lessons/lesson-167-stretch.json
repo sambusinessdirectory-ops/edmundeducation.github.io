@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-167",
+  "order": 167,
+  "slug": "stretch",
+  "version": "1",
+  "title": "STRETCH 動詞片語",
+  "titleEn": "Stretch",
+  "titleZh": "STRETCH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 166 - STRETCH.pdf",
+    "sourceNumber": 166,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STRETCH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STRETCH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STRETCH",
+      "highlight": "STRETCH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The mountains stretched away into the distance.",
+      "zh": "群山向遠方延伸。",
+      "highlight": "stretched away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He stretched out on the floor and fell asleep.",
+      "zh": "他伸直身體躺在地板上,然後睡着了。",
+      "highlight": "stretched out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She stretched out a hand to touch his face.",
+      "zh": "她伸出一隻手,輕觸他的臉。",
+      "highlight": "stretched out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "向遠方延伸;延綿很遠；伸直身體躺下;舒展身體躺着；伸出或伸直身體某部分",
+    "en": "stretch away / stretch out; stretch out / stretch yourself out; stretch something out",
+    "naturalZh": [
+      "向遠方延伸;延綿很遠",
+      "伸直身體躺下;舒展身體躺着",
+      "伸出或伸直身體某部分"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "stretch away / stretch out",
+      "titleZh": "向遠方延伸;延綿很遠",
+      "titleEn": "stretch away / stretch out",
+      "descriptionZh": "向遠方延伸;延綿很遠",
+      "descriptionEn": "The mountains stretched away into the distance.",
+      "examples": [
+        {
+          "en": "The mountains stretched away into the distance.",
+          "zh": "群山向遠方延伸。",
+          "highlight": "stretched away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stretch out / stretch yourself out",
+      "titleZh": "伸直身體躺下;舒展身體躺着",
+      "titleEn": "stretch out / stretch yourself out",
+      "descriptionZh": "伸直身體躺下;舒展身體躺着",
+      "descriptionEn": "He stretched out on the floor and fell asleep.",
+      "examples": [
+        {
+          "en": "He stretched out on the floor and fell asleep.",
+          "zh": "他伸直身體躺在地板上,然後睡着了。",
+          "highlight": "stretched out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stretch something out",
+      "titleZh": "伸出或伸直身體某部分",
+      "titleEn": "stretch something out",
+      "descriptionZh": "伸出或伸直身體某部分",
+      "descriptionEn": "She stretched out a hand to touch his face.",
+      "examples": [
+        {
+          "en": "She stretched out a hand to touch his face.",
+          "zh": "她伸出一隻手,輕觸他的臉。",
+          "highlight": "stretched out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STRETCH 片語動詞的實際用途",
+    "labelEn": "STRETCH Phrasal Verbs in Use",
+    "summaryZh": "stretch away 和 stretch out 可以描寫群山、田野、道路和海灘向遠方延伸。；stretch out 可以表示伸直身體躺下休息。；stretch something out 可以描述伸出手、手臂、腿或身體其他部分。；stretch out 可以表示土地向遠方延伸,也可以表示一個人伸直身體躺下。完整情境會顯示所需意思。",
+    "summaryEn": "Stretch away and stretch out can describe mountains, fields, roads and beaches continuing far into the distance. Stretch out can describe lying down with your body fully extended. Stretch something out can describe extending a hand, arm, leg or other part of the body. Stretch out may describe land extending into the distance or a person lying down. The full situation shows the intended meaning.",
+    "contextsZh": [
+      "描寫廣闊景色和遙遠距離",
+      "談論舒展身體休息",
+      "清楚描述伸手和身體動作",
+      "按情境理解相同字詞的不同意思"
+    ],
+    "contextsEn": [
+      "Describe wide views and long distances",
+      "Talk about resting comfortably",
+      "Describe reaching and body movement clearly",
+      "Understand the same words in different situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STRETCH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STRETCH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "stretch away / stretch out",
+    "fixedHighlight": "stretch away / stretch out",
+    "fixedZh": "閱讀整句,選出意思相同的 STRETCH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STRETCH expression that gives the same meaning.",
+    "correct": "stretched away",
+    "incorrectForms": [],
+    "variableZh": "使用 stretch yourself out 時,請按人物改變 yourself:I stretched myself out.She stretched herself out.They stretched themselves out.；towards the sea、into the distance 和 for miles 等字詞只補充方向或距離,並非 stretch away 或stretch out 的固定部分。；在 stretch ... out 中使用 it 時,把 it 放在 stretch 和 out 中間:stretch it out",
+    "variableEn": "With stretch yourself out, change yourself to match the person: I stretched myself out. She stretched herself out. They stretched themselves out. Words such as towards the sea, into the distance and for miles add information about direction or distance. They are not fixed parts of stretch away or stretch out. When using it in a stretch... out expression, place it between stretch and out: stretch it out",
+    "variableItemsZh": [
+      "stretch away / stretch out",
+      "stretch out / stretch yourself out",
+      "stretch something out"
+    ],
+    "variableItemsEn": [
+      "stretch away / stretch out",
+      "stretch out / stretch yourself out",
+      "stretch something out"
+    ],
+    "forms": [
+      {
+        "formZh": "向遠方延伸;延綿很遠",
+        "formEn": "stretch away / stretch out",
+        "exampleZh": "群山向遠方延伸。",
+        "exampleEn": "The mountains stretched away into the distance.",
+        "highlight": "stretched away"
+      },
+      {
+        "formZh": "伸直身體躺下;舒展身體躺着",
+        "formEn": "stretch out / stretch yourself out",
+        "exampleZh": "他伸直身體躺在地板上,然後睡着了。",
+        "exampleEn": "He stretched out on the floor and fell asleep.",
+        "highlight": "stretched out"
+      },
+      {
+        "formZh": "伸出或伸直身體某部分",
+        "formEn": "stretch something out",
+        "exampleZh": "她伸出一隻手,輕觸他的臉。",
+        "exampleEn": "She stretched out a hand to touch his face.",
+        "highlight": "stretched out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "向遠方延伸;延綿很遠",
+      "titleEn": "stretch away / stretch out",
+      "formula": "stretch away / stretch out",
+      "highlight": "stretch away / stretch out",
+      "descriptionZh": "向遠方延伸;延綿很遠",
+      "descriptionEn": "The mountains stretched away into the distance.",
+      "examples": [
+        {
+          "en": "The mountains stretched away into the distance.",
+          "zh": "群山向遠方延伸。",
+          "highlight": "stretched away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "伸直身體躺下;舒展身體躺着",
+      "titleEn": "stretch out / stretch yourself out",
+      "formula": "stretch out / stretch yourself out",
+      "highlight": "stretch out / stretch yourself out",
+      "descriptionZh": "伸直身體躺下;舒展身體躺着",
+      "descriptionEn": "He stretched out on the floor and fell asleep.",
+      "examples": [
+        {
+          "en": "He stretched out on the floor and fell asleep.",
+          "zh": "他伸直身體躺在地板上,然後睡着了。",
+          "highlight": "stretched out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "伸出或伸直身體某部分",
+      "titleEn": "stretch something out",
+      "formula": "stretch something out",
+      "highlight": "stretch something out",
+      "descriptionZh": "伸出或伸直身體某部分",
+      "descriptionEn": "She stretched out a hand to touch his face.",
+      "examples": [
+        {
+          "en": "She stretched out a hand to touch his face.",
+          "zh": "她伸出一隻手,輕觸他的臉。",
+          "highlight": "stretched out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描寫廣闊景色和遙遠距離",
+      "titleEn": "Describe wide views and long distances",
+      "zh": "stretch away 和 stretch out 可以描寫群山、田野、道路和海灘向遠方延伸。",
+      "en": "Stretch away and stretch out can describe mountains, fields, roads and beaches continuing far into the distance."
+    },
+    {
+      "titleZh": "談論舒展身體休息",
+      "titleEn": "Talk about resting comfortably",
+      "zh": "stretch out 可以表示伸直身體躺下休息。",
+      "en": "Stretch out can describe lying down with your body fully extended."
+    },
+    {
+      "titleZh": "清楚描述伸手和身體動作",
+      "titleEn": "Describe reaching and body movement clearly",
+      "zh": "stretch something out 可以描述伸出手、手臂、腿或身體其他部分。",
+      "en": "Stretch something out can describe extending a hand, arm, leg or other part of the body."
+    },
+    {
+      "titleZh": "按情境理解相同字詞的不同意思",
+      "titleEn": "Understand the same words in different situations",
+      "zh": "stretch out 可以表示土地向遠方延伸,也可以表示一個人伸直身體躺下。完整情境會顯示所需意思。",
+      "en": "Stretch out may describe land extending into the distance or a person lying down. The full situation shows the intended meaning."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描寫廣闊景色和遙遠距離",
+      "談論舒展身體休息",
+      "清楚描述伸手和身體動作",
+      "按情境理解相同字詞的不同意思"
+    ],
+    "contextsEn": [
+      "Describe wide views and long distances",
+      "Talk about resting comfortably",
+      "Describe reaching and body movement clearly",
+      "Understand the same words in different situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描寫廣闊景色和遙遠距離",
+        "titleEn": "Describe wide views and long distances",
+        "zh": "stretch away 和 stretch out 可以描寫群山、田野、道路和海灘向遠方延伸。",
+        "en": "Stretch away and stretch out can describe mountains, fields, roads and beaches continuing far into the distance.",
+        "examples": [
+          {
+            "en": "The mountains stretched away into the distance.",
+            "zh": "群山向遠方延伸。",
+            "highlight": "stretched away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論舒展身體休息",
+        "titleEn": "Talk about resting comfortably",
+        "zh": "stretch out 可以表示伸直身體躺下休息。",
+        "en": "Stretch out can describe lying down with your body fully extended.",
+        "examples": [
+          {
+            "en": "He stretched out on the floor and fell asleep.",
+            "zh": "他伸直身體躺在地板上,然後睡着了。",
+            "highlight": "stretched out"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述伸手和身體動作",
+        "titleEn": "Describe reaching and body movement clearly",
+        "zh": "stretch something out 可以描述伸出手、手臂、腿或身體其他部分。",
+        "en": "Stretch something out can describe extending a hand, arm, leg or other part of the body.",
+        "examples": [
+          {
+            "en": "She stretched out a hand to touch his face.",
+            "zh": "她伸出一隻手,輕觸他的臉。",
+            "highlight": "stretched out"
+          }
+        ]
+      },
+      {
+        "titleZh": "按情境理解相同字詞的不同意思",
+        "titleEn": "Understand the same words in different situations",
+        "zh": "stretch out 可以表示土地向遠方延伸,也可以表示一個人伸直身體躺下。完整情境會顯示所需意思。",
+        "en": "Stretch out may describe land extending into the distance or a person lying down. The full situation shows the intended meaning.",
+        "examples": [
+          {
+            "en": "The mountains stretched away into the distance.",
+            "zh": "群山向遠方延伸。",
+            "highlight": "stretched away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STRETCH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STRETCH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STRETCH 片語動詞。",
+      "en": "Read the whole sentence and choose the STRETCH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "使用 stretch yourself out 時,請按人物改變 yourself:I stretched myself out.She stretched herself out.They stretched themselves out.",
+      "titleEn": "With stretch yourself out, change yourself to match the person: I stretched myself out.",
+      "zh": "使用 stretch yourself out 時,請按人物改變 yourself:I stretched myself out.She stretched herself out.They stretched themselves out.",
+      "en": "With stretch yourself out, change yourself to match the person: I stretched myself out. She stretched herself out. They stretched themselves out."
+    },
+    {
+      "titleZh": "towards the sea、into the distance 和 for miles 等字詞只補充方向或距離,並非 stretch away 或stretch out 的固定部分。",
+      "titleEn": "Words such as towards the sea, into the distance and for miles add information about direction or distance.",
+      "zh": "towards the sea、into the distance 和 for miles 等字詞只補充方向或距離,並非 stretch away 或stretch out 的固定部分。",
+      "en": "Words such as towards the sea, into the distance and for miles add information about direction or distance. They are not fixed parts of stretch away or stretch out."
+    },
+    {
+      "titleZh": "在 stretch ... out 中使用 it 時,把 it 放在 stretch 和 out 中間:stretch it out",
+      "titleEn": "When using it in a stretch.",
+      "zh": "在 stretch ... out 中使用 it 時,把 it 放在 stretch 和 out 中間:stretch it out",
+      "en": "When using it in a stretch... out expression, place it between stretch and out: stretch it out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STRETCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STRETCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STRETCH 動詞片語句子改寫練習",
+    "titleEn": "STRETCH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STRETCH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STRETCH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-167-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "She extended one hand towards the warm cup.",
+      "promptZh": "她把一隻手伸向那隻溫暖的杯子。",
+      "starter": "She",
+      "answer": "She stretched out one hand towards the warm cup.",
+      "answerZh": "她把一隻手伸向那隻溫暖的杯子。",
+      "highlight": "stretched out",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The green fields extended far towards the sea.",
+      "promptZh": "綠色田野一直延伸至遠處的海邊。",
+      "starter": "The",
+      "answer": "The green fields stretched away towards the sea.",
+      "answerZh": "綠色田野一直延伸至遠處的海邊。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo lay at full length on the sofa after lunch.",
+      "promptZh": "里奧午飯後伸直身體躺在梳化上。",
+      "starter": "Leo",
+      "answer": "Leo stretched out on the sofa after lunch.",
+      "answerZh": "里奧午飯後伸直身體躺在梳化上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The child extended both arms towards his father.",
+      "promptZh": "那個孩子向父親伸出雙臂。",
+      "starter": "The",
+      "answer": "The child stretched both arms out towards his father.",
+      "answerZh": "那個孩子向父親伸出雙臂。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "A long beach continued for miles on our left.",
+      "promptZh": "一片長長的海灘在我們左邊延綿數英里。",
+      "starter": "A",
+      "answer": "A long beach stretched out for miles on our left.",
+      "answerZh": "一片長長的海灘在我們左邊延綿數英里。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I extended my leg under the table.",
+      "promptZh": "我把腿伸到桌下。",
+      "starter": "I",
+      "answer": "I stretched my leg out under the table.",
+      "answerZh": "我把腿伸到桌下。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the walk, we lay at full length on the grass.",
+      "promptZh": "散步後,我們伸直身體躺在草地上。",
+      "starter": "After",
+      "answer": "After the walk, we stretched out on the grass.",
+      "answerZh": "散步後,我們伸直身體躺在草地上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The mountains continued far into the distance.",
+      "promptZh": "群山一直延伸至遠方。",
+      "starter": "The",
+      "answer": "The mountains stretched away into the distance.",
+      "answerZh": "群山一直延伸至遠方。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben extended his hand to take the ticket.",
+      "promptZh": "賓伸手接過門票。",
+      "starter": "Ben",
+      "answer": "Ben stretched out his hand to take the ticket.",
+      "answerZh": "賓伸手接過門票。",
+      "highlight": "stretched out",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Hana lay at full length beside the pool.",
+      "promptZh": "哈娜在泳池旁伸直身體躺下。",
+      "starter": "Hana",
+      "answer": "Hana stretched herself out beside the pool.",
+      "answerZh": "哈娜在泳池旁伸直身體躺下。",
+      "highlight": "stretched herself out",
+      "targetForm": "stretch yourself out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad is lying at full length on the bed now.",
+      "promptZh": "爸爸現在正伸直身體躺在床上。",
+      "starter": "Dad",
+      "answer": "Dad is stretched out on the bed now.",
+      "answerZh": "爸爸現在正伸直身體躺在床上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The road extends far beyond the last house.",
+      "promptZh": "這條路越過最後一間屋後,仍向遠方延伸。",
+      "starter": "The",
+      "answer": "The road stretches away beyond the last house.",
+      "answerZh": "這條路越過最後一間屋後,仍向遠方延伸。",
+      "highlight": "stretches away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did Sara extend her hand towards the button?",
+      "promptZh": "莎拉為何把手伸向按鈕?",
+      "starter": "Why",
+      "answer": "Why did Sara stretch her hand out towards the button?",
+      "answerZh": "莎拉為何把手伸向按鈕?",
+      "highlight": "stretch",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We decided to lie at full length in the shade.",
+      "promptZh": "我們決定伸直身體躺在陰涼處。",
+      "starter": "We",
+      "answer": "We decided to stretch out in the shade.",
+      "answerZh": "我們決定伸直身體躺在陰涼處。",
+      "highlight": "stretch out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The dancer is extending one leg behind her.",
+      "promptZh": "那名舞蹈員正把一條腿向後伸直。",
+      "starter": "The",
+      "answer": "The dancer is stretching one leg out behind her.",
+      "answerZh": "那名舞蹈員正把一條腿向後伸直。",
+      "highlight": "stretching",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "From the hill, the forest extends as far as the eye can see.",
+      "promptZh": "從山上望去,森林一直延伸至視線盡頭。",
+      "starter": "From",
+      "answer": "From the hill, the forest stretches out as far as the eye can see.",
+      "answerZh": "從山上望去,森林一直延伸至視線盡頭。",
+      "highlight": "stretches out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Do not lie at full length across the whole bench.",
+      "promptZh": "不要伸直身體橫躺在整張長椅上。",
+      "starter": "Do",
+      "answer": "Do not stretch out across the whole bench.",
+      "answerZh": "不要伸直身體橫躺在整張長椅上。",
+      "highlight": "stretch out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "In winter, the empty road extends far ahead of us.",
+      "promptZh": "冬天時,空蕩蕩的道路在我們前方一直延伸至遠處。",
+      "starter": "In",
+      "answer": "In winter, the empty road stretches away ahead of us.",
+      "answerZh": "冬天時,空蕩蕩的道路在我們前方一直延伸至遠處。",
+      "highlight": "stretches away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "My right arm was next to the wall, so I could not fully extend it.",
+      "promptZh": "我的右臂貼近牆壁,所以無法完全伸直。",
+      "starter": "My",
+      "answer": "My right arm was next to the wall, so I could not stretch it out fully.",
+      "answerZh": "我的右臂貼近牆壁,所以無法完全伸直。",
+      "highlight": "stretch it out",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will you lie at full length on the mat for a minute?",
+      "promptZh": "你可以在地墊上伸直身體躺一分鐘嗎?",
+      "starter": "Will",
+      "answer": "Will you stretch out on the mat for a minute?",
+      "answerZh": "你可以在地墊上伸直身體躺一分鐘嗎?",
+      "highlight": "stretch out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The railway passed through the valley and continued far beyond the village.",
+      "promptZh": "鐵路穿過山谷,並一直延伸至村莊以外的遠處。",
+      "starter": "The",
+      "answer": "The railway passed through the valley and stretched away beyond the village.",
+      "answerZh": "鐵路穿過山谷,並一直延伸至村莊以外的遠處。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "My left leg felt stiff. The doctor asked me to extend it slowly.",
+      "promptZh": "我的左腿很僵硬。醫生叫我慢慢把它伸直。",
+      "starter": "My",
+      "answer": "My left leg felt stiff. The doctor asked me to stretch it out slowly.",
+      "answerZh": "我的左腿很僵硬。醫生叫我慢慢把它伸直。",
+      "highlight": "stretch",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The twins lay at full length on the rug.",
+      "promptZh": "那對雙胞胎伸直身體躺在地氈上。",
+      "starter": "The",
+      "answer": "The twins stretched themselves out on the rug.",
+      "answerZh": "那對雙胞胎伸直身體躺在地氈上。",
+      "highlight": "stretched themselves out",
+      "targetForm": "stretch yourself out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Behind the hotel, the gardens continued all the way to the lake.",
+      "promptZh": "酒店後面的花園一直延伸至湖邊。",
+      "starter": "Behind",
+      "answer": "Behind the hotel, the gardens stretched out all the way to the lake.",
+      "answerZh": "酒店後面的花園一直延伸至湖邊。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Tired after the journey, she lay at full length on the bed.",
+      "promptZh": "旅程後她感到疲倦,於是伸直身體躺在床上。",
+      "starter": "Tired",
+      "answer": "Tired after the journey, she stretched out on the bed.",
+      "answerZh": "旅程後她感到疲倦,於是伸直身體躺在床上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The boy extended his muddy hand towards the clean towel.",
+      "promptZh": "那個男孩把沾滿泥土的手伸向乾淨的毛巾。",
+      "starter": "The",
+      "answer": "The boy stretched out his muddy hand towards the clean towel.",
+      "answerZh": "那個男孩把沾滿泥土的手伸向乾淨的毛巾。",
+      "highlight": "stretched out",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "From our window, the city lights continued far across the plain.",
+      "promptZh": "從窗口望出去,城市燈光在平原上一直延伸至遠處。",
+      "starter": "From",
+      "answer": "From our window, the city lights stretched out far across the plain.",
+      "answerZh": "從窗口望出去,城市燈光在平原上一直延伸至遠處。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "His arm was extended across the back of the chair.",
+      "promptZh": "他的手臂伸展在椅背上。",
+      "starter": "His",
+      "answer": "His arm was stretched out across the back of the chair.",
+      "answerZh": "他的手臂伸展在椅背上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I lay at full length on the floor before the call came.",
+      "promptZh": "電話打來前,我伸直身體躺在地板上。",
+      "starter": "I",
+      "answer": "I stretched out on the floor before the call came.",
+      "answerZh": "電話打來前,我伸直身體躺在地板上。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The white cliffs continued in a long line along the coast.",
+      "promptZh": "白色峭壁沿着海岸延綿成一條長線。",
+      "starter": "The",
+      "answer": "The white cliffs stretched away in a long line along the coast.",
+      "answerZh": "白色峭壁沿着海岸延綿成一條長線。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "To reach the top shelf, Nora extended both arms as far as she could.",
+      "promptZh": "為了拿到最上層架子上的物品,諾拉盡量伸出雙臂。",
+      "starter": "To",
+      "answer": "To reach the top shelf, Nora stretched both arms out as far as she could.",
+      "answerZh": "為了拿到最上層架子上的物品,諾拉盡量伸出雙臂。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The cat did not move towards the toy; it simply lay at full length in the sun.",
+      "promptZh": "那隻貓沒有走向玩具;牠只是在陽光下伸直身體躺着。",
+      "starter": "The",
+      "answer": "The cat did not move towards the toy; it simply stretched out in the sun.",
+      "answerZh": "那隻貓沒有走向玩具;牠只是在陽光下伸直身體躺着。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "No houses blocked the view, and the flat land continued for many miles.",
+      "promptZh": "沒有房屋阻擋視線,平坦的土地延綿數英里。",
+      "starter": "No",
+      "answer": "No houses blocked the view, and the flat land stretched away for many miles.",
+      "answerZh": "沒有房屋阻擋視線,平坦的土地延綿數英里。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The room was crowded, so Arun could not lie at full length.",
+      "promptZh": "房間十分擠迫,所以阿倫無法伸直身體躺下。",
+      "starter": "The",
+      "answer": "The room was crowded, so Arun could not stretch out.",
+      "answerZh": "房間十分擠迫,所以阿倫無法伸直身體躺下。",
+      "highlight": "stretch out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The baby saw the toy and extended one foot towards it.",
+      "promptZh": "嬰兒看見玩具,便把一隻腳伸向它。",
+      "starter": "The",
+      "answer": "The baby saw the toy and stretched one foot out towards it.",
+      "answerZh": "嬰兒看見玩具,便把一隻腳伸向它。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Beyond the bridge, a line of trees continued towards the hills.",
+      "promptZh": "大橋後面的一排樹木一直延伸至山丘。",
+      "starter": "Beyond",
+      "answer": "Beyond the bridge, a line of trees stretched out towards the hills.",
+      "answerZh": "大橋後面的一排樹木一直延伸至山丘。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Rather than sitting in the chair, Eva lay at full length on the carpet.",
+      "promptZh": "伊娃沒有坐在椅子上,而是伸直身體躺在地氈上。",
+      "starter": "Rather",
+      "answer": "Rather than sitting in the chair, Eva stretched herself out on the carpet.",
+      "answerZh": "伊娃沒有坐在椅子上,而是伸直身體躺在地氈上。",
+      "highlight": "stretched herself out",
+      "targetForm": "stretch yourself out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The sleeve was too short, so he extended his arm to show the problem.",
+      "promptZh": "衣袖太短,所以他伸出手臂,讓別人看見問題。",
+      "starter": "The",
+      "answer": "The sleeve was too short, so he stretched his arm out to show the problem.",
+      "answerZh": "衣袖太短,所以他伸出手臂,讓別人看見問題。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The river continued through the empty land until it disappeared from view.",
+      "promptZh": "河流穿過空曠的土地,一直延伸至視線之外。",
+      "starter": "The",
+      "answer": "The river stretched away through the empty land until it disappeared from view.",
+      "answerZh": "河流穿過空曠的土地,一直延伸至視線之外。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The dog lay at full length beside the door before we arrived.",
+      "promptZh": "我們到達前,那隻狗已伸直身體躺在門旁。",
+      "starter": "The",
+      "answer": "The dog stretched out beside the door before we arrived.",
+      "answerZh": "我們到達前,那隻狗已伸直身體躺在門旁。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After everyone left, Tom lay at full length on the empty sofa to rest.",
+      "promptZh": "所有人離開後,湯姆伸直身體躺在空梳化上休息。",
+      "starter": "After",
+      "answer": "After everyone left, Tom stretched out on the empty sofa to rest.",
+      "answerZh": "所有人離開後,湯姆伸直身體躺在空梳化上休息。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The bus had stopped, and Priya extended one arm through the open window to wave.",
+      "promptZh": "巴士停下來後,普里雅把一隻手臂伸出窗外揮手。",
+      "starter": "The",
+      "answer": "The bus had stopped, and Priya stretched one arm out through the open window to wave.",
+      "answerZh": "巴士停下來後,普里雅把一隻手臂伸出窗外揮手。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "From the tower, we could see farmland continuing in every direction beyond the town.",
+      "promptZh": "從塔上望去,我們看見農田在城鎮外向各個方向延伸。",
+      "starter": "From",
+      "answer": "From the tower, we could see farmland stretching out in every direction beyond the town.",
+      "answerZh": "從塔上望去,我們看見農田在城鎮外向各個方向延伸。",
+      "highlight": "stretching out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Her keys had fallen behind the desk, so she extended her hand into the narrow space.",
+      "promptZh": "她的鎖匙掉到書桌後面,所以她把手伸進狹窄的空間。",
+      "starter": "Her",
+      "answer": "Her keys had fallen behind the desk, so she stretched her hand out into the narrow space.",
+      "answerZh": "她的鎖匙掉到書桌後面,所以她把手伸進狹窄的空間。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "There was no room in the tent, so we could not lie at full length.",
+      "promptZh": "帳篷內沒有足夠空間,所以我們無法伸直身體躺下。",
+      "starter": "There",
+      "answer": "There was no room in the tent, so we could not stretch out.",
+      "answerZh": "帳篷內沒有足夠空間,所以我們無法伸直身體躺下。",
+      "highlight": "stretch out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The path left the village and continued across open land towards the dark hills.",
+      "promptZh": "小路離開村莊後,穿過空曠土地,一直延伸至深色的山丘。",
+      "starter": "The",
+      "answer": "The path left the village and stretched away across open land towards the dark hills.",
+      "answerZh": "小路離開村莊後,穿過空曠土地,一直延伸至深色的山丘。",
+      "highlight": "stretched away",
+      "targetForm": "stretch away",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The coach asked Liam to extend both legs in front of him and keep them straight.",
+      "promptZh": "教練叫利安把雙腿向前伸直,並保持筆直。",
+      "starter": "The",
+      "answer": "The coach asked Liam to stretch both legs out in front of him and keep them straight.",
+      "answerZh": "教練叫利安把雙腿向前伸直,並保持筆直。",
+      "highlight": "stretch",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    },
+    {
+      "id": "phrasal-verb-167-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As the train climbed higher, wide valleys continued below us towards the sea.",
+      "promptZh": "火車愈爬愈高時,廣闊山谷在我們下方向海邊延伸。",
+      "starter": "As",
+      "answer": "As the train climbed higher, wide valleys stretched out below us towards the sea.",
+      "answerZh": "火車愈爬愈高時,廣闊山谷在我們下方向海邊延伸。",
+      "highlight": "stretched out",
+      "targetForm": "stretch out",
+      "targetMeaningZh": "向遠方延伸;延綿很遠"
+    },
+    {
+      "id": "phrasal-verb-167-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "While the car was parked, she lay at full length across the back seat after the long wait.",
+      "promptZh": "汽車停泊期間,經過漫長等候後,她伸直身體躺在後座上。",
+      "starter": "While",
+      "answer": "While the car was parked, she stretched herself out across the back seat after the long wait.",
+      "answerZh": "汽車停泊期間,經過漫長等候後,她伸直身體躺在後座上。",
+      "highlight": "stretched herself out",
+      "targetForm": "stretch yourself out",
+      "targetMeaningZh": "伸直身體躺下"
+    },
+    {
+      "id": "phrasal-verb-167-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I could just reach the light switch, so I extended my fingers as far as possible.",
+      "promptZh": "我勉強能碰到電燈開關,所以把手指盡量伸出去。",
+      "starter": "I",
+      "answer": "I could just reach the light switch, so I stretched my fingers out as far as possible.",
+      "answerZh": "我勉強能碰到電燈開關,所以把手指盡量伸出去。",
+      "highlight": "stretched",
+      "targetForm": "stretch something out",
+      "targetMeaningZh": "伸出或伸直身體某部分"
+    }
+  ]
+}

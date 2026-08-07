@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-297",
+  "order": 297,
+  "slug": "slip",
+  "version": "1",
+  "title": "SLIP 動詞片語",
+  "titleEn": "Slip",
+  "titleZh": "SLIP 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 282 - SLIP.pdf",
+    "sourceNumber": 282,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SLIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SLIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SLIP",
+      "highlight": "SLIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Lena slipped away before the meeting ended.",
+      "zh": "莉娜在會議結束前悄悄離開了。",
+      "highlight": "slipped away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Sam slipped his shoes off by the door.",
+      "zh": "森在門邊迅速脫下鞋子。)Eva slipped out of her wet coat.(伊娃迅速脫下濕外套。",
+      "highlight": "slipped his shoes off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I slipped my coat on before leaving.",
+      "zh": "我離開前迅速穿上外套。",
+      "highlight": "slipped my coat on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "悄悄離開,不讓別人注意到；迅速而輕鬆地脫下衣物、鞋子或飾物；迅速而輕鬆地穿上衣物；因腳下打滑而跌倒",
+    "en": "slip away; slip something off / slip out of something; slip something on; slip over",
+    "naturalZh": [
+      "悄悄離開,不讓別人注意到",
+      "迅速而輕鬆地脫下衣物、鞋子或飾物",
+      "迅速而輕鬆地穿上衣物",
+      "因腳下打滑而跌倒"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "slip away",
+      "titleZh": "悄悄離開,不讓別人注意到",
+      "titleEn": "slip away",
+      "descriptionZh": "悄悄離開,不讓別人注意到",
+      "descriptionEn": "Lena slipped away before the meeting ended.",
+      "examples": [
+        {
+          "en": "Lena slipped away before the meeting ended.",
+          "zh": "莉娜在會議結束前悄悄離開了。",
+          "highlight": "slipped away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slip something off / slip out of something",
+      "titleZh": "迅速而輕鬆地脫下衣物、鞋子或飾物",
+      "titleEn": "slip something off / slip out of something",
+      "descriptionZh": "迅速而輕鬆地脫下衣物、鞋子或飾物",
+      "descriptionEn": "Sam slipped his shoes off by the door.",
+      "examples": [
+        {
+          "en": "Sam slipped his shoes off by the door.",
+          "zh": "森在門邊迅速脫下鞋子。)Eva slipped out of her wet coat.(伊娃迅速脫下濕外套。",
+          "highlight": "slipped his shoes off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slip something on",
+      "titleZh": "迅速而輕鬆地穿上衣物",
+      "titleEn": "slip something on",
+      "descriptionZh": "迅速而輕鬆地穿上衣物",
+      "descriptionEn": "I slipped my coat on before leaving.",
+      "examples": [
+        {
+          "en": "I slipped my coat on before leaving.",
+          "zh": "我離開前迅速穿上外套。",
+          "highlight": "slipped my coat on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "slip over",
+      "titleZh": "因腳下打滑而跌倒",
+      "titleEn": "slip over",
+      "descriptionZh": "因腳下打滑而跌倒",
+      "descriptionEn": "Ben slipped over on the wet floor.",
+      "examples": [
+        {
+          "en": "Ben slipped over on the wet floor.",
+          "zh": "賓在濕滑的地面上滑倒了。",
+          "highlight": "slipped over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SLIP 片語動詞的實際用途",
+    "labelEn": "SLIP Phrasal Verbs in Use",
+    "summaryZh": "slip away 可以表示某人悄悄離開會議、派對或房間,而沒有引起別人注意。；slip something on、slip something off 和 slip out of something 可以自然地描述迅速而輕鬆地穿上或脫下衣物。；slip over 可以清楚直接地描述某人因地面、道路或小徑濕滑、結冰或有泥濘而滑倒。；slip away 表示離開;slip on 和 slip off 與衣物有關;slip over 則表示滑倒。",
+    "summaryEn": "Slip away is useful when somebody leaves a meeting, party or room quietly and without attracting attention. Slip something on, slip something off and slip out of something are natural ways to describe putting on or removing clothes quickly and easily. Slip over gives a clear and direct way to describe somebody falling because a floor, road or path is wet, icy or muddy. Slip away describes leaving, slip on and slip off describe clothes, and slip over describes falling.",
+    "contextsZh": [
+      "在不打擾別人的情況下悄悄離開",
+      "自然描述迅速穿脫衣物",
+      "清楚描述日常意外",
+      "理解不同字詞如何改變動作"
+    ],
+    "contextsEn": [
+      "Leave quietly without interrupting other people",
+      "Describe quick clothing changes naturally",
+      "Describe everyday accidents clearly",
+      "Recognise how different particles change the action"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SLIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SLIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "slip away",
+    "fixedHighlight": "slip away",
+    "fixedZh": "閱讀整句,選出意思相同的 SLIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SLIP expression that gives the same meaning.",
+    "correct": "slipped away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；快速脫下衣物時,有兩種常見表達方法:slip your shoes offslip out of your coat；在 slip ... on/off 中使用 it 或 them 時,把它放在 SLIP 和 ON/OFF 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. There are two common ways to talk about quickly removing clothes: slip your shoes off slip out of your coat When using it or them with slip... on/off, place the word between SLIP and ON/OFF: slip it on slip them off",
+    "variableItemsZh": [
+      "slip away",
+      "slip something off / slip out of something",
+      "slip something on",
+      "slip over"
+    ],
+    "variableItemsEn": [
+      "slip away",
+      "slip something off / slip out of something",
+      "slip something on",
+      "slip over"
+    ],
+    "forms": [
+      {
+        "formZh": "悄悄離開,不讓別人注意到",
+        "formEn": "slip away",
+        "exampleZh": "莉娜在會議結束前悄悄離開了。",
+        "exampleEn": "Lena slipped away before the meeting ended.",
+        "highlight": "slipped away"
+      },
+      {
+        "formZh": "迅速而輕鬆地脫下衣物、鞋子或飾物",
+        "formEn": "slip something off / slip out of something",
+        "exampleZh": "森在門邊迅速脫下鞋子。)Eva slipped out of her wet coat.(伊娃迅速脫下濕外套。",
+        "exampleEn": "Sam slipped his shoes off by the door.",
+        "highlight": "slipped his shoes off"
+      },
+      {
+        "formZh": "迅速而輕鬆地穿上衣物",
+        "formEn": "slip something on",
+        "exampleZh": "我離開前迅速穿上外套。",
+        "exampleEn": "I slipped my coat on before leaving.",
+        "highlight": "slipped my coat on"
+      },
+      {
+        "formZh": "因腳下打滑而跌倒",
+        "formEn": "slip over",
+        "exampleZh": "賓在濕滑的地面上滑倒了。",
+        "exampleEn": "Ben slipped over on the wet floor.",
+        "highlight": "slipped over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "悄悄離開,不讓別人注意到",
+      "titleEn": "slip away",
+      "formula": "slip away",
+      "highlight": "slip away",
+      "descriptionZh": "悄悄離開,不讓別人注意到",
+      "descriptionEn": "Lena slipped away before the meeting ended.",
+      "examples": [
+        {
+          "en": "Lena slipped away before the meeting ended.",
+          "zh": "莉娜在會議結束前悄悄離開了。",
+          "highlight": "slipped away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "迅速而輕鬆地脫下衣物、鞋子或飾物",
+      "titleEn": "slip something off / slip out of something",
+      "formula": "slip something off / slip out of something",
+      "highlight": "slip something off / slip out of something",
+      "descriptionZh": "迅速而輕鬆地脫下衣物、鞋子或飾物",
+      "descriptionEn": "Sam slipped his shoes off by the door.",
+      "examples": [
+        {
+          "en": "Sam slipped his shoes off by the door.",
+          "zh": "森在門邊迅速脫下鞋子。)Eva slipped out of her wet coat.(伊娃迅速脫下濕外套。",
+          "highlight": "slipped his shoes off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "迅速而輕鬆地穿上衣物",
+      "titleEn": "slip something on",
+      "formula": "slip something on",
+      "highlight": "slip something on",
+      "descriptionZh": "迅速而輕鬆地穿上衣物",
+      "descriptionEn": "I slipped my coat on before leaving.",
+      "examples": [
+        {
+          "en": "I slipped my coat on before leaving.",
+          "zh": "我離開前迅速穿上外套。",
+          "highlight": "slipped my coat on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "因腳下打滑而跌倒",
+      "titleEn": "slip over",
+      "formula": "slip over",
+      "highlight": "slip over",
+      "descriptionZh": "因腳下打滑而跌倒",
+      "descriptionEn": "Ben slipped over on the wet floor.",
+      "examples": [
+        {
+          "en": "Ben slipped over on the wet floor.",
+          "zh": "賓在濕滑的地面上滑倒了。",
+          "highlight": "slipped over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "在不打擾別人的情況下悄悄離開",
+      "titleEn": "Leave quietly without interrupting other people",
+      "zh": "slip away 可以表示某人悄悄離開會議、派對或房間,而沒有引起別人注意。",
+      "en": "Slip away is useful when somebody leaves a meeting, party or room quietly and without attracting attention."
+    },
+    {
+      "titleZh": "自然描述迅速穿脫衣物",
+      "titleEn": "Describe quick clothing changes naturally",
+      "zh": "slip something on、slip something off 和 slip out of something 可以自然地描述迅速而輕鬆地穿上或脫下衣物。",
+      "en": "Slip something on, slip something off and slip out of something are natural ways to describe putting on or removing clothes quickly and easily."
+    },
+    {
+      "titleZh": "清楚描述日常意外",
+      "titleEn": "Describe everyday accidents clearly",
+      "zh": "slip over 可以清楚直接地描述某人因地面、道路或小徑濕滑、結冰或有泥濘而滑倒。",
+      "en": "Slip over gives a clear and direct way to describe somebody falling because a floor, road or path is wet, icy or muddy."
+    },
+    {
+      "titleZh": "理解不同字詞如何改變動作",
+      "titleEn": "Recognise how different particles change the action",
+      "zh": "slip away 表示離開;slip on 和 slip off 與衣物有關;slip over 則表示滑倒。",
+      "en": "Slip away describes leaving, slip on and slip off describe clothes, and slip over describes falling."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "在不打擾別人的情況下悄悄離開",
+      "自然描述迅速穿脫衣物",
+      "清楚描述日常意外",
+      "理解不同字詞如何改變動作"
+    ],
+    "contextsEn": [
+      "Leave quietly without interrupting other people",
+      "Describe quick clothing changes naturally",
+      "Describe everyday accidents clearly",
+      "Recognise how different particles change the action"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "在不打擾別人的情況下悄悄離開",
+        "titleEn": "Leave quietly without interrupting other people",
+        "zh": "slip away 可以表示某人悄悄離開會議、派對或房間,而沒有引起別人注意。",
+        "en": "Slip away is useful when somebody leaves a meeting, party or room quietly and without attracting attention.",
+        "examples": [
+          {
+            "en": "Lena slipped away before the meeting ended.",
+            "zh": "莉娜在會議結束前悄悄離開了。",
+            "highlight": "slipped away"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述迅速穿脫衣物",
+        "titleEn": "Describe quick clothing changes naturally",
+        "zh": "slip something on、slip something off 和 slip out of something 可以自然地描述迅速而輕鬆地穿上或脫下衣物。",
+        "en": "Slip something on, slip something off and slip out of something are natural ways to describe putting on or removing clothes quickly and easily.",
+        "examples": [
+          {
+            "en": "Sam slipped his shoes off by the door.",
+            "zh": "森在門邊迅速脫下鞋子。)Eva slipped out of her wet coat.(伊娃迅速脫下濕外套。",
+            "highlight": "slipped his shoes off"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述日常意外",
+        "titleEn": "Describe everyday accidents clearly",
+        "zh": "slip over 可以清楚直接地描述某人因地面、道路或小徑濕滑、結冰或有泥濘而滑倒。",
+        "en": "Slip over gives a clear and direct way to describe somebody falling because a floor, road or path is wet, icy or muddy.",
+        "examples": [
+          {
+            "en": "I slipped my coat on before leaving.",
+            "zh": "我離開前迅速穿上外套。",
+            "highlight": "slipped my coat on"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解不同字詞如何改變動作",
+        "titleEn": "Recognise how different particles change the action",
+        "zh": "slip away 表示離開;slip on 和 slip off 與衣物有關;slip over 則表示滑倒。",
+        "en": "Slip away describes leaving, slip on and slip off describe clothes, and slip over describes falling.",
+        "examples": [
+          {
+            "en": "Ben slipped over on the wet floor.",
+            "zh": "賓在濕滑的地面上滑倒了。",
+            "highlight": "slipped over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SLIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SLIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SLIP 片語動詞。",
+      "en": "Read the whole sentence and choose the SLIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "快速脫下衣物時,有兩種常見表達方法:slip your shoes offslip out of your coat",
+      "titleEn": "There are two common ways to talk about quickly removing clothes: slip your shoes off slip out of your coat.",
+      "zh": "快速脫下衣物時,有兩種常見表達方法:slip your shoes offslip out of your coat",
+      "en": "There are two common ways to talk about quickly removing clothes: slip your shoes off slip out of your coat"
+    },
+    {
+      "titleZh": "在 slip ... on/off 中使用 it 或 them 時,把它放在 SLIP 和 ON/OFF 中間。",
+      "titleEn": "When using it or them with slip.",
+      "zh": "在 slip ... on/off 中使用 it 或 them 時,把它放在 SLIP 和 ON/OFF 中間。",
+      "en": "When using it or them with slip... on/off, place the word between SLIP and ON/OFF: slip it on slip them off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SLIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SLIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SLIP 動詞片語句子改寫練習",
+    "titleEn": "SLIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SLIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SLIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-297-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ben lost his footing and fell on the wet floor.",
+      "promptZh": "賓在濕滑的地面上失去平衡,跌倒了。",
+      "starter": "Ben",
+      "answer": "Ben slipped over on the wet floor.",
+      "answerZh": "賓在濕滑的地面上滑倒了。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Lena left quietly before the meeting ended, and nobody noticed.",
+      "promptZh": "莉娜在會議結束前悄悄離開了,沒有人注意到。",
+      "starter": "Lena",
+      "answer": "Lena slipped away before the meeting ended, and nobody noticed.",
+      "answerZh": "莉娜在會議結束前悄悄離開了,沒有人注意到。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I quickly put my coat on before leaving.",
+      "promptZh": "我離開前迅速穿上外套。",
+      "starter": "I",
+      "answer": "I slipped my coat on before leaving.",
+      "answerZh": "我離開前迅速穿上外套。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam quickly removed his shoes by the door.",
+      "promptZh": "森在門邊迅速脫下鞋子。",
+      "starter": "Sam",
+      "answer": "Sam slipped his shoes off by the door.",
+      "answerZh": "森在門邊迅速脫下鞋子。",
+      "highlight": "slipped",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速脫下衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-297-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child quietly left while his parents were talking.",
+      "promptZh": "父母交談時,那個孩子悄悄離開了。",
+      "starter": "The",
+      "answer": "The child slipped away while his parents were talking.",
+      "answerZh": "父母交談時,那個孩子悄悄離開了。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The runner lost her footing and fell near the finish line.",
+      "promptZh": "那名跑手在終點附近失去平衡,跌倒了。",
+      "starter": "The",
+      "answer": "The runner slipped over near the finish line.",
+      "answerZh": "那名跑手在終點附近滑倒了。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She quickly removed her wet dress before entering the shower.",
+      "promptZh": "她進入淋浴間前迅速脫下濕裙子。",
+      "starter": "She",
+      "answer": "She slipped out of her wet dress before entering the shower.",
+      "answerZh": "她進入淋浴間前迅速脫下濕裙子。",
+      "highlight": "slipped out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "She quickly put her shoes on and ran outside.",
+      "promptZh": "她迅速穿上鞋子,然後跑到外面。",
+      "starter": "She",
+      "answer": "She slipped her shoes on and ran outside.",
+      "answerZh": "她迅速穿上鞋子,然後跑到外面。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-297-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I quietly left for the library during the break.",
+      "promptZh": "小息期間,我悄悄離開,前往圖書館。",
+      "starter": "I",
+      "answer": "I slipped away to the library during the break.",
+      "answerZh": "小息期間,我悄悄離開,前往圖書館。",
+      "highlight": "slipped away to",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I quickly removed my gloves and put them in my bag.",
+      "promptZh": "我迅速脫下手套,並把它們放進袋中。",
+      "starter": "I",
+      "answer": "I slipped my gloves off and put them in my bag.",
+      "answerZh": "我迅速脫下手套,並把它們放進袋中。",
+      "highlight": "slipped",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The child quickly removed his school uniform after getting home.",
+      "promptZh": "那個孩子回家後迅速脫下校服。",
+      "starter": "The",
+      "answer": "The child slipped out of his school uniform after getting home.",
+      "answerZh": "那個孩子回家後迅速脫下校服。",
+      "highlight": "slipped out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah quickly put his gloves on at the bus stop.",
+      "promptZh": "諾亞在巴士站迅速戴上手套。",
+      "starter": "Noah",
+      "answer": "Noah slipped his gloves on at the bus stop.",
+      "answerZh": "諾亞在巴士站迅速戴上手套。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I nearly lost my footing and fell on the icy steps.",
+      "promptZh": "我差點在結冰的梯級上失去平衡而跌倒。",
+      "starter": "I",
+      "answer": "I nearly slipped over on the icy steps.",
+      "answerZh": "我差點在結冰的梯級上滑倒。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did Noah leave quietly before dessert?",
+      "promptZh": "諾亞為何在甜品送上前悄悄離開?",
+      "starter": "Why",
+      "answer": "Why did Noah slip away before dessert?",
+      "answerZh": "諾亞為何在甜品送上前悄悄離開?",
+      "highlight": "slip away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Please quickly remove your coat and sit down.",
+      "promptZh": "請迅速脫下外套,然後坐下。",
+      "starter": "Please",
+      "answer": "Please slip your coat off and sit down.",
+      "answerZh": "請迅速脫下外套,然後坐下。",
+      "highlight": "slip",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Wait a moment; I will just put my jumper on, and then I will be ready.",
+      "promptZh": "請等一會;我穿上冷衫後便準備好了。",
+      "starter": "Wait",
+      "answer": "Wait a moment; I will just slip my jumper on, and then I will be ready.",
+      "answerZh": "請等一會;我穿上冷衫後便準備好了。",
+      "highlight": "slip",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did anyone lose their footing and fall in the kitchen?",
+      "promptZh": "有沒有人在廚房失去平衡而跌倒?",
+      "starter": "Did",
+      "answer": "Did anyone slip over in the kitchen?",
+      "answerZh": "有沒有人在廚房滑倒?",
+      "highlight": "slip over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "He had removed his muddy clothes before his mother saw him.",
+      "promptZh": "在母親看見他之前,他已脫下沾滿泥濘的衣服。",
+      "starter": "He",
+      "answer": "He had slipped out of his muddy clothes before his mother saw him.",
+      "answerZh": "在母親看見他之前,他已脫下沾滿泥濘的衣服。",
+      "highlight": "slipped out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We may leave quietly after the final song.",
+      "promptZh": "最後一首歌結束後,我們可能會悄悄離開。",
+      "starter": "We",
+      "answer": "We may slip away after the final song.",
+      "answerZh": "最後一首歌結束後,我們可能會悄悄離開。",
+      "highlight": "slip away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Why did Lara quickly put the blue dress on again?",
+      "promptZh": "拉娜為何再次迅速穿上那條藍色裙子?",
+      "starter": "Why",
+      "answer": "Why did Lara slip the blue dress on again?",
+      "answerZh": "拉娜為何再次迅速穿上那條藍色裙子?",
+      "highlight": "slip",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Sofia had quietly left by the time I looked for her.",
+      "promptZh": "我尋找索菲亞時,她已悄悄離開了。",
+      "starter": "Sofia",
+      "answer": "Sofia had slipped away by the time I looked for her.",
+      "answerZh": "我尋找索菲亞時,她已悄悄離開了。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She had lost her footing and fallen before the warning sign was placed there.",
+      "promptZh": "警告牌放置在那裏之前,她已失足跌倒了。",
+      "starter": "She",
+      "answer": "She had slipped over before the warning sign was placed there.",
+      "answerZh": "警告牌放置在那裏之前,她已滑倒了。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "He had put his jacket on before the rain started.",
+      "promptZh": "下雨前,他已穿上外套。",
+      "starter": "He",
+      "answer": "He had slipped his jacket on before the rain started.",
+      "answerZh": "下雨前,他已迅速穿上外套。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nora quickly removed the ring from her finger.",
+      "promptZh": "諾拉迅速把戒指從手指上除下。",
+      "starter": "Nora",
+      "answer": "Nora slipped the ring off her finger.",
+      "answerZh": "諾拉迅速把戒指從手指上除下。",
+      "highlight": "slipped",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速除下衣物或飾物"
+    },
+    {
+      "id": "phrasal-verb-297-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Without saying goodbye, Daniel quietly left the party.",
+      "promptZh": "丹尼爾沒有道別便悄悄離開了派對。",
+      "starter": "Without",
+      "answer": "Without saying goodbye, Daniel slipped away from the party.",
+      "answerZh": "丹尼爾沒有道別便悄悄離開了派對。",
+      "highlight": "slipped away from",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Be careful, or you may lose your footing and fall on those leaves.",
+      "promptZh": "小心,否則你可能會在那些樹葉上失足跌倒。",
+      "starter": "Be",
+      "answer": "Be careful, or you may slip over on those leaves.",
+      "answerZh": "小心,否則你可能會在那些樹葉上滑倒。",
+      "highlight": "slip over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the dance, the actors quickly removed their costumes.",
+      "promptZh": "舞蹈結束後,演員們迅速脫下戲服。",
+      "starter": "After",
+      "answer": "After the dance, the actors slipped out of their costumes.",
+      "answerZh": "舞蹈結束後,演員們迅速脫下戲服。",
+      "highlight": "slipped out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "You can quickly put it on over your T-shirt.",
+      "promptZh": "你可以迅速把它穿在T恤外面。",
+      "starter": "You",
+      "answer": "You can slip it on over your T-shirt.",
+      "answerZh": "你可以迅速把它穿在T恤外面。",
+      "highlight": "slip",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The child lost his footing and fell while running beside the pool.",
+      "promptZh": "那個孩子在泳池旁邊奔跑時失足跌倒。",
+      "starter": "The",
+      "answer": "The child slipped over while running beside the pool.",
+      "answerZh": "那個孩子在泳池旁邊奔跑時滑倒。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He tried to leave quietly while everyone was watching the screen.",
+      "promptZh": "所有人觀看螢幕時,他嘗試悄悄離開。",
+      "starter": "He",
+      "answer": "He tried to slip away while everyone was watching the screen.",
+      "answerZh": "所有人觀看螢幕時,他嘗試悄悄離開。",
+      "highlight": "slip away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Two people lost their footing and fell because the path was covered in mud.",
+      "promptZh": "由於小徑滿是泥濘,兩個人失足跌倒了。",
+      "starter": "Two",
+      "answer": "Two people slipped over because the path was covered in mud.",
+      "answerZh": "由於小徑滿是泥濘,兩個人滑倒了。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Your trainers are muddy, but you can quickly remove them under the seat.",
+      "promptZh": "你的運動鞋沾滿泥濘,但你可以在座位下迅速脫下它們。",
+      "starter": "Your",
+      "answer": "Your trainers are muddy, but you can slip them off under the seat.",
+      "answerZh": "你的運動鞋沾滿泥濘,但你可以在座位下迅速脫下它們。",
+      "highlight": "slip",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速脫下衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-297-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The two students quietly left to practise in an empty room.",
+      "promptZh": "那兩名學生悄悄離開,前往空置房間練習。",
+      "starter": "The",
+      "answer": "The two students slipped away to practise in an empty room.",
+      "answerZh": "那兩名學生悄悄離開,前往空置房間練習。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before opening the door, I quickly put my dressing gown on.",
+      "promptZh": "開門前,我迅速穿上睡袍。",
+      "starter": "Before",
+      "answer": "Before opening the door, I slipped my dressing gown on.",
+      "answerZh": "開門前,我迅速穿上睡袍。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "He did not fall, but he almost lost his balance.",
+      "promptZh": "他沒有跌倒,但幾乎失去平衡。",
+      "starter": "He",
+      "answer": "He did not slip over, but he almost lost his balance.",
+      "answerZh": "他沒有滑倒,但幾乎失去平衡。",
+      "highlight": "slip over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did Eva remove her jacket so quickly?",
+      "promptZh": "伊娃為何這麼迅速地脫下外套?",
+      "starter": "Why",
+      "answer": "Why did Eva slip out of her jacket so quickly?",
+      "answerZh": "伊娃為何這麼迅速地脫下外套?",
+      "highlight": "slip out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Ella was quickly putting her boots on when the taxi arrived.",
+      "promptZh": "的士到達時,埃拉正在迅速穿上靴子。",
+      "starter": "Ella",
+      "answer": "Ella was slipping her boots on when the taxi arrived.",
+      "answerZh": "的士到達時,埃拉正在迅速穿上靴子。",
+      "highlight": "slipping",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物或鞋子"
+    },
+    {
+      "id": "phrasal-verb-297-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Once the photos were finished, Ava quietly left.",
+      "promptZh": "拍照結束後,艾娃便悄悄離開了。",
+      "starter": "Once",
+      "answer": "Once the photos were finished, Ava slipped away.",
+      "answerZh": "拍照結束後,艾娃便悄悄離開了。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As I turned the corner, I lost my footing and fell on a patch of ice.",
+      "promptZh": "我轉彎時在一塊冰面上失足跌倒。",
+      "starter": "As",
+      "answer": "As I turned the corner, I slipped over on a patch of ice.",
+      "answerZh": "我轉彎時在一塊冰面上滑倒。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I was quickly removing my socks when the phone rang.",
+      "promptZh": "電話響起時,我正在迅速脫下襪子。",
+      "starter": "I",
+      "answer": "I was slipping my socks off when the phone rang.",
+      "answerZh": "電話響起時,我正在迅速脫下襪子。",
+      "highlight": "slipping",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We should quickly put our coats on before going outside.",
+      "promptZh": "我們出外前應迅速穿上外套。",
+      "starter": "We",
+      "answer": "We should slip our coats on before going outside.",
+      "answerZh": "我們出外前應迅速穿上外套。",
+      "highlight": "slip",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "They could not leave quietly because the door was beside the host.",
+      "promptZh": "他們無法悄悄離開,因為門就在主人旁邊。",
+      "starter": "They",
+      "answer": "They could not slip away because the door was beside the host.",
+      "answerZh": "他們無法悄悄離開,因為門就在主人旁邊。",
+      "highlight": "slip away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The wet grass caused several players to lose their footing and fall during the match.",
+      "promptZh": "濕滑的草地令幾名球員在比賽期間失足跌倒。",
+      "starter": "The",
+      "answer": "The wet grass made several players slip over during the match.",
+      "answerZh": "濕滑的草地令幾名球員在比賽期間滑倒。",
+      "highlight": "made",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "As soon as he reached the changing room, Ben quickly removed his football kit.",
+      "promptZh": "賓一到達更衣室,便迅速脫下足球服。",
+      "starter": "As",
+      "answer": "As soon as he reached the changing room, Ben slipped out of his football kit.",
+      "answerZh": "賓一到達更衣室,便迅速脫下足球服。",
+      "highlight": "slipped out of",
+      "targetForm": "slip out of something",
+      "targetMeaningZh": "迅速脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After choosing the hat, he quickly put it on and looked in the mirror.",
+      "promptZh": "選好帽子後,他迅速戴上它,然後望向鏡子。",
+      "starter": "After",
+      "answer": "After choosing the hat, he slipped it on and looked in the mirror.",
+      "answerZh": "選好帽子後,他迅速戴上它,然後望向鏡子。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After helping with the food, I quietly left to make a phone call.",
+      "promptZh": "幫忙準備食物後,我悄悄離開去打電話。",
+      "starter": "After",
+      "answer": "After helping with the food, I slipped away to make a phone call.",
+      "answerZh": "幫忙準備食物後,我悄悄離開去打電話。",
+      "highlight": "slipped away",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    },
+    {
+      "id": "phrasal-verb-297-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the alarm was ringing, Priya quickly put her uniform on.",
+      "promptZh": "雖然警鐘正在響起,普里雅仍迅速穿上制服。",
+      "starter": "Although",
+      "answer": "Although the alarm was ringing, Priya slipped her uniform on.",
+      "answerZh": "雖然警鐘正在響起,普里雅仍迅速穿上制服。",
+      "highlight": "slipped",
+      "targetForm": "slip something on",
+      "targetMeaningZh": "迅速穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although she was walking slowly, Ava lost her footing and fell when the bus moved suddenly.",
+      "promptZh": "雖然艾娃走得很慢,但巴士突然開動時,她仍失足跌倒。",
+      "starter": "Although",
+      "answer": "Although she was walking slowly, Ava slipped over when the bus moved suddenly.",
+      "answerZh": "雖然艾娃走得很慢,但巴士突然開動時,她仍滑倒了。",
+      "highlight": "slipped over",
+      "targetForm": "slip over",
+      "targetMeaningZh": "因腳下打滑而跌倒"
+    },
+    {
+      "id": "phrasal-verb-297-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The scarf was around her neck, but she quietly removed it without waking the baby.",
+      "promptZh": "圍巾原本圍在她的頸上,但她悄悄把它除下,沒有弄醒嬰兒。",
+      "starter": "The",
+      "answer": "The scarf was around her neck, but she quietly slipped it off without waking the baby.",
+      "answerZh": "圍巾原本圍在她的頸上,但她悄悄把它除下,沒有弄醒嬰兒。",
+      "highlight": "slipped",
+      "targetForm": "slip something off",
+      "targetMeaningZh": "迅速或輕輕除下衣物"
+    },
+    {
+      "id": "phrasal-verb-297-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Although the room was crowded, Priya managed to leave quietly without anyone noticing.",
+      "promptZh": "雖然房間十分擠迫,普里雅仍成功在沒有人注意的情況下悄悄離開。",
+      "starter": "Although",
+      "answer": "Although the room was crowded, Priya managed to slip away unnoticed.",
+      "answerZh": "雖然房間十分擠迫,普里雅仍成功在沒有人注意的情況下悄悄離開。",
+      "highlight": "slip away unnoticed",
+      "targetForm": "slip away",
+      "targetMeaningZh": "悄悄離開"
+    }
+  ]
+}

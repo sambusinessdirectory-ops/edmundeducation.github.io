@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-203",
+  "order": 203,
+  "slug": "pump",
+  "version": "1",
+  "title": "PUMP 動詞片語",
+  "titleEn": "Pump",
+  "titleZh": "PUMP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 201 - Pump.pdf",
+    "sourceNumber": 201,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PUMP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PUMP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PUMP",
+      "highlight": "PUMP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The fire brigade pumped out the basement.",
+      "zh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+      "highlight": "pumped out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach pumped the team up before the match.",
+      "zh": "教練在比賽前鼓舞球隊。)I was really pumped up for the race.(我對這場賽事感到十分興奮,並已準備就緒。",
+      "highlight": "pumped the team up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Pump your tyres up before you set off.",
+      "zh": "出發前先替輪胎充氣。)The ball is soft. Pump it up.(這個球太軟了。替它充氣吧。",
+      "highlight": "Pump your tyres up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "用泵把液體抽走;把有積水的地方抽乾；令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒；用泵替輪胎、球或充氣用品充氣",
+    "en": "pump something out / pump something out of something; pump somebody up / pump yourself up / be pumped up for something; pump something up",
+    "naturalZh": [
+      "用泵把液體抽走;把有積水的地方抽乾",
+      "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+      "用泵替輪胎、球或充氣用品充氣"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pump something out / pump something out of something",
+      "titleZh": "用泵把液體抽走;把有積水的地方抽乾",
+      "titleEn": "pump something out / pump something out of something",
+      "descriptionZh": "用泵把液體抽走;把有積水的地方抽乾",
+      "descriptionEn": "The fire brigade pumped out the basement.",
+      "examples": [
+        {
+          "en": "The fire brigade pumped out the basement.",
+          "zh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+          "highlight": "pumped out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pump somebody up / pump yourself up / be pumped up for something",
+      "titleZh": "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+      "titleEn": "pump somebody up / pump yourself up / be pumped up for something",
+      "descriptionZh": "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+      "descriptionEn": "The coach pumped the team up before the match.",
+      "examples": [
+        {
+          "en": "The coach pumped the team up before the match.",
+          "zh": "教練在比賽前鼓舞球隊。)I was really pumped up for the race.(我對這場賽事感到十分興奮,並已準備就緒。",
+          "highlight": "pumped the team up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pump something up",
+      "titleZh": "用泵替輪胎、球或充氣用品充氣",
+      "titleEn": "pump something up",
+      "descriptionZh": "用泵替輪胎、球或充氣用品充氣",
+      "descriptionEn": "Pump your tyres up before you set off.",
+      "examples": [
+        {
+          "en": "Pump your tyres up before you set off.",
+          "zh": "出發前先替輪胎充氣。)The ball is soft. Pump it up.(這個球太軟了。替它充氣吧。",
+          "highlight": "Pump your tyres up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PUMP 片語動詞的實際用途",
+    "labelEn": "PUMP Phrasal Verbs in Use",
+    "summaryZh": "pump out 可以用來描述抽乾地庫、隧道、船隻、車房和其他地方的積水。；pump somebody up 可以表示鼓舞球隊或表演者;pump yourself up 則可以表示讓自己作好心理準備。；pump something up 常用來表示替單車輪胎、足球、充氣床和類似物品充氣。；人被 pumped up,表示感到興奮並準備就緒;物件被 pumped up,則表示已經充氣。",
+    "summaryEn": "Pump out is useful when describing flooded basements, tunnels, boats, garages and other places filled with water. Pump somebody up can describe encouraging a team or performer. Pump yourself up can describe preparing yourself mentally. Pump something up is commonly used when adding air to bicycle tyres, footballs, air beds and similar objects. A person who is pumped up feels excited and ready. An object that is pumped up has been filled with air.",
+    "contextsZh": [
+      "清楚談論如何抽走積水",
+      "描述重要活動前的信心和興奮心情",
+      "給予有關輪胎和運動用品的實用指示",
+      "理解 PUMP UP 的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about removing unwanted water",
+      "Describe confidence and excitement before an important event",
+      "Give practical instructions about tyres and sports equipment",
+      "Understand different meanings of PUMP UP"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PUMP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PUMP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pump something out / pump something out of something",
+    "fixedHighlight": "pump something out / pump something out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 PUMP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PUMP expression that gives the same meaning.",
+    "correct": "pumped out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；PUMP OUT 可以指出被抽乾的地方,也可以指出被抽走的液體:pump out the basementpump the water out of the basement；PUMP UP 可以用於不同的自然句式。使用 it 或 them 時,請放在 PUMP 和 UP 中間:pump it uppump them up",
+    "variableEn": "Keep the same people, things, time and meaning. PUMP OUT can describe the place being emptied or the liquid being removed: pump out the basement pump the water out of the basement PUMP UP can appear in several natural forms: The coach pumped us up. I pumped myself up. We were pumped up for the match. Pump the tyre up. Pump up the tyre. Pump it up.",
+    "variableItemsZh": [
+      "pump something out / pump something out of something",
+      "pump somebody up / pump yourself up / be pumped up for something",
+      "pump something up"
+    ],
+    "variableItemsEn": [
+      "pump something out / pump something out of something",
+      "pump somebody up / pump yourself up / be pumped up for something",
+      "pump something up"
+    ],
+    "forms": [
+      {
+        "formZh": "用泵把液體抽走;把有積水的地方抽乾",
+        "formEn": "pump something out / pump something out of something",
+        "exampleZh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+        "exampleEn": "The fire brigade pumped out the basement.",
+        "highlight": "pumped out"
+      },
+      {
+        "formZh": "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+        "formEn": "pump somebody up / pump yourself up / be pumped up for something",
+        "exampleZh": "教練在比賽前鼓舞球隊。)I was really pumped up for the race.(我對這場賽事感到十分興奮,並已準備就緒。",
+        "exampleEn": "The coach pumped the team up before the match.",
+        "highlight": "pumped the team up"
+      },
+      {
+        "formZh": "用泵替輪胎、球或充氣用品充氣",
+        "formEn": "pump something up",
+        "exampleZh": "出發前先替輪胎充氣。)The ball is soft. Pump it up.(這個球太軟了。替它充氣吧。",
+        "exampleEn": "Pump your tyres up before you set off.",
+        "highlight": "Pump your tyres up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "用泵把液體抽走;把有積水的地方抽乾",
+      "titleEn": "pump something out / pump something out of something",
+      "formula": "pump something out / pump something out of something",
+      "highlight": "pump something out / pump something out of something",
+      "descriptionZh": "用泵把液體抽走;把有積水的地方抽乾",
+      "descriptionEn": "The fire brigade pumped out the basement.",
+      "examples": [
+        {
+          "en": "The fire brigade pumped out the basement.",
+          "zh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+          "highlight": "pumped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+      "titleEn": "pump somebody up / pump yourself up / be pumped up for something",
+      "formula": "pump somebody up / pump yourself up / be pumped up for something",
+      "highlight": "pump somebody up / pump yourself up / be pumped up for something",
+      "descriptionZh": "令某人或自己感到興奮、自信和充滿幹勁;對某事感到十分期待並準備就緒",
+      "descriptionEn": "The coach pumped the team up before the match.",
+      "examples": [
+        {
+          "en": "The coach pumped the team up before the match.",
+          "zh": "教練在比賽前鼓舞球隊。)I was really pumped up for the race.(我對這場賽事感到十分興奮,並已準備就緒。",
+          "highlight": "pumped the team up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用泵替輪胎、球或充氣用品充氣",
+      "titleEn": "pump something up",
+      "formula": "pump something up",
+      "highlight": "pump something up",
+      "descriptionZh": "用泵替輪胎、球或充氣用品充氣",
+      "descriptionEn": "Pump your tyres up before you set off.",
+      "examples": [
+        {
+          "en": "Pump your tyres up before you set off.",
+          "zh": "出發前先替輪胎充氣。)The ball is soft. Pump it up.(這個球太軟了。替它充氣吧。",
+          "highlight": "Pump your tyres up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論如何抽走積水",
+      "titleEn": "Talk clearly about removing unwanted water",
+      "zh": "pump out 可以用來描述抽乾地庫、隧道、船隻、車房和其他地方的積水。",
+      "en": "Pump out is useful when describing flooded basements, tunnels, boats, garages and other places filled with water."
+    },
+    {
+      "titleZh": "描述重要活動前的信心和興奮心情",
+      "titleEn": "Describe confidence and excitement before an important event",
+      "zh": "pump somebody up 可以表示鼓舞球隊或表演者;pump yourself up 則可以表示讓自己作好心理準備。",
+      "en": "Pump somebody up can describe encouraging a team or performer. Pump yourself up can describe preparing yourself mentally."
+    },
+    {
+      "titleZh": "給予有關輪胎和運動用品的實用指示",
+      "titleEn": "Give practical instructions about tyres and sports equipment",
+      "zh": "pump something up 常用來表示替單車輪胎、足球、充氣床和類似物品充氣。",
+      "en": "Pump something up is commonly used when adding air to bicycle tyres, footballs, air beds and similar objects."
+    },
+    {
+      "titleZh": "理解 PUMP UP 的不同意思",
+      "titleEn": "Understand different meanings of PUMP UP",
+      "zh": "人被 pumped up,表示感到興奮並準備就緒;物件被 pumped up,則表示已經充氣。",
+      "en": "A person who is pumped up feels excited and ready. An object that is pumped up has been filled with air."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論如何抽走積水",
+      "描述重要活動前的信心和興奮心情",
+      "給予有關輪胎和運動用品的實用指示",
+      "理解 PUMP UP 的不同意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about removing unwanted water",
+      "Describe confidence and excitement before an important event",
+      "Give practical instructions about tyres and sports equipment",
+      "Understand different meanings of PUMP UP"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論如何抽走積水",
+        "titleEn": "Talk clearly about removing unwanted water",
+        "zh": "pump out 可以用來描述抽乾地庫、隧道、船隻、車房和其他地方的積水。",
+        "en": "Pump out is useful when describing flooded basements, tunnels, boats, garages and other places filled with water.",
+        "examples": [
+          {
+            "en": "The fire brigade pumped out the basement.",
+            "zh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+            "highlight": "pumped out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述重要活動前的信心和興奮心情",
+        "titleEn": "Describe confidence and excitement before an important event",
+        "zh": "pump somebody up 可以表示鼓舞球隊或表演者;pump yourself up 則可以表示讓自己作好心理準備。",
+        "en": "Pump somebody up can describe encouraging a team or performer. Pump yourself up can describe preparing yourself mentally.",
+        "examples": [
+          {
+            "en": "The coach pumped the team up before the match.",
+            "zh": "教練在比賽前鼓舞球隊。)I was really pumped up for the race.(我對這場賽事感到十分興奮,並已準備就緒。",
+            "highlight": "pumped the team up"
+          }
+        ]
+      },
+      {
+        "titleZh": "給予有關輪胎和運動用品的實用指示",
+        "titleEn": "Give practical instructions about tyres and sports equipment",
+        "zh": "pump something up 常用來表示替單車輪胎、足球、充氣床和類似物品充氣。",
+        "en": "Pump something up is commonly used when adding air to bicycle tyres, footballs, air beds and similar objects.",
+        "examples": [
+          {
+            "en": "Pump your tyres up before you set off.",
+            "zh": "出發前先替輪胎充氣。)The ball is soft. Pump it up.(這個球太軟了。替它充氣吧。",
+            "highlight": "Pump your tyres up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 PUMP UP 的不同意思",
+        "titleEn": "Understand different meanings of PUMP UP",
+        "zh": "人被 pumped up,表示感到興奮並準備就緒;物件被 pumped up,則表示已經充氣。",
+        "en": "A person who is pumped up feels excited and ready. An object that is pumped up has been filled with air.",
+        "examples": [
+          {
+            "en": "The fire brigade pumped out the basement.",
+            "zh": "消防隊把地庫的積水抽乾。)They pumped the water out of the basement.(他們把地庫裏的水抽走。",
+            "highlight": "pumped out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PUMP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PUMP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PUMP 片語動詞。",
+      "en": "Read the whole sentence and choose the PUMP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "PUMP OUT 可以指出被抽乾的地方,也可以指出被抽走的液體:pump out the basementpump the water out of the basement",
+      "titleEn": "PUMP OUT can describe the place being emptied or the liquid being removed: pump out the basement pump the water out of the basement.",
+      "zh": "PUMP OUT 可以指出被抽乾的地方,也可以指出被抽走的液體:pump out the basementpump the water out of the basement",
+      "en": "PUMP OUT can describe the place being emptied or the liquid being removed: pump out the basement pump the water out of the basement"
+    },
+    {
+      "titleZh": "PUMP UP 可以用於不同的自然句式。使用 it 或 them 時,請放在 PUMP 和 UP 中間:pump it uppump them up",
+      "titleEn": "PUMP UP can appear in several natural forms: The coach pumped us up.",
+      "zh": "PUMP UP 可以用於不同的自然句式。使用 it 或 them 時,請放在 PUMP 和 UP 中間:pump it uppump them up",
+      "en": "PUMP UP can appear in several natural forms: The coach pumped us up. I pumped myself up. We were pumped up for the match. Pump the tyre up. Pump up the tyre. Pump it up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PUMP 動詞片語句子改寫練習",
+    "titleEn": "PUMP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-203-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad put more air into the bicycle tyres before our ride.",
+      "promptZh": "爸爸在我們踏單車前替單車輪胎充氣。",
+      "starter": "Dad",
+      "answer": "Dad pumped the bicycle tyres up before our ride.",
+      "answerZh": "爸爸在我們踏單車前替單車輪胎充氣。",
+      "highlight": "pumped",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The fire brigade used special equipment to empty the flooded basement.",
+      "promptZh": "消防隊使用特別設備,把水浸地庫的積水抽乾。",
+      "starter": "The",
+      "answer": "The fire brigade pumped out the flooded basement.",
+      "answerZh": "消防隊把水浸地庫的積水抽乾。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach made the players excited and ready before the match.",
+      "promptZh": "教練在比賽前令球員感到興奮並準備就緒。",
+      "starter": "The",
+      "answer": "The coach pumped the players up before the match.",
+      "answerZh": "教練在比賽前令球員感到興奮並準備就緒。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please put more air into the football before the game.",
+      "promptZh": "比賽前請替足球充氣。",
+      "starter": "Please",
+      "answer": "Please pump up the football before the game.",
+      "answerZh": "比賽前請替足球充氣。",
+      "highlight": "pump up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They used a machine to remove the rainwater from the garage.",
+      "promptZh": "他們使用機器把車房裏的雨水抽走。",
+      "starter": "They",
+      "answer": "They pumped the rainwater out of the garage.",
+      "answerZh": "他們把車房裏的雨水抽走。",
+      "highlight": "pumped",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I was really excited and ready for the race.",
+      "promptZh": "我對這場賽事感到十分興奮,並已準備就緒。",
+      "starter": "I",
+      "answer": "I was really pumped up for the race.",
+      "answerZh": "我對這場賽事感到十分興奮,並已準備就緒。",
+      "highlight": "was really pumped up",
+      "targetForm": "be pumped up for something",
+      "targetMeaningZh": "對某事感到興奮並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The basketball is too soft, so put more air into it.",
+      "promptZh": "這個籃球太軟了,所以替它充氣吧。",
+      "starter": "The",
+      "answer": "The basketball is too soft, so pump it up.",
+      "answerZh": "這個籃球太軟了,所以替它充氣吧。",
+      "highlight": "pump",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Workers used special equipment to empty the lift shaft after the storm.",
+      "promptZh": "暴風雨後,工人使用特別設備把升降機井內的積水抽乾。",
+      "starter": "Workers",
+      "answer": "Workers pumped out the lift shaft after the storm.",
+      "answerZh": "暴風雨後,工人把升降機井內的積水抽乾。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo made himself feel excited and confident by listening to his favourite song.",
+      "promptZh": "里奧聽自己最喜愛的歌曲,令自己感到興奮和有信心。",
+      "starter": "Leo",
+      "answer": "Leo pumped himself up with his favourite song.",
+      "answerZh": "里奧利用自己最喜愛的歌曲,令自己感到興奮和有信心。",
+      "highlight": "pumped",
+      "targetForm": "pump yourself up",
+      "targetMeaningZh": "令自己興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The air bed needs more air before tonight.",
+      "promptZh": "這張充氣床今晚前需要充氣。",
+      "starter": "The",
+      "answer": "The air bed needs to be pumped up before tonight.",
+      "answerZh": "這張充氣床今晚前需要充氣。",
+      "highlight": "to be pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The captain is making the team excited and ready in the changing room.",
+      "promptZh": "隊長正在更衣室內令球隊感到興奮並準備就緒。",
+      "starter": "The",
+      "answer": "The captain is pumping the team up in the changing room.",
+      "answerZh": "隊長正在更衣室內令球隊感到興奮並準備就緒。",
+      "highlight": "pumping",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Ava has already put enough air into both tyres.",
+      "promptZh": "艾娃已經替兩個輪胎充好氣。",
+      "starter": "Ava",
+      "answer": "Ava has already pumped up both tyres.",
+      "answerZh": "艾娃已經替兩個輪胎充好氣。",
+      "highlight": "pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Special equipment has removed most of the water from the tunnel.",
+      "promptZh": "特別設備已經抽走隧道內大部分積水。",
+      "starter": "Most",
+      "answer": "Most of the water has been pumped out of the tunnel.",
+      "answerZh": "隧道內大部分積水已經被抽走。",
+      "highlight": "has been pumped out of",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Are you excited and ready for the school show?",
+      "promptZh": "你對學校表演感到興奮,並準備好了嗎?",
+      "starter": "Are",
+      "answer": "Are you pumped up for the school show?",
+      "answerZh": "你對學校表演感到興奮,並準備好了嗎?",
+      "highlight": "Are you pumped up",
+      "targetForm": "be pumped up for something",
+      "targetMeaningZh": "對某事感到興奮並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The crew has not removed the water from the lower room yet.",
+      "promptZh": "工作人員仍未把低層房間的積水抽乾。",
+      "starter": "The",
+      "answer": "The crew has not pumped out the lower room yet.",
+      "answerZh": "工作人員仍未把低層房間的積水抽乾。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You should add air to your tyres every month.",
+      "promptZh": "你應該每個月替輪胎充氣。",
+      "starter": "You",
+      "answer": "You should pump your tyres up every month.",
+      "answerZh": "你應該每個月替輪胎充氣。",
+      "highlight": "pump",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Sara may need to make herself feel confident before speaking.",
+      "promptZh": "莎拉發言前可能需要令自己更有信心。",
+      "starter": "Sara",
+      "answer": "Sara may need to pump herself up before speaking.",
+      "answerZh": "莎拉發言前可能需要令自己更有信心。",
+      "highlight": "pump",
+      "targetForm": "pump yourself up",
+      "targetMeaningZh": "令自己興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The workers are using a machine to remove dirty water from the hole.",
+      "promptZh": "工人正在使用機器,把坑裏的污水抽走。",
+      "starter": "The",
+      "answer": "The workers are pumping dirty water out of the hole.",
+      "answerZh": "工人正在把坑裏的污水抽走。",
+      "highlight": "pumping",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did you put more air into the ball after lunch?",
+      "promptZh": "你午飯後替球充氣了嗎?",
+      "starter": "Did",
+      "answer": "Did you pump the ball up after lunch?",
+      "answerZh": "你午飯後替球充氣了嗎?",
+      "highlight": "pump",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The crowd has made the players excited and full of energy.",
+      "promptZh": "觀眾令球員感到興奮和充滿活力。",
+      "starter": "The",
+      "answer": "The players have been pumped up by the crowd.",
+      "answerZh": "觀眾令球員感到興奮和充滿活力。",
+      "highlight": "The players have been pumped up by",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Water had filled the boat, so the crew removed it quickly with special equipment.",
+      "promptZh": "船內充滿了水,所以工作人員迅速使用特別設備把水抽走。",
+      "starter": "Water",
+      "answer": "Water had filled the boat, so the crew pumped it out quickly.",
+      "answerZh": "船內充滿了水,所以工作人員迅速把水抽走。",
+      "highlight": "pumped",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把液體抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A short speech made us excited and ready before the final.",
+      "promptZh": "一段簡短的說話令我們在決賽前感到興奮並準備就緒。",
+      "starter": "A",
+      "answer": "A short speech pumped us up before the final.",
+      "answerZh": "一段簡短的說話令我們在決賽前感到興奮並準備就緒。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The camping bed was flat, so Nina filled it with air.",
+      "promptZh": "露營床沒有氣,所以妮娜替它充氣。",
+      "starter": "The",
+      "answer": "The camping bed was flat, so Nina pumped it up.",
+      "answerZh": "露營床沒有氣,所以妮娜替它充氣。",
+      "highlight": "pumped",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The basement was full of water. Special equipment emptied it before the family returned.",
+      "promptZh": "地庫滿是積水。家人回來前,地庫的積水已被抽乾。",
+      "starter": "The",
+      "answer": "The basement was full of water. It was pumped out before the family returned.",
+      "answerZh": "地庫滿是積水。家人回來前,地庫的積水已被抽乾。",
+      "highlight": "was pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The tyres were filled with air at the repair shop.",
+      "promptZh": "輪胎在維修店內充了氣。",
+      "starter": "The",
+      "answer": "The tyres were pumped up at the repair shop.",
+      "answerZh": "輪胎在維修店內充了氣。",
+      "highlight": "pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The music was loud, but it made him excited and ready for the race.",
+      "promptZh": "音樂很響亮,但它令他對賽事感到興奮並準備就緒。",
+      "starter": "The",
+      "answer": "The music was loud, but it pumped him up for the race.",
+      "answerZh": "音樂很響亮,但它令他對賽事感到興奮並準備就緒。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The pool that had filled with rainwater was emptied with special equipment on Monday.",
+      "promptZh": "那個滿是雨水的水池在星期一使用特別設備抽乾了。",
+      "starter": "The",
+      "answer": "The pool that had filled with rainwater was pumped out on Monday.",
+      "answerZh": "那個滿是雨水的水池在星期一被抽乾。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "How did Omar make himself feel confident before the interview?",
+      "promptZh": "奧馬在面試前如何令自己更有信心?",
+      "starter": "How",
+      "answer": "How did Omar pump himself up before the interview?",
+      "answerZh": "奧馬在面試前如何令自己更有信心?",
+      "highlight": "pump",
+      "targetForm": "pump yourself up",
+      "targetMeaningZh": "令自己興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We filled the large air mattress with air for our guests.",
+      "promptZh": "我們為客人替大型充氣床褥充氣。",
+      "starter": "We",
+      "answer": "We pumped up the large air mattress for our guests.",
+      "answerZh": "我們為客人替大型充氣床褥充氣。",
+      "highlight": "pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the pipe broke, the caretaker used special equipment to remove the water from the store room.",
+      "promptZh": "水管破裂後,管理員使用特別設備把儲物室裏的水抽走。",
+      "starter": "After",
+      "answer": "After the pipe broke, the caretaker pumped the water out of the store room.",
+      "answerZh": "水管破裂後,管理員把儲物室裏的水抽走。",
+      "highlight": "pumped",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The cheering crowd made the runners feel excited and confident as they waited at the start.",
+      "promptZh": "跑手在起點等候時,歡呼的觀眾令他們感到興奮和有信心。",
+      "starter": "The",
+      "answer": "The cheering crowd pumped the runners up as they waited at the start.",
+      "answerZh": "跑手在起點等候時,歡呼的觀眾令他們感到興奮和有信心。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The garage was flooded, so the council used special equipment to empty it overnight.",
+      "promptZh": "車房水浸了,所以市議會連夜使用特別設備把積水抽乾。",
+      "starter": "The",
+      "answer": "The garage was flooded, so the council pumped it out overnight.",
+      "answerZh": "車房水浸了,所以市議會連夜把積水抽乾。",
+      "highlight": "pumped",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before sleeping on the floor, Kai filled a small air pillow with air.",
+      "promptZh": "睡在地上前,啟替一個小型充氣枕充氣。",
+      "starter": "Before",
+      "answer": "Before sleeping on the floor, Kai pumped up a small air pillow.",
+      "answerZh": "睡在地上前,啟替一個小型充氣枕充氣。",
+      "highlight": "pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team felt very excited and ready after the coach’s talk.",
+      "promptZh": "聽過教練的說話後,球隊感到十分興奮並準備就緒。",
+      "starter": "The",
+      "answer": "The team was pumped up after the coach’s talk.",
+      "answerZh": "聽過教練的說話後,球隊感到十分興奮並準備就緒。",
+      "highlight": "was pumped up",
+      "targetForm": "be pumped up",
+      "targetMeaningZh": "感到興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This tyre is losing air; add more air to it again at the next stop.",
+      "promptZh": "這個輪胎正在漏氣;到下一個停車點時再替它充氣。",
+      "starter": "This",
+      "answer": "This tyre is losing air; pump it up again at the next stop.",
+      "answerZh": "這個輪胎正在漏氣;到下一個停車點時再替它充氣。",
+      "highlight": "pump",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The rescue team used special equipment to remove oil from the damaged boat.",
+      "promptZh": "救援隊使用特別設備,把受損船隻內的油抽走。",
+      "starter": "The",
+      "answer": "The rescue team pumped oil out of the damaged boat.",
+      "answerZh": "救援隊把受損船隻內的油抽走。",
+      "highlight": "pumped",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Ben did not feel excited and ready for the match until the fans began singing.",
+      "promptZh": "直至球迷開始唱歌,賓才對比賽感到興奮並準備就緒。",
+      "starter": "Ben",
+      "answer": "Ben was not pumped up for the match until the fans began singing.",
+      "answerZh": "直至球迷開始唱歌,賓才對比賽感到興奮並準備就緒。",
+      "highlight": "was",
+      "targetForm": "be pumped up for something",
+      "targetMeaningZh": "對某事感到興奮並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did the workers use special equipment to remove the water from the underground car park?",
+      "promptZh": "工人為何使用特別設備抽走地下停車場內的積水?",
+      "starter": "Why",
+      "answer": "Why did the workers pump out the underground car park?",
+      "answerZh": "工人為何抽乾地下停車場內的積水?",
+      "highlight": "pump out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The mechanic put air into the front tyre, but left the back one soft.",
+      "promptZh": "技工替前輪充了氣,但後輪仍然很軟。",
+      "starter": "The",
+      "answer": "The mechanic pumped the front tyre up, but left the back one soft.",
+      "answerZh": "技工替前輪充了氣,但後輪仍然很軟。",
+      "highlight": "pumped",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before the debate, the teacher made the class excited and confident with a quick game.",
+      "promptZh": "辯論前,老師利用一個簡短遊戲令全班感到興奮和有信心。",
+      "starter": "Before",
+      "answer": "Before the debate, the teacher pumped the class up with a quick game.",
+      "answerZh": "辯論前,老師利用一個簡短遊戲令全班感到興奮和有信心。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The car had been parked for months, so both front tyres needed more air before it could move safely.",
+      "promptZh": "汽車停放了數個月,所以兩個前輪都需要充氣,汽車才可以安全行駛。",
+      "starter": "The",
+      "answer": "The car had been parked for months, so both front tyres had to be pumped up before it could move safely.",
+      "answerZh": "汽車停放了數個月,所以兩個前輪都必須充氣,汽車才可以安全行駛。",
+      "highlight": "had to be pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the team had lost twice, the captain’s message made everyone excited and ready for the final game.",
+      "promptZh": "雖然球隊已經輸了兩次,但隊長的訊息令所有人對決賽感到興奮並準備就緒。",
+      "starter": "Although",
+      "answer": "Although the team had lost twice, the captain’s message pumped everyone up for the final game.",
+      "answerZh": "雖然球隊已經輸了兩次,但隊長的訊息令所有人對決賽感到興奮並準備就緒。",
+      "highlight": "pumped",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After three days of rain, the fire brigade used special equipment to empty the school hall so classes could begin again.",
+      "promptZh": "下了三天雨後,消防隊使用特別設備抽乾學校禮堂的積水,讓課堂可以重新開始。",
+      "starter": "After",
+      "answer": "After three days of rain, the fire brigade pumped out the school hall so classes could begin again.",
+      "answerZh": "下了三天雨後,消防隊抽乾學校禮堂的積水,讓課堂可以重新開始。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Could you put more air into the spare tyre while I check the engine?",
+      "promptZh": "我檢查引擎時,你可以替後備輪胎充氣嗎?",
+      "starter": "Could",
+      "answer": "Could you pump the spare tyre up while I check the engine?",
+      "answerZh": "我檢查引擎時,你可以替後備輪胎充氣嗎?",
+      "highlight": "pump",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "To stop the water reaching the machines, staff used special equipment to remove it from the factory as fast as they could.",
+      "promptZh": "為免積水流到機器,員工盡快使用特別設備把水抽離工廠。",
+      "starter": "To",
+      "answer": "To stop the water reaching the machines, staff pumped it out of the factory as fast as they could.",
+      "answerZh": "為免積水流到機器,員工盡快把水抽離工廠。",
+      "highlight": "pumped",
+      "targetForm": "pump something out of something",
+      "targetMeaningZh": "用泵把液體從某地方抽走"
+    },
+    {
+      "id": "phrasal-verb-203-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nervous about the audition, Lina made herself feel confident by remembering how well she had practised.",
+      "promptZh": "莉娜對試演感到緊張,因此回想自己練習得多麼好,令自己更有信心。",
+      "starter": "Nervous",
+      "answer": "Nervous about the audition, Lina pumped herself up by remembering how well she had practised.",
+      "answerZh": "莉娜對試演感到緊張,因此回想自己練習得多麼好,令自己更有信心。",
+      "highlight": "pumped",
+      "targetForm": "pump yourself up",
+      "targetMeaningZh": "令自己興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "If the ball does not have enough air, it will not bounce well.",
+      "promptZh": "如果球沒有足夠的氣,它便不能正常彈起。",
+      "starter": "If",
+      "answer": "If the ball is not pumped up properly, it will not bounce well.",
+      "answerZh": "如果球沒有適當充氣,它便不能正常彈起。",
+      "highlight": "is",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    },
+    {
+      "id": "phrasal-verb-203-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The flooded shop had to be emptied with special equipment before anyone could check the damage.",
+      "promptZh": "任何人檢查損毀情況前,水浸的店舖必須先使用特別設備抽乾積水。",
+      "starter": "The",
+      "answer": "The flooded shop had to be pumped out before anyone could check the damage.",
+      "answerZh": "任何人檢查損毀情況前,水浸的店舖必須先抽乾積水。",
+      "highlight": "pumped out",
+      "targetForm": "pump something out",
+      "targetMeaningZh": "用泵把有積水的地方抽乾"
+    },
+    {
+      "id": "phrasal-verb-203-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A few encouraging words can make a nervous speaker feel confident just before they go on stage.",
+      "promptZh": "幾句鼓勵說話可以令緊張的講者在上台前更有信心。",
+      "starter": "A",
+      "answer": "A few encouraging words can pump a nervous speaker up just before they go on stage.",
+      "answerZh": "幾句鼓勵說話可以令緊張的講者在上台前更有信心。",
+      "highlight": "pump",
+      "targetForm": "pump somebody up",
+      "targetMeaningZh": "令某人興奮、有信心並準備就緒"
+    },
+    {
+      "id": "phrasal-verb-203-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After checking every wheel, the cyclist added air to the one that felt soft.",
+      "promptZh": "檢查每個車輪後,單車手替摸起來較軟的那個輪胎充氣。",
+      "starter": "After",
+      "answer": "After checking every wheel, the cyclist pumped up the one that felt soft.",
+      "answerZh": "檢查每個車輪後,單車手替摸起來較軟的那個輪胎充氣。",
+      "highlight": "pumped up",
+      "targetForm": "pump something up",
+      "targetMeaningZh": "用泵替某物充氣"
+    }
+  ]
+}

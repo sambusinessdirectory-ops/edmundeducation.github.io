@@ -32,6 +32,20 @@ jobs:
       - name: Refresh lightweight IELTS Reading deck index
         run: node tools/generate-ielts-reading-index.mjs
 
+      - name: Validate and regenerate the complete Phrasal Verb catalogue
+        run: |
+          node tools/build-phrasal-verb-expansion.mjs
+          node tools/generate-phrasal-verb-catalog.mjs
+          node tools/generate-phrasal-verb-sql.mjs
+          git diff --exit-code -- \
+            phrasal-verb-system-data.js \
+            workers/phrasal-verb-system/src/catalog.js \
+            supabase-phrasal-verb-system.sql \
+            supabase-phrasal-verb-system-lessons-36-329.sql
+          node --test tools/test-phrasal-verb-system.mjs
+          node workers/phrasal-verb-system/scripts/verify-catalog.mjs
+          npm test --prefix workers/phrasal-verb-system
+
       - name: Refresh homework resource catalog
         run: node tools/generate-homework-resource-catalog.mjs
 

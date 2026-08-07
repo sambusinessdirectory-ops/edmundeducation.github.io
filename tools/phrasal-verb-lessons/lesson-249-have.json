@@ -1,0 +1,1792 @@
+{
+  "id": "phrasal-verb-249",
+  "order": 249,
+  "slug": "have",
+  "version": "1",
+  "title": "HAVE 動詞片語",
+  "titleEn": "Have",
+  "titleZh": "HAVE 動詞片語",
+  "level": "A2–B1 — adult learners",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 235 - HAVE.pdf",
+    "sourceNumber": 235,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HAVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HAVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HAVE",
+      "highlight": "HAVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The newspaper claimed that the two actors had it off.",
+      "zh": "報章聲稱兩名演員曾發生性關係。",
+      "highlight": "had it off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I had him down as a much older man.",
+      "zh": "我原以為他年長得多。",
+      "highlight": "had him down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They’ve got the builders in all week.",
+      "zh": "他們整個星期都安排了裝修工人到來工作。",
+      "highlight": "They’ve",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "(非常口語,只適合成人語境)與某人發生性關係；認為某人是某種人;把某人記錄為某身分；安排某人到家中或工作地點維修、工作或提供協助；邀請某人到家中作客；因某事起訴某人;把某人帶上法庭；對某人或某事有不滿、反感或成見；取回或收回某物；家中或店內備有某物;有存貨；讓醫生、牙醫或其他專業人員移除身體上的某物",
+    "en": "have it off / have it away with somebody; have somebody down as something; have somebody in / have got somebody in; have somebody over / have somebody around; have somebody up for something; have something against somebody/something / have got something against somebody/something; have something back; have something in / have got something in; have something out",
+    "naturalZh": [
+      "(非常口語,只適合成人語境)與某人發生性關係",
+      "認為某人是某種人;把某人記錄為某身分",
+      "安排某人到家中或工作地點維修、工作或提供協助",
+      "邀請某人到家中作客",
+      "因某事起訴某人;把某人帶上法庭",
+      "對某人或某事有不滿、反感或成見",
+      "取回或收回某物",
+      "家中或店內備有某物;有存貨",
+      "讓醫生、牙醫或其他專業人員移除身體上的某物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "have it off / have it away with somebody",
+      "titleZh": "(非常口語,只適合成人語境)與某人發生性關係",
+      "titleEn": "have it off / have it away with somebody",
+      "descriptionZh": "(非常口語,只適合成人語境)與某人發生性關係",
+      "descriptionEn": "The newspaper claimed that the two actors had it off.",
+      "examples": [
+        {
+          "en": "The newspaper claimed that the two actors had it off.",
+          "zh": "報章聲稱兩名演員曾發生性關係。",
+          "highlight": "had it off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "have somebody down as something",
+      "titleZh": "認為某人是某種人;把某人記錄為某身分",
+      "titleEn": "have somebody down as something",
+      "descriptionZh": "認為某人是某種人;把某人記錄為某身分",
+      "descriptionEn": "I had him down as a much older man.",
+      "examples": [
+        {
+          "en": "I had him down as a much older man.",
+          "zh": "我原以為他年長得多。",
+          "highlight": "had him down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "have somebody in / have got somebody in",
+      "titleZh": "安排某人到家中或工作地點維修、工作或提供協助",
+      "titleEn": "have somebody in / have got somebody in",
+      "descriptionZh": "安排某人到家中或工作地點維修、工作或提供協助",
+      "descriptionEn": "They’ve got the builders in all week.",
+      "examples": [
+        {
+          "en": "They’ve got the builders in all week.",
+          "zh": "他們整個星期都安排了裝修工人到來工作。",
+          "highlight": "They’ve"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "have somebody over / have somebody around",
+      "titleZh": "邀請某人到家中作客",
+      "titleEn": "have somebody over / have somebody around",
+      "descriptionZh": "邀請某人到家中作客",
+      "descriptionEn": "They had some friends over last night.",
+      "examples": [
+        {
+          "en": "They had some friends over last night.",
+          "zh": "他們昨晚邀請了一些朋友到家中作客。",
+          "highlight": "had some friends over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "have somebody up for something",
+      "titleZh": "因某事起訴某人;把某人帶上法庭",
+      "titleEn": "have somebody up for something",
+      "descriptionZh": "因某事起訴某人;把某人帶上法庭",
+      "descriptionEn": "They had him up for armed robbery.",
+      "examples": [
+        {
+          "en": "They had him up for armed robbery.",
+          "zh": "他們以持械行劫罪起訴他。",
+          "highlight": "had him up for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "have something against somebody/something / have got something against somebody/something",
+      "titleZh": "對某人或某事有不滿、反感或成見",
+      "titleEn": "have something against somebody/something / have got something against somebody/something",
+      "descriptionZh": "對某人或某事有不滿、反感或成見",
+      "descriptionEn": "I’ve got nothing against her family.",
+      "examples": [
+        {
+          "en": "I’ve got nothing against her family.",
+          "zh": "我對她的家人沒有任何不滿。",
+          "highlight": "I’ve"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "have something back",
+      "titleZh": "取回或收回某物",
+      "titleEn": "have something back",
+      "descriptionZh": "取回或收回某物",
+      "descriptionEn": "Can I have the book back by Thursday?",
+      "examples": [
+        {
+          "en": "Can I have the book back by Thursday?",
+          "zh": "我可以在星期四前取回那本書嗎?",
+          "highlight": "have the book back"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "have something in / have got something in",
+      "titleZh": "家中或店內備有某物;有存貨",
+      "titleEn": "have something in / have got something in",
+      "descriptionZh": "家中或店內備有某物;有存貨",
+      "descriptionEn": "Do we have enough food in for the holiday?",
+      "examples": [
+        {
+          "en": "Do we have enough food in for the holiday?",
+          "zh": "我們家中有足夠食物供假期使用嗎?",
+          "highlight": "have enough food in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "have something out",
+      "titleZh": "讓醫生、牙醫或其他專業人員移除身體上的某物",
+      "titleEn": "have something out",
+      "descriptionZh": "讓醫生、牙醫或其他專業人員移除身體上的某物",
+      "descriptionEn": "I need to have this tooth out.",
+      "examples": [
+        {
+          "en": "I need to have this tooth out.",
+          "zh": "我需要把這隻牙拔掉。",
+          "highlight": "have this tooth out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HAVE 片語動詞的實際用途",
+    "labelEn": "HAVE Phrasal Verbs in Use",
+    "summaryZh": "have somebody in 可以表示安排工人到來工作;have somebody over 則表示邀請客人到家中作客。；你可以用 have somebody down as 表示對某人的看法,也可以用 have somebody on 表示哄騙或戲弄某人。；have something in 可以表示備有物資;have something back 表示取回物品;have something out則表示把某物移除。；have something against somebody 表示對某人有不滿;have somebody up 則表示起訴某人。；have it off 和 have it away 可能出現在英國電影、娛樂新聞和成人之間的非正式對話中。懂得它們的意思並不代表你必須親自使用。",
+    "summaryEn": "Have somebody in can describe arranging for workers to come, while have somebody over describes inviting guests to your home. You can have somebody down as a particular type of person or have somebody on by making them believe something untrue. Have something in describes available supplies, have something back describes receiving something again, and have something out describes removal. Have something against somebody describes a negative feeling, while have somebody up describes taking legal action against a person. Have it off and have it away may appear in British films, gossip and informal adult conversations. Understanding them does not mean that you need to use them yourself.",
+    "contextsZh": [
+      "安排工作人員或客人到訪",
+      "談論看法、錯誤印象和玩笑",
+      "談論物資、取回物品和移除東西",
+      "表達不滿和法律行動",
+      "理解非常口語的成人英式英語"
+    ],
+    "contextsEn": [
+      "Arrange visits and practical help",
+      "Talk about opinions, mistaken ideas and jokes",
+      "Talk about supplies, returned possessions and removal",
+      "Express objections and legal action",
+      "Understand very informal adult British English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HAVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HAVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "have it off / have it away with somebody",
+    "fixedHighlight": "have it off / have it away with somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 HAVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HAVE expression that gives the same meaning.",
+    "correct": "had it off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請按照例子中的位置使用人物或事物:have him down as a teacherhave them overhave it back；部分片語也可以使用 have got:We’ve got the builders in.I’ve got nothing against him.We’ve got enough food in.",
+    "variableEn": "Keep the same people, things, time and meaning. Follow the word positions shown in the examples: have him down as a teacher have them over have it back Have got is also possible in some expressions: We’ve got the builders in. I’ve got nothing against him. We’ve got enough food in.",
+    "variableItemsZh": [
+      "have it off / have it away with somebody",
+      "have somebody down as something",
+      "have somebody in / have got somebody in",
+      "have somebody over / have somebody around",
+      "have somebody up for something",
+      "have something against somebody/something / have got something against somebody/something",
+      "have something back",
+      "have something in / have got something in",
+      "have something out"
+    ],
+    "variableItemsEn": [
+      "have it off / have it away with somebody",
+      "have somebody down as something",
+      "have somebody in / have got somebody in",
+      "have somebody over / have somebody around",
+      "have somebody up for something",
+      "have something against somebody/something / have got something against somebody/something",
+      "have something back",
+      "have something in / have got something in",
+      "have something out"
+    ],
+    "forms": [
+      {
+        "formZh": "(非常口語,只適合成人語境)與某人發生性關係",
+        "formEn": "have it off / have it away with somebody",
+        "exampleZh": "報章聲稱兩名演員曾發生性關係。",
+        "exampleEn": "The newspaper claimed that the two actors had it off.",
+        "highlight": "had it off"
+      },
+      {
+        "formZh": "認為某人是某種人;把某人記錄為某身分",
+        "formEn": "have somebody down as something",
+        "exampleZh": "我原以為他年長得多。",
+        "exampleEn": "I had him down as a much older man.",
+        "highlight": "had him down"
+      },
+      {
+        "formZh": "安排某人到家中或工作地點維修、工作或提供協助",
+        "formEn": "have somebody in / have got somebody in",
+        "exampleZh": "他們整個星期都安排了裝修工人到來工作。",
+        "exampleEn": "They’ve got the builders in all week.",
+        "highlight": "They’ve"
+      },
+      {
+        "formZh": "邀請某人到家中作客",
+        "formEn": "have somebody over / have somebody around",
+        "exampleZh": "他們昨晚邀請了一些朋友到家中作客。",
+        "exampleEn": "They had some friends over last night.",
+        "highlight": "had some friends over"
+      },
+      {
+        "formZh": "因某事起訴某人;把某人帶上法庭",
+        "formEn": "have somebody up for something",
+        "exampleZh": "他們以持械行劫罪起訴他。",
+        "exampleEn": "They had him up for armed robbery.",
+        "highlight": "had him up for"
+      },
+      {
+        "formZh": "對某人或某事有不滿、反感或成見",
+        "formEn": "have something against somebody/something / have got something against somebody/something",
+        "exampleZh": "我對她的家人沒有任何不滿。",
+        "exampleEn": "I’ve got nothing against her family.",
+        "highlight": "I’ve"
+      },
+      {
+        "formZh": "取回或收回某物",
+        "formEn": "have something back",
+        "exampleZh": "我可以在星期四前取回那本書嗎?",
+        "exampleEn": "Can I have the book back by Thursday?",
+        "highlight": "have the book back"
+      },
+      {
+        "formZh": "家中或店內備有某物;有存貨",
+        "formEn": "have something in / have got something in",
+        "exampleZh": "我們家中有足夠食物供假期使用嗎?",
+        "exampleEn": "Do we have enough food in for the holiday?",
+        "highlight": "have enough food in"
+      },
+      {
+        "formZh": "讓醫生、牙醫或其他專業人員移除身體上的某物",
+        "formEn": "have something out",
+        "exampleZh": "我需要把這隻牙拔掉。",
+        "exampleEn": "I need to have this tooth out.",
+        "highlight": "have this tooth out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "(非常口語,只適合成人語境)與某人發生性關係",
+      "titleEn": "have it off / have it away with somebody",
+      "formula": "have it off / have it away with somebody",
+      "highlight": "have it off / have it away with somebody",
+      "descriptionZh": "(非常口語,只適合成人語境)與某人發生性關係",
+      "descriptionEn": "The newspaper claimed that the two actors had it off.",
+      "examples": [
+        {
+          "en": "The newspaper claimed that the two actors had it off.",
+          "zh": "報章聲稱兩名演員曾發生性關係。",
+          "highlight": "had it off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "認為某人是某種人;把某人記錄為某身分",
+      "titleEn": "have somebody down as something",
+      "formula": "have somebody down as something",
+      "highlight": "have somebody down as something",
+      "descriptionZh": "認為某人是某種人;把某人記錄為某身分",
+      "descriptionEn": "I had him down as a much older man.",
+      "examples": [
+        {
+          "en": "I had him down as a much older man.",
+          "zh": "我原以為他年長得多。",
+          "highlight": "had him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "安排某人到家中或工作地點維修、工作或提供協助",
+      "titleEn": "have somebody in / have got somebody in",
+      "formula": "have somebody in / have got somebody in",
+      "highlight": "have somebody in / have got somebody in",
+      "descriptionZh": "安排某人到家中或工作地點維修、工作或提供協助",
+      "descriptionEn": "They’ve got the builders in all week.",
+      "examples": [
+        {
+          "en": "They’ve got the builders in all week.",
+          "zh": "他們整個星期都安排了裝修工人到來工作。",
+          "highlight": "They’ve"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "邀請某人到家中作客",
+      "titleEn": "have somebody over / have somebody around",
+      "formula": "have somebody over / have somebody around",
+      "highlight": "have somebody over / have somebody around",
+      "descriptionZh": "邀請某人到家中作客",
+      "descriptionEn": "They had some friends over last night.",
+      "examples": [
+        {
+          "en": "They had some friends over last night.",
+          "zh": "他們昨晚邀請了一些朋友到家中作客。",
+          "highlight": "had some friends over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因某事起訴某人;把某人帶上法庭",
+      "titleEn": "have somebody up for something",
+      "formula": "have somebody up for something",
+      "highlight": "have somebody up for something",
+      "descriptionZh": "因某事起訴某人;把某人帶上法庭",
+      "descriptionEn": "They had him up for armed robbery.",
+      "examples": [
+        {
+          "en": "They had him up for armed robbery.",
+          "zh": "他們以持械行劫罪起訴他。",
+          "highlight": "had him up for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "對某人或某事有不滿、反感或成見",
+      "titleEn": "have something against somebody/something / have got something against somebody/something",
+      "formula": "have something against somebody/something / have got something against somebody/something",
+      "highlight": "have something against somebody/something / have got something against somebody/something",
+      "descriptionZh": "對某人或某事有不滿、反感或成見",
+      "descriptionEn": "I’ve got nothing against her family.",
+      "examples": [
+        {
+          "en": "I’ve got nothing against her family.",
+          "zh": "我對她的家人沒有任何不滿。",
+          "highlight": "I’ve"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "取回或收回某物",
+      "titleEn": "have something back",
+      "formula": "have something back",
+      "highlight": "have something back",
+      "descriptionZh": "取回或收回某物",
+      "descriptionEn": "Can I have the book back by Thursday?",
+      "examples": [
+        {
+          "en": "Can I have the book back by Thursday?",
+          "zh": "我可以在星期四前取回那本書嗎?",
+          "highlight": "have the book back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "家中或店內備有某物;有存貨",
+      "titleEn": "have something in / have got something in",
+      "formula": "have something in / have got something in",
+      "highlight": "have something in / have got something in",
+      "descriptionZh": "家中或店內備有某物;有存貨",
+      "descriptionEn": "Do we have enough food in for the holiday?",
+      "examples": [
+        {
+          "en": "Do we have enough food in for the holiday?",
+          "zh": "我們家中有足夠食物供假期使用嗎?",
+          "highlight": "have enough food in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "讓醫生、牙醫或其他專業人員移除身體上的某物",
+      "titleEn": "have something out",
+      "formula": "have something out",
+      "highlight": "have something out",
+      "descriptionZh": "讓醫生、牙醫或其他專業人員移除身體上的某物",
+      "descriptionEn": "I need to have this tooth out.",
+      "examples": [
+        {
+          "en": "I need to have this tooth out.",
+          "zh": "我需要把這隻牙拔掉。",
+          "highlight": "have this tooth out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "安排工作人員或客人到訪",
+      "titleEn": "Arrange visits and practical help",
+      "zh": "have somebody in 可以表示安排工人到來工作;have somebody over 則表示邀請客人到家中作客。",
+      "en": "Have somebody in can describe arranging for workers to come, while have somebody over describes inviting guests to your home."
+    },
+    {
+      "titleZh": "談論看法、錯誤印象和玩笑",
+      "titleEn": "Talk about opinions, mistaken ideas and jokes",
+      "zh": "你可以用 have somebody down as 表示對某人的看法,也可以用 have somebody on 表示哄騙或戲弄某人。",
+      "en": "You can have somebody down as a particular type of person or have somebody on by making them believe something untrue."
+    },
+    {
+      "titleZh": "談論物資、取回物品和移除東西",
+      "titleEn": "Talk about supplies, returned possessions and removal",
+      "zh": "have something in 可以表示備有物資;have something back 表示取回物品;have something out則表示把某物移除。",
+      "en": "Have something in describes available supplies, have something back describes receiving something again, and have something out describes removal."
+    },
+    {
+      "titleZh": "表達不滿和法律行動",
+      "titleEn": "Express objections and legal action",
+      "zh": "have something against somebody 表示對某人有不滿;have somebody up 則表示起訴某人。",
+      "en": "Have something against somebody describes a negative feeling, while have somebody up describes taking legal action against a person."
+    },
+    {
+      "titleZh": "理解非常口語的成人英式英語",
+      "titleEn": "Understand very informal adult British English",
+      "zh": "have it off 和 have it away 可能出現在英國電影、娛樂新聞和成人之間的非正式對話中。懂得它們的意思並不代表你必須親自使用。",
+      "en": "Have it off and have it away may appear in British films, gossip and informal adult conversations. Understanding them does not mean that you need to use them yourself."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "安排工作人員或客人到訪",
+      "談論看法、錯誤印象和玩笑",
+      "談論物資、取回物品和移除東西",
+      "表達不滿和法律行動",
+      "理解非常口語的成人英式英語"
+    ],
+    "contextsEn": [
+      "Arrange visits and practical help",
+      "Talk about opinions, mistaken ideas and jokes",
+      "Talk about supplies, returned possessions and removal",
+      "Express objections and legal action",
+      "Understand very informal adult British English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "安排工作人員或客人到訪",
+        "titleEn": "Arrange visits and practical help",
+        "zh": "have somebody in 可以表示安排工人到來工作;have somebody over 則表示邀請客人到家中作客。",
+        "en": "Have somebody in can describe arranging for workers to come, while have somebody over describes inviting guests to your home.",
+        "examples": [
+          {
+            "en": "The newspaper claimed that the two actors had it off.",
+            "zh": "報章聲稱兩名演員曾發生性關係。",
+            "highlight": "had it off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論看法、錯誤印象和玩笑",
+        "titleEn": "Talk about opinions, mistaken ideas and jokes",
+        "zh": "你可以用 have somebody down as 表示對某人的看法,也可以用 have somebody on 表示哄騙或戲弄某人。",
+        "en": "You can have somebody down as a particular type of person or have somebody on by making them believe something untrue.",
+        "examples": [
+          {
+            "en": "I had him down as a much older man.",
+            "zh": "我原以為他年長得多。",
+            "highlight": "had him down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論物資、取回物品和移除東西",
+        "titleEn": "Talk about supplies, returned possessions and removal",
+        "zh": "have something in 可以表示備有物資;have something back 表示取回物品;have something out則表示把某物移除。",
+        "en": "Have something in describes available supplies, have something back describes receiving something again, and have something out describes removal.",
+        "examples": [
+          {
+            "en": "They’ve got the builders in all week.",
+            "zh": "他們整個星期都安排了裝修工人到來工作。",
+            "highlight": "They’ve"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達不滿和法律行動",
+        "titleEn": "Express objections and legal action",
+        "zh": "have something against somebody 表示對某人有不滿;have somebody up 則表示起訴某人。",
+        "en": "Have something against somebody describes a negative feeling, while have somebody up describes taking legal action against a person.",
+        "examples": [
+          {
+            "en": "They had some friends over last night.",
+            "zh": "他們昨晚邀請了一些朋友到家中作客。",
+            "highlight": "had some friends over"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解非常口語的成人英式英語",
+        "titleEn": "Understand very informal adult British English",
+        "zh": "have it off 和 have it away 可能出現在英國電影、娛樂新聞和成人之間的非正式對話中。懂得它們的意思並不代表你必須親自使用。",
+        "en": "Have it off and have it away may appear in British films, gossip and informal adult conversations. Understanding them does not mean that you need to use them yourself.",
+        "examples": [
+          {
+            "en": "They had him up for armed robbery.",
+            "zh": "他們以持械行劫罪起訴他。",
+            "highlight": "had him up for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HAVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HAVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HAVE 片語動詞。",
+      "en": "Read the whole sentence and choose the HAVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請按照例子中的位置使用人物或事物:have him down as a teacherhave them overhave it back",
+      "titleEn": "Follow the word positions shown in the examples: have him down as a teacher have them over have it back.",
+      "zh": "請按照例子中的位置使用人物或事物:have him down as a teacherhave them overhave it back",
+      "en": "Follow the word positions shown in the examples: have him down as a teacher have them over have it back"
+    },
+    {
+      "titleZh": "部分片語也可以使用 have got:We’ve got the builders in.I’ve got nothing against him.We’ve got enough food in.",
+      "titleEn": "Have got is also possible in some expressions: We’ve got the builders in.",
+      "zh": "部分片語也可以使用 have got:We’ve got the builders in.I’ve got nothing against him.We’ve got enough food in.",
+      "en": "Have got is also possible in some expressions: We’ve got the builders in. I’ve got nothing against him. We’ve got enough food in."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HAVE 動詞片語句子改寫練習",
+    "titleEn": "HAVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-249-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The landlord arranged for a plumber to work in the flat today.",
+      "promptZh": "業主今天安排了一名水喉匠到單位工作。",
+      "starter": "The",
+      "answer": "The landlord has a plumber in today.",
+      "answerZh": "業主今天安排了一名水喉匠到單位工作。",
+      "highlight": "has",
+      "targetForm": "have somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I do not dislike your brother at all.",
+      "promptZh": "我完全不討厭你的兄弟。",
+      "starter": "I",
+      "answer": "I have nothing against your brother at all.",
+      "answerZh": "我完全不討厭你的兄弟。",
+      "highlight": "have nothing against",
+      "targetForm": "have something against somebody",
+      "targetMeaningZh": "對某人有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The gossip magazine claimed that the two actors had sex during the trip.",
+      "promptZh": "八卦雜誌聲稱兩名演員在旅途中曾發生性關係。",
+      "starter": "The",
+      "answer": "The gossip magazine claimed that the two actors had it off during the trip.",
+      "answerZh": "八卦雜誌聲稱兩名演員在旅途中曾發生性關係。",
+      "highlight": "had it off",
+      "targetForm": "have it off",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We invited some friends to our home last night.",
+      "promptZh": "我們昨晚邀請了一些朋友到家中作客。",
+      "starter": "We",
+      "answer": "We had some friends over last night.",
+      "answerZh": "我們昨晚邀請了一些朋友到家中作客。",
+      "highlight": "had",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I thought Mr Lee was a much older man.",
+      "promptZh": "我原以為李先生年長得多。",
+      "starter": "I",
+      "answer": "I had Mr Lee down as a much older man.",
+      "answerZh": "我原以為李先生年長得多。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "認為某人是某種人"
+    },
+    {
+      "id": "phrasal-verb-249-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Is there enough food at home for the holiday?",
+      "promptZh": "家中有足夠食物供假期使用嗎?",
+      "starter": "Do",
+      "answer": "Do we have enough food in for the holiday?",
+      "answerZh": "我們家中有足夠食物供假期使用嗎?",
+      "highlight": "Do we have",
+      "targetForm": "have something in",
+      "targetMeaningZh": "家中或店內備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "You are joking and trying to make me believe that.",
+      "promptZh": "你在開玩笑,企圖令我相信那件事。",
+      "starter": "You’re",
+      "answer": "You’re having me on.",
+      "answerZh": "你在戲弄我。",
+      "highlight": "You’re having",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The police charged him with armed robbery and took him to court.",
+      "promptZh": "警方以持械行劫罪起訴他,並把他帶上法庭。",
+      "starter": "The",
+      "answer": "The police had him up for armed robbery.",
+      "answerZh": "警方以持械行劫罪起訴他。",
+      "highlight": "had",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I need a dentist to remove this tooth.",
+      "promptZh": "我需要牙醫把這隻牙拔掉。",
+      "starter": "I",
+      "answer": "I need to have this tooth out.",
+      "answerZh": "我需要把這隻牙拔掉。",
+      "highlight": "have",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I would like my book returned by Thursday.",
+      "promptZh": "我希望在星期四前取回我的書。",
+      "starter": "I",
+      "answer": "I would like to have my book back by Thursday.",
+      "answerZh": "我希望在星期四前取回我的書。",
+      "highlight": "to have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Their friends believed that the couple had sex during the weekend trip.",
+      "promptZh": "他們的朋友相信那對情侶在週末旅行期間曾發生性關係。",
+      "starter": "Their",
+      "answer": "Their friends believed that the couple had it away during the weekend trip.",
+      "answerZh": "他們的朋友相信那對情侶在週末旅行期間曾發生性關係。",
+      "highlight": "had it away",
+      "targetForm": "have it away",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The builders are working at our house all week because we arranged it.",
+      "promptZh": "我們安排了裝修工人整個星期到家中工作。",
+      "starter": "We’ve",
+      "answer": "We’ve got the builders in all week.",
+      "answerZh": "我們安排了裝修工人整個星期到家中工作。",
+      "highlight": "We’ve got",
+      "targetForm": "have got somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The hotel recorded us as two adults and one child.",
+      "promptZh": "酒店把我們記錄為兩名成人和一名兒童。",
+      "starter": "The",
+      "answer": "The hotel had us down as two adults and one child.",
+      "answerZh": "酒店把我們記錄為兩名成人和一名兒童。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "把某人記錄為某身分"
+    },
+    {
+      "id": "phrasal-verb-249-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He said the school was closing, but he was only joking with us.",
+      "promptZh": "他說學校即將關閉,但其實只是在戲弄我們。",
+      "starter": "He",
+      "answer": "He said the school was closing, but he was only having us on.",
+      "answerZh": "他說學校即將關閉,但其實只是在戲弄我們。",
+      "highlight": "having",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We are inviting the neighbours to our home for dinner tonight.",
+      "promptZh": "我們今晚會邀請鄰居到家中吃晚飯。",
+      "starter": "We’re",
+      "answer": "We’re having the neighbours over for dinner tonight.",
+      "answerZh": "我們今晚會邀請鄰居到家中吃晚飯。",
+      "highlight": "We’re having",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She has always thought Ben was a doctor.",
+      "promptZh": "她一直以為賓是一名醫生。",
+      "starter": "She",
+      "answer": "She has always had Ben down as a doctor.",
+      "answerZh": "她一直以為賓是一名醫生。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "認為某人是某種人"
+    },
+    {
+      "id": "phrasal-verb-249-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "What is your reason for disliking this new plan?",
+      "promptZh": "你為何不喜歡這項新計劃?",
+      "starter": "What",
+      "answer": "What have you got against this new plan?",
+      "answerZh": "你為何不喜歡這項新計劃?",
+      "highlight": "have you got against",
+      "targetForm": "have got something against something",
+      "targetMeaningZh": "對某事有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Fresh bread is available at the shop every morning.",
+      "promptZh": "這間店舖每天早上都有新鮮麵包供應。",
+      "starter": "The",
+      "answer": "The shop has fresh bread in every morning.",
+      "answerZh": "這間店舖每天早上都有新鮮麵包供應。",
+      "highlight": "The shop has",
+      "targetForm": "have something in",
+      "targetMeaningZh": "店內備有某物或有存貨"
+    },
+    {
+      "id": "phrasal-verb-249-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Are you joking when you say you have won the lottery?",
+      "promptZh": "你說自己中了彩票,是在開玩笑嗎?",
+      "starter": "Are",
+      "answer": "Are you having me on when you say you have won the lottery?",
+      "answerZh": "你說自己中了彩票,是在戲弄我嗎?",
+      "highlight": "having me on",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The authorities may charge the driver with dangerous driving and take him to court.",
+      "promptZh": "當局可能會以危險駕駛罪起訴該名司機,並把他帶上法庭。",
+      "starter": "The",
+      "answer": "The authorities may have the driver up for dangerous driving.",
+      "answerZh": "當局可能會以危險駕駛罪起訴該名司機。",
+      "highlight": "have",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Your phone will be returned to you after the lesson.",
+      "promptZh": "你的電話會在課堂結束後交還給你。",
+      "starter": "You",
+      "answer": "You can have your phone back after the lesson.",
+      "answerZh": "你可以在課堂結束後取回電話。",
+      "highlight": "You can have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Did the newspaper really say that the singer had sex with the producer?",
+      "promptZh": "報章真的說那名歌手與製作人曾發生性關係嗎?",
+      "starter": "Did",
+      "answer": "Did the newspaper really say that the singer had it off with the producer?",
+      "answerZh": "報章真的說那名歌手與製作人曾發生性關係嗎?",
+      "highlight": "had it off",
+      "targetForm": "have it off with somebody",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We may need to arrange for an electrician to come and work here.",
+      "promptZh": "我們可能需要安排一名電工到這裏工作。",
+      "starter": "We",
+      "answer": "We may need to have an electrician in.",
+      "answerZh": "我們可能需要安排一名電工到這裏工作。",
+      "highlight": "have",
+      "targetForm": "have somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She is going to ask the dentist to remove a bad tooth tomorrow.",
+      "promptZh": "她明天會請牙醫拔掉一隻壞牙。",
+      "starter": "She",
+      "answer": "She is going to have a bad tooth out tomorrow.",
+      "answerZh": "她明天會拔掉一隻壞牙。",
+      "highlight": "have",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Would you like us to invite your cousins to our home this weekend?",
+      "promptZh": "你想我們這個週末邀請你的表兄弟姊妹到家中作客嗎?",
+      "starter": "Would",
+      "answer": "Would you like us to have your cousins over this weekend?",
+      "answerZh": "你想我們這個週末邀請你的表兄弟姊妹到家中作客嗎?",
+      "highlight": "have",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We do not object to the new teacher.",
+      "promptZh": "我們對新老師沒有任何不滿。",
+      "starter": "We",
+      "answer": "We haven’t got anything against the new teacher.",
+      "answerZh": "我們對新老師沒有任何不滿。",
+      "highlight": "haven’t got anything against",
+      "targetForm": "have got something against somebody",
+      "targetMeaningZh": "對某人有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They charged her with driving without a licence.",
+      "promptZh": "他們以無牌駕駛罪起訴她。",
+      "starter": "They",
+      "answer": "They had her up for driving without a licence.",
+      "answerZh": "他們以無牌駕駛罪起訴她。",
+      "highlight": "had",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "When will my deposit be returned by the library?",
+      "promptZh": "圖書館甚麼時候會退還我的按金?",
+      "starter": "When",
+      "answer": "When can I have my deposit back from the library?",
+      "answerZh": "我甚麼時候可以從圖書館取回按金?",
+      "highlight": "can I have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "We bought extra batteries, so there are now enough at home for the storm.",
+      "promptZh": "我們買了額外的電池,因此家中現已有足夠電池應付暴風雨。",
+      "starter": "We",
+      "answer": "We bought extra batteries, so we’ve now got enough batteries in for the storm.",
+      "answerZh": "我們買了額外的電池,因此家中現已有足夠電池應付暴風雨。",
+      "highlight": "we’ve",
+      "targetForm": "have got something in",
+      "targetMeaningZh": "家中備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Nina was new to the area, so we invited her to our home for tea.",
+      "promptZh": "妮娜初來這個地區,所以我們邀請她到家中喝茶。",
+      "starter": "Nina",
+      "answer": "Nina was new to the area, so we had her over for tea.",
+      "answerZh": "妮娜初來這個地區,所以我們邀請她到家中喝茶。",
+      "highlight": "had",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The report said that both adults denied having sex with each other.",
+      "promptZh": "報告指兩名成年人均否認曾與對方發生性關係。",
+      "starter": "The",
+      "answer": "The report said that both adults denied having it off with each other.",
+      "answerZh": "報告指兩名成年人均否認曾與對方發生性關係。",
+      "highlight": "having it off",
+      "targetForm": "have it off with somebody",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I do not dislike the café, but it is too expensive for me.",
+      "promptZh": "我並不討厭這間咖啡店,只是它對我來說太昂貴。",
+      "starter": "I",
+      "answer": "I have nothing against the café, but it is too expensive for me.",
+      "answerZh": "我並不討厭這間咖啡店,只是它對我來說太昂貴。",
+      "highlight": "have nothing against",
+      "targetForm": "have something against something",
+      "targetMeaningZh": "對某事有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After ten days, a nurse removed the stitches from his arm.",
+      "promptZh": "十天後,護士替他拆去手臂上的縫線。",
+      "starter": "After",
+      "answer": "After ten days, he had the stitches out of his arm.",
+      "answerZh": "十天後,他拆去了手臂上的縫線。",
+      "highlight": "he had",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Because the heating stopped working, the school arranged for an engineer to come.",
+      "promptZh": "由於暖氣停止運作,學校安排了一名維修技師到來。",
+      "starter": "Because",
+      "answer": "Because the heating stopped working, the school had an engineer in.",
+      "answerZh": "由於暖氣停止運作,學校安排了一名維修技師到來。",
+      "highlight": "had",
+      "targetForm": "have somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "At first, we thought the new coach was very strict.",
+      "promptZh": "起初,我們以為新教練非常嚴厲。",
+      "starter": "At",
+      "answer": "At first, we had the new coach down as very strict.",
+      "answerZh": "起初,我們以為新教練非常嚴厲。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "認為某人具有某種特點"
+    },
+    {
+      "id": "phrasal-verb-249-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The repair shop returned my watch to me this morning after fixing it.",
+      "promptZh": "維修店今早把修理好的手錶交還給我。",
+      "starter": "I",
+      "answer": "I had my watch back from the repair shop this morning after it was fixed.",
+      "answerZh": "維修店今早把修理好的手錶交還給我。",
+      "highlight": "I had my watch back from",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "You are surely joking when you say the cat opened the door.",
+      "promptZh": "你說那隻貓打開了門,肯定是在開玩笑。",
+      "starter": "You",
+      "answer": "You are surely having me on when you say the cat opened the door.",
+      "answerZh": "你說那隻貓打開了門,肯定是在戲弄我。",
+      "highlight": "having me on",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did the police charge him with selling fake tickets?",
+      "promptZh": "警方為何以售賣假門票罪起訴他?",
+      "starter": "Why",
+      "answer": "Why did the police have him up for selling fake tickets?",
+      "answerZh": "警方為何以售賣假門票罪起訴他?",
+      "highlight": "have",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Before the guests arrive, check that there are enough drinks at home.",
+      "promptZh": "客人到達前,檢查家中是否有足夠飲品。",
+      "starter": "Before",
+      "answer": "Before the guests arrive, check that we’ve got enough drinks in.",
+      "answerZh": "客人到達前,檢查家中是否有足夠飲品。",
+      "highlight": "arrive, check that we’ve got",
+      "targetForm": "have got something in",
+      "targetMeaningZh": "家中備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "She accused her partner of having sex with a colleague during the conference.",
+      "promptZh": "她指責伴侶在會議期間與一名同事發生性關係。",
+      "starter": "She",
+      "answer": "She accused her partner of having it away with a colleague during the conference.",
+      "answerZh": "她指責伴侶在會議期間與一名同事發生性關係。",
+      "highlight": "having it away",
+      "targetForm": "have it away with somebody",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The vet said it would be better to remove both of the dog’s bad teeth.",
+      "promptZh": "獸醫表示,最好把那隻狗的兩隻壞牙拔掉。",
+      "starter": "The",
+      "answer": "The vet said it would be better for the dog to have both bad teeth out.",
+      "answerZh": "獸醫表示,最好把那隻狗的兩隻壞牙拔掉。",
+      "highlight": "for the dog",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Why has the booking system recorded me as a child instead of an adult?",
+      "promptZh": "訂位系統為何把我記錄為兒童而不是成人?",
+      "starter": "Why",
+      "answer": "Why does the booking system have me down as a child instead of an adult?",
+      "answerZh": "訂位系統為何把我記錄為兒童而不是成人?",
+      "highlight": "does",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "把某人記錄為某身分"
+    },
+    {
+      "id": "phrasal-verb-249-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The office arranged for a worker to come and repair the broken door.",
+      "promptZh": "辦公室安排了一名工人到來修理損壞的門。",
+      "starter": "The",
+      "answer": "The office had a worker in to repair the broken door.",
+      "answerZh": "辦公室安排了一名工人到來修理損壞的門。",
+      "highlight": "had",
+      "targetForm": "have somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Why does he dislike the idea of working from home so much?",
+      "promptZh": "他為何如此不喜歡在家工作這個構思?",
+      "starter": "What",
+      "answer": "What has he got against the idea of working from home?",
+      "answerZh": "他為何如此不喜歡在家工作這個構思?",
+      "highlight": "What has",
+      "targetForm": "have got something against something",
+      "targetMeaningZh": "對某事有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We usually invite my aunt to our home when she visits the city.",
+      "promptZh": "姑母來這個城市時,我們通常會邀請她到家中作客。",
+      "starter": "We",
+      "answer": "We usually have my aunt over when she visits the city.",
+      "answerZh": "姑母來這個城市時,我們通常會邀請她到家中作客。",
+      "highlight": "have",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The novel suggests that the two married characters had sex in secret.",
+      "promptZh": "小說暗示兩名已婚角色曾秘密發生性關係。",
+      "starter": "The",
+      "answer": "The novel suggests that the two married characters had it off in secret.",
+      "answerZh": "小說暗示兩名已婚角色曾秘密發生性關係。",
+      "highlight": "had it off",
+      "targetForm": "have it off",
+      "targetMeaningZh": "發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After months of investigation, the police charged the two men with fraud.",
+      "promptZh": "經過多月調查後,警方以欺詐罪起訴兩名男子。",
+      "starter": "After",
+      "answer": "After months of investigation, the police had the two men up for fraud.",
+      "answerZh": "經過多月調查後,警方以欺詐罪起訴兩名男子。",
+      "highlight": "had",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "I thought there was no rice left, but Dad says there is still plenty at home.",
+      "promptZh": "我以為米已經用完,但爸爸說家中仍有很多。",
+      "starter": "I",
+      "answer": "I thought there was no rice left, but Dad says we’ve still got plenty in.",
+      "answerZh": "我以為米已經用完,但爸爸說家中仍有很多。",
+      "highlight": "we’ve",
+      "targetForm": "have got something in",
+      "targetMeaningZh": "家中備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The message said our flight was free, so I asked whether they were joking with us.",
+      "promptZh": "訊息說我們的航班是免費的,所以我問他們是否在戲弄我們。",
+      "starter": "The",
+      "answer": "The message said our flight was free, so I asked whether they were having us on.",
+      "answerZh": "訊息說我們的航班是免費的,所以我問他們是否在戲弄我們。",
+      "highlight": "having",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Our bags will be returned to us when the museum closes.",
+      "promptZh": "博物館關門時,我們的袋會交還給我們。",
+      "starter": "We",
+      "answer": "We can have our bags back when the museum closes.",
+      "answerZh": "博物館關門時,我們可以取回自己的袋。",
+      "highlight": "We can have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Everyone believed the quiet man was the owner, but he was only a customer.",
+      "promptZh": "所有人都以為那名沉默的男子是店主,但他只是一名顧客。",
+      "starter": "Everyone",
+      "answer": "Everyone had the quiet man down as the owner, but he was only a customer.",
+      "answerZh": "所有人都以為那名沉默的男子是店主,但他只是一名顧客。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "認為某人是某種身分"
+    },
+    {
+      "id": "phrasal-verb-249-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Because my tooth was badly damaged, I chose to get it removed instead of getting it repaired.",
+      "promptZh": "由於我的牙齒嚴重受損,我選擇把它拔掉,而不是修補它。",
+      "starter": "Because",
+      "answer": "Because my tooth was badly damaged, I chose to have it out instead of having it repaired.",
+      "answerZh": "由於我的牙齒嚴重受損,我選擇把它拔掉,而不是修補它。",
+      "highlight": "have",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "We have arranged for someone to clean the windows while the shop is closed.",
+      "promptZh": "我們已安排人員在店舖關門期間清潔窗戶。",
+      "starter": "We’ve",
+      "answer": "We’ve got someone in to clean the windows while the shop is closed.",
+      "answerZh": "我們已安排人員在店舖關門期間清潔窗戶。",
+      "highlight": "We’ve got",
+      "targetForm": "have got somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Could we invite the new neighbours to our home on Sunday?",
+      "promptZh": "我們可以在星期日邀請新鄰居到家中作客嗎?",
+      "starter": "Could",
+      "answer": "Could we have the new neighbours around on Sunday?",
+      "answerZh": "我們可以在星期日邀請新鄰居到家中作客嗎?",
+      "highlight": "have",
+      "targetForm": "have somebody around",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The police did not charge the boy with theft because the camera showed he was elsewhere.",
+      "promptZh": "警方沒有以盜竊罪起訴那名男孩,因為閉路電視顯示他當時身在別處。",
+      "starter": "The",
+      "answer": "The police did not have the boy up for theft because the camera showed he was elsewhere.",
+      "answerZh": "警方沒有以盜竊罪起訴那名男孩,因為閉路電視顯示他當時身在別處。",
+      "highlight": "have",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "For a moment, I believed your story, but now I know you were joking with me.",
+      "promptZh": "有一刻我相信了你的故事,但現在我知道你當時只是在戲弄我。",
+      "starter": "For",
+      "answer": "For a moment, I believed your story, but now I know you were having me on.",
+      "answerZh": "有一刻我相信了你的故事,但現在我知道你當時只是在戲弄我。",
+      "highlight": "having",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the new rule is inconvenient, I do not object to the people who introduced it.",
+      "promptZh": "雖然新規則帶來不便,但我對提出規則的人沒有任何不滿。",
+      "starter": "Although",
+      "answer": "Although the new rule is inconvenient, I have nothing against the people who introduced it.",
+      "answerZh": "雖然新規則帶來不便,但我對提出規則的人沒有任何不滿。",
+      "highlight": "have nothing against",
+      "targetForm": "have something against somebody",
+      "targetMeaningZh": "對某人有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The roof started leaking, so the family arranged for builders to work at the house for several days.",
+      "promptZh": "屋頂開始漏水,所以那個家庭安排裝修工人到房子工作數天。",
+      "starter": "The",
+      "answer": "The roof started leaking, so the family had the builders in for several days.",
+      "answerZh": "屋頂開始漏水,所以那個家庭安排裝修工人到房子工作數天。",
+      "highlight": "had the",
+      "targetForm": "have somebody in",
+      "targetMeaningZh": "安排某人到來工作或提供服務"
+    },
+    {
+      "id": "phrasal-verb-249-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We should not start the long weekend until we know that enough food is available at home.",
+      "promptZh": "我們應先確定家中有足夠食物,才開始度過這個長週末。",
+      "starter": "We",
+      "answer": "We should not start the long weekend until we know we’ve got enough food in.",
+      "answerZh": "我們應先確定家中有足夠食物,才開始度過這個長週末。",
+      "highlight": "the long weekend until we know we’ve got",
+      "targetForm": "have got something in",
+      "targetMeaningZh": "家中備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After the show, the singer invited a few old school friends to her home for a late meal.",
+      "promptZh": "表演結束後,那名歌手邀請幾名舊同學到家中吃宵夜。",
+      "starter": "After",
+      "answer": "After the show, the singer had a few old school friends over for a late meal.",
+      "answerZh": "表演結束後,那名歌手邀請幾名舊同學到家中吃宵夜。",
+      "highlight": "had",
+      "targetForm": "have somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-249-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Once the teacher has checked your project, she will return it to you.",
+      "promptZh": "老師檢查完你的專題後,便會把它交還給你。",
+      "starter": "Once",
+      "answer": "Once the teacher has checked your project, you can have it back.",
+      "answerZh": "老師檢查完你的專題後,你便可以取回它。",
+      "highlight": "has checked your project, you can have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The tabloid reported that the politician had sex with another adult while abroad.",
+      "promptZh": "小報報道那名政治人物在外國期間曾與另一名成年人發生性關係。",
+      "starter": "The",
+      "answer": "The tabloid reported that the politician had it away with another adult while abroad.",
+      "answerZh": "小報報道那名政治人物在外國期間曾與另一名成年人發生性關係。",
+      "highlight": "had it away",
+      "targetForm": "have it away with somebody",
+      "targetMeaningZh": "與某人發生性關係;非常口語"
+    },
+    {
+      "id": "phrasal-verb-249-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The dentist could not save my tooth, so I got it removed before the pain became worse.",
+      "promptZh": "牙醫無法保住我的牙齒,所以我在痛楚加劇前把它拔掉了。",
+      "starter": "The",
+      "answer": "The dentist could not save my tooth, so I had it out before the pain became worse.",
+      "answerZh": "牙醫無法保住我的牙齒,所以我在痛楚加劇前把它拔掉了。",
+      "highlight": "had",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    },
+    {
+      "id": "phrasal-verb-249-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "I soon realised that the caller was joking when he claimed I had won a holiday.",
+      "promptZh": "來電者聲稱我贏得了旅遊獎品,但我很快便發現他是在戲弄我。",
+      "starter": "I",
+      "answer": "I soon realised that the caller was having me on when he claimed I had won a holiday.",
+      "answerZh": "來電者聲稱我贏得了旅遊獎品,但我很快便發現他是在戲弄我。",
+      "highlight": "having me on",
+      "targetForm": "have somebody on",
+      "targetMeaningZh": "戲弄或哄騙某人"
+    },
+    {
+      "id": "phrasal-verb-249-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "If the evidence is strong enough, the authorities may charge the company director with fraud.",
+      "promptZh": "如果證據充足,當局可能會以欺詐罪起訴公司董事。",
+      "starter": "If",
+      "answer": "If the evidence is strong enough, the authorities may have the company director up for fraud.",
+      "answerZh": "如果證據充足,當局可能會以欺詐罪起訴公司董事。",
+      "highlight": "have",
+      "targetForm": "have somebody up for something",
+      "targetMeaningZh": "因某事起訴某人"
+    },
+    {
+      "id": "phrasal-verb-249-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The email listed Jordan as the team leader, although another person had been chosen.",
+      "promptZh": "電郵把佐敦列為隊長,儘管獲選的是另一個人。",
+      "starter": "The",
+      "answer": "The email had Jordan down as the team leader, although another person had been chosen.",
+      "answerZh": "電郵把佐敦列為隊長,儘管獲選的是另一個人。",
+      "highlight": "had",
+      "targetForm": "have somebody down as something",
+      "targetMeaningZh": "把某人記錄為某身分"
+    },
+    {
+      "id": "phrasal-verb-249-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Do not think I dislike your proposal; I only want one part changed.",
+      "promptZh": "不要以為我不喜歡你的建議;我只是希望修改其中一部分。",
+      "starter": "Don’t",
+      "answer": "Don’t think I have anything against your proposal; I only want one part changed.",
+      "answerZh": "不要以為我不喜歡你的建議;我只是希望修改其中一部分。",
+      "highlight": "Don’t",
+      "targetForm": "have something against something",
+      "targetMeaningZh": "對某事有不滿或反感"
+    },
+    {
+      "id": "phrasal-verb-249-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before the storm arrives, make sure there are enough candles and batteries at home.",
+      "promptZh": "暴風雨到來前,確保家中備有足夠蠟燭和電池。",
+      "starter": "Before",
+      "answer": "Before the storm arrives, make sure we’ve got enough candles and batteries in.",
+      "answerZh": "暴風雨到來前,確保家中備有足夠蠟燭和電池。",
+      "highlight": "the storm arrives, make sure we’ve got",
+      "targetForm": "have got something in",
+      "targetMeaningZh": "家中備有某物"
+    },
+    {
+      "id": "phrasal-verb-249-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The repair shop promised to return my laptop before Monday’s meeting.",
+      "promptZh": "維修店答應在星期一的會議前把手提電腦交還給我。",
+      "starter": "The",
+      "answer": "The repair shop promised that I could have my laptop back before Monday’s meeting.",
+      "answerZh": "維修店答應在星期一的會議前把手提電腦交還給我。",
+      "highlight": "that I could have",
+      "targetForm": "have something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-249-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "She waited for months, but at last she let the dentist remove the painful tooth.",
+      "promptZh": "她等了幾個月,但最後還是讓牙醫拔掉那隻疼痛的牙齒。",
+      "starter": "She",
+      "answer": "She waited for months, but at last she had the painful tooth out.",
+      "answerZh": "她等了幾個月,但最後還是把那隻疼痛的牙齒拔掉了。",
+      "highlight": "had",
+      "targetForm": "have something out",
+      "targetMeaningZh": "讓專業人員把某物移除"
+    }
+  ]
+}

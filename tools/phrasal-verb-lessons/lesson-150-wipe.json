@@ -1,0 +1,1671 @@
+{
+  "id": "phrasal-verb-150",
+  "order": 150,
+  "slug": "wipe",
+  "version": "1",
+  "title": "WIPE 動詞片語",
+  "titleEn": "Wipe",
+  "titleZh": "WIPE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 149 - WIPE.pdf",
+    "sourceNumber": 149,
+    "pageCount": 17,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WIPE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WIPE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WIPE",
+      "highlight": "WIPE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Please wipe the desk down before class.",
+      "zh": "上課前請把書桌整張抹乾淨。",
+      "highlight": "wipe the desk down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She wiped the paint off her hands.",
+      "zh": "她把手上的油漆擦掉。",
+      "highlight": "wiped the paint off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ben wiped out on the last wave.",
+      "zh": "賓在最後一道浪上失去平衡跌倒。",
+      "highlight": "wiped out on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某物的整個表面抹乾淨；把污漬、食物或其他物質擦掉；在滑浪、滑板等活動中失去平衡跌倒；在比賽中徹底擊敗某人或某隊；徹底消滅、摧毀或清除某物；把洗好的餐具抹乾;主要用於英式英語；用布把濺出的液體或污物抹走",
+    "en": "wipe something down; wipe something off / wipe something off something; wipe out / wipe out on something; wipe somebody out; wipe something out; wipe up; wipe something up",
+    "naturalZh": [
+      "把某物的整個表面抹乾淨",
+      "把污漬、食物或其他物質擦掉",
+      "在滑浪、滑板等活動中失去平衡跌倒",
+      "在比賽中徹底擊敗某人或某隊",
+      "徹底消滅、摧毀或清除某物",
+      "把洗好的餐具抹乾;主要用於英式英語",
+      "用布把濺出的液體或污物抹走"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "wipe something down",
+      "titleZh": "把某物的整個表面抹乾淨",
+      "titleEn": "wipe something down",
+      "descriptionZh": "把某物的整個表面抹乾淨",
+      "descriptionEn": "Please wipe the desk down before class.",
+      "examples": [
+        {
+          "en": "Please wipe the desk down before class.",
+          "zh": "上課前請把書桌整張抹乾淨。",
+          "highlight": "wipe the desk down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wipe something off / wipe something off something",
+      "titleZh": "把污漬、食物或其他物質擦掉",
+      "titleEn": "wipe something off / wipe something off something",
+      "descriptionZh": "把污漬、食物或其他物質擦掉",
+      "descriptionEn": "She wiped the paint off her hands.",
+      "examples": [
+        {
+          "en": "She wiped the paint off her hands.",
+          "zh": "她把手上的油漆擦掉。",
+          "highlight": "wiped the paint off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wipe out / wipe out on something",
+      "titleZh": "在滑浪、滑板等活動中失去平衡跌倒",
+      "titleEn": "wipe out / wipe out on something",
+      "descriptionZh": "在滑浪、滑板等活動中失去平衡跌倒",
+      "descriptionEn": "Ben wiped out on the last wave.",
+      "examples": [
+        {
+          "en": "Ben wiped out on the last wave.",
+          "zh": "賓在最後一道浪上失去平衡跌倒。",
+          "highlight": "wiped out on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wipe somebody out",
+      "titleZh": "在比賽中徹底擊敗某人或某隊",
+      "titleEn": "wipe somebody out",
+      "descriptionZh": "在比賽中徹底擊敗某人或某隊",
+      "descriptionEn": "Our team wiped them out 6–0.",
+      "examples": [
+        {
+          "en": "Our team wiped them out 6–0.",
+          "zh": "我們的球隊以六比零大勝他們。",
+          "highlight": "wiped them out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wipe something out",
+      "titleZh": "徹底消滅、摧毀或清除某物",
+      "titleEn": "wipe something out",
+      "descriptionZh": "徹底消滅、摧毀或清除某物",
+      "descriptionEn": "The cold winter wiped out many plants.",
+      "examples": [
+        {
+          "en": "The cold winter wiped out many plants.",
+          "zh": "寒冬令許多植物全數死亡。",
+          "highlight": "wiped out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wipe up",
+      "titleZh": "把洗好的餐具抹乾;主要用於英式英語",
+      "titleEn": "wipe up",
+      "descriptionZh": "把洗好的餐具抹乾;主要用於英式英語",
+      "descriptionEn": "I’ll wash the cups; you wipe up.",
+      "examples": [
+        {
+          "en": "I’ll wash the cups; you wipe up.",
+          "zh": "我來洗杯,你把它們抹乾。",
+          "highlight": "wipe up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wipe something up",
+      "titleZh": "用布把濺出的液體或污物抹走",
+      "titleEn": "wipe something up",
+      "descriptionZh": "用布把濺出的液體或污物抹走",
+      "descriptionEn": "He wiped up the spilled juice.",
+      "examples": [
+        {
+          "en": "He wiped up the spilled juice.",
+          "zh": "他把濺出的果汁抹乾淨。",
+          "highlight": "wiped up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WIPE 片語動詞的實際用途",
+    "labelEn": "WIPE Phrasal Verbs in Use",
+    "summaryZh": "wipe down 表示清潔整個表面;wipe off 則表示擦掉某一處污漬或物質。；你可以用 wipe something up 表示抹走濺出的飲品,也可以在英式英語中用 wipe up 表示把洗好的餐具抹乾。；wipe out 可以表示某人從滑浪板或滑板上跌倒,也可以表示一支球隊以大比數擊敗對手。；wipe something out 表示某事物被完全或幾乎完全消滅。",
+    "summaryEn": "Wipe down describes cleaning a whole surface, while wipe off describes removing a particular mark or substance. You can wipe up spilled drinks and use wipe up in British English when drying washed dishes. Wipe out may describe someone falling from a surfboard or skateboard, or a team winning by a very large score. Wipe something out shows that nothing, or almost nothing, remains.",
+    "contextsZh": [
+      "清楚表達不同的清潔工作",
+      "自然談論濺瀉物和廚房工作",
+      "更容易理解運動英語",
+      "表達徹底清除或摧毀"
+    ],
+    "contextsEn": [
+      "Talk clearly about different cleaning jobs",
+      "Handle spills and kitchen jobs naturally",
+      "Understand sports English more easily",
+      "Describe complete removal or destruction"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WIPE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WIPE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "wipe something down",
+    "fixedHighlight": "wipe something down",
+    "fixedZh": "閱讀整句,選出意思相同的 WIPE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WIPE expression that gives the same meaning.",
+    "correct": "wipe the desk down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；wipe out 有三種非常不同的用法,可以表示在滑板或滑浪時跌倒、在比賽中徹底擊敗對手,或徹底摧毀某事物。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: wipe it down wipe it off wipe them out wipe it up Wipe out has three very different uses. It can describe falling during a board sport, defeating another team completely or destroying something completely. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "wipe something down",
+      "wipe something off / wipe something off something",
+      "wipe out / wipe out on something",
+      "wipe somebody out",
+      "wipe something out",
+      "wipe up",
+      "wipe something up"
+    ],
+    "variableItemsEn": [
+      "wipe something down",
+      "wipe something off / wipe something off something",
+      "wipe out / wipe out on something",
+      "wipe somebody out",
+      "wipe something out",
+      "wipe up",
+      "wipe something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某物的整個表面抹乾淨",
+        "formEn": "wipe something down",
+        "exampleZh": "上課前請把書桌整張抹乾淨。",
+        "exampleEn": "Please wipe the desk down before class.",
+        "highlight": "wipe the desk down"
+      },
+      {
+        "formZh": "把污漬、食物或其他物質擦掉",
+        "formEn": "wipe something off / wipe something off something",
+        "exampleZh": "她把手上的油漆擦掉。",
+        "exampleEn": "She wiped the paint off her hands.",
+        "highlight": "wiped the paint off"
+      },
+      {
+        "formZh": "在滑浪、滑板等活動中失去平衡跌倒",
+        "formEn": "wipe out / wipe out on something",
+        "exampleZh": "賓在最後一道浪上失去平衡跌倒。",
+        "exampleEn": "Ben wiped out on the last wave.",
+        "highlight": "wiped out on"
+      },
+      {
+        "formZh": "在比賽中徹底擊敗某人或某隊",
+        "formEn": "wipe somebody out",
+        "exampleZh": "我們的球隊以六比零大勝他們。",
+        "exampleEn": "Our team wiped them out 6–0.",
+        "highlight": "wiped them out"
+      },
+      {
+        "formZh": "徹底消滅、摧毀或清除某物",
+        "formEn": "wipe something out",
+        "exampleZh": "寒冬令許多植物全數死亡。",
+        "exampleEn": "The cold winter wiped out many plants.",
+        "highlight": "wiped out"
+      },
+      {
+        "formZh": "把洗好的餐具抹乾;主要用於英式英語",
+        "formEn": "wipe up",
+        "exampleZh": "我來洗杯,你把它們抹乾。",
+        "exampleEn": "I’ll wash the cups; you wipe up.",
+        "highlight": "wipe up"
+      },
+      {
+        "formZh": "用布把濺出的液體或污物抹走",
+        "formEn": "wipe something up",
+        "exampleZh": "他把濺出的果汁抹乾淨。",
+        "exampleEn": "He wiped up the spilled juice.",
+        "highlight": "wiped up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某物的整個表面抹乾淨",
+      "titleEn": "wipe something down",
+      "formula": "wipe something down",
+      "highlight": "wipe something down",
+      "descriptionZh": "把某物的整個表面抹乾淨",
+      "descriptionEn": "Please wipe the desk down before class.",
+      "examples": [
+        {
+          "en": "Please wipe the desk down before class.",
+          "zh": "上課前請把書桌整張抹乾淨。",
+          "highlight": "wipe the desk down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把污漬、食物或其他物質擦掉",
+      "titleEn": "wipe something off / wipe something off something",
+      "formula": "wipe something off / wipe something off something",
+      "highlight": "wipe something off / wipe something off something",
+      "descriptionZh": "把污漬、食物或其他物質擦掉",
+      "descriptionEn": "She wiped the paint off her hands.",
+      "examples": [
+        {
+          "en": "She wiped the paint off her hands.",
+          "zh": "她把手上的油漆擦掉。",
+          "highlight": "wiped the paint off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在滑浪、滑板等活動中失去平衡跌倒",
+      "titleEn": "wipe out / wipe out on something",
+      "formula": "wipe out / wipe out on something",
+      "highlight": "wipe out / wipe out on something",
+      "descriptionZh": "在滑浪、滑板等活動中失去平衡跌倒",
+      "descriptionEn": "Ben wiped out on the last wave.",
+      "examples": [
+        {
+          "en": "Ben wiped out on the last wave.",
+          "zh": "賓在最後一道浪上失去平衡跌倒。",
+          "highlight": "wiped out on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在比賽中徹底擊敗某人或某隊",
+      "titleEn": "wipe somebody out",
+      "formula": "wipe somebody out",
+      "highlight": "wipe somebody out",
+      "descriptionZh": "在比賽中徹底擊敗某人或某隊",
+      "descriptionEn": "Our team wiped them out 6–0.",
+      "examples": [
+        {
+          "en": "Our team wiped them out 6–0.",
+          "zh": "我們的球隊以六比零大勝他們。",
+          "highlight": "wiped them out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "徹底消滅、摧毀或清除某物",
+      "titleEn": "wipe something out",
+      "formula": "wipe something out",
+      "highlight": "wipe something out",
+      "descriptionZh": "徹底消滅、摧毀或清除某物",
+      "descriptionEn": "The cold winter wiped out many plants.",
+      "examples": [
+        {
+          "en": "The cold winter wiped out many plants.",
+          "zh": "寒冬令許多植物全數死亡。",
+          "highlight": "wiped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把洗好的餐具抹乾;主要用於英式英語",
+      "titleEn": "wipe up",
+      "formula": "wipe up",
+      "highlight": "wipe up",
+      "descriptionZh": "把洗好的餐具抹乾;主要用於英式英語",
+      "descriptionEn": "I’ll wash the cups; you wipe up.",
+      "examples": [
+        {
+          "en": "I’ll wash the cups; you wipe up.",
+          "zh": "我來洗杯,你把它們抹乾。",
+          "highlight": "wipe up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用布把濺出的液體或污物抹走",
+      "titleEn": "wipe something up",
+      "formula": "wipe something up",
+      "highlight": "wipe something up",
+      "descriptionZh": "用布把濺出的液體或污物抹走",
+      "descriptionEn": "He wiped up the spilled juice.",
+      "examples": [
+        {
+          "en": "He wiped up the spilled juice.",
+          "zh": "他把濺出的果汁抹乾淨。",
+          "highlight": "wiped up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達不同的清潔工作",
+      "titleEn": "Talk clearly about different cleaning jobs",
+      "zh": "wipe down 表示清潔整個表面;wipe off 則表示擦掉某一處污漬或物質。",
+      "en": "Wipe down describes cleaning a whole surface, while wipe off describes removing a particular mark or substance."
+    },
+    {
+      "titleZh": "自然談論濺瀉物和廚房工作",
+      "titleEn": "Handle spills and kitchen jobs naturally",
+      "zh": "你可以用 wipe something up 表示抹走濺出的飲品,也可以在英式英語中用 wipe up 表示把洗好的餐具抹乾。",
+      "en": "You can wipe up spilled drinks and use wipe up in British English when drying washed dishes."
+    },
+    {
+      "titleZh": "更容易理解運動英語",
+      "titleEn": "Understand sports English more easily",
+      "zh": "wipe out 可以表示某人從滑浪板或滑板上跌倒,也可以表示一支球隊以大比數擊敗對手。",
+      "en": "Wipe out may describe someone falling from a surfboard or skateboard, or a team winning by a very large score."
+    },
+    {
+      "titleZh": "表達徹底清除或摧毀",
+      "titleEn": "Describe complete removal or destruction",
+      "zh": "wipe something out 表示某事物被完全或幾乎完全消滅。",
+      "en": "Wipe something out shows that nothing, or almost nothing, remains."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達不同的清潔工作",
+      "自然談論濺瀉物和廚房工作",
+      "更容易理解運動英語",
+      "表達徹底清除或摧毀"
+    ],
+    "contextsEn": [
+      "Talk clearly about different cleaning jobs",
+      "Handle spills and kitchen jobs naturally",
+      "Understand sports English more easily",
+      "Describe complete removal or destruction"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達不同的清潔工作",
+        "titleEn": "Talk clearly about different cleaning jobs",
+        "zh": "wipe down 表示清潔整個表面;wipe off 則表示擦掉某一處污漬或物質。",
+        "en": "Wipe down describes cleaning a whole surface, while wipe off describes removing a particular mark or substance.",
+        "examples": [
+          {
+            "en": "Please wipe the desk down before class.",
+            "zh": "上課前請把書桌整張抹乾淨。",
+            "highlight": "wipe the desk down"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論濺瀉物和廚房工作",
+        "titleEn": "Handle spills and kitchen jobs naturally",
+        "zh": "你可以用 wipe something up 表示抹走濺出的飲品,也可以在英式英語中用 wipe up 表示把洗好的餐具抹乾。",
+        "en": "You can wipe up spilled drinks and use wipe up in British English when drying washed dishes.",
+        "examples": [
+          {
+            "en": "She wiped the paint off her hands.",
+            "zh": "她把手上的油漆擦掉。",
+            "highlight": "wiped the paint off"
+          }
+        ]
+      },
+      {
+        "titleZh": "更容易理解運動英語",
+        "titleEn": "Understand sports English more easily",
+        "zh": "wipe out 可以表示某人從滑浪板或滑板上跌倒,也可以表示一支球隊以大比數擊敗對手。",
+        "en": "Wipe out may describe someone falling from a surfboard or skateboard, or a team winning by a very large score.",
+        "examples": [
+          {
+            "en": "Ben wiped out on the last wave.",
+            "zh": "賓在最後一道浪上失去平衡跌倒。",
+            "highlight": "wiped out on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達徹底清除或摧毀",
+        "titleEn": "Describe complete removal or destruction",
+        "zh": "wipe something out 表示某事物被完全或幾乎完全消滅。",
+        "en": "Wipe something out shows that nothing, or almost nothing, remains.",
+        "examples": [
+          {
+            "en": "Our team wiped them out 6–0.",
+            "zh": "我們的球隊以六比零大勝他們。",
+            "highlight": "wiped them out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WIPE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WIPE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WIPE 片語動詞。",
+      "en": "Read the whole sentence and choose the WIPE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: wipe it down wipe it off wipe them out wipe it up.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: wipe it down wipe it off wipe them out wipe it up"
+    },
+    {
+      "titleZh": "wipe out 有三種非常不同的用法,可以表示在滑板或滑浪時跌倒、在比賽中徹底擊敗對手,或徹底摧毀某事物。請仔細閱讀整個情境。",
+      "titleEn": "Wipe out has three very different uses.",
+      "zh": "wipe out 有三種非常不同的用法,可以表示在滑板或滑浪時跌倒、在比賽中徹底擊敗對手,或徹底摧毀某事物。請仔細閱讀整個情境。",
+      "en": "Wipe out has three very different uses. It can describe falling during a board sport, defeating another team completely or destroying something completely. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WIPE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WIPE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WIPE 動詞片語句子改寫練習",
+    "titleEn": "WIPE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WIPE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WIPE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-150-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Noah cleaned the spilled milk from the floor with a cloth.",
+      "promptZh": "諾亞用布把灑在地上的牛奶抹乾淨。",
+      "starter": "Noah",
+      "answer": "Noah wiped up the spilled milk from the floor with a cloth.",
+      "answerZh": "諾亞用布把灑在地上的牛奶抹乾淨。",
+      "highlight": "wiped up",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體或污物抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please clean the school table all over before lunch.",
+      "promptZh": "午膳前請把學校的桌子整張抹乾淨。",
+      "starter": "Please",
+      "answer": "Please wipe the school table down before lunch.",
+      "answerZh": "午膳前請把學校的桌子整張抹乾淨。",
+      "highlight": "wipe",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Kai lost his balance and fell from his skateboard at the bottom of the hill.",
+      "promptZh": "啟在山坡底踩滑板時失去平衡跌倒。",
+      "starter": "Kai",
+      "answer": "Kai wiped out on his skateboard at the bottom of the hill.",
+      "answerZh": "啟在山坡底踩滑板時失去平衡跌倒。",
+      "highlight": "wiped out on",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I will wash the plates, and you can dry them with a tea towel.",
+      "promptZh": "我會洗碟,你可以用茶巾把餐具抹乾。",
+      "starter": "I",
+      "answer": "I will wash the plates, and you can wipe up with a tea towel.",
+      "answerZh": "我會洗碟,你可以用茶巾把餐具抹乾。",
+      "highlight": "wipe up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella removed the jam from the table with a damp cloth.",
+      "promptZh": "埃拉用濕布把桌上的果醬擦掉。",
+      "starter": "Ella",
+      "answer": "Ella wiped the jam off the table with a damp cloth.",
+      "answerZh": "埃拉用濕布把桌上的果醬擦掉。",
+      "highlight": "wiped",
+      "targetForm": "wipe something off something",
+      "targetMeaningZh": "把某物從一個表面擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The home team beat the visitors 7–0.",
+      "promptZh": "主隊以七比零大勝客隊。",
+      "starter": "The",
+      "answer": "The home team wiped the visitors out 7–0.",
+      "answerZh": "主隊以七比零大勝客隊。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The cold weather destroyed all the young plants.",
+      "promptZh": "寒冷天氣令所有幼小植物全數死亡。",
+      "starter": "The",
+      "answer": "The cold weather wiped out all the young plants.",
+      "answerZh": "寒冷天氣令所有幼小植物全數死亡。",
+      "highlight": "wiped out",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅或摧毀某物"
+    },
+    {
+      "id": "phrasal-verb-150-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Sam cleaned the kitchen counter all over after making sandwiches.",
+      "promptZh": "山姆做完三文治後,把廚房工作枱整個抹乾淨。",
+      "starter": "Sam",
+      "answer": "Sam wiped the kitchen counter down after making sandwiches.",
+      "answerZh": "山姆做完三文治後,把廚房工作枱整個抹乾淨。",
+      "highlight": "wiped",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Use this cloth to clean the spilled juice from the floor.",
+      "promptZh": "用這塊布把濺在地上的果汁抹乾淨。",
+      "starter": "Use",
+      "answer": "Use this cloth to wipe up the spilled juice from the floor.",
+      "answerZh": "用這塊布把濺在地上的果汁抹乾淨。",
+      "highlight": "wipe up",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體或污物抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Lena lost her balance and fell on her first wave.",
+      "promptZh": "莉娜在第一道浪上失去平衡跌倒。",
+      "starter": "Lena",
+      "answer": "Lena wiped out on her first wave.",
+      "answerZh": "莉娜在第一道浪上失去平衡跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑浪時失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "He removed the mud from his shoes with an old towel.",
+      "promptZh": "他用一條舊毛巾把鞋上的泥擦掉。",
+      "starter": "He",
+      "answer": "He wiped the mud off his shoes with an old towel.",
+      "answerZh": "他用一條舊毛巾把鞋上的泥擦掉。",
+      "highlight": "wiped",
+      "targetForm": "wipe something off something",
+      "targetMeaningZh": "把某物從一個表面擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The strong cleaning liquid completely removed all the germs on the toys.",
+      "promptZh": "強力清潔液把玩具上的細菌全部清除。",
+      "starter": "The",
+      "answer": "The strong cleaning liquid wiped out all the germs on the toys.",
+      "answerZh": "強力清潔液把玩具上的細菌全部清除。",
+      "highlight": "wiped out",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅或清除某物"
+    },
+    {
+      "id": "phrasal-verb-150-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "After dinner, my brother dried the dishes while I washed them.",
+      "promptZh": "晚飯後,我洗碗碟,弟弟則把它們抹乾。",
+      "starter": "After",
+      "answer": "After dinner, my brother wiped up while I washed the dishes.",
+      "answerZh": "晚飯後,我洗碗碟,弟弟則把它們抹乾。",
+      "highlight": "wiped up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Our class team beat the other class 10–1.",
+      "promptZh": "我們的班隊以十比一大勝另一班。",
+      "starter": "Our",
+      "answer": "Our class team wiped the other class out 10–1.",
+      "answerZh": "我們的班隊以十比一大勝另一班。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The sticker marks have been removed from the window with a cloth.",
+      "promptZh": "窗上的貼紙痕跡已經用布擦掉。",
+      "starter": "The",
+      "answer": "The sticker marks have been wiped off the window with a cloth.",
+      "answerZh": "窗上的貼紙痕跡已經用布擦掉。",
+      "highlight": "wiped off",
+      "targetForm": "wipe something off something",
+      "targetMeaningZh": "把某物從一個表面擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The new rules have completely stopped cheating in the game.",
+      "promptZh": "新規則已徹底杜絕遊戲中的作弊行為。",
+      "starter": "The",
+      "answer": "The new rules have wiped out cheating in the game.",
+      "answerZh": "新規則已徹底杜絕遊戲中的作弊行為。",
+      "highlight": "wiped out",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消除某事物"
+    },
+    {
+      "id": "phrasal-verb-150-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Is Leo giving all the café tables a full clean now?",
+      "promptZh": "里奧現在正把咖啡店的所有桌子逐張抹乾淨嗎?",
+      "starter": "Is",
+      "answer": "Is Leo wiping all the café tables down now?",
+      "answerZh": "里奧現在正把咖啡店的所有桌子逐張抹乾淨嗎?",
+      "highlight": "wiping",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Why did Ava lose her balance and fall on the second wave?",
+      "promptZh": "艾娃為何在第二道浪上失去平衡跌倒?",
+      "starter": "Why",
+      "answer": "Why did Ava wipe out on the second wave?",
+      "answerZh": "艾娃為何在第二道浪上失去平衡跌倒?",
+      "highlight": "wipe out",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑浪時失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We have finished washing, so I am drying the dishes now.",
+      "promptZh": "我們已經洗完餐具,所以我現在正把它們抹乾。",
+      "starter": "We",
+      "answer": "We have finished washing, so I am wiping up now.",
+      "answerZh": "我們已經洗完餐具,所以我現在正把它們抹乾。",
+      "highlight": "wiping up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The blue team may beat us very badly if we do not defend well.",
+      "promptZh": "如果我們防守不佳,藍隊可能會大比數擊敗我們。",
+      "starter": "The",
+      "answer": "The blue team may wipe us out if we do not defend well.",
+      "answerZh": "如果我們防守不佳,藍隊可能會大比數擊敗我們。",
+      "highlight": "wipe",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The cleaner has removed all the water around the sink with a cloth.",
+      "promptZh": "清潔員已用布把洗手盆周圍的水全部抹乾。",
+      "starter": "The",
+      "answer": "The cleaner has wiped up all the water around the sink with a cloth.",
+      "answerZh": "清潔員已用布把洗手盆周圍的水全部抹乾。",
+      "highlight": "wiped up",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Do not leave the sauce on your shirt; remove it with this wet cloth.",
+      "promptZh": "不要讓醬汁留在衣服上;用這塊濕布把它擦掉。",
+      "starter": "Do",
+      "answer": "Do not leave the sauce on your shirt; wipe it off with this wet cloth.",
+      "answerZh": "不要讓醬汁留在衣服上;用這塊濕布把它擦掉。",
+      "highlight": "wipe",
+      "targetForm": "wipe something off",
+      "targetMeaningZh": "把污漬或物質擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The staff are cleaning every chair all over before the hall opens.",
+      "promptZh": "禮堂開放前,職員正把每張椅子整張抹乾淨。",
+      "starter": "The",
+      "answer": "The staff are wiping every chair down before the hall opens.",
+      "answerZh": "禮堂開放前,職員正把每張椅子整張抹乾淨。",
+      "highlight": "wiping",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "One more cold night could destroy the last flowers.",
+      "promptZh": "再有一個寒冷的晚上,最後一批花可能會全部死去。",
+      "starter": "One",
+      "answer": "One more cold night could wipe out the last flowers.",
+      "answerZh": "再有一個寒冷的晚上,最後一批花可能會全部死去。",
+      "highlight": "wipe out",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底摧毀某物"
+    },
+    {
+      "id": "phrasal-verb-150-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Has the school team ever beaten another team very badly?",
+      "promptZh": "校隊曾否以非常大的比數擊敗另一支球隊?",
+      "starter": "Has",
+      "answer": "Has the school team ever wiped another team out?",
+      "answerZh": "校隊曾否以非常大的比數擊敗另一支球隊?",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "I will wash the cups if you dry the dishes afterwards.",
+      "promptZh": "如果你之後把餐具抹乾,我便負責洗杯。",
+      "starter": "I",
+      "answer": "I will wash the cups if you wipe up afterwards.",
+      "answerZh": "如果你之後把餐具抹乾,我便負責洗杯。",
+      "highlight": "wipe up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The new skater has not fallen once today.",
+      "promptZh": "那名滑板新手今天一次也沒有跌倒。",
+      "starter": "The",
+      "answer": "The new skater has not wiped out once today.",
+      "answerZh": "那名滑板新手今天一次也沒有跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Please clean the soup from the floor before someone slips.",
+      "promptZh": "請在有人滑倒前把地上的湯抹乾淨。",
+      "starter": "Please",
+      "answer": "Please wipe up the soup from the floor before someone slips.",
+      "answerZh": "請在有人滑倒前把地上的湯抹乾淨。",
+      "highlight": "wipe up",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The red team looked strong, but our players beat them 8–0.",
+      "promptZh": "紅隊看來很強,但我們的球員以八比零大勝他們。",
+      "starter": "The",
+      "answer": "The red team looked strong, but our players wiped them out 8–0.",
+      "answerZh": "紅隊看來很強,但我們的球員以八比零大勝他們。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "This screen is dusty. Please clean it all over with the soft cloth.",
+      "promptZh": "這個屏幕滿是灰塵。請用軟布把它整個抹乾淨。",
+      "starter": "This",
+      "answer": "This screen is dusty. Please wipe it down with the soft cloth.",
+      "answerZh": "這個屏幕滿是灰塵。請用軟布把它整個抹乾淨。",
+      "highlight": "wipe",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Only a few weeds remained, and the hot weather destroyed them.",
+      "promptZh": "只剩下少量雜草,而炎熱天氣令它們全部枯死。",
+      "starter": "Only",
+      "answer": "Only a few weeds remained, and the hot weather wiped them out.",
+      "answerZh": "只剩下少量雜草,而炎熱天氣令它們全部枯死。",
+      "highlight": "wiped",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅或摧毀某物"
+    },
+    {
+      "id": "phrasal-verb-150-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "There is paint on the door. Can you remove it with this cloth?",
+      "promptZh": "門上有油漆。你可以用這塊布把它擦掉嗎?",
+      "starter": "There",
+      "answer": "There is paint on the door. Can you wipe it off with this cloth?",
+      "answerZh": "門上有油漆。你可以用這塊布把它擦掉嗎?",
+      "highlight": "wipe",
+      "targetForm": "wipe something off",
+      "targetMeaningZh": "把污漬或物質擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "I dropped some tea beside the computer, so I cleaned it immediately with a towel.",
+      "promptZh": "我在電腦旁濺出了茶,所以立即用毛巾把它抹乾。",
+      "starter": "I",
+      "answer": "I dropped some tea beside the computer, so I wiped it up immediately with a towel.",
+      "answerZh": "我在電腦旁濺出了茶,所以立即用毛巾把它抹乾。",
+      "highlight": "wiped",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The board moved suddenly, and Arun lost control and fell.",
+      "promptZh": "滑板突然移動,阿倫失去控制跌倒。",
+      "starter": "The",
+      "answer": "The board moved suddenly, and Arun wiped out.",
+      "answerZh": "滑板突然移動,阿倫失去控制跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The plates are clean now. Could you dry them while I clear the table?",
+      "promptZh": "碟子已經洗乾淨。你可以在我清理桌子時把它們抹乾嗎?",
+      "starter": "The",
+      "answer": "The plates are clean now. Could you wipe up while I clear the table?",
+      "answerZh": "碟子已經洗乾淨。你可以在我清理桌子時把它們抹乾嗎?",
+      "highlight": "wipe up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Before the next group arrived, all the desks were cleaned all over.",
+      "promptZh": "下一組人到達前,所有書桌都已整張抹乾淨。",
+      "starter": "Before",
+      "answer": "Before the next group arrived, all the desks were wiped down.",
+      "answerZh": "下一組人到達前,所有書桌都已整張抹乾淨。",
+      "highlight": "wiped down",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The visitors had won every match, but our team beat them completely in the final.",
+      "promptZh": "客隊之前每場皆勝,但我們的球隊在決賽中徹底擊敗了他們。",
+      "starter": "The",
+      "answer": "The visitors had won every match, but our team wiped them out in the final.",
+      "answerZh": "客隊之前每場皆勝,但我們的球隊在決賽中徹底擊敗了他們。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "There was yoghurt on the floor. Suki used a cloth to clean it.",
+      "promptZh": "地上有乳酪。素姬用布把它抹乾淨。",
+      "starter": "There",
+      "answer": "There was yoghurt on the floor. Suki wiped it up with a cloth.",
+      "answerZh": "地上有乳酪。素姬用布把它抹乾淨。",
+      "highlight": "wiped it up with",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的食物或污物抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The writing is still on the board. Please remove it before the lesson.",
+      "promptZh": "白板上的字仍然存在。請在上課前把它擦掉。",
+      "starter": "The",
+      "answer": "The writing is still on the board. Please wipe it off before the lesson.",
+      "answerZh": "白板上的字仍然存在。請在上課前把它擦掉。",
+      "highlight": "wipe",
+      "targetForm": "wipe something off",
+      "targetMeaningZh": "把字跡或污漬擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The insects were damaging the garden, but the cold winter killed them all.",
+      "promptZh": "昆蟲正在破壞花園,但寒冬令它們全部死亡。",
+      "starter": "The",
+      "answer": "The insects were damaging the garden, but the cold winter wiped them out.",
+      "answerZh": "昆蟲正在破壞花園,但寒冬令它們全部死亡。",
+      "highlight": "wiped",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅某物"
+    },
+    {
+      "id": "phrasal-verb-150-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Mum washed the glasses, and I dried them beside her.",
+      "promptZh": "媽媽洗玻璃杯,而我在她身旁把它們抹乾。",
+      "starter": "Mum",
+      "answer": "Mum washed the glasses, and I wiped up beside her.",
+      "answerZh": "媽媽洗玻璃杯,而我在她身旁把它們抹乾。",
+      "highlight": "wiped up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The rider was moving too fast, and she fell at the last turn.",
+      "promptZh": "那名滑板手速度太快,在最後一個彎位跌倒。",
+      "starter": "The",
+      "answer": "The rider was moving too fast, and she wiped out at the last turn.",
+      "answerZh": "那名滑板手速度太快,在最後一個彎位跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Please clean the whole white table, not only the one dirty corner.",
+      "promptZh": "請把整張白色桌子抹乾淨,而不只是清潔那個骯髒的角落。",
+      "starter": "Please",
+      "answer": "Please wipe the whole white table down, not only the one dirty corner.",
+      "answerZh": "請把整張白色桌子抹乾淨,而不只是清潔那個骯髒的角落。",
+      "highlight": "wipe",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The table is already clean, but there is one piece of glue on it. Remove only the glue.",
+      "promptZh": "桌子已經很乾淨,但上面有一小塊膠水。只需把膠水擦掉。",
+      "starter": "The",
+      "answer": "The table is already clean, but wipe only the glue off it.",
+      "answerZh": "桌子已經很乾淨,只需把上面的膠水擦掉。",
+      "highlight": "wipe",
+      "targetForm": "wipe something off something",
+      "targetMeaningZh": "把某物從一個表面擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The surfer stayed on the first two waves but fell on the third.",
+      "promptZh": "那名滑浪者在首兩道浪上保持平衡,卻在第三道浪上跌倒。",
+      "starter": "The",
+      "answer": "The surfer stayed on the first two waves but wiped out on the third.",
+      "answerZh": "那名滑浪者在首兩道浪上保持平衡,卻在第三道浪上跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑浪時失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The storm did not simply damage the beach huts; it destroyed every one of them.",
+      "promptZh": "暴風雨不只是破壞了海灘小屋,而是把它們全部摧毀。",
+      "starter": "The",
+      "answer": "The storm did not simply damage the beach huts; it wiped every one of them out.",
+      "answerZh": "暴風雨不只是破壞了海灘小屋,而是把它們全部摧毀。",
+      "highlight": "wiped",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底摧毀某物"
+    },
+    {
+      "id": "phrasal-verb-150-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "We have finished cleaning the kitchen. We only need to dry the washed plates now.",
+      "promptZh": "我們已完成廚房的清潔工作,現在只需把洗好的碟子抹乾。",
+      "starter": "We",
+      "answer": "We have finished cleaning the kitchen. We only need to wipe up now.",
+      "answerZh": "我們已完成廚房的清潔工作,現在只需把洗好的碟子抹乾。",
+      "highlight": "wipe up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Do not clean the whole counter; just remove the small pool of water beside the cup.",
+      "promptZh": "不用清潔整個工作枱;只需把杯旁那一小灘水抹乾。",
+      "starter": "Do",
+      "answer": "Do not clean the whole counter; just wipe up the small pool of water beside the cup.",
+      "answerZh": "不用清潔整個工作枱;只需把杯旁那一小灘水抹乾。",
+      "highlight": "wipe up",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The final was not close: the Tigers beat the Lions 9–0.",
+      "promptZh": "決賽戰況並不接近:猛虎隊以九比零大勝雄獅隊。",
+      "starter": "The",
+      "answer": "The final was not close: the Tigers wiped the Lions out 9–0.",
+      "answerZh": "決賽戰況並不接近:猛虎隊以九比零大勝雄獅隊。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The phone does not need a full clean; just remove the fingerprints from the screen.",
+      "promptZh": "這部電話不需要完全清潔;只需擦掉屏幕上的指紋。",
+      "starter": "The",
+      "answer": "The phone does not need a full clean; just wipe the fingerprints off the screen.",
+      "answerZh": "這部電話不需要完全清潔;只需擦掉屏幕上的指紋。",
+      "highlight": "wipe",
+      "targetForm": "wipe something off something",
+      "targetMeaningZh": "把污漬或痕跡從表面擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Every chair in the café needs a quick all-over clean before opening.",
+      "promptZh": "咖啡店開門前,每張椅子都需要快速抹乾淨。",
+      "starter": "Every",
+      "answer": "Every chair in the café needs to be wiped down before opening.",
+      "answerZh": "咖啡店開門前,每張椅子都需要快速抹乾淨。",
+      "highlight": "to be wiped down",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "A bottle broke, and juice spread across the floor. The staff cleaned all of it with towels.",
+      "promptZh": "瓶子打破了,果汁流到地上。職員用毛巾把它全部抹乾淨。",
+      "starter": "A",
+      "answer": "A bottle broke, and juice spread across the floor. The staff wiped it all up with towels.",
+      "answerZh": "瓶子打破了,果汁流到地上。職員用毛巾把它全部抹乾淨。",
+      "highlight": "wiped it",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Our player did not merely win; she beat her opponent without losing a game.",
+      "promptZh": "我們的球員不只是勝出;她一局也沒有輸,徹底擊敗了對手。",
+      "starter": "Our",
+      "answer": "Our player did not merely win; she wiped her opponent out without losing a game.",
+      "answerZh": "我們的球員不只是勝出;她一局也沒有輸,徹底擊敗了對手。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The skateboarder nearly reached the end, but he lost control and fell on the last ramp.",
+      "promptZh": "那名滑板手幾乎到達終點,卻在最後一道斜台失去控制跌倒。",
+      "starter": "The",
+      "answer": "The skateboarder nearly reached the end, but he wiped out on the last ramp.",
+      "answerZh": "那名滑板手幾乎到達終點,卻在最後一道斜台失去控制跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The spray did more than make the ants leave; it killed every one of them.",
+      "promptZh": "噴劑不只是令螞蟻離開,而是把它們全部消滅。",
+      "starter": "The",
+      "answer": "The spray did more than make the ants leave; it wiped them out.",
+      "answerZh": "噴劑不只是令螞蟻離開,而是把它們全部消滅。",
+      "highlight": "wiped",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅某物"
+    },
+    {
+      "id": "phrasal-verb-150-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "One person can wash the cups while another person dries them.",
+      "promptZh": "一個人可以洗杯,另一個人則把它們抹乾。",
+      "starter": "One",
+      "answer": "One person can wash the cups while another wipes up.",
+      "answerZh": "一個人可以洗杯,另一個人則把它們抹乾。",
+      "highlight": "wipes up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "While carrying breakfast, Hana dropped a bowl of cereal. She quickly used a cloth to clean it so nobody’s shoes would become dirty.",
+      "promptZh": "哈娜拿着早餐時掉了一碗穀物片。她迅速用布把它抹乾淨,以免弄髒別人的鞋。",
+      "starter": "While",
+      "answer": "While carrying breakfast, Hana dropped a bowl of cereal. She quickly wiped it up so nobody’s shoes would become dirty.",
+      "answerZh": "哈娜拿着早餐時掉了一碗穀物片。她迅速用布把它抹乾淨,以免弄髒別人的鞋。",
+      "highlight": "wiped",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布把濺出的食物或污物抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The insects had eaten many leaves, but a very cold week killed all of them, leaving none in the garden.",
+      "promptZh": "那些昆蟲吃掉了許多葉,但一星期的嚴寒令它們全部死亡,花園裏一隻也沒有留下。",
+      "starter": "The",
+      "answer": "The insects had eaten many leaves, but a very cold week wiped them out, leaving none in the garden.",
+      "answerZh": "那些昆蟲吃掉了許多葉,但一星期的嚴寒令它們全部死亡,花園裏一隻也沒有留下。",
+      "highlight": "wiped",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底消滅某物"
+    },
+    {
+      "id": "phrasal-verb-150-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The café will open in ten minutes, and every table must be clean from edge to edge before the first customer arrives.",
+      "promptZh": "咖啡店將於十分鐘後開門,首位顧客到達前,每張桌子都必須由邊至邊抹乾淨。",
+      "starter": "The",
+      "answer": "The café will open in ten minutes, and every table must be wiped down before the first customer arrives.",
+      "answerZh": "咖啡店將於十分鐘後開門,首位顧客到達前,每張桌子都必須由邊至邊抹乾淨。",
+      "highlight": "wiped down",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The two teams were expected to be equal, but City scored seven goals and United scored none.",
+      "promptZh": "兩隊原本被認為實力相若,但城隊攻入七球,聯隊一球未入。",
+      "starter": "The",
+      "answer": "The two teams were expected to be equal, but City wiped United out 7–0.",
+      "answerZh": "兩隊原本被認為實力相若,但城隊以七比零大勝聯隊。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Nora handled the easy waves well, but when the large one arrived, she lost her balance and fell from her board.",
+      "promptZh": "諾拉能應付較小的浪,但大浪來到時,她失去平衡,從滑浪板上跌下來。",
+      "starter": "Nora",
+      "answer": "Nora handled the easy waves well, but she wiped out on the large one.",
+      "answerZh": "諾拉能應付較小的浪,但在大浪來到時失去平衡,從滑浪板上跌下來。",
+      "highlight": "she wiped out on",
+      "targetForm": "wipe out on something",
+      "targetMeaningZh": "在滑浪時失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 16,
+      "prompt": "Before returning the library book, Jay noticed chocolate on the cover and removed it carefully with a soft cloth.",
+      "promptZh": "歸還圖書館書籍前,傑發現封面上有朱古力,便用軟布小心擦掉。",
+      "starter": "Before",
+      "answer": "Before returning the library book, Jay noticed chocolate on the cover and wiped it off carefully with a soft cloth.",
+      "answerZh": "歸還圖書館書籍前,傑發現封面上有朱古力,便用軟布小心擦掉。",
+      "highlight": "wiped",
+      "targetForm": "wipe something off",
+      "targetMeaningZh": "把污漬或物質擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "Dinner is over. I can wash everything, but I need someone else to dry the plates and cups.",
+      "promptZh": "晚飯已經結束。我可以清洗所有餐具,但需要另一個人把碟子和杯抹乾。",
+      "starter": "Dinner",
+      "answer": "Dinner is over. I can wash everything, but I need someone else to wipe up.",
+      "answerZh": "晚飯已經結束。我可以清洗所有餐具,但需要另一個人把碟子和杯抹乾。",
+      "highlight": "wipe up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    },
+    {
+      "id": "phrasal-verb-150-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "The art room uses the same tables all day, so the staff clean them fully after each class.",
+      "promptZh": "美術室整天使用同一批桌子,所以職員會在每堂課後把它們整張抹乾淨。",
+      "starter": "The",
+      "answer": "The art room uses the same tables all day, so the staff wipe them down after each class.",
+      "answerZh": "美術室整天使用同一批桌子,所以職員會在每堂課後把它們整張抹乾淨。",
+      "highlight": "wipe",
+      "targetForm": "wipe something down",
+      "targetMeaningZh": "把某物的整個表面抹乾淨"
+    },
+    {
+      "id": "phrasal-verb-150-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "A child knocked the paint water over during art class. The teacher covered it with paper towels and removed all of it.",
+      "promptZh": "一名孩子在美術課上打翻了洗筆水。老師用紙巾蓋着它,並把水全部抹乾。",
+      "starter": "A",
+      "answer": "A child knocked the paint water over during art class. The teacher covered it with paper towels and wiped it all up.",
+      "answerZh": "一名孩子在美術課上打翻了洗筆水。老師用紙巾蓋着它,並把水全部抹乾。",
+      "highlight": "wiped it",
+      "targetForm": "wipe something up",
+      "targetMeaningZh": "用布或紙巾把濺出的液體抹走"
+    },
+    {
+      "id": "phrasal-verb-150-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "The Hawks had trained for months, yet the visiting team scored again and again and beat them by a huge margin.",
+      "promptZh": "鷹隊訓練了數月,但客隊接連得分,以極大差距擊敗了他們。",
+      "starter": "The",
+      "answer": "The Hawks had trained for months, yet the visiting team wiped them out.",
+      "answerZh": "鷹隊訓練了數月,但客隊仍以極大差距擊敗了他們。",
+      "highlight": "wiped",
+      "targetForm": "wipe somebody out",
+      "targetMeaningZh": "在比賽中徹底擊敗對手"
+    },
+    {
+      "id": "phrasal-verb-150-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "The glass looked dirty because of many finger marks, but one careful rub with a cloth removed them all.",
+      "promptZh": "玻璃因有許多指印而看來骯髒,但用布小心擦拭一次便把指印全部清除。",
+      "starter": "The",
+      "answer": "The glass looked dirty because of many finger marks, but one careful rub with a cloth wiped them all off.",
+      "answerZh": "玻璃因有許多指印而看來骯髒,但用布小心擦拭一次便把指印全部清除。",
+      "highlight": "wiped",
+      "targetForm": "wipe something off",
+      "targetMeaningZh": "把污漬或痕跡擦掉"
+    },
+    {
+      "id": "phrasal-verb-150-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "A new school program found and completely removed every bad file from the computers.",
+      "promptZh": "學校的新程式找出並徹底移除了電腦內所有有問題的檔案。",
+      "starter": "A",
+      "answer": "A new school program found and wiped out every bad file on the computers.",
+      "answerZh": "學校的新程式找出並徹底移除了電腦內所有有問題的檔案。",
+      "highlight": "wiped out",
+      "targetForm": "wipe something out",
+      "targetMeaningZh": "徹底移除或消滅某物"
+    },
+    {
+      "id": "phrasal-verb-150-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 17,
+      "prompt": "Just before the finish line, the skater’s wheel hit the edge and she lost control and fell.",
+      "promptZh": "就在終點線前,那名滑板手的滑輪撞到邊緣,令她失去控制跌倒。",
+      "starter": "Just",
+      "answer": "Just before the finish line, the skater’s wheel hit the edge and she wiped out.",
+      "answerZh": "就在終點線前,那名滑板手的滑輪撞到邊緣,令她失去控制跌倒。",
+      "highlight": "wiped out",
+      "targetForm": "wipe out",
+      "targetMeaningZh": "在滑板等活動中失去平衡跌倒"
+    },
+    {
+      "id": "phrasal-verb-150-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 17,
+      "prompt": "After the party, we shared the jobs: two people washed the dishes, and I dried them with a tea towel.",
+      "promptZh": "派對結束後,我們分工合作:兩個人洗餐具,而我用茶巾把它們抹乾。",
+      "starter": "After",
+      "answer": "After the party, we shared the jobs: two people washed the dishes, and I wiped up with a tea towel.",
+      "answerZh": "派對結束後,我們分工合作:兩個人洗餐具,而我用茶巾把它們抹乾。",
+      "highlight": "wiped up",
+      "targetForm": "wipe up",
+      "targetMeaningZh": "把洗好的餐具抹乾"
+    }
+  ]
+}

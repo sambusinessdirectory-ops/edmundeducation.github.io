@@ -1,0 +1,1237 @@
+{
+  "id": "phrasal-verb-208",
+  "order": 208,
+  "slug": "plug",
+  "version": "1",
+  "title": "PLUG 動詞片語",
+  "titleEn": "Plug",
+  "titleZh": "PLUG 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 206 - PLUG.pdf",
+    "sourceNumber": 206,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PLUG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PLUG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PLUG",
+      "highlight": "PLUG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Scientists have been plugging away at the problem for years.",
+      "zh": "科學家多年來一直努力處理這個問題。",
+      "highlight": "plugging away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Where does the TV plug in?",
+      "zh": "電視在哪裏接上電源?",
+      "highlight": "plug in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please plug the printer into the wall socket.",
+      "zh": "請把打印機插入牆身插座。",
+      "highlight": "plug the printer into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "持續努力工作或處理某事,即使過程漫長或困難；接上電源;接駁至插座或另一部設備；把某物接上電源;把某物插入插座或另一部設備；堵住孔洞、裂縫或開口",
+    "en": "plug away / plug away at something; plug in / plug into something; plug something in / plug something into something; plug something up",
+    "naturalZh": [
+      "持續努力工作或處理某事,即使過程漫長或困難",
+      "接上電源;接駁至插座或另一部設備",
+      "把某物接上電源;把某物插入插座或另一部設備",
+      "堵住孔洞、裂縫或開口"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "plug away / plug away at something",
+      "titleZh": "持續努力工作或處理某事,即使過程漫長或困難",
+      "titleEn": "plug away / plug away at something",
+      "descriptionZh": "持續努力工作或處理某事,即使過程漫長或困難",
+      "descriptionEn": "Scientists have been plugging away at the problem for years.",
+      "examples": [
+        {
+          "en": "Scientists have been plugging away at the problem for years.",
+          "zh": "科學家多年來一直努力處理這個問題。",
+          "highlight": "plugging away at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plug in / plug into something",
+      "titleZh": "接上電源;接駁至插座或另一部設備",
+      "titleEn": "plug in / plug into something",
+      "descriptionZh": "接上電源;接駁至插座或另一部設備",
+      "descriptionEn": "Where does the TV plug in?",
+      "examples": [
+        {
+          "en": "Where does the TV plug in?",
+          "zh": "電視在哪裏接上電源?",
+          "highlight": "plug in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plug something in / plug something into something",
+      "titleZh": "把某物接上電源;把某物插入插座或另一部設備",
+      "titleEn": "plug something in / plug something into something",
+      "descriptionZh": "把某物接上電源;把某物插入插座或另一部設備",
+      "descriptionEn": "Please plug the printer into the wall socket.",
+      "examples": [
+        {
+          "en": "Please plug the printer into the wall socket.",
+          "zh": "請把打印機插入牆身插座。",
+          "highlight": "plug the printer into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "plug something up",
+      "titleZh": "堵住孔洞、裂縫或開口",
+      "titleEn": "plug something up",
+      "descriptionZh": "堵住孔洞、裂縫或開口",
+      "descriptionEn": "We plugged the gaps up to stop the wind coming in.",
+      "examples": [
+        {
+          "en": "We plugged the gaps up to stop the wind coming in.",
+          "zh": "我們堵住縫隙,以阻止風吹進來。",
+          "highlight": "plugged the gaps up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PLUG 片語動詞的實際用途",
+    "labelEn": "PLUG Phrasal Verbs in Use",
+    "summaryZh": "plug away 可以描述某人即使需要很長時間,仍然努力完成工作。；plug something in 和 plug something into something 適合用來說明如何接駁打印機、屏幕、燈和其他設備。；plug in 和 plug into something 可以用來詢問或說明電視、電線或其他設備應接駁在哪裏。；plug something up 可以描述堵住孔洞和縫隙,以阻擋風、水或昆蟲。",
+    "summaryEn": "Plug away describes someone continuing to work hard even when a task takes a long time. Plug something in and plug something into something are useful when setting up printers, screens, lights and other equipment. Plug in and plug into something help you ask or explain where a television, cable or other device connects. Plug something up can describe blocking holes and gaps to keep out wind, water or insects.",
+    "contextsZh": [
+      "談論持續不懈的努力",
+      "清楚說明如何接駁電器",
+      "詢問設備和電線應接駁在哪裏",
+      "說明如何堵住孔洞和縫隙"
+    ],
+    "contextsEn": [
+      "Talk about steady effort",
+      "Give clear instructions about electrical equipment",
+      "Ask where devices and cables connect",
+      "Explain how openings are blocked"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PLUG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PLUG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "plug away / plug away at something",
+    "fixedHighlight": "plug away / plug away at something",
+    "fixedZh": "閱讀整句,選出意思相同的 PLUG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PLUG expression that gives the same meaning.",
+    "correct": "plugging away at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；(電視在這裏接上電源。)Plug the TV in here.(把電視插在這裏。)The first sentence describes where the TV connects. The second describes someoneconnecting it.第一句描述電視在哪裏接上電源;第二句描述某人把電視接上電源。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: plug it in plug it into the socket plug them up Compare these two uses: The TV plugs in here.",
+    "variableItemsZh": [
+      "plug away / plug away at something",
+      "plug in / plug into something",
+      "plug something in / plug something into something",
+      "plug something up"
+    ],
+    "variableItemsEn": [
+      "plug away / plug away at something",
+      "plug in / plug into something",
+      "plug something in / plug something into something",
+      "plug something up"
+    ],
+    "forms": [
+      {
+        "formZh": "持續努力工作或處理某事,即使過程漫長或困難",
+        "formEn": "plug away / plug away at something",
+        "exampleZh": "科學家多年來一直努力處理這個問題。",
+        "exampleEn": "Scientists have been plugging away at the problem for years.",
+        "highlight": "plugging away at"
+      },
+      {
+        "formZh": "接上電源;接駁至插座或另一部設備",
+        "formEn": "plug in / plug into something",
+        "exampleZh": "電視在哪裏接上電源?",
+        "exampleEn": "Where does the TV plug in?",
+        "highlight": "plug in"
+      },
+      {
+        "formZh": "把某物接上電源;把某物插入插座或另一部設備",
+        "formEn": "plug something in / plug something into something",
+        "exampleZh": "請把打印機插入牆身插座。",
+        "exampleEn": "Please plug the printer into the wall socket.",
+        "highlight": "plug the printer into"
+      },
+      {
+        "formZh": "堵住孔洞、裂縫或開口",
+        "formEn": "plug something up",
+        "exampleZh": "我們堵住縫隙,以阻止風吹進來。",
+        "exampleEn": "We plugged the gaps up to stop the wind coming in.",
+        "highlight": "plugged the gaps up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "持續努力工作或處理某事,即使過程漫長或困難",
+      "titleEn": "plug away / plug away at something",
+      "formula": "plug away / plug away at something",
+      "highlight": "plug away / plug away at something",
+      "descriptionZh": "持續努力工作或處理某事,即使過程漫長或困難",
+      "descriptionEn": "Scientists have been plugging away at the problem for years.",
+      "examples": [
+        {
+          "en": "Scientists have been plugging away at the problem for years.",
+          "zh": "科學家多年來一直努力處理這個問題。",
+          "highlight": "plugging away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "接上電源;接駁至插座或另一部設備",
+      "titleEn": "plug in / plug into something",
+      "formula": "plug in / plug into something",
+      "highlight": "plug in / plug into something",
+      "descriptionZh": "接上電源;接駁至插座或另一部設備",
+      "descriptionEn": "Where does the TV plug in?",
+      "examples": [
+        {
+          "en": "Where does the TV plug in?",
+          "zh": "電視在哪裏接上電源?",
+          "highlight": "plug in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物接上電源;把某物插入插座或另一部設備",
+      "titleEn": "plug something in / plug something into something",
+      "formula": "plug something in / plug something into something",
+      "highlight": "plug something in / plug something into something",
+      "descriptionZh": "把某物接上電源;把某物插入插座或另一部設備",
+      "descriptionEn": "Please plug the printer into the wall socket.",
+      "examples": [
+        {
+          "en": "Please plug the printer into the wall socket.",
+          "zh": "請把打印機插入牆身插座。",
+          "highlight": "plug the printer into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "堵住孔洞、裂縫或開口",
+      "titleEn": "plug something up",
+      "formula": "plug something up",
+      "highlight": "plug something up",
+      "descriptionZh": "堵住孔洞、裂縫或開口",
+      "descriptionEn": "We plugged the gaps up to stop the wind coming in.",
+      "examples": [
+        {
+          "en": "We plugged the gaps up to stop the wind coming in.",
+          "zh": "我們堵住縫隙,以阻止風吹進來。",
+          "highlight": "plugged the gaps up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論持續不懈的努力",
+      "titleEn": "Talk about steady effort",
+      "zh": "plug away 可以描述某人即使需要很長時間,仍然努力完成工作。",
+      "en": "Plug away describes someone continuing to work hard even when a task takes a long time."
+    },
+    {
+      "titleZh": "清楚說明如何接駁電器",
+      "titleEn": "Give clear instructions about electrical equipment",
+      "zh": "plug something in 和 plug something into something 適合用來說明如何接駁打印機、屏幕、燈和其他設備。",
+      "en": "Plug something in and plug something into something are useful when setting up printers, screens, lights and other equipment."
+    },
+    {
+      "titleZh": "詢問設備和電線應接駁在哪裏",
+      "titleEn": "Ask where devices and cables connect",
+      "zh": "plug in 和 plug into something 可以用來詢問或說明電視、電線或其他設備應接駁在哪裏。",
+      "en": "Plug in and plug into something help you ask or explain where a television, cable or other device connects."
+    },
+    {
+      "titleZh": "說明如何堵住孔洞和縫隙",
+      "titleEn": "Explain how openings are blocked",
+      "zh": "plug something up 可以描述堵住孔洞和縫隙,以阻擋風、水或昆蟲。",
+      "en": "Plug something up can describe blocking holes and gaps to keep out wind, water or insects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論持續不懈的努力",
+      "清楚說明如何接駁電器",
+      "詢問設備和電線應接駁在哪裏",
+      "說明如何堵住孔洞和縫隙"
+    ],
+    "contextsEn": [
+      "Talk about steady effort",
+      "Give clear instructions about electrical equipment",
+      "Ask where devices and cables connect",
+      "Explain how openings are blocked"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論持續不懈的努力",
+        "titleEn": "Talk about steady effort",
+        "zh": "plug away 可以描述某人即使需要很長時間,仍然努力完成工作。",
+        "en": "Plug away describes someone continuing to work hard even when a task takes a long time.",
+        "examples": [
+          {
+            "en": "Scientists have been plugging away at the problem for years.",
+            "zh": "科學家多年來一直努力處理這個問題。",
+            "highlight": "plugging away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明如何接駁電器",
+        "titleEn": "Give clear instructions about electrical equipment",
+        "zh": "plug something in 和 plug something into something 適合用來說明如何接駁打印機、屏幕、燈和其他設備。",
+        "en": "Plug something in and plug something into something are useful when setting up printers, screens, lights and other equipment.",
+        "examples": [
+          {
+            "en": "Where does the TV plug in?",
+            "zh": "電視在哪裏接上電源?",
+            "highlight": "plug in"
+          }
+        ]
+      },
+      {
+        "titleZh": "詢問設備和電線應接駁在哪裏",
+        "titleEn": "Ask where devices and cables connect",
+        "zh": "plug in 和 plug into something 可以用來詢問或說明電視、電線或其他設備應接駁在哪裏。",
+        "en": "Plug in and plug into something help you ask or explain where a television, cable or other device connects.",
+        "examples": [
+          {
+            "en": "Please plug the printer into the wall socket.",
+            "zh": "請把打印機插入牆身插座。",
+            "highlight": "plug the printer into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何堵住孔洞和縫隙",
+        "titleEn": "Explain how openings are blocked",
+        "zh": "plug something up 可以描述堵住孔洞和縫隙,以阻擋風、水或昆蟲。",
+        "en": "Plug something up can describe blocking holes and gaps to keep out wind, water or insects.",
+        "examples": [
+          {
+            "en": "We plugged the gaps up to stop the wind coming in.",
+            "zh": "我們堵住縫隙,以阻止風吹進來。",
+            "highlight": "plugged the gaps up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PLUG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PLUG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PLUG 片語動詞。",
+      "en": "Read the whole sentence and choose the PLUG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: plug it in plug it into the socket plug them up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: plug it in plug it into the socket plug them up"
+    },
+    {
+      "titleZh": "(電視在這裏接上電源。)Plug the TV in here.(把電視插在這裏。)The first sentence describes where the TV connects. The second describes someoneconnecting it.第一句描述電視在哪裏接上電源;第二句描述某人把電視接上電源。",
+      "titleEn": "Compare these two uses: The TV plugs in here.",
+      "zh": "(電視在這裏接上電源。)Plug the TV in here.(把電視插在這裏。)The first sentence describes where the TV connects. The second describes someoneconnecting it.第一句描述電視在哪裏接上電源;第二句描述某人把電視接上電源。",
+      "en": "Compare these two uses: The TV plugs in here."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PLUG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PLUG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PLUG 動詞片語句子改寫練習",
+    "titleEn": "PLUG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PLUG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PLUG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-208-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The scientists have been working steadily at the problem for years.",
+      "promptZh": "科學家多年來一直努力處理這個問題。",
+      "starter": "The",
+      "answer": "The scientists have been plugging away at the problem for years.",
+      "answerZh": "科學家多年來一直努力處理這個問題。",
+      "highlight": "plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please connect the printer to the wall socket before the lesson.",
+      "promptZh": "上課前請把打印機接到牆身插座。",
+      "starter": "Please",
+      "answer": "Please plug the printer into the wall socket before the lesson.",
+      "answerZh": "上課前請把打印機插入牆身插座。",
+      "highlight": "plug",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The TV connects to the socket beside the bookcase.",
+      "promptZh": "電視接到書櫃旁的插座。",
+      "starter": "The",
+      "answer": "The TV plugs into the socket beside the bookcase.",
+      "answerZh": "電視接到書櫃旁的插座。",
+      "highlight": "plugs into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We blocked the gaps with cloth to stop the cold air.",
+      "promptZh": "我們用布堵住縫隙,以阻擋冷風。",
+      "starter": "We",
+      "answer": "We plugged the gaps up with cloth to stop the cold air.",
+      "answerZh": "我們用布堵住縫隙,以阻擋冷風。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Nina works steadily at the same piano piece every evening.",
+      "promptZh": "妮娜每天晚上都努力練習同一首鋼琴曲。",
+      "starter": "Nina",
+      "answer": "Nina plugs away at the same piano piece every evening.",
+      "answerZh": "妮娜每天晚上都努力練習同一首鋼琴曲。",
+      "highlight": "plugs away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ben connected the charger to the wall socket.",
+      "promptZh": "賓把充電器接到牆身插座。",
+      "starter": "Ben",
+      "answer": "Ben plugged the charger into the wall socket.",
+      "answerZh": "賓把充電器插入牆身插座。",
+      "highlight": "plugged",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ava blocked the small hole with a piece of cloth.",
+      "promptZh": "艾娃用一塊布堵住那個小孔。",
+      "starter": "Ava",
+      "answer": "Ava plugged the small hole up with a piece of cloth.",
+      "answerZh": "艾娃用一塊布堵住那個小孔。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "This cable connects to the back of the computer.",
+      "promptZh": "這條電線接到電腦背面。",
+      "starter": "This",
+      "answer": "This cable plugs into the back of the computer.",
+      "answerZh": "這條電線接到電腦背面。",
+      "highlight": "plugs into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Connect the lamp to a wall socket before it gets dark.",
+      "promptZh": "天黑前,把燈接到牆身插座。",
+      "starter": "Plug",
+      "answer": "Plug the lamp into a wall socket before it gets dark.",
+      "answerZh": "天黑前,把燈插入牆身插座。",
+      "highlight": "Plug",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The class continued working steadily at the difficult puzzle.",
+      "promptZh": "全班繼續努力解答那道困難的謎題。",
+      "starter": "The",
+      "answer": "The class kept plugging away at the difficult puzzle.",
+      "answerZh": "全班繼續努力解答那道困難的謎題。",
+      "highlight": "kept plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Where should the TV be connected?",
+      "promptZh": "電視應該在哪裏接上電源?",
+      "starter": "Where",
+      "answer": "Where should the TV plug in?",
+      "answerZh": "電視應該在哪裏接上電源?",
+      "highlight": "plug in",
+      "targetForm": "plug in",
+      "targetMeaningZh": "接上電源"
+    },
+    {
+      "id": "phrasal-verb-208-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo is working steadily at his history project tonight.",
+      "promptZh": "里奧今晚正在努力完成歷史專題研習。",
+      "starter": "Leo",
+      "answer": "Leo is plugging away at his history project tonight.",
+      "answerZh": "里奧今晚正在努力完成歷史專題研習。",
+      "highlight": "plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You should block the crack before it rains.",
+      "promptZh": "你應該在下雨前堵住那道裂縫。",
+      "starter": "You",
+      "answer": "You should plug the crack up before it rains.",
+      "answerZh": "你應該在下雨前堵住那道裂縫。",
+      "highlight": "plug",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After moving the fan, remember to connect it to a socket again.",
+      "promptZh": "移動風扇後,記得再次把它接到插座。",
+      "starter": "After",
+      "answer": "After moving the fan, remember to plug it in again.",
+      "answerZh": "移動風扇後,記得再次把它接上電源。",
+      "highlight": "plug",
+      "targetForm": "plug something in",
+      "targetMeaningZh": "把某物接上電源"
+    },
+    {
+      "id": "phrasal-verb-208-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We will continue working steadily until the job is finished.",
+      "promptZh": "我們會繼續努力,直至完成工作。",
+      "starter": "We",
+      "answer": "We will keep plugging away until the job is finished.",
+      "answerZh": "我們會繼續努力,直至完成工作。",
+      "highlight": "keep plugging away",
+      "targetForm": "plug away",
+      "targetMeaningZh": "持續努力工作"
+    },
+    {
+      "id": "phrasal-verb-208-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Does this speaker connect to a phone or a computer?",
+      "promptZh": "這個揚聲器接駁到電話還是電腦?",
+      "starter": "Does",
+      "answer": "Does this speaker plug into a phone or a computer?",
+      "answerZh": "這個揚聲器接駁到電話還是電腦?",
+      "highlight": "plug into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Around the window, they have blocked every hole.",
+      "promptZh": "他們已堵住窗戶周圍的每個孔洞。",
+      "starter": "Around",
+      "answer": "Around the window, they have plugged every hole up.",
+      "answerZh": "他們已堵住窗戶周圍的每個孔洞。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Has Rosa been working steadily at the same question all morning?",
+      "promptZh": "羅莎整個早上都在努力處理同一道問題嗎?",
+      "starter": "Has",
+      "answer": "Has Rosa been plugging away at the same question all morning?",
+      "answerZh": "羅莎整個早上都在努力處理同一道問題嗎?",
+      "highlight": "plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teacher connected the screen to the wall socket near the desk.",
+      "promptZh": "老師把屏幕接到書桌附近的牆身插座。",
+      "starter": "The",
+      "answer": "The teacher plugged the screen into the wall socket near the desk.",
+      "answerZh": "老師把屏幕插入書桌附近的牆身插座。",
+      "highlight": "plugged",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new lamp can connect to the socket under the desk.",
+      "promptZh": "這盞新燈可以接到書桌下的插座。",
+      "starter": "The",
+      "answer": "The new lamp can plug into the socket under the desk.",
+      "answerZh": "這盞新燈可以接到書桌下的插座。",
+      "highlight": "plug into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The cable was too short, so Sam connected it to the nearer socket.",
+      "promptZh": "電線太短,所以森把它接到較近的插座。",
+      "starter": "The",
+      "answer": "The cable was too short, so Sam plugged it into the nearer socket.",
+      "answerZh": "電線太短,所以森把它插入較近的插座。",
+      "highlight": "plugged",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Before winter, the workers blocked the gaps with folded cloth.",
+      "promptZh": "冬季來臨前,工人用摺好的布堵住縫隙。",
+      "starter": "Before",
+      "answer": "Before winter, the workers plugged the gaps up with folded cloth.",
+      "answerZh": "冬季來臨前,工人用摺好的布堵住縫隙。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After working steadily at the model for two weeks, Anna finally finished it.",
+      "promptZh": "安娜努力製作模型兩星期後,終於把它完成。",
+      "starter": "After",
+      "answer": "After plugging away at the model for two weeks, Anna finally finished it.",
+      "answerZh": "安娜努力製作模型兩星期後,終於把它完成。",
+      "highlight": "plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The small light connects to the side of the camera, not the wall.",
+      "promptZh": "這盞小燈接到相機側面,而不是牆身插座。",
+      "starter": "The",
+      "answer": "The small light plugs into the side of the camera, not the wall.",
+      "answerZh": "這盞小燈接到相機側面,而不是牆身插座。",
+      "highlight": "plugs into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could you connect the speakers to the wall socket before the guests arrive?",
+      "promptZh": "你可以在客人到達前把揚聲器接到牆身插座嗎?",
+      "starter": "Could",
+      "answer": "Could you plug the speakers into the wall socket before the guests arrive?",
+      "answerZh": "你可以在客人到達前把揚聲器插入牆身插座嗎?",
+      "highlight": "plug",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The hole under the door needs to be blocked before tonight.",
+      "promptZh": "門下的孔洞需要在今晚前堵住。",
+      "starter": "The",
+      "answer": "The hole under the door needs to be plugged up before tonight.",
+      "answerZh": "門下的孔洞需要在今晚前堵住。",
+      "highlight": "plugged up",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The keyboard does not connect here; it connects to the computer.",
+      "promptZh": "鍵盤不是接在這裏;它接到電腦。",
+      "starter": "The",
+      "answer": "The keyboard does not plug in here; it plugs into the computer.",
+      "answerZh": "鍵盤不是接在這裏;它接到電腦。",
+      "highlight": "plug in",
+      "targetForm": "plug in / plug into something",
+      "targetMeaningZh": "接上電源或接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Omar had worked steadily at the maths problem until he found the answer.",
+      "promptZh": "奧馬一直努力解答那道數學題,直至找到答案。",
+      "starter": "Omar",
+      "answer": "Omar had plugged away at the maths problem until he found the answer.",
+      "answerZh": "奧馬一直努力解答那道數學題,直至找到答案。",
+      "highlight": "plugged away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We found two cracks and blocked them before the storm.",
+      "promptZh": "我們發現兩道裂縫,並在暴風雨前把它們堵住。",
+      "starter": "We",
+      "answer": "We found two cracks and plugged them up before the storm.",
+      "answerZh": "我們發現兩道裂縫,並在暴風雨前把它們堵住。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After Sara connected the phone to the laptop, she copied the photos.",
+      "promptZh": "莎拉把電話接到手提電腦後,複製了相片。",
+      "starter": "After",
+      "answer": "After plugging the phone into the laptop, Sara copied the photos.",
+      "answerZh": "莎拉把電話接到手提電腦後,複製了相片。",
+      "highlight": "plugging",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team did not give up; they kept working steadily at the broken model.",
+      "promptZh": "團隊沒有放棄;他們繼續努力修理損壞的模型。",
+      "starter": "The",
+      "answer": "The team did not give up; they plugged away at the broken model.",
+      "answerZh": "團隊沒有放棄;他們繼續努力修理損壞的模型。",
+      "highlight": "plugged away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The blue wire must be connected to the correct socket.",
+      "promptZh": "藍色電線必須接到正確的插座。",
+      "starter": "The",
+      "answer": "The blue wire must be plugged into the correct socket.",
+      "answerZh": "藍色電線必須接到正確的插座。",
+      "highlight": "plugged into",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "This small camera connects to the computer to copy photos.",
+      "promptZh": "這部小型相機接到電腦,以複製相片。",
+      "starter": "This",
+      "answer": "This small camera plugs into the computer to copy photos.",
+      "answerZh": "這部小型相機接到電腦,以複製相片。",
+      "highlight": "plugs into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "To keep insects out, Dad blocked the gap with paper.",
+      "promptZh": "為了阻止昆蟲進入,爸爸用紙堵住縫隙。",
+      "starter": "To",
+      "answer": "To keep insects out, Dad plugged the gap up with paper.",
+      "answerZh": "為了阻止昆蟲進入,爸爸用紙堵住縫隙。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did Ella connect the fan to the socket by the door?",
+      "promptZh": "埃拉為甚麼把風扇接到門旁的插座?",
+      "starter": "Why",
+      "answer": "Why did Ella plug the fan into the socket by the door?",
+      "answerZh": "埃拉為甚麼把風扇插入門旁的插座?",
+      "highlight": "plug",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even when the first idea failed, the students continued working steadily.",
+      "promptZh": "即使第一個構思失敗,學生仍繼續努力。",
+      "starter": "Even",
+      "answer": "Even when the first idea failed, the students continued to plug away.",
+      "answerZh": "即使第一個構思失敗,學生仍繼續努力。",
+      "highlight": "to plug away",
+      "targetForm": "plug away",
+      "targetMeaningZh": "持續努力工作"
+    },
+    {
+      "id": "phrasal-verb-208-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The cloth will not work unless you block the whole opening with it.",
+      "promptZh": "除非你用這塊布堵住整個開口,否則它不會有作用。",
+      "starter": "The",
+      "answer": "The cloth will not work unless you plug the whole opening up with it.",
+      "answerZh": "除非你用這塊布堵住整個開口,否則它不會有作用。",
+      "highlight": "plug",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Can the game controller connect to this computer?",
+      "promptZh": "遊戲控制器可以接到這部電腦嗎?",
+      "starter": "Can",
+      "answer": "Can the game controller plug into this computer?",
+      "answerZh": "遊戲控制器可以接到這部電腦嗎?",
+      "highlight": "plug into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Daniel has quietly worked steadily at his new book for several months.",
+      "promptZh": "丹尼爾數月來一直默默努力撰寫新書。",
+      "starter": "Daniel",
+      "answer": "Daniel has quietly plugged away at his new book for several months.",
+      "answerZh": "丹尼爾數月來一直默默努力撰寫新書。",
+      "highlight": "plugged away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please check that the kettle is connected to a socket.",
+      "promptZh": "請檢查電熱水壺是否已接上插座。",
+      "starter": "Please",
+      "answer": "Please check that the kettle is plugged in.",
+      "answerZh": "請檢查電熱水壺是否已接上電源。",
+      "highlight": "plugged in",
+      "targetForm": "plug something in",
+      "targetMeaningZh": "把某物接上電源"
+    },
+    {
+      "id": "phrasal-verb-208-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the wind grew stronger, every gap around the window had been blocked.",
+      "promptZh": "風勢增強前,窗戶周圍的每道縫隙都已被堵住。",
+      "starter": "Before",
+      "answer": "Before the wind grew stronger, every gap around the window had been plugged up.",
+      "answerZh": "風勢增強前,窗戶周圍的每道縫隙都已被堵住。",
+      "highlight": "plugged up",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The old printer cannot connect to this laptop without a special cable.",
+      "promptZh": "沒有特別的電線,這部舊打印機便無法接到這部手提電腦。",
+      "starter": "The",
+      "answer": "The old printer cannot plug into this laptop without a special cable.",
+      "answerZh": "沒有特別的電線,這部舊打印機便無法接到這部手提電腦。",
+      "highlight": "plug into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The researchers were still working steadily at the problem after several failed tests.",
+      "promptZh": "經過數次失敗的測試後,研究人員仍在努力處理這個問題。",
+      "starter": "The",
+      "answer": "The researchers were still plugging away at the problem after several failed tests.",
+      "answerZh": "經過數次失敗的測試後,研究人員仍在努力處理這個問題。",
+      "highlight": "plugging away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "If the screen stays dark, check whether you connected the power cable properly.",
+      "promptZh": "如果屏幕仍然漆黑,請檢查你是否已正確接駁電源線。",
+      "starter": "If",
+      "answer": "If the screen stays dark, check whether you plugged the power cable in properly.",
+      "answerZh": "如果屏幕仍然漆黑,請檢查你是否已正確插好電源線。",
+      "highlight": "plugged",
+      "targetForm": "plug something in",
+      "targetMeaningZh": "把某物接上電源"
+    },
+    {
+      "id": "phrasal-verb-208-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Which part of the sound system should this cable connect to?",
+      "promptZh": "這條電線應該接到音響系統的哪一部分?",
+      "starter": "Which",
+      "answer": "Which part of the sound system should this cable plug into?",
+      "answerZh": "這條電線應該接到音響系統的哪一部分?",
+      "highlight": "plug into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The cold air stopped coming in once we had blocked the last hole.",
+      "promptZh": "我們堵住最後一個孔洞後,冷風便不再吹進來。",
+      "starter": "The",
+      "answer": "The cold air stopped coming in once we had plugged the last hole up.",
+      "answerZh": "我們堵住最後一個孔洞後,冷風便不再吹進來。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    },
+    {
+      "id": "phrasal-verb-208-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Rather than start again, the group decided to keep working steadily at the plan they already had.",
+      "promptZh": "小組決定繼續努力改善原有計劃,而不是重新開始。",
+      "starter": "Rather",
+      "answer": "Rather than start again, the group decided to plug away at the plan they already had.",
+      "answerZh": "小組決定繼續努力改善原有計劃,而不是重新開始。",
+      "highlight": "plug away",
+      "targetForm": "plug away at something",
+      "targetMeaningZh": "持續努力處理某事"
+    },
+    {
+      "id": "phrasal-verb-208-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The camera will work once you connect it to the power pack.",
+      "promptZh": "你把相機接到電源組後,它便會運作。",
+      "starter": "The",
+      "answer": "The camera will work once you plug it into the power pack.",
+      "answerZh": "你把相機接到電源組後,它便會運作。",
+      "highlight": "plug",
+      "targetForm": "plug something into something",
+      "targetMeaningZh": "把某物接到插座或另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A thin cable from the wall connects to the back of the television.",
+      "promptZh": "一條從牆身伸出的幼電線接到電視背面。",
+      "starter": "A",
+      "answer": "A thin cable from the wall plugs into the back of the television.",
+      "answerZh": "一條從牆身伸出的幼電線接到電視背面。",
+      "highlight": "plugs into",
+      "targetForm": "plug into something",
+      "targetMeaningZh": "接到另一部設備"
+    },
+    {
+      "id": "phrasal-verb-208-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "After the family blocked the cracks, the room stayed warmer.",
+      "promptZh": "那家人堵住裂縫後,房間變得較為暖和。",
+      "starter": "After",
+      "answer": "After the family plugged the cracks up, the room stayed warmer.",
+      "answerZh": "那家人堵住裂縫後,房間變得較為暖和。",
+      "highlight": "plugged",
+      "targetForm": "plug something up",
+      "targetMeaningZh": "堵住孔洞或縫隙"
+    }
+  ]
+}

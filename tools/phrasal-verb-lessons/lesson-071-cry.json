@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-71",
+  "order": 71,
+  "slug": "cry",
+  "version": "1",
+  "title": "CRY 動詞片語",
+  "titleEn": "Cry",
+  "titleZh": "CRY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 70 - CRY.pdf",
+    "sourceNumber": 70,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CRY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CRY",
+      "highlight": "CRY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The families of the victims are crying for justice.",
+      "zh": "受害者的家屬正強烈要求公義。",
+      "highlight": "crying for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We had arranged to go together, but Luis cried off at the last moment.",
+      "zh": "我們原本約好一起去,但路易斯在最後一刻退出了。",
+      "highlight": "cried off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She cried out in pain.",
+      "zh": "她痛得大叫。",
+      "highlight": "cried out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "強烈要求或迫切要求某事物；臨時取消原先答應參加或進行的事情;退出原有安排；因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+    "en": "cry for something; cry off / cry off something / cry off doing something; cry out",
+    "naturalZh": [
+      "強烈要求或迫切要求某事物",
+      "臨時取消原先答應參加或進行的事情;退出原有安排",
+      "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cry for something",
+      "titleZh": "強烈要求或迫切要求某事物",
+      "titleEn": "cry for something",
+      "descriptionZh": "強烈要求或迫切要求某事物",
+      "descriptionEn": "The families of the victims are crying for justice.",
+      "examples": [
+        {
+          "en": "The families of the victims are crying for justice.",
+          "zh": "受害者的家屬正強烈要求公義。",
+          "highlight": "crying for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cry off / cry off something / cry off doing something",
+      "titleZh": "臨時取消原先答應參加或進行的事情;退出原有安排",
+      "titleEn": "cry off / cry off something / cry off doing something",
+      "descriptionZh": "臨時取消原先答應參加或進行的事情;退出原有安排",
+      "descriptionEn": "We had arranged to go together, but Luis cried off at the last moment.",
+      "examples": [
+        {
+          "en": "We had arranged to go together, but Luis cried off at the last moment.",
+          "zh": "我們原本約好一起去,但路易斯在最後一刻退出了。",
+          "highlight": "cried off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cry out",
+      "titleZh": "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+      "titleEn": "cry out",
+      "descriptionZh": "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+      "descriptionEn": "She cried out in pain.",
+      "examples": [
+        {
+          "en": "She cried out in pain.",
+          "zh": "她痛得大叫。",
+          "highlight": "cried out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CRY 片語動詞的實際用途",
+    "labelEn": "CRY Phrasal Verbs in Use",
+    "summaryZh": "cry for justice、change 或 action 可以表示人們強烈而迫切地要求某事。；cry off 可以清楚表示某人原本答應參加,但後來決定退出。；cry out 可以描述因痛楚、恐懼或驚訝而突然發出的叫聲。；這些片語動詞也可以表達強烈要求、臨時退出和突然大叫,而不只是流淚哭泣。",
+    "summaryEn": "Cry for justice, change or action shows that people want something strongly and urgently. Cry off clearly shows that someone had agreed to take part but later decided not to do so. Cry out can describe a sudden shout caused by pain, fear or surprise. These expressions help you understand demands, cancelled plans and sudden shouts—not only tears.",
+    "contextsZh": [
+      "使用 CRY 表達強烈的公開訴求",
+      "說明某人臨時退出原有安排",
+      "描述突然發出的叫聲",
+      "明白 CRY 不一定只表示「哭泣」"
+    ],
+    "contextsEn": [
+      "Use CRY to express a strong public demand",
+      "Explain when someone leaves an agreed plan",
+      "Describe a sudden spoken reaction",
+      "Understand that CRY does not always mean “weep”"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cry for something",
+    "fixedHighlight": "cry for something",
+    "fixedZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CRY expression that gives the same meaning.",
+    "correct": "crying for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；CRY OFF 可以單獨使用,也可以接原先答應參加的安排或活動。；核心片語動詞是 CRY OUT。in pain、in fear 和 in surprise 等部分只是補充大叫的原因或情況。",
+    "variableEn": "Keep the same people, things, time and meaning. CRY OFF may stand alone or be followed by the plan or activity: cry off cry off the trip cry off going on the trip The core expression is CRY OUT. Phrases such as in pain, in fear and in surprise only add more information.",
+    "variableItemsZh": [
+      "cry for something",
+      "cry off / cry off something / cry off doing something",
+      "cry out"
+    ],
+    "variableItemsEn": [
+      "cry for something",
+      "cry off / cry off something / cry off doing something",
+      "cry out"
+    ],
+    "forms": [
+      {
+        "formZh": "強烈要求或迫切要求某事物",
+        "formEn": "cry for something",
+        "exampleZh": "受害者的家屬正強烈要求公義。",
+        "exampleEn": "The families of the victims are crying for justice.",
+        "highlight": "crying for"
+      },
+      {
+        "formZh": "臨時取消原先答應參加或進行的事情;退出原有安排",
+        "formEn": "cry off / cry off something / cry off doing something",
+        "exampleZh": "我們原本約好一起去,但路易斯在最後一刻退出了。",
+        "exampleEn": "We had arranged to go together, but Luis cried off at the last moment.",
+        "highlight": "cried off"
+      },
+      {
+        "formZh": "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+        "formEn": "cry out",
+        "exampleZh": "她痛得大叫。",
+        "exampleEn": "She cried out in pain.",
+        "highlight": "cried out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "強烈要求或迫切要求某事物",
+      "titleEn": "cry for something",
+      "formula": "cry for something",
+      "highlight": "cry for something",
+      "descriptionZh": "強烈要求或迫切要求某事物",
+      "descriptionEn": "The families of the victims are crying for justice.",
+      "examples": [
+        {
+          "en": "The families of the victims are crying for justice.",
+          "zh": "受害者的家屬正強烈要求公義。",
+          "highlight": "crying for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "臨時取消原先答應參加或進行的事情;退出原有安排",
+      "titleEn": "cry off / cry off something / cry off doing something",
+      "formula": "cry off / cry off something / cry off doing something",
+      "highlight": "cry off / cry off something / cry off doing something",
+      "descriptionZh": "臨時取消原先答應參加或進行的事情;退出原有安排",
+      "descriptionEn": "We had arranged to go together, but Luis cried off at the last moment.",
+      "examples": [
+        {
+          "en": "We had arranged to go together, but Luis cried off at the last moment.",
+          "zh": "我們原本約好一起去,但路易斯在最後一刻退出了。",
+          "highlight": "cried off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+      "titleEn": "cry out",
+      "formula": "cry out",
+      "highlight": "cry out",
+      "descriptionZh": "因痛楚、恐懼、驚訝或其他強烈感受而突然大叫",
+      "descriptionEn": "She cried out in pain.",
+      "examples": [
+        {
+          "en": "She cried out in pain.",
+          "zh": "她痛得大叫。",
+          "highlight": "cried out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 CRY 表達強烈的公開訴求",
+      "titleEn": "Use CRY to express a strong public demand",
+      "zh": "cry for justice、change 或 action 可以表示人們強烈而迫切地要求某事。",
+      "en": "Cry for justice, change or action shows that people want something strongly and urgently."
+    },
+    {
+      "titleZh": "說明某人臨時退出原有安排",
+      "titleEn": "Explain when someone leaves an agreed plan",
+      "zh": "cry off 可以清楚表示某人原本答應參加,但後來決定退出。",
+      "en": "Cry off clearly shows that someone had agreed to take part but later decided not to do so."
+    },
+    {
+      "titleZh": "描述突然發出的叫聲",
+      "titleEn": "Describe a sudden spoken reaction",
+      "zh": "cry out 可以描述因痛楚、恐懼或驚訝而突然發出的叫聲。",
+      "en": "Cry out can describe a sudden shout caused by pain, fear or surprise."
+    },
+    {
+      "titleZh": "明白 CRY 不一定只表示「哭泣」",
+      "titleEn": "Understand that CRY does not always mean “weep”",
+      "zh": "這些片語動詞也可以表達強烈要求、臨時退出和突然大叫,而不只是流淚哭泣。",
+      "en": "These expressions help you understand demands, cancelled plans and sudden shouts—not only tears."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 CRY 表達強烈的公開訴求",
+      "說明某人臨時退出原有安排",
+      "描述突然發出的叫聲",
+      "明白 CRY 不一定只表示「哭泣」"
+    ],
+    "contextsEn": [
+      "Use CRY to express a strong public demand",
+      "Explain when someone leaves an agreed plan",
+      "Describe a sudden spoken reaction",
+      "Understand that CRY does not always mean “weep”"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 CRY 表達強烈的公開訴求",
+        "titleEn": "Use CRY to express a strong public demand",
+        "zh": "cry for justice、change 或 action 可以表示人們強烈而迫切地要求某事。",
+        "en": "Cry for justice, change or action shows that people want something strongly and urgently.",
+        "examples": [
+          {
+            "en": "The families of the victims are crying for justice.",
+            "zh": "受害者的家屬正強烈要求公義。",
+            "highlight": "crying for"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某人臨時退出原有安排",
+        "titleEn": "Explain when someone leaves an agreed plan",
+        "zh": "cry off 可以清楚表示某人原本答應參加,但後來決定退出。",
+        "en": "Cry off clearly shows that someone had agreed to take part but later decided not to do so.",
+        "examples": [
+          {
+            "en": "We had arranged to go together, but Luis cried off at the last moment.",
+            "zh": "我們原本約好一起去,但路易斯在最後一刻退出了。",
+            "highlight": "cried off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然發出的叫聲",
+        "titleEn": "Describe a sudden spoken reaction",
+        "zh": "cry out 可以描述因痛楚、恐懼或驚訝而突然發出的叫聲。",
+        "en": "Cry out can describe a sudden shout caused by pain, fear or surprise.",
+        "examples": [
+          {
+            "en": "She cried out in pain.",
+            "zh": "她痛得大叫。",
+            "highlight": "cried out"
+          }
+        ]
+      },
+      {
+        "titleZh": "明白 CRY 不一定只表示「哭泣」",
+        "titleEn": "Understand that CRY does not always mean “weep”",
+        "zh": "這些片語動詞也可以表達強烈要求、臨時退出和突然大叫,而不只是流淚哭泣。",
+        "en": "These expressions help you understand demands, cancelled plans and sudden shouts—not only tears.",
+        "examples": [
+          {
+            "en": "The families of the victims are crying for justice.",
+            "zh": "受害者的家屬正強烈要求公義。",
+            "highlight": "crying for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CRY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CRY 片語動詞。",
+      "en": "Read the whole sentence and choose the CRY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "CRY OFF 可以單獨使用,也可以接原先答應參加的安排或活動。",
+      "titleEn": "CRY OFF may stand alone or be followed by the plan or activity: cry off cry off the trip cry off going on the trip.",
+      "zh": "CRY OFF 可以單獨使用,也可以接原先答應參加的安排或活動。",
+      "en": "CRY OFF may stand alone or be followed by the plan or activity: cry off cry off the trip cry off going on the trip"
+    },
+    {
+      "titleZh": "核心片語動詞是 CRY OUT。in pain、in fear 和 in surprise 等部分只是補充大叫的原因或情況。",
+      "titleEn": "The core expression is CRY OUT.",
+      "zh": "核心片語動詞是 CRY OUT。in pain、in fear 和 in surprise 等部分只是補充大叫的原因或情況。",
+      "en": "The core expression is CRY OUT. Phrases such as in pain, in fear and in surprise only add more information."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CRY 動詞片語句子改寫練習",
+    "titleEn": "CRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-71-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Nora had agreed to join the walk, but she cancelled at the last moment.",
+      "promptZh": "諾拉原本答應參加步行活動,但她在最後一刻取消了。",
+      "starter": "Nora",
+      "answer": "Nora had agreed to join the walk, but she cried off at the last moment.",
+      "answerZh": "諾拉原本答應參加步行活動,但她在最後一刻退出了。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時取消原先答應參加的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The boy suddenly shouted when the dog barked behind him.",
+      "promptZh": "那個男孩聽到身後的狗吠聲時,突然大叫。",
+      "starter": "The",
+      "answer": "The boy cried out when the dog barked behind him.",
+      "answerZh": "那個男孩聽到身後的狗吠聲時,突然大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The families of the victims are strongly demanding justice.",
+      "promptZh": "受害者的家屬正強烈要求公義。",
+      "starter": "The",
+      "answer": "The families of the victims are crying for justice.",
+      "answerZh": "受害者的家屬正強烈要求公義。",
+      "highlight": "crying for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Our neighbour said she would help us move, but she later cancelled.",
+      "promptZh": "我們的鄰居說會幫我們搬家,但她後來取消了。",
+      "starter": "Our",
+      "answer": "Our neighbour said she would help us move, but she later cried off.",
+      "answerZh": "我們的鄰居說會幫我們搬家,但她後來臨時取消了。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben gave a loud shout when he touched the hot pan.",
+      "promptZh": "賓碰到熱鍋時大叫了一聲。",
+      "starter": "Ben",
+      "answer": "Ben cried out when he touched the hot pan.",
+      "answerZh": "賓碰到熱鍋時大叫了一聲。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "People in the town strongly demanded safer roads.",
+      "promptZh": "鎮上的居民強烈要求道路更加安全。",
+      "starter": "People",
+      "answer": "People in the town cried for safer roads.",
+      "answerZh": "鎮上的居民強烈要求道路更加安全。",
+      "highlight": "cried for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Jamie had agreed to play in the match, but he cancelled that morning.",
+      "promptZh": "傑米原本答應參加比賽,但他在當天早上取消了。",
+      "starter": "Jamie",
+      "answer": "Jamie had agreed to play in the match, but he cried off that morning.",
+      "answerZh": "傑米原本答應參加比賽,但他在當天早上臨時退出。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時退出原有安排"
+    },
+    {
+      "id": "phrasal-verb-71-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sara suddenly shouted in pain when she hurt her ankle.",
+      "promptZh": "莎拉弄傷腳踝時痛得突然大叫。",
+      "starter": "Sara",
+      "answer": "Sara cried out in pain when she hurt her ankle.",
+      "answerZh": "莎拉弄傷腳踝時痛得大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "因痛楚而突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The workers are strongly asking for better pay.",
+      "promptZh": "工人正強烈要求改善薪酬。",
+      "starter": "The",
+      "answer": "The workers are crying for better pay.",
+      "answerZh": "工人正強烈要求改善薪酬。",
+      "highlight": "crying",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The crowd loudly demanded change.",
+      "promptZh": "群眾大聲要求改變。",
+      "starter": "The",
+      "answer": "The crowd cried for change.",
+      "answerZh": "群眾大聲要求改變。",
+      "highlight": "cried for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Tom has cancelled his plan to come to dinner.",
+      "promptZh": "湯姆已取消來吃晚飯的安排。",
+      "starter": "Tom",
+      "answer": "Tom has cried off coming to dinner.",
+      "answerZh": "湯姆已臨時取消來吃晚飯。",
+      "highlight": "cried off coming",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The parents are still strongly asking for a full explanation.",
+      "promptZh": "家長仍在強烈要求一個完整的解釋。",
+      "starter": "The",
+      "answer": "The parents are still crying for a full explanation.",
+      "answerZh": "家長仍在強烈要求一個完整的解釋。",
+      "highlight": "crying",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Did the child suddenly shout when the light went out?",
+      "promptZh": "燈熄滅時,那個孩子有沒有突然大叫?",
+      "starter": "Did",
+      "answer": "Did the child cry out when the light went out?",
+      "answerZh": "燈熄滅時,那個孩子有沒有突然大叫?",
+      "highlight": "cry out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ella may cancel the weekend trip if she remains ill.",
+      "promptZh": "如果埃拉仍然生病,她可能會取消週末旅行。",
+      "starter": "Ella",
+      "answer": "Ella may cry off the weekend trip if she remains ill.",
+      "answerZh": "如果埃拉仍然生病,她可能會退出週末旅行。",
+      "highlight": "cry off",
+      "targetForm": "cry off something",
+      "targetMeaningZh": "臨時退出某項安排"
+    },
+    {
+      "id": "phrasal-verb-71-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A passenger suddenly shouted when smoke appeared.",
+      "promptZh": "看到煙時,一名乘客突然大叫。",
+      "starter": "A",
+      "answer": "A passenger cried out when smoke appeared.",
+      "answerZh": "看到煙時,一名乘客突然大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Local families have been strongly demanding clean drinking water for months.",
+      "promptZh": "幾個月來,當地家庭一直強烈要求乾淨的食水。",
+      "starter": "Local",
+      "answer": "Local families have been crying for clean drinking water for months.",
+      "answerZh": "幾個月來,當地家庭一直強烈要求乾淨的食水。",
+      "highlight": "crying for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "迫切要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did Owen decide not to help at the school fair after agreeing to do it?",
+      "promptZh": "奧雲答應後,為甚麼又決定不在學校嘉年華幫忙?",
+      "starter": "Why",
+      "answer": "Why did Owen cry off helping at the school fair?",
+      "answerZh": "奧雲為甚麼臨時取消在學校嘉年華幫忙?",
+      "highlight": "cry off helping",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The students will strongly demand more time to prepare.",
+      "promptZh": "學生將強烈要求更多準備時間。",
+      "starter": "The",
+      "answer": "The students will cry for more time to prepare.",
+      "answerZh": "學生將強烈要求更多準備時間。",
+      "highlight": "cry for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She did not shout when the nurse cleaned the cut.",
+      "promptZh": "護士清理傷口時,她沒有大叫。",
+      "starter": "She",
+      "answer": "She did not cry out when the nurse cleaned the cut.",
+      "answerZh": "護士清理傷口時,她沒有大叫。",
+      "highlight": "cry out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We had planned to travel together, but Priya has cancelled.",
+      "promptZh": "我們原本計劃一起旅行,但普里雅已取消參加。",
+      "starter": "We",
+      "answer": "We had planned to travel together, but Priya has cried off.",
+      "answerZh": "我們原本計劃一起旅行,但普里雅已臨時退出。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時退出原有安排"
+    },
+    {
+      "id": "phrasal-verb-71-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The door slammed, and everyone suddenly shouted.",
+      "promptZh": "門砰地關上,所有人都突然大叫。",
+      "starter": "The",
+      "answer": "The door slammed, and everyone cried out.",
+      "answerZh": "門砰地關上,所有人都突然大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "For years, people in the village have strongly asked for a new clinic.",
+      "promptZh": "多年來,村民一直強烈要求興建一間新診所。",
+      "starter": "For",
+      "answer": "For years, people in the village have cried for a new clinic.",
+      "answerZh": "多年來,村民一直強烈要求興建一間新診所。",
+      "highlight": "cried",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "迫切要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Leah had agreed to help with the class, but she said the day before that she would not help.",
+      "promptZh": "莉雅原本答應協助課堂,但她在前一天表示不會幫忙。",
+      "starter": "Leah",
+      "answer": "Leah had agreed to help with the class, but she cried off helping the day before.",
+      "answerZh": "莉雅原本答應協助課堂,但她在前一天臨時取消幫忙。",
+      "highlight": "cried off helping",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the doctor pressed his injured shoulder, he gave a sudden loud shout.",
+      "promptZh": "醫生按着他受傷的肩膀時,他突然大叫了一聲。",
+      "starter": "When",
+      "answer": "When the doctor pressed his injured shoulder, he cried out.",
+      "answerZh": "醫生按着他受傷的肩膀時,他突然大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We booked four seats, but two friends cancelled the arrangement that morning.",
+      "promptZh": "我們訂了四個座位,但兩位朋友在當天早上取消了安排。",
+      "starter": "We",
+      "answer": "We booked four seats, but two friends cried off the arrangement that morning.",
+      "answerZh": "我們訂了四個座位,但兩位朋友在當天早上退出了這項安排。",
+      "highlight": "cried off",
+      "targetForm": "cry off something",
+      "targetMeaningZh": "臨時退出某項安排"
+    },
+    {
+      "id": "phrasal-verb-71-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why are so many residents strongly asking for lower bus fares?",
+      "promptZh": "為甚麼有這麼多居民強烈要求降低巴士車費?",
+      "starter": "Why",
+      "answer": "Why are so many residents crying for lower bus fares?",
+      "answerZh": "為甚麼有這麼多居民強烈要求降低巴士車費?",
+      "highlight": "crying",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The sudden crash made her give a loud shout of surprise.",
+      "promptZh": "突然的撞擊聲令她驚訝得大叫。",
+      "starter": "The",
+      "answer": "The sudden crash made her cry out in surprise.",
+      "answerZh": "突然的撞擊聲令她驚訝得大叫。",
+      "highlight": "cry out in",
+      "targetForm": "cry out",
+      "targetMeaningZh": "因驚訝而突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The team strongly asked for another chance after the mistake.",
+      "promptZh": "球隊犯錯後,強烈要求再給一次機會。",
+      "starter": "The",
+      "answer": "The team cried for another chance after the mistake.",
+      "answerZh": "球隊犯錯後,強烈要求再給一次機會。",
+      "highlight": "cried",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He said he would speak at the event, but later he said he would not do it.",
+      "promptZh": "他說會在活動上發言,但後來表示不會這樣做。",
+      "starter": "He",
+      "answer": "He said he would speak at the event, but later he cried off doing it.",
+      "answerZh": "他說會在活動上發言,但後來臨時取消了。",
+      "highlight": "cried off doing",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I heard someone suddenly shout from the next room.",
+      "promptZh": "我聽到隔壁房間有人突然大叫。",
+      "starter": "I",
+      "answer": "I heard someone cry out from the next room.",
+      "answerZh": "我聽到隔壁房間有人突然大叫。",
+      "highlight": "cry out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the unfair result, the players strongly demanded a fair review.",
+      "promptZh": "結果不公平,球員因此強烈要求進行公平覆核。",
+      "starter": "After",
+      "answer": "After the unfair result, the players cried for a fair review.",
+      "answerZh": "結果不公平,球員因此強烈要求進行公平覆核。",
+      "highlight": "cried for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the cupboard door opened, a mouse ran across the floor and the children screamed.",
+      "promptZh": "櫃門一打開,一隻老鼠跑過地板,孩子們便尖叫起來。",
+      "starter": "As",
+      "answer": "As the cupboard door opened, a mouse ran across the floor and the children cried out.",
+      "answerZh": "櫃門一打開,一隻老鼠跑過地板,孩子們便尖叫起來。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "因恐懼或驚訝而突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The band had agreed to perform, but it cancelled the event two days before.",
+      "promptZh": "樂隊原本答應演出,但在活動前兩天取消了。",
+      "starter": "The",
+      "answer": "The band had agreed to perform, but it cried off the event two days before.",
+      "answerZh": "樂隊原本答應演出,但在活動前兩天退出了。",
+      "highlight": "cried off",
+      "targetForm": "cry off something",
+      "targetMeaningZh": "臨時退出某項安排"
+    },
+    {
+      "id": "phrasal-verb-71-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "People outside the hospital were strongly demanding more nurses.",
+      "promptZh": "醫院外的人正強烈要求增加護士人手。",
+      "starter": "People",
+      "answer": "People outside the hospital were crying for more nurses.",
+      "answerZh": "醫院外的人正強烈要求增加護士人手。",
+      "highlight": "crying for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Eva promised to drive us, but she decided not to after her car stopped working.",
+      "promptZh": "伊娃答應開車接送我們,但她的車失靈後便決定不做。",
+      "starter": "Eva",
+      "answer": "Eva promised to drive us, but she cried off driving us after her car stopped working.",
+      "answerZh": "伊娃答應開車接送我們,但她的車失靈後便臨時取消。",
+      "highlight": "cried off driving us",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The runner stayed silent when he fell, but suddenly shouted when he tried to stand.",
+      "promptZh": "跑手跌倒時沒有出聲,但嘗試站起來時突然大叫。",
+      "starter": "The",
+      "answer": "The runner stayed silent when he fell, but cried out when he tried to stand.",
+      "answerZh": "跑手跌倒時沒有出聲,但嘗試站起來時突然大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The families were not demanding money; they were demanding answers.",
+      "promptZh": "這些家庭要求的不是金錢,而是答案。",
+      "starter": "The",
+      "answer": "The families were not crying for money; they were crying for answers.",
+      "answerZh": "這些家庭要求的不是金錢,而是答案。",
+      "highlight": "crying for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "What made the audience suddenly shout during the dark scene?",
+      "promptZh": "在那個黑暗場景中,是甚麼令觀眾突然大叫?",
+      "starter": "What",
+      "answer": "What made the audience cry out during the dark scene?",
+      "answerZh": "在那個黑暗場景中,是甚麼令觀眾突然大叫?",
+      "highlight": "cry out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "I had agreed to help on Saturday, but I had to cancel because I became ill.",
+      "promptZh": "我原本答應星期六幫忙,但因為生病而不得不取消。",
+      "starter": "I",
+      "answer": "I had agreed to help on Saturday, but I had to cry off because I became ill.",
+      "answerZh": "我原本答應星期六幫忙,但因為生病而不得不取消。",
+      "highlight": "cry off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even after the meeting, residents continued to demand action on the dangerous crossing.",
+      "promptZh": "即使會議結束後,居民仍然強烈要求採取行動改善危險的過路處。",
+      "starter": "Even",
+      "answer": "Even after the meeting, residents continued to cry for action on the dangerous crossing.",
+      "answerZh": "即使會議結束後,居民仍然強烈要求採取行動改善危險的過路處。",
+      "highlight": "cry for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求採取行動"
+    },
+    {
+      "id": "phrasal-verb-71-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We had all agreed to camp together. When Amir said on Friday that he would not come, we had to change the plan.",
+      "promptZh": "我們原本都答應一起露營。阿米爾星期五表示不會參加後,我們只好更改計劃。",
+      "starter": "We",
+      "answer": "We had all agreed to camp together. When Amir cried off on Friday, we had to change the plan.",
+      "answerZh": "我們原本都答應一起露營。阿米爾星期五退出後,我們只好更改計劃。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "臨時退出原有安排"
+    },
+    {
+      "id": "phrasal-verb-71-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The little girl stayed calm until the nurse touched the sore area; then she gave a sudden shout.",
+      "promptZh": "那個小女孩一直很冷靜,直到護士碰到痛處;她隨即大叫。",
+      "starter": "The",
+      "answer": "The little girl stayed calm until the nurse touched the sore area; then she cried out.",
+      "answerZh": "那個小女孩一直很冷靜,直到護士碰到痛處;她隨即大叫。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "因痛楚而突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The report said local people wanted more than promises; they were urgently demanding real change.",
+      "promptZh": "報告指出,當地居民要的不只是承諾;他們迫切要求真正的改變。",
+      "starter": "The",
+      "answer": "The report said local people wanted more than promises; they were crying for real change.",
+      "answerZh": "報告指出,當地居民要的不只是承諾;他們正迫切要求真正的改變。",
+      "highlight": "crying for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "迫切要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The organiser asked whether anyone planned not to take part in the race after agreeing to enter.",
+      "promptZh": "主辦人問,有沒有人答應參賽後又打算退出。",
+      "starter": "The",
+      "answer": "The organiser asked whether anyone planned to cry off taking part in the race.",
+      "answerZh": "主辦人問,有沒有人打算臨時退出比賽。",
+      "highlight": "cry off taking",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應參加的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Students had strongly demanded a safer school gate before the accident happened.",
+      "promptZh": "意外發生前,學生已強烈要求校門更加安全。",
+      "starter": "Students",
+      "answer": "Students had cried for a safer school gate before the accident happened.",
+      "answerZh": "意外發生前,學生已強烈要求校門更加安全。",
+      "highlight": "cried for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I was walking past the kitchen when I heard Dad give a sudden loud shout.",
+      "promptZh": "我走過廚房時,聽到爸爸突然大叫。",
+      "starter": "I",
+      "answer": "I was walking past the kitchen when I heard Dad cry out.",
+      "answerZh": "我走過廚房時,聽到爸爸突然大叫。",
+      "highlight": "cry out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although Rosa had promised to host the party, she said three days before that she would not do it.",
+      "promptZh": "羅莎雖然答應主持派對,但她在三天前表示不會主持。",
+      "starter": "Although",
+      "answer": "Although Rosa had promised to host the party, she cried off hosting it three days before.",
+      "answerZh": "羅莎雖然答應主持派對,但她在三天前臨時取消。",
+      "highlight": "cried off hosting it",
+      "targetForm": "cry off doing something",
+      "targetMeaningZh": "臨時取消原先答應做的事情"
+    },
+    {
+      "id": "phrasal-verb-71-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The man at the back of the bus suddenly shouted, and everyone turned towards him.",
+      "promptZh": "巴士後方的男子突然大叫,所有人都轉身望向他。",
+      "starter": "The",
+      "answer": "The man at the back of the bus cried out, and everyone turned towards him.",
+      "answerZh": "巴士後方的男子突然大叫,所有人都轉身望向他。",
+      "highlight": "cried out",
+      "targetForm": "cry out",
+      "targetMeaningZh": "突然大叫"
+    },
+    {
+      "id": "phrasal-verb-71-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For weeks, parents had strongly demanded repairs to the playground.",
+      "promptZh": "幾個星期以來,家長一直強烈要求維修遊樂場。",
+      "starter": "For",
+      "answer": "For weeks, parents had cried for repairs to the playground.",
+      "answerZh": "幾個星期以來,家長一直強烈要求維修遊樂場。",
+      "highlight": "cried for",
+      "targetForm": "cry for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-71-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We arranged the meal around Kim’s visit, so it caused trouble when she cancelled at the last moment.",
+      "promptZh": "我們按照金到訪的時間安排晚餐,所以她在最後一刻取消時造成了麻煩。",
+      "starter": "We",
+      "answer": "We arranged the meal around Kim’s visit, so it caused trouble when she cried off at the last moment.",
+      "answerZh": "我們按照金到訪的時間安排晚餐,所以她在最後一刻退出時造成了麻煩。",
+      "highlight": "cried off",
+      "targetForm": "cry off",
+      "targetMeaningZh": "在最後一刻退出原有安排"
+    }
+  ]
+}

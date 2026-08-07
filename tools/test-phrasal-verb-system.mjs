@@ -107,6 +107,7 @@ test("lesson validation accepts no-image lessons and derives any sequential ques
   ].join("\n");
   assert.equal(runInSandbox(source, "validLessonContract(lesson)", { lesson: syntheticLesson() }), true);
   assert.equal(runInSandbox(source, "validLessonContract(lesson)", { lesson: syntheticLesson("phrasal-verb-03", 3, 12) }), true);
+  assert.equal(runInSandbox(source, "validLessonContract(lesson)", { lesson: syntheticLesson("phrasal-verb-269", 269, 250) }), true);
 
   const badId = structuredClone(syntheticLesson());
   badId.questions[9].id = "phrasal-verb-01-q99";
@@ -222,16 +223,17 @@ test("answer matching accepts source-approved variants while revealing the canon
 });
 
 const dataPath = path.join(root, "phrasal-verb-system-data.js");
-test("published 35-lesson data satisfies the dynamic no-image frontend contract", { skip: !fs.existsSync(dataPath) }, () => {
+const importManifestPath = path.join(root, "tools/phrasal-verb-import-manifest.json");
+test("published 329-lesson data satisfies the dynamic no-image frontend contract", { skip: !fs.existsSync(dataPath) }, () => {
   const context = { window: {} };
   vm.createContext(context);
   vm.runInContext(fs.readFileSync(dataPath, "utf8"), context, { filename: "phrasal-verb-system-data.js" });
   const content = context.window.EDMUND_PHRASAL_VERB_SYSTEM_DATA;
   assert.equal(content.system, "phrasal-verb");
-  const expectedQuestionCounts = [70, 50, 70, 60, 50, 70, 70, 70, 50, 70, 50, 50, 50, 70, 50, 50, 50, 50, 70, 50, 60, 50, 60, 60, 50, 50, 60, 60, 50, 50, 50, 30, 50, 50, 70];
-  assert.equal(content.lessonCount, 35);
-  assert.equal(content.questionCount, expectedQuestionCounts.reduce((sum, count) => sum + count, 0));
-  assert.equal(content.lessons.length, 35);
+  const historicalQuestionCounts = [70, 50, 70, 60, 50, 70, 70, 70, 50, 70, 50, 50, 50, 70, 50, 50, 50, 50, 70, 50, 60, 50, 60, 60, 50, 50, 60, 60, 50, 50, 50, 30, 50, 50, 70];
+  assert.equal(content.lessonCount, 329);
+  assert.equal(content.questionCount, 21320);
+  assert.equal(content.lessons.length, 329);
   assert.equal(new Set(content.lessons.map(({ id }) => id)).size, content.lessons.length);
   assert.doesNotMatch(JSON.stringify(content), /\[object Object\]|\/Users\/|[A-Z]:\\/);
 
@@ -240,8 +242,10 @@ test("published 35-lesson data satisfies the dynamic no-image frontend contract"
     const order = lessonIndex + 1;
     assert.equal(lesson.id, `phrasal-verb-${String(order).padStart(2, "0")}`);
     assert.equal(lesson.order, order);
-    assert.equal(lesson.titleEn.toLocaleLowerCase(), expectedTitles[lessonIndex].toLocaleLowerCase());
-    assert.equal(lesson.questions.length, expectedQuestionCounts[lessonIndex]);
+    if (lessonIndex < expectedTitles.length) {
+      assert.equal(lesson.titleEn.toLocaleLowerCase(), expectedTitles[lessonIndex].toLocaleLowerCase());
+      assert.equal(lesson.questions.length, historicalQuestionCounts[lessonIndex]);
+    }
     assert.equal(lesson.groupCount, lesson.meaningGroups.length);
     assert.equal(lesson.fixedVariable.forms.length, lesson.meaningGroups.length);
     assert.equal(lesson.specificForms.length, lesson.meaningGroups.length);
@@ -263,6 +267,26 @@ test("published 35-lesson data satisfies the dynamic no-image frontend contract"
   });
   assert.match(content.lessons[14].source.file, /SWITCH/);
   assert.match(content.lessons[15].source.file, /Cool/);
+  assert.equal(content.lessons[35].titleEn.toLocaleLowerCase(), "break");
+  assert.equal(content.lessons[35].questions.length, 60);
+  assert.match(content.lessons[194].source.file, /BUMP/);
+  assert.match(content.lessons[195].source.file, /KICK/);
+  assert.match(content.lessons[225].source.file, /BURN/);
+  assert.match(content.lessons[226].source.file, /COME/);
+  assert.equal(content.lessons[112].questions.length, 40, "TIP must exclude contaminated pages 17–51");
+  assert.deepEqual(Array.from(content.lessons[112].source.importedPageRange), [1, 16]);
+  assert.equal(content.lessons[268].questions.length, 250);
+  assert.equal(content.lessons[268].questions[99].id, "phrasal-verb-269-q100");
+  assert.equal(content.lessons[268].questions[249].id, "phrasal-verb-269-q250");
+  assert.equal(content.lessons[328].titleEn.toLocaleLowerCase(), "shy");
+  assert.equal(content.lessons[328].questions.length, 50);
+
+  const manifest = JSON.parse(fs.readFileSync(importManifestPath, "utf8"));
+  assert.equal(manifest.fileCount, 294);
+  assert.equal(manifest.questionCount, 19350);
+  assert.deepEqual(manifest.lessonRange, [36, 329]);
+  assert.equal(manifest.lessons.length, 294);
+  assert.ok(manifest.lessons.every(item => /^[0-9a-f]{64}$/.test(item.sourceSha256)));
 });
 
 test("question totals, progress, completion and gold cards are data-derived", () => {

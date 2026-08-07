@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-267",
+  "order": 267,
+  "slug": "pin",
+  "version": "1",
+  "title": "PIN 動詞片語",
+  "titleEn": "Pin",
+  "titleZh": "PIN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 252 - PIN.pdf",
+    "sourceNumber": 252,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PIN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PIN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PIN",
+      "highlight": "PIN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The wrestler pinned his opponent down.",
+      "zh": "摔跤手把對手牢牢按住。",
+      "highlight": "pinned his opponent down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We still cannot pin the cause down.",
+      "zh": "我們仍無法確定原因。",
+      "highlight": "pin the cause down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They tried to pin the mistake on me.",
+      "zh": "他們企圖把錯誤的責任推到我身上。",
+      "highlight": "pin the mistake on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人牢牢按住或困住,使其不能移動；確定或找出某事的準確原因、位置、意思或細節；把責任、錯誤或過失歸咎於某人；用圖釘把告示、海報、相片等張貼起來",
+    "en": "pin somebody down; pin something down; pin something on somebody; pin something up",
+    "naturalZh": [
+      "把某人牢牢按住或困住,使其不能移動",
+      "確定或找出某事的準確原因、位置、意思或細節",
+      "把責任、錯誤或過失歸咎於某人",
+      "用圖釘把告示、海報、相片等張貼起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pin somebody down",
+      "titleZh": "把某人牢牢按住或困住,使其不能移動",
+      "titleEn": "pin somebody down",
+      "descriptionZh": "把某人牢牢按住或困住,使其不能移動",
+      "descriptionEn": "The wrestler pinned his opponent down.",
+      "examples": [
+        {
+          "en": "The wrestler pinned his opponent down.",
+          "zh": "摔跤手把對手牢牢按住。",
+          "highlight": "pinned his opponent down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pin something down",
+      "titleZh": "確定或找出某事的準確原因、位置、意思或細節",
+      "titleEn": "pin something down",
+      "descriptionZh": "確定或找出某事的準確原因、位置、意思或細節",
+      "descriptionEn": "We still cannot pin the cause down.",
+      "examples": [
+        {
+          "en": "We still cannot pin the cause down.",
+          "zh": "我們仍無法確定原因。",
+          "highlight": "pin the cause down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pin something on somebody",
+      "titleZh": "把責任、錯誤或過失歸咎於某人",
+      "titleEn": "pin something on somebody",
+      "descriptionZh": "把責任、錯誤或過失歸咎於某人",
+      "descriptionEn": "They tried to pin the mistake on me.",
+      "examples": [
+        {
+          "en": "They tried to pin the mistake on me.",
+          "zh": "他們企圖把錯誤的責任推到我身上。",
+          "highlight": "pin the mistake on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pin something up",
+      "titleZh": "用圖釘把告示、海報、相片等張貼起來",
+      "titleEn": "pin something up",
+      "descriptionZh": "用圖釘把告示、海報、相片等張貼起來",
+      "descriptionEn": "She pinned up a notice beside the door.",
+      "examples": [
+        {
+          "en": "She pinned up a notice beside the door.",
+          "zh": "她在門旁貼了一張告示。",
+          "highlight": "pinned up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PIN 片語動詞的實際用途",
+    "labelEn": "PIN Phrasal Verbs in Use",
+    "summaryZh": "pin somebody down 可以描述某人在運動、緊急情況或危險處境中被牢牢按住。；當你知道事情有問題,卻仍無法找出確切原因、意思或位置時,可以使用 pin something down。；pin something on somebody 可以表示把錯誤、損失或問題的責任推到某人身上,尤其適合描述不公平的指責。；pin something up 可以用來描述在牆上或告示板上張貼告示、海報、相片、地圖和名單等物件。",
+    "summaryEn": "Pin somebody down can describe a person being held firmly during a sport, an emergency or a dangerous situation. Pin something down is useful when you know that something is wrong but cannot yet identify its exact cause, meaning or location. Pin something on somebody describes placing responsibility for a mistake, loss or problem on a particular person, especially when the claim may be unfair. Pin something up is useful for notices, posters, photographs, maps, lists and other items displayed on a wall or board.",
+    "contextsZh": [
+      "描述某人被牢牢按住、不能移動",
+      "表示難以確定問題所在",
+      "談論責任和歸咎",
+      "描述張貼資料或物件"
+    ],
+    "contextsEn": [
+      "Describe somebody being held so that they cannot move",
+      "Explain that the exact problem is difficult to find",
+      "Talk about blame and responsibility",
+      "Describe displaying information clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PIN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PIN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pin somebody down",
+    "fixedHighlight": "pin somebody down",
+    "fixedZh": "閱讀整句,選出意思相同的 PIN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PIN expression that gives the same meaning.",
+    "correct": "pinned his opponent down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；(摔跤手把他牢牢按住。)I cannot pin the problem down.(我無法確定問題所在。)pin somebody down 和 pin something down 的意思不同,必須留意被按住或需要確定的是人還是事物。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: pin him down pin it down pin it on Ben pin it up Pin somebody down and pin something down have different meanings: The wrestler pinned him down.",
+    "variableItemsZh": [
+      "pin somebody down",
+      "pin something down",
+      "pin something on somebody",
+      "pin something up"
+    ],
+    "variableItemsEn": [
+      "pin somebody down",
+      "pin something down",
+      "pin something on somebody",
+      "pin something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人牢牢按住或困住,使其不能移動",
+        "formEn": "pin somebody down",
+        "exampleZh": "摔跤手把對手牢牢按住。",
+        "exampleEn": "The wrestler pinned his opponent down.",
+        "highlight": "pinned his opponent down"
+      },
+      {
+        "formZh": "確定或找出某事的準確原因、位置、意思或細節",
+        "formEn": "pin something down",
+        "exampleZh": "我們仍無法確定原因。",
+        "exampleEn": "We still cannot pin the cause down.",
+        "highlight": "pin the cause down"
+      },
+      {
+        "formZh": "把責任、錯誤或過失歸咎於某人",
+        "formEn": "pin something on somebody",
+        "exampleZh": "他們企圖把錯誤的責任推到我身上。",
+        "exampleEn": "They tried to pin the mistake on me.",
+        "highlight": "pin the mistake on"
+      },
+      {
+        "formZh": "用圖釘把告示、海報、相片等張貼起來",
+        "formEn": "pin something up",
+        "exampleZh": "她在門旁貼了一張告示。",
+        "exampleEn": "She pinned up a notice beside the door.",
+        "highlight": "pinned up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人牢牢按住或困住,使其不能移動",
+      "titleEn": "pin somebody down",
+      "formula": "pin somebody down",
+      "highlight": "pin somebody down",
+      "descriptionZh": "把某人牢牢按住或困住,使其不能移動",
+      "descriptionEn": "The wrestler pinned his opponent down.",
+      "examples": [
+        {
+          "en": "The wrestler pinned his opponent down.",
+          "zh": "摔跤手把對手牢牢按住。",
+          "highlight": "pinned his opponent down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "確定或找出某事的準確原因、位置、意思或細節",
+      "titleEn": "pin something down",
+      "formula": "pin something down",
+      "highlight": "pin something down",
+      "descriptionZh": "確定或找出某事的準確原因、位置、意思或細節",
+      "descriptionEn": "We still cannot pin the cause down.",
+      "examples": [
+        {
+          "en": "We still cannot pin the cause down.",
+          "zh": "我們仍無法確定原因。",
+          "highlight": "pin the cause down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把責任、錯誤或過失歸咎於某人",
+      "titleEn": "pin something on somebody",
+      "formula": "pin something on somebody",
+      "highlight": "pin something on somebody",
+      "descriptionZh": "把責任、錯誤或過失歸咎於某人",
+      "descriptionEn": "They tried to pin the mistake on me.",
+      "examples": [
+        {
+          "en": "They tried to pin the mistake on me.",
+          "zh": "他們企圖把錯誤的責任推到我身上。",
+          "highlight": "pin the mistake on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "用圖釘把告示、海報、相片等張貼起來",
+      "titleEn": "pin something up",
+      "formula": "pin something up",
+      "highlight": "pin something up",
+      "descriptionZh": "用圖釘把告示、海報、相片等張貼起來",
+      "descriptionEn": "She pinned up a notice beside the door.",
+      "examples": [
+        {
+          "en": "She pinned up a notice beside the door.",
+          "zh": "她在門旁貼了一張告示。",
+          "highlight": "pinned up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某人被牢牢按住、不能移動",
+      "titleEn": "Describe somebody being held so that they cannot move",
+      "zh": "pin somebody down 可以描述某人在運動、緊急情況或危險處境中被牢牢按住。",
+      "en": "Pin somebody down can describe a person being held firmly during a sport, an emergency or a dangerous situation."
+    },
+    {
+      "titleZh": "表示難以確定問題所在",
+      "titleEn": "Explain that the exact problem is difficult to find",
+      "zh": "當你知道事情有問題,卻仍無法找出確切原因、意思或位置時,可以使用 pin something down。",
+      "en": "Pin something down is useful when you know that something is wrong but cannot yet identify its exact cause, meaning or location."
+    },
+    {
+      "titleZh": "談論責任和歸咎",
+      "titleEn": "Talk about blame and responsibility",
+      "zh": "pin something on somebody 可以表示把錯誤、損失或問題的責任推到某人身上,尤其適合描述不公平的指責。",
+      "en": "Pin something on somebody describes placing responsibility for a mistake, loss or problem on a particular person, especially when the claim may be unfair."
+    },
+    {
+      "titleZh": "描述張貼資料或物件",
+      "titleEn": "Describe displaying information clearly",
+      "zh": "pin something up 可以用來描述在牆上或告示板上張貼告示、海報、相片、地圖和名單等物件。",
+      "en": "Pin something up is useful for notices, posters, photographs, maps, lists and other items displayed on a wall or board."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某人被牢牢按住、不能移動",
+      "表示難以確定問題所在",
+      "談論責任和歸咎",
+      "描述張貼資料或物件"
+    ],
+    "contextsEn": [
+      "Describe somebody being held so that they cannot move",
+      "Explain that the exact problem is difficult to find",
+      "Talk about blame and responsibility",
+      "Describe displaying information clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某人被牢牢按住、不能移動",
+        "titleEn": "Describe somebody being held so that they cannot move",
+        "zh": "pin somebody down 可以描述某人在運動、緊急情況或危險處境中被牢牢按住。",
+        "en": "Pin somebody down can describe a person being held firmly during a sport, an emergency or a dangerous situation.",
+        "examples": [
+          {
+            "en": "The wrestler pinned his opponent down.",
+            "zh": "摔跤手把對手牢牢按住。",
+            "highlight": "pinned his opponent down"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示難以確定問題所在",
+        "titleEn": "Explain that the exact problem is difficult to find",
+        "zh": "當你知道事情有問題,卻仍無法找出確切原因、意思或位置時,可以使用 pin something down。",
+        "en": "Pin something down is useful when you know that something is wrong but cannot yet identify its exact cause, meaning or location.",
+        "examples": [
+          {
+            "en": "We still cannot pin the cause down.",
+            "zh": "我們仍無法確定原因。",
+            "highlight": "pin the cause down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論責任和歸咎",
+        "titleEn": "Talk about blame and responsibility",
+        "zh": "pin something on somebody 可以表示把錯誤、損失或問題的責任推到某人身上,尤其適合描述不公平的指責。",
+        "en": "Pin something on somebody describes placing responsibility for a mistake, loss or problem on a particular person, especially when the claim may be unfair.",
+        "examples": [
+          {
+            "en": "They tried to pin the mistake on me.",
+            "zh": "他們企圖把錯誤的責任推到我身上。",
+            "highlight": "pin the mistake on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述張貼資料或物件",
+        "titleEn": "Describe displaying information clearly",
+        "zh": "pin something up 可以用來描述在牆上或告示板上張貼告示、海報、相片、地圖和名單等物件。",
+        "en": "Pin something up is useful for notices, posters, photographs, maps, lists and other items displayed on a wall or board.",
+        "examples": [
+          {
+            "en": "She pinned up a notice beside the door.",
+            "zh": "她在門旁貼了一張告示。",
+            "highlight": "pinned up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PIN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PIN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PIN 片語動詞。",
+      "en": "Read the whole sentence and choose the PIN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: pin him down pin it down pin it on Ben pin it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: pin him down pin it down pin it on Ben pin it up"
+    },
+    {
+      "titleZh": "(摔跤手把他牢牢按住。)I cannot pin the problem down.(我無法確定問題所在。)pin somebody down 和 pin something down 的意思不同,必須留意被按住或需要確定的是人還是事物。",
+      "titleEn": "Pin somebody down and pin something down have different meanings: The wrestler pinned him down.",
+      "zh": "(摔跤手把他牢牢按住。)I cannot pin the problem down.(我無法確定問題所在。)pin somebody down 和 pin something down 的意思不同,必須留意被按住或需要確定的是人還是事物。",
+      "en": "Pin somebody down and pin something down have different meanings: The wrestler pinned him down."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PIN 動詞片語句子改寫練習",
+    "titleEn": "PIN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-267-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Something in this song sounds wrong, but I cannot identify exactly what it is.",
+      "promptZh": "這首歌有些地方聽起來不對勁,但我無法確切指出問題所在。",
+      "starter": "Something",
+      "answer": "Something in this song sounds wrong, but I cannot pin it down.",
+      "answerZh": "這首歌有些地方聽起來不對勁,但我無法確切指出問題所在。",
+      "highlight": "pin",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The teacher attached the class rules to the wall with drawing pins.",
+      "promptZh": "老師用圖釘把班規貼在牆上。",
+      "starter": "The",
+      "answer": "The teacher pinned the class rules up on the wall.",
+      "answerZh": "老師用圖釘把班規貼在牆上。",
+      "highlight": "pinned",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The wrestler held his opponent firmly against the mat.",
+      "promptZh": "摔跤手把對手牢牢按在墊上。",
+      "starter": "The",
+      "answer": "The wrestler pinned his opponent down on the mat.",
+      "answerZh": "摔跤手把對手牢牢按在墊上。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They tried to place the blame for the broken window on me.",
+      "promptZh": "他們企圖把打破窗戶的責任推到我身上。",
+      "starter": "They",
+      "answer": "They tried to pin the blame for the broken window on me.",
+      "answerZh": "他們企圖把打破窗戶的責任推到我身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The doctor could not identify the exact cause of the pain.",
+      "promptZh": "醫生無法確定疼痛的確切原因。",
+      "starter": "The",
+      "answer": "The doctor could not pin down the exact cause of the pain.",
+      "answerZh": "醫生無法確定疼痛的確切原因。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A fallen shelf trapped the worker against the floor.",
+      "promptZh": "倒下的層架把工人壓在地上,令他不能動。",
+      "starter": "A",
+      "answer": "A fallen shelf pinned the worker down on the floor.",
+      "answerZh": "倒下的層架把工人壓在地上,令他不能動。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The manager unfairly blamed the driver for the late delivery.",
+      "promptZh": "經理不公平地把延遲送貨的責任推到司機身上。",
+      "starter": "The",
+      "answer": "The manager unfairly pinned the late delivery on the driver.",
+      "answerZh": "經理不公平地把延遲送貨的責任推到司機身上。",
+      "highlight": "pinned",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Lena attached a photograph beside her desk with a pin.",
+      "promptZh": "莉娜用圖釘把一張相片貼在書桌旁。",
+      "starter": "Lena",
+      "answer": "Lena pinned up a photograph beside her desk.",
+      "answerZh": "莉娜用圖釘把一張相片貼在書桌旁。",
+      "highlight": "pinned up",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Can you identify exactly where that smell is coming from?",
+      "promptZh": "你能確定那股氣味究竟從哪裏傳來嗎?",
+      "starter": "Can",
+      "answer": "Can you pin down exactly where that smell is coming from?",
+      "answerZh": "你能確定那股氣味究竟從哪裏傳來嗎?",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do not blame this mess on your little brother.",
+      "promptZh": "不要把這堆亂七八糟的東西怪在你弟弟身上。",
+      "starter": "Do",
+      "answer": "Do not pin this mess on your little brother.",
+      "answerZh": "不要把這堆亂七八糟的東西怪在你弟弟身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The club is attaching a new poster to the noticeboard now.",
+      "promptZh": "社團現正把一張新海報貼在告示板上。",
+      "starter": "The",
+      "answer": "The club is pinning up a new poster on the noticeboard now.",
+      "answerZh": "社團現正把一張新海報貼在告示板上。",
+      "highlight": "pinning up",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We have not yet identified the exact reason the lights keep failing.",
+      "promptZh": "我們仍未確定燈光不斷故障的確切原因。",
+      "starter": "We",
+      "answer": "We have not yet pinned down the exact reason the lights keep failing.",
+      "answerZh": "我們仍未確定燈光不斷故障的確切原因。",
+      "highlight": "pinned down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did they blame the newest member for the missing key?",
+      "promptZh": "他們為甚麼把鎖匙不見了的責任推到新成員身上?",
+      "starter": "Why",
+      "answer": "Why did they pin the missing key on the newest member?",
+      "answerZh": "他們為甚麼把鎖匙不見了的責任推到新成員身上?",
+      "highlight": "pin the missing key on",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "During practice, the coach carefully held Leo against the mat so that he could not move.",
+      "promptZh": "練習期間,教練小心地把里奧按在墊上,使他不能動。",
+      "starter": "During",
+      "answer": "During practice, the coach carefully pinned Leo down on the mat.",
+      "answerZh": "練習期間,教練小心地把里奧按在墊上,使他不能動。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Please attach it to the board before the meeting starts.",
+      "promptZh": "請在會議開始前把它貼在告示板上。",
+      "starter": "Please",
+      "answer": "Please pin it up on the board before the meeting starts.",
+      "answerZh": "請在會議開始前把它貼在告示板上。",
+      "highlight": "pin",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The team is trying to identify the exact point where the machine stops working.",
+      "promptZh": "團隊正嘗試找出機器究竟在哪個位置停止運作。",
+      "starter": "The",
+      "answer": "The team is trying to pin down the exact point where the machine stops working.",
+      "answerZh": "團隊正嘗試找出機器究竟在哪個位置停止運作。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The heavy branch has trapped the hiker against the ground.",
+      "promptZh": "粗大的樹枝把遠足者壓在地上,令他不能動。",
+      "starter": "The",
+      "answer": "The heavy branch has pinned the hiker down on the ground.",
+      "answerZh": "粗大的樹枝把遠足者壓在地上,令他不能動。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The shop owner did not blame the cashier for the missing money.",
+      "promptZh": "店主沒有把失款的責任推到收銀員身上。",
+      "starter": "The",
+      "answer": "The shop owner did not pin the missing money on the cashier.",
+      "answerZh": "店主沒有把失款的責任推到收銀員身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "It is hard to say exactly why this room feels colder.",
+      "promptZh": "很難確切說明為甚麼這個房間較冷。",
+      "starter": "It",
+      "answer": "It is hard to pin down exactly why this room feels colder.",
+      "answerZh": "很難確切說明為甚麼這個房間較冷。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Has Noah attached the new timetable to the kitchen wall?",
+      "promptZh": "諾亞有沒有把新時間表貼在廚房的牆上?",
+      "starter": "Has",
+      "answer": "Has Noah pinned the new timetable up on the kitchen wall?",
+      "answerZh": "諾亞有沒有把新時間表貼在廚房的牆上?",
+      "highlight": "pinned",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The security guard held him firmly on the floor until help arrived.",
+      "promptZh": "保安員把他牢牢按在地上,直至有人前來協助。",
+      "starter": "The",
+      "answer": "The security guard pinned him down on the floor until help arrived.",
+      "answerZh": "保安員把他牢牢按在地上,直至有人前來協助。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The fault was wrongly blamed on the new assistant.",
+      "promptZh": "這項過失被錯誤地歸咎於新助理。",
+      "starter": "The",
+      "answer": "The fault was wrongly pinned on the new assistant.",
+      "answerZh": "這項過失被錯誤地歸咎於新助理。",
+      "highlight": "pinned",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The map is ready. Attach it above the table with pins.",
+      "promptZh": "地圖已準備好。請用圖釘把它貼在桌子上方。",
+      "starter": "The",
+      "answer": "The map is ready. Pin it up above the table.",
+      "answerZh": "地圖已準備好。請用圖釘把它貼在桌子上方。",
+      "highlight": "Pin",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I know there is a problem, but I cannot identify it exactly.",
+      "promptZh": "我知道出了問題,但無法確切指出問題所在。",
+      "starter": "I",
+      "answer": "I know there is a problem, but I cannot pin it down.",
+      "answerZh": "我知道出了問題,但無法確切指出問題所在。",
+      "highlight": "pin",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Two officers had held the man firmly on the pavement before the ambulance arrived.",
+      "promptZh": "救護車到達前,兩名警員已把那名男子牢牢按在行人路上。",
+      "starter": "Two",
+      "answer": "Two officers had pinned down the man on the pavement before the ambulance arrived.",
+      "answerZh": "救護車到達前,兩名警員已把那名男子牢牢按在行人路上。",
+      "highlight": "pinned down",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "They could not make anyone responsible for the false message.",
+      "promptZh": "他們無法把發出虛假訊息的責任推到任何人身上。",
+      "starter": "They",
+      "answer": "They could not pin the false message on anyone.",
+      "answerZh": "他們無法把發出虛假訊息的責任推到任何人身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The sound is coming from somewhere upstairs, but we cannot locate its exact source.",
+      "promptZh": "聲音來自樓上某處,但我們無法確定其準確來源。",
+      "starter": "The",
+      "answer": "The sound is coming from somewhere upstairs, but we cannot pin down its exact source.",
+      "answerZh": "聲音來自樓上某處,但我們無法確定其準確來源。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A safety notice was attached beside the lift with drawing pins.",
+      "promptZh": "升降機旁用圖釘貼了一張安全告示。",
+      "starter": "A",
+      "answer": "A safety notice was pinned up beside the lift.",
+      "answerZh": "升降機旁用圖釘貼了一張安全告示。",
+      "highlight": "pinned up",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The team tried to make the goalkeeper responsible for the defeat.",
+      "promptZh": "球隊企圖把落敗的責任推到守門員身上。",
+      "starter": "The",
+      "answer": "The team tried to pin the defeat on the goalkeeper.",
+      "answerZh": "球隊企圖把落敗的責任推到守門員身上。",
+      "highlight": "pin the defeat on",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The fallen door held us against the floor for several minutes.",
+      "promptZh": "倒下的門把我們壓在地上數分鐘。",
+      "starter": "The",
+      "answer": "The fallen door pinned us down for several minutes.",
+      "answerZh": "倒下的門把我們壓在地上數分鐘。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although Sam was not there, they tried to make him responsible for the mistake.",
+      "promptZh": "雖然森當時不在場,但他們仍企圖把錯誤的責任推到他身上。",
+      "starter": "Although",
+      "answer": "Although Sam was not there, they tried to pin the mistake on him.",
+      "answerZh": "雖然森當時不在場,但他們仍企圖把錯誤的責任推到他身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The two pictures look different, but I cannot say exactly what has changed.",
+      "promptZh": "兩張圖片看來有所不同,但我無法確切說出改變了甚麼。",
+      "starter": "The",
+      "answer": "The two pictures look different, but I cannot pin down exactly what has changed.",
+      "answerZh": "兩張圖片看來有所不同,但我無法確切說出改變了甚麼。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before the open day, the students attached their drawings all along the corridor wall.",
+      "promptZh": "開放日前,學生把自己的畫作貼滿走廊牆壁。",
+      "starter": "Before",
+      "answer": "Before the open day, the students pinned up their drawings all along the corridor wall.",
+      "answerZh": "開放日前,學生把自己的畫作貼滿走廊牆壁。",
+      "highlight": "pinned up",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The player fell, and three others held him still on the grass so that he would not move his injured leg.",
+      "promptZh": "球員倒下後,另外三人把他按在草地上,以免他移動受傷的腿。",
+      "starter": "The",
+      "answer": "The player fell, and three others pinned him down on the grass so that he would not move his injured leg.",
+      "answerZh": "球員倒下後,另外三人把他按在草地上,以免他移動受傷的腿。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After checking every room, we finally identified the exact source of the water.",
+      "promptZh": "檢查過每個房間後,我們終於找出水的確切來源。",
+      "starter": "After",
+      "answer": "After checking every room, we finally pinned the source of the water down.",
+      "answerZh": "檢查過每個房間後,我們終於找出水的確切來源。",
+      "highlight": "pinned",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The computer failed, but the manager should not blame every problem on the office assistant.",
+      "promptZh": "電腦故障了,但經理不應把每個問題都怪在辦公室助理身上。",
+      "starter": "The",
+      "answer": "The computer failed, but the manager should not pin every problem on the office assistant.",
+      "answerZh": "電腦故障了,但經理不應把每個問題都怪在辦公室助理身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A large wooden board fell and held the cleaner flat on the floor.",
+      "promptZh": "一塊大木板倒下,把清潔工壓在地上。",
+      "starter": "A",
+      "answer": "A large wooden board fell and pinned the cleaner down on the floor.",
+      "answerZh": "一塊大木板倒下,把清潔工壓在地上。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could you attach this reminder where everyone can see it?",
+      "promptZh": "你可以把這張提醒貼在所有人都看得見的地方嗎?",
+      "starter": "Could",
+      "answer": "Could you pin this reminder up where everyone can see it?",
+      "answerZh": "你可以把這張提醒貼在所有人都看得見的地方嗎?",
+      "highlight": "pin",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The damage to the chair was blamed on the wrong student, even though he had never touched it.",
+      "promptZh": "椅子的損壞被錯誤地歸咎於一名從未碰過它的學生。",
+      "starter": "The",
+      "answer": "The damage to the chair was pinned on the wrong student, even though he had never touched it.",
+      "answerZh": "椅子的損壞被錯誤地歸咎於一名從未碰過它的學生。",
+      "highlight": "pinned",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one has been able to identify the exact meaning of the final line.",
+      "promptZh": "沒有人能確定最後一句的準確意思。",
+      "starter": "No",
+      "answer": "No one has been able to pin the exact meaning of the final line down.",
+      "answerZh": "沒有人能確定最後一句的準確意思。",
+      "highlight": "pin",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The café owner printed the lunch menu and attached it near the counter so that customers could read it.",
+      "promptZh": "咖啡店店主列印了午餐餐牌,並把它貼在櫃檯附近,讓顧客閱讀。",
+      "starter": "The",
+      "answer": "The café owner printed the lunch menu and pinned it up near the counter so that customers could read it.",
+      "answerZh": "咖啡店店主列印了午餐餐牌,並把它貼在櫃檯附近,讓顧客閱讀。",
+      "highlight": "pinned",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The wrestler was much stronger, and he held his opponent flat on the mat until the referee counted to three.",
+      "promptZh": "摔跤手強壯得多,他把對手牢牢按在墊上,直至裁判數到三。",
+      "starter": "The",
+      "answer": "The wrestler was much stronger, and he pinned down his opponent on the mat until the referee counted to three.",
+      "answerZh": "摔跤手強壯得多,他把對手牢牢按在墊上,直至裁判數到三。",
+      "highlight": "pinned down",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We all agree that the plan feels wrong, but none of us can explain exactly what the problem is.",
+      "promptZh": "我們都同意這項計劃有問題,但沒有人能確切說明問題所在。",
+      "starter": "We",
+      "answer": "We all agree that the plan feels wrong, but none of us can pin down exactly what the problem is.",
+      "answerZh": "我們都同意這項計劃有問題,但沒有人能確切說明問題所在。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the records were unclear, the company tried to make one junior worker responsible for the whole error.",
+      "promptZh": "由於紀錄不清,公司企圖把整項錯誤的責任推到一名初級員工身上。",
+      "starter": "Because",
+      "answer": "Because the records were unclear, the company tried to pin the whole error on one junior worker.",
+      "answerZh": "由於紀錄不清,公司企圖把整項錯誤的責任推到一名初級員工身上。",
+      "highlight": "pin the whole error on",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the new class list arrived, the teacher attached it beside the classroom door for everyone to check.",
+      "promptZh": "新班別名單送到後,老師把它貼在課室門旁,讓所有人查看。",
+      "starter": "When",
+      "answer": "When the new class list arrived, the teacher pinned it up beside the classroom door for everyone to check.",
+      "answerZh": "新班別名單送到後,老師把它貼在課室門旁,讓所有人查看。",
+      "highlight": "pinned",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    },
+    {
+      "id": "phrasal-verb-267-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A heavy piece of metal had fallen across Ravi and held him flat on the ground until help came.",
+      "promptZh": "一塊沉重的金屬壓着拉維,把他困在地上,直至有人前來協助。",
+      "starter": "A",
+      "answer": "A heavy piece of metal had pinned Ravi down on the ground until help came.",
+      "answerZh": "一塊沉重的金屬壓着拉維,把他困在地上,直至有人前來協助。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The coach accepted responsibility and refused to blame the defeat on the youngest player.",
+      "promptZh": "教練承擔責任,拒絕把落敗怪在最年輕的球員身上。",
+      "starter": "The",
+      "answer": "The coach accepted responsibility and refused to pin the defeat on the youngest player.",
+      "answerZh": "教練承擔責任,拒絕把落敗怪在最年輕的球員身上。",
+      "highlight": "pin",
+      "targetForm": "pin something on somebody",
+      "targetMeaningZh": "把責任或過失歸咎於某人"
+    },
+    {
+      "id": "phrasal-verb-267-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The smell disappeared before we could identify exactly where it had come from.",
+      "promptZh": "我們尚未確定氣味究竟從哪裏傳來,它便已消失。",
+      "starter": "The",
+      "answer": "The smell disappeared before we could pin down exactly where it had come from.",
+      "answerZh": "我們尚未確定氣味究竟從哪裏傳來,它便已消失。",
+      "highlight": "pin down",
+      "targetForm": "pin something down",
+      "targetMeaningZh": "確定或找出某事的準確原因、位置、意思或細節"
+    },
+    {
+      "id": "phrasal-verb-267-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the shelves collapsed, one board trapped Ava against the floor, but her friends quickly lifted it.",
+      "promptZh": "層架倒下時,一塊木板把艾娃壓在地上,但朋友很快便把它抬起。",
+      "starter": "When",
+      "answer": "When the shelves collapsed, one board pinned Ava down on the floor, but her friends quickly lifted it.",
+      "answerZh": "層架倒下時,一塊木板把艾娃壓在地上,但朋友很快便把它抬起。",
+      "highlight": "pinned",
+      "targetForm": "pin somebody down",
+      "targetMeaningZh": "把某人牢牢按住或困住,使其不能移動"
+    },
+    {
+      "id": "phrasal-verb-267-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The children chose their best photographs, attached them to the board, and then invited their families to look.",
+      "promptZh": "孩子們選出最好的相片,把它們貼在告示板上,然後邀請家人來看。",
+      "starter": "The",
+      "answer": "The children chose their best photographs, pinned them up on the board, and then invited their families to look.",
+      "answerZh": "孩子們選出最好的相片,把它們貼在告示板上,然後邀請家人來看。",
+      "highlight": "pinned",
+      "targetForm": "pin something up",
+      "targetMeaningZh": "用圖釘把某物張貼起來"
+    }
+  ]
+}

@@ -1,0 +1,1770 @@
+{
+  "id": "phrasal-verb-59",
+  "order": 59,
+  "slug": "hand",
+  "version": "1",
+  "title": "HAND 動詞片語",
+  "titleEn": "Hand",
+  "titleZh": "HAND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 58 - HAND.pdf",
+    "sourceNumber": 58,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HAND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HAND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HAND",
+      "highlight": "HAND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I’d like to hand over to our guest speaker.",
+      "zh": "我想把發言交給我們的嘉賓講者。",
+      "highlight": "hand over to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I am leaving, so I will hand over to my deputy.",
+      "zh": "我要離職,所以會把工作交給我的副手。",
+      "highlight": "hand over to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Now I will hand you back to the studio.",
+      "zh": "現在我把節目交回錄影室。",
+      "highlight": "hand you back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把說話、主持或介紹部分交給另一人；把工作、責任或控制交給另一人；把聽眾或觀眾交回給另一位主持人或節目；把某人、某物或自己交給警方或負責人員；把物件逐一傳給在場的人；把物件、地方或控制權歸還；把物品、故事或傳統傳給下一代；提交功課、表格或文件；把物件或資料傳給下一個人",
+    "en": "hand over to somebody / hand somebody over to somebody; hand over to somebody / hand something over to somebody; hand somebody back to somebody/something; hand somebody/something over to somebody / hand yourself over to somebody; hand something around / hand something round; hand something back to somebody; hand something down; hand something in to somebody; hand something on to somebody",
+    "naturalZh": [
+      "把說話、主持或介紹部分交給另一人",
+      "把工作、責任或控制交給另一人",
+      "把聽眾或觀眾交回給另一位主持人或節目",
+      "把某人、某物或自己交給警方或負責人員",
+      "把物件逐一傳給在場的人",
+      "把物件、地方或控制權歸還",
+      "把物品、故事或傳統傳給下一代",
+      "提交功課、表格或文件",
+      "把物件或資料傳給下一個人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hand over to somebody / hand somebody over to somebody",
+      "titleZh": "把說話、主持或介紹部分交給另一人",
+      "titleEn": "hand over to somebody / hand somebody over to somebody",
+      "descriptionZh": "把說話、主持或介紹部分交給另一人",
+      "descriptionEn": "I’d like to hand over to our guest speaker.",
+      "examples": [
+        {
+          "en": "I’d like to hand over to our guest speaker.",
+          "zh": "我想把發言交給我們的嘉賓講者。",
+          "highlight": "hand over to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hand over to somebody / hand something over to somebody",
+      "titleZh": "把工作、責任或控制交給另一人",
+      "titleEn": "hand over to somebody / hand something over to somebody",
+      "descriptionZh": "把工作、責任或控制交給另一人",
+      "descriptionEn": "I am leaving, so I will hand over to my deputy.",
+      "examples": [
+        {
+          "en": "I am leaving, so I will hand over to my deputy.",
+          "zh": "我要離職,所以會把工作交給我的副手。",
+          "highlight": "hand over to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hand somebody back to somebody/something",
+      "titleZh": "把聽眾或觀眾交回給另一位主持人或節目",
+      "titleEn": "hand somebody back to somebody/something",
+      "descriptionZh": "把聽眾或觀眾交回給另一位主持人或節目",
+      "descriptionEn": "Now I will hand you back to the studio.",
+      "examples": [
+        {
+          "en": "Now I will hand you back to the studio.",
+          "zh": "現在我把節目交回錄影室。",
+          "highlight": "hand you back to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hand somebody/something over to somebody / hand yourself over to somebody",
+      "titleZh": "把某人、某物或自己交給警方或負責人員",
+      "titleEn": "hand somebody/something over to somebody / hand yourself over to somebody",
+      "descriptionZh": "把某人、某物或自己交給警方或負責人員",
+      "descriptionEn": "They handed the man over to the police.",
+      "examples": [
+        {
+          "en": "They handed the man over to the police.",
+          "zh": "他們把那名男子交給警方。",
+          "highlight": "handed the man over to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hand something around / hand something round",
+      "titleZh": "把物件逐一傳給在場的人",
+      "titleEn": "hand something around / hand something round",
+      "descriptionZh": "把物件逐一傳給在場的人",
+      "descriptionEn": "Could you hand the sandwiches round?",
+      "examples": [
+        {
+          "en": "Could you hand the sandwiches round?",
+          "zh": "你可以把三文治逐一傳給大家嗎?",
+          "highlight": "hand the sandwiches round"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hand something back to somebody",
+      "titleZh": "把物件、地方或控制權歸還",
+      "titleEn": "hand something back to somebody",
+      "descriptionZh": "把物件、地方或控制權歸還",
+      "descriptionEn": "Please hand the key back to me.",
+      "examples": [
+        {
+          "en": "Please hand the key back to me.",
+          "zh": "請把鎖匙還給我。",
+          "highlight": "hand the key back to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hand something down",
+      "titleZh": "把物品、故事或傳統傳給下一代",
+      "titleEn": "hand something down",
+      "descriptionZh": "把物品、故事或傳統傳給下一代",
+      "descriptionEn": "This watch was handed down to me by my grandfather.",
+      "examples": [
+        {
+          "en": "This watch was handed down to me by my grandfather.",
+          "zh": "這隻手錶是我祖父傳給我的。",
+          "highlight": "handed down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hand something in to somebody",
+      "titleZh": "提交功課、表格或文件",
+      "titleEn": "hand something in to somebody",
+      "descriptionZh": "提交功課、表格或文件",
+      "descriptionEn": "Please hand your homework in on time.",
+      "examples": [
+        {
+          "en": "Please hand your homework in on time.",
+          "zh": "請準時交功課。",
+          "highlight": "hand your homework in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hand something on to somebody",
+      "titleZh": "把物件或資料傳給下一個人",
+      "titleEn": "hand something on to somebody",
+      "descriptionZh": "把物件或資料傳給下一個人",
+      "descriptionEn": "Read the note, then hand it on to Sara.",
+      "examples": [
+        {
+          "en": "Read the note, then hand it on to Sara.",
+          "zh": "看完便把便條傳給莎拉。",
+          "highlight": "hand it on to"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HAND 片語動詞的實際用途",
+    "labelEn": "HAND Phrasal Verbs in Use",
+    "summaryZh": "hand over 和 hand somebody back 可以幫助講者、主持人和記者,把節目或討論順暢地交給另一人。；hand over 可以表示把項目、店舖或工作交給另一人管理。；hand in 表示提交;hand back 表示歸還;hand on 表示傳給下一個人;hand round 表示逐一傳給所有人。；hand down 可以描述衣物、物件、食譜、歌曲或故事由年長家人傳給年輕一代。",
+    "summaryEn": "Hand over and hand somebody back help speakers, presenters and reporters pass a programme or discussion smoothly from one person to another. Hand over can describe giving a project, shop or job to another person to manage. Hand in means submit, hand back means return, hand on means pass to the next person, and hand round means pass to everyone. Hand down describes clothes, objects, recipes, songs or stories passing from older family members to younger ones.",
+    "contextsZh": [
+      "用 HAND 清楚交接發言次序",
+      "談論責任和控制權的轉交",
+      "清楚表達不同的交付方式",
+      "談論家族物品和傳統"
+    ],
+    "contextsEn": [
+      "Use HAND to manage speaking turns clearly",
+      "Talk about responsibility and control",
+      "Show different ways of giving things",
+      "Talk about family items and traditions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HAND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HAND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hand over to somebody / hand somebody over to somebody",
+    "fixedHighlight": "hand over to somebody / hand somebody over to somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 HAND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HAND expression that gives the same meaning.",
+    "correct": "hand over to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；around 和 round 在本練習中意思相同。hand on 表示把物件傳給下一個人;hand around或 hand round 則表示逐一傳給所有人。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: hand it in hand it back hand them round hand him over to the police Around and round have the same meaning in this set. Hand on means passing something to the next person; hand around or hand round means passing it to everyone.",
+    "variableItemsZh": [
+      "hand over to somebody / hand somebody over to somebody",
+      "hand over to somebody / hand something over to somebody",
+      "hand somebody back to somebody/something",
+      "hand somebody/something over to somebody / hand yourself over to somebody",
+      "hand something around / hand something round",
+      "hand something back to somebody",
+      "hand something down",
+      "hand something in to somebody",
+      "hand something on to somebody"
+    ],
+    "variableItemsEn": [
+      "hand over to somebody / hand somebody over to somebody",
+      "hand over to somebody / hand something over to somebody",
+      "hand somebody back to somebody/something",
+      "hand somebody/something over to somebody / hand yourself over to somebody",
+      "hand something around / hand something round",
+      "hand something back to somebody",
+      "hand something down",
+      "hand something in to somebody",
+      "hand something on to somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "把說話、主持或介紹部分交給另一人",
+        "formEn": "hand over to somebody / hand somebody over to somebody",
+        "exampleZh": "我想把發言交給我們的嘉賓講者。",
+        "exampleEn": "I’d like to hand over to our guest speaker.",
+        "highlight": "hand over to"
+      },
+      {
+        "formZh": "把工作、責任或控制交給另一人",
+        "formEn": "hand over to somebody / hand something over to somebody",
+        "exampleZh": "我要離職,所以會把工作交給我的副手。",
+        "exampleEn": "I am leaving, so I will hand over to my deputy.",
+        "highlight": "hand over to"
+      },
+      {
+        "formZh": "把聽眾或觀眾交回給另一位主持人或節目",
+        "formEn": "hand somebody back to somebody/something",
+        "exampleZh": "現在我把節目交回錄影室。",
+        "exampleEn": "Now I will hand you back to the studio.",
+        "highlight": "hand you back to"
+      },
+      {
+        "formZh": "把某人、某物或自己交給警方或負責人員",
+        "formEn": "hand somebody/something over to somebody / hand yourself over to somebody",
+        "exampleZh": "他們把那名男子交給警方。",
+        "exampleEn": "They handed the man over to the police.",
+        "highlight": "handed the man over to"
+      },
+      {
+        "formZh": "把物件逐一傳給在場的人",
+        "formEn": "hand something around / hand something round",
+        "exampleZh": "你可以把三文治逐一傳給大家嗎?",
+        "exampleEn": "Could you hand the sandwiches round?",
+        "highlight": "hand the sandwiches round"
+      },
+      {
+        "formZh": "把物件、地方或控制權歸還",
+        "formEn": "hand something back to somebody",
+        "exampleZh": "請把鎖匙還給我。",
+        "exampleEn": "Please hand the key back to me.",
+        "highlight": "hand the key back to"
+      },
+      {
+        "formZh": "把物品、故事或傳統傳給下一代",
+        "formEn": "hand something down",
+        "exampleZh": "這隻手錶是我祖父傳給我的。",
+        "exampleEn": "This watch was handed down to me by my grandfather.",
+        "highlight": "handed down"
+      },
+      {
+        "formZh": "提交功課、表格或文件",
+        "formEn": "hand something in to somebody",
+        "exampleZh": "請準時交功課。",
+        "exampleEn": "Please hand your homework in on time.",
+        "highlight": "hand your homework in"
+      },
+      {
+        "formZh": "把物件或資料傳給下一個人",
+        "formEn": "hand something on to somebody",
+        "exampleZh": "看完便把便條傳給莎拉。",
+        "exampleEn": "Read the note, then hand it on to Sara.",
+        "highlight": "hand it on to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把說話、主持或介紹部分交給另一人",
+      "titleEn": "hand over to somebody / hand somebody over to somebody",
+      "formula": "hand over to somebody / hand somebody over to somebody",
+      "highlight": "hand over to somebody / hand somebody over to somebody",
+      "descriptionZh": "把說話、主持或介紹部分交給另一人",
+      "descriptionEn": "I’d like to hand over to our guest speaker.",
+      "examples": [
+        {
+          "en": "I’d like to hand over to our guest speaker.",
+          "zh": "我想把發言交給我們的嘉賓講者。",
+          "highlight": "hand over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把工作、責任或控制交給另一人",
+      "titleEn": "hand over to somebody / hand something over to somebody",
+      "formula": "hand over to somebody / hand something over to somebody",
+      "highlight": "hand over to somebody / hand something over to somebody",
+      "descriptionZh": "把工作、責任或控制交給另一人",
+      "descriptionEn": "I am leaving, so I will hand over to my deputy.",
+      "examples": [
+        {
+          "en": "I am leaving, so I will hand over to my deputy.",
+          "zh": "我要離職,所以會把工作交給我的副手。",
+          "highlight": "hand over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把聽眾或觀眾交回給另一位主持人或節目",
+      "titleEn": "hand somebody back to somebody/something",
+      "formula": "hand somebody back to somebody/something",
+      "highlight": "hand somebody back to somebody/something",
+      "descriptionZh": "把聽眾或觀眾交回給另一位主持人或節目",
+      "descriptionEn": "Now I will hand you back to the studio.",
+      "examples": [
+        {
+          "en": "Now I will hand you back to the studio.",
+          "zh": "現在我把節目交回錄影室。",
+          "highlight": "hand you back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人、某物或自己交給警方或負責人員",
+      "titleEn": "hand somebody/something over to somebody / hand yourself over to somebody",
+      "formula": "hand somebody/something over to somebody / hand yourself over to somebody",
+      "highlight": "hand somebody/something over to somebody / hand yourself over to somebody",
+      "descriptionZh": "把某人、某物或自己交給警方或負責人員",
+      "descriptionEn": "They handed the man over to the police.",
+      "examples": [
+        {
+          "en": "They handed the man over to the police.",
+          "zh": "他們把那名男子交給警方。",
+          "highlight": "handed the man over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把物件逐一傳給在場的人",
+      "titleEn": "hand something around / hand something round",
+      "formula": "hand something around / hand something round",
+      "highlight": "hand something around / hand something round",
+      "descriptionZh": "把物件逐一傳給在場的人",
+      "descriptionEn": "Could you hand the sandwiches round?",
+      "examples": [
+        {
+          "en": "Could you hand the sandwiches round?",
+          "zh": "你可以把三文治逐一傳給大家嗎?",
+          "highlight": "hand the sandwiches round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把物件、地方或控制權歸還",
+      "titleEn": "hand something back to somebody",
+      "formula": "hand something back to somebody",
+      "highlight": "hand something back to somebody",
+      "descriptionZh": "把物件、地方或控制權歸還",
+      "descriptionEn": "Please hand the key back to me.",
+      "examples": [
+        {
+          "en": "Please hand the key back to me.",
+          "zh": "請把鎖匙還給我。",
+          "highlight": "hand the key back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把物品、故事或傳統傳給下一代",
+      "titleEn": "hand something down",
+      "formula": "hand something down",
+      "highlight": "hand something down",
+      "descriptionZh": "把物品、故事或傳統傳給下一代",
+      "descriptionEn": "This watch was handed down to me by my grandfather.",
+      "examples": [
+        {
+          "en": "This watch was handed down to me by my grandfather.",
+          "zh": "這隻手錶是我祖父傳給我的。",
+          "highlight": "handed down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "提交功課、表格或文件",
+      "titleEn": "hand something in to somebody",
+      "formula": "hand something in to somebody",
+      "highlight": "hand something in to somebody",
+      "descriptionZh": "提交功課、表格或文件",
+      "descriptionEn": "Please hand your homework in on time.",
+      "examples": [
+        {
+          "en": "Please hand your homework in on time.",
+          "zh": "請準時交功課。",
+          "highlight": "hand your homework in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把物件或資料傳給下一個人",
+      "titleEn": "hand something on to somebody",
+      "formula": "hand something on to somebody",
+      "highlight": "hand something on to somebody",
+      "descriptionZh": "把物件或資料傳給下一個人",
+      "descriptionEn": "Read the note, then hand it on to Sara.",
+      "examples": [
+        {
+          "en": "Read the note, then hand it on to Sara.",
+          "zh": "看完便把便條傳給莎拉。",
+          "highlight": "hand it on to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 HAND 清楚交接發言次序",
+      "titleEn": "Use HAND to manage speaking turns clearly",
+      "zh": "hand over 和 hand somebody back 可以幫助講者、主持人和記者,把節目或討論順暢地交給另一人。",
+      "en": "Hand over and hand somebody back help speakers, presenters and reporters pass a programme or discussion smoothly from one person to another."
+    },
+    {
+      "titleZh": "談論責任和控制權的轉交",
+      "titleEn": "Talk about responsibility and control",
+      "zh": "hand over 可以表示把項目、店舖或工作交給另一人管理。",
+      "en": "Hand over can describe giving a project, shop or job to another person to manage."
+    },
+    {
+      "titleZh": "清楚表達不同的交付方式",
+      "titleEn": "Show different ways of giving things",
+      "zh": "hand in 表示提交;hand back 表示歸還;hand on 表示傳給下一個人;hand round 表示逐一傳給所有人。",
+      "en": "Hand in means submit, hand back means return, hand on means pass to the next person, and hand round means pass to everyone."
+    },
+    {
+      "titleZh": "談論家族物品和傳統",
+      "titleEn": "Talk about family items and traditions",
+      "zh": "hand down 可以描述衣物、物件、食譜、歌曲或故事由年長家人傳給年輕一代。",
+      "en": "Hand down describes clothes, objects, recipes, songs or stories passing from older family members to younger ones."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 HAND 清楚交接發言次序",
+      "談論責任和控制權的轉交",
+      "清楚表達不同的交付方式",
+      "談論家族物品和傳統"
+    ],
+    "contextsEn": [
+      "Use HAND to manage speaking turns clearly",
+      "Talk about responsibility and control",
+      "Show different ways of giving things",
+      "Talk about family items and traditions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 HAND 清楚交接發言次序",
+        "titleEn": "Use HAND to manage speaking turns clearly",
+        "zh": "hand over 和 hand somebody back 可以幫助講者、主持人和記者,把節目或討論順暢地交給另一人。",
+        "en": "Hand over and hand somebody back help speakers, presenters and reporters pass a programme or discussion smoothly from one person to another.",
+        "examples": [
+          {
+            "en": "I’d like to hand over to our guest speaker.",
+            "zh": "我想把發言交給我們的嘉賓講者。",
+            "highlight": "hand over to"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論責任和控制權的轉交",
+        "titleEn": "Talk about responsibility and control",
+        "zh": "hand over 可以表示把項目、店舖或工作交給另一人管理。",
+        "en": "Hand over can describe giving a project, shop or job to another person to manage.",
+        "examples": [
+          {
+            "en": "I am leaving, so I will hand over to my deputy.",
+            "zh": "我要離職,所以會把工作交給我的副手。",
+            "highlight": "hand over to"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達不同的交付方式",
+        "titleEn": "Show different ways of giving things",
+        "zh": "hand in 表示提交;hand back 表示歸還;hand on 表示傳給下一個人;hand round 表示逐一傳給所有人。",
+        "en": "Hand in means submit, hand back means return, hand on means pass to the next person, and hand round means pass to everyone.",
+        "examples": [
+          {
+            "en": "Now I will hand you back to the studio.",
+            "zh": "現在我把節目交回錄影室。",
+            "highlight": "hand you back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論家族物品和傳統",
+        "titleEn": "Talk about family items and traditions",
+        "zh": "hand down 可以描述衣物、物件、食譜、歌曲或故事由年長家人傳給年輕一代。",
+        "en": "Hand down describes clothes, objects, recipes, songs or stories passing from older family members to younger ones.",
+        "examples": [
+          {
+            "en": "They handed the man over to the police.",
+            "zh": "他們把那名男子交給警方。",
+            "highlight": "handed the man over to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HAND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HAND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HAND 片語動詞。",
+      "en": "Read the whole sentence and choose the HAND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: hand it in hand it back hand them round hand him over to the police.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: hand it in hand it back hand them round hand him over to the police"
+    },
+    {
+      "titleZh": "around 和 round 在本練習中意思相同。hand on 表示把物件傳給下一個人;hand around或 hand round 則表示逐一傳給所有人。",
+      "titleEn": "Around and round have the same meaning in this set.",
+      "zh": "around 和 round 在本練習中意思相同。hand on 表示把物件傳給下一個人;hand around或 hand round 則表示逐一傳給所有人。",
+      "en": "Around and round have the same meaning in this set. Hand on means passing something to the next person; hand around or hand round means passing it to everyone."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HAND 動詞片語句子改寫練習",
+    "titleEn": "HAND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-59-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The waiter gave the menus to everyone at the table.",
+      "promptZh": "侍應把餐牌給桌上的每個人。",
+      "starter": "The",
+      "answer": "The waiter handed the menus round to everyone at the table.",
+      "answerZh": "侍應把餐牌逐一傳給桌上的每個人。",
+      "highlight": "handed",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I will now let our guest speaker begin.",
+      "promptZh": "我現在會讓我們的嘉賓講者開始發言。",
+      "starter": "I",
+      "answer": "I will now hand over to our guest speaker.",
+      "answerZh": "我現在會把發言交給我們的嘉賓講者。",
+      "highlight": "hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please submit your homework before Friday.",
+      "promptZh": "請在星期五前交功課。",
+      "starter": "Please",
+      "answer": "Please hand your homework in before Friday.",
+      "answerZh": "請在星期五前交功課。",
+      "highlight": "hand",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Now I will return you to Emma at the news desk.",
+      "promptZh": "現在我會把節目交回新聞台的艾瑪。",
+      "starter": "Now",
+      "answer": "Now I will hand you back to Emma at the news desk.",
+      "answerZh": "現在我會把節目交回新聞台的艾瑪。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I am leaving the job and giving responsibility to my deputy.",
+      "promptZh": "我要離開這份工作,並把責任交給我的副手。",
+      "starter": "I",
+      "answer": "I am leaving the job and handing over to my deputy.",
+      "answerZh": "我要離開這份工作,並把工作交給我的副手。",
+      "highlight": "handing over",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Read the note, then give it to the next person.",
+      "promptZh": "看完便把便條交給下一個人。",
+      "starter": "Read",
+      "answer": "Read the note, then hand it on to the next person.",
+      "answerZh": "看完便把便條傳給下一個人。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Please return the library card to me.",
+      "promptZh": "請把圖書證還給我。",
+      "starter": "Please",
+      "answer": "Please hand the library card back to me.",
+      "answerZh": "請把圖書證還給我。",
+      "highlight": "hand",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The shop staff gave the stolen phone to the police.",
+      "promptZh": "店員把失竊的手機交給警方。",
+      "starter": "The",
+      "answer": "The shop staff handed the stolen phone over to the police.",
+      "answerZh": "店員把失竊的手機交給警方。",
+      "highlight": "handed",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I will now let Leo present the next part.",
+      "promptZh": "我現在會讓里奧講解下一部分。",
+      "starter": "I",
+      "answer": "I will now hand over to Leo for the next part.",
+      "answerZh": "我現在會把下一部分交給里奧講解。",
+      "highlight": "hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "This watch passed from my grandfather to my father and then to me.",
+      "promptZh": "這隻手錶由我祖父傳給我父親,再傳給我。",
+      "starter": "This",
+      "answer": "This watch was handed down from my grandfather to my father and then to me.",
+      "answerZh": "這隻手錶由我祖父傳給我父親,再傳給我。",
+      "highlight": "was handed down",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Could you give these photos to everyone in the group?",
+      "promptZh": "你可以把這些照片給組內每個人嗎?",
+      "starter": "Could",
+      "answer": "Could you hand these photos round to everyone in the group?",
+      "answerZh": "你可以把這些照片逐一傳給組內每個人嗎?",
+      "highlight": "hand",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "All forms must be submitted by noon.",
+      "promptZh": "所有表格必須在中午前提交。",
+      "starter": "All",
+      "answer": "All forms must be handed in by noon.",
+      "answerZh": "所有表格必須在中午前提交。",
+      "highlight": "handed in",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The manager gave control of the shop to her son.",
+      "promptZh": "經理把店舖的控制權交給她的兒子。",
+      "starter": "The",
+      "answer": "The manager handed the shop over to her son.",
+      "answerZh": "經理把店舖交給她的兒子管理。",
+      "highlight": "handed",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Please give this magazine to Ruth after you finish it.",
+      "promptZh": "看完這本雜誌後,請把它交給露芙。",
+      "starter": "Please",
+      "answer": "Please hand this magazine on to Ruth after you finish it.",
+      "answerZh": "看完這本雜誌後,請把它傳給露芙。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "After my report, I will return you to the main presenter.",
+      "promptZh": "我的報告結束後,我會把節目交回主要主持人。",
+      "starter": "After",
+      "answer": "After my report, I will hand you back to the main presenter.",
+      "answerZh": "我的報告結束後,我會把節目交回主要主持人。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The teacher is giving the worksheets to everyone now.",
+      "promptZh": "老師現在正把工作紙給每個人。",
+      "starter": "The",
+      "answer": "The teacher is handing the worksheets around now.",
+      "answerZh": "老師現在正把工作紙逐一傳給大家。",
+      "highlight": "handing",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The man has decided to surrender to the police.",
+      "promptZh": "那名男子已決定向警方自首。",
+      "starter": "The",
+      "answer": "The man has decided to hand himself over to the police.",
+      "answerZh": "那名男子已決定向警方自首。",
+      "highlight": "hand himself over",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Could I let our guide speak now?",
+      "promptZh": "我現在可以讓我們的導遊發言嗎?",
+      "starter": "Could",
+      "answer": "Could I hand over to our guide now?",
+      "answerZh": "我現在可以把發言交給我們的導遊嗎?",
+      "highlight": "hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Did you return the key to the receptionist?",
+      "promptZh": "你把鎖匙還給接待員了嗎?",
+      "starter": "Did",
+      "answer": "Did you hand the key back to the receptionist?",
+      "answerZh": "你把鎖匙還給接待員了嗎?",
+      "highlight": "hand",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "These recipes have passed through our family for years.",
+      "promptZh": "這些食譜多年來一直在我們家族中流傳。",
+      "starter": "These",
+      "answer": "These recipes have been handed down through our family for years.",
+      "answerZh": "這些食譜多年來一直在我們家族中代代相傳。",
+      "highlight": "been handed down",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Sofia is giving responsibility for the project to Karim this week.",
+      "promptZh": "索菲亞本星期正把項目責任交給卡里姆。",
+      "starter": "Sofia",
+      "answer": "Sofia is handing the project over to Karim this week.",
+      "answerZh": "索菲亞本星期正把項目交給卡里姆負責。",
+      "highlight": "handing",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Has the message been given to the next team yet?",
+      "promptZh": "訊息已經交給下一個團隊了嗎?",
+      "starter": "Has",
+      "answer": "Has the message been handed on to the next team yet?",
+      "answerZh": "訊息已經傳給下一個團隊了嗎?",
+      "highlight": "handed on",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Nora has not submitted her form yet.",
+      "promptZh": "諾拉仍未提交她的表格。",
+      "starter": "Nora",
+      "answer": "Nora has not handed her form in yet.",
+      "answerZh": "諾拉仍未交表格。",
+      "highlight": "handed",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The reporter will return you to the studio after the interview.",
+      "promptZh": "訪問結束後,記者會把節目交回錄影室。",
+      "starter": "The",
+      "answer": "The reporter will hand you back to the studio after the interview.",
+      "answerZh": "訪問結束後,記者會把節目交回錄影室。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "I have returned the borrowed tools to their owner.",
+      "promptZh": "我已把借用的工具還給物主。",
+      "starter": "I",
+      "answer": "I have handed the borrowed tools back to their owner.",
+      "answerZh": "我已把借用的工具還給物主。",
+      "highlight": "handed",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the guard give the bag to airport security?",
+      "promptZh": "警衛為何把袋交給機場保安人員?",
+      "starter": "Why",
+      "answer": "Why did the guard hand the bag over to airport security?",
+      "answerZh": "警衛為何把袋交給機場保安人員?",
+      "highlight": "hand",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "My older sister always gives me her old clothes.",
+      "promptZh": "我的姐姐總會把她的舊衣服給我。",
+      "starter": "My",
+      "answer": "My older sister always hands her old clothes down to me.",
+      "answerZh": "我的姐姐總會把她的舊衣服傳給我穿。",
+      "highlight": "hands",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Do not keep the card; give it to another student.",
+      "promptZh": "不要保留這張卡;把它交給另一名學生。",
+      "starter": "Do",
+      "answer": "Do not keep the card; hand it on to another student.",
+      "answerZh": "不要保留這張卡;把它傳給另一名學生。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The team leader is leaving. She will give me responsibility for the project.",
+      "promptZh": "組長要離開了。她會把項目責任交給我。",
+      "starter": "The",
+      "answer": "The team leader is leaving. She will hand the project over to me.",
+      "answerZh": "組長要離開了。她會把項目交給我負責。",
+      "highlight": "hand",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "This book belongs to Max. Please return it to him.",
+      "promptZh": "這本書屬於麥斯。請把它還給他。",
+      "starter": "This",
+      "answer": "This book belongs to Max. Please hand it back to him.",
+      "answerZh": "這本書屬於麥斯。請把它還給他。",
+      "highlight": "hand",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I have finished my introduction. I will now let you hear from the chef.",
+      "promptZh": "我的介紹已完成。現在我會讓你聽廚師發言。",
+      "starter": "I",
+      "answer": "I have finished my introduction. I will now hand you over to the chef.",
+      "answerZh": "我的介紹已完成。現在我會把節目交給廚師。",
+      "highlight": "hand",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Your form is ready. Please submit it at the front desk.",
+      "promptZh": "你的表格已準備好。請在接待處提交。",
+      "starter": "Your",
+      "answer": "Your form is ready. Please hand it in at the front desk.",
+      "answerZh": "你的表格已準備好。請在接待處提交。",
+      "highlight": "hand",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "There is one copy for each person. Please give the copies to everyone.",
+      "promptZh": "每人都有一份。請把副本給大家。",
+      "starter": "There",
+      "answer": "There is one copy for each person. Please hand the copies around.",
+      "answerZh": "每人都有一份。請把副本逐一傳給大家。",
+      "highlight": "hand",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "My weather report is finished. I will now return you to Daniel in the studio.",
+      "promptZh": "我的天氣報告已結束。現在我會把節目交回錄影室的丹尼爾。",
+      "starter": "My",
+      "answer": "My weather report is finished. I will now hand you back to Daniel in the studio.",
+      "answerZh": "我的天氣報告已結束。現在我會把節目交回錄影室的丹尼爾。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The police asked for the phone, and the owner gave it to them.",
+      "promptZh": "警方要求取得手機,物主便把手機交給他們。",
+      "starter": "The",
+      "answer": "The police asked for the phone, and the owner handed it over to them.",
+      "answerZh": "警方要求取得手機,物主便把手機交給他們。",
+      "highlight": "handed",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The project needs a new leader, so control of it will be given to Aisha tomorrow.",
+      "promptZh": "這個項目需要一位新主管,所以明天會把控制權交給艾莎。",
+      "starter": "The",
+      "answer": "The project needs a new leader, so it will be handed over to Aisha tomorrow.",
+      "answerZh": "這個項目需要一位新主管,所以明天會交給艾莎負責。",
+      "highlight": "handed over",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The family story passed from grandparents to children over many years.",
+      "promptZh": "這個家族故事多年來一直由祖父母傳給子女。",
+      "starter": "The",
+      "answer": "The family story was handed down from grandparents to children over many years.",
+      "answerZh": "這個家族故事多年來一直由祖父母傳給子女。",
+      "highlight": "was handed down",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I borrowed these notes from you. I am returning them now.",
+      "promptZh": "我向你借了這些筆記。現在把它們還給你。",
+      "starter": "I",
+      "answer": "I borrowed these notes from you. I am handing them back now.",
+      "answerZh": "我向你借了這些筆記。現在把它們還給你。",
+      "highlight": "handing",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "I have read the email. I will give it to the rest of the team.",
+      "promptZh": "我已看完電郵。現在會把它交給團隊其他成員。",
+      "starter": "I",
+      "answer": "I have read the email. I will hand it on to the rest of the team.",
+      "answerZh": "我已看完電郵。現在會把它傳給團隊其他成員。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Our local speaker has finished. I will now let the online speaker continue.",
+      "promptZh": "本地講者已完成發言。現在我會讓網上講者繼續。",
+      "starter": "Our",
+      "answer": "Our local speaker has finished. I will now hand over to the online speaker.",
+      "answerZh": "本地講者已完成發言。現在我會把發言交給網上講者。",
+      "highlight": "hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "These cards are for everyone at the table. Can you give them to each person?",
+      "promptZh": "這些卡是給桌上每個人的。你可以把它們給每個人嗎?",
+      "starter": "These",
+      "answer": "These cards are for everyone at the table. Can you hand them round?",
+      "answerZh": "這些卡是給桌上每個人的。你可以把它們逐一傳開嗎?",
+      "highlight": "hand",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The teacher collected the projects after every student submitted them.",
+      "promptZh": "每名學生提交作品後,老師便把作品收起來。",
+      "starter": "The",
+      "answer": "The teacher collected the projects after every student handed them in.",
+      "answerZh": "每名學生交了作品後,老師便把作品收起來。",
+      "highlight": "handed",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "This old coat passed from my aunt to my mother and then to me.",
+      "promptZh": "這件舊外套由我姨母傳給我母親,再傳給我。",
+      "starter": "This",
+      "answer": "This old coat was handed down from my aunt to my mother and then to me.",
+      "answerZh": "這件舊外套由我姨母傳給我母親,再傳給我。",
+      "highlight": "was handed down",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The sports reporter has finished. Now she is returning you to the main studio.",
+      "promptZh": "體育記者已完成報道。她現在正把節目交回主要錄影室。",
+      "starter": "The",
+      "answer": "The sports reporter has finished. Now she is handing you back to the main studio.",
+      "answerZh": "體育記者已完成報道。她現在正把節目交回主要錄影室。",
+      "highlight": "handing",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The nurse gave the information sheets to everyone in the waiting room.",
+      "promptZh": "護士把資料紙給候診室內的每個人。",
+      "starter": "The",
+      "answer": "The nurse handed the information sheets round in the waiting room.",
+      "answerZh": "護士把資料紙逐一傳給候診室內的每個人。",
+      "highlight": "handed",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Before we hear the results, I will let the head teacher speak.",
+      "promptZh": "在公布結果前,我會讓校長發言。",
+      "starter": "Before",
+      "answer": "Before we hear the results, I will hand over to the head teacher.",
+      "answerZh": "在公布結果前,我會把發言交給校長。",
+      "highlight": "hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The driver found a wallet and gave it to the police instead of keeping it.",
+      "promptZh": "司機拾到一個銀包,沒有把它留下,而是交給警方。",
+      "starter": "The",
+      "answer": "The driver found a wallet and handed it over to the police instead of keeping it.",
+      "answerZh": "司機拾到一個銀包,沒有把它留下,而是交給警方。",
+      "highlight": "handed",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "After reading the notice, each student gave it to the person behind.",
+      "promptZh": "每名學生看完通告後,便把它交給身後的人。",
+      "starter": "After",
+      "answer": "After reading the notice, each student handed it on to the person behind.",
+      "answerZh": "每名學生看完通告後,便把它傳給身後的人。",
+      "highlight": "handed",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The museum borrowed the painting for one month and then returned it to the owner.",
+      "promptZh": "博物館借用這幅畫一個月後,把它歸還物主。",
+      "starter": "The",
+      "answer": "The museum borrowed the painting for one month and then handed it back to the owner.",
+      "answerZh": "博物館借用這幅畫一個月後,把它交還物主。",
+      "highlight": "handed",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "When the café owner retires, she will give responsibility for the business to her daughter.",
+      "promptZh": "咖啡店東主退休時,會把生意的責任交給女兒。",
+      "starter": "When",
+      "answer": "When the café owner retires, she will hand the business over to her daughter.",
+      "answerZh": "咖啡店東主退休時,會把生意交給女兒負責。",
+      "highlight": "hand",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We have finished the local news. Let us return you to Alex for the national report.",
+      "promptZh": "本地新聞已結束。現在讓我們把節目交回亞歷斯,由他報道全國新聞。",
+      "starter": "We",
+      "answer": "We have finished the local news. Let us hand you back to Alex for the national report.",
+      "answerZh": "本地新聞已結束。現在讓我們把節目交回亞歷斯,由他報道全國新聞。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The blue bowl has passed from one generation of the family to the next.",
+      "promptZh": "這隻藍碗由家族一代傳給下一代。",
+      "starter": "The",
+      "answer": "The blue bowl has been handed down from one generation of the family to the next.",
+      "answerZh": "這隻藍碗在家族中代代相傳。",
+      "highlight": "been handed down",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "You cannot join the trip until you submit the signed form.",
+      "promptZh": "你必須先提交已簽署的表格,才可以參加這次旅程。",
+      "starter": "You",
+      "answer": "You cannot join the trip until you hand the signed form in.",
+      "answerZh": "你必須先交回已簽署的表格,才可以參加這次旅程。",
+      "highlight": "hand",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Please give the ten pictures to everyone so that each person can see them.",
+      "promptZh": "請把十張圖片給每個人,讓每個人都能看到。",
+      "starter": "Please",
+      "answer": "Please hand the ten pictures around so that everyone can see them.",
+      "answerZh": "請把十張圖片逐一傳給大家,讓每個人都能看到。",
+      "highlight": "hand",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The child found a lost phone and immediately gave it to a teacher.",
+      "promptZh": "那名孩子拾到一部遺失的手機,立即把它交給老師。",
+      "starter": "The",
+      "answer": "The child found a lost phone and immediately handed it over to a teacher.",
+      "answerZh": "那名孩子拾到一部遺失的手機,立即把它交給老師。",
+      "highlight": "handed",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Please do not keep this leaflet; give it to someone who needs it.",
+      "promptZh": "請不要保留這張傳單;把它交給有需要的人。",
+      "starter": "Please",
+      "answer": "Please do not keep this leaflet; hand it on to someone who needs it.",
+      "answerZh": "請不要保留這張傳單;把它傳給有需要的人。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "I have explained the plan and answered the questions. Our designer will now show you the new room.",
+      "promptZh": "我已解釋計劃並回答問題。我們的設計師現在會向你展示新房間。",
+      "starter": "I",
+      "answer": "I have explained the plan and answered the questions. I will now hand over to our designer, who will show you the new room.",
+      "answerZh": "我已解釋計劃並回答問題。現在我把發言交給設計師,由他向你展示新房間。",
+      "highlight": "I will now hand over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After hiding for two days, the man went to the police station and surrendered.",
+      "promptZh": "那名男子躲了兩天後,到警署自首。",
+      "starter": "After",
+      "answer": "After hiding for two days, the man went to the police station and handed himself over.",
+      "answerZh": "那名男子躲了兩天後,到警署自首。",
+      "highlight": "handed himself over",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "That is all from the school concert. We now return you to Priya in the studio for the final news.",
+      "promptZh": "學校音樂會的報道到此為止。現在我們把節目交回錄影室的普里雅,由她報道最後新聞。",
+      "starter": "That",
+      "answer": "That is all from the school concert. We now hand you back to Priya in the studio for the final news.",
+      "answerZh": "學校音樂會的報道到此為止。現在我們把節目交回錄影室的普里雅,由她報道最後新聞。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Sam has led the shop for ten years, but next month he will give control to his niece.",
+      "promptZh": "森管理這間店舖已有十年,但下個月會把控制權交給姪女。",
+      "starter": "Sam",
+      "answer": "Sam has led the shop for ten years, but next month he will hand it over to his niece.",
+      "answerZh": "森管理這間店舖已有十年,但下個月會把它交給姪女負責。",
+      "highlight": "hand it over",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "I checked the camera and found no problem, so I returned it to the owner.",
+      "promptZh": "我檢查過相機,沒有發現問題,所以把它還給物主。",
+      "starter": "I",
+      "answer": "I checked the camera and found no problem, so I handed it back to the owner.",
+      "answerZh": "我檢查過相機,沒有發現問題,所以把它還給物主。",
+      "highlight": "handed",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    },
+    {
+      "id": "phrasal-verb-59-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Before the meeting began, Julia gave copies of the plan to everyone in the room.",
+      "promptZh": "會議開始前,朱莉亞把計劃副本給房內每個人。",
+      "starter": "Before",
+      "answer": "Before the meeting began, Julia handed copies of the plan round the room.",
+      "answerZh": "會議開始前,朱莉亞把計劃副本逐一傳給房內每個人。",
+      "highlight": "handed",
+      "targetForm": "hand something around/round",
+      "targetMeaningZh": "把物件逐一傳給在場的人"
+    },
+    {
+      "id": "phrasal-verb-59-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "No one wrote this song down; older family members taught it to younger ones for years.",
+      "promptZh": "沒有人把這首歌寫下來;多年來,年長家人一直把它教給年輕一代。",
+      "starter": "No",
+      "answer": "No one wrote this song down; it was handed down through the family for years.",
+      "answerZh": "沒有人把這首歌寫下來;多年來,它一直在家族中代代相傳。",
+      "highlight": "it was handed down through the",
+      "targetForm": "hand something down",
+      "targetMeaningZh": "把物品、故事或傳統傳給下一代"
+    },
+    {
+      "id": "phrasal-verb-59-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "My part of the online lesson is over, so our music teacher will now speak to you.",
+      "promptZh": "我的網上課堂部分已結束,所以音樂老師現在會跟你說話。",
+      "starter": "My",
+      "answer": "My part of the online lesson is over, so I will now hand you over to our music teacher.",
+      "answerZh": "我的網上課堂部分已結束,所以現在我把課堂交給音樂老師,由他繼續跟你說話。",
+      "highlight": "I will now hand you over to",
+      "targetForm": "hand over to somebody / hand somebody over to somebody",
+      "targetMeaningZh": "把說話、主持或介紹部分交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The note is only for team leaders. After reading it, give it to the next leader.",
+      "promptZh": "這張便條只給組長閱讀。看完後,把它交給下一位組長。",
+      "starter": "The",
+      "answer": "The note is only for team leaders. After reading it, hand it on to the next leader.",
+      "answerZh": "這張便條只給組長閱讀。看完後,把它傳給下一位組長。",
+      "highlight": "hand",
+      "targetForm": "hand something on (to somebody)",
+      "targetMeaningZh": "把物件或資料傳給下一個人"
+    },
+    {
+      "id": "phrasal-verb-59-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The shop worker found the stolen watch and gave it to the police when they arrived.",
+      "promptZh": "店員拾到失竊的手錶,警方到場時便把手錶交給他們。",
+      "starter": "The",
+      "answer": "The shop worker found the stolen watch and handed it over to the police when they arrived.",
+      "answerZh": "店員拾到失竊的手錶,警方到場時便把手錶交給他們。",
+      "highlight": "handed",
+      "targetForm": "hand somebody/something over (to somebody) / hand yourself over (tosomebody)",
+      "targetMeaningZh": "把某人、某物或自己交給警方或負責人員"
+    },
+    {
+      "id": "phrasal-verb-59-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the work was difficult, every student submitted the finished report before the lesson ended.",
+      "promptZh": "雖然作業很困難,但每名學生都在課堂結束前提交了完成的報告。",
+      "starter": "Although",
+      "answer": "Although the work was difficult, every student handed the finished report in before the lesson ended.",
+      "answerZh": "雖然作業很困難,但每名學生都在課堂結束前交了完成的報告。",
+      "highlight": "handed",
+      "targetForm": "hand something in (to somebody)",
+      "targetMeaningZh": "提交功課、表格或文件"
+    },
+    {
+      "id": "phrasal-verb-59-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Our guest has answered the last question. I will now return you to the programme host.",
+      "promptZh": "嘉賓已回答最後一條問題。現在我會把節目交回節目主持人。",
+      "starter": "Our",
+      "answer": "Our guest has answered the last question. I will now hand you back to the programme host.",
+      "answerZh": "嘉賓已回答最後一條問題。現在我會把節目交回節目主持人。",
+      "highlight": "hand",
+      "targetForm": "hand somebody back to somebody/something",
+      "targetMeaningZh": "把聽眾或觀眾交回給另一位主持人或節目"
+    },
+    {
+      "id": "phrasal-verb-59-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The office is changing managers, and control will move from Omar to Grace on Monday.",
+      "promptZh": "辦公室正更換經理,控制權會在星期一由奧馬轉交給格蕾絲。",
+      "starter": "The",
+      "answer": "The office is changing managers, and Omar will hand over to Grace on Monday.",
+      "answerZh": "辦公室正更換經理,奧馬會在星期一把工作交給格蕾絲。",
+      "highlight": "and Omar",
+      "targetForm": "hand over to somebody / hand something over to somebody",
+      "targetMeaningZh": "把工作、責任或控制交給另一人"
+    },
+    {
+      "id": "phrasal-verb-59-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The school borrowed the hall for the weekend and returned it to the community centre on Monday.",
+      "promptZh": "學校在週末借用禮堂,並在星期一把它歸還社區中心。",
+      "starter": "The",
+      "answer": "The school borrowed the hall for the weekend and handed it back to the community centre on Monday.",
+      "answerZh": "學校在週末借用禮堂,並在星期一把它交還社區中心。",
+      "highlight": "handed",
+      "targetForm": "hand something back (to somebody)",
+      "targetMeaningZh": "把物件、地方或控制權歸還"
+    }
+  ]
+}

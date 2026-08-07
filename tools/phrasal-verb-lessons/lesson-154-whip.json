@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-154",
+  "order": 154,
+  "slug": "whip",
+  "version": "1",
+  "title": "WHIP 動詞片語",
+  "titleEn": "Whip",
+  "titleZh": "WHIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 153 - WHIP.pdf",
+    "sourceNumber": 153,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WHIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WHIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WHIP",
+      "highlight": "WHIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The passenger whipped her ticket out at the gate.",
+      "zh": "那名乘客在閘口迅速拿出車票。",
+      "highlight": "whipped her ticket out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He whipped through the short report before lunch.",
+      "zh": "他在午飯前迅速看完整份簡短報告。",
+      "highlight": "whipped through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The music whipped the fans up before the show.",
+      "zh": "音樂令歌迷在表演前情緒高漲。",
+      "highlight": "whipped the fans up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "迅速或突然拿出、抽出某物；迅速完成、閱讀或處理某事；令某人或一群人變得非常興奮、激動或情緒高漲；迅速準備或製作食物",
+    "en": "whip something out / whip something out of something; whip through something; whip somebody/something up; whip something up / whip up something",
+    "naturalZh": [
+      "迅速或突然拿出、抽出某物",
+      "迅速完成、閱讀或處理某事",
+      "令某人或一群人變得非常興奮、激動或情緒高漲",
+      "迅速準備或製作食物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "whip something out / whip something out of something",
+      "titleZh": "迅速或突然拿出、抽出某物",
+      "titleEn": "whip something out / whip something out of something",
+      "descriptionZh": "迅速或突然拿出、抽出某物",
+      "descriptionEn": "The passenger whipped her ticket out at the gate.",
+      "examples": [
+        {
+          "en": "The passenger whipped her ticket out at the gate.",
+          "zh": "那名乘客在閘口迅速拿出車票。",
+          "highlight": "whipped her ticket out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "whip through something",
+      "titleZh": "迅速完成、閱讀或處理某事",
+      "titleEn": "whip through something",
+      "descriptionZh": "迅速完成、閱讀或處理某事",
+      "descriptionEn": "He whipped through the short report before lunch.",
+      "examples": [
+        {
+          "en": "He whipped through the short report before lunch.",
+          "zh": "他在午飯前迅速看完整份簡短報告。",
+          "highlight": "whipped through"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "whip somebody/something up",
+      "titleZh": "令某人或一群人變得非常興奮、激動或情緒高漲",
+      "titleEn": "whip somebody/something up",
+      "descriptionZh": "令某人或一群人變得非常興奮、激動或情緒高漲",
+      "descriptionEn": "The music whipped the fans up before the show.",
+      "examples": [
+        {
+          "en": "The music whipped the fans up before the show.",
+          "zh": "音樂令歌迷在表演前情緒高漲。",
+          "highlight": "whipped the fans up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "whip something up / whip up something",
+      "titleZh": "迅速準備或製作食物",
+      "titleEn": "whip something up / whip up something",
+      "descriptionZh": "迅速準備或製作食物",
+      "descriptionEn": "We whipped up some soup for lunch.",
+      "examples": [
+        {
+          "en": "We whipped up some soup for lunch.",
+          "zh": "我們迅速煮了一些湯作午餐。",
+          "highlight": "whipped up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WHIP 片語動詞的實際用途",
+    "labelEn": "WHIP Phrasal Verbs in Use",
+    "summaryZh": "whip something out 可以描述某人立即拿出手機、卡或車票等物件。；whip through something 可以描述迅速完成表格、問題、訊息和其他工作。；whip somebody up 可以描述音樂、演說或活動如何令群眾極度興奮。；whip something up 適合描述某人在短時間內準備簡單餐點或小食。",
+    "summaryEn": "Whip something out helps you describe someone producing an object immediately, such as a phone, card or ticket. Whip through something is useful for describing the quick completion of forms, questions, messages and other tasks. Whip somebody up helps you describe how music, speeches or events make a crowd extremely excited. Whip something up is useful when someone prepares a simple meal or snack in a short time.",
+    "contextsZh": [
+      "描述迅速而突然的動作",
+      "談論迅速完成工作",
+      "描述強烈而高漲的情緒",
+      "談論迅速準備食物"
+    ],
+    "contextsEn": [
+      "Describe sudden, quick actions",
+      "Talk about finishing work quickly",
+      "Describe strong excitement",
+      "Talk about making food quickly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WHIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WHIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "whip something out / whip something out of something",
+    "fixedHighlight": "whip something out / whip something out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 WHIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WHIP expression that gives the same meaning.",
+    "correct": "whipped her ticket out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子排列。；請仔細閱讀情境:whip somebody up 表示令某人情緒高漲;whip something up 表示迅速製作食物。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, follow these examples: whip it out whip them up whip it up whip through it Read the situation carefully: whip somebody up = make people very excited whip something up = make food very quickly",
+    "variableItemsZh": [
+      "whip something out / whip something out of something",
+      "whip through something",
+      "whip somebody/something up",
+      "whip something up / whip up something"
+    ],
+    "variableItemsEn": [
+      "whip something out / whip something out of something",
+      "whip through something",
+      "whip somebody/something up",
+      "whip something up / whip up something"
+    ],
+    "forms": [
+      {
+        "formZh": "迅速或突然拿出、抽出某物",
+        "formEn": "whip something out / whip something out of something",
+        "exampleZh": "那名乘客在閘口迅速拿出車票。",
+        "exampleEn": "The passenger whipped her ticket out at the gate.",
+        "highlight": "whipped her ticket out"
+      },
+      {
+        "formZh": "迅速完成、閱讀或處理某事",
+        "formEn": "whip through something",
+        "exampleZh": "他在午飯前迅速看完整份簡短報告。",
+        "exampleEn": "He whipped through the short report before lunch.",
+        "highlight": "whipped through"
+      },
+      {
+        "formZh": "令某人或一群人變得非常興奮、激動或情緒高漲",
+        "formEn": "whip somebody/something up",
+        "exampleZh": "音樂令歌迷在表演前情緒高漲。",
+        "exampleEn": "The music whipped the fans up before the show.",
+        "highlight": "whipped the fans up"
+      },
+      {
+        "formZh": "迅速準備或製作食物",
+        "formEn": "whip something up / whip up something",
+        "exampleZh": "我們迅速煮了一些湯作午餐。",
+        "exampleEn": "We whipped up some soup for lunch.",
+        "highlight": "whipped up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "迅速或突然拿出、抽出某物",
+      "titleEn": "whip something out / whip something out of something",
+      "formula": "whip something out / whip something out of something",
+      "highlight": "whip something out / whip something out of something",
+      "descriptionZh": "迅速或突然拿出、抽出某物",
+      "descriptionEn": "The passenger whipped her ticket out at the gate.",
+      "examples": [
+        {
+          "en": "The passenger whipped her ticket out at the gate.",
+          "zh": "那名乘客在閘口迅速拿出車票。",
+          "highlight": "whipped her ticket out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "迅速完成、閱讀或處理某事",
+      "titleEn": "whip through something",
+      "formula": "whip through something",
+      "highlight": "whip through something",
+      "descriptionZh": "迅速完成、閱讀或處理某事",
+      "descriptionEn": "He whipped through the short report before lunch.",
+      "examples": [
+        {
+          "en": "He whipped through the short report before lunch.",
+          "zh": "他在午飯前迅速看完整份簡短報告。",
+          "highlight": "whipped through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "令某人或一群人變得非常興奮、激動或情緒高漲",
+      "titleEn": "whip somebody/something up",
+      "formula": "whip somebody/something up",
+      "highlight": "whip somebody/something up",
+      "descriptionZh": "令某人或一群人變得非常興奮、激動或情緒高漲",
+      "descriptionEn": "The music whipped the fans up before the show.",
+      "examples": [
+        {
+          "en": "The music whipped the fans up before the show.",
+          "zh": "音樂令歌迷在表演前情緒高漲。",
+          "highlight": "whipped the fans up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "迅速準備或製作食物",
+      "titleEn": "whip something up / whip up something",
+      "formula": "whip something up / whip up something",
+      "highlight": "whip something up / whip up something",
+      "descriptionZh": "迅速準備或製作食物",
+      "descriptionEn": "We whipped up some soup for lunch.",
+      "examples": [
+        {
+          "en": "We whipped up some soup for lunch.",
+          "zh": "我們迅速煮了一些湯作午餐。",
+          "highlight": "whipped up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述迅速而突然的動作",
+      "titleEn": "Describe sudden, quick actions",
+      "zh": "whip something out 可以描述某人立即拿出手機、卡或車票等物件。",
+      "en": "Whip something out helps you describe someone producing an object immediately, such as a phone, card or ticket."
+    },
+    {
+      "titleZh": "談論迅速完成工作",
+      "titleEn": "Talk about finishing work quickly",
+      "zh": "whip through something 可以描述迅速完成表格、問題、訊息和其他工作。",
+      "en": "Whip through something is useful for describing the quick completion of forms, questions, messages and other tasks."
+    },
+    {
+      "titleZh": "描述強烈而高漲的情緒",
+      "titleEn": "Describe strong excitement",
+      "zh": "whip somebody up 可以描述音樂、演說或活動如何令群眾極度興奮。",
+      "en": "Whip somebody up helps you describe how music, speeches or events make a crowd extremely excited."
+    },
+    {
+      "titleZh": "談論迅速準備食物",
+      "titleEn": "Talk about making food quickly",
+      "zh": "whip something up 適合描述某人在短時間內準備簡單餐點或小食。",
+      "en": "Whip something up is useful when someone prepares a simple meal or snack in a short time."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述迅速而突然的動作",
+      "談論迅速完成工作",
+      "描述強烈而高漲的情緒",
+      "談論迅速準備食物"
+    ],
+    "contextsEn": [
+      "Describe sudden, quick actions",
+      "Talk about finishing work quickly",
+      "Describe strong excitement",
+      "Talk about making food quickly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述迅速而突然的動作",
+        "titleEn": "Describe sudden, quick actions",
+        "zh": "whip something out 可以描述某人立即拿出手機、卡或車票等物件。",
+        "en": "Whip something out helps you describe someone producing an object immediately, such as a phone, card or ticket.",
+        "examples": [
+          {
+            "en": "The passenger whipped her ticket out at the gate.",
+            "zh": "那名乘客在閘口迅速拿出車票。",
+            "highlight": "whipped her ticket out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論迅速完成工作",
+        "titleEn": "Talk about finishing work quickly",
+        "zh": "whip through something 可以描述迅速完成表格、問題、訊息和其他工作。",
+        "en": "Whip through something is useful for describing the quick completion of forms, questions, messages and other tasks.",
+        "examples": [
+          {
+            "en": "He whipped through the short report before lunch.",
+            "zh": "他在午飯前迅速看完整份簡短報告。",
+            "highlight": "whipped through"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述強烈而高漲的情緒",
+        "titleEn": "Describe strong excitement",
+        "zh": "whip somebody up 可以描述音樂、演說或活動如何令群眾極度興奮。",
+        "en": "Whip somebody up helps you describe how music, speeches or events make a crowd extremely excited.",
+        "examples": [
+          {
+            "en": "The music whipped the fans up before the show.",
+            "zh": "音樂令歌迷在表演前情緒高漲。",
+            "highlight": "whipped the fans up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論迅速準備食物",
+        "titleEn": "Talk about making food quickly",
+        "zh": "whip something up 適合描述某人在短時間內準備簡單餐點或小食。",
+        "en": "Whip something up is useful when someone prepares a simple meal or snack in a short time.",
+        "examples": [
+          {
+            "en": "We whipped up some soup for lunch.",
+            "zh": "我們迅速煮了一些湯作午餐。",
+            "highlight": "whipped up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WHIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WHIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WHIP 片語動詞。",
+      "en": "Read the whole sentence and choose the WHIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子排列。",
+      "titleEn": "When using it, him, her or them, follow these examples: whip it out whip them up whip it up whip through it.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子排列。",
+      "en": "When using it, him, her or them, follow these examples: whip it out whip them up whip it up whip through it"
+    },
+    {
+      "titleZh": "請仔細閱讀情境:whip somebody up 表示令某人情緒高漲;whip something up 表示迅速製作食物。",
+      "titleEn": "Read the situation carefully: whip somebody up = make people very excited whip something up = make food very quickly.",
+      "zh": "請仔細閱讀情境:whip somebody up 表示令某人情緒高漲;whip something up 表示迅速製作食物。",
+      "en": "Read the situation carefully: whip somebody up = make people very excited whip something up = make food very quickly"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WHIP 動詞片語句子改寫練習",
+    "titleEn": "WHIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-154-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The tourist suddenly produced his phone to take a photo.",
+      "promptZh": "那名遊客突然拿出手機拍照。",
+      "starter": "The",
+      "answer": "The tourist whipped his phone out to take a photo.",
+      "answerZh": "那名遊客突然拿出手機拍照。",
+      "highlight": "whipped",
+      "targetForm": "whip something out",
+      "targetMeaningZh": "迅速或突然拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The music made the crowd very excited before the show.",
+      "promptZh": "音樂令群眾在表演前非常興奮。",
+      "starter": "The",
+      "answer": "The music whipped the crowd up before the show.",
+      "answerZh": "音樂令群眾在表演前非常興奮。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I quickly made an omelette for breakfast.",
+      "promptZh": "我迅速煎了一份奄列作早餐。",
+      "starter": "I",
+      "answer": "I whipped up an omelette for breakfast.",
+      "answerZh": "我迅速煎了一份奄列作早餐。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The assistant completed the routine paperwork very quickly before lunch.",
+      "promptZh": "助理在午飯前很快便處理完例行文書工作。",
+      "starter": "The",
+      "answer": "The assistant whipped through the routine paperwork before lunch.",
+      "answerZh": "助理在午飯前很快便處理完例行文書工作。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Grace quickly pulled a pen from her bag.",
+      "promptZh": "格蕾絲迅速從袋中抽出一枝筆。",
+      "starter": "Grace",
+      "answer": "Grace whipped a pen out of her bag.",
+      "answerZh": "格蕾絲迅速從袋中抽出一枝筆。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處抽出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The coach’s speech made the players feel excited and ready before the match.",
+      "promptZh": "教練的講話令球員在賽前情緒高漲,準備就緒。",
+      "starter": "The",
+      "answer": "The coach’s speech whipped the players up before the match.",
+      "answerZh": "教練的講話令球員在賽前情緒高漲,準備就緒。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben completed the short quiz in only ten minutes.",
+      "promptZh": "賓只用了十分鐘便完成簡短測驗。",
+      "starter": "Ben",
+      "answer": "Ben whipped through the short quiz in only ten minutes.",
+      "answerZh": "賓只用了十分鐘便迅速完成簡短測驗。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成某事"
+    },
+    {
+      "id": "phrasal-verb-154-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Zoe quickly prepared a simple salad for lunch.",
+      "promptZh": "佐伊迅速準備了一份簡單沙律作午餐。",
+      "starter": "Zoe",
+      "answer": "Zoe whipped up a simple salad for lunch.",
+      "answerZh": "佐伊迅速準備了一份簡單沙律作午餐。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The presenter made the studio audience extremely excited.",
+      "promptZh": "主持人令錄影廠的現場觀眾極度興奮。",
+      "starter": "The",
+      "answer": "The presenter whipped the studio audience up into a frenzy.",
+      "answerZh": "主持人令錄影廠的現場觀眾陷入狂熱狀態。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人極度興奮"
+    },
+    {
+      "id": "phrasal-verb-154-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad quickly produced the tickets from his pocket at the gate.",
+      "promptZh": "爸爸在閘口迅速從口袋中拿出車票。",
+      "starter": "Dad",
+      "answer": "Dad whipped the tickets out of his pocket at the gate.",
+      "answerZh": "爸爸在閘口迅速從口袋中拿出車票。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ella often reads all her emails very quickly before breakfast.",
+      "promptZh": "埃拉經常在早餐前迅速看完所有電郵。",
+      "starter": "Ella",
+      "answer": "Ella often whips through all her emails before breakfast.",
+      "answerZh": "埃拉經常在早餐前迅速看完所有電郵。",
+      "highlight": "whips through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速閱讀或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad is making some pancakes very quickly now.",
+      "promptZh": "爸爸現在正迅速製作一些班戟。",
+      "starter": "Dad",
+      "answer": "Dad is whipping up some pancakes now.",
+      "answerZh": "爸爸現在正迅速製作一些班戟。",
+      "highlight": "whipping up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Eva always pulls her notebook from her bag immediately when the teacher gives a useful tip.",
+      "promptZh": "老師提出實用提示時,伊娃總會立即從袋中拿出筆記簿。",
+      "starter": "Eva",
+      "answer": "Eva always whips her notebook out of her bag when the teacher gives a useful tip.",
+      "answerZh": "老師提出實用提示時,伊娃總會立即從袋中拿出筆記簿。",
+      "highlight": "whips",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The loud music is making the fans very excited before the singer appears.",
+      "promptZh": "歌手出場前,響亮的音樂正令歌迷非常興奮。",
+      "starter": "The",
+      "answer": "The loud music is whipping the fans up before the singer appears.",
+      "answerZh": "歌手出場前,響亮的音樂正令歌迷非常興奮。",
+      "highlight": "whipping",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The team is completing the final checks very quickly.",
+      "promptZh": "團隊正迅速完成最後檢查。",
+      "starter": "The",
+      "answer": "The team is whipping through the final checks.",
+      "answerZh": "團隊正迅速完成最後檢查。",
+      "highlight": "whipping through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We can quickly make a warm soup with these vegetables.",
+      "promptZh": "我們可以用這些蔬菜迅速煮一鍋熱湯。",
+      "starter": "We",
+      "answer": "We can whip up a warm soup with these vegetables.",
+      "answerZh": "我們可以用這些蔬菜迅速煮一鍋熱湯。",
+      "highlight": "whip up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The fans were made very excited by the fast drumbeat.",
+      "promptZh": "快速的鼓聲令歌迷非常興奮。",
+      "starter": "The",
+      "answer": "The fans were whipped up by the fast drumbeat.",
+      "answerZh": "快速的鼓聲令歌迷非常興奮。",
+      "highlight": "whipped up",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "When the bus arrived, Omar quickly pulled his travel card from his wallet.",
+      "promptZh": "巴士到達時,奧馬迅速從銀包中抽出交通卡。",
+      "starter": "When",
+      "answer": "When the bus arrived, Omar whipped his travel card out of his wallet.",
+      "answerZh": "巴士到達時,奧馬迅速從銀包中抽出交通卡。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處抽出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The café prepares fresh sandwiches very quickly every morning.",
+      "promptZh": "這間咖啡店每天早上都會迅速製作新鮮三文治。",
+      "starter": "The",
+      "answer": "The café whips up fresh sandwiches every morning.",
+      "answerZh": "這間咖啡店每天早上都會迅速製作新鮮三文治。",
+      "highlight": "whips up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Can you complete these simple forms quickly before the office closes?",
+      "promptZh": "你可以在辦公室關門前迅速完成這些簡單表格嗎?",
+      "starter": "Can",
+      "answer": "Can you whip through these simple forms before the office closes?",
+      "answerZh": "你可以在辦公室關門前迅速完成這些簡單表格嗎?",
+      "highlight": "whip through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The band played its biggest song to make them even more excited.",
+      "promptZh": "樂隊演奏最受歡迎的歌曲,令他們更加興奮。",
+      "starter": "The",
+      "answer": "The band played its biggest song to whip them up even more.",
+      "answerZh": "樂隊演奏最受歡迎的歌曲,令他們更加興奮。",
+      "highlight": "whip",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "He found the key in his pocket and removed it immediately.",
+      "promptZh": "他在口袋中找到鎖匙,並立即把它拿出來。",
+      "starter": "He",
+      "answer": "He found the key in his pocket and whipped it out.",
+      "answerZh": "他在口袋中找到鎖匙,並立即把它拿出來。",
+      "highlight": "whipped",
+      "targetForm": "whip something out",
+      "targetMeaningZh": "迅速或突然拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The sauce is easy, so I can make it in five minutes.",
+      "promptZh": "這款醬汁很容易製作,所以我可以在五分鐘內完成。",
+      "starter": "The",
+      "answer": "The sauce is easy, so I can whip it up in five minutes.",
+      "answerZh": "這款醬汁很容易製作,所以我可以在五分鐘內完成。",
+      "highlight": "whip",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We have already finished the first three chapters in very little time.",
+      "promptZh": "我們已在很短時間內看完首三章。",
+      "starter": "We",
+      "answer": "We have already whipped through the first three chapters.",
+      "answerZh": "我們已在很短時間內看完首三章。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速閱讀或完成某事"
+    },
+    {
+      "id": "phrasal-verb-154-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The announcer used a drumbeat to make the children excited before the game.",
+      "promptZh": "廣播員利用鼓聲令孩子們在遊戲前情緒高漲。",
+      "starter": "The",
+      "answer": "The announcer used a drumbeat to whip the children up before the game.",
+      "answerZh": "廣播員利用鼓聲令孩子們在遊戲前情緒高漲。",
+      "highlight": "whip",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Sarah needed the map, so she quickly pulled it from the side pocket.",
+      "promptZh": "莎拉需要地圖,所以迅速從側袋中把它抽出來。",
+      "starter": "Sarah",
+      "answer": "Sarah needed the map, so she whipped it out of the side pocket.",
+      "answerZh": "莎拉需要地圖,所以迅速從側袋中把它抽出來。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處抽出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "There were six short tasks, but Leo completed them all before lunch.",
+      "promptZh": "共有六項簡短工作,但里奧在午飯前便全部完成。",
+      "starter": "There",
+      "answer": "There were six short tasks, but Leo whipped through them all before lunch.",
+      "answerZh": "共有六項簡短工作,但里奧在午飯前便迅速完成全部工作。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "What can we quickly make with the eggs and tomatoes?",
+      "promptZh": "我們可以用雞蛋和番茄迅速製作甚麼?",
+      "starter": "What",
+      "answer": "What can we whip up with the eggs and tomatoes?",
+      "answerZh": "我們可以用雞蛋和番茄迅速製作甚麼?",
+      "highlight": "whip up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The queue moved fast, so Priya produced her ID card immediately before reaching the desk.",
+      "promptZh": "隊伍移動得很快,所以普里雅在到達櫃枱前立即拿出身分證明文件。",
+      "starter": "The",
+      "answer": "The queue moved fast, so Priya whipped her ID card out before reaching the desk.",
+      "answerZh": "隊伍移動得很快,所以普里雅在到達櫃枱前立即拿出身分證明文件。",
+      "highlight": "whipped",
+      "targetForm": "whip something out",
+      "targetMeaningZh": "迅速或突然拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did the host make the audience so excited before the winner was named?",
+      "promptZh": "主持人為何在公布得獎者前令觀眾如此興奮?",
+      "starter": "Why",
+      "answer": "Why did the host whip the audience up before the winner was named?",
+      "answerZh": "主持人為何在公布得獎者前令觀眾如此興奮?",
+      "highlight": "whip",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "There was almost no food left, but Sam quickly made a meal from rice and two eggs.",
+      "promptZh": "食物幾乎全都用完,但森迅速用白飯和兩隻雞蛋做了一頓飯。",
+      "starter": "There",
+      "answer": "There was almost no food left, but Sam whipped up a meal from rice and two eggs.",
+      "answerZh": "食物幾乎全都用完,但森迅速用白飯和兩隻雞蛋做了一頓飯。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The new reader finished the comic very quickly because the story was easy to follow.",
+      "promptZh": "那名新讀者很快便看完整本漫畫,因為故事很容易理解。",
+      "starter": "The",
+      "answer": "The new reader whipped through the comic because the story was easy to follow.",
+      "answerZh": "那名新讀者很快便看完整本漫畫,因為故事很容易理解。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速閱讀或完成某事"
+    },
+    {
+      "id": "phrasal-verb-154-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "A false message made local people panic.",
+      "promptZh": "一則虛假訊息令當地居民陷入恐慌。",
+      "starter": "A",
+      "answer": "A false message whipped local people up into a panic.",
+      "answerZh": "一則虛假訊息令當地居民陷入恐慌。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人產生強烈情緒"
+    },
+    {
+      "id": "phrasal-verb-154-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The magician suddenly produced a red scarf from his sleeve.",
+      "promptZh": "魔術師突然從衣袖中抽出一條紅色頸巾。",
+      "starter": "The",
+      "answer": "The magician whipped a red scarf out of his sleeve.",
+      "answerZh": "魔術師突然從衣袖中抽出一條紅色頸巾。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處抽出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After school, their aunt quickly prepared a snack with toast and fruit for the hungry children.",
+      "promptZh": "放學後,他們的姨姨迅速用多士和水果為肚餓的孩子準備小食。",
+      "starter": "After",
+      "answer": "After school, their aunt whipped up a snack with toast and fruit for the hungry children.",
+      "answerZh": "放學後,他們的姨姨迅速用多士和水果為肚餓的孩子準備小食。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Before the busy hour began, the chef completed the easy orders very quickly.",
+      "promptZh": "繁忙時段開始前,廚師迅速完成了那些簡單訂單。",
+      "starter": "Before",
+      "answer": "Before the busy hour began, the chef whipped through the easy orders.",
+      "answerZh": "繁忙時段開始前,廚師迅速完成了那些簡單訂單。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Before anyone could stop him, the child quickly grabbed the last biscuit from the tin.",
+      "promptZh": "大家還未能阻止他,那個孩子便迅速從罐中拿走最後一塊餅乾。",
+      "starter": "Before",
+      "answer": "Before anyone could stop him, the child whipped the last biscuit out of the tin.",
+      "answerZh": "大家還未能阻止他,那個孩子便迅速從罐中拿走最後一塊餅乾。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "By repeating the same promise, the speaker made the supporters more and more excited until they were cheering loudly.",
+      "promptZh": "講者不斷重複同一承諾,令支持者愈來愈興奮,最後大聲歡呼。",
+      "starter": "By",
+      "answer": "By repeating the same promise, the speaker whipped the supporters up until they were cheering loudly.",
+      "answerZh": "講者不斷重複同一承諾,令支持者情緒高漲,最後大聲歡呼。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the list had twenty names, Ava checked the whole list quickly without making a mistake.",
+      "promptZh": "雖然名單有二十個名字,但艾娃迅速檢查完整份名單,而且沒有出錯。",
+      "starter": "Although",
+      "answer": "Although the list had twenty names, Ava whipped through the whole list without making a mistake.",
+      "answerZh": "雖然名單有二十個名字,但艾娃迅速檢查完整份名單,而且沒有出錯。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速閱讀、檢查或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The recipe looked difficult, but the cook made the sauce in less than ten minutes.",
+      "promptZh": "食譜看來很困難,但廚師在不足十分鐘內便完成了醬汁。",
+      "starter": "The",
+      "answer": "The recipe looked difficult, but the cook whipped up the sauce in less than ten minutes.",
+      "answerZh": "食譜看來很困難,但廚師在不足十分鐘內便完成了醬汁。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "As the train doors opened, she immediately produced her phone to show the ticket.",
+      "promptZh": "列車門打開時,她立即拿出手機展示車票。",
+      "starter": "As",
+      "answer": "As the train doors opened, she whipped her phone out to show the ticket.",
+      "answerZh": "列車門打開時,她立即拿出手機展示車票。",
+      "highlight": "whipped",
+      "targetForm": "whip something out",
+      "targetMeaningZh": "迅速或突然拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Although the team was losing, the drummer made the fans so excited that the whole crowd began singing.",
+      "promptZh": "雖然球隊正在落後,但鼓手令球迷非常興奮,全場觀眾都開始唱歌。",
+      "starter": "Although",
+      "answer": "Although the team was losing, the drummer whipped the fans up until the whole crowd was singing.",
+      "answerZh": "雖然球隊正在落後,但鼓手令球迷情緒高漲,直至全場觀眾都在唱歌。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "With only fifteen minutes left, the class completed the final practice questions very quickly and checked the answers.",
+      "promptZh": "只剩十五分鐘時,全班迅速完成最後的練習題,並檢查答案。",
+      "starter": "With",
+      "answer": "With only fifteen minutes left, the class whipped through the final practice questions and checked the answers.",
+      "answerZh": "只剩十五分鐘時,全班迅速完成最後的練習題,並檢查答案。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "When two extra guests arrived, Grace quickly made another bowl of pasta without delaying dinner.",
+      "promptZh": "額外兩位客人到達時,格蕾絲迅速多做了一碗意粉,沒有延誤晚餐。",
+      "starter": "When",
+      "answer": "When two extra guests arrived, Grace whipped up another bowl of pasta without delaying dinner.",
+      "answerZh": "額外兩位客人到達時,格蕾絲迅速多做了一碗意粉,沒有延誤晚餐。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The online video used dramatic music to make viewers very excited before the final announcement.",
+      "promptZh": "網上影片利用充滿戲劇效果的音樂,令觀眾在最後公布前非常興奮。",
+      "starter": "The",
+      "answer": "The online video used dramatic music to whip viewers up before the final announcement.",
+      "answerZh": "網上影片利用充滿戲劇效果的音樂,令觀眾在最後公布前非常興奮。",
+      "highlight": "whip",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    },
+    {
+      "id": "phrasal-verb-154-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The café was closing, but Ravi quickly pulled some coins from his bag to pay.",
+      "promptZh": "咖啡店快要關門,但拉維迅速從袋中拿出一些硬幣付款。",
+      "starter": "The",
+      "answer": "The café was closing, but Ravi whipped some coins out of his bag to pay.",
+      "answerZh": "咖啡店快要關門,但拉維迅速從袋中拿出一些硬幣付款。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the fridge was nearly empty, Leo quickly made a hot meal using only potatoes, onions and eggs.",
+      "promptZh": "雖然雪櫃幾乎空了,但里奧只用薯仔、洋葱和雞蛋便迅速做出一頓熱飯。",
+      "starter": "Although",
+      "answer": "Although the fridge was nearly empty, Leo whipped up a hot meal using only potatoes, onions and eggs.",
+      "answerZh": "雖然雪櫃幾乎空了,但里奧只用薯仔、洋葱和雞蛋便迅速做出一頓熱飯。",
+      "highlight": "whipped up",
+      "targetForm": "whip something up",
+      "targetMeaningZh": "迅速準備或製作食物"
+    },
+    {
+      "id": "phrasal-verb-154-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "The forms looked long, but the office worker completed them very quickly because most answers were already saved.",
+      "promptZh": "這些表格看來很長,但大部分答案已經儲存,所以辦公室職員迅速完成了它們。",
+      "starter": "The",
+      "answer": "The forms looked long, but the office worker whipped through them because most answers were already saved.",
+      "answerZh": "這些表格看來很長,但大部分答案已經儲存,所以辦公室職員迅速完成了它們。",
+      "highlight": "whipped through",
+      "targetForm": "whip through something",
+      "targetMeaningZh": "迅速完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-154-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "When the guard asked for proof of age, Noah immediately produced his ID from the front pocket of his bag.",
+      "promptZh": "保安要求出示年齡證明時,諾亞立即從袋子的前袋拿出身分證明文件。",
+      "starter": "When",
+      "answer": "When the guard asked for proof of age, Noah whipped his ID out of the front pocket of his bag.",
+      "answerZh": "保安要求出示年齡證明時,諾亞立即從袋子的前袋拿出身分證明文件。",
+      "highlight": "whipped",
+      "targetForm": "whip something out of something",
+      "targetMeaningZh": "迅速從某處拿出某物"
+    },
+    {
+      "id": "phrasal-verb-154-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The host did more than welcome the audience; he made them more and more excited until they were shouting and clapping.",
+      "promptZh": "主持人不只是歡迎觀眾;他令他們愈來愈興奮,最後大叫並拍掌。",
+      "starter": "The",
+      "answer": "The host did more than welcome the audience; he whipped them up until they were shouting and clapping.",
+      "answerZh": "主持人不只是歡迎觀眾;他令他們情緒愈來愈高漲,最後大叫並拍掌。",
+      "highlight": "whipped",
+      "targetForm": "whip somebody up",
+      "targetMeaningZh": "令某人或一群人情緒高漲"
+    }
+  ]
+}

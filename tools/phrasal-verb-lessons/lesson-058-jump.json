@@ -1,0 +1,1462 @@
+{
+  "id": "phrasal-verb-58",
+  "order": 58,
+  "slug": "jump",
+  "version": "1",
+  "title": "JUMP 動詞片語",
+  "titleEn": "Jump",
+  "titleZh": "JUMP 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 57 - JUMP.pdf",
+    "sourceNumber": 57,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 JUMP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to JUMP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "JUMP",
+      "highlight": "JUMP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Please do not jump on him before he explains.",
+      "zh": "在他解釋之前,請不要急着責怪他。",
+      "highlight": "jump on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I jumped at the chance to visit Italy.",
+      "zh": "我很興奮地接受了到意大利遊覽的機會。",
+      "highlight": "jumped at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ravi jumped in during a brief pause.",
+      "zh": "在短暫停頓時,拉維迅速加入談話。",
+      "highlight": "jumped in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語；熱切地接受機會、提議或邀請；突然插嘴或迅速加入談話；非常顯眼,令人立即注意到；突然站起來",
+    "en": "jump on somebody / jump at somebody; jump at something; jump in; jump out at somebody; jump up",
+    "naturalZh": [
+      "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+      "熱切地接受機會、提議或邀請",
+      "突然插嘴或迅速加入談話",
+      "非常顯眼,令人立即注意到",
+      "突然站起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "jump on somebody / jump at somebody",
+      "titleZh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+      "titleEn": "jump on somebody / jump at somebody",
+      "descriptionZh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+      "descriptionEn": "Please do not jump on him before he explains.",
+      "examples": [
+        {
+          "en": "Please do not jump on him before he explains.",
+          "zh": "在他解釋之前,請不要急着責怪他。",
+          "highlight": "jump on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "jump at something",
+      "titleZh": "熱切地接受機會、提議或邀請",
+      "titleEn": "jump at something",
+      "descriptionZh": "熱切地接受機會、提議或邀請",
+      "descriptionEn": "I jumped at the chance to visit Italy.",
+      "examples": [
+        {
+          "en": "I jumped at the chance to visit Italy.",
+          "zh": "我很興奮地接受了到意大利遊覽的機會。",
+          "highlight": "jumped at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "jump in",
+      "titleZh": "突然插嘴或迅速加入談話",
+      "titleEn": "jump in",
+      "descriptionZh": "突然插嘴或迅速加入談話",
+      "descriptionEn": "Ravi jumped in during a brief pause.",
+      "examples": [
+        {
+          "en": "Ravi jumped in during a brief pause.",
+          "zh": "在短暫停頓時,拉維迅速加入談話。",
+          "highlight": "jumped in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "jump out at somebody",
+      "titleZh": "非常顯眼,令人立即注意到",
+      "titleEn": "jump out at somebody",
+      "descriptionZh": "非常顯眼,令人立即注意到",
+      "descriptionEn": "The headline jumped out at me.",
+      "examples": [
+        {
+          "en": "The headline jumped out at me.",
+          "zh": "那則標題立即引起我注意。",
+          "highlight": "jumped out at"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "jump up",
+      "titleZh": "突然站起來",
+      "titleEn": "jump up",
+      "descriptionZh": "突然站起來",
+      "descriptionEn": "He jumped up from the floor.",
+      "examples": [
+        {
+          "en": "He jumped up from the floor.",
+          "zh": "他突然從地上站起來。",
+          "highlight": "jumped up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "JUMP 片語動詞的實際用途",
+    "labelEn": "JUMP Phrasal Verbs in Use",
+    "summaryZh": "jump at 可以幫助你描述自己很樂意接受某個機會、提議或邀請。；jump in 可以表示突然插嘴,或很快加入正在進行的談話。；jump on somebody 和 jump at somebody 可以表示某人還未仔細聆聽,便立即批評另一個人。；jump out at somebody 可以描述非常顯眼的標題、顏色、數字或錯誤。；jump up 可以表示某人因為某件事發生而突然站起來。",
+    "summaryEn": "Jump at helps you talk about a chance, offer or invitation that you are very happy to accept. Jump in helps you describe interrupting or entering a conversation without waiting for long. Jump on somebody and jump at somebody can show that a person criticises someone before listening properly. Jump out at somebody helps you describe a headline, colour, number or mistake that is very easy to notice. Jump up helps you show that somebody stands suddenly because something happens.",
+    "contextsZh": [
+      "自然地表達接受機會",
+      "描述迅速加入談話",
+      "描述過快作出的批評",
+      "描述立即吸引注意的事物",
+      "描述突然起身的動作"
+    ],
+    "contextsEn": [
+      "Accept opportunities naturally",
+      "Join conversations quickly",
+      "Describe quick criticism",
+      "Show what catches your attention",
+      "Describe sudden movement"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 JUMP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the JUMP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "jump on somebody / jump at somebody",
+    "fixedHighlight": "jump on somebody / jump at somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 JUMP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the JUMP expression that gives the same meaning.",
+    "correct": "jump on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；jump on somebody 和 jump at somebody 都可以表示「很快便批評某人」。jump atsomebody 主要見於北美英語。；jump at a chance 或 offer 表示熱切地接受機會或提議;jump out at somebody 則表示某事物非常顯眼。請仔細閱讀完整情境。",
+    "variableEn": "Keep the same people, things, time and meaning. Jump on somebody and jump at somebody can both mean “criticise somebody quickly”. Jump at somebody is mainly used in North American English. Jump at a chance or offer means accepting it eagerly. Jump out at somebody means being very easy to notice. Read the full situation carefully.",
+    "variableItemsZh": [
+      "jump on somebody / jump at somebody",
+      "jump at something",
+      "jump in",
+      "jump out at somebody",
+      "jump up"
+    ],
+    "variableItemsEn": [
+      "jump on somebody / jump at somebody",
+      "jump at something",
+      "jump in",
+      "jump out at somebody",
+      "jump up"
+    ],
+    "forms": [
+      {
+        "formZh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+        "formEn": "jump on somebody / jump at somebody",
+        "exampleZh": "在他解釋之前,請不要急着責怪他。",
+        "exampleEn": "Please do not jump on him before he explains.",
+        "highlight": "jump on"
+      },
+      {
+        "formZh": "熱切地接受機會、提議或邀請",
+        "formEn": "jump at something",
+        "exampleZh": "我很興奮地接受了到意大利遊覽的機會。",
+        "exampleEn": "I jumped at the chance to visit Italy.",
+        "highlight": "jumped at"
+      },
+      {
+        "formZh": "突然插嘴或迅速加入談話",
+        "formEn": "jump in",
+        "exampleZh": "在短暫停頓時,拉維迅速加入談話。",
+        "exampleEn": "Ravi jumped in during a brief pause.",
+        "highlight": "jumped in"
+      },
+      {
+        "formZh": "非常顯眼,令人立即注意到",
+        "formEn": "jump out at somebody",
+        "exampleZh": "那則標題立即引起我注意。",
+        "exampleEn": "The headline jumped out at me.",
+        "highlight": "jumped out at"
+      },
+      {
+        "formZh": "突然站起來",
+        "formEn": "jump up",
+        "exampleZh": "他突然從地上站起來。",
+        "exampleEn": "He jumped up from the floor.",
+        "highlight": "jumped up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+      "titleEn": "jump on somebody / jump at somebody",
+      "formula": "jump on somebody / jump at somebody",
+      "highlight": "jump on somebody / jump at somebody",
+      "descriptionZh": "迅速或嚴厲地批評、責怪某人;jump at somebody 主要見於北美英語",
+      "descriptionEn": "Please do not jump on him before he explains.",
+      "examples": [
+        {
+          "en": "Please do not jump on him before he explains.",
+          "zh": "在他解釋之前,請不要急着責怪他。",
+          "highlight": "jump on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "熱切地接受機會、提議或邀請",
+      "titleEn": "jump at something",
+      "formula": "jump at something",
+      "highlight": "jump at something",
+      "descriptionZh": "熱切地接受機會、提議或邀請",
+      "descriptionEn": "I jumped at the chance to visit Italy.",
+      "examples": [
+        {
+          "en": "I jumped at the chance to visit Italy.",
+          "zh": "我很興奮地接受了到意大利遊覽的機會。",
+          "highlight": "jumped at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然插嘴或迅速加入談話",
+      "titleEn": "jump in",
+      "formula": "jump in",
+      "highlight": "jump in",
+      "descriptionZh": "突然插嘴或迅速加入談話",
+      "descriptionEn": "Ravi jumped in during a brief pause.",
+      "examples": [
+        {
+          "en": "Ravi jumped in during a brief pause.",
+          "zh": "在短暫停頓時,拉維迅速加入談話。",
+          "highlight": "jumped in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "非常顯眼,令人立即注意到",
+      "titleEn": "jump out at somebody",
+      "formula": "jump out at somebody",
+      "highlight": "jump out at somebody",
+      "descriptionZh": "非常顯眼,令人立即注意到",
+      "descriptionEn": "The headline jumped out at me.",
+      "examples": [
+        {
+          "en": "The headline jumped out at me.",
+          "zh": "那則標題立即引起我注意。",
+          "highlight": "jumped out at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然站起來",
+      "titleEn": "jump up",
+      "formula": "jump up",
+      "highlight": "jump up",
+      "descriptionZh": "突然站起來",
+      "descriptionEn": "He jumped up from the floor.",
+      "examples": [
+        {
+          "en": "He jumped up from the floor.",
+          "zh": "他突然從地上站起來。",
+          "highlight": "jumped up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地表達接受機會",
+      "titleEn": "Accept opportunities naturally",
+      "zh": "jump at 可以幫助你描述自己很樂意接受某個機會、提議或邀請。",
+      "en": "Jump at helps you talk about a chance, offer or invitation that you are very happy to accept."
+    },
+    {
+      "titleZh": "描述迅速加入談話",
+      "titleEn": "Join conversations quickly",
+      "zh": "jump in 可以表示突然插嘴,或很快加入正在進行的談話。",
+      "en": "Jump in helps you describe interrupting or entering a conversation without waiting for long."
+    },
+    {
+      "titleZh": "描述過快作出的批評",
+      "titleEn": "Describe quick criticism",
+      "zh": "jump on somebody 和 jump at somebody 可以表示某人還未仔細聆聽,便立即批評另一個人。",
+      "en": "Jump on somebody and jump at somebody can show that a person criticises someone before listening properly."
+    },
+    {
+      "titleZh": "描述立即吸引注意的事物",
+      "titleEn": "Show what catches your attention",
+      "zh": "jump out at somebody 可以描述非常顯眼的標題、顏色、數字或錯誤。",
+      "en": "Jump out at somebody helps you describe a headline, colour, number or mistake that is very easy to notice."
+    },
+    {
+      "titleZh": "描述突然起身的動作",
+      "titleEn": "Describe sudden movement",
+      "zh": "jump up 可以表示某人因為某件事發生而突然站起來。",
+      "en": "Jump up helps you show that somebody stands suddenly because something happens."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地表達接受機會",
+      "描述迅速加入談話",
+      "描述過快作出的批評",
+      "描述立即吸引注意的事物",
+      "描述突然起身的動作"
+    ],
+    "contextsEn": [
+      "Accept opportunities naturally",
+      "Join conversations quickly",
+      "Describe quick criticism",
+      "Show what catches your attention",
+      "Describe sudden movement"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地表達接受機會",
+        "titleEn": "Accept opportunities naturally",
+        "zh": "jump at 可以幫助你描述自己很樂意接受某個機會、提議或邀請。",
+        "en": "Jump at helps you talk about a chance, offer or invitation that you are very happy to accept.",
+        "examples": [
+          {
+            "en": "Please do not jump on him before he explains.",
+            "zh": "在他解釋之前,請不要急着責怪他。",
+            "highlight": "jump on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迅速加入談話",
+        "titleEn": "Join conversations quickly",
+        "zh": "jump in 可以表示突然插嘴,或很快加入正在進行的談話。",
+        "en": "Jump in helps you describe interrupting or entering a conversation without waiting for long.",
+        "examples": [
+          {
+            "en": "I jumped at the chance to visit Italy.",
+            "zh": "我很興奮地接受了到意大利遊覽的機會。",
+            "highlight": "jumped at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述過快作出的批評",
+        "titleEn": "Describe quick criticism",
+        "zh": "jump on somebody 和 jump at somebody 可以表示某人還未仔細聆聽,便立即批評另一個人。",
+        "en": "Jump on somebody and jump at somebody can show that a person criticises someone before listening properly.",
+        "examples": [
+          {
+            "en": "Ravi jumped in during a brief pause.",
+            "zh": "在短暫停頓時,拉維迅速加入談話。",
+            "highlight": "jumped in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述立即吸引注意的事物",
+        "titleEn": "Show what catches your attention",
+        "zh": "jump out at somebody 可以描述非常顯眼的標題、顏色、數字或錯誤。",
+        "en": "Jump out at somebody helps you describe a headline, colour, number or mistake that is very easy to notice.",
+        "examples": [
+          {
+            "en": "The headline jumped out at me.",
+            "zh": "那則標題立即引起我注意。",
+            "highlight": "jumped out at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然起身的動作",
+        "titleEn": "Describe sudden movement",
+        "zh": "jump up 可以表示某人因為某件事發生而突然站起來。",
+        "en": "Jump up helps you show that somebody stands suddenly because something happens.",
+        "examples": [
+          {
+            "en": "He jumped up from the floor.",
+            "zh": "他突然從地上站起來。",
+            "highlight": "jumped up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 JUMP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the JUMP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 JUMP 片語動詞。",
+      "en": "Read the whole sentence and choose the JUMP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "jump on somebody 和 jump at somebody 都可以表示「很快便批評某人」。jump atsomebody 主要見於北美英語。",
+      "titleEn": "Jump on somebody and jump at somebody can both mean “criticise somebody quickly”.",
+      "zh": "jump on somebody 和 jump at somebody 都可以表示「很快便批評某人」。jump atsomebody 主要見於北美英語。",
+      "en": "Jump on somebody and jump at somebody can both mean “criticise somebody quickly”. Jump at somebody is mainly used in North American English."
+    },
+    {
+      "titleZh": "jump at a chance 或 offer 表示熱切地接受機會或提議;jump out at somebody 則表示某事物非常顯眼。請仔細閱讀完整情境。",
+      "titleEn": "Jump at a chance or offer means accepting it eagerly.",
+      "zh": "jump at a chance 或 offer 表示熱切地接受機會或提議;jump out at somebody 則表示某事物非常顯眼。請仔細閱讀完整情境。",
+      "en": "Jump at a chance or offer means accepting it eagerly. Jump out at somebody means being very easy to notice. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 JUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to JUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "JUMP 動詞片語句子改寫練習",
+    "titleEn": "JUMP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 JUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to JUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-58-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam eagerly accepted the school’s offer of a place on the trip.",
+      "promptZh": "山姆熱切地接受了學校提供的旅行名額。",
+      "starter": "Sam",
+      "answer": "Sam jumped at the school’s offer of a place on the trip.",
+      "answerZh": "山姆熱切地接受了學校提供的旅行名額。",
+      "highlight": "jumped at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo stood up suddenly when his name was called.",
+      "promptZh": "里奧聽到有人叫他的名字時,突然站了起來。",
+      "starter": "Leo",
+      "answer": "Leo jumped up when his name was called.",
+      "answerZh": "里奧聽到有人叫他的名字時,突然站了起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The bright yellow label was very obvious to me.",
+      "promptZh": "那張鮮黃色標籤非常顯眼,令我立即注意到。",
+      "starter": "The",
+      "answer": "The bright yellow label jumped out at me.",
+      "answerZh": "那張鮮黃色標籤非常顯眼,令我立即注意到。",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The coach criticised Ben before he could explain.",
+      "promptZh": "教練在賓有機會解釋前便批評他。",
+      "starter": "The",
+      "answer": "The coach jumped on Ben before he could explain.",
+      "answerZh": "教練在賓有機會解釋前便批評他。",
+      "highlight": "jumped on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ava interrupted while I was answering the question.",
+      "promptZh": "我正在回答問題時,艾娃突然插嘴。",
+      "starter": "Ava",
+      "answer": "Ava jumped in while I was answering the question.",
+      "answerZh": "我正在回答問題時,艾娃突然插嘴。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I eagerly accepted the chance to help at the music show.",
+      "promptZh": "我很興奮地接受了在音樂表演中幫忙的機會。",
+      "starter": "I",
+      "answer": "I jumped at the chance to help at the music show.",
+      "answerZh": "我很興奮地接受了在音樂表演中幫忙的機會。",
+      "highlight": "jumped at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad immediately criticised me for breaking the cup.",
+      "promptZh": "爸爸因為我打破杯子而立即責怪我。",
+      "starter": "Dad",
+      "answer": "Dad jumped on me for breaking the cup.",
+      "answerZh": "爸爸因為我打破杯子而立即責怪我。",
+      "highlight": "jumped on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The child stood up suddenly when the music started.",
+      "promptZh": "音樂開始時,那個孩子突然站了起來。",
+      "starter": "The",
+      "answer": "The child jumped up when the music started.",
+      "answerZh": "音樂開始時,那個孩子突然站了起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "One red word was very easy for Nora to notice.",
+      "promptZh": "其中一個紅色單字很容易引起諾拉注意。",
+      "starter": "One",
+      "answer": "One red word jumped out at Nora.",
+      "answerZh": "其中一個紅色單字很容易引起諾拉注意。",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "During the short pause, Kai suddenly joined the conversation.",
+      "promptZh": "在短暫停頓時,啟突然加入談話。",
+      "starter": "During",
+      "answer": "During the short pause, Kai jumped in.",
+      "answerZh": "在短暫停頓時,啟突然加入談話。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "They eagerly accepted our invitation to stay for dinner.",
+      "promptZh": "他們很高興地接受了我們留下來吃晚飯的邀請。",
+      "starter": "They",
+      "answer": "They jumped at our invitation to stay for dinner.",
+      "answerZh": "他們很高興地接受了我們留下來吃晚飯的邀請。",
+      "highlight": "jumped at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please do not criticise her before hearing the full story.",
+      "promptZh": "在聽完整件事之前,請不要批評她。",
+      "starter": "Please",
+      "answer": "Please do not jump on her before hearing the full story.",
+      "answerZh": "在聽完整件事之前,請不要批評她。",
+      "highlight": "jump on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "That spelling mistake has attracted my attention from the start.",
+      "promptZh": "那個串字錯誤從一開始便吸引了我的注意。",
+      "starter": "That",
+      "answer": "That spelling mistake has jumped out at me from the start.",
+      "answerZh": "那個串字錯誤從一開始便吸引了我的注意。",
+      "highlight": "jumped out at me",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are you interrupting before she finishes?",
+      "promptZh": "為甚麼她還未說完,你便插嘴?",
+      "starter": "Why",
+      "answer": "Why are you jumping in before she finishes?",
+      "answerZh": "為甚麼她還未說完,你便插嘴?",
+      "highlight": "jumping in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Arun will eagerly accept any chance to practise with the team.",
+      "promptZh": "只要有機會跟球隊練習,阿倫都會很樂意接受。",
+      "starter": "Arun",
+      "answer": "Arun will jump at any chance to practise with the team.",
+      "answerZh": "只要有機會跟球隊練習,阿倫都會很樂意接受。",
+      "highlight": "jump at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children have stood up suddenly every time the door has opened.",
+      "promptZh": "每次門一打開,孩子們都突然站起來。",
+      "starter": "The",
+      "answer": "The children have jumped up every time the door has opened.",
+      "answerZh": "每次門一打開,孩子們都突然站起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She always criticises him the moment he makes a small mistake.",
+      "promptZh": "他每犯一個小錯,她便立即批評他。",
+      "starter": "She",
+      "answer": "She always jumps on him the moment he makes a small mistake.",
+      "answerZh": "他每犯一個小錯,她便立即批評他。",
+      "highlight": "jumps on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The wrong date should be very easy for you to notice.",
+      "promptZh": "你應該很容易注意到那個錯誤日期。",
+      "starter": "The",
+      "answer": "The wrong date should jump out at you.",
+      "answerZh": "你應該很容易注意到那個錯誤日期。",
+      "highlight": "jump out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I did not interrupt because everyone was listening carefully.",
+      "promptZh": "因為大家都在專心聽,所以我沒有插嘴。",
+      "starter": "I",
+      "answer": "I did not jump in because everyone was listening carefully.",
+      "answerZh": "因為大家都在專心聽,所以我沒有插嘴。",
+      "highlight": "jump in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Would you eagerly accept an offer to study in London?",
+      "promptZh": "你會很樂意接受到倫敦讀書的提議嗎?",
+      "starter": "Would",
+      "answer": "Would you jump at an offer to study in London?",
+      "answerZh": "你會很樂意接受到倫敦讀書的提議嗎?",
+      "highlight": "jump at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I will stand up quickly when the teacher calls my name.",
+      "promptZh": "老師叫到我的名字時,我會立即站起來。",
+      "starter": "I",
+      "answer": "I will jump up when the teacher calls my name.",
+      "answerZh": "老師叫到我的名字時,我會立即站起來。",
+      "highlight": "jump",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "One number keeps attracting my attention in the list.",
+      "promptZh": "清單中有一個數字不斷吸引我注意。",
+      "starter": "One",
+      "answer": "One number keeps jumping out at me in the list.",
+      "answerZh": "清單中有一個數字不斷吸引我注意。",
+      "highlight": "jumping out at me",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why did your uncle criticise you so quickly over one small mistake?",
+      "promptZh": "你叔叔為甚麼因為一個小錯便那麼快批評你?",
+      "starter": "Why",
+      "answer": "Why did your uncle jump at you so quickly over one small mistake?",
+      "answerZh": "你叔叔為甚麼因為一個小錯便那麼快批評你?",
+      "highlight": "jump at",
+      "targetForm": "jump at somebody",
+      "targetMeaningZh": "主要見於北美英語;立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Zara has interrupted twice since the meeting began.",
+      "promptZh": "會議開始後,扎拉已插嘴兩次。",
+      "starter": "Zara",
+      "answer": "Zara has jumped in twice since the meeting began.",
+      "answerZh": "會議開始後,扎拉已插嘴兩次。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Noah was sitting on the floor. He stood up suddenly when the lights went out.",
+      "promptZh": "諾亞正坐在地上。燈熄滅時,他突然站了起來。",
+      "starter": "Noah",
+      "answer": "Noah was sitting on the floor. He jumped up when the lights went out.",
+      "answerZh": "諾亞正坐在地上。燈熄滅時,他突然站了起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I checked the poster. One missing letter immediately caught my attention.",
+      "promptZh": "我檢查海報時,立即注意到少了一個字母。",
+      "starter": "I",
+      "answer": "I checked the poster. One missing letter jumped out at me.",
+      "answerZh": "我檢查海報時,立即注意到少了一個字母。",
+      "highlight": "jumped out at me",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club offered us free tickets, and we accepted the offer eagerly.",
+      "promptZh": "學會給我們免費門票,而我們很興奮地接受了這個提議。",
+      "starter": "The",
+      "answer": "The club offered us free tickets, and we jumped at the offer.",
+      "answerZh": "學會給我們免費門票,而我們很興奮地接受了這個提議。",
+      "highlight": "jumped at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the teacher asked for ideas, Ella suddenly started speaking before anyone else.",
+      "promptZh": "老師要求大家提出想法時,埃拉搶先開口。",
+      "starter": "When",
+      "answer": "When the teacher asked for ideas, Ella jumped in before anyone else.",
+      "answerZh": "老師要求大家提出想法時,埃拉搶先開口。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I had not finished, but he immediately criticised me.",
+      "promptZh": "我還未說完,他便立即批評我。",
+      "starter": "I",
+      "answer": "I had not finished, but he jumped on me.",
+      "answerZh": "我還未說完,他便立即批評我。",
+      "highlight": "jumped on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If the baby cries, Dad stands up quickly to see whether she is all right.",
+      "promptZh": "如果嬰兒哭,爸爸便會立即站起來看看她是否沒事。",
+      "starter": "If",
+      "answer": "If the baby cries, Dad jumps up to see whether she is all right.",
+      "answerZh": "如果嬰兒哭,爸爸便會立即站起來看看她是否沒事。",
+      "highlight": "jumps",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Which detail was the easiest for you to notice in the photo?",
+      "promptZh": "相片中的哪一個細節最容易引起你注意?",
+      "starter": "Which",
+      "answer": "Which detail jumped out at you in the photo?",
+      "answerZh": "相片中的哪一個細節最容易引起你注意?",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Rina had eagerly accepted the chance before we asked anyone else.",
+      "promptZh": "在我們詢問其他人前,里娜已很興奮地接受了那個機會。",
+      "starter": "Rina",
+      "answer": "Rina had jumped at the chance before we asked anyone else.",
+      "answerZh": "在我們詢問其他人前,里娜已很興奮地接受了那個機會。",
+      "highlight": "jumped at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Please let Omar finish; do not interrupt again.",
+      "promptZh": "請讓奧馬說完;不要再插嘴。",
+      "starter": "Please",
+      "answer": "Please let Omar finish; do not jump in again.",
+      "answerZh": "請讓奧馬說完;不要再插嘴。",
+      "highlight": "jump in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The bell rang. We all stood up suddenly from our seats.",
+      "promptZh": "鐘聲響起。我們全都突然從座位站起來。",
+      "starter": "The",
+      "answer": "The bell rang. We all jumped up from our seats.",
+      "answerZh": "鐘聲響起。我們全都突然從座位站起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I opened the message, and the final sentence was immediately obvious to me.",
+      "promptZh": "我打開訊息後,最後一句立即引起我注意。",
+      "starter": "I",
+      "answer": "I opened the message, and the final sentence jumped out at me.",
+      "answerZh": "我打開訊息後,最後一句立即引起我注意。",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The manager had not heard the facts, but she immediately criticised us over the delay.",
+      "promptZh": "經理還未聽清楚事實,便因為延誤而立即批評我們。",
+      "starter": "The",
+      "answer": "The manager had not heard the facts, but she jumped at us over the delay.",
+      "answerZh": "經理還未聽清楚事實,便因為延誤而立即批評我們。",
+      "highlight": "jumped at",
+      "targetForm": "jump at somebody",
+      "targetMeaningZh": "主要見於北美英語;立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Ravi waited for a short silence, then suddenly added his view.",
+      "promptZh": "拉維等到出現短暫沉默,然後突然說出自己的看法。",
+      "starter": "Ravi",
+      "answer": "Ravi waited for a short silence, then suddenly jumped in with his view.",
+      "answerZh": "拉維等到出現短暫沉默,然後突然說出自己的看法。",
+      "highlight": "jumped in with",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The travel club offered a cheap weekend trip. Priya accepted it at once with great excitement.",
+      "promptZh": "旅遊學會提供了一個便宜的週末旅行。普里雅立即非常興奮地接受了。",
+      "starter": "The",
+      "answer": "The travel club offered a cheap weekend trip. Priya jumped at the offer.",
+      "answerZh": "旅遊學會提供了一個便宜的週末旅行。普里雅立即非常興奮地接受了。",
+      "highlight": "jumped",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before I could explain the missing money, Ken began criticising me over it.",
+      "promptZh": "我還未解釋遺失金錢的事,肯便開始因此批評我。",
+      "starter": "Before",
+      "answer": "Before I could explain the missing money, Ken jumped at me over it.",
+      "answerZh": "我還未解釋遺失金錢的事,肯便開始因此批評我。",
+      "highlight": "jumped at",
+      "targetForm": "jump at somebody",
+      "targetMeaningZh": "主要見於北美英語;立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Many colours were on the page, but the blue circle was the easiest for Bea to notice.",
+      "promptZh": "頁面上有很多顏色,但藍色圓圈最容易引起碧雅注意。",
+      "starter": "Many",
+      "answer": "Many colours were on the page, but the blue circle jumped out at Bea.",
+      "answerZh": "頁面上有很多顏色,但藍色圓圈最容易引起碧雅注意。",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The man heard a strange noise and suddenly rose from the sofa.",
+      "promptZh": "那名男子聽到怪聲後,突然從梳化站起來。",
+      "starter": "The",
+      "answer": "The man heard a strange noise and jumped up from the sofa.",
+      "answerZh": "那名男子聽到怪聲後,突然從梳化站起來。",
+      "highlight": "jumped up",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Who interrupted when the group could not decide?",
+      "promptZh": "小組無法作出決定時,是誰插嘴了?",
+      "starter": "Who",
+      "answer": "Who jumped in when the group could not decide?",
+      "answerZh": "小組無法作出決定時,是誰插嘴了?",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We did not eagerly accept the first offer because it was too expensive.",
+      "promptZh": "我們沒有欣然接受第一個提議,因為它太昂貴。",
+      "starter": "We",
+      "answer": "We did not jump at the first offer because it was too expensive.",
+      "answerZh": "我們沒有欣然接受第一個提議,因為它太昂貴。",
+      "highlight": "jump at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The teacher did not criticise the class when one answer was wrong.",
+      "promptZh": "有一個答案錯了,老師也沒有批評全班。",
+      "starter": "The",
+      "answer": "The teacher did not jump on the class when one answer was wrong.",
+      "answerZh": "有一個答案錯了,老師也沒有批評全班。",
+      "highlight": "jump on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Anyone may interrupt if they know the safety answer.",
+      "promptZh": "知道安全問題答案的人都可以插嘴。",
+      "starter": "Anyone",
+      "answer": "Anyone may jump in if they know the safety answer.",
+      "answerZh": "知道安全問題答案的人都可以插嘴。",
+      "highlight": "jump in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Most of the text looked the same, but the large number 50 was obvious to Daniel.",
+      "promptZh": "大部分文字看來都一樣,但大大的數字 50 很容易引起丹尼爾注意。",
+      "starter": "Most",
+      "answer": "Most of the text looked the same, but the large number 50 jumped out at Daniel.",
+      "answerZh": "大部分文字看來都一樣,但大大的數字 50 很容易引起丹尼爾注意。",
+      "highlight": "jumped out at",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Why did the twins accept the chance to sing on stage so eagerly?",
+      "promptZh": "那對雙胞胎為甚麼那麼興奮地接受上台唱歌的機會?",
+      "starter": "Why",
+      "answer": "Why did the twins jump at the chance to sing on stage?",
+      "answerZh": "那對雙胞胎為甚麼那麼興奮地接受上台唱歌的機會?",
+      "highlight": "jump at",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Each time the doctor called a name, another person stood up quickly.",
+      "promptZh": "每次醫生叫到一個名字,便有另一個人立即站起來。",
+      "starter": "Each",
+      "answer": "Each time the doctor called a name, another person jumped up.",
+      "answerZh": "每次醫生叫到一個名字,便有另一個人立即站起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although I had made only one small error, the editor criticised me before reading the whole page.",
+      "promptZh": "雖然我只犯了一個小錯,編輯還未讀完整頁便批評我。",
+      "starter": "Although",
+      "answer": "Although I had made only one small error, the editor jumped on me before reading the whole page.",
+      "answerZh": "雖然我只犯了一個小錯,編輯還未讀完整頁便批評我。",
+      "highlight": "jumped on",
+      "targetForm": "jump on somebody",
+      "targetMeaningZh": "立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the final whistle sounded, everyone on the bench stood up at once.",
+      "promptZh": "終場哨聲響起時,後備席上的每個人都立即站起來。",
+      "starter": "When",
+      "answer": "When the final whistle sounded, everyone on the bench jumped up at once.",
+      "answerZh": "終場哨聲響起時,後備席上的每個人都立即站起來。",
+      "highlight": "jumped",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A friend offered Alex a place in a free cooking class, and he accepted before she finished speaking.",
+      "promptZh": "一位朋友給阿歷克斯一個免費烹飪班的名額,而她還未說完,他便接受了。",
+      "starter": "A",
+      "answer": "A friend offered Alex a place in a free cooking class, and he jumped at the chance before she finished speaking.",
+      "answerZh": "一位朋友給阿歷克斯一個免費烹飪班的名額,而她還未說完,他便接受了。",
+      "highlight": "jumped at the chance",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "While I was checking a long list of prices, one very high number immediately caught my attention.",
+      "promptZh": "我查看一長列價錢時,一個非常高的數字立即引起我注意。",
+      "starter": "While",
+      "answer": "While I was checking a long list of prices, one very high number jumped out at me.",
+      "answerZh": "我查看一長列價錢時,一個非常高的數字立即引起我注意。",
+      "highlight": "jumped out at me",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The discussion was becoming confused, so Farah interrupted and gave the group one clear fact.",
+      "promptZh": "討論愈來愈混亂,所以法拉插嘴,向小組提供了一項清楚的事實。",
+      "starter": "The",
+      "answer": "The discussion was becoming confused, so Farah jumped in and gave the group one clear fact.",
+      "answerZh": "討論愈來愈混亂,所以法拉插嘴,向小組提供了一項清楚的事實。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the child saw smoke near the kitchen door, she rose from the floor at once and called an adult.",
+      "promptZh": "孩子看到廚房門附近有煙時,立即從地上站起來並叫大人。",
+      "starter": "When",
+      "answer": "When the child saw smoke near the kitchen door, she jumped up from the floor at once and called an adult.",
+      "answerZh": "孩子看到廚房門附近有煙時,立即從地上站起來並叫大人。",
+      "highlight": "jumped up",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The customer had not heard the explanation, but he immediately criticised the young worker.",
+      "promptZh": "顧客還未聽解釋,便立即批評那名年輕店員。",
+      "starter": "The",
+      "answer": "The customer had not heard the explanation, but he jumped at the young worker.",
+      "answerZh": "顧客還未聽解釋,便立即批評那名年輕店員。",
+      "highlight": "jumped at",
+      "targetForm": "jump at somebody",
+      "targetMeaningZh": "主要見於北美英語;立即批評或責怪某人"
+    },
+    {
+      "id": "phrasal-verb-58-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The school offered us one last place on the exchange trip. We accepted it with great excitement.",
+      "promptZh": "學校給我們交換旅行的最後一個名額。我們十分興奮地接受了。",
+      "starter": "The",
+      "answer": "The school offered us one last place on the exchange trip. We jumped at the chance.",
+      "answerZh": "學校給我們交換旅行的最後一個名額。我們十分興奮地接受了。",
+      "highlight": "jumped at the chance",
+      "targetForm": "jump at something",
+      "targetMeaningZh": "熱切地接受機會、提議或邀請"
+    },
+    {
+      "id": "phrasal-verb-58-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Even before I read the message carefully, the word “FREE” in huge letters was impossible to miss.",
+      "promptZh": "我甚至還未仔細閱讀訊息,巨大字體的「FREE」已經令人無法忽略。",
+      "starter": "Even",
+      "answer": "Even before I read the message carefully, the word “FREE” in huge letters jumped out at me.",
+      "answerZh": "我甚至還未仔細閱讀訊息,巨大字體的「FREE」已經令人無法忽略。",
+      "highlight": "jumped out at me",
+      "targetForm": "jump out at somebody",
+      "targetMeaningZh": "非常顯眼,令人立即注意到"
+    },
+    {
+      "id": "phrasal-verb-58-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Leila waited until there was a short pause, then quickly joined with the answer everyone needed.",
+      "promptZh": "萊拉等到出現短暫停頓,然後迅速加入談話,說出大家需要的答案。",
+      "starter": "Leila",
+      "answer": "Leila waited until there was a short pause, then jumped in with the answer everyone needed.",
+      "answerZh": "萊拉等到出現短暫停頓,然後迅速加入談話,說出大家需要的答案。",
+      "highlight": "jumped in",
+      "targetForm": "jump in",
+      "targetMeaningZh": "突然插嘴或加入談話"
+    },
+    {
+      "id": "phrasal-verb-58-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "We were sitting quietly, but the loud crash made all of us stand up in one sudden movement.",
+      "promptZh": "我們正安靜地坐着,但巨響令我們所有人同一時間突然站起來。",
+      "starter": "We",
+      "answer": "We were sitting quietly, but the loud crash made all of us jump up.",
+      "answerZh": "我們正安靜地坐着,但巨響令我們所有人同一時間突然站起來。",
+      "highlight": "jump",
+      "targetForm": "jump up",
+      "targetMeaningZh": "突然站起來"
+    },
+    {
+      "id": "phrasal-verb-58-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "Before Nina could explain why she was late, her brother began criticising her.",
+      "promptZh": "妮娜還未解釋遲到原因,她哥哥便開始批評她。",
+      "starter": "Before",
+      "answer": "Before Nina could explain why she was late, her brother jumped at her.",
+      "answerZh": "妮娜還未解釋遲到原因,她哥哥便開始批評她。",
+      "highlight": "jumped at",
+      "targetForm": "jump at somebody",
+      "targetMeaningZh": "主要見於北美英語;立即批評或責怪某人"
+    }
+  ]
+}

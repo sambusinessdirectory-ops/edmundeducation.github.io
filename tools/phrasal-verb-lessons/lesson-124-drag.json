@@ -1,0 +1,1680 @@
+{
+  "id": "phrasal-verb-124",
+  "order": 124,
+  "slug": "drag",
+  "version": "1",
+  "title": "DRAG 動詞片語",
+  "titleEn": "Drag",
+  "titleZh": "DRAG 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 123 - DRAG.pdf",
+    "sourceNumber": 123,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRAG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRAG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRAG",
+      "highlight": "DRAG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The meeting dragged on for two hours.",
+      "zh": "會議拖了兩小時仍未結束。",
+      "highlight": "dragged on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her friends dragged her off to the dance floor.",
+      "zh": "朋友硬把她帶到舞池。",
+      "highlight": "dragged her off to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Constant complaints dragged the whole team down.",
+      "zh": "不停的抱怨拖低了整個團隊的情緒。",
+      "highlight": "dragged the whole team down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "持續太久;拖延不止；勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼；令某人的情緒、行為或表現變差;拖低某事物的質素或水平；把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情；勉強令某人或自己離開;用力把某物移開；令某件事情持續得比所需更久;不必要地把事情拖長；重提過去、尷尬或令人不快的事情",
+    "en": "drag on; drag somebody off (to somewhere / to do something); drag somebody/something down; drag somebody/something in drag somebody/something into something; drag somebody/something/yourself away (from somebody/something); drag something out; drag something up",
+    "naturalZh": [
+      "持續太久;拖延不止",
+      "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+      "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+      "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+      "勉強令某人或自己離開;用力把某物移開",
+      "令某件事情持續得比所需更久;不必要地把事情拖長",
+      "重提過去、尷尬或令人不快的事情"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "drag on",
+      "titleZh": "持續太久;拖延不止",
+      "titleEn": "drag on",
+      "descriptionZh": "持續太久;拖延不止",
+      "descriptionEn": "The meeting dragged on for two hours.",
+      "examples": [
+        {
+          "en": "The meeting dragged on for two hours.",
+          "zh": "會議拖了兩小時仍未結束。",
+          "highlight": "dragged on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drag somebody off (to somewhere / to do something)",
+      "titleZh": "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+      "titleEn": "drag somebody off (to somewhere / to do something)",
+      "descriptionZh": "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+      "descriptionEn": "Her friends dragged her off to the dance floor.",
+      "examples": [
+        {
+          "en": "Her friends dragged her off to the dance floor.",
+          "zh": "朋友硬把她帶到舞池。",
+          "highlight": "dragged her off to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drag somebody/something down",
+      "titleZh": "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+      "titleEn": "drag somebody/something down",
+      "descriptionZh": "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+      "descriptionEn": "Constant complaints dragged the whole team down.",
+      "examples": [
+        {
+          "en": "Constant complaints dragged the whole team down.",
+          "zh": "不停的抱怨拖低了整個團隊的情緒。",
+          "highlight": "dragged the whole team down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drag somebody/something in drag somebody/something into something",
+      "titleZh": "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+      "titleEn": "drag somebody/something in drag somebody/something into something",
+      "descriptionZh": "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+      "descriptionEn": "Please do not drag me into your argument.",
+      "examples": [
+        {
+          "en": "Please do not drag me into your argument.",
+          "zh": "請不要把我牽涉進你們的爭論。",
+          "highlight": "drag me into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drag somebody/something/yourself away (from somebody/something)",
+      "titleZh": "勉強令某人或自己離開;用力把某物移開",
+      "titleEn": "drag somebody/something/yourself away (from somebody/something)",
+      "descriptionZh": "勉強令某人或自己離開;用力把某物移開",
+      "descriptionEn": "I could not drag myself away from the book.",
+      "examples": [
+        {
+          "en": "I could not drag myself away from the book.",
+          "zh": "我捨不得放下那本書。",
+          "highlight": "drag myself away from"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drag something out",
+      "titleZh": "令某件事情持續得比所需更久;不必要地把事情拖長",
+      "titleEn": "drag something out",
+      "descriptionZh": "令某件事情持續得比所需更久;不必要地把事情拖長",
+      "descriptionEn": "The speaker dragged the talk out for another hour.",
+      "examples": [
+        {
+          "en": "The speaker dragged the talk out for another hour.",
+          "zh": "講者把演講再拖長了一小時。",
+          "highlight": "dragged the talk out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drag something up",
+      "titleZh": "重提過去、尷尬或令人不快的事情",
+      "titleEn": "drag something up",
+      "descriptionZh": "重提過去、尷尬或令人不快的事情",
+      "descriptionEn": "Why did he drag that old argument up again?",
+      "examples": [
+        {
+          "en": "Why did he drag that old argument up again?",
+          "zh": "他為甚麼又重提那場舊爭論?",
+          "highlight": "drag that old argument up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRAG 片語動詞的實際用途",
+    "labelEn": "DRAG Phrasal Verbs in Use",
+    "summaryZh": "drag on 表示事情本身持續得太久;drag something out 則表示某人或某個行動令事情持續得太久。；drag somebody off 可以表示某人不情願地被帶走;drag yourself away 可以表示自己捨不得停止一項喜歡的活動。；drag somebody in 或 drag somebody into something 可以描述某人被牽涉進事情;dragsomebody or something down 則可以描述情緒、行為、質素或表現受到拖累。；當某人重提過去、尷尬或令人不快的事情時,可以使用 drag something up。",
+    "summaryEn": "Drag on describes something that continues for too long. Drag something out shows that a person or action makes it last too long. Drag somebody off can show that a person is made to go somewhere unwillingly. Drag yourself away can show that you find it difficult to stop an enjoyable activity. Drag somebody in or into something describes unwanted involvement. Drag somebody or something down describes a harmful effect on mood, behaviour, quality or performance. Drag something up is useful when somebody mentions an old, embarrassing or unpleasant subject again.",
+    "contextsZh": [
+      "清楚表達延誤由誰或甚麼造成",
+      "描述不情願地被帶走或捨不得離開",
+      "表達不必要的牽涉和負面影響",
+      "談論舊問題再次被提起"
+    ],
+    "contextsEn": [
+      "Show who or what causes a delay",
+      "Describe unwilling movement or difficulty leaving",
+      "Explain unwanted involvement and harmful effects",
+      "Talk about old problems returning"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRAG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRAG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "drag on",
+    "fixedHighlight": "drag on",
+    "fixedZh": "閱讀整句,選出意思相同的 DRAG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRAG expression that gives the same meaning.",
+    "correct": "dragged on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以下兩個表達的分別:● The meeting dragged on.會議本身持續得太久。● The speaker dragged the meeting out.講者令會議持續得太久。；先學習核心表達。額外的字詞可以補充資料,但並不是核心表達的固定部分。例如,to the office 只補充某人被帶到哪裏;from the screen 只補充某人離開甚麼。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the difference between these two expressions: ● The meeting dragged on. The meeting itself continued for too long. ● The speaker dragged the meeting out. The speaker caused the meeting to continue for too long. Learn the core expression first. Extra words may add useful information, but they are not fixed parts of the expression. ● drag somebody off ● drag somebody off to the office ● drag somebody away ● drag somebody away from the screen When using him, her, it or them, follow these models: ● drag him off ● drag it down ● drag them in ● drag her away ● drag it out ● drag it up",
+    "variableItemsZh": [
+      "drag on",
+      "drag somebody off (to somewhere / to do something)",
+      "drag somebody/something down",
+      "drag somebody/something in drag somebody/something into something",
+      "drag somebody/something/yourself away (from somebody/something)",
+      "drag something out",
+      "drag something up"
+    ],
+    "variableItemsEn": [
+      "drag on",
+      "drag somebody off (to somewhere / to do something)",
+      "drag somebody/something down",
+      "drag somebody/something in drag somebody/something into something",
+      "drag somebody/something/yourself away (from somebody/something)",
+      "drag something out",
+      "drag something up"
+    ],
+    "forms": [
+      {
+        "formZh": "持續太久;拖延不止",
+        "formEn": "drag on",
+        "exampleZh": "會議拖了兩小時仍未結束。",
+        "exampleEn": "The meeting dragged on for two hours.",
+        "highlight": "dragged on"
+      },
+      {
+        "formZh": "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+        "formEn": "drag somebody off (to somewhere / to do something)",
+        "exampleZh": "朋友硬把她帶到舞池。",
+        "exampleEn": "Her friends dragged her off to the dance floor.",
+        "highlight": "dragged her off to"
+      },
+      {
+        "formZh": "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+        "formEn": "drag somebody/something down",
+        "exampleZh": "不停的抱怨拖低了整個團隊的情緒。",
+        "exampleEn": "Constant complaints dragged the whole team down.",
+        "highlight": "dragged the whole team down"
+      },
+      {
+        "formZh": "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+        "formEn": "drag somebody/something in drag somebody/something into something",
+        "exampleZh": "請不要把我牽涉進你們的爭論。",
+        "exampleEn": "Please do not drag me into your argument.",
+        "highlight": "drag me into"
+      },
+      {
+        "formZh": "勉強令某人或自己離開;用力把某物移開",
+        "formEn": "drag somebody/something/yourself away (from somebody/something)",
+        "exampleZh": "我捨不得放下那本書。",
+        "exampleEn": "I could not drag myself away from the book.",
+        "highlight": "drag myself away from"
+      },
+      {
+        "formZh": "令某件事情持續得比所需更久;不必要地把事情拖長",
+        "formEn": "drag something out",
+        "exampleZh": "講者把演講再拖長了一小時。",
+        "exampleEn": "The speaker dragged the talk out for another hour.",
+        "highlight": "dragged the talk out"
+      },
+      {
+        "formZh": "重提過去、尷尬或令人不快的事情",
+        "formEn": "drag something up",
+        "exampleZh": "他為甚麼又重提那場舊爭論?",
+        "exampleEn": "Why did he drag that old argument up again?",
+        "highlight": "drag that old argument up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "持續太久;拖延不止",
+      "titleEn": "drag on",
+      "formula": "drag on",
+      "highlight": "drag on",
+      "descriptionZh": "持續太久;拖延不止",
+      "descriptionEn": "The meeting dragged on for two hours.",
+      "examples": [
+        {
+          "en": "The meeting dragged on for two hours.",
+          "zh": "會議拖了兩小時仍未結束。",
+          "highlight": "dragged on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+      "titleEn": "drag somebody off (to somewhere / to do something)",
+      "formula": "drag somebody off (to somewhere / to do something)",
+      "highlight": "drag somebody off (to somewhere / to do something)",
+      "descriptionZh": "勉強或強行把某人帶走;後面的資料可以補充某人被帶到哪裏或被帶去做甚麼",
+      "descriptionEn": "Her friends dragged her off to the dance floor.",
+      "examples": [
+        {
+          "en": "Her friends dragged her off to the dance floor.",
+          "zh": "朋友硬把她帶到舞池。",
+          "highlight": "dragged her off to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+      "titleEn": "drag somebody/something down",
+      "formula": "drag somebody/something down",
+      "highlight": "drag somebody/something down",
+      "descriptionZh": "令某人的情緒、行為或表現變差;拖低某事物的質素或水平",
+      "descriptionEn": "Constant complaints dragged the whole team down.",
+      "examples": [
+        {
+          "en": "Constant complaints dragged the whole team down.",
+          "zh": "不停的抱怨拖低了整個團隊的情緒。",
+          "highlight": "dragged the whole team down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+      "titleEn": "drag somebody/something in drag somebody/something into something",
+      "formula": "drag somebody/something in drag somebody/something into something",
+      "highlight": "drag somebody/something in drag somebody/something into something",
+      "descriptionZh": "把某人或某事物牽涉進問題、爭論或其他通常不愉快的事情",
+      "descriptionEn": "Please do not drag me into your argument.",
+      "examples": [
+        {
+          "en": "Please do not drag me into your argument.",
+          "zh": "請不要把我牽涉進你們的爭論。",
+          "highlight": "drag me into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "勉強令某人或自己離開;用力把某物移開",
+      "titleEn": "drag somebody/something/yourself away (from somebody/something)",
+      "formula": "drag somebody/something/yourself away (from somebody/something)",
+      "highlight": "drag somebody/something/yourself away (from somebody/something)",
+      "descriptionZh": "勉強令某人或自己離開;用力把某物移開",
+      "descriptionEn": "I could not drag myself away from the book.",
+      "examples": [
+        {
+          "en": "I could not drag myself away from the book.",
+          "zh": "我捨不得放下那本書。",
+          "highlight": "drag myself away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "令某件事情持續得比所需更久;不必要地把事情拖長",
+      "titleEn": "drag something out",
+      "formula": "drag something out",
+      "highlight": "drag something out",
+      "descriptionZh": "令某件事情持續得比所需更久;不必要地把事情拖長",
+      "descriptionEn": "The speaker dragged the talk out for another hour.",
+      "examples": [
+        {
+          "en": "The speaker dragged the talk out for another hour.",
+          "zh": "講者把演講再拖長了一小時。",
+          "highlight": "dragged the talk out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "重提過去、尷尬或令人不快的事情",
+      "titleEn": "drag something up",
+      "formula": "drag something up",
+      "highlight": "drag something up",
+      "descriptionZh": "重提過去、尷尬或令人不快的事情",
+      "descriptionEn": "Why did he drag that old argument up again?",
+      "examples": [
+        {
+          "en": "Why did he drag that old argument up again?",
+          "zh": "他為甚麼又重提那場舊爭論?",
+          "highlight": "drag that old argument up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達延誤由誰或甚麼造成",
+      "titleEn": "Show who or what causes a delay",
+      "zh": "drag on 表示事情本身持續得太久;drag something out 則表示某人或某個行動令事情持續得太久。",
+      "en": "Drag on describes something that continues for too long. Drag something out shows that a person or action makes it last too long."
+    },
+    {
+      "titleZh": "描述不情願地被帶走或捨不得離開",
+      "titleEn": "Describe unwilling movement or difficulty leaving",
+      "zh": "drag somebody off 可以表示某人不情願地被帶走;drag yourself away 可以表示自己捨不得停止一項喜歡的活動。",
+      "en": "Drag somebody off can show that a person is made to go somewhere unwillingly. Drag yourself away can show that you find it difficult to stop an enjoyable activity."
+    },
+    {
+      "titleZh": "表達不必要的牽涉和負面影響",
+      "titleEn": "Explain unwanted involvement and harmful effects",
+      "zh": "drag somebody in 或 drag somebody into something 可以描述某人被牽涉進事情;dragsomebody or something down 則可以描述情緒、行為、質素或表現受到拖累。",
+      "en": "Drag somebody in or into something describes unwanted involvement. Drag somebody or something down describes a harmful effect on mood, behaviour, quality or performance."
+    },
+    {
+      "titleZh": "談論舊問題再次被提起",
+      "titleEn": "Talk about old problems returning",
+      "zh": "當某人重提過去、尷尬或令人不快的事情時,可以使用 drag something up。",
+      "en": "Drag something up is useful when somebody mentions an old, embarrassing or unpleasant subject again."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達延誤由誰或甚麼造成",
+      "描述不情願地被帶走或捨不得離開",
+      "表達不必要的牽涉和負面影響",
+      "談論舊問題再次被提起"
+    ],
+    "contextsEn": [
+      "Show who or what causes a delay",
+      "Describe unwilling movement or difficulty leaving",
+      "Explain unwanted involvement and harmful effects",
+      "Talk about old problems returning"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達延誤由誰或甚麼造成",
+        "titleEn": "Show who or what causes a delay",
+        "zh": "drag on 表示事情本身持續得太久;drag something out 則表示某人或某個行動令事情持續得太久。",
+        "en": "Drag on describes something that continues for too long. Drag something out shows that a person or action makes it last too long.",
+        "examples": [
+          {
+            "en": "The meeting dragged on for two hours.",
+            "zh": "會議拖了兩小時仍未結束。",
+            "highlight": "dragged on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不情願地被帶走或捨不得離開",
+        "titleEn": "Describe unwilling movement or difficulty leaving",
+        "zh": "drag somebody off 可以表示某人不情願地被帶走;drag yourself away 可以表示自己捨不得停止一項喜歡的活動。",
+        "en": "Drag somebody off can show that a person is made to go somewhere unwillingly. Drag yourself away can show that you find it difficult to stop an enjoyable activity.",
+        "examples": [
+          {
+            "en": "Her friends dragged her off to the dance floor.",
+            "zh": "朋友硬把她帶到舞池。",
+            "highlight": "dragged her off to"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達不必要的牽涉和負面影響",
+        "titleEn": "Explain unwanted involvement and harmful effects",
+        "zh": "drag somebody in 或 drag somebody into something 可以描述某人被牽涉進事情;dragsomebody or something down 則可以描述情緒、行為、質素或表現受到拖累。",
+        "en": "Drag somebody in or into something describes unwanted involvement. Drag somebody or something down describes a harmful effect on mood, behaviour, quality or performance.",
+        "examples": [
+          {
+            "en": "Constant complaints dragged the whole team down.",
+            "zh": "不停的抱怨拖低了整個團隊的情緒。",
+            "highlight": "dragged the whole team down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論舊問題再次被提起",
+        "titleEn": "Talk about old problems returning",
+        "zh": "當某人重提過去、尷尬或令人不快的事情時,可以使用 drag something up。",
+        "en": "Drag something up is useful when somebody mentions an old, embarrassing or unpleasant subject again.",
+        "examples": [
+          {
+            "en": "Please do not drag me into your argument.",
+            "zh": "請不要把我牽涉進你們的爭論。",
+            "highlight": "drag me into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRAG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRAG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRAG 片語動詞。",
+      "en": "Read the whole sentence and choose the DRAG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以下兩個表達的分別:● The meeting dragged on.會議本身持續得太久。● The speaker dragged the meeting out.講者令會議持續得太久。",
+      "titleEn": "Notice the difference between these two expressions: ● The meeting dragged on.",
+      "zh": "留意以下兩個表達的分別:● The meeting dragged on.會議本身持續得太久。● The speaker dragged the meeting out.講者令會議持續得太久。",
+      "en": "Notice the difference between these two expressions: ● The meeting dragged on. The meeting itself continued for too long. ● The speaker dragged the meeting out. The speaker caused the meeting to continue for too long."
+    },
+    {
+      "titleZh": "先學習核心表達。額外的字詞可以補充資料,但並不是核心表達的固定部分。例如,to the office 只補充某人被帶到哪裏;from the screen 只補充某人離開甚麼。",
+      "titleEn": "Learn the core expression first.",
+      "zh": "先學習核心表達。額外的字詞可以補充資料,但並不是核心表達的固定部分。例如,to the office 只補充某人被帶到哪裏;from the screen 只補充某人離開甚麼。",
+      "en": "Learn the core expression first. Extra words may add useful information, but they are not fixed parts of the expression. ● drag somebody off ● drag somebody off to the office ● drag somebody away ● drag somebody away from the screen When using him, her, it or them, follow these models: ● drag him off ● drag it down ● drag them in ● drag her away ● drag it out ● drag it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRAG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRAG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRAG 動詞片語句子改寫練習",
+    "titleEn": "DRAG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRAG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRAG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-124-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "The meeting continued for another hour and seemed endless.",
+      "promptZh": "會議又持續了一小時,令人覺得沒完沒了。",
+      "starter": "The",
+      "answer": "The meeting dragged on for another hour and seemed endless.",
+      "answerZh": "會議又拖了一小時,令人覺得沒完沒了。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I could not make myself stop reading the book.",
+      "promptZh": "我無法令自己停止看那本書。",
+      "starter": "I",
+      "answer": "I could not drag myself away from the book.",
+      "answerZh": "我捨不得放下那本書。",
+      "highlight": "drag",
+      "targetForm": "drag yourself away from something",
+      "targetMeaningZh": "勉強令自己離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Please do not involve me in your argument.",
+      "promptZh": "請不要把我牽涉進你們的爭論。",
+      "starter": "Please",
+      "answer": "Please do not drag me into your argument.",
+      "answerZh": "請不要把我牽涉進你們的爭論。",
+      "highlight": "drag",
+      "targetForm": "drag somebody into something",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Why did you mention that old argument again?",
+      "promptZh": "你為甚麼又重提那場舊爭論?",
+      "starter": "Why",
+      "answer": "Why did you drag that old argument up again?",
+      "answerZh": "你為甚麼又重提那場舊爭論?",
+      "highlight": "drag",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "His constant complaining made the whole group feel worse.",
+      "promptZh": "他不停抱怨,令整個小組的情緒變差。",
+      "starter": "His",
+      "answer": "His constant complaining dragged the whole group down.",
+      "answerZh": "他不停抱怨,拖低了整個小組的情緒。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody down",
+      "targetMeaningZh": "令某人情緒低落或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Her cousins made her go to the dance floor although she did not want to.",
+      "promptZh": "她的表兄弟姊妹硬要她去舞池,雖然她並不想去。",
+      "starter": "Her",
+      "answer": "Her cousins dragged her off to the dance floor.",
+      "answerZh": "她的表兄弟姊妹硬把她帶到舞池。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to somewhere",
+      "targetMeaningZh": "勉強或強行把某人帶到某處"
+    },
+    {
+      "id": "phrasal-verb-124-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The speaker made the talk last longer by adding many long stories.",
+      "promptZh": "講者加入許多冗長故事,令演講持續得更久。",
+      "starter": "The",
+      "answer": "The speaker dragged the talk out by adding many long stories.",
+      "answerZh": "講者加入許多冗長故事,把演講拖長了。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The argument caused three other students to become involved too.",
+      "promptZh": "這場爭論令另外三名學生也被牽涉其中。",
+      "starter": "The",
+      "answer": "The argument dragged three other students in.",
+      "answerZh": "這場爭論把另外三名學生也牽涉進來。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody in",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "As the afternoon continued slowly, the children became tired.",
+      "promptZh": "隨着下午的時間慢慢過去,孩子們開始疲倦。",
+      "starter": "As",
+      "answer": "As the afternoon dragged on, the children became tired.",
+      "answerZh": "隨着下午的時間拖得愈來愈長,孩子們開始疲倦。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "One weak part made the whole project less successful.",
+      "promptZh": "一個薄弱部分令整個項目沒有那麼成功。",
+      "starter": "One",
+      "answer": "One weak part dragged the whole project down.",
+      "answerZh": "一個薄弱部分拖累了整個項目。",
+      "highlight": "dragged",
+      "targetForm": "drag something down",
+      "targetMeaningZh": "令某事物的質素或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "We finally made the children stop playing the game and leave.",
+      "promptZh": "我們終於令孩子們停止玩遊戲並離開。",
+      "starter": "We",
+      "answer": "We finally dragged the children away from the game.",
+      "answerZh": "我們終於勉強叫孩子們停止玩遊戲並離開。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody away from something",
+      "targetMeaningZh": "勉強令某人離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Please do not make the meeting continue any longer.",
+      "promptZh": "請不要令會議再延長下去。",
+      "starter": "Please",
+      "answer": "Please do not drag the meeting out any longer.",
+      "answerZh": "請不要再把會議拖長。",
+      "highlight": "drag",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Dad made the children go to bed at ten, although they wanted to stay awake.",
+      "promptZh": "爸爸在十時硬要孩子們上床睡覺,雖然他們還想保持清醒。",
+      "starter": "Dad",
+      "answer": "Dad dragged the children off to bed at ten.",
+      "answerZh": "爸爸在十時硬把孩子們帶去睡覺。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to somewhere",
+      "targetMeaningZh": "勉強或強行把某人帶到某處"
+    },
+    {
+      "id": "phrasal-verb-124-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "He mentioned an embarrassing story from the past at dinner.",
+      "promptZh": "他在晚餐時提起了一件令人尷尬的往事。",
+      "starter": "He",
+      "answer": "He dragged up an embarrassing story from the past at dinner.",
+      "answerZh": "他在晚餐時重提了一件令人尷尬的往事。",
+      "highlight": "dragged up",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The repair shop is making the job take longer again.",
+      "promptZh": "維修店又令這項工作花上更長時間。",
+      "starter": "The",
+      "answer": "The repair shop is dragging the job out again.",
+      "answerZh": "維修店又在拖長這項工作。",
+      "highlight": "dragging",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Do not let one bad result make you feel hopeless.",
+      "promptZh": "不要讓一次差劣結果令你感到灰心。",
+      "starter": "Do",
+      "answer": "Do not let one bad result drag you down.",
+      "answerZh": "不要讓一次差劣結果令你意志消沉。",
+      "highlight": "drag",
+      "targetForm": "drag somebody down",
+      "targetMeaningZh": "令某人情緒低落或失去信心"
+    },
+    {
+      "id": "phrasal-verb-124-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Are your friends going to make you go to another party even though you want to stay home?",
+      "promptZh": "你的朋友是否又要勉強你去另一個派對,儘管你想留在家中?",
+      "starter": "Are",
+      "answer": "Are your friends going to drag you off to another party even though you want to stay home?",
+      "answerZh": "你的朋友是否又要硬把你帶去另一個派對,儘管你想留在家中?",
+      "highlight": "drag",
+      "targetForm": "drag somebody off to somewhere",
+      "targetMeaningZh": "勉強或強行把某人帶到某處"
+    },
+    {
+      "id": "phrasal-verb-124-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The film was continuing for too long, so some viewers left.",
+      "promptZh": "電影持續得太久,所以部分觀眾離開了。",
+      "starter": "The",
+      "answer": "The film was dragging on, so some viewers left.",
+      "answerZh": "電影拖得太久,所以部分觀眾離開了。",
+      "highlight": "dragging on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She keeps mentioning the same old mistake.",
+      "promptZh": "她不斷重提同一個舊錯誤。",
+      "starter": "She",
+      "answer": "She keeps dragging the same old mistake up.",
+      "answerZh": "她不斷重提同一個舊錯誤。",
+      "highlight": "dragging",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Can you make him stop watching television and come to dinner?",
+      "promptZh": "你可以叫他不要再看電視,過來吃晚飯嗎?",
+      "starter": "Can",
+      "answer": "Can you drag him away from the television for dinner?",
+      "answerZh": "你可以叫他不要再看電視,過來吃晚飯嗎?",
+      "highlight": "drag",
+      "targetForm": "drag somebody away from something",
+      "targetMeaningZh": "勉強令某人離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why are you involving my family in this problem?",
+      "promptZh": "你為甚麼把我的家人牽涉進這個問題?",
+      "starter": "Why",
+      "answer": "Why are you dragging my family into this problem?",
+      "answerZh": "你為甚麼把我的家人牽涉進這個問題?",
+      "highlight": "dragging",
+      "targetForm": "drag somebody into something",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The coach has made us go to early practice again, although none of us wanted to.",
+      "promptZh": "教練又要我們去參加清晨練習,雖然我們全都不想去。",
+      "starter": "The",
+      "answer": "The coach has dragged us off to early practice again.",
+      "answerZh": "教練又硬把我們帶去參加清晨練習。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to somewhere",
+      "targetMeaningZh": "勉強或強行把某人帶到某處"
+    },
+    {
+      "id": "phrasal-verb-124-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "They have delayed the decision for weeks by keeping the discussion going.",
+      "promptZh": "他們讓討論持續下去,把決定拖延了數星期。",
+      "starter": "They",
+      "answer": "They have dragged the decision out for weeks by keeping the discussion going.",
+      "answerZh": "他們讓討論持續下去,把決定拖延了數星期。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please do not mention that story from my school days in front of everyone.",
+      "promptZh": "請不要在大家面前提起我學生時代的那個故事。",
+      "starter": "Please",
+      "answer": "Please do not drag up that story from my school days in front of everyone.",
+      "answerZh": "請不要在大家面前重提我學生時代的那個故事。",
+      "highlight": "drag up",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the lesson continue until six o’clock, much longer than planned?",
+      "promptZh": "為甚麼課堂持續至六時,比原定時間長得多?",
+      "starter": "Why",
+      "answer": "Why did the lesson drag on until six o’clock, much longer than planned?",
+      "answerZh": "為甚麼課堂拖至六時,比原定時間長得多?",
+      "highlight": "drag on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I will not let them involve me again.",
+      "promptZh": "我不會再讓他們把我牽涉其中。",
+      "starter": "I",
+      "answer": "I will not let them drag me in again.",
+      "answerZh": "我不會再讓他們把我牽涉其中。",
+      "highlight": "drag",
+      "targetForm": "drag somebody in",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The broken sound system is making the show worse.",
+      "promptZh": "損壞的音響系統令表演質素變差。",
+      "starter": "The",
+      "answer": "The broken sound system is dragging the show down.",
+      "answerZh": "損壞的音響系統拖低了表演質素。",
+      "highlight": "dragging",
+      "targetForm": "drag something down",
+      "targetMeaningZh": "令某事物的質素或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "She has finally made herself stop using her phone.",
+      "promptZh": "她終於令自己停止使用手機。",
+      "starter": "She",
+      "answer": "She has finally dragged herself away from her phone.",
+      "answerZh": "她終於勉強自己放下手機。",
+      "highlight": "dragged",
+      "targetForm": "drag yourself away from something",
+      "targetMeaningZh": "勉強令自己離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "He became involved in the disagreement against his wishes, although it had nothing to do with him.",
+      "promptZh": "他不情願地被牽涉進這場爭執,儘管事情與他無關。",
+      "starter": "He",
+      "answer": "He was dragged into the disagreement even though it had nothing to do with him.",
+      "answerZh": "他被牽涉進這場爭執,儘管事情與他無關。",
+      "highlight": "was dragged into",
+      "targetForm": "drag somebody into something",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The phone call had continued much longer than expected.",
+      "promptZh": "這通電話持續的時間比預期長得多。",
+      "starter": "The",
+      "answer": "The phone call had dragged on much longer than expected.",
+      "answerZh": "這通電話拖得比預期長得多。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "We could have finished the meeting quickly, but one question made it last longer.",
+      "promptZh": "我們本來可以很快結束會議,但一條問題令它延長了。",
+      "starter": "We",
+      "answer": "We could have finished the meeting quickly, but one question dragged it out.",
+      "answerZh": "我們本來可以很快結束會議,但一條問題把它拖長了。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The dog would not move, so we pulled it away from the gate.",
+      "promptZh": "那隻狗不肯移動,所以我們把牠從大閘旁拉開。",
+      "starter": "The",
+      "answer": "The dog would not move, so we dragged it away from the gate.",
+      "answerZh": "那隻狗不肯移動,所以我們把牠從大閘旁拖開。",
+      "highlight": "dragged",
+      "targetForm": "drag something away from something",
+      "targetMeaningZh": "用力把某物從某處移開"
+    },
+    {
+      "id": "phrasal-verb-124-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Months of negative comments had made her feel worse and less confident.",
+      "promptZh": "數月來的負面評論令她情緒變差,也失去信心。",
+      "starter": "She",
+      "answer": "She had been dragged down by months of negative comments.",
+      "answerZh": "數月來的負面評論令她情緒低落,也失去信心。",
+      "highlight": "She had been dragged down by",
+      "targetForm": "drag somebody down",
+      "targetMeaningZh": "令某人情緒低落或失去信心"
+    },
+    {
+      "id": "phrasal-verb-124-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The problem had been forgotten until someone mentioned it again.",
+      "promptZh": "那個問題本已被人忘記,直至有人再次提起。",
+      "starter": "The",
+      "answer": "The problem had been forgotten until someone dragged it up again.",
+      "answerZh": "那個問題本已被人忘記,直至有人再次重提。",
+      "highlight": "dragged",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Someone made me go and speak to the head teacher against my wishes.",
+      "promptZh": "有人硬要我去跟校長談話。",
+      "starter": "I",
+      "answer": "I was dragged off to speak to the head teacher.",
+      "answerZh": "我被硬帶去跟校長談話。",
+      "highlight": "I was dragged off to",
+      "targetForm": "drag somebody off to somewhere",
+      "targetMeaningZh": "勉強或強行把某人帶到某處"
+    },
+    {
+      "id": "phrasal-verb-124-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The music was so good that we could not make ourselves leave.",
+      "promptZh": "音樂實在太好,我們無法令自己離開。",
+      "starter": "The",
+      "answer": "The music was so good that we could not drag ourselves away.",
+      "answerZh": "音樂實在太好,我們捨不得離開。",
+      "highlight": "drag",
+      "targetForm": "drag yourself away",
+      "targetMeaningZh": "勉強令自己離開"
+    },
+    {
+      "id": "phrasal-verb-124-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The email caused the whole office to become involved in the dispute.",
+      "promptZh": "這封電郵令整間辦公室都被牽涉進爭議。",
+      "starter": "The",
+      "answer": "The email dragged the whole office into the dispute.",
+      "answerZh": "這封電郵把整間辦公室都牽涉進爭議。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody into something",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "They tried to force him to go away, but he refused to leave.",
+      "promptZh": "他們試圖強行把他帶走,但他拒絕離開。",
+      "starter": "They",
+      "answer": "They tried to drag him off, but he refused to leave.",
+      "answerZh": "他們試圖強行把他帶走,但他拒絕離開。",
+      "highlight": "drag",
+      "targetForm": "drag somebody off",
+      "targetMeaningZh": "勉強或強行把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-124-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Did the interviewer really need to mention his past?",
+      "promptZh": "訪問員真的有需要提起他的過去嗎?",
+      "starter": "Did",
+      "answer": "Did the interviewer really need to drag his past up?",
+      "answerZh": "訪問員真的有需要重提他的過去嗎?",
+      "highlight": "drag",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The team improved after it removed the rule that was making it less successful.",
+      "promptZh": "球隊取消那條拖累表現的規則後,表現有所改善。",
+      "starter": "The",
+      "answer": "The team improved after it removed the rule that was dragging it down.",
+      "answerZh": "球隊取消那條一直拖累它的規則後,表現有所改善。",
+      "highlight": "dragging",
+      "targetForm": "drag something down",
+      "targetMeaningZh": "令某事物的質素或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Even though the match continued for a very long time, the fans stayed.",
+      "promptZh": "儘管比賽持續了很長時間,球迷仍然留下。",
+      "starter": "Even",
+      "answer": "Even though the match dragged on, the fans stayed.",
+      "answerZh": "儘管比賽拖了很久,球迷仍然留下。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The host kept asking questions and made the interview continue longer.",
+      "promptZh": "主持人不斷提問,令訪問延長。",
+      "starter": "The",
+      "answer": "The host kept asking questions and dragged the interview out.",
+      "answerZh": "主持人不斷提問,把訪問拖長了。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Every family meal becomes uncomfortable when he mentions old money problems.",
+      "promptZh": "每當他提起舊有的金錢問題,家庭聚餐便變得不自在。",
+      "starter": "Every",
+      "answer": "Every family meal becomes uncomfortable when he drags old money problems up.",
+      "answerZh": "每當他重提舊有的金錢問題,家庭聚餐便變得不自在。",
+      "highlight": "drags",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Before I could finish my lunch, my classmates made me leave and go to rehearse.",
+      "promptZh": "我還未吃完午飯,同學便硬要我離開去綵排。",
+      "starter": "Before",
+      "answer": "Before I could finish my lunch, my classmates dragged me off to rehearse.",
+      "answerZh": "我還未吃完午飯,同學便硬把我帶走去綵排。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to do something",
+      "targetMeaningZh": "勉強或強行把某人帶去做某事"
+    },
+    {
+      "id": "phrasal-verb-124-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The café serves good food, but slow service makes the whole experience worse.",
+      "promptZh": "這間咖啡店的食物不錯,但緩慢的服務令整體體驗變差。",
+      "starter": "The",
+      "answer": "The café serves good food, but slow service drags the whole experience down.",
+      "answerZh": "這間咖啡店的食物不錯,但緩慢的服務拖低了整體體驗。",
+      "highlight": "drags",
+      "targetForm": "drag something down",
+      "targetMeaningZh": "令某事物的質素或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "A short goodbye became awkward because they made it last too long.",
+      "promptZh": "一場簡短的道別因為被他們拖得太久而變得尷尬。",
+      "starter": "A",
+      "answer": "A short goodbye became awkward because they dragged it out.",
+      "answerZh": "一場簡短的道別因為被他們拖得太久而變得尷尬。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Dinner continued for far too long because nobody wanted to make a decision.",
+      "promptZh": "晚餐持續得太久,因為沒有人願意作決定。",
+      "starter": "Dinner",
+      "answer": "Dinner dragged on because nobody wanted to make a decision.",
+      "answerZh": "晚餐拖了很久,因為沒有人願意作決定。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "A small complaint soon involved the manager and two customers.",
+      "promptZh": "一宗小投訴很快便把經理和兩名顧客牽涉其中。",
+      "starter": "A",
+      "answer": "A small complaint soon dragged the manager and two customers in.",
+      "answerZh": "一宗小投訴很快便把經理和兩名顧客牽涉其中。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody in",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "It took two adults to pull the heavy table away from the door.",
+      "promptZh": "需要兩名成年人才能把那張重桌子從門旁拉開。",
+      "starter": "It",
+      "answer": "It took two adults to drag the heavy table away from the door.",
+      "answerZh": "需要兩名成年人才能把那張重桌子從門旁拖開。",
+      "highlight": "drag",
+      "targetForm": "drag something away from something",
+      "targetMeaningZh": "用力把某物從某處移開"
+    },
+    {
+      "id": "phrasal-verb-124-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "He worried that one unhappy member would make everyone else feel less positive.",
+      "promptZh": "他擔心一名不開心的成員會令其他人也變得消極。",
+      "starter": "He",
+      "answer": "He worried that one unhappy member would drag everyone else down.",
+      "answerZh": "他擔心一名不開心的成員會拖低其他人的情緒。",
+      "highlight": "drag",
+      "targetForm": "drag somebody down",
+      "targetMeaningZh": "令某人情緒低落或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The article mentioned an old family secret that everyone wanted to forget.",
+      "promptZh": "文章提起了一個大家都想忘記的家族舊秘密。",
+      "starter": "The",
+      "answer": "The article dragged up an old family secret that everyone wanted to forget.",
+      "answerZh": "文章重提了一個大家都想忘記的家族舊秘密。",
+      "highlight": "dragged up",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "I had work to do, but I could not make myself stop watching the final episode.",
+      "promptZh": "我有工作要做,但無法令自己停止觀看最後一集。",
+      "starter": "I",
+      "answer": "I had work to do, but I could not drag myself away from the final episode.",
+      "answerZh": "我有工作要做,但捨不得停止觀看最後一集。",
+      "highlight": "drag",
+      "targetForm": "drag yourself away from something",
+      "targetMeaningZh": "勉強令自己離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The children made their uncle go to see the school show, although he wanted to rest.",
+      "promptZh": "孩子們硬要叔叔去看學校表演,雖然他想休息。",
+      "starter": "The",
+      "answer": "The children dragged their uncle off to see the school show.",
+      "answerZh": "孩子們硬把叔叔帶去看學校表演。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to do something",
+      "targetMeaningZh": "勉強或強行把某人帶去做某事"
+    },
+    {
+      "id": "phrasal-verb-124-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "It seemed that the final part of the journey would never end.",
+      "promptZh": "旅程最後一段似乎永遠不會結束。",
+      "starter": "It",
+      "answer": "It seemed that the final part of the journey would drag on for ever.",
+      "answerZh": "旅程最後一段似乎永遠拖不完。",
+      "highlight": "drag on for ever",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The shop made the refund process last longer instead of paying us.",
+      "promptZh": "店舖沒有退款,反而把退款程序拖長。",
+      "starter": "The",
+      "answer": "The shop dragged out the refund process instead of paying us.",
+      "answerZh": "店舖沒有退款,反而把退款程序拖長。",
+      "highlight": "dragged out",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The newspaper story caused the school to become involved in a public argument.",
+      "promptZh": "這篇報道令學校被牽涉進一場公開爭論。",
+      "starter": "The",
+      "answer": "The newspaper story dragged the school into a public argument.",
+      "answerZh": "這篇報道把學校牽涉進一場公開爭論。",
+      "highlight": "dragged",
+      "targetForm": "drag something into something",
+      "targetMeaningZh": "把某事物牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the museum announced closing time, the guide had to make the children leave the dinosaur room.",
+      "promptZh": "博物館宣布閉館時,導賞員不得不叫孩子們離開恐龍展室。",
+      "starter": "When",
+      "answer": "When the museum announced closing time, the guide had to drag the children away from the dinosaur room.",
+      "answerZh": "博物館宣布閉館時,導賞員不得不勉強把孩子們從恐龍展室帶走。",
+      "highlight": "drag",
+      "targetForm": "drag somebody away from something",
+      "targetMeaningZh": "勉強令某人離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The chairperson kept returning to the same point and made the meeting continue until everyone lost patience.",
+      "promptZh": "主席不斷回到同一個重點,令會議持續至所有人都失去耐性。",
+      "starter": "The",
+      "answer": "The chairperson kept returning to the same point, dragging the meeting out until everyone lost patience.",
+      "answerZh": "主席不斷回到同一個重點,把會議拖至所有人都失去耐性。",
+      "highlight": "dragging",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "I only asked one simple question, but somehow I became involved in their old disagreement.",
+      "promptZh": "我只是問了一條簡單問題,卻不知怎地被牽涉進他們的舊爭執。",
+      "starter": "I",
+      "answer": "I only asked one simple question, but somehow I was dragged into their old disagreement.",
+      "answerZh": "我只是問了一條簡單問題,卻不知怎地被牽涉進他們的舊爭執。",
+      "highlight": "was dragged into",
+      "targetForm": "drag somebody into something",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "By midnight, the discussion had continued for nearly four hours, and everyone wanted to go home.",
+      "promptZh": "到了午夜,討論已持續了接近四小時,所有人都想回家。",
+      "starter": "By",
+      "answer": "By midnight, the discussion had dragged on for nearly four hours, and everyone wanted to go home.",
+      "answerZh": "到了午夜,討論已拖了接近四小時,所有人都想回家。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    },
+    {
+      "id": "phrasal-verb-124-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "I had planned a quiet evening, but my neighbours made me go and join their street party.",
+      "promptZh": "我原本計劃安靜地度過晚上,但鄰居硬要我去參加街坊派對。",
+      "starter": "I",
+      "answer": "I had planned a quiet evening, but my neighbours dragged me off to join their street party.",
+      "answerZh": "我原本計劃安靜地度過晚上,但鄰居硬把我帶去參加街坊派對。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off to do something",
+      "targetMeaningZh": "勉強或強行把某人帶去做某事"
+    },
+    {
+      "id": "phrasal-verb-124-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Just when everyone had begun to relax, one guest mentioned the earlier disagreement again.",
+      "promptZh": "正當大家開始放鬆時,一名客人又提起較早前的爭執。",
+      "starter": "Just",
+      "answer": "Just when everyone had begun to relax, one guest dragged the earlier disagreement up again.",
+      "answerZh": "正當大家開始放鬆時,一名客人又重提較早前的爭執。",
+      "highlight": "dragged",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The app has useful ideas, but repeated errors make the whole experience worse.",
+      "promptZh": "這個應用程式有實用構思,但重複出現的錯誤令整體體驗變差。",
+      "starter": "The",
+      "answer": "The app has useful ideas, but repeated errors drag the whole experience down.",
+      "answerZh": "這個應用程式有實用構思,但重複出現的錯誤拖低了整體體驗。",
+      "highlight": "drag",
+      "targetForm": "drag something down",
+      "targetMeaningZh": "令某事物的質素或表現變差"
+    },
+    {
+      "id": "phrasal-verb-124-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The family tried to settle the matter quietly, but a social media post caused several neighbours to become involved.",
+      "promptZh": "這家人嘗試低調解決事情,但一則社交媒體帖文令數名鄰居也被牽涉其中。",
+      "starter": "The",
+      "answer": "The family tried to settle the matter quietly, but a social media post dragged several neighbours in.",
+      "answerZh": "這家人嘗試低調解決事情,但一則社交媒體帖文把數名鄰居也牽涉進來。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody in",
+      "targetMeaningZh": "把某人牽涉進某事"
+    },
+    {
+      "id": "phrasal-verb-124-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "She knew the conversation would not solve anything, yet she could not make herself leave it.",
+      "promptZh": "她知道這場對話解決不了任何問題,卻無法令自己離開。",
+      "starter": "She",
+      "answer": "She knew the conversation would not solve anything, yet she could not drag herself away from it.",
+      "answerZh": "她知道這場對話解決不了任何問題,卻無法令自己抽身離開。",
+      "highlight": "drag",
+      "targetForm": "drag yourself away from something",
+      "targetMeaningZh": "勉強令自己離開某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-124-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "After months of poor sleep, his tiredness was making both his work and his mood worse.",
+      "promptZh": "經過數月睡眠不足,他的疲倦令工作表現和情緒都變差。",
+      "starter": "After",
+      "answer": "After months of poor sleep, his tiredness was dragging both his work and his mood down.",
+      "answerZh": "經過數月睡眠不足,他的疲倦一直拖低工作表現和情緒。",
+      "highlight": "dragging",
+      "targetForm": "drag somebody/something down",
+      "targetMeaningZh": "令某人或某事物變差"
+    },
+    {
+      "id": "phrasal-verb-124-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We asked for a quick answer, but the manager made the whole matter continue for another month.",
+      "promptZh": "我們要求盡快得到答覆,但經理把整件事再拖了一個月。",
+      "starter": "We",
+      "answer": "We asked for a quick answer, but the manager dragged the whole matter out for another month.",
+      "answerZh": "我們要求盡快得到答覆,但經理把整件事再拖了一個月。",
+      "highlight": "dragged",
+      "targetForm": "drag something out",
+      "targetMeaningZh": "令某事持續得比所需更久"
+    },
+    {
+      "id": "phrasal-verb-124-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The nurse made him go for a check before he could return to the game.",
+      "promptZh": "護士在他重返比賽前,硬要他先去接受檢查。",
+      "starter": "The",
+      "answer": "The nurse dragged him off for a check before he could return to the game.",
+      "answerZh": "護士在他重返比賽前,硬把他帶去接受檢查。",
+      "highlight": "dragged",
+      "targetForm": "drag somebody off",
+      "targetMeaningZh": "勉強或強行把某人帶走"
+    },
+    {
+      "id": "phrasal-verb-124-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The apology might have ended the matter, but his final comment mentioned the whole issue again.",
+      "promptZh": "道歉本來可能令事情告一段落,但他最後的說話又重提整個問題。",
+      "starter": "The",
+      "answer": "The apology might have ended the matter, but his final comment dragged the whole issue up once more.",
+      "answerZh": "道歉本來可能令事情告一段落,但他最後的說話又重提整個問題。",
+      "highlight": "dragged",
+      "targetForm": "drag something up",
+      "targetMeaningZh": "重提舊事或令人不快的事情"
+    },
+    {
+      "id": "phrasal-verb-124-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "While the rain continued through most of the afternoon, the players waited inside for the match to restart.",
+      "promptZh": "下午大部分時間雨一直下,球員在室內等待比賽重新開始。",
+      "starter": "While",
+      "answer": "While the rain dragged on through most of the afternoon, the players waited inside for the match to restart.",
+      "answerZh": "下午大部分時間雨一直下個不停,球員在室內等待比賽重新開始。",
+      "highlight": "dragged on",
+      "targetForm": "drag on",
+      "targetMeaningZh": "持續太久;拖延不止"
+    }
+  ]
+}

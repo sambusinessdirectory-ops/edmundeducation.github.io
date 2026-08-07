@@ -1,0 +1,1167 @@
+{
+  "id": "phrasal-verb-74",
+  "order": 74,
+  "slug": "even",
+  "version": "1",
+  "title": "EVEN 動詞片語",
+  "titleEn": "Even",
+  "titleZh": "EVEN 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 73 - EVEN.pdf",
+    "sourceNumber": 73,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 EVEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to EVEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "EVEN",
+      "highlight": "EVEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The path evens out after the bridge.",
+      "zh": "過了橋後,小路變得平坦。",
+      "highlight": "evens out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She moved two tasks to Friday to even out the work.",
+      "zh": "她把兩項工作移到星期五,使工作分配更平均。",
+      "highlight": "even out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I paid for the drinks to even things up.",
+      "zh": "我支付飲品費用,使大家分擔得更公平。",
+      "highlight": "even things up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "變得平坦、平均或穩定；使某事物變得平坦、平均、均勻或穩定；使雙方或情況更公平或相等",
+    "en": "even out; even something out; even something up",
+    "naturalZh": [
+      "變得平坦、平均或穩定",
+      "使某事物變得平坦、平均、均勻或穩定",
+      "使雙方或情況更公平或相等"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "even out",
+      "titleZh": "變得平坦、平均或穩定",
+      "titleEn": "even out",
+      "descriptionZh": "變得平坦、平均或穩定",
+      "descriptionEn": "The path evens out after the bridge.",
+      "examples": [
+        {
+          "en": "The path evens out after the bridge.",
+          "zh": "過了橋後,小路變得平坦。",
+          "highlight": "evens out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "even something out",
+      "titleZh": "使某事物變得平坦、平均、均勻或穩定",
+      "titleEn": "even something out",
+      "descriptionZh": "使某事物變得平坦、平均、均勻或穩定",
+      "descriptionEn": "She moved two tasks to Friday to even out the work.",
+      "examples": [
+        {
+          "en": "She moved two tasks to Friday to even out the work.",
+          "zh": "她把兩項工作移到星期五,使工作分配更平均。",
+          "highlight": "even out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "even something up",
+      "titleZh": "使雙方或情況更公平或相等",
+      "titleEn": "even something up",
+      "descriptionZh": "使雙方或情況更公平或相等",
+      "descriptionEn": "I paid for the drinks to even things up.",
+      "examples": [
+        {
+          "en": "I paid for the drinks to even things up.",
+          "zh": "我支付飲品費用,使大家分擔得更公平。",
+          "highlight": "even things up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "EVEN 片語動詞的實際用途",
+    "labelEn": "EVEN Phrasal Verbs in Use",
+    "summaryZh": "even out 可以描述道路變得平坦、速度變得穩定,或數字變得較有規律。；even something out 可以用來描述平均分配工作、付款、重量、顏色和泥土等日常事物。；even something up 可以表示有人令雙方更公平,或把比分追平。；這些表達可以出現在旅遊、工作、金錢、運動、烹飪和日常對話中。",
+    "summaryEn": "Even out can describe a road becoming flatter, a speed becoming steady or numbers becoming more regular. Even something out can describe balancing work, payments, weight, colour, soil and other everyday things. Even something up can show that somebody has made two sides fairer or brought the scores level. These expressions can appear in travel, work, money, sport, cooking and everyday conversations.",
+    "contextsZh": [
+      "清楚描述事物變得平坦或穩定",
+      "說明如何令事物變得更平均",
+      "自然談論公平情況和相同比分",
+      "理解不同情境中的 EVEN 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about things becoming flatter or steadier",
+      "Explain how things are made more balanced",
+      "Talk naturally about fairness and equal scores",
+      "Understand EVEN expressions in different situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 EVEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the EVEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "even out",
+    "fixedHighlight": "even out",
+    "fixedZh": "閱讀整句,選出意思相同的 EVEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the EVEN expression that gives the same meaning.",
+    "correct": "evens out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；even out 表示某事物自行變得平坦、平均或穩定;even something out 表示把某事物調整得更平均;even something up 通常表示令雙方或整個情況更公平或相等。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: even it out even them up Notice the differences shown in these examples: The road evens out. We evened out the work. I paid extra to even things up.",
+    "variableItemsZh": [
+      "even out",
+      "even something out",
+      "even something up"
+    ],
+    "variableItemsEn": [
+      "even out",
+      "even something out",
+      "even something up"
+    ],
+    "forms": [
+      {
+        "formZh": "變得平坦、平均或穩定",
+        "formEn": "even out",
+        "exampleZh": "過了橋後,小路變得平坦。",
+        "exampleEn": "The path evens out after the bridge.",
+        "highlight": "evens out"
+      },
+      {
+        "formZh": "使某事物變得平坦、平均、均勻或穩定",
+        "formEn": "even something out",
+        "exampleZh": "她把兩項工作移到星期五,使工作分配更平均。",
+        "exampleEn": "She moved two tasks to Friday to even out the work.",
+        "highlight": "even out"
+      },
+      {
+        "formZh": "使雙方或情況更公平或相等",
+        "formEn": "even something up",
+        "exampleZh": "我支付飲品費用,使大家分擔得更公平。",
+        "exampleEn": "I paid for the drinks to even things up.",
+        "highlight": "even things up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "變得平坦、平均或穩定",
+      "titleEn": "even out",
+      "formula": "even out",
+      "highlight": "even out",
+      "descriptionZh": "變得平坦、平均或穩定",
+      "descriptionEn": "The path evens out after the bridge.",
+      "examples": [
+        {
+          "en": "The path evens out after the bridge.",
+          "zh": "過了橋後,小路變得平坦。",
+          "highlight": "evens out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "使某事物變得平坦、平均、均勻或穩定",
+      "titleEn": "even something out",
+      "formula": "even something out",
+      "highlight": "even something out",
+      "descriptionZh": "使某事物變得平坦、平均、均勻或穩定",
+      "descriptionEn": "She moved two tasks to Friday to even out the work.",
+      "examples": [
+        {
+          "en": "She moved two tasks to Friday to even out the work.",
+          "zh": "她把兩項工作移到星期五,使工作分配更平均。",
+          "highlight": "even out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "使雙方或情況更公平或相等",
+      "titleEn": "even something up",
+      "formula": "even something up",
+      "highlight": "even something up",
+      "descriptionZh": "使雙方或情況更公平或相等",
+      "descriptionEn": "I paid for the drinks to even things up.",
+      "examples": [
+        {
+          "en": "I paid for the drinks to even things up.",
+          "zh": "我支付飲品費用,使大家分擔得更公平。",
+          "highlight": "even things up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述事物變得平坦或穩定",
+      "titleEn": "Talk clearly about things becoming flatter or steadier",
+      "zh": "even out 可以描述道路變得平坦、速度變得穩定,或數字變得較有規律。",
+      "en": "Even out can describe a road becoming flatter, a speed becoming steady or numbers becoming more regular."
+    },
+    {
+      "titleZh": "說明如何令事物變得更平均",
+      "titleEn": "Explain how things are made more balanced",
+      "zh": "even something out 可以用來描述平均分配工作、付款、重量、顏色和泥土等日常事物。",
+      "en": "Even something out can describe balancing work, payments, weight, colour, soil and other everyday things."
+    },
+    {
+      "titleZh": "自然談論公平情況和相同比分",
+      "titleEn": "Talk naturally about fairness and equal scores",
+      "zh": "even something up 可以表示有人令雙方更公平,或把比分追平。",
+      "en": "Even something up can show that somebody has made two sides fairer or brought the scores level."
+    },
+    {
+      "titleZh": "理解不同情境中的 EVEN 表達",
+      "titleEn": "Understand EVEN expressions in different situations",
+      "zh": "這些表達可以出現在旅遊、工作、金錢、運動、烹飪和日常對話中。",
+      "en": "These expressions can appear in travel, work, money, sport, cooking and everyday conversations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述事物變得平坦或穩定",
+      "說明如何令事物變得更平均",
+      "自然談論公平情況和相同比分",
+      "理解不同情境中的 EVEN 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about things becoming flatter or steadier",
+      "Explain how things are made more balanced",
+      "Talk naturally about fairness and equal scores",
+      "Understand EVEN expressions in different situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述事物變得平坦或穩定",
+        "titleEn": "Talk clearly about things becoming flatter or steadier",
+        "zh": "even out 可以描述道路變得平坦、速度變得穩定,或數字變得較有規律。",
+        "en": "Even out can describe a road becoming flatter, a speed becoming steady or numbers becoming more regular.",
+        "examples": [
+          {
+            "en": "The path evens out after the bridge.",
+            "zh": "過了橋後,小路變得平坦。",
+            "highlight": "evens out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何令事物變得更平均",
+        "titleEn": "Explain how things are made more balanced",
+        "zh": "even something out 可以用來描述平均分配工作、付款、重量、顏色和泥土等日常事物。",
+        "en": "Even something out can describe balancing work, payments, weight, colour, soil and other everyday things.",
+        "examples": [
+          {
+            "en": "She moved two tasks to Friday to even out the work.",
+            "zh": "她把兩項工作移到星期五,使工作分配更平均。",
+            "highlight": "even out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論公平情況和相同比分",
+        "titleEn": "Talk naturally about fairness and equal scores",
+        "zh": "even something up 可以表示有人令雙方更公平,或把比分追平。",
+        "en": "Even something up can show that somebody has made two sides fairer or brought the scores level.",
+        "examples": [
+          {
+            "en": "I paid for the drinks to even things up.",
+            "zh": "我支付飲品費用,使大家分擔得更公平。",
+            "highlight": "even things up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解不同情境中的 EVEN 表達",
+        "titleEn": "Understand EVEN expressions in different situations",
+        "zh": "這些表達可以出現在旅遊、工作、金錢、運動、烹飪和日常對話中。",
+        "en": "These expressions can appear in travel, work, money, sport, cooking and everyday conversations.",
+        "examples": [
+          {
+            "en": "The path evens out after the bridge.",
+            "zh": "過了橋後,小路變得平坦。",
+            "highlight": "evens out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 EVEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the EVEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 EVEN 片語動詞。",
+      "en": "Read the whole sentence and choose the EVEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: even it out even them up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: even it out even them up"
+    },
+    {
+      "titleZh": "even out 表示某事物自行變得平坦、平均或穩定;even something out 表示把某事物調整得更平均;even something up 通常表示令雙方或整個情況更公平或相等。",
+      "titleEn": "Notice the differences shown in these examples: The road evens out.",
+      "zh": "even out 表示某事物自行變得平坦、平均或穩定;even something out 表示把某事物調整得更平均;even something up 通常表示令雙方或整個情況更公平或相等。",
+      "en": "Notice the differences shown in these examples: The road evens out. We evened out the work. I paid extra to even things up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 EVEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to EVEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "EVEN 動詞片語句子改寫練習",
+    "titleEn": "EVEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 EVEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to EVEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-74-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The road becomes flat after the second bend.",
+      "promptZh": "第二個彎位後,道路變得平坦。",
+      "starter": "The",
+      "answer": "The road evens out after the second bend.",
+      "answerZh": "第二個彎位後,道路變得平坦。",
+      "highlight": "evens out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "You bought dinner, so I paid for the drinks to make our spending fairer.",
+      "promptZh": "你付了晚餐的錢,所以我支付飲品費用,讓大家分擔得更公平。",
+      "starter": "You",
+      "answer": "You bought dinner, so I paid for the drinks to even things up.",
+      "answerZh": "你付了晚餐的錢,所以我支付飲品費用,讓大家分擔得更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She shared the workload more equally among the four students.",
+      "promptZh": "她把工作量更平均地分配給四名學生。",
+      "starter": "She",
+      "answer": "She evened out the workload among the four students.",
+      "answerZh": "她把工作量更平均地分配給四名學生。",
+      "highlight": "evened out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The machine’s speed became steady after a few minutes.",
+      "promptZh": "幾分鐘後,機器的速度變得穩定。",
+      "starter": "The",
+      "answer": "The machine’s speed evened out after a few minutes.",
+      "answerZh": "幾分鐘後,機器的速度變得穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He smoothed the wet sand before placing the mat.",
+      "promptZh": "他在放下墊子前把濕沙弄平。",
+      "starter": "He",
+      "answer": "He evened out the wet sand before placing the mat.",
+      "answerZh": "他在放下墊子前把濕沙弄平。",
+      "highlight": "evened out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our team scored in the final minute and made the score equal.",
+      "promptZh": "我們的球隊在最後一分鐘得分,把比分追平。",
+      "starter": "Our",
+      "answer": "Our team scored in the final minute and evened things up.",
+      "answerZh": "我們的球隊在最後一分鐘得分,把比分追平。",
+      "highlight": "evened things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher made the group sizes equal.",
+      "promptZh": "老師令各組人數變得相同。",
+      "starter": "The",
+      "answer": "The teacher evened out the group sizes.",
+      "answerZh": "老師令各組人數變得相同。",
+      "highlight": "evened out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The path becomes less steep near the lake.",
+      "promptZh": "小路在湖邊附近變得較為平坦。",
+      "starter": "The",
+      "answer": "The path evens out near the lake.",
+      "answerZh": "小路在湖邊附近變得較為平坦。",
+      "highlight": "evens out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben had done two extra chores, so his sister did the washing to make things fair.",
+      "promptZh": "賓已多做了兩項家務,所以他的妹妹負責洗衣服,讓分工更公平。",
+      "starter": "Ben",
+      "answer": "Ben had done two extra chores, so his sister did the washing to even things up.",
+      "answerZh": "賓已多做了兩項家務,所以他的妹妹負責洗衣服,讓分工更公平。",
+      "highlight": "even",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We moved some books to the lower shelf to balance the weight.",
+      "promptZh": "我們把一些書移到較低的層架,使重量分布更平均。",
+      "starter": "We",
+      "answer": "We moved some books to the lower shelf to even out the weight.",
+      "answerZh": "我們把一些書移到較低的層架,使重量分布更平均。",
+      "highlight": "even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The second goal has made the score equal.",
+      "promptZh": "第二個入球已把比分追平。",
+      "starter": "The",
+      "answer": "The second goal has evened things up.",
+      "answerZh": "第二個入球已把比分追平。",
+      "highlight": "evened things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The road is becoming flatter now.",
+      "promptZh": "道路現在正逐漸變得平坦。",
+      "starter": "The",
+      "answer": "The road is evening out now.",
+      "answerZh": "道路現在正逐漸變得平坦。",
+      "highlight": "evening out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The cook is making the layer of icing the same thickness everywhere.",
+      "promptZh": "廚師正把糖霜層弄至厚度一致。",
+      "starter": "The",
+      "answer": "The cook is evening out the layer of icing.",
+      "answerZh": "廚師正把糖霜層弄至厚度一致。",
+      "highlight": "evening out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could I pay for the taxi to make our spending fair?",
+      "promptZh": "我可以支付的士費,讓大家分擔得更公平嗎?",
+      "starter": "Could",
+      "answer": "Could I pay for the taxi to even things up?",
+      "answerZh": "我可以支付的士費,讓大家分擔得更公平嗎?",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By noon, the flow of customers had become steadier.",
+      "promptZh": "到中午時,顧客流量已變得較穩定。",
+      "starter": "By",
+      "answer": "By noon, the flow of customers had evened out.",
+      "answerZh": "到中午時,顧客流量已變得較穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The new timetable has not made the workload across the week more balanced.",
+      "promptZh": "新時間表未能令全星期的工作量分布更平均。",
+      "starter": "The",
+      "answer": "The new timetable has not evened out the workload across the week.",
+      "answerZh": "新時間表未能令全星期的工作量分布更平均。",
+      "highlight": "evened out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did the extra point make the score equal again?",
+      "promptZh": "額外的一分有令比分再次追平嗎?",
+      "starter": "Did",
+      "answer": "Did the extra point even things up again?",
+      "answerZh": "額外的一分有令比分再次追平嗎?",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This change will make the monthly payments more equal.",
+      "promptZh": "這項改動會令每月付款金額更平均。",
+      "starter": "This",
+      "answer": "This change will even out the monthly payments.",
+      "answerZh": "這項改動會令每月付款金額更平均。",
+      "highlight": "even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does the ground become flat after the gate?",
+      "promptZh": "過了閘門後,地面會變得平坦嗎?",
+      "starter": "Does",
+      "answer": "Does the ground even out after the gate?",
+      "answerZh": "過了閘門後,地面會變得平坦嗎?",
+      "highlight": "even out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "One team had less time to practise, so giving it an extra ten minutes should make the match fairer.",
+      "promptZh": "其中一隊的練習時間較少,所以給它額外十分鐘應可令比賽更公平。",
+      "starter": "One",
+      "answer": "One team had less time to practise, so giving it an extra ten minutes should even things up.",
+      "answerZh": "其中一隊的練習時間較少,所以給它額外十分鐘應可令比賽更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The road is rough at first, but it becomes flat near the village.",
+      "promptZh": "道路起初很崎嶇,但在村莊附近會變得平坦。",
+      "starter": "The",
+      "answer": "The road is rough at first, but it evens out near the village.",
+      "answerZh": "道路起初很崎嶇,但在村莊附近會變得平坦。",
+      "highlight": "evens out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The surface has high and low areas. Please make it level before painting.",
+      "promptZh": "表面高低不一。請在髹油前把它弄平。",
+      "starter": "The",
+      "answer": "The surface has high and low areas. Please even it out before painting.",
+      "answerZh": "表面高低不一。請在髹油前把它弄平。",
+      "highlight": "even",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teams were unequal, so the coach added a player to make them equal.",
+      "promptZh": "兩隊人數不相同,所以教練增加了一名球員,令兩隊人數相等。",
+      "starter": "The",
+      "answer": "The teams were unequal, so the coach added a player to even them up.",
+      "answerZh": "兩隊人數不相同,所以教練增加了一名球員,令兩隊人數相等。",
+      "highlight": "even",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "As the path became flatter, the children walked faster.",
+      "promptZh": "隨着小路變得平坦,孩子們走得更快。",
+      "starter": "As",
+      "answer": "As the path evened out, the children walked faster.",
+      "answerZh": "隨着小路變得平坦,孩子們走得更快。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The six monthly payments were made more equal.",
+      "promptZh": "六個月的付款金額被調整得更平均。",
+      "starter": "The",
+      "answer": "The six monthly payments were evened out.",
+      "answerZh": "六個月的付款金額被調整得更平均。",
+      "highlight": "evened out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Sam worked on Saturday, so Priya took Sunday’s shift to make the arrangement fair.",
+      "promptZh": "山姆星期六上班,所以普里雅負責星期日的更次,讓安排更公平。",
+      "starter": "Sam",
+      "answer": "Sam worked on Saturday, so Priya took Sunday’s shift to even things up.",
+      "answerZh": "山姆星期六上班,所以普里雅負責星期日的更次,讓安排更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The number of orders has become more regular during the week.",
+      "promptZh": "本星期內,訂單數量已變得較穩定。",
+      "starter": "The",
+      "answer": "The number of orders has evened out during the week.",
+      "answerZh": "本星期內,訂單數量已變得較穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "They made the soil level before planting.",
+      "promptZh": "他們在種植前把泥土弄平。",
+      "starter": "They",
+      "answer": "They evened the soil out before planting.",
+      "answerZh": "他們在種植前把泥土弄平。",
+      "highlight": "evened",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "How can we make the teams equal before the match?",
+      "promptZh": "我們可以怎樣在比賽前令兩隊人數相等?",
+      "starter": "How",
+      "answer": "How can we even the teams up before the match?",
+      "answerZh": "我們可以怎樣在比賽前令兩隊人數相等?",
+      "highlight": "even",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The two prices became almost equal after the sale began.",
+      "promptZh": "減價開始後,兩個價格變得差不多相同。",
+      "starter": "The",
+      "answer": "The two prices evened out after the sale began.",
+      "answerZh": "減價開始後,兩個價格變得差不多相同。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The first coat left dark and light areas, so the painter added more paint to make the colour uniform.",
+      "promptZh": "第一層油漆留下深淺不一的地方,所以油漆工加上更多油漆,使顏色更均勻。",
+      "starter": "The",
+      "answer": "The first coat left dark and light areas, so the painter added more paint to even out the colour.",
+      "answerZh": "第一層油漆留下深淺不一的地方,所以油漆工加上更多油漆,使顏色更均勻。",
+      "highlight": "even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The bus ride was very bumpy at first, but the road became smoother after the tunnel.",
+      "promptZh": "巴士起初行駛得很顛簸,但過了隧道後,路面變得平坦。",
+      "starter": "The",
+      "answer": "The bus ride was very bumpy at first, but the road evened out after the tunnel.",
+      "answerZh": "巴士起初行駛得很顛簸,但過了隧道後,路面變得平坦。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "You paid £20 more than I did, so I will cover the tickets to make our costs fair.",
+      "promptZh": "你比我多付了二十英鎊,所以我會支付門票費用,讓大家分擔得更公平。",
+      "starter": "You",
+      "answer": "You paid £20 more than I did, so I will cover the tickets to even things up.",
+      "answerZh": "你比我多付了二十英鎊,所以我會支付門票費用,讓大家分擔得更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The manager moved two staff members to Friday so that the work was better balanced across the week.",
+      "promptZh": "經理把兩名員工調到星期五,使全星期的工作量分布更平均。",
+      "starter": "The",
+      "answer": "The manager moved two staff members to Friday to even out the workload across the week.",
+      "answerZh": "經理把兩名員工調到星期五,使全星期的工作量分布更平均。",
+      "highlight": "to even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At first, the internet speed changed a lot, but it later became steady.",
+      "promptZh": "網速起初變化很大,但後來變得穩定。",
+      "starter": "At",
+      "answer": "At first, the internet speed changed a lot, but it later evened out.",
+      "answerZh": "網速起初變化很大,但後來變得穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Because the blue team had an extra player, the red team received one too to make the match fair.",
+      "promptZh": "因為藍隊多了一名球員,紅隊也獲增加一名球員,使比賽更公平。",
+      "starter": "Because",
+      "answer": "Because the blue team had an extra player, the red team received one too to even things up.",
+      "answerZh": "因為藍隊多了一名球員,紅隊也獲增加一名球員,使比賽更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She moved the chairs so that the two rows were the same length.",
+      "promptZh": "她移動椅子,使兩排椅子的長度相同。",
+      "starter": "She",
+      "answer": "She moved the chairs to even out the two rows.",
+      "answerZh": "她移動椅子,使兩排椅子的長度相同。",
+      "highlight": "to even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After several large changes, the number of visitors finally became more regular.",
+      "promptZh": "經過幾次大幅變化後,訪客數量終於變得較穩定。",
+      "starter": "After",
+      "answer": "After several large changes, the number of visitors finally evened out.",
+      "answerZh": "經過幾次大幅變化後,訪客數量終於變得較穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The blue team had an extra turn in the first round, so the red team received one in the second round to make the game fair.",
+      "promptZh": "藍隊在第一回合多了一次機會,所以紅隊在第二回合也獲得一次機會,使比賽更公平。",
+      "starter": "The",
+      "answer": "The blue team had an extra turn in the first round, so the red team received one in the second round to even things up.",
+      "answerZh": "藍隊在第一回合多了一次機會,所以紅隊在第二回合也獲得一次機會,使比賽更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The baker pressed the dough until it had the same thickness all over.",
+      "promptZh": "麵包師把麵糰壓至各處厚度相同。",
+      "starter": "The",
+      "answer": "The baker evened the dough out until it had the same thickness all over.",
+      "answerZh": "麵包師把麵糰壓至各處厚度相同。",
+      "highlight": "evened",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q41",
+      "number": 41,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our friends paid for the hotel last time, so we paid for dinner on this trip to make the total spending fairer.",
+      "promptZh": "上次朋友支付了酒店費用,所以這次旅程由我們支付晚餐費用,讓總開支分擔得更公平。",
+      "starter": "Our",
+      "answer": "Our friends paid for the hotel last time, so we paid for dinner on this trip to even things up.",
+      "answerZh": "上次朋友支付了酒店費用,所以這次旅程由我們支付晚餐費用,讓總開支分擔得更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q42",
+      "number": 42,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The path climbs sharply for ten minutes, then becomes almost flat beside the river.",
+      "promptZh": "小路先陡峭上斜十分鐘,然後在河邊變得幾乎平坦。",
+      "starter": "The",
+      "answer": "The path climbs sharply for ten minutes, then evens out beside the river.",
+      "answerZh": "小路先陡峭上斜十分鐘,然後在河邊變得幾乎平坦。",
+      "highlight": "evens out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q43",
+      "number": 43,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The first two weeks were very busy, so the organiser moved several tasks to later weeks to make the workload more balanced.",
+      "promptZh": "最初兩個星期非常忙碌,所以主辦人把數項工作移到較後的星期,使工作量分布更平均。",
+      "starter": "The",
+      "answer": "The first two weeks were very busy, so the organiser moved several tasks to later weeks to even out the workload.",
+      "answerZh": "最初兩個星期非常忙碌,所以主辦人把數項工作移到較後的星期,使工作量分布更平均。",
+      "highlight": "even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q44",
+      "number": 44,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A final basket made the two teams’ scores equal just before the end.",
+      "promptZh": "完場前最後一球把兩隊的比分追平。",
+      "starter": "A",
+      "answer": "A final basket evened things up just before the end.",
+      "answerZh": "完場前最後一球把兩隊的比分追平。",
+      "highlight": "evened things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q45",
+      "number": 45,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The monthly sales rose and fell sharply at first, but after June they became steadier.",
+      "promptZh": "每月銷售額起初大幅上落,但六月後變得較穩定。",
+      "starter": "The",
+      "answer": "The monthly sales rose and fell sharply at first, but after June they evened out.",
+      "answerZh": "每月銷售額起初大幅上落,但六月後變得較穩定。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q46",
+      "number": 46,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nora used my bike all week, so she lent me her car for Saturday to make the arrangement fair.",
+      "promptZh": "諾拉整個星期都用了我的單車,所以她在星期六把車借給我,讓安排更公平。",
+      "starter": "Nora",
+      "answer": "Nora used my bike all week, so she lent me her car for Saturday to even things up.",
+      "answerZh": "諾拉整個星期都用了我的單車,所以她在星期六把車借給我,讓安排更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q47",
+      "number": 47,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "One side of the garden had much more soil, so we moved some across to make the ground level.",
+      "promptZh": "花園一邊有多很多泥土,所以我們把一些移到另一邊,使地面平坦。",
+      "starter": "One",
+      "answer": "One side of the garden had much more soil, so we moved some across to even out the ground.",
+      "answerZh": "花園一邊有多很多泥土,所以我們把一些移到另一邊,使地面平坦。",
+      "highlight": "even out",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q48",
+      "number": 48,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Class A had already received an extra practice session, so the school gave Class B one too to make the chance fair.",
+      "promptZh": "A 班已獲得一次額外練習,所以學校也給 B 班一次,讓機會更公平。",
+      "starter": "Class",
+      "answer": "Class A had already received an extra practice session, so the school gave Class B one too to even things up.",
+      "answerZh": "A 班已獲得一次額外練習,所以學校也給 B 班一次,讓機會更公平。",
+      "highlight": "even things up",
+      "targetForm": "even something up",
+      "targetMeaningZh": "使雙方或情況更公平或相等"
+    },
+    {
+      "id": "phrasal-verb-74-q49",
+      "number": 49,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The temperature was different in every room at first, but it became more similar after the doors were opened.",
+      "promptZh": "起初每個房間的溫度都不同,但打開房門後,溫度變得較一致。",
+      "starter": "The",
+      "answer": "The temperature was different in every room at first, but it evened out after the doors were opened.",
+      "answerZh": "起初每個房間的溫度都不同,但打開房門後,溫度變得較一致。",
+      "highlight": "evened out",
+      "targetForm": "even out",
+      "targetMeaningZh": "變得平坦、平均或穩定"
+    },
+    {
+      "id": "phrasal-verb-74-q50",
+      "number": 50,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The company changed its payment plan so that it paid similar amounts each month.",
+      "promptZh": "公司更改付款計劃,使每月支付的金額較為相近。",
+      "starter": "The",
+      "answer": "The company changed its payment plan to even out the monthly payments.",
+      "answerZh": "公司更改付款計劃,使每月支付的金額較為相近。",
+      "highlight": "to even out the monthly payments",
+      "targetForm": "even something out",
+      "targetMeaningZh": "使某事物變得平坦、平均、均勻或穩定"
+    }
+  ]
+}

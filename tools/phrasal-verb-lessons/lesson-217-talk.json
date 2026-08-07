@@ -1,0 +1,2218 @@
+{
+  "id": "phrasal-verb-217",
+  "order": 217,
+  "slug": "talk",
+  "version": "1",
+  "title": "TALK 動詞片語",
+  "titleEn": "Talk",
+  "titleZh": "TALK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 215 - TALK.pdf",
+    "sourceNumber": 215,
+    "pageCount": 35,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TALK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TALK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TALK",
+      "highlight": "TALK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "For twenty minutes, they talked around the real issue.",
+      "zh": "他們繞着真正的問題談了二十分鐘,卻沒有直接談到重點。",
+      "highlight": "talked around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The trainer talked at us for most of the lesson.",
+      "zh": "導師大部分時間都只顧向我們說話,沒有讓我們真正參與。",
+      "highlight": "talked at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The two guests were soon talking away to each other.",
+      "zh": "兩位客人很快便輕鬆地聊個不停。",
+      "highlight": "talking away to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "避開核心問題,只談相關或周邊內容；只顧自己說,不讓對方真正參與；輕鬆而不停地說話；無禮地回應有權威的人;頂嘴；以說話令非常激動、憤怒或不安的人平靜下來；以高人一等的態度對某人說話；說服某人或自己接受或做某事；說服某人或自己不要接受或做某事；把問題、感受或分歧徹底談開；一直說到沒有話可說或說累了；在作決定前跟某人商量某事；逐步向某人講解某事；把某事的每一部分仔細討論或說明；說服某人改變主意或接受某事；與某人交談；大力稱讚或宣傳某人或某事物",
+    "en": "talk around something / talk round something; talk at somebody; talk away / talk away to somebody; talk back to somebody; talk somebody down; talk down to somebody; talk somebody/yourself into something talk somebody/yourself into doing something; talk somebody/yourself out of something talk somebody/yourself out of doing something; talk something out; talk yourself out; talk something over with somebody; talk somebody through something; talk something through; talk somebody round / talk somebody round to something; talk to somebody / talk with somebody; talk somebody/something up",
+    "naturalZh": [
+      "避開核心問題,只談相關或周邊內容",
+      "只顧自己說,不讓對方真正參與",
+      "輕鬆而不停地說話",
+      "無禮地回應有權威的人;頂嘴",
+      "以說話令非常激動、憤怒或不安的人平靜下來",
+      "以高人一等的態度對某人說話",
+      "說服某人或自己接受或做某事",
+      "說服某人或自己不要接受或做某事",
+      "把問題、感受或分歧徹底談開",
+      "一直說到沒有話可說或說累了",
+      "在作決定前跟某人商量某事",
+      "逐步向某人講解某事",
+      "把某事的每一部分仔細討論或說明",
+      "說服某人改變主意或接受某事",
+      "與某人交談",
+      "大力稱讚或宣傳某人或某事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "talk around something / talk round something",
+      "titleZh": "避開核心問題,只談相關或周邊內容",
+      "titleEn": "talk around something / talk round something",
+      "descriptionZh": "避開核心問題,只談相關或周邊內容",
+      "descriptionEn": "For twenty minutes, they talked around the real issue.",
+      "examples": [
+        {
+          "en": "For twenty minutes, they talked around the real issue.",
+          "zh": "他們繞着真正的問題談了二十分鐘,卻沒有直接談到重點。",
+          "highlight": "talked around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk at somebody",
+      "titleZh": "只顧自己說,不讓對方真正參與",
+      "titleEn": "talk at somebody",
+      "descriptionZh": "只顧自己說,不讓對方真正參與",
+      "descriptionEn": "The trainer talked at us for most of the lesson.",
+      "examples": [
+        {
+          "en": "The trainer talked at us for most of the lesson.",
+          "zh": "導師大部分時間都只顧向我們說話,沒有讓我們真正參與。",
+          "highlight": "talked at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk away / talk away to somebody",
+      "titleZh": "輕鬆而不停地說話",
+      "titleEn": "talk away / talk away to somebody",
+      "descriptionZh": "輕鬆而不停地說話",
+      "descriptionEn": "The two guests were soon talking away to each other.",
+      "examples": [
+        {
+          "en": "The two guests were soon talking away to each other.",
+          "zh": "兩位客人很快便輕鬆地聊個不停。",
+          "highlight": "talking away to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk back to somebody",
+      "titleZh": "無禮地回應有權威的人;頂嘴",
+      "titleEn": "talk back to somebody",
+      "descriptionZh": "無禮地回應有權威的人;頂嘴",
+      "descriptionEn": "Talking back to a teacher is not acceptable.",
+      "examples": [
+        {
+          "en": "Talking back to a teacher is not acceptable.",
+          "zh": "向老師頂嘴是不可接受的。",
+          "highlight": "Talking back to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk somebody down",
+      "titleZh": "以說話令非常激動、憤怒或不安的人平靜下來",
+      "titleEn": "talk somebody down",
+      "descriptionZh": "以說話令非常激動、憤怒或不安的人平靜下來",
+      "descriptionEn": "A calm officer talked the angry driver down.",
+      "examples": [
+        {
+          "en": "A calm officer talked the angry driver down.",
+          "zh": "一名冷靜的警員以說話令憤怒的司機平靜下來。",
+          "highlight": "talked the angry driver down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk down to somebody",
+      "titleZh": "以高人一等的態度對某人說話",
+      "titleEn": "talk down to somebody",
+      "descriptionZh": "以高人一等的態度對某人說話",
+      "descriptionEn": "She never talks down to younger workers.",
+      "examples": [
+        {
+          "en": "She never talks down to younger workers.",
+          "zh": "她從不以高人一等的態度對年輕員工說話。",
+          "highlight": "talks down to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "titleZh": "說服某人或自己接受或做某事",
+      "titleEn": "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "descriptionZh": "說服某人或自己接受或做某事",
+      "descriptionEn": "They talked me into trying the class.",
+      "examples": [
+        {
+          "en": "They talked me into trying the class.",
+          "zh": "他們說服我嘗試參加這堂課。",
+          "highlight": "talked me into"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "titleZh": "說服某人或自己不要接受或做某事",
+      "titleEn": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "descriptionZh": "說服某人或自己不要接受或做某事",
+      "descriptionEn": "My brother talked me out of buying it.",
+      "examples": [
+        {
+          "en": "My brother talked me out of buying it.",
+          "zh": "哥哥說服我不要購買它。",
+          "highlight": "talked me out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "talk something out",
+      "titleZh": "把問題、感受或分歧徹底談開",
+      "titleEn": "talk something out",
+      "descriptionZh": "把問題、感受或分歧徹底談開",
+      "descriptionEn": "We talked the problem out.",
+      "examples": [
+        {
+          "en": "We talked the problem out.",
+          "zh": "我們把問題徹底談開。",
+          "highlight": "talked the problem out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk yourself out",
+      "titleZh": "一直說到沒有話可說或說累了",
+      "titleEn": "talk yourself out",
+      "descriptionZh": "一直說到沒有話可說或說累了",
+      "descriptionEn": "By midnight, they had talked themselves out.",
+      "examples": [
+        {
+          "en": "By midnight, they had talked themselves out.",
+          "zh": "到午夜時,他們已經聊到沒有話可說。",
+          "highlight": "talked themselves out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk something over with somebody",
+      "titleZh": "在作決定前跟某人商量某事",
+      "titleEn": "talk something over with somebody",
+      "descriptionZh": "在作決定前跟某人商量某事",
+      "descriptionEn": "Let us talk it over tomorrow.",
+      "examples": [
+        {
+          "en": "Let us talk it over tomorrow.",
+          "zh": "我們明天再商量這件事。",
+          "highlight": "talk it over"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk somebody through something",
+      "titleZh": "逐步向某人講解某事",
+      "titleEn": "talk somebody through something",
+      "descriptionZh": "逐步向某人講解某事",
+      "descriptionEn": "The guide talked us through the first steps.",
+      "examples": [
+        {
+          "en": "The guide talked us through the first steps.",
+          "zh": "導遊逐步向我們講解最初幾個步驟。",
+          "highlight": "talked us through"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk something through",
+      "titleZh": "把某事的每一部分仔細討論或說明",
+      "titleEn": "talk something through",
+      "descriptionZh": "把某事的每一部分仔細討論或說明",
+      "descriptionEn": "We talked the whole plan through.",
+      "examples": [
+        {
+          "en": "We talked the whole plan through.",
+          "zh": "我們仔細討論了整個計劃。",
+          "highlight": "talked the whole plan through"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk somebody round / talk somebody round to something",
+      "titleZh": "說服某人改變主意或接受某事",
+      "titleEn": "talk somebody round / talk somebody round to something",
+      "descriptionZh": "說服某人改變主意或接受某事",
+      "descriptionEn": "I finally talked Dad round to the idea.",
+      "examples": [
+        {
+          "en": "I finally talked Dad round to the idea.",
+          "zh": "我終於說服爸爸接受這個想法。",
+          "highlight": "talked Dad round to"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk to somebody / talk with somebody",
+      "titleZh": "與某人交談",
+      "titleEn": "talk to somebody / talk with somebody",
+      "descriptionZh": "與某人交談",
+      "descriptionEn": "I need to talk to you.",
+      "examples": [
+        {
+          "en": "I need to talk to you.",
+          "zh": "我需要跟你談一談。",
+          "highlight": "talk to"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "talk somebody/something up",
+      "titleZh": "大力稱讚或宣傳某人或某事物",
+      "titleEn": "talk somebody/something up",
+      "descriptionZh": "大力稱讚或宣傳某人或某事物",
+      "descriptionEn": "The adverts talked the show up.",
+      "examples": [
+        {
+          "en": "The adverts talked the show up.",
+          "zh": "廣告大力宣傳這場表演。",
+          "highlight": "talked the show up"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TALK 片語動詞的實際用途",
+    "labelEn": "TALK Phrasal Verbs in Use",
+    "summaryZh": "talk to 和 talk with 表示真正的交談;talk at 表示只顧自己說;talk down to 和 talk back 則可以描述不尊重對方的溝通方式。；talk into、talk out of 和 talk round 可以說明某人如何被說服去做某事、放棄某事或改變主意。；talk out、talk over 和 talk through 可以描述談開感受、商量選擇或仔細討論計劃的每一部分。；talk somebody down 可以表示安撫情緒激動的人;talk somebody through something 表示逐步提供協助;talk something up 則表示大力稱讚或宣傳。",
+    "summaryEn": "Talk to and talk with describe a real conversation. Talk at describes one-sided speech, while talk down to and talk back describe disrespectful communication. Talk into, talk out of and talk round help you explain how someone was persuaded to do something, avoid something or change their mind. Talk out, talk over and talk through can describe discussing feelings, considering a choice or examining every part of a plan. Talk somebody down can describe calming an upset person. Talk somebody through something describes giving step-by-step help, while talk something up describes strong praise or promotion.",
+    "contextsZh": [
+      "描述不同形式的交談",
+      "談論說服和改變決定",
+      "解決問題和慎重作出決定",
+      "描述安撫、講解和宣傳"
+    ],
+    "contextsEn": [
+      "Describe different kinds of conversation",
+      "Talk about persuasion and changing decisions",
+      "Solve problems and make careful decisions",
+      "Describe calming, explaining and promoting"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TALK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TALK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "talk around something / talk round something",
+    "fixedHighlight": "talk around something / talk round something",
+    "fixedZh": "閱讀整句,選出意思相同的 TALK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TALK expression that gives the same meaning.",
+    "correct": "talked around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；talk around a subject 表示避開事情的重點;talk somebody round 則表示說服某人改變主意。；請按照以上例子排列人物或事物的位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Talk around a subject means to avoid its main point. Talk somebody round means to persuade that person to change their mind. Follow the word positions shown in these examples: talk him down talk her into joining talk it over talk them through the steps",
+    "variableItemsZh": [
+      "talk around something / talk round something",
+      "talk at somebody",
+      "talk away / talk away to somebody",
+      "talk back to somebody",
+      "talk somebody down",
+      "talk down to somebody",
+      "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "talk something out",
+      "talk yourself out",
+      "talk something over with somebody",
+      "talk somebody through something",
+      "talk something through",
+      "talk somebody round / talk somebody round to something",
+      "talk to somebody / talk with somebody",
+      "talk somebody/something up"
+    ],
+    "variableItemsEn": [
+      "talk around something / talk round something",
+      "talk at somebody",
+      "talk away / talk away to somebody",
+      "talk back to somebody",
+      "talk somebody down",
+      "talk down to somebody",
+      "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "talk something out",
+      "talk yourself out",
+      "talk something over with somebody",
+      "talk somebody through something",
+      "talk something through",
+      "talk somebody round / talk somebody round to something",
+      "talk to somebody / talk with somebody",
+      "talk somebody/something up"
+    ],
+    "forms": [
+      {
+        "formZh": "避開核心問題,只談相關或周邊內容",
+        "formEn": "talk around something / talk round something",
+        "exampleZh": "他們繞着真正的問題談了二十分鐘,卻沒有直接談到重點。",
+        "exampleEn": "For twenty minutes, they talked around the real issue.",
+        "highlight": "talked around"
+      },
+      {
+        "formZh": "只顧自己說,不讓對方真正參與",
+        "formEn": "talk at somebody",
+        "exampleZh": "導師大部分時間都只顧向我們說話,沒有讓我們真正參與。",
+        "exampleEn": "The trainer talked at us for most of the lesson.",
+        "highlight": "talked at"
+      },
+      {
+        "formZh": "輕鬆而不停地說話",
+        "formEn": "talk away / talk away to somebody",
+        "exampleZh": "兩位客人很快便輕鬆地聊個不停。",
+        "exampleEn": "The two guests were soon talking away to each other.",
+        "highlight": "talking away to"
+      },
+      {
+        "formZh": "無禮地回應有權威的人;頂嘴",
+        "formEn": "talk back to somebody",
+        "exampleZh": "向老師頂嘴是不可接受的。",
+        "exampleEn": "Talking back to a teacher is not acceptable.",
+        "highlight": "Talking back to"
+      },
+      {
+        "formZh": "以說話令非常激動、憤怒或不安的人平靜下來",
+        "formEn": "talk somebody down",
+        "exampleZh": "一名冷靜的警員以說話令憤怒的司機平靜下來。",
+        "exampleEn": "A calm officer talked the angry driver down.",
+        "highlight": "talked the angry driver down"
+      },
+      {
+        "formZh": "以高人一等的態度對某人說話",
+        "formEn": "talk down to somebody",
+        "exampleZh": "她從不以高人一等的態度對年輕員工說話。",
+        "exampleEn": "She never talks down to younger workers.",
+        "highlight": "talks down to"
+      },
+      {
+        "formZh": "說服某人或自己接受或做某事",
+        "formEn": "talk somebody/yourself into something talk somebody/yourself into doing something",
+        "exampleZh": "他們說服我嘗試參加這堂課。",
+        "exampleEn": "They talked me into trying the class.",
+        "highlight": "talked me into"
+      },
+      {
+        "formZh": "說服某人或自己不要接受或做某事",
+        "formEn": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+        "exampleZh": "哥哥說服我不要購買它。",
+        "exampleEn": "My brother talked me out of buying it.",
+        "highlight": "talked me out"
+      },
+      {
+        "formZh": "把問題、感受或分歧徹底談開",
+        "formEn": "talk something out",
+        "exampleZh": "我們把問題徹底談開。",
+        "exampleEn": "We talked the problem out.",
+        "highlight": "talked the problem out"
+      },
+      {
+        "formZh": "一直說到沒有話可說或說累了",
+        "formEn": "talk yourself out",
+        "exampleZh": "到午夜時,他們已經聊到沒有話可說。",
+        "exampleEn": "By midnight, they had talked themselves out.",
+        "highlight": "talked themselves out"
+      },
+      {
+        "formZh": "在作決定前跟某人商量某事",
+        "formEn": "talk something over with somebody",
+        "exampleZh": "我們明天再商量這件事。",
+        "exampleEn": "Let us talk it over tomorrow.",
+        "highlight": "talk it over"
+      },
+      {
+        "formZh": "逐步向某人講解某事",
+        "formEn": "talk somebody through something",
+        "exampleZh": "導遊逐步向我們講解最初幾個步驟。",
+        "exampleEn": "The guide talked us through the first steps.",
+        "highlight": "talked us through"
+      },
+      {
+        "formZh": "把某事的每一部分仔細討論或說明",
+        "formEn": "talk something through",
+        "exampleZh": "我們仔細討論了整個計劃。",
+        "exampleEn": "We talked the whole plan through.",
+        "highlight": "talked the whole plan through"
+      },
+      {
+        "formZh": "說服某人改變主意或接受某事",
+        "formEn": "talk somebody round / talk somebody round to something",
+        "exampleZh": "我終於說服爸爸接受這個想法。",
+        "exampleEn": "I finally talked Dad round to the idea.",
+        "highlight": "talked Dad round to"
+      },
+      {
+        "formZh": "與某人交談",
+        "formEn": "talk to somebody / talk with somebody",
+        "exampleZh": "我需要跟你談一談。",
+        "exampleEn": "I need to talk to you.",
+        "highlight": "talk to"
+      },
+      {
+        "formZh": "大力稱讚或宣傳某人或某事物",
+        "formEn": "talk somebody/something up",
+        "exampleZh": "廣告大力宣傳這場表演。",
+        "exampleEn": "The adverts talked the show up.",
+        "highlight": "talked the show up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "避開核心問題,只談相關或周邊內容",
+      "titleEn": "talk around something / talk round something",
+      "formula": "talk around something / talk round something",
+      "highlight": "talk around something / talk round something",
+      "descriptionZh": "避開核心問題,只談相關或周邊內容",
+      "descriptionEn": "For twenty minutes, they talked around the real issue.",
+      "examples": [
+        {
+          "en": "For twenty minutes, they talked around the real issue.",
+          "zh": "他們繞着真正的問題談了二十分鐘,卻沒有直接談到重點。",
+          "highlight": "talked around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "只顧自己說,不讓對方真正參與",
+      "titleEn": "talk at somebody",
+      "formula": "talk at somebody",
+      "highlight": "talk at somebody",
+      "descriptionZh": "只顧自己說,不讓對方真正參與",
+      "descriptionEn": "The trainer talked at us for most of the lesson.",
+      "examples": [
+        {
+          "en": "The trainer talked at us for most of the lesson.",
+          "zh": "導師大部分時間都只顧向我們說話,沒有讓我們真正參與。",
+          "highlight": "talked at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "輕鬆而不停地說話",
+      "titleEn": "talk away / talk away to somebody",
+      "formula": "talk away / talk away to somebody",
+      "highlight": "talk away / talk away to somebody",
+      "descriptionZh": "輕鬆而不停地說話",
+      "descriptionEn": "The two guests were soon talking away to each other.",
+      "examples": [
+        {
+          "en": "The two guests were soon talking away to each other.",
+          "zh": "兩位客人很快便輕鬆地聊個不停。",
+          "highlight": "talking away to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "無禮地回應有權威的人;頂嘴",
+      "titleEn": "talk back to somebody",
+      "formula": "talk back to somebody",
+      "highlight": "talk back to somebody",
+      "descriptionZh": "無禮地回應有權威的人;頂嘴",
+      "descriptionEn": "Talking back to a teacher is not acceptable.",
+      "examples": [
+        {
+          "en": "Talking back to a teacher is not acceptable.",
+          "zh": "向老師頂嘴是不可接受的。",
+          "highlight": "Talking back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "以說話令非常激動、憤怒或不安的人平靜下來",
+      "titleEn": "talk somebody down",
+      "formula": "talk somebody down",
+      "highlight": "talk somebody down",
+      "descriptionZh": "以說話令非常激動、憤怒或不安的人平靜下來",
+      "descriptionEn": "A calm officer talked the angry driver down.",
+      "examples": [
+        {
+          "en": "A calm officer talked the angry driver down.",
+          "zh": "一名冷靜的警員以說話令憤怒的司機平靜下來。",
+          "highlight": "talked the angry driver down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "以高人一等的態度對某人說話",
+      "titleEn": "talk down to somebody",
+      "formula": "talk down to somebody",
+      "highlight": "talk down to somebody",
+      "descriptionZh": "以高人一等的態度對某人說話",
+      "descriptionEn": "She never talks down to younger workers.",
+      "examples": [
+        {
+          "en": "She never talks down to younger workers.",
+          "zh": "她從不以高人一等的態度對年輕員工說話。",
+          "highlight": "talks down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "說服某人或自己接受或做某事",
+      "titleEn": "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "formula": "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "highlight": "talk somebody/yourself into something talk somebody/yourself into doing something",
+      "descriptionZh": "說服某人或自己接受或做某事",
+      "descriptionEn": "They talked me into trying the class.",
+      "examples": [
+        {
+          "en": "They talked me into trying the class.",
+          "zh": "他們說服我嘗試參加這堂課。",
+          "highlight": "talked me into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "說服某人或自己不要接受或做某事",
+      "titleEn": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "formula": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "highlight": "talk somebody/yourself out of something talk somebody/yourself out of doing something",
+      "descriptionZh": "說服某人或自己不要接受或做某事",
+      "descriptionEn": "My brother talked me out of buying it.",
+      "examples": [
+        {
+          "en": "My brother talked me out of buying it.",
+          "zh": "哥哥說服我不要購買它。",
+          "highlight": "talked me out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把問題、感受或分歧徹底談開",
+      "titleEn": "talk something out",
+      "formula": "talk something out",
+      "highlight": "talk something out",
+      "descriptionZh": "把問題、感受或分歧徹底談開",
+      "descriptionEn": "We talked the problem out.",
+      "examples": [
+        {
+          "en": "We talked the problem out.",
+          "zh": "我們把問題徹底談開。",
+          "highlight": "talked the problem out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "一直說到沒有話可說或說累了",
+      "titleEn": "talk yourself out",
+      "formula": "talk yourself out",
+      "highlight": "talk yourself out",
+      "descriptionZh": "一直說到沒有話可說或說累了",
+      "descriptionEn": "By midnight, they had talked themselves out.",
+      "examples": [
+        {
+          "en": "By midnight, they had talked themselves out.",
+          "zh": "到午夜時,他們已經聊到沒有話可說。",
+          "highlight": "talked themselves out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "在作決定前跟某人商量某事",
+      "titleEn": "talk something over with somebody",
+      "formula": "talk something over with somebody",
+      "highlight": "talk something over with somebody",
+      "descriptionZh": "在作決定前跟某人商量某事",
+      "descriptionEn": "Let us talk it over tomorrow.",
+      "examples": [
+        {
+          "en": "Let us talk it over tomorrow.",
+          "zh": "我們明天再商量這件事。",
+          "highlight": "talk it over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "逐步向某人講解某事",
+      "titleEn": "talk somebody through something",
+      "formula": "talk somebody through something",
+      "highlight": "talk somebody through something",
+      "descriptionZh": "逐步向某人講解某事",
+      "descriptionEn": "The guide talked us through the first steps.",
+      "examples": [
+        {
+          "en": "The guide talked us through the first steps.",
+          "zh": "導遊逐步向我們講解最初幾個步驟。",
+          "highlight": "talked us through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某事的每一部分仔細討論或說明",
+      "titleEn": "talk something through",
+      "formula": "talk something through",
+      "highlight": "talk something through",
+      "descriptionZh": "把某事的每一部分仔細討論或說明",
+      "descriptionEn": "We talked the whole plan through.",
+      "examples": [
+        {
+          "en": "We talked the whole plan through.",
+          "zh": "我們仔細討論了整個計劃。",
+          "highlight": "talked the whole plan through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "說服某人改變主意或接受某事",
+      "titleEn": "talk somebody round / talk somebody round to something",
+      "formula": "talk somebody round / talk somebody round to something",
+      "highlight": "talk somebody round / talk somebody round to something",
+      "descriptionZh": "說服某人改變主意或接受某事",
+      "descriptionEn": "I finally talked Dad round to the idea.",
+      "examples": [
+        {
+          "en": "I finally talked Dad round to the idea.",
+          "zh": "我終於說服爸爸接受這個想法。",
+          "highlight": "talked Dad round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "與某人交談",
+      "titleEn": "talk to somebody / talk with somebody",
+      "formula": "talk to somebody / talk with somebody",
+      "highlight": "talk to somebody / talk with somebody",
+      "descriptionZh": "與某人交談",
+      "descriptionEn": "I need to talk to you.",
+      "examples": [
+        {
+          "en": "I need to talk to you.",
+          "zh": "我需要跟你談一談。",
+          "highlight": "talk to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "大力稱讚或宣傳某人或某事物",
+      "titleEn": "talk somebody/something up",
+      "formula": "talk somebody/something up",
+      "highlight": "talk somebody/something up",
+      "descriptionZh": "大力稱讚或宣傳某人或某事物",
+      "descriptionEn": "The adverts talked the show up.",
+      "examples": [
+        {
+          "en": "The adverts talked the show up.",
+          "zh": "廣告大力宣傳這場表演。",
+          "highlight": "talked the show up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述不同形式的交談",
+      "titleEn": "Describe different kinds of conversation",
+      "zh": "talk to 和 talk with 表示真正的交談;talk at 表示只顧自己說;talk down to 和 talk back 則可以描述不尊重對方的溝通方式。",
+      "en": "Talk to and talk with describe a real conversation. Talk at describes one-sided speech, while talk down to and talk back describe disrespectful communication."
+    },
+    {
+      "titleZh": "談論說服和改變決定",
+      "titleEn": "Talk about persuasion and changing decisions",
+      "zh": "talk into、talk out of 和 talk round 可以說明某人如何被說服去做某事、放棄某事或改變主意。",
+      "en": "Talk into, talk out of and talk round help you explain how someone was persuaded to do something, avoid something or change their mind."
+    },
+    {
+      "titleZh": "解決問題和慎重作出決定",
+      "titleEn": "Solve problems and make careful decisions",
+      "zh": "talk out、talk over 和 talk through 可以描述談開感受、商量選擇或仔細討論計劃的每一部分。",
+      "en": "Talk out, talk over and talk through can describe discussing feelings, considering a choice or examining every part of a plan."
+    },
+    {
+      "titleZh": "描述安撫、講解和宣傳",
+      "titleEn": "Describe calming, explaining and promoting",
+      "zh": "talk somebody down 可以表示安撫情緒激動的人;talk somebody through something 表示逐步提供協助;talk something up 則表示大力稱讚或宣傳。",
+      "en": "Talk somebody down can describe calming an upset person. Talk somebody through something describes giving step-by-step help, while talk something up describes strong praise or promotion."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述不同形式的交談",
+      "談論說服和改變決定",
+      "解決問題和慎重作出決定",
+      "描述安撫、講解和宣傳"
+    ],
+    "contextsEn": [
+      "Describe different kinds of conversation",
+      "Talk about persuasion and changing decisions",
+      "Solve problems and make careful decisions",
+      "Describe calming, explaining and promoting"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述不同形式的交談",
+        "titleEn": "Describe different kinds of conversation",
+        "zh": "talk to 和 talk with 表示真正的交談;talk at 表示只顧自己說;talk down to 和 talk back 則可以描述不尊重對方的溝通方式。",
+        "en": "Talk to and talk with describe a real conversation. Talk at describes one-sided speech, while talk down to and talk back describe disrespectful communication.",
+        "examples": [
+          {
+            "en": "For twenty minutes, they talked around the real issue.",
+            "zh": "他們繞着真正的問題談了二十分鐘,卻沒有直接談到重點。",
+            "highlight": "talked around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論說服和改變決定",
+        "titleEn": "Talk about persuasion and changing decisions",
+        "zh": "talk into、talk out of 和 talk round 可以說明某人如何被說服去做某事、放棄某事或改變主意。",
+        "en": "Talk into, talk out of and talk round help you explain how someone was persuaded to do something, avoid something or change their mind.",
+        "examples": [
+          {
+            "en": "The trainer talked at us for most of the lesson.",
+            "zh": "導師大部分時間都只顧向我們說話,沒有讓我們真正參與。",
+            "highlight": "talked at"
+          }
+        ]
+      },
+      {
+        "titleZh": "解決問題和慎重作出決定",
+        "titleEn": "Solve problems and make careful decisions",
+        "zh": "talk out、talk over 和 talk through 可以描述談開感受、商量選擇或仔細討論計劃的每一部分。",
+        "en": "Talk out, talk over and talk through can describe discussing feelings, considering a choice or examining every part of a plan.",
+        "examples": [
+          {
+            "en": "The two guests were soon talking away to each other.",
+            "zh": "兩位客人很快便輕鬆地聊個不停。",
+            "highlight": "talking away to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述安撫、講解和宣傳",
+        "titleEn": "Describe calming, explaining and promoting",
+        "zh": "talk somebody down 可以表示安撫情緒激動的人;talk somebody through something 表示逐步提供協助;talk something up 則表示大力稱讚或宣傳。",
+        "en": "Talk somebody down can describe calming an upset person. Talk somebody through something describes giving step-by-step help, while talk something up describes strong praise or promotion.",
+        "examples": [
+          {
+            "en": "Talking back to a teacher is not acceptable.",
+            "zh": "向老師頂嘴是不可接受的。",
+            "highlight": "Talking back to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TALK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TALK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TALK 片語動詞。",
+      "en": "Read the whole sentence and choose the TALK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "talk around a subject 表示避開事情的重點;talk somebody round 則表示說服某人改變主意。",
+      "titleEn": "Talk around a subject means to avoid its main point.",
+      "zh": "talk around a subject 表示避開事情的重點;talk somebody round 則表示說服某人改變主意。",
+      "en": "Talk around a subject means to avoid its main point. Talk somebody round means to persuade that person to change their mind."
+    },
+    {
+      "titleZh": "請按照以上例子排列人物或事物的位置。",
+      "titleEn": "Follow the word positions shown in these examples: talk him down talk her into joining talk it over talk them through the steps.",
+      "zh": "請按照以上例子排列人物或事物的位置。",
+      "en": "Follow the word positions shown in these examples: talk him down talk her into joining talk it over talk them through the steps"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TALK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TALK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TALK 動詞片語句子改寫練習",
+    "titleEn": "TALK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TALK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TALK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-217-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The support worker explained the first steps to Ava one by one.",
+      "promptZh": "支援人員逐步向艾娃講解最初幾個步驟。",
+      "starter": "The",
+      "answer": "The support worker talked Ava through the first steps.",
+      "answerZh": "支援人員逐步帶艾娃了解最初幾個步驟。",
+      "highlight": "talked Ava through",
+      "targetForm": "talk somebody through something",
+      "targetMeaningZh": "逐步向某人講解某事"
+    },
+    {
+      "id": "phrasal-verb-217-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Ben was punished for answering the coach rudely.",
+      "promptZh": "賓因為無禮地回應教練而受到處罰。",
+      "starter": "Ben",
+      "answer": "Ben was punished for talking back to the coach.",
+      "answerZh": "賓因為向教練頂嘴而受到處罰。",
+      "highlight": "talking back to",
+      "targetForm": "talk back to somebody",
+      "targetMeaningZh": "無禮地回應;頂嘴"
+    },
+    {
+      "id": "phrasal-verb-217-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "I need to have a conversation with you after class.",
+      "promptZh": "我下課後需要跟你談一談。",
+      "starter": "I",
+      "answer": "I need to talk to you after class.",
+      "answerZh": "我下課後需要跟你談一談。",
+      "highlight": "talk to",
+      "targetForm": "talk to somebody",
+      "targetMeaningZh": "與某人交談"
+    },
+    {
+      "id": "phrasal-verb-217-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "For an hour, they discussed related points but avoided the real problem.",
+      "promptZh": "他們談了相關內容一小時,但避開了真正的問題。",
+      "starter": "For",
+      "answer": "For an hour, they talked around the real problem.",
+      "answerZh": "他們繞着真正的問題談了一小時,卻沒有直接談到核心。",
+      "highlight": "talked around",
+      "targetForm": "talk around something",
+      "targetMeaningZh": "避開核心問題,只談周邊內容"
+    },
+    {
+      "id": "phrasal-verb-217-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Nora persuaded me to join the drama club.",
+      "promptZh": "諾拉說服我加入戲劇學會。",
+      "starter": "Nora",
+      "answer": "Nora talked me into joining the drama club.",
+      "answerZh": "諾拉說服我加入戲劇學會。",
+      "highlight": "talked",
+      "targetForm": "talk somebody into doing something",
+      "targetMeaningZh": "說服某人做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We should discuss the plan carefully before we book anything.",
+      "promptZh": "我們預訂任何東西前,應該先仔細商量這個計劃。",
+      "starter": "We",
+      "answer": "We should talk the plan over before we book anything.",
+      "answerZh": "我們預訂任何東西前,應該先商量一下這個計劃。",
+      "highlight": "talk",
+      "targetForm": "talk something over",
+      "targetMeaningZh": "在作決定前商量"
+    },
+    {
+      "id": "phrasal-verb-217-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The two children were soon chatting continuously and happily with each other.",
+      "promptZh": "兩個孩子很快便輕鬆愉快地聊個不停。",
+      "starter": "The",
+      "answer": "The two children were soon talking away to each other.",
+      "answerZh": "兩個孩子很快便輕鬆地聊個不停。",
+      "highlight": "talking away to",
+      "targetForm": "talk away to somebody",
+      "targetMeaningZh": "輕鬆而不停地說話"
+    },
+    {
+      "id": "phrasal-verb-217-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "To attract more visitors, the adverts described the new attraction as extremely exciting.",
+      "promptZh": "為了吸引更多遊客,廣告把這個新景點形容得非常精彩。",
+      "starter": "To",
+      "answer": "To attract more visitors, the adverts talked the new attraction up.",
+      "answerZh": "為了吸引更多遊客,廣告大力宣傳這個新景點。",
+      "highlight": "talked",
+      "targetForm": "talk something up",
+      "targetMeaningZh": "大力稱讚或宣傳某事物"
+    },
+    {
+      "id": "phrasal-verb-217-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The instructor speaks to beginners as if they know nothing.",
+      "promptZh": "導師對初學者說話時,彷彿他們甚麼都不懂。",
+      "starter": "The",
+      "answer": "The instructor talks down to beginners as if they know nothing.",
+      "answerZh": "導師以高人一等的態度對初學者說話,彷彿他們甚麼都不懂。",
+      "highlight": "talks down",
+      "targetForm": "talk down to somebody",
+      "targetMeaningZh": "以高人一等的態度對某人說話"
+    },
+    {
+      "id": "phrasal-verb-217-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The sisters discussed their disagreement fully and felt calmer afterwards.",
+      "promptZh": "兩姊妹徹底討論了彼此的分歧,其後感到平靜了一點。",
+      "starter": "The",
+      "answer": "The sisters talked their disagreement out and felt calmer afterwards.",
+      "answerZh": "兩姊妹把分歧徹底談開,其後感到平靜了一點。",
+      "highlight": "talked",
+      "targetForm": "talk something out",
+      "targetMeaningZh": "把問題或分歧徹底談開"
+    },
+    {
+      "id": "phrasal-verb-217-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "A calm officer used gentle words until the angry driver became calmer.",
+      "promptZh": "一名冷靜的警員以溫和的說話令憤怒的司機平靜下來。",
+      "starter": "A",
+      "answer": "A calm officer talked the angry driver down.",
+      "answerZh": "一名冷靜的警員以說話令憤怒的司機平靜下來。",
+      "highlight": "talked",
+      "targetForm": "talk somebody down",
+      "targetMeaningZh": "以說話令非常激動的人平靜"
+    },
+    {
+      "id": "phrasal-verb-217-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "My parents disliked the idea of a weekend trip at first, but I persuaded them to accept it.",
+      "promptZh": "父母起初不喜歡週末旅行的想法,但我說服了他們接受。",
+      "starter": "I",
+      "answer": "I talked my parents round to the idea of a weekend trip.",
+      "answerZh": "我說服父母接受週末旅行的想法。",
+      "highlight": "I talked",
+      "targetForm": "talk somebody round to something",
+      "targetMeaningZh": "說服某人改變主意或接受某事"
+    },
+    {
+      "id": "phrasal-verb-217-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "My sister persuaded me not to buy the broken bicycle.",
+      "promptZh": "姐姐說服我不要購買那輛壞掉的單車。",
+      "starter": "My",
+      "answer": "My sister talked me out of buying the broken bicycle.",
+      "answerZh": "姐姐說服我不要購買那輛壞掉的單車。",
+      "highlight": "talked",
+      "targetForm": "talk somebody out of doing something",
+      "targetMeaningZh": "說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Let us discuss every part of the new timetable before we use it.",
+      "promptZh": "我們使用新時間表前,先仔細討論每一部分。",
+      "starter": "Let",
+      "answer": "Let us talk the new timetable through before we use it.",
+      "answerZh": "我們使用新時間表前,先把每一部分仔細談清楚。",
+      "highlight": "talk",
+      "targetForm": "talk something through",
+      "targetMeaningZh": "把某事的每一部分仔細討論"
+    },
+    {
+      "id": "phrasal-verb-217-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The speaker spoke for forty minutes without listening to us or inviting a question.",
+      "promptZh": "講者說了四十分鐘,期間沒有聆聽我們,也沒有讓我們提問。",
+      "starter": "The",
+      "answer": "The speaker talked at us for forty minutes and never invited a question.",
+      "answerZh": "講者只顧對我們說了四十分鐘,從沒有讓我們提問。",
+      "highlight": "talked at us",
+      "targetForm": "talk at somebody",
+      "targetMeaningZh": "只顧自己說,不讓對方真正參與"
+    },
+    {
+      "id": "phrasal-verb-217-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "By midnight, the old friends had spoken until they had nothing more to say.",
+      "promptZh": "到午夜時,幾位老朋友已談到沒有話可說。",
+      "starter": "By",
+      "answer": "By midnight, the old friends had talked themselves out.",
+      "answerZh": "到午夜時,幾位老朋友已經聊到沒有話可說。",
+      "highlight": "talked themselves out",
+      "targetForm": "talk yourself out",
+      "targetMeaningZh": "一直說到沒有話可說或說累"
+    },
+    {
+      "id": "phrasal-verb-217-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The company has been praising its new phone heavily for weeks.",
+      "promptZh": "公司連續幾星期一直大力稱讚自己的新電話。",
+      "starter": "The",
+      "answer": "The company has been talking up its new phone for weeks.",
+      "answerZh": "公司連續幾星期一直大力宣傳自己的新電話。",
+      "highlight": "talking up",
+      "targetForm": "talk something up",
+      "targetMeaningZh": "大力稱讚或宣傳某事物"
+    },
+    {
+      "id": "phrasal-verb-217-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Grandad sat by the fire and kept speaking happily about his school days.",
+      "promptZh": "爺爺坐在火爐旁,不停地開心談論自己的學生時代。",
+      "starter": "Grandad",
+      "answer": "Grandad sat by the fire, talking away about his school days.",
+      "answerZh": "爺爺坐在火爐旁,不停地談着自己的學生時代。",
+      "highlight": "talking away",
+      "targetForm": "talk away",
+      "targetMeaningZh": "輕鬆而不停地說話"
+    },
+    {
+      "id": "phrasal-verb-217-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Do not let them persuade you not to apply for the job.",
+      "promptZh": "不要讓他們說服你不申請這份工作。",
+      "starter": "Do",
+      "answer": "Do not let them talk you out of applying for the job.",
+      "answerZh": "不要讓他們說服你放棄申請這份工作。",
+      "highlight": "talk",
+      "targetForm": "talk somebody out of doing something",
+      "targetMeaningZh": "說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Can you explain the online form to me one step at a time?",
+      "promptZh": "你可以逐步向我講解這份網上表格嗎?",
+      "starter": "Can",
+      "answer": "Can you talk me through the online form?",
+      "answerZh": "你可以逐步向我講解這份網上表格嗎?",
+      "highlight": "talk me through",
+      "targetForm": "talk somebody through something",
+      "targetMeaningZh": "逐步向某人講解某事"
+    },
+    {
+      "id": "phrasal-verb-217-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The coach is trying to make the upset player calmer by speaking gently.",
+      "promptZh": "教練正嘗試以溫和的說話令情緒激動的球員平靜下來。",
+      "starter": "The",
+      "answer": "The coach is trying to talk the upset player down.",
+      "answerZh": "教練正嘗試以說話令情緒激動的球員平靜下來。",
+      "highlight": "talk",
+      "targetForm": "talk somebody down",
+      "targetMeaningZh": "以說話令非常激動的人平靜"
+    },
+    {
+      "id": "phrasal-verb-217-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The guests were still discussing everything except the main question when dinner ended.",
+      "promptZh": "晚餐結束時,客人仍在討論主要問題以外的一切。",
+      "starter": "The",
+      "answer": "The guests were still talking round the main question when dinner ended.",
+      "answerZh": "晚餐結束時,客人仍在繞着主要問題談,沒有直接回答。",
+      "highlight": "talking round",
+      "targetForm": "talk round something",
+      "targetMeaningZh": "避開核心問題,只談周邊內容"
+    },
+    {
+      "id": "phrasal-verb-217-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "After three meetings, she has finally persuaded the committee to change its mind.",
+      "promptZh": "經過三次會議後,她終於說服委員會改變主意。",
+      "starter": "After",
+      "answer": "After three meetings, she has finally talked the committee round.",
+      "answerZh": "經過三次會議後,她終於說服委員會改變主意。",
+      "highlight": "talked",
+      "targetForm": "talk somebody round",
+      "targetMeaningZh": "說服某人改變主意"
+    },
+    {
+      "id": "phrasal-verb-217-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The trainer was giving us a one-sided speech instead of listening to us.",
+      "promptZh": "導師只顧向我們講話,沒有聆聽我們。",
+      "starter": "The",
+      "answer": "The trainer was talking at us rather than listening to us.",
+      "answerZh": "導師只顧對我們說話,沒有聆聽我們。",
+      "highlight": "talking at",
+      "targetForm": "talk at somebody",
+      "targetMeaningZh": "只顧自己說,不讓對方真正參與"
+    },
+    {
+      "id": "phrasal-verb-217-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Have you discussed it carefully with your parents?",
+      "promptZh": "你跟父母仔細商量過這件事了嗎?",
+      "starter": "Have",
+      "answer": "Have you talked it over with your parents?",
+      "answerZh": "你跟父母商量過這件事了嗎?",
+      "highlight": "talked",
+      "targetForm": "talk something over with somebody",
+      "targetMeaningZh": "跟某人商量某事"
+    },
+    {
+      "id": "phrasal-verb-217-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Why does the manager keep speaking to the new staff as if they are children?",
+      "promptZh": "經理為何一直把新員工當作小孩子般說話?",
+      "starter": "Why",
+      "answer": "Why does the manager keep talking down to the new staff?",
+      "answerZh": "經理為何一直以高人一等的態度對新員工說話?",
+      "highlight": "talking down",
+      "targetForm": "talk down to somebody",
+      "targetMeaningZh": "以高人一等的態度對某人說話"
+    },
+    {
+      "id": "phrasal-verb-217-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Has Priya had a proper conversation with the new neighbour yet?",
+      "promptZh": "普里雅跟新鄰居好好談過了嗎?",
+      "starter": "Has",
+      "answer": "Has Priya talked with the new neighbour yet?",
+      "answerZh": "普里雅跟新鄰居談過了嗎?",
+      "highlight": "talked",
+      "targetForm": "talk with somebody",
+      "targetMeaningZh": "與某人交談"
+    },
+    {
+      "id": "phrasal-verb-217-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "If I keep speaking for much longer, I will have nothing left to say.",
+      "promptZh": "如果我再說下去,我便會沒有話可說。",
+      "starter": "If",
+      "answer": "If I keep speaking for much longer, I will talk myself out.",
+      "answerZh": "如果我再說下去,我便會說到沒有話可說。",
+      "highlight": "talk myself out",
+      "targetForm": "talk yourself out",
+      "targetMeaningZh": "一直說到沒有話可說或說累"
+    },
+    {
+      "id": "phrasal-verb-217-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "How did they persuade you to buy such an expensive phone?",
+      "promptZh": "他們怎樣說服你買這部這麼昂貴的電話?",
+      "starter": "How",
+      "answer": "How did they talk you into buying such an expensive phone?",
+      "answerZh": "他們怎樣說服你買這部這麼昂貴的電話?",
+      "highlight": "talk",
+      "targetForm": "talk somebody into doing something",
+      "targetMeaningZh": "說服某人做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The team has discussed every part of the safety plan twice.",
+      "promptZh": "團隊已仔細討論安全計劃的每一部分兩次。",
+      "starter": "The",
+      "answer": "The team has talked the safety plan through twice.",
+      "answerZh": "團隊已把安全計劃的每一部分仔細討論了兩次。",
+      "highlight": "talked",
+      "targetForm": "talk something through",
+      "targetMeaningZh": "把某事的每一部分仔細討論"
+    },
+    {
+      "id": "phrasal-verb-217-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Why are you answering your grandmother so rudely?",
+      "promptZh": "你為何這麼無禮地回應祖母?",
+      "starter": "Why",
+      "answer": "Why are you talking back to your grandmother?",
+      "answerZh": "你為何要向祖母頂嘴?",
+      "highlight": "talking back to",
+      "targetForm": "talk back to somebody",
+      "targetMeaningZh": "無禮地回應;頂嘴"
+    },
+    {
+      "id": "phrasal-verb-217-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "We need to discuss this problem fully before it harms the team.",
+      "promptZh": "我們需要徹底討論這個問題,以免它傷害團隊。",
+      "starter": "We",
+      "answer": "We need to talk this problem out before it harms the team.",
+      "answerZh": "我們需要把這個問題徹底談開,以免它傷害團隊。",
+      "highlight": "talk",
+      "targetForm": "talk something out",
+      "targetMeaningZh": "把問題或分歧徹底談開"
+    },
+    {
+      "id": "phrasal-verb-217-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "After the argument, the two friends discussed everything until they reached an agreement.",
+      "promptZh": "爭執後,兩位朋友把所有事情談清楚,直至達成共識。",
+      "starter": "After",
+      "answer": "After the argument, the two friends talked it out and reached an agreement.",
+      "answerZh": "爭執後,兩位朋友把事情徹底談開,並達成共識。",
+      "highlight": "talked it out and",
+      "targetForm": "talk something out",
+      "targetMeaningZh": "把問題或分歧徹底談開"
+    },
+    {
+      "id": "phrasal-verb-217-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Instead of saying what the problem was, we kept discussing other things.",
+      "promptZh": "我們沒有說明問題是甚麼,反而一直討論其他事情。",
+      "starter": "Instead",
+      "answer": "Instead of saying what the problem was, we kept talking around it.",
+      "answerZh": "我們沒有說明問題是甚麼,反而一直繞着它談。",
+      "highlight": "talking around it",
+      "targetForm": "talk around something",
+      "targetMeaningZh": "避開核心問題,只談周邊內容"
+    },
+    {
+      "id": "phrasal-verb-217-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We had a conversation with the head teacher about the broken window.",
+      "promptZh": "我們跟校長談了破窗的事情。",
+      "starter": "We",
+      "answer": "We talked to the head teacher about the broken window.",
+      "answerZh": "我們跟校長談了破窗的事情。",
+      "highlight": "talked to",
+      "targetForm": "talk to somebody",
+      "targetMeaningZh": "與某人交談"
+    },
+    {
+      "id": "phrasal-verb-217-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "By the time help arrived, Eva had used a calm voice to make the frightened boy feel safe again.",
+      "promptZh": "救援人員到達時,艾娃已以平靜的聲音令受驚的男孩再次感到安全。",
+      "starter": "By",
+      "answer": "By the time help arrived, Eva had talked the frightened boy down.",
+      "answerZh": "救援人員到達時,艾娃已以說話令受驚的男孩平靜下來。",
+      "highlight": "talked",
+      "targetForm": "talk somebody down",
+      "targetMeaningZh": "以說話令非常激動的人平靜"
+    },
+    {
+      "id": "phrasal-verb-217-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Before the event, we discussed carefully what each person should do.",
+      "promptZh": "活動開始前,我們仔細討論了每個人應該做甚麼。",
+      "starter": "Before",
+      "answer": "Before the event, we talked through what each person should do.",
+      "answerZh": "活動開始前,我們仔細談清楚每個人應該做甚麼。",
+      "highlight": "talked through",
+      "targetForm": "talk something through",
+      "targetMeaningZh": "把某事的每一部分仔細討論"
+    },
+    {
+      "id": "phrasal-verb-217-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I was unsure about applying for the course, but in the end I persuaded myself to do it.",
+      "promptZh": "我不肯定是否應該報讀課程,但最後說服了自己去申請。",
+      "starter": "In",
+      "answer": "In the end, I talked myself into applying for the course.",
+      "answerZh": "最後,我說服自己申請這個課程。",
+      "highlight": "In the end",
+      "targetForm": "talk yourself into doing something",
+      "targetMeaningZh": "說服自己做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "While we waited for the train, Arun and Sofia chatted freely as if they were old friends.",
+      "promptZh": "等候火車期間,阿倫和索菲亞像老朋友一樣輕鬆聊天。",
+      "starter": "While",
+      "answer": "While we waited for the train, Arun and Sofia talked away as if they were old friends.",
+      "answerZh": "等候火車期間,阿倫和索菲亞像老朋友一樣聊個不停。",
+      "highlight": "talked away",
+      "targetForm": "talk away",
+      "targetMeaningZh": "輕鬆而不停地說話"
+    },
+    {
+      "id": "phrasal-verb-217-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The two friends discussed the offer carefully during lunch.",
+      "promptZh": "兩位朋友在午膳期間仔細商量這項提議。",
+      "starter": "During",
+      "answer": "During lunch, the two friends talked the offer over.",
+      "answerZh": "午膳期間,兩位朋友仔細商量了這項提議。",
+      "highlight": "During lunch",
+      "targetForm": "talk something over",
+      "targetMeaningZh": "在作決定前商量"
+    },
+    {
+      "id": "phrasal-verb-217-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "I felt that the adviser had spoken continuously without listening to my concerns.",
+      "promptZh": "我覺得顧問一直只顧說話,沒有聆聽我的憂慮。",
+      "starter": "I",
+      "answer": "I felt that the adviser had talked at me instead of listening to my concerns.",
+      "answerZh": "我覺得顧問只顧對我說話,沒有聆聽我的憂慮。",
+      "highlight": "talked at me instead of",
+      "targetForm": "talk at somebody",
+      "targetMeaningZh": "只顧自己說,不讓對方真正參與"
+    },
+    {
+      "id": "phrasal-verb-217-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Could you persuade Raj to support our new plan?",
+      "promptZh": "你可以說服拉傑支持我們的新計劃嗎?",
+      "starter": "Could",
+      "answer": "Could you talk Raj round to our new plan?",
+      "answerZh": "你可以說服拉傑接受我們的新計劃嗎?",
+      "highlight": "talk",
+      "targetForm": "talk somebody round to something",
+      "targetMeaningZh": "說服某人改變主意或接受某事"
+    },
+    {
+      "id": "phrasal-verb-217-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The presenter described her guest as one of the best young singers in Britain.",
+      "promptZh": "主持人把嘉賓形容為英國最出色的年輕歌手之一。",
+      "starter": "The",
+      "answer": "The presenter talked her guest up as one of the best young singers in Britain.",
+      "answerZh": "主持人把嘉賓大力吹捧為英國最出色的年輕歌手之一。",
+      "highlight": "talked",
+      "targetForm": "talk somebody up",
+      "targetMeaningZh": "大力稱讚或宣傳某人"
+    },
+    {
+      "id": "phrasal-verb-217-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The pupil had never answered a teacher rudely before that day.",
+      "promptZh": "在那天以前,該學生從未無禮地回應老師。",
+      "starter": "Before",
+      "answer": "Before that day, the pupil had never talked back to a teacher.",
+      "answerZh": "在那天以前,該學生從未向老師頂嘴。",
+      "highlight": "Before that day",
+      "targetForm": "talk back to somebody",
+      "targetMeaningZh": "無禮地回應;頂嘴"
+    },
+    {
+      "id": "phrasal-verb-217-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Before the test began, the teacher explained each part to us one by one.",
+      "promptZh": "考試開始前,老師逐步向我們講解每一部分。",
+      "starter": "Before",
+      "answer": "Before the test began, the teacher talked us through each part.",
+      "answerZh": "考試開始前,老師逐步向我們講解每一部分。",
+      "highlight": "talked us through",
+      "targetForm": "talk somebody through something",
+      "targetMeaningZh": "逐步向某人講解某事"
+    },
+    {
+      "id": "phrasal-verb-217-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "I had almost decided to take the trip, but then I persuaded myself not to go.",
+      "promptZh": "我本來幾乎決定參加這次旅程,但後來說服自己不要去。",
+      "starter": "I",
+      "answer": "I had almost decided to take the trip, but then I talked myself out of it.",
+      "answerZh": "我本來幾乎決定參加這次旅程,但後來說服自己不要去。",
+      "highlight": "talked",
+      "targetForm": "talk yourself out of something",
+      "targetMeaningZh": "說服自己不要做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "By the end of the long call, we had spoken until neither of us had anything more to say.",
+      "promptZh": "長時間通話結束時,我們已談到彼此都沒有話可說。",
+      "starter": "By",
+      "answer": "By the end of the long call, we had talked ourselves out.",
+      "answerZh": "長時間通話結束時,我們已經聊到沒有話可說。",
+      "highlight": "talked ourselves out",
+      "targetForm": "talk yourself out",
+      "targetMeaningZh": "一直說到沒有話可說或說累"
+    },
+    {
+      "id": "phrasal-verb-217-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "I stopped asking for help because the assistant had spoken to me as if I were stupid.",
+      "promptZh": "我不再求助,因為那名助理把我當作愚蠢的人般說話。",
+      "starter": "I",
+      "answer": "I stopped asking for help because the assistant had talked down to me.",
+      "answerZh": "我不再求助,因為那名助理以高人一等的態度對我說話。",
+      "highlight": "talked down",
+      "targetForm": "talk down to somebody",
+      "targetMeaningZh": "以高人一等的態度對某人說話"
+    },
+    {
+      "id": "phrasal-verb-217-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Good teachers explain difficult ideas without speaking to students as if they are less intelligent.",
+      "promptZh": "好老師解釋困難概念時,不會把學生當作較愚笨的人般說話。",
+      "starter": "Good",
+      "answer": "Good teachers explain difficult ideas without talking down to their students.",
+      "answerZh": "好老師解釋困難概念時,不會以高人一等的態度對學生說話。",
+      "highlight": "talking down",
+      "targetForm": "talk down to somebody",
+      "targetMeaningZh": "以高人一等的態度對某人說話"
+    },
+    {
+      "id": "phrasal-verb-217-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The nurse did not simply give Omar a list; she explained each exercise to him step by step.",
+      "promptZh": "護士沒有只給奧馬一張清單,而是逐步向他講解每項練習。",
+      "starter": "The",
+      "answer": "The nurse did not simply give Omar a list; she talked him through each exercise.",
+      "answerZh": "護士沒有只給奧馬一張清單,而是逐步向他講解每項練習。",
+      "highlight": "talked him through",
+      "targetForm": "talk somebody through something",
+      "targetMeaningZh": "逐步向某人講解某事"
+    },
+    {
+      "id": "phrasal-verb-217-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The interview sounded busy, but both speakers avoided the real issue.",
+      "promptZh": "訪問聽起來內容很多,但兩位講者都避開了真正的問題。",
+      "starter": "The",
+      "answer": "The interview sounded busy, but both speakers talked round the real issue.",
+      "answerZh": "訪問聽起來內容很多,但兩位講者都繞着真正的問題談。",
+      "highlight": "talked round",
+      "targetForm": "talk round something",
+      "targetMeaningZh": "避開核心問題,只談周邊內容"
+    },
+    {
+      "id": "phrasal-verb-217-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Our friends nearly persuaded us not to go because of the rain.",
+      "promptZh": "朋友因為下雨,差點說服我們不要去。",
+      "starter": "Our",
+      "answer": "Our friends nearly talked us out of going because of the rain.",
+      "answerZh": "朋友因為下雨,差點說服我們不要去。",
+      "highlight": "talked",
+      "targetForm": "talk somebody out of doing something",
+      "targetMeaningZh": "說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Although the event was small, the organisers described it as the biggest show of the summer.",
+      "promptZh": "雖然活動規模很小,主辦單位卻把它形容為夏季最大型的表演。",
+      "starter": "Although",
+      "answer": "Although the event was small, the organisers talked it up as the biggest show of the summer.",
+      "answerZh": "雖然活動規模很小,主辦單位卻把它大力宣傳為夏季最大型的表演。",
+      "highlight": "talked",
+      "targetForm": "talk something up",
+      "targetMeaningZh": "大力稱讚或宣傳某事物"
+    },
+    {
+      "id": "phrasal-verb-217-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Lena kept speaking for so long that she had nothing left to say before the guests arrived.",
+      "promptZh": "客人到達前,莉娜已說了很久,最後沒有話可說。",
+      "starter": "Lena",
+      "answer": "Lena talked herself out before the guests arrived.",
+      "answerZh": "客人到達前,莉娜已經說到沒有話可說。",
+      "highlight": "talked herself out",
+      "targetForm": "talk yourself out",
+      "targetMeaningZh": "一直說到沒有話可說或說累"
+    },
+    {
+      "id": "phrasal-verb-217-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Even though he was angry, Ravi did not answer the referee rudely.",
+      "promptZh": "即使拉維很生氣,他也沒有無禮地回應球證。",
+      "starter": "Even",
+      "answer": "Even though he was angry, Ravi did not talk back to the referee.",
+      "answerZh": "即使拉維很生氣,他也沒有向球證頂嘴。",
+      "highlight": "talk back to",
+      "targetForm": "talk back to somebody",
+      "targetMeaningZh": "無禮地回應;頂嘴"
+    },
+    {
+      "id": "phrasal-verb-217-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The teachers discussed every option carefully with the parents.",
+      "promptZh": "老師跟家長仔細討論了每一個選擇。",
+      "starter": "The",
+      "answer": "The teachers talked every option through with the parents.",
+      "answerZh": "老師跟家長仔細討論了每一個選擇。",
+      "highlight": "talked",
+      "targetForm": "talk something through",
+      "targetMeaningZh": "把某事的每一部分仔細討論"
+    },
+    {
+      "id": "phrasal-verb-217-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The nurse spoke slowly until the very worried parent became calm before the test began.",
+      "promptZh": "護士慢慢說話,直至非常擔心的家長在測試開始前平靜下來。",
+      "starter": "The",
+      "answer": "The nurse talked the very worried parent down before the test began.",
+      "answerZh": "護士以說話令非常擔心的家長在測試開始前平靜下來。",
+      "highlight": "talked",
+      "targetForm": "talk somebody down",
+      "targetMeaningZh": "以說話令非常激動的人平靜"
+    },
+    {
+      "id": "phrasal-verb-217-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The host kept speaking without letting the guests answer, so no one could join the conversation.",
+      "promptZh": "主持人只顧說話,不讓客人回答,所以沒有人能加入對話。",
+      "starter": "The",
+      "answer": "The host kept talking at the guests, so no one could join the conversation.",
+      "answerZh": "主持人只顧對客人說話,所以沒有人能加入對話。",
+      "highlight": "talking at",
+      "targetForm": "talk at somebody",
+      "targetMeaningZh": "只顧自己說,不讓對方真正參與"
+    },
+    {
+      "id": "phrasal-verb-217-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The team disliked the new timetable at first, but the coach persuaded them to accept it.",
+      "promptZh": "球隊起初不喜歡新時間表,但教練說服了他們接受。",
+      "starter": "The",
+      "answer": "The team disliked the new timetable at first, but the coach talked them round.",
+      "answerZh": "球隊起初不喜歡新時間表,但教練說服了他們接受。",
+      "highlight": "talked",
+      "targetForm": "talk somebody round",
+      "targetMeaningZh": "說服某人改變主意"
+    },
+    {
+      "id": "phrasal-verb-217-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The room had been quiet, but within minutes everyone was chatting freely.",
+      "promptZh": "房間本來很安靜,但幾分鐘內大家便輕鬆地聊天。",
+      "starter": "The",
+      "answer": "The room had been quiet, but within minutes everyone was talking away.",
+      "answerZh": "房間本來很安靜,但幾分鐘內大家便聊個不停。",
+      "highlight": "talking away",
+      "targetForm": "talk away",
+      "targetMeaningZh": "輕鬆而不停地說話"
+    },
+    {
+      "id": "phrasal-verb-217-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "With a counsellor’s help, the two neighbours discussed their differences fully.",
+      "promptZh": "在輔導員協助下,兩位鄰居徹底討論了彼此的分歧。",
+      "starter": "With",
+      "answer": "With a counsellor’s help, the two neighbours talked their differences out.",
+      "answerZh": "在輔導員協助下,兩位鄰居把彼此的分歧徹底談開。",
+      "highlight": "talked",
+      "targetForm": "talk something out",
+      "targetMeaningZh": "把問題或分歧徹底談開"
+    },
+    {
+      "id": "phrasal-verb-217-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Rather than sending another message, Leo had a conversation with the organiser in person.",
+      "promptZh": "里奧沒有再發訊息,而是親自跟主辦人交談。",
+      "starter": "Rather",
+      "answer": "Rather than sending another message, Leo talked with the organiser in person.",
+      "answerZh": "里奧沒有再發訊息,而是親自跟主辦人交談。",
+      "highlight": "talked",
+      "targetForm": "talk with somebody",
+      "targetMeaningZh": "與某人交談"
+    },
+    {
+      "id": "phrasal-verb-217-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The salesman nearly persuaded us to choose the more expensive plan, although we did not need its extra features.",
+      "promptZh": "售貨員差點說服我們選擇較昂貴的計劃,雖然我們並不需要額外功能。",
+      "starter": "The",
+      "answer": "The salesman nearly talked us into the more expensive plan, although we did not need its extra features.",
+      "answerZh": "售貨員差點說服我們選擇較昂貴的計劃,雖然我們並不需要額外功能。",
+      "highlight": "talked",
+      "targetForm": "talk somebody into something",
+      "targetMeaningZh": "說服某人接受某事"
+    },
+    {
+      "id": "phrasal-verb-217-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Because the choice affects everyone, let us discuss it carefully before we vote.",
+      "promptZh": "由於這個選擇會影響所有人,我們投票前先仔細商量一下。",
+      "starter": "Because",
+      "answer": "Because the choice affects everyone, let us talk it over before we vote.",
+      "answerZh": "由於這個選擇會影響所有人,我們投票前先商量一下。",
+      "highlight": "talk",
+      "targetForm": "talk something over",
+      "targetMeaningZh": "在作決定前商量"
+    },
+    {
+      "id": "phrasal-verb-217-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "It took several conversations, but Ana eventually persuaded the owner to accept a later closing time.",
+      "promptZh": "經過幾次交談後,安娜終於說服店主接受較遲的關門時間。",
+      "starter": "It",
+      "answer": "It took several conversations, but Ana eventually talked the owner round to a later closing time.",
+      "answerZh": "經過幾次交談後,安娜終於說服店主接受較遲的關門時間。",
+      "highlight": "talked",
+      "targetForm": "talk somebody round to something",
+      "targetMeaningZh": "說服某人改變主意或接受某事"
+    },
+    {
+      "id": "phrasal-verb-217-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Although the meeting was called a discussion, the director spoke without listening to anyone for most of it.",
+      "promptZh": "雖然會議名為討論,但主管大部分時間都只顧說話,沒有聆聽任何人。",
+      "starter": "Although",
+      "answer": "Although the meeting was called a discussion, the director talked at everyone for most of it.",
+      "answerZh": "雖然會議名為討論,但主管大部分時間都只顧對所有人說話。",
+      "highlight": "talked at everyone",
+      "targetForm": "talk at somebody",
+      "targetMeaningZh": "只顧自己說,不讓對方真正參與"
+    },
+    {
+      "id": "phrasal-verb-217-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After discussing the problem carefully with her tutor, Nina decided to change one part of her project.",
+      "promptZh": "妮娜跟導師仔細商量問題後,決定修改項目的一部分。",
+      "starter": "After",
+      "answer": "After talking the problem over with her tutor, Nina decided to change one part of her project.",
+      "answerZh": "妮娜跟導師商量問題後,決定修改項目的一部分。",
+      "highlight": "talking",
+      "targetForm": "talk something over with somebody",
+      "targetMeaningZh": "跟某人商量某事"
+    },
+    {
+      "id": "phrasal-verb-217-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Although I had planned to stay home, my friends persuaded me to go to the concert.",
+      "promptZh": "雖然我原本打算留在家中,但朋友說服我去音樂會。",
+      "starter": "Although",
+      "answer": "Although I had planned to stay home, my friends talked me into going to the concert.",
+      "answerZh": "雖然我原本打算留在家中,但朋友說服我去音樂會。",
+      "highlight": "talked",
+      "targetForm": "talk somebody into doing something",
+      "targetMeaningZh": "說服某人做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "When the customer became very angry, the shop manager used a calm voice until he became quieter.",
+      "promptZh": "顧客非常憤怒時,店舖經理以平靜的聲音令他安靜下來。",
+      "starter": "When",
+      "answer": "When the customer became very angry, the shop manager managed to talk him down.",
+      "answerZh": "顧客非常憤怒時,店舖經理成功以說話令他平靜下來。",
+      "highlight": "managed to talk him down",
+      "targetForm": "talk somebody down",
+      "targetMeaningZh": "以說話令非常激動的人平靜"
+    },
+    {
+      "id": "phrasal-verb-217-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Before making a complaint, I would like to have a conversation with the manager directly.",
+      "promptZh": "提出投訴前,我想先直接跟經理談一談。",
+      "starter": "Before",
+      "answer": "Before making a complaint, I would like to talk to the manager directly.",
+      "answerZh": "提出投訴前,我想先直接跟經理談一談。",
+      "highlight": "talk to",
+      "targetForm": "talk to somebody",
+      "targetMeaningZh": "與某人交談"
+    },
+    {
+      "id": "phrasal-verb-217-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "With no early train to catch, the travellers spoke for hours until they had nothing more to say.",
+      "promptZh": "由於不用趕早班火車,幾位旅客聊了幾小時,直至沒有話可說。",
+      "starter": "With",
+      "answer": "With no early train to catch, the travellers eventually talked themselves out.",
+      "answerZh": "由於不用趕早班火車,幾位旅客最後聊到沒有話可說。",
+      "highlight": "eventually talked themselves out",
+      "targetForm": "talk yourself out",
+      "targetMeaningZh": "一直說到沒有話可說或說累"
+    },
+    {
+      "id": "phrasal-verb-217-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "For most of the meeting, the committee discussed related details and only gave the actual cost at the end.",
+      "promptZh": "會議大部分時間,委員會都只談相關細節,直至最後才提供實際費用。",
+      "starter": "For",
+      "answer": "For most of the meeting, the committee talked around the cost of the plan before finally giving a figure.",
+      "answerZh": "會議大部分時間,委員會都避談計劃的費用,直至最後才提供數字。",
+      "highlight": "talked around",
+      "targetForm": "talk around something",
+      "targetMeaningZh": "避開核心問題,只談周邊內容"
+    },
+    {
+      "id": "phrasal-verb-217-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "When the printer stopped working, a technician explained the checks to us one by one over the phone.",
+      "promptZh": "打印機停止運作時,技術人員透過電話逐步向我們講解各項檢查。",
+      "starter": "When",
+      "answer": "When the printer stopped working, a technician talked us through the checks over the phone.",
+      "answerZh": "打印機停止運作時,技術人員透過電話逐步帶我們完成檢查。",
+      "highlight": "talked us through",
+      "targetForm": "talk somebody through something",
+      "targetMeaningZh": "逐步向某人講解某事"
+    },
+    {
+      "id": "phrasal-verb-217-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Answering the manager rudely only made the situation worse.",
+      "promptZh": "無禮地回應經理只會令情況更差。",
+      "starter": "Talking",
+      "answer": "Talking back to the manager only made the situation worse.",
+      "answerZh": "向經理頂嘴只會令情況更差。",
+      "highlight": "Talking back to",
+      "targetForm": "talk back to somebody",
+      "targetMeaningZh": "無禮地回應;頂嘴"
+    },
+    {
+      "id": "phrasal-verb-217-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The travel website praised the town so successfully that weekend bookings increased.",
+      "promptZh": "旅遊網站成功大力稱讚該小鎮,令週末預訂增加。",
+      "starter": "The",
+      "answer": "The travel website talked the town up so successfully that weekend bookings increased.",
+      "answerZh": "旅遊網站成功大力宣傳該小鎮,令週末預訂增加。",
+      "highlight": "talked",
+      "targetForm": "talk something up",
+      "targetMeaningZh": "大力稱讚或宣傳某事物"
+    },
+    {
+      "id": "phrasal-verb-217-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "I was ready to leave the course, but my tutor persuaded me not to leave.",
+      "promptZh": "我本來準備離開課程,但導師說服我不要離開。",
+      "starter": "I",
+      "answer": "I was ready to leave the course, but my tutor talked me out of leaving.",
+      "answerZh": "我本來準備離開課程,但導師說服我不要離開。",
+      "highlight": "talked",
+      "targetForm": "talk somebody out of doing something",
+      "targetMeaningZh": "說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-217-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Once the shy guests discovered a shared interest, they chatted happily until the café closed.",
+      "promptZh": "害羞的客人發現共同興趣後,一直開心聊天至咖啡店關門。",
+      "starter": "Once",
+      "answer": "Once the shy guests discovered a shared interest, they talked away until the café closed.",
+      "answerZh": "害羞的客人發現共同興趣後,一直開心聊天至咖啡店關門。",
+      "highlight": "talked away",
+      "targetForm": "talk away",
+      "targetMeaningZh": "輕鬆而不停地說話"
+    },
+    {
+      "id": "phrasal-verb-217-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Once everyone had become calm, the family discussed the problem fully and agreed on a fair rule.",
+      "promptZh": "大家平靜後,一家人徹底討論問題,並同意一項公平的規則。",
+      "starter": "Once",
+      "answer": "Once everyone had become calm, the family talked the problem out and agreed on a fair rule.",
+      "answerZh": "大家平靜後,一家人把問題徹底談開,並同意一項公平的規則。",
+      "highlight": "talked",
+      "targetForm": "talk something out",
+      "targetMeaningZh": "把問題或分歧徹底談開"
+    },
+    {
+      "id": "phrasal-verb-217-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Even when a customer makes a simple mistake, staff should never speak as if the customer is stupid.",
+      "promptZh": "即使顧客犯了簡單錯誤,員工也絕不應把顧客當作愚蠢的人般說話。",
+      "starter": "Even",
+      "answer": "Even when a customer makes a simple mistake, staff should never talk down to them.",
+      "answerZh": "即使顧客犯了簡單錯誤,員工也絕不應以高人一等的態度對他們說話。",
+      "highlight": "talk down to them",
+      "targetForm": "talk down to somebody",
+      "targetMeaningZh": "以高人一等的態度對某人說話"
+    },
+    {
+      "id": "phrasal-verb-217-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Instead of making a quick decision, the group discussed every possible choice carefully and then voted.",
+      "promptZh": "小組沒有匆忙作出決定,而是仔細討論每個可行選擇後才投票。",
+      "starter": "Instead",
+      "answer": "Instead of making a quick decision, the group talked every possible choice through and then voted.",
+      "answerZh": "小組沒有匆忙作出決定,而是仔細討論每個可行選擇後才投票。",
+      "highlight": "talked",
+      "targetForm": "talk something through",
+      "targetMeaningZh": "把某事的每一部分仔細討論"
+    }
+  ]
+}

@@ -1,0 +1,2220 @@
+{
+  "id": "phrasal-verb-225",
+  "order": 225,
+  "slug": "get-volume-2",
+  "version": "1",
+  "title": "GET (VOLUME 2) 動詞片語",
+  "titleEn": "GET (Volume 2)",
+  "titleZh": "GET (VOLUME 2) 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 223 - GET (Volume 2).pdf",
+    "sourceNumber": 223,
+    "pageCount": 35,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET (VOLUME 2)",
+      "highlight": "GET (VOLUME 2)"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Get a doctor over here quickly.",
+      "zh": "快叫醫生過來。",
+      "highlight": "Get a doctor over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her family got her through a difficult year.",
+      "zh": "家人幫助她捱過了艱難的一年。",
+      "highlight": "got her through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We got the food across the river by boat.",
+      "zh": "我們乘船把食物運過河。",
+      "highlight": "got the food across",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "叫某人過來;安排某人前來；幫助某人捱過或完成一段困難時期或事情；把某人或某物運過、帶過某個地方或障礙；把某人或某物移離某處或某物；把某人或某物送回、帶回某處；把某人或某物弄下來;叫某人到較低的位置來；把某人或某物沿着樓梯、通道等移下去；把某人或某物搬上、弄上某物；把某物弄到另一物件上到處都是；使某人或某物越過阻擋的人或物；把人召集起來;把物件集中或收拾好；把某人或某物弄到較高的位置；把某人或自己打扮成某種人物;穿成某種模樣；使某人明白某個意思、訊息或觀點；取回;重新得到原本擁有的東西；吞下食物、飲品或藥物",
+    "en": "get somebody over; get somebody through / get somebody through something; get somebody/something across something / get somebody/something over something; get somebody/something away from something; get somebody/something back to somewhere; get somebody/something down; get somebody/something down something; get somebody/something on/onto something; get something all over something; get somebody/something past somebody/something; get somebody/something together; get somebody/something up; get somebody/yourself up as/in something; get something across to somebody; get something back; get something down",
+    "naturalZh": [
+      "叫某人過來;安排某人前來",
+      "幫助某人捱過或完成一段困難時期或事情",
+      "把某人或某物運過、帶過某個地方或障礙",
+      "把某人或某物移離某處或某物",
+      "把某人或某物送回、帶回某處",
+      "把某人或某物弄下來;叫某人到較低的位置來",
+      "把某人或某物沿着樓梯、通道等移下去",
+      "把某人或某物搬上、弄上某物",
+      "把某物弄到另一物件上到處都是",
+      "使某人或某物越過阻擋的人或物",
+      "把人召集起來;把物件集中或收拾好",
+      "把某人或某物弄到較高的位置",
+      "把某人或自己打扮成某種人物;穿成某種模樣",
+      "使某人明白某個意思、訊息或觀點",
+      "取回;重新得到原本擁有的東西",
+      "吞下食物、飲品或藥物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get somebody over",
+      "titleZh": "叫某人過來;安排某人前來",
+      "titleEn": "get somebody over",
+      "descriptionZh": "叫某人過來;安排某人前來",
+      "descriptionEn": "Get a doctor over here quickly.",
+      "examples": [
+        {
+          "en": "Get a doctor over here quickly.",
+          "zh": "快叫醫生過來。",
+          "highlight": "Get a doctor over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody through / get somebody through something",
+      "titleZh": "幫助某人捱過或完成一段困難時期或事情",
+      "titleEn": "get somebody through / get somebody through something",
+      "descriptionZh": "幫助某人捱過或完成一段困難時期或事情",
+      "descriptionEn": "Her family got her through a difficult year.",
+      "examples": [
+        {
+          "en": "Her family got her through a difficult year.",
+          "zh": "家人幫助她捱過了艱難的一年。",
+          "highlight": "got her through"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something across something / get somebody/something over something",
+      "titleZh": "把某人或某物運過、帶過某個地方或障礙",
+      "titleEn": "get somebody/something across something / get somebody/something over something",
+      "descriptionZh": "把某人或某物運過、帶過某個地方或障礙",
+      "descriptionEn": "We got the food across the river by boat.",
+      "examples": [
+        {
+          "en": "We got the food across the river by boat.",
+          "zh": "我們乘船把食物運過河。",
+          "highlight": "got the food across"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something away from something",
+      "titleZh": "把某人或某物移離某處或某物",
+      "titleEn": "get somebody/something away from something",
+      "descriptionZh": "把某人或某物移離某處或某物",
+      "descriptionEn": "Get the children away from the road.",
+      "examples": [
+        {
+          "en": "Get the children away from the road.",
+          "zh": "把孩子帶離馬路。",
+          "highlight": "Get the children away from"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something back to somewhere",
+      "titleZh": "把某人或某物送回、帶回某處",
+      "titleEn": "get somebody/something back to somewhere",
+      "descriptionZh": "把某人或某物送回、帶回某處",
+      "descriptionEn": "We got everyone back to the hotel safely.",
+      "examples": [
+        {
+          "en": "We got everyone back to the hotel safely.",
+          "zh": "我們把大家安全送回酒店。",
+          "highlight": "got everyone back to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something down",
+      "titleZh": "把某人或某物弄下來;叫某人到較低的位置來",
+      "titleEn": "get somebody/something down",
+      "descriptionZh": "把某人或某物弄下來;叫某人到較低的位置來",
+      "descriptionEn": "Get somebody down here quickly.",
+      "examples": [
+        {
+          "en": "Get somebody down here quickly.",
+          "zh": "快叫人下來這裏。",
+          "highlight": "Get somebody down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something down something",
+      "titleZh": "把某人或某物沿着樓梯、通道等移下去",
+      "titleEn": "get somebody/something down something",
+      "descriptionZh": "把某人或某物沿着樓梯、通道等移下去",
+      "descriptionEn": "We got the table down the stairs.",
+      "examples": [
+        {
+          "en": "We got the table down the stairs.",
+          "zh": "我們把桌子搬下樓梯。",
+          "highlight": "got the table down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody/something on/onto something",
+      "titleZh": "把某人或某物搬上、弄上某物",
+      "titleEn": "get somebody/something on/onto something",
+      "descriptionZh": "把某人或某物搬上、弄上某物",
+      "descriptionEn": "They got the piano onto the stage.",
+      "examples": [
+        {
+          "en": "They got the piano onto the stage.",
+          "zh": "他們把鋼琴搬上舞台。",
+          "highlight": "got the piano onto"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get something all over something",
+      "titleZh": "把某物弄到另一物件上到處都是",
+      "titleEn": "get something all over something",
+      "descriptionZh": "把某物弄到另一物件上到處都是",
+      "descriptionEn": "He got paint all over his shirt.",
+      "examples": [
+        {
+          "en": "He got paint all over his shirt.",
+          "zh": "他把油漆弄得恤衫到處都是。",
+          "highlight": "got paint all over"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody/something past somebody/something",
+      "titleZh": "使某人或某物越過阻擋的人或物",
+      "titleEn": "get somebody/something past somebody/something",
+      "descriptionZh": "使某人或某物越過阻擋的人或物",
+      "descriptionEn": "I could not get the buggy past the car.",
+      "examples": [
+        {
+          "en": "I could not get the buggy past the car.",
+          "zh": "我無法把嬰兒車推過那輛汽車。",
+          "highlight": "get"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody/something together",
+      "titleZh": "把人召集起來;把物件集中或收拾好",
+      "titleEn": "get somebody/something together",
+      "descriptionZh": "把人召集起來;把物件集中或收拾好",
+      "descriptionEn": "She got her things together before leaving.",
+      "examples": [
+        {
+          "en": "She got her things together before leaving.",
+          "zh": "她離開前收拾好自己的物品。",
+          "highlight": "got her things together"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody/something up",
+      "titleZh": "把某人或某物弄到較高的位置",
+      "titleEn": "get somebody/something up",
+      "descriptionZh": "把某人或某物弄到較高的位置",
+      "descriptionEn": "We need to get somebody up there.",
+      "examples": [
+        {
+          "en": "We need to get somebody up there.",
+          "zh": "我們需要派人上去那裏。",
+          "highlight": "get somebody up"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody/yourself up as/in something",
+      "titleZh": "把某人或自己打扮成某種人物;穿成某種模樣",
+      "titleEn": "get somebody/yourself up as/in something",
+      "descriptionZh": "把某人或自己打扮成某種人物;穿成某種模樣",
+      "descriptionEn": "He got himself up as a pirate.",
+      "examples": [
+        {
+          "en": "He got himself up as a pirate.",
+          "zh": "他把自己打扮成海盜。",
+          "highlight": "got himself up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something across to somebody",
+      "titleZh": "使某人明白某個意思、訊息或觀點",
+      "titleEn": "get something across to somebody",
+      "descriptionZh": "使某人明白某個意思、訊息或觀點",
+      "descriptionEn": "She got her idea across clearly.",
+      "examples": [
+        {
+          "en": "She got her idea across clearly.",
+          "zh": "她清楚地表達了自己的想法。",
+          "highlight": "got her idea across"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something back",
+      "titleZh": "取回;重新得到原本擁有的東西",
+      "titleEn": "get something back",
+      "descriptionZh": "取回;重新得到原本擁有的東西",
+      "descriptionEn": "Leo finally got his phone back.",
+      "examples": [
+        {
+          "en": "Leo finally got his phone back.",
+          "zh": "里奧終於取回了自己的手機。",
+          "highlight": "got his phone back"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get something down",
+      "titleZh": "吞下食物、飲品或藥物",
+      "titleEn": "get something down",
+      "descriptionZh": "吞下食物、飲品或藥物",
+      "descriptionEn": "I could hardly get the medicine down.",
+      "examples": [
+        {
+          "en": "I could hardly get the medicine down.",
+          "zh": "我幾乎吞不下那藥。",
+          "highlight": "get the medicine down"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET (VOLUME 2) 片語動詞的實際用途",
+    "labelEn": "GET (VOLUME 2) Phrasal Verbs in Use",
+    "summaryZh": "GET 可以清楚表示某物是過河、下樓梯、搬上舞台、越過障礙,還是返回原來的地方。；get somebody through 可以描述有人提供支持,幫助另一個人捱過艱難的一星期、一年、課程或經歷。；get something across 適合用來談論解釋重點、傳達想法,以及令其他人明白某件事。；你可以用 GET 表達收拾物品、取回東西、吞藥,以及叫某人過來等常見情況。",
+    "summaryEn": "GET can show whether something moves across a river, down some stairs, onto a stage, past an obstacle or back to its original place. Get somebody through can describe the support that helps someone survive a difficult week, year, course or experience. Get something across is useful when talking about explaining a point, communicating an idea or making other people understand something. You can use GET when collecting your things, getting something back, swallowing medicine or calling somebody to come over.",
+    "contextsZh": [
+      "更準確地描述人物和物件的移動",
+      "談論幫助別人渡過困難",
+      "清楚表達想法和訊息",
+      "自然描述常見的日常行動"
+    ],
+    "contextsEn": [
+      "Describe moving people and objects much more precisely",
+      "Talk about helping people in difficult situations",
+      "Express ideas and messages clearly",
+      "Describe common everyday actions naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get somebody over",
+    "fixedHighlight": "get somebody over",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+    "correct": "Get a doctor over",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；有些 GET 表達看起來相似,但表示不同類型的移動。請仔細閱讀整個情境。For example:get the boxes across the river把箱子運過河get the box down the stairs把箱子搬下樓梯get the piano onto the stage把鋼琴搬上舞台get the buggy past the car把嬰兒車推過停泊的汽車；在 get it back、get it down 和 get it across 等表達中,請按照例句使用自然的語序。",
+    "variableEn": "Keep the same people, things, time and meaning. Some expressions look similar but describe different kinds of movement. Read the whole situation carefully. In expressions such as get it back, get it down and get it across, keep the complete expression together naturally as shown in the examples.",
+    "variableItemsZh": [
+      "get somebody over",
+      "get somebody through / get somebody through something",
+      "get somebody/something across something / get somebody/something over something",
+      "get somebody/something away from something",
+      "get somebody/something back to somewhere",
+      "get somebody/something down",
+      "get somebody/something down something",
+      "get somebody/something on/onto something",
+      "get something all over something",
+      "get somebody/something past somebody/something",
+      "get somebody/something together",
+      "get somebody/something up",
+      "get somebody/yourself up as/in something",
+      "get something across to somebody",
+      "get something back",
+      "get something down"
+    ],
+    "variableItemsEn": [
+      "get somebody over",
+      "get somebody through / get somebody through something",
+      "get somebody/something across something / get somebody/something over something",
+      "get somebody/something away from something",
+      "get somebody/something back to somewhere",
+      "get somebody/something down",
+      "get somebody/something down something",
+      "get somebody/something on/onto something",
+      "get something all over something",
+      "get somebody/something past somebody/something",
+      "get somebody/something together",
+      "get somebody/something up",
+      "get somebody/yourself up as/in something",
+      "get something across to somebody",
+      "get something back",
+      "get something down"
+    ],
+    "forms": [
+      {
+        "formZh": "叫某人過來;安排某人前來",
+        "formEn": "get somebody over",
+        "exampleZh": "快叫醫生過來。",
+        "exampleEn": "Get a doctor over here quickly.",
+        "highlight": "Get a doctor over"
+      },
+      {
+        "formZh": "幫助某人捱過或完成一段困難時期或事情",
+        "formEn": "get somebody through / get somebody through something",
+        "exampleZh": "家人幫助她捱過了艱難的一年。",
+        "exampleEn": "Her family got her through a difficult year.",
+        "highlight": "got her through"
+      },
+      {
+        "formZh": "把某人或某物運過、帶過某個地方或障礙",
+        "formEn": "get somebody/something across something / get somebody/something over something",
+        "exampleZh": "我們乘船把食物運過河。",
+        "exampleEn": "We got the food across the river by boat.",
+        "highlight": "got the food across"
+      },
+      {
+        "formZh": "把某人或某物移離某處或某物",
+        "formEn": "get somebody/something away from something",
+        "exampleZh": "把孩子帶離馬路。",
+        "exampleEn": "Get the children away from the road.",
+        "highlight": "Get the children away from"
+      },
+      {
+        "formZh": "把某人或某物送回、帶回某處",
+        "formEn": "get somebody/something back to somewhere",
+        "exampleZh": "我們把大家安全送回酒店。",
+        "exampleEn": "We got everyone back to the hotel safely.",
+        "highlight": "got everyone back to"
+      },
+      {
+        "formZh": "把某人或某物弄下來;叫某人到較低的位置來",
+        "formEn": "get somebody/something down",
+        "exampleZh": "快叫人下來這裏。",
+        "exampleEn": "Get somebody down here quickly.",
+        "highlight": "Get somebody down"
+      },
+      {
+        "formZh": "把某人或某物沿着樓梯、通道等移下去",
+        "formEn": "get somebody/something down something",
+        "exampleZh": "我們把桌子搬下樓梯。",
+        "exampleEn": "We got the table down the stairs.",
+        "highlight": "got the table down"
+      },
+      {
+        "formZh": "把某人或某物搬上、弄上某物",
+        "formEn": "get somebody/something on/onto something",
+        "exampleZh": "他們把鋼琴搬上舞台。",
+        "exampleEn": "They got the piano onto the stage.",
+        "highlight": "got the piano onto"
+      },
+      {
+        "formZh": "把某物弄到另一物件上到處都是",
+        "formEn": "get something all over something",
+        "exampleZh": "他把油漆弄得恤衫到處都是。",
+        "exampleEn": "He got paint all over his shirt.",
+        "highlight": "got paint all over"
+      },
+      {
+        "formZh": "使某人或某物越過阻擋的人或物",
+        "formEn": "get somebody/something past somebody/something",
+        "exampleZh": "我無法把嬰兒車推過那輛汽車。",
+        "exampleEn": "I could not get the buggy past the car.",
+        "highlight": "get"
+      },
+      {
+        "formZh": "把人召集起來;把物件集中或收拾好",
+        "formEn": "get somebody/something together",
+        "exampleZh": "她離開前收拾好自己的物品。",
+        "exampleEn": "She got her things together before leaving.",
+        "highlight": "got her things together"
+      },
+      {
+        "formZh": "把某人或某物弄到較高的位置",
+        "formEn": "get somebody/something up",
+        "exampleZh": "我們需要派人上去那裏。",
+        "exampleEn": "We need to get somebody up there.",
+        "highlight": "get somebody up"
+      },
+      {
+        "formZh": "把某人或自己打扮成某種人物;穿成某種模樣",
+        "formEn": "get somebody/yourself up as/in something",
+        "exampleZh": "他把自己打扮成海盜。",
+        "exampleEn": "He got himself up as a pirate.",
+        "highlight": "got himself up"
+      },
+      {
+        "formZh": "使某人明白某個意思、訊息或觀點",
+        "formEn": "get something across to somebody",
+        "exampleZh": "她清楚地表達了自己的想法。",
+        "exampleEn": "She got her idea across clearly.",
+        "highlight": "got her idea across"
+      },
+      {
+        "formZh": "取回;重新得到原本擁有的東西",
+        "formEn": "get something back",
+        "exampleZh": "里奧終於取回了自己的手機。",
+        "exampleEn": "Leo finally got his phone back.",
+        "highlight": "got his phone back"
+      },
+      {
+        "formZh": "吞下食物、飲品或藥物",
+        "formEn": "get something down",
+        "exampleZh": "我幾乎吞不下那藥。",
+        "exampleEn": "I could hardly get the medicine down.",
+        "highlight": "get the medicine down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "叫某人過來;安排某人前來",
+      "titleEn": "get somebody over",
+      "formula": "get somebody over",
+      "highlight": "get somebody over",
+      "descriptionZh": "叫某人過來;安排某人前來",
+      "descriptionEn": "Get a doctor over here quickly.",
+      "examples": [
+        {
+          "en": "Get a doctor over here quickly.",
+          "zh": "快叫醫生過來。",
+          "highlight": "Get a doctor over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "幫助某人捱過或完成一段困難時期或事情",
+      "titleEn": "get somebody through / get somebody through something",
+      "formula": "get somebody through / get somebody through something",
+      "highlight": "get somebody through / get somebody through something",
+      "descriptionZh": "幫助某人捱過或完成一段困難時期或事情",
+      "descriptionEn": "Her family got her through a difficult year.",
+      "examples": [
+        {
+          "en": "Her family got her through a difficult year.",
+          "zh": "家人幫助她捱過了艱難的一年。",
+          "highlight": "got her through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物運過、帶過某個地方或障礙",
+      "titleEn": "get somebody/something across something / get somebody/something over something",
+      "formula": "get somebody/something across something / get somebody/something over something",
+      "highlight": "get somebody/something across something / get somebody/something over something",
+      "descriptionZh": "把某人或某物運過、帶過某個地方或障礙",
+      "descriptionEn": "We got the food across the river by boat.",
+      "examples": [
+        {
+          "en": "We got the food across the river by boat.",
+          "zh": "我們乘船把食物運過河。",
+          "highlight": "got the food across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人或某物移離某處或某物",
+      "titleEn": "get somebody/something away from something",
+      "formula": "get somebody/something away from something",
+      "highlight": "get somebody/something away from something",
+      "descriptionZh": "把某人或某物移離某處或某物",
+      "descriptionEn": "Get the children away from the road.",
+      "examples": [
+        {
+          "en": "Get the children away from the road.",
+          "zh": "把孩子帶離馬路。",
+          "highlight": "Get the children away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某人或某物送回、帶回某處",
+      "titleEn": "get somebody/something back to somewhere",
+      "formula": "get somebody/something back to somewhere",
+      "highlight": "get somebody/something back to somewhere",
+      "descriptionZh": "把某人或某物送回、帶回某處",
+      "descriptionEn": "We got everyone back to the hotel safely.",
+      "examples": [
+        {
+          "en": "We got everyone back to the hotel safely.",
+          "zh": "我們把大家安全送回酒店。",
+          "highlight": "got everyone back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某人或某物弄下來;叫某人到較低的位置來",
+      "titleEn": "get somebody/something down",
+      "formula": "get somebody/something down",
+      "highlight": "get somebody/something down",
+      "descriptionZh": "把某人或某物弄下來;叫某人到較低的位置來",
+      "descriptionEn": "Get somebody down here quickly.",
+      "examples": [
+        {
+          "en": "Get somebody down here quickly.",
+          "zh": "快叫人下來這裏。",
+          "highlight": "Get somebody down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某人或某物沿着樓梯、通道等移下去",
+      "titleEn": "get somebody/something down something",
+      "formula": "get somebody/something down something",
+      "highlight": "get somebody/something down something",
+      "descriptionZh": "把某人或某物沿着樓梯、通道等移下去",
+      "descriptionEn": "We got the table down the stairs.",
+      "examples": [
+        {
+          "en": "We got the table down the stairs.",
+          "zh": "我們把桌子搬下樓梯。",
+          "highlight": "got the table down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把某人或某物搬上、弄上某物",
+      "titleEn": "get somebody/something on/onto something",
+      "formula": "get somebody/something on/onto something",
+      "highlight": "get somebody/something on/onto something",
+      "descriptionZh": "把某人或某物搬上、弄上某物",
+      "descriptionEn": "They got the piano onto the stage.",
+      "examples": [
+        {
+          "en": "They got the piano onto the stage.",
+          "zh": "他們把鋼琴搬上舞台。",
+          "highlight": "got the piano onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把某物弄到另一物件上到處都是",
+      "titleEn": "get something all over something",
+      "formula": "get something all over something",
+      "highlight": "get something all over something",
+      "descriptionZh": "把某物弄到另一物件上到處都是",
+      "descriptionEn": "He got paint all over his shirt.",
+      "examples": [
+        {
+          "en": "He got paint all over his shirt.",
+          "zh": "他把油漆弄得恤衫到處都是。",
+          "highlight": "got paint all over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "使某人或某物越過阻擋的人或物",
+      "titleEn": "get somebody/something past somebody/something",
+      "formula": "get somebody/something past somebody/something",
+      "highlight": "get somebody/something past somebody/something",
+      "descriptionZh": "使某人或某物越過阻擋的人或物",
+      "descriptionEn": "I could not get the buggy past the car.",
+      "examples": [
+        {
+          "en": "I could not get the buggy past the car.",
+          "zh": "我無法把嬰兒車推過那輛汽車。",
+          "highlight": "get"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "把人召集起來;把物件集中或收拾好",
+      "titleEn": "get somebody/something together",
+      "formula": "get somebody/something together",
+      "highlight": "get somebody/something together",
+      "descriptionZh": "把人召集起來;把物件集中或收拾好",
+      "descriptionEn": "She got her things together before leaving.",
+      "examples": [
+        {
+          "en": "She got her things together before leaving.",
+          "zh": "她離開前收拾好自己的物品。",
+          "highlight": "got her things together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人或某物弄到較高的位置",
+      "titleEn": "get somebody/something up",
+      "formula": "get somebody/something up",
+      "highlight": "get somebody/something up",
+      "descriptionZh": "把某人或某物弄到較高的位置",
+      "descriptionEn": "We need to get somebody up there.",
+      "examples": [
+        {
+          "en": "We need to get somebody up there.",
+          "zh": "我們需要派人上去那裏。",
+          "highlight": "get somebody up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某人或自己打扮成某種人物;穿成某種模樣",
+      "titleEn": "get somebody/yourself up as/in something",
+      "formula": "get somebody/yourself up as/in something",
+      "highlight": "get somebody/yourself up as/in something",
+      "descriptionZh": "把某人或自己打扮成某種人物;穿成某種模樣",
+      "descriptionEn": "He got himself up as a pirate.",
+      "examples": [
+        {
+          "en": "He got himself up as a pirate.",
+          "zh": "他把自己打扮成海盜。",
+          "highlight": "got himself up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "使某人明白某個意思、訊息或觀點",
+      "titleEn": "get something across to somebody",
+      "formula": "get something across to somebody",
+      "highlight": "get something across to somebody",
+      "descriptionZh": "使某人明白某個意思、訊息或觀點",
+      "descriptionEn": "She got her idea across clearly.",
+      "examples": [
+        {
+          "en": "She got her idea across clearly.",
+          "zh": "她清楚地表達了自己的想法。",
+          "highlight": "got her idea across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "取回;重新得到原本擁有的東西",
+      "titleEn": "get something back",
+      "formula": "get something back",
+      "highlight": "get something back",
+      "descriptionZh": "取回;重新得到原本擁有的東西",
+      "descriptionEn": "Leo finally got his phone back.",
+      "examples": [
+        {
+          "en": "Leo finally got his phone back.",
+          "zh": "里奧終於取回了自己的手機。",
+          "highlight": "got his phone back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "吞下食物、飲品或藥物",
+      "titleEn": "get something down",
+      "formula": "get something down",
+      "highlight": "get something down",
+      "descriptionZh": "吞下食物、飲品或藥物",
+      "descriptionEn": "I could hardly get the medicine down.",
+      "examples": [
+        {
+          "en": "I could hardly get the medicine down.",
+          "zh": "我幾乎吞不下那藥。",
+          "highlight": "get the medicine down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更準確地描述人物和物件的移動",
+      "titleEn": "Describe moving people and objects much more precisely",
+      "zh": "GET 可以清楚表示某物是過河、下樓梯、搬上舞台、越過障礙,還是返回原來的地方。",
+      "en": "GET can show whether something moves across a river, down some stairs, onto a stage, past an obstacle or back to its original place."
+    },
+    {
+      "titleZh": "談論幫助別人渡過困難",
+      "titleEn": "Talk about helping people in difficult situations",
+      "zh": "get somebody through 可以描述有人提供支持,幫助另一個人捱過艱難的一星期、一年、課程或經歷。",
+      "en": "Get somebody through can describe the support that helps someone survive a difficult week, year, course or experience."
+    },
+    {
+      "titleZh": "清楚表達想法和訊息",
+      "titleEn": "Express ideas and messages clearly",
+      "zh": "get something across 適合用來談論解釋重點、傳達想法,以及令其他人明白某件事。",
+      "en": "Get something across is useful when talking about explaining a point, communicating an idea or making other people understand something."
+    },
+    {
+      "titleZh": "自然描述常見的日常行動",
+      "titleEn": "Describe common everyday actions naturally",
+      "zh": "你可以用 GET 表達收拾物品、取回東西、吞藥,以及叫某人過來等常見情況。",
+      "en": "You can use GET when collecting your things, getting something back, swallowing medicine or calling somebody to come over."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更準確地描述人物和物件的移動",
+      "談論幫助別人渡過困難",
+      "清楚表達想法和訊息",
+      "自然描述常見的日常行動"
+    ],
+    "contextsEn": [
+      "Describe moving people and objects much more precisely",
+      "Talk about helping people in difficult situations",
+      "Express ideas and messages clearly",
+      "Describe common everyday actions naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更準確地描述人物和物件的移動",
+        "titleEn": "Describe moving people and objects much more precisely",
+        "zh": "GET 可以清楚表示某物是過河、下樓梯、搬上舞台、越過障礙,還是返回原來的地方。",
+        "en": "GET can show whether something moves across a river, down some stairs, onto a stage, past an obstacle or back to its original place.",
+        "examples": [
+          {
+            "en": "Get a doctor over here quickly.",
+            "zh": "快叫醫生過來。",
+            "highlight": "Get a doctor over"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論幫助別人渡過困難",
+        "titleEn": "Talk about helping people in difficult situations",
+        "zh": "get somebody through 可以描述有人提供支持,幫助另一個人捱過艱難的一星期、一年、課程或經歷。",
+        "en": "Get somebody through can describe the support that helps someone survive a difficult week, year, course or experience.",
+        "examples": [
+          {
+            "en": "Her family got her through a difficult year.",
+            "zh": "家人幫助她捱過了艱難的一年。",
+            "highlight": "got her through"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達想法和訊息",
+        "titleEn": "Express ideas and messages clearly",
+        "zh": "get something across 適合用來談論解釋重點、傳達想法,以及令其他人明白某件事。",
+        "en": "Get something across is useful when talking about explaining a point, communicating an idea or making other people understand something.",
+        "examples": [
+          {
+            "en": "We got the food across the river by boat.",
+            "zh": "我們乘船把食物運過河。",
+            "highlight": "got the food across"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述常見的日常行動",
+        "titleEn": "Describe common everyday actions naturally",
+        "zh": "你可以用 GET 表達收拾物品、取回東西、吞藥,以及叫某人過來等常見情況。",
+        "en": "You can use GET when collecting your things, getting something back, swallowing medicine or calling somebody to come over.",
+        "examples": [
+          {
+            "en": "Get the children away from the road.",
+            "zh": "把孩子帶離馬路。",
+            "highlight": "Get the children away from"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "有些 GET 表達看起來相似,但表示不同類型的移動。請仔細閱讀整個情境。For example:get the boxes across the river把箱子運過河get the box down the stairs把箱子搬下樓梯get the piano onto the stage把鋼琴搬上舞台get the buggy past the car把嬰兒車推過停泊的汽車",
+      "titleEn": "Some expressions look similar but describe different kinds of movement.",
+      "zh": "有些 GET 表達看起來相似,但表示不同類型的移動。請仔細閱讀整個情境。For example:get the boxes across the river把箱子運過河get the box down the stairs把箱子搬下樓梯get the piano onto the stage把鋼琴搬上舞台get the buggy past the car把嬰兒車推過停泊的汽車",
+      "en": "Some expressions look similar but describe different kinds of movement. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "在 get it back、get it down 和 get it across 等表達中,請按照例句使用自然的語序。",
+      "titleEn": "In expressions such as get it back, get it down and get it across, keep the complete expression together naturally as shown in the examples.",
+      "zh": "在 get it back、get it down 和 get it across 等表達中,請按照例句使用自然的語序。",
+      "en": "In expressions such as get it back, get it down and get it across, keep the complete expression together naturally as shown in the examples."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET (VOLUME 2) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 2). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET (VOLUME 2) 動詞片語句子改寫練習",
+    "titleEn": "GET (VOLUME 2) Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET (VOLUME 2) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 2). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-225-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Nina accidentally covered her new jeans with paint.",
+      "promptZh": "妮娜不小心把油漆弄得新牛仔褲到處都是。",
+      "starter": "Nina",
+      "answer": "Nina got paint all over her new jeans.",
+      "answerZh": "妮娜把油漆弄得新牛仔褲到處都是。",
+      "highlight": "got paint all over",
+      "targetForm": "get something all over something",
+      "targetMeaningZh": "把某物弄到另一物件上到處都是"
+    },
+    {
+      "id": "phrasal-verb-225-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The teacher communicated the main idea clearly.",
+      "promptZh": "老師清楚地表達了主要意思。",
+      "starter": "The",
+      "answer": "The teacher got the main idea across clearly.",
+      "answerZh": "老師清楚地表達了主要意思。",
+      "highlight": "got",
+      "targetForm": "get something across",
+      "targetMeaningZh": "使別人明白某個意思"
+    },
+    {
+      "id": "phrasal-verb-225-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "We brought the children home before dark.",
+      "promptZh": "我們在天黑前把孩子帶回家。",
+      "starter": "We",
+      "answer": "We got the children back home before dark.",
+      "answerZh": "我們在天黑前把孩子帶回家。",
+      "highlight": "got",
+      "targetForm": "get somebody back to somewhere",
+      "targetMeaningZh": "把某人送回某處"
+    },
+    {
+      "id": "phrasal-verb-225-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Dad carefully moved the old table downstairs.",
+      "promptZh": "爸爸小心地把舊桌子搬下樓梯。",
+      "starter": "Dad",
+      "answer": "Dad got the old table down the stairs carefully.",
+      "answerZh": "爸爸小心地把舊桌子搬下樓梯。",
+      "highlight": "got",
+      "targetForm": "get something down something",
+      "targetMeaningZh": "把某物沿着某處移下去"
+    },
+    {
+      "id": "phrasal-verb-225-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Please arrange for a doctor to come here now.",
+      "promptZh": "請立即叫醫生過來。",
+      "starter": "Please",
+      "answer": "Please get a doctor over here now.",
+      "answerZh": "請立即叫醫生過來。",
+      "highlight": "get",
+      "targetForm": "get somebody over",
+      "targetMeaningZh": "叫某人過來"
+    },
+    {
+      "id": "phrasal-verb-225-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The medicine tasted so bad that I could hardly swallow it.",
+      "promptZh": "那藥非常難吃,我幾乎吞不下。",
+      "starter": "I",
+      "answer": "I could hardly get the medicine down.",
+      "answerZh": "我幾乎吞不下那藥。",
+      "highlight": "get the medicine down",
+      "targetForm": "get something down",
+      "targetMeaningZh": "吞下某物"
+    },
+    {
+      "id": "phrasal-verb-225-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Ella collected all her books before leaving.",
+      "promptZh": "埃拉離開前把所有書收拾好。",
+      "starter": "Ella",
+      "answer": "Ella got her books together before leaving.",
+      "answerZh": "埃拉離開前把所有書收拾好。",
+      "highlight": "got",
+      "targetForm": "get something together",
+      "targetMeaningZh": "把物件集中或收拾好"
+    },
+    {
+      "id": "phrasal-verb-225-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The team transported the food from one side of the river to the other by boat.",
+      "promptZh": "團隊乘船把食物運到河的另一邊。",
+      "starter": "The",
+      "answer": "The team got the food across the river by boat.",
+      "answerZh": "團隊乘船把食物運過河。",
+      "highlight": "got",
+      "targetForm": "get somebody/something across something",
+      "targetMeaningZh": "把某人或某物運過某處"
+    },
+    {
+      "id": "phrasal-verb-225-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The children dressed themselves as pirates for the party.",
+      "promptZh": "孩子們在派對上把自己打扮成海盜。",
+      "starter": "The",
+      "answer": "The children got themselves up as pirates for the party.",
+      "answerZh": "孩子們在派對上把自己打扮成海盜。",
+      "highlight": "got",
+      "targetForm": "get yourself up as something",
+      "targetMeaningZh": "把自己打扮成某種人物"
+    },
+    {
+      "id": "phrasal-verb-225-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "I could not move the trolley beyond the parked car.",
+      "promptZh": "我無法把手推車推過那輛停泊的汽車。",
+      "starter": "I",
+      "answer": "I could not get the trolley past the parked car.",
+      "answerZh": "我無法把手推車推過那輛停泊的汽車。",
+      "highlight": "get",
+      "targetForm": "get something past something",
+      "targetMeaningZh": "把某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Her friends helped her survive a very difficult week.",
+      "promptZh": "朋友幫助她捱過非常艱難的一星期。",
+      "starter": "Her",
+      "answer": "Her friends got her through a very difficult week.",
+      "answerZh": "朋友幫助她捱過非常艱難的一星期。",
+      "highlight": "got",
+      "targetForm": "get somebody through something",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-225-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Four people were needed to move the piano onto the stage.",
+      "promptZh": "需要四個人才可以把鋼琴搬上舞台。",
+      "starter": "It",
+      "answer": "It took four people to get the piano onto the stage.",
+      "answerZh": "需要四個人才可以把鋼琴搬上舞台。",
+      "highlight": "It took",
+      "targetForm": "get something onto something",
+      "targetMeaningZh": "把某物搬上某處"
+    },
+    {
+      "id": "phrasal-verb-225-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Leo finally recovered his lost phone.",
+      "promptZh": "里奧終於取回了遺失的手機。",
+      "starter": "Leo",
+      "answer": "Leo finally got his lost phone back.",
+      "answerZh": "里奧終於取回了遺失的手機。",
+      "highlight": "got",
+      "targetForm": "get something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-225-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Please move that dog farther from the baby.",
+      "promptZh": "請把那隻狗帶離嬰兒。",
+      "starter": "Please",
+      "answer": "Please get that dog away from the baby.",
+      "answerZh": "請把那隻狗帶離嬰兒。",
+      "highlight": "get",
+      "targetForm": "get somebody/something away from something",
+      "targetMeaningZh": "把某人或某物移離某處"
+    },
+    {
+      "id": "phrasal-verb-225-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "We need to call a technician to come down here today.",
+      "promptZh": "我們今天需要叫一名技術員下來這裏。",
+      "starter": "We",
+      "answer": "We need to get a technician down here today.",
+      "answerZh": "我們今天需要叫一名技術員下來這裏。",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "叫某人下來"
+    },
+    {
+      "id": "phrasal-verb-225-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "We need to send a cleaner upstairs quickly.",
+      "promptZh": "我們需要盡快派一名清潔工上樓。",
+      "starter": "We",
+      "answer": "We need to get a cleaner up there quickly.",
+      "answerZh": "我們需要盡快派一名清潔工上樓。",
+      "highlight": "get",
+      "targetForm": "get somebody up",
+      "targetMeaningZh": "把某人弄到較高的位置"
+    },
+    {
+      "id": "phrasal-verb-225-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "They are trying to move the sofa onto the van.",
+      "promptZh": "他們正嘗試把梳化搬上貨車。",
+      "starter": "They",
+      "answer": "They are trying to get the sofa onto the van.",
+      "answerZh": "他們正嘗試把梳化搬上貨車。",
+      "highlight": "get",
+      "targetForm": "get something onto something",
+      "targetMeaningZh": "把某物搬上某處"
+    },
+    {
+      "id": "phrasal-verb-225-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The extra support has helped me survive my first month here.",
+      "promptZh": "額外的支持幫助我捱過了在這裏的第一個月。",
+      "starter": "The",
+      "answer": "The extra support has got me through my first month here.",
+      "answerZh": "額外的支持幫助我捱過了在這裏的第一個月。",
+      "highlight": "got",
+      "targetForm": "get somebody through something",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-225-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Can you communicate this message clearly to the whole class?",
+      "promptZh": "你可以向全班清楚傳達這個訊息嗎?",
+      "starter": "Can",
+      "answer": "Can you get this message across to the whole class?",
+      "answerZh": "你可以向全班清楚傳達這個訊息嗎?",
+      "highlight": "get",
+      "targetForm": "get something across to somebody",
+      "targetMeaningZh": "使某人明白訊息"
+    },
+    {
+      "id": "phrasal-verb-225-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The manager has arranged for an engineer upstairs to come down here and check the lift.",
+      "promptZh": "經理已安排樓上的工程師下來這裏檢查升降機。",
+      "starter": "The",
+      "answer": "The manager has got an engineer down here to check the lift.",
+      "answerZh": "經理已叫一名工程師下來這裏檢查升降機。",
+      "highlight": "got",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "叫某人下來"
+    },
+    {
+      "id": "phrasal-verb-225-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Have you recovered the deposit you paid?",
+      "promptZh": "你取回之前支付的按金了嗎?",
+      "starter": "Have",
+      "answer": "Have you got your deposit back yet?",
+      "answerZh": "你取回之前支付的按金了嗎?",
+      "highlight": "got your",
+      "targetForm": "get something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-225-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We may need to move the boxes from one side of the wall to the other.",
+      "promptZh": "我們可能需要把箱子搬到牆的另一邊。",
+      "starter": "We",
+      "answer": "We may need to get the boxes over the wall.",
+      "answerZh": "我們可能需要把箱子搬到牆的另一邊。",
+      "highlight": "get",
+      "targetForm": "get somebody/something over something",
+      "targetMeaningZh": "把某人或某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The organisers are bringing all the volunteers into one group now.",
+      "promptZh": "主辦人現在正把所有義工召集在一起。",
+      "starter": "The",
+      "answer": "The organisers are getting the volunteers together now.",
+      "answerZh": "主辦人現在正把所有義工召集在一起。",
+      "highlight": "getting",
+      "targetForm": "get somebody together",
+      "targetMeaningZh": "把人召集起來"
+    },
+    {
+      "id": "phrasal-verb-225-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "She could not swallow the dry bread.",
+      "promptZh": "她吞不下那塊乾麵包。",
+      "starter": "She",
+      "answer": "She could not get the dry bread down.",
+      "answerZh": "她吞不下那塊乾麵包。",
+      "highlight": "get",
+      "targetForm": "get something down",
+      "targetMeaningZh": "吞下某物"
+    },
+    {
+      "id": "phrasal-verb-225-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "We will move the children farther from the road.",
+      "promptZh": "我們會把孩子帶離馬路。",
+      "starter": "We",
+      "answer": "We will get the children away from the road.",
+      "answerZh": "我們會把孩子帶離馬路。",
+      "highlight": "get",
+      "targetForm": "get somebody away from something",
+      "targetMeaningZh": "把某人帶離某處"
+    },
+    {
+      "id": "phrasal-verb-225-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The actors are dressing themselves as old sailors.",
+      "promptZh": "演員們正把自己打扮成老水手。",
+      "starter": "The",
+      "answer": "The actors are getting themselves up as old sailors.",
+      "answerZh": "演員們正把自己打扮成老水手。",
+      "highlight": "getting",
+      "targetForm": "get yourself up as something",
+      "targetMeaningZh": "把自己打扮成某種人物"
+    },
+    {
+      "id": "phrasal-verb-225-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "How will we move the buggy beyond that narrow gate?",
+      "promptZh": "我們可以怎樣把嬰兒車推過那道狹窄的閘門?",
+      "starter": "How",
+      "answer": "How will we get the buggy past that narrow gate?",
+      "answerZh": "我們可以怎樣把嬰兒車推過那道狹窄的閘門?",
+      "highlight": "get",
+      "targetForm": "get something past something",
+      "targetMeaningZh": "把某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "I will arrange for a nurse to come over as soon as possible.",
+      "promptZh": "我會盡快安排護士過來。",
+      "starter": "I",
+      "answer": "I will get a nurse over as soon as possible.",
+      "answerZh": "我會盡快叫護士過來。",
+      "highlight": "get",
+      "targetForm": "get somebody over",
+      "targetMeaningZh": "叫某人過來"
+    },
+    {
+      "id": "phrasal-verb-225-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "They have successfully moved the boxes down the narrow stairs.",
+      "promptZh": "他們已成功把箱子搬下狹窄的樓梯。",
+      "starter": "They",
+      "answer": "They have got the boxes down the narrow stairs.",
+      "answerZh": "他們已把箱子搬下狹窄的樓梯。",
+      "highlight": "got",
+      "targetForm": "get something down something",
+      "targetMeaningZh": "把某物沿着某處移下去"
+    },
+    {
+      "id": "phrasal-verb-225-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Can you return these library books to school tomorrow?",
+      "promptZh": "你明天可以把這些圖書館書籍帶回學校嗎?",
+      "starter": "Can",
+      "answer": "Can you get these library books back to school tomorrow?",
+      "answerZh": "你明天可以把這些圖書館書籍帶回學校嗎?",
+      "highlight": "get",
+      "targetForm": "get something back to somewhere",
+      "targetMeaningZh": "把某物送回某處"
+    },
+    {
+      "id": "phrasal-verb-225-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "I will send someone up to the roof to check it.",
+      "promptZh": "我會派人上天台檢查。",
+      "starter": "I",
+      "answer": "I will get someone up to the roof to check it.",
+      "answerZh": "我會派人上天台檢查。",
+      "highlight": "get",
+      "targetForm": "get somebody up",
+      "targetMeaningZh": "把某人弄到較高的位置"
+    },
+    {
+      "id": "phrasal-verb-225-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "How have you managed to cover the floor with mud everywhere?",
+      "promptZh": "你怎會把泥弄得地板到處都是?",
+      "starter": "How",
+      "answer": "How have you managed to get mud all over the floor?",
+      "answerZh": "你怎會把泥弄得地板到處都是?",
+      "highlight": "get mud all over",
+      "targetForm": "get something all over something",
+      "targetMeaningZh": "把某物弄到另一物件上到處都是"
+    },
+    {
+      "id": "phrasal-verb-225-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Could you return it to the office before five?",
+      "promptZh": "你可以在五時前把它送回辦公室嗎?",
+      "starter": "Could",
+      "answer": "Could you get it back to the office before five?",
+      "answerZh": "你可以在五時前把它送回辦公室嗎?",
+      "highlight": "get",
+      "targetForm": "get something back to somewhere",
+      "targetMeaningZh": "把某物送回某處"
+    },
+    {
+      "id": "phrasal-verb-225-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "We need to send him upstairs before the others arrive.",
+      "promptZh": "我們需要在其他人到達前派他上樓。",
+      "starter": "We",
+      "answer": "We need to get him up there before the others arrive.",
+      "answerZh": "我們需要在其他人到達前派他上樓。",
+      "highlight": "get",
+      "targetForm": "get somebody up",
+      "targetMeaningZh": "把某人弄到較高的位置"
+    },
+    {
+      "id": "phrasal-verb-225-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "She somehow covered it with tomato sauce everywhere.",
+      "promptZh": "她不知怎樣把番茄醬弄得它到處都是。",
+      "starter": "She",
+      "answer": "She somehow got tomato sauce all over it.",
+      "answerZh": "她不知怎樣把番茄醬弄得它到處都是。",
+      "highlight": "got",
+      "targetForm": "get something all over something",
+      "targetMeaningZh": "把某物弄到另一物件上到處都是"
+    },
+    {
+      "id": "phrasal-verb-225-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I do not know what would have helped me survive that period.",
+      "promptZh": "我不知道當時有甚麼可以幫助我捱過那段時間。",
+      "starter": "I",
+      "answer": "I do not know what would have got me through.",
+      "answerZh": "我不知道當時有甚麼可以幫助我捱過去。",
+      "highlight": "got",
+      "targetForm": "get somebody through",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-225-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The driver could not move the delivery van beyond the fallen branch.",
+      "promptZh": "司機無法把送貨車駛過那根倒下的樹枝。",
+      "starter": "The",
+      "answer": "The driver could not get the delivery van past the fallen branch.",
+      "answerZh": "司機無法把送貨車駛過那根倒下的樹枝。",
+      "highlight": "get",
+      "targetForm": "get something past something",
+      "targetMeaningZh": "把某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Please recover it before tomorrow's lesson.",
+      "promptZh": "請在明天上課前把它取回。",
+      "starter": "Please",
+      "answer": "Please get it back before tomorrow's lesson.",
+      "answerZh": "請在明天上課前把它取回。",
+      "highlight": "get",
+      "targetForm": "get something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-225-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Can you ask her to come down here before lunch?",
+      "promptZh": "你可以叫她在午膳前下來這裏嗎?",
+      "starter": "Can",
+      "answer": "Can you get her down here before lunch?",
+      "answerZh": "你可以叫她在午膳前下來這裏嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "叫某人下來"
+    },
+    {
+      "id": "phrasal-verb-225-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "We finally made them understand it.",
+      "promptZh": "我們終於令他們明白了。",
+      "starter": "We",
+      "answer": "We finally got it across to them.",
+      "answerZh": "我們終於令他們明白了。",
+      "highlight": "got it across to",
+      "targetForm": "get something across to somebody",
+      "targetMeaningZh": "使某人明白某事"
+    },
+    {
+      "id": "phrasal-verb-225-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Move him farther from the edge immediately.",
+      "promptZh": "立即把他帶離邊緣。",
+      "starter": "Get",
+      "answer": "Get him away from the edge immediately.",
+      "answerZh": "立即把他帶離邊緣。",
+      "highlight": "Get",
+      "targetForm": "get somebody away from something",
+      "targetMeaningZh": "把某人帶離某處"
+    },
+    {
+      "id": "phrasal-verb-225-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Can you move it onto the top shelf?",
+      "promptZh": "你可以把它放到最上層的架上嗎?",
+      "starter": "Can",
+      "answer": "Can you get it onto the top shelf?",
+      "answerZh": "你可以把它放到最上層的架上嗎?",
+      "highlight": "get",
+      "targetForm": "get something onto something",
+      "targetMeaningZh": "把某物搬上某處"
+    },
+    {
+      "id": "phrasal-verb-225-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "He was dressed as a king for the school play.",
+      "promptZh": "他在學校話劇中被打扮成國王。",
+      "starter": "He",
+      "answer": "He was got up as a king for the school play.",
+      "answerZh": "他在學校話劇中被打扮成國王。",
+      "highlight": "got up",
+      "targetForm": "get somebody up as something",
+      "targetMeaningZh": "把某人打扮成某種人物"
+    },
+    {
+      "id": "phrasal-verb-225-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We managed to move them across the bridge before dark.",
+      "promptZh": "我們成功在天黑前把它們運過橋。",
+      "starter": "We",
+      "answer": "We managed to get them across the bridge before dark.",
+      "answerZh": "我們成功在天黑前把它們運過橋。",
+      "highlight": "get",
+      "targetForm": "get somebody/something across something",
+      "targetMeaningZh": "把某人或某物運過某處"
+    },
+    {
+      "id": "phrasal-verb-225-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The drink tasted awful, but I managed to swallow it.",
+      "promptZh": "那杯飲品味道很差,但我仍成功把它吞下。",
+      "starter": "The",
+      "answer": "The drink tasted awful, but I got it down.",
+      "answerZh": "那杯飲品味道很差,但我仍把它吞下。",
+      "highlight": "got",
+      "targetForm": "get something down",
+      "targetMeaningZh": "吞下某物"
+    },
+    {
+      "id": "phrasal-verb-225-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "We need to collect all the equipment in one place before leaving.",
+      "promptZh": "我們離開前需要把所有器材集中在一起。",
+      "starter": "We",
+      "answer": "We need to get all the equipment together before leaving.",
+      "answerZh": "我們離開前需要把所有器材集中在一起。",
+      "highlight": "get",
+      "targetForm": "get something together",
+      "targetMeaningZh": "把物件集中或收拾好"
+    },
+    {
+      "id": "phrasal-verb-225-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Can you come over to the office by nine?",
+      "promptZh": "你可以在九時前到辦公室來嗎?",
+      "starter": "Can",
+      "answer": "Can you get yourself over to the office by nine?",
+      "answerZh": "你可以在九時前到辦公室來嗎?",
+      "highlight": "get yourself",
+      "targetForm": "get yourself over",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-225-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "We could not move it down the stairs without help.",
+      "promptZh": "沒有其他人幫忙,我們無法把它搬下樓梯。",
+      "starter": "We",
+      "answer": "We could not get it down the stairs without help.",
+      "answerZh": "沒有其他人幫忙,我們無法把它搬下樓梯。",
+      "highlight": "get",
+      "targetForm": "get something down something",
+      "targetMeaningZh": "把某物沿着某處移下去"
+    },
+    {
+      "id": "phrasal-verb-225-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The road was closed, so the volunteers had to transport the medicine across the river another way.",
+      "promptZh": "道路封閉了,因此義工要用另一種方法把藥物運過河。",
+      "starter": "The",
+      "answer": "The road was closed, so the volunteers had to get the medicine across the river another way.",
+      "answerZh": "道路封閉了,因此義工要用另一種方法把藥物運過河。",
+      "highlight": "get",
+      "targetForm": "get something across something",
+      "targetMeaningZh": "把某物運過某處"
+    },
+    {
+      "id": "phrasal-verb-225-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "While decorating the room, Ben accidentally covered the kitchen floor with blue paint.",
+      "promptZh": "裝修房間時,賓不小心把藍色油漆弄得廚房地板到處都是。",
+      "starter": "While",
+      "answer": "While decorating the room, Ben got blue paint all over the kitchen floor.",
+      "answerZh": "裝修房間時,賓把藍色油漆弄得廚房地板到處都是。",
+      "highlight": "got blue paint all over",
+      "targetForm": "get something all over something",
+      "targetMeaningZh": "把某物弄到另一物件上到處都是"
+    },
+    {
+      "id": "phrasal-verb-225-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Before the trip, the teacher brought everyone into one group to explain the plan.",
+      "promptZh": "旅行前,老師把大家召集在一起解釋計劃。",
+      "starter": "Before",
+      "answer": "Before the trip, the teacher got everyone together to explain the plan.",
+      "answerZh": "旅行前,老師把大家召集在一起解釋計劃。",
+      "highlight": "got",
+      "targetForm": "get somebody together",
+      "targetMeaningZh": "把人召集起來"
+    },
+    {
+      "id": "phrasal-verb-225-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "After three phone calls, Priya finally recovered her money from the shop.",
+      "promptZh": "打了三次電話後,普里雅終於從店舖取回自己的錢。",
+      "starter": "After",
+      "answer": "After three phone calls, Priya finally got her money back from the shop.",
+      "answerZh": "打了三次電話後,普里雅終於從店舖取回自己的錢。",
+      "highlight": "got",
+      "targetForm": "get something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-225-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The lift stopped working, so we had to call an engineer downstairs immediately.",
+      "promptZh": "升降機停止運作,因此我們要立即叫工程師下來。",
+      "starter": "The",
+      "answer": "The lift stopped working, so we had to get an engineer down here immediately.",
+      "answerZh": "升降機停止運作,因此我們要立即叫工程師下來。",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "叫某人下來"
+    },
+    {
+      "id": "phrasal-verb-225-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Her sister's messages helped her survive the lonely first week.",
+      "promptZh": "姐姐的訊息幫助她捱過孤單的第一星期。",
+      "starter": "Her",
+      "answer": "Her sister's messages helped get her through the lonely first week.",
+      "answerZh": "姐姐的訊息幫助她捱過孤單的第一星期。",
+      "highlight": "get",
+      "targetForm": "get somebody through something",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-225-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "For the parade, the children dressed themselves as animals from the forest.",
+      "promptZh": "為了巡遊,孩子們把自己打扮成森林動物。",
+      "starter": "For",
+      "answer": "For the parade, the children got themselves up as animals from the forest.",
+      "answerZh": "為了巡遊,孩子們把自己打扮成森林動物。",
+      "highlight": "got",
+      "targetForm": "get yourself up as something",
+      "targetMeaningZh": "把自己打扮成某種人物"
+    },
+    {
+      "id": "phrasal-verb-225-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "There was just enough space to move the wheelchair beyond the boxes.",
+      "promptZh": "空間剛好足夠把輪椅推過那些箱子。",
+      "starter": "There",
+      "answer": "There was just enough room to get the wheelchair past the boxes.",
+      "answerZh": "空間剛好足夠把輪椅推過那些箱子。",
+      "highlight": "room",
+      "targetForm": "get something past something",
+      "targetMeaningZh": "把某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "If the meeting time changes, can we arrange for a photographer to come here before noon?",
+      "promptZh": "如果會議時間改變,我們可以安排攝影師在中午前過來嗎?",
+      "starter": "If",
+      "answer": "If the meeting time changes, can we get a photographer over before noon?",
+      "answerZh": "如果會議時間改變,我們可以安排攝影師在中午前過來嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody over",
+      "targetMeaningZh": "叫某人過來"
+    },
+    {
+      "id": "phrasal-verb-225-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The smoke was strong, so the teacher moved the class farther from the door.",
+      "promptZh": "煙很濃,因此老師把全班帶離門口。",
+      "starter": "The",
+      "answer": "The smoke was strong, so the teacher got the class away from the door.",
+      "answerZh": "煙很濃,因此老師把全班帶離門口。",
+      "highlight": "got",
+      "targetForm": "get somebody away from something",
+      "targetMeaningZh": "把某人帶離某處"
+    },
+    {
+      "id": "phrasal-verb-225-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The tablet was large, but he managed to swallow it with some water.",
+      "promptZh": "那粒藥丸很大,但他仍成功用水把它吞下。",
+      "starter": "The",
+      "answer": "The tablet was large, but he managed to get it down with some water.",
+      "answerZh": "那粒藥丸很大,但他仍成功用水把它吞下。",
+      "highlight": "get",
+      "targetForm": "get something down",
+      "targetMeaningZh": "吞下某物"
+    },
+    {
+      "id": "phrasal-verb-225-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "A child was stuck upstairs, so the staff sent a teacher up there immediately.",
+      "promptZh": "一名孩子被困在樓上,因此職員立即派一名老師上去。",
+      "starter": "A",
+      "answer": "A child was stuck upstairs, so the staff got a teacher up there immediately.",
+      "answerZh": "一名孩子被困在樓上,因此職員立即派一名老師上去。",
+      "highlight": "got",
+      "targetForm": "get somebody up",
+      "targetMeaningZh": "把某人弄到較高的位置"
+    },
+    {
+      "id": "phrasal-verb-225-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The box was too heavy for one person to move onto the counter.",
+      "promptZh": "那個箱子太重,一個人無法把它搬上櫃台。",
+      "starter": "The",
+      "answer": "The box was too heavy for one person to get onto the counter.",
+      "answerZh": "那個箱子太重,一個人無法把它搬上櫃台。",
+      "highlight": "get",
+      "targetForm": "get something onto something",
+      "targetMeaningZh": "把某物搬上某處"
+    },
+    {
+      "id": "phrasal-verb-225-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Even after two explanations, I could not make the others understand my point.",
+      "promptZh": "即使解釋了兩次,我仍無法令其他人明白我的意思。",
+      "starter": "Even",
+      "answer": "Even after two explanations, I could not get my point across.",
+      "answerZh": "即使解釋了兩次,我仍無法令其他人明白我的意思。",
+      "highlight": "get",
+      "targetForm": "get something across",
+      "targetMeaningZh": "使別人明白某個意思"
+    },
+    {
+      "id": "phrasal-verb-225-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The rain started, so we returned the bicycles to the garage.",
+      "promptZh": "開始下雨,因此我們把單車搬回車房。",
+      "starter": "The",
+      "answer": "The rain started, so we got the bicycles back into the garage.",
+      "answerZh": "開始下雨,因此我們把單車搬回車房。",
+      "highlight": "got",
+      "targetForm": "get something back to somewhere",
+      "targetMeaningZh": "把某物送回某處"
+    },
+    {
+      "id": "phrasal-verb-225-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The chair was too wide to move down the narrow passage.",
+      "promptZh": "那張椅子太闊,無法沿着狹窄通道搬過去。",
+      "starter": "The",
+      "answer": "The chair was too wide to get down the narrow passage.",
+      "answerZh": "那張椅子太闊,無法沿着狹窄通道搬過去。",
+      "highlight": "get",
+      "targetForm": "get something down something",
+      "targetMeaningZh": "把某物沿着某處移動"
+    },
+    {
+      "id": "phrasal-verb-225-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Unless you use a simple example, younger students may not understand the idea you are explaining.",
+      "promptZh": "除非你使用簡單例子,否則年幼學生可能無法明白你正在解釋的意思。",
+      "starter": "Unless",
+      "answer": "Unless you use a simple example, you may not get the idea across to younger students.",
+      "answerZh": "除非你使用簡單例子,否則你可能無法令年幼學生明白這個意思。",
+      "highlight": "you may not get the idea across to",
+      "targetForm": "get something across to somebody",
+      "targetMeaningZh": "使某人明白某個意思"
+    },
+    {
+      "id": "phrasal-verb-225-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Because the lift was broken, four of us had to move the fridge down three flights of stairs.",
+      "promptZh": "由於升降機壞了,我們四個人要把雪櫃搬下三層樓梯。",
+      "starter": "Because",
+      "answer": "Because the lift was broken, four of us had to get the fridge down three flights of stairs.",
+      "answerZh": "由於升降機壞了,我們四個人要把雪櫃搬下三層樓梯。",
+      "highlight": "get",
+      "targetForm": "get something down something",
+      "targetMeaningZh": "把某物沿着某處移下去"
+    },
+    {
+      "id": "phrasal-verb-225-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Without his family's support, he might not have survived the difficult year.",
+      "promptZh": "如果沒有家人的支持,他可能無法捱過那艱難的一年。",
+      "starter": "Without",
+      "answer": "Without his family's support, he might not have got through the difficult year.",
+      "answerZh": "如果沒有家人的支持,他可能無法捱過那艱難的一年。",
+      "highlight": "got through",
+      "targetForm": "get through something",
+      "targetMeaningZh": "捱過困難時期"
+    },
+    {
+      "id": "phrasal-verb-225-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "I do not know how Ava managed to cover the papers with coffee without noticing.",
+      "promptZh": "我不知道艾娃怎會在自己沒有察覺的情況下,把咖啡弄得文件到處都是。",
+      "starter": "I",
+      "answer": "I do not know how Ava managed to get coffee all over the papers without noticing.",
+      "answerZh": "我不知道艾娃怎會在自己沒有察覺的情況下,把咖啡弄得文件到處都是。",
+      "highlight": "get coffee all over",
+      "targetForm": "get something all over something",
+      "targetMeaningZh": "把某物弄到另一物件上到處都是"
+    },
+    {
+      "id": "phrasal-verb-225-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "When the alarm sounded upstairs, the manager sent two members of staff up there to check it.",
+      "promptZh": "樓上警鐘響起時,經理派了兩名職員上去檢查。",
+      "starter": "When",
+      "answer": "When the alarm sounded upstairs, the manager got two members of staff up there to check it.",
+      "answerZh": "樓上警鐘響起時,經理派了兩名職員上去檢查。",
+      "highlight": "got",
+      "targetForm": "get somebody up",
+      "targetMeaningZh": "把某人弄到較高的位置"
+    },
+    {
+      "id": "phrasal-verb-225-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Please move the children farther from the water before the waves become stronger.",
+      "promptZh": "請在海浪變得更大之前把孩子帶離水邊。",
+      "starter": "Please",
+      "answer": "Please get the children away from the water before the waves become stronger.",
+      "answerZh": "請在海浪變得更大之前把孩子帶離水邊。",
+      "highlight": "get",
+      "targetForm": "get somebody away from something",
+      "targetMeaningZh": "把某人帶離某處"
+    },
+    {
+      "id": "phrasal-verb-225-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Although the shop first refused, Omar eventually recovered his £20.",
+      "promptZh": "雖然店舖最初拒絕,但奧馬最後仍取回了自己的二十英鎊。",
+      "starter": "Although",
+      "answer": "Although the shop first refused, Omar eventually got his £20 back.",
+      "answerZh": "雖然店舖最初拒絕,但奧馬最後仍取回了自己的二十英鎊。",
+      "highlight": "got",
+      "targetForm": "get something back",
+      "targetMeaningZh": "取回某物"
+    },
+    {
+      "id": "phrasal-verb-225-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Before we can leave, we need to collect all the bags in one place and count them.",
+      "promptZh": "我們離開前,需要把所有袋子集中在一起並點算。",
+      "starter": "Before",
+      "answer": "Before we can leave, we need to get all the bags together and count them.",
+      "answerZh": "我們離開前,需要把所有袋子集中在一起並點算。",
+      "highlight": "get",
+      "targetForm": "get something together",
+      "targetMeaningZh": "把物件集中或收拾好"
+    },
+    {
+      "id": "phrasal-verb-225-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The door was narrow, but they eventually managed to move the large table onto the van.",
+      "promptZh": "門口很窄,但他們最後仍成功把大桌子搬上貨車。",
+      "starter": "The",
+      "answer": "The door was narrow, but they eventually got the large table onto the van.",
+      "answerZh": "門口很窄,但他們最後仍成功把大桌子搬上貨車。",
+      "highlight": "got",
+      "targetForm": "get something onto something",
+      "targetMeaningZh": "把某物搬上某處"
+    },
+    {
+      "id": "phrasal-verb-225-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "If you can come over to the station by eight, I will meet you there.",
+      "promptZh": "如果你可以在八時前來到車站,我會在那裏跟你會合。",
+      "starter": "If",
+      "answer": "If you can get yourself over to the station by eight, I will meet you there.",
+      "answerZh": "如果你可以在八時前來到車站,我會在那裏跟你會合。",
+      "highlight": "get yourself",
+      "targetForm": "get yourself over",
+      "targetMeaningZh": "前往某處"
+    },
+    {
+      "id": "phrasal-verb-225-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "For the final scene, the actor dressed himself as an old fisherman.",
+      "promptZh": "在最後一幕,那名演員把自己打扮成一名老漁夫。",
+      "starter": "For",
+      "answer": "For the final scene, the actor got himself up as an old fisherman.",
+      "answerZh": "在最後一幕,那名演員把自己打扮成一名老漁夫。",
+      "highlight": "got",
+      "targetForm": "get yourself up as something",
+      "targetMeaningZh": "把自己打扮成某種人物"
+    },
+    {
+      "id": "phrasal-verb-225-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "If the heating fails again, call somebody downstairs here immediately.",
+      "promptZh": "如果暖氣再次失靈,立即叫人下來這裏。",
+      "starter": "If",
+      "answer": "If the heating fails again, get somebody down here immediately.",
+      "answerZh": "如果暖氣再次失靈,立即叫人下來這裏。",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "叫某人下來"
+    },
+    {
+      "id": "phrasal-verb-225-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "With cars parked on both sides, we could not move the ambulance beyond the bus.",
+      "promptZh": "由於兩旁都有汽車停泊,我們無法把救護車駛過巴士。",
+      "starter": "With",
+      "answer": "With cars parked on both sides, we could not get the ambulance past the bus.",
+      "answerZh": "由於兩旁都有汽車停泊,我們無法把救護車駛過巴士。",
+      "highlight": "get",
+      "targetForm": "get something past something",
+      "targetMeaningZh": "把某物移過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "They had to transport the medical supplies over the mountain before the road closed.",
+      "promptZh": "他們要在道路封閉前把醫療用品運過山。",
+      "starter": "They",
+      "answer": "They had to get the medical supplies over the mountain before the road closed.",
+      "answerZh": "他們要在道路封閉前把醫療用品運過山。",
+      "highlight": "get",
+      "targetForm": "get somebody/something over something",
+      "targetMeaningZh": "把某人或某物運過障礙"
+    },
+    {
+      "id": "phrasal-verb-225-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "I was so nervous that I could hardly swallow any breakfast.",
+      "promptZh": "我非常緊張,幾乎吞不下任何早餐。",
+      "starter": "I",
+      "answer": "I was so nervous that I could hardly get any breakfast down.",
+      "answerZh": "我非常緊張,幾乎吞不下任何早餐。",
+      "highlight": "get",
+      "targetForm": "get something down",
+      "targetMeaningZh": "吞下食物、飲品或藥物"
+    },
+    {
+      "id": "phrasal-verb-225-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "After the concert, the driver brought everyone safely back to the hotel.",
+      "promptZh": "音樂會結束後,司機把大家安全送回酒店。",
+      "starter": "After",
+      "answer": "After the concert, the driver got everyone back to the hotel safely.",
+      "answerZh": "音樂會結束後,司機把大家安全送回酒店。",
+      "highlight": "got",
+      "targetForm": "get somebody back to somewhere",
+      "targetMeaningZh": "把某人送回某處"
+    }
+  ]
+}

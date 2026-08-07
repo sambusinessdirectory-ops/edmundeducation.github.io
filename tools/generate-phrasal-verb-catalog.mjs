@@ -39,7 +39,7 @@ if (Object.keys(catalog).length !== Number(content.questionCount)) {
   throw new Error(`Expected ${content.questionCount} protected answers, found ${Object.keys(catalog).length}`);
 }
 
-const output = `// Generated from the visually verified Phrasal Verb lesson PDFs.\n`
+const output = `// Generated from the audited Phrasal Verb PDF, DOCX and Markdown lesson sources.\n`
   + `// Run \`node tools/generate-phrasal-verb-catalog.mjs\` whenever lesson answers change.\n`
   + `// This protected catalogue is deployed only with the private Worker.\n`
   + `export const LESSON_QUESTION_COUNTS = Object.freeze(${JSON.stringify(lessonQuestionCounts, null, 2)});\n`

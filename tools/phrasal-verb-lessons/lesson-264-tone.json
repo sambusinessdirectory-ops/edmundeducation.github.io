@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-264",
+  "order": 264,
+  "slug": "tone",
+  "version": "1",
+  "title": "TONE 動詞片語",
+  "titleEn": "Tone",
+  "titleZh": "TONE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 249 - TONE.pdf",
+    "sourceNumber": 249,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TONE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TONE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TONE",
+      "highlight": "TONE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The editor asked him to tone down the article.",
+      "zh": "編輯要求他把文章的語氣寫得溫和一點。",
+      "highlight": "tone down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The blue cushions tone in well with the carpet.",
+      "zh": "藍色咕𠱸與地氈十分配襯。",
+      "highlight": "tone in well with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Regular swimming can tone up your whole body.",
+      "zh": "定期游泳可以令全身變得更結實。",
+      "highlight": "tone up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈；在顏色或風格上與其他事物互相配襯；透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+    "en": "tone something down; tone in / tone in with something; tone up / tone something up",
+    "naturalZh": [
+      "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+      "在顏色或風格上與其他事物互相配襯",
+      "透過運動使身體或肌肉變得更結實;令某個身體部位更結實"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tone something down",
+      "titleZh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+      "titleEn": "tone something down",
+      "descriptionZh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+      "descriptionEn": "The editor asked him to tone down the article.",
+      "examples": [
+        {
+          "en": "The editor asked him to tone down the article.",
+          "zh": "編輯要求他把文章的語氣寫得溫和一點。",
+          "highlight": "tone down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tone in / tone in with something",
+      "titleZh": "在顏色或風格上與其他事物互相配襯",
+      "titleEn": "tone in / tone in with something",
+      "descriptionZh": "在顏色或風格上與其他事物互相配襯",
+      "descriptionEn": "The blue cushions tone in well with the carpet.",
+      "examples": [
+        {
+          "en": "The blue cushions tone in well with the carpet.",
+          "zh": "藍色咕𠱸與地氈十分配襯。",
+          "highlight": "tone in well with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tone up / tone something up",
+      "titleZh": "透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+      "titleEn": "tone up / tone something up",
+      "descriptionZh": "透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+      "descriptionEn": "Regular swimming can tone up your whole body.",
+      "examples": [
+        {
+          "en": "Regular swimming can tone up your whole body.",
+          "zh": "定期游泳可以令全身變得更結實。",
+          "highlight": "tone up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TONE 片語動詞的實際用途",
+    "labelEn": "TONE Phrasal Verbs in Use",
+    "summaryZh": "tone something down 可以表示把文章、評論、演說或說法改得較溫和,避免語氣過於強烈。；tone in with something 可以用來形容窗簾、咕𠱸、衣物和家具是否互相配襯。；tone up 可以用來表示運動令身體或肌肉變得更結實。；tone down 通常表示令某事物變得不那麼強烈;tone up 則常表示令身體或肌肉變得更結實。",
+    "summaryEn": "Tone something down helps you talk about making an article, comment, speech or claim less harsh or extreme. Tone in with something lets you describe curtains, cushions, clothes and furniture that look good together. Tone up is a useful way to talk about exercise making a person’s body or muscles firmer. Tone down usually means making something less strong, while tone up often means making the body or muscles firmer.",
+    "contextsZh": [
+      "讓強烈的言詞變得較溫和",
+      "自然地談論顏色和風格是否配襯",
+      "描述身體變得更健康和結實",
+      "理解兩種不同方向的變化"
+    ],
+    "contextsEn": [
+      "Make strong language sound calmer",
+      "Talk naturally about matching colours and styles",
+      "Describe becoming fitter and firmer",
+      "Understand opposite kinds of change"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TONE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TONE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tone something down",
+    "fixedHighlight": "tone something down",
+    "fixedZh": "閱讀整句,選出意思相同的 TONE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TONE expression that gives the same meaning.",
+    "correct": "tone down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；tone in with something 通常用來表示顏色、衣物、家具或裝飾互相配襯。；在 TONE ... DOWN 或 TONE ... UP 中使用 it 或 them 時,請按照以上例子放在中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Tone in with something normally describes colours, clothes, furniture or decorations that match well. When using it or them in a TONE... DOWN or TONE... UP expression, place the word as shown: tone it down tone them up",
+    "variableItemsZh": [
+      "tone something down",
+      "tone in / tone in with something",
+      "tone up / tone something up"
+    ],
+    "variableItemsEn": [
+      "tone something down",
+      "tone in / tone in with something",
+      "tone up / tone something up"
+    ],
+    "forms": [
+      {
+        "formZh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+        "formEn": "tone something down",
+        "exampleZh": "編輯要求他把文章的語氣寫得溫和一點。",
+        "exampleEn": "The editor asked him to tone down the article.",
+        "highlight": "tone down"
+      },
+      {
+        "formZh": "在顏色或風格上與其他事物互相配襯",
+        "formEn": "tone in / tone in with something",
+        "exampleZh": "藍色咕𠱸與地氈十分配襯。",
+        "exampleEn": "The blue cushions tone in well with the carpet.",
+        "highlight": "tone in well with"
+      },
+      {
+        "formZh": "透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+        "formEn": "tone up / tone something up",
+        "exampleZh": "定期游泳可以令全身變得更結實。",
+        "exampleEn": "Regular swimming can tone up your whole body.",
+        "highlight": "tone up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+      "titleEn": "tone something down",
+      "formula": "tone something down",
+      "highlight": "tone something down",
+      "descriptionZh": "使言詞、顏色、批評或表達變得較溫和、不那麼強烈",
+      "descriptionEn": "The editor asked him to tone down the article.",
+      "examples": [
+        {
+          "en": "The editor asked him to tone down the article.",
+          "zh": "編輯要求他把文章的語氣寫得溫和一點。",
+          "highlight": "tone down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在顏色或風格上與其他事物互相配襯",
+      "titleEn": "tone in / tone in with something",
+      "formula": "tone in / tone in with something",
+      "highlight": "tone in / tone in with something",
+      "descriptionZh": "在顏色或風格上與其他事物互相配襯",
+      "descriptionEn": "The blue cushions tone in well with the carpet.",
+      "examples": [
+        {
+          "en": "The blue cushions tone in well with the carpet.",
+          "zh": "藍色咕𠱸與地氈十分配襯。",
+          "highlight": "tone in well with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+      "titleEn": "tone up / tone something up",
+      "formula": "tone up / tone something up",
+      "highlight": "tone up / tone something up",
+      "descriptionZh": "透過運動使身體或肌肉變得更結實;令某個身體部位更結實",
+      "descriptionEn": "Regular swimming can tone up your whole body.",
+      "examples": [
+        {
+          "en": "Regular swimming can tone up your whole body.",
+          "zh": "定期游泳可以令全身變得更結實。",
+          "highlight": "tone up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "讓強烈的言詞變得較溫和",
+      "titleEn": "Make strong language sound calmer",
+      "zh": "tone something down 可以表示把文章、評論、演說或說法改得較溫和,避免語氣過於強烈。",
+      "en": "Tone something down helps you talk about making an article, comment, speech or claim less harsh or extreme."
+    },
+    {
+      "titleZh": "自然地談論顏色和風格是否配襯",
+      "titleEn": "Talk naturally about matching colours and styles",
+      "zh": "tone in with something 可以用來形容窗簾、咕𠱸、衣物和家具是否互相配襯。",
+      "en": "Tone in with something lets you describe curtains, cushions, clothes and furniture that look good together."
+    },
+    {
+      "titleZh": "描述身體變得更健康和結實",
+      "titleEn": "Describe becoming fitter and firmer",
+      "zh": "tone up 可以用來表示運動令身體或肌肉變得更結實。",
+      "en": "Tone up is a useful way to talk about exercise making a person’s body or muscles firmer."
+    },
+    {
+      "titleZh": "理解兩種不同方向的變化",
+      "titleEn": "Understand opposite kinds of change",
+      "zh": "tone down 通常表示令某事物變得不那麼強烈;tone up 則常表示令身體或肌肉變得更結實。",
+      "en": "Tone down usually means making something less strong, while tone up often means making the body or muscles firmer."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "讓強烈的言詞變得較溫和",
+      "自然地談論顏色和風格是否配襯",
+      "描述身體變得更健康和結實",
+      "理解兩種不同方向的變化"
+    ],
+    "contextsEn": [
+      "Make strong language sound calmer",
+      "Talk naturally about matching colours and styles",
+      "Describe becoming fitter and firmer",
+      "Understand opposite kinds of change"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "讓強烈的言詞變得較溫和",
+        "titleEn": "Make strong language sound calmer",
+        "zh": "tone something down 可以表示把文章、評論、演說或說法改得較溫和,避免語氣過於強烈。",
+        "en": "Tone something down helps you talk about making an article, comment, speech or claim less harsh or extreme.",
+        "examples": [
+          {
+            "en": "The editor asked him to tone down the article.",
+            "zh": "編輯要求他把文章的語氣寫得溫和一點。",
+            "highlight": "tone down"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地談論顏色和風格是否配襯",
+        "titleEn": "Talk naturally about matching colours and styles",
+        "zh": "tone in with something 可以用來形容窗簾、咕𠱸、衣物和家具是否互相配襯。",
+        "en": "Tone in with something lets you describe curtains, cushions, clothes and furniture that look good together.",
+        "examples": [
+          {
+            "en": "The blue cushions tone in well with the carpet.",
+            "zh": "藍色咕𠱸與地氈十分配襯。",
+            "highlight": "tone in well with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述身體變得更健康和結實",
+        "titleEn": "Describe becoming fitter and firmer",
+        "zh": "tone up 可以用來表示運動令身體或肌肉變得更結實。",
+        "en": "Tone up is a useful way to talk about exercise making a person’s body or muscles firmer.",
+        "examples": [
+          {
+            "en": "Regular swimming can tone up your whole body.",
+            "zh": "定期游泳可以令全身變得更結實。",
+            "highlight": "tone up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解兩種不同方向的變化",
+        "titleEn": "Understand opposite kinds of change",
+        "zh": "tone down 通常表示令某事物變得不那麼強烈;tone up 則常表示令身體或肌肉變得更結實。",
+        "en": "Tone down usually means making something less strong, while tone up often means making the body or muscles firmer.",
+        "examples": [
+          {
+            "en": "The editor asked him to tone down the article.",
+            "zh": "編輯要求他把文章的語氣寫得溫和一點。",
+            "highlight": "tone down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TONE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TONE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TONE 片語動詞。",
+      "en": "Read the whole sentence and choose the TONE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "tone in with something 通常用來表示顏色、衣物、家具或裝飾互相配襯。",
+      "titleEn": "Tone in with something normally describes colours, clothes, furniture or decorations that match well.",
+      "zh": "tone in with something 通常用來表示顏色、衣物、家具或裝飾互相配襯。",
+      "en": "Tone in with something normally describes colours, clothes, furniture or decorations that match well."
+    },
+    {
+      "titleZh": "在 TONE ... DOWN 或 TONE ... UP 中使用 it 或 them 時,請按照以上例子放在中間。",
+      "titleEn": "When using it or them in a TONE.",
+      "zh": "在 TONE ... DOWN 或 TONE ... UP 中使用 it 或 them 時,請按照以上例子放在中間。",
+      "en": "When using it or them in a TONE... DOWN or TONE... UP expression, place the word as shown: tone it down tone them up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TONE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TONE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TONE 動詞片語句子改寫練習",
+    "titleEn": "TONE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TONE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TONE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-264-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The editor asked Ravi to make the article less critical before publication.",
+      "promptZh": "編輯要求拉維在文章出版前把批評語氣寫得溫和一點。",
+      "starter": "The",
+      "answer": "The editor asked Ravi to tone down the article before publication.",
+      "answerZh": "編輯要求拉維在文章出版前把批評語氣寫得溫和一點。",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The green cushions match the carpet very well.",
+      "promptZh": "綠色咕𠱸與地氈十分配襯。",
+      "starter": "The",
+      "answer": "The green cushions tone in well with the carpet.",
+      "answerZh": "綠色咕𠱸與地氈十分配襯。",
+      "highlight": "tone in well with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella wants to make her body firmer through regular exercise.",
+      "promptZh": "埃拉希望透過定期運動令身體變得更結實。",
+      "starter": "Ella",
+      "answer": "Ella wants to tone up through regular exercise.",
+      "answerZh": "埃拉希望透過定期運動令身體變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please make your comments less harsh.",
+      "promptZh": "請把你的評論說得溫和一點。",
+      "starter": "Please",
+      "answer": "Please tone down your comments.",
+      "answerZh": "請把你的評論說得溫和一點。",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This blue lamp matches the curtains nicely.",
+      "promptZh": "這盞藍色燈與窗簾十分配襯。",
+      "starter": "This",
+      "answer": "This blue lamp tones in nicely with the curtains.",
+      "answerZh": "這盞藍色燈與窗簾十分配襯。",
+      "highlight": "tones in nicely with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "These simple exercises will make your arms firmer.",
+      "promptZh": "這些簡單運動會令你的手臂變得更結實。",
+      "starter": "These",
+      "answer": "These simple exercises will tone up your arms.",
+      "answerZh": "這些簡單運動會令你的手臂變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The designer made the bright colours less strong.",
+      "promptZh": "設計師把鮮艷的顏色調得柔和一點。",
+      "starter": "The",
+      "answer": "The designer toned down the bright colours.",
+      "answerZh": "設計師把鮮艷的顏色調得柔和一點。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使顏色變得不那麼強烈"
+    },
+    {
+      "id": "phrasal-verb-264-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The new rug goes well with the brown sofa.",
+      "promptZh": "新地氈與啡色梳化十分配襯。",
+      "starter": "The",
+      "answer": "The new rug tones in well with the brown sofa.",
+      "answerZh": "新地氈與啡色梳化十分配襯。",
+      "highlight": "tones in",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I need to get fitter and make my muscles firmer.",
+      "promptZh": "我需要變得更健康,並令肌肉更結實。",
+      "starter": "I",
+      "answer": "I need to tone up.",
+      "answerZh": "我需要透過運動令身體變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The speaker made his claims less extreme.",
+      "promptZh": "演講者把自己的說法改得不那麼極端。",
+      "starter": "The",
+      "answer": "The speaker toned down his claims.",
+      "answerZh": "演講者把自己的說法改得不那麼極端。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使說法變得不那麼強烈或極端"
+    },
+    {
+      "id": "phrasal-verb-264-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The cream chairs will match the walls once the room is finished.",
+      "promptZh": "房間完成後,米白色椅子會與牆壁互相配襯。",
+      "starter": "The",
+      "answer": "The cream chairs will tone in with the walls once the room is finished.",
+      "answerZh": "房間完成後,米白色椅子會與牆壁互相配襯。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nora has made the wording less aggressive.",
+      "promptZh": "諾拉已把措辭改得較溫和。",
+      "starter": "Nora",
+      "answer": "Nora has toned down the wording.",
+      "answerZh": "諾拉已把措辭改得較溫和。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使措辭變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben is making his legs firmer through daily cycling.",
+      "promptZh": "賓正透過每天踏單車令雙腿變得更結實。",
+      "starter": "Ben",
+      "answer": "Ben is toning up his legs through daily cycling.",
+      "answerZh": "賓正透過每天踏單車令雙腿變得更結實。",
+      "highlight": "toning up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do the new shelves match the desk?",
+      "promptZh": "新層架與書桌配襯嗎?",
+      "starter": "Do",
+      "answer": "Do the new shelves tone in with the desk?",
+      "answerZh": "新層架與書桌配襯嗎?",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The newspaper did not make the headline less dramatic.",
+      "promptZh": "報章沒有把標題改得較平實。",
+      "starter": "The",
+      "answer": "The newspaper did not tone down the headline.",
+      "answerZh": "報章沒有把標題改得較平實。",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使標題或表達變得不那麼誇張"
+    },
+    {
+      "id": "phrasal-verb-264-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Swimming can make your whole body firmer.",
+      "promptZh": "游泳可以令你的全身變得更結實。",
+      "starter": "Swimming",
+      "answer": "Swimming can tone up your whole body.",
+      "answerZh": "游泳可以令你的全身變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令身體或肌肉變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The pale yellow paint matched the old curtains.",
+      "promptZh": "淡黃色油漆與舊窗簾十分配襯。",
+      "starter": "The",
+      "answer": "The pale yellow paint toned in with the old curtains.",
+      "answerZh": "淡黃色油漆與舊窗簾十分配襯。",
+      "highlight": "toned in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could you make the final paragraph less angry?",
+      "promptZh": "你可以把最後一段的語氣寫得不那麼憤怒嗎?",
+      "starter": "Could",
+      "answer": "Could you tone down the final paragraph?",
+      "answerZh": "你可以把最後一段的語氣寫得不那麼憤怒嗎?",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After a month of exercise, Zoe has become fitter and firmer.",
+      "promptZh": "經過一個月的運動後,佐伊的身體已變得更健康和結實。",
+      "starter": "After",
+      "answer": "After a month of exercise, Zoe has toned up.",
+      "answerZh": "經過一個月的運動後,佐伊的身體已變得更健康和結實。",
+      "highlight": "toned up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The grey bag does not match this bright coat.",
+      "promptZh": "灰色袋與這件鮮色外套並不配襯。",
+      "starter": "The",
+      "answer": "The grey bag does not tone in with this bright coat.",
+      "answerZh": "灰色袋與這件鮮色外套並不配襯。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "These exercises are for your stomach muscles. They will make them firmer.",
+      "promptZh": "這些運動是為腹部肌肉而設,會令它們變得更結實。",
+      "starter": "These",
+      "answer": "These exercises are for your stomach muscles. They will tone them up.",
+      "answerZh": "這些運動是為腹部肌肉而設,會令它們變得更結實。",
+      "highlight": "tone",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The article was too personal, so the editor made it less strong before printing it.",
+      "promptZh": "文章涉及太多個人批評,所以編輯在印刷前把語氣改得較溫和。",
+      "starter": "The",
+      "answer": "The article was too personal, so the editor toned it down before printing it.",
+      "answerZh": "文章涉及太多個人批評,所以編輯在印刷前把語氣改得較溫和。",
+      "highlight": "toned",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The curtains are dark blue. They match the chair covers.",
+      "promptZh": "窗簾是深藍色的,與椅套十分配襯。",
+      "starter": "The",
+      "answer": "The curtains are dark blue. They tone in with the chair covers.",
+      "answerZh": "窗簾是深藍色的,與椅套十分配襯。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The programme is designed to make weak back muscles firmer.",
+      "promptZh": "這個計劃旨在令較弱的背部肌肉變得更結實。",
+      "starter": "The",
+      "answer": "The programme is designed to tone up weak back muscles.",
+      "answerZh": "這個計劃旨在令較弱的背部肌肉變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令肌肉變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The criticism has been made less severe in the final version.",
+      "promptZh": "最終版本中的批評已被改得較溫和。",
+      "starter": "The",
+      "answer": "The criticism has been toned down in the final version.",
+      "answerZh": "最終版本中的批評已被改得較溫和。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使批評變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Will this shade of green match the kitchen tiles?",
+      "promptZh": "這種綠色會與廚房瓷磚配襯嗎?",
+      "starter": "Will",
+      "answer": "Will this shade of green tone in with the kitchen tiles?",
+      "answerZh": "這種綠色會與廚房瓷磚配襯嗎?",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "You have been inactive for months. Start slowly and make your body firmer again.",
+      "promptZh": "你已有幾個月沒有運動。先慢慢開始,讓身體再次變得結實。",
+      "starter": "You",
+      "answer": "You have been inactive for months. Start slowly and tone up again.",
+      "answerZh": "你已有幾個月沒有運動。先慢慢開始,讓身體再次變得結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why was the advert made less exciting before it appeared?",
+      "promptZh": "為甚麼廣告在刊登前被改得不那麼誇張?",
+      "starter": "Why",
+      "answer": "Why was the advert toned down before it appeared?",
+      "answerZh": "為甚麼廣告在刊登前被改得不那麼誇張?",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使廣告或說法變得不那麼誇張"
+    },
+    {
+      "id": "phrasal-verb-264-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The new cushion covers now match the rest of the room.",
+      "promptZh": "新咕𠱸套現在與房間的其他部分十分配襯。",
+      "starter": "The",
+      "answer": "The new cushion covers now tone in with the rest of the room.",
+      "answerZh": "新咕𠱸套現在與房間的其他部分十分配襯。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A trainer showed Farah exercises that would make her shoulders firmer.",
+      "promptZh": "教練向法拉示範了一些可以令肩膊更結實的運動。",
+      "starter": "A",
+      "answer": "A trainer showed Farah exercises that would tone up her shoulders.",
+      "answerZh": "教練向法拉示範了一些可以令肩膊更結實的運動。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The original email sounded rude. Leo rewrote it in a calmer way before sending it.",
+      "promptZh": "原本的電郵語氣很無禮。里奧在寄出前把它改得較溫和。",
+      "starter": "The",
+      "answer": "The original email sounded rude. Leo toned it down before sending it.",
+      "answerZh": "原本的電郵語氣很無禮。里奧在寄出前把它改得較溫和。",
+      "highlight": "toned",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Would two short exercise sessions each week make my arms firmer?",
+      "promptZh": "每星期進行兩次短時間運動,會令我的手臂更結實嗎?",
+      "starter": "Would",
+      "answer": "Would two short exercise sessions each week tone up my arms?",
+      "answerZh": "每星期進行兩次短時間運動,會令我的手臂更結實嗎?",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the chair is new, its colour matches the older furniture.",
+      "promptZh": "雖然椅子是新的,但它的顏色與較舊的家具十分配襯。",
+      "starter": "Although",
+      "answer": "Although the chair is new, its colour tones in with the older furniture.",
+      "answerZh": "雖然椅子是新的,但它的顏色與較舊的家具十分配襯。",
+      "highlight": "tones in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The manager asked the team to make the report less alarming.",
+      "promptZh": "經理要求團隊把報告寫得不那麼令人擔心。",
+      "starter": "The",
+      "answer": "The manager asked the team to tone down the report.",
+      "answerZh": "經理要求團隊把報告寫得不那麼令人擔心。",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使報告或表達變得不那麼強烈"
+    },
+    {
+      "id": "phrasal-verb-264-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The soft pink scarf goes well with her grey coat.",
+      "promptZh": "淡粉紅色頸巾與她的灰色外套十分配襯。",
+      "starter": "The",
+      "answer": "The soft pink scarf tones in well with her grey coat.",
+      "answerZh": "淡粉紅色頸巾與她的灰色外套十分配襯。",
+      "highlight": "tones in",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Karim had not exercised for a long time, so he joined an easy class to become fitter and firmer.",
+      "promptZh": "卡里姆已有很長時間沒有運動,所以參加了一個簡單的課程,讓身體變得更健康和結實。",
+      "starter": "Karim",
+      "answer": "Karim had not exercised for a long time, so he joined an easy class to tone up.",
+      "answerZh": "卡里姆已有很長時間沒有運動,所以參加了一個簡單的課程,讓身體變得更健康和結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The film was made less frightening for younger children.",
+      "promptZh": "這部電影經過修改,讓年幼兒童觀看時不會感到那麼害怕。",
+      "starter": "The",
+      "answer": "The film was toned down for younger children.",
+      "answerZh": "這部電影經過修改,讓年幼兒童觀看時不會感到那麼害怕。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使內容變得不那麼強烈或嚇人"
+    },
+    {
+      "id": "phrasal-verb-264-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The coach told June to make her legs firmer before the race.",
+      "promptZh": "教練叫祖恩在比賽前令雙腿變得更結實。",
+      "starter": "The",
+      "answer": "The coach told June to tone up her legs before the race.",
+      "answerZh": "教練叫祖恩在比賽前令雙腿變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令某個身體部位變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "These wooden frames match the floor, although they came from a different shop.",
+      "promptZh": "這些木框與地板十分配襯,雖然它們來自另一間店舖。",
+      "starter": "These",
+      "answer": "These wooden frames tone in with the floor, although they came from a different shop.",
+      "answerZh": "這些木框與地板十分配襯,雖然它們來自另一間店舖。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because the first version was too direct, the writer made it less forceful.",
+      "promptZh": "由於第一個版本的語氣太直接,作者把它改得較溫和。",
+      "starter": "Because",
+      "answer": "Because the first version was too direct, the writer toned it down.",
+      "answerZh": "由於第一個版本的語氣太直接,作者把它改得較溫和。",
+      "highlight": "toned",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I have lost weight, but I also want my body to become firmer before the hiking trip.",
+      "promptZh": "我已經減輕了體重,但也希望在遠足前令身體變得更結實。",
+      "starter": "I",
+      "answer": "I have lost weight, but I also want to tone up before the hiking trip.",
+      "answerZh": "我已經減輕了體重,但也希望在遠足前令身體變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The new lamps are modern, but their warm colour still matches the old wooden tables.",
+      "promptZh": "新燈具的設計很現代,但它們的暖色調仍與舊木桌十分配襯。",
+      "starter": "The",
+      "answer": "The new lamps are modern, but their warm colour still tones in with the old wooden tables.",
+      "answerZh": "新燈具的設計很現代,但它們的暖色調仍與舊木桌十分配襯。",
+      "highlight": "tones in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The speech could offend some parents, so the head teacher should make its strongest parts less harsh.",
+      "promptZh": "這篇演說可能會冒犯部分家長,所以校長應把其中語氣最強烈的部分改得溫和一點。",
+      "starter": "The",
+      "answer": "The speech could offend some parents, so the head teacher should tone down its strongest parts.",
+      "answerZh": "這篇演說可能會冒犯部分家長,所以校長應把其中語氣最強烈的部分改得溫和一點。",
+      "highlight": "tone down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使言詞或表達變得較溫和"
+    },
+    {
+      "id": "phrasal-verb-264-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "These movements are easy, but doing them regularly can make your stomach muscles firmer.",
+      "promptZh": "這些動作很簡單,但定期練習可以令腹部肌肉變得更結實。",
+      "starter": "These",
+      "answer": "These movements are easy, but doing them regularly can tone up your stomach muscles.",
+      "answerZh": "這些動作很簡單,但定期練習可以令腹部肌肉變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令肌肉變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The website made the claim sound less certain after readers complained.",
+      "promptZh": "讀者投訴後,網站把該說法改得沒有那麼肯定。",
+      "starter": "The",
+      "answer": "The website toned down the claim after readers complained.",
+      "answerZh": "讀者投訴後,網站把該說法改得沒有那麼肯定。",
+      "highlight": "toned down",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使說法變得不那麼強烈或肯定"
+    },
+    {
+      "id": "phrasal-verb-264-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We chose the light brown curtains because they match both the sofa and the carpet.",
+      "promptZh": "我們選擇了淺啡色窗簾,因為它們與梳化和地氈都十分配襯。",
+      "starter": "We",
+      "answer": "We chose the light brown curtains because they tone in with both the sofa and the carpet.",
+      "answerZh": "我們選擇了淺啡色窗簾,因為它們與梳化和地氈都十分配襯。",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After being inactive all winter, Oliver is using swimming to become fitter and firmer again.",
+      "promptZh": "整個冬季都沒有運動後,奧利華正透過游泳讓身體再次變得健康和結實。",
+      "starter": "After",
+      "answer": "After being inactive all winter, Oliver is using swimming to tone up again.",
+      "answerZh": "整個冬季都沒有運動後,奧利華正透過游泳讓身體再次變得健康和結實。",
+      "highlight": "tone up",
+      "targetForm": "tone up",
+      "targetMeaningZh": "透過運動令身體變得更結實"
+    },
+    {
+      "id": "phrasal-verb-264-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Will this silver frame match the blue and grey colours already in the room?",
+      "promptZh": "這個銀色相架會與房間內原有的藍色和灰色配襯嗎?",
+      "starter": "Will",
+      "answer": "Will this silver frame tone in with the blue and grey colours already in the room?",
+      "answerZh": "這個銀色相架會與房間內原有的藍色和灰色配襯嗎?",
+      "highlight": "tone in with",
+      "targetForm": "tone in with something",
+      "targetMeaningZh": "在顏色或風格上互相配襯"
+    },
+    {
+      "id": "phrasal-verb-264-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The first poster used very bright red and yellow, but the designer made both colours less strong.",
+      "promptZh": "第一張海報使用了非常鮮艷的紅色和黃色,但設計師把兩種顏色都調得柔和一點。",
+      "starter": "The",
+      "answer": "The first poster used very bright red and yellow, but the designer toned both colours down.",
+      "answerZh": "第一張海報使用了非常鮮艷的紅色和黃色,但設計師把兩種顏色都調得柔和一點。",
+      "highlight": "toned",
+      "targetForm": "tone something down",
+      "targetMeaningZh": "使顏色變得不那麼強烈"
+    },
+    {
+      "id": "phrasal-verb-264-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The class starts with gentle exercise, then uses stronger movements to make the whole body firmer.",
+      "promptZh": "課堂先由輕鬆運動開始,其後使用力度較大的動作,令全身變得更結實。",
+      "starter": "The",
+      "answer": "The class starts with gentle exercise, then uses stronger movements to tone up the whole body.",
+      "answerZh": "課堂先由輕鬆運動開始,其後使用力度較大的動作,令全身變得更結實。",
+      "highlight": "tone up",
+      "targetForm": "tone something up",
+      "targetMeaningZh": "令身體或肌肉變得更結實"
+    }
+  ]
+}

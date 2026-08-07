@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-144",
+  "order": 144,
+  "slug": "flip",
+  "version": "1",
+  "title": "FLIP 動詞片語",
+  "titleEn": "Flip",
+  "titleZh": "FLIP 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 143 - FLIP.pdf",
+    "sourceNumber": 143,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLIP",
+      "highlight": "FLIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Lena flipped for the small music shop.",
+      "zh": "莉娜一下子便迷上了那間小音樂店。",
+      "highlight": "flipped for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We flipped for the first choice.",
+      "zh": "我們擲硬幣決定誰先選。",
+      "highlight": "flipped for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He flipped out when he saw the broken screen.",
+      "zh": "他看到破裂的螢幕時,激動得失去控制。",
+      "highlight": "flipped out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "(非正式)突然非常喜歡或迷上某人/某事物；(主要為北美用法)擲硬幣決定誰得到某物或誰先做；突然非常生氣、激動,或因驚訝而失去控制；翻轉;翻到另一面;把某物翻到另一面；(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱；快速翻閱或瀏覽,並非仔細閱讀全部內容",
+    "en": "flip for somebody/something; flip for something / flip somebody for something; flip out; flip over / flip something over; flip somebody off; flip through something",
+    "naturalZh": [
+      "(非正式)突然非常喜歡或迷上某人/某事物",
+      "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+      "突然非常生氣、激動,或因驚訝而失去控制",
+      "翻轉;翻到另一面;把某物翻到另一面",
+      "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+      "快速翻閱或瀏覽,並非仔細閱讀全部內容"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "flip for somebody/something",
+      "titleZh": "(非正式)突然非常喜歡或迷上某人/某事物",
+      "titleEn": "flip for somebody/something",
+      "descriptionZh": "(非正式)突然非常喜歡或迷上某人/某事物",
+      "descriptionEn": "Lena flipped for the small music shop.",
+      "examples": [
+        {
+          "en": "Lena flipped for the small music shop.",
+          "zh": "莉娜一下子便迷上了那間小音樂店。",
+          "highlight": "flipped for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flip for something / flip somebody for something",
+      "titleZh": "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+      "titleEn": "flip for something / flip somebody for something",
+      "descriptionZh": "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+      "descriptionEn": "We flipped for the first choice.",
+      "examples": [
+        {
+          "en": "We flipped for the first choice.",
+          "zh": "我們擲硬幣決定誰先選。",
+          "highlight": "flipped for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flip out",
+      "titleZh": "突然非常生氣、激動,或因驚訝而失去控制",
+      "titleEn": "flip out",
+      "descriptionZh": "突然非常生氣、激動,或因驚訝而失去控制",
+      "descriptionEn": "He flipped out when he saw the broken screen.",
+      "examples": [
+        {
+          "en": "He flipped out when he saw the broken screen.",
+          "zh": "他看到破裂的螢幕時,激動得失去控制。",
+          "highlight": "flipped out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flip over / flip something over",
+      "titleZh": "翻轉;翻到另一面;把某物翻到另一面",
+      "titleEn": "flip over / flip something over",
+      "descriptionZh": "翻轉;翻到另一面;把某物翻到另一面",
+      "descriptionEn": "Flip the card over and read the back.",
+      "examples": [
+        {
+          "en": "Flip the card over and read the back.",
+          "zh": "把卡片翻到另一面,閱讀背面的內容。",
+          "highlight": "Flip the card over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "flip somebody off",
+      "titleZh": "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+      "titleEn": "flip somebody off",
+      "descriptionZh": "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+      "descriptionEn": "The driver was angry, but he did not flip anyone off.",
+      "examples": [
+        {
+          "en": "The driver was angry, but he did not flip anyone off.",
+          "zh": "那名司機很生氣,但沒有向任何人舉中指。",
+          "highlight": "flip anyone off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "flip through something",
+      "titleZh": "快速翻閱或瀏覽,並非仔細閱讀全部內容",
+      "titleEn": "flip through something",
+      "descriptionZh": "快速翻閱或瀏覽,並非仔細閱讀全部內容",
+      "descriptionEn": "She flipped through the catalogue before choosing a bag.",
+      "examples": [
+        {
+          "en": "She flipped through the catalogue before choosing a bag.",
+          "zh": "她選購手袋前,快速翻閱了目錄。",
+          "highlight": "flipped through"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FLIP 片語動詞的實際用途",
+    "labelEn": "FLIP Phrasal Verbs in Use",
+    "summaryZh": "flip for 可以表示突然非常喜歡某人或某事物;flip out 則可以描述強烈的情緒反應。；flip over 可以描述快速翻轉;flip through 則可以描述快速翻閱書頁、照片或訊息。；當人們未能決定誰得到某物或誰先做時,可以用 flip for 表示擲硬幣作決定。；認識 flip somebody off,可以幫助你理解電影、網上影片和對話,同時知道這個手勢十分粗魯。",
+    "summaryEn": "Flip for can describe suddenly liking someone or something very much. Flip out can describe a powerful emotional reaction. Flip over describes a quick turn, while flip through describes looking through pages, photographs or messages quickly. Flip for can show that people use a coin when they cannot agree on who should receive something or act first. Knowing flip somebody off helps you understand films, online videos and conversations while recognising that the gesture is rude.",
+    "contextsZh": [
+      "談論突然產生的喜愛和強烈反應",
+      "描述快速的翻轉和瀏覽動作",
+      "談論以公平方式作出選擇",
+      "安全地理解一個冒犯性表達"
+    ],
+    "contextsEn": [
+      "Talk about sudden attraction and strong reactions",
+      "Describe quick physical and reading actions",
+      "Talk about making a fair choice",
+      "Understand an offensive expression safely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FLIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "flip for somebody/something",
+    "fixedHighlight": "flip for somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 FLIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLIP expression that gives the same meaning.",
+    "correct": "flipped for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；(她深深迷上了那名歌手。)We flipped for the last seat.(我們擲硬幣決定誰得到最後一個座位。)flip for 可以表示「非常喜歡或迷上」,也可以表示「擲硬幣作決定」。請仔細閱讀整個情境。；使用 it、him 或 her 時,請按照以上例子放在正確位置。flip somebody off 是非常粗魯的表達;學懂其意思即可,不應在有禮場合使用。",
+    "variableEn": "Keep the same people, things, time and meaning. Flip for has two very different meanings: She flipped for the singer. Follow these examples when using short words such as it, him or her: flip it over flip him off Flip somebody off is a very rude expression. Learn to understand it, but avoid using it in polite situations.",
+    "variableItemsZh": [
+      "flip for somebody/something",
+      "flip for something / flip somebody for something",
+      "flip out",
+      "flip over / flip something over",
+      "flip somebody off",
+      "flip through something"
+    ],
+    "variableItemsEn": [
+      "flip for somebody/something",
+      "flip for something / flip somebody for something",
+      "flip out",
+      "flip over / flip something over",
+      "flip somebody off",
+      "flip through something"
+    ],
+    "forms": [
+      {
+        "formZh": "(非正式)突然非常喜歡或迷上某人/某事物",
+        "formEn": "flip for somebody/something",
+        "exampleZh": "莉娜一下子便迷上了那間小音樂店。",
+        "exampleEn": "Lena flipped for the small music shop.",
+        "highlight": "flipped for"
+      },
+      {
+        "formZh": "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+        "formEn": "flip for something / flip somebody for something",
+        "exampleZh": "我們擲硬幣決定誰先選。",
+        "exampleEn": "We flipped for the first choice.",
+        "highlight": "flipped for"
+      },
+      {
+        "formZh": "突然非常生氣、激動,或因驚訝而失去控制",
+        "formEn": "flip out",
+        "exampleZh": "他看到破裂的螢幕時,激動得失去控制。",
+        "exampleEn": "He flipped out when he saw the broken screen.",
+        "highlight": "flipped out"
+      },
+      {
+        "formZh": "翻轉;翻到另一面;把某物翻到另一面",
+        "formEn": "flip over / flip something over",
+        "exampleZh": "把卡片翻到另一面,閱讀背面的內容。",
+        "exampleEn": "Flip the card over and read the back.",
+        "highlight": "Flip the card over"
+      },
+      {
+        "formZh": "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+        "formEn": "flip somebody off",
+        "exampleZh": "那名司機很生氣,但沒有向任何人舉中指。",
+        "exampleEn": "The driver was angry, but he did not flip anyone off.",
+        "highlight": "flip anyone off"
+      },
+      {
+        "formZh": "快速翻閱或瀏覽,並非仔細閱讀全部內容",
+        "formEn": "flip through something",
+        "exampleZh": "她選購手袋前,快速翻閱了目錄。",
+        "exampleEn": "She flipped through the catalogue before choosing a bag.",
+        "highlight": "flipped through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "(非正式)突然非常喜歡或迷上某人/某事物",
+      "titleEn": "flip for somebody/something",
+      "formula": "flip for somebody/something",
+      "highlight": "flip for somebody/something",
+      "descriptionZh": "(非正式)突然非常喜歡或迷上某人/某事物",
+      "descriptionEn": "Lena flipped for the small music shop.",
+      "examples": [
+        {
+          "en": "Lena flipped for the small music shop.",
+          "zh": "莉娜一下子便迷上了那間小音樂店。",
+          "highlight": "flipped for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+      "titleEn": "flip for something / flip somebody for something",
+      "formula": "flip for something / flip somebody for something",
+      "highlight": "flip for something / flip somebody for something",
+      "descriptionZh": "(主要為北美用法)擲硬幣決定誰得到某物或誰先做",
+      "descriptionEn": "We flipped for the first choice.",
+      "examples": [
+        {
+          "en": "We flipped for the first choice.",
+          "zh": "我們擲硬幣決定誰先選。",
+          "highlight": "flipped for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然非常生氣、激動,或因驚訝而失去控制",
+      "titleEn": "flip out",
+      "formula": "flip out",
+      "highlight": "flip out",
+      "descriptionZh": "突然非常生氣、激動,或因驚訝而失去控制",
+      "descriptionEn": "He flipped out when he saw the broken screen.",
+      "examples": [
+        {
+          "en": "He flipped out when he saw the broken screen.",
+          "zh": "他看到破裂的螢幕時,激動得失去控制。",
+          "highlight": "flipped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "翻轉;翻到另一面;把某物翻到另一面",
+      "titleEn": "flip over / flip something over",
+      "formula": "flip over / flip something over",
+      "highlight": "flip over / flip something over",
+      "descriptionZh": "翻轉;翻到另一面;把某物翻到另一面",
+      "descriptionEn": "Flip the card over and read the back.",
+      "examples": [
+        {
+          "en": "Flip the card over and read the back.",
+          "zh": "把卡片翻到另一面,閱讀背面的內容。",
+          "highlight": "Flip the card over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+      "titleEn": "flip somebody off",
+      "formula": "flip somebody off",
+      "highlight": "flip somebody off",
+      "descriptionZh": "(主要為北美粗俗用語)向某人舉中指,表示不滿或侮辱",
+      "descriptionEn": "The driver was angry, but he did not flip anyone off.",
+      "examples": [
+        {
+          "en": "The driver was angry, but he did not flip anyone off.",
+          "zh": "那名司機很生氣,但沒有向任何人舉中指。",
+          "highlight": "flip anyone off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "快速翻閱或瀏覽,並非仔細閱讀全部內容",
+      "titleEn": "flip through something",
+      "formula": "flip through something",
+      "highlight": "flip through something",
+      "descriptionZh": "快速翻閱或瀏覽,並非仔細閱讀全部內容",
+      "descriptionEn": "She flipped through the catalogue before choosing a bag.",
+      "examples": [
+        {
+          "en": "She flipped through the catalogue before choosing a bag.",
+          "zh": "她選購手袋前,快速翻閱了目錄。",
+          "highlight": "flipped through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論突然產生的喜愛和強烈反應",
+      "titleEn": "Talk about sudden attraction and strong reactions",
+      "zh": "flip for 可以表示突然非常喜歡某人或某事物;flip out 則可以描述強烈的情緒反應。",
+      "en": "Flip for can describe suddenly liking someone or something very much. Flip out can describe a powerful emotional reaction."
+    },
+    {
+      "titleZh": "描述快速的翻轉和瀏覽動作",
+      "titleEn": "Describe quick physical and reading actions",
+      "zh": "flip over 可以描述快速翻轉;flip through 則可以描述快速翻閱書頁、照片或訊息。",
+      "en": "Flip over describes a quick turn, while flip through describes looking through pages, photographs or messages quickly."
+    },
+    {
+      "titleZh": "談論以公平方式作出選擇",
+      "titleEn": "Talk about making a fair choice",
+      "zh": "當人們未能決定誰得到某物或誰先做時,可以用 flip for 表示擲硬幣作決定。",
+      "en": "Flip for can show that people use a coin when they cannot agree on who should receive something or act first."
+    },
+    {
+      "titleZh": "安全地理解一個冒犯性表達",
+      "titleEn": "Understand an offensive expression safely",
+      "zh": "認識 flip somebody off,可以幫助你理解電影、網上影片和對話,同時知道這個手勢十分粗魯。",
+      "en": "Knowing flip somebody off helps you understand films, online videos and conversations while recognising that the gesture is rude."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論突然產生的喜愛和強烈反應",
+      "描述快速的翻轉和瀏覽動作",
+      "談論以公平方式作出選擇",
+      "安全地理解一個冒犯性表達"
+    ],
+    "contextsEn": [
+      "Talk about sudden attraction and strong reactions",
+      "Describe quick physical and reading actions",
+      "Talk about making a fair choice",
+      "Understand an offensive expression safely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論突然產生的喜愛和強烈反應",
+        "titleEn": "Talk about sudden attraction and strong reactions",
+        "zh": "flip for 可以表示突然非常喜歡某人或某事物;flip out 則可以描述強烈的情緒反應。",
+        "en": "Flip for can describe suddenly liking someone or something very much. Flip out can describe a powerful emotional reaction.",
+        "examples": [
+          {
+            "en": "Lena flipped for the small music shop.",
+            "zh": "莉娜一下子便迷上了那間小音樂店。",
+            "highlight": "flipped for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述快速的翻轉和瀏覽動作",
+        "titleEn": "Describe quick physical and reading actions",
+        "zh": "flip over 可以描述快速翻轉;flip through 則可以描述快速翻閱書頁、照片或訊息。",
+        "en": "Flip over describes a quick turn, while flip through describes looking through pages, photographs or messages quickly.",
+        "examples": [
+          {
+            "en": "We flipped for the first choice.",
+            "zh": "我們擲硬幣決定誰先選。",
+            "highlight": "flipped for"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論以公平方式作出選擇",
+        "titleEn": "Talk about making a fair choice",
+        "zh": "當人們未能決定誰得到某物或誰先做時,可以用 flip for 表示擲硬幣作決定。",
+        "en": "Flip for can show that people use a coin when they cannot agree on who should receive something or act first.",
+        "examples": [
+          {
+            "en": "He flipped out when he saw the broken screen.",
+            "zh": "他看到破裂的螢幕時,激動得失去控制。",
+            "highlight": "flipped out"
+          }
+        ]
+      },
+      {
+        "titleZh": "安全地理解一個冒犯性表達",
+        "titleEn": "Understand an offensive expression safely",
+        "zh": "認識 flip somebody off,可以幫助你理解電影、網上影片和對話,同時知道這個手勢十分粗魯。",
+        "en": "Knowing flip somebody off helps you understand films, online videos and conversations while recognising that the gesture is rude.",
+        "examples": [
+          {
+            "en": "Flip the card over and read the back.",
+            "zh": "把卡片翻到另一面,閱讀背面的內容。",
+            "highlight": "Flip the card over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FLIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FLIP 片語動詞。",
+      "en": "Read the whole sentence and choose the FLIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "(她深深迷上了那名歌手。)We flipped for the last seat.(我們擲硬幣決定誰得到最後一個座位。)flip for 可以表示「非常喜歡或迷上」,也可以表示「擲硬幣作決定」。請仔細閱讀整個情境。",
+      "titleEn": "Flip for has two very different meanings: She flipped for the singer.",
+      "zh": "(她深深迷上了那名歌手。)We flipped for the last seat.(我們擲硬幣決定誰得到最後一個座位。)flip for 可以表示「非常喜歡或迷上」,也可以表示「擲硬幣作決定」。請仔細閱讀整個情境。",
+      "en": "Flip for has two very different meanings: She flipped for the singer."
+    },
+    {
+      "titleZh": "使用 it、him 或 her 時,請按照以上例子放在正確位置。flip somebody off 是非常粗魯的表達;學懂其意思即可,不應在有禮場合使用。",
+      "titleEn": "Follow these examples when using short words such as it, him or her: flip it over flip him off Flip somebody off is a very rude expression.",
+      "zh": "使用 it、him 或 her 時,請按照以上例子放在正確位置。flip somebody off 是非常粗魯的表達;學懂其意思即可,不應在有禮場合使用。",
+      "en": "Follow these examples when using short words such as it, him or her: flip it over flip him off Flip somebody off is a very rude expression. Learn to understand it, but avoid using it in polite situations."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLIP 動詞片語句子改寫練習",
+    "titleEn": "FLIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-144-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo looked quickly through the comic before buying it.",
+      "promptZh": "里奧買這本漫畫前,快速翻閱了一下。",
+      "starter": "Leo",
+      "answer": "Leo flipped through the comic before buying it.",
+      "answerZh": "里奧買這本漫畫前,快速翻閱了一下。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Mum became extremely angry when she saw the broken window.",
+      "promptZh": "媽媽看到破裂的窗戶時,勃然大怒。",
+      "starter": "Mum",
+      "answer": "Mum flipped out when she saw the broken window.",
+      "answerZh": "媽媽看到破裂的窗戶時,勃然大怒。",
+      "highlight": "flipped out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The turtle quickly turned onto its back.",
+      "promptZh": "那隻海龜迅速翻過身,背部朝下。",
+      "starter": "The",
+      "answer": "The turtle flipped over onto its back.",
+      "answerZh": "那隻海龜迅速翻過身,背部朝下。",
+      "highlight": "flipped over",
+      "targetForm": "flip over",
+      "targetMeaningZh": "翻轉;翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ava liked the little seaside café very much as soon as she saw it.",
+      "promptZh": "艾娃一看到那間海邊小咖啡店,便非常喜歡它。",
+      "starter": "Ava",
+      "answer": "Ava flipped for the little seaside café as soon as she saw it.",
+      "answerZh": "艾娃一看到那間海邊小咖啡店,便非常喜歡它。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The angry driver raised his middle finger at the cyclist.",
+      "promptZh": "那名生氣的司機向單車手舉中指。",
+      "starter": "The",
+      "answer": "The angry driver flipped the cyclist off.",
+      "answerZh": "那名生氣的司機向單車手舉中指。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We used a coin to decide who would get the last slice of pizza.",
+      "promptZh": "我們擲硬幣決定誰得到最後一片薄餅。",
+      "starter": "We",
+      "answer": "We flipped for the last slice of pizza.",
+      "answerZh": "我們擲硬幣決定誰得到最後一片薄餅。",
+      "highlight": "flipped for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please turn the card to the other side and read the back.",
+      "promptZh": "請把卡片翻到另一面,閱讀背面的內容。",
+      "starter": "Please",
+      "answer": "Please flip the card over and read the back.",
+      "answerZh": "請把卡片翻到另一面,閱讀背面的內容。",
+      "highlight": "flip",
+      "targetForm": "flip something over",
+      "targetMeaningZh": "把某物翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I looked quickly through the holiday photos on my phone.",
+      "promptZh": "我快速瀏覽了手機中的度假照片。",
+      "starter": "I",
+      "answer": "I flipped through the holiday photos on my phone.",
+      "answerZh": "我快速瀏覽了手機中的度假照片。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ben and I used a coin to decide who would get the window seat.",
+      "promptZh": "我和賓擲硬幣決定誰坐窗邊座位。",
+      "starter": "Ben",
+      "answer": "Ben and I flipped for the window seat.",
+      "answerZh": "我和賓擲硬幣決定誰坐窗邊座位。",
+      "highlight": "flipped for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A fan made an insulting middle-finger gesture at the player after the match.",
+      "promptZh": "比賽後,一名球迷向那名球員舉中指侮辱他。",
+      "starter": "A",
+      "answer": "A fan flipped the player off after the match.",
+      "answerZh": "比賽後,一名球迷向那名球員舉中指侮辱他。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Noah became strongly attracted to the singer when he heard her warm voice.",
+      "promptZh": "諾亞聽到那名歌手溫暖的聲音後,便深深迷上了她。",
+      "starter": "Noah",
+      "answer": "Noah flipped for the singer when he heard her warm voice.",
+      "answerZh": "諾亞聽到那名歌手溫暖的聲音後,便深深迷上了她。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The children lost control with excitement when the band appeared.",
+      "promptZh": "樂隊出現時,孩子們興奮得失去控制。",
+      "starter": "The",
+      "answer": "The children flipped out with excitement when the band appeared.",
+      "answerZh": "樂隊出現時,孩子們興奮得失去控制。",
+      "highlight": "flipped out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Shall we use a coin to decide who takes the first turn?",
+      "promptZh": "我們擲硬幣決定誰先開始,好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we flip for the first turn?",
+      "answerZh": "我們擲硬幣決定誰先開始,好嗎?",
+      "highlight": "flip for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "He did not raise his middle finger at the waiter, even though he was angry.",
+      "promptZh": "雖然他很生氣,但他沒有向侍應舉中指。",
+      "starter": "He",
+      "answer": "He did not flip the waiter off, even though he was angry.",
+      "answerZh": "雖然他很生氣,但他沒有向侍應舉中指。",
+      "highlight": "flip",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ella has become very attracted to the new student in her art class.",
+      "promptZh": "埃拉已經深深迷上美術班的新同學。",
+      "starter": "Ella",
+      "answer": "Ella has flipped for the new student in her art class.",
+      "answerZh": "埃拉已經深深迷上美術班的新同學。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The wind turned the empty bin upside down.",
+      "promptZh": "風把空垃圾桶吹翻了。",
+      "starter": "The",
+      "answer": "The wind flipped the empty bin over.",
+      "answerZh": "風把空垃圾桶吹翻了。",
+      "highlight": "flipped",
+      "targetForm": "flip something over",
+      "targetMeaningZh": "把某物翻到另一面或翻倒"
+    },
+    {
+      "id": "phrasal-verb-144-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why did Omar become extremely angry over such a small mistake?",
+      "promptZh": "奧馬為何因這麼小的錯誤而勃然大怒?",
+      "starter": "Why",
+      "answer": "Why did Omar flip out over such a small mistake?",
+      "answerZh": "奧馬為何因這麼小的錯誤而勃然大怒?",
+      "highlight": "flip out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Priya is looking quickly through the menus online.",
+      "promptZh": "普里雅正在網上快速瀏覽餐牌。",
+      "starter": "Priya",
+      "answer": "Priya is flipping through the menus online.",
+      "answerZh": "普里雅正在網上快速瀏覽餐牌。",
+      "highlight": "flipping",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do you think Kai will like this old guitar very much as soon as he tries it?",
+      "promptZh": "你認為啟一試這把舊結他,便會非常喜歡它嗎?",
+      "starter": "Do",
+      "answer": "Do you think Kai will flip for this old guitar as soon as he tries it?",
+      "answerZh": "你認為啟一試這把舊結他,便會非常喜歡它嗎?",
+      "highlight": "flip for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Sam and I used a coin to decide which of us would get the final ticket.",
+      "promptZh": "我和森擲硬幣決定誰得到最後一張門票。",
+      "starter": "I",
+      "answer": "I flipped Sam for the final ticket.",
+      "answerZh": "我和森擲硬幣決定誰得到最後一張門票。",
+      "highlight": "I flipped",
+      "targetForm": "flip somebody for something",
+      "targetMeaningZh": "與某人擲硬幣,決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Have you looked quickly through the school magazine yet?",
+      "promptZh": "你快速翻閱過校刊了嗎?",
+      "starter": "Have",
+      "answer": "Have you flipped through the school magazine yet?",
+      "answerZh": "你快速翻閱過校刊了嗎?",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The pancake is ready; turn it to the other side now.",
+      "promptZh": "班戟已經煎好一面;現在把它翻到另一面。",
+      "starter": "The",
+      "answer": "The pancake is ready; flip it over now.",
+      "answerZh": "班戟已經煎好一面;現在把它翻到另一面。",
+      "highlight": "flip",
+      "targetForm": "flip something over",
+      "targetMeaningZh": "把某物翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why did the boy show his middle finger to the reporter?",
+      "promptZh": "那個男孩為何向記者舉中指?",
+      "starter": "Why",
+      "answer": "Why did the boy flip the reporter off?",
+      "answerZh": "那個男孩為何向記者舉中指?",
+      "highlight": "flip",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Please stay calm until you hear the full story.",
+      "promptZh": "在聽完整件事之前,請保持冷靜。",
+      "starter": "Please",
+      "answer": "Please do not flip out before you hear the full story.",
+      "answerZh": "在聽完整件事之前,請保持冷靜。",
+      "highlight": "do not flip out before",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "As the dolphin swam past, it quickly turned over in the water.",
+      "promptZh": "海豚游過時,在水中迅速翻過身。",
+      "starter": "As",
+      "answer": "As the dolphin swam past, it flipped over in the water.",
+      "answerZh": "海豚游過時,在水中迅速翻過身。",
+      "highlight": "flipped",
+      "targetForm": "flip over",
+      "targetMeaningZh": "翻轉;翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "By the end of her first song, the audience had become very fond of the young singer.",
+      "promptZh": "那名年輕歌手唱完第一首歌時,觀眾已經非常喜歡她。",
+      "starter": "By",
+      "answer": "By the end of her first song, the audience had flipped for the young singer.",
+      "answerZh": "那名年輕歌手唱完第一首歌時,觀眾已經非常喜歡她。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "There were twenty photos on the screen. She looked quickly through them before choosing two.",
+      "promptZh": "螢幕上有二十張照片。她快速瀏覽後選了兩張。",
+      "starter": "There",
+      "answer": "There were twenty photos on the screen. She flipped through them before choosing two.",
+      "answerZh": "螢幕上有二十張照片。她快速瀏覽後選了兩張。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The coach warned the player not to make that rude middle-finger gesture at the referee again.",
+      "promptZh": "教練警告那名球員不要再向球證舉中指。",
+      "starter": "The",
+      "answer": "The coach warned the player not to flip the referee off again.",
+      "answerZh": "教練警告那名球員不要再向球證舉中指。",
+      "highlight": "flip",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Ravi and his brother used a coin to decide who would get the last biscuit.",
+      "promptZh": "拉維和弟弟擲硬幣決定誰得到最後一塊餅乾。",
+      "starter": "Ravi",
+      "answer": "Ravi flipped his brother for the last biscuit.",
+      "answerZh": "拉維和弟弟擲硬幣決定誰得到最後一塊餅乾。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody for something",
+      "targetMeaningZh": "與某人擲硬幣,決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I nearly lost control from surprise when the dog jumped onto my bed.",
+      "promptZh": "那隻狗跳上我的床時,我驚訝得差點失去控制。",
+      "starter": "I",
+      "answer": "I nearly flipped out when the dog jumped onto my bed.",
+      "answerZh": "那隻狗跳上我的床時,我驚訝得差點失去控制。",
+      "highlight": "flipped out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She was told never to use a middle-finger gesture towards anyone at school.",
+      "promptZh": "她被告誡在學校絕對不可向任何人舉中指。",
+      "starter": "She",
+      "answer": "She was told never to flip anyone off at school.",
+      "answerZh": "她被告誡在學校絕對不可向任何人舉中指。",
+      "highlight": "flip",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The book fell, and several pages turned over in the wind.",
+      "promptZh": "那本書掉在地上,幾頁紙被風吹得翻了過去。",
+      "starter": "The",
+      "answer": "The book fell, and several pages flipped over in the wind.",
+      "answerZh": "那本書掉在地上,幾頁紙被風吹得翻了過去。",
+      "highlight": "flipped",
+      "targetForm": "flip over",
+      "targetMeaningZh": "翻轉;翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "When the computer deleted his work, Leo almost lost control in anger.",
+      "promptZh": "電腦刪除了里奧的作品時,他氣得差點失去控制。",
+      "starter": "When",
+      "answer": "When the computer deleted his work, Leo almost flipped out.",
+      "answerZh": "電腦刪除了里奧的作品時,他氣得差點失去控制。",
+      "highlight": "flipped out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "You may become very fond of this town once you see the sea.",
+      "promptZh": "一看到大海,你便可能會深深喜歡上這個小鎮。",
+      "starter": "You",
+      "answer": "You may flip for this town once you see the sea.",
+      "answerZh": "一看到大海,你便可能會深深喜歡上這個小鎮。",
+      "highlight": "flip for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Could we use a coin to decide who gets the better room?",
+      "promptZh": "我們可否擲硬幣決定誰住較好的房間?",
+      "starter": "Could",
+      "answer": "Could we flip for the better room?",
+      "answerZh": "我們可否擲硬幣決定誰住較好的房間?",
+      "highlight": "flip for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Before the trip, Dad looked quickly through a few travel guides.",
+      "promptZh": "出發前,爸爸快速翻閱了幾本旅遊指南。",
+      "starter": "Before",
+      "answer": "Before the trip, Dad flipped through a few travel guides.",
+      "answerZh": "出發前,爸爸快速翻閱了幾本旅遊指南。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The manager became extremely angry when the team changed the plan without telling her.",
+      "promptZh": "團隊沒有通知經理便更改計劃,令她勃然大怒。",
+      "starter": "The",
+      "answer": "The manager flipped out when the team changed the plan without telling her.",
+      "answerZh": "團隊沒有通知經理便更改計劃,令她勃然大怒。",
+      "highlight": "flipped out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Nia looked quickly through the recipe book but did not read every page.",
+      "promptZh": "妮亞快速翻閱食譜,但沒有細讀每一頁。",
+      "starter": "Nia",
+      "answer": "Nia flipped through the recipe book but did not read every page.",
+      "answerZh": "妮亞快速翻閱食譜,但沒有細讀每一頁。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "They used a coin to decide who would sit at the empty desk beside the window.",
+      "promptZh": "他們擲硬幣決定誰坐窗邊的空桌。",
+      "starter": "They",
+      "answer": "They flipped for the empty desk beside the window.",
+      "answerZh": "他們擲硬幣決定誰坐窗邊的空桌。",
+      "highlight": "flipped for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The small boat turned upside down when a large wave hit it.",
+      "promptZh": "一個大浪打來時,那艘小船翻轉了。",
+      "starter": "The",
+      "answer": "The small boat flipped over when a large wave hit it.",
+      "answerZh": "一個大浪打來時,那艘小船翻轉了。",
+      "highlight": "flipped over",
+      "targetForm": "flip over",
+      "targetMeaningZh": "翻轉;翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "My sister loved the shoes immediately, but I only thought they were fine.",
+      "promptZh": "姐姐立即迷上了那雙鞋,但我只覺得它們還可以。",
+      "starter": "My",
+      "answer": "My sister flipped for the shoes, but I only thought they were fine.",
+      "answerZh": "姐姐立即迷上了那雙鞋,但我只覺得它們還可以。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A rude passenger raised his middle finger at the bus driver through the window.",
+      "promptZh": "一名粗魯的乘客隔着車窗向巴士司機舉中指。",
+      "starter": "A",
+      "answer": "A rude passenger flipped the bus driver off through the window.",
+      "answerZh": "一名粗魯的乘客隔着車窗向巴士司機舉中指。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Tara and her brother used a coin to decide who would sleep in the top bunk.",
+      "promptZh": "塔拉和弟弟擲硬幣決定誰睡上格床。",
+      "starter": "Tara",
+      "answer": "Tara flipped her brother for the top bunk.",
+      "answerZh": "塔拉和弟弟擲硬幣決定誰睡上格床。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody for something",
+      "targetMeaningZh": "與某人擲硬幣,決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Do not become extremely angry just because the train is ten minutes late.",
+      "promptZh": "不要只因火車遲到十分鐘便勃然大怒。",
+      "starter": "Do",
+      "answer": "Do not flip out just because the train is ten minutes late.",
+      "answerZh": "不要只因火車遲到十分鐘便勃然大怒。",
+      "highlight": "flip out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The video showed a cyclist making a middle-finger gesture at a driver.",
+      "promptZh": "影片拍到一名單車手向一名司機舉中指。",
+      "starter": "The",
+      "answer": "The video showed a cyclist flipping a driver off.",
+      "answerZh": "影片拍到一名單車手向一名司機舉中指。",
+      "highlight": "flipping",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "While waiting, I looked quickly through the messages from the group.",
+      "promptZh": "等候期間,我快速瀏覽了群組訊息。",
+      "starter": "While",
+      "answer": "While waiting, I flipped through the messages from the group.",
+      "answerZh": "等候期間,我快速瀏覽了群組訊息。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "You should turn the photo to the other side; the date is written there.",
+      "promptZh": "你應該把照片翻到另一面;日期寫在那裏。",
+      "starter": "You",
+      "answer": "You should flip the photo over; the date is written there.",
+      "answerZh": "你應該把照片翻到另一面;日期寫在那裏。",
+      "highlight": "flip",
+      "targetForm": "flip something over",
+      "targetMeaningZh": "把某物翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Many visitors become very fond of the market’s bright colours and friendly atmosphere.",
+      "promptZh": "許多遊客都深深喜歡上這個市集的鮮艷色彩和友善氣氛。",
+      "starter": "Many",
+      "answer": "Many visitors flip for the market’s bright colours and friendly atmosphere.",
+      "answerZh": "許多遊客都深深喜歡上這個市集的鮮艷色彩和友善氣氛。",
+      "highlight": "flip for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Even though he was angry, Dan knew he should not raise his middle finger at the guard.",
+      "promptZh": "雖然丹很生氣,但他知道不應向警衛舉中指。",
+      "starter": "Even",
+      "answer": "Even though he was angry, Dan knew he should not flip the guard off.",
+      "answerZh": "雖然丹很生氣,但他知道不應向警衛舉中指。",
+      "highlight": "flip",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After the first song, the whole class became crazy about the new band.",
+      "promptZh": "聽完第一首歌後,全班都迷上了這隊新樂隊。",
+      "starter": "After",
+      "answer": "After the first song, the whole class flipped for the new band.",
+      "answerZh": "聽完第一首歌後,全班都迷上了這隊新樂隊。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If the fish is cooked underneath, gently turn it to the other side.",
+      "promptZh": "如果魚的底面已經煮熟,便輕輕把它翻到另一面。",
+      "starter": "If",
+      "answer": "If the fish is cooked underneath, gently flip it over.",
+      "answerZh": "如果魚的底面已經煮熟,便輕輕把它翻到另一面。",
+      "highlight": "flip",
+      "targetForm": "flip something over",
+      "targetMeaningZh": "把某物翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Both teams wanted the sunny side, so their captains used a coin to decide who would get it.",
+      "promptZh": "兩隊都想要向陽的一邊,所以隊長擲硬幣作決定。",
+      "starter": "Both",
+      "answer": "Both teams wanted the sunny side, so their captains flipped for it.",
+      "answerZh": "兩隊都想要向陽的一邊,所以隊長擲硬幣作決定。",
+      "highlight": "flipped for",
+      "targetForm": "flip for something",
+      "targetMeaningZh": "擲硬幣決定誰得到某物或誰先做"
+    },
+    {
+      "id": "phrasal-verb-144-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Before choosing a course, Sofia looked quickly through the online guide and then read three pages carefully.",
+      "promptZh": "選擇課程前,索菲亞快速瀏覽網上指南,然後細讀了三頁。",
+      "starter": "Before",
+      "answer": "Before choosing a course, Sofia flipped through the online guide and then read three pages carefully.",
+      "answerZh": "選擇課程前,索菲亞快速瀏覽網上指南,然後細讀了三頁。",
+      "highlight": "flipped",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Dad told us to stay calm until we knew whether the bag was truly lost.",
+      "promptZh": "爸爸叫我們保持冷靜,直至確定袋子是否真的遺失。",
+      "starter": "Dad",
+      "answer": "Dad told us not to flip out until we knew whether the bag was truly lost.",
+      "answerZh": "爸爸叫我們保持冷靜,直至確定袋子是否真的遺失。",
+      "highlight": "not",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The toy car hit the wall, turned over twice, and landed on its wheels.",
+      "promptZh": "玩具車撞到牆,翻轉了兩次,最後四輪着地。",
+      "starter": "The",
+      "answer": "The toy car hit the wall, flipped over twice, and landed on its wheels.",
+      "answerZh": "玩具車撞到牆,翻轉了兩次,最後四輪着地。",
+      "highlight": "flipped",
+      "targetForm": "flip over",
+      "targetMeaningZh": "翻轉;翻到另一面"
+    },
+    {
+      "id": "phrasal-verb-144-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The singer ignored the person who had raised a middle finger at her from the crowd.",
+      "promptZh": "那名歌手沒有理會在人群中向她舉中指的人。",
+      "starter": "The",
+      "answer": "The singer ignored the person who had flipped her off from the crowd.",
+      "answerZh": "那名歌手沒有理會在人群中向她舉中指的人。",
+      "highlight": "flipped",
+      "targetForm": "flip somebody off",
+      "targetMeaningZh": "向某人舉中指;粗俗、冒犯"
+    },
+    {
+      "id": "phrasal-verb-144-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although Amir usually dislikes sweet drinks, he loved the mango tea after one taste.",
+      "promptZh": "雖然阿米爾平日不喜歡甜飲,但他喝了一口便迷上了芒果茶。",
+      "starter": "Although",
+      "answer": "Although Amir usually dislikes sweet drinks, he flipped for the mango tea after one taste.",
+      "answerZh": "雖然阿米爾平日不喜歡甜飲,但他喝了一口便迷上了芒果茶。",
+      "highlight": "flipped for",
+      "targetForm": "flip for somebody/something",
+      "targetMeaningZh": "突然非常喜歡或迷上某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-144-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I was looking quickly through an old notebook when I found the phone number.",
+      "promptZh": "我快速翻閱一本舊筆記簿時,找到了那個電話號碼。",
+      "starter": "I",
+      "answer": "I was flipping through an old notebook when I found the phone number.",
+      "answerZh": "我快速翻閱一本舊筆記簿時,找到了那個電話號碼。",
+      "highlight": "flipping",
+      "targetForm": "flip through something",
+      "targetMeaningZh": "快速翻閱或瀏覽"
+    },
+    {
+      "id": "phrasal-verb-144-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The class may lose control with excitement if the famous player visits.",
+      "promptZh": "如果那名著名球員到訪,全班可能會興奮得失去控制。",
+      "starter": "The",
+      "answer": "The class may flip out with excitement if the famous player visits.",
+      "answerZh": "如果那名著名球員到訪,全班可能會興奮得失去控制。",
+      "highlight": "flip out",
+      "targetForm": "flip out",
+      "targetMeaningZh": "突然非常生氣、激動或失控"
+    },
+    {
+      "id": "phrasal-verb-144-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "We could not agree on the last seat, so Eva and I used a coin to decide who would get it.",
+      "promptZh": "我們未能就最後一個座位達成協議,所以我和伊娃擲硬幣作決定。",
+      "starter": "We",
+      "answer": "We could not agree on the last seat, so I flipped Eva for it.",
+      "answerZh": "我們未能就最後一個座位達成協議,所以我和伊娃擲硬幣作決定。",
+      "highlight": "I flipped",
+      "targetForm": "flip somebody for something",
+      "targetMeaningZh": "與某人擲硬幣,決定誰得到某物或誰先做"
+    }
+  ]
+}

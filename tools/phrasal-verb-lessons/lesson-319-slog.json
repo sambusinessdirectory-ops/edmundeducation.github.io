@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-319",
+  "order": 319,
+  "slug": "slog",
+  "version": "1",
+  "title": "SLOG 動詞片語",
+  "titleEn": "Slog",
+  "titleZh": "SLOG 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 304 - SLOG.pdf",
+    "sourceNumber": 304,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SLOG 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SLOG."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SLOG",
+      "highlight": "SLOG"
+    }
+  ],
+  "examples": [
+    {
+      "en": "He slogged away at the report all afternoon.",
+      "zh": "他整個下午都在埋頭苦幹,努力完成報告。",
+      "highlight": "slogged away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The two teams slogged it out in the final.",
+      "zh": "兩支球隊在決賽中苦戰到底。",
+      "highlight": "slogged it out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I slogged through three difficult chapters.",
+      "zh": "我吃力地讀完了三個艱深的章節。",
+      "highlight": "slogged through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "長時間埋頭苦幹;努力工作很久；兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下；吃力地逐一處理、閱讀或完成困難而乏味的事物",
+    "en": "slog away; slog it out; slog through something",
+    "naturalZh": [
+      "長時間埋頭苦幹;努力工作很久",
+      "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+      "吃力地逐一處理、閱讀或完成困難而乏味的事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "slog away",
+      "titleZh": "長時間埋頭苦幹;努力工作很久",
+      "titleEn": "slog away",
+      "descriptionZh": "長時間埋頭苦幹;努力工作很久",
+      "descriptionEn": "He slogged away at the report all afternoon.",
+      "examples": [
+        {
+          "en": "He slogged away at the report all afternoon.",
+          "zh": "他整個下午都在埋頭苦幹,努力完成報告。",
+          "highlight": "slogged away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slog it out",
+      "titleZh": "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+      "titleEn": "slog it out",
+      "descriptionZh": "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+      "descriptionEn": "The two teams slogged it out in the final.",
+      "examples": [
+        {
+          "en": "The two teams slogged it out in the final.",
+          "zh": "兩支球隊在決賽中苦戰到底。",
+          "highlight": "slogged it out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slog through something",
+      "titleZh": "吃力地逐一處理、閱讀或完成困難而乏味的事物",
+      "titleEn": "slog through something",
+      "descriptionZh": "吃力地逐一處理、閱讀或完成困難而乏味的事物",
+      "descriptionEn": "I slogged through three difficult chapters.",
+      "examples": [
+        {
+          "en": "I slogged through three difficult chapters.",
+          "zh": "我吃力地讀完了三個艱深的章節。",
+          "highlight": "slogged through"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SLOG 片語動詞的實際用途",
+    "labelEn": "SLOG Phrasal Verbs in Use",
+    "summaryZh": "slog away 表示某人持續努力工作,尤其適合描述需要很長時間完成的任務。；slog it out 可以描述球隊、候選人或其他對手苦戰到底,直至其中一方勝出。；當一本書、一份表格、一份報告或大量訊息需要花很大力氣才能完成時,可以使用 slog through。；這些 SLOG 表達常見於談論工作、學習、競爭和令人疲累的任務。",
+    "summaryEn": "Slog away shows that somebody continues working very hard, especially when the task takes a long time. Slog it out can describe teams, candidates or other sides competing hard until one of them succeeds. Slog through is useful when a book, form, report or pile of messages takes a great deal of effort to finish. These SLOG expressions are useful in conversations about work, study, competitions and tiring tasks.",
+    "contextsZh": [
+      "描述長時間的艱苦工作",
+      "談論激烈而勢均力敵的競爭",
+      "描述艱難的閱讀和文書工作",
+      "理解非正式的英式英語"
+    ],
+    "contextsEn": [
+      "Describe long periods of difficult work",
+      "Talk about close and difficult competitions",
+      "Describe difficult reading and paperwork",
+      "Understand informal British English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SLOG 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SLOG expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "slog away",
+    "fixedHighlight": "slog away",
+    "fixedZh": "閱讀整句,選出意思相同的 SLOG 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SLOG expression that gives the same meaning.",
+    "correct": "slogged away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；slog away 本身已是完整表達。你可以加上 at something,說明正在努力處理甚麼:He slogged away.He slogged away at the report.；在 slog it out 中,it 是固定表達的一部分。with、over 和 for 等字詞只用來補充資料:The teams slogged it out.The teams slogged it out for the title.",
+    "variableEn": "Keep the same people, things, time and meaning. Slog away is complete by itself. At something can be added to identify the task: He slogged away. He slogged away at the report. In slog it out, it is part of the fixed expression. Words such as with, over and for only add information: The teams slogged it out. The teams slogged it out for the title.",
+    "variableItemsZh": [
+      "slog away",
+      "slog it out",
+      "slog through something"
+    ],
+    "variableItemsEn": [
+      "slog away",
+      "slog it out",
+      "slog through something"
+    ],
+    "forms": [
+      {
+        "formZh": "長時間埋頭苦幹;努力工作很久",
+        "formEn": "slog away",
+        "exampleZh": "他整個下午都在埋頭苦幹,努力完成報告。",
+        "exampleEn": "He slogged away at the report all afternoon.",
+        "highlight": "slogged away"
+      },
+      {
+        "formZh": "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+        "formEn": "slog it out",
+        "exampleZh": "兩支球隊在決賽中苦戰到底。",
+        "exampleEn": "The two teams slogged it out in the final.",
+        "highlight": "slogged it out"
+      },
+      {
+        "formZh": "吃力地逐一處理、閱讀或完成困難而乏味的事物",
+        "formEn": "slog through something",
+        "exampleZh": "我吃力地讀完了三個艱深的章節。",
+        "exampleEn": "I slogged through three difficult chapters.",
+        "highlight": "slogged through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "長時間埋頭苦幹;努力工作很久",
+      "titleEn": "slog away",
+      "formula": "slog away",
+      "highlight": "slog away",
+      "descriptionZh": "長時間埋頭苦幹;努力工作很久",
+      "descriptionEn": "He slogged away at the report all afternoon.",
+      "examples": [
+        {
+          "en": "He slogged away at the report all afternoon.",
+          "zh": "他整個下午都在埋頭苦幹,努力完成報告。",
+          "highlight": "slogged away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+      "titleEn": "slog it out",
+      "formula": "slog it out",
+      "highlight": "slog it out",
+      "descriptionZh": "兩方或多方苦戰到底,力求勝出或使自己的意見獲接納;一較高下",
+      "descriptionEn": "The two teams slogged it out in the final.",
+      "examples": [
+        {
+          "en": "The two teams slogged it out in the final.",
+          "zh": "兩支球隊在決賽中苦戰到底。",
+          "highlight": "slogged it out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "吃力地逐一處理、閱讀或完成困難而乏味的事物",
+      "titleEn": "slog through something",
+      "formula": "slog through something",
+      "highlight": "slog through something",
+      "descriptionZh": "吃力地逐一處理、閱讀或完成困難而乏味的事物",
+      "descriptionEn": "I slogged through three difficult chapters.",
+      "examples": [
+        {
+          "en": "I slogged through three difficult chapters.",
+          "zh": "我吃力地讀完了三個艱深的章節。",
+          "highlight": "slogged through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述長時間的艱苦工作",
+      "titleEn": "Describe long periods of difficult work",
+      "zh": "slog away 表示某人持續努力工作,尤其適合描述需要很長時間完成的任務。",
+      "en": "Slog away shows that somebody continues working very hard, especially when the task takes a long time."
+    },
+    {
+      "titleZh": "談論激烈而勢均力敵的競爭",
+      "titleEn": "Talk about close and difficult competitions",
+      "zh": "slog it out 可以描述球隊、候選人或其他對手苦戰到底,直至其中一方勝出。",
+      "en": "Slog it out can describe teams, candidates or other sides competing hard until one of them succeeds."
+    },
+    {
+      "titleZh": "描述艱難的閱讀和文書工作",
+      "titleEn": "Describe difficult reading and paperwork",
+      "zh": "當一本書、一份表格、一份報告或大量訊息需要花很大力氣才能完成時,可以使用 slog through。",
+      "en": "Slog through is useful when a book, form, report or pile of messages takes a great deal of effort to finish."
+    },
+    {
+      "titleZh": "理解非正式的英式英語",
+      "titleEn": "Understand informal British English",
+      "zh": "這些 SLOG 表達常見於談論工作、學習、競爭和令人疲累的任務。",
+      "en": "These SLOG expressions are useful in conversations about work, study, competitions and tiring tasks."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述長時間的艱苦工作",
+      "談論激烈而勢均力敵的競爭",
+      "描述艱難的閱讀和文書工作",
+      "理解非正式的英式英語"
+    ],
+    "contextsEn": [
+      "Describe long periods of difficult work",
+      "Talk about close and difficult competitions",
+      "Describe difficult reading and paperwork",
+      "Understand informal British English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述長時間的艱苦工作",
+        "titleEn": "Describe long periods of difficult work",
+        "zh": "slog away 表示某人持續努力工作,尤其適合描述需要很長時間完成的任務。",
+        "en": "Slog away shows that somebody continues working very hard, especially when the task takes a long time.",
+        "examples": [
+          {
+            "en": "He slogged away at the report all afternoon.",
+            "zh": "他整個下午都在埋頭苦幹,努力完成報告。",
+            "highlight": "slogged away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論激烈而勢均力敵的競爭",
+        "titleEn": "Talk about close and difficult competitions",
+        "zh": "slog it out 可以描述球隊、候選人或其他對手苦戰到底,直至其中一方勝出。",
+        "en": "Slog it out can describe teams, candidates or other sides competing hard until one of them succeeds.",
+        "examples": [
+          {
+            "en": "The two teams slogged it out in the final.",
+            "zh": "兩支球隊在決賽中苦戰到底。",
+            "highlight": "slogged it out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述艱難的閱讀和文書工作",
+        "titleEn": "Describe difficult reading and paperwork",
+        "zh": "當一本書、一份表格、一份報告或大量訊息需要花很大力氣才能完成時,可以使用 slog through。",
+        "en": "Slog through is useful when a book, form, report or pile of messages takes a great deal of effort to finish.",
+        "examples": [
+          {
+            "en": "I slogged through three difficult chapters.",
+            "zh": "我吃力地讀完了三個艱深的章節。",
+            "highlight": "slogged through"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解非正式的英式英語",
+        "titleEn": "Understand informal British English",
+        "zh": "這些 SLOG 表達常見於談論工作、學習、競爭和令人疲累的任務。",
+        "en": "These SLOG expressions are useful in conversations about work, study, competitions and tiring tasks.",
+        "examples": [
+          {
+            "en": "He slogged away at the report all afternoon.",
+            "zh": "他整個下午都在埋頭苦幹,努力完成報告。",
+            "highlight": "slogged away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SLOG 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SLOG expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SLOG 片語動詞。",
+      "en": "Read the whole sentence and choose the SLOG expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "slog away 本身已是完整表達。你可以加上 at something,說明正在努力處理甚麼:He slogged away.He slogged away at the report.",
+      "titleEn": "Slog away is complete by itself.",
+      "zh": "slog away 本身已是完整表達。你可以加上 at something,說明正在努力處理甚麼:He slogged away.He slogged away at the report.",
+      "en": "Slog away is complete by itself. At something can be added to identify the task: He slogged away. He slogged away at the report."
+    },
+    {
+      "titleZh": "在 slog it out 中,it 是固定表達的一部分。with、over 和 for 等字詞只用來補充資料:The teams slogged it out.The teams slogged it out for the title.",
+      "titleEn": "In slog it out, it is part of the fixed expression.",
+      "zh": "在 slog it out 中,it 是固定表達的一部分。with、over 和 for 等字詞只用來補充資料:The teams slogged it out.The teams slogged it out for the title.",
+      "en": "In slog it out, it is part of the fixed expression. Words such as with, over and for only add information: The teams slogged it out. The teams slogged it out for the title."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SLOG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SLOG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SLOG 動詞片語句子改寫練習",
+    "titleEn": "SLOG Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SLOG 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SLOG. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-319-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I read the long chapter slowly and with great effort.",
+      "promptZh": "我花了很大力氣,慢慢讀完了這個很長的章節。",
+      "starter": "I",
+      "answer": "I slogged through the long chapter.",
+      "answerZh": "我花了很大力氣,慢慢讀完了這個很長的章節。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo worked very hard at the report all afternoon.",
+      "promptZh": "里奧整個下午都在努力處理報告。",
+      "starter": "Leo",
+      "answer": "Leo slogged away at the report all afternoon.",
+      "answerZh": "里奧整個下午都在努力處理報告。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The two teams competed hard in the final until one of them won.",
+      "promptZh": "兩支球隊在決賽中激烈競爭,直至其中一隊勝出。",
+      "starter": "The",
+      "answer": "The two teams slogged it out in the final until one of them won.",
+      "answerZh": "兩支球隊在決賽中苦戰,直至其中一隊勝出。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We worked very hard for hours, but we still did not finish.",
+      "promptZh": "我們努力工作了多個小時,但仍未完成。",
+      "starter": "We",
+      "answer": "We slogged away for hours, but we still did not finish.",
+      "answerZh": "我們努力工作了多個小時,但仍未完成。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nia spent the evening reading the difficult instructions with great effort.",
+      "promptZh": "妮亞整個晚上都在吃力地閱讀那些艱深的指示。",
+      "starter": "Nia",
+      "answer": "Nia slogged through the difficult instructions all evening.",
+      "answerZh": "妮亞整個晚上都在吃力地閱讀那些艱深的指示。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ava and Ben competed very hard against each other in the class election.",
+      "promptZh": "艾娃和賓在班級選舉中激烈競爭。",
+      "starter": "Ava",
+      "answer": "Ava and Ben slogged it out in the class election.",
+      "answerZh": "艾娃和賓在班級選舉中激烈競爭。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The students worked very hard at the decorations all morning.",
+      "promptZh": "學生們整個早上都在努力製作裝飾。",
+      "starter": "The",
+      "answer": "The students slogged away at the decorations all morning.",
+      "answerZh": "學生們整個早上都在努力製作裝飾。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher had to deal with a large pile of forms one by one.",
+      "promptZh": "老師不得不逐一處理一大堆表格。",
+      "starter": "The",
+      "answer": "The teacher had to slog through a large pile of forms.",
+      "answerZh": "老師不得不吃力地逐一處理一大堆表格。",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The final two cooks competed hard for first place.",
+      "promptZh": "最後兩名廚師為了第一名而激烈競爭。",
+      "starter": "The",
+      "answer": "The final two cooks slogged it out for first place.",
+      "answerZh": "最後兩名廚師為了第一名而苦戰到底。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Dad worked very hard in the garden until sunset.",
+      "promptZh": "爸爸在花園辛苦工作至日落。",
+      "starter": "Dad",
+      "answer": "Dad slogged away in the garden until sunset.",
+      "answerZh": "爸爸在花園辛苦工作至日落。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They are still competing hard against each other in the chess match.",
+      "promptZh": "他們仍在國際象棋比賽中激烈較量。",
+      "starter": "They",
+      "answer": "They are still slogging it out in the chess match.",
+      "answerZh": "他們仍在國際象棋比賽中激烈較量。",
+      "highlight": "slogging it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I have been dealing with all these emails since breakfast, and it has taken great effort.",
+      "promptZh": "我從早餐時間開始便一直吃力地處理這些電郵。",
+      "starter": "I",
+      "answer": "I have been slogging through all these emails since breakfast.",
+      "answerZh": "我從早餐時間開始便一直吃力地處理這些電郵。",
+      "highlight": "slogging through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Priya has been working very hard at the same plan for days.",
+      "promptZh": "普里雅已連續多天努力處理同一項計劃。",
+      "starter": "Priya",
+      "answer": "Priya has been slogging away at the same plan for days.",
+      "answerZh": "普里雅已連續多天努力處理同一項計劃。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Will you have to read all eighty difficult pages tonight?",
+      "promptZh": "你今晚是否需要吃力地讀完全部八十頁?",
+      "starter": "Will",
+      "answer": "Will you have to slog through all eighty difficult pages tonight?",
+      "answerZh": "你今晚是否需要吃力地讀完全部八十頁?",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The two singers may have to compete hard for the final place.",
+      "promptZh": "兩名歌手可能需要為最後一個席位激烈競爭。",
+      "starter": "The",
+      "answer": "The two singers may have to slog it out for the final place.",
+      "answerZh": "兩名歌手可能需要為最後一個席位苦戰到底。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why is Ravi working so hard at that model?",
+      "promptZh": "拉維為何如此努力地製作那個模型?",
+      "starter": "Why",
+      "answer": "Why is Ravi slogging away at that model?",
+      "answerZh": "拉維為何如此努力地製作那個模型?",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We were slowly reading the difficult rules when the lights went out.",
+      "promptZh": "燈熄滅時,我們正在吃力地閱讀那些艱深的規則。",
+      "starter": "We",
+      "answer": "We were slogging through the difficult rules when the lights went out.",
+      "answerZh": "燈熄滅時,我們正在吃力地閱讀那些艱深的規則。",
+      "highlight": "slogging through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The two sides have been fighting hard over one small detail.",
+      "promptZh": "雙方一直為了一項小細節激烈爭持。",
+      "starter": "The",
+      "answer": "The two sides have been slogging it out over one small detail.",
+      "answerZh": "雙方一直為了一項小細節激烈爭持。",
+      "highlight": "slogging it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "為取得結果而激烈爭持"
+    },
+    {
+      "id": "phrasal-verb-319-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She did not want to complete another long form.",
+      "promptZh": "她不想再吃力地填寫另一份很長的表格。",
+      "starter": "She",
+      "answer": "She did not want to slog through another long form.",
+      "answerZh": "她不想再吃力地填寫另一份很長的表格。",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ella will keep working very hard until the room is clean.",
+      "promptZh": "埃拉會繼續努力工作,直至房間變得乾淨。",
+      "starter": "Ella",
+      "answer": "Ella will keep slogging away until the room is clean.",
+      "answerZh": "埃拉會繼續努力工作,直至房間變得乾淨。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "In tomorrow’s final, Omar will compete hard against Leo.",
+      "promptZh": "在明天的決賽中,奧馬將與里奧激烈較量。",
+      "starter": "In",
+      "answer": "In tomorrow’s final, Omar will slog it out with Leo.",
+      "answerZh": "在明天的決賽中,奧馬將與里奧苦戰到底。",
+      "highlight": "slog it out with",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "These notes are confusing, but I must read all of them carefully.",
+      "promptZh": "這些筆記很混亂,但我必須吃力地把它們全部讀完。",
+      "starter": "These",
+      "answer": "These notes are confusing, but I must slog through them.",
+      "answerZh": "這些筆記很混亂,但我必須吃力地把它們全部讀完。",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The report was difficult, but we continued working very hard at it.",
+      "promptZh": "這份報告很難處理,但我們仍繼續努力工作。",
+      "starter": "The",
+      "answer": "The report was difficult, but we continued to slog away at it.",
+      "answerZh": "這份報告很難處理,但我們仍繼續努力工作。",
+      "highlight": "to slog away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The judges watched the last two dancers compete hard for the prize.",
+      "promptZh": "評判觀看最後兩名舞蹈員為獎項激烈競爭。",
+      "starter": "The",
+      "answer": "The judges watched the last two dancers slog it out for the prize.",
+      "answerZh": "評判觀看最後兩名舞蹈員為獎項苦戰到底。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After dinner, Sam continued reading the difficult book little by little.",
+      "promptZh": "晚飯後,森繼續一點一點地吃力閱讀那本艱深的書。",
+      "starter": "After",
+      "answer": "After dinner, Sam continued slogging through the difficult book.",
+      "answerZh": "晚飯後,森繼續吃力地閱讀那本艱深的書。",
+      "highlight": "slogging through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I had to work very hard for three hours before the table was ready.",
+      "promptZh": "我不得不辛苦工作三個小時,才把桌子準備好。",
+      "starter": "I",
+      "answer": "I had to slog away for three hours before the table was ready.",
+      "answerZh": "我不得不辛苦工作三個小時,才把桌子準備好。",
+      "highlight": "slog away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The two runners were left to compete hard for the final place on the team.",
+      "promptZh": "兩名跑手只能為隊中最後一個席位苦戰到底。",
+      "starter": "The",
+      "answer": "The two runners were left to slog it out for the final place on the team.",
+      "answerZh": "兩名跑手只能為隊中最後一個席位苦戰到底。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could you check this pile of receipts one by one before lunch?",
+      "promptZh": "你可以在午飯前吃力地逐一檢查這堆收據嗎?",
+      "starter": "Could",
+      "answer": "Could you slog through this pile of receipts before lunch?",
+      "answerZh": "你可以在午飯前吃力地逐一檢查這堆收據嗎?",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Without help, Nia kept working very hard at the website.",
+      "promptZh": "在沒有人協助的情況下,妮亞繼續努力處理網站。",
+      "starter": "Without",
+      "answer": "Without help, Nia kept slogging away at the website.",
+      "answerZh": "在沒有人協助的情況下,妮亞繼續努力處理網站。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We listened as the two groups argued and competed hard over which plan to use.",
+      "promptZh": "我們聽着兩個小組為應採用哪項計劃而激烈爭持。",
+      "starter": "We",
+      "answer": "We listened as the two groups slogged it out over which plan to use.",
+      "answerZh": "我們聽着兩個小組為應採用哪項計劃而激烈爭持。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "為取得結果而激烈爭持"
+    },
+    {
+      "id": "phrasal-verb-319-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The others left early, but Kai continued working very hard at the display.",
+      "promptZh": "其他人提早離開,但啟仍繼續努力製作展品。",
+      "starter": "The",
+      "answer": "The others left early, but Kai slogged away at the display.",
+      "answerZh": "其他人提早離開,但啟仍繼續努力製作展品。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Reading the book was difficult, yet Sofia completed all twelve chapters.",
+      "promptZh": "這本書很難讀,但索菲亞仍吃力地讀完了全部十二個章節。",
+      "starter": "Reading",
+      "answer": "Reading the book was difficult, yet Sofia slogged through all twelve chapters.",
+      "answerZh": "這本書很難讀,但索菲亞仍吃力地讀完了全部十二個章節。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Neither team stopped trying; they competed hard until the final minute.",
+      "promptZh": "兩支球隊都沒有停止努力,一直苦戰至最後一分鐘。",
+      "starter": "Neither",
+      "answer": "Neither team stopped trying; they slogged it out until the final minute.",
+      "answerZh": "兩支球隊都沒有停止努力,一直苦戰至最後一分鐘。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I do not mind working very hard if the result is useful.",
+      "promptZh": "如果結果有用,我不介意埋頭苦幹。",
+      "starter": "I",
+      "answer": "I do not mind slogging away if the result is useful.",
+      "answerZh": "如果結果有用,我不介意埋頭苦幹。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The guide was badly written, but we read it from beginning to end with great effort.",
+      "promptZh": "這本指南寫得很差,但我們仍吃力地把它從頭到尾讀完。",
+      "starter": "The",
+      "answer": "The guide was badly written, but we slogged through it from beginning to end.",
+      "answerZh": "這本指南寫得很差,但我們仍吃力地把它從頭到尾讀完。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The two game designers are competing hard for the top prize.",
+      "promptZh": "兩名遊戲設計者正為最高獎項激烈競爭。",
+      "starter": "The",
+      "answer": "The two game designers are slogging it out for the top prize.",
+      "answerZh": "兩名遊戲設計者正為最高獎項苦戰到底。",
+      "highlight": "slogging it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We may be here all night, working hard at packing these boxes.",
+      "promptZh": "我們可能要整晚留在這裏,努力把這些箱子包裝好。",
+      "starter": "We",
+      "answer": "We may be here all night, slogging away at packing these boxes.",
+      "answerZh": "我們可能要整晚留在這裏,努力把這些箱子包裝好。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The class spent an hour trying to complete a very difficult set of maths questions.",
+      "promptZh": "全班花了一小時,吃力地完成一組非常困難的數學題。",
+      "starter": "The",
+      "answer": "The class spent an hour slogging through a very difficult set of maths questions.",
+      "answerZh": "全班花了一小時,吃力地完成一組非常困難的數學題。",
+      "highlight": "slogging through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The brothers disagreed about the shop and fought hard over who would lead it.",
+      "promptZh": "兩兄弟對店舖的事情意見不合,並為誰負責管理而激烈爭持。",
+      "starter": "The",
+      "answer": "The brothers slogged it out over who would lead the shop.",
+      "answerZh": "兩兄弟為誰負責管理店舖而激烈爭持。",
+      "highlight": "slogged it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "為取得結果而激烈爭持"
+    },
+    {
+      "id": "phrasal-verb-319-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even after everyone else stopped, Eva worked very hard at the poster.",
+      "promptZh": "即使其他人都停下來,伊娃仍努力製作海報。",
+      "starter": "Even",
+      "answer": "Even after everyone else stopped, Eva slogged away at the poster.",
+      "answerZh": "即使其他人都停下來,伊娃仍努力製作海報。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I thought the book would be easy, but I had to read every chapter with great effort.",
+      "promptZh": "我原以為這本書很容易讀,但每個章節都要花很大力氣才能讀完。",
+      "starter": "I",
+      "answer": "I thought the book would be easy, but I had to slog through every chapter.",
+      "answerZh": "我原以為這本書很容易讀,但每個章節都要花很大力氣才能讀完。",
+      "highlight": "slog through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Only two teams remain, and they will compete hard for the title.",
+      "promptZh": "只剩下兩支球隊,而它們將為冠軍苦戰到底。",
+      "starter": "Only",
+      "answer": "Only two teams remain, and they will slog it out for the title.",
+      "answerZh": "只剩下兩支球隊,而它們將為冠軍苦戰到底。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The deadline was close, so the group worked very hard all weekend without complaining.",
+      "promptZh": "限期將至,所以小組整個週末都努力工作,並沒有抱怨。",
+      "starter": "The",
+      "answer": "The deadline was close, so the group slogged away all weekend without complaining.",
+      "answerZh": "限期將至,所以小組整個週末都努力工作,並沒有抱怨。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the website gave no clear order, Lena completed every step with great effort and finished the form.",
+      "promptZh": "雖然網站沒有提供清晰次序,莉娜仍吃力地完成每個步驟和整份表格。",
+      "starter": "Although",
+      "answer": "Although the website gave no clear order, Lena slogged through every step and finished the form.",
+      "answerZh": "雖然網站沒有提供清晰次序,莉娜仍吃力地完成每個步驟和整份表格。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The debate may be calm at first, but the two leaders will soon fight hard over their different plans.",
+      "promptZh": "辯論起初可能很平靜,但兩名領袖很快便會為各自的計劃激烈爭持。",
+      "starter": "The",
+      "answer": "The debate may be calm at first, but the two leaders will soon slog it out over their different plans.",
+      "answerZh": "辯論起初可能很平靜,但兩名領袖很快便會為各自的計劃激烈爭持。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "為使自己的意見獲接納而激烈爭持"
+    },
+    {
+      "id": "phrasal-verb-319-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "You have already spent hours working very hard at this; take a break before you continue.",
+      "promptZh": "你已為此辛苦工作了多個小時;繼續之前先休息一下。",
+      "starter": "You",
+      "answer": "You have already spent hours slogging away at this; take a break before you continue.",
+      "answerZh": "你已為此辛苦工作了多個小時;繼續之前先休息一下。",
+      "highlight": "slogging away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    },
+    {
+      "id": "phrasal-verb-319-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "There were hundreds of old messages, but we checked all of them with great effort by evening.",
+      "promptZh": "那裏有數百則舊訊息,但我們到了晚上已吃力地把它們全部檢查完。",
+      "starter": "There",
+      "answer": "There were hundreds of old messages, but we slogged through all of them by evening.",
+      "answerZh": "那裏有數百則舊訊息,但我們到了晚上已吃力地把它們全部檢查完。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The last two players had equal scores, so they had to compete until one finally won.",
+      "promptZh": "最後兩名選手得分相同,所以他們必須苦戰至其中一人勝出。",
+      "starter": "The",
+      "answer": "The last two players had equal scores, so they had to slog it out until one finally won.",
+      "answerZh": "最後兩名選手得分相同,所以他們必須苦戰至其中一人勝出。",
+      "highlight": "slog it out",
+      "targetForm": "slog it out",
+      "targetMeaningZh": "苦戰到底;一較高下"
+    },
+    {
+      "id": "phrasal-verb-319-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "She wanted to understand the rules properly, so she read the entire dull guide with great effort.",
+      "promptZh": "她想正確理解規則,所以吃力地讀完了整本沉悶的指南。",
+      "starter": "She",
+      "answer": "She wanted to understand the rules properly, so she slogged through the entire dull guide.",
+      "answerZh": "她想正確理解規則,所以吃力地讀完了整本沉悶的指南。",
+      "highlight": "slogged through",
+      "targetForm": "slog through something",
+      "targetMeaningZh": "吃力地完成或處理某事"
+    },
+    {
+      "id": "phrasal-verb-319-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The project looked simple at first, but in the end we worked very hard at it for nearly a month.",
+      "promptZh": "這個項目起初看來很簡單,但最後我們為它辛苦工作了接近一個月。",
+      "starter": "The",
+      "answer": "The project looked simple at first, but in the end we slogged away at it for nearly a month.",
+      "answerZh": "這個項目起初看來很簡單,但最後我們為它辛苦工作了接近一個月。",
+      "highlight": "slogged away",
+      "targetForm": "slog away",
+      "targetMeaningZh": "長時間埋頭苦幹"
+    }
+  ]
+}

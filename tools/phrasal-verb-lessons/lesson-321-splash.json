@@ -1,0 +1,1501 @@
+{
+  "id": "phrasal-verb-321",
+  "order": 321,
+  "slug": "splash",
+  "version": "1",
+  "title": "SPLASH 動詞片語",
+  "titleEn": "Splash",
+  "titleZh": "SPLASH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 306 - SPLASH.pdf",
+    "sourceNumber": 306,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SPLASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SPLASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SPLASH",
+      "highlight": "SPLASH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Marcus splashes his money around to impress people.",
+      "zh": "馬庫斯為了令別人留下深刻印象而大手大腳花錢。",
+      "highlight": "Marcus",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The newspaper splashed the story across its front page.",
+      "zh": "報章把這宗新聞大幅刊登在頭版。",
+      "highlight": "splashed the story across",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The children splashed around in the river.",
+      "zh": "孩子們在河中嬉水。",
+      "highlight": "splashed around in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "大手大腳、到處花錢,往往帶有炫耀意味；把新聞、照片、名字或標誌放在非常顯眼的位置；在水中嬉戲或走動,弄得水花四濺；太空船或太空艙降落在海上；花一大筆錢購買想要但通常並非必需的東西；把水、飲品、油漆等液體濺到某人或某物上",
+    "en": "splash your money about / splash your money around; splash something across something / splash something over something; splash around / splash about in something; splash down; splash out / splash out on something / splash something out on something; splash something over something",
+    "naturalZh": [
+      "大手大腳、到處花錢,往往帶有炫耀意味",
+      "把新聞、照片、名字或標誌放在非常顯眼的位置",
+      "在水中嬉戲或走動,弄得水花四濺",
+      "太空船或太空艙降落在海上",
+      "花一大筆錢購買想要但通常並非必需的東西",
+      "把水、飲品、油漆等液體濺到某人或某物上"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "splash your money about / splash your money around",
+      "titleZh": "大手大腳、到處花錢,往往帶有炫耀意味",
+      "titleEn": "splash your money about / splash your money around",
+      "descriptionZh": "大手大腳、到處花錢,往往帶有炫耀意味",
+      "descriptionEn": "Marcus splashes his money around to impress people.",
+      "examples": [
+        {
+          "en": "Marcus splashes his money around to impress people.",
+          "zh": "馬庫斯為了令別人留下深刻印象而大手大腳花錢。",
+          "highlight": "Marcus"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "splash something across something / splash something over something",
+      "titleZh": "把新聞、照片、名字或標誌放在非常顯眼的位置",
+      "titleEn": "splash something across something / splash something over something",
+      "descriptionZh": "把新聞、照片、名字或標誌放在非常顯眼的位置",
+      "descriptionEn": "The newspaper splashed the story across its front page.",
+      "examples": [
+        {
+          "en": "The newspaper splashed the story across its front page.",
+          "zh": "報章把這宗新聞大幅刊登在頭版。",
+          "highlight": "splashed the story across"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "splash around / splash about in something",
+      "titleZh": "在水中嬉戲或走動,弄得水花四濺",
+      "titleEn": "splash around / splash about in something",
+      "descriptionZh": "在水中嬉戲或走動,弄得水花四濺",
+      "descriptionEn": "The children splashed around in the river.",
+      "examples": [
+        {
+          "en": "The children splashed around in the river.",
+          "zh": "孩子們在河中嬉水。",
+          "highlight": "splashed around in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "splash down",
+      "titleZh": "太空船或太空艙降落在海上",
+      "titleEn": "splash down",
+      "descriptionZh": "太空船或太空艙降落在海上",
+      "descriptionEn": "The capsule splashed down in the Pacific.",
+      "examples": [
+        {
+          "en": "The capsule splashed down in the Pacific.",
+          "zh": "太空艙降落在太平洋。",
+          "highlight": "splashed down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "splash out / splash out on something / splash something out on something",
+      "titleZh": "花一大筆錢購買想要但通常並非必需的東西",
+      "titleEn": "splash out / splash out on something / splash something out on something",
+      "descriptionZh": "花一大筆錢購買想要但通常並非必需的東西",
+      "descriptionEn": "Nina splashed out on a new pair of shoes.",
+      "examples": [
+        {
+          "en": "Nina splashed out on a new pair of shoes.",
+          "zh": "妮娜花了一大筆錢買了一雙新鞋。",
+          "highlight": "splashed out on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "splash something over something",
+      "titleZh": "把水、飲品、油漆等液體濺到某人或某物上",
+      "titleEn": "splash something over something",
+      "descriptionZh": "把水、飲品、油漆等液體濺到某人或某物上",
+      "descriptionEn": "Ava splashed cold water over her face.",
+      "examples": [
+        {
+          "en": "Ava splashed cold water over her face.",
+          "zh": "艾娃把冷水潑在臉上。",
+          "highlight": "splashed cold water over"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SPLASH 片語動詞的實際用途",
+    "labelEn": "SPLASH Phrasal Verbs in Use",
+    "summaryZh": "splash around 和 splash about 可以描述孩子在泳池玩水、人們走過水窪,以及其他令水花四濺的活動。；你可以用 splash something over something 描述水、咖啡、油漆或泥水等液體濺到某個表面。；splash something across 或 over something 可以描述照片、新聞、名字和標誌被展示在容易引人注意的位置。；你可以分辨為了炫耀而大手大腳花錢,以及在一項特別物品上花費一大筆錢。；splash down 可以清楚描述太空船返回地球後降落海面的情況。",
+    "summaryEn": "splash around and splash about help you describe children playing in a pool, people walking through puddles and other activities that send water into the air. You can use splash something over something to talk about water, coffee, paint, mud and other liquids landing on a surface. splash something across or over something can describe photographs, stories, names and logos displayed where many people will notice them. You can distinguish between spending money openly to impress people and spending a large amount on one special item. splash down gives you a clear way to describe a spacecraft landing in the sea after returning to Earth.",
+    "contextsZh": [
+      "談論在水中嬉戲和走動",
+      "描述液體濺到人物或物件上",
+      "理解顯眼的新聞和廣告",
+      "談論兩種不同的大額花費",
+      "描述太空船返回地球"
+    ],
+    "contextsEn": [
+      "Talk about playing and moving in water",
+      "Describe liquids falling on people and things",
+      "Understand eye-catching news and advertising",
+      "Talk about two different ways of spending freely",
+      "Describe the return of a spacecraft"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SPLASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SPLASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "splash your money about / splash your money around",
+    "fixedHighlight": "splash your money about / splash your money around",
+    "fixedZh": "閱讀整句,選出意思相同的 SPLASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SPLASH expression that gives the same meaning.",
+    "correct": "Marcus",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；about 和 around 有時可以表達相同意思。當新聞、照片或名字被展示在顯眼位置時,across 和over 也可以表達相同意思。；splash your money about 或 around 通常表示大手大腳、到處花錢;splash out 通常表示在某項特別購物或體驗上花費一大筆錢。",
+    "variableEn": "Keep the same people, things, time and meaning. about and around can sometimes express the same meaning. Across and over can also express the same meaning when news, photographs or names are displayed where many people will notice them. splash your money about or around usually describes spending money freely and openly. Splash out usually describes spending a large amount on one special purchase or experience.",
+    "variableItemsZh": [
+      "splash your money about / splash your money around",
+      "splash something across something / splash something over something",
+      "splash around / splash about in something",
+      "splash down",
+      "splash out / splash out on something / splash something out on something",
+      "splash something over something"
+    ],
+    "variableItemsEn": [
+      "splash your money about / splash your money around",
+      "splash something across something / splash something over something",
+      "splash around / splash about in something",
+      "splash down",
+      "splash out / splash out on something / splash something out on something",
+      "splash something over something"
+    ],
+    "forms": [
+      {
+        "formZh": "大手大腳、到處花錢,往往帶有炫耀意味",
+        "formEn": "splash your money about / splash your money around",
+        "exampleZh": "馬庫斯為了令別人留下深刻印象而大手大腳花錢。",
+        "exampleEn": "Marcus splashes his money around to impress people.",
+        "highlight": "Marcus"
+      },
+      {
+        "formZh": "把新聞、照片、名字或標誌放在非常顯眼的位置",
+        "formEn": "splash something across something / splash something over something",
+        "exampleZh": "報章把這宗新聞大幅刊登在頭版。",
+        "exampleEn": "The newspaper splashed the story across its front page.",
+        "highlight": "splashed the story across"
+      },
+      {
+        "formZh": "在水中嬉戲或走動,弄得水花四濺",
+        "formEn": "splash around / splash about in something",
+        "exampleZh": "孩子們在河中嬉水。",
+        "exampleEn": "The children splashed around in the river.",
+        "highlight": "splashed around in"
+      },
+      {
+        "formZh": "太空船或太空艙降落在海上",
+        "formEn": "splash down",
+        "exampleZh": "太空艙降落在太平洋。",
+        "exampleEn": "The capsule splashed down in the Pacific.",
+        "highlight": "splashed down"
+      },
+      {
+        "formZh": "花一大筆錢購買想要但通常並非必需的東西",
+        "formEn": "splash out / splash out on something / splash something out on something",
+        "exampleZh": "妮娜花了一大筆錢買了一雙新鞋。",
+        "exampleEn": "Nina splashed out on a new pair of shoes.",
+        "highlight": "splashed out on"
+      },
+      {
+        "formZh": "把水、飲品、油漆等液體濺到某人或某物上",
+        "formEn": "splash something over something",
+        "exampleZh": "艾娃把冷水潑在臉上。",
+        "exampleEn": "Ava splashed cold water over her face.",
+        "highlight": "splashed cold water over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "大手大腳、到處花錢,往往帶有炫耀意味",
+      "titleEn": "splash your money about / splash your money around",
+      "formula": "splash your money about / splash your money around",
+      "highlight": "splash your money about / splash your money around",
+      "descriptionZh": "大手大腳、到處花錢,往往帶有炫耀意味",
+      "descriptionEn": "Marcus splashes his money around to impress people.",
+      "examples": [
+        {
+          "en": "Marcus splashes his money around to impress people.",
+          "zh": "馬庫斯為了令別人留下深刻印象而大手大腳花錢。",
+          "highlight": "Marcus"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把新聞、照片、名字或標誌放在非常顯眼的位置",
+      "titleEn": "splash something across something / splash something over something",
+      "formula": "splash something across something / splash something over something",
+      "highlight": "splash something across something / splash something over something",
+      "descriptionZh": "把新聞、照片、名字或標誌放在非常顯眼的位置",
+      "descriptionEn": "The newspaper splashed the story across its front page.",
+      "examples": [
+        {
+          "en": "The newspaper splashed the story across its front page.",
+          "zh": "報章把這宗新聞大幅刊登在頭版。",
+          "highlight": "splashed the story across"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在水中嬉戲或走動,弄得水花四濺",
+      "titleEn": "splash around / splash about in something",
+      "formula": "splash around / splash about in something",
+      "highlight": "splash around / splash about in something",
+      "descriptionZh": "在水中嬉戲或走動,弄得水花四濺",
+      "descriptionEn": "The children splashed around in the river.",
+      "examples": [
+        {
+          "en": "The children splashed around in the river.",
+          "zh": "孩子們在河中嬉水。",
+          "highlight": "splashed around in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "太空船或太空艙降落在海上",
+      "titleEn": "splash down",
+      "formula": "splash down",
+      "highlight": "splash down",
+      "descriptionZh": "太空船或太空艙降落在海上",
+      "descriptionEn": "The capsule splashed down in the Pacific.",
+      "examples": [
+        {
+          "en": "The capsule splashed down in the Pacific.",
+          "zh": "太空艙降落在太平洋。",
+          "highlight": "splashed down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "花一大筆錢購買想要但通常並非必需的東西",
+      "titleEn": "splash out / splash out on something / splash something out on something",
+      "formula": "splash out / splash out on something / splash something out on something",
+      "highlight": "splash out / splash out on something / splash something out on something",
+      "descriptionZh": "花一大筆錢購買想要但通常並非必需的東西",
+      "descriptionEn": "Nina splashed out on a new pair of shoes.",
+      "examples": [
+        {
+          "en": "Nina splashed out on a new pair of shoes.",
+          "zh": "妮娜花了一大筆錢買了一雙新鞋。",
+          "highlight": "splashed out on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把水、飲品、油漆等液體濺到某人或某物上",
+      "titleEn": "splash something over something",
+      "formula": "splash something over something",
+      "highlight": "splash something over something",
+      "descriptionZh": "把水、飲品、油漆等液體濺到某人或某物上",
+      "descriptionEn": "Ava splashed cold water over her face.",
+      "examples": [
+        {
+          "en": "Ava splashed cold water over her face.",
+          "zh": "艾娃把冷水潑在臉上。",
+          "highlight": "splashed cold water over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論在水中嬉戲和走動",
+      "titleEn": "Talk about playing and moving in water",
+      "zh": "splash around 和 splash about 可以描述孩子在泳池玩水、人們走過水窪,以及其他令水花四濺的活動。",
+      "en": "splash around and splash about help you describe children playing in a pool, people walking through puddles and other activities that send water into the air."
+    },
+    {
+      "titleZh": "描述液體濺到人物或物件上",
+      "titleEn": "Describe liquids falling on people and things",
+      "zh": "你可以用 splash something over something 描述水、咖啡、油漆或泥水等液體濺到某個表面。",
+      "en": "You can use splash something over something to talk about water, coffee, paint, mud and other liquids landing on a surface."
+    },
+    {
+      "titleZh": "理解顯眼的新聞和廣告",
+      "titleEn": "Understand eye-catching news and advertising",
+      "zh": "splash something across 或 over something 可以描述照片、新聞、名字和標誌被展示在容易引人注意的位置。",
+      "en": "splash something across or over something can describe photographs, stories, names and logos displayed where many people will notice them."
+    },
+    {
+      "titleZh": "談論兩種不同的大額花費",
+      "titleEn": "Talk about two different ways of spending freely",
+      "zh": "你可以分辨為了炫耀而大手大腳花錢,以及在一項特別物品上花費一大筆錢。",
+      "en": "You can distinguish between spending money openly to impress people and spending a large amount on one special item."
+    },
+    {
+      "titleZh": "描述太空船返回地球",
+      "titleEn": "Describe the return of a spacecraft",
+      "zh": "splash down 可以清楚描述太空船返回地球後降落海面的情況。",
+      "en": "splash down gives you a clear way to describe a spacecraft landing in the sea after returning to Earth."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論在水中嬉戲和走動",
+      "描述液體濺到人物或物件上",
+      "理解顯眼的新聞和廣告",
+      "談論兩種不同的大額花費",
+      "描述太空船返回地球"
+    ],
+    "contextsEn": [
+      "Talk about playing and moving in water",
+      "Describe liquids falling on people and things",
+      "Understand eye-catching news and advertising",
+      "Talk about two different ways of spending freely",
+      "Describe the return of a spacecraft"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論在水中嬉戲和走動",
+        "titleEn": "Talk about playing and moving in water",
+        "zh": "splash around 和 splash about 可以描述孩子在泳池玩水、人們走過水窪,以及其他令水花四濺的活動。",
+        "en": "splash around and splash about help you describe children playing in a pool, people walking through puddles and other activities that send water into the air.",
+        "examples": [
+          {
+            "en": "Marcus splashes his money around to impress people.",
+            "zh": "馬庫斯為了令別人留下深刻印象而大手大腳花錢。",
+            "highlight": "Marcus"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述液體濺到人物或物件上",
+        "titleEn": "Describe liquids falling on people and things",
+        "zh": "你可以用 splash something over something 描述水、咖啡、油漆或泥水等液體濺到某個表面。",
+        "en": "You can use splash something over something to talk about water, coffee, paint, mud and other liquids landing on a surface.",
+        "examples": [
+          {
+            "en": "The newspaper splashed the story across its front page.",
+            "zh": "報章把這宗新聞大幅刊登在頭版。",
+            "highlight": "splashed the story across"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解顯眼的新聞和廣告",
+        "titleEn": "Understand eye-catching news and advertising",
+        "zh": "splash something across 或 over something 可以描述照片、新聞、名字和標誌被展示在容易引人注意的位置。",
+        "en": "splash something across or over something can describe photographs, stories, names and logos displayed where many people will notice them.",
+        "examples": [
+          {
+            "en": "The children splashed around in the river.",
+            "zh": "孩子們在河中嬉水。",
+            "highlight": "splashed around in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論兩種不同的大額花費",
+        "titleEn": "Talk about two different ways of spending freely",
+        "zh": "你可以分辨為了炫耀而大手大腳花錢,以及在一項特別物品上花費一大筆錢。",
+        "en": "You can distinguish between spending money openly to impress people and spending a large amount on one special item.",
+        "examples": [
+          {
+            "en": "The capsule splashed down in the Pacific.",
+            "zh": "太空艙降落在太平洋。",
+            "highlight": "splashed down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述太空船返回地球",
+        "titleEn": "Describe the return of a spacecraft",
+        "zh": "splash down 可以清楚描述太空船返回地球後降落海面的情況。",
+        "en": "splash down gives you a clear way to describe a spacecraft landing in the sea after returning to Earth.",
+        "examples": [
+          {
+            "en": "Nina splashed out on a new pair of shoes.",
+            "zh": "妮娜花了一大筆錢買了一雙新鞋。",
+            "highlight": "splashed out on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SPLASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SPLASH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SPLASH 片語動詞。",
+      "en": "Read the whole sentence and choose the SPLASH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "about 和 around 有時可以表達相同意思。當新聞、照片或名字被展示在顯眼位置時,across 和over 也可以表達相同意思。",
+      "titleEn": "about and around can sometimes express the same meaning.",
+      "zh": "about 和 around 有時可以表達相同意思。當新聞、照片或名字被展示在顯眼位置時,across 和over 也可以表達相同意思。",
+      "en": "about and around can sometimes express the same meaning. Across and over can also express the same meaning when news, photographs or names are displayed where many people will notice them."
+    },
+    {
+      "titleZh": "splash your money about 或 around 通常表示大手大腳、到處花錢;splash out 通常表示在某項特別購物或體驗上花費一大筆錢。",
+      "titleEn": "splash your money about or around usually describes spending money freely and openly.",
+      "zh": "splash your money about 或 around 通常表示大手大腳、到處花錢;splash out 通常表示在某項特別購物或體驗上花費一大筆錢。",
+      "en": "splash your money about or around usually describes spending money freely and openly. Splash out usually describes spending a large amount on one special purchase or experience."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SPLASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SPLASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SPLASH 動詞片語句子改寫練習",
+    "titleEn": "SPLASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SPLASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SPLASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-321-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The children played noisily in the shallow river, sending water everywhere.",
+      "promptZh": "孩子們在淺水河中嬉戲,弄得水花四濺。",
+      "starter": "The",
+      "answer": "The children splashed around in the shallow river.",
+      "answerZh": "孩子們在淺水河中嬉水。",
+      "highlight": "splashed around",
+      "targetForm": "splash around in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Nina spent a lot of money on a new pair of shoes.",
+      "promptZh": "妮娜花了一大筆錢買了一雙新鞋。",
+      "starter": "Nina",
+      "answer": "Nina splashed out on a new pair of shoes.",
+      "answerZh": "妮娜花了一大筆錢買了一雙新鞋。",
+      "highlight": "splashed out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢購買某物"
+    },
+    {
+      "id": "phrasal-verb-321-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The newspaper printed Leo’s photograph across its front page where everyone could see it.",
+      "promptZh": "報章把里奧的照片大幅刊登在頭版,讓所有人都能看見。",
+      "starter": "The",
+      "answer": "The newspaper splashed Leo’s photograph across its front page.",
+      "answerZh": "報章把里奧的照片大幅刊登在頭版。",
+      "highlight": "splashed",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把照片或新聞放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ava threw cold water over her face.",
+      "promptZh": "艾娃把冷水潑在臉上。",
+      "starter": "Ava",
+      "answer": "Ava splashed cold water over her face.",
+      "answerZh": "艾娃把冷水潑在臉上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The space capsule landed safely in the Pacific Ocean.",
+      "promptZh": "太空艙安全降落在太平洋。",
+      "starter": "The",
+      "answer": "The space capsule splashed down safely in the Pacific Ocean.",
+      "answerZh": "太空艙安全降落在太平洋。",
+      "highlight": "splashed down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Marcus spends his money freely because he wants to impress people.",
+      "promptZh": "馬庫斯大手大腳地花錢,因為他想給別人留下深刻印象。",
+      "starter": "Marcus",
+      "answer": "Marcus splashes his money around because he wants to impress people.",
+      "answerZh": "馬庫斯大手大腳地花錢,因為他想給別人留下深刻印象。",
+      "highlight": "splashes",
+      "targetForm": "splash your money around",
+      "targetMeaningZh": "大手大腳、到處花錢"
+    },
+    {
+      "id": "phrasal-verb-321-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The website displayed the singer’s name in large letters over its home page.",
+      "promptZh": "網站在首頁以大字顯眼地展示那名歌手的名字。",
+      "starter": "The",
+      "answer": "The website splashed the singer’s name over its home page.",
+      "answerZh": "網站在首頁以大字顯眼地展示那名歌手的名字。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把名字或消息放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ella played happily in the bath, making water fly everywhere.",
+      "promptZh": "埃拉在浴缸裏開心玩水,弄得水花四濺。",
+      "starter": "Ella",
+      "answer": "Ella splashed about happily in the bath.",
+      "answerZh": "埃拉在浴缸裏開心玩水。",
+      "highlight": "splashed about",
+      "targetForm": "splash about in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Daniel spends money everywhere without thinking about tomorrow.",
+      "promptZh": "丹尼爾到處揮霍金錢,完全不為明天着想。",
+      "starter": "Daniel",
+      "answer": "Daniel splashes his money about without thinking about tomorrow.",
+      "answerZh": "丹尼爾到處揮霍金錢,完全不為明天着想。",
+      "highlight": "splashes his",
+      "targetForm": "splash your money about",
+      "targetMeaningZh": "大手大腳、到處花錢"
+    },
+    {
+      "id": "phrasal-verb-321-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The return capsule landed in the Atlantic after its journey from space.",
+      "promptZh": "返回艙完成太空旅程後降落在大西洋。",
+      "starter": "The",
+      "answer": "The return capsule splashed down in the Atlantic after its journey from space.",
+      "answerZh": "返回艙完成太空旅程後降落在大西洋。",
+      "highlight": "splashed down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ben accidentally scattered orange juice over the table.",
+      "promptZh": "賓不小心把橙汁濺到桌上。",
+      "starter": "Ben",
+      "answer": "Ben accidentally splashed orange juice over the table.",
+      "answerZh": "賓不小心把橙汁濺到桌上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We spent a lot on a special dinner to celebrate.",
+      "promptZh": "我們花了一大筆錢吃了一頓特別晚餐來慶祝。",
+      "starter": "We",
+      "answer": "We splashed out on a special dinner to celebrate.",
+      "answerZh": "我們花了一大筆錢吃了一頓特別晚餐來慶祝。",
+      "highlight": "splashed out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢享受某項特別體驗"
+    },
+    {
+      "id": "phrasal-verb-321-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The capsule will land in the Indian Ocean tomorrow morning.",
+      "promptZh": "太空艙將於明早降落在印度洋。",
+      "starter": "The",
+      "answer": "The capsule will splash down in the Indian Ocean tomorrow morning.",
+      "answerZh": "太空艙將於明早降落在印度洋。",
+      "highlight": "splash down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nora is spending her money freely to show everyone how rich she is.",
+      "promptZh": "諾拉正大手大腳地花錢,向所有人炫耀自己多麼富有。",
+      "starter": "Nora",
+      "answer": "Nora is splashing her money around to show everyone how rich she is.",
+      "answerZh": "諾拉正大手大腳地花錢,向所有人炫耀自己多麼富有。",
+      "highlight": "splashing",
+      "targetForm": "splash your money around",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Please throw a little water over the plants before you leave.",
+      "promptZh": "離開前請把少量水灑在植物上。",
+      "starter": "Please",
+      "answer": "Please splash a little water over the plants before you leave.",
+      "answerZh": "離開前請把少量水灑在植物上。",
+      "highlight": "splash",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體灑在某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The sponsor’s logo is displayed in a very noticeable way over every team shirt.",
+      "promptZh": "贊助商的標誌顯眼地印在每件球衣上。",
+      "starter": "The",
+      "answer": "The sponsor’s logo is splashed over every team shirt.",
+      "answerZh": "贊助商的標誌顯眼地印在每件球衣上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把標誌放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Ravi has spent a large amount of money on a new bicycle.",
+      "promptZh": "拉維花了一大筆錢買了一輛新單車。",
+      "starter": "Ravi",
+      "answer": "Ravi has splashed out on a new bicycle.",
+      "answerZh": "拉維花了一大筆錢買了一輛新單車。",
+      "highlight": "splashed out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢購買某物"
+    },
+    {
+      "id": "phrasal-verb-321-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The twins are playing in the pool and making water fly everywhere.",
+      "promptZh": "那對雙胞胎正在泳池玩水,弄得水花四濺。",
+      "starter": "The",
+      "answer": "The twins are splashing around in the pool.",
+      "answerZh": "那對雙胞胎正在泳池玩水。",
+      "highlight": "splashing around",
+      "targetForm": "splash around in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Wendy does not spend her money freely just to look important.",
+      "promptZh": "溫蒂不會只為了顯得重要而大手大腳花錢。",
+      "starter": "Wendy",
+      "answer": "Wendy does not splash her money about just to look important.",
+      "answerZh": "溫蒂不會只為了顯得重要而大手大腳花錢。",
+      "highlight": "splash",
+      "targetForm": "splash your money about",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The spacecraft has landed safely in the sea.",
+      "promptZh": "太空船已安全降落在海上。",
+      "starter": "The",
+      "answer": "The spacecraft has splashed down safely in the sea.",
+      "answerZh": "太空船已安全降落在海上。",
+      "highlight": "splashed down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Kai loves to play in puddles and send muddy water into the air.",
+      "promptZh": "啟喜歡在水窪裏玩,令泥水四處飛濺。",
+      "starter": "Kai",
+      "answer": "Kai loves to splash about in puddles.",
+      "answerZh": "啟喜歡在水窪裏玩水。",
+      "highlight": "splash about",
+      "targetForm": "splash about in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "A passing car has thrown muddy water over our clean clothes.",
+      "promptZh": "一輛駛過的汽車把泥水濺到我們乾淨的衣服上。",
+      "starter": "A",
+      "answer": "A passing car has splashed muddy water over our clean clothes.",
+      "answerZh": "一輛駛過的汽車把泥水濺到我們乾淨的衣服上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The story has been printed in a highly noticeable way across several news sites.",
+      "promptZh": "這宗新聞已在多個新聞網站的顯眼位置大幅刊登。",
+      "starter": "The",
+      "answer": "The story has been splashed across several news sites.",
+      "answerZh": "這宗新聞已在多個新聞網站的顯眼位置大幅刊登。",
+      "highlight": "splashed",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把新聞放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The club will spend a lot of money on better sports equipment next month.",
+      "promptZh": "學會下月會花一大筆錢購買更好的運動器材。",
+      "starter": "The",
+      "answer": "The club will splash out on better sports equipment next month.",
+      "answerZh": "學會下月會花一大筆錢購買更好的運動器材。",
+      "highlight": "splash out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢購買某物"
+    },
+    {
+      "id": "phrasal-verb-321-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The magazine decided to print the actor’s face across the whole cover.",
+      "promptZh": "雜誌決定把那名演員的臉大幅印在整個封面上。",
+      "starter": "The",
+      "answer": "The magazine decided to splash the actor’s face across the whole cover.",
+      "answerZh": "雜誌決定把那名演員的臉大幅印在整個封面上。",
+      "highlight": "splash",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把照片放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The bucket tipped over, and paint was scattered over the floor.",
+      "promptZh": "水桶翻倒,油漆濺滿地板。",
+      "starter": "The",
+      "answer": "The bucket tipped over, and paint was splashed over the floor.",
+      "answerZh": "水桶翻倒,油漆濺滿地板。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Leo has been spending his money freely in front of his new friends.",
+      "promptZh": "里奧一直在新朋友面前大手大腳地花錢。",
+      "starter": "Leo",
+      "answer": "Leo has been splashing his money around in front of his new friends.",
+      "answerZh": "里奧一直在新朋友面前大手大腳地花錢。",
+      "highlight": "splashing",
+      "targetForm": "splash your money around",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The crew capsule is expected to land in the Atlantic at noon.",
+      "promptZh": "載人太空艙預計於中午降落在大西洋。",
+      "starter": "The",
+      "answer": "The crew capsule is expected to splash down in the Atlantic at noon.",
+      "answerZh": "載人太空艙預計於中午降落在大西洋。",
+      "highlight": "splash down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We spent an hour playing in the sea and making water fly around us.",
+      "promptZh": "我們在海中玩了一小時,弄得身邊水花四濺。",
+      "starter": "We",
+      "answer": "We spent an hour splashing around in the sea.",
+      "answerZh": "我們在海中嬉水了一小時。",
+      "highlight": "splashing around",
+      "targetForm": "splash around in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Aisha decided to spend a lot on a better hotel for her birthday trip.",
+      "promptZh": "艾莎決定為生日旅程花一大筆錢入住更好的酒店。",
+      "starter": "Aisha",
+      "answer": "Aisha decided to splash out on a better hotel for her birthday trip.",
+      "answerZh": "艾莎決定為生日旅程花一大筆錢入住更好的酒店。",
+      "highlight": "splash out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢享受某項特別體驗"
+    },
+    {
+      "id": "phrasal-verb-321-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Sam used his hands to throw some water over his dusty boots.",
+      "promptZh": "森用手把一些水潑在滿是灰塵的靴子上。",
+      "starter": "Sam",
+      "answer": "Sam used his hands to splash some water over his dusty boots.",
+      "answerZh": "森用手把一些水潑在滿是灰塵的靴子上。",
+      "highlight": "splash",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why was Priya’s photograph displayed across every school poster?",
+      "promptZh": "為甚麼普里雅的照片會顯眼地印在每張學校海報上?",
+      "starter": "Why",
+      "answer": "Why was Priya’s photograph splashed across every school poster?",
+      "answerZh": "為甚麼普里雅的照片會顯眼地印在每張學校海報上?",
+      "highlight": "splashed",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把照片放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Can we really spend that much money on one meal?",
+      "promptZh": "我們真的可以花這麼多錢吃一頓飯嗎?",
+      "starter": "Can",
+      "answer": "Can we really splash that much out on one meal?",
+      "answerZh": "我們真的可以花這麼多錢吃一頓飯嗎?",
+      "highlight": "splash",
+      "targetForm": "splash something out on something",
+      "targetMeaningZh": "在某事物上花費一大筆錢"
+    },
+    {
+      "id": "phrasal-verb-321-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "You should not spend your money freely simply to impress strangers.",
+      "promptZh": "你不應只為了令陌生人留下深刻印象而大手大腳花錢。",
+      "starter": "You",
+      "answer": "You should not splash your money about simply to impress strangers.",
+      "answerZh": "你不應只為了令陌生人留下深刻印象而大手大腳花錢。",
+      "highlight": "splash",
+      "targetForm": "splash your money about",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "After landing in the Pacific, the capsule was quickly found by a ship.",
+      "promptZh": "太空艙降落在太平洋後,很快便被一艘船找到。",
+      "starter": "After",
+      "answer": "After splashing down in the Pacific, the capsule was quickly found by a ship.",
+      "answerZh": "太空艙降落在太平洋後,很快便被一艘船找到。",
+      "highlight": "splashing down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Why are the children playing so noisily in the bath?",
+      "promptZh": "孩子們為甚麼在浴缸裏玩水玩得這麼吵?",
+      "starter": "Why",
+      "answer": "Why are the children splashing about so noisily in the bath?",
+      "answerZh": "孩子們為甚麼在浴缸裏玩水玩得這麼吵?",
+      "highlight": "splashing about",
+      "targetForm": "splash about in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After months of saving, Ella spent a lot on a camera she had always wanted.",
+      "promptZh": "埃拉儲蓄了數月後,花了一大筆錢購買一直想要的相機。",
+      "starter": "After",
+      "answer": "After months of saving, Ella splashed out on a camera she had always wanted.",
+      "answerZh": "埃拉儲蓄了數月後,花了一大筆錢購買一直想要的相機。",
+      "highlight": "splashed out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢購買某物"
+    },
+    {
+      "id": "phrasal-verb-321-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The lake was too cold, so the students did not play in the water.",
+      "promptZh": "湖水太冷,所以學生沒有在水中嬉戲。",
+      "starter": "The",
+      "answer": "The lake was too cold, so the students did not splash around in the water.",
+      "answerZh": "湖水太冷,所以學生沒有在水中嬉戲。",
+      "highlight": "splash around",
+      "targetForm": "splash around in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Where will the space capsule land in the ocean after it returns to Earth?",
+      "promptZh": "太空艙返回地球後,會在海洋的哪個位置降落?",
+      "starter": "Where",
+      "answer": "Where will the space capsule splash down after it returns to Earth?",
+      "answerZh": "太空艙返回地球後,會在海洋的哪個位置降落?",
+      "highlight": "splash down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Why does Omar spend his money so freely whenever new people are watching?",
+      "promptZh": "為甚麼奧馬每逢有新朋友在場時,都會大手大腳地花錢?",
+      "starter": "Why",
+      "answer": "Why does Omar splash his money around whenever new people are watching?",
+      "answerZh": "為甚麼奧馬每逢有新朋友在場時,都會大手大腳地花錢?",
+      "highlight": "splash",
+      "targetForm": "splash your money around",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "News sites are displaying the surprise result in large letters across their home pages.",
+      "promptZh": "新聞網站正以大字把這個意外結果顯眼地展示在首頁上。",
+      "starter": "News",
+      "answer": "News sites are splashing the surprise result across their home pages.",
+      "answerZh": "新聞網站正以大字把這個意外結果顯眼地展示在首頁上。",
+      "highlight": "splashing",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把新聞放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nia was carrying the cups carelessly and scattered tea over the tablecloth.",
+      "promptZh": "妮雅拿杯子時不小心,把茶濺到桌布上。",
+      "starter": "Nia",
+      "answer": "Nia was carrying the cups carelessly and splashed tea over the tablecloth.",
+      "answerZh": "妮雅拿杯子時不小心,把茶濺到桌布上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The hotel allows young guests to play in the shallow pool and make water fly everywhere.",
+      "promptZh": "酒店容許年幼住客在淺水池嬉戲,弄得水花四濺。",
+      "starter": "The",
+      "answer": "The hotel allows young guests to splash about in the shallow pool.",
+      "answerZh": "酒店容許年幼住客在淺水池嬉戲。",
+      "highlight": "splash about",
+      "targetForm": "splash about in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nancy did not spend a large amount on the expensive coat because she did not need it.",
+      "promptZh": "南茜沒有花一大筆錢買那件昂貴外套,因為她並不需要它。",
+      "starter": "Nancy",
+      "answer": "Nancy did not splash out on the expensive coat because she did not need it.",
+      "answerZh": "南茜沒有花一大筆錢買那件昂貴外套,因為她並不需要它。",
+      "highlight": "splash out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢購買某物"
+    },
+    {
+      "id": "phrasal-verb-321-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Do not throw paint over the chairs while you are working.",
+      "promptZh": "工作時不要把油漆濺到椅子上。",
+      "starter": "Do",
+      "answer": "Do not splash paint over the chairs while you are working.",
+      "answerZh": "工作時不要把油漆濺到椅子上。",
+      "highlight": "splash",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The plan is for the capsule to land in the sea close to the waiting ships.",
+      "promptZh": "計劃安排太空艙在等候中的船隻附近降落海面。",
+      "starter": "The",
+      "answer": "The plan is for the capsule to splash down close to the waiting ships.",
+      "answerZh": "計劃安排太空艙在等候中的船隻附近降落海面。",
+      "highlight": "splash down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By the end of the holiday, Ravi had spent his money freely in every expensive shop.",
+      "promptZh": "假期結束時,拉維已在每間昂貴店舖大手大腳地花錢。",
+      "starter": "By",
+      "answer": "By the end of the holiday, Ravi had splashed his money about in every expensive shop.",
+      "answerZh": "假期結束時,拉維已在每間昂貴店舖大手大腳地花錢。",
+      "highlight": "splashed",
+      "targetForm": "splash your money about",
+      "targetMeaningZh": "大手大腳、到處花錢"
+    },
+    {
+      "id": "phrasal-verb-321-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The company may display its new logo across all the shopping bags.",
+      "promptZh": "公司可能會把新標誌顯眼地印在所有購物袋上。",
+      "starter": "The",
+      "answer": "The company may splash its new logo across all the shopping bags.",
+      "answerZh": "公司可能會把新標誌顯眼地印在所有購物袋上。",
+      "highlight": "splash",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把標誌放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "As Arun opened the bottle too quickly, he scattered fizzy water over his shirt and the floor.",
+      "promptZh": "阿倫太快打開瓶子,把汽水濺到自己的恤衫和地板上。",
+      "starter": "As",
+      "answer": "As Arun opened the bottle too quickly, he splashed fizzy water over his shirt and the floor.",
+      "answerZh": "阿倫太快打開瓶子,把汽水濺到自己的恤衫和地板上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某人或某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The singer had asked for privacy, but several papers still printed her wedding photograph across their front pages.",
+      "promptZh": "那名歌手要求保護私隱,但多份報章仍把她的婚禮照片大幅刊登在頭版。",
+      "starter": "The",
+      "answer": "The singer had asked for privacy, but several papers still splashed her wedding photograph across their front pages.",
+      "answerZh": "那名歌手要求保護私隱,但多份報章仍把她的婚禮照片大幅刊登在頭版。",
+      "highlight": "splashed",
+      "targetForm": "splash something across something",
+      "targetMeaningZh": "把照片或新聞放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Speedy Chan usually saves carefully, but this year he spent a lot on a family holiday.",
+      "promptZh": "Speedy Chan 平日小心儲蓄,但今年花了一大筆錢安排家庭旅行。",
+      "starter": "Speedy",
+      "answer": "Speedy Chan usually saves carefully, but this year he splashed out on a family holiday.",
+      "answerZh": "Speedy Chan 平日小心儲蓄,但今年花了一大筆錢安排家庭旅行。",
+      "highlight": "splashed out",
+      "targetForm": "splash out on something",
+      "targetMeaningZh": "花一大筆錢享受某項特別體驗"
+    },
+    {
+      "id": "phrasal-verb-321-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Instead of swimming from one end of the pool to the other, Eva spent the afternoon playing noisily in the water.",
+      "promptZh": "伊娃沒有在泳池來回游泳,而是整個下午都在水中嬉戲。",
+      "starter": "Instead",
+      "answer": "Instead of swimming from one end of the pool to the other, Eva spent the afternoon splashing around in the water.",
+      "answerZh": "伊娃沒有在泳池來回游泳,而是整個下午都在水中嬉戲。",
+      "highlight": "splashing around",
+      "targetForm": "splash around in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Some prize winners spend their money freely in public because they enjoy showing their new wealth.",
+      "promptZh": "有些得獎者在公開場合大手大腳花錢,因為他們喜歡炫耀新得到的財富。",
+      "starter": "Some",
+      "answer": "Some prize winners splash their money around in public because they enjoy showing their new wealth.",
+      "answerZh": "有些得獎者在公開場合大手大腳花錢,因為他們喜歡炫耀新得到的財富。",
+      "highlight": "splash",
+      "targetForm": "splash your money around",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If the weather remains calm, the spacecraft should land in the Atlantic before sunset.",
+      "promptZh": "如果天氣維持平靜,太空船應會在日落前降落在大西洋。",
+      "starter": "If",
+      "answer": "If the weather remains calm, the spacecraft should splash down in the Atlantic before sunset.",
+      "answerZh": "如果天氣維持平靜,太空船應會在日落前降落在大西洋。",
+      "highlight": "splash down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the final was played, the player’s face had already been displayed over buses, posters and websites.",
+      "promptZh": "決賽舉行前,那名球員的臉早已顯眼地出現在巴士、海報和網站上。",
+      "starter": "Before",
+      "answer": "Before the final was played, the player’s face had already been splashed over buses, posters and websites.",
+      "answerZh": "決賽舉行前,那名球員的臉早已顯眼地出現在巴士、海報和網站上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把照片或名字放在顯眼位置"
+    },
+    {
+      "id": "phrasal-verb-321-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Sofia picked up the wet brush and scattered blue paint over the large sheet of paper.",
+      "promptZh": "索菲亞拿起濕畫筆,把藍色油漆濺在大張紙上。",
+      "starter": "Sofia",
+      "answer": "Sofia picked up the wet brush and splashed blue paint over the large sheet of paper.",
+      "answerZh": "索菲亞拿起濕畫筆,把藍色油漆濺在大張紙上。",
+      "highlight": "splashed",
+      "targetForm": "splash something over something",
+      "targetMeaningZh": "把液體濺到某物上"
+    },
+    {
+      "id": "phrasal-verb-321-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The rescue teams will begin work as soon as the return capsule lands in the ocean.",
+      "promptZh": "返回艙一降落海面,救援隊便會立即開始工作。",
+      "starter": "The",
+      "answer": "The rescue teams will begin work as soon as the return capsule splashes down.",
+      "answerZh": "返回艙一降落海面,救援隊便會立即開始工作。",
+      "highlight": "splashes down",
+      "targetForm": "splash down",
+      "targetMeaningZh": "太空船或太空艙降落海面"
+    },
+    {
+      "id": "phrasal-verb-321-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Even after his friends warned him, Sam kept spending his money freely to impress people he hardly knew.",
+      "promptZh": "即使朋友提醒過他,森仍為了令幾乎不認識的人留下深刻印象而大手大腳花錢。",
+      "starter": "Even",
+      "answer": "Even after his friends warned him, Sam kept splashing his money about to impress people he hardly knew.",
+      "answerZh": "即使朋友提醒過他,森仍為了令幾乎不認識的人留下深刻印象而大手大腳花錢。",
+      "highlight": "splashing",
+      "targetForm": "splash your money about",
+      "targetMeaningZh": "大手大腳花錢或炫耀財富"
+    },
+    {
+      "id": "phrasal-verb-321-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After the long walk, the hikers removed their shoes and played in the stream, sending water over one another.",
+      "promptZh": "遠足者走了很久後脫下鞋子,在溪水中嬉戲,互相濺水。",
+      "starter": "After",
+      "answer": "After the long walk, the hikers removed their shoes and splashed about in the stream.",
+      "answerZh": "遠足者走了很久後脫下鞋子,在溪水中嬉戲。",
+      "highlight": "splashed about",
+      "targetForm": "splash about in something",
+      "targetMeaningZh": "在水中嬉戲,弄得水花四濺"
+    },
+    {
+      "id": "phrasal-verb-321-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Dr Wendy Craik had planned a simple party, but in the end she spent £800 on food and music.",
+      "promptZh": "Dr Wendy Craik 原本打算舉辦一個簡單派對,但最後花了八百英鎊在食物和音樂上。",
+      "starter": "Dr",
+      "answer": "Dr Wendy Craik had planned a simple party, but in the end she splashed out £800 on food and music.",
+      "answerZh": "Dr Wendy Craik 原本打算舉辦一個簡單派對,但最後花了八百英鎊在食物和音樂上。",
+      "highlight": "splashed out",
+      "targetForm": "splash out something on something",
+      "targetMeaningZh": "在某事物上花費一大筆錢"
+    }
+  ]
+}

@@ -1,0 +1,2226 @@
+{
+  "id": "phrasal-verb-224",
+  "order": 224,
+  "slug": "get-volume-1",
+  "version": "1",
+  "title": "GET (VOLUME 1) 動詞片語",
+  "titleEn": "GET (Volume 1)",
+  "titleZh": "GET (VOLUME 1) 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 222 - GET (Volume 1).pdf",
+    "sourceNumber": 222,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GET (VOLUME 1)",
+      "highlight": "GET (VOLUME 1)"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Can you get yourself over here by ten?",
+      "zh": "你可以在十時前來到這裏嗎?",
+      "highlight": "get yourself over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He never really got over the break-up.",
+      "zh": "他始終未能真正走出分手的傷痛。",
+      "highlight": "got over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She is learning to get over her fear of dogs.",
+      "zh": "她正學習克服對狗的恐懼。",
+      "highlight": "get over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "前往某地；從某人、疾病或不愉快的事情中恢復；克服恐懼、害羞或其他困難；越過或經過阻擋的人或物；進展至某個階段之後；避開或繞過問題、規則或限制；拖延後終於處理或做某事；使某人回來或重新加入；令某人情緒低落；請某人前來幫忙或工作；穿得進;幫助某人穿上衣物；送某人出發;把某物寄出；幫助某人停止使用或依賴某物；令某人開始使用或接觸某物；在板球中使擊球員出局；把某人帶離或救出某個地方",
+    "en": "get over / get yourself over to a place; get over somebody/something; get over something; get past / get by somebody or something; get past / get beyond something; get round something; get round/around to something or doing something; get somebody back; get somebody down; get somebody in; get into something / get somebody into something; get somebody/something off; get somebody off something; get somebody onto something; get somebody out; get somebody out / get somebody out of something",
+    "naturalZh": [
+      "前往某地",
+      "從某人、疾病或不愉快的事情中恢復",
+      "克服恐懼、害羞或其他困難",
+      "越過或經過阻擋的人或物",
+      "進展至某個階段之後",
+      "避開或繞過問題、規則或限制",
+      "拖延後終於處理或做某事",
+      "使某人回來或重新加入",
+      "令某人情緒低落",
+      "請某人前來幫忙或工作",
+      "穿得進;幫助某人穿上衣物",
+      "送某人出發;把某物寄出",
+      "幫助某人停止使用或依賴某物",
+      "令某人開始使用或接觸某物",
+      "在板球中使擊球員出局",
+      "把某人帶離或救出某個地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "get over / get yourself over to a place",
+      "titleZh": "前往某地",
+      "titleEn": "get over / get yourself over to a place",
+      "descriptionZh": "前往某地",
+      "descriptionEn": "Can you get yourself over here by ten?",
+      "examples": [
+        {
+          "en": "Can you get yourself over here by ten?",
+          "zh": "你可以在十時前來到這裏嗎?",
+          "highlight": "get yourself over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get over somebody/something",
+      "titleZh": "從某人、疾病或不愉快的事情中恢復",
+      "titleEn": "get over somebody/something",
+      "descriptionZh": "從某人、疾病或不愉快的事情中恢復",
+      "descriptionEn": "He never really got over the break-up.",
+      "examples": [
+        {
+          "en": "He never really got over the break-up.",
+          "zh": "他始終未能真正走出分手的傷痛。",
+          "highlight": "got over"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get over something",
+      "titleZh": "克服恐懼、害羞或其他困難",
+      "titleEn": "get over something",
+      "descriptionZh": "克服恐懼、害羞或其他困難",
+      "descriptionEn": "She is learning to get over her fear of dogs.",
+      "examples": [
+        {
+          "en": "She is learning to get over her fear of dogs.",
+          "zh": "她正學習克服對狗的恐懼。",
+          "highlight": "get over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get past / get by somebody or something",
+      "titleZh": "越過或經過阻擋的人或物",
+      "titleEn": "get past / get by somebody or something",
+      "descriptionZh": "越過或經過阻擋的人或物",
+      "descriptionEn": "We could not get past the crowd.",
+      "examples": [
+        {
+          "en": "We could not get past the crowd.",
+          "zh": "我們無法越過人群。",
+          "highlight": "get"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get past / get beyond something",
+      "titleZh": "進展至某個階段之後",
+      "titleEn": "get past / get beyond something",
+      "descriptionZh": "進展至某個階段之後",
+      "descriptionEn": "I have not got beyond chapter two.",
+      "examples": [
+        {
+          "en": "I have not got beyond chapter two.",
+          "zh": "我仍未讀到第二章之後。",
+          "highlight": "got"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get round something",
+      "titleZh": "避開或繞過問題、規則或限制",
+      "titleEn": "get round something",
+      "descriptionZh": "避開或繞過問題、規則或限制",
+      "descriptionEn": "There is no getting round the rule.",
+      "examples": [
+        {
+          "en": "There is no getting round the rule.",
+          "zh": "這條規則無法避開。",
+          "highlight": "getting round"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get round/around to something or doing something",
+      "titleZh": "拖延後終於處理或做某事",
+      "titleEn": "get round/around to something or doing something",
+      "descriptionZh": "拖延後終於處理或做某事",
+      "descriptionEn": "I finally got round to cleaning the cupboard.",
+      "examples": [
+        {
+          "en": "I finally got round to cleaning the cupboard.",
+          "zh": "我終於抽空清理了櫥櫃。",
+          "highlight": "got round to"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody back",
+      "titleZh": "使某人回來或重新加入",
+      "titleEn": "get somebody back",
+      "descriptionZh": "使某人回來或重新加入",
+      "descriptionEn": "The club hopes to get its old coach back.",
+      "examples": [
+        {
+          "en": "The club hopes to get its old coach back.",
+          "zh": "俱樂部希望舊教練回來。",
+          "highlight": "get its old coach back"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "get somebody down",
+      "titleZh": "令某人情緒低落",
+      "titleEn": "get somebody down",
+      "descriptionZh": "令某人情緒低落",
+      "descriptionEn": "Grey weather gets me down.",
+      "examples": [
+        {
+          "en": "Grey weather gets me down.",
+          "zh": "灰暗的天氣令我情緒低落。",
+          "highlight": "gets me down"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody in",
+      "titleZh": "請某人前來幫忙或工作",
+      "titleEn": "get somebody in",
+      "descriptionZh": "請某人前來幫忙或工作",
+      "descriptionEn": "We need to get an electrician in.",
+      "examples": [
+        {
+          "en": "We need to get an electrician in.",
+          "zh": "我們需要請電工來。",
+          "highlight": "get an electrician in"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get into something / get somebody into something",
+      "titleZh": "穿得進;幫助某人穿上衣物",
+      "titleEn": "get into something / get somebody into something",
+      "descriptionZh": "穿得進;幫助某人穿上衣物",
+      "descriptionEn": "I cannot get into these boots.",
+      "examples": [
+        {
+          "en": "I cannot get into these boots.",
+          "zh": "我穿不進這雙靴。",
+          "highlight": "get into"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody/something off",
+      "titleZh": "送某人出發;把某物寄出",
+      "titleEn": "get somebody/something off",
+      "descriptionZh": "送某人出發;把某物寄出",
+      "descriptionEn": "I must get these letters off today.",
+      "examples": [
+        {
+          "en": "I must get these letters off today.",
+          "zh": "我今天必須寄出這些信件。",
+          "highlight": "get these letters off"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody off something",
+      "titleZh": "幫助某人停止使用或依賴某物",
+      "titleEn": "get somebody off something",
+      "descriptionZh": "幫助某人停止使用或依賴某物",
+      "descriptionEn": "The plan helped him get off coffee.",
+      "examples": [
+        {
+          "en": "The plan helped him get off coffee.",
+          "zh": "這個計劃幫助他戒掉咖啡。",
+          "highlight": "get off"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody onto something",
+      "titleZh": "令某人開始使用或接觸某物",
+      "titleEn": "get somebody onto something",
+      "descriptionZh": "令某人開始使用或接觸某物",
+      "descriptionEn": "A friend got me onto this study app.",
+      "examples": [
+        {
+          "en": "A friend got me onto this study app.",
+          "zh": "一位朋友介紹我使用這個學習應用程式。",
+          "highlight": "got me onto"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody out",
+      "titleZh": "在板球中使擊球員出局",
+      "titleEn": "get somebody out",
+      "descriptionZh": "在板球中使擊球員出局",
+      "descriptionEn": "The bowler got the last batter out.",
+      "examples": [
+        {
+          "en": "The bowler got the last batter out.",
+          "zh": "投球手令最後一名擊球員出局。",
+          "highlight": "got the last batter out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "get somebody out / get somebody out of something",
+      "titleZh": "把某人帶離或救出某個地方",
+      "titleEn": "get somebody out / get somebody out of something",
+      "descriptionZh": "把某人帶離或救出某個地方",
+      "descriptionEn": "The firefighters got everyone out.",
+      "examples": [
+        {
+          "en": "The firefighters got everyone out.",
+          "zh": "消防員把所有人救了出來。",
+          "highlight": "got everyone out"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GET (VOLUME 1) 片語動詞的實際用途",
+    "labelEn": "GET (VOLUME 1) Phrasal Verbs in Use",
+    "summaryZh": "get over、get past 和 get out 可以描述前往某地、越過狹窄位置,以及安全離開某個地方。；get over 可以描述從疾病或失望中恢復,也可以表示克服恐懼或害羞。；你可以用 GET 表達請水喉匠前來、送孩子上學、請教練回來,或介紹某人使用實用的應用程式。；get round to 表示拖延後終於做某事;get round something 則表示避開或處理障礙。",
+    "summaryEn": "Get over, get past and get out help you describe travelling somewhere, moving through a narrow space and leaving a place safely. Get over can describe recovering from an illness or disappointment, as well as overcoming fear or shyness. You can get a plumber in, get the children off to school, get a coach back or get somebody onto a useful app. Get round to shows that you finally do something after a delay. Get round something shows that you avoid or deal with an obstacle.",
+    "contextsZh": [
+      "使用 GET 清楚描述旅程和移動",
+      "自然談論復原和信心",
+      "運用 GET 處理日常安排",
+      "表達延遲處理的事情和無法迴避的問題"
+    ],
+    "contextsEn": [
+      "Use GET to describe travel and movement clearly",
+      "Talk naturally about recovery and confidence",
+      "Handle everyday arrangements with useful GET expressions",
+      "Express delayed tasks and unavoidable problems"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "get over / get yourself over to a place",
+    "fixedHighlight": "get over / get yourself over to a place",
+    "fixedZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+    "correct": "get yourself over",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；get round to 和 get around to 可以表達相同意思;get past 和 get by 也可以表示越過或經過阻礙。；get over 可以表達多個不同意思,包括前往某地、從一段經歷中恢復,以及克服困難。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. Get round to and get around to can express the same meaning. Get past and get by can also express the same physical movement. Get over can express several different ideas, including travelling somewhere, recovering from an experience and overcoming a difficulty. Read the full situation carefully.",
+    "variableItemsZh": [
+      "get over / get yourself over to a place",
+      "get over somebody/something",
+      "get over something",
+      "get past / get by somebody or something",
+      "get past / get beyond something",
+      "get round something",
+      "get round/around to something or doing something",
+      "get somebody back",
+      "get somebody down",
+      "get somebody in",
+      "get into something / get somebody into something",
+      "get somebody/something off",
+      "get somebody off something",
+      "get somebody onto something",
+      "get somebody out",
+      "get somebody out / get somebody out of something"
+    ],
+    "variableItemsEn": [
+      "get over / get yourself over to a place",
+      "get over somebody/something",
+      "get over something",
+      "get past / get by somebody or something",
+      "get past / get beyond something",
+      "get round something",
+      "get round/around to something or doing something",
+      "get somebody back",
+      "get somebody down",
+      "get somebody in",
+      "get into something / get somebody into something",
+      "get somebody/something off",
+      "get somebody off something",
+      "get somebody onto something",
+      "get somebody out",
+      "get somebody out / get somebody out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "前往某地",
+        "formEn": "get over / get yourself over to a place",
+        "exampleZh": "你可以在十時前來到這裏嗎?",
+        "exampleEn": "Can you get yourself over here by ten?",
+        "highlight": "get yourself over"
+      },
+      {
+        "formZh": "從某人、疾病或不愉快的事情中恢復",
+        "formEn": "get over somebody/something",
+        "exampleZh": "他始終未能真正走出分手的傷痛。",
+        "exampleEn": "He never really got over the break-up.",
+        "highlight": "got over"
+      },
+      {
+        "formZh": "克服恐懼、害羞或其他困難",
+        "formEn": "get over something",
+        "exampleZh": "她正學習克服對狗的恐懼。",
+        "exampleEn": "She is learning to get over her fear of dogs.",
+        "highlight": "get over"
+      },
+      {
+        "formZh": "越過或經過阻擋的人或物",
+        "formEn": "get past / get by somebody or something",
+        "exampleZh": "我們無法越過人群。",
+        "exampleEn": "We could not get past the crowd.",
+        "highlight": "get"
+      },
+      {
+        "formZh": "進展至某個階段之後",
+        "formEn": "get past / get beyond something",
+        "exampleZh": "我仍未讀到第二章之後。",
+        "exampleEn": "I have not got beyond chapter two.",
+        "highlight": "got"
+      },
+      {
+        "formZh": "避開或繞過問題、規則或限制",
+        "formEn": "get round something",
+        "exampleZh": "這條規則無法避開。",
+        "exampleEn": "There is no getting round the rule.",
+        "highlight": "getting round"
+      },
+      {
+        "formZh": "拖延後終於處理或做某事",
+        "formEn": "get round/around to something or doing something",
+        "exampleZh": "我終於抽空清理了櫥櫃。",
+        "exampleEn": "I finally got round to cleaning the cupboard.",
+        "highlight": "got round to"
+      },
+      {
+        "formZh": "使某人回來或重新加入",
+        "formEn": "get somebody back",
+        "exampleZh": "俱樂部希望舊教練回來。",
+        "exampleEn": "The club hopes to get its old coach back.",
+        "highlight": "get its old coach back"
+      },
+      {
+        "formZh": "令某人情緒低落",
+        "formEn": "get somebody down",
+        "exampleZh": "灰暗的天氣令我情緒低落。",
+        "exampleEn": "Grey weather gets me down.",
+        "highlight": "gets me down"
+      },
+      {
+        "formZh": "請某人前來幫忙或工作",
+        "formEn": "get somebody in",
+        "exampleZh": "我們需要請電工來。",
+        "exampleEn": "We need to get an electrician in.",
+        "highlight": "get an electrician in"
+      },
+      {
+        "formZh": "穿得進;幫助某人穿上衣物",
+        "formEn": "get into something / get somebody into something",
+        "exampleZh": "我穿不進這雙靴。",
+        "exampleEn": "I cannot get into these boots.",
+        "highlight": "get into"
+      },
+      {
+        "formZh": "送某人出發;把某物寄出",
+        "formEn": "get somebody/something off",
+        "exampleZh": "我今天必須寄出這些信件。",
+        "exampleEn": "I must get these letters off today.",
+        "highlight": "get these letters off"
+      },
+      {
+        "formZh": "幫助某人停止使用或依賴某物",
+        "formEn": "get somebody off something",
+        "exampleZh": "這個計劃幫助他戒掉咖啡。",
+        "exampleEn": "The plan helped him get off coffee.",
+        "highlight": "get off"
+      },
+      {
+        "formZh": "令某人開始使用或接觸某物",
+        "formEn": "get somebody onto something",
+        "exampleZh": "一位朋友介紹我使用這個學習應用程式。",
+        "exampleEn": "A friend got me onto this study app.",
+        "highlight": "got me onto"
+      },
+      {
+        "formZh": "在板球中使擊球員出局",
+        "formEn": "get somebody out",
+        "exampleZh": "投球手令最後一名擊球員出局。",
+        "exampleEn": "The bowler got the last batter out.",
+        "highlight": "got the last batter out"
+      },
+      {
+        "formZh": "把某人帶離或救出某個地方",
+        "formEn": "get somebody out / get somebody out of something",
+        "exampleZh": "消防員把所有人救了出來。",
+        "exampleEn": "The firefighters got everyone out.",
+        "highlight": "got everyone out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "前往某地",
+      "titleEn": "get over / get yourself over to a place",
+      "formula": "get over / get yourself over to a place",
+      "highlight": "get over / get yourself over to a place",
+      "descriptionZh": "前往某地",
+      "descriptionEn": "Can you get yourself over here by ten?",
+      "examples": [
+        {
+          "en": "Can you get yourself over here by ten?",
+          "zh": "你可以在十時前來到這裏嗎?",
+          "highlight": "get yourself over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "從某人、疾病或不愉快的事情中恢復",
+      "titleEn": "get over somebody/something",
+      "formula": "get over somebody/something",
+      "highlight": "get over somebody/something",
+      "descriptionZh": "從某人、疾病或不愉快的事情中恢復",
+      "descriptionEn": "He never really got over the break-up.",
+      "examples": [
+        {
+          "en": "He never really got over the break-up.",
+          "zh": "他始終未能真正走出分手的傷痛。",
+          "highlight": "got over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "克服恐懼、害羞或其他困難",
+      "titleEn": "get over something",
+      "formula": "get over something",
+      "highlight": "get over something",
+      "descriptionZh": "克服恐懼、害羞或其他困難",
+      "descriptionEn": "She is learning to get over her fear of dogs.",
+      "examples": [
+        {
+          "en": "She is learning to get over her fear of dogs.",
+          "zh": "她正學習克服對狗的恐懼。",
+          "highlight": "get over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "越過或經過阻擋的人或物",
+      "titleEn": "get past / get by somebody or something",
+      "formula": "get past / get by somebody or something",
+      "highlight": "get past / get by somebody or something",
+      "descriptionZh": "越過或經過阻擋的人或物",
+      "descriptionEn": "We could not get past the crowd.",
+      "examples": [
+        {
+          "en": "We could not get past the crowd.",
+          "zh": "我們無法越過人群。",
+          "highlight": "get"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "進展至某個階段之後",
+      "titleEn": "get past / get beyond something",
+      "formula": "get past / get beyond something",
+      "highlight": "get past / get beyond something",
+      "descriptionZh": "進展至某個階段之後",
+      "descriptionEn": "I have not got beyond chapter two.",
+      "examples": [
+        {
+          "en": "I have not got beyond chapter two.",
+          "zh": "我仍未讀到第二章之後。",
+          "highlight": "got"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "避開或繞過問題、規則或限制",
+      "titleEn": "get round something",
+      "formula": "get round something",
+      "highlight": "get round something",
+      "descriptionZh": "避開或繞過問題、規則或限制",
+      "descriptionEn": "There is no getting round the rule.",
+      "examples": [
+        {
+          "en": "There is no getting round the rule.",
+          "zh": "這條規則無法避開。",
+          "highlight": "getting round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "拖延後終於處理或做某事",
+      "titleEn": "get round/around to something or doing something",
+      "formula": "get round/around to something or doing something",
+      "highlight": "get round/around to something or doing something",
+      "descriptionZh": "拖延後終於處理或做某事",
+      "descriptionEn": "I finally got round to cleaning the cupboard.",
+      "examples": [
+        {
+          "en": "I finally got round to cleaning the cupboard.",
+          "zh": "我終於抽空清理了櫥櫃。",
+          "highlight": "got round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "使某人回來或重新加入",
+      "titleEn": "get somebody back",
+      "formula": "get somebody back",
+      "highlight": "get somebody back",
+      "descriptionZh": "使某人回來或重新加入",
+      "descriptionEn": "The club hopes to get its old coach back.",
+      "examples": [
+        {
+          "en": "The club hopes to get its old coach back.",
+          "zh": "俱樂部希望舊教練回來。",
+          "highlight": "get its old coach back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "令某人情緒低落",
+      "titleEn": "get somebody down",
+      "formula": "get somebody down",
+      "highlight": "get somebody down",
+      "descriptionZh": "令某人情緒低落",
+      "descriptionEn": "Grey weather gets me down.",
+      "examples": [
+        {
+          "en": "Grey weather gets me down.",
+          "zh": "灰暗的天氣令我情緒低落。",
+          "highlight": "gets me down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "請某人前來幫忙或工作",
+      "titleEn": "get somebody in",
+      "formula": "get somebody in",
+      "highlight": "get somebody in",
+      "descriptionZh": "請某人前來幫忙或工作",
+      "descriptionEn": "We need to get an electrician in.",
+      "examples": [
+        {
+          "en": "We need to get an electrician in.",
+          "zh": "我們需要請電工來。",
+          "highlight": "get an electrician in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "穿得進;幫助某人穿上衣物",
+      "titleEn": "get into something / get somebody into something",
+      "formula": "get into something / get somebody into something",
+      "highlight": "get into something / get somebody into something",
+      "descriptionZh": "穿得進;幫助某人穿上衣物",
+      "descriptionEn": "I cannot get into these boots.",
+      "examples": [
+        {
+          "en": "I cannot get into these boots.",
+          "zh": "我穿不進這雙靴。",
+          "highlight": "get into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "送某人出發;把某物寄出",
+      "titleEn": "get somebody/something off",
+      "formula": "get somebody/something off",
+      "highlight": "get somebody/something off",
+      "descriptionZh": "送某人出發;把某物寄出",
+      "descriptionEn": "I must get these letters off today.",
+      "examples": [
+        {
+          "en": "I must get these letters off today.",
+          "zh": "我今天必須寄出這些信件。",
+          "highlight": "get these letters off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "幫助某人停止使用或依賴某物",
+      "titleEn": "get somebody off something",
+      "formula": "get somebody off something",
+      "highlight": "get somebody off something",
+      "descriptionZh": "幫助某人停止使用或依賴某物",
+      "descriptionEn": "The plan helped him get off coffee.",
+      "examples": [
+        {
+          "en": "The plan helped him get off coffee.",
+          "zh": "這個計劃幫助他戒掉咖啡。",
+          "highlight": "get off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "令某人開始使用或接觸某物",
+      "titleEn": "get somebody onto something",
+      "formula": "get somebody onto something",
+      "highlight": "get somebody onto something",
+      "descriptionZh": "令某人開始使用或接觸某物",
+      "descriptionEn": "A friend got me onto this study app.",
+      "examples": [
+        {
+          "en": "A friend got me onto this study app.",
+          "zh": "一位朋友介紹我使用這個學習應用程式。",
+          "highlight": "got me onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "在板球中使擊球員出局",
+      "titleEn": "get somebody out",
+      "formula": "get somebody out",
+      "highlight": "get somebody out",
+      "descriptionZh": "在板球中使擊球員出局",
+      "descriptionEn": "The bowler got the last batter out.",
+      "examples": [
+        {
+          "en": "The bowler got the last batter out.",
+          "zh": "投球手令最後一名擊球員出局。",
+          "highlight": "got the last batter out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把某人帶離或救出某個地方",
+      "titleEn": "get somebody out / get somebody out of something",
+      "formula": "get somebody out / get somebody out of something",
+      "highlight": "get somebody out / get somebody out of something",
+      "descriptionZh": "把某人帶離或救出某個地方",
+      "descriptionEn": "The firefighters got everyone out.",
+      "examples": [
+        {
+          "en": "The firefighters got everyone out.",
+          "zh": "消防員把所有人救了出來。",
+          "highlight": "got everyone out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 GET 清楚描述旅程和移動",
+      "titleEn": "Use GET to describe travel and movement clearly",
+      "zh": "get over、get past 和 get out 可以描述前往某地、越過狹窄位置,以及安全離開某個地方。",
+      "en": "Get over, get past and get out help you describe travelling somewhere, moving through a narrow space and leaving a place safely."
+    },
+    {
+      "titleZh": "自然談論復原和信心",
+      "titleEn": "Talk naturally about recovery and confidence",
+      "zh": "get over 可以描述從疾病或失望中恢復,也可以表示克服恐懼或害羞。",
+      "en": "Get over can describe recovering from an illness or disappointment, as well as overcoming fear or shyness."
+    },
+    {
+      "titleZh": "運用 GET 處理日常安排",
+      "titleEn": "Handle everyday arrangements with useful GET expressions",
+      "zh": "你可以用 GET 表達請水喉匠前來、送孩子上學、請教練回來,或介紹某人使用實用的應用程式。",
+      "en": "You can get a plumber in, get the children off to school, get a coach back or get somebody onto a useful app."
+    },
+    {
+      "titleZh": "表達延遲處理的事情和無法迴避的問題",
+      "titleEn": "Express delayed tasks and unavoidable problems",
+      "zh": "get round to 表示拖延後終於做某事;get round something 則表示避開或處理障礙。",
+      "en": "Get round to shows that you finally do something after a delay. Get round something shows that you avoid or deal with an obstacle."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 GET 清楚描述旅程和移動",
+      "自然談論復原和信心",
+      "運用 GET 處理日常安排",
+      "表達延遲處理的事情和無法迴避的問題"
+    ],
+    "contextsEn": [
+      "Use GET to describe travel and movement clearly",
+      "Talk naturally about recovery and confidence",
+      "Handle everyday arrangements with useful GET expressions",
+      "Express delayed tasks and unavoidable problems"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 GET 清楚描述旅程和移動",
+        "titleEn": "Use GET to describe travel and movement clearly",
+        "zh": "get over、get past 和 get out 可以描述前往某地、越過狹窄位置,以及安全離開某個地方。",
+        "en": "Get over, get past and get out help you describe travelling somewhere, moving through a narrow space and leaving a place safely.",
+        "examples": [
+          {
+            "en": "Can you get yourself over here by ten?",
+            "zh": "你可以在十時前來到這裏嗎?",
+            "highlight": "get yourself over"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論復原和信心",
+        "titleEn": "Talk naturally about recovery and confidence",
+        "zh": "get over 可以描述從疾病或失望中恢復,也可以表示克服恐懼或害羞。",
+        "en": "Get over can describe recovering from an illness or disappointment, as well as overcoming fear or shyness.",
+        "examples": [
+          {
+            "en": "He never really got over the break-up.",
+            "zh": "他始終未能真正走出分手的傷痛。",
+            "highlight": "got over"
+          }
+        ]
+      },
+      {
+        "titleZh": "運用 GET 處理日常安排",
+        "titleEn": "Handle everyday arrangements with useful GET expressions",
+        "zh": "你可以用 GET 表達請水喉匠前來、送孩子上學、請教練回來,或介紹某人使用實用的應用程式。",
+        "en": "You can get a plumber in, get the children off to school, get a coach back or get somebody onto a useful app.",
+        "examples": [
+          {
+            "en": "She is learning to get over her fear of dogs.",
+            "zh": "她正學習克服對狗的恐懼。",
+            "highlight": "get over"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達延遲處理的事情和無法迴避的問題",
+        "titleEn": "Express delayed tasks and unavoidable problems",
+        "zh": "get round to 表示拖延後終於做某事;get round something 則表示避開或處理障礙。",
+        "en": "Get round to shows that you finally do something after a delay. Get round something shows that you avoid or deal with an obstacle.",
+        "examples": [
+          {
+            "en": "We could not get past the crowd.",
+            "zh": "我們無法越過人群。",
+            "highlight": "get"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GET 片語動詞。",
+      "en": "Read the whole sentence and choose the GET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "get round to 和 get around to 可以表達相同意思;get past 和 get by 也可以表示越過或經過阻礙。",
+      "titleEn": "Get round to and get around to can express the same meaning.",
+      "zh": "get round to 和 get around to 可以表達相同意思;get past 和 get by 也可以表示越過或經過阻礙。",
+      "en": "Get round to and get around to can express the same meaning. Get past and get by can also express the same physical movement."
+    },
+    {
+      "titleZh": "get over 可以表達多個不同意思,包括前往某地、從一段經歷中恢復,以及克服困難。請仔細閱讀整個情境。",
+      "titleEn": "Get over can express several different ideas, including travelling somewhere, recovering from an experience and overcoming a difficulty.",
+      "zh": "get over 可以表達多個不同意思,包括前往某地、從一段經歷中恢復,以及克服困難。請仔細閱讀整個情境。",
+      "en": "Get over can express several different ideas, including travelling somewhere, recovering from an experience and overcoming a difficulty. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GET (VOLUME 1) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 1). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GET (VOLUME 1) 動詞片語句子改寫練習",
+    "titleEn": "GET (VOLUME 1) Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GET (VOLUME 1) 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GET (VOLUME 1). Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-224-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "This cold weather is making me feel unhappy.",
+      "promptZh": "這種寒冷天氣令我情緒低落。",
+      "starter": "This",
+      "answer": "This cold weather is really getting me down.",
+      "answerZh": "這種寒冷天氣實在令我情緒低落。",
+      "highlight": "really getting",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "令某人情緒低落"
+    },
+    {
+      "id": "phrasal-verb-224-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "He tried to pass the guards and run to the door.",
+      "promptZh": "他企圖越過守衛,跑向門口。",
+      "starter": "He",
+      "answer": "He tried to get past the guards and run to the door.",
+      "answerZh": "他企圖越過守衛,跑向門口。",
+      "highlight": "get past",
+      "targetForm": "get past / get by somebody/something",
+      "targetMeaningZh": "越過或經過阻擋的人或物"
+    },
+    {
+      "id": "phrasal-verb-224-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "I must send these letters tonight.",
+      "promptZh": "我今晚必須寄出這些信件。",
+      "starter": "I",
+      "answer": "I must get these letters off tonight.",
+      "answerZh": "我今晚必須寄出這些信件。",
+      "highlight": "get",
+      "targetForm": "get somebody/something off",
+      "targetMeaningZh": "送某人出發或把某物寄出"
+    },
+    {
+      "id": "phrasal-verb-224-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "He never fully recovered from the break-up.",
+      "promptZh": "他始終未能完全走出分手的傷痛。",
+      "starter": "He",
+      "answer": "He never really got over the break-up.",
+      "answerZh": "他始終未能真正走出分手的傷痛。",
+      "highlight": "really got over",
+      "targetForm": "get over somebody/something",
+      "targetMeaningZh": "從某人、疾病或不愉快的事情中恢復"
+    },
+    {
+      "id": "phrasal-verb-224-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We need to call a plumber to repair the pipe.",
+      "promptZh": "我們需要請水喉匠來修理水管。",
+      "starter": "We",
+      "answer": "We need to get a plumber in to repair the pipe.",
+      "answerZh": "我們需要請水喉匠來修理水管。",
+      "highlight": "get",
+      "targetForm": "get somebody in",
+      "targetMeaningZh": "請某人前來幫忙或工作"
+    },
+    {
+      "id": "phrasal-verb-224-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "I finally found time to answer the email.",
+      "promptZh": "我終於抽空回覆了那封電郵。",
+      "starter": "I",
+      "answer": "I finally got round to answering the email.",
+      "answerZh": "我終於抽空回覆了那封電郵。",
+      "highlight": "got round",
+      "targetForm": "get round/around to something or doing something",
+      "targetMeaningZh": "拖延後終於處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-224-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The bowler dismissed the last batter.",
+      "promptZh": "投球手令最後一名擊球員出局。",
+      "starter": "The",
+      "answer": "The bowler got the last batter out.",
+      "answerZh": "投球手令最後一名擊球員出局。",
+      "highlight": "got",
+      "targetForm": "get somebody out",
+      "targetMeaningZh": "在板球中使擊球員出局"
+    },
+    {
+      "id": "phrasal-verb-224-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "How much will it cost you to travel to Ireland?",
+      "promptZh": "前往愛爾蘭要花多少錢?",
+      "starter": "How",
+      "answer": "How much will it cost you to get over to Ireland?",
+      "answerZh": "前往愛爾蘭要花多少錢?",
+      "highlight": "get over",
+      "targetForm": "get over / get yourself over to a place",
+      "targetMeaningZh": "前往某地"
+    },
+    {
+      "id": "phrasal-verb-224-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "There is no way to avoid this rule.",
+      "promptZh": "這條規則無法避開。",
+      "starter": "There",
+      "answer": "There is no getting round this rule.",
+      "answerZh": "這條規則無法避開。",
+      "highlight": "getting round",
+      "targetForm": "get round something",
+      "targetMeaningZh": "避開或繞過問題、規則或限制"
+    },
+    {
+      "id": "phrasal-verb-224-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "These shoes are too small for me.",
+      "promptZh": "這雙鞋對我來說太小。",
+      "starter": "I",
+      "answer": "I cannot get into these shoes.",
+      "answerZh": "我穿不進這雙鞋。",
+      "highlight": "I cannot get into",
+      "targetForm": "get into something / get somebody into something",
+      "targetMeaningZh": "穿得進;幫助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-224-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The new student must learn to overcome his shyness.",
+      "promptZh": "那名新生必須學會克服害羞。",
+      "starter": "The",
+      "answer": "The new student must learn to get over his shyness.",
+      "answerZh": "那名新生必須學會克服害羞。",
+      "highlight": "get over",
+      "targetForm": "get over something",
+      "targetMeaningZh": "克服恐懼、害羞或其他困難"
+    },
+    {
+      "id": "phrasal-verb-224-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "You must move everyone outside the building quickly.",
+      "promptZh": "你必須迅速把所有人帶離大樓。",
+      "starter": "You",
+      "answer": "You must get everyone out of the building quickly.",
+      "answerZh": "你必須迅速把所有人帶離大樓。",
+      "highlight": "get",
+      "targetForm": "get somebody out / get somebody out of something",
+      "targetMeaningZh": "把某人帶離或救出某個地方"
+    },
+    {
+      "id": "phrasal-verb-224-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We are trying to persuade our old coach to return.",
+      "promptZh": "我們正嘗試說服舊教練回來。",
+      "starter": "We",
+      "answer": "We are trying to get our old coach back.",
+      "answerZh": "我們正嘗試讓舊教練回來。",
+      "highlight": "get",
+      "targetForm": "get somebody back",
+      "targetMeaningZh": "使某人回來或重新加入"
+    },
+    {
+      "id": "phrasal-verb-224-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "He needs help to stop drinking energy drinks.",
+      "promptZh": "他需要協助戒掉能量飲品。",
+      "starter": "He",
+      "answer": "He needs help to get off energy drinks.",
+      "answerZh": "他需要協助戒掉能量飲品。",
+      "highlight": "get off",
+      "targetForm": "get somebody off something",
+      "targetMeaningZh": "幫助某人停止使用或依賴某物"
+    },
+    {
+      "id": "phrasal-verb-224-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "I have only reached page ten.",
+      "promptZh": "我只讀到第十頁。",
+      "starter": "I",
+      "answer": "I have not got beyond page ten.",
+      "answerZh": "我仍未讀到第十頁之後。",
+      "highlight": "not got beyond",
+      "targetForm": "get past / get beyond something",
+      "targetMeaningZh": "進展至某個階段之後"
+    },
+    {
+      "id": "phrasal-verb-224-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Who introduced her to that new game?",
+      "promptZh": "是誰介紹她玩那款新遊戲的?",
+      "starter": "Who",
+      "answer": "Who got her onto that new game?",
+      "answerZh": "是誰介紹她玩那款新遊戲的?",
+      "highlight": "got",
+      "targetForm": "get somebody onto something",
+      "targetMeaningZh": "令某人開始使用或接觸某物"
+    },
+    {
+      "id": "phrasal-verb-224-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "We may be able to avoid the problem.",
+      "promptZh": "我們或許能避開這個問題。",
+      "starter": "We",
+      "answer": "We may be able to get round the problem.",
+      "answerZh": "我們或許能避開這個問題。",
+      "highlight": "get round",
+      "targetForm": "get round something",
+      "targetMeaningZh": "避開或繞過問題、規則或限制"
+    },
+    {
+      "id": "phrasal-verb-224-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "A classmate has introduced me to a useful study app.",
+      "promptZh": "一名同學向我介紹了一個實用的學習應用程式。",
+      "starter": "A",
+      "answer": "A classmate has got me onto a useful study app.",
+      "answerZh": "一名同學向我介紹了一個實用的學習應用程式。",
+      "highlight": "got",
+      "targetForm": "get somebody onto something",
+      "targetMeaningZh": "令某人開始使用或接觸某物"
+    },
+    {
+      "id": "phrasal-verb-224-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "She is trying to overcome her fear of lifts.",
+      "promptZh": "她正嘗試克服對升降機的恐懼。",
+      "starter": "She",
+      "answer": "She is trying to get over her fear of lifts.",
+      "answerZh": "她正嘗試克服對升降機的恐懼。",
+      "highlight": "get over",
+      "targetForm": "get over something",
+      "targetMeaningZh": "克服恐懼、害羞或其他困難"
+    },
+    {
+      "id": "phrasal-verb-224-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The school has called an electrician to check the lights.",
+      "promptZh": "學校已請電工來檢查燈具。",
+      "starter": "The",
+      "answer": "The school has got an electrician in to check the lights.",
+      "answerZh": "學校已請電工來檢查燈具。",
+      "highlight": "got",
+      "targetForm": "get somebody in",
+      "targetMeaningZh": "請某人前來幫忙或工作"
+    },
+    {
+      "id": "phrasal-verb-224-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "She has not recovered from the shock yet.",
+      "promptZh": "她仍未從震驚中恢復過來。",
+      "starter": "She",
+      "answer": "She has not got over the shock yet.",
+      "answerZh": "她仍未從震驚中恢復過來。",
+      "highlight": "got over",
+      "targetForm": "get over somebody/something",
+      "targetMeaningZh": "從某人、疾病或不愉快的事情中恢復"
+    },
+    {
+      "id": "phrasal-verb-224-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The firefighters have removed the family from the house.",
+      "promptZh": "消防員已把那家人救出房屋。",
+      "starter": "The",
+      "answer": "The firefighters have got the family out of the house.",
+      "answerZh": "消防員已把那家人救出房屋。",
+      "highlight": "got",
+      "targetForm": "get somebody out / get somebody out of something",
+      "targetMeaningZh": "把某人帶離或救出某個地方"
+    },
+    {
+      "id": "phrasal-verb-224-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The class is still studying the first topic.",
+      "promptZh": "全班仍在學習第一個課題。",
+      "starter": "The",
+      "answer": "The class has not got past the first topic yet.",
+      "answerZh": "全班仍未學到第一個課題之後的內容。",
+      "highlight": "has not got past",
+      "targetForm": "get past / get beyond something",
+      "targetMeaningZh": "進展至某個階段之後"
+    },
+    {
+      "id": "phrasal-verb-224-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "We have sent the children to school.",
+      "promptZh": "我們已送孩子上學。",
+      "starter": "We",
+      "answer": "We have got the children off to school.",
+      "answerZh": "我們已送孩子上學。",
+      "highlight": "got",
+      "targetForm": "get somebody/something off",
+      "targetMeaningZh": "送某人出發;把某物寄出"
+    },
+    {
+      "id": "phrasal-verb-224-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Has the club persuaded its best player to return?",
+      "promptZh": "俱樂部已說服最出色的球員回來嗎?",
+      "starter": "Has",
+      "answer": "Has the club got its best player back?",
+      "answerZh": "俱樂部已讓最出色的球員回來嗎?",
+      "highlight": "got",
+      "targetForm": "get somebody back",
+      "targetMeaningZh": "使某人回來或重新加入"
+    },
+    {
+      "id": "phrasal-verb-224-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "We are hoping to travel to the island this weekend.",
+      "promptZh": "我們希望這個週末前往那座島。",
+      "starter": "We",
+      "answer": "We are hoping to get over to the island this weekend.",
+      "answerZh": "我們希望這個週末前往那座島。",
+      "highlight": "get over",
+      "targetForm": "get over / get yourself over to a place",
+      "targetMeaningZh": "前往某地"
+    },
+    {
+      "id": "phrasal-verb-224-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "If England can dismiss the captain, the team may win the match.",
+      "promptZh": "如果英格蘭隊能令隊長出局,球隊或可勝出比賽。",
+      "starter": "If",
+      "answer": "If England can get the captain out, the team may win the match.",
+      "answerZh": "如果英格蘭隊能令隊長出局,球隊或可勝出比賽。",
+      "highlight": "get",
+      "targetForm": "get somebody out",
+      "targetMeaningZh": "在板球中使擊球員出局"
+    },
+    {
+      "id": "phrasal-verb-224-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The long wait has been making everyone feel low.",
+      "promptZh": "漫長的等待一直令大家情緒低落。",
+      "starter": "The",
+      "answer": "The long wait has been getting everyone down.",
+      "answerZh": "漫長的等待一直令大家情緒低落。",
+      "highlight": "getting",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "令某人情緒低落"
+    },
+    {
+      "id": "phrasal-verb-224-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We could not pass the fallen tree.",
+      "promptZh": "我們無法越過那棵倒下的樹。",
+      "starter": "We",
+      "answer": "We could not get past the fallen tree.",
+      "answerZh": "我們無法越過那棵倒下的樹。",
+      "highlight": "get past",
+      "targetForm": "get past / get by somebody/something",
+      "targetMeaningZh": "越過或經過阻擋的人或物"
+    },
+    {
+      "id": "phrasal-verb-224-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The family is helping her stop using sleeping tablets.",
+      "promptZh": "家人正協助她停止服用安眠藥。",
+      "starter": "The",
+      "answer": "The family is helping her get off sleeping tablets.",
+      "answerZh": "家人正協助她停止服用安眠藥。",
+      "highlight": "get off",
+      "targetForm": "get somebody off something",
+      "targetMeaningZh": "幫助某人停止使用或依賴某物"
+    },
+    {
+      "id": "phrasal-verb-224-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "She has not yet found time to clean the cupboard.",
+      "promptZh": "她仍未抽空清理櫥櫃。",
+      "starter": "She",
+      "answer": "She has not got around to cleaning the cupboard yet.",
+      "answerZh": "她仍未抽空清理櫥櫃。",
+      "highlight": "got around",
+      "targetForm": "get round/around to something or doing something",
+      "targetMeaningZh": "拖延後終於處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-224-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The child is trying to put on the old costume.",
+      "promptZh": "那個孩子正嘗試穿上那套舊服裝。",
+      "starter": "The",
+      "answer": "The child is trying to get into the old costume.",
+      "answerZh": "那個孩子正嘗試穿上那套舊服裝。",
+      "highlight": "get into",
+      "targetForm": "get into something / get somebody into something",
+      "targetMeaningZh": "穿得進;幫助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-224-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Can you help your brother put on the life jacket?",
+      "promptZh": "你可以幫弟弟穿上救生衣嗎?",
+      "starter": "Can",
+      "answer": "Can you get your brother into the life jacket?",
+      "answerZh": "你可以幫弟弟穿上救生衣嗎?",
+      "highlight": "get",
+      "targetForm": "get into something / get somebody into something",
+      "targetMeaningZh": "穿得進;幫助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-224-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Why are you unable to complete the opening level of the game and continue?",
+      "promptZh": "你為甚麼無法完成遊戲的第一關並繼續下去?",
+      "starter": "Why",
+      "answer": "Why can you not get beyond the opening level of the game?",
+      "answerZh": "你為甚麼無法通過遊戲的第一關並繼續下去?",
+      "highlight": "can",
+      "targetForm": "get past / get beyond something",
+      "targetMeaningZh": "進展至某個階段之後"
+    },
+    {
+      "id": "phrasal-verb-224-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Do not let one poor mark make you feel unhappy.",
+      "promptZh": "不要讓一次低分令你情緒低落。",
+      "starter": "Do",
+      "answer": "Do not let one poor mark get you down.",
+      "answerZh": "不要讓一次低分令你情緒低落。",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "令某人情緒低落"
+    },
+    {
+      "id": "phrasal-verb-224-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "How did you persuade the team to start using this new system?",
+      "promptZh": "你是如何說服團隊開始使用這個新系統的?",
+      "starter": "How",
+      "answer": "How did you get the team onto this new system?",
+      "answerZh": "你是如何令團隊開始使用這個新系統的?",
+      "highlight": "get",
+      "targetForm": "get somebody onto something",
+      "targetMeaningZh": "令某人開始使用或接觸某物"
+    },
+    {
+      "id": "phrasal-verb-224-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Can you remove the cat from the box without frightening it?",
+      "promptZh": "你可以在不嚇怕那隻貓的情況下,把牠從箱子裏抱出來嗎?",
+      "starter": "Can",
+      "answer": "Can you get the cat out of the box without frightening it?",
+      "answerZh": "你可以在不嚇怕那隻貓的情況下,把牠從箱子裏抱出來嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody out / get somebody out of something",
+      "targetMeaningZh": "把某人帶離或救出某個地方"
+    },
+    {
+      "id": "phrasal-verb-224-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "You cannot improve unless you overcome your fear of making mistakes.",
+      "promptZh": "除非你克服犯錯的恐懼,否則便無法進步。",
+      "starter": "You",
+      "answer": "You cannot improve unless you get over your fear of making mistakes.",
+      "answerZh": "除非你克服犯錯的恐懼,否則便無法進步。",
+      "highlight": "get over",
+      "targetForm": "get over something",
+      "targetMeaningZh": "克服恐懼、害羞或其他困難"
+    },
+    {
+      "id": "phrasal-verb-224-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Can you send this parcel before the post office closes?",
+      "promptZh": "你可以在郵局關門前寄出這個包裹嗎?",
+      "starter": "Can",
+      "answer": "Can you get this parcel off before the post office closes?",
+      "answerZh": "你可以在郵局關門前寄出這個包裹嗎?",
+      "highlight": "get",
+      "targetForm": "get somebody/something off",
+      "targetMeaningZh": "送某人出發;把某物寄出"
+    },
+    {
+      "id": "phrasal-verb-224-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "When will you finally read the book I lent you?",
+      "promptZh": "你甚麼時候才會讀我借給你的那本書?",
+      "starter": "When",
+      "answer": "When will you get round to reading the book I lent you?",
+      "answerZh": "你甚麼時候才會讀我借給你的那本書?",
+      "highlight": "get round to reading",
+      "targetForm": "get round/around to something or doing something",
+      "targetMeaningZh": "拖延後終於處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-224-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Could you move aside so that I can pass you?",
+      "promptZh": "你可以讓開一點,讓我經過嗎?",
+      "starter": "Could",
+      "answer": "Could you move aside so that I can get by you?",
+      "answerZh": "你可以讓開一點,讓我經過嗎?",
+      "highlight": "get by",
+      "targetForm": "get past / get by somebody/something",
+      "targetMeaningZh": "越過或經過阻擋的人或物"
+    },
+    {
+      "id": "phrasal-verb-224-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Should we call someone to look at the broken window?",
+      "promptZh": "我們應否請人來查看破裂的窗戶?",
+      "starter": "Should",
+      "answer": "Should we get someone in to look at the broken window?",
+      "answerZh": "我們應否請人來查看破裂的窗戶?",
+      "highlight": "get",
+      "targetForm": "get somebody in",
+      "targetMeaningZh": "請某人前來幫忙或工作"
+    },
+    {
+      "id": "phrasal-verb-224-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "It took me months to recover from losing the match.",
+      "promptZh": "我花了幾個月才從落敗的失落中恢復過來。",
+      "starter": "It",
+      "answer": "It took me months to get over losing the match.",
+      "answerZh": "我花了幾個月才從落敗的失落中恢復過來。",
+      "highlight": "get over",
+      "targetForm": "get over somebody/something",
+      "targetMeaningZh": "從某人、疾病或不愉快的事情中恢復"
+    },
+    {
+      "id": "phrasal-verb-224-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "How did the young bowler dismiss such an experienced batter?",
+      "promptZh": "那名年輕投球手是如何令如此有經驗的擊球員出局的?",
+      "starter": "How",
+      "answer": "How did the young bowler get such an experienced batter out?",
+      "answerZh": "那名年輕投球手是如何令如此有經驗的擊球員出局的?",
+      "highlight": "get",
+      "targetForm": "get somebody out",
+      "targetMeaningZh": "在板球中使擊球員出局"
+    },
+    {
+      "id": "phrasal-verb-224-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Can the new plan help him stop drinking coffee completely?",
+      "promptZh": "這個新計劃可以幫助他完全戒掉咖啡嗎?",
+      "starter": "Can",
+      "answer": "Can the new plan help him get off coffee?",
+      "answerZh": "這個新計劃可以幫助他戒掉咖啡嗎?",
+      "highlight": "get off",
+      "targetForm": "get somebody off something",
+      "targetMeaningZh": "幫助某人停止使用或依賴某物"
+    },
+    {
+      "id": "phrasal-verb-224-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Can the shop avoid the new safety check?",
+      "promptZh": "這間店舖可以避開新的安全檢查嗎?",
+      "starter": "Can",
+      "answer": "Can the shop get round the new safety check?",
+      "answerZh": "這間店舖可以避開新的安全檢查嗎?",
+      "highlight": "get round",
+      "targetForm": "get round something",
+      "targetMeaningZh": "避開或繞過問題、規則或限制"
+    },
+    {
+      "id": "phrasal-verb-224-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Can you travel here before lunch?",
+      "promptZh": "你可以在午膳前來到這裏嗎?",
+      "starter": "Can",
+      "answer": "Can you get yourself over here before lunch?",
+      "answerZh": "你可以在午膳前來到這裏嗎?",
+      "highlight": "get yourself over",
+      "targetForm": "get over / get yourself over to a place",
+      "targetMeaningZh": "前往某地"
+    },
+    {
+      "id": "phrasal-verb-224-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Nothing I said could persuade her to return to the team.",
+      "promptZh": "無論我說甚麼,都無法說服她重返球隊。",
+      "starter": "Nothing",
+      "answer": "Nothing I said could get her back into the team.",
+      "answerZh": "無論我說甚麼,都無法讓她重返球隊。",
+      "highlight": "get",
+      "targetForm": "get somebody back",
+      "targetMeaningZh": "使某人回來或重新加入"
+    },
+    {
+      "id": "phrasal-verb-224-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The team changed bowlers because it needed to dismiss the captain quickly.",
+      "promptZh": "球隊更換投球手,因為需要盡快令隊長出局。",
+      "starter": "The",
+      "answer": "The team changed bowlers because it needed to get the captain out quickly.",
+      "answerZh": "球隊更換投球手,因為需要盡快令隊長出局。",
+      "highlight": "get",
+      "targetForm": "get somebody out",
+      "targetMeaningZh": "在板球中使擊球員出局"
+    },
+    {
+      "id": "phrasal-verb-224-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After weeks of delay, the club finally discussed the new timetable.",
+      "promptZh": "拖延了幾個星期後,俱樂部終於討論了新時間表。",
+      "starter": "After",
+      "answer": "After weeks of delay, the club finally got around to discussing the new timetable.",
+      "answerZh": "拖延了幾個星期後,俱樂部終於討論了新時間表。",
+      "highlight": "got around to discussing",
+      "targetForm": "get round/around to something or doing something",
+      "targetMeaningZh": "拖延後終於處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-224-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The ferry is cheap, so the whole class should be able to travel to France for the day.",
+      "promptZh": "渡輪票價便宜,所以全班應該都可以前往法國一日遊。",
+      "starter": "The",
+      "answer": "The ferry is cheap, so the whole class should be able to get over to France for the day.",
+      "answerZh": "渡輪票價便宜,所以全班應該都可以前往法國一日遊。",
+      "highlight": "get over",
+      "targetForm": "get over / get yourself over to a place",
+      "targetMeaningZh": "前往某地"
+    },
+    {
+      "id": "phrasal-verb-224-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The doctor helped the patient stop taking the strong medicine slowly and safely.",
+      "promptZh": "醫生協助病人逐步並安全地停止服用強效藥物。",
+      "starter": "The",
+      "answer": "The doctor helped the patient get off the strong medicine slowly and safely.",
+      "answerZh": "醫生協助病人逐步並安全地停止服用強效藥物。",
+      "highlight": "get off",
+      "targetForm": "get somebody off something",
+      "targetMeaningZh": "幫助某人停止使用或依賴某物"
+    },
+    {
+      "id": "phrasal-verb-224-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The discussion remained focused only on the question of cost.",
+      "promptZh": "討論一直只集中於成本問題。",
+      "starter": "The",
+      "answer": "The discussion never got past the question of cost.",
+      "answerZh": "討論一直未能越過成本這個問題。",
+      "highlight": "never got past",
+      "targetForm": "get past / get beyond something",
+      "targetMeaningZh": "進展至某個階段之後"
+    },
+    {
+      "id": "phrasal-verb-224-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Because the computer kept shutting down, the office called a technician to examine it.",
+      "promptZh": "由於電腦不斷關機,辦公室請了技術員來檢查。",
+      "starter": "Because",
+      "answer": "Because the computer kept shutting down, the office got a technician in to examine it.",
+      "answerZh": "由於電腦不斷關機,辦公室請了技術員來檢查。",
+      "highlight": "got",
+      "targetForm": "get somebody in",
+      "targetMeaningZh": "請某人前來幫忙或工作"
+    },
+    {
+      "id": "phrasal-verb-224-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "A guard opened the side door so that the visitors could leave the crowded hall.",
+      "promptZh": "一名警衛打開側門,讓訪客可以離開擠迫的大堂。",
+      "starter": "A",
+      "answer": "A guard opened the side door to get the visitors out of the crowded hall.",
+      "answerZh": "一名警衛打開側門,讓訪客可以離開擠迫的大堂。",
+      "highlight": "to get",
+      "targetForm": "get somebody out / get somebody out of something",
+      "targetMeaningZh": "把某人帶離或救出某個地方"
+    },
+    {
+      "id": "phrasal-verb-224-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The band offered its drummer a better schedule because it wanted him to return.",
+      "promptZh": "樂隊向鼓手提出更好的時間安排,因為樂隊希望他回來。",
+      "starter": "The",
+      "answer": "The band offered its drummer a better schedule because it wanted to get him back.",
+      "answerZh": "樂隊向鼓手提出更好的時間安排,因為樂隊希望他回來。",
+      "highlight": "to get",
+      "targetForm": "get somebody back",
+      "targetMeaningZh": "使某人回來或重新加入"
+    },
+    {
+      "id": "phrasal-verb-224-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The cyclist found a narrow space and managed to pass the parked van.",
+      "promptZh": "那名單車手找到一條狹窄的通道,成功越過停泊的貨車。",
+      "starter": "The",
+      "answer": "The cyclist found a narrow space and managed to get past the parked van.",
+      "answerZh": "那名單車手找到一條狹窄的通道,成功越過停泊的貨車。",
+      "highlight": "get past",
+      "targetForm": "get past / get by somebody/something",
+      "targetMeaningZh": "越過或經過阻擋的人或物"
+    },
+    {
+      "id": "phrasal-verb-224-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "After the zip broke, she could not put on the dress properly.",
+      "promptZh": "拉鏈壞掉後,她無法妥善穿上那條裙。",
+      "starter": "After",
+      "answer": "After the zip broke, she could not get into the dress properly.",
+      "answerZh": "拉鏈壞掉後,她無法妥善穿上那條裙。",
+      "highlight": "get into",
+      "targetForm": "get into something / get somebody into something",
+      "targetMeaningZh": "穿得進;幫助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-224-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "He tried to avoid the password check, but the website stopped him.",
+      "promptZh": "他企圖避過密碼檢查,但網站阻止了他。",
+      "starter": "He",
+      "answer": "He tried to get round the password check, but the website stopped him.",
+      "answerZh": "他企圖避過密碼檢查,但網站阻止了他。",
+      "highlight": "get round",
+      "targetForm": "get round something",
+      "targetMeaningZh": "避開或繞過問題、規則或限制"
+    },
+    {
+      "id": "phrasal-verb-224-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The coach introduced the runners to a simple food plan before the race.",
+      "promptZh": "教練在比賽前讓跑手開始採用一個簡單的飲食計劃。",
+      "starter": "The",
+      "answer": "The coach got the runners onto a simple food plan before the race.",
+      "answerZh": "教練在比賽前讓跑手開始採用一個簡單的飲食計劃。",
+      "highlight": "got",
+      "targetForm": "get somebody onto something",
+      "targetMeaningZh": "令某人開始使用或接觸某物"
+    },
+    {
+      "id": "phrasal-verb-224-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Working alone for weeks began to make him feel low.",
+      "promptZh": "獨自工作了幾個星期後,他開始感到情緒低落。",
+      "starter": "Working",
+      "answer": "Working alone for weeks began to get him down.",
+      "answerZh": "獨自工作了幾個星期後,他開始感到情緒低落。",
+      "highlight": "get",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "令某人情緒低落"
+    },
+    {
+      "id": "phrasal-verb-224-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The child is slowly recovering from the illness.",
+      "promptZh": "那個孩子正在慢慢從疾病中康復。",
+      "starter": "The",
+      "answer": "The child is slowly getting over the illness.",
+      "answerZh": "那個孩子正在慢慢從疾病中康復。",
+      "highlight": "getting over",
+      "targetForm": "get over somebody/something",
+      "targetMeaningZh": "從某人、疾病或不愉快的事情中恢復"
+    },
+    {
+      "id": "phrasal-verb-224-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Once the coach had sent the players to the stadium, she could prepare the equipment.",
+      "promptZh": "教練送球員前往運動場後,便可以準備器材。",
+      "starter": "Once",
+      "answer": "Once the coach had got the players off to the stadium, she could prepare the equipment.",
+      "answerZh": "教練送球員前往運動場後,便可以準備器材。",
+      "highlight": "got",
+      "targetForm": "get somebody/something off",
+      "targetMeaningZh": "送某人出發;把某物寄出"
+    },
+    {
+      "id": "phrasal-verb-224-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "With regular practice, the singer managed to overcome her fear of large crowds.",
+      "promptZh": "經過定期練習後,那名歌手成功克服了面對大批觀眾的恐懼。",
+      "starter": "With",
+      "answer": "With regular practice, the singer managed to get over her fear of large crowds.",
+      "answerZh": "經過定期練習後,那名歌手成功克服了面對大批觀眾的恐懼。",
+      "highlight": "get over",
+      "targetForm": "get over something",
+      "targetMeaningZh": "克服恐懼、害羞或其他困難"
+    },
+    {
+      "id": "phrasal-verb-224-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Although he smiles in public, he still has not recovered from his close friend’s departure.",
+      "promptZh": "雖然他在人前面帶笑容,但仍未走出好友離開所帶來的失落。",
+      "starter": "Although",
+      "answer": "Although he smiles in public, he still has not got over his close friend’s departure.",
+      "answerZh": "雖然他在人前面帶笑容,但仍未走出好友離開所帶來的失落。",
+      "highlight": "got over",
+      "targetForm": "get over somebody/something",
+      "targetMeaningZh": "從某人、疾病或不愉快的事情中恢復"
+    },
+    {
+      "id": "phrasal-verb-224-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The forms were ready, but the office did not manage to send them before the Friday deadline.",
+      "promptZh": "表格已準備好,但辦公室未能在星期五限期前寄出。",
+      "starter": "The",
+      "answer": "The forms were ready, but the office did not manage to get them off before the Friday deadline.",
+      "answerZh": "表格已準備好,但辦公室未能在星期五限期前寄出。",
+      "highlight": "get",
+      "targetForm": "get somebody/something off",
+      "targetMeaningZh": "送某人出發;把某物寄出"
+    },
+    {
+      "id": "phrasal-verb-224-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Whatever plan they use, they cannot avoid the fact that the room is too small.",
+      "promptZh": "無論他們採用甚麼計劃,都無法避開房間太小這個事實。",
+      "starter": "Whatever",
+      "answer": "Whatever plan they use, they cannot get round the fact that the room is too small.",
+      "answerZh": "無論他們採用甚麼計劃,都無法避開房間太小這個事實。",
+      "highlight": "get round",
+      "targetForm": "get round something",
+      "targetMeaningZh": "避開或繞過問題、規則或限制"
+    },
+    {
+      "id": "phrasal-verb-224-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "With only ten runs needed, the fielding side had to dismiss both remaining batters to have any chance of winning.",
+      "promptZh": "對方只需再得十分,因此防守一方必須令餘下兩名擊球員出局,才有機會勝出。",
+      "starter": "With",
+      "answer": "With only ten runs needed, the fielding side had to get both remaining batters out to have any chance of winning.",
+      "answerZh": "對方只需再得十分,因此防守一方必須令餘下兩名擊球員出局,才有機會勝出。",
+      "highlight": "get",
+      "targetForm": "get somebody out",
+      "targetMeaningZh": "在板球中使擊球員出局"
+    },
+    {
+      "id": "phrasal-verb-224-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "If the smell does not disappear, the manager will have to call a cleaner to deal with the kitchen.",
+      "promptZh": "如果氣味沒有消失,經理便要請清潔工來處理廚房。",
+      "starter": "If",
+      "answer": "If the smell does not disappear, the manager will have to get a cleaner in to deal with the kitchen.",
+      "answerZh": "如果氣味沒有消失,經理便要請清潔工來處理廚房。",
+      "highlight": "get",
+      "targetForm": "get somebody in",
+      "targetMeaningZh": "請某人前來幫忙或工作"
+    },
+    {
+      "id": "phrasal-verb-224-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Before he can lead the group, the new team leader needs to overcome his fear of making difficult decisions.",
+      "promptZh": "那名新隊長在帶領小組前,需要克服作出艱難決定的恐懼。",
+      "starter": "Before",
+      "answer": "Before he can lead the group, the new team leader needs to get over his fear of making difficult decisions.",
+      "answerZh": "那名新隊長在帶領小組前,需要克服作出艱難決定的恐懼。",
+      "highlight": "get over",
+      "targetForm": "get over something",
+      "targetMeaningZh": "克服恐懼、害羞或其他困難"
+    },
+    {
+      "id": "phrasal-verb-224-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After several honest talks, the company finally persuaded an experienced worker to return.",
+      "promptZh": "經過幾次坦誠交談後,公司終於說服一名有經驗的員工回來。",
+      "starter": "After",
+      "answer": "After several honest talks, the company finally got an experienced worker back.",
+      "answerZh": "經過幾次坦誠交談後,公司終於讓一名有經驗的員工回來。",
+      "highlight": "got",
+      "targetForm": "get somebody back",
+      "targetMeaningZh": "使某人回來或重新加入"
+    },
+    {
+      "id": "phrasal-verb-224-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Although the weather is poor, one teacher plans to travel to Belfast before the meeting begins.",
+      "promptZh": "雖然天氣欠佳,但一名老師仍計劃在會議開始前前往貝爾法斯特。",
+      "starter": "Although",
+      "answer": "Although the weather is poor, one teacher plans to get over to Belfast before the meeting begins.",
+      "answerZh": "雖然天氣欠佳,但一名老師仍計劃在會議開始前前往貝爾法斯特。",
+      "highlight": "get over",
+      "targetForm": "get over / get yourself over to a place",
+      "targetMeaningZh": "前往某地"
+    },
+    {
+      "id": "phrasal-verb-224-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "One online video encouraged thousands of people to start using the exercise programme.",
+      "promptZh": "一段網上影片令數以千計的人開始使用這個運動計劃。",
+      "starter": "One",
+      "answer": "One online video got thousands of people onto the exercise programme.",
+      "answerZh": "一段網上影片令數以千計的人開始使用這個運動計劃。",
+      "highlight": "got",
+      "targetForm": "get somebody onto something",
+      "targetMeaningZh": "令某人開始使用或接觸某物"
+    },
+    {
+      "id": "phrasal-verb-224-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "Even after three attempts, she could not finish the first stage of the online form and continue.",
+      "promptZh": "即使嘗試了三次,她仍無法完成網上表格的第一階段並繼續下去。",
+      "starter": "Even",
+      "answer": "Even after three attempts, she could not get beyond the first stage of the online form.",
+      "answerZh": "即使嘗試了三次,她仍無法完成網上表格的第一階段並繼續下去。",
+      "highlight": "get beyond",
+      "targetForm": "get past / get beyond something",
+      "targetMeaningZh": "進展至某個階段之後"
+    },
+    {
+      "id": "phrasal-verb-224-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After years of drinking too much coffee, she decided to ask for help to stop.",
+      "promptZh": "多年來飲用過量咖啡後,她決定尋求協助戒掉咖啡。",
+      "starter": "After",
+      "answer": "After years of drinking too much coffee, she decided to ask for help to get off it.",
+      "answerZh": "多年來飲用過量咖啡後,她決定尋求協助戒掉咖啡。",
+      "highlight": "get off it",
+      "targetForm": "get somebody off something",
+      "targetMeaningZh": "幫助某人停止使用或依賴某物"
+    },
+    {
+      "id": "phrasal-verb-224-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "When smoke filled the kitchen, the first thing they did was move the children outside.",
+      "promptZh": "當廚房充滿濃煙時,他們首先把孩子帶到外面。",
+      "starter": "When",
+      "answer": "When smoke filled the kitchen, the first thing they did was get the children out.",
+      "answerZh": "當廚房充滿濃煙時,他們首先把孩子帶到外面。",
+      "highlight": "get",
+      "targetForm": "get somebody out / get somebody out of something",
+      "targetMeaningZh": "把某人帶離或救出某個地方"
+    },
+    {
+      "id": "phrasal-verb-224-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Although she enjoys the job, the constant noise sometimes makes her feel unhappy.",
+      "promptZh": "雖然她喜歡這份工作,但持續的噪音有時會令她情緒低落。",
+      "starter": "Although",
+      "answer": "Although she enjoys the job, the constant noise sometimes gets her down.",
+      "answerZh": "雖然她喜歡這份工作,但持續的噪音有時會令她情緒低落。",
+      "highlight": "gets",
+      "targetForm": "get somebody down",
+      "targetMeaningZh": "令某人情緒低落"
+    },
+    {
+      "id": "phrasal-verb-224-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "With people blocking both sides of the gate, the delivery worker could not pass them with the trolley.",
+      "promptZh": "由於人們堵住閘門兩旁,送貨員無法推着手推車越過他們。",
+      "starter": "With",
+      "answer": "With people blocking both sides of the gate, the delivery worker could not get past them with the trolley.",
+      "answerZh": "由於人們堵住閘門兩旁,送貨員無法推着手推車越過他們。",
+      "highlight": "get past",
+      "targetForm": "get past / get by somebody/something",
+      "targetMeaningZh": "越過或經過阻擋的人或物"
+    },
+    {
+      "id": "phrasal-verb-224-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "I kept meaning to call the school, but I did not finally do it until Friday.",
+      "promptZh": "我一直打算致電學校,但直至星期五才終於打了電話。",
+      "starter": "I",
+      "answer": "I kept meaning to call the school, but I did not get round to doing it until Friday.",
+      "answerZh": "我一直打算致電學校,但直至星期五才終於打了電話。",
+      "highlight": "get round to doing",
+      "targetForm": "get round/around to something or doing something",
+      "targetMeaningZh": "拖延後終於處理或做某事"
+    },
+    {
+      "id": "phrasal-verb-224-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "The boots looked large enough, but my feet still would not fit inside.",
+      "promptZh": "那雙靴看來夠大,但我的雙腳仍穿不進去。",
+      "starter": "The",
+      "answer": "The boots looked large enough, but I still could not get my feet into them.",
+      "answerZh": "那雙靴看來夠大,但我仍無法把雙腳穿進去。",
+      "highlight": "I still could not get",
+      "targetForm": "get into something / get somebody into something",
+      "targetMeaningZh": "穿得進;幫助某人穿上衣物"
+    }
+  ]
+}

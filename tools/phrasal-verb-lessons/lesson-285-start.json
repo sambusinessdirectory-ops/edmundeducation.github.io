@@ -1,0 +1,1813 @@
+{
+  "id": "phrasal-verb-285",
+  "order": 285,
+  "slug": "start",
+  "version": "1",
+  "title": "START 動詞片語",
+  "titleEn": "Start",
+  "titleZh": "START 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 270 - START.pdf",
+    "sourceNumber": 270,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 START 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to START."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "START",
+      "highlight": "START"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We started for home before dark.",
+      "zh": "我們在天黑前啟程回家。",
+      "highlight": "started for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Let’s start in on the first task.",
+      "zh": "我們立即開始第一項工作吧。",
+      "highlight": "start in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The game started off well.",
+      "zh": "比賽開始時進展順利。",
+      "highlight": "started off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。；立即着手做某事;積極開始；開始時表現或發展成某種情況；幫助某人開始某項活動；使某事開始;引起某事；開始做或處理某事；開始攻擊某人或某物；開始責備、批評或抱怨；從頭重新開始；開始運作、響起或播放;使機器、音樂等開始",
+    "en": "start for somewhere / start out; start in / start in on something; start off; start somebody off; start something off; start on something; start on somebody/something / start in on somebody/something; start on at somebody / start on about something / start in on somebody/something; start over / start something over; start up / start something up",
+    "naturalZh": [
+      "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+      "立即着手做某事;積極開始",
+      "開始時表現或發展成某種情況",
+      "幫助某人開始某項活動",
+      "使某事開始;引起某事",
+      "開始做或處理某事",
+      "開始攻擊某人或某物",
+      "開始責備、批評或抱怨",
+      "從頭重新開始",
+      "開始運作、響起或播放;使機器、音樂等開始"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "start for somewhere / start out",
+      "titleZh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+      "titleEn": "start for somewhere / start out",
+      "descriptionZh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+      "descriptionEn": "We started for home before dark.",
+      "examples": [
+        {
+          "en": "We started for home before dark.",
+          "zh": "我們在天黑前啟程回家。",
+          "highlight": "started for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "start in / start in on something",
+      "titleZh": "立即着手做某事;積極開始",
+      "titleEn": "start in / start in on something",
+      "descriptionZh": "立即着手做某事;積極開始",
+      "descriptionEn": "Let’s start in on the first task.",
+      "examples": [
+        {
+          "en": "Let’s start in on the first task.",
+          "zh": "我們立即開始第一項工作吧。",
+          "highlight": "start in on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "start off",
+      "titleZh": "開始時表現或發展成某種情況",
+      "titleEn": "start off",
+      "descriptionZh": "開始時表現或發展成某種情況",
+      "descriptionEn": "The game started off well.",
+      "examples": [
+        {
+          "en": "The game started off well.",
+          "zh": "比賽開始時進展順利。",
+          "highlight": "started off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "start somebody off",
+      "titleZh": "幫助某人開始某項活動",
+      "titleEn": "start somebody off",
+      "descriptionZh": "幫助某人開始某項活動",
+      "descriptionEn": "I’ll start you off on the first exercise.",
+      "examples": [
+        {
+          "en": "I’ll start you off on the first exercise.",
+          "zh": "我會幫你開始做第一項練習。",
+          "highlight": "start you off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "start something off",
+      "titleZh": "使某事開始;引起某事",
+      "titleEn": "start something off",
+      "descriptionZh": "使某事開始;引起某事",
+      "descriptionEn": "A short song started off the show.",
+      "examples": [
+        {
+          "en": "A short song started off the show.",
+          "zh": "一首短歌為表演揭開序幕。",
+          "highlight": "started off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "start on something",
+      "titleZh": "開始做或處理某事",
+      "titleEn": "start on something",
+      "descriptionZh": "開始做或處理某事",
+      "descriptionEn": "After lunch, she started on her homework.",
+      "examples": [
+        {
+          "en": "After lunch, she started on her homework.",
+          "zh": "午飯後,她開始做功課。",
+          "highlight": "started on"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "start on somebody/something / start in on somebody/something",
+      "titleZh": "開始攻擊某人或某物",
+      "titleEn": "start on somebody/something / start in on somebody/something",
+      "descriptionZh": "開始攻擊某人或某物",
+      "descriptionEn": "The dog started on the man near the gate.",
+      "examples": [
+        {
+          "en": "The dog started on the man near the gate.",
+          "zh": "那隻狗開始攻擊閘門附近的男子。",
+          "highlight": "started on"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "start on at somebody / start on about something / start in on somebody/something",
+      "titleZh": "開始責備、批評或抱怨",
+      "titleEn": "start on at somebody / start on about something / start in on somebody/something",
+      "descriptionZh": "開始責備、批評或抱怨",
+      "descriptionEn": "He started on at me about my room.",
+      "examples": [
+        {
+          "en": "He started on at me about my room.",
+          "zh": "他開始因我的房間而責備我。",
+          "highlight": "started on at me about"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "start over / start something over",
+      "titleZh": "從頭重新開始",
+      "titleEn": "start over / start something over",
+      "descriptionZh": "從頭重新開始",
+      "descriptionEn": "We made a mistake and had to start over.",
+      "examples": [
+        {
+          "en": "We made a mistake and had to start over.",
+          "zh": "我們犯了錯,只好重新開始。",
+          "highlight": "start over"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "start up / start something up",
+      "titleZh": "開始運作、響起或播放;使機器、音樂等開始",
+      "titleEn": "start up / start something up",
+      "descriptionZh": "開始運作、響起或播放;使機器、音樂等開始",
+      "descriptionEn": "The engine started up at once.",
+      "examples": [
+        {
+          "en": "The engine started up at once.",
+          "zh": "引擎立即開始運作。",
+          "highlight": "started up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "START 片語動詞的實際用途",
+    "labelEn": "START Phrasal Verbs in Use",
+    "summaryZh": "start for 和 start out 可以表示啟程;start off 則可以描述活動、事件或經歷開始時的情況。；start in 可以表示某人立即着手;start on 可以指出開始處理哪項工作;start somebody off 則表示幫助另一個人開始。；start something off 可以指出甚麼事情引起一項活動或討論;start over 則表示因錯誤或問題而從頭再來。；start up 常用來描述引擎、機器或音樂開始運作;start on 和 start in on 則可能出現在攻擊、批評或反覆抱怨的情境中。",
+    "summaryEn": "Start for and start out describe beginning a journey. Start off describes how an activity, event or experience begins. Start in can show that someone begins immediately. Start on shows which task they begin, while start somebody off shows that another person helps them. Start something off identifies what caused an event or discussion to begin. Start over shows that someone returns to the beginning after a mistake or problem. Start up is often used when engines, machines or music begin. Start on and start in on may appear in situations involving attacks, criticism or repeated complaints.",
+    "contextsZh": [
+      "清楚談論旅程和事情的開端",
+      "以不同方式描述開始工作",
+      "解釋事情為何開始或重新開始",
+      "理解機器、音樂、爭執和抱怨的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about journeys and beginnings",
+      "Describe beginning work in different ways",
+      "Explain why something began or had to begin again",
+      "Understand machines, music, arguments and complaints"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 START 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the START expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "start for somewhere / start out",
+    "fixedHighlight": "start for somewhere / start out",
+    "fixedZh": "閱讀整句,選出意思相同的 START 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the START expression that gives the same meaning.",
+    "correct": "started for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 START ... OFF、START ... OVER 或 START ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。；start on 和 start in on 可以表示開始處理工作、攻擊某人或責備某人。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in START... OFF, START... OVER or START... UP, place the word as shown: start her off start it over start it up Start on and start in on can describe beginning some work, attacking someone or criticising someone. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "start for somewhere / start out",
+      "start in / start in on something",
+      "start off",
+      "start somebody off",
+      "start something off",
+      "start on something",
+      "start on somebody/something / start in on somebody/something",
+      "start on at somebody / start on about something / start in on somebody/something",
+      "start over / start something over",
+      "start up / start something up"
+    ],
+    "variableItemsEn": [
+      "start for somewhere / start out",
+      "start in / start in on something",
+      "start off",
+      "start somebody off",
+      "start something off",
+      "start on something",
+      "start on somebody/something / start in on somebody/something",
+      "start on at somebody / start on about something / start in on somebody/something",
+      "start over / start something over",
+      "start up / start something up"
+    ],
+    "forms": [
+      {
+        "formZh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+        "formEn": "start for somewhere / start out",
+        "exampleZh": "我們在天黑前啟程回家。",
+        "exampleEn": "We started for home before dark.",
+        "highlight": "started for"
+      },
+      {
+        "formZh": "立即着手做某事;積極開始",
+        "formEn": "start in / start in on something",
+        "exampleZh": "我們立即開始第一項工作吧。",
+        "exampleEn": "Let’s start in on the first task.",
+        "highlight": "start in on"
+      },
+      {
+        "formZh": "開始時表現或發展成某種情況",
+        "formEn": "start off",
+        "exampleZh": "比賽開始時進展順利。",
+        "exampleEn": "The game started off well.",
+        "highlight": "started off"
+      },
+      {
+        "formZh": "幫助某人開始某項活動",
+        "formEn": "start somebody off",
+        "exampleZh": "我會幫你開始做第一項練習。",
+        "exampleEn": "I’ll start you off on the first exercise.",
+        "highlight": "start you off"
+      },
+      {
+        "formZh": "使某事開始;引起某事",
+        "formEn": "start something off",
+        "exampleZh": "一首短歌為表演揭開序幕。",
+        "exampleEn": "A short song started off the show.",
+        "highlight": "started off"
+      },
+      {
+        "formZh": "開始做或處理某事",
+        "formEn": "start on something",
+        "exampleZh": "午飯後,她開始做功課。",
+        "exampleEn": "After lunch, she started on her homework.",
+        "highlight": "started on"
+      },
+      {
+        "formZh": "開始攻擊某人或某物",
+        "formEn": "start on somebody/something / start in on somebody/something",
+        "exampleZh": "那隻狗開始攻擊閘門附近的男子。",
+        "exampleEn": "The dog started on the man near the gate.",
+        "highlight": "started on"
+      },
+      {
+        "formZh": "開始責備、批評或抱怨",
+        "formEn": "start on at somebody / start on about something / start in on somebody/something",
+        "exampleZh": "他開始因我的房間而責備我。",
+        "exampleEn": "He started on at me about my room.",
+        "highlight": "started on at me about"
+      },
+      {
+        "formZh": "從頭重新開始",
+        "formEn": "start over / start something over",
+        "exampleZh": "我們犯了錯,只好重新開始。",
+        "exampleEn": "We made a mistake and had to start over.",
+        "highlight": "start over"
+      },
+      {
+        "formZh": "開始運作、響起或播放;使機器、音樂等開始",
+        "formEn": "start up / start something up",
+        "exampleZh": "引擎立即開始運作。",
+        "exampleEn": "The engine started up at once.",
+        "highlight": "started up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+      "titleEn": "start for somewhere / start out",
+      "formula": "start for somewhere / start out",
+      "highlight": "start for somewhere / start out",
+      "descriptionZh": "啟程;出發。start for 後面會指出目的地;start out 可以表示開始一段旅程。",
+      "descriptionEn": "We started for home before dark.",
+      "examples": [
+        {
+          "en": "We started for home before dark.",
+          "zh": "我們在天黑前啟程回家。",
+          "highlight": "started for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "立即着手做某事;積極開始",
+      "titleEn": "start in / start in on something",
+      "formula": "start in / start in on something",
+      "highlight": "start in / start in on something",
+      "descriptionZh": "立即着手做某事;積極開始",
+      "descriptionEn": "Let’s start in on the first task.",
+      "examples": [
+        {
+          "en": "Let’s start in on the first task.",
+          "zh": "我們立即開始第一項工作吧。",
+          "highlight": "start in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "開始時表現或發展成某種情況",
+      "titleEn": "start off",
+      "formula": "start off",
+      "highlight": "start off",
+      "descriptionZh": "開始時表現或發展成某種情況",
+      "descriptionEn": "The game started off well.",
+      "examples": [
+        {
+          "en": "The game started off well.",
+          "zh": "比賽開始時進展順利。",
+          "highlight": "started off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "幫助某人開始某項活動",
+      "titleEn": "start somebody off",
+      "formula": "start somebody off",
+      "highlight": "start somebody off",
+      "descriptionZh": "幫助某人開始某項活動",
+      "descriptionEn": "I’ll start you off on the first exercise.",
+      "examples": [
+        {
+          "en": "I’ll start you off on the first exercise.",
+          "zh": "我會幫你開始做第一項練習。",
+          "highlight": "start you off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "使某事開始;引起某事",
+      "titleEn": "start something off",
+      "formula": "start something off",
+      "highlight": "start something off",
+      "descriptionZh": "使某事開始;引起某事",
+      "descriptionEn": "A short song started off the show.",
+      "examples": [
+        {
+          "en": "A short song started off the show.",
+          "zh": "一首短歌為表演揭開序幕。",
+          "highlight": "started off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "開始做或處理某事",
+      "titleEn": "start on something",
+      "formula": "start on something",
+      "highlight": "start on something",
+      "descriptionZh": "開始做或處理某事",
+      "descriptionEn": "After lunch, she started on her homework.",
+      "examples": [
+        {
+          "en": "After lunch, she started on her homework.",
+          "zh": "午飯後,她開始做功課。",
+          "highlight": "started on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "開始攻擊某人或某物",
+      "titleEn": "start on somebody/something / start in on somebody/something",
+      "formula": "start on somebody/something / start in on somebody/something",
+      "highlight": "start on somebody/something / start in on somebody/something",
+      "descriptionZh": "開始攻擊某人或某物",
+      "descriptionEn": "The dog started on the man near the gate.",
+      "examples": [
+        {
+          "en": "The dog started on the man near the gate.",
+          "zh": "那隻狗開始攻擊閘門附近的男子。",
+          "highlight": "started on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "開始責備、批評或抱怨",
+      "titleEn": "start on at somebody / start on about something / start in on somebody/something",
+      "formula": "start on at somebody / start on about something / start in on somebody/something",
+      "highlight": "start on at somebody / start on about something / start in on somebody/something",
+      "descriptionZh": "開始責備、批評或抱怨",
+      "descriptionEn": "He started on at me about my room.",
+      "examples": [
+        {
+          "en": "He started on at me about my room.",
+          "zh": "他開始因我的房間而責備我。",
+          "highlight": "started on at me about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "從頭重新開始",
+      "titleEn": "start over / start something over",
+      "formula": "start over / start something over",
+      "highlight": "start over / start something over",
+      "descriptionZh": "從頭重新開始",
+      "descriptionEn": "We made a mistake and had to start over.",
+      "examples": [
+        {
+          "en": "We made a mistake and had to start over.",
+          "zh": "我們犯了錯,只好重新開始。",
+          "highlight": "start over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "開始運作、響起或播放;使機器、音樂等開始",
+      "titleEn": "start up / start something up",
+      "formula": "start up / start something up",
+      "highlight": "start up / start something up",
+      "descriptionZh": "開始運作、響起或播放;使機器、音樂等開始",
+      "descriptionEn": "The engine started up at once.",
+      "examples": [
+        {
+          "en": "The engine started up at once.",
+          "zh": "引擎立即開始運作。",
+          "highlight": "started up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論旅程和事情的開端",
+      "titleEn": "Talk clearly about journeys and beginnings",
+      "zh": "start for 和 start out 可以表示啟程;start off 則可以描述活動、事件或經歷開始時的情況。",
+      "en": "Start for and start out describe beginning a journey. Start off describes how an activity, event or experience begins."
+    },
+    {
+      "titleZh": "以不同方式描述開始工作",
+      "titleEn": "Describe beginning work in different ways",
+      "zh": "start in 可以表示某人立即着手;start on 可以指出開始處理哪項工作;start somebody off 則表示幫助另一個人開始。",
+      "en": "Start in can show that someone begins immediately. Start on shows which task they begin, while start somebody off shows that another person helps them."
+    },
+    {
+      "titleZh": "解釋事情為何開始或重新開始",
+      "titleEn": "Explain why something began or had to begin again",
+      "zh": "start something off 可以指出甚麼事情引起一項活動或討論;start over 則表示因錯誤或問題而從頭再來。",
+      "en": "Start something off identifies what caused an event or discussion to begin. Start over shows that someone returns to the beginning after a mistake or problem."
+    },
+    {
+      "titleZh": "理解機器、音樂、爭執和抱怨的表達",
+      "titleEn": "Understand machines, music, arguments and complaints",
+      "zh": "start up 常用來描述引擎、機器或音樂開始運作;start on 和 start in on 則可能出現在攻擊、批評或反覆抱怨的情境中。",
+      "en": "Start up is often used when engines, machines or music begin. Start on and start in on may appear in situations involving attacks, criticism or repeated complaints."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論旅程和事情的開端",
+      "以不同方式描述開始工作",
+      "解釋事情為何開始或重新開始",
+      "理解機器、音樂、爭執和抱怨的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about journeys and beginnings",
+      "Describe beginning work in different ways",
+      "Explain why something began or had to begin again",
+      "Understand machines, music, arguments and complaints"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論旅程和事情的開端",
+        "titleEn": "Talk clearly about journeys and beginnings",
+        "zh": "start for 和 start out 可以表示啟程;start off 則可以描述活動、事件或經歷開始時的情況。",
+        "en": "Start for and start out describe beginning a journey. Start off describes how an activity, event or experience begins.",
+        "examples": [
+          {
+            "en": "We started for home before dark.",
+            "zh": "我們在天黑前啟程回家。",
+            "highlight": "started for"
+          }
+        ]
+      },
+      {
+        "titleZh": "以不同方式描述開始工作",
+        "titleEn": "Describe beginning work in different ways",
+        "zh": "start in 可以表示某人立即着手;start on 可以指出開始處理哪項工作;start somebody off 則表示幫助另一個人開始。",
+        "en": "Start in can show that someone begins immediately. Start on shows which task they begin, while start somebody off shows that another person helps them.",
+        "examples": [
+          {
+            "en": "Let’s start in on the first task.",
+            "zh": "我們立即開始第一項工作吧。",
+            "highlight": "start in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋事情為何開始或重新開始",
+        "titleEn": "Explain why something began or had to begin again",
+        "zh": "start something off 可以指出甚麼事情引起一項活動或討論;start over 則表示因錯誤或問題而從頭再來。",
+        "en": "Start something off identifies what caused an event or discussion to begin. Start over shows that someone returns to the beginning after a mistake or problem.",
+        "examples": [
+          {
+            "en": "The game started off well.",
+            "zh": "比賽開始時進展順利。",
+            "highlight": "started off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解機器、音樂、爭執和抱怨的表達",
+        "titleEn": "Understand machines, music, arguments and complaints",
+        "zh": "start up 常用來描述引擎、機器或音樂開始運作;start on 和 start in on 則可能出現在攻擊、批評或反覆抱怨的情境中。",
+        "en": "Start up is often used when engines, machines or music begin. Start on and start in on may appear in situations involving attacks, criticism or repeated complaints.",
+        "examples": [
+          {
+            "en": "I’ll start you off on the first exercise.",
+            "zh": "我會幫你開始做第一項練習。",
+            "highlight": "start you off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 START 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the START expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 START 片語動詞。",
+      "en": "Read the whole sentence and choose the START expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 START ... OFF、START ... OVER 或 START ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。",
+      "titleEn": "When using him, her, it or them in START.",
+      "zh": "在 START ... OFF、START ... OVER 或 START ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在中間。",
+      "en": "When using him, her, it or them in START... OFF, START... OVER or START... UP, place the word as shown: start her off start it over start it up"
+    },
+    {
+      "titleZh": "start on 和 start in on 可以表示開始處理工作、攻擊某人或責備某人。請仔細閱讀整個情境。",
+      "titleEn": "Start on and start in on can describe beginning some work, attacking someone or criticising someone.",
+      "zh": "start on 和 start in on 可以表示開始處理工作、攻擊某人或責備某人。請仔細閱讀整個情境。",
+      "en": "Start on and start in on can describe beginning some work, attacking someone or criticising someone. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 START 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to START. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "START 動詞片語句子改寫練習",
+    "titleEn": "START Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 START 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to START. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-285-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The game began well but became worse later.",
+      "promptZh": "比賽開始時進展順利,但後來變得更差。",
+      "starter": "The",
+      "answer": "The game started off well but became worse later.",
+      "answerZh": "比賽開始時進展順利,但後來變得更差。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We began our journey home before sunset.",
+      "promptZh": "我們在日落前啟程回家。",
+      "starter": "We",
+      "answer": "We started for home before sunset.",
+      "answerZh": "我們在日落前啟程回家。",
+      "highlight": "started for",
+      "targetForm": "start for somewhere",
+      "targetMeaningZh": "出發前往某地"
+    },
+    {
+      "id": "phrasal-verb-285-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After lunch, I began doing my homework.",
+      "promptZh": "午飯後,我開始做功課。",
+      "starter": "After",
+      "answer": "After lunch, I started on my homework.",
+      "answerZh": "午飯後,我開始做功課。",
+      "highlight": "started on",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始做或處理某事"
+    },
+    {
+      "id": "phrasal-verb-285-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "After a short silence, the music began again.",
+      "promptZh": "短暫安靜後,音樂再次響起。",
+      "starter": "After",
+      "answer": "After a short silence, the music started up again.",
+      "answerZh": "短暫安靜後,音樂再次響起。",
+      "highlight": "started up",
+      "targetForm": "start up",
+      "targetMeaningZh": "開始響起或運作"
+    },
+    {
+      "id": "phrasal-verb-285-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I will help you begin the first exercise.",
+      "promptZh": "我會幫你開始做第一項練習。",
+      "starter": "I’ll",
+      "answer": "I’ll start you off on the first exercise.",
+      "answerZh": "我會幫你開始做第一項練習。",
+      "highlight": "I’ll start",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Dad began complaining to me about my untidy room.",
+      "promptZh": "爸爸開始因我的房間不整潔而責備我。",
+      "starter": "Dad",
+      "answer": "Dad started on at me about my untidy room.",
+      "answerZh": "爸爸開始因我的房間不整潔而責備我。",
+      "highlight": "started on at",
+      "targetForm": "start on at somebody",
+      "targetMeaningZh": "開始責備某人"
+    },
+    {
+      "id": "phrasal-verb-285-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Let’s begin work now and finish the posters quickly.",
+      "promptZh": "我們現在開始工作,迅速完成海報吧。",
+      "starter": "Let’s",
+      "answer": "Let’s start in now and finish the posters quickly.",
+      "answerZh": "我們現在開始工作,迅速完成海報吧。",
+      "highlight": "start in",
+      "targetForm": "start in",
+      "targetMeaningZh": "立即着手"
+    },
+    {
+      "id": "phrasal-verb-285-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The bell caused the race to begin.",
+      "promptZh": "鐘聲使賽事開始。",
+      "starter": "The",
+      "answer": "The bell started the race off.",
+      "answerZh": "鐘聲使賽事開始。",
+      "highlight": "started",
+      "targetForm": "start something off",
+      "targetMeaningZh": "使某事開始"
+    },
+    {
+      "id": "phrasal-verb-285-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I made a mistake and had to begin again.",
+      "promptZh": "我犯了錯,只好重新開始。",
+      "starter": "I",
+      "answer": "I made a mistake and had to start over.",
+      "answerZh": "我犯了錯,只好重新開始。",
+      "highlight": "start over",
+      "targetForm": "start over",
+      "targetMeaningZh": "重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The dog began attacking the man near the gate.",
+      "promptZh": "那隻狗開始攻擊閘門附近的男子。",
+      "starter": "The",
+      "answer": "The dog started on the man near the gate.",
+      "answerZh": "那隻狗開始攻擊閘門附近的男子。",
+      "highlight": "started on",
+      "targetForm": "start on somebody/something",
+      "targetMeaningZh": "開始攻擊某人或某物"
+    },
+    {
+      "id": "phrasal-verb-285-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The walkers began their journey at six in the morning.",
+      "promptZh": "遠足者在早上六時啟程。",
+      "starter": "The",
+      "answer": "The walkers started out at six in the morning.",
+      "answerZh": "遠足者在早上六時啟程。",
+      "highlight": "started out",
+      "targetForm": "start out",
+      "targetMeaningZh": "啟程"
+    },
+    {
+      "id": "phrasal-verb-285-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "A short example helped the children begin the new game.",
+      "promptZh": "一個簡短例子幫助孩子開始玩新遊戲。",
+      "starter": "A",
+      "answer": "A short example started the children off on the new game.",
+      "answerZh": "一個簡短例子幫助孩子開始玩新遊戲。",
+      "highlight": "started",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Our trip began badly because the bus was late.",
+      "promptZh": "由於巴士遲到,我們的旅程一開始便不順利。",
+      "starter": "Our",
+      "answer": "Our trip started off badly because the bus was late.",
+      "answerZh": "由於巴士遲到,我們的旅程一開始便不順利。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The class began the first activity as soon as the break ended.",
+      "promptZh": "小息一結束,全班便開始第一項活動。",
+      "starter": "The",
+      "answer": "The class started in on the first activity as soon as the break ended.",
+      "answerZh": "小息一結束,全班便開始第一項活動。",
+      "highlight": "started in on",
+      "targetForm": "start in on something",
+      "targetMeaningZh": "着手做某事"
+    },
+    {
+      "id": "phrasal-verb-285-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "A welcome speech will begin the evening’s activities.",
+      "promptZh": "歡迎辭將為晚上的活動揭開序幕。",
+      "starter": "A",
+      "answer": "A welcome speech will start off the evening’s activities.",
+      "answerZh": "歡迎辭將為晚上的活動揭開序幕。",
+      "highlight": "start off",
+      "targetForm": "start something off",
+      "targetMeaningZh": "使某事開始"
+    },
+    {
+      "id": "phrasal-verb-285-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She is beginning work on the report this afternoon.",
+      "promptZh": "她今天下午開始撰寫報告。",
+      "starter": "She",
+      "answer": "She is starting in on the report this afternoon.",
+      "answerZh": "她今天下午開始撰寫報告。",
+      "highlight": "starting in",
+      "targetForm": "start in on something",
+      "targetMeaningZh": "着手做某事"
+    },
+    {
+      "id": "phrasal-verb-285-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The second player began attacking the goalkeeper after the match.",
+      "promptZh": "第二名球員在比賽後開始攻擊守門員。",
+      "starter": "The",
+      "answer": "The second player started on the goalkeeper after the match.",
+      "answerZh": "第二名球員在比賽後開始攻擊守門員。",
+      "highlight": "started on",
+      "targetForm": "start on somebody/something",
+      "targetMeaningZh": "開始攻擊某人或某物"
+    },
+    {
+      "id": "phrasal-verb-285-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "If the picture is wrong, we can begin it again.",
+      "promptZh": "如果圖畫有錯,我們可以重新畫一次。",
+      "starter": "If",
+      "answer": "If the picture is wrong, we can start it over.",
+      "answerZh": "如果圖畫有錯,我們可以重新畫一次。",
+      "highlight": "start",
+      "targetForm": "start something over",
+      "targetMeaningZh": "把某事重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She will begin working on the bathroom after the kitchen is clean.",
+      "promptZh": "廚房清潔完畢後,她會開始處理浴室。",
+      "starter": "She",
+      "answer": "She will start on the bathroom after the kitchen is clean.",
+      "answerZh": "廚房清潔完畢後,她會開始處理浴室。",
+      "highlight": "start",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-285-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The lesson has begun with a short quiz.",
+      "promptZh": "課堂以一個小測驗開始。",
+      "starter": "The",
+      "answer": "The lesson has started off with a short quiz.",
+      "answerZh": "課堂以一個小測驗開始。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She has begun complaining about the noise again.",
+      "promptZh": "她又開始抱怨噪音了。",
+      "starter": "She",
+      "answer": "She has started on about the noise again.",
+      "answerZh": "她又開始抱怨噪音了。",
+      "highlight": "started on",
+      "targetForm": "start on about something",
+      "targetMeaningZh": "開始抱怨某事"
+    },
+    {
+      "id": "phrasal-verb-285-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Will you begin your journey to the station after lunch?",
+      "promptZh": "你會在午飯後啟程前往車站嗎?",
+      "starter": "Will",
+      "answer": "Will you start for the station after lunch?",
+      "answerZh": "你會在午飯後啟程前往車站嗎?",
+      "highlight": "start for",
+      "targetForm": "start for somewhere",
+      "targetMeaningZh": "出發前往某地"
+    },
+    {
+      "id": "phrasal-verb-285-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The engine began working the first time the driver turned the key.",
+      "promptZh": "司機第一次扭動鑰匙時,引擎便開始運作。",
+      "starter": "The",
+      "answer": "The engine started up the first time the driver turned the key.",
+      "answerZh": "司機第一次扭動鑰匙時,引擎便開始運作。",
+      "highlight": "started up",
+      "targetForm": "start up",
+      "targetMeaningZh": "開始運作"
+    },
+    {
+      "id": "phrasal-verb-285-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Can you help me begin with an easy question?",
+      "promptZh": "你可以用一道容易的問題幫我開始嗎?",
+      "starter": "Can",
+      "answer": "Can you start me off with an easy question?",
+      "answerZh": "你可以用一道容易的問題幫我開始嗎?",
+      "highlight": "start",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "What caused the argument to begin?",
+      "promptZh": "甚麼事情引起了這場爭論?",
+      "starter": "What",
+      "answer": "What started the argument off?",
+      "answerZh": "甚麼事情引起了這場爭論?",
+      "highlight": "started",
+      "targetForm": "start something off",
+      "targetMeaningZh": "引起某事"
+    },
+    {
+      "id": "phrasal-verb-285-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the bird begin attacking the cat?",
+      "promptZh": "那隻鳥為甚麼開始攻擊那隻貓?",
+      "starter": "Why",
+      "answer": "Why did the bird start on the cat?",
+      "answerZh": "那隻鳥為甚麼開始攻擊那隻貓?",
+      "highlight": "start on",
+      "targetForm": "start on somebody/something",
+      "targetMeaningZh": "開始攻擊某人或某物"
+    },
+    {
+      "id": "phrasal-verb-285-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Have you begun the book report yet?",
+      "promptZh": "你開始做讀書報告了嗎?",
+      "starter": "Have",
+      "answer": "Have you started on the book report yet?",
+      "answerZh": "你開始做讀書報告了嗎?",
+      "highlight": "started on",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-285-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please don’t begin criticising him about his clothes.",
+      "promptZh": "請不要開始批評他的衣着。",
+      "starter": "Please",
+      "answer": "Please don’t start in on him about his clothes.",
+      "answerZh": "請不要開始批評他的衣着。",
+      "highlight": "start in on",
+      "targetForm": "start in on somebody",
+      "targetMeaningZh": "開始責備某人"
+    },
+    {
+      "id": "phrasal-verb-285-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The recording was unclear, so the singer began the song again.",
+      "promptZh": "錄音不清楚,所以歌手把歌曲重新唱了一次。",
+      "starter": "The",
+      "answer": "The recording was unclear, so the singer started the song over.",
+      "answerZh": "錄音不清楚,所以歌手把歌曲重新唱了一次。",
+      "highlight": "started",
+      "targetForm": "start something over",
+      "targetMeaningZh": "把某事重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The teacher helped us begin by showing one simple model.",
+      "promptZh": "老師展示一個簡單示例,幫助我們開始。",
+      "starter": "The",
+      "answer": "The teacher started us off by showing one simple model.",
+      "answerZh": "老師展示一個簡單示例,幫助我們開始。",
+      "highlight": "started",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "After checking the map, they began their journey along the forest path.",
+      "promptZh": "查看地圖後,他們沿着森林小徑啟程。",
+      "starter": "After",
+      "answer": "After checking the map, they started out along the forest path.",
+      "answerZh": "查看地圖後,他們沿着森林小徑啟程。",
+      "highlight": "started out",
+      "targetForm": "start out",
+      "targetMeaningZh": "啟程"
+    },
+    {
+      "id": "phrasal-verb-285-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "As soon as I arrived, my aunt began criticising me for being late.",
+      "promptZh": "我一到達,姨姨便開始責備我遲到。",
+      "starter": "As",
+      "answer": "As soon as I arrived, my aunt started on at me about being late.",
+      "answerZh": "我一到達,姨姨便開始責備我遲到。",
+      "highlight": "started on at",
+      "targetForm": "start on at somebody",
+      "targetMeaningZh": "開始責備某人"
+    },
+    {
+      "id": "phrasal-verb-285-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The machine was silent, but Leo pressed one button and made it begin working.",
+      "promptZh": "機器原本沒有運作,但里奧按一下按鈕便把它啟動了。",
+      "starter": "The",
+      "answer": "The machine was silent, but Leo pressed one button and started it up.",
+      "answerZh": "機器原本沒有運作,但里奧按一下按鈕便把它啟動了。",
+      "highlight": "started",
+      "targetForm": "start something up",
+      "targetMeaningZh": "啟動某物"
+    },
+    {
+      "id": "phrasal-verb-285-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "When the first task was finished, the team began the next one.",
+      "promptZh": "完成第一項工作後,團隊開始處理下一項。",
+      "starter": "When",
+      "answer": "When the first task was finished, the team started on the next one.",
+      "answerZh": "完成第一項工作後,團隊開始處理下一項。",
+      "highlight": "started on",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-285-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Once everyone was ready, we began work without any further delay.",
+      "promptZh": "大家準備好後,我們沒有再耽誤,立即開始工作。",
+      "starter": "Once",
+      "answer": "Once everyone was ready, we started in without any further delay.",
+      "answerZh": "大家準備好後,我們沒有再耽誤,立即開始工作。",
+      "highlight": "started in",
+      "targetForm": "start in",
+      "targetMeaningZh": "立即着手"
+    },
+    {
+      "id": "phrasal-verb-285-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The host began the meeting with a quick introduction.",
+      "promptZh": "主持人以簡短介紹開始會議。",
+      "starter": "The",
+      "answer": "The host started the meeting off with a quick introduction.",
+      "answerZh": "主持人以簡短介紹開始會議。",
+      "highlight": "started",
+      "targetForm": "start something off",
+      "targetMeaningZh": "使某事開始"
+    },
+    {
+      "id": "phrasal-verb-285-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "He pushed me first and then began attacking my brother.",
+      "promptZh": "他先推我,然後開始攻擊我的弟弟。",
+      "starter": "He",
+      "answer": "He pushed me first and then started in on my brother.",
+      "answerZh": "他先推我,然後開始攻擊我的弟弟。",
+      "highlight": "started in on",
+      "targetForm": "start in on somebody",
+      "targetMeaningZh": "開始攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-285-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The interview began as a friendly chat before the questions became more serious.",
+      "promptZh": "訪問起初像一次友善交談,之後問題才變得較嚴肅。",
+      "starter": "The",
+      "answer": "The interview started off as a friendly chat before the questions became more serious.",
+      "answerZh": "訪問起初像一次友善交談,之後問題才變得較嚴肅。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The family had begun its journey to the airport before the rain started.",
+      "promptZh": "下雨前,那家人已啟程前往機場。",
+      "starter": "The",
+      "answer": "The family had started for the airport before the rain began.",
+      "answerZh": "下雨前,那家人已啟程前往機場。",
+      "highlight": "started for",
+      "targetForm": "start for somewhere",
+      "targetMeaningZh": "出發前往某地"
+    },
+    {
+      "id": "phrasal-verb-285-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did they begin again after finishing half the puzzle?",
+      "promptZh": "他們完成了一半拼圖後,為甚麼要重新開始?",
+      "starter": "Why",
+      "answer": "Why did they start over after finishing half the puzzle?",
+      "answerZh": "他們完成了一半拼圖後,為甚麼要重新開始?",
+      "highlight": "start over",
+      "targetForm": "start over",
+      "targetMeaningZh": "重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why don’t you begin working on the easy questions first?",
+      "promptZh": "你為甚麼不先開始做容易的問題?",
+      "starter": "Why",
+      "answer": "Why don’t you start in on the easy questions first?",
+      "answerZh": "你為甚麼不先開始做容易的問題?",
+      "highlight": "start in",
+      "targetForm": "start in on something",
+      "targetMeaningZh": "着手做某事"
+    },
+    {
+      "id": "phrasal-verb-285-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did the music begin playing again after midnight?",
+      "promptZh": "音樂為甚麼在午夜後再次響起?",
+      "starter": "Why",
+      "answer": "Why did the music start up again after midnight?",
+      "answerZh": "音樂為甚麼在午夜後再次響起?",
+      "highlight": "start up",
+      "targetForm": "start up",
+      "targetMeaningZh": "再次響起"
+    },
+    {
+      "id": "phrasal-verb-285-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The day began quietly but became much busier after lunch.",
+      "promptZh": "這一天開始時很平靜,但午飯後忙碌得多。",
+      "starter": "The",
+      "answer": "The day started off quietly but became much busier after lunch.",
+      "answerZh": "這一天開始時很平靜,但午飯後忙碌得多。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The crowd moved back when the two men began attacking each other.",
+      "promptZh": "兩名男子開始互相攻擊時,人群向後退開。",
+      "starter": "The",
+      "answer": "The crowd moved back when the two men started on each other.",
+      "answerZh": "兩名男子開始互相攻擊時,人群向後退開。",
+      "highlight": "started on",
+      "targetForm": "start on somebody/something",
+      "targetMeaningZh": "開始攻擊某人或某物"
+    },
+    {
+      "id": "phrasal-verb-285-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "One small mistake caused a long discussion to begin.",
+      "promptZh": "一個小錯誤引起了一場長時間的討論。",
+      "starter": "One",
+      "answer": "One small mistake started off a long discussion.",
+      "answerZh": "一個小錯誤引起了一場長時間的討論。",
+      "highlight": "started off",
+      "targetForm": "start something off",
+      "targetMeaningZh": "引起某事"
+    },
+    {
+      "id": "phrasal-verb-285-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We were about to begin our journey when the driver noticed a flat tyre.",
+      "promptZh": "我們正要啟程時,司機發現車胎漏氣。",
+      "starter": "We",
+      "answer": "We were about to start out when the driver noticed a flat tyre.",
+      "answerZh": "我們正要啟程時,司機發現車胎漏氣。",
+      "highlight": "start out",
+      "targetForm": "start out",
+      "targetMeaningZh": "啟程"
+    },
+    {
+      "id": "phrasal-verb-285-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "You can begin the easier questions while I explain the last part.",
+      "promptZh": "我解釋最後一部分時,你可以先做較容易的問題。",
+      "starter": "You",
+      "answer": "You can start on the easier questions while I explain the last part.",
+      "answerZh": "我解釋最後一部分時,你可以先做較容易的問題。",
+      "highlight": "start on",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-285-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Because the numbers did not match, the class began the calculation again.",
+      "promptZh": "由於數字不相符,全班重新計算。",
+      "starter": "Because",
+      "answer": "Because the numbers did not match, the class started the calculation over.",
+      "answerZh": "由於數字不相符,全班重新計算。",
+      "highlight": "started",
+      "targetForm": "start something over",
+      "targetMeaningZh": "把某事重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "This warm-up song helps the group begin with a simple rhythm.",
+      "promptZh": "這首熱身歌曲以簡單節奏幫助小組開始練習。",
+      "starter": "This",
+      "answer": "This warm-up song starts the group off with a simple rhythm.",
+      "answerZh": "這首熱身歌曲以簡單節奏幫助小組開始練習。",
+      "highlight": "starts",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The coach began criticising the team after another careless mistake.",
+      "promptZh": "球隊再次粗心犯錯後,教練開始責備他們。",
+      "starter": "The",
+      "answer": "The coach started in on the team after another careless mistake.",
+      "answerZh": "球隊再次粗心犯錯後,教練開始責備他們。",
+      "highlight": "started in on",
+      "targetForm": "start in on somebody",
+      "targetMeaningZh": "開始責備某人"
+    },
+    {
+      "id": "phrasal-verb-285-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The old machine began working after two failed tries.",
+      "promptZh": "嘗試兩次失敗後,舊機器終於開始運作。",
+      "starter": "The",
+      "answer": "The old machine started up after two failed tries.",
+      "answerZh": "嘗試兩次失敗後,舊機器終於開始運作。",
+      "highlight": "started up",
+      "targetForm": "start up",
+      "targetMeaningZh": "開始運作"
+    },
+    {
+      "id": "phrasal-verb-285-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Without waiting for help, the volunteers began work and sorted the boxes by size.",
+      "promptZh": "義工沒有等待協助,便開始工作,按大小整理箱子。",
+      "starter": "Without",
+      "answer": "Without waiting for help, the volunteers started in and sorted the boxes by size.",
+      "answerZh": "義工沒有等待協助,便開始工作,按大小整理箱子。",
+      "highlight": "started in",
+      "targetForm": "start in",
+      "targetMeaningZh": "立即着手"
+    },
+    {
+      "id": "phrasal-verb-285-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The school began the week with a sports day.",
+      "promptZh": "學校以運動日開始這個星期。",
+      "starter": "The",
+      "answer": "The school started the week off with a sports day.",
+      "answerZh": "學校以運動日開始這個星期。",
+      "highlight": "started",
+      "targetForm": "start something off",
+      "targetMeaningZh": "使某事開始"
+    },
+    {
+      "id": "phrasal-verb-285-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "How did the concert begin?",
+      "promptZh": "音樂會開始時的情況怎樣?",
+      "starter": "How",
+      "answer": "How did the concert start off?",
+      "answerZh": "音樂會開始時的情況怎樣?",
+      "highlight": "start off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The team had already begun the decorations before we arrived.",
+      "promptZh": "我們到達前,團隊已開始處理裝飾。",
+      "starter": "The",
+      "answer": "The team had already started on the decorations before we arrived.",
+      "answerZh": "我們到達前,團隊已開始處理裝飾。",
+      "highlight": "started on",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-285-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Who helped him begin learning the piano when he was young?",
+      "promptZh": "他小時候是誰幫助他開始學鋼琴的?",
+      "starter": "Who",
+      "answer": "Who started him off on piano when he was young?",
+      "answerZh": "他小時候是誰幫助他開始學鋼琴的?",
+      "highlight": "started",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the guard tried to stop the fight, one man began attacking the other again.",
+      "promptZh": "雖然保安員嘗試制止打鬥,其中一名男子仍再次攻擊另一人。",
+      "starter": "Although",
+      "answer": "Although the guard tried to stop the fight, one man started in on the other again.",
+      "answerZh": "雖然保安員嘗試制止打鬥,其中一名男子仍再次攻擊另一人。",
+      "highlight": "started in on",
+      "targetForm": "start in on somebody",
+      "targetMeaningZh": "開始攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-285-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the first few minutes were confusing, the film began with a funny scene that relaxed everyone.",
+      "promptZh": "雖然最初幾分鐘令人困惑,電影以一個令大家放鬆的有趣場面開始。",
+      "starter": "Although",
+      "answer": "Although the first few minutes were confusing, the film started off with a funny scene that relaxed everyone.",
+      "answerZh": "雖然最初幾分鐘令人困惑,電影以一個令大家放鬆的有趣場面開始。",
+      "highlight": "started off",
+      "targetForm": "start off",
+      "targetMeaningZh": "以某種方式開始"
+    },
+    {
+      "id": "phrasal-verb-285-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After deleting the wrong file, I had no choice but to begin the whole project again.",
+      "promptZh": "刪除錯誤檔案後,我別無選擇,只能把整個項目重新開始。",
+      "starter": "After",
+      "answer": "After deleting the wrong file, I had no choice but to start the whole project over.",
+      "answerZh": "刪除錯誤檔案後,我別無選擇,只能把整個項目重新開始。",
+      "highlight": "start",
+      "targetForm": "start something over",
+      "targetMeaningZh": "把某事重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "To help everyone feel comfortable, the organiser began the workshop with a simple game.",
+      "promptZh": "為了讓大家感到自在,主辦人以一個簡單遊戲開始工作坊。",
+      "starter": "To",
+      "answer": "To help everyone feel comfortable, the organiser started off the workshop with a simple game.",
+      "answerZh": "為了讓大家感到自在,主辦人以一個簡單遊戲開始工作坊。",
+      "highlight": "started off",
+      "targetForm": "start something off",
+      "targetMeaningZh": "使某事開始"
+    },
+    {
+      "id": "phrasal-verb-285-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before anyone could explain, the manager began criticising us about the untidy desks.",
+      "promptZh": "任何人還未來得及解釋,經理便開始因桌面不整潔而責備我們。",
+      "starter": "Before",
+      "answer": "Before anyone could explain, the manager started on at us about the untidy desks.",
+      "answerZh": "任何人還未來得及解釋,經理便開始因桌面不整潔而責備我們。",
+      "highlight": "started on at",
+      "targetForm": "start on at somebody",
+      "targetMeaningZh": "開始責備某人"
+    },
+    {
+      "id": "phrasal-verb-285-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although it was still dark, the rescue team began its journey to the village as soon as the road opened.",
+      "promptZh": "雖然天仍未亮,救援隊在道路重開後便立即啟程前往村莊。",
+      "starter": "Although",
+      "answer": "Although it was still dark, the rescue team started for the village as soon as the road opened.",
+      "answerZh": "雖然天仍未亮,救援隊在道路重開後便立即啟程前往村莊。",
+      "highlight": "started for",
+      "targetForm": "start for somewhere",
+      "targetMeaningZh": "出發前往某地"
+    },
+    {
+      "id": "phrasal-verb-285-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Once the lights were working, the band began playing the music again and the dancers returned.",
+      "promptZh": "燈光恢復後,樂隊再次播放音樂,舞蹈員亦回到場上。",
+      "starter": "Once",
+      "answer": "Once the lights were working, the band started the music up again and the dancers returned.",
+      "answerZh": "燈光恢復後,樂隊再次播放音樂,舞蹈員亦回到場上。",
+      "highlight": "started",
+      "targetForm": "start something up",
+      "targetMeaningZh": "使某事再次開始"
+    },
+    {
+      "id": "phrasal-verb-285-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Because the new student was unsure what to do, the coach helped her begin with two very easy steps.",
+      "promptZh": "由於新學生不知道該怎樣做,教練先用兩個非常容易的步驟幫助她開始。",
+      "starter": "Because",
+      "answer": "Because the new student was unsure what to do, the coach started her off with two very easy steps.",
+      "answerZh": "由於新學生不知道該怎樣做,教練先用兩個非常容易的步驟幫助她開始。",
+      "highlight": "started",
+      "targetForm": "start somebody off",
+      "targetMeaningZh": "幫助某人開始"
+    },
+    {
+      "id": "phrasal-verb-285-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Since the front room was ready, they began working on the kitchen instead of taking a break.",
+      "promptZh": "由於前面的房間已準備好,他們沒有休息,而是開始處理廚房。",
+      "starter": "Since",
+      "answer": "Since the front room was ready, they started on the kitchen instead of taking a break.",
+      "answerZh": "由於前面的房間已準備好,他們沒有休息,而是開始處理廚房。",
+      "highlight": "started",
+      "targetForm": "start on something",
+      "targetMeaningZh": "開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-285-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "As soon as the doors opened, the team began working and prepared the hall for the guests.",
+      "promptZh": "門一打開,團隊便開始工作,為賓客準備大堂。",
+      "starter": "As",
+      "answer": "As soon as the doors opened, the team started in and prepared the hall for the guests.",
+      "answerZh": "門一打開,團隊便開始工作,為賓客準備大堂。",
+      "highlight": "started in",
+      "targetForm": "start in",
+      "targetMeaningZh": "立即着手"
+    },
+    {
+      "id": "phrasal-verb-285-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although we were nearly finished, one serious mistake forced us to begin again.",
+      "promptZh": "雖然我們差不多完成,但一個嚴重錯誤迫使我們重新開始。",
+      "starter": "Although",
+      "answer": "Although we were nearly finished, one serious mistake forced us to start over.",
+      "answerZh": "雖然我們差不多完成,但一個嚴重錯誤迫使我們重新開始。",
+      "highlight": "start over",
+      "targetForm": "start over",
+      "targetMeaningZh": "重新開始"
+    },
+    {
+      "id": "phrasal-verb-285-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The dog had never attacked anyone before, but it suddenly began attacking a cyclist near the park.",
+      "promptZh": "那隻狗以前從未攻擊任何人,但它突然開始攻擊公園附近的一名單車手。",
+      "starter": "The",
+      "answer": "The dog had never attacked anyone before, but it suddenly started on a cyclist near the park.",
+      "answerZh": "那隻狗以前從未攻擊任何人,但它突然開始攻擊公園附近的一名單車手。",
+      "highlight": "started on",
+      "targetForm": "start on somebody/something",
+      "targetMeaningZh": "開始攻擊某人或某物"
+    },
+    {
+      "id": "phrasal-verb-285-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The old engine did not work at first, but it finally began working on the third try.",
+      "promptZh": "舊引擎起初沒有運作,但第三次嘗試時終於成功啟動。",
+      "starter": "The",
+      "answer": "The old engine did not work at first, but it finally started up on the third try.",
+      "answerZh": "舊引擎起初沒有運作,但第三次嘗試時終於成功啟動。",
+      "highlight": "started up",
+      "targetForm": "start up",
+      "targetMeaningZh": "開始運作"
+    },
+    {
+      "id": "phrasal-verb-285-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "He had promised not to complain, but he soon began complaining about the cost again.",
+      "promptZh": "他曾答應不再抱怨,但很快又開始抱怨費用。",
+      "starter": "He",
+      "answer": "He had promised not to complain, but he soon started on about the cost again.",
+      "answerZh": "他曾答應不再抱怨,但很快又開始抱怨費用。",
+      "highlight": "started on",
+      "targetForm": "start on about something",
+      "targetMeaningZh": "開始抱怨某事"
+    }
+  ]
+}

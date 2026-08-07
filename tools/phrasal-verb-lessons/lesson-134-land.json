@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-134",
+  "order": 134,
+  "slug": "land",
+  "version": "1",
+  "title": "LAND 動詞片語",
+  "titleEn": "Land",
+  "titleZh": "LAND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 133 - LAND.pdf",
+    "sourceNumber": 133,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LAND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LAND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LAND",
+      "highlight": "LAND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A careless decision could land you in serious trouble.",
+      "zh": "一次不小心的決定可能會令你陷入大麻煩。",
+      "highlight": "land you in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The last-minute change landed us with extra work.",
+      "zh": "這項臨時改動令我們不得不處理額外工作。",
+      "highlight": "landed us with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We took the wrong bus and landed up at the airport.",
+      "zh": "我們乘錯巴士,最後誤去了機場。",
+      "highlight": "landed up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境；把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理；最後去到或身處某個地方,通常並非原先計劃",
+    "en": "land in something / land somebody or yourself in something; land somebody or yourself with somebody or something / land somebody or yourself with doing something; land up",
+    "naturalZh": [
+      "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+      "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+      "最後去到或身處某個地方,通常並非原先計劃"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "land in something / land somebody or yourself in something",
+      "titleZh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+      "titleEn": "land in something / land somebody or yourself in something",
+      "descriptionZh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+      "descriptionEn": "A careless decision could land you in serious trouble.",
+      "examples": [
+        {
+          "en": "A careless decision could land you in serious trouble.",
+          "zh": "一次不小心的決定可能會令你陷入大麻煩。",
+          "highlight": "land you in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "titleZh": "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+      "titleEn": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "descriptionZh": "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+      "descriptionEn": "The last-minute change landed us with extra work.",
+      "examples": [
+        {
+          "en": "The last-minute change landed us with extra work.",
+          "zh": "這項臨時改動令我們不得不處理額外工作。",
+          "highlight": "landed us with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "land up",
+      "titleZh": "最後去到或身處某個地方,通常並非原先計劃",
+      "titleEn": "land up",
+      "descriptionZh": "最後去到或身處某個地方,通常並非原先計劃",
+      "descriptionEn": "We took the wrong bus and landed up at the airport.",
+      "examples": [
+        {
+          "en": "We took the wrong bus and landed up at the airport.",
+          "zh": "我們乘錯巴士,最後誤去了機場。",
+          "highlight": "landed up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LAND 片語動詞的實際用途",
+    "labelEn": "LAND Phrasal Verbs in Use",
+    "summaryZh": "land in 可以清楚表示某個行為令人陷入麻煩、債務、困境,甚至要上法庭。；land somebody with something 可以描述某人被迫處理麻煩工作、費用或責任的情況。；land up 適合描述一段旅程或一連串事件最後在並非原先計劃的地方結束。；這些 LAND 表達常見於日常對話、故事、旅遊情境和生活問題之中。",
+    "summaryEn": "Land in can clearly show that an action causes trouble, debt, a difficult situation or even a court case. Land somebody with something helps you describe situations in which a person is left with an unpleasant job, bill or responsibility. Land up is useful when a journey or series of events finishes somewhere that was not originally planned. These LAND expressions often appear in conversations, stories, travel situations and descriptions of everyday problems.",
+    "contextsZh": [
+      "清楚描述錯誤和大意行為的後果",
+      "說明某人如何被迫接下不想要的工作",
+      "描述意料之外的目的地和結果",
+      "理解自然的英式英語"
+    ],
+    "contextsEn": [
+      "Talk about the results of mistakes and careless actions",
+      "Explain how somebody receives an unwanted task",
+      "Describe unexpected destinations and endings",
+      "Understand natural British English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LAND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LAND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "land in something / land somebody or yourself in something",
+    "fixedHighlight": "land in something / land somebody or yourself in something",
+    "fixedZh": "閱讀整句,選出意思相同的 LAND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LAND expression that gives the same meaning.",
+    "correct": "land you in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；land in something 通常表示陷入麻煩或困難處境;land up 通常表示某人最後意外去到或身處某個地方。；請仔細留意以上例子中人物、with 和工作或事物的位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Land in something usually describes trouble or another difficult result. Land up usually describes where somebody finally arrives or finds themselves, often unexpectedly. Study these examples carefully: landed Ben with the bill landed herself with washing the dishes",
+    "variableItemsZh": [
+      "land in something / land somebody or yourself in something",
+      "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "land up"
+    ],
+    "variableItemsEn": [
+      "land in something / land somebody or yourself in something",
+      "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "land up"
+    ],
+    "forms": [
+      {
+        "formZh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+        "formEn": "land in something / land somebody or yourself in something",
+        "exampleZh": "一次不小心的決定可能會令你陷入大麻煩。",
+        "exampleEn": "A careless decision could land you in serious trouble.",
+        "highlight": "land you in"
+      },
+      {
+        "formZh": "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+        "formEn": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+        "exampleZh": "這項臨時改動令我們不得不處理額外工作。",
+        "exampleEn": "The last-minute change landed us with extra work.",
+        "highlight": "landed us with"
+      },
+      {
+        "formZh": "最後去到或身處某個地方,通常並非原先計劃",
+        "formEn": "land up",
+        "exampleZh": "我們乘錯巴士,最後誤去了機場。",
+        "exampleEn": "We took the wrong bus and landed up at the airport.",
+        "highlight": "landed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+      "titleEn": "land in something / land somebody or yourself in something",
+      "formula": "land in something / land somebody or yourself in something",
+      "highlight": "land in something / land somebody or yourself in something",
+      "descriptionZh": "陷入麻煩、危險或其他不利處境;令某人或自己陷入這種處境",
+      "descriptionEn": "A careless decision could land you in serious trouble.",
+      "examples": [
+        {
+          "en": "A careless decision could land you in serious trouble.",
+          "zh": "一次不小心的決定可能會令你陷入大麻煩。",
+          "highlight": "land you in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+      "titleEn": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "formula": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "highlight": "land somebody or yourself with somebody or something / land somebody or yourself with doing something",
+      "descriptionZh": "把不受歡迎的人、工作、費用或責任交給某人;令某人或自己不得不處理",
+      "descriptionEn": "The last-minute change landed us with extra work.",
+      "examples": [
+        {
+          "en": "The last-minute change landed us with extra work.",
+          "zh": "這項臨時改動令我們不得不處理額外工作。",
+          "highlight": "landed us with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "最後去到或身處某個地方,通常並非原先計劃",
+      "titleEn": "land up",
+      "formula": "land up",
+      "highlight": "land up",
+      "descriptionZh": "最後去到或身處某個地方,通常並非原先計劃",
+      "descriptionEn": "We took the wrong bus and landed up at the airport.",
+      "examples": [
+        {
+          "en": "We took the wrong bus and landed up at the airport.",
+          "zh": "我們乘錯巴士,最後誤去了機場。",
+          "highlight": "landed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述錯誤和大意行為的後果",
+      "titleEn": "Talk about the results of mistakes and careless actions",
+      "zh": "land in 可以清楚表示某個行為令人陷入麻煩、債務、困境,甚至要上法庭。",
+      "en": "Land in can clearly show that an action causes trouble, debt, a difficult situation or even a court case."
+    },
+    {
+      "titleZh": "說明某人如何被迫接下不想要的工作",
+      "titleEn": "Explain how somebody receives an unwanted task",
+      "zh": "land somebody with something 可以描述某人被迫處理麻煩工作、費用或責任的情況。",
+      "en": "Land somebody with something helps you describe situations in which a person is left with an unpleasant job, bill or responsibility."
+    },
+    {
+      "titleZh": "描述意料之外的目的地和結果",
+      "titleEn": "Describe unexpected destinations and endings",
+      "zh": "land up 適合描述一段旅程或一連串事件最後在並非原先計劃的地方結束。",
+      "en": "Land up is useful when a journey or series of events finishes somewhere that was not originally planned."
+    },
+    {
+      "titleZh": "理解自然的英式英語",
+      "titleEn": "Understand natural British English",
+      "zh": "這些 LAND 表達常見於日常對話、故事、旅遊情境和生活問題之中。",
+      "en": "These LAND expressions often appear in conversations, stories, travel situations and descriptions of everyday problems."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述錯誤和大意行為的後果",
+      "說明某人如何被迫接下不想要的工作",
+      "描述意料之外的目的地和結果",
+      "理解自然的英式英語"
+    ],
+    "contextsEn": [
+      "Talk about the results of mistakes and careless actions",
+      "Explain how somebody receives an unwanted task",
+      "Describe unexpected destinations and endings",
+      "Understand natural British English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述錯誤和大意行為的後果",
+        "titleEn": "Talk about the results of mistakes and careless actions",
+        "zh": "land in 可以清楚表示某個行為令人陷入麻煩、債務、困境,甚至要上法庭。",
+        "en": "Land in can clearly show that an action causes trouble, debt, a difficult situation or even a court case.",
+        "examples": [
+          {
+            "en": "A careless decision could land you in serious trouble.",
+            "zh": "一次不小心的決定可能會令你陷入大麻煩。",
+            "highlight": "land you in"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某人如何被迫接下不想要的工作",
+        "titleEn": "Explain how somebody receives an unwanted task",
+        "zh": "land somebody with something 可以描述某人被迫處理麻煩工作、費用或責任的情況。",
+        "en": "Land somebody with something helps you describe situations in which a person is left with an unpleasant job, bill or responsibility.",
+        "examples": [
+          {
+            "en": "The last-minute change landed us with extra work.",
+            "zh": "這項臨時改動令我們不得不處理額外工作。",
+            "highlight": "landed us with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述意料之外的目的地和結果",
+        "titleEn": "Describe unexpected destinations and endings",
+        "zh": "land up 適合描述一段旅程或一連串事件最後在並非原先計劃的地方結束。",
+        "en": "Land up is useful when a journey or series of events finishes somewhere that was not originally planned.",
+        "examples": [
+          {
+            "en": "We took the wrong bus and landed up at the airport.",
+            "zh": "我們乘錯巴士,最後誤去了機場。",
+            "highlight": "landed up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解自然的英式英語",
+        "titleEn": "Understand natural British English",
+        "zh": "這些 LAND 表達常見於日常對話、故事、旅遊情境和生活問題之中。",
+        "en": "These LAND expressions often appear in conversations, stories, travel situations and descriptions of everyday problems.",
+        "examples": [
+          {
+            "en": "A careless decision could land you in serious trouble.",
+            "zh": "一次不小心的決定可能會令你陷入大麻煩。",
+            "highlight": "land you in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LAND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LAND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LAND 片語動詞。",
+      "en": "Read the whole sentence and choose the LAND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "land in something 通常表示陷入麻煩或困難處境;land up 通常表示某人最後意外去到或身處某個地方。",
+      "titleEn": "Land in something usually describes trouble or another difficult result.",
+      "zh": "land in something 通常表示陷入麻煩或困難處境;land up 通常表示某人最後意外去到或身處某個地方。",
+      "en": "Land in something usually describes trouble or another difficult result. Land up usually describes where somebody finally arrives or finds themselves, often unexpectedly."
+    },
+    {
+      "titleZh": "請仔細留意以上例子中人物、with 和工作或事物的位置。",
+      "titleEn": "Study these examples carefully: landed Ben with the bill landed herself with washing the dishes.",
+      "zh": "請仔細留意以上例子中人物、with 和工作或事物的位置。",
+      "en": "Study these examples carefully: landed Ben with the bill landed herself with washing the dishes"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LAND 動詞片語句子改寫練習",
+    "titleEn": "LAND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LAND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LAND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-134-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ben was in trouble at school because of one careless message.",
+      "promptZh": "賓因為一則不小心發出的訊息而在學校惹上麻煩。",
+      "starter": "Ben",
+      "answer": "Ben landed in trouble at school because of one careless message.",
+      "answerZh": "賓因為一則不小心發出的訊息而在學校惹上麻煩。",
+      "highlight": "landed",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The late change left us with extra work to do.",
+      "promptZh": "這項臨時改動令我們要處理額外工作。",
+      "starter": "The",
+      "answer": "The late change landed us with extra work.",
+      "answerZh": "這項臨時改動令我們不得不處理額外工作。",
+      "highlight": "landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人不得不處理某事物"
+    },
+    {
+      "id": "phrasal-verb-134-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We took the wrong bus and finally arrived at the airport by mistake.",
+      "promptZh": "我們乘錯巴士,最後誤去了機場。",
+      "starter": "We",
+      "answer": "We took the wrong bus and landed up at the airport.",
+      "answerZh": "我們乘錯巴士,最後誤去了機場。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Cara got herself into trouble by copying a classmate’s work.",
+      "promptZh": "卡拉抄襲同學的功課,令自己惹上麻煩。",
+      "starter": "Cara",
+      "answer": "Cara landed herself in trouble by copying a classmate’s work.",
+      "answerZh": "卡拉抄襲同學的功課,令自己惹上麻煩。",
+      "highlight": "landed",
+      "targetForm": "land yourself in something",
+      "targetMeaningZh": "令自己陷入麻煩或困境"
+    },
+    {
+      "id": "phrasal-verb-134-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The organiser made Sam do the last cleaning job.",
+      "promptZh": "主辦人叫森負責最後一項清潔工作。",
+      "starter": "The",
+      "answer": "The organiser landed Sam with the last cleaning job.",
+      "answerZh": "主辦人把最後一項清潔工作交給了森。",
+      "highlight": "landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "把不受歡迎的工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-134-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After missing our stop, we finally arrived in a quiet village.",
+      "promptZh": "我們錯過下車站後,最後去到一條寧靜的小村莊。",
+      "starter": "After",
+      "answer": "After missing our stop, we landed up in a quiet village.",
+      "answerZh": "我們錯過下車站後,最後去到一條寧靜的小村莊。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A false story could put the group in serious trouble.",
+      "promptZh": "一個虛假說法可能會令這個小組惹上大麻煩。",
+      "starter": "The",
+      "answer": "The group could land in serious trouble because of a false story.",
+      "answerZh": "這個小組可能會因為一個虛假說法而惹上大麻煩。",
+      "highlight": "The group could land in serious trouble because of",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I gave myself the job of washing all the dishes.",
+      "promptZh": "我把清洗所有碗碟的工作交給了自己。",
+      "starter": "I",
+      "answer": "I landed myself with all the washing-up.",
+      "answerZh": "我令自己要負責清洗所有碗碟。",
+      "highlight": "landed",
+      "targetForm": "land yourself with something",
+      "targetMeaningZh": "令自己不得不處理某事物"
+    },
+    {
+      "id": "phrasal-verb-134-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The lost walkers finally arrived at a small farm.",
+      "promptZh": "迷路的步行者最後去到一個小農場。",
+      "starter": "The",
+      "answer": "The lost walkers landed up at a small farm.",
+      "answerZh": "迷路的步行者最後去到一個小農場。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Because of the broken window, Jack had to go to the head teacher’s office.",
+      "promptZh": "傑克因為打破窗戶而要到校長室。",
+      "starter": "The",
+      "answer": "The broken window landed Jack in the head teacher’s office.",
+      "answerZh": "打破窗戶一事令傑克要到校長室。",
+      "highlight": "landed",
+      "targetForm": "land somebody in something",
+      "targetMeaningZh": "令某人陷入不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The new work schedule has left Priya with the Saturday shift every week.",
+      "promptZh": "新的工作時間表令普里雅每個星期六都要上班。",
+      "starter": "The",
+      "answer": "The new work schedule has landed Priya with the Saturday shift every week.",
+      "answerZh": "新的工作時間表令普里雅每個星期六都要上班。",
+      "highlight": "landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人接下不想要的工作"
+    },
+    {
+      "id": "phrasal-verb-134-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "If we follow this road, we may finally arrive at the old bridge by mistake.",
+      "promptZh": "如果我們沿着這條路走,最後可能會誤去舊橋。",
+      "starter": "If",
+      "answer": "If we follow this road, we may land up at the old bridge.",
+      "answerZh": "如果我們沿着這條路走,最後可能會誤去舊橋。",
+      "highlight": "land up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "His careless jokes keep causing trouble for him.",
+      "promptZh": "他那些不小心的笑話不斷令自己惹上麻煩。",
+      "starter": "His",
+      "answer": "His careless jokes keep landing him in trouble.",
+      "answerZh": "他那些不小心的笑話不斷令他惹上麻煩。",
+      "highlight": "landing him in",
+      "targetForm": "land somebody in something",
+      "targetMeaningZh": "令某人陷入麻煩"
+    },
+    {
+      "id": "phrasal-verb-134-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did you make me carry all the shopping bags?",
+      "promptZh": "你為甚麼要我拿着所有購物袋?",
+      "starter": "Why",
+      "answer": "Why did you land me with all the shopping bags?",
+      "answerZh": "你為甚麼把所有購物袋都交給我拿?",
+      "highlight": "land",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "把不想要的工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-134-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nora did not expect to find herself in a room above the café at the end of the day.",
+      "promptZh": "諾拉沒有預料到自己最後會身處咖啡店樓上的房間。",
+      "starter": "Nora",
+      "answer": "Nora did not expect to land up in a room above the café.",
+      "answerZh": "諾拉沒有預料到自己最後會身處咖啡店樓上的房間。",
+      "highlight": "land up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外身處某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "He may be in debt after one more late payment.",
+      "promptZh": "再遲交一次款項後,他可能會負債。",
+      "starter": "He",
+      "answer": "He may land in debt after one more late payment.",
+      "answerZh": "再遲交一次款項後,他可能會負債。",
+      "highlight": "land",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We were made responsible for the cost of the broken chair.",
+      "promptZh": "我們被迫承擔損壞椅子的費用。",
+      "starter": "We",
+      "answer": "We were landed with the cost of the broken chair.",
+      "answerZh": "我們被迫承擔損壞椅子的費用。",
+      "highlight": "were landed with",
+      "targetForm": "be landed with something",
+      "targetMeaningZh": "被迫承擔某事物"
+    },
+    {
+      "id": "phrasal-verb-134-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Where will we finally arrive if we stay on this road?",
+      "promptZh": "如果我們繼續沿着這條路走,最後會去到哪裏?",
+      "starter": "Where",
+      "answer": "Where will we land up if we stay on this road?",
+      "answerZh": "如果我們繼續沿着這條路走,最後會去到哪裏?",
+      "highlight": "land up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The boys are now in a difficult situation because of their own actions.",
+      "promptZh": "那些男孩因為自己的行為而陷入困境。",
+      "starter": "The",
+      "answer": "The boys have landed in a difficult situation because of their own actions.",
+      "answerZh": "那些男孩因為自己的行為而陷入困境。",
+      "highlight": "have landed",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入困難處境"
+    },
+    {
+      "id": "phrasal-verb-134-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The repeated changes are giving the team more work each day.",
+      "promptZh": "這些一再出現的改動每天都令團隊增加工作。",
+      "starter": "The",
+      "answer": "The repeated changes are landing the team with more work each day.",
+      "answerZh": "這些一再出現的改動每天都令團隊增加工作。",
+      "highlight": "landing",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人不得不處理更多工作"
+    },
+    {
+      "id": "phrasal-verb-134-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have followed the map carefully, yet we have finally arrived on the wrong beach.",
+      "promptZh": "我們一直仔細按照地圖前進,最後卻去了錯誤的海灘。",
+      "starter": "We",
+      "answer": "We have followed the map carefully, yet we have landed up on the wrong beach.",
+      "answerZh": "我們一直仔細按照地圖前進,最後卻去了錯誤的海灘。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Because the form was missing, she had to attend a long meeting with the manager.",
+      "promptZh": "由於表格不見了,她要與經理開一個很長的會議。",
+      "starter": "The",
+      "answer": "The missing form landed her in a long meeting with the manager.",
+      "answerZh": "不見了的表格令她要與經理開一個很長的會議。",
+      "highlight": "missing",
+      "targetForm": "land somebody in something",
+      "targetMeaningZh": "令某人陷入不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The team had no volunteer, so the coach made Leo lead the warm-up.",
+      "promptZh": "球隊沒有自願者,所以教練叫里奧帶領熱身。",
+      "starter": "The",
+      "answer": "The team had no volunteer, so the coach landed Leo with leading the warm-up.",
+      "answerZh": "球隊沒有自願者,所以教練把帶領熱身的工作交給了里奧。",
+      "highlight": "landed",
+      "targetForm": "land somebody with doing something",
+      "targetMeaningZh": "令某人不得不做某事"
+    },
+    {
+      "id": "phrasal-verb-134-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "They missed the last train and finally found themselves at a taxi rank on the other side of town.",
+      "promptZh": "他們錯過了尾班車,最後去了城鎮另一邊的的士站。",
+      "starter": "They",
+      "answer": "They missed the last train and landed up at a taxi rank on the other side of town.",
+      "answerZh": "他們錯過了尾班車,最後去了城鎮另一邊的的士站。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "If you ignore the warning, you could put yourself in hospital.",
+      "promptZh": "如果你不理會警告,你可能會令自己入院。",
+      "starter": "If",
+      "answer": "If you ignore the warning, you could land yourself in hospital.",
+      "answerZh": "如果你不理會警告,你可能會令自己入院。",
+      "highlight": "land",
+      "targetForm": "land yourself in something",
+      "targetMeaningZh": "令自己陷入不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The printer broke, so we had hundreds of labels to write by hand.",
+      "promptZh": "打印機壞了,所以我們有數百張標籤要用手寫。",
+      "starter": "The",
+      "answer": "The printer broke, and that landed us with hundreds of labels to write by hand.",
+      "answerZh": "打印機壞了,令我們要用手寫數百張標籤。",
+      "highlight": "and that landed us with",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人接下大量工作"
+    },
+    {
+      "id": "phrasal-verb-134-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After three wrong turns, we finally stopped outside our old school.",
+      "promptZh": "轉錯三次彎後,我們最後停在以前的學校外面。",
+      "starter": "After",
+      "answer": "After three wrong turns, we landed up outside our old school.",
+      "answerZh": "轉錯三次彎後,我們最後去了以前的學校外面。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I was in trouble with my parents after sharing the photo.",
+      "promptZh": "我分享那張照片後,便惹父母生氣,令自己陷入麻煩。",
+      "starter": "I",
+      "answer": "I landed in trouble with my parents after sharing the photo.",
+      "answerZh": "我分享那張照片後,便惹父母生氣,令自己陷入麻煩。",
+      "highlight": "landed",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The hotel gave us the smallest room and left us with a noisy neighbour.",
+      "promptZh": "酒店給了我們最小的房間,還令我們要住在一名嘈吵的鄰居旁邊。",
+      "starter": "The",
+      "answer": "The hotel gave us the smallest room and landed us with a noisy neighbour.",
+      "answerZh": "酒店給了我們最小的房間,還令我們要住在一名嘈吵的鄰居旁邊。",
+      "highlight": "landed",
+      "targetForm": "land somebody with somebody",
+      "targetMeaningZh": "令某人不得不面對某人"
+    },
+    {
+      "id": "phrasal-verb-134-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Ravi has followed the safe-looking path, yet he has finally arrived at a locked gate.",
+      "promptZh": "拉維沿着看似安全的小路前進,最後卻去到一道上鎖的閘門前。",
+      "starter": "Ravi",
+      "answer": "Ravi has followed the safe-looking path, yet he has landed up at a locked gate.",
+      "answerZh": "拉維沿着看似安全的小路前進,最後卻去到一道上鎖的閘門前。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The missing receipt could cause trouble for the shop assistant.",
+      "promptZh": "不見了的收據可能會令店員惹上麻煩。",
+      "starter": "The",
+      "answer": "The shop assistant could land in trouble because of the missing receipt.",
+      "answerZh": "店員可能會因為不見了的收據而惹上麻煩。",
+      "highlight": "The shop assistant could land in trouble because of",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We wanted to reach the museum, but we finally arrived in a busy market instead.",
+      "promptZh": "我們本來想去博物館,最後卻去了繁忙的市場。",
+      "starter": "We",
+      "answer": "We wanted to reach the museum, but we landed up in a busy market instead.",
+      "answerZh": "我們本來想去博物館,最後卻去了繁忙的市場。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Everyone left early, so I had the job of closing the hall alone.",
+      "promptZh": "所有人都提早離開,所以我要獨自負責關閉禮堂。",
+      "starter": "Everyone",
+      "answer": "Everyone left early and landed me with the job of closing the hall alone.",
+      "answerZh": "所有人都提早離開,把獨自關閉禮堂的工作交給了我。",
+      "highlight": "and landed me with",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "把不受歡迎的工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-134-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Owen had to go to court because he took a shortcut through private land.",
+      "promptZh": "歐文穿過私人土地抄捷徑,因此要上法庭。",
+      "starter": "Owen",
+      "answer": "Owen landed himself in court by taking a shortcut through private land.",
+      "answerZh": "歐文穿過私人土地抄捷徑,令自己要上法庭。",
+      "highlight": "landed himself in",
+      "targetForm": "land yourself in something",
+      "targetMeaningZh": "令自己陷入麻煩或法律問題"
+    },
+    {
+      "id": "phrasal-verb-134-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The storm changed our route, and we finally arrived at a small hotel near the coast.",
+      "promptZh": "暴風雨令我們改變路線,最後去到海岸附近的一間小酒店。",
+      "starter": "The",
+      "answer": "The storm changed our route, and we landed up in a small hotel near the coast.",
+      "answerZh": "暴風雨令我們改變路線,最後去到海岸附近的一間小酒店。",
+      "highlight": "landed up in",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "We chose the cheapest plan and were left with a very slow website.",
+      "promptZh": "我們選擇了最便宜的計劃,結果得到一個運作非常緩慢的網站。",
+      "starter": "We",
+      "answer": "We chose the cheapest plan and landed ourselves with a very slow website.",
+      "answerZh": "我們選擇了最便宜的計劃,結果令自己得到一個運作非常緩慢的網站。",
+      "highlight": "landed ourselves",
+      "targetForm": "land yourself with something",
+      "targetMeaningZh": "令自己不得不接受某事物"
+    },
+    {
+      "id": "phrasal-verb-134-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Her joke did not cause trouble for her, but the rude message did.",
+      "promptZh": "她的笑話沒有令她惹上麻煩,但那則無禮的訊息卻令她惹上麻煩。",
+      "starter": "Her",
+      "answer": "Her joke did not land her in trouble, but the rude message did.",
+      "answerZh": "她的笑話沒有令她惹上麻煩,但那則無禮的訊息卻令她惹上麻煩。",
+      "highlight": "land her in",
+      "targetForm": "land somebody in something",
+      "targetMeaningZh": "令某人陷入麻煩"
+    },
+    {
+      "id": "phrasal-verb-134-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "No one knew how the cat had finally reached the roof.",
+      "promptZh": "沒有人知道那隻貓最後如何走到屋頂上。",
+      "starter": "No",
+      "answer": "No one knew how the cat had landed up on the roof.",
+      "answerZh": "沒有人知道那隻貓最後如何走到屋頂上。",
+      "highlight": "landed up on",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外身處某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The manager promised help but made the new worker do the whole evening shift.",
+      "promptZh": "經理答應提供協助,卻叫新員工負責整個晚班。",
+      "starter": "The",
+      "answer": "The manager promised help but landed the new worker with the whole evening shift.",
+      "answerZh": "經理答應提供協助,卻把整個晚班交給了新員工。",
+      "highlight": "landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "把不想要的工作交給某人"
+    },
+    {
+      "id": "phrasal-verb-134-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Their plan to hide the damage caused an even worse situation for them.",
+      "promptZh": "他們企圖隱瞞損毀,結果令自己陷入更差的處境。",
+      "starter": "Their",
+      "answer": "Their plan to hide the damage landed them in an even worse situation.",
+      "answerZh": "他們企圖隱瞞損毀,結果令自己陷入更差的處境。",
+      "highlight": "landed them in",
+      "targetForm": "land somebody in something",
+      "targetMeaningZh": "令某人陷入困境"
+    },
+    {
+      "id": "phrasal-verb-134-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Since everyone else refused, the coach made Ava organise the whole event.",
+      "promptZh": "由於其他人都拒絕了,教練叫艾娃負責籌辦整個活動。",
+      "starter": "Since",
+      "answer": "Since everyone else refused, the coach landed Ava with organising the whole event.",
+      "answerZh": "由於其他人都拒絕了,教練把籌辦整個活動的工作交給了艾娃。",
+      "highlight": "landed",
+      "targetForm": "land somebody with doing something",
+      "targetMeaningZh": "令某人不得不做某事"
+    },
+    {
+      "id": "phrasal-verb-134-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A quick lie may solve the problem for a minute, but you can be in much deeper trouble later.",
+      "promptZh": "一個臨時謊言或許能短暫解決問題,但之後可能會令你陷入更大的麻煩。",
+      "starter": "A",
+      "answer": "A quick lie may solve the problem for a minute, but you can land in much deeper trouble later.",
+      "answerZh": "一個臨時謊言或許能短暫解決問題,但之後可能會令你陷入更大的麻煩。",
+      "highlight": "land",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We changed buses twice and somehow finally returned to the place where we had started.",
+      "promptZh": "我們轉了兩次巴士,不知怎的最後又回到出發的地方。",
+      "starter": "We",
+      "answer": "We changed buses twice and somehow landed up back where we had started.",
+      "answerZh": "我們轉了兩次巴士,不知怎的最後又回到出發的地方。",
+      "highlight": "landed up back",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外身處某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I offered to help for only ten minutes, but this meant that I had to stay until midnight.",
+      "promptZh": "我原本只答應幫忙十分鐘,結果卻要留到午夜。",
+      "starter": "I",
+      "answer": "I landed myself with having to stay until midnight by offering to help for only ten minutes.",
+      "answerZh": "我原本只答應幫忙十分鐘,結果卻令自己不得不留到午夜。",
+      "highlight": "landed myself with having to stay until midnight by offering",
+      "targetForm": "land yourself with doing something",
+      "targetMeaningZh": "令自己不得不做某事"
+    },
+    {
+      "id": "phrasal-verb-134-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The whole class was in trouble because of the copied answers, although only two students had cheated.",
+      "promptZh": "全班因為抄襲的答案而陷入麻煩,雖然只有兩名學生作弊。",
+      "starter": "The",
+      "answer": "The whole class landed in trouble because of the copied answers, although only two students had cheated.",
+      "answerZh": "全班因為抄襲的答案而陷入麻煩,雖然只有兩名學生作弊。",
+      "highlight": "landed",
+      "targetForm": "land in something",
+      "targetMeaningZh": "陷入麻煩或不利處境"
+    },
+    {
+      "id": "phrasal-verb-134-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "After following three different signs, the visitors finally arrived at the staff entrance.",
+      "promptZh": "遊客按照三個不同的指示牌前進,最後卻去到職員入口。",
+      "starter": "After",
+      "answer": "After following three different signs, the visitors landed up at the staff entrance.",
+      "answerZh": "遊客按照三個不同的指示牌前進,最後卻去到職員入口。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The online order arrived late, leaving us with food for twenty people after the party.",
+      "promptZh": "網上訂單太遲送到,令我們在派對後仍留下二十人份量的食物。",
+      "starter": "The",
+      "answer": "The online order arrived late and landed us with food for twenty people after the party.",
+      "answerZh": "網上訂單太遲送到,令我們在派對後仍留下二十人份量的食物。",
+      "highlight": "and landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人不得不處理或保留某事物"
+    },
+    {
+      "id": "phrasal-verb-134-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the owners ignore the safety checks, they could find themselves in court after an accident.",
+      "promptZh": "如果店主忽略安全檢查,意外發生後可能要上法庭。",
+      "starter": "If",
+      "answer": "If the owners ignore the safety checks, they could land themselves in court after an accident.",
+      "answerZh": "如果店主忽略安全檢查,意外發生後可能會令自己要上法庭。",
+      "highlight": "land",
+      "targetForm": "land yourself in something",
+      "targetMeaningZh": "令自己陷入麻煩或法律問題"
+    },
+    {
+      "id": "phrasal-verb-134-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We expected a short walk, but two hours later we finally arrived at a lake.",
+      "promptZh": "我們本來以為只需走一小段路,但兩小時後最後去到一個湖邊。",
+      "starter": "We",
+      "answer": "We expected a short walk, but two hours later we landed up at a lake.",
+      "answerZh": "我們本來以為只需走一小段路,但兩小時後最後去到一個湖邊。",
+      "highlight": "landed up",
+      "targetForm": "land up",
+      "targetMeaningZh": "最後意外去到某個地方"
+    },
+    {
+      "id": "phrasal-verb-134-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The school saved money on the trip, but the cheap booking left the teachers with several problems to solve on the day.",
+      "promptZh": "學校在旅程安排上省了錢,但便宜的預訂令老師當日要處理多個問題。",
+      "starter": "The",
+      "answer": "The school saved money on the trip, but the cheap booking landed the teachers with several problems to solve on the day.",
+      "answerZh": "學校在旅程安排上省了錢,但便宜的預訂令老師當日要處理多個問題。",
+      "highlight": "landed",
+      "targetForm": "land somebody with something",
+      "targetMeaningZh": "令某人不得不處理問題或責任"
+    }
+  ]
+}

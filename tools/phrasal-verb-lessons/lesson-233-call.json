@@ -1,0 +1,2950 @@
+{
+  "id": "phrasal-verb-233",
+  "order": 233,
+  "slug": "call",
+  "version": "1",
+  "title": "CALL 動詞片語",
+  "titleEn": "Call",
+  "titleZh": "CALL 動詞片語",
+  "level": "B1",
+  "groupCount": 22,
+  "source": {
+    "file": "Phrasal Verbs 227 - CALL.pdf",
+    "sourceNumber": 227,
+    "pageCount": 44,
+    "teachingPdfPages": [
+      1,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "contentPdfPages": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "answerKeyPdfPages": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CALL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CALL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CALL",
+      "highlight": "CALL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I called around the local shops for the best price.",
+      "zh": "我致電附近多間店舖,查詢最優惠的價格。",
+      "highlight": "called around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I will call you back after lunch.",
+      "zh": "我午飯後會再致電給你。",
+      "highlight": "call you back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We called round to say hello.",
+      "zh": "我們順道探訪,向大家打招呼。",
+      "highlight": "called round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "致電多個人或地方,查詢資料、價格或供應情況；再次致電;回覆某人的電話；順道短暫探訪；公開要求或呼籲某事發生；到某人的住所探訪；正式要求或呼籲某人做某事；運用某種能力、力量或資源；大聲呼叫;大聲喊出某事物；因其他事情而把某人叫走；叫某人回來；叫某人下樓；召來專家、警方或其他人員；召人到某處處理問題,尤其是緊急問題；叫某人走近；徵召某人服兵役；叫某人或動物停止追趕、攻擊或行動；祈求詛咒、怒火或懲罰降臨某人身上；引起或激起某種反應；收回有問題或不安全的產品；取消活動、會議或計劃；在電腦上調出資料、紀錄或檔案；致電某人或某機構",
+    "en": "call around / call around somebody/something; call back / call somebody back; call by / call in / call round; call for something / call for somebody to do something; call on somebody; call on/upon somebody to do something; call on/upon something; call out / call out to somebody / call something out; call somebody away; call somebody back; call somebody down; call somebody in; call somebody out; call somebody over; call somebody up; call somebody/something off; call something down on/upon somebody; call something forth; call something in; call something off; call something up; call up / call somebody up",
+    "naturalZh": [
+      "致電多個人或地方,查詢資料、價格或供應情況",
+      "再次致電;回覆某人的電話",
+      "順道短暫探訪",
+      "公開要求或呼籲某事發生",
+      "到某人的住所探訪",
+      "正式要求或呼籲某人做某事",
+      "運用某種能力、力量或資源",
+      "大聲呼叫;大聲喊出某事物",
+      "因其他事情而把某人叫走",
+      "叫某人回來",
+      "叫某人下樓",
+      "召來專家、警方或其他人員",
+      "召人到某處處理問題,尤其是緊急問題",
+      "叫某人走近",
+      "徵召某人服兵役",
+      "叫某人或動物停止追趕、攻擊或行動",
+      "祈求詛咒、怒火或懲罰降臨某人身上",
+      "引起或激起某種反應",
+      "收回有問題或不安全的產品",
+      "取消活動、會議或計劃",
+      "在電腦上調出資料、紀錄或檔案",
+      "致電某人或某機構"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "call around / call around somebody/something",
+      "titleZh": "致電多個人或地方,查詢資料、價格或供應情況",
+      "titleEn": "call around / call around somebody/something",
+      "descriptionZh": "致電多個人或地方,查詢資料、價格或供應情況",
+      "descriptionEn": "I called around the local shops for the best price.",
+      "examples": [
+        {
+          "en": "I called around the local shops for the best price.",
+          "zh": "我致電附近多間店舖,查詢最優惠的價格。",
+          "highlight": "called around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call back / call somebody back",
+      "titleZh": "再次致電;回覆某人的電話",
+      "titleEn": "call back / call somebody back",
+      "descriptionZh": "再次致電;回覆某人的電話",
+      "descriptionEn": "I will call you back after lunch.",
+      "examples": [
+        {
+          "en": "I will call you back after lunch.",
+          "zh": "我午飯後會再致電給你。",
+          "highlight": "call you back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call by / call in / call round",
+      "titleZh": "順道短暫探訪",
+      "titleEn": "call by / call in / call round",
+      "descriptionZh": "順道短暫探訪",
+      "descriptionEn": "We called round to say hello.",
+      "examples": [
+        {
+          "en": "We called round to say hello.",
+          "zh": "我們順道探訪,向大家打招呼。",
+          "highlight": "called round"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call for something / call for somebody to do something",
+      "titleZh": "公開要求或呼籲某事發生",
+      "titleEn": "call for something / call for somebody to do something",
+      "descriptionZh": "公開要求或呼籲某事發生",
+      "descriptionEn": "Parents called for safer roads.",
+      "examples": [
+        {
+          "en": "Parents called for safer roads.",
+          "zh": "家長要求改善道路安全。",
+          "highlight": "called for"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call on somebody",
+      "titleZh": "到某人的住所探訪",
+      "titleEn": "call on somebody",
+      "descriptionZh": "到某人的住所探訪",
+      "descriptionEn": "We called on Grandma on Sunday.",
+      "examples": [
+        {
+          "en": "We called on Grandma on Sunday.",
+          "zh": "我們星期日探望了祖母。",
+          "highlight": "called on Grandma on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call on/upon somebody to do something",
+      "titleZh": "正式要求或呼籲某人做某事",
+      "titleEn": "call on/upon somebody to do something",
+      "descriptionZh": "正式要求或呼籲某人做某事",
+      "descriptionEn": "The leader called on everyone to remain calm.",
+      "examples": [
+        {
+          "en": "The leader called on everyone to remain calm.",
+          "zh": "領袖呼籲所有人保持冷靜。",
+          "highlight": "called on everyone to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call on/upon something",
+      "titleZh": "運用某種能力、力量或資源",
+      "titleEn": "call on/upon something",
+      "descriptionZh": "運用某種能力、力量或資源",
+      "descriptionEn": "She called on all her courage.",
+      "examples": [
+        {
+          "en": "She called on all her courage.",
+          "zh": "她用盡所有勇氣。",
+          "highlight": "called on"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call out / call out to somebody / call something out",
+      "titleZh": "大聲呼叫;大聲喊出某事物",
+      "titleEn": "call out / call out to somebody / call something out",
+      "descriptionZh": "大聲呼叫;大聲喊出某事物",
+      "descriptionEn": "He called out my name.",
+      "examples": [
+        {
+          "en": "He called out my name.",
+          "zh": "他大聲喊出我的名字。",
+          "highlight": "called out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call somebody away",
+      "titleZh": "因其他事情而把某人叫走",
+      "titleEn": "call somebody away",
+      "descriptionZh": "因其他事情而把某人叫走",
+      "descriptionEn": "An urgent message called her away.",
+      "examples": [
+        {
+          "en": "An urgent message called her away.",
+          "zh": "一則緊急訊息把她叫走。",
+          "highlight": "called her away"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call somebody back",
+      "titleZh": "叫某人回來",
+      "titleEn": "call somebody back",
+      "descriptionZh": "叫某人回來",
+      "descriptionEn": "The guard called him back from the gate.",
+      "examples": [
+        {
+          "en": "The guard called him back from the gate.",
+          "zh": "保安員把他從大閘叫回來。",
+          "highlight": "called him back"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call somebody down",
+      "titleZh": "叫某人下樓",
+      "titleEn": "call somebody down",
+      "descriptionZh": "叫某人下樓",
+      "descriptionEn": "Please call your brother down for dinner.",
+      "examples": [
+        {
+          "en": "Please call your brother down for dinner.",
+          "zh": "請叫你的弟弟下樓吃晚飯。",
+          "highlight": "call your brother down"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "call somebody in",
+      "titleZh": "召來專家、警方或其他人員",
+      "titleEn": "call somebody in",
+      "descriptionZh": "召來專家、警方或其他人員",
+      "descriptionEn": "They called in an expert.",
+      "examples": [
+        {
+          "en": "They called in an expert.",
+          "zh": "他們召來了一名專家。",
+          "highlight": "called in"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call somebody out",
+      "titleZh": "召人到某處處理問題,尤其是緊急問題",
+      "titleEn": "call somebody out",
+      "descriptionZh": "召人到某處處理問題,尤其是緊急問題",
+      "descriptionEn": "We had to call the plumber out.",
+      "examples": [
+        {
+          "en": "We had to call the plumber out.",
+          "zh": "我們必須召水喉匠到場。",
+          "highlight": "call the plumber out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call somebody over",
+      "titleZh": "叫某人走近",
+      "titleEn": "call somebody over",
+      "descriptionZh": "叫某人走近",
+      "descriptionEn": "She called the waiter over.",
+      "examples": [
+        {
+          "en": "She called the waiter over.",
+          "zh": "她叫侍應走近。",
+          "highlight": "called the waiter over"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call somebody up",
+      "titleZh": "徵召某人服兵役",
+      "titleEn": "call somebody up",
+      "descriptionZh": "徵召某人服兵役",
+      "descriptionEn": "He was called up at nineteen.",
+      "examples": [
+        {
+          "en": "He was called up at nineteen.",
+          "zh": "他十九歲時被徵召服兵役。",
+          "highlight": "called up"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call somebody/something off",
+      "titleZh": "叫某人或動物停止追趕、攻擊或行動",
+      "titleEn": "call somebody/something off",
+      "descriptionZh": "叫某人或動物停止追趕、攻擊或行動",
+      "descriptionEn": "Please call your dog off.",
+      "examples": [
+        {
+          "en": "Please call your dog off.",
+          "zh": "請叫你的狗停止追趕。",
+          "highlight": "call your dog off"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call something down on/upon somebody",
+      "titleZh": "祈求詛咒、怒火或懲罰降臨某人身上",
+      "titleEn": "call something down on/upon somebody",
+      "descriptionZh": "祈求詛咒、怒火或懲罰降臨某人身上",
+      "descriptionEn": "The king called down a curse on his enemies.",
+      "examples": [
+        {
+          "en": "The king called down a curse on his enemies.",
+          "zh": "國王祈求詛咒降臨敵人身上。",
+          "highlight": "called down a curse on"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call something forth",
+      "titleZh": "引起或激起某種反應",
+      "titleEn": "call something forth",
+      "descriptionZh": "引起或激起某種反應",
+      "descriptionEn": "Her words called forth loud laughter.",
+      "examples": [
+        {
+          "en": "Her words called forth loud laughter.",
+          "zh": "她的說話引起了一陣大笑。",
+          "highlight": "called"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call something in",
+      "titleZh": "收回有問題或不安全的產品",
+      "titleEn": "call something in",
+      "descriptionZh": "收回有問題或不安全的產品",
+      "descriptionEn": "The company called in the faulty heaters.",
+      "examples": [
+        {
+          "en": "The company called in the faulty heaters.",
+          "zh": "公司收回了有問題的暖爐。",
+          "highlight": "called in"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call something off",
+      "titleZh": "取消活動、會議或計劃",
+      "titleEn": "call something off",
+      "descriptionZh": "取消活動、會議或計劃",
+      "descriptionEn": "They called off the match.",
+      "examples": [
+        {
+          "en": "They called off the match.",
+          "zh": "他們取消了比賽。",
+          "highlight": "called off"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call something up",
+      "titleZh": "在電腦上調出資料、紀錄或檔案",
+      "titleEn": "call something up",
+      "descriptionZh": "在電腦上調出資料、紀錄或檔案",
+      "descriptionEn": "She called up the file on her laptop.",
+      "examples": [
+        {
+          "en": "She called up the file on her laptop.",
+          "zh": "她在手提電腦上調出檔案。",
+          "highlight": "called up"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "call up / call somebody up",
+      "titleZh": "致電某人或某機構",
+      "titleEn": "call up / call somebody up",
+      "descriptionZh": "致電某人或某機構",
+      "descriptionEn": "I called up the hotel to book a room.",
+      "examples": [
+        {
+          "en": "I called up the hotel to book a room.",
+          "zh": "我致電酒店預訂房間。",
+          "highlight": "called up"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CALL 片語動詞的實際用途",
+    "labelEn": "CALL Phrasal Verbs in Use",
+    "summaryZh": "call around 可以表示致電多個地方;call back 可以表示回覆電話;call up 則可以表示致電某人或機構。；你可以用 call by 表示短暫探訪、用 call on 表示探望親友,也可以用 call in、call out 和 call over表示叫人前來。；call for 可以表達公開要求;call on somebody to do something 可以表達正式呼籲;call oncourage 或 strength 則可以表示運用內在力量。；call forth 可以描述引起的反應;call something off 可以表示取消活動;call something in 則可以表示收回不安全產品。",
+    "summaryEn": "Call around lets you contact several places, call back lets you return a call, and call up lets you telephone a particular person or organisation. You can call by for a short visit, call on a relative, call an expert in, call a worker out or call somebody over. Call for can express a public demand, call on somebody to do something can express a formal request, and call on courage or strength can show the use of inner resources. Call forth can describe a reaction, call something off can cancel an event, and call something in can show that unsafe products are being returned.",
+    "contextsZh": [
+      "使用 CALL 處理不同的電話溝通情境",
+      "自然談論探訪和召人前來",
+      "表達要求、呼籲和個人努力",
+      "準確描述反應、取消和產品收回"
+    ],
+    "contextsEn": [
+      "Use CALL to handle different kinds of telephone communication",
+      "Talk naturally about visits and asking people to come",
+      "Express demands, requests and personal effort",
+      "Describe reactions, cancellations and product returns precisely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CALL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CALL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "call around / call around somebody/something",
+    "fixedHighlight": "call around / call around somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 CALL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CALL expression that gives the same meaning.",
+    "correct": "called around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；CALL BACK 可以表示「再次致電」,也可以表示「叫某人回來」。請仔細閱讀整個情境。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. CALL BACK can mean “telephone again” or “ask someone to return”. Read the full situation carefully. When using him, her, it or them, place the word as shown: call him back call her over call it off call them in",
+    "variableItemsZh": [
+      "call around / call around somebody/something",
+      "call back / call somebody back",
+      "call by / call in / call round",
+      "call for something / call for somebody to do something",
+      "call on somebody",
+      "call on/upon somebody to do something",
+      "call on/upon something",
+      "call out / call out to somebody / call something out",
+      "call somebody away",
+      "call somebody back",
+      "call somebody down",
+      "call somebody in",
+      "call somebody out",
+      "call somebody over",
+      "call somebody up",
+      "call somebody/something off",
+      "call something down on/upon somebody",
+      "call something forth",
+      "call something in",
+      "call something off",
+      "call something up",
+      "call up / call somebody up"
+    ],
+    "variableItemsEn": [
+      "call around / call around somebody/something",
+      "call back / call somebody back",
+      "call by / call in / call round",
+      "call for something / call for somebody to do something",
+      "call on somebody",
+      "call on/upon somebody to do something",
+      "call on/upon something",
+      "call out / call out to somebody / call something out",
+      "call somebody away",
+      "call somebody back",
+      "call somebody down",
+      "call somebody in",
+      "call somebody out",
+      "call somebody over",
+      "call somebody up",
+      "call somebody/something off",
+      "call something down on/upon somebody",
+      "call something forth",
+      "call something in",
+      "call something off",
+      "call something up",
+      "call up / call somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "致電多個人或地方,查詢資料、價格或供應情況",
+        "formEn": "call around / call around somebody/something",
+        "exampleZh": "我致電附近多間店舖,查詢最優惠的價格。",
+        "exampleEn": "I called around the local shops for the best price.",
+        "highlight": "called around"
+      },
+      {
+        "formZh": "再次致電;回覆某人的電話",
+        "formEn": "call back / call somebody back",
+        "exampleZh": "我午飯後會再致電給你。",
+        "exampleEn": "I will call you back after lunch.",
+        "highlight": "call you back"
+      },
+      {
+        "formZh": "順道短暫探訪",
+        "formEn": "call by / call in / call round",
+        "exampleZh": "我們順道探訪,向大家打招呼。",
+        "exampleEn": "We called round to say hello.",
+        "highlight": "called round"
+      },
+      {
+        "formZh": "公開要求或呼籲某事發生",
+        "formEn": "call for something / call for somebody to do something",
+        "exampleZh": "家長要求改善道路安全。",
+        "exampleEn": "Parents called for safer roads.",
+        "highlight": "called for"
+      },
+      {
+        "formZh": "到某人的住所探訪",
+        "formEn": "call on somebody",
+        "exampleZh": "我們星期日探望了祖母。",
+        "exampleEn": "We called on Grandma on Sunday.",
+        "highlight": "called on Grandma on"
+      },
+      {
+        "formZh": "正式要求或呼籲某人做某事",
+        "formEn": "call on/upon somebody to do something",
+        "exampleZh": "領袖呼籲所有人保持冷靜。",
+        "exampleEn": "The leader called on everyone to remain calm.",
+        "highlight": "called on everyone to"
+      },
+      {
+        "formZh": "運用某種能力、力量或資源",
+        "formEn": "call on/upon something",
+        "exampleZh": "她用盡所有勇氣。",
+        "exampleEn": "She called on all her courage.",
+        "highlight": "called on"
+      },
+      {
+        "formZh": "大聲呼叫;大聲喊出某事物",
+        "formEn": "call out / call out to somebody / call something out",
+        "exampleZh": "他大聲喊出我的名字。",
+        "exampleEn": "He called out my name.",
+        "highlight": "called out"
+      },
+      {
+        "formZh": "因其他事情而把某人叫走",
+        "formEn": "call somebody away",
+        "exampleZh": "一則緊急訊息把她叫走。",
+        "exampleEn": "An urgent message called her away.",
+        "highlight": "called her away"
+      },
+      {
+        "formZh": "叫某人回來",
+        "formEn": "call somebody back",
+        "exampleZh": "保安員把他從大閘叫回來。",
+        "exampleEn": "The guard called him back from the gate.",
+        "highlight": "called him back"
+      },
+      {
+        "formZh": "叫某人下樓",
+        "formEn": "call somebody down",
+        "exampleZh": "請叫你的弟弟下樓吃晚飯。",
+        "exampleEn": "Please call your brother down for dinner.",
+        "highlight": "call your brother down"
+      },
+      {
+        "formZh": "召來專家、警方或其他人員",
+        "formEn": "call somebody in",
+        "exampleZh": "他們召來了一名專家。",
+        "exampleEn": "They called in an expert.",
+        "highlight": "called in"
+      },
+      {
+        "formZh": "召人到某處處理問題,尤其是緊急問題",
+        "formEn": "call somebody out",
+        "exampleZh": "我們必須召水喉匠到場。",
+        "exampleEn": "We had to call the plumber out.",
+        "highlight": "call the plumber out"
+      },
+      {
+        "formZh": "叫某人走近",
+        "formEn": "call somebody over",
+        "exampleZh": "她叫侍應走近。",
+        "exampleEn": "She called the waiter over.",
+        "highlight": "called the waiter over"
+      },
+      {
+        "formZh": "徵召某人服兵役",
+        "formEn": "call somebody up",
+        "exampleZh": "他十九歲時被徵召服兵役。",
+        "exampleEn": "He was called up at nineteen.",
+        "highlight": "called up"
+      },
+      {
+        "formZh": "叫某人或動物停止追趕、攻擊或行動",
+        "formEn": "call somebody/something off",
+        "exampleZh": "請叫你的狗停止追趕。",
+        "exampleEn": "Please call your dog off.",
+        "highlight": "call your dog off"
+      },
+      {
+        "formZh": "祈求詛咒、怒火或懲罰降臨某人身上",
+        "formEn": "call something down on/upon somebody",
+        "exampleZh": "國王祈求詛咒降臨敵人身上。",
+        "exampleEn": "The king called down a curse on his enemies.",
+        "highlight": "called down a curse on"
+      },
+      {
+        "formZh": "引起或激起某種反應",
+        "formEn": "call something forth",
+        "exampleZh": "她的說話引起了一陣大笑。",
+        "exampleEn": "Her words called forth loud laughter.",
+        "highlight": "called"
+      },
+      {
+        "formZh": "收回有問題或不安全的產品",
+        "formEn": "call something in",
+        "exampleZh": "公司收回了有問題的暖爐。",
+        "exampleEn": "The company called in the faulty heaters.",
+        "highlight": "called in"
+      },
+      {
+        "formZh": "取消活動、會議或計劃",
+        "formEn": "call something off",
+        "exampleZh": "他們取消了比賽。",
+        "exampleEn": "They called off the match.",
+        "highlight": "called off"
+      },
+      {
+        "formZh": "在電腦上調出資料、紀錄或檔案",
+        "formEn": "call something up",
+        "exampleZh": "她在手提電腦上調出檔案。",
+        "exampleEn": "She called up the file on her laptop.",
+        "highlight": "called up"
+      },
+      {
+        "formZh": "致電某人或某機構",
+        "formEn": "call up / call somebody up",
+        "exampleZh": "我致電酒店預訂房間。",
+        "exampleEn": "I called up the hotel to book a room.",
+        "highlight": "called up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "致電多個人或地方,查詢資料、價格或供應情況",
+      "titleEn": "call around / call around somebody/something",
+      "formula": "call around / call around somebody/something",
+      "highlight": "call around / call around somebody/something",
+      "descriptionZh": "致電多個人或地方,查詢資料、價格或供應情況",
+      "descriptionEn": "I called around the local shops for the best price.",
+      "examples": [
+        {
+          "en": "I called around the local shops for the best price.",
+          "zh": "我致電附近多間店舖,查詢最優惠的價格。",
+          "highlight": "called around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "再次致電;回覆某人的電話",
+      "titleEn": "call back / call somebody back",
+      "formula": "call back / call somebody back",
+      "highlight": "call back / call somebody back",
+      "descriptionZh": "再次致電;回覆某人的電話",
+      "descriptionEn": "I will call you back after lunch.",
+      "examples": [
+        {
+          "en": "I will call you back after lunch.",
+          "zh": "我午飯後會再致電給你。",
+          "highlight": "call you back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "順道短暫探訪",
+      "titleEn": "call by / call in / call round",
+      "formula": "call by / call in / call round",
+      "highlight": "call by / call in / call round",
+      "descriptionZh": "順道短暫探訪",
+      "descriptionEn": "We called round to say hello.",
+      "examples": [
+        {
+          "en": "We called round to say hello.",
+          "zh": "我們順道探訪,向大家打招呼。",
+          "highlight": "called round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "公開要求或呼籲某事發生",
+      "titleEn": "call for something / call for somebody to do something",
+      "formula": "call for something / call for somebody to do something",
+      "highlight": "call for something / call for somebody to do something",
+      "descriptionZh": "公開要求或呼籲某事發生",
+      "descriptionEn": "Parents called for safer roads.",
+      "examples": [
+        {
+          "en": "Parents called for safer roads.",
+          "zh": "家長要求改善道路安全。",
+          "highlight": "called for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "到某人的住所探訪",
+      "titleEn": "call on somebody",
+      "formula": "call on somebody",
+      "highlight": "call on somebody",
+      "descriptionZh": "到某人的住所探訪",
+      "descriptionEn": "We called on Grandma on Sunday.",
+      "examples": [
+        {
+          "en": "We called on Grandma on Sunday.",
+          "zh": "我們星期日探望了祖母。",
+          "highlight": "called on Grandma on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "正式要求或呼籲某人做某事",
+      "titleEn": "call on/upon somebody to do something",
+      "formula": "call on/upon somebody to do something",
+      "highlight": "call on/upon somebody to do something",
+      "descriptionZh": "正式要求或呼籲某人做某事",
+      "descriptionEn": "The leader called on everyone to remain calm.",
+      "examples": [
+        {
+          "en": "The leader called on everyone to remain calm.",
+          "zh": "領袖呼籲所有人保持冷靜。",
+          "highlight": "called on everyone to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "運用某種能力、力量或資源",
+      "titleEn": "call on/upon something",
+      "formula": "call on/upon something",
+      "highlight": "call on/upon something",
+      "descriptionZh": "運用某種能力、力量或資源",
+      "descriptionEn": "She called on all her courage.",
+      "examples": [
+        {
+          "en": "She called on all her courage.",
+          "zh": "她用盡所有勇氣。",
+          "highlight": "called on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "大聲呼叫;大聲喊出某事物",
+      "titleEn": "call out / call out to somebody / call something out",
+      "formula": "call out / call out to somebody / call something out",
+      "highlight": "call out / call out to somebody / call something out",
+      "descriptionZh": "大聲呼叫;大聲喊出某事物",
+      "descriptionEn": "He called out my name.",
+      "examples": [
+        {
+          "en": "He called out my name.",
+          "zh": "他大聲喊出我的名字。",
+          "highlight": "called out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "因其他事情而把某人叫走",
+      "titleEn": "call somebody away",
+      "formula": "call somebody away",
+      "highlight": "call somebody away",
+      "descriptionZh": "因其他事情而把某人叫走",
+      "descriptionEn": "An urgent message called her away.",
+      "examples": [
+        {
+          "en": "An urgent message called her away.",
+          "zh": "一則緊急訊息把她叫走。",
+          "highlight": "called her away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "叫某人回來",
+      "titleEn": "call somebody back",
+      "formula": "call somebody back",
+      "highlight": "call somebody back",
+      "descriptionZh": "叫某人回來",
+      "descriptionEn": "The guard called him back from the gate.",
+      "examples": [
+        {
+          "en": "The guard called him back from the gate.",
+          "zh": "保安員把他從大閘叫回來。",
+          "highlight": "called him back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "叫某人下樓",
+      "titleEn": "call somebody down",
+      "formula": "call somebody down",
+      "highlight": "call somebody down",
+      "descriptionZh": "叫某人下樓",
+      "descriptionEn": "Please call your brother down for dinner.",
+      "examples": [
+        {
+          "en": "Please call your brother down for dinner.",
+          "zh": "請叫你的弟弟下樓吃晚飯。",
+          "highlight": "call your brother down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "召來專家、警方或其他人員",
+      "titleEn": "call somebody in",
+      "formula": "call somebody in",
+      "highlight": "call somebody in",
+      "descriptionZh": "召來專家、警方或其他人員",
+      "descriptionEn": "They called in an expert.",
+      "examples": [
+        {
+          "en": "They called in an expert.",
+          "zh": "他們召來了一名專家。",
+          "highlight": "called in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "召人到某處處理問題,尤其是緊急問題",
+      "titleEn": "call somebody out",
+      "formula": "call somebody out",
+      "highlight": "call somebody out",
+      "descriptionZh": "召人到某處處理問題,尤其是緊急問題",
+      "descriptionEn": "We had to call the plumber out.",
+      "examples": [
+        {
+          "en": "We had to call the plumber out.",
+          "zh": "我們必須召水喉匠到場。",
+          "highlight": "call the plumber out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "叫某人走近",
+      "titleEn": "call somebody over",
+      "formula": "call somebody over",
+      "highlight": "call somebody over",
+      "descriptionZh": "叫某人走近",
+      "descriptionEn": "She called the waiter over.",
+      "examples": [
+        {
+          "en": "She called the waiter over.",
+          "zh": "她叫侍應走近。",
+          "highlight": "called the waiter over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "徵召某人服兵役",
+      "titleEn": "call somebody up",
+      "formula": "call somebody up",
+      "highlight": "call somebody up",
+      "descriptionZh": "徵召某人服兵役",
+      "descriptionEn": "He was called up at nineteen.",
+      "examples": [
+        {
+          "en": "He was called up at nineteen.",
+          "zh": "他十九歲時被徵召服兵役。",
+          "highlight": "called up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "叫某人或動物停止追趕、攻擊或行動",
+      "titleEn": "call somebody/something off",
+      "formula": "call somebody/something off",
+      "highlight": "call somebody/something off",
+      "descriptionZh": "叫某人或動物停止追趕、攻擊或行動",
+      "descriptionEn": "Please call your dog off.",
+      "examples": [
+        {
+          "en": "Please call your dog off.",
+          "zh": "請叫你的狗停止追趕。",
+          "highlight": "call your dog off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "祈求詛咒、怒火或懲罰降臨某人身上",
+      "titleEn": "call something down on/upon somebody",
+      "formula": "call something down on/upon somebody",
+      "highlight": "call something down on/upon somebody",
+      "descriptionZh": "祈求詛咒、怒火或懲罰降臨某人身上",
+      "descriptionEn": "The king called down a curse on his enemies.",
+      "examples": [
+        {
+          "en": "The king called down a curse on his enemies.",
+          "zh": "國王祈求詛咒降臨敵人身上。",
+          "highlight": "called down a curse on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "引起或激起某種反應",
+      "titleEn": "call something forth",
+      "formula": "call something forth",
+      "highlight": "call something forth",
+      "descriptionZh": "引起或激起某種反應",
+      "descriptionEn": "Her words called forth loud laughter.",
+      "examples": [
+        {
+          "en": "Her words called forth loud laughter.",
+          "zh": "她的說話引起了一陣大笑。",
+          "highlight": "called"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "收回有問題或不安全的產品",
+      "titleEn": "call something in",
+      "formula": "call something in",
+      "highlight": "call something in",
+      "descriptionZh": "收回有問題或不安全的產品",
+      "descriptionEn": "The company called in the faulty heaters.",
+      "examples": [
+        {
+          "en": "The company called in the faulty heaters.",
+          "zh": "公司收回了有問題的暖爐。",
+          "highlight": "called in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "取消活動、會議或計劃",
+      "titleEn": "call something off",
+      "formula": "call something off",
+      "highlight": "call something off",
+      "descriptionZh": "取消活動、會議或計劃",
+      "descriptionEn": "They called off the match.",
+      "examples": [
+        {
+          "en": "They called off the match.",
+          "zh": "他們取消了比賽。",
+          "highlight": "called off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "在電腦上調出資料、紀錄或檔案",
+      "titleEn": "call something up",
+      "formula": "call something up",
+      "highlight": "call something up",
+      "descriptionZh": "在電腦上調出資料、紀錄或檔案",
+      "descriptionEn": "She called up the file on her laptop.",
+      "examples": [
+        {
+          "en": "She called up the file on her laptop.",
+          "zh": "她在手提電腦上調出檔案。",
+          "highlight": "called up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "致電某人或某機構",
+      "titleEn": "call up / call somebody up",
+      "formula": "call up / call somebody up",
+      "highlight": "call up / call somebody up",
+      "descriptionZh": "致電某人或某機構",
+      "descriptionEn": "I called up the hotel to book a room.",
+      "examples": [
+        {
+          "en": "I called up the hotel to book a room.",
+          "zh": "我致電酒店預訂房間。",
+          "highlight": "called up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 CALL 處理不同的電話溝通情境",
+      "titleEn": "Use CALL to handle different kinds of telephone communication",
+      "zh": "call around 可以表示致電多個地方;call back 可以表示回覆電話;call up 則可以表示致電某人或機構。",
+      "en": "Call around lets you contact several places, call back lets you return a call, and call up lets you telephone a particular person or organisation."
+    },
+    {
+      "titleZh": "自然談論探訪和召人前來",
+      "titleEn": "Talk naturally about visits and asking people to come",
+      "zh": "你可以用 call by 表示短暫探訪、用 call on 表示探望親友,也可以用 call in、call out 和 call over表示叫人前來。",
+      "en": "You can call by for a short visit, call on a relative, call an expert in, call a worker out or call somebody over."
+    },
+    {
+      "titleZh": "表達要求、呼籲和個人努力",
+      "titleEn": "Express demands, requests and personal effort",
+      "zh": "call for 可以表達公開要求;call on somebody to do something 可以表達正式呼籲;call oncourage 或 strength 則可以表示運用內在力量。",
+      "en": "Call for can express a public demand, call on somebody to do something can express a formal request, and call on courage or strength can show the use of inner resources."
+    },
+    {
+      "titleZh": "準確描述反應、取消和產品收回",
+      "titleEn": "Describe reactions, cancellations and product returns precisely",
+      "zh": "call forth 可以描述引起的反應;call something off 可以表示取消活動;call something in 則可以表示收回不安全產品。",
+      "en": "Call forth can describe a reaction, call something off can cancel an event, and call something in can show that unsafe products are being returned."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 CALL 處理不同的電話溝通情境",
+      "自然談論探訪和召人前來",
+      "表達要求、呼籲和個人努力",
+      "準確描述反應、取消和產品收回"
+    ],
+    "contextsEn": [
+      "Use CALL to handle different kinds of telephone communication",
+      "Talk naturally about visits and asking people to come",
+      "Express demands, requests and personal effort",
+      "Describe reactions, cancellations and product returns precisely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 CALL 處理不同的電話溝通情境",
+        "titleEn": "Use CALL to handle different kinds of telephone communication",
+        "zh": "call around 可以表示致電多個地方;call back 可以表示回覆電話;call up 則可以表示致電某人或機構。",
+        "en": "Call around lets you contact several places, call back lets you return a call, and call up lets you telephone a particular person or organisation.",
+        "examples": [
+          {
+            "en": "I called around the local shops for the best price.",
+            "zh": "我致電附近多間店舖,查詢最優惠的價格。",
+            "highlight": "called around"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論探訪和召人前來",
+        "titleEn": "Talk naturally about visits and asking people to come",
+        "zh": "你可以用 call by 表示短暫探訪、用 call on 表示探望親友,也可以用 call in、call out 和 call over表示叫人前來。",
+        "en": "You can call by for a short visit, call on a relative, call an expert in, call a worker out or call somebody over.",
+        "examples": [
+          {
+            "en": "I will call you back after lunch.",
+            "zh": "我午飯後會再致電給你。",
+            "highlight": "call you back"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達要求、呼籲和個人努力",
+        "titleEn": "Express demands, requests and personal effort",
+        "zh": "call for 可以表達公開要求;call on somebody to do something 可以表達正式呼籲;call oncourage 或 strength 則可以表示運用內在力量。",
+        "en": "Call for can express a public demand, call on somebody to do something can express a formal request, and call on courage or strength can show the use of inner resources.",
+        "examples": [
+          {
+            "en": "We called round to say hello.",
+            "zh": "我們順道探訪,向大家打招呼。",
+            "highlight": "called round"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確描述反應、取消和產品收回",
+        "titleEn": "Describe reactions, cancellations and product returns precisely",
+        "zh": "call forth 可以描述引起的反應;call something off 可以表示取消活動;call something in 則可以表示收回不安全產品。",
+        "en": "Call forth can describe a reaction, call something off can cancel an event, and call something in can show that unsafe products are being returned.",
+        "examples": [
+          {
+            "en": "Parents called for safer roads.",
+            "zh": "家長要求改善道路安全。",
+            "highlight": "called for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CALL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CALL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CALL 片語動詞。",
+      "en": "Read the whole sentence and choose the CALL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "CALL BACK 可以表示「再次致電」,也可以表示「叫某人回來」。請仔細閱讀整個情境。",
+      "titleEn": "CALL BACK can mean “telephone again” or “ask someone to return”.",
+      "zh": "CALL BACK 可以表示「再次致電」,也可以表示「叫某人回來」。請仔細閱讀整個情境。",
+      "en": "CALL BACK can mean “telephone again” or “ask someone to return”. Read the full situation carefully."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: call him back call her over call it off call them in.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: call him back call her over call it off call them in"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CALL 動詞片語句子改寫練習",
+    "titleEn": "CALL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          22
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          23,
+          44
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          45,
+          66
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          67,
+          88
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          89,
+          110
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-233-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 25,
+      "prompt": "The school cancelled the sports day because of heavy rain.",
+      "promptZh": "學校因大雨取消了運動日。",
+      "starter": "The",
+      "answer": "The school called off the sports day because of heavy rain.",
+      "answerZh": "學校因大雨取消了運動日。",
+      "highlight": "called off",
+      "targetForm": "call something off",
+      "targetMeaningZh": "取消某事"
+    },
+    {
+      "id": "phrasal-verb-233-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "I visited my aunt briefly on the way home.",
+      "promptZh": "我回家途中順道短暫探望姨姨。",
+      "starter": "I",
+      "answer": "I called in on my aunt on the way home.",
+      "answerZh": "我回家途中順道短暫探望姨姨。",
+      "highlight": "called in on",
+      "targetForm": "call by / call in / call round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-233-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "The manager asked the police to come and deal with the angry customer.",
+      "promptZh": "經理召來警方處理那名憤怒的顧客。",
+      "starter": "The",
+      "answer": "The manager called the police in to deal with the angry customer.",
+      "answerZh": "經理召來警方處理那名憤怒的顧客。",
+      "highlight": "called",
+      "targetForm": "call somebody in",
+      "targetMeaningZh": "召來專家、警方或其他人員"
+    },
+    {
+      "id": "phrasal-verb-233-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "He phoned several shops to find the lowest price for a laptop.",
+      "promptZh": "他致電多間店舖,尋找手提電腦的最低價格。",
+      "starter": "He",
+      "answer": "He called around several shops to find the lowest price for a laptop.",
+      "answerZh": "他致電多間店舖,尋找手提電腦的最低價格。",
+      "highlight": "called around",
+      "targetForm": "call around / call around somebody/something",
+      "targetMeaningZh": "致電多個人或地方查詢資料"
+    },
+    {
+      "id": "phrasal-verb-233-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "She shouted my name from across the road.",
+      "promptZh": "她從馬路對面大聲喊我的名字。",
+      "starter": "She",
+      "answer": "She called out my name from across the road.",
+      "answerZh": "她從馬路對面大聲喊我的名字。",
+      "highlight": "called out",
+      "targetForm": "call out / call something out",
+      "targetMeaningZh": "大聲呼叫或喊出"
+    },
+    {
+      "id": "phrasal-verb-233-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "Ben displayed the map file on his computer.",
+      "promptZh": "Ben 在電腦上調出了地圖檔案。",
+      "starter": "Ben",
+      "answer": "Ben called up the map file on his computer.",
+      "answerZh": "Ben 在電腦上調出了地圖檔案。",
+      "highlight": "called up",
+      "targetForm": "call something up",
+      "targetMeaningZh": "在電腦上調出資料或檔案"
+    },
+    {
+      "id": "phrasal-verb-233-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "We visited our old teacher on Sunday.",
+      "promptZh": "我們星期日探望了以前的老師。",
+      "starter": "We",
+      "answer": "We called on our old teacher on Sunday.",
+      "answerZh": "我們星期日探望了以前的老師。",
+      "highlight": "called on",
+      "targetForm": "call on somebody",
+      "targetMeaningZh": "探訪某人"
+    },
+    {
+      "id": "phrasal-verb-233-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "The joke caused loud laughter in the room.",
+      "promptZh": "這個笑話令房內響起大笑聲。",
+      "starter": "The",
+      "answer": "The joke called forth loud laughter in the room.",
+      "answerZh": "這個笑話令房內響起大笑聲。",
+      "highlight": "called forth",
+      "targetForm": "call something forth",
+      "targetMeaningZh": "引起或激起某種反應"
+    },
+    {
+      "id": "phrasal-verb-233-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "I missed your call, so I will phone you again after lunch.",
+      "promptZh": "我錯過了你的來電,所以午飯後會再致電給你。",
+      "starter": "I",
+      "answer": "I missed your call, so I will call you back after lunch.",
+      "answerZh": "我錯過了你的來電,所以午飯後會再致電給你。",
+      "highlight": "call",
+      "targetForm": "call back / call somebody back",
+      "targetMeaningZh": "再次致電;回覆某人的電話"
+    },
+    {
+      "id": "phrasal-verb-233-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Leo was ordered to join the army when the war began.",
+      "promptZh": "戰爭開始時,Leo 被徵召入伍。",
+      "starter": "Leo",
+      "answer": "Leo was called up when the war began.",
+      "answerZh": "戰爭開始時,Leo 被徵召入伍。",
+      "highlight": "called up",
+      "targetForm": "call somebody up",
+      "targetMeaningZh": "徵召某人服兵役"
+    },
+    {
+      "id": "phrasal-verb-233-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Eva asked the waiter to come nearer.",
+      "promptZh": "Eva 叫侍應走近一點。",
+      "starter": "Eva",
+      "answer": "Eva called the waiter over.",
+      "answerZh": "Eva 叫侍應走近一點。",
+      "highlight": "called",
+      "targetForm": "call somebody over",
+      "targetMeaningZh": "叫某人走近"
+    },
+    {
+      "id": "phrasal-verb-233-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Local parents demanded safer crossings near the school.",
+      "promptZh": "本區家長要求學校附近設有更安全的過路處。",
+      "starter": "Local",
+      "answer": "Local parents called for safer crossings near the school.",
+      "answerZh": "本區家長要求學校附近設有更安全的過路處。",
+      "highlight": "called for",
+      "targetForm": "call for something / call for somebody to do something",
+      "targetMeaningZh": "公開要求;呼籲"
+    },
+    {
+      "id": "phrasal-verb-233-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "The company asked customers to return the faulty toys.",
+      "promptZh": "公司要求顧客退回有問題的玩具。",
+      "starter": "The",
+      "answer": "The company called in the faulty toys.",
+      "answerZh": "公司收回了有問題的玩具。",
+      "highlight": "called in",
+      "targetForm": "call something in",
+      "targetMeaningZh": "收回有問題的產品"
+    },
+    {
+      "id": "phrasal-verb-233-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "She used all her courage before speaking to the crowd.",
+      "promptZh": "她在向群眾發言前用盡所有勇氣。",
+      "starter": "She",
+      "answer": "She called on all her courage before speaking to the crowd.",
+      "answerZh": "她在向群眾發言前用盡所有勇氣。",
+      "highlight": "called on",
+      "targetForm": "call on/upon something",
+      "targetMeaningZh": "運用某種能力、力量或資源"
+    },
+    {
+      "id": "phrasal-verb-233-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "We telephoned the hotel to book two rooms.",
+      "promptZh": "我們致電酒店預訂兩間房。",
+      "starter": "We",
+      "answer": "We called up the hotel to book two rooms.",
+      "answerZh": "我們致電酒店預訂兩間房。",
+      "highlight": "called up",
+      "targetForm": "call up / call somebody up",
+      "targetMeaningZh": "致電某人或某機構"
+    },
+    {
+      "id": "phrasal-verb-233-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "An urgent message made the doctor leave the meeting.",
+      "promptZh": "一則緊急訊息令醫生離開會議。",
+      "starter": "An",
+      "answer": "An urgent message called the doctor away from the meeting.",
+      "answerZh": "一則緊急訊息把醫生從會議中叫走。",
+      "highlight": "called",
+      "targetForm": "call somebody away",
+      "targetMeaningZh": "把某人叫走"
+    },
+    {
+      "id": "phrasal-verb-233-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The dog was chasing a child, so its owner ordered it to stop.",
+      "promptZh": "那隻狗正在追趕一名小孩,所以主人命令牠停下來。",
+      "starter": "The",
+      "answer": "The dog was chasing a child, so its owner called it off.",
+      "answerZh": "那隻狗正在追趕一名小孩,所以主人叫牠停止。",
+      "highlight": "called",
+      "targetForm": "call somebody/something off",
+      "targetMeaningZh": "叫某人或動物停止追趕或攻擊"
+    },
+    {
+      "id": "phrasal-verb-233-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The group formally asked the mayor to protect the park.",
+      "promptZh": "該團體正式呼籲市長保護公園。",
+      "starter": "The",
+      "answer": "The group called on the mayor to protect the park.",
+      "answerZh": "該團體正式呼籲市長保護公園。",
+      "highlight": "called on",
+      "targetForm": "call on/upon somebody to do something",
+      "targetMeaningZh": "正式要求或呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-233-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "As Daniel reached the door, the teacher asked him to return.",
+      "promptZh": "Daniel 走到門口時,老師叫他回來。",
+      "starter": "As",
+      "answer": "As Daniel reached the door, the teacher called him back.",
+      "answerZh": "Daniel 走到門口時,老師叫他回來。",
+      "highlight": "called",
+      "targetForm": "call somebody back",
+      "targetMeaningZh": "叫某人回來"
+    },
+    {
+      "id": "phrasal-verb-233-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "The pipe burst at midnight, so we asked the plumber to come.",
+      "promptZh": "水管在午夜爆裂,所以我們請水喉匠到場。",
+      "starter": "The",
+      "answer": "The pipe burst at midnight, so we called the plumber out.",
+      "answerZh": "水管在午夜爆裂,所以我們召水喉匠到場。",
+      "highlight": "called",
+      "targetForm": "call somebody out",
+      "targetMeaningZh": "召人到場處理問題"
+    },
+    {
+      "id": "phrasal-verb-233-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Please ask your brother to come downstairs for dinner.",
+      "promptZh": "請叫你的弟弟下樓吃晚飯。",
+      "starter": "Please",
+      "answer": "Please call your brother down for dinner.",
+      "answerZh": "請叫你的弟弟下樓吃晚飯。",
+      "highlight": "call",
+      "targetForm": "call somebody down",
+      "targetMeaningZh": "叫某人下樓"
+    },
+    {
+      "id": "phrasal-verb-233-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "In the old story, the king placed a curse on his enemies.",
+      "promptZh": "在那個古老故事中,國王詛咒他的敵人。",
+      "starter": "In",
+      "answer": "In the old story, the king called down a curse on his enemies.",
+      "answerZh": "在那個古老故事中,國王祈求詛咒降臨敵人身上。",
+      "highlight": "called down",
+      "targetForm": "call something down on/upon somebody",
+      "targetMeaningZh": "祈求詛咒或懲罰降臨某人"
+    },
+    {
+      "id": "phrasal-verb-233-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Sara has been phoning different travel agents for the best price.",
+      "promptZh": "Sara 一直致電不同旅行社,查詢最優惠的價格。",
+      "starter": "Sara",
+      "answer": "Sara has been calling around different travel agents for the best price.",
+      "answerZh": "Sara 一直致電不同旅行社,查詢最優惠的價格。",
+      "highlight": "calling around",
+      "targetForm": "call around / call around somebody/something",
+      "targetMeaningZh": "致電多個人或地方查詢資料"
+    },
+    {
+      "id": "phrasal-verb-233-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "I am busy now, but I will phone you again this evening.",
+      "promptZh": "我現在很忙,但今晚會再致電給你。",
+      "starter": "I",
+      "answer": "I am busy now, but I will call you back this evening.",
+      "answerZh": "我現在很忙,但今晚會再致電給你。",
+      "highlight": "call",
+      "targetForm": "call back / call somebody back",
+      "targetMeaningZh": "再次致電;回覆某人的電話"
+    },
+    {
+      "id": "phrasal-verb-233-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Could you visit briefly on your way to the station?",
+      "promptZh": "你前往車站途中可以順道短暫探訪嗎?",
+      "starter": "Could",
+      "answer": "Could you call by on your way to the station?",
+      "answerZh": "你前往車站途中可以順道短暫探訪嗎?",
+      "highlight": "call by",
+      "targetForm": "call by / call in / call round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-233-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "The students are demanding more time for lunch.",
+      "promptZh": "學生正要求有更多午飯時間。",
+      "starter": "The",
+      "answer": "The students are calling for more time for lunch.",
+      "answerZh": "學生正要求有更多午飯時間。",
+      "highlight": "calling for",
+      "targetForm": "call for something / call for somebody to do something",
+      "targetMeaningZh": "公開要求;呼籲"
+    },
+    {
+      "id": "phrasal-verb-233-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "We had visited Uncle Ray before we went to the airport.",
+      "promptZh": "我們前往機場前曾探望 Ray 叔叔。",
+      "starter": "We",
+      "answer": "We had called on Uncle Ray before we went to the airport.",
+      "answerZh": "我們前往機場前曾探望 Ray 叔叔。",
+      "highlight": "called on",
+      "targetForm": "call on somebody",
+      "targetMeaningZh": "探訪某人"
+    },
+    {
+      "id": "phrasal-verb-233-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "The volunteers may be formally asked to help at short notice.",
+      "promptZh": "義工可能會在短時間內被正式要求提供協助。",
+      "starter": "The",
+      "answer": "The volunteers may be called on to help at short notice.",
+      "answerZh": "義工可能會在短時間內被正式要求提供協助。",
+      "highlight": "called on",
+      "targetForm": "call on/upon somebody to do something",
+      "targetMeaningZh": "正式要求或呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-233-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "During the long wait, Nina is using every bit of patience she has.",
+      "promptZh": "在漫長的等候期間,Nina 正運用自己所有的耐性。",
+      "starter": "During",
+      "answer": "During the long wait, Nina is calling on all her patience.",
+      "answerZh": "在漫長的等候期間,Nina 正運用自己所有的耐性。",
+      "highlight": "calling on all her",
+      "targetForm": "call on/upon something",
+      "targetMeaningZh": "運用某種能力、力量或資源"
+    },
+    {
+      "id": "phrasal-verb-233-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "Why did you not shout to me when you saw the danger?",
+      "promptZh": "你看見危險時,為甚麼沒有大聲叫我?",
+      "starter": "Why",
+      "answer": "Why did you not call out to me when you saw the danger?",
+      "answerZh": "你看見危險時,為甚麼沒有大聲叫我?",
+      "highlight": "call out",
+      "targetForm": "call out / call something out",
+      "targetMeaningZh": "大聲呼叫或喊出"
+    },
+    {
+      "id": "phrasal-verb-233-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "The nurse was asked to leave the room because of an emergency.",
+      "promptZh": "護士因為有緊急事故而被叫離房間。",
+      "starter": "The",
+      "answer": "The nurse was called away because of an emergency.",
+      "answerZh": "護士因為有緊急事故而被叫走。",
+      "highlight": "called away",
+      "targetForm": "call somebody away",
+      "targetMeaningZh": "把某人叫走"
+    },
+    {
+      "id": "phrasal-verb-233-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "The coach has asked Ben to return to the field.",
+      "promptZh": "教練已叫 Ben 回到球場。",
+      "starter": "The",
+      "answer": "The coach has called Ben back to the field.",
+      "answerZh": "教練已叫 Ben 回到球場。",
+      "highlight": "called",
+      "targetForm": "call somebody back",
+      "targetMeaningZh": "叫某人回來"
+    },
+    {
+      "id": "phrasal-verb-233-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Ask your sister to come downstairs before the taxi arrives.",
+      "promptZh": "的士到達前,叫你的姐姐下樓。",
+      "starter": "Call",
+      "answer": "Call your sister down before the taxi arrives.",
+      "answerZh": "的士到達前,叫你的姐姐下樓。",
+      "highlight": "Call",
+      "targetForm": "call somebody down",
+      "targetMeaningZh": "叫某人下樓"
+    },
+    {
+      "id": "phrasal-verb-233-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "If the noise continues, we will ask the police to come.",
+      "promptZh": "如果噪音持續,我們會召來警方。",
+      "starter": "If",
+      "answer": "If the noise continues, we will call the police in.",
+      "answerZh": "如果噪音持續,我們會召來警方。",
+      "highlight": "call",
+      "targetForm": "call somebody in",
+      "targetMeaningZh": "召來專家、警方或其他人員"
+    },
+    {
+      "id": "phrasal-verb-233-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Did you ask the electrician to come and repair the lights?",
+      "promptZh": "你有請電工到場修理電燈嗎?",
+      "starter": "Did",
+      "answer": "Did you call the electrician out to repair the lights?",
+      "answerZh": "你有召電工到場修理電燈嗎?",
+      "highlight": "call",
+      "targetForm": "call somebody out",
+      "targetMeaningZh": "召人到場處理問題"
+    },
+    {
+      "id": "phrasal-verb-233-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Could you ask the teacher to come over here?",
+      "promptZh": "你可以叫老師走過來嗎?",
+      "starter": "Could",
+      "answer": "Could you call the teacher over here?",
+      "answerZh": "你可以叫老師走過來嗎?",
+      "highlight": "call",
+      "targetForm": "call somebody over",
+      "targetMeaningZh": "叫某人走近"
+    },
+    {
+      "id": "phrasal-verb-233-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Young men may be ordered to join the army during a war.",
+      "promptZh": "戰爭期間,年輕男子可能會被徵召入伍。",
+      "starter": "Young",
+      "answer": "Young men may be called up during a war.",
+      "answerZh": "戰爭期間,年輕男子可能會被徵召入伍。",
+      "highlight": "called up",
+      "targetForm": "call somebody up",
+      "targetMeaningZh": "徵召某人服兵役"
+    },
+    {
+      "id": "phrasal-verb-233-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "The owner ordered the dog to stop before it bit the runner.",
+      "promptZh": "主人在狗咬到跑手前命令牠停下來。",
+      "starter": "The",
+      "answer": "The owner called the dog off before it bit the runner.",
+      "answerZh": "主人在狗咬到跑手前叫牠停止追趕。",
+      "highlight": "called",
+      "targetForm": "call somebody/something off",
+      "targetMeaningZh": "叫某人或動物停止追趕或攻擊"
+    },
+    {
+      "id": "phrasal-verb-233-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "Angry with everyone who opposed him, the ruler placed curses on them.",
+      "promptZh": "統治者對所有反對他的人感到憤怒,並詛咒他們。",
+      "starter": "Angry",
+      "answer": "Angry with everyone who opposed him, the ruler called down curses on them.",
+      "answerZh": "統治者對所有反對他的人感到憤怒,並祈求詛咒降臨他們身上。",
+      "highlight": "called down",
+      "targetForm": "call something down on/upon somebody",
+      "targetMeaningZh": "祈求詛咒或懲罰降臨某人"
+    },
+    {
+      "id": "phrasal-verb-233-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "Since yesterday, the announcement has caused a lot of public interest.",
+      "promptZh": "自昨天起,這項公布引起了公眾的廣泛興趣。",
+      "starter": "Since",
+      "answer": "Since yesterday, the announcement has called forth a lot of public interest.",
+      "answerZh": "自昨天起,這項公布引起了公眾的廣泛興趣。",
+      "highlight": "called forth",
+      "targetForm": "call something forth",
+      "targetMeaningZh": "引起或激起某種反應"
+    },
+    {
+      "id": "phrasal-verb-233-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "All the unsafe chargers are being returned to the company.",
+      "promptZh": "所有不安全的充電器正被送回公司。",
+      "starter": "All",
+      "answer": "All the unsafe chargers are being called in by the company.",
+      "answerZh": "公司正收回所有不安全的充電器。",
+      "highlight": "called in by",
+      "targetForm": "call something in",
+      "targetMeaningZh": "收回有問題的產品"
+    },
+    {
+      "id": "phrasal-verb-233-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "They have not cancelled tomorrow’s trip.",
+      "promptZh": "他們沒有取消明天的旅程。",
+      "starter": "They",
+      "answer": "They have not called off tomorrow’s trip.",
+      "answerZh": "他們沒有取消明天的旅程。",
+      "highlight": "called off",
+      "targetForm": "call something off",
+      "targetMeaningZh": "取消某事"
+    },
+    {
+      "id": "phrasal-verb-233-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "You can display the timetable on the screen in a few seconds.",
+      "promptZh": "你可以在數秒內把時間表調到螢幕上。",
+      "starter": "You",
+      "answer": "You can call up the timetable on the screen in a few seconds.",
+      "answerZh": "你可以在數秒內把時間表調到螢幕上。",
+      "highlight": "call up",
+      "targetForm": "call something up",
+      "targetMeaningZh": "在電腦上調出資料或檔案"
+    },
+    {
+      "id": "phrasal-verb-233-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "Why do you not telephone Alex and invite him?",
+      "promptZh": "你為甚麼不致電 Alex 邀請他?",
+      "starter": "Why",
+      "answer": "Why do you not call Alex up and invite him?",
+      "answerZh": "你為甚麼不致電 Alex 邀請他?",
+      "highlight": "call",
+      "targetForm": "call up / call somebody up",
+      "targetMeaningZh": "致電某人或某機構"
+    },
+    {
+      "id": "phrasal-verb-233-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "I left a message. Please return my phone call when you are free.",
+      "promptZh": "我留下了口訊。你有空時請回覆我的電話。",
+      "starter": "I",
+      "answer": "I left a message. Please call me back when you are free.",
+      "answerZh": "我留下了口訊。你有空時請回覆我的電話。",
+      "highlight": "call me back",
+      "targetForm": "call back / call somebody back",
+      "targetMeaningZh": "再次致電;回覆某人的電話"
+    },
+    {
+      "id": "phrasal-verb-233-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The guard dog ran towards us, but the owner ordered it to stop.",
+      "promptZh": "看門狗向我們跑來,但主人命令牠停下來。",
+      "starter": "The",
+      "answer": "The guard dog ran towards us, but the owner called it off.",
+      "answerZh": "看門狗向我們跑來,但主人叫牠停止追趕。",
+      "highlight": "called",
+      "targetForm": "call somebody/something off",
+      "targetMeaningZh": "叫某人或動物停止追趕或攻擊"
+    },
+    {
+      "id": "phrasal-verb-233-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The email contains the address. Can you display it on the screen?",
+      "promptZh": "電郵內有地址。你可以把它調到螢幕上嗎?",
+      "starter": "The",
+      "answer": "The email contains the address. Can you call it up on the screen?",
+      "answerZh": "電郵內有地址。你可以把它調到螢幕上嗎?",
+      "highlight": "call",
+      "targetForm": "call something up",
+      "targetMeaningZh": "在電腦上調出資料或檔案"
+    },
+    {
+      "id": "phrasal-verb-233-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "We were passing your street, so we visited briefly.",
+      "promptZh": "我們剛好經過你住的街道,所以順道短暫探訪。",
+      "starter": "We",
+      "answer": "We were passing your street, so we called in briefly.",
+      "answerZh": "我們剛好經過你住的街道,所以順道短暫探訪。",
+      "highlight": "called in",
+      "targetForm": "call by / call in / call round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-233-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The school needed help, so it asked two police officers to come.",
+      "promptZh": "學校需要協助,所以召來兩名警員。",
+      "starter": "The",
+      "answer": "The school needed help, so it called two police officers in.",
+      "answerZh": "學校需要協助,所以召來兩名警員。",
+      "highlight": "called",
+      "targetForm": "call somebody in",
+      "targetMeaningZh": "召來專家、警方或其他人員"
+    },
+    {
+      "id": "phrasal-verb-233-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "The guide shouted the final instruction to us.",
+      "promptZh": "導遊向我們大聲喊出最後一項指示。",
+      "starter": "The",
+      "answer": "The guide called the final instruction out to us.",
+      "answerZh": "導遊向我們大聲喊出最後一項指示。",
+      "highlight": "called",
+      "targetForm": "call out / call something out",
+      "targetMeaningZh": "大聲呼叫或喊出"
+    },
+    {
+      "id": "phrasal-verb-233-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "Grace had almost crossed the road when her father asked her to return.",
+      "promptZh": "Grace 幾乎走過馬路時,父親叫她回來。",
+      "starter": "Grace",
+      "answer": "Grace had almost crossed the road when her father called her back.",
+      "answerZh": "Grace 幾乎走過馬路時,父親叫她回來。",
+      "highlight": "called",
+      "targetForm": "call somebody back",
+      "targetMeaningZh": "叫某人回來"
+    },
+    {
+      "id": "phrasal-verb-233-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "During the crisis, the team used its emergency savings.",
+      "promptZh": "危機期間,球隊運用了緊急儲備。",
+      "starter": "During",
+      "answer": "During the crisis, the team called on its emergency savings.",
+      "answerZh": "危機期間,球隊運用了緊急儲備。",
+      "highlight": "called on",
+      "targetForm": "call on/upon something",
+      "targetMeaningZh": "運用某種能力、力量或資源"
+    },
+    {
+      "id": "phrasal-verb-233-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "Wanting to speak to Leo, the manager asked him to come nearer.",
+      "promptZh": "經理想和 Leo 說話,便叫他走近。",
+      "starter": "Wanting",
+      "answer": "Wanting to speak to Leo, the manager called him over.",
+      "answerZh": "經理想和 Leo 說話,便叫他走近。",
+      "highlight": "called",
+      "targetForm": "call somebody over",
+      "targetMeaningZh": "叫某人走近"
+    },
+    {
+      "id": "phrasal-verb-233-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "After the price rise, the group demanded that the company lower its prices.",
+      "promptZh": "價格上升後,該團體要求公司降低價格。",
+      "starter": "After",
+      "answer": "After the price rise, the group called for the company to lower its prices.",
+      "answerZh": "價格上升後,該團體要求公司降低價格。",
+      "highlight": "called for",
+      "targetForm": "call for something / call for somebody to do something",
+      "targetMeaningZh": "公開要求;呼籲"
+    },
+    {
+      "id": "phrasal-verb-233-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "To everyone’s surprise, the quiet speech caused a feeling of hope.",
+      "promptZh": "令所有人意外的是,這篇平靜的演說令人產生希望。",
+      "starter": "To",
+      "answer": "To everyone’s surprise, the quiet speech called forth a feeling of hope.",
+      "answerZh": "令所有人意外的是,這篇平靜的演說令人產生希望。",
+      "highlight": "called forth",
+      "targetForm": "call something forth",
+      "targetMeaningZh": "引起或激起某種反應"
+    },
+    {
+      "id": "phrasal-verb-233-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "After the shop sold unsafe heaters, the company asked for them to be returned.",
+      "promptZh": "店舖出售不安全的暖爐後,公司要求收回這些產品。",
+      "starter": "After",
+      "answer": "After the shop sold unsafe heaters, the company called them in.",
+      "answerZh": "店舖出售不安全的暖爐後,公司收回了這些產品。",
+      "highlight": "called",
+      "targetForm": "call something in",
+      "targetMeaningZh": "收回有問題的產品"
+    },
+    {
+      "id": "phrasal-verb-233-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "I was upstairs when Dad asked me to come downstairs.",
+      "promptZh": "爸爸叫我下樓時,我正在樓上。",
+      "starter": "I",
+      "answer": "I was upstairs when Dad called me down.",
+      "answerZh": "爸爸叫我下樓時,我正在樓上。",
+      "highlight": "called",
+      "targetForm": "call somebody down",
+      "targetMeaningZh": "叫某人下樓"
+    },
+    {
+      "id": "phrasal-verb-233-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "We may be formally asked to give extra help during the event.",
+      "promptZh": "活動期間,我們可能會被正式要求提供額外協助。",
+      "starter": "We",
+      "answer": "We may be called upon to give extra help during the event.",
+      "answerZh": "活動期間,我們可能會被正式要求提供額外協助。",
+      "highlight": "called upon",
+      "targetForm": "call on/upon somebody to do something",
+      "targetMeaningZh": "正式要求或呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-233-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "She phoned all the clinics in the area to find an appointment.",
+      "promptZh": "她致電區內所有診所,希望找到預約時段。",
+      "starter": "She",
+      "answer": "She called around the clinics in the area to find an appointment.",
+      "answerZh": "她致電區內所有診所,希望找到預約時段。",
+      "highlight": "called around",
+      "targetForm": "call around / call around somebody/something",
+      "targetMeaningZh": "致電多個人或地方查詢資料"
+    },
+    {
+      "id": "phrasal-verb-233-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "Daniel was lonely, so I telephoned him.",
+      "promptZh": "Daniel 感到孤單,所以我致電給他。",
+      "starter": "Daniel",
+      "answer": "Daniel was lonely, so I called him up.",
+      "answerZh": "Daniel 感到孤單,所以我致電給他。",
+      "highlight": "called",
+      "targetForm": "call up / call somebody up",
+      "targetMeaningZh": "致電某人或某機構"
+    },
+    {
+      "id": "phrasal-verb-233-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "The engineer was at home. We asked him to come when the boiler stopped working.",
+      "promptZh": "鍋爐停止運作時,那名工程人員正在家中。我們請他到場。",
+      "starter": "The",
+      "answer": "The engineer was at home. We called him out when the boiler stopped working.",
+      "answerZh": "鍋爐停止運作時,那名工程人員正在家中。我們召他到場。",
+      "highlight": "called",
+      "targetForm": "call somebody out",
+      "targetMeaningZh": "召人到場處理問題"
+    },
+    {
+      "id": "phrasal-verb-233-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "An urgent message from the hospital made her leave dinner early.",
+      "promptZh": "醫院的一則緊急訊息令她提早離開晚餐聚會。",
+      "starter": "An",
+      "answer": "An urgent message from the hospital called her away from dinner.",
+      "answerZh": "醫院的一則緊急訊息把她從晚餐聚會中叫走。",
+      "highlight": "called",
+      "targetForm": "call somebody away",
+      "targetMeaningZh": "把某人叫走"
+    },
+    {
+      "id": "phrasal-verb-233-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "The storm became worse, so the organisers cancelled it.",
+      "promptZh": "暴風雨變得更嚴重,所以主辦單位取消了活動。",
+      "starter": "The",
+      "answer": "The storm became worse, so the organisers called it off.",
+      "answerZh": "暴風雨變得更嚴重,所以主辦單位取消了活動。",
+      "highlight": "called",
+      "targetForm": "call something off",
+      "targetMeaningZh": "取消某事"
+    },
+    {
+      "id": "phrasal-verb-233-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "At nineteen, he was ordered to join the army.",
+      "promptZh": "他十九歲時被徵召入伍。",
+      "starter": "At",
+      "answer": "At nineteen, he was called up for military service.",
+      "answerZh": "他十九歲時被徵召服兵役。",
+      "highlight": "called up for military service",
+      "targetForm": "call somebody up",
+      "targetMeaningZh": "徵召某人服兵役"
+    },
+    {
+      "id": "phrasal-verb-233-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "On our way home, we visited him for half an hour.",
+      "promptZh": "回家途中,我們探望了他半小時。",
+      "starter": "On",
+      "answer": "On our way home, we called on him for half an hour.",
+      "answerZh": "回家途中,我們探望了他半小時。",
+      "highlight": "called on",
+      "targetForm": "call on somebody",
+      "targetMeaningZh": "探訪某人"
+    },
+    {
+      "id": "phrasal-verb-233-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "The old woman in the story placed a curse upon them.",
+      "promptZh": "故事中的老婦人詛咒了他們。",
+      "starter": "The",
+      "answer": "The old woman in the story called down a curse upon them.",
+      "answerZh": "故事中的老婦人祈求詛咒降臨他們身上。",
+      "highlight": "called down",
+      "targetForm": "call something down on/upon somebody",
+      "targetMeaningZh": "祈求詛咒或懲罰降臨某人"
+    },
+    {
+      "id": "phrasal-verb-233-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "Before choosing a repair company, Ravi phoned several businesses to compare their prices.",
+      "promptZh": "選擇維修公司前,Ravi 致電多間公司比較價格。",
+      "starter": "Before",
+      "answer": "Before choosing a repair company, Ravi called around several businesses to compare their prices.",
+      "answerZh": "選擇維修公司前,Ravi 致電多間公司比較價格。",
+      "highlight": "called around",
+      "targetForm": "call around / call around somebody/something",
+      "targetMeaningZh": "致電多個人或地方查詢資料"
+    },
+    {
+      "id": "phrasal-verb-233-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "The restaurant had one free table, so I telephoned the restaurant and booked it.",
+      "promptZh": "餐廳尚有一張空桌,所以我致電餐廳並把它訂下。",
+      "starter": "The",
+      "answer": "The restaurant had one free table, so I called the restaurant up and booked it.",
+      "answerZh": "餐廳尚有一張空桌,所以我致電餐廳並把它訂下。",
+      "highlight": "called",
+      "targetForm": "call up / call somebody up",
+      "targetMeaningZh": "致電某人或某機構"
+    },
+    {
+      "id": "phrasal-verb-233-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "I saw your missed call during class and returned it as soon as the lesson ended.",
+      "promptZh": "我上課時看見你的未接來電,課堂一結束便回覆了電話。",
+      "starter": "I",
+      "answer": "I saw your missed call during class and called you back as soon as the lesson ended.",
+      "answerZh": "我上課時看見你的未接來電,課堂一結束便回覆了電話。",
+      "highlight": "called you back",
+      "targetForm": "call back / call somebody back",
+      "targetMeaningZh": "再次致電;回覆某人的電話"
+    },
+    {
+      "id": "phrasal-verb-233-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "We did not stay for dinner; we only visited briefly to return the keys.",
+      "promptZh": "我們沒有留下吃晚飯,只短暫探訪,把鎖匙交還。",
+      "starter": "We",
+      "answer": "We did not stay for dinner; we only called by to return the keys.",
+      "answerZh": "我們沒有留下吃晚飯,只順道短暫探訪,把鎖匙交還。",
+      "highlight": "called by",
+      "targetForm": "call by / call in / call round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-233-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "While they were in Bristol, they visited an old family friend at her home.",
+      "promptZh": "他們在 Bristol 時,到一位家庭舊友家中探望她。",
+      "starter": "While",
+      "answer": "While they were in Bristol, they called on an old family friend at her home.",
+      "answerZh": "他們在 Bristol 時,到一位家庭舊友家中探望她。",
+      "highlight": "called on",
+      "targetForm": "call on somebody",
+      "targetMeaningZh": "探訪某人"
+    },
+    {
+      "id": "phrasal-verb-233-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "After several near accidents, local people publicly demanded a lower speed limit.",
+      "promptZh": "發生數宗差點釀成意外的事件後,本區居民公開要求降低車速限制。",
+      "starter": "After",
+      "answer": "After several near accidents, local people called for a lower speed limit.",
+      "answerZh": "發生數宗差點釀成意外的事件後,本區居民公開要求降低車速限制。",
+      "highlight": "called for",
+      "targetForm": "call for something / call for somebody to do something",
+      "targetMeaningZh": "公開要求;呼籲"
+    },
+    {
+      "id": "phrasal-verb-233-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "At the end of the speech, the leader formally asked everyone to remain peaceful.",
+      "promptZh": "演說結束時,領袖正式呼籲所有人保持和平。",
+      "starter": "At",
+      "answer": "At the end of the speech, the leader called on everyone to remain peaceful.",
+      "answerZh": "演說結束時,領袖正式呼籲所有人保持和平。",
+      "highlight": "called on",
+      "targetForm": "call on/upon somebody to do something",
+      "targetMeaningZh": "正式要求或呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-233-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "With no one else to help, the climber used her last reserves of strength.",
+      "promptZh": "在沒有人可以幫忙的情況下,那名攀山者用盡最後的力量。",
+      "starter": "With",
+      "answer": "With no one else to help, the climber called on her last reserves of strength.",
+      "answerZh": "在沒有人可以幫忙的情況下,那名攀山者用盡最後的力量。",
+      "highlight": "called on",
+      "targetForm": "call on/upon something",
+      "targetMeaningZh": "運用某種能力、力量或資源"
+    },
+    {
+      "id": "phrasal-verb-233-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The station was noisy, so Noah shouted the platform number to his friends.",
+      "promptZh": "車站十分嘈吵,所以 Noah 向朋友大聲喊出月台號碼。",
+      "starter": "The",
+      "answer": "The station was noisy, so Noah called out the platform number to his friends.",
+      "answerZh": "車站十分嘈吵,所以 Noah 向朋友大聲喊出月台號碼。",
+      "highlight": "called out",
+      "targetForm": "call out / call something out",
+      "targetMeaningZh": "大聲呼叫或喊出"
+    },
+    {
+      "id": "phrasal-verb-233-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The lawyer had just started lunch when an urgent case made him leave.",
+      "promptZh": "律師剛開始吃午飯,一宗緊急案件便令他離開。",
+      "starter": "The",
+      "answer": "The lawyer had just started lunch when an urgent case called him away.",
+      "answerZh": "律師剛開始吃午飯,一宗緊急案件便把他叫走。",
+      "highlight": "called",
+      "targetForm": "call somebody away",
+      "targetMeaningZh": "把某人叫走"
+    },
+    {
+      "id": "phrasal-verb-233-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "A child wandered towards the car park, and his mother shouted for him to return.",
+      "promptZh": "一名小孩走向停車場,母親大聲叫他回來。",
+      "starter": "A",
+      "answer": "A child wandered towards the car park, and his mother called him back.",
+      "answerZh": "一名小孩走向停車場,母親大聲叫他回來。",
+      "highlight": "called",
+      "targetForm": "call somebody back",
+      "targetMeaningZh": "叫某人回來"
+    },
+    {
+      "id": "phrasal-verb-233-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "Lunch was ready, so I asked everyone upstairs to come down.",
+      "promptZh": "午飯準備好了,所以我叫樓上的所有人下來。",
+      "starter": "Lunch",
+      "answer": "Lunch was ready, so I called everyone down from upstairs.",
+      "answerZh": "午飯準備好了,所以我叫樓上的所有人下來。",
+      "highlight": "called",
+      "targetForm": "call somebody down",
+      "targetMeaningZh": "叫某人下樓"
+    },
+    {
+      "id": "phrasal-verb-233-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The team could not fix the computer, so it asked an outside expert to come.",
+      "promptZh": "團隊無法修理電腦,所以召來一名外來專家。",
+      "starter": "The",
+      "answer": "The team could not fix the computer, so it called an outside expert in.",
+      "answerZh": "團隊無法修理電腦,所以召來一名外來專家。",
+      "highlight": "called",
+      "targetForm": "call somebody in",
+      "targetMeaningZh": "召來專家、警方或其他人員"
+    },
+    {
+      "id": "phrasal-verb-233-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The heating failed on a cold night, so the family asked an engineer to come to the house.",
+      "promptZh": "暖氣在寒冷的晚上故障,所以那家人請工程人員到家中。",
+      "starter": "The",
+      "answer": "The heating failed on a cold night, so the family called an engineer out to the house.",
+      "answerZh": "暖氣在寒冷的晚上故障,所以那家人召工程人員到家中。",
+      "highlight": "called",
+      "targetForm": "call somebody out",
+      "targetMeaningZh": "召人到場處理問題"
+    },
+    {
+      "id": "phrasal-verb-233-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The customer had a question and signalled for the shop assistant to come closer.",
+      "promptZh": "顧客有一條問題,便示意店員走近。",
+      "starter": "The",
+      "answer": "The customer had a question and called the shop assistant over.",
+      "answerZh": "顧客有一條問題,便叫店員走近。",
+      "highlight": "called",
+      "targetForm": "call somebody over",
+      "targetMeaningZh": "叫某人走近"
+    },
+    {
+      "id": "phrasal-verb-233-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "Although he wanted to continue university, the army ordered him to begin military service.",
+      "promptZh": "雖然他想繼續讀大學,但軍方徵召他開始服兵役。",
+      "starter": "Although",
+      "answer": "Although he wanted to continue university, he was called up for military service.",
+      "answerZh": "雖然他想繼續讀大學,但他被徵召服兵役。",
+      "highlight": "he was called up for",
+      "targetForm": "call somebody up",
+      "targetMeaningZh": "徵召某人服兵役"
+    },
+    {
+      "id": "phrasal-verb-233-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The guard was holding the visitor, but the manager ordered the guard to stop.",
+      "promptZh": "保安員正捉住訪客,但經理命令他停止。",
+      "starter": "The",
+      "answer": "The guard was holding the visitor, but the manager called the guard off.",
+      "answerZh": "保安員正捉住訪客,但經理叫他停止。",
+      "highlight": "called",
+      "targetForm": "call somebody/something off",
+      "targetMeaningZh": "叫某人或動物停止追趕或攻擊"
+    },
+    {
+      "id": "phrasal-verb-233-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The angry character in the play asked the gods to send their anger upon his enemies.",
+      "promptZh": "劇中的憤怒角色祈求眾神把怒火降在敵人身上。",
+      "starter": "The",
+      "answer": "The angry character in the play called down the anger of the gods upon his enemies.",
+      "answerZh": "劇中的憤怒角色祈求眾神把怒火降在敵人身上。",
+      "highlight": "called down the anger of",
+      "targetForm": "call something down on/upon somebody",
+      "targetMeaningZh": "祈求詛咒或懲罰降臨某人"
+    },
+    {
+      "id": "phrasal-verb-233-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The minister’s careless remark caused harsh criticism in the newspapers.",
+      "promptZh": "部長不小心的言論引起報章嚴厲批評。",
+      "starter": "The",
+      "answer": "The minister’s careless remark called forth harsh criticism in the newspapers.",
+      "answerZh": "部長不小心的言論引起報章嚴厲批評。",
+      "highlight": "called forth",
+      "targetForm": "call something forth",
+      "targetMeaningZh": "引起或激起某種反應"
+    },
+    {
+      "id": "phrasal-verb-233-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "After finding a dangerous fault, the maker asked every shop to return every unit of the product.",
+      "promptZh": "發現危險故障後,製造商要求每間店舖退回每一件產品。",
+      "starter": "After",
+      "answer": "After finding a dangerous fault, the maker called in every unit of the product.",
+      "answerZh": "發現危險故障後,製造商收回了每一件產品。",
+      "highlight": "called in",
+      "targetForm": "call something in",
+      "targetMeaningZh": "收回有問題的產品"
+    },
+    {
+      "id": "phrasal-verb-233-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "Because the pitch was under water, the referee cancelled the match.",
+      "promptZh": "由於球場被水淹浸,球證取消了比賽。",
+      "starter": "Because",
+      "answer": "Because the pitch was under water, the referee called off the match.",
+      "answerZh": "由於球場被水淹浸,球證取消了比賽。",
+      "highlight": "called off",
+      "targetForm": "call something off",
+      "targetMeaningZh": "取消某事"
+    },
+    {
+      "id": "phrasal-verb-233-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "The receptionist displayed the customer’s record on the computer and found the booking.",
+      "promptZh": "接待員在電腦上調出顧客的紀錄,找到了預訂資料。",
+      "starter": "The",
+      "answer": "The receptionist called up the customer’s record on the computer and found the booking.",
+      "answerZh": "接待員在電腦上調出顧客的紀錄,找到了預訂資料。",
+      "highlight": "called up",
+      "targetForm": "call something up",
+      "targetMeaningZh": "在電腦上調出資料或檔案"
+    },
+    {
+      "id": "phrasal-verb-233-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "The town had already tried several small changes; now the council formally asked the government to provide more help.",
+      "promptZh": "鎮上已嘗試多項小改動;現在市議會正式要求政府提供更多協助。",
+      "starter": "The",
+      "answer": "The town had already tried several small changes; now the council called upon the government to provide more help.",
+      "answerZh": "鎮上已嘗試多項小改動;現在市議會正式要求政府提供更多協助。",
+      "highlight": "called upon",
+      "targetForm": "call on/upon somebody to do something",
+      "targetMeaningZh": "正式要求或呼籲某人做某事"
+    },
+    {
+      "id": "phrasal-verb-233-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "Everyone had arrived for the outdoor concert when lightning began, forcing the organisers to cancel it.",
+      "promptZh": "所有人都已到達戶外音樂會場地,閃電卻突然出現,迫使主辦單位取消活動。",
+      "starter": "Everyone",
+      "answer": "Everyone had arrived for the outdoor concert when lightning began, forcing the organisers to call it off.",
+      "answerZh": "所有人都已到達戶外音樂會場地,閃電卻突然出現,迫使主辦單位取消活動。",
+      "highlight": "call",
+      "targetForm": "call something off",
+      "targetMeaningZh": "取消某事"
+    },
+    {
+      "id": "phrasal-verb-233-q91",
+      "number": 91,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "Nina wanted a same-day appointment, so she spent the morning phoning different dentists until one had space.",
+      "promptZh": "Nina 希望即日看牙醫,所以整個早上致電不同牙醫,直至找到空缺。",
+      "starter": "Nina",
+      "answer": "Nina wanted a same-day appointment, so she spent the morning calling around different dentists until one had space.",
+      "answerZh": "Nina 希望即日看牙醫,所以整個早上致電不同牙醫,直至找到空缺。",
+      "highlight": "calling around",
+      "targetForm": "call around / call around somebody/something",
+      "targetMeaningZh": "致電多個人或地方查詢資料"
+    },
+    {
+      "id": "phrasal-verb-233-q92",
+      "number": 92,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "The short video was meant to be funny, but instead it caused anger and many complaints.",
+      "promptZh": "這段短片本來想逗人發笑,卻引起憤怒和許多投訴。",
+      "starter": "The",
+      "answer": "The short video was meant to be funny, but instead it called forth anger and many complaints.",
+      "answerZh": "這段短片本來想逗人發笑,卻引起憤怒和許多投訴。",
+      "highlight": "called forth",
+      "targetForm": "call something forth",
+      "targetMeaningZh": "引起或激起某種反應"
+    },
+    {
+      "id": "phrasal-verb-233-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "The children were playing upstairs, and their father asked them to come down because the guests had arrived.",
+      "promptZh": "孩子們正在樓上玩耍,父親因客人已到而叫他們下樓。",
+      "starter": "The",
+      "answer": "The children were playing upstairs, and their father called them down because the guests had arrived.",
+      "answerZh": "孩子們正在樓上玩耍,父親因客人已到而叫他們下樓。",
+      "highlight": "called",
+      "targetForm": "call somebody down",
+      "targetMeaningZh": "叫某人下樓"
+    },
+    {
+      "id": "phrasal-verb-233-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "We were near Daniel’s house and had only a few minutes, so we visited briefly without staying for tea.",
+      "promptZh": "我們在 Daniel 家附近,而且只有幾分鐘,所以只順道短暫探訪,沒有留下喝茶。",
+      "starter": "We",
+      "answer": "We were near Daniel’s house and had only a few minutes, so we called round without staying for tea.",
+      "answerZh": "我們在 Daniel 家附近,而且只有幾分鐘,所以只順道短暫探訪,沒有留下喝茶。",
+      "highlight": "called round",
+      "targetForm": "call by / call in / call round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-233-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "He had just started his first job when the government ordered him to begin military service.",
+      "promptZh": "他剛開始第一份工作,政府便徵召他服兵役。",
+      "starter": "He",
+      "answer": "He had just started his first job when he was called up for military service.",
+      "answerZh": "他剛開始第一份工作,便被徵召服兵役。",
+      "highlight": "he was called up for",
+      "targetForm": "call somebody up",
+      "targetMeaningZh": "徵召某人服兵役"
+    },
+    {
+      "id": "phrasal-verb-233-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "The final climb was harder than expected, and Sara had to use every last bit of courage and energy.",
+      "promptZh": "最後一段攀爬比預期困難,Sara 必須用盡最後一點勇氣和體力。",
+      "starter": "The",
+      "answer": "The final climb was harder than expected, and Sara had to call on every last bit of courage and energy.",
+      "answerZh": "最後一段攀爬比預期困難,Sara 必須用盡最後一點勇氣和體力。",
+      "highlight": "call on",
+      "targetForm": "call on/upon something",
+      "targetMeaningZh": "運用某種能力、力量或資源"
+    },
+    {
+      "id": "phrasal-verb-233-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "The website would not accept the booking, so I telephoned the airline and reserved the seats.",
+      "promptZh": "網站無法接受預訂,所以我致電航空公司預留座位。",
+      "starter": "The",
+      "answer": "The website would not accept the booking, so I called up the airline and reserved the seats.",
+      "answerZh": "網站無法接受預訂,所以我致電航空公司預留座位。",
+      "highlight": "called up",
+      "targetForm": "call up / call somebody up",
+      "targetMeaningZh": "致電某人或某機構"
+    },
+    {
+      "id": "phrasal-verb-233-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "At two in the morning, the baby’s fever rose sharply, so the parents asked a doctor to come to the house.",
+      "promptZh": "凌晨兩時,嬰兒的體溫急升,所以父母請醫生到家中。",
+      "starter": "At",
+      "answer": "At two in the morning, the baby’s fever rose sharply, so the parents called a doctor out to the house.",
+      "answerZh": "凌晨兩時,嬰兒的體溫急升,所以父母召醫生到家中。",
+      "highlight": "called",
+      "targetForm": "call somebody out",
+      "targetMeaningZh": "召人到場處理問題"
+    },
+    {
+      "id": "phrasal-verb-233-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "The river was becoming dirtier, and local groups publicly demanded that the factory stop releasing waste.",
+      "promptZh": "河流愈來愈骯髒,本地團體公開要求工廠停止排放廢物。",
+      "starter": "The",
+      "answer": "The river was becoming dirtier, and local groups called for the factory to stop releasing waste.",
+      "answerZh": "河流愈來愈骯髒,本地團體公開要求工廠停止排放廢物。",
+      "highlight": "called for",
+      "targetForm": "call for something / call for somebody to do something",
+      "targetMeaningZh": "公開要求;呼籲"
+    },
+    {
+      "id": "phrasal-verb-233-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "The manager remembered the report but not its details, so she displayed the file on her laptop during the meeting.",
+      "promptZh": "經理記得那份報告,卻不記得細節,所以在會議期間於手提電腦上調出檔案。",
+      "starter": "The",
+      "answer": "The manager remembered the report but not its details, so she called up the file on her laptop during the meeting.",
+      "answerZh": "經理記得那份報告,卻不記得細節,所以在會議期間於手提電腦上調出檔案。",
+      "highlight": "called up",
+      "targetForm": "call something up",
+      "targetMeaningZh": "在電腦上調出資料或檔案"
+    },
+    {
+      "id": "phrasal-verb-233-q101",
+      "number": 101,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "Ben left the shop without his bag, but the assistant noticed it and shouted for him to return.",
+      "promptZh": "Ben 沒有拿袋便離開店舖,但店員發現後大聲叫他回來。",
+      "starter": "Ben",
+      "answer": "Ben left the shop without his bag, but the assistant noticed it and called him back.",
+      "answerZh": "Ben 沒有拿袋便離開店舖,但店員發現後叫他回來。",
+      "highlight": "called",
+      "targetForm": "call somebody back",
+      "targetMeaningZh": "叫某人回來"
+    },
+    {
+      "id": "phrasal-verb-233-q102",
+      "number": 102,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Several customers reported smoke from the new toaster, so the maker asked all stores to return every unit.",
+      "promptZh": "數名顧客表示新多士爐冒煙,所以製造商要求所有店舖退回每一部產品。",
+      "starter": "Several",
+      "answer": "Several customers reported smoke from the new toaster, so the maker called in every unit.",
+      "answerZh": "數名顧客表示新多士爐冒煙,所以製造商收回了每一部產品。",
+      "highlight": "called in",
+      "targetForm": "call something in",
+      "targetMeaningZh": "收回有問題的產品"
+    },
+    {
+      "id": "phrasal-verb-233-q103",
+      "number": 103,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Although the journey was long, we visited Grandad before returning home because he had been unwell.",
+      "promptZh": "雖然路程很長,但我們因祖父早前身體不適,在回家前探望了他。",
+      "starter": "Although",
+      "answer": "Although the journey was long, we called on Grandad before returning home because he had been unwell.",
+      "answerZh": "雖然路程很長,但我們因祖父早前身體不適,在回家前探望了他。",
+      "highlight": "called on",
+      "targetForm": "call on somebody",
+      "targetMeaningZh": "探訪某人"
+    },
+    {
+      "id": "phrasal-verb-233-q104",
+      "number": 104,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "I could not answer while driving, but I returned the call as soon as I parked safely.",
+      "promptZh": "我駕車時無法接聽,但安全泊車後便立即回覆電話。",
+      "starter": "I",
+      "answer": "I could not answer while driving, but I called back as soon as I parked safely.",
+      "answerZh": "我駕車時無法接聽,但安全泊車後便立即回覆電話。",
+      "highlight": "called back",
+      "targetForm": "call back / call somebody back",
+      "targetMeaningZh": "再次致電;回覆某人的電話"
+    },
+    {
+      "id": "phrasal-verb-233-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Believing that the villagers had betrayed him, the old ruler asked heaven to punish them.",
+      "promptZh": "那名古老統治者相信村民背叛了他,於是祈求上天懲罰他們。",
+      "starter": "Believing",
+      "answer": "Believing that the villagers had betrayed him, the old ruler called down heaven’s punishment on them.",
+      "answerZh": "那名古老統治者相信村民背叛了他,於是祈求上天降下懲罰。",
+      "highlight": "called down heaven’s punishment on",
+      "targetForm": "call something down on/upon somebody",
+      "targetMeaningZh": "祈求詛咒或懲罰降臨某人"
+    },
+    {
+      "id": "phrasal-verb-233-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Seeing that the older patient looked worried, the nurse asked him to come closer and speak quietly.",
+      "promptZh": "護士看見年長病人神情憂慮,便叫他走近並輕聲交談。",
+      "starter": "Seeing",
+      "answer": "Seeing that the older patient looked worried, the nurse called him over to speak quietly.",
+      "answerZh": "護士看見年長病人神情憂慮,便叫他走近並輕聲交談。",
+      "highlight": "called",
+      "targetForm": "call somebody over",
+      "targetMeaningZh": "叫某人走近"
+    },
+    {
+      "id": "phrasal-verb-233-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "While the head teacher was answering questions, news of an accident made her leave the hall at once.",
+      "promptZh": "校長正在回答問題時,一宗意外的消息令她立即離開禮堂。",
+      "starter": "While",
+      "answer": "While the head teacher was answering questions, news of an accident called her away from the hall.",
+      "answerZh": "校長正在回答問題時,一宗意外的消息把她從禮堂叫走。",
+      "highlight": "called",
+      "targetForm": "call somebody away",
+      "targetMeaningZh": "把某人叫走"
+    },
+    {
+      "id": "phrasal-verb-233-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "After the dog cornered the cat, its owner quickly ordered it to stop and come away.",
+      "promptZh": "那隻狗把貓迫到角落後,主人迅速命令牠停止並離開。",
+      "starter": "After",
+      "answer": "After the dog cornered the cat, its owner quickly called it off.",
+      "answerZh": "那隻狗把貓迫到角落後,主人迅速叫牠停止。",
+      "highlight": "called",
+      "targetForm": "call somebody/something off",
+      "targetMeaningZh": "叫某人或動物停止追趕或攻擊"
+    },
+    {
+      "id": "phrasal-verb-233-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "Unable to see one another in the fog, the hikers shouted each other’s names across the valley.",
+      "promptZh": "遠足者在霧中看不見彼此,於是隔着山谷大聲喊對方的名字。",
+      "starter": "Unable",
+      "answer": "Unable to see one another in the fog, the hikers called out each other’s names across the valley.",
+      "answerZh": "遠足者在霧中看不見彼此,於是隔着山谷大聲喊對方的名字。",
+      "highlight": "called out",
+      "targetForm": "call out / call something out",
+      "targetMeaningZh": "大聲呼叫或喊出"
+    },
+    {
+      "id": "phrasal-verb-233-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "When the situation became violent, the manager decided that trained security staff were needed inside.",
+      "promptZh": "情況變得暴力時,經理決定需要召來受過訓練的保安人員進場。",
+      "starter": "When",
+      "answer": "When the situation became violent, the manager called trained security staff in.",
+      "answerZh": "情況變得暴力時,經理召來受過訓練的保安人員進場。",
+      "highlight": "called",
+      "targetForm": "call somebody in",
+      "targetMeaningZh": "召來專家、警方或其他人員"
+    }
+  ]
+}

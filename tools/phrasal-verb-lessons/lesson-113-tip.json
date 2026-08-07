@@ -1,0 +1,998 @@
+{
+  "id": "phrasal-verb-113",
+  "order": 113,
+  "slug": "tip",
+  "version": "1",
+  "title": "TIP 動詞片語",
+  "titleEn": "Tip",
+  "titleZh": "TIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verb 112 - TIP.pdf",
+    "sourceNumber": 112,
+    "pageCount": 51,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0,
+    "importedPageRange": [
+      1,
+      16
+    ]
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TIP",
+      "highlight": "TIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The bottle tipped over, and all the water spilled out.",
+      "zh": "瓶子翻倒了,所有水都流了出來。",
+      "highlight": "tipped over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She tipped her glass up and drank the last drop.",
+      "zh": "她把杯子傾起,喝掉最後一滴飲品。",
+      "highlight": "tipped her glass up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "翻倒;翻側;把某物弄翻；一端向上翹起;把某物的一端抬高或傾起",
+    "en": "tip over / tip something over; tip up / tip something up",
+    "naturalZh": [
+      "翻倒;翻側;把某物弄翻",
+      "一端向上翹起;把某物的一端抬高或傾起"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tip over / tip something over",
+      "titleZh": "翻倒;翻側;把某物弄翻",
+      "titleEn": "tip over / tip something over",
+      "descriptionZh": "翻倒;翻側;把某物弄翻",
+      "descriptionEn": "The bottle tipped over, and all the water spilled out.",
+      "examples": [
+        {
+          "en": "The bottle tipped over, and all the water spilled out.",
+          "zh": "瓶子翻倒了,所有水都流了出來。",
+          "highlight": "tipped over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tip up / tip something up",
+      "titleZh": "一端向上翹起;把某物的一端抬高或傾起",
+      "titleEn": "tip up / tip something up",
+      "descriptionZh": "一端向上翹起;把某物的一端抬高或傾起",
+      "descriptionEn": "She tipped her glass up and drank the last drop.",
+      "examples": [
+        {
+          "en": "She tipped her glass up and drank the last drop.",
+          "zh": "她把杯子傾起,喝掉最後一滴飲品。",
+          "highlight": "tipped her glass up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TIP 片語動詞的實際用途",
+    "labelEn": "TIP Phrasal Verbs in Use",
+    "summaryZh": "tip over 可以描述瓶子、椅子、箱子和小船失去直立位置。；tip up 可以描述獨木舟、木板、座椅或其他物件的一端向上移動。；tip something up 可以描述為了某個目的,小心把杯子、托盤或手推車傾起。；這些表達常用於談論打翻物件、搬動家具、小船和安全情況。",
+    "summaryEn": "Tip over lets you describe bottles, chairs, boxes and boats losing their upright position. Tip up helps you describe the front or end of a canoe, board, seat or other object moving upwards. Tip something up can describe raising a glass, tray or wheelbarrow carefully for a particular purpose. These expressions are useful when talking about spills, moving furniture, boats and safety.",
+    "contextsZh": [
+      "清楚描述物件翻倒或翻側",
+      "描述物件一端向上翹起",
+      "清楚說明有控制的傾起動作",
+      "理解日常警告和指示"
+    ],
+    "contextsEn": [
+      "Talk about things falling or being knocked onto their side",
+      "Describe one end rising",
+      "Explain controlled actions clearly",
+      "Understand everyday warnings and instructions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tip over / tip something over",
+    "fixedHighlight": "tip over / tip something over",
+    "fixedZh": "閱讀整句,選出意思相同的 TIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TIP expression that gives the same meaning.",
+    "correct": "tipped over",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；物件自行翻倒時用 tip over;有人或其他事物令它翻倒時用 tip something over。；物件一端向上翹起時用 tip up;有人把物件的一端抬高或傾起時用 tip something up。With it or them, use:tip it overtip them overtip it uptip them up使用 it 或 them 時,應把它們放在 tip 和 over/up 之間。",
+    "variableEn": "Keep the same people, things, time and meaning. Use tip over when something falls onto its side. Use tip something over when someone or something causes this. Use tip up when one end rises. Use tip something up when someone raises or tilts it.",
+    "variableItemsZh": [
+      "tip over / tip something over",
+      "tip up / tip something up"
+    ],
+    "variableItemsEn": [
+      "tip over / tip something over",
+      "tip up / tip something up"
+    ],
+    "forms": [
+      {
+        "formZh": "翻倒;翻側;把某物弄翻",
+        "formEn": "tip over / tip something over",
+        "exampleZh": "瓶子翻倒了,所有水都流了出來。",
+        "exampleEn": "The bottle tipped over, and all the water spilled out.",
+        "highlight": "tipped over"
+      },
+      {
+        "formZh": "一端向上翹起;把某物的一端抬高或傾起",
+        "formEn": "tip up / tip something up",
+        "exampleZh": "她把杯子傾起,喝掉最後一滴飲品。",
+        "exampleEn": "She tipped her glass up and drank the last drop.",
+        "highlight": "tipped her glass up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "翻倒;翻側;把某物弄翻",
+      "titleEn": "tip over / tip something over",
+      "formula": "tip over / tip something over",
+      "highlight": "tip over / tip something over",
+      "descriptionZh": "翻倒;翻側;把某物弄翻",
+      "descriptionEn": "The bottle tipped over, and all the water spilled out.",
+      "examples": [
+        {
+          "en": "The bottle tipped over, and all the water spilled out.",
+          "zh": "瓶子翻倒了,所有水都流了出來。",
+          "highlight": "tipped over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "一端向上翹起;把某物的一端抬高或傾起",
+      "titleEn": "tip up / tip something up",
+      "formula": "tip up / tip something up",
+      "highlight": "tip up / tip something up",
+      "descriptionZh": "一端向上翹起;把某物的一端抬高或傾起",
+      "descriptionEn": "She tipped her glass up and drank the last drop.",
+      "examples": [
+        {
+          "en": "She tipped her glass up and drank the last drop.",
+          "zh": "她把杯子傾起,喝掉最後一滴飲品。",
+          "highlight": "tipped her glass up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述物件翻倒或翻側",
+      "titleEn": "Talk about things falling or being knocked onto their side",
+      "zh": "tip over 可以描述瓶子、椅子、箱子和小船失去直立位置。",
+      "en": "Tip over lets you describe bottles, chairs, boxes and boats losing their upright position."
+    },
+    {
+      "titleZh": "描述物件一端向上翹起",
+      "titleEn": "Describe one end rising",
+      "zh": "tip up 可以描述獨木舟、木板、座椅或其他物件的一端向上移動。",
+      "en": "Tip up helps you describe the front or end of a canoe, board, seat or other object moving upwards."
+    },
+    {
+      "titleZh": "清楚說明有控制的傾起動作",
+      "titleEn": "Explain controlled actions clearly",
+      "zh": "tip something up 可以描述為了某個目的,小心把杯子、托盤或手推車傾起。",
+      "en": "Tip something up can describe raising a glass, tray or wheelbarrow carefully for a particular purpose."
+    },
+    {
+      "titleZh": "理解日常警告和指示",
+      "titleEn": "Understand everyday warnings and instructions",
+      "zh": "這些表達常用於談論打翻物件、搬動家具、小船和安全情況。",
+      "en": "These expressions are useful when talking about spills, moving furniture, boats and safety."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述物件翻倒或翻側",
+      "描述物件一端向上翹起",
+      "清楚說明有控制的傾起動作",
+      "理解日常警告和指示"
+    ],
+    "contextsEn": [
+      "Talk about things falling or being knocked onto their side",
+      "Describe one end rising",
+      "Explain controlled actions clearly",
+      "Understand everyday warnings and instructions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述物件翻倒或翻側",
+        "titleEn": "Talk about things falling or being knocked onto their side",
+        "zh": "tip over 可以描述瓶子、椅子、箱子和小船失去直立位置。",
+        "en": "Tip over lets you describe bottles, chairs, boxes and boats losing their upright position.",
+        "examples": [
+          {
+            "en": "The bottle tipped over, and all the water spilled out.",
+            "zh": "瓶子翻倒了,所有水都流了出來。",
+            "highlight": "tipped over"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述物件一端向上翹起",
+        "titleEn": "Describe one end rising",
+        "zh": "tip up 可以描述獨木舟、木板、座椅或其他物件的一端向上移動。",
+        "en": "Tip up helps you describe the front or end of a canoe, board, seat or other object moving upwards.",
+        "examples": [
+          {
+            "en": "She tipped her glass up and drank the last drop.",
+            "zh": "她把杯子傾起,喝掉最後一滴飲品。",
+            "highlight": "tipped her glass up"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明有控制的傾起動作",
+        "titleEn": "Explain controlled actions clearly",
+        "zh": "tip something up 可以描述為了某個目的,小心把杯子、托盤或手推車傾起。",
+        "en": "Tip something up can describe raising a glass, tray or wheelbarrow carefully for a particular purpose.",
+        "examples": [
+          {
+            "en": "The bottle tipped over, and all the water spilled out.",
+            "zh": "瓶子翻倒了,所有水都流了出來。",
+            "highlight": "tipped over"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解日常警告和指示",
+        "titleEn": "Understand everyday warnings and instructions",
+        "zh": "這些表達常用於談論打翻物件、搬動家具、小船和安全情況。",
+        "en": "These expressions are useful when talking about spills, moving furniture, boats and safety.",
+        "examples": [
+          {
+            "en": "She tipped her glass up and drank the last drop.",
+            "zh": "她把杯子傾起,喝掉最後一滴飲品。",
+            "highlight": "tipped her glass up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TIP 片語動詞。",
+      "en": "Read the whole sentence and choose the TIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "物件自行翻倒時用 tip over;有人或其他事物令它翻倒時用 tip something over。",
+      "titleEn": "Use tip over when something falls onto its side.",
+      "zh": "物件自行翻倒時用 tip over;有人或其他事物令它翻倒時用 tip something over。",
+      "en": "Use tip over when something falls onto its side. Use tip something over when someone or something causes this."
+    },
+    {
+      "titleZh": "物件一端向上翹起時用 tip up;有人把物件的一端抬高或傾起時用 tip something up。With it or them, use:tip it overtip them overtip it uptip them up使用 it 或 them 時,應把它們放在 tip 和 over/up 之間。",
+      "titleEn": "Use tip up when one end rises.",
+      "zh": "物件一端向上翹起時用 tip up;有人把物件的一端抬高或傾起時用 tip something up。With it or them, use:tip it overtip them overtip it uptip them up使用 it 或 them 時,應把它們放在 tip 和 over/up 之間。",
+      "en": "Use tip up when one end rises. Use tip something up when someone raises or tilts it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TIP 動詞片語句子改寫練習",
+    "titleEn": "TIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-113-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The bottle fell onto its side, and all the water spilled out.",
+      "promptZh": "瓶子翻倒了,所有水都流了出來。",
+      "starter": "The",
+      "answer": "The bottle tipped over, and all the water spilled out.",
+      "answerZh": "瓶子翻倒了,所有水都流了出來。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "She raised the bottom of her glass and drank the last drop.",
+      "promptZh": "她抬高杯底,喝掉最後一滴飲品。",
+      "starter": "She",
+      "answer": "She tipped her glass up and drank the last drop.",
+      "answerZh": "她把杯子傾起,喝掉最後一滴飲品。",
+      "highlight": "tipped",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The child made the toy box fall onto its side.",
+      "promptZh": "那個孩子把玩具箱弄得翻側了。",
+      "starter": "The",
+      "answer": "The child tipped the toy box over.",
+      "answerZh": "那個孩子把玩具箱弄翻了。",
+      "highlight": "tipped",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The front of the canoe rose into the air.",
+      "promptZh": "獨木舟的前端向上翹起。",
+      "starter": "The",
+      "answer": "The front of the canoe tipped up.",
+      "answerZh": "獨木舟的前端向上翹起。",
+      "highlight": "tipped up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Ben raised one end of the tray so the water could flow out.",
+      "promptZh": "Ben 抬高托盤的一端,讓水流出去。",
+      "starter": "Ben",
+      "answer": "Ben tipped the tray up at one end so the water could flow out.",
+      "answerZh": "Ben 把托盤的一端傾起,讓水流出去。",
+      "highlight": "tipped the tray up at",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The chair fell onto its side when Ana pushed it by mistake.",
+      "promptZh": "Ana 不小心推到椅子,令它翻側了。",
+      "starter": "The",
+      "answer": "The chair tipped over when Ana pushed it by mistake.",
+      "answerZh": "Ana 不小心推到椅子時,椅子翻側了。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "One end of the board rose when Leo stepped on the other end.",
+      "promptZh": "Leo 踏在木板的一端時,另一端向上翹起。",
+      "starter": "One",
+      "answer": "One end of the board tipped up when Leo stepped on the other end.",
+      "answerZh": "Leo 踏在木板的一端時,另一端向上翹起。",
+      "highlight": "tipped up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "A strong wind made the empty bin fall onto its side.",
+      "promptZh": "強風吹得空垃圾桶翻倒了。",
+      "starter": "A",
+      "answer": "A strong wind tipped the empty bin over.",
+      "answerZh": "強風吹翻了空垃圾桶。",
+      "highlight": "tipped",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Raise the bottom of the bottle so you can drink the last drops.",
+      "promptZh": "抬高瓶底,讓你可以喝掉最後幾滴飲品。",
+      "starter": "Tip",
+      "answer": "Tip the bottle up so you can drink the last drops.",
+      "answerZh": "把瓶子傾起,讓你可以喝掉最後幾滴飲品。",
+      "highlight": "Tip",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The plant pot has fallen onto its side.",
+      "promptZh": "花盆已經翻側了。",
+      "starter": "The",
+      "answer": "The plant pot has tipped over.",
+      "answerZh": "花盆已經翻側了。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The front of the canoe is rising as the wave passes under it.",
+      "promptZh": "海浪從獨木舟下方經過時,船頭正在向上翹起。",
+      "starter": "The",
+      "answer": "The front of the canoe is tipping up as the wave passes under it.",
+      "answerZh": "海浪從獨木舟下方經過時,船頭正在向上翹起。",
+      "highlight": "tipping up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The table stayed upright during the move.",
+      "promptZh": "搬運期間,桌子一直保持直立。",
+      "starter": "The",
+      "answer": "The table did not tip over during the move.",
+      "answerZh": "搬運期間,桌子沒有翻倒。",
+      "highlight": "did not tip over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Why did Ravi make the bucket fall onto its side?",
+      "promptZh": "Ravi 為甚麼把水桶弄翻?",
+      "starter": "Why",
+      "answer": "Why did Ravi tip the bucket over?",
+      "answerZh": "Ravi 為甚麼把水桶弄翻?",
+      "highlight": "tip",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "This seat can be raised against the wall.",
+      "promptZh": "這張座椅可以向上收起,靠在牆上。",
+      "starter": "This",
+      "answer": "This seat can be tipped up against the wall.",
+      "answerZh": "這張座椅可以向上傾起,靠在牆上。",
+      "highlight": "tipped up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "By the time we entered, the lamp had fallen onto its side.",
+      "promptZh": "我們進去時,那盞燈已經翻側了。",
+      "starter": "By",
+      "answer": "By the time we entered, the lamp had tipped over.",
+      "answerZh": "我們進去時,那盞燈已經翻側了。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Ella raises the bottom of the cup to finish every drink.",
+      "promptZh": "Ella 每次都會抬高杯底,把飲品喝完。",
+      "starter": "Ella",
+      "answer": "Ella tips the cup up to finish every drink.",
+      "answerZh": "Ella 每次都會把杯子傾起,把飲品喝完。",
+      "highlight": "tips",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Please make the box fall onto its side; it is blocking the path.",
+      "promptZh": "請把箱子弄翻;它正阻塞通道。",
+      "starter": "Please",
+      "answer": "Please tip the box over; it is blocking the path.",
+      "answerZh": "請把箱子翻側;它正阻塞通道。",
+      "highlight": "tip",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Please raise the top of the sign slightly; it is facing too low.",
+      "promptZh": "請把告示牌的上端稍為抬高;它現在向下傾得太多。",
+      "starter": "Please",
+      "answer": "Please tip the sign up slightly; it is facing too low.",
+      "answerZh": "請把告示牌稍為向上傾;它現在向下傾得太多。",
+      "highlight": "tip",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The trailer was raised at the front so the sand could slide out.",
+      "promptZh": "拖車的前端被抬高,讓沙可以滑出來。",
+      "starter": "The",
+      "answer": "The trailer was tipped up at the front so the sand could slide out.",
+      "answerZh": "拖車的前端被傾起,讓沙可以滑出來。",
+      "highlight": "tipped up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The small boat was turned onto its side by the wave.",
+      "promptZh": "小船被海浪推得翻側了。",
+      "starter": "The",
+      "answer": "The small boat was tipped over by the wave.",
+      "answerZh": "小船被海浪推翻了。",
+      "highlight": "tipped over",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Keep the vase upright; do not make it fall onto its side.",
+      "promptZh": "讓花瓶保持直立;不要把它弄翻。",
+      "starter": "Keep",
+      "answer": "Keep the vase upright; do not tip it over.",
+      "answerZh": "讓花瓶保持直立;不要把它弄翻。",
+      "highlight": "tip",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The box is heavy. Raise one end so I can look underneath.",
+      "promptZh": "箱子很重。把其中一端抬高,讓我看看下面。",
+      "starter": "The",
+      "answer": "The box is heavy. Tip one end up so I can look underneath.",
+      "answerZh": "箱子很重。把其中一端傾起,讓我看看下面。",
+      "highlight": "Tip",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Did the ladder fall onto its side during the storm?",
+      "promptZh": "暴風雨期間,梯子有沒有翻倒?",
+      "starter": "Did",
+      "answer": "Did the ladder tip over during the storm?",
+      "answerZh": "暴風雨期間,梯子有沒有翻倒?",
+      "highlight": "tip over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The cup was nearly empty, so Jo raised its bottom to drink the rest.",
+      "promptZh": "杯子差不多空了,所以 Jo 抬高杯底,把餘下的飲品喝完。",
+      "starter": "The",
+      "answer": "The cup was nearly empty, so Jo tipped it up to drink the rest.",
+      "answerZh": "杯子差不多空了,所以 Jo 把它傾起,把餘下的飲品喝完。",
+      "highlight": "tipped it up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "One end of the seesaw rose into the air while the other stayed on the ground.",
+      "promptZh": "蹺蹺板的一端向上翹起,另一端仍留在地上。",
+      "starter": "One",
+      "answer": "One end of the seesaw tipped up while the other stayed on the ground.",
+      "answerZh": "蹺蹺板的一端向上翹起,另一端仍留在地上。",
+      "highlight": "tipped up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The suitcase was standing upright, but it fell onto its side when the train moved.",
+      "promptZh": "行李箱原本站直,但火車開動時便翻側了。",
+      "starter": "The",
+      "answer": "The suitcase was standing upright, but it tipped over when the train moved.",
+      "answerZh": "行李箱原本站直,但火車開動時便翻側了。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "During the game, a player pushed the tall block until it fell onto its side.",
+      "promptZh": "遊戲期間,一名玩家把高積木推至翻側。",
+      "starter": "During",
+      "answer": "During the game, a player tipped the tall block over.",
+      "answerZh": "遊戲期間,一名玩家把高積木推翻了。",
+      "highlight": "tipped",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "To empty the wheelbarrow, Arun raised its handles high.",
+      "promptZh": "為了倒出手推車內的東西,Arun 把車柄高高抬起。",
+      "starter": "To",
+      "answer": "To empty the wheelbarrow, Arun tipped it up.",
+      "answerZh": "為了倒出手推車內的東西,Arun 把它傾起。",
+      "highlight": "tipped it up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "As the small boat climbed the wave, its front rose sharply.",
+      "promptZh": "小船隨浪升起時,船頭突然向上翹起。",
+      "starter": "As",
+      "answer": "As the small boat climbed the wave, its front tipped up sharply.",
+      "answerZh": "小船隨浪升起時,船頭突然向上翹起。",
+      "highlight": "tipped up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Please walk carefully beside the bottles so you do not make them fall onto their sides.",
+      "promptZh": "請小心走過瓶子旁邊,以免把它們弄翻。",
+      "starter": "Please",
+      "answer": "Please walk carefully beside the bottles so you do not tip them over.",
+      "answerZh": "請小心走過瓶子旁邊,以免把它們弄翻。",
+      "highlight": "tip",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "You can raise the folding seats when you need more floor space.",
+      "promptZh": "需要更多地面空間時,你可以把摺疊座椅向上收起。",
+      "starter": "You",
+      "answer": "You can tip them up when you need more floor space.",
+      "answerZh": "需要更多地面空間時,你可以把摺疊座椅向上收起。",
+      "highlight": "tip them up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Several bins have been turned onto their sides by the wind.",
+      "promptZh": "幾個垃圾桶已被風吹得翻側。",
+      "starter": "Several",
+      "answer": "Several bins have been tipped over by the wind.",
+      "answerZh": "幾個垃圾桶已被風吹翻。",
+      "highlight": "tipped over",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "As people rushed past the display, the narrow sign became unsteady and finally fell onto its side.",
+      "promptZh": "人們匆忙走過展示區時,狹長的告示牌變得不穩,最後翻側了。",
+      "starter": "As",
+      "answer": "As people rushed past the display, the narrow sign became unsteady and finally tipped over.",
+      "answerZh": "人們匆忙走過展示區時,狹長的告示牌變得不穩,最後翻側了。",
+      "highlight": "tipped over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "There was only a little soup left, so Dan raised the bottom of the bowl carefully and drank it.",
+      "promptZh": "只剩下一點湯,所以 Dan 小心抬高碗底,把湯喝完。",
+      "starter": "There",
+      "answer": "There was only a little soup left, so Dan tipped the bowl up carefully and drank it.",
+      "answerZh": "只剩下一點湯,所以 Dan 小心把碗傾起,把湯喝完。",
+      "highlight": "tipped",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The loose end of the floorboard rose whenever someone stepped on the other end.",
+      "promptZh": "每當有人踏在地板木板的另一端,鬆脫的一端便會向上翹起。",
+      "starter": "The",
+      "answer": "The loose end of the floorboard tipped up whenever someone stepped on the other end.",
+      "answerZh": "每當有人踏在地板木板的另一端,鬆脫的一端便會向上翹起。",
+      "highlight": "tipped up",
+      "targetForm": "tip up",
+      "targetMeaningZh": "向上翹起;一端抬起"
+    },
+    {
+      "id": "phrasal-verb-113-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The dog hit the small table and made the vase fall onto its side.",
+      "promptZh": "狗撞到小桌子,把花瓶弄翻了。",
+      "starter": "The",
+      "answer": "The dog hit the small table and tipped the vase over.",
+      "answerZh": "狗撞到小桌子,把花瓶弄翻了。",
+      "highlight": "tipped",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Although the ferry moved strongly from side to side, it stayed upright.",
+      "promptZh": "雖然渡輪猛烈地左右搖晃,但它仍保持直立。",
+      "starter": "Although",
+      "answer": "Although the ferry moved strongly from side to side, it did not tip over.",
+      "answerZh": "雖然渡輪猛烈地左右搖晃,但它沒有翻側。",
+      "highlight": "did not tip over",
+      "targetForm": "tip over",
+      "targetMeaningZh": "翻倒;翻側"
+    },
+    {
+      "id": "phrasal-verb-113-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "For cleaning, the table top can be raised and held at an angle.",
+      "promptZh": "清潔時,桌面可以被抬高並保持傾斜。",
+      "starter": "For",
+      "answer": "For cleaning, the table top can be tipped up and held at an angle.",
+      "answerZh": "清潔時,桌面可以被傾起並保持斜放。",
+      "highlight": "tipped up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    },
+    {
+      "id": "phrasal-verb-113-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The bottle is close to the edge. Who made it fall onto its side?",
+      "promptZh": "瓶子靠近邊緣。是誰把它弄翻的?",
+      "starter": "The",
+      "answer": "The bottle is close to the edge. Who tipped it over?",
+      "answerZh": "瓶子靠近邊緣。是誰把它弄翻的?",
+      "highlight": "tipped",
+      "targetForm": "tip something over",
+      "targetMeaningZh": "把某物弄翻"
+    },
+    {
+      "id": "phrasal-verb-113-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Hold the glass carefully, but raise its bottom high enough to finish the drink.",
+      "promptZh": "小心拿着杯子,但要把杯底抬得夠高,才能喝完飲品。",
+      "starter": "Hold",
+      "answer": "Hold the glass carefully, but tip it up enough to finish the drink.",
+      "answerZh": "小心拿着杯子,但要把它傾得夠高,才能喝完飲品。",
+      "highlight": "tip it up",
+      "targetForm": "tip something up",
+      "targetMeaningZh": "把某物傾起或抬高一端"
+    }
+  ]
+}

@@ -1,0 +1,1813 @@
+{
+  "id": "phrasal-verb-146",
+  "order": 146,
+  "slug": "tear",
+  "version": "1",
+  "title": "TEAR 動詞片語",
+  "titleEn": "Tear",
+  "titleZh": "TEAR 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 145 - TEAR.pdf",
+    "sourceNumber": 145,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TEAR",
+      "highlight": "TEAR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The horse tore round the field.",
+      "zh": "那匹馬在田野上飛快地四處奔跑。",
+      "highlight": "tore round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The bad news tore him apart.",
+      "zh": "這個壞消息令他內心極度痛苦。",
+      "highlight": "tore",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The storm tore the boat apart.",
+      "zh": "暴風雨把小船嚴重摧毀了。",
+      "highlight": "tore",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某處飛快地四處走動、跑動或駛過；令某人因分離、憂慮或悲傷而內心極度痛苦；把某物嚴重破壞;令一個地方、組織或群體四分五裂；猛烈抓扯、咬扯或刮扯某物；強行使某人或某物離開;使自己很不情願地離開或停止；拆卸;拆除建築物；用力或迅速扯下某物；從某物中用力撕出或扯出某物；狠狠責罵某人；把某物撕碎或撕成小片",
+    "en": "tear about / around / round; tear about / around / round something; tear somebody/yourself apart; tear somebody/something apart; tear at something with something; tear somebody/yourself/something away from somebody/something; tear something down; tear something off; tear something off somebody/something; tear something out; tear something out of something; tear somebody off a strip; tear a strip off somebody; tear something up",
+    "naturalZh": [
+      "在某處飛快地四處走動、跑動或駛過",
+      "令某人因分離、憂慮或悲傷而內心極度痛苦",
+      "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+      "猛烈抓扯、咬扯或刮扯某物",
+      "強行使某人或某物離開;使自己很不情願地離開或停止",
+      "拆卸;拆除建築物",
+      "用力或迅速扯下某物",
+      "從某物中用力撕出或扯出某物",
+      "狠狠責罵某人",
+      "把某物撕碎或撕成小片"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tear about / around / round; tear about / around / round something",
+      "titleZh": "在某處飛快地四處走動、跑動或駛過",
+      "titleEn": "tear about / around / round; tear about / around / round something",
+      "descriptionZh": "在某處飛快地四處走動、跑動或駛過",
+      "descriptionEn": "The horse tore round the field.",
+      "examples": [
+        {
+          "en": "The horse tore round the field.",
+          "zh": "那匹馬在田野上飛快地四處奔跑。",
+          "highlight": "tore round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tear somebody/yourself apart",
+      "titleZh": "令某人因分離、憂慮或悲傷而內心極度痛苦",
+      "titleEn": "tear somebody/yourself apart",
+      "descriptionZh": "令某人因分離、憂慮或悲傷而內心極度痛苦",
+      "descriptionEn": "The bad news tore him apart.",
+      "examples": [
+        {
+          "en": "The bad news tore him apart.",
+          "zh": "這個壞消息令他內心極度痛苦。",
+          "highlight": "tore"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tear somebody/something apart",
+      "titleZh": "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+      "titleEn": "tear somebody/something apart",
+      "descriptionZh": "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+      "descriptionEn": "The storm tore the boat apart.",
+      "examples": [
+        {
+          "en": "The storm tore the boat apart.",
+          "zh": "暴風雨把小船嚴重摧毀了。",
+          "highlight": "tore"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tear at something with something",
+      "titleZh": "猛烈抓扯、咬扯或刮扯某物",
+      "titleEn": "tear at something with something",
+      "descriptionZh": "猛烈抓扯、咬扯或刮扯某物",
+      "descriptionEn": "The puppy tore at the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The puppy tore at the rope with its teeth.",
+          "zh": "小狗用牙齒猛烈拉扯繩子。",
+          "highlight": "tore at the rope with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tear somebody/yourself/something away from somebody/something",
+      "titleZh": "強行使某人或某物離開;使自己很不情願地離開或停止",
+      "titleEn": "tear somebody/yourself/something away from somebody/something",
+      "descriptionZh": "強行使某人或某物離開;使自己很不情願地離開或停止",
+      "descriptionEn": "I could not tear myself away from the painting.",
+      "examples": [
+        {
+          "en": "I could not tear myself away from the painting.",
+          "zh": "我捨不得離開那幅畫。",
+          "highlight": "tear myself away from"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tear something down",
+      "titleZh": "拆卸;拆除建築物",
+      "titleEn": "tear something down",
+      "descriptionZh": "拆卸;拆除建築物",
+      "descriptionEn": "They tore the old garage down.",
+      "examples": [
+        {
+          "en": "They tore the old garage down.",
+          "zh": "他們拆除了舊車房。",
+          "highlight": "tore the old garage down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tear something off; tear something off somebody/something",
+      "titleZh": "用力或迅速扯下某物",
+      "titleEn": "tear something off; tear something off somebody/something",
+      "descriptionZh": "用力或迅速扯下某物",
+      "descriptionEn": "She tore the badge off her coat.",
+      "examples": [
+        {
+          "en": "She tore the badge off her coat.",
+          "zh": "她從外套上扯下襟章。",
+          "highlight": "tore the badge off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tear something out; tear something out of something",
+      "titleZh": "從某物中用力撕出或扯出某物",
+      "titleEn": "tear something out; tear something out of something",
+      "descriptionZh": "從某物中用力撕出或扯出某物",
+      "descriptionEn": "He tore a page out of the notebook.",
+      "examples": [
+        {
+          "en": "He tore a page out of the notebook.",
+          "zh": "他從筆記簿中撕出一頁。",
+          "highlight": "tore a page out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tear somebody off a strip; tear a strip off somebody",
+      "titleZh": "狠狠責罵某人",
+      "titleEn": "tear somebody off a strip; tear a strip off somebody",
+      "descriptionZh": "狠狠責罵某人",
+      "descriptionEn": "The boss tore him off a strip for being rude.",
+      "examples": [
+        {
+          "en": "The boss tore him off a strip for being rude.",
+          "zh": "老闆因他態度無禮而狠狠責罵他。",
+          "highlight": "tore him off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tear something up",
+      "titleZh": "把某物撕碎或撕成小片",
+      "titleEn": "tear something up",
+      "descriptionZh": "把某物撕碎或撕成小片",
+      "descriptionEn": "She tore up the note.",
+      "examples": [
+        {
+          "en": "She tore up the note.",
+          "zh": "她把便條撕碎了。",
+          "highlight": "tore up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TEAR 片語動詞的實際用途",
+    "labelEn": "TEAR Phrasal Verbs in Use",
+    "summaryZh": "tear about、tear around 和 tear round 可以描述人、動物或交通工具快速而充滿活力地四處移動。；tear apart 可以描述內心極度痛苦、物件遭到嚴重破壞,或群體變得四分五裂。；tear down、tear off、tear out 和 tear up 可以描述以不同方式移除或破壞事物。；tear at、tear away 和 tear somebody off a strip 有助你理解猛烈動作和非常嚴厲的責罵。",
+    "summaryEn": "Tear about, tear around and tear round help you describe people, animals or vehicles moving very quickly and energetically. Tear apart can describe deep emotional pain, physical destruction or a group becoming divided. Tear down, tear off, tear out and tear up help you describe different ways of removing or destroying things. Tear at, tear away and tear somebody off a strip are useful for understanding forceful actions and very angry criticism.",
+    "contextsZh": [
+      "描述快速而不受控制的活動",
+      "表達強烈感受和嚴重分裂",
+      "清楚描述用力移除和破壞事物",
+      "理解強烈動作和憤怒反應"
+    ],
+    "contextsEn": [
+      "Describe fast and uncontrolled movement",
+      "Express powerful feelings and serious division",
+      "Talk clearly about forceful removal and destruction",
+      "Understand strong actions and angry reactions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tear about / around / round; tear about / around / round something",
+    "fixedHighlight": "tear about / around / round; tear about / around / round something",
+    "fixedZh": "閱讀整句,選出意思相同的 TEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TEAR expression that gives the same meaning.",
+    "correct": "tore round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；tear about、tear around 和 tear round 都可以表示快速四處走動。tear apart 則可以表示內心極度痛苦,或嚴重破壞和分裂。請仔細閱讀完整情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: tear it down tear it off tear it out tear it up tear him away tear her off a strip Tear about, tear around and tear round can all describe fast movement. Tear apart may describe deep emotional pain or serious damage and division. Read the full situation carefully.",
+    "variableItemsZh": [
+      "tear about / around / round; tear about / around / round something",
+      "tear somebody/yourself apart",
+      "tear somebody/something apart",
+      "tear at something with something",
+      "tear somebody/yourself/something away from somebody/something",
+      "tear something down",
+      "tear something off; tear something off somebody/something",
+      "tear something out; tear something out of something",
+      "tear somebody off a strip; tear a strip off somebody",
+      "tear something up"
+    ],
+    "variableItemsEn": [
+      "tear about / around / round; tear about / around / round something",
+      "tear somebody/yourself apart",
+      "tear somebody/something apart",
+      "tear at something with something",
+      "tear somebody/yourself/something away from somebody/something",
+      "tear something down",
+      "tear something off; tear something off somebody/something",
+      "tear something out; tear something out of something",
+      "tear somebody off a strip; tear a strip off somebody",
+      "tear something up"
+    ],
+    "forms": [
+      {
+        "formZh": "在某處飛快地四處走動、跑動或駛過",
+        "formEn": "tear about / around / round; tear about / around / round something",
+        "exampleZh": "那匹馬在田野上飛快地四處奔跑。",
+        "exampleEn": "The horse tore round the field.",
+        "highlight": "tore round"
+      },
+      {
+        "formZh": "令某人因分離、憂慮或悲傷而內心極度痛苦",
+        "formEn": "tear somebody/yourself apart",
+        "exampleZh": "這個壞消息令他內心極度痛苦。",
+        "exampleEn": "The bad news tore him apart.",
+        "highlight": "tore"
+      },
+      {
+        "formZh": "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+        "formEn": "tear somebody/something apart",
+        "exampleZh": "暴風雨把小船嚴重摧毀了。",
+        "exampleEn": "The storm tore the boat apart.",
+        "highlight": "tore"
+      },
+      {
+        "formZh": "猛烈抓扯、咬扯或刮扯某物",
+        "formEn": "tear at something with something",
+        "exampleZh": "小狗用牙齒猛烈拉扯繩子。",
+        "exampleEn": "The puppy tore at the rope with its teeth.",
+        "highlight": "tore at the rope with"
+      },
+      {
+        "formZh": "強行使某人或某物離開;使自己很不情願地離開或停止",
+        "formEn": "tear somebody/yourself/something away from somebody/something",
+        "exampleZh": "我捨不得離開那幅畫。",
+        "exampleEn": "I could not tear myself away from the painting.",
+        "highlight": "tear myself away from"
+      },
+      {
+        "formZh": "拆卸;拆除建築物",
+        "formEn": "tear something down",
+        "exampleZh": "他們拆除了舊車房。",
+        "exampleEn": "They tore the old garage down.",
+        "highlight": "tore the old garage down"
+      },
+      {
+        "formZh": "用力或迅速扯下某物",
+        "formEn": "tear something off; tear something off somebody/something",
+        "exampleZh": "她從外套上扯下襟章。",
+        "exampleEn": "She tore the badge off her coat.",
+        "highlight": "tore the badge off"
+      },
+      {
+        "formZh": "從某物中用力撕出或扯出某物",
+        "formEn": "tear something out; tear something out of something",
+        "exampleZh": "他從筆記簿中撕出一頁。",
+        "exampleEn": "He tore a page out of the notebook.",
+        "highlight": "tore a page out"
+      },
+      {
+        "formZh": "狠狠責罵某人",
+        "formEn": "tear somebody off a strip; tear a strip off somebody",
+        "exampleZh": "老闆因他態度無禮而狠狠責罵他。",
+        "exampleEn": "The boss tore him off a strip for being rude.",
+        "highlight": "tore him off"
+      },
+      {
+        "formZh": "把某物撕碎或撕成小片",
+        "formEn": "tear something up",
+        "exampleZh": "她把便條撕碎了。",
+        "exampleEn": "She tore up the note.",
+        "highlight": "tore up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某處飛快地四處走動、跑動或駛過",
+      "titleEn": "tear about / around / round; tear about / around / round something",
+      "formula": "tear about / around / round; tear about / around / round something",
+      "highlight": "tear about / around / round; tear about / around / round something",
+      "descriptionZh": "在某處飛快地四處走動、跑動或駛過",
+      "descriptionEn": "The horse tore round the field.",
+      "examples": [
+        {
+          "en": "The horse tore round the field.",
+          "zh": "那匹馬在田野上飛快地四處奔跑。",
+          "highlight": "tore round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "令某人因分離、憂慮或悲傷而內心極度痛苦",
+      "titleEn": "tear somebody/yourself apart",
+      "formula": "tear somebody/yourself apart",
+      "highlight": "tear somebody/yourself apart",
+      "descriptionZh": "令某人因分離、憂慮或悲傷而內心極度痛苦",
+      "descriptionEn": "The bad news tore him apart.",
+      "examples": [
+        {
+          "en": "The bad news tore him apart.",
+          "zh": "這個壞消息令他內心極度痛苦。",
+          "highlight": "tore"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+      "titleEn": "tear somebody/something apart",
+      "formula": "tear somebody/something apart",
+      "highlight": "tear somebody/something apart",
+      "descriptionZh": "把某物嚴重破壞;令一個地方、組織或群體四分五裂",
+      "descriptionEn": "The storm tore the boat apart.",
+      "examples": [
+        {
+          "en": "The storm tore the boat apart.",
+          "zh": "暴風雨把小船嚴重摧毀了。",
+          "highlight": "tore"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "猛烈抓扯、咬扯或刮扯某物",
+      "titleEn": "tear at something with something",
+      "formula": "tear at something with something",
+      "highlight": "tear at something with something",
+      "descriptionZh": "猛烈抓扯、咬扯或刮扯某物",
+      "descriptionEn": "The puppy tore at the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The puppy tore at the rope with its teeth.",
+          "zh": "小狗用牙齒猛烈拉扯繩子。",
+          "highlight": "tore at the rope with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "強行使某人或某物離開;使自己很不情願地離開或停止",
+      "titleEn": "tear somebody/yourself/something away from somebody/something",
+      "formula": "tear somebody/yourself/something away from somebody/something",
+      "highlight": "tear somebody/yourself/something away from somebody/something",
+      "descriptionZh": "強行使某人或某物離開;使自己很不情願地離開或停止",
+      "descriptionEn": "I could not tear myself away from the painting.",
+      "examples": [
+        {
+          "en": "I could not tear myself away from the painting.",
+          "zh": "我捨不得離開那幅畫。",
+          "highlight": "tear myself away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "拆卸;拆除建築物",
+      "titleEn": "tear something down",
+      "formula": "tear something down",
+      "highlight": "tear something down",
+      "descriptionZh": "拆卸;拆除建築物",
+      "descriptionEn": "They tore the old garage down.",
+      "examples": [
+        {
+          "en": "They tore the old garage down.",
+          "zh": "他們拆除了舊車房。",
+          "highlight": "tore the old garage down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用力或迅速扯下某物",
+      "titleEn": "tear something off; tear something off somebody/something",
+      "formula": "tear something off; tear something off somebody/something",
+      "highlight": "tear something off; tear something off somebody/something",
+      "descriptionZh": "用力或迅速扯下某物",
+      "descriptionEn": "She tore the badge off her coat.",
+      "examples": [
+        {
+          "en": "She tore the badge off her coat.",
+          "zh": "她從外套上扯下襟章。",
+          "highlight": "tore the badge off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "從某物中用力撕出或扯出某物",
+      "titleEn": "tear something out; tear something out of something",
+      "formula": "tear something out; tear something out of something",
+      "highlight": "tear something out; tear something out of something",
+      "descriptionZh": "從某物中用力撕出或扯出某物",
+      "descriptionEn": "He tore a page out of the notebook.",
+      "examples": [
+        {
+          "en": "He tore a page out of the notebook.",
+          "zh": "他從筆記簿中撕出一頁。",
+          "highlight": "tore a page out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "狠狠責罵某人",
+      "titleEn": "tear somebody off a strip; tear a strip off somebody",
+      "formula": "tear somebody off a strip; tear a strip off somebody",
+      "highlight": "tear somebody off a strip; tear a strip off somebody",
+      "descriptionZh": "狠狠責罵某人",
+      "descriptionEn": "The boss tore him off a strip for being rude.",
+      "examples": [
+        {
+          "en": "The boss tore him off a strip for being rude.",
+          "zh": "老闆因他態度無禮而狠狠責罵他。",
+          "highlight": "tore him off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把某物撕碎或撕成小片",
+      "titleEn": "tear something up",
+      "formula": "tear something up",
+      "highlight": "tear something up",
+      "descriptionZh": "把某物撕碎或撕成小片",
+      "descriptionEn": "She tore up the note.",
+      "examples": [
+        {
+          "en": "She tore up the note.",
+          "zh": "她把便條撕碎了。",
+          "highlight": "tore up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述快速而不受控制的活動",
+      "titleEn": "Describe fast and uncontrolled movement",
+      "zh": "tear about、tear around 和 tear round 可以描述人、動物或交通工具快速而充滿活力地四處移動。",
+      "en": "Tear about, tear around and tear round help you describe people, animals or vehicles moving very quickly and energetically."
+    },
+    {
+      "titleZh": "表達強烈感受和嚴重分裂",
+      "titleEn": "Express powerful feelings and serious division",
+      "zh": "tear apart 可以描述內心極度痛苦、物件遭到嚴重破壞,或群體變得四分五裂。",
+      "en": "Tear apart can describe deep emotional pain, physical destruction or a group becoming divided."
+    },
+    {
+      "titleZh": "清楚描述用力移除和破壞事物",
+      "titleEn": "Talk clearly about forceful removal and destruction",
+      "zh": "tear down、tear off、tear out 和 tear up 可以描述以不同方式移除或破壞事物。",
+      "en": "Tear down, tear off, tear out and tear up help you describe different ways of removing or destroying things."
+    },
+    {
+      "titleZh": "理解強烈動作和憤怒反應",
+      "titleEn": "Understand strong actions and angry reactions",
+      "zh": "tear at、tear away 和 tear somebody off a strip 有助你理解猛烈動作和非常嚴厲的責罵。",
+      "en": "Tear at, tear away and tear somebody off a strip are useful for understanding forceful actions and very angry criticism."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述快速而不受控制的活動",
+      "表達強烈感受和嚴重分裂",
+      "清楚描述用力移除和破壞事物",
+      "理解強烈動作和憤怒反應"
+    ],
+    "contextsEn": [
+      "Describe fast and uncontrolled movement",
+      "Express powerful feelings and serious division",
+      "Talk clearly about forceful removal and destruction",
+      "Understand strong actions and angry reactions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述快速而不受控制的活動",
+        "titleEn": "Describe fast and uncontrolled movement",
+        "zh": "tear about、tear around 和 tear round 可以描述人、動物或交通工具快速而充滿活力地四處移動。",
+        "en": "Tear about, tear around and tear round help you describe people, animals or vehicles moving very quickly and energetically.",
+        "examples": [
+          {
+            "en": "The horse tore round the field.",
+            "zh": "那匹馬在田野上飛快地四處奔跑。",
+            "highlight": "tore round"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達強烈感受和嚴重分裂",
+        "titleEn": "Express powerful feelings and serious division",
+        "zh": "tear apart 可以描述內心極度痛苦、物件遭到嚴重破壞,或群體變得四分五裂。",
+        "en": "Tear apart can describe deep emotional pain, physical destruction or a group becoming divided.",
+        "examples": [
+          {
+            "en": "The bad news tore him apart.",
+            "zh": "這個壞消息令他內心極度痛苦。",
+            "highlight": "tore"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述用力移除和破壞事物",
+        "titleEn": "Talk clearly about forceful removal and destruction",
+        "zh": "tear down、tear off、tear out 和 tear up 可以描述以不同方式移除或破壞事物。",
+        "en": "Tear down, tear off, tear out and tear up help you describe different ways of removing or destroying things.",
+        "examples": [
+          {
+            "en": "The storm tore the boat apart.",
+            "zh": "暴風雨把小船嚴重摧毀了。",
+            "highlight": "tore"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解強烈動作和憤怒反應",
+        "titleEn": "Understand strong actions and angry reactions",
+        "zh": "tear at、tear away 和 tear somebody off a strip 有助你理解猛烈動作和非常嚴厲的責罵。",
+        "en": "Tear at, tear away and tear somebody off a strip are useful for understanding forceful actions and very angry criticism.",
+        "examples": [
+          {
+            "en": "The puppy tore at the rope with its teeth.",
+            "zh": "小狗用牙齒猛烈拉扯繩子。",
+            "highlight": "tore at the rope with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TEAR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the TEAR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: tear it down tear it off tear it out tear it up tear him away tear her off a strip.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: tear it down tear it off tear it out tear it up tear him away tear her off a strip"
+    },
+    {
+      "titleZh": "tear about、tear around 和 tear round 都可以表示快速四處走動。tear apart 則可以表示內心極度痛苦,或嚴重破壞和分裂。請仔細閱讀完整情境。",
+      "titleEn": "Tear about, tear around and tear round can all describe fast movement.",
+      "zh": "tear about、tear around 和 tear round 都可以表示快速四處走動。tear apart 則可以表示內心極度痛苦,或嚴重破壞和分裂。請仔細閱讀完整情境。",
+      "en": "Tear about, tear around and tear round can all describe fast movement. Tear apart may describe deep emotional pain or serious damage and division. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TEAR 動詞片語句子改寫練習",
+    "titleEn": "TEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-146-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Workers demolished the empty shop yesterday.",
+      "promptZh": "工人昨天拆卸了那間空置店舖。",
+      "starter": "Workers",
+      "answer": "Workers tore the empty shop down yesterday.",
+      "answerZh": "工人昨天拆卸了那間空置店舖。",
+      "highlight": "tore",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Being away from her family was causing Nora deep emotional pain.",
+      "promptZh": "離開家人令諾拉內心十分痛苦。",
+      "starter": "Being",
+      "answer": "Being away from her family was tearing Nora apart.",
+      "answerZh": "離開家人令諾拉內心十分痛苦。",
+      "highlight": "tearing",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Someone ripped several pages from the book.",
+      "promptZh": "有人從書中撕走了幾頁。",
+      "starter": "Someone",
+      "answer": "Someone tore several pages out of the book.",
+      "answerZh": "有人從書中撕走了幾頁。",
+      "highlight": "tore",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某物中撕出或扯出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The children raced around the playground, shouting loudly.",
+      "promptZh": "孩子們在遊樂場上飛快地四處跑,並大聲叫喊。",
+      "starter": "The",
+      "answer": "The children tore around the playground, shouting loudly.",
+      "answerZh": "孩子們在遊樂場上飛快地四處跑,並大聲叫喊。",
+      "highlight": "tore",
+      "targetForm": "tear around something",
+      "targetMeaningZh": "在某處飛快地四處走動或跑動"
+    },
+    {
+      "id": "phrasal-verb-146-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The coach spoke to the players extremely angrily for arriving late.",
+      "promptZh": "教練因球員遲到而非常憤怒地責罵他們。",
+      "starter": "The",
+      "answer": "The coach tore the players off a strip for arriving late.",
+      "answerZh": "教練因球員遲到而狠狠責罵他們。",
+      "highlight": "tore",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The thorny bushes scratched and pulled at her legs as she walked past.",
+      "promptZh": "她走過時,帶刺灌木不斷刮扯她的雙腿。",
+      "starter": "The",
+      "answer": "The thorny bushes tore at her legs as she walked past.",
+      "answerZh": "她走過時,帶刺灌木不斷刮扯她的雙腿。",
+      "highlight": "tore",
+      "targetForm": "tear at something",
+      "targetMeaningZh": "猛烈抓扯或刮扯某物"
+    },
+    {
+      "id": "phrasal-verb-146-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She destroyed the letters by ripping them into small pieces.",
+      "promptZh": "她把那些信撕成小片,將它們毀掉。",
+      "starter": "She",
+      "answer": "She tore up the letters.",
+      "answerZh": "她把那些信撕碎了。",
+      "highlight": "tore up",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The explosion completely destroyed the small shed.",
+      "promptZh": "爆炸把那間小棚屋完全摧毀了。",
+      "starter": "The",
+      "answer": "The explosion tore the small shed apart.",
+      "answerZh": "爆炸把那間小棚屋完全摧毀了。",
+      "highlight": "tore",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "把某物嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-146-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I could not stop reading the book, even when dinner was ready.",
+      "promptZh": "即使晚餐已準備好,我仍無法停止閱讀那本書。",
+      "starter": "I",
+      "answer": "I could not tear myself away from the book, even when dinner was ready.",
+      "answerZh": "即使晚餐已準備好,我仍捨不得放下那本書。",
+      "highlight": "tear myself away from",
+      "targetForm": "tear yourself away from something",
+      "targetMeaningZh": "使自己很不情願地離開或停止"
+    },
+    {
+      "id": "phrasal-verb-146-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Alice suddenly removed her ring with a sharp pull and threw it on the ground.",
+      "promptZh": "愛麗絲突然用力扯下戒指,並把它扔在地上。",
+      "starter": "Alice",
+      "answer": "Alice suddenly tore off her ring and threw it on the ground.",
+      "answerZh": "愛麗絲突然用力扯下戒指,並把它扔在地上。",
+      "highlight": "tore off",
+      "targetForm": "tear something off",
+      "targetMeaningZh": "用力或迅速扯下某物"
+    },
+    {
+      "id": "phrasal-verb-146-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Ben went very quickly round the park on his bike.",
+      "promptZh": "賓踏着單車在公園內飛快地繞來繞去。",
+      "starter": "Ben",
+      "answer": "Ben tore round the park on his bike.",
+      "answerZh": "賓踏着單車在公園內飛快地繞來繞去。",
+      "highlight": "tore",
+      "targetForm": "tear round something",
+      "targetMeaningZh": "在某處飛快地走動或駛過"
+    },
+    {
+      "id": "phrasal-verb-146-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The bitter argument divided the club and damaged it badly.",
+      "promptZh": "這場激烈爭吵令社團分裂,並造成嚴重傷害。",
+      "starter": "The",
+      "answer": "The bitter argument tore the club apart.",
+      "answerZh": "這場激烈爭吵令社團四分五裂。",
+      "highlight": "tore",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "令組織或群體分裂"
+    },
+    {
+      "id": "phrasal-verb-146-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The dog pulled violently at the old blanket with its teeth.",
+      "promptZh": "那隻狗用牙齒猛烈拉扯舊毛毯。",
+      "starter": "The",
+      "answer": "The dog tore at the old blanket with its teeth.",
+      "answerZh": "那隻狗用牙齒猛烈拉扯舊毛毯。",
+      "highlight": "tore",
+      "targetForm": "tear at something with something",
+      "targetMeaningZh": "用某物猛烈抓扯另一物"
+    },
+    {
+      "id": "phrasal-verb-146-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The thought of losing the dog caused Sam terrible pain inside.",
+      "promptZh": "一想到可能失去那隻狗,山姆便感到極度痛苦。",
+      "starter": "The",
+      "answer": "The thought of losing the dog tore Sam apart.",
+      "answerZh": "一想到可能失去那隻狗,山姆便感到極度痛苦。",
+      "highlight": "tore",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Strong winds have badly damaged the old roof.",
+      "promptZh": "強風已嚴重破壞舊屋頂。",
+      "starter": "Strong",
+      "answer": "Strong winds have torn the old roof apart.",
+      "answerZh": "強風已嚴重破壞舊屋頂。",
+      "highlight": "torn",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "把某物嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-146-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He is removing the old label from the bottle with a quick pull.",
+      "promptZh": "他正一下子從瓶上扯下舊標籤。",
+      "starter": "He",
+      "answer": "He is tearing the old label off the bottle.",
+      "answerZh": "他正從瓶上扯下舊標籤。",
+      "highlight": "tearing",
+      "targetForm": "tear something off something",
+      "targetMeaningZh": "從某物上扯下另一物"
+    },
+    {
+      "id": "phrasal-verb-146-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The puppy is racing around the kitchen in great excitement.",
+      "promptZh": "小狗正興奮地在廚房內飛快四處跑。",
+      "starter": "The",
+      "answer": "The puppy is tearing around the kitchen in great excitement.",
+      "answerZh": "小狗正興奮地在廚房內飛快四處跑。",
+      "highlight": "tearing",
+      "targetForm": "tear around something",
+      "targetMeaningZh": "在某處飛快地四處走動或跑動"
+    },
+    {
+      "id": "phrasal-verb-146-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Dad will speak to me extremely angrily if I break the window.",
+      "promptZh": "如果我打破窗戶,爸爸會非常憤怒地責罵我。",
+      "starter": "Dad",
+      "answer": "Dad will tear me off a strip if I break the window.",
+      "answerZh": "如果我打破窗戶,爸爸會狠狠責罵我。",
+      "highlight": "tear",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The teacher had to make the children stop playing the computer game.",
+      "promptZh": "老師不得不叫孩子們停止玩電腦遊戲。",
+      "starter": "The",
+      "answer": "The teacher had to tear the children away from the computer game.",
+      "answerZh": "老師不得不強行把孩子們從電腦遊戲前拉走。",
+      "highlight": "tear",
+      "targetForm": "tear somebody away from something",
+      "targetMeaningZh": "強行使某人離開某事物"
+    },
+    {
+      "id": "phrasal-verb-146-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ella has ripped the old photo from the album.",
+      "promptZh": "埃拉已從相簿中撕走那張舊照片。",
+      "starter": "Ella",
+      "answer": "Ella has torn the old photo out of the album.",
+      "answerZh": "埃拉已從相簿中撕走那張舊照片。",
+      "highlight": "torn",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某物中撕出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "A strong wind was pulling at the loose sign all night.",
+      "promptZh": "強風整晚不斷拉扯那塊鬆脫的招牌。",
+      "starter": "A",
+      "answer": "A strong wind was tearing at the loose sign all night.",
+      "answerZh": "強風整晚不斷拉扯那塊鬆脫的招牌。",
+      "highlight": "tearing",
+      "targetForm": "tear at something",
+      "targetMeaningZh": "不斷猛烈拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-146-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The school will demolish the unsafe wall next week.",
+      "promptZh": "學校下星期會拆除那幅不安全的牆。",
+      "starter": "The",
+      "answer": "The school will tear the unsafe wall down next week.",
+      "answerZh": "學校下星期會拆除那幅不安全的牆。",
+      "highlight": "tear",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The long argument is making both brothers feel terrible inside.",
+      "promptZh": "這場長時間的爭吵令兩兄弟內心十分痛苦。",
+      "starter": "The",
+      "answer": "The long argument is tearing both brothers apart.",
+      "answerZh": "這場長時間的爭吵令兩兄弟內心十分痛苦。",
+      "highlight": "tearing",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The child is ripping the old newspaper into pieces.",
+      "promptZh": "那個孩子正把舊報紙撕成碎片。",
+      "starter": "The",
+      "answer": "The child is tearing up the old newspaper.",
+      "answerZh": "那個孩子正把舊報紙撕碎。",
+      "highlight": "tearing up",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please remove it with a quick pull before the glue dries.",
+      "promptZh": "請在膠水乾掉前迅速把它扯下來。",
+      "starter": "Please",
+      "answer": "Please tear it off quickly before the glue dries.",
+      "answerZh": "請在膠水乾掉前迅速把它扯下來。",
+      "highlight": "tear",
+      "targetForm": "tear something off",
+      "targetMeaningZh": "用力或迅速扯下某物"
+    },
+    {
+      "id": "phrasal-verb-146-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The strong wind pulled the loose sign away from the wall.",
+      "promptZh": "強風把鬆脫的招牌從牆上扯開。",
+      "starter": "The",
+      "answer": "The strong wind tore the loose sign away from the wall.",
+      "answerZh": "強風把鬆脫的招牌從牆上扯開。",
+      "highlight": "tore",
+      "targetForm": "tear something away from something",
+      "targetMeaningZh": "強行把某物從另一物上扯開"
+    },
+    {
+      "id": "phrasal-verb-146-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "He was removing the old cloth from the bag by ripping it.",
+      "promptZh": "他正把舊布從袋中撕出來。",
+      "starter": "He",
+      "answer": "He was tearing the old cloth out of the bag.",
+      "answerZh": "他正把舊布從袋中撕出來。",
+      "highlight": "tearing",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某物中撕出或扯出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They are demolishing the old cinema to build new flats.",
+      "promptZh": "他們正拆卸舊戲院,以興建新住宅單位。",
+      "starter": "They",
+      "answer": "They are tearing the old cinema down to build new flats.",
+      "answerZh": "他們正拆卸舊戲院,以興建新住宅單位。",
+      "highlight": "tearing",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The film was so exciting that we could not stop watching it.",
+      "promptZh": "那齣電影十分精彩,我們無法停止觀看。",
+      "starter": "The",
+      "answer": "The film was so exciting that we could not tear ourselves away from it.",
+      "answerZh": "那齣電影十分精彩,我們完全捨不得移開目光。",
+      "highlight": "tear ourselves away from",
+      "targetForm": "tear yourself away from something",
+      "targetMeaningZh": "使自己很不情願地離開或停止"
+    },
+    {
+      "id": "phrasal-verb-146-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The machine ripped the box into pieces in seconds.",
+      "promptZh": "機器在幾秒內把箱子扯成碎片。",
+      "starter": "The",
+      "answer": "The machine tore the box apart in seconds.",
+      "answerZh": "機器在幾秒內把箱子扯成碎片。",
+      "highlight": "tore",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "把某物嚴重破壞或扯碎"
+    },
+    {
+      "id": "phrasal-verb-146-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The manager spoke to him extremely angrily in front of everyone.",
+      "promptZh": "經理在眾人面前非常憤怒地責罵他。",
+      "starter": "The",
+      "answer": "The manager tore him off a strip in front of everyone.",
+      "answerZh": "經理在眾人面前狠狠責罵他。",
+      "highlight": "tore",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We heard them racing around the upstairs rooms.",
+      "promptZh": "我們聽到他們在樓上的房間內飛快地四處跑。",
+      "starter": "We",
+      "answer": "We heard them tearing around the upstairs rooms.",
+      "answerZh": "我們聽到他們在樓上的房間內飛快地四處跑。",
+      "highlight": "tearing",
+      "targetForm": "tear around something",
+      "targetMeaningZh": "在某處飛快地四處走動或跑動"
+    },
+    {
+      "id": "phrasal-verb-146-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The child pulled the paper crown from his head and laughed.",
+      "promptZh": "孩子從頭上扯下紙皇冠,然後笑了。",
+      "starter": "The",
+      "answer": "The child tore the paper crown off his head and laughed.",
+      "answerZh": "孩子從頭上扯下紙皇冠,然後笑了。",
+      "highlight": "tore",
+      "targetForm": "tear something off somebody/something",
+      "targetMeaningZh": "從某人或某物上扯下某物"
+    },
+    {
+      "id": "phrasal-verb-146-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I could see that guilt was causing him deep pain.",
+      "promptZh": "我看得出內疚正令他深感痛苦。",
+      "starter": "I",
+      "answer": "I could see that guilt was tearing him apart.",
+      "answerZh": "我看得出內疚正令他深感痛苦。",
+      "highlight": "tearing",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I watched Ben rip the note from his notebook.",
+      "promptZh": "我看着賓從筆記簿中撕走那張便條。",
+      "starter": "I",
+      "answer": "I watched Ben tear the note out of his notebook.",
+      "answerZh": "我看着賓從筆記簿中撕走那張便條。",
+      "highlight": "tear",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某物中撕出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Please destroy it by ripping it into pieces.",
+      "promptZh": "請把它撕成碎片,將它毀掉。",
+      "starter": "Please",
+      "answer": "Please tear it up.",
+      "answerZh": "請把它撕碎。",
+      "highlight": "tear",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The cat kept scratching and pulling at the paper bag.",
+      "promptZh": "那隻貓不斷抓扯紙袋。",
+      "starter": "The",
+      "answer": "The cat kept tearing at the paper bag.",
+      "answerZh": "那隻貓不斷抓扯紙袋。",
+      "highlight": "tearing",
+      "targetForm": "tear at something",
+      "targetMeaningZh": "不斷猛烈抓扯某物"
+    },
+    {
+      "id": "phrasal-verb-146-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The building was demolished after the fire.",
+      "promptZh": "那座建築物在火災後被拆除。",
+      "starter": "The",
+      "answer": "The building was torn down after the fire.",
+      "answerZh": "那座建築物在火災後被拆除。",
+      "highlight": "torn down",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why were the boys racing about the house so noisily?",
+      "promptZh": "那些男孩為何在屋內吵鬧地飛快走動?",
+      "starter": "Why",
+      "answer": "Why were the boys tearing about the house so noisily?",
+      "answerZh": "那些男孩為何在屋內吵鬧地飛快走動?",
+      "highlight": "tearing",
+      "targetForm": "tear about something",
+      "targetMeaningZh": "在某處飛快地四處走動"
+    },
+    {
+      "id": "phrasal-verb-146-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did the teacher speak to you so angrily after class?",
+      "promptZh": "老師為何在課後如此憤怒地責罵你?",
+      "starter": "Why",
+      "answer": "Why did the teacher tear you off a strip after class?",
+      "answerZh": "老師為何在課後狠狠責罵你?",
+      "highlight": "tear",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Do not cause yourself terrible emotional pain over one small mistake.",
+      "promptZh": "不要因一個小錯誤而令自己內心極度痛苦。",
+      "starter": "Do",
+      "answer": "Do not tear yourself apart over one small mistake.",
+      "answerZh": "不要因一個小錯誤而如此折磨自己。",
+      "highlight": "tear",
+      "targetForm": "tear yourself apart",
+      "targetMeaningZh": "令自己內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did Leo destroy the ticket by ripping it into pieces?",
+      "promptZh": "里奧為何把票撕成碎片,將它毀掉?",
+      "starter": "Why",
+      "answer": "Why did Leo tear the ticket up?",
+      "answerZh": "里奧為何把票撕碎?",
+      "highlight": "tear",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Zoe did not carefully remove the bandage; she pulled it away in one quick movement.",
+      "promptZh": "佐伊並非小心除下繃帶;她一下子把它扯走。",
+      "starter": "Zoe",
+      "answer": "Zoe did not carefully remove the bandage; she tore it off in one quick movement.",
+      "answerZh": "佐伊並非小心除下繃帶;她一下子把它扯走。",
+      "highlight": "tore",
+      "targetForm": "tear something off",
+      "targetMeaningZh": "用力或迅速扯下某物"
+    },
+    {
+      "id": "phrasal-verb-146-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The storm did not simply damage the tent; it completely destroyed it.",
+      "promptZh": "暴風雨不只是損壞帳篷,而是把它完全摧毀。",
+      "starter": "The",
+      "answer": "The storm did not simply damage the tent; it tore it apart.",
+      "answerZh": "暴風雨不只是損壞帳篷,而是把它完全摧毀。",
+      "highlight": "tore",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "把某物嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-146-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The phone rang, but Ava could not stop reading the final page of the story.",
+      "promptZh": "電話響了,但艾娃仍無法停止閱讀故事的最後一頁。",
+      "starter": "The",
+      "answer": "The phone rang, but Ava could not tear herself away from the final page of the story.",
+      "answerZh": "電話響了,但艾娃仍捨不得放下故事的最後一頁。",
+      "highlight": "tear herself away from",
+      "targetForm": "tear yourself away from something",
+      "targetMeaningZh": "使自己很不情願地離開或停止"
+    },
+    {
+      "id": "phrasal-verb-146-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Rather than giving Omar a gentle warning, the team leader spoke to him extremely angrily.",
+      "promptZh": "組長沒有溫和警告奧馬,反而非常憤怒地責罵他。",
+      "starter": "Rather",
+      "answer": "Rather than giving Omar a gentle warning, the team leader tore a strip off him.",
+      "answerZh": "組長沒有溫和警告奧馬,反而狠狠責罵他。",
+      "highlight": "tore a strip off",
+      "targetForm": "tear a strip off somebody",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The twins were racing from room to room instead of playing quietly.",
+      "promptZh": "那對雙胞胎沒有安靜玩耍,而是在房間之間飛快跑動。",
+      "starter": "The",
+      "answer": "The twins were tearing around from room to room instead of playing quietly.",
+      "answerZh": "那對雙胞胎沒有安靜玩耍,而是在房間之間飛快跑動。",
+      "highlight": "tearing around",
+      "targetForm": "tear around",
+      "targetMeaningZh": "飛快地四處走動或跑動"
+    },
+    {
+      "id": "phrasal-verb-146-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The page was important, so why did you rip it from the diary?",
+      "promptZh": "那一頁很重要,你為何把它從日記簿中撕走?",
+      "starter": "The",
+      "answer": "The page was important, so why did you tear it out of the diary?",
+      "answerZh": "那一頁很重要,你為何把它從日記簿中撕走?",
+      "highlight": "tear",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某物中撕出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Something sharp was pulling at the sleeve, but he could not see what it was.",
+      "promptZh": "有尖銳的東西正拉扯衣袖,但他看不見那是甚麼。",
+      "starter": "Something",
+      "answer": "Something sharp was tearing at the sleeve, but he could not see what it was.",
+      "answerZh": "有尖銳的東西正拉扯衣袖,但他看不見那是甚麼。",
+      "highlight": "tearing",
+      "targetForm": "tear at something",
+      "targetMeaningZh": "猛烈抓扯或刮扯某物"
+    },
+    {
+      "id": "phrasal-verb-146-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The note was not lost; Ben had deliberately destroyed it by ripping it into pieces.",
+      "promptZh": "那張便條並非遺失了;賓故意把它撕成碎片。",
+      "starter": "The",
+      "answer": "The note was not lost; Ben had deliberately torn it up.",
+      "answerZh": "那張便條並非遺失了;賓故意把它撕碎。",
+      "highlight": "torn",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The decision did not hurt his body, but it caused him great emotional pain.",
+      "promptZh": "這個決定沒有傷害他的身體,卻令他內心極度痛苦。",
+      "starter": "The",
+      "answer": "The decision did not hurt his body, but it tore him apart.",
+      "answerZh": "這個決定沒有傷害他的身體,卻令他內心極度痛苦。",
+      "highlight": "tore",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The family decided not to repair the shed; they decided to demolish it.",
+      "promptZh": "那家人決定不修理小棚屋,而是把它拆除。",
+      "starter": "The",
+      "answer": "The family decided not to repair the shed; they decided to tear it down.",
+      "answerZh": "那家人決定不修理小棚屋,而是把它拆除。",
+      "highlight": "tear",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Mum had to make Leo stop playing with his new toy for dinner.",
+      "promptZh": "媽媽不得不叫里奧停止玩新玩具去吃晚餐。",
+      "starter": "Mum",
+      "answer": "Mum had to tear Leo away from his new toy for dinner.",
+      "answerZh": "媽媽不得不強行叫里奧放下新玩具去吃晚餐。",
+      "highlight": "tear",
+      "targetForm": "tear somebody away from something",
+      "targetMeaningZh": "強行使某人離開某事物"
+    },
+    {
+      "id": "phrasal-verb-146-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Years of fighting were dividing the community and causing great damage.",
+      "promptZh": "多年的衝突正令社區分裂,並造成嚴重傷害。",
+      "starter": "Years",
+      "answer": "Years of fighting were tearing the community apart.",
+      "answerZh": "多年的衝突正令社區四分五裂。",
+      "highlight": "tearing",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "令地方或群體分裂"
+    },
+    {
+      "id": "phrasal-verb-146-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why did the town demolish the old bridge instead of fixing it?",
+      "promptZh": "鎮政府為何拆除舊橋,而不是修理它?",
+      "starter": "Why",
+      "answer": "Why did the town tear the old bridge down instead of fixing it?",
+      "answerZh": "鎮政府為何拆除舊橋,而不是修理它?",
+      "highlight": "tear",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "With its claws, the bird pulled again and again at the soft cloth.",
+      "promptZh": "那隻鳥用爪子一次又一次地拉扯軟布。",
+      "starter": "With",
+      "answer": "With its claws, the bird tore at the soft cloth again and again.",
+      "answerZh": "那隻鳥用爪子一次又一次地拉扯軟布。",
+      "highlight": "tore",
+      "targetForm": "tear at something with something",
+      "targetMeaningZh": "用某物猛烈抓扯另一物"
+    },
+    {
+      "id": "phrasal-verb-146-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although Ella said she was fine, being unable to see her child was causing her deep pain every day.",
+      "promptZh": "雖然埃拉說自己沒事,但無法見到孩子每天都令她深感痛苦。",
+      "starter": "Although",
+      "answer": "Although Ella said she was fine, being unable to see her child was tearing her apart every day.",
+      "answerZh": "雖然埃拉說自己沒事,但無法見到孩子每天都令她深感痛苦。",
+      "highlight": "tearing",
+      "targetForm": "tear somebody apart",
+      "targetMeaningZh": "令某人內心極度痛苦"
+    },
+    {
+      "id": "phrasal-verb-146-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "During the repair, the worker removed the damaged seat with great force.",
+      "promptZh": "維修期間,工人用力拆走受損座椅。",
+      "starter": "During",
+      "answer": "During the repair, the worker tore the damaged seat out.",
+      "answerZh": "維修期間,工人用力拆走受損座椅。",
+      "highlight": "tore",
+      "targetForm": "tear something out",
+      "targetMeaningZh": "用力扯出或拆走某物"
+    },
+    {
+      "id": "phrasal-verb-146-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As soon as school ended, the children raced around the field, shouting with excitement.",
+      "promptZh": "放學後,孩子們立即在球場上興奮地四處飛跑和叫喊。",
+      "starter": "As",
+      "answer": "As soon as school ended, the children tore around the field, shouting with excitement.",
+      "answerZh": "放學後,孩子們立即在球場上興奮地四處飛跑和叫喊。",
+      "highlight": "tore",
+      "targetForm": "tear around something",
+      "targetMeaningZh": "在某處飛快地四處走動或跑動"
+    },
+    {
+      "id": "phrasal-verb-146-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After experts said the tower was unsafe, the owners agreed that it should be demolished before winter.",
+      "promptZh": "專家表示塔樓不安全後,業主同意在冬季前把它拆除。",
+      "starter": "After",
+      "answer": "After experts said the tower was unsafe, the owners agreed that it should be torn down before winter.",
+      "answerZh": "專家表示塔樓不安全後,業主同意在冬季前把它拆除。",
+      "highlight": "torn down",
+      "targetForm": "tear something down",
+      "targetMeaningZh": "拆卸;拆除建築物"
+    },
+    {
+      "id": "phrasal-verb-146-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As Priya climbed through the bushes, the thorns kept scratching and pulling at her coat.",
+      "promptZh": "普里雅穿過灌木叢時,荊棘不斷刮扯她的外套。",
+      "starter": "As",
+      "answer": "As Priya climbed through the bushes, the thorns kept tearing at her coat.",
+      "answerZh": "普里雅穿過灌木叢時,荊棘不斷刮扯她的外套。",
+      "highlight": "tearing",
+      "targetForm": "tear at something",
+      "targetMeaningZh": "不斷猛烈抓扯或刮扯某物"
+    },
+    {
+      "id": "phrasal-verb-146-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After the staff found the kitchen unlocked, the owner spoke to the night worker extremely angrily.",
+      "promptZh": "職員發現廚房沒有上鎖後,店主非常憤怒地責罵夜班工人。",
+      "starter": "After",
+      "answer": "After the staff found the kitchen unlocked, the owner tore the night worker off a strip.",
+      "answerZh": "職員發現廚房沒有上鎖後,店主狠狠責罵夜班工人。",
+      "highlight": "tore",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Unless the two sides stop attacking each other, their continuing fight may divide the whole team and ruin it.",
+      "promptZh": "除非雙方停止互相攻擊,否則持續的爭鬥可能令整支球隊分裂並毀掉它。",
+      "starter": "Unless",
+      "answer": "Unless the two sides stop attacking each other, their continuing fight may tear the whole team apart.",
+      "answerZh": "除非雙方停止互相攻擊,否則持續的爭鬥可能令整支球隊四分五裂。",
+      "highlight": "tear",
+      "targetForm": "tear something apart",
+      "targetMeaningZh": "令組織或群體分裂"
+    },
+    {
+      "id": "phrasal-verb-146-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "In anger, the player pulled the number from his shirt and dropped it beside the field.",
+      "promptZh": "球員憤怒地從球衣上扯下號碼,並把它丟在球場旁。",
+      "starter": "In",
+      "answer": "In anger, the player tore the number off his shirt and dropped it beside the field.",
+      "answerZh": "球員憤怒地從球衣上扯下號碼,並把它丟在球場旁。",
+      "highlight": "tore",
+      "targetForm": "tear something off something",
+      "targetMeaningZh": "從某物上扯下另一物"
+    },
+    {
+      "id": "phrasal-verb-146-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Even though the bus was waiting, I found it hard to stop looking at the beautiful view.",
+      "promptZh": "即使巴士正在等候,我仍很難停止欣賞美麗景色。",
+      "starter": "Even",
+      "answer": "Even though the bus was waiting, I found it hard to tear myself away from the beautiful view.",
+      "answerZh": "即使巴士正在等候,我仍捨不得離開那片美麗景色。",
+      "highlight": "tear myself away from",
+      "targetForm": "tear yourself away from something",
+      "targetMeaningZh": "使自己很不情願地離開或停止"
+    },
+    {
+      "id": "phrasal-verb-146-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After reading the angry message, Aisha ripped the paper into pieces and put it in the bin.",
+      "promptZh": "艾莎讀完那則憤怒的訊息後,把紙張撕成碎片並放進垃圾桶。",
+      "starter": "After",
+      "answer": "After reading the angry message, Aisha tore up the paper and put it in the bin.",
+      "answerZh": "艾莎讀完那則憤怒的訊息後,把紙張撕碎並放進垃圾桶。",
+      "highlight": "tore up",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    },
+    {
+      "id": "phrasal-verb-146-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The weeds had deep roots, but Sam pulled them from the path with great force.",
+      "promptZh": "那些雜草的根很深,但山姆仍用力把它們從小路上拔走。",
+      "starter": "The",
+      "answer": "The weeds had deep roots, but Sam tore them out of the path.",
+      "answerZh": "那些雜草的根很深,但山姆仍用力把它們從小路上拔走。",
+      "highlight": "tore",
+      "targetForm": "tear something out of something",
+      "targetMeaningZh": "從某處用力扯出某物"
+    },
+    {
+      "id": "phrasal-verb-146-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The wet poster was hanging loose, so the shopkeeper removed it from the door with a quick pull.",
+      "promptZh": "濕透的海報鬆垂着,所以店主一下子把它從門上扯下來。",
+      "starter": "The",
+      "answer": "The wet poster was hanging loose, so the shopkeeper tore it off the door.",
+      "answerZh": "濕透的海報鬆垂着,所以店主把它從門上扯下來。",
+      "highlight": "tore",
+      "targetForm": "tear something off something",
+      "targetMeaningZh": "從某物上扯下另一物"
+    },
+    {
+      "id": "phrasal-verb-146-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Priya knew her mother would speak to her extremely angrily when she saw the broken phone.",
+      "promptZh": "普里雅知道媽媽看到損壞的電話後會非常憤怒地責罵她。",
+      "starter": "Priya",
+      "answer": "Priya knew her mother would tear her off a strip when she saw the broken phone.",
+      "answerZh": "普里雅知道媽媽看到損壞的電話後會狠狠責罵她。",
+      "highlight": "tear",
+      "targetForm": "tear somebody off a strip",
+      "targetMeaningZh": "狠狠責罵某人"
+    },
+    {
+      "id": "phrasal-verb-146-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "We no longer needed the old map, so Dad destroyed it by ripping it into small pieces.",
+      "promptZh": "我們不再需要那張舊地圖,所以爸爸把它撕成小片毀掉。",
+      "starter": "We",
+      "answer": "We no longer needed the old map, so Dad tore it up.",
+      "answerZh": "我們不再需要那張舊地圖,所以爸爸把它撕碎了。",
+      "highlight": "tore",
+      "targetForm": "tear something up",
+      "targetMeaningZh": "把某物撕碎"
+    }
+  ]
+}

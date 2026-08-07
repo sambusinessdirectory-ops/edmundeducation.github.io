@@ -1,0 +1,1192 @@
+{
+  "id": "phrasal-verb-320",
+  "order": 320,
+  "slug": "zone-and-zonk",
+  "version": "1",
+  "title": "ZONE AND ZONK 動詞片語",
+  "titleEn": "ZONE and ZONK",
+  "titleZh": "ZONE AND ZONK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 305 - ZONE and ZONK.pdf",
+    "sourceNumber": 305,
+    "pageCount": 13,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerKeyPdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ZONE 和 ZONK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ZONE and ZONK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ZONE AND ZONK",
+      "highlight": "ZONE AND ZONK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The city centre was zoned off for pedestrians.",
+      "zh": "市中心被劃為行人專用區。",
+      "highlight": "zoned off for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I zoned out during the long talk.",
+      "zh": "我在那場冗長的講話期間走神了。",
+      "highlight": "zoned out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The long trip zonked the children out, and Dad zonked out too.",
+      "zh": "長途旅程令孩子們累得睡着了,爸爸也睡着了。",
+      "highlight": "zonked the children out, and Dad zonked out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途；走神;放空;暫時不留意周圍發生的事情；因極度疲倦而睡着;令某人累得睡着或失去知覺",
+    "en": "zone something off / zone something off for something; zone out; zonk out / zonk somebody out",
+    "naturalZh": [
+      "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+      "走神;放空;暫時不留意周圍發生的事情",
+      "因極度疲倦而睡着;令某人累得睡着或失去知覺"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "zone something off / zone something off for something",
+      "titleZh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+      "titleEn": "zone something off / zone something off for something",
+      "descriptionZh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+      "descriptionEn": "The city centre was zoned off for pedestrians.",
+      "examples": [
+        {
+          "en": "The city centre was zoned off for pedestrians.",
+          "zh": "市中心被劃為行人專用區。",
+          "highlight": "zoned off for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "zone out",
+      "titleZh": "走神;放空;暫時不留意周圍發生的事情",
+      "titleEn": "zone out",
+      "descriptionZh": "走神;放空;暫時不留意周圍發生的事情",
+      "descriptionEn": "I zoned out during the long talk.",
+      "examples": [
+        {
+          "en": "I zoned out during the long talk.",
+          "zh": "我在那場冗長的講話期間走神了。",
+          "highlight": "zoned out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "zonk out / zonk somebody out",
+      "titleZh": "因極度疲倦而睡着;令某人累得睡着或失去知覺",
+      "titleEn": "zonk out / zonk somebody out",
+      "descriptionZh": "因極度疲倦而睡着;令某人累得睡着或失去知覺",
+      "descriptionEn": "The long trip zonked the children out, and Dad zonked out too.",
+      "examples": [
+        {
+          "en": "The long trip zonked the children out, and Dad zonked out too.",
+          "zh": "長途旅程令孩子們累得睡着了,爸爸也睡着了。",
+          "highlight": "zonked the children out, and Dad zonked out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ZONE AND ZONK 片語動詞的實際用途",
+    "labelEn": "ZONE AND ZONK Phrasal Verbs in Use",
+    "summaryZh": "zone something off 可以描述劃作行人、單車、食物攤檔、的士或其他特定用途的範圍。；zone out 可以描述你仍然清醒,卻暫時沒有留意周圍事情的情況。；zone out 通常與注意力有關;zonk out 則表示真正睡着或失去知覺。；zonk out 和 zonk somebody out 可以生動地描述某人累得無法保持清醒。",
+    "summaryEn": "Zone something off can describe an area reserved for pedestrians, bicycles, food stalls, taxis or another particular use. Zone out helps you describe moments when you are still awake but no longer notice what is happening around you. Zone out normally concerns attention, while zonk out describes actually falling asleep or becoming unconscious. Zonk out and zonk somebody out provide lively, informal ways to describe someone becoming too tired to remain awake.",
+    "contextsZh": [
+      "談論有特定用途的範圍",
+      "描述暫時走神的時刻",
+      "分辨走神和真正睡着",
+      "以自然口語談論極度疲倦"
+    ],
+    "contextsEn": [
+      "Talk about areas with a special purpose",
+      "Describe moments when your attention disappears",
+      "Distinguish daydreaming from falling asleep",
+      "Talk informally about extreme tiredness"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ZONE 或 ZONK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ZONE or ZONK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "zone something off / zone something off for something",
+    "fixedHighlight": "zone something off / zone something off for something",
+    "fixedZh": "閱讀整句,選出意思相同的 ZONE 或 ZONK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ZONE or ZONK expression that gives the same meaning.",
+    "correct": "zoned off for",
+    "incorrectForms": [],
+    "variableZh": "zone out 和 zonk out 的意思不同:zone out=仍然清醒,但暫時走神或不留意周圍zonk out=因為極度疲倦而睡着；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；核心表達是 zone something off。只有在需要說明該範圍的指定用途時,才加上 for+用途。",
+    "variableEn": "Zone out and zonk out are different: zone out = remain awake but stop paying attention zonk out = fall asleep because you are extremely tired When using it, him, her or them, place the word as shown: zone it off zonk him out zonk them out The core expression is zone something off. Add for + purpose only when you need to explain what the area is reserved for: zone the street off zone the street off for buses",
+    "variableItemsZh": [
+      "zone something off / zone something off for something",
+      "zone out",
+      "zonk out / zonk somebody out"
+    ],
+    "variableItemsEn": [
+      "zone something off / zone something off for something",
+      "zone out",
+      "zonk out / zonk somebody out"
+    ],
+    "forms": [
+      {
+        "formZh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+        "formEn": "zone something off / zone something off for something",
+        "exampleZh": "市中心被劃為行人專用區。",
+        "exampleEn": "The city centre was zoned off for pedestrians.",
+        "highlight": "zoned off for"
+      },
+      {
+        "formZh": "走神;放空;暫時不留意周圍發生的事情",
+        "formEn": "zone out",
+        "exampleZh": "我在那場冗長的講話期間走神了。",
+        "exampleEn": "I zoned out during the long talk.",
+        "highlight": "zoned out"
+      },
+      {
+        "formZh": "因極度疲倦而睡着;令某人累得睡着或失去知覺",
+        "formEn": "zonk out / zonk somebody out",
+        "exampleZh": "長途旅程令孩子們累得睡着了,爸爸也睡着了。",
+        "exampleEn": "The long trip zonked the children out, and Dad zonked out too.",
+        "highlight": "zonked the children out, and Dad zonked out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+      "titleEn": "zone something off / zone something off for something",
+      "formula": "zone something off / zone something off for something",
+      "highlight": "zone something off / zone something off for something",
+      "descriptionZh": "把某個範圍劃出或分隔開來;把該範圍指定作某種用途",
+      "descriptionEn": "The city centre was zoned off for pedestrians.",
+      "examples": [
+        {
+          "en": "The city centre was zoned off for pedestrians.",
+          "zh": "市中心被劃為行人專用區。",
+          "highlight": "zoned off for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "走神;放空;暫時不留意周圍發生的事情",
+      "titleEn": "zone out",
+      "formula": "zone out",
+      "highlight": "zone out",
+      "descriptionZh": "走神;放空;暫時不留意周圍發生的事情",
+      "descriptionEn": "I zoned out during the long talk.",
+      "examples": [
+        {
+          "en": "I zoned out during the long talk.",
+          "zh": "我在那場冗長的講話期間走神了。",
+          "highlight": "zoned out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "因極度疲倦而睡着;令某人累得睡着或失去知覺",
+      "titleEn": "zonk out / zonk somebody out",
+      "formula": "zonk out / zonk somebody out",
+      "highlight": "zonk out / zonk somebody out",
+      "descriptionZh": "因極度疲倦而睡着;令某人累得睡着或失去知覺",
+      "descriptionEn": "The long trip zonked the children out, and Dad zonked out too.",
+      "examples": [
+        {
+          "en": "The long trip zonked the children out, and Dad zonked out too.",
+          "zh": "長途旅程令孩子們累得睡着了,爸爸也睡着了。",
+          "highlight": "zonked the children out, and Dad zonked out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論有特定用途的範圍",
+      "titleEn": "Talk about areas with a special purpose",
+      "zh": "zone something off 可以描述劃作行人、單車、食物攤檔、的士或其他特定用途的範圍。",
+      "en": "Zone something off can describe an area reserved for pedestrians, bicycles, food stalls, taxis or another particular use."
+    },
+    {
+      "titleZh": "描述暫時走神的時刻",
+      "titleEn": "Describe moments when your attention disappears",
+      "zh": "zone out 可以描述你仍然清醒,卻暫時沒有留意周圍事情的情況。",
+      "en": "Zone out helps you describe moments when you are still awake but no longer notice what is happening around you."
+    },
+    {
+      "titleZh": "分辨走神和真正睡着",
+      "titleEn": "Distinguish daydreaming from falling asleep",
+      "zh": "zone out 通常與注意力有關;zonk out 則表示真正睡着或失去知覺。",
+      "en": "Zone out normally concerns attention, while zonk out describes actually falling asleep or becoming unconscious."
+    },
+    {
+      "titleZh": "以自然口語談論極度疲倦",
+      "titleEn": "Talk informally about extreme tiredness",
+      "zh": "zonk out 和 zonk somebody out 可以生動地描述某人累得無法保持清醒。",
+      "en": "Zonk out and zonk somebody out provide lively, informal ways to describe someone becoming too tired to remain awake."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論有特定用途的範圍",
+      "描述暫時走神的時刻",
+      "分辨走神和真正睡着",
+      "以自然口語談論極度疲倦"
+    ],
+    "contextsEn": [
+      "Talk about areas with a special purpose",
+      "Describe moments when your attention disappears",
+      "Distinguish daydreaming from falling asleep",
+      "Talk informally about extreme tiredness"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論有特定用途的範圍",
+        "titleEn": "Talk about areas with a special purpose",
+        "zh": "zone something off 可以描述劃作行人、單車、食物攤檔、的士或其他特定用途的範圍。",
+        "en": "Zone something off can describe an area reserved for pedestrians, bicycles, food stalls, taxis or another particular use.",
+        "examples": [
+          {
+            "en": "The city centre was zoned off for pedestrians.",
+            "zh": "市中心被劃為行人專用區。",
+            "highlight": "zoned off for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述暫時走神的時刻",
+        "titleEn": "Describe moments when your attention disappears",
+        "zh": "zone out 可以描述你仍然清醒,卻暫時沒有留意周圍事情的情況。",
+        "en": "Zone out helps you describe moments when you are still awake but no longer notice what is happening around you.",
+        "examples": [
+          {
+            "en": "I zoned out during the long talk.",
+            "zh": "我在那場冗長的講話期間走神了。",
+            "highlight": "zoned out"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨走神和真正睡着",
+        "titleEn": "Distinguish daydreaming from falling asleep",
+        "zh": "zone out 通常與注意力有關;zonk out 則表示真正睡着或失去知覺。",
+        "en": "Zone out normally concerns attention, while zonk out describes actually falling asleep or becoming unconscious.",
+        "examples": [
+          {
+            "en": "The long trip zonked the children out, and Dad zonked out too.",
+            "zh": "長途旅程令孩子們累得睡着了,爸爸也睡着了。",
+            "highlight": "zonked the children out, and Dad zonked out"
+          }
+        ]
+      },
+      {
+        "titleZh": "以自然口語談論極度疲倦",
+        "titleEn": "Talk informally about extreme tiredness",
+        "zh": "zonk out 和 zonk somebody out 可以生動地描述某人累得無法保持清醒。",
+        "en": "Zonk out and zonk somebody out provide lively, informal ways to describe someone becoming too tired to remain awake.",
+        "examples": [
+          {
+            "en": "The city centre was zoned off for pedestrians.",
+            "zh": "市中心被劃為行人專用區。",
+            "highlight": "zoned off for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ZONE 或 ZONK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ZONE or ZONK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ZONE 或 ZONK 片語動詞。",
+      "en": "Read the whole sentence and choose the ZONE or ZONK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "zone out 和 zonk out 的意思不同:zone out=仍然清醒,但暫時走神或不留意周圍zonk out=因為極度疲倦而睡着",
+      "titleEn": "Zone out and zonk out are different: zone out = remain awake but stop paying attention zonk out = fall asleep because you are extremely tired.",
+      "zh": "zone out 和 zonk out 的意思不同:zone out=仍然清醒,但暫時走神或不留意周圍zonk out=因為極度疲倦而睡着",
+      "en": "Zone out and zonk out are different: zone out = remain awake but stop paying attention zonk out = fall asleep because you are extremely tired"
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: zone it off zonk him out zonk them out.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: zone it off zonk him out zonk them out"
+    },
+    {
+      "titleZh": "核心表達是 zone something off。只有在需要說明該範圍的指定用途時,才加上 for+用途。",
+      "titleEn": "The core expression is zone something off.",
+      "zh": "核心表達是 zone something off。只有在需要說明該範圍的指定用途時,才加上 for+用途。",
+      "en": "The core expression is zone something off. Add for + purpose only when you need to explain what the area is reserved for: zone the street off zone the street off for buses"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ZONE AND ZONK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ZONE AND ZONK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ZONE AND ZONK 動詞片語句子改寫練習",
+    "titleEn": "ZONE AND ZONK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ZONE AND ZONK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ZONE AND ZONK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-320-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 9,
+      "prompt": "During the long talk, Ben stopped paying attention for a few minutes.",
+      "promptZh": "在那場冗長的講話期間,賓有幾分鐘沒有留心聽。",
+      "starter": "During",
+      "answer": "During the long talk, Ben zoned out for a few minutes.",
+      "answerZh": "在那場冗長的講話期間,賓有幾分鐘走神了。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;暫時不留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 9,
+      "prompt": "The council separated the square and reserved it for people on foot.",
+      "promptZh": "市議會把廣場劃出來,指定給行人使用。",
+      "starter": "The",
+      "answer": "The council zoned the square off for pedestrians.",
+      "answerZh": "市議會把廣場劃為行人專用區。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Hana fell asleep from tiredness after the long exam.",
+      "promptZh": "哈娜在漫長的考試後累得睡着了。",
+      "starter": "Hana",
+      "answer": "Hana zonked out after the long exam.",
+      "answerZh": "哈娜在漫長的考試後累得睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "I sometimes stop noticing what is happening around me on the bus home.",
+      "promptZh": "我乘巴士回家時,有時會放空,不留意周圍發生的事情。",
+      "starter": "I",
+      "answer": "I sometimes zone out on the bus home.",
+      "answerZh": "我乘巴士回家時,有時會放空,不留意周圍的事情。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;放空"
+    },
+    {
+      "id": "phrasal-verb-320-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "The long journey made the children fall asleep from tiredness.",
+      "promptZh": "長途旅程令孩子們累得睡着了。",
+      "starter": "The",
+      "answer": "The long journey zonked the children out.",
+      "answerZh": "長途旅程令孩子們累得睡着了。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人累得睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The organisers separated one part of the festival area and reserved it for food stalls.",
+      "promptZh": "主辦單位把節日場地的一部分劃出來,指定給食物攤檔使用。",
+      "starter": "The",
+      "answer": "The organisers zoned one part of the festival area off for food stalls.",
+      "answerZh": "主辦單位把節日場地的一部分劃作食物攤檔區。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "Leo stopped noticing the room while he stared at the rain.",
+      "promptZh": "里奧望着雨水時開始走神,沒有留意房間裏的事情。",
+      "starter": "Leo",
+      "answer": "Leo zoned out while he stared at the rain.",
+      "answerZh": "里奧望着雨水時走神了。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;不留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "After dinner, Dad fell asleep on the sofa because he was exhausted.",
+      "promptZh": "晚飯後,爸爸因為十分疲倦,在梳化上睡着了。",
+      "starter": "After",
+      "answer": "After dinner, Dad zonked out on the sofa.",
+      "answerZh": "晚飯後,爸爸累得在梳化上睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The school separated one corner of the hall and reserved it for bags.",
+      "promptZh": "學校把禮堂的一角劃出來,指定用來擺放袋子。",
+      "starter": "The",
+      "answer": "The school zoned off one corner of the hall for bags.",
+      "answerZh": "學校把禮堂的一角劃作擺放袋子的範圍。",
+      "highlight": "zoned off",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "You can relax your mind and ignore everything around you for ten minutes after work.",
+      "promptZh": "下班後,你可以放空十分鐘,暫時不理會周圍的一切。",
+      "starter": "You",
+      "answer": "You can zone out for ten minutes after work.",
+      "answerZh": "下班後,你可以放空十分鐘。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "放空;暫時不理會周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The city has separated the centre and reserved it for pedestrians.",
+      "promptZh": "城市已把市中心劃為行人專用區。",
+      "starter": "The",
+      "answer": "The city centre has been zoned off for pedestrians.",
+      "answerZh": "市中心已被劃為行人專用區。",
+      "highlight": "centre",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The warm room is making me extremely sleepy.",
+      "promptZh": "這個溫暖的房間令我非常想睡。",
+      "starter": "The",
+      "answer": "The warm room is zonking me out.",
+      "answerZh": "這個溫暖的房間令我昏昏欲睡。",
+      "highlight": "zonking",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人想睡或失去知覺"
+    },
+    {
+      "id": "phrasal-verb-320-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Why do you always stop paying attention during long instructions?",
+      "promptZh": "為甚麼你聽到冗長的指示時總是走神?",
+      "starter": "Why",
+      "answer": "Why do you always zone out during long instructions?",
+      "answerZh": "為甚麼你聽到冗長的指示時總是走神?",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;停止留心"
+    },
+    {
+      "id": "phrasal-verb-320-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Kai had already fallen asleep from tiredness before the film ended.",
+      "promptZh": "電影結束前,啟已經累得睡着了。",
+      "starter": "Kai",
+      "answer": "Kai had already zonked out before the film ended.",
+      "answerZh": "電影結束前,啟已經累得睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Please separate this part of the school field and reserve it for the fair.",
+      "promptZh": "請把學校操場的這一部分劃出來,供市集使用。",
+      "starter": "Please",
+      "answer": "Please zone this part of the school field off for the fair.",
+      "answerZh": "請把學校操場的這一部分劃作市集場地。",
+      "highlight": "zone",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "She may stop paying attention if the meeting continues for too long.",
+      "promptZh": "如果會議持續太久,她可能會走神。",
+      "starter": "She",
+      "answer": "She may zone out if the meeting continues for too long.",
+      "answerZh": "如果會議持續太久,她可能會走神。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;停止留心"
+    },
+    {
+      "id": "phrasal-verb-320-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The long flight has made us extremely tired and sleepy.",
+      "promptZh": "漫長的航程令我們非常疲倦和睏倦。",
+      "starter": "The",
+      "answer": "The long flight has zonked us out.",
+      "answerZh": "漫長的航程令我們非常疲倦和睏倦。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人極度疲倦或想睡"
+    },
+    {
+      "id": "phrasal-verb-320-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "I was starting to stop paying attention when the bell rang.",
+      "promptZh": "鐘聲響起時,我正開始走神。",
+      "starter": "I",
+      "answer": "I was starting to zone out when the bell rang.",
+      "answerZh": "鐘聲響起時,我正開始走神。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;不再留心"
+    },
+    {
+      "id": "phrasal-verb-320-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Has part of the park been separated and reserved for bicycles?",
+      "promptZh": "公園的一部分是否已被劃作單車專用區?",
+      "starter": "Has",
+      "answer": "Has part of the park been zoned off for bicycles?",
+      "answerZh": "公園的一部分是否已被劃作單車專用區?",
+      "highlight": "zoned off",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "After training, the whole team fell asleep on the coach because they were exhausted.",
+      "promptZh": "訓練後,全隊因為十分疲倦,在旅遊巴士上睡着了。",
+      "starter": "After",
+      "answer": "After training, the whole team zonked out on the coach.",
+      "answerZh": "訓練後,全隊累得在旅遊巴士上睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The soft music made him fall asleep before the end of the ride.",
+      "promptZh": "柔和的音樂令他在車程結束前睡着了。",
+      "starter": "The",
+      "answer": "The soft music zonked him out before the end of the ride.",
+      "answerZh": "柔和的音樂令他在車程結束前睡着了。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人睡着或失去知覺"
+    },
+    {
+      "id": "phrasal-verb-320-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "This lane is beside the shops. We need to reserve it for delivery vehicles before the shops open.",
+      "promptZh": "這條行車線位於店舖旁邊。我們需要在店舖開門前把它劃給送貨車輛使用。",
+      "starter": "This",
+      "answer": "This lane is beside the shops. We need to zone it off for delivery vehicles before the shops open.",
+      "answerZh": "這條行車線位於店舖旁邊。我們需要在店舖開門前把它劃給送貨車輛使用。",
+      "highlight": "zone",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "Even though the room was noisy, I stopped noticing my surroundings and heard nothing for a moment.",
+      "promptZh": "儘管房間十分嘈吵,我仍走神了一會,暫時甚麼也沒有聽見。",
+      "starter": "Even",
+      "answer": "Even though the room was noisy, I zoned out and heard nothing for a moment.",
+      "answerZh": "儘管房間十分嘈吵,我仍走神了一會,暫時甚麼也沒有聽見。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;暫時不留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The organisers separated part of the hall and reserved it for older guests.",
+      "promptZh": "主辦單位把禮堂的一部分劃出來,供年長賓客使用。",
+      "starter": "The",
+      "answer": "The organisers zoned part of the hall off for older guests.",
+      "answerZh": "主辦單位把禮堂的一部分劃作年長賓客專區。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "By the time we reached home, Suki had fallen asleep from tiredness in the back seat.",
+      "promptZh": "我們到家時,素姬已經累得在後座睡着了。",
+      "starter": "By",
+      "answer": "By the time we reached home, Suki had zonked out in the back seat.",
+      "answerZh": "我們到家時,素姬已經累得在後座睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "Do not stop paying attention while the teacher is giving directions.",
+      "promptZh": "老師作出指示時不要走神。",
+      "starter": "Do",
+      "answer": "Do not zone out while the teacher is giving directions.",
+      "answerZh": "老師作出指示時不要走神。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;停止留心"
+    },
+    {
+      "id": "phrasal-verb-320-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "A quiet part of the library was separated and reserved for group work.",
+      "promptZh": "圖書館一處安靜的範圍被劃作小組活動之用。",
+      "starter": "A",
+      "answer": "A quiet part of the library was zoned off for group work.",
+      "answerZh": "圖書館一處安靜的範圍被劃作小組活動之用。",
+      "highlight": "zoned off",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The gentle movement of the train made the baby fall asleep.",
+      "promptZh": "火車輕柔的晃動令嬰兒睡着了。",
+      "starter": "The",
+      "answer": "The gentle movement of the train zonked the baby out.",
+      "answerZh": "火車輕柔的晃動令嬰兒睡着了。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "She stopped paying attention for a moment, so she missed the question.",
+      "promptZh": "她走神了一會,所以沒有聽到那條問題。",
+      "starter": "She",
+      "answer": "She zoned out for a moment, so she missed the question.",
+      "answerZh": "她走神了一會,所以沒有聽到那條問題。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;暫時不留心"
+    },
+    {
+      "id": "phrasal-verb-320-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 11,
+      "prompt": "The staff will reserve the area beside the station for taxis.",
+      "promptZh": "職員會把車站旁邊的範圍劃作的士專用區。",
+      "starter": "The",
+      "answer": "The staff will zone the area beside the station off for taxis.",
+      "answerZh": "職員會把車站旁邊的範圍劃作的士專用區。",
+      "highlight": "zone",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "At first, Omar listened carefully, but he soon stopped paying attention.",
+      "promptZh": "奧馬起初留心聆聽,但很快便走神了。",
+      "starter": "At",
+      "answer": "At first, Omar listened carefully, but he soon zoned out.",
+      "answerZh": "奧馬起初留心聆聽,但很快便走神了。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;停止留心"
+    },
+    {
+      "id": "phrasal-verb-320-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The council has separated two streets and reserved them for outdoor dining.",
+      "promptZh": "市議會已把兩條街道劃作戶外用餐區。",
+      "starter": "The",
+      "answer": "The council has zoned two streets off for outdoor dining.",
+      "answerZh": "市議會已把兩條街道劃作戶外用餐區。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Exhausted after the match, Ravi fell asleep as soon as he sat down.",
+      "promptZh": "拉維在比賽後筋疲力盡,一坐下便睡着了。",
+      "starter": "Exhausted",
+      "answer": "Exhausted after the match, Ravi zonked out as soon as he sat down.",
+      "answerZh": "拉維在比賽後筋疲力盡,一坐下便睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Watching the clouds helps me relax and stop noticing my surroundings after a busy day.",
+      "promptZh": "忙碌一天後,望着雲朵能令我放鬆並暫時忘記周圍的事情。",
+      "starter": "Watching",
+      "answer": "Watching the clouds helps me zone out after a busy day.",
+      "answerZh": "忙碌一天後,望着雲朵能令我放空。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "放空;暫時忘記周圍的事情"
+    },
+    {
+      "id": "phrasal-verb-320-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "One side of the playground was separated and reserved for younger children.",
+      "promptZh": "遊樂場的一邊被劃作年幼兒童的活動區。",
+      "starter": "One",
+      "answer": "One side of the playground was zoned off for younger children.",
+      "answerZh": "遊樂場的一邊被劃作年幼兒童的活動區。",
+      "highlight": "zoned off",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The boring film almost made us fall asleep.",
+      "promptZh": "那部沉悶的電影幾乎令我們睡着了。",
+      "starter": "The",
+      "answer": "The boring film nearly zonked us out.",
+      "answerZh": "那部沉悶的電影幾乎令我們睡着了。",
+      "highlight": "nearly zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人睡着或昏昏欲睡"
+    },
+    {
+      "id": "phrasal-verb-320-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "I did not hear my name because I had stopped paying attention.",
+      "promptZh": "我因為走神了,所以沒有聽到自己的名字。",
+      "starter": "I",
+      "answer": "I did not hear my name because I had zoned out.",
+      "answerZh": "我因為走神了,所以沒有聽到自己的名字。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;沒有留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "For the festival, the town separated a large space and reserved it for food stalls.",
+      "promptZh": "為了舉辦節日活動,城鎮把一大片範圍劃作食物攤檔區。",
+      "starter": "For",
+      "answer": "For the festival, the town zoned off a large space for food stalls.",
+      "answerZh": "為了舉辦節日活動,城鎮把一大片範圍劃作食物攤檔區。",
+      "highlight": "zoned off",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "Without realising it, the tired student fell asleep over his book.",
+      "promptZh": "那名疲倦的學生不知不覺間伏在書本上睡着了。",
+      "starter": "Without",
+      "answer": "Without realising it, the tired student zonked out over his book.",
+      "answerZh": "那名疲倦的學生不知不覺間伏在書本上睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "If you need a mental break, close your eyes and stop noticing your surroundings for a minute.",
+      "promptZh": "如果你需要讓頭腦休息一下,可以合上眼睛,暫時放空一分鐘。",
+      "starter": "If",
+      "answer": "If you need a mental break, close your eyes and zone out for a minute.",
+      "answerZh": "如果你需要讓頭腦休息一下,可以合上眼睛,放空一分鐘。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "放空;暫時不留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "The long, quiet ride made both children fall asleep before we reached the hotel.",
+      "promptZh": "漫長而安靜的車程令兩名孩子在我們到達酒店前睡着了。",
+      "starter": "The",
+      "answer": "The long, quiet ride zonked both children out before we reached the hotel.",
+      "answerZh": "漫長而安靜的車程令兩名孩子在我們到達酒店前睡着了。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "Although the speaker continued talking, Nia had stopped paying attention and was thinking about home.",
+      "promptZh": "雖然講者仍在說話,但妮亞已經走神,心裏想着家中的事情。",
+      "starter": "Although",
+      "answer": "Although the speaker continued talking, Nia had zoned out and was thinking about home.",
+      "answerZh": "雖然講者仍在說話,但妮亞已經走神,心裏想着家中的事情。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;停止留心"
+    },
+    {
+      "id": "phrasal-verb-320-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "Before the race, the organisers separated the road and reserved it for runners only.",
+      "promptZh": "比賽開始前,主辦單位把道路劃為只供跑手使用的區域。",
+      "starter": "Before",
+      "answer": "Before the race, the organisers zoned the road off for runners only.",
+      "answerZh": "比賽開始前,主辦單位把道路劃為只供跑手使用的區域。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "I meant to read one more page, but I fell asleep from tiredness with the book in my hand.",
+      "promptZh": "我原本打算再看一頁,卻累得拿着書睡着了。",
+      "starter": "I",
+      "answer": "I meant to read one more page, but I zonked out with the book in my hand.",
+      "answerZh": "我原本打算再看一頁,卻累得拿着書睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "A short break may help you relax mentally and return with a clear mind.",
+      "promptZh": "短暫休息可能有助你放空,然後以清醒的頭腦重新開始。",
+      "starter": "A",
+      "answer": "A short break may help you zone out and return with a clear mind.",
+      "answerZh": "短暫休息可能有助你放空,然後以清醒的頭腦重新開始。",
+      "highlight": "zone out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "放空;讓頭腦暫時休息"
+    },
+    {
+      "id": "phrasal-verb-320-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "To keep delivery vans separate from visitors, the staff reserved one entrance for deliveries.",
+      "promptZh": "為了把送貨車輛和訪客分開,職員把其中一個入口劃作送貨專用。",
+      "starter": "To",
+      "answer": "To keep delivery vans separate from visitors, the staff zoned one entrance off for deliveries.",
+      "answerZh": "為了把送貨車輛和訪客分開,職員把其中一個入口劃作送貨專用。",
+      "highlight": "zoned",
+      "targetForm": "zone something off for something",
+      "targetMeaningZh": "把某範圍劃作特定用途"
+    },
+    {
+      "id": "phrasal-verb-320-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 13,
+      "prompt": "The early start and long journey had made me fall asleep by lunchtime.",
+      "promptZh": "一大清早出發,加上漫長的旅程,令我在午飯時間前已經睡着了。",
+      "starter": "The",
+      "answer": "The early start and long journey had zonked me out by lunchtime.",
+      "answerZh": "一大清早出發,加上漫長的旅程,令我在午飯時間前已經睡着了。",
+      "highlight": "zonked",
+      "targetForm": "zonk somebody out",
+      "targetMeaningZh": "令某人累得睡着"
+    },
+    {
+      "id": "phrasal-verb-320-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 13,
+      "prompt": "When the train entered the tunnel, I stared at the window and stopped noticing what was around me.",
+      "promptZh": "火車進入隧道時,我望着窗戶走神了,沒有留意周圍的事情。",
+      "starter": "When",
+      "answer": "When the train entered the tunnel, I stared at the window and zoned out.",
+      "answerZh": "火車進入隧道時,我望着窗戶走神了。",
+      "highlight": "zoned out",
+      "targetForm": "zone out",
+      "targetMeaningZh": "走神;暫時不留意周圍"
+    },
+    {
+      "id": "phrasal-verb-320-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 13,
+      "prompt": "Part of the hall was separated so that one side could be used for the examination.",
+      "promptZh": "禮堂的一部分被劃出來,讓其中一邊可以用作考試場地。",
+      "starter": "The",
+      "answer": "The hall was partly zoned off so that one side could be used for the examination.",
+      "answerZh": "禮堂的一部分被劃出來,讓其中一邊可以用作考試場地。",
+      "highlight": "partly zoned off",
+      "targetForm": "zone something off",
+      "targetMeaningZh": "把某範圍劃出或分隔開來"
+    },
+    {
+      "id": "phrasal-verb-320-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 13,
+      "prompt": "After finishing the last examination paper, the students went home and fell asleep almost at once because they were exhausted.",
+      "promptZh": "完成最後一份試卷後,學生回到家,因為十分疲倦而幾乎立即睡着了。",
+      "starter": "After",
+      "answer": "After finishing the last examination paper, the students went home and zonked out almost at once.",
+      "answerZh": "完成最後一份試卷後,學生回到家,幾乎立即累得睡着了。",
+      "highlight": "zonked out",
+      "targetForm": "zonk out",
+      "targetMeaningZh": "因極度疲倦而睡着"
+    }
+  ]
+}

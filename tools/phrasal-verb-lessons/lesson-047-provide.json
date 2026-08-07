@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-47",
+  "order": 47,
+  "slug": "provide",
+  "version": "1",
+  "title": "PROVIDE 動詞片語",
+  "titleEn": "Provide",
+  "titleZh": "PROVIDE 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 46 - PROVIDE.pdf",
+    "sourceNumber": 46,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PROVIDE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PROVIDE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PROVIDE",
+      "highlight": "PROVIDE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "This policy provides against loss of income.",
+      "zh": "這份保單可保障受保人免受收入損失。",
+      "highlight": "provides against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She works hard to provide for her children.",
+      "zh": "她努力工作以供養子女。",
+      "highlight": "provide for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The budget provides for higher food prices.",
+      "zh": "這份預算已為食品價格上升預留款項。",
+      "highlight": "provides for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "較正式:為可能出現的損失、危險或問題作保障或準備；供養某人;負擔某人的生活所需；較正式:在計劃、預算、法律或協議中為某事物作出安排",
+    "en": "provide against something; provide for somebody; provide for something",
+    "naturalZh": [
+      "較正式:為可能出現的損失、危險或問題作保障或準備",
+      "供養某人;負擔某人的生活所需",
+      "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "provide against something",
+      "titleZh": "較正式:為可能出現的損失、危險或問題作保障或準備",
+      "titleEn": "provide against something",
+      "descriptionZh": "較正式:為可能出現的損失、危險或問題作保障或準備",
+      "descriptionEn": "This policy provides against loss of income.",
+      "examples": [
+        {
+          "en": "This policy provides against loss of income.",
+          "zh": "這份保單可保障受保人免受收入損失。",
+          "highlight": "provides against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "provide for somebody",
+      "titleZh": "供養某人;負擔某人的生活所需",
+      "titleEn": "provide for somebody",
+      "descriptionZh": "供養某人;負擔某人的生活所需",
+      "descriptionEn": "She works hard to provide for her children.",
+      "examples": [
+        {
+          "en": "She works hard to provide for her children.",
+          "zh": "她努力工作以供養子女。",
+          "highlight": "provide for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "provide for something",
+      "titleZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排",
+      "titleEn": "provide for something",
+      "descriptionZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排",
+      "descriptionEn": "The budget provides for higher food prices.",
+      "examples": [
+        {
+          "en": "The budget provides for higher food prices.",
+          "zh": "這份預算已為食品價格上升預留款項。",
+          "highlight": "provides for"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PROVIDE 片語動詞的實際用途",
+    "labelEn": "PROVIDE Phrasal Verbs in Use",
+    "summaryZh": "provide for somebody 能幫助你說明由誰賺取收入或負擔另一人的日常生活所需。；provide against something 能幫助你談論保險、安全措施、應急儲蓄,以及為可能出現的困難所作的其他準備。；provide for something 能幫助你說明預算、合約、法律、時間表或設計包括或容許哪些安排。；你可以分辨供養某人、為某項需要作出安排,以及防範某種風險這三個不同意思。",
+    "summaryEn": "Provide for somebody helps you explain who earns money or pays for another person’s everyday needs. Provide against something helps you talk about insurance, safety measures, emergency savings and other preparations for possible difficulties. Provide for something helps you describe what a budget, contract, law, timetable or design includes or allows. You can distinguish supporting a person, arranging for a need and protecting against a risk.",
+    "contextsZh": [
+      "談論供養家人的責任",
+      "談論如何防範未來問題",
+      "說明正式計劃包括哪些安排",
+      "避免混淆三個相近意思"
+    ],
+    "contextsEn": [
+      "Talk about family responsibility",
+      "Discuss protection from future problems",
+      "Explain what formal plans include",
+      "Avoid confusing three close meanings"
+    ],
+    "formalZh": "先掌握核心表達。在 The village provided against shortages by storing extra water 中,核心表達是 provide against shortages。by storing extra water 只說明採取的方法,並非核心表達的一部分。",
+    "formalEn": "Learn the core expression first. In “The village provided against shortages by storing extra water”, the core expression is provide against shortages. The words by storing extra water only explain how."
+  },
+  "fixedVariable": {
+    "fixed": "provide against something",
+    "fixedHighlight": "provide against something",
+    "fixedZh": "先掌握核心表達。在 The village provided against shortages by storing extra water 中,核心表達是 provide against shortages。by storing extra water 只說明採取的方法,並非核心表達的一部分。",
+    "fixedEn": "Learn the core expression first. In “The village provided against shortages by storing extra water”, the core expression is provide against shortages. The words by storing extra water only explain how.",
+    "correct": "provides against",
+    "incorrectForms": [],
+    "variableZh": "當某人負擔另一人的食物、住所及其他生活所需時,使用 provide for somebody。；當計劃、預算、法律、合約、時間表或設計已包括或容許某項安排時,使用 provide for something。；當某人、保單或安全措施為可能出現的壞事提供保障或預先作好準備時,使用 provide againstsomething。",
+    "variableEn": "Use provide for somebody when someone pays for that person’s food, home and other living needs. Use provide for something when a plan, budget, law, contract, timetable or design includes or allows it. Use provide against something when a person, policy or safety measure protects against or prepares for something bad.",
+    "variableItemsZh": [
+      "provide against something",
+      "provide for somebody",
+      "provide for something"
+    ],
+    "variableItemsEn": [
+      "provide against something",
+      "provide for somebody",
+      "provide for something"
+    ],
+    "forms": [
+      {
+        "formZh": "較正式:為可能出現的損失、危險或問題作保障或準備",
+        "formEn": "provide against something",
+        "exampleZh": "這份保單可保障受保人免受收入損失。",
+        "exampleEn": "This policy provides against loss of income.",
+        "highlight": "provides against"
+      },
+      {
+        "formZh": "供養某人;負擔某人的生活所需",
+        "formEn": "provide for somebody",
+        "exampleZh": "她努力工作以供養子女。",
+        "exampleEn": "She works hard to provide for her children.",
+        "highlight": "provide for"
+      },
+      {
+        "formZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排",
+        "formEn": "provide for something",
+        "exampleZh": "這份預算已為食品價格上升預留款項。",
+        "exampleEn": "The budget provides for higher food prices.",
+        "highlight": "provides for"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "較正式:為可能出現的損失、危險或問題作保障或準備",
+      "titleEn": "provide against something",
+      "formula": "provide against something",
+      "highlight": "provide against something",
+      "descriptionZh": "較正式:為可能出現的損失、危險或問題作保障或準備",
+      "descriptionEn": "This policy provides against loss of income.",
+      "examples": [
+        {
+          "en": "This policy provides against loss of income.",
+          "zh": "這份保單可保障受保人免受收入損失。",
+          "highlight": "provides against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "供養某人;負擔某人的生活所需",
+      "titleEn": "provide for somebody",
+      "formula": "provide for somebody",
+      "highlight": "provide for somebody",
+      "descriptionZh": "供養某人;負擔某人的生活所需",
+      "descriptionEn": "She works hard to provide for her children.",
+      "examples": [
+        {
+          "en": "She works hard to provide for her children.",
+          "zh": "她努力工作以供養子女。",
+          "highlight": "provide for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排",
+      "titleEn": "provide for something",
+      "formula": "provide for something",
+      "highlight": "provide for something",
+      "descriptionZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排",
+      "descriptionEn": "The budget provides for higher food prices.",
+      "examples": [
+        {
+          "en": "The budget provides for higher food prices.",
+          "zh": "這份預算已為食品價格上升預留款項。",
+          "highlight": "provides for"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論供養家人的責任",
+      "titleEn": "Talk about family responsibility",
+      "zh": "provide for somebody 能幫助你說明由誰賺取收入或負擔另一人的日常生活所需。",
+      "en": "Provide for somebody helps you explain who earns money or pays for another person’s everyday needs."
+    },
+    {
+      "titleZh": "談論如何防範未來問題",
+      "titleEn": "Discuss protection from future problems",
+      "zh": "provide against something 能幫助你談論保險、安全措施、應急儲蓄,以及為可能出現的困難所作的其他準備。",
+      "en": "Provide against something helps you talk about insurance, safety measures, emergency savings and other preparations for possible difficulties."
+    },
+    {
+      "titleZh": "說明正式計劃包括哪些安排",
+      "titleEn": "Explain what formal plans include",
+      "zh": "provide for something 能幫助你說明預算、合約、法律、時間表或設計包括或容許哪些安排。",
+      "en": "Provide for something helps you describe what a budget, contract, law, timetable or design includes or allows."
+    },
+    {
+      "titleZh": "避免混淆三個相近意思",
+      "titleEn": "Avoid confusing three close meanings",
+      "zh": "你可以分辨供養某人、為某項需要作出安排,以及防範某種風險這三個不同意思。",
+      "en": "You can distinguish supporting a person, arranging for a need and protecting against a risk."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論供養家人的責任",
+      "談論如何防範未來問題",
+      "說明正式計劃包括哪些安排",
+      "避免混淆三個相近意思"
+    ],
+    "contextsEn": [
+      "Talk about family responsibility",
+      "Discuss protection from future problems",
+      "Explain what formal plans include",
+      "Avoid confusing three close meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論供養家人的責任",
+        "titleEn": "Talk about family responsibility",
+        "zh": "provide for somebody 能幫助你說明由誰賺取收入或負擔另一人的日常生活所需。",
+        "en": "Provide for somebody helps you explain who earns money or pays for another person’s everyday needs.",
+        "examples": [
+          {
+            "en": "This policy provides against loss of income.",
+            "zh": "這份保單可保障受保人免受收入損失。",
+            "highlight": "provides against"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論如何防範未來問題",
+        "titleEn": "Discuss protection from future problems",
+        "zh": "provide against something 能幫助你談論保險、安全措施、應急儲蓄,以及為可能出現的困難所作的其他準備。",
+        "en": "Provide against something helps you talk about insurance, safety measures, emergency savings and other preparations for possible difficulties.",
+        "examples": [
+          {
+            "en": "She works hard to provide for her children.",
+            "zh": "她努力工作以供養子女。",
+            "highlight": "provide for"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明正式計劃包括哪些安排",
+        "titleEn": "Explain what formal plans include",
+        "zh": "provide for something 能幫助你說明預算、合約、法律、時間表或設計包括或容許哪些安排。",
+        "en": "Provide for something helps you describe what a budget, contract, law, timetable or design includes or allows.",
+        "examples": [
+          {
+            "en": "The budget provides for higher food prices.",
+            "zh": "這份預算已為食品價格上升預留款項。",
+            "highlight": "provides for"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免混淆三個相近意思",
+        "titleEn": "Avoid confusing three close meanings",
+        "zh": "你可以分辨供養某人、為某項需要作出安排,以及防範某種風險這三個不同意思。",
+        "en": "You can distinguish supporting a person, arranging for a need and protecting against a risk.",
+        "examples": [
+          {
+            "en": "This policy provides against loss of income.",
+            "zh": "這份保單可保障受保人免受收入損失。",
+            "highlight": "provides against"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "先掌握核心表達。在 The village provided against shortages by storing extra water 中,核心表達是 provide against shortages。by storing extra water 只說明採取的方法,並非核心表達的一部分。",
+      "titleEn": "Learn the core expression first.",
+      "zh": "先掌握核心表達。在 The village provided against shortages by storing extra water 中,核心表達是 provide against shortages。by storing extra water 只說明採取的方法,並非核心表達的一部分。",
+      "en": "Learn the core expression first. In “The village provided against shortages by storing extra water”, the core expression is provide against shortages. The words by storing extra water only explain how."
+    },
+    {
+      "titleZh": "當某人負擔另一人的食物、住所及其他生活所需時,使用 provide for somebody。",
+      "titleEn": "Use provide for somebody when someone pays for that person’s food, home and other living needs.",
+      "zh": "當某人負擔另一人的食物、住所及其他生活所需時,使用 provide for somebody。",
+      "en": "Use provide for somebody when someone pays for that person’s food, home and other living needs."
+    },
+    {
+      "titleZh": "當計劃、預算、法律、合約、時間表或設計已包括或容許某項安排時,使用 provide for something。",
+      "titleEn": "Use provide for something when a plan, budget, law, contract, timetable or design includes or allows it.",
+      "zh": "當計劃、預算、法律、合約、時間表或設計已包括或容許某項安排時,使用 provide for something。",
+      "en": "Use provide for something when a plan, budget, law, contract, timetable or design includes or allows it."
+    },
+    {
+      "titleZh": "當某人、保單或安全措施為可能出現的壞事提供保障或預先作好準備時,使用 provide againstsomething。",
+      "titleEn": "Use provide against something when a person, policy or safety measure protects against or prepares for something bad.",
+      "zh": "當某人、保單或安全措施為可能出現的壞事提供保障或預先作好準備時,使用 provide againstsomething。",
+      "en": "Use provide against something when a person, policy or safety measure protects against or prepares for something bad."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PROVIDE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PROVIDE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PROVIDE 動詞片語句子改寫練習",
+    "titleEn": "PROVIDE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PROVIDE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PROVIDE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-47-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "This insurance protects you from loss of income if you cannot work.",
+      "promptZh": "這份保險可在你無法工作時,保障你免受收入損失。",
+      "starter": "This",
+      "answer": "This insurance provides against loss of income if you cannot work.",
+      "answerZh": "這份保險可在你無法工作時,保障你免受收入損失。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Elena works long hours to support her two children.",
+      "promptZh": "Elena 長時間工作,以供養兩名子女。",
+      "starter": "Elena",
+      "answer": "Elena works long hours to provide for her two children.",
+      "answerZh": "Elena 長時間工作,以供養兩名子女。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The timetable includes a fifteen-minute break.",
+      "promptZh": "時間表已安排十五分鐘的休息時間。",
+      "starter": "The",
+      "answer": "The timetable provides for a fifteen-minute break.",
+      "answerZh": "時間表已安排十五分鐘的休息時間。",
+      "highlight": "provides for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The home policy covers fire damage.",
+      "promptZh": "這份家居保單保障火災造成的損毀。",
+      "starter": "The",
+      "answer": "The home policy provides against fire damage.",
+      "answerZh": "這份家居保單保障火災造成的損毀。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "He supports the whole family with his wages.",
+      "promptZh": "他用自己的薪金供養整個家庭。",
+      "starter": "He",
+      "answer": "He provides for the whole family with his wages.",
+      "answerZh": "他用自己的薪金供養整個家庭。",
+      "highlight": "provides for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The new building plan includes wheelchair access.",
+      "promptZh": "新建築計劃已包括輪椅通道。",
+      "starter": "The",
+      "answer": "The new building plan provides for wheelchair access.",
+      "answerZh": "新建築計劃已包括輪椅通道。",
+      "highlight": "provides for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The town built a flood wall to protect houses from damage caused by rising water.",
+      "promptZh": "這個城鎮興建防洪牆,以保障房屋免受水位上升所造成的損毀。",
+      "starter": "The",
+      "answer": "The town built a flood wall to provide against damage to houses caused by rising water.",
+      "answerZh": "這個城鎮興建防洪牆,以保障房屋免受水位上升所造成的損毀。",
+      "highlight": "provide against damage to",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After her parents died, her aunt supported her.",
+      "promptZh": "她的父母去世後,姨母負責供養她。",
+      "starter": "After",
+      "answer": "After her parents died, her aunt provided for her.",
+      "answerZh": "她的父母去世後,姨母負責供養她。",
+      "highlight": "provided for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The agreement includes an annual pay review.",
+      "promptZh": "協議已安排每年檢討薪酬。",
+      "starter": "The",
+      "answer": "The agreement provides for an annual pay review.",
+      "answerZh": "協議已安排每年檢討薪酬。",
+      "highlight": "provides for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The town prepared for winter shortages by storing extra food.",
+      "promptZh": "這個城鎮儲存了額外食物,以防冬季出現糧食短缺。",
+      "starter": "The",
+      "answer": "The town provided against winter shortages by storing extra food.",
+      "answerZh": "這個城鎮儲存了額外食物,以防冬季出現糧食短缺。",
+      "highlight": "provided against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Can he support a family of four on this salary?",
+      "promptZh": "他能靠這份薪金供養一家四口嗎?",
+      "starter": "Can",
+      "answer": "Can he provide for a family of four on this salary?",
+      "answerZh": "他能靠這份薪金供養一家四口嗎?",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Does the contract include paid leave for new parents?",
+      "promptZh": "合約有否包括新手父母的有薪假期?",
+      "starter": "Does",
+      "answer": "Does the contract provide for paid leave for new parents?",
+      "answerZh": "合約有否包括新手父母的有薪假期?",
+      "highlight": "provide for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Does your travel insurance cover losses caused by cancelled flights?",
+      "promptZh": "你的旅遊保險有否保障航班取消所造成的損失?",
+      "starter": "Does",
+      "answer": "Does your travel insurance provide against losses caused by cancelled flights?",
+      "answerZh": "你的旅遊保險有否保障航班取消所造成的損失?",
+      "highlight": "provide against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ravi has supported his parents for several years.",
+      "promptZh": "Ravi 已供養父母數年。",
+      "starter": "Ravi",
+      "answer": "Ravi has provided for his parents for several years.",
+      "answerZh": "Ravi 已供養父母數年。",
+      "highlight": "provided for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Beach staff should take steps to prevent injury or drowning.",
+      "promptZh": "海灘職員應採取措施,防止有人受傷或遇溺。",
+      "starter": "Beach",
+      "answer": "Beach staff should provide against injury or drowning.",
+      "answerZh": "海灘職員應採取措施,防止有人受傷或遇溺。",
+      "highlight": "provide against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The old school rules did not include any arrangement for early departure in emergencies.",
+      "promptZh": "舊校規沒有安排學生在緊急情況下提早離開。",
+      "starter": "The",
+      "answer": "The old school rules did not provide for early departure in emergencies.",
+      "answerZh": "舊校規沒有安排學生在緊急情況下提早離開。",
+      "highlight": "provide",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "She is supporting the family while her partner studies.",
+      "promptZh": "伴侶讀書期間,她正負責供養家庭。",
+      "starter": "She",
+      "answer": "She is providing for the family while her partner studies.",
+      "answerZh": "伴侶讀書期間,她正負責供養家庭。",
+      "highlight": "providing for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The village will prepare for water shortages by storing extra water.",
+      "promptZh": "村民會儲存額外食水,以防乾旱期間出現缺水。",
+      "starter": "The",
+      "answer": "The village will provide against water shortages by storing extra water.",
+      "answerZh": "村民會儲存額外食水,以防乾旱期間出現缺水。",
+      "highlight": "provide against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "What future needs should the plan include?",
+      "promptZh": "計劃應包括哪些未來需要?",
+      "starter": "What",
+      "answer": "What future needs should the plan provide for?",
+      "answerZh": "計劃應包括哪些未來需要?",
+      "highlight": "provide for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "How will she support six children on one salary?",
+      "promptZh": "她如何能靠一份薪金供養六名子女?",
+      "starter": "How",
+      "answer": "How will she provide for six children on one salary?",
+      "answerZh": "她如何能靠一份薪金供養六名子女?",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "To include a proper lunch break, we changed the schedule.",
+      "promptZh": "為了安排充足的午膳時間,我們修改了時間表。",
+      "starter": "To",
+      "answer": "To provide for a proper lunch break, we changed the schedule.",
+      "answerZh": "為了安排充足的午膳時間,我們修改了時間表。",
+      "highlight": "provide for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The business keeps a separate fund in case sales fall suddenly.",
+      "promptZh": "公司保留一筆獨立基金,以防銷售額突然下跌。",
+      "starter": "To",
+      "answer": "To provide against a sudden fall in sales, the business keeps a separate fund.",
+      "answerZh": "公司保留一筆獨立基金,以防銷售額突然下跌。",
+      "highlight": "To provide against a sudden fall in sales",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "After losing his job, Martin could no longer support his family.",
+      "promptZh": "Martin 失業後,再也無法供養家人。",
+      "starter": "After",
+      "answer": "After losing his job, Martin could no longer provide for his family.",
+      "answerZh": "Martin 失業後,再也無法供養家人。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "An extra meeting is included in the agreement if one is needed.",
+      "promptZh": "協議已安排在有需要時加開一次會議。",
+      "starter": "An",
+      "answer": "An extra meeting is provided for in the agreement if one is needed.",
+      "answerZh": "協議已安排在有需要時加開一次會議。",
+      "highlight": "provided for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Supporting yourself on one income can be difficult.",
+      "promptZh": "只靠一份收入供養自己可能很困難。",
+      "starter": "Providing",
+      "answer": "Providing for yourself on one income can be difficult.",
+      "answerZh": "只靠一份收入供養自己可能很困難。",
+      "highlight": "Providing for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old plan did nothing to prepare for the effects of a long power cut.",
+      "promptZh": "舊計劃沒有為長時間停電的影響作任何準備。",
+      "starter": "The",
+      "answer": "The old plan did not provide against the effects of a long power cut.",
+      "answerZh": "舊計劃沒有為長時間停電的影響作任何準備。",
+      "highlight": "not provide against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The hotel changed its booking system so that guests could leave their rooms later.",
+      "promptZh": "酒店修改了預訂系統,讓客人可以延遲退房。",
+      "starter": "The",
+      "answer": "The hotel changed its booking system to provide for late check-out.",
+      "answerZh": "酒店修改了預訂系統,讓客人可以延遲退房。",
+      "highlight": "to provide for late check-out",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We bought a policy that covers damage to rented equipment.",
+      "promptZh": "我們購買了一份保障租用器材損毀的保單。",
+      "starter": "We",
+      "answer": "We bought a policy that provides against damage to rented equipment.",
+      "answerZh": "我們購買了一份保障租用器材損毀的保單。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "He listed everyone he had to support after retirement.",
+      "promptZh": "他列出了退休後仍須供養的所有人。",
+      "starter": "He",
+      "answer": "He listed everyone he had to provide for after retirement.",
+      "answerZh": "他列出了退休後仍須供養的所有人。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The contract contains a clause that allows the price to be reviewed every year.",
+      "promptZh": "合約載有一項條款,容許每年檢討價格。",
+      "starter": "The",
+      "answer": "The contract contains a clause providing for an annual price review.",
+      "answerZh": "合約載有一項條款,安排每年檢討價格。",
+      "highlight": "providing for an annual",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The basic policy covers theft, but it does not cover accidental damage.",
+      "promptZh": "基本保單保障盜竊損失,但不保障意外損毀。",
+      "starter": "The",
+      "answer": "The basic policy provides against theft, but it does not provide against accidental damage.",
+      "answerZh": "基本保單保障盜竊損失,但不保障意外損毀。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "For children who need a break, the event plan includes a quiet room.",
+      "promptZh": "活動計劃已為需要休息的兒童安排一間安靜房間。",
+      "starter": "For",
+      "answer": "For children who need a break, the event plan provides for a quiet room.",
+      "answerZh": "活動計劃已為需要休息的兒童安排一間安靜房間。",
+      "highlight": "provides for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The couple can barely support themselves with the income from the shop.",
+      "promptZh": "這對夫婦僅能靠店舖的收入供養自己。",
+      "starter": "The",
+      "answer": "The couple can barely provide for themselves with the income from the shop.",
+      "answerZh": "這對夫婦僅能靠店舖的收入供養自己。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Before the poor harvest, the farmers had prepared for possible food shortages.",
+      "promptZh": "在歉收之前,農民已為可能出現的糧食短缺作好準備。",
+      "starter": "Before",
+      "answer": "Before the poor harvest, the farmers had provided against possible food shortages.",
+      "answerZh": "在歉收之前,農民已為可能出現的糧食短缺作好準備。",
+      "highlight": "provided against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Even while he was ill, he still supported his children.",
+      "promptZh": "即使生病,他仍供養子女。",
+      "starter": "Even",
+      "answer": "Even while he was ill, he still provided for his children.",
+      "answerZh": "即使生病,他仍供養子女。",
+      "highlight": "provided for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The revised budget includes money for repairs and staff training.",
+      "promptZh": "修訂後的預算已包括維修和員工培訓的費用。",
+      "starter": "The",
+      "answer": "The revised budget provides for repairs and staff training.",
+      "answerZh": "修訂後的預算已包括維修和員工培訓的費用。",
+      "highlight": "provides",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "What losses does this policy cover?",
+      "promptZh": "這份保單保障哪些損失?",
+      "starter": "What",
+      "answer": "What losses does this policy provide against?",
+      "answerZh": "這份保單保障哪些損失?",
+      "highlight": "provide against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A second lift has already been included in the building plan.",
+      "promptZh": "建築計劃已預留第二部升降機。",
+      "starter": "A",
+      "answer": "A second lift has already been provided for in the building plan.",
+      "answerZh": "建築計劃已預留第二部升降機。",
+      "highlight": "provided for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "No one knew how he could support four children on that wage.",
+      "promptZh": "沒有人知道他如何能靠那份薪金供養四名子女。",
+      "starter": "No",
+      "answer": "No one knew how he could provide for four children on that wage.",
+      "answerZh": "沒有人知道他如何能靠那份薪金供養四名子女。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "It is impossible to prepare for every possible loss.",
+      "promptZh": "要為每一種可能的損失作好準備是不可能的。",
+      "starter": "Providing",
+      "answer": "Providing against every possible loss is impossible.",
+      "answerZh": "要為每一種可能的損失作好準備是不可能的。",
+      "highlight": "Providing against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "To support herself for six months, Sara saved money before leaving her job.",
+      "promptZh": "為了在離職後供養自己六個月,Sara 在離職前儲了一筆錢。",
+      "starter": "To",
+      "answer": "To provide for herself for six months, Sara saved money before leaving her job.",
+      "answerZh": "為了在離職後供養自己六個月,Sara 在離職前儲了一筆錢。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our insurance covers storm damage, but not damage caused by normal use.",
+      "promptZh": "我們的保險保障風暴造成的損毀,但不保障正常使用所造成的損耗。",
+      "starter": "Our",
+      "answer": "Our insurance provides against storm damage, but not damage caused by normal use.",
+      "answerZh": "我們的保險保障風暴造成的損毀,但不保障正常使用所造成的損耗。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The organisers chose a larger hall because the plan had to include more seating.",
+      "promptZh": "主辦單位選擇較大的禮堂,因為計劃必須安排更多座位。",
+      "starter": "The",
+      "answer": "The organisers chose a larger hall because the plan had to provide for more seating.",
+      "answerZh": "主辦單位選擇較大的禮堂,因為計劃必須安排更多座位。",
+      "highlight": "provide for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "How can he support his family if he leaves his only job?",
+      "promptZh": "如果他辭去唯一的工作,又怎能供養家人?",
+      "starter": "How",
+      "answer": "How can he provide for his family if he leaves his only job?",
+      "answerZh": "如果他辭去唯一的工作,又怎能供養家人?",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The law includes free school meals for children from low-income families.",
+      "promptZh": "這項法律包括為低收入家庭的兒童提供免費學校膳食。",
+      "starter": "The",
+      "answer": "The law provides for free school meals for children from low-income families.",
+      "answerZh": "這項法律包括為低收入家庭的兒童提供免費學校膳食。",
+      "highlight": "provides for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The company has taken steps to prepare for a possible rise in material costs.",
+      "promptZh": "公司已採取措施,以防材料成本可能上升。",
+      "starter": "The",
+      "answer": "The company has provided against a possible rise in material costs.",
+      "answerZh": "公司已採取措施,以防材料成本可能上升。",
+      "highlight": "provided against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Since the accident, the family has been supported by her older brother.",
+      "promptZh": "意外發生後,這個家庭一直由她的哥哥供養。",
+      "starter": "Since",
+      "answer": "Since the accident, the family has been provided for by her older brother.",
+      "answerZh": "意外發生後,這個家庭一直由她的哥哥供養。",
+      "highlight": "provided for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    },
+    {
+      "id": "phrasal-verb-47-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new policy protects the business if tools are stolen from the van.",
+      "promptZh": "如果客貨車內的工具被盜,新保單可保障公司。",
+      "starter": "The",
+      "answer": "The new policy provides against the theft of tools from the van.",
+      "answerZh": "如果客貨車內的工具被盜,新保單可保障公司。",
+      "highlight": "provides against",
+      "targetForm": "provide against something",
+      "targetMeaningZh": "較正式:為可能出現的損失、危險或問題作保障或準備"
+    },
+    {
+      "id": "phrasal-verb-47-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A good travel plan should include rest days as well as sightseeing.",
+      "promptZh": "良好的旅遊計劃除了觀光外,也應安排休息日。",
+      "starter": "A",
+      "answer": "A good travel plan should provide for rest days as well as sightseeing.",
+      "answerZh": "良好的旅遊計劃除了觀光外,也應安排休息日。",
+      "highlight": "provide for",
+      "targetForm": "provide for something",
+      "targetMeaningZh": "較正式:在計劃、預算、法律或協議中為某事物作出安排"
+    },
+    {
+      "id": "phrasal-verb-47-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "They agreed that Daniel would support his mother until she found work.",
+      "promptZh": "他們同意由 Daniel 供養母親,直至她找到工作。",
+      "starter": "They",
+      "answer": "They agreed that Daniel would provide for his mother until she found work.",
+      "answerZh": "他們同意由 Daniel 供養母親,直至她找到工作。",
+      "highlight": "provide for",
+      "targetForm": "provide for somebody",
+      "targetMeaningZh": "供養某人;負擔某人的生活所需"
+    }
+  ]
+}

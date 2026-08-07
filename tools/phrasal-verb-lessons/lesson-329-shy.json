@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-329",
+  "order": 329,
+  "slug": "shy",
+  "version": "1",
+  "title": "SHY 動詞片語",
+  "titleEn": "Shy",
+  "titleZh": "SHY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 314 - SHY.pdf",
+    "sourceNumber": 314,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHY",
+      "highlight": "SHY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The horse shied away when the gate banged.",
+      "zh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+      "highlight": "shied away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do not shy away from asking questions.",
+      "zh": "不要因為緊張而不敢提問。",
+      "highlight": "shy away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+      "zh": "那匹小馬看見旗幟時突然退開,但騎手沒有避開那條狹窄小路。",
+      "highlight": "shied off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "因害怕、受驚或不想接近而突然往後退或閃避；因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動；較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+    "en": "shy away; shy away from something / doing something; shy off / shy from something / doing something",
+    "naturalZh": [
+      "因害怕、受驚或不想接近而突然往後退或閃避",
+      "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+      "較少見的表達,表示突然退開,或因緊張、不安而避開某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "shy away",
+      "titleZh": "因害怕、受驚或不想接近而突然往後退或閃避",
+      "titleEn": "shy away",
+      "descriptionZh": "因害怕、受驚或不想接近而突然往後退或閃避",
+      "descriptionEn": "The horse shied away when the gate banged.",
+      "examples": [
+        {
+          "en": "The horse shied away when the gate banged.",
+          "zh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+          "highlight": "shied away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shy away from something / doing something",
+      "titleZh": "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+      "titleEn": "shy away from something / doing something",
+      "descriptionZh": "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+      "descriptionEn": "Do not shy away from asking questions.",
+      "examples": [
+        {
+          "en": "Do not shy away from asking questions.",
+          "zh": "不要因為緊張而不敢提問。",
+          "highlight": "shy away from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "shy off / shy from something / doing something",
+      "titleZh": "較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+      "titleEn": "shy off / shy from something / doing something",
+      "descriptionZh": "較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+      "descriptionEn": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+      "examples": [
+        {
+          "en": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+          "zh": "那匹小馬看見旗幟時突然退開,但騎手沒有避開那條狹窄小路。",
+          "highlight": "shied off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHY 片語動詞的實際用途",
+    "labelEn": "SHY Phrasal Verbs in Use",
+    "summaryZh": "shy away 和 shy off 可以描述人或動物因為害怕或遇到突發情況而突然往後退。；shy away from 可以描述某人因緊張或沒有信心而避開工作、對話、人物或挑戰。；do not shy away from 和 have never shied away from 等表達,可以表示某人願意面對困難。；認識 shy off 和 shy from,能幫助你理解故事或對話中出現的較少見用法。",
+    "summaryEn": "Shy away and shy off can describe a person or animal suddenly moving backwards because something is frightening or unexpected. Shy away from can describe avoiding a task, conversation, person or challenge because you feel nervous or unsure. Expressions such as do not shy away from and have never shied away from show that someone is willing to face something difficult. Knowing shy off and shy from can help you understand these less common forms when they appear in stories or conversations.",
+    "contextsZh": [
+      "描述受驚時的突然反應",
+      "談論因緊張而避開困難情況",
+      "用否定形式表達勇於面對",
+      "認識較少見的 SHY 表達"
+    ],
+    "contextsEn": [
+      "Describe sudden reactions to fear",
+      "Talk about avoiding difficult situations",
+      "Show courage by using a negative form",
+      "Recognise less common SHY expressions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "shy away",
+    "fixedHighlight": "shy away",
+    "fixedZh": "閱讀整句,選出意思相同的 SHY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHY expression that gives the same meaning.",
+    "correct": "shied away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；shy away 本身已是完整表達。句中其他部分可以補充說明突然退縮的原因。；使用 shy away from 或 shy from 時,要說明所避開的事情或行動。Shy off and shy from are less common alternatives in this exercise.在本練習中,shy off 和 shy from 是較少見的替代表達。",
+    "variableEn": "Keep the same people, things, time and meaning. Shy away is complete by itself. Another part of the sentence may explain what caused the sudden movement: The horse shied away. The horse shied away when the gate banged. After shy away from or shy from, say what is being avoided: shy away from the task shy away from speaking shy from the question shy from answering",
+    "variableItemsZh": [
+      "shy away",
+      "shy away from something / doing something",
+      "shy off / shy from something / doing something"
+    ],
+    "variableItemsEn": [
+      "shy away",
+      "shy away from something / doing something",
+      "shy off / shy from something / doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "因害怕、受驚或不想接近而突然往後退或閃避",
+        "formEn": "shy away",
+        "exampleZh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+        "exampleEn": "The horse shied away when the gate banged.",
+        "highlight": "shied away"
+      },
+      {
+        "formZh": "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+        "formEn": "shy away from something / doing something",
+        "exampleZh": "不要因為緊張而不敢提問。",
+        "exampleEn": "Do not shy away from asking questions.",
+        "highlight": "shy away from"
+      },
+      {
+        "formZh": "較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+        "formEn": "shy off / shy from something / doing something",
+        "exampleZh": "那匹小馬看見旗幟時突然退開,但騎手沒有避開那條狹窄小路。",
+        "exampleEn": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+        "highlight": "shied off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "因害怕、受驚或不想接近而突然往後退或閃避",
+      "titleEn": "shy away",
+      "formula": "shy away",
+      "highlight": "shy away",
+      "descriptionZh": "因害怕、受驚或不想接近而突然往後退或閃避",
+      "descriptionEn": "The horse shied away when the gate banged.",
+      "examples": [
+        {
+          "en": "The horse shied away when the gate banged.",
+          "zh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+          "highlight": "shied away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+      "titleEn": "shy away from something / doing something",
+      "formula": "shy away from something / doing something",
+      "highlight": "shy away from something / doing something",
+      "descriptionZh": "因緊張、害怕或不肯定而避開某件事、某個人、某項挑戰或某個行動",
+      "descriptionEn": "Do not shy away from asking questions.",
+      "examples": [
+        {
+          "en": "Do not shy away from asking questions.",
+          "zh": "不要因為緊張而不敢提問。",
+          "highlight": "shy away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+      "titleEn": "shy off / shy from something / doing something",
+      "formula": "shy off / shy from something / doing something",
+      "highlight": "shy off / shy from something / doing something",
+      "descriptionZh": "較少見的表達,表示突然退開,或因緊張、不安而避開某事",
+      "descriptionEn": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+      "examples": [
+        {
+          "en": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+          "zh": "那匹小馬看見旗幟時突然退開,但騎手沒有避開那條狹窄小路。",
+          "highlight": "shied off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述受驚時的突然反應",
+      "titleEn": "Describe sudden reactions to fear",
+      "zh": "shy away 和 shy off 可以描述人或動物因為害怕或遇到突發情況而突然往後退。",
+      "en": "Shy away and shy off can describe a person or animal suddenly moving backwards because something is frightening or unexpected."
+    },
+    {
+      "titleZh": "談論因緊張而避開困難情況",
+      "titleEn": "Talk about avoiding difficult situations",
+      "zh": "shy away from 可以描述某人因緊張或沒有信心而避開工作、對話、人物或挑戰。",
+      "en": "Shy away from can describe avoiding a task, conversation, person or challenge because you feel nervous or unsure."
+    },
+    {
+      "titleZh": "用否定形式表達勇於面對",
+      "titleEn": "Show courage by using a negative form",
+      "zh": "do not shy away from 和 have never shied away from 等表達,可以表示某人願意面對困難。",
+      "en": "Expressions such as do not shy away from and have never shied away from show that someone is willing to face something difficult."
+    },
+    {
+      "titleZh": "認識較少見的 SHY 表達",
+      "titleEn": "Recognise less common SHY expressions",
+      "zh": "認識 shy off 和 shy from,能幫助你理解故事或對話中出現的較少見用法。",
+      "en": "Knowing shy off and shy from can help you understand these less common forms when they appear in stories or conversations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述受驚時的突然反應",
+      "談論因緊張而避開困難情況",
+      "用否定形式表達勇於面對",
+      "認識較少見的 SHY 表達"
+    ],
+    "contextsEn": [
+      "Describe sudden reactions to fear",
+      "Talk about avoiding difficult situations",
+      "Show courage by using a negative form",
+      "Recognise less common SHY expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述受驚時的突然反應",
+        "titleEn": "Describe sudden reactions to fear",
+        "zh": "shy away 和 shy off 可以描述人或動物因為害怕或遇到突發情況而突然往後退。",
+        "en": "Shy away and shy off can describe a person or animal suddenly moving backwards because something is frightening or unexpected.",
+        "examples": [
+          {
+            "en": "The horse shied away when the gate banged.",
+            "zh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+            "highlight": "shied away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論因緊張而避開困難情況",
+        "titleEn": "Talk about avoiding difficult situations",
+        "zh": "shy away from 可以描述某人因緊張或沒有信心而避開工作、對話、人物或挑戰。",
+        "en": "Shy away from can describe avoiding a task, conversation, person or challenge because you feel nervous or unsure.",
+        "examples": [
+          {
+            "en": "Do not shy away from asking questions.",
+            "zh": "不要因為緊張而不敢提問。",
+            "highlight": "shy away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "用否定形式表達勇於面對",
+        "titleEn": "Show courage by using a negative form",
+        "zh": "do not shy away from 和 have never shied away from 等表達,可以表示某人願意面對困難。",
+        "en": "Expressions such as do not shy away from and have never shied away from show that someone is willing to face something difficult.",
+        "examples": [
+          {
+            "en": "The pony shied off at the flag, but its rider did not shy from the narrow path.",
+            "zh": "那匹小馬看見旗幟時突然退開,但騎手沒有避開那條狹窄小路。",
+            "highlight": "shied off"
+          }
+        ]
+      },
+      {
+        "titleZh": "認識較少見的 SHY 表達",
+        "titleEn": "Recognise less common SHY expressions",
+        "zh": "認識 shy off 和 shy from,能幫助你理解故事或對話中出現的較少見用法。",
+        "en": "Knowing shy off and shy from can help you understand these less common forms when they appear in stories or conversations.",
+        "examples": [
+          {
+            "en": "The horse shied away when the gate banged.",
+            "zh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+            "highlight": "shied away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHY 片語動詞。",
+      "en": "Read the whole sentence and choose the SHY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "shy away 本身已是完整表達。句中其他部分可以補充說明突然退縮的原因。",
+      "titleEn": "Shy away is complete by itself.",
+      "zh": "shy away 本身已是完整表達。句中其他部分可以補充說明突然退縮的原因。",
+      "en": "Shy away is complete by itself. Another part of the sentence may explain what caused the sudden movement: The horse shied away. The horse shied away when the gate banged."
+    },
+    {
+      "titleZh": "使用 shy away from 或 shy from 時,要說明所避開的事情或行動。Shy off and shy from are less common alternatives in this exercise.在本練習中,shy off 和 shy from 是較少見的替代表達。",
+      "titleEn": "After shy away from or shy from, say what is being avoided: shy away from the task shy away from speaking shy from the question shy from answering.",
+      "zh": "使用 shy away from 或 shy from 時,要說明所避開的事情或行動。Shy off and shy from are less common alternatives in this exercise.在本練習中,shy off 和 shy from 是較少見的替代表達。",
+      "en": "After shy away from or shy from, say what is being avoided: shy away from the task shy away from speaking shy from the question shy from answering"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHY 動詞片語句子改寫練習",
+    "titleEn": "SHY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-329-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The horse suddenly moved backwards when the metal gate banged.",
+      "promptZh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+      "starter": "The",
+      "answer": "The horse shied away when the metal gate banged.",
+      "answerZh": "金屬閘門發出巨響時,那匹馬突然往後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然往後退"
+    },
+    {
+      "id": "phrasal-verb-329-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ava avoids speaking in front of the class because she feels nervous.",
+      "promptZh": "艾娃因為感到緊張,所以避開在全班面前發言。",
+      "starter": "Ava",
+      "answer": "Ava shies away from speaking in front of the class because she feels nervous.",
+      "answerZh": "艾娃因為感到緊張,所以避開在全班面前發言。",
+      "highlight": "shies away from",
+      "targetForm": "shy away from doing something",
+      "targetMeaningZh": "因緊張或不肯定而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The pony suddenly backed away when the red flag moved.",
+      "promptZh": "紅旗移動時,那匹小馬突然往後退。",
+      "starter": "The",
+      "answer": "The pony shied off when the red flag moved.",
+      "answerZh": "紅旗移動時,那匹小馬突然往後退。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The puppy suddenly moved away when the large toy made a noise.",
+      "promptZh": "大型玩具發出聲響時,小狗突然走開。",
+      "starter": "The",
+      "answer": "The puppy shied away when the large toy made a noise.",
+      "answerZh": "大型玩具發出聲響時,小狗突然退開。",
+      "highlight": "shied",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The manager avoids making difficult decisions when she feels unsure.",
+      "promptZh": "經理感到不肯定時,會避開作出艱難決定。",
+      "starter": "The",
+      "answer": "The manager shies away from making difficult decisions when she feels unsure.",
+      "answerZh": "經理感到不肯定時,會避開作出艱難決定。",
+      "highlight": "shies away from",
+      "targetForm": "shy away from doing something",
+      "targetMeaningZh": "因緊張或不肯定而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Daniel avoids asking for help because he worries that people will judge him.",
+      "promptZh": "丹尼爾擔心別人會批評他,所以避免求助。",
+      "starter": "Daniel",
+      "answer": "Daniel shies from asking for help because he worries that people will judge him.",
+      "answerZh": "丹尼爾擔心別人會批評他,所以避免求助。",
+      "highlight": "shies from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child suddenly stepped back when the bird flew towards him.",
+      "promptZh": "小鳥飛向那個孩子時,他突然向後退。",
+      "starter": "The",
+      "answer": "The child shied away when the bird flew towards him.",
+      "answerZh": "小鳥飛向那個孩子時,他突然向後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然往後退"
+    },
+    {
+      "id": "phrasal-verb-329-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Some volunteers avoid the hardest jobs because they lack confidence.",
+      "promptZh": "有些義工因為缺乏信心而避開最困難的工作。",
+      "starter": "Some",
+      "answer": "Some volunteers shy away from the hardest jobs because they lack confidence.",
+      "answerZh": "有些義工因為缺乏信心而避開最困難的工作。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因缺乏信心而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The young horse moved back suddenly as the bicycle passed.",
+      "promptZh": "單車經過時,那匹小馬突然往後退。",
+      "starter": "The",
+      "answer": "The young horse shied off as the bicycle passed.",
+      "answerZh": "單車經過時,那匹小馬突然往後退。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our cat suddenly moved away when the vacuum cleaner started.",
+      "promptZh": "吸塵機啟動時,我們的貓突然走開。",
+      "starter": "Our",
+      "answer": "Our cat shied away when the vacuum cleaner started.",
+      "answerZh": "吸塵機啟動時,我們的貓突然退開。",
+      "highlight": "shied",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Priya has never avoided a difficult question just because she felt nervous.",
+      "promptZh": "普麗雅從未只因感到緊張而避開艱難問題。",
+      "starter": "Priya",
+      "answer": "Priya has never shied away from a difficult question just because she felt nervous.",
+      "answerZh": "普麗雅從未只因感到緊張而避開艱難問題。",
+      "highlight": "shied away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The deer is moving backwards as the bright light comes closer.",
+      "promptZh": "強光逐漸接近時,那隻鹿正在往後退。",
+      "starter": "The",
+      "answer": "The deer is shying away as the bright light comes closer.",
+      "answerZh": "強光逐漸接近時,那隻鹿正在往後退。",
+      "highlight": "shying away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "He may avoid joining the debate because he feels unsure.",
+      "promptZh": "他可能會因為沒有信心而避免參與辯論。",
+      "starter": "He",
+      "answer": "He may shy from joining the debate because he feels unsure.",
+      "answerZh": "他可能會因為沒有信心而避免參與辯論。",
+      "highlight": "shy from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why are you avoiding the new task before you have even tried it?",
+      "promptZh": "你還未嘗試這項新工作,為何已經避開它?",
+      "starter": "Why",
+      "answer": "Why are you shying away from the new task before you have even tried it?",
+      "answerZh": "你還未嘗試這項新工作,為何已經避開它?",
+      "highlight": "shying away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "A nervous dog may suddenly move back when a stranger reaches towards it.",
+      "promptZh": "陌生人伸手接近時,緊張的狗可能會突然退後。",
+      "starter": "A",
+      "answer": "A nervous dog may shy away when a stranger reaches towards it.",
+      "answerZh": "陌生人伸手接近時,緊張的狗可能會突然退後。",
+      "highlight": "shy away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The pony suddenly moved to one side when the paper blew across the road.",
+      "promptZh": "紙張被風吹過道路時,那匹小馬突然閃到一旁。",
+      "starter": "The",
+      "answer": "The pony shied off when the paper blew across the road.",
+      "answerZh": "紙張被風吹過道路時,那匹小馬突然閃到一旁。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You should not avoid asking a simple question because you feel embarrassed.",
+      "promptZh": "你不應因為感到尷尬而不敢提出簡單問題。",
+      "starter": "You",
+      "answer": "You should not shy away from asking a simple question because you feel embarrassed.",
+      "answerZh": "你不應因為感到尷尬而不敢提出簡單問題。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from doing something",
+      "targetMeaningZh": "因緊張或尷尬而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The horse has moved back suddenly twice since the band began playing.",
+      "promptZh": "樂隊開始演奏後,那匹馬已突然往後退了兩次。",
+      "starter": "The",
+      "answer": "The horse has shied away twice since the band began playing.",
+      "answerZh": "樂隊開始演奏後,那匹馬已突然退開了兩次。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nia is avoiding taking the lead because she doubts herself.",
+      "promptZh": "妮亞因為沒有信心,正避免帶領大家。",
+      "starter": "Nia",
+      "answer": "Nia is shying from taking the lead because she doubts herself.",
+      "answerZh": "妮亞因為沒有信心,正避免帶領大家。",
+      "highlight": "shying from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Our team will not avoid responsibility when the project becomes difficult.",
+      "promptZh": "項目變得困難時,我們的團隊不會逃避責任。",
+      "starter": "Our",
+      "answer": "Our team will not shy away from responsibility when the project becomes difficult.",
+      "answerZh": "項目變得困難時,我們的團隊不會逃避責任。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因困難或不安而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The horse moved away sharply when the umbrella opened beside it.",
+      "promptZh": "旁邊的雨傘打開時,那匹馬突然急速退開。",
+      "starter": "The",
+      "answer": "The horse shied off when the umbrella opened beside it.",
+      "answerZh": "旁邊的雨傘打開時,那匹馬突然急速退開。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The role looked difficult, but Leo did not avoid it.",
+      "promptZh": "這個角色看來很困難,但里奧沒有避開它。",
+      "starter": "The",
+      "answer": "The role looked difficult, but Leo did not shy away from it.",
+      "answerZh": "這個角色看來很困難,但里奧沒有避開它。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The dog heard a loud crash. It suddenly moved backwards.",
+      "promptZh": "那隻狗聽到一聲巨響,突然往後退。",
+      "starter": "The",
+      "answer": "The dog heard a loud crash and shied away.",
+      "answerZh": "那隻狗聽到一聲巨響,突然往後退。",
+      "highlight": "and shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She knew the truth but avoided admitting it.",
+      "promptZh": "她知道真相,卻避免承認。",
+      "starter": "She",
+      "answer": "She knew the truth but shied from admitting it.",
+      "answerZh": "她知道真相,卻避免承認。",
+      "highlight": "shied from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Instead of avoiding the difficult conversation, Ben spoke honestly to his friend.",
+      "promptZh": "賓沒有避開這場困難的對話,而是坦白地與朋友交談。",
+      "starter": "Instead",
+      "answer": "Instead of shying away from the difficult conversation, Ben spoke honestly to his friend.",
+      "answerZh": "賓沒有避開這場困難的對話,而是坦白地與朋友交談。",
+      "highlight": "shying away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Did the calf suddenly move back when the bucket fell?",
+      "promptZh": "水桶掉下來時,那隻小牛是否突然往後退?",
+      "starter": "Did",
+      "answer": "Did the calf shy away when the bucket fell?",
+      "answerZh": "水桶掉下來時,那隻小牛是否突然往後退?",
+      "highlight": "shy away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The horse could suddenly move away if the crowd became noisy.",
+      "promptZh": "如果人群變得嘈吵,那匹馬可能會突然退開。",
+      "starter": "The",
+      "answer": "The horse could shy off if the crowd became noisy.",
+      "answerZh": "如果人群變得嘈吵,那匹馬可能會突然退開。",
+      "highlight": "shy off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The coach noticed that Tara was avoiding the harder exercises.",
+      "promptZh": "教練留意到塔拉正在避開較困難的練習。",
+      "starter": "The",
+      "answer": "The coach noticed that Tara was shying away from the harder exercises.",
+      "answerZh": "教練留意到塔拉正在避開較困難的練習。",
+      "highlight": "shying away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或缺乏信心而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the door slammed, the rabbit suddenly moved away.",
+      "promptZh": "門猛然關上時,那隻兔子突然退開。",
+      "starter": "When",
+      "answer": "When the door slammed, the rabbit shied away.",
+      "answerZh": "門猛然關上時,那隻兔子突然退開。",
+      "highlight": "shied",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Some people avoid trying a new skill because they fear making mistakes.",
+      "promptZh": "有些人因為害怕犯錯,而避免嘗試新技能。",
+      "starter": "Some",
+      "answer": "Some people shy from trying a new skill because they fear making mistakes.",
+      "answerZh": "有些人因為害怕犯錯,而避免嘗試新技能。",
+      "highlight": "shy from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At the snake’s hiss, the hiker suddenly stepped backwards.",
+      "promptZh": "蛇發出嘶嘶聲時,那名遠足者突然向後退。",
+      "starter": "At",
+      "answer": "At the snake’s hiss, the hiker shied away.",
+      "answerZh": "蛇發出嘶嘶聲時,那名遠足者突然向後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Even experienced leaders sometimes avoid facing an unpleasant truth.",
+      "promptZh": "即使是有經驗的領袖,有時也會避開令人不快的真相。",
+      "starter": "Even",
+      "answer": "Even experienced leaders sometimes shy from facing an unpleasant truth.",
+      "answerZh": "即使是有經驗的領袖,有時也會避開令人不快的真相。",
+      "highlight": "shy from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the interview looked difficult, Hana did not avoid it.",
+      "promptZh": "雖然面試看來很困難,但哈娜沒有逃避。",
+      "starter": "Although",
+      "answer": "Although the interview looked difficult, Hana did not shy away from it.",
+      "answerZh": "雖然面試看來很困難,但哈娜沒有逃避。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The frightened deer moved back suddenly before running into the trees.",
+      "promptZh": "那隻受驚的鹿突然退後,然後跑進樹林。",
+      "starter": "The",
+      "answer": "The frightened deer shied away before running into the trees.",
+      "answerZh": "那隻受驚的鹿突然退後,然後跑進樹林。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The pony suddenly moved sideways when a plastic bag flew past.",
+      "promptZh": "膠袋飛過時,那匹小馬突然閃到一旁。",
+      "starter": "The",
+      "answer": "The pony shied off when a plastic bag flew past.",
+      "answerZh": "膠袋飛過時,那匹小馬突然閃到一旁。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The company must not avoid dealing with customer complaints.",
+      "promptZh": "公司不得逃避處理顧客投訴。",
+      "starter": "The",
+      "answer": "The company must not shy away from dealing with customer complaints.",
+      "answerZh": "公司不得逃避處理顧客投訴。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from doing something",
+      "targetMeaningZh": "因困難或不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The horse had been moving backwards each time the camera flashed.",
+      "promptZh": "每次相機閃光時,那匹馬一直都會往後退。",
+      "starter": "The",
+      "answer": "The horse had been shying away each time the camera flashed.",
+      "answerZh": "每次相機閃光時,那匹馬一直都會往後退。",
+      "highlight": "shying away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why did Amir avoid answering when everyone asked for his opinion?",
+      "promptZh": "所有人都詢問阿米爾的意見時,他為何避而不答?",
+      "starter": "Why",
+      "answer": "Why did Amir shy from answering when everyone asked for his opinion?",
+      "answerZh": "所有人都詢問阿米爾的意見時,他為何避而不答?",
+      "highlight": "shy from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although she felt nervous, Lila did not avoid leading the meeting.",
+      "promptZh": "雖然莉拉感到緊張,但她沒有逃避主持會議。",
+      "starter": "Although",
+      "answer": "Although she felt nervous, Lila did not shy away from leading the meeting.",
+      "answerZh": "雖然莉拉感到緊張,但她沒有逃避主持會議。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from doing something",
+      "targetMeaningZh": "因緊張或缺乏信心而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Whenever the toy snake moved, the puppy suddenly stepped back.",
+      "promptZh": "每當玩具蛇移動時,小狗便會突然後退。",
+      "starter": "Whenever",
+      "answer": "Whenever the toy snake moved, the puppy shied away.",
+      "answerZh": "每當玩具蛇移動時,小狗便會突然後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If we avoid every difficult conversation, the problem will never improve.",
+      "promptZh": "如果我們避開每一場困難的對話,問題便永遠不會改善。",
+      "starter": "If",
+      "answer": "If we shy away from every difficult conversation, the problem will never improve.",
+      "answerZh": "如果我們避開每一場困難的對話,問題便永遠不會改善。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因困難或不安而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the metal tray crashed to the floor, the horse moved back so suddenly that the rider nearly fell.",
+      "promptZh": "金屬托盤跌在地上時,那匹馬突然猛然後退,騎手差點跌下來。",
+      "starter": "When",
+      "answer": "When the metal tray crashed to the floor, the horse shied away so suddenly that the rider nearly fell.",
+      "answerZh": "金屬托盤跌在地上時,那匹馬突然猛然後退,騎手差點跌下來。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The young speaker almost avoided answering, but then she took a breath and spoke clearly.",
+      "promptZh": "年輕講者差點避而不答,但她其後深呼吸,清楚地作出回答。",
+      "starter": "The",
+      "answer": "The young speaker almost shied from answering, but then she took a breath and spoke clearly.",
+      "answerZh": "年輕講者差點避而不答,但她其後深呼吸,清楚地作出回答。",
+      "highlight": "shied from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The team chose not to avoid the challenge, even though success was uncertain.",
+      "promptZh": "雖然未能確定會否成功,但團隊選擇不逃避這項挑戰。",
+      "starter": "The",
+      "answer": "The team chose not to shy away from the challenge, even though success was uncertain.",
+      "answerZh": "雖然未能確定會否成功,但團隊選擇不逃避這項挑戰。",
+      "highlight": "shy away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或不肯定而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the rider could calm it, the horse suddenly moved back when the noisy machine started.",
+      "promptZh": "騎手還未能令牠冷靜下來,嘈吵的機器一啟動,那匹馬便突然後退。",
+      "starter": "Before",
+      "answer": "Before the rider could calm it, the horse shied away when the noisy machine started.",
+      "answerZh": "騎手還未能令牠冷靜下來,嘈吵的機器一啟動,那匹馬便突然後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At the sudden flash, the pony moved sharply away and refused to go forward.",
+      "promptZh": "突然閃光時,那匹小馬迅速退開,並拒絕繼續前進。",
+      "starter": "At",
+      "answer": "At the sudden flash, the pony shied off and refused to go forward.",
+      "answerZh": "突然閃光時,那匹小馬迅速退開,並拒絕繼續前進。",
+      "highlight": "shied off",
+      "targetForm": "shy off",
+      "targetMeaningZh": "較少見:突然退開或閃避"
+    },
+    {
+      "id": "phrasal-verb-329-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Instead of avoiding the complaint, the manager listened and offered a solution.",
+      "promptZh": "經理沒有逃避投訴,而是聆聽並提出解決方法。",
+      "starter": "Instead",
+      "answer": "Instead of shying away from the complaint, the manager listened and offered a solution.",
+      "answerZh": "經理沒有逃避投訴,而是聆聽並提出解決方法。",
+      "highlight": "shying away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因困難或不安而避開某事"
+    },
+    {
+      "id": "phrasal-verb-329-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even when the task became uncomfortable, Rosa did not avoid telling the truth.",
+      "promptZh": "即使這項工作令人不安,羅莎仍沒有避免說出真相。",
+      "starter": "Even",
+      "answer": "Even when the task became uncomfortable, Rosa did not shy from telling the truth.",
+      "answerZh": "即使這項工作令人不安,羅莎仍沒有避免說出真相。",
+      "highlight": "shy from",
+      "targetForm": "shy from doing something",
+      "targetMeaningZh": "較少見:因不安而避開做某事"
+    },
+    {
+      "id": "phrasal-verb-329-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The dog stayed still at first but suddenly moved back when the bag opened.",
+      "promptZh": "那隻狗起初保持不動,但袋子打開時便突然往後退。",
+      "starter": "The",
+      "answer": "The dog stayed still at first but shied away when the bag opened.",
+      "answerZh": "那隻狗起初保持不動,但袋子打開時便突然往後退。",
+      "highlight": "shied away",
+      "targetForm": "shy away",
+      "targetMeaningZh": "因害怕或受驚而突然退開"
+    },
+    {
+      "id": "phrasal-verb-329-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The class had avoided the science project until the teacher broke it into smaller steps.",
+      "promptZh": "全班一直避開這個科學項目,直至老師把它分成較小的步驟。",
+      "starter": "The",
+      "answer": "The class had shied away from the science project until the teacher broke it into smaller steps.",
+      "answerZh": "全班一直避開這個科學項目,直至老師把它分成較小的步驟。",
+      "highlight": "shied away from",
+      "targetForm": "shy away from something",
+      "targetMeaningZh": "因緊張或缺乏信心而避開某事"
+    }
+  ]
+}

@@ -1,0 +1,2336 @@
+{
+  "id": "phrasal-verb-259",
+  "order": 259,
+  "slug": "push",
+  "version": "1",
+  "title": "PUSH 動詞片語",
+  "titleEn": "Push",
+  "titleZh": "PUSH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 244 - PUSH.pdf",
+    "sourceNumber": 244,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PUSH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PUSH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PUSH",
+      "highlight": "PUSH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The school pushed ahead with the new programme.",
+      "zh": "學校繼續推進新計劃。",
+      "highlight": "pushed ahead with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do not let other people push you around.",
+      "zh": "不要讓其他人欺負或控制你。",
+      "highlight": "push you around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tried to help, but she pushed him away.",
+      "zh": "他嘗試幫忙,但她拒絕了他的接近。",
+      "highlight": "pushed him away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "克服困難,繼續推進某項工作、計劃或改革；欺負、控制或不公平地命令某人；把某人或某物推開;拒絕某人的接近或幫助；把某人或某物推後或迫使其向後移動；擠過某人;強行從某人身旁經過；積極爭取某事;不斷催促某人提供答案、資料或決定；向前擠或用力向前移動；使某人或自己受到注意、獲得機會或被視為合適人選；插隊;沒有依次序等候便走到其他人前面；走開;離開,通常帶有不禮貌或生氣的語氣；繼續前進或趕路；把某人不想要的事物、責任或負擔強加給對方；排擠某人;迫使某人或某事物離開原有位置；用力穿過人群、狹窄地方或障礙物；朝某個目標、結果或方向推進；促使或逼使某人走向某個結果,或考慮採取某個行動；令價格、數字、水平或數量上升",
+    "en": "push ahead / push forward / push on with something; push somebody around / push somebody about; push somebody/something away; push somebody/something back; push by/past somebody; push for something / push somebody for something; push forward; push somebody/yourself forward; push in; push off; push on; push something on/onto somebody; push somebody/something out; push through / push through something; push towards something; push somebody towards something / push somebody towards doing something; push something up",
+    "naturalZh": [
+      "克服困難,繼續推進某項工作、計劃或改革",
+      "欺負、控制或不公平地命令某人",
+      "把某人或某物推開;拒絕某人的接近或幫助",
+      "把某人或某物推後或迫使其向後移動",
+      "擠過某人;強行從某人身旁經過",
+      "積極爭取某事;不斷催促某人提供答案、資料或決定",
+      "向前擠或用力向前移動",
+      "使某人或自己受到注意、獲得機會或被視為合適人選",
+      "插隊;沒有依次序等候便走到其他人前面",
+      "走開;離開,通常帶有不禮貌或生氣的語氣",
+      "繼續前進或趕路",
+      "把某人不想要的事物、責任或負擔強加給對方",
+      "排擠某人;迫使某人或某事物離開原有位置",
+      "用力穿過人群、狹窄地方或障礙物",
+      "朝某個目標、結果或方向推進",
+      "促使或逼使某人走向某個結果,或考慮採取某個行動",
+      "令價格、數字、水平或數量上升"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "push ahead / push forward / push on with something",
+      "titleZh": "克服困難,繼續推進某項工作、計劃或改革",
+      "titleEn": "push ahead / push forward / push on with something",
+      "descriptionZh": "克服困難,繼續推進某項工作、計劃或改革",
+      "descriptionEn": "The school pushed ahead with the new programme.",
+      "examples": [
+        {
+          "en": "The school pushed ahead with the new programme.",
+          "zh": "學校繼續推進新計劃。",
+          "highlight": "pushed ahead with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push somebody around / push somebody about",
+      "titleZh": "欺負、控制或不公平地命令某人",
+      "titleEn": "push somebody around / push somebody about",
+      "descriptionZh": "欺負、控制或不公平地命令某人",
+      "descriptionEn": "Do not let other people push you around.",
+      "examples": [
+        {
+          "en": "Do not let other people push you around.",
+          "zh": "不要讓其他人欺負或控制你。",
+          "highlight": "push you around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push somebody/something away",
+      "titleZh": "把某人或某物推開;拒絕某人的接近或幫助",
+      "titleEn": "push somebody/something away",
+      "descriptionZh": "把某人或某物推開;拒絕某人的接近或幫助",
+      "descriptionEn": "He tried to help, but she pushed him away.",
+      "examples": [
+        {
+          "en": "He tried to help, but she pushed him away.",
+          "zh": "他嘗試幫忙,但她拒絕了他的接近。",
+          "highlight": "pushed him away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push somebody/something back",
+      "titleZh": "把某人或某物推後或迫使其向後移動",
+      "titleEn": "push somebody/something back",
+      "descriptionZh": "把某人或某物推後或迫使其向後移動",
+      "descriptionEn": "The police pushed the crowd back.",
+      "examples": [
+        {
+          "en": "The police pushed the crowd back.",
+          "zh": "警方把人群迫退。",
+          "highlight": "pushed the crowd back"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push by/past somebody",
+      "titleZh": "擠過某人;強行從某人身旁經過",
+      "titleEn": "push by/past somebody",
+      "descriptionZh": "擠過某人;強行從某人身旁經過",
+      "descriptionEn": "She pushed past me without speaking.",
+      "examples": [
+        {
+          "en": "She pushed past me without speaking.",
+          "zh": "她沒有說話便從我身旁擠過。",
+          "highlight": "pushed"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push for something / push somebody for something",
+      "titleZh": "積極爭取某事;不斷催促某人提供答案、資料或決定",
+      "titleEn": "push for something / push somebody for something",
+      "descriptionZh": "積極爭取某事;不斷催促某人提供答案、資料或決定",
+      "descriptionEn": "Parents are pushing for safer roads.",
+      "examples": [
+        {
+          "en": "Parents are pushing for safer roads.",
+          "zh": "家長正在積極爭取更安全的道路。",
+          "highlight": "pushing for"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push forward",
+      "titleZh": "向前擠或用力向前移動",
+      "titleEn": "push forward",
+      "descriptionZh": "向前擠或用力向前移動",
+      "descriptionEn": "The crowd began to push forward.",
+      "examples": [
+        {
+          "en": "The crowd began to push forward.",
+          "zh": "人群開始向前擠。",
+          "highlight": "push forward"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push somebody/yourself forward",
+      "titleZh": "使某人或自己受到注意、獲得機會或被視為合適人選",
+      "titleEn": "push somebody/yourself forward",
+      "descriptionZh": "使某人或自己受到注意、獲得機會或被視為合適人選",
+      "descriptionEn": "He never pushes himself forward in meetings.",
+      "examples": [
+        {
+          "en": "He never pushes himself forward in meetings.",
+          "zh": "他在會議中從不刻意表現自己。",
+          "highlight": "He"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push in",
+      "titleZh": "插隊;沒有依次序等候便走到其他人前面",
+      "titleEn": "push in",
+      "descriptionZh": "插隊;沒有依次序等候便走到其他人前面",
+      "descriptionEn": "Someone pushed in ahead of us.",
+      "examples": [
+        {
+          "en": "Someone pushed in ahead of us.",
+          "zh": "有人在我們前面插隊。",
+          "highlight": "pushed in"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "push off",
+      "titleZh": "走開;離開,通常帶有不禮貌或生氣的語氣",
+      "titleEn": "push off",
+      "descriptionZh": "走開;離開,通常帶有不禮貌或生氣的語氣",
+      "descriptionEn": "He told the boys to push off.",
+      "examples": [
+        {
+          "en": "He told the boys to push off.",
+          "zh": "他叫那些男孩走開。",
+          "highlight": "push off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push on",
+      "titleZh": "繼續前進或趕路",
+      "titleEn": "push on",
+      "descriptionZh": "繼續前進或趕路",
+      "descriptionEn": "We rested briefly and then pushed on.",
+      "examples": [
+        {
+          "en": "We rested briefly and then pushed on.",
+          "zh": "我們稍作休息,然後繼續前進。",
+          "highlight": "pushed on"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push something on/onto somebody",
+      "titleZh": "把某人不想要的事物、責任或負擔強加給對方",
+      "titleEn": "push something on/onto somebody",
+      "descriptionZh": "把某人不想要的事物、責任或負擔強加給對方",
+      "descriptionEn": "Do not push your work onto me.",
+      "examples": [
+        {
+          "en": "Do not push your work onto me.",
+          "zh": "不要把你的工作強加給我。",
+          "highlight": "push your work onto"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push somebody/something out",
+      "titleZh": "排擠某人;迫使某人或某事物離開原有位置",
+      "titleEn": "push somebody/something out",
+      "descriptionZh": "排擠某人;迫使某人或某事物離開原有位置",
+      "descriptionEn": "The larger shops pushed several small businesses out.",
+      "examples": [
+        {
+          "en": "The larger shops pushed several small businesses out.",
+          "zh": "較大型店舖迫使數間小商店離開市場。",
+          "highlight": "pushed several small businesses out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push through / push through something",
+      "titleZh": "用力穿過人群、狹窄地方或障礙物",
+      "titleEn": "push through / push through something",
+      "descriptionZh": "用力穿過人群、狹窄地方或障礙物",
+      "descriptionEn": "We pushed through the crowd to the exit.",
+      "examples": [
+        {
+          "en": "We pushed through the crowd to the exit.",
+          "zh": "我們穿過人群走到出口。",
+          "highlight": "pushed through"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push towards something",
+      "titleZh": "朝某個目標、結果或方向推進",
+      "titleEn": "push towards something",
+      "descriptionZh": "朝某個目標、結果或方向推進",
+      "descriptionEn": "Both sides are pushing towards an agreement.",
+      "examples": [
+        {
+          "en": "Both sides are pushing towards an agreement.",
+          "zh": "雙方正朝達成協議的方向推進。",
+          "highlight": "pushing"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push somebody towards something / push somebody towards doing something",
+      "titleZh": "促使或逼使某人走向某個結果,或考慮採取某個行動",
+      "titleEn": "push somebody towards something / push somebody towards doing something",
+      "descriptionZh": "促使或逼使某人走向某個結果,或考慮採取某個行動",
+      "descriptionEn": "The high cost pushed them towards moving away.",
+      "examples": [
+        {
+          "en": "The high cost pushed them towards moving away.",
+          "zh": "高昂的費用促使他們考慮搬走。",
+          "highlight": "pushed"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "push something up",
+      "titleZh": "令價格、數字、水平或數量上升",
+      "titleEn": "push something up",
+      "descriptionZh": "令價格、數字、水平或數量上升",
+      "descriptionEn": "Strong demand pushed prices up.",
+      "examples": [
+        {
+          "en": "Strong demand pushed prices up.",
+          "zh": "強勁需求令價格上升。",
+          "highlight": "pushed prices up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PUSH 片語動詞的實際用途",
+    "labelEn": "PUSH Phrasal Verbs in Use",
+    "summaryZh": "push ahead、push forward 和 push on 可以表示個人、團隊或機構即使遇到困難,仍然繼續工作或前進。；PUSH 片語動詞可以描述欺負別人、把工作強加給別人、排擠某人,或逼使某人作出決定。；push forward、push past、push through 和 push in 能表達在人群、隊伍和狹窄地方中的不同移動方式。；push towards 可以表示朝目標推進;push something up 則可以解釋價格、數字或水平上升的原因。",
+    "summaryEn": "Push ahead, push forward and push on can show that a person, team or organisation continues working or travelling even when the situation is difficult. The PUSH family can describe bullying, forcing unwanted work onto somebody, excluding people or pressuring them towards a decision. Push forward, push past, push through and push in help speakers describe different kinds of movement in crowds, queues and narrow places. Push towards can describe progress towards a goal, while push something up can explain why prices, numbers or other levels increase.",
+    "contextsZh": [
+      "表達克服困難後繼續前進",
+      "描述壓力、控制和不公平對待",
+      "描述人群和狹窄地方中的移動",
+      "解釋進展和數字變化"
+    ],
+    "contextsEn": [
+      "Talk about continuing despite difficulties",
+      "Describe pressure, control and unfair treatment",
+      "Describe movement in crowded places",
+      "Explain progress and changes"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PUSH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PUSH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "push ahead / push forward / push on with something",
+    "fixedHighlight": "push ahead / push forward / push on with something",
+    "fixedZh": "閱讀整句,選出意思相同的 PUSH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PUSH expression that gives the same meaning.",
+    "correct": "pushed ahead with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；部分形式看來相似,但意思不同。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: push him around push her away push it back push them out push it up Some forms look similar but have different meanings: push on with the work = continue the work push on to the village = continue the journey push forward with the plan = continue the plan push forward through the crowd = move forwards through the crowd",
+    "variableItemsZh": [
+      "push ahead / push forward / push on with something",
+      "push somebody around / push somebody about",
+      "push somebody/something away",
+      "push somebody/something back",
+      "push by/past somebody",
+      "push for something / push somebody for something",
+      "push forward",
+      "push somebody/yourself forward",
+      "push in",
+      "push off",
+      "push on",
+      "push something on/onto somebody",
+      "push somebody/something out",
+      "push through / push through something",
+      "push towards something",
+      "push somebody towards something / push somebody towards doing something",
+      "push something up"
+    ],
+    "variableItemsEn": [
+      "push ahead / push forward / push on with something",
+      "push somebody around / push somebody about",
+      "push somebody/something away",
+      "push somebody/something back",
+      "push by/past somebody",
+      "push for something / push somebody for something",
+      "push forward",
+      "push somebody/yourself forward",
+      "push in",
+      "push off",
+      "push on",
+      "push something on/onto somebody",
+      "push somebody/something out",
+      "push through / push through something",
+      "push towards something",
+      "push somebody towards something / push somebody towards doing something",
+      "push something up"
+    ],
+    "forms": [
+      {
+        "formZh": "克服困難,繼續推進某項工作、計劃或改革",
+        "formEn": "push ahead / push forward / push on with something",
+        "exampleZh": "學校繼續推進新計劃。",
+        "exampleEn": "The school pushed ahead with the new programme.",
+        "highlight": "pushed ahead with"
+      },
+      {
+        "formZh": "欺負、控制或不公平地命令某人",
+        "formEn": "push somebody around / push somebody about",
+        "exampleZh": "不要讓其他人欺負或控制你。",
+        "exampleEn": "Do not let other people push you around.",
+        "highlight": "push you around"
+      },
+      {
+        "formZh": "把某人或某物推開;拒絕某人的接近或幫助",
+        "formEn": "push somebody/something away",
+        "exampleZh": "他嘗試幫忙,但她拒絕了他的接近。",
+        "exampleEn": "He tried to help, but she pushed him away.",
+        "highlight": "pushed him away"
+      },
+      {
+        "formZh": "把某人或某物推後或迫使其向後移動",
+        "formEn": "push somebody/something back",
+        "exampleZh": "警方把人群迫退。",
+        "exampleEn": "The police pushed the crowd back.",
+        "highlight": "pushed the crowd back"
+      },
+      {
+        "formZh": "擠過某人;強行從某人身旁經過",
+        "formEn": "push by/past somebody",
+        "exampleZh": "她沒有說話便從我身旁擠過。",
+        "exampleEn": "She pushed past me without speaking.",
+        "highlight": "pushed"
+      },
+      {
+        "formZh": "積極爭取某事;不斷催促某人提供答案、資料或決定",
+        "formEn": "push for something / push somebody for something",
+        "exampleZh": "家長正在積極爭取更安全的道路。",
+        "exampleEn": "Parents are pushing for safer roads.",
+        "highlight": "pushing for"
+      },
+      {
+        "formZh": "向前擠或用力向前移動",
+        "formEn": "push forward",
+        "exampleZh": "人群開始向前擠。",
+        "exampleEn": "The crowd began to push forward.",
+        "highlight": "push forward"
+      },
+      {
+        "formZh": "使某人或自己受到注意、獲得機會或被視為合適人選",
+        "formEn": "push somebody/yourself forward",
+        "exampleZh": "他在會議中從不刻意表現自己。",
+        "exampleEn": "He never pushes himself forward in meetings.",
+        "highlight": "He"
+      },
+      {
+        "formZh": "插隊;沒有依次序等候便走到其他人前面",
+        "formEn": "push in",
+        "exampleZh": "有人在我們前面插隊。",
+        "exampleEn": "Someone pushed in ahead of us.",
+        "highlight": "pushed in"
+      },
+      {
+        "formZh": "走開;離開,通常帶有不禮貌或生氣的語氣",
+        "formEn": "push off",
+        "exampleZh": "他叫那些男孩走開。",
+        "exampleEn": "He told the boys to push off.",
+        "highlight": "push off"
+      },
+      {
+        "formZh": "繼續前進或趕路",
+        "formEn": "push on",
+        "exampleZh": "我們稍作休息,然後繼續前進。",
+        "exampleEn": "We rested briefly and then pushed on.",
+        "highlight": "pushed on"
+      },
+      {
+        "formZh": "把某人不想要的事物、責任或負擔強加給對方",
+        "formEn": "push something on/onto somebody",
+        "exampleZh": "不要把你的工作強加給我。",
+        "exampleEn": "Do not push your work onto me.",
+        "highlight": "push your work onto"
+      },
+      {
+        "formZh": "排擠某人;迫使某人或某事物離開原有位置",
+        "formEn": "push somebody/something out",
+        "exampleZh": "較大型店舖迫使數間小商店離開市場。",
+        "exampleEn": "The larger shops pushed several small businesses out.",
+        "highlight": "pushed several small businesses out"
+      },
+      {
+        "formZh": "用力穿過人群、狹窄地方或障礙物",
+        "formEn": "push through / push through something",
+        "exampleZh": "我們穿過人群走到出口。",
+        "exampleEn": "We pushed through the crowd to the exit.",
+        "highlight": "pushed through"
+      },
+      {
+        "formZh": "朝某個目標、結果或方向推進",
+        "formEn": "push towards something",
+        "exampleZh": "雙方正朝達成協議的方向推進。",
+        "exampleEn": "Both sides are pushing towards an agreement.",
+        "highlight": "pushing"
+      },
+      {
+        "formZh": "促使或逼使某人走向某個結果,或考慮採取某個行動",
+        "formEn": "push somebody towards something / push somebody towards doing something",
+        "exampleZh": "高昂的費用促使他們考慮搬走。",
+        "exampleEn": "The high cost pushed them towards moving away.",
+        "highlight": "pushed"
+      },
+      {
+        "formZh": "令價格、數字、水平或數量上升",
+        "formEn": "push something up",
+        "exampleZh": "強勁需求令價格上升。",
+        "exampleEn": "Strong demand pushed prices up.",
+        "highlight": "pushed prices up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "克服困難,繼續推進某項工作、計劃或改革",
+      "titleEn": "push ahead / push forward / push on with something",
+      "formula": "push ahead / push forward / push on with something",
+      "highlight": "push ahead / push forward / push on with something",
+      "descriptionZh": "克服困難,繼續推進某項工作、計劃或改革",
+      "descriptionEn": "The school pushed ahead with the new programme.",
+      "examples": [
+        {
+          "en": "The school pushed ahead with the new programme.",
+          "zh": "學校繼續推進新計劃。",
+          "highlight": "pushed ahead with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "欺負、控制或不公平地命令某人",
+      "titleEn": "push somebody around / push somebody about",
+      "formula": "push somebody around / push somebody about",
+      "highlight": "push somebody around / push somebody about",
+      "descriptionZh": "欺負、控制或不公平地命令某人",
+      "descriptionEn": "Do not let other people push you around.",
+      "examples": [
+        {
+          "en": "Do not let other people push you around.",
+          "zh": "不要讓其他人欺負或控制你。",
+          "highlight": "push you around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物推開;拒絕某人的接近或幫助",
+      "titleEn": "push somebody/something away",
+      "formula": "push somebody/something away",
+      "highlight": "push somebody/something away",
+      "descriptionZh": "把某人或某物推開;拒絕某人的接近或幫助",
+      "descriptionEn": "He tried to help, but she pushed him away.",
+      "examples": [
+        {
+          "en": "He tried to help, but she pushed him away.",
+          "zh": "他嘗試幫忙,但她拒絕了他的接近。",
+          "highlight": "pushed him away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人或某物推後或迫使其向後移動",
+      "titleEn": "push somebody/something back",
+      "formula": "push somebody/something back",
+      "highlight": "push somebody/something back",
+      "descriptionZh": "把某人或某物推後或迫使其向後移動",
+      "descriptionEn": "The police pushed the crowd back.",
+      "examples": [
+        {
+          "en": "The police pushed the crowd back.",
+          "zh": "警方把人群迫退。",
+          "highlight": "pushed the crowd back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "擠過某人;強行從某人身旁經過",
+      "titleEn": "push by/past somebody",
+      "formula": "push by/past somebody",
+      "highlight": "push by/past somebody",
+      "descriptionZh": "擠過某人;強行從某人身旁經過",
+      "descriptionEn": "She pushed past me without speaking.",
+      "examples": [
+        {
+          "en": "She pushed past me without speaking.",
+          "zh": "她沒有說話便從我身旁擠過。",
+          "highlight": "pushed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "積極爭取某事;不斷催促某人提供答案、資料或決定",
+      "titleEn": "push for something / push somebody for something",
+      "formula": "push for something / push somebody for something",
+      "highlight": "push for something / push somebody for something",
+      "descriptionZh": "積極爭取某事;不斷催促某人提供答案、資料或決定",
+      "descriptionEn": "Parents are pushing for safer roads.",
+      "examples": [
+        {
+          "en": "Parents are pushing for safer roads.",
+          "zh": "家長正在積極爭取更安全的道路。",
+          "highlight": "pushing for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "向前擠或用力向前移動",
+      "titleEn": "push forward",
+      "formula": "push forward",
+      "highlight": "push forward",
+      "descriptionZh": "向前擠或用力向前移動",
+      "descriptionEn": "The crowd began to push forward.",
+      "examples": [
+        {
+          "en": "The crowd began to push forward.",
+          "zh": "人群開始向前擠。",
+          "highlight": "push forward"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "使某人或自己受到注意、獲得機會或被視為合適人選",
+      "titleEn": "push somebody/yourself forward",
+      "formula": "push somebody/yourself forward",
+      "highlight": "push somebody/yourself forward",
+      "descriptionZh": "使某人或自己受到注意、獲得機會或被視為合適人選",
+      "descriptionEn": "He never pushes himself forward in meetings.",
+      "examples": [
+        {
+          "en": "He never pushes himself forward in meetings.",
+          "zh": "他在會議中從不刻意表現自己。",
+          "highlight": "He"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "插隊;沒有依次序等候便走到其他人前面",
+      "titleEn": "push in",
+      "formula": "push in",
+      "highlight": "push in",
+      "descriptionZh": "插隊;沒有依次序等候便走到其他人前面",
+      "descriptionEn": "Someone pushed in ahead of us.",
+      "examples": [
+        {
+          "en": "Someone pushed in ahead of us.",
+          "zh": "有人在我們前面插隊。",
+          "highlight": "pushed in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "走開;離開,通常帶有不禮貌或生氣的語氣",
+      "titleEn": "push off",
+      "formula": "push off",
+      "highlight": "push off",
+      "descriptionZh": "走開;離開,通常帶有不禮貌或生氣的語氣",
+      "descriptionEn": "He told the boys to push off.",
+      "examples": [
+        {
+          "en": "He told the boys to push off.",
+          "zh": "他叫那些男孩走開。",
+          "highlight": "push off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "繼續前進或趕路",
+      "titleEn": "push on",
+      "formula": "push on",
+      "highlight": "push on",
+      "descriptionZh": "繼續前進或趕路",
+      "descriptionEn": "We rested briefly and then pushed on.",
+      "examples": [
+        {
+          "en": "We rested briefly and then pushed on.",
+          "zh": "我們稍作休息,然後繼續前進。",
+          "highlight": "pushed on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人不想要的事物、責任或負擔強加給對方",
+      "titleEn": "push something on/onto somebody",
+      "formula": "push something on/onto somebody",
+      "highlight": "push something on/onto somebody",
+      "descriptionZh": "把某人不想要的事物、責任或負擔強加給對方",
+      "descriptionEn": "Do not push your work onto me.",
+      "examples": [
+        {
+          "en": "Do not push your work onto me.",
+          "zh": "不要把你的工作強加給我。",
+          "highlight": "push your work onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "排擠某人;迫使某人或某事物離開原有位置",
+      "titleEn": "push somebody/something out",
+      "formula": "push somebody/something out",
+      "highlight": "push somebody/something out",
+      "descriptionZh": "排擠某人;迫使某人或某事物離開原有位置",
+      "descriptionEn": "The larger shops pushed several small businesses out.",
+      "examples": [
+        {
+          "en": "The larger shops pushed several small businesses out.",
+          "zh": "較大型店舖迫使數間小商店離開市場。",
+          "highlight": "pushed several small businesses out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "用力穿過人群、狹窄地方或障礙物",
+      "titleEn": "push through / push through something",
+      "formula": "push through / push through something",
+      "highlight": "push through / push through something",
+      "descriptionZh": "用力穿過人群、狹窄地方或障礙物",
+      "descriptionEn": "We pushed through the crowd to the exit.",
+      "examples": [
+        {
+          "en": "We pushed through the crowd to the exit.",
+          "zh": "我們穿過人群走到出口。",
+          "highlight": "pushed through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "朝某個目標、結果或方向推進",
+      "titleEn": "push towards something",
+      "formula": "push towards something",
+      "highlight": "push towards something",
+      "descriptionZh": "朝某個目標、結果或方向推進",
+      "descriptionEn": "Both sides are pushing towards an agreement.",
+      "examples": [
+        {
+          "en": "Both sides are pushing towards an agreement.",
+          "zh": "雙方正朝達成協議的方向推進。",
+          "highlight": "pushing"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "促使或逼使某人走向某個結果,或考慮採取某個行動",
+      "titleEn": "push somebody towards something / push somebody towards doing something",
+      "formula": "push somebody towards something / push somebody towards doing something",
+      "highlight": "push somebody towards something / push somebody towards doing something",
+      "descriptionZh": "促使或逼使某人走向某個結果,或考慮採取某個行動",
+      "descriptionEn": "The high cost pushed them towards moving away.",
+      "examples": [
+        {
+          "en": "The high cost pushed them towards moving away.",
+          "zh": "高昂的費用促使他們考慮搬走。",
+          "highlight": "pushed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "令價格、數字、水平或數量上升",
+      "titleEn": "push something up",
+      "formula": "push something up",
+      "highlight": "push something up",
+      "descriptionZh": "令價格、數字、水平或數量上升",
+      "descriptionEn": "Strong demand pushed prices up.",
+      "examples": [
+        {
+          "en": "Strong demand pushed prices up.",
+          "zh": "強勁需求令價格上升。",
+          "highlight": "pushed prices up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "表達克服困難後繼續前進",
+      "titleEn": "Talk about continuing despite difficulties",
+      "zh": "push ahead、push forward 和 push on 可以表示個人、團隊或機構即使遇到困難,仍然繼續工作或前進。",
+      "en": "Push ahead, push forward and push on can show that a person, team or organisation continues working or travelling even when the situation is difficult."
+    },
+    {
+      "titleZh": "描述壓力、控制和不公平對待",
+      "titleEn": "Describe pressure, control and unfair treatment",
+      "zh": "PUSH 片語動詞可以描述欺負別人、把工作強加給別人、排擠某人,或逼使某人作出決定。",
+      "en": "The PUSH family can describe bullying, forcing unwanted work onto somebody, excluding people or pressuring them towards a decision."
+    },
+    {
+      "titleZh": "描述人群和狹窄地方中的移動",
+      "titleEn": "Describe movement in crowded places",
+      "zh": "push forward、push past、push through 和 push in 能表達在人群、隊伍和狹窄地方中的不同移動方式。",
+      "en": "Push forward, push past, push through and push in help speakers describe different kinds of movement in crowds, queues and narrow places."
+    },
+    {
+      "titleZh": "解釋進展和數字變化",
+      "titleEn": "Explain progress and changes",
+      "zh": "push towards 可以表示朝目標推進;push something up 則可以解釋價格、數字或水平上升的原因。",
+      "en": "Push towards can describe progress towards a goal, while push something up can explain why prices, numbers or other levels increase."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "表達克服困難後繼續前進",
+      "描述壓力、控制和不公平對待",
+      "描述人群和狹窄地方中的移動",
+      "解釋進展和數字變化"
+    ],
+    "contextsEn": [
+      "Talk about continuing despite difficulties",
+      "Describe pressure, control and unfair treatment",
+      "Describe movement in crowded places",
+      "Explain progress and changes"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "表達克服困難後繼續前進",
+        "titleEn": "Talk about continuing despite difficulties",
+        "zh": "push ahead、push forward 和 push on 可以表示個人、團隊或機構即使遇到困難,仍然繼續工作或前進。",
+        "en": "Push ahead, push forward and push on can show that a person, team or organisation continues working or travelling even when the situation is difficult.",
+        "examples": [
+          {
+            "en": "The school pushed ahead with the new programme.",
+            "zh": "學校繼續推進新計劃。",
+            "highlight": "pushed ahead with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述壓力、控制和不公平對待",
+        "titleEn": "Describe pressure, control and unfair treatment",
+        "zh": "PUSH 片語動詞可以描述欺負別人、把工作強加給別人、排擠某人,或逼使某人作出決定。",
+        "en": "The PUSH family can describe bullying, forcing unwanted work onto somebody, excluding people or pressuring them towards a decision.",
+        "examples": [
+          {
+            "en": "Do not let other people push you around.",
+            "zh": "不要讓其他人欺負或控制你。",
+            "highlight": "push you around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述人群和狹窄地方中的移動",
+        "titleEn": "Describe movement in crowded places",
+        "zh": "push forward、push past、push through 和 push in 能表達在人群、隊伍和狹窄地方中的不同移動方式。",
+        "en": "Push forward, push past, push through and push in help speakers describe different kinds of movement in crowds, queues and narrow places.",
+        "examples": [
+          {
+            "en": "He tried to help, but she pushed him away.",
+            "zh": "他嘗試幫忙,但她拒絕了他的接近。",
+            "highlight": "pushed him away"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋進展和數字變化",
+        "titleEn": "Explain progress and changes",
+        "zh": "push towards 可以表示朝目標推進;push something up 則可以解釋價格、數字或水平上升的原因。",
+        "en": "Push towards can describe progress towards a goal, while push something up can explain why prices, numbers or other levels increase.",
+        "examples": [
+          {
+            "en": "The police pushed the crowd back.",
+            "zh": "警方把人群迫退。",
+            "highlight": "pushed the crowd back"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PUSH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PUSH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PUSH 片語動詞。",
+      "en": "Read the whole sentence and choose the PUSH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: push him around push her away push it back push them out push it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: push him around push her away push it back push them out push it up"
+    },
+    {
+      "titleZh": "部分形式看來相似,但意思不同。請仔細閱讀整個情境。",
+      "titleEn": "Some forms look similar but have different meanings: push on with the work = continue the work push on to the village = continue the journey push forward with the plan = continue the plan push forward through the crowd = move forwards through the crowd.",
+      "zh": "部分形式看來相似,但意思不同。請仔細閱讀整個情境。",
+      "en": "Some forms look similar but have different meanings: push on with the work = continue the work push on to the village = continue the journey push forward with the plan = continue the plan push forward through the crowd = move forwards through the crowd"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PUSH 動詞片語句子改寫練習",
+    "titleEn": "PUSH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-259-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Residents are strongly trying to get a safer crossing near the school.",
+      "promptZh": "居民正積極爭取在學校附近設置更安全的過路處。",
+      "starter": "Residents",
+      "answer": "Residents are pushing for a safer crossing near the school.",
+      "answerZh": "居民正積極爭取在學校附近設置更安全的過路處。",
+      "highlight": "pushing for",
+      "targetForm": "push for something",
+      "targetMeaningZh": "積極爭取某事"
+    },
+    {
+      "id": "phrasal-verb-259-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "He offered to help, but she moved him away from her.",
+      "promptZh": "他提出幫忙,但她把他推開。",
+      "starter": "He",
+      "answer": "He offered to help, but she pushed him away.",
+      "answerZh": "他提出幫忙,但她拒絕了他的接近。",
+      "highlight": "pushed",
+      "targetForm": "push somebody away",
+      "targetMeaningZh": "推開或拒絕某人的接近"
+    },
+    {
+      "id": "phrasal-verb-259-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We decided to continue travelling to the next town.",
+      "promptZh": "我們決定繼續前往下一個城鎮。",
+      "starter": "We",
+      "answer": "We decided to push on to the next town.",
+      "answerZh": "我們決定繼續前往下一個城鎮。",
+      "highlight": "push on",
+      "targetForm": "push on",
+      "targetMeaningZh": "繼續前進或趕路"
+    },
+    {
+      "id": "phrasal-verb-259-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The shortage made food prices higher.",
+      "promptZh": "供應短缺令食品價格上升。",
+      "starter": "The",
+      "answer": "The shortage pushed food prices up.",
+      "answerZh": "供應短缺令食品價格上升。",
+      "highlight": "pushed",
+      "targetForm": "push something up",
+      "targetMeaningZh": "令價格、數字或水平上升"
+    },
+    {
+      "id": "phrasal-verb-259-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Do not let your cousin keep controlling and ordering you unfairly.",
+      "promptZh": "不要讓你的表兄弟姊妹不公平地控制和命令你。",
+      "starter": "Do",
+      "answer": "Do not let your cousin push you around.",
+      "answerZh": "不要讓你的表兄弟姊妹欺負或控制你。",
+      "highlight": "push",
+      "targetForm": "push somebody around",
+      "targetMeaningZh": "欺負或控制某人"
+    },
+    {
+      "id": "phrasal-verb-259-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "She forced her way through the crowd to reach the door.",
+      "promptZh": "她用力穿過人群,走到門口。",
+      "starter": "She",
+      "answer": "She pushed through the crowd to reach the door.",
+      "answerZh": "她用力穿過人群,走到門口。",
+      "highlight": "pushed",
+      "targetForm": "push through something",
+      "targetMeaningZh": "用力穿過人群或障礙物"
+    },
+    {
+      "id": "phrasal-verb-259-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The council continued with the park repairs despite the rain.",
+      "promptZh": "儘管下雨,市議會仍繼續進行公園維修工程。",
+      "starter": "The",
+      "answer": "The council pushed ahead with the park repairs despite the rain.",
+      "answerZh": "儘管下雨,市議會仍繼續進行公園維修工程。",
+      "highlight": "pushed ahead",
+      "targetForm": "push ahead with something",
+      "targetMeaningZh": "克服困難後繼續推進某事"
+    },
+    {
+      "id": "phrasal-verb-259-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "A man moved ahead of the other people in the queue without waiting his turn.",
+      "promptZh": "一名男子沒有依次序等候,便走到隊伍中其他人的前面。",
+      "starter": "A",
+      "answer": "A man pushed in without waiting his turn.",
+      "answerZh": "一名男子沒有依次序等候便插隊。",
+      "highlight": "pushed",
+      "targetForm": "push in",
+      "targetMeaningZh": "插隊"
+    },
+    {
+      "id": "phrasal-verb-259-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The two sides are working hard to reach an agreement.",
+      "promptZh": "雙方正努力朝達成協議的方向前進。",
+      "starter": "The",
+      "answer": "The two sides are pushing towards an agreement.",
+      "answerZh": "雙方正朝達成協議的方向推進。",
+      "highlight": "pushing towards",
+      "targetForm": "push towards something",
+      "targetMeaningZh": "朝某個目標或結果推進"
+    },
+    {
+      "id": "phrasal-verb-259-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The police forced the crowd backwards.",
+      "promptZh": "警方迫使人群向後退。",
+      "starter": "The",
+      "answer": "The police pushed the crowd back.",
+      "answerZh": "警方迫使人群向後退。",
+      "highlight": "pushed",
+      "targetForm": "push somebody back",
+      "targetMeaningZh": "迫使某人向後移動"
+    },
+    {
+      "id": "phrasal-verb-259-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Leo never tries to make himself the centre of attention.",
+      "promptZh": "里奧從不刻意令自己成為眾人注意的中心。",
+      "starter": "Leo",
+      "answer": "Leo never pushes himself forward.",
+      "answerZh": "里奧從不刻意令自己受到注意。",
+      "highlight": "pushes",
+      "targetForm": "push yourself forward",
+      "targetMeaningZh": "刻意令自己受到注意"
+    },
+    {
+      "id": "phrasal-verb-259-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The seller tried to force the damaged phone on us.",
+      "promptZh": "賣家嘗試把損壞的電話硬推給我們。",
+      "starter": "The",
+      "answer": "The seller tried to push the damaged phone on us.",
+      "answerZh": "賣家嘗試把損壞的電話硬推給我們。",
+      "highlight": "push",
+      "targetForm": "push something on somebody",
+      "targetMeaningZh": "把某人不想要的事物強加給對方"
+    },
+    {
+      "id": "phrasal-verb-259-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "She forced her way past me without speaking.",
+      "promptZh": "她沒有說話便強行從我身旁經過。",
+      "starter": "She",
+      "answer": "She pushed past me without speaking.",
+      "answerZh": "她沒有說話便從我身旁擠過。",
+      "highlight": "pushed",
+      "targetForm": "push past somebody",
+      "targetMeaningZh": "強行從某人身旁經過"
+    },
+    {
+      "id": "phrasal-verb-259-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Money problems finally made them consider selling the car.",
+      "promptZh": "經濟問題最終迫使他們考慮出售汽車。",
+      "starter": "Money",
+      "answer": "Money problems finally pushed them towards selling the car.",
+      "answerZh": "經濟問題最終迫使他們考慮出售汽車。",
+      "highlight": "pushed",
+      "targetForm": "push somebody towards doing something",
+      "targetMeaningZh": "促使或逼使某人考慮做某事"
+    },
+    {
+      "id": "phrasal-verb-259-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "He told the noisy boys to go away.",
+      "promptZh": "他叫那些吵鬧的男孩走開。",
+      "starter": "He",
+      "answer": "He told the noisy boys to push off.",
+      "answerZh": "他叫那些吵鬧的男孩走開。",
+      "highlight": "push off",
+      "targetForm": "push off",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-259-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "She moved forwards through the crowd.",
+      "promptZh": "她在人群中向前擠。",
+      "starter": "She",
+      "answer": "She pushed forward through the crowd.",
+      "answerZh": "她在人群中向前擠。",
+      "highlight": "pushed forward",
+      "targetForm": "push forward",
+      "targetMeaningZh": "用力向前移動"
+    },
+    {
+      "id": "phrasal-verb-259-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The new baby made the older child feel excluded.",
+      "promptZh": "新生嬰兒令年長的孩子感到被排擠。",
+      "starter": "The",
+      "answer": "The new baby made the older child feel pushed out.",
+      "answerZh": "新生嬰兒令年長的孩子感到被排擠。",
+      "highlight": "pushed out",
+      "targetForm": "push somebody out",
+      "targetMeaningZh": "排擠某人"
+    },
+    {
+      "id": "phrasal-verb-259-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Higher demand has made ticket prices rise.",
+      "promptZh": "更高的需求令門票價格上升。",
+      "starter": "Higher",
+      "answer": "Higher demand has pushed ticket prices up.",
+      "answerZh": "更高的需求令門票價格上升。",
+      "highlight": "pushed",
+      "targetForm": "push something up",
+      "targetMeaningZh": "令價格、數字或水平上升"
+    },
+    {
+      "id": "phrasal-verb-259-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The school is continuing with the new reading plan.",
+      "promptZh": "學校正繼續推進新的閱讀計劃。",
+      "starter": "The",
+      "answer": "The school is pushing forward with the new reading plan.",
+      "answerZh": "學校正繼續推進新的閱讀計劃。",
+      "highlight": "pushing forward",
+      "targetForm": "push forward with something",
+      "targetMeaningZh": "繼續推進某項工作或計劃"
+    },
+    {
+      "id": "phrasal-verb-259-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Why did he force his way by everyone without waiting?",
+      "promptZh": "他為何沒有等候,便強行從所有人身旁經過?",
+      "starter": "Why",
+      "answer": "Why did he push by everyone without waiting?",
+      "answerZh": "他為何沒有等候,便從所有人身旁擠過?",
+      "highlight": "push",
+      "targetForm": "push by somebody",
+      "targetMeaningZh": "強行從某人身旁經過"
+    },
+    {
+      "id": "phrasal-verb-259-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "They are forcing extra work onto the youngest member.",
+      "promptZh": "他們正把額外工作強加給最年輕的成員。",
+      "starter": "They",
+      "answer": "They are pushing extra work onto the youngest member.",
+      "answerZh": "他們正把額外工作強加給最年輕的成員。",
+      "highlight": "pushing",
+      "targetForm": "push something onto somebody",
+      "targetMeaningZh": "把責任或工作強加給某人"
+    },
+    {
+      "id": "phrasal-verb-259-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "I did not mean to reject you when you offered support.",
+      "promptZh": "你提出支持時,我並非有意拒絕你。",
+      "starter": "I",
+      "answer": "I did not mean to push you away when you offered support.",
+      "answerZh": "你提出支持時,我並非有意拒絕你。",
+      "highlight": "push",
+      "targetForm": "push somebody away",
+      "targetMeaningZh": "拒絕某人的接近或幫助"
+    },
+    {
+      "id": "phrasal-verb-259-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The coach is presenting her as the best person to lead the team.",
+      "promptZh": "教練正把她推舉為領導球隊的最佳人選。",
+      "starter": "The",
+      "answer": "The coach is pushing her forward as the best person to lead the team.",
+      "answerZh": "教練正把她推舉為領導球隊的最佳人選。",
+      "highlight": "pushing",
+      "targetForm": "push somebody forward",
+      "targetMeaningZh": "使某人受到注意或被視為合適人選"
+    },
+    {
+      "id": "phrasal-verb-259-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Our team is moving steadily towards the final.",
+      "promptZh": "我們的球隊正穩步朝決賽前進。",
+      "starter": "Our",
+      "answer": "Our team is pushing towards the final.",
+      "answerZh": "我們的球隊正穩步朝決賽前進。",
+      "highlight": "pushing",
+      "targetForm": "push towards something",
+      "targetMeaningZh": "朝某個目標推進"
+    },
+    {
+      "id": "phrasal-verb-259-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The stranger refused to go away.",
+      "promptZh": "那名陌生人拒絕離開。",
+      "starter": "The",
+      "answer": "The stranger refused to push off.",
+      "answerZh": "那名陌生人拒絕離開。",
+      "highlight": "push off",
+      "targetForm": "push off",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-259-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The strong wind moved the door backwards.",
+      "promptZh": "強風吹得門向後移動。",
+      "starter": "The",
+      "answer": "The strong wind pushed the door back.",
+      "answerZh": "強風吹得門向後移動。",
+      "highlight": "pushed",
+      "targetForm": "push something back",
+      "targetMeaningZh": "把某物推後"
+    },
+    {
+      "id": "phrasal-verb-259-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Parents have been strongly asking the school for an answer.",
+      "promptZh": "家長一直不斷要求學校給予答覆。",
+      "starter": "Parents",
+      "answer": "Parents have been pushing the school for an answer.",
+      "answerZh": "家長一直不斷要求學校給予答覆。",
+      "highlight": "pushing",
+      "targetForm": "push somebody for something",
+      "targetMeaningZh": "不斷催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-259-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Several small shops have been forced out by the new supermarket.",
+      "promptZh": "數間小店已被新超級市場迫使離開市場。",
+      "starter": "Several",
+      "answer": "Several small shops have been pushed out by the new supermarket.",
+      "answerZh": "數間小店已被新超級市場迫使離開市場。",
+      "highlight": "pushed",
+      "targetForm": "push something out",
+      "targetMeaningZh": "迫使某事物離開原有位置"
+    },
+    {
+      "id": "phrasal-verb-259-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Will we continue to the village before dark?",
+      "promptZh": "我們會在天黑前繼續前往村莊嗎?",
+      "starter": "Will",
+      "answer": "Will we push on to the village before dark?",
+      "answerZh": "我們會在天黑前繼續前往村莊嗎?",
+      "highlight": "push on",
+      "targetForm": "push on",
+      "targetMeaningZh": "繼續前進或趕路"
+    },
+    {
+      "id": "phrasal-verb-259-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Please do not move ahead of other people in the queue.",
+      "promptZh": "請不要在隊伍中走到其他人的前面。",
+      "starter": "Please",
+      "answer": "Please do not push in ahead of other people in the queue.",
+      "answerZh": "請不要在隊伍中走到其他人的前面插隊。",
+      "highlight": "push in",
+      "targetForm": "push in",
+      "targetMeaningZh": "插隊"
+    },
+    {
+      "id": "phrasal-verb-259-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The bad experience may lead her towards choosing a different career.",
+      "promptZh": "這次不愉快的經歷可能促使她選擇另一種職業。",
+      "starter": "The",
+      "answer": "The bad experience may push her towards choosing a different career.",
+      "answerZh": "這次不愉快的經歷可能促使她選擇另一種職業。",
+      "highlight": "push",
+      "targetForm": "push somebody towards doing something",
+      "targetMeaningZh": "促使某人考慮採取某個行動"
+    },
+    {
+      "id": "phrasal-verb-259-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The fans began moving forwards when the doors opened.",
+      "promptZh": "門打開時,支持者開始向前擠。",
+      "starter": "The",
+      "answer": "The fans began pushing forward when the doors opened.",
+      "answerZh": "門打開時,支持者開始向前擠。",
+      "highlight": "pushing forward",
+      "targetForm": "push forward",
+      "targetMeaningZh": "用力向前移動"
+    },
+    {
+      "id": "phrasal-verb-259-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "We had to force our way through the narrow passage.",
+      "promptZh": "我們不得不用力穿過狹窄的通道。",
+      "starter": "We",
+      "answer": "We had to push through the narrow passage.",
+      "answerZh": "我們不得不用力穿過狹窄的通道。",
+      "highlight": "push",
+      "targetForm": "push through something",
+      "targetMeaningZh": "用力穿過狹窄地方或障礙物"
+    },
+    {
+      "id": "phrasal-verb-259-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "His older brother is always controlling and ordering him about.",
+      "promptZh": "他的哥哥經常控制和命令他。",
+      "starter": "His",
+      "answer": "His older brother is always pushing him about.",
+      "answerZh": "他的哥哥經常欺負和控制他。",
+      "highlight": "pushing",
+      "targetForm": "push somebody about",
+      "targetMeaningZh": "欺負或控制某人"
+    },
+    {
+      "id": "phrasal-verb-259-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "We had been waiting for ten minutes. Then two teenagers moved ahead of us in the queue.",
+      "promptZh": "我們已經等候了十分鐘。之後,兩名青少年在我們前面插隊。",
+      "starter": "We",
+      "answer": "We had been waiting for ten minutes. Then two teenagers pushed in ahead of us.",
+      "answerZh": "我們已經等候了十分鐘。之後,兩名青少年在我們前面插隊。",
+      "highlight": "pushed in",
+      "targetForm": "push in",
+      "targetMeaningZh": "插隊"
+    },
+    {
+      "id": "phrasal-verb-259-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The country is working towards using more clean energy.",
+      "promptZh": "這個國家正朝使用更多潔淨能源的方向推進。",
+      "starter": "The",
+      "answer": "The country is pushing towards using more clean energy.",
+      "answerZh": "這個國家正朝使用更多潔淨能源的方向推進。",
+      "highlight": "pushing",
+      "targetForm": "push towards something",
+      "targetMeaningZh": "朝某個目標或方向推進"
+    },
+    {
+      "id": "phrasal-verb-259-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "She tried to control him, but he refused to be treated that way.",
+      "promptZh": "她嘗試控制他,但他拒絕接受這種對待。",
+      "starter": "She",
+      "answer": "She tried to push him around, but he refused to be treated that way.",
+      "answerZh": "她嘗試控制他,但他拒絕接受這種對待。",
+      "highlight": "push",
+      "targetForm": "push somebody around",
+      "targetMeaningZh": "欺負或控制某人"
+    },
+    {
+      "id": "phrasal-verb-259-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The box blocked the door, so Sam moved it backwards.",
+      "promptZh": "箱子擋着門口,所以森把它推後。",
+      "starter": "The",
+      "answer": "The box blocked the door, so Sam pushed it back.",
+      "answerZh": "箱子擋着門口,所以森把它推後。",
+      "highlight": "pushed",
+      "targetForm": "push something back",
+      "targetMeaningZh": "把某物推後"
+    },
+    {
+      "id": "phrasal-verb-259-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "We were tired, but we continued towards the mountain hut.",
+      "promptZh": "我們很疲倦,但仍繼續前往山中小屋。",
+      "starter": "We",
+      "answer": "We were tired, but we pushed on towards the mountain hut.",
+      "answerZh": "我們很疲倦,但仍繼續前往山中小屋。",
+      "highlight": "pushed on",
+      "targetForm": "push on",
+      "targetMeaningZh": "繼續前進或趕路"
+    },
+    {
+      "id": "phrasal-verb-259-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The need for a better grade made her consider joining the study group.",
+      "promptZh": "她需要取得更好成績,因此開始考慮參加溫習小組。",
+      "starter": "The",
+      "answer": "The need for a better grade pushed her towards joining the study group.",
+      "answerZh": "她需要取得更好成績,因此開始考慮參加溫習小組。",
+      "highlight": "pushed",
+      "targetForm": "push somebody towards doing something",
+      "targetMeaningZh": "促使某人走向某個行動"
+    },
+    {
+      "id": "phrasal-verb-259-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The entrance was crowded, but he forced his way past them.",
+      "promptZh": "入口十分擠迫,但他仍從他們身旁擠過。",
+      "starter": "The",
+      "answer": "The entrance was crowded, but he pushed past them.",
+      "answerZh": "入口十分擠迫,但他仍從他們身旁擠過。",
+      "highlight": "pushed",
+      "targetForm": "push past somebody",
+      "targetMeaningZh": "強行從某人身旁經過"
+    },
+    {
+      "id": "phrasal-verb-259-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The club stopped inviting Ava, and she began to feel excluded.",
+      "promptZh": "社團不再邀請艾娃,而她開始感到被排擠。",
+      "starter": "The",
+      "answer": "The club stopped inviting Ava, and she began to feel pushed out.",
+      "answerZh": "社團不再邀請艾娃,而她開始感到被排擠。",
+      "highlight": "pushed out",
+      "targetForm": "push somebody out",
+      "targetMeaningZh": "排擠某人"
+    },
+    {
+      "id": "phrasal-verb-259-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The project faced problems, but the team continued with it.",
+      "promptZh": "項目遇上問題,但團隊仍繼續進行。",
+      "starter": "The",
+      "answer": "The project faced problems, but the team pushed on with it.",
+      "answerZh": "項目遇上問題,但團隊仍繼續進行。",
+      "highlight": "pushed on",
+      "targetForm": "push on with something",
+      "targetMeaningZh": "克服困難後繼續進行某事"
+    },
+    {
+      "id": "phrasal-verb-259-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The crowd blocked the path, but Nora kept moving forwards.",
+      "promptZh": "人群阻塞了道路,但諾拉仍不斷向前移動。",
+      "starter": "The",
+      "answer": "The crowd blocked the path, but Nora kept pushing forward.",
+      "answerZh": "人群阻塞了道路,但諾拉仍不斷向前移動。",
+      "highlight": "pushing forward",
+      "targetForm": "push forward",
+      "targetMeaningZh": "用力向前移動"
+    },
+    {
+      "id": "phrasal-verb-259-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "I do not want this responsibility, so please do not force it onto me.",
+      "promptZh": "我不想承擔這項責任,所以請不要把它強加給我。",
+      "starter": "I",
+      "answer": "I do not want this responsibility, so please do not push it onto me.",
+      "answerZh": "我不想承擔這項責任,所以請不要把它強加給我。",
+      "highlight": "push",
+      "targetForm": "push something onto somebody",
+      "targetMeaningZh": "把責任或負擔強加給某人"
+    },
+    {
+      "id": "phrasal-verb-259-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The hot weather made electricity use rise sharply.",
+      "promptZh": "炎熱天氣令用電量大幅上升。",
+      "starter": "The",
+      "answer": "The hot weather pushed electricity use up sharply.",
+      "answerZh": "炎熱天氣令用電量大幅上升。",
+      "highlight": "pushed",
+      "targetForm": "push something up",
+      "targetMeaningZh": "令數字、數量或水平上升"
+    },
+    {
+      "id": "phrasal-verb-259-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Although Ben had good ideas, he never tried to make himself noticed.",
+      "promptZh": "雖然賓有很多好主意,但他從不刻意引起別人注意。",
+      "starter": "Although",
+      "answer": "Although Ben had good ideas, he never pushed himself forward.",
+      "answerZh": "雖然賓有很多好主意,但他從不刻意引起別人注意。",
+      "highlight": "pushed",
+      "targetForm": "push yourself forward",
+      "targetMeaningZh": "刻意令自己受到注意"
+    },
+    {
+      "id": "phrasal-verb-259-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Although the door was almost blocked, the firefighters forced their way through.",
+      "promptZh": "雖然門口幾乎被堵塞,消防員仍用力穿過。",
+      "starter": "Although",
+      "answer": "Although the door was almost blocked, the firefighters pushed through.",
+      "answerZh": "雖然門口幾乎被堵塞,消防員仍用力穿過。",
+      "highlight": "pushed",
+      "targetForm": "push through",
+      "targetMeaningZh": "用力穿過障礙物"
+    },
+    {
+      "id": "phrasal-verb-259-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "At last, we told the man to go away because he kept shouting at us.",
+      "promptZh": "那名男子不斷向我們叫喊,所以我們最後叫他走開。",
+      "starter": "At",
+      "answer": "At last, we told the man to push off because he kept shouting at us.",
+      "answerZh": "那名男子不斷向我們叫喊,所以我們最後叫他走開。",
+      "highlight": "push off",
+      "targetForm": "push off",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-259-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "For several minutes, the reporter kept asking the manager for a clear answer.",
+      "promptZh": "記者連續數分鐘不斷要求經理給予清楚答覆。",
+      "starter": "For",
+      "answer": "For several minutes, the reporter kept pushing the manager for a clear answer.",
+      "answerZh": "記者連續數分鐘不斷要求經理給予清楚答覆。",
+      "highlight": "pushing",
+      "targetForm": "push somebody for something",
+      "targetMeaningZh": "不斷催促某人提供答案或資料"
+    },
+    {
+      "id": "phrasal-verb-259-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Because the plate was too close to the edge, I moved it away.",
+      "promptZh": "因為碟子太接近邊緣,所以我把它推開。",
+      "starter": "Because",
+      "answer": "Because the plate was too close to the edge, I pushed it away.",
+      "answerZh": "因為碟子太接近邊緣,所以我把它推開。",
+      "highlight": "pushed",
+      "targetForm": "push something away",
+      "targetMeaningZh": "把某物推開"
+    },
+    {
+      "id": "phrasal-verb-259-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The station was packed. We forced our way through the crowd until we reached the platform.",
+      "promptZh": "車站擠滿了人。我們穿過人群,直至到達月台。",
+      "starter": "The",
+      "answer": "The station was packed. We pushed through the crowd until we reached the platform.",
+      "answerZh": "車站擠滿了人。我們穿過人群,直至到達月台。",
+      "highlight": "pushed",
+      "targetForm": "push through something",
+      "targetMeaningZh": "用力穿過人群或障礙物"
+    },
+    {
+      "id": "phrasal-verb-259-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The workers are strongly demanding safer equipment, not simply asking for it.",
+      "promptZh": "工人正強烈要求使用更安全的設備,而不只是提出普通要求。",
+      "starter": "The",
+      "answer": "The workers are pushing for safer equipment, not simply asking for it.",
+      "answerZh": "工人正強烈要求使用更安全的設備,而不只是提出普通要求。",
+      "highlight": "pushing for",
+      "targetForm": "push for something",
+      "targetMeaningZh": "積極或強烈地爭取某事"
+    },
+    {
+      "id": "phrasal-verb-259-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Arun wanted to comfort her, but she rejected him and turned away.",
+      "promptZh": "阿倫想安慰她,但她拒絕了他,並轉身離開。",
+      "starter": "Arun",
+      "answer": "Arun wanted to comfort her, but she pushed him away and turned away.",
+      "answerZh": "阿倫想安慰她,但她拒絕了他,並轉身離開。",
+      "highlight": "pushed",
+      "targetForm": "push somebody away",
+      "targetMeaningZh": "拒絕某人的接近或幫助"
+    },
+    {
+      "id": "phrasal-verb-259-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The high cost of rent is making many families consider moving farther away.",
+      "promptZh": "高昂租金正迫使許多家庭考慮搬到較遠的地方。",
+      "starter": "The",
+      "answer": "The high cost of rent is pushing many families towards moving farther away.",
+      "answerZh": "高昂租金正迫使許多家庭考慮搬到較遠的地方。",
+      "highlight": "pushing",
+      "targetForm": "push somebody towards doing something",
+      "targetMeaningZh": "逼使某人考慮採取某個行動"
+    },
+    {
+      "id": "phrasal-verb-259-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The children would not leave the garden, so the owner angrily told them to go away.",
+      "promptZh": "孩子們不肯離開花園,所以園主生氣地叫他們走開。",
+      "starter": "The",
+      "answer": "The children would not leave the garden, so the owner angrily shouted, “Push off!”",
+      "answerZh": "孩子們不肯離開花園,所以園主生氣地叫他們走開。",
+      "highlight": "shouted, “Push off!”",
+      "targetForm": "push off",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-259-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Ella is talented, but she dislikes trying to make herself look more important than others.",
+      "promptZh": "埃拉很有才華,但她不喜歡刻意令自己看來比別人重要。",
+      "starter": "Ella",
+      "answer": "Ella is talented, but she dislikes pushing herself forward.",
+      "answerZh": "埃拉很有才華,但她不喜歡刻意令自己看來比別人重要。",
+      "highlight": "pushing",
+      "targetForm": "push yourself forward",
+      "targetMeaningZh": "刻意令自己受到注意"
+    },
+    {
+      "id": "phrasal-verb-259-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Although the first test failed, the scientists decided to continue with the work.",
+      "promptZh": "雖然第一次測試失敗,科學家仍決定繼續進行研究工作。",
+      "starter": "Although",
+      "answer": "Although the first test failed, the scientists decided to push ahead with the work.",
+      "answerZh": "雖然第一次測試失敗,科學家仍決定繼續進行研究工作。",
+      "highlight": "push ahead",
+      "targetForm": "push ahead with something",
+      "targetMeaningZh": "克服問題後繼續推進某事"
+    },
+    {
+      "id": "phrasal-verb-259-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "New members were included in every activity so that nobody felt excluded.",
+      "promptZh": "新成員獲安排參與所有活動,令任何人都不會感到被排擠。",
+      "starter": "New",
+      "answer": "New members were included in every activity so that nobody felt pushed out.",
+      "answerZh": "新成員獲安排參與所有活動,令任何人都不會感到被排擠。",
+      "highlight": "pushed out",
+      "targetForm": "push somebody out",
+      "targetMeaningZh": "排擠某人"
+    },
+    {
+      "id": "phrasal-verb-259-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "When the horse came too close, the farmer moved the gate backwards to make more room.",
+      "promptZh": "馬匹走得太近時,農夫把閘門推後,以騰出更多空間。",
+      "starter": "When",
+      "answer": "When the horse came too close, the farmer pushed the gate back to make more room.",
+      "answerZh": "馬匹走得太近時,農夫把閘門推後,以騰出更多空間。",
+      "highlight": "pushed",
+      "targetForm": "push something back",
+      "targetMeaningZh": "把某物推後"
+    },
+    {
+      "id": "phrasal-verb-259-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The talks are not complete, but both sides are moving closer to peace.",
+      "promptZh": "談判尚未完成,但雙方正逐步走向和平。",
+      "starter": "The",
+      "answer": "The talks are not complete, but both sides are pushing towards peace.",
+      "answerZh": "談判尚未完成,但雙方正逐步走向和平。",
+      "highlight": "pushing towards",
+      "targetForm": "push towards something",
+      "targetMeaningZh": "朝某個目標或結果推進"
+    },
+    {
+      "id": "phrasal-verb-259-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Everyone had waited patiently, but one customer moved to the front without waiting.",
+      "promptZh": "所有人都耐心等候,但一名顧客沒有等候便走到最前面。",
+      "starter": "Everyone",
+      "answer": "Everyone had waited patiently, but one customer pushed in at the front.",
+      "answerZh": "所有人都耐心等候,但一名顧客在最前面插隊。",
+      "highlight": "pushed in at",
+      "targetForm": "push in",
+      "targetMeaningZh": "插隊"
+    },
+    {
+      "id": "phrasal-verb-259-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Fewer homes were available, and this made rents rise.",
+      "promptZh": "可供居住的房屋減少,令租金上升。",
+      "starter": "Fewer",
+      "answer": "Fewer homes were available, and this pushed rents up.",
+      "answerZh": "可供居住的房屋減少,令租金上升。",
+      "highlight": "pushed",
+      "targetForm": "push something up",
+      "targetMeaningZh": "令價格、數字或水平上升"
+    },
+    {
+      "id": "phrasal-verb-259-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The group did not want his plan, but he kept trying to force it on them.",
+      "promptZh": "小組不想接受他的計劃,但他仍不斷嘗試把計劃強加給他們。",
+      "starter": "The",
+      "answer": "The group did not want his plan, but he kept trying to push it on them.",
+      "answerZh": "小組不想接受他的計劃,但他仍不斷嘗試把計劃強加給他們。",
+      "highlight": "push",
+      "targetForm": "push something on somebody",
+      "targetMeaningZh": "把對方不想要的事物強加給對方"
+    },
+    {
+      "id": "phrasal-verb-259-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Without stopping to speak, the woman forced her way by us and left.",
+      "promptZh": "那名女子沒有停下來說話,便從我們身旁擠過並離開。",
+      "starter": "Without",
+      "answer": "Without stopping to speak, the woman pushed by us and left.",
+      "answerZh": "那名女子沒有停下來說話,便從我們身旁擠過並離開。",
+      "highlight": "pushed",
+      "targetForm": "push by somebody",
+      "targetMeaningZh": "強行從某人身旁經過"
+    },
+    {
+      "id": "phrasal-verb-259-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "A manager should guide new staff, not control them unfairly.",
+      "promptZh": "經理應該指導新員工,而不是不公平地控制他們。",
+      "starter": "A",
+      "answer": "A manager should guide new staff, not push them around.",
+      "answerZh": "經理應該指導新員工,而不是欺負或控制他們。",
+      "highlight": "push",
+      "targetForm": "push somebody around",
+      "targetMeaningZh": "欺負或控制某人"
+    },
+    {
+      "id": "phrasal-verb-259-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Before the doors had fully opened, several people moved forwards impatiently.",
+      "promptZh": "門尚未完全打開,數人已不耐煩地向前擠。",
+      "starter": "Before",
+      "answer": "Before the doors had fully opened, several people pushed forward impatiently.",
+      "answerZh": "門尚未完全打開,數人已不耐煩地向前擠。",
+      "highlight": "pushed forward",
+      "targetForm": "push forward",
+      "targetMeaningZh": "用力向前移動"
+    },
+    {
+      "id": "phrasal-verb-259-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Although they could have stopped at the village, the hikers decided to continue to the lake.",
+      "promptZh": "雖然遠足者可以在村莊停下來,但他們決定繼續前往湖邊。",
+      "starter": "Although",
+      "answer": "Although they could have stopped at the village, the hikers decided to push on to the lake.",
+      "answerZh": "雖然遠足者可以在村莊停下來,但他們決定繼續前往湖邊。",
+      "highlight": "push on",
+      "targetForm": "push on",
+      "targetMeaningZh": "繼續前進或趕路"
+    },
+    {
+      "id": "phrasal-verb-259-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The company had made a poor product and then tried to make small shops sell it even though they did not want it.",
+      "promptZh": "公司生產了一件質素差劣的產品,然後嘗試迫使小店出售它,即使那些店舖並不想要。",
+      "starter": "The",
+      "answer": "The company had made a poor product and then tried to push it on small shops even though they did not want it.",
+      "answerZh": "公司生產了一件質素差劣的產品,然後嘗試把它強行推給不想要它的小店。",
+      "highlight": "push it on",
+      "targetForm": "push something on somebody",
+      "targetMeaningZh": "把某人不想要的事物強加給對方"
+    },
+    {
+      "id": "phrasal-verb-259-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The crowd moved closer to the stage, so security staff had to force everyone backwards before the show could continue.",
+      "promptZh": "人群走近舞台,因此保安人員需要迫使所有人向後退,表演才可繼續。",
+      "starter": "The",
+      "answer": "The crowd moved closer to the stage, so security staff had to push everyone back before the show could continue.",
+      "answerZh": "人群走近舞台,因此保安人員需要迫使所有人向後退,表演才可繼續。",
+      "highlight": "push",
+      "targetForm": "push somebody back",
+      "targetMeaningZh": "迫使某人向後移動"
+    },
+    {
+      "id": "phrasal-verb-259-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "A sudden rise in visitors increased hotel prices across the town during the holiday weekend.",
+      "promptZh": "假期週末的旅客人數突然上升,令全鎮酒店價格增加。",
+      "starter": "A",
+      "answer": "A sudden rise in visitors pushed hotel prices up across the town during the holiday weekend.",
+      "answerZh": "假期週末的旅客人數突然上升,令全鎮酒店價格增加。",
+      "highlight": "pushed",
+      "targetForm": "push something up",
+      "targetMeaningZh": "令價格、數字或水平上升"
+    },
+    {
+      "id": "phrasal-verb-259-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Daniel knew the answer, but he did not speak because he was never comfortable making himself the centre of attention.",
+      "promptZh": "丹尼爾知道答案,但他沒有發言,因為他從不習慣令自己成為眾人注意的中心。",
+      "starter": "Daniel",
+      "answer": "Daniel knew the answer, but he did not speak because he was never comfortable pushing himself forward.",
+      "answerZh": "丹尼爾知道答案,但他沒有發言,因為他從不習慣刻意令自己受到注意。",
+      "highlight": "pushing",
+      "targetForm": "push yourself forward",
+      "targetMeaningZh": "刻意令自己受到注意"
+    },
+    {
+      "id": "phrasal-verb-259-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Smoke filled the hall, but the group forced its way through the narrow exit and reached the street.",
+      "promptZh": "濃煙充滿大堂,但一行人仍用力穿過狹窄出口,到達街上。",
+      "starter": "The",
+      "answer": "The group pushed through the narrow exit and reached the street although smoke filled the hall.",
+      "answerZh": "雖然濃煙充滿大堂,一行人仍穿過狹窄出口,到達街上。",
+      "highlight": "pushed",
+      "targetForm": "push through something",
+      "targetMeaningZh": "用力穿過狹窄地方或障礙物"
+    },
+    {
+      "id": "phrasal-verb-259-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After months of being controlled by his teammate, Ravi finally said that he would not accept such treatment.",
+      "promptZh": "拉維被隊友控制了數月後,終於表示不會再接受這種對待。",
+      "starter": "After",
+      "answer": "After months of being pushed around by his teammate, Ravi finally said that he would not accept such treatment.",
+      "answerZh": "拉維被隊友欺負和控制了數月後,終於表示不會再接受這種對待。",
+      "highlight": "pushed around",
+      "targetForm": "push somebody around",
+      "targetMeaningZh": "欺負或控制某人"
+    },
+    {
+      "id": "phrasal-verb-259-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The city is moving towards its clean-air goal with the help of the new buses.",
+      "promptZh": "在新巴士的幫助下,城市正朝改善空氣的目標前進。",
+      "starter": "The",
+      "answer": "The city is pushing towards its clean-air goal with the help of the new buses.",
+      "answerZh": "在新巴士的幫助下,城市正朝改善空氣的目標前進。",
+      "highlight": "pushing",
+      "targetForm": "push towards something",
+      "targetMeaningZh": "朝某個目標或結果推進"
+    },
+    {
+      "id": "phrasal-verb-259-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The corridor was narrow, yet one passenger forced his way past an elderly man without apologising.",
+      "promptZh": "走廊十分狹窄,但一名乘客仍從一名長者身旁擠過,而且沒有道歉。",
+      "starter": "The",
+      "answer": "The corridor was narrow, yet one passenger pushed past an elderly man without apologising.",
+      "answerZh": "走廊十分狹窄,但一名乘客仍從一名長者身旁擠過,而且沒有道歉。",
+      "highlight": "pushed",
+      "targetForm": "push past somebody",
+      "targetMeaningZh": "強行從某人身旁經過"
+    },
+    {
+      "id": "phrasal-verb-259-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The storm was getting worse, but the rescue team decided to continue until it reached the village.",
+      "promptZh": "風暴愈來愈嚴重,但救援隊決定繼續前進,直至到達村莊。",
+      "starter": "The",
+      "answer": "The storm was getting worse, but the rescue team decided to push on until it reached the village.",
+      "answerZh": "風暴愈來愈嚴重,但救援隊決定繼續前進,直至到達村莊。",
+      "highlight": "push on",
+      "targetForm": "push on",
+      "targetMeaningZh": "繼續前進或趕路"
+    },
+    {
+      "id": "phrasal-verb-259-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Several friends offered to help, but she rejected all of them because she wanted to solve the problem alone.",
+      "promptZh": "數名朋友提出幫忙,但她拒絕了所有人,因為她想獨自解決問題。",
+      "starter": "Several",
+      "answer": "Several friends offered to help, but she pushed all of them away because she wanted to solve the problem alone.",
+      "answerZh": "數名朋友提出幫忙,但她拒絕了所有人,因為她想獨自解決問題。",
+      "highlight": "pushed",
+      "targetForm": "push somebody away",
+      "targetMeaningZh": "拒絕某人的接近或幫助"
+    },
+    {
+      "id": "phrasal-verb-259-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Local parents have spent months strongly demanding a safer road outside the school.",
+      "promptZh": "本地家長花了數月時間,積極爭取改善學校外的道路安全。",
+      "starter": "Local",
+      "answer": "Local parents have spent months pushing for a safer road outside the school.",
+      "answerZh": "本地家長花了數月時間,積極爭取改善學校外的道路安全。",
+      "highlight": "pushing for",
+      "targetForm": "push for something",
+      "targetMeaningZh": "積極或強烈地爭取某事"
+    },
+    {
+      "id": "phrasal-verb-259-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "When the company changed direction, several experienced workers were forced to leave even though they wanted to stay.",
+      "promptZh": "公司改變方向時,數名有經驗的員工即使想留下,仍被迫離開。",
+      "starter": "When",
+      "answer": "When the company changed direction, several experienced workers were pushed out even though they wanted to stay.",
+      "answerZh": "公司改變方向時,數名有經驗的員工即使想留下,仍被迫離開。",
+      "highlight": "pushed out",
+      "targetForm": "push somebody out",
+      "targetMeaningZh": "排擠或迫使某人離開"
+    },
+    {
+      "id": "phrasal-verb-259-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The group kept making noise outside his window, and at last he opened it and angrily told them to go away.",
+      "promptZh": "一群人不斷在他的窗外製造噪音,他最後打開窗戶,生氣地叫他們走開。",
+      "starter": "The",
+      "answer": "The group kept making noise outside his window, and at last he opened it and angrily told them to push off.",
+      "answerZh": "一群人不斷在他的窗外製造噪音,他最後打開窗戶,生氣地叫他們走開。",
+      "highlight": "push off",
+      "targetForm": "push off",
+      "targetMeaningZh": "走開;離開"
+    },
+    {
+      "id": "phrasal-verb-259-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "The lack of buses left the family with few choices and finally made them consider buying a car.",
+      "promptZh": "巴士服務不足令這個家庭沒有太多選擇,最終迫使他們考慮購買汽車。",
+      "starter": "The",
+      "answer": "The lack of buses left the family with few choices and finally pushed them towards buying a car.",
+      "answerZh": "巴士服務不足令這個家庭沒有太多選擇,最終迫使他們考慮購買汽車。",
+      "highlight": "pushed",
+      "targetForm": "push somebody towards doing something",
+      "targetMeaningZh": "促使或逼使某人採取某個行動"
+    },
+    {
+      "id": "phrasal-verb-259-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The building work was already late, but the school chose to continue with it rather than cancel the new library.",
+      "promptZh": "建築工程已經延誤,但學校選擇繼續進行,而不是取消新圖書館。",
+      "starter": "The",
+      "answer": "The building work was already late, but the school chose to push forward with it rather than cancel the new library.",
+      "answerZh": "建築工程已經延誤,但學校選擇繼續進行,而不是取消新圖書館。",
+      "highlight": "push forward",
+      "targetForm": "push forward with something",
+      "targetMeaningZh": "克服問題後繼續推進某項工作"
+    },
+    {
+      "id": "phrasal-verb-259-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "A long line had formed, but a man walked straight to the counter without waiting for his turn.",
+      "promptZh": "現場已有一條長隊,但一名男子沒有輪候,便直接走到櫃位。",
+      "starter": "A",
+      "answer": "A long line had formed, but a man pushed in and went straight to the counter without waiting for his turn.",
+      "answerZh": "現場已有一條長隊,但一名男子沒有輪候便插隊,直接走到櫃位。",
+      "highlight": "pushed in and went",
+      "targetForm": "push in",
+      "targetMeaningZh": "插隊"
+    },
+    {
+      "id": "phrasal-verb-259-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The runners were tired and the wind was strong, but they continued moving forwards towards the finish.",
+      "promptZh": "跑手十分疲倦,而且風勢強勁,但他們仍繼續朝終點前進。",
+      "starter": "The",
+      "answer": "The runners were tired and the wind was strong, but they kept pushing forward towards the finish.",
+      "answerZh": "跑手十分疲倦,而且風勢強勁,但他們仍繼續朝終點前進。",
+      "highlight": "kept pushing forward",
+      "targetForm": "push forward",
+      "targetMeaningZh": "用力向前移動"
+    }
+  ]
+}

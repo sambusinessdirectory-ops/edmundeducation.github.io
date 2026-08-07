@@ -1,0 +1,1229 @@
+{
+  "id": "phrasal-verb-83",
+  "order": 83,
+  "slug": "smooth",
+  "version": "1",
+  "title": "SMOOTH 動詞片語",
+  "titleEn": "Smooth",
+  "titleZh": "SMOOTH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 82 - Smooth.pdf",
+    "sourceNumber": 82,
+    "pageCount": 10,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "answerKeyPdfPages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SMOOTH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SMOOTH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SMOOTH",
+      "highlight": "SMOOTH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The team met to smooth out the final problems.",
+      "zh": "團隊開會,處理最後幾個問題,令事情更順利。",
+      "highlight": "smooth out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He smoothed down his hair before the photo.",
+      "zh": "他拍照前把頭髮整理平順。",
+      "highlight": "smoothed down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She smoothed out the creases in the letter.",
+      "zh": "她把信紙上的摺痕弄平。",
+      "highlight": "smoothed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利；用手把頭髮、衣物、紙張、布面等壓平或整理平順；把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平；透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+    "en": "smooth something away / smooth something out; smooth something down; smooth something out; smooth something over",
+    "naturalZh": [
+      "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+      "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+      "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+      "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "smooth something away / smooth something out",
+      "titleZh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+      "titleEn": "smooth something away / smooth something out",
+      "descriptionZh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+      "descriptionEn": "The team met to smooth out the final problems.",
+      "examples": [
+        {
+          "en": "The team met to smooth out the final problems.",
+          "zh": "團隊開會,處理最後幾個問題,令事情更順利。",
+          "highlight": "smooth out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smooth something down",
+      "titleZh": "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+      "titleEn": "smooth something down",
+      "descriptionZh": "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+      "descriptionEn": "He smoothed down his hair before the photo.",
+      "examples": [
+        {
+          "en": "He smoothed down his hair before the photo.",
+          "zh": "他拍照前把頭髮整理平順。",
+          "highlight": "smoothed down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smooth something out",
+      "titleZh": "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+      "titleEn": "smooth something out",
+      "descriptionZh": "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+      "descriptionEn": "She smoothed out the creases in the letter.",
+      "examples": [
+        {
+          "en": "She smoothed out the creases in the letter.",
+          "zh": "她把信紙上的摺痕弄平。",
+          "highlight": "smoothed out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "smooth something over",
+      "titleZh": "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+      "titleEn": "smooth something over",
+      "descriptionZh": "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+      "descriptionEn": "A quick apology helped smooth things over.",
+      "examples": [
+        {
+          "en": "A quick apology helped smooth things over.",
+          "zh": "(一句及時的道歉有助緩和尷尬情況。)Edmund Education | Page 1SMOOTH Phrasal Verbs",
+          "highlight": "smooth things over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SMOOTH 片語動詞的實際用途",
+    "labelEn": "SMOOTH Phrasal Verbs in Use",
+    "summaryZh": "smooth away 和 smooth out 可以描述如何減少小困難、憂慮或突然變化,令事情進行得更順利。；smooth down 可以自然地描述把頭髮、衣物、床罩或翹起的邊位壓平整理。；smooth out 可以描述把信紙、地圖、恤衫或桌布的摺痕和皺摺弄平。；smooth over 可以描述透過道歉、解釋或交談,令爭執或誤會不再那麼嚴重。",
+    "summaryEn": "Smooth away and smooth out help you describe how small difficulties, worries or sudden changes are reduced so that something works more easily. Smooth down gives you a natural way to describe pressing hair, clothes, covers or loose edges flat and tidy. Smooth out can describe making a letter, map, shirt or tablecloth flat again by removing folds and wrinkles. Smooth over helps you describe an apology, explanation or conversation that makes a disagreement or misunderstanding less serious.",
+    "contextsZh": [
+      "用 SMOOTH 談論消除問題",
+      "描述整齊的頭髮、衣物和表面",
+      "清楚談論摺痕和皺摺",
+      "自然描述如何緩和尷尬情況"
+    ],
+    "contextsEn": [
+      "Use SMOOTH to talk about removing problems",
+      "Describe neat hair, clothes and surfaces",
+      "Talk clearly about creases and wrinkles",
+      "Handle awkward social situations naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SMOOTH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SMOOTH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "smooth something away / smooth something out",
+    "fixedHighlight": "smooth something away / smooth something out",
+    "fixedZh": "閱讀整句,選出意思相同的 SMOOTH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SMOOTH expression that gives the same meaning.",
+    "correct": "smooth out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照例子放置:smooth it down;smooth them out;smooth it over。；以 by 開首的部分只說明方法。兩句都完整:She smoothed things over./She smoothed things over byapologising。",
+    "variableEn": "Keep the same people, things, time and meaning. With it, him, her or them, place the word as shown: smooth it down; smooth them out; smooth it over. A phrase beginning with by only explains how. Both are complete: She smoothed things over. / She smoothed things over by apologising.",
+    "variableItemsZh": [
+      "smooth something away / smooth something out",
+      "smooth something down",
+      "smooth something out",
+      "smooth something over"
+    ],
+    "variableItemsEn": [
+      "smooth something away / smooth something out",
+      "smooth something down",
+      "smooth something out",
+      "smooth something over"
+    ],
+    "forms": [
+      {
+        "formZh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+        "formEn": "smooth something away / smooth something out",
+        "exampleZh": "團隊開會,處理最後幾個問題,令事情更順利。",
+        "exampleEn": "The team met to smooth out the final problems.",
+        "highlight": "smooth out"
+      },
+      {
+        "formZh": "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+        "formEn": "smooth something down",
+        "exampleZh": "他拍照前把頭髮整理平順。",
+        "exampleEn": "He smoothed down his hair before the photo.",
+        "highlight": "smoothed down"
+      },
+      {
+        "formZh": "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+        "formEn": "smooth something out",
+        "exampleZh": "她把信紙上的摺痕弄平。",
+        "exampleEn": "She smoothed out the creases in the letter.",
+        "highlight": "smoothed out"
+      },
+      {
+        "formZh": "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+        "formEn": "smooth something over",
+        "exampleZh": "(一句及時的道歉有助緩和尷尬情況。)Edmund Education | Page 1SMOOTH Phrasal Verbs",
+        "exampleEn": "A quick apology helped smooth things over.",
+        "highlight": "smooth things over"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+      "titleEn": "smooth something away / smooth something out",
+      "formula": "smooth something away / smooth something out",
+      "highlight": "smooth something away / smooth something out",
+      "descriptionZh": "消除或減少困難、問題、差異、憂慮或不規則變化,令事情更順利",
+      "descriptionEn": "The team met to smooth out the final problems.",
+      "examples": [
+        {
+          "en": "The team met to smooth out the final problems.",
+          "zh": "團隊開會,處理最後幾個問題,令事情更順利。",
+          "highlight": "smooth out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+      "titleEn": "smooth something down",
+      "formula": "smooth something down",
+      "highlight": "smooth something down",
+      "descriptionZh": "用手把頭髮、衣物、紙張、布面等壓平或整理平順",
+      "descriptionEn": "He smoothed down his hair before the photo.",
+      "examples": [
+        {
+          "en": "He smoothed down his hair before the photo.",
+          "zh": "他拍照前把頭髮整理平順。",
+          "highlight": "smoothed down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+      "titleEn": "smooth something out",
+      "formula": "smooth something out",
+      "highlight": "smooth something out",
+      "descriptionZh": "把紙張、衣物或其他物件上的皺摺、摺痕或凹凸弄平",
+      "descriptionEn": "She smoothed out the creases in the letter.",
+      "examples": [
+        {
+          "en": "She smoothed out the creases in the letter.",
+          "zh": "她把信紙上的摺痕弄平。",
+          "highlight": "smoothed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+      "titleEn": "smooth something over",
+      "formula": "smooth something over",
+      "highlight": "smooth something over",
+      "descriptionZh": "透過交談、道歉或解釋,使爭執、誤會或尷尬情況不再那麼嚴重",
+      "descriptionEn": "A quick apology helped smooth things over.",
+      "examples": [
+        {
+          "en": "A quick apology helped smooth things over.",
+          "zh": "(一句及時的道歉有助緩和尷尬情況。)Edmund Education | Page 1SMOOTH Phrasal Verbs",
+          "highlight": "smooth things over"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 SMOOTH 談論消除問題",
+      "titleEn": "Use SMOOTH to talk about removing problems",
+      "zh": "smooth away 和 smooth out 可以描述如何減少小困難、憂慮或突然變化,令事情進行得更順利。",
+      "en": "Smooth away and smooth out help you describe how small difficulties, worries or sudden changes are reduced so that something works more easily."
+    },
+    {
+      "titleZh": "描述整齊的頭髮、衣物和表面",
+      "titleEn": "Describe neat hair, clothes and surfaces",
+      "zh": "smooth down 可以自然地描述把頭髮、衣物、床罩或翹起的邊位壓平整理。",
+      "en": "Smooth down gives you a natural way to describe pressing hair, clothes, covers or loose edges flat and tidy."
+    },
+    {
+      "titleZh": "清楚談論摺痕和皺摺",
+      "titleEn": "Talk clearly about creases and wrinkles",
+      "zh": "smooth out 可以描述把信紙、地圖、恤衫或桌布的摺痕和皺摺弄平。",
+      "en": "Smooth out can describe making a letter, map, shirt or tablecloth flat again by removing folds and wrinkles."
+    },
+    {
+      "titleZh": "自然描述如何緩和尷尬情況",
+      "titleEn": "Handle awkward social situations naturally",
+      "zh": "smooth over 可以描述透過道歉、解釋或交談,令爭執或誤會不再那麼嚴重。",
+      "en": "Smooth over helps you describe an apology, explanation or conversation that makes a disagreement or misunderstanding less serious."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 SMOOTH 談論消除問題",
+      "描述整齊的頭髮、衣物和表面",
+      "清楚談論摺痕和皺摺",
+      "自然描述如何緩和尷尬情況"
+    ],
+    "contextsEn": [
+      "Use SMOOTH to talk about removing problems",
+      "Describe neat hair, clothes and surfaces",
+      "Talk clearly about creases and wrinkles",
+      "Handle awkward social situations naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 SMOOTH 談論消除問題",
+        "titleEn": "Use SMOOTH to talk about removing problems",
+        "zh": "smooth away 和 smooth out 可以描述如何減少小困難、憂慮或突然變化,令事情進行得更順利。",
+        "en": "Smooth away and smooth out help you describe how small difficulties, worries or sudden changes are reduced so that something works more easily.",
+        "examples": [
+          {
+            "en": "The team met to smooth out the final problems.",
+            "zh": "團隊開會,處理最後幾個問題,令事情更順利。",
+            "highlight": "smooth out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述整齊的頭髮、衣物和表面",
+        "titleEn": "Describe neat hair, clothes and surfaces",
+        "zh": "smooth down 可以自然地描述把頭髮、衣物、床罩或翹起的邊位壓平整理。",
+        "en": "Smooth down gives you a natural way to describe pressing hair, clothes, covers or loose edges flat and tidy.",
+        "examples": [
+          {
+            "en": "He smoothed down his hair before the photo.",
+            "zh": "他拍照前把頭髮整理平順。",
+            "highlight": "smoothed down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論摺痕和皺摺",
+        "titleEn": "Talk clearly about creases and wrinkles",
+        "zh": "smooth out 可以描述把信紙、地圖、恤衫或桌布的摺痕和皺摺弄平。",
+        "en": "Smooth out can describe making a letter, map, shirt or tablecloth flat again by removing folds and wrinkles.",
+        "examples": [
+          {
+            "en": "She smoothed out the creases in the letter.",
+            "zh": "她把信紙上的摺痕弄平。",
+            "highlight": "smoothed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述如何緩和尷尬情況",
+        "titleEn": "Handle awkward social situations naturally",
+        "zh": "smooth over 可以描述透過道歉、解釋或交談,令爭執或誤會不再那麼嚴重。",
+        "en": "Smooth over helps you describe an apology, explanation or conversation that makes a disagreement or misunderstanding less serious.",
+        "examples": [
+          {
+            "en": "A quick apology helped smooth things over.",
+            "zh": "(一句及時的道歉有助緩和尷尬情況。)Edmund Education | Page 1SMOOTH Phrasal Verbs",
+            "highlight": "smooth things over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SMOOTH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SMOOTH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SMOOTH 片語動詞。",
+      "en": "Read the whole sentence and choose the SMOOTH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照例子放置:smooth it down;smooth them out;smooth it over。",
+      "titleEn": "With it, him, her or them, place the word as shown: smooth it down; smooth them out; smooth it over.",
+      "zh": "使用 it、him、her 或 them 時,請按照例子放置:smooth it down;smooth them out;smooth it over。",
+      "en": "With it, him, her or them, place the word as shown: smooth it down; smooth them out; smooth it over."
+    },
+    {
+      "titleZh": "以 by 開首的部分只說明方法。兩句都完整:She smoothed things over./She smoothed things over byapologising。",
+      "titleEn": "A phrase beginning with by only explains how.",
+      "zh": "以 by 開首的部分只說明方法。兩句都完整:She smoothed things over./She smoothed things over byapologising。",
+      "en": "A phrase beginning with by only explains how. Both are complete: She smoothed things over. / She smoothed things over by apologising."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SMOOTH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SMOOTH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SMOOTH 動詞片語句子改寫練習",
+    "titleEn": "SMOOTH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SMOOTH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SMOOTH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-83-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "The organisers removed the last few practical problems before the event.",
+      "promptZh": "主辦單位在活動前解決了最後幾個實際問題。",
+      "starter": "The",
+      "answer": "The organisers smoothed out the last few practical problems before the event.",
+      "answerZh": "主辦單位在活動前解決了最後幾個實際問題。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "消除或減少問題、困難或不規則變化"
+    },
+    {
+      "id": "phrasal-verb-83-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "Ben pressed his untidy hair flat before the photo.",
+      "promptZh": "Ben 拍照前把凌亂的頭髮壓平整理。",
+      "starter": "Ben",
+      "answer": "Ben smoothed down his untidy hair before the photo.",
+      "answerZh": "Ben 拍照前把凌亂的頭髮整理平順。",
+      "highlight": "smoothed down",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "She made the crumpled letter flat before reading it.",
+      "promptZh": "她閱讀那封皺了的信前,先把它弄平。",
+      "starter": "She",
+      "answer": "She smoothed out the crumpled letter before reading it.",
+      "answerZh": "她閱讀那封皺了的信前,先把它弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "A short apology made the disagreement less serious.",
+      "promptZh": "一句簡短的道歉令爭執不再那麼嚴重。",
+      "starter": "A",
+      "answer": "A short apology smoothed over the disagreement.",
+      "answerZh": "一句簡短的道歉緩和了爭執。",
+      "highlight": "smoothed over",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    },
+    {
+      "id": "phrasal-verb-83-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "Her gentle words helped remove the child's worries.",
+      "promptZh": "她溫柔的說話有助消除孩子的憂慮。",
+      "starter": "Her",
+      "answer": "Her gentle words helped smooth away the child's worries.",
+      "answerZh": "她溫柔的說話有助消除孩子的憂慮。",
+      "highlight": "smooth away",
+      "targetForm": "smooth something away",
+      "targetMeaningZh": "消除困難、差異、憂慮或恐懼"
+    },
+    {
+      "id": "phrasal-verb-83-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 2,
+      "answerSourcePage": 7,
+      "prompt": "The teacher removed the folds from the large paper map.",
+      "promptZh": "老師把大型紙地圖上的摺痕弄平。",
+      "starter": "The",
+      "answer": "The teacher smoothed out the folds in the large paper map.",
+      "answerZh": "老師把大型紙地圖上的摺痕弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "He pressed his shirt collar flat with one hand.",
+      "promptZh": "他用一隻手把恤衫衣領壓平。",
+      "starter": "He",
+      "answer": "He smoothed down his shirt collar with one hand.",
+      "answerZh": "他用一隻手把恤衫衣領整理平順。",
+      "highlight": "smoothed down",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "The calm phone call made things less awkward between the two friends.",
+      "promptZh": "那通平靜的電話令兩位朋友之間的情況不再那麼尷尬。",
+      "starter": "The",
+      "answer": "The calm phone call smoothed things over between the two friends.",
+      "answerZh": "那通平靜的電話緩和了兩位朋友之間的尷尬情況。",
+      "highlight": "smoothed",
+      "targetForm": "smooth things over",
+      "targetMeaningZh": "緩和爭執、誤會或尷尬情況"
+    },
+    {
+      "id": "phrasal-verb-83-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "The meeting removed the remaining differences between the two teams.",
+      "promptZh": "這次會議消除了兩個團隊之間餘下的分歧。",
+      "starter": "The",
+      "answer": "The meeting smoothed away the remaining differences between the two teams.",
+      "answerZh": "這次會議消除了兩個團隊之間餘下的分歧。",
+      "highlight": "smoothed away",
+      "targetForm": "smooth something away",
+      "targetMeaningZh": "消除困難、差異、憂慮或恐懼"
+    },
+    {
+      "id": "phrasal-verb-83-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "Ava removed the wrinkles from the tablecloth.",
+      "promptZh": "Ava 把桌布上的皺摺弄平。",
+      "starter": "Ava",
+      "answer": "Ava smoothed out the wrinkles in the tablecloth.",
+      "answerZh": "Ava 把桌布上的皺摺弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "We are fixing the small problems in the new booking system.",
+      "promptZh": "我們正在解決新預約系統中的小問題。",
+      "starter": "We",
+      "answer": "We are smoothing out the small problems in the new booking system.",
+      "answerZh": "我們正在解決新預約系統中的小問題。",
+      "highlight": "smoothing out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "消除或減少問題、困難或不規則變化"
+    },
+    {
+      "id": "phrasal-verb-83-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "The warm iron is removing the small wrinkles from the shirt.",
+      "promptZh": "暖熱的熨斗正在把恤衫上的小皺摺弄平。",
+      "starter": "The",
+      "answer": "The warm iron is smoothing out the small wrinkles in the shirt.",
+      "answerZh": "暖熱的熨斗正在把恤衫上的小皺摺弄平。",
+      "highlight": "smoothing out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 7,
+      "prompt": "The manager is trying to make the argument between two workers less serious.",
+      "promptZh": "經理正嘗試緩和兩名員工之間的爭執。",
+      "starter": "The",
+      "answer": "The manager is trying to smooth over the argument between two workers.",
+      "answerZh": "經理正嘗試緩和兩名員工之間的爭執。",
+      "highlight": "smooth over",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    },
+    {
+      "id": "phrasal-verb-83-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "Please press the loose edge of the label flat.",
+      "promptZh": "請把標籤翹起的邊位壓平。",
+      "starter": "Please",
+      "answer": "Please smooth the loose edge of the label down.",
+      "answerZh": "請把標籤翹起的邊位壓平。",
+      "highlight": "smooth",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "This extra check should remove any problems before the doors open.",
+      "promptZh": "這項額外檢查應可在開門前解決所有問題。",
+      "starter": "This",
+      "answer": "This extra check should smooth out any problems before the doors open.",
+      "answerZh": "這項額外檢查應可在開門前解決所有問題。",
+      "highlight": "smooth out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "消除或減少問題、困難或不規則變化"
+    },
+    {
+      "id": "phrasal-verb-83-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "Can you make this folded note flat again?",
+      "promptZh": "你可以把這張摺了的字條重新弄平嗎?",
+      "starter": "Can",
+      "answer": "Can you smooth out this folded note?",
+      "answerZh": "你可以把這張摺了的字條弄平嗎?",
+      "highlight": "smooth out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "Hana is using her palm to make the tablecloth lie flat.",
+      "promptZh": "Hana 正用手掌把桌布壓平。",
+      "starter": "Hana",
+      "answer": "Hana is smoothing the tablecloth down with her palm.",
+      "answerZh": "Hana 正用手掌把桌布壓平。",
+      "highlight": "smoothing the tablecloth down with",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "The new timetable has made the flow of visitors more even.",
+      "promptZh": "新時間表令訪客流量變得較為平均。",
+      "starter": "The",
+      "answer": "The new timetable has smoothed out the flow of visitors.",
+      "answerZh": "新時間表令訪客流量變得較為平均。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "減少流程中的突然變化"
+    },
+    {
+      "id": "phrasal-verb-83-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "They have removed most of the folds from the cloth.",
+      "promptZh": "他們已把布料上大部分摺痕弄平。",
+      "starter": "They",
+      "answer": "They have smoothed out most of the folds in the cloth.",
+      "answerZh": "他們已把布料上大部分摺痕弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 3,
+      "answerSourcePage": 8,
+      "prompt": "A short explanation may help make things right with the customers.",
+      "promptZh": "一個簡短解釋或可有助緩和與顧客之間的情況。",
+      "starter": "A",
+      "answer": "A short explanation may help smooth things over with the customers.",
+      "answerZh": "一個簡短解釋或可有助緩和與顧客之間的情況。",
+      "highlight": "smooth",
+      "targetForm": "smooth things over",
+      "targetMeaningZh": "緩和爭執、誤會或尷尬情況"
+    },
+    {
+      "id": "phrasal-verb-83-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "The corner of the poster kept lifting, so Noor pressed it flat.",
+      "promptZh": "海報的一角不斷翹起,所以 Noor 把它壓平。",
+      "starter": "The",
+      "answer": "The corner of the poster kept lifting, so Noor smoothed it down.",
+      "answerZh": "海報的一角不斷翹起,所以 Noor 把它壓平。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "There was an awkward misunderstanding, but Leo soon made it less serious.",
+      "promptZh": "當時出現了一場尷尬的誤會,但 Leo 很快便緩和了情況。",
+      "starter": "There",
+      "answer": "There was an awkward misunderstanding, but Leo soon smoothed it over.",
+      "answerZh": "當時出現了一場尷尬的誤會,但 Leo 很快便緩和了情況。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    },
+    {
+      "id": "phrasal-verb-83-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "We had two small differences, but the coach helped us remove them before the match.",
+      "promptZh": "我們有兩項小分歧,但教練在比賽前幫助我們消除它們。",
+      "starter": "We",
+      "answer": "We had two small differences, but the coach helped us smooth them out before the match.",
+      "answerZh": "我們有兩項小分歧,但教練在比賽前幫助我們消除它們。",
+      "highlight": "smooth",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "消除或減少問題、困難或差異"
+    },
+    {
+      "id": "phrasal-verb-83-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "The map was badly folded, but I made it flat on the table.",
+      "promptZh": "地圖摺得很皺,但我在桌上把它弄平。",
+      "starter": "The",
+      "answer": "The map was badly folded, but I smoothed it out on the table.",
+      "answerZh": "地圖摺得很皺,但我在桌上把它弄平。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "The cake covering was pressed flat with the back of a spoon.",
+      "promptZh": "蛋糕表面的糖霜用匙羹背壓平了。",
+      "starter": "The",
+      "answer": "The cake covering was smoothed down with the back of a spoon.",
+      "answerZh": "蛋糕表面的糖霜用匙羹背壓平了。",
+      "highlight": "smoothed down",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "What did she say to make the situation less awkward?",
+      "promptZh": "她說了甚麼來緩和尷尬情況?",
+      "starter": "What",
+      "answer": "What did she say to smooth the situation over?",
+      "answerZh": "她說了甚麼來緩和尷尬情況?",
+      "highlight": "smooth",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    },
+    {
+      "id": "phrasal-verb-83-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "The new app reduces sudden changes in the sound.",
+      "promptZh": "這個新應用程式能減少聲音的突然變化。",
+      "starter": "The",
+      "answer": "The new app smooths out sudden changes in the sound.",
+      "answerZh": "這個新應用程式能減少聲音的突然變化。",
+      "highlight": "smooths out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "減少流程或變化中的不規則情況"
+    },
+    {
+      "id": "phrasal-verb-83-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 8,
+      "prompt": "Why did he press his hair flat before leaving the house?",
+      "promptZh": "他為何在離家前把頭髮壓平整理?",
+      "starter": "Why",
+      "answer": "Why did he smooth his hair down before leaving the house?",
+      "answerZh": "他為何在離家前把頭髮整理平順?",
+      "highlight": "smooth",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "The disagreement became less serious after both sides spoke calmly.",
+      "promptZh": "雙方平靜交談後,爭執變得不再那麼嚴重。",
+      "starter": "The",
+      "answer": "The disagreement was smoothed over after both sides spoke calmly.",
+      "answerZh": "雙方平靜交談後,爭執得以緩和。",
+      "highlight": "was smoothed over",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    },
+    {
+      "id": "phrasal-verb-83-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "He made the paper flat by running his hand over it.",
+      "promptZh": "他用手掃過紙張,把它弄平。",
+      "starter": "He",
+      "answer": "He smoothed out the paper by running his hand over it.",
+      "answerZh": "他用手掃過紙張,把它弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "The group was formed to remove local difficulties.",
+      "promptZh": "這個小組成立的目的是消除地區上的困難。",
+      "starter": "The",
+      "answer": "The group was formed to smooth away local difficulties.",
+      "answerZh": "這個小組成立的目的是消除地區上的困難。",
+      "highlight": "smooth away",
+      "targetForm": "smooth something away",
+      "targetMeaningZh": "消除困難、差異、憂慮或恐懼"
+    },
+    {
+      "id": "phrasal-verb-83-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "They cannot simply make the complaint seem less serious.",
+      "promptZh": "他們不能只是令投訴看起來沒有那麼嚴重。",
+      "starter": "They",
+      "answer": "They cannot simply smooth the complaint over.",
+      "answerZh": "他們不能只是淡化這宗投訴。",
+      "highlight": "smooth",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使問題看起來不再那麼嚴重"
+    },
+    {
+      "id": "phrasal-verb-83-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Press the cover flat so that it sticks to the box.",
+      "promptZh": "把封面壓平,讓它貼在盒子上。",
+      "starter": "Smooth",
+      "answer": "Smooth the cover down so that it sticks to the box.",
+      "answerZh": "把封面壓平,讓它貼在盒子上。",
+      "highlight": "Smooth",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "A calm explanation reduced the parents' fears.",
+      "promptZh": "一個平靜的解釋減輕了父母的恐懼。",
+      "starter": "A",
+      "answer": "A calm explanation smoothed away the parents' fears.",
+      "answerZh": "一個平靜的解釋減輕了父母的恐懼。",
+      "highlight": "smoothed away",
+      "targetForm": "smooth something away",
+      "targetMeaningZh": "消除困難、差異、憂慮或恐懼"
+    },
+    {
+      "id": "phrasal-verb-83-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "The child opened the folded poster and carefully made it flat.",
+      "promptZh": "孩子打開摺起的海報,小心地把它弄平。",
+      "starter": "The",
+      "answer": "The child opened the folded poster and carefully smoothed it out.",
+      "answerZh": "孩子打開摺起的海報,小心地把它弄平。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "The host used a light joke to make everyone feel less awkward after the mistake.",
+      "promptZh": "主持人在出錯後說了一個輕鬆的笑話,令大家不再那麼尷尬。",
+      "starter": "The",
+      "answer": "The host used a light joke to smooth things over after the mistake.",
+      "answerZh": "主持人在出錯後說了一個輕鬆的笑話,緩和了尷尬情況。",
+      "highlight": "smooth things over",
+      "targetForm": "smooth things over",
+      "targetMeaningZh": "緩和爭執、誤會或尷尬情況"
+    },
+    {
+      "id": "phrasal-verb-83-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "Will the new bus plan make the gaps between buses more even?",
+      "promptZh": "新的巴士計劃會令班次之間的間隔更平均嗎?",
+      "starter": "Will",
+      "answer": "Will the new bus plan smooth out the gaps between buses?",
+      "answerZh": "新的巴士計劃會令班次之間的間隔更平均嗎?",
+      "highlight": "smooth out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "減少流程或變化中的不規則情況"
+    },
+    {
+      "id": "phrasal-verb-83-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "You can use a damp hand to press the cloth flat.",
+      "promptZh": "你可以用微濕的手把布料壓平。",
+      "starter": "You",
+      "answer": "You can smooth the cloth down with a damp hand.",
+      "answerZh": "你可以用微濕的手把布料壓平。",
+      "highlight": "smooth the cloth down with",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "She helped make peace between her parents by explaining what had happened.",
+      "promptZh": "她解釋事情經過,幫助父母緩和關係。",
+      "starter": "She",
+      "answer": "She helped smooth things over between her parents by explaining what had happened.",
+      "answerZh": "她解釋事情經過,幫助父母緩和關係。",
+      "highlight": "smooth things over",
+      "targetForm": "smooth things over",
+      "targetMeaningZh": "緩和爭執、誤會或尷尬情況"
+    },
+    {
+      "id": "phrasal-verb-83-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "Before signing, he removed the creases from the paper on the desk.",
+      "promptZh": "簽署前,他把桌上紙張的摺痕弄平。",
+      "starter": "Before",
+      "answer": "Before signing, he smoothed out the creases in the paper on the desk.",
+      "answerZh": "簽署前,他把桌上紙張的摺痕弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "The wind lifted his hair, so he used one hand to press it flat again.",
+      "promptZh": "風吹起他的頭髮,所以他用一隻手把頭髮重新壓平。",
+      "starter": "The",
+      "answer": "The wind lifted his hair, so he smoothed it down again with one hand.",
+      "answerZh": "風吹起他的頭髮,所以他用一隻手把頭髮重新整理平順。",
+      "highlight": "smoothed it down again with",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "After taking the cloth from the bag, we spread it on the table and removed all the folds.",
+      "promptZh": "我們把布料從袋中取出後,將它鋪在桌上,並把所有摺痕弄平。",
+      "starter": "After",
+      "answer": "After taking the cloth from the bag, we spread it on the table and smoothed out all the folds.",
+      "answerZh": "我們把布料從袋中取出後,將它鋪在桌上,並把所有摺痕弄平。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Instead of changing the whole system, the team fixed the few problems that remained.",
+      "promptZh": "團隊沒有更改整個系統,而是解決了餘下的幾個問題。",
+      "starter": "Instead",
+      "answer": "Instead of changing the whole system, the team smoothed out the few problems that remained.",
+      "answerZh": "團隊沒有更改整個系統,而是解決了餘下的幾個問題。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "消除或減少問題、困難或不規則變化"
+    },
+    {
+      "id": "phrasal-verb-83-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The mistake was small, but the manager spoke to both customers to stop it becoming a bigger argument.",
+      "promptZh": "這個錯誤不大,但經理與兩位顧客交談,避免事情演變成更大的爭執。",
+      "starter": "The",
+      "answer": "The mistake was small, but the manager spoke to both customers to smooth things over before a bigger argument began.",
+      "answerZh": "這個錯誤不大,但經理與兩位顧客交談,在更大的爭執出現前緩和了情況。",
+      "highlight": "smooth things over before",
+      "targetForm": "smooth things over",
+      "targetMeaningZh": "緩和爭執、誤會或尷尬情況"
+    },
+    {
+      "id": "phrasal-verb-83-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The shirt had been packed tightly, so she used an iron to remove its deepest wrinkles.",
+      "promptZh": "恤衫被緊緊摺好放置,所以她用熨斗把最深的皺摺弄平。",
+      "starter": "The",
+      "answer": "The shirt had been packed tightly, so she used an iron to smooth out its deepest wrinkles.",
+      "answerZh": "恤衫被緊緊摺好放置,所以她用熨斗把最深的皺摺弄平。",
+      "highlight": "smooth out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "After placing the paper on the wall, the teacher pressed every loose edge flat.",
+      "promptZh": "老師把紙張貼在牆上後,將每個翹起的邊位壓平。",
+      "starter": "After",
+      "answer": "After placing the paper on the wall, the teacher smoothed every loose edge down.",
+      "answerZh": "老師把紙張貼在牆上後,將每個翹起的邊位壓平。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Over several weeks, the new routine reduced the sudden changes in the children's sleep times.",
+      "promptZh": "經過數星期,新作息減少了孩子睡眠時間的突然變化。",
+      "starter": "Over",
+      "answer": "Over several weeks, the new routine smoothed out the sudden changes in the children's sleep times.",
+      "answerZh": "經過數星期,新作息減少了孩子睡眠時間的突然變化。",
+      "highlight": "smoothed out",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "減少流程或變化中的不規則情況"
+    },
+    {
+      "id": "phrasal-verb-83-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The old photograph had curled at the corners, so he carefully made it flat before putting it in the frame.",
+      "promptZh": "舊照片的四角捲起了,所以他把照片放入相框前小心地弄平。",
+      "starter": "The",
+      "answer": "The old photograph had curled at the corners, so he carefully smoothed it out before putting it in the frame.",
+      "answerZh": "舊照片的四角捲起了,所以他把照片放入相框前小心地弄平。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something out",
+      "targetMeaningZh": "把皺摺、摺痕或凹凸弄平"
+    },
+    {
+      "id": "phrasal-verb-83-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 6,
+      "answerSourcePage": 10,
+      "prompt": "Before the guests arrived, Sam made the bed cover lie flat and neat.",
+      "promptZh": "客人到達前,Sam 把床罩整理得平整。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, Sam smoothed the bed cover down until it lay flat and neat.",
+      "answerZh": "客人到達前,Sam 把床罩整理得平整。",
+      "highlight": "smoothed",
+      "targetForm": "smooth something down",
+      "targetMeaningZh": "把頭髮、衣物或表面壓平整理"
+    },
+    {
+      "id": "phrasal-verb-83-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 6,
+      "answerSourcePage": 10,
+      "prompt": "After a tense meeting, the two sides spoke privately and made the disagreement less serious.",
+      "promptZh": "緊張的會議後,雙方私下交談,令分歧不再那麼嚴重。",
+      "starter": "After",
+      "answer": "After a tense meeting, the two sides spoke privately and smoothed over the disagreement.",
+      "answerZh": "緊張的會議後,雙方私下交談,緩和了分歧。",
+      "highlight": "smoothed over",
+      "targetForm": "smooth something over",
+      "targetMeaningZh": "使爭執、誤會或尷尬情況緩和"
+    }
+  ]
+}

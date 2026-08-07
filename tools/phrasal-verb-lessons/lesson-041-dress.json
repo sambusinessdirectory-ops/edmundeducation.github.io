@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-41",
+  "order": 41,
+  "slug": "dress",
+  "version": "1",
+  "title": "DRESS 動詞片語",
+  "titleEn": "Dress",
+  "titleZh": "DRESS 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 40 - DRESS.pdf",
+    "sourceNumber": 40,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRESS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRESS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRESS",
+      "highlight": "DRESS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "He dressed down in jeans for the relaxed party.",
+      "zh": "他穿着牛仔褲,以較隨便的打扮出席輕鬆的聚會。",
+      "highlight": "dressed down in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The manager dressed him down for arriving late.",
+      "zh": "經理因他遲到而嚴厲責備他。",
+      "highlight": "dressed him down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do not dress the price rise up as good news.",
+      "zh": "不要把加價包裝成好消息。",
+      "highlight": "dress the price rise up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "穿得較隨便;穿便服；嚴厲責備或訓斥某人；把某件不好的事情包裝成另一回事,使它聽起來較好；裝扮成某人或某物；穿得漂亮或正式;盛裝打扮",
+    "en": "dress down / dress down in something; dress somebody down; dress something up as something; dress up as somebody/something dress somebody/yourself up as somebody/something; dress up / dress up in something dress yourself up in something",
+    "naturalZh": [
+      "穿得較隨便;穿便服",
+      "嚴厲責備或訓斥某人",
+      "把某件不好的事情包裝成另一回事,使它聽起來較好",
+      "裝扮成某人或某物",
+      "穿得漂亮或正式;盛裝打扮"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dress down / dress down in something",
+      "titleZh": "穿得較隨便;穿便服",
+      "titleEn": "dress down / dress down in something",
+      "descriptionZh": "穿得較隨便;穿便服",
+      "descriptionEn": "He dressed down in jeans for the relaxed party.",
+      "examples": [
+        {
+          "en": "He dressed down in jeans for the relaxed party.",
+          "zh": "他穿着牛仔褲,以較隨便的打扮出席輕鬆的聚會。",
+          "highlight": "dressed down in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dress somebody down",
+      "titleZh": "嚴厲責備或訓斥某人",
+      "titleEn": "dress somebody down",
+      "descriptionZh": "嚴厲責備或訓斥某人",
+      "descriptionEn": "The manager dressed him down for arriving late.",
+      "examples": [
+        {
+          "en": "The manager dressed him down for arriving late.",
+          "zh": "經理因他遲到而嚴厲責備他。",
+          "highlight": "dressed him down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dress something up as something",
+      "titleZh": "把某件不好的事情包裝成另一回事,使它聽起來較好",
+      "titleEn": "dress something up as something",
+      "descriptionZh": "把某件不好的事情包裝成另一回事,使它聽起來較好",
+      "descriptionEn": "Do not dress the price rise up as good news.",
+      "examples": [
+        {
+          "en": "Do not dress the price rise up as good news.",
+          "zh": "不要把加價包裝成好消息。",
+          "highlight": "dress the price rise up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "titleZh": "裝扮成某人或某物",
+      "titleEn": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "descriptionZh": "裝扮成某人或某物",
+      "descriptionEn": "The children dressed up as animals.",
+      "examples": [
+        {
+          "en": "The children dressed up as animals.",
+          "zh": "孩子們裝扮成動物。",
+          "highlight": "dressed up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "dress up / dress up in something dress yourself up in something",
+      "titleZh": "穿得漂亮或正式;盛裝打扮",
+      "titleEn": "dress up / dress up in something dress yourself up in something",
+      "descriptionZh": "穿得漂亮或正式;盛裝打扮",
+      "descriptionEn": "We dressed up for the special dinner.",
+      "examples": [
+        {
+          "en": "We dressed up for the special dinner.",
+          "zh": "我們為特別晚宴盛裝打扮。",
+          "highlight": "dressed up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRESS 片語動詞的實際用途",
+    "labelEn": "DRESS Phrasal Verbs in Use",
+    "summaryZh": "dress down 表示穿得較隨便;dress up 則表示穿得較漂亮或正式。；dress up as 可以用來談論孩子、演員或派對參加者裝扮成另一個人物、角色或事物。；dress somebody down 表示嚴厲訓斥某人,語氣比普通地指出錯誤更強烈。；dress something up as something 可以描述有人嘗試用較正面的說法掩飾不好的事實。",
+    "summaryEn": "Dress down describes wearing casual clothes, while dress up describes wearing smarter or more special clothes. Dress up as helps you talk about children, actors or party guests pretending to be another person, character or thing. Dress somebody down expresses a much stronger reaction than simply correcting someone’s mistake. Dress something up as something can describe an attempt to hide an unpleasant truth behind more positive words.",
+    "contextsZh": [
+      "清楚談論隨便和正式的衣着",
+      "描述服裝造型和角色扮演",
+      "描述嚴厲的責備",
+      "識別把壞消息說得較好聽的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about casual and smart clothing",
+      "Describe costumes and role-playing",
+      "Describe strong criticism",
+      "Recognise when bad news is being made to sound better"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRESS 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRESS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dress down / dress down in something",
+    "fixedHighlight": "dress down / dress down in something",
+    "fixedZh": "閱讀整句,選出意思相同的 DRESS 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRESS expression that gives the same meaning.",
+    "correct": "dressed down in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；as 表示某人裝扮成的人物或事物;in 則帶出所穿的衣服。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in these expressions, place the word as shown: dress him down dress it up as good news dress her up as a doctor As shows the person or thing someone is pretending to be. In introduces the clothes being worn: dress up as a queen dress up in a smart suit",
+    "variableItemsZh": [
+      "dress down / dress down in something",
+      "dress somebody down",
+      "dress something up as something",
+      "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "dress up / dress up in something dress yourself up in something"
+    ],
+    "variableItemsEn": [
+      "dress down / dress down in something",
+      "dress somebody down",
+      "dress something up as something",
+      "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "dress up / dress up in something dress yourself up in something"
+    ],
+    "forms": [
+      {
+        "formZh": "穿得較隨便;穿便服",
+        "formEn": "dress down / dress down in something",
+        "exampleZh": "他穿着牛仔褲,以較隨便的打扮出席輕鬆的聚會。",
+        "exampleEn": "He dressed down in jeans for the relaxed party.",
+        "highlight": "dressed down in"
+      },
+      {
+        "formZh": "嚴厲責備或訓斥某人",
+        "formEn": "dress somebody down",
+        "exampleZh": "經理因他遲到而嚴厲責備他。",
+        "exampleEn": "The manager dressed him down for arriving late.",
+        "highlight": "dressed him down"
+      },
+      {
+        "formZh": "把某件不好的事情包裝成另一回事,使它聽起來較好",
+        "formEn": "dress something up as something",
+        "exampleZh": "不要把加價包裝成好消息。",
+        "exampleEn": "Do not dress the price rise up as good news.",
+        "highlight": "dress the price rise up"
+      },
+      {
+        "formZh": "裝扮成某人或某物",
+        "formEn": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+        "exampleZh": "孩子們裝扮成動物。",
+        "exampleEn": "The children dressed up as animals.",
+        "highlight": "dressed up"
+      },
+      {
+        "formZh": "穿得漂亮或正式;盛裝打扮",
+        "formEn": "dress up / dress up in something dress yourself up in something",
+        "exampleZh": "我們為特別晚宴盛裝打扮。",
+        "exampleEn": "We dressed up for the special dinner.",
+        "highlight": "dressed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "穿得較隨便;穿便服",
+      "titleEn": "dress down / dress down in something",
+      "formula": "dress down / dress down in something",
+      "highlight": "dress down / dress down in something",
+      "descriptionZh": "穿得較隨便;穿便服",
+      "descriptionEn": "He dressed down in jeans for the relaxed party.",
+      "examples": [
+        {
+          "en": "He dressed down in jeans for the relaxed party.",
+          "zh": "他穿着牛仔褲,以較隨便的打扮出席輕鬆的聚會。",
+          "highlight": "dressed down in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "嚴厲責備或訓斥某人",
+      "titleEn": "dress somebody down",
+      "formula": "dress somebody down",
+      "highlight": "dress somebody down",
+      "descriptionZh": "嚴厲責備或訓斥某人",
+      "descriptionEn": "The manager dressed him down for arriving late.",
+      "examples": [
+        {
+          "en": "The manager dressed him down for arriving late.",
+          "zh": "經理因他遲到而嚴厲責備他。",
+          "highlight": "dressed him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某件不好的事情包裝成另一回事,使它聽起來較好",
+      "titleEn": "dress something up as something",
+      "formula": "dress something up as something",
+      "highlight": "dress something up as something",
+      "descriptionZh": "把某件不好的事情包裝成另一回事,使它聽起來較好",
+      "descriptionEn": "Do not dress the price rise up as good news.",
+      "examples": [
+        {
+          "en": "Do not dress the price rise up as good news.",
+          "zh": "不要把加價包裝成好消息。",
+          "highlight": "dress the price rise up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "裝扮成某人或某物",
+      "titleEn": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "formula": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "highlight": "dress up as somebody/something dress somebody/yourself up as somebody/something",
+      "descriptionZh": "裝扮成某人或某物",
+      "descriptionEn": "The children dressed up as animals.",
+      "examples": [
+        {
+          "en": "The children dressed up as animals.",
+          "zh": "孩子們裝扮成動物。",
+          "highlight": "dressed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "穿得漂亮或正式;盛裝打扮",
+      "titleEn": "dress up / dress up in something dress yourself up in something",
+      "formula": "dress up / dress up in something dress yourself up in something",
+      "highlight": "dress up / dress up in something dress yourself up in something",
+      "descriptionZh": "穿得漂亮或正式;盛裝打扮",
+      "descriptionEn": "We dressed up for the special dinner.",
+      "examples": [
+        {
+          "en": "We dressed up for the special dinner.",
+          "zh": "我們為特別晚宴盛裝打扮。",
+          "highlight": "dressed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論隨便和正式的衣着",
+      "titleEn": "Talk clearly about casual and smart clothing",
+      "zh": "dress down 表示穿得較隨便;dress up 則表示穿得較漂亮或正式。",
+      "en": "Dress down describes wearing casual clothes, while dress up describes wearing smarter or more special clothes."
+    },
+    {
+      "titleZh": "描述服裝造型和角色扮演",
+      "titleEn": "Describe costumes and role-playing",
+      "zh": "dress up as 可以用來談論孩子、演員或派對參加者裝扮成另一個人物、角色或事物。",
+      "en": "Dress up as helps you talk about children, actors or party guests pretending to be another person, character or thing."
+    },
+    {
+      "titleZh": "描述嚴厲的責備",
+      "titleEn": "Describe strong criticism",
+      "zh": "dress somebody down 表示嚴厲訓斥某人,語氣比普通地指出錯誤更強烈。",
+      "en": "Dress somebody down expresses a much stronger reaction than simply correcting someone’s mistake."
+    },
+    {
+      "titleZh": "識別把壞消息說得較好聽的表達",
+      "titleEn": "Recognise when bad news is being made to sound better",
+      "zh": "dress something up as something 可以描述有人嘗試用較正面的說法掩飾不好的事實。",
+      "en": "Dress something up as something can describe an attempt to hide an unpleasant truth behind more positive words."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論隨便和正式的衣着",
+      "描述服裝造型和角色扮演",
+      "描述嚴厲的責備",
+      "識別把壞消息說得較好聽的表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about casual and smart clothing",
+      "Describe costumes and role-playing",
+      "Describe strong criticism",
+      "Recognise when bad news is being made to sound better"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論隨便和正式的衣着",
+        "titleEn": "Talk clearly about casual and smart clothing",
+        "zh": "dress down 表示穿得較隨便;dress up 則表示穿得較漂亮或正式。",
+        "en": "Dress down describes wearing casual clothes, while dress up describes wearing smarter or more special clothes.",
+        "examples": [
+          {
+            "en": "He dressed down in jeans for the relaxed party.",
+            "zh": "他穿着牛仔褲,以較隨便的打扮出席輕鬆的聚會。",
+            "highlight": "dressed down in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述服裝造型和角色扮演",
+        "titleEn": "Describe costumes and role-playing",
+        "zh": "dress up as 可以用來談論孩子、演員或派對參加者裝扮成另一個人物、角色或事物。",
+        "en": "Dress up as helps you talk about children, actors or party guests pretending to be another person, character or thing.",
+        "examples": [
+          {
+            "en": "The manager dressed him down for arriving late.",
+            "zh": "經理因他遲到而嚴厲責備他。",
+            "highlight": "dressed him down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述嚴厲的責備",
+        "titleEn": "Describe strong criticism",
+        "zh": "dress somebody down 表示嚴厲訓斥某人,語氣比普通地指出錯誤更強烈。",
+        "en": "Dress somebody down expresses a much stronger reaction than simply correcting someone’s mistake.",
+        "examples": [
+          {
+            "en": "Do not dress the price rise up as good news.",
+            "zh": "不要把加價包裝成好消息。",
+            "highlight": "dress the price rise up"
+          }
+        ]
+      },
+      {
+        "titleZh": "識別把壞消息說得較好聽的表達",
+        "titleEn": "Recognise when bad news is being made to sound better",
+        "zh": "dress something up as something 可以描述有人嘗試用較正面的說法掩飾不好的事實。",
+        "en": "Dress something up as something can describe an attempt to hide an unpleasant truth behind more positive words.",
+        "examples": [
+          {
+            "en": "The children dressed up as animals.",
+            "zh": "孩子們裝扮成動物。",
+            "highlight": "dressed up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRESS 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRESS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRESS 片語動詞。",
+      "en": "Read the whole sentence and choose the DRESS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in these expressions, place the word as shown: dress him down dress it up as good news dress her up as a doctor.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in these expressions, place the word as shown: dress him down dress it up as good news dress her up as a doctor"
+    },
+    {
+      "titleZh": "as 表示某人裝扮成的人物或事物;in 則帶出所穿的衣服。",
+      "titleEn": "As shows the person or thing someone is pretending to be.",
+      "zh": "as 表示某人裝扮成的人物或事物;in 則帶出所穿的衣服。",
+      "en": "As shows the person or thing someone is pretending to be. In introduces the clothes being worn: dress up as a queen dress up in a smart suit"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRESS 動詞片語句子改寫練習",
+    "titleEn": "DRESS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-41-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Tom wore casual clothes instead of smart ones for the office party.",
+      "promptZh": "湯姆穿着便服而不是正式衣服,出席辦公室聚會。",
+      "starter": "Tom",
+      "answer": "Tom dressed down for the office party.",
+      "answerZh": "湯姆穿着較隨便的衣服出席辦公室聚會。",
+      "highlight": "dressed down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The children wore costumes to look like pirates.",
+      "promptZh": "孩子們穿上服裝,裝扮成海盜。",
+      "starter": "The",
+      "answer": "The children dressed up as pirates.",
+      "answerZh": "孩子們裝扮成海盜。",
+      "highlight": "dressed up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The coach strongly criticised the players after the match.",
+      "promptZh": "教練在比賽後嚴厲責備球員。",
+      "starter": "The",
+      "answer": "The coach dressed the players down after the match.",
+      "answerZh": "教練在比賽後嚴厲責備球員。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Maya wore her smartest clothes for the special dinner.",
+      "promptZh": "瑪雅穿上最漂亮得體的衣服出席特別晚宴。",
+      "starter": "Maya",
+      "answer": "Maya dressed up for the special dinner.",
+      "answerZh": "瑪雅為特別晚宴盛裝打扮。",
+      "highlight": "dressed up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The shop will close permanently. Do not present the decision as a short holiday.",
+      "promptZh": "店舖將會永久關閉。不要把這個決定說成只是短暫休假。",
+      "starter": "The",
+      "answer": "The shop will close permanently. Do not dress the decision up as a short holiday.",
+      "answerZh": "店舖將會永久關閉。不要把這個決定包裝成只是短暫休假。",
+      "highlight": "dress",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We wore jeans and T-shirts to the relaxed meal.",
+      "promptZh": "我們穿着牛仔褲和 T 恤出席這頓輕鬆的聚餐。",
+      "starter": "We",
+      "answer": "We dressed down in jeans and T-shirts for the relaxed meal.",
+      "answerZh": "我們穿着牛仔褲和 T 恤,以較隨便的打扮出席這頓輕鬆的聚餐。",
+      "highlight": "dressed down in",
+      "targetForm": "dress down in something",
+      "targetMeaningZh": "穿着某些便服;穿得較隨便"
+    },
+    {
+      "id": "phrasal-verb-41-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nina made herself look like a fairy for the school show.",
+      "promptZh": "妮娜為學校表演把自己裝扮成仙子。",
+      "starter": "Nina",
+      "answer": "Nina dressed herself up as a fairy for the school show.",
+      "answerZh": "妮娜為學校表演把自己裝扮成仙子。",
+      "highlight": "dressed",
+      "targetForm": "dress yourself up as somebody/something",
+      "targetMeaningZh": "把自己裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The manager strongly criticised Ben for arriving late again.",
+      "promptZh": "經理因賓再次遲到而嚴厲責備他。",
+      "starter": "The",
+      "answer": "The manager dressed Ben down for arriving late again.",
+      "answerZh": "經理因賓再次遲到而嚴厲責備他。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Everyone wore smart clothes for the wedding.",
+      "promptZh": "每個人都穿上漂亮正式的衣服出席婚禮。",
+      "starter": "Everyone",
+      "answer": "Everyone dressed up for the wedding.",
+      "answerZh": "每個人都為婚禮盛裝打扮。",
+      "highlight": "dressed up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "They reduced our break and presented the change as an improvement.",
+      "promptZh": "他們縮短了我們的休息時間,卻把這項改動說成一種改善。",
+      "starter": "They",
+      "answer": "They dressed the change up as an improvement.",
+      "answerZh": "他們把這項改動包裝成一種改善。",
+      "highlight": "dressed",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Ella chose simple clothes for the expensive restaurant.",
+      "promptZh": "埃拉選擇穿較隨便的衣服前往那間昂貴的餐廳。",
+      "starter": "Ella",
+      "answer": "Ella dressed down for the expensive restaurant.",
+      "answerZh": "埃拉穿着較隨便的衣服前往那間昂貴的餐廳。",
+      "highlight": "dressed down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Dad gave the dog a costume that made it look like a lion.",
+      "promptZh": "爸爸給小狗穿上令牠看起來像獅子的服裝。",
+      "starter": "Dad",
+      "answer": "Dad dressed the dog up as a lion.",
+      "answerZh": "爸爸把小狗裝扮成獅子。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody/something up as something",
+      "targetMeaningZh": "把某人或某物裝扮成另一個形象"
+    },
+    {
+      "id": "phrasal-verb-41-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are you wearing such smart clothes tonight?",
+      "promptZh": "你今晚為甚麼穿得這麼漂亮正式?",
+      "starter": "Why",
+      "answer": "Why are you dressing up tonight?",
+      "answerZh": "你今晚為甚麼盛裝打扮?",
+      "highlight": "dressing up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The teacher has strongly criticised the students for making so much noise.",
+      "promptZh": "老師因學生製造太多噪音而嚴厲責備他們。",
+      "starter": "The",
+      "answer": "The teacher has dressed the students down for making so much noise.",
+      "answerZh": "老師因學生製造太多噪音而嚴厲責備了他們。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Sam is wearing casual clothes because the meeting is relaxed.",
+      "promptZh": "森因為會議氣氛輕鬆,所以正穿着便服。",
+      "starter": "Sam",
+      "answer": "Sam is dressing down because the meeting is relaxed.",
+      "answerZh": "森因為會議氣氛輕鬆,所以正穿得較隨便。",
+      "highlight": "dressing down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We will wear costumes and look like famous film characters.",
+      "promptZh": "我們會穿上服裝,裝扮成著名電影角色。",
+      "starter": "We",
+      "answer": "We will dress up as famous film characters.",
+      "answerZh": "我們會裝扮成著名電影角色。",
+      "highlight": "dress up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "They are presenting the price rise as a small change.",
+      "promptZh": "他們正把加價說成一項小改動。",
+      "starter": "They",
+      "answer": "They are dressing the price rise up as a small change.",
+      "answerZh": "他們正把加價包裝成一項小改動。",
+      "highlight": "dressing",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Lena has made herself look very smart for the theatre tonight.",
+      "promptZh": "莉娜今晚已為前往劇院把自己打扮得非常漂亮。",
+      "starter": "Lena",
+      "answer": "Lena has dressed up for the theatre tonight.",
+      "answerZh": "莉娜今晚已為前往劇院盛裝打扮。",
+      "highlight": "dressed up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why did the boss strongly criticise you in front of everyone?",
+      "promptZh": "老闆為甚麼在所有人面前嚴厲責備你?",
+      "starter": "Why",
+      "answer": "Why did the boss dress you down in front of everyone?",
+      "answerZh": "老闆為甚麼在所有人面前嚴厲責備你?",
+      "highlight": "dress",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "You can wear casual clothes for this picnic.",
+      "promptZh": "你可以穿便服參加這次野餐。",
+      "starter": "You",
+      "answer": "You can dress down for this picnic.",
+      "answerZh": "你可以穿便服參加這次野餐。",
+      "highlight": "dress down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The twins are wearing costumes that make them look like robots.",
+      "promptZh": "這對雙胞胎正穿着令他們看起來像機械人的服裝。",
+      "starter": "The",
+      "answer": "The twins are dressing up as robots.",
+      "answerZh": "這對雙胞胎正裝扮成機械人。",
+      "highlight": "dressing up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The trip has been cancelled. Do not present this decision as extra free time.",
+      "promptZh": "旅程已被取消。不要把這個決定說成讓大家得到額外空閒時間。",
+      "starter": "The",
+      "answer": "The trip has been cancelled. Do not dress this decision up as extra free time.",
+      "answerZh": "旅程已被取消。不要把這個決定包裝成讓大家得到額外空閒時間。",
+      "highlight": "dress",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Should we wear smart clothes for the school dinner?",
+      "promptZh": "我們應該穿漂亮正式的衣服出席學校晚宴嗎?",
+      "starter": "Should",
+      "answer": "Should we dress up for the school dinner?",
+      "answerZh": "我們應該為學校晚宴盛裝打扮嗎?",
+      "highlight": "dress up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The sergeant was strongly criticising the new recruits.",
+      "promptZh": "軍士當時正在嚴厲訓斥新兵。",
+      "starter": "The",
+      "answer": "The sergeant was dressing the new recruits down.",
+      "answerZh": "軍士當時正在嚴厲訓斥新兵。",
+      "highlight": "dressing",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The company removed a useful service, but it described this as a simpler system.",
+      "promptZh": "公司取消了一項有用的服務,卻把這件事說成令系統更簡單。",
+      "starter": "The",
+      "answer": "The company removed a useful service, but it dressed it up as a simpler system.",
+      "answerZh": "公司取消了一項有用的服務,卻把這件事包裝成令系統更簡單。",
+      "highlight": "dressed it up",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The play needed a king, so they gave Leo a costume to make him look like one.",
+      "promptZh": "戲劇需要一名國王,所以他們替里奧穿上服裝,讓他看起來像國王。",
+      "starter": "The",
+      "answer": "The play needed a king, so they dressed Leo up as a king.",
+      "answerZh": "戲劇需要一名國王,所以他們把里奧裝扮成國王。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody up as somebody/something",
+      "targetMeaningZh": "把某人裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The event was called a party, but it was very relaxed. We wore casual clothes.",
+      "promptZh": "活動雖然稱為派對,但氣氛十分輕鬆。我們穿着便服。",
+      "starter": "The",
+      "answer": "The event was called a party, but it was very relaxed. We dressed down.",
+      "answerZh": "活動雖然稱為派對,但氣氛十分輕鬆。我們穿得較隨便。",
+      "highlight": "dressed down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Tom made a serious mistake, and the manager strongly criticised her.",
+      "promptZh": "湯姆犯了一個嚴重錯誤,而經理嚴厲責備了她。",
+      "starter": "Tom",
+      "answer": "Tom made a serious mistake, and the manager dressed her down.",
+      "answerZh": "湯姆犯了一個嚴重錯誤,而經理嚴厲責備了她。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We had only ten minutes to make ourselves look smart before the concert.",
+      "promptZh": "音樂會開始前,我們只有十分鐘把自己打扮得漂亮得體。",
+      "starter": "We",
+      "answer": "We had only ten minutes to dress ourselves up before the concert.",
+      "answerZh": "音樂會開始前,我們只有十分鐘把自己打扮得漂亮得體。",
+      "highlight": "dress",
+      "targetForm": "dress yourself up",
+      "targetMeaningZh": "把自己打扮得漂亮或正式"
+    },
+    {
+      "id": "phrasal-verb-41-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did the school describe the shorter lunch break as a new way to save time?",
+      "promptZh": "學校為甚麼把縮短午膳時間說成一種節省時間的新方法?",
+      "starter": "Why",
+      "answer": "Why did the school dress the shorter lunch break up as a new way to save time?",
+      "answerZh": "學校為甚麼把縮短午膳時間包裝成一種節省時間的新方法?",
+      "highlight": "dress",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "For the photo, I made myself look like an old sailor.",
+      "promptZh": "拍照時,我把自己裝扮成一名老水手。",
+      "starter": "For",
+      "answer": "For the photo, I dressed myself up as an old sailor.",
+      "answerZh": "拍照時,我把自己裝扮成一名老水手。",
+      "highlight": "dressed",
+      "targetForm": "dress yourself up as somebody/something",
+      "targetMeaningZh": "把自己裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "You can wear a plain shirt and jeans because the meal is informal.",
+      "promptZh": "這頓飯的氣氛並不正式,所以你可以穿普通襯衫和牛仔褲。",
+      "starter": "You",
+      "answer": "You can dress down in a plain shirt and jeans because the meal is informal.",
+      "answerZh": "這頓飯的氣氛並不正式,所以你可以穿普通襯衫和牛仔褲,打扮得較隨便。",
+      "highlight": "dress down in",
+      "targetForm": "dress down in something",
+      "targetMeaningZh": "穿着某些便服;穿得較隨便"
+    },
+    {
+      "id": "phrasal-verb-41-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The new workers were strongly criticised for ignoring the safety rules.",
+      "promptZh": "新員工因無視安全規則而受到嚴厲責備。",
+      "starter": "The",
+      "answer": "The new workers were dressed down for ignoring the safety rules.",
+      "answerZh": "新員工因無視安全規則而受到嚴厲責備。",
+      "highlight": "dressed down",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Ava wore a long blue dress and smart shoes for the dance.",
+      "promptZh": "艾娃穿着藍色長裙和漂亮鞋子參加舞會。",
+      "starter": "Ava",
+      "answer": "Ava dressed up in a long blue dress and smart shoes for the dance.",
+      "answerZh": "艾娃穿着藍色長裙和漂亮鞋子,盛裝出席舞會。",
+      "highlight": "dressed up in",
+      "targetForm": "dress up in something",
+      "targetMeaningZh": "穿上漂亮或正式的衣服"
+    },
+    {
+      "id": "phrasal-verb-41-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The team lost badly, but the coach described it as useful practice.",
+      "promptZh": "球隊慘敗,但教練把這件事說成一次有用的練習。",
+      "starter": "The",
+      "answer": "The team lost badly, but the coach dressed it up as useful practice.",
+      "answerZh": "球隊慘敗,但教練把這件事包裝成一次有用的練習。",
+      "highlight": "dressed",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The children gave their little brother clothes that made him look like a snowman.",
+      "promptZh": "孩子們替弟弟穿上令他看起來像雪人的服裝。",
+      "starter": "The",
+      "answer": "The children dressed their little brother up as a snowman.",
+      "answerZh": "孩子們把弟弟裝扮成雪人。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody up as somebody/something",
+      "targetMeaningZh": "把某人裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The chef had warned Sam twice. When Sam left the oven on again, the chef strongly criticised him.",
+      "promptZh": "廚師已警告森兩次。當森再次沒有關掉焗爐時,廚師嚴厲責備了他。",
+      "starter": "The",
+      "answer": "The chef had warned Sam twice. When Sam left the oven on again, the chef dressed him down.",
+      "answerZh": "廚師已警告森兩次。當森再次沒有關掉焗爐時,廚師嚴厲責備了他。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Nora was not pretending to be anyone; she simply wore her best clothes for the prize dinner.",
+      "promptZh": "諾拉並不是裝扮成任何人;她只是穿上最漂亮的衣服出席頒獎晚宴。",
+      "starter": "Nora",
+      "answer": "Nora was not pretending to be anyone; she simply dressed up for the prize dinner.",
+      "answerZh": "諾拉並不是裝扮成任何人;她只是為頒獎晚宴盛裝打扮。",
+      "highlight": "dressed up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The hotel is charging more for the same room and calling it a new holiday experience.",
+      "promptZh": "酒店為同一個房間收取更高費用,並把它稱為全新的度假體驗。",
+      "starter": "The",
+      "answer": "The hotel is dressing the higher price up as a new holiday experience.",
+      "answerZh": "酒店正把較高的房價包裝成全新的度假體驗。",
+      "highlight": "dressing",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although the invitation looked formal, the host asked everyone to wear casual clothes.",
+      "promptZh": "雖然邀請函看來很正式,但主人請所有人穿便服。",
+      "starter": "Although",
+      "answer": "Although the invitation looked formal, the host asked everyone to dress down.",
+      "answerZh": "雖然邀請函看來很正式,但主人請所有人穿得較隨便。",
+      "highlight": "dress down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "For the history day, Oscar wore clothes that made him look like a Roman soldier.",
+      "promptZh": "在歷史日活動中,奧斯卡穿上令他看起來像羅馬士兵的服裝。",
+      "starter": "For",
+      "answer": "For the history day, Oscar dressed up as a Roman soldier.",
+      "answerZh": "在歷史日活動中,奧斯卡裝扮成羅馬士兵。",
+      "highlight": "dressed up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The head teacher did not just correct the two boys; she strongly criticised them in her office.",
+      "promptZh": "校長不只是糾正那兩個男孩;她還在辦公室嚴厲責備了他們。",
+      "starter": "The",
+      "answer": "The head teacher did not just correct the two boys; she dressed them down in her office.",
+      "answerZh": "校長不只是糾正那兩個男孩;她還在辦公室嚴厲責備了他們。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Do we really need to wear our best clothes, or can we come as we are?",
+      "promptZh": "我們真的需要穿上最漂亮的衣服,還是可以穿平常的衣服前來?",
+      "starter": "Do",
+      "answer": "Do we really need to dress up, or can we come as we are?",
+      "answerZh": "我們真的需要盛裝打扮,還是可以穿平常的衣服前來?",
+      "highlight": "dress up",
+      "targetForm": "dress up",
+      "targetMeaningZh": "穿得漂亮或正式;盛裝打扮"
+    },
+    {
+      "id": "phrasal-verb-41-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "They are ending the club early, but they keep calling it a fresh beginning.",
+      "promptZh": "他們要提早結束這個學會,卻一直把這件事說成一個新開始。",
+      "starter": "They",
+      "answer": "They are ending the club early, but they keep dressing it up as a fresh beginning.",
+      "answerZh": "他們要提早結束這個學會,卻一直把這件事包裝成一個新開始。",
+      "highlight": "dressing",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Jack wore a T-shirt to the fancy restaurant because he wanted to look relaxed.",
+      "promptZh": "積克穿着 T 恤前往高級餐廳,因為他想穿得較隨便。",
+      "starter": "Jack",
+      "answer": "Jack dressed down in a T-shirt for the fancy restaurant because he wanted to look relaxed.",
+      "answerZh": "積克穿着 T 恤,以較隨便的打扮前往高級餐廳,因為他想看起來輕鬆一點。",
+      "highlight": "dressed down in",
+      "targetForm": "dress down in something",
+      "targetMeaningZh": "穿着某些便服;穿得較隨便"
+    },
+    {
+      "id": "phrasal-verb-41-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The children wore costumes so that each of them looked like a different animal.",
+      "promptZh": "孩子們穿上服裝,令每個人都看起來像不同的動物。",
+      "starter": "The",
+      "answer": "The children dressed up as different animals.",
+      "answerZh": "孩子們裝扮成不同的動物。",
+      "highlight": "dressed up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After the careless pass, the captain strongly criticised the whole team in the changing room.",
+      "promptZh": "那次粗心的傳球後,隊長在更衣室嚴厲責備了全隊。",
+      "starter": "After",
+      "answer": "After the careless pass, the captain dressed the whole team down in the changing room.",
+      "answerZh": "那次粗心的傳球後,隊長在更衣室嚴厲責備了全隊。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Mei usually wears jeans, but tonight she wore a smart suit for the school event.",
+      "promptZh": "梅平日通常穿牛仔褲,但今晚她穿上漂亮的西裝出席學校活動。",
+      "starter": "Mei",
+      "answer": "Mei usually wears jeans, but tonight she dressed up in a smart suit for the school event.",
+      "answerZh": "梅平日通常穿牛仔褲,但今晚她穿上漂亮的西裝,盛裝出席學校活動。",
+      "highlight": "dressed up in",
+      "targetForm": "dress up in something",
+      "targetMeaningZh": "穿上漂亮或正式的衣服"
+    },
+    {
+      "id": "phrasal-verb-41-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The company is cutting three free classes. Calling the decision “more choice” does not change what it means.",
+      "promptZh": "公司正取消三節免費課堂。把這項決定稱為「更多選擇」並不會改變它的真正意思。",
+      "starter": "The",
+      "answer": "The company is cutting three free classes. Dressing the decision up as “more choice” does not change what it means.",
+      "answerZh": "公司正取消三節免費課堂。把這項決定包裝成「更多選擇」並不會改變它的真正意思。",
+      "highlight": "Dressing",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Everyone expected a formal dinner, but the host asked us to wear casual clothes so the evening would feel more comfortable.",
+      "promptZh": "每個人都以為這是一頓正式晚宴,但主人請我們穿便服,讓整個晚上感覺更輕鬆。",
+      "starter": "Everyone",
+      "answer": "Everyone expected a formal dinner, but the host asked us to dress down so the evening would feel more comfortable.",
+      "answerZh": "每個人都以為這是一頓正式晚宴,但主人請我們穿得較隨便,讓整個晚上感覺更輕鬆。",
+      "highlight": "dress down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    },
+    {
+      "id": "phrasal-verb-41-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Maya had no costume, so her friends used a white coat and toy glasses to make her look like a scientist.",
+      "promptZh": "瑪雅沒有服裝,所以朋友用白袍和玩具眼鏡把她裝扮成科學家。",
+      "starter": "Maya",
+      "answer": "Maya had no costume, so her friends dressed her up as a scientist with a white coat and toy glasses.",
+      "answerZh": "瑪雅沒有服裝,所以朋友用白袍和玩具眼鏡把她裝扮成科學家。",
+      "highlight": "dressed her up as a scientist with",
+      "targetForm": "dress somebody up as somebody/something",
+      "targetMeaningZh": "把某人裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The manager waited until the customers had left before strongly criticising the new worker for being rude.",
+      "promptZh": "經理等客人離開後,才因新員工態度無禮而嚴厲責備他。",
+      "starter": "The",
+      "answer": "The manager waited until the customers had left before dressing the new worker down for being rude.",
+      "answerZh": "經理等客人離開後,才因新員工態度無禮而嚴厲責備他。",
+      "highlight": "dressing",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We were told to come as we were, but Tom still wore a jacket and his smartest shoes.",
+      "promptZh": "我們獲告知可以穿平常的衣服前來,但湯姆仍穿上外套和最漂亮的鞋子。",
+      "starter": "We",
+      "answer": "We were told to come as we were, but Tom still dressed up in a jacket and his smartest shoes.",
+      "answerZh": "我們獲告知可以穿平常的衣服前來,但湯姆仍穿上外套和最漂亮的鞋子,盛裝打扮。",
+      "highlight": "dressed up in",
+      "targetForm": "dress up in something",
+      "targetMeaningZh": "穿上漂亮或正式的衣服"
+    },
+    {
+      "id": "phrasal-verb-41-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The school cancelled the trip and described the decision as a chance to spend more time in class.",
+      "promptZh": "學校取消了旅程,並把這項決定說成讓學生有機會花更多時間上課。",
+      "starter": "The",
+      "answer": "The school cancelled the trip and dressed the decision up as a chance to spend more time in class.",
+      "answerZh": "學校取消了旅程,並把這項決定包裝成讓學生有機會花更多時間上課。",
+      "highlight": "dressed",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The invitation said “smart clothes”, yet Leo deliberately chose an old shirt and trainers.",
+      "promptZh": "邀請函寫着要穿漂亮正式的衣服,但里奧故意選擇了一件舊襯衫和運動鞋。",
+      "starter": "The",
+      "answer": "The invitation said “smart clothes”, yet Leo deliberately dressed down in an old shirt and trainers.",
+      "answerZh": "邀請函寫着要穿漂亮正式的衣服,但里奧故意穿着舊襯衫和運動鞋,打扮得較隨便。",
+      "highlight": "dressed down in",
+      "targetForm": "dress down in something",
+      "targetMeaningZh": "穿着某些便服;穿得較隨便"
+    },
+    {
+      "id": "phrasal-verb-41-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The sergeant did not raise his voice at first, but after the same mistake happened again, he strongly criticised the recruits.",
+      "promptZh": "軍士起初沒有提高聲線,但同一錯誤再次發生後,他嚴厲訓斥了新兵。",
+      "starter": "The",
+      "answer": "The sergeant did not raise his voice at first, but after the same mistake happened again, he dressed the recruits down.",
+      "answerZh": "軍士起初沒有提高聲線,但同一錯誤再次發生後,他嚴厲訓斥了新兵。",
+      "highlight": "dressed",
+      "targetForm": "dress somebody down",
+      "targetMeaningZh": "嚴厲責備或訓斥某人"
+    },
+    {
+      "id": "phrasal-verb-41-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The children planned a space game, and each one wore clothes to look like an astronaut or an alien.",
+      "promptZh": "孩子們計劃了一個太空遊戲,每個人都穿上服裝,裝扮成太空人或外星人。",
+      "starter": "The",
+      "answer": "The children planned a space game, and each one dressed up as an astronaut or an alien.",
+      "answerZh": "孩子們計劃了一個太空遊戲,每個人都裝扮成太空人或外星人。",
+      "highlight": "dressed up as",
+      "targetForm": "dress up as somebody/something",
+      "targetMeaningZh": "裝扮成某人或某物"
+    },
+    {
+      "id": "phrasal-verb-41-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "You are reducing our holiday by two days. Please do not present this as a better work plan.",
+      "promptZh": "你正把我們的假期縮短兩天。請不要把這件事說成一個更好的工作安排。",
+      "starter": "You",
+      "answer": "You are reducing our holiday by two days. Please do not dress it up as a better work plan.",
+      "answerZh": "你正把我們的假期縮短兩天。請不要把這件事包裝成一個更好的工作安排。",
+      "highlight": "dress it up",
+      "targetForm": "dress something up as something",
+      "targetMeaningZh": "把某事包裝成另一回事,使它聽起來較好"
+    },
+    {
+      "id": "phrasal-verb-41-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Nina had come straight from work, but she still found time to make herself look smart before the dinner.",
+      "promptZh": "妮娜直接從工作地點前來,但她仍找到時間在晚宴前把自己打扮得漂亮得體。",
+      "starter": "Nina",
+      "answer": "Nina had come straight from work, but she still found time to dress herself up before the dinner.",
+      "answerZh": "妮娜直接從工作地點前來,但她仍找到時間在晚宴前把自己打扮得漂亮得體。",
+      "highlight": "dress",
+      "targetForm": "dress yourself up",
+      "targetMeaningZh": "把自己打扮得漂亮或正式"
+    },
+    {
+      "id": "phrasal-verb-41-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The restaurant was expensive, but the group agreed to wear casual clothes so everyone could relax.",
+      "promptZh": "餐廳十分昂貴,但大家同意穿便服,讓所有人都可以放鬆。",
+      "starter": "The",
+      "answer": "The restaurant was expensive, but the group agreed to dress down so everyone could relax.",
+      "answerZh": "餐廳十分昂貴,但大家同意穿得較隨便,讓所有人都可以放鬆。",
+      "highlight": "dress down",
+      "targetForm": "dress down",
+      "targetMeaningZh": "穿得較隨便;穿便服"
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+{
+  "id": "phrasal-verb-312",
+  "order": 312,
+  "slug": "reach",
+  "version": "1",
+  "title": "REACH 動詞片語",
+  "titleEn": "Reach",
+  "titleZh": "REACH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 297 - REACH.pdf",
+    "sourceNumber": 297,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 REACH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to REACH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "REACH",
+      "highlight": "REACH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Please reach out to us if you need support.",
+      "zh": "如需支援,請主動聯絡我們。",
+      "highlight": "reach out to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The child reached for the toy.",
+      "zh": "那個孩子伸手去拿玩具。",
+      "highlight": "reached for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She reached into her bag for her phone.",
+      "zh": "她把手伸進袋子拿電話。",
+      "highlight": "reached into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "主動聯絡別人,或在需要時尋求幫助或支援；伸手去拿、抓住或觸碰某物；把手伸進袋子、盒子或其他空間內；越過某人或某物伸手；把手或手臂向後伸；把手橫過一段空間、伸過開口,或朝某個方向伸去",
+    "en": "reach out; reach out to somebody; reach out for help/support; reach for something; reach into something; reach over; reach over somebody/something; reach back; reach across; reach through; reach towards/toward",
+    "naturalZh": [
+      "主動聯絡別人,或在需要時尋求幫助或支援",
+      "伸手去拿、抓住或觸碰某物",
+      "把手伸進袋子、盒子或其他空間內",
+      "越過某人或某物伸手",
+      "把手或手臂向後伸",
+      "把手橫過一段空間、伸過開口,或朝某個方向伸去"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "reach out; reach out to somebody; reach out for help/support",
+      "titleZh": "主動聯絡別人,或在需要時尋求幫助或支援",
+      "titleEn": "reach out; reach out to somebody; reach out for help/support",
+      "descriptionZh": "主動聯絡別人,或在需要時尋求幫助或支援",
+      "descriptionEn": "Please reach out to us if you need support.",
+      "examples": [
+        {
+          "en": "Please reach out to us if you need support.",
+          "zh": "如需支援,請主動聯絡我們。",
+          "highlight": "reach out to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "reach for something",
+      "titleZh": "伸手去拿、抓住或觸碰某物",
+      "titleEn": "reach for something",
+      "descriptionZh": "伸手去拿、抓住或觸碰某物",
+      "descriptionEn": "The child reached for the toy.",
+      "examples": [
+        {
+          "en": "The child reached for the toy.",
+          "zh": "那個孩子伸手去拿玩具。",
+          "highlight": "reached for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "reach into something",
+      "titleZh": "把手伸進袋子、盒子或其他空間內",
+      "titleEn": "reach into something",
+      "descriptionZh": "把手伸進袋子、盒子或其他空間內",
+      "descriptionEn": "She reached into her bag for her phone.",
+      "examples": [
+        {
+          "en": "She reached into her bag for her phone.",
+          "zh": "她把手伸進袋子拿電話。",
+          "highlight": "reached into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "reach over; reach over somebody/something",
+      "titleZh": "越過某人或某物伸手",
+      "titleEn": "reach over; reach over somebody/something",
+      "descriptionZh": "越過某人或某物伸手",
+      "descriptionEn": "He reached over the table for the salt.",
+      "examples": [
+        {
+          "en": "He reached over the table for the salt.",
+          "zh": "他越過桌面伸手拿鹽。",
+          "highlight": "reached over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "reach back",
+      "titleZh": "把手或手臂向後伸",
+      "titleEn": "reach back",
+      "descriptionZh": "把手或手臂向後伸",
+      "descriptionEn": "Without turning, she reached back for her coat.",
+      "examples": [
+        {
+          "en": "Without turning, she reached back for her coat.",
+          "zh": "她沒有轉身,只把手向後伸去拿外套。",
+          "highlight": "reached back"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "reach across; reach through; reach towards/toward",
+      "titleZh": "把手橫過一段空間、伸過開口,或朝某個方向伸去",
+      "titleEn": "reach across; reach through; reach towards/toward",
+      "descriptionZh": "把手橫過一段空間、伸過開口,或朝某個方向伸去",
+      "descriptionEn": "He reached through the window towards the handle.",
+      "examples": [
+        {
+          "en": "He reached through the window towards the handle.",
+          "zh": "他把手伸過窗戶,伸向門柄。",
+          "highlight": "reached through"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "REACH 片語動詞的實際用途",
+    "labelEn": "REACH Phrasal Verbs in Use",
+    "summaryZh": "reach out 可以表示主動聯絡某人或機構;reach out for help 則可以表示尋求協助。；reach into、reach over、reach back、reach across、reach through 和 reach towards 可以清楚說明手或手臂移動的方向。；這些表達可用於說明如何拿取物件、按下按鈕、打開東西或幫助別人。；reach for 強調想要觸碰或拿取的物件;其他 REACH 表達則說明伸手的路線或方向。",
+    "summaryEn": "Reach out can describe contacting a person or organisation, while reach out for help can describe asking for support. Reach into, reach over, reach back, reach across, reach through and reach towards show clearly where a hand or arm moves. These expressions are useful when explaining how to take an object, press a button, open something or help another person. Reach for focuses on the object a person wants to touch or take. Other REACH expressions show the route or direction of the movement.",
+    "contextsZh": [
+      "使用 REACH 談論聯絡和支援",
+      "清楚描述動作的方向",
+      "在日常情境中作出清晰指示",
+      "分辨相近的伸手動作"
+    ],
+    "contextsEn": [
+      "Use REACH to talk about contact and support",
+      "Describe the exact direction of a movement",
+      "Give clear instructions in everyday situations",
+      "Distinguish similar hand movements"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 REACH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the REACH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "reach out; reach out to somebody; reach out for help/support",
+    "fixedHighlight": "reach out; reach out to somebody; reach out for help/support",
+    "fixedZh": "閱讀整句,選出意思相同的 REACH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the REACH expression that gives the same meaning.",
+    "correct": "reach out to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；reach out 本身已可以構成完整表達。加入 to somebody,可指出你主動聯絡的人或團體;加入 forhelp 或 for support,則可指出你尋求的幫助。；在本練習中,伸手拿取或觸碰實物時使用 reach for;尋求幫助或支援時使用 reach out for。",
+    "variableEn": "Keep the same people, things, time and meaning. Reach out can be complete by itself. Add to somebody to name the person or group you contact. Add for help or for support to name what you seek. reach out reach out to the school office reach out for help In this exercise, use reach for when a person moves a hand towards a physical object. Use reach out for when a person seeks help or support.",
+    "variableItemsZh": [
+      "reach out; reach out to somebody; reach out for help/support",
+      "reach for something",
+      "reach into something",
+      "reach over; reach over somebody/something",
+      "reach back",
+      "reach across; reach through; reach towards/toward"
+    ],
+    "variableItemsEn": [
+      "reach out; reach out to somebody; reach out for help/support",
+      "reach for something",
+      "reach into something",
+      "reach over; reach over somebody/something",
+      "reach back",
+      "reach across; reach through; reach towards/toward"
+    ],
+    "forms": [
+      {
+        "formZh": "主動聯絡別人,或在需要時尋求幫助或支援",
+        "formEn": "reach out; reach out to somebody; reach out for help/support",
+        "exampleZh": "如需支援,請主動聯絡我們。",
+        "exampleEn": "Please reach out to us if you need support.",
+        "highlight": "reach out to"
+      },
+      {
+        "formZh": "伸手去拿、抓住或觸碰某物",
+        "formEn": "reach for something",
+        "exampleZh": "那個孩子伸手去拿玩具。",
+        "exampleEn": "The child reached for the toy.",
+        "highlight": "reached for"
+      },
+      {
+        "formZh": "把手伸進袋子、盒子或其他空間內",
+        "formEn": "reach into something",
+        "exampleZh": "她把手伸進袋子拿電話。",
+        "exampleEn": "She reached into her bag for her phone.",
+        "highlight": "reached into"
+      },
+      {
+        "formZh": "越過某人或某物伸手",
+        "formEn": "reach over; reach over somebody/something",
+        "exampleZh": "他越過桌面伸手拿鹽。",
+        "exampleEn": "He reached over the table for the salt.",
+        "highlight": "reached over"
+      },
+      {
+        "formZh": "把手或手臂向後伸",
+        "formEn": "reach back",
+        "exampleZh": "她沒有轉身,只把手向後伸去拿外套。",
+        "exampleEn": "Without turning, she reached back for her coat.",
+        "highlight": "reached back"
+      },
+      {
+        "formZh": "把手橫過一段空間、伸過開口,或朝某個方向伸去",
+        "formEn": "reach across; reach through; reach towards/toward",
+        "exampleZh": "他把手伸過窗戶,伸向門柄。",
+        "exampleEn": "He reached through the window towards the handle.",
+        "highlight": "reached through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "主動聯絡別人,或在需要時尋求幫助或支援",
+      "titleEn": "reach out; reach out to somebody; reach out for help/support",
+      "formula": "reach out; reach out to somebody; reach out for help/support",
+      "highlight": "reach out; reach out to somebody; reach out for help/support",
+      "descriptionZh": "主動聯絡別人,或在需要時尋求幫助或支援",
+      "descriptionEn": "Please reach out to us if you need support.",
+      "examples": [
+        {
+          "en": "Please reach out to us if you need support.",
+          "zh": "如需支援,請主動聯絡我們。",
+          "highlight": "reach out to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "伸手去拿、抓住或觸碰某物",
+      "titleEn": "reach for something",
+      "formula": "reach for something",
+      "highlight": "reach for something",
+      "descriptionZh": "伸手去拿、抓住或觸碰某物",
+      "descriptionEn": "The child reached for the toy.",
+      "examples": [
+        {
+          "en": "The child reached for the toy.",
+          "zh": "那個孩子伸手去拿玩具。",
+          "highlight": "reached for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把手伸進袋子、盒子或其他空間內",
+      "titleEn": "reach into something",
+      "formula": "reach into something",
+      "highlight": "reach into something",
+      "descriptionZh": "把手伸進袋子、盒子或其他空間內",
+      "descriptionEn": "She reached into her bag for her phone.",
+      "examples": [
+        {
+          "en": "She reached into her bag for her phone.",
+          "zh": "她把手伸進袋子拿電話。",
+          "highlight": "reached into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "越過某人或某物伸手",
+      "titleEn": "reach over; reach over somebody/something",
+      "formula": "reach over; reach over somebody/something",
+      "highlight": "reach over; reach over somebody/something",
+      "descriptionZh": "越過某人或某物伸手",
+      "descriptionEn": "He reached over the table for the salt.",
+      "examples": [
+        {
+          "en": "He reached over the table for the salt.",
+          "zh": "他越過桌面伸手拿鹽。",
+          "highlight": "reached over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把手或手臂向後伸",
+      "titleEn": "reach back",
+      "formula": "reach back",
+      "highlight": "reach back",
+      "descriptionZh": "把手或手臂向後伸",
+      "descriptionEn": "Without turning, she reached back for her coat.",
+      "examples": [
+        {
+          "en": "Without turning, she reached back for her coat.",
+          "zh": "她沒有轉身,只把手向後伸去拿外套。",
+          "highlight": "reached back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把手橫過一段空間、伸過開口,或朝某個方向伸去",
+      "titleEn": "reach across; reach through; reach towards/toward",
+      "formula": "reach across; reach through; reach towards/toward",
+      "highlight": "reach across; reach through; reach towards/toward",
+      "descriptionZh": "把手橫過一段空間、伸過開口,或朝某個方向伸去",
+      "descriptionEn": "He reached through the window towards the handle.",
+      "examples": [
+        {
+          "en": "He reached through the window towards the handle.",
+          "zh": "他把手伸過窗戶,伸向門柄。",
+          "highlight": "reached through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 REACH 談論聯絡和支援",
+      "titleEn": "Use REACH to talk about contact and support",
+      "zh": "reach out 可以表示主動聯絡某人或機構;reach out for help 則可以表示尋求協助。",
+      "en": "Reach out can describe contacting a person or organisation, while reach out for help can describe asking for support."
+    },
+    {
+      "titleZh": "清楚描述動作的方向",
+      "titleEn": "Describe the exact direction of a movement",
+      "zh": "reach into、reach over、reach back、reach across、reach through 和 reach towards 可以清楚說明手或手臂移動的方向。",
+      "en": "Reach into, reach over, reach back, reach across, reach through and reach towards show clearly where a hand or arm moves."
+    },
+    {
+      "titleZh": "在日常情境中作出清晰指示",
+      "titleEn": "Give clear instructions in everyday situations",
+      "zh": "這些表達可用於說明如何拿取物件、按下按鈕、打開東西或幫助別人。",
+      "en": "These expressions are useful when explaining how to take an object, press a button, open something or help another person."
+    },
+    {
+      "titleZh": "分辨相近的伸手動作",
+      "titleEn": "Distinguish similar hand movements",
+      "zh": "reach for 強調想要觸碰或拿取的物件;其他 REACH 表達則說明伸手的路線或方向。",
+      "en": "Reach for focuses on the object a person wants to touch or take. Other REACH expressions show the route or direction of the movement."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 REACH 談論聯絡和支援",
+      "清楚描述動作的方向",
+      "在日常情境中作出清晰指示",
+      "分辨相近的伸手動作"
+    ],
+    "contextsEn": [
+      "Use REACH to talk about contact and support",
+      "Describe the exact direction of a movement",
+      "Give clear instructions in everyday situations",
+      "Distinguish similar hand movements"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 REACH 談論聯絡和支援",
+        "titleEn": "Use REACH to talk about contact and support",
+        "zh": "reach out 可以表示主動聯絡某人或機構;reach out for help 則可以表示尋求協助。",
+        "en": "Reach out can describe contacting a person or organisation, while reach out for help can describe asking for support.",
+        "examples": [
+          {
+            "en": "Please reach out to us if you need support.",
+            "zh": "如需支援,請主動聯絡我們。",
+            "highlight": "reach out to"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述動作的方向",
+        "titleEn": "Describe the exact direction of a movement",
+        "zh": "reach into、reach over、reach back、reach across、reach through 和 reach towards 可以清楚說明手或手臂移動的方向。",
+        "en": "Reach into, reach over, reach back, reach across, reach through and reach towards show clearly where a hand or arm moves.",
+        "examples": [
+          {
+            "en": "The child reached for the toy.",
+            "zh": "那個孩子伸手去拿玩具。",
+            "highlight": "reached for"
+          }
+        ]
+      },
+      {
+        "titleZh": "在日常情境中作出清晰指示",
+        "titleEn": "Give clear instructions in everyday situations",
+        "zh": "這些表達可用於說明如何拿取物件、按下按鈕、打開東西或幫助別人。",
+        "en": "These expressions are useful when explaining how to take an object, press a button, open something or help another person.",
+        "examples": [
+          {
+            "en": "She reached into her bag for her phone.",
+            "zh": "她把手伸進袋子拿電話。",
+            "highlight": "reached into"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨相近的伸手動作",
+        "titleEn": "Distinguish similar hand movements",
+        "zh": "reach for 強調想要觸碰或拿取的物件;其他 REACH 表達則說明伸手的路線或方向。",
+        "en": "Reach for focuses on the object a person wants to touch or take. Other REACH expressions show the route or direction of the movement.",
+        "examples": [
+          {
+            "en": "He reached over the table for the salt.",
+            "zh": "他越過桌面伸手拿鹽。",
+            "highlight": "reached over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 REACH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the REACH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 REACH 片語動詞。",
+      "en": "Read the whole sentence and choose the REACH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "reach out 本身已可以構成完整表達。加入 to somebody,可指出你主動聯絡的人或團體;加入 forhelp 或 for support,則可指出你尋求的幫助。",
+      "titleEn": "Reach out can be complete by itself.",
+      "zh": "reach out 本身已可以構成完整表達。加入 to somebody,可指出你主動聯絡的人或團體;加入 forhelp 或 for support,則可指出你尋求的幫助。",
+      "en": "Reach out can be complete by itself. Add to somebody to name the person or group you contact. Add for help or for support to name what you seek. reach out reach out to the school office reach out for help"
+    },
+    {
+      "titleZh": "在本練習中,伸手拿取或觸碰實物時使用 reach for;尋求幫助或支援時使用 reach out for。",
+      "titleEn": "In this exercise, use reach for when a person moves a hand towards a physical object.",
+      "zh": "在本練習中,伸手拿取或觸碰實物時使用 reach for;尋求幫助或支援時使用 reach out for。",
+      "en": "In this exercise, use reach for when a person moves a hand towards a physical object. Use reach out for when a person seeks help or support."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 REACH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to REACH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "REACH 動詞片語句子改寫練習",
+    "titleEn": "REACH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 REACH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to REACH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-312-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Please contact the school office if you need help.",
+      "promptZh": "如需協助,請聯絡學校辦事處。",
+      "starter": "Please",
+      "answer": "Please reach out to the school office if you need help.",
+      "answerZh": "如需協助,請聯絡學校辦事處。",
+      "highlight": "reach out to",
+      "targetForm": "reach out to somebody",
+      "targetMeaningZh": "主動聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-312-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Owen put his hand inside his pocket for the key.",
+      "promptZh": "歐文把手伸進口袋拿鎖匙。",
+      "starter": "Owen",
+      "answer": "Owen reached into his pocket for the key.",
+      "answerZh": "歐文把手伸進口袋拿鎖匙。",
+      "highlight": "reached into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The menu was at the opposite end of the long table, so Lena stretched from one side to the other to take it.",
+      "promptZh": "餐牌放在長桌的另一端,所以莉娜把手從一邊伸到另一邊去拿。",
+      "starter": "The",
+      "answer": "The menu was at the opposite end of the long table, so Lena reached across the table to take it.",
+      "answerZh": "餐牌放在長桌的另一端,所以莉娜把手橫過桌面去拿。",
+      "highlight": "reached across",
+      "targetForm": "reach across something",
+      "targetMeaningZh": "把手橫過某處"
+    },
+    {
+      "id": "phrasal-verb-312-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The child moved his hand towards the biscuit.",
+      "promptZh": "那個孩子把手伸向餅乾。",
+      "starter": "The",
+      "answer": "The child reached for the biscuit.",
+      "answerZh": "那個孩子伸手去拿餅乾。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Sofia moved her hand behind her for the bag.",
+      "promptZh": "索菲亞把手向後伸去拿袋子。",
+      "starter": "Sofia",
+      "answer": "Sofia reached back for the bag.",
+      "answerZh": "索菲亞把手向後伸去拿袋子。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Several dishes stood between Ravi and the bread, so he stretched his arm above them to take it.",
+      "promptZh": "幾碟食物放在拉維和麵包之間,所以他把手臂伸到它們上方去拿麵包。",
+      "starter": "Several",
+      "answer": "Several dishes stood between Ravi and the bread, so he reached over them to take it.",
+      "answerZh": "幾碟食物放在拉維和麵包之間,所以他越過它們伸手去拿麵包。",
+      "highlight": "reached over",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "When Ella felt worried, she sought support.",
+      "promptZh": "埃拉感到擔心時,便尋求支援。",
+      "starter": "When",
+      "answer": "When Ella felt worried, she reached out for support.",
+      "answerZh": "埃拉感到擔心時,便尋求支援。",
+      "highlight": "reached out for",
+      "targetForm": "reach out for something",
+      "targetMeaningZh": "主動尋求幫助或支援"
+    },
+    {
+      "id": "phrasal-verb-312-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The cat pushed its paw into the narrow gap until it appeared on the other side.",
+      "promptZh": "那隻貓把爪伸進狹窄的縫隙,直至爪子在另一邊出現。",
+      "starter": "The",
+      "answer": "The cat reached through the narrow gap with its paw.",
+      "answerZh": "那隻貓把爪伸過狹窄的縫隙。",
+      "highlight": "reached through",
+      "targetForm": "reach through something",
+      "targetMeaningZh": "把手或身體一部分伸過某個開口"
+    },
+    {
+      "id": "phrasal-verb-312-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The nurse put one hand inside the bag for a bandage.",
+      "promptZh": "護士把一隻手伸進袋子拿繃帶。",
+      "starter": "The",
+      "answer": "The nurse reached into the bag for a bandage.",
+      "answerZh": "護士把一隻手伸進袋子拿繃帶。",
+      "highlight": "reached into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The child was in front of the window, so the teacher stretched past him to close it.",
+      "promptZh": "那個孩子站在窗前,所以老師伸手越過他把窗關上。",
+      "starter": "The",
+      "answer": "The child was in front of the window, so the teacher reached over him to close it.",
+      "answerZh": "那個孩子站在窗前,所以老師越過他伸手把窗關上。",
+      "highlight": "reached over",
+      "targetForm": "reach over somebody",
+      "targetMeaningZh": "越過某人伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nora moved her hand to press the light switch.",
+      "promptZh": "諾拉伸手去按電燈開關。",
+      "starter": "Nora",
+      "answer": "Nora reached for the light switch.",
+      "answerZh": "諾拉伸手去按電燈開關。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Without turning, Ben stretched one arm behind him.",
+      "promptZh": "賓沒有轉身,只把一隻手臂向後伸。",
+      "starter": "Without",
+      "answer": "Without turning, Ben reached back with one arm.",
+      "answerZh": "賓沒有轉身,只把一隻手臂向後伸。",
+      "highlight": "reached back with",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "He is moving his hand towards his glasses.",
+      "promptZh": "他正把手伸向自己的眼鏡。",
+      "starter": "He",
+      "answer": "He is reaching for his glasses.",
+      "answerZh": "他正伸手去拿自己的眼鏡。",
+      "highlight": "reaching for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The club is contacting former members this week.",
+      "promptZh": "該會本星期正聯絡舊會員。",
+      "starter": "The",
+      "answer": "The club is reaching out to former members this week.",
+      "answerZh": "該會本星期正聯絡舊會員。",
+      "highlight": "reaching out to",
+      "targetForm": "reach out to somebody",
+      "targetMeaningZh": "主動聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-312-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The remote is behind the high back of the sofa, and she is stretching above it to get the remote.",
+      "promptZh": "遙控器在梳化高高的椅背後面,她正把手伸到椅背上方去拿。",
+      "starter": "The",
+      "answer": "The remote is behind the high back of the sofa, and she is reaching over it to get the remote.",
+      "answerZh": "遙控器在梳化高高的椅背後面,她正越過椅背伸手去拿。",
+      "highlight": "reaching over",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The boy is moving his hand in the direction of the warm light.",
+      "promptZh": "那個男孩正把手伸向暖和的光線。",
+      "starter": "The",
+      "answer": "The boy is reaching towards the warm light.",
+      "answerZh": "那個男孩正把手伸向暖和的光線。",
+      "highlight": "reaching towards",
+      "targetForm": "reach towards/toward something",
+      "targetMeaningZh": "把手伸向某物"
+    },
+    {
+      "id": "phrasal-verb-312-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Aisha is putting her hand inside the drawer.",
+      "promptZh": "艾莎正把手伸進抽屜。",
+      "starter": "Aisha",
+      "answer": "Aisha is reaching into the drawer.",
+      "answerZh": "艾莎正把手伸進抽屜。",
+      "highlight": "reaching into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "I am moving my hand behind me to close the door.",
+      "promptZh": "我正把手向後伸去關門。",
+      "starter": "I",
+      "answer": "I am reaching back to close the door.",
+      "answerZh": "我正把手向後伸去關門。",
+      "highlight": "reaching back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "You can seek help whenever the work feels too difficult.",
+      "promptZh": "每當工作太困難時,你都可以尋求協助。",
+      "starter": "You",
+      "answer": "You can reach out for help whenever the work feels too difficult.",
+      "answerZh": "每當工作太困難時,你都可以尋求協助。",
+      "highlight": "reach out for",
+      "targetForm": "reach out for something",
+      "targetMeaningZh": "主動尋求幫助或支援"
+    },
+    {
+      "id": "phrasal-verb-312-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did you move your hand towards the wrong cup?",
+      "promptZh": "你是否伸手去拿了錯的杯子?",
+      "starter": "Did",
+      "answer": "Did you reach for the wrong cup?",
+      "answerZh": "你是否伸手去拿了錯的杯子?",
+      "highlight": "reach for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The window was on the other side of the wide seat, so we stretched from one side to the other to open it.",
+      "promptZh": "窗戶在寬闊座位的另一邊,所以我們把手從一邊伸到另一邊去開窗。",
+      "starter": "The",
+      "answer": "The window was on the other side of the wide seat, so we reached across the seat to open it.",
+      "answerZh": "窗戶在寬闊座位的另一邊,所以我們把手橫過座位去開窗。",
+      "highlight": "reached across",
+      "targetForm": "reach across something",
+      "targetMeaningZh": "把手橫過某處"
+    },
+    {
+      "id": "phrasal-verb-312-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can you stretch your arm to the other side and open the curtain?",
+      "promptZh": "你可以把手臂伸到另一邊,把窗簾拉開嗎?",
+      "starter": "Can",
+      "answer": "Can you reach over and open the curtain?",
+      "answerZh": "你可以伸手越過來把窗簾拉開嗎?",
+      "highlight": "reach over",
+      "targetForm": "reach over",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did Eva stretch behind her for the coat?",
+      "promptZh": "伊娃有沒有把手向後伸去拿外套?",
+      "starter": "Did",
+      "answer": "Did Eva reach back for the coat?",
+      "answerZh": "伊娃有沒有把手向後伸去拿外套?",
+      "highlight": "reach back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why did Sam put his hand inside the box?",
+      "promptZh": "森為甚麼把手伸進盒子?",
+      "starter": "Why",
+      "answer": "Why did Sam reach into the box?",
+      "answerZh": "森為甚麼把手伸進盒子?",
+      "highlight": "reach into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I put my hand inside it and found the key.",
+      "promptZh": "我把手伸進去,然後找到了鎖匙。",
+      "starter": "I",
+      "answer": "I reached into it and found the key.",
+      "answerZh": "我把手伸進去,然後找到了鎖匙。",
+      "highlight": "reached into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The family had contacted three local groups before the event.",
+      "promptZh": "那個家庭在活動前已聯絡三個地區團體。",
+      "starter": "The",
+      "answer": "The family had reached out to three local groups before the event.",
+      "answerZh": "那個家庭在活動前已聯絡三個地區團體。",
+      "highlight": "reached out to",
+      "targetForm": "reach out to somebody",
+      "targetMeaningZh": "主動聯絡某人或團體"
+    },
+    {
+      "id": "phrasal-verb-312-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "As the phone rang, I moved my hand towards it.",
+      "promptZh": "電話響起時,我把手伸向它。",
+      "starter": "As",
+      "answer": "As the phone rang, I reached for it.",
+      "answerZh": "電話響起時,我伸手去拿它。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The window was open, so the child put her hand outside and touched the snow.",
+      "promptZh": "窗戶開着,所以那個孩子把手伸出去觸摸雪。",
+      "starter": "The",
+      "answer": "The window was open, so the child reached through it and touched the snow.",
+      "answerZh": "窗戶開着,所以那個孩子把手伸出去觸摸雪。",
+      "highlight": "reached through it",
+      "targetForm": "reach through something",
+      "targetMeaningZh": "把手伸過某個開口"
+    },
+    {
+      "id": "phrasal-verb-312-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The driver moved one hand behind him and passed the child a bottle.",
+      "promptZh": "司機把一隻手向後伸,遞了一瓶水給那個孩子。",
+      "starter": "The",
+      "answer": "The driver reached back and passed the child a bottle.",
+      "answerZh": "司機把一隻手向後伸,遞了一瓶水給那個孩子。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "He was sitting between me and the bag, so I stretched past him to take it.",
+      "promptZh": "他坐在我和袋子之間,所以我越過他伸手去拿袋子。",
+      "starter": "He",
+      "answer": "He was sitting between me and the bag, so I reached over him to take it.",
+      "answerZh": "他坐在我和袋子之間,所以我越過他伸手去拿袋子。",
+      "highlight": "reached over",
+      "targetForm": "reach over somebody",
+      "targetMeaningZh": "越過某人伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Nobody sought support, although help was available.",
+      "promptZh": "雖然有人可以提供協助,但沒有人尋求支援。",
+      "starter": "Nobody",
+      "answer": "Nobody reached out for support, although help was available.",
+      "answerZh": "雖然有人可以提供協助,但沒有人尋求支援。",
+      "highlight": "reached out for",
+      "targetForm": "reach out for something",
+      "targetMeaningZh": "主動尋求幫助或支援"
+    },
+    {
+      "id": "phrasal-verb-312-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The child had put both hands inside the jar before anyone could stop him.",
+      "promptZh": "在任何人能阻止他之前,那個孩子已把雙手伸進瓶子裏。",
+      "starter": "The",
+      "answer": "The child had reached into the jar with both hands before anyone could stop him.",
+      "answerZh": "在任何人能阻止他之前,那個孩子已把雙手伸進瓶子裏。",
+      "highlight": "reached into the jar with",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "As the room grew colder, Marcus moved one hand in the direction of the heater but did not touch it.",
+      "promptZh": "房間愈來愈冷時,馬庫斯把一隻手伸向暖爐,但沒有碰到它。",
+      "starter": "As",
+      "answer": "As the room grew colder, Marcus reached toward the heater but did not touch it.",
+      "answerZh": "房間愈來愈冷時,馬庫斯把一隻手伸向暖爐,但沒有碰到它。",
+      "highlight": "reached toward",
+      "targetForm": "reach towards/toward something",
+      "targetMeaningZh": "把手伸向某物"
+    },
+    {
+      "id": "phrasal-verb-312-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She had just moved her hand towards the door handle when the door opened.",
+      "promptZh": "她剛把手伸向門柄,門便打開了。",
+      "starter": "She",
+      "answer": "She had just reached for the door handle when the door opened.",
+      "answerZh": "她剛伸手去碰門柄,門便打開了。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The lamp was on the far side of the bed, so the nurse had to stretch to adjust it.",
+      "promptZh": "燈具在病床的另一邊,所以護士必須伸手去調校。",
+      "starter": "The",
+      "answer": "The lamp was on the far side of the bed, so the nurse had to reach over the bed to adjust it.",
+      "answerZh": "燈具在病床的另一邊,所以護士必須越過病床伸手調校。",
+      "highlight": "reach over the bed",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "He had stretched behind the seat for the map.",
+      "promptZh": "他曾把手伸到座位後面拿地圖。",
+      "starter": "He",
+      "answer": "He had reached back behind the seat for the map.",
+      "answerZh": "他曾把手伸到座位後面拿地圖。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Rather than walk around the desk, he stretched above the pile of papers to take the pen.",
+      "promptZh": "他沒有繞過書桌,而是把手伸到那疊文件上方去拿筆。",
+      "starter": "Rather",
+      "answer": "Rather than walk around the desk, he reached over the pile of papers to take the pen.",
+      "answerZh": "他沒有繞過書桌,而是越過那疊文件伸手拿筆。",
+      "highlight": "reached over",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Instead of solving the problem alone, Daniel contacted a classmate who had done the task before.",
+      "promptZh": "丹尼爾沒有獨自解決問題,而是聯絡了一位曾做過這項工作的同學。",
+      "starter": "Instead",
+      "answer": "Instead of solving the problem alone, Daniel reached out to a classmate who had done the task before.",
+      "answerZh": "丹尼爾沒有獨自解決問題,而是聯絡了一位曾做過這項工作的同學。",
+      "highlight": "reached out to",
+      "targetForm": "reach out to somebody",
+      "targetMeaningZh": "主動聯絡某人"
+    },
+    {
+      "id": "phrasal-verb-312-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "From one side of the boat, the guide stretched to the other side and took the rope.",
+      "promptZh": "導遊從船的一邊伸手到另一邊拿繩子。",
+      "starter": "From",
+      "answer": "From one side of the boat, the guide reached across and took the rope.",
+      "answerZh": "導遊從船的一邊把手橫伸過去拿繩子。",
+      "highlight": "reached across",
+      "targetForm": "reach across",
+      "targetMeaningZh": "把手橫過一段空間"
+    },
+    {
+      "id": "phrasal-verb-312-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Without opening the bag fully, she put one hand inside and searched for her wallet.",
+      "promptZh": "她沒有把袋子完全打開,只把一隻手伸進去找銀包。",
+      "starter": "Without",
+      "answer": "Without opening the bag fully, she reached into it and searched for her wallet.",
+      "answerZh": "她沒有把袋子完全打開,只把一隻手伸進去找銀包。",
+      "highlight": "reached into it",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The goalkeeper saw the ball pass above him and stretched one hand towards it.",
+      "promptZh": "守門員看見球從上方飛過,便伸出一隻手去接。",
+      "starter": "The",
+      "answer": "The goalkeeper saw the ball pass above him and reached for it with one hand.",
+      "answerZh": "守門員看見球從上方飛過,便伸出一隻手去接。",
+      "highlight": "reached for it with",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Keeping her eyes on the road, the cyclist moved one hand behind her to check the bag.",
+      "promptZh": "那名單車手一邊望着道路,一邊把一隻手向後伸去檢查袋子。",
+      "starter": "Keeping",
+      "answer": "Keeping her eyes on the road, the cyclist reached back to check the bag.",
+      "answerZh": "那名單車手一邊望着道路,一邊把一隻手向後伸去檢查袋子。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Young people can seek help using this service before a small problem becomes worse.",
+      "promptZh": "年輕人可以在小問題惡化前,使用這項服務尋求協助。",
+      "starter": "Young",
+      "answer": "Young people can reach out for help using this service before a small problem becomes worse.",
+      "answerZh": "年輕人可以在小問題惡化前,使用這項服務尋求協助。",
+      "highlight": "reach out for",
+      "targetForm": "reach out for something",
+      "targetMeaningZh": "主動尋求幫助或支援"
+    },
+    {
+      "id": "phrasal-verb-312-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because the boxes stood between Ava and the wall switch, she stretched past them to touch it.",
+      "promptZh": "盒子放在艾娃和牆上的開關之間,所以她越過盒子伸手按開關。",
+      "starter": "Because",
+      "answer": "Because the boxes stood between Ava and the wall switch, she reached over them to touch it.",
+      "answerZh": "盒子放在艾娃和牆上的開關之間,所以她越過盒子伸手按開關。",
+      "highlight": "reached over",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Beside the engine, the mechanic put his arm inside a small space.",
+      "promptZh": "技工把手臂伸進引擎旁邊的狹小空間。",
+      "starter": "Beside",
+      "answer": "Beside the engine, the mechanic reached into a small space.",
+      "answerZh": "技工把手臂伸進引擎旁邊的狹小空間。",
+      "highlight": "reached into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Because the key had fallen behind the fence, I pushed my arm between two bars until my hand appeared on the other side and took the key.",
+      "promptZh": "鎖匙掉在圍欄後面,所以我把手臂伸進兩根欄杆之間,直至手掌在另一邊出現並拿到鎖匙。",
+      "starter": "Because",
+      "answer": "Because the key had fallen behind the fence, I reached through the bars to take it.",
+      "answerZh": "鎖匙掉在圍欄後面,所以我把手臂伸過欄杆去拿它。",
+      "highlight": "reached through the",
+      "targetForm": "reach through something",
+      "targetMeaningZh": "把手伸過某個開口"
+    },
+    {
+      "id": "phrasal-verb-312-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Without turning, the teacher stretched behind him and found the marker on the shelf.",
+      "promptZh": "老師沒有轉身,只把手向後伸,便在架子上找到白板筆。",
+      "starter": "Without",
+      "answer": "Without turning, the teacher reached back and found the marker on the shelf.",
+      "answerZh": "老師沒有轉身,只把手向後伸,便在架子上找到白板筆。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Without looking, he moved his hand towards the salt instead of the sugar.",
+      "promptZh": "他沒有看清楚,伸手拿了鹽而不是糖。",
+      "starter": "Without",
+      "answer": "Without looking, he reached for the salt instead of the sugar.",
+      "answerZh": "他沒有看清楚,伸手拿了鹽而不是糖。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the lights came on, the actor slowly moved one hand in the direction of the closed box.",
+      "promptZh": "燈亮起時,那名演員慢慢把一隻手伸向關着的盒子。",
+      "starter": "When",
+      "answer": "When the lights came on, the actor slowly reached towards the closed box.",
+      "answerZh": "燈亮起時,那名演員慢慢把一隻手伸向關着的盒子。",
+      "highlight": "reached towards",
+      "targetForm": "reach towards/toward something",
+      "targetMeaningZh": "把手伸向某物"
+    },
+    {
+      "id": "phrasal-verb-312-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After several unsuccessful emails, the organiser decided to contact the community centre directly.",
+      "promptZh": "發出幾封電郵都沒有回覆後,主辦人決定直接聯絡社區中心。",
+      "starter": "After",
+      "answer": "After several unsuccessful emails, the organiser decided to reach out to the community centre directly.",
+      "answerZh": "發出幾封電郵都沒有回覆後,主辦人決定直接聯絡社區中心。",
+      "highlight": "reach out to",
+      "targetForm": "reach out to somebody",
+      "targetMeaningZh": "主動聯絡某人或機構"
+    },
+    {
+      "id": "phrasal-verb-312-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the lights went out, Omar carefully put his hand inside the cupboard to find a candle.",
+      "promptZh": "燈熄滅後,奧馬小心地把手伸進櫃子找蠟燭。",
+      "starter": "When",
+      "answer": "When the lights went out, Omar carefully reached into the cupboard to find a candle.",
+      "answerZh": "燈熄滅後,奧馬小心地把手伸進櫃子找蠟燭。",
+      "highlight": "reached into",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "As the child began to cry, his father stretched one arm behind the front seat and gave him the toy.",
+      "promptZh": "那個孩子開始哭時,父親把一隻手臂伸到前座後面,把玩具遞給他。",
+      "starter": "As",
+      "answer": "As the child began to cry, his father reached back behind the front seat and gave him the toy.",
+      "answerZh": "那個孩子開始哭時,父親把一隻手臂伸到前座後面,把玩具遞給他。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    },
+    {
+      "id": "phrasal-verb-312-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the train moved suddenly, Priya quickly moved her hand towards the rail beside her.",
+      "promptZh": "列車突然移動時,普里雅立即把手伸向旁邊的扶手。",
+      "starter": "When",
+      "answer": "When the train moved suddenly, Priya quickly reached for the rail beside her.",
+      "answerZh": "列車突然移動時,普里雅立即伸手抓住旁邊的扶手。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或抓住某物"
+    },
+    {
+      "id": "phrasal-verb-312-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "While everyone was seated, two guests sat between the waiter and the centre of the table, so he carefully stretched past them to place the dish there.",
+      "promptZh": "所有人都坐着時,兩位客人坐在侍應和桌子中央之間,所以他小心地越過他們把菜放在中央。",
+      "starter": "While",
+      "answer": "While everyone was seated, the waiter carefully reached over two guests to place the dish in the centre.",
+      "answerZh": "所有人都坐着時,侍應小心地越過兩位客人,把菜放在中央。",
+      "highlight": "the waiter carefully reached over",
+      "targetForm": "reach over somebody",
+      "targetMeaningZh": "越過某人伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "She had always helped others, but when she needed support herself, she found it hard to ask.",
+      "promptZh": "她一向幫助別人,但當自己需要支援時,卻覺得很難開口求助。",
+      "starter": "She",
+      "answer": "She had always helped others, but when she needed support herself, she found it hard to reach out.",
+      "answerZh": "她一向幫助別人,但當自己需要支援時,卻覺得很難開口求助。",
+      "highlight": "reach out",
+      "targetForm": "reach out",
+      "targetMeaningZh": "主動聯絡或尋求幫助"
+    },
+    {
+      "id": "phrasal-verb-312-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The kitten was inside the carrier, so Nora put her hand between the bars and gently touched it.",
+      "promptZh": "小貓在寵物箱內,所以諾拉把手伸進欄杆之間,輕輕摸牠。",
+      "starter": "The",
+      "answer": "The kitten was inside the carrier, so Nora reached through the bars and gently touched it.",
+      "answerZh": "小貓在寵物箱內,所以諾拉把手伸過欄杆,輕輕摸牠。",
+      "highlight": "reached through",
+      "targetForm": "reach through something",
+      "targetMeaningZh": "把手伸過某個開口"
+    },
+    {
+      "id": "phrasal-verb-312-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Because the box was deeper than expected, she had to put her whole arm inside it.",
+      "promptZh": "盒子比預期更深,所以她必須把整隻手臂伸進去。",
+      "starter": "Because",
+      "answer": "Because the box was deeper than expected, she had to reach into it with her whole arm.",
+      "answerZh": "盒子比預期更深,所以她必須把整隻手臂伸進去。",
+      "highlight": "reach into it with",
+      "targetForm": "reach into something",
+      "targetMeaningZh": "把手伸進某處"
+    },
+    {
+      "id": "phrasal-verb-312-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The baby slowly stretched both hands towards the bright toy.",
+      "promptZh": "嬰兒慢慢伸出雙手去拿鮮色的玩具。",
+      "starter": "The",
+      "answer": "The baby slowly reached for the bright toy with both hands.",
+      "answerZh": "嬰兒慢慢伸出雙手去拿鮮色的玩具。",
+      "highlight": "reached for",
+      "targetForm": "reach for something",
+      "targetMeaningZh": "伸手去拿或觸碰某物"
+    },
+    {
+      "id": "phrasal-verb-312-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "From his chair, Dad stretched past the small table and pushed the nearly closed window shut.",
+      "promptZh": "爸爸坐在椅子上,越過小桌子伸手,把幾乎關上的窗推緊。",
+      "starter": "From",
+      "answer": "From his chair, Dad reached over the small table and pushed the nearly closed window shut.",
+      "answerZh": "爸爸坐在椅子上,越過小桌子伸手,把幾乎關上的窗推緊。",
+      "highlight": "reached over",
+      "targetForm": "reach over something",
+      "targetMeaningZh": "越過某物伸手"
+    },
+    {
+      "id": "phrasal-verb-312-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "She heard the door closing and moved her hand behind her just in time to stop it.",
+      "promptZh": "她聽到門正在關上,及時把手向後伸去阻止它。",
+      "starter": "She",
+      "answer": "She heard the door closing and reached back just in time to stop it.",
+      "answerZh": "她聽到門正在關上,及時把手向後伸去阻止它。",
+      "highlight": "reached back",
+      "targetForm": "reach back",
+      "targetMeaningZh": "把手向後伸"
+    }
+  ]
+}

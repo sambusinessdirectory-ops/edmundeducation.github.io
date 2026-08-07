@@ -1,0 +1,3068 @@
+{
+  "id": "phrasal-verb-207",
+  "order": 207,
+  "slug": "pass",
+  "version": "1",
+  "title": "PASS 動詞片語",
+  "titleEn": "Pass",
+  "titleZh": "PASS 動詞片語",
+  "level": "B1",
+  "groupCount": 23,
+  "source": {
+    "file": "Phrasal Verbs 205 - PASS.pdf",
+    "sourceNumber": 205,
+    "pageCount": 46,
+    "teachingPdfPages": [
+      1,
+      5
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "contentPdfPages": [
+      1,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "answerKeyPdfPages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PASS 有關的片語動詞和多字詞表達。",
+    "en": "Learn and practise the phrasal verbs and related multi-word expressions with PASS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PASS",
+      "highlight": "PASS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "With that coat, he could pass for a doctor.",
+      "zh": "穿上那件外套,他可能會被當作醫生。",
+      "highlight": "pass for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her grandfather passed away peacefully.",
+      "zh": "她的祖父安詳離世。",
+      "highlight": "passed away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A look of surprise passed between Anna and Ben.",
+      "zh": "安娜和賓之間閃過一個驚訝的眼神。",
+      "highlight": "passed",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "被當作或被接受為某人/某事物；去世;離世,是 die 的較委婉說法；眼神、微笑、說話或默契在兩人之間出現或交流；時間逐漸過去；經過;從某人或某物旁邊走過；進入並成為某語言、文化或制度的一部分；活動或事件以某種方式進行並結束；轉到下一個話題、項目或階段；昏倒;失去知覺；不考慮或不挑選某人擔任職位或獲得機會；從某人或某物上方經過；把某人轉交或轉接給另一人處理；某事沒有影響到或沒有被某人留意;某人錯過機會；把某人或某物交給另一人；把某物依次傳給一群人；把物品、故事或習俗傳給下一代或較年輕的人；裝作某事不重要,或裝作自己沒有受影響；把收到或用完的物品、消息或資料轉交給別人；把物品逐一分發給一群人；放棄或拒絕一個機會、邀請或提議；經歷一段時期、困難或變化；路經某地;短暫經過而不逗留；所有權、責任或控制權轉到另一人或組織",
+    "en": "pass as/for somebody/something; pass away; pass between people; pass by; pass by / pass by somebody/something; pass into something; pass off; pass on; pass out; pass somebody over (for something); pass over somebody/something; pass somebody on to somebody; pass somebody/something by; pass somebody/something over (to somebody); pass something around/round; pass something down (to somebody); pass something off; pass something on (to somebody); pass something out (to somebody); pass something up; pass through something; pass through / pass through something; pass to somebody/something",
+    "naturalZh": [
+      "被當作或被接受為某人/某事物",
+      "去世;離世,是 die 的較委婉說法",
+      "眼神、微笑、說話或默契在兩人之間出現或交流",
+      "時間逐漸過去",
+      "經過;從某人或某物旁邊走過",
+      "進入並成為某語言、文化或制度的一部分",
+      "活動或事件以某種方式進行並結束",
+      "轉到下一個話題、項目或階段",
+      "昏倒;失去知覺",
+      "不考慮或不挑選某人擔任職位或獲得機會",
+      "從某人或某物上方經過",
+      "把某人轉交或轉接給另一人處理",
+      "某事沒有影響到或沒有被某人留意;某人錯過機會",
+      "把某人或某物交給另一人",
+      "把某物依次傳給一群人",
+      "把物品、故事或習俗傳給下一代或較年輕的人",
+      "裝作某事不重要,或裝作自己沒有受影響",
+      "把收到或用完的物品、消息或資料轉交給別人",
+      "把物品逐一分發給一群人",
+      "放棄或拒絕一個機會、邀請或提議",
+      "經歷一段時期、困難或變化",
+      "路經某地;短暫經過而不逗留",
+      "所有權、責任或控制權轉到另一人或組織"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pass as/for somebody/something",
+      "titleZh": "被當作或被接受為某人/某事物",
+      "titleEn": "pass as/for somebody/something",
+      "descriptionZh": "被當作或被接受為某人/某事物",
+      "descriptionEn": "With that coat, he could pass for a doctor.",
+      "examples": [
+        {
+          "en": "With that coat, he could pass for a doctor.",
+          "zh": "穿上那件外套,他可能會被當作醫生。",
+          "highlight": "pass for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass away",
+      "titleZh": "去世;離世,是 die 的較委婉說法",
+      "titleEn": "pass away",
+      "descriptionZh": "去世;離世,是 die 的較委婉說法",
+      "descriptionEn": "Her grandfather passed away peacefully.",
+      "examples": [
+        {
+          "en": "Her grandfather passed away peacefully.",
+          "zh": "她的祖父安詳離世。",
+          "highlight": "passed away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass between people",
+      "titleZh": "眼神、微笑、說話或默契在兩人之間出現或交流",
+      "titleEn": "pass between people",
+      "descriptionZh": "眼神、微笑、說話或默契在兩人之間出現或交流",
+      "descriptionEn": "A look of surprise passed between Anna and Ben.",
+      "examples": [
+        {
+          "en": "A look of surprise passed between Anna and Ben.",
+          "zh": "安娜和賓之間閃過一個驚訝的眼神。",
+          "highlight": "passed"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass by",
+      "titleZh": "時間逐漸過去",
+      "titleEn": "pass by",
+      "descriptionZh": "時間逐漸過去",
+      "descriptionEn": "The days passed by slowly.",
+      "examples": [
+        {
+          "en": "The days passed by slowly.",
+          "zh": "日子慢慢過去。",
+          "highlight": "passed by"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass by / pass by somebody/something",
+      "titleZh": "經過;從某人或某物旁邊走過",
+      "titleEn": "pass by / pass by somebody/something",
+      "descriptionZh": "經過;從某人或某物旁邊走過",
+      "descriptionEn": "We watched the parade pass by.",
+      "examples": [
+        {
+          "en": "We watched the parade pass by.",
+          "zh": "我們看着遊行隊伍經過。",
+          "highlight": "pass by"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass into something",
+      "titleZh": "進入並成為某語言、文化或制度的一部分",
+      "titleEn": "pass into something",
+      "descriptionZh": "進入並成為某語言、文化或制度的一部分",
+      "descriptionEn": "Some French words passed into English.",
+      "examples": [
+        {
+          "en": "Some French words passed into English.",
+          "zh": "一些法語詞彙進入英語,成為其中一部分。",
+          "highlight": "passed into"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass off",
+      "titleZh": "活動或事件以某種方式進行並結束",
+      "titleEn": "pass off",
+      "descriptionZh": "活動或事件以某種方式進行並結束",
+      "descriptionEn": "The event passed off peacefully.",
+      "examples": [
+        {
+          "en": "The event passed off peacefully.",
+          "zh": "活動和平順利地舉行。",
+          "highlight": "passed off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass on",
+      "titleZh": "轉到下一個話題、項目或階段",
+      "titleEn": "pass on",
+      "descriptionZh": "轉到下一個話題、項目或階段",
+      "descriptionEn": "Let us pass on to the next question.",
+      "examples": [
+        {
+          "en": "Let us pass on to the next question.",
+          "zh": "讓我們轉到下一條問題。",
+          "highlight": "pass on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass out",
+      "titleZh": "昏倒;失去知覺",
+      "titleEn": "pass out",
+      "descriptionZh": "昏倒;失去知覺",
+      "descriptionEn": "He almost passed out in the heat.",
+      "examples": [
+        {
+          "en": "He almost passed out in the heat.",
+          "zh": "他在炎熱中差點昏倒。",
+          "highlight": "passed out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass somebody over (for something)",
+      "titleZh": "不考慮或不挑選某人擔任職位或獲得機會",
+      "titleEn": "pass somebody over (for something)",
+      "descriptionZh": "不考慮或不挑選某人擔任職位或獲得機會",
+      "descriptionEn": "She was passed over for promotion.",
+      "examples": [
+        {
+          "en": "She was passed over for promotion.",
+          "zh": "她不獲考慮升職。",
+          "highlight": "passed over for"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass over somebody/something",
+      "titleZh": "從某人或某物上方經過",
+      "titleEn": "pass over somebody/something",
+      "descriptionZh": "從某人或某物上方經過",
+      "descriptionEn": "A plane passed over the school.",
+      "examples": [
+        {
+          "en": "A plane passed over the school.",
+          "zh": "一架飛機從學校上空飛過。",
+          "highlight": "passed over"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass somebody on to somebody",
+      "titleZh": "把某人轉交或轉接給另一人處理",
+      "titleEn": "pass somebody on to somebody",
+      "descriptionZh": "把某人轉交或轉接給另一人處理",
+      "descriptionEn": "I will pass you on to my manager.",
+      "examples": [
+        {
+          "en": "I will pass you on to my manager.",
+          "zh": "我會把你轉接給我的經理。",
+          "highlight": "pass you on to"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pass somebody/something by",
+      "titleZh": "某事沒有影響到或沒有被某人留意;某人錯過機會",
+      "titleEn": "pass somebody/something by",
+      "descriptionZh": "某事沒有影響到或沒有被某人留意;某人錯過機會",
+      "descriptionEn": "He felt that life was passing him by.",
+      "examples": [
+        {
+          "en": "He felt that life was passing him by.",
+          "zh": "他覺得人生正在與他擦身而過。",
+          "highlight": "passing him by"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass somebody/something over (to somebody)",
+      "titleZh": "把某人或某物交給另一人",
+      "titleEn": "pass somebody/something over (to somebody)",
+      "descriptionZh": "把某人或某物交給另一人",
+      "descriptionEn": "She passed the phone over to her brother.",
+      "examples": [
+        {
+          "en": "She passed the phone over to her brother.",
+          "zh": "她把電話遞給弟弟。",
+          "highlight": "passed the phone over to"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something around/round",
+      "titleZh": "把某物依次傳給一群人",
+      "titleEn": "pass something around/round",
+      "descriptionZh": "把某物依次傳給一群人",
+      "descriptionEn": "Please pass the biscuits round.",
+      "examples": [
+        {
+          "en": "Please pass the biscuits round.",
+          "zh": "請把餅乾傳給大家。",
+          "highlight": "pass the biscuits round"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something down (to somebody)",
+      "titleZh": "把物品、故事或習俗傳給下一代或較年輕的人",
+      "titleEn": "pass something down (to somebody)",
+      "descriptionZh": "把物品、故事或習俗傳給下一代或較年輕的人",
+      "descriptionEn": "The story was passed down to the children.",
+      "examples": [
+        {
+          "en": "The story was passed down to the children.",
+          "zh": "這個故事流傳給孩子。",
+          "highlight": "passed down to"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something off",
+      "titleZh": "裝作某事不重要,或裝作自己沒有受影響",
+      "titleEn": "pass something off",
+      "descriptionZh": "裝作某事不重要,或裝作自己沒有受影響",
+      "descriptionEn": "She was upset but tried to pass it off with a smile.",
+      "examples": [
+        {
+          "en": "She was upset but tried to pass it off with a smile.",
+          "zh": "她感到不快,卻嘗試以微笑裝作沒有受影響。",
+          "highlight": "pass it off"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something on (to somebody)",
+      "titleZh": "把收到或用完的物品、消息或資料轉交給別人",
+      "titleEn": "pass something on (to somebody)",
+      "descriptionZh": "把收到或用完的物品、消息或資料轉交給別人",
+      "descriptionEn": "Please pass the message on to Daniel.",
+      "examples": [
+        {
+          "en": "Please pass the message on to Daniel.",
+          "zh": "請把訊息轉交給丹尼爾。",
+          "highlight": "pass the message on to"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something out (to somebody)",
+      "titleZh": "把物品逐一分發給一群人",
+      "titleEn": "pass something out (to somebody)",
+      "descriptionZh": "把物品逐一分發給一群人",
+      "descriptionEn": "The teacher passed the papers out.",
+      "examples": [
+        {
+          "en": "The teacher passed the papers out.",
+          "zh": "老師把試卷分發出去。",
+          "highlight": "passed the papers out"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass something up",
+      "titleZh": "放棄或拒絕一個機會、邀請或提議",
+      "titleEn": "pass something up",
+      "descriptionZh": "放棄或拒絕一個機會、邀請或提議",
+      "descriptionEn": "He passed up the job offer.",
+      "examples": [
+        {
+          "en": "He passed up the job offer.",
+          "zh": "他放棄了那份工作邀請。",
+          "highlight": "passed up"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass through something",
+      "titleZh": "經歷一段時期、困難或變化",
+      "titleEn": "pass through something",
+      "descriptionZh": "經歷一段時期、困難或變化",
+      "descriptionEn": "She passed through a hard period.",
+      "examples": [
+        {
+          "en": "She passed through a hard period.",
+          "zh": "她經歷了一段困難時期。",
+          "highlight": "passed through"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass through / pass through something",
+      "titleZh": "路經某地;短暫經過而不逗留",
+      "titleEn": "pass through / pass through something",
+      "descriptionZh": "路經某地;短暫經過而不逗留",
+      "descriptionEn": "We are only passing through.",
+      "examples": [
+        {
+          "en": "We are only passing through.",
+          "zh": "我們只是路經此地。",
+          "highlight": "passing through"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pass to somebody/something",
+      "titleZh": "所有權、責任或控制權轉到另一人或組織",
+      "titleEn": "pass to somebody/something",
+      "descriptionZh": "所有權、責任或控制權轉到另一人或組織",
+      "descriptionEn": "The house passed to his daughter.",
+      "examples": [
+        {
+          "en": "The house passed to his daughter.",
+          "zh": "房子轉歸他的女兒所有。",
+          "highlight": "passed to"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PASS 片語動詞的實際用途",
+    "labelEn": "PASS Phrasal Verbs in Use",
+    "summaryZh": "PASS 表達可以描述人或車輛經過、從上方越過、路經某地,以及時間逐漸過去。；你可以 pass messages on、pass papers out、pass food round、pass stories down,以及 passcontrol over to somebody。；pass something up 可以表示放棄機會;pass somebody over 可以表示沒有挑選某人;passsomebody by 則可描述機會與某人擦身而過。；pass off 可以描述活動如何進行;pass through 可以描述一段經歷;pass out 表示昏倒;passaway 則是表示某人去世的較委婉說法。",
+    "summaryEn": "PASS expressions can describe people or vehicles going past, moving overhead, travelling through a place and time going by. You can pass messages on, pass papers out, pass food round, pass stories down and pass control over to somebody. Pass something up describes refusing a chance. Pass somebody over describes not choosing them, while pass somebody by can describe opportunities being missed. Pass off describes how an event happens, pass through describes an experience, pass out means to faint, and pass away is a gentle way to say that somebody died.",
+    "contextsZh": [
+      "清楚談論移動、路線和時間",
+      "說明事物如何在人與人或不同世代之間傳遞",
+      "描述選擇、錯過機會和不公平決定",
+      "談論活動、困難時期和較敏感的人生轉變"
+    ],
+    "contextsEn": [
+      "Talk clearly about movement, routes and time",
+      "Explain how things move from one person or generation to another",
+      "Describe choices, missed chances and unfair decisions",
+      "Talk about events, difficult periods and sensitive life changes"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PASS 表達。",
+    "formalEn": "Read the whole sentence and choose the PASS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pass as/for somebody/something",
+    "fixedHighlight": "pass as/for somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 PASS 表達。",
+    "fixedEn": "Read the whole sentence and choose the PASS expression that gives the same meaning.",
+    "correct": "pass for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、結果和意思。；在本練習中,around 和 round 可以表達相同意思;pass as 和 pass for 也可以表達相同的核心意思。；請仔細留意語序。不同位置會表達不同意思,例如 pass over the hospital 表示從醫院上空經過,而 pass him over for promotion 表示升職時沒有考慮他。",
+    "variableEn": "Keep the same people, things, time, result and meaning. Around and round can express the same meaning in this set. Pass as and pass for can also express the same central idea. Read the word order carefully: pass it on pass them out pass the phone over pass him by pass over the hospital pass him over for promotion",
+    "variableItemsZh": [
+      "pass as/for somebody/something",
+      "pass away",
+      "pass between people",
+      "pass by",
+      "pass by / pass by somebody/something",
+      "pass into something",
+      "pass off",
+      "pass on",
+      "pass out",
+      "pass somebody over (for something)",
+      "pass over somebody/something",
+      "pass somebody on to somebody",
+      "pass somebody/something by",
+      "pass somebody/something over (to somebody)",
+      "pass something around/round",
+      "pass something down (to somebody)",
+      "pass something off",
+      "pass something on (to somebody)",
+      "pass something out (to somebody)",
+      "pass something up",
+      "pass through something",
+      "pass through / pass through something",
+      "pass to somebody/something"
+    ],
+    "variableItemsEn": [
+      "pass as/for somebody/something",
+      "pass away",
+      "pass between people",
+      "pass by",
+      "pass by / pass by somebody/something",
+      "pass into something",
+      "pass off",
+      "pass on",
+      "pass out",
+      "pass somebody over (for something)",
+      "pass over somebody/something",
+      "pass somebody on to somebody",
+      "pass somebody/something by",
+      "pass somebody/something over (to somebody)",
+      "pass something around/round",
+      "pass something down (to somebody)",
+      "pass something off",
+      "pass something on (to somebody)",
+      "pass something out (to somebody)",
+      "pass something up",
+      "pass through something",
+      "pass through / pass through something",
+      "pass to somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "被當作或被接受為某人/某事物",
+        "formEn": "pass as/for somebody/something",
+        "exampleZh": "穿上那件外套,他可能會被當作醫生。",
+        "exampleEn": "With that coat, he could pass for a doctor.",
+        "highlight": "pass for"
+      },
+      {
+        "formZh": "去世;離世,是 die 的較委婉說法",
+        "formEn": "pass away",
+        "exampleZh": "她的祖父安詳離世。",
+        "exampleEn": "Her grandfather passed away peacefully.",
+        "highlight": "passed away"
+      },
+      {
+        "formZh": "眼神、微笑、說話或默契在兩人之間出現或交流",
+        "formEn": "pass between people",
+        "exampleZh": "安娜和賓之間閃過一個驚訝的眼神。",
+        "exampleEn": "A look of surprise passed between Anna and Ben.",
+        "highlight": "passed"
+      },
+      {
+        "formZh": "時間逐漸過去",
+        "formEn": "pass by",
+        "exampleZh": "日子慢慢過去。",
+        "exampleEn": "The days passed by slowly.",
+        "highlight": "passed by"
+      },
+      {
+        "formZh": "經過;從某人或某物旁邊走過",
+        "formEn": "pass by / pass by somebody/something",
+        "exampleZh": "我們看着遊行隊伍經過。",
+        "exampleEn": "We watched the parade pass by.",
+        "highlight": "pass by"
+      },
+      {
+        "formZh": "進入並成為某語言、文化或制度的一部分",
+        "formEn": "pass into something",
+        "exampleZh": "一些法語詞彙進入英語,成為其中一部分。",
+        "exampleEn": "Some French words passed into English.",
+        "highlight": "passed into"
+      },
+      {
+        "formZh": "活動或事件以某種方式進行並結束",
+        "formEn": "pass off",
+        "exampleZh": "活動和平順利地舉行。",
+        "exampleEn": "The event passed off peacefully.",
+        "highlight": "passed off"
+      },
+      {
+        "formZh": "轉到下一個話題、項目或階段",
+        "formEn": "pass on",
+        "exampleZh": "讓我們轉到下一條問題。",
+        "exampleEn": "Let us pass on to the next question.",
+        "highlight": "pass on"
+      },
+      {
+        "formZh": "昏倒;失去知覺",
+        "formEn": "pass out",
+        "exampleZh": "他在炎熱中差點昏倒。",
+        "exampleEn": "He almost passed out in the heat.",
+        "highlight": "passed out"
+      },
+      {
+        "formZh": "不考慮或不挑選某人擔任職位或獲得機會",
+        "formEn": "pass somebody over (for something)",
+        "exampleZh": "她不獲考慮升職。",
+        "exampleEn": "She was passed over for promotion.",
+        "highlight": "passed over for"
+      },
+      {
+        "formZh": "從某人或某物上方經過",
+        "formEn": "pass over somebody/something",
+        "exampleZh": "一架飛機從學校上空飛過。",
+        "exampleEn": "A plane passed over the school.",
+        "highlight": "passed over"
+      },
+      {
+        "formZh": "把某人轉交或轉接給另一人處理",
+        "formEn": "pass somebody on to somebody",
+        "exampleZh": "我會把你轉接給我的經理。",
+        "exampleEn": "I will pass you on to my manager.",
+        "highlight": "pass you on to"
+      },
+      {
+        "formZh": "某事沒有影響到或沒有被某人留意;某人錯過機會",
+        "formEn": "pass somebody/something by",
+        "exampleZh": "他覺得人生正在與他擦身而過。",
+        "exampleEn": "He felt that life was passing him by.",
+        "highlight": "passing him by"
+      },
+      {
+        "formZh": "把某人或某物交給另一人",
+        "formEn": "pass somebody/something over (to somebody)",
+        "exampleZh": "她把電話遞給弟弟。",
+        "exampleEn": "She passed the phone over to her brother.",
+        "highlight": "passed the phone over to"
+      },
+      {
+        "formZh": "把某物依次傳給一群人",
+        "formEn": "pass something around/round",
+        "exampleZh": "請把餅乾傳給大家。",
+        "exampleEn": "Please pass the biscuits round.",
+        "highlight": "pass the biscuits round"
+      },
+      {
+        "formZh": "把物品、故事或習俗傳給下一代或較年輕的人",
+        "formEn": "pass something down (to somebody)",
+        "exampleZh": "這個故事流傳給孩子。",
+        "exampleEn": "The story was passed down to the children.",
+        "highlight": "passed down to"
+      },
+      {
+        "formZh": "裝作某事不重要,或裝作自己沒有受影響",
+        "formEn": "pass something off",
+        "exampleZh": "她感到不快,卻嘗試以微笑裝作沒有受影響。",
+        "exampleEn": "She was upset but tried to pass it off with a smile.",
+        "highlight": "pass it off"
+      },
+      {
+        "formZh": "把收到或用完的物品、消息或資料轉交給別人",
+        "formEn": "pass something on (to somebody)",
+        "exampleZh": "請把訊息轉交給丹尼爾。",
+        "exampleEn": "Please pass the message on to Daniel.",
+        "highlight": "pass the message on to"
+      },
+      {
+        "formZh": "把物品逐一分發給一群人",
+        "formEn": "pass something out (to somebody)",
+        "exampleZh": "老師把試卷分發出去。",
+        "exampleEn": "The teacher passed the papers out.",
+        "highlight": "passed the papers out"
+      },
+      {
+        "formZh": "放棄或拒絕一個機會、邀請或提議",
+        "formEn": "pass something up",
+        "exampleZh": "他放棄了那份工作邀請。",
+        "exampleEn": "He passed up the job offer.",
+        "highlight": "passed up"
+      },
+      {
+        "formZh": "經歷一段時期、困難或變化",
+        "formEn": "pass through something",
+        "exampleZh": "她經歷了一段困難時期。",
+        "exampleEn": "She passed through a hard period.",
+        "highlight": "passed through"
+      },
+      {
+        "formZh": "路經某地;短暫經過而不逗留",
+        "formEn": "pass through / pass through something",
+        "exampleZh": "我們只是路經此地。",
+        "exampleEn": "We are only passing through.",
+        "highlight": "passing through"
+      },
+      {
+        "formZh": "所有權、責任或控制權轉到另一人或組織",
+        "formEn": "pass to somebody/something",
+        "exampleZh": "房子轉歸他的女兒所有。",
+        "exampleEn": "The house passed to his daughter.",
+        "highlight": "passed to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "被當作或被接受為某人/某事物",
+      "titleEn": "pass as/for somebody/something",
+      "formula": "pass as/for somebody/something",
+      "highlight": "pass as/for somebody/something",
+      "descriptionZh": "被當作或被接受為某人/某事物",
+      "descriptionEn": "With that coat, he could pass for a doctor.",
+      "examples": [
+        {
+          "en": "With that coat, he could pass for a doctor.",
+          "zh": "穿上那件外套,他可能會被當作醫生。",
+          "highlight": "pass for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "去世;離世,是 die 的較委婉說法",
+      "titleEn": "pass away",
+      "formula": "pass away",
+      "highlight": "pass away",
+      "descriptionZh": "去世;離世,是 die 的較委婉說法",
+      "descriptionEn": "Her grandfather passed away peacefully.",
+      "examples": [
+        {
+          "en": "Her grandfather passed away peacefully.",
+          "zh": "她的祖父安詳離世。",
+          "highlight": "passed away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "眼神、微笑、說話或默契在兩人之間出現或交流",
+      "titleEn": "pass between people",
+      "formula": "pass between people",
+      "highlight": "pass between people",
+      "descriptionZh": "眼神、微笑、說話或默契在兩人之間出現或交流",
+      "descriptionEn": "A look of surprise passed between Anna and Ben.",
+      "examples": [
+        {
+          "en": "A look of surprise passed between Anna and Ben.",
+          "zh": "安娜和賓之間閃過一個驚訝的眼神。",
+          "highlight": "passed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "時間逐漸過去",
+      "titleEn": "pass by",
+      "formula": "pass by",
+      "highlight": "pass by",
+      "descriptionZh": "時間逐漸過去",
+      "descriptionEn": "The days passed by slowly.",
+      "examples": [
+        {
+          "en": "The days passed by slowly.",
+          "zh": "日子慢慢過去。",
+          "highlight": "passed by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "經過;從某人或某物旁邊走過",
+      "titleEn": "pass by / pass by somebody/something",
+      "formula": "pass by / pass by somebody/something",
+      "highlight": "pass by / pass by somebody/something",
+      "descriptionZh": "經過;從某人或某物旁邊走過",
+      "descriptionEn": "We watched the parade pass by.",
+      "examples": [
+        {
+          "en": "We watched the parade pass by.",
+          "zh": "我們看着遊行隊伍經過。",
+          "highlight": "pass by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "進入並成為某語言、文化或制度的一部分",
+      "titleEn": "pass into something",
+      "formula": "pass into something",
+      "highlight": "pass into something",
+      "descriptionZh": "進入並成為某語言、文化或制度的一部分",
+      "descriptionEn": "Some French words passed into English.",
+      "examples": [
+        {
+          "en": "Some French words passed into English.",
+          "zh": "一些法語詞彙進入英語,成為其中一部分。",
+          "highlight": "passed into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "活動或事件以某種方式進行並結束",
+      "titleEn": "pass off",
+      "formula": "pass off",
+      "highlight": "pass off",
+      "descriptionZh": "活動或事件以某種方式進行並結束",
+      "descriptionEn": "The event passed off peacefully.",
+      "examples": [
+        {
+          "en": "The event passed off peacefully.",
+          "zh": "活動和平順利地舉行。",
+          "highlight": "passed off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "轉到下一個話題、項目或階段",
+      "titleEn": "pass on",
+      "formula": "pass on",
+      "highlight": "pass on",
+      "descriptionZh": "轉到下一個話題、項目或階段",
+      "descriptionEn": "Let us pass on to the next question.",
+      "examples": [
+        {
+          "en": "Let us pass on to the next question.",
+          "zh": "讓我們轉到下一條問題。",
+          "highlight": "pass on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "昏倒;失去知覺",
+      "titleEn": "pass out",
+      "formula": "pass out",
+      "highlight": "pass out",
+      "descriptionZh": "昏倒;失去知覺",
+      "descriptionEn": "He almost passed out in the heat.",
+      "examples": [
+        {
+          "en": "He almost passed out in the heat.",
+          "zh": "他在炎熱中差點昏倒。",
+          "highlight": "passed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "不考慮或不挑選某人擔任職位或獲得機會",
+      "titleEn": "pass somebody over (for something)",
+      "formula": "pass somebody over (for something)",
+      "highlight": "pass somebody over (for something)",
+      "descriptionZh": "不考慮或不挑選某人擔任職位或獲得機會",
+      "descriptionEn": "She was passed over for promotion.",
+      "examples": [
+        {
+          "en": "She was passed over for promotion.",
+          "zh": "她不獲考慮升職。",
+          "highlight": "passed over for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "從某人或某物上方經過",
+      "titleEn": "pass over somebody/something",
+      "formula": "pass over somebody/something",
+      "highlight": "pass over somebody/something",
+      "descriptionZh": "從某人或某物上方經過",
+      "descriptionEn": "A plane passed over the school.",
+      "examples": [
+        {
+          "en": "A plane passed over the school.",
+          "zh": "一架飛機從學校上空飛過。",
+          "highlight": "passed over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人轉交或轉接給另一人處理",
+      "titleEn": "pass somebody on to somebody",
+      "formula": "pass somebody on to somebody",
+      "highlight": "pass somebody on to somebody",
+      "descriptionZh": "把某人轉交或轉接給另一人處理",
+      "descriptionEn": "I will pass you on to my manager.",
+      "examples": [
+        {
+          "en": "I will pass you on to my manager.",
+          "zh": "我會把你轉接給我的經理。",
+          "highlight": "pass you on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "某事沒有影響到或沒有被某人留意;某人錯過機會",
+      "titleEn": "pass somebody/something by",
+      "formula": "pass somebody/something by",
+      "highlight": "pass somebody/something by",
+      "descriptionZh": "某事沒有影響到或沒有被某人留意;某人錯過機會",
+      "descriptionEn": "He felt that life was passing him by.",
+      "examples": [
+        {
+          "en": "He felt that life was passing him by.",
+          "zh": "他覺得人生正在與他擦身而過。",
+          "highlight": "passing him by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把某人或某物交給另一人",
+      "titleEn": "pass somebody/something over (to somebody)",
+      "formula": "pass somebody/something over (to somebody)",
+      "highlight": "pass somebody/something over (to somebody)",
+      "descriptionZh": "把某人或某物交給另一人",
+      "descriptionEn": "She passed the phone over to her brother.",
+      "examples": [
+        {
+          "en": "She passed the phone over to her brother.",
+          "zh": "她把電話遞給弟弟。",
+          "highlight": "passed the phone over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把某物依次傳給一群人",
+      "titleEn": "pass something around/round",
+      "formula": "pass something around/round",
+      "highlight": "pass something around/round",
+      "descriptionZh": "把某物依次傳給一群人",
+      "descriptionEn": "Please pass the biscuits round.",
+      "examples": [
+        {
+          "en": "Please pass the biscuits round.",
+          "zh": "請把餅乾傳給大家。",
+          "highlight": "pass the biscuits round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把物品、故事或習俗傳給下一代或較年輕的人",
+      "titleEn": "pass something down (to somebody)",
+      "formula": "pass something down (to somebody)",
+      "highlight": "pass something down (to somebody)",
+      "descriptionZh": "把物品、故事或習俗傳給下一代或較年輕的人",
+      "descriptionEn": "The story was passed down to the children.",
+      "examples": [
+        {
+          "en": "The story was passed down to the children.",
+          "zh": "這個故事流傳給孩子。",
+          "highlight": "passed down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "裝作某事不重要,或裝作自己沒有受影響",
+      "titleEn": "pass something off",
+      "formula": "pass something off",
+      "highlight": "pass something off",
+      "descriptionZh": "裝作某事不重要,或裝作自己沒有受影響",
+      "descriptionEn": "She was upset but tried to pass it off with a smile.",
+      "examples": [
+        {
+          "en": "She was upset but tried to pass it off with a smile.",
+          "zh": "她感到不快,卻嘗試以微笑裝作沒有受影響。",
+          "highlight": "pass it off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "把收到或用完的物品、消息或資料轉交給別人",
+      "titleEn": "pass something on (to somebody)",
+      "formula": "pass something on (to somebody)",
+      "highlight": "pass something on (to somebody)",
+      "descriptionZh": "把收到或用完的物品、消息或資料轉交給別人",
+      "descriptionEn": "Please pass the message on to Daniel.",
+      "examples": [
+        {
+          "en": "Please pass the message on to Daniel.",
+          "zh": "請把訊息轉交給丹尼爾。",
+          "highlight": "pass the message on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "把物品逐一分發給一群人",
+      "titleEn": "pass something out (to somebody)",
+      "formula": "pass something out (to somebody)",
+      "highlight": "pass something out (to somebody)",
+      "descriptionZh": "把物品逐一分發給一群人",
+      "descriptionEn": "The teacher passed the papers out.",
+      "examples": [
+        {
+          "en": "The teacher passed the papers out.",
+          "zh": "老師把試卷分發出去。",
+          "highlight": "passed the papers out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "放棄或拒絕一個機會、邀請或提議",
+      "titleEn": "pass something up",
+      "formula": "pass something up",
+      "highlight": "pass something up",
+      "descriptionZh": "放棄或拒絕一個機會、邀請或提議",
+      "descriptionEn": "He passed up the job offer.",
+      "examples": [
+        {
+          "en": "He passed up the job offer.",
+          "zh": "他放棄了那份工作邀請。",
+          "highlight": "passed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "經歷一段時期、困難或變化",
+      "titleEn": "pass through something",
+      "formula": "pass through something",
+      "highlight": "pass through something",
+      "descriptionZh": "經歷一段時期、困難或變化",
+      "descriptionEn": "She passed through a hard period.",
+      "examples": [
+        {
+          "en": "She passed through a hard period.",
+          "zh": "她經歷了一段困難時期。",
+          "highlight": "passed through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "路經某地;短暫經過而不逗留",
+      "titleEn": "pass through / pass through something",
+      "formula": "pass through / pass through something",
+      "highlight": "pass through / pass through something",
+      "descriptionZh": "路經某地;短暫經過而不逗留",
+      "descriptionEn": "We are only passing through.",
+      "examples": [
+        {
+          "en": "We are only passing through.",
+          "zh": "我們只是路經此地。",
+          "highlight": "passing through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "所有權、責任或控制權轉到另一人或組織",
+      "titleEn": "pass to somebody/something",
+      "formula": "pass to somebody/something",
+      "highlight": "pass to somebody/something",
+      "descriptionZh": "所有權、責任或控制權轉到另一人或組織",
+      "descriptionEn": "The house passed to his daughter.",
+      "examples": [
+        {
+          "en": "The house passed to his daughter.",
+          "zh": "房子轉歸他的女兒所有。",
+          "highlight": "passed to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論移動、路線和時間",
+      "titleEn": "Talk clearly about movement, routes and time",
+      "zh": "PASS 表達可以描述人或車輛經過、從上方越過、路經某地,以及時間逐漸過去。",
+      "en": "PASS expressions can describe people or vehicles going past, moving overhead, travelling through a place and time going by."
+    },
+    {
+      "titleZh": "說明事物如何在人與人或不同世代之間傳遞",
+      "titleEn": "Explain how things move from one person or generation to another",
+      "zh": "你可以 pass messages on、pass papers out、pass food round、pass stories down,以及 passcontrol over to somebody。",
+      "en": "You can pass messages on, pass papers out, pass food round, pass stories down and pass control over to somebody."
+    },
+    {
+      "titleZh": "描述選擇、錯過機會和不公平決定",
+      "titleEn": "Describe choices, missed chances and unfair decisions",
+      "zh": "pass something up 可以表示放棄機會;pass somebody over 可以表示沒有挑選某人;passsomebody by 則可描述機會與某人擦身而過。",
+      "en": "Pass something up describes refusing a chance. Pass somebody over describes not choosing them, while pass somebody by can describe opportunities being missed."
+    },
+    {
+      "titleZh": "談論活動、困難時期和較敏感的人生轉變",
+      "titleEn": "Talk about events, difficult periods and sensitive life changes",
+      "zh": "pass off 可以描述活動如何進行;pass through 可以描述一段經歷;pass out 表示昏倒;passaway 則是表示某人去世的較委婉說法。",
+      "en": "Pass off describes how an event happens, pass through describes an experience, pass out means to faint, and pass away is a gentle way to say that somebody died."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論移動、路線和時間",
+      "說明事物如何在人與人或不同世代之間傳遞",
+      "描述選擇、錯過機會和不公平決定",
+      "談論活動、困難時期和較敏感的人生轉變"
+    ],
+    "contextsEn": [
+      "Talk clearly about movement, routes and time",
+      "Explain how things move from one person or generation to another",
+      "Describe choices, missed chances and unfair decisions",
+      "Talk about events, difficult periods and sensitive life changes"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論移動、路線和時間",
+        "titleEn": "Talk clearly about movement, routes and time",
+        "zh": "PASS 表達可以描述人或車輛經過、從上方越過、路經某地,以及時間逐漸過去。",
+        "en": "PASS expressions can describe people or vehicles going past, moving overhead, travelling through a place and time going by.",
+        "examples": [
+          {
+            "en": "With that coat, he could pass for a doctor.",
+            "zh": "穿上那件外套,他可能會被當作醫生。",
+            "highlight": "pass for"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明事物如何在人與人或不同世代之間傳遞",
+        "titleEn": "Explain how things move from one person or generation to another",
+        "zh": "你可以 pass messages on、pass papers out、pass food round、pass stories down,以及 passcontrol over to somebody。",
+        "en": "You can pass messages on, pass papers out, pass food round, pass stories down and pass control over to somebody.",
+        "examples": [
+          {
+            "en": "Her grandfather passed away peacefully.",
+            "zh": "她的祖父安詳離世。",
+            "highlight": "passed away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述選擇、錯過機會和不公平決定",
+        "titleEn": "Describe choices, missed chances and unfair decisions",
+        "zh": "pass something up 可以表示放棄機會;pass somebody over 可以表示沒有挑選某人;passsomebody by 則可描述機會與某人擦身而過。",
+        "en": "Pass something up describes refusing a chance. Pass somebody over describes not choosing them, while pass somebody by can describe opportunities being missed.",
+        "examples": [
+          {
+            "en": "A look of surprise passed between Anna and Ben.",
+            "zh": "安娜和賓之間閃過一個驚訝的眼神。",
+            "highlight": "passed"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論活動、困難時期和較敏感的人生轉變",
+        "titleEn": "Talk about events, difficult periods and sensitive life changes",
+        "zh": "pass off 可以描述活動如何進行;pass through 可以描述一段經歷;pass out 表示昏倒;passaway 則是表示某人去世的較委婉說法。",
+        "en": "Pass off describes how an event happens, pass through describes an experience, pass out means to faint, and pass away is a gentle way to say that somebody died.",
+        "examples": [
+          {
+            "en": "The days passed by slowly.",
+            "zh": "日子慢慢過去。",
+            "highlight": "passed by"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PASS 表達。",
+      "titleEn": "Read the whole sentence and choose the PASS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PASS 表達。",
+      "en": "Read the whole sentence and choose the PASS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "在本練習中,around 和 round 可以表達相同意思;pass as 和 pass for 也可以表達相同的核心意思。",
+      "titleEn": "Around and round can express the same meaning in this set.",
+      "zh": "在本練習中,around 和 round 可以表達相同意思;pass as 和 pass for 也可以表達相同的核心意思。",
+      "en": "Around and round can express the same meaning in this set. Pass as and pass for can also express the same central idea."
+    },
+    {
+      "titleZh": "請仔細留意語序。不同位置會表達不同意思,例如 pass over the hospital 表示從醫院上空經過,而 pass him over for promotion 表示升職時沒有考慮他。",
+      "titleEn": "Read the word order carefully: pass it on pass them out pass the phone over pass him by pass over the hospital pass him over for promotion.",
+      "zh": "請仔細留意語序。不同位置會表達不同意思,例如 pass over the hospital 表示從醫院上空經過,而 pass him over for promotion 表示升職時沒有考慮他。",
+      "en": "Read the word order carefully: pass it on pass them out pass the phone over pass him by pass over the hospital pass him over for promotion"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PASS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PASS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PASS 動詞片語句子改寫練習",
+    "titleEn": "PASS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PASS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PASS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          23
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          24,
+          46
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          47,
+          69
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          70,
+          92
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          93,
+          115
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-207-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "Her grandfather died peacefully at home last winter.",
+      "promptZh": "她的祖父去年冬天在家中安詳離世。",
+      "starter": "Her",
+      "answer": "Her grandfather passed away peacefully at home last winter.",
+      "answerZh": "她的祖父去年冬天在家中安詳離世。",
+      "highlight": "passed away",
+      "targetForm": "pass away",
+      "targetMeaningZh": "去世;離世,是 die 的較委婉說法"
+    },
+    {
+      "id": "phrasal-verb-207-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "The school bus went past us without stopping.",
+      "promptZh": "校巴從我們身旁駛過,沒有停下來。",
+      "starter": "The",
+      "answer": "The school bus passed by us without stopping.",
+      "answerZh": "校巴從我們身旁駛過,沒有停下來。",
+      "highlight": "passed by",
+      "targetForm": "pass by / pass by somebody/something",
+      "targetMeaningZh": "經過;從某人或某物旁邊走過"
+    },
+    {
+      "id": "phrasal-verb-207-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Please give this message to Daniel when you see him.",
+      "promptZh": "你見到丹尼爾時,請把這個訊息交給他。",
+      "starter": "Please",
+      "answer": "Please pass this message on to Daniel when you see him.",
+      "answerZh": "你見到丹尼爾時,請把這個訊息轉交給他。",
+      "highlight": "pass",
+      "targetForm": "pass something on (to somebody)",
+      "targetMeaningZh": "把收到或用完的物品、消息或資料轉交給別人"
+    },
+    {
+      "id": "phrasal-verb-207-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Eva nearly fainted because the room was so hot.",
+      "promptZh": "房間太熱,伊娃差點昏倒。",
+      "starter": "Eva",
+      "answer": "Eva nearly passed out because the room was so hot.",
+      "answerZh": "房間太熱,伊娃差點昏倒。",
+      "highlight": "passed out",
+      "targetForm": "pass out",
+      "targetMeaningZh": "昏倒;失去知覺"
+    },
+    {
+      "id": "phrasal-verb-207-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "With that uniform, he could easily be mistaken for a police officer.",
+      "promptZh": "穿上那套制服,他很容易被誤以為是警員。",
+      "starter": "With",
+      "answer": "With that uniform, he could easily pass as a police officer.",
+      "answerZh": "穿上那套制服,他很容易被當作警員。",
+      "highlight": "pass as",
+      "targetForm": "pass as/for somebody/something",
+      "targetMeaningZh": "被當作或被接受為某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-207-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Please let everyone in the group see the photos one after another.",
+      "promptZh": "請讓小組內每一個人依次看看這些照片。",
+      "starter": "Please",
+      "answer": "Please pass the photos around the group.",
+      "answerZh": "請把照片在小組內傳閱。",
+      "highlight": "pass the photos around",
+      "targetForm": "pass something around/round",
+      "targetMeaningZh": "把某物依次傳給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "There was still no letter after several weeks.",
+      "promptZh": "幾個星期後,仍然沒有信件寄到。",
+      "starter": "Several",
+      "answer": "Several weeks passed by, but no letter arrived.",
+      "answerZh": "幾個星期過去了,但仍然沒有信件寄到。",
+      "highlight": "Several weeks passed by, but",
+      "targetForm": "pass by",
+      "targetMeaningZh": "時間逐漸過去"
+    },
+    {
+      "id": "phrasal-verb-207-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "The company did not choose Clara for the team leader's job.",
+      "promptZh": "公司沒有挑選克拉拉擔任組長。",
+      "starter": "The",
+      "answer": "The company passed Clara over for the team leader's job.",
+      "answerZh": "公司沒有考慮克拉拉擔任組長。",
+      "highlight": "passed",
+      "targetForm": "pass somebody over (for something)",
+      "targetMeaningZh": "不考慮或不挑選某人擔任職位或獲得機會"
+    },
+    {
+      "id": "phrasal-verb-207-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "We are only travelling through this town; we are not staying.",
+      "promptZh": "我們只是路經這個小鎮,不會逗留。",
+      "starter": "We",
+      "answer": "We are only passing through this town; we are not staying.",
+      "answerZh": "我們只是路經這個小鎮,不會逗留。",
+      "highlight": "passing",
+      "targetForm": "pass through / pass through something",
+      "targetMeaningZh": "路經某地;短暫經過而不逗留"
+    },
+    {
+      "id": "phrasal-verb-207-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The school concert took place without any problems.",
+      "promptZh": "學校音樂會順利舉行,沒有出現任何問題。",
+      "starter": "The",
+      "answer": "The school concert passed off without any problems.",
+      "answerZh": "學校音樂會順利舉行,沒有出現任何問題。",
+      "highlight": "passed off",
+      "targetForm": "pass off",
+      "targetMeaningZh": "活動或事件以某種方式進行並結束"
+    },
+    {
+      "id": "phrasal-verb-207-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The family gave this recipe to each new generation.",
+      "promptZh": "這個家庭把這份食譜傳給一代又一代。",
+      "starter": "The",
+      "answer": "The family passed this recipe down to each new generation.",
+      "answerZh": "這個家庭把這份食譜傳給一代又一代。",
+      "highlight": "passed",
+      "targetForm": "pass something down (to somebody)",
+      "targetMeaningZh": "把物品、故事或習俗傳給下一代或較年輕的人"
+    },
+    {
+      "id": "phrasal-verb-207-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "A quick smile of agreement was exchanged between Anna and Zoe.",
+      "promptZh": "安娜和佐伊交換了一個表示同意的短暫微笑。",
+      "starter": "A",
+      "answer": "A quick smile of agreement passed between Anna and Zoe.",
+      "answerZh": "安娜和佐伊之間閃過一個表示同意的短暫微笑。",
+      "highlight": "passed",
+      "targetForm": "pass between people",
+      "targetMeaningZh": "眼神、微笑、說話或默契在兩人之間出現或交流"
+    },
+    {
+      "id": "phrasal-verb-207-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "Sam refused the chance to study in London.",
+      "promptZh": "山姆放棄了到倫敦讀書的機會。",
+      "starter": "Sam",
+      "answer": "Sam passed up the chance to study in London.",
+      "answerZh": "山姆放棄了到倫敦讀書的機會。",
+      "highlight": "passed up",
+      "targetForm": "pass something up",
+      "targetMeaningZh": "放棄或拒絕一個機會、邀請或提議"
+    },
+    {
+      "id": "phrasal-verb-207-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "I cannot help with bookings, so I will connect you to my colleague.",
+      "promptZh": "我無法協助處理預訂,所以會把你轉接給我的同事。",
+      "starter": "I",
+      "answer": "I cannot help with bookings, so I will pass you on to my colleague.",
+      "answerZh": "我無法協助處理預訂,所以會把你轉接給我的同事。",
+      "highlight": "pass",
+      "targetForm": "pass somebody on to somebody",
+      "targetMeaningZh": "把某人轉交或轉接給另一人處理"
+    },
+    {
+      "id": "phrasal-verb-207-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Many words from French became part of English.",
+      "promptZh": "許多法語詞彙成為了英語的一部分。",
+      "starter": "Many",
+      "answer": "Many words from French passed into English.",
+      "answerZh": "許多法語詞彙進入英語,成為其中一部分。",
+      "highlight": "passed into",
+      "targetForm": "pass into something",
+      "targetMeaningZh": "進入並成為某語言、文化或制度的一部分"
+    },
+    {
+      "id": "phrasal-verb-207-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The teacher gave the worksheets to all the students.",
+      "promptZh": "老師把工作紙分發給所有學生。",
+      "starter": "The",
+      "answer": "The teacher passed the worksheets out to all the students.",
+      "answerZh": "老師把工作紙分發給所有學生。",
+      "highlight": "passed",
+      "targetForm": "pass something out (to somebody)",
+      "targetMeaningZh": "把物品逐一分發給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The whole online trend happened without Leo noticing it.",
+      "promptZh": "整個網上潮流出現了,里奧卻完全沒有留意。",
+      "starter": "The",
+      "answer": "The whole online trend passed Leo by.",
+      "answerZh": "整個網上潮流出現了,里奧卻完全沒有留意。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something by",
+      "targetMeaningZh": "某事沒有影響到或沒有被某人留意;某人錯過機會"
+    },
+    {
+      "id": "phrasal-verb-207-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Let us move to the next question now.",
+      "promptZh": "現在讓我們轉到下一條問題。",
+      "starter": "Let",
+      "answer": "Let us pass on to the next question now.",
+      "answerZh": "現在讓我們轉到下一條問題。",
+      "highlight": "pass on",
+      "targetForm": "pass on",
+      "targetMeaningZh": "轉到下一個話題、項目或階段"
+    },
+    {
+      "id": "phrasal-verb-207-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Jeff gave me the phone so I could speak to Nina.",
+      "promptZh": "傑夫把電話交給我,讓我可以跟妮娜說話。",
+      "starter": "Jeff",
+      "answer": "Jeff passed the phone over to me so I could speak to Nina.",
+      "answerZh": "傑夫把電話遞給我,讓我可以跟妮娜說話。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something over (to somebody)",
+      "targetMeaningZh": "把某人或某物交給另一人"
+    },
+    {
+      "id": "phrasal-verb-207-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "After the move, Priya experienced a difficult period.",
+      "promptZh": "搬家後,普里雅經歷了一段困難時期。",
+      "starter": "After",
+      "answer": "After the move, Priya passed through a difficult period.",
+      "answerZh": "搬家後,普里雅經歷了一段困難時期。",
+      "highlight": "passed through",
+      "targetForm": "pass through something",
+      "targetMeaningZh": "經歷一段時期、困難或變化"
+    },
+    {
+      "id": "phrasal-verb-207-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Although he laughed and pretended the hurtful joke was not important, it had really upset him.",
+      "promptZh": "雖然他笑着裝作那個傷人的笑話並不重要,但它其實令他非常難受。",
+      "starter": "Although",
+      "answer": "Although he passed the hurtful joke off with a laugh, it had really upset him.",
+      "answerZh": "雖然他以笑聲裝作那個傷人的笑話並不重要,但它其實令他非常難受。",
+      "highlight": "passed",
+      "targetForm": "pass something off",
+      "targetMeaningZh": "裝作某事不重要,或裝作自己沒有受影響"
+    },
+    {
+      "id": "phrasal-verb-207-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "A small plane flew directly above the hospital.",
+      "promptZh": "一架小型飛機直接從醫院上空飛過。",
+      "starter": "A",
+      "answer": "A small plane passed directly over the hospital.",
+      "answerZh": "一架小型飛機直接從醫院上空飛過。",
+      "highlight": "passed",
+      "targetForm": "pass over somebody/something",
+      "targetMeaningZh": "從某人或某物上方經過"
+    },
+    {
+      "id": "phrasal-verb-207-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "After the owner retired, control of the shop went to her son.",
+      "promptZh": "店主退休後,店舖的控制權轉到她兒子手上。",
+      "starter": "After",
+      "answer": "After the owner retired, control of the shop passed to her son.",
+      "answerZh": "店主退休後,店舖的控制權轉到她兒子手上。",
+      "highlight": "passed",
+      "targetForm": "pass to somebody/something",
+      "targetMeaningZh": "所有權、責任或控制權轉到另一人或組織"
+    },
+    {
+      "id": "phrasal-verb-207-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Could you give the sandwiches to everyone around the table?",
+      "promptZh": "你可以把三文治傳給桌旁的每一個人嗎?",
+      "starter": "Could",
+      "answer": "Could you pass the sandwiches round the table?",
+      "answerZh": "你可以把三文治沿桌傳給每一個人嗎?",
+      "highlight": "pass",
+      "targetForm": "pass something around/round",
+      "targetMeaningZh": "把某物依次傳給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "This cheap drink could be accepted as coffee if it were hotter.",
+      "promptZh": "這杯便宜飲品如果再熱一點,或許會被當作咖啡。",
+      "starter": "This",
+      "answer": "This cheap drink could pass for coffee if it were hotter.",
+      "answerZh": "這杯便宜飲品如果再熱一點,或許可以被當作咖啡。",
+      "highlight": "pass for",
+      "targetForm": "pass as/for somebody/something",
+      "targetMeaningZh": "被當作或被接受為某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-207-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "He has never fainted during a blood test.",
+      "promptZh": "他從未在驗血時昏倒。",
+      "starter": "He",
+      "answer": "He has never passed out during a blood test.",
+      "answerZh": "他從未在驗血時昏倒。",
+      "highlight": "passed out",
+      "targetForm": "pass out",
+      "targetMeaningZh": "昏倒;失去知覺"
+    },
+    {
+      "id": "phrasal-verb-207-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "New online expressions are becoming part of everyday speech.",
+      "promptZh": "新的網上用語正逐漸成為日常說話的一部分。",
+      "starter": "New",
+      "answer": "New online expressions are passing into everyday speech.",
+      "answerZh": "新的網上用語正逐漸進入日常說話。",
+      "highlight": "passing into",
+      "targetForm": "pass into something",
+      "targetMeaningZh": "進入並成為某語言、文化或制度的一部分"
+    },
+    {
+      "id": "phrasal-verb-207-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "I will give the book to you after I finish it.",
+      "promptZh": "我看完這本書後會把它交給你。",
+      "starter": "I",
+      "answer": "I will pass the book on to you after I finish it.",
+      "answerZh": "我看完這本書後會把它轉交給你。",
+      "highlight": "pass",
+      "targetForm": "pass something on (to somebody)",
+      "targetMeaningZh": "把收到或用完的物品、消息或資料轉交給別人"
+    },
+    {
+      "id": "phrasal-verb-207-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Why did the parade go past the library twice?",
+      "promptZh": "遊行隊伍為甚麼兩次經過圖書館?",
+      "starter": "Why",
+      "answer": "Why did the parade pass by the library twice?",
+      "answerZh": "遊行隊伍為甚麼兩次經過圖書館?",
+      "highlight": "pass by",
+      "targetForm": "pass by / pass by somebody/something",
+      "targetMeaningZh": "經過;從某人或某物旁邊走過"
+    },
+    {
+      "id": "phrasal-verb-207-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Her old dog has died after living a long and happy life.",
+      "promptZh": "她的老狗度過漫長而快樂的一生後離世了。",
+      "starter": "Her",
+      "answer": "Her old dog has passed away after living a long and happy life.",
+      "answerZh": "她的老狗度過漫長而快樂的一生後離世了。",
+      "highlight": "passed away",
+      "targetForm": "pass away",
+      "targetMeaningZh": "去世;離世,是 die 的較委婉說法"
+    },
+    {
+      "id": "phrasal-verb-207-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Why was Omar not chosen for the captain's role?",
+      "promptZh": "奧馬為甚麼沒有獲選擔任隊長?",
+      "starter": "Why",
+      "answer": "Why was Omar passed over for the captain's role?",
+      "answerZh": "奧馬為甚麼沒有獲選擔任隊長?",
+      "highlight": "passed over",
+      "targetForm": "pass somebody over (for something)",
+      "targetMeaningZh": "不考慮或不挑選某人擔任職位或獲得機會"
+    },
+    {
+      "id": "phrasal-verb-207-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "There was still no answer after another month.",
+      "promptZh": "又一個月後,仍然沒有答覆。",
+      "starter": "Another",
+      "answer": "Another month passed by without an answer.",
+      "answerZh": "又一個月過去了,仍然沒有答覆。",
+      "highlight": "passed by without an answer",
+      "targetForm": "pass by",
+      "targetMeaningZh": "時間逐漸過去"
+    },
+    {
+      "id": "phrasal-verb-207-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Are you staying in Cardiff or only travelling through?",
+      "promptZh": "你會留在卡迪夫,還是只是路經此地?",
+      "starter": "Are",
+      "answer": "Are you staying in Cardiff or only passing through?",
+      "answerZh": "你會留在卡迪夫,還是只是路經此地?",
+      "highlight": "passing",
+      "targetForm": "pass through / pass through something",
+      "targetMeaningZh": "路經某地;短暫經過而不逗留"
+    },
+    {
+      "id": "phrasal-verb-207-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "No friendly words were exchanged between the two neighbours.",
+      "promptZh": "兩名鄰居之間沒有交換任何友善的說話。",
+      "starter": "No",
+      "answer": "No friendly words passed between the two neighbours.",
+      "answerZh": "兩名鄰居之間沒有任何友善的說話交流。",
+      "highlight": "passed",
+      "targetForm": "pass between people",
+      "targetMeaningZh": "眼神、微笑、說話或默契在兩人之間出現或交流"
+    },
+    {
+      "id": "phrasal-verb-207-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "She would never refuse an offer like that.",
+      "promptZh": "她絕不會拒絕那樣的提議。",
+      "starter": "She",
+      "answer": "She would never pass up an offer like that.",
+      "answerZh": "她絕不會放棄那樣的提議。",
+      "highlight": "pass up",
+      "targetForm": "pass something up",
+      "targetMeaningZh": "放棄或拒絕一個機會、邀請或提議"
+    },
+    {
+      "id": "phrasal-verb-207-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Did the sports day take place peacefully?",
+      "promptZh": "運動會是否和平順利地舉行?",
+      "starter": "Did",
+      "answer": "Did the sports day pass off peacefully?",
+      "answerZh": "運動會是否和平順利地舉行?",
+      "highlight": "pass off",
+      "targetForm": "pass off",
+      "targetMeaningZh": "活動或事件以某種方式進行並結束"
+    },
+    {
+      "id": "phrasal-verb-207-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "These songs have been taught to children for hundreds of years.",
+      "promptZh": "這些歌曲數百年來一直傳授給孩子。",
+      "starter": "These",
+      "answer": "These songs have been passed down to children for hundreds of years.",
+      "answerZh": "這些歌曲數百年來一直流傳給孩子。",
+      "highlight": "passed down",
+      "targetForm": "pass something down (to somebody)",
+      "targetMeaningZh": "把物品、故事或習俗傳給下一代或較年輕的人"
+    },
+    {
+      "id": "phrasal-verb-207-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "Dark clouds are moving above the hills.",
+      "promptZh": "烏雲正在山丘上空飄過。",
+      "starter": "Dark",
+      "answer": "Dark clouds are passing over the hills.",
+      "answerZh": "烏雲正在山丘上空飄過。",
+      "highlight": "passing over",
+      "targetForm": "pass over somebody/something",
+      "targetMeaningZh": "從某人或某物上方經過"
+    },
+    {
+      "id": "phrasal-verb-207-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The changes in online shopping have not affected this little shop.",
+      "promptZh": "網上購物的轉變並沒有影響這間小店。",
+      "starter": "The",
+      "answer": "The changes in online shopping have passed this little shop by.",
+      "answerZh": "網上購物的轉變並沒有影響這間小店。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something by",
+      "targetMeaningZh": "某事沒有影響到或沒有被某人留意;某人錯過機會"
+    },
+    {
+      "id": "phrasal-verb-207-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Please give the tickets to the guests.",
+      "promptZh": "請把門票分發給賓客。",
+      "starter": "Please",
+      "answer": "Please pass the tickets out to the guests.",
+      "answerZh": "請把門票分發給賓客。",
+      "highlight": "pass",
+      "targetForm": "pass something out (to somebody)",
+      "targetMeaningZh": "把物品逐一分發給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Can we move to the final item?",
+      "promptZh": "我們可以轉到最後一個項目嗎?",
+      "starter": "Can",
+      "answer": "Can we pass on to the final item?",
+      "answerZh": "我們可以轉到最後一個項目嗎?",
+      "highlight": "pass on",
+      "targetForm": "pass on",
+      "targetMeaningZh": "轉到下一個話題、項目或階段"
+    },
+    {
+      "id": "phrasal-verb-207-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The farm will become the property of the eldest daughter.",
+      "promptZh": "農場將會轉歸長女所有。",
+      "starter": "The",
+      "answer": "The farm will pass to the eldest daughter.",
+      "answerZh": "農場將會轉歸長女所有。",
+      "highlight": "pass to",
+      "targetForm": "pass to somebody/something",
+      "targetMeaningZh": "所有權、責任或控制權轉到另一人或組織"
+    },
+    {
+      "id": "phrasal-verb-207-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "Although the fall hurt, Ravi smiled and acted as if nothing was wrong.",
+      "promptZh": "雖然摔倒時受了傷,拉維仍微笑着裝作沒有事。",
+      "starter": "Although",
+      "answer": "Although the fall hurt, Ravi smiled and passed it off.",
+      "answerZh": "雖然摔倒時受了傷,拉維仍微笑着裝作沒有受影響。",
+      "highlight": "passed it off",
+      "targetForm": "pass something off",
+      "targetMeaningZh": "裝作某事不重要,或裝作自己沒有受影響"
+    },
+    {
+      "id": "phrasal-verb-207-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The receptionist is connecting me to the accounts team now.",
+      "promptZh": "接待員現正把我轉接至會計組。",
+      "starter": "The",
+      "answer": "The receptionist is passing me on to the accounts team now.",
+      "answerZh": "接待員現正把我轉接至會計組。",
+      "highlight": "passing",
+      "targetForm": "pass somebody on to somebody",
+      "targetMeaningZh": "把某人轉交或轉接給另一人處理"
+    },
+    {
+      "id": "phrasal-verb-207-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "The family is experiencing a period of change.",
+      "promptZh": "這個家庭正經歷一段轉變時期。",
+      "starter": "The",
+      "answer": "The family is passing through a period of change.",
+      "answerZh": "這個家庭正經歷一段轉變時期。",
+      "highlight": "passing through",
+      "targetForm": "pass through something",
+      "targetMeaningZh": "經歷一段時期、困難或變化"
+    },
+    {
+      "id": "phrasal-verb-207-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Could you give the keys to Yusuf, please?",
+      "promptZh": "你可以把鎖匙遞給優素福嗎?",
+      "starter": "Could",
+      "answer": "Could you pass the keys over to Yusuf, please?",
+      "answerZh": "你可以把鎖匙遞給優素福嗎?",
+      "highlight": "pass",
+      "targetForm": "pass somebody/something over (to somebody)",
+      "targetMeaningZh": "把某人或某物交給另一人"
+    },
+    {
+      "id": "phrasal-verb-207-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "After flying above the city, the helicopter turned towards the sea.",
+      "promptZh": "直升機飛越城市上空後,轉向大海。",
+      "starter": "After",
+      "answer": "After passing over the city, the helicopter turned towards the sea.",
+      "answerZh": "直升機飛越城市上空後,轉向大海。",
+      "highlight": "passing over",
+      "targetForm": "pass over somebody/something",
+      "targetMeaningZh": "從某人或某物上方經過"
+    },
+    {
+      "id": "phrasal-verb-207-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "After receiving the note, I gave it to the head teacher.",
+      "promptZh": "收到便條後,我把它轉交給校長。",
+      "starter": "After",
+      "answer": "After receiving the note, I passed it on to the head teacher.",
+      "answerZh": "收到便條後,我把它轉交給校長。",
+      "highlight": "passed",
+      "targetForm": "pass something on (to somebody)",
+      "targetMeaningZh": "把收到或用完的物品、消息或資料轉交給別人"
+    },
+    {
+      "id": "phrasal-verb-207-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "The children became more tired as the hours continued.",
+      "promptZh": "隨着一小時一小時過去,孩子們愈來愈疲倦。",
+      "starter": "The",
+      "answer": "The children became more tired as the hours passed by.",
+      "answerZh": "隨着一小時一小時過去,孩子們愈來愈疲倦。",
+      "highlight": "passed by",
+      "targetForm": "pass by",
+      "targetMeaningZh": "時間逐漸過去"
+    },
+    {
+      "id": "phrasal-verb-207-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "To be mistaken for a local, Ben would need a better accent.",
+      "promptZh": "要被誤以為是本地人,賓需要更好的口音。",
+      "starter": "To",
+      "answer": "To pass for a local, Ben would need a better accent.",
+      "answerZh": "要被當作本地人,賓需要更好的口音。",
+      "highlight": "pass",
+      "targetForm": "pass as/for somebody/something",
+      "targetMeaningZh": "被當作或被接受為某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-207-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "Once the microphone had been given to Clara, she began the speech.",
+      "promptZh": "咪高峰交給克拉拉後,她便開始演講。",
+      "starter": "Once",
+      "answer": "Once the microphone had been passed over to Clara, she began the speech.",
+      "answerZh": "咪高峰交給克拉拉後,她便開始演講。",
+      "highlight": "passed over",
+      "targetForm": "pass somebody/something over (to somebody)",
+      "targetMeaningZh": "把某人或某物交給另一人"
+    },
+    {
+      "id": "phrasal-verb-207-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "After nearly fainting, Daniel sat down and drank some water.",
+      "promptZh": "差點昏倒後,丹尼爾坐下來喝了一些水。",
+      "starter": "After",
+      "answer": "After nearly passing out, Daniel sat down and drank some water.",
+      "answerZh": "差點昏倒後,丹尼爾坐下來喝了一些水。",
+      "highlight": "passing out",
+      "targetForm": "pass out",
+      "targetMeaningZh": "昏倒;失去知覺"
+    },
+    {
+      "id": "phrasal-verb-207-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "What silent look did the two players exchange?",
+      "promptZh": "兩名球員交換了甚麼無聲的眼神?",
+      "starter": "What",
+      "answer": "What silent look passed between the two players?",
+      "answerZh": "兩名球員之間閃過甚麼無聲的眼神?",
+      "highlight": "passed between",
+      "targetForm": "pass between people",
+      "targetMeaningZh": "眼神、微笑、說話或默契在兩人之間出現或交流"
+    },
+    {
+      "id": "phrasal-verb-207-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "Having travelled through the village, we continued towards the lake.",
+      "promptZh": "路經村莊後,我們繼續向湖邊前進。",
+      "starter": "Having",
+      "answer": "Having passed through the village, we continued towards the lake.",
+      "answerZh": "路經村莊後,我們繼續向湖邊前進。",
+      "highlight": "passed",
+      "targetForm": "pass through / pass through something",
+      "targetMeaningZh": "路經某地;短暫經過而不逗留"
+    },
+    {
+      "id": "phrasal-verb-207-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "Being ignored for the job again made her very disappointed.",
+      "promptZh": "再次不獲考慮擔任該職位,令她非常失望。",
+      "starter": "Being",
+      "answer": "Being passed over for the job again made her very disappointed.",
+      "answerZh": "再次不獲考慮擔任該職位,令她非常失望。",
+      "highlight": "passed over",
+      "targetForm": "pass somebody over (for something)",
+      "targetMeaningZh": "不考慮或不挑選某人擔任職位或獲得機會"
+    },
+    {
+      "id": "phrasal-verb-207-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "The word entered English through music and films.",
+      "promptZh": "這個詞透過音樂和電影進入英語。",
+      "starter": "The",
+      "answer": "The word passed into English through music and films.",
+      "answerZh": "這個詞透過音樂和電影進入英語。",
+      "highlight": "passed into",
+      "targetForm": "pass into something",
+      "targetMeaningZh": "進入並成為某語言、文化或制度的一部分"
+    },
+    {
+      "id": "phrasal-verb-207-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The menu was given from person to person so everyone could read it.",
+      "promptZh": "菜單在人與人之間傳閱,讓每個人都可以閱讀。",
+      "starter": "The",
+      "answer": "The menu was passed around so everyone could read it.",
+      "answerZh": "菜單被傳閱,讓每個人都可以閱讀。",
+      "highlight": "passed around",
+      "targetForm": "pass something around/round",
+      "targetMeaningZh": "把某物依次傳給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "He made a mistake in front of everyone. Laughing and acting as if it was unimportant helped him hide his embarrassment.",
+      "promptZh": "他在眾人面前犯了錯。笑着裝作事情並不重要,幫助他掩飾尷尬。",
+      "starter": "He",
+      "answer": "He made a mistake in front of everyone. Passing it off with a laugh helped him hide his embarrassment.",
+      "answerZh": "他在眾人面前犯了錯。以笑聲裝作事情並不重要,幫助他掩飾尷尬。",
+      "highlight": "Passing",
+      "targetForm": "pass something off",
+      "targetMeaningZh": "裝作某事不重要,或裝作自己沒有受影響"
+    },
+    {
+      "id": "phrasal-verb-207-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "As the runners went past the school gate, the children cheered.",
+      "promptZh": "跑手經過校門時,孩子們歡呼起來。",
+      "starter": "As",
+      "answer": "As the runners passed by the school gate, the children cheered.",
+      "answerZh": "跑手經過校門時,孩子們歡呼起來。",
+      "highlight": "passed by",
+      "targetForm": "pass by / pass by somebody/something",
+      "targetMeaningZh": "經過;從某人或某物旁邊走過"
+    },
+    {
+      "id": "phrasal-verb-207-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "When the old owner died, the hotel became his niece's property.",
+      "promptZh": "老店主去世後,酒店轉歸他的侄女所有。",
+      "starter": "When",
+      "answer": "When the old owner died, the hotel passed to his niece.",
+      "answerZh": "老店主去世後,酒店轉歸他的侄女所有。",
+      "highlight": "passed to",
+      "targetForm": "pass to somebody/something",
+      "targetMeaningZh": "所有權、責任或控制權轉到另一人或組織"
+    },
+    {
+      "id": "phrasal-verb-207-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "The meeting, which took place without argument, ended early.",
+      "promptZh": "會議進行期間沒有爭吵,並提早結束。",
+      "starter": "The",
+      "answer": "The meeting, which passed off without argument, ended early.",
+      "answerZh": "會議進行期間沒有爭吵,並提早結束。",
+      "highlight": "passed off",
+      "targetForm": "pass off",
+      "targetMeaningZh": "活動或事件以某種方式進行並結束"
+    },
+    {
+      "id": "phrasal-verb-207-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "Not wanting another good chance to be missed, Zoe applied at once.",
+      "promptZh": "佐伊不想再錯過好機會,所以立即申請。",
+      "starter": "Not",
+      "answer": "Not wanting another good chance to pass her by, Zoe applied at once.",
+      "answerZh": "佐伊不想再讓好機會溜走,所以立即申請。",
+      "highlight": "pass her by",
+      "targetForm": "pass somebody/something by",
+      "targetMeaningZh": "某事沒有影響到或沒有被某人留意;某人錯過機會"
+    },
+    {
+      "id": "phrasal-verb-207-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "Over many years, the watch had been given from grandmother to granddaughter.",
+      "promptZh": "多年來,這隻手錶一直由祖母傳給孫女。",
+      "starter": "Over",
+      "answer": "Over many years, the watch had been passed down from grandmother to granddaughter.",
+      "answerZh": "多年來,這隻手錶一直由祖母傳給孫女。",
+      "highlight": "passed down",
+      "targetForm": "pass something down (to somebody)",
+      "targetMeaningZh": "把物品、故事或習俗傳給下一代或較年輕的人"
+    },
+    {
+      "id": "phrasal-verb-207-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "After her uncle died, the family planted a tree for him.",
+      "promptZh": "她的叔父去世後,家人為他種了一棵樹。",
+      "starter": "After",
+      "answer": "After her uncle passed away, the family planted a tree for him.",
+      "answerZh": "她的叔父去世後,家人為他種了一棵樹。",
+      "highlight": "passed away",
+      "targetForm": "pass away",
+      "targetMeaningZh": "去世;離世,是 die 的較委婉說法"
+    },
+    {
+      "id": "phrasal-verb-207-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The chance to join the school trip should not be refused.",
+      "promptZh": "不應放棄參加學校旅行的機會。",
+      "starter": "The",
+      "answer": "The chance to join the school trip should not be passed up.",
+      "answerZh": "不應放棄參加學校旅行的機會。",
+      "highlight": "passed up",
+      "targetForm": "pass something up",
+      "targetMeaningZh": "放棄或拒絕一個機會、邀請或提議"
+    },
+    {
+      "id": "phrasal-verb-207-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "If this team cannot help, ask them to connect you to technical support.",
+      "promptZh": "如果這個團隊未能協助,請他們把你轉接至技術支援。",
+      "starter": "If",
+      "answer": "If this team cannot help, ask them to pass you on to technical support.",
+      "answerZh": "如果這個團隊未能協助,請他們把你轉接至技術支援。",
+      "highlight": "pass",
+      "targetForm": "pass somebody on to somebody",
+      "targetMeaningZh": "把某人轉交或轉接給另一人處理"
+    },
+    {
+      "id": "phrasal-verb-207-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "Having experienced a hard year, the club is now doing better.",
+      "promptZh": "經歷了艱難的一年後,這個會社現在的情況有所改善。",
+      "starter": "Having",
+      "answer": "Having passed through a hard year, the club is now doing better.",
+      "answerZh": "經歷了艱難的一年後,這個會社現在的情況有所改善。",
+      "highlight": "passed through",
+      "targetForm": "pass through something",
+      "targetMeaningZh": "經歷一段時期、困難或變化"
+    },
+    {
+      "id": "phrasal-verb-207-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "Before the lesson began, the cards were given to all the groups.",
+      "promptZh": "課堂開始前,卡片已分發給所有小組。",
+      "starter": "Before",
+      "answer": "Before the lesson began, the cards were passed out to all the groups.",
+      "answerZh": "課堂開始前,卡片已分發給所有小組。",
+      "highlight": "passed out",
+      "targetForm": "pass something out (to somebody)",
+      "targetMeaningZh": "把物品逐一分發給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "After discussing the date, the committee moved to the next item: the budget.",
+      "promptZh": "委員會討論日期後,轉到下一個項目:預算。",
+      "starter": "After",
+      "answer": "After discussing the date, the committee passed on to the next item: the budget.",
+      "answerZh": "委員會討論日期後,轉到下一個項目:預算。",
+      "highlight": "passed on",
+      "targetForm": "pass on",
+      "targetMeaningZh": "轉到下一個話題、項目或階段"
+    },
+    {
+      "id": "phrasal-verb-207-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "Some words that began as internet jokes later became part of everyday English.",
+      "promptZh": "有些最初是網上笑話的詞,後來成為日常英語的一部分。",
+      "starter": "Some",
+      "answer": "Some words that began as internet jokes later passed into everyday English.",
+      "answerZh": "有些最初是網上笑話的詞,後來進入日常英語。",
+      "highlight": "passed into",
+      "targetForm": "pass into something",
+      "targetMeaningZh": "進入並成為某語言、文化或制度的一部分"
+    },
+    {
+      "id": "phrasal-verb-207-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "I asked about my bill, so the adviser connected me to someone in payments.",
+      "promptZh": "我查詢帳單,因此顧問把我轉接給付款部門的人員。",
+      "starter": "I",
+      "answer": "I asked about my bill, so the adviser passed me on to someone in payments.",
+      "answerZh": "我查詢帳單,因此顧問把我轉接給付款部門的人員。",
+      "highlight": "passed",
+      "targetForm": "pass somebody on to somebody",
+      "targetMeaningZh": "把某人轉交或轉接給另一人處理"
+    },
+    {
+      "id": "phrasal-verb-207-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The comment clearly upset Anna, but she tried to hide this with a smile.",
+      "promptZh": "那句說話明顯令安娜不快,但她嘗試以微笑掩飾。",
+      "starter": "The",
+      "answer": "The comment clearly upset Anna, but she tried to pass it off with a smile.",
+      "answerZh": "那句說話明顯令安娜不快,但她嘗試以微笑裝作沒有受影響。",
+      "highlight": "pass it off",
+      "targetForm": "pass something off",
+      "targetMeaningZh": "裝作某事不重要,或裝作自己沒有受影響"
+    },
+    {
+      "id": "phrasal-verb-207-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The writer died before her final book was published.",
+      "promptZh": "那名作家在最後一本書出版前去世。",
+      "starter": "The",
+      "answer": "The writer passed away before her final book was published.",
+      "answerZh": "那名作家在最後一本書出版前去世。",
+      "highlight": "passed away",
+      "targetForm": "pass away",
+      "targetMeaningZh": "去世;離世,是 die 的較委婉說法"
+    },
+    {
+      "id": "phrasal-verb-207-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "A drone flew above the garden but did not land there.",
+      "promptZh": "一部無人機飛越花園上空,但沒有在那裏降落。",
+      "starter": "A",
+      "answer": "A drone passed over the garden but did not land there.",
+      "answerZh": "一部無人機飛越花園上空,但沒有在那裏降落。",
+      "highlight": "passed over",
+      "targetForm": "pass over somebody/something",
+      "targetMeaningZh": "從某人或某物上方經過"
+    },
+    {
+      "id": "phrasal-verb-207-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "Why would anyone refuse a free place on the course?",
+      "promptZh": "為甚麼有人會放棄這個課程的免費名額?",
+      "starter": "Why",
+      "answer": "Why would anyone pass up a free place on the course?",
+      "answerZh": "為甚麼有人會放棄這個課程的免費名額?",
+      "highlight": "pass up",
+      "targetForm": "pass something up",
+      "targetMeaningZh": "放棄或拒絕一個機會、邀請或提議"
+    },
+    {
+      "id": "phrasal-verb-207-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "For a moment, a look of worry was shared between the two doctors.",
+      "promptZh": "一瞬間,兩名醫生交換了一個憂慮的眼神。",
+      "starter": "For",
+      "answer": "For a moment, a look of worry passed between the two doctors.",
+      "answerZh": "一瞬間,兩名醫生之間閃過一個憂慮的眼神。",
+      "highlight": "passed",
+      "targetForm": "pass between people",
+      "targetMeaningZh": "眼神、微笑、說話或默契在兩人之間出現或交流"
+    },
+    {
+      "id": "phrasal-verb-207-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "Before leaving, the driver gave control of the bus to another driver.",
+      "promptZh": "離開前,司機把巴士的控制權交給另一名司機。",
+      "starter": "Before",
+      "answer": "Before leaving, the driver passed control of the bus over to another driver.",
+      "answerZh": "離開前,司機把巴士的控制權交給另一名司機。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something over (to somebody)",
+      "targetMeaningZh": "把某人或某物交給另一人"
+    },
+    {
+      "id": "phrasal-verb-207-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The costume was simple, but in the dark it could be mistaken for a real uniform.",
+      "promptZh": "那套服裝很簡單,但在黑暗中可能會被誤以為是真制服。",
+      "starter": "The",
+      "answer": "The costume was simple, but in the dark it could pass as a real uniform.",
+      "answerZh": "那套服裝很簡單,但在黑暗中可能會被當作真制服。",
+      "highlight": "pass as",
+      "targetForm": "pass as/for somebody/something",
+      "targetMeaningZh": "被當作或被接受為某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-207-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "Although rain was expected, the outdoor show took place without trouble.",
+      "promptZh": "雖然預計會下雨,戶外表演仍順利舉行。",
+      "starter": "Although",
+      "answer": "Although rain was expected, the outdoor show passed off without trouble.",
+      "answerZh": "雖然預計會下雨,戶外表演仍順利舉行。",
+      "highlight": "passed off",
+      "targetForm": "pass off",
+      "targetMeaningZh": "活動或事件以某種方式進行並結束"
+    },
+    {
+      "id": "phrasal-verb-207-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "At the door, two volunteers gave a map to every visitor.",
+      "promptZh": "兩名義工在門口把地圖分發給每名訪客。",
+      "starter": "At",
+      "answer": "At the door, two volunteers passed maps out to every visitor.",
+      "answerZh": "兩名義工在門口把地圖分發給每名訪客。",
+      "highlight": "passed maps out",
+      "targetForm": "pass something out (to somebody)",
+      "targetMeaningZh": "把物品逐一分發給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Over the years, the village became much larger.",
+      "promptZh": "多年來,村莊變大了許多。",
+      "starter": "The",
+      "answer": "The years passed by, and the village became much larger.",
+      "answerZh": "多年過去了,村莊變大了許多。",
+      "highlight": "passed by",
+      "targetForm": "pass by",
+      "targetMeaningZh": "時間逐漸過去"
+    },
+    {
+      "id": "phrasal-verb-207-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Under the agreement, the school takes responsibility for the garden next month.",
+      "promptZh": "根據協議,學校下月會接管花園的管理責任。",
+      "starter": "Under",
+      "answer": "Under the agreement, responsibility for the garden passes to the school next month.",
+      "answerZh": "根據協議,花園的管理責任下月會轉到學校。",
+      "highlight": "passes to the school",
+      "targetForm": "pass to somebody/something",
+      "targetMeaningZh": "所有權、責任或控制權轉到另一人或組織"
+    },
+    {
+      "id": "phrasal-verb-207-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Instead of giving everyone a separate copy, the teacher let one picture move around the class.",
+      "promptZh": "老師沒有給每人一份副本,而是讓一張圖片在班內傳閱。",
+      "starter": "Instead",
+      "answer": "Instead of giving everyone a separate copy, the teacher passed one picture around the class.",
+      "answerZh": "老師沒有給每人一份副本,而是讓一張圖片在班內傳閱。",
+      "highlight": "passed",
+      "targetForm": "pass something around/round",
+      "targetMeaningZh": "把某物依次傳給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "The pain was so strong that he thought he might faint.",
+      "promptZh": "痛楚十分強烈,他以為自己可能會昏倒。",
+      "starter": "The",
+      "answer": "The pain was so strong that he thought he might pass out.",
+      "answerZh": "痛楚十分強烈,他以為自己可能會昏倒。",
+      "highlight": "pass out",
+      "targetForm": "pass out",
+      "targetMeaningZh": "昏倒;失去知覺"
+    },
+    {
+      "id": "phrasal-verb-207-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "During her first year abroad, Tara experienced a lonely period.",
+      "promptZh": "塔拉在外地生活的第一年經歷了一段孤單時期。",
+      "starter": "During",
+      "answer": "During her first year abroad, Tara passed through a lonely period.",
+      "answerZh": "塔拉在外地生活的第一年經歷了一段孤單時期。",
+      "highlight": "passed through",
+      "targetForm": "pass through something",
+      "targetMeaningZh": "經歷一段時期、困難或變化"
+    },
+    {
+      "id": "phrasal-verb-207-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "We were having lunch when the parade went past the café.",
+      "promptZh": "遊行隊伍經過咖啡店時,我們正在吃午餐。",
+      "starter": "We",
+      "answer": "We were having lunch when the parade passed by the café.",
+      "answerZh": "遊行隊伍經過咖啡店時,我們正在吃午餐。",
+      "highlight": "passed by",
+      "targetForm": "pass by / pass by somebody/something",
+      "targetMeaningZh": "經過;從某人或某物旁邊走過"
+    },
+    {
+      "id": "phrasal-verb-207-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Once you have read the email, give it to the rest of the team.",
+      "promptZh": "你看完電郵後,把它轉交給團隊其他成員。",
+      "starter": "Once",
+      "answer": "Once you have read the email, pass it on to the rest of the team.",
+      "answerZh": "你看完電郵後,把它轉交給團隊其他成員。",
+      "highlight": "pass",
+      "targetForm": "pass something on (to somebody)",
+      "targetMeaningZh": "把收到或用完的物品、消息或資料轉交給別人"
+    },
+    {
+      "id": "phrasal-verb-207-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Despite her experience, Nina was not considered for promotion.",
+      "promptZh": "儘管妮娜經驗豐富,她仍不獲考慮升職。",
+      "starter": "Despite",
+      "answer": "Despite her experience, Nina was passed over for promotion.",
+      "answerZh": "儘管妮娜經驗豐富,她仍不獲考慮升職。",
+      "highlight": "passed over",
+      "targetForm": "pass somebody over (for something)",
+      "targetMeaningZh": "不考慮或不挑選某人擔任職位或獲得機會"
+    },
+    {
+      "id": "phrasal-verb-207-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "The band stopped for one night while travelling through Manchester.",
+      "promptZh": "樂隊路經曼徹斯特時停留了一晚。",
+      "starter": "The",
+      "answer": "The band stopped for one night while passing through Manchester.",
+      "answerZh": "樂隊路經曼徹斯特時停留了一晚。",
+      "highlight": "passing",
+      "targetForm": "pass through / pass through something",
+      "targetMeaningZh": "路經某地;短暫經過而不逗留"
+    },
+    {
+      "id": "phrasal-verb-207-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Because he never used social media, the whole online discussion happened without him noticing.",
+      "promptZh": "因為他從不使用社交媒體,所以完全沒有留意整場網上討論。",
+      "starter": "Because",
+      "answer": "Because he never used social media, the whole online discussion passed him by.",
+      "answerZh": "因為他從不使用社交媒體,所以完全沒有留意整場網上討論。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something by",
+      "targetMeaningZh": "某事沒有影響到或沒有被某人留意;某人錯過機會"
+    },
+    {
+      "id": "phrasal-verb-207-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "We have finished talking about travel, so let us move to food.",
+      "promptZh": "我們已完成旅遊話題,現在轉到食物。",
+      "starter": "We",
+      "answer": "We have finished talking about travel, so let us pass on to food.",
+      "answerZh": "我們已完成旅遊話題,現在轉到食物。",
+      "highlight": "pass on",
+      "targetForm": "pass on",
+      "targetMeaningZh": "轉到下一個話題、項目或階段"
+    },
+    {
+      "id": "phrasal-verb-207-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "We are now teaching our children the stories that our grandparents taught us.",
+      "promptZh": "我們現正把祖父母教給我們的故事傳給自己的孩子。",
+      "starter": "We",
+      "answer": "We are now passing the stories down to our children, just as our grandparents did.",
+      "answerZh": "我們現正把這些故事傳給自己的孩子,就像祖父母當年所做的一樣。",
+      "highlight": "passing the stories down to",
+      "targetForm": "pass something down (to somebody)",
+      "targetMeaningZh": "把物品、故事或習俗傳給下一代或較年輕的人"
+    },
+    {
+      "id": "phrasal-verb-207-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "Ava saw her friends trying new things and worried that the best years of life were happening without her.",
+      "promptZh": "艾娃看見朋友嘗試新事物,擔心人生最美好的歲月正在與她擦身而過。",
+      "starter": "Ava",
+      "answer": "Ava saw her friends trying new things and worried that life was passing her by.",
+      "answerZh": "艾娃看見朋友嘗試新事物,擔心人生正在與她擦身而過。",
+      "highlight": "was passing",
+      "targetForm": "pass somebody/something by",
+      "targetMeaningZh": "某事沒有影響到或沒有被某人留意;某人錯過機會"
+    },
+    {
+      "id": "phrasal-verb-207-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "No one knew whether the large event would take place peacefully; in the end, there was not a single problem.",
+      "promptZh": "沒有人知道大型活動能否和平進行;最後沒有出現任何問題。",
+      "starter": "No",
+      "answer": "No one knew whether the large event would pass off peacefully; in the end, there was not a single problem.",
+      "answerZh": "沒有人知道大型活動能否和平進行;最後沒有出現任何問題。",
+      "highlight": "pass off",
+      "targetForm": "pass off",
+      "targetMeaningZh": "活動或事件以某種方式進行並結束"
+    },
+    {
+      "id": "phrasal-verb-207-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The song was first sung by her great-grandmother and has been taught to every generation since.",
+      "promptZh": "這首歌最初由她的曾祖母唱出,此後一直傳給每一代。",
+      "starter": "The",
+      "answer": "The song was first sung by her great-grandmother and has been passed down to every generation since.",
+      "answerZh": "這首歌最初由她的曾祖母唱出,此後一直傳給每一代。",
+      "highlight": "passed down",
+      "targetForm": "pass something down (to somebody)",
+      "targetMeaningZh": "把物品、故事或習俗傳給下一代或較年輕的人"
+    },
+    {
+      "id": "phrasal-verb-207-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "Feeling dizzy and unable to see clearly, the runner sat down before she fainted.",
+      "promptZh": "那名跑手感到暈眩並看不清楚,在昏倒前坐了下來。",
+      "starter": "Feeling",
+      "answer": "Feeling dizzy and unable to see clearly, the runner sat down before she passed out.",
+      "answerZh": "那名跑手感到暈眩並看不清楚,在昏倒前坐了下來。",
+      "highlight": "passed out",
+      "targetForm": "pass out",
+      "targetMeaningZh": "昏倒;失去知覺"
+    },
+    {
+      "id": "phrasal-verb-207-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "When the club closes, the community centre will take all responsibility for its library.",
+      "promptZh": "會社關閉後,社區中心將接管其圖書館的所有管理責任。",
+      "starter": "When",
+      "answer": "When the club closes, all responsibility for its library will pass to the community centre.",
+      "answerZh": "會社關閉後,圖書館的所有管理責任將轉到社區中心。",
+      "highlight": "will pass to the community centre",
+      "targetForm": "pass to somebody/something",
+      "targetMeaningZh": "所有權、責任或控制權轉到另一人或組織"
+    },
+    {
+      "id": "phrasal-verb-207-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Just as the last train went past our platform, Daniel realised that he had read the time wrongly.",
+      "promptZh": "最後一班列車剛經過我們的月台時,丹尼爾才發現自己看錯時間。",
+      "starter": "Just",
+      "answer": "Just as the last train passed by our platform, Daniel realised that he had read the time wrongly.",
+      "answerZh": "最後一班列車剛經過我們的月台時,丹尼爾才發現自己看錯時間。",
+      "highlight": "passed by",
+      "targetForm": "pass by / pass by somebody/something",
+      "targetMeaningZh": "經過;從某人或某物旁邊走過"
+    },
+    {
+      "id": "phrasal-verb-207-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Although Yusuf is only sixteen, people could mistake him for someone much older because of his calm voice.",
+      "promptZh": "雖然優素福只有十六歲,但他平靜的聲線可能令人誤以為他年長得多。",
+      "starter": "Although",
+      "answer": "Although Yusuf is only sixteen, he could pass for someone much older because of his calm voice.",
+      "answerZh": "雖然優素福只有十六歲,但他平靜的聲線可能令人以為他年長得多。",
+      "highlight": "he",
+      "targetForm": "pass as/for somebody/something",
+      "targetMeaningZh": "被當作或被接受為某人/某事物"
+    },
+    {
+      "id": "phrasal-verb-207-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "The message came from the head teacher and must now be given to every class teacher.",
+      "promptZh": "這個訊息來自校長,現在必須轉交給每名班主任。",
+      "starter": "The",
+      "answer": "The message came from the head teacher and must now be passed on to every class teacher.",
+      "answerZh": "這個訊息來自校長,現在必須轉交給每名班主任。",
+      "highlight": "passed on",
+      "targetForm": "pass something on (to somebody)",
+      "targetMeaningZh": "把收到或用完的物品、消息或資料轉交給別人"
+    },
+    {
+      "id": "phrasal-verb-207-q101",
+      "number": 101,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "While the rescue helicopter was flying above us, the wind from it shook the trees.",
+      "promptZh": "救援直升機飛越我們上空時,所產生的風令樹木搖晃。",
+      "starter": "While",
+      "answer": "While the rescue helicopter was passing over us, the wind from it shook the trees.",
+      "answerZh": "救援直升機飛越我們上空時,所產生的風令樹木搖晃。",
+      "highlight": "passing over",
+      "targetForm": "pass over somebody/something",
+      "targetMeaningZh": "從某人或某物上方經過"
+    },
+    {
+      "id": "phrasal-verb-207-q102",
+      "number": 102,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Nothing was said, but a look of complete understanding was exchanged between the two friends.",
+      "promptZh": "兩名朋友甚麼也沒有說,但交換了一個完全明白對方的眼神。",
+      "starter": "Nothing",
+      "answer": "Nothing was said, but a look of complete understanding passed between the two friends.",
+      "answerZh": "兩名朋友甚麼也沒有說,但彼此之間閃過一個完全明白對方的眼神。",
+      "highlight": "passed",
+      "targetForm": "pass between people",
+      "targetMeaningZh": "眼神、微笑、說話或默契在兩人之間出現或交流"
+    },
+    {
+      "id": "phrasal-verb-207-q103",
+      "number": 103,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Having waited years for a chance like this, Clara knew she could not refuse it.",
+      "promptZh": "克拉拉等了多年才有這樣的機會,知道自己不能放棄。",
+      "starter": "Having",
+      "answer": "Having waited years for a chance like this, Clara knew she could not pass it up.",
+      "answerZh": "克拉拉等了多年才有這樣的機會,知道自己不能放棄。",
+      "highlight": "pass",
+      "targetForm": "pass something up",
+      "targetMeaningZh": "放棄或拒絕一個機會、邀請或提議"
+    },
+    {
+      "id": "phrasal-verb-207-q104",
+      "number": 104,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "A word that began in computer games has now become part of everyday conversation.",
+      "promptZh": "一個源自電腦遊戲的詞,現在已成為日常對話的一部分。",
+      "starter": "A",
+      "answer": "A word that began in computer games has now passed into everyday conversation.",
+      "answerZh": "一個源自電腦遊戲的詞,現在已進入日常對話。",
+      "highlight": "passed into",
+      "targetForm": "pass into something",
+      "targetMeaningZh": "進入並成為某語言、文化或制度的一部分"
+    },
+    {
+      "id": "phrasal-verb-207-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "When the call ended, Ravi handed the phone to his sister so she could speak to their aunt.",
+      "promptZh": "通話結束時,拉維把電話遞給姐姐,讓她跟姑母說話。",
+      "starter": "When",
+      "answer": "When the call ended, Ravi passed the phone over to his sister so she could speak to their aunt.",
+      "answerZh": "通話結束時,拉維把電話遞給姐姐,讓她跟姑母說話。",
+      "highlight": "passed",
+      "targetForm": "pass somebody/something over (to somebody)",
+      "targetMeaningZh": "把某人或某物交給另一人"
+    },
+    {
+      "id": "phrasal-verb-207-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "We had no plan to stay in the mountain village; it was only a short stop on our way north.",
+      "promptZh": "我們沒有打算留在山村;那只是北上途中的短暫停留。",
+      "starter": "We",
+      "answer": "We had no plan to stay in the mountain village; we were only passing through on our way north.",
+      "answerZh": "我們沒有打算留在山村;只是在北上途中短暫路經。",
+      "highlight": "plan to stay in the mountain village; we were",
+      "targetForm": "pass through / pass through something",
+      "targetMeaningZh": "路經某地;短暫經過而不逗留"
+    },
+    {
+      "id": "phrasal-verb-207-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Before we move to the next point, does anyone have a final question about the timetable?",
+      "promptZh": "轉到下一個要點前,有人對時間表還有最後一條問題嗎?",
+      "starter": "Before",
+      "answer": "Before we pass on to the next point, does anyone have a final question about the timetable?",
+      "answerZh": "轉到下一個要點前,有人對時間表還有最後一條問題嗎?",
+      "highlight": "pass on",
+      "targetForm": "pass on",
+      "targetMeaningZh": "轉到下一個話題、項目或階段"
+    },
+    {
+      "id": "phrasal-verb-207-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "After the famous teacher died, former students shared stories about her kindness.",
+      "promptZh": "那位著名老師去世後,昔日學生分享了關於她善良待人的故事。",
+      "starter": "After",
+      "answer": "After the famous teacher passed away, former students shared stories about her kindness.",
+      "answerZh": "那位著名老師去世後,昔日學生分享了關於她善良待人的故事。",
+      "highlight": "passed away",
+      "targetForm": "pass away",
+      "targetMeaningZh": "去世;離世,是 die 的較委婉說法"
+    },
+    {
+      "id": "phrasal-verb-207-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "Once every student had taken a seat, the exam papers were given to them one by one.",
+      "promptZh": "每名學生坐好後,試卷便逐一分發給他們。",
+      "starter": "Once",
+      "answer": "Once every student had taken a seat, the exam papers were passed out to them one by one.",
+      "answerZh": "每名學生坐好後,試卷便逐一分發給他們。",
+      "highlight": "passed out",
+      "targetForm": "pass something out (to somebody)",
+      "targetMeaningZh": "把物品逐一分發給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "Although Ben had done the work for years, the company chose a newer employee instead of him for the manager's job.",
+      "promptZh": "雖然賓多年來一直負責這項工作,公司仍選了較新的員工而沒有選他擔任經理。",
+      "starter": "Although",
+      "answer": "Although Ben had done the work for years, he was passed over for the manager's job in favour of a newer employee.",
+      "answerZh": "雖然賓多年來一直負責這項工作,他仍不獲考慮擔任經理,公司改為選擇較新的員工。",
+      "highlight": "he was passed over",
+      "targetForm": "pass somebody over (for something)",
+      "targetMeaningZh": "不考慮或不挑選某人擔任職位或獲得機會"
+    },
+    {
+      "id": "phrasal-verb-207-q111",
+      "number": 111,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "At the end of the meal, one box was given from guest to guest so everyone could take a chocolate.",
+      "promptZh": "用餐結束時,一個盒子在賓客之間傳遞,讓每個人都可以拿一粒朱古力。",
+      "starter": "At",
+      "answer": "At the end of the meal, one box was passed round so everyone could take a chocolate.",
+      "answerZh": "用餐結束時,一個盒子在賓客之間傳遞,讓每個人都可以拿一粒朱古力。",
+      "highlight": "passed round",
+      "targetForm": "pass something around/round",
+      "targetMeaningZh": "把某物依次傳給一群人"
+    },
+    {
+      "id": "phrasal-verb-207-q112",
+      "number": 112,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The organiser smiled and tried to make the serious mistake seem unimportant, but no one was fooled.",
+      "promptZh": "主辦人微笑着嘗試裝作那個嚴重錯誤並不重要,但沒有人受騙。",
+      "starter": "The",
+      "answer": "The organiser smiled and tried to pass it off, but no one was fooled.",
+      "answerZh": "主辦人微笑着嘗試裝作那件事並不重要,但沒有人受騙。",
+      "highlight": "pass it off",
+      "targetForm": "pass something off",
+      "targetMeaningZh": "裝作某事不重要,或裝作自己沒有受影響"
+    },
+    {
+      "id": "phrasal-verb-207-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The family became more and more worried as time continued without news.",
+      "promptZh": "一直沒有消息,家人隨着時間過去而愈來愈擔心。",
+      "starter": "As",
+      "answer": "As more time passed by without news, the family became more and more worried.",
+      "answerZh": "隨着時間過去而仍然沒有消息,家人愈來愈擔心。",
+      "highlight": "As more time passed by without news",
+      "targetForm": "pass by",
+      "targetMeaningZh": "時間逐漸過去"
+    },
+    {
+      "id": "phrasal-verb-207-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 45,
+      "prompt": "The first adviser could not solve the problem and connected the caller to a senior colleague.",
+      "promptZh": "第一名顧問無法解決問題,於是把來電者轉接給資深同事。",
+      "starter": "The",
+      "answer": "The first adviser could not solve the problem and passed the caller on to a senior colleague.",
+      "answerZh": "第一名顧問無法解決問題,於是把來電者轉接給資深同事。",
+      "highlight": "passed",
+      "targetForm": "pass somebody on to somebody",
+      "targetMeaningZh": "把某人轉交或轉接給另一人處理"
+    },
+    {
+      "id": "phrasal-verb-207-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 45,
+      "prompt": "After experiencing a period of doubt and low confidence, the young player began to enjoy the game again.",
+      "promptZh": "那名年輕球員經歷了一段懷疑自己和缺乏信心的時期後,再次開始享受比賽。",
+      "starter": "After",
+      "answer": "After passing through a period of doubt and low confidence, the young player began to enjoy the game again.",
+      "answerZh": "那名年輕球員經歷了一段懷疑自己和缺乏信心的時期後,再次開始享受比賽。",
+      "highlight": "passing through",
+      "targetForm": "pass through something",
+      "targetMeaningZh": "經歷一段時期、困難或變化"
+    }
+  ]
+}

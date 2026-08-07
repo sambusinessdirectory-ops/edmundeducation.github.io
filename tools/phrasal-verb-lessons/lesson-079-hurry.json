@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-79",
+  "order": 79,
+  "slug": "hurry",
+  "version": "1",
+  "title": "HURRY 動詞片語",
+  "titleEn": "Hurry",
+  "titleZh": "HURRY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 78 - HURRY.pdf",
+    "sourceNumber": 78,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HURRY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HURRY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HURRY",
+      "highlight": "HURRY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The speaker hurried on to the next point.",
+      "zh": "講者很快便轉到下一個重點。",
+      "highlight": "hurried on to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The guide hurried the group along towards the bus.",
+      "zh": "導遊催促眾人繼續向巴士前進。",
+      "highlight": "hurried the group along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Could you hurry the repair up?",
+      "zh": "你可以加快維修進度嗎?",
+      "highlight": "hurry the repair up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "很快繼續做下一件事;迅速轉到下一項；催促某人繼續前進;使某事加快進度；催促某人加快動作;使某事更快完成；快點;加快動作",
+    "en": "hurry on / hurry on to something; hurry somebody/something along; hurry somebody/something up; hurry up",
+    "naturalZh": [
+      "很快繼續做下一件事;迅速轉到下一項",
+      "催促某人繼續前進;使某事加快進度",
+      "催促某人加快動作;使某事更快完成",
+      "快點;加快動作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hurry on / hurry on to something",
+      "titleZh": "很快繼續做下一件事;迅速轉到下一項",
+      "titleEn": "hurry on / hurry on to something",
+      "descriptionZh": "很快繼續做下一件事;迅速轉到下一項",
+      "descriptionEn": "The speaker hurried on to the next point.",
+      "examples": [
+        {
+          "en": "The speaker hurried on to the next point.",
+          "zh": "講者很快便轉到下一個重點。",
+          "highlight": "hurried on to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hurry somebody/something along",
+      "titleZh": "催促某人繼續前進;使某事加快進度",
+      "titleEn": "hurry somebody/something along",
+      "descriptionZh": "催促某人繼續前進;使某事加快進度",
+      "descriptionEn": "The guide hurried the group along towards the bus.",
+      "examples": [
+        {
+          "en": "The guide hurried the group along towards the bus.",
+          "zh": "導遊催促眾人繼續向巴士前進。",
+          "highlight": "hurried the group along"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hurry somebody/something up",
+      "titleZh": "催促某人加快動作;使某事更快完成",
+      "titleEn": "hurry somebody/something up",
+      "descriptionZh": "催促某人加快動作;使某事更快完成",
+      "descriptionEn": "Could you hurry the repair up?",
+      "examples": [
+        {
+          "en": "Could you hurry the repair up?",
+          "zh": "你可以加快維修進度嗎?",
+          "highlight": "hurry the repair up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hurry up",
+      "titleZh": "快點;加快動作",
+      "titleEn": "hurry up",
+      "descriptionZh": "快點;加快動作",
+      "descriptionEn": "Hurry up, or we will miss the train.",
+      "examples": [
+        {
+          "en": "Hurry up, or we will miss the train.",
+          "zh": "快點,否則我們會錯過火車。",
+          "highlight": "Hurry up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HURRY 片語動詞的實際用途",
+    "labelEn": "HURRY Phrasal Verbs in Use",
+    "summaryZh": "hurry up 可以叫人快一點;hurry somebody up 則可以清楚指出被催促的人。；hurry on 可以描述講者、老師或導遊迅速轉到下一條問題、下一頁、下一個話題或活動。；當人群、隊伍、課堂或活動進展得太慢時,可以使用 hurry somebody or something along。；當你希望訂單、維修、送貨或申請更快完成時,可以使用 hurry something up。",
+    "summaryEn": "Hurry up tells someone to move faster. Hurry somebody up shows who is being encouraged to act faster. Hurry on can describe a speaker, teacher or guide moving quickly to the next question, page, topic or activity. Hurry somebody or something along is useful when a group, queue, lesson or activity is progressing too slowly. Hurry something up can be used when you want an order, repair, delivery or application to be completed more quickly.",
+    "contextsZh": [
+      "清楚表達自己和別人的速度",
+      "自然表達迅速轉到下一部分",
+      "催促人群或活動繼續進行",
+      "要求事情更快完成"
+    ],
+    "contextsEn": [
+      "Talk about your own speed and another person’s speed",
+      "Move naturally from one part to the next",
+      "Keep people and activities moving",
+      "Ask for work to finish sooner"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HURRY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HURRY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hurry on / hurry on to something",
+    "fixedHighlight": "hurry on / hurry on to something",
+    "fixedZh": "閱讀整句,選出意思相同的 HURRY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HURRY expression that gives the same meaning.",
+    "correct": "hurried on to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 HURRY ... ALONG 或 HURRY ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；hurry on to something 表示很快轉到下一件事;hurry up 則表示加快動作。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with HURRY... ALONG or HURRY... UP, place the word as shown: hurry them along hurry him up hurry it up Hurry on to something means continuing quickly to the next thing. Hurry up means doing or moving faster.",
+    "variableItemsZh": [
+      "hurry on / hurry on to something",
+      "hurry somebody/something along",
+      "hurry somebody/something up",
+      "hurry up"
+    ],
+    "variableItemsEn": [
+      "hurry on / hurry on to something",
+      "hurry somebody/something along",
+      "hurry somebody/something up",
+      "hurry up"
+    ],
+    "forms": [
+      {
+        "formZh": "很快繼續做下一件事;迅速轉到下一項",
+        "formEn": "hurry on / hurry on to something",
+        "exampleZh": "講者很快便轉到下一個重點。",
+        "exampleEn": "The speaker hurried on to the next point.",
+        "highlight": "hurried on to"
+      },
+      {
+        "formZh": "催促某人繼續前進;使某事加快進度",
+        "formEn": "hurry somebody/something along",
+        "exampleZh": "導遊催促眾人繼續向巴士前進。",
+        "exampleEn": "The guide hurried the group along towards the bus.",
+        "highlight": "hurried the group along"
+      },
+      {
+        "formZh": "催促某人加快動作;使某事更快完成",
+        "formEn": "hurry somebody/something up",
+        "exampleZh": "你可以加快維修進度嗎?",
+        "exampleEn": "Could you hurry the repair up?",
+        "highlight": "hurry the repair up"
+      },
+      {
+        "formZh": "快點;加快動作",
+        "formEn": "hurry up",
+        "exampleZh": "快點,否則我們會錯過火車。",
+        "exampleEn": "Hurry up, or we will miss the train.",
+        "highlight": "Hurry up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "很快繼續做下一件事;迅速轉到下一項",
+      "titleEn": "hurry on / hurry on to something",
+      "formula": "hurry on / hurry on to something",
+      "highlight": "hurry on / hurry on to something",
+      "descriptionZh": "很快繼續做下一件事;迅速轉到下一項",
+      "descriptionEn": "The speaker hurried on to the next point.",
+      "examples": [
+        {
+          "en": "The speaker hurried on to the next point.",
+          "zh": "講者很快便轉到下一個重點。",
+          "highlight": "hurried on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "催促某人繼續前進;使某事加快進度",
+      "titleEn": "hurry somebody/something along",
+      "formula": "hurry somebody/something along",
+      "highlight": "hurry somebody/something along",
+      "descriptionZh": "催促某人繼續前進;使某事加快進度",
+      "descriptionEn": "The guide hurried the group along towards the bus.",
+      "examples": [
+        {
+          "en": "The guide hurried the group along towards the bus.",
+          "zh": "導遊催促眾人繼續向巴士前進。",
+          "highlight": "hurried the group along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "催促某人加快動作;使某事更快完成",
+      "titleEn": "hurry somebody/something up",
+      "formula": "hurry somebody/something up",
+      "highlight": "hurry somebody/something up",
+      "descriptionZh": "催促某人加快動作;使某事更快完成",
+      "descriptionEn": "Could you hurry the repair up?",
+      "examples": [
+        {
+          "en": "Could you hurry the repair up?",
+          "zh": "你可以加快維修進度嗎?",
+          "highlight": "hurry the repair up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "快點;加快動作",
+      "titleEn": "hurry up",
+      "formula": "hurry up",
+      "highlight": "hurry up",
+      "descriptionZh": "快點;加快動作",
+      "descriptionEn": "Hurry up, or we will miss the train.",
+      "examples": [
+        {
+          "en": "Hurry up, or we will miss the train.",
+          "zh": "快點,否則我們會錯過火車。",
+          "highlight": "Hurry up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達自己和別人的速度",
+      "titleEn": "Talk about your own speed and another person’s speed",
+      "zh": "hurry up 可以叫人快一點;hurry somebody up 則可以清楚指出被催促的人。",
+      "en": "Hurry up tells someone to move faster. Hurry somebody up shows who is being encouraged to act faster."
+    },
+    {
+      "titleZh": "自然表達迅速轉到下一部分",
+      "titleEn": "Move naturally from one part to the next",
+      "zh": "hurry on 可以描述講者、老師或導遊迅速轉到下一條問題、下一頁、下一個話題或活動。",
+      "en": "Hurry on can describe a speaker, teacher or guide moving quickly to the next question, page, topic or activity."
+    },
+    {
+      "titleZh": "催促人群或活動繼續進行",
+      "titleEn": "Keep people and activities moving",
+      "zh": "當人群、隊伍、課堂或活動進展得太慢時,可以使用 hurry somebody or something along。",
+      "en": "Hurry somebody or something along is useful when a group, queue, lesson or activity is progressing too slowly."
+    },
+    {
+      "titleZh": "要求事情更快完成",
+      "titleEn": "Ask for work to finish sooner",
+      "zh": "當你希望訂單、維修、送貨或申請更快完成時,可以使用 hurry something up。",
+      "en": "Hurry something up can be used when you want an order, repair, delivery or application to be completed more quickly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達自己和別人的速度",
+      "自然表達迅速轉到下一部分",
+      "催促人群或活動繼續進行",
+      "要求事情更快完成"
+    ],
+    "contextsEn": [
+      "Talk about your own speed and another person’s speed",
+      "Move naturally from one part to the next",
+      "Keep people and activities moving",
+      "Ask for work to finish sooner"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達自己和別人的速度",
+        "titleEn": "Talk about your own speed and another person’s speed",
+        "zh": "hurry up 可以叫人快一點;hurry somebody up 則可以清楚指出被催促的人。",
+        "en": "Hurry up tells someone to move faster. Hurry somebody up shows who is being encouraged to act faster.",
+        "examples": [
+          {
+            "en": "The speaker hurried on to the next point.",
+            "zh": "講者很快便轉到下一個重點。",
+            "highlight": "hurried on to"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然表達迅速轉到下一部分",
+        "titleEn": "Move naturally from one part to the next",
+        "zh": "hurry on 可以描述講者、老師或導遊迅速轉到下一條問題、下一頁、下一個話題或活動。",
+        "en": "Hurry on can describe a speaker, teacher or guide moving quickly to the next question, page, topic or activity.",
+        "examples": [
+          {
+            "en": "The guide hurried the group along towards the bus.",
+            "zh": "導遊催促眾人繼續向巴士前進。",
+            "highlight": "hurried the group along"
+          }
+        ]
+      },
+      {
+        "titleZh": "催促人群或活動繼續進行",
+        "titleEn": "Keep people and activities moving",
+        "zh": "當人群、隊伍、課堂或活動進展得太慢時,可以使用 hurry somebody or something along。",
+        "en": "Hurry somebody or something along is useful when a group, queue, lesson or activity is progressing too slowly.",
+        "examples": [
+          {
+            "en": "Could you hurry the repair up?",
+            "zh": "你可以加快維修進度嗎?",
+            "highlight": "hurry the repair up"
+          }
+        ]
+      },
+      {
+        "titleZh": "要求事情更快完成",
+        "titleEn": "Ask for work to finish sooner",
+        "zh": "當你希望訂單、維修、送貨或申請更快完成時,可以使用 hurry something up。",
+        "en": "Hurry something up can be used when you want an order, repair, delivery or application to be completed more quickly.",
+        "examples": [
+          {
+            "en": "Hurry up, or we will miss the train.",
+            "zh": "快點,否則我們會錯過火車。",
+            "highlight": "Hurry up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HURRY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HURRY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HURRY 片語動詞。",
+      "en": "Read the whole sentence and choose the HURRY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 HURRY ... ALONG 或 HURRY ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them with HURRY.",
+      "zh": "在 HURRY ... ALONG 或 HURRY ... UP 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them with HURRY... ALONG or HURRY... UP, place the word as shown: hurry them along hurry him up hurry it up"
+    },
+    {
+      "titleZh": "hurry on to something 表示很快轉到下一件事;hurry up 則表示加快動作。",
+      "titleEn": "Hurry on to something means continuing quickly to the next thing.",
+      "zh": "hurry on to something 表示很快轉到下一件事;hurry up 則表示加快動作。",
+      "en": "Hurry on to something means continuing quickly to the next thing. Hurry up means doing or moving faster."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HURRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HURRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HURRY 動詞片語句子改寫練習",
+    "titleEn": "HURRY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HURRY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HURRY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-79-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The speaker quickly continued to the next question.",
+      "promptZh": "講者很快便轉到下一條問題。",
+      "starter": "The",
+      "answer": "The speaker hurried on to the next question.",
+      "answerZh": "講者很快便轉到下一條問題。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please move faster; the bus is waiting.",
+      "promptZh": "請快一點;巴士正在等候。",
+      "starter": "Please",
+      "answer": "Please hurry up; the bus is waiting.",
+      "answerZh": "請快一點;巴士正在等候。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The guide urged the visitors to keep moving towards the exit.",
+      "promptZh": "導遊催促參觀者繼續向出口前進。",
+      "starter": "The",
+      "answer": "The guide hurried the visitors along towards the exit.",
+      "answerZh": "導遊催促參觀者繼續向出口前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Mum urged Aaron to get dressed faster because he was too slow.",
+      "promptZh": "媽媽催促亞倫快點穿好衣服,因為他動作太慢。",
+      "starter": "Mum",
+      "answer": "Mum hurried Aaron up because he was getting dressed too slowly.",
+      "answerZh": "媽媽催促亞倫快點穿好衣服,因為他穿得太慢。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody up",
+      "targetMeaningZh": "催促某人加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After one short comment, the teacher quickly moved to the next page.",
+      "promptZh": "老師簡短說了一句後,很快便轉到下一頁。",
+      "starter": "After",
+      "answer": "After one short comment, the teacher hurried on to the next page.",
+      "answerZh": "老師簡短說了一句後,很快便轉到下一頁。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We must move faster if we want to catch the train.",
+      "promptZh": "要趕上火車,我們必須快一點。",
+      "starter": "We",
+      "answer": "We must hurry up if we want to catch the train.",
+      "answerZh": "要趕上火車,我們必須快一點。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher urged the children to keep moving towards the hall.",
+      "promptZh": "老師催促孩子們繼續向禮堂前進。",
+      "starter": "The",
+      "answer": "The teacher hurried the children along towards the hall.",
+      "answerZh": "老師催促孩子們繼續向禮堂前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Could you make the food order arrive sooner?",
+      "promptZh": "你可以催促廚房快點送上食物嗎?",
+      "starter": "Could",
+      "answer": "Could you hurry the food order up?",
+      "answerZh": "你可以催促廚房快點送上食物嗎?",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The presenter quickly continued to the final part of the talk.",
+      "promptZh": "講者很快便轉到演講的最後部分。",
+      "starter": "The",
+      "answer": "The presenter hurried on to the final part of the talk.",
+      "answerZh": "講者很快便轉到演講的最後部分。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "You need to move faster; class starts in two minutes.",
+      "promptZh": "你要快一點;課堂兩分鐘後開始。",
+      "starter": "You",
+      "answer": "You need to hurry up; class starts in two minutes.",
+      "answerZh": "你要快一點;課堂兩分鐘後開始。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The coach is urging the last runners to keep moving towards the gate.",
+      "promptZh": "教練正催促最後幾名跑手繼續向閘口前進。",
+      "starter": "The",
+      "answer": "The coach is hurrying the last runners along towards the gate.",
+      "answerZh": "教練正催促最後幾名跑手繼續向閘口前進。",
+      "highlight": "hurrying",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad is making us finish breakfast more quickly.",
+      "promptZh": "爸爸正催促我們快點吃完早餐。",
+      "starter": "Dad",
+      "answer": "Dad is hurrying us up so that we finish breakfast more quickly.",
+      "answerZh": "爸爸正催促我們快點吃完早餐。",
+      "highlight": "hurrying",
+      "targetForm": "hurry somebody up",
+      "targetMeaningZh": "催促某人加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "If we do not move faster, we will miss the start of the film.",
+      "promptZh": "如果我們不快一點,便會錯過電影開場。",
+      "starter": "If",
+      "answer": "If we do not hurry up, we will miss the start of the film.",
+      "answerZh": "如果我們不快一點,便會錯過電影開場。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Before anyone could ask a question, the host quickly moved to the next topic.",
+      "promptZh": "在任何人能夠提問前,主持人已迅速轉到下一個話題。",
+      "starter": "Before",
+      "answer": "Before anyone could ask a question, the host hurried on to the next topic.",
+      "answerZh": "在任何人能夠提問前,主持人已迅速轉到下一個話題。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The station worker gently urged the crowd to keep moving through the doors.",
+      "promptZh": "車站職員溫和地催促人群繼續穿過大門。",
+      "starter": "The",
+      "answer": "The station worker gently hurried the crowd along through the doors.",
+      "answerZh": "車站職員溫和地催促人群繼續穿過大門。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can you make the repair finish sooner?",
+      "promptZh": "你可以加快維修進度嗎?",
+      "starter": "Can",
+      "answer": "Can you hurry the repair up?",
+      "answerZh": "你可以加快維修進度嗎?",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are you still walking so slowly? Please move faster.",
+      "promptZh": "你為甚麼仍然走得這麼慢?請快一點。",
+      "starter": "Why",
+      "answer": "Why are you still walking so slowly? Please hurry up.",
+      "answerZh": "你為甚麼仍然走得這麼慢?請快一點。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The leader had to urge the group to keep moving along the narrow path.",
+      "promptZh": "領隊不得不催促眾人繼續沿着狹窄的小路前進。",
+      "starter": "The",
+      "answer": "The leader had to hurry the group along the narrow path.",
+      "answerZh": "領隊不得不催促眾人繼續沿着狹窄的小路前進。",
+      "highlight": "hurry",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The manager has made the delivery of the new computers arrive sooner.",
+      "promptZh": "經理已安排新電腦提早送到。",
+      "starter": "The",
+      "answer": "The manager has hurried up the delivery of the new computers.",
+      "answerZh": "經理已安排新電腦提早送到。",
+      "highlight": "hurried up",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事提早完成"
+    },
+    {
+      "id": "phrasal-verb-79-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The reporter quickly continued to the next part of the story.",
+      "promptZh": "記者很快便轉到報道的下一部分。",
+      "starter": "The",
+      "answer": "The reporter hurried on to the next part of the story.",
+      "answerZh": "記者很快便轉到報道的下一部分。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We need the repair today, so please make the work finish sooner.",
+      "promptZh": "我們今天便需要完成維修,所以請加快進度。",
+      "starter": "We",
+      "answer": "We need the repair today, so please hurry it up.",
+      "answerZh": "我們今天便需要完成維修,所以請快點完成。",
+      "highlight": "hurry it up",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children were falling behind, so the teacher urged them to keep moving.",
+      "promptZh": "孩子們落在後面,所以老師催促他們繼續前進。",
+      "starter": "The",
+      "answer": "The children were falling behind, so the teacher hurried them along.",
+      "answerZh": "孩子們落在後面,所以老師催促他們繼續前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The chairperson gave a short answer and quickly continued to the next item.",
+      "promptZh": "主席簡短回答後,很快便轉到下一個項目。",
+      "starter": "The",
+      "answer": "The chairperson gave a short answer and hurried on to the next item.",
+      "answerZh": "主席簡短回答後,很快便轉到下一個項目。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We were moving too slowly, so we had to go faster.",
+      "promptZh": "我們移動得太慢,所以必須加快速度。",
+      "starter": "We",
+      "answer": "We were moving too slowly, so we had to hurry up.",
+      "answerZh": "我們移動得太慢,所以必須加快速度。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ben was still packing, so I urged him to move faster.",
+      "promptZh": "賓仍在收拾行李,所以我催促他快一點。",
+      "starter": "Ben",
+      "answer": "Ben was still packing, so I hurried him up.",
+      "answerZh": "賓仍在收拾行李,所以我催促他快一點。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody up",
+      "targetMeaningZh": "催促某人加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The queue was moving slowly, so the extra worker helped it move faster.",
+      "promptZh": "隊伍移動得很慢,所以增派的職員加快了隊伍前進。",
+      "starter": "The",
+      "answer": "The queue was moving slowly, so the extra worker hurried it along.",
+      "answerZh": "隊伍移動得很慢,所以增派的職員加快了隊伍前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry something along",
+      "targetMeaningZh": "使某事加快進度"
+    },
+    {
+      "id": "phrasal-verb-79-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Do we really need to move faster, or do we have enough time?",
+      "promptZh": "我們真的需要快一點,還是仍有足夠時間?",
+      "starter": "Do",
+      "answer": "Do we really need to hurry up, or do we have enough time?",
+      "answerZh": "我們真的需要快一點,還是仍有足夠時間?",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The guide described the old bridge, then quickly continued to the next stop.",
+      "promptZh": "導遊介紹了那座古老的橋,然後迅速前往下一站。",
+      "starter": "The",
+      "answer": "The guide described the old bridge, then hurried on to the next stop.",
+      "answerZh": "導遊介紹了那座古老的橋,然後迅速前往下一站。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速前往下一項或地點"
+    },
+    {
+      "id": "phrasal-verb-79-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I did not want to urge the children to eat faster while they were having lunch.",
+      "promptZh": "孩子們吃午餐時,我不想催促他們吃快一點。",
+      "starter": "I",
+      "answer": "I did not want to hurry the children up while they were eating lunch.",
+      "answerZh": "孩子們吃午餐時,我不想催促他們吃快一點。",
+      "highlight": "hurry",
+      "targetForm": "hurry somebody up",
+      "targetMeaningZh": "催促某人加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The music teacher used a clap to make the class move more quickly to the next activity.",
+      "promptZh": "音樂老師拍了一下手,催促全班更快進行下一個活動。",
+      "starter": "The",
+      "answer": "The music teacher used a clap to hurry the class along to the next activity.",
+      "answerZh": "音樂老師拍了一下手,催促全班更快進行下一個活動。",
+      "highlight": "hurry",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續進行"
+    },
+    {
+      "id": "phrasal-verb-79-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The taxi is already outside, so we need to move faster.",
+      "promptZh": "的士已經在外面,所以我們要快一點。",
+      "starter": "The",
+      "answer": "The taxi is already outside, so we need to hurry up.",
+      "answerZh": "的士已經在外面,所以我們要快一點。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "As soon as he had read the result, the presenter quickly moved to the next chart.",
+      "promptZh": "講者讀完結果後,立即迅速轉到下一張圖表。",
+      "starter": "As",
+      "answer": "As soon as he had read the result, the presenter hurried on to the next chart.",
+      "answerZh": "講者讀完結果後,立即迅速轉到下一張圖表。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The customer asked whether the shop could finish her order sooner.",
+      "promptZh": "顧客詢問店舖能否更快完成她的訂單。",
+      "starter": "The",
+      "answer": "The customer asked whether the shop could hurry her order up.",
+      "answerZh": "顧客詢問店舖能否更快完成她的訂單。",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A teacher at the back urged the slow pupils to keep moving through the museum.",
+      "promptZh": "後方的一名老師催促走得較慢的學生繼續參觀博物館。",
+      "starter": "A",
+      "answer": "A teacher at the back hurried the slow pupils along through the museum.",
+      "answerZh": "後方的一名老師催促走得較慢的學生繼續參觀博物館。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even though the rain was getting heavier, they did not move any faster.",
+      "promptZh": "雖然雨勢愈來愈大,但他們並沒有加快腳步。",
+      "starter": "Even",
+      "answer": "Even though the rain was getting heavier, they did not hurry up.",
+      "answerZh": "雖然雨勢愈來愈大,但他們並沒有加快腳步。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The interviewer did not wait for a reply and quickly continued to another question.",
+      "promptZh": "訪問員沒有等待回答,便迅速轉到另一條問題。",
+      "starter": "The",
+      "answer": "The interviewer did not wait for a reply and hurried on to another question.",
+      "answerZh": "訪問員沒有等待回答,便迅速轉到另一條問題。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I asked the worker to make the repair finish sooner, but it still took two days.",
+      "promptZh": "我要求工人加快維修進度,但仍然花了兩天。",
+      "starter": "I",
+      "answer": "I asked the worker to hurry the repair up, but it still took two days.",
+      "answerZh": "我要求工人加快維修進度,但仍然花了兩天。",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "What will happen if we do not move faster before the gates close?",
+      "promptZh": "如果我們在大門關閉前不加快速度,會發生甚麼事?",
+      "starter": "What",
+      "answer": "What will happen if we do not hurry up before the gates close?",
+      "answerZh": "如果我們在大門關閉前不加快速度,會發生甚麼事?",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The long line was hardly moving, so staff urged everyone to keep moving towards the counters.",
+      "promptZh": "長長的隊伍幾乎沒有移動,所以職員催促所有人繼續向櫃位前進。",
+      "starter": "The",
+      "answer": "The long line was hardly moving, so staff hurried everyone along towards the counters.",
+      "answerZh": "長長的隊伍幾乎沒有移動,所以職員催促所有人繼續向櫃位前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The guide spent only a few seconds at the map before quickly continuing to the next room.",
+      "promptZh": "導遊只在地圖前停留了幾秒,便迅速前往下一個房間。",
+      "starter": "The",
+      "answer": "The guide spent only a few seconds at the map before hurrying on to the next room.",
+      "answerZh": "導遊只在地圖前停留了幾秒,便迅速前往下一個房間。",
+      "highlight": "hurrying on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速前往下一項或地點"
+    },
+    {
+      "id": "phrasal-verb-79-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Since the guests were waiting, the organiser asked the kitchen to prepare the food more quickly.",
+      "promptZh": "由於客人正在等候,主辦人要求廚房快點準備食物。",
+      "starter": "Since",
+      "answer": "Since the guests were waiting, the organiser asked the kitchen to hurry the food up.",
+      "answerZh": "由於客人正在等候,主辦人要求廚房快點準備食物。",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have only five minutes to reach the platform, so moving at this speed is not enough.",
+      "promptZh": "我們只有五分鐘到達月台,所以以現在的速度前進並不足夠。",
+      "starter": "We",
+      "answer": "We have only five minutes to reach the platform, so we need to hurry up.",
+      "answerZh": "我們只有五分鐘到達月台,所以需要加快速度。",
+      "highlight": "we need to hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The speaker knew the schedule was tight, so she quickly continued to the first activity after the welcome.",
+      "promptZh": "講者知道時間緊迫,所以歡迎大家後便迅速開始第一個活動。",
+      "starter": "The",
+      "answer": "The speaker knew the schedule was tight, so she hurried on to the first activity after the welcome.",
+      "answerZh": "講者知道時間緊迫,所以歡迎大家後便迅速開始第一個活動。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Several people were stopping to take photos, so the guide urged the group to keep moving towards the boat.",
+      "promptZh": "幾個人停下來拍照,所以導遊催促眾人繼續向船隻前進。",
+      "starter": "Several",
+      "answer": "Several people were stopping to take photos, so the guide hurried the group along towards the boat.",
+      "answerZh": "幾個人停下來拍照,所以導遊催促眾人繼續向船隻前進。",
+      "highlight": "hurried",
+      "targetForm": "hurry somebody along",
+      "targetMeaningZh": "催促某人繼續前進"
+    },
+    {
+      "id": "phrasal-verb-79-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The application normally takes a week, but could you ask them to finish it sooner?",
+      "promptZh": "申請通常需要一星期處理,但你可以請他們更快完成嗎?",
+      "starter": "The",
+      "answer": "The application normally takes a week, but could you ask them to hurry it up?",
+      "answerZh": "申請通常需要一星期處理,但你可以請他們更快完成嗎?",
+      "highlight": "hurry",
+      "targetForm": "hurry something up",
+      "targetMeaningZh": "使某事更快完成"
+    },
+    {
+      "id": "phrasal-verb-79-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Please move faster now; we can talk once we are inside.",
+      "promptZh": "現在請快一點;我們進去後才談吧。",
+      "starter": "Please",
+      "answer": "Please hurry up now; we can talk once we are inside.",
+      "answerZh": "現在請快一點;我們進去後才談吧。",
+      "highlight": "hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The first activity took too long, so the teacher had to make the rest of the lesson move faster.",
+      "promptZh": "第一個活動花了太多時間,所以老師不得不加快其餘課堂的進度。",
+      "starter": "The",
+      "answer": "The first activity took too long, so the teacher had to hurry the rest of the lesson along.",
+      "answerZh": "第一個活動花了太多時間,所以老師不得不加快其餘課堂的進度。",
+      "highlight": "hurry",
+      "targetForm": "hurry something along",
+      "targetMeaningZh": "使某事加快進度"
+    },
+    {
+      "id": "phrasal-verb-79-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After briefly explaining the first rule, the referee quickly continued to the second.",
+      "promptZh": "球證簡短解釋第一條規則後,便迅速轉到第二條。",
+      "starter": "After",
+      "answer": "After briefly explaining the first rule, the referee hurried on to the second.",
+      "answerZh": "球證簡短解釋第一條規則後,便迅速轉到第二條。",
+      "highlight": "hurried on",
+      "targetForm": "hurry on to something",
+      "targetMeaningZh": "迅速轉到下一項"
+    },
+    {
+      "id": "phrasal-verb-79-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We had to make Emma get ready faster because the car had arrived.",
+      "promptZh": "汽車已經到達,所以我們不得不催促愛瑪快點準備好。",
+      "starter": "We",
+      "answer": "We had to hurry Emma up because the car had arrived.",
+      "answerZh": "汽車已經到達,所以我們不得不催促愛瑪快點準備好。",
+      "highlight": "hurry",
+      "targetForm": "hurry somebody up",
+      "targetMeaningZh": "催促某人加快動作"
+    },
+    {
+      "id": "phrasal-verb-79-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The doors close at six, and we are still a long way away, so there is no time to walk slowly.",
+      "promptZh": "大門六時關閉,而我們仍然離得很遠,所以沒有時間慢慢走。",
+      "starter": "The",
+      "answer": "The doors close at six, and we are still a long way away, so we must hurry up.",
+      "answerZh": "大門六時關閉,而我們仍然離得很遠,所以必須快一點。",
+      "highlight": "we must hurry up",
+      "targetForm": "hurry up",
+      "targetMeaningZh": "快點;加快動作"
+    }
+  ]
+}

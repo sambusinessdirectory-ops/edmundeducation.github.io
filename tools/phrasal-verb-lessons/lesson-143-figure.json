@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-143",
+  "order": 143,
+  "slug": "figure",
+  "version": "1",
+  "title": "FIGURE 動詞片語",
+  "titleEn": "Figure",
+  "titleZh": "FIGURE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 142 - FIGURE.pdf",
+    "sourceNumber": 142,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FIGURE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FIGURE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FIGURE",
+      "highlight": "FIGURE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We had not figured on such a long delay.",
+      "zh": "我們沒有預料到會延誤這麼久。",
+      "highlight": "figured on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I never could figure him out.",
+      "zh": "我一直都看不透他。",
+      "highlight": "figure him out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Have you figured out how much it will cost?",
+      "zh": "你計算出要花多少錢了嗎?",
+      "highlight": "figured out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "預計某事會發生;把某事算在預期之內；了解某人的性格、想法或行為;看懂某事物；經思考找出答案、方法、原因或數目",
+    "en": "figure on something; figure on somebody/something doing something; figure somebody/something out; figure something out; figure out how/why/what...",
+    "naturalZh": [
+      "預計某事會發生;把某事算在預期之內",
+      "了解某人的性格、想法或行為;看懂某事物",
+      "經思考找出答案、方法、原因或數目"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "figure on something; figure on somebody/something doing something",
+      "titleZh": "預計某事會發生;把某事算在預期之內",
+      "titleEn": "figure on something; figure on somebody/something doing something",
+      "descriptionZh": "預計某事會發生;把某事算在預期之內",
+      "descriptionEn": "We had not figured on such a long delay.",
+      "examples": [
+        {
+          "en": "We had not figured on such a long delay.",
+          "zh": "我們沒有預料到會延誤這麼久。",
+          "highlight": "figured on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "figure somebody/something out",
+      "titleZh": "了解某人的性格、想法或行為;看懂某事物",
+      "titleEn": "figure somebody/something out",
+      "descriptionZh": "了解某人的性格、想法或行為;看懂某事物",
+      "descriptionEn": "I never could figure him out.",
+      "examples": [
+        {
+          "en": "I never could figure him out.",
+          "zh": "我一直都看不透他。",
+          "highlight": "figure him out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "figure something out; figure out how/why/what...",
+      "titleZh": "經思考找出答案、方法、原因或數目",
+      "titleEn": "figure something out; figure out how/why/what...",
+      "descriptionZh": "經思考找出答案、方法、原因或數目",
+      "descriptionEn": "Have you figured out how much it will cost?",
+      "examples": [
+        {
+          "en": "Have you figured out how much it will cost?",
+          "zh": "你計算出要花多少錢了嗎?",
+          "highlight": "figured out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FIGURE 片語動詞的實際用途",
+    "labelEn": "FIGURE Phrasal Verbs in Use",
+    "summaryZh": "figure on 可以幫助你描述預計會發生的事情,以及出乎意料的情況。；當某人的行為或某事物令人難以理解時,可以使用 figure somebody/something out。；figure something out 可以表示計算數目、找出原因或想出做事的方法。；相同的英文字詞可以表示看透一個人、看懂某事物,或找出問題的答案。",
+    "summaryEn": "FIGURE ON helps you describe what you expect to happen and situations that you did not expect. FIGURE SOMEBODY/SOMETHING OUT is useful when a person’s behaviour or something confusing is difficult to understand. FIGURE SOMETHING OUT can describe calculating a number, finding a cause or discovering a way to do something. The same words can describe understanding a person, understanding a thing or finding the answer to a problem.",
+    "contextsZh": [
+      "自然地談論預期和意外情況",
+      "描述難以看透的人或事物",
+      "說明如何找出答案或方法",
+      "理解 FIGURE OUT 的不同用法"
+    ],
+    "contextsEn": [
+      "Talk naturally about expectations and surprises",
+      "Describe people or things that are difficult to understand",
+      "Explain how you find an answer or solution",
+      "Understand different uses of FIGURE OUT"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FIGURE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FIGURE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "figure on something; figure on somebody/something doing something",
+    "fixedHighlight": "figure on something; figure on somebody/something doing something",
+    "fixedZh": "閱讀整句,選出意思相同的 FIGURE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FIGURE expression that gives the same meaning.",
+    "correct": "figured on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FIGURE ... OUT 中使用 him、her、it 或 them 時,把它放在 FIGURE 和 OUT 中間。；FIGURE ON 後面可以接預計會出現的事物或情況。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with FIGURE... OUT, place the word between FIGURE and OUT: figure him out figure it out FIGURE ON may be followed by an expected thing or event: figure on a delay figure on the train being late",
+    "variableItemsZh": [
+      "figure on something; figure on somebody/something doing something",
+      "figure somebody/something out",
+      "figure something out; figure out how/why/what..."
+    ],
+    "variableItemsEn": [
+      "figure on something; figure on somebody/something doing something",
+      "figure somebody/something out",
+      "figure something out; figure out how/why/what..."
+    ],
+    "forms": [
+      {
+        "formZh": "預計某事會發生;把某事算在預期之內",
+        "formEn": "figure on something; figure on somebody/something doing something",
+        "exampleZh": "我們沒有預料到會延誤這麼久。",
+        "exampleEn": "We had not figured on such a long delay.",
+        "highlight": "figured on"
+      },
+      {
+        "formZh": "了解某人的性格、想法或行為;看懂某事物",
+        "formEn": "figure somebody/something out",
+        "exampleZh": "我一直都看不透他。",
+        "exampleEn": "I never could figure him out.",
+        "highlight": "figure him out"
+      },
+      {
+        "formZh": "經思考找出答案、方法、原因或數目",
+        "formEn": "figure something out; figure out how/why/what...",
+        "exampleZh": "你計算出要花多少錢了嗎?",
+        "exampleEn": "Have you figured out how much it will cost?",
+        "highlight": "figured out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "預計某事會發生;把某事算在預期之內",
+      "titleEn": "figure on something; figure on somebody/something doing something",
+      "formula": "figure on something; figure on somebody/something doing something",
+      "highlight": "figure on something; figure on somebody/something doing something",
+      "descriptionZh": "預計某事會發生;把某事算在預期之內",
+      "descriptionEn": "We had not figured on such a long delay.",
+      "examples": [
+        {
+          "en": "We had not figured on such a long delay.",
+          "zh": "我們沒有預料到會延誤這麼久。",
+          "highlight": "figured on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "了解某人的性格、想法或行為;看懂某事物",
+      "titleEn": "figure somebody/something out",
+      "formula": "figure somebody/something out",
+      "highlight": "figure somebody/something out",
+      "descriptionZh": "了解某人的性格、想法或行為;看懂某事物",
+      "descriptionEn": "I never could figure him out.",
+      "examples": [
+        {
+          "en": "I never could figure him out.",
+          "zh": "我一直都看不透他。",
+          "highlight": "figure him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "經思考找出答案、方法、原因或數目",
+      "titleEn": "figure something out; figure out how/why/what...",
+      "formula": "figure something out; figure out how/why/what...",
+      "highlight": "figure something out; figure out how/why/what...",
+      "descriptionZh": "經思考找出答案、方法、原因或數目",
+      "descriptionEn": "Have you figured out how much it will cost?",
+      "examples": [
+        {
+          "en": "Have you figured out how much it will cost?",
+          "zh": "你計算出要花多少錢了嗎?",
+          "highlight": "figured out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論預期和意外情況",
+      "titleEn": "Talk naturally about expectations and surprises",
+      "zh": "figure on 可以幫助你描述預計會發生的事情,以及出乎意料的情況。",
+      "en": "FIGURE ON helps you describe what you expect to happen and situations that you did not expect."
+    },
+    {
+      "titleZh": "描述難以看透的人或事物",
+      "titleEn": "Describe people or things that are difficult to understand",
+      "zh": "當某人的行為或某事物令人難以理解時,可以使用 figure somebody/something out。",
+      "en": "FIGURE SOMEBODY/SOMETHING OUT is useful when a person’s behaviour or something confusing is difficult to understand."
+    },
+    {
+      "titleZh": "說明如何找出答案或方法",
+      "titleEn": "Explain how you find an answer or solution",
+      "zh": "figure something out 可以表示計算數目、找出原因或想出做事的方法。",
+      "en": "FIGURE SOMETHING OUT can describe calculating a number, finding a cause or discovering a way to do something."
+    },
+    {
+      "titleZh": "理解 FIGURE OUT 的不同用法",
+      "titleEn": "Understand different uses of FIGURE OUT",
+      "zh": "相同的英文字詞可以表示看透一個人、看懂某事物,或找出問題的答案。",
+      "en": "The same words can describe understanding a person, understanding a thing or finding the answer to a problem."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論預期和意外情況",
+      "描述難以看透的人或事物",
+      "說明如何找出答案或方法",
+      "理解 FIGURE OUT 的不同用法"
+    ],
+    "contextsEn": [
+      "Talk naturally about expectations and surprises",
+      "Describe people or things that are difficult to understand",
+      "Explain how you find an answer or solution",
+      "Understand different uses of FIGURE OUT"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論預期和意外情況",
+        "titleEn": "Talk naturally about expectations and surprises",
+        "zh": "figure on 可以幫助你描述預計會發生的事情,以及出乎意料的情況。",
+        "en": "FIGURE ON helps you describe what you expect to happen and situations that you did not expect.",
+        "examples": [
+          {
+            "en": "We had not figured on such a long delay.",
+            "zh": "我們沒有預料到會延誤這麼久。",
+            "highlight": "figured on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述難以看透的人或事物",
+        "titleEn": "Describe people or things that are difficult to understand",
+        "zh": "當某人的行為或某事物令人難以理解時,可以使用 figure somebody/something out。",
+        "en": "FIGURE SOMEBODY/SOMETHING OUT is useful when a person’s behaviour or something confusing is difficult to understand.",
+        "examples": [
+          {
+            "en": "I never could figure him out.",
+            "zh": "我一直都看不透他。",
+            "highlight": "figure him out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何找出答案或方法",
+        "titleEn": "Explain how you find an answer or solution",
+        "zh": "figure something out 可以表示計算數目、找出原因或想出做事的方法。",
+        "en": "FIGURE SOMETHING OUT can describe calculating a number, finding a cause or discovering a way to do something.",
+        "examples": [
+          {
+            "en": "Have you figured out how much it will cost?",
+            "zh": "你計算出要花多少錢了嗎?",
+            "highlight": "figured out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 FIGURE OUT 的不同用法",
+        "titleEn": "Understand different uses of FIGURE OUT",
+        "zh": "相同的英文字詞可以表示看透一個人、看懂某事物,或找出問題的答案。",
+        "en": "The same words can describe understanding a person, understanding a thing or finding the answer to a problem.",
+        "examples": [
+          {
+            "en": "We had not figured on such a long delay.",
+            "zh": "我們沒有預料到會延誤這麼久。",
+            "highlight": "figured on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FIGURE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FIGURE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FIGURE 片語動詞。",
+      "en": "Read the whole sentence and choose the FIGURE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FIGURE ... OUT 中使用 him、her、it 或 them 時,把它放在 FIGURE 和 OUT 中間。",
+      "titleEn": "When using him, her, it or them with FIGURE.",
+      "zh": "在 FIGURE ... OUT 中使用 him、her、it 或 them 時,把它放在 FIGURE 和 OUT 中間。",
+      "en": "When using him, her, it or them with FIGURE... OUT, place the word between FIGURE and OUT: figure him out figure it out"
+    },
+    {
+      "titleZh": "FIGURE ON 後面可以接預計會出現的事物或情況。",
+      "titleEn": "FIGURE ON may be followed by an expected thing or event: figure on a delay figure on the train being late.",
+      "zh": "FIGURE ON 後面可以接預計會出現的事物或情況。",
+      "en": "FIGURE ON may be followed by an expected thing or event: figure on a delay figure on the train being late"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FIGURE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FIGURE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FIGURE 動詞片語句子改寫練習",
+    "titleEn": "FIGURE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FIGURE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FIGURE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-143-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We had not expected such a long wait at the clinic.",
+      "promptZh": "我們沒有預料到在診所要等候這麼久。",
+      "starter": "We",
+      "answer": "We had not figured on such a long wait at the clinic.",
+      "answerZh": "我們沒有預料到在診所要等候這麼久。",
+      "highlight": "figured on",
+      "targetForm": "figure on something",
+      "targetMeaningZh": "預計;預料"
+    },
+    {
+      "id": "phrasal-verb-143-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I still cannot understand my new neighbour.",
+      "promptZh": "我仍然看不透我的新鄰居。",
+      "starter": "I",
+      "answer": "I still cannot figure my new neighbour out.",
+      "answerZh": "我仍然看不透我的新鄰居。",
+      "highlight": "figure",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透;了解某人"
+    },
+    {
+      "id": "phrasal-verb-143-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Can you find the answer to this question?",
+      "promptZh": "你能找出這條問題的答案嗎?",
+      "starter": "Can",
+      "answer": "Can you figure out the answer to this question?",
+      "answerZh": "你能找出這條問題的答案嗎?",
+      "highlight": "figure out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "找出答案"
+    },
+    {
+      "id": "phrasal-verb-143-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The organisers did not expect so many families to arrive early.",
+      "promptZh": "主辦單位沒有預料到會有這麼多家庭提早到達。",
+      "starter": "The",
+      "answer": "The organisers did not figure on so many families arriving early.",
+      "answerZh": "主辦單位沒有預料到會有這麼多家庭提早到達。",
+      "highlight": "figure on",
+      "targetForm": "figure on somebody doing something",
+      "targetMeaningZh": "預計某人會做某事"
+    },
+    {
+      "id": "phrasal-verb-143-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben calculated how much the trip would cost.",
+      "promptZh": "賓計算出了這趟旅程要花多少錢。",
+      "starter": "Ben",
+      "answer": "Ben figured out how much the trip would cost.",
+      "answerZh": "賓計算出了這趟旅程要花多少錢。",
+      "highlight": "figured out",
+      "targetForm": "figure out how much...",
+      "targetMeaningZh": "計算出數目或費用"
+    },
+    {
+      "id": "phrasal-verb-143-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher soon understood the quiet new student.",
+      "promptZh": "老師很快便了解了那名沉默的新生。",
+      "starter": "The",
+      "answer": "The teacher soon figured the quiet new student out.",
+      "answerZh": "老師很快便了解了那名沉默的新生。",
+      "highlight": "figured",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "了解某人"
+    },
+    {
+      "id": "phrasal-verb-143-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We need to discover why the light is not working.",
+      "promptZh": "我們需要弄清楚為甚麼燈沒有亮起。",
+      "starter": "We",
+      "answer": "We need to figure out why the light is not working.",
+      "answerZh": "我們需要弄清楚為甚麼燈沒有亮起。",
+      "highlight": "figure out",
+      "targetForm": "figure out why...",
+      "targetMeaningZh": "找出原因"
+    },
+    {
+      "id": "phrasal-verb-143-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I expected the journey to take about two hours.",
+      "promptZh": "我預計這趟旅程需時約兩小時。",
+      "starter": "I",
+      "answer": "I figured on the journey taking about two hours.",
+      "answerZh": "我預計這趟旅程需時約兩小時。",
+      "highlight": "figured on",
+      "targetForm": "figure on something taking time",
+      "targetMeaningZh": "預計某事需時多久"
+    },
+    {
+      "id": "phrasal-verb-143-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nobody really understands the main character in this film.",
+      "promptZh": "沒有人真正看得透這部電影的主角。",
+      "starter": "Nobody",
+      "answer": "Nobody can really figure out the main character in this film.",
+      "answerZh": "沒有人真正看得透這部電影的主角。",
+      "highlight": "can",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透或了解某人"
+    },
+    {
+      "id": "phrasal-verb-143-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ava found the best route to the museum by studying the map.",
+      "promptZh": "艾娃查看地圖後找出了前往博物館的最佳路線。",
+      "starter": "Ava",
+      "answer": "Ava figured out the best route to the museum by studying the map.",
+      "answerZh": "艾娃查看地圖後找出了前往博物館的最佳路線。",
+      "highlight": "figured out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "想出或找出方法"
+    },
+    {
+      "id": "phrasal-verb-143-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "After three lessons, Leo finally understood his new coach.",
+      "promptZh": "上了三堂課後,里奧終於了解了他的新教練。",
+      "starter": "After",
+      "answer": "After three lessons, Leo finally figured his new coach out.",
+      "answerZh": "上了三堂課後,里奧終於了解了他的新教練。",
+      "highlight": "figured",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "了解某人"
+    },
+    {
+      "id": "phrasal-verb-143-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We expect about thirty people at the party.",
+      "promptZh": "我們預計約有三十人參加聚會。",
+      "starter": "We",
+      "answer": "We figure on about thirty people at the party.",
+      "answerZh": "我們預計約有三十人參加聚會。",
+      "highlight": "figure on",
+      "targetForm": "figure on something",
+      "targetMeaningZh": "預計某個數量或情況"
+    },
+    {
+      "id": "phrasal-verb-143-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Has Nina calculated how many chairs we need?",
+      "promptZh": "妮娜計算出我們需要多少張椅子了嗎?",
+      "starter": "Has",
+      "answer": "Has Nina figured out how many chairs we need?",
+      "answerZh": "妮娜計算出我們需要多少張椅子了嗎?",
+      "highlight": "figured out",
+      "targetForm": "figure out how many...",
+      "targetMeaningZh": "計算出數量"
+    },
+    {
+      "id": "phrasal-verb-143-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The interviewer could not understand the singer at all.",
+      "promptZh": "訪問員完全看不透那名歌手。",
+      "starter": "The",
+      "answer": "The interviewer could not figure the singer out at all.",
+      "answerZh": "訪問員完全看不透那名歌手。",
+      "highlight": "figure",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透某人"
+    },
+    {
+      "id": "phrasal-verb-143-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The coach expects the rain to stop before the match.",
+      "promptZh": "教練預計雨會在比賽前停下來。",
+      "starter": "The",
+      "answer": "The coach figures on the rain stopping before the match.",
+      "answerZh": "教練預計雨會在比賽前停下來。",
+      "highlight": "figures on",
+      "targetForm": "figure on something doing something",
+      "targetMeaningZh": "預計某事會發生"
+    },
+    {
+      "id": "phrasal-verb-143-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "I have never understood my cousin’s sense of humour.",
+      "promptZh": "我一直都不明白我表親的幽默感。",
+      "starter": "I",
+      "answer": "I have never figured out my cousin’s sense of humour.",
+      "answerZh": "我一直都不明白我表親的幽默感。",
+      "highlight": "figured out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂或理解某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children are trying to discover how to open the box.",
+      "promptZh": "孩子們正嘗試找出打開盒子的方法。",
+      "starter": "The",
+      "answer": "The children are trying to figure out how to open the box.",
+      "answerZh": "孩子們正嘗試找出打開盒子的方法。",
+      "highlight": "figure out",
+      "targetForm": "figure out how to do something",
+      "targetMeaningZh": "想出做事的方法"
+    },
+    {
+      "id": "phrasal-verb-143-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did you expect the café to be closed today?",
+      "promptZh": "你有預料到咖啡店今天會關門嗎?",
+      "starter": "Did",
+      "answer": "Did you figure on the café being closed today?",
+      "answerZh": "你有預料到咖啡店今天會關門嗎?",
+      "highlight": "figure on",
+      "targetForm": "figure on something being...",
+      "targetMeaningZh": "預計某種情況"
+    },
+    {
+      "id": "phrasal-verb-143-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have discovered where the water is coming from.",
+      "promptZh": "我們已經弄清楚水是從哪裏流出來的。",
+      "starter": "We",
+      "answer": "We have figured out where the water is coming from.",
+      "answerZh": "我們已經弄清楚水是從哪裏流出來的。",
+      "highlight": "figured out",
+      "targetForm": "figure out where...",
+      "targetMeaningZh": "找出位置或來源"
+    },
+    {
+      "id": "phrasal-verb-143-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Even after a month, Sara could not understand the new school timetable.",
+      "promptZh": "即使過了一個月,莎拉仍然看不懂新的學校時間表。",
+      "starter": "Even",
+      "answer": "Even after a month, Sara could not figure out the new school timetable.",
+      "answerZh": "即使過了一個月,莎拉仍然看不懂新的學校時間表。",
+      "highlight": "figure out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The school had not expected three teachers to be away on the same day.",
+      "promptZh": "學校沒有預料到會有三名教師在同一天缺席。",
+      "starter": "The",
+      "answer": "The school had not figured on three teachers being away on the same day.",
+      "answerZh": "學校沒有預料到會有三名教師在同一天缺席。",
+      "highlight": "figured on",
+      "targetForm": "figure on somebody being...",
+      "targetMeaningZh": "預計某人處於某種情況"
+    },
+    {
+      "id": "phrasal-verb-143-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The clue was short. I found the answer after reading the clue twice.",
+      "promptZh": "提示很短。我讀了兩次提示後便找出了答案。",
+      "starter": "The",
+      "answer": "The clue was short. I figured it out after reading the clue twice.",
+      "answerZh": "提示很短。我讀了兩次提示後便找出了答案。",
+      "highlight": "figured it out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "想出答案"
+    },
+    {
+      "id": "phrasal-verb-143-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new boy says very little, so we still cannot understand him.",
+      "promptZh": "那名新來的男生很少說話,所以我們仍然看不透他。",
+      "starter": "The",
+      "answer": "The new boy says very little, so we still cannot figure him out.",
+      "answerZh": "那名新來的男生很少說話,所以我們仍然看不透他。",
+      "highlight": "figure",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透或了解某人"
+    },
+    {
+      "id": "phrasal-verb-143-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "You should expect some delays during the holiday.",
+      "promptZh": "假日期間,你應該預計會出現一些延誤。",
+      "starter": "You",
+      "answer": "You should figure on some delays during the holiday.",
+      "answerZh": "假日期間,你應該預計會出現一些延誤。",
+      "highlight": "figure on",
+      "targetForm": "figure on something",
+      "targetMeaningZh": "預計某事"
+    },
+    {
+      "id": "phrasal-verb-143-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why has Ella not discovered what caused the strange noise?",
+      "promptZh": "為甚麼埃拉仍未弄清楚那陣怪聲的原因?",
+      "starter": "Why",
+      "answer": "Why has Ella not figured out what caused the strange noise?",
+      "answerZh": "為甚麼埃拉仍未弄清楚那陣怪聲的原因?",
+      "highlight": "figured out",
+      "targetForm": "figure out what...",
+      "targetMeaningZh": "找出事情的原因或答案"
+    },
+    {
+      "id": "phrasal-verb-143-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "At first, Dad did not understand the controls on the new oven.",
+      "promptZh": "起初,爸爸看不懂新焗爐上的控制按鈕。",
+      "starter": "At",
+      "answer": "At first, Dad could not figure out the controls on the new oven.",
+      "answerZh": "起初,爸爸看不懂新焗爐上的控制按鈕。",
+      "highlight": "first, Dad could",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We had expected the children to need more time.",
+      "promptZh": "我們原本預計孩子們會需要更多時間。",
+      "starter": "We",
+      "answer": "We had figured on the children needing more time.",
+      "answerZh": "我們原本預計孩子們會需要更多時間。",
+      "highlight": "figured on",
+      "targetForm": "figure on somebody needing something",
+      "targetMeaningZh": "預計某人會有某種需要"
+    },
+    {
+      "id": "phrasal-verb-143-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The dog acted differently every day, and its owner could not understand it.",
+      "promptZh": "那隻狗每天的表現都不一樣,令主人無法理解牠。",
+      "starter": "The",
+      "answer": "The dog acted differently every day, and its owner could not figure it out.",
+      "answerZh": "那隻狗每天的表現都不一樣,令主人無法理解牠。",
+      "highlight": "figure",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "理解難以預測的事物"
+    },
+    {
+      "id": "phrasal-verb-143-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The class calculated the total cost of the food.",
+      "promptZh": "全班計算出了食物的總費用。",
+      "starter": "The",
+      "answer": "The class figured out the total cost of the food.",
+      "answerZh": "全班計算出了食物的總費用。",
+      "highlight": "figured out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "計算出數目"
+    },
+    {
+      "id": "phrasal-verb-143-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Nobody expected the bus to have a problem on the way home.",
+      "promptZh": "沒有人預料到巴士會在回家途中出現問題。",
+      "starter": "Nobody",
+      "answer": "Nobody figured on the bus having a problem on the way home.",
+      "answerZh": "沒有人預料到巴士會在回家途中出現問題。",
+      "highlight": "figured on",
+      "targetForm": "figure on something having a problem",
+      "targetMeaningZh": "預計某事會出現問題"
+    },
+    {
+      "id": "phrasal-verb-143-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We know the room is too small, but we have not yet found a way to save space.",
+      "promptZh": "我們知道房間太小,但仍未想出節省空間的方法。",
+      "starter": "We",
+      "answer": "We know the room is too small, but we have not yet figured out a way to save space.",
+      "answerZh": "我們知道房間太小,但仍未想出節省空間的方法。",
+      "highlight": "figured out",
+      "targetForm": "figure out a way",
+      "targetMeaningZh": "想出方法"
+    },
+    {
+      "id": "phrasal-verb-143-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The shop expected higher umbrella sales during the wet weekend.",
+      "promptZh": "店舖預計在多雨的週末會賣出更多雨傘。",
+      "starter": "The",
+      "answer": "The shop figured on higher umbrella sales during the wet weekend.",
+      "answerZh": "店舖預計在多雨的週末會賣出更多雨傘。",
+      "highlight": "figured on",
+      "targetForm": "figure on something",
+      "targetMeaningZh": "預計某種結果"
+    },
+    {
+      "id": "phrasal-verb-143-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The story’s ending was confusing, and I did not understand it until the next day.",
+      "promptZh": "故事的結局令人困惑,我到翌日才看懂。",
+      "starter": "The",
+      "answer": "The story’s ending was confusing, and I did not figure it out until the next day.",
+      "answerZh": "故事的結局令人困惑,我到翌日才看懂。",
+      "highlight": "figure",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂或理解某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Please calculate whether we have enough money for two tickets.",
+      "promptZh": "請計算一下我們是否有足夠金錢購買兩張門票。",
+      "starter": "Please",
+      "answer": "Please figure out whether we have enough money for two tickets.",
+      "answerZh": "請計算一下我們是否有足夠金錢購買兩張門票。",
+      "highlight": "figure out",
+      "targetForm": "figure out whether...",
+      "targetMeaningZh": "計算或判斷是否符合條件"
+    },
+    {
+      "id": "phrasal-verb-143-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The manager is friendly one day and cold the next, so the staff cannot understand him.",
+      "promptZh": "經理有時友善,有時冷淡,所以員工都看不透他。",
+      "starter": "The",
+      "answer": "The manager is friendly one day and cold the next, so the staff cannot figure him out.",
+      "answerZh": "經理有時友善,有時冷淡,所以員工都看不透他。",
+      "highlight": "figure",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透某人的行為或性格"
+    },
+    {
+      "id": "phrasal-verb-143-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They never expected the power to stop during dinner.",
+      "promptZh": "他們從沒有預料到晚餐期間會停電。",
+      "starter": "They",
+      "answer": "They never figured on the power stopping during dinner.",
+      "answerZh": "他們從沒有預料到晚餐期間會停電。",
+      "highlight": "figured on",
+      "targetForm": "figure on something doing something",
+      "targetMeaningZh": "預計某事會發生"
+    },
+    {
+      "id": "phrasal-verb-143-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Sam checked the bus times and decided when we should leave.",
+      "promptZh": "森查看巴士時間後,決定了我們應該何時出發。",
+      "starter": "Sam",
+      "answer": "Sam checked the bus times and figured out when we should leave.",
+      "answerZh": "森查看巴士時間後,決定了我們應該何時出發。",
+      "highlight": "figured out",
+      "targetForm": "figure out when...",
+      "targetMeaningZh": "找出或決定適當時間"
+    },
+    {
+      "id": "phrasal-verb-143-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The instructions looked simple, but many students did not understand them.",
+      "promptZh": "指示看來簡單,但許多學生都看不懂。",
+      "starter": "The",
+      "answer": "The instructions looked simple, but many students could not figure them out.",
+      "answerZh": "指示看來簡單,但許多學生都看不懂。",
+      "highlight": "could",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before the trip, we expected the weather to change quickly.",
+      "promptZh": "出發前,我們預計天氣會迅速轉變。",
+      "starter": "Before",
+      "answer": "Before the trip, we figured on the weather changing quickly.",
+      "answerZh": "出發前,我們預計天氣會迅速轉變。",
+      "highlight": "figured on",
+      "targetForm": "figure on something changing",
+      "targetMeaningZh": "預計某事會改變"
+    },
+    {
+      "id": "phrasal-verb-143-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The first plan failed, so the team had to find a better way to carry the boxes.",
+      "promptZh": "第一個計劃失敗了,所以團隊必須想出更好的方法搬運盒子。",
+      "starter": "The",
+      "answer": "The first plan failed, so the team had to figure out a better way to carry the boxes.",
+      "answerZh": "第一個計劃失敗了,所以團隊必須想出更好的方法搬運盒子。",
+      "highlight": "figure out",
+      "targetForm": "figure out a way",
+      "targetMeaningZh": "想出方法"
+    },
+    {
+      "id": "phrasal-verb-143-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I have known Arun for years, but I still cannot understand his behaviour in large groups.",
+      "promptZh": "我認識阿倫多年,但仍然不明白他在人多時的行為。",
+      "starter": "I",
+      "answer": "I have known Arun for years, but I still cannot figure out his behaviour in large groups.",
+      "answerZh": "我認識阿倫多年,但仍然不明白他在人多時的行為。",
+      "highlight": "figure out",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "理解某人的行為"
+    },
+    {
+      "id": "phrasal-verb-143-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The map was unclear, but Rosa finally discovered how we could reach the beach without a car.",
+      "promptZh": "地圖並不清楚,但羅莎終於找出了不用汽車前往海灘的方法。",
+      "starter": "The",
+      "answer": "The map was unclear, but Rosa finally figured out how we could reach the beach without a car.",
+      "answerZh": "地圖並不清楚,但羅莎終於找出了不用汽車前往海灘的方法。",
+      "highlight": "figured out",
+      "targetForm": "figure out how...",
+      "targetMeaningZh": "想出方法"
+    },
+    {
+      "id": "phrasal-verb-143-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team had expected the job to take one week, not three.",
+      "promptZh": "團隊原本預計工作需時一星期,而不是三星期。",
+      "starter": "The",
+      "answer": "The team had figured on the job taking one week, not three.",
+      "answerZh": "團隊原本預計工作需時一星期,而不是三星期。",
+      "highlight": "figured on",
+      "targetForm": "figure on something taking time",
+      "targetMeaningZh": "預計某事需時多久"
+    },
+    {
+      "id": "phrasal-verb-143-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The actor’s answer sounded friendly, but the reporter could not understand what kind of person he really was.",
+      "promptZh": "那名演員的回答聽來很友善,但記者仍然看不透他的真正性格。",
+      "starter": "The",
+      "answer": "The actor’s answer sounded friendly, but the reporter could not figure him out.",
+      "answerZh": "那名演員的回答聽來很友善,但記者仍然看不透他的真正性格。",
+      "highlight": "figure him out",
+      "targetForm": "figure somebody out",
+      "targetMeaningZh": "看透某人的性格"
+    },
+    {
+      "id": "phrasal-verb-143-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We knew the road was busy, but we did not expect the drive to take four hours.",
+      "promptZh": "我們知道道路繁忙,但沒有預料到車程會長達四小時。",
+      "starter": "We",
+      "answer": "We knew the road was busy, but we did not figure on the drive taking four hours.",
+      "answerZh": "我們知道道路繁忙,但沒有預料到車程會長達四小時。",
+      "highlight": "figure on",
+      "targetForm": "figure on something taking time",
+      "targetMeaningZh": "預計某事需時多久"
+    },
+    {
+      "id": "phrasal-verb-143-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The toy would not move, so Priya opened the back and discovered what was wrong.",
+      "promptZh": "玩具不能移動,所以普里雅打開後面,找出了問題所在。",
+      "starter": "The",
+      "answer": "The toy would not move, so Priya opened the back and figured out what was wrong.",
+      "answerZh": "玩具不能移動,所以普里雅打開後面,找出了問題所在。",
+      "highlight": "figured out",
+      "targetForm": "figure out what is wrong",
+      "targetMeaningZh": "找出問題"
+    },
+    {
+      "id": "phrasal-verb-143-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new app changes its menus often, and I still do not understand it.",
+      "promptZh": "這個新應用程式經常更改選單,我仍然看不懂它。",
+      "starter": "The",
+      "answer": "The new app changes its menus often, and I still cannot figure it out.",
+      "answerZh": "這個新應用程式經常更改選單,我仍然看不懂它。",
+      "highlight": "cannot figure",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "看懂某事物"
+    },
+    {
+      "id": "phrasal-verb-143-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the event was free, the organisers did not expect hundreds of people to come.",
+      "promptZh": "雖然活動免費,主辦單位仍沒有預料到會有數百人前來。",
+      "starter": "Although",
+      "answer": "Although the event was free, the organisers did not figure on hundreds of people coming.",
+      "answerZh": "雖然活動免費,主辦單位仍沒有預料到會有數百人前來。",
+      "highlight": "figure on",
+      "targetForm": "figure on somebody coming",
+      "targetMeaningZh": "預計某人會前來"
+    },
+    {
+      "id": "phrasal-verb-143-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We had all the numbers, but it still took us an hour to calculate how much each person should pay.",
+      "promptZh": "我們已有所有數字,但仍花了一小時才計算出每人應付多少錢。",
+      "starter": "We",
+      "answer": "We had all the numbers, but it still took us an hour to figure out how much each person should pay.",
+      "answerZh": "我們已有所有數字,但仍花了一小時才計算出每人應付多少錢。",
+      "highlight": "figure out",
+      "targetForm": "figure out how much...",
+      "targetMeaningZh": "計算出金額"
+    },
+    {
+      "id": "phrasal-verb-143-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "At first, the puppy’s behaviour seemed random, but the trainer soon understood it.",
+      "promptZh": "起初,小狗的行為看似毫無規律,但訓練員很快便看懂了。",
+      "starter": "At",
+      "answer": "At first, the puppy’s behaviour seemed random, but the trainer soon figured it out.",
+      "answerZh": "起初,小狗的行為看似毫無規律,但訓練員很快便看懂了。",
+      "highlight": "figured",
+      "targetForm": "figure something out",
+      "targetMeaningZh": "理解某事物的行為或規律"
+    }
+  ]
+}

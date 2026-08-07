@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-165",
+  "order": 165,
+  "slug": "tap",
+  "version": "1",
+  "title": "TAP 動詞片語",
+  "titleEn": "Tap",
+  "titleZh": "TAP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 164 - TAP.pdf",
+    "sourceNumber": 164,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TAP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TAP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TAP",
+      "highlight": "TAP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Could you tap your uncle for a small loan?",
+      "zh": "你可否向叔叔借一筆小額貸款?",
+      "highlight": "tap your uncle for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She tapped in the code and tapped out a short reply.",
+      "zh": "她輸入密碼,並在裝置上打出簡短回覆。",
+      "highlight": "tapped in the code and tapped out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The team tapped into local knowledge.",
+      "zh": "團隊善用了本地知識。",
+      "highlight": "tapped into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以非正式方式向某人索取或借取某物,尤指金錢。；在電話、電腦或其他裝置上按鍵輸入資料或文字。；利用現有的知識、經驗、資料、能力或其他資源。；用手指、腳或物件輕敲出節奏或拍子。",
+    "en": "tap somebody for something; tap something in / tap something out; tap into something; tap something out",
+    "naturalZh": [
+      "以非正式方式向某人索取或借取某物,尤指金錢。",
+      "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+      "利用現有的知識、經驗、資料、能力或其他資源。",
+      "用手指、腳或物件輕敲出節奏或拍子。"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tap somebody for something",
+      "titleZh": "以非正式方式向某人索取或借取某物,尤指金錢。",
+      "titleEn": "tap somebody for something",
+      "descriptionZh": "以非正式方式向某人索取或借取某物,尤指金錢。",
+      "descriptionEn": "Could you tap your uncle for a small loan?",
+      "examples": [
+        {
+          "en": "Could you tap your uncle for a small loan?",
+          "zh": "你可否向叔叔借一筆小額貸款?",
+          "highlight": "tap your uncle for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tap something in / tap something out",
+      "titleZh": "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+      "titleEn": "tap something in / tap something out",
+      "descriptionZh": "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+      "descriptionEn": "She tapped in the code and tapped out a short reply.",
+      "examples": [
+        {
+          "en": "She tapped in the code and tapped out a short reply.",
+          "zh": "她輸入密碼,並在裝置上打出簡短回覆。",
+          "highlight": "tapped in the code and tapped out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tap into something",
+      "titleZh": "利用現有的知識、經驗、資料、能力或其他資源。",
+      "titleEn": "tap into something",
+      "descriptionZh": "利用現有的知識、經驗、資料、能力或其他資源。",
+      "descriptionEn": "The team tapped into local knowledge.",
+      "examples": [
+        {
+          "en": "The team tapped into local knowledge.",
+          "zh": "團隊善用了本地知識。",
+          "highlight": "tapped into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tap something out",
+      "titleZh": "用手指、腳或物件輕敲出節奏或拍子。",
+      "titleEn": "tap something out",
+      "descriptionZh": "用手指、腳或物件輕敲出節奏或拍子。",
+      "descriptionEn": "He tapped out the beat with one finger.",
+      "examples": [
+        {
+          "en": "He tapped out the beat with one finger.",
+          "zh": "他用一隻手指輕敲出拍子。",
+          "highlight": "tapped out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TAP 片語動詞的實際用途",
+    "labelEn": "TAP Phrasal Verbs in Use",
+    "summaryZh": "tap somebody for something 可以幫助你理解與金錢、借款或出資有關的非正式請求。；你可以用 tap in 表達輸入密碼和數字,也可以用 tap out 表達打出訊息和回覆。；tap into 可以用來談論運用經驗、構思、知識、資料和有用的人際網絡。；tap out 可以描述用手指、腳、鉛筆或其他物件敲出的拍子和節奏。",
+    "summaryEn": "Tap somebody for something helps you understand informal requests involving money, loans or contributions. You can use tap in for codes and numbers, and tap out for messages and replies. Tap into helps you talk about using experience, ideas, knowledge, information and useful networks. Tap out lets you describe rhythms made with fingers, feet, pencils or other objects.",
+    "contextsZh": [
+      "認識英式英語中非正式的金錢請求",
+      "談論在裝置上輸入資料",
+      "表達如何運用現有資源",
+      "清楚描述拍子和節奏"
+    ],
+    "contextsEn": [
+      "Recognise an informal British way to ask for money",
+      "Talk about entering information on a device",
+      "Show how available resources are used",
+      "Describe beats and rhythms clearly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TAP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TAP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tap somebody for something",
+    "fixedHighlight": "tap somebody for something",
+    "fixedZh": "閱讀整句,選出意思相同的 TAP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TAP expression that gives the same meaning.",
+    "correct": "tap your uncle for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 時,請按照以上例子放在正確位置。；tap something out 在本練習中有兩個意思:可以表示在裝置上打出文字,也可以表示輕敲出節奏。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, follow the examples below: tap it in tap it out tap into it Tap something out has two meanings in this exercise. It can mean typing words on a device or lightly making a rhythm. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "tap somebody for something",
+      "tap something in / tap something out",
+      "tap into something",
+      "tap something out"
+    ],
+    "variableItemsEn": [
+      "tap somebody for something",
+      "tap something in / tap something out",
+      "tap into something",
+      "tap something out"
+    ],
+    "forms": [
+      {
+        "formZh": "以非正式方式向某人索取或借取某物,尤指金錢。",
+        "formEn": "tap somebody for something",
+        "exampleZh": "你可否向叔叔借一筆小額貸款?",
+        "exampleEn": "Could you tap your uncle for a small loan?",
+        "highlight": "tap your uncle for"
+      },
+      {
+        "formZh": "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+        "formEn": "tap something in / tap something out",
+        "exampleZh": "她輸入密碼,並在裝置上打出簡短回覆。",
+        "exampleEn": "She tapped in the code and tapped out a short reply.",
+        "highlight": "tapped in the code and tapped out"
+      },
+      {
+        "formZh": "利用現有的知識、經驗、資料、能力或其他資源。",
+        "formEn": "tap into something",
+        "exampleZh": "團隊善用了本地知識。",
+        "exampleEn": "The team tapped into local knowledge.",
+        "highlight": "tapped into"
+      },
+      {
+        "formZh": "用手指、腳或物件輕敲出節奏或拍子。",
+        "formEn": "tap something out",
+        "exampleZh": "他用一隻手指輕敲出拍子。",
+        "exampleEn": "He tapped out the beat with one finger.",
+        "highlight": "tapped out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以非正式方式向某人索取或借取某物,尤指金錢。",
+      "titleEn": "tap somebody for something",
+      "formula": "tap somebody for something",
+      "highlight": "tap somebody for something",
+      "descriptionZh": "以非正式方式向某人索取或借取某物,尤指金錢。",
+      "descriptionEn": "Could you tap your uncle for a small loan?",
+      "examples": [
+        {
+          "en": "Could you tap your uncle for a small loan?",
+          "zh": "你可否向叔叔借一筆小額貸款?",
+          "highlight": "tap your uncle for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+      "titleEn": "tap something in / tap something out",
+      "formula": "tap something in / tap something out",
+      "highlight": "tap something in / tap something out",
+      "descriptionZh": "在電話、電腦或其他裝置上按鍵輸入資料或文字。",
+      "descriptionEn": "She tapped in the code and tapped out a short reply.",
+      "examples": [
+        {
+          "en": "She tapped in the code and tapped out a short reply.",
+          "zh": "她輸入密碼,並在裝置上打出簡短回覆。",
+          "highlight": "tapped in the code and tapped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "利用現有的知識、經驗、資料、能力或其他資源。",
+      "titleEn": "tap into something",
+      "formula": "tap into something",
+      "highlight": "tap into something",
+      "descriptionZh": "利用現有的知識、經驗、資料、能力或其他資源。",
+      "descriptionEn": "The team tapped into local knowledge.",
+      "examples": [
+        {
+          "en": "The team tapped into local knowledge.",
+          "zh": "團隊善用了本地知識。",
+          "highlight": "tapped into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "用手指、腳或物件輕敲出節奏或拍子。",
+      "titleEn": "tap something out",
+      "formula": "tap something out",
+      "highlight": "tap something out",
+      "descriptionZh": "用手指、腳或物件輕敲出節奏或拍子。",
+      "descriptionEn": "He tapped out the beat with one finger.",
+      "examples": [
+        {
+          "en": "He tapped out the beat with one finger.",
+          "zh": "他用一隻手指輕敲出拍子。",
+          "highlight": "tapped out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "認識英式英語中非正式的金錢請求",
+      "titleEn": "Recognise an informal British way to ask for money",
+      "zh": "tap somebody for something 可以幫助你理解與金錢、借款或出資有關的非正式請求。",
+      "en": "Tap somebody for something helps you understand informal requests involving money, loans or contributions."
+    },
+    {
+      "titleZh": "談論在裝置上輸入資料",
+      "titleEn": "Talk about entering information on a device",
+      "zh": "你可以用 tap in 表達輸入密碼和數字,也可以用 tap out 表達打出訊息和回覆。",
+      "en": "You can use tap in for codes and numbers, and tap out for messages and replies."
+    },
+    {
+      "titleZh": "表達如何運用現有資源",
+      "titleEn": "Show how available resources are used",
+      "zh": "tap into 可以用來談論運用經驗、構思、知識、資料和有用的人際網絡。",
+      "en": "Tap into helps you talk about using experience, ideas, knowledge, information and useful networks."
+    },
+    {
+      "titleZh": "清楚描述拍子和節奏",
+      "titleEn": "Describe beats and rhythms clearly",
+      "zh": "tap out 可以描述用手指、腳、鉛筆或其他物件敲出的拍子和節奏。",
+      "en": "Tap out lets you describe rhythms made with fingers, feet, pencils or other objects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "認識英式英語中非正式的金錢請求",
+      "談論在裝置上輸入資料",
+      "表達如何運用現有資源",
+      "清楚描述拍子和節奏"
+    ],
+    "contextsEn": [
+      "Recognise an informal British way to ask for money",
+      "Talk about entering information on a device",
+      "Show how available resources are used",
+      "Describe beats and rhythms clearly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "認識英式英語中非正式的金錢請求",
+        "titleEn": "Recognise an informal British way to ask for money",
+        "zh": "tap somebody for something 可以幫助你理解與金錢、借款或出資有關的非正式請求。",
+        "en": "Tap somebody for something helps you understand informal requests involving money, loans or contributions.",
+        "examples": [
+          {
+            "en": "Could you tap your uncle for a small loan?",
+            "zh": "你可否向叔叔借一筆小額貸款?",
+            "highlight": "tap your uncle for"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論在裝置上輸入資料",
+        "titleEn": "Talk about entering information on a device",
+        "zh": "你可以用 tap in 表達輸入密碼和數字,也可以用 tap out 表達打出訊息和回覆。",
+        "en": "You can use tap in for codes and numbers, and tap out for messages and replies.",
+        "examples": [
+          {
+            "en": "She tapped in the code and tapped out a short reply.",
+            "zh": "她輸入密碼,並在裝置上打出簡短回覆。",
+            "highlight": "tapped in the code and tapped out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達如何運用現有資源",
+        "titleEn": "Show how available resources are used",
+        "zh": "tap into 可以用來談論運用經驗、構思、知識、資料和有用的人際網絡。",
+        "en": "Tap into helps you talk about using experience, ideas, knowledge, information and useful networks.",
+        "examples": [
+          {
+            "en": "The team tapped into local knowledge.",
+            "zh": "團隊善用了本地知識。",
+            "highlight": "tapped into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述拍子和節奏",
+        "titleEn": "Describe beats and rhythms clearly",
+        "zh": "tap out 可以描述用手指、腳、鉛筆或其他物件敲出的拍子和節奏。",
+        "en": "Tap out lets you describe rhythms made with fingers, feet, pencils or other objects.",
+        "examples": [
+          {
+            "en": "He tapped out the beat with one finger.",
+            "zh": "他用一隻手指輕敲出拍子。",
+            "highlight": "tapped out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TAP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TAP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TAP 片語動詞。",
+      "en": "Read the whole sentence and choose the TAP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, follow the examples below: tap it in tap it out tap into it.",
+      "zh": "使用 it 時,請按照以上例子放在正確位置。",
+      "en": "When using it, follow the examples below: tap it in tap it out tap into it"
+    },
+    {
+      "titleZh": "tap something out 在本練習中有兩個意思:可以表示在裝置上打出文字,也可以表示輕敲出節奏。請仔細閱讀整個情境。",
+      "titleEn": "Tap something out has two meanings in this exercise.",
+      "zh": "tap something out 在本練習中有兩個意思:可以表示在裝置上打出文字,也可以表示輕敲出節奏。請仔細閱讀整個情境。",
+      "en": "Tap something out has two meanings in this exercise. It can mean typing words on a device or lightly making a rhythm. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TAP 動詞片語句子改寫練習",
+    "titleEn": "TAP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-165-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Enter your four-digit code on the screen.",
+      "promptZh": "在畫面上輸入你的四位數密碼。",
+      "starter": "Tap",
+      "answer": "Tap in your four-digit code on the screen.",
+      "answerZh": "在畫面上輸入你的四位數密碼。",
+      "highlight": "Tap in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入資料或數字"
+    },
+    {
+      "id": "phrasal-verb-165-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The coach used her years of experience to help the new team.",
+      "promptZh": "教練運用她多年的經驗來幫助新隊伍。",
+      "starter": "The",
+      "answer": "The coach tapped into her years of experience to help the new team.",
+      "answerZh": "教練運用她多年的經驗來幫助新隊伍。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的經驗或資源"
+    },
+    {
+      "id": "phrasal-verb-165-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben asked his uncle to lend him £20.",
+      "promptZh": "賓向叔叔借20英鎊。",
+      "starter": "Ben",
+      "answer": "Ben tapped his uncle for £20.",
+      "answerZh": "賓向叔叔借20英鎊。",
+      "highlight": "tapped",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取某物"
+    },
+    {
+      "id": "phrasal-verb-165-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella made the beat by lightly hitting the table.",
+      "promptZh": "埃拉輕敲桌面打出拍子。",
+      "starter": "Ella",
+      "answer": "Ella tapped out the beat on the table.",
+      "answerZh": "埃拉在桌上輕敲出拍子。",
+      "highlight": "tapped out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam wrote a short text message on his phone by pressing the keys.",
+      "promptZh": "森在手機上按鍵打出一則簡短訊息。",
+      "starter": "Sam",
+      "answer": "Sam tapped out a short text message on his phone.",
+      "answerZh": "森在手機上打出一則簡短訊息。",
+      "highlight": "tapped out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "用按鍵打出文字"
+    },
+    {
+      "id": "phrasal-verb-165-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The school used parents’ ideas to improve the play area.",
+      "promptZh": "學校運用家長的意見改善遊戲區。",
+      "starter": "The",
+      "answer": "The school tapped into parents’ ideas to improve the play area.",
+      "answerZh": "學校運用家長的意見改善遊戲區。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的構思或意見"
+    },
+    {
+      "id": "phrasal-verb-165-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Could you ask your sister to lend you the bus fare?",
+      "promptZh": "你可否向姐姐借車費?",
+      "starter": "Could",
+      "answer": "Could you tap your sister for the bus fare?",
+      "answerZh": "你可否向姐姐借車費?",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child made a simple rhythm with a pencil.",
+      "promptZh": "那個孩子用鉛筆敲出簡單節奏。",
+      "starter": "The",
+      "answer": "The child tapped out a simple rhythm with a pencil.",
+      "answerZh": "那個孩子用鉛筆敲出簡單節奏。",
+      "highlight": "tapped out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We used the guide’s local knowledge during the walk.",
+      "promptZh": "我們在步行遊覽時運用了導遊的本地知識。",
+      "starter": "We",
+      "answer": "We tapped into the guide’s local knowledge during the walk.",
+      "answerZh": "我們在步行遊覽時運用了導遊的本地知識。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的知識"
+    },
+    {
+      "id": "phrasal-verb-165-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Priya entered her name and phone number on the tablet.",
+      "promptZh": "普里雅在平板電腦上輸入姓名和電話號碼。",
+      "starter": "Priya",
+      "answer": "Priya tapped in her name and phone number on the tablet.",
+      "answerZh": "普里雅在平板電腦上輸入姓名和電話號碼。",
+      "highlight": "tapped in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入資料"
+    },
+    {
+      "id": "phrasal-verb-165-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah is making the rhythm with his fingers now.",
+      "promptZh": "諾亞現在正用手指打出節奏。",
+      "starter": "Noah",
+      "answer": "Noah is tapping out the rhythm with his fingers now.",
+      "answerZh": "諾亞現在正用手指打出節奏。",
+      "highlight": "tapping out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Zoe has asked three friends to give £5 each.",
+      "promptZh": "佐伊已向三位朋友各自索取5英鎊。",
+      "starter": "Zoe",
+      "answer": "Zoe has tapped three friends for £5 each.",
+      "answerZh": "佐伊已向三位朋友各自索取5英鎊。",
+      "highlight": "tapped",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The art club will use the students’ creative ideas for the show.",
+      "promptZh": "藝術學會將運用學生的創意來籌辦表演。",
+      "starter": "The",
+      "answer": "The art club will tap into the students’ creative ideas for the show.",
+      "answerZh": "藝術學會將運用學生的創意來籌辦表演。",
+      "highlight": "tap into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的創意或構思"
+    },
+    {
+      "id": "phrasal-verb-165-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did Hugo type the wrong number into the machine?",
+      "promptZh": "曉高為甚麼在機器中輸入錯誤號碼?",
+      "starter": "Why",
+      "answer": "Why did Hugo tap in the wrong number?",
+      "answerZh": "曉高為甚麼輸入錯誤號碼?",
+      "highlight": "tap in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入數字"
+    },
+    {
+      "id": "phrasal-verb-165-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Grace was lightly making a beat on the window while she waited.",
+      "promptZh": "格蕾絲等候時,正輕輕在窗上打拍子。",
+      "starter": "Grace",
+      "answer": "Grace was tapping a beat out on the window while she waited.",
+      "answerZh": "格蕾絲等候時,正輕輕在窗上打拍子。",
+      "highlight": "tapping",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "I may ask Dad to lend me the train fare.",
+      "promptZh": "我可能會向爸爸借火車車費。",
+      "starter": "I",
+      "answer": "I may tap Dad for the train fare.",
+      "answerZh": "我可能會向爸爸借火車車費。",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The app is using information from your step counter.",
+      "promptZh": "這個應用程式正在運用計步器的資料。",
+      "starter": "The",
+      "answer": "The app is tapping into information from your step counter.",
+      "answerZh": "這個應用程式正在運用計步器的資料。",
+      "highlight": "tapping into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的資料"
+    },
+    {
+      "id": "phrasal-verb-165-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can you make this rhythm with your foot?",
+      "promptZh": "你可以用腳打出這個節奏嗎?",
+      "starter": "Can",
+      "answer": "Can you tap out this rhythm with your foot?",
+      "answerZh": "你可以用腳打出這個節奏嗎?",
+      "highlight": "tap out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Tara has written three quick replies on her phone.",
+      "promptZh": "塔拉已在手機上打出三則簡短回覆。",
+      "starter": "Tara",
+      "answer": "Tara has tapped out three quick replies on her phone.",
+      "answerZh": "塔拉已在手機上打出三則簡短回覆。",
+      "highlight": "tapped out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "用按鍵打出文字"
+    },
+    {
+      "id": "phrasal-verb-165-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The club hopes to ask each parent for £3.",
+      "promptZh": "學會希望向每位家長索取3英鎊。",
+      "starter": "The",
+      "answer": "The club hopes to tap each parent for £3.",
+      "answerZh": "學會希望向每位家長索取3英鎊。",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The team needed fresh ideas, so it used the younger players’ ideas.",
+      "promptZh": "隊伍需要新構思,所以運用了年輕球員的意見。",
+      "starter": "The",
+      "answer": "The team needed fresh ideas, so it tapped into the younger players’ ideas.",
+      "answerZh": "隊伍需要新構思,所以運用了年輕球員的意見。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的構思或意見"
+    },
+    {
+      "id": "phrasal-verb-165-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I cannot remember the code. Please enter it for me.",
+      "promptZh": "我記不起密碼。請替我輸入。",
+      "starter": "I",
+      "answer": "I cannot remember the code. Please tap it in for me.",
+      "answerZh": "我記不起密碼。請替我輸入。",
+      "highlight": "tap",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入資料"
+    },
+    {
+      "id": "phrasal-verb-165-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The tune was easy, and Kai could make it with two fingers.",
+      "promptZh": "旋律很簡單,啟可以用兩隻手指敲出來。",
+      "starter": "The",
+      "answer": "The tune was easy, and Kai could tap it out with two fingers.",
+      "answerZh": "旋律很簡單,啟可以用兩隻手指敲出來。",
+      "highlight": "tap",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或曲調"
+    },
+    {
+      "id": "phrasal-verb-165-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Rosa needed £10 for lunch, so she asked her brother for the money.",
+      "promptZh": "羅莎需要10英鎊吃午餐,所以向哥哥借這筆錢。",
+      "starter": "Rosa",
+      "answer": "Rosa needed £10 for lunch, so she tapped her brother for the money.",
+      "answerZh": "羅莎需要10英鎊吃午餐,所以向哥哥借這筆錢。",
+      "highlight": "tapped",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teacher used what the class already knew to explain the new topic.",
+      "promptZh": "老師運用全班已懂的知識來解釋新課題。",
+      "starter": "The",
+      "answer": "The teacher tapped into what the class already knew to explain the new topic.",
+      "answerZh": "老師運用全班已懂的知識來解釋新課題。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用已有的知識"
+    },
+    {
+      "id": "phrasal-verb-165-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The address was long, but Daniel entered it carefully on the screen.",
+      "promptZh": "地址很長,但丹尼爾在畫面上小心輸入。",
+      "starter": "The",
+      "answer": "The address was long, but Daniel tapped it in carefully on the screen.",
+      "answerZh": "地址很長,但丹尼爾在畫面上小心輸入。",
+      "highlight": "tapped",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入資料"
+    },
+    {
+      "id": "phrasal-verb-165-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We did not ask our neighbours for a contribution to the street party.",
+      "promptZh": "我們沒有請鄰居為街坊派對出一筆錢。",
+      "starter": "We",
+      "answer": "We did not tap our neighbours for a contribution to the street party.",
+      "answerZh": "我們沒有請鄰居為街坊派對出一筆錢。",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取金錢或出資"
+    },
+    {
+      "id": "phrasal-verb-165-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The drummer showed us the beat, and we made it on our desks.",
+      "promptZh": "鼓手向我們示範拍子,我們便在書桌上敲出來。",
+      "starter": "The",
+      "answer": "The drummer showed us the beat, and we tapped it out on our desks.",
+      "answerZh": "鼓手向我們示範拍子,我們便在書桌上敲出來。",
+      "highlight": "tapped",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The café wants to make use of the local tourist market.",
+      "promptZh": "咖啡店希望利用本地遊客市場。",
+      "starter": "The",
+      "answer": "The café wants to tap into the local tourist market.",
+      "answerZh": "咖啡店希望利用本地遊客市場。",
+      "highlight": "tap into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的市場或機會"
+    },
+    {
+      "id": "phrasal-verb-165-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Farah is writing a short note on her phone before the lesson starts.",
+      "promptZh": "法拉在上課前正用手機打出一則短訊。",
+      "starter": "Farah",
+      "answer": "Farah is tapping a short note out on her phone before the lesson starts.",
+      "answerZh": "法拉在上課前正用手機打出一則短訊。",
+      "highlight": "tapping",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "用按鍵打出文字"
+    },
+    {
+      "id": "phrasal-verb-165-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Oliver had no cash for the cinema, so he tried to get £15 from a friend.",
+      "promptZh": "奧利弗沒有錢看電影,所以嘗試向朋友借15英鎊。",
+      "starter": "Oliver",
+      "answer": "Oliver had no cash for the cinema, so he tried to tap a friend for £15.",
+      "answerZh": "奧利弗沒有錢看電影,所以嘗試向朋友借15英鎊。",
+      "highlight": "tap a friend for",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The group had little money, so it used the skills its members already had.",
+      "promptZh": "小組的資金不多,所以運用了成員已有的技能。",
+      "starter": "The",
+      "answer": "The group had little money, so it tapped into the skills its members already had.",
+      "answerZh": "小組的資金不多,所以運用了成員已有的技能。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的技能或能力"
+    },
+    {
+      "id": "phrasal-verb-165-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The website asked Leo to enter the last six numbers of his card.",
+      "promptZh": "網站要求里奧輸入卡上的最後六個數字。",
+      "starter": "The",
+      "answer": "The website asked Leo to tap in the last six numbers of his card.",
+      "answerZh": "網站要求里奧輸入卡上的最後六個數字。",
+      "highlight": "tap in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入數字"
+    },
+    {
+      "id": "phrasal-verb-165-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During the song, Ava quietly made the same beat on her knee.",
+      "promptZh": "歌曲播放時,艾娃靜靜在膝上打出相同拍子。",
+      "starter": "During",
+      "answer": "During the song, Ava quietly tapped the same beat out on her knee.",
+      "answerZh": "歌曲播放時,艾娃靜靜在膝上打出相同拍子。",
+      "highlight": "tapped",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of using the club’s money, the organiser asked each member for £2.",
+      "promptZh": "主辦人沒有動用學會的錢,而是向每名會員索取2英鎊。",
+      "starter": "Instead",
+      "answer": "Instead of using the club’s money, the organiser tapped each member for £2.",
+      "answerZh": "主辦人沒有動用學會的錢,而是向每名會員索取2英鎊。",
+      "highlight": "tapped",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The nurse used the child’s love of music to help him relax.",
+      "promptZh": "護士利用孩子對音樂的喜愛,幫助他放鬆。",
+      "starter": "The",
+      "answer": "The nurse tapped into the child’s love of music to help him relax.",
+      "answerZh": "護士利用孩子對音樂的喜愛,幫助他放鬆。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用某種興趣或感受"
+    },
+    {
+      "id": "phrasal-verb-165-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I was too tired to write a full email, so I typed a short reply on my phone.",
+      "promptZh": "我太累,無法寫完整電郵,所以在手機上打了一則簡短回覆。",
+      "starter": "I",
+      "answer": "I was too tired to write a full email, so I tapped a short reply out on my phone.",
+      "answerZh": "我太累,無法寫完整電郵,所以在手機上打了一則簡短回覆。",
+      "highlight": "tapped",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "用按鍵打出文字"
+    },
+    {
+      "id": "phrasal-verb-165-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Would it be rude to ask your aunt for another small loan?",
+      "promptZh": "再向姨姨借一筆小額貸款會否沒有禮貌?",
+      "starter": "Would",
+      "answer": "Would it be rude to tap your aunt for another small loan?",
+      "answerZh": "再向姨姨借一筆小額貸款會否沒有禮貌?",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Ben forgot the drumsticks, but he made the rhythm with two spoons.",
+      "promptZh": "賓忘了帶鼓棍,但用兩隻匙羹打出節奏。",
+      "starter": "Ben",
+      "answer": "Ben forgot the drumsticks, but he tapped out the rhythm with two spoons.",
+      "answerZh": "賓忘了帶鼓棍,但用兩隻匙羹打出節奏。",
+      "highlight": "tapped out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The new shop used the nearby student market to attract customers.",
+      "promptZh": "新店利用附近的學生市場吸引顧客。",
+      "starter": "The",
+      "answer": "The new shop tapped into the nearby student market to attract customers.",
+      "answerZh": "新店利用附近的學生市場吸引顧客。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的市場或機會"
+    },
+    {
+      "id": "phrasal-verb-165-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The machine would not open the gate until Iris entered the correct code.",
+      "promptZh": "艾莉絲輸入正確密碼後,機器才會打開閘門。",
+      "starter": "The",
+      "answer": "The machine would not open the gate until Iris tapped in the correct code.",
+      "answerZh": "艾莉絲輸入正確密碼後,機器才會打開閘門。",
+      "highlight": "tapped in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入資料"
+    },
+    {
+      "id": "phrasal-verb-165-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The music stopped, but Jack continued making its beat on the arm of his chair.",
+      "promptZh": "音樂停了,但積克繼續在椅子扶手上打出它的拍子。",
+      "starter": "The",
+      "answer": "The music stopped, but Jack continued tapping out its beat on the arm of his chair.",
+      "answerZh": "音樂停了,但積克繼續在椅子扶手上打出它的拍子。",
+      "highlight": "tapping out",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The class had raised most of the money for the trip, but it planned to ask the head teacher for the final £30.",
+      "promptZh": "全班已籌得旅行所需的大部分款項,但計劃向校長索取最後30英鎊。",
+      "starter": "The",
+      "answer": "The class had raised most of the money for the trip, but it planned to tap the head teacher for the final £30.",
+      "answerZh": "全班已籌得旅行所需的大部分款項,但計劃向校長索取最後30英鎊。",
+      "highlight": "tap",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取金錢或出資"
+    },
+    {
+      "id": "phrasal-verb-165-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Rather than inventing everything again, the group used the experience of last year’s team.",
+      "promptZh": "小組沒有重新構思一切,而是運用上屆隊伍的經驗。",
+      "starter": "Rather",
+      "answer": "Rather than inventing everything again, the group tapped into the experience of last year’s team.",
+      "answerZh": "小組沒有重新構思一切,而是運用上屆隊伍的經驗。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的經驗"
+    },
+    {
+      "id": "phrasal-verb-165-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Chloe had only one free hand, but she still managed to type the message on her phone.",
+      "promptZh": "克洛伊只有一隻手可以使用,但仍成功在手機上打出訊息。",
+      "starter": "Chloe",
+      "answer": "Chloe had only one free hand, but she still managed to tap the message out on her phone.",
+      "answerZh": "克洛伊只有一隻手可以使用,但仍成功在手機上打出訊息。",
+      "highlight": "tap",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "用按鍵打出文字"
+    },
+    {
+      "id": "phrasal-verb-165-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The teacher played a short rhythm once, and the pupils had to make it without hearing it again.",
+      "promptZh": "老師只播放一次短節奏,學生要在不重聽的情況下敲出來。",
+      "starter": "The",
+      "answer": "The teacher played a short rhythm once, and the pupils had to tap it out without hearing it again.",
+      "answerZh": "老師只播放一次短節奏,學生要在不重聽的情況下敲出來。",
+      "highlight": "tap",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    },
+    {
+      "id": "phrasal-verb-165-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Umar did not want to use his savings, so he asked two cousins to lend him some money.",
+      "promptZh": "烏馬爾不想動用積蓄,所以向兩位表親借錢。",
+      "starter": "Umar",
+      "answer": "Umar did not want to use his savings, so he tapped two cousins for some money.",
+      "answerZh": "烏馬爾不想動用積蓄,所以向兩位表親借錢。",
+      "highlight": "tapped",
+      "targetForm": "tap somebody for something",
+      "targetMeaningZh": "向某人索取或借取金錢"
+    },
+    {
+      "id": "phrasal-verb-165-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the order could be sent, Lena had to enter every item number correctly.",
+      "promptZh": "訂單送出前,莉娜必須正確輸入每個貨品編號。",
+      "starter": "Before",
+      "answer": "Before the order could be sent, Lena had to tap in every item number correctly.",
+      "answerZh": "訂單送出前,莉娜必須正確輸入每個貨品編號。",
+      "highlight": "tap in",
+      "targetForm": "tap something in",
+      "targetMeaningZh": "用按鍵輸入數字或資料"
+    },
+    {
+      "id": "phrasal-verb-165-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The small company had no advertising team, so it used the owner’s online network.",
+      "promptZh": "小公司沒有廣告團隊,所以利用東主的網上人際網絡。",
+      "starter": "The",
+      "answer": "The small company had no advertising team, so it tapped into the owner’s online network.",
+      "answerZh": "小公司沒有廣告團隊,所以利用東主的網上人際網絡。",
+      "highlight": "tapped into",
+      "targetForm": "tap into something",
+      "targetMeaningZh": "利用現有的人際網絡或資源"
+    },
+    {
+      "id": "phrasal-verb-165-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Even without a drum, the group could make the whole rhythm on the wooden floor.",
+      "promptZh": "即使沒有鼓,小組也能在木地板上敲出整個節奏。",
+      "starter": "Even",
+      "answer": "Even without a drum, the group could tap the whole rhythm out on the wooden floor.",
+      "answerZh": "即使沒有鼓,小組也能在木地板上敲出整個節奏。",
+      "highlight": "tap",
+      "targetForm": "tap something out",
+      "targetMeaningZh": "輕敲出節奏或拍子"
+    }
+  ]
+}

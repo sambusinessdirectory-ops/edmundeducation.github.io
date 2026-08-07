@@ -24,7 +24,7 @@ const ALL_QUESTION_IDS = LESSON_IDS.flatMap((lessonId) => Array.from(
   { length: LESSON_QUESTION_COUNTS[lessonId] },
   (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
 ));
-const MAX_BOOKMARKS = LESSON_IDS.length + ALL_QUESTION_IDS.length;
+const MAX_BOOKMARKS = 2005;
 
 function environment(overrides = {}) {
   return {
@@ -210,7 +210,12 @@ test("worker, SQL, and Wrangler contracts are independently phrasal-verb-namespa
   assert.match(workerSource, /const LESSON_IDS = new Set\(Object\.keys\(LESSON_QUESTION_COUNTS\)\)/);
   assert.match(workerSource, /hasOwnProperty\.call\(ACCEPTED_ANSWERS, questionId\)/);
   assert.match(sqlSource, /_phrasal_verb_system_question_count/);
-  assert.match(sqlSource, /when 'phrasal-verb-35' then 70/);
+  const sqlQuestionCounts = Object.fromEntries([...sqlSource.matchAll(
+    /\('(?<lessonId>phrasal-verb-\d{2,3})'::text, (?<questionCount>\d+)::integer\)/g
+  )].map(match => [match.groups.lessonId, Number(match.groups.questionCount)]));
+  assert.deepEqual(sqlQuestionCounts, LESSON_QUESTION_COUNTS);
+  assert.match(sqlSource, /_phrasal_verb_system_question_id_valid/);
+  assert.doesNotMatch(sqlSource, /v_question_pattern/);
   assert.match(sqlSource, /\^\\\$2a\\\$12\\\$/);
   assert.doesNotMatch(sqlSource, /\\\$2\[aby\]\\\$12/);
   assert.doesNotMatch(workerSource, /sentence-structure/i);
@@ -268,8 +273,8 @@ test("health reports bookmark limits and canonical catalogue readiness", async (
     expectedQuestions: ALL_QUESTION_IDS.length
   });
   assert.deepEqual(payload.limits, {
-    maxAttemptBodyBytes: 128 * 1024,
-    maxAttemptResultBytes: 96 * 1024,
+    maxAttemptBodyBytes: 512 * 1024,
+    maxAttemptResultBytes: 384 * 1024,
     maxBookmarks: MAX_BOOKMARKS,
     maxPageSize: 100
   });
@@ -362,6 +367,36 @@ test("a canonical answer reaches the Phrasal Verb attempt RPC unchanged", async 
     upsertPayload.p_result.questionState[QUESTION_IDS[0]].lastAnswer,
     ACCEPTED_ANSWERS[QUESTION_IDS[0]][0]
   );
+});
+
+test("three-digit lessons and q100-q250 remain canonical", async t => {
+  const lastLessonId = "phrasal-verb-329";
+  const lastQuestionId = `${lastLessonId}-q${String(LESSON_QUESTION_COUNTS[lastLessonId]).padStart(2, "0")}`;
+  assert.ok(ACCEPTED_ANSWERS[lastQuestionId]?.length, "the final lesson answer must be protected");
+  assert.ok(ACCEPTED_ANSWERS["phrasal-verb-269-q100"]?.length, "q100 must use the canonical unpadded ID");
+  assert.ok(ACCEPTED_ANSWERS["phrasal-verb-269-q250"]?.length, "q250 must use the canonical unpadded ID");
+  assert.equal(ACCEPTED_ANSWERS["phrasal-verb-269-q010"], undefined);
+
+  let upsertPayload = null;
+  installFetch(t, async (input, init = {}) => {
+    const functionName = rpcName(input);
+    const body = JSON.parse(String(init.body || "{}"));
+    if (functionName === "phrasal_verb_system_student_profile") return jsonResponse(studentProfile());
+    if (functionName === "phrasal_verb_system_upsert_attempt") {
+      upsertPayload = body;
+      return jsonResponse(attemptRow(body));
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  });
+
+  const response = await worker.fetch(attemptRequest(attemptPayload({
+    lessonId: lastLessonId,
+    questionId: lastQuestionId,
+    answer: ACCEPTED_ANSWERS[lastQuestionId][0]
+  })), environment());
+  assert.equal(response.status, 200);
+  assert.equal(upsertPayload.p_lesson_id, lastLessonId);
+  assert.deepEqual(upsertPayload.p_result.correctIds, [lastQuestionId]);
 });
 
 test("an explicitly approved Rule-4 answer variant is accepted", async t => {
@@ -470,8 +505,8 @@ test("claimed-correct answers fail closed before upsert when unavailable or unap
   assert.equal(upsertCalls, 0);
 });
 
-test("all catalogue-derived bookmarks round-trip, are rate limited, and an oversized list is rejected", async t => {
-  const bookmarks = LESSON_IDS.flatMap((lessonId) => [
+test("the bounded bookmark catalogue round-trips, includes high IDs, and rejects an oversized list", async t => {
+  const allBookmarks = LESSON_IDS.flatMap((lessonId) => [
     { lessonId, questionId: "__section__", includeAnswer: false },
     ...Array.from({ length: LESSON_QUESTION_COUNTS[lessonId] }, (_, index) => ({
       lessonId,
@@ -479,6 +514,12 @@ test("all catalogue-derived bookmarks round-trip, are rate limited, and an overs
       includeAnswer: index % 2 === 0
     }))
   ]);
+  const highestLessonId = LESSON_IDS.at(-1);
+  const bookmarks = [
+    ...allBookmarks.filter(bookmark => bookmark.lessonId === highestLessonId),
+    ...allBookmarks.filter(bookmark => bookmark.lessonId !== highestLessonId)
+  ].slice(0, MAX_BOOKMARKS);
+  assert.ok(bookmarks.some(bookmark => bookmark.lessonId === "phrasal-verb-329"));
   const rows = bookmarks.map((bookmark, index) => ({
     lesson_id: bookmark.lessonId,
     question_id: bookmark.questionId,
@@ -578,7 +619,7 @@ test("attempt byte validation matches PostgreSQL jsonb spacing", async t => {
   });
 
   const startedAt = new Date(Date.now() - 1000).toISOString();
-  const roundNumber = 28;
+  const roundNumber = 116;
   const result = {
     round: roundNumber,
     correctIds: [],
@@ -601,7 +642,7 @@ test("attempt byte validation matches PostgreSQL jsonb spacing", async t => {
     contentVersion: "1"
   };
   assert.ok(
-    Buffer.byteLength(JSON.stringify(result), "utf8") < 96 * 1024,
+    Buffer.byteLength(JSON.stringify(result), "utf8") < 384 * 1024,
     "fixture must fit a compact-JSON-only check"
   );
 

@@ -1,0 +1,2011 @@
+{
+  "id": "phrasal-verb-81",
+  "order": 81,
+  "slug": "let",
+  "version": "1",
+  "title": "LET 動詞片語",
+  "titleEn": "Let",
+  "titleZh": "LET 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 80 - Let.pdf",
+    "sourceNumber": 80,
+    "pageCount": 46,
+    "teachingPdfPages": [
+      2,
+      3,
+      6
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "contentPdfPages": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "answerKeyPdfPages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LET",
+      "highlight": "LET"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Someone let off in the lift.",
+      "zh": "有人在升降機內放了屁。",
+      "highlight": "let off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "School lets out at half past three.",
+      "zh": "學校在下午三時半放學。",
+      "highlight": "lets out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please do not let me down.",
+      "zh": "請不要令我失望。",
+      "highlight": "let me down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "放屁(英式非正式用語)；放學;下班(美式英語)；沒有做到答應的事,令某人失望；不處罰某人,或只給予較輕的處罰；准許某人不用做某件工作或責任；拖累某人或某事物的表現;辜負自己；讓某人或某物通過；放掉輪胎的氣；讓雨、風、光或聲音等進入；燃放煙花；發出叫聲、笑聲、嘆息或其他聲音",
+    "en": "let off; let out; let somebody down; let somebody off (with something); let somebody off / let somebody off something; let somebody/something down; let yourself down; let somebody/something through; let something down; let something in; let something off; let something out",
+    "naturalZh": [
+      "放屁(英式非正式用語)",
+      "放學;下班(美式英語)",
+      "沒有做到答應的事,令某人失望",
+      "不處罰某人,或只給予較輕的處罰",
+      "准許某人不用做某件工作或責任",
+      "拖累某人或某事物的表現;辜負自己",
+      "讓某人或某物通過",
+      "放掉輪胎的氣",
+      "讓雨、風、光或聲音等進入",
+      "燃放煙花",
+      "發出叫聲、笑聲、嘆息或其他聲音"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "let off",
+      "titleZh": "放屁(英式非正式用語)",
+      "titleEn": "let off",
+      "descriptionZh": "放屁(英式非正式用語)",
+      "descriptionEn": "Someone let off in the lift.",
+      "examples": [
+        {
+          "en": "Someone let off in the lift.",
+          "zh": "有人在升降機內放了屁。",
+          "highlight": "let off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let out",
+      "titleZh": "放學;下班(美式英語)",
+      "titleEn": "let out",
+      "descriptionZh": "放學;下班(美式英語)",
+      "descriptionEn": "School lets out at half past three.",
+      "examples": [
+        {
+          "en": "School lets out at half past three.",
+          "zh": "學校在下午三時半放學。",
+          "highlight": "lets out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let somebody down",
+      "titleZh": "沒有做到答應的事,令某人失望",
+      "titleEn": "let somebody down",
+      "descriptionZh": "沒有做到答應的事,令某人失望",
+      "descriptionEn": "Please do not let me down.",
+      "examples": [
+        {
+          "en": "Please do not let me down.",
+          "zh": "請不要令我失望。",
+          "highlight": "let me down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let somebody off (with something)",
+      "titleZh": "不處罰某人,或只給予較輕的處罰",
+      "titleEn": "let somebody off (with something)",
+      "descriptionZh": "不處罰某人,或只給予較輕的處罰",
+      "descriptionEn": "The teacher let him off with a warning.",
+      "examples": [
+        {
+          "en": "The teacher let him off with a warning.",
+          "zh": "老師只警告了他,沒有再處罰他。",
+          "highlight": "let him off with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let somebody off / let somebody off something",
+      "titleZh": "准許某人不用做某件工作或責任",
+      "titleEn": "let somebody off / let somebody off something",
+      "descriptionZh": "准許某人不用做某件工作或責任",
+      "descriptionEn": "Dad let me off washing the dishes.",
+      "examples": [
+        {
+          "en": "Dad let me off washing the dishes.",
+          "zh": "爸爸准我不用洗碗。",
+          "highlight": "let me off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let somebody/something down; let yourself down",
+      "titleZh": "拖累某人或某事物的表現;辜負自己",
+      "titleEn": "let somebody/something down; let yourself down",
+      "descriptionZh": "拖累某人或某事物的表現;辜負自己",
+      "descriptionEn": "The weak ending let the film down.",
+      "examples": [
+        {
+          "en": "The weak ending let the film down.",
+          "zh": "薄弱的結局令電影失色。",
+          "highlight": "let the film down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "let somebody/something through",
+      "titleZh": "讓某人或某物通過",
+      "titleEn": "let somebody/something through",
+      "descriptionZh": "讓某人或某物通過",
+      "descriptionEn": "The crowd let the ambulance through.",
+      "examples": [
+        {
+          "en": "The crowd let the ambulance through.",
+          "zh": "人群讓救護車通過。",
+          "highlight": "let the ambulance through"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "let something down",
+      "titleZh": "放掉輪胎的氣",
+      "titleEn": "let something down",
+      "descriptionZh": "放掉輪胎的氣",
+      "descriptionEn": "Someone let my bicycle tyre down.",
+      "examples": [
+        {
+          "en": "Someone let my bicycle tyre down.",
+          "zh": "有人放掉了我的單車輪胎的氣。",
+          "highlight": "let my bicycle tyre down"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "let something in",
+      "titleZh": "讓雨、風、光或聲音等進入",
+      "titleEn": "let something in",
+      "descriptionZh": "讓雨、風、光或聲音等進入",
+      "descriptionEn": "The broken window let the rain in.",
+      "examples": [
+        {
+          "en": "The broken window let the rain in.",
+          "zh": "破窗讓雨水進入室內。",
+          "highlight": "let the rain in"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "let something off",
+      "titleZh": "燃放煙花",
+      "titleEn": "let something off",
+      "descriptionZh": "燃放煙花",
+      "descriptionEn": "They let off fireworks at midnight.",
+      "examples": [
+        {
+          "en": "They let off fireworks at midnight.",
+          "zh": "他們在午夜燃放煙花。",
+          "highlight": "let off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "let something out",
+      "titleZh": "發出叫聲、笑聲、嘆息或其他聲音",
+      "titleEn": "let something out",
+      "descriptionZh": "發出叫聲、笑聲、嘆息或其他聲音",
+      "descriptionEn": "She let out a long sigh.",
+      "examples": [
+        {
+          "en": "She let out a long sigh.",
+          "zh": "她長嘆一聲。",
+          "highlight": "let out"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LET 片語動詞的實際用途",
+    "labelEn": "LET Phrasal Verbs in Use",
+    "summaryZh": "let somebody off 可以表示免除處罰或責任;let somebody through 則可以表示讓人或車輛通過。；let somebody down 可以表示令人失望;let something down 則可表示一個弱點拖累整體表現。；你可以用 school lets out 表示放學、用 let out a scream 表示尖叫,也可以用 let rain in 表示讓雨水進入。；單獨使用 let off 是表示放屁的英式非正式用法;school 或 work lets out 則是常見的美式說法。",
+    "summaryEn": "Let somebody off can remove a punishment or duty, while let somebody through allows a person or vehicle to pass. Let somebody down shows disappointment. Let something down shows that one weak point makes the whole result less successful. You can say that school lets out, somebody lets out a scream, or a hole lets rain in. Bare let off is informal British English for passing wind. School or work lets out is common American English.",
+    "contextsZh": [
+      "用 LET 談論准許、免除和通過",
+      "清楚描述失望和表現受拖累",
+      "談論結束、聲音和事物進入",
+      "認出實用的地區及非正式用法"
+    ],
+    "contextsEn": [
+      "Use LET to talk about permission, freedom and passage",
+      "Describe disappointment and weak performance clearly",
+      "Talk about endings, sounds and things entering",
+      "Recognise useful regional and informal English"
+    ],
+    "formalZh": "有些表達看起來相似,但意思不同。請根據整個情境作答。4 let somebody off: no punishment or no dutylet something off: fireworkslet out: school or work ends; a sound is made",
+    "formalEn": "let off fireworks / let the fireworks off / let them off let the ambulance through / let it through Some expressions look alike but have different meanings. Use the whole situation."
+  },
+  "fixedVariable": {
+    "fixed": "let off",
+    "fixedHighlight": "let off",
+    "fixedZh": "有些表達看起來相似,但意思不同。請根據整個情境作答。4 let somebody off: no punishment or no dutylet something off: fireworkslet out: school or work ends; a sound is made",
+    "fixedEn": "let off fireworks / let the fireworks off / let them off let the ambulance through / let it through Some expressions look alike but have different meanings. Use the whole situation.",
+    "correct": "let off",
+    "incorrectForms": [],
+    "variableZh": "有些表達看起來相似,但意思不同。請根據整個情境作答。4 let somebody off: no punishment or no dutylet something off: fireworkslet out: school or work ends; a sound is made",
+    "variableEn": "let off fireworks / let the fireworks off / let them off let the ambulance through / let it through Some expressions look alike but have different meanings. Use the whole situation.",
+    "variableItemsZh": [
+      "let off",
+      "let out",
+      "let somebody down",
+      "let somebody off (with something)",
+      "let somebody off / let somebody off something",
+      "let somebody/something down; let yourself down",
+      "let somebody/something through",
+      "let something down",
+      "let something in",
+      "let something off",
+      "let something out"
+    ],
+    "variableItemsEn": [
+      "let off",
+      "let out",
+      "let somebody down",
+      "let somebody off (with something)",
+      "let somebody off / let somebody off something",
+      "let somebody/something down; let yourself down",
+      "let somebody/something through",
+      "let something down",
+      "let something in",
+      "let something off",
+      "let something out"
+    ],
+    "forms": [
+      {
+        "formZh": "放屁(英式非正式用語)",
+        "formEn": "let off",
+        "exampleZh": "有人在升降機內放了屁。",
+        "exampleEn": "Someone let off in the lift.",
+        "highlight": "let off"
+      },
+      {
+        "formZh": "放學;下班(美式英語)",
+        "formEn": "let out",
+        "exampleZh": "學校在下午三時半放學。",
+        "exampleEn": "School lets out at half past three.",
+        "highlight": "lets out"
+      },
+      {
+        "formZh": "沒有做到答應的事,令某人失望",
+        "formEn": "let somebody down",
+        "exampleZh": "請不要令我失望。",
+        "exampleEn": "Please do not let me down.",
+        "highlight": "let me down"
+      },
+      {
+        "formZh": "不處罰某人,或只給予較輕的處罰",
+        "formEn": "let somebody off (with something)",
+        "exampleZh": "老師只警告了他,沒有再處罰他。",
+        "exampleEn": "The teacher let him off with a warning.",
+        "highlight": "let him off with"
+      },
+      {
+        "formZh": "准許某人不用做某件工作或責任",
+        "formEn": "let somebody off / let somebody off something",
+        "exampleZh": "爸爸准我不用洗碗。",
+        "exampleEn": "Dad let me off washing the dishes.",
+        "highlight": "let me off"
+      },
+      {
+        "formZh": "拖累某人或某事物的表現;辜負自己",
+        "formEn": "let somebody/something down; let yourself down",
+        "exampleZh": "薄弱的結局令電影失色。",
+        "exampleEn": "The weak ending let the film down.",
+        "highlight": "let the film down"
+      },
+      {
+        "formZh": "讓某人或某物通過",
+        "formEn": "let somebody/something through",
+        "exampleZh": "人群讓救護車通過。",
+        "exampleEn": "The crowd let the ambulance through.",
+        "highlight": "let the ambulance through"
+      },
+      {
+        "formZh": "放掉輪胎的氣",
+        "formEn": "let something down",
+        "exampleZh": "有人放掉了我的單車輪胎的氣。",
+        "exampleEn": "Someone let my bicycle tyre down.",
+        "highlight": "let my bicycle tyre down"
+      },
+      {
+        "formZh": "讓雨、風、光或聲音等進入",
+        "formEn": "let something in",
+        "exampleZh": "破窗讓雨水進入室內。",
+        "exampleEn": "The broken window let the rain in.",
+        "highlight": "let the rain in"
+      },
+      {
+        "formZh": "燃放煙花",
+        "formEn": "let something off",
+        "exampleZh": "他們在午夜燃放煙花。",
+        "exampleEn": "They let off fireworks at midnight.",
+        "highlight": "let off"
+      },
+      {
+        "formZh": "發出叫聲、笑聲、嘆息或其他聲音",
+        "formEn": "let something out",
+        "exampleZh": "她長嘆一聲。",
+        "exampleEn": "She let out a long sigh.",
+        "highlight": "let out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "放屁(英式非正式用語)",
+      "titleEn": "let off",
+      "formula": "let off",
+      "highlight": "let off",
+      "descriptionZh": "放屁(英式非正式用語)",
+      "descriptionEn": "Someone let off in the lift.",
+      "examples": [
+        {
+          "en": "Someone let off in the lift.",
+          "zh": "有人在升降機內放了屁。",
+          "highlight": "let off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "放學;下班(美式英語)",
+      "titleEn": "let out",
+      "formula": "let out",
+      "highlight": "let out",
+      "descriptionZh": "放學;下班(美式英語)",
+      "descriptionEn": "School lets out at half past three.",
+      "examples": [
+        {
+          "en": "School lets out at half past three.",
+          "zh": "學校在下午三時半放學。",
+          "highlight": "lets out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "沒有做到答應的事,令某人失望",
+      "titleEn": "let somebody down",
+      "formula": "let somebody down",
+      "highlight": "let somebody down",
+      "descriptionZh": "沒有做到答應的事,令某人失望",
+      "descriptionEn": "Please do not let me down.",
+      "examples": [
+        {
+          "en": "Please do not let me down.",
+          "zh": "請不要令我失望。",
+          "highlight": "let me down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "不處罰某人,或只給予較輕的處罰",
+      "titleEn": "let somebody off (with something)",
+      "formula": "let somebody off (with something)",
+      "highlight": "let somebody off (with something)",
+      "descriptionZh": "不處罰某人,或只給予較輕的處罰",
+      "descriptionEn": "The teacher let him off with a warning.",
+      "examples": [
+        {
+          "en": "The teacher let him off with a warning.",
+          "zh": "老師只警告了他,沒有再處罰他。",
+          "highlight": "let him off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "准許某人不用做某件工作或責任",
+      "titleEn": "let somebody off / let somebody off something",
+      "formula": "let somebody off / let somebody off something",
+      "highlight": "let somebody off / let somebody off something",
+      "descriptionZh": "准許某人不用做某件工作或責任",
+      "descriptionEn": "Dad let me off washing the dishes.",
+      "examples": [
+        {
+          "en": "Dad let me off washing the dishes.",
+          "zh": "爸爸准我不用洗碗。",
+          "highlight": "let me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "拖累某人或某事物的表現;辜負自己",
+      "titleEn": "let somebody/something down; let yourself down",
+      "formula": "let somebody/something down; let yourself down",
+      "highlight": "let somebody/something down; let yourself down",
+      "descriptionZh": "拖累某人或某事物的表現;辜負自己",
+      "descriptionEn": "The weak ending let the film down.",
+      "examples": [
+        {
+          "en": "The weak ending let the film down.",
+          "zh": "薄弱的結局令電影失色。",
+          "highlight": "let the film down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "讓某人或某物通過",
+      "titleEn": "let somebody/something through",
+      "formula": "let somebody/something through",
+      "highlight": "let somebody/something through",
+      "descriptionZh": "讓某人或某物通過",
+      "descriptionEn": "The crowd let the ambulance through.",
+      "examples": [
+        {
+          "en": "The crowd let the ambulance through.",
+          "zh": "人群讓救護車通過。",
+          "highlight": "let the ambulance through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "放掉輪胎的氣",
+      "titleEn": "let something down",
+      "formula": "let something down",
+      "highlight": "let something down",
+      "descriptionZh": "放掉輪胎的氣",
+      "descriptionEn": "Someone let my bicycle tyre down.",
+      "examples": [
+        {
+          "en": "Someone let my bicycle tyre down.",
+          "zh": "有人放掉了我的單車輪胎的氣。",
+          "highlight": "let my bicycle tyre down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "讓雨、風、光或聲音等進入",
+      "titleEn": "let something in",
+      "formula": "let something in",
+      "highlight": "let something in",
+      "descriptionZh": "讓雨、風、光或聲音等進入",
+      "descriptionEn": "The broken window let the rain in.",
+      "examples": [
+        {
+          "en": "The broken window let the rain in.",
+          "zh": "破窗讓雨水進入室內。",
+          "highlight": "let the rain in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "燃放煙花",
+      "titleEn": "let something off",
+      "formula": "let something off",
+      "highlight": "let something off",
+      "descriptionZh": "燃放煙花",
+      "descriptionEn": "They let off fireworks at midnight.",
+      "examples": [
+        {
+          "en": "They let off fireworks at midnight.",
+          "zh": "他們在午夜燃放煙花。",
+          "highlight": "let off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "發出叫聲、笑聲、嘆息或其他聲音",
+      "titleEn": "let something out",
+      "formula": "let something out",
+      "highlight": "let something out",
+      "descriptionZh": "發出叫聲、笑聲、嘆息或其他聲音",
+      "descriptionEn": "She let out a long sigh.",
+      "examples": [
+        {
+          "en": "She let out a long sigh.",
+          "zh": "她長嘆一聲。",
+          "highlight": "let out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 LET 談論准許、免除和通過",
+      "titleEn": "Use LET to talk about permission, freedom and passage",
+      "zh": "let somebody off 可以表示免除處罰或責任;let somebody through 則可以表示讓人或車輛通過。",
+      "en": "Let somebody off can remove a punishment or duty, while let somebody through allows a person or vehicle to pass."
+    },
+    {
+      "titleZh": "清楚描述失望和表現受拖累",
+      "titleEn": "Describe disappointment and weak performance clearly",
+      "zh": "let somebody down 可以表示令人失望;let something down 則可表示一個弱點拖累整體表現。",
+      "en": "Let somebody down shows disappointment. Let something down shows that one weak point makes the whole result less successful."
+    },
+    {
+      "titleZh": "談論結束、聲音和事物進入",
+      "titleEn": "Talk about endings, sounds and things entering",
+      "zh": "你可以用 school lets out 表示放學、用 let out a scream 表示尖叫,也可以用 let rain in 表示讓雨水進入。",
+      "en": "You can say that school lets out, somebody lets out a scream, or a hole lets rain in."
+    },
+    {
+      "titleZh": "認出實用的地區及非正式用法",
+      "titleEn": "Recognise useful regional and informal English",
+      "zh": "單獨使用 let off 是表示放屁的英式非正式用法;school 或 work lets out 則是常見的美式說法。",
+      "en": "Bare let off is informal British English for passing wind. School or work lets out is common American English."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 LET 談論准許、免除和通過",
+      "清楚描述失望和表現受拖累",
+      "談論結束、聲音和事物進入",
+      "認出實用的地區及非正式用法"
+    ],
+    "contextsEn": [
+      "Use LET to talk about permission, freedom and passage",
+      "Describe disappointment and weak performance clearly",
+      "Talk about endings, sounds and things entering",
+      "Recognise useful regional and informal English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 LET 談論准許、免除和通過",
+        "titleEn": "Use LET to talk about permission, freedom and passage",
+        "zh": "let somebody off 可以表示免除處罰或責任;let somebody through 則可以表示讓人或車輛通過。",
+        "en": "Let somebody off can remove a punishment or duty, while let somebody through allows a person or vehicle to pass.",
+        "examples": [
+          {
+            "en": "Someone let off in the lift.",
+            "zh": "有人在升降機內放了屁。",
+            "highlight": "let off"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述失望和表現受拖累",
+        "titleEn": "Describe disappointment and weak performance clearly",
+        "zh": "let somebody down 可以表示令人失望;let something down 則可表示一個弱點拖累整體表現。",
+        "en": "Let somebody down shows disappointment. Let something down shows that one weak point makes the whole result less successful.",
+        "examples": [
+          {
+            "en": "School lets out at half past three.",
+            "zh": "學校在下午三時半放學。",
+            "highlight": "lets out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論結束、聲音和事物進入",
+        "titleEn": "Talk about endings, sounds and things entering",
+        "zh": "你可以用 school lets out 表示放學、用 let out a scream 表示尖叫,也可以用 let rain in 表示讓雨水進入。",
+        "en": "You can say that school lets out, somebody lets out a scream, or a hole lets rain in.",
+        "examples": [
+          {
+            "en": "Please do not let me down.",
+            "zh": "請不要令我失望。",
+            "highlight": "let me down"
+          }
+        ]
+      },
+      {
+        "titleZh": "認出實用的地區及非正式用法",
+        "titleEn": "Recognise useful regional and informal English",
+        "zh": "單獨使用 let off 是表示放屁的英式非正式用法;school 或 work lets out 則是常見的美式說法。",
+        "en": "Bare let off is informal British English for passing wind. School or work lets out is common American English.",
+        "examples": [
+          {
+            "en": "The teacher let him off with a warning.",
+            "zh": "老師只警告了他,沒有再處罰他。",
+            "highlight": "let him off with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "有些表達看起來相似,但意思不同。請根據整個情境作答。4 let somebody off: no punishment or no dutylet something off: fireworkslet out: school or work ends; a sound is made",
+      "titleEn": "let off fireworks / let the fireworks off / let them off let the ambulance through / let it through Some expressions look alike but have different meanings.",
+      "zh": "有些表達看起來相似,但意思不同。請根據整個情境作答。4 let somebody off: no punishment or no dutylet something off: fireworkslet out: school or work ends; a sound is made",
+      "en": "let off fireworks / let the fireworks off / let them off let the ambulance through / let it through Some expressions look alike but have different meanings. Use the whole situation."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LET 動詞片語句子改寫練習",
+    "titleEn": "LET Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-81-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "School finishes at half past three every afternoon.",
+      "promptZh": "學校每天下午三時半放學。",
+      "starter": "School",
+      "answer": "School lets out at half past three every afternoon.",
+      "answerZh": "學校每天下午三時半放學。",
+      "highlight": "lets out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "The crowd moved aside and allowed the ambulance to pass.",
+      "promptZh": "人群讓開,讓救護車通過。",
+      "starter": "The",
+      "answer": "The crowd moved aside and let the ambulance through.",
+      "answerZh": "人群讓開,讓救護車通過。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "I needed your help, but you did not come.",
+      "promptZh": "我需要你幫忙,但你沒有來。",
+      "starter": "I",
+      "answer": "I needed your help, but you let me down.",
+      "answerZh": "我需要你幫忙,但你令我失望。",
+      "highlight": "let me down",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "The town made fireworks explode at midnight.",
+      "promptZh": "小鎮在午夜燃放煙花。",
+      "starter": "The",
+      "answer": "The town let off fireworks at midnight.",
+      "answerZh": "小鎮在午夜燃放煙花。",
+      "highlight": "let off",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "Someone passed wind during the quiet test.",
+      "promptZh": "安靜的測驗期間有人放了屁。",
+      "starter": "Someone",
+      "answer": "Someone let off during the quiet test.",
+      "answerZh": "安靜的測驗期間有人放了屁。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "Dad said I did not have to wash the dishes.",
+      "promptZh": "爸爸說我不用洗碗。",
+      "starter": "Dad",
+      "answer": "Dad let me off washing the dishes.",
+      "answerZh": "爸爸准我不用洗碗。",
+      "highlight": "let me off washing",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The broken window allowed the rain to enter.",
+      "promptZh": "破窗讓雨水進入室內。",
+      "starter": "The",
+      "answer": "The broken window let the rain in.",
+      "answerZh": "破窗讓雨水進入室內。",
+      "highlight": "let",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The teacher gave Leo only a warning for being late.",
+      "promptZh": "老師只警告了遲到的里奧,沒有再處罰他。",
+      "starter": "The",
+      "answer": "The teacher let Leo off with a warning for being late.",
+      "answerZh": "老師只警告了遲到的里奧,沒有再處罰他。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The child gave a loud scream when the balloon burst.",
+      "promptZh": "氣球爆破時,孩子大聲尖叫。",
+      "starter": "The",
+      "answer": "The child let out a loud scream when the balloon burst.",
+      "answerZh": "氣球爆破時,孩子大聲尖叫。",
+      "highlight": "let out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Her weak spelling reduced her score in the test.",
+      "promptZh": "她的拼字不佳令她在測驗中失分。",
+      "starter": "Her",
+      "answer": "Her weak spelling let her down in the test.",
+      "answerZh": "她的拼字不佳拖累了她的測驗表現。",
+      "highlight": "let",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Classes finish early on Fridays.",
+      "promptZh": "逢星期五,課堂提早結束。",
+      "starter": "Classes",
+      "answer": "Classes let out early on Fridays.",
+      "answerZh": "逢星期五,課堂提早結束。",
+      "highlight": "let out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Someone released the air from my bicycle tyre.",
+      "promptZh": "有人放掉了我的單車輪胎的氣。",
+      "starter": "Someone",
+      "answer": "Someone let my bicycle tyre down.",
+      "answerZh": "有人放掉了我的單車輪胎的氣。",
+      "highlight": "let",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The team expected him to score, but he missed.",
+      "promptZh": "球隊期望他入球,但他射失了。",
+      "starter": "The",
+      "answer": "The team expected him to score, but he let them down.",
+      "answerZh": "球隊期望他入球,但他令球隊失望。",
+      "highlight": "let them down",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Who passed wind in the lift?",
+      "promptZh": "誰在升降機內放了屁?",
+      "starter": "Who",
+      "answer": "Who let off in the lift?",
+      "answerZh": "誰在升降機內放了屁?",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The coach said Ava did not have to train today.",
+      "promptZh": "教練說艾娃今天不用訓練。",
+      "starter": "The",
+      "answer": "The coach let Ava off training today.",
+      "answerZh": "教練准艾娃今天不用訓練。",
+      "highlight": "let",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The police decided not to fine the driver.",
+      "promptZh": "警方決定不向司機罰款。",
+      "starter": "The",
+      "answer": "The police let the driver off without a fine.",
+      "answerZh": "警方沒有向司機罰款,放過了他。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Nina is giving a long sigh because she is tired.",
+      "promptZh": "妮娜因為很疲倦,正長嘆一聲。",
+      "starter": "Nina",
+      "answer": "Nina is letting out a long sigh because she is tired.",
+      "answerZh": "妮娜因為很疲倦,正長嘆一聲。",
+      "highlight": "letting out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "The referee has decided not to punish Sam this time.",
+      "promptZh": "球證決定今次不處罰森。",
+      "starter": "The",
+      "answer": "The referee has let Sam off this time.",
+      "answerZh": "球證今次放過了森,沒有處罰他。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Please allow the delivery van to pass through the gate.",
+      "promptZh": "請讓送貨車通過閘門。",
+      "starter": "Please",
+      "answer": "Please let the delivery van through the gate.",
+      "answerZh": "請讓送貨車通過閘門。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Work will finish at six tonight.",
+      "promptZh": "今晚六時下班。",
+      "starter": "Work",
+      "answer": "Work will let out at six tonight.",
+      "answerZh": "今晚六時下班。",
+      "highlight": "let out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The small gap is allowing cold air to enter.",
+      "promptZh": "小縫隙正讓冷空氣進入室內。",
+      "starter": "The",
+      "answer": "The small gap is letting cold air in.",
+      "answerZh": "小縫隙正讓冷空氣進入室內。",
+      "highlight": "letting",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The weak battery life makes this phone less useful.",
+      "promptZh": "電池續航力差,令這部手機大為失色。",
+      "starter": "The",
+      "answer": "The weak battery life lets this phone down.",
+      "answerZh": "電池續航力差,令這部手機大為失色。",
+      "highlight": "lets",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Someone has passed wind in this room.",
+      "promptZh": "這房間裏有人放了屁。",
+      "starter": "Someone",
+      "answer": "Someone has let off in this room.",
+      "answerZh": "這房間裏有人放了屁。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The neighbours are lighting fireworks in the garden.",
+      "promptZh": "鄰居正在花園燃放煙花。",
+      "starter": "The",
+      "answer": "The neighbours are letting off fireworks in the garden.",
+      "answerZh": "鄰居正在花園燃放煙花。",
+      "highlight": "letting off",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Please do not fail me after promising to help.",
+      "promptZh": "你答應幫忙後,請不要令我失望。",
+      "starter": "Please",
+      "answer": "Please do not let me down after promising to help.",
+      "answerZh": "你答應幫忙後,請不要令我失望。",
+      "highlight": "let",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The children are releasing the air from the bicycle tyres.",
+      "promptZh": "孩子正在放掉單車輪胎的氣。",
+      "starter": "The",
+      "answer": "The children are letting the bicycle tyres down.",
+      "answerZh": "孩子正在放掉單車輪胎的氣。",
+      "highlight": "letting",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Can you say that I do not have to clean the kitchen tonight?",
+      "promptZh": "你可以准我今晚不用清潔廚房嗎?",
+      "starter": "Can",
+      "answer": "Can you let me off cleaning the kitchen tonight?",
+      "answerZh": "你可以准我今晚不用清潔廚房嗎?",
+      "highlight": "let me off cleaning",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The guard did not allow us to pass.",
+      "promptZh": "警衛不讓我們通過。",
+      "starter": "The",
+      "answer": "The guard did not let us through.",
+      "answerZh": "警衛不讓我們通過。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Does this door allow much noise to enter?",
+      "promptZh": "這道門會讓很多噪音傳進來嗎?",
+      "starter": "Does",
+      "answer": "Does this door let much noise in?",
+      "answerZh": "這道門會讓很多噪音傳進來嗎?",
+      "highlight": "let",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Will the hotel light fireworks after dinner?",
+      "promptZh": "酒店會在晚餐後燃放煙花嗎?",
+      "starter": "Will",
+      "answer": "Will the hotel let off fireworks after dinner?",
+      "answerZh": "酒店會在晚餐後燃放煙花嗎?",
+      "highlight": "let off",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Do not perform below your ability because of one small mistake.",
+      "promptZh": "不要因為一個小錯誤而表現得低於自己的能力。",
+      "starter": "Do",
+      "answer": "Do not let yourself down because of one small mistake.",
+      "answerZh": "不要因為一個小錯誤而辜負自己。",
+      "highlight": "let yourself down",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Has anyone released the air from the car tyres?",
+      "promptZh": "有人放掉了汽車輪胎的氣嗎?",
+      "starter": "Has",
+      "answer": "Has anyone let the car tyres down?",
+      "answerZh": "有人放掉了汽車輪胎的氣嗎?",
+      "highlight": "let",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The tyre was full yesterday, but someone has released its air.",
+      "promptZh": "輪胎昨天仍然有氣,但有人已把氣放掉。",
+      "starter": "The",
+      "answer": "The tyre was full yesterday, but someone has let it down.",
+      "answerZh": "輪胎昨天仍然有氣,但有人已把氣放掉。",
+      "highlight": "let it down",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "I trusted them to bring the tickets. They failed me.",
+      "promptZh": "我相信他們會帶門票來,但他們令我失望。",
+      "starter": "I",
+      "answer": "I trusted them to bring the tickets. They let me down.",
+      "answerZh": "我相信他們會帶門票來,但他們令我失望。",
+      "highlight": "let",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The news surprised Clara, and she gave a short gasp.",
+      "promptZh": "這個消息令克拉拉感到驚訝,她輕輕倒抽一口氣。",
+      "starter": "The",
+      "answer": "The news surprised Clara, and she let out a short gasp.",
+      "answerZh": "這個消息令克拉拉感到驚訝,她輕輕倒抽一口氣。",
+      "highlight": "let out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The film was enjoyable, but its weak ending made it less successful.",
+      "promptZh": "這部電影很有趣,但薄弱的結局令它失色。",
+      "starter": "The",
+      "answer": "The film was enjoyable, but its weak ending let it down.",
+      "answerZh": "這部電影很有趣,但薄弱的結局令它失色。",
+      "highlight": "let",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The boy tried to stay quiet, but he passed wind.",
+      "promptZh": "男孩嘗試保持安靜,但他放了屁。",
+      "starter": "The",
+      "answer": "The boy tried to stay quiet, but he let off.",
+      "answerZh": "男孩嘗試保持安靜,但他放了屁。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "Omar broke a minor rule, but he was given only a warning.",
+      "promptZh": "奧馬違反了一項小規則,但他只受到警告。",
+      "starter": "Omar",
+      "answer": "Omar broke a minor rule, but he was let off with a warning.",
+      "answerZh": "奧馬違反了一項小規則,但他只受到警告。",
+      "highlight": "let off with",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The tent had a hole, so it allowed water to enter.",
+      "promptZh": "帳篷有一個破洞,所以雨水滲了進來。",
+      "starter": "The",
+      "answer": "The tent had a hole, so it let water in.",
+      "answerZh": "帳篷有一個破洞,所以雨水滲了進來。",
+      "highlight": "let",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "Hana is tired, so her mother said she could skip doing the shopping.",
+      "promptZh": "夏娜很疲倦,所以媽媽准她不用去買東西。",
+      "starter": "Hana",
+      "answer": "Hana is tired, so her mother let her off doing the shopping.",
+      "answerZh": "夏娜很疲倦,所以媽媽准她不用去買東西。",
+      "highlight": "let her off",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The road was blocked, but people allowed the fire engine to pass.",
+      "promptZh": "道路受阻,但人們讓消防車通過。",
+      "starter": "The",
+      "answer": "The road was blocked, but people let the fire engine through.",
+      "answerZh": "道路受阻,但人們讓消防車通過。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "Work finished early because of the storm.",
+      "promptZh": "因為暴風雨,大家提早下班。",
+      "starter": "Work",
+      "answer": "Work let out early because of the storm.",
+      "answerZh": "因為暴風雨,大家提早下班。",
+      "highlight": "let out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The organiser had already lit the fireworks before we arrived.",
+      "promptZh": "我們到達前,主辦人已經燃放了煙花。",
+      "starter": "The",
+      "answer": "The organiser had already let the fireworks off before we arrived.",
+      "answerZh": "我們到達前,主辦人已經燃放了煙花。",
+      "highlight": "let",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "Jonah tried not to laugh, but one laugh escaped.",
+      "promptZh": "約拿嘗試忍住不笑,但還是笑了一聲。",
+      "starter": "Jonah",
+      "answer": "Jonah tried not to laugh, but he let one out.",
+      "answerZh": "約拿嘗試忍住不笑,但還是笑了一聲。",
+      "highlight": "he let",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "We gave her one important job, but she failed us.",
+      "promptZh": "我們交給她一項重要工作,但她令我們失望。",
+      "starter": "We",
+      "answer": "We gave her one important job, but she let us down.",
+      "answerZh": "我們交給她一項重要工作,但她令我們失望。",
+      "highlight": "let",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "Everyone heard a rude noise. Someone had passed wind.",
+      "promptZh": "大家都聽到不雅的聲音;有人放了屁。",
+      "starter": "Everyone",
+      "answer": "Everyone heard a rude noise. Someone had let off.",
+      "answerZh": "大家都聽到不雅的聲音;有人放了屁。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The player should have received a yellow card, but the referee did not punish him.",
+      "promptZh": "那名球員本應收到黃牌,但球證沒有處罰他。",
+      "starter": "The",
+      "answer": "The player should have received a yellow card, but the referee let him off.",
+      "answerZh": "那名球員本應收到黃牌,但球證沒有處罰他。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The teacher said we did not have to do the extra page.",
+      "promptZh": "老師說我們不用做額外的一頁。",
+      "starter": "We",
+      "answer": "We did not have to do the extra page because the teacher let us off.",
+      "answerZh": "老師准我們不用做額外的一頁。",
+      "highlight": "because the teacher let us off",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The manager gave her only a warning because it was her first mistake.",
+      "promptZh": "因為這是她第一次犯錯,經理只警告了她。",
+      "starter": "The",
+      "answer": "The manager let her off with a warning because it was her first mistake.",
+      "answerZh": "因為這是她第一次犯錯,經理只警告了她。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The curtains were too thin and allowed bright morning light to enter.",
+      "promptZh": "窗簾太薄,讓早上的強光照進來。",
+      "starter": "The",
+      "answer": "The curtains were too thin and let bright morning light in.",
+      "answerZh": "窗簾太薄,讓早上的強光照進來。",
+      "highlight": "let",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "When school finishes for summer, the buses become crowded.",
+      "promptZh": "學校開始放暑假時,巴士會變得擠迫。",
+      "starter": "When",
+      "answer": "When school lets out for summer, the buses become crowded.",
+      "answerZh": "學校開始放暑假時,巴士會變得擠迫。",
+      "highlight": "lets out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "His pronunciation is strong, but nerves make him perform worse during speeches.",
+      "promptZh": "他的發音很好,但緊張令他演講時表現失準。",
+      "starter": "His",
+      "answer": "His pronunciation is strong, but nerves let him down during speeches.",
+      "answerZh": "他的發音很好,但緊張拖累了他演講時的表現。",
+      "highlight": "let",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "No fireworks were used because the wind was strong.",
+      "promptZh": "因為風勢強勁,當晚沒有燃放煙花。",
+      "starter": "No",
+      "answer": "No fireworks were let off because the wind was strong.",
+      "answerZh": "因為風勢強勁,當晚沒有燃放煙花。",
+      "highlight": "let off",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Only ticket holders were allowed to pass through the side door.",
+      "promptZh": "只有持票人士獲准從側門通過。",
+      "starter": "Only",
+      "answer": "Only ticket holders were let through the side door.",
+      "answerZh": "只有持票人士獲准從側門通過。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Nobody admitted that they had passed wind on the bus.",
+      "promptZh": "沒有人承認自己曾在巴士上放屁。",
+      "starter": "Nobody",
+      "answer": "Nobody admitted that they had let off on the bus.",
+      "answerZh": "沒有人承認自己曾在巴士上放屁。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "The bicycle tyre became flat because someone released its air overnight.",
+      "promptZh": "有人在夜間放掉了單車輪胎的氣,所以輪胎變扁了。",
+      "starter": "The",
+      "answer": "The bicycle tyre became flat because someone let it down overnight.",
+      "answerZh": "有人在夜間放掉了單車輪胎的氣,所以輪胎變扁了。",
+      "highlight": "let it down",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "The group leader allowed Priya to skip carrying the boxes because her arm hurt.",
+      "promptZh": "普里雅手臂疼痛,所以組長准她不用搬箱子。",
+      "starter": "The",
+      "answer": "The group leader let Priya off carrying the boxes because her arm hurt.",
+      "answerZh": "普里雅手臂疼痛,所以組長准她不用搬箱子。",
+      "highlight": "let",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "When the winner was announced, the crowd gave a huge cheer.",
+      "promptZh": "公布勝出者時,人群發出巨大的歡呼聲。",
+      "starter": "When",
+      "answer": "When the winner was announced, the crowd let out a huge cheer.",
+      "answerZh": "公布勝出者時,人群發出巨大的歡呼聲。",
+      "highlight": "let out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Daniel promised to call his sister, but he forgot again.",
+      "promptZh": "丹尼爾答應打電話給妹妹,但他又忘記了。",
+      "starter": "Daniel",
+      "answer": "Daniel promised to call his sister, but he let her down again.",
+      "answerZh": "丹尼爾答應打電話給妹妹,但他又令她失望。",
+      "highlight": "let her down",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "More than a hundred parents wait outside when classes finish.",
+      "promptZh": "課堂結束時,超過一百名家長在外面等候。",
+      "starter": "More",
+      "answer": "More than a hundred parents wait outside when classes let out.",
+      "answerZh": "課堂結束時,超過一百名家長在外面等候。",
+      "highlight": "let out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The camera takes clear pictures, but its slow start makes it less useful.",
+      "promptZh": "這部相機拍出的照片很清晰,但啟動太慢令它失色。",
+      "starter": "The",
+      "answer": "The camera takes clear pictures, but its slow start lets it down.",
+      "answerZh": "這部相機拍出的照片很清晰,但啟動太慢令它失色。",
+      "highlight": "lets",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The open door was allowing cold wind to enter, so we closed it.",
+      "promptZh": "打開的門正讓冷風進來,所以我們把門關上。",
+      "starter": "The",
+      "answer": "The open door was letting cold wind in, so we closed it.",
+      "answerZh": "打開的門正讓冷風進來,所以我們把門關上。",
+      "highlight": "letting",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The security team checked our bags before allowing us to pass.",
+      "promptZh": "保安人員檢查我們的袋後,才讓我們通過。",
+      "starter": "The",
+      "answer": "The security team checked our bags before letting us through.",
+      "answerZh": "保安人員檢查我們的袋後,才讓我們通過。",
+      "highlight": "letting",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "Why did someone release the air from both front tyres?",
+      "promptZh": "為甚麼有人放掉兩個前輪輪胎的氣?",
+      "starter": "Why",
+      "answer": "Why did someone let both front tyres down?",
+      "answerZh": "為甚麼有人放掉兩個前輪輪胎的氣?",
+      "highlight": "let",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "The presentation had strong ideas, but the speaker's quiet voice made the whole thing less successful.",
+      "promptZh": "簡報的構思很好,但講者聲音太小,令整體效果失色。",
+      "starter": "The",
+      "answer": "The presentation had strong ideas, but the speaker's quiet voice let it down.",
+      "answerZh": "簡報的構思很好,但講者聲音太小,令整體效果失色。",
+      "highlight": "let it down",
+      "targetForm": "let somebody/something down; let yourself down",
+      "targetMeaningZh": "拖累某人或某事物的表現;辜負自己"
+    },
+    {
+      "id": "phrasal-verb-81-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "The town waited until the birds had left the park before lighting the fireworks.",
+      "promptZh": "小鎮等到雀鳥離開公園後,才燃放煙花。",
+      "starter": "The",
+      "answer": "The town waited until the birds had left the park before letting the fireworks off.",
+      "answerZh": "小鎮等到雀鳥離開公園後,才燃放煙花。",
+      "highlight": "letting",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "You said you would meet me at the station, so please do not fail me again.",
+      "promptZh": "你說會在車站跟我見面,所以請不要再令我失望。",
+      "starter": "You",
+      "answer": "You said you would meet me at the station, so please do not let me down again.",
+      "answerZh": "你說會在車站跟我見面,所以請不要再令我失望。",
+      "highlight": "let",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Eva opened the result email, stared at the screen and gave a cry of joy.",
+      "promptZh": "伊娃打開成績電郵,望着螢幕,開心得叫了一聲。",
+      "starter": "Eva",
+      "answer": "Eva opened the result email, stared at the screen and let out a cry of joy.",
+      "answerZh": "伊娃打開成績電郵,望着螢幕,開心得叫了一聲。",
+      "highlight": "let out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Although the cyclist ignored the sign, the officer decided to give him only a warning.",
+      "promptZh": "雖然單車手沒有理會標誌,但警員決定只警告他。",
+      "starter": "Although",
+      "answer": "Although the cyclist ignored the sign, the officer let him off with a warning.",
+      "answerZh": "雖然單車手沒有理會標誌,但警員決定只警告他。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "When we returned to the car, we found that someone had released the air from a rear tyre.",
+      "promptZh": "我們回到汽車旁時,發現有人放掉了一個後輪輪胎的氣。",
+      "starter": "When",
+      "answer": "When we returned to the car, we found that someone had let a rear tyre down.",
+      "answerZh": "我們回到汽車旁時,發現有人放掉了一個後輪輪胎的氣。",
+      "highlight": "let",
+      "targetForm": "let something down",
+      "targetMeaningZh": "放掉輪胎的氣"
+    },
+    {
+      "id": "phrasal-verb-81-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "The square fills quickly after work finishes, so we should arrive before six.",
+      "promptZh": "下班後廣場很快便會擠滿人,所以我們應在六時前到達。",
+      "starter": "The",
+      "answer": "The square fills quickly after work lets out, so we should arrive before six.",
+      "answerZh": "下班後廣場很快便會擠滿人,所以我們應在六時前到達。",
+      "highlight": "lets out",
+      "targetForm": "let out",
+      "targetMeaningZh": "放學;下班(美式英語"
+    },
+    {
+      "id": "phrasal-verb-81-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Since Aisha had already worked all morning, the manager said she could skip doing the final task.",
+      "promptZh": "艾莎整個上午已經一直工作,所以經理准她不用做最後一項工作。",
+      "starter": "Since",
+      "answer": "Since Aisha had already worked all morning, the manager let her off doing the final task.",
+      "answerZh": "艾莎整個上午已經一直工作,所以經理准她不用做最後一項工作。",
+      "highlight": "let her off",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    },
+    {
+      "id": "phrasal-verb-81-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The roof looks fine in dry weather, but one small hole allows rain to enter during storms.",
+      "promptZh": "天氣乾燥時屋頂看來沒有問題,但暴風雨期間一個小洞會讓雨水進來。",
+      "starter": "The",
+      "answer": "The roof looks fine in dry weather, but one small hole lets rain in during storms.",
+      "answerZh": "天氣乾燥時屋頂看來沒有問題,但暴風雨期間一個小洞會讓雨水進來。",
+      "highlight": "lets",
+      "targetForm": "let something in",
+      "targetMeaningZh": "讓雨、風、光或聲音等進入"
+    },
+    {
+      "id": "phrasal-verb-81-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The bus was waiting behind us, so we moved aside and allowed it to pass.",
+      "promptZh": "巴士在我們後面等候,所以我們讓到一旁,讓它通過。",
+      "starter": "The",
+      "answer": "The bus was waiting behind us, so we moved aside and let it through.",
+      "answerZh": "巴士在我們後面等候,所以我們讓到一旁,讓它通過。",
+      "highlight": "let",
+      "targetForm": "let somebody/something through",
+      "targetMeaningZh": "讓某人或某物通過"
+    },
+    {
+      "id": "phrasal-verb-81-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "Someone passed wind during the serious speech, and several people tried not to laugh.",
+      "promptZh": "有人在嚴肅的演講期間放了屁,幾個人嘗試忍住不笑。",
+      "starter": "Someone",
+      "answer": "Someone let off during the serious speech, and several people tried not to laugh.",
+      "answerZh": "有人在嚴肅的演講期間放了屁,幾個人嘗試忍住不笑。",
+      "highlight": "let off",
+      "targetForm": "let off",
+      "targetMeaningZh": "放屁(英式非正式用語"
+    },
+    {
+      "id": "phrasal-verb-81-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The organisers had planned fireworks, but they decided not to light them near the horses.",
+      "promptZh": "主辦單位原本安排了煙花,但決定不在馬匹附近燃放。",
+      "starter": "The",
+      "answer": "The organisers had planned fireworks, but they decided not to let them off near the horses.",
+      "answerZh": "主辦單位原本安排了煙花,但決定不在馬匹附近燃放。",
+      "highlight": "let",
+      "targetForm": "let something off",
+      "targetMeaningZh": "燃放煙花"
+    },
+    {
+      "id": "phrasal-verb-81-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "Ravi has always supported his team, and he is determined not to fail them in the final.",
+      "promptZh": "拉維一直支持球隊,並決心不在決賽中令隊友失望。",
+      "starter": "Ravi",
+      "answer": "Ravi has always supported his team, and he is determined not to let them down in the final.",
+      "answerZh": "拉維一直支持球隊,並決心不在決賽中令隊友失望。",
+      "highlight": "let",
+      "targetForm": "let somebody down",
+      "targetMeaningZh": "沒有做到答應的事,令某人失望"
+    },
+    {
+      "id": "phrasal-verb-81-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The room was silent until the baby suddenly gave a loud laugh.",
+      "promptZh": "房間一直很安靜,直至嬰兒突然大笑一聲。",
+      "starter": "The",
+      "answer": "The room was silent until the baby suddenly let out a loud laugh.",
+      "answerZh": "房間一直很安靜,直至嬰兒突然大笑一聲。",
+      "highlight": "let out",
+      "targetForm": "let something out",
+      "targetMeaningZh": "發出叫聲、笑聲、嘆息或其他聲音"
+    },
+    {
+      "id": "phrasal-verb-81-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The student admitted the mistake at once, so the head teacher decided not to punish her.",
+      "promptZh": "學生立即承認錯誤,所以校長決定不處罰她。",
+      "starter": "The",
+      "answer": "The student admitted the mistake at once, so the head teacher let her off.",
+      "answerZh": "學生立即承認錯誤,所以校長決定不處罰她。",
+      "highlight": "let",
+      "targetForm": "let somebody off (with something)",
+      "targetMeaningZh": "不處罰某人,或只給予較輕的處罰"
+    },
+    {
+      "id": "phrasal-verb-81-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "Because Noah had a fever, the coach said he did not have to attend training.",
+      "promptZh": "諾亞發燒,所以教練准他不用參加訓練。",
+      "starter": "Because",
+      "answer": "Because Noah had a fever, the coach let him off attending training.",
+      "answerZh": "諾亞發燒,所以教練准他不用參加訓練。",
+      "highlight": "let him off attending",
+      "targetForm": "let somebody off / let somebody off something",
+      "targetMeaningZh": "准許某人不用做某件工作或責任"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-90",
+  "order": 90,
+  "slug": "trust-and-truss",
+  "version": "1",
+  "title": "TRUST AND TRUSS 動詞片語",
+  "titleEn": "TRUST and TRUSS",
+  "titleZh": "TRUST AND TRUSS 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 89 - TRUST and TRUSS.pdf",
+    "sourceNumber": 89,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TRUST 和 TRUSS 有關的片語動詞及表達。",
+    "en": "Learn and practise the phrasal verbs and expressions related to TRUST and TRUSS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TRUST AND TRUSS",
+      "highlight": "TRUST AND TRUSS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I trust in my team.",
+      "zh": "我相信並依靠我的團隊。",
+      "highlight": "trust in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "With no map, we had to trust to luck.",
+      "zh": "沒有地圖,我們只好碰運氣。",
+      "highlight": "trust to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The chef trussed the chicken up before roasting it.",
+      "zh": "廚師在烤雞前把雞綁好。",
+      "highlight": "trussed the chicken up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "相信並依靠某人或某事物；沒有其他可靠辦法時,把結果交給運氣、機會或命運；把某人或某物牢牢綑綁;把家禽綁好以便烹煮；相信某人能安全照顧某人或妥善處理某物",
+    "en": "trust in somebody/something; trust to luck/chance/fate; truss somebody/something up; trust somebody with somebody/something",
+    "naturalZh": [
+      "相信並依靠某人或某事物",
+      "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+      "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+      "相信某人能安全照顧某人或妥善處理某物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "trust in somebody/something",
+      "titleZh": "相信並依靠某人或某事物",
+      "titleEn": "trust in somebody/something",
+      "descriptionZh": "相信並依靠某人或某事物",
+      "descriptionEn": "I trust in my team.",
+      "examples": [
+        {
+          "en": "I trust in my team.",
+          "zh": "我相信並依靠我的團隊。",
+          "highlight": "trust in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "trust to luck/chance/fate",
+      "titleZh": "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+      "titleEn": "trust to luck/chance/fate",
+      "descriptionZh": "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+      "descriptionEn": "With no map, we had to trust to luck.",
+      "examples": [
+        {
+          "en": "With no map, we had to trust to luck.",
+          "zh": "沒有地圖,我們只好碰運氣。",
+          "highlight": "trust to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "truss somebody/something up",
+      "titleZh": "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+      "titleEn": "truss somebody/something up",
+      "descriptionZh": "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+      "descriptionEn": "The chef trussed the chicken up before roasting it.",
+      "examples": [
+        {
+          "en": "The chef trussed the chicken up before roasting it.",
+          "zh": "廚師在烤雞前把雞綁好。",
+          "highlight": "trussed the chicken up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "trust somebody with somebody/something",
+      "titleZh": "相信某人能安全照顧某人或妥善處理某物",
+      "titleEn": "trust somebody with somebody/something",
+      "descriptionZh": "相信某人能安全照顧某人或妥善處理某物",
+      "descriptionEn": "I trust Noor with my keys.",
+      "examples": [
+        {
+          "en": "I trust Noor with my keys.",
+          "zh": "我相信努爾會妥善保管我的鎖匙。",
+          "highlight": "trust Noor with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TRUST AND TRUSS 片語動詞的實際用途",
+    "labelEn": "TRUST AND TRUSS Phrasal Verbs in Use",
+    "summaryZh": "trust in 能幫助你表示自己十分相信某人、計劃、方法或系統。；trust somebody with something 表示你相信某人能安全照顧他人或妥善處理物件。；trust to luck、chance 或 fate 可以描述沒有可靠資料、援助或清晰計劃,只好碰運氣的情況。；學會 truss up 能幫助你理解烹飪指示、包裹和戲劇或電影中的綑綁場面。",
+    "summaryEn": "Trust in helps you say that you believe deeply in a person, plan, method or system. Trust somebody with something shows that you believe a person will look after someone or handle something safely. Trust to luck, chance or fate describes acting without reliable information, help or a clear plan. Knowing truss up helps you understand cooking instructions, parcels and scenes in plays or films.",
+    "contextsZh": [
+      "表達堅定的信任",
+      "清楚表達把責任交給某人",
+      "描述只好碰運氣的情況",
+      "避免混淆 TRUST 和 TRUSS"
+    ],
+    "contextsEn": [
+      "Express strong belief and confidence",
+      "Talk clearly about giving responsibility",
+      "Describe situations in which people can only depend on luck",
+      "Avoid confusing TRUST and TRUSS"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TRUST 或 TRUSS 表達。",
+    "formalEn": "Read the whole sentence and choose the TRUST or TRUSS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "trust in somebody/something",
+    "fixedHighlight": "trust in somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 TRUST 或 TRUSS 表達。",
+    "fixedEn": "Read the whole sentence and choose the TRUST or TRUSS expression that gives the same meaning.",
+    "correct": "trust in",
+    "incorrectForms": [],
+    "variableZh": "trust 表示相信或依靠;truss up 表示牢牢綑綁。；相信並依靠某人或某事物trust somebody with somebody/something相信某人能照顧某人或妥善處理某物；trust to 較不常見,通常與 luck、chance 或 fate 連用,表示沒有更好辦法或援助時,只好碰運氣。",
+    "variableEn": "TRUST and TRUSS are different verbs. Compare these two uses: trust in somebody/something Trust to is less common and is usually used with luck, chance or fate when there is no better plan or help.",
+    "variableItemsZh": [
+      "trust in somebody/something",
+      "trust to luck/chance/fate",
+      "truss somebody/something up",
+      "trust somebody with somebody/something"
+    ],
+    "variableItemsEn": [
+      "trust in somebody/something",
+      "trust to luck/chance/fate",
+      "truss somebody/something up",
+      "trust somebody with somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "相信並依靠某人或某事物",
+        "formEn": "trust in somebody/something",
+        "exampleZh": "我相信並依靠我的團隊。",
+        "exampleEn": "I trust in my team.",
+        "highlight": "trust in"
+      },
+      {
+        "formZh": "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+        "formEn": "trust to luck/chance/fate",
+        "exampleZh": "沒有地圖,我們只好碰運氣。",
+        "exampleEn": "With no map, we had to trust to luck.",
+        "highlight": "trust to"
+      },
+      {
+        "formZh": "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+        "formEn": "truss somebody/something up",
+        "exampleZh": "廚師在烤雞前把雞綁好。",
+        "exampleEn": "The chef trussed the chicken up before roasting it.",
+        "highlight": "trussed the chicken up"
+      },
+      {
+        "formZh": "相信某人能安全照顧某人或妥善處理某物",
+        "formEn": "trust somebody with somebody/something",
+        "exampleZh": "我相信努爾會妥善保管我的鎖匙。",
+        "exampleEn": "I trust Noor with my keys.",
+        "highlight": "trust Noor with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "相信並依靠某人或某事物",
+      "titleEn": "trust in somebody/something",
+      "formula": "trust in somebody/something",
+      "highlight": "trust in somebody/something",
+      "descriptionZh": "相信並依靠某人或某事物",
+      "descriptionEn": "I trust in my team.",
+      "examples": [
+        {
+          "en": "I trust in my team.",
+          "zh": "我相信並依靠我的團隊。",
+          "highlight": "trust in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+      "titleEn": "trust to luck/chance/fate",
+      "formula": "trust to luck/chance/fate",
+      "highlight": "trust to luck/chance/fate",
+      "descriptionZh": "沒有其他可靠辦法時,把結果交給運氣、機會或命運",
+      "descriptionEn": "With no map, we had to trust to luck.",
+      "examples": [
+        {
+          "en": "With no map, we had to trust to luck.",
+          "zh": "沒有地圖,我們只好碰運氣。",
+          "highlight": "trust to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+      "titleEn": "truss somebody/something up",
+      "formula": "truss somebody/something up",
+      "highlight": "truss somebody/something up",
+      "descriptionZh": "把某人或某物牢牢綑綁;把家禽綁好以便烹煮",
+      "descriptionEn": "The chef trussed the chicken up before roasting it.",
+      "examples": [
+        {
+          "en": "The chef trussed the chicken up before roasting it.",
+          "zh": "廚師在烤雞前把雞綁好。",
+          "highlight": "trussed the chicken up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "相信某人能安全照顧某人或妥善處理某物",
+      "titleEn": "trust somebody with somebody/something",
+      "formula": "trust somebody with somebody/something",
+      "highlight": "trust somebody with somebody/something",
+      "descriptionZh": "相信某人能安全照顧某人或妥善處理某物",
+      "descriptionEn": "I trust Noor with my keys.",
+      "examples": [
+        {
+          "en": "I trust Noor with my keys.",
+          "zh": "我相信努爾會妥善保管我的鎖匙。",
+          "highlight": "trust Noor with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "表達堅定的信任",
+      "titleEn": "Express strong belief and confidence",
+      "zh": "trust in 能幫助你表示自己十分相信某人、計劃、方法或系統。",
+      "en": "Trust in helps you say that you believe deeply in a person, plan, method or system."
+    },
+    {
+      "titleZh": "清楚表達把責任交給某人",
+      "titleEn": "Talk clearly about giving responsibility",
+      "zh": "trust somebody with something 表示你相信某人能安全照顧他人或妥善處理物件。",
+      "en": "Trust somebody with something shows that you believe a person will look after someone or handle something safely."
+    },
+    {
+      "titleZh": "描述只好碰運氣的情況",
+      "titleEn": "Describe situations in which people can only depend on luck",
+      "zh": "trust to luck、chance 或 fate 可以描述沒有可靠資料、援助或清晰計劃,只好碰運氣的情況。",
+      "en": "Trust to luck, chance or fate describes acting without reliable information, help or a clear plan."
+    },
+    {
+      "titleZh": "避免混淆 TRUST 和 TRUSS",
+      "titleEn": "Avoid confusing TRUST and TRUSS",
+      "zh": "學會 truss up 能幫助你理解烹飪指示、包裹和戲劇或電影中的綑綁場面。",
+      "en": "Knowing truss up helps you understand cooking instructions, parcels and scenes in plays or films."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "表達堅定的信任",
+      "清楚表達把責任交給某人",
+      "描述只好碰運氣的情況",
+      "避免混淆 TRUST 和 TRUSS"
+    ],
+    "contextsEn": [
+      "Express strong belief and confidence",
+      "Talk clearly about giving responsibility",
+      "Describe situations in which people can only depend on luck",
+      "Avoid confusing TRUST and TRUSS"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "表達堅定的信任",
+        "titleEn": "Express strong belief and confidence",
+        "zh": "trust in 能幫助你表示自己十分相信某人、計劃、方法或系統。",
+        "en": "Trust in helps you say that you believe deeply in a person, plan, method or system.",
+        "examples": [
+          {
+            "en": "I trust in my team.",
+            "zh": "我相信並依靠我的團隊。",
+            "highlight": "trust in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達把責任交給某人",
+        "titleEn": "Talk clearly about giving responsibility",
+        "zh": "trust somebody with something 表示你相信某人能安全照顧他人或妥善處理物件。",
+        "en": "Trust somebody with something shows that you believe a person will look after someone or handle something safely.",
+        "examples": [
+          {
+            "en": "With no map, we had to trust to luck.",
+            "zh": "沒有地圖,我們只好碰運氣。",
+            "highlight": "trust to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述只好碰運氣的情況",
+        "titleEn": "Describe situations in which people can only depend on luck",
+        "zh": "trust to luck、chance 或 fate 可以描述沒有可靠資料、援助或清晰計劃,只好碰運氣的情況。",
+        "en": "Trust to luck, chance or fate describes acting without reliable information, help or a clear plan.",
+        "examples": [
+          {
+            "en": "The chef trussed the chicken up before roasting it.",
+            "zh": "廚師在烤雞前把雞綁好。",
+            "highlight": "trussed the chicken up"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免混淆 TRUST 和 TRUSS",
+        "titleEn": "Avoid confusing TRUST and TRUSS",
+        "zh": "學會 truss up 能幫助你理解烹飪指示、包裹和戲劇或電影中的綑綁場面。",
+        "en": "Knowing truss up helps you understand cooking instructions, parcels and scenes in plays or films.",
+        "examples": [
+          {
+            "en": "I trust Noor with my keys.",
+            "zh": "我相信努爾會妥善保管我的鎖匙。",
+            "highlight": "trust Noor with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TRUST 或 TRUSS 表達。",
+      "titleEn": "Read the whole sentence and choose the TRUST or TRUSS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TRUST 或 TRUSS 表達。",
+      "en": "Read the whole sentence and choose the TRUST or TRUSS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "trust 表示相信或依靠;truss up 表示牢牢綑綁。",
+      "titleEn": "TRUST and TRUSS are different verbs.",
+      "zh": "trust 表示相信或依靠;truss up 表示牢牢綑綁。",
+      "en": "TRUST and TRUSS are different verbs."
+    },
+    {
+      "titleZh": "相信並依靠某人或某事物trust somebody with somebody/something相信某人能照顧某人或妥善處理某物",
+      "titleEn": "Compare these two uses: trust in somebody/something.",
+      "zh": "相信並依靠某人或某事物trust somebody with somebody/something相信某人能照顧某人或妥善處理某物",
+      "en": "Compare these two uses: trust in somebody/something"
+    },
+    {
+      "titleZh": "trust to 較不常見,通常與 luck、chance 或 fate 連用,表示沒有更好辦法或援助時,只好碰運氣。",
+      "titleEn": "Trust to is less common and is usually used with luck, chance or fate when there is no better plan or help.",
+      "zh": "trust to 較不常見,通常與 luck、chance 或 fate 連用,表示沒有更好辦法或援助時,只好碰運氣。",
+      "en": "Trust to is less common and is usually used with luck, chance or fate when there is no better plan or help."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TRUST AND TRUSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TRUST AND TRUSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TRUST AND TRUSS 動詞片語句子改寫練習",
+    "titleEn": "TRUST AND TRUSS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TRUST AND TRUSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TRUST AND TRUSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-90-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The young player believed completely in her coach.",
+      "promptZh": "這名年輕球員完全相信她的教練。",
+      "starter": "The",
+      "answer": "The young player trusted in her coach.",
+      "answerZh": "這名年輕球員完全相信她的教練。",
+      "highlight": "trusted",
+      "targetForm": "trust in somebody",
+      "targetMeaningZh": "相信並依靠某人"
+    },
+    {
+      "id": "phrasal-verb-90-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I let Daniel look after my dog because I believed he would keep it safe.",
+      "promptZh": "我讓丹尼爾照顧我的狗,因為我相信他會好好照顧牠。",
+      "starter": "I",
+      "answer": "I trusted Daniel with my dog because I believed he would keep it safe.",
+      "answerZh": "我把狗交給丹尼爾照顧,因為我相信他會好好照顧牠。",
+      "highlight": "trusted",
+      "targetForm": "trust somebody with somebody/something",
+      "targetMeaningZh": "相信某人能安全照顧某人或妥善處理某物"
+    },
+    {
+      "id": "phrasal-verb-90-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "With no map or phone signal, we chose a road and hoped luck would help us.",
+      "promptZh": "沒有地圖或電話訊號,我們選了一條路,希望運氣能幫助我們。",
+      "starter": "With",
+      "answer": "With no map or phone signal, we trusted to luck and chose a road.",
+      "answerZh": "沒有地圖或電話訊號,我們只好碰運氣選了一條路。",
+      "highlight": "trusted to luck and",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有其他可靠辦法時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The cook tied the chicken’s legs and wings firmly before roasting it.",
+      "promptZh": "廚師在烤雞前把雞腿和雞翼牢牢綁好。",
+      "starter": "The",
+      "answer": "The cook trussed the chicken up before roasting it.",
+      "answerZh": "廚師在烤雞前把雞牢牢綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把某物牢牢綑綁;把家禽綁好以便烹煮"
+    },
+    {
+      "id": "phrasal-verb-90-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "You can rely completely on this safety system.",
+      "promptZh": "你可以完全依靠這套安全系統。",
+      "starter": "You",
+      "answer": "You can trust in this safety system.",
+      "answerZh": "你可以完全信賴這套安全系統。",
+      "highlight": "trust in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Would you leave the children in Noor’s care?",
+      "promptZh": "你會把孩子交給努爾照顧嗎?",
+      "starter": "Would",
+      "answer": "Would you trust Noor with the children?",
+      "answerZh": "你會相信努爾能照顧好孩子嗎?",
+      "highlight": "trust Noor with",
+      "targetForm": "trust somebody with somebody",
+      "targetMeaningZh": "相信某人能安全照顧另一個人"
+    },
+    {
+      "id": "phrasal-verb-90-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "There was no other plan, so the hikers left the result to chance.",
+      "promptZh": "沒有其他計劃,所以遠足者只好碰運氣。",
+      "starter": "There",
+      "answer": "There was no other plan, so the hikers trusted to chance.",
+      "answerZh": "沒有其他計劃,所以遠足者只好碰運氣。",
+      "highlight": "trusted",
+      "targetForm": "trust to chance",
+      "targetMeaningZh": "沒有其他可靠辦法時,把結果交給機會"
+    },
+    {
+      "id": "phrasal-verb-90-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The stage workers tied the actor firmly with soft rope for the scene.",
+      "promptZh": "舞台工作人員為了這個場景,用柔軟的繩子把演員牢牢綁好。",
+      "starter": "The",
+      "answer": "The stage workers trussed the actor up with soft rope for the scene.",
+      "answerZh": "舞台工作人員為了這個場景,用柔軟的繩子把演員牢牢綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss somebody up",
+      "targetMeaningZh": "把某人牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The class believed completely in the plan their teacher had prepared.",
+      "promptZh": "全班完全相信老師所準備的計劃。",
+      "starter": "The",
+      "answer": "The class trusted in the plan their teacher had prepared.",
+      "answerZh": "全班相信老師所準備的計劃。",
+      "highlight": "trusted",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We gave Ava the key because we believed she would keep it safe.",
+      "promptZh": "我們把鎖匙交給艾娃,因為我們相信她會妥善保管。",
+      "starter": "We",
+      "answer": "We trusted Ava with the key.",
+      "answerZh": "我們相信艾娃會妥善保管鎖匙。",
+      "highlight": "trusted",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "With no clear forecast, we may have to go ahead with the picnic and hope for luck.",
+      "promptZh": "沒有清晰的天氣預報,我們可能只好碰運氣,照常舉行野餐。",
+      "starter": "With",
+      "answer": "With no clear forecast, we may have to trust to luck and go ahead with the picnic.",
+      "answerZh": "沒有清晰的天氣預報,我們可能只好碰運氣,照常舉行野餐。",
+      "highlight": "trust to luck and",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有可靠資料或辦法時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The turkey has already been tied firmly for cooking.",
+      "promptZh": "火雞已經綁好,可以烹煮。",
+      "starter": "The",
+      "answer": "The turkey has already been trussed up for cooking.",
+      "answerZh": "火雞已經綁好,可以烹煮。",
+      "highlight": "trussed up",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把家禽綁好以便烹煮"
+    },
+    {
+      "id": "phrasal-verb-90-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ravi always relies on his careful preparation before an exam.",
+      "promptZh": "拉維在考試前總是依靠自己充分的準備。",
+      "starter": "Ravi",
+      "answer": "Ravi always trusts in his careful preparation before an exam.",
+      "answerZh": "拉維在考試前總是相信並依靠自己充分的準備。",
+      "highlight": "trusts in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have you ever given Leo responsibility for the club money?",
+      "promptZh": "你曾經把管理學會款項的責任交給里奧嗎?",
+      "starter": "Have",
+      "answer": "Have you ever trusted Leo with the club money?",
+      "answerZh": "你曾經相信里奧能妥善管理學會款項嗎?",
+      "highlight": "trusted",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理某物"
+    },
+    {
+      "id": "phrasal-verb-90-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Should we leave the final choice to chance if nobody knows the answer?",
+      "promptZh": "如果沒有人知道答案,我們應否把最後的選擇交給運氣?",
+      "starter": "Should",
+      "answer": "Should we trust to chance if nobody knows the answer?",
+      "answerZh": "如果沒有人知道答案,我們應否只靠運氣作出最後選擇?",
+      "highlight": "trust",
+      "targetForm": "trust to chance",
+      "targetMeaningZh": "把結果交給機會"
+    },
+    {
+      "id": "phrasal-verb-90-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The parcel was loose, so Omar tied it firmly with string.",
+      "promptZh": "包裹很鬆,所以奧馬用繩子把它牢牢綁好。",
+      "starter": "The",
+      "answer": "The parcel was loose, so Omar trussed it up with string.",
+      "answerZh": "包裹很鬆,所以奧馬用繩子把它牢牢綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把某物牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She no longer believes in the old method.",
+      "promptZh": "她不再相信這個舊方法。",
+      "starter": "She",
+      "answer": "She no longer trusts in the old method.",
+      "answerZh": "她不再相信這個舊方法。",
+      "highlight": "trusts",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I would give Mei responsibility for these private papers.",
+      "promptZh": "我會把保管這些私人文件的責任交給梅。",
+      "starter": "I",
+      "answer": "I would trust Mei with these private papers.",
+      "answerZh": "我相信梅能妥善保管這些私人文件。",
+      "highlight": "trust",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The compass was broken, so the travellers had no choice but to leave their route to fate.",
+      "promptZh": "指南針壞了,所以旅客別無選擇,只好讓命運決定路線。",
+      "starter": "The",
+      "answer": "The compass was broken, so the travellers had no choice but to trust to fate.",
+      "answerZh": "指南針壞了,所以旅客別無選擇,只好聽從命運安排。",
+      "highlight": "trust",
+      "targetForm": "trust to fate",
+      "targetMeaningZh": "沒有其他辦法時,把結果交給命運"
+    },
+    {
+      "id": "phrasal-verb-90-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the chef tie the duck’s legs firmly before putting it in the oven?",
+      "promptZh": "廚師為甚麼在把鴨放進焗爐前,先牢牢綁好牠的雙腿?",
+      "starter": "Why",
+      "answer": "Why did the chef truss the duck up before putting it in the oven?",
+      "answerZh": "廚師為甚麼在把鴨放進焗爐前,先把牠牢牢綁好?",
+      "highlight": "truss",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把家禽綁好以便烹煮"
+    },
+    {
+      "id": "phrasal-verb-90-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The tablet was expensive, but Dad let Sofia use it because he believed she would handle it carefully.",
+      "promptZh": "這部平板電腦很昂貴,但爸爸讓索菲亞使用,因為他相信她會小心處理。",
+      "starter": "The",
+      "answer": "The tablet was expensive, but Dad trusted Sofia with it.",
+      "answerZh": "這部平板電腦很昂貴,但爸爸相信索菲亞會小心處理。",
+      "highlight": "trusted",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理某物"
+    },
+    {
+      "id": "phrasal-verb-90-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Even when others doubted the plan, the coach continued to believe in the team.",
+      "promptZh": "即使其他人懷疑這項計劃,教練仍然相信球隊。",
+      "starter": "Even",
+      "answer": "Even when others doubted the plan, the coach continued to trust in the team.",
+      "answerZh": "即使其他人懷疑這項計劃,教練仍然相信球隊。",
+      "highlight": "trust",
+      "targetForm": "trust in somebody",
+      "targetMeaningZh": "相信並依靠某人"
+    },
+    {
+      "id": "phrasal-verb-90-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "For the school play, Daniel’s arms and legs were tied firmly with soft cloth.",
+      "promptZh": "在學校話劇中,丹尼爾的手腳用柔軟的布牢牢綁好。",
+      "starter": "For",
+      "answer": "For the school play, Daniel was trussed up with soft cloth.",
+      "answerZh": "在學校話劇中,丹尼爾用柔軟的布牢牢綁好。",
+      "highlight": "Daniel was trussed up",
+      "targetForm": "truss somebody up",
+      "targetMeaningZh": "把某人牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The phone was dead, and nobody knew the area. We chose a direction and hoped luck would guide us.",
+      "promptZh": "電話沒有電,而且沒有人熟悉該區。我們選了一個方向,希望運氣能引導我們。",
+      "starter": "The",
+      "answer": "The phone was dead, and nobody knew the area. We trusted to luck and chose a direction.",
+      "answerZh": "電話沒有電,而且沒有人熟悉該區。我們只好碰運氣選了一個方向。",
+      "highlight": "trusted to luck and",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有其他可靠辦法時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why did the manager give Aisha responsibility for the customer list?",
+      "promptZh": "經理為甚麼把保管客戶名單的責任交給艾莎?",
+      "starter": "Why",
+      "answer": "Why did the manager trust Aisha with the customer list?",
+      "answerZh": "經理為甚麼相信艾莎能妥善保管客戶名單?",
+      "highlight": "trust",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The rescue team has always relied on clear signals from the leader.",
+      "promptZh": "救援隊一直依靠領隊發出的清晰訊號。",
+      "starter": "The",
+      "answer": "The rescue team has always trusted in clear signals from the leader.",
+      "answerZh": "救援隊一直相信並依靠領隊發出的清晰訊號。",
+      "highlight": "trusted in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Before delivery, the shop assistant tied the large parcel firmly with strong string.",
+      "promptZh": "送貨前,店員用結實的繩子把大包裹牢牢綁好。",
+      "starter": "Before",
+      "answer": "Before delivery, the shop assistant trussed the large parcel up with strong string.",
+      "answerZh": "送貨前,店員用結實的繩子把大包裹牢牢綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把某物牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We should not leave the result to luck when we can check the facts.",
+      "promptZh": "當我們能夠核實事實時,便不應只靠運氣。",
+      "starter": "We",
+      "answer": "We should not trust to luck when we can check the facts.",
+      "answerZh": "當我們能夠核實事實時,便不應只靠運氣。",
+      "highlight": "trust",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "把結果交給運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Only Eva was given the secret because everyone believed she would keep it.",
+      "promptZh": "只有伊娃獲告知這個秘密,因為大家相信她會保守秘密。",
+      "starter": "Only",
+      "answer": "Only Eva was trusted with the secret because everyone believed she would keep it.",
+      "answerZh": "只有伊娃獲告知這個秘密,因為大家相信她會保守秘密。",
+      "highlight": "trusted with",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善保管資料或秘密"
+    },
+    {
+      "id": "phrasal-verb-90-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If you believe in your own judgement, making the choice will be easier.",
+      "promptZh": "如果你相信自己的判斷,作出選擇便會較容易。",
+      "starter": "If",
+      "answer": "If you trust in your own judgement, making the choice will be easier.",
+      "answerZh": "如果你相信自己的判斷,作出選擇便會較容易。",
+      "highlight": "trust",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The cooking guide says to tie the turkey’s legs close to its body before roasting it.",
+      "promptZh": "烹飪指南說,在烤火雞前要把牠的雙腿綁近身體。",
+      "starter": "The",
+      "answer": "The cooking guide says to truss the turkey up before roasting it.",
+      "answerZh": "烹飪指南說,在烤火雞前要先把牠綁好。",
+      "highlight": "truss",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把家禽綁好以便烹煮"
+    },
+    {
+      "id": "phrasal-verb-90-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Without a timetable, they went to the bus stop and hoped a bus would arrive soon.",
+      "promptZh": "沒有時間表,他們前往巴士站,希望能碰巧很快有巴士到達。",
+      "starter": "Without",
+      "answer": "Without a timetable, they went to the bus stop and trusted to luck.",
+      "answerZh": "沒有時間表,他們前往巴士站,只好碰運氣等待巴士。",
+      "highlight": "trusted to luck",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有可靠資料時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The museum would not leave the old painting in the care of an untrained worker.",
+      "promptZh": "博物館不會把這幅舊畫交給未受訓練的工人保管。",
+      "starter": "The",
+      "answer": "The museum would not trust an untrained worker with the old painting.",
+      "answerZh": "博物館不會相信未受訓練的工人能妥善保管這幅舊畫。",
+      "highlight": "trust an untrained worker with",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The singer believed deeply in the support of her fans, even after a bad review.",
+      "promptZh": "即使收到負面評論,這名歌手仍然深信歌迷的支持。",
+      "starter": "The",
+      "answer": "The singer trusted in the support of her fans, even after a bad review.",
+      "answerZh": "即使收到負面評論,這名歌手仍然相信歌迷的支持。",
+      "highlight": "trusted",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "In the school comedy, two actors tied the guard character firmly with rope.",
+      "promptZh": "在學校喜劇中,兩名演員用繩子把守衛角色牢牢綁好。",
+      "starter": "In",
+      "answer": "In the school comedy, two actors trussed the guard character up with rope.",
+      "answerZh": "在學校喜劇中,兩名演員用繩子把守衛角色牢牢綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss somebody up",
+      "targetMeaningZh": "把某人牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team had not practised the new game, so they played and simply hoped for good luck.",
+      "promptZh": "球隊沒有練習過這款新遊戲,所以他們參賽時只好碰運氣。",
+      "starter": "The",
+      "answer": "The team had not practised the new game, so they played and trusted to luck.",
+      "answerZh": "球隊沒有練習過這款新遊戲,所以參賽時只好碰運氣。",
+      "highlight": "trusted to",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有充分準備或辦法時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Could you safely leave your baby brother in this neighbour’s care?",
+      "promptZh": "你能放心把年幼的弟弟交給這位鄰居照顧嗎?",
+      "starter": "Could",
+      "answer": "Could you trust this neighbour with your baby brother?",
+      "answerZh": "你能相信這位鄰居會照顧好年幼的弟弟嗎?",
+      "highlight": "trust this neighbour with",
+      "targetForm": "trust somebody with somebody",
+      "targetMeaningZh": "相信某人能安全照顧另一個人"
+    },
+    {
+      "id": "phrasal-verb-90-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "We should depend on proven experience, not a lucky guess.",
+      "promptZh": "我們應該依靠經過證實的經驗,而不是幸運的猜測。",
+      "starter": "We",
+      "answer": "We should trust in proven experience, not a lucky guess.",
+      "answerZh": "我們應該相信並依靠經過證實的經驗,而不是幸運的猜測。",
+      "highlight": "trust in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The old parcel looked as though someone had tied it with far too much string.",
+      "promptZh": "這個舊包裹看來像是有人用了過多繩子把它牢牢綁住。",
+      "starter": "The",
+      "answer": "The old parcel looked as though someone had trussed it up with far too much string.",
+      "answerZh": "這個舊包裹看來像是有人用了過多繩子把它牢牢綁住。",
+      "highlight": "trussed",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把某物牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Without enough time to choose a restaurant, they picked one and left the result to chance.",
+      "promptZh": "由於沒有足夠時間選擇餐廳,他們隨便選了一間,碰一碰運氣。",
+      "starter": "Without",
+      "answer": "Without enough time to choose a restaurant, they trusted to chance and picked one.",
+      "answerZh": "由於沒有足夠時間選擇餐廳,他們碰一碰運氣,隨便選了一間。",
+      "highlight": "trusted to chance and",
+      "targetForm": "trust to chance",
+      "targetMeaningZh": "把結果交給機會"
+    },
+    {
+      "id": "phrasal-verb-90-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the software was new, the team believed that its safety checks would protect their files.",
+      "promptZh": "雖然這套軟件很新,團隊仍相信它的安全檢查能保護他們的檔案。",
+      "starter": "Although",
+      "answer": "Although the software was new, the team trusted in its safety checks to protect their files.",
+      "answerZh": "雖然這套軟件很新,團隊仍相信它的安全檢查能保護他們的檔案。",
+      "highlight": "trusted in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nina let Omar carry the passports because she believed he would keep them safe.",
+      "promptZh": "妮娜讓奧馬保管護照,因為她相信他會妥善保管。",
+      "starter": "Believing",
+      "answer": "Believing he would keep them safe, Nina trusted Omar with the passports.",
+      "answerZh": "妮娜相信奧馬會妥善保管,因此把護照交給他。",
+      "highlight": "Believing",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The storm had hidden every road sign, so the drivers chose a turning and hoped luck would guide them.",
+      "promptZh": "暴風雨遮住了所有路牌,所以司機選了一個路口,希望運氣能引導他們。",
+      "starter": "The",
+      "answer": "The storm had hidden every road sign, so the drivers trusted to luck and chose a turning.",
+      "answerZh": "暴風雨遮住了所有路牌,所以司機只好碰運氣選了一個路口。",
+      "highlight": "trusted to luck and",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有可靠資料或指引時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Before the cameras started, the prop team tied the actor playing the prisoner firmly but safely.",
+      "promptZh": "攝影機開始拍攝前,道具組把飾演囚犯的演員牢牢但安全地綁好。",
+      "starter": "Before",
+      "answer": "Before the cameras started, the prop team trussed the actor playing the prisoner up firmly but safely.",
+      "answerZh": "攝影機開始拍攝前,道具組把飾演囚犯的演員牢牢但安全地綁好。",
+      "highlight": "trussed",
+      "targetForm": "truss somebody up",
+      "targetMeaningZh": "把某人牢牢綑綁"
+    },
+    {
+      "id": "phrasal-verb-90-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the numbers looked confusing, the owner relied on her accountant’s careful judgement.",
+      "promptZh": "當數字看來令人困惑時,店主依靠會計師審慎的判斷。",
+      "starter": "When",
+      "answer": "When the numbers looked confusing, the owner trusted in her accountant’s careful judgement.",
+      "answerZh": "當數字看來令人困惑時,店主相信並依靠會計師審慎的判斷。",
+      "highlight": "trusted in",
+      "targetForm": "trust in something",
+      "targetMeaningZh": "相信並依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Would you leave your online password with a person you had only just met?",
+      "promptZh": "你會把網上密碼交給一個剛剛認識的人嗎?",
+      "starter": "Would",
+      "answer": "Would you trust a person you had only just met with your online password?",
+      "answerZh": "你會相信一個剛剛認識的人能妥善保管你的網上密碼嗎?",
+      "highlight": "trust",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    },
+    {
+      "id": "phrasal-verb-90-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "They had no timetable and no way to contact the organiser, so they arrived early and hoped for luck.",
+      "promptZh": "他們沒有時間表,也無法聯絡主辦人,所以只好提早到達並碰一碰運氣。",
+      "starter": "They",
+      "answer": "They had no timetable and no way to contact the organiser, so they arrived early and trusted to luck.",
+      "answerZh": "他們沒有時間表,也無法聯絡主辦人,所以只好提早到達並碰一碰運氣。",
+      "highlight": "trusted to",
+      "targetForm": "trust to luck",
+      "targetMeaningZh": "沒有可靠資料或援助時,只好靠運氣"
+    },
+    {
+      "id": "phrasal-verb-90-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The chef tied the stuffed chicken so firmly that the filling stayed inside.",
+      "promptZh": "廚師把釀雞牢牢綁好,使餡料留在雞內。",
+      "starter": "The",
+      "answer": "The chef trussed the stuffed chicken up so firmly that the filling stayed inside.",
+      "answerZh": "廚師把釀雞牢牢綁好,使餡料留在雞內。",
+      "highlight": "trussed",
+      "targetForm": "truss something up",
+      "targetMeaningZh": "把家禽綁好以便烹煮"
+    },
+    {
+      "id": "phrasal-verb-90-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Parents need to believe in the school before they will support its new programme.",
+      "promptZh": "家長需要相信學校,才會支持學校的新計劃。",
+      "starter": "Parents",
+      "answer": "Parents need to trust in the school before they will support its new programme.",
+      "answerZh": "家長需要相信學校,才會支持學校的新計劃。",
+      "highlight": "trust",
+      "targetForm": "trust in somebody/something",
+      "targetMeaningZh": "相信並依靠某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-90-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The club chose Priya to hold the money because everyone believed she would deal with it honestly.",
+      "promptZh": "學會選擇普里雅保管款項,因為大家相信她會誠實處理。",
+      "starter": "Because",
+      "answer": "Because everyone believed Priya would deal with it honestly, the club trusted her with the money.",
+      "answerZh": "因為大家相信普里雅會誠實處理款項,所以學會把款項交給她保管。",
+      "highlight": "Priya",
+      "targetForm": "trust somebody with something",
+      "targetMeaningZh": "相信某人能妥善處理或保管某物"
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "id": "phrasal-verb-153",
+  "order": 153,
+  "slug": "fade",
+  "version": "1",
+  "title": "FADE 動詞片語",
+  "titleEn": "Fade",
+  "titleZh": "FADE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 152 - FADE.pdf",
+    "sourceNumber": 152,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FADE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FADE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FADE",
+      "highlight": "FADE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "His footsteps gradually faded away.",
+      "zh": "他的腳步聲逐漸變弱,直至消失。",
+      "highlight": "faded away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The opening music faded in softly.",
+      "zh": "開場音樂輕柔地逐漸響起。",
+      "highlight": "faded in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The protest eventually faded out.",
+      "zh": "抗議活動最後逐漸平息。",
+      "highlight": "faded out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "逐漸變弱、變淡或消失；畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強；事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失；畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+    "en": "fade away; fade in / fade something in; fade out / fade out of something; fade out / fade something out",
+    "naturalZh": [
+      "逐漸變弱、變淡或消失",
+      "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+      "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+      "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fade away",
+      "titleZh": "逐漸變弱、變淡或消失",
+      "titleEn": "fade away",
+      "descriptionZh": "逐漸變弱、變淡或消失",
+      "descriptionEn": "His footsteps gradually faded away.",
+      "examples": [
+        {
+          "en": "His footsteps gradually faded away.",
+          "zh": "他的腳步聲逐漸變弱,直至消失。",
+          "highlight": "faded away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fade in / fade something in",
+      "titleZh": "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+      "titleEn": "fade in / fade something in",
+      "descriptionZh": "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+      "descriptionEn": "The opening music faded in softly.",
+      "examples": [
+        {
+          "en": "The opening music faded in softly.",
+          "zh": "開場音樂輕柔地逐漸響起。",
+          "highlight": "faded in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fade out / fade out of something",
+      "titleZh": "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+      "titleEn": "fade out / fade out of something",
+      "descriptionZh": "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+      "descriptionEn": "The protest eventually faded out.",
+      "examples": [
+        {
+          "en": "The protest eventually faded out.",
+          "zh": "抗議活動最後逐漸平息。",
+          "highlight": "faded out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fade out / fade something out",
+      "titleZh": "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+      "titleEn": "fade out / fade something out",
+      "descriptionZh": "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+      "descriptionEn": "Near the end of the song, he faded out the music.",
+      "examples": [
+        {
+          "en": "Near the end of the song, he faded out the music.",
+          "zh": "接近歌曲結尾時,他令音樂逐漸減弱。",
+          "highlight": "faded out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FADE 片語動詞的實際用途",
+    "labelEn": "FADE Phrasal Verbs in Use",
+    "summaryZh": "fade in 和 fade out 可用來描述音樂、聲音和畫面逐漸出現或消失。；fade away 可用來描述恐懼、痛楚、記憶、氣味和腳步聲逐漸變弱並消失。；fade out 可表示抗議活動、宣傳活動、爭論或話題逐漸失去影響,最後消失。；剪接聲音或畫面時,fade something in 和 fade something out 都十分實用。",
+    "summaryEn": "Fade in and fade out help you describe music, voices and pictures appearing or disappearing slowly. Fade away helps you describe fear, pain, memories, smells and footsteps becoming weaker and disappearing. Fade out can show that a protest, campaign, argument or topic slowly becomes less important and disappears. Fade something in and fade something out are useful when people edit sound or pictures.",
+    "contextsZh": [
+      "描述聲音和畫面逐步變化",
+      "談論感受、記憶和遠去的聲音",
+      "說明活動或話題如何逐漸減弱",
+      "理解電影、音樂和錄音指示"
+    ],
+    "contextsEn": [
+      "Describe sounds and pictures changing little by little",
+      "Talk about feelings, memories and distant sounds",
+      "Explain how an event or topic loses strength",
+      "Understand film, music and recording instructions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FADE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FADE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fade away",
+    "fixedHighlight": "fade away",
+    "fixedZh": "閱讀整句,選出意思相同的 FADE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FADE expression that gives the same meaning.",
+    "correct": "faded away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FADE ... IN 或 FADE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。；本練習中的 fade out 有兩種用法:活動或話題可以逐漸減弱並消失;畫面或聲音也可以逐漸變弱。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them with FADE... IN or FADE... OUT, place the word as shown: fade it in; fade them out. Fade out has two uses here. An event or topic can slowly lose strength and disappear; a picture or sound can slowly become weaker. Read the full situation carefully.",
+    "variableItemsZh": [
+      "fade away",
+      "fade in / fade something in",
+      "fade out / fade out of something",
+      "fade out / fade something out"
+    ],
+    "variableItemsEn": [
+      "fade away",
+      "fade in / fade something in",
+      "fade out / fade out of something",
+      "fade out / fade something out"
+    ],
+    "forms": [
+      {
+        "formZh": "逐漸變弱、變淡或消失",
+        "formEn": "fade away",
+        "exampleZh": "他的腳步聲逐漸變弱,直至消失。",
+        "exampleEn": "His footsteps gradually faded away.",
+        "highlight": "faded away"
+      },
+      {
+        "formZh": "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+        "formEn": "fade in / fade something in",
+        "exampleZh": "開場音樂輕柔地逐漸響起。",
+        "exampleEn": "The opening music faded in softly.",
+        "highlight": "faded in"
+      },
+      {
+        "formZh": "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+        "formEn": "fade out / fade out of something",
+        "exampleZh": "抗議活動最後逐漸平息。",
+        "exampleEn": "The protest eventually faded out.",
+        "highlight": "faded out"
+      },
+      {
+        "formZh": "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+        "formEn": "fade out / fade something out",
+        "exampleZh": "接近歌曲結尾時,他令音樂逐漸減弱。",
+        "exampleEn": "Near the end of the song, he faded out the music.",
+        "highlight": "faded out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "逐漸變弱、變淡或消失",
+      "titleEn": "fade away",
+      "formula": "fade away",
+      "highlight": "fade away",
+      "descriptionZh": "逐漸變弱、變淡或消失",
+      "descriptionEn": "His footsteps gradually faded away.",
+      "examples": [
+        {
+          "en": "His footsteps gradually faded away.",
+          "zh": "他的腳步聲逐漸變弱,直至消失。",
+          "highlight": "faded away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+      "titleEn": "fade in / fade something in",
+      "formula": "fade in / fade something in",
+      "highlight": "fade in / fade something in",
+      "descriptionZh": "畫面或聲音逐漸出現、變清楚或變響;使其逐漸出現或變強",
+      "descriptionEn": "The opening music faded in softly.",
+      "examples": [
+        {
+          "en": "The opening music faded in softly.",
+          "zh": "開場音樂輕柔地逐漸響起。",
+          "highlight": "faded in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+      "titleEn": "fade out / fade out of something",
+      "formula": "fade out / fade out of something",
+      "highlight": "fade out / fade out of something",
+      "descriptionZh": "事情、活動或影響逐漸減弱、不再受到注意,最後消失;逐漸從某處或某範圍消失",
+      "descriptionEn": "The protest eventually faded out.",
+      "examples": [
+        {
+          "en": "The protest eventually faded out.",
+          "zh": "抗議活動最後逐漸平息。",
+          "highlight": "faded out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+      "titleEn": "fade out / fade something out",
+      "formula": "fade out / fade something out",
+      "highlight": "fade out / fade something out",
+      "descriptionZh": "畫面或聲音逐漸變暗或變弱,直至消失;使其逐漸變暗或變弱",
+      "descriptionEn": "Near the end of the song, he faded out the music.",
+      "examples": [
+        {
+          "en": "Near the end of the song, he faded out the music.",
+          "zh": "接近歌曲結尾時,他令音樂逐漸減弱。",
+          "highlight": "faded out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述聲音和畫面逐步變化",
+      "titleEn": "Describe sounds and pictures changing little by little",
+      "zh": "fade in 和 fade out 可用來描述音樂、聲音和畫面逐漸出現或消失。",
+      "en": "Fade in and fade out help you describe music, voices and pictures appearing or disappearing slowly."
+    },
+    {
+      "titleZh": "談論感受、記憶和遠去的聲音",
+      "titleEn": "Talk about feelings, memories and distant sounds",
+      "zh": "fade away 可用來描述恐懼、痛楚、記憶、氣味和腳步聲逐漸變弱並消失。",
+      "en": "Fade away helps you describe fear, pain, memories, smells and footsteps becoming weaker and disappearing."
+    },
+    {
+      "titleZh": "說明活動或話題如何逐漸減弱",
+      "titleEn": "Explain how an event or topic loses strength",
+      "zh": "fade out 可表示抗議活動、宣傳活動、爭論或話題逐漸失去影響,最後消失。",
+      "en": "Fade out can show that a protest, campaign, argument or topic slowly becomes less important and disappears."
+    },
+    {
+      "titleZh": "理解電影、音樂和錄音指示",
+      "titleEn": "Understand film, music and recording instructions",
+      "zh": "剪接聲音或畫面時,fade something in 和 fade something out 都十分實用。",
+      "en": "Fade something in and fade something out are useful when people edit sound or pictures."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述聲音和畫面逐步變化",
+      "談論感受、記憶和遠去的聲音",
+      "說明活動或話題如何逐漸減弱",
+      "理解電影、音樂和錄音指示"
+    ],
+    "contextsEn": [
+      "Describe sounds and pictures changing little by little",
+      "Talk about feelings, memories and distant sounds",
+      "Explain how an event or topic loses strength",
+      "Understand film, music and recording instructions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述聲音和畫面逐步變化",
+        "titleEn": "Describe sounds and pictures changing little by little",
+        "zh": "fade in 和 fade out 可用來描述音樂、聲音和畫面逐漸出現或消失。",
+        "en": "Fade in and fade out help you describe music, voices and pictures appearing or disappearing slowly.",
+        "examples": [
+          {
+            "en": "His footsteps gradually faded away.",
+            "zh": "他的腳步聲逐漸變弱,直至消失。",
+            "highlight": "faded away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論感受、記憶和遠去的聲音",
+        "titleEn": "Talk about feelings, memories and distant sounds",
+        "zh": "fade away 可用來描述恐懼、痛楚、記憶、氣味和腳步聲逐漸變弱並消失。",
+        "en": "Fade away helps you describe fear, pain, memories, smells and footsteps becoming weaker and disappearing.",
+        "examples": [
+          {
+            "en": "The opening music faded in softly.",
+            "zh": "開場音樂輕柔地逐漸響起。",
+            "highlight": "faded in"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明活動或話題如何逐漸減弱",
+        "titleEn": "Explain how an event or topic loses strength",
+        "zh": "fade out 可表示抗議活動、宣傳活動、爭論或話題逐漸失去影響,最後消失。",
+        "en": "Fade out can show that a protest, campaign, argument or topic slowly becomes less important and disappears.",
+        "examples": [
+          {
+            "en": "The protest eventually faded out.",
+            "zh": "抗議活動最後逐漸平息。",
+            "highlight": "faded out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解電影、音樂和錄音指示",
+        "titleEn": "Understand film, music and recording instructions",
+        "zh": "剪接聲音或畫面時,fade something in 和 fade something out 都十分實用。",
+        "en": "Fade something in and fade something out are useful when people edit sound or pictures.",
+        "examples": [
+          {
+            "en": "Near the end of the song, he faded out the music.",
+            "zh": "接近歌曲結尾時,他令音樂逐漸減弱。",
+            "highlight": "faded out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FADE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FADE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FADE 片語動詞。",
+      "en": "Read the whole sentence and choose the FADE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FADE ... IN 或 FADE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them with FADE.",
+      "zh": "在 FADE ... IN 或 FADE ... OUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them with FADE... IN or FADE... OUT, place the word as shown: fade it in; fade them out."
+    },
+    {
+      "titleZh": "本練習中的 fade out 有兩種用法:活動或話題可以逐漸減弱並消失;畫面或聲音也可以逐漸變弱。請仔細閱讀整個情境。",
+      "titleEn": "Fade out has two uses here.",
+      "zh": "本練習中的 fade out 有兩種用法:活動或話題可以逐漸減弱並消失;畫面或聲音也可以逐漸變弱。請仔細閱讀整個情境。",
+      "en": "Fade out has two uses here. An event or topic can slowly lose strength and disappear; a picture or sound can slowly become weaker. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FADE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FADE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FADE 動詞片語句子改寫練習",
+    "titleEn": "FADE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FADE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FADE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-153-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "At the start of the film, the picture slowly became clear.",
+      "promptZh": "電影開始時,畫面逐漸變得清晰。",
+      "starter": "At",
+      "answer": "At the start of the film, the picture faded in.",
+      "answerZh": "電影開始時,畫面逐漸顯現。",
+      "highlight": "faded in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "His footsteps gradually became quieter until we could no longer hear them.",
+      "promptZh": "他的腳步聲逐漸變小,直至我們再也聽不見。",
+      "starter": "His",
+      "answer": "His footsteps gradually faded away.",
+      "answerZh": "他的腳步聲逐漸變弱,直至消失。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The music became quieter and disappeared at the end of the song.",
+      "promptZh": "音樂在歌曲結尾逐漸變小,直至消失。",
+      "starter": "The",
+      "answer": "The music faded out at the end of the song.",
+      "answerZh": "音樂在歌曲結尾逐漸減弱,直至消失。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The protest slowly lost strength and eventually ended.",
+      "promptZh": "抗議活動逐漸失去力量,最後結束。",
+      "starter": "The",
+      "answer": "The protest eventually faded out.",
+      "answerZh": "抗議活動最後逐漸平息。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "事情、活動或影響逐漸減弱並消失"
+    },
+    {
+      "id": "phrasal-verb-153-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The smell of paint slowly became weaker and disappeared.",
+      "promptZh": "油漆氣味逐漸變淡,最後消失。",
+      "starter": "The",
+      "answer": "The smell of paint slowly faded away.",
+      "answerZh": "油漆氣味逐漸變淡,直至消失。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Little by little, the editor made the opening music louder.",
+      "promptZh": "剪接人員逐步把開場音樂調響。",
+      "starter": "Little",
+      "answer": "Little by little, the editor faded in the opening music.",
+      "answerZh": "剪接人員逐步令開場音樂逐漸增強。",
+      "highlight": "faded in",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After a month, the story slowly stopped appearing in the news.",
+      "promptZh": "一個月後,這宗事件逐漸不再見於新聞報道。",
+      "starter": "After",
+      "answer": "After a month, the story faded out of the news.",
+      "answerZh": "一個月後,這宗事件逐漸淡出新聞報道。",
+      "highlight": "faded out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Near the end of the song, he made the music become quieter little by little.",
+      "promptZh": "接近歌曲結尾時,他令音樂逐步變小。",
+      "starter": "Near",
+      "answer": "Near the end of the song, he faded out the music.",
+      "answerZh": "接近歌曲結尾時,他令音樂逐漸減弱。",
+      "highlight": "faded out",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A soft voice slowly became louder on the recording.",
+      "promptZh": "錄音中有一道輕柔的聲音逐漸變響。",
+      "starter": "A",
+      "answer": "A soft voice faded in on the recording.",
+      "answerZh": "錄音中有一道輕柔的聲音逐漸出現並變響。",
+      "highlight": "faded in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Her fear slowly became weaker and then disappeared.",
+      "promptZh": "她的恐懼逐漸減弱,最後消失。",
+      "starter": "Her",
+      "answer": "Her fear slowly faded away.",
+      "answerZh": "她的恐懼逐漸消退。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The technician is making the background music quieter now.",
+      "promptZh": "技術人員現在正令背景音樂逐漸變小。",
+      "starter": "The",
+      "answer": "The technician is fading the background music out now.",
+      "answerZh": "技術人員現在正令背景音樂逐漸減弱。",
+      "highlight": "fading",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The next picture is slowly becoming clear on the screen.",
+      "promptZh": "下一個畫面正在屏幕上逐漸變得清晰。",
+      "starter": "The",
+      "answer": "The next picture is fading in on the screen.",
+      "answerZh": "下一個畫面正在屏幕上逐漸顯現。",
+      "highlight": "fading in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The pain has slowly become weaker and has now disappeared.",
+      "promptZh": "痛楚逐漸減弱,現在已經消失。",
+      "starter": "The",
+      "answer": "The pain has faded away.",
+      "answerZh": "痛楚已逐漸消退。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "This online argument may slowly lose attention and disappear soon.",
+      "promptZh": "這場網上爭論可能很快便會逐漸不再受到注意,最後消失。",
+      "starter": "This",
+      "answer": "This online argument may fade out soon.",
+      "answerZh": "這場網上爭論可能很快便會逐漸平息。",
+      "highlight": "fade out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "事情、活動或影響逐漸減弱並消失"
+    },
+    {
+      "id": "phrasal-verb-153-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "You can make the second voice become louder little by little.",
+      "promptZh": "你可以令第二把聲音逐步變響。",
+      "starter": "You",
+      "answer": "You can fade in the second voice.",
+      "answerZh": "你可以令第二把聲音逐漸增強。",
+      "highlight": "fade in",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The final picture did not slowly disappear; it ended suddenly.",
+      "promptZh": "最後一個畫面並非逐漸消失,而是突然結束。",
+      "starter": "The",
+      "answer": "The final picture did not fade out; it ended suddenly.",
+      "answerZh": "最後一個畫面並非逐漸淡出,而是突然結束。",
+      "highlight": "fade out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The old topic has slowly disappeared from our class discussions.",
+      "promptZh": "那個舊話題已逐漸不再出現在我們的課堂討論中。",
+      "starter": "The",
+      "answer": "The old topic has faded out of our class discussions.",
+      "answerZh": "那個舊話題已逐漸淡出我們的課堂討論。",
+      "highlight": "faded out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The ringing sound should slowly become weaker and disappear.",
+      "promptZh": "鈴聲應會逐漸變弱,最後消失。",
+      "starter": "The",
+      "answer": "The ringing sound should fade away.",
+      "answerZh": "鈴聲應會逐漸減弱,直至消失。",
+      "highlight": "fade away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did the editor make the music become quieter at that point?",
+      "promptZh": "剪接人員為何在那一刻令音樂逐漸變小?",
+      "starter": "Why",
+      "answer": "Why did the editor fade out the music at that point?",
+      "answerZh": "剪接人員為何在那一刻令音樂逐漸減弱?",
+      "highlight": "fade out",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "When will the singer's voice slowly become louder?",
+      "promptZh": "歌手的聲音何時會逐漸變響?",
+      "starter": "When",
+      "answer": "When will the singer's voice fade in?",
+      "answerZh": "歌手的聲音何時會逐漸出現並變響?",
+      "highlight": "fade in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The character appeared often at first. Later, he slowly disappeared from the story.",
+      "promptZh": "這個角色起初經常出現,其後逐漸從故事中消失。",
+      "starter": "The",
+      "answer": "The character appeared often at first. Later, he faded out of the story.",
+      "answerZh": "這個角色起初經常出現,其後逐漸淡出故事。",
+      "highlight": "faded out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The music is too loud at the end, so please make it become quieter little by little.",
+      "promptZh": "結尾的音樂太響,所以請令它逐步變小。",
+      "starter": "The",
+      "answer": "The music is too loud at the end, so please fade it out.",
+      "answerZh": "結尾的音樂太響,所以請令它逐漸減弱。",
+      "highlight": "fade",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "As the train moved farther away, its sound slowly became weaker and disappeared.",
+      "promptZh": "火車愈走愈遠時,它的聲音逐漸變弱,最後消失。",
+      "starter": "As",
+      "answer": "As the train moved farther away, its sound faded away.",
+      "answerZh": "火車愈走愈遠時,它的聲音逐漸消失。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The title is ready. Make it appear slowly at the start.",
+      "promptZh": "標題已經準備好。請讓它在開頭逐漸出現。",
+      "starter": "The",
+      "answer": "The title is ready. Fade it in slowly at the start.",
+      "answerZh": "標題已經準備好。請讓它在開頭逐漸顯現。",
+      "highlight": "Fade",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "By the time the host began speaking, the opening music had become quieter and disappeared.",
+      "promptZh": "主持人開始說話時,開場音樂已逐漸變小並消失。",
+      "starter": "By",
+      "answer": "By the time the host began speaking, the opening music had faded out.",
+      "answerZh": "主持人開始說話時,開場音樂已逐漸減弱至消失。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The discussion was slowly becoming quieter and was about to end.",
+      "promptZh": "討論逐漸變得安靜,並快將結束。",
+      "starter": "The",
+      "answer": "The discussion was fading out.",
+      "answerZh": "討論正逐漸平息。",
+      "highlight": "fading out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "事情、活動或影響逐漸減弱並消失"
+    },
+    {
+      "id": "phrasal-verb-153-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Before the scene began, the sound editor made the sound of rain become louder little by little.",
+      "promptZh": "場景開始前,音效剪接人員令雨聲逐步變響。",
+      "starter": "Before",
+      "answer": "Before the scene began, the sound editor faded in the sound of rain.",
+      "answerZh": "場景開始前,音效剪接人員令雨聲逐漸增強。",
+      "highlight": "faded in",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the old memory slowly become weaker and disappear over time?",
+      "promptZh": "那段舊記憶是否隨時間逐漸變淡並消失?",
+      "starter": "Did",
+      "answer": "Did the old memory fade away over time?",
+      "answerZh": "那段舊記憶是否隨時間逐漸淡去?",
+      "highlight": "fade away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The issue did not slowly disappear from the news; it stayed important.",
+      "promptZh": "這個議題沒有逐漸從新聞中消失;它仍然十分重要。",
+      "starter": "The",
+      "answer": "The issue did not fade out of the news; it stayed important.",
+      "answerZh": "這個議題沒有逐漸淡出新聞;它仍然十分重要。",
+      "highlight": "fade out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The picture was still too bright, so the editor slowly made it disappear.",
+      "promptZh": "畫面仍然太光亮,所以剪接人員令它逐漸消失。",
+      "starter": "The",
+      "answer": "The picture was still too bright, so the editor faded it out.",
+      "answerZh": "畫面仍然太光亮,所以剪接人員令它逐漸淡出。",
+      "highlight": "faded",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The applause slowly became quieter as the doors closed.",
+      "promptZh": "門關上時,掌聲逐漸變小。",
+      "starter": "The",
+      "answer": "The applause faded away as the doors closed.",
+      "answerZh": "門關上時,掌聲逐漸消失。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the first week, the club's campaign slowly lost strength.",
+      "promptZh": "第一星期後,學會的宣傳活動逐漸失去力量。",
+      "starter": "After",
+      "answer": "After the first week, the club's campaign slowly faded out.",
+      "answerZh": "第一星期後,學會的宣傳活動逐漸減弱並消失。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "事情、活動或影響逐漸減弱並消失"
+    },
+    {
+      "id": "phrasal-verb-153-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As the old scene ended, the new picture slowly became clear.",
+      "promptZh": "舊場景結束時,新畫面逐漸變得清晰。",
+      "starter": "As",
+      "answer": "As the old scene ended, the new picture faded in.",
+      "answerZh": "舊場景結束時,新畫面逐漸顯現。",
+      "highlight": "faded in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The producer made the crowd noise become quieter before the actor spoke.",
+      "promptZh": "演員說話前,製作人令群眾聲逐漸變小。",
+      "starter": "The",
+      "answer": "The producer faded out the crowd noise before the actor spoke.",
+      "answerZh": "演員說話前,製作人令群眾聲逐漸減弱。",
+      "highlight": "faded out",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The question was important at first, but it slowly disappeared from the conversation.",
+      "promptZh": "這個問題起初十分重要,但其後逐漸不再出現在對話中。",
+      "starter": "The",
+      "answer": "The question was important at first, but it faded out of the conversation.",
+      "answerZh": "這個問題起初十分重要,但其後逐漸淡出對話。",
+      "highlight": "faded out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the teacher explained everything, the students' worries slowly disappeared.",
+      "promptZh": "老師解釋一切後,學生的憂慮逐漸消失。",
+      "starter": "After",
+      "answer": "After the teacher explained everything, the students' worries faded away.",
+      "answerZh": "老師解釋一切後,學生的憂慮逐漸消退。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The song begins too suddenly. Make it become louder little by little.",
+      "promptZh": "歌曲開始得太突然。請讓它逐步變響。",
+      "starter": "The",
+      "answer": "The song begins too suddenly. Fade it in more slowly.",
+      "answerZh": "歌曲開始得太突然。請讓它更緩慢地逐漸增強。",
+      "highlight": "Fade",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This old custom may slowly disappear from daily life.",
+      "promptZh": "這項舊習俗可能會逐漸從日常生活中消失。",
+      "starter": "This",
+      "answer": "This old custom may fade out of daily life.",
+      "answerZh": "這項舊習俗可能會逐漸淡出日常生活。",
+      "highlight": "fade out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The final image slowly became darker before the screen went black.",
+      "promptZh": "屏幕變成全黑前,最後一個畫面逐漸變暗。",
+      "starter": "The",
+      "answer": "The final image faded out before the screen went black.",
+      "answerZh": "屏幕變成全黑前,最後一個畫面逐漸淡出。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Years later, her memory of her old teacher's voice slowly became weaker.",
+      "promptZh": "多年後,她對昔日老師聲音的記憶逐漸變淡。",
+      "starter": "Years",
+      "answer": "Years later, her memory of her old teacher's voice faded away.",
+      "answerZh": "多年後,她對昔日老師聲音的記憶逐漸淡去。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The screen was dark at first, and then a picture of the city slowly appeared.",
+      "promptZh": "屏幕起初一片黑暗,然後城市的畫面逐漸出現。",
+      "starter": "The",
+      "answer": "The screen was dark at first, and then a picture of the city faded in.",
+      "answerZh": "屏幕起初一片黑暗,然後城市的畫面逐漸顯現。",
+      "highlight": "faded in",
+      "targetForm": "fade in",
+      "targetMeaningZh": "畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The last line of the song repeated while the producer slowly made the music quieter.",
+      "promptZh": "歌曲最後一句重複播放時,製作人逐漸把音樂調小。",
+      "starter": "The",
+      "answer": "The last line of the song repeated while the producer faded out the music.",
+      "answerZh": "歌曲最後一句重複播放時,製作人令音樂逐漸減弱。",
+      "highlight": "faded out",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "We could hear the children laughing in the street, but the sound slowly disappeared as they walked away.",
+      "promptZh": "我們聽到孩子們在街上笑,但他們走遠時,笑聲逐漸消失。",
+      "starter": "We",
+      "answer": "We could hear the children laughing in the street, but the sound faded away as they walked away.",
+      "answerZh": "我們聽到孩子們在街上笑,但他們走遠時,笑聲逐漸消失。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The campaign to save the park was strong at first, but it slowly lost support and finally ended.",
+      "promptZh": "拯救公園的行動起初聲勢浩大,但其後逐漸失去支持,最後結束。",
+      "starter": "The",
+      "answer": "The campaign to save the park was strong at first, but it slowly faded out.",
+      "answerZh": "拯救公園的行動起初聲勢浩大,但其後逐漸減弱並消失。",
+      "highlight": "faded out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "事情、活動或影響逐漸減弱並消失"
+    },
+    {
+      "id": "phrasal-verb-153-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did the background music become quieter little by little during the final scene?",
+      "promptZh": "背景音樂為何在最後一幕逐步變小?",
+      "starter": "Why",
+      "answer": "Why did the background music fade out during the final scene?",
+      "answerZh": "背景音樂為何在最後一幕逐漸減弱?",
+      "highlight": "fade out",
+      "targetForm": "fade out",
+      "targetMeaningZh": "畫面或聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The first speaker is hard to hear at the start, so make her voice become louder slowly.",
+      "promptZh": "第一位講者在開頭很難聽清楚,所以請讓她的聲音逐漸變響。",
+      "starter": "The",
+      "answer": "The first speaker is hard to hear at the start, so fade her voice in slowly.",
+      "answerZh": "第一位講者在開頭很難聽清楚,所以請讓她的聲音逐漸增強。",
+      "highlight": "fade",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "For several days, the issue was discussed everywhere, but it slowly stopped appearing in the news.",
+      "promptZh": "這個議題一連數天到處受到討論,但其後逐漸不再見於新聞報道。",
+      "starter": "For",
+      "answer": "For several days, the issue was discussed everywhere, but it slowly faded out of the news.",
+      "answerZh": "這個議題一連數天到處受到討論,但其後逐漸淡出新聞報道。",
+      "highlight": "faded out of",
+      "targetForm": "fade out of something",
+      "targetMeaningZh": "逐漸從某處或某範圍消失"
+    },
+    {
+      "id": "phrasal-verb-153-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The smell was strong when we entered, but it had almost completely disappeared by lunchtime.",
+      "promptZh": "我們進入時氣味很濃,但到午飯時間已幾乎完全消失。",
+      "starter": "The",
+      "answer": "The smell was strong when we entered, but it had almost completely faded away by lunchtime.",
+      "answerZh": "我們進入時氣味很濃,但到午飯時間已幾乎完全散去。",
+      "highlight": "faded away",
+      "targetForm": "fade away",
+      "targetMeaningZh": "逐漸變弱、變淡或消失"
+    },
+    {
+      "id": "phrasal-verb-153-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Could the editor make the street sounds become louder as the camera moves outside?",
+      "promptZh": "鏡頭移到室外時,剪接人員可否令街道聲逐漸變響?",
+      "starter": "Could",
+      "answer": "Could the editor fade in the street sounds as the camera moves outside?",
+      "answerZh": "鏡頭移到室外時,剪接人員可否令街道聲逐漸增強?",
+      "highlight": "fade in",
+      "targetForm": "fade something in",
+      "targetMeaningZh": "使畫面或聲音逐漸出現或變強"
+    },
+    {
+      "id": "phrasal-verb-153-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The final picture should disappear slowly, not stop suddenly. Please make it do that.",
+      "promptZh": "最後一個畫面應逐漸消失,而不是突然停止。請讓它這樣結束。",
+      "starter": "The",
+      "answer": "The final picture should fade out, not stop suddenly. Please fade it out.",
+      "answerZh": "最後一個畫面應逐漸淡出,而不是突然停止。請讓它逐漸淡出。",
+      "highlight": "fade out",
+      "targetForm": "fade something out",
+      "targetMeaningZh": "使畫面或聲音逐漸變弱或消失"
+    }
+  ]
+}

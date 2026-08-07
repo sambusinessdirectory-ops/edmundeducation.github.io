@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-298",
+  "order": 298,
+  "slug": "smash",
+  "version": "1",
+  "title": "SMASH 動詞片語",
+  "titleEn": "Smash",
+  "titleZh": "SMASH 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 283 - SMASH.pdf",
+    "sourceNumber": 283,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SMASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SMASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SMASH",
+      "highlight": "SMASH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The police decided to smash the door down.",
+      "zh": "警方決定猛力撞破那扇門。",
+      "highlight": "smash the door down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The doll's face had been smashed in.",
+      "zh": "洋娃娃的臉部已被撞至向內凹陷。",
+      "highlight": "smashed in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A group entered the building and smashed the place up.",
+      "zh": "一群人進入大樓,把整個地方砸得嚴重損毀。",
+      "highlight": "smashed the place up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "猛力擊倒或撞破門、牆、閘等；猛力撞擊,使某個表面向內凹陷、塌下或破裂；猛力砸毀或嚴重破壞某物或某地方",
+    "en": "smash something down; smash something in; smash something up",
+    "naturalZh": [
+      "猛力擊倒或撞破門、牆、閘等",
+      "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+      "猛力砸毀或嚴重破壞某物或某地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "smash something down",
+      "titleZh": "猛力擊倒或撞破門、牆、閘等",
+      "titleEn": "smash something down",
+      "descriptionZh": "猛力擊倒或撞破門、牆、閘等",
+      "descriptionEn": "The police decided to smash the door down.",
+      "examples": [
+        {
+          "en": "The police decided to smash the door down.",
+          "zh": "警方決定猛力撞破那扇門。",
+          "highlight": "smash the door down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smash something in",
+      "titleZh": "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+      "titleEn": "smash something in",
+      "descriptionZh": "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+      "descriptionEn": "The doll's face had been smashed in.",
+      "examples": [
+        {
+          "en": "The doll's face had been smashed in.",
+          "zh": "洋娃娃的臉部已被撞至向內凹陷。",
+          "highlight": "smashed in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "smash something up",
+      "titleZh": "猛力砸毀或嚴重破壞某物或某地方",
+      "titleEn": "smash something up",
+      "descriptionZh": "猛力砸毀或嚴重破壞某物或某地方",
+      "descriptionEn": "A group entered the building and smashed the place up.",
+      "examples": [
+        {
+          "en": "A group entered the building and smashed the place up.",
+          "zh": "一群人進入大樓,把整個地方砸得嚴重損毀。",
+          "highlight": "smashed the place up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SMASH 片語動詞的實際用途",
+    "labelEn": "SMASH Phrasal Verbs in Use",
+    "summaryZh": "smash something down 可以清楚描述門、閘、牆和其他障礙物被擊倒或撞開。；smash something in 可以描述某個表面受到猛烈撞擊後向內凹陷或塌下。；smash something up 適合用來描述傢俬、機器、房間、店舖或其他地方被嚴重砸毀。；這些表達常見於意外、救援工作、財物損毀、電影和故事的描述中。",
+    "summaryEn": "Smash something down helps you describe doors, gates, walls and other barriers being knocked over or forced open. Smash something in describes a surface that has been hit so hard that it bends or caves inward. Smash something up is useful when furniture, machines, rooms, shops or other places have been very badly damaged. These expressions often appear in reports about accidents, rescue work, damaged property, films and stories.",
+    "contextsZh": [
+      "描述門、閘和牆被猛力擊倒",
+      "清楚描述向內凹陷的損壞",
+      "描述物件或地方受到嚴重破壞",
+      "理解真實英語中的強烈描述"
+    ],
+    "contextsEn": [
+      "Describe barriers being forced down",
+      "Show inward damage clearly",
+      "Describe severe damage to objects and places",
+      "Understand strong descriptions in real English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SMASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SMASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "smash something down",
+    "fixedHighlight": "smash something down",
+    "fixedZh": "閱讀整句,選出意思相同的 SMASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SMASH expression that gives the same meaning.",
+    "correct": "smash the door down",
+    "incorrectForms": [],
+    "variableZh": "留意三者表示的不同結果:smash a door or wall down — 把門或牆擊倒,或猛力撞開smash a surface in — 把表面撞至向內凹陷、塌下或破裂smash a thing or place up — 把某物或某地方砸得嚴重損毀；使用名詞時,以上兩種位置均可能使用;使用 it 或 them 時,則把它放在 SMASH 和 DOWN、IN或 UP 中間。；額外片語可以補充行動的方法、原因或時間,但並不是核心片語動詞的一部分。以上句子的核心表達是 smashed the door down;with a heavy tool 只說明警員如何把門撞破。",
+    "variableEn": "Notice the different results: smash a door or wall down — make it fall or force it open smash a surface in — hit it until it bends, breaks or caves inward smash a thing or place up — damage it very badly or destroy it With a noun, both positions may be possible: smash the door down / smash down the door smash the panel in / smash in the panel smash the room up / smash up the room With it or them, place the word in the middle: smash it down / smash it in / smash them up An extra phrase may explain how, why or when the action happened, but it is not part of the core expression. The police smashed the door down with a heavy tool. Core expression: smashed the door down with a heavy tool only explains how the police did it.",
+    "variableItemsZh": [
+      "smash something down",
+      "smash something in",
+      "smash something up"
+    ],
+    "variableItemsEn": [
+      "smash something down",
+      "smash something in",
+      "smash something up"
+    ],
+    "forms": [
+      {
+        "formZh": "猛力擊倒或撞破門、牆、閘等",
+        "formEn": "smash something down",
+        "exampleZh": "警方決定猛力撞破那扇門。",
+        "exampleEn": "The police decided to smash the door down.",
+        "highlight": "smash the door down"
+      },
+      {
+        "formZh": "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+        "formEn": "smash something in",
+        "exampleZh": "洋娃娃的臉部已被撞至向內凹陷。",
+        "exampleEn": "The doll's face had been smashed in.",
+        "highlight": "smashed in"
+      },
+      {
+        "formZh": "猛力砸毀或嚴重破壞某物或某地方",
+        "formEn": "smash something up",
+        "exampleZh": "一群人進入大樓,把整個地方砸得嚴重損毀。",
+        "exampleEn": "A group entered the building and smashed the place up.",
+        "highlight": "smashed the place up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "猛力擊倒或撞破門、牆、閘等",
+      "titleEn": "smash something down",
+      "formula": "smash something down",
+      "highlight": "smash something down",
+      "descriptionZh": "猛力擊倒或撞破門、牆、閘等",
+      "descriptionEn": "The police decided to smash the door down.",
+      "examples": [
+        {
+          "en": "The police decided to smash the door down.",
+          "zh": "警方決定猛力撞破那扇門。",
+          "highlight": "smash the door down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+      "titleEn": "smash something in",
+      "formula": "smash something in",
+      "highlight": "smash something in",
+      "descriptionZh": "猛力撞擊,使某個表面向內凹陷、塌下或破裂",
+      "descriptionEn": "The doll's face had been smashed in.",
+      "examples": [
+        {
+          "en": "The doll's face had been smashed in.",
+          "zh": "洋娃娃的臉部已被撞至向內凹陷。",
+          "highlight": "smashed in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "猛力砸毀或嚴重破壞某物或某地方",
+      "titleEn": "smash something up",
+      "formula": "smash something up",
+      "highlight": "smash something up",
+      "descriptionZh": "猛力砸毀或嚴重破壞某物或某地方",
+      "descriptionEn": "A group entered the building and smashed the place up.",
+      "examples": [
+        {
+          "en": "A group entered the building and smashed the place up.",
+          "zh": "一群人進入大樓,把整個地方砸得嚴重損毀。",
+          "highlight": "smashed the place up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述門、閘和牆被猛力擊倒",
+      "titleEn": "Describe barriers being forced down",
+      "zh": "smash something down 可以清楚描述門、閘、牆和其他障礙物被擊倒或撞開。",
+      "en": "Smash something down helps you describe doors, gates, walls and other barriers being knocked over or forced open."
+    },
+    {
+      "titleZh": "清楚描述向內凹陷的損壞",
+      "titleEn": "Show inward damage clearly",
+      "zh": "smash something in 可以描述某個表面受到猛烈撞擊後向內凹陷或塌下。",
+      "en": "Smash something in describes a surface that has been hit so hard that it bends or caves inward."
+    },
+    {
+      "titleZh": "描述物件或地方受到嚴重破壞",
+      "titleEn": "Describe severe damage to objects and places",
+      "zh": "smash something up 適合用來描述傢俬、機器、房間、店舖或其他地方被嚴重砸毀。",
+      "en": "Smash something up is useful when furniture, machines, rooms, shops or other places have been very badly damaged."
+    },
+    {
+      "titleZh": "理解真實英語中的強烈描述",
+      "titleEn": "Understand strong descriptions in real English",
+      "zh": "這些表達常見於意外、救援工作、財物損毀、電影和故事的描述中。",
+      "en": "These expressions often appear in reports about accidents, rescue work, damaged property, films and stories."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述門、閘和牆被猛力擊倒",
+      "清楚描述向內凹陷的損壞",
+      "描述物件或地方受到嚴重破壞",
+      "理解真實英語中的強烈描述"
+    ],
+    "contextsEn": [
+      "Describe barriers being forced down",
+      "Show inward damage clearly",
+      "Describe severe damage to objects and places",
+      "Understand strong descriptions in real English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述門、閘和牆被猛力擊倒",
+        "titleEn": "Describe barriers being forced down",
+        "zh": "smash something down 可以清楚描述門、閘、牆和其他障礙物被擊倒或撞開。",
+        "en": "Smash something down helps you describe doors, gates, walls and other barriers being knocked over or forced open.",
+        "examples": [
+          {
+            "en": "The police decided to smash the door down.",
+            "zh": "警方決定猛力撞破那扇門。",
+            "highlight": "smash the door down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述向內凹陷的損壞",
+        "titleEn": "Show inward damage clearly",
+        "zh": "smash something in 可以描述某個表面受到猛烈撞擊後向內凹陷或塌下。",
+        "en": "Smash something in describes a surface that has been hit so hard that it bends or caves inward.",
+        "examples": [
+          {
+            "en": "The doll's face had been smashed in.",
+            "zh": "洋娃娃的臉部已被撞至向內凹陷。",
+            "highlight": "smashed in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述物件或地方受到嚴重破壞",
+        "titleEn": "Describe severe damage to objects and places",
+        "zh": "smash something up 適合用來描述傢俬、機器、房間、店舖或其他地方被嚴重砸毀。",
+        "en": "Smash something up is useful when furniture, machines, rooms, shops or other places have been very badly damaged.",
+        "examples": [
+          {
+            "en": "A group entered the building and smashed the place up.",
+            "zh": "一群人進入大樓,把整個地方砸得嚴重損毀。",
+            "highlight": "smashed the place up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解真實英語中的強烈描述",
+        "titleEn": "Understand strong descriptions in real English",
+        "zh": "這些表達常見於意外、救援工作、財物損毀、電影和故事的描述中。",
+        "en": "These expressions often appear in reports about accidents, rescue work, damaged property, films and stories.",
+        "examples": [
+          {
+            "en": "The police decided to smash the door down.",
+            "zh": "警方決定猛力撞破那扇門。",
+            "highlight": "smash the door down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SMASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SMASH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SMASH 片語動詞。",
+      "en": "Read the whole sentence and choose the SMASH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "留意三者表示的不同結果:smash a door or wall down — 把門或牆擊倒,或猛力撞開smash a surface in — 把表面撞至向內凹陷、塌下或破裂smash a thing or place up — 把某物或某地方砸得嚴重損毀",
+      "titleEn": "Notice the different results: smash a door or wall down — make it fall or force it open smash a surface in — hit it until it bends, breaks or caves inward smash a thing or place up — damage it very badly or destroy it.",
+      "zh": "留意三者表示的不同結果:smash a door or wall down — 把門或牆擊倒,或猛力撞開smash a surface in — 把表面撞至向內凹陷、塌下或破裂smash a thing or place up — 把某物或某地方砸得嚴重損毀",
+      "en": "Notice the different results: smash a door or wall down — make it fall or force it open smash a surface in — hit it until it bends, breaks or caves inward smash a thing or place up — damage it very badly or destroy it"
+    },
+    {
+      "titleZh": "使用名詞時,以上兩種位置均可能使用;使用 it 或 them 時,則把它放在 SMASH 和 DOWN、IN或 UP 中間。",
+      "titleEn": "With a noun, both positions may be possible: smash the door down / smash down the door smash the panel in / smash in the panel smash the room up / smash up the room With it or them, place the word in the middle: smash it down / smash it in / smash them up.",
+      "zh": "使用名詞時,以上兩種位置均可能使用;使用 it 或 them 時,則把它放在 SMASH 和 DOWN、IN或 UP 中間。",
+      "en": "With a noun, both positions may be possible: smash the door down / smash down the door smash the panel in / smash in the panel smash the room up / smash up the room With it or them, place the word in the middle: smash it down / smash it in / smash them up"
+    },
+    {
+      "titleZh": "額外片語可以補充行動的方法、原因或時間,但並不是核心片語動詞的一部分。以上句子的核心表達是 smashed the door down;with a heavy tool 只說明警員如何把門撞破。",
+      "titleEn": "An extra phrase may explain how, why or when the action happened, but it is not part of the core expression.",
+      "zh": "額外片語可以補充行動的方法、原因或時間,但並不是核心片語動詞的一部分。以上句子的核心表達是 smashed the door down;with a heavy tool 只說明警員如何把門撞破。",
+      "en": "An extra phrase may explain how, why or when the action happened, but it is not part of the core expression. The police smashed the door down with a heavy tool. Core expression: smashed the door down with a heavy tool only explains how the police did it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SMASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SMASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SMASH 動詞片語句子改寫練習",
+    "titleEn": "SMASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SMASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SMASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-298-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The vandals badly damaged every part of the bus stop during the night.",
+      "promptZh": "破壞者在夜間嚴重破壞了巴士站的每一部分。",
+      "starter": "The",
+      "answer": "The vandals smashed the bus stop up during the night.",
+      "answerZh": "破壞者在夜間把巴士站砸得嚴重損毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The firefighters hit the locked door until it broke open so that they could reach the kitchen.",
+      "promptZh": "消防員不斷撞擊上鎖的門,直至門被撞開,以便進入廚房。",
+      "starter": "The",
+      "answer": "The firefighters smashed the locked door down so that they could reach the kitchen.",
+      "answerZh": "消防員猛力撞破上鎖的門,以便進入廚房。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The heavy box fell on the toy robot and crushed its face inward.",
+      "promptZh": "那個重箱子跌在玩具機械人上,把它的臉部壓至向內凹陷。",
+      "starter": "The",
+      "answer": "The heavy box smashed the toy robot's face in.",
+      "answerZh": "那個重箱子把玩具機械人的臉部撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Workers hit the old garden wall until it fell.",
+      "promptZh": "工人不斷撞擊舊花園圍牆,直至它倒下。",
+      "starter": "Workers",
+      "answer": "Workers smashed the old garden wall down.",
+      "answerZh": "工人猛力擊倒了舊花園圍牆。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Some people entered the empty office and badly damaged everything inside.",
+      "promptZh": "一些人進入空置辦公室,嚴重破壞了裏面的一切。",
+      "starter": "Some",
+      "answer": "Some people smashed the empty office up.",
+      "answerZh": "一些人把空置辦公室砸得嚴重損毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The heavy toolbox hit the metal bin and pushed one side inward.",
+      "promptZh": "那個重工具箱撞到金屬垃圾桶,把其中一邊撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The heavy toolbox smashed one side of the metal bin in.",
+      "answerZh": "那個重工具箱把金屬垃圾桶的其中一邊撞至向內凹陷。",
+      "highlight": "smashed one side of",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Police officers hit the back gate until it fell.",
+      "promptZh": "警員不斷撞擊後閘,直至它倒下。",
+      "starter": "Police",
+      "answer": "Police officers smashed the back gate down.",
+      "answerZh": "警員猛力撞倒了後閘。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The impact pushed the van door deeply inward.",
+      "promptZh": "撞擊把客貨車車門深深撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The impact smashed the van door in.",
+      "answerZh": "撞擊把客貨車車門撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Angry fans badly broke several plastic seats.",
+      "promptZh": "憤怒的球迷嚴重破壞了幾張膠座椅。",
+      "starter": "Angry",
+      "answer": "Angry fans smashed several plastic seats up.",
+      "answerZh": "憤怒的球迷把幾張膠座椅砸得嚴重損毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Large waves hit the old sea wall until it fell.",
+      "promptZh": "巨浪不斷撞擊舊海堤,直至它倒下。",
+      "starter": "Large",
+      "answer": "Large waves smashed the old sea wall down.",
+      "answerZh": "巨浪猛力撞倒了舊海堤。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The front panel has been badly pushed inward by a heavy hit.",
+      "promptZh": "前面的板已被猛烈撞擊至嚴重向內凹陷。",
+      "starter": "The",
+      "answer": "The front panel has been smashed in.",
+      "answerZh": "前面的板已被撞至嚴重向內凹陷。",
+      "highlight": "smashed in",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The children did not badly damage the old toys.",
+      "promptZh": "孩子沒有嚴重破壞那些舊玩具。",
+      "starter": "The",
+      "answer": "The children did not smash the old toys up.",
+      "answerZh": "孩子沒有把舊玩具砸得嚴重損毀。",
+      "highlight": "smash",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Could the rescue team break the door open by force?",
+      "promptZh": "救援隊可以用力把門撞開嗎?",
+      "starter": "Could",
+      "answer": "Could the rescue team smash the door down?",
+      "answerZh": "救援隊可以猛力把門撞破嗎?",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A falling branch is crushing the shed roof inward.",
+      "promptZh": "一根掉下來的樹枝正把小屋屋頂壓至向內塌下。",
+      "starter": "A",
+      "answer": "A falling branch is smashing the shed roof in.",
+      "answerZh": "一根掉下來的樹枝正把小屋屋頂撞至向內塌下。",
+      "highlight": "smashing",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The machine will destroy the weak wall and make it fall in seconds.",
+      "promptZh": "這部機器會在數秒內摧毀薄弱的牆,令它倒下。",
+      "starter": "The",
+      "answer": "The machine will smash the weak wall down in seconds.",
+      "answerZh": "這部機器會在數秒內猛力撞倒薄弱的牆。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The burglars have badly damaged the whole shop.",
+      "promptZh": "爆竊者已嚴重破壞整間店舖。",
+      "starter": "The",
+      "answer": "The burglars have smashed the shop up.",
+      "answerZh": "爆竊者已把整間店舖砸得嚴重損毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the falling shelf crush the cabinet door inward?",
+      "promptZh": "那塊掉下來的層板為何把櫃門壓至向內凹陷?",
+      "starter": "Why",
+      "answer": "Why did the falling shelf smash the cabinet door in?",
+      "answerZh": "那塊掉下來的層板為何把櫃門撞至向內凹陷?",
+      "highlight": "smash",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not use force to make the barrier fall unless the road is closed.",
+      "promptZh": "除非道路已封閉,否則不要用力令路障倒下。",
+      "starter": "Do",
+      "answer": "Do not smash the barrier down unless the road is closed.",
+      "answerZh": "除非道路已封閉,否則不要猛力撞倒路障。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "This machine can break old furniture into small pieces before recycling.",
+      "promptZh": "這部機器可以在回收前把舊傢俬打成小碎件。",
+      "starter": "This",
+      "answer": "This machine can smash old furniture up before recycling.",
+      "answerZh": "這部機器可以在回收前把舊傢俬砸碎。",
+      "highlight": "smash",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "During the accident, the car door was badly crushed inward.",
+      "promptZh": "意外發生時,車門被嚴重撞至向內凹陷。",
+      "starter": "During",
+      "answer": "During the accident, the car door was smashed in.",
+      "answerZh": "意外發生時,車門被撞至向內凹陷。",
+      "highlight": "smashed in",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The door was blocking the way, so the firefighters broke it open by force.",
+      "promptZh": "那扇門擋住去路,所以消防員用力把它撞開。",
+      "starter": "The",
+      "answer": "The door was blocking the way, so the firefighters smashed it down.",
+      "answerZh": "那扇門擋住去路,所以消防員猛力把它撞破。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old chairs were useless, so the workers broke them into pieces.",
+      "promptZh": "那些舊椅子已沒有用,所以工人把它們打成碎片。",
+      "starter": "The",
+      "answer": "The old chairs were useless, so the workers smashed them up.",
+      "answerZh": "那些舊椅子已沒有用,所以工人把它們砸碎。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The metal panel was weak, and the falling beam pushed it inward.",
+      "promptZh": "金屬板很薄弱,掉下來的橫樑把它撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The metal panel was weak, and the falling beam smashed it in.",
+      "answerZh": "金屬板很薄弱,掉下來的橫樑把它撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "For the scene, the film crew badly damaged the set to make it look ruined.",
+      "promptZh": "為了拍攝這個場景,攝製隊嚴重破壞布景,令它看來已被摧毀。",
+      "starter": "For",
+      "answer": "For the scene, the film crew smashed the set up to make it look ruined.",
+      "answerZh": "為了拍攝這個場景,攝製隊把布景砸得嚴重損毀,令它看來已被摧毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "They could not enter until the police had broken the door open by force.",
+      "promptZh": "警員用力把門撞開後,他們才可以進入。",
+      "starter": "They",
+      "answer": "They could not enter until the police had smashed the door down.",
+      "answerZh": "警員猛力把門撞破後,他們才可以進入。",
+      "highlight": "smashed",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The statue's nose had already been crushed inward before the museum received it.",
+      "promptZh": "博物館收到雕像前,它的鼻子早已被撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The statue's nose had already been smashed in before the museum received it.",
+      "answerZh": "博物館收到雕像前,它的鼻子早已被撞至向內凹陷。",
+      "highlight": "smashed in",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why would anyone deliberately destroy a brand-new phone?",
+      "promptZh": "為何有人會故意摧毀一部全新的電話?",
+      "starter": "Why",
+      "answer": "Why would anyone smash up a brand-new phone?",
+      "answerZh": "為何有人會把一部全新的電話砸毀?",
+      "highlight": "smash up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The crew used a heavy hammer to make the damaged wall fall.",
+      "promptZh": "工作人員用一把重鎚使受損的牆倒下。",
+      "starter": "The",
+      "answer": "The crew used a heavy hammer to smash down the damaged wall.",
+      "answerZh": "工作人員用一把重鎚猛力擊倒受損的牆。",
+      "highlight": "smash down",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The impact had crushed the car's front panel inward.",
+      "promptZh": "撞擊已把汽車前面的板撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The impact had smashed the car's front panel in.",
+      "answerZh": "撞擊已把汽車前面的板撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the party, someone had badly damaged the kitchen.",
+      "promptZh": "派對結束後,有人已嚴重破壞廚房。",
+      "starter": "After",
+      "answer": "After the party, someone had smashed up the kitchen.",
+      "answerZh": "派對結束後,有人已把廚房砸得嚴重損毀。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "To reach the trapped dog, the neighbours tried to break open the locked gate by force.",
+      "promptZh": "為了救出被困的狗,鄰居嘗試用力把上鎖的閘撞開。",
+      "starter": "To",
+      "answer": "To reach the trapped dog, the neighbours tried to smash down the locked gate.",
+      "answerZh": "為了救出被困的狗,鄰居嘗試猛力撞破上鎖的閘。",
+      "highlight": "smash down",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The heavy object pushed one side of the cardboard model inward without breaking the back.",
+      "promptZh": "重物把紙板模型的其中一邊撞至向內凹陷,但沒有弄破背面。",
+      "starter": "The",
+      "answer": "The heavy object smashed in one side of the cardboard model without breaking the back.",
+      "answerZh": "重物把紙板模型的其中一邊撞至向內凹陷,但沒有弄破背面。",
+      "highlight": "smashed in",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The attackers badly damaged the ticket machines but left the seats untouched.",
+      "promptZh": "襲擊者嚴重破壞售票機,但沒有碰座椅。",
+      "starter": "The",
+      "answer": "The attackers smashed up the ticket machines but left the seats untouched.",
+      "answerZh": "襲擊者砸毀了售票機,但沒有碰座椅。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The emergency crew may have to break the lift door open by force if it will not open.",
+      "promptZh": "如果升降機門無法打開,緊急救援人員可能要用力把它撞開。",
+      "starter": "The",
+      "answer": "The emergency crew may have to smash the lift door down if it will not open.",
+      "answerZh": "如果升降機門無法打開,緊急救援人員可能要猛力把它撞破。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A group entered the club without permission and badly damaged everything inside.",
+      "promptZh": "一群人未經許可進入會所,並嚴重破壞裏面的一切。",
+      "starter": "A",
+      "answer": "A group entered the club and smashed the place up.",
+      "answerZh": "一群人進入會所,把整個地方砸得嚴重損毀。",
+      "highlight": "smashed the place up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The mask looked normal from behind, but someone had crushed its face inward.",
+      "promptZh": "面具從後面看來正常,但有人已把它的正面撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The mask looked normal from behind, but someone had smashed its face in.",
+      "answerZh": "面具從後面看來正常,但有人已把它的正面撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The old wall had already been made to fall before the new path was built.",
+      "promptZh": "新小路興建前,舊牆早已被擊倒。",
+      "starter": "The",
+      "answer": "The old wall had already been smashed down before the new path was built.",
+      "answerZh": "新小路興建前,舊牆早已被猛力擊倒。",
+      "highlight": "smashed down",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "None of the machines could be repaired because they had been damaged so badly.",
+      "promptZh": "所有機器都損毀得非常嚴重,沒有一部可以修理。",
+      "starter": "None",
+      "answer": "None of the machines could be repaired because they had been smashed up so badly.",
+      "answerZh": "所有機器都被砸得非常嚴重,沒有一部可以修理。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The crash did not destroy the whole cabinet; it only pushed the door inward.",
+      "promptZh": "撞擊沒有摧毀整個櫃,只把櫃門撞至向內凹陷。",
+      "starter": "The",
+      "answer": "The crash did not destroy the whole cabinet; it only smashed the door in.",
+      "answerZh": "撞擊沒有摧毀整個櫃,只把櫃門撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Once the crew had made the unsafe chimney fall, the area was safe.",
+      "promptZh": "工作人員令那支不安全的煙囪倒下後,該處便安全了。",
+      "starter": "Once",
+      "answer": "Once the crew had smashed down the unsafe chimney, the area was safe.",
+      "answerZh": "工作人員猛力擊倒那支不安全的煙囪後,該處便安全了。",
+      "highlight": "smashed down",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By the time security arrived, the intruders had badly damaged every computer in the room.",
+      "promptZh": "保安到達時,闖入者已嚴重破壞房內每部電腦。",
+      "starter": "By",
+      "answer": "By the time security arrived, the intruders had smashed up every computer in the room.",
+      "answerZh": "保安到達時,闖入者已砸毀房內每部電腦。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The door was too strong to kick open, so the officers used a tool to break it open by force.",
+      "promptZh": "那扇門太堅固,無法踢開,所以警員使用工具用力把它撞開。",
+      "starter": "The",
+      "answer": "The door was too strong to kick open, so the officers used a tool to smash it down.",
+      "answerZh": "那扇門太堅固,無法踢開,所以警員使用工具猛力把它撞破。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the outside of the crate remained whole, the impact had pushed one side inward.",
+      "promptZh": "雖然木箱外部仍然完整,但撞擊已把其中一邊撞至向內凹陷。",
+      "starter": "Although",
+      "answer": "Although the outside of the crate remained whole, the impact had smashed one side in.",
+      "answerZh": "雖然木箱外部仍然完整,但撞擊已把其中一邊撞至向內凹陷。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The owner found broken furniture everywhere because someone had badly damaged the flat.",
+      "promptZh": "業主發現四處都是損壞的傢俬,因為有人嚴重破壞了單位。",
+      "starter": "The",
+      "answer": "The owner found broken furniture everywhere because someone had smashed the flat up.",
+      "answerZh": "業主發現四處都是損壞的傢俬,因為有人把單位砸得嚴重損毀。",
+      "highlight": "smashed",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the old wall cannot be removed safely, the crew will destroy it piece by piece.",
+      "promptZh": "如果無法安全拆除舊牆,工作人員會把它逐塊拆毀。",
+      "starter": "If",
+      "answer": "If the old wall cannot be removed safely, the crew will smash it down piece by piece.",
+      "answerZh": "如果無法安全拆除舊牆,工作人員會把它逐塊猛力擊倒。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The front of the toy bus was crushed inward, but the wheels still worked.",
+      "promptZh": "玩具巴士的前端被撞至向內凹陷,但車輪仍能運作。",
+      "starter": "The",
+      "answer": "The front of the toy bus was smashed in, but the wheels still worked.",
+      "answerZh": "玩具巴士的前端被撞至向內凹陷,但車輪仍能運作。",
+      "highlight": "smashed in",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Instead of stealing anything, the vandals badly damaged the café and ran away.",
+      "promptZh": "破壞者沒有偷走任何東西,反而嚴重破壞咖啡店後逃走。",
+      "starter": "Instead",
+      "answer": "Instead of stealing anything, the vandals smashed up the café and ran away.",
+      "answerZh": "破壞者沒有偷走任何東西,反而砸毀咖啡店後逃走。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    },
+    {
+      "id": "phrasal-verb-298-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The rescue workers decided to break the bedroom door open by force when they heard a child calling.",
+      "promptZh": "救援人員聽到有孩子呼叫後,決定用力把睡房門撞開。",
+      "starter": "The",
+      "answer": "The rescue workers decided to smash the bedroom door down when they heard a child calling.",
+      "answerZh": "救援人員聽到有孩子呼叫後,決定猛力撞破睡房門。",
+      "highlight": "smash",
+      "targetForm": "smash something down",
+      "targetMeaningZh": "猛力擊倒或撞破"
+    },
+    {
+      "id": "phrasal-verb-298-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The falling shelf pushed the cupboard door inward so deeply that it would not open.",
+      "promptZh": "掉下來的層板把櫥櫃門撞至深深向內凹陷,令它無法打開。",
+      "starter": "The",
+      "answer": "The falling shelf smashed the cupboard door in so deeply that it would not open.",
+      "answerZh": "掉下來的層板把櫥櫃門撞至深深向內凹陷,令它無法打開。",
+      "highlight": "smashed",
+      "targetForm": "smash something in",
+      "targetMeaningZh": "猛力撞至向內凹陷"
+    },
+    {
+      "id": "phrasal-verb-298-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The workshop was empty, but someone had badly damaged every table and chair before leaving.",
+      "promptZh": "工作室空無一人,但有人離開前已嚴重破壞每張桌子和椅子。",
+      "starter": "The",
+      "answer": "The workshop was empty, but someone had smashed up every table and chair before leaving.",
+      "answerZh": "工作室空無一人,但有人離開前已把每張桌子和椅子砸毀。",
+      "highlight": "smashed up",
+      "targetForm": "smash something up",
+      "targetMeaningZh": "猛力砸毀或嚴重破壞"
+    }
+  ]
+}

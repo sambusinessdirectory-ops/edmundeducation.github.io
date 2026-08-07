@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-155",
+  "order": 155,
+  "slug": "hack",
+  "version": "1",
+  "title": "HACK 動詞片語",
+  "titleEn": "Hack",
+  "titleZh": "HACK 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 154 - HACK.pdf",
+    "sourceNumber": 154,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HACK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HACK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HACK",
+      "highlight": "HACK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "He hacked away at the thick branch for ten minutes.",
+      "zh": "他反覆粗暴地砍那條粗樹枝達十分鐘。",
+      "highlight": "hacked away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Someone hacked into the school’s computer system.",
+      "zh": "有人未經准許進入了學校的電腦系統。",
+      "highlight": "hacked into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The long delay really hacked us off.",
+      "zh": "長時間的延誤令我們非常惱火。",
+      "highlight": "hacked us off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對某物反覆粗暴地砍、劈或切；未經准許進入電腦系統或帳戶；惹惱某人;令某人感到煩厭；胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮；粗暴地砍掉或切掉某部分；把某物粗略地切成小塊或小段",
+    "en": "hack at something / hack away (at something); hack into something; hack somebody off; hack something about; hack something off / hack something off something; hack something up",
+    "naturalZh": [
+      "對某物反覆粗暴地砍、劈或切",
+      "未經准許進入電腦系統或帳戶",
+      "惹惱某人;令某人感到煩厭",
+      "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+      "粗暴地砍掉或切掉某部分",
+      "把某物粗略地切成小塊或小段"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hack at something / hack away (at something)",
+      "titleZh": "對某物反覆粗暴地砍、劈或切",
+      "titleEn": "hack at something / hack away (at something)",
+      "descriptionZh": "對某物反覆粗暴地砍、劈或切",
+      "descriptionEn": "He hacked away at the thick branch for ten minutes.",
+      "examples": [
+        {
+          "en": "He hacked away at the thick branch for ten minutes.",
+          "zh": "他反覆粗暴地砍那條粗樹枝達十分鐘。",
+          "highlight": "hacked away at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hack into something",
+      "titleZh": "未經准許進入電腦系統或帳戶",
+      "titleEn": "hack into something",
+      "descriptionZh": "未經准許進入電腦系統或帳戶",
+      "descriptionEn": "Someone hacked into the school’s computer system.",
+      "examples": [
+        {
+          "en": "Someone hacked into the school’s computer system.",
+          "zh": "有人未經准許進入了學校的電腦系統。",
+          "highlight": "hacked into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hack somebody off",
+      "titleZh": "惹惱某人;令某人感到煩厭",
+      "titleEn": "hack somebody off",
+      "descriptionZh": "惹惱某人;令某人感到煩厭",
+      "descriptionEn": "The long delay really hacked us off.",
+      "examples": [
+        {
+          "en": "The long delay really hacked us off.",
+          "zh": "長時間的延誤令我們非常惱火。",
+          "highlight": "hacked us off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hack something about",
+      "titleZh": "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+      "titleEn": "hack something about",
+      "descriptionZh": "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+      "descriptionEn": "The barber hacked his hair about and left it uneven.",
+      "examples": [
+        {
+          "en": "The barber hacked his hair about and left it uneven.",
+          "zh": "理髮師把他的頭髮胡亂剪得參差不齊。",
+          "highlight": "hacked his hair about"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hack something off / hack something off something",
+      "titleZh": "粗暴地砍掉或切掉某部分",
+      "titleEn": "hack something off / hack something off something",
+      "descriptionZh": "粗暴地砍掉或切掉某部分",
+      "descriptionEn": "They hacked the dead branch off the tree.",
+      "examples": [
+        {
+          "en": "They hacked the dead branch off the tree.",
+          "zh": "他們把枯枝從樹上砍下來。",
+          "highlight": "hacked the dead branch off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hack something up",
+      "titleZh": "把某物粗略地切成小塊或小段",
+      "titleEn": "hack something up",
+      "descriptionZh": "把某物粗略地切成小塊或小段",
+      "descriptionEn": "He hacked up the old wood for the fire.",
+      "examples": [
+        {
+          "en": "He hacked up the old wood for the fire.",
+          "zh": "他把舊木材粗略砍成小段,用來生火。",
+          "highlight": "hacked up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HACK 片語動詞的實際用途",
+    "labelEn": "HACK Phrasal Verbs in Use",
+    "summaryZh": "HACK 片語動詞可以分辨反覆砍某物、胡亂剪壞某物、砍掉其中一部分,以及把整件物件砍成小塊等不同動作。；當有人未經准許進入電腦系統或網上帳戶時,英語經常使用 HACK INTO。；HACK SOMEBODY OFF 和 BE HACKED OFF 是日常英式英語中表達惱怒的自然說法。；HACK AT、HACK ABOUT、HACK OFF 和 HACK UP 都與切割有關,但所描述的動作和最終結果並不相同。",
+    "summaryEn": "HACK expressions can distinguish between repeatedly cutting at something, damaging it with careless cuts, removing one part and cutting the whole thing into pieces. HACK INTO is frequently used when somebody enters a computer system or online account without permission. HACK SOMEBODY OFF and BE HACKED OFF are natural informal ways to talk about being annoyed. HACK AT, HACK ABOUT, HACK OFF and HACK UP all involve cutting, but the action and final result are different.",
+    "contextsZh": [
+      "清楚描述不同形式的粗暴剪切",
+      "理解常見的電腦保安用語",
+      "以自然的英式英語表達惱怒",
+      "留意不同 HACK 表達所帶來的結果"
+    ],
+    "contextsEn": [
+      "Describe different kinds of rough cutting clearly",
+      "Understand common computer-security language",
+      "Express annoyance naturally in British English",
+      "Notice how each HACK expression changes the result"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HACK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HACK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hack at something / hack away (at something)",
+    "fixedHighlight": "hack at something / hack away (at something)",
+    "fixedZh": "閱讀整句,選出意思相同的 HACK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HACK expression that gives the same meaning.",
+    "correct": "hacked away at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 HACK ... OFF、HACK ... UP 或 HACK ... ABOUT 中使用 him、her、it 或 them 時,把它放在HACK 後面。；HACK OFF 可以表示「惹惱某人」或「砍掉某物」;HACK INTO 則表示未經准許進入電腦系統或帳戶。請仔細閱讀情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in HACK... OFF, HACK... UP or HACK... ABOUT, place the word immediately after HACK: hack him off hack it off hack it up hack it about HACK OFF can mean either “annoy somebody” or “cut something away”. HACK INTO is used for entering a computer system or account without permission. Read the situation carefully.",
+    "variableItemsZh": [
+      "hack at something / hack away (at something)",
+      "hack into something",
+      "hack somebody off",
+      "hack something about",
+      "hack something off / hack something off something",
+      "hack something up"
+    ],
+    "variableItemsEn": [
+      "hack at something / hack away (at something)",
+      "hack into something",
+      "hack somebody off",
+      "hack something about",
+      "hack something off / hack something off something",
+      "hack something up"
+    ],
+    "forms": [
+      {
+        "formZh": "對某物反覆粗暴地砍、劈或切",
+        "formEn": "hack at something / hack away (at something)",
+        "exampleZh": "他反覆粗暴地砍那條粗樹枝達十分鐘。",
+        "exampleEn": "He hacked away at the thick branch for ten minutes.",
+        "highlight": "hacked away at"
+      },
+      {
+        "formZh": "未經准許進入電腦系統或帳戶",
+        "formEn": "hack into something",
+        "exampleZh": "有人未經准許進入了學校的電腦系統。",
+        "exampleEn": "Someone hacked into the school’s computer system.",
+        "highlight": "hacked into"
+      },
+      {
+        "formZh": "惹惱某人;令某人感到煩厭",
+        "formEn": "hack somebody off",
+        "exampleZh": "長時間的延誤令我們非常惱火。",
+        "exampleEn": "The long delay really hacked us off.",
+        "highlight": "hacked us off"
+      },
+      {
+        "formZh": "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+        "formEn": "hack something about",
+        "exampleZh": "理髮師把他的頭髮胡亂剪得參差不齊。",
+        "exampleEn": "The barber hacked his hair about and left it uneven.",
+        "highlight": "hacked his hair about"
+      },
+      {
+        "formZh": "粗暴地砍掉或切掉某部分",
+        "formEn": "hack something off / hack something off something",
+        "exampleZh": "他們把枯枝從樹上砍下來。",
+        "exampleEn": "They hacked the dead branch off the tree.",
+        "highlight": "hacked the dead branch off"
+      },
+      {
+        "formZh": "把某物粗略地切成小塊或小段",
+        "formEn": "hack something up",
+        "exampleZh": "他把舊木材粗略砍成小段,用來生火。",
+        "exampleEn": "He hacked up the old wood for the fire.",
+        "highlight": "hacked up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對某物反覆粗暴地砍、劈或切",
+      "titleEn": "hack at something / hack away (at something)",
+      "formula": "hack at something / hack away (at something)",
+      "highlight": "hack at something / hack away (at something)",
+      "descriptionZh": "對某物反覆粗暴地砍、劈或切",
+      "descriptionEn": "He hacked away at the thick branch for ten minutes.",
+      "examples": [
+        {
+          "en": "He hacked away at the thick branch for ten minutes.",
+          "zh": "他反覆粗暴地砍那條粗樹枝達十分鐘。",
+          "highlight": "hacked away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "未經准許進入電腦系統或帳戶",
+      "titleEn": "hack into something",
+      "formula": "hack into something",
+      "highlight": "hack into something",
+      "descriptionZh": "未經准許進入電腦系統或帳戶",
+      "descriptionEn": "Someone hacked into the school’s computer system.",
+      "examples": [
+        {
+          "en": "Someone hacked into the school’s computer system.",
+          "zh": "有人未經准許進入了學校的電腦系統。",
+          "highlight": "hacked into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "惹惱某人;令某人感到煩厭",
+      "titleEn": "hack somebody off",
+      "formula": "hack somebody off",
+      "highlight": "hack somebody off",
+      "descriptionZh": "惹惱某人;令某人感到煩厭",
+      "descriptionEn": "The long delay really hacked us off.",
+      "examples": [
+        {
+          "en": "The long delay really hacked us off.",
+          "zh": "長時間的延誤令我們非常惱火。",
+          "highlight": "hacked us off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+      "titleEn": "hack something about",
+      "formula": "hack something about",
+      "highlight": "hack something about",
+      "descriptionZh": "胡亂剪切,把某物弄得參差或難看,尤其常用於頭髮",
+      "descriptionEn": "The barber hacked his hair about and left it uneven.",
+      "examples": [
+        {
+          "en": "The barber hacked his hair about and left it uneven.",
+          "zh": "理髮師把他的頭髮胡亂剪得參差不齊。",
+          "highlight": "hacked his hair about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "粗暴地砍掉或切掉某部分",
+      "titleEn": "hack something off / hack something off something",
+      "formula": "hack something off / hack something off something",
+      "highlight": "hack something off / hack something off something",
+      "descriptionZh": "粗暴地砍掉或切掉某部分",
+      "descriptionEn": "They hacked the dead branch off the tree.",
+      "examples": [
+        {
+          "en": "They hacked the dead branch off the tree.",
+          "zh": "他們把枯枝從樹上砍下來。",
+          "highlight": "hacked the dead branch off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某物粗略地切成小塊或小段",
+      "titleEn": "hack something up",
+      "formula": "hack something up",
+      "highlight": "hack something up",
+      "descriptionZh": "把某物粗略地切成小塊或小段",
+      "descriptionEn": "He hacked up the old wood for the fire.",
+      "examples": [
+        {
+          "en": "He hacked up the old wood for the fire.",
+          "zh": "他把舊木材粗略砍成小段,用來生火。",
+          "highlight": "hacked up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述不同形式的粗暴剪切",
+      "titleEn": "Describe different kinds of rough cutting clearly",
+      "zh": "HACK 片語動詞可以分辨反覆砍某物、胡亂剪壞某物、砍掉其中一部分,以及把整件物件砍成小塊等不同動作。",
+      "en": "HACK expressions can distinguish between repeatedly cutting at something, damaging it with careless cuts, removing one part and cutting the whole thing into pieces."
+    },
+    {
+      "titleZh": "理解常見的電腦保安用語",
+      "titleEn": "Understand common computer-security language",
+      "zh": "當有人未經准許進入電腦系統或網上帳戶時,英語經常使用 HACK INTO。",
+      "en": "HACK INTO is frequently used when somebody enters a computer system or online account without permission."
+    },
+    {
+      "titleZh": "以自然的英式英語表達惱怒",
+      "titleEn": "Express annoyance naturally in British English",
+      "zh": "HACK SOMEBODY OFF 和 BE HACKED OFF 是日常英式英語中表達惱怒的自然說法。",
+      "en": "HACK SOMEBODY OFF and BE HACKED OFF are natural informal ways to talk about being annoyed."
+    },
+    {
+      "titleZh": "留意不同 HACK 表達所帶來的結果",
+      "titleEn": "Notice how each HACK expression changes the result",
+      "zh": "HACK AT、HACK ABOUT、HACK OFF 和 HACK UP 都與切割有關,但所描述的動作和最終結果並不相同。",
+      "en": "HACK AT, HACK ABOUT, HACK OFF and HACK UP all involve cutting, but the action and final result are different."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述不同形式的粗暴剪切",
+      "理解常見的電腦保安用語",
+      "以自然的英式英語表達惱怒",
+      "留意不同 HACK 表達所帶來的結果"
+    ],
+    "contextsEn": [
+      "Describe different kinds of rough cutting clearly",
+      "Understand common computer-security language",
+      "Express annoyance naturally in British English",
+      "Notice how each HACK expression changes the result"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述不同形式的粗暴剪切",
+        "titleEn": "Describe different kinds of rough cutting clearly",
+        "zh": "HACK 片語動詞可以分辨反覆砍某物、胡亂剪壞某物、砍掉其中一部分,以及把整件物件砍成小塊等不同動作。",
+        "en": "HACK expressions can distinguish between repeatedly cutting at something, damaging it with careless cuts, removing one part and cutting the whole thing into pieces.",
+        "examples": [
+          {
+            "en": "He hacked away at the thick branch for ten minutes.",
+            "zh": "他反覆粗暴地砍那條粗樹枝達十分鐘。",
+            "highlight": "hacked away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見的電腦保安用語",
+        "titleEn": "Understand common computer-security language",
+        "zh": "當有人未經准許進入電腦系統或網上帳戶時,英語經常使用 HACK INTO。",
+        "en": "HACK INTO is frequently used when somebody enters a computer system or online account without permission.",
+        "examples": [
+          {
+            "en": "Someone hacked into the school’s computer system.",
+            "zh": "有人未經准許進入了學校的電腦系統。",
+            "highlight": "hacked into"
+          }
+        ]
+      },
+      {
+        "titleZh": "以自然的英式英語表達惱怒",
+        "titleEn": "Express annoyance naturally in British English",
+        "zh": "HACK SOMEBODY OFF 和 BE HACKED OFF 是日常英式英語中表達惱怒的自然說法。",
+        "en": "HACK SOMEBODY OFF and BE HACKED OFF are natural informal ways to talk about being annoyed.",
+        "examples": [
+          {
+            "en": "The long delay really hacked us off.",
+            "zh": "長時間的延誤令我們非常惱火。",
+            "highlight": "hacked us off"
+          }
+        ]
+      },
+      {
+        "titleZh": "留意不同 HACK 表達所帶來的結果",
+        "titleEn": "Notice how each HACK expression changes the result",
+        "zh": "HACK AT、HACK ABOUT、HACK OFF 和 HACK UP 都與切割有關,但所描述的動作和最終結果並不相同。",
+        "en": "HACK AT, HACK ABOUT, HACK OFF and HACK UP all involve cutting, but the action and final result are different.",
+        "examples": [
+          {
+            "en": "The barber hacked his hair about and left it uneven.",
+            "zh": "理髮師把他的頭髮胡亂剪得參差不齊。",
+            "highlight": "hacked his hair about"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HACK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HACK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HACK 片語動詞。",
+      "en": "Read the whole sentence and choose the HACK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 HACK ... OFF、HACK ... UP 或 HACK ... ABOUT 中使用 him、her、it 或 them 時,把它放在HACK 後面。",
+      "titleEn": "When using him, her, it or them in HACK.",
+      "zh": "在 HACK ... OFF、HACK ... UP 或 HACK ... ABOUT 中使用 him、her、it 或 them 時,把它放在HACK 後面。",
+      "en": "When using him, her, it or them in HACK... OFF, HACK... UP or HACK... ABOUT, place the word immediately after HACK: hack him off hack it off hack it up hack it about"
+    },
+    {
+      "titleZh": "HACK OFF 可以表示「惹惱某人」或「砍掉某物」;HACK INTO 則表示未經准許進入電腦系統或帳戶。請仔細閱讀情境。",
+      "titleEn": "HACK OFF can mean either “annoy somebody” or “cut something away”.",
+      "zh": "HACK OFF 可以表示「惹惱某人」或「砍掉某物」;HACK INTO 則表示未經准許進入電腦系統或帳戶。請仔細閱讀情境。",
+      "en": "HACK OFF can mean either “annoy somebody” or “cut something away”. HACK INTO is used for entering a computer system or account without permission. Read the situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HACK 動詞片語句子改寫練習",
+    "titleEn": "HACK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HACK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HACK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-155-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The worker repeatedly struck the thick root with a small axe.",
+      "promptZh": "工人用小斧頭反覆劈那條粗樹根。",
+      "starter": "The",
+      "answer": "The worker hacked at the thick root with a small axe.",
+      "answerZh": "工人用一把小斧頭反覆粗暴地劈那條粗樹根。",
+      "highlight": "hacked at",
+      "targetForm": "hack at something",
+      "targetMeaningZh": "反覆粗暴地砍、劈或切某物"
+    },
+    {
+      "id": "phrasal-verb-155-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A student entered the school computer system without permission.",
+      "promptZh": "一名學生未經准許進入學校的電腦系統。",
+      "starter": "A",
+      "answer": "A student hacked into the school computer system.",
+      "answerZh": "一名學生未經准許進入了學校的電腦系統。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統或帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The endless noise annoyed all the neighbours.",
+      "promptZh": "持續不斷的噪音令所有鄰居都很煩厭。",
+      "starter": "The",
+      "answer": "The endless noise hacked all the neighbours off.",
+      "answerZh": "持續不斷的噪音令所有鄰居都很煩厭。",
+      "highlight": "hacked",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The barber cut Raj’s hair badly and left it uneven.",
+      "promptZh": "理髮師把拉傑的頭髮剪得很差,長短不一。",
+      "starter": "The",
+      "answer": "The barber hacked Raj’s hair about and left it uneven.",
+      "answerZh": "理髮師把拉傑的頭髮胡亂剪得參差不齊。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "They cut the dead branch away from the tree with heavy blows.",
+      "promptZh": "他們用力把枯枝從樹上砍下來。",
+      "starter": "They",
+      "answer": "They hacked the dead branch off the tree with heavy blows.",
+      "answerZh": "他們用力把枯枝從樹上砍下來。",
+      "highlight": "hacked",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分從另一物件上砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The cook cut the meat roughly into small pieces.",
+      "promptZh": "廚師把肉粗略地切成小塊。",
+      "starter": "The",
+      "answer": "The cook hacked up the meat into small pieces.",
+      "answerZh": "廚師把肉粗略地切成小塊。",
+      "highlight": "hacked up",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I was very annoyed by the cancelled train.",
+      "promptZh": "火車班次取消令我非常惱火。",
+      "starter": "I",
+      "answer": "I was really hacked off by the cancelled train.",
+      "answerZh": "火車班次取消令我非常惱火。",
+      "highlight": "was really hacked off",
+      "targetForm": "be hacked off",
+      "targetMeaningZh": "感到非常惱火"
+    },
+    {
+      "id": "phrasal-verb-155-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "He kept cutting at the frozen soil for several minutes.",
+      "promptZh": "他在幾分鐘內不斷切開結冰的泥土。",
+      "starter": "He",
+      "answer": "He hacked away at the frozen soil for several minutes.",
+      "answerZh": "他在幾分鐘內不斷粗暴地切開結冰的泥土。",
+      "highlight": "hacked away",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍、劈或切某物"
+    },
+    {
+      "id": "phrasal-verb-155-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We cut the old wood into rough pieces for the fire.",
+      "promptZh": "我們把舊木材粗略切成小塊,用來生火。",
+      "starter": "We",
+      "answer": "We hacked up the old wood for the fire.",
+      "answerZh": "我們把舊木材粗略砍成小段,用來生火。",
+      "highlight": "hacked up",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊或小段"
+    },
+    {
+      "id": "phrasal-verb-155-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Someone illegally entered my email account last night.",
+      "promptZh": "昨晚有人非法進入我的電郵帳戶。",
+      "starter": "Someone",
+      "answer": "Someone hacked into my email account last night.",
+      "answerZh": "昨晚有人未經准許進入了我的電郵帳戶。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統或帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "She cut the hard top off the pumpkin with one heavy blow.",
+      "promptZh": "她用力一下,把南瓜堅硬的頂部切掉。",
+      "starter": "She",
+      "answer": "She hacked off the hard top of the pumpkin with one heavy blow.",
+      "answerZh": "她用力一下,把南瓜堅硬的頂部砍掉。",
+      "highlight": "hacked off",
+      "targetForm": "hack something off",
+      "targetMeaningZh": "粗暴地砍掉或切掉某部分"
+    },
+    {
+      "id": "phrasal-verb-155-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The trainee cut the wig roughly in several places.",
+      "promptZh": "學徒在假髮多處胡亂剪切。",
+      "starter": "The",
+      "answer": "The trainee hacked the wig about in several places.",
+      "answerZh": "學徒在假髮多處胡亂剪切。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The workers have cut away the damaged part of the fence with heavy blows.",
+      "promptZh": "工人已用力把圍欄損壞的部分砍掉。",
+      "starter": "The",
+      "answer": "The workers have hacked off the damaged part of the fence with heavy blows.",
+      "answerZh": "工人已用力把圍欄損壞的部分砍掉。",
+      "highlight": "hacked off",
+      "targetForm": "hack something off",
+      "targetMeaningZh": "粗暴地砍掉或切掉某部分"
+    },
+    {
+      "id": "phrasal-verb-155-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "It annoys me when people leave dirty cups on my desk.",
+      "promptZh": "當有人把骯髒的杯子留在我的桌上時,我會很煩厭。",
+      "starter": "It",
+      "answer": "It hacks me off when people leave dirty cups on my desk.",
+      "answerZh": "當有人把骯髒的杯子留在我的桌上時,我會很煩厭。",
+      "highlight": "hacks",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The police believe someone has entered the company’s computer system without permission.",
+      "promptZh": "警方相信有人未經准許進入了公司的電腦系統。",
+      "starter": "The",
+      "answer": "The police believe someone has hacked into the company’s computer system.",
+      "answerZh": "警方相信有人未經准許進入了公司的電腦系統。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統"
+    },
+    {
+      "id": "phrasal-verb-155-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Dad is cutting the large pumpkin into rough pieces.",
+      "promptZh": "爸爸正在把大南瓜粗略切成小塊。",
+      "starter": "Dad",
+      "answer": "Dad is hacking up the large pumpkin into rough pieces.",
+      "answerZh": "爸爸正在把大南瓜粗略切成小塊。",
+      "highlight": "hacking up",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The gardener is still making repeated cuts at the old branch.",
+      "promptZh": "園丁仍在反覆砍那條老樹枝。",
+      "starter": "The",
+      "answer": "The gardener is still hacking away at the old branch.",
+      "answerZh": "園丁仍在反覆粗暴地砍那條老樹枝。",
+      "highlight": "hacking away",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍某物"
+    },
+    {
+      "id": "phrasal-verb-155-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The new hairdresser has cut my fringe very badly.",
+      "promptZh": "新理髮師把我的瀏海剪得非常難看。",
+      "starter": "The",
+      "answer": "The new hairdresser has hacked my fringe about.",
+      "answerZh": "新理髮師把我的瀏海胡亂剪得非常難看。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could a stranger enter this account without permission if the password is weak?",
+      "promptZh": "如果密碼太弱,陌生人能否未經准許進入這個帳戶?",
+      "starter": "Could",
+      "answer": "Could a stranger hack into this account if the password is weak?",
+      "answerZh": "如果密碼太弱,陌生人能否未經准許進入這個帳戶?",
+      "highlight": "hack into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can you cut this frozen piece away from the block of ice with the axe?",
+      "promptZh": "你可以用斧頭把這塊冰從大冰塊上砍下來嗎?",
+      "starter": "Can",
+      "answer": "Can you hack this frozen piece off the block of ice with the axe?",
+      "answerZh": "你可以用斧頭把這塊冰從大冰塊上砍下來嗎?",
+      "highlight": "hack",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分從另一物件上砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please do not cut the costume roughly and ruin its shape.",
+      "promptZh": "請不要胡亂剪這套戲服,破壞它的形狀。",
+      "starter": "Please",
+      "answer": "Please do not hack the costume about and ruin its shape.",
+      "answerZh": "請不要胡亂剪這套戲服,破壞它的形狀。",
+      "highlight": "hack",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄壞"
+    },
+    {
+      "id": "phrasal-verb-155-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did they keep cutting until the fallen trunk finally broke?",
+      "promptZh": "他們是否一直砍,直至倒下的樹幹終於斷開?",
+      "starter": "Did",
+      "answer": "Did they keep hacking away until the fallen trunk finally broke?",
+      "answerZh": "他們是否一直反覆砍,直至倒下的樹幹終於斷開?",
+      "highlight": "hacking away",
+      "targetForm": "hack away",
+      "targetMeaningZh": "持續反覆地砍或劈"
+    },
+    {
+      "id": "phrasal-verb-155-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why was Ben so annoyed with the new rule?",
+      "promptZh": "賓為甚麼對新規則如此惱火?",
+      "starter": "Why",
+      "answer": "Why was Ben so hacked off with the new rule?",
+      "answerZh": "賓為甚麼對新規則如此惱火?",
+      "highlight": "was Ben so hacked off",
+      "targetForm": "be hacked off with something",
+      "targetMeaningZh": "對某事感到非常惱火"
+    },
+    {
+      "id": "phrasal-verb-155-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They did not cut the fallen branch into smaller pieces.",
+      "promptZh": "他們沒有把倒下的樹枝砍成較小的段。",
+      "starter": "They",
+      "answer": "They did not hack up the fallen branch into smaller pieces.",
+      "answerZh": "他們沒有把倒下的樹枝砍成較小的段。",
+      "highlight": "hack up",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊或小段"
+    },
+    {
+      "id": "phrasal-verb-155-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "My hair was neat before the cut, but the barber left it short and uneven in several places.",
+      "promptZh": "我剪髮前的頭髮很整齊,但理髮師把它多處剪得又短又不均勻。",
+      "starter": "My",
+      "answer": "My hair was neat before the cut, but the barber hacked it about and left it short and uneven in several places.",
+      "answerZh": "我剪髮前的頭髮很整齊,但理髮師把它多處胡亂剪得又短又不均勻。",
+      "highlight": "hacked it about and",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After someone entered its system illegally, the website was closed.",
+      "promptZh": "有人非法進入網站系統後,網站便關閉了。",
+      "starter": "After",
+      "answer": "After someone hacked into its system, the website was closed.",
+      "answerZh": "有人非法進入網站系統後,網站便關閉了。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統"
+    },
+    {
+      "id": "phrasal-verb-155-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because the handle was broken, we cut it off with a heavy tool.",
+      "promptZh": "手柄壞了,所以我們用重型工具把它砍掉。",
+      "starter": "Because",
+      "answer": "Because the handle was broken, we hacked it off with a heavy tool.",
+      "answerZh": "手柄壞了,所以我們用重型工具把它砍掉。",
+      "highlight": "hacked",
+      "targetForm": "hack something off",
+      "targetMeaningZh": "粗暴地砍掉或切掉某部分"
+    },
+    {
+      "id": "phrasal-verb-155-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The repeated changes annoyed the players, and they complained to the coach.",
+      "promptZh": "一再作出的改動惹惱了球員,他們於是向教練投訴。",
+      "starter": "The",
+      "answer": "The repeated changes hacked the players off, and they complained to the coach.",
+      "answerZh": "一再作出的改動惹惱了球員,他們於是向教練投訴。",
+      "highlight": "hacked",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Since the fish was too large to cook whole, the chef cut it into several rough pieces.",
+      "promptZh": "這條魚太大,不能整條烹煮,所以廚師把它粗略切成幾塊。",
+      "starter": "Since",
+      "answer": "Since the fish was too large to cook whole, the chef hacked it up into several rough pieces.",
+      "answerZh": "這條魚太大,不能整條烹煮,所以廚師把它粗略切成幾塊。",
+      "highlight": "hacked",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The ice was very thick. We kept striking it with our tools.",
+      "promptZh": "冰層很厚。我們不斷用工具敲打它。",
+      "starter": "The",
+      "answer": "The ice was very thick. We kept hacking away at it with our tools.",
+      "answerZh": "冰層很厚。我們不斷用工具粗暴地敲打它。",
+      "highlight": "hacking away at",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍、劈或敲打某物"
+    },
+    {
+      "id": "phrasal-verb-155-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "A large piece of wood was cut off the old post with heavy blows.",
+      "promptZh": "一大塊木頭被人用力從舊木柱上砍下來。",
+      "starter": "A",
+      "answer": "A large piece of wood was hacked off the old post with heavy blows.",
+      "answerZh": "一大塊木頭被人用力從舊木柱上砍下來。",
+      "highlight": "hacked",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分從另一物件上砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the show, the wig looked fine, but a helper cut it carelessly all over.",
+      "promptZh": "演出前,假髮本來很好看,但一名助手把它到處胡亂剪。",
+      "starter": "Before",
+      "answer": "Before the show, the wig looked fine, but a helper hacked it about.",
+      "answerZh": "演出前,假髮本來很好看,但一名助手把它到處胡亂剪。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The workers cut the broken shelves into rough pieces before throwing them away.",
+      "promptZh": "工人把破爛的層架砍成小塊,然後丟掉。",
+      "starter": "The",
+      "answer": "The workers hacked up the broken shelves into rough pieces before throwing them away.",
+      "answerZh": "工人把破爛的層架砍成小塊,然後丟掉。",
+      "highlight": "hacked up",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Using the easy password, a stranger entered the account without permission.",
+      "promptZh": "陌生人利用簡單的密碼,未經准許進入了帳戶。",
+      "starter": "Using",
+      "answer": "Using the easy password, a stranger hacked into the account without permission.",
+      "answerZh": "陌生人利用簡單的密碼,未經准許進入了帳戶。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Although his arms were tired, he continued to cut at the hard wood.",
+      "promptZh": "雖然他的手臂很累,但他仍繼續砍那塊硬木。",
+      "starter": "Although",
+      "answer": "Although his arms were tired, he continued to hack away at the hard wood.",
+      "answerZh": "雖然他的手臂很累,但他仍繼續反覆砍那塊硬木。",
+      "highlight": "hack away",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍某物"
+    },
+    {
+      "id": "phrasal-verb-155-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "I did not want to annoy her by arriving late again.",
+      "promptZh": "我不想再次遲到而惹她生氣。",
+      "starter": "I",
+      "answer": "I did not want to hack her off by arriving late again.",
+      "answerZh": "我不想再次遲到而惹她生氣。",
+      "highlight": "hack",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The broken chair did not hurt him, but the waiter ignored him twice and made him very annoyed.",
+      "promptZh": "壞椅子沒有弄傷他,但侍應兩次沒有理會他,令他非常惱火。",
+      "starter": "The",
+      "answer": "The broken chair did not hurt him, but the waiter ignored him twice and really hacked him off.",
+      "answerZh": "壞椅子沒有弄傷他,但侍應兩次沒有理會他,令他非常惱火。",
+      "highlight": "really hacked",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She did not remove just one end; she cut the whole piece of wood into smaller parts.",
+      "promptZh": "她不只是切掉一端,而是把整塊木頭切成較小部分。",
+      "starter": "She",
+      "answer": "She did not remove just one end; she hacked the whole piece of wood up into smaller parts.",
+      "answerZh": "她不只是切掉一端,而是把整塊木頭粗略切成較小部分。",
+      "highlight": "hacked",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把整件物件粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Although the branch did not come off, she simply kept making rough cuts at it.",
+      "promptZh": "雖然樹枝沒有被砍下來,但她只是一直在上面粗略地砍。",
+      "starter": "Although",
+      "answer": "Although the branch did not come off, she simply kept hacking at it.",
+      "answerZh": "雖然樹枝沒有被砍下來,但她只是一直在上面粗略地砍。",
+      "highlight": "hacking",
+      "targetForm": "hack at something",
+      "targetMeaningZh": "反覆粗暴地砍某物"
+    },
+    {
+      "id": "phrasal-verb-155-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "He removed only one damaged end from the log with rough blows.",
+      "promptZh": "他用力從木頭上只砍掉一個損壞的末端。",
+      "starter": "He",
+      "answer": "He hacked only one damaged end off the log with rough blows.",
+      "answerZh": "他用力從木頭上只砍掉一個損壞的末端。",
+      "highlight": "hacked",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分從另一物件上砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The stylist did not remove one section completely; she cut the hair badly and left it uneven all over.",
+      "promptZh": "髮型師沒有完整剪掉某一部分,而是把整頭頭髮都剪得很差。",
+      "starter": "The",
+      "answer": "The stylist did not remove one section completely; she hacked the hair about and left it uneven all over.",
+      "answerZh": "髮型師沒有完整剪掉某一部分,而是把整頭頭髮都胡亂剪得參差不齊。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "What annoyed the customers most was waiting for an hour without any news.",
+      "promptZh": "最令顧客惱火的是等了一小時,期間完全沒有消息。",
+      "starter": "What",
+      "answer": "What hacked the customers off most was waiting for an hour without any news.",
+      "answerZh": "最令顧客惱火的是等了一小時,期間完全沒有消息。",
+      "highlight": "hacked",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The cook was not dividing the pumpkin into pieces yet; he was still making rough cuts at its hard skin.",
+      "promptZh": "廚師還未把南瓜切成小塊;他仍在南瓜的硬皮上粗略地切。",
+      "starter": "The",
+      "answer": "The cook was not dividing the pumpkin into pieces yet; he was still hacking at its hard skin.",
+      "answerZh": "廚師還未把南瓜切成小塊;他仍在南瓜的硬皮上粗略地切。",
+      "highlight": "hacking",
+      "targetForm": "hack at something",
+      "targetMeaningZh": "反覆粗暴地砍或切某物"
+    },
+    {
+      "id": "phrasal-verb-155-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Instead of stealing the laptop, the thief entered the online account without permission.",
+      "promptZh": "小偷沒有偷走手提電腦,而是未經准許進入網上帳戶。",
+      "starter": "Instead",
+      "answer": "Instead of stealing the laptop, the thief hacked into the online account.",
+      "answerZh": "小偷沒有偷走手提電腦,而是未經准許進入網上帳戶。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The designer did not cut the cloth into useful pieces; he simply cut it badly in several places.",
+      "promptZh": "設計師沒有把布料剪成有用的小塊,只是在多處胡亂剪切。",
+      "starter": "The",
+      "answer": "The designer did not cut the cloth into useful pieces; he simply hacked it about in several places.",
+      "answerZh": "設計師沒有把布料剪成有用的小塊,只是在多處胡亂剪切。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄壞"
+    },
+    {
+      "id": "phrasal-verb-155-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Rather than merely making cuts at the pumpkin, the cook divided it roughly into many pieces.",
+      "promptZh": "廚師不是只在南瓜上切幾刀,而是把它粗略地切成很多小塊。",
+      "starter": "Rather",
+      "answer": "Rather than merely making cuts at the pumpkin, the cook hacked up the pumpkin into many pieces.",
+      "answerZh": "廚師不是只在南瓜上切幾刀,而是把它粗略地切成很多小塊。",
+      "highlight": "hacked up the pumpkin",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成許多小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Because the thick rope was still attached to the boat, the worker cut it away with several rough strokes of a heavy knife.",
+      "promptZh": "粗繩仍繫在船上,所以工人用厚重的刀粗暴地把它砍斷。",
+      "starter": "Because",
+      "answer": "Because the thick rope was still attached to the boat, the worker hacked it off with several rough strokes of a heavy knife.",
+      "answerZh": "粗繩仍繫在船上,所以工人用厚重的刀粗暴地把它砍斷。",
+      "highlight": "hacked",
+      "targetForm": "hack something off",
+      "targetMeaningZh": "粗暴地把某部分砍掉或切掉"
+    },
+    {
+      "id": "phrasal-verb-155-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By the time the staff noticed the problem, someone had already entered the booking system illegally.",
+      "promptZh": "職員發現問題時,已有人非法進入預訂系統。",
+      "starter": "By",
+      "answer": "By the time the staff noticed the problem, someone had already hacked into the booking system.",
+      "answerZh": "職員發現問題時,已有人非法進入預訂系統。",
+      "highlight": "hacked into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統"
+    },
+    {
+      "id": "phrasal-verb-155-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Even though the password had been changed, someone still managed to enter the club’s private online system without permission.",
+      "promptZh": "即使密碼已更改,仍有人成功未經准許進入學會的私人網上系統。",
+      "starter": "Even",
+      "answer": "Even though the password had been changed, someone still managed to hack into the club’s private online system.",
+      "answerZh": "即使密碼已更改,仍有人成功未經准許進入學會的私人網上系統。",
+      "highlight": "hack into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦系統"
+    },
+    {
+      "id": "phrasal-verb-155-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the school play, a helper with no experience cut the actor’s wig carelessly, leaving one side much shorter than the other.",
+      "promptZh": "學校話劇開始前,一名沒有經驗的助手胡亂剪演員的假髮,令其中一邊短得多。",
+      "starter": "Before",
+      "answer": "Before the school play, a helper with no experience hacked the actor’s wig about, leaving one side much shorter than the other.",
+      "answerZh": "學校話劇開始前,一名沒有經驗的助手胡亂剪演員的假髮,令其中一邊短得多。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄得參差或難看"
+    },
+    {
+      "id": "phrasal-verb-155-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The old table could not fit through the door, so the workers cut it roughly into several smaller pieces.",
+      "promptZh": "舊桌子無法穿過門口,所以工人把它粗略切成幾個較小的部分。",
+      "starter": "The",
+      "answer": "The old table could not fit through the door, so the workers hacked it up into several smaller pieces.",
+      "answerZh": "舊桌子無法穿過門口,所以工人把它粗略砍成幾個較小的部分。",
+      "highlight": "hacked",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊"
+    },
+    {
+      "id": "phrasal-verb-155-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The team accepted the result, but the referee would not explain it, and this made them very annoyed.",
+      "promptZh": "球隊接受了結果,但裁判拒絕解釋,令他們非常惱火。",
+      "starter": "The",
+      "answer": "The team accepted the result, but the referee would not explain it, and this really hacked them off.",
+      "answerZh": "球隊接受了結果,但裁判拒絕解釋,令他們非常惱火。",
+      "highlight": "really hacked",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "For nearly twenty minutes, the rescue workers repeatedly cut at the fallen branch, but it was still blocking the path.",
+      "promptZh": "救援人員反覆砍那條倒下的樹枝接近二十分鐘,但它仍阻塞道路。",
+      "starter": "For",
+      "answer": "For nearly twenty minutes, the rescue workers hacked away at the fallen branch, but it was still blocking the path.",
+      "answerZh": "救援人員反覆砍那條倒下的樹枝接近二十分鐘,但它仍阻塞道路。",
+      "highlight": "hacked away",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍某物"
+    },
+    {
+      "id": "phrasal-verb-155-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After the storm had split the tree, the team used heavy tools to remove the dangerous branch from the trunk.",
+      "promptZh": "暴風雨令樹木裂開後,團隊用重型工具把危險的樹枝從樹幹上砍下來。",
+      "starter": "After",
+      "answer": "After the storm had split the tree, the team hacked the dangerous branch off the trunk with heavy tools.",
+      "answerZh": "暴風雨令樹木裂開後,團隊用重型工具把危險的樹枝從樹幹上砍下來。",
+      "highlight": "hacked",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分從另一物件上砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the cardboard sign needed only one straight cut, he cut it here and there until its edges were ruined.",
+      "promptZh": "雖然紙板招牌只需整齊地剪一下,但他到處亂剪,直至邊緣被弄壞。",
+      "starter": "Although",
+      "answer": "Although the cardboard sign needed only one straight cut, he hacked it about until its edges were ruined.",
+      "answerZh": "雖然紙板招牌只需整齊地剪一下,但他到處胡亂剪,直至邊緣被弄壞。",
+      "highlight": "hacked",
+      "targetForm": "hack something about",
+      "targetMeaningZh": "胡亂剪切,把某物弄壞"
+    },
+    {
+      "id": "phrasal-verb-155-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The message looked normal, but clicking it allowed criminals to enter the user’s account without permission.",
+      "promptZh": "訊息看來很正常,但按下它後,罪犯便能未經准許進入用戶的帳戶。",
+      "starter": "The",
+      "answer": "The message looked normal, but clicking it allowed criminals to hack into the user’s account.",
+      "answerZh": "訊息看來很正常,但按下它後,罪犯便能未經准許進入用戶的帳戶。",
+      "highlight": "hack into",
+      "targetForm": "hack into something",
+      "targetMeaningZh": "未經准許進入電腦帳戶"
+    },
+    {
+      "id": "phrasal-verb-155-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Because the block of ice was too large, he used several hard blows to remove one corner.",
+      "promptZh": "冰塊太大,所以他用力敲打數下,把其中一角砍掉。",
+      "starter": "Because",
+      "answer": "Because the block of ice was too large, he hacked one corner off it.",
+      "answerZh": "冰塊太大,所以他用力把其中一角砍掉。",
+      "highlight": "hacked",
+      "targetForm": "hack something off something",
+      "targetMeaningZh": "粗暴地把某部分砍掉"
+    },
+    {
+      "id": "phrasal-verb-155-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Rather than removing the whole piece at once, he kept making rough cuts at the rope until it finally broke.",
+      "promptZh": "他沒有一次過移走整段繩,而是一直粗略地砍,直至繩子終於斷開。",
+      "starter": "Rather",
+      "answer": "Rather than removing the whole piece at once, he kept hacking away at the rope until it finally broke.",
+      "answerZh": "他沒有一次過移走整段繩,而是一直粗暴地砍,直至繩子終於斷開。",
+      "highlight": "hacking away",
+      "targetForm": "hack away at something",
+      "targetMeaningZh": "持續反覆地砍某物"
+    },
+    {
+      "id": "phrasal-verb-155-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "I can accept a small mistake, but being ignored after I ask for help makes me extremely annoyed.",
+      "promptZh": "我可以接受一個小錯誤,但我求助後仍被忽視,真的令我非常惱火。",
+      "starter": "I",
+      "answer": "I can accept a small mistake, but being ignored after I ask for help really hacks me off.",
+      "answerZh": "我可以接受一個小錯誤,但我求助後仍被忽視,真的令我非常惱火。",
+      "highlight": "really hacks",
+      "targetForm": "hack somebody off",
+      "targetMeaningZh": "惹惱某人"
+    },
+    {
+      "id": "phrasal-verb-155-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After the storm, the fallen tree was too heavy to move, so the team cut it into smaller pieces that they could carry.",
+      "promptZh": "暴風雨過後,倒下的樹太重,無法搬動,所以團隊把它砍成可以搬運的較小段。",
+      "starter": "After",
+      "answer": "After the storm, the fallen tree was too heavy to move, so the team hacked it up into smaller pieces that they could carry.",
+      "answerZh": "暴風雨過後,倒下的樹太重,無法搬動,所以團隊把它砍成可以搬運的較小段。",
+      "highlight": "hacked",
+      "targetForm": "hack something up",
+      "targetMeaningZh": "把某物粗略切成小塊或小段"
+    }
+  ]
+}

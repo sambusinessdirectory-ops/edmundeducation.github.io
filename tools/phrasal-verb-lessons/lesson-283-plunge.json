@@ -1,0 +1,1198 @@
+{
+  "id": "phrasal-verb-283",
+  "order": 283,
+  "slug": "plunge",
+  "version": "1",
+  "title": "PLUNGE 動詞片語",
+  "titleEn": "Plunge",
+  "titleZh": "PLUNGE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 268 - PLUNGE.pdf",
+    "sourceNumber": 268,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PLUNGE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PLUNGE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PLUNGE",
+      "highlight": "PLUNGE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The swimmers plunged into the pool.",
+      "zh": "泳手們猛地跳進泳池。",
+      "highlight": "plunged into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Bring the water to the boil and plunge the vegetables in.",
+      "zh": "把水煮沸,然後迅速把蔬菜放進去。",
+      "highlight": "plunge the vegetables in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The power cut plunged the street into darkness.",
+      "zh": "停電令整條街突然陷入黑暗。",
+      "highlight": "plunged the street into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "猛地跳入或跌入水中；把某物迅速而用力地插入、浸入或放進另一物中；突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+    "en": "plunge in; plunge into something; plunge something in; plunge something into something; plunge into something; plunge somebody/something into something",
+    "naturalZh": [
+      "猛地跳入或跌入水中",
+      "把某物迅速而用力地插入、浸入或放進另一物中",
+      "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "plunge in; plunge into something",
+      "titleZh": "猛地跳入或跌入水中",
+      "titleEn": "plunge in; plunge into something",
+      "descriptionZh": "猛地跳入或跌入水中",
+      "descriptionEn": "The swimmers plunged into the pool.",
+      "examples": [
+        {
+          "en": "The swimmers plunged into the pool.",
+          "zh": "泳手們猛地跳進泳池。",
+          "highlight": "plunged into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plunge something in; plunge something into something",
+      "titleZh": "把某物迅速而用力地插入、浸入或放進另一物中",
+      "titleEn": "plunge something in; plunge something into something",
+      "descriptionZh": "把某物迅速而用力地插入、浸入或放進另一物中",
+      "descriptionEn": "Bring the water to the boil and plunge the vegetables in.",
+      "examples": [
+        {
+          "en": "Bring the water to the boil and plunge the vegetables in.",
+          "zh": "把水煮沸,然後迅速把蔬菜放進去。",
+          "highlight": "plunge the vegetables in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plunge into something; plunge somebody/something into something",
+      "titleZh": "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+      "titleEn": "plunge into something; plunge somebody/something into something",
+      "descriptionZh": "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+      "descriptionEn": "The power cut plunged the street into darkness.",
+      "examples": [
+        {
+          "en": "The power cut plunged the street into darkness.",
+          "zh": "停電令整條街突然陷入黑暗。",
+          "highlight": "plunged the street into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PLUNGE 片語動詞的實際用途",
+    "labelEn": "PLUNGE Phrasal Verbs in Use",
+    "summaryZh": "plunge in 和 plunge into the water 可以表示迅速而有力地跳入或跌入水中。；你可以使用 PLUNGE 描述把食物、工具或其他物件迅速放進水、顏料或其他物料中。；plunge into debt、crisis 或 chaos 可以表示某人、地方或機構突然陷入困難。；The town plunged into darkness 描述發生了甚麼事;The power cut plunged the town intodarkness 則同時說明事情的原因。",
+    "summaryEn": "Plunge in and plunge into the water show a quick and forceful jump or fall. You can use PLUNGE when food, tools or other objects are quickly pushed or placed into water, paint or another material. Plunge into debt, crisis or chaos shows that a person, place or organisation enters a difficult situation very quickly. The town plunged into darkness describes what happened. The power cut plunged the town into darkness also explains what caused it.",
+    "contextsZh": [
+      "描述突然進入水中的動作",
+      "描述迅速處理物件的動作",
+      "談論突然出現的困境",
+      "清楚說明突然轉變的原因"
+    ],
+    "contextsEn": [
+      "Describe sudden movement into water",
+      "Describe quick actions with objects",
+      "Talk about sudden difficult situations",
+      "Show what caused a sudden change"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PLUNGE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PLUNGE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "plunge in; plunge into something",
+    "fixedHighlight": "plunge in; plunge into something",
+    "fixedZh": "閱讀整句,選出意思相同的 PLUNGE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PLUNGE expression that gives the same meaning.",
+    "correct": "plunged into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；請留意三個不同意思:人猛地跳進水中、把物件迅速而用力地放進另一物中,以及突然陷入或使某事物陷入不愉快的情況。；如果句中已清楚指出位置,可以使用 in;如果要說明進入甚麼地方或情況,則使用 into。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the three different ideas: The swimmers plunged into the pool. The cook plunged the vegetables into cold water. The power cut plunged the street into darkness. Use in when the place is already clear. Use into when the sentence names the place or situation: The water is ready. Plunge the vegetables in. Plunge the vegetables into the water.",
+    "variableItemsZh": [
+      "plunge in; plunge into something",
+      "plunge something in; plunge something into something",
+      "plunge into something; plunge somebody/something into something"
+    ],
+    "variableItemsEn": [
+      "plunge in; plunge into something",
+      "plunge something in; plunge something into something",
+      "plunge into something; plunge somebody/something into something"
+    ],
+    "forms": [
+      {
+        "formZh": "猛地跳入或跌入水中",
+        "formEn": "plunge in; plunge into something",
+        "exampleZh": "泳手們猛地跳進泳池。",
+        "exampleEn": "The swimmers plunged into the pool.",
+        "highlight": "plunged into"
+      },
+      {
+        "formZh": "把某物迅速而用力地插入、浸入或放進另一物中",
+        "formEn": "plunge something in; plunge something into something",
+        "exampleZh": "把水煮沸,然後迅速把蔬菜放進去。",
+        "exampleEn": "Bring the water to the boil and plunge the vegetables in.",
+        "highlight": "plunge the vegetables in"
+      },
+      {
+        "formZh": "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+        "formEn": "plunge into something; plunge somebody/something into something",
+        "exampleZh": "停電令整條街突然陷入黑暗。",
+        "exampleEn": "The power cut plunged the street into darkness.",
+        "highlight": "plunged the street into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "猛地跳入或跌入水中",
+      "titleEn": "plunge in; plunge into something",
+      "formula": "plunge in; plunge into something",
+      "highlight": "plunge in; plunge into something",
+      "descriptionZh": "猛地跳入或跌入水中",
+      "descriptionEn": "The swimmers plunged into the pool.",
+      "examples": [
+        {
+          "en": "The swimmers plunged into the pool.",
+          "zh": "泳手們猛地跳進泳池。",
+          "highlight": "plunged into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某物迅速而用力地插入、浸入或放進另一物中",
+      "titleEn": "plunge something in; plunge something into something",
+      "formula": "plunge something in; plunge something into something",
+      "highlight": "plunge something in; plunge something into something",
+      "descriptionZh": "把某物迅速而用力地插入、浸入或放進另一物中",
+      "descriptionEn": "Bring the water to the boil and plunge the vegetables in.",
+      "examples": [
+        {
+          "en": "Bring the water to the boil and plunge the vegetables in.",
+          "zh": "把水煮沸,然後迅速把蔬菜放進去。",
+          "highlight": "plunge the vegetables in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+      "titleEn": "plunge into something; plunge somebody/something into something",
+      "formula": "plunge into something; plunge somebody/something into something",
+      "highlight": "plunge into something; plunge somebody/something into something",
+      "descriptionZh": "突然陷入某種不愉快的情況;使某人或某事物突然陷入其中",
+      "descriptionEn": "The power cut plunged the street into darkness.",
+      "examples": [
+        {
+          "en": "The power cut plunged the street into darkness.",
+          "zh": "停電令整條街突然陷入黑暗。",
+          "highlight": "plunged the street into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述突然進入水中的動作",
+      "titleEn": "Describe sudden movement into water",
+      "zh": "plunge in 和 plunge into the water 可以表示迅速而有力地跳入或跌入水中。",
+      "en": "Plunge in and plunge into the water show a quick and forceful jump or fall."
+    },
+    {
+      "titleZh": "描述迅速處理物件的動作",
+      "titleEn": "Describe quick actions with objects",
+      "zh": "你可以使用 PLUNGE 描述把食物、工具或其他物件迅速放進水、顏料或其他物料中。",
+      "en": "You can use PLUNGE when food, tools or other objects are quickly pushed or placed into water, paint or another material."
+    },
+    {
+      "titleZh": "談論突然出現的困境",
+      "titleEn": "Talk about sudden difficult situations",
+      "zh": "plunge into debt、crisis 或 chaos 可以表示某人、地方或機構突然陷入困難。",
+      "en": "Plunge into debt, crisis or chaos shows that a person, place or organisation enters a difficult situation very quickly."
+    },
+    {
+      "titleZh": "清楚說明突然轉變的原因",
+      "titleEn": "Show what caused a sudden change",
+      "zh": "The town plunged into darkness 描述發生了甚麼事;The power cut plunged the town intodarkness 則同時說明事情的原因。",
+      "en": "The town plunged into darkness describes what happened. The power cut plunged the town into darkness also explains what caused it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述突然進入水中的動作",
+      "描述迅速處理物件的動作",
+      "談論突然出現的困境",
+      "清楚說明突然轉變的原因"
+    ],
+    "contextsEn": [
+      "Describe sudden movement into water",
+      "Describe quick actions with objects",
+      "Talk about sudden difficult situations",
+      "Show what caused a sudden change"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述突然進入水中的動作",
+        "titleEn": "Describe sudden movement into water",
+        "zh": "plunge in 和 plunge into the water 可以表示迅速而有力地跳入或跌入水中。",
+        "en": "Plunge in and plunge into the water show a quick and forceful jump or fall.",
+        "examples": [
+          {
+            "en": "The swimmers plunged into the pool.",
+            "zh": "泳手們猛地跳進泳池。",
+            "highlight": "plunged into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迅速處理物件的動作",
+        "titleEn": "Describe quick actions with objects",
+        "zh": "你可以使用 PLUNGE 描述把食物、工具或其他物件迅速放進水、顏料或其他物料中。",
+        "en": "You can use PLUNGE when food, tools or other objects are quickly pushed or placed into water, paint or another material.",
+        "examples": [
+          {
+            "en": "Bring the water to the boil and plunge the vegetables in.",
+            "zh": "把水煮沸,然後迅速把蔬菜放進去。",
+            "highlight": "plunge the vegetables in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論突然出現的困境",
+        "titleEn": "Talk about sudden difficult situations",
+        "zh": "plunge into debt、crisis 或 chaos 可以表示某人、地方或機構突然陷入困難。",
+        "en": "Plunge into debt, crisis or chaos shows that a person, place or organisation enters a difficult situation very quickly.",
+        "examples": [
+          {
+            "en": "The power cut plunged the street into darkness.",
+            "zh": "停電令整條街突然陷入黑暗。",
+            "highlight": "plunged the street into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明突然轉變的原因",
+        "titleEn": "Show what caused a sudden change",
+        "zh": "The town plunged into darkness 描述發生了甚麼事;The power cut plunged the town intodarkness 則同時說明事情的原因。",
+        "en": "The town plunged into darkness describes what happened. The power cut plunged the town into darkness also explains what caused it.",
+        "examples": [
+          {
+            "en": "The swimmers plunged into the pool.",
+            "zh": "泳手們猛地跳進泳池。",
+            "highlight": "plunged into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PLUNGE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PLUNGE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PLUNGE 片語動詞。",
+      "en": "Read the whole sentence and choose the PLUNGE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "請留意三個不同意思:人猛地跳進水中、把物件迅速而用力地放進另一物中,以及突然陷入或使某事物陷入不愉快的情況。",
+      "titleEn": "Notice the three different ideas: The swimmers plunged into the pool.",
+      "zh": "請留意三個不同意思:人猛地跳進水中、把物件迅速而用力地放進另一物中,以及突然陷入或使某事物陷入不愉快的情況。",
+      "en": "Notice the three different ideas: The swimmers plunged into the pool. The cook plunged the vegetables into cold water. The power cut plunged the street into darkness."
+    },
+    {
+      "titleZh": "如果句中已清楚指出位置,可以使用 in;如果要說明進入甚麼地方或情況,則使用 into。",
+      "titleEn": "Use in when the place is already clear.",
+      "zh": "如果句中已清楚指出位置,可以使用 in;如果要說明進入甚麼地方或情況,則使用 into。",
+      "en": "Use in when the place is already clear. Use into when the sentence names the place or situation: The water is ready. Plunge the vegetables in. Plunge the vegetables into the water."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PLUNGE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PLUNGE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PLUNGE 動詞片語句子改寫練習",
+    "titleEn": "PLUNGE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PLUNGE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PLUNGE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-283-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Leo jumped forcefully into the pool as soon as the gate opened.",
+      "promptZh": "閘門一打開,里奧便猛地跳進泳池。",
+      "starter": "Leo",
+      "answer": "Leo plunged into the pool as soon as the gate opened.",
+      "answerZh": "閘門一打開,里奧便猛地跳進泳池。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入或跌入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The power cut suddenly made the whole street dark.",
+      "promptZh": "停電令整條街突然陷入黑暗。",
+      "starter": "The",
+      "answer": "The power cut plunged the whole street into darkness.",
+      "answerZh": "停電令整條街突然陷入黑暗。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "使某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Bring the water to the boil and push the beans quickly into it.",
+      "promptZh": "把水煮沸,然後迅速把豆放進去。",
+      "starter": "Bring",
+      "answer": "Bring the water to the boil and plunge the beans in.",
+      "answerZh": "把水煮沸,然後迅速把豆放進去。",
+      "highlight": "plunge",
+      "targetForm": "plunge something in",
+      "targetMeaningZh": "迅速而用力地把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-283-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Without waiting, the children jumped into the water.",
+      "promptZh": "孩子們沒有等待,便跳進水中。",
+      "starter": "Without",
+      "answer": "Without waiting, the children plunged in.",
+      "answerZh": "孩子們沒有等待,便跳進水中。",
+      "highlight": "plunged in",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "She pushed the spoon quickly and firmly into the thick ice cream.",
+      "promptZh": "她迅速而用力地把匙羹插進濃稠的雪糕中。",
+      "starter": "She",
+      "answer": "She plunged the spoon into the thick ice cream.",
+      "answerZh": "她迅速而用力地把匙羹插進濃稠的雪糕中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速而用力地把某物插進另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "After losing his job, Ben suddenly fell into debt.",
+      "promptZh": "失去工作後,賓突然負債。",
+      "starter": "After",
+      "answer": "After losing his job, Ben plunged into debt.",
+      "answerZh": "失去工作後,賓突然負債。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "One brave swimmer jumped forcefully into the cold sea.",
+      "promptZh": "一名勇敢的泳手猛地跳進冰冷的海水中。",
+      "starter": "One",
+      "answer": "One brave swimmer plunged into the cold sea.",
+      "answerZh": "一名勇敢的泳手猛地跳進冰冷的海水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The sudden change made the whole class confused.",
+      "promptZh": "這項突然的改動令全班陷入混亂。",
+      "starter": "The",
+      "answer": "The sudden change plunged the whole class into confusion.",
+      "answerZh": "這項突然的改動令全班陷入混亂。",
+      "highlight": "plunged",
+      "targetForm": "plunge somebody/something into something",
+      "targetMeaningZh": "使某人或某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The dye is ready, so push the cloth quickly into it.",
+      "promptZh": "染料已準備好,所以迅速把布放進去。",
+      "starter": "The",
+      "answer": "The dye is ready, so plunge the cloth in.",
+      "answerZh": "染料已準備好,所以迅速把布放進去。",
+      "highlight": "plunge",
+      "targetForm": "plunge something in",
+      "targetMeaningZh": "迅速而用力地把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-283-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "When the whistle blew, everyone jumped into the water.",
+      "promptZh": "哨子一響,所有人都跳進水中。",
+      "starter": "When",
+      "answer": "When the whistle blew, everyone plunged in.",
+      "answerZh": "哨子一響,所有人都跳進水中。",
+      "highlight": "plunged in",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ava is quickly putting the vegetables into cold water now.",
+      "promptZh": "艾娃現在正迅速把蔬菜放進冷水中。",
+      "starter": "Ava",
+      "answer": "Ava is plunging the vegetables into cold water now.",
+      "answerZh": "艾娃現在正迅速把蔬菜放進冷水中。",
+      "highlight": "plunging",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Several boys have already jumped forcefully into the lake.",
+      "promptZh": "幾名男孩已經猛地跳進湖中。",
+      "starter": "Several",
+      "answer": "Several boys have already plunged into the lake.",
+      "answerZh": "幾名男孩已經猛地跳進湖中。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The town may suddenly enter a serious crisis if the factory closes.",
+      "promptZh": "如果工廠關閉,這個小鎮可能會突然陷入嚴重危機。",
+      "starter": "The",
+      "answer": "The town may plunge into a serious crisis if the factory closes.",
+      "answerZh": "如果工廠關閉,這個小鎮可能會突然陷入嚴重危機。",
+      "highlight": "plunge into",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The bowl of cold water was ready. Did the chef put the noodles into it quickly after cooking them?",
+      "promptZh": "那碗冷水已準備好。廚師把麵條煮好後,有沒有迅速放進去?",
+      "starter": "The",
+      "answer": "The bowl of cold water was ready. Did the chef plunge the noodles in after cooking them?",
+      "answerZh": "那碗冷水已準備好。廚師把麵條煮好後,有沒有迅速放進去?",
+      "highlight": "plunge",
+      "targetForm": "plunge something in",
+      "targetMeaningZh": "迅速把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-283-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The news has suddenly made him deeply sad.",
+      "promptZh": "這個消息令他突然陷入深深的悲傷。",
+      "starter": "The",
+      "answer": "The news has plunged him into deep sadness.",
+      "answerZh": "這個消息令他突然陷入深深的悲傷。",
+      "highlight": "plunged",
+      "targetForm": "plunge somebody into something",
+      "targetMeaningZh": "使某人突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "You should not jump forcefully into the river here.",
+      "promptZh": "你不應在這裏猛地跳進河中。",
+      "starter": "You",
+      "answer": "You should not plunge into the river here.",
+      "answerZh": "你不應在這裏猛地跳進河中。",
+      "highlight": "plunge",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We will push the bottles quickly into icy water after lunch.",
+      "promptZh": "午飯後,我們會迅速把瓶子放進冰水中。",
+      "starter": "We",
+      "answer": "We will plunge the bottles into icy water after lunch.",
+      "answerZh": "午飯後,我們會迅速把瓶子放進冰水中。",
+      "highlight": "plunge",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "After the computer system failed, the office suddenly became completely disorganised.",
+      "promptZh": "電腦系統故障後,辦公室突然陷入一片混亂。",
+      "starter": "After",
+      "answer": "After the computer system failed, the office plunged into chaos.",
+      "answerZh": "電腦系統故障後,辦公室突然陷入一片混亂。",
+      "highlight": "plunged into chaos",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "He quickly pushed the thermometer into the warm water.",
+      "promptZh": "他迅速把溫度計插進溫水中。",
+      "starter": "He",
+      "answer": "He quickly plunged the thermometer into the warm water.",
+      "answerZh": "他迅速把溫度計插進溫水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物插入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Has Eva ever jumped into the sea from a boat?",
+      "promptZh": "伊娃曾否從船上跳進海中?",
+      "starter": "Has",
+      "answer": "Has Eva ever plunged into the sea from a boat?",
+      "answerZh": "伊娃曾否從船上跳進海中?",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The storm caused a power failure and suddenly made the village dark.",
+      "promptZh": "暴風雨引致停電,令村莊突然陷入黑暗。",
+      "starter": "The",
+      "answer": "The storm plunged the village into darkness.",
+      "answerZh": "暴風雨令村莊突然陷入黑暗。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "使某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "After heating it, the teacher quickly pushed the metal tool into cold water.",
+      "promptZh": "老師把金屬工具加熱後,迅速將它放進冷水中。",
+      "starter": "After",
+      "answer": "After heating it, the teacher plunged the metal tool into cold water.",
+      "answerZh": "老師把金屬工具加熱後,迅速將它放進冷水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The dog slipped from the side of the river and fell into the water with force.",
+      "promptZh": "那隻狗從河邊滑倒,猛然跌進水中。",
+      "starter": "The",
+      "answer": "The dog slipped from the side of the river and plunged into the water.",
+      "answerZh": "那隻狗從河邊滑倒,猛然跌進水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跌入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Her family suddenly became very afraid when she did not return home.",
+      "promptZh": "她沒有回家,令家人突然陷入恐懼。",
+      "starter": "Her",
+      "answer": "Her family was plunged into fear when she did not return home.",
+      "answerZh": "她沒有回家,令家人突然陷入恐懼。",
+      "highlight": "was plunged into fear",
+      "targetForm": "plunge somebody into something",
+      "targetMeaningZh": "使某人突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "After taking a breath, Nora jumped in and swam across the pool.",
+      "promptZh": "諾拉吸了一口氣後跳進水中,游過泳池。",
+      "starter": "After",
+      "answer": "After taking a breath, Nora plunged in and swam across the pool.",
+      "answerZh": "諾拉吸了一口氣後跳進水中,游過泳池。",
+      "highlight": "plunged",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The brush was dry, so he pushed it quickly into the paint.",
+      "promptZh": "畫筆很乾,所以他迅速把它插進顏料中。",
+      "starter": "The",
+      "answer": "The brush was dry, so he plunged it into the paint.",
+      "answerZh": "畫筆很乾,所以他迅速把它插進顏料中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物插進另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "One wrong message could suddenly make the whole team panic.",
+      "promptZh": "一個錯誤訊息可能令整個團隊突然陷入恐慌。",
+      "starter": "One",
+      "answer": "One wrong message could plunge the whole team into panic.",
+      "answerZh": "一個錯誤訊息可能令整個團隊突然陷入恐慌。",
+      "highlight": "plunge",
+      "targetForm": "plunge somebody/something into something",
+      "targetMeaningZh": "使某人或某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Holding the handle, Priya pushed the net quickly into the water.",
+      "promptZh": "普里雅握着手柄,迅速把網放進水中。",
+      "starter": "Holding",
+      "answer": "Holding the handle, Priya plunged the net into the water.",
+      "answerZh": "普里雅握着手柄,迅速把網放進水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Why did the player jump forcefully into the muddy pond?",
+      "promptZh": "那名球員為何猛地跳進泥濘的池塘?",
+      "starter": "Why",
+      "answer": "Why did the player plunge into the muddy pond?",
+      "answerZh": "那名球員為何猛地跳進泥濘的池塘?",
+      "highlight": "plunge",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The shop had fallen into serious debt before the owner asked for help.",
+      "promptZh": "店主求助前,店舖已陷入嚴重債務。",
+      "starter": "The",
+      "answer": "The shop had plunged into serious debt before the owner asked for help.",
+      "answerZh": "店主求助前,店舖已陷入嚴重債務。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Rather than testing the water first, Omar jumped straight into it.",
+      "promptZh": "奧馬沒有先試水溫,便直接跳進水中。",
+      "starter": "Rather",
+      "answer": "Rather than testing the water first, Omar plunged straight in.",
+      "answerZh": "奧馬沒有先試水溫,便直接跳進水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The scientist pushed the hot glass quickly into cold water, and it cracked.",
+      "promptZh": "科學家迅速把熱玻璃放進冷水中,玻璃隨即裂開。",
+      "starter": "The",
+      "answer": "The scientist plunged the hot glass into cold water, and it cracked.",
+      "answerZh": "科學家迅速把熱玻璃放進冷水中,玻璃隨即裂開。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "A broken cable suddenly made the station dark.",
+      "promptZh": "一條損壞的電線令車站突然陷入黑暗。",
+      "starter": "A",
+      "answer": "A broken cable plunged the station into darkness.",
+      "answerZh": "一條損壞的電線令車站突然陷入黑暗。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "使某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The coach told the swimmers not to jump forcefully into the shallow end.",
+      "promptZh": "教練叫泳手不要猛地跳進淺水區。",
+      "starter": "The",
+      "answer": "The coach told the swimmers not to plunge into the shallow end.",
+      "answerZh": "教練叫泳手不要猛地跳進淺水區。",
+      "highlight": "plunge",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Without a clear plan, the meeting suddenly became completely disorganised.",
+      "promptZh": "由於沒有清晰計劃,會議突然陷入一片混亂。",
+      "starter": "Without",
+      "answer": "Without a clear plan, the meeting plunged into chaos.",
+      "answerZh": "由於沒有清晰計劃,會議突然陷入一片混亂。",
+      "highlight": "plunged into chaos",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The paint tin was open. Hana pushed the wooden stick quickly into it.",
+      "promptZh": "油漆罐已打開。哈娜迅速把木棒插進去。",
+      "starter": "The",
+      "answer": "The paint tin was open. Hana plunged the wooden stick in.",
+      "answerZh": "油漆罐已打開。哈娜迅速把木棒插進去。",
+      "highlight": "plunged",
+      "targetForm": "plunge something in",
+      "targetMeaningZh": "迅速而用力地把某物插進去"
+    },
+    {
+      "id": "phrasal-verb-283-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "As soon as the rain stopped, Kai ran to the pool and jumped in.",
+      "promptZh": "雨一停,啟便跑到泳池並跳進水中。",
+      "starter": "As",
+      "answer": "As soon as the rain stopped, Kai ran to the pool and plunged in.",
+      "answerZh": "雨一停,啟便跑到泳池並跳進水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The worker pushed the post deep into the soft ground with one strong movement.",
+      "promptZh": "工人一下用力把柱子深深插進鬆軟的地面。",
+      "starter": "The",
+      "answer": "The worker plunged the post deep into the soft ground with one strong movement.",
+      "answerZh": "工人一下用力把柱子深深插進鬆軟的地面。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速而用力地把某物插入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The sudden announcement made both teams confused.",
+      "promptZh": "這項突然的公布令兩隊都陷入混亂。",
+      "starter": "The",
+      "answer": "The sudden announcement plunged both teams into confusion.",
+      "answerZh": "這項突然的公布令兩隊都陷入混亂。",
+      "highlight": "plunged",
+      "targetForm": "plunge somebody/something into something",
+      "targetMeaningZh": "使某人或某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Although the water looked cold, the first swimmer jumped into it without hesitation.",
+      "promptZh": "雖然水看來很冷,但第一名泳手毫不猶豫地跳了進去。",
+      "starter": "Although",
+      "answer": "Although the water looked cold, the first swimmer plunged into it without hesitation.",
+      "answerZh": "雖然水看來很冷,但第一名泳手毫不猶豫地跳了進去。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "To cool the cooked eggs quickly, Sara pushed them into a bowl of icy water.",
+      "promptZh": "為了迅速冷卻熟蛋,莎拉把它們放進一碗冰水中。",
+      "starter": "To",
+      "answer": "To cool the cooked eggs quickly, Sara plunged them into a bowl of icy water.",
+      "answerZh": "為了迅速冷卻熟蛋,莎拉把它們放進一碗冰水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "When the lights failed during the show, the theatre suddenly became completely dark.",
+      "promptZh": "表演期間燈光故障,劇院突然陷入完全黑暗。",
+      "starter": "When",
+      "answer": "When the lights failed during the show, the theatre was plunged into complete darkness.",
+      "answerZh": "表演期間燈光故障,劇院突然陷入完全黑暗。",
+      "highlight": "was plunged into complete darkness",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "使某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "By the time we reached the beach, two friends had already jumped into the waves.",
+      "promptZh": "我們到達海灘時,兩名朋友已經跳進海浪中。",
+      "starter": "By",
+      "answer": "By the time we reached the beach, two friends had already plunged into the waves.",
+      "answerZh": "我們到達海灘時,兩名朋友已經跳進海浪中。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The mixture had become thick, so the baker pushed the wooden spoon quickly into it and stirred hard.",
+      "promptZh": "混合物變得濃稠,所以麵包師迅速把木匙插進去並用力攪拌。",
+      "starter": "The",
+      "answer": "The mixture had become thick, so the baker plunged the wooden spoon into it and stirred hard.",
+      "answerZh": "混合物變得濃稠,所以麵包師迅速把木匙插進去並用力攪拌。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速而用力地把某物插入另一物中"
+    },
+    {
+      "id": "phrasal-verb-283-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "If the lifeguard says the water is safe, we can jump in together.",
+      "promptZh": "如果救生員說水域安全,我們可以一起跳進去。",
+      "starter": "If",
+      "answer": "If the lifeguard says the water is safe, we can plunge in together.",
+      "answerZh": "如果救生員說水域安全,我們可以一起跳進去。",
+      "highlight": "plunge",
+      "targetForm": "plunge in",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "One careless decision may suddenly put the club in serious debt.",
+      "promptZh": "一個粗心的決定可能令會所突然陷入嚴重債務。",
+      "starter": "One",
+      "answer": "One careless decision may plunge the club into serious debt.",
+      "answerZh": "一個粗心的決定可能令會所突然陷入嚴重債務。",
+      "highlight": "plunge",
+      "targetForm": "plunge somebody/something into something",
+      "targetMeaningZh": "使某人或某事物突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The pot was boiling. Rather than lowering the basket slowly, the cook pushed it straight into the water.",
+      "promptZh": "鍋裏的水正在沸騰。廚師沒有慢慢放下籃子,而是直接把它推進水中。",
+      "starter": "The",
+      "answer": "The pot was boiling. Rather than lowering the basket slowly, the cook plunged it straight in.",
+      "answerZh": "鍋裏的水正在沸騰。廚師沒有慢慢放下籃子,而是直接把它放進水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge something in",
+      "targetMeaningZh": "迅速而用力地把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-283-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "After losing its main customer, the small company had suddenly entered a crisis.",
+      "promptZh": "失去主要客戶後,這間小公司突然陷入危機。",
+      "starter": "After",
+      "answer": "After losing its main customer, the small company had plunged into crisis.",
+      "answerZh": "失去主要客戶後,這間小公司突然陷入危機。",
+      "highlight": "plunged into",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "突然陷入不愉快的情況"
+    },
+    {
+      "id": "phrasal-verb-283-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The diver checked the depth, took a breath and jumped into the clear water below.",
+      "promptZh": "潛水員檢查水深、吸了一口氣,然後跳進下方清澈的水中。",
+      "starter": "The",
+      "answer": "The diver checked the depth, took a breath and plunged into the clear water below.",
+      "answerZh": "潛水員檢查水深、吸了一口氣,然後跳進下方清澈的水中。",
+      "highlight": "plunged",
+      "targetForm": "plunge into something",
+      "targetMeaningZh": "猛地跳入水中"
+    },
+    {
+      "id": "phrasal-verb-283-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "When the timer rang, he quickly pushed the cooked pasta into cold water to stop it cooking.",
+      "promptZh": "計時器響起時,他迅速把煮熟的意粉放進冷水中,以停止繼續加熱。",
+      "starter": "When",
+      "answer": "When the timer rang, he plunged the cooked pasta into cold water to stop it cooking.",
+      "answerZh": "計時器響起時,他迅速把煮熟的意粉放進冷水中,以停止繼續加熱。",
+      "highlight": "plunged",
+      "targetForm": "plunge something into something",
+      "targetMeaningZh": "迅速把某物浸入另一物中"
+    }
+  ]
+}

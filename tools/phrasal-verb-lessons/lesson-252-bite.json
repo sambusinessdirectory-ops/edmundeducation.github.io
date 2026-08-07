@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-252",
+  "order": 252,
+  "slug": "bite",
+  "version": "1",
+  "title": "BITE 動詞片語",
+  "titleEn": "Bite",
+  "titleZh": "BITE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 237 - BITE.pdf",
+    "sourceNumber": 237,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BITE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BITE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BITE",
+      "highlight": "BITE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The dog bit at the boy’s hand.",
+      "zh": "那隻狗咬向男孩的手。",
+      "highlight": "bit at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "If you criticise him, he’ll bite back.",
+      "zh": "如果你批評他,他便會憤怒地反駁。",
+      "highlight": "bite back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The collar bit into his neck.",
+      "zh": "衣領緊緊壓着他的頸部,令他感到疼痛。",
+      "highlight": "bit into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "嘗試咬向某物,通常未必真的咬中；受到批評或挑釁時,憤怒或尖銳地反駁；緊緊壓進身體某部位,令人感到疼痛；強忍眼淚、說話、笑聲或其他反應；用牙齒咬下一部分或把某物咬斷",
+    "en": "bite at something; bite back / bite back at somebody or something; bite into something; bite something back; bite something off",
+    "naturalZh": [
+      "嘗試咬向某物,通常未必真的咬中",
+      "受到批評或挑釁時,憤怒或尖銳地反駁",
+      "緊緊壓進身體某部位,令人感到疼痛",
+      "強忍眼淚、說話、笑聲或其他反應",
+      "用牙齒咬下一部分或把某物咬斷"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bite at something",
+      "titleZh": "嘗試咬向某物,通常未必真的咬中",
+      "titleEn": "bite at something",
+      "descriptionZh": "嘗試咬向某物,通常未必真的咬中",
+      "descriptionEn": "The dog bit at the boy’s hand.",
+      "examples": [
+        {
+          "en": "The dog bit at the boy’s hand.",
+          "zh": "那隻狗咬向男孩的手。",
+          "highlight": "bit at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bite back / bite back at somebody or something",
+      "titleZh": "受到批評或挑釁時,憤怒或尖銳地反駁",
+      "titleEn": "bite back / bite back at somebody or something",
+      "descriptionZh": "受到批評或挑釁時,憤怒或尖銳地反駁",
+      "descriptionEn": "If you criticise him, he’ll bite back.",
+      "examples": [
+        {
+          "en": "If you criticise him, he’ll bite back.",
+          "zh": "如果你批評他,他便會憤怒地反駁。",
+          "highlight": "bite back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bite into something",
+      "titleZh": "緊緊壓進身體某部位,令人感到疼痛",
+      "titleEn": "bite into something",
+      "descriptionZh": "緊緊壓進身體某部位,令人感到疼痛",
+      "descriptionEn": "The collar bit into his neck.",
+      "examples": [
+        {
+          "en": "The collar bit into his neck.",
+          "zh": "衣領緊緊壓着他的頸部,令他感到疼痛。",
+          "highlight": "bit into"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bite something back",
+      "titleZh": "強忍眼淚、說話、笑聲或其他反應",
+      "titleEn": "bite something back",
+      "descriptionZh": "強忍眼淚、說話、笑聲或其他反應",
+      "descriptionEn": "She struggled to bite back the tears of disappointment.",
+      "examples": [
+        {
+          "en": "She struggled to bite back the tears of disappointment.",
+          "zh": "她努力忍住失望的淚水。",
+          "highlight": "bite back"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bite something off",
+      "titleZh": "用牙齒咬下一部分或把某物咬斷",
+      "titleEn": "bite something off",
+      "descriptionZh": "用牙齒咬下一部分或把某物咬斷",
+      "descriptionEn": "She bit off a piece of chocolate.",
+      "examples": [
+        {
+          "en": "She bit off a piece of chocolate.",
+          "zh": "她咬下一塊朱古力。",
+          "highlight": "bit off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BITE 片語動詞的實際用途",
+    "labelEn": "BITE Phrasal Verbs in Use",
+    "summaryZh": "bite at 可以描述動物咬向手、玩具、球或其他移動中的東西,但不一定真的咬中。；bite into 可以描述緊身衣領、繩子、肩帶或手挽緊緊壓着身體,令人感到疼痛。；bite back 表示憤怒地反駁;bite something back 則表示忍住眼淚、說話或其他反應。；bite something off 可以描述用牙齒咬下食物、線頭、膠牌或其他細小物件。",
+    "summaryEn": "Bite at helps you describe an animal snapping at a hand, toy, ball or another moving object without necessarily making contact. Bite into can describe a tight collar, rope, strap or handle pressing painfully against the body. Bite back describes an angry reply, while bite something back describes stopping tears, words or another reaction. Bite something off is useful when talking about food, thread, tags and other small things removed with the teeth.",
+    "contextsZh": [
+      "描述動物嘗試咬東西但未必成功",
+      "清楚描述物件造成的疼痛壓力",
+      "談論憤怒反駁和自我控制",
+      "描述用牙齒咬下一部分"
+    ],
+    "contextsEn": [
+      "Describe an animal trying to bite without succeeding",
+      "Describe painful pressure clearly",
+      "Talk about angry replies and self-control",
+      "Describe removing something with your teeth"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BITE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BITE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bite at something",
+    "fixedHighlight": "bite at something",
+    "fixedZh": "閱讀整句,選出意思相同的 BITE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BITE expression that gives the same meaning.",
+    "correct": "bit at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；bite back 本身已可構成完整意思。at somebody 或 something 只說明尖銳回應的對象。；bite back 表示憤怒或尖銳地反駁;bite something back 則表示強忍某種反應。在 BITE ... BACK或 BITE ... OFF 中使用 it 時,把 it 放在中間。",
+    "variableEn": "Keep the same people, things, time and meaning. Bite back can be complete by itself. At somebody or something only tells us who or what receives the angry reply. bite back bite back at the reporter bite back at the criticism Bite back and bite something back have different meanings: bite back = reply angrily bite back the tears = stop yourself from crying When using it with BITE... BACK or BITE... OFF, place it in the middle: bite it back bite it off",
+    "variableItemsZh": [
+      "bite at something",
+      "bite back / bite back at somebody or something",
+      "bite into something",
+      "bite something back",
+      "bite something off"
+    ],
+    "variableItemsEn": [
+      "bite at something",
+      "bite back / bite back at somebody or something",
+      "bite into something",
+      "bite something back",
+      "bite something off"
+    ],
+    "forms": [
+      {
+        "formZh": "嘗試咬向某物,通常未必真的咬中",
+        "formEn": "bite at something",
+        "exampleZh": "那隻狗咬向男孩的手。",
+        "exampleEn": "The dog bit at the boy’s hand.",
+        "highlight": "bit at"
+      },
+      {
+        "formZh": "受到批評或挑釁時,憤怒或尖銳地反駁",
+        "formEn": "bite back / bite back at somebody or something",
+        "exampleZh": "如果你批評他,他便會憤怒地反駁。",
+        "exampleEn": "If you criticise him, he’ll bite back.",
+        "highlight": "bite back"
+      },
+      {
+        "formZh": "緊緊壓進身體某部位,令人感到疼痛",
+        "formEn": "bite into something",
+        "exampleZh": "衣領緊緊壓着他的頸部,令他感到疼痛。",
+        "exampleEn": "The collar bit into his neck.",
+        "highlight": "bit into"
+      },
+      {
+        "formZh": "強忍眼淚、說話、笑聲或其他反應",
+        "formEn": "bite something back",
+        "exampleZh": "她努力忍住失望的淚水。",
+        "exampleEn": "She struggled to bite back the tears of disappointment.",
+        "highlight": "bite back"
+      },
+      {
+        "formZh": "用牙齒咬下一部分或把某物咬斷",
+        "formEn": "bite something off",
+        "exampleZh": "她咬下一塊朱古力。",
+        "exampleEn": "She bit off a piece of chocolate.",
+        "highlight": "bit off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "嘗試咬向某物,通常未必真的咬中",
+      "titleEn": "bite at something",
+      "formula": "bite at something",
+      "highlight": "bite at something",
+      "descriptionZh": "嘗試咬向某物,通常未必真的咬中",
+      "descriptionEn": "The dog bit at the boy’s hand.",
+      "examples": [
+        {
+          "en": "The dog bit at the boy’s hand.",
+          "zh": "那隻狗咬向男孩的手。",
+          "highlight": "bit at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "受到批評或挑釁時,憤怒或尖銳地反駁",
+      "titleEn": "bite back / bite back at somebody or something",
+      "formula": "bite back / bite back at somebody or something",
+      "highlight": "bite back / bite back at somebody or something",
+      "descriptionZh": "受到批評或挑釁時,憤怒或尖銳地反駁",
+      "descriptionEn": "If you criticise him, he’ll bite back.",
+      "examples": [
+        {
+          "en": "If you criticise him, he’ll bite back.",
+          "zh": "如果你批評他,他便會憤怒地反駁。",
+          "highlight": "bite back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "緊緊壓進身體某部位,令人感到疼痛",
+      "titleEn": "bite into something",
+      "formula": "bite into something",
+      "highlight": "bite into something",
+      "descriptionZh": "緊緊壓進身體某部位,令人感到疼痛",
+      "descriptionEn": "The collar bit into his neck.",
+      "examples": [
+        {
+          "en": "The collar bit into his neck.",
+          "zh": "衣領緊緊壓着他的頸部,令他感到疼痛。",
+          "highlight": "bit into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "強忍眼淚、說話、笑聲或其他反應",
+      "titleEn": "bite something back",
+      "formula": "bite something back",
+      "highlight": "bite something back",
+      "descriptionZh": "強忍眼淚、說話、笑聲或其他反應",
+      "descriptionEn": "She struggled to bite back the tears of disappointment.",
+      "examples": [
+        {
+          "en": "She struggled to bite back the tears of disappointment.",
+          "zh": "她努力忍住失望的淚水。",
+          "highlight": "bite back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "用牙齒咬下一部分或把某物咬斷",
+      "titleEn": "bite something off",
+      "formula": "bite something off",
+      "highlight": "bite something off",
+      "descriptionZh": "用牙齒咬下一部分或把某物咬斷",
+      "descriptionEn": "She bit off a piece of chocolate.",
+      "examples": [
+        {
+          "en": "She bit off a piece of chocolate.",
+          "zh": "她咬下一塊朱古力。",
+          "highlight": "bit off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述動物嘗試咬東西但未必成功",
+      "titleEn": "Describe an animal trying to bite without succeeding",
+      "zh": "bite at 可以描述動物咬向手、玩具、球或其他移動中的東西,但不一定真的咬中。",
+      "en": "Bite at helps you describe an animal snapping at a hand, toy, ball or another moving object without necessarily making contact."
+    },
+    {
+      "titleZh": "清楚描述物件造成的疼痛壓力",
+      "titleEn": "Describe painful pressure clearly",
+      "zh": "bite into 可以描述緊身衣領、繩子、肩帶或手挽緊緊壓着身體,令人感到疼痛。",
+      "en": "Bite into can describe a tight collar, rope, strap or handle pressing painfully against the body."
+    },
+    {
+      "titleZh": "談論憤怒反駁和自我控制",
+      "titleEn": "Talk about angry replies and self-control",
+      "zh": "bite back 表示憤怒地反駁;bite something back 則表示忍住眼淚、說話或其他反應。",
+      "en": "Bite back describes an angry reply, while bite something back describes stopping tears, words or another reaction."
+    },
+    {
+      "titleZh": "描述用牙齒咬下一部分",
+      "titleEn": "Describe removing something with your teeth",
+      "zh": "bite something off 可以描述用牙齒咬下食物、線頭、膠牌或其他細小物件。",
+      "en": "Bite something off is useful when talking about food, thread, tags and other small things removed with the teeth."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述動物嘗試咬東西但未必成功",
+      "清楚描述物件造成的疼痛壓力",
+      "談論憤怒反駁和自我控制",
+      "描述用牙齒咬下一部分"
+    ],
+    "contextsEn": [
+      "Describe an animal trying to bite without succeeding",
+      "Describe painful pressure clearly",
+      "Talk about angry replies and self-control",
+      "Describe removing something with your teeth"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述動物嘗試咬東西但未必成功",
+        "titleEn": "Describe an animal trying to bite without succeeding",
+        "zh": "bite at 可以描述動物咬向手、玩具、球或其他移動中的東西,但不一定真的咬中。",
+        "en": "Bite at helps you describe an animal snapping at a hand, toy, ball or another moving object without necessarily making contact.",
+        "examples": [
+          {
+            "en": "The dog bit at the boy’s hand.",
+            "zh": "那隻狗咬向男孩的手。",
+            "highlight": "bit at"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述物件造成的疼痛壓力",
+        "titleEn": "Describe painful pressure clearly",
+        "zh": "bite into 可以描述緊身衣領、繩子、肩帶或手挽緊緊壓着身體,令人感到疼痛。",
+        "en": "Bite into can describe a tight collar, rope, strap or handle pressing painfully against the body.",
+        "examples": [
+          {
+            "en": "If you criticise him, he’ll bite back.",
+            "zh": "如果你批評他,他便會憤怒地反駁。",
+            "highlight": "bite back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論憤怒反駁和自我控制",
+        "titleEn": "Talk about angry replies and self-control",
+        "zh": "bite back 表示憤怒地反駁;bite something back 則表示忍住眼淚、說話或其他反應。",
+        "en": "Bite back describes an angry reply, while bite something back describes stopping tears, words or another reaction.",
+        "examples": [
+          {
+            "en": "The collar bit into his neck.",
+            "zh": "衣領緊緊壓着他的頸部,令他感到疼痛。",
+            "highlight": "bit into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述用牙齒咬下一部分",
+        "titleEn": "Describe removing something with your teeth",
+        "zh": "bite something off 可以描述用牙齒咬下食物、線頭、膠牌或其他細小物件。",
+        "en": "Bite something off is useful when talking about food, thread, tags and other small things removed with the teeth.",
+        "examples": [
+          {
+            "en": "She struggled to bite back the tears of disappointment.",
+            "zh": "她努力忍住失望的淚水。",
+            "highlight": "bite back"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BITE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BITE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BITE 片語動詞。",
+      "en": "Read the whole sentence and choose the BITE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "bite back 本身已可構成完整意思。at somebody 或 something 只說明尖銳回應的對象。",
+      "titleEn": "Bite back can be complete by itself.",
+      "zh": "bite back 本身已可構成完整意思。at somebody 或 something 只說明尖銳回應的對象。",
+      "en": "Bite back can be complete by itself. At somebody or something only tells us who or what receives the angry reply. bite back bite back at the reporter bite back at the criticism"
+    },
+    {
+      "titleZh": "bite back 表示憤怒或尖銳地反駁;bite something back 則表示強忍某種反應。在 BITE ... BACK或 BITE ... OFF 中使用 it 時,把 it 放在中間。",
+      "titleEn": "Bite back and bite something back have different meanings: bite back = reply angrily bite back the tears = stop yourself from crying When using it with BITE.",
+      "zh": "bite back 表示憤怒或尖銳地反駁;bite something back 則表示強忍某種反應。在 BITE ... BACK或 BITE ... OFF 中使用 it 時,把 it 放在中間。",
+      "en": "Bite back and bite something back have different meanings: bite back = reply angrily bite back the tears = stop yourself from crying When using it with BITE... BACK or BITE... OFF, place it in the middle: bite it back bite it off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BITE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BITE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BITE 動詞片語句子改寫練習",
+    "titleEn": "BITE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BITE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BITE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-252-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The tight strap pressed painfully into his ankle.",
+      "promptZh": "那條緊身帶緊緊壓着他的腳眼,令他感到疼痛。",
+      "starter": "The",
+      "answer": "The tight strap bit into his ankle.",
+      "answerZh": "那條緊身帶緊緊壓着他的腳眼,令他感到疼痛。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The puppy tried to bite my hand when I took its toy.",
+      "promptZh": "我拿走小狗的玩具時,牠試圖咬我的手。",
+      "starter": "The",
+      "answer": "The puppy bit at my hand when I took its toy.",
+      "answerZh": "我拿走小狗的玩具時,牠咬向我的手。",
+      "highlight": "bit at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試咬向某物,通常未必咬中"
+    },
+    {
+      "id": "phrasal-verb-252-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "She tried not to cry after hearing the result.",
+      "promptZh": "她聽到結果後,努力忍住淚水。",
+      "starter": "She",
+      "answer": "She tried to bite back her tears after hearing the result.",
+      "answerZh": "她聽到結果後,努力忍住淚水。",
+      "highlight": "bite back her tears",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍眼淚或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "When people question his work, he answers angrily.",
+      "promptZh": "有人質疑他的工作時,他便會憤怒地反駁。",
+      "starter": "When",
+      "answer": "When people question his work, he bites back.",
+      "answerZh": "有人質疑他的工作時,他便會憤怒地反駁。",
+      "highlight": "bites back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The boy used his teeth to remove a piece of bread.",
+      "promptZh": "男孩用牙齒咬下一塊麵包。",
+      "starter": "The",
+      "answer": "The boy bit off a piece of bread.",
+      "answerZh": "男孩咬下一塊麵包。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The puppy kept trying to bite the moving shoelace.",
+      "promptZh": "小狗不停嘗試咬正在擺動的鞋帶。",
+      "starter": "The",
+      "answer": "The puppy kept biting at the moving shoelace.",
+      "answerZh": "小狗不停咬向正在擺動的鞋帶。",
+      "highlight": "biting at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ben replied angrily when the customer blamed him.",
+      "promptZh": "顧客責怪賓時,他憤怒地反駁。",
+      "starter": "Ben",
+      "answer": "Ben bit back when the customer blamed him.",
+      "answerZh": "顧客責怪賓時,他憤怒地反駁。",
+      "highlight": "bit back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The heavy bag straps pressed painfully into her shoulders.",
+      "promptZh": "沉重袋子的肩帶緊緊壓着她的雙肩,令她感到疼痛。",
+      "starter": "The",
+      "answer": "The heavy bag straps bit into her shoulders.",
+      "answerZh": "沉重袋子的肩帶緊緊壓着她的雙肩,令她感到疼痛。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "A horse tried to bite my sleeve as I walked past.",
+      "promptZh": "我經過時,一匹馬試圖咬我的衣袖。",
+      "starter": "A",
+      "answer": "A horse bit at my sleeve as I walked past.",
+      "answerZh": "我經過時,一匹馬咬向我的衣袖。",
+      "highlight": "bit at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Leo used his teeth to remove a corner of the sandwich.",
+      "promptZh": "里奧用牙齒咬下三文治的一角。",
+      "starter": "Leo",
+      "answer": "Leo bit off a corner of the sandwich.",
+      "answerZh": "里奧咬下三文治的一角。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The player answered the referee angrily.",
+      "promptZh": "球員憤怒地回應球證。",
+      "starter": "The",
+      "answer": "The player bit back at the referee.",
+      "answerZh": "球員憤怒地回應球證。",
+      "highlight": "bit back at",
+      "targetForm": "bite back at somebody",
+      "targetMeaningZh": "向某人憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I stopped myself from giving an angry reply.",
+      "promptZh": "我忍住了憤怒的回應。",
+      "starter": "I",
+      "answer": "I bit back an angry reply.",
+      "answerZh": "我忍住了憤怒的回應。",
+      "highlight": "bit back",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Eva is trying not to laugh during the serious speech.",
+      "promptZh": "伊娃在嚴肅的演說期間努力忍住笑聲。",
+      "starter": "Eva",
+      "answer": "Eva is biting back a laugh during the serious speech.",
+      "answerZh": "伊娃在嚴肅的演說期間正努力忍住笑聲。",
+      "highlight": "biting back a",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍笑聲或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The rope has pressed painfully into his wrists.",
+      "promptZh": "繩子一直緊緊壓着他的手腕,令他感到疼痛。",
+      "starter": "The",
+      "answer": "The rope has bitten into his wrists.",
+      "answerZh": "繩子一直緊緊壓着他的手腕,令他感到疼痛。",
+      "highlight": "bitten",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why was the dog repeatedly trying to bite the broom?",
+      "promptZh": "那隻狗為甚麼不停嘗試咬掃帚?",
+      "starter": "Why",
+      "answer": "Why was the dog repeatedly biting at the broom?",
+      "answerZh": "那隻狗為甚麼不停咬向掃帚?",
+      "highlight": "biting at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The child has used her teeth to remove one corner of the biscuit.",
+      "promptZh": "孩子已用牙齒咬下餅乾的一角。",
+      "starter": "The",
+      "answer": "The child has bitten one corner off the biscuit.",
+      "answerZh": "孩子已咬下餅乾的一角。",
+      "highlight": "bitten",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The manager may answer angrily if the report blames her.",
+      "promptZh": "如果報告責怪她,經理可能會憤怒地反駁。",
+      "starter": "The",
+      "answer": "The manager may bite back if the report blames her.",
+      "answerZh": "如果報告責怪她,經理可能會憤怒地反駁。",
+      "highlight": "bite back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "My watch strap is pressing too hard into my wrist.",
+      "promptZh": "我的手錶帶正緊緊壓着手腕,令我感到疼痛。",
+      "starter": "My",
+      "answer": "My watch strap is biting into my wrist.",
+      "answerZh": "我的手錶帶正緊緊壓着手腕,令我感到疼痛。",
+      "highlight": "biting",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "He had to stop himself from crying out when the nurse cleaned the cut.",
+      "promptZh": "護士清潔傷口時,他不得不忍住叫聲。",
+      "starter": "He",
+      "answer": "He had to bite back a cry when the nurse cleaned the cut.",
+      "answerZh": "護士清潔傷口時,他不得不忍住叫聲。",
+      "highlight": "bite back a cry",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍叫聲或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The fish did not try to bite the hook.",
+      "promptZh": "那條魚沒有嘗試咬魚鈎。",
+      "starter": "The",
+      "answer": "The fish did not bite at the hook.",
+      "answerZh": "那條魚沒有嘗試咬魚鈎。",
+      "highlight": "bite at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why are the thin handles pressing painfully into your fingers?",
+      "promptZh": "那些幼細的手挽為甚麼緊緊壓着你的手指,令你感到疼痛?",
+      "starter": "Why",
+      "answer": "Why are the thin handles biting into your fingers?",
+      "answerZh": "那些幼細的手挽為甚麼緊緊壓着你的手指,令你感到疼痛?",
+      "highlight": "biting",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will she answer angrily if they question her decision?",
+      "promptZh": "如果他們質疑她的決定,她會憤怒地反駁嗎?",
+      "starter": "Will",
+      "answer": "Will she bite back if they question her decision?",
+      "answerZh": "如果他們質疑她的決定,她會憤怒地反駁嗎?",
+      "highlight": "bite back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please use your teeth to remove the loose thread.",
+      "promptZh": "請用牙齒咬掉鬆脫的線頭。",
+      "starter": "Please",
+      "answer": "Please bite the loose thread off.",
+      "answerZh": "請用牙齒咬掉鬆脫的線頭。",
+      "highlight": "bite",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒把某物咬斷或咬掉"
+    },
+    {
+      "id": "phrasal-verb-252-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Nora was about to say some rude words, but stopped them before speaking.",
+      "promptZh": "諾拉正要說一些無禮的話,但在說出口前忍住了。",
+      "starter": "Nora",
+      "answer": "Nora was about to say some rude words, but she bit the words back.",
+      "answerZh": "諾拉正要說一些無禮的話,但在說出口前忍住了。",
+      "highlight": "she bit the words back",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話"
+    },
+    {
+      "id": "phrasal-verb-252-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The loose plastic tag was hanging from the shirt, so I removed it with my teeth.",
+      "promptZh": "鬆脫的膠牌吊在恤衫上,所以我用牙齒把它咬掉。",
+      "starter": "The",
+      "answer": "The loose plastic tag was hanging from the shirt, so I bit it off.",
+      "answerZh": "鬆脫的膠牌吊在恤衫上,所以我用牙齒把它咬掉。",
+      "highlight": "bit",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒把某物咬掉"
+    },
+    {
+      "id": "phrasal-verb-252-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The bad news brought tears to her eyes, but she stopped them from falling.",
+      "promptZh": "壞消息令她眼泛淚光,但她忍住了淚水。",
+      "starter": "The",
+      "answer": "The bad news brought tears to her eyes, but she bit back the tears.",
+      "answerZh": "壞消息令她眼泛淚光,但她忍住了淚水。",
+      "highlight": "bit back the tears",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍眼淚或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "To avoid an argument, the coach told Sam not to reply angrily to the other team.",
+      "promptZh": "為免發生爭執,教練叫森不要憤怒地回應對方球隊。",
+      "starter": "To",
+      "answer": "To avoid an argument, the coach told Sam not to bite back at the other team.",
+      "answerZh": "為免發生爭執,教練叫森不要憤怒地回應對方球隊。",
+      "highlight": "bite back at",
+      "targetForm": "bite back at somebody",
+      "targetMeaningZh": "向某人憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "All afternoon, the new shoes pressed painfully into my heels.",
+      "promptZh": "新鞋整個下午都緊緊壓着我的腳跟,令我感到疼痛。",
+      "starter": "All",
+      "answer": "All afternoon, the new shoes bit into my heels.",
+      "answerZh": "新鞋整個下午都緊緊壓着我的腳跟,令我感到疼痛。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "As the child moved the toy, the puppy repeatedly tried to bite it.",
+      "promptZh": "孩子移動玩具時,小狗不停嘗試咬它。",
+      "starter": "As",
+      "answer": "As the child moved the toy, the puppy kept biting at it.",
+      "answerZh": "孩子移動玩具時,小狗不停咬向它。",
+      "highlight": "kept biting at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "She removed a small piece of apple with her teeth before giving the rest to her brother.",
+      "promptZh": "她用牙齒咬下一小塊蘋果,然後把餘下的給弟弟。",
+      "starter": "She",
+      "answer": "She bit off a small piece of apple before giving the rest to her brother.",
+      "answerZh": "她咬下一小塊蘋果,然後把餘下的給弟弟。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "During the argument, he stopped himself from saying the cruel words.",
+      "promptZh": "爭論期間,他忍住了那些傷人的話。",
+      "starter": "During",
+      "answer": "During the argument, he bit back the cruel words.",
+      "answerZh": "爭論期間,他忍住了那些傷人的話。",
+      "highlight": "bit back",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話"
+    },
+    {
+      "id": "phrasal-verb-252-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Why did Eva reply so sharply to the reporter?",
+      "promptZh": "伊娃為甚麼如此尖銳地回應記者?",
+      "starter": "Why",
+      "answer": "Why did Eva bite back at the reporter?",
+      "answerZh": "伊娃為甚麼如此尖銳地回應記者?",
+      "highlight": "bite back at",
+      "targetForm": "bite back at somebody",
+      "targetMeaningZh": "向某人憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The boy was told not to remove the plastic cap with his teeth.",
+      "promptZh": "有人叫那個男孩不要用牙齒咬掉膠蓋。",
+      "starter": "The",
+      "answer": "The boy was told not to bite the plastic cap off.",
+      "answerZh": "有人叫那個男孩不要用牙齒咬掉膠蓋。",
+      "highlight": "bite",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒把某物咬掉"
+    },
+    {
+      "id": "phrasal-verb-252-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "While I carried the box, the thin string pressed painfully into my hands.",
+      "promptZh": "我搬箱子時,幼繩緊緊壓着我的雙手,令我感到疼痛。",
+      "starter": "While",
+      "answer": "While I carried the box, the thin string bit into my hands.",
+      "answerZh": "我搬箱子時,幼繩緊緊壓着我的雙手,令我感到疼痛。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The goose stretched its neck and tried to bite my bag.",
+      "promptZh": "那隻鵝伸長頸部,試圖咬我的袋。",
+      "starter": "The",
+      "answer": "The goose stretched its neck and bit at my bag.",
+      "answerZh": "那隻鵝伸長頸部,咬向我的袋。",
+      "highlight": "bit at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A scream rose in her throat, but she managed to stop it.",
+      "promptZh": "她幾乎尖叫起來,但最後忍住了。",
+      "starter": "A",
+      "answer": "A scream rose in her throat, but she managed to bite it back.",
+      "answerZh": "她幾乎尖叫起來,但最後忍住了。",
+      "highlight": "bite",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍叫聲或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The singer usually stays calm, but she answered angrily when the host called her lazy.",
+      "promptZh": "那名歌手通常保持冷靜,但主持人說她懶惰時,她憤怒地反駁。",
+      "starter": "The",
+      "answer": "The singer usually stays calm, but she bit back when the host called her lazy.",
+      "answerZh": "那名歌手通常保持冷靜,但主持人說她懶惰時,她憤怒地反駁。",
+      "highlight": "bit back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The seat belt became tighter and pressed painfully into his shoulder.",
+      "promptZh": "安全帶愈拉愈緊,緊緊壓着他的肩膀。",
+      "starter": "The",
+      "answer": "The seat belt became tighter and bit into his shoulder.",
+      "answerZh": "安全帶愈拉愈緊,緊緊壓着他的肩膀。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "With its teeth, the rabbit removed a large piece of carrot.",
+      "promptZh": "兔子用牙齒咬下一大塊甘筍。",
+      "starter": "With",
+      "answer": "With its teeth, the rabbit bit off a large piece of carrot.",
+      "answerZh": "兔子用牙齒咬下一大塊甘筍。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The dog missed the ball because it only tried to bite it as it passed.",
+      "promptZh": "那隻狗沒有咬中球,因為球經過時,牠只是嘗試咬它。",
+      "starter": "The",
+      "answer": "The dog missed the ball because it only bit at it as it passed.",
+      "answerZh": "那隻狗沒有咬中球,因為球經過時,牠只是咬向它。",
+      "highlight": "bit at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試咬向某物,通常未必咬中"
+    },
+    {
+      "id": "phrasal-verb-252-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Ava wanted to complain angrily, but she stopped the words before speaking.",
+      "promptZh": "艾娃想憤怒地投訴,但在說出口前忍住了那些話。",
+      "starter": "Ava",
+      "answer": "Ava wanted to complain angrily, but she bit the words back before speaking.",
+      "answerZh": "艾娃想憤怒地投訴,但在說出口前忍住了那些話。",
+      "highlight": "bit",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話"
+    },
+    {
+      "id": "phrasal-verb-252-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The backpack was too heavy, and its straps were pressing into both shoulders.",
+      "promptZh": "背囊太重,肩帶緊緊壓着雙肩。",
+      "starter": "The",
+      "answer": "The backpack was too heavy, and its straps were biting into both shoulders.",
+      "answerZh": "背囊太重,肩帶正緊緊壓着雙肩。",
+      "highlight": "biting",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The player usually stayed calm, but he answered the unfair criticism angrily.",
+      "promptZh": "那名球員通常保持冷靜,但他憤怒地回應不公平的批評。",
+      "starter": "The",
+      "answer": "The player usually stayed calm, but he bit back at the unfair criticism.",
+      "answerZh": "那名球員通常保持冷靜,但他憤怒地回應不公平的批評。",
+      "highlight": "bit back at",
+      "targetForm": "bite back at something",
+      "targetMeaningZh": "對某事憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Without using scissors, she removed the end of the thread with her teeth.",
+      "promptZh": "她沒有用剪刀,而是用牙齒咬掉線的一端。",
+      "starter": "Without",
+      "answer": "Without using scissors, she bit the end off the thread.",
+      "answerZh": "她沒有用剪刀,而是用牙齒咬掉線的一端。",
+      "highlight": "bit",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒把某物咬斷或咬掉"
+    },
+    {
+      "id": "phrasal-verb-252-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The helmet strap was so tight that it pressed painfully into the skin under her chin.",
+      "promptZh": "頭盔帶太緊,緊緊壓進她下巴下面的皮膚,令她感到疼痛。",
+      "starter": "The",
+      "answer": "The helmet strap was so tight that it bit into the skin under her chin.",
+      "answerZh": "頭盔帶太緊,緊緊壓進她下巴下面的皮膚,令她感到疼痛。",
+      "highlight": "bit",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After being blamed for the mistake, did the assistant reply angrily?",
+      "promptZh": "助手被指責犯錯後,是否憤怒地反駁?",
+      "starter": "After",
+      "answer": "After being blamed for the mistake, did the assistant bite back?",
+      "answerZh": "助手被指責犯錯後,是否憤怒地反駁?",
+      "highlight": "bite back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The cat did not catch the feather; it simply kept trying to bite it.",
+      "promptZh": "那隻貓沒有抓到羽毛,只是不停嘗試咬它。",
+      "starter": "The",
+      "answer": "The cat did not catch the feather; it simply kept biting at it.",
+      "answerZh": "那隻貓沒有抓到羽毛,只是不停咬向它。",
+      "highlight": "biting at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Seeing the broken gift, he nearly cried but stopped the tears from coming.",
+      "promptZh": "看到禮物破了,他幾乎哭起來,但努力忍住淚水。",
+      "starter": "Seeing",
+      "answer": "Seeing the broken gift, he nearly cried but bit back his tears.",
+      "answerZh": "看到禮物破了,他幾乎哭起來,但努力忍住淚水。",
+      "highlight": "bit back his",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "強忍眼淚或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the vet reached towards the frightened dog, it tried several times to bite her hand without making contact.",
+      "promptZh": "獸醫把手伸向受驚的狗時,牠多次試圖咬她的手,但沒有咬中。",
+      "starter": "When",
+      "answer": "When the vet reached towards the frightened dog, it bit at her hand several times without making contact.",
+      "answerZh": "獸醫把手伸向受驚的狗時,牠多次咬向她的手,但沒有咬中。",
+      "highlight": "bit at her hand",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "嘗試或反覆咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The bread was too large to eat neatly, so Ella removed a small piece with her teeth.",
+      "promptZh": "麵包太大,難以整齊地吃,所以埃拉用牙齒咬下一小塊。",
+      "starter": "The",
+      "answer": "The bread was too large to eat neatly, so Ella bit off a small piece.",
+      "answerZh": "麵包太大,難以整齊地吃,所以埃拉咬下一小塊。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I loosened the bag because its narrow strap had begun to press painfully into my shoulder.",
+      "promptZh": "我把袋子放鬆一點,因為幼細的肩帶已開始緊緊壓着我的肩膀,令我感到疼痛。",
+      "starter": "I",
+      "answer": "I loosened the bag because its narrow strap had begun to bite into my shoulder.",
+      "answerZh": "我把袋子放鬆一點,因為幼細的肩帶已開始緊緊壓着我的肩膀,令我感到疼痛。",
+      "highlight": "bite",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although the question was fair, Ben thought it was an attack and answered the interviewer angrily.",
+      "promptZh": "雖然問題很合理,但賓以為這是攻擊,於是憤怒地回應記者。",
+      "starter": "Although",
+      "answer": "Although the question was fair, Ben thought it was an attack and bit back at the interviewer.",
+      "answerZh": "雖然問題很合理,但賓以為這是攻擊,於是憤怒地回應記者。",
+      "highlight": "bit back at",
+      "targetForm": "bite back at somebody",
+      "targetMeaningZh": "向某人憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The class laughed at his mistake, and he had to stop an angry reply before it came out.",
+      "promptZh": "全班取笑他的錯誤,他不得不忍住憤怒的回應。",
+      "starter": "The",
+      "answer": "The class laughed at his mistake, and he had to bite back an angry reply.",
+      "answerZh": "全班取笑他的錯誤,他不得不忍住憤怒的回應。",
+      "highlight": "bite back",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話或其他反應"
+    },
+    {
+      "id": "phrasal-verb-252-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The puppy never caught the water from the hose, although it repeatedly tried to bite it.",
+      "promptZh": "小狗從未咬中水喉噴出的水,雖然牠不停嘗試咬它。",
+      "starter": "The",
+      "answer": "The puppy never caught the water from the hose, although it repeatedly bit at it.",
+      "answerZh": "小狗從未咬中水喉噴出的水,雖然牠不停咬向它。",
+      "highlight": "bit at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    },
+    {
+      "id": "phrasal-verb-252-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The string would not break, so he used his teeth to remove the loose end.",
+      "promptZh": "線怎樣也弄不斷,所以他用牙齒咬掉鬆脫的一端。",
+      "starter": "The",
+      "answer": "The string would not break, so he bit the loose end off.",
+      "answerZh": "線怎樣也弄不斷,所以他用牙齒咬掉鬆脫的一端。",
+      "highlight": "bit",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒把某物咬斷或咬掉"
+    },
+    {
+      "id": "phrasal-verb-252-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The player had promised to stay calm, yet he answered angrily when a fan called him useless.",
+      "promptZh": "球員曾答應保持冷靜,但球迷說他沒用時,他仍憤怒地反駁。",
+      "starter": "The",
+      "answer": "The player had promised to stay calm, yet he bit back when a fan called him useless.",
+      "answerZh": "球員曾答應保持冷靜,但球迷說他沒用時,他仍憤怒地反駁。",
+      "highlight": "bit back",
+      "targetForm": "bite back",
+      "targetMeaningZh": "憤怒或尖銳地反駁"
+    },
+    {
+      "id": "phrasal-verb-252-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After carrying the shopping for twenty minutes, the thin handles were pressing deeply into my fingers.",
+      "promptZh": "提着購物袋二十分鐘後,幼細的手挽正深深壓着我的手指。",
+      "starter": "After",
+      "answer": "After carrying the shopping for twenty minutes, the thin handles were biting deeply into my fingers.",
+      "answerZh": "提着購物袋二十分鐘後,幼細的手挽正深深壓着我的手指。",
+      "highlight": "biting",
+      "targetForm": "bite into something",
+      "targetMeaningZh": "緊緊壓進某處,令人感到疼痛"
+    },
+    {
+      "id": "phrasal-verb-252-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before sharing the chocolate, Nora used her teeth to remove one square for herself.",
+      "promptZh": "分享朱古力前,諾拉用牙齒咬下一格留給自己。",
+      "starter": "Before",
+      "answer": "Before sharing the chocolate, Nora bit off one square for herself.",
+      "answerZh": "分享朱古力前,諾拉咬下一格留給自己。",
+      "highlight": "bit off",
+      "targetForm": "bite something off",
+      "targetMeaningZh": "用牙齒咬下一部分"
+    },
+    {
+      "id": "phrasal-verb-252-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I wanted to shout at the driver, but I stopped the words because children were nearby.",
+      "promptZh": "我想向司機大叫,但因為附近有孩子而忍住了那些話。",
+      "starter": "I",
+      "answer": "I wanted to shout at the driver, but I bit the words back because children were nearby.",
+      "answerZh": "我想向司機大叫,但因為附近有孩子而忍住了那些話。",
+      "highlight": "bit",
+      "targetForm": "bite something back",
+      "targetMeaningZh": "忍住想說的話"
+    },
+    {
+      "id": "phrasal-verb-252-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The horse could not reach the apple, but it kept trying to bite it through the fence.",
+      "promptZh": "那匹馬碰不到蘋果,但仍不停隔着圍欄嘗試咬它。",
+      "starter": "The",
+      "answer": "The horse could not reach the apple, but it kept biting at it through the fence.",
+      "answerZh": "那匹馬碰不到蘋果,但仍不停隔着圍欄咬向它。",
+      "highlight": "biting at",
+      "targetForm": "bite at something",
+      "targetMeaningZh": "反覆嘗試咬向某物"
+    }
+  ]
+}

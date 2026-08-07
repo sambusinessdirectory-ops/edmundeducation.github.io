@@ -1,0 +1,1465 @@
+{
+  "id": "phrasal-verb-306",
+  "order": 306,
+  "slug": "slap",
+  "version": "1",
+  "title": "SLAP 動詞片語",
+  "titleEn": "Slap",
+  "titleZh": "SLAP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 291 - SLAP.pdf",
+    "sourceNumber": 291,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SLAP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SLAP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SLAP",
+      "highlight": "SLAP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The attacker slapped the man around.",
+      "zh": "襲擊者反覆掌摑並毆打那名男子。",
+      "highlight": "slapped the man around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tried to object, but the chairperson slapped him down.",
+      "zh": "他嘗試反對,但主席立即強硬地制止了他。",
+      "highlight": "slapped him down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The court slapped a heavy fine on the company.",
+      "zh": "法庭向該公司施加巨額罰款。",
+      "highlight": "slapped a heavy fine on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "反覆掌摑或粗暴地打某人；強硬地制止、打斷或駁回某人；向某人或某事物施加懲罰、禁令、限制或其他措施；迅速或隨意地把某物塗上、貼上或放上；把某個金額加到價格上;突然加價",
+    "en": "slap somebody about / slap somebody around; slap somebody down; slap something on / slap something on somebody or something; slap something on / slap something on or onto something; slap something on something",
+    "naturalZh": [
+      "反覆掌摑或粗暴地打某人",
+      "強硬地制止、打斷或駁回某人",
+      "向某人或某事物施加懲罰、禁令、限制或其他措施",
+      "迅速或隨意地把某物塗上、貼上或放上",
+      "把某個金額加到價格上;突然加價"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "slap somebody about / slap somebody around",
+      "titleZh": "反覆掌摑或粗暴地打某人",
+      "titleEn": "slap somebody about / slap somebody around",
+      "descriptionZh": "反覆掌摑或粗暴地打某人",
+      "descriptionEn": "The attacker slapped the man around.",
+      "examples": [
+        {
+          "en": "The attacker slapped the man around.",
+          "zh": "襲擊者反覆掌摑並毆打那名男子。",
+          "highlight": "slapped the man around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slap somebody down",
+      "titleZh": "強硬地制止、打斷或駁回某人",
+      "titleEn": "slap somebody down",
+      "descriptionZh": "強硬地制止、打斷或駁回某人",
+      "descriptionEn": "He tried to object, but the chairperson slapped him down.",
+      "examples": [
+        {
+          "en": "He tried to object, but the chairperson slapped him down.",
+          "zh": "他嘗試反對,但主席立即強硬地制止了他。",
+          "highlight": "slapped him down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slap something on / slap something on somebody or something",
+      "titleZh": "向某人或某事物施加懲罰、禁令、限制或其他措施",
+      "titleEn": "slap something on / slap something on somebody or something",
+      "descriptionZh": "向某人或某事物施加懲罰、禁令、限制或其他措施",
+      "descriptionEn": "The court slapped a heavy fine on the company.",
+      "examples": [
+        {
+          "en": "The court slapped a heavy fine on the company.",
+          "zh": "法庭向該公司施加巨額罰款。",
+          "highlight": "slapped a heavy fine on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "slap something on / slap something on or onto something",
+      "titleZh": "迅速或隨意地把某物塗上、貼上或放上",
+      "titleEn": "slap something on / slap something on or onto something",
+      "descriptionZh": "迅速或隨意地把某物塗上、貼上或放上",
+      "descriptionEn": "She slapped some make-up on before leaving.",
+      "examples": [
+        {
+          "en": "She slapped some make-up on before leaving.",
+          "zh": "她出門前迅速化了一點妝。",
+          "highlight": "slapped some make-up on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "slap something on something",
+      "titleZh": "把某個金額加到價格上;突然加價",
+      "titleEn": "slap something on something",
+      "descriptionZh": "把某個金額加到價格上;突然加價",
+      "descriptionEn": "The café slapped 50p on the price of coffee.",
+      "examples": [
+        {
+          "en": "The café slapped 50p on the price of coffee.",
+          "zh": "咖啡店把咖啡的價格提高了五十便士。",
+          "highlight": "slapped 50p on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SLAP 片語動詞的實際用途",
+    "labelEn": "SLAP Phrasal Verbs in Use",
+    "summaryZh": "slap something on 可以表示迅速塗上化妝品、藥膏或油漆,也可以表示快速貼上標籤。；slap somebody down 可以描述某人在表達意見時遭到強硬制止或駁回。；法庭、學校及其他機構可以向個人或團體施加罰款、禁令或限制。；slap 某個金額 on a price 通常表示價格突然上升,而且加幅可能令人不滿或感到意外。；slap somebody about 或 around 表示暴力行為;slap somebody down 則表示言語上強硬地壓制某人。",
+    "summaryEn": "Slap something on can describe quickly applying make-up, cream, paint or a label. Slap somebody down describes a situation in which someone is sharply stopped or dismissed while expressing an opinion. Courts, schools and other organisations may slap fines, bans or restrictions on people or groups. Slap an amount on a price often suggests that the increase is quick, unwelcome or surprisingly large. Slap somebody about or around refers to violence, while slap somebody down refers to forceful verbal treatment.",
+    "contextsZh": [
+      "描述迅速完成的日常動作",
+      "理解強硬反對的情境",
+      "談論正式懲罰和限制",
+      "描述突然加價",
+      "分辨兩種強烈的負面意思"
+    ],
+    "contextsEn": [
+      "Describe quick everyday actions",
+      "Understand strong disagreement",
+      "Talk about official punishments and limits",
+      "Describe sudden price increases",
+      "Recognise strongly negative language"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SLAP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SLAP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "slap somebody about / slap somebody around",
+    "fixedHighlight": "slap somebody about / slap somebody around",
+    "fixedZh": "閱讀整句,選出意思相同的 SLAP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SLAP expression that gives the same meaning.",
+    "correct": "slapped the man around",
+    "incorrectForms": [],
+    "variableZh": "數個表達都包含 slap something on,但意思並不相同。它可以表示施加懲罰、迅速塗上或貼上某物,或提高價格。請仔細閱讀情境。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；slap somebody about 或 around 表示反覆掌摑或粗暴毆打某人,意思強烈而負面。",
+    "variableEn": "Several expressions contain slap something on, but their meanings are different. It may describe imposing a punishment, quickly applying something or increasing a price. Read the situation carefully. When using it, him, her or them, place the word as shown: slap him down slap it on slap it onto the sore area Slap somebody about or around describes repeated physical violence. It always carries a strongly negative meaning.",
+    "variableItemsZh": [
+      "slap somebody about / slap somebody around",
+      "slap somebody down",
+      "slap something on / slap something on somebody or something",
+      "slap something on / slap something on or onto something",
+      "slap something on something"
+    ],
+    "variableItemsEn": [
+      "slap somebody about / slap somebody around",
+      "slap somebody down",
+      "slap something on / slap something on somebody or something",
+      "slap something on / slap something on or onto something",
+      "slap something on something"
+    ],
+    "forms": [
+      {
+        "formZh": "反覆掌摑或粗暴地打某人",
+        "formEn": "slap somebody about / slap somebody around",
+        "exampleZh": "襲擊者反覆掌摑並毆打那名男子。",
+        "exampleEn": "The attacker slapped the man around.",
+        "highlight": "slapped the man around"
+      },
+      {
+        "formZh": "強硬地制止、打斷或駁回某人",
+        "formEn": "slap somebody down",
+        "exampleZh": "他嘗試反對,但主席立即強硬地制止了他。",
+        "exampleEn": "He tried to object, but the chairperson slapped him down.",
+        "highlight": "slapped him down"
+      },
+      {
+        "formZh": "向某人或某事物施加懲罰、禁令、限制或其他措施",
+        "formEn": "slap something on / slap something on somebody or something",
+        "exampleZh": "法庭向該公司施加巨額罰款。",
+        "exampleEn": "The court slapped a heavy fine on the company.",
+        "highlight": "slapped a heavy fine on"
+      },
+      {
+        "formZh": "迅速或隨意地把某物塗上、貼上或放上",
+        "formEn": "slap something on / slap something on or onto something",
+        "exampleZh": "她出門前迅速化了一點妝。",
+        "exampleEn": "She slapped some make-up on before leaving.",
+        "highlight": "slapped some make-up on"
+      },
+      {
+        "formZh": "把某個金額加到價格上;突然加價",
+        "formEn": "slap something on something",
+        "exampleZh": "咖啡店把咖啡的價格提高了五十便士。",
+        "exampleEn": "The café slapped 50p on the price of coffee.",
+        "highlight": "slapped 50p on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "反覆掌摑或粗暴地打某人",
+      "titleEn": "slap somebody about / slap somebody around",
+      "formula": "slap somebody about / slap somebody around",
+      "highlight": "slap somebody about / slap somebody around",
+      "descriptionZh": "反覆掌摑或粗暴地打某人",
+      "descriptionEn": "The attacker slapped the man around.",
+      "examples": [
+        {
+          "en": "The attacker slapped the man around.",
+          "zh": "襲擊者反覆掌摑並毆打那名男子。",
+          "highlight": "slapped the man around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "強硬地制止、打斷或駁回某人",
+      "titleEn": "slap somebody down",
+      "formula": "slap somebody down",
+      "highlight": "slap somebody down",
+      "descriptionZh": "強硬地制止、打斷或駁回某人",
+      "descriptionEn": "He tried to object, but the chairperson slapped him down.",
+      "examples": [
+        {
+          "en": "He tried to object, but the chairperson slapped him down.",
+          "zh": "他嘗試反對,但主席立即強硬地制止了他。",
+          "highlight": "slapped him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "向某人或某事物施加懲罰、禁令、限制或其他措施",
+      "titleEn": "slap something on / slap something on somebody or something",
+      "formula": "slap something on / slap something on somebody or something",
+      "highlight": "slap something on / slap something on somebody or something",
+      "descriptionZh": "向某人或某事物施加懲罰、禁令、限制或其他措施",
+      "descriptionEn": "The court slapped a heavy fine on the company.",
+      "examples": [
+        {
+          "en": "The court slapped a heavy fine on the company.",
+          "zh": "法庭向該公司施加巨額罰款。",
+          "highlight": "slapped a heavy fine on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "迅速或隨意地把某物塗上、貼上或放上",
+      "titleEn": "slap something on / slap something on or onto something",
+      "formula": "slap something on / slap something on or onto something",
+      "highlight": "slap something on / slap something on or onto something",
+      "descriptionZh": "迅速或隨意地把某物塗上、貼上或放上",
+      "descriptionEn": "She slapped some make-up on before leaving.",
+      "examples": [
+        {
+          "en": "She slapped some make-up on before leaving.",
+          "zh": "她出門前迅速化了一點妝。",
+          "highlight": "slapped some make-up on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某個金額加到價格上;突然加價",
+      "titleEn": "slap something on something",
+      "formula": "slap something on something",
+      "highlight": "slap something on something",
+      "descriptionZh": "把某個金額加到價格上;突然加價",
+      "descriptionEn": "The café slapped 50p on the price of coffee.",
+      "examples": [
+        {
+          "en": "The café slapped 50p on the price of coffee.",
+          "zh": "咖啡店把咖啡的價格提高了五十便士。",
+          "highlight": "slapped 50p on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述迅速完成的日常動作",
+      "titleEn": "Describe quick everyday actions",
+      "zh": "slap something on 可以表示迅速塗上化妝品、藥膏或油漆,也可以表示快速貼上標籤。",
+      "en": "Slap something on can describe quickly applying make-up, cream, paint or a label."
+    },
+    {
+      "titleZh": "理解強硬反對的情境",
+      "titleEn": "Understand strong disagreement",
+      "zh": "slap somebody down 可以描述某人在表達意見時遭到強硬制止或駁回。",
+      "en": "Slap somebody down describes a situation in which someone is sharply stopped or dismissed while expressing an opinion."
+    },
+    {
+      "titleZh": "談論正式懲罰和限制",
+      "titleEn": "Talk about official punishments and limits",
+      "zh": "法庭、學校及其他機構可以向個人或團體施加罰款、禁令或限制。",
+      "en": "Courts, schools and other organisations may slap fines, bans or restrictions on people or groups."
+    },
+    {
+      "titleZh": "描述突然加價",
+      "titleEn": "Describe sudden price increases",
+      "zh": "slap 某個金額 on a price 通常表示價格突然上升,而且加幅可能令人不滿或感到意外。",
+      "en": "Slap an amount on a price often suggests that the increase is quick, unwelcome or surprisingly large."
+    },
+    {
+      "titleZh": "分辨兩種強烈的負面意思",
+      "titleEn": "Recognise strongly negative language",
+      "zh": "slap somebody about 或 around 表示暴力行為;slap somebody down 則表示言語上強硬地壓制某人。",
+      "en": "Slap somebody about or around refers to violence, while slap somebody down refers to forceful verbal treatment."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述迅速完成的日常動作",
+      "理解強硬反對的情境",
+      "談論正式懲罰和限制",
+      "描述突然加價",
+      "分辨兩種強烈的負面意思"
+    ],
+    "contextsEn": [
+      "Describe quick everyday actions",
+      "Understand strong disagreement",
+      "Talk about official punishments and limits",
+      "Describe sudden price increases",
+      "Recognise strongly negative language"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述迅速完成的日常動作",
+        "titleEn": "Describe quick everyday actions",
+        "zh": "slap something on 可以表示迅速塗上化妝品、藥膏或油漆,也可以表示快速貼上標籤。",
+        "en": "Slap something on can describe quickly applying make-up, cream, paint or a label.",
+        "examples": [
+          {
+            "en": "The attacker slapped the man around.",
+            "zh": "襲擊者反覆掌摑並毆打那名男子。",
+            "highlight": "slapped the man around"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解強硬反對的情境",
+        "titleEn": "Understand strong disagreement",
+        "zh": "slap somebody down 可以描述某人在表達意見時遭到強硬制止或駁回。",
+        "en": "Slap somebody down describes a situation in which someone is sharply stopped or dismissed while expressing an opinion.",
+        "examples": [
+          {
+            "en": "He tried to object, but the chairperson slapped him down.",
+            "zh": "他嘗試反對,但主席立即強硬地制止了他。",
+            "highlight": "slapped him down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論正式懲罰和限制",
+        "titleEn": "Talk about official punishments and limits",
+        "zh": "法庭、學校及其他機構可以向個人或團體施加罰款、禁令或限制。",
+        "en": "Courts, schools and other organisations may slap fines, bans or restrictions on people or groups.",
+        "examples": [
+          {
+            "en": "The court slapped a heavy fine on the company.",
+            "zh": "法庭向該公司施加巨額罰款。",
+            "highlight": "slapped a heavy fine on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然加價",
+        "titleEn": "Describe sudden price increases",
+        "zh": "slap 某個金額 on a price 通常表示價格突然上升,而且加幅可能令人不滿或感到意外。",
+        "en": "Slap an amount on a price often suggests that the increase is quick, unwelcome or surprisingly large.",
+        "examples": [
+          {
+            "en": "She slapped some make-up on before leaving.",
+            "zh": "她出門前迅速化了一點妝。",
+            "highlight": "slapped some make-up on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨兩種強烈的負面意思",
+        "titleEn": "Recognise strongly negative language",
+        "zh": "slap somebody about 或 around 表示暴力行為;slap somebody down 則表示言語上強硬地壓制某人。",
+        "en": "Slap somebody about or around refers to violence, while slap somebody down refers to forceful verbal treatment.",
+        "examples": [
+          {
+            "en": "The café slapped 50p on the price of coffee.",
+            "zh": "咖啡店把咖啡的價格提高了五十便士。",
+            "highlight": "slapped 50p on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SLAP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SLAP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SLAP 片語動詞。",
+      "en": "Read the whole sentence and choose the SLAP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "數個表達都包含 slap something on,但意思並不相同。它可以表示施加懲罰、迅速塗上或貼上某物,或提高價格。請仔細閱讀情境。",
+      "titleEn": "Several expressions contain slap something on, but their meanings are different.",
+      "zh": "數個表達都包含 slap something on,但意思並不相同。它可以表示施加懲罰、迅速塗上或貼上某物,或提高價格。請仔細閱讀情境。",
+      "en": "Several expressions contain slap something on, but their meanings are different. It may describe imposing a punishment, quickly applying something or increasing a price. Read the situation carefully."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: slap him down slap it on slap it onto the sore area.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: slap him down slap it on slap it onto the sore area"
+    },
+    {
+      "titleZh": "slap somebody about 或 around 表示反覆掌摑或粗暴毆打某人,意思強烈而負面。",
+      "titleEn": "Slap somebody about or around describes repeated physical violence.",
+      "zh": "slap somebody about 或 around 表示反覆掌摑或粗暴毆打某人,意思強烈而負面。",
+      "en": "Slap somebody about or around describes repeated physical violence. It always carries a strongly negative meaning."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SLAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SLAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SLAP 動詞片語句子改寫練習",
+    "titleEn": "SLAP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SLAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SLAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-306-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The attacker repeatedly hit the man with open hands outside the station.",
+      "promptZh": "襲擊者在車站外反覆掌摑並毆打那名男子。",
+      "starter": "The",
+      "answer": "The attacker slapped the man around outside the station.",
+      "answerZh": "襲擊者在車站外反覆掌摑並毆打那名男子。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Nora quickly put on some make-up before leaving home.",
+      "promptZh": "諾拉離家前迅速化了一點妝。",
+      "starter": "Nora",
+      "answer": "Nora slapped some make-up on before leaving home.",
+      "answerZh": "諾拉離家前迅速化了一點妝。",
+      "highlight": "slapped",
+      "targetForm": "slap something on",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The chairperson sharply stopped Leo as soon as he objected.",
+      "promptZh": "里奧一提出反對,主席便立即強硬地制止他。",
+      "starter": "The",
+      "answer": "The chairperson slapped Leo down as soon as he objected.",
+      "answerZh": "里奧一提出反對,主席便立即強硬地制止他。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The café increased the price of every sandwich by 50p.",
+      "promptZh": "咖啡店把每份三文治的價格提高了五十便士。",
+      "starter": "The",
+      "answer": "The café slapped 50p on the price of every sandwich.",
+      "answerZh": "咖啡店把每份三文治的價格提高了五十便士。",
+      "highlight": "slapped 50p on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The judge imposed a heavy fine on the company.",
+      "promptZh": "法官向該公司施加巨額罰款。",
+      "starter": "The",
+      "answer": "The judge slapped a heavy fine on the company.",
+      "answerZh": "法官向該公司施加巨額罰款。",
+      "highlight": "slapped",
+      "targetForm": "slap something on somebody or something",
+      "targetMeaningZh": "向某人或某事物施加懲罰或措施"
+    },
+    {
+      "id": "phrasal-verb-306-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The report said the man had repeatedly hit his neighbour with open hands.",
+      "promptZh": "報告指出,那名男子曾反覆掌摑並毆打鄰居。",
+      "starter": "The",
+      "answer": "The report said the man had slapped his neighbour about.",
+      "answerZh": "報告指出,那名男子曾反覆掌摑並毆打鄰居。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody about",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The manager sharply dismissed Priya when she questioned the plan.",
+      "promptZh": "普里雅質疑計劃時,經理強硬地駁回了她。",
+      "starter": "The",
+      "answer": "The manager slapped Priya down when she questioned the plan.",
+      "answerZh": "普里雅質疑計劃時,經理強硬地駁回了她。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Sam quickly spread some butter on the toast.",
+      "promptZh": "森迅速在多士上塗了一些牛油。",
+      "starter": "Sam",
+      "answer": "Sam slapped some butter on the toast.",
+      "answerZh": "森迅速在多士上塗了一些牛油。",
+      "highlight": "slapped",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The shop added another £2 to the delivery price.",
+      "promptZh": "店舖把送貨價格再提高兩英鎊。",
+      "starter": "The",
+      "answer": "The shop slapped another £2 on the delivery price.",
+      "answerZh": "店舖把送貨價格再提高兩英鎊。",
+      "highlight": "slapped",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The court imposed a two-year ban on the driver.",
+      "promptZh": "法庭向該司機施加兩年禁令。",
+      "starter": "The",
+      "answer": "The court slapped a two-year ban on the driver.",
+      "answerZh": "法庭向該司機施加兩年禁令。",
+      "highlight": "slapped",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加禁令、懲罰或限制"
+    },
+    {
+      "id": "phrasal-verb-306-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "No one should repeatedly hit a child with open hands.",
+      "promptZh": "任何人都不應反覆掌摑或毆打兒童。",
+      "starter": "No",
+      "answer": "No one should slap a child around.",
+      "answerZh": "任何人都不應反覆掌摑或毆打兒童。",
+      "highlight": "slap",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Eva was sharply stopped before she could finish speaking.",
+      "promptZh": "伊娃還未說完,便遭到強硬制止。",
+      "starter": "Eva",
+      "answer": "Eva was slapped down before she could finish speaking.",
+      "answerZh": "伊娃還未說完,便遭到強硬制止。",
+      "highlight": "slapped down",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The council has imposed strict limits on late-night noise.",
+      "promptZh": "市議會已對深夜噪音施加嚴格限制。",
+      "starter": "The",
+      "answer": "The council has slapped strict limits on late-night noise.",
+      "answerZh": "市議會已對深夜噪音施加嚴格限制。",
+      "highlight": "slapped",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "向某事物施加限制或措施"
+    },
+    {
+      "id": "phrasal-verb-306-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Aisha is quickly putting a little cream onto the dry skin.",
+      "promptZh": "艾莎正在迅速把少量乳霜塗到乾燥的皮膚上。",
+      "starter": "Aisha",
+      "answer": "Aisha is slapping a little cream onto the dry skin.",
+      "answerZh": "艾莎正在迅速把少量乳霜塗到乾燥的皮膚上。",
+      "highlight": "slapping",
+      "targetForm": "slap something onto something",
+      "targetMeaningZh": "迅速或隨意地把某物塗上"
+    },
+    {
+      "id": "phrasal-verb-306-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did the director dismiss Jordan so sharply?",
+      "promptZh": "導演為甚麼如此強硬地駁回佐敦?",
+      "starter": "Why",
+      "answer": "Why did the director slap Jordan down so sharply?",
+      "answerZh": "導演為甚麼如此強硬地駁回佐敦?",
+      "highlight": "slap",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The cinema may add £1 to the price of weekend tickets.",
+      "promptZh": "戲院可能會把週末門票的價格提高一英鎊。",
+      "starter": "The",
+      "answer": "The cinema may slap £1 on the price of weekend tickets.",
+      "answerZh": "戲院可能會把週末門票的價格提高一英鎊。",
+      "highlight": "slap",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The bully had repeatedly hit Arun with open hands before a teacher arrived.",
+      "promptZh": "老師到場前,那名惡霸曾反覆掌摑並毆打阿倫。",
+      "starter": "The",
+      "answer": "The bully had slapped Arun around before a teacher arrived.",
+      "answerZh": "老師到場前,那名惡霸曾反覆掌摑並毆打阿倫。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did Theo quickly put any paint on the old chair?",
+      "promptZh": "西奧有迅速在舊椅子上塗油漆嗎?",
+      "starter": "Did",
+      "answer": "Did Theo slap any paint on the old chair?",
+      "answerZh": "西奧有迅速在舊椅子上塗油漆嗎?",
+      "highlight": "slap",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "迅速或隨意地把某物塗上"
+    },
+    {
+      "id": "phrasal-verb-306-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "A six-month ban was imposed on the player.",
+      "promptZh": "該球員被施加六個月禁賽令。",
+      "starter": "A",
+      "answer": "A six-month ban was slapped on the player.",
+      "answerZh": "該球員被施加六個月禁賽令。",
+      "highlight": "slapped",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加禁令、懲罰或限制"
+    },
+    {
+      "id": "phrasal-verb-306-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The teacher did not sharply silence Nina when she disagreed.",
+      "promptZh": "妮娜提出不同意見時,老師沒有強硬地制止她。",
+      "starter": "The",
+      "answer": "The teacher did not slap Nina down when she disagreed.",
+      "answerZh": "妮娜提出不同意見時,老師沒有強硬地制止她。",
+      "highlight": "slap",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The price of each drink has been increased by another 10p.",
+      "promptZh": "每杯飲品的價格已再提高十便士。",
+      "starter": "Another",
+      "answer": "Another 10p has been slapped on the price of each drink.",
+      "answerZh": "每杯飲品的價格已再提高十便士。",
+      "highlight": "Another 10p has been slapped on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Before the show, the actor quickly put on some powder.",
+      "promptZh": "表演前,那名演員迅速搽了一些粉。",
+      "starter": "Before",
+      "answer": "Before the show, the actor slapped some powder on.",
+      "answerZh": "表演前,那名演員迅速搽了一些粉。",
+      "highlight": "slapped",
+      "targetForm": "slap something on",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the suspect ever repeatedly hit anyone with open hands before?",
+      "promptZh": "該名疑犯以前是否曾反覆掌摑或毆打他人?",
+      "starter": "Has",
+      "answer": "Has the suspect ever slapped anyone about before?",
+      "answerZh": "該名疑犯以前是否曾反覆掌摑或毆打他人?",
+      "highlight": "slapped",
+      "targetForm": "slap somebody about",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The school may impose a one-week ban on anyone who cheats.",
+      "promptZh": "學校可能會向任何作弊的人施加一星期禁令。",
+      "starter": "The",
+      "answer": "The school may slap a one-week ban on anyone who cheats.",
+      "answerZh": "學校可能會向任何作弊的人施加一星期禁令。",
+      "highlight": "slap",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加禁令、懲罰或限制"
+    },
+    {
+      "id": "phrasal-verb-306-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The label was quickly put onto the box in a hurry.",
+      "promptZh": "那張標籤被匆忙地貼到箱子上。",
+      "starter": "The",
+      "answer": "The label was slapped onto the box in a hurry.",
+      "answerZh": "那張標籤被匆忙地貼到箱子上。",
+      "highlight": "slapped",
+      "targetForm": "slap something onto something",
+      "targetMeaningZh": "迅速或隨意地把某物貼上"
+    },
+    {
+      "id": "phrasal-verb-306-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The airline has increased the cost of each bag by £5.",
+      "promptZh": "航空公司已把每件行李的費用提高五英鎊。",
+      "starter": "The",
+      "answer": "The airline has slapped £5 on the cost of each bag.",
+      "answerZh": "航空公司已把每件行李的費用提高五英鎊。",
+      "highlight": "slapped £5 on",
+      "targetForm": "slap something on a price or cost",
+      "targetMeaningZh": "把某個金額加到價格或費用上"
+    },
+    {
+      "id": "phrasal-verb-306-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Although he denied it, the witness said he had repeatedly hit the victim with open hands.",
+      "promptZh": "雖然他否認此事,但目擊者表示他曾反覆掌摑並毆打受害人。",
+      "starter": "Although",
+      "answer": "Although he denied it, the witness said he had slapped the victim around.",
+      "answerZh": "雖然他否認此事,但目擊者表示他曾反覆掌摑並毆打受害人。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why was an extra condition imposed on the club?",
+      "promptZh": "為甚麼該會社被施加一項額外條件?",
+      "starter": "Why",
+      "answer": "Why was an extra condition slapped on the club?",
+      "answerZh": "為甚麼該會社被施加一項額外條件?",
+      "highlight": "slapped",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "向某事物施加條件、限制或措施"
+    },
+    {
+      "id": "phrasal-verb-306-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After being sharply dismissed once, Karim waited before speaking again.",
+      "promptZh": "卡里姆遭到一次強硬駁回後,等了一會才再次發言。",
+      "starter": "After",
+      "answer": "After being slapped down once, Karim waited before speaking again.",
+      "answerZh": "卡里姆遭到一次強硬駁回後,等了一會才再次發言。",
+      "highlight": "slapped down",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The wall looked plain, so Chloe quickly put a bright poster on it.",
+      "promptZh": "牆壁看來很單調,所以克洛伊迅速在上面貼了一張鮮色海報。",
+      "starter": "The",
+      "answer": "The wall looked plain, so Chloe slapped a bright poster on it.",
+      "answerZh": "牆壁看來很單調,所以克洛伊迅速在上面貼了一張鮮色海報。",
+      "highlight": "slapped",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "迅速或隨意地把某物貼上"
+    },
+    {
+      "id": "phrasal-verb-306-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "They added 5p to the price of every bottle.",
+      "promptZh": "他們把每瓶飲品的價格提高五便士。",
+      "starter": "They",
+      "answer": "They slapped 5p on the price of every bottle.",
+      "answerZh": "他們把每瓶飲品的價格提高五便士。",
+      "highlight": "slapped",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The guard stopped the attacker before he could repeatedly hit anyone with open hands.",
+      "promptZh": "警衞在襲擊者能夠反覆掌摑或毆打任何人前制止了他。",
+      "starter": "The",
+      "answer": "The guard stopped the attacker before he could slap anyone about.",
+      "answerZh": "警衞在襲擊者能夠反覆掌摑或毆打任何人前制止了他。",
+      "highlight": "slap",
+      "targetForm": "slap somebody about",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The court decided to impose a longer sentence on him.",
+      "promptZh": "法庭決定向他判處更長刑期。",
+      "starter": "The",
+      "answer": "The court decided to slap a longer sentence on him.",
+      "answerZh": "法庭決定向他判處更長刑期。",
+      "highlight": "slap",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加刑罰或其他懲罰"
+    },
+    {
+      "id": "phrasal-verb-306-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did the shop increase the price of the coat by another £3?",
+      "promptZh": "店舖為甚麼把外套的價格再提高三英鎊?",
+      "starter": "Why",
+      "answer": "Why did the shop slap another £3 on the price of the coat?",
+      "answerZh": "店舖為甚麼把外套的價格再提高三英鎊?",
+      "highlight": "slap another £3 on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The host tried not to dismiss Sofia sharply in front of everyone.",
+      "promptZh": "主持人嘗試避免在眾人面前強硬地駁回索菲亞。",
+      "starter": "The",
+      "answer": "The host tried not to slap Sofia down in front of everyone.",
+      "answerZh": "主持人嘗試避免在眾人面前強硬地駁回索菲亞。",
+      "highlight": "slap",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "I found the sun cream. I had only a minute, so I quickly put it on and left.",
+      "promptZh": "我找到了防曬霜。我只有一分鐘,所以迅速把它塗上便離開了。",
+      "starter": "I",
+      "answer": "I found the sun cream. I had only a minute, so I slapped it on and left.",
+      "answerZh": "我找到了防曬霜。我只有一分鐘,所以迅速把它塗上便離開了。",
+      "highlight": "slapped",
+      "targetForm": "slap something on",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The gym increased the monthly fee by £4 without warning.",
+      "promptZh": "健身中心在沒有預先通知下,把月費提高四英鎊。",
+      "starter": "The",
+      "answer": "The gym slapped £4 on the monthly fee without warning.",
+      "answerZh": "健身中心在沒有預先通知下,把月費提高四英鎊。",
+      "highlight": "slapped £4 on",
+      "targetForm": "slap something on a price or fee",
+      "targetMeaningZh": "把某個金額加到價格或費用上"
+    },
+    {
+      "id": "phrasal-verb-306-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The police report said the victim had been repeatedly hit with open hands during the attack.",
+      "promptZh": "警方報告指出,受害人在襲擊期間曾遭反覆掌摑和毆打。",
+      "starter": "The",
+      "answer": "The police report said the victim had been slapped about during the attack.",
+      "answerZh": "警方報告指出,受害人在襲擊期間曾遭反覆掌摑和毆打。",
+      "highlight": "slapped about",
+      "targetForm": "slap somebody about",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Even a polite question was enough for the boss to dismiss Ravi sharply.",
+      "promptZh": "即使只是一條有禮貌的問題,也足以令老闆強硬地駁回拉維。",
+      "starter": "Even",
+      "answer": "Even a polite question was enough for the boss to slap Ravi down.",
+      "answerZh": "即使只是一條有禮貌的問題,也足以令老闆強硬地駁回拉維。",
+      "highlight": "slap",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before the photo, Lena quickly put a little colour onto her cheeks.",
+      "promptZh": "拍照前,蓮娜迅速在臉頰上搽了一點顏色。",
+      "starter": "Before",
+      "answer": "Before the photo, Lena slapped a little colour onto her cheeks.",
+      "answerZh": "拍照前,蓮娜迅速在臉頰上搽了一點顏色。",
+      "highlight": "slapped",
+      "targetForm": "slap something onto something",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Officials imposed a strict travel ban on the group.",
+      "promptZh": "官員向該團體施加嚴格的旅遊禁令。",
+      "starter": "Officials",
+      "answer": "Officials slapped a strict travel ban on the group.",
+      "answerZh": "官員向該團體施加嚴格的旅遊禁令。",
+      "highlight": "slapped",
+      "targetForm": "slap something on somebody or something",
+      "targetMeaningZh": "向某人或某團體施加禁令或限制"
+    },
+    {
+      "id": "phrasal-verb-306-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Without any notice, the hotel increased its room prices by 15%.",
+      "promptZh": "酒店在沒有任何通知下,把房價提高了百分之十五。",
+      "starter": "Without",
+      "answer": "Without any notice, the hotel slapped 15% on its room prices.",
+      "answerZh": "酒店在沒有任何通知下,把房價提高了百分之十五。",
+      "highlight": "slapped 15% on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額或百分比加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The story shows why nobody has the right to repeatedly hit another person with open hands.",
+      "promptZh": "這個故事說明,任何人都沒有權反覆掌摑或毆打他人。",
+      "starter": "The",
+      "answer": "The story shows why nobody has the right to slap another person around.",
+      "answerZh": "這個故事說明,任何人都沒有權反覆掌摑或毆打他人。",
+      "highlight": "slap",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "When Omar raised a concern, the team leader immediately silenced him sharply.",
+      "promptZh": "奧馬提出憂慮時,組長立即強硬地制止他。",
+      "starter": "When",
+      "answer": "When Omar raised a concern, the team leader immediately slapped him down.",
+      "answerZh": "奧馬提出憂慮時,組長立即強硬地制止他。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A further £1 was added to the price at the till.",
+      "promptZh": "付款時,價格被額外增加了一英鎊。",
+      "starter": "A",
+      "answer": "A further £1 was slapped on the price at the till.",
+      "answerZh": "付款時,價格被額外增加了一英鎊。",
+      "highlight": "slapped on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The worker quickly put a coat of paint on the door.",
+      "promptZh": "工人迅速在門上塗了一層油漆。",
+      "starter": "The",
+      "answer": "The worker slapped a coat of paint on the door.",
+      "answerZh": "工人迅速在門上塗了一層油漆。",
+      "highlight": "slapped",
+      "targetForm": "slap something on something",
+      "targetMeaningZh": "迅速或隨意地把某物塗上"
+    },
+    {
+      "id": "phrasal-verb-306-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The judge refused to impose an extra fine on the young driver.",
+      "promptZh": "法官拒絕向那名年輕司機施加額外罰款。",
+      "starter": "The",
+      "answer": "The judge refused to slap an extra fine on the young driver.",
+      "answerZh": "法官拒絕向那名年輕司機施加額外罰款。",
+      "highlight": "slap",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加罰款或其他懲罰"
+    },
+    {
+      "id": "phrasal-verb-306-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Could the attacker have repeatedly hit the passenger with open hands without anyone hearing?",
+      "promptZh": "襲擊者有可能在沒有人聽到的情況下反覆掌摑並毆打乘客嗎?",
+      "starter": "Could",
+      "answer": "Could the attacker have slapped the passenger around without anyone hearing?",
+      "answerZh": "襲擊者有可能在沒有人聽到的情況下反覆掌摑並毆打乘客嗎?",
+      "highlight": "slapped",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The meeting became tense after the chairperson sharply dismissed Aisha for questioning the numbers.",
+      "promptZh": "艾莎質疑數字後,主席強硬地駁回她,令會議氣氛變得緊張。",
+      "starter": "The",
+      "answer": "The meeting became tense after the chairperson slapped Aisha down for questioning the numbers.",
+      "answerZh": "艾莎質疑數字後,主席強硬地駁回她,令會議氣氛變得緊張。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "If the club breaks the rule again, the court could impose a much longer ban on it.",
+      "promptZh": "如果該會社再次違反規則,法庭可能會向它施加長得多的禁令。",
+      "starter": "If",
+      "answer": "If the club breaks the rule again, the court could slap a much longer ban on it.",
+      "answerZh": "如果該會社再次違反規則,法庭可能會向它施加長得多的禁令。",
+      "highlight": "slap",
+      "targetForm": "slap something on somebody or something",
+      "targetMeaningZh": "向某人或某團體施加禁令或限制"
+    },
+    {
+      "id": "phrasal-verb-306-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "With no time to prepare, Nina quickly put on some make-up in the taxi.",
+      "promptZh": "妮娜沒有時間準備,只好在的士內迅速化妝。",
+      "starter": "With",
+      "answer": "With no time to prepare, Nina slapped some make-up on in the taxi.",
+      "answerZh": "妮娜沒有時間準備,只好在的士內迅速化妝。",
+      "highlight": "slapped",
+      "targetForm": "slap something on",
+      "targetMeaningZh": "迅速或隨意地塗上某物"
+    },
+    {
+      "id": "phrasal-verb-306-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The court heard that the attacker had threatened to repeatedly hit the victim with open hands again.",
+      "promptZh": "法庭得知,襲擊者曾威脅會再次反覆掌摑並毆打受害人。",
+      "starter": "The",
+      "answer": "The court heard that the attacker had threatened to slap the victim around again.",
+      "answerZh": "法庭得知,襲擊者曾威脅會再次反覆掌摑並毆打受害人。",
+      "highlight": "slap",
+      "targetForm": "slap somebody around",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Customers complained after the café increased the price of coffee by another 80p.",
+      "promptZh": "咖啡店把咖啡價格再提高八十便士後,顧客作出了投訴。",
+      "starter": "Customers",
+      "answer": "Customers complained after the café slapped another 80p on the price of coffee.",
+      "answerZh": "咖啡店把咖啡價格再提高八十便士後,顧客作出了投訴。",
+      "highlight": "slapped another 80p on",
+      "targetForm": "slap something on a price",
+      "targetMeaningZh": "把某個金額加到價格上"
+    },
+    {
+      "id": "phrasal-verb-306-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although his point was reasonable, Ben was sharply dismissed before the group could discuss it.",
+      "promptZh": "雖然賓的觀點合理,但小組還未能討論,他便遭到強硬駁回。",
+      "starter": "Although",
+      "answer": "Although his point was reasonable, Ben was slapped down before the group could discuss it.",
+      "answerZh": "雖然賓的觀點合理,但小組還未能討論,他便遭到強硬駁回。",
+      "highlight": "slapped down",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The new rule allows judges to impose heavier penalties on people who break the law again.",
+      "promptZh": "新規則容許法官向再次犯法的人施加更重的懲罰。",
+      "starter": "The",
+      "answer": "The new rule allows judges to slap heavier penalties on people who break the law again.",
+      "answerZh": "新規則容許法官向再次犯法的人施加更重的懲罰。",
+      "highlight": "slap",
+      "targetForm": "slap something on somebody",
+      "targetMeaningZh": "向某人施加懲罰或其他措施"
+    },
+    {
+      "id": "phrasal-verb-306-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After finding the right cream, Leo quickly put it onto the sore area and covered it.",
+      "promptZh": "里奧找到合適的乳霜後,迅速把它塗在疼痛的位置,再把該處蓋好。",
+      "starter": "After",
+      "answer": "After finding the right cream, Leo slapped it onto the sore area and covered it.",
+      "answerZh": "里奧找到合適的乳霜後,迅速把它塗在疼痛的位置,再把該處蓋好。",
+      "highlight": "slapped",
+      "targetForm": "slap something onto something",
+      "targetMeaningZh": "迅速或隨意地把某物塗上"
+    },
+    {
+      "id": "phrasal-verb-306-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The editor may disagree, but she should not silence the new writer harshly.",
+      "promptZh": "編輯可以不同意,但不應強硬地壓制那名新作家。",
+      "starter": "The",
+      "answer": "The editor may disagree, but she should not slap the new writer down.",
+      "answerZh": "編輯可以不同意,但不應強硬地壓制那名新作家。",
+      "highlight": "slap",
+      "targetForm": "slap somebody down",
+      "targetMeaningZh": "強硬地制止或駁回某人"
+    },
+    {
+      "id": "phrasal-verb-306-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "By summer, the annual fee had been increased by another £10.",
+      "promptZh": "到了夏季,年費已再提高十英鎊。",
+      "starter": "By",
+      "answer": "By summer, another £10 had been slapped on the annual fee.",
+      "answerZh": "到了夏季,年費已再提高十英鎊。",
+      "highlight": "another £10 had been slapped on",
+      "targetForm": "slap something on a price or fee",
+      "targetMeaningZh": "把某個金額加到價格或費用上"
+    },
+    {
+      "id": "phrasal-verb-306-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "After the case, he admitted that he had repeatedly hit the other man with open hands.",
+      "promptZh": "案件結束後,他承認曾反覆掌摑並毆打另一名男子。",
+      "starter": "After",
+      "answer": "After the case, he admitted that he had slapped the other man about.",
+      "answerZh": "案件結束後,他承認曾反覆掌摑並毆打另一名男子。",
+      "highlight": "slapped",
+      "targetForm": "slap somebody about",
+      "targetMeaningZh": "反覆掌摑或粗暴地打某人"
+    },
+    {
+      "id": "phrasal-verb-306-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The company was shocked when a large fine was imposed on it.",
+      "promptZh": "該公司被施加巨額罰款時感到震驚。",
+      "starter": "The",
+      "answer": "The company was shocked when a large fine was slapped on it.",
+      "answerZh": "該公司被施加巨額罰款時感到震驚。",
+      "highlight": "slapped",
+      "targetForm": "slap something on somebody or something",
+      "targetMeaningZh": "向某人或某事物施加罰款或其他懲罰"
+    }
+  ]
+}

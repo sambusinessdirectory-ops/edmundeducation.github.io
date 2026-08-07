@@ -1,0 +1,1441 @@
+{
+  "id": "phrasal-verb-317",
+  "order": 317,
+  "slug": "be-get",
+  "version": "1",
+  "title": "BE / GET 動詞片語",
+  "titleEn": "Be / Get",
+  "titleZh": "BE / GET 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 302 - BE _ GET.pdf",
+    "sourceNumber": 302,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習這些以 BE 和 GET 構成的片語表達。",
+    "en": "Learn and practise these phrasal expressions with BE and GET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BE / GET",
+      "highlight": "BE / GET"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The thief was banged up for three years.",
+      "zh": "那名小偷被關進監獄三年。",
+      "highlight": "was banged up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The van got bogged down in the mud.",
+      "zh": "客貨車陷在泥中,動彈不得。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "During the war, the family was bombed out of its home.",
+      "zh": "戰爭期間,這家人的住所被炸毀,被迫離開家園。",
+      "highlight": "was bombed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "較口語:被關進監獄;坐牢；陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前；住所被炸毀而無家可歸;因轟炸被迫離開某處；因過度興奮或太投入而失去分寸；意外捲入某件事情;受到某個情況影響",
+    "en": "be/get banged up; be/get bogged down (in something); be/get bombed out; be/get bombed out of something; be/get carried away (with/by something); be/get caught up in something",
+    "naturalZh": [
+      "較口語:被關進監獄;坐牢",
+      "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+      "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+      "因過度興奮或太投入而失去分寸",
+      "意外捲入某件事情;受到某個情況影響"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "be/get banged up",
+      "titleZh": "較口語:被關進監獄;坐牢",
+      "titleEn": "be/get banged up",
+      "descriptionZh": "較口語:被關進監獄;坐牢",
+      "descriptionEn": "The thief was banged up for three years.",
+      "examples": [
+        {
+          "en": "The thief was banged up for three years.",
+          "zh": "那名小偷被關進監獄三年。",
+          "highlight": "was banged up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be/get bogged down (in something)",
+      "titleZh": "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+      "titleEn": "be/get bogged down (in something)",
+      "descriptionZh": "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+      "descriptionEn": "The van got bogged down in the mud.",
+      "examples": [
+        {
+          "en": "The van got bogged down in the mud.",
+          "zh": "客貨車陷在泥中,動彈不得。",
+          "highlight": "The"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be/get bombed out; be/get bombed out of something",
+      "titleZh": "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+      "titleEn": "be/get bombed out; be/get bombed out of something",
+      "descriptionZh": "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+      "descriptionEn": "During the war, the family was bombed out of its home.",
+      "examples": [
+        {
+          "en": "During the war, the family was bombed out of its home.",
+          "zh": "戰爭期間,這家人的住所被炸毀,被迫離開家園。",
+          "highlight": "was bombed out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be/get carried away (with/by something)",
+      "titleZh": "因過度興奮或太投入而失去分寸",
+      "titleEn": "be/get carried away (with/by something)",
+      "descriptionZh": "因過度興奮或太投入而失去分寸",
+      "descriptionEn": "I got carried away with online shopping.",
+      "examples": [
+        {
+          "en": "I got carried away with online shopping.",
+          "zh": "我網上購物時過度投入,失去了分寸。",
+          "highlight": "I"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "be/get caught up in something",
+      "titleZh": "意外捲入某件事情;受到某個情況影響",
+      "titleEn": "be/get caught up in something",
+      "descriptionZh": "意外捲入某件事情;受到某個情況影響",
+      "descriptionEn": "Several visitors got caught up in the protest.",
+      "examples": [
+        {
+          "en": "Several visitors got caught up in the protest.",
+          "zh": "幾名遊客意外捲入示威。",
+          "highlight": "Several"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BE / GET 片語動詞的實際用途",
+    "labelEn": "BE / GET Phrasal Verbs in Use",
+    "summaryZh": "bogged down 可以描述車輛陷住,也可以描述項目因過多細節而無法推進。；carried away 表示某人過度興奮或投入,以致做得過火或失去分寸。；caught up in 可以描述某人意外受到交通、人群、爭執或其他情況影響。；banged up 是談論入獄的較口語說法;bombed out 則常用於戰爭、歷史和住所遭轟炸的情境。",
+    "summaryEn": "Bogged down can describe a vehicle that cannot move or a project that has become trapped in too many details. Carried away shows that someone becomes so excited or interested that they do too much or forget to control themselves. Caught up in can describe people affected by traffic, crowds, arguments, protests or other situations they did not plan to join. Banged up is an informal way to talk about imprisonment. Bombed out is often used when discussing wars, history and homes destroyed by bombing.",
+    "contextsZh": [
+      "描述無法移動或停滯不前",
+      "描述興奮過度",
+      "描述意外捲入事情",
+      "理解口語和歷史相關英語"
+    ],
+    "contextsEn": [
+      "Describe being unable to move or make progress",
+      "Explain when excitement goes too far",
+      "Talk about becoming involved unexpectedly",
+      "Understand informal and historical English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的片語表達。",
+    "formalEn": "Read the whole sentence and choose the expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "be/get banged up",
+    "fixedHighlight": "be/get banged up",
+    "fixedZh": "閱讀整句,選出意思相同的片語表達。",
+    "fixedEn": "Read the whole sentence and choose the expression that gives the same meaning.",
+    "correct": "was banged up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；有些表達本身已經完整,後面的字詞只是補充地點、事情或原因。；使用 caught up 時,通常以 in 加上所捲入的情況。",
+    "variableEn": "Keep the same people, things, time and meaning. Some expressions are complete without the words that follow: The van got bogged down. The family was bombed out. I got carried away. Extra words simply explain where, what or why: bogged down in the mud bombed out of their home carried away with shopping Use caught up in + a situation: caught up in traffic caught up in an argument",
+    "variableItemsZh": [
+      "be/get banged up",
+      "be/get bogged down (in something)",
+      "be/get bombed out; be/get bombed out of something",
+      "be/get carried away (with/by something)",
+      "be/get caught up in something"
+    ],
+    "variableItemsEn": [
+      "be/get banged up",
+      "be/get bogged down (in something)",
+      "be/get bombed out; be/get bombed out of something",
+      "be/get carried away (with/by something)",
+      "be/get caught up in something"
+    ],
+    "forms": [
+      {
+        "formZh": "較口語:被關進監獄;坐牢",
+        "formEn": "be/get banged up",
+        "exampleZh": "那名小偷被關進監獄三年。",
+        "exampleEn": "The thief was banged up for three years.",
+        "highlight": "was banged up"
+      },
+      {
+        "formZh": "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+        "formEn": "be/get bogged down (in something)",
+        "exampleZh": "客貨車陷在泥中,動彈不得。",
+        "exampleEn": "The van got bogged down in the mud.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+        "formEn": "be/get bombed out; be/get bombed out of something",
+        "exampleZh": "戰爭期間,這家人的住所被炸毀,被迫離開家園。",
+        "exampleEn": "During the war, the family was bombed out of its home.",
+        "highlight": "was bombed out"
+      },
+      {
+        "formZh": "因過度興奮或太投入而失去分寸",
+        "formEn": "be/get carried away (with/by something)",
+        "exampleZh": "我網上購物時過度投入,失去了分寸。",
+        "exampleEn": "I got carried away with online shopping.",
+        "highlight": "I"
+      },
+      {
+        "formZh": "意外捲入某件事情;受到某個情況影響",
+        "formEn": "be/get caught up in something",
+        "exampleZh": "幾名遊客意外捲入示威。",
+        "exampleEn": "Several visitors got caught up in the protest.",
+        "highlight": "Several"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "較口語:被關進監獄;坐牢",
+      "titleEn": "be/get banged up",
+      "formula": "be/get banged up",
+      "highlight": "be/get banged up",
+      "descriptionZh": "較口語:被關進監獄;坐牢",
+      "descriptionEn": "The thief was banged up for three years.",
+      "examples": [
+        {
+          "en": "The thief was banged up for three years.",
+          "zh": "那名小偷被關進監獄三年。",
+          "highlight": "was banged up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+      "titleEn": "be/get bogged down (in something)",
+      "formula": "be/get bogged down (in something)",
+      "highlight": "be/get bogged down (in something)",
+      "descriptionZh": "陷在泥、沙或濕地中,動彈不得;陷入細節或問題而停滯不前",
+      "descriptionEn": "The van got bogged down in the mud.",
+      "examples": [
+        {
+          "en": "The van got bogged down in the mud.",
+          "zh": "客貨車陷在泥中,動彈不得。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+      "titleEn": "be/get bombed out; be/get bombed out of something",
+      "formula": "be/get bombed out; be/get bombed out of something",
+      "highlight": "be/get bombed out; be/get bombed out of something",
+      "descriptionZh": "住所被炸毀而無家可歸;因轟炸被迫離開某處",
+      "descriptionEn": "During the war, the family was bombed out of its home.",
+      "examples": [
+        {
+          "en": "During the war, the family was bombed out of its home.",
+          "zh": "戰爭期間,這家人的住所被炸毀,被迫離開家園。",
+          "highlight": "was bombed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "因過度興奮或太投入而失去分寸",
+      "titleEn": "be/get carried away (with/by something)",
+      "formula": "be/get carried away (with/by something)",
+      "highlight": "be/get carried away (with/by something)",
+      "descriptionZh": "因過度興奮或太投入而失去分寸",
+      "descriptionEn": "I got carried away with online shopping.",
+      "examples": [
+        {
+          "en": "I got carried away with online shopping.",
+          "zh": "我網上購物時過度投入,失去了分寸。",
+          "highlight": "I"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "意外捲入某件事情;受到某個情況影響",
+      "titleEn": "be/get caught up in something",
+      "formula": "be/get caught up in something",
+      "highlight": "be/get caught up in something",
+      "descriptionZh": "意外捲入某件事情;受到某個情況影響",
+      "descriptionEn": "Several visitors got caught up in the protest.",
+      "examples": [
+        {
+          "en": "Several visitors got caught up in the protest.",
+          "zh": "幾名遊客意外捲入示威。",
+          "highlight": "Several"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述無法移動或停滯不前",
+      "titleEn": "Describe being unable to move or make progress",
+      "zh": "bogged down 可以描述車輛陷住,也可以描述項目因過多細節而無法推進。",
+      "en": "Bogged down can describe a vehicle that cannot move or a project that has become trapped in too many details."
+    },
+    {
+      "titleZh": "描述興奮過度",
+      "titleEn": "Explain when excitement goes too far",
+      "zh": "carried away 表示某人過度興奮或投入,以致做得過火或失去分寸。",
+      "en": "Carried away shows that someone becomes so excited or interested that they do too much or forget to control themselves."
+    },
+    {
+      "titleZh": "描述意外捲入事情",
+      "titleEn": "Talk about becoming involved unexpectedly",
+      "zh": "caught up in 可以描述某人意外受到交通、人群、爭執或其他情況影響。",
+      "en": "Caught up in can describe people affected by traffic, crowds, arguments, protests or other situations they did not plan to join."
+    },
+    {
+      "titleZh": "理解口語和歷史相關英語",
+      "titleEn": "Understand informal and historical English",
+      "zh": "banged up 是談論入獄的較口語說法;bombed out 則常用於戰爭、歷史和住所遭轟炸的情境。",
+      "en": "Banged up is an informal way to talk about imprisonment. Bombed out is often used when discussing wars, history and homes destroyed by bombing."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述無法移動或停滯不前",
+      "描述興奮過度",
+      "描述意外捲入事情",
+      "理解口語和歷史相關英語"
+    ],
+    "contextsEn": [
+      "Describe being unable to move or make progress",
+      "Explain when excitement goes too far",
+      "Talk about becoming involved unexpectedly",
+      "Understand informal and historical English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述無法移動或停滯不前",
+        "titleEn": "Describe being unable to move or make progress",
+        "zh": "bogged down 可以描述車輛陷住,也可以描述項目因過多細節而無法推進。",
+        "en": "Bogged down can describe a vehicle that cannot move or a project that has become trapped in too many details.",
+        "examples": [
+          {
+            "en": "The thief was banged up for three years.",
+            "zh": "那名小偷被關進監獄三年。",
+            "highlight": "was banged up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述興奮過度",
+        "titleEn": "Explain when excitement goes too far",
+        "zh": "carried away 表示某人過度興奮或投入,以致做得過火或失去分寸。",
+        "en": "Carried away shows that someone becomes so excited or interested that they do too much or forget to control themselves.",
+        "examples": [
+          {
+            "en": "The van got bogged down in the mud.",
+            "zh": "客貨車陷在泥中,動彈不得。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述意外捲入事情",
+        "titleEn": "Talk about becoming involved unexpectedly",
+        "zh": "caught up in 可以描述某人意外受到交通、人群、爭執或其他情況影響。",
+        "en": "Caught up in can describe people affected by traffic, crowds, arguments, protests or other situations they did not plan to join.",
+        "examples": [
+          {
+            "en": "During the war, the family was bombed out of its home.",
+            "zh": "戰爭期間,這家人的住所被炸毀,被迫離開家園。",
+            "highlight": "was bombed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解口語和歷史相關英語",
+        "titleEn": "Understand informal and historical English",
+        "zh": "banged up 是談論入獄的較口語說法;bombed out 則常用於戰爭、歷史和住所遭轟炸的情境。",
+        "en": "Banged up is an informal way to talk about imprisonment. Bombed out is often used when discussing wars, history and homes destroyed by bombing.",
+        "examples": [
+          {
+            "en": "I got carried away with online shopping.",
+            "zh": "我網上購物時過度投入,失去了分寸。",
+            "highlight": "I"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的片語表達。",
+      "titleEn": "Read the whole sentence and choose the expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的片語表達。",
+      "en": "Read the whole sentence and choose the expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "有些表達本身已經完整,後面的字詞只是補充地點、事情或原因。",
+      "titleEn": "Some expressions are complete without the words that follow: The van got bogged down.",
+      "zh": "有些表達本身已經完整,後面的字詞只是補充地點、事情或原因。",
+      "en": "Some expressions are complete without the words that follow: The van got bogged down. The family was bombed out. I got carried away. Extra words simply explain where, what or why: bogged down in the mud bombed out of their home carried away with shopping"
+    },
+    {
+      "titleZh": "使用 caught up 時,通常以 in 加上所捲入的情況。",
+      "titleEn": "Use caught up in + a situation: caught up in traffic caught up in an argument.",
+      "zh": "使用 caught up 時,通常以 in 加上所捲入的情況。",
+      "en": "Use caught up in + a situation: caught up in traffic caught up in an argument"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BE / GET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BE / GET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BE / GET 動詞片語句子改寫練習",
+    "titleEn": "BE / GET Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BE / GET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BE / GET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-317-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "I became so excited about decorating the room that I spent far more than planned.",
+      "promptZh": "我因佈置房間而變得太興奮,花費遠超原定預算。",
+      "starter": "I",
+      "answer": "I got so carried away with decorating the room that I spent far more than planned.",
+      "answerZh": "我因佈置房間而過度投入,花費遠超原定預算。",
+      "highlight": "got",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The van became stuck in the wet field.",
+      "promptZh": "客貨車陷在濕地裏,動彈不得。",
+      "starter": "The",
+      "answer": "The van got bogged down in the wet field.",
+      "answerZh": "客貨車陷在濕地裏,動彈不得。",
+      "highlight": "got bogged down",
+      "targetForm": "be/get bogged down (in something)",
+      "targetMeaningZh": "陷住;陷入問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The thief was sent to prison for two years.",
+      "promptZh": "那名小偷被判入獄兩年。",
+      "starter": "The",
+      "answer": "The thief was banged up for two years.",
+      "answerZh": "那名小偷被關進監獄兩年。",
+      "highlight": "was banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Several visitors were unexpectedly involved in the street protest.",
+      "promptZh": "幾名遊客意外捲入街頭示威。",
+      "starter": "Several",
+      "answer": "Several visitors got caught up in the street protest.",
+      "answerZh": "幾名遊客意外捲入街頭示威。",
+      "highlight": "got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "During the war, the family lost its home when bombs destroyed it.",
+      "promptZh": "戰爭期間,炸彈摧毀了這家人的住所,令他們無家可歸。",
+      "starter": "During",
+      "answer": "During the war, the family was bombed out.",
+      "answerZh": "戰爭期間,這家人的住所被炸毀,令他們無家可歸。",
+      "highlight": "was bombed out",
+      "targetForm": "be/get bombed out",
+      "targetMeaningZh": "住所被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo became too excited while bidding and offered far more than the bike was worth.",
+      "promptZh": "里奧競投時過於興奮,出價遠高於單車的實際價值。",
+      "starter": "Leo",
+      "answer": "Leo got carried away while bidding and offered far more than the bike was worth.",
+      "answerZh": "里奧競投時過度興奮,出價遠高於單車的實際價值。",
+      "highlight": "got carried away",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The police arrested the two men, and they were put in prison overnight.",
+      "promptZh": "警方拘捕了兩名男子,並把他們關押了一夜。",
+      "starter": "The",
+      "answer": "The police arrested the two men, and they were banged up overnight.",
+      "answerZh": "警方拘捕了兩名男子,並把他們關押了一夜。",
+      "highlight": "were banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The discussion stopped making progress because everyone focused on tiny details.",
+      "promptZh": "大家過分集中於細微事項,令討論停滯不前。",
+      "starter": "The",
+      "answer": "The discussion got bogged down in tiny details.",
+      "answerZh": "討論因過分糾纏細微事項而停滯不前。",
+      "highlight": "got bogged down in",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our bus was delayed because it became trapped in the heavy traffic after the concert.",
+      "promptZh": "音樂會後交通非常擠塞,我們的巴士因此受阻而延誤。",
+      "starter": "Our",
+      "answer": "Our bus was delayed because it got caught up in the heavy traffic after the concert.",
+      "answerZh": "音樂會後交通非常擠塞,我們的巴士因此受阻而延誤。",
+      "highlight": "was delayed because it got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Hundreds of residents had to leave their homes after bombing destroyed them.",
+      "promptZh": "住所遭轟炸摧毀後,數百名居民被迫離開家園。",
+      "starter": "Hundreds",
+      "answer": "Hundreds of residents were bombed out of their homes.",
+      "answerZh": "數百名居民因住所遭轟炸摧毀而被迫離開家園。",
+      "highlight": "were bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do not become so excited that you promise more than you can do.",
+      "promptZh": "不要興奮過度,答應超出自己能力範圍的事情。",
+      "starter": "Do",
+      "answer": "Do not get carried away and promise more than you can do.",
+      "answerZh": "不要興奮過度,答應超出自己能力範圍的事情。",
+      "highlight": "get carried away and",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The gang leader spent five years in prison.",
+      "promptZh": "那名幫派首領坐牢五年。",
+      "starter": "The",
+      "answer": "The gang leader was banged up for five years.",
+      "answerZh": "那名幫派首領坐牢五年。",
+      "highlight": "was banged up for",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The students may become involved in the argument if they stay here.",
+      "promptZh": "學生如果留在這裏,可能會捲入這場爭執。",
+      "starter": "The",
+      "answer": "The students may get caught up in the argument if they stay here.",
+      "answerZh": "學生如果留在這裏,可能會捲入這場爭執。",
+      "highlight": "get caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Why did the jeep become stuck in the soft sand?",
+      "promptZh": "吉普車為甚麼陷在鬆軟的沙地裏?",
+      "starter": "Why",
+      "answer": "Why did the jeep get bogged down in the soft sand?",
+      "answerZh": "吉普車為甚麼陷在鬆軟的沙地裏?",
+      "highlight": "get bogged down",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷在泥、沙或濕地中"
+    },
+    {
+      "id": "phrasal-verb-317-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We were enjoying the game so much that we forgot the last train.",
+      "promptZh": "我們太投入遊戲,以致忘記了尾班車。",
+      "starter": "We",
+      "answer": "We got so carried away with the game that we forgot the last train.",
+      "answerZh": "我們太投入遊戲,以致忘記了尾班車。",
+      "highlight": "We got so carried away with",
+      "targetForm": "be/get carried away with something",
+      "targetMeaningZh": "因太投入某事而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could he be sent to prison for breaking the law again?",
+      "promptZh": "他再次犯法,會否因此被關進監獄?",
+      "starter": "Could",
+      "answer": "Could he be banged up for breaking the law again?",
+      "answerZh": "他再次犯法,會否因此被關進監獄?",
+      "highlight": "be banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The family has had nowhere to live since bombs destroyed its flat.",
+      "promptZh": "自從炸彈摧毀他們的單位後,這家人便一直無處居住。",
+      "starter": "The",
+      "answer": "The family has had nowhere to live since it was bombed out of its flat.",
+      "answerZh": "自從單位被炸毀後,這家人便一直無處居住。",
+      "highlight": "it was bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The project is becoming unable to move forward because of too much paperwork.",
+      "promptZh": "這個項目因文書工作太多而逐漸無法推進。",
+      "starter": "The",
+      "answer": "The project is getting bogged down in too much paperwork.",
+      "answerZh": "這個項目正因文書工作太多而陷入停滯。",
+      "highlight": "is getting bogged down in",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have any passengers been affected by the delays caused by the strike?",
+      "promptZh": "有乘客受到罷工引起的延誤影響嗎?",
+      "starter": "Have",
+      "answer": "Have any passengers been caught up in the delays caused by the strike?",
+      "answerZh": "有乘客受到罷工引起的延誤影響嗎?",
+      "highlight": "been caught up in",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "She became too excited about planning the party and is now ordering things we do not need.",
+      "promptZh": "她因籌備派對而過於興奮,現在正訂購一些我們不需要的東西。",
+      "starter": "She",
+      "answer": "She got carried away with planning the party and is now ordering things we do not need.",
+      "answerZh": "她籌備派對時過度投入,現在正訂購一些我們不需要的東西。",
+      "highlight": "got carried away with",
+      "targetForm": "be/get carried away with something",
+      "targetMeaningZh": "因太投入某事而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The two robbers were put in prison after the trial.",
+      "promptZh": "審訊後,兩名劫匪被關進監獄。",
+      "starter": "The",
+      "answer": "The two robbers were banged up after the trial.",
+      "answerZh": "審訊後,兩名劫匪被關進監獄。",
+      "highlight": "were banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the neighbours have to leave their homes because bombing destroyed them?",
+      "promptZh": "鄰居是否因住所被轟炸摧毀而被迫離開家園?",
+      "starter": "Did",
+      "answer": "Did the neighbours get bombed out of their homes?",
+      "answerZh": "鄰居是否因住所被炸毀而被迫離開家園?",
+      "highlight": "get bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We must not spend so much time on small details that we stop making progress.",
+      "promptZh": "我們不可花太多時間糾纏小細節,以致停滯不前。",
+      "starter": "We",
+      "answer": "We must not get bogged down in small details.",
+      "answerZh": "我們不可過分糾纏小細節,以致停滯不前。",
+      "highlight": "get bogged down in",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A cyclist was unexpectedly involved in the crowd outside the stadium.",
+      "promptZh": "一名踏單車人士意外捲入體育館外的人群。",
+      "starter": "A",
+      "answer": "A cyclist got caught up in the crowd outside the stadium.",
+      "answerZh": "一名踏單車人士意外捲入體育館外的人群。",
+      "highlight": "got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old house was destroyed by bombs, so its owners had to move to another town.",
+      "promptZh": "那座舊屋遭炸彈摧毀,所以屋主只好搬到另一個城鎮。",
+      "starter": "The",
+      "answer": "The owners were bombed out of their old house and had to move to another town.",
+      "answerZh": "舊屋被炸毀後,屋主被迫搬到另一個城鎮。",
+      "highlight": "owners were bombed out of their",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The car had become stuck in mud before help arrived.",
+      "promptZh": "救援到達前,汽車已陷在泥中,動彈不得。",
+      "starter": "The",
+      "answer": "The car had got bogged down in mud before help arrived.",
+      "answerZh": "救援到達前,汽車已陷在泥中,動彈不得。",
+      "highlight": "got bogged down",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷在泥、沙或濕地中"
+    },
+    {
+      "id": "phrasal-verb-317-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "He did not want to spend the rest of his life in prison.",
+      "promptZh": "他不想在監獄中度過餘生。",
+      "starter": "He",
+      "answer": "He did not want to be banged up for the rest of his life.",
+      "answerZh": "他不想在監獄中度過餘生。",
+      "highlight": "be banged up for",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The sale was exciting, and we ended up buying six things we had not planned to buy.",
+      "promptZh": "減價活動令人十分興奮,我們最後買了六件原本沒有打算購買的東西。",
+      "starter": "We",
+      "answer": "We got carried away at the sale and ended up buying six things we had not planned to buy.",
+      "answerZh": "我們在減價活動中過度興奮,最後買了六件原本沒有打算購買的東西。",
+      "highlight": "We got carried away at",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I was trying to leave, but I became involved in their long discussion about money.",
+      "promptZh": "我本來想離開,卻捲入了他們有關金錢的長時間討論。",
+      "starter": "I",
+      "answer": "I was trying to leave, but I got caught up in their long discussion about money.",
+      "answerZh": "我本來想離開,卻捲入了他們有關金錢的長時間討論。",
+      "highlight": "was trying to leave, but I got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children became so excited by the music that they ran onto the stage.",
+      "promptZh": "孩子們被音樂弄得過度興奮,跑上了舞台。",
+      "starter": "The",
+      "answer": "The children were so carried away by the music that they ran onto the stage.",
+      "answerZh": "孩子們被音樂弄得過度興奮,跑上了舞台。",
+      "highlight": "were",
+      "targetForm": "be/get carried away by something",
+      "targetMeaningZh": "因某事物而過度興奮或失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the end of the war, many families had lost their homes because of bombing.",
+      "promptZh": "戰爭結束時,許多家庭的住所已因轟炸而被摧毀。",
+      "starter": "By",
+      "answer": "By the end of the war, many families had been bombed out.",
+      "answerZh": "戰爭結束時,許多家庭的住所已因轟炸而被摧毀。",
+      "highlight": "been bombed out",
+      "targetForm": "be/get bombed out",
+      "targetMeaningZh": "住所被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Anyone who was sent to prison had to work in the kitchen.",
+      "promptZh": "任何被關進監獄的人都要在廚房工作。",
+      "starter": "Anyone",
+      "answer": "Anyone who was banged up had to work in the kitchen.",
+      "answerZh": "任何被關進監獄的人都要在廚房工作。",
+      "highlight": "was banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The meeting should have ended at four, but it became stuck in an argument about the colour of the walls.",
+      "promptZh": "會議本應在四時結束,卻因牆壁顏色的爭論而停滯不前。",
+      "starter": "The",
+      "answer": "The meeting should have ended at four, but it got bogged down in an argument about the colour of the walls.",
+      "answerZh": "會議本應在四時結束,卻因牆壁顏色的爭論而停滯不前。",
+      "highlight": "got bogged down",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節、問題或爭論而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I nearly became too excited and bought the most expensive camera.",
+      "promptZh": "我差點因太興奮而買下最昂貴的相機。",
+      "starter": "I",
+      "answer": "I nearly got carried away and bought the most expensive camera.",
+      "answerZh": "我差點因太興奮而買下最昂貴的相機。",
+      "highlight": "got carried away",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although bombs damaged the street, the family did not lose its home.",
+      "promptZh": "雖然炸彈破壞了街道,但這家人沒有失去住所。",
+      "starter": "Although",
+      "answer": "Although bombs damaged the street, the family was not bombed out.",
+      "answerZh": "雖然炸彈破壞了街道,但這家人沒有因住所被毀而無家可歸。",
+      "highlight": "was",
+      "targetForm": "be/get bombed out",
+      "targetMeaningZh": "住所被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The runner was not part of the fight, but she became involved when the crowd moved towards her.",
+      "promptZh": "那名跑手原本沒有參與打鬥,但人群移向她時,她卻捲入其中。",
+      "starter": "The",
+      "answer": "The runner was not part of the fight, but she got caught up in it when the crowd moved towards her.",
+      "answerZh": "那名跑手原本沒有參與打鬥,但人群移向她時,她卻捲入其中。",
+      "highlight": "was not part of the fight, but she got caught up in it",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team had a clear goal, but after weeks of discussing small changes, it was no longer making progress.",
+      "promptZh": "團隊本來有清晰目標,但經過數星期討論小改動後,工作已停滯不前。",
+      "starter": "The",
+      "answer": "The team had a clear goal, but after weeks of discussion it got bogged down in small changes.",
+      "answerZh": "團隊本來有清晰目標,但經過數星期討論後,工作因小改動而停滯不前。",
+      "highlight": "discussion it got bogged down in",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "People waiting for the train were unexpectedly affected by the football fans’ argument.",
+      "promptZh": "等候火車的人意外受到球迷爭執影響。",
+      "starter": "People",
+      "answer": "People waiting for the train got caught up in the football fans’ argument.",
+      "answerZh": "等候火車的人意外捲入球迷的爭執。",
+      "highlight": "got caught up in",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The judge warned that he could spend several years in prison if he broke the order again.",
+      "promptZh": "法官警告他,如果再次違反命令,可能要坐牢數年。",
+      "starter": "The",
+      "answer": "The judge warned that he could be banged up for several years if he broke the order again.",
+      "answerZh": "法官警告他,如果再次違反命令,可能要坐牢數年。",
+      "highlight": "be banged up for",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The crowd became too excited by the final song and kept cheering for another twenty minutes.",
+      "promptZh": "觀眾被最後一首歌弄得過度興奮,再歡呼了二十分鐘。",
+      "starter": "The",
+      "answer": "The crowd got carried away by the final song and kept cheering for another twenty minutes.",
+      "answerZh": "觀眾被最後一首歌弄得過度興奮,再歡呼了二十分鐘。",
+      "highlight": "got carried away",
+      "targetForm": "be/get carried away by something",
+      "targetMeaningZh": "因某事物而過度興奮或失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "In the novel, the children are forced to leave their house after bombing destroys it.",
+      "promptZh": "在小說中,孩子們的房子被炸毀,因此被迫離開。",
+      "starter": "In",
+      "answer": "In the novel, the children get bombed out of their house.",
+      "answerZh": "在小說中,孩子們的房子被炸毀,因此被迫離開。",
+      "highlight": "get bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not let the report become trapped in numbers that do not matter.",
+      "promptZh": "不要讓報告過分糾纏於無關重要的數字而停滯。",
+      "starter": "Do",
+      "answer": "Do not let the report get bogged down in numbers that do not matter.",
+      "answerZh": "不要讓報告過分糾纏於無關重要的數字而停滯。",
+      "highlight": "get bogged down",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She only went to the shop for bread, but she became involved in a heated argument between two customers.",
+      "promptZh": "她只是到店舖買麵包,卻捲入兩名顧客的激烈爭執。",
+      "starter": "She",
+      "answer": "She only went to the shop for bread, but she got caught up in a heated argument between two customers.",
+      "answerZh": "她只是到店舖買麵包,卻捲入兩名顧客的激烈爭執。",
+      "highlight": "bread, but she got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the police found the stolen paintings, three members of the group ended up in prison.",
+      "promptZh": "警方找到失竊畫作後,該組織有三名成員最終被關進監獄。",
+      "starter": "After",
+      "answer": "After the police found the stolen paintings, three members of the group got banged up.",
+      "answerZh": "警方找到失竊畫作後,該組織有三名成員最終被關進監獄。",
+      "highlight": "got banged",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Ravi was supposed to give a two-minute answer, but he became too enthusiastic and spoke for ten.",
+      "promptZh": "拉維本應回答兩分鐘,卻因過度投入而說了十分鐘。",
+      "starter": "Ravi",
+      "answer": "Ravi was supposed to give a two-minute answer, but he got carried away and spoke for ten.",
+      "answerZh": "拉維本應回答兩分鐘,卻因過度投入而說了十分鐘。",
+      "highlight": "he got carried away",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The first car crossed the field easily, but the second one became stuck before reaching the gate.",
+      "promptZh": "第一輛車輕易駛過田野,但第二輛車在到達閘門前陷住了。",
+      "starter": "The",
+      "answer": "The first car crossed the field easily, but the second one got bogged down before reaching the gate.",
+      "answerZh": "第一輛車輕易駛過田野,但第二輛車在到達閘門前陷住了。",
+      "highlight": "got bogged down",
+      "targetForm": "be/get bogged down",
+      "targetMeaningZh": "陷住;無法繼續移動"
+    },
+    {
+      "id": "phrasal-verb-317-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The museum remained open, even though several nearby families had been forced from their homes by bombing.",
+      "promptZh": "博物館仍然開放,儘管附近有幾個家庭因住所遭轟炸而被迫離開。",
+      "starter": "The",
+      "answer": "The museum remained open, even though several nearby families had been bombed out of their homes.",
+      "answerZh": "博物館仍然開放,儘管附近有幾個家庭因住所遭轟炸而被迫離開。",
+      "highlight": "been bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "While filming the parade, the reporter unexpectedly became involved in the police operation.",
+      "promptZh": "拍攝巡遊期間,記者意外捲入警方的行動。",
+      "starter": "While",
+      "answer": "While filming the parade, the reporter got caught up in the police operation.",
+      "answerZh": "拍攝巡遊期間,記者意外捲入警方的行動。",
+      "highlight": "got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The man claimed that he had changed, but he was still sent to prison for another year.",
+      "promptZh": "那名男子聲稱自己已經改過,但仍被判再坐牢一年。",
+      "starter": "The",
+      "answer": "The man claimed that he had changed, but he was still banged up for another year.",
+      "answerZh": "那名男子聲稱自己已經改過,但仍被關進監獄多一年。",
+      "highlight": "was still banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family had already moved twice before bombing destroyed its third home.",
+      "promptZh": "炸彈摧毀這家人的第三個住所前,他們已經搬過兩次。",
+      "starter": "The",
+      "answer": "The family had already moved twice before it was bombed out of its third home.",
+      "answerZh": "第三個住所被炸毀前,這家人已經搬過兩次。",
+      "highlight": "it was bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I planned to buy one book, but the special offers excited me so much that I left with seven.",
+      "promptZh": "我原本只打算買一本書,但特價優惠令我過度興奮,最後買了七本。",
+      "starter": "I",
+      "answer": "I planned to buy one book, but I got carried away by the special offers and left with seven.",
+      "answerZh": "我原本只打算買一本書,但特價優惠令我過度興奮,最後買了七本。",
+      "highlight": "I got carried away by",
+      "targetForm": "be/get carried away by something",
+      "targetMeaningZh": "因某事物而過度興奮或失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The rescue truck was almost at the farm when its wheels sank into the wet ground and it could not move.",
+      "promptZh": "救援貨車幾乎到達農場時,車輪陷入濕地,無法移動。",
+      "starter": "The",
+      "answer": "The rescue truck was almost at the farm when it got bogged down in the wet ground.",
+      "answerZh": "救援貨車幾乎到達農場時,卻陷在濕地裏,無法移動。",
+      "highlight": "was almost at the farm when it got bogged down in",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷在泥、沙或濕地中"
+    },
+    {
+      "id": "phrasal-verb-317-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although she had nothing to do with the dispute, she became involved when both sides asked her to choose.",
+      "promptZh": "雖然她與爭議無關,但雙方要求她表態時,她便捲入其中。",
+      "starter": "Although",
+      "answer": "Although she had nothing to do with the dispute, she got caught up in it when both sides asked her to choose.",
+      "answerZh": "雖然她與爭議無關,但雙方要求她表態時,她便捲入其中。",
+      "highlight": "got caught up in it",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "If the police prove that the group planned the robbery, its leaders may be sent to prison for a long time.",
+      "promptZh": "如果警方證實該組織策劃劫案,其領袖可能會長期入獄。",
+      "starter": "If",
+      "answer": "If the police prove that the group planned the robbery, its leaders may be banged up for a long time.",
+      "answerZh": "如果警方證實該組織策劃劫案,其領袖可能會長期入獄。",
+      "highlight": "be banged up",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The old man returned after the war and found that bombing had destroyed his house, leaving him with nowhere to live.",
+      "promptZh": "老人戰後回來,發現房子已遭轟炸摧毀,自己無處居住。",
+      "starter": "The",
+      "answer": "The old man returned after the war and found that he had been bombed out of his house and had nowhere to live.",
+      "answerZh": "老人戰後回來,發現房子已遭轟炸摧毀,自己無處居住。",
+      "highlight": "he",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    },
+    {
+      "id": "phrasal-verb-317-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "We had plenty of ideas, but the planning process became so involved in small questions that no final decision was made.",
+      "promptZh": "我們有很多構思,但規劃過程過分糾纏小問題,最終沒有作出決定。",
+      "starter": "We",
+      "answer": "We had plenty of ideas, but the planning process got bogged down in small questions, so no final decision was made.",
+      "answerZh": "我們有很多構思,但規劃過程過分糾纏小問題,最終沒有作出決定。",
+      "highlight": "got bogged down",
+      "targetForm": "be/get bogged down in something",
+      "targetMeaningZh": "陷入細節或問題而停滯不前"
+    },
+    {
+      "id": "phrasal-verb-317-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The tourists were trying to return to their hotel, but they became trapped in the confusion around the march.",
+      "promptZh": "遊客正嘗試返回酒店,卻陷入遊行周圍的混亂之中。",
+      "starter": "The",
+      "answer": "The tourists were trying to return to their hotel, but they got caught up in the confusion around the march.",
+      "answerZh": "遊客正嘗試返回酒店,卻陷入遊行周圍的混亂之中。",
+      "highlight": "were trying to return to their hotel, but they got caught up",
+      "targetForm": "be/get caught up in something",
+      "targetMeaningZh": "意外捲入或受到某情況影響"
+    },
+    {
+      "id": "phrasal-verb-317-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The team had promised a simple celebration, but after winning the cup, everyone became overexcited and planned a three-day event.",
+      "promptZh": "球隊原本答應只作簡單慶祝,但贏得獎盃後,大家過度興奮,計劃了一場為期三天的活動。",
+      "starter": "The",
+      "answer": "The team had promised a simple celebration, but after winning the cup, everyone got carried away and planned a three-day event.",
+      "answerZh": "球隊原本答應只作簡單慶祝,但贏得獎盃後,大家過度興奮,計劃了一場為期三天的活動。",
+      "highlight": "got carried away",
+      "targetForm": "be/get carried away",
+      "targetMeaningZh": "因過度興奮或太投入而失去分寸"
+    },
+    {
+      "id": "phrasal-verb-317-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The officer said that anyone who attacked another passenger could end up in prison, even if nobody was badly hurt.",
+      "promptZh": "警員表示,任何襲擊其他乘客的人都可能最終入獄,即使沒有人嚴重受傷。",
+      "starter": "The",
+      "answer": "The officer said that anyone who attacked another passenger could get banged up, even if nobody was badly hurt.",
+      "answerZh": "警員表示,任何襲擊其他乘客的人都可能最終入獄,即使沒有人嚴重受傷。",
+      "highlight": "get banged",
+      "targetForm": "be/get banged up",
+      "targetMeaningZh": "較口語:被關進監獄;坐牢"
+    },
+    {
+      "id": "phrasal-verb-317-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "After bombs destroyed their old school, the pupils moved into another building.",
+      "promptZh": "舊校舍遭炸彈摧毀後,學生搬到另一座大樓上課。",
+      "starter": "After",
+      "answer": "After they were bombed out of their old school, the pupils moved into another building.",
+      "answerZh": "舊校舍遭炸彈摧毀後,學生搬到另一座大樓上課。",
+      "highlight": "they were bombed out of",
+      "targetForm": "be/get bombed out of something",
+      "targetMeaningZh": "某處被炸毀而被迫離開"
+    }
+  ]
+}

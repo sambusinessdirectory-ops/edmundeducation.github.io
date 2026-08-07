@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-310",
+  "order": 310,
+  "slug": "serve",
+  "version": "1",
+  "title": "SERVE 動詞片語",
+  "titleEn": "Serve",
+  "titleZh": "SERVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 295 - SERVE.pdf",
+    "sourceNumber": 295,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SERVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SERVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SERVE",
+      "highlight": "SERVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "An old box served as a table, and the back room served for storage.",
+      "zh": "舊箱子被用作桌子,而後面的房間則用作儲物。",
+      "highlight": "served as a table, and the back room served for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The police served a summons on Mr Jackson.",
+      "zh": "警方正式把一張傳票送交 Jackson 先生。",
+      "highlight": "served a summons on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She served out the rest of her sentence in an open prison.",
+      "zh": "她在一所開放式監獄服完餘下刑期。",
+      "highlight": "served out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "用作某物;充當某種角色;作某種用途；正式把傳票、通知、法庭命令或其他法律文件送交某人；服滿刑期;服完剩餘刑期；端上或供應食物",
+    "en": "serve as something / serve for something; serve something on/upon somebody / serve somebody with something; serve something out; serve something up",
+    "naturalZh": [
+      "用作某物;充當某種角色;作某種用途",
+      "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+      "服滿刑期;服完剩餘刑期",
+      "端上或供應食物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "serve as something / serve for something",
+      "titleZh": "用作某物;充當某種角色;作某種用途",
+      "titleEn": "serve as something / serve for something",
+      "descriptionZh": "用作某物;充當某種角色;作某種用途",
+      "descriptionEn": "An old box served as a table, and the back room served for storage.",
+      "examples": [
+        {
+          "en": "An old box served as a table, and the back room served for storage.",
+          "zh": "舊箱子被用作桌子,而後面的房間則用作儲物。",
+          "highlight": "served as a table, and the back room served for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "serve something on/upon somebody / serve somebody with something",
+      "titleZh": "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+      "titleEn": "serve something on/upon somebody / serve somebody with something",
+      "descriptionZh": "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+      "descriptionEn": "The police served a summons on Mr Jackson.",
+      "examples": [
+        {
+          "en": "The police served a summons on Mr Jackson.",
+          "zh": "警方正式把一張傳票送交 Jackson 先生。",
+          "highlight": "served a summons on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "serve something out",
+      "titleZh": "服滿刑期;服完剩餘刑期",
+      "titleEn": "serve something out",
+      "descriptionZh": "服滿刑期;服完剩餘刑期",
+      "descriptionEn": "She served out the rest of her sentence in an open prison.",
+      "examples": [
+        {
+          "en": "She served out the rest of her sentence in an open prison.",
+          "zh": "她在一所開放式監獄服完餘下刑期。",
+          "highlight": "served out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "serve something up",
+      "titleZh": "端上或供應食物",
+      "titleEn": "serve something up",
+      "descriptionZh": "端上或供應食物",
+      "descriptionEn": "He served up a delicious meal.",
+      "examples": [
+        {
+          "en": "He served up a delicious meal.",
+          "zh": "他端上了一頓美味的飯菜。",
+          "highlight": "served up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SERVE 片語動詞的實際用途",
+    "labelEn": "SERVE Phrasal Verbs in Use",
+    "summaryZh": "serve as 和 serve for 可以表示某物有另一種角色或用途,例如把箱子用作桌子。；serve a notice on somebody 和 serve somebody with a notice 常用來表示正式送交法律文件。；serve something out 可以清楚表示某人服完整段刑期或餘下刑期。；serve something up 可以自然地表示準備食物,並把食物端給別人享用。",
+    "summaryEn": "Serve as and serve for help you explain that something has a different role or purpose, such as a box being used as a table. Serve a notice on somebody and serve somebody with a notice commonly describe the official delivery of legal documents. Serve something out makes it clear that a person completes the whole sentence or its remaining part. Serve something up is a natural way to talk about preparing food and placing it before people to eat.",
+    "contextsZh": [
+      "說明物件或地方的用途",
+      "理解正式通知和法律情境",
+      "談論服滿刑期",
+      "描述端上或供應食物"
+    ],
+    "contextsEn": [
+      "Explain how an object or place is being used",
+      "Understand formal notices and legal situations",
+      "Talk about completing a prison sentence",
+      "Describe food being brought to people"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SERVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SERVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "serve as something / serve for something",
+    "fixedHighlight": "serve as something / serve for something",
+    "fixedZh": "閱讀整句,選出意思相同的 SERVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SERVE expression that gives the same meaning.",
+    "correct": "served as a table, and the back room served for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；表示某事物充當甚麼時,可使用 serve as;表示某種用途時,可使用 serve for。；請仔細留意以上例子中的詞語位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Use serve as before a role or object, and serve for before a purpose: serve as a table serve for storage Follow these models carefully: serve a notice on somebody serve a notice upon somebody serve somebody with a notice serve the meal up serve up the meal serve it up",
+    "variableItemsZh": [
+      "serve as something / serve for something",
+      "serve something on/upon somebody / serve somebody with something",
+      "serve something out",
+      "serve something up"
+    ],
+    "variableItemsEn": [
+      "serve as something / serve for something",
+      "serve something on/upon somebody / serve somebody with something",
+      "serve something out",
+      "serve something up"
+    ],
+    "forms": [
+      {
+        "formZh": "用作某物;充當某種角色;作某種用途",
+        "formEn": "serve as something / serve for something",
+        "exampleZh": "舊箱子被用作桌子,而後面的房間則用作儲物。",
+        "exampleEn": "An old box served as a table, and the back room served for storage.",
+        "highlight": "served as a table, and the back room served for"
+      },
+      {
+        "formZh": "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+        "formEn": "serve something on/upon somebody / serve somebody with something",
+        "exampleZh": "警方正式把一張傳票送交 Jackson 先生。",
+        "exampleEn": "The police served a summons on Mr Jackson.",
+        "highlight": "served a summons on"
+      },
+      {
+        "formZh": "服滿刑期;服完剩餘刑期",
+        "formEn": "serve something out",
+        "exampleZh": "她在一所開放式監獄服完餘下刑期。",
+        "exampleEn": "She served out the rest of her sentence in an open prison.",
+        "highlight": "served out"
+      },
+      {
+        "formZh": "端上或供應食物",
+        "formEn": "serve something up",
+        "exampleZh": "他端上了一頓美味的飯菜。",
+        "exampleEn": "He served up a delicious meal.",
+        "highlight": "served up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "用作某物;充當某種角色;作某種用途",
+      "titleEn": "serve as something / serve for something",
+      "formula": "serve as something / serve for something",
+      "highlight": "serve as something / serve for something",
+      "descriptionZh": "用作某物;充當某種角色;作某種用途",
+      "descriptionEn": "An old box served as a table, and the back room served for storage.",
+      "examples": [
+        {
+          "en": "An old box served as a table, and the back room served for storage.",
+          "zh": "舊箱子被用作桌子,而後面的房間則用作儲物。",
+          "highlight": "served as a table, and the back room served for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+      "titleEn": "serve something on/upon somebody / serve somebody with something",
+      "formula": "serve something on/upon somebody / serve somebody with something",
+      "highlight": "serve something on/upon somebody / serve somebody with something",
+      "descriptionZh": "正式把傳票、通知、法庭命令或其他法律文件送交某人",
+      "descriptionEn": "The police served a summons on Mr Jackson.",
+      "examples": [
+        {
+          "en": "The police served a summons on Mr Jackson.",
+          "zh": "警方正式把一張傳票送交 Jackson 先生。",
+          "highlight": "served a summons on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "服滿刑期;服完剩餘刑期",
+      "titleEn": "serve something out",
+      "formula": "serve something out",
+      "highlight": "serve something out",
+      "descriptionZh": "服滿刑期;服完剩餘刑期",
+      "descriptionEn": "She served out the rest of her sentence in an open prison.",
+      "examples": [
+        {
+          "en": "She served out the rest of her sentence in an open prison.",
+          "zh": "她在一所開放式監獄服完餘下刑期。",
+          "highlight": "served out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "端上或供應食物",
+      "titleEn": "serve something up",
+      "formula": "serve something up",
+      "highlight": "serve something up",
+      "descriptionZh": "端上或供應食物",
+      "descriptionEn": "He served up a delicious meal.",
+      "examples": [
+        {
+          "en": "He served up a delicious meal.",
+          "zh": "他端上了一頓美味的飯菜。",
+          "highlight": "served up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "說明物件或地方的用途",
+      "titleEn": "Explain how an object or place is being used",
+      "zh": "serve as 和 serve for 可以表示某物有另一種角色或用途,例如把箱子用作桌子。",
+      "en": "Serve as and serve for help you explain that something has a different role or purpose, such as a box being used as a table."
+    },
+    {
+      "titleZh": "理解正式通知和法律情境",
+      "titleEn": "Understand formal notices and legal situations",
+      "zh": "serve a notice on somebody 和 serve somebody with a notice 常用來表示正式送交法律文件。",
+      "en": "Serve a notice on somebody and serve somebody with a notice commonly describe the official delivery of legal documents."
+    },
+    {
+      "titleZh": "談論服滿刑期",
+      "titleEn": "Talk about completing a prison sentence",
+      "zh": "serve something out 可以清楚表示某人服完整段刑期或餘下刑期。",
+      "en": "Serve something out makes it clear that a person completes the whole sentence or its remaining part."
+    },
+    {
+      "titleZh": "描述端上或供應食物",
+      "titleEn": "Describe food being brought to people",
+      "zh": "serve something up 可以自然地表示準備食物,並把食物端給別人享用。",
+      "en": "Serve something up is a natural way to talk about preparing food and placing it before people to eat."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "說明物件或地方的用途",
+      "理解正式通知和法律情境",
+      "談論服滿刑期",
+      "描述端上或供應食物"
+    ],
+    "contextsEn": [
+      "Explain how an object or place is being used",
+      "Understand formal notices and legal situations",
+      "Talk about completing a prison sentence",
+      "Describe food being brought to people"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "說明物件或地方的用途",
+        "titleEn": "Explain how an object or place is being used",
+        "zh": "serve as 和 serve for 可以表示某物有另一種角色或用途,例如把箱子用作桌子。",
+        "en": "Serve as and serve for help you explain that something has a different role or purpose, such as a box being used as a table.",
+        "examples": [
+          {
+            "en": "An old box served as a table, and the back room served for storage.",
+            "zh": "舊箱子被用作桌子,而後面的房間則用作儲物。",
+            "highlight": "served as a table, and the back room served for"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解正式通知和法律情境",
+        "titleEn": "Understand formal notices and legal situations",
+        "zh": "serve a notice on somebody 和 serve somebody with a notice 常用來表示正式送交法律文件。",
+        "en": "Serve a notice on somebody and serve somebody with a notice commonly describe the official delivery of legal documents.",
+        "examples": [
+          {
+            "en": "The police served a summons on Mr Jackson.",
+            "zh": "警方正式把一張傳票送交 Jackson 先生。",
+            "highlight": "served a summons on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論服滿刑期",
+        "titleEn": "Talk about completing a prison sentence",
+        "zh": "serve something out 可以清楚表示某人服完整段刑期或餘下刑期。",
+        "en": "Serve something out makes it clear that a person completes the whole sentence or its remaining part.",
+        "examples": [
+          {
+            "en": "She served out the rest of her sentence in an open prison.",
+            "zh": "她在一所開放式監獄服完餘下刑期。",
+            "highlight": "served out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述端上或供應食物",
+        "titleEn": "Describe food being brought to people",
+        "zh": "serve something up 可以自然地表示準備食物,並把食物端給別人享用。",
+        "en": "Serve something up is a natural way to talk about preparing food and placing it before people to eat.",
+        "examples": [
+          {
+            "en": "He served up a delicious meal.",
+            "zh": "他端上了一頓美味的飯菜。",
+            "highlight": "served up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SERVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SERVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SERVE 片語動詞。",
+      "en": "Read the whole sentence and choose the SERVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "表示某事物充當甚麼時,可使用 serve as;表示某種用途時,可使用 serve for。",
+      "titleEn": "Use serve as before a role or object, and serve for before a purpose: serve as a table serve for storage.",
+      "zh": "表示某事物充當甚麼時,可使用 serve as;表示某種用途時,可使用 serve for。",
+      "en": "Use serve as before a role or object, and serve for before a purpose: serve as a table serve for storage"
+    },
+    {
+      "titleZh": "請仔細留意以上例子中的詞語位置。",
+      "titleEn": "Follow these models carefully: serve a notice on somebody serve a notice upon somebody serve somebody with a notice serve the meal up serve up the meal serve it up.",
+      "zh": "請仔細留意以上例子中的詞語位置。",
+      "en": "Follow these models carefully: serve a notice on somebody serve a notice upon somebody serve somebody with a notice serve the meal up serve up the meal serve it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SERVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SERVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SERVE 動詞片語句子改寫練習",
+    "titleEn": "SERVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SERVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SERVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-310-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "An old box was used as a table.",
+      "promptZh": "舊箱子被用作桌子。",
+      "starter": "An",
+      "answer": "An old box served as a table.",
+      "answerZh": "舊箱子被用作桌子。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "At seven, the café provided a hot breakfast.",
+      "promptZh": "七時,咖啡店供應了一頓熱早餐。",
+      "starter": "At",
+      "answer": "At seven, the café served up a hot breakfast.",
+      "answerZh": "七時,咖啡店端上了一頓熱早餐。",
+      "highlight": "served up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Yesterday, the court officially delivered a notice to Daniel.",
+      "promptZh": "昨天,法庭正式把一份通知送交 Daniel。",
+      "starter": "Yesterday",
+      "answer": "Yesterday, the court served a notice on Daniel.",
+      "answerZh": "昨天,法庭正式把一份通知送交 Daniel。",
+      "highlight": "served",
+      "targetForm": "serve something on somebody",
+      "targetMeaningZh": "正式把法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Lena spent the rest of her sentence in an open prison.",
+      "promptZh": "Lena 在一所開放式監獄度過餘下刑期。",
+      "starter": "Lena",
+      "answer": "Lena served out the rest of her sentence in an open prison.",
+      "answerZh": "Lena 在一所開放式監獄服完餘下刑期。",
+      "highlight": "served out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "This empty shop can be used as a classroom.",
+      "promptZh": "這間空置店舖可以用作課室。",
+      "starter": "This",
+      "answer": "This empty shop can serve as a classroom.",
+      "answerZh": "這間空置店舖可以用作課室。",
+      "highlight": "serve",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The police officially gave Mr Jackson a summons yesterday.",
+      "promptZh": "警方昨天正式把一張傳票交給 Jackson 先生。",
+      "starter": "The",
+      "answer": "The police served Mr Jackson with a summons yesterday.",
+      "answerZh": "警方昨天正式把一張傳票送交 Jackson 先生。",
+      "highlight": "served",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad brought the soup to the table in large bowls.",
+      "promptZh": "爸爸用大碗把湯端到桌上。",
+      "starter": "Dad",
+      "answer": "Dad served the soup up in large bowls.",
+      "answerZh": "爸爸用大碗把湯端上桌。",
+      "highlight": "served",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "During the storm, the school hall was used as a safe place.",
+      "promptZh": "暴風雨期間,學校禮堂被用作安全的暫避地方。",
+      "starter": "During",
+      "answer": "During the storm, the school hall served as a safe place.",
+      "answerZh": "暴風雨期間,學校禮堂被用作安全的暫避地方。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He must complete the full three-year sentence.",
+      "promptZh": "他必須服完整段三年刑期。",
+      "starter": "He",
+      "answer": "He must serve out the full three-year sentence.",
+      "answerZh": "他必須服完整段三年刑期。",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "A lawyer officially delivered the papers to the company director.",
+      "promptZh": "一名律師正式把文件送交公司董事。",
+      "starter": "A",
+      "answer": "A lawyer served the papers upon the company director.",
+      "answerZh": "一名律師正式把文件送交公司董事。",
+      "highlight": "served",
+      "targetForm": "serve something upon somebody",
+      "targetMeaningZh": "正式把法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The prisoner is spending the final month of his sentence in a smaller prison.",
+      "promptZh": "該名囚犯正在一所較小的監獄度過刑期的最後一個月。",
+      "starter": "The",
+      "answer": "The prisoner is serving out the final month of his sentence in a smaller prison.",
+      "answerZh": "該名囚犯正在一所較小的監獄服完刑期的最後一個月。",
+      "highlight": "serving out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Last week, the landlord officially gave the tenant a formal notice.",
+      "promptZh": "上星期,業主正式向租客發出通知。",
+      "starter": "Last",
+      "answer": "Last week, the landlord served the tenant with a formal notice.",
+      "answerZh": "上星期,業主正式向租客發出通知。",
+      "highlight": "served",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把通知或法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "This week, the spare room is being used as a study.",
+      "promptZh": "這星期,備用房間正被用作書房。",
+      "starter": "This",
+      "answer": "This week, the spare room is serving as a study.",
+      "answerZh": "這星期,備用房間正被用作書房。",
+      "highlight": "serving",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Right now, the cook is giving the guests rice and vegetables.",
+      "promptZh": "廚師現在正把米飯和蔬菜端給客人。",
+      "starter": "Right",
+      "answer": "Right now, the cook is serving up rice and vegetables.",
+      "answerZh": "廚師現在正把米飯和蔬菜端給客人。",
+      "highlight": "serving up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why was the shop owner officially given a court order?",
+      "promptZh": "店主為何正式收到一項法庭命令?",
+      "starter": "Why",
+      "answer": "Why was the shop owner served with a court order?",
+      "answerZh": "店主為何正式收到一項法庭命令?",
+      "highlight": "served with",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把法庭命令或法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "By next June, he will have completed his sentence.",
+      "promptZh": "到明年六月,他將已服滿刑期。",
+      "starter": "By",
+      "answer": "By next June, he will have served out his sentence.",
+      "answerZh": "到明年六月,他將已服滿刑期。",
+      "highlight": "served out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Could this bench be used as a bed for one night?",
+      "promptZh": "這張長椅可以用作一晚的睡床嗎?",
+      "starter": "Could",
+      "answer": "Could this bench serve as a bed for one night?",
+      "answerZh": "這張長椅可以用作一晚的睡床嗎?",
+      "highlight": "serve",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They may officially give the company legal papers tomorrow.",
+      "promptZh": "他們明天可能會正式把法律文件送交該公司。",
+      "starter": "They",
+      "answer": "They may serve the company with legal papers tomorrow.",
+      "answerZh": "他們明天可能會正式把法律文件送交該公司。",
+      "highlight": "serve",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把法律文件送交某人或機構"
+    },
+    {
+      "id": "phrasal-verb-310-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We will bring it to the table as soon as the guests arrive.",
+      "promptZh": "客人一到,我們便會把它端上桌。",
+      "starter": "We",
+      "answer": "We will serve it up as soon as the guests arrive.",
+      "answerZh": "客人一到,我們便會把它端上桌。",
+      "highlight": "serve",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Where will she spend the rest of her prison term?",
+      "promptZh": "她會在哪裏度過餘下的監禁期?",
+      "starter": "Where",
+      "answer": "Where will she serve out the rest of her prison term?",
+      "answerZh": "她會在哪裏服完餘下的監禁期?",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "At lunch, the school gave the pupils fish with rice.",
+      "promptZh": "午膳時,學校向學生供應魚和米飯。",
+      "starter": "At",
+      "answer": "At lunch, the school served up fish with rice.",
+      "answerZh": "午膳時,學校向學生供應魚和米飯。",
+      "highlight": "served up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "For many years, the building was used as a library.",
+      "promptZh": "多年來,這座建築物被用作圖書館。",
+      "starter": "For",
+      "answer": "For many years, the building served as a library.",
+      "answerZh": "多年來,這座建築物被用作圖書館。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The council officially delivered a warning notice to every shop in the street.",
+      "promptZh": "市政部門正式向街上每間店舖發出警告通知。",
+      "starter": "The",
+      "answer": "The council served a warning notice on every shop in the street.",
+      "answerZh": "市政部門正式向街上每間店舖發出警告通知。",
+      "highlight": "served",
+      "targetForm": "serve something on somebody",
+      "targetMeaningZh": "正式把通知或法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After completing a two-year prison sentence, the man was released.",
+      "promptZh": "服完兩年刑期後,那名男子獲得釋放。",
+      "starter": "After",
+      "answer": "After serving out a two-year prison sentence, the man was released.",
+      "answerZh": "服完兩年刑期後,那名男子獲得釋放。",
+      "highlight": "serving out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A large scarf can be used as a blanket in an emergency.",
+      "promptZh": "緊急情況下,一條大頸巾可以用作毛氈。",
+      "starter": "A",
+      "answer": "A large scarf can serve as a blanket in an emergency.",
+      "answerZh": "緊急情況下,一條大頸巾可以用作毛氈。",
+      "highlight": "serve",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Tonight, the chef has given the guests three different dishes.",
+      "promptZh": "今晚,廚師已經向客人端上三道不同菜式。",
+      "starter": "Tonight",
+      "answer": "Tonight, the chef has served up three different dishes.",
+      "answerZh": "今晚,廚師已經向客人端上三道不同菜式。",
+      "highlight": "served up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The judge said he had to complete the whole sentence.",
+      "promptZh": "法官表示,他必須服完整段刑期。",
+      "starter": "The",
+      "answer": "The judge said he had to serve out the whole sentence.",
+      "answerZh": "法官表示,他必須服完整段刑期。",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "She was officially given court papers at home.",
+      "promptZh": "她在家中正式收到法庭文件。",
+      "starter": "She",
+      "answer": "She was served with court papers at home.",
+      "answerZh": "她在家中正式收到法庭文件。",
+      "highlight": "served with",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "What food did the hotel provide for breakfast?",
+      "promptZh": "酒店早餐供應了甚麼食物?",
+      "starter": "What",
+      "answer": "What did the hotel serve up for breakfast?",
+      "answerZh": "酒店早餐供應了甚麼食物?",
+      "highlight": "serve up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The back room was used for storage during the winter.",
+      "promptZh": "冬季期間,後面的房間被用作儲物。",
+      "starter": "The",
+      "answer": "The back room served for storage during the winter.",
+      "answerZh": "冬季期間,後面的房間被用作儲物。",
+      "highlight": "served",
+      "targetForm": "serve for something",
+      "targetMeaningZh": "作某種用途"
+    },
+    {
+      "id": "phrasal-verb-310-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before noon, the officer had officially delivered the summons to both men.",
+      "promptZh": "中午前,該名人員已正式把傳票送交兩名男子。",
+      "starter": "Before",
+      "answer": "Before noon, the officer had served the summons on both men.",
+      "answerZh": "中午前,該名人員已正式把傳票送交兩名男子。",
+      "highlight": "served",
+      "targetForm": "serve something on somebody",
+      "targetMeaningZh": "正式把法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Every day, the small café provides fresh soup.",
+      "promptZh": "這間小咖啡店每天供應新鮮的湯。",
+      "starter": "Every",
+      "answer": "Every day, the small café serves up fresh soup.",
+      "answerZh": "這間小咖啡店每天供應新鮮的湯。",
+      "highlight": "serves up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When the office was closed, the café was used as our meeting place.",
+      "promptZh": "辦公室關閉時,那間咖啡店被用作我們的會面地點。",
+      "starter": "When",
+      "answer": "When the office was closed, the café served as our meeting place.",
+      "answerZh": "辦公室關閉時,那間咖啡店被用作我們的會面地點。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "She was allowed to complete the last six months in an open prison.",
+      "promptZh": "她獲准在一所開放式監獄服完最後六個月的刑期。",
+      "starter": "She",
+      "answer": "She was allowed to serve out the last six months in an open prison.",
+      "answerZh": "她獲准在一所開放式監獄服完最後六個月的刑期。",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The owner received the official notice by hand.",
+      "promptZh": "店主親手收到該份正式通知。",
+      "starter": "The",
+      "answer": "The official notice was served upon the owner by hand.",
+      "answerZh": "該份正式通知被親手送交店主。",
+      "highlight": "was served upon the owner",
+      "targetForm": "serve something upon somebody",
+      "targetMeaningZh": "正式把通知或法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the guests arrived, Ava brought the meal to the table at once.",
+      "promptZh": "客人到達時,Ava 立即把飯菜端上桌。",
+      "starter": "When",
+      "answer": "When the guests arrived, Ava served the meal up at once.",
+      "answerZh": "客人到達時,Ava 立即把飯菜端上桌。",
+      "highlight": "served",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Has anyone delivered a formal notice to the restaurant yet?",
+      "promptZh": "有人已正式向該餐廳發出通知了嗎?",
+      "starter": "Has",
+      "answer": "Has anyone served the restaurant with a formal notice yet?",
+      "answerZh": "有人已正式向該餐廳發出通知了嗎?",
+      "highlight": "served the restaurant with",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把通知或法律文件送交某人或機構"
+    },
+    {
+      "id": "phrasal-verb-310-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "This small area is used for staff training on Fridays.",
+      "promptZh": "這個小地方逢星期五用作員工培訓。",
+      "starter": "This",
+      "answer": "This small area serves for staff training on Fridays.",
+      "answerZh": "這個小地方逢星期五用作員工培訓。",
+      "highlight": "serves",
+      "targetForm": "serve for something",
+      "targetMeaningZh": "作某種用途"
+    },
+    {
+      "id": "phrasal-verb-310-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The rest of the sentence was completed in a smaller prison.",
+      "promptZh": "餘下刑期是在一所較小的監獄中服完的。",
+      "starter": "The",
+      "answer": "The rest of the sentence was served out in a smaller prison.",
+      "answerZh": "餘下刑期是在一所較小的監獄中服完的。",
+      "highlight": "served out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Because the children were hungry, the staff quickly gave them some sandwiches.",
+      "promptZh": "由於孩子們肚餓,職員很快便給他們一些三文治。",
+      "starter": "Because",
+      "answer": "Because the children were hungry, the staff quickly served up some sandwiches.",
+      "answerZh": "由於孩子們肚餓,職員很快便端上了一些三文治。",
+      "highlight": "served up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although his behaviour improved, he still had to complete the remaining year of his sentence.",
+      "promptZh": "雖然他的行為有所改善,但仍須服完餘下一年的刑期。",
+      "starter": "Although",
+      "answer": "Although his behaviour improved, he still had to serve out the remaining year of his sentence.",
+      "answerZh": "雖然他的行為有所改善,但仍須服完餘下一年的刑期。",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before the new centre opened, the church hall had been used as a clinic.",
+      "promptZh": "新中心開放前,教堂禮堂曾被用作診所。",
+      "starter": "Before",
+      "answer": "Before the new centre opened, the church hall had served as a clinic.",
+      "answerZh": "新中心開放前,教堂禮堂曾被用作診所。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After several letters were ignored, the council officially delivered a final order to the landlord.",
+      "promptZh": "數封信件不獲理會後,市政部門正式把最後命令送交業主。",
+      "starter": "After",
+      "answer": "After several letters were ignored, the council served a final order on the landlord.",
+      "answerZh": "數封信件不獲理會後,市政部門正式把最後命令送交業主。",
+      "highlight": "served",
+      "targetForm": "serve something on somebody",
+      "targetMeaningZh": "正式把法庭命令或法律文件送交某人"
+    },
+    {
+      "id": "phrasal-verb-310-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By the time we sat down, the cook had already put all the food on the table.",
+      "promptZh": "我們坐下時,廚師早已把所有食物端上桌。",
+      "starter": "By",
+      "answer": "By the time we sat down, the cook had already served everything up.",
+      "answerZh": "我們坐下時,廚師早已把所有食物端上桌。",
+      "highlight": "served everything up",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    },
+    {
+      "id": "phrasal-verb-310-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The man returned home after completing a short prison sentence.",
+      "promptZh": "那名男子服完一段短期監禁後回家。",
+      "starter": "The",
+      "answer": "The man returned home after serving out a short prison sentence.",
+      "answerZh": "那名男子服完一段短期監禁後回家。",
+      "highlight": "serving out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Next year, the old bus may be used as a mobile classroom.",
+      "promptZh": "明年,這輛舊巴士可能會被用作流動課室。",
+      "starter": "Next",
+      "answer": "Next year, the old bus may serve as a mobile classroom.",
+      "answerZh": "明年,這輛舊巴士可能會被用作流動課室。",
+      "highlight": "serve",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "According to the company, it never officially received the court papers.",
+      "promptZh": "該公司表示,它從未正式收到那些法庭文件。",
+      "starter": "According",
+      "answer": "According to the company, it was never served with the court papers.",
+      "answerZh": "該公司表示,它從未正式收到那些法庭文件。",
+      "highlight": "was",
+      "targetForm": "serve somebody with something",
+      "targetMeaningZh": "正式把法律文件送交某人或機構"
+    },
+    {
+      "id": "phrasal-verb-310-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "He may have to complete the rest of his sentence far from his family.",
+      "promptZh": "他可能要在遠離家人的地方服完餘下刑期。",
+      "starter": "He",
+      "answer": "He may have to serve out the rest of his sentence far from his family.",
+      "answerZh": "他可能要在遠離家人的地方服完餘下刑期。",
+      "highlight": "serve out",
+      "targetForm": "serve something out",
+      "targetMeaningZh": "服滿或服完剩餘刑期"
+    },
+    {
+      "id": "phrasal-verb-310-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "What was once used as a bedroom is now a music room.",
+      "promptZh": "曾經用作睡房的地方,現在已成為音樂室。",
+      "starter": "What",
+      "answer": "What once served as a bedroom is now a music room.",
+      "answerZh": "曾經用作睡房的地方,現在已成為音樂室。",
+      "highlight": "served",
+      "targetForm": "serve as something",
+      "targetMeaningZh": "用作某物;充當某種角色"
+    },
+    {
+      "id": "phrasal-verb-310-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Could you bring the fruit to the table after dinner?",
+      "promptZh": "晚飯後,你可以把水果端上桌嗎?",
+      "starter": "Could",
+      "answer": "Could you serve the fruit up after dinner?",
+      "answerZh": "晚飯後,你可以把水果端上桌嗎?",
+      "highlight": "serve",
+      "targetForm": "serve something up",
+      "targetMeaningZh": "端上或供應食物"
+    }
+  ]
+}

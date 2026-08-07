@@ -1,0 +1,1171 @@
+{
+  "id": "phrasal-verb-151",
+  "order": 151,
+  "slug": "believe",
+  "version": "1",
+  "title": "BELIEVE 動詞片語",
+  "titleEn": "Believe",
+  "titleZh": "BELIEVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 150 - BELIEVE.pdf",
+    "sourceNumber": 150,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BELIEVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BELIEVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BELIEVE",
+      "highlight": "BELIEVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Do you believe in ghosts?",
+      "zh": "你相信鬼魂存在嗎?",
+      "highlight": "believe in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do you believe in capital punishment?",
+      "zh": "你支持死刑嗎?",
+      "highlight": "believe in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Cheating in an exam? I cannot believe that of Lucy!",
+      "zh": "考試作弊?我真不敢相信露絲會做這種事!",
+      "highlight": "believe",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "相信某人或某事物真實存在,或相信某種力量確實有效；認同或支持某種理念、制度或做法；相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+    "en": "believe in somebody/something; believe in something / believe in doing something; believe something of somebody",
+    "naturalZh": [
+      "相信某人或某事物真實存在,或相信某種力量確實有效",
+      "認同或支持某種理念、制度或做法",
+      "相信某人會做或可能做某事,常用於令人意外或難以接受的情況"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "believe in somebody/something",
+      "titleZh": "相信某人或某事物真實存在,或相信某種力量確實有效",
+      "titleEn": "believe in somebody/something",
+      "descriptionZh": "相信某人或某事物真實存在,或相信某種力量確實有效",
+      "descriptionEn": "Do you believe in ghosts?",
+      "examples": [
+        {
+          "en": "Do you believe in ghosts?",
+          "zh": "你相信鬼魂存在嗎?",
+          "highlight": "believe in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "believe in something / believe in doing something",
+      "titleZh": "認同或支持某種理念、制度或做法",
+      "titleEn": "believe in something / believe in doing something",
+      "descriptionZh": "認同或支持某種理念、制度或做法",
+      "descriptionEn": "Do you believe in capital punishment?",
+      "examples": [
+        {
+          "en": "Do you believe in capital punishment?",
+          "zh": "你支持死刑嗎?",
+          "highlight": "believe in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "believe something of somebody",
+      "titleZh": "相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+      "titleEn": "believe something of somebody",
+      "descriptionZh": "相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+      "descriptionEn": "Cheating in an exam? I cannot believe that of Lucy!",
+      "examples": [
+        {
+          "en": "Cheating in an exam? I cannot believe that of Lucy!",
+          "zh": "考試作弊?我真不敢相信露絲會做這種事!",
+          "highlight": "believe"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BELIEVE 片語動詞的實際用途",
+    "labelEn": "BELIEVE Phrasal Verbs in Use",
+    "summaryZh": "BELIEVE 表達可以幫助你談論鬼魂、魔法、外星人,以及其他可能真實或不真實的事物。；你可以用 believe in something 或 believe in doing something,表達自己認同哪些理念和做法。；believe something of somebody 可以幫助你表達某個關於別人的說法是否可信,或是否令人難以接受。",
+    "summaryEn": "BELIEVE expressions help you discuss ghosts, magic, aliens and other things that may or may not be real. You can use believe in something or believe in doing something to show which ideas and actions you support. believe something of somebody helps you say whether a report about a person seems possible or is difficult to accept.",
+    "contextsZh": [
+      "談論你認為是否真實的事物",
+      "表達你的價值觀和選擇",
+      "自然回應關於別人的意外說法"
+    ],
+    "contextsEn": [
+      "Talk about what you think is real",
+      "Express your values and choices",
+      "React naturally to surprising claims about people"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BELIEVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BELIEVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "believe in somebody/something",
+    "fixedHighlight": "believe in somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 BELIEVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BELIEVE expression that gives the same meaning.",
+    "correct": "believe in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；本練習中的 believe in 有兩種意思:可以表示相信某事物真實存在,也可以表示認同某種理念或做法。請仔細閱讀整個情境。；使用 believe something of somebody 時,把所相信的事情放在 of 前面,例如:I cannot believe that of him.",
+    "variableEn": "Keep the same people, things, time and meaning. believe in has two meanings in this exercise. It can mean that you think something is real, or that you support an idea or action. Read the full situation carefully. With believe something of somebody, place the action or idea before of: I cannot believe that of him.",
+    "variableItemsZh": [
+      "believe in somebody/something",
+      "believe in something / believe in doing something",
+      "believe something of somebody"
+    ],
+    "variableItemsEn": [
+      "believe in somebody/something",
+      "believe in something / believe in doing something",
+      "believe something of somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "相信某人或某事物真實存在,或相信某種力量確實有效",
+        "formEn": "believe in somebody/something",
+        "exampleZh": "你相信鬼魂存在嗎?",
+        "exampleEn": "Do you believe in ghosts?",
+        "highlight": "believe in"
+      },
+      {
+        "formZh": "認同或支持某種理念、制度或做法",
+        "formEn": "believe in something / believe in doing something",
+        "exampleZh": "你支持死刑嗎?",
+        "exampleEn": "Do you believe in capital punishment?",
+        "highlight": "believe in"
+      },
+      {
+        "formZh": "相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+        "formEn": "believe something of somebody",
+        "exampleZh": "考試作弊?我真不敢相信露絲會做這種事!",
+        "exampleEn": "Cheating in an exam? I cannot believe that of Lucy!",
+        "highlight": "believe"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "相信某人或某事物真實存在,或相信某種力量確實有效",
+      "titleEn": "believe in somebody/something",
+      "formula": "believe in somebody/something",
+      "highlight": "believe in somebody/something",
+      "descriptionZh": "相信某人或某事物真實存在,或相信某種力量確實有效",
+      "descriptionEn": "Do you believe in ghosts?",
+      "examples": [
+        {
+          "en": "Do you believe in ghosts?",
+          "zh": "你相信鬼魂存在嗎?",
+          "highlight": "believe in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "認同或支持某種理念、制度或做法",
+      "titleEn": "believe in something / believe in doing something",
+      "formula": "believe in something / believe in doing something",
+      "highlight": "believe in something / believe in doing something",
+      "descriptionZh": "認同或支持某種理念、制度或做法",
+      "descriptionEn": "Do you believe in capital punishment?",
+      "examples": [
+        {
+          "en": "Do you believe in capital punishment?",
+          "zh": "你支持死刑嗎?",
+          "highlight": "believe in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+      "titleEn": "believe something of somebody",
+      "formula": "believe something of somebody",
+      "highlight": "believe something of somebody",
+      "descriptionZh": "相信某人會做或可能做某事,常用於令人意外或難以接受的情況",
+      "descriptionEn": "Cheating in an exam? I cannot believe that of Lucy!",
+      "examples": [
+        {
+          "en": "Cheating in an exam? I cannot believe that of Lucy!",
+          "zh": "考試作弊?我真不敢相信露絲會做這種事!",
+          "highlight": "believe"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論你認為是否真實的事物",
+      "titleEn": "Talk about what you think is real",
+      "zh": "BELIEVE 表達可以幫助你談論鬼魂、魔法、外星人,以及其他可能真實或不真實的事物。",
+      "en": "BELIEVE expressions help you discuss ghosts, magic, aliens and other things that may or may not be real."
+    },
+    {
+      "titleZh": "表達你的價值觀和選擇",
+      "titleEn": "Express your values and choices",
+      "zh": "你可以用 believe in something 或 believe in doing something,表達自己認同哪些理念和做法。",
+      "en": "You can use believe in something or believe in doing something to show which ideas and actions you support."
+    },
+    {
+      "titleZh": "自然回應關於別人的意外說法",
+      "titleEn": "React naturally to surprising claims about people",
+      "zh": "believe something of somebody 可以幫助你表達某個關於別人的說法是否可信,或是否令人難以接受。",
+      "en": "believe something of somebody helps you say whether a report about a person seems possible or is difficult to accept."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論你認為是否真實的事物",
+      "表達你的價值觀和選擇",
+      "自然回應關於別人的意外說法"
+    ],
+    "contextsEn": [
+      "Talk about what you think is real",
+      "Express your values and choices",
+      "React naturally to surprising claims about people"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論你認為是否真實的事物",
+        "titleEn": "Talk about what you think is real",
+        "zh": "BELIEVE 表達可以幫助你談論鬼魂、魔法、外星人,以及其他可能真實或不真實的事物。",
+        "en": "BELIEVE expressions help you discuss ghosts, magic, aliens and other things that may or may not be real.",
+        "examples": [
+          {
+            "en": "Do you believe in ghosts?",
+            "zh": "你相信鬼魂存在嗎?",
+            "highlight": "believe in"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達你的價值觀和選擇",
+        "titleEn": "Express your values and choices",
+        "zh": "你可以用 believe in something 或 believe in doing something,表達自己認同哪些理念和做法。",
+        "en": "You can use believe in something or believe in doing something to show which ideas and actions you support.",
+        "examples": [
+          {
+            "en": "Do you believe in capital punishment?",
+            "zh": "你支持死刑嗎?",
+            "highlight": "believe in"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然回應關於別人的意外說法",
+        "titleEn": "React naturally to surprising claims about people",
+        "zh": "believe something of somebody 可以幫助你表達某個關於別人的說法是否可信,或是否令人難以接受。",
+        "en": "believe something of somebody helps you say whether a report about a person seems possible or is difficult to accept.",
+        "examples": [
+          {
+            "en": "Cheating in an exam? I cannot believe that of Lucy!",
+            "zh": "考試作弊?我真不敢相信露絲會做這種事!",
+            "highlight": "believe"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BELIEVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BELIEVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BELIEVE 片語動詞。",
+      "en": "Read the whole sentence and choose the BELIEVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "本練習中的 believe in 有兩種意思:可以表示相信某事物真實存在,也可以表示認同某種理念或做法。請仔細閱讀整個情境。",
+      "titleEn": "believe in has two meanings in this exercise.",
+      "zh": "本練習中的 believe in 有兩種意思:可以表示相信某事物真實存在,也可以表示認同某種理念或做法。請仔細閱讀整個情境。",
+      "en": "believe in has two meanings in this exercise. It can mean that you think something is real, or that you support an idea or action. Read the full situation carefully."
+    },
+    {
+      "titleZh": "使用 believe something of somebody 時,把所相信的事情放在 of 前面,例如:I cannot believe that of him.",
+      "titleEn": "With believe something of somebody, place the action or idea before of: I cannot believe that of him.",
+      "zh": "使用 believe something of somebody 時,把所相信的事情放在 of 前面,例如:I cannot believe that of him.",
+      "en": "With believe something of somebody, place the action or idea before of: I cannot believe that of him."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BELIEVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BELIEVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BELIEVE 動詞片語句子改寫練習",
+    "titleEn": "BELIEVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BELIEVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BELIEVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-151-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Do you think ghosts are real?",
+      "promptZh": "你認為鬼魂真的存在嗎?",
+      "starter": "Do",
+      "answer": "Do you believe in ghosts?",
+      "answerZh": "你相信鬼魂存在嗎?",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Someone says Eva lied to her parents. I cannot imagine her doing such a thing.",
+      "promptZh": "有人說伊娃向父母撒謊。我無法想像她會做這種事。",
+      "starter": "Someone",
+      "answer": "Someone says Eva lied to her parents. I cannot believe that of her.",
+      "answerZh": "有人說伊娃向父母撒謊。我無法相信她會做這種事。",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I think equal chances for every child are important.",
+      "promptZh": "我認為每個孩子都獲得平等機會十分重要。",
+      "starter": "I",
+      "answer": "I believe in equal chances for every child.",
+      "answerZh": "我認同每個孩子都應有平等機會。",
+      "highlight": "believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The children think aliens are real.",
+      "promptZh": "孩子們認為外星人真的存在。",
+      "starter": "The",
+      "answer": "The children believe in aliens.",
+      "answerZh": "孩子們相信外星人存在。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our family thinks honesty is important.",
+      "promptZh": "我們一家都認為誠實十分重要。",
+      "starter": "Our",
+      "answer": "Our family believes in honesty.",
+      "answerZh": "我們一家都重視誠實。",
+      "highlight": "believes in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The report says Ava cheated, but her friends refuse to think she could do such a thing.",
+      "promptZh": "報告指艾娃作弊,但她的朋友不願相信她會做這種事。",
+      "starter": "The",
+      "answer": "The report says Ava cheated, but her friends refuse to believe that of her.",
+      "answerZh": "報告指艾娃作弊,但她的朋友不願相信她會做這種事。",
+      "highlight": "believe that of her",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Many children think magic is real.",
+      "promptZh": "很多孩子認為魔法是真實的。",
+      "starter": "Many",
+      "answer": "Many children believe in magic.",
+      "answerZh": "很多孩子相信魔法存在。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Daniel shouted at a younger child? I cannot imagine him doing such an unkind thing.",
+      "promptZh": "丹尼爾向一個年幼的孩子大喊?我無法想像他會做出如此不友善的事。",
+      "starter": "Daniel",
+      "answer": "Daniel shouted at a younger child? I cannot believe such a thing of him.",
+      "answerZh": "丹尼爾向一個年幼的孩子大喊?我無法相信他會做出這種事。",
+      "highlight": "believe such a thing of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She thinks people should help their neighbours.",
+      "promptZh": "她認為人們應該幫助鄰居。",
+      "starter": "She",
+      "answer": "She believes in helping neighbours.",
+      "answerZh": "她認同幫助鄰居。",
+      "highlight": "believes in helping",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "My grandfather thinks some numbers can really bring good luck.",
+      "promptZh": "我的祖父認為有些數字真的可以帶來好運。",
+      "starter": "My",
+      "answer": "My grandfather believes in lucky numbers.",
+      "answerZh": "我的祖父相信幸運數字能帶來好運。",
+      "highlight": "believes in lucky",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben does not support animal shows.",
+      "promptZh": "賓不支持動物表演。",
+      "starter": "Ben",
+      "answer": "Ben does not believe in animal shows.",
+      "answerZh": "賓不認同動物表演。",
+      "highlight": "believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Did people in the past think sea monsters were real?",
+      "promptZh": "過去的人認為海怪真的存在嗎?",
+      "starter": "Did",
+      "answer": "Did people in the past believe in sea monsters?",
+      "answerZh": "過去的人相信海怪存在嗎?",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Your best friend was accused of lying to you. Could you imagine her doing that?",
+      "promptZh": "你的好友被指向你說謊。你能想像她會這樣做嗎?",
+      "starter": "Your",
+      "answer": "Your best friend was accused of lying to you. Could you believe that of her?",
+      "answerZh": "你的好友被指向你說謊。你能相信她會這樣做嗎?",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do you support capital punishment?",
+      "promptZh": "你支持死刑嗎?",
+      "starter": "Do",
+      "answer": "Do you believe in capital punishment?",
+      "answerZh": "你支持死刑嗎?",
+      "highlight": "believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Sam was blamed for breaking the window. Before the video appeared, nobody thought he could do it.",
+      "promptZh": "森被指打破窗戶。在影片出現前,沒有人認為他會這樣做。",
+      "starter": "Sam",
+      "answer": "Sam was blamed for breaking the window. Before the video appeared, nobody believed it of him.",
+      "answerZh": "森被指打破窗戶。在影片出現前,沒有人相信他會這樣做。",
+      "highlight": "believed",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We did not think fairies were real when we were children.",
+      "promptZh": "我們小時候不認為仙子真的存在。",
+      "starter": "We",
+      "answer": "We did not believe in fairies when we were children.",
+      "answerZh": "我們小時候不相信仙子存在。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "At university, she thought group projects were a good way to learn.",
+      "promptZh": "大學時,她認為小組專題是一種良好的學習方式。",
+      "starter": "At",
+      "answer": "At university, she believed in learning through group projects.",
+      "answerZh": "大學時,她認同透過小組專題學習。",
+      "highlight": "believed in learning through",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I have never thought life after death was real.",
+      "promptZh": "我從未認為死後世界真的存在。",
+      "starter": "I",
+      "answer": "I have never believed in life after death.",
+      "answerZh": "我從未相信死後世界存在。",
+      "highlight": "believed in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Kai was accused of reading the private message. Did you think he could do that?",
+      "promptZh": "啟被指偷看私人訊息。你認為他會這樣做嗎?",
+      "starter": "Kai",
+      "answer": "Kai was accused of reading the private message. Did you believe that of him?",
+      "answerZh": "啟被指偷看私人訊息。你相信他會這樣做嗎?",
+      "highlight": "believe",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Good teachers think students should have time to ask questions.",
+      "promptZh": "優秀教師認為學生應有時間提問。",
+      "starter": "Good",
+      "answer": "Good teachers should believe in giving students time to ask questions.",
+      "answerZh": "優秀教師應認同給學生時間提問。",
+      "highlight": "should believe in giving",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They said Hana had copied the homework, but I did not think she could do it.",
+      "promptZh": "他們說哈娜抄襲功課,但我不認為她會這樣做。",
+      "starter": "They",
+      "answer": "They said Hana had copied the homework, but I did not believe it of her.",
+      "answerZh": "他們說哈娜抄襲功課,但我不相信她會這樣做。",
+      "highlight": "believe",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Although Ella is twelve, she still thinks the tooth fairy is real.",
+      "promptZh": "雖然埃拉已經十二歲,但她仍認為牙仙真的存在。",
+      "starter": "Although",
+      "answer": "Although Ella is twelve, she still believes in the tooth fairy.",
+      "answerZh": "雖然埃拉已經十二歲,但她仍相信牙仙存在。",
+      "highlight": "believes in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The charity thinks people should help before they are asked.",
+      "promptZh": "這間慈善機構認為人們應在別人開口前主動幫忙。",
+      "starter": "The",
+      "answer": "The charity believes in helping people before being asked.",
+      "answerZh": "這間慈善機構認同在別人開口前主動幫忙。",
+      "highlight": "believes in helping",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Someone claims Ravi changed the score. I would never think he could do that.",
+      "promptZh": "有人聲稱拉維改動了分數。我絕不認為他會這樣做。",
+      "starter": "Someone",
+      "answer": "Someone claims Ravi changed the score. I would never believe that of him.",
+      "answerZh": "有人聲稱拉維改動了分數。我絕不相信他會這樣做。",
+      "highlight": "believe",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "My parents think borrowing money for things we do not need is a bad idea.",
+      "promptZh": "我的父母認為借錢購買不需要的東西並不好。",
+      "starter": "My",
+      "answer": "My parents do not believe in borrowing money for things we do not need.",
+      "answerZh": "我的父母不認同借錢購買我們不需要的東西。",
+      "highlight": "do not believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Some people think star signs can really predict the future.",
+      "promptZh": "有些人認為星座真的可以預測未來。",
+      "starter": "Some",
+      "answer": "Some people believe in star signs.",
+      "answerZh": "有些人相信星座可以預測未來。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Priya stayed late to help everyone. I can easily imagine her doing that.",
+      "promptZh": "普里雅留下來幫助所有人。我完全可以想像她會這樣做。",
+      "starter": "Priya",
+      "answer": "Priya stayed late to help everyone. I can easily believe that of her.",
+      "answerZh": "普里雅留下來幫助所有人。我完全相信她會這樣做。",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If you think monsters under the bed are real, the room may feel frightening.",
+      "promptZh": "如果你認為床下的怪物真的存在,房間可能會令人害怕。",
+      "starter": "If",
+      "answer": "If you believe in monsters under the bed, the room may feel frightening.",
+      "answerZh": "如果你相信床下有怪物,房間可能會令人害怕。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Our coach says winning fairly matters more than winning at any cost.",
+      "promptZh": "我們的教練認為公平取勝比不惜代價爭勝更重要。",
+      "starter": "Our",
+      "answer": "Our coach believes in winning fairly, not winning at any cost.",
+      "answerZh": "我們的教練認同公平取勝,而不是不惜代價爭勝。",
+      "highlight": "believes in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Someone claimed Lena had taken the money. After everything she had done to help us, none of us thought she would do that.",
+      "promptZh": "有人聲稱莉娜拿走了錢。她曾經幫助我們這麼多,所以我們沒有一個人認為她會這樣做。",
+      "starter": "Someone",
+      "answer": "Someone claimed Lena had taken the money. After everything she had done to help us, none of us believed that of her.",
+      "answerZh": "有人聲稱莉娜拿走了錢。她曾經幫助我們這麼多,所以我們沒有一個人相信她會這樣做。",
+      "highlight": "believed",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The school gives every student another chance because it thinks everyone deserves one.",
+      "promptZh": "學校讓每名學生再試一次,因為它認為每個人都值得再有一次機會。",
+      "starter": "The",
+      "answer": "The school gives every student another chance because it believes in second chances.",
+      "answerZh": "學校讓每名學生再試一次,因為它相信人應有第二次機會。",
+      "highlight": "believes in second chances",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Scientists have found no proof, but some people still think UFOs are real.",
+      "promptZh": "科學家尚未找到證據,但有些人仍認為不明飛行物真的存在。",
+      "starter": "Scientists",
+      "answer": "Scientists have found no proof, but some people still believe in UFOs.",
+      "answerZh": "科學家尚未找到證據,但有些人仍相信不明飛行物存在。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A rumour says Omar broke the equipment on purpose. His teammates could not imagine him doing it.",
+      "promptZh": "有傳聞指奧馬故意弄壞器材。他的隊友無法想像他會這樣做。",
+      "starter": "A",
+      "answer": "A rumour says Omar broke the equipment on purpose. His teammates could not believe that of him.",
+      "answerZh": "有傳聞指奧馬故意弄壞器材。他的隊友無法相信他會這樣做。",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The old sailor thinks mermaids are real.",
+      "promptZh": "那名老水手認為美人魚真的存在。",
+      "starter": "The",
+      "answer": "The old sailor believes in mermaids.",
+      "answerZh": "那名老水手相信美人魚存在。",
+      "highlight": "believes in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We think it is wrong to punish the whole class for one person's mistake.",
+      "promptZh": "我們認為因一個人的錯誤而懲罰全班是不對的。",
+      "starter": "We",
+      "answer": "We do not believe in punishing the whole class for one person's mistake.",
+      "answerZh": "我們不認同因一個人的錯誤而懲罰全班。",
+      "highlight": "do not believe in punishing",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Someone says Sofia left the door unlocked, but you know how careful she is. Would you really think she was capable of that?",
+      "promptZh": "有人說索菲亞沒有鎖門,但你知道她一向很小心。你真的認為她會這樣做嗎?",
+      "starter": "Someone",
+      "answer": "Someone says Sofia left the door unlocked, but you know how careful she is. Would you really believe that of her?",
+      "answerZh": "有人說索菲亞沒有鎖門,但你知道她一向很小心。你真的相信她會這樣做嗎?",
+      "highlight": "believe that",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even though no one had seen one, the children thought unicorns were real.",
+      "promptZh": "雖然沒有人見過獨角獸,但孩子們認為牠們真的存在。",
+      "starter": "Even",
+      "answer": "Even though no one had seen one, the children believed in unicorns.",
+      "answerZh": "雖然沒有人見過獨角獸,但孩子們相信牠們存在。",
+      "highlight": "believed in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The club says you learn best by doing things yourself instead of only watching.",
+      "promptZh": "這個學會認為親自動手,而不是只在旁觀看,才是最好的學習方法。",
+      "starter": "The",
+      "answer": "The club believes in learning by doing things yourself instead of only watching.",
+      "answerZh": "這個學會認同親自動手學習,而不是只在旁觀看。",
+      "highlight": "believes in learning",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Marcus was blamed for starting the argument, but his sister could not imagine him doing such a thing.",
+      "promptZh": "馬庫斯被指挑起爭執,但姐姐無法想像他會做這種事。",
+      "starter": "Marcus",
+      "answer": "Marcus was blamed for starting the argument, but his sister could not believe such a thing of him.",
+      "answerZh": "馬庫斯被指挑起爭執,但姐姐無法相信他會做這種事。",
+      "highlight": "believe",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Priya does not think fortune-telling can really show the future.",
+      "promptZh": "普里雅不認為算命真的可以預示未來。",
+      "starter": "Priya",
+      "answer": "Priya does not believe in fortune-telling.",
+      "answerZh": "普里雅不相信算命可以預示未來。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Alex was blamed for the missing money, but his friends had known him for years and could not imagine that he had taken it.",
+      "promptZh": "亞歷克斯因失款事件而被責怪,但他的朋友認識他多年,無法想像是他拿走了錢。",
+      "starter": "Alex",
+      "answer": "Alex was blamed for the missing money, but his friends had known him for years and could not believe it of him.",
+      "answerZh": "亞歷克斯因失款事件而被責怪,但他的朋友認識他多年,無法相信是他拿走了錢。",
+      "highlight": "believe",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We could work alone, but our group values teamwork.",
+      "promptZh": "我們可以各自工作,但小組重視團隊合作。",
+      "starter": "We",
+      "answer": "We could work alone, but our group believes in teamwork.",
+      "answerZh": "我們可以各自工作,但小組重視團隊合作。",
+      "highlight": "believes in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No one had seen the strange creature, yet several villagers were sure it was real.",
+      "promptZh": "沒有人見過那隻奇怪生物,但幾名村民確信牠真的存在。",
+      "starter": "No",
+      "answer": "No one had seen the strange creature, yet several villagers believed in it.",
+      "answerZh": "沒有人見過那隻奇怪生物,但幾名村民相信牠真的存在。",
+      "highlight": "believed in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The coach could shout at the players, but she thinks it is better to give calm advice.",
+      "promptZh": "教練可以向球員大喊,但她認為平靜地給予建議更好。",
+      "starter": "The",
+      "answer": "The coach could shout at the players, but she believes in giving calm advice.",
+      "answerZh": "教練可以向球員大喊,但她認同以平靜方式給予建議。",
+      "highlight": "believes in giving",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Someone says Nia hid the notes. Even the teacher cannot imagine her doing it.",
+      "promptZh": "有人說妮亞藏起了筆記。就連老師也無法想像她會這樣做。",
+      "starter": "Someone",
+      "answer": "Someone says Nia hid the notes. Even the teacher cannot believe that of her.",
+      "answerZh": "有人說妮亞藏起了筆記。就連老師也無法相信她會這樣做。",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the film made time travel look real, Nora did not think it could actually happen.",
+      "promptZh": "雖然電影把時空旅行拍得很真實,但諾拉不認為它真的可能發生。",
+      "starter": "Although",
+      "answer": "Although the film made time travel look real, Nora did not believe in it.",
+      "answerZh": "雖然電影把時空旅行拍得很真實,但諾拉不相信它真的可能發生。",
+      "highlight": "believe in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the shortcut would save time, I think breaking the rules is wrong.",
+      "promptZh": "雖然走捷徑可以節省時間,但我認為違反規則是不對的。",
+      "starter": "Although",
+      "answer": "Although the shortcut would save time, I do not believe in breaking the rules.",
+      "answerZh": "雖然走捷徑可以節省時間,但我不認同違反規則。",
+      "highlight": "do not believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    },
+    {
+      "id": "phrasal-verb-151-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Arjun was accused of leaving his friend alone during the trip. His parents could not imagine him doing such a thing.",
+      "promptZh": "阿俊被指在旅途中留下朋友獨自一人。他的父母無法想像他會做這種事。",
+      "starter": "Arjun",
+      "answer": "Arjun was accused of leaving his friend alone during the trip. His parents could not believe that of him.",
+      "answerZh": "阿俊被指在旅途中留下朋友獨自一人。他的父母無法相信他會這樣做。",
+      "highlight": "believe that of",
+      "targetForm": "believe something of somebody",
+      "targetMeaningZh": "相信某人會做或可能做某事"
+    },
+    {
+      "id": "phrasal-verb-151-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When his friends laughed at the story, Arun still thought a hidden city existed under the sea.",
+      "promptZh": "當朋友取笑這個故事時,阿倫仍認為海底有一座隱藏城市。",
+      "starter": "When",
+      "answer": "When his friends laughed at the story, Arun still believed in a hidden city under the sea.",
+      "answerZh": "當朋友取笑這個故事時,阿倫仍相信海底有一座隱藏城市。",
+      "highlight": "believed in",
+      "targetForm": "believe in somebody/something",
+      "targetMeaningZh": "相信某人或某事物存在或真實"
+    },
+    {
+      "id": "phrasal-verb-151-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Some people want quick results, but I think slow, steady change is better.",
+      "promptZh": "有些人想很快見效,但我認為緩慢而穩定的改變更好。",
+      "starter": "Some",
+      "answer": "Some people want quick results, but I believe in slow, steady change.",
+      "answerZh": "有些人想很快見效,但我相信緩慢而穩定的改變。",
+      "highlight": "believe in",
+      "targetForm": "believe in something / believe in doing something",
+      "targetMeaningZh": "認同或支持某種理念或做法"
+    }
+  ]
+}

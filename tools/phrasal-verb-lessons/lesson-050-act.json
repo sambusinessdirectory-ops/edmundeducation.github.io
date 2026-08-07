@@ -1,0 +1,1444 @@
+{
+  "id": "phrasal-verb-50",
+  "order": 50,
+  "slug": "act",
+  "version": "1",
+  "title": "ACT 動詞片語",
+  "titleEn": "Act",
+  "titleZh": "ACT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 49 - ACT.pdf",
+    "sourceNumber": 49,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ACT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ACT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ACT",
+      "highlight": "ACT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A large box acted as a table.",
+      "zh": "大紙箱充當了桌子。",
+      "highlight": "acted",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The lawyer acted for the family.",
+      "zh": "律師代表該家庭處理事情。",
+      "highlight": "acted for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The school acted on the parents’ advice.",
+      "zh": "學校根據家長的建議採取了行動。",
+      "highlight": "acted on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "充當;擔任;起......作用；代表某人處理事情、發言或作決定；根據消息、建議、指示或警告採取行動；把故事、情境或動作用表演方式呈現；搗蛋;表現頑皮",
+    "en": "act as something; act for somebody act on behalf of somebody act on somebody’s behalf; act on something act upon something; act something out; act up",
+    "naturalZh": [
+      "充當;擔任;起......作用",
+      "代表某人處理事情、發言或作決定",
+      "根據消息、建議、指示或警告採取行動",
+      "把故事、情境或動作用表演方式呈現",
+      "搗蛋;表現頑皮"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "act as something",
+      "titleZh": "充當;擔任;起......作用",
+      "titleEn": "act as something",
+      "descriptionZh": "充當;擔任;起......作用",
+      "descriptionEn": "A large box acted as a table.",
+      "examples": [
+        {
+          "en": "A large box acted as a table.",
+          "zh": "大紙箱充當了桌子。",
+          "highlight": "acted"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "titleZh": "代表某人處理事情、發言或作決定",
+      "titleEn": "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "descriptionZh": "代表某人處理事情、發言或作決定",
+      "descriptionEn": "The lawyer acted for the family.",
+      "examples": [
+        {
+          "en": "The lawyer acted for the family.",
+          "zh": "律師代表該家庭處理事情。",
+          "highlight": "acted for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "act on something act upon something",
+      "titleZh": "根據消息、建議、指示或警告採取行動",
+      "titleEn": "act on something act upon something",
+      "descriptionZh": "根據消息、建議、指示或警告採取行動",
+      "descriptionEn": "The school acted on the parents’ advice.",
+      "examples": [
+        {
+          "en": "The school acted on the parents’ advice.",
+          "zh": "學校根據家長的建議採取了行動。",
+          "highlight": "acted on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "act something out",
+      "titleZh": "把故事、情境或動作用表演方式呈現",
+      "titleEn": "act something out",
+      "descriptionZh": "把故事、情境或動作用表演方式呈現",
+      "descriptionEn": "The pupils acted the story out.",
+      "examples": [
+        {
+          "en": "The pupils acted the story out.",
+          "zh": "學生把故事演了出來。",
+          "highlight": "acted the story out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "act up",
+      "titleZh": "搗蛋;表現頑皮",
+      "titleEn": "act up",
+      "descriptionZh": "搗蛋;表現頑皮",
+      "descriptionEn": "The children acted up during lunch.",
+      "examples": [
+        {
+          "en": "The children acted up during lunch.",
+          "zh": "孩子們在午膳期間搗蛋。",
+          "highlight": "acted up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ACT 片語動詞的實際用途",
+    "labelEn": "ACT Phrasal Verbs in Use",
+    "summaryZh": "act as 可以說明一個人、地方或物件擔任甚麼角色,或發揮甚麼作用。；act for 和 act on behalf of 可以清楚說明誰代表他人發言、作決定或處理事情。；act on 和 act upon 可以表示某人因應建議、消息、指示或警告而採取行動。；act something out 表示用動作把故事或事情演出來;act up 則表示搗蛋或表現頑皮。",
+    "summaryEn": "Act as helps you explain the job or purpose that a person, place or object has. Act for and act on behalf of make it clear who is speaking, deciding or handling matters for somebody else. Act on and act upon help you show that somebody did something because of advice, information, instructions or a warning. Act something out describes showing a story or event through actions, while act up describes bad or difficult behaviour.",
+    "contextsZh": [
+      "使用 ACT 談論角色和作用",
+      "清楚說明誰代表另一個人或團體",
+      "說明根據甚麼資料採取行動",
+      "談論表演和孩子的行為"
+    ],
+    "contextsEn": [
+      "Use ACT to talk about roles and functions",
+      "Show clearly who represents another person or group",
+      "Explain actions based on advice or information",
+      "Talk about performances and children’s behaviour"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ACT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ACT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "act as something",
+    "fixedHighlight": "act as something",
+    "fixedZh": "閱讀整句,選出意思相同的 ACT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ACT expression that gives the same meaning.",
+    "correct": "acted",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 act ... out 中使用 it 或 them 時,把它放在 ACT 和 OUT 中間。；act for somebody、act on behalf of somebody 和 act on somebody’s behalf 表示代表某人;acton 或 act upon something 則表示根據消息、建議或警告採取行動。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them with act... out, place the word between ACT and OUT: act it out act them out Act for somebody, act on behalf of somebody and act on somebody’s behalf mean representing somebody. Act on or act upon something means using information, advice or a warning to decide what to do.",
+    "variableItemsZh": [
+      "act as something",
+      "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "act on something act upon something",
+      "act something out",
+      "act up"
+    ],
+    "variableItemsEn": [
+      "act as something",
+      "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "act on something act upon something",
+      "act something out",
+      "act up"
+    ],
+    "forms": [
+      {
+        "formZh": "充當;擔任;起......作用",
+        "formEn": "act as something",
+        "exampleZh": "大紙箱充當了桌子。",
+        "exampleEn": "A large box acted as a table.",
+        "highlight": "acted"
+      },
+      {
+        "formZh": "代表某人處理事情、發言或作決定",
+        "formEn": "act for somebody act on behalf of somebody act on somebody’s behalf",
+        "exampleZh": "律師代表該家庭處理事情。",
+        "exampleEn": "The lawyer acted for the family.",
+        "highlight": "acted for"
+      },
+      {
+        "formZh": "根據消息、建議、指示或警告採取行動",
+        "formEn": "act on something act upon something",
+        "exampleZh": "學校根據家長的建議採取了行動。",
+        "exampleEn": "The school acted on the parents’ advice.",
+        "highlight": "acted on"
+      },
+      {
+        "formZh": "把故事、情境或動作用表演方式呈現",
+        "formEn": "act something out",
+        "exampleZh": "學生把故事演了出來。",
+        "exampleEn": "The pupils acted the story out.",
+        "highlight": "acted the story out"
+      },
+      {
+        "formZh": "搗蛋;表現頑皮",
+        "formEn": "act up",
+        "exampleZh": "孩子們在午膳期間搗蛋。",
+        "exampleEn": "The children acted up during lunch.",
+        "highlight": "acted up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "充當;擔任;起......作用",
+      "titleEn": "act as something",
+      "formula": "act as something",
+      "highlight": "act as something",
+      "descriptionZh": "充當;擔任;起......作用",
+      "descriptionEn": "A large box acted as a table.",
+      "examples": [
+        {
+          "en": "A large box acted as a table.",
+          "zh": "大紙箱充當了桌子。",
+          "highlight": "acted"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "代表某人處理事情、發言或作決定",
+      "titleEn": "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "formula": "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "highlight": "act for somebody act on behalf of somebody act on somebody’s behalf",
+      "descriptionZh": "代表某人處理事情、發言或作決定",
+      "descriptionEn": "The lawyer acted for the family.",
+      "examples": [
+        {
+          "en": "The lawyer acted for the family.",
+          "zh": "律師代表該家庭處理事情。",
+          "highlight": "acted for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "根據消息、建議、指示或警告採取行動",
+      "titleEn": "act on something act upon something",
+      "formula": "act on something act upon something",
+      "highlight": "act on something act upon something",
+      "descriptionZh": "根據消息、建議、指示或警告採取行動",
+      "descriptionEn": "The school acted on the parents’ advice.",
+      "examples": [
+        {
+          "en": "The school acted on the parents’ advice.",
+          "zh": "學校根據家長的建議採取了行動。",
+          "highlight": "acted on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把故事、情境或動作用表演方式呈現",
+      "titleEn": "act something out",
+      "formula": "act something out",
+      "highlight": "act something out",
+      "descriptionZh": "把故事、情境或動作用表演方式呈現",
+      "descriptionEn": "The pupils acted the story out.",
+      "examples": [
+        {
+          "en": "The pupils acted the story out.",
+          "zh": "學生把故事演了出來。",
+          "highlight": "acted the story out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "搗蛋;表現頑皮",
+      "titleEn": "act up",
+      "formula": "act up",
+      "highlight": "act up",
+      "descriptionZh": "搗蛋;表現頑皮",
+      "descriptionEn": "The children acted up during lunch.",
+      "examples": [
+        {
+          "en": "The children acted up during lunch.",
+          "zh": "孩子們在午膳期間搗蛋。",
+          "highlight": "acted up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 ACT 談論角色和作用",
+      "titleEn": "Use ACT to talk about roles and functions",
+      "zh": "act as 可以說明一個人、地方或物件擔任甚麼角色,或發揮甚麼作用。",
+      "en": "Act as helps you explain the job or purpose that a person, place or object has."
+    },
+    {
+      "titleZh": "清楚說明誰代表另一個人或團體",
+      "titleEn": "Show clearly who represents another person or group",
+      "zh": "act for 和 act on behalf of 可以清楚說明誰代表他人發言、作決定或處理事情。",
+      "en": "Act for and act on behalf of make it clear who is speaking, deciding or handling matters for somebody else."
+    },
+    {
+      "titleZh": "說明根據甚麼資料採取行動",
+      "titleEn": "Explain actions based on advice or information",
+      "zh": "act on 和 act upon 可以表示某人因應建議、消息、指示或警告而採取行動。",
+      "en": "Act on and act upon help you show that somebody did something because of advice, information, instructions or a warning."
+    },
+    {
+      "titleZh": "談論表演和孩子的行為",
+      "titleEn": "Talk about performances and children’s behaviour",
+      "zh": "act something out 表示用動作把故事或事情演出來;act up 則表示搗蛋或表現頑皮。",
+      "en": "Act something out describes showing a story or event through actions, while act up describes bad or difficult behaviour."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 ACT 談論角色和作用",
+      "清楚說明誰代表另一個人或團體",
+      "說明根據甚麼資料採取行動",
+      "談論表演和孩子的行為"
+    ],
+    "contextsEn": [
+      "Use ACT to talk about roles and functions",
+      "Show clearly who represents another person or group",
+      "Explain actions based on advice or information",
+      "Talk about performances and children’s behaviour"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 ACT 談論角色和作用",
+        "titleEn": "Use ACT to talk about roles and functions",
+        "zh": "act as 可以說明一個人、地方或物件擔任甚麼角色,或發揮甚麼作用。",
+        "en": "Act as helps you explain the job or purpose that a person, place or object has.",
+        "examples": [
+          {
+            "en": "A large box acted as a table.",
+            "zh": "大紙箱充當了桌子。",
+            "highlight": "acted"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明誰代表另一個人或團體",
+        "titleEn": "Show clearly who represents another person or group",
+        "zh": "act for 和 act on behalf of 可以清楚說明誰代表他人發言、作決定或處理事情。",
+        "en": "Act for and act on behalf of make it clear who is speaking, deciding or handling matters for somebody else.",
+        "examples": [
+          {
+            "en": "The lawyer acted for the family.",
+            "zh": "律師代表該家庭處理事情。",
+            "highlight": "acted for"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明根據甚麼資料採取行動",
+        "titleEn": "Explain actions based on advice or information",
+        "zh": "act on 和 act upon 可以表示某人因應建議、消息、指示或警告而採取行動。",
+        "en": "Act on and act upon help you show that somebody did something because of advice, information, instructions or a warning.",
+        "examples": [
+          {
+            "en": "The school acted on the parents’ advice.",
+            "zh": "學校根據家長的建議採取了行動。",
+            "highlight": "acted on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論表演和孩子的行為",
+        "titleEn": "Talk about performances and children’s behaviour",
+        "zh": "act something out 表示用動作把故事或事情演出來;act up 則表示搗蛋或表現頑皮。",
+        "en": "Act something out describes showing a story or event through actions, while act up describes bad or difficult behaviour.",
+        "examples": [
+          {
+            "en": "The pupils acted the story out.",
+            "zh": "學生把故事演了出來。",
+            "highlight": "acted the story out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ACT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ACT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ACT 片語動詞。",
+      "en": "Read the whole sentence and choose the ACT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 act ... out 中使用 it 或 them 時,把它放在 ACT 和 OUT 中間。",
+      "titleEn": "When using it or them with act.",
+      "zh": "在 act ... out 中使用 it 或 them 時,把它放在 ACT 和 OUT 中間。",
+      "en": "When using it or them with act... out, place the word between ACT and OUT: act it out act them out"
+    },
+    {
+      "titleZh": "act for somebody、act on behalf of somebody 和 act on somebody’s behalf 表示代表某人;acton 或 act upon something 則表示根據消息、建議或警告採取行動。",
+      "titleEn": "Act for somebody, act on behalf of somebody and act on somebody’s behalf mean representing somebody.",
+      "zh": "act for somebody、act on behalf of somebody 和 act on somebody’s behalf 表示代表某人;acton 或 act upon something 則表示根據消息、建議或警告採取行動。",
+      "en": "Act for somebody, act on behalf of somebody and act on somebody’s behalf mean representing somebody. Act on or act upon something means using information, advice or a warning to decide what to do."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ACT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ACT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ACT 動詞片語句子改寫練習",
+    "titleEn": "ACT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ACT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ACT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-50-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The spare bedroom was used as a study during the school holiday.",
+      "promptZh": "備用睡房在學校假期期間被用作書房。",
+      "starter": "The",
+      "answer": "The spare bedroom acted as a study during the school holiday.",
+      "answerZh": "備用睡房在學校假期期間充當書房。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The manager followed the staff’s advice and changed the timetable.",
+      "promptZh": "經理聽從員工的建議,並更改了時間表。",
+      "starter": "The",
+      "answer": "The manager acted on the staff’s advice and changed the timetable.",
+      "answerZh": "經理根據員工的建議採取行動,並更改了時間表。",
+      "highlight": "acted on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Sara represented her father while he was abroad.",
+      "promptZh": "莎拉在父親身處外地期間代表他處理事情。",
+      "starter": "Sara",
+      "answer": "Sara acted for her father while he was abroad.",
+      "answerZh": "莎拉在父親身處外地期間代表他處理事情。",
+      "highlight": "acted for",
+      "targetForm": "act for somebody",
+      "targetMeaningZh": "代表某人處理事情"
+    },
+    {
+      "id": "phrasal-verb-50-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The pupils performed the short story in class.",
+      "promptZh": "學生在課堂上表演了這篇短篇故事。",
+      "starter": "The",
+      "answer": "The pupils acted the short story out in class.",
+      "answerZh": "學生在課堂上把這篇短篇故事演了出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The children behaved badly during the bus journey.",
+      "promptZh": "孩子們在巴士旅程中表現頑皮。",
+      "starter": "The",
+      "answer": "The children acted up during the bus journey.",
+      "answerZh": "孩子們在巴士旅程中搗蛋。",
+      "highlight": "acted up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "This old towel can be used as a cover for the box.",
+      "promptZh": "這條舊毛巾可以用作箱子的蓋布。",
+      "starter": "This",
+      "answer": "This old towel can act as a cover for the box.",
+      "answerZh": "這條舊毛巾可以充當箱子的蓋布。",
+      "highlight": "act",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Our captain spoke for the team at the meeting.",
+      "promptZh": "我們的隊長在會議上代表球隊發言。",
+      "starter": "Our",
+      "answer": "Our captain acted on behalf of the team at the meeting.",
+      "answerZh": "我們的隊長在會議上代表球隊發言。",
+      "highlight": "acted on behalf of",
+      "targetForm": "act on behalf of somebody",
+      "targetMeaningZh": "代表某人或某個團體"
+    },
+    {
+      "id": "phrasal-verb-50-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We followed the doctor’s advice and rested for two days.",
+      "promptZh": "我們聽從醫生的建議,休息了兩天。",
+      "starter": "We",
+      "answer": "We acted upon the doctor’s advice and rested for two days.",
+      "answerZh": "我們根據醫生的建議採取行動,休息了兩天。",
+      "highlight": "acted upon",
+      "targetForm": "act upon something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The class performed the scene for their parents.",
+      "promptZh": "全班為家長表演了那個場景。",
+      "starter": "The",
+      "answer": "The class acted the scene out for their parents.",
+      "answerZh": "全班為家長把那個場景演了出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nora served as interpreter during the visit.",
+      "promptZh": "諾拉在參觀期間擔任傳譯員。",
+      "starter": "Nora",
+      "answer": "Nora acted as interpreter during the visit.",
+      "answerZh": "諾拉在參觀期間擔任傳譯員。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Ben behaved badly when his mother asked him to leave.",
+      "promptZh": "母親叫賓離開時,他表現頑皮。",
+      "starter": "Ben",
+      "answer": "Ben acted up when his mother asked him to leave.",
+      "answerZh": "母親叫賓離開時,他便搗蛋。",
+      "highlight": "acted up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The teacher spoke for the child during the discussion.",
+      "promptZh": "老師在討論期間代表那名孩子發言。",
+      "starter": "The",
+      "answer": "The teacher acted on the child’s behalf during the discussion.",
+      "answerZh": "老師在討論期間代表那名孩子發言。",
+      "highlight": "acted on",
+      "targetForm": "act on somebody’s behalf",
+      "targetMeaningZh": "代表某人"
+    },
+    {
+      "id": "phrasal-verb-50-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The school is changing the menu because of parents’ comments about lunch.",
+      "promptZh": "學校因應家長對午餐的意見,正在更改餐單。",
+      "starter": "The",
+      "answer": "The school is acting on parents’ comments about lunch by changing the menu.",
+      "answerZh": "學校正因應家長對午餐的意見更改餐單。",
+      "highlight": "acting on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The drama club has performed the final scene twice.",
+      "promptZh": "戲劇學會已把最後一幕表演了兩次。",
+      "starter": "The",
+      "answer": "The drama club has acted out the final scene twice.",
+      "answerZh": "戲劇學會已把最後一幕演了兩次。",
+      "highlight": "acted out",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "This hall will be used as our classroom tomorrow.",
+      "promptZh": "這個禮堂明天會用作我們的課室。",
+      "starter": "This",
+      "answer": "This hall will act as our classroom tomorrow.",
+      "answerZh": "這個禮堂明天會充當我們的課室。",
+      "highlight": "act",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why are the boys behaving badly again?",
+      "promptZh": "那些男孩為甚麼又在搗蛋?",
+      "starter": "Why",
+      "answer": "Why are the boys acting up again?",
+      "answerZh": "那些男孩為甚麼又在搗蛋?",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "A local lawyer is representing the family.",
+      "promptZh": "一名本地律師正代表該家庭。",
+      "starter": "A",
+      "answer": "A local lawyer is acting for the family.",
+      "answerZh": "一名本地律師正代表該家庭。",
+      "highlight": "acting for",
+      "targetForm": "act for somebody",
+      "targetMeaningZh": "代表某人處理事情"
+    },
+    {
+      "id": "phrasal-verb-50-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Have you taken action because of the safety warning yet?",
+      "promptZh": "你已經因應安全警告採取行動了嗎?",
+      "starter": "Have",
+      "answer": "Have you acted on the safety warning yet?",
+      "answerZh": "你已經因應安全警告採取行動了嗎?",
+      "highlight": "acted on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The children are performing the shop scene.",
+      "promptZh": "孩子們正在表演商店的場景。",
+      "starter": "The",
+      "answer": "The children are acting the shop scene out.",
+      "answerZh": "孩子們正在把商店的場景演出來。",
+      "highlight": "acting",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The red light serves as a warning to drivers.",
+      "promptZh": "紅燈對司機起警告作用。",
+      "starter": "The",
+      "answer": "The red light acts as a warning to drivers.",
+      "answerZh": "紅燈對司機起警告作用。",
+      "highlight": "acts",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The class has been behaving badly all morning.",
+      "promptZh": "全班整個早上都在搗蛋。",
+      "starter": "The",
+      "answer": "The class has been acting up all morning.",
+      "answerZh": "全班整個早上都在搗蛋。",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Staff must follow the fire officer’s instructions.",
+      "promptZh": "員工必須按照消防人員的指示行事。",
+      "starter": "Staff",
+      "answer": "Staff must act upon the fire officer’s instructions.",
+      "answerZh": "員工必須按照消防人員的指示行事。",
+      "highlight": "act upon",
+      "targetForm": "act upon something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I will speak for my parents at the school meeting.",
+      "promptZh": "我會在學校會議上代表父母發言。",
+      "starter": "I",
+      "answer": "I will act on behalf of my parents at the school meeting.",
+      "answerZh": "我會在學校會議上代表父母發言。",
+      "highlight": "act on behalf of",
+      "targetForm": "act on behalf of somebody",
+      "targetMeaningZh": "代表某人"
+    },
+    {
+      "id": "phrasal-verb-50-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did the students perform the conversation?",
+      "promptZh": "學生有把那段對話演出來嗎?",
+      "starter": "Did",
+      "answer": "Did the students act the conversation out?",
+      "answerZh": "學生有把那段對話演出來嗎?",
+      "highlight": "act",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The children were behaving badly, so the driver stopped the bus.",
+      "promptZh": "孩子們表現頑皮,所以司機停下了巴士。",
+      "starter": "The",
+      "answer": "The children were acting up, so the driver stopped the bus.",
+      "answerZh": "孩子們正在搗蛋,所以司機停下了巴士。",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The oldest student served as team leader for the day.",
+      "promptZh": "年紀最大的學生當天擔任隊長。",
+      "starter": "The",
+      "answer": "The oldest student acted as team leader for the day.",
+      "answerZh": "年紀最大的學生當天擔任隊長。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We received the message yesterday and took action because of it at once.",
+      "promptZh": "我們昨天收到訊息後,立即因應它採取了行動。",
+      "starter": "We",
+      "answer": "We received the message yesterday and acted on it at once.",
+      "answerZh": "我們昨天收到訊息後,立即因應它採取了行動。",
+      "highlight": "acted on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The teacher read the dialogue, and the pairs performed it.",
+      "promptZh": "老師讀出對話後,各組同學把它演了出來。",
+      "starter": "The",
+      "answer": "The teacher read the dialogue, and the pairs acted it out.",
+      "answerZh": "老師讀出對話後,各組同學把它演了出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "While Daniel was ill, his sister represented him.",
+      "promptZh": "丹尼爾生病期間,姐姐代表他處理事情。",
+      "starter": "While",
+      "answer": "While Daniel was ill, his sister acted for him.",
+      "answerZh": "丹尼爾生病期間,姐姐代表他處理事情。",
+      "highlight": "acted for",
+      "targetForm": "act for somebody",
+      "targetMeaningZh": "代表某人處理事情"
+    },
+    {
+      "id": "phrasal-verb-50-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Ava never behaves badly when her grandparents visit.",
+      "promptZh": "艾娃的祖父母到訪時,她從不搗蛋。",
+      "starter": "Ava",
+      "answer": "Ava never acts up when her grandparents visit.",
+      "answerZh": "艾娃的祖父母到訪時,她從不搗蛋。",
+      "highlight": "acts up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Could Mr Chan serve as our guide during the visit?",
+      "promptZh": "參觀期間可否由陳先生擔任我們的導遊?",
+      "starter": "Could",
+      "answer": "Could Mr Chan act as our guide during the visit?",
+      "answerZh": "參觀期間可否由陳先生擔任我們的導遊?",
+      "highlight": "act",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The council had taken action because of the report before the meeting.",
+      "promptZh": "委員會在會議前已因應報告採取行動。",
+      "starter": "The",
+      "answer": "The council had acted upon the report before the meeting.",
+      "answerZh": "委員會在會議前已因應報告採取行動。",
+      "highlight": "acted upon",
+      "targetForm": "act upon something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We did not perform the whole story because time was short.",
+      "promptZh": "因為時間不足,我們沒有把整個故事演出來。",
+      "starter": "We",
+      "answer": "We did not act the whole story out because time was short.",
+      "answerZh": "因為時間不足,我們沒有把整個故事演出來。",
+      "highlight": "act",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Several pupils began behaving badly after lunch.",
+      "promptZh": "幾名學生午膳後開始搗蛋。",
+      "starter": "Several",
+      "answer": "Several pupils began acting up after lunch.",
+      "answerZh": "幾名學生午膳後開始搗蛋。",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The club secretary represented us and signed the form.",
+      "promptZh": "學會秘書代表我們簽署了表格。",
+      "starter": "The",
+      "answer": "The club secretary acted on our behalf and signed the form.",
+      "answerZh": "學會秘書代表我們簽署了表格。",
+      "highlight": "acted on our behalf",
+      "targetForm": "act on somebody’s behalf",
+      "targetMeaningZh": "代表某人"
+    },
+    {
+      "id": "phrasal-verb-50-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The first game serves as a warm-up for the longer match.",
+      "promptZh": "第一場比賽是較長賽事前的熱身。",
+      "starter": "The",
+      "answer": "The first game acts as a warm-up for the longer match.",
+      "answerZh": "第一場比賽是較長賽事前的熱身。",
+      "highlight": "acts",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "During the phone call, Mr Lee represented both owners.",
+      "promptZh": "李先生在電話通話期間代表兩名物主。",
+      "starter": "During",
+      "answer": "During the phone call, Mr Lee acted for both owners.",
+      "answerZh": "李先生在電話通話期間代表兩名物主。",
+      "highlight": "acted for",
+      "targetForm": "act for somebody",
+      "targetMeaningZh": "代表某人處理事情"
+    },
+    {
+      "id": "phrasal-verb-50-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Using information from a neighbour, the police searched the empty building.",
+      "promptZh": "警方根據鄰居提供的資料,搜查了空置大樓。",
+      "starter": "Acting",
+      "answer": "Acting on information from a neighbour, the police searched the empty building.",
+      "answerZh": "警方根據鄰居提供的資料,搜查了空置大樓。",
+      "highlight": "Acting on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "If the wait is too long, the younger children may behave badly.",
+      "promptZh": "如果等候時間太長,年幼的孩子可能會搗蛋。",
+      "starter": "If",
+      "answer": "If the wait is too long, the younger children may act up.",
+      "answerZh": "如果等候時間太長,年幼的孩子可能會搗蛋。",
+      "highlight": "act up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Each group performed the same event in a different way.",
+      "promptZh": "每組用不同方式把同一件事演出來。",
+      "starter": "Each",
+      "answer": "Each group acted out the same event in a different way.",
+      "answerZh": "每組用不同方式把同一件事演出來。",
+      "highlight": "acted out",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "During the game, Leo served as referee.",
+      "promptZh": "比賽期間,里奧擔任裁判。",
+      "starter": "During",
+      "answer": "During the game, Leo acted as referee.",
+      "answerZh": "比賽期間,里奧擔任裁判。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Who will speak for the class during the school meeting?",
+      "promptZh": "誰會在學校會議上代表全班發言?",
+      "starter": "Who",
+      "answer": "Who will act on behalf of the class during the school meeting?",
+      "answerZh": "誰會在學校會議上代表全班發言?",
+      "highlight": "act on behalf of",
+      "targetForm": "act on behalf of somebody",
+      "targetMeaningZh": "代表某人或某個團體"
+    },
+    {
+      "id": "phrasal-verb-50-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The coach followed the nurse’s advice and changed the training plan.",
+      "promptZh": "教練聽從護士的建議,並更改了訓練計劃。",
+      "starter": "The",
+      "answer": "The coach acted upon the nurse’s advice and changed the training plan.",
+      "answerZh": "教練根據護士的建議採取行動,並更改了訓練計劃。",
+      "highlight": "acted upon",
+      "targetForm": "act upon something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the lesson was interesting, two boys kept behaving badly.",
+      "promptZh": "雖然課堂很有趣,但兩名男孩仍不斷搗蛋。",
+      "starter": "Although",
+      "answer": "Although the lesson was interesting, two boys kept acting up.",
+      "answerZh": "雖然課堂很有趣,但兩名男孩仍不斷搗蛋。",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "To explain the accident clearly, the two cyclists showed what happened through a short performance.",
+      "promptZh": "為了清楚解釋意外,兩名單車手把事情演了出來。",
+      "starter": "To",
+      "answer": "To explain the accident clearly, the two cyclists acted it out.",
+      "answerZh": "為了清楚解釋意外,兩名單車手把事情演了出來。",
+      "highlight": "acted it out",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The company failed to take action because of the warning in time.",
+      "promptZh": "公司未能及時因應警告採取行動。",
+      "starter": "The",
+      "answer": "The company failed to act on the warning in time.",
+      "answerZh": "公司未能及時因應警告採取行動。",
+      "highlight": "act on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The booking email was accepted as our ticket at the door.",
+      "promptZh": "入場時,預訂電郵被當作我們的門票。",
+      "starter": "The",
+      "answer": "The booking email acted as our ticket at the door.",
+      "answerZh": "入場時,預訂電郵充當了我們的門票。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The nurse spoke for the patient when he was too weak to speak.",
+      "promptZh": "病人虛弱得無法說話時,護士代表他發言。",
+      "starter": "The",
+      "answer": "The nurse acted on the patient’s behalf when he was too weak to speak.",
+      "answerZh": "病人虛弱得無法說話時,護士代表他發言。",
+      "highlight": "acted on",
+      "targetForm": "act on somebody’s behalf",
+      "targetMeaningZh": "代表某人"
+    },
+    {
+      "id": "phrasal-verb-50-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "During the lesson, one student described the problem while the others showed it through actions.",
+      "promptZh": "課堂上,一名學生描述問題,其他學生則用動作把它演出來。",
+      "starter": "During",
+      "answer": "During the lesson, one student described the problem while the others acted it out.",
+      "answerZh": "課堂上,一名學生描述問題,其他學生則用動作把它演出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The children had promised to behave, but they started behaving badly as soon as the guests arrived.",
+      "promptZh": "孩子們曾答應會守規矩,但客人一到,他們便開始搗蛋。",
+      "starter": "The",
+      "answer": "The children had promised to behave, but they started acting up as soon as the guests arrived.",
+      "answerZh": "孩子們曾答應會守規矩,但客人一到,他們便開始搗蛋。",
+      "highlight": "acting up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "In the emergency exercise, the library was used as a meeting point for families.",
+      "promptZh": "在緊急演習中,圖書館被用作家庭集合點。",
+      "starter": "In",
+      "answer": "In the emergency exercise, the library acted as a meeting point for families.",
+      "answerZh": "在緊急演習中,圖書館充當了家庭集合點。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The team used the latest weather report and decided to move the event indoors.",
+      "promptZh": "團隊根據最新天氣報告,決定把活動移到室內。",
+      "starter": "The",
+      "answer": "The team acted on the latest weather report and decided to move the event indoors.",
+      "answerZh": "團隊根據最新天氣報告採取行動,決定把活動移到室內。",
+      "highlight": "acted on",
+      "targetForm": "act on something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the owner was overseas, her assistant represented her during the final discussion.",
+      "promptZh": "物主身處外地,因此助理在最後討論中代表她。",
+      "starter": "Because",
+      "answer": "Because the owner was overseas, her assistant acted for her during the final discussion.",
+      "answerZh": "物主身處外地,因此助理在最後討論中代表她。",
+      "highlight": "acted for",
+      "targetForm": "act for somebody",
+      "targetMeaningZh": "代表某人處理事情"
+    },
+    {
+      "id": "phrasal-verb-50-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The group could not explain the rule clearly, so they showed it through a short performance with simple movements.",
+      "promptZh": "小組無法清楚解釋規則,所以用簡單動作把它演了出來。",
+      "starter": "The",
+      "answer": "The group could not explain the rule clearly, so they acted it out with simple movements.",
+      "answerZh": "小組無法清楚解釋規則,所以用簡單動作把它演了出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The teacher knew the class was tired, but she did not allow anyone to behave badly.",
+      "promptZh": "老師知道全班很疲倦,但她不容許任何人搗蛋。",
+      "starter": "The",
+      "answer": "The teacher knew the class was tired, but she did not allow anyone to act up.",
+      "answerZh": "老師知道全班很疲倦,但她不容許任何人搗蛋。",
+      "highlight": "act up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "A line of bags was used as a boundary between the two teams.",
+      "promptZh": "一排袋子被用作兩隊之間的界線。",
+      "starter": "A",
+      "answer": "A line of bags acted as a boundary between the two teams.",
+      "answerZh": "一排袋子充當了兩隊之間的界線。",
+      "highlight": "acted",
+      "targetForm": "act as something",
+      "targetMeaningZh": "充當;擔任;起......作用"
+    },
+    {
+      "id": "phrasal-verb-50-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Once the family followed the travel advice, they changed their route and avoided the storm.",
+      "promptZh": "那個家庭按照旅遊建議改變路線,避開了風暴。",
+      "starter": "Once",
+      "answer": "Once the family acted upon the travel advice, they changed their route and avoided the storm.",
+      "answerZh": "那個家庭按照旅遊建議採取行動,改變路線並避開了風暴。",
+      "highlight": "acted upon",
+      "targetForm": "act upon something",
+      "targetMeaningZh": "根據某事採取行動"
+    },
+    {
+      "id": "phrasal-verb-50-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The young actors performed the story without using any words.",
+      "promptZh": "年輕演員不用任何說話,把故事演了出來。",
+      "starter": "The",
+      "answer": "The young actors acted the story out without using any words.",
+      "answerZh": "年輕演員不用任何說話,把故事演了出來。",
+      "highlight": "acted",
+      "targetForm": "act something out",
+      "targetMeaningZh": "把某事用表演方式呈現"
+    },
+    {
+      "id": "phrasal-verb-50-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even well-behaved children can behave badly when they are very tired.",
+      "promptZh": "即使一向守規矩的孩子,在非常疲倦時也可能搗蛋。",
+      "starter": "Even",
+      "answer": "Even well-behaved children can act up when they are very tired.",
+      "answerZh": "即使一向守規矩的孩子,在非常疲倦時也可能搗蛋。",
+      "highlight": "act up",
+      "targetForm": "act up",
+      "targetMeaningZh": "搗蛋;表現頑皮"
+    },
+    {
+      "id": "phrasal-verb-50-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Since no parent could attend, the older sister spoke for the child and asked the questions.",
+      "promptZh": "因為沒有家長能出席,姐姐代表那名孩子提出問題。",
+      "starter": "Since",
+      "answer": "Since no parent could attend, the older sister acted on the child’s behalf and asked the questions.",
+      "answerZh": "因為沒有家長能出席,姐姐代表那名孩子提出問題。",
+      "highlight": "acted on",
+      "targetForm": "act on somebody’s behalf",
+      "targetMeaningZh": "代表某人"
+    }
+  ]
+}

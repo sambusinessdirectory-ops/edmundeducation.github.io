@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-311",
+  "order": 311,
+  "slug": "tune",
+  "version": "1",
+  "title": "TUNE 動詞片語",
+  "titleEn": "Tune",
+  "titleZh": "TUNE 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 296 - TUNE.pdf",
+    "sourceNumber": 296,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TUNE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TUNE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TUNE",
+      "highlight": "TUNE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We tuned in to watch the football match.",
+      "zh": "我們收看了足球賽。",
+      "highlight": "tuned in to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I tuned the radio in until the voices were clear.",
+      "zh": "我調校收音機,直至能清楚聽到說話聲。",
+      "highlight": "tuned the radio in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Good teachers are tuned in to their pupils’ needs.",
+      "zh": "優秀的老師了解學生的需要。",
+      "highlight": "are tuned in to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "開始收看或收聽電視、電台或網上節目；調校收音機或其他裝置,使它能清楚接收訊號；了解或留意某人的需要、感受或正在發生的事情；停止留意;不再聽某人說話或不再注意某種聲音；把電視、收音機或其他裝置調至某個頻道、電台或頻率；樂手在演出前為樂器調音",
+    "en": "tune in / tune in to something / tune into something; tune something in; be tuned in / be tuned in to something / be tuned into something; tune out / tune somebody or something out; tune something to something; tune up",
+    "naturalZh": [
+      "開始收看或收聽電視、電台或網上節目",
+      "調校收音機或其他裝置,使它能清楚接收訊號",
+      "了解或留意某人的需要、感受或正在發生的事情",
+      "停止留意;不再聽某人說話或不再注意某種聲音",
+      "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+      "樂手在演出前為樂器調音"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tune in / tune in to something / tune into something",
+      "titleZh": "開始收看或收聽電視、電台或網上節目",
+      "titleEn": "tune in / tune in to something / tune into something",
+      "descriptionZh": "開始收看或收聽電視、電台或網上節目",
+      "descriptionEn": "We tuned in to watch the football match.",
+      "examples": [
+        {
+          "en": "We tuned in to watch the football match.",
+          "zh": "我們收看了足球賽。",
+          "highlight": "tuned in to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tune something in",
+      "titleZh": "調校收音機或其他裝置,使它能清楚接收訊號",
+      "titleEn": "tune something in",
+      "descriptionZh": "調校收音機或其他裝置,使它能清楚接收訊號",
+      "descriptionEn": "I tuned the radio in until the voices were clear.",
+      "examples": [
+        {
+          "en": "I tuned the radio in until the voices were clear.",
+          "zh": "我調校收音機,直至能清楚聽到說話聲。",
+          "highlight": "tuned the radio in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "be tuned in / be tuned in to something / be tuned into something",
+      "titleZh": "了解或留意某人的需要、感受或正在發生的事情",
+      "titleEn": "be tuned in / be tuned in to something / be tuned into something",
+      "descriptionZh": "了解或留意某人的需要、感受或正在發生的事情",
+      "descriptionEn": "Good teachers are tuned in to their pupils’ needs.",
+      "examples": [
+        {
+          "en": "Good teachers are tuned in to their pupils’ needs.",
+          "zh": "優秀的老師了解學生的需要。",
+          "highlight": "are tuned in to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tune out / tune somebody or something out",
+      "titleZh": "停止留意;不再聽某人說話或不再注意某種聲音",
+      "titleEn": "tune out / tune somebody or something out",
+      "descriptionZh": "停止留意;不再聽某人說話或不再注意某種聲音",
+      "descriptionEn": "Ben tuned out when the conversation became boring.",
+      "examples": [
+        {
+          "en": "Ben tuned out when the conversation became boring.",
+          "zh": "對話變得沉悶時,賓便不再留心聽。",
+          "highlight": "tuned out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tune something to something",
+      "titleZh": "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+      "titleEn": "tune something to something",
+      "descriptionZh": "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+      "descriptionEn": "She tuned the radio to the news station.",
+      "examples": [
+        {
+          "en": "She tuned the radio to the news station.",
+          "zh": "她把收音機調至新聞台。",
+          "highlight": "tuned the radio to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tune up",
+      "titleZh": "樂手在演出前為樂器調音",
+      "titleEn": "tune up",
+      "descriptionZh": "樂手在演出前為樂器調音",
+      "descriptionEn": "The orchestra tuned up before the concert.",
+      "examples": [
+        {
+          "en": "The orchestra tuned up before the concert.",
+          "zh": "管弦樂團在音樂會前為樂器調音。",
+          "highlight": "tuned up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TUNE 片語動詞的實際用途",
+    "labelEn": "TUNE Phrasal Verbs in Use",
+    "summaryZh": "tune in 可以表示在電視、電台或網上節目開始時收看或收聽。；訊號需要變得清晰時,可以使用 tune something in;選擇特定電台或頻道時,則可以使用 tunesomething to something。；tune out 可以表示不再留意說話或聲音;be tuned in to something 則可以表示了解別人的感受或需要。；tune up 可以自然地描述樂手在演奏前為樂器調音。",
+    "summaryEn": "Tune in helps you describe joining a television, radio or online programme when it begins. You can use tune something in when the signal needs to become clearer and tune something to something when selecting a particular station or channel. Tune out describes ignoring speech or sound, while be tuned in to something describes understanding people’s feelings or needs. Tune up gives you a natural way to describe musicians adjusting their instruments before playing.",
+    "contextsZh": [
+      "談論收看和收聽現場節目",
+      "說明如何調校收音機和電視",
+      "談論注意力和理解別人",
+      "描述樂手準備演出"
+    ],
+    "contextsEn": [
+      "Talk about watching and listening to live programmes",
+      "Explain how radios and televisions are adjusted",
+      "Talk about attention and understanding",
+      "Describe musicians preparing to perform"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TUNE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TUNE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tune in / tune in to something / tune into something",
+    "fixedHighlight": "tune in / tune in to something / tune into something",
+    "fixedZh": "閱讀整句,選出意思相同的 TUNE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TUNE expression that gives the same meaning.",
+    "correct": "tuned in to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以下分別:tune in to the programme= 開始收看或收聽節目tune the television to Channel 5= 把電視調至第五頻道；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the difference: tune in to the programme = start watching or listening tune the television to Channel 5 = set the television to a particular channel When using him, her, it or them, place the word as shown: tune it in tune him out tune them out",
+    "variableItemsZh": [
+      "tune in / tune in to something / tune into something",
+      "tune something in",
+      "be tuned in / be tuned in to something / be tuned into something",
+      "tune out / tune somebody or something out",
+      "tune something to something",
+      "tune up"
+    ],
+    "variableItemsEn": [
+      "tune in / tune in to something / tune into something",
+      "tune something in",
+      "be tuned in / be tuned in to something / be tuned into something",
+      "tune out / tune somebody or something out",
+      "tune something to something",
+      "tune up"
+    ],
+    "forms": [
+      {
+        "formZh": "開始收看或收聽電視、電台或網上節目",
+        "formEn": "tune in / tune in to something / tune into something",
+        "exampleZh": "我們收看了足球賽。",
+        "exampleEn": "We tuned in to watch the football match.",
+        "highlight": "tuned in to"
+      },
+      {
+        "formZh": "調校收音機或其他裝置,使它能清楚接收訊號",
+        "formEn": "tune something in",
+        "exampleZh": "我調校收音機,直至能清楚聽到說話聲。",
+        "exampleEn": "I tuned the radio in until the voices were clear.",
+        "highlight": "tuned the radio in"
+      },
+      {
+        "formZh": "了解或留意某人的需要、感受或正在發生的事情",
+        "formEn": "be tuned in / be tuned in to something / be tuned into something",
+        "exampleZh": "優秀的老師了解學生的需要。",
+        "exampleEn": "Good teachers are tuned in to their pupils’ needs.",
+        "highlight": "are tuned in to"
+      },
+      {
+        "formZh": "停止留意;不再聽某人說話或不再注意某種聲音",
+        "formEn": "tune out / tune somebody or something out",
+        "exampleZh": "對話變得沉悶時,賓便不再留心聽。",
+        "exampleEn": "Ben tuned out when the conversation became boring.",
+        "highlight": "tuned out"
+      },
+      {
+        "formZh": "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+        "formEn": "tune something to something",
+        "exampleZh": "她把收音機調至新聞台。",
+        "exampleEn": "She tuned the radio to the news station.",
+        "highlight": "tuned the radio to"
+      },
+      {
+        "formZh": "樂手在演出前為樂器調音",
+        "formEn": "tune up",
+        "exampleZh": "管弦樂團在音樂會前為樂器調音。",
+        "exampleEn": "The orchestra tuned up before the concert.",
+        "highlight": "tuned up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "開始收看或收聽電視、電台或網上節目",
+      "titleEn": "tune in / tune in to something / tune into something",
+      "formula": "tune in / tune in to something / tune into something",
+      "highlight": "tune in / tune in to something / tune into something",
+      "descriptionZh": "開始收看或收聽電視、電台或網上節目",
+      "descriptionEn": "We tuned in to watch the football match.",
+      "examples": [
+        {
+          "en": "We tuned in to watch the football match.",
+          "zh": "我們收看了足球賽。",
+          "highlight": "tuned in to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "調校收音機或其他裝置,使它能清楚接收訊號",
+      "titleEn": "tune something in",
+      "formula": "tune something in",
+      "highlight": "tune something in",
+      "descriptionZh": "調校收音機或其他裝置,使它能清楚接收訊號",
+      "descriptionEn": "I tuned the radio in until the voices were clear.",
+      "examples": [
+        {
+          "en": "I tuned the radio in until the voices were clear.",
+          "zh": "我調校收音機,直至能清楚聽到說話聲。",
+          "highlight": "tuned the radio in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "了解或留意某人的需要、感受或正在發生的事情",
+      "titleEn": "be tuned in / be tuned in to something / be tuned into something",
+      "formula": "be tuned in / be tuned in to something / be tuned into something",
+      "highlight": "be tuned in / be tuned in to something / be tuned into something",
+      "descriptionZh": "了解或留意某人的需要、感受或正在發生的事情",
+      "descriptionEn": "Good teachers are tuned in to their pupils’ needs.",
+      "examples": [
+        {
+          "en": "Good teachers are tuned in to their pupils’ needs.",
+          "zh": "優秀的老師了解學生的需要。",
+          "highlight": "are tuned in to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "停止留意;不再聽某人說話或不再注意某種聲音",
+      "titleEn": "tune out / tune somebody or something out",
+      "formula": "tune out / tune somebody or something out",
+      "highlight": "tune out / tune somebody or something out",
+      "descriptionZh": "停止留意;不再聽某人說話或不再注意某種聲音",
+      "descriptionEn": "Ben tuned out when the conversation became boring.",
+      "examples": [
+        {
+          "en": "Ben tuned out when the conversation became boring.",
+          "zh": "對話變得沉悶時,賓便不再留心聽。",
+          "highlight": "tuned out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+      "titleEn": "tune something to something",
+      "formula": "tune something to something",
+      "highlight": "tune something to something",
+      "descriptionZh": "把電視、收音機或其他裝置調至某個頻道、電台或頻率",
+      "descriptionEn": "She tuned the radio to the news station.",
+      "examples": [
+        {
+          "en": "She tuned the radio to the news station.",
+          "zh": "她把收音機調至新聞台。",
+          "highlight": "tuned the radio to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "樂手在演出前為樂器調音",
+      "titleEn": "tune up",
+      "formula": "tune up",
+      "highlight": "tune up",
+      "descriptionZh": "樂手在演出前為樂器調音",
+      "descriptionEn": "The orchestra tuned up before the concert.",
+      "examples": [
+        {
+          "en": "The orchestra tuned up before the concert.",
+          "zh": "管弦樂團在音樂會前為樂器調音。",
+          "highlight": "tuned up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論收看和收聽現場節目",
+      "titleEn": "Talk about watching and listening to live programmes",
+      "zh": "tune in 可以表示在電視、電台或網上節目開始時收看或收聽。",
+      "en": "Tune in helps you describe joining a television, radio or online programme when it begins."
+    },
+    {
+      "titleZh": "說明如何調校收音機和電視",
+      "titleEn": "Explain how radios and televisions are adjusted",
+      "zh": "訊號需要變得清晰時,可以使用 tune something in;選擇特定電台或頻道時,則可以使用 tunesomething to something。",
+      "en": "You can use tune something in when the signal needs to become clearer and tune something to something when selecting a particular station or channel."
+    },
+    {
+      "titleZh": "談論注意力和理解別人",
+      "titleEn": "Talk about attention and understanding",
+      "zh": "tune out 可以表示不再留意說話或聲音;be tuned in to something 則可以表示了解別人的感受或需要。",
+      "en": "Tune out describes ignoring speech or sound, while be tuned in to something describes understanding people’s feelings or needs."
+    },
+    {
+      "titleZh": "描述樂手準備演出",
+      "titleEn": "Describe musicians preparing to perform",
+      "zh": "tune up 可以自然地描述樂手在演奏前為樂器調音。",
+      "en": "Tune up gives you a natural way to describe musicians adjusting their instruments before playing."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論收看和收聽現場節目",
+      "說明如何調校收音機和電視",
+      "談論注意力和理解別人",
+      "描述樂手準備演出"
+    ],
+    "contextsEn": [
+      "Talk about watching and listening to live programmes",
+      "Explain how radios and televisions are adjusted",
+      "Talk about attention and understanding",
+      "Describe musicians preparing to perform"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論收看和收聽現場節目",
+        "titleEn": "Talk about watching and listening to live programmes",
+        "zh": "tune in 可以表示在電視、電台或網上節目開始時收看或收聽。",
+        "en": "Tune in helps you describe joining a television, radio or online programme when it begins.",
+        "examples": [
+          {
+            "en": "We tuned in to watch the football match.",
+            "zh": "我們收看了足球賽。",
+            "highlight": "tuned in to"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何調校收音機和電視",
+        "titleEn": "Explain how radios and televisions are adjusted",
+        "zh": "訊號需要變得清晰時,可以使用 tune something in;選擇特定電台或頻道時,則可以使用 tunesomething to something。",
+        "en": "You can use tune something in when the signal needs to become clearer and tune something to something when selecting a particular station or channel.",
+        "examples": [
+          {
+            "en": "I tuned the radio in until the voices were clear.",
+            "zh": "我調校收音機,直至能清楚聽到說話聲。",
+            "highlight": "tuned the radio in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論注意力和理解別人",
+        "titleEn": "Talk about attention and understanding",
+        "zh": "tune out 可以表示不再留意說話或聲音;be tuned in to something 則可以表示了解別人的感受或需要。",
+        "en": "Tune out describes ignoring speech or sound, while be tuned in to something describes understanding people’s feelings or needs.",
+        "examples": [
+          {
+            "en": "Good teachers are tuned in to their pupils’ needs.",
+            "zh": "優秀的老師了解學生的需要。",
+            "highlight": "are tuned in to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述樂手準備演出",
+        "titleEn": "Describe musicians preparing to perform",
+        "zh": "tune up 可以自然地描述樂手在演奏前為樂器調音。",
+        "en": "Tune up gives you a natural way to describe musicians adjusting their instruments before playing.",
+        "examples": [
+          {
+            "en": "Ben tuned out when the conversation became boring.",
+            "zh": "對話變得沉悶時,賓便不再留心聽。",
+            "highlight": "tuned out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TUNE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TUNE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TUNE 片語動詞。",
+      "en": "Read the whole sentence and choose the TUNE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以下分別:tune in to the programme= 開始收看或收聽節目tune the television to Channel 5= 把電視調至第五頻道",
+      "titleEn": "Notice the difference: tune in to the programme = start watching or listening tune the television to Channel 5 = set the television to a particular channel.",
+      "zh": "留意以下分別:tune in to the programme= 開始收看或收聽節目tune the television to Channel 5= 把電視調至第五頻道",
+      "en": "Notice the difference: tune in to the programme = start watching or listening tune the television to Channel 5 = set the television to a particular channel"
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: tune it in tune him out tune them out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: tune it in tune him out tune them out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TUNE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TUNE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TUNE 動詞片語句子改寫練習",
+    "titleEn": "TUNE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TUNE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TUNE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-311-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We started watching the football match on television.",
+      "promptZh": "我們開始透過電視觀看足球賽。",
+      "starter": "We",
+      "answer": "We tuned in to the football match on television.",
+      "answerZh": "我們透過電視收看足球賽。",
+      "highlight": "tuned in to",
+      "targetForm": "tune in to something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Before the concert, the orchestra adjusted its instruments together.",
+      "promptZh": "音樂會開始前,管弦樂團一起為樂器調音。",
+      "starter": "Before",
+      "answer": "Before the concert, the orchestra tuned up together.",
+      "answerZh": "音樂會開始前,管弦樂團一起為樂器調音。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "When Ben began discussing numbers, Ava stopped listening.",
+      "promptZh": "賓開始談論數字時,艾娃便不再留心聽。",
+      "starter": "When",
+      "answer": "When Ben began discussing numbers, Ava tuned out.",
+      "answerZh": "賓開始談論數字時,艾娃便不再留心聽。",
+      "highlight": "tuned out",
+      "targetForm": "tune out",
+      "targetMeaningZh": "停止留意或聆聽"
+    },
+    {
+      "id": "phrasal-verb-311-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Dad set the radio to the news station.",
+      "promptZh": "爸爸把收音機調至新聞台。",
+      "starter": "Dad",
+      "answer": "Dad tuned the radio to the news station.",
+      "answerZh": "爸爸把收音機調至新聞台。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個電台或頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Good teachers understand what their pupils need.",
+      "promptZh": "優秀的老師了解學生的需要。",
+      "starter": "Good",
+      "answer": "Good teachers are tuned in to what their pupils need.",
+      "answerZh": "優秀的老師了解學生的需要。",
+      "highlight": "are tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的需要"
+    },
+    {
+      "id": "phrasal-verb-311-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The radio was not adjusted correctly, so the music sounded unclear.",
+      "promptZh": "收音機沒有調校好,所以音樂聽起來不清楚。",
+      "starter": "The",
+      "answer": "The radio was not properly tuned in, so the music sounded unclear.",
+      "answerZh": "收音機沒有調校好,所以音樂聽起來不清楚。",
+      "highlight": "properly tuned in",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "At eight, we started listening to the live interview.",
+      "promptZh": "八時正,我們開始收聽現場訪問。",
+      "starter": "At",
+      "answer": "At eight, we tuned into the live interview.",
+      "answerZh": "八時正,我們開始收聽現場訪問。",
+      "highlight": "tuned into",
+      "targetForm": "tune into something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Leo ignored the loud conversation and kept reading.",
+      "promptZh": "里奧沒有理會那段響亮的對話,繼續閱讀。",
+      "starter": "Leo",
+      "answer": "Leo tuned out the loud conversation and kept reading.",
+      "answerZh": "里奧沒有理會那段響亮的對話,繼續閱讀。",
+      "highlight": "tuned out",
+      "targetForm": "tune something out",
+      "targetMeaningZh": "不再留意某種聲音"
+    },
+    {
+      "id": "phrasal-verb-311-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The band adjusted its instruments before going on stage.",
+      "promptZh": "樂隊上台前為樂器調音。",
+      "starter": "The",
+      "answer": "The band tuned up before going on stage.",
+      "answerZh": "樂隊上台前為樂器調音。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Parents should notice their child’s feelings.",
+      "promptZh": "父母應該留意孩子的感受。",
+      "starter": "Parents",
+      "answer": "Parents should be tuned in to their child’s feelings.",
+      "answerZh": "父母應該留意孩子的感受。",
+      "highlight": "be tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的感受"
+    },
+    {
+      "id": "phrasal-verb-311-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "All the televisions in the shop were set to the same channel.",
+      "promptZh": "店內所有電視都調至同一頻道。",
+      "starter": "All",
+      "answer": "All the televisions in the shop were tuned to the same channel.",
+      "answerZh": "店內所有電視都調至同一頻道。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please adjust the radio until the station comes through clearly.",
+      "promptZh": "請調校收音機,直至能清楚接收該電台。",
+      "starter": "Please",
+      "answer": "Please tune the radio in until the station comes through clearly.",
+      "answerZh": "請調校收音機,直至能清楚接收該電台。",
+      "highlight": "tune",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Nora is becoming more aware of what her team needs.",
+      "promptZh": "諾拉愈來愈了解團隊的需要。",
+      "starter": "Nora",
+      "answer": "Nora is becoming more tuned in to what her team needs.",
+      "answerZh": "諾拉愈來愈了解團隊的需要。",
+      "highlight": "is becoming more tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的需要"
+    },
+    {
+      "id": "phrasal-verb-311-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Will you listen to the weather report at six?",
+      "promptZh": "你會在六時收聽天氣報告嗎?",
+      "starter": "Will",
+      "answer": "Will you tune in to the weather report at six?",
+      "answerZh": "你會在六時收聽天氣報告嗎?",
+      "highlight": "tune in",
+      "targetForm": "tune in to something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "I have set the car radio to 98.8 FM.",
+      "promptZh": "我已把汽車收音機調至 FM 98.8。",
+      "starter": "I",
+      "answer": "I have tuned the car radio to 98.8 FM.",
+      "answerZh": "我已把汽車收音機調至 FM 98.8。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個頻率"
+    },
+    {
+      "id": "phrasal-verb-311-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The musicians are adjusting their instruments now.",
+      "promptZh": "樂手現在正為樂器調音。",
+      "starter": "The",
+      "answer": "The musicians are tuning up now.",
+      "answerZh": "樂手現在正為樂器調音。",
+      "highlight": "tuning up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The station sounded unclear, so I adjusted the radio carefully.",
+      "promptZh": "該電台的聲音不清楚,所以我仔細調校收音機。",
+      "starter": "The",
+      "answer": "The station sounded unclear, so I tuned the radio in carefully.",
+      "answerZh": "該電台的聲音不清楚,所以我仔細調校收音機。",
+      "highlight": "tuned",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why does Kai stop listening whenever the talk turns to money?",
+      "promptZh": "為甚麼每當話題轉到金錢時,啟便不再留心聽?",
+      "starter": "Why",
+      "answer": "Why does Kai tune out whenever the talk turns to money?",
+      "answerZh": "為甚麼每當話題轉到金錢時,啟便不再留心聽?",
+      "highlight": "tune out",
+      "targetForm": "tune out",
+      "targetMeaningZh": "停止留意或聆聽"
+    },
+    {
+      "id": "phrasal-verb-311-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Thousands of people are watching the online concert now.",
+      "promptZh": "數以千計的人現在正收看網上音樂會。",
+      "starter": "Thousands",
+      "answer": "Thousands of people are tuning into the online concert now.",
+      "answerZh": "數以千計的人現在正收看網上音樂會。",
+      "highlight": "tuning into",
+      "targetForm": "tune into something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Our new coach was not aware of how tired the players felt.",
+      "promptZh": "我們的新教練沒有留意球員感到多麼疲倦。",
+      "starter": "Our",
+      "answer": "Our new coach was not tuned in to how tired the players felt.",
+      "answerZh": "我們的新教練沒有留意球員感到多麼疲倦。",
+      "highlight": "was not tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的感受"
+    },
+    {
+      "id": "phrasal-verb-311-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The string players had already adjusted their instruments before the doors opened.",
+      "promptZh": "大門開啟前,弦樂手早已為樂器調音。",
+      "starter": "The",
+      "answer": "The string players had already tuned up before the doors opened.",
+      "answerZh": "大門開啟前,弦樂手早已為樂器調音。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could you set the television to Channel 8?",
+      "promptZh": "你可以把電視調至第八頻道嗎?",
+      "starter": "Could",
+      "answer": "Could you tune the television to Channel 8?",
+      "answerZh": "你可以把電視調至第八頻道嗎?",
+      "highlight": "tune",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I was trying to ignore the traffic noise while I studied.",
+      "promptZh": "我溫習時嘗試不理會交通噪音。",
+      "starter": "I",
+      "answer": "I was trying to tune out the traffic noise while I studied.",
+      "answerZh": "我溫習時嘗試不理會交通噪音。",
+      "highlight": "tune out",
+      "targetForm": "tune something out",
+      "targetMeaningZh": "不再留意某種聲音"
+    },
+    {
+      "id": "phrasal-verb-311-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the new radio been adjusted properly yet?",
+      "promptZh": "新收音機已經調校好了嗎?",
+      "starter": "Has",
+      "answer": "Has the new radio been tuned in properly yet?",
+      "answerZh": "新收音機已經調校好了嗎?",
+      "highlight": "tuned in",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Sam kept talking, but Priya stopped listening to him.",
+      "promptZh": "森姆一直說話,但普里雅不再聽他說。",
+      "starter": "Sam",
+      "answer": "Sam kept talking, but Priya tuned him out.",
+      "answerZh": "森姆一直說話,但普里雅不再聽他說。",
+      "highlight": "tuned",
+      "targetForm": "tune somebody out",
+      "targetMeaningZh": "不再聽某人說話"
+    },
+    {
+      "id": "phrasal-verb-311-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The radio is not receiving the station clearly. Please adjust it.",
+      "promptZh": "收音機未能清楚接收該電台。請調校一下。",
+      "starter": "The",
+      "answer": "The radio is not receiving the station clearly. Please tune it in.",
+      "answerZh": "收音機未能清楚接收該電台。請調校一下。",
+      "highlight": "tune",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why are the violinists adjusting their instruments again?",
+      "promptZh": "為甚麼小提琴手又在為樂器調音?",
+      "starter": "Why",
+      "answer": "Why are the violinists tuning up again?",
+      "answerZh": "為甚麼小提琴手又在為樂器調音?",
+      "highlight": "tuning up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The nurse listened carefully and remained aware of the child’s worries.",
+      "promptZh": "護士仔細聆聽,並一直留意孩子的憂慮。",
+      "starter": "The",
+      "answer": "The nurse listened carefully and remained tuned in to the child’s worries.",
+      "answerZh": "護士仔細聆聽,並一直留意孩子的憂慮。",
+      "highlight": "tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的感受"
+    },
+    {
+      "id": "phrasal-verb-311-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Each hotel television had been set to the local news channel.",
+      "promptZh": "酒店內每部電視都已調至本地新聞頻道。",
+      "starter": "Each",
+      "answer": "Each hotel television had been tuned to the local news channel.",
+      "answerZh": "酒店內每部電視都已調至本地新聞頻道。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We had planned to start watching the match at half past seven.",
+      "promptZh": "我們原本計劃在七時半開始收看比賽。",
+      "starter": "We",
+      "answer": "We had planned to tune in to the match at half past seven.",
+      "answerZh": "我們原本計劃在七時半收看比賽。",
+      "highlight": "tune in to",
+      "targetForm": "tune in to something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After I adjusted the kitchen radio correctly, the music became clear.",
+      "promptZh": "我把廚房的收音機調校好後,音樂便變得清晰。",
+      "starter": "After",
+      "answer": "After I tuned the kitchen radio in correctly, the music became clear.",
+      "answerZh": "我把廚房的收音機調校好後,音樂便變得清晰。",
+      "highlight": "tuned",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Even with people talking nearby, she can ignore them and continue writing.",
+      "promptZh": "即使附近有人說話,她也可以不理會他們,繼續寫作。",
+      "starter": "Even",
+      "answer": "Even with people talking nearby, she can tune them out and continue writing.",
+      "answerZh": "即使附近有人說話,她也可以不理會他們,繼續寫作。",
+      "highlight": "tune",
+      "targetForm": "tune somebody out",
+      "targetMeaningZh": "不再聽某人說話"
+    },
+    {
+      "id": "phrasal-verb-311-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Are the club leaders aware of what younger members want?",
+      "promptZh": "俱樂部領導人了解年輕會員的需要嗎?",
+      "starter": "Are",
+      "answer": "Are the club leaders tuned into what younger members want?",
+      "answerZh": "俱樂部領導人了解年輕會員的需要嗎?",
+      "highlight": "Are the club leaders tuned into",
+      "targetForm": "be tuned into something",
+      "targetMeaningZh": "了解或留意某人的需要"
+    },
+    {
+      "id": "phrasal-verb-311-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Please start listening at nine for the competition results.",
+      "promptZh": "請在九時開始收聽比賽結果。",
+      "starter": "Please",
+      "answer": "Please tune in at nine for the competition results.",
+      "answerZh": "請在九時收聽比賽結果。",
+      "highlight": "tune in",
+      "targetForm": "tune in",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why was every screen set to the travel programme?",
+      "promptZh": "為甚麼每個螢幕都調至旅遊節目?",
+      "starter": "Why",
+      "answer": "Why was every screen tuned to the travel programme?",
+      "answerZh": "為甚麼每個螢幕都調至旅遊節目?",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個節目或頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We could hear the brass players adjusting their instruments behind the curtain.",
+      "promptZh": "我們聽到銅管樂手在布幕後為樂器調音。",
+      "starter": "We",
+      "answer": "We could hear the brass players tuning up behind the curtain.",
+      "answerZh": "我們聽到銅管樂手在布幕後為樂器調音。",
+      "highlight": "tuning up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The radio was playing music, but I changed it to the sports station.",
+      "promptZh": "收音機原本播放音樂,但我把它轉到體育台。",
+      "starter": "The",
+      "answer": "The radio was playing music, but I tuned it to the sports station.",
+      "answerZh": "收音機原本播放音樂,但我把它轉到體育台。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個電台"
+    },
+    {
+      "id": "phrasal-verb-311-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The manager knew the rules well but did not understand how the staff were feeling.",
+      "promptZh": "經理十分熟悉規則,卻不了解員工的感受。",
+      "starter": "The",
+      "answer": "The manager knew the rules well but was not tuned in to how the staff were feeling.",
+      "answerZh": "經理十分熟悉規則,卻不了解員工的感受。",
+      "highlight": "was",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的感受"
+    },
+    {
+      "id": "phrasal-verb-311-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Rather than read the result later, we watched the final live.",
+      "promptZh": "我們沒有留待稍後才閱讀賽果,而是收看決賽直播。",
+      "starter": "Rather",
+      "answer": "Rather than read the result later, we tuned in to watch the final live.",
+      "answerZh": "我們沒有留待稍後才閱讀賽果,而是收看決賽直播。",
+      "highlight": "tuned in to watch",
+      "targetForm": "tune in",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The café was noisy, but Lina stopped noticing the music after a few minutes.",
+      "promptZh": "咖啡店十分嘈吵,但幾分鐘後,莉娜便不再留意音樂。",
+      "starter": "The",
+      "answer": "The café was noisy, but Lina tuned the music out after a few minutes.",
+      "answerZh": "咖啡店十分嘈吵,但幾分鐘後,莉娜便不再留意音樂。",
+      "highlight": "tuned",
+      "targetForm": "tune something out",
+      "targetMeaningZh": "不再留意某種聲音"
+    },
+    {
+      "id": "phrasal-verb-311-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "While the audience waited quietly, the orchestra prepared its instruments for the first piece.",
+      "promptZh": "觀眾安靜等候時,管弦樂團為第一首樂曲調校樂器。",
+      "starter": "While",
+      "answer": "While the audience waited quietly, the orchestra tuned up for the first piece.",
+      "answerZh": "觀眾安靜等候時,管弦樂團為第一首樂曲調校樂器。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the radio was set to the right station, it still needed adjusting before the voices were clear.",
+      "promptZh": "收音機雖然已調至正確電台,但仍要進一步調校,才能清楚聽到說話聲。",
+      "starter": "Although",
+      "answer": "Although the radio was set to the right station, it still needed tuning in before the voices were clear.",
+      "answerZh": "收音機雖然已調至正確電台,但仍要進一步調校,才能清楚聽到說話聲。",
+      "highlight": "tuning in",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "A good shop worker understands customers’ needs without being told.",
+      "promptZh": "優秀的店員不用別人提醒,也能了解顧客的需要。",
+      "starter": "A",
+      "answer": "A good shop worker is tuned in to customers’ needs without being told.",
+      "answerZh": "優秀的店員不用別人提醒,也能了解顧客的需要。",
+      "highlight": "is tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的需要"
+    },
+    {
+      "id": "phrasal-verb-311-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Before the exercise, the teacher set every radio to the same station.",
+      "promptZh": "練習開始前,老師把每部收音機調至同一電台。",
+      "starter": "Before",
+      "answer": "Before the exercise, the teacher tuned every radio to the same station.",
+      "answerZh": "練習開始前,老師把每部收音機調至同一電台。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個電台"
+    },
+    {
+      "id": "phrasal-verb-311-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "When the speaker repeated the same story, I simply stopped paying attention.",
+      "promptZh": "講者重複同一個故事時,我索性不再留心聽。",
+      "starter": "When",
+      "answer": "When the speaker repeated the same story, I simply tuned out.",
+      "answerZh": "講者重複同一個故事時,我索性不再留心聽。",
+      "highlight": "tuned out",
+      "targetForm": "tune out",
+      "targetMeaningZh": "停止留意或聆聽"
+    },
+    {
+      "id": "phrasal-verb-311-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "People in several countries started watching the same live concert at midnight.",
+      "promptZh": "數個國家的人在午夜開始收看同一場現場音樂會。",
+      "starter": "People",
+      "answer": "People in several countries tuned into the same live concert at midnight.",
+      "answerZh": "數個國家的人在午夜收看同一場現場音樂會。",
+      "highlight": "tuned into",
+      "targetForm": "tune into something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Could you adjust this old radio for me? The station keeps disappearing.",
+      "promptZh": "你可以替我調校這部舊收音機嗎?該電台的訊號不斷消失。",
+      "starter": "Could",
+      "answer": "Could you tune this old radio in for me? The station keeps disappearing.",
+      "answerZh": "你可以替我調校這部舊收音機嗎?該電台的訊號不斷消失。",
+      "highlight": "tune",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "No music could begin until all six players had finished adjusting their instruments.",
+      "promptZh": "六名樂手全部完成樂器調音後,音樂才能開始。",
+      "starter": "No",
+      "answer": "No music could begin until all six players had finished tuning up.",
+      "answerZh": "六名樂手全部完成樂器調音後,音樂才能開始。",
+      "highlight": "tuning up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The station could be heard, but the words were unclear, so Amir adjusted the radio carefully.",
+      "promptZh": "雖然能夠接收到該電台,但說話聲並不清楚,所以阿米爾仔細調校收音機。",
+      "starter": "The",
+      "answer": "The station could be heard, but the words were unclear, so Amir tuned the radio in carefully.",
+      "answerZh": "雖然能夠接收到該電台,但說話聲並不清楚,所以阿米爾仔細調校收音機。",
+      "highlight": "tuned",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The family did not want to miss the announcement, so by eight they had begun listening to the online broadcast.",
+      "promptZh": "這家人不想錯過廣播,因此到了八時,他們已開始收聽網上直播。",
+      "starter": "The",
+      "answer": "The family did not want to miss the announcement, so by eight they had tuned in to the online broadcast.",
+      "answerZh": "這家人不想錯過廣播,因此到了八時,他們已開始收聽網上直播。",
+      "highlight": "tuned in",
+      "targetForm": "tune in to something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "A soft mix of notes came from backstage as the musicians prepared their instruments for the evening show.",
+      "promptZh": "樂手為晚間表演調校樂器時,後台傳來輕柔而混雜的音符。",
+      "starter": "A",
+      "answer": "A soft mix of notes came from backstage as the musicians tuned up for the evening show.",
+      "answerZh": "樂手為晚間表演調校樂器時,後台傳來輕柔而混雜的音符。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the first programme ended, Rosa changed the television to the film channel.",
+      "promptZh": "第一個節目結束後,羅莎把電視轉到電影頻道。",
+      "starter": "When",
+      "answer": "When the first programme ended, Rosa tuned the television to the film channel.",
+      "answerZh": "第一個節目結束後,羅莎把電視轉到電影頻道。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I wanted to finish the last page, so I stopped paying attention to the voices around me.",
+      "promptZh": "我想完成最後一頁,所以不再理會身邊的說話聲。",
+      "starter": "I",
+      "answer": "I wanted to finish the last page, so I tuned out the voices around me.",
+      "answerZh": "我想完成最後一頁,所以不再理會身邊的說話聲。",
+      "highlight": "tuned out",
+      "targetForm": "tune something out",
+      "targetMeaningZh": "不再留意某種聲音"
+    },
+    {
+      "id": "phrasal-verb-311-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although the teacher followed the plan, she also understood the class’s need for a short break.",
+      "promptZh": "老師雖然按照計劃上課,但也了解全班需要短暫休息。",
+      "starter": "Although",
+      "answer": "Although the teacher followed the plan, she was also tuned in to the class’s need for a short break.",
+      "answerZh": "老師雖然按照計劃上課,但也了解全班需要短暫休息。",
+      "highlight": "was",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的需要"
+    },
+    {
+      "id": "phrasal-verb-311-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Even though the match began late, more than a million people started watching the live broadcast.",
+      "promptZh": "雖然比賽延遲開始,但仍有超過一百萬人收看直播。",
+      "starter": "Even",
+      "answer": "Even though the match began late, more than a million people tuned in to the live broadcast.",
+      "answerZh": "雖然比賽延遲開始,但仍有超過一百萬人收看直播。",
+      "highlight": "tuned in to",
+      "targetForm": "tune in to something",
+      "targetMeaningZh": "開始收看或收聽節目"
+    },
+    {
+      "id": "phrasal-verb-311-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "We could hear the station, but the sound remained rough until we adjusted the radio more carefully.",
+      "promptZh": "我們能夠接收到該電台,但直至更仔細地調校收音機後,聲音才變得清晰。",
+      "starter": "We",
+      "answer": "We could hear the station, but the sound remained rough until we tuned the radio in more carefully.",
+      "answerZh": "我們能夠接收到該電台,但直至更仔細地調校收音機後,聲音才變得清晰。",
+      "highlight": "tuned",
+      "targetForm": "tune something in",
+      "targetMeaningZh": "調校裝置,使訊號變得清晰"
+    },
+    {
+      "id": "phrasal-verb-311-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "For the product display, every television in the window had been set to the same cooking programme.",
+      "promptZh": "為了展示產品,櫥窗內每部電視都已調至同一個烹飪節目。",
+      "starter": "For",
+      "answer": "For the product display, every television in the window had been tuned to the same cooking programme.",
+      "answerZh": "為了展示產品,櫥窗內每部電視都已調至同一個烹飪節目。",
+      "highlight": "tuned",
+      "targetForm": "tune something to something",
+      "targetMeaningZh": "把裝置調至某個節目或頻道"
+    },
+    {
+      "id": "phrasal-verb-311-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "A strong team leader notices both what people say and how they feel.",
+      "promptZh": "優秀的團隊領袖會留意大家所說的話和感受。",
+      "starter": "A",
+      "answer": "A strong team leader is tuned in to both what people say and how they feel.",
+      "answerZh": "優秀的團隊領袖會留意大家所說的話和感受。",
+      "highlight": "is tuned in to",
+      "targetForm": "be tuned in to something",
+      "targetMeaningZh": "了解或留意某人的說話和感受"
+    },
+    {
+      "id": "phrasal-verb-311-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The conductor waited until the orchestra had prepared its instruments and the hall had become quiet.",
+      "promptZh": "指揮等待管弦樂團完成樂器調音,並待音樂廳安靜下來。",
+      "starter": "The",
+      "answer": "The conductor waited until the orchestra had tuned up and the hall had become quiet.",
+      "answerZh": "指揮等待管弦樂團完成樂器調音,並待音樂廳安靜下來。",
+      "highlight": "tuned up",
+      "targetForm": "tune up",
+      "targetMeaningZh": "為樂器調音"
+    },
+    {
+      "id": "phrasal-verb-311-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Whenever the argument became repetitive, Leo stopped listening and focused on his work instead.",
+      "promptZh": "每當爭論開始重複時,里奧便不再留心聽,轉而專注工作。",
+      "starter": "Whenever",
+      "answer": "Whenever the argument became repetitive, Leo tuned out and focused on his work instead.",
+      "answerZh": "每當爭論開始重複時,里奧便不再留心聽,轉而專注工作。",
+      "highlight": "tuned out",
+      "targetForm": "tune out",
+      "targetMeaningZh": "停止留意或聆聽"
+    }
+  ]
+}

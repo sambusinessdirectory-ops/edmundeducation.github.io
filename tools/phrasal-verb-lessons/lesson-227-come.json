@@ -1,0 +1,4380 @@
+{
+  "id": "phrasal-verb-227",
+  "order": 227,
+  "slug": "come",
+  "version": "1",
+  "title": "COME 動詞片語",
+  "titleEn": "Come",
+  "titleZh": "COME 動詞片語",
+  "level": "B1",
+  "groupCount": 34,
+  "source": {
+    "file": "Phrasal Verbs 224 - COME.pdf",
+    "sourceNumber": 224,
+    "pageCount": 60,
+    "teachingPdfPages": [
+      1,
+      2,
+      8
+    ],
+    "exercisePdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "answerKeyPdfPages": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COME 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COME."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COME",
+      "highlight": "COME"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Nobody knows how the fire came about.",
+      "zh": "沒有人知道火災是怎樣發生的。",
+      "highlight": "came about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The club finally came across with the money.",
+      "zh": "學會終於提供了款項。",
+      "highlight": "came across with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We came upon a quiet beach.",
+      "zh": "我們偶然發現了一個寧靜的海灘。",
+      "highlight": "came upon",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "發生;產生；終於提供或交出某物,尤指金錢；偶然遇見或發現；到某人的地方探訪或會面；追趕;追捕；到來;出現；向某人撲去或作出攻擊；用某種方法處理或思考某事；離開時帶着某物、成果或感受；離開;從某處移開；回來;返回；重新談及或處理某事；提交某人或機構審議；破壞關係;妨礙某人與某人或某事的聯繫；取得;得到；經過;順道探訪；前來接走、取走或拘捕某人或某物；出現;湧出;被提出；主動提供資料、協助或某物；來自;源自；由某事引起;產生某種結果；快點;加油;用來催促或鼓勵；轉而談論下一個主題；加入談話、通話或節目;開始出現；突然產生某種感覺、情緒或變化；轉而支持另一方、觀點或立場；從某人或某地旁邊經過；穿過;由另一邊進來；恢復知覺;醒過來；某個想法突然出現在某人腦中；合計為;總數是；聚在一起;聯合起來；被歸入某個類別或標題；隨附;包括",
+    "en": "come about; come across with something; come across somebody/something come on/upon somebody/something; come across come over; come after somebody/something; come along; come at somebody; come at something; come away with something; come away come away from something; come back; come back to something; come before somebody/something; come between somebody and somebody/something; come by something; come by come by something; come for somebody/something; come forth; come forward with something; come from come from something; come from something/doing something come of something/doing something; come on; come on to something; come on come on something; come over somebody/something; come over to somebody/something; come past come past somebody/something; come through come through something; come to; come to somebody; come to something; come together; come under something; come with something",
+    "naturalZh": [
+      "發生;產生",
+      "終於提供或交出某物,尤指金錢",
+      "偶然遇見或發現",
+      "到某人的地方探訪或會面",
+      "追趕;追捕",
+      "到來;出現",
+      "向某人撲去或作出攻擊",
+      "用某種方法處理或思考某事",
+      "離開時帶着某物、成果或感受",
+      "離開;從某處移開",
+      "回來;返回",
+      "重新談及或處理某事",
+      "提交某人或機構審議",
+      "破壞關係;妨礙某人與某人或某事的聯繫",
+      "取得;得到",
+      "經過;順道探訪",
+      "前來接走、取走或拘捕某人或某物",
+      "出現;湧出;被提出",
+      "主動提供資料、協助或某物",
+      "來自;源自",
+      "由某事引起;產生某種結果",
+      "快點;加油;用來催促或鼓勵",
+      "轉而談論下一個主題",
+      "加入談話、通話或節目;開始出現",
+      "突然產生某種感覺、情緒或變化",
+      "轉而支持另一方、觀點或立場",
+      "從某人或某地旁邊經過",
+      "穿過;由另一邊進來",
+      "恢復知覺;醒過來",
+      "某個想法突然出現在某人腦中",
+      "合計為;總數是",
+      "聚在一起;聯合起來",
+      "被歸入某個類別或標題",
+      "隨附;包括"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "come about",
+      "titleZh": "發生;產生",
+      "titleEn": "come about",
+      "descriptionZh": "發生;產生",
+      "descriptionEn": "Nobody knows how the fire came about.",
+      "examples": [
+        {
+          "en": "Nobody knows how the fire came about.",
+          "zh": "沒有人知道火災是怎樣發生的。",
+          "highlight": "came about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come across with something",
+      "titleZh": "終於提供或交出某物,尤指金錢",
+      "titleEn": "come across with something",
+      "descriptionZh": "終於提供或交出某物,尤指金錢",
+      "descriptionEn": "The club finally came across with the money.",
+      "examples": [
+        {
+          "en": "The club finally came across with the money.",
+          "zh": "學會終於提供了款項。",
+          "highlight": "came across with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come across somebody/something come on/upon somebody/something",
+      "titleZh": "偶然遇見或發現",
+      "titleEn": "come across somebody/something come on/upon somebody/something",
+      "descriptionZh": "偶然遇見或發現",
+      "descriptionEn": "We came upon a quiet beach.",
+      "examples": [
+        {
+          "en": "We came upon a quiet beach.",
+          "zh": "我們偶然發現了一個寧靜的海灘。",
+          "highlight": "came upon"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come across come over",
+      "titleZh": "到某人的地方探訪或會面",
+      "titleEn": "come across come over",
+      "descriptionZh": "到某人的地方探訪或會面",
+      "descriptionEn": "Come over for dinner.",
+      "examples": [
+        {
+          "en": "Come over for dinner.",
+          "zh": "過來一起吃晚飯吧。",
+          "highlight": "Come over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come after somebody/something",
+      "titleZh": "追趕;追捕",
+      "titleEn": "come after somebody/something",
+      "descriptionZh": "追趕;追捕",
+      "descriptionEn": "The guard came after the thief.",
+      "examples": [
+        {
+          "en": "The guard came after the thief.",
+          "zh": "保安員追趕那名小偷。",
+          "highlight": "came after"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come along",
+      "titleZh": "到來;出現",
+      "titleEn": "come along",
+      "descriptionZh": "到來;出現",
+      "descriptionEn": "Help came along at the right time.",
+      "examples": [
+        {
+          "en": "Help came along at the right time.",
+          "zh": "援助及時出現了。",
+          "highlight": "came along"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come at somebody",
+      "titleZh": "向某人撲去或作出攻擊",
+      "titleEn": "come at somebody",
+      "descriptionZh": "向某人撲去或作出攻擊",
+      "descriptionEn": "The goose came at us.",
+      "examples": [
+        {
+          "en": "The goose came at us.",
+          "zh": "那隻鵝向我們撲來。",
+          "highlight": "came at"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come at something",
+      "titleZh": "用某種方法處理或思考某事",
+      "titleEn": "come at something",
+      "descriptionZh": "用某種方法處理或思考某事",
+      "descriptionEn": "Let us come at this problem another way.",
+      "examples": [
+        {
+          "en": "Let us come at this problem another way.",
+          "zh": "讓我們用另一種方法處理這個問題。",
+          "highlight": "come at"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come away with something",
+      "titleZh": "離開時帶着某物、成果或感受",
+      "titleEn": "come away with something",
+      "descriptionZh": "離開時帶着某物、成果或感受",
+      "descriptionEn": "She came away with a prize.",
+      "examples": [
+        {
+          "en": "She came away with a prize.",
+          "zh": "她離開時取得了一個獎項。",
+          "highlight": "came away with"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come away come away from something",
+      "titleZh": "離開;從某處移開",
+      "titleEn": "come away come away from something",
+      "descriptionZh": "離開;從某處移開",
+      "descriptionEn": "Come away from the road.",
+      "examples": [
+        {
+          "en": "Come away from the road.",
+          "zh": "離開馬路。",
+          "highlight": "Come away from"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come back",
+      "titleZh": "回來;返回",
+      "titleEn": "come back",
+      "descriptionZh": "回來;返回",
+      "descriptionEn": "I will come back tomorrow.",
+      "examples": [
+        {
+          "en": "I will come back tomorrow.",
+          "zh": "我明天會回來。",
+          "highlight": "come back"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come back to something",
+      "titleZh": "重新談及或處理某事",
+      "titleEn": "come back to something",
+      "descriptionZh": "重新談及或處理某事",
+      "descriptionEn": "We will come back to that later.",
+      "examples": [
+        {
+          "en": "We will come back to that later.",
+          "zh": "我們稍後會再談那件事。",
+          "highlight": "come back to"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come before somebody/something",
+      "titleZh": "提交某人或機構審議",
+      "titleEn": "come before somebody/something",
+      "descriptionZh": "提交某人或機構審議",
+      "descriptionEn": "The plan comes before the council on Monday.",
+      "examples": [
+        {
+          "en": "The plan comes before the council on Monday.",
+          "zh": "計劃會在星期一提交議會審議。",
+          "highlight": "comes"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come between somebody and somebody/something",
+      "titleZh": "破壞關係;妨礙某人與某人或某事的聯繫",
+      "titleEn": "come between somebody and somebody/something",
+      "descriptionZh": "破壞關係;妨礙某人與某人或某事的聯繫",
+      "descriptionEn": "Do not let money come between you.",
+      "examples": [
+        {
+          "en": "Do not let money come between you.",
+          "zh": "不要讓金錢破壞你們的關係。",
+          "highlight": "come"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come by something",
+      "titleZh": "取得;得到",
+      "titleEn": "come by something",
+      "descriptionZh": "取得;得到",
+      "descriptionEn": "Cheap rooms are hard to come by.",
+      "examples": [
+        {
+          "en": "Cheap rooms are hard to come by.",
+          "zh": "便宜的房間很難找到。",
+          "highlight": "come by"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come by come by something",
+      "titleZh": "經過;順道探訪",
+      "titleEn": "come by come by something",
+      "descriptionZh": "經過;順道探訪",
+      "descriptionEn": "A neighbour came by this morning.",
+      "examples": [
+        {
+          "en": "A neighbour came by this morning.",
+          "zh": "一名鄰居今早順道來訪。",
+          "highlight": "came by"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come for somebody/something",
+      "titleZh": "前來接走、取走或拘捕某人或某物",
+      "titleEn": "come for somebody/something",
+      "descriptionZh": "前來接走、取走或拘捕某人或某物",
+      "descriptionEn": "The driver came for us at eight.",
+      "examples": [
+        {
+          "en": "The driver came for us at eight.",
+          "zh": "司機八時前來接我們。",
+          "highlight": "came for"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 1
+    },
+    {
+      "formula": "come forth",
+      "titleZh": "出現;湧出;被提出",
+      "titleEn": "come forth",
+      "descriptionZh": "出現;湧出;被提出",
+      "descriptionEn": "A voice came forth from the room.",
+      "examples": [
+        {
+          "en": "A voice came forth from the room.",
+          "zh": "房間裏傳出一把聲音。",
+          "highlight": "came"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come forward with something",
+      "titleZh": "主動提供資料、協助或某物",
+      "titleEn": "come forward with something",
+      "descriptionZh": "主動提供資料、協助或某物",
+      "descriptionEn": "One student came forward with an answer.",
+      "examples": [
+        {
+          "en": "One student came forward with an answer.",
+          "zh": "一名學生主動提出答案。",
+          "highlight": "came forward with"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come from come from something",
+      "titleZh": "來自;源自",
+      "titleEn": "come from come from something",
+      "descriptionZh": "來自;源自",
+      "descriptionEn": "This tea comes from India.",
+      "examples": [
+        {
+          "en": "This tea comes from India.",
+          "zh": "這種茶來自印度。",
+          "highlight": "comes from"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come from something/doing something come of something/doing something",
+      "titleZh": "由某事引起;產生某種結果",
+      "titleEn": "come from something/doing something come of something/doing something",
+      "descriptionZh": "由某事引起;產生某種結果",
+      "descriptionEn": "Nothing came of the complaint.",
+      "examples": [
+        {
+          "en": "Nothing came of the complaint.",
+          "zh": "那宗投訴沒有帶來任何結果。",
+          "highlight": "came"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come on",
+      "titleZh": "快點;加油;用來催促或鼓勵",
+      "titleEn": "come on",
+      "descriptionZh": "快點;加油;用來催促或鼓勵",
+      "descriptionEn": "Come on, the film is starting.",
+      "examples": [
+        {
+          "en": "Come on, the film is starting.",
+          "zh": "快點,電影要開始了。",
+          "highlight": "Come on"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come on to something",
+      "titleZh": "轉而談論下一個主題",
+      "titleEn": "come on to something",
+      "descriptionZh": "轉而談論下一個主題",
+      "descriptionEn": "I will come on to costs next.",
+      "examples": [
+        {
+          "en": "I will come on to costs next.",
+          "zh": "我接下來會談論費用。",
+          "highlight": "come on to"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come on come on something",
+      "titleZh": "加入談話、通話或節目;開始出現",
+      "titleEn": "come on come on something",
+      "descriptionZh": "加入談話、通話或節目;開始出現",
+      "descriptionEn": "The guest came on after the break.",
+      "examples": [
+        {
+          "en": "The guest came on after the break.",
+          "zh": "嘉賓在休息後出現。",
+          "highlight": "came on"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come over somebody/something",
+      "titleZh": "突然產生某種感覺、情緒或變化",
+      "titleEn": "come over somebody/something",
+      "descriptionZh": "突然產生某種感覺、情緒或變化",
+      "descriptionEn": "A sudden fear came over her.",
+      "examples": [
+        {
+          "en": "A sudden fear came over her.",
+          "zh": "她突然感到一陣恐懼。",
+          "highlight": "came over"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come over to somebody/something",
+      "titleZh": "轉而支持另一方、觀點或立場",
+      "titleEn": "come over to somebody/something",
+      "descriptionZh": "轉而支持另一方、觀點或立場",
+      "descriptionEn": "He came over to our side.",
+      "examples": [
+        {
+          "en": "He came over to our side.",
+          "zh": "他轉而支持我們這一方。",
+          "highlight": "came over to"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come past come past somebody/something",
+      "titleZh": "從某人或某地旁邊經過",
+      "titleEn": "come past come past somebody/something",
+      "descriptionZh": "從某人或某地旁邊經過",
+      "descriptionEn": "A van came past the school.",
+      "examples": [
+        {
+          "en": "A van came past the school.",
+          "zh": "一輛客貨車經過學校。",
+          "highlight": "came"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come through come through something",
+      "titleZh": "穿過;由另一邊進來",
+      "titleEn": "come through come through something",
+      "descriptionZh": "穿過;由另一邊進來",
+      "descriptionEn": "Cold air is coming through the window.",
+      "examples": [
+        {
+          "en": "Cold air is coming through the window.",
+          "zh": "冷空氣正從窗戶吹進來。",
+          "highlight": "coming through"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come to",
+      "titleZh": "恢復知覺;醒過來",
+      "titleEn": "come to",
+      "descriptionZh": "恢復知覺;醒過來",
+      "descriptionEn": "She came to in the ambulance.",
+      "examples": [
+        {
+          "en": "She came to in the ambulance.",
+          "zh": "她在救護車上恢復了知覺。",
+          "highlight": "came to"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come to somebody",
+      "titleZh": "某個想法突然出現在某人腦中",
+      "titleEn": "come to somebody",
+      "descriptionZh": "某個想法突然出現在某人腦中",
+      "descriptionEn": "The answer came to me later.",
+      "examples": [
+        {
+          "en": "The answer came to me later.",
+          "zh": "我稍後想到了答案。",
+          "highlight": "came to"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come to something",
+      "titleZh": "合計為;總數是",
+      "titleEn": "come to something",
+      "descriptionZh": "合計為;總數是",
+      "descriptionEn": "The meal came to £30.",
+      "examples": [
+        {
+          "en": "The meal came to £30.",
+          "zh": "這頓飯合共三十英鎊。",
+          "highlight": "came to"
+        }
+      ],
+      "number": 31,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come together",
+      "titleZh": "聚在一起;聯合起來",
+      "titleEn": "come together",
+      "descriptionZh": "聚在一起;聯合起來",
+      "descriptionEn": "The clubs came together to help.",
+      "examples": [
+        {
+          "en": "The clubs came together to help.",
+          "zh": "各個學會聯合起來提供協助。",
+          "highlight": "came together"
+        }
+      ],
+      "number": 32,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come under something",
+      "titleZh": "被歸入某個類別或標題",
+      "titleEn": "come under something",
+      "descriptionZh": "被歸入某個類別或標題",
+      "descriptionEn": "This cost comes under travel.",
+      "examples": [
+        {
+          "en": "This cost comes under travel.",
+          "zh": "這項開支被歸入旅費。",
+          "highlight": "comes under"
+        }
+      ],
+      "number": 33,
+      "pageGroup": 2
+    },
+    {
+      "formula": "come with something",
+      "titleZh": "隨附;包括",
+      "titleEn": "come with something",
+      "descriptionZh": "隨附;包括",
+      "descriptionEn": "The camera comes with a case.",
+      "examples": [
+        {
+          "en": "The camera comes with a case.",
+          "zh": "相機附有保護套。",
+          "highlight": "comes with"
+        }
+      ],
+      "number": 34,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COME 片語動詞的實際用途",
+    "labelEn": "COME Phrasal Verbs in Use",
+    "summaryZh": "come about 可以說明事情如何發生;come from 和 come of 則可以談論來源、原因和結果。；COME 片語動詞可以描述到來、返回、探訪、經過、進入、離開和追趕。；你可以用 COME 片語動詞表示偶然發現某物、突然想到構思、再次討論某個主題,或把事情提交審議。；COME 片語動詞可以描述突然出現的情緒、改變立場、主動提供協助,以及不同團體聯合起來。",
+    "summaryEn": "Come about explains how an event happens. Come from and come of help you talk about origins, causes and results. The COME family can describe arriving, returning, visiting, passing, entering, leaving and chasing. You can use COME expressions for finding something by chance, suddenly thinking of an idea, returning to a subject or presenting a matter for a decision. COME expressions can describe a sudden emotion, changing sides, offering help and different groups uniting.",
+    "contextsZh": [
+      "說明事情如何發生及從何而來",
+      "描述多種移動和探訪情況",
+      "談論發現、構思和決定",
+      "表達個人和團體的轉變"
+    ],
+    "contextsEn": [
+      "Explain how things happen and where they begin",
+      "Describe many kinds of movement and visits",
+      "Talk about discoveries, ideas and decisions",
+      "Express changes in people and groups"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COME expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "come about",
+    "fixedHighlight": "come about",
+    "fixedZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+    "correct": "came about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；偶然發現一張舊照片come across to my house到我家來come away with a medal離開時取得一面獎牌come away from the window離開窗邊；他恢復了知覺。The answer came to me.我想到了答案。The bill came to £40.帳單合共四十英鎊。",
+    "variableEn": "Keep the same people, things, time and meaning. Some expressions look similar but have different meanings: come across an old photograph Come to can also express several different ideas: He came to.",
+    "variableItemsZh": [
+      "come about",
+      "come across with something",
+      "come across somebody/something come on/upon somebody/something",
+      "come across come over",
+      "come after somebody/something",
+      "come along",
+      "come at somebody",
+      "come at something",
+      "come away with something",
+      "come away come away from something",
+      "come back",
+      "come back to something",
+      "come before somebody/something",
+      "come between somebody and somebody/something",
+      "come by something",
+      "come by come by something",
+      "come for somebody/something",
+      "come forth",
+      "come forward with something",
+      "come from come from something",
+      "come from something/doing something come of something/doing something",
+      "come on",
+      "come on to something",
+      "come on come on something",
+      "come over somebody/something",
+      "come over to somebody/something",
+      "come past come past somebody/something",
+      "come through come through something",
+      "come to",
+      "come to somebody",
+      "come to something",
+      "come together",
+      "come under something",
+      "come with something"
+    ],
+    "variableItemsEn": [
+      "come about",
+      "come across with something",
+      "come across somebody/something come on/upon somebody/something",
+      "come across come over",
+      "come after somebody/something",
+      "come along",
+      "come at somebody",
+      "come at something",
+      "come away with something",
+      "come away come away from something",
+      "come back",
+      "come back to something",
+      "come before somebody/something",
+      "come between somebody and somebody/something",
+      "come by something",
+      "come by come by something",
+      "come for somebody/something",
+      "come forth",
+      "come forward with something",
+      "come from come from something",
+      "come from something/doing something come of something/doing something",
+      "come on",
+      "come on to something",
+      "come on come on something",
+      "come over somebody/something",
+      "come over to somebody/something",
+      "come past come past somebody/something",
+      "come through come through something",
+      "come to",
+      "come to somebody",
+      "come to something",
+      "come together",
+      "come under something",
+      "come with something"
+    ],
+    "forms": [
+      {
+        "formZh": "發生;產生",
+        "formEn": "come about",
+        "exampleZh": "沒有人知道火災是怎樣發生的。",
+        "exampleEn": "Nobody knows how the fire came about.",
+        "highlight": "came about"
+      },
+      {
+        "formZh": "終於提供或交出某物,尤指金錢",
+        "formEn": "come across with something",
+        "exampleZh": "學會終於提供了款項。",
+        "exampleEn": "The club finally came across with the money.",
+        "highlight": "came across with"
+      },
+      {
+        "formZh": "偶然遇見或發現",
+        "formEn": "come across somebody/something come on/upon somebody/something",
+        "exampleZh": "我們偶然發現了一個寧靜的海灘。",
+        "exampleEn": "We came upon a quiet beach.",
+        "highlight": "came upon"
+      },
+      {
+        "formZh": "到某人的地方探訪或會面",
+        "formEn": "come across come over",
+        "exampleZh": "過來一起吃晚飯吧。",
+        "exampleEn": "Come over for dinner.",
+        "highlight": "Come over"
+      },
+      {
+        "formZh": "追趕;追捕",
+        "formEn": "come after somebody/something",
+        "exampleZh": "保安員追趕那名小偷。",
+        "exampleEn": "The guard came after the thief.",
+        "highlight": "came after"
+      },
+      {
+        "formZh": "到來;出現",
+        "formEn": "come along",
+        "exampleZh": "援助及時出現了。",
+        "exampleEn": "Help came along at the right time.",
+        "highlight": "came along"
+      },
+      {
+        "formZh": "向某人撲去或作出攻擊",
+        "formEn": "come at somebody",
+        "exampleZh": "那隻鵝向我們撲來。",
+        "exampleEn": "The goose came at us.",
+        "highlight": "came at"
+      },
+      {
+        "formZh": "用某種方法處理或思考某事",
+        "formEn": "come at something",
+        "exampleZh": "讓我們用另一種方法處理這個問題。",
+        "exampleEn": "Let us come at this problem another way.",
+        "highlight": "come at"
+      },
+      {
+        "formZh": "離開時帶着某物、成果或感受",
+        "formEn": "come away with something",
+        "exampleZh": "她離開時取得了一個獎項。",
+        "exampleEn": "She came away with a prize.",
+        "highlight": "came away with"
+      },
+      {
+        "formZh": "離開;從某處移開",
+        "formEn": "come away come away from something",
+        "exampleZh": "離開馬路。",
+        "exampleEn": "Come away from the road.",
+        "highlight": "Come away from"
+      },
+      {
+        "formZh": "回來;返回",
+        "formEn": "come back",
+        "exampleZh": "我明天會回來。",
+        "exampleEn": "I will come back tomorrow.",
+        "highlight": "come back"
+      },
+      {
+        "formZh": "重新談及或處理某事",
+        "formEn": "come back to something",
+        "exampleZh": "我們稍後會再談那件事。",
+        "exampleEn": "We will come back to that later.",
+        "highlight": "come back to"
+      },
+      {
+        "formZh": "提交某人或機構審議",
+        "formEn": "come before somebody/something",
+        "exampleZh": "計劃會在星期一提交議會審議。",
+        "exampleEn": "The plan comes before the council on Monday.",
+        "highlight": "comes"
+      },
+      {
+        "formZh": "破壞關係;妨礙某人與某人或某事的聯繫",
+        "formEn": "come between somebody and somebody/something",
+        "exampleZh": "不要讓金錢破壞你們的關係。",
+        "exampleEn": "Do not let money come between you.",
+        "highlight": "come"
+      },
+      {
+        "formZh": "取得;得到",
+        "formEn": "come by something",
+        "exampleZh": "便宜的房間很難找到。",
+        "exampleEn": "Cheap rooms are hard to come by.",
+        "highlight": "come by"
+      },
+      {
+        "formZh": "經過;順道探訪",
+        "formEn": "come by come by something",
+        "exampleZh": "一名鄰居今早順道來訪。",
+        "exampleEn": "A neighbour came by this morning.",
+        "highlight": "came by"
+      },
+      {
+        "formZh": "前來接走、取走或拘捕某人或某物",
+        "formEn": "come for somebody/something",
+        "exampleZh": "司機八時前來接我們。",
+        "exampleEn": "The driver came for us at eight.",
+        "highlight": "came for"
+      },
+      {
+        "formZh": "出現;湧出;被提出",
+        "formEn": "come forth",
+        "exampleZh": "房間裏傳出一把聲音。",
+        "exampleEn": "A voice came forth from the room.",
+        "highlight": "came"
+      },
+      {
+        "formZh": "主動提供資料、協助或某物",
+        "formEn": "come forward with something",
+        "exampleZh": "一名學生主動提出答案。",
+        "exampleEn": "One student came forward with an answer.",
+        "highlight": "came forward with"
+      },
+      {
+        "formZh": "來自;源自",
+        "formEn": "come from come from something",
+        "exampleZh": "這種茶來自印度。",
+        "exampleEn": "This tea comes from India.",
+        "highlight": "comes from"
+      },
+      {
+        "formZh": "由某事引起;產生某種結果",
+        "formEn": "come from something/doing something come of something/doing something",
+        "exampleZh": "那宗投訴沒有帶來任何結果。",
+        "exampleEn": "Nothing came of the complaint.",
+        "highlight": "came"
+      },
+      {
+        "formZh": "快點;加油;用來催促或鼓勵",
+        "formEn": "come on",
+        "exampleZh": "快點,電影要開始了。",
+        "exampleEn": "Come on, the film is starting.",
+        "highlight": "Come on"
+      },
+      {
+        "formZh": "轉而談論下一個主題",
+        "formEn": "come on to something",
+        "exampleZh": "我接下來會談論費用。",
+        "exampleEn": "I will come on to costs next.",
+        "highlight": "come on to"
+      },
+      {
+        "formZh": "加入談話、通話或節目;開始出現",
+        "formEn": "come on come on something",
+        "exampleZh": "嘉賓在休息後出現。",
+        "exampleEn": "The guest came on after the break.",
+        "highlight": "came on"
+      },
+      {
+        "formZh": "突然產生某種感覺、情緒或變化",
+        "formEn": "come over somebody/something",
+        "exampleZh": "她突然感到一陣恐懼。",
+        "exampleEn": "A sudden fear came over her.",
+        "highlight": "came over"
+      },
+      {
+        "formZh": "轉而支持另一方、觀點或立場",
+        "formEn": "come over to somebody/something",
+        "exampleZh": "他轉而支持我們這一方。",
+        "exampleEn": "He came over to our side.",
+        "highlight": "came over to"
+      },
+      {
+        "formZh": "從某人或某地旁邊經過",
+        "formEn": "come past come past somebody/something",
+        "exampleZh": "一輛客貨車經過學校。",
+        "exampleEn": "A van came past the school.",
+        "highlight": "came"
+      },
+      {
+        "formZh": "穿過;由另一邊進來",
+        "formEn": "come through come through something",
+        "exampleZh": "冷空氣正從窗戶吹進來。",
+        "exampleEn": "Cold air is coming through the window.",
+        "highlight": "coming through"
+      },
+      {
+        "formZh": "恢復知覺;醒過來",
+        "formEn": "come to",
+        "exampleZh": "她在救護車上恢復了知覺。",
+        "exampleEn": "She came to in the ambulance.",
+        "highlight": "came to"
+      },
+      {
+        "formZh": "某個想法突然出現在某人腦中",
+        "formEn": "come to somebody",
+        "exampleZh": "我稍後想到了答案。",
+        "exampleEn": "The answer came to me later.",
+        "highlight": "came to"
+      },
+      {
+        "formZh": "合計為;總數是",
+        "formEn": "come to something",
+        "exampleZh": "這頓飯合共三十英鎊。",
+        "exampleEn": "The meal came to £30.",
+        "highlight": "came to"
+      },
+      {
+        "formZh": "聚在一起;聯合起來",
+        "formEn": "come together",
+        "exampleZh": "各個學會聯合起來提供協助。",
+        "exampleEn": "The clubs came together to help.",
+        "highlight": "came together"
+      },
+      {
+        "formZh": "被歸入某個類別或標題",
+        "formEn": "come under something",
+        "exampleZh": "這項開支被歸入旅費。",
+        "exampleEn": "This cost comes under travel.",
+        "highlight": "comes under"
+      },
+      {
+        "formZh": "隨附;包括",
+        "formEn": "come with something",
+        "exampleZh": "相機附有保護套。",
+        "exampleEn": "The camera comes with a case.",
+        "highlight": "comes with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "發生;產生",
+      "titleEn": "come about",
+      "formula": "come about",
+      "highlight": "come about",
+      "descriptionZh": "發生;產生",
+      "descriptionEn": "Nobody knows how the fire came about.",
+      "examples": [
+        {
+          "en": "Nobody knows how the fire came about.",
+          "zh": "沒有人知道火災是怎樣發生的。",
+          "highlight": "came about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "終於提供或交出某物,尤指金錢",
+      "titleEn": "come across with something",
+      "formula": "come across with something",
+      "highlight": "come across with something",
+      "descriptionZh": "終於提供或交出某物,尤指金錢",
+      "descriptionEn": "The club finally came across with the money.",
+      "examples": [
+        {
+          "en": "The club finally came across with the money.",
+          "zh": "學會終於提供了款項。",
+          "highlight": "came across with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "偶然遇見或發現",
+      "titleEn": "come across somebody/something come on/upon somebody/something",
+      "formula": "come across somebody/something come on/upon somebody/something",
+      "highlight": "come across somebody/something come on/upon somebody/something",
+      "descriptionZh": "偶然遇見或發現",
+      "descriptionEn": "We came upon a quiet beach.",
+      "examples": [
+        {
+          "en": "We came upon a quiet beach.",
+          "zh": "我們偶然發現了一個寧靜的海灘。",
+          "highlight": "came upon"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "到某人的地方探訪或會面",
+      "titleEn": "come across come over",
+      "formula": "come across come over",
+      "highlight": "come across come over",
+      "descriptionZh": "到某人的地方探訪或會面",
+      "descriptionEn": "Come over for dinner.",
+      "examples": [
+        {
+          "en": "Come over for dinner.",
+          "zh": "過來一起吃晚飯吧。",
+          "highlight": "Come over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "追趕;追捕",
+      "titleEn": "come after somebody/something",
+      "formula": "come after somebody/something",
+      "highlight": "come after somebody/something",
+      "descriptionZh": "追趕;追捕",
+      "descriptionEn": "The guard came after the thief.",
+      "examples": [
+        {
+          "en": "The guard came after the thief.",
+          "zh": "保安員追趕那名小偷。",
+          "highlight": "came after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "到來;出現",
+      "titleEn": "come along",
+      "formula": "come along",
+      "highlight": "come along",
+      "descriptionZh": "到來;出現",
+      "descriptionEn": "Help came along at the right time.",
+      "examples": [
+        {
+          "en": "Help came along at the right time.",
+          "zh": "援助及時出現了。",
+          "highlight": "came along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "向某人撲去或作出攻擊",
+      "titleEn": "come at somebody",
+      "formula": "come at somebody",
+      "highlight": "come at somebody",
+      "descriptionZh": "向某人撲去或作出攻擊",
+      "descriptionEn": "The goose came at us.",
+      "examples": [
+        {
+          "en": "The goose came at us.",
+          "zh": "那隻鵝向我們撲來。",
+          "highlight": "came at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "用某種方法處理或思考某事",
+      "titleEn": "come at something",
+      "formula": "come at something",
+      "highlight": "come at something",
+      "descriptionZh": "用某種方法處理或思考某事",
+      "descriptionEn": "Let us come at this problem another way.",
+      "examples": [
+        {
+          "en": "Let us come at this problem another way.",
+          "zh": "讓我們用另一種方法處理這個問題。",
+          "highlight": "come at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "離開時帶着某物、成果或感受",
+      "titleEn": "come away with something",
+      "formula": "come away with something",
+      "highlight": "come away with something",
+      "descriptionZh": "離開時帶着某物、成果或感受",
+      "descriptionEn": "She came away with a prize.",
+      "examples": [
+        {
+          "en": "She came away with a prize.",
+          "zh": "她離開時取得了一個獎項。",
+          "highlight": "came away with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "離開;從某處移開",
+      "titleEn": "come away come away from something",
+      "formula": "come away come away from something",
+      "highlight": "come away come away from something",
+      "descriptionZh": "離開;從某處移開",
+      "descriptionEn": "Come away from the road.",
+      "examples": [
+        {
+          "en": "Come away from the road.",
+          "zh": "離開馬路。",
+          "highlight": "Come away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "回來;返回",
+      "titleEn": "come back",
+      "formula": "come back",
+      "highlight": "come back",
+      "descriptionZh": "回來;返回",
+      "descriptionEn": "I will come back tomorrow.",
+      "examples": [
+        {
+          "en": "I will come back tomorrow.",
+          "zh": "我明天會回來。",
+          "highlight": "come back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "重新談及或處理某事",
+      "titleEn": "come back to something",
+      "formula": "come back to something",
+      "highlight": "come back to something",
+      "descriptionZh": "重新談及或處理某事",
+      "descriptionEn": "We will come back to that later.",
+      "examples": [
+        {
+          "en": "We will come back to that later.",
+          "zh": "我們稍後會再談那件事。",
+          "highlight": "come back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "提交某人或機構審議",
+      "titleEn": "come before somebody/something",
+      "formula": "come before somebody/something",
+      "highlight": "come before somebody/something",
+      "descriptionZh": "提交某人或機構審議",
+      "descriptionEn": "The plan comes before the council on Monday.",
+      "examples": [
+        {
+          "en": "The plan comes before the council on Monday.",
+          "zh": "計劃會在星期一提交議會審議。",
+          "highlight": "comes"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "破壞關係;妨礙某人與某人或某事的聯繫",
+      "titleEn": "come between somebody and somebody/something",
+      "formula": "come between somebody and somebody/something",
+      "highlight": "come between somebody and somebody/something",
+      "descriptionZh": "破壞關係;妨礙某人與某人或某事的聯繫",
+      "descriptionEn": "Do not let money come between you.",
+      "examples": [
+        {
+          "en": "Do not let money come between you.",
+          "zh": "不要讓金錢破壞你們的關係。",
+          "highlight": "come"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "取得;得到",
+      "titleEn": "come by something",
+      "formula": "come by something",
+      "highlight": "come by something",
+      "descriptionZh": "取得;得到",
+      "descriptionEn": "Cheap rooms are hard to come by.",
+      "examples": [
+        {
+          "en": "Cheap rooms are hard to come by.",
+          "zh": "便宜的房間很難找到。",
+          "highlight": "come by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "經過;順道探訪",
+      "titleEn": "come by come by something",
+      "formula": "come by come by something",
+      "highlight": "come by come by something",
+      "descriptionZh": "經過;順道探訪",
+      "descriptionEn": "A neighbour came by this morning.",
+      "examples": [
+        {
+          "en": "A neighbour came by this morning.",
+          "zh": "一名鄰居今早順道來訪。",
+          "highlight": "came by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "前來接走、取走或拘捕某人或某物",
+      "titleEn": "come for somebody/something",
+      "formula": "come for somebody/something",
+      "highlight": "come for somebody/something",
+      "descriptionZh": "前來接走、取走或拘捕某人或某物",
+      "descriptionEn": "The driver came for us at eight.",
+      "examples": [
+        {
+          "en": "The driver came for us at eight.",
+          "zh": "司機八時前來接我們。",
+          "highlight": "came for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "出現;湧出;被提出",
+      "titleEn": "come forth",
+      "formula": "come forth",
+      "highlight": "come forth",
+      "descriptionZh": "出現;湧出;被提出",
+      "descriptionEn": "A voice came forth from the room.",
+      "examples": [
+        {
+          "en": "A voice came forth from the room.",
+          "zh": "房間裏傳出一把聲音。",
+          "highlight": "came"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "主動提供資料、協助或某物",
+      "titleEn": "come forward with something",
+      "formula": "come forward with something",
+      "highlight": "come forward with something",
+      "descriptionZh": "主動提供資料、協助或某物",
+      "descriptionEn": "One student came forward with an answer.",
+      "examples": [
+        {
+          "en": "One student came forward with an answer.",
+          "zh": "一名學生主動提出答案。",
+          "highlight": "came forward with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "來自;源自",
+      "titleEn": "come from come from something",
+      "formula": "come from come from something",
+      "highlight": "come from come from something",
+      "descriptionZh": "來自;源自",
+      "descriptionEn": "This tea comes from India.",
+      "examples": [
+        {
+          "en": "This tea comes from India.",
+          "zh": "這種茶來自印度。",
+          "highlight": "comes from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "由某事引起;產生某種結果",
+      "titleEn": "come from something/doing something come of something/doing something",
+      "formula": "come from something/doing something come of something/doing something",
+      "highlight": "come from something/doing something come of something/doing something",
+      "descriptionZh": "由某事引起;產生某種結果",
+      "descriptionEn": "Nothing came of the complaint.",
+      "examples": [
+        {
+          "en": "Nothing came of the complaint.",
+          "zh": "那宗投訴沒有帶來任何結果。",
+          "highlight": "came"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "快點;加油;用來催促或鼓勵",
+      "titleEn": "come on",
+      "formula": "come on",
+      "highlight": "come on",
+      "descriptionZh": "快點;加油;用來催促或鼓勵",
+      "descriptionEn": "Come on, the film is starting.",
+      "examples": [
+        {
+          "en": "Come on, the film is starting.",
+          "zh": "快點,電影要開始了。",
+          "highlight": "Come on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "轉而談論下一個主題",
+      "titleEn": "come on to something",
+      "formula": "come on to something",
+      "highlight": "come on to something",
+      "descriptionZh": "轉而談論下一個主題",
+      "descriptionEn": "I will come on to costs next.",
+      "examples": [
+        {
+          "en": "I will come on to costs next.",
+          "zh": "我接下來會談論費用。",
+          "highlight": "come on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "加入談話、通話或節目;開始出現",
+      "titleEn": "come on come on something",
+      "formula": "come on come on something",
+      "highlight": "come on come on something",
+      "descriptionZh": "加入談話、通話或節目;開始出現",
+      "descriptionEn": "The guest came on after the break.",
+      "examples": [
+        {
+          "en": "The guest came on after the break.",
+          "zh": "嘉賓在休息後出現。",
+          "highlight": "came on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "突然產生某種感覺、情緒或變化",
+      "titleEn": "come over somebody/something",
+      "formula": "come over somebody/something",
+      "highlight": "come over somebody/something",
+      "descriptionZh": "突然產生某種感覺、情緒或變化",
+      "descriptionEn": "A sudden fear came over her.",
+      "examples": [
+        {
+          "en": "A sudden fear came over her.",
+          "zh": "她突然感到一陣恐懼。",
+          "highlight": "came over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "轉而支持另一方、觀點或立場",
+      "titleEn": "come over to somebody/something",
+      "formula": "come over to somebody/something",
+      "highlight": "come over to somebody/something",
+      "descriptionZh": "轉而支持另一方、觀點或立場",
+      "descriptionEn": "He came over to our side.",
+      "examples": [
+        {
+          "en": "He came over to our side.",
+          "zh": "他轉而支持我們這一方。",
+          "highlight": "came over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "從某人或某地旁邊經過",
+      "titleEn": "come past come past somebody/something",
+      "formula": "come past come past somebody/something",
+      "highlight": "come past come past somebody/something",
+      "descriptionZh": "從某人或某地旁邊經過",
+      "descriptionEn": "A van came past the school.",
+      "examples": [
+        {
+          "en": "A van came past the school.",
+          "zh": "一輛客貨車經過學校。",
+          "highlight": "came"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "穿過;由另一邊進來",
+      "titleEn": "come through come through something",
+      "formula": "come through come through something",
+      "highlight": "come through come through something",
+      "descriptionZh": "穿過;由另一邊進來",
+      "descriptionEn": "Cold air is coming through the window.",
+      "examples": [
+        {
+          "en": "Cold air is coming through the window.",
+          "zh": "冷空氣正從窗戶吹進來。",
+          "highlight": "coming through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "恢復知覺;醒過來",
+      "titleEn": "come to",
+      "formula": "come to",
+      "highlight": "come to",
+      "descriptionZh": "恢復知覺;醒過來",
+      "descriptionEn": "She came to in the ambulance.",
+      "examples": [
+        {
+          "en": "She came to in the ambulance.",
+          "zh": "她在救護車上恢復了知覺。",
+          "highlight": "came to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "某個想法突然出現在某人腦中",
+      "titleEn": "come to somebody",
+      "formula": "come to somebody",
+      "highlight": "come to somebody",
+      "descriptionZh": "某個想法突然出現在某人腦中",
+      "descriptionEn": "The answer came to me later.",
+      "examples": [
+        {
+          "en": "The answer came to me later.",
+          "zh": "我稍後想到了答案。",
+          "highlight": "came to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 31,
+      "titleZh": "合計為;總數是",
+      "titleEn": "come to something",
+      "formula": "come to something",
+      "highlight": "come to something",
+      "descriptionZh": "合計為;總數是",
+      "descriptionEn": "The meal came to £30.",
+      "examples": [
+        {
+          "en": "The meal came to £30.",
+          "zh": "這頓飯合共三十英鎊。",
+          "highlight": "came to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 32,
+      "titleZh": "聚在一起;聯合起來",
+      "titleEn": "come together",
+      "formula": "come together",
+      "highlight": "come together",
+      "descriptionZh": "聚在一起;聯合起來",
+      "descriptionEn": "The clubs came together to help.",
+      "examples": [
+        {
+          "en": "The clubs came together to help.",
+          "zh": "各個學會聯合起來提供協助。",
+          "highlight": "came together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 33,
+      "titleZh": "被歸入某個類別或標題",
+      "titleEn": "come under something",
+      "formula": "come under something",
+      "highlight": "come under something",
+      "descriptionZh": "被歸入某個類別或標題",
+      "descriptionEn": "This cost comes under travel.",
+      "examples": [
+        {
+          "en": "This cost comes under travel.",
+          "zh": "這項開支被歸入旅費。",
+          "highlight": "comes under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 34,
+      "titleZh": "隨附;包括",
+      "titleEn": "come with something",
+      "formula": "come with something",
+      "highlight": "come with something",
+      "descriptionZh": "隨附;包括",
+      "descriptionEn": "The camera comes with a case.",
+      "examples": [
+        {
+          "en": "The camera comes with a case.",
+          "zh": "相機附有保護套。",
+          "highlight": "comes with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "說明事情如何發生及從何而來",
+      "titleEn": "Explain how things happen and where they begin",
+      "zh": "come about 可以說明事情如何發生;come from 和 come of 則可以談論來源、原因和結果。",
+      "en": "Come about explains how an event happens. Come from and come of help you talk about origins, causes and results."
+    },
+    {
+      "titleZh": "描述多種移動和探訪情況",
+      "titleEn": "Describe many kinds of movement and visits",
+      "zh": "COME 片語動詞可以描述到來、返回、探訪、經過、進入、離開和追趕。",
+      "en": "The COME family can describe arriving, returning, visiting, passing, entering, leaving and chasing."
+    },
+    {
+      "titleZh": "談論發現、構思和決定",
+      "titleEn": "Talk about discoveries, ideas and decisions",
+      "zh": "你可以用 COME 片語動詞表示偶然發現某物、突然想到構思、再次討論某個主題,或把事情提交審議。",
+      "en": "You can use COME expressions for finding something by chance, suddenly thinking of an idea, returning to a subject or presenting a matter for a decision."
+    },
+    {
+      "titleZh": "表達個人和團體的轉變",
+      "titleEn": "Express changes in people and groups",
+      "zh": "COME 片語動詞可以描述突然出現的情緒、改變立場、主動提供協助,以及不同團體聯合起來。",
+      "en": "COME expressions can describe a sudden emotion, changing sides, offering help and different groups uniting."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "說明事情如何發生及從何而來",
+      "描述多種移動和探訪情況",
+      "談論發現、構思和決定",
+      "表達個人和團體的轉變"
+    ],
+    "contextsEn": [
+      "Explain how things happen and where they begin",
+      "Describe many kinds of movement and visits",
+      "Talk about discoveries, ideas and decisions",
+      "Express changes in people and groups"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "說明事情如何發生及從何而來",
+        "titleEn": "Explain how things happen and where they begin",
+        "zh": "come about 可以說明事情如何發生;come from 和 come of 則可以談論來源、原因和結果。",
+        "en": "Come about explains how an event happens. Come from and come of help you talk about origins, causes and results.",
+        "examples": [
+          {
+            "en": "Nobody knows how the fire came about.",
+            "zh": "沒有人知道火災是怎樣發生的。",
+            "highlight": "came about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述多種移動和探訪情況",
+        "titleEn": "Describe many kinds of movement and visits",
+        "zh": "COME 片語動詞可以描述到來、返回、探訪、經過、進入、離開和追趕。",
+        "en": "The COME family can describe arriving, returning, visiting, passing, entering, leaving and chasing.",
+        "examples": [
+          {
+            "en": "The club finally came across with the money.",
+            "zh": "學會終於提供了款項。",
+            "highlight": "came across with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論發現、構思和決定",
+        "titleEn": "Talk about discoveries, ideas and decisions",
+        "zh": "你可以用 COME 片語動詞表示偶然發現某物、突然想到構思、再次討論某個主題,或把事情提交審議。",
+        "en": "You can use COME expressions for finding something by chance, suddenly thinking of an idea, returning to a subject or presenting a matter for a decision.",
+        "examples": [
+          {
+            "en": "We came upon a quiet beach.",
+            "zh": "我們偶然發現了一個寧靜的海灘。",
+            "highlight": "came upon"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達個人和團體的轉變",
+        "titleEn": "Express changes in people and groups",
+        "zh": "COME 片語動詞可以描述突然出現的情緒、改變立場、主動提供協助,以及不同團體聯合起來。",
+        "en": "COME expressions can describe a sudden emotion, changing sides, offering help and different groups uniting.",
+        "examples": [
+          {
+            "en": "Come over for dinner.",
+            "zh": "過來一起吃晚飯吧。",
+            "highlight": "Come over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COME expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COME 片語動詞。",
+      "en": "Read the whole sentence and choose the COME expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "偶然發現一張舊照片come across to my house到我家來come away with a medal離開時取得一面獎牌come away from the window離開窗邊",
+      "titleEn": "Some expressions look similar but have different meanings: come across an old photograph.",
+      "zh": "偶然發現一張舊照片come across to my house到我家來come away with a medal離開時取得一面獎牌come away from the window離開窗邊",
+      "en": "Some expressions look similar but have different meanings: come across an old photograph"
+    },
+    {
+      "titleZh": "他恢復了知覺。The answer came to me.我想到了答案。The bill came to £40.帳單合共四十英鎊。",
+      "titleEn": "Come to can also express several different ideas: He came to.",
+      "zh": "他恢復了知覺。The answer came to me.我想到了答案。The bill came to £40.帳單合共四十英鎊。",
+      "en": "Come to can also express several different ideas: He came to."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COME 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COME. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COME 動詞片語句子改寫練習",
+    "titleEn": "COME Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COME 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COME. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          34
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          35,
+          68
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          69,
+          136
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          137,
+          170
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-227-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "Nobody knows how the power cut happened.",
+      "promptZh": "沒有人知道停電是怎樣發生的。",
+      "starter": "Nobody",
+      "answer": "Nobody knows how the power cut came about.",
+      "answerZh": "沒有人知道停電是怎樣發生的。",
+      "highlight": "came about",
+      "targetForm": "come about",
+      "targetMeaningZh": "發生;產生"
+    },
+    {
+      "id": "phrasal-verb-227-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "My father joined the phone call later.",
+      "promptZh": "父親稍後加入了電話通話。",
+      "starter": "My",
+      "answer": "My father came on the phone later.",
+      "answerZh": "父親稍後加入了電話通話。",
+      "highlight": "came on",
+      "targetForm": "come on the phone",
+      "targetMeaningZh": "加入電話通話"
+    },
+    {
+      "id": "phrasal-verb-227-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "Good jobs are difficult to find.",
+      "promptZh": "好工作很難找到。",
+      "starter": "Good",
+      "answer": "Good jobs are difficult to come by.",
+      "answerZh": "好工作很難找到。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "取得;得到"
+    },
+    {
+      "id": "phrasal-verb-227-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "The dog attacked me.",
+      "promptZh": "那隻狗向我撲來。",
+      "starter": "The",
+      "answer": "The dog came at me.",
+      "answerZh": "那隻狗向我撲來。",
+      "highlight": "came at",
+      "targetForm": "come at somebody",
+      "targetMeaningZh": "向某人撲去或作出攻擊"
+    },
+    {
+      "id": "phrasal-verb-227-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 38,
+      "prompt": "Three clubs united to organise the event.",
+      "promptZh": "三個學會聯合籌辦這項活動。",
+      "starter": "Three",
+      "answer": "Three clubs came together to organise the event.",
+      "answerZh": "三個學會聯合籌辦這項活動。",
+      "highlight": "came together",
+      "targetForm": "come together",
+      "targetMeaningZh": "聚在一起;聯合起來"
+    },
+    {
+      "id": "phrasal-verb-227-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "I found an old photograph by chance.",
+      "promptZh": "我偶然發現了一張舊照片。",
+      "starter": "I",
+      "answer": "I came across an old photograph by chance.",
+      "answerZh": "我偶然發現了一張舊照片。",
+      "highlight": "came across",
+      "targetForm": "come across something",
+      "targetMeaningZh": "偶然發現某物"
+    },
+    {
+      "id": "phrasal-verb-227-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "Water flowed out of the hole.",
+      "promptZh": "水從洞中湧出。",
+      "starter": "Water",
+      "answer": "Water came forth from the hole.",
+      "answerZh": "水從洞中湧出。",
+      "highlight": "came forth from",
+      "targetForm": "come forth",
+      "targetMeaningZh": "出現;湧出"
+    },
+    {
+      "id": "phrasal-verb-227-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "Please return before six.",
+      "promptZh": "請在六時前回來。",
+      "starter": "Please",
+      "answer": "Please come back before six.",
+      "answerZh": "請在六時前回來。",
+      "highlight": "come back",
+      "targetForm": "come back",
+      "targetMeaningZh": "回來;返回"
+    },
+    {
+      "id": "phrasal-verb-227-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "Breakfast is included with the room.",
+      "promptZh": "房間住宿包括早餐。",
+      "starter": "Breakfast",
+      "answer": "Breakfast comes with the room.",
+      "answerZh": "房間住宿包括早餐。",
+      "highlight": "comes",
+      "targetForm": "come with something",
+      "targetMeaningZh": "隨附;包括"
+    },
+    {
+      "id": "phrasal-verb-227-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "The farmer chased the boys.",
+      "promptZh": "農夫追趕那些男孩。",
+      "starter": "The",
+      "answer": "The farmer came after the boys.",
+      "answerZh": "農夫追趕那些男孩。",
+      "highlight": "came after",
+      "targetForm": "come after somebody",
+      "targetMeaningZh": "追趕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 39,
+      "prompt": "These oranges are from Spain.",
+      "promptZh": "這些橙來自西班牙。",
+      "starter": "These",
+      "answer": "These oranges come from Spain.",
+      "answerZh": "這些橙來自西班牙。",
+      "highlight": "come",
+      "targetForm": "come from somewhere",
+      "targetMeaningZh": "來自某地"
+    },
+    {
+      "id": "phrasal-verb-227-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "He became conscious again after a few minutes.",
+      "promptZh": "幾分鐘後,他恢復了知覺。",
+      "starter": "He",
+      "answer": "He came to after a few minutes.",
+      "answerZh": "幾分鐘後,他恢復了知覺。",
+      "highlight": "came to",
+      "targetForm": "come to",
+      "targetMeaningZh": "恢復知覺"
+    },
+    {
+      "id": "phrasal-verb-227-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 39,
+      "prompt": "Nothing should damage their friendship.",
+      "promptZh": "任何事情都不應破壞他們的友誼。",
+      "starter": "Nothing",
+      "answer": "Nothing should come between them.",
+      "answerZh": "任何事情都不應破壞他們的友誼。",
+      "highlight": "come between them",
+      "targetForm": "come between people",
+      "targetMeaningZh": "破壞人與人之間的關係"
+    },
+    {
+      "id": "phrasal-verb-227-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "A taxi arrived a few minutes later.",
+      "promptZh": "幾分鐘後,一輛的士來了。",
+      "starter": "A",
+      "answer": "A taxi came along a few minutes later.",
+      "answerZh": "幾分鐘後,一輛的士來了。",
+      "highlight": "came along",
+      "targetForm": "come along",
+      "targetMeaningZh": "到來;出現"
+    },
+    {
+      "id": "phrasal-verb-227-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "The bill totalled £40.",
+      "promptZh": "帳單合共四十英鎊。",
+      "starter": "The",
+      "answer": "The bill came to £40.",
+      "answerZh": "帳單合共四十英鎊。",
+      "highlight": "came to",
+      "targetForm": "come to something",
+      "targetMeaningZh": "合計為"
+    },
+    {
+      "id": "phrasal-verb-227-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "Two witnesses offered information.",
+      "promptZh": "兩名目擊者主動提供了資料。",
+      "starter": "Two",
+      "answer": "Two witnesses came forward with information.",
+      "answerZh": "兩名目擊者主動提供了資料。",
+      "highlight": "came forward with",
+      "targetForm": "come forward with something",
+      "targetMeaningZh": "主動提供資料或協助"
+    },
+    {
+      "id": "phrasal-verb-227-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 40,
+      "prompt": "Come to my house after class.",
+      "promptZh": "放學後到我家來吧。",
+      "starter": "Come",
+      "answer": "Come over to my house after class.",
+      "answerZh": "放學後到我家來吧。",
+      "highlight": "Come over",
+      "targetForm": "come over",
+      "targetMeaningZh": "到某人的地方探訪"
+    },
+    {
+      "id": "phrasal-verb-227-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "A red bus passed us.",
+      "promptZh": "一輛紅色巴士從我們旁邊經過。",
+      "starter": "A",
+      "answer": "A red bus came past us.",
+      "answerZh": "一輛紅色巴士從我們旁邊經過。",
+      "highlight": "came past",
+      "targetForm": "come past somebody",
+      "targetMeaningZh": "從某人旁邊經過"
+    },
+    {
+      "id": "phrasal-verb-227-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "The problem resulted from poor planning.",
+      "promptZh": "這個問題源於計劃不周。",
+      "starter": "The",
+      "answer": "The problem came from poor planning.",
+      "answerZh": "這個問題源於計劃不周。",
+      "highlight": "came",
+      "targetForm": "come from something",
+      "targetMeaningZh": "由某事引起"
+    },
+    {
+      "id": "phrasal-verb-227-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "She left the race with a silver medal.",
+      "promptZh": "她離開賽事時取得了一面銀牌。",
+      "starter": "She",
+      "answer": "She came away from the race with a silver medal.",
+      "answerZh": "她離開賽事時取得了一面銀牌。",
+      "highlight": "came away from",
+      "targetForm": "come away with something",
+      "targetMeaningZh": "離開時取得某物或成果"
+    },
+    {
+      "id": "phrasal-verb-227-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 40,
+      "prompt": "A cyclist passed a few minutes ago.",
+      "promptZh": "幾分鐘前有一名單車手經過。",
+      "starter": "A",
+      "answer": "A cyclist came by a few minutes ago.",
+      "answerZh": "幾分鐘前有一名單車手經過。",
+      "highlight": "came by",
+      "targetForm": "come by",
+      "targetMeaningZh": "經過"
+    },
+    {
+      "id": "phrasal-verb-227-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 41,
+      "prompt": "A solution suddenly occurred to me.",
+      "promptZh": "我突然想到一個解決方法。",
+      "starter": "A",
+      "answer": "A solution suddenly came to me.",
+      "answerZh": "我突然想到一個解決方法。",
+      "highlight": "came",
+      "targetForm": "come to somebody",
+      "targetMeaningZh": "某人突然想到某事"
+    },
+    {
+      "id": "phrasal-verb-227-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 41,
+      "prompt": "The case will be considered by the court tomorrow.",
+      "promptZh": "案件明天會提交法院審理。",
+      "starter": "The",
+      "answer": "The case will come before the court tomorrow.",
+      "answerZh": "案件明天會提交法院審理。",
+      "highlight": "come before",
+      "targetForm": "come before something",
+      "targetMeaningZh": "提交某機構審議"
+    },
+    {
+      "id": "phrasal-verb-227-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "A strange calm suddenly affected him.",
+      "promptZh": "他突然感到一陣異常的平靜。",
+      "starter": "A",
+      "answer": "A strange calm came over him.",
+      "answerZh": "他突然感到一陣異常的平靜。",
+      "highlight": "came over",
+      "targetForm": "come over somebody",
+      "targetMeaningZh": "某種感覺突然出現"
+    },
+    {
+      "id": "phrasal-verb-227-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "The company finally provided the extra money.",
+      "promptZh": "公司終於提供了額外款項。",
+      "starter": "The",
+      "answer": "The company finally came across with the extra money.",
+      "answerZh": "公司終於提供了額外款項。",
+      "highlight": "came across with",
+      "targetForm": "come across with something",
+      "targetMeaningZh": "終於提供或交出某物"
+    },
+    {
+      "id": "phrasal-verb-227-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "Please enter my office.",
+      "promptZh": "請進來我的辦公室。",
+      "starter": "Please",
+      "answer": "Please come through to my office.",
+      "answerZh": "請進來我的辦公室。",
+      "highlight": "come through to",
+      "targetForm": "come through",
+      "targetMeaningZh": "由另一邊進來"
+    },
+    {
+      "id": "phrasal-verb-227-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "I will return to that question later.",
+      "promptZh": "我稍後會再談那個問題。",
+      "starter": "I",
+      "answer": "I will come back to that question later.",
+      "answerZh": "我稍後會再談那個問題。",
+      "highlight": "come back",
+      "targetForm": "come back to something",
+      "targetMeaningZh": "重新談及某事"
+    },
+    {
+      "id": "phrasal-verb-227-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "These books are included under ‘Travel’.",
+      "promptZh": "這些書被歸入「旅遊」類別。",
+      "starter": "These",
+      "answer": "These books come under ‘Travel’.",
+      "answerZh": "這些書被歸入「旅遊」類別。",
+      "highlight": "come",
+      "targetForm": "come under something",
+      "targetMeaningZh": "被歸入某個類別"
+    },
+    {
+      "id": "phrasal-verb-227-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 41,
+      "prompt": "A taxi arrived to collect us.",
+      "promptZh": "一輛的士前來接我們。",
+      "starter": "A",
+      "answer": "A taxi came for us.",
+      "answerZh": "一輛的士前來接我們。",
+      "highlight": "came for",
+      "targetForm": "come for somebody",
+      "targetMeaningZh": "前來接走某人"
+    },
+    {
+      "id": "phrasal-verb-227-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "We need to approach the problem differently.",
+      "promptZh": "我們需要用不同方法處理這個問題。",
+      "starter": "We",
+      "answer": "We need to come at the problem differently.",
+      "answerZh": "我們需要用不同方法處理這個問題。",
+      "highlight": "come at",
+      "targetForm": "come at something",
+      "targetMeaningZh": "用某種方法處理某事"
+    },
+    {
+      "id": "phrasal-verb-227-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "Two members changed to our side.",
+      "promptZh": "兩名成員轉而支持我們這一方。",
+      "starter": "Two",
+      "answer": "Two members came over to our side.",
+      "answerZh": "兩名成員轉而支持我們這一方。",
+      "highlight": "came over",
+      "targetForm": "come over to something",
+      "targetMeaningZh": "轉而支持另一方"
+    },
+    {
+      "id": "phrasal-verb-227-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "Move away from the window.",
+      "promptZh": "離開窗邊。",
+      "starter": "Come",
+      "answer": "Come away from the window.",
+      "answerZh": "離開窗邊。",
+      "highlight": "Come",
+      "targetForm": "come away from something",
+      "targetMeaningZh": "從某處移開"
+    },
+    {
+      "id": "phrasal-verb-227-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "I will discuss prices next.",
+      "promptZh": "我接下來會談論價格。",
+      "starter": "I",
+      "answer": "I will come on to prices next.",
+      "answerZh": "我接下來會談論價格。",
+      "highlight": "come on to",
+      "targetForm": "come on to something",
+      "targetMeaningZh": "轉而談論下一個主題"
+    },
+    {
+      "id": "phrasal-verb-227-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 42,
+      "prompt": "Hurry! We are late.",
+      "promptZh": "快點!我們遲到了。",
+      "starter": "Come",
+      "answer": "Come on! We are late.",
+      "answerZh": "快點!我們遲到了。",
+      "highlight": "Come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "快點;用來催促"
+    },
+    {
+      "id": "phrasal-verb-227-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 42,
+      "prompt": "Please hurry, or we will miss the bus.",
+      "promptZh": "快點,否則我們會錯過巴士。",
+      "starter": "Come",
+      "answer": "Come on, or we will miss the bus.",
+      "answerZh": "快點,否則我們會錯過巴士。",
+      "highlight": "Come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "快點;用來催促"
+    },
+    {
+      "id": "phrasal-verb-227-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 42,
+      "prompt": "Have you ever met anyone famous by chance?",
+      "promptZh": "你曾偶然遇見名人嗎?",
+      "starter": "Have",
+      "answer": "Have you ever come across anyone famous by chance?",
+      "answerZh": "你曾偶然遇見名人嗎?",
+      "highlight": "come across",
+      "targetForm": "come across somebody",
+      "targetMeaningZh": "偶然遇見某人"
+    },
+    {
+      "id": "phrasal-verb-227-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 42,
+      "prompt": "How much did the repairs total?",
+      "promptZh": "維修費合共多少?",
+      "starter": "How",
+      "answer": "How much did the repairs come to?",
+      "answerZh": "維修費合共多少?",
+      "highlight": "come to",
+      "targetForm": "come to something",
+      "targetMeaningZh": "合計為"
+    },
+    {
+      "id": "phrasal-verb-227-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "Has money ever damaged your relationship with your brother?",
+      "promptZh": "金錢曾破壞你和哥哥的關係嗎?",
+      "starter": "Has",
+      "answer": "Has money ever come between you and your brother?",
+      "answerZh": "金錢曾破壞你和哥哥的關係嗎?",
+      "highlight": "come between you and",
+      "targetForm": "come between somebody and somebody",
+      "targetMeaningZh": "破壞兩人的關係"
+    },
+    {
+      "id": "phrasal-verb-227-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "Another bus should arrive soon.",
+      "promptZh": "另一輛巴士應該很快便會到來。",
+      "starter": "Another",
+      "answer": "Another bus should come along soon.",
+      "answerZh": "另一輛巴士應該很快便會到來。",
+      "highlight": "come along",
+      "targetForm": "come along",
+      "targetMeaningZh": "到來;出現"
+    },
+    {
+      "id": "phrasal-verb-227-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 43,
+      "prompt": "What made you behave like that?",
+      "promptZh": "你到底怎麼了,為甚麼會那樣做?",
+      "starter": "What",
+      "answer": "What came over you?",
+      "answerZh": "你到底怎麼了,為甚麼會那樣做?",
+      "highlight": "came over",
+      "targetForm": "come over somebody",
+      "targetMeaningZh": "某種感覺或反應突然出現"
+    },
+    {
+      "id": "phrasal-verb-227-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 43,
+      "prompt": "New leaves are beginning to appear.",
+      "promptZh": "新葉開始長出來。",
+      "starter": "New",
+      "answer": "New leaves are beginning to come forth.",
+      "answerZh": "新葉開始長出來。",
+      "highlight": "come forth",
+      "targetForm": "come forth",
+      "targetMeaningZh": "出現;長出"
+    },
+    {
+      "id": "phrasal-verb-227-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 43,
+      "prompt": "When will you return?",
+      "promptZh": "你甚麼時候回來?",
+      "starter": "When",
+      "answer": "When will you come back?",
+      "answerZh": "你甚麼時候回來?",
+      "highlight": "come back",
+      "targetForm": "come back",
+      "targetMeaningZh": "回來;返回"
+    },
+    {
+      "id": "phrasal-verb-227-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 43,
+      "prompt": "Does the phone include a charger?",
+      "promptZh": "這部電話附有充電器嗎?",
+      "starter": "Does",
+      "answer": "Does the phone come with a charger?",
+      "answerZh": "這部電話附有充電器嗎?",
+      "highlight": "come with",
+      "targetForm": "come with something",
+      "targetMeaningZh": "隨附;包括"
+    },
+    {
+      "id": "phrasal-verb-227-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 43,
+      "prompt": "Can we approach this question from another angle?",
+      "promptZh": "我們可以從另一個角度處理這個問題嗎?",
+      "starter": "Can",
+      "answer": "Can we come at this question from another angle?",
+      "answerZh": "我們可以從另一個角度處理這個問題嗎?",
+      "highlight": "come at",
+      "targetForm": "come at something",
+      "targetMeaningZh": "用某種方法處理某事"
+    },
+    {
+      "id": "phrasal-verb-227-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 43,
+      "prompt": "Will you visit later?",
+      "promptZh": "你稍後會順道來探訪嗎?",
+      "starter": "Will",
+      "answer": "Will you come by later?",
+      "answerZh": "你稍後會順道來探訪嗎?",
+      "highlight": "come by",
+      "targetForm": "come by",
+      "targetMeaningZh": "順道探訪"
+    },
+    {
+      "id": "phrasal-verb-227-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 44,
+      "prompt": "Has she become conscious again?",
+      "promptZh": "她恢復知覺了嗎?",
+      "starter": "Has",
+      "answer": "Has she come to?",
+      "answerZh": "她恢復知覺了嗎?",
+      "highlight": "come to",
+      "targetForm": "come to",
+      "targetMeaningZh": "恢復知覺"
+    },
+    {
+      "id": "phrasal-verb-227-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "Will the sponsor provide the remaining £5,000?",
+      "promptZh": "贊助商會提供餘下的五千英鎊嗎?",
+      "starter": "Will",
+      "answer": "Will the sponsor come across with the remaining £5,000?",
+      "answerZh": "贊助商會提供餘下的五千英鎊嗎?",
+      "highlight": "come across with",
+      "targetForm": "come across with something",
+      "targetMeaningZh": "終於提供或交出某物"
+    },
+    {
+      "id": "phrasal-verb-227-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "Where are your grandparents from?",
+      "promptZh": "你的祖父母來自哪裏?",
+      "starter": "Where",
+      "answer": "Where do your grandparents come from?",
+      "answerZh": "你的祖父母來自哪裏?",
+      "highlight": "do",
+      "targetForm": "come from somewhere",
+      "targetMeaningZh": "來自某地"
+    },
+    {
+      "id": "phrasal-verb-227-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "Did anyone pass the gate this morning?",
+      "promptZh": "今早有人經過大閘嗎?",
+      "starter": "Did",
+      "answer": "Did anyone come past the gate this morning?",
+      "answerZh": "今早有人經過大閘嗎?",
+      "highlight": "come past",
+      "targetForm": "come past something",
+      "targetMeaningZh": "從某地旁邊經過"
+    },
+    {
+      "id": "phrasal-verb-227-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "When does the proposal go to the committee for a decision?",
+      "promptZh": "這項建議甚麼時候會提交委員會決定?",
+      "starter": "When",
+      "answer": "When does the proposal come before the committee for a decision?",
+      "answerZh": "這項建議甚麼時候會提交委員會決定?",
+      "highlight": "come before",
+      "targetForm": "come before something",
+      "targetMeaningZh": "提交某機構審議"
+    },
+    {
+      "id": "phrasal-verb-227-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "The dog is chasing the cyclist.",
+      "promptZh": "那隻狗正在追趕單車手。",
+      "starter": "The",
+      "answer": "The dog is coming after the cyclist.",
+      "answerZh": "那隻狗正在追趕單車手。",
+      "highlight": "coming after",
+      "targetForm": "come after somebody",
+      "targetMeaningZh": "追趕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 44,
+      "prompt": "The neighbours are uniting to clean the park.",
+      "promptZh": "鄰居正聯合起來清潔公園。",
+      "starter": "The",
+      "answer": "The neighbours are coming together to clean the park.",
+      "answerZh": "鄰居正聯合起來清潔公園。",
+      "highlight": "coming together",
+      "targetForm": "come together",
+      "targetMeaningZh": "聯合起來"
+    },
+    {
+      "id": "phrasal-verb-227-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 44,
+      "prompt": "Who will appear after the news?",
+      "promptZh": "新聞之後誰會出現?",
+      "starter": "Who",
+      "answer": "Who will come on after the news?",
+      "answerZh": "新聞之後誰會出現?",
+      "highlight": "come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "加入或出現在節目中"
+    },
+    {
+      "id": "phrasal-verb-227-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 45,
+      "prompt": "The child would not move away from the toy display.",
+      "promptZh": "那個孩子不肯離開玩具陳列架。",
+      "starter": "The",
+      "answer": "The child would not come away from the toy display.",
+      "answerZh": "那個孩子不肯離開玩具陳列架。",
+      "highlight": "come",
+      "targetForm": "come away from something",
+      "targetMeaningZh": "從某處離開"
+    },
+    {
+      "id": "phrasal-verb-227-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 45,
+      "prompt": "Has anyone offered to help?",
+      "promptZh": "有人主動提出幫忙嗎?",
+      "starter": "Has",
+      "answer": "Has anyone come forward to help?",
+      "answerZh": "有人主動提出幫忙嗎?",
+      "highlight": "come forward",
+      "targetForm": "come forward",
+      "targetMeaningZh": "主動提供協助"
+    },
+    {
+      "id": "phrasal-verb-227-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 45,
+      "prompt": "Are you coming to our place tonight?",
+      "promptZh": "你今晚會到我們家來嗎?",
+      "starter": "Are",
+      "answer": "Are you coming over to our place tonight?",
+      "answerZh": "你今晚會到我們家來嗎?",
+      "highlight": "coming over",
+      "targetForm": "come over",
+      "targetMeaningZh": "到某人的地方探訪"
+    },
+    {
+      "id": "phrasal-verb-227-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 45,
+      "prompt": "Fresh water is not easy to obtain on the island.",
+      "promptZh": "島上很難取得淡水。",
+      "starter": "Fresh",
+      "answer": "Fresh water is not easy to come by on the island.",
+      "answerZh": "島上很難取得淡水。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "取得;得到"
+    },
+    {
+      "id": "phrasal-verb-227-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 18,
+      "answerSourcePage": 45,
+      "prompt": "Did the answer occur to you?",
+      "promptZh": "你想到答案了嗎?",
+      "starter": "Did",
+      "answer": "Did the answer come to you?",
+      "answerZh": "你想到答案了嗎?",
+      "highlight": "come",
+      "targetForm": "come to somebody",
+      "targetMeaningZh": "某人突然想到某事"
+    },
+    {
+      "id": "phrasal-verb-227-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 45,
+      "prompt": "Why did he rush towards you so angrily?",
+      "promptZh": "他為甚麼如此憤怒地向你衝過來?",
+      "starter": "Why",
+      "answer": "Why did he come at you so angrily?",
+      "answerZh": "他為甚麼如此憤怒地向你衝過來?",
+      "highlight": "come at",
+      "targetForm": "come at somebody",
+      "targetMeaningZh": "向某人撲去或作出攻擊"
+    },
+    {
+      "id": "phrasal-verb-227-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 45,
+      "prompt": "Can we move to the next question now?",
+      "promptZh": "我們現在可以轉到下一個問題嗎?",
+      "starter": "Can",
+      "answer": "Can we come on to the next question now?",
+      "answerZh": "我們現在可以轉到下一個問題嗎?",
+      "highlight": "come on",
+      "targetForm": "come on to something",
+      "targetMeaningZh": "轉而談論下一個主題"
+    },
+    {
+      "id": "phrasal-verb-227-q61",
+      "number": 61,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 45,
+      "prompt": "How did this sudden change happen?",
+      "promptZh": "這個突然的轉變是怎樣發生的?",
+      "starter": "How",
+      "answer": "How did this sudden change come about?",
+      "answerZh": "這個突然的轉變是怎樣發生的?",
+      "highlight": "come about",
+      "targetForm": "come about",
+      "targetMeaningZh": "發生;產生"
+    },
+    {
+      "id": "phrasal-verb-227-q62",
+      "number": 62,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 46,
+      "prompt": "Light is passing through the curtain.",
+      "promptZh": "光線正穿過窗簾。",
+      "starter": "Light",
+      "answer": "Light is coming through the curtain.",
+      "answerZh": "光線正穿過窗簾。",
+      "highlight": "coming",
+      "targetForm": "come through something",
+      "targetMeaningZh": "穿過某物"
+    },
+    {
+      "id": "phrasal-verb-227-q63",
+      "number": 63,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 46,
+      "prompt": "The police arrived to arrest him this morning.",
+      "promptZh": "警方今早前來拘捕他。",
+      "starter": "The",
+      "answer": "The police came for him this morning.",
+      "answerZh": "警方今早前來拘捕他。",
+      "highlight": "came for",
+      "targetForm": "come for somebody",
+      "targetMeaningZh": "前來拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q64",
+      "number": 64,
+      "band": 2,
+      "sourcePage": 19,
+      "answerSourcePage": 46,
+      "prompt": "Will she change to our way of thinking?",
+      "promptZh": "她會轉而接受我們的想法嗎?",
+      "starter": "Will",
+      "answer": "Will she come over to our way of thinking?",
+      "answerZh": "她會轉而接受我們的想法嗎?",
+      "highlight": "come over",
+      "targetForm": "come over to something",
+      "targetMeaningZh": "轉而接受某種立場"
+    },
+    {
+      "id": "phrasal-verb-227-q65",
+      "number": 65,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "Can we return to the budget now?",
+      "promptZh": "我們現在可以再談預算嗎?",
+      "starter": "Can",
+      "answer": "Can we come back to the budget now?",
+      "answerZh": "我們現在可以再談預算嗎?",
+      "highlight": "come back",
+      "targetForm": "come back to something",
+      "targetMeaningZh": "重新談及某事"
+    },
+    {
+      "id": "phrasal-verb-227-q66",
+      "number": 66,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "Does this rule belong under safety rules?",
+      "promptZh": "這條規則屬於安全規則嗎?",
+      "starter": "Does",
+      "answer": "Does this rule come under safety rules?",
+      "answerZh": "這條規則屬於安全規則嗎?",
+      "highlight": "come",
+      "targetForm": "come under something",
+      "targetMeaningZh": "被歸入某個類別"
+    },
+    {
+      "id": "phrasal-verb-227-q67",
+      "number": 67,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "Everyone left the talk with several useful ideas.",
+      "promptZh": "每個人聽完講座後都得到幾個實用構思。",
+      "starter": "Everyone",
+      "answer": "Everyone came away from the talk with several useful ideas.",
+      "answerZh": "每個人聽完講座後都得到幾個實用構思。",
+      "highlight": "came away from",
+      "targetForm": "come away with something",
+      "targetMeaningZh": "離開時得到某種成果"
+    },
+    {
+      "id": "phrasal-verb-227-q68",
+      "number": 68,
+      "band": 2,
+      "sourcePage": 20,
+      "answerSourcePage": 46,
+      "prompt": "Nothing good will result from arguing.",
+      "promptZh": "爭吵不會帶來任何好結果。",
+      "starter": "Nothing",
+      "answer": "Nothing good will come of arguing.",
+      "answerZh": "爭吵不會帶來任何好結果。",
+      "highlight": "come of",
+      "targetForm": "come of doing something",
+      "targetMeaningZh": "由某事產生結果"
+    },
+    {
+      "id": "phrasal-verb-227-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 47,
+      "prompt": "We covered the hole, but rain was still passing through it.",
+      "promptZh": "我們蓋住了洞,但雨水仍從中滲入。",
+      "starter": "We",
+      "answer": "We covered the hole, but rain was still coming through it.",
+      "answerZh": "我們蓋住了洞,但雨水仍從中滲入。",
+      "highlight": "coming",
+      "targetForm": "come through something",
+      "targetMeaningZh": "穿過某物或洞口"
+    },
+    {
+      "id": "phrasal-verb-227-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 47,
+      "prompt": "She would not let work interfere with her family life.",
+      "promptZh": "她不會讓工作妨礙她和家人的關係。",
+      "starter": "She",
+      "answer": "She would not let work come between her and her family.",
+      "answerZh": "她不會讓工作妨礙她和家人的關係。",
+      "highlight": "come between her and",
+      "targetForm": "come between somebody and something",
+      "targetMeaningZh": "妨礙某人與某事的聯繫"
+    },
+    {
+      "id": "phrasal-verb-227-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "While cleaning the cupboard, we found it by chance.",
+      "promptZh": "我們清理櫥櫃時偶然發現了它。",
+      "starter": "While",
+      "answer": "While cleaning the cupboard, we came across it by chance.",
+      "answerZh": "我們清理櫥櫃時偶然發現了它。",
+      "highlight": "came across",
+      "targetForm": "come across something",
+      "targetMeaningZh": "偶然發現某物"
+    },
+    {
+      "id": "phrasal-verb-227-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "With delivery, the order has totalled £75.",
+      "promptZh": "連運費在內,訂單總額已達七十五英鎊。",
+      "starter": "With",
+      "answer": "With delivery, the order has come to £75.",
+      "answerZh": "連運費在內,訂單總額已達七十五英鎊。",
+      "highlight": "come to",
+      "targetForm": "come to something",
+      "targetMeaningZh": "合計為"
+    },
+    {
+      "id": "phrasal-verb-227-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "The coach shouted, “Keep going! You can do it!”",
+      "promptZh": "教練大叫:「繼續跑!你做得到!」",
+      "starter": "The",
+      "answer": "The coach shouted, “Come on! You can do it!”",
+      "answerZh": "教練大叫:「加油!你做得到!」",
+      "highlight": "Come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "加油;用來鼓勵"
+    },
+    {
+      "id": "phrasal-verb-227-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "Someone will arrive to collect the boxes tomorrow.",
+      "promptZh": "明天會有人前來取走這些箱子。",
+      "starter": "Someone",
+      "answer": "Someone will come for the boxes tomorrow.",
+      "answerZh": "明天會有人前來取走這些箱子。",
+      "highlight": "come for",
+      "targetForm": "come for something",
+      "targetMeaningZh": "前來取走某物"
+    },
+    {
+      "id": "phrasal-verb-227-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "We had almost stopped waiting when one finally arrived.",
+      "promptZh": "我們幾乎已停止等候,這時終於有一輛車來了。",
+      "starter": "We",
+      "answer": "We had almost stopped waiting when one finally came along.",
+      "answerZh": "我們幾乎已停止等候,這時終於有一輛車來了。",
+      "highlight": "came along",
+      "targetForm": "come along",
+      "targetMeaningZh": "到來;出現"
+    },
+    {
+      "id": "phrasal-verb-227-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 47,
+      "prompt": "When she heard the song, a feeling of sadness suddenly affected her.",
+      "promptZh": "她聽到那首歌時,突然感到一陣悲傷。",
+      "starter": "When",
+      "answer": "When she heard the song, a feeling of sadness came over her.",
+      "answerZh": "她聽到那首歌時,突然感到一陣悲傷。",
+      "highlight": "came over",
+      "targetForm": "come over somebody",
+      "targetMeaningZh": "某種感覺突然出現"
+    },
+    {
+      "id": "phrasal-verb-227-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "After discussing the timetable, the chair returned to the main problem.",
+      "promptZh": "討論時間表後,主席再次談到主要問題。",
+      "starter": "After",
+      "answer": "After discussing the timetable, the chair came back to the main problem.",
+      "answerZh": "討論時間表後,主席再次談到主要問題。",
+      "highlight": "came back",
+      "targetForm": "come back to something",
+      "targetMeaningZh": "重新談及某事"
+    },
+    {
+      "id": "phrasal-verb-227-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The job included a small flat.",
+      "promptZh": "這份工作附帶一個小單位。",
+      "starter": "The",
+      "answer": "The job came with a small flat.",
+      "answerZh": "這份工作附帶一個小單位。",
+      "highlight": "came with",
+      "targetForm": "come with something",
+      "targetMeaningZh": "隨附;包括"
+    },
+    {
+      "id": "phrasal-verb-227-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The delay happened because two trains had broken down.",
+      "promptZh": "延誤是因為兩列火車發生故障而造成的。",
+      "starter": "The",
+      "answer": "The delay came about because two trains had broken down.",
+      "answerZh": "延誤是因為兩列火車發生故障而造成的。",
+      "highlight": "came about",
+      "targetForm": "come about",
+      "targetMeaningZh": "發生;產生"
+    },
+    {
+      "id": "phrasal-verb-227-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The school asked anyone with information to offer it.",
+      "promptZh": "學校呼籲任何掌握資料的人主動提供資料。",
+      "starter": "The",
+      "answer": "The school asked anyone with information to come forward with it.",
+      "answerZh": "學校呼籲任何掌握資料的人主動提供資料。",
+      "highlight": "come forward with",
+      "targetForm": "come forward with something",
+      "targetMeaningZh": "主動提供資料"
+    },
+    {
+      "id": "phrasal-verb-227-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "She raised the stick and moved towards him to attack.",
+      "promptZh": "她舉起木棍,向他撲過去。",
+      "starter": "She",
+      "answer": "She raised the stick and came at him.",
+      "answerZh": "她舉起木棍,向他撲過去。",
+      "highlight": "came at",
+      "targetForm": "come at somebody",
+      "targetMeaningZh": "向某人撲去或作出攻擊"
+    },
+    {
+      "id": "phrasal-verb-227-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 48,
+      "prompt": "The idea occurred to her while she was cooking.",
+      "promptZh": "她煮食時想到了這個構思。",
+      "starter": "The",
+      "answer": "The idea came to her while she was cooking.",
+      "answerZh": "她煮食時想到了這個構思。",
+      "highlight": "came",
+      "targetForm": "come to somebody",
+      "targetMeaningZh": "某人突然想到某事"
+    },
+    {
+      "id": "phrasal-verb-227-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "While we were waiting, two police cars passed.",
+      "promptZh": "我們等候期間,有兩輛警車經過。",
+      "starter": "While",
+      "answer": "While we were waiting, two police cars came by.",
+      "answerZh": "我們等候期間,有兩輛警車經過。",
+      "highlight": "came by",
+      "targetForm": "come by",
+      "targetMeaningZh": "經過"
+    },
+    {
+      "id": "phrasal-verb-227-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "When you finish work, come to my office for a chat.",
+      "promptZh": "你完成工作後,到我的辦公室聊聊天吧。",
+      "starter": "When",
+      "answer": "When you finish work, come across to my office for a chat.",
+      "answerZh": "你完成工作後,到我的辦公室聊聊天吧。",
+      "highlight": "come across",
+      "targetForm": "come across",
+      "targetMeaningZh": "到說話者所在的地方"
+    },
+    {
+      "id": "phrasal-verb-227-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "Her confidence resulted from practising every day.",
+      "promptZh": "她的自信來自每天練習。",
+      "starter": "Her",
+      "answer": "Her confidence came from practising every day.",
+      "answerZh": "她的自信來自每天練習。",
+      "highlight": "came",
+      "targetForm": "come from doing something",
+      "targetMeaningZh": "由某事產生"
+    },
+    {
+      "id": "phrasal-verb-227-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "She has just returned from the library.",
+      "promptZh": "她剛從圖書館回來。",
+      "starter": "She",
+      "answer": "She has just come back from the library.",
+      "answerZh": "她剛從圖書館回來。",
+      "highlight": "come back",
+      "targetForm": "come back",
+      "targetMeaningZh": "回來;返回"
+    },
+    {
+      "id": "phrasal-verb-227-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "While I was waiting, Grace passed on her bicycle.",
+      "promptZh": "我等候期間,格蕾絲踏單車經過。",
+      "starter": "While",
+      "answer": "While I was waiting, Grace came past on her bicycle.",
+      "answerZh": "我等候期間,格蕾絲踏單車經過。",
+      "highlight": "came past",
+      "targetForm": "come past",
+      "targetMeaningZh": "從旁邊經過"
+    },
+    {
+      "id": "phrasal-verb-227-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 49,
+      "prompt": "The complaint has already been considered by the school board.",
+      "promptZh": "投訴已經提交校董會審議。",
+      "starter": "The",
+      "answer": "The complaint has already come before the school board.",
+      "answerZh": "投訴已經提交校董會審議。",
+      "highlight": "come before",
+      "targetForm": "come before something",
+      "targetMeaningZh": "提交某機構審議"
+    },
+    {
+      "id": "phrasal-verb-227-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "The host was speaking when the singer joined the programme.",
+      "promptZh": "主持人說話時,歌手加入了節目。",
+      "starter": "The",
+      "answer": "The host was speaking when the singer came on.",
+      "answerZh": "主持人說話時,歌手加入了節目。",
+      "highlight": "came on",
+      "targetForm": "come on",
+      "targetMeaningZh": "加入或出現在節目中"
+    },
+    {
+      "id": "phrasal-verb-227-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Although he did not win, he left with more confidence.",
+      "promptZh": "雖然他沒有勝出,但離開時更有自信。",
+      "starter": "Although",
+      "answer": "Although he did not win, he came away with more confidence.",
+      "answerZh": "雖然他沒有勝出,但離開時更有自信。",
+      "highlight": "came away",
+      "targetForm": "come away with something",
+      "targetMeaningZh": "離開時帶着某種感受或成果"
+    },
+    {
+      "id": "phrasal-verb-227-q91",
+      "number": 91,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "After three reminders, he finally provided the missing payment.",
+      "promptZh": "經過三次提醒後,他終於補交了欠款。",
+      "starter": "After",
+      "answer": "After three reminders, he finally came across with the missing payment.",
+      "answerZh": "經過三次提醒後,他終於補交了欠款。",
+      "highlight": "came across with",
+      "targetForm": "come across with something",
+      "targetMeaningZh": "終於提供或交出某物"
+    },
+    {
+      "id": "phrasal-verb-227-q92",
+      "number": 92,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Different ideas finally formed one clear plan.",
+      "promptZh": "不同構思最終結合成一個清晰計劃。",
+      "starter": "Different",
+      "answer": "Different ideas finally came together in one clear plan.",
+      "answerZh": "不同構思最終結合成一個清晰計劃。",
+      "highlight": "came together in",
+      "targetForm": "come together",
+      "targetMeaningZh": "結合起來"
+    },
+    {
+      "id": "phrasal-verb-227-q93",
+      "number": 93,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 50,
+      "prompt": "When the door opened, a warm light appeared from inside.",
+      "promptZh": "門打開時,一道暖光從裏面透出。",
+      "starter": "When",
+      "answer": "When the door opened, a warm light came forth from inside.",
+      "answerZh": "門打開時,一道暖光從裏面透出。",
+      "highlight": "came forth",
+      "targetForm": "come forth",
+      "targetMeaningZh": "出現;透出"
+    },
+    {
+      "id": "phrasal-verb-227-q94",
+      "number": 94,
+      "band": 3,
+      "sourcePage": 24,
+      "answerSourcePage": 50,
+      "prompt": "After hearing both plans, he changed to the other team.",
+      "promptZh": "聽過兩個計劃後,他轉而支持另一隊。",
+      "starter": "After",
+      "answer": "After hearing both plans, he came over to the other team.",
+      "answerZh": "聽過兩個計劃後,他轉而支持另一隊。",
+      "highlight": "came over",
+      "targetForm": "come over to something",
+      "targetMeaningZh": "轉而支持另一方"
+    },
+    {
+      "id": "phrasal-verb-227-q95",
+      "number": 95,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "We were lucky to obtain two tickets.",
+      "promptZh": "我們很幸運,取得了兩張門票。",
+      "starter": "We",
+      "answer": "We were lucky to come by two tickets.",
+      "answerZh": "我們很幸運,取得了兩張門票。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "取得;得到"
+    },
+    {
+      "id": "phrasal-verb-227-q96",
+      "number": 96,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "If you take the bag, the guard may chase you.",
+      "promptZh": "如果你拿走那個袋,保安員可能會追你。",
+      "starter": "If",
+      "answer": "If you take the bag, the guard may come after you.",
+      "answerZh": "如果你拿走那個袋,保安員可能會追你。",
+      "highlight": "come after",
+      "targetForm": "come after somebody",
+      "targetMeaningZh": "追趕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q97",
+      "number": 97,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Several small costs are included under travel expenses.",
+      "promptZh": "幾項小額開支被歸入旅費。",
+      "starter": "Several",
+      "answer": "Several small costs come under travel expenses.",
+      "answerZh": "幾項小額開支被歸入旅費。",
+      "highlight": "come",
+      "targetForm": "come under something",
+      "targetMeaningZh": "被歸入某個類別"
+    },
+    {
+      "id": "phrasal-verb-227-q98",
+      "number": 98,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "When the fire alarm rang, everyone moved away from the building.",
+      "promptZh": "火警鐘響起時,所有人都離開大樓。",
+      "starter": "When",
+      "answer": "When the fire alarm rang, everyone came away from the building.",
+      "answerZh": "火警鐘響起時,所有人都離開大樓。",
+      "highlight": "came",
+      "targetForm": "come away from something",
+      "targetMeaningZh": "離開某處"
+    },
+    {
+      "id": "phrasal-verb-227-q99",
+      "number": 99,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "After explaining the rules, the teacher moved to the examples.",
+      "promptZh": "老師解釋規則後,便轉而講解例子。",
+      "starter": "After",
+      "answer": "After explaining the rules, the teacher came on to the examples.",
+      "answerZh": "老師解釋規則後,便轉而講解例子。",
+      "highlight": "came on",
+      "targetForm": "come on to something",
+      "targetMeaningZh": "轉而談論下一個主題"
+    },
+    {
+      "id": "phrasal-verb-227-q100",
+      "number": 100,
+      "band": 3,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "When I became conscious again, I was lying on the floor.",
+      "promptZh": "我恢復知覺時,正躺在地上。",
+      "starter": "When",
+      "answer": "When I came to, I was lying on the floor.",
+      "answerZh": "我恢復知覺時,正躺在地上。",
+      "highlight": "came to",
+      "targetForm": "come to",
+      "targetMeaningZh": "恢復知覺"
+    },
+    {
+      "id": "phrasal-verb-227-q101",
+      "number": 101,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "The old method failed, so the team approached it in a new way.",
+      "promptZh": "舊方法失敗了,所以團隊用新方法處理它。",
+      "starter": "The",
+      "answer": "The old method failed, so the team came at it in a new way.",
+      "answerZh": "舊方法失敗了,所以團隊用新方法處理它。",
+      "highlight": "came at",
+      "targetForm": "come at something",
+      "targetMeaningZh": "用某種方法處理某事"
+    },
+    {
+      "id": "phrasal-verb-227-q102",
+      "number": 102,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "Most of this wood is produced in Canada.",
+      "promptZh": "這些木材大部分來自加拿大。",
+      "starter": "Most",
+      "answer": "Most of this wood comes from Canada.",
+      "answerZh": "這些木材大部分來自加拿大。",
+      "highlight": "comes from",
+      "targetForm": "come from somewhere",
+      "targetMeaningZh": "來自某地"
+    },
+    {
+      "id": "phrasal-verb-227-q103",
+      "number": 103,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "Several important questions are due to be considered by the council next month.",
+      "promptZh": "幾個重要問題預計會在下月提交議會審議。",
+      "starter": "Several",
+      "answer": "Several important questions are due to come before the council next month.",
+      "answerZh": "幾個重要問題預計會在下月提交議會審議。",
+      "highlight": "come before",
+      "targetForm": "come before something",
+      "targetMeaningZh": "提交某機構審議"
+    },
+    {
+      "id": "phrasal-verb-227-q104",
+      "number": 104,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "The right job may appear when you least expect it.",
+      "promptZh": "合適的工作可能會在你最意想不到的時候出現。",
+      "starter": "The",
+      "answer": "The right job may come along when you least expect it.",
+      "answerZh": "合適的工作可能會在你最意想不到的時候出現。",
+      "highlight": "come along",
+      "targetForm": "come along",
+      "targetMeaningZh": "出現"
+    },
+    {
+      "id": "phrasal-verb-227-q105",
+      "number": 105,
+      "band": 3,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "The room became quiet as a serious mood suddenly affected everyone.",
+      "promptZh": "一陣嚴肅的氣氛突然籠罩眾人,房間便安靜下來。",
+      "starter": "The",
+      "answer": "The room became quiet as a serious mood came over everyone.",
+      "answerZh": "一陣嚴肅的氣氛突然籠罩眾人,房間便安靜下來。",
+      "highlight": "came over",
+      "targetForm": "come over somebody",
+      "targetMeaningZh": "某種情緒或氣氛突然出現"
+    },
+    {
+      "id": "phrasal-verb-227-q106",
+      "number": 106,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "The hikers unexpectedly found a small waterfall beyond the trees.",
+      "promptZh": "遠足者在樹林後意外發現了一道小瀑布。",
+      "starter": "The",
+      "answer": "The hikers came upon a small waterfall beyond the trees.",
+      "answerZh": "遠足者在樹林後意外發現了一道小瀑布。",
+      "highlight": "came upon",
+      "targetForm": "come upon something",
+      "targetMeaningZh": "偶然發現某物"
+    },
+    {
+      "id": "phrasal-verb-227-q107",
+      "number": 107,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "People from both schools united after the storm to help families.",
+      "promptZh": "暴風雨後,兩所學校的人聯合起來幫助各個家庭。",
+      "starter": "People",
+      "answer": "People from both schools came together after the storm to help families.",
+      "answerZh": "暴風雨後,兩所學校的人聯合起來幫助各個家庭。",
+      "highlight": "came together",
+      "targetForm": "come together",
+      "targetMeaningZh": "聯合起來"
+    },
+    {
+      "id": "phrasal-verb-227-q108",
+      "number": 108,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "When the nurse arrived to take the patient to the next room, he was ready.",
+      "promptZh": "護士前來帶病人到隔壁房間時,他已準備好。",
+      "starter": "When",
+      "answer": "When the nurse came for the patient, he was ready.",
+      "answerZh": "護士前來帶病人到隔壁房間時,他已準備好。",
+      "highlight": "came for",
+      "targetForm": "come for somebody",
+      "targetMeaningZh": "前來接走某人"
+    },
+    {
+      "id": "phrasal-verb-227-q109",
+      "number": 109,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "The puzzle became easier when we approached it from the end.",
+      "promptZh": "我們從結尾入手後,這個謎題便變得較容易。",
+      "starter": "The",
+      "answer": "The puzzle became easier when we came at it from the end.",
+      "answerZh": "我們從結尾入手後,這個謎題便變得較容易。",
+      "highlight": "came at",
+      "targetForm": "come at something",
+      "targetMeaningZh": "用某種方法處理某事"
+    },
+    {
+      "id": "phrasal-verb-227-q110",
+      "number": 110,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "After I had talked to the receptionist, the manager joined the call.",
+      "promptZh": "我與接待員談過後,經理加入了通話。",
+      "starter": "After",
+      "answer": "After I had talked to the receptionist, the manager came on the line.",
+      "answerZh": "我與接待員談過後,經理加入了通話。",
+      "highlight": "came on",
+      "targetForm": "come on the line",
+      "targetMeaningZh": "加入電話通話"
+    },
+    {
+      "id": "phrasal-verb-227-q111",
+      "number": 111,
+      "band": 3,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "If the weather improves, we may return tomorrow.",
+      "promptZh": "如果天氣好轉,我們明天可能會回來。",
+      "starter": "If",
+      "answer": "If the weather improves, we may come back tomorrow.",
+      "answerZh": "如果天氣好轉,我們明天可能會回來。",
+      "highlight": "come back",
+      "targetForm": "come back",
+      "targetMeaningZh": "回來;返回"
+    },
+    {
+      "id": "phrasal-verb-227-q112",
+      "number": 112,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "After your name is called, enter the next room.",
+      "promptZh": "叫到你的名字後,請進入隔壁房間。",
+      "starter": "After",
+      "answer": "After your name is called, come through to the next room.",
+      "answerZh": "叫到你的名字後,請進入隔壁房間。",
+      "highlight": "come through to",
+      "targetForm": "come through",
+      "targetMeaningZh": "由另一邊進來"
+    },
+    {
+      "id": "phrasal-verb-227-q113",
+      "number": 113,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "One argument should not separate two friends who have known each other for years.",
+      "promptZh": "一次爭執不應破壞兩名多年朋友的關係。",
+      "starter": "One",
+      "answer": "One argument should not come between two friends who have known each other for years.",
+      "answerZh": "一次爭執不應破壞兩名多年朋友的關係。",
+      "highlight": "come between",
+      "targetForm": "come between people",
+      "targetMeaningZh": "破壞人與人之間的關係"
+    },
+    {
+      "id": "phrasal-verb-227-q114",
+      "number": 114,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "The numbers looked small separately, but together they totalled more than expected.",
+      "promptZh": "這些數字分開看來很小,但合計後比預期高。",
+      "starter": "The",
+      "answer": "The numbers looked small separately, but together they came to more than expected.",
+      "answerZh": "這些數字分開看來很小,但合計後比預期高。",
+      "highlight": "came to",
+      "targetForm": "come to something",
+      "targetMeaningZh": "合計為"
+    },
+    {
+      "id": "phrasal-verb-227-q115",
+      "number": 115,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "A local business offered the money needed for the trip.",
+      "promptZh": "一間本地公司主動提供了旅程所需的款項。",
+      "starter": "A",
+      "answer": "A local business came forward with the money needed for the trip.",
+      "answerZh": "一間本地公司主動提供了旅程所需的款項。",
+      "highlight": "came forward with",
+      "targetForm": "come forward with something",
+      "targetMeaningZh": "主動提供某物"
+    },
+    {
+      "id": "phrasal-verb-227-q116",
+      "number": 116,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "The angry customer followed the manager into the car park.",
+      "promptZh": "那名憤怒的顧客追着經理進入停車場。",
+      "starter": "The",
+      "answer": "The angry customer came after the manager into the car park.",
+      "answerZh": "那名憤怒的顧客追着經理進入停車場。",
+      "highlight": "came after",
+      "targetForm": "come after somebody",
+      "targetMeaningZh": "追趕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q117",
+      "number": 117,
+      "band": 3,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "Every ticket includes a free drink.",
+      "promptZh": "每張門票都包括一杯免費飲品。",
+      "starter": "Every",
+      "answer": "Every ticket comes with a free drink.",
+      "answerZh": "每張門票都包括一杯免費飲品。",
+      "highlight": "comes with",
+      "targetForm": "come with something",
+      "targetMeaningZh": "隨附;包括"
+    },
+    {
+      "id": "phrasal-verb-227-q118",
+      "number": 118,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "Why are you still sitting there? Hurry and help us.",
+      "promptZh": "你為甚麼仍坐在那裏?快點來幫我們。",
+      "starter": "Why",
+      "answer": "Why are you still sitting there? Come on and help us.",
+      "answerZh": "你為甚麼仍坐在那裏?快點來幫我們。",
+      "highlight": "Come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "快點;用來催促"
+    },
+    {
+      "id": "phrasal-verb-227-q119",
+      "number": 119,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "The landlord refused at first but eventually provided the money for the repairs.",
+      "promptZh": "業主起初拒絕,但最終仍提供了維修費用。",
+      "starter": "The",
+      "answer": "The landlord refused at first but eventually came across with the money for the repairs.",
+      "answerZh": "業主起初拒絕,但最終仍提供了維修費用。",
+      "highlight": "came across with",
+      "targetForm": "come across with something",
+      "targetMeaningZh": "終於提供或交出某物"
+    },
+    {
+      "id": "phrasal-verb-227-q120",
+      "number": 120,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "The same delivery van passes our house every afternoon.",
+      "promptZh": "同一輛送貨車每天下午都會經過我們的房子。",
+      "starter": "The",
+      "answer": "The same delivery van comes past our house every afternoon.",
+      "answerZh": "同一輛送貨車每天下午都會經過我們的房子。",
+      "highlight": "comes past",
+      "targetForm": "come past something",
+      "targetMeaningZh": "從某地旁邊經過"
+    },
+    {
+      "id": "phrasal-verb-227-q121",
+      "number": 121,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "The strange noise seemed to be from the kitchen.",
+      "promptZh": "那陣怪聲似乎來自廚房。",
+      "starter": "The",
+      "answer": "The strange noise seemed to come from the kitchen.",
+      "answerZh": "那陣怪聲似乎來自廚房。",
+      "highlight": "come",
+      "targetForm": "come from somewhere",
+      "targetMeaningZh": "來自某地"
+    },
+    {
+      "id": "phrasal-verb-227-q122",
+      "number": 122,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "The visitors left the museum with a clearer picture of local history.",
+      "promptZh": "參觀者離開博物館時,對本地歷史有了更清楚的了解。",
+      "starter": "The",
+      "answer": "The visitors came away from the museum with a clearer picture of local history.",
+      "answerZh": "參觀者離開博物館時,對本地歷史有了更清楚的了解。",
+      "highlight": "came away from",
+      "targetForm": "come away with something",
+      "targetMeaningZh": "離開時得到某種成果"
+    },
+    {
+      "id": "phrasal-verb-227-q123",
+      "number": 123,
+      "band": 3,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "A possible name for the project suddenly occurred to Noah on the train.",
+      "promptZh": "諾亞在火車上突然想到一個可用的項目名稱。",
+      "starter": "A",
+      "answer": "A possible name for the project suddenly came to Noah on the train.",
+      "answerZh": "諾亞在火車上突然想到一個可用的項目名稱。",
+      "highlight": "came",
+      "targetForm": "come to somebody",
+      "targetMeaningZh": "某人突然想到某事"
+    },
+    {
+      "id": "phrasal-verb-227-q124",
+      "number": 124,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "Please visit the shop when you are in this area.",
+      "promptZh": "你來到這一區時,請順道到店舖看看。",
+      "starter": "Please",
+      "answer": "Please come by the shop when you are in this area.",
+      "answerZh": "你來到這一區時,請順道到店舖看看。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "順道探訪某處"
+    },
+    {
+      "id": "phrasal-verb-227-q125",
+      "number": 125,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "Why do you not come to the café where we are sitting?",
+      "promptZh": "你為甚麼不到我們正在坐的咖啡店來?",
+      "starter": "Why",
+      "answer": "Why do you not come across to the café where we are sitting?",
+      "answerZh": "你為甚麼不到我們正在坐的咖啡店來?",
+      "highlight": "come across",
+      "targetForm": "come across",
+      "targetMeaningZh": "到說話者所在的地方"
+    },
+    {
+      "id": "phrasal-verb-227-q126",
+      "number": 126,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "Several parents who first opposed the idea have now accepted our view.",
+      "promptZh": "幾名起初反對這個構思的家長,現在已轉而接受我們的看法。",
+      "starter": "Several",
+      "answer": "Several parents who first opposed the idea have now come over to our view.",
+      "answerZh": "幾名起初反對這個構思的家長,現在已轉而接受我們的看法。",
+      "highlight": "come over to",
+      "targetForm": "come over to something",
+      "targetMeaningZh": "轉而接受某種立場"
+    },
+    {
+      "id": "phrasal-verb-227-q127",
+      "number": 127,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "We keep leaving the subject, but we must return to why the plan failed.",
+      "promptZh": "我們不斷離題,但必須再談計劃失敗的原因。",
+      "starter": "We",
+      "answer": "We keep leaving the subject, but we must come back to why the plan failed.",
+      "answerZh": "我們不斷離題,但必須再談計劃失敗的原因。",
+      "highlight": "come back",
+      "targetForm": "come back to something",
+      "targetMeaningZh": "重新談及某事"
+    },
+    {
+      "id": "phrasal-verb-227-q128",
+      "number": 128,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "No useful information emerged during the first meeting.",
+      "promptZh": "第一次會議沒有提出任何有用資料。",
+      "starter": "No",
+      "answer": "No useful information came forth during the first meeting.",
+      "answerZh": "第一次會議沒有提出任何有用資料。",
+      "highlight": "came forth",
+      "targetForm": "come forth",
+      "targetMeaningZh": "出現;被提出"
+    },
+    {
+      "id": "phrasal-verb-227-q129",
+      "number": 129,
+      "band": 3,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "The bird flew towards us aggressively when we went near its nest.",
+      "promptZh": "我們走近鳥巢時,那隻鳥向我們撲來。",
+      "starter": "The",
+      "answer": "The bird came at us when we went near its nest.",
+      "answerZh": "我們走近鳥巢時,那隻鳥向我們撲來。",
+      "highlight": "came at",
+      "targetForm": "come at somebody",
+      "targetMeaningZh": "向某人撲去或作出攻擊"
+    },
+    {
+      "id": "phrasal-verb-227-q130",
+      "number": 130,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 54,
+      "prompt": "The course is classified under adult education.",
+      "promptZh": "這個課程被歸入成人教育類別。",
+      "starter": "The",
+      "answer": "The course comes under adult education.",
+      "answerZh": "這個課程被歸入成人教育類別。",
+      "highlight": "comes",
+      "targetForm": "come under something",
+      "targetMeaningZh": "被歸入某個類別"
+    },
+    {
+      "id": "phrasal-verb-227-q131",
+      "number": 131,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 54,
+      "prompt": "We still do not understand how the mistake happened during such a simple task.",
+      "promptZh": "我們仍不明白,這項如此簡單的工作為何會出現錯誤。",
+      "starter": "We",
+      "answer": "We still do not understand how the mistake came about during such a simple task.",
+      "answerZh": "我們仍不明白,這項如此簡單的工作為何會出現錯誤。",
+      "highlight": "came about",
+      "targetForm": "come about",
+      "targetMeaningZh": "發生;產生"
+    },
+    {
+      "id": "phrasal-verb-227-q132",
+      "number": 132,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "We have finished discussing travel, so let us now turn to accommodation.",
+      "promptZh": "我們已談完交通,現在轉而談住宿吧。",
+      "starter": "We",
+      "answer": "We have finished discussing travel, so let us now come on to accommodation.",
+      "answerZh": "我們已談完交通,現在轉而談住宿吧。",
+      "highlight": "come on",
+      "targetForm": "come on to something",
+      "targetMeaningZh": "轉而談論下一個主題"
+    },
+    {
+      "id": "phrasal-verb-227-q133",
+      "number": 133,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "Please leave the edge now; the path is slippery.",
+      "promptZh": "請立即離開邊緣;小路很滑。",
+      "starter": "Please",
+      "answer": "Please come away from the edge now; the path is slippery.",
+      "answerZh": "請立即離開邊緣;小路很滑。",
+      "highlight": "come away from",
+      "targetForm": "come away from something",
+      "targetMeaningZh": "從某處移開"
+    },
+    {
+      "id": "phrasal-verb-227-q134",
+      "number": 134,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "Reliable information was difficult to get after the storm.",
+      "promptZh": "暴風雨過後,很難取得可靠消息。",
+      "starter": "Reliable",
+      "answer": "Reliable information was difficult to come by after the storm.",
+      "answerZh": "暴風雨過後,很難取得可靠消息。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "取得;得到"
+    },
+    {
+      "id": "phrasal-verb-227-q135",
+      "number": 135,
+      "band": 3,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "The cyclist was unconscious for a short time but became conscious again before the ambulance arrived.",
+      "promptZh": "單車手短暫失去知覺,但在救護車到達前醒了過來。",
+      "starter": "The",
+      "answer": "The cyclist was unconscious for a short time but came to before the ambulance arrived.",
+      "answerZh": "單車手短暫失去知覺,但在救護車到達前醒了過來。",
+      "highlight": "came to",
+      "targetForm": "come to",
+      "targetMeaningZh": "恢復知覺"
+    },
+    {
+      "id": "phrasal-verb-227-q136",
+      "number": 136,
+      "band": 3,
+      "sourcePage": 32,
+      "answerSourcePage": 55,
+      "prompt": "What resulted from the long discussion?",
+      "promptZh": "那次長時間討論帶來了甚麼結果?",
+      "starter": "What",
+      "answer": "What came of the long discussion?",
+      "answerZh": "那次長時間討論帶來了甚麼結果?",
+      "highlight": "came of",
+      "targetForm": "come of something",
+      "targetMeaningZh": "由某事產生結果"
+    },
+    {
+      "id": "phrasal-verb-227-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 55,
+      "prompt": "The damaged floor resulted from rain entering through the window.",
+      "promptZh": "地板受損是由雨水從窗戶進入造成的。",
+      "starter": "The",
+      "answer": "The damaged floor came from rain entering through the window.",
+      "answerZh": "地板受損是由雨水從窗戶進入造成的。",
+      "highlight": "came",
+      "targetForm": "come from something",
+      "targetMeaningZh": "由某事引起"
+    },
+    {
+      "id": "phrasal-verb-227-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 55,
+      "prompt": "He left in anger, but everyone hoped he would return after he had become calm.",
+      "promptZh": "他憤怒地離開了,但大家都希望他冷靜後會回來。",
+      "starter": "He",
+      "answer": "He left in anger, but everyone hoped he would come back after he had become calm.",
+      "answerZh": "他憤怒地離開了,但大家都希望他冷靜後會回來。",
+      "highlight": "come back",
+      "targetForm": "come back",
+      "targetMeaningZh": "回來;返回"
+    },
+    {
+      "id": "phrasal-verb-227-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 56,
+      "prompt": "The bag looked expensive, but it included a ten-year guarantee and free repairs.",
+      "promptZh": "那個袋看來很昂貴,但附有十年保養和免費維修。",
+      "starter": "The",
+      "answer": "The bag looked expensive, but it came with a ten-year guarantee and free repairs.",
+      "answerZh": "那個袋看來很昂貴,但附有十年保養和免費維修。",
+      "highlight": "came with",
+      "targetForm": "come with something",
+      "targetMeaningZh": "隨附;包括"
+    },
+    {
+      "id": "phrasal-verb-227-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 32,
+      "answerSourcePage": 56,
+      "prompt": "We had not seen each other for months, so I asked her to visit us on Sunday.",
+      "promptZh": "我們已有幾個月沒有見面,所以我請她星期日到我們家來。",
+      "starter": "We",
+      "answer": "We had not seen each other for months, so I asked her to come over on Sunday.",
+      "answerZh": "我們已有幾個月沒有見面,所以我請她星期日到我們家來。",
+      "highlight": "come over",
+      "targetForm": "come over",
+      "targetMeaningZh": "到某人的地方探訪"
+    },
+    {
+      "id": "phrasal-verb-227-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "The walls were thin, so we could hear music passing through from the flat next door.",
+      "promptZh": "牆壁很薄,所以我們能聽到隔壁單位傳來的音樂。",
+      "starter": "The",
+      "answer": "The walls were thin, so we could hear music coming through from the flat next door.",
+      "answerZh": "牆壁很薄,所以我們能聽到隔壁單位傳來的音樂。",
+      "highlight": "coming",
+      "targetForm": "come through",
+      "targetMeaningZh": "穿過;由另一邊傳來"
+    },
+    {
+      "id": "phrasal-verb-227-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "The request cannot be approved until it is formally considered by the full committee.",
+      "promptZh": "這項要求必須正式提交全體委員會審議後,才能獲得批准。",
+      "starter": "The",
+      "answer": "The request cannot be approved until it comes before the full committee.",
+      "answerZh": "這項要求必須正式提交全體委員會審議後,才能獲得批准。",
+      "highlight": "comes before",
+      "targetForm": "come before something",
+      "targetMeaningZh": "提交某機構審議"
+    },
+    {
+      "id": "phrasal-verb-227-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "I would have waited in the rain much longer if that neighbour had not arrived when she did.",
+      "promptZh": "如果那位鄰居當時沒有出現,我便要在雨中多等很久。",
+      "starter": "I",
+      "answer": "I would have waited in the rain much longer if that neighbour had not come along when she did.",
+      "answerZh": "如果那位鄰居當時沒有出現,我便要在雨中多等很久。",
+      "highlight": "come along",
+      "targetForm": "come along",
+      "targetMeaningZh": "到來;出現"
+    },
+    {
+      "id": "phrasal-verb-227-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "We had discussed the problem for hours, but the best idea occurred to Priya after everyone had gone home.",
+      "promptZh": "我們討論了幾小時,但最佳構思是在所有人回家後才由普里雅想到。",
+      "starter": "We",
+      "answer": "We had discussed the problem for hours, but the best idea came to Priya after everyone had gone home.",
+      "answerZh": "我們討論了幾小時,但最佳構思是在所有人回家後才由普里雅想到。",
+      "highlight": "came",
+      "targetForm": "come to somebody",
+      "targetMeaningZh": "某人突然想到某事"
+    },
+    {
+      "id": "phrasal-verb-227-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "She knew the officers had arrived to arrest her brother when she saw the police car.",
+      "promptZh": "她看見警車時,便知道警員是來拘捕她哥哥的。",
+      "starter": "She",
+      "answer": "She knew the officers had come for her brother when she saw the police car.",
+      "answerZh": "她看見警車時,便知道警員是來拘捕她哥哥的。",
+      "highlight": "come for",
+      "targetForm": "come for somebody",
+      "targetMeaningZh": "前來拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q146",
+      "number": 146,
+      "band": 5,
+      "sourcePage": 33,
+      "answerSourcePage": 56,
+      "prompt": "He normally avoids arguments, so no one knew what had suddenly affected him that morning.",
+      "promptZh": "他平日避免爭吵,所以沒有人知道他那天早上到底怎麼了。",
+      "starter": "He",
+      "answer": "He normally avoids arguments, so no one knew what had come over him that morning.",
+      "answerZh": "他平日避免爭吵,所以沒有人知道他那天早上到底怎麼了。",
+      "highlight": "come over",
+      "targetForm": "come over somebody",
+      "targetMeaningZh": "某種感覺或反應突然出現"
+    },
+    {
+      "id": "phrasal-verb-227-q147",
+      "number": 147,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "Unless the partners provide the promised funds by Friday, the project will have to stop.",
+      "promptZh": "除非合作伙伴在星期五前提供承諾的資金,否則項目便要停止。",
+      "starter": "Unless",
+      "answer": "Unless the partners come across with the promised funds by Friday, the project will have to stop.",
+      "answerZh": "除非合作伙伴在星期五前提供承諾的資金,否則項目便要停止。",
+      "highlight": "come across with",
+      "targetForm": "come across with something",
+      "targetMeaningZh": "終於提供或交出某物"
+    },
+    {
+      "id": "phrasal-verb-227-q148",
+      "number": 148,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "Although the groups had disagreed before, they united when people said the library might close.",
+      "promptZh": "雖然各個團體之前意見不合,但有人說圖書館可能關閉時,他們便聯合起來。",
+      "starter": "Although",
+      "answer": "Although the groups had disagreed before, they came together when people said the library might close.",
+      "answerZh": "雖然各個團體之前意見不合,但有人說圖書館可能關閉時,他們便聯合起來。",
+      "highlight": "came together",
+      "targetForm": "come together",
+      "targetMeaningZh": "聯合起來"
+    },
+    {
+      "id": "phrasal-verb-227-q149",
+      "number": 149,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "We are making no progress because everyone is approaching the issue in exactly the same way.",
+      "promptZh": "我們毫無進展,因為每個人都用完全相同的方法處理這個問題。",
+      "starter": "We",
+      "answer": "We are making no progress because everyone is coming at the issue in exactly the same way.",
+      "answerZh": "我們毫無進展,因為每個人都用完全相同的方法處理這個問題。",
+      "highlight": "coming at",
+      "targetForm": "come at something",
+      "targetMeaningZh": "用某種方法處理某事"
+    },
+    {
+      "id": "phrasal-verb-227-q150",
+      "number": 150,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "Although many people had seen the accident, only one person was willing to offer information to the police.",
+      "promptZh": "雖然很多人看見意外,但只有一人願意主動向警方提供資料。",
+      "starter": "Although",
+      "answer": "Although many people had seen the accident, only one person was willing to come forward with information to the police.",
+      "answerZh": "雖然很多人看見意外,但只有一人願意主動向警方提供資料。",
+      "highlight": "come forward with",
+      "targetForm": "come forward with something",
+      "targetMeaningZh": "主動提供資料"
+    },
+    {
+      "id": "phrasal-verb-227-q151",
+      "number": 151,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "We were discussing the lost dog when a boy passed us carrying its collar.",
+      "promptZh": "我們正討論那隻走失的狗時,一名拿着牠頸圈的男孩從我們旁邊經過。",
+      "starter": "We",
+      "answer": "We were discussing the lost dog when a boy came past us carrying its collar.",
+      "answerZh": "我們正討論那隻走失的狗時,一名拿着牠頸圈的男孩從我們旁邊經過。",
+      "highlight": "came past",
+      "targetForm": "come past somebody",
+      "targetMeaningZh": "從某人旁邊經過"
+    },
+    {
+      "id": "phrasal-verb-227-q152",
+      "number": 152,
+      "band": 5,
+      "sourcePage": 34,
+      "answerSourcePage": 57,
+      "prompt": "His phone often interfered with his homework.",
+      "promptZh": "他的手機經常妨礙他做功課。",
+      "starter": "His",
+      "answer": "His phone often came between him and his homework.",
+      "answerZh": "他的手機經常妨礙他做功課。",
+      "highlight": "came between him and",
+      "targetForm": "come between somebody and something",
+      "targetMeaningZh": "妨礙某人與某事的聯繫"
+    },
+    {
+      "id": "phrasal-verb-227-q153",
+      "number": 153,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 57,
+      "prompt": "We thought the online interview had ended, but the director suddenly appeared on screen and answered the final question.",
+      "promptZh": "我們以為網上訪問已結束,但導演突然在畫面上出現並回答最後一條問題。",
+      "starter": "We",
+      "answer": "We thought the online interview had ended, but the director suddenly came on screen and answered the final question.",
+      "answerZh": "我們以為網上訪問已結束,但導演突然在畫面上出現並回答最後一條問題。",
+      "highlight": "came",
+      "targetForm": "come on screen",
+      "targetMeaningZh": "在畫面上出現"
+    },
+    {
+      "id": "phrasal-verb-227-q154",
+      "number": 154,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 58,
+      "prompt": "I was not looking for the article, but I happened to find it while checking another website.",
+      "promptZh": "我本來不是在找那篇文章,但查看另一個網站時偶然發現了它。",
+      "starter": "I",
+      "answer": "I was not looking for the article, but I came across it while checking another website.",
+      "answerZh": "我本來不是在找那篇文章,但查看另一個網站時偶然發現了它。",
+      "highlight": "came across",
+      "targetForm": "come across something",
+      "targetMeaningZh": "偶然發現某物"
+    },
+    {
+      "id": "phrasal-verb-227-q155",
+      "number": 155,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 58,
+      "prompt": "After adding the tickets, food and taxi fare, our spending totalled exactly £120.",
+      "promptZh": "把門票、食物和的士費加起來後,我們的開支剛好是一百二十英鎊。",
+      "starter": "After",
+      "answer": "After adding the tickets, food and taxi fare, our spending came to exactly £120.",
+      "answerZh": "把門票、食物和的士費加起來後,我們的開支剛好是一百二十英鎊。",
+      "highlight": "came to",
+      "targetForm": "come to something",
+      "targetMeaningZh": "合計為"
+    },
+    {
+      "id": "phrasal-verb-227-q156",
+      "number": 156,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 58,
+      "prompt": "After a difficult week of matches, the team left the tournament with two wins and valuable experience.",
+      "promptZh": "經過一星期艱苦的比賽後,球隊離開賽事時取得兩場勝仗和寶貴經驗。",
+      "starter": "After",
+      "answer": "After a difficult week of matches, the team came away from the tournament with two wins and valuable experience.",
+      "answerZh": "經過一星期艱苦的比賽後,球隊離開賽事時取得兩場勝仗和寶貴經驗。",
+      "highlight": "came away from",
+      "targetForm": "come away with something",
+      "targetMeaningZh": "離開時取得某物或成果"
+    },
+    {
+      "id": "phrasal-verb-227-q157",
+      "number": 157,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 58,
+      "prompt": "The speaker promised to discuss the cost after she had explained how the new system worked.",
+      "promptZh": "講者答應在解釋新系統的運作方式後,再談費用。",
+      "starter": "The",
+      "answer": "The speaker promised to come on to the cost after she had explained how the new system worked.",
+      "answerZh": "講者答應在解釋新系統的運作方式後,再談費用。",
+      "highlight": "come on to",
+      "targetForm": "come on to something",
+      "targetMeaningZh": "轉而談論下一個主題"
+    },
+    {
+      "id": "phrasal-verb-227-q158",
+      "number": 158,
+      "band": 5,
+      "sourcePage": 35,
+      "answerSourcePage": 58,
+      "prompt": "I had not called him, but he happened to visit on his way home.",
+      "promptZh": "我沒有致電給他,但他回家途中碰巧順道來訪。",
+      "starter": "I",
+      "answer": "I had not called him, but he happened to come by on his way home.",
+      "answerZh": "我沒有致電給他,但他回家途中碰巧順道來訪。",
+      "highlight": "come by",
+      "targetForm": "come by",
+      "targetMeaningZh": "順道探訪"
+    },
+    {
+      "id": "phrasal-verb-227-q159",
+      "number": 159,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 58,
+      "prompt": "They thought they had escaped, but the police were still pursuing them.",
+      "promptZh": "他們以為已經逃脫,但警方仍在追捕他們。",
+      "starter": "They",
+      "answer": "They thought they had escaped, but the police were still coming after them.",
+      "answerZh": "他們以為已經逃脫,但警方仍在追捕他們。",
+      "highlight": "coming after",
+      "targetForm": "come after somebody",
+      "targetMeaningZh": "追捕某人"
+    },
+    {
+      "id": "phrasal-verb-227-q160",
+      "number": 160,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 58,
+      "prompt": "At first, the club supported the old plan, but more members changed to our side after the open meeting.",
+      "promptZh": "學會起初支持舊計劃,但公開會議後,更多成員轉而支持我們。",
+      "starter": "At",
+      "answer": "At first, the club supported the old plan, but more members came over to our side after the open meeting.",
+      "answerZh": "學會起初支持舊計劃,但公開會議後,更多成員轉而支持我們。",
+      "highlight": "came over",
+      "targetForm": "come over to something",
+      "targetMeaningZh": "轉而支持另一方"
+    },
+    {
+      "id": "phrasal-verb-227-q161",
+      "number": 161,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 59,
+      "prompt": "The team had planned carefully, yet no one could explain how the final confusion happened.",
+      "promptZh": "團隊已仔細計劃,但沒有人能解釋最後的混亂是怎樣發生的。",
+      "starter": "The",
+      "answer": "The team had planned carefully, yet no one could explain how the final confusion came about.",
+      "answerZh": "團隊已仔細計劃,但沒有人能解釋最後的混亂是怎樣發生的。",
+      "highlight": "came about",
+      "targetForm": "come about",
+      "targetMeaningZh": "發生;產生"
+    },
+    {
+      "id": "phrasal-verb-227-q162",
+      "number": 162,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 59,
+      "prompt": "After the stone was moved, clear water began to flow out from beneath it.",
+      "promptZh": "石頭被移開後,清水開始從下面湧出。",
+      "starter": "After",
+      "answer": "After the stone was moved, clear water began to come forth from beneath it.",
+      "answerZh": "石頭被移開後,清水開始從下面湧出。",
+      "highlight": "come forth",
+      "targetForm": "come forth",
+      "targetMeaningZh": "出現;湧出"
+    },
+    {
+      "id": "phrasal-verb-227-q163",
+      "number": 163,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 59,
+      "prompt": "Although the two programmes have different names, both are included under the same general heading.",
+      "promptZh": "雖然兩個計劃名稱不同,但都被歸入同一個總類別。",
+      "starter": "Although",
+      "answer": "Although the two programmes have different names, both come under the same general heading.",
+      "answerZh": "雖然兩個計劃名稱不同,但都被歸入同一個總類別。",
+      "highlight": "come",
+      "targetForm": "come under something",
+      "targetMeaningZh": "被歸入某個類別"
+    },
+    {
+      "id": "phrasal-verb-227-q164",
+      "number": 164,
+      "band": 5,
+      "sourcePage": 36,
+      "answerSourcePage": 59,
+      "prompt": "Even after repeated warnings, the tourists refused to move away from the damaged wall.",
+      "promptZh": "即使多次受到警告,遊客仍拒絕離開受損的牆壁。",
+      "starter": "Even",
+      "answer": "Even after repeated warnings, the tourists refused to come away from the damaged wall.",
+      "answerZh": "即使多次受到警告,遊客仍拒絕離開受損的牆壁。",
+      "highlight": "come",
+      "targetForm": "come away from something",
+      "targetMeaningZh": "從某處移開"
+    },
+    {
+      "id": "phrasal-verb-227-q165",
+      "number": 165,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 59,
+      "prompt": "Although the shop looks local, many of its products actually originate in other countries.",
+      "promptZh": "雖然這間店看來很本地化,但很多產品其實來自其他國家。",
+      "starter": "Although",
+      "answer": "Although the shop looks local, many of its products actually come from other countries.",
+      "answerZh": "雖然這間店看來很本地化,但很多產品其實來自其他國家。",
+      "highlight": "come from",
+      "targetForm": "come from somewhere",
+      "targetMeaningZh": "來自某地"
+    },
+    {
+      "id": "phrasal-verb-227-q166",
+      "number": 166,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 59,
+      "prompt": "I moved backwards because the man suddenly moved towards me with a broken bottle.",
+      "promptZh": "那名男子突然拿着破瓶向我撲來,所以我向後退。",
+      "starter": "I",
+      "answer": "I moved backwards because the man suddenly came at me with a broken bottle.",
+      "answerZh": "那名男子突然拿着破瓶向我撲來,所以我向後退。",
+      "highlight": "came at",
+      "targetForm": "come at somebody",
+      "targetMeaningZh": "向某人撲去或作出攻擊"
+    },
+    {
+      "id": "phrasal-verb-227-q167",
+      "number": 167,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 59,
+      "prompt": "Before the meeting ends, I would like to return to the point Ravi raised at the beginning.",
+      "promptZh": "會議結束前,我想再談拉維在開始時提出的觀點。",
+      "starter": "Before",
+      "answer": "Before the meeting ends, I would like to come back to the point Ravi raised at the beginning.",
+      "answerZh": "會議結束前,我想再談拉維在開始時提出的觀點。",
+      "highlight": "come back",
+      "targetForm": "come back to something",
+      "targetMeaningZh": "重新談及某事"
+    },
+    {
+      "id": "phrasal-verb-227-q168",
+      "number": 168,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 59,
+      "prompt": "No one moved him; they waited quietly until he became conscious again.",
+      "promptZh": "沒有人移動他;大家安靜地等到他恢復知覺。",
+      "starter": "No",
+      "answer": "No one moved him; they waited quietly until he came to.",
+      "answerZh": "沒有人移動他;大家安靜地等到他恢復知覺。",
+      "highlight": "came to",
+      "targetForm": "come to",
+      "targetMeaningZh": "恢復知覺"
+    },
+    {
+      "id": "phrasal-verb-227-q169",
+      "number": 169,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 60,
+      "prompt": "They were ready to leave, so Sara told everyone to hurry before the rain started.",
+      "promptZh": "他們已準備離開,所以莎拉叫大家在下雨前快點起行。",
+      "starter": "They",
+      "answer": "They were ready to leave, so Sara said, “Come on, everyone, before the rain starts.”",
+      "answerZh": "他們已準備離開,所以莎拉說:「大家快點,在下雨前起行吧。」",
+      "highlight": "said, “Come on",
+      "targetForm": "come on",
+      "targetMeaningZh": "快點;用來催促"
+    },
+    {
+      "id": "phrasal-verb-227-q170",
+      "number": 170,
+      "band": 5,
+      "sourcePage": 37,
+      "answerSourcePage": 60,
+      "prompt": "The old book is rare, so I was surprised that she had managed to obtain a copy.",
+      "promptZh": "那本舊書很罕見,所以我很驚訝她竟然成功找到一本。",
+      "starter": "The",
+      "answer": "The old book is rare, so I was surprised that she had managed to come by a copy.",
+      "answerZh": "那本舊書很罕見,所以我很驚訝她竟然成功找到一本。",
+      "highlight": "come by",
+      "targetForm": "come by something",
+      "targetMeaningZh": "取得;得到"
+    }
+  ]
+}

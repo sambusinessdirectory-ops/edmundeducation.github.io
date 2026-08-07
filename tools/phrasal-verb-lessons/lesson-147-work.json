@@ -1,0 +1,2702 @@
+{
+  "id": "phrasal-verb-147",
+  "order": 147,
+  "slug": "work",
+  "version": "1",
+  "title": "WORK 動詞片語",
+  "titleEn": "Work",
+  "titleZh": "WORK 動詞片語",
+  "level": "B1",
+  "groupCount": 20,
+  "source": {
+    "file": "Phrasal Verbs 146 - WORK.pdf",
+    "sourceNumber": 146,
+    "pageCount": 35,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WORK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WORK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WORK",
+      "highlight": "WORK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The early closing time works against evening students.",
+      "zh": "提早關門對夜間學生不利。",
+      "highlight": "works against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We can work around the broken lift.",
+      "zh": "我們可以想辦法克服升降機壞掉所帶來的問題。",
+      "highlight": "work around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He finally worked round to the cost.",
+      "zh": "他最後終於把話題轉到費用。",
+      "highlight": "worked round to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對某人或某事不利;令成功變得更困難；想辦法避開或克服問題；最終把話題轉到某事;最終開始處理某事；努力改善或做好某事；持續埋頭工作；把某事物加入並融入其中；令某人或自己愈來愈激動、緊張或生氣；由某種電源供電或運作；透過活動消耗或減輕某事物；設法說服某人；花時間製作、改善或修理某事物；結果順利;成功；看懂或理解某人的性格、想法或行為；算出、想出或找出答案；問題自行解決；持續工作至某個時間,中途不停下來；逐步處理或仔細想清楚問題、工作或感受；按照時間表、計劃、限額或標準工作；逐漸產生食慾、勇氣、興趣或熱情；逐步提升至較高程度或較難的目標",
+    "en": "work against somebody/something; work around/round something; work around/round to something; work at something / work at doing something; work away (at something); work something in / work something into something; work somebody/yourself up / work yourself into something; work off something (a machine or device); work something off; work on somebody; work on something; work out; work somebody out; work something out; work itself out; work through; work through something / work something through; work to something; work something up; work up to something",
+    "naturalZh": [
+      "對某人或某事不利;令成功變得更困難",
+      "想辦法避開或克服問題",
+      "最終把話題轉到某事;最終開始處理某事",
+      "努力改善或做好某事",
+      "持續埋頭工作",
+      "把某事物加入並融入其中",
+      "令某人或自己愈來愈激動、緊張或生氣",
+      "由某種電源供電或運作",
+      "透過活動消耗或減輕某事物",
+      "設法說服某人",
+      "花時間製作、改善或修理某事物",
+      "結果順利;成功",
+      "看懂或理解某人的性格、想法或行為",
+      "算出、想出或找出答案",
+      "問題自行解決",
+      "持續工作至某個時間,中途不停下來",
+      "逐步處理或仔細想清楚問題、工作或感受",
+      "按照時間表、計劃、限額或標準工作",
+      "逐漸產生食慾、勇氣、興趣或熱情",
+      "逐步提升至較高程度或較難的目標"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "work against somebody/something",
+      "titleZh": "對某人或某事不利;令成功變得更困難",
+      "titleEn": "work against somebody/something",
+      "descriptionZh": "對某人或某事不利;令成功變得更困難",
+      "descriptionEn": "The early closing time works against evening students.",
+      "examples": [
+        {
+          "en": "The early closing time works against evening students.",
+          "zh": "提早關門對夜間學生不利。",
+          "highlight": "works against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work around/round something",
+      "titleZh": "想辦法避開或克服問題",
+      "titleEn": "work around/round something",
+      "descriptionZh": "想辦法避開或克服問題",
+      "descriptionEn": "We can work around the broken lift.",
+      "examples": [
+        {
+          "en": "We can work around the broken lift.",
+          "zh": "我們可以想辦法克服升降機壞掉所帶來的問題。",
+          "highlight": "work around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work around/round to something",
+      "titleZh": "最終把話題轉到某事;最終開始處理某事",
+      "titleEn": "work around/round to something",
+      "descriptionZh": "最終把話題轉到某事;最終開始處理某事",
+      "descriptionEn": "He finally worked round to the cost.",
+      "examples": [
+        {
+          "en": "He finally worked round to the cost.",
+          "zh": "他最後終於把話題轉到費用。",
+          "highlight": "worked round to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work at something / work at doing something",
+      "titleZh": "努力改善或做好某事",
+      "titleEn": "work at something / work at doing something",
+      "descriptionZh": "努力改善或做好某事",
+      "descriptionEn": "She is working at speaking more clearly.",
+      "examples": [
+        {
+          "en": "She is working at speaking more clearly.",
+          "zh": "她正努力令自己說話更清楚。",
+          "highlight": "working at"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work away (at something)",
+      "titleZh": "持續埋頭工作",
+      "titleEn": "work away (at something)",
+      "descriptionZh": "持續埋頭工作",
+      "descriptionEn": "He worked away at the model all afternoon.",
+      "examples": [
+        {
+          "en": "He worked away at the model all afternoon.",
+          "zh": "他整個下午都埋頭製作模型。",
+          "highlight": "worked away at"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work something in / work something into something",
+      "titleZh": "把某事物加入並融入其中",
+      "titleEn": "work something in / work something into something",
+      "descriptionZh": "把某事物加入並融入其中",
+      "descriptionEn": "Can we work a short break into the plan?",
+      "examples": [
+        {
+          "en": "Can we work a short break into the plan?",
+          "zh": "我們可以把短休息時間加入計劃嗎?",
+          "highlight": "work a short break into"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work somebody/yourself up / work yourself into something",
+      "titleZh": "令某人或自己愈來愈激動、緊張或生氣",
+      "titleEn": "work somebody/yourself up / work yourself into something",
+      "descriptionZh": "令某人或自己愈來愈激動、緊張或生氣",
+      "descriptionEn": "Do not work yourself up over one mistake.",
+      "examples": [
+        {
+          "en": "Do not work yourself up over one mistake.",
+          "zh": "不要為了一個錯誤令自己非常不安。",
+          "highlight": "work yourself up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work off something (a machine or device)",
+      "titleZh": "由某種電源供電或運作",
+      "titleEn": "work off something (a machine or device)",
+      "descriptionZh": "由某種電源供電或運作",
+      "descriptionEn": "The lamp works off a small battery.",
+      "examples": [
+        {
+          "en": "The lamp works off a small battery.",
+          "zh": "這盞燈由一枚小電池供電。",
+          "highlight": "works off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work something off",
+      "titleZh": "透過活動消耗或減輕某事物",
+      "titleEn": "work something off",
+      "descriptionZh": "透過活動消耗或減輕某事物",
+      "descriptionEn": "We walked home to work off the big meal.",
+      "examples": [
+        {
+          "en": "We walked home to work off the big meal.",
+          "zh": "我們步行回家,以消耗大餐後的熱量。",
+          "highlight": "work off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work on somebody",
+      "titleZh": "設法說服某人",
+      "titleEn": "work on somebody",
+      "descriptionZh": "設法說服某人",
+      "descriptionEn": "I will work on Dad and ask again.",
+      "examples": [
+        {
+          "en": "I will work on Dad and ask again.",
+          "zh": "我會設法說服爸爸,再問一次。",
+          "highlight": "work on"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "work on something",
+      "titleZh": "花時間製作、改善或修理某事物",
+      "titleEn": "work on something",
+      "descriptionZh": "花時間製作、改善或修理某事物",
+      "descriptionEn": "They are working on a new school website.",
+      "examples": [
+        {
+          "en": "They are working on a new school website.",
+          "zh": "他們正在製作新的學校網站。",
+          "highlight": "working on"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work out",
+      "titleZh": "結果順利;成功",
+      "titleEn": "work out",
+      "descriptionZh": "結果順利;成功",
+      "descriptionEn": "Our plan worked out well.",
+      "examples": [
+        {
+          "en": "Our plan worked out well.",
+          "zh": "我們的計劃進行得很順利。",
+          "highlight": "worked out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work somebody out",
+      "titleZh": "看懂或理解某人的性格、想法或行為",
+      "titleEn": "work somebody out",
+      "descriptionZh": "看懂或理解某人的性格、想法或行為",
+      "descriptionEn": "I cannot work him out.",
+      "examples": [
+        {
+          "en": "I cannot work him out.",
+          "zh": "我看不懂他的想法。",
+          "highlight": "work him out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work something out",
+      "titleZh": "算出、想出或找出答案",
+      "titleEn": "work something out",
+      "descriptionZh": "算出、想出或找出答案",
+      "descriptionEn": "Can you work out the answer?",
+      "examples": [
+        {
+          "en": "Can you work out the answer?",
+          "zh": "你可以找出答案嗎?",
+          "highlight": "work out"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work itself out",
+      "titleZh": "問題自行解決",
+      "titleEn": "work itself out",
+      "descriptionZh": "問題自行解決",
+      "descriptionEn": "The problem may work itself out.",
+      "examples": [
+        {
+          "en": "The problem may work itself out.",
+          "zh": "問題可能會自行解決。",
+          "highlight": "work itself out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work through",
+      "titleZh": "持續工作至某個時間,中途不停下來",
+      "titleEn": "work through",
+      "descriptionZh": "持續工作至某個時間,中途不停下來",
+      "descriptionEn": "We worked through until midnight.",
+      "examples": [
+        {
+          "en": "We worked through until midnight.",
+          "zh": "我們不停工作至午夜。",
+          "highlight": "worked through"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work through something / work something through",
+      "titleZh": "逐步處理或仔細想清楚問題、工作或感受",
+      "titleEn": "work through something / work something through",
+      "descriptionZh": "逐步處理或仔細想清楚問題、工作或感受",
+      "descriptionEn": "We worked the problem through together.",
+      "examples": [
+        {
+          "en": "We worked the problem through together.",
+          "zh": "我們一起仔細處理這個問題。",
+          "highlight": "worked the problem through"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work to something",
+      "titleZh": "按照時間表、計劃、限額或標準工作",
+      "titleEn": "work to something",
+      "descriptionZh": "按照時間表、計劃、限額或標準工作",
+      "descriptionEn": "We are working to a tight schedule.",
+      "examples": [
+        {
+          "en": "We are working to a tight schedule.",
+          "zh": "我們正按照緊迫的時間表工作。",
+          "highlight": "working to"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work something up",
+      "titleZh": "逐漸產生食慾、勇氣、興趣或熱情",
+      "titleEn": "work something up",
+      "descriptionZh": "逐漸產生食慾、勇氣、興趣或熱情",
+      "descriptionEn": "The walk helped us work up an appetite.",
+      "examples": [
+        {
+          "en": "The walk helped us work up an appetite.",
+          "zh": "步行令我們產生了食慾。",
+          "highlight": "work up"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "work up to something",
+      "titleZh": "逐步提升至較高程度或較難的目標",
+      "titleEn": "work up to something",
+      "descriptionZh": "逐步提升至較高程度或較難的目標",
+      "descriptionEn": "Begin with five minutes and work up to twenty.",
+      "examples": [
+        {
+          "en": "Begin with five minutes and work up to twenty.",
+          "zh": "先由五分鐘開始,再慢慢增加至二十分鐘。",
+          "highlight": "work up to"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WORK 片語動詞的實際用途",
+    "labelEn": "WORK Phrasal Verbs in Use",
+    "summaryZh": "work around 可以表示想辦法避開問題;work out 可以表示找出答案;work through 則可以表示逐步處理事情。；work at 可以表示努力改善;work away 可以表示持續埋頭工作;work up to 則可以表示逐步邁向較難的目標。；你可以用 work on somebody 表示設法說服某人,用 work somebody out 表示看懂某人,也可以用 work yourself up 表示憂慮或怒氣愈來愈強。；裝置可以 work off a battery,表示由電池供電;運動則可以幫助你 work off 多餘精力、大餐後的熱量或怒氣。",
+    "summaryEn": "Work around can describe finding another way past a problem. Work out can describe finding an answer, while work through can describe dealing with something step by step. Work at describes trying to improve. Work away shows continued effort, and work up to shows progress towards a harder goal. You can work on somebody to persuade them, work somebody out to understand them, or work yourself up when worry or anger grows. A device can work off a battery, while exercise can help you work off extra energy, a heavy meal or anger.",
+    "contextsZh": [
+      "用不同方法處理日常問題",
+      "表達持續努力和逐步進展",
+      "清楚談論人物和情緒",
+      "解釋供電方式和活動帶來的效果"
+    ],
+    "contextsEn": [
+      "Solve everyday problems in different ways",
+      "Show steady effort and progress",
+      "Talk about people and feelings clearly",
+      "Explain power and physical effects"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WORK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WORK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "work against somebody/something",
+    "fixedHighlight": "work against somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 WORK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WORK expression that gives the same meaning.",
+    "correct": "works against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以下例子的語序:work him out、work it out、work itin、work it off。；在參考表所列的表達中,around 和 round 可以表達相同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow the word order shown in these examples: work him out, work it out, work it in, work it off. Around and round can express the same meaning in the expressions shown in the reference bank.",
+    "variableItemsZh": [
+      "work against somebody/something",
+      "work around/round something",
+      "work around/round to something",
+      "work at something / work at doing something",
+      "work away (at something)",
+      "work something in / work something into something",
+      "work somebody/yourself up / work yourself into something",
+      "work off something (a machine or device)",
+      "work something off",
+      "work on somebody",
+      "work on something",
+      "work out",
+      "work somebody out",
+      "work something out",
+      "work itself out",
+      "work through",
+      "work through something / work something through",
+      "work to something",
+      "work something up",
+      "work up to something"
+    ],
+    "variableItemsEn": [
+      "work against somebody/something",
+      "work around/round something",
+      "work around/round to something",
+      "work at something / work at doing something",
+      "work away (at something)",
+      "work something in / work something into something",
+      "work somebody/yourself up / work yourself into something",
+      "work off something (a machine or device)",
+      "work something off",
+      "work on somebody",
+      "work on something",
+      "work out",
+      "work somebody out",
+      "work something out",
+      "work itself out",
+      "work through",
+      "work through something / work something through",
+      "work to something",
+      "work something up",
+      "work up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "對某人或某事不利;令成功變得更困難",
+        "formEn": "work against somebody/something",
+        "exampleZh": "提早關門對夜間學生不利。",
+        "exampleEn": "The early closing time works against evening students.",
+        "highlight": "works against"
+      },
+      {
+        "formZh": "想辦法避開或克服問題",
+        "formEn": "work around/round something",
+        "exampleZh": "我們可以想辦法克服升降機壞掉所帶來的問題。",
+        "exampleEn": "We can work around the broken lift.",
+        "highlight": "work around"
+      },
+      {
+        "formZh": "最終把話題轉到某事;最終開始處理某事",
+        "formEn": "work around/round to something",
+        "exampleZh": "他最後終於把話題轉到費用。",
+        "exampleEn": "He finally worked round to the cost.",
+        "highlight": "worked round to"
+      },
+      {
+        "formZh": "努力改善或做好某事",
+        "formEn": "work at something / work at doing something",
+        "exampleZh": "她正努力令自己說話更清楚。",
+        "exampleEn": "She is working at speaking more clearly.",
+        "highlight": "working at"
+      },
+      {
+        "formZh": "持續埋頭工作",
+        "formEn": "work away (at something)",
+        "exampleZh": "他整個下午都埋頭製作模型。",
+        "exampleEn": "He worked away at the model all afternoon.",
+        "highlight": "worked away at"
+      },
+      {
+        "formZh": "把某事物加入並融入其中",
+        "formEn": "work something in / work something into something",
+        "exampleZh": "我們可以把短休息時間加入計劃嗎?",
+        "exampleEn": "Can we work a short break into the plan?",
+        "highlight": "work a short break into"
+      },
+      {
+        "formZh": "令某人或自己愈來愈激動、緊張或生氣",
+        "formEn": "work somebody/yourself up / work yourself into something",
+        "exampleZh": "不要為了一個錯誤令自己非常不安。",
+        "exampleEn": "Do not work yourself up over one mistake.",
+        "highlight": "work yourself up"
+      },
+      {
+        "formZh": "由某種電源供電或運作",
+        "formEn": "work off something (a machine or device)",
+        "exampleZh": "這盞燈由一枚小電池供電。",
+        "exampleEn": "The lamp works off a small battery.",
+        "highlight": "works off"
+      },
+      {
+        "formZh": "透過活動消耗或減輕某事物",
+        "formEn": "work something off",
+        "exampleZh": "我們步行回家,以消耗大餐後的熱量。",
+        "exampleEn": "We walked home to work off the big meal.",
+        "highlight": "work off"
+      },
+      {
+        "formZh": "設法說服某人",
+        "formEn": "work on somebody",
+        "exampleZh": "我會設法說服爸爸,再問一次。",
+        "exampleEn": "I will work on Dad and ask again.",
+        "highlight": "work on"
+      },
+      {
+        "formZh": "花時間製作、改善或修理某事物",
+        "formEn": "work on something",
+        "exampleZh": "他們正在製作新的學校網站。",
+        "exampleEn": "They are working on a new school website.",
+        "highlight": "working on"
+      },
+      {
+        "formZh": "結果順利;成功",
+        "formEn": "work out",
+        "exampleZh": "我們的計劃進行得很順利。",
+        "exampleEn": "Our plan worked out well.",
+        "highlight": "worked out"
+      },
+      {
+        "formZh": "看懂或理解某人的性格、想法或行為",
+        "formEn": "work somebody out",
+        "exampleZh": "我看不懂他的想法。",
+        "exampleEn": "I cannot work him out.",
+        "highlight": "work him out"
+      },
+      {
+        "formZh": "算出、想出或找出答案",
+        "formEn": "work something out",
+        "exampleZh": "你可以找出答案嗎?",
+        "exampleEn": "Can you work out the answer?",
+        "highlight": "work out"
+      },
+      {
+        "formZh": "問題自行解決",
+        "formEn": "work itself out",
+        "exampleZh": "問題可能會自行解決。",
+        "exampleEn": "The problem may work itself out.",
+        "highlight": "work itself out"
+      },
+      {
+        "formZh": "持續工作至某個時間,中途不停下來",
+        "formEn": "work through",
+        "exampleZh": "我們不停工作至午夜。",
+        "exampleEn": "We worked through until midnight.",
+        "highlight": "worked through"
+      },
+      {
+        "formZh": "逐步處理或仔細想清楚問題、工作或感受",
+        "formEn": "work through something / work something through",
+        "exampleZh": "我們一起仔細處理這個問題。",
+        "exampleEn": "We worked the problem through together.",
+        "highlight": "worked the problem through"
+      },
+      {
+        "formZh": "按照時間表、計劃、限額或標準工作",
+        "formEn": "work to something",
+        "exampleZh": "我們正按照緊迫的時間表工作。",
+        "exampleEn": "We are working to a tight schedule.",
+        "highlight": "working to"
+      },
+      {
+        "formZh": "逐漸產生食慾、勇氣、興趣或熱情",
+        "formEn": "work something up",
+        "exampleZh": "步行令我們產生了食慾。",
+        "exampleEn": "The walk helped us work up an appetite.",
+        "highlight": "work up"
+      },
+      {
+        "formZh": "逐步提升至較高程度或較難的目標",
+        "formEn": "work up to something",
+        "exampleZh": "先由五分鐘開始,再慢慢增加至二十分鐘。",
+        "exampleEn": "Begin with five minutes and work up to twenty.",
+        "highlight": "work up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對某人或某事不利;令成功變得更困難",
+      "titleEn": "work against somebody/something",
+      "formula": "work against somebody/something",
+      "highlight": "work against somebody/something",
+      "descriptionZh": "對某人或某事不利;令成功變得更困難",
+      "descriptionEn": "The early closing time works against evening students.",
+      "examples": [
+        {
+          "en": "The early closing time works against evening students.",
+          "zh": "提早關門對夜間學生不利。",
+          "highlight": "works against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "想辦法避開或克服問題",
+      "titleEn": "work around/round something",
+      "formula": "work around/round something",
+      "highlight": "work around/round something",
+      "descriptionZh": "想辦法避開或克服問題",
+      "descriptionEn": "We can work around the broken lift.",
+      "examples": [
+        {
+          "en": "We can work around the broken lift.",
+          "zh": "我們可以想辦法克服升降機壞掉所帶來的問題。",
+          "highlight": "work around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "最終把話題轉到某事;最終開始處理某事",
+      "titleEn": "work around/round to something",
+      "formula": "work around/round to something",
+      "highlight": "work around/round to something",
+      "descriptionZh": "最終把話題轉到某事;最終開始處理某事",
+      "descriptionEn": "He finally worked round to the cost.",
+      "examples": [
+        {
+          "en": "He finally worked round to the cost.",
+          "zh": "他最後終於把話題轉到費用。",
+          "highlight": "worked round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "努力改善或做好某事",
+      "titleEn": "work at something / work at doing something",
+      "formula": "work at something / work at doing something",
+      "highlight": "work at something / work at doing something",
+      "descriptionZh": "努力改善或做好某事",
+      "descriptionEn": "She is working at speaking more clearly.",
+      "examples": [
+        {
+          "en": "She is working at speaking more clearly.",
+          "zh": "她正努力令自己說話更清楚。",
+          "highlight": "working at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "持續埋頭工作",
+      "titleEn": "work away (at something)",
+      "formula": "work away (at something)",
+      "highlight": "work away (at something)",
+      "descriptionZh": "持續埋頭工作",
+      "descriptionEn": "He worked away at the model all afternoon.",
+      "examples": [
+        {
+          "en": "He worked away at the model all afternoon.",
+          "zh": "他整個下午都埋頭製作模型。",
+          "highlight": "worked away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某事物加入並融入其中",
+      "titleEn": "work something in / work something into something",
+      "formula": "work something in / work something into something",
+      "highlight": "work something in / work something into something",
+      "descriptionZh": "把某事物加入並融入其中",
+      "descriptionEn": "Can we work a short break into the plan?",
+      "examples": [
+        {
+          "en": "Can we work a short break into the plan?",
+          "zh": "我們可以把短休息時間加入計劃嗎?",
+          "highlight": "work a short break into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "令某人或自己愈來愈激動、緊張或生氣",
+      "titleEn": "work somebody/yourself up / work yourself into something",
+      "formula": "work somebody/yourself up / work yourself into something",
+      "highlight": "work somebody/yourself up / work yourself into something",
+      "descriptionZh": "令某人或自己愈來愈激動、緊張或生氣",
+      "descriptionEn": "Do not work yourself up over one mistake.",
+      "examples": [
+        {
+          "en": "Do not work yourself up over one mistake.",
+          "zh": "不要為了一個錯誤令自己非常不安。",
+          "highlight": "work yourself up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "由某種電源供電或運作",
+      "titleEn": "work off something (a machine or device)",
+      "formula": "work off something (a machine or device)",
+      "highlight": "work off something (a machine or device)",
+      "descriptionZh": "由某種電源供電或運作",
+      "descriptionEn": "The lamp works off a small battery.",
+      "examples": [
+        {
+          "en": "The lamp works off a small battery.",
+          "zh": "這盞燈由一枚小電池供電。",
+          "highlight": "works off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "透過活動消耗或減輕某事物",
+      "titleEn": "work something off",
+      "formula": "work something off",
+      "highlight": "work something off",
+      "descriptionZh": "透過活動消耗或減輕某事物",
+      "descriptionEn": "We walked home to work off the big meal.",
+      "examples": [
+        {
+          "en": "We walked home to work off the big meal.",
+          "zh": "我們步行回家,以消耗大餐後的熱量。",
+          "highlight": "work off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "設法說服某人",
+      "titleEn": "work on somebody",
+      "formula": "work on somebody",
+      "highlight": "work on somebody",
+      "descriptionZh": "設法說服某人",
+      "descriptionEn": "I will work on Dad and ask again.",
+      "examples": [
+        {
+          "en": "I will work on Dad and ask again.",
+          "zh": "我會設法說服爸爸,再問一次。",
+          "highlight": "work on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "花時間製作、改善或修理某事物",
+      "titleEn": "work on something",
+      "formula": "work on something",
+      "highlight": "work on something",
+      "descriptionZh": "花時間製作、改善或修理某事物",
+      "descriptionEn": "They are working on a new school website.",
+      "examples": [
+        {
+          "en": "They are working on a new school website.",
+          "zh": "他們正在製作新的學校網站。",
+          "highlight": "working on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "結果順利;成功",
+      "titleEn": "work out",
+      "formula": "work out",
+      "highlight": "work out",
+      "descriptionZh": "結果順利;成功",
+      "descriptionEn": "Our plan worked out well.",
+      "examples": [
+        {
+          "en": "Our plan worked out well.",
+          "zh": "我們的計劃進行得很順利。",
+          "highlight": "worked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "看懂或理解某人的性格、想法或行為",
+      "titleEn": "work somebody out",
+      "formula": "work somebody out",
+      "highlight": "work somebody out",
+      "descriptionZh": "看懂或理解某人的性格、想法或行為",
+      "descriptionEn": "I cannot work him out.",
+      "examples": [
+        {
+          "en": "I cannot work him out.",
+          "zh": "我看不懂他的想法。",
+          "highlight": "work him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "算出、想出或找出答案",
+      "titleEn": "work something out",
+      "formula": "work something out",
+      "highlight": "work something out",
+      "descriptionZh": "算出、想出或找出答案",
+      "descriptionEn": "Can you work out the answer?",
+      "examples": [
+        {
+          "en": "Can you work out the answer?",
+          "zh": "你可以找出答案嗎?",
+          "highlight": "work out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "問題自行解決",
+      "titleEn": "work itself out",
+      "formula": "work itself out",
+      "highlight": "work itself out",
+      "descriptionZh": "問題自行解決",
+      "descriptionEn": "The problem may work itself out.",
+      "examples": [
+        {
+          "en": "The problem may work itself out.",
+          "zh": "問題可能會自行解決。",
+          "highlight": "work itself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "持續工作至某個時間,中途不停下來",
+      "titleEn": "work through",
+      "formula": "work through",
+      "highlight": "work through",
+      "descriptionZh": "持續工作至某個時間,中途不停下來",
+      "descriptionEn": "We worked through until midnight.",
+      "examples": [
+        {
+          "en": "We worked through until midnight.",
+          "zh": "我們不停工作至午夜。",
+          "highlight": "worked through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "逐步處理或仔細想清楚問題、工作或感受",
+      "titleEn": "work through something / work something through",
+      "formula": "work through something / work something through",
+      "highlight": "work through something / work something through",
+      "descriptionZh": "逐步處理或仔細想清楚問題、工作或感受",
+      "descriptionEn": "We worked the problem through together.",
+      "examples": [
+        {
+          "en": "We worked the problem through together.",
+          "zh": "我們一起仔細處理這個問題。",
+          "highlight": "worked the problem through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "按照時間表、計劃、限額或標準工作",
+      "titleEn": "work to something",
+      "formula": "work to something",
+      "highlight": "work to something",
+      "descriptionZh": "按照時間表、計劃、限額或標準工作",
+      "descriptionEn": "We are working to a tight schedule.",
+      "examples": [
+        {
+          "en": "We are working to a tight schedule.",
+          "zh": "我們正按照緊迫的時間表工作。",
+          "highlight": "working to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "逐漸產生食慾、勇氣、興趣或熱情",
+      "titleEn": "work something up",
+      "formula": "work something up",
+      "highlight": "work something up",
+      "descriptionZh": "逐漸產生食慾、勇氣、興趣或熱情",
+      "descriptionEn": "The walk helped us work up an appetite.",
+      "examples": [
+        {
+          "en": "The walk helped us work up an appetite.",
+          "zh": "步行令我們產生了食慾。",
+          "highlight": "work up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "逐步提升至較高程度或較難的目標",
+      "titleEn": "work up to something",
+      "formula": "work up to something",
+      "highlight": "work up to something",
+      "descriptionZh": "逐步提升至較高程度或較難的目標",
+      "descriptionEn": "Begin with five minutes and work up to twenty.",
+      "examples": [
+        {
+          "en": "Begin with five minutes and work up to twenty.",
+          "zh": "先由五分鐘開始,再慢慢增加至二十分鐘。",
+          "highlight": "work up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用不同方法處理日常問題",
+      "titleEn": "Solve everyday problems in different ways",
+      "zh": "work around 可以表示想辦法避開問題;work out 可以表示找出答案;work through 則可以表示逐步處理事情。",
+      "en": "Work around can describe finding another way past a problem. Work out can describe finding an answer, while work through can describe dealing with something step by step."
+    },
+    {
+      "titleZh": "表達持續努力和逐步進展",
+      "titleEn": "Show steady effort and progress",
+      "zh": "work at 可以表示努力改善;work away 可以表示持續埋頭工作;work up to 則可以表示逐步邁向較難的目標。",
+      "en": "Work at describes trying to improve. Work away shows continued effort, and work up to shows progress towards a harder goal."
+    },
+    {
+      "titleZh": "清楚談論人物和情緒",
+      "titleEn": "Talk about people and feelings clearly",
+      "zh": "你可以用 work on somebody 表示設法說服某人,用 work somebody out 表示看懂某人,也可以用 work yourself up 表示憂慮或怒氣愈來愈強。",
+      "en": "You can work on somebody to persuade them, work somebody out to understand them, or work yourself up when worry or anger grows."
+    },
+    {
+      "titleZh": "解釋供電方式和活動帶來的效果",
+      "titleEn": "Explain power and physical effects",
+      "zh": "裝置可以 work off a battery,表示由電池供電;運動則可以幫助你 work off 多餘精力、大餐後的熱量或怒氣。",
+      "en": "A device can work off a battery, while exercise can help you work off extra energy, a heavy meal or anger."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用不同方法處理日常問題",
+      "表達持續努力和逐步進展",
+      "清楚談論人物和情緒",
+      "解釋供電方式和活動帶來的效果"
+    ],
+    "contextsEn": [
+      "Solve everyday problems in different ways",
+      "Show steady effort and progress",
+      "Talk about people and feelings clearly",
+      "Explain power and physical effects"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用不同方法處理日常問題",
+        "titleEn": "Solve everyday problems in different ways",
+        "zh": "work around 可以表示想辦法避開問題;work out 可以表示找出答案;work through 則可以表示逐步處理事情。",
+        "en": "Work around can describe finding another way past a problem. Work out can describe finding an answer, while work through can describe dealing with something step by step.",
+        "examples": [
+          {
+            "en": "The early closing time works against evening students.",
+            "zh": "提早關門對夜間學生不利。",
+            "highlight": "works against"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達持續努力和逐步進展",
+        "titleEn": "Show steady effort and progress",
+        "zh": "work at 可以表示努力改善;work away 可以表示持續埋頭工作;work up to 則可以表示逐步邁向較難的目標。",
+        "en": "Work at describes trying to improve. Work away shows continued effort, and work up to shows progress towards a harder goal.",
+        "examples": [
+          {
+            "en": "We can work around the broken lift.",
+            "zh": "我們可以想辦法克服升降機壞掉所帶來的問題。",
+            "highlight": "work around"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論人物和情緒",
+        "titleEn": "Talk about people and feelings clearly",
+        "zh": "你可以用 work on somebody 表示設法說服某人,用 work somebody out 表示看懂某人,也可以用 work yourself up 表示憂慮或怒氣愈來愈強。",
+        "en": "You can work on somebody to persuade them, work somebody out to understand them, or work yourself up when worry or anger grows.",
+        "examples": [
+          {
+            "en": "He finally worked round to the cost.",
+            "zh": "他最後終於把話題轉到費用。",
+            "highlight": "worked round to"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋供電方式和活動帶來的效果",
+        "titleEn": "Explain power and physical effects",
+        "zh": "裝置可以 work off a battery,表示由電池供電;運動則可以幫助你 work off 多餘精力、大餐後的熱量或怒氣。",
+        "en": "A device can work off a battery, while exercise can help you work off extra energy, a heavy meal or anger.",
+        "examples": [
+          {
+            "en": "She is working at speaking more clearly.",
+            "zh": "她正努力令自己說話更清楚。",
+            "highlight": "working at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WORK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WORK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WORK 片語動詞。",
+      "en": "Read the whole sentence and choose the WORK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以下例子的語序:work him out、work it out、work itin、work it off。",
+      "titleEn": "When using him, her, it or them, follow the word order shown in these examples: work him out, work it out, work it in, work it off.",
+      "zh": "使用 him、her、it 或 them 時,請按照以下例子的語序:work him out、work it out、work itin、work it off。",
+      "en": "When using him, her, it or them, follow the word order shown in these examples: work him out, work it out, work it in, work it off."
+    },
+    {
+      "titleZh": "在參考表所列的表達中,around 和 round 可以表達相同意思。",
+      "titleEn": "Around and round can express the same meaning in the expressions shown in the reference bank.",
+      "zh": "在參考表所列的表達中,around 和 round 可以表達相同意思。",
+      "en": "Around and round can express the same meaning in the expressions shown in the reference bank."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WORK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WORK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WORK 動詞片語句子改寫練習",
+    "titleEn": "WORK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WORK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WORK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          20
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          41,
+          60
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          61,
+          80
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          81,
+          100
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-147-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 20,
+      "prompt": "Our plan succeeded.",
+      "promptZh": "我們的計劃成功了。",
+      "starter": "Our",
+      "answer": "Our plan worked out.",
+      "answerZh": "我們的計劃成功了。",
+      "highlight": "worked out",
+      "targetForm": "work out",
+      "targetMeaningZh": "結果順利;成功"
+    },
+    {
+      "id": "phrasal-verb-147-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 20,
+      "prompt": "Nora makes an effort to improve her pronunciation every evening.",
+      "promptZh": "諾拉每天晚上都努力改善自己的發音。",
+      "starter": "Nora",
+      "answer": "Nora works at her pronunciation every evening.",
+      "answerZh": "諾拉每天晚上都努力改善自己的發音。",
+      "highlight": "works at",
+      "targetForm": "work at something / work at doing something",
+      "targetMeaningZh": "努力改善或做好某事"
+    },
+    {
+      "id": "phrasal-verb-147-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "After the big lunch, we went for a walk to burn some of the extra calories.",
+      "promptZh": "吃過豐富的午餐後,我們散步,以消耗部分多出的熱量。",
+      "starter": "After",
+      "answer": "After the big lunch, we went for a walk to work off some of the extra calories.",
+      "answerZh": "吃過豐富的午餐後,我們散步,以消耗部分多出的熱量。",
+      "highlight": "work off",
+      "targetForm": "work something off",
+      "targetMeaningZh": "透過活動消耗或減輕某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "We found a way to continue despite the broken printer by using the one in the library.",
+      "promptZh": "打印機壞了,但我們改用圖書館的打印機,找到方法繼續工作。",
+      "starter": "We",
+      "answer": "We worked around the broken printer by using the one in the library.",
+      "answerZh": "打印機壞了,但我們改用圖書館的打印機,找到方法繼續工作。",
+      "highlight": "worked around",
+      "targetForm": "work around/round something",
+      "targetMeaningZh": "想辦法避開或克服問題"
+    },
+    {
+      "id": "phrasal-verb-147-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "We are following a very tight schedule.",
+      "promptZh": "我們正按照非常緊迫的時間表工作。",
+      "starter": "We",
+      "answer": "We are working to a very tight schedule.",
+      "answerZh": "我們正按照非常緊迫的時間表工作。",
+      "highlight": "working to",
+      "targetForm": "work to something",
+      "targetMeaningZh": "按照時間表、計劃、限額或標準工作"
+    },
+    {
+      "id": "phrasal-verb-147-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 21,
+      "prompt": "We included a short game in the lesson.",
+      "promptZh": "我們在課堂中加入了一個短遊戲。",
+      "starter": "We",
+      "answer": "We worked a short game into the lesson.",
+      "answerZh": "我們在課堂中加入了一個短遊戲。",
+      "highlight": "worked",
+      "targetForm": "work something in / work something into something",
+      "targetMeaningZh": "把某事物加入並融入其中"
+    },
+    {
+      "id": "phrasal-verb-147-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 21,
+      "prompt": "I cannot understand Leo’s behaviour.",
+      "promptZh": "我看不懂里奧的行為。",
+      "starter": "I",
+      "answer": "I cannot work Leo out.",
+      "answerZh": "我看不懂里奧的行為。",
+      "highlight": "work Leo out",
+      "targetForm": "work somebody out",
+      "targetMeaningZh": "看懂或理解某人的性格、想法或行為"
+    },
+    {
+      "id": "phrasal-verb-147-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 21,
+      "prompt": "Start with two kilometres and increase the distance slowly until you can run five.",
+      "promptZh": "先跑兩公里,再慢慢增加至五公里。",
+      "starter": "Start",
+      "answer": "Start with two kilometres and work up to five kilometres.",
+      "answerZh": "先跑兩公里,再慢慢增加至五公里。",
+      "highlight": "work up to",
+      "targetForm": "work up to something",
+      "targetMeaningZh": "逐步提升至較高程度或較難的目標"
+    },
+    {
+      "id": "phrasal-verb-147-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 21,
+      "prompt": "The late bus service makes success harder for students who attend evening classes.",
+      "promptZh": "巴士尾班車時間太早,令修讀夜間課程的學生更難取得成功。",
+      "starter": "The",
+      "answer": "The late bus service works against students who attend evening classes.",
+      "answerZh": "巴士尾班車時間太早,令修讀夜間課程的學生更難取得成功。",
+      "highlight": "works against",
+      "targetForm": "work against somebody/something",
+      "targetMeaningZh": "對某人或某事不利;令成功變得更困難"
+    },
+    {
+      "id": "phrasal-verb-147-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Theo is spending time developing a new science project.",
+      "promptZh": "西奧正花時間製作一個新的科學專題。",
+      "starter": "Theo",
+      "answer": "Theo is working on a new science project.",
+      "answerZh": "西奧正製作一個新的科學專題。",
+      "highlight": "working on",
+      "targetForm": "work on something",
+      "targetMeaningZh": "花時間製作、改善或修理某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Give the problem time; it may solve itself.",
+      "promptZh": "給這個問題一點時間;它可能會自行解決。",
+      "starter": "Give",
+      "answer": "Give the problem time; it may work itself out.",
+      "answerZh": "給這個問題一點時間;它可能會自行解決。",
+      "highlight": "work",
+      "targetForm": "work itself out",
+      "targetMeaningZh": "問題自行解決"
+    },
+    {
+      "id": "phrasal-verb-147-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The small fan uses two batteries for power.",
+      "promptZh": "這把小風扇由兩枚電池供電。",
+      "starter": "The",
+      "answer": "The small fan works off two batteries.",
+      "answerZh": "這把小風扇由兩枚電池供電。",
+      "highlight": "works off",
+      "targetForm": "work off something",
+      "targetMeaningZh": "由某種電源供電或運作"
+    },
+    {
+      "id": "phrasal-verb-147-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "After a few minutes, Ben finally began to talk about money.",
+      "promptZh": "幾分鐘後,賓終於開始談到金錢問題。",
+      "starter": "After",
+      "answer": "After a few minutes, Ben worked round to the question of money.",
+      "answerZh": "幾分鐘後,賓終於把話題轉到金錢問題。",
+      "highlight": "worked round",
+      "targetForm": "work around/round to something",
+      "targetMeaningZh": "最終把話題轉到某事;最終開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-147-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "She dealt with her worries step by step with a friend.",
+      "promptZh": "她與朋友逐步處理自己的憂慮。",
+      "starter": "She",
+      "answer": "She worked through her worries with a friend.",
+      "answerZh": "她與朋友逐步處理自己的憂慮。",
+      "highlight": "worked through",
+      "targetForm": "work through something / work something through",
+      "targetMeaningZh": "逐步處理或仔細想清楚問題、工作或感受"
+    },
+    {
+      "id": "phrasal-verb-147-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "The children continued working steadily at the puzzle for an hour.",
+      "promptZh": "孩子們持續埋頭拼砌拼圖一小時。",
+      "starter": "The",
+      "answer": "The children worked away at the puzzle for an hour.",
+      "answerZh": "孩子們埋頭拼砌拼圖一小時。",
+      "highlight": "worked away",
+      "targetForm": "work away (at something)",
+      "targetMeaningZh": "持續埋頭工作"
+    },
+    {
+      "id": "phrasal-verb-147-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "We calculated the total cost.",
+      "promptZh": "我們算出了總費用。",
+      "starter": "We",
+      "answer": "We worked out the total cost.",
+      "answerZh": "我們算出了總費用。",
+      "highlight": "worked out",
+      "targetForm": "work something out",
+      "targetMeaningZh": "算出、想出或找出答案"
+    },
+    {
+      "id": "phrasal-verb-147-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "I will try to persuade Mum and ask her again tomorrow.",
+      "promptZh": "我會嘗試說服媽媽,明天再問她一次。",
+      "starter": "I",
+      "answer": "I will work on Mum and ask her again tomorrow.",
+      "answerZh": "我會嘗試說服媽媽,明天再問她一次。",
+      "highlight": "work on",
+      "targetForm": "work on somebody",
+      "targetMeaningZh": "設法說服某人"
+    },
+    {
+      "id": "phrasal-verb-147-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The long walk made us hungry.",
+      "promptZh": "長途步行令我們產生了食慾。",
+      "starter": "The",
+      "answer": "The long walk helped us work up an appetite.",
+      "answerZh": "長途步行令我們產生了食慾。",
+      "highlight": "walk helped",
+      "targetForm": "work something up",
+      "targetMeaningZh": "逐漸產生食慾、勇氣、興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-147-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Do not make yourself very upset over one small mistake.",
+      "promptZh": "不要為了一個小錯誤而令自己非常不安。",
+      "starter": "Do",
+      "answer": "Do not work yourself up over one small mistake.",
+      "answerZh": "不要為了一個小錯誤而令自己非常不安。",
+      "highlight": "work",
+      "targetForm": "work somebody/yourself up (into something) / work yourself into something",
+      "targetMeaningZh": "令某人或自己愈來愈激動、緊張或生氣"
+    },
+    {
+      "id": "phrasal-verb-147-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "At harvest time, we continue working without stopping until it gets dark.",
+      "promptZh": "收割季節時,我們會不停工作至天黑。",
+      "starter": "At",
+      "answer": "At harvest time, we work through until it gets dark.",
+      "answerZh": "收割季節時,我們會不停工作至天黑。",
+      "highlight": "work through",
+      "targetForm": "work through",
+      "targetMeaningZh": "持續工作至某個時間,中途不停下來"
+    },
+    {
+      "id": "phrasal-verb-147-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Does this light use the car battery for power?",
+      "promptZh": "這盞燈是否使用汽車電池供電?",
+      "starter": "Does",
+      "answer": "Does this light work off the car battery?",
+      "answerZh": "這盞燈是否由汽車電池供電?",
+      "highlight": "work off",
+      "targetForm": "work off something",
+      "targetMeaningZh": "由某種電源供電或運作"
+    },
+    {
+      "id": "phrasal-verb-147-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Can you calculate how much each person should pay?",
+      "promptZh": "你可以算出每個人應該付多少錢嗎?",
+      "starter": "Can",
+      "answer": "Can you work out how much each person should pay?",
+      "answerZh": "你可以算出每個人應該付多少錢嗎?",
+      "highlight": "work out",
+      "targetForm": "work something out",
+      "targetMeaningZh": "算出、想出或找出答案"
+    },
+    {
+      "id": "phrasal-verb-147-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Dad was still busy in the garden when the rain began.",
+      "promptZh": "開始下雨時,爸爸仍在花園裏忙碌。",
+      "starter": "Dad",
+      "answer": "Dad was working away in the garden when the rain began.",
+      "answerZh": "開始下雨時,爸爸仍在花園裏埋頭工作。",
+      "highlight": "working away",
+      "targetForm": "work away (at something)",
+      "targetMeaningZh": "持續埋頭工作"
+    },
+    {
+      "id": "phrasal-verb-147-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The old rule put small clubs with few members at a disadvantage.",
+      "promptZh": "舊規則令會員較少的小型社團處於不利位置。",
+      "starter": "The",
+      "answer": "The old rule worked against small clubs with few members.",
+      "answerZh": "舊規則對會員較少的小型社團不利。",
+      "highlight": "worked against",
+      "targetForm": "work against somebody/something",
+      "targetMeaningZh": "對某人或某事不利;令成功變得更困難"
+    },
+    {
+      "id": "phrasal-verb-147-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "He is trying to develop enough courage to speak to the class.",
+      "promptZh": "他正嘗試鼓起足夠勇氣在全班面前說話。",
+      "starter": "He",
+      "answer": "He is trying to work up the courage to speak to the class.",
+      "answerZh": "他正嘗試鼓起勇氣在全班面前說話。",
+      "highlight": "work up the",
+      "targetForm": "work something up",
+      "targetMeaningZh": "逐漸產生食慾、勇氣、興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-147-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "I hope the new timetable will be successful.",
+      "promptZh": "我希望新的時間表會順利實行。",
+      "starter": "I",
+      "answer": "I hope the new timetable will work out.",
+      "answerZh": "我希望新的時間表會順利實行。",
+      "highlight": "work out",
+      "targetForm": "work out",
+      "targetMeaningZh": "結果順利;成功"
+    },
+    {
+      "id": "phrasal-verb-147-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "Can you include this new example naturally in your talk?",
+      "promptZh": "你可以把這個新例子自然地加入你的演講嗎?",
+      "starter": "Can",
+      "answer": "Can you work this new example into your talk?",
+      "answerZh": "你可以把這個新例子融入你的演講嗎?",
+      "highlight": "work",
+      "targetForm": "work something in / work something into something",
+      "targetMeaningZh": "把某事物加入並融入其中"
+    },
+    {
+      "id": "phrasal-verb-147-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "We are examining and completing the final questions one by one.",
+      "promptZh": "我們正逐題處理最後幾道問題。",
+      "starter": "We",
+      "answer": "We are working through the final questions one by one.",
+      "answerZh": "我們正逐題處理最後幾道問題。",
+      "highlight": "working through",
+      "targetForm": "work through something / work something through",
+      "targetMeaningZh": "逐步處理或仔細想清楚問題、工作或感受"
+    },
+    {
+      "id": "phrasal-verb-147-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "They have been trying to persuade the coach to allow one more player.",
+      "promptZh": "他們一直嘗試說服教練多讓一名球員參加。",
+      "starter": "They",
+      "answer": "They have been working on the coach to allow one more player.",
+      "answerZh": "他們一直設法說服教練多讓一名球員參加。",
+      "highlight": "working on",
+      "targetForm": "work on somebody",
+      "targetMeaningZh": "設法說服某人"
+    },
+    {
+      "id": "phrasal-verb-147-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "She has not begun discussing the travel plans yet.",
+      "promptZh": "她還未開始談論旅行計劃。",
+      "starter": "She",
+      "answer": "She has not worked round to the travel plans yet.",
+      "answerZh": "她還未把話題轉到旅行計劃。",
+      "highlight": "worked round to",
+      "targetForm": "work around/round to something",
+      "targetMeaningZh": "最終把話題轉到某事;最終開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-147-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "She is cycling to reduce some of her nervous energy.",
+      "promptZh": "她正踏單車,以消耗部分緊張情緒帶來的精力。",
+      "starter": "She",
+      "answer": "She is cycling to work off some of her nervous energy.",
+      "answerZh": "她正踏單車,以消耗部分緊張情緒帶來的精力。",
+      "highlight": "work off",
+      "targetForm": "work something off",
+      "targetMeaningZh": "透過活動消耗或減輕某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "She has slowly increased the distance until she can complete a ten-kilometre walk.",
+      "promptZh": "她已逐步增加距離,現在可以完成十公里步行。",
+      "starter": "She",
+      "answer": "She has worked up to a ten-kilometre walk.",
+      "answerZh": "她已逐步提升至可以完成十公里步行。",
+      "highlight": "worked up to",
+      "targetForm": "work up to something",
+      "targetMeaningZh": "逐步提升至較高程度或較難的目標"
+    },
+    {
+      "id": "phrasal-verb-147-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "Have you understood the new teacher’s character yet?",
+      "promptZh": "你看懂新老師的性格了嗎?",
+      "starter": "Have",
+      "answer": "Have you worked the new teacher out yet?",
+      "answerZh": "你看懂新老師的性格了嗎?",
+      "highlight": "worked",
+      "targetForm": "work somebody out",
+      "targetMeaningZh": "看懂或理解某人的性格、想法或行為"
+    },
+    {
+      "id": "phrasal-verb-147-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "The builders had to stay within a fixed budget.",
+      "promptZh": "建築工人必須按照固定預算工作。",
+      "starter": "The",
+      "answer": "The builders had to work to a fixed budget.",
+      "answerZh": "建築工人必須按照固定預算工作。",
+      "highlight": "work to",
+      "targetForm": "work to something",
+      "targetMeaningZh": "按照時間表、計劃、限額或標準工作"
+    },
+    {
+      "id": "phrasal-verb-147-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "Can you find another route past the road closure and still arrive by nine?",
+      "promptZh": "你可以繞過封路路段,仍然在九時前到達嗎?",
+      "starter": "Can",
+      "answer": "Can you work around the road closure and still arrive by nine?",
+      "answerZh": "你可以想辦法繞過封路路段,仍然在九時前到達嗎?",
+      "highlight": "work around",
+      "targetForm": "work around/round something",
+      "targetMeaningZh": "想辦法避開或克服問題"
+    },
+    {
+      "id": "phrasal-verb-147-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "The nurses continued working without a break until the next team arrived.",
+      "promptZh": "護士一直不停工作,直至下一隊人員到達。",
+      "starter": "The",
+      "answer": "The nurses worked through until the next team arrived.",
+      "answerZh": "護士一直不停工作,直至下一隊人員到達。",
+      "highlight": "worked through",
+      "targetForm": "work through",
+      "targetMeaningZh": "持續工作至某個時間,中途不停下來"
+    },
+    {
+      "id": "phrasal-verb-147-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "The mechanic has been repairing the bike since morning.",
+      "promptZh": "技工從早上起一直在修理單車。",
+      "starter": "The",
+      "answer": "The mechanic has been working on the bike since morning.",
+      "answerZh": "技工從早上起一直在修理單車。",
+      "highlight": "working on",
+      "targetForm": "work on something",
+      "targetMeaningZh": "花時間製作、改善或修理某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Loud music was making the crowd increasingly excited.",
+      "promptZh": "響亮的音樂令群眾愈來愈興奮。",
+      "starter": "Loud",
+      "answer": "Loud music was working the crowd up.",
+      "answerZh": "響亮的音樂令群眾愈來愈興奮。",
+      "highlight": "working",
+      "targetForm": "work somebody/yourself up (into something) / work yourself into something",
+      "targetMeaningZh": "令某人或自己愈來愈激動、緊張或生氣"
+    },
+    {
+      "id": "phrasal-verb-147-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "The disagreement has resolved itself without any help from us.",
+      "promptZh": "這場爭執在我們沒有協助的情況下自行解決了。",
+      "starter": "The",
+      "answer": "The disagreement has worked itself out without any help from us.",
+      "answerZh": "這場爭執在我們沒有協助的情況下自行解決了。",
+      "highlight": "worked",
+      "targetForm": "work itself out",
+      "targetMeaningZh": "問題自行解決"
+    },
+    {
+      "id": "phrasal-verb-147-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "He has been making an effort to stay calm during matches.",
+      "promptZh": "他一直努力在比賽期間保持冷靜。",
+      "starter": "He",
+      "answer": "He has been working at staying calm during matches.",
+      "answerZh": "他一直努力在比賽期間保持冷靜。",
+      "highlight": "working at staying",
+      "targetForm": "work at something / work at doing something",
+      "targetMeaningZh": "努力改善或做好某事"
+    },
+    {
+      "id": "phrasal-verb-147-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "The problem is difficult, but we can discuss it carefully together.",
+      "promptZh": "這個問題很困難,但我們可以一起仔細處理。",
+      "starter": "The",
+      "answer": "The problem is difficult, but we can work it through together.",
+      "answerZh": "這個問題很困難,但我們可以一起仔細處理。",
+      "highlight": "work",
+      "targetForm": "work through something / work something through",
+      "targetMeaningZh": "逐步處理或仔細想清楚問題、工作或感受"
+    },
+    {
+      "id": "phrasal-verb-147-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "The app has one small problem, but the team has found a way to continue despite it.",
+      "promptZh": "這個應用程式有一個小問題,但團隊已找到方法克服它並繼續工作。",
+      "starter": "The",
+      "answer": "The app has one small problem, but the team has worked around it.",
+      "answerZh": "這個應用程式有一個小問題,但團隊已找到方法克服它。",
+      "highlight": "worked around",
+      "targetForm": "work around/round something",
+      "targetMeaningZh": "想辦法避開或克服問題"
+    },
+    {
+      "id": "phrasal-verb-147-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Because the train was cancelled, the trip did not go as planned.",
+      "promptZh": "由於火車班次取消,旅程沒有按計劃進行。",
+      "starter": "Because",
+      "answer": "Because the train was cancelled, the trip did not work out.",
+      "answerZh": "由於火車班次取消,旅程沒有按計劃進行。",
+      "highlight": "work out",
+      "targetForm": "work out",
+      "targetMeaningZh": "結果順利;成功"
+    },
+    {
+      "id": "phrasal-verb-147-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The plan is full, but we should be able to include it before lunch.",
+      "promptZh": "計劃已排得很滿,但我們應該可以在午飯前把它加進去。",
+      "starter": "The",
+      "answer": "The plan is full, but we should be able to work it in before lunch.",
+      "answerZh": "計劃已排得很滿,但我們應該可以在午飯前把它加進去。",
+      "highlight": "work",
+      "targetForm": "work something in / work something into something",
+      "targetMeaningZh": "把某事物加入並融入其中"
+    },
+    {
+      "id": "phrasal-verb-147-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "I am not ready for the full test, so I will prepare for it step by step with shorter practice papers.",
+      "promptZh": "我還未準備好應付完整測驗,所以會先做較短的練習卷,逐步準備。",
+      "starter": "I",
+      "answer": "I am not ready for the full test, so I will work up to it with shorter practice papers.",
+      "answerZh": "我還未準備好應付完整測驗,所以會先做較短的練習卷,逐步提升至完整測驗。",
+      "highlight": "work up to",
+      "targetForm": "work up to something",
+      "targetMeaningZh": "逐步提升至較高程度或較難的目標"
+    },
+    {
+      "id": "phrasal-verb-147-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "She smiles when she is worried, so people often find it hard to understand her.",
+      "promptZh": "她擔心時會微笑,所以別人往往很難看懂她。",
+      "starter": "She",
+      "answer": "She smiles when she is worried, so people often find it hard to work her out.",
+      "answerZh": "她擔心時會微笑,所以別人往往很難看懂她。",
+      "highlight": "work",
+      "targetForm": "work somebody out",
+      "targetMeaningZh": "看懂或理解某人的性格、想法或行為"
+    },
+    {
+      "id": "phrasal-verb-147-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "We keep a large battery in the cupboard. The old radio still uses it for power when there is no electricity.",
+      "promptZh": "我們在櫃裏存放了一枚大型電池。沒有電力時,那部舊收音機仍可使用它供電。",
+      "starter": "We",
+      "answer": "We keep a large battery in the cupboard. The old radio still works off it when there is no electricity.",
+      "answerZh": "我們在櫃裏存放了一枚大型電池。沒有電力時,那部舊收音機仍由它供電。",
+      "highlight": "works off",
+      "targetForm": "work off something",
+      "targetMeaningZh": "由某種電源供電或運作"
+    },
+    {
+      "id": "phrasal-verb-147-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "The idea is good, but you will need to persuade him before he agrees.",
+      "promptZh": "這個主意不錯,但你需要先說服他,他才會同意。",
+      "starter": "The",
+      "answer": "The idea is good, but you will need to work on him before he agrees.",
+      "answerZh": "這個主意不錯,但你需要先設法說服他,他才會同意。",
+      "highlight": "work on",
+      "targetForm": "work on somebody",
+      "targetMeaningZh": "設法說服某人"
+    },
+    {
+      "id": "phrasal-verb-147-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "The café was busy, so we continued working without stopping for lunch.",
+      "promptZh": "咖啡店很忙,所以我們沒有停下來吃午飯,一直工作。",
+      "starter": "The",
+      "answer": "The café was busy, so we worked through without stopping for lunch.",
+      "answerZh": "咖啡店很忙,所以我們沒有停下來吃午飯,一直工作。",
+      "highlight": "worked through",
+      "targetForm": "work through",
+      "targetMeaningZh": "持續工作至某個時間,中途不停下來"
+    },
+    {
+      "id": "phrasal-verb-147-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "The code looked difficult, but Ava solved it in ten minutes.",
+      "promptZh": "這組密碼看來很難,但艾娃在十分鐘內解開了。",
+      "starter": "The",
+      "answer": "The code looked difficult, but Ava worked it out in ten minutes.",
+      "answerZh": "這組密碼看來很難,但艾娃在十分鐘內解開了。",
+      "highlight": "worked",
+      "targetForm": "work something out",
+      "targetMeaningZh": "算出、想出或找出答案"
+    },
+    {
+      "id": "phrasal-verb-147-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Several parts of the form make things harder for people with poor eyesight.",
+      "promptZh": "表格有幾個部分令視力欠佳的人更難填寫。",
+      "starter": "Several",
+      "answer": "Several parts of the form work against people with poor eyesight.",
+      "answerZh": "表格有幾個部分對視力欠佳的人不利。",
+      "highlight": "work against",
+      "targetForm": "work against somebody/something",
+      "targetMeaningZh": "對某人或某事不利;令成功變得更困難"
+    },
+    {
+      "id": "phrasal-verb-147-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "He kept reading the message and made himself more and more frightened.",
+      "promptZh": "他不斷重讀那則訊息,令自己愈來愈害怕。",
+      "starter": "He",
+      "answer": "He kept reading the message and worked himself into a panic.",
+      "answerZh": "他不斷重讀那則訊息,令自己陷入恐慌。",
+      "highlight": "worked",
+      "targetForm": "work somebody/yourself up (into something) / work yourself into something",
+      "targetMeaningZh": "令某人或自己愈來愈激動、緊張或生氣"
+    },
+    {
+      "id": "phrasal-verb-147-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The school gave us a clear timetable. We must follow it while we work.",
+      "promptZh": "學校給了我們一份清晰的時間表。我們工作時必須按照它。",
+      "starter": "The",
+      "answer": "The school gave us a clear timetable. We must work to it.",
+      "answerZh": "學校給了我們一份清晰的時間表。我們必須按照它工作。",
+      "highlight": "work to",
+      "targetForm": "work to something",
+      "targetMeaningZh": "按照時間表、計劃、限額或標準工作"
+    },
+    {
+      "id": "phrasal-verb-147-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "While the others talked, Leila continued working steadily at her model until it was finished.",
+      "promptZh": "其他人聊天時,萊拉一直埋頭製作模型,直至完成。",
+      "starter": "While",
+      "answer": "While the others talked, Leila worked away at her model until it was finished.",
+      "answerZh": "其他人聊天時,萊拉一直埋頭製作模型,直至完成。",
+      "highlight": "worked away",
+      "targetForm": "work away (at something)",
+      "targetMeaningZh": "持續埋頭工作"
+    },
+    {
+      "id": "phrasal-verb-147-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The design is not ready, but we are still improving it.",
+      "promptZh": "設計還未完成,但我們仍在改進它。",
+      "starter": "The",
+      "answer": "The design is not ready, but we are still working on it.",
+      "answerZh": "設計還未完成,但我們仍在改進它。",
+      "highlight": "working on",
+      "targetForm": "work on something",
+      "targetMeaningZh": "花時間製作、改善或修理某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "When will the manager finally begin talking about the real reason for the change?",
+      "promptZh": "經理何時才會開始談論這項改動的真正原因?",
+      "starter": "When",
+      "answer": "When will the manager work round to the real reason for the change?",
+      "answerZh": "經理何時才會把話題轉到這項改動的真正原因?",
+      "highlight": "work round to",
+      "targetForm": "work around/round to something",
+      "targetMeaningZh": "最終把話題轉到某事;最終開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-147-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "I was angry, so I went swimming to become calmer.",
+      "promptZh": "我當時很生氣,所以去游泳讓自己冷靜下來。",
+      "starter": "I",
+      "answer": "I was angry, so I went swimming to work it off.",
+      "answerZh": "我當時很生氣,所以去游泳以消除怒氣。",
+      "highlight": "work it off",
+      "targetForm": "work something off",
+      "targetMeaningZh": "透過活動消耗或減輕某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We could not solve it immediately, but the matter eventually resolved itself.",
+      "promptZh": "我們未能立即解決,但事情最終自行解決了。",
+      "starter": "We",
+      "answer": "We could not solve it immediately, but the matter eventually worked itself out.",
+      "answerZh": "我們未能立即解決,但事情最終自行解決了。",
+      "highlight": "worked",
+      "targetForm": "work itself out",
+      "targetMeaningZh": "問題自行解決"
+    },
+    {
+      "id": "phrasal-verb-147-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "If you make an effort to improve it every day, your handwriting will get better.",
+      "promptZh": "只要你每天努力改善,字跡便會進步。",
+      "starter": "If",
+      "answer": "If you work at it every day, your handwriting will get better.",
+      "answerZh": "只要你每天努力改善,字跡便會進步。",
+      "highlight": "work at",
+      "targetForm": "work at something / work at doing something",
+      "targetMeaningZh": "努力改善或做好某事"
+    },
+    {
+      "id": "phrasal-verb-147-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "Ten minutes of fast dancing made us begin to sweat.",
+      "promptZh": "快速跳舞十分鐘令我們開始出汗。",
+      "starter": "Ten",
+      "answer": "Ten minutes of fast dancing helped us work up a sweat.",
+      "answerZh": "快速跳舞十分鐘令我們開始出汗。",
+      "highlight": "helped",
+      "targetForm": "work something up",
+      "targetMeaningZh": "逐漸產生食慾、勇氣、興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-147-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "Sana refused at first, so the rest of the team tried to persuade her during lunch.",
+      "promptZh": "薩娜起初拒絕了,所以其餘隊員在午飯時嘗試說服她。",
+      "starter": "Sana",
+      "answer": "Sana refused at first, so the rest of the team worked on her during lunch.",
+      "answerZh": "薩娜起初拒絕了,所以其餘隊員在午飯時設法說服她。",
+      "highlight": "worked on",
+      "targetForm": "work on somebody",
+      "targetMeaningZh": "設法說服某人"
+    },
+    {
+      "id": "phrasal-verb-147-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "The speaker told a funny story to create more excitement before the winner was announced.",
+      "promptZh": "講者在公布得獎者前說了一個有趣故事,以帶動更多興奮氣氛。",
+      "starter": "The",
+      "answer": "The speaker told a funny story to work up some excitement before the winner was announced.",
+      "answerZh": "講者在公布得獎者前說了一個有趣故事,以帶動更多興奮氣氛。",
+      "highlight": "work up some",
+      "targetForm": "work something up",
+      "targetMeaningZh": "逐漸產生食慾、勇氣、興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-147-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "The speaker talked about the weather, the room and the food before finally moving to the main announcement.",
+      "promptZh": "講者談過天氣、場地和食物後,才終於轉到主要公布事項。",
+      "starter": "The",
+      "answer": "The speaker talked about the weather, the room and the food before working around to the main announcement.",
+      "answerZh": "講者談過天氣、場地和食物後,才終於把話題轉到主要公布事項。",
+      "highlight": "working around",
+      "targetForm": "work around/round to something",
+      "targetMeaningZh": "最終把話題轉到某事;最終開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-147-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Unlike the larger machine, this pump uses solar power.",
+      "promptZh": "與較大型的機器不同,這個泵使用太陽能運作。",
+      "starter": "Unlike",
+      "answer": "Unlike the larger machine, this pump works off solar power.",
+      "answerZh": "與較大型的機器不同,這個泵由太陽能驅動。",
+      "highlight": "works off",
+      "targetForm": "work off something",
+      "targetMeaningZh": "由某種電源供電或運作"
+    },
+    {
+      "id": "phrasal-verb-147-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Before we book the room, we must determine how many chairs we need.",
+      "promptZh": "預訂房間前,我們必須算出需要多少張椅子。",
+      "starter": "Before",
+      "answer": "Before we book the room, we must work out how many chairs we need.",
+      "answerZh": "預訂房間前,我們必須算出需要多少張椅子。",
+      "highlight": "work out",
+      "targetForm": "work something out",
+      "targetMeaningZh": "算出、想出或找出答案"
+    },
+    {
+      "id": "phrasal-verb-147-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "The shop was quiet, but the baker continued working steadily in the kitchen, preparing the morning bread.",
+      "promptZh": "店舖很安靜,但麵包師仍在廚房埋頭準備早上的麵包。",
+      "starter": "The",
+      "answer": "The shop was quiet, but the baker worked away in the kitchen, preparing the morning bread.",
+      "answerZh": "店舖很安靜,但麵包師仍在廚房埋頭準備早上的麵包。",
+      "highlight": "worked away",
+      "targetForm": "work away (at something)",
+      "targetMeaningZh": "持續埋頭工作"
+    },
+    {
+      "id": "phrasal-verb-147-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Instead of cancelling the lesson, the teacher found a way to teach without the missing equipment by using paper models.",
+      "promptZh": "老師沒有取消課堂,而是用紙模型,在缺少器材的情況下繼續教學。",
+      "starter": "Instead",
+      "answer": "Instead of cancelling the lesson, the teacher worked round the lack of equipment by using paper models.",
+      "answerZh": "老師沒有取消課堂,而是用紙模型克服器材不足的問題。",
+      "highlight": "worked round",
+      "targetForm": "work around/round something",
+      "targetMeaningZh": "想辦法避開或克服問題"
+    },
+    {
+      "id": "phrasal-verb-147-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "The first idea failed, but the second one was more successful than we expected.",
+      "promptZh": "第一個主意失敗了,但第二個主意比我們預期中更成功。",
+      "starter": "The",
+      "answer": "The first idea failed, but the second one worked out better than we expected.",
+      "answerZh": "第一個主意失敗了,但第二個主意比我們預期中更成功。",
+      "highlight": "worked out better",
+      "targetForm": "work out",
+      "targetMeaningZh": "結果順利;成功"
+    },
+    {
+      "id": "phrasal-verb-147-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "After the argument, they sat down and discussed step by step what had gone wrong.",
+      "promptZh": "爭執過後,他們坐下來逐步討論究竟哪裏出了問題。",
+      "starter": "After",
+      "answer": "After the argument, they sat down and worked through what had gone wrong.",
+      "answerZh": "爭執過後,他們坐下來逐步討論究竟哪裏出了問題。",
+      "highlight": "worked through",
+      "targetForm": "work through something / work something through",
+      "targetMeaningZh": "逐步處理或仔細想清楚問題、工作或感受"
+    },
+    {
+      "id": "phrasal-verb-147-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "The singer began with small school events and slowly reached the point of performing in a large theatre.",
+      "promptZh": "這名歌手由小型學校活動開始,逐步提升至在大型劇院演出。",
+      "starter": "The",
+      "answer": "The singer began with small school events and worked up to a show in a large theatre.",
+      "answerZh": "這名歌手由小型學校活動開始,逐步提升至在大型劇院演出。",
+      "highlight": "worked up to a show",
+      "targetForm": "work up to something",
+      "targetMeaningZh": "逐步提升至較高程度或較難的目標"
+    },
+    {
+      "id": "phrasal-verb-147-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Use your fingers to mix the butter thoroughly into the flour.",
+      "promptZh": "用手指把牛油徹底混入麵粉中。",
+      "starter": "Use",
+      "answer": "Use your fingers to work the butter into the flour.",
+      "answerZh": "用手指把牛油揉入麵粉中。",
+      "highlight": "work",
+      "targetForm": "work something in / work something into something",
+      "targetMeaningZh": "把某事物加入並融入其中"
+    },
+    {
+      "id": "phrasal-verb-147-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The new timetable was meant to help parents, but its early start actually makes things harder for those who take young children to school.",
+      "promptZh": "新時間表原意是幫助家長,但提早開始其實令需要送年幼子女上學的家長更不方便。",
+      "starter": "The",
+      "answer": "The new timetable was meant to help parents, but its early start actually works against those who take young children to school.",
+      "answerZh": "新時間表原意是幫助家長,但提早開始其實對需要送年幼子女上學的家長不利。",
+      "highlight": "works against",
+      "targetForm": "work against somebody/something",
+      "targetMeaningZh": "對某人或某事不利;令成功變得更困難"
+    },
+    {
+      "id": "phrasal-verb-147-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "Instead of making a quick decision, the coach waited to see whether the difficulty would resolve itself.",
+      "promptZh": "教練沒有匆忙作決定,而是等待看看困難會否自行解決。",
+      "starter": "Instead",
+      "answer": "Instead of making a quick decision, the coach waited to see whether the difficulty would work itself out.",
+      "answerZh": "教練沒有匆忙作決定,而是等待看看困難會否自行解決。",
+      "highlight": "work",
+      "targetForm": "work itself out",
+      "targetMeaningZh": "問題自行解決"
+    },
+    {
+      "id": "phrasal-verb-147-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "At first, the quiet goalkeeper seemed difficult to understand, but the team soon understood him.",
+      "promptZh": "起初,這名沉默的守門員令人難以看懂,但球隊很快便了解他。",
+      "starter": "At",
+      "answer": "At first, the quiet goalkeeper seemed difficult to understand, but the team soon worked him out.",
+      "answerZh": "起初,這名沉默的守門員令人難以看懂,但球隊很快便了解他。",
+      "highlight": "worked",
+      "targetForm": "work somebody out",
+      "targetMeaningZh": "看懂或理解某人的性格、想法或行為"
+    },
+    {
+      "id": "phrasal-verb-147-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "After the long flight, the children ran around the park to spend their extra energy.",
+      "promptZh": "長途飛行後,孩子們在公園四處跑,以消耗多餘精力。",
+      "starter": "After",
+      "answer": "After the long flight, the children ran around the park to work off their extra energy.",
+      "answerZh": "長途飛行後,孩子們在公園四處跑,以消耗多餘精力。",
+      "highlight": "work off",
+      "targetForm": "work something off",
+      "targetMeaningZh": "透過活動消耗或減輕某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The kitchen staff follow strict safety rules every day.",
+      "promptZh": "廚房員工每天都按照嚴格的安全規則工作。",
+      "starter": "The",
+      "answer": "The kitchen staff work to strict safety rules every day.",
+      "answerZh": "廚房員工每天都按照嚴格的安全規則工作。",
+      "highlight": "work to",
+      "targetForm": "work to something",
+      "targetMeaningZh": "按照時間表、計劃、限額或標準工作"
+    },
+    {
+      "id": "phrasal-verb-147-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "There was no real danger, but the rumour made everyone increasingly worried before the school trip.",
+      "promptZh": "其實並沒有真正危險,但謠言令所有人在學校旅行前愈來愈擔心。",
+      "starter": "There",
+      "answer": "There was no real danger, but the rumour worked everyone up before the school trip.",
+      "answerZh": "其實並沒有真正危險,但謠言令所有人在學校旅行前愈來愈擔心。",
+      "highlight": "worked",
+      "targetForm": "work somebody/yourself up (into something) / work yourself into something",
+      "targetMeaningZh": "令某人或自己愈來愈激動、緊張或生氣"
+    },
+    {
+      "id": "phrasal-verb-147-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The club is preparing a simple guide for new members.",
+      "promptZh": "社團正準備一份給新會員的簡單指南。",
+      "starter": "The",
+      "answer": "The club is working on a simple guide for new members.",
+      "answerZh": "社團正製作一份給新會員的簡單指南。",
+      "highlight": "working on",
+      "targetForm": "work on something",
+      "targetMeaningZh": "花時間製作、改善或修理某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "To finish the decorations before the doors opened, the volunteers continued working without stopping until early morning.",
+      "promptZh": "為了在開門前完成佈置,義工不停工作至清晨。",
+      "starter": "To",
+      "answer": "To finish the decorations before the doors opened, the volunteers worked through until early morning.",
+      "answerZh": "為了在開門前完成佈置,義工不停工作至清晨。",
+      "highlight": "worked through",
+      "targetForm": "work through",
+      "targetMeaningZh": "持續工作至某個時間,中途不停下來"
+    },
+    {
+      "id": "phrasal-verb-147-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "The class made an effort to use clearer examples instead of longer explanations.",
+      "promptZh": "全班努力使用更清楚的例子,而不是更長的解釋。",
+      "starter": "The",
+      "answer": "The class worked at using clearer examples instead of longer explanations.",
+      "answerZh": "全班努力使用更清楚的例子,而不是更長的解釋。",
+      "highlight": "worked at using",
+      "targetForm": "work at something / work at doing something",
+      "targetMeaningZh": "努力改善或做好某事"
+    },
+    {
+      "id": "phrasal-verb-147-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "Although the system looks fair, asking everyone to apply online puts people without easy internet access at a disadvantage.",
+      "promptZh": "雖然這個制度看似公平,但要求所有人在網上申請,會令不容易上網的人處於不利位置。",
+      "starter": "Although",
+      "answer": "Although the system looks fair, asking everyone to apply online works against people without easy internet access.",
+      "answerZh": "雖然這個制度看似公平,但要求所有人在網上申請,會對不容易上網的人不利。",
+      "highlight": "works against",
+      "targetForm": "work against somebody/something",
+      "targetMeaningZh": "對某人或某事不利;令成功變得更困難"
+    },
+    {
+      "id": "phrasal-verb-147-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "The storm delayed the repairs, so the team continued working throughout the night to make the road safe by morning.",
+      "promptZh": "暴風雨延誤了維修工作,所以團隊整夜不停工作,務求在早上前令道路安全。",
+      "starter": "The",
+      "answer": "The storm delayed the repairs, so the team worked through the night to make the road safe by morning.",
+      "answerZh": "暴風雨延誤了維修工作,所以團隊整夜不停工作,務求在早上前令道路安全。",
+      "highlight": "worked through",
+      "targetForm": "work through",
+      "targetMeaningZh": "持續工作至某個時間,中途不停下來"
+    },
+    {
+      "id": "phrasal-verb-147-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "By imagining every possible problem, Ella made herself so worried that she could not sleep.",
+      "promptZh": "埃拉想像所有可能出現的問題,令自己擔心得無法入睡。",
+      "starter": "By",
+      "answer": "By imagining every possible problem, Ella worked herself up into such a state that she could not sleep.",
+      "answerZh": "埃拉想像所有可能出現的問題,令自己擔心得無法入睡。",
+      "highlight": "worked",
+      "targetForm": "work somebody/yourself up (into something) / work yourself into something",
+      "targetMeaningZh": "令某人或自己愈來愈激動、緊張或生氣"
+    },
+    {
+      "id": "phrasal-verb-147-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Because the first version confused readers, the team is preparing a clearer set of instructions.",
+      "promptZh": "由於第一個版本令讀者感到困惑,團隊正準備一套更清楚的指示。",
+      "starter": "Because",
+      "answer": "Because the first version confused readers, the team is working on a clearer set of instructions.",
+      "answerZh": "由於第一個版本令讀者感到困惑,團隊正製作一套更清楚的指示。",
+      "highlight": "working on",
+      "targetForm": "work on something",
+      "targetMeaningZh": "花時間製作、改善或修理某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "After months of short runs, Priya had slowly reached the point where she could run fifteen kilometres without stopping.",
+      "promptZh": "經過數月短途跑步後,普里雅已逐步提升至可以不停跑十五公里。",
+      "starter": "After",
+      "answer": "After months of short runs, Priya had worked up to running fifteen kilometres without stopping.",
+      "answerZh": "經過數月短途跑步後,普里雅已逐步提升至可以不停跑十五公里。",
+      "highlight": "worked up to running",
+      "targetForm": "work up to something",
+      "targetMeaningZh": "逐步提升至較高程度或較難的目標"
+    },
+    {
+      "id": "phrasal-verb-147-q86",
+      "number": 86,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "The hall was too small for one large meeting, so the organisers found a solution by holding two shorter sessions.",
+      "promptZh": "禮堂太小,無法舉行一場大型會議,所以主辦單位改為舉行兩場較短的會議來解決問題。",
+      "starter": "The",
+      "answer": "The hall was too small for one large meeting, so the organisers worked around the problem by holding two shorter sessions.",
+      "answerZh": "禮堂太小,無法舉行一場大型會議,所以主辦單位改為舉行兩場較短的會議來解決問題。",
+      "highlight": "worked around the problem",
+      "targetForm": "work around/round something",
+      "targetMeaningZh": "想辦法避開或克服問題"
+    },
+    {
+      "id": "phrasal-verb-147-q87",
+      "number": 87,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Because the hall must open on Friday, every team is following the same deadline and cannot lose a day.",
+      "promptZh": "由於禮堂必須在星期五開放,每個團隊都按照同一限期工作,不能浪費一天。",
+      "starter": "Because",
+      "answer": "Because the hall must open on Friday, every team is working to the same deadline and cannot lose a day.",
+      "answerZh": "由於禮堂必須在星期五開放,每個團隊都按照同一限期工作,不能浪費一天。",
+      "highlight": "working to",
+      "targetForm": "work to something",
+      "targetMeaningZh": "按照時間表、計劃、限額或標準工作"
+    },
+    {
+      "id": "phrasal-verb-147-q88",
+      "number": 88,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Kai says very little and often changes his mind, so even his close friends do not completely understand him.",
+      "promptZh": "啟很少說話,而且經常改變主意,所以即使是他的好友也未能完全看懂他。",
+      "starter": "Kai",
+      "answer": "Kai says very little and often changes his mind, so even his close friends have not completely worked him out.",
+      "answerZh": "啟很少說話,而且經常改變主意,所以即使是他的好友也未能完全看懂他。",
+      "highlight": "have",
+      "targetForm": "work somebody out",
+      "targetMeaningZh": "看懂或理解某人的性格、想法或行為"
+    },
+    {
+      "id": "phrasal-verb-147-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Even after the library had almost emptied, two students were still busy with their project near the window.",
+      "promptZh": "即使圖書館幾乎已空無一人,兩名學生仍在窗邊忙着做專題。",
+      "starter": "Even",
+      "answer": "Even after the library had almost emptied, two students were still working away at their project near the window.",
+      "answerZh": "即使圖書館幾乎已空無一人,兩名學生仍在窗邊埋頭做專題。",
+      "highlight": "working away at",
+      "targetForm": "work away (at something)",
+      "targetMeaningZh": "持續埋頭工作"
+    },
+    {
+      "id": "phrasal-verb-147-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Rather than argue while he was still upset, Marcus cleaned the kitchen to reduce his anger.",
+      "promptZh": "馬庫斯仍然不高興,所以沒有與人爭吵,而是清潔廚房來消除怒氣。",
+      "starter": "Rather",
+      "answer": "Rather than argue while he was still upset, Marcus cleaned the kitchen to work off his anger.",
+      "answerZh": "馬庫斯仍然不高興,所以沒有與人爭吵,而是清潔廚房來消除怒氣。",
+      "highlight": "work off",
+      "targetForm": "work something off",
+      "targetMeaningZh": "透過活動消耗或減輕某事物"
+    },
+    {
+      "id": "phrasal-verb-147-q91",
+      "number": 91,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "We changed the order of the activities at the last minute, yet everything was successful and the guests enjoyed the evening.",
+      "promptZh": "我們在最後一刻更改了活動次序,但一切仍然順利,賓客也享受了整個晚上。",
+      "starter": "We",
+      "answer": "We changed the order of the activities at the last minute, yet everything worked out and the guests enjoyed the evening.",
+      "answerZh": "我們在最後一刻更改了活動次序,但一切仍然順利,賓客也享受了整個晚上。",
+      "highlight": "worked out",
+      "targetForm": "work out",
+      "targetMeaningZh": "結果順利;成功"
+    },
+    {
+      "id": "phrasal-verb-147-q92",
+      "number": 92,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "Everyone knew the budget was the real issue, but the chair spent twenty minutes on minor points before finally turning to it.",
+      "promptZh": "人人都知道預算才是真正問題,但主席先花了二十分鐘討論小事,最後才轉到這個話題。",
+      "starter": "Everyone",
+      "answer": "Everyone knew the budget was the real issue, but the chair spent twenty minutes on minor points before working round to it.",
+      "answerZh": "人人都知道預算才是真正問題,但主席先花了二十分鐘討論小事,最後才把話題轉到預算。",
+      "highlight": "working round",
+      "targetForm": "work around/round to something",
+      "targetMeaningZh": "最終把話題轉到某事;最終開始處理某事"
+    },
+    {
+      "id": "phrasal-verb-147-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The timetable was already crowded, but the organiser included a ten-minute safety check in the morning programme.",
+      "promptZh": "時間表本來已排得很滿,但主辦人仍在早上節目中加入了十分鐘的安全檢查。",
+      "starter": "The",
+      "answer": "The timetable was already crowded, but the organiser worked a ten-minute safety check into the morning programme.",
+      "answerZh": "時間表本來已排得很滿,但主辦人仍在早上節目中加入了十分鐘的安全檢查。",
+      "highlight": "worked",
+      "targetForm": "work something in / work something into something",
+      "targetMeaningZh": "把某事物加入並融入其中"
+    },
+    {
+      "id": "phrasal-verb-147-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "Both friends were angry after the match, but after a day apart the problem resolved itself and they began speaking again.",
+      "promptZh": "比賽後兩位朋友都很生氣,但分開一天後,問題自行解決了,他們也再次交談。",
+      "starter": "Both",
+      "answer": "Both friends were angry after the match, but after a day apart the problem worked itself out and they began speaking again.",
+      "answerZh": "比賽後兩位朋友都很生氣,但分開一天後,問題自行解決了,他們也再次交談。",
+      "highlight": "worked",
+      "targetForm": "work itself out",
+      "targetMeaningZh": "問題自行解決"
+    },
+    {
+      "id": "phrasal-verb-147-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The class wanted a later deadline, and they finally persuaded the teacher after asking him several times.",
+      "promptZh": "全班希望延遲限期,經過多次請求後,終於說服了老師。",
+      "starter": "The",
+      "answer": "The class wanted a later deadline, and they finally worked on the teacher until he agreed to one more day.",
+      "answerZh": "全班希望延遲限期,並一直設法說服老師,直至他同意多給一天。",
+      "highlight": "worked on",
+      "targetForm": "work on somebody",
+      "targetMeaningZh": "設法說服某人"
+    },
+    {
+      "id": "phrasal-verb-147-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Losing the final still hurt, but talking each week helped him deal with his feelings instead of hiding them.",
+      "promptZh": "輸掉決賽仍令他難受,但每星期交談幫助他逐步處理自己的感受,而不是把它們隱藏起來。",
+      "starter": "Losing",
+      "answer": "Losing the final still hurt, but talking each week helped him work through his feelings instead of hiding them.",
+      "answerZh": "輸掉決賽仍令他難受,但每星期交談幫助他逐步處理自己的感受,而不是把它們隱藏起來。",
+      "highlight": "work through",
+      "targetForm": "work through something / work something through",
+      "targetMeaningZh": "逐步處理或仔細想清楚問題、工作或感受"
+    },
+    {
+      "id": "phrasal-verb-147-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "Although the first practice speech went badly, Jai kept making an effort to speak slowly and clearly until he felt more confident.",
+      "promptZh": "雖然第一次演講練習表現不佳,但傑仍努力練習慢慢而清楚地說話,直至更有信心。",
+      "starter": "Although",
+      "answer": "Although the first practice speech went badly, Jai kept working at speaking slowly and clearly until he felt more confident.",
+      "answerZh": "雖然第一次演講練習表現不佳,但傑仍努力練習慢慢而清楚地說話,直至更有信心。",
+      "highlight": "working at speaking",
+      "targetForm": "work at something / work at doing something",
+      "targetMeaningZh": "努力改善或做好某事"
+    },
+    {
+      "id": "phrasal-verb-147-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "The campsite has no wall sockets, so the cooker must use a portable battery for power.",
+      "promptZh": "營地沒有牆上插座,所以煮食爐必須使用便攜式電池供電。",
+      "starter": "The",
+      "answer": "The campsite has no wall sockets, so the cooker must work off a portable battery.",
+      "answerZh": "營地沒有牆上插座,所以煮食爐必須由便攜式電池供電。",
+      "highlight": "work off",
+      "targetForm": "work off something",
+      "targetMeaningZh": "由某種電源供電或運作"
+    },
+    {
+      "id": "phrasal-verb-147-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "Nervous about calling the manager, Ben walked around the room until he had developed enough courage to dial the number.",
+      "promptZh": "賓因為要致電經理而感到緊張,在房間裏來回走動,直至鼓起足夠勇氣撥號。",
+      "starter": "Nervous",
+      "answer": "Nervous about calling the manager, Ben walked around the room until he had worked up enough courage to dial the number.",
+      "answerZh": "賓因為要致電經理而感到緊張,在房間裏來回走動,直至鼓起足夠勇氣撥號。",
+      "highlight": "worked up",
+      "targetForm": "work something up",
+      "targetMeaningZh": "逐漸產生食慾、勇氣、興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-147-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "The map showed three possible routes, so the group stopped to determine which one would take the least time.",
+      "promptZh": "地圖顯示三條可能路線,所以一行人停下來判斷哪一條所需時間最短。",
+      "starter": "The",
+      "answer": "The map showed three possible routes, so the group stopped to work out which one would take the least time.",
+      "answerZh": "地圖顯示三條可能路線,所以一行人停下來判斷哪一條所需時間最短。",
+      "highlight": "work out",
+      "targetForm": "work something out",
+      "targetMeaningZh": "算出、想出或找出答案"
+    }
+  ]
+}

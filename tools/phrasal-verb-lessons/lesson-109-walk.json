@@ -1,0 +1,2100 @@
+{
+  "id": "phrasal-verb-109",
+  "order": 109,
+  "slug": "walk",
+  "version": "1",
+  "title": "WALK 動詞片語",
+  "titleEn": "Walk",
+  "titleZh": "WALK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 13,
+  "source": {
+    "file": "Phrasal Verbs 108 - WALK.pdf",
+    "sourceNumber": 108,
+    "pageCount": 32,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerKeyPdfPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WALK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WALK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WALK",
+      "highlight": "WALK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "You cannot walk away from every difficult decision.",
+      "zh": "你不能逃避每一個困難決定。",
+      "highlight": "walk away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The twins walked away with both prizes.",
+      "zh": "那對雙胞胎輕易贏得了兩個獎項。",
+      "highlight": "walked away with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I walked in on them during a private call.",
+      "zh": "他們正在進行私人通話時,我意外闖了進去。",
+      "highlight": "walked in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "離開困難處境或關係,不留下來處理；輕易贏得或取得某物；在對方沒有預期時,意外闖入私人情況；走路時因沒有看見而撞上某人或某物；因沒有小心避開而陷入麻煩或圈套；因生氣或不快而突然離開；用走路減輕飽滯或其他不適；拿走不屬於自己的東西；突然離開會議、表演等,以表示不滿；不顧某人的需要,任意欺負或佔便宜；以簡單動作和位置排練表演;較常見於美式英語；逐步向某人講解或示範；走近某人或某物,通常帶有明確目的",
+    "en": "walk away (from somebody/something); walk away/off with something; walk in on somebody/something; walk into somebody/something; walk into something; walk off; walk something off; walk off with something; walk out (of something); walk (all) over somebody; walk through something; walk somebody through something; walk up (to somebody/something)",
+    "naturalZh": [
+      "離開困難處境或關係,不留下來處理",
+      "輕易贏得或取得某物",
+      "在對方沒有預期時,意外闖入私人情況",
+      "走路時因沒有看見而撞上某人或某物",
+      "因沒有小心避開而陷入麻煩或圈套",
+      "因生氣或不快而突然離開",
+      "用走路減輕飽滯或其他不適",
+      "拿走不屬於自己的東西",
+      "突然離開會議、表演等,以表示不滿",
+      "不顧某人的需要,任意欺負或佔便宜",
+      "以簡單動作和位置排練表演;較常見於美式英語",
+      "逐步向某人講解或示範",
+      "走近某人或某物,通常帶有明確目的"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "walk away (from somebody/something)",
+      "titleZh": "離開困難處境或關係,不留下來處理",
+      "titleEn": "walk away (from somebody/something)",
+      "descriptionZh": "離開困難處境或關係,不留下來處理",
+      "descriptionEn": "You cannot walk away from every difficult decision.",
+      "examples": [
+        {
+          "en": "You cannot walk away from every difficult decision.",
+          "zh": "你不能逃避每一個困難決定。",
+          "highlight": "walk away from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk away/off with something",
+      "titleZh": "輕易贏得或取得某物",
+      "titleEn": "walk away/off with something",
+      "descriptionZh": "輕易贏得或取得某物",
+      "descriptionEn": "The twins walked away with both prizes.",
+      "examples": [
+        {
+          "en": "The twins walked away with both prizes.",
+          "zh": "那對雙胞胎輕易贏得了兩個獎項。",
+          "highlight": "walked away with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk in on somebody/something",
+      "titleZh": "在對方沒有預期時,意外闖入私人情況",
+      "titleEn": "walk in on somebody/something",
+      "descriptionZh": "在對方沒有預期時,意外闖入私人情況",
+      "descriptionEn": "I walked in on them during a private call.",
+      "examples": [
+        {
+          "en": "I walked in on them during a private call.",
+          "zh": "他們正在進行私人通話時,我意外闖了進去。",
+          "highlight": "walked in on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk into somebody/something",
+      "titleZh": "走路時因沒有看見而撞上某人或某物",
+      "titleEn": "walk into somebody/something",
+      "descriptionZh": "走路時因沒有看見而撞上某人或某物",
+      "descriptionEn": "He nearly walked into the door.",
+      "examples": [
+        {
+          "en": "He nearly walked into the door.",
+          "zh": "他差點撞上那道門。",
+          "highlight": "walked into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk into something",
+      "titleZh": "因沒有小心避開而陷入麻煩或圈套",
+      "titleEn": "walk into something",
+      "descriptionZh": "因沒有小心避開而陷入麻煩或圈套",
+      "descriptionEn": "We realised too late that we had walked into a trap.",
+      "examples": [
+        {
+          "en": "We realised too late that we had walked into a trap.",
+          "zh": "我們太遲才發現自己已跌入圈套。",
+          "highlight": "walked into"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk off",
+      "titleZh": "因生氣或不快而突然離開",
+      "titleEn": "walk off",
+      "descriptionZh": "因生氣或不快而突然離開",
+      "descriptionEn": "She became angry and walked off.",
+      "examples": [
+        {
+          "en": "She became angry and walked off.",
+          "zh": "她生氣了,突然轉身離開。",
+          "highlight": "walked off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk something off",
+      "titleZh": "用走路減輕飽滯或其他不適",
+      "titleEn": "walk something off",
+      "descriptionZh": "用走路減輕飽滯或其他不適",
+      "descriptionEn": "Let’s walk off that large lunch.",
+      "examples": [
+        {
+          "en": "Let’s walk off that large lunch.",
+          "zh": "我們散步消化那頓豐富的午餐吧。",
+          "highlight": "walk off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "walk off with something",
+      "titleZh": "拿走不屬於自己的東西",
+      "titleEn": "walk off with something",
+      "descriptionZh": "拿走不屬於自己的東西",
+      "descriptionEn": "Someone walked off with my coat.",
+      "examples": [
+        {
+          "en": "Someone walked off with my coat.",
+          "zh": "有人拿走了我的外套。",
+          "highlight": "walked off with"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "walk out (of something)",
+      "titleZh": "突然離開會議、表演等,以表示不滿",
+      "titleEn": "walk out (of something)",
+      "descriptionZh": "突然離開會議、表演等,以表示不滿",
+      "descriptionEn": "Two guests walked out of the talk in protest.",
+      "examples": [
+        {
+          "en": "Two guests walked out of the talk in protest.",
+          "zh": "兩名賓客離開講座,以示抗議。",
+          "highlight": "walked out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "walk (all) over somebody",
+      "titleZh": "不顧某人的需要,任意欺負或佔便宜",
+      "titleEn": "walk (all) over somebody",
+      "descriptionZh": "不顧某人的需要,任意欺負或佔便宜",
+      "descriptionEn": "His teammates keep walking all over him.",
+      "examples": [
+        {
+          "en": "His teammates keep walking all over him.",
+          "zh": "他的隊友不斷欺負他。",
+          "highlight": "walking all over"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "walk through something",
+      "titleZh": "以簡單動作和位置排練表演;較常見於美式英語",
+      "titleEn": "walk through something",
+      "descriptionZh": "以簡單動作和位置排練表演;較常見於美式英語",
+      "descriptionEn": "The dancers walked through the routine before lunch.",
+      "examples": [
+        {
+          "en": "The dancers walked through the routine before lunch.",
+          "zh": "舞蹈員在午餐前簡單排練了整套動作。",
+          "highlight": "walked through"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "walk somebody through something",
+      "titleZh": "逐步向某人講解或示範",
+      "titleEn": "walk somebody through something",
+      "descriptionZh": "逐步向某人講解或示範",
+      "descriptionEn": "She walked me through the new app.",
+      "examples": [
+        {
+          "en": "She walked me through the new app.",
+          "zh": "她逐步向我講解這個新應用程式。",
+          "highlight": "walked me through"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "walk up (to somebody/something)",
+      "titleZh": "走近某人或某物,通常帶有明確目的",
+      "titleEn": "walk up (to somebody/something)",
+      "descriptionZh": "走近某人或某物,通常帶有明確目的",
+      "descriptionEn": "He walked up to the counter and asked a question.",
+      "examples": [
+        {
+          "en": "He walked up to the counter and asked a question.",
+          "zh": "他走到櫃台前問了一個問題。",
+          "highlight": "walked up to"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WALK 片語動詞的實際用途",
+    "labelEn": "WALK Phrasal Verbs in Use",
+    "summaryZh": "walk away、walk off 和 walk out 可以表達不同的離開原因和方式。；walk off with a prize 表示輕易得獎;walk off with somebody’s phone 則表示未經許可拿走別人的電話。；你可以分辨撞上門、跌入圈套,以及走近某人等不同情況。；你可以用 walk through a scene 表示簡單排練,也可以用 walk somebody through a process 表示逐步講解流程。",
+    "summaryEn": "movement Walk away, walk off and walk out express different reasons and ways of leaving. Walk off with a prize means winning it easily, but walk off with somebody’s phone means taking it without permission. You can distinguish walking into a door, walking into a trap and walking up to a person. You can walk through a scene during a simple rehearsal or walk somebody through a process by explaining each stage.",
+    "contextsZh": [
+      "WALK 不只描述步行,也能描述選擇和反應",
+      "理解相同字詞所表達的不同意思",
+      "準確描述移動、失誤和危險",
+      "自然描述排練和逐步指導"
+    ],
+    "contextsEn": [
+      "Use WALK to describe choices and reactions, not only physical",
+      "Understand identical words with very different meanings",
+      "Talk precisely about movement, mistakes and danger",
+      "Explain practice and step-by-step guidance naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WALK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WALK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "walk away (from somebody/something)",
+    "fixedHighlight": "walk away (from somebody/something)",
+    "fixedZh": "閱讀整句,選出意思相同的 WALK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WALK expression that gives the same meaning.",
+    "correct": "walk away from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；walk off with something 可以表示輕易贏得某物,也可以表示未經許可拿走某物。請仔細閱讀整個情境。；from 和 to 只在句子需要時才加入。比較:walk away / walk away from the problem;walkup / walk up to the desk。",
+    "variableEn": "Keep the same people, things, time and meaning. Walk off with something can mean winning something easily or taking something without permission. Read the full situation carefully. Words such as from and to are added only when the sentence needs them. Compare: walk away / walk away from the problem; walk up / walk up to the desk.",
+    "variableItemsZh": [
+      "walk away (from somebody/something)",
+      "walk away/off with something",
+      "walk in on somebody/something",
+      "walk into somebody/something",
+      "walk into something",
+      "walk off",
+      "walk something off",
+      "walk off with something",
+      "walk out (of something)",
+      "walk (all) over somebody",
+      "walk through something",
+      "walk somebody through something",
+      "walk up (to somebody/something)"
+    ],
+    "variableItemsEn": [
+      "walk away (from somebody/something)",
+      "walk away/off with something",
+      "walk in on somebody/something",
+      "walk into somebody/something",
+      "walk into something",
+      "walk off",
+      "walk something off",
+      "walk off with something",
+      "walk out (of something)",
+      "walk (all) over somebody",
+      "walk through something",
+      "walk somebody through something",
+      "walk up (to somebody/something)"
+    ],
+    "forms": [
+      {
+        "formZh": "離開困難處境或關係,不留下來處理",
+        "formEn": "walk away (from somebody/something)",
+        "exampleZh": "你不能逃避每一個困難決定。",
+        "exampleEn": "You cannot walk away from every difficult decision.",
+        "highlight": "walk away from"
+      },
+      {
+        "formZh": "輕易贏得或取得某物",
+        "formEn": "walk away/off with something",
+        "exampleZh": "那對雙胞胎輕易贏得了兩個獎項。",
+        "exampleEn": "The twins walked away with both prizes.",
+        "highlight": "walked away with"
+      },
+      {
+        "formZh": "在對方沒有預期時,意外闖入私人情況",
+        "formEn": "walk in on somebody/something",
+        "exampleZh": "他們正在進行私人通話時,我意外闖了進去。",
+        "exampleEn": "I walked in on them during a private call.",
+        "highlight": "walked in on"
+      },
+      {
+        "formZh": "走路時因沒有看見而撞上某人或某物",
+        "formEn": "walk into somebody/something",
+        "exampleZh": "他差點撞上那道門。",
+        "exampleEn": "He nearly walked into the door.",
+        "highlight": "walked into"
+      },
+      {
+        "formZh": "因沒有小心避開而陷入麻煩或圈套",
+        "formEn": "walk into something",
+        "exampleZh": "我們太遲才發現自己已跌入圈套。",
+        "exampleEn": "We realised too late that we had walked into a trap.",
+        "highlight": "walked into"
+      },
+      {
+        "formZh": "因生氣或不快而突然離開",
+        "formEn": "walk off",
+        "exampleZh": "她生氣了,突然轉身離開。",
+        "exampleEn": "She became angry and walked off.",
+        "highlight": "walked off"
+      },
+      {
+        "formZh": "用走路減輕飽滯或其他不適",
+        "formEn": "walk something off",
+        "exampleZh": "我們散步消化那頓豐富的午餐吧。",
+        "exampleEn": "Let’s walk off that large lunch.",
+        "highlight": "walk off"
+      },
+      {
+        "formZh": "拿走不屬於自己的東西",
+        "formEn": "walk off with something",
+        "exampleZh": "有人拿走了我的外套。",
+        "exampleEn": "Someone walked off with my coat.",
+        "highlight": "walked off with"
+      },
+      {
+        "formZh": "突然離開會議、表演等,以表示不滿",
+        "formEn": "walk out (of something)",
+        "exampleZh": "兩名賓客離開講座,以示抗議。",
+        "exampleEn": "Two guests walked out of the talk in protest.",
+        "highlight": "walked out"
+      },
+      {
+        "formZh": "不顧某人的需要,任意欺負或佔便宜",
+        "formEn": "walk (all) over somebody",
+        "exampleZh": "他的隊友不斷欺負他。",
+        "exampleEn": "His teammates keep walking all over him.",
+        "highlight": "walking all over"
+      },
+      {
+        "formZh": "以簡單動作和位置排練表演;較常見於美式英語",
+        "formEn": "walk through something",
+        "exampleZh": "舞蹈員在午餐前簡單排練了整套動作。",
+        "exampleEn": "The dancers walked through the routine before lunch.",
+        "highlight": "walked through"
+      },
+      {
+        "formZh": "逐步向某人講解或示範",
+        "formEn": "walk somebody through something",
+        "exampleZh": "她逐步向我講解這個新應用程式。",
+        "exampleEn": "She walked me through the new app.",
+        "highlight": "walked me through"
+      },
+      {
+        "formZh": "走近某人或某物,通常帶有明確目的",
+        "formEn": "walk up (to somebody/something)",
+        "exampleZh": "他走到櫃台前問了一個問題。",
+        "exampleEn": "He walked up to the counter and asked a question.",
+        "highlight": "walked up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "離開困難處境或關係,不留下來處理",
+      "titleEn": "walk away (from somebody/something)",
+      "formula": "walk away (from somebody/something)",
+      "highlight": "walk away (from somebody/something)",
+      "descriptionZh": "離開困難處境或關係,不留下來處理",
+      "descriptionEn": "You cannot walk away from every difficult decision.",
+      "examples": [
+        {
+          "en": "You cannot walk away from every difficult decision.",
+          "zh": "你不能逃避每一個困難決定。",
+          "highlight": "walk away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "輕易贏得或取得某物",
+      "titleEn": "walk away/off with something",
+      "formula": "walk away/off with something",
+      "highlight": "walk away/off with something",
+      "descriptionZh": "輕易贏得或取得某物",
+      "descriptionEn": "The twins walked away with both prizes.",
+      "examples": [
+        {
+          "en": "The twins walked away with both prizes.",
+          "zh": "那對雙胞胎輕易贏得了兩個獎項。",
+          "highlight": "walked away with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在對方沒有預期時,意外闖入私人情況",
+      "titleEn": "walk in on somebody/something",
+      "formula": "walk in on somebody/something",
+      "highlight": "walk in on somebody/something",
+      "descriptionZh": "在對方沒有預期時,意外闖入私人情況",
+      "descriptionEn": "I walked in on them during a private call.",
+      "examples": [
+        {
+          "en": "I walked in on them during a private call.",
+          "zh": "他們正在進行私人通話時,我意外闖了進去。",
+          "highlight": "walked in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "走路時因沒有看見而撞上某人或某物",
+      "titleEn": "walk into somebody/something",
+      "formula": "walk into somebody/something",
+      "highlight": "walk into somebody/something",
+      "descriptionZh": "走路時因沒有看見而撞上某人或某物",
+      "descriptionEn": "He nearly walked into the door.",
+      "examples": [
+        {
+          "en": "He nearly walked into the door.",
+          "zh": "他差點撞上那道門。",
+          "highlight": "walked into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因沒有小心避開而陷入麻煩或圈套",
+      "titleEn": "walk into something",
+      "formula": "walk into something",
+      "highlight": "walk into something",
+      "descriptionZh": "因沒有小心避開而陷入麻煩或圈套",
+      "descriptionEn": "We realised too late that we had walked into a trap.",
+      "examples": [
+        {
+          "en": "We realised too late that we had walked into a trap.",
+          "zh": "我們太遲才發現自己已跌入圈套。",
+          "highlight": "walked into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "因生氣或不快而突然離開",
+      "titleEn": "walk off",
+      "formula": "walk off",
+      "highlight": "walk off",
+      "descriptionZh": "因生氣或不快而突然離開",
+      "descriptionEn": "She became angry and walked off.",
+      "examples": [
+        {
+          "en": "She became angry and walked off.",
+          "zh": "她生氣了,突然轉身離開。",
+          "highlight": "walked off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用走路減輕飽滯或其他不適",
+      "titleEn": "walk something off",
+      "formula": "walk something off",
+      "highlight": "walk something off",
+      "descriptionZh": "用走路減輕飽滯或其他不適",
+      "descriptionEn": "Let’s walk off that large lunch.",
+      "examples": [
+        {
+          "en": "Let’s walk off that large lunch.",
+          "zh": "我們散步消化那頓豐富的午餐吧。",
+          "highlight": "walk off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "拿走不屬於自己的東西",
+      "titleEn": "walk off with something",
+      "formula": "walk off with something",
+      "highlight": "walk off with something",
+      "descriptionZh": "拿走不屬於自己的東西",
+      "descriptionEn": "Someone walked off with my coat.",
+      "examples": [
+        {
+          "en": "Someone walked off with my coat.",
+          "zh": "有人拿走了我的外套。",
+          "highlight": "walked off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "突然離開會議、表演等,以表示不滿",
+      "titleEn": "walk out (of something)",
+      "formula": "walk out (of something)",
+      "highlight": "walk out (of something)",
+      "descriptionZh": "突然離開會議、表演等,以表示不滿",
+      "descriptionEn": "Two guests walked out of the talk in protest.",
+      "examples": [
+        {
+          "en": "Two guests walked out of the talk in protest.",
+          "zh": "兩名賓客離開講座,以示抗議。",
+          "highlight": "walked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "不顧某人的需要,任意欺負或佔便宜",
+      "titleEn": "walk (all) over somebody",
+      "formula": "walk (all) over somebody",
+      "highlight": "walk (all) over somebody",
+      "descriptionZh": "不顧某人的需要,任意欺負或佔便宜",
+      "descriptionEn": "His teammates keep walking all over him.",
+      "examples": [
+        {
+          "en": "His teammates keep walking all over him.",
+          "zh": "他的隊友不斷欺負他。",
+          "highlight": "walking all over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "以簡單動作和位置排練表演;較常見於美式英語",
+      "titleEn": "walk through something",
+      "formula": "walk through something",
+      "highlight": "walk through something",
+      "descriptionZh": "以簡單動作和位置排練表演;較常見於美式英語",
+      "descriptionEn": "The dancers walked through the routine before lunch.",
+      "examples": [
+        {
+          "en": "The dancers walked through the routine before lunch.",
+          "zh": "舞蹈員在午餐前簡單排練了整套動作。",
+          "highlight": "walked through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "逐步向某人講解或示範",
+      "titleEn": "walk somebody through something",
+      "formula": "walk somebody through something",
+      "highlight": "walk somebody through something",
+      "descriptionZh": "逐步向某人講解或示範",
+      "descriptionEn": "She walked me through the new app.",
+      "examples": [
+        {
+          "en": "She walked me through the new app.",
+          "zh": "她逐步向我講解這個新應用程式。",
+          "highlight": "walked me through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "走近某人或某物,通常帶有明確目的",
+      "titleEn": "walk up (to somebody/something)",
+      "formula": "walk up (to somebody/something)",
+      "highlight": "walk up (to somebody/something)",
+      "descriptionZh": "走近某人或某物,通常帶有明確目的",
+      "descriptionEn": "He walked up to the counter and asked a question.",
+      "examples": [
+        {
+          "en": "He walked up to the counter and asked a question.",
+          "zh": "他走到櫃台前問了一個問題。",
+          "highlight": "walked up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "WALK 不只描述步行,也能描述選擇和反應",
+      "titleEn": "Use WALK to describe choices and reactions, not only physical",
+      "zh": "walk away、walk off 和 walk out 可以表達不同的離開原因和方式。",
+      "en": "movement Walk away, walk off and walk out express different reasons and ways of leaving."
+    },
+    {
+      "titleZh": "理解相同字詞所表達的不同意思",
+      "titleEn": "Understand identical words with very different meanings",
+      "zh": "walk off with a prize 表示輕易得獎;walk off with somebody’s phone 則表示未經許可拿走別人的電話。",
+      "en": "Walk off with a prize means winning it easily, but walk off with somebody’s phone means taking it without permission."
+    },
+    {
+      "titleZh": "準確描述移動、失誤和危險",
+      "titleEn": "Talk precisely about movement, mistakes and danger",
+      "zh": "你可以分辨撞上門、跌入圈套,以及走近某人等不同情況。",
+      "en": "You can distinguish walking into a door, walking into a trap and walking up to a person."
+    },
+    {
+      "titleZh": "自然描述排練和逐步指導",
+      "titleEn": "Explain practice and step-by-step guidance naturally",
+      "zh": "你可以用 walk through a scene 表示簡單排練,也可以用 walk somebody through a process 表示逐步講解流程。",
+      "en": "You can walk through a scene during a simple rehearsal or walk somebody through a process by explaining each stage."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "WALK 不只描述步行,也能描述選擇和反應",
+      "理解相同字詞所表達的不同意思",
+      "準確描述移動、失誤和危險",
+      "自然描述排練和逐步指導"
+    ],
+    "contextsEn": [
+      "Use WALK to describe choices and reactions, not only physical",
+      "Understand identical words with very different meanings",
+      "Talk precisely about movement, mistakes and danger",
+      "Explain practice and step-by-step guidance naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "WALK 不只描述步行,也能描述選擇和反應",
+        "titleEn": "Use WALK to describe choices and reactions, not only physical",
+        "zh": "walk away、walk off 和 walk out 可以表達不同的離開原因和方式。",
+        "en": "movement Walk away, walk off and walk out express different reasons and ways of leaving.",
+        "examples": [
+          {
+            "en": "You cannot walk away from every difficult decision.",
+            "zh": "你不能逃避每一個困難決定。",
+            "highlight": "walk away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解相同字詞所表達的不同意思",
+        "titleEn": "Understand identical words with very different meanings",
+        "zh": "walk off with a prize 表示輕易得獎;walk off with somebody’s phone 則表示未經許可拿走別人的電話。",
+        "en": "Walk off with a prize means winning it easily, but walk off with somebody’s phone means taking it without permission.",
+        "examples": [
+          {
+            "en": "The twins walked away with both prizes.",
+            "zh": "那對雙胞胎輕易贏得了兩個獎項。",
+            "highlight": "walked away with"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確描述移動、失誤和危險",
+        "titleEn": "Talk precisely about movement, mistakes and danger",
+        "zh": "你可以分辨撞上門、跌入圈套,以及走近某人等不同情況。",
+        "en": "You can distinguish walking into a door, walking into a trap and walking up to a person.",
+        "examples": [
+          {
+            "en": "I walked in on them during a private call.",
+            "zh": "他們正在進行私人通話時,我意外闖了進去。",
+            "highlight": "walked in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述排練和逐步指導",
+        "titleEn": "Explain practice and step-by-step guidance naturally",
+        "zh": "你可以用 walk through a scene 表示簡單排練,也可以用 walk somebody through a process 表示逐步講解流程。",
+        "en": "You can walk through a scene during a simple rehearsal or walk somebody through a process by explaining each stage.",
+        "examples": [
+          {
+            "en": "He nearly walked into the door.",
+            "zh": "他差點撞上那道門。",
+            "highlight": "walked into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WALK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WALK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WALK 片語動詞。",
+      "en": "Read the whole sentence and choose the WALK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "walk off with something 可以表示輕易贏得某物,也可以表示未經許可拿走某物。請仔細閱讀整個情境。",
+      "titleEn": "Walk off with something can mean winning something easily or taking something without permission.",
+      "zh": "walk off with something 可以表示輕易贏得某物,也可以表示未經許可拿走某物。請仔細閱讀整個情境。",
+      "en": "Walk off with something can mean winning something easily or taking something without permission. Read the full situation carefully."
+    },
+    {
+      "titleZh": "from 和 to 只在句子需要時才加入。比較:walk away / walk away from the problem;walkup / walk up to the desk。",
+      "titleEn": "Words such as from and to are added only when the sentence needs them.",
+      "zh": "from 和 to 只在句子需要時才加入。比較:walk away / walk away from the problem;walkup / walk up to the desk。",
+      "en": "Words such as from and to are added only when the sentence needs them. Compare: walk away / walk away from the problem; walk up / walk up to the desk."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WALK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WALK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WALK 動詞片語句子改寫練習",
+    "titleEn": "WALK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WALK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WALK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-109-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "Do not let your classmates treat you badly and ignore what you need.",
+      "promptZh": "不要讓同學欺負你,並漠視你的需要。",
+      "starter": "Do",
+      "answer": "Do not let your classmates walk all over you.",
+      "answerZh": "不要任由同學欺負你。",
+      "highlight": "walk all over",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "Lena was looking behind her and almost crashed into a lamp post.",
+      "promptZh": "Lena 回頭看時,差點撞上燈柱。",
+      "starter": "Lena",
+      "answer": "Lena was looking behind her and almost walked into a lamp post.",
+      "answerZh": "Lena 回頭看時,差點撞上燈柱。",
+      "highlight": "walked",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "The school team won the cup with little difficulty.",
+      "promptZh": "校隊輕易贏得了獎盃。",
+      "starter": "The",
+      "answer": "The school team walked away with the cup.",
+      "answerZh": "校隊輕易贏得了獎盃。",
+      "highlight": "walked away with",
+      "targetForm": "walk away with something",
+      "targetMeaningZh": "輕易贏得或取得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 18,
+      "prompt": "The teacher showed us each step of the online form.",
+      "promptZh": "老師逐步向我們講解網上表格。",
+      "starter": "The",
+      "answer": "The teacher walked us through the online form.",
+      "answerZh": "老師逐步向我們講解網上表格。",
+      "highlight": "walked",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Ravi became angry, turned and left without saying anything.",
+      "promptZh": "Ravi 生氣了,轉身一言不發地離開。",
+      "starter": "Ravi",
+      "answer": "Ravi became angry, turned and walked off without saying anything.",
+      "answerZh": "Ravi 生氣了,轉身一言不發地離開。",
+      "highlight": "walked off",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "I entered the room while Noah was changing his clothes.",
+      "promptZh": "Noah 正在換衣服時,我走進了房間。",
+      "starter": "I",
+      "answer": "I walked in on Noah while he was changing his clothes.",
+      "answerZh": "Noah 正在換衣服時,我意外闖了進去。",
+      "highlight": "walked in on Noah",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "We ate too much at lunch, so we went for a walk to feel less full.",
+      "promptZh": "我們午餐吃得太多,所以去散步,讓自己不再那麼飽滯。",
+      "starter": "We",
+      "answer": "We ate too much at lunch, so we walked it off.",
+      "answerZh": "我們午餐吃得太多,所以散步消滯。",
+      "highlight": "walked it off",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "A boy approached and asked for help.",
+      "promptZh": "一名男孩走近並求助。",
+      "starter": "A",
+      "answer": "A boy walked up and asked for help.",
+      "answerZh": "一名男孩走近並求助。",
+      "highlight": "walked up",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "He accepted the offer and later realised that he had entered a trap.",
+      "promptZh": "他接受了那項提議,後來才發現自己已跌入圈套。",
+      "starter": "He",
+      "answer": "He accepted the offer and later realised that he had walked into a trap.",
+      "answerZh": "他接受了那項提議,後來才發現自己已跌入圈套。",
+      "highlight": "walked into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The actors practised the final scene using only the basic movements.",
+      "promptZh": "演員只用基本動作排練最後一幕。",
+      "starter": "The",
+      "answer": "The actors walked through the final scene using only the basic movements.",
+      "answerZh": "演員只用基本動作排練最後一幕。",
+      "highlight": "walked through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "You cannot simply leave the problem without trying to solve it.",
+      "promptZh": "你不能不嘗試解決問題便一走了之。",
+      "starter": "You",
+      "answer": "You cannot simply walk away from the problem without trying to solve it.",
+      "answerZh": "你不能不嘗試解決問題便一走了之。",
+      "highlight": "walk away from",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Someone took my umbrella, although it did not belong to them.",
+      "promptZh": "有人拿走了我的雨傘,儘管那把傘並不屬於對方。",
+      "starter": "Someone",
+      "answer": "Someone walked off with my umbrella.",
+      "answerZh": "有人拿走了我的雨傘。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Several students left the debate before the vote to show that they disagreed.",
+      "promptZh": "幾名學生在投票前離開辯論會,以表示不同意。",
+      "starter": "Several",
+      "answer": "Several students walked out of the debate before the vote.",
+      "answerZh": "幾名學生在投票前離開辯論會,以表示不滿。",
+      "highlight": "walked out of",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Zara won first prize easily in the photo competition.",
+      "promptZh": "Zara 在攝影比賽中輕易贏得一等獎。",
+      "starter": "Zara",
+      "answer": "Zara walked off with first prize in the photo competition.",
+      "answerZh": "Zara 在攝影比賽中輕易贏得一等獎。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "輕易贏得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Sorry, I did not mean to enter while you were having a private conversation.",
+      "promptZh": "對不起,我不是有意在你們私下交談時闖進來。",
+      "starter": "Sorry",
+      "answer": "Sorry, I did not mean to walk in on you while you were having a private conversation.",
+      "answerZh": "對不起,我不是有意在你們私下交談時闖進來。",
+      "highlight": "walk in on you",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "After one difficult week, the new player left the team instead of trying to improve things.",
+      "promptZh": "經過艱難的一星期後,那名新球員沒有嘗試改善情況,反而離開了球隊。",
+      "starter": "After",
+      "answer": "After one difficult week, the new player walked away from the team instead of trying to improve things.",
+      "answerZh": "經過艱難的一星期後,那名新球員沒有嘗試改善情況,反而離開了球隊。",
+      "highlight": "walked away from",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "She is approaching the teacher to ask about her homework.",
+      "promptZh": "她正走近老師,想詢問功課的事情。",
+      "starter": "She",
+      "answer": "She is walking up to the teacher to ask about her homework.",
+      "answerZh": "她正走到老師面前,想詢問功課的事情。",
+      "highlight": "walking up to",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The new supervisor keeps treating the staff badly because nobody challenges him.",
+      "promptZh": "新主管不斷欺負員工,因為沒有人反對他。",
+      "starter": "The",
+      "answer": "The new supervisor keeps walking all over the staff because nobody challenges him.",
+      "answerZh": "新主管不斷欺負員工,因為沒有人反對他。",
+      "highlight": "walking all over",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "She is leaving because she is too upset to continue the conversation.",
+      "promptZh": "她正要離開,因為她太不開心,無法繼續交談。",
+      "starter": "She",
+      "answer": "She is walking off because she is too upset to continue the conversation.",
+      "answerZh": "她正因為太不開心而突然離開,無法繼續交談。",
+      "highlight": "walking off",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Our class has easily won the top prize for the second year.",
+      "promptZh": "我們班已連續第二年輕易贏得最高獎項。",
+      "starter": "Our",
+      "answer": "Our class has walked away with the top prize for the second year.",
+      "answerZh": "我們班已連續第二年輕易贏得最高獎項。",
+      "highlight": "walked away with",
+      "targetForm": "walk away with something",
+      "targetMeaningZh": "輕易贏得或取得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Has anyone ever entered while you were practising your speech alone?",
+      "promptZh": "你獨自練習演講時,曾有人意外闖進來嗎?",
+      "starter": "Has",
+      "answer": "Has anyone ever walked in on you while you were practising your speech alone?",
+      "answerZh": "你獨自練習演講時,曾有人意外闖進來嗎?",
+      "highlight": "walked in on you",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Be careful, or you will crash into that glass door.",
+      "promptZh": "小心,否則你會撞上那道玻璃門。",
+      "starter": "Be",
+      "answer": "Be careful, or you will walk into that glass door.",
+      "answerZh": "小心,否則你會撞上那道玻璃門。",
+      "highlight": "walk",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Could you explain the booking process to me one step at a time?",
+      "promptZh": "你可以逐步向我講解預訂流程嗎?",
+      "starter": "Could",
+      "answer": "Could you walk me through the booking process?",
+      "answerZh": "你可以逐步向我講解預訂流程嗎?",
+      "highlight": "walk me through",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "She has decided not to leave the friendship just because they had one argument.",
+      "promptZh": "她決定不會只因一次爭執便放棄這段友誼。",
+      "starter": "She",
+      "answer": "She has decided not to walk away from the friendship just because they had one argument.",
+      "answerZh": "她決定不會只因一次爭執便放棄這段友誼。",
+      "highlight": "walk away from",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The audience did not leave the concert, even though the sound was poor.",
+      "promptZh": "儘管音響很差,觀眾並沒有離場表示不滿。",
+      "starter": "The",
+      "answer": "The audience did not walk out of the concert, even though the sound was poor.",
+      "answerZh": "儘管音響很差,觀眾並沒有離場表示不滿。",
+      "highlight": "walk out of",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Sam is going for a walk to reduce the heavy feeling after dinner.",
+      "promptZh": "Sam 打算散步,以減輕晚餐後的飽滯感。",
+      "starter": "Sam",
+      "answer": "Sam is going to walk off his dinner.",
+      "answerZh": "Sam 打算散步消化晚餐。",
+      "highlight": "to",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "We are practising the dance once without music or costumes.",
+      "promptZh": "我們正不用音樂或服裝,簡單排練一次舞蹈。",
+      "starter": "We",
+      "answer": "We are walking through the dance once without music or costumes.",
+      "answerZh": "我們正不用音樂或服裝,簡單排練一次舞蹈。",
+      "highlight": "walking through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "If they sign the paper without reading it, they may become caught in a trap.",
+      "promptZh": "如果他們沒有閱讀便簽署文件,可能會跌入圈套。",
+      "starter": "If",
+      "answer": "If they sign the paper without reading it, they may walk into a trap.",
+      "answerZh": "如果他們沒有閱讀便簽署文件,可能會跌入圈套。",
+      "highlight": "walk into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "A visitor has taken the museum guide’s pen without asking.",
+      "promptZh": "一名訪客未經同意拿走了博物館導賞員的筆。",
+      "starter": "A",
+      "answer": "A visitor has walked off with the museum guide’s pen without asking.",
+      "answerZh": "一名訪客未經同意拿走了博物館導賞員的筆。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Why do you keep crashing into people when you use your phone?",
+      "promptZh": "你使用電話時,為甚麼總是撞到別人?",
+      "starter": "Why",
+      "answer": "Why do you keep walking into people when you use your phone?",
+      "answerZh": "你使用電話時,為甚麼總是撞到別人?",
+      "highlight": "walking",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Do not simply leave when somebody disagrees with you.",
+      "promptZh": "有人不同意你時,不要就這樣突然離開。",
+      "starter": "Do",
+      "answer": "Do not simply walk off when somebody disagrees with you.",
+      "answerZh": "有人不同意你時,不要就這樣突然離開。",
+      "highlight": "walk off",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Did you know that you were entering a trap when you agreed to the deal?",
+      "promptZh": "你答應那項交易時,知道自己正跌入圈套嗎?",
+      "starter": "Did",
+      "answer": "Did you know that you were walking into a trap when you agreed to the deal?",
+      "answerZh": "你答應那項交易時,知道自己正跌入圈套嗎?",
+      "highlight": "walking into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The door was open, and Eva accidentally entered while everyone was preparing a surprise.",
+      "promptZh": "門開着,Eva 在大家準備驚喜時意外闖了進去。",
+      "starter": "The",
+      "answer": "The door was open, and Eva accidentally walked in on everyone while they were preparing a surprise.",
+      "answerZh": "門開着,Eva 在大家準備驚喜時意外闖了進去。",
+      "highlight": "walked in on everyone",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Jordan had never used the machine, so the assistant showed him each step.",
+      "promptZh": "Jordan 從未使用過這部機器,所以助理逐步向他示範。",
+      "starter": "Jordan",
+      "answer": "Jordan had never used the machine, so the assistant walked him through each step.",
+      "answerZh": "Jordan 從未使用過這部機器,所以助理逐步向他示範。",
+      "highlight": "walked",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "I was angry after the meeting, so I went outside to become calmer by walking.",
+      "promptZh": "會議後我很生氣,所以走到外面散步,讓自己冷靜下來。",
+      "starter": "I",
+      "answer": "I was angry after the meeting, so I went outside to walk it off.",
+      "answerZh": "會議後我很生氣,所以走到外面散步,讓自己冷靜下來。",
+      "highlight": "walk it off",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "We are not going to allow the other team to treat us unfairly again.",
+      "promptZh": "我們不會再容許另一隊不公平地對待我們。",
+      "starter": "We",
+      "answer": "We are not going to let the other team walk all over us again.",
+      "answerZh": "我們不會再任由另一隊不公平地對待我們。",
+      "highlight": "let",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "By trusting the false message, we had unknowingly become caught in a carefully planned trap.",
+      "promptZh": "我們相信了那則虛假訊息,不知不覺跌入一個精心設計的圈套。",
+      "starter": "By",
+      "answer": "By trusting the false message, we had unknowingly walked into a carefully planned trap.",
+      "answerZh": "我們相信了那則虛假訊息,不知不覺跌入一個精心設計的圈套。",
+      "highlight": "walked into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Before the full rehearsal, the cast practised the scene simply to check where everyone should stand.",
+      "promptZh": "正式綵排前,演員簡單排練了那一幕,以查看每個人應站的位置。",
+      "starter": "Before",
+      "answer": "Before the full rehearsal, the cast walked through the scene simply to check where everyone should stand.",
+      "answerZh": "正式綵排前,演員簡單排練了那一幕,以查看每個人應站的位置。",
+      "highlight": "walked through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Without waiting for an introduction, Leo approached us and began talking.",
+      "promptZh": "Leo 沒有等待介紹,便走近我們開始交談。",
+      "starter": "Without",
+      "answer": "Without waiting for an introduction, Leo walked up to us and began talking.",
+      "answerZh": "Leo 沒有等待介紹,便走到我們面前開始交談。",
+      "highlight": "walked up to",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "I left my phone on the table, and somebody took it.",
+      "promptZh": "我把電話留在桌上,結果有人把它拿走了。",
+      "starter": "I",
+      "answer": "I left my phone on the table, and somebody walked off with it.",
+      "answerZh": "我把電話留在桌上,結果有人把它拿走了。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The job became stressful, but Daniel refused to leave it without trying to solve the problems.",
+      "promptZh": "工作變得充滿壓力,但 Daniel 拒絕在未嘗試解決問題前便離開。",
+      "starter": "The",
+      "answer": "The job became stressful, but Daniel refused to walk away from it without trying to solve the problems.",
+      "answerZh": "工作變得充滿壓力,但 Daniel 拒絕在未嘗試解決問題前便離開。",
+      "highlight": "walk away from",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "I was reading the map and nearly crashed into him at the station.",
+      "promptZh": "我當時正看地圖,在車站差點撞到他。",
+      "starter": "I",
+      "answer": "I was reading the map and nearly walked into him at the station.",
+      "answerZh": "我當時正看地圖,在車站差點撞到他。",
+      "highlight": "walked",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Who won the gold medal with little difficulty in yesterday’s race?",
+      "promptZh": "誰在昨天的賽事中輕易贏得金牌?",
+      "starter": "Who",
+      "answer": "Who walked off with the gold medal in yesterday’s race?",
+      "answerZh": "誰在昨天的賽事中輕易贏得金牌?",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "輕易贏得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "After the judge announced the result, the disappointed player left in silence.",
+      "promptZh": "裁判宣布結果後,那名失望的球員默默離開。",
+      "starter": "After",
+      "answer": "After the judge announced the result, the disappointed player walked off in silence.",
+      "answerZh": "裁判宣布結果後,那名失望的球員默默離開。",
+      "highlight": "walked off",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Why did half the members leave the meeting as a sign of protest?",
+      "promptZh": "為甚麼一半成員離開會議,以示抗議?",
+      "starter": "Why",
+      "answer": "Why did half the members walk out of the meeting as a sign of protest?",
+      "answerZh": "為甚麼一半成員離開會議,以示抗議?",
+      "highlight": "walk out of",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Can a short walk help you reduce that bad mood?",
+      "promptZh": "短暫散步可以幫助你擺脫那種壞心情嗎?",
+      "starter": "Can",
+      "answer": "Can a short walk help you walk off that bad mood?",
+      "answerZh": "短暫散步可以幫助你擺脫那種壞心情嗎?",
+      "highlight": "walk off",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Who took the blue bag that was beside the door?",
+      "promptZh": "誰拿走了門旁的藍色袋子?",
+      "starter": "Who",
+      "answer": "Who walked off with the blue bag that was beside the door?",
+      "answerZh": "誰拿走了門旁的藍色袋子?",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "When the speaker made the rude comment, three guests immediately left the room in protest.",
+      "promptZh": "講者說出無禮的話後,三名賓客立即離場抗議。",
+      "starter": "When",
+      "answer": "When the speaker made the rude comment, three guests immediately walked out in protest.",
+      "answerZh": "講者說出無禮的話後,三名賓客立即離場抗議。",
+      "highlight": "walked out",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The email promised a free phone, but anyone who replied was caught in the trap.",
+      "promptZh": "電郵聲稱可免費獲得電話,但任何回覆的人都中了圈套。",
+      "starter": "The",
+      "answer": "The email promised a free phone, but anyone who replied walked into the trap.",
+      "answerZh": "電郵聲稱可免費獲得電話,但任何回覆的人都中了圈套。",
+      "highlight": "walked into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Can you really leave your responsibilities now and expect everyone else to finish the work?",
+      "promptZh": "你真的可以現在就放下責任,期望其他人完成工作嗎?",
+      "starter": "Can",
+      "answer": "Can you really walk away from your responsibilities now and expect everyone else to finish the work?",
+      "answerZh": "你真的可以現在就放下責任,期望其他人完成工作嗎?",
+      "highlight": "walk away from",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The guide explained the safety plan to the visitors from beginning to end.",
+      "promptZh": "導遊從頭到尾向訪客講解安全計劃。",
+      "starter": "The",
+      "answer": "The guide walked the visitors through the safety plan from beginning to end.",
+      "answerZh": "導遊從頭到尾逐步向訪客講解安全計劃。",
+      "highlight": "walked the visitors through",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The library copy is missing because a reader seems to have taken it home without permission.",
+      "promptZh": "那本圖書館藏書不見了,似乎有讀者未經許可把它帶回家。",
+      "starter": "The",
+      "answer": "The library copy is missing because a reader seems to have walked off with it.",
+      "answerZh": "那本圖書館藏書不見了,似乎有讀者未經許可把它拿走。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The film easily won four awards, although many people had expected another film to win.",
+      "promptZh": "這部電影輕易贏得四個獎項,儘管很多人原本預期另一部電影會勝出。",
+      "starter": "The",
+      "answer": "The film walked away with four awards, although many people had expected another film to win.",
+      "answerZh": "這部電影輕易贏得四個獎項,儘管很多人原本預期另一部電影會勝出。",
+      "highlight": "walked away with",
+      "targetForm": "walk away with something",
+      "targetMeaningZh": "輕易贏得或取得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Nina is kind, but some people take advantage of her and ignore her wishes.",
+      "promptZh": "Nina 很善良,但有些人佔她便宜,並漠視她的意願。",
+      "starter": "Nina",
+      "answer": "Nina is kind, but some people walk all over her and ignore her wishes.",
+      "answerZh": "Nina 很善良,但有些人任意欺負她,並漠視她的意願。",
+      "highlight": "walk all over",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "We were discussing the gift in secret when the birthday boy suddenly entered the room.",
+      "promptZh": "我們正秘密討論禮物時,壽星突然走進房間。",
+      "starter": "We",
+      "answer": "We were discussing the gift in secret when the birthday boy suddenly walked in on us.",
+      "answerZh": "我們正秘密討論禮物時,壽星突然闖了進來。",
+      "highlight": "walked in on us",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Alex said he would listen, but he suddenly left as soon as the criticism began.",
+      "promptZh": "Alex 說會聽下去,但批評一開始,他便突然離開。",
+      "starter": "Alex",
+      "answer": "Alex said he would listen, but he suddenly walked off as soon as the criticism began.",
+      "answerZh": "Alex 說會聽下去,但批評一開始,他便突然離開。",
+      "highlight": "walked off",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The customer crossed the room, approached the manager and calmly explained the problem.",
+      "promptZh": "顧客走過房間,走近經理,並冷靜地解釋問題。",
+      "starter": "The",
+      "answer": "The customer crossed the room, walked up to the manager and calmly explained the problem.",
+      "answerZh": "顧客走過房間,走到經理面前,並冷靜地解釋問題。",
+      "highlight": "walked up to",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Most people stayed for the whole talk, but some parents left suddenly because they objected to the new rule.",
+      "promptZh": "大部分人留到講座結束,但有些家長因反對新規則而突然離場。",
+      "starter": "Most",
+      "answer": "Most people stayed for the whole talk, but some parents walked out because they objected to the new rule.",
+      "answerZh": "大部分人留到講座結束,但有些家長因反對新規則而突然離場。",
+      "highlight": "walked out",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "After the large meal, we spent twenty minutes walking so that we would feel comfortable again.",
+      "promptZh": "吃過豐富的一餐後,我們步行了二十分鐘消滯。",
+      "starter": "After",
+      "answer": "After the large meal, we spent twenty minutes walking it off.",
+      "answerZh": "吃過豐富的一餐後,我們步行了二十分鐘消滯。",
+      "highlight": "walking it off",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Because the lights were off, Priya did not see the chair and crashed into it.",
+      "promptZh": "由於燈關了,Priya 看不見椅子,撞了上去。",
+      "starter": "Because",
+      "answer": "Because the lights were off, Priya did not see the chair and walked into it.",
+      "answerZh": "由於燈關了,Priya 看不見椅子,撞了上去。",
+      "highlight": "walked",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The dancers did not perform the whole routine fully; they only practised it using the main steps and positions.",
+      "promptZh": "舞蹈員沒有完整表演整套動作,只用主要步法和位置簡單排練。",
+      "starter": "The",
+      "answer": "The dancers did not perform the whole routine fully; they only walked through it using the main steps and positions.",
+      "answerZh": "舞蹈員沒有完整表演整套動作,只用主要步法和位置簡單排練。",
+      "highlight": "walked through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Please explain to her how to create the new account, one stage at a time.",
+      "promptZh": "請逐步向她講解如何建立新帳戶。",
+      "starter": "Please",
+      "answer": "Please walk her through creating the new account, one stage at a time.",
+      "answerZh": "請逐步向她講解如何建立新帳戶。",
+      "highlight": "walk",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Why do you allow your flatmate to control every decision and treat you with no respect?",
+      "promptZh": "你為甚麼容許室友控制所有決定,並且完全不尊重你?",
+      "starter": "Why",
+      "answer": "Why do you let your flatmate walk all over you and control every decision?",
+      "answerZh": "你為甚麼任由室友欺負你,並控制所有決定?",
+      "highlight": "let",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Could the actors practise the opening scene once with simple movements before adding the lights?",
+      "promptZh": "演員可否在加入燈光前,先以簡單動作排練一次開場一幕?",
+      "starter": "Could",
+      "answer": "Could the actors walk through the opening scene once with simple movements before adding the lights?",
+      "answerZh": "演員可否在加入燈光前,先以簡單動作排練一次開場一幕?",
+      "highlight": "walk through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Although the play continued, a group of viewers left halfway through to show their strong disapproval.",
+      "promptZh": "儘管話劇繼續演出,一群觀眾仍在中途離場,以表示強烈不滿。",
+      "starter": "Although",
+      "answer": "Although the play continued, a group of viewers walked out halfway through to show their strong disapproval.",
+      "answerZh": "儘管話劇繼續演出,一群觀眾仍在中途離場,以表示強烈不滿。",
+      "highlight": "walked out",
+      "targetForm": "walk out (of something)",
+      "targetMeaningZh": "突然離場以表示不滿"
+    },
+    {
+      "id": "phrasal-verb-109-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The child turned to wave at his father and nearly crashed into the waiter before his mother stopped him.",
+      "promptZh": "孩子轉身向父親揮手,差點撞上侍應,幸好母親及時阻止他。",
+      "starter": "The",
+      "answer": "The child turned to wave at his father and nearly walked into the waiter before his mother stopped him.",
+      "answerZh": "孩子轉身向父親揮手,差點撞上侍應,幸好母親及時阻止他。",
+      "highlight": "walked",
+      "targetForm": "walk into somebody/something",
+      "targetMeaningZh": "走路時撞上某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Although Ben was nervous, he approached the group of new students and introduced himself.",
+      "promptZh": "雖然 Ben 很緊張,但他仍走近那群新同學並自我介紹。",
+      "starter": "Although",
+      "answer": "Although Ben was nervous, he walked up to the group of new students and introduced himself.",
+      "answerZh": "雖然 Ben 很緊張,但他仍走到那群新同學面前並自我介紹。",
+      "highlight": "walked up to",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The school show starts tomorrow, so the cast used the last ten minutes to practise the ending without costumes or stage objects.",
+      "promptZh": "學校表演明天開始,因此演員用最後十分鐘,在沒有服裝和舞台物件的情況下簡單排練結尾。",
+      "starter": "The",
+      "answer": "The school show starts tomorrow, so the cast used the last ten minutes to walk through the ending without costumes or stage objects.",
+      "answerZh": "學校表演明天開始,因此演員用最後十分鐘,在沒有服裝和舞台物件的情況下簡單排練結尾。",
+      "highlight": "walk through",
+      "targetForm": "walk through something",
+      "targetMeaningZh": "以簡單動作排練表演"
+    },
+    {
+      "id": "phrasal-verb-109-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Although the project was going badly, the group chose to stay and fix it rather than leave the whole situation.",
+      "promptZh": "儘管項目進展不順,團隊仍選擇留下來解決問題,而不是離開整個處境。",
+      "starter": "Although",
+      "answer": "Although the project was going badly, the group chose to stay and fix it rather than walk away.",
+      "answerZh": "儘管項目進展不順,團隊仍選擇留下來解決問題,而不是一走了之。",
+      "highlight": "walk away",
+      "targetForm": "walk away (from somebody/something)",
+      "targetMeaningZh": "離開困難處境或關係,不再處理"
+    },
+    {
+      "id": "phrasal-verb-109-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The coach told Ava that a gentle walk would reduce the stiffness in her legs instead of resting immediately.",
+      "promptZh": "教練告訴 Ava,先輕鬆步行可減輕腿部僵硬,不必立即休息。",
+      "starter": "The",
+      "answer": "The coach told Ava to walk off the stiffness in her legs instead of resting immediately.",
+      "answerZh": "教練叫 Ava 先輕鬆步行,以減輕腿部僵硬,而不是立即休息。",
+      "highlight": "to",
+      "targetForm": "walk something off",
+      "targetMeaningZh": "用走路減輕飽滯或不適"
+    },
+    {
+      "id": "phrasal-verb-109-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Because the instructions were confusing, Sam asked a colleague to explain the whole process slowly and in order.",
+      "promptZh": "由於指示令人困惑,Sam 請同事按次序慢慢講解整個流程。",
+      "starter": "Because",
+      "answer": "Because the instructions were confusing, Sam asked a colleague to walk him through the whole process slowly and in order.",
+      "answerZh": "由於指示令人困惑,Sam 請同事按次序慢慢講解整個流程。",
+      "highlight": "walk him through",
+      "targetForm": "walk somebody through something",
+      "targetMeaningZh": "逐步向某人講解或示範"
+    },
+    {
+      "id": "phrasal-verb-109-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Everything seemed easy at first, so the group did not realise that it was becoming caught in a trap.",
+      "promptZh": "起初一切看來很容易,因此團隊沒有察覺自己正跌入圈套。",
+      "starter": "Everything",
+      "answer": "Everything seemed easy at first, so the group did not realise that it was walking into a trap.",
+      "answerZh": "起初一切看來很容易,因此團隊沒有察覺自己正跌入圈套。",
+      "highlight": "walking into",
+      "targetForm": "walk into something",
+      "targetMeaningZh": "不知不覺陷入麻煩或圈套"
+    },
+    {
+      "id": "phrasal-verb-109-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "While everyone was watching the match, a stranger quietly took the bicycle that had been left outside.",
+      "promptZh": "大家觀看比賽時,一名陌生人悄悄拿走了停在外面的單車。",
+      "starter": "While",
+      "answer": "While everyone was watching the match, a stranger quietly walked off with the bicycle that had been left outside.",
+      "answerZh": "大家觀看比賽時,一名陌生人悄悄拿走了停在外面的單車。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    },
+    {
+      "id": "phrasal-verb-109-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "Please knock first; I do not want you to enter while I am recording the final part of the video.",
+      "promptZh": "請先敲門;我不想你在我錄製影片最後一部分時闖進來。",
+      "starter": "Please",
+      "answer": "Please knock first; I do not want you to walk in on me while I am recording the final part of the video.",
+      "answerZh": "請先敲門;我不想你在我錄製影片最後一部分時闖進來。",
+      "highlight": "walk in on me",
+      "targetForm": "walk in on somebody/something",
+      "targetMeaningZh": "意外闖入某人的私人情況"
+    },
+    {
+      "id": "phrasal-verb-109-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Instead of answering the question, the manager looked annoyed and left the group standing there.",
+      "promptZh": "經理沒有回答問題,反而露出不悅的神情,留下眾人站在原地。",
+      "starter": "Instead",
+      "answer": "Instead of answering the question, the manager looked annoyed and walked off, leaving the group standing there.",
+      "answerZh": "經理沒有回答問題,反而露出不悅的神情,突然離開,留下眾人站在原地。",
+      "highlight": "walked off, leaving",
+      "targetForm": "walk off",
+      "targetMeaningZh": "因生氣或不快而突然離開"
+    },
+    {
+      "id": "phrasal-verb-109-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The club members finally complained because the leader had been ignoring their views and treating them unfairly for months.",
+      "promptZh": "學會成員終於作出投訴,因為領袖數月來一直漠視他們的意見,並不公平地對待他們。",
+      "starter": "The",
+      "answer": "The club members finally complained because the leader had been walking all over them for months.",
+      "answerZh": "學會成員終於作出投訴,因為領袖數月來一直任意欺負他們。",
+      "highlight": "walking all over",
+      "targetForm": "walk (all) over somebody",
+      "targetMeaningZh": "不顧某人需要,任意欺負或佔便宜"
+    },
+    {
+      "id": "phrasal-verb-109-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Nobody expected the youngest singer to win the main prize, but she won it easily.",
+      "promptZh": "沒有人預期最年輕的歌手會贏得大獎,但她輕易做到了。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the youngest singer to walk away with the main prize, but she did.",
+      "answerZh": "沒有人預期最年輕的歌手會輕易贏得大獎,但她做到了。",
+      "highlight": "walk away with",
+      "targetForm": "walk away with something",
+      "targetMeaningZh": "輕易贏得或取得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Who was the woman who approached you outside the station and asked for directions?",
+      "promptZh": "在車站外走近你並問路的女士是誰?",
+      "starter": "Who",
+      "answer": "Who was the woman who walked up to you outside the station and asked for directions?",
+      "answerZh": "在車站外走到你面前並問路的女士是誰?",
+      "highlight": "walked up to",
+      "targetForm": "walk up (to somebody/something)",
+      "targetMeaningZh": "走近某人或某物"
+    },
+    {
+      "id": "phrasal-verb-109-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "If the team keeps playing this well, it may win the championship easily.",
+      "promptZh": "如果球隊繼續有如此出色的表現,可能會輕易贏得冠軍。",
+      "starter": "If",
+      "answer": "If the team keeps playing this well, it may walk off with the championship.",
+      "answerZh": "如果球隊繼續有如此出色的表現,可能會輕易贏得冠軍。",
+      "highlight": "walk off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "輕易贏得某物"
+    },
+    {
+      "id": "phrasal-verb-109-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The trophy had not been won; someone had simply taken it without permission.",
+      "promptZh": "那座獎盃並非由比賽贏得;只是有人未經許可把它拿走。",
+      "starter": "The",
+      "answer": "The trophy had not been won; someone had simply walked off with it.",
+      "answerZh": "那座獎盃並非由比賽贏得;只是有人未經許可把它拿走。",
+      "highlight": "walked off with",
+      "targetForm": "walk off with something",
+      "targetMeaningZh": "拿走不屬於自己的東西"
+    }
+  ]
+}

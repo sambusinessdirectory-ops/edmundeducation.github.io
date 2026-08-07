@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-163",
+  "order": 163,
+  "slug": "wrap",
+  "version": "1",
+  "title": "WRAP 動詞片語",
+  "titleEn": "Wrap",
+  "titleZh": "WRAP 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 162 - WRAP.pdf",
+    "sourceNumber": 162,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WRAP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WRAP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WRAP",
+      "highlight": "WRAP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She wrapped a scarf around her neck.",
+      "zh": "她把圍巾圍在頸上。",
+      "highlight": "wrapped a scarf around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please wrap it up; the lesson is nearly over.",
+      "zh": "請不要再說下去;課堂快要結束了。",
+      "highlight": "wrap it up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Dad wrapped the baby up in a blanket.",
+      "zh": "爸爸用毛氈把嬰兒包好保暖。",
+      "highlight": "wrapped the baby up in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某物圍在某人或某物周圍；停止說話;別再說下去；穿暖一點;用衣物或毛氈把某人或自己包好保暖；用紙、布或其他材料把某物完全包好",
+    "en": "wrap something around somebody/something; wrap up / wrap it up; wrap up (in something); wrap somebody up (in something); wrap yourself up (in something); wrap something up",
+    "naturalZh": [
+      "把某物圍在某人或某物周圍",
+      "停止說話;別再說下去",
+      "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+      "用紙、布或其他材料把某物完全包好"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "wrap something around somebody/something",
+      "titleZh": "把某物圍在某人或某物周圍",
+      "titleEn": "wrap something around somebody/something",
+      "descriptionZh": "把某物圍在某人或某物周圍",
+      "descriptionEn": "She wrapped a scarf around her neck.",
+      "examples": [
+        {
+          "en": "She wrapped a scarf around her neck.",
+          "zh": "她把圍巾圍在頸上。",
+          "highlight": "wrapped a scarf around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wrap up / wrap it up",
+      "titleZh": "停止說話;別再說下去",
+      "titleEn": "wrap up / wrap it up",
+      "descriptionZh": "停止說話;別再說下去",
+      "descriptionEn": "Please wrap it up; the lesson is nearly over.",
+      "examples": [
+        {
+          "en": "Please wrap it up; the lesson is nearly over.",
+          "zh": "請不要再說下去;課堂快要結束了。",
+          "highlight": "wrap it up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "titleZh": "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+      "titleEn": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "descriptionZh": "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+      "descriptionEn": "Dad wrapped the baby up in a blanket.",
+      "examples": [
+        {
+          "en": "Dad wrapped the baby up in a blanket.",
+          "zh": "爸爸用毛氈把嬰兒包好保暖。",
+          "highlight": "wrapped the baby up in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wrap something up",
+      "titleZh": "用紙、布或其他材料把某物完全包好",
+      "titleEn": "wrap something up",
+      "descriptionZh": "用紙、布或其他材料把某物完全包好",
+      "descriptionEn": "We wrapped the gift up in paper.",
+      "examples": [
+        {
+          "en": "We wrapped the gift up in paper.",
+          "zh": "我們用紙把禮物包好。",
+          "highlight": "wrapped the gift up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WRAP 片語動詞的實際用途",
+    "labelEn": "WRAP Phrasal Verbs in Use",
+    "summaryZh": "wrap something up 可以用來描述包裝禮物、包裹和容易打破的物件。；wrap up 和 wrap somebody up 可以用來描述穿上保暖衣物,或用外套和毛氈把某人包好。；談論圍巾、絲帶、毛巾、繩子和手臂時,可以使用 wrap something around somebody orsomething。；wrap up 或 wrap it up 可以用來叫人停止說話,但應小心使用,因為語氣可能顯得不耐煩。",
+    "summaryEn": "Wrap something up helps you describe covering gifts, parcels and objects that can break easily. Wrap up and wrap somebody up help you describe wearing warm clothes or covering someone with a coat or blanket. Wrap something around somebody or something is useful when talking about scarves, ribbons, towels, ropes and arms. Wrap up or wrap it up can tell someone to stop talking, although the expression should be used carefully because it may sound impatient.",
+    "contextsZh": [
+      "談論禮物和容易損壞的物件",
+      "談論保暖",
+      "描述某物圍着人或物件",
+      "以非正式方式叫人停止說話"
+    ],
+    "contextsEn": [
+      "Talk about gifts and fragile objects",
+      "Talk about keeping warm",
+      "Describe something going around a person or object",
+      "End a long speech informally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WRAP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WRAP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "wrap something around somebody/something",
+    "fixedHighlight": "wrap something around somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 WRAP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WRAP expression that gives the same meaning.",
+    "correct": "wrapped a scarf around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；其他字詞可以補充更多資料,例如:wrap up warmwrap yourself up in a coat這些額外字詞並非每次都必須使用。核心表達是 wrap up。；當 wrap up 或 wrap it up 表示「停止說話」時,語氣較為非正式,有時可能顯得不耐煩。",
+    "variableEn": "Keep the same people, things, time and meaning. Extra words may add more information: wrap up warm wrap yourself up in a coat The extra words are not always required. The core expression is wrap up. When wrap up or wrap it up means “stop talking”, it is informal and may sound impatient.",
+    "variableItemsZh": [
+      "wrap something around somebody/something",
+      "wrap up / wrap it up",
+      "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "wrap something up"
+    ],
+    "variableItemsEn": [
+      "wrap something around somebody/something",
+      "wrap up / wrap it up",
+      "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "wrap something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某物圍在某人或某物周圍",
+        "formEn": "wrap something around somebody/something",
+        "exampleZh": "她把圍巾圍在頸上。",
+        "exampleEn": "She wrapped a scarf around her neck.",
+        "highlight": "wrapped a scarf around"
+      },
+      {
+        "formZh": "停止說話;別再說下去",
+        "formEn": "wrap up / wrap it up",
+        "exampleZh": "請不要再說下去;課堂快要結束了。",
+        "exampleEn": "Please wrap it up; the lesson is nearly over.",
+        "highlight": "wrap it up"
+      },
+      {
+        "formZh": "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+        "formEn": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+        "exampleZh": "爸爸用毛氈把嬰兒包好保暖。",
+        "exampleEn": "Dad wrapped the baby up in a blanket.",
+        "highlight": "wrapped the baby up in"
+      },
+      {
+        "formZh": "用紙、布或其他材料把某物完全包好",
+        "formEn": "wrap something up",
+        "exampleZh": "我們用紙把禮物包好。",
+        "exampleEn": "We wrapped the gift up in paper.",
+        "highlight": "wrapped the gift up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某物圍在某人或某物周圍",
+      "titleEn": "wrap something around somebody/something",
+      "formula": "wrap something around somebody/something",
+      "highlight": "wrap something around somebody/something",
+      "descriptionZh": "把某物圍在某人或某物周圍",
+      "descriptionEn": "She wrapped a scarf around her neck.",
+      "examples": [
+        {
+          "en": "She wrapped a scarf around her neck.",
+          "zh": "她把圍巾圍在頸上。",
+          "highlight": "wrapped a scarf around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "停止說話;別再說下去",
+      "titleEn": "wrap up / wrap it up",
+      "formula": "wrap up / wrap it up",
+      "highlight": "wrap up / wrap it up",
+      "descriptionZh": "停止說話;別再說下去",
+      "descriptionEn": "Please wrap it up; the lesson is nearly over.",
+      "examples": [
+        {
+          "en": "Please wrap it up; the lesson is nearly over.",
+          "zh": "請不要再說下去;課堂快要結束了。",
+          "highlight": "wrap it up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+      "titleEn": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "formula": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "highlight": "wrap up (in something); wrap somebody up (in something); wrap yourself up (in something)",
+      "descriptionZh": "穿暖一點;用衣物或毛氈把某人或自己包好保暖",
+      "descriptionEn": "Dad wrapped the baby up in a blanket.",
+      "examples": [
+        {
+          "en": "Dad wrapped the baby up in a blanket.",
+          "zh": "爸爸用毛氈把嬰兒包好保暖。",
+          "highlight": "wrapped the baby up in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "用紙、布或其他材料把某物完全包好",
+      "titleEn": "wrap something up",
+      "formula": "wrap something up",
+      "highlight": "wrap something up",
+      "descriptionZh": "用紙、布或其他材料把某物完全包好",
+      "descriptionEn": "We wrapped the gift up in paper.",
+      "examples": [
+        {
+          "en": "We wrapped the gift up in paper.",
+          "zh": "我們用紙把禮物包好。",
+          "highlight": "wrapped the gift up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論禮物和容易損壞的物件",
+      "titleEn": "Talk about gifts and fragile objects",
+      "zh": "wrap something up 可以用來描述包裝禮物、包裹和容易打破的物件。",
+      "en": "Wrap something up helps you describe covering gifts, parcels and objects that can break easily."
+    },
+    {
+      "titleZh": "談論保暖",
+      "titleEn": "Talk about keeping warm",
+      "zh": "wrap up 和 wrap somebody up 可以用來描述穿上保暖衣物,或用外套和毛氈把某人包好。",
+      "en": "Wrap up and wrap somebody up help you describe wearing warm clothes or covering someone with a coat or blanket."
+    },
+    {
+      "titleZh": "描述某物圍着人或物件",
+      "titleEn": "Describe something going around a person or object",
+      "zh": "談論圍巾、絲帶、毛巾、繩子和手臂時,可以使用 wrap something around somebody orsomething。",
+      "en": "Wrap something around somebody or something is useful when talking about scarves, ribbons, towels, ropes and arms."
+    },
+    {
+      "titleZh": "以非正式方式叫人停止說話",
+      "titleEn": "End a long speech informally",
+      "zh": "wrap up 或 wrap it up 可以用來叫人停止說話,但應小心使用,因為語氣可能顯得不耐煩。",
+      "en": "Wrap up or wrap it up can tell someone to stop talking, although the expression should be used carefully because it may sound impatient."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論禮物和容易損壞的物件",
+      "談論保暖",
+      "描述某物圍着人或物件",
+      "以非正式方式叫人停止說話"
+    ],
+    "contextsEn": [
+      "Talk about gifts and fragile objects",
+      "Talk about keeping warm",
+      "Describe something going around a person or object",
+      "End a long speech informally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論禮物和容易損壞的物件",
+        "titleEn": "Talk about gifts and fragile objects",
+        "zh": "wrap something up 可以用來描述包裝禮物、包裹和容易打破的物件。",
+        "en": "Wrap something up helps you describe covering gifts, parcels and objects that can break easily.",
+        "examples": [
+          {
+            "en": "She wrapped a scarf around her neck.",
+            "zh": "她把圍巾圍在頸上。",
+            "highlight": "wrapped a scarf around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論保暖",
+        "titleEn": "Talk about keeping warm",
+        "zh": "wrap up 和 wrap somebody up 可以用來描述穿上保暖衣物,或用外套和毛氈把某人包好。",
+        "en": "Wrap up and wrap somebody up help you describe wearing warm clothes or covering someone with a coat or blanket.",
+        "examples": [
+          {
+            "en": "Please wrap it up; the lesson is nearly over.",
+            "zh": "請不要再說下去;課堂快要結束了。",
+            "highlight": "wrap it up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某物圍着人或物件",
+        "titleEn": "Describe something going around a person or object",
+        "zh": "談論圍巾、絲帶、毛巾、繩子和手臂時,可以使用 wrap something around somebody orsomething。",
+        "en": "Wrap something around somebody or something is useful when talking about scarves, ribbons, towels, ropes and arms.",
+        "examples": [
+          {
+            "en": "Dad wrapped the baby up in a blanket.",
+            "zh": "爸爸用毛氈把嬰兒包好保暖。",
+            "highlight": "wrapped the baby up in"
+          }
+        ]
+      },
+      {
+        "titleZh": "以非正式方式叫人停止說話",
+        "titleEn": "End a long speech informally",
+        "zh": "wrap up 或 wrap it up 可以用來叫人停止說話,但應小心使用,因為語氣可能顯得不耐煩。",
+        "en": "Wrap up or wrap it up can tell someone to stop talking, although the expression should be used carefully because it may sound impatient.",
+        "examples": [
+          {
+            "en": "We wrapped the gift up in paper.",
+            "zh": "我們用紙把禮物包好。",
+            "highlight": "wrapped the gift up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WRAP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WRAP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WRAP 片語動詞。",
+      "en": "Read the whole sentence and choose the WRAP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "其他字詞可以補充更多資料,例如:wrap up warmwrap yourself up in a coat這些額外字詞並非每次都必須使用。核心表達是 wrap up。",
+      "titleEn": "Extra words may add more information: wrap up warm wrap yourself up in a coat The extra words are not always required.",
+      "zh": "其他字詞可以補充更多資料,例如:wrap up warmwrap yourself up in a coat這些額外字詞並非每次都必須使用。核心表達是 wrap up。",
+      "en": "Extra words may add more information: wrap up warm wrap yourself up in a coat The extra words are not always required. The core expression is wrap up."
+    },
+    {
+      "titleZh": "當 wrap up 或 wrap it up 表示「停止說話」時,語氣較為非正式,有時可能顯得不耐煩。",
+      "titleEn": "When wrap up or wrap it up means “stop talking”, it is informal and may sound impatient.",
+      "zh": "當 wrap up 或 wrap it up 表示「停止說話」時,語氣較為非正式,有時可能顯得不耐煩。",
+      "en": "When wrap up or wrap it up means “stop talking”, it is informal and may sound impatient."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WRAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WRAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WRAP 動詞片語句子改寫練習",
+    "titleEn": "WRAP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WRAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WRAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-163-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo put a scarf around his neck before leaving home.",
+      "promptZh": "利奧離家前把圍巾圍在頸上。",
+      "starter": "Leo",
+      "answer": "Leo wrapped a scarf around his neck before leaving home.",
+      "answerZh": "利奧離家前把圍巾圍在頸上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Wear enough warm clothes before you walk to school.",
+      "promptZh": "走路上學前要穿暖一點。",
+      "starter": "Wrap",
+      "answer": "Wrap up warm before you walk to school.",
+      "answerZh": "走路上學前要穿暖一點。",
+      "highlight": "Wrap up",
+      "targetForm": "wrap up",
+      "targetMeaningZh": "穿暖一點;包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben, stop talking and let your sister speak.",
+      "promptZh": "賓,別再說了,讓你妹妹發言吧。",
+      "starter": "Ben",
+      "answer": "Ben, wrap it up and let your sister speak.",
+      "answerZh": "賓,別再說了,讓你妹妹發言吧。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Sara covered the birthday present completely in red paper.",
+      "promptZh": "莎拉用紅紙把生日禮物完全包好。",
+      "starter": "Sara",
+      "answer": "Sara wrapped the birthday present up in red paper.",
+      "answerZh": "莎拉用紅紙把生日禮物完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The child put both arms around his father.",
+      "promptZh": "那個孩子用雙臂抱着父親。",
+      "starter": "The",
+      "answer": "The child wrapped both arms around his father.",
+      "answerZh": "那個孩子用雙臂抱着父親。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Dad covered the baby warmly with a soft blanket.",
+      "promptZh": "爸爸用柔軟的毛氈把嬰兒包好保暖。",
+      "starter": "Dad",
+      "answer": "Dad wrapped the baby up in a soft blanket.",
+      "answerZh": "爸爸用柔軟的毛氈把嬰兒包好保暖。",
+      "highlight": "wrapped",
+      "targetForm": "wrap somebody up in something",
+      "targetMeaningZh": "用衣物或毛氈把某人包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "“Stop talking and give someone else a chance,” the teacher said.",
+      "promptZh": "老師說:「別再說了,給其他人一個機會吧。」",
+      "starter": "Wrap",
+      "answer": "“Wrap up and give someone else a chance,” the teacher said.",
+      "answerZh": "老師說:「別再說了,給其他人一個機會吧。」",
+      "highlight": "Wrap up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nina covered the flowers completely in brown paper.",
+      "promptZh": "妮娜用啡色紙把花完全包好。",
+      "starter": "Nina",
+      "answer": "Nina wrapped the flowers up in brown paper.",
+      "answerZh": "妮娜用啡色紙把花完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ella covered herself with a thick coat to keep warm.",
+      "promptZh": "埃拉穿上厚外套,把自己包得暖暖的。",
+      "starter": "Ella",
+      "answer": "Ella wrapped herself up in a thick coat to keep warm.",
+      "answerZh": "埃拉穿上厚外套,把自己包得暖暖的。",
+      "highlight": "wrapped",
+      "targetForm": "wrap yourself up in something",
+      "targetMeaningZh": "用衣物把自己包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Zoe put a ribbon around the box.",
+      "promptZh": "佐伊把絲帶繞在盒子外面。",
+      "starter": "Zoe",
+      "answer": "Zoe wrapped a ribbon around the box.",
+      "answerZh": "佐伊把絲帶繞在盒子外面。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The host has asked Omar to stop talking now.",
+      "promptZh": "主持人已叫奧馬現在停止說話。",
+      "starter": "The",
+      "answer": "The host has asked Omar to wrap it up now.",
+      "answerZh": "主持人已叫奧馬現在停止說話。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We will cover the glasses carefully in paper before the move.",
+      "promptZh": "搬家前,我們會小心用紙把玻璃杯包好。",
+      "starter": "We",
+      "answer": "We will wrap the glasses up carefully in paper before the move.",
+      "answerZh": "搬家前,我們會小心用紙把玻璃杯包好。",
+      "highlight": "wrap",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She is putting a towel around her wet hair.",
+      "promptZh": "她正用毛巾包住濕頭髮。",
+      "starter": "She",
+      "answer": "She is wrapping a towel around her wet hair.",
+      "answerZh": "她正用毛巾包住濕頭髮。",
+      "highlight": "wrapping",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Are you going to wear enough warm clothes for the evening walk?",
+      "promptZh": "你打算穿暖一點去傍晚散步嗎?",
+      "starter": "Are",
+      "answer": "Are you going to wrap up warm for the evening walk?",
+      "answerZh": "你打算穿暖一點去傍晚散步嗎?",
+      "highlight": "wrap up",
+      "targetForm": "wrap up",
+      "targetMeaningZh": "穿暖一點;包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did the chairperson tell Ravi to stop talking?",
+      "promptZh": "主席為何叫拉維停止說話?",
+      "starter": "Why",
+      "answer": "Why did the chairperson tell Ravi to wrap it up?",
+      "answerZh": "主席為何叫拉維停止說話?",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The shop assistant has covered the vase completely in tissue paper.",
+      "promptZh": "店員已用薄紙把花瓶完全包好。",
+      "starter": "The",
+      "answer": "The shop assistant has wrapped the vase up in tissue paper.",
+      "answerZh": "店員已用薄紙把花瓶完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Priya does not know when to stop talking.",
+      "promptZh": "普里雅不知道何時應該停止說話。",
+      "starter": "Priya",
+      "answer": "Priya does not know when to wrap up.",
+      "answerZh": "普里雅不知道何時應該停止說話。",
+      "highlight": "wrap up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We had put a blanket around the wet dog before taking it home.",
+      "promptZh": "我們帶那隻濕狗回家前,已用毛氈圍着牠。",
+      "starter": "We",
+      "answer": "We had wrapped a blanket around the wet dog before taking it home.",
+      "answerZh": "我們帶那隻濕狗回家前,已用毛氈圍着牠。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Sam is covering himself with two blankets because the room is cold.",
+      "promptZh": "房間很冷,所以森正用兩張毛氈把自己包好。",
+      "starter": "Sam",
+      "answer": "Sam is wrapping himself up in two blankets because the room is cold.",
+      "answerZh": "房間很冷,所以森正用兩張毛氈把自己包好。",
+      "highlight": "wrapping",
+      "targetForm": "wrap yourself up in something",
+      "targetMeaningZh": "用衣物或毛氈把自己包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did Zoe cover the book in paper before giving it to you?",
+      "promptZh": "佐伊把書送給你前,有沒有用紙把它包好?",
+      "starter": "Did",
+      "answer": "Did Zoe wrap the book up in paper before giving it to you?",
+      "answerZh": "佐伊把書送給你前,有沒有用紙把它包好?",
+      "highlight": "wrap",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The children were cold, so we covered them with blankets.",
+      "promptZh": "孩子們很冷,所以我們用毛氈把他們包好保暖。",
+      "starter": "The",
+      "answer": "The children were cold, so we wrapped them up in blankets.",
+      "answerZh": "孩子們很冷,所以我們用毛氈把他們包好保暖。",
+      "highlight": "wrapped",
+      "targetForm": "wrap somebody up in something",
+      "targetMeaningZh": "用衣物或毛氈把某人包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Before it was posted, the parcel was covered completely in thick paper.",
+      "promptZh": "郵寄前,包裹已用厚紙完全包好。",
+      "starter": "Before",
+      "answer": "Before it was posted, the parcel was wrapped up in thick paper.",
+      "answerZh": "郵寄前,包裹已用厚紙完全包好。",
+      "highlight": "wrapped up",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The child was cold, so Ava put her scarf around his shoulders.",
+      "promptZh": "那個孩子很冷,所以艾娃把自己的圍巾圍在他的肩膀上。",
+      "starter": "The",
+      "answer": "The child was cold, so Ava wrapped her scarf around his shoulders.",
+      "answerZh": "那個孩子很冷,所以艾娃把自己的圍巾圍在他的肩膀上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Leo spoke for ten minutes. At last, the teacher told him to stop talking.",
+      "promptZh": "利奧說了十分鐘。最後,老師叫他停止說話。",
+      "starter": "Leo",
+      "answer": "Leo spoke for ten minutes. At last, the teacher told him to wrap it up.",
+      "answerZh": "利奧說了十分鐘。最後,老師叫他停止說話。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "These small gifts are easy to cover completely in paper.",
+      "promptZh": "這些小禮物很容易用紙完全包好。",
+      "starter": "These",
+      "answer": "These small gifts are easy to wrap up in paper.",
+      "answerZh": "這些小禮物很容易用紙完全包好。",
+      "highlight": "wrap up",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I covered myself with a blanket and sat beside the window.",
+      "promptZh": "我用毛氈把自己包好,然後坐在窗邊。",
+      "starter": "I",
+      "answer": "I wrapped myself up in a blanket and sat beside the window.",
+      "answerZh": "我用毛氈把自己包好,然後坐在窗邊。",
+      "highlight": "wrapped",
+      "targetForm": "wrap yourself up in something",
+      "targetMeaningZh": "用衣物或毛氈把自己包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The cups break easily, so please cover them in paper one by one.",
+      "promptZh": "這些杯子很容易打破,所以請逐隻用紙把它們包好。",
+      "starter": "The",
+      "answer": "The cups break easily, so please wrap them up in paper one by one.",
+      "answerZh": "這些杯子很容易打破,所以請逐隻用紙把它們包好。",
+      "highlight": "wrap",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The rope had been placed around the chair legs.",
+      "promptZh": "繩子已被繞在椅腳周圍。",
+      "starter": "The",
+      "answer": "The rope had been wrapped around the chair legs.",
+      "answerZh": "繩子已被繞在椅腳周圍。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Could you stop talking? The meeting ends in two minutes.",
+      "promptZh": "你可以停止說話嗎?會議兩分鐘後便結束。",
+      "starter": "Could",
+      "answer": "Could you wrap it up? The meeting ends in two minutes.",
+      "answerZh": "你可以停止說話嗎?會議兩分鐘後便結束。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Before the boat trip, Mum dressed the children in warm jackets.",
+      "promptZh": "乘船前,媽媽讓孩子們穿上保暖外套。",
+      "starter": "Before",
+      "answer": "Before the boat trip, Mum wrapped the children up in warm jackets.",
+      "answerZh": "乘船前,媽媽讓孩子們穿上保暖外套。",
+      "highlight": "wrapped",
+      "targetForm": "wrap somebody up in something",
+      "targetMeaningZh": "用衣物把某人包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The speaker kept repeating the same point, so someone at the back told him to stop talking.",
+      "promptZh": "講者不斷重複同一點,所以坐在後面的人叫他停止說話。",
+      "starter": "The",
+      "answer": "The speaker kept repeating the same point, so someone at the back told him to wrap it up.",
+      "answerZh": "講者不斷重複同一點,所以坐在後面的人叫他停止說話。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "It was only five degrees outside, but Kai had not worn enough warm clothes.",
+      "promptZh": "外面只有五度,但啟沒有穿足夠的保暖衣物。",
+      "starter": "It",
+      "answer": "It was only five degrees outside, but Kai had not wrapped up warm.",
+      "answerZh": "外面只有五度,但啟沒有穿足夠的保暖衣物。",
+      "highlight": "wrapped up",
+      "targetForm": "wrap up",
+      "targetMeaningZh": "穿暖一點;包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Nina stood behind her friend and placed a woollen scarf around her shoulders.",
+      "promptZh": "妮娜站在朋友身後,把羊毛圍巾圍在她的肩膀上。",
+      "starter": "Nina",
+      "answer": "Nina stood behind her friend and wrapped a woollen scarf around her shoulders.",
+      "answerZh": "妮娜站在朋友身後,把羊毛圍巾圍在她的肩膀上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The toy was already in a box, but we still covered the box in paper as a present.",
+      "promptZh": "玩具已放在盒子裏,但我們仍用紙把盒子包成禮物。",
+      "starter": "The",
+      "answer": "The toy was already in a box, but we still wrapped the box up in paper as a present.",
+      "answerZh": "玩具已放在盒子裏,但我們仍用紙把盒子包成禮物。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "“You have made your point, so stop talking now,” the coach said.",
+      "promptZh": "教練說:「你的意思已說清楚了,現在別再說了。」",
+      "starter": "You",
+      "answer": "“You have made your point, so wrap up now,” the coach said.",
+      "answerZh": "教練說:「你的意思已說清楚了,現在別再說了。」",
+      "highlight": "wrap up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The rain had made Ben very cold, so his aunt covered him warmly with a dry blanket.",
+      "promptZh": "雨水令賓很冷,所以姑母用乾毛氈把他包好保暖。",
+      "starter": "The",
+      "answer": "The rain had made Ben very cold, so his aunt wrapped him up in a dry blanket.",
+      "answerZh": "雨水令賓很冷,所以姑母用乾毛氈把他包好保暖。",
+      "highlight": "wrapped",
+      "targetForm": "wrap somebody up in something",
+      "targetMeaningZh": "用衣物或毛氈把某人包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Omar did not stop talking when the bell rang; he continued speaking for another five minutes.",
+      "promptZh": "鈴聲響起時,奧馬仍沒有停止說話;他又繼續說了五分鐘。",
+      "starter": "Omar",
+      "answer": "Omar did not wrap it up when the bell rang; he continued speaking for another five minutes.",
+      "answerZh": "鈴聲響起時,奧馬仍沒有停止說話;他又繼續說了五分鐘。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "As the sun became stronger, Ella put a light scarf around her head.",
+      "promptZh": "陽光愈來愈強,埃拉把一條薄圍巾圍在頭上。",
+      "starter": "As",
+      "answer": "As the sun became stronger, Ella wrapped a light scarf around her head.",
+      "answerZh": "陽光愈來愈強,埃拉把一條薄圍巾圍在頭上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We had no gift paper, so Dad covered the present completely in an old map.",
+      "promptZh": "我們沒有禮物紙,所以爸爸用一張舊地圖把禮物完全包好。",
+      "starter": "We",
+      "answer": "We had no gift paper, so Dad wrapped the present up in an old map.",
+      "answerZh": "我們沒有禮物紙,所以爸爸用一張舊地圖把禮物完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Please cover yourself with this blanket to stay warm while you wait for the bus.",
+      "promptZh": "等巴士時,請用這張毛氈把自己包好保暖。",
+      "starter": "Please",
+      "answer": "Please wrap yourself up in this blanket while you wait for the bus.",
+      "answerZh": "等巴士時,請用這張毛氈把自己包好保暖。",
+      "highlight": "wrap",
+      "targetForm": "wrap yourself up in something",
+      "targetMeaningZh": "用衣物或毛氈把自己包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before posting the small mirror, Sara covered it completely in several sheets of paper so that it would not break.",
+      "promptZh": "郵寄小鏡子前,莎拉用幾張紙把它完全包好,以免打破。",
+      "starter": "Before",
+      "answer": "Before posting the small mirror, Sara wrapped it up in several sheets of paper so that it would not break.",
+      "answerZh": "郵寄小鏡子前,莎拉用幾張紙把它完全包好,以免打破。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "When the little girl became frightened, her brother put his arms around her and stayed beside her.",
+      "promptZh": "小女孩感到害怕時,哥哥用雙臂抱着她,並留在她身旁。",
+      "starter": "When",
+      "answer": "When the little girl became frightened, her brother wrapped his arms around her and stayed beside her.",
+      "answerZh": "小女孩感到害怕時,哥哥用雙臂抱着她,並留在她身旁。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The club leader had already asked Ben twice to stop talking, but he still continued speaking.",
+      "promptZh": "社團負責人已兩次叫賓停止說話,但他仍繼續說下去。",
+      "starter": "The",
+      "answer": "The club leader had already asked Ben twice to wrap it up, but he still continued speaking.",
+      "answerZh": "社團負責人已兩次叫賓停止說話,但他仍繼續說下去。",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After standing in the cold for half an hour, Ravi covered himself warmly with his coat and scarf before walking home.",
+      "promptZh": "拉維在寒冷中站了半小時後,回家前用外套和圍巾把自己包好保暖。",
+      "starter": "After",
+      "answer": "After standing in the cold for half an hour, Ravi wrapped himself up in his coat and scarf before walking home.",
+      "answerZh": "拉維在寒冷中站了半小時後,回家前用外套和圍巾把自己包好保暖。",
+      "highlight": "wrapped",
+      "targetForm": "wrap yourself up in something",
+      "targetMeaningZh": "用衣物把自己包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The shop had no boxes left, so the assistant covered the lamp completely in several layers of paper.",
+      "promptZh": "店裏已沒有盒子,所以店員用幾層紙把燈完全包好。",
+      "starter": "The",
+      "answer": "The shop had no boxes left, so the assistant wrapped the lamp up in several layers of paper.",
+      "answerZh": "店裏已沒有盒子,所以店員用幾層紙把燈完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "To protect her shoulders from the cold wind, Zoe put a thick scarf around them before leaving the station.",
+      "promptZh": "為了保護肩膀免受冷風吹襲,佐伊離開車站前把一條厚圍巾圍在肩膀上。",
+      "starter": "To",
+      "answer": "To protect her shoulders from the cold wind, Zoe wrapped a thick scarf around them before leaving the station.",
+      "answerZh": "為了保護肩膀免受冷風吹襲,佐伊離開車站前把一條厚圍巾圍在肩膀上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    },
+    {
+      "id": "phrasal-verb-163-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "“We understand your complaint, but please stop talking so the next customer can speak,” the manager said.",
+      "promptZh": "經理說:「我們明白你的投訴,但請停止說話,讓下一位顧客發言。」",
+      "starter": "We",
+      "answer": "“We understand your complaint, but please wrap it up so the next customer can speak,” the manager said.",
+      "answerZh": "經理說:「我們明白你的投訴,但請停止說話,讓下一位顧客發言。」",
+      "highlight": "wrap it up",
+      "targetForm": "wrap up / wrap it up",
+      "targetMeaningZh": "停止說話;別再說下去"
+    },
+    {
+      "id": "phrasal-verb-163-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the gift was an unusual shape, Nina covered it neatly and completely in paper without using a box.",
+      "promptZh": "雖然禮物形狀不規則,妮娜仍不用盒子,整齊地用紙把它完全包好。",
+      "starter": "Although",
+      "answer": "Although the gift was an unusual shape, Nina wrapped it up neatly in paper without using a box.",
+      "answerZh": "雖然禮物形狀不規則,妮娜仍不用盒子,整齊地用紙把它完全包好。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something up",
+      "targetMeaningZh": "用紙或其他材料把某物完全包好"
+    },
+    {
+      "id": "phrasal-verb-163-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The children were going to watch the stars outside, so Dad told them to wear enough warm clothes and take blankets.",
+      "promptZh": "孩子們要到外面觀星,所以爸爸叫他們穿暖一點,並帶備毛氈。",
+      "starter": "The",
+      "answer": "The children were going to watch the stars outside, so Dad told them to wrap up warm and take blankets.",
+      "answerZh": "孩子們要到外面觀星,所以爸爸叫他們穿暖一點,並帶備毛氈。",
+      "highlight": "wrap up",
+      "targetForm": "wrap up",
+      "targetMeaningZh": "穿暖一點;包好保暖"
+    },
+    {
+      "id": "phrasal-verb-163-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the race, the young runner put a towel around his shoulders while he waited for the results.",
+      "promptZh": "比賽後,那名年輕跑手在等候結果時,把毛巾圍在肩膀上。",
+      "starter": "After",
+      "answer": "After the race, the young runner wrapped a towel around his shoulders while he waited for the results.",
+      "answerZh": "比賽後,那名年輕跑手在等候結果時,把毛巾圍在肩膀上。",
+      "highlight": "wrapped",
+      "targetForm": "wrap something around somebody/something",
+      "targetMeaningZh": "把某物圍在某人或某物周圍"
+    }
+  ]
+}

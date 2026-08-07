@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-103",
+  "order": 103,
+  "slug": "leap",
+  "version": "1",
+  "title": "LEAP 動詞片語",
+  "titleEn": "Leap",
+  "titleZh": "LEAP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 102 - LEAP.pdf",
+    "sourceNumber": 102,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LEAP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LEAP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LEAP",
+      "highlight": "LEAP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She leapt at the chance to study abroad.",
+      "zh": "她欣然把握到海外留學的機會。",
+      "highlight": "She",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The press leapt on the story.",
+      "zh": "傳媒立即抓住這宗新聞作出報道。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "His name leapt out at me from the page.",
+      "zh": "他的名字在頁面上立即引起我的注意。",
+      "highlight": "His",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "欣然接受或立即把握一個機會、提議或邀請；立即抓住某事,並迅速作出反應、利用或批評；某事物立即引起某人注意;格外顯眼；突然站起來或猛然起身",
+    "en": "leap at something; leap on something / leap upon something; leap out at somebody; leap up",
+    "naturalZh": [
+      "欣然接受或立即把握一個機會、提議或邀請",
+      "立即抓住某事,並迅速作出反應、利用或批評",
+      "某事物立即引起某人注意;格外顯眼",
+      "突然站起來或猛然起身"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "leap at something",
+      "titleZh": "欣然接受或立即把握一個機會、提議或邀請",
+      "titleEn": "leap at something",
+      "descriptionZh": "欣然接受或立即把握一個機會、提議或邀請",
+      "descriptionEn": "She leapt at the chance to study abroad.",
+      "examples": [
+        {
+          "en": "She leapt at the chance to study abroad.",
+          "zh": "她欣然把握到海外留學的機會。",
+          "highlight": "She"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leap on something / leap upon something",
+      "titleZh": "立即抓住某事,並迅速作出反應、利用或批評",
+      "titleEn": "leap on something / leap upon something",
+      "descriptionZh": "立即抓住某事,並迅速作出反應、利用或批評",
+      "descriptionEn": "The press leapt on the story.",
+      "examples": [
+        {
+          "en": "The press leapt on the story.",
+          "zh": "傳媒立即抓住這宗新聞作出報道。",
+          "highlight": "The"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leap out at somebody",
+      "titleZh": "某事物立即引起某人注意;格外顯眼",
+      "titleEn": "leap out at somebody",
+      "descriptionZh": "某事物立即引起某人注意;格外顯眼",
+      "descriptionEn": "His name leapt out at me from the page.",
+      "examples": [
+        {
+          "en": "His name leapt out at me from the page.",
+          "zh": "他的名字在頁面上立即引起我的注意。",
+          "highlight": "His"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "leap up",
+      "titleZh": "突然站起來或猛然起身",
+      "titleEn": "leap up",
+      "descriptionZh": "突然站起來或猛然起身",
+      "descriptionEn": "He leapt up to answer the door.",
+      "examples": [
+        {
+          "en": "He leapt up to answer the door.",
+          "zh": "他突然站起來去應門。",
+          "highlight": "He"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LEAP 片語動詞的實際用途",
+    "labelEn": "LEAP Phrasal Verbs in Use",
+    "summaryZh": "leap at 可以表示某人欣然接受機會或提議。；leap on 或 leap upon 可以描述某人迅速回應一宗新聞、一句評論、一個錯誤或一項細節。；leap out at 可以表示名字、顏色、數字或錯誤立即引起注意。；leap up 可以生動地表示人或動物突然站起來。",
+    "summaryEn": "Leap at helps you show that someone accepts a chance or offer eagerly. Leap on or leap upon helps you describe someone quickly reacting to a story, comment, mistake or detail. Leap out at helps you show that a name, colour, number or mistake is noticed at once. Leap up gives a lively way to describe someone or an animal standing suddenly.",
+    "contextsZh": [
+      "清楚表達對機會的熱情",
+      "描述立即作出的反應",
+      "指出特別顯眼的事物",
+      "描述突然的動作"
+    ],
+    "contextsEn": [
+      "Show enthusiasm for an opportunity",
+      "Describe an immediate reaction",
+      "Point out something striking",
+      "Describe sudden movement"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LEAP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LEAP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "leap at something",
+    "fixedHighlight": "leap at something",
+    "fixedZh": "閱讀整句,選出意思相同的 LEAP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LEAP expression that gives the same meaning.",
+    "correct": "She",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在本練習中,leap on 和 leap upon 可以表達相同意思。；在本練習中,過去的動作使用 leapt,例如:He leapt up.",
+    "variableEn": "Keep the same people, things, time and meaning. Leap on and leap upon can express the same meaning in this exercise. For past actions in this set, use leapt: He leapt up.",
+    "variableItemsZh": [
+      "leap at something",
+      "leap on something / leap upon something",
+      "leap out at somebody",
+      "leap up"
+    ],
+    "variableItemsEn": [
+      "leap at something",
+      "leap on something / leap upon something",
+      "leap out at somebody",
+      "leap up"
+    ],
+    "forms": [
+      {
+        "formZh": "欣然接受或立即把握一個機會、提議或邀請",
+        "formEn": "leap at something",
+        "exampleZh": "她欣然把握到海外留學的機會。",
+        "exampleEn": "She leapt at the chance to study abroad.",
+        "highlight": "She"
+      },
+      {
+        "formZh": "立即抓住某事,並迅速作出反應、利用或批評",
+        "formEn": "leap on something / leap upon something",
+        "exampleZh": "傳媒立即抓住這宗新聞作出報道。",
+        "exampleEn": "The press leapt on the story.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "某事物立即引起某人注意;格外顯眼",
+        "formEn": "leap out at somebody",
+        "exampleZh": "他的名字在頁面上立即引起我的注意。",
+        "exampleEn": "His name leapt out at me from the page.",
+        "highlight": "His"
+      },
+      {
+        "formZh": "突然站起來或猛然起身",
+        "formEn": "leap up",
+        "exampleZh": "他突然站起來去應門。",
+        "exampleEn": "He leapt up to answer the door.",
+        "highlight": "He"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "欣然接受或立即把握一個機會、提議或邀請",
+      "titleEn": "leap at something",
+      "formula": "leap at something",
+      "highlight": "leap at something",
+      "descriptionZh": "欣然接受或立即把握一個機會、提議或邀請",
+      "descriptionEn": "She leapt at the chance to study abroad.",
+      "examples": [
+        {
+          "en": "She leapt at the chance to study abroad.",
+          "zh": "她欣然把握到海外留學的機會。",
+          "highlight": "She"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "立即抓住某事,並迅速作出反應、利用或批評",
+      "titleEn": "leap on something / leap upon something",
+      "formula": "leap on something / leap upon something",
+      "highlight": "leap on something / leap upon something",
+      "descriptionZh": "立即抓住某事,並迅速作出反應、利用或批評",
+      "descriptionEn": "The press leapt on the story.",
+      "examples": [
+        {
+          "en": "The press leapt on the story.",
+          "zh": "傳媒立即抓住這宗新聞作出報道。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "某事物立即引起某人注意;格外顯眼",
+      "titleEn": "leap out at somebody",
+      "formula": "leap out at somebody",
+      "highlight": "leap out at somebody",
+      "descriptionZh": "某事物立即引起某人注意;格外顯眼",
+      "descriptionEn": "His name leapt out at me from the page.",
+      "examples": [
+        {
+          "en": "His name leapt out at me from the page.",
+          "zh": "他的名字在頁面上立即引起我的注意。",
+          "highlight": "His"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "突然站起來或猛然起身",
+      "titleEn": "leap up",
+      "formula": "leap up",
+      "highlight": "leap up",
+      "descriptionZh": "突然站起來或猛然起身",
+      "descriptionEn": "He leapt up to answer the door.",
+      "examples": [
+        {
+          "en": "He leapt up to answer the door.",
+          "zh": "他突然站起來去應門。",
+          "highlight": "He"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達對機會的熱情",
+      "titleEn": "Show enthusiasm for an opportunity",
+      "zh": "leap at 可以表示某人欣然接受機會或提議。",
+      "en": "Leap at helps you show that someone accepts a chance or offer eagerly."
+    },
+    {
+      "titleZh": "描述立即作出的反應",
+      "titleEn": "Describe an immediate reaction",
+      "zh": "leap on 或 leap upon 可以描述某人迅速回應一宗新聞、一句評論、一個錯誤或一項細節。",
+      "en": "Leap on or leap upon helps you describe someone quickly reacting to a story, comment, mistake or detail."
+    },
+    {
+      "titleZh": "指出特別顯眼的事物",
+      "titleEn": "Point out something striking",
+      "zh": "leap out at 可以表示名字、顏色、數字或錯誤立即引起注意。",
+      "en": "Leap out at helps you show that a name, colour, number or mistake is noticed at once."
+    },
+    {
+      "titleZh": "描述突然的動作",
+      "titleEn": "Describe sudden movement",
+      "zh": "leap up 可以生動地表示人或動物突然站起來。",
+      "en": "Leap up gives a lively way to describe someone or an animal standing suddenly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達對機會的熱情",
+      "描述立即作出的反應",
+      "指出特別顯眼的事物",
+      "描述突然的動作"
+    ],
+    "contextsEn": [
+      "Show enthusiasm for an opportunity",
+      "Describe an immediate reaction",
+      "Point out something striking",
+      "Describe sudden movement"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達對機會的熱情",
+        "titleEn": "Show enthusiasm for an opportunity",
+        "zh": "leap at 可以表示某人欣然接受機會或提議。",
+        "en": "Leap at helps you show that someone accepts a chance or offer eagerly.",
+        "examples": [
+          {
+            "en": "She leapt at the chance to study abroad.",
+            "zh": "她欣然把握到海外留學的機會。",
+            "highlight": "She"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述立即作出的反應",
+        "titleEn": "Describe an immediate reaction",
+        "zh": "leap on 或 leap upon 可以描述某人迅速回應一宗新聞、一句評論、一個錯誤或一項細節。",
+        "en": "Leap on or leap upon helps you describe someone quickly reacting to a story, comment, mistake or detail.",
+        "examples": [
+          {
+            "en": "The press leapt on the story.",
+            "zh": "傳媒立即抓住這宗新聞作出報道。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "指出特別顯眼的事物",
+        "titleEn": "Point out something striking",
+        "zh": "leap out at 可以表示名字、顏色、數字或錯誤立即引起注意。",
+        "en": "Leap out at helps you show that a name, colour, number or mistake is noticed at once.",
+        "examples": [
+          {
+            "en": "His name leapt out at me from the page.",
+            "zh": "他的名字在頁面上立即引起我的注意。",
+            "highlight": "His"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然的動作",
+        "titleEn": "Describe sudden movement",
+        "zh": "leap up 可以生動地表示人或動物突然站起來。",
+        "en": "Leap up gives a lively way to describe someone or an animal standing suddenly.",
+        "examples": [
+          {
+            "en": "He leapt up to answer the door.",
+            "zh": "他突然站起來去應門。",
+            "highlight": "He"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LEAP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LEAP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LEAP 片語動詞。",
+      "en": "Read the whole sentence and choose the LEAP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在本練習中,leap on 和 leap upon 可以表達相同意思。",
+      "titleEn": "Leap on and leap upon can express the same meaning in this exercise.",
+      "zh": "在本練習中,leap on 和 leap upon 可以表達相同意思。",
+      "en": "Leap on and leap upon can express the same meaning in this exercise."
+    },
+    {
+      "titleZh": "在本練習中,過去的動作使用 leapt,例如:He leapt up.",
+      "titleEn": "For past actions in this set, use leapt: He leapt up.",
+      "zh": "在本練習中,過去的動作使用 leapt,例如:He leapt up.",
+      "en": "For past actions in this set, use leapt: He leapt up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LEAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LEAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LEAP 動詞片語句子改寫練習",
+    "titleEn": "LEAP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LEAP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LEAP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-103-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Nina eagerly accepted the chance to join the school play.",
+      "promptZh": "妮娜欣然接受參演學校話劇的機會。",
+      "starter": "Nina",
+      "answer": "Nina leapt at the chance to join the school play.",
+      "answerZh": "妮娜欣然接受參演學校話劇的機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Her name was immediately noticeable to me on the page.",
+      "promptZh": "她的名字在頁面上立即引起我的注意。",
+      "starter": "Her",
+      "answer": "Her name leapt out at me from the page.",
+      "answerZh": "她的名字在頁面上立即引起我的注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Reporters immediately focused on the story and began writing about it.",
+      "promptZh": "記者立即把注意力集中在這宗新聞上,並開始報道。",
+      "starter": "Reporters",
+      "answer": "Reporters leapt on the story and began writing about it.",
+      "answerZh": "記者立即抓住這宗新聞,並開始報道。",
+      "highlight": "leapt",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He stood up suddenly and ran to answer the door.",
+      "promptZh": "他突然站起來,跑去應門。",
+      "starter": "He",
+      "answer": "He leapt up and ran to answer the door.",
+      "answerZh": "他突然站起來,跑去應門。",
+      "highlight": "leapt",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Both children eagerly accepted the offer of another hour in the park.",
+      "promptZh": "兩名孩子都欣然接受在公園多留一小時的提議。",
+      "starter": "Both",
+      "answer": "Both children leapt at the offer of another hour in the park.",
+      "answerZh": "兩名孩子都欣然接受在公園多留一小時的提議。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Coach Patel noticed one small mistake immediately and criticised it.",
+      "promptZh": "帕特爾教練立即注意到一個小錯誤,並加以批評。",
+      "starter": "Coach",
+      "answer": "Coach Patel leapt on one small mistake and criticised it.",
+      "answerZh": "帕特爾教練立即抓住一個小錯誤並加以批評。",
+      "highlight": "leapt on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A bright red door was the first thing we noticed.",
+      "promptZh": "一扇鮮紅色的門是我們首先注意到的東西。",
+      "starter": "A",
+      "answer": "A bright red door leapt out at us.",
+      "answerZh": "一扇鮮紅色的門立即映入我們眼簾。",
+      "highlight": "leapt out at us",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our dog rose suddenly when it heard us filling its food bowl.",
+      "promptZh": "我們把食物放進狗兒的碗裏時,牠一聽到聲音便突然站了起來。",
+      "starter": "Our",
+      "answer": "Our dog leapt up when it heard us filling its food bowl.",
+      "answerZh": "我們把食物放進狗兒的碗裏時,牠一聽到聲音便突然站了起來。",
+      "highlight": "leapt up",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Online readers immediately criticised the comment.",
+      "promptZh": "網上讀者立即批評這則留言。",
+      "starter": "Online",
+      "answer": "Online readers leapt on the comment.",
+      "answerZh": "網上讀者立即抓住這則留言加以批評。",
+      "highlight": "leapt on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I eagerly accepted the chance to spend a summer in London.",
+      "promptZh": "我欣然接受到倫敦度過一個夏天的機會。",
+      "starter": "I",
+      "answer": "I leapt at the chance to spend a summer in London.",
+      "answerZh": "我欣然接受到倫敦度過一個夏天的機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "One spelling mistake is immediately noticeable to the teacher.",
+      "promptZh": "老師立即注意到一個串字錯誤。",
+      "starter": "One",
+      "answer": "One spelling mistake leaps out at the teacher.",
+      "answerZh": "一個串字錯誤立即引起老師注意。",
+      "highlight": "leaps out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ava always rises quickly when the teacher asks for a volunteer.",
+      "promptZh": "每當老師請同學自願幫忙時,艾娃總會迅速站起來。",
+      "starter": "Ava",
+      "answer": "Ava always leaps up when the teacher asks for a volunteer.",
+      "answerZh": "每當老師請同學自願幫忙時,艾娃總會迅速站起來。",
+      "highlight": "leaps up",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sam eagerly accepts every chance to play the guitar on stage.",
+      "promptZh": "山姆欣然把握每一個上台彈結他的機會。",
+      "starter": "Sam",
+      "answer": "Sam leaps at every chance to play the guitar on stage.",
+      "answerZh": "山姆欣然把握每一個上台彈結他的機會。",
+      "highlight": "leaps at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Reporters are quickly using every new detail about the story.",
+      "promptZh": "記者正迅速利用這宗新聞的每項新細節。",
+      "starter": "Reporters",
+      "answer": "Reporters are leaping on every new detail about the story.",
+      "answerZh": "記者正迅速抓住這宗新聞的每項新細節。",
+      "highlight": "leaping on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The number 100 was immediately noticeable to me in the message.",
+      "promptZh": "訊息中的數字 100 立即引起我的注意。",
+      "starter": "The",
+      "answer": "The number 100 leapt out at me in the message.",
+      "answerZh": "訊息中的數字 100 立即引起我的注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did Ben stand up suddenly when the phone rang?",
+      "promptZh": "電話響起時,賓為何突然站起來?",
+      "starter": "Why",
+      "answer": "Why did Ben leap up when the phone rang?",
+      "answerZh": "電話響起時,賓為何突然站起來?",
+      "highlight": "leap",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Our teacher does not immediately criticise every small error.",
+      "promptZh": "我們的老師不會立即批評每一個小錯誤。",
+      "starter": "Our",
+      "answer": "Our teacher does not leap on every small error.",
+      "answerZh": "我們的老師不會立即抓住每一個小錯誤加以批評。",
+      "highlight": "leap on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Would you eagerly accept an offer of a free lesson?",
+      "promptZh": "你會欣然接受一堂免費課堂的提議嗎?",
+      "starter": "Would",
+      "answer": "Would you leap at an offer of a free lesson?",
+      "answerZh": "你會欣然接受一堂免費課堂的提議嗎?",
+      "highlight": "leap at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children did not rise suddenly when the bell sounded.",
+      "promptZh": "鐘聲響起時,孩子們沒有突然站起來。",
+      "starter": "The",
+      "answer": "The children did not leap up when the bell sounded.",
+      "answerZh": "鐘聲響起時,孩子們沒有突然站起來。",
+      "highlight": "leap up",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Nothing in the first photo was immediately noticeable to us.",
+      "promptZh": "第一張照片中沒有任何東西立即引起我們注意。",
+      "starter": "Nothing",
+      "answer": "Nothing in the first photo leapt out at us.",
+      "answerZh": "第一張照片中沒有任何東西立即引起我們注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "When the school club offered Eva the role of team captain, she accepted it immediately and happily.",
+      "promptZh": "當學校社團邀請伊娃擔任隊長時,她立即欣然接受。",
+      "starter": "When",
+      "answer": "When the school club offered Eva the role of team captain, she leapt at the chance.",
+      "answerZh": "當學校社團邀請伊娃擔任隊長時,她立即把握了這個機會。",
+      "highlight": "leapt at the chance",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The unusual price was the first thing I noticed when I opened the menu.",
+      "promptZh": "我打開餐牌時,那個不尋常的價錢是我首先注意到的東西。",
+      "starter": "The",
+      "answer": "The unusual price leapt out at me when I opened the menu.",
+      "answerZh": "我打開餐牌時,那個不尋常的價錢立即映入我眼簾。",
+      "highlight": "leapt out at me",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I was half asleep, but I stood up suddenly when the alarm sounded.",
+      "promptZh": "我當時半睡半醒,但鬧鐘一響便突然站了起來。",
+      "starter": "I",
+      "answer": "I was half asleep, but I leapt up when the alarm sounded.",
+      "answerZh": "我當時半睡半醒,但鬧鐘一響便突然站了起來。",
+      "highlight": "leapt",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The editor saw the weak point at once and used it in her reply.",
+      "promptZh": "編輯立即看出那個弱點,並在回覆中加以利用。",
+      "starter": "The",
+      "answer": "The editor leapt upon the weak point and used it in her reply.",
+      "answerZh": "編輯立即抓住那個弱點,並在回覆中加以利用。",
+      "highlight": "leapt upon",
+      "targetForm": "leap upon something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We were offered two extra days, and we accepted the offer at once.",
+      "promptZh": "有人給我們多兩天時間,而我們立即接受了這項提議。",
+      "starter": "We",
+      "answer": "We leapt at the offer of two extra days.",
+      "answerZh": "我們立即接受了多兩天時間的提議。",
+      "highlight": "leapt at the offer of",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "One word appeared four times and was immediately noticeable to the editor.",
+      "promptZh": "一個字出現了四次,立即引起編輯注意。",
+      "starter": "One",
+      "answer": "One word appeared four times and leapt out at the editor.",
+      "answerZh": "一個字出現了四次,立即引起編輯注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As soon as Daniel mentioned the cost, the group immediately focused on it.",
+      "promptZh": "丹尼爾一提到費用,小組便立即把注意力集中在這一點上。",
+      "starter": "As",
+      "answer": "As soon as Daniel mentioned the cost, the group leapt on it.",
+      "answerZh": "丹尼爾一提到費用,小組便立即抓住這一點不放。",
+      "highlight": "leapt",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "As soon as the bus arrived, everyone rose quickly from the bench.",
+      "promptZh": "巴士一到,所有人便迅速從長椅上站起來。",
+      "starter": "As",
+      "answer": "As soon as the bus arrived, everyone leapt up from the bench.",
+      "answerZh": "巴士一到,所有人便迅速從長椅上站起來。",
+      "highlight": "leapt up",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The blue coat was easy for us to notice among all the black clothes.",
+      "promptZh": "在所有黑色衣服之中,那件藍色外套很容易引起我們注意。",
+      "starter": "The",
+      "answer": "The blue coat leapt out at us among all the black clothes.",
+      "answerZh": "在所有黑色衣服之中,那件藍色外套立即吸引我們的注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the job was far from home, Leo eagerly accepted the opportunity.",
+      "promptZh": "雖然工作地點離家很遠,里奧仍欣然接受這個機會。",
+      "starter": "Although",
+      "answer": "Although the job was far from home, Leo leapt at the opportunity.",
+      "answerZh": "雖然工作地點離家很遠,里奧仍欣然接受這個機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The newspaper quickly used the photo as the main part of its report.",
+      "promptZh": "報章迅速利用這張照片,把它作為報道的主要部分。",
+      "starter": "The",
+      "answer": "The newspaper leapt on the photo and made it the main part of its report.",
+      "answerZh": "報章立即抓住這張照片,把它作為報道的主要部分。",
+      "highlight": "leapt on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "For several minutes, the cat had been still; then it suddenly rose and ran to the window.",
+      "promptZh": "那隻貓靜止了幾分鐘,然後突然站起來,跑到窗邊。",
+      "starter": "For",
+      "answer": "For several minutes, the cat had been still; then it leapt up and ran to the window.",
+      "answerZh": "那隻貓靜止了幾分鐘,然後突然站起來,跑到窗邊。",
+      "highlight": "leapt up",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Among a long list of ordinary names, one unusual name was immediately noticeable to the nurse.",
+      "promptZh": "在一長串普通名字之中,一個不尋常的名字立即引起護士注意。",
+      "starter": "Among",
+      "answer": "Among a long list of ordinary names, one unusual name leapt out at the nurse.",
+      "answerZh": "在一長串普通名字之中,那個不尋常的名字立即引起護士注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After months of waiting, the singer eagerly accepted the chance to perform live.",
+      "promptZh": "等了幾個月後,歌手欣然接受現場表演的機會。",
+      "starter": "After",
+      "answer": "After months of waiting, the singer leapt at the chance to perform live.",
+      "answerZh": "等了幾個月後,歌手欣然接受現場表演的機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Reviewers immediately criticised the one confusing scene in an otherwise good film.",
+      "promptZh": "影評人立即批評一部整體不錯的電影中唯一令人困惑的場景。",
+      "starter": "Reviewers",
+      "answer": "Reviewers leapt upon the one confusing scene in an otherwise good film.",
+      "answerZh": "影評人立即抓住一部整體不錯的電影中唯一令人困惑的場景加以批評。",
+      "highlight": "leapt upon",
+      "targetForm": "leap upon something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When her name was called, Priya stood up quickly to receive the prize.",
+      "promptZh": "普里雅的名字被叫到時,她迅速站起來領獎。",
+      "starter": "When",
+      "answer": "When her name was called, Priya leapt up to receive the prize.",
+      "answerZh": "普里雅的名字被叫到時,她迅速站起來領獎。",
+      "highlight": "leapt",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During my second reading, the missing date became clearly noticeable to me.",
+      "promptZh": "我第二次閱讀時,遺漏了的日期變得十分明顯。",
+      "starter": "During",
+      "answer": "During my second reading, the missing date leapt out at me.",
+      "answerZh": "我第二次閱讀時,遺漏了的日期立即引起我的注意。",
+      "highlight": "leapt out at",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Instead of discussing the full plan, people immediately focused only on one small problem.",
+      "promptZh": "大家沒有討論整份計劃,反而立即把注意力集中在一個小問題上。",
+      "starter": "Instead",
+      "answer": "Instead of discussing the full plan, people leapt on one small problem.",
+      "answerZh": "大家沒有討論整份計劃,反而立即抓住一個小問題不放。",
+      "highlight": "leapt",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our class did not hesitate when we were offered the chance to visit the science museum.",
+      "promptZh": "當我們獲邀參觀科學館時,全班都毫不猶豫。",
+      "starter": "Our",
+      "answer": "Our class leapt at the chance to visit the science museum.",
+      "answerZh": "當我們獲邀參觀科學館時,全班立即欣然接受。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A loud crash made all three children stand up suddenly.",
+      "promptZh": "一聲巨響令三名孩子突然站起來。",
+      "starter": "A",
+      "answer": "A loud crash made all three children leap up.",
+      "answerZh": "一聲巨響令三名孩子突然站起來。",
+      "highlight": "leap",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the hotel offered a free extra night, the family accepted immediately because their flight was delayed.",
+      "promptZh": "酒店提出免費多住一晚時,那家人因航班延誤而立即接受。",
+      "starter": "When",
+      "answer": "When the hotel offered a free extra night, the family leapt at the offer because their flight was delayed.",
+      "answerZh": "酒店提出免費多住一晚時,那家人因航班延誤而立即接受了這項提議。",
+      "highlight": "leapt at the offer",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The manager made one careless comment, and the staff immediately used it as proof that he had not listened.",
+      "promptZh": "經理說了一句不小心的話,職員立即利用這句話來證明他沒有聆聽。",
+      "starter": "The",
+      "answer": "The manager made one careless comment, and the staff leapt on it as proof that he had not listened.",
+      "answerZh": "經理說了一句不小心的話,職員立即抓住這句話,藉此證明他沒有聆聽。",
+      "highlight": "leapt on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Grandfather was resting in his chair, but he stood up suddenly when he saw smoke near the oven.",
+      "promptZh": "祖父正在椅子上休息,但看見焗爐附近有煙時便突然站了起來。",
+      "starter": "Grandfather",
+      "answer": "Grandfather was resting in his chair, but he leapt up when he saw smoke near the oven.",
+      "answerZh": "祖父正在椅子上休息,但看見焗爐附近有煙時便突然站了起來。",
+      "highlight": "leapt",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the page was full of text, the warning in red was the first thing I noticed.",
+      "promptZh": "雖然頁面滿是文字,但紅色警告是我首先注意到的內容。",
+      "starter": "Although",
+      "answer": "Although the page was full of text, the warning in red leapt out at me.",
+      "answerZh": "雖然頁面滿是文字,但紅色警告立即映入我眼簾。",
+      "highlight": "leapt out at me",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Aisha had wanted to learn cooking, so she eagerly accepted the chance to join the course.",
+      "promptZh": "艾莎一直想學烹飪,所以欣然接受參加課程的機會。",
+      "starter": "Aisha",
+      "answer": "Aisha had wanted to learn cooking, so she leapt at the chance to join the course.",
+      "answerZh": "艾莎一直想學烹飪,所以欣然接受參加課程的機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    },
+    {
+      "id": "phrasal-verb-103-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The early numbers showed a drop, and news sites reacted to them at once before the full report was ready.",
+      "promptZh": "初步數字顯示下跌,而新聞網站在完整報告準備好之前便立即作出反應。",
+      "starter": "The",
+      "answer": "The early numbers showed a drop, and news sites leapt upon them before the full report was ready.",
+      "answerZh": "初步數字顯示下跌,而新聞網站在完整報告準備好之前便立即抓住這些數字作出反應。",
+      "highlight": "leapt upon",
+      "targetForm": "leap upon something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "During the review, three very high costs were immediately noticeable to the team because all the other numbers were low.",
+      "promptZh": "檢查期間,三項非常高的費用立即引起團隊注意,因為其他數字都很低。",
+      "starter": "During",
+      "answer": "During the review, the three very high costs leapt out at the team because all the other numbers were low.",
+      "answerZh": "檢查期間,三項高昂費用立即引起團隊注意,因為其他數字都很低。",
+      "highlight": "the",
+      "targetForm": "leap out at somebody",
+      "targetMeaningZh": "立即引起某人注意;格外顯眼"
+    },
+    {
+      "id": "phrasal-verb-103-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although he had promised to stay seated, Omar stood up suddenly when the final score appeared.",
+      "promptZh": "雖然奧馬答應會坐着,但最終分數出現時,他仍突然站了起來。",
+      "starter": "Although",
+      "answer": "Although he had promised to stay seated, Omar leapt up when the final score appeared.",
+      "answerZh": "雖然奧馬答應會坐着,但最終分數出現時,他仍突然站了起來。",
+      "highlight": "leapt",
+      "targetForm": "leap up",
+      "targetMeaningZh": "突然站起來;猛然起身"
+    },
+    {
+      "id": "phrasal-verb-103-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "His answer changed slightly, and the interviewer noticed the change immediately and questioned him about it.",
+      "promptZh": "他的答案略有改變,訪問員立即注意到這個變化,並就此追問他。",
+      "starter": "His",
+      "answer": "His answer changed slightly, and the interviewer leapt on the change and questioned him about it.",
+      "answerZh": "他的答案略有改變,訪問員立即抓住這個變化,並就此追問他。",
+      "highlight": "leapt on",
+      "targetForm": "leap on something",
+      "targetMeaningZh": "立即抓住某事,迅速回應、利用或批評"
+    },
+    {
+      "id": "phrasal-verb-103-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Even though the project had to start the next day, the team eagerly accepted the chance to present its ideas to the director.",
+      "promptZh": "雖然項目翌日便要開始,團隊仍欣然接受向主管介紹構思的機會。",
+      "starter": "Even",
+      "answer": "Even though the project had to start the next day, the team leapt at the chance to present its ideas to the director.",
+      "answerZh": "雖然項目翌日便要開始,團隊仍欣然接受向主管介紹構思的機會。",
+      "highlight": "leapt at",
+      "targetForm": "leap at something",
+      "targetMeaningZh": "欣然接受;立即把握機會或提議"
+    }
+  ]
+}

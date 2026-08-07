@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-271",
+  "order": 271,
+  "slug": "round",
+  "version": "1",
+  "title": "ROUND 動詞片語",
+  "titleEn": "Round",
+  "titleZh": "ROUND 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 256 - ROUND.pdf",
+    "sourceNumber": 256,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ROUND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ROUND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ROUND",
+      "highlight": "ROUND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Round 47 up to 50.",
+      "zh": "把47向上調整至50。",
+      "highlight": "Round 47 up to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please round off the sharp corners.",
+      "zh": "請把尖角修得圓滑。",
+      "highlight": "round off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach suddenly rounded on the reporter.",
+      "zh": "教練突然轉向記者,憤怒地斥責對方。",
+      "highlight": "rounded on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把數字向上或向下調整至較方便的數值；把尖銳或粗糙的邊角修得圓滑；突然轉向某人,憤怒地責罵或攻擊對方；以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語；尋找並把人、動物或物件集合起來；警方或軍人找到並拘捕某人",
+    "en": "round something up/down (to something); round something off; round on somebody; round something off / round something out (with something); round somebody/something up; round somebody up",
+    "naturalZh": [
+      "把數字向上或向下調整至較方便的數值",
+      "把尖銳或粗糙的邊角修得圓滑",
+      "突然轉向某人,憤怒地責罵或攻擊對方",
+      "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+      "尋找並把人、動物或物件集合起來",
+      "警方或軍人找到並拘捕某人"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "round something up/down (to something)",
+      "titleZh": "把數字向上或向下調整至較方便的數值",
+      "titleEn": "round something up/down (to something)",
+      "descriptionZh": "把數字向上或向下調整至較方便的數值",
+      "descriptionEn": "Round 47 up to 50.",
+      "examples": [
+        {
+          "en": "Round 47 up to 50.",
+          "zh": "把47向上調整至50。",
+          "highlight": "Round 47 up to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "round something off",
+      "titleZh": "把尖銳或粗糙的邊角修得圓滑",
+      "titleEn": "round something off",
+      "descriptionZh": "把尖銳或粗糙的邊角修得圓滑",
+      "descriptionEn": "Please round off the sharp corners.",
+      "examples": [
+        {
+          "en": "Please round off the sharp corners.",
+          "zh": "請把尖角修得圓滑。",
+          "highlight": "round off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "round on somebody",
+      "titleZh": "突然轉向某人,憤怒地責罵或攻擊對方",
+      "titleEn": "round on somebody",
+      "descriptionZh": "突然轉向某人,憤怒地責罵或攻擊對方",
+      "descriptionEn": "The coach suddenly rounded on the reporter.",
+      "examples": [
+        {
+          "en": "The coach suddenly rounded on the reporter.",
+          "zh": "教練突然轉向記者,憤怒地斥責對方。",
+          "highlight": "rounded on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "round something off / round something out (with something)",
+      "titleZh": "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+      "titleEn": "round something off / round something out (with something)",
+      "descriptionZh": "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+      "descriptionEn": "We rounded off the meal with coffee.",
+      "examples": [
+        {
+          "en": "We rounded off the meal with coffee.",
+          "zh": "我們以咖啡為這頓飯作結。",
+          "highlight": "rounded off the meal with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "round somebody/something up",
+      "titleZh": "尋找並把人、動物或物件集合起來",
+      "titleEn": "round somebody/something up",
+      "descriptionZh": "尋找並把人、動物或物件集合起來",
+      "descriptionEn": "The farmer rounded up the sheep.",
+      "examples": [
+        {
+          "en": "The farmer rounded up the sheep.",
+          "zh": "農夫把羊群集合起來。",
+          "highlight": "rounded up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "round somebody up",
+      "titleZh": "警方或軍人找到並拘捕某人",
+      "titleEn": "round somebody up",
+      "descriptionZh": "警方或軍人找到並拘捕某人",
+      "descriptionEn": "The police rounded up the gang.",
+      "examples": [
+        {
+          "en": "The police rounded up the gang.",
+          "zh": "警方拘捕了該幫派。",
+          "highlight": "rounded up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ROUND 片語動詞的實際用途",
+    "labelEn": "ROUND Phrasal Verbs in Use",
+    "summaryZh": "你可以使用 round up 和 round down,把價錢、總額、距離和其他數字調整至較簡單的數值。；round off 可以表示把尖銳的邊角修得圓滑,也可以表示為一頓飯、旅程、表演或活動作一個合適的結尾。；round on somebody 可以清楚表示某人突然把怒氣或批評指向另一個人。；round up 可以表示集合孩子、賓客或動物;在警方情境中,則可以表示找到並拘捕某些人。",
+    "summaryEn": "You can use round up and round down when changing prices, totals, distances and other numbers to simpler figures. Round off can mean making a sharp edge smooth. It can also mean giving a meal, trip, show or event a suitable ending. Round on somebody clearly shows that a person suddenly directs anger or criticism towards someone. Round up can describe gathering children, guests or animals. In a police situation, it can describe finding and arresting people.",
+    "contextsZh": [
+      "清楚談論數字和價錢",
+      "描述兩種截然不同的「完成」",
+      "描述突如其來的憤怒反應",
+      "談論集合人群和警方拘捕行動"
+    ],
+    "contextsEn": [
+      "Talk clearly about numbers and prices",
+      "Describe two very different ways of completing something",
+      "Describe a sudden angry reaction",
+      "Talk about gathering people and making arrests"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ROUND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ROUND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "round something up/down (to something)",
+    "fixedHighlight": "round something up/down (to something)",
+    "fixedZh": "閱讀整句,選出意思相同的 ROUND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ROUND expression that gives the same meaning.",
+    "correct": "Round 47 up to",
+    "incorrectForms": [],
+    "variableZh": "在本練習中,round something off 有兩個不同意思。它可以表示把邊角修得圓滑,也可以表示為活動作一個合適的結尾。；to + 數字 和 with + 事物 提供額外資料,但並非每次都必須使用。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Round something off has two different meanings in this exercise. It can make an edge smooth, or give an activity a suitable ending. To + number and with + something provide extra information, but they are not always required: round the price down round the price down to $20 round off the meal round off the meal with coffee When using it, him, her or them, follow these examples: round it down round them off round them up round on him",
+    "variableItemsZh": [
+      "round something up/down (to something)",
+      "round something off",
+      "round on somebody",
+      "round something off / round something out (with something)",
+      "round somebody/something up",
+      "round somebody up"
+    ],
+    "variableItemsEn": [
+      "round something up/down (to something)",
+      "round something off",
+      "round on somebody",
+      "round something off / round something out (with something)",
+      "round somebody/something up",
+      "round somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "把數字向上或向下調整至較方便的數值",
+        "formEn": "round something up/down (to something)",
+        "exampleZh": "把47向上調整至50。",
+        "exampleEn": "Round 47 up to 50.",
+        "highlight": "Round 47 up to"
+      },
+      {
+        "formZh": "把尖銳或粗糙的邊角修得圓滑",
+        "formEn": "round something off",
+        "exampleZh": "請把尖角修得圓滑。",
+        "exampleEn": "Please round off the sharp corners.",
+        "highlight": "round off"
+      },
+      {
+        "formZh": "突然轉向某人,憤怒地責罵或攻擊對方",
+        "formEn": "round on somebody",
+        "exampleZh": "教練突然轉向記者,憤怒地斥責對方。",
+        "exampleEn": "The coach suddenly rounded on the reporter.",
+        "highlight": "rounded on"
+      },
+      {
+        "formZh": "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+        "formEn": "round something off / round something out (with something)",
+        "exampleZh": "我們以咖啡為這頓飯作結。",
+        "exampleEn": "We rounded off the meal with coffee.",
+        "highlight": "rounded off the meal with"
+      },
+      {
+        "formZh": "尋找並把人、動物或物件集合起來",
+        "formEn": "round somebody/something up",
+        "exampleZh": "農夫把羊群集合起來。",
+        "exampleEn": "The farmer rounded up the sheep.",
+        "highlight": "rounded up"
+      },
+      {
+        "formZh": "警方或軍人找到並拘捕某人",
+        "formEn": "round somebody up",
+        "exampleZh": "警方拘捕了該幫派。",
+        "exampleEn": "The police rounded up the gang.",
+        "highlight": "rounded up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把數字向上或向下調整至較方便的數值",
+      "titleEn": "round something up/down (to something)",
+      "formula": "round something up/down (to something)",
+      "highlight": "round something up/down (to something)",
+      "descriptionZh": "把數字向上或向下調整至較方便的數值",
+      "descriptionEn": "Round 47 up to 50.",
+      "examples": [
+        {
+          "en": "Round 47 up to 50.",
+          "zh": "把47向上調整至50。",
+          "highlight": "Round 47 up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把尖銳或粗糙的邊角修得圓滑",
+      "titleEn": "round something off",
+      "formula": "round something off",
+      "highlight": "round something off",
+      "descriptionZh": "把尖銳或粗糙的邊角修得圓滑",
+      "descriptionEn": "Please round off the sharp corners.",
+      "examples": [
+        {
+          "en": "Please round off the sharp corners.",
+          "zh": "請把尖角修得圓滑。",
+          "highlight": "round off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然轉向某人,憤怒地責罵或攻擊對方",
+      "titleEn": "round on somebody",
+      "formula": "round on somebody",
+      "highlight": "round on somebody",
+      "descriptionZh": "突然轉向某人,憤怒地責罵或攻擊對方",
+      "descriptionEn": "The coach suddenly rounded on the reporter.",
+      "examples": [
+        {
+          "en": "The coach suddenly rounded on the reporter.",
+          "zh": "教練突然轉向記者,憤怒地斥責對方。",
+          "highlight": "rounded on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+      "titleEn": "round something off / round something out (with something)",
+      "formula": "round something off / round something out (with something)",
+      "highlight": "round something off / round something out (with something)",
+      "descriptionZh": "以合適或愉快的方式結束某項活動或事情;round out 主要見於美式英語",
+      "descriptionEn": "We rounded off the meal with coffee.",
+      "examples": [
+        {
+          "en": "We rounded off the meal with coffee.",
+          "zh": "我們以咖啡為這頓飯作結。",
+          "highlight": "rounded off the meal with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "尋找並把人、動物或物件集合起來",
+      "titleEn": "round somebody/something up",
+      "formula": "round somebody/something up",
+      "highlight": "round somebody/something up",
+      "descriptionZh": "尋找並把人、動物或物件集合起來",
+      "descriptionEn": "The farmer rounded up the sheep.",
+      "examples": [
+        {
+          "en": "The farmer rounded up the sheep.",
+          "zh": "農夫把羊群集合起來。",
+          "highlight": "rounded up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "警方或軍人找到並拘捕某人",
+      "titleEn": "round somebody up",
+      "formula": "round somebody up",
+      "highlight": "round somebody up",
+      "descriptionZh": "警方或軍人找到並拘捕某人",
+      "descriptionEn": "The police rounded up the gang.",
+      "examples": [
+        {
+          "en": "The police rounded up the gang.",
+          "zh": "警方拘捕了該幫派。",
+          "highlight": "rounded up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論數字和價錢",
+      "titleEn": "Talk clearly about numbers and prices",
+      "zh": "你可以使用 round up 和 round down,把價錢、總額、距離和其他數字調整至較簡單的數值。",
+      "en": "You can use round up and round down when changing prices, totals, distances and other numbers to simpler figures."
+    },
+    {
+      "titleZh": "描述兩種截然不同的「完成」",
+      "titleEn": "Describe two very different ways of completing something",
+      "zh": "round off 可以表示把尖銳的邊角修得圓滑,也可以表示為一頓飯、旅程、表演或活動作一個合適的結尾。",
+      "en": "Round off can mean making a sharp edge smooth. It can also mean giving a meal, trip, show or event a suitable ending."
+    },
+    {
+      "titleZh": "描述突如其來的憤怒反應",
+      "titleEn": "Describe a sudden angry reaction",
+      "zh": "round on somebody 可以清楚表示某人突然把怒氣或批評指向另一個人。",
+      "en": "Round on somebody clearly shows that a person suddenly directs anger or criticism towards someone."
+    },
+    {
+      "titleZh": "談論集合人群和警方拘捕行動",
+      "titleEn": "Talk about gathering people and making arrests",
+      "zh": "round up 可以表示集合孩子、賓客或動物;在警方情境中,則可以表示找到並拘捕某些人。",
+      "en": "Round up can describe gathering children, guests or animals. In a police situation, it can describe finding and arresting people."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論數字和價錢",
+      "描述兩種截然不同的「完成」",
+      "描述突如其來的憤怒反應",
+      "談論集合人群和警方拘捕行動"
+    ],
+    "contextsEn": [
+      "Talk clearly about numbers and prices",
+      "Describe two very different ways of completing something",
+      "Describe a sudden angry reaction",
+      "Talk about gathering people and making arrests"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論數字和價錢",
+        "titleEn": "Talk clearly about numbers and prices",
+        "zh": "你可以使用 round up 和 round down,把價錢、總額、距離和其他數字調整至較簡單的數值。",
+        "en": "You can use round up and round down when changing prices, totals, distances and other numbers to simpler figures.",
+        "examples": [
+          {
+            "en": "Round 47 up to 50.",
+            "zh": "把47向上調整至50。",
+            "highlight": "Round 47 up to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述兩種截然不同的「完成」",
+        "titleEn": "Describe two very different ways of completing something",
+        "zh": "round off 可以表示把尖銳的邊角修得圓滑,也可以表示為一頓飯、旅程、表演或活動作一個合適的結尾。",
+        "en": "Round off can mean making a sharp edge smooth. It can also mean giving a meal, trip, show or event a suitable ending.",
+        "examples": [
+          {
+            "en": "Please round off the sharp corners.",
+            "zh": "請把尖角修得圓滑。",
+            "highlight": "round off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突如其來的憤怒反應",
+        "titleEn": "Describe a sudden angry reaction",
+        "zh": "round on somebody 可以清楚表示某人突然把怒氣或批評指向另一個人。",
+        "en": "Round on somebody clearly shows that a person suddenly directs anger or criticism towards someone.",
+        "examples": [
+          {
+            "en": "The coach suddenly rounded on the reporter.",
+            "zh": "教練突然轉向記者,憤怒地斥責對方。",
+            "highlight": "rounded on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論集合人群和警方拘捕行動",
+        "titleEn": "Talk about gathering people and making arrests",
+        "zh": "round up 可以表示集合孩子、賓客或動物;在警方情境中,則可以表示找到並拘捕某些人。",
+        "en": "Round up can describe gathering children, guests or animals. In a police situation, it can describe finding and arresting people.",
+        "examples": [
+          {
+            "en": "We rounded off the meal with coffee.",
+            "zh": "我們以咖啡為這頓飯作結。",
+            "highlight": "rounded off the meal with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ROUND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ROUND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ROUND 片語動詞。",
+      "en": "Read the whole sentence and choose the ROUND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "在本練習中,round something off 有兩個不同意思。它可以表示把邊角修得圓滑,也可以表示為活動作一個合適的結尾。",
+      "titleEn": "Round something off has two different meanings in this exercise.",
+      "zh": "在本練習中,round something off 有兩個不同意思。它可以表示把邊角修得圓滑,也可以表示為活動作一個合適的結尾。",
+      "en": "Round something off has two different meanings in this exercise. It can make an edge smooth, or give an activity a suitable ending."
+    },
+    {
+      "titleZh": "to + 數字 和 with + 事物 提供額外資料,但並非每次都必須使用。",
+      "titleEn": "To + number and with + something provide extra information, but they are not always required: round the price down round the price down to $20 round off the meal round off the meal with coffee.",
+      "zh": "to + 數字 和 with + 事物 提供額外資料,但並非每次都必須使用。",
+      "en": "To + number and with + something provide extra information, but they are not always required: round the price down round the price down to $20 round off the meal round off the meal with coffee"
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, follow these examples: round it down round them off round them up round on him.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, follow these examples: round it down round them off round them up round on him"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ROUND 動詞片語句子改寫練習",
+    "titleEn": "ROUND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ROUND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ROUND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-271-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We finished the meal with fresh fruit.",
+      "promptZh": "我們以新鮮水果為這頓飯作結。",
+      "starter": "We",
+      "answer": "We rounded off the meal with fresh fruit.",
+      "answerZh": "我們以新鮮水果為這頓飯作結。",
+      "highlight": "rounded off",
+      "targetForm": "round something off with something",
+      "targetMeaningZh": "以某事物為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The cashier reduced the total from $20.40 to $20.",
+      "promptZh": "收銀員把總額由$20.40減至$20。",
+      "starter": "The",
+      "answer": "The cashier rounded the total down to $20.",
+      "answerZh": "收銀員把總額向下調整至$20。",
+      "highlight": "rounded",
+      "targetForm": "round something down to something",
+      "targetMeaningZh": "把數字向下調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The farmer gathered the sheep before dark.",
+      "promptZh": "農夫在天黑前把羊群集合起來。",
+      "starter": "The",
+      "answer": "The farmer rounded up the sheep before dark.",
+      "answerZh": "農夫在天黑前把羊群集合起來。",
+      "highlight": "rounded up",
+      "targetForm": "round something up",
+      "targetMeaningZh": "把人、動物或物件集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The coach suddenly faced the player and criticised him angrily.",
+      "promptZh": "教練突然面向那名球員,憤怒地批評他。",
+      "starter": "The",
+      "answer": "The coach suddenly rounded on the player and criticised him angrily.",
+      "answerZh": "教練突然轉向那名球員,憤怒地批評他。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Dad made the sharp corner of the shelf smooth and curved.",
+      "promptZh": "爸爸把架子的尖角磨得平滑圓潤。",
+      "starter": "Dad",
+      "answer": "Dad rounded off the sharp corner of the shelf.",
+      "answerZh": "爸爸把架子的尖角磨得平滑圓潤。",
+      "highlight": "rounded off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The police found and arrested the two thieves that night.",
+      "promptZh": "警方當晚找到並拘捕了兩名賊人。",
+      "starter": "The",
+      "answer": "The police rounded up the two thieves that night.",
+      "answerZh": "警方當晚拘捕了兩名賊人。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Change 46 to the next higher ten.",
+      "promptZh": "把46向上調整至下一個十位數。",
+      "starter": "Round",
+      "answer": "Round 46 up to 50.",
+      "answerZh": "把46向上調整至50。",
+      "highlight": "Round",
+      "targetForm": "round something up to something",
+      "targetMeaningZh": "把數字向上調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Without warning, Leo suddenly spoke angrily to his brother.",
+      "promptZh": "里奧毫無預警地突然憤怒斥責弟弟。",
+      "starter": "Without",
+      "answer": "Without warning, Leo rounded on his brother.",
+      "answerZh": "里奧毫無預警地突然憤怒斥責弟弟。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A short song gave the show a pleasant ending.",
+      "promptZh": "一首短歌為表演帶來愉快的結尾。",
+      "starter": "A",
+      "answer": "A short song rounded the show off nicely.",
+      "answerZh": "一首短歌為表演帶來愉快的結尾。",
+      "highlight": "rounded",
+      "targetForm": "round something off",
+      "targetMeaningZh": "為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please gather the children near the gate.",
+      "promptZh": "請把孩子們集合到閘門附近。",
+      "starter": "Please",
+      "answer": "Please round the children up near the gate.",
+      "answerZh": "請把孩子們集合到閘門附近。",
+      "highlight": "round",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The police found and arrested both suspects before morning.",
+      "promptZh": "警方在早上前找到並拘捕了兩名疑犯。",
+      "starter": "Both",
+      "answer": "Both suspects were rounded up before morning.",
+      "answerZh": "兩名疑犯均在早上前被拘捕。",
+      "highlight": "were rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The worker removed the sharp parts from the wooden edges.",
+      "promptZh": "工人把木邊的尖銳部分磨走。",
+      "starter": "The",
+      "answer": "The worker rounded the wooden edges off.",
+      "answerZh": "工人把木邊修得圓滑。",
+      "highlight": "rounded",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why is the customer suddenly speaking angrily to the assistant?",
+      "promptZh": "為甚麼那名顧客突然憤怒地責罵店員?",
+      "starter": "Why",
+      "answer": "Why is the customer rounding on the assistant?",
+      "answerZh": "為甚麼那名顧客突然憤怒地責罵店員?",
+      "highlight": "rounding on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "She has made the corners smooth and curved with sandpaper.",
+      "promptZh": "她已用砂紙把角位磨得平滑圓潤。",
+      "starter": "She",
+      "answer": "She has rounded the corners off with sandpaper.",
+      "answerZh": "她已用砂紙把角位磨得平滑圓潤。",
+      "highlight": "rounded",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The calculator is changing every decimal answer to a lower whole number.",
+      "promptZh": "計算機正把每個小數答案向下調整至較低的整數。",
+      "starter": "The",
+      "answer": "The calculator is rounding every decimal answer down.",
+      "answerZh": "計算機正把每個小數答案向下調整至較低的整數。",
+      "highlight": "rounding",
+      "targetForm": "round something down",
+      "targetMeaningZh": "把數字向下調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The police have found and arrested three members of the gang.",
+      "promptZh": "警方已找到並拘捕三名幫派成員。",
+      "starter": "The",
+      "answer": "The police have rounded up three members of the gang.",
+      "answerZh": "警方已拘捕三名幫派成員。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The band will finish the evening with one final song.",
+      "promptZh": "樂隊會以最後一首歌曲為晚上作結。",
+      "starter": "The",
+      "answer": "The band will round off the evening with one final song.",
+      "answerZh": "樂隊會以最後一首歌曲為晚上作結。",
+      "highlight": "round off",
+      "targetForm": "round something off with something",
+      "targetMeaningZh": "以某事物為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "We are gathering everyone who wants to join the photo.",
+      "promptZh": "我們正集合所有想參與合照的人。",
+      "starter": "We",
+      "answer": "We are rounding up everyone who wants to join the photo.",
+      "answerZh": "我們正集合所有想參與合照的人。",
+      "highlight": "rounding up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Should we change 76 to the next higher ten?",
+      "promptZh": "我們應否把76向上調整至下一個十位數?",
+      "starter": "Should",
+      "answer": "Should we round 76 up to 80?",
+      "answerZh": "我們應否把76向上調整至80?",
+      "highlight": "round",
+      "targetForm": "round something up to something",
+      "targetMeaningZh": "把數字向上調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will a short game give the party a pleasant ending?",
+      "promptZh": "一個簡短遊戲會否為派對帶來愉快的結尾?",
+      "starter": "Will",
+      "answer": "Will a short game round the party off nicely?",
+      "answerZh": "一個簡短遊戲會否為派對帶來愉快的結尾?",
+      "highlight": "round",
+      "targetForm": "round something off",
+      "targetMeaningZh": "為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The manager should not suddenly criticise staff angrily for small mistakes.",
+      "promptZh": "經理不應因小錯誤而突然憤怒斥責員工。",
+      "starter": "The",
+      "answer": "The manager should not round on staff for small mistakes.",
+      "answerZh": "經理不應因小錯誤而突然憤怒斥責員工。",
+      "highlight": "round on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Have you gathered all the volunteers for the meeting?",
+      "promptZh": "你已集合所有參與會議的義工嗎?",
+      "starter": "Have",
+      "answer": "Have you rounded up all the volunteers for the meeting?",
+      "answerZh": "你已集合所有參與會議的義工嗎?",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Can you make this rough edge smooth and curved?",
+      "promptZh": "你可以把這條粗糙的邊磨得平滑圓潤嗎?",
+      "starter": "Can",
+      "answer": "Can you round off this rough edge?",
+      "answerZh": "你可以把這條粗糙的邊磨得平滑圓潤嗎?",
+      "highlight": "round off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Will the officers find and arrest the two suspects tonight?",
+      "promptZh": "警員今晚會找到並拘捕兩名疑犯嗎?",
+      "starter": "Will",
+      "answer": "Will the officers round the two suspects up tonight?",
+      "answerZh": "警員今晚會拘捕兩名疑犯嗎?",
+      "highlight": "round",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The coach asked me to gather them for practice.",
+      "promptZh": "教練叫我集合他們練習。",
+      "starter": "The",
+      "answer": "The coach asked me to round them up for practice.",
+      "answerZh": "教練叫我集合他們練習。",
+      "highlight": "round",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The bill was $31.70, so the waiter increased it to $32.",
+      "promptZh": "帳單是$31.70,所以侍應把金額向上調整至$32。",
+      "starter": "The",
+      "answer": "The bill was $31.70, so the waiter rounded it up to $32.",
+      "answerZh": "帳單是$31.70,所以侍應把金額向上調整至$32。",
+      "highlight": "rounded",
+      "targetForm": "round something up to something",
+      "targetMeaningZh": "把數字向上調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "To end the trip pleasantly, we watched the sunset by the sea.",
+      "promptZh": "為了愉快地結束旅程,我們在海邊欣賞日落。",
+      "starter": "To",
+      "answer": "To round off the trip, we watched the sunset by the sea.",
+      "answerZh": "為了愉快地結束旅程,我們在海邊欣賞日落。",
+      "highlight": "round off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She stayed calm at first, but then suddenly spoke angrily to him.",
+      "promptZh": "她起初保持冷靜,但其後突然憤怒地斥責他。",
+      "starter": "She",
+      "answer": "She stayed calm at first, but then rounded on him without warning.",
+      "answerZh": "她起初保持冷靜,但其後毫無預警地突然憤怒斥責他。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "These corners are too sharp; please make them smooth and curved.",
+      "promptZh": "這些角位太尖銳;請把它們磨得平滑圓潤。",
+      "starter": "These",
+      "answer": "These corners are too sharp; please round them off.",
+      "answerZh": "這些角位太尖銳;請把它們磨得平滑圓潤。",
+      "highlight": "round",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The police searched all night and finally found and arrested them.",
+      "promptZh": "警方整夜搜查,最後找到並拘捕他們。",
+      "starter": "The",
+      "answer": "The police searched all night and finally rounded them up.",
+      "answerZh": "警方整夜搜查,最後拘捕他們。",
+      "highlight": "rounded",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The meal ended pleasantly with tea and small cakes.",
+      "promptZh": "這頓飯以茶和小蛋糕愉快地作結。",
+      "starter": "The",
+      "answer": "The meal was rounded off with tea and small cakes.",
+      "answerZh": "這頓飯以茶和小蛋糕愉快地作結。",
+      "highlight": "was rounded off",
+      "targetForm": "round something off with something",
+      "targetMeaningZh": "以某事物為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before the bus left, all the students had been gathered together.",
+      "promptZh": "巴士開出前,所有學生已集合起來。",
+      "starter": "Before",
+      "answer": "Before the bus left, all the students had been rounded up.",
+      "answerZh": "巴士開出前,所有學生已集合起來。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The price was $499.80, but the seller reduced it to $499.",
+      "promptZh": "價錢是$499.80,但賣方把價錢調低至$499。",
+      "starter": "The",
+      "answer": "The price was $499.80, but the seller rounded it down to $499.",
+      "answerZh": "價錢是$499.80,但賣方把價錢向下調整至$499。",
+      "highlight": "rounded",
+      "targetForm": "round something down to something",
+      "targetMeaningZh": "把數字向下調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The table was painted only after its edges had been made smooth and curved.",
+      "promptZh": "桌子的邊緣磨得平滑圓潤後,才髹上油漆。",
+      "starter": "The",
+      "answer": "The edges were rounded off before the table was painted.",
+      "answerZh": "桌子的邊緣磨得平滑圓潤後,才髹上油漆。",
+      "highlight": "The edges were rounded off before",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Officers found and arrested the gang after checking several houses.",
+      "promptZh": "警員搜查數間房屋後,找到並拘捕了該幫派。",
+      "starter": "The",
+      "answer": "The gang was rounded up after officers checked several houses.",
+      "answerZh": "警員搜查數間房屋後,拘捕了該幫派。",
+      "highlight": "was rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Being tired does not give you the right to suddenly speak angrily to everyone.",
+      "promptZh": "疲倦並不表示你有權突然憤怒斥責所有人。",
+      "starter": "Being",
+      "answer": "Being tired does not give you the right to round on everyone.",
+      "answerZh": "疲倦並不表示你有權突然憤怒斥責所有人。",
+      "highlight": "round on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After checking the station cameras, the police found and arrested the group of thieves.",
+      "promptZh": "警方查看車站的攝影機後,找到並拘捕了該群賊人。",
+      "starter": "After",
+      "answer": "After checking the station cameras, the police rounded up the group of thieves.",
+      "answerZh": "警方查看車站的攝影機後,拘捕了該群賊人。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Coffee and cake gave a long but enjoyable afternoon a pleasant ending.",
+      "promptZh": "咖啡和蛋糕為漫長但愉快的下午帶來美好結尾。",
+      "starter": "Coffee",
+      "answer": "Coffee and cake rounded off a long but enjoyable afternoon.",
+      "answerZh": "咖啡和蛋糕為漫長但愉快的下午帶來美好結尾。",
+      "highlight": "rounded off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The maker did not shorten the table; she only made its sharp corners smooth.",
+      "promptZh": "製作者沒有把桌子縮短;她只是把桌子的尖角磨得平滑。",
+      "starter": "The",
+      "answer": "The maker did not shorten the table; she only rounded off its sharp corners.",
+      "answerZh": "製作者沒有把桌子縮短;她只是把桌子的尖角磨得平滑。",
+      "highlight": "rounded off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The answer was 8.78, so the teacher increased it to 8.8.",
+      "promptZh": "答案是8.78,所以老師把數字向上調整至8.8。",
+      "starter": "The",
+      "answer": "The answer was 8.78, so the teacher rounded it up to 8.8.",
+      "answerZh": "答案是8.78,所以老師把數字向上調整至8.8。",
+      "highlight": "rounded",
+      "targetForm": "round something up to something",
+      "targetMeaningZh": "把數字向上調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We had ten minutes before the photo, so I gathered the last few guests.",
+      "promptZh": "我們在拍照前還有十分鐘,所以我集合了最後幾位賓客。",
+      "starter": "We",
+      "answer": "We had ten minutes before the photo, so I rounded up the last few guests.",
+      "answerZh": "我們在拍照前還有十分鐘,所以我集合了最後幾位賓客。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When asked about the delay, the driver suddenly criticised the reporter angrily.",
+      "promptZh": "被問及延誤時,那名司機突然憤怒地批評記者。",
+      "starter": "When",
+      "answer": "When asked about the delay, the driver rounded on the reporter.",
+      "answerZh": "被問及延誤時,那名司機突然憤怒地斥責記者。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Before giving the toy to the child, Kai made the hard plastic edges smooth.",
+      "promptZh": "啟把玩具交給孩子前,先把硬膠邊緣磨得平滑。",
+      "starter": "Before",
+      "answer": "Before giving the toy to the child, Kai rounded the hard plastic edges off.",
+      "answerZh": "啟把玩具交給孩子前,先把硬膠邊緣磨得平滑。",
+      "highlight": "rounded",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Several suspects were found, arrested and taken to the police station.",
+      "promptZh": "數名疑犯被找到、拘捕並帶往警署。",
+      "starter": "Several",
+      "answer": "Several suspects were rounded up and taken to the police station.",
+      "answerZh": "數名疑犯被拘捕並帶往警署。",
+      "highlight": "rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The team finished the project in a suitable way with a short video showing their work.",
+      "promptZh": "團隊以一段展示工作成果的短片,為項目作合適的結尾。",
+      "starter": "The",
+      "answer": "The team rounded the project out with a short video showing their work.",
+      "answerZh": "團隊以一段展示工作成果的短片,為項目作合適的結尾。",
+      "highlight": "rounded",
+      "targetForm": "round something out with something",
+      "targetMeaningZh": "以某事物為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Do not suddenly speak angrily to me just because the plan failed.",
+      "promptZh": "不要只因計劃失敗便突然憤怒斥責我。",
+      "starter": "Do",
+      "answer": "Do not round on me just because the plan failed.",
+      "answerZh": "不要只因計劃失敗便突然憤怒斥責我。",
+      "highlight": "round on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The map showed 4.9 kilometres. The guide changed the distance to the lower whole number.",
+      "promptZh": "地圖顯示4.9公里。導遊把距離改為較低的整數。",
+      "starter": "The",
+      "answer": "The map showed 4.9 kilometres. The guide rounded the distance down.",
+      "answerZh": "地圖顯示4.9公里。導遊把距離向下調整至較低的整數。",
+      "highlight": "rounded",
+      "targetForm": "round something down",
+      "targetMeaningZh": "把數字向下調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The dog helped the farmer gather the sheep into one field.",
+      "promptZh": "那隻狗協助農夫把羊群集合到同一塊田裏。",
+      "starter": "The",
+      "answer": "The dog helped the farmer round the sheep up into one field.",
+      "answerZh": "那隻狗協助農夫把羊群集合到同一塊田裏。",
+      "highlight": "round",
+      "targetForm": "round something up",
+      "targetMeaningZh": "把動物集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The old price was $1,249. For a simpler advert, the shop reduced it to $1,200.",
+      "promptZh": "原價是$1,249。為了令廣告更簡單,店舖把價錢調低至$1,200。",
+      "starter": "The",
+      "answer": "The old price was $1,249. For a simpler advert, the shop rounded it down to $1,200.",
+      "answerZh": "原價是$1,249。為了令廣告更簡單,店舖把價錢向下調整至$1,200。",
+      "highlight": "rounded",
+      "targetForm": "round something down to something",
+      "targetMeaningZh": "把數字向下調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When Nora asked a simple question about the missing money, the shop owner suddenly spoke angrily to her and said she had caused trouble.",
+      "promptZh": "當諾拉問起不見了的錢時,店主突然憤怒斥責她,並說她惹來麻煩。",
+      "starter": "When",
+      "answer": "When Nora asked a simple question about the missing money, the shop owner rounded on her and said she had caused trouble.",
+      "answerZh": "當諾拉問起不見了的錢時,店主突然憤怒斥責她,並說她惹來麻煩。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The train was due soon, so the guide quickly gathered everyone and led the group to the platform.",
+      "promptZh": "火車快將到達,所以導遊迅速集合所有人,並帶領大家前往月台。",
+      "starter": "The",
+      "answer": "The train was due soon, so the guide quickly rounded everyone up and led the group to the platform.",
+      "answerZh": "火車快將到達,所以導遊迅速集合所有人,並帶領大家前往月台。",
+      "highlight": "rounded",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "把人集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The new bench was almost ready, but the ends were still sharp, so the worker made them smooth before anyone sat down.",
+      "promptZh": "新長椅差不多完成,但兩端仍然尖銳,所以工人在有人坐下前把它們磨得平滑。",
+      "starter": "The",
+      "answer": "The new bench was almost ready, but the ends were still sharp, so the worker rounded them off before anyone sat down.",
+      "answerZh": "新長椅差不多完成,但兩端仍然尖銳,所以工人在有人坐下前把它們磨得平滑。",
+      "highlight": "rounded",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    },
+    {
+      "id": "phrasal-verb-271-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After a long day of games and swimming, we finished the picnic with hot chocolate by the fire.",
+      "promptZh": "經過一整天的遊戲和游泳後,我們在火旁喝熱朱古力,為野餐作結。",
+      "starter": "After",
+      "answer": "After a long day of games and swimming, we rounded off the picnic with hot chocolate by the fire.",
+      "answerZh": "經過一整天的遊戲和游泳後,我們在火旁喝熱朱古力,為野餐作結。",
+      "highlight": "rounded off",
+      "targetForm": "round something off with something",
+      "targetMeaningZh": "以某事物為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The gang had hidden in several places, but the police found and arrested them before the weekend.",
+      "promptZh": "該幫派匿藏於數個地方,但警方在週末前找到並拘捕了他們。",
+      "starter": "The",
+      "answer": "The gang had hidden in several places, but the police rounded them up before the weekend.",
+      "answerZh": "該幫派匿藏於數個地方,但警方在週末前拘捕了他們。",
+      "highlight": "rounded",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the mistake was not Ben’s fault, the customer suddenly spoke angrily to him as soon as he entered the room.",
+      "promptZh": "雖然錯誤並非賓的責任,但顧客在他一進入房間時便突然憤怒斥責他。",
+      "starter": "Although",
+      "answer": "Although the mistake was not Ben’s fault, the customer rounded on him as soon as he entered the room.",
+      "answerZh": "雖然錯誤並非賓的責任,但顧客在他一進入房間時便突然憤怒斥責他。",
+      "highlight": "rounded on",
+      "targetForm": "round on somebody",
+      "targetMeaningZh": "突然憤怒地責罵或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-271-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Since 98 people had booked, the organiser increased the number to 100 when ordering chairs.",
+      "promptZh": "由於已有98人預訂,主辦人在訂購椅子時把人數向上調整至100。",
+      "starter": "Since",
+      "answer": "Since 98 people had booked, the organiser rounded the number up to 100 when ordering chairs.",
+      "answerZh": "由於已有98人預訂,主辦人在訂購椅子時把人數向上調整至100。",
+      "highlight": "rounded",
+      "targetForm": "round something up to something",
+      "targetMeaningZh": "把數字向上調整至較方便的數值"
+    },
+    {
+      "id": "phrasal-verb-271-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "A final message from the teacher gave the school show a complete ending and reminded everyone why the event mattered.",
+      "promptZh": "老師最後的一段說話為學校表演帶來完整結尾,並提醒大家活動的重要意義。",
+      "starter": "A",
+      "answer": "A final message from the teacher rounded out the school show and reminded everyone why the event mattered.",
+      "answerZh": "老師最後的一段說話為學校表演帶來完整結尾,並提醒大家活動的重要意義。",
+      "highlight": "rounded out",
+      "targetForm": "round something out",
+      "targetMeaningZh": "為活動或事情作一個合適的結尾"
+    },
+    {
+      "id": "phrasal-verb-271-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before the storm arrived, the farmer gathered the animals and moved them into the barn.",
+      "promptZh": "暴風雨來臨前,農夫集合動物,並把牠們移進穀倉。",
+      "starter": "Before",
+      "answer": "Before the storm arrived, the farmer rounded the animals up and moved them into the barn.",
+      "answerZh": "暴風雨來臨前,農夫集合動物,並把牠們移進穀倉。",
+      "highlight": "rounded",
+      "targetForm": "round something up",
+      "targetMeaningZh": "把動物集合起來"
+    },
+    {
+      "id": "phrasal-verb-271-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After weeks of careful work, the police found and arrested all four suspects and questioned them at the station.",
+      "promptZh": "經過數星期的仔細調查,警方找到並拘捕四名疑犯,並在警署問話。",
+      "starter": "After",
+      "answer": "After weeks of careful work, all four suspects were rounded up and questioned at the police station.",
+      "answerZh": "經過數星期的仔細調查,四名疑犯全被拘捕,並在警署接受問話。",
+      "highlight": "were rounded up",
+      "targetForm": "round somebody up",
+      "targetMeaningZh": "由警方或軍人搜捕並拘捕某人"
+    },
+    {
+      "id": "phrasal-verb-271-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "To make the wooden box safer for children, the class made every corner smooth and checked it again.",
+      "promptZh": "為了令木箱對孩子更安全,全班把每個角位磨得平滑,然後再檢查一次。",
+      "starter": "To",
+      "answer": "To make the wooden box safer for children, the class rounded off every corner and checked it again.",
+      "answerZh": "為了令木箱對孩子更安全,全班把每個角位磨得平滑,然後再檢查一次。",
+      "highlight": "rounded off",
+      "targetForm": "round something off",
+      "targetMeaningZh": "把尖銳或粗糙的邊角修得圓滑"
+    }
+  ]
+}

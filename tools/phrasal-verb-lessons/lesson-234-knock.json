@@ -1,0 +1,3894 @@
+{
+  "id": "phrasal-verb-234",
+  "order": 234,
+  "slug": "knock",
+  "version": "1",
+  "title": "KNOCK 動詞片語",
+  "titleEn": "Knock",
+  "titleZh": "KNOCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 30,
+  "source": {
+    "file": "Phrasal Verbs 228 - KNOCK.pdf",
+    "sourceNumber": 228,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 KNOCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to KNOCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "KNOCK",
+      "highlight": "KNOCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Leo knocks about with the same three friends after school.",
+      "zh": "里奧放學後經常和同樣的三位朋友一起。",
+      "highlight": "knocks about with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They knocked about Europe for six weeks.",
+      "zh": "他們在歐洲四處遊歷了六星期。",
+      "highlight": "knocked about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "These old magazines have been knocking around since last summer.",
+      "zh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+      "highlight": "knocking around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與某人來往;經常和某人一起；到處遊歷;四處走動；長時間隨處放着;閒置；停止惱人或不當的行為；收工;下班；毆打或粗暴對待某人；拒絕某人或其申請；令某人花費某個金額；撞倒某人;令某人跌倒；殺死某人(非正式;多見於犯罪語境)；把某人從某物上撞下來；把某人打至失去知覺；敲門叫醒某人(英式;較舊式)；議價至較低價錢；擊敗並淘汰；粗暴搬弄或弄壞某物；很快喝下某飲品；拆卸;拆毀；撞出洞或凹痕；把釘、樁等敲入某處；迅速寫成或製作；減去價錢或數量；撞掉或撞壞某物；撞得某人失去呼吸等；碰跌或弄翻某物；把兩個空間或物件合併；迅速做成或準備好(英式;非正式)；因害怕或寒冷而互相碰撞；賽前擊球熱身(英式網球用語)；儘管去做;想做便做",
+    "en": "knock about/around with somebody; knock about/around; knock about/around something; knock about/around; knock it off; knock off; knock somebody about/around; knock somebody back; knock somebody back something; knock somebody down/over; knock somebody off; knock somebody off; knock somebody off something; knock somebody out; knock somebody up; knock somebody/something down; knock somebody/something out; knock somebody/something out of something; knock something about/around; knock something back; knock something down; knock a hole/dent in something; knock something in/into something; knock something off; knock something off; knock something off something; knock something out; knock something out of somebody; knock something over; knock something together; knock something up; knock together; knock up; knock yourself out",
+    "naturalZh": [
+      "與某人來往;經常和某人一起",
+      "到處遊歷;四處走動",
+      "長時間隨處放着;閒置",
+      "停止惱人或不當的行為",
+      "收工;下班",
+      "毆打或粗暴對待某人",
+      "拒絕某人或其申請",
+      "令某人花費某個金額",
+      "撞倒某人;令某人跌倒",
+      "殺死某人(非正式;多見於犯罪語境)",
+      "把某人從某物上撞下來",
+      "把某人打至失去知覺",
+      "敲門叫醒某人(英式;較舊式)",
+      "議價至較低價錢",
+      "擊敗並淘汰",
+      "粗暴搬弄或弄壞某物",
+      "很快喝下某飲品",
+      "拆卸;拆毀",
+      "撞出洞或凹痕",
+      "把釘、樁等敲入某處",
+      "迅速寫成或製作",
+      "減去價錢或數量",
+      "撞掉或撞壞某物",
+      "撞得某人失去呼吸等",
+      "碰跌或弄翻某物",
+      "把兩個空間或物件合併",
+      "迅速做成或準備好(英式;非正式)",
+      "因害怕或寒冷而互相碰撞",
+      "賽前擊球熱身(英式網球用語)",
+      "儘管去做;想做便做"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "knock about/around with somebody; knock about/around",
+      "titleZh": "與某人來往;經常和某人一起",
+      "titleEn": "knock about/around with somebody; knock about/around",
+      "descriptionZh": "與某人來往;經常和某人一起",
+      "descriptionEn": "Leo knocks about with the same three friends after school.",
+      "examples": [
+        {
+          "en": "Leo knocks about with the same three friends after school.",
+          "zh": "里奧放學後經常和同樣的三位朋友一起。",
+          "highlight": "knocks about with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock about/around something",
+      "titleZh": "到處遊歷;四處走動",
+      "titleEn": "knock about/around something",
+      "descriptionZh": "到處遊歷;四處走動",
+      "descriptionEn": "They knocked about Europe for six weeks.",
+      "examples": [
+        {
+          "en": "They knocked about Europe for six weeks.",
+          "zh": "他們在歐洲四處遊歷了六星期。",
+          "highlight": "knocked about"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock about/around",
+      "titleZh": "長時間隨處放着;閒置",
+      "titleEn": "knock about/around",
+      "descriptionZh": "長時間隨處放着;閒置",
+      "descriptionEn": "These old magazines have been knocking around since last summer.",
+      "examples": [
+        {
+          "en": "These old magazines have been knocking around since last summer.",
+          "zh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+          "highlight": "knocking around"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock it off",
+      "titleZh": "停止惱人或不當的行為",
+      "titleEn": "knock it off",
+      "descriptionZh": "停止惱人或不當的行為",
+      "descriptionEn": "Knock it off! The noise is giving me a headache.",
+      "examples": [
+        {
+          "en": "Knock it off! The noise is giving me a headache.",
+          "zh": "停止吧!那些噪音令我頭痛。",
+          "highlight": "Knock it off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock off",
+      "titleZh": "收工;下班",
+      "titleEn": "knock off",
+      "descriptionZh": "收工;下班",
+      "descriptionEn": "I knock off at five on Fridays.",
+      "examples": [
+        {
+          "en": "I knock off at five on Fridays.",
+          "zh": "我逢星期五五時下班。",
+          "highlight": "knock off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody about/around",
+      "titleZh": "毆打或粗暴對待某人",
+      "titleEn": "knock somebody about/around",
+      "descriptionZh": "毆打或粗暴對待某人",
+      "descriptionEn": "The older boys knocked him about behind the sports hall.",
+      "examples": [
+        {
+          "en": "The older boys knocked him about behind the sports hall.",
+          "zh": "那些年紀較大的男生在體育館後面多次打他。",
+          "highlight": "knocked him about"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody back",
+      "titleZh": "拒絕某人或其申請",
+      "titleEn": "knock somebody back",
+      "descriptionZh": "拒絕某人或其申請",
+      "descriptionEn": "The college knocked his application back.",
+      "examples": [
+        {
+          "en": "The college knocked his application back.",
+          "zh": "學院拒絕了他的申請。",
+          "highlight": "knocked his application back"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody back something",
+      "titleZh": "令某人花費某個金額",
+      "titleEn": "knock somebody back something",
+      "descriptionZh": "令某人花費某個金額",
+      "descriptionEn": "That jacket knocked me back £80.",
+      "examples": [
+        {
+          "en": "That jacket knocked me back £80.",
+          "zh": "那件外套花了我80英鎊。",
+          "highlight": "knocked me back"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody down/over",
+      "titleZh": "撞倒某人;令某人跌倒",
+      "titleEn": "knock somebody down/over",
+      "descriptionZh": "撞倒某人;令某人跌倒",
+      "descriptionEn": "A cyclist knocked Ben over near the station.",
+      "examples": [
+        {
+          "en": "A cyclist knocked Ben over near the station.",
+          "zh": "一名單車手在車站附近撞倒了賓。",
+          "highlight": "knocked Ben over"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody off",
+      "titleZh": "殺死某人(非正式;多見於犯罪語境)",
+      "titleEn": "knock somebody off",
+      "descriptionZh": "殺死某人(非正式;多見於犯罪語境)",
+      "descriptionEn": "In the crime film, the gang knocked the rival leader off.",
+      "examples": [
+        {
+          "en": "In the crime film, the gang knocked the rival leader off.",
+          "zh": "在那部犯罪電影中,幫派殺死了敵對幫派的首領。",
+          "highlight": "knocked the rival leader off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody off; knock somebody off something",
+      "titleZh": "把某人從某物上撞下來",
+      "titleEn": "knock somebody off; knock somebody off something",
+      "descriptionZh": "把某人從某物上撞下來",
+      "descriptionEn": "The branch knocked him off his bike.",
+      "examples": [
+        {
+          "en": "The branch knocked him off his bike.",
+          "zh": "樹枝把他從單車上撞了下來。",
+          "highlight": "knocked him off"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody out",
+      "titleZh": "把某人打至失去知覺",
+      "titleEn": "knock somebody out",
+      "descriptionZh": "把某人打至失去知覺",
+      "descriptionEn": "The blow knocked him out for a minute.",
+      "examples": [
+        {
+          "en": "The blow knocked him out for a minute.",
+          "zh": "那一擊令他失去知覺一分鐘。",
+          "highlight": "knocked him out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody up",
+      "titleZh": "敲門叫醒某人(英式;較舊式)",
+      "titleEn": "knock somebody up",
+      "descriptionZh": "敲門叫醒某人(英式;較舊式)",
+      "descriptionEn": "Could you knock me up at seven tomorrow?",
+      "examples": [
+        {
+          "en": "Could you knock me up at seven tomorrow?",
+          "zh": "你明天七時可以敲門叫醒我嗎?",
+          "highlight": "knock me up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody/something down",
+      "titleZh": "議價至較低價錢",
+      "titleEn": "knock somebody/something down",
+      "descriptionZh": "議價至較低價錢",
+      "descriptionEn": "I knocked the seller down to £25.",
+      "examples": [
+        {
+          "en": "I knocked the seller down to £25.",
+          "zh": "我說服賣家把價錢降至25英鎊。",
+          "highlight": "knocked the seller down"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock somebody/something out; knock somebody/something out of something",
+      "titleZh": "擊敗並淘汰",
+      "titleEn": "knock somebody/something out; knock somebody/something out of something",
+      "descriptionZh": "擊敗並淘汰",
+      "descriptionEn": "Spain knocked Italy out of the tournament.",
+      "examples": [
+        {
+          "en": "Spain knocked Italy out of the tournament.",
+          "zh": "西班牙擊敗意大利,令其在賽事中出局。",
+          "highlight": "knocked Italy out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 1
+    },
+    {
+      "formula": "knock something about/around",
+      "titleZh": "粗暴搬弄或弄壞某物",
+      "titleEn": "knock something about/around",
+      "descriptionZh": "粗暴搬弄或弄壞某物",
+      "descriptionEn": "Please do not knock the new chairs about.",
+      "examples": [
+        {
+          "en": "Please do not knock the new chairs about.",
+          "zh": "請不要粗暴搬弄那些新椅子。",
+          "highlight": "knock the new chairs about"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something back",
+      "titleZh": "很快喝下某飲品",
+      "titleEn": "knock something back",
+      "descriptionZh": "很快喝下某飲品",
+      "descriptionEn": "He knocked back a glass of water.",
+      "examples": [
+        {
+          "en": "He knocked back a glass of water.",
+          "zh": "他很快喝下一杯水。",
+          "highlight": "knocked back"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something down",
+      "titleZh": "拆卸;拆毀",
+      "titleEn": "knock something down",
+      "descriptionZh": "拆卸;拆毀",
+      "descriptionEn": "They knocked the old wall down.",
+      "examples": [
+        {
+          "en": "They knocked the old wall down.",
+          "zh": "他們拆掉了那面舊牆。",
+          "highlight": "knocked the old wall down"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock a hole/dent in something",
+      "titleZh": "撞出洞或凹痕",
+      "titleEn": "knock a hole/dent in something",
+      "descriptionZh": "撞出洞或凹痕",
+      "descriptionEn": "The workers knocked a hole in the wall for the new door.",
+      "examples": [
+        {
+          "en": "The workers knocked a hole in the wall for the new door.",
+          "zh": "工人為了安裝新門,在牆上敲出一個洞。",
+          "highlight": "knocked a hole in"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something in/into something",
+      "titleZh": "把釘、樁等敲入某處",
+      "titleEn": "knock something in/into something",
+      "descriptionZh": "把釘、樁等敲入某處",
+      "descriptionEn": "She knocked two nails into the wall.",
+      "examples": [
+        {
+          "en": "She knocked two nails into the wall.",
+          "zh": "她把兩枚釘敲進牆裏。",
+          "highlight": "knocked two nails into"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something off",
+      "titleZh": "迅速寫成或製作",
+      "titleEn": "knock something off",
+      "descriptionZh": "迅速寫成或製作",
+      "descriptionEn": "I knocked off a short report before lunch.",
+      "examples": [
+        {
+          "en": "I knocked off a short report before lunch.",
+          "zh": "我在午飯前迅速寫好一份簡短報告。",
+          "highlight": "knocked off"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something off; knock something off something",
+      "titleZh": "減去價錢或數量",
+      "titleEn": "knock something off; knock something off something",
+      "descriptionZh": "減去價錢或數量",
+      "descriptionEn": "The shop knocked £10 off the price.",
+      "examples": [
+        {
+          "en": "The shop knocked £10 off the price.",
+          "zh": "店舖把價錢減了10英鎊。",
+          "highlight": "knocked £10 off"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something out",
+      "titleZh": "撞掉或撞壞某物",
+      "titleEn": "knock something out",
+      "descriptionZh": "撞掉或撞壞某物",
+      "descriptionEn": "She knocked out a front tooth when she fell.",
+      "examples": [
+        {
+          "en": "She knocked out a front tooth when she fell.",
+          "zh": "她跌倒時撞掉了一顆門牙。",
+          "highlight": "knocked out"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something out of somebody",
+      "titleZh": "撞得某人失去呼吸等",
+      "titleEn": "knock something out of somebody",
+      "descriptionZh": "撞得某人失去呼吸等",
+      "descriptionEn": "The fall knocked the breath out of me.",
+      "examples": [
+        {
+          "en": "The fall knocked the breath out of me.",
+          "zh": "那次跌倒令我一時透不過氣。",
+          "highlight": "knocked the breath out"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something over",
+      "titleZh": "碰跌或弄翻某物",
+      "titleEn": "knock something over",
+      "descriptionZh": "碰跌或弄翻某物",
+      "descriptionEn": "You knocked my cup over.",
+      "examples": [
+        {
+          "en": "You knocked my cup over.",
+          "zh": "你把我的杯碰倒了。",
+          "highlight": "knocked my cup over"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something together",
+      "titleZh": "把兩個空間或物件合併",
+      "titleEn": "knock something together",
+      "descriptionZh": "把兩個空間或物件合併",
+      "descriptionEn": "They knocked the two small rooms together.",
+      "examples": [
+        {
+          "en": "They knocked the two small rooms together.",
+          "zh": "他們把兩個小房間合併成一個較大的房間。",
+          "highlight": "knocked the two small rooms together"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock something up",
+      "titleZh": "迅速做成或準備好(英式;非正式)",
+      "titleEn": "knock something up",
+      "descriptionZh": "迅速做成或準備好(英式;非正式)",
+      "descriptionEn": "Dad knocked up a simple meal in ten minutes.",
+      "examples": [
+        {
+          "en": "Dad knocked up a simple meal in ten minutes.",
+          "zh": "爸爸在十分鐘內迅速準備好一頓簡單的飯。",
+          "highlight": "knocked up"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock together",
+      "titleZh": "因害怕或寒冷而互相碰撞",
+      "titleEn": "knock together",
+      "descriptionZh": "因害怕或寒冷而互相碰撞",
+      "descriptionEn": "His knees knocked together with fear.",
+      "examples": [
+        {
+          "en": "His knees knocked together with fear.",
+          "zh": "他的膝蓋因害怕而互相碰撞。",
+          "highlight": "knocked together"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock up",
+      "titleZh": "賽前擊球熱身(英式網球用語)",
+      "titleEn": "knock up",
+      "descriptionZh": "賽前擊球熱身(英式網球用語)",
+      "descriptionEn": "We knocked up for ten minutes before the tennis match.",
+      "examples": [
+        {
+          "en": "We knocked up for ten minutes before the tennis match.",
+          "zh": "我們在網球比賽前擊球熱身了十分鐘。",
+          "highlight": "knocked up"
+        }
+      ],
+      "number": 29,
+      "pageGroup": 2
+    },
+    {
+      "formula": "knock yourself out",
+      "titleZh": "儘管去做;想做便做",
+      "titleEn": "knock yourself out",
+      "descriptionZh": "儘管去做;想做便做",
+      "descriptionEn": "You want to use my paints? Knock yourself out.",
+      "examples": [
+        {
+          "en": "You want to use my paints? Knock yourself out.",
+          "zh": "你想用我的顏料?儘管用吧。",
+          "highlight": "Knock yourself out"
+        }
+      ],
+      "number": 30,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "KNOCK 片語動詞的實際用途",
+    "labelEn": "KNOCK Phrasal Verbs in Use",
+    "summaryZh": "knock about 或 knock around 可以表示與某人來往、在某地四處遊歷,或某物長時間隨處放着。；KNOCK 片語動詞可以描述某人跌倒、失去知覺、被撞離單車,也可以表示物件被碰翻、撞壞或敲進某處。；你可以用 knock off 表示下班、knock somebody back 表示花費、knock something off a price 表示減價,以及 knock somebody down 表示議價。；KNOCK 可以表示迅速喝下飲品、迅速完成作品、迅速做成某物,或在網球比賽前擊球熱身。；knock it off 用來叫某人停止;knock yourself out 則表示對方可以儘管去做。",
+    "summaryEn": "Knock about or knock around can describe spending time with people, travelling through places or things that have been lying unused for a long time. KNOCK expressions can show a person falling, becoming unconscious, being forced off a bicycle, or an object being tipped over, broken or driven into a surface. You can use knock off for finishing work, knock somebody back for cost, knock something off a price for a reduction and knock somebody down when bargaining. KNOCK can describe drinking something quickly, producing a piece of work quickly, making something quickly or warming up before a tennis match. Knock it off tells somebody to stop. Knock yourself out tells somebody they may go ahead and do as much as they like.",
+    "contextsZh": [
+      "用 KNOCK 談論人物、地方和物件的不同狀況",
+      "更準確描述碰撞和移動",
+      "自然談論工作、價錢和花費",
+      "用同一系列表達多種迅速完成的動作",
+      "理解有力的非正式命令和許可"
+    ],
+    "contextsEn": [
+      "Use KNOCK to talk about people, places and things in different ways",
+      "Describe impacts and movement more precisely",
+      "Talk naturally about work, prices and costs",
+      "Express quick actions with one family of verbs",
+      "Understand strong informal commands and permission"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 KNOCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the KNOCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "knock about/around with somebody; knock about/around",
+    "fixedHighlight": "knock about/around with somebody; knock about/around",
+    "fixedZh": "閱讀整句,選出意思相同的 KNOCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the KNOCK expression that gives the same meaning.",
+    "correct": "knocks about with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 KNOCK ... OVER、KNOCK ... OFF 或 KNOCK ... OUT 等表達中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；有些 KNOCK 表達看來相同,但意思可以完全不同。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in expressions such as KNOCK... OVER, KNOCK... OFF or KNOCK... OUT, place the word as shown: knock him over knock her off the bike knock it out Some expressions look identical but have very different meanings. Read the full situation carefully: knock off work knock £10 off the price knock somebody off a bike knock somebody off in a crime story",
+    "variableItemsZh": [
+      "knock about/around with somebody; knock about/around",
+      "knock about/around something",
+      "knock about/around",
+      "knock it off",
+      "knock off",
+      "knock somebody about/around",
+      "knock somebody back",
+      "knock somebody back something",
+      "knock somebody down/over",
+      "knock somebody off",
+      "knock somebody off; knock somebody off something",
+      "knock somebody out",
+      "knock somebody up",
+      "knock somebody/something down",
+      "knock somebody/something out; knock somebody/something out of something",
+      "knock something about/around",
+      "knock something back",
+      "knock something down",
+      "knock a hole/dent in something",
+      "knock something in/into something",
+      "knock something off",
+      "knock something off; knock something off something",
+      "knock something out",
+      "knock something out of somebody",
+      "knock something over",
+      "knock something together",
+      "knock something up",
+      "knock together",
+      "knock up",
+      "knock yourself out"
+    ],
+    "variableItemsEn": [
+      "knock about/around with somebody; knock about/around",
+      "knock about/around something",
+      "knock about/around",
+      "knock it off",
+      "knock off",
+      "knock somebody about/around",
+      "knock somebody back",
+      "knock somebody back something",
+      "knock somebody down/over",
+      "knock somebody off",
+      "knock somebody off; knock somebody off something",
+      "knock somebody out",
+      "knock somebody up",
+      "knock somebody/something down",
+      "knock somebody/something out; knock somebody/something out of something",
+      "knock something about/around",
+      "knock something back",
+      "knock something down",
+      "knock a hole/dent in something",
+      "knock something in/into something",
+      "knock something off",
+      "knock something off; knock something off something",
+      "knock something out",
+      "knock something out of somebody",
+      "knock something over",
+      "knock something together",
+      "knock something up",
+      "knock together",
+      "knock up",
+      "knock yourself out"
+    ],
+    "forms": [
+      {
+        "formZh": "與某人來往;經常和某人一起",
+        "formEn": "knock about/around with somebody; knock about/around",
+        "exampleZh": "里奧放學後經常和同樣的三位朋友一起。",
+        "exampleEn": "Leo knocks about with the same three friends after school.",
+        "highlight": "knocks about with"
+      },
+      {
+        "formZh": "到處遊歷;四處走動",
+        "formEn": "knock about/around something",
+        "exampleZh": "他們在歐洲四處遊歷了六星期。",
+        "exampleEn": "They knocked about Europe for six weeks.",
+        "highlight": "knocked about"
+      },
+      {
+        "formZh": "長時間隨處放着;閒置",
+        "formEn": "knock about/around",
+        "exampleZh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+        "exampleEn": "These old magazines have been knocking around since last summer.",
+        "highlight": "knocking around"
+      },
+      {
+        "formZh": "停止惱人或不當的行為",
+        "formEn": "knock it off",
+        "exampleZh": "停止吧!那些噪音令我頭痛。",
+        "exampleEn": "Knock it off! The noise is giving me a headache.",
+        "highlight": "Knock it off"
+      },
+      {
+        "formZh": "收工;下班",
+        "formEn": "knock off",
+        "exampleZh": "我逢星期五五時下班。",
+        "exampleEn": "I knock off at five on Fridays.",
+        "highlight": "knock off"
+      },
+      {
+        "formZh": "毆打或粗暴對待某人",
+        "formEn": "knock somebody about/around",
+        "exampleZh": "那些年紀較大的男生在體育館後面多次打他。",
+        "exampleEn": "The older boys knocked him about behind the sports hall.",
+        "highlight": "knocked him about"
+      },
+      {
+        "formZh": "拒絕某人或其申請",
+        "formEn": "knock somebody back",
+        "exampleZh": "學院拒絕了他的申請。",
+        "exampleEn": "The college knocked his application back.",
+        "highlight": "knocked his application back"
+      },
+      {
+        "formZh": "令某人花費某個金額",
+        "formEn": "knock somebody back something",
+        "exampleZh": "那件外套花了我80英鎊。",
+        "exampleEn": "That jacket knocked me back £80.",
+        "highlight": "knocked me back"
+      },
+      {
+        "formZh": "撞倒某人;令某人跌倒",
+        "formEn": "knock somebody down/over",
+        "exampleZh": "一名單車手在車站附近撞倒了賓。",
+        "exampleEn": "A cyclist knocked Ben over near the station.",
+        "highlight": "knocked Ben over"
+      },
+      {
+        "formZh": "殺死某人(非正式;多見於犯罪語境)",
+        "formEn": "knock somebody off",
+        "exampleZh": "在那部犯罪電影中,幫派殺死了敵對幫派的首領。",
+        "exampleEn": "In the crime film, the gang knocked the rival leader off.",
+        "highlight": "knocked the rival leader off"
+      },
+      {
+        "formZh": "把某人從某物上撞下來",
+        "formEn": "knock somebody off; knock somebody off something",
+        "exampleZh": "樹枝把他從單車上撞了下來。",
+        "exampleEn": "The branch knocked him off his bike.",
+        "highlight": "knocked him off"
+      },
+      {
+        "formZh": "把某人打至失去知覺",
+        "formEn": "knock somebody out",
+        "exampleZh": "那一擊令他失去知覺一分鐘。",
+        "exampleEn": "The blow knocked him out for a minute.",
+        "highlight": "knocked him out"
+      },
+      {
+        "formZh": "敲門叫醒某人(英式;較舊式)",
+        "formEn": "knock somebody up",
+        "exampleZh": "你明天七時可以敲門叫醒我嗎?",
+        "exampleEn": "Could you knock me up at seven tomorrow?",
+        "highlight": "knock me up"
+      },
+      {
+        "formZh": "議價至較低價錢",
+        "formEn": "knock somebody/something down",
+        "exampleZh": "我說服賣家把價錢降至25英鎊。",
+        "exampleEn": "I knocked the seller down to £25.",
+        "highlight": "knocked the seller down"
+      },
+      {
+        "formZh": "擊敗並淘汰",
+        "formEn": "knock somebody/something out; knock somebody/something out of something",
+        "exampleZh": "西班牙擊敗意大利,令其在賽事中出局。",
+        "exampleEn": "Spain knocked Italy out of the tournament.",
+        "highlight": "knocked Italy out"
+      },
+      {
+        "formZh": "粗暴搬弄或弄壞某物",
+        "formEn": "knock something about/around",
+        "exampleZh": "請不要粗暴搬弄那些新椅子。",
+        "exampleEn": "Please do not knock the new chairs about.",
+        "highlight": "knock the new chairs about"
+      },
+      {
+        "formZh": "很快喝下某飲品",
+        "formEn": "knock something back",
+        "exampleZh": "他很快喝下一杯水。",
+        "exampleEn": "He knocked back a glass of water.",
+        "highlight": "knocked back"
+      },
+      {
+        "formZh": "拆卸;拆毀",
+        "formEn": "knock something down",
+        "exampleZh": "他們拆掉了那面舊牆。",
+        "exampleEn": "They knocked the old wall down.",
+        "highlight": "knocked the old wall down"
+      },
+      {
+        "formZh": "撞出洞或凹痕",
+        "formEn": "knock a hole/dent in something",
+        "exampleZh": "工人為了安裝新門,在牆上敲出一個洞。",
+        "exampleEn": "The workers knocked a hole in the wall for the new door.",
+        "highlight": "knocked a hole in"
+      },
+      {
+        "formZh": "把釘、樁等敲入某處",
+        "formEn": "knock something in/into something",
+        "exampleZh": "她把兩枚釘敲進牆裏。",
+        "exampleEn": "She knocked two nails into the wall.",
+        "highlight": "knocked two nails into"
+      },
+      {
+        "formZh": "迅速寫成或製作",
+        "formEn": "knock something off",
+        "exampleZh": "我在午飯前迅速寫好一份簡短報告。",
+        "exampleEn": "I knocked off a short report before lunch.",
+        "highlight": "knocked off"
+      },
+      {
+        "formZh": "減去價錢或數量",
+        "formEn": "knock something off; knock something off something",
+        "exampleZh": "店舖把價錢減了10英鎊。",
+        "exampleEn": "The shop knocked £10 off the price.",
+        "highlight": "knocked £10 off"
+      },
+      {
+        "formZh": "撞掉或撞壞某物",
+        "formEn": "knock something out",
+        "exampleZh": "她跌倒時撞掉了一顆門牙。",
+        "exampleEn": "She knocked out a front tooth when she fell.",
+        "highlight": "knocked out"
+      },
+      {
+        "formZh": "撞得某人失去呼吸等",
+        "formEn": "knock something out of somebody",
+        "exampleZh": "那次跌倒令我一時透不過氣。",
+        "exampleEn": "The fall knocked the breath out of me.",
+        "highlight": "knocked the breath out"
+      },
+      {
+        "formZh": "碰跌或弄翻某物",
+        "formEn": "knock something over",
+        "exampleZh": "你把我的杯碰倒了。",
+        "exampleEn": "You knocked my cup over.",
+        "highlight": "knocked my cup over"
+      },
+      {
+        "formZh": "把兩個空間或物件合併",
+        "formEn": "knock something together",
+        "exampleZh": "他們把兩個小房間合併成一個較大的房間。",
+        "exampleEn": "They knocked the two small rooms together.",
+        "highlight": "knocked the two small rooms together"
+      },
+      {
+        "formZh": "迅速做成或準備好(英式;非正式)",
+        "formEn": "knock something up",
+        "exampleZh": "爸爸在十分鐘內迅速準備好一頓簡單的飯。",
+        "exampleEn": "Dad knocked up a simple meal in ten minutes.",
+        "highlight": "knocked up"
+      },
+      {
+        "formZh": "因害怕或寒冷而互相碰撞",
+        "formEn": "knock together",
+        "exampleZh": "他的膝蓋因害怕而互相碰撞。",
+        "exampleEn": "His knees knocked together with fear.",
+        "highlight": "knocked together"
+      },
+      {
+        "formZh": "賽前擊球熱身(英式網球用語)",
+        "formEn": "knock up",
+        "exampleZh": "我們在網球比賽前擊球熱身了十分鐘。",
+        "exampleEn": "We knocked up for ten minutes before the tennis match.",
+        "highlight": "knocked up"
+      },
+      {
+        "formZh": "儘管去做;想做便做",
+        "formEn": "knock yourself out",
+        "exampleZh": "你想用我的顏料?儘管用吧。",
+        "exampleEn": "You want to use my paints? Knock yourself out.",
+        "highlight": "Knock yourself out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與某人來往;經常和某人一起",
+      "titleEn": "knock about/around with somebody; knock about/around",
+      "formula": "knock about/around with somebody; knock about/around",
+      "highlight": "knock about/around with somebody; knock about/around",
+      "descriptionZh": "與某人來往;經常和某人一起",
+      "descriptionEn": "Leo knocks about with the same three friends after school.",
+      "examples": [
+        {
+          "en": "Leo knocks about with the same three friends after school.",
+          "zh": "里奧放學後經常和同樣的三位朋友一起。",
+          "highlight": "knocks about with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "到處遊歷;四處走動",
+      "titleEn": "knock about/around something",
+      "formula": "knock about/around something",
+      "highlight": "knock about/around something",
+      "descriptionZh": "到處遊歷;四處走動",
+      "descriptionEn": "They knocked about Europe for six weeks.",
+      "examples": [
+        {
+          "en": "They knocked about Europe for six weeks.",
+          "zh": "他們在歐洲四處遊歷了六星期。",
+          "highlight": "knocked about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "長時間隨處放着;閒置",
+      "titleEn": "knock about/around",
+      "formula": "knock about/around",
+      "highlight": "knock about/around",
+      "descriptionZh": "長時間隨處放着;閒置",
+      "descriptionEn": "These old magazines have been knocking around since last summer.",
+      "examples": [
+        {
+          "en": "These old magazines have been knocking around since last summer.",
+          "zh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+          "highlight": "knocking around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "停止惱人或不當的行為",
+      "titleEn": "knock it off",
+      "formula": "knock it off",
+      "highlight": "knock it off",
+      "descriptionZh": "停止惱人或不當的行為",
+      "descriptionEn": "Knock it off! The noise is giving me a headache.",
+      "examples": [
+        {
+          "en": "Knock it off! The noise is giving me a headache.",
+          "zh": "停止吧!那些噪音令我頭痛。",
+          "highlight": "Knock it off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "收工;下班",
+      "titleEn": "knock off",
+      "formula": "knock off",
+      "highlight": "knock off",
+      "descriptionZh": "收工;下班",
+      "descriptionEn": "I knock off at five on Fridays.",
+      "examples": [
+        {
+          "en": "I knock off at five on Fridays.",
+          "zh": "我逢星期五五時下班。",
+          "highlight": "knock off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "毆打或粗暴對待某人",
+      "titleEn": "knock somebody about/around",
+      "formula": "knock somebody about/around",
+      "highlight": "knock somebody about/around",
+      "descriptionZh": "毆打或粗暴對待某人",
+      "descriptionEn": "The older boys knocked him about behind the sports hall.",
+      "examples": [
+        {
+          "en": "The older boys knocked him about behind the sports hall.",
+          "zh": "那些年紀較大的男生在體育館後面多次打他。",
+          "highlight": "knocked him about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "拒絕某人或其申請",
+      "titleEn": "knock somebody back",
+      "formula": "knock somebody back",
+      "highlight": "knock somebody back",
+      "descriptionZh": "拒絕某人或其申請",
+      "descriptionEn": "The college knocked his application back.",
+      "examples": [
+        {
+          "en": "The college knocked his application back.",
+          "zh": "學院拒絕了他的申請。",
+          "highlight": "knocked his application back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "令某人花費某個金額",
+      "titleEn": "knock somebody back something",
+      "formula": "knock somebody back something",
+      "highlight": "knock somebody back something",
+      "descriptionZh": "令某人花費某個金額",
+      "descriptionEn": "That jacket knocked me back £80.",
+      "examples": [
+        {
+          "en": "That jacket knocked me back £80.",
+          "zh": "那件外套花了我80英鎊。",
+          "highlight": "knocked me back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "撞倒某人;令某人跌倒",
+      "titleEn": "knock somebody down/over",
+      "formula": "knock somebody down/over",
+      "highlight": "knock somebody down/over",
+      "descriptionZh": "撞倒某人;令某人跌倒",
+      "descriptionEn": "A cyclist knocked Ben over near the station.",
+      "examples": [
+        {
+          "en": "A cyclist knocked Ben over near the station.",
+          "zh": "一名單車手在車站附近撞倒了賓。",
+          "highlight": "knocked Ben over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "殺死某人(非正式;多見於犯罪語境)",
+      "titleEn": "knock somebody off",
+      "formula": "knock somebody off",
+      "highlight": "knock somebody off",
+      "descriptionZh": "殺死某人(非正式;多見於犯罪語境)",
+      "descriptionEn": "In the crime film, the gang knocked the rival leader off.",
+      "examples": [
+        {
+          "en": "In the crime film, the gang knocked the rival leader off.",
+          "zh": "在那部犯罪電影中,幫派殺死了敵對幫派的首領。",
+          "highlight": "knocked the rival leader off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "把某人從某物上撞下來",
+      "titleEn": "knock somebody off; knock somebody off something",
+      "formula": "knock somebody off; knock somebody off something",
+      "highlight": "knock somebody off; knock somebody off something",
+      "descriptionZh": "把某人從某物上撞下來",
+      "descriptionEn": "The branch knocked him off his bike.",
+      "examples": [
+        {
+          "en": "The branch knocked him off his bike.",
+          "zh": "樹枝把他從單車上撞了下來。",
+          "highlight": "knocked him off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人打至失去知覺",
+      "titleEn": "knock somebody out",
+      "formula": "knock somebody out",
+      "highlight": "knock somebody out",
+      "descriptionZh": "把某人打至失去知覺",
+      "descriptionEn": "The blow knocked him out for a minute.",
+      "examples": [
+        {
+          "en": "The blow knocked him out for a minute.",
+          "zh": "那一擊令他失去知覺一分鐘。",
+          "highlight": "knocked him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "敲門叫醒某人(英式;較舊式)",
+      "titleEn": "knock somebody up",
+      "formula": "knock somebody up",
+      "highlight": "knock somebody up",
+      "descriptionZh": "敲門叫醒某人(英式;較舊式)",
+      "descriptionEn": "Could you knock me up at seven tomorrow?",
+      "examples": [
+        {
+          "en": "Could you knock me up at seven tomorrow?",
+          "zh": "你明天七時可以敲門叫醒我嗎?",
+          "highlight": "knock me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "議價至較低價錢",
+      "titleEn": "knock somebody/something down",
+      "formula": "knock somebody/something down",
+      "highlight": "knock somebody/something down",
+      "descriptionZh": "議價至較低價錢",
+      "descriptionEn": "I knocked the seller down to £25.",
+      "examples": [
+        {
+          "en": "I knocked the seller down to £25.",
+          "zh": "我說服賣家把價錢降至25英鎊。",
+          "highlight": "knocked the seller down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "擊敗並淘汰",
+      "titleEn": "knock somebody/something out; knock somebody/something out of something",
+      "formula": "knock somebody/something out; knock somebody/something out of something",
+      "highlight": "knock somebody/something out; knock somebody/something out of something",
+      "descriptionZh": "擊敗並淘汰",
+      "descriptionEn": "Spain knocked Italy out of the tournament.",
+      "examples": [
+        {
+          "en": "Spain knocked Italy out of the tournament.",
+          "zh": "西班牙擊敗意大利,令其在賽事中出局。",
+          "highlight": "knocked Italy out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "粗暴搬弄或弄壞某物",
+      "titleEn": "knock something about/around",
+      "formula": "knock something about/around",
+      "highlight": "knock something about/around",
+      "descriptionZh": "粗暴搬弄或弄壞某物",
+      "descriptionEn": "Please do not knock the new chairs about.",
+      "examples": [
+        {
+          "en": "Please do not knock the new chairs about.",
+          "zh": "請不要粗暴搬弄那些新椅子。",
+          "highlight": "knock the new chairs about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "很快喝下某飲品",
+      "titleEn": "knock something back",
+      "formula": "knock something back",
+      "highlight": "knock something back",
+      "descriptionZh": "很快喝下某飲品",
+      "descriptionEn": "He knocked back a glass of water.",
+      "examples": [
+        {
+          "en": "He knocked back a glass of water.",
+          "zh": "他很快喝下一杯水。",
+          "highlight": "knocked back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "拆卸;拆毀",
+      "titleEn": "knock something down",
+      "formula": "knock something down",
+      "highlight": "knock something down",
+      "descriptionZh": "拆卸;拆毀",
+      "descriptionEn": "They knocked the old wall down.",
+      "examples": [
+        {
+          "en": "They knocked the old wall down.",
+          "zh": "他們拆掉了那面舊牆。",
+          "highlight": "knocked the old wall down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "撞出洞或凹痕",
+      "titleEn": "knock a hole/dent in something",
+      "formula": "knock a hole/dent in something",
+      "highlight": "knock a hole/dent in something",
+      "descriptionZh": "撞出洞或凹痕",
+      "descriptionEn": "The workers knocked a hole in the wall for the new door.",
+      "examples": [
+        {
+          "en": "The workers knocked a hole in the wall for the new door.",
+          "zh": "工人為了安裝新門,在牆上敲出一個洞。",
+          "highlight": "knocked a hole in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "把釘、樁等敲入某處",
+      "titleEn": "knock something in/into something",
+      "formula": "knock something in/into something",
+      "highlight": "knock something in/into something",
+      "descriptionZh": "把釘、樁等敲入某處",
+      "descriptionEn": "She knocked two nails into the wall.",
+      "examples": [
+        {
+          "en": "She knocked two nails into the wall.",
+          "zh": "她把兩枚釘敲進牆裏。",
+          "highlight": "knocked two nails into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "迅速寫成或製作",
+      "titleEn": "knock something off",
+      "formula": "knock something off",
+      "highlight": "knock something off",
+      "descriptionZh": "迅速寫成或製作",
+      "descriptionEn": "I knocked off a short report before lunch.",
+      "examples": [
+        {
+          "en": "I knocked off a short report before lunch.",
+          "zh": "我在午飯前迅速寫好一份簡短報告。",
+          "highlight": "knocked off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "減去價錢或數量",
+      "titleEn": "knock something off; knock something off something",
+      "formula": "knock something off; knock something off something",
+      "highlight": "knock something off; knock something off something",
+      "descriptionZh": "減去價錢或數量",
+      "descriptionEn": "The shop knocked £10 off the price.",
+      "examples": [
+        {
+          "en": "The shop knocked £10 off the price.",
+          "zh": "店舖把價錢減了10英鎊。",
+          "highlight": "knocked £10 off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "撞掉或撞壞某物",
+      "titleEn": "knock something out",
+      "formula": "knock something out",
+      "highlight": "knock something out",
+      "descriptionZh": "撞掉或撞壞某物",
+      "descriptionEn": "She knocked out a front tooth when she fell.",
+      "examples": [
+        {
+          "en": "She knocked out a front tooth when she fell.",
+          "zh": "她跌倒時撞掉了一顆門牙。",
+          "highlight": "knocked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "撞得某人失去呼吸等",
+      "titleEn": "knock something out of somebody",
+      "formula": "knock something out of somebody",
+      "highlight": "knock something out of somebody",
+      "descriptionZh": "撞得某人失去呼吸等",
+      "descriptionEn": "The fall knocked the breath out of me.",
+      "examples": [
+        {
+          "en": "The fall knocked the breath out of me.",
+          "zh": "那次跌倒令我一時透不過氣。",
+          "highlight": "knocked the breath out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "碰跌或弄翻某物",
+      "titleEn": "knock something over",
+      "formula": "knock something over",
+      "highlight": "knock something over",
+      "descriptionZh": "碰跌或弄翻某物",
+      "descriptionEn": "You knocked my cup over.",
+      "examples": [
+        {
+          "en": "You knocked my cup over.",
+          "zh": "你把我的杯碰倒了。",
+          "highlight": "knocked my cup over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "把兩個空間或物件合併",
+      "titleEn": "knock something together",
+      "formula": "knock something together",
+      "highlight": "knock something together",
+      "descriptionZh": "把兩個空間或物件合併",
+      "descriptionEn": "They knocked the two small rooms together.",
+      "examples": [
+        {
+          "en": "They knocked the two small rooms together.",
+          "zh": "他們把兩個小房間合併成一個較大的房間。",
+          "highlight": "knocked the two small rooms together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "迅速做成或準備好(英式;非正式)",
+      "titleEn": "knock something up",
+      "formula": "knock something up",
+      "highlight": "knock something up",
+      "descriptionZh": "迅速做成或準備好(英式;非正式)",
+      "descriptionEn": "Dad knocked up a simple meal in ten minutes.",
+      "examples": [
+        {
+          "en": "Dad knocked up a simple meal in ten minutes.",
+          "zh": "爸爸在十分鐘內迅速準備好一頓簡單的飯。",
+          "highlight": "knocked up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "因害怕或寒冷而互相碰撞",
+      "titleEn": "knock together",
+      "formula": "knock together",
+      "highlight": "knock together",
+      "descriptionZh": "因害怕或寒冷而互相碰撞",
+      "descriptionEn": "His knees knocked together with fear.",
+      "examples": [
+        {
+          "en": "His knees knocked together with fear.",
+          "zh": "他的膝蓋因害怕而互相碰撞。",
+          "highlight": "knocked together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 29,
+      "titleZh": "賽前擊球熱身(英式網球用語)",
+      "titleEn": "knock up",
+      "formula": "knock up",
+      "highlight": "knock up",
+      "descriptionZh": "賽前擊球熱身(英式網球用語)",
+      "descriptionEn": "We knocked up for ten minutes before the tennis match.",
+      "examples": [
+        {
+          "en": "We knocked up for ten minutes before the tennis match.",
+          "zh": "我們在網球比賽前擊球熱身了十分鐘。",
+          "highlight": "knocked up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 30,
+      "titleZh": "儘管去做;想做便做",
+      "titleEn": "knock yourself out",
+      "formula": "knock yourself out",
+      "highlight": "knock yourself out",
+      "descriptionZh": "儘管去做;想做便做",
+      "descriptionEn": "You want to use my paints? Knock yourself out.",
+      "examples": [
+        {
+          "en": "You want to use my paints? Knock yourself out.",
+          "zh": "你想用我的顏料?儘管用吧。",
+          "highlight": "Knock yourself out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 KNOCK 談論人物、地方和物件的不同狀況",
+      "titleEn": "Use KNOCK to talk about people, places and things in different ways",
+      "zh": "knock about 或 knock around 可以表示與某人來往、在某地四處遊歷,或某物長時間隨處放着。",
+      "en": "Knock about or knock around can describe spending time with people, travelling through places or things that have been lying unused for a long time."
+    },
+    {
+      "titleZh": "更準確描述碰撞和移動",
+      "titleEn": "Describe impacts and movement more precisely",
+      "zh": "KNOCK 片語動詞可以描述某人跌倒、失去知覺、被撞離單車,也可以表示物件被碰翻、撞壞或敲進某處。",
+      "en": "KNOCK expressions can show a person falling, becoming unconscious, being forced off a bicycle, or an object being tipped over, broken or driven into a surface."
+    },
+    {
+      "titleZh": "自然談論工作、價錢和花費",
+      "titleEn": "Talk naturally about work, prices and costs",
+      "zh": "你可以用 knock off 表示下班、knock somebody back 表示花費、knock something off a price 表示減價,以及 knock somebody down 表示議價。",
+      "en": "You can use knock off for finishing work, knock somebody back for cost, knock something off a price for a reduction and knock somebody down when bargaining."
+    },
+    {
+      "titleZh": "用同一系列表達多種迅速完成的動作",
+      "titleEn": "Express quick actions with one family of verbs",
+      "zh": "KNOCK 可以表示迅速喝下飲品、迅速完成作品、迅速做成某物,或在網球比賽前擊球熱身。",
+      "en": "KNOCK can describe drinking something quickly, producing a piece of work quickly, making something quickly or warming up before a tennis match."
+    },
+    {
+      "titleZh": "理解有力的非正式命令和許可",
+      "titleEn": "Understand strong informal commands and permission",
+      "zh": "knock it off 用來叫某人停止;knock yourself out 則表示對方可以儘管去做。",
+      "en": "Knock it off tells somebody to stop. Knock yourself out tells somebody they may go ahead and do as much as they like."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 KNOCK 談論人物、地方和物件的不同狀況",
+      "更準確描述碰撞和移動",
+      "自然談論工作、價錢和花費",
+      "用同一系列表達多種迅速完成的動作",
+      "理解有力的非正式命令和許可"
+    ],
+    "contextsEn": [
+      "Use KNOCK to talk about people, places and things in different ways",
+      "Describe impacts and movement more precisely",
+      "Talk naturally about work, prices and costs",
+      "Express quick actions with one family of verbs",
+      "Understand strong informal commands and permission"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 KNOCK 談論人物、地方和物件的不同狀況",
+        "titleEn": "Use KNOCK to talk about people, places and things in different ways",
+        "zh": "knock about 或 knock around 可以表示與某人來往、在某地四處遊歷,或某物長時間隨處放着。",
+        "en": "Knock about or knock around can describe spending time with people, travelling through places or things that have been lying unused for a long time.",
+        "examples": [
+          {
+            "en": "Leo knocks about with the same three friends after school.",
+            "zh": "里奧放學後經常和同樣的三位朋友一起。",
+            "highlight": "knocks about with"
+          }
+        ]
+      },
+      {
+        "titleZh": "更準確描述碰撞和移動",
+        "titleEn": "Describe impacts and movement more precisely",
+        "zh": "KNOCK 片語動詞可以描述某人跌倒、失去知覺、被撞離單車,也可以表示物件被碰翻、撞壞或敲進某處。",
+        "en": "KNOCK expressions can show a person falling, becoming unconscious, being forced off a bicycle, or an object being tipped over, broken or driven into a surface.",
+        "examples": [
+          {
+            "en": "They knocked about Europe for six weeks.",
+            "zh": "他們在歐洲四處遊歷了六星期。",
+            "highlight": "knocked about"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論工作、價錢和花費",
+        "titleEn": "Talk naturally about work, prices and costs",
+        "zh": "你可以用 knock off 表示下班、knock somebody back 表示花費、knock something off a price 表示減價,以及 knock somebody down 表示議價。",
+        "en": "You can use knock off for finishing work, knock somebody back for cost, knock something off a price for a reduction and knock somebody down when bargaining.",
+        "examples": [
+          {
+            "en": "These old magazines have been knocking around since last summer.",
+            "zh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+            "highlight": "knocking around"
+          }
+        ]
+      },
+      {
+        "titleZh": "用同一系列表達多種迅速完成的動作",
+        "titleEn": "Express quick actions with one family of verbs",
+        "zh": "KNOCK 可以表示迅速喝下飲品、迅速完成作品、迅速做成某物,或在網球比賽前擊球熱身。",
+        "en": "KNOCK can describe drinking something quickly, producing a piece of work quickly, making something quickly or warming up before a tennis match.",
+        "examples": [
+          {
+            "en": "Knock it off! The noise is giving me a headache.",
+            "zh": "停止吧!那些噪音令我頭痛。",
+            "highlight": "Knock it off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解有力的非正式命令和許可",
+        "titleEn": "Understand strong informal commands and permission",
+        "zh": "knock it off 用來叫某人停止;knock yourself out 則表示對方可以儘管去做。",
+        "en": "Knock it off tells somebody to stop. Knock yourself out tells somebody they may go ahead and do as much as they like.",
+        "examples": [
+          {
+            "en": "I knock off at five on Fridays.",
+            "zh": "我逢星期五五時下班。",
+            "highlight": "knock off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 KNOCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the KNOCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 KNOCK 片語動詞。",
+      "en": "Read the whole sentence and choose the KNOCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 KNOCK ... OVER、KNOCK ... OFF 或 KNOCK ... OUT 等表達中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in expressions such as KNOCK.",
+      "zh": "在 KNOCK ... OVER、KNOCK ... OFF 或 KNOCK ... OUT 等表達中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in expressions such as KNOCK... OVER, KNOCK... OFF or KNOCK... OUT, place the word as shown: knock him over knock her off the bike knock it out"
+    },
+    {
+      "titleZh": "有些 KNOCK 表達看來相同,但意思可以完全不同。請仔細閱讀整個情境。",
+      "titleEn": "Some expressions look identical but have very different meanings.",
+      "zh": "有些 KNOCK 表達看來相同,但意思可以完全不同。請仔細閱讀整個情境。",
+      "en": "Some expressions look identical but have very different meanings. Read the full situation carefully: knock off work knock £10 off the price knock somebody off a bike knock somebody off in a crime story"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 KNOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to KNOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "KNOCK 動詞片語句子改寫練習",
+    "titleEn": "KNOCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 KNOCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to KNOCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          30
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          31,
+          60
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          61,
+          90
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          91,
+          120
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          121,
+          150
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-234-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Stop that! The noise is giving me a headache.",
+      "promptZh": "停止吧!那些噪音令我頭痛。",
+      "starter": "Knock",
+      "answer": "Knock it off! The noise is giving me a headache.",
+      "answerZh": "停止吧!那些噪音令我頭痛。",
+      "highlight": "Knock it off",
+      "targetForm": "knock it off",
+      "targetMeaningZh": "停止惱人或不當的行為"
+    },
+    {
+      "id": "phrasal-verb-234-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "He drank a glass of water very quickly.",
+      "promptZh": "他很快喝下一杯水。",
+      "starter": "He",
+      "answer": "He knocked back a glass of water.",
+      "answerZh": "他很快喝下一杯水。",
+      "highlight": "knocked back",
+      "targetForm": "knock something back",
+      "targetMeaningZh": "很快喝下某飲品"
+    },
+    {
+      "id": "phrasal-verb-234-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Leo spends time with the same three friends after school.",
+      "promptZh": "里奧放學後經常和同樣的三位朋友一起。",
+      "starter": "Leo",
+      "answer": "Leo knocks about with the same three friends after school.",
+      "answerZh": "里奧放學後經常和同樣的三位朋友一起。",
+      "highlight": "knocks about",
+      "targetForm": "knock about/around with somebody; knock about/around",
+      "targetMeaningZh": "與某人來往;經常和某人一起"
+    },
+    {
+      "id": "phrasal-verb-234-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "They demolished the old wall.",
+      "promptZh": "他們拆掉了那面舊牆。",
+      "starter": "They",
+      "answer": "They knocked the old wall down.",
+      "answerZh": "他們拆掉了那面舊牆。",
+      "highlight": "knocked",
+      "targetForm": "knock something down",
+      "targetMeaningZh": "拆卸;拆毀"
+    },
+    {
+      "id": "phrasal-verb-234-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "That jacket cost me £80.",
+      "promptZh": "那件外套花了我80英鎊。",
+      "starter": "That",
+      "answer": "That jacket knocked me back £80.",
+      "answerZh": "那件外套花了我80英鎊。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody back something",
+      "targetMeaningZh": "令某人花費某個金額"
+    },
+    {
+      "id": "phrasal-verb-234-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "You made my cup fall over.",
+      "promptZh": "你把我的杯碰倒了。",
+      "starter": "You",
+      "answer": "You knocked my cup over.",
+      "answerZh": "你把我的杯碰倒了。",
+      "highlight": "knocked",
+      "targetForm": "knock something over",
+      "targetMeaningZh": "碰跌或弄翻某物"
+    },
+    {
+      "id": "phrasal-verb-234-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I finish work at five on Fridays.",
+      "promptZh": "我逢星期五五時下班。",
+      "starter": "I",
+      "answer": "I knock off at five on Fridays.",
+      "answerZh": "我逢星期五五時下班。",
+      "highlight": "knock off",
+      "targetForm": "knock off",
+      "targetMeaningZh": "收工;下班"
+    },
+    {
+      "id": "phrasal-verb-234-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "A cyclist hit Ben and made him fall near the station.",
+      "promptZh": "一名單車手在車站附近撞到賓,令他跌倒。",
+      "starter": "A",
+      "answer": "A cyclist knocked Ben over near the station.",
+      "answerZh": "一名單車手在車站附近撞倒了賓。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody down/over",
+      "targetMeaningZh": "撞倒某人;令某人跌倒"
+    },
+    {
+      "id": "phrasal-verb-234-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I wrote a short report quickly before lunch.",
+      "promptZh": "我在午飯前迅速寫好一份簡短報告。",
+      "starter": "I",
+      "answer": "I knocked off a short report before lunch.",
+      "answerZh": "我在午飯前迅速寫好一份簡短報告。",
+      "highlight": "knocked off",
+      "targetForm": "knock something off",
+      "targetMeaningZh": "迅速寫成或製作"
+    },
+    {
+      "id": "phrasal-verb-234-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "These old magazines have been lying around since last summer.",
+      "promptZh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+      "starter": "These",
+      "answer": "These old magazines have been knocking around since last summer.",
+      "answerZh": "這些舊雜誌自去年夏天起便一直隨處放着。",
+      "highlight": "knocking",
+      "targetForm": "knock about/around",
+      "targetMeaningZh": "長時間隨處放着;閒置"
+    },
+    {
+      "id": "phrasal-verb-234-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The blow made him unconscious for a minute.",
+      "promptZh": "那一擊令他失去知覺一分鐘。",
+      "starter": "The",
+      "answer": "The blow knocked him out for a minute.",
+      "answerZh": "那一擊令他失去知覺一分鐘。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody out",
+      "targetMeaningZh": "把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-234-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Dad prepared a simple meal quickly in ten minutes.",
+      "promptZh": "爸爸在十分鐘內迅速準備好一頓簡單的飯。",
+      "starter": "Dad",
+      "answer": "Dad knocked up a simple meal in ten minutes.",
+      "answerZh": "爸爸在十分鐘內迅速準備好一頓簡單的飯。",
+      "highlight": "knocked up",
+      "targetForm": "knock something up",
+      "targetMeaningZh": "迅速做成或準備好;英式非正式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The older boys hit him repeatedly behind the sports hall.",
+      "promptZh": "那些年紀較大的男生在體育館後面多次打他。",
+      "starter": "The",
+      "answer": "The older boys knocked him about behind the sports hall.",
+      "answerZh": "那些年紀較大的男生在體育館後面多次打他。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody about/around",
+      "targetMeaningZh": "毆打或粗暴對待某人"
+    },
+    {
+      "id": "phrasal-verb-234-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The shop reduced the price by £10.",
+      "promptZh": "店舖把價錢減了10英鎊。",
+      "starter": "The",
+      "answer": "The shop knocked £10 off the price.",
+      "answerZh": "店舖把價錢減了10英鎊。",
+      "highlight": "knocked £10 off",
+      "targetForm": "knock something off; knock something off something",
+      "targetMeaningZh": "減去價錢或數量"
+    },
+    {
+      "id": "phrasal-verb-234-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Spain defeated Italy and removed them from the tournament.",
+      "promptZh": "西班牙擊敗意大利,令其在賽事中出局。",
+      "starter": "Spain",
+      "answer": "Spain knocked Italy out of the tournament.",
+      "answerZh": "西班牙擊敗意大利,令其在賽事中出局。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody/something out; knock somebody/something out of",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-234-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "You want to use my paints? Go ahead.",
+      "promptZh": "你想用我的顏料?儘管用吧。",
+      "starter": "You",
+      "answer": "You want to use my paints? Knock yourself out.",
+      "answerZh": "你想用我的顏料?儘管用吧。",
+      "highlight": "Knock yourself out",
+      "targetForm": "knock yourself out",
+      "targetMeaningZh": "儘管去做;想做便做"
+    },
+    {
+      "id": "phrasal-verb-234-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The workers made a hole in the wall by hitting it for the new door.",
+      "promptZh": "工人為了安裝新門,在牆上敲出一個洞。",
+      "starter": "The",
+      "answer": "The workers knocked a hole in the wall for the new door.",
+      "answerZh": "工人為了安裝新門,在牆上敲出一個洞。",
+      "highlight": "knocked",
+      "targetForm": "knock a hole/dent in something",
+      "targetMeaningZh": "撞出洞或凹痕"
+    },
+    {
+      "id": "phrasal-verb-234-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "They travelled around Europe for six weeks.",
+      "promptZh": "他們在歐洲四處遊歷了六星期。",
+      "starter": "They",
+      "answer": "They knocked about Europe for six weeks.",
+      "answerZh": "他們在歐洲四處遊歷了六星期。",
+      "highlight": "knocked about",
+      "targetForm": "knock about/around something",
+      "targetMeaningZh": "到處遊歷;四處走動"
+    },
+    {
+      "id": "phrasal-verb-234-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The fall forced all the air from my lungs.",
+      "promptZh": "那次跌倒令我一時透不過氣。",
+      "starter": "The",
+      "answer": "The fall knocked the breath out of me.",
+      "answerZh": "那次跌倒令我一時透不過氣。",
+      "highlight": "knocked",
+      "targetForm": "knock something out of somebody",
+      "targetMeaningZh": "撞得某人失去呼吸等"
+    },
+    {
+      "id": "phrasal-verb-234-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "In the crime film, the gang killed the rival leader.",
+      "promptZh": "在那部犯罪電影中,幫派殺死了敵對幫派的首領。",
+      "starter": "In",
+      "answer": "In the crime film, the gang knocked the rival leader off.",
+      "answerZh": "在那部犯罪電影中,幫派殺死了敵對幫派的首領。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody off",
+      "targetMeaningZh": "殺死某人;非正式,多見於犯罪語境"
+    },
+    {
+      "id": "phrasal-verb-234-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "His knees hit each other because he was afraid.",
+      "promptZh": "他的膝蓋因害怕而互相碰撞。",
+      "starter": "His",
+      "answer": "His knees knocked together with fear.",
+      "answerZh": "他的膝蓋因害怕而互相碰撞。",
+      "highlight": "knocked together with fear",
+      "targetForm": "knock together",
+      "targetMeaningZh": "因害怕或寒冷而互相碰撞"
+    },
+    {
+      "id": "phrasal-verb-234-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The college rejected his application.",
+      "promptZh": "學院拒絕了他的申請。",
+      "starter": "The",
+      "answer": "The college knocked his application back.",
+      "answerZh": "學院拒絕了他的申請。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody back",
+      "targetMeaningZh": "拒絕某人或其申請"
+    },
+    {
+      "id": "phrasal-verb-234-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She drove two nails into the wall with a hammer.",
+      "promptZh": "她用錘子把兩枚釘敲進牆裏。",
+      "starter": "She",
+      "answer": "She knocked two nails into the wall.",
+      "answerZh": "她把兩枚釘敲進牆裏。",
+      "highlight": "knocked",
+      "targetForm": "knock something in/into something",
+      "targetMeaningZh": "把釘、樁等敲入某處"
+    },
+    {
+      "id": "phrasal-verb-234-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Could you wake me by tapping on my door at seven tomorrow?",
+      "promptZh": "你明天七時可以輕敲房門叫醒我嗎?",
+      "starter": "Could",
+      "answer": "Could you knock me up at seven tomorrow?",
+      "answerZh": "你明天七時可以敲門叫醒我嗎?",
+      "highlight": "knock",
+      "targetForm": "knock somebody up",
+      "targetMeaningZh": "敲門叫醒某人;英式較舊式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "They joined the two small rooms to make one larger room.",
+      "promptZh": "他們把兩個小房間合併成一個較大的房間。",
+      "starter": "They",
+      "answer": "They knocked the two small rooms together.",
+      "answerZh": "他們把兩個小房間合併成一個較大的房間。",
+      "highlight": "knocked",
+      "targetForm": "knock something together",
+      "targetMeaningZh": "把兩個空間或物件合併"
+    },
+    {
+      "id": "phrasal-verb-234-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The branch hit him and made him fall off his bike.",
+      "promptZh": "樹枝撞到他,令他從單車上跌下來。",
+      "starter": "The",
+      "answer": "The branch knocked him off his bike.",
+      "answerZh": "樹枝把他從單車上撞了下來。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody off; knock somebody off something",
+      "targetMeaningZh": "把某人從某物上撞下來"
+    },
+    {
+      "id": "phrasal-verb-234-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We practised hitting the ball for ten minutes before the tennis match.",
+      "promptZh": "我們在網球比賽前擊球熱身了十分鐘。",
+      "starter": "We",
+      "answer": "We knocked up for ten minutes before the tennis match.",
+      "answerZh": "我們在網球比賽前擊球熱身了十分鐘。",
+      "highlight": "knocked up",
+      "targetForm": "knock up",
+      "targetMeaningZh": "賽前擊球熱身;英式網球用語"
+    },
+    {
+      "id": "phrasal-verb-234-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I persuaded the seller to lower the price to £25.",
+      "promptZh": "我說服賣家把價錢降至25英鎊。",
+      "starter": "I",
+      "answer": "I knocked the seller down to £25.",
+      "answerZh": "我說服賣家把價錢降至25英鎊。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody/something down",
+      "targetMeaningZh": "議價至較低價錢"
+    },
+    {
+      "id": "phrasal-verb-234-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "She lost a front tooth when she fell.",
+      "promptZh": "她跌倒時撞掉了一顆門牙。",
+      "starter": "She",
+      "answer": "She knocked out a front tooth when she fell.",
+      "answerZh": "她跌倒時撞掉了一顆門牙。",
+      "highlight": "knocked out",
+      "targetForm": "knock something out",
+      "targetMeaningZh": "撞掉或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Please do not handle the new chairs roughly.",
+      "promptZh": "請不要粗暴搬弄那些新椅子。",
+      "starter": "Please",
+      "answer": "Please do not knock the new chairs about.",
+      "answerZh": "請不要粗暴搬弄那些新椅子。",
+      "highlight": "knock",
+      "targetForm": "knock something about/around",
+      "targetMeaningZh": "粗暴搬弄或弄壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "How much did the repair cost you?",
+      "promptZh": "維修費花了你多少錢?",
+      "starter": "How",
+      "answer": "How much did the repair knock you back?",
+      "answerZh": "維修費花了你多少錢?",
+      "highlight": "knock",
+      "targetForm": "knock somebody back something",
+      "targetMeaningZh": "令某人花費某個金額"
+    },
+    {
+      "id": "phrasal-verb-234-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Will you two stop behaving like that and listen for a minute?",
+      "promptZh": "你們兩個可以停止那種行為,聽一分鐘嗎?",
+      "starter": "Will",
+      "answer": "Will you two knock it off and listen for a minute?",
+      "answerZh": "你們兩個可以停止那種行為,聽一分鐘嗎?",
+      "highlight": "knock it off",
+      "targetForm": "knock it off",
+      "targetMeaningZh": "停止惱人或不當的行為"
+    },
+    {
+      "id": "phrasal-verb-234-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The falling branch made a deep dent in the car roof when it hit it.",
+      "promptZh": "掉下來的樹枝撞到車頂,造成一個深凹痕。",
+      "starter": "The",
+      "answer": "The falling branch knocked a deep dent in the car roof.",
+      "answerZh": "掉下來的樹枝在車頂撞出一個深凹痕。",
+      "highlight": "knocked",
+      "targetForm": "knock a hole/dent in something",
+      "targetMeaningZh": "撞出洞或凹痕"
+    },
+    {
+      "id": "phrasal-verb-234-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Who have you been spending time with lately?",
+      "promptZh": "你最近經常和誰一起?",
+      "starter": "Who",
+      "answer": "Who have you been knocking around with lately?",
+      "answerZh": "你最近經常和誰一起?",
+      "highlight": "knocking around",
+      "targetForm": "knock about/around with somebody; knock about/around",
+      "targetMeaningZh": "與某人來往;經常和某人一起"
+    },
+    {
+      "id": "phrasal-verb-234-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The cat has made the plant fall over again.",
+      "promptZh": "那隻貓又把盆栽碰倒了。",
+      "starter": "The",
+      "answer": "The cat has knocked the plant over again.",
+      "answerZh": "那隻貓又把盆栽碰倒了。",
+      "highlight": "knocked",
+      "targetForm": "knock something over",
+      "targetMeaningZh": "碰跌或弄翻某物"
+    },
+    {
+      "id": "phrasal-verb-234-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The hotel worker woke us by tapping on the door before sunrise.",
+      "promptZh": "酒店職員在日出前輕敲房門叫醒了我們。",
+      "starter": "The",
+      "answer": "The hotel worker knocked us up before sunrise.",
+      "answerZh": "酒店職員在日出前敲門叫醒了我們。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody up",
+      "targetMeaningZh": "敲門叫醒某人;英式較舊式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The police believed that the gang had been hitting the young man and treating him roughly.",
+      "promptZh": "警方相信那群人一直毆打並粗暴對待那名年輕男子。",
+      "starter": "The",
+      "answer": "The police believed that the gang had been knocking the young man around.",
+      "answerZh": "警方相信那群人一直毆打並粗暴對待那名年輕男子。",
+      "highlight": "knocking",
+      "targetForm": "knock somebody about/around",
+      "targetMeaningZh": "毆打或粗暴對待某人"
+    },
+    {
+      "id": "phrasal-verb-234-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Are the players warming up by hitting the ball on the next court?",
+      "promptZh": "球員正在隔壁球場擊球熱身嗎?",
+      "starter": "Are",
+      "answer": "Are the players knocking up on the next court?",
+      "answerZh": "球員正在隔壁球場擊球熱身嗎?",
+      "highlight": "knocking",
+      "targetForm": "knock up",
+      "targetMeaningZh": "賽前擊球熱身;英式網球用語"
+    },
+    {
+      "id": "phrasal-verb-234-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The empty shop is being demolished this week.",
+      "promptZh": "那間空置店舖本星期正在被拆卸。",
+      "starter": "The",
+      "answer": "The empty shop is being knocked down this week.",
+      "answerZh": "那間空置店舖本星期正在被拆卸。",
+      "highlight": "knocked down",
+      "targetForm": "knock something down",
+      "targetMeaningZh": "拆卸;拆毀"
+    },
+    {
+      "id": "phrasal-verb-234-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Is that spare key still lying somewhere in the kitchen?",
+      "promptZh": "那條後備鎖匙是否仍然隨處放在廚房某處?",
+      "starter": "Is",
+      "answer": "Is that spare key still knocking about somewhere in the kitchen?",
+      "answerZh": "那條後備鎖匙是否仍然隨處放在廚房某處?",
+      "highlight": "knocking about",
+      "targetForm": "knock about/around",
+      "targetMeaningZh": "長時間隨處放着;閒置"
+    },
+    {
+      "id": "phrasal-verb-234-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She can produce five simple drawings in an hour.",
+      "promptZh": "她可以在一小時內迅速畫好五幅簡單圖畫。",
+      "starter": "She",
+      "answer": "She can knock off five simple drawings in an hour.",
+      "answerZh": "她可以在一小時內迅速畫好五幅簡單圖畫。",
+      "highlight": "knock off",
+      "targetForm": "knock something off",
+      "targetMeaningZh": "迅速寫成或製作"
+    },
+    {
+      "id": "phrasal-verb-234-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The detective thinks someone was paid to kill the witness.",
+      "promptZh": "偵探認為有人收錢殺死那名證人。",
+      "starter": "The",
+      "answer": "The detective thinks someone was paid to knock the witness off.",
+      "answerZh": "偵探認為有人收錢殺死那名證人。",
+      "highlight": "knock",
+      "targetForm": "knock somebody off",
+      "targetMeaningZh": "殺死某人;非正式,多見於犯罪語境"
+    },
+    {
+      "id": "phrasal-verb-234-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "That hard tackle nearly left him unable to breathe.",
+      "promptZh": "那次猛烈攔截差點令他透不過氣。",
+      "starter": "That",
+      "answer": "That hard tackle nearly knocked the wind out of him.",
+      "answerZh": "那次猛烈攔截差點令他透不過氣。",
+      "highlight": "knocked the wind out of",
+      "targetForm": "knock something out of somebody",
+      "targetMeaningZh": "撞得某人失去呼吸等"
+    },
+    {
+      "id": "phrasal-verb-234-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Our team has been defeated and removed from the competition in the first round.",
+      "promptZh": "我們的球隊在第一圈已被擊敗並淘汰出局。",
+      "starter": "Our",
+      "answer": "Our team has been knocked out in the first round.",
+      "answerZh": "我們的球隊在第一圈已被淘汰出局。",
+      "highlight": "knocked out",
+      "targetForm": "knock somebody/something out; knock somebody/something out of",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-234-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "What time are you finishing work today?",
+      "promptZh": "你今天甚麼時候下班?",
+      "starter": "What",
+      "answer": "What time are you knocking off today?",
+      "answerZh": "你今天甚麼時候下班?",
+      "highlight": "knocking off",
+      "targetForm": "knock off",
+      "targetMeaningZh": "收工;下班"
+    },
+    {
+      "id": "phrasal-verb-234-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Can you make a quick poster for the club?",
+      "promptZh": "你可以迅速為學會製作一張海報嗎?",
+      "starter": "Can",
+      "answer": "Can you knock up a quick poster for the club?",
+      "answerZh": "你可以迅速為學會製作一張海報嗎?",
+      "highlight": "knock up",
+      "targetForm": "knock something up",
+      "targetMeaningZh": "迅速做成或準備好;英式非正式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "A sudden wave nearly caused the child to fall off the board.",
+      "promptZh": "一個突如其來的浪差點令那名孩子從滑板上跌下來。",
+      "starter": "A",
+      "answer": "A sudden wave nearly knocked the child off the board.",
+      "answerZh": "一個突如其來的浪差點把那名孩子從滑板上撞下來。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody off; knock somebody off something",
+      "targetMeaningZh": "把某人從某物上撞下來"
+    },
+    {
+      "id": "phrasal-verb-234-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please drive the loose peg in before someone trips.",
+      "promptZh": "請在有人絆倒前把鬆脫的木栓敲進去。",
+      "starter": "Please",
+      "answer": "Please knock the loose peg in before someone trips.",
+      "answerZh": "請在有人絆倒前把鬆脫的木栓敲進去。",
+      "highlight": "knock",
+      "targetForm": "knock something in/into something",
+      "targetMeaningZh": "把釘、樁等敲入某處"
+    },
+    {
+      "id": "phrasal-verb-234-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "If you enjoy sorting old photos, go ahead and do it.",
+      "promptZh": "如果你喜歡整理舊照片,儘管去做吧。",
+      "starter": "If",
+      "answer": "If you enjoy sorting old photos, knock yourself out.",
+      "answerZh": "如果你喜歡整理舊照片,儘管去做吧。",
+      "highlight": "knock yourself out",
+      "targetForm": "knock yourself out",
+      "targetMeaningZh": "儘管去做;想做便做"
+    },
+    {
+      "id": "phrasal-verb-234-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "She has been rejected twice for the same job.",
+      "promptZh": "她申請同一份工作時已兩次被拒絕。",
+      "starter": "She",
+      "answer": "She has been knocked back twice for the same job.",
+      "answerZh": "她申請同一份工作時已兩次被拒絕。",
+      "highlight": "knocked back",
+      "targetForm": "knock somebody back",
+      "targetMeaningZh": "拒絕某人或其申請"
+    },
+    {
+      "id": "phrasal-verb-234-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They are reducing all coat prices by 20 per cent this weekend.",
+      "promptZh": "他們本週末會把所有外套的價錢減低百分之二十。",
+      "starter": "They",
+      "answer": "They are knocking 20 per cent off all coats this weekend.",
+      "answerZh": "他們本週末會把所有外套的價錢減低百分之二十。",
+      "highlight": "knocking",
+      "targetForm": "knock something off; knock something off something",
+      "targetMeaningZh": "減去價錢或數量"
+    },
+    {
+      "id": "phrasal-verb-234-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We are wandering around the old part of the city today.",
+      "promptZh": "我們今天正在城市的舊區四處走動。",
+      "starter": "We",
+      "answer": "We are knocking around the old part of the city today.",
+      "answerZh": "我們今天正在城市的舊區四處走動。",
+      "highlight": "knocking",
+      "targetForm": "knock about/around something",
+      "targetMeaningZh": "到處遊歷;四處走動"
+    },
+    {
+      "id": "phrasal-verb-234-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "My teeth were hitting each other in the cold.",
+      "promptZh": "我的牙齒在寒冷中不停互相碰撞。",
+      "starter": "My",
+      "answer": "My teeth were knocking together in the cold.",
+      "answerZh": "我的牙齒在寒冷中不停互相碰撞。",
+      "highlight": "knocking together",
+      "targetForm": "knock together",
+      "targetMeaningZh": "因害怕或寒冷而互相碰撞"
+    },
+    {
+      "id": "phrasal-verb-234-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The builders have been treating the kitchen roughly during the work all week.",
+      "promptZh": "建築工人整個星期施工時都把廚房弄得很亂。",
+      "starter": "The",
+      "answer": "The builders have been knocking the kitchen around all week.",
+      "answerZh": "建築工人整個星期施工時都把廚房弄得很亂。",
+      "highlight": "knocking",
+      "targetForm": "knock something about/around",
+      "targetMeaningZh": "粗暴搬弄或弄壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "A car hit her and made her fall while she was crossing the road.",
+      "promptZh": "她過馬路時被汽車撞到並跌倒。",
+      "starter": "She",
+      "answer": "She was knocked down by a car while crossing the road.",
+      "answerZh": "她過馬路時被汽車撞倒。",
+      "highlight": "She was knocked down by",
+      "targetForm": "knock somebody down/over",
+      "targetMeaningZh": "撞倒某人;令某人跌倒"
+    },
+    {
+      "id": "phrasal-verb-234-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The crash broke one of the car’s back lights.",
+      "promptZh": "碰撞弄壞了汽車其中一盞尾燈。",
+      "starter": "The",
+      "answer": "The crash knocked out one of the car’s back lights.",
+      "answerZh": "碰撞弄壞了汽車其中一盞尾燈。",
+      "highlight": "knocked out",
+      "targetForm": "knock something out",
+      "targetMeaningZh": "撞掉或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q57",
+      "number": 57,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Can you persuade them to lower the price a little?",
+      "promptZh": "你可以說服他們把價錢降低一點嗎?",
+      "starter": "Can",
+      "answer": "Can you knock the price down a little?",
+      "answerZh": "你可以把價錢議低一點嗎?",
+      "highlight": "knock",
+      "targetForm": "knock somebody/something down",
+      "targetMeaningZh": "議價至較低價錢"
+    },
+    {
+      "id": "phrasal-verb-234-q58",
+      "number": 58,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The owners are combining the kitchen and dining room into one space.",
+      "promptZh": "業主正在把廚房和飯廳合併成一個空間。",
+      "starter": "The",
+      "answer": "The owners are knocking the kitchen and dining room together.",
+      "answerZh": "業主正在把廚房和飯廳合併成一個空間。",
+      "highlight": "knocking",
+      "targetForm": "knock something together",
+      "targetMeaningZh": "把兩個空間或物件合併"
+    },
+    {
+      "id": "phrasal-verb-234-q59",
+      "number": 59,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She had quickly drunk two cups of coffee before the exam.",
+      "promptZh": "她在考試前已迅速喝下兩杯咖啡。",
+      "starter": "She",
+      "answer": "She had knocked back two cups of coffee before the exam.",
+      "answerZh": "她在考試前已迅速喝下兩杯咖啡。",
+      "highlight": "knocked back",
+      "targetForm": "knock something back",
+      "targetMeaningZh": "很快喝下某飲品"
+    },
+    {
+      "id": "phrasal-verb-234-q60",
+      "number": 60,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Did the fall make her unconscious?",
+      "promptZh": "那次跌倒有沒有令她失去知覺?",
+      "starter": "Was",
+      "answer": "Was she knocked out by the fall?",
+      "answerZh": "那次跌倒有沒有令她失去知覺?",
+      "highlight": "Was she knocked out by",
+      "targetForm": "knock somebody out",
+      "targetMeaningZh": "把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-234-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The writer had written the article quickly by midnight.",
+      "promptZh": "那名作家在午夜前已迅速寫好文章。",
+      "starter": "The",
+      "answer": "The writer had knocked off the article by midnight.",
+      "answerZh": "那名作家在午夜前已迅速寫好文章。",
+      "highlight": "knocked off",
+      "targetForm": "knock something off",
+      "targetMeaningZh": "迅速寫成或製作"
+    },
+    {
+      "id": "phrasal-verb-234-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The strong wave nearly made us fall.",
+      "promptZh": "強浪差點令我們跌倒。",
+      "starter": "The",
+      "answer": "The strong wave nearly knocked us over.",
+      "answerZh": "強浪差點令我們跌倒。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody down/over",
+      "targetMeaningZh": "撞倒某人;令某人跌倒"
+    },
+    {
+      "id": "phrasal-verb-234-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I found a charger that had been lying in the drawer for months.",
+      "promptZh": "我找到一個已在抽屜裏放了數月的充電器。",
+      "starter": "I",
+      "answer": "I found a charger that had been knocking around in the drawer for months.",
+      "answerZh": "我找到一個已在抽屜裏放了數月的充電器。",
+      "highlight": "knocking around",
+      "targetForm": "knock about/around",
+      "targetMeaningZh": "長時間隨處放着;閒置"
+    },
+    {
+      "id": "phrasal-verb-234-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "She had persuaded the stallholder to lower the price from £40 to £30.",
+      "promptZh": "她已說服檔主把價錢由40英鎊降至30英鎊。",
+      "starter": "She",
+      "answer": "She had knocked the stallholder down from £40 to £30.",
+      "answerZh": "她已說服檔主把價錢由40英鎊降至30英鎊。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody/something down",
+      "targetMeaningZh": "議價至較低價錢"
+    },
+    {
+      "id": "phrasal-verb-234-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Her knees began hitting each other as she waited to go on stage.",
+      "promptZh": "她等候上台時,膝蓋開始不停互相碰撞。",
+      "starter": "Her",
+      "answer": "Her knees began knocking together as she waited to go on stage.",
+      "answerZh": "她等候上台時,膝蓋開始不停互相碰撞。",
+      "highlight": "knocking together",
+      "targetForm": "knock together",
+      "targetMeaningZh": "因害怕或寒冷而互相碰撞"
+    },
+    {
+      "id": "phrasal-verb-234-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "No child should be hit or treated roughly by anyone at home or school.",
+      "promptZh": "任何兒童在家中或學校都不應受到任何人毆打或粗暴對待。",
+      "starter": "No",
+      "answer": "No child should be knocked about by anyone at home or school.",
+      "answerZh": "任何兒童在家中或學校都不應受到任何人毆打或粗暴對待。",
+      "highlight": "knocked about",
+      "targetForm": "knock somebody about/around",
+      "targetMeaningZh": "毆打或粗暴對待某人"
+    },
+    {
+      "id": "phrasal-verb-234-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Why are you drinking that juice so quickly?",
+      "promptZh": "你為何那麼快喝下那杯果汁?",
+      "starter": "Why",
+      "answer": "Why are you knocking that juice back so fast?",
+      "answerZh": "你為何那麼快喝下那杯果汁?",
+      "highlight": "knocking",
+      "targetForm": "knock something back",
+      "targetMeaningZh": "很快喝下某飲品"
+    },
+    {
+      "id": "phrasal-verb-234-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The sudden impact had forced all the air out of her.",
+      "promptZh": "那次突然的撞擊令她一時透不過氣。",
+      "starter": "The",
+      "answer": "The sudden impact had knocked all the air out of her.",
+      "answerZh": "那次突然的撞擊令她一時透不過氣。",
+      "highlight": "knocked",
+      "targetForm": "knock something out of somebody",
+      "targetMeaningZh": "撞得某人失去呼吸等"
+    },
+    {
+      "id": "phrasal-verb-234-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She used to spend time with the older students, but not now.",
+      "promptZh": "她以前經常和年紀較大的學生一起,但現在不會了。",
+      "starter": "She",
+      "answer": "She used to knock about with the older students, but not now.",
+      "answerZh": "她以前經常和年紀較大的學生一起,但現在不會了。",
+      "highlight": "knock about",
+      "targetForm": "knock about/around with somebody; knock about/around",
+      "targetMeaningZh": "與某人來往;經常和某人一起"
+    },
+    {
+      "id": "phrasal-verb-234-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We could join these two offices to create a larger space.",
+      "promptZh": "我們可以把這兩間辦公室合併,創造更大的空間。",
+      "starter": "We",
+      "answer": "We could knock these two offices together to create a larger space.",
+      "answerZh": "我們可以把這兩間辦公室合併,創造更大的空間。",
+      "highlight": "knock",
+      "targetForm": "knock something together",
+      "targetMeaningZh": "把兩個空間或物件合併"
+    },
+    {
+      "id": "phrasal-verb-234-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The doctor said the medicine might make me sleep deeply for several hours.",
+      "promptZh": "醫生說那種藥可能會令我沉睡數小時。",
+      "starter": "The",
+      "answer": "The doctor said the medicine might knock me out for several hours.",
+      "answerZh": "醫生說那種藥可能會令我沉睡數小時。",
+      "highlight": "knock",
+      "targetForm": "knock somebody out",
+      "targetMeaningZh": "令某人失去知覺或沉睡"
+    },
+    {
+      "id": "phrasal-verb-234-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "How did they make that hole in the metal door by hitting it?",
+      "promptZh": "他們怎樣在金屬門上敲出那個洞?",
+      "starter": "How",
+      "answer": "How did they knock that hole in the metal door?",
+      "answerZh": "他們怎樣在金屬門上敲出那個洞?",
+      "highlight": "knock",
+      "targetForm": "knock a hole/dent in something",
+      "targetMeaningZh": "撞出洞或凹痕"
+    },
+    {
+      "id": "phrasal-verb-234-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Dad said I could decorate the spare room as much as I wanted.",
+      "promptZh": "爸爸說我可以隨意裝飾客房。",
+      "starter": "Dad",
+      "answer": "Dad said I could knock myself out decorating the spare room.",
+      "answerZh": "爸爸說我可以隨意裝飾客房。",
+      "highlight": "knock myself out decorating",
+      "targetForm": "knock yourself out",
+      "targetMeaningZh": "儘管去做;想做便做"
+    },
+    {
+      "id": "phrasal-verb-234-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We had just finished work when the manager called us back.",
+      "promptZh": "經理叫我們回去時,我們剛剛下班。",
+      "starter": "We",
+      "answer": "We had just knocked off when the manager called us back.",
+      "answerZh": "經理叫我們回去時,我們剛剛下班。",
+      "highlight": "knocked off",
+      "targetForm": "knock off",
+      "targetMeaningZh": "收工;下班"
+    },
+    {
+      "id": "phrasal-verb-234-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Could you reduce the price a little more?",
+      "promptZh": "你可以再減一點價錢嗎?",
+      "starter": "Could",
+      "answer": "Could you knock a little more off?",
+      "answerZh": "你可以再減一點價錢嗎?",
+      "highlight": "knock",
+      "targetForm": "knock something off; knock something off something",
+      "targetMeaningZh": "減去價錢或數量"
+    },
+    {
+      "id": "phrasal-verb-234-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The falling shelf hit me and made me fall off my chair.",
+      "promptZh": "掉下來的架子撞到我,令我從椅子上跌下來。",
+      "starter": "I",
+      "answer": "I was knocked off my chair when the shelf fell.",
+      "answerZh": "架子掉下來時,我被撞離椅子。",
+      "highlight": "I was knocked",
+      "targetForm": "knock somebody off; knock somebody off something",
+      "targetMeaningZh": "把某人從某物上撞下來"
+    },
+    {
+      "id": "phrasal-verb-234-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The coach asked us to practise hitting the ball until the other team arrived.",
+      "promptZh": "教練叫我們在另一隊到達前繼續擊球熱身。",
+      "starter": "The",
+      "answer": "The coach asked us to knock up until the other team arrived.",
+      "answerZh": "教練叫我們在另一隊到達前繼續擊球熱身。",
+      "highlight": "knock up",
+      "targetForm": "knock up",
+      "targetMeaningZh": "賽前擊球熱身;英式網球用語"
+    },
+    {
+      "id": "phrasal-verb-234-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Why did the bank reject your request?",
+      "promptZh": "銀行為何拒絕你的要求?",
+      "starter": "Why",
+      "answer": "Why did the bank knock your request back?",
+      "answerZh": "銀行為何拒絕你的要求?",
+      "highlight": "knock",
+      "targetForm": "knock somebody back",
+      "targetMeaningZh": "拒絕某人或其申請"
+    },
+    {
+      "id": "phrasal-verb-234-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The parcel was badly damaged by rough handling during delivery.",
+      "promptZh": "包裹在運送期間因粗暴搬運而嚴重受損。",
+      "starter": "The",
+      "answer": "The parcel was badly knocked about during delivery.",
+      "answerZh": "包裹在運送期間因粗暴搬運而嚴重受損。",
+      "highlight": "knocked about",
+      "targetForm": "knock something about/around",
+      "targetMeaningZh": "粗暴搬弄或弄壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Be careful not to make the paint container fall and spill.",
+      "promptZh": "小心不要碰翻油漆。",
+      "starter": "Be",
+      "answer": "Be careful not to knock the paint over.",
+      "answerZh": "小心不要碰翻油漆。",
+      "highlight": "knock",
+      "targetForm": "knock something over",
+      "targetMeaningZh": "碰跌或弄翻某物"
+    },
+    {
+      "id": "phrasal-verb-234-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The weekend away will probably cost us about £300.",
+      "promptZh": "這次週末外遊大概會花我們300英鎊。",
+      "starter": "The",
+      "answer": "The weekend away will probably knock us back about £300.",
+      "answerZh": "這次週末外遊大概會花我們300英鎊。",
+      "highlight": "knock",
+      "targetForm": "knock somebody back something",
+      "targetMeaningZh": "令某人花費某個金額"
+    },
+    {
+      "id": "phrasal-verb-234-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Should the council demolish the unsafe building?",
+      "promptZh": "市議會應否拆卸那幢不安全的建築物?",
+      "starter": "Should",
+      "answer": "Should the council knock down the unsafe building?",
+      "answerZh": "市議會應否拆卸那幢不安全的建築物?",
+      "highlight": "knock down",
+      "targetForm": "knock something down",
+      "targetMeaningZh": "拆卸;拆毀"
+    },
+    {
+      "id": "phrasal-verb-234-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After university, Rosa spent a year travelling around South America.",
+      "promptZh": "大學畢業後,羅莎花了一年在南美洲四處遊歷。",
+      "starter": "After",
+      "answer": "After university, Rosa spent a year knocking about South America.",
+      "answerZh": "大學畢業後,羅莎花了一年在南美洲四處遊歷。",
+      "highlight": "knocking about",
+      "targetForm": "knock about/around something",
+      "targetMeaningZh": "到處遊歷;四處走動"
+    },
+    {
+      "id": "phrasal-verb-234-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She had quickly made a small shelf from some old wood.",
+      "promptZh": "她已用一些舊木迅速做成一個小架子。",
+      "starter": "She",
+      "answer": "She had knocked up a small shelf from some old wood.",
+      "answerZh": "她已用一些舊木迅速做成一個小架子。",
+      "highlight": "knocked up",
+      "targetForm": "knock something up",
+      "targetMeaningZh": "迅速做成或準備好;英式非正式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I asked Priya to wake me by tapping on the door because my alarm was broken.",
+      "promptZh": "我的鬧鐘壞了,所以我請普里雅輕敲房門叫醒我。",
+      "starter": "I",
+      "answer": "I asked Priya to knock me up because my alarm was broken.",
+      "answerZh": "我的鬧鐘壞了,所以我請普里雅敲門叫醒我。",
+      "highlight": "knock",
+      "targetForm": "knock somebody up",
+      "targetMeaningZh": "敲門叫醒某人;英式較舊式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "How did he lose his tooth by hitting it?",
+      "promptZh": "他怎樣把牙齒撞掉的?",
+      "starter": "How",
+      "answer": "How did he knock his tooth out?",
+      "answerZh": "他怎樣把牙齒撞掉的?",
+      "highlight": "knock",
+      "targetForm": "knock something out",
+      "targetMeaningZh": "撞掉或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Dad told us to stop what we were doing before someone got hurt.",
+      "promptZh": "爸爸叫我們在有人受傷前停止正在做的事。",
+      "starter": "Dad",
+      "answer": "Dad told us to knock it off before someone got hurt.",
+      "answerZh": "爸爸叫我們在有人受傷前停止正在做的事。",
+      "highlight": "knock it off",
+      "targetForm": "knock it off",
+      "targetMeaningZh": "停止惱人或不當的行為"
+    },
+    {
+      "id": "phrasal-verb-234-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Who defeated the top player and removed her from the competition?",
+      "promptZh": "誰擊敗了那名頂尖球手,令她在比賽中出局?",
+      "starter": "Who",
+      "answer": "Who knocked the top player out of the competition?",
+      "answerZh": "誰擊敗了那名頂尖球手,令她在比賽中出局?",
+      "highlight": "knocked",
+      "targetForm": "knock somebody/something out; knock somebody/something out of",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-234-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He had driven the post into the ground with a heavy hammer.",
+      "promptZh": "他已用重錘把柱子敲進地面。",
+      "starter": "He",
+      "answer": "He had knocked the post into the ground with a heavy hammer.",
+      "answerZh": "他已用重錘把柱子敲進地面。",
+      "highlight": "knocked",
+      "targetForm": "knock something in/into something",
+      "targetMeaningZh": "把釘、樁等敲入某處"
+    },
+    {
+      "id": "phrasal-verb-234-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The novel begins after a businessman has been killed by a hired killer.",
+      "promptZh": "小說以一名商人被受僱殺手殺死後的情節開始。",
+      "starter": "The",
+      "answer": "The novel begins after a businessman has been knocked off by a hired killer.",
+      "answerZh": "小說以一名商人被受僱殺手殺死後的情節開始。",
+      "highlight": "knocked off",
+      "targetForm": "knock somebody off",
+      "targetMeaningZh": "殺死某人;非正式,多見於犯罪語境"
+    },
+    {
+      "id": "phrasal-verb-234-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He had travelled around several small towns before finding work in Bristol.",
+      "promptZh": "他在布里斯托找到工作前,曾在幾個小鎮四處走動。",
+      "starter": "He",
+      "answer": "He had knocked around several small towns before finding work in Bristol.",
+      "answerZh": "他在布里斯托找到工作前,曾在幾個小鎮四處走動。",
+      "highlight": "knocked",
+      "targetForm": "knock about/around something",
+      "targetMeaningZh": "到處遊歷;四處走動"
+    },
+    {
+      "id": "phrasal-verb-234-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Because the box was damaged, the manager reduced the total by another £5.",
+      "promptZh": "由於盒子受損,經理再把總額減了5英鎊。",
+      "starter": "Because",
+      "answer": "Because the box was damaged, the manager knocked another £5 off the total.",
+      "answerZh": "由於盒子受損,經理再把總額減了5英鎊。",
+      "highlight": "knocked",
+      "targetForm": "knock something off; knock something off something",
+      "targetMeaningZh": "減去價錢或數量"
+    },
+    {
+      "id": "phrasal-verb-234-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He hit his head on the cupboard door and became completely unconscious.",
+      "promptZh": "他的頭撞到櫥櫃門,並完全失去知覺。",
+      "starter": "He",
+      "answer": "He hit his head on the cupboard door and was knocked out cold.",
+      "answerZh": "他的頭撞到櫥櫃門,並完全失去知覺。",
+      "highlight": "was knocked out cold",
+      "targetForm": "knock somebody out",
+      "targetMeaningZh": "把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-234-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We made the basic shelter quickly before the rain started.",
+      "promptZh": "我們在下雨前迅速搭好了那個基本的遮蔽處。",
+      "starter": "We",
+      "answer": "We knocked it up before the rain started.",
+      "answerZh": "我們在下雨前迅速把它搭好了。",
+      "highlight": "knocked it up",
+      "targetForm": "knock something up",
+      "targetMeaningZh": "迅速做成或準備好;英式非正式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "If they do not stop their annoying behaviour, the teacher will separate them.",
+      "promptZh": "如果他們不停止惱人的行為,老師便會把他們分開。",
+      "starter": "If",
+      "answer": "If they do not knock it off, the teacher will separate them.",
+      "answerZh": "如果他們不停止惱人的行為,老師便會把他們分開。",
+      "highlight": "knock it off",
+      "targetForm": "knock it off",
+      "targetMeaningZh": "停止惱人或不當的行為"
+    },
+    {
+      "id": "phrasal-verb-234-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The storm damaged the shed so badly that we had to demolish it.",
+      "promptZh": "暴風把小屋嚴重損壞,我們不得不把它拆掉。",
+      "starter": "The",
+      "answer": "The storm damaged the shed so badly that we had to knock it down.",
+      "answerZh": "暴風把小屋嚴重損壞,我們不得不把它拆掉。",
+      "highlight": "knock",
+      "targetForm": "knock something down",
+      "targetMeaningZh": "拆卸;拆毀"
+    },
+    {
+      "id": "phrasal-verb-234-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "May I try every level? The teacher replied, “Go ahead.”",
+      "promptZh": "「我可以試玩每一關嗎?」老師回答:「儘管去吧。」",
+      "starter": "May",
+      "answer": "May I try every level? The teacher replied, “Knock yourself out.”",
+      "answerZh": "「我可以試玩每一關嗎?」老師回答:「儘管去吧。」",
+      "highlight": "Knock yourself out",
+      "targetForm": "knock yourself out",
+      "targetMeaningZh": "儘管去做;想做便做"
+    },
+    {
+      "id": "phrasal-verb-234-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If the dog runs into the child, it could hit her and make her fall.",
+      "promptZh": "如果那隻狗撞向孩子,可能會把她撞倒。",
+      "starter": "If",
+      "answer": "If the dog runs into the child, it could knock her down.",
+      "answerZh": "如果那隻狗撞向孩子,可能會把她撞倒。",
+      "highlight": "knock",
+      "targetForm": "knock somebody down/over",
+      "targetMeaningZh": "撞倒某人;令某人跌倒"
+    },
+    {
+      "id": "phrasal-verb-234-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "These cameras cannot be handled roughly like cheap toys.",
+      "promptZh": "這些相機不能像廉價玩具般被粗暴搬弄。",
+      "starter": "These",
+      "answer": "These cameras cannot be knocked around like cheap toys.",
+      "answerZh": "這些相機不能像廉價玩具般被粗暴搬弄。",
+      "highlight": "knocked around",
+      "targetForm": "knock something about/around",
+      "targetMeaningZh": "粗暴搬弄或弄壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "A heavy wave left the swimmer unable to breathe for a moment, but she stayed calm.",
+      "promptZh": "一個巨浪令泳手一時透不過氣,但她保持冷靜。",
+      "starter": "A",
+      "answer": "A heavy wave knocked the breath out of the swimmer, but she stayed calm.",
+      "answerZh": "一個巨浪令泳手一時透不過氣,但她保持冷靜。",
+      "highlight": "knocked the breath out of",
+      "targetForm": "knock something out of somebody",
+      "targetMeaningZh": "撞得某人失去呼吸等"
+    },
+    {
+      "id": "phrasal-verb-234-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Who will wake the hikers by tapping on their doors before the early bus arrives?",
+      "promptZh": "早班巴士到達前,誰會輕敲房門叫醒那些遠足者?",
+      "starter": "Who",
+      "answer": "Who will knock the hikers up before the early bus arrives?",
+      "answerZh": "早班巴士到達前,誰會敲門叫醒那些遠足者?",
+      "highlight": "knock",
+      "targetForm": "knock somebody up",
+      "targetMeaningZh": "敲門叫醒某人;英式較舊式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Several unopened boxes were still lying around after the family moved house.",
+      "promptZh": "這家人搬屋後,仍有幾個未開封的箱子隨處放着。",
+      "starter": "Several",
+      "answer": "Several unopened boxes were still knocking around after the family moved house.",
+      "answerZh": "這家人搬屋後,仍有幾個未開封的箱子隨處放着。",
+      "highlight": "knocking",
+      "targetForm": "knock about/around",
+      "targetMeaningZh": "長時間隨處放着;閒置"
+    },
+    {
+      "id": "phrasal-verb-234-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The workers are driving metal bars into the soil to hold the tent.",
+      "promptZh": "工人正在把金屬桿敲進泥土,以固定帳篷。",
+      "starter": "The",
+      "answer": "The workers are knocking metal bars into the soil to hold the tent.",
+      "answerZh": "工人正在把金屬桿敲進泥土,以固定帳篷。",
+      "highlight": "knocking",
+      "targetForm": "knock something in/into something",
+      "targetMeaningZh": "把釘、樁等敲入某處"
+    },
+    {
+      "id": "phrasal-verb-234-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "A new laptop could cost her more than a month’s savings.",
+      "promptZh": "一部新手提電腦可能會花掉她超過一個月的積蓄。",
+      "starter": "A",
+      "answer": "A new laptop could knock her back more than a month’s savings.",
+      "answerZh": "一部新手提電腦可能會花掉她超過一個月的積蓄。",
+      "highlight": "knock",
+      "targetForm": "knock somebody back something",
+      "targetMeaningZh": "令某人花費某個金額"
+    },
+    {
+      "id": "phrasal-verb-234-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "They had already warmed up by hitting the ball for fifteen minutes when the rain began.",
+      "promptZh": "下雨時,他們已擊球熱身了十五分鐘。",
+      "starter": "They",
+      "answer": "They had already knocked up for fifteen minutes when the rain began.",
+      "answerZh": "下雨時,他們已擊球熱身了十五分鐘。",
+      "highlight": "knocked",
+      "targetForm": "knock up",
+      "targetMeaningZh": "賽前擊球熱身;英式網球用語"
+    },
+    {
+      "id": "phrasal-verb-234-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The report said that the prisoner had been hit and treated roughly during the journey.",
+      "promptZh": "報告指出,那名囚犯在途中曾受到毆打和粗暴對待。",
+      "starter": "The",
+      "answer": "The report said that the prisoner had been knocked around during the journey.",
+      "answerZh": "報告指出,那名囚犯在途中曾受到毆打和粗暴對待。",
+      "highlight": "knocked around",
+      "targetForm": "knock somebody about/around",
+      "targetMeaningZh": "毆打或粗暴對待某人"
+    },
+    {
+      "id": "phrasal-verb-234-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The school had combined two classrooms before the new term began.",
+      "promptZh": "學校在新學期開始前已把兩間課室合併。",
+      "starter": "The",
+      "answer": "The school had knocked two classrooms together before the new term began.",
+      "answerZh": "學校在新學期開始前已把兩間課室合併。",
+      "highlight": "knocked",
+      "targetForm": "knock something together",
+      "targetMeaningZh": "把兩個空間或物件合併"
+    },
+    {
+      "id": "phrasal-verb-234-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "One more defeat could remove them from the cup competition.",
+      "promptZh": "再輸一場便可能令他們在盃賽中出局。",
+      "starter": "One",
+      "answer": "One more defeat could knock them out of the cup.",
+      "answerZh": "再輸一場便可能令他們在盃賽中出局。",
+      "highlight": "knock",
+      "targetForm": "knock somebody/something out; knock somebody/something out of",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-234-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We were warned not to spend time with the group that kept causing trouble.",
+      "promptZh": "有人警告我們不要和那群經常惹事的人來往。",
+      "starter": "We",
+      "answer": "We were warned not to knock around with the group that kept causing trouble.",
+      "answerZh": "有人警告我們不要和那群經常惹事的人來往。",
+      "highlight": "knock around",
+      "targetForm": "knock about/around with somebody; knock about/around",
+      "targetMeaningZh": "與某人來往;經常和某人一起"
+    },
+    {
+      "id": "phrasal-verb-234-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "A flying stone broke one of the greenhouse windows.",
+      "promptZh": "一塊飛來的石頭打破了溫室其中一扇窗。",
+      "starter": "A",
+      "answer": "A flying stone knocked out one of the greenhouse windows.",
+      "answerZh": "一塊飛來的石頭打破了溫室其中一扇窗。",
+      "highlight": "knocked out",
+      "targetForm": "knock something out",
+      "targetMeaningZh": "撞掉或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Hold the rail so that the wind does not cause you to fall off the steps.",
+      "promptZh": "捉緊扶手,以免強風吹得你從梯級上跌下來。",
+      "starter": "Hold",
+      "answer": "Hold the rail so that the wind does not knock you off the steps.",
+      "answerZh": "捉緊扶手,以免強風吹得你從梯級上跌下來。",
+      "highlight": "knock",
+      "targetForm": "knock somebody off; knock somebody off something",
+      "targetMeaningZh": "把某人從某物上撞下來"
+    },
+    {
+      "id": "phrasal-verb-234-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "A gust of wind made several signs fall outside the shop.",
+      "promptZh": "一陣強風吹倒了店外幾塊告示牌。",
+      "starter": "A",
+      "answer": "A gust of wind knocked several signs over outside the shop.",
+      "answerZh": "一陣強風吹倒了店外幾塊告示牌。",
+      "highlight": "knocked",
+      "targetForm": "knock something over",
+      "targetMeaningZh": "碰跌或弄翻某物"
+    },
+    {
+      "id": "phrasal-verb-234-q113",
+      "number": 113,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the first idea was rejected, the team prepared a simpler one.",
+      "promptZh": "第一個構思被拒絕後,團隊準備了一個較簡單的構思。",
+      "starter": "After",
+      "answer": "After the first idea was knocked back, the team prepared a simpler one.",
+      "answerZh": "第一個構思被拒絕後,團隊準備了一個較簡單的構思。",
+      "highlight": "knocked back",
+      "targetForm": "knock somebody back",
+      "targetMeaningZh": "拒絕某人或其申請"
+    },
+    {
+      "id": "phrasal-verb-234-q114",
+      "number": 114,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Even though he tried to look calm, his hands were shaking and his knees were hitting each other.",
+      "promptZh": "雖然他嘗試表現冷靜,但雙手顫抖,膝蓋也不停互相碰撞。",
+      "starter": "Even",
+      "answer": "Even though he tried to look calm, his hands were shaking and his knees were knocking together.",
+      "answerZh": "雖然他嘗試表現冷靜,但雙手顫抖,膝蓋也不停互相碰撞。",
+      "highlight": "knocking together",
+      "targetForm": "knock together",
+      "targetMeaningZh": "因害怕或寒冷而互相碰撞"
+    },
+    {
+      "id": "phrasal-verb-234-q115",
+      "number": 115,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After the long run, the players quickly drank several bottles of water.",
+      "promptZh": "長跑後,球員迅速喝下數瓶水。",
+      "starter": "After",
+      "answer": "After the long run, the players knocked back several bottles of water.",
+      "answerZh": "長跑後,球員迅速喝下數瓶水。",
+      "highlight": "knocked back",
+      "targetForm": "knock something back",
+      "targetMeaningZh": "很快喝下某飲品"
+    },
+    {
+      "id": "phrasal-verb-234-q116",
+      "number": 116,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Staff may finish work early if every order is ready.",
+      "promptZh": "如果所有訂單都準備好,員工可以提早下班。",
+      "starter": "Staff",
+      "answer": "Staff may knock off early if every order is ready.",
+      "answerZh": "如果所有訂單都準備好,員工可以提早下班。",
+      "highlight": "knock off",
+      "targetForm": "knock off",
+      "targetMeaningZh": "收工;下班"
+    },
+    {
+      "id": "phrasal-verb-234-q117",
+      "number": 117,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The buyer tried to persuade the owner to accept less by pointing out the damaged screen.",
+      "promptZh": "買家指出螢幕受損,嘗試說服店主接受較低價錢。",
+      "starter": "The",
+      "answer": "The buyer tried to knock the owner down by pointing out the damaged screen.",
+      "answerZh": "買家指出螢幕受損,嘗試說服店主接受較低價錢。",
+      "highlight": "knock",
+      "targetForm": "knock somebody/something down",
+      "targetMeaningZh": "議價至較低價錢"
+    },
+    {
+      "id": "phrasal-verb-234-q118",
+      "number": 118,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The gang threatened to kill him if he spoke to the police.",
+      "promptZh": "那個幫派威脅他,如果他向警方透露消息便會殺死他。",
+      "starter": "The",
+      "answer": "The gang threatened to knock him off if he spoke to the police.",
+      "answerZh": "那個幫派威脅他,如果他向警方透露消息便會殺死他。",
+      "highlight": "knock",
+      "targetForm": "knock somebody off",
+      "targetMeaningZh": "殺死某人;非正式,多見於犯罪語境"
+    },
+    {
+      "id": "phrasal-verb-234-q119",
+      "number": 119,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "A heavy box had made a dent in the wooden floor when it fell.",
+      "promptZh": "一個重箱掉下來時在木地板上撞出凹痕。",
+      "starter": "A",
+      "answer": "A heavy box had knocked a dent in the wooden floor.",
+      "answerZh": "一個重箱在木地板上撞出凹痕。",
+      "highlight": "knocked",
+      "targetForm": "knock a hole/dent in something",
+      "targetMeaningZh": "撞出洞或凹痕"
+    },
+    {
+      "id": "phrasal-verb-234-q120",
+      "number": 120,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Could you write a few lines quickly for the school website?",
+      "promptZh": "你可以為學校網站迅速寫幾行文字嗎?",
+      "starter": "Could",
+      "answer": "Could you knock off a few lines for the school website?",
+      "answerZh": "你可以為學校網站迅速寫幾行文字嗎?",
+      "highlight": "knock off",
+      "targetForm": "knock something off",
+      "targetMeaningZh": "迅速寫成或製作"
+    },
+    {
+      "id": "phrasal-verb-234-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Despite losing the first game, the school team recovered and defeated its strongest rival, removing it from the cup.",
+      "promptZh": "儘管首場比賽落敗,校隊仍振作起來,擊敗最強對手,令其在盃賽中出局。",
+      "starter": "Despite",
+      "answer": "Despite losing the first game, the school team recovered and knocked its strongest rival out of the cup.",
+      "answerZh": "儘管首場比賽落敗,校隊仍振作起來,擊敗最強對手,令其在盃賽中出局。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody/something out; knock somebody/something out of",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-234-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the shop was still busy, the new worker could not finish work until the final customer had left.",
+      "promptZh": "雖然店舖仍然繁忙,但那名新員工要等最後一位顧客離開後才可以下班。",
+      "starter": "Although",
+      "answer": "Although the shop was still busy, the new worker could not knock off until the final customer had left.",
+      "answerZh": "雖然店舖仍然繁忙,但那名新員工要等最後一位顧客離開後才可以下班。",
+      "highlight": "knock off",
+      "targetForm": "knock off",
+      "targetMeaningZh": "收工;下班"
+    },
+    {
+      "id": "phrasal-verb-234-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "With only an hour left, the team quickly made a working model from cardboard and tape.",
+      "promptZh": "只剩下一小時,團隊用硬卡紙和膠紙迅速做成一個可以運作的模型。",
+      "starter": "With",
+      "answer": "With only an hour left, the team knocked up a working model from cardboard and tape.",
+      "answerZh": "只剩下一小時,團隊用硬卡紙和膠紙迅速做成一個可以運作的模型。",
+      "highlight": "knocked up",
+      "targetForm": "knock something up",
+      "targetMeaningZh": "迅速做成或準備好;英式非正式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "Although the first attack failed, the crime boss still wanted the informer killed before the trial.",
+      "promptZh": "雖然第一次襲擊失敗,但犯罪集團首領仍想在審訊前殺死那名告密者。",
+      "starter": "Although",
+      "answer": "Although the first attack failed, the crime boss still wanted the informer knocked off before the trial.",
+      "answerZh": "雖然第一次襲擊失敗,但犯罪集團首領仍想在審訊前殺死那名告密者。",
+      "highlight": "knocked off",
+      "targetForm": "knock somebody off",
+      "targetMeaningZh": "殺死某人;非正式,多見於犯罪語境"
+    },
+    {
+      "id": "phrasal-verb-234-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the landing looked soft, it forced enough air out of Dan to stop him speaking for a few seconds.",
+      "promptZh": "雖然落地看來不重,但撞擊令丹一時透不過氣,數秒內無法說話。",
+      "starter": "Although",
+      "answer": "Although the landing looked soft, it knocked enough air out of Dan to stop him speaking for a few seconds.",
+      "answerZh": "雖然落地看來不重,但撞擊令丹一時透不過氣,數秒內無法說話。",
+      "highlight": "knocked",
+      "targetForm": "knock something out of somebody",
+      "targetMeaningZh": "撞得某人失去呼吸等"
+    },
+    {
+      "id": "phrasal-verb-234-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although Karim rarely joined school clubs, he often spent time with two boys from the football team.",
+      "promptZh": "雖然卡里姆很少參加學校學會,但他經常和足球隊的兩名男生一起。",
+      "starter": "Although",
+      "answer": "Although Karim rarely joined school clubs, he often knocked about with two boys from the football team.",
+      "answerZh": "雖然卡里姆很少參加學校學會,但他經常和足球隊的兩名男生一起。",
+      "highlight": "knocked about",
+      "targetForm": "knock about/around with somebody; knock about/around",
+      "targetMeaningZh": "與某人來往;經常和某人一起"
+    },
+    {
+      "id": "phrasal-verb-234-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before hanging the picture, Nora drove a small hook into the wall and checked that it was firm.",
+      "promptZh": "掛畫前,諾拉把一個小掛鈎敲進牆裏,並檢查它是否穩固。",
+      "starter": "Before",
+      "answer": "Before hanging the picture, Nora knocked a small hook into the wall and checked that it was firm.",
+      "answerZh": "掛畫前,諾拉把一個小掛鈎敲進牆裏,並檢查它是否穩固。",
+      "highlight": "knocked",
+      "targetForm": "knock something in/into something",
+      "targetMeaningZh": "把釘、樁等敲入某處"
+    },
+    {
+      "id": "phrasal-verb-234-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Since the group had to leave before dawn, the guide promised to wake everyone by tapping on their doors at four thirty.",
+      "promptZh": "由於團體要在黎明前離開,領隊承諾四時半輕敲房門叫醒所有人。",
+      "starter": "Since",
+      "answer": "Since the group had to leave before dawn, the guide promised to knock everyone up at four thirty.",
+      "answerZh": "由於團體要在黎明前離開,領隊承諾四時半敲門叫醒所有人。",
+      "highlight": "knock",
+      "targetForm": "knock somebody up",
+      "targetMeaningZh": "敲門叫醒某人;英式較舊式用法"
+    },
+    {
+      "id": "phrasal-verb-234-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The room was warm, but the child’s teeth still hit each other because she was so frightened.",
+      "promptZh": "房間很暖,但那名孩子因非常害怕,牙齒仍不停互相碰撞。",
+      "starter": "The",
+      "answer": "The room was warm, but the child’s teeth still knocked together because she was so frightened.",
+      "answerZh": "房間很暖,但那名孩子因非常害怕,牙齒仍不停互相碰撞。",
+      "highlight": "knocked together",
+      "targetForm": "knock together",
+      "targetMeaningZh": "因害怕或寒冷而互相碰撞"
+    },
+    {
+      "id": "phrasal-verb-234-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "By the time they had paid for the room and the train tickets, the short trip had cost them nearly £600.",
+      "promptZh": "當他們付清房間和火車票費用時,這次短途旅行已花了他們接近600英鎊。",
+      "starter": "By",
+      "answer": "By the time they had paid for the room and the train tickets, the short trip had knocked them back nearly £600.",
+      "answerZh": "當他們付清房間和火車票費用時,這次短途旅行已花了他們接近600英鎊。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody back something",
+      "targetMeaningZh": "令某人花費某個金額"
+    },
+    {
+      "id": "phrasal-verb-234-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When the shelf fell, it broke a ceiling light and filled the room with glass.",
+      "promptZh": "架子掉下來時撞壞了一盞天花燈,令房間滿是玻璃碎片。",
+      "starter": "When",
+      "answer": "When the shelf fell, it knocked out a ceiling light and filled the room with glass.",
+      "answerZh": "架子掉下來時撞壞了一盞天花燈,令房間滿是玻璃碎片。",
+      "highlight": "knocked out",
+      "targetForm": "knock something out",
+      "targetMeaningZh": "撞掉或撞壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The coach had already warned the players twice to stop arguing, but they continued.",
+      "promptZh": "教練已兩次警告球員停止爭吵,但他們仍然繼續。",
+      "starter": "The",
+      "answer": "The coach had already warned the players twice to knock it off, but they continued arguing.",
+      "answerZh": "教練已兩次警告球員停止爭吵,但他們仍然繼續。",
+      "highlight": "knock it off",
+      "targetForm": "knock it off",
+      "targetMeaningZh": "停止惱人或不當的行為"
+    },
+    {
+      "id": "phrasal-verb-234-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After years of argument, the town finally agreed to demolish the old bridge and build a safer one.",
+      "promptZh": "經過多年爭論後,小鎮終於同意拆掉舊橋,興建一條更安全的新橋。",
+      "starter": "After",
+      "answer": "After years of argument, the town finally agreed to knock the old bridge down and build a safer one.",
+      "answerZh": "經過多年爭論後,小鎮終於同意拆掉舊橋,興建一條更安全的新橋。",
+      "highlight": "knock",
+      "targetForm": "knock something down",
+      "targetMeaningZh": "拆卸;拆毀"
+    },
+    {
+      "id": "phrasal-verb-234-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 27,
+      "prompt": "The rider stayed on even after another cyclist struck him hard enough to nearly make him fall off his bike.",
+      "promptZh": "即使另一名單車手猛烈撞向他,差點令他從單車上跌下來,他仍然沒有跌倒。",
+      "starter": "The",
+      "answer": "The rider stayed on even after another cyclist struck him hard enough to nearly knock him off his bike.",
+      "answerZh": "即使另一名單車手猛烈撞向他,差點把他從單車上撞下來,他仍然沒有跌倒。",
+      "highlight": "knock",
+      "targetForm": "knock somebody off; knock somebody off something",
+      "targetMeaningZh": "把某人從某物上撞下來"
+    },
+    {
+      "id": "phrasal-verb-234-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Because neither room was large enough for the event, the hotel joined them and removed the wall between them.",
+      "promptZh": "由於兩個房間都不夠大,酒店把它們合併,並拆去中間的牆。",
+      "starter": "Because",
+      "answer": "Because neither room was large enough for the event, the hotel knocked them together and removed the wall between them.",
+      "answerZh": "由於兩個房間都不夠大,酒店把它們合併,並拆去中間的牆。",
+      "highlight": "knocked",
+      "targetForm": "knock something together",
+      "targetMeaningZh": "把兩個空間或物件合併"
+    },
+    {
+      "id": "phrasal-verb-234-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The tickets had been lying on his desk for so long that he nearly forgot about them.",
+      "promptZh": "那些門票在他的書桌上放了很久,令他差點忘記了它們。",
+      "starter": "The",
+      "answer": "The tickets had been knocking about on his desk for so long that he nearly forgot about them.",
+      "answerZh": "那些門票在他的書桌上放了很久,令他差點忘記了它們。",
+      "highlight": "knocking about",
+      "targetForm": "knock about/around",
+      "targetMeaningZh": "長時間隨處放着;閒置"
+    },
+    {
+      "id": "phrasal-verb-234-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the tea was still hot, Arun drank it quickly because the bus was about to leave.",
+      "promptZh": "雖然茶仍然很熱,但巴士快要開出,阿倫仍迅速把它喝下。",
+      "starter": "Although",
+      "answer": "Although the tea was still hot, Arun knocked it back because the bus was about to leave.",
+      "answerZh": "雖然茶仍然很熱,但巴士快要開出,阿倫仍迅速把它喝下。",
+      "highlight": "knocked",
+      "targetForm": "knock something back",
+      "targetMeaningZh": "很快喝下某飲品"
+    },
+    {
+      "id": "phrasal-verb-234-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before the final started, both players practised hitting the ball quietly while the crowd found their seats.",
+      "promptZh": "決賽開始前,兩名球手安靜地擊球熱身,而觀眾則尋找座位。",
+      "starter": "Before",
+      "answer": "Before the final started, both players knocked up quietly while the crowd found their seats.",
+      "answerZh": "決賽開始前,兩名球手安靜地擊球熱身,而觀眾則尋找座位。",
+      "highlight": "knocked up",
+      "targetForm": "knock up",
+      "targetMeaningZh": "賽前擊球熱身;英式網球用語"
+    },
+    {
+      "id": "phrasal-verb-234-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The committee may reject the plan unless the costs are explained more clearly.",
+      "promptZh": "除非計劃的成本得到更清楚的解釋,否則委員會可能會拒絕它。",
+      "starter": "The",
+      "answer": "The committee may knock the plan back unless the costs are explained more clearly.",
+      "answerZh": "除非計劃的成本得到更清楚的解釋,否則委員會可能會拒絕它。",
+      "highlight": "knock",
+      "targetForm": "knock somebody back",
+      "targetMeaningZh": "拒絕某人或其申請"
+    },
+    {
+      "id": "phrasal-verb-234-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "While reaching across the table, Eva made the jug fall, and water ran onto the floor.",
+      "promptZh": "伊娃伸手越過桌面時碰翻了水壺,水流到地上。",
+      "starter": "While",
+      "answer": "While reaching across the table, Eva knocked the jug over, and water ran onto the floor.",
+      "answerZh": "伊娃伸手越過桌面時碰翻了水壺,水流到地上。",
+      "highlight": "knocked",
+      "targetForm": "knock something over",
+      "targetMeaningZh": "碰跌或弄翻某物"
+    },
+    {
+      "id": "phrasal-verb-234-q141",
+      "number": 141,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the boxer tried to stand up, the final punch had made him unconscious.",
+      "promptZh": "雖然那名拳手嘗試站起來,但最後一拳已令他失去知覺。",
+      "starter": "Although",
+      "answer": "Although the boxer tried to stand up, the final punch had knocked him out.",
+      "answerZh": "雖然那名拳手嘗試站起來,但最後一拳已令他失去知覺。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody out",
+      "targetMeaningZh": "把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-234-q142",
+      "number": 142,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "With no fixed plan, the two cousins travelled around the coast until their money ran low.",
+      "promptZh": "兩位表親沒有固定計劃,一直沿海岸四處遊歷,直至所剩金錢不多。",
+      "starter": "With",
+      "answer": "With no fixed plan, the two cousins knocked about the coast until their money ran low.",
+      "answerZh": "兩位表親沒有固定計劃,一直沿海岸四處遊歷,直至所剩金錢不多。",
+      "highlight": "knocked about",
+      "targetForm": "knock about/around something",
+      "targetMeaningZh": "到處遊歷;四處走動"
+    },
+    {
+      "id": "phrasal-verb-234-q143",
+      "number": 143,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the task looked difficult, the experienced designer produced the poster in less than an hour.",
+      "promptZh": "雖然任務看來困難,但那名經驗豐富的設計師在一小時內便迅速完成海報。",
+      "starter": "Although",
+      "answer": "Although the task looked difficult, the experienced designer knocked off the poster in less than an hour.",
+      "answerZh": "雖然任務看來困難,但那名經驗豐富的設計師在一小時內便迅速完成海報。",
+      "highlight": "knocked off",
+      "targetForm": "knock something off",
+      "targetMeaningZh": "迅速寫成或製作"
+    },
+    {
+      "id": "phrasal-verb-234-q144",
+      "number": 144,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "By the time the old piano reached the new flat, it had been handled so roughly that two keys no longer worked.",
+      "promptZh": "舊鋼琴運到新單位時,已因受到粗暴搬運而有兩個琴鍵無法使用。",
+      "starter": "By",
+      "answer": "By the time the old piano reached the new flat, it had been knocked about so much that two keys no longer worked.",
+      "answerZh": "舊鋼琴運到新單位時,已因受到粗暴搬運而有兩個琴鍵無法使用。",
+      "highlight": "knocked about",
+      "targetForm": "knock something about/around",
+      "targetMeaningZh": "粗暴搬弄或弄壞某物"
+    },
+    {
+      "id": "phrasal-verb-234-q145",
+      "number": 145,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Since no one else wanted to organise the files, the manager told Priya that she could go ahead if she really enjoyed the task.",
+      "promptZh": "由於沒有其他人想整理檔案,經理告訴普里雅,如果她真的喜歡這項工作,便可以儘管去做。",
+      "starter": "Since",
+      "answer": "Since no one else wanted to organise the files, the manager told Priya that she could knock herself out if she really enjoyed the task.",
+      "answerZh": "由於沒有其他人想整理檔案,經理告訴普里雅,如果她真的喜歡這項工作,便可以儘管去做。",
+      "highlight": "knock herself out",
+      "targetForm": "knock yourself out",
+      "targetMeaningZh": "儘管去做;想做便做"
+    },
+    {
+      "id": "phrasal-verb-234-q146",
+      "number": 146,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Although the table was marked at £90, they managed to persuade the seller to lower its price to £70.",
+      "promptZh": "雖然那張桌標價90英鎊,但他們成功說服賣家把價錢降至70英鎊。",
+      "starter": "Although",
+      "answer": "Although the table was marked at £90, they managed to knock it down to £70.",
+      "answerZh": "雖然那張桌標價90英鎊,但他們成功把價錢議至70英鎊。",
+      "highlight": "knock it down",
+      "targetForm": "knock somebody/something down",
+      "targetMeaningZh": "議價至較低價錢"
+    },
+    {
+      "id": "phrasal-verb-234-q147",
+      "number": 147,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Although the bus was moving slowly, it hit the man and made him fall, leaving him with a broken arm.",
+      "promptZh": "雖然巴士行駛緩慢,但仍撞倒了那名男子,令他手臂骨折。",
+      "starter": "Although",
+      "answer": "Although the bus was moving slowly, it knocked the man over and left him with a broken arm.",
+      "answerZh": "雖然巴士行駛緩慢,但仍撞倒了那名男子,令他手臂骨折。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody down/over",
+      "targetMeaningZh": "撞倒某人;令某人跌倒"
+    },
+    {
+      "id": "phrasal-verb-234-q148",
+      "number": 148,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "To reach the pipe, the repair team carefully made a small hole in the wall by hitting it.",
+      "promptZh": "為了接觸水管,維修團隊小心地在牆上敲出一個小洞。",
+      "starter": "To",
+      "answer": "To reach the pipe, the repair team carefully knocked a small hole in the wall.",
+      "answerZh": "為了接觸水管,維修團隊小心地在牆上敲出一個小洞。",
+      "highlight": "knocked",
+      "targetForm": "knock a hole/dent in something",
+      "targetMeaningZh": "撞出洞或凹痕"
+    },
+    {
+      "id": "phrasal-verb-234-q149",
+      "number": 149,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The hotel agreed to remove one night’s charge from the bill after the heating failed.",
+      "promptZh": "暖氣失靈後,酒店同意從賬單中減去一晚的費用。",
+      "starter": "The",
+      "answer": "The hotel agreed to knock one night’s charge off the bill after the heating failed.",
+      "answerZh": "暖氣失靈後,酒店同意從賬單中減去一晚的費用。",
+      "highlight": "knock",
+      "targetForm": "knock something off; knock something off something",
+      "targetMeaningZh": "減去價錢或數量"
+    },
+    {
+      "id": "phrasal-verb-234-q150",
+      "number": 150,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Although he first said the injuries came from a fall, he later admitted that two men had hit him repeatedly.",
+      "promptZh": "雖然他起初聲稱傷勢是跌倒造成的,但後來承認有兩名男子曾多次打他。",
+      "starter": "Although",
+      "answer": "Although he first said the injuries came from a fall, he later admitted that two men had knocked him about.",
+      "answerZh": "雖然他起初聲稱傷勢是跌倒造成的,但後來承認有兩名男子曾多次打他。",
+      "highlight": "knocked",
+      "targetForm": "knock somebody about/around",
+      "targetMeaningZh": "毆打或粗暴對待某人"
+    }
+  ]
+}

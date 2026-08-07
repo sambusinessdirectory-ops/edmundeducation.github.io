@@ -1,0 +1,1191 @@
+{
+  "id": "phrasal-verb-131",
+  "order": 131,
+  "slug": "freeze",
+  "version": "1",
+  "title": "FREEZE 動詞片語",
+  "titleEn": "Freeze",
+  "titleZh": "FREEZE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 130 - FREEZE.pdf",
+    "sourceNumber": 130,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FREEZE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FREEZE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FREEZE",
+      "highlight": "FREEZE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The pond froze over during the night.",
+      "zh": "池塘在夜間結了冰。",
+      "highlight": "froze over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The others froze Leo out of the group.",
+      "zh": "其他人把里奧排擠出那個小組。",
+      "highlight": "froze Leo out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The outside pipes froze up last night.",
+      "zh": "室外水管昨晚因結冰而堵塞。",
+      "highlight": "froze up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "水面或液體表面結冰,被冰覆蓋；故意冷落、排擠或阻止某人或某團體參與某事；水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+    "en": "freeze over; freeze somebody/something out; freeze somebody/something out of something; freeze up",
+    "naturalZh": [
+      "水面或液體表面結冰,被冰覆蓋",
+      "故意冷落、排擠或阻止某人或某團體參與某事",
+      "水管、水龍頭或供水系統因結冰而堵塞或停止運作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "freeze over",
+      "titleZh": "水面或液體表面結冰,被冰覆蓋",
+      "titleEn": "freeze over",
+      "descriptionZh": "水面或液體表面結冰,被冰覆蓋",
+      "descriptionEn": "The pond froze over during the night.",
+      "examples": [
+        {
+          "en": "The pond froze over during the night.",
+          "zh": "池塘在夜間結了冰。",
+          "highlight": "froze over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "freeze somebody/something out; freeze somebody/something out of something",
+      "titleZh": "故意冷落、排擠或阻止某人或某團體參與某事",
+      "titleEn": "freeze somebody/something out; freeze somebody/something out of something",
+      "descriptionZh": "故意冷落、排擠或阻止某人或某團體參與某事",
+      "descriptionEn": "The others froze Leo out of the group.",
+      "examples": [
+        {
+          "en": "The others froze Leo out of the group.",
+          "zh": "其他人把里奧排擠出那個小組。",
+          "highlight": "froze Leo out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "freeze up",
+      "titleZh": "水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+      "titleEn": "freeze up",
+      "descriptionZh": "水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+      "descriptionEn": "The outside pipes froze up last night.",
+      "examples": [
+        {
+          "en": "The outside pipes froze up last night.",
+          "zh": "室外水管昨晚因結冰而堵塞。",
+          "highlight": "froze up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FREEZE 片語動詞的實際用途",
+    "labelEn": "FREEZE Phrasal Verbs in Use",
+    "summaryZh": "freeze over 表示水面被冰覆蓋;freeze up 則表示水管或水龍頭因結冰而堵塞。；freeze somebody out 可以描述某人被故意冷落,或被排除在小組、活動或決定之外。；這些表達有助你理解天氣報告,以及有關湖泊、河流、水龍頭和水管結冰的對話。；FREEZE 片語動詞不但可以描述寒冷天氣,也可以描述社團、球隊、會議和比賽中的不公平排擠行為。",
+    "summaryEn": "Freeze over describes ice covering the surface of water, while freeze up describes ice blocking a pipe or tap. Freeze somebody out can describe people deliberately ignoring or excluding someone from a group, activity or decision. These expressions help you understand weather reports and conversations about frozen lakes, rivers, taps and pipes. FREEZE expressions can describe not only cold weather but also unfair behaviour in clubs, teams, meetings and competitions.",
+    "contextsZh": [
+      "清楚描述不同的結冰問題",
+      "談論故意排擠他人的情況",
+      "理解冬季天氣和家居問題",
+      "在自然和人際情境中使用 FREEZE"
+    ],
+    "contextsEn": [
+      "Describe different kinds of ice problems clearly",
+      "Talk about deliberate exclusion",
+      "Understand winter and household problems",
+      "Use FREEZE for both physical and social situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FREEZE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FREEZE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "freeze over",
+    "fixedHighlight": "freeze over",
+    "fixedZh": "閱讀整句,選出意思相同的 FREEZE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FREEZE expression that gives the same meaning.",
+    "correct": "froze over",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FREEZE ... OUT 中使用 him、her、it 或 them 時,請按照以上例子把這些字放在正確位置。；水面被冰覆蓋時使用 freeze over;水管、水龍頭或供水系統因結冰而堵塞時使用 freeze up。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in a FREEZE... OUT expression, place the word as shown: freeze him out freeze them out of the meeting Use freeze over when ice covers a water surface. Use freeze up when ice blocks a pipe, tap or water system.",
+    "variableItemsZh": [
+      "freeze over",
+      "freeze somebody/something out; freeze somebody/something out of something",
+      "freeze up"
+    ],
+    "variableItemsEn": [
+      "freeze over",
+      "freeze somebody/something out; freeze somebody/something out of something",
+      "freeze up"
+    ],
+    "forms": [
+      {
+        "formZh": "水面或液體表面結冰,被冰覆蓋",
+        "formEn": "freeze over",
+        "exampleZh": "池塘在夜間結了冰。",
+        "exampleEn": "The pond froze over during the night.",
+        "highlight": "froze over"
+      },
+      {
+        "formZh": "故意冷落、排擠或阻止某人或某團體參與某事",
+        "formEn": "freeze somebody/something out; freeze somebody/something out of something",
+        "exampleZh": "其他人把里奧排擠出那個小組。",
+        "exampleEn": "The others froze Leo out of the group.",
+        "highlight": "froze Leo out"
+      },
+      {
+        "formZh": "水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+        "formEn": "freeze up",
+        "exampleZh": "室外水管昨晚因結冰而堵塞。",
+        "exampleEn": "The outside pipes froze up last night.",
+        "highlight": "froze up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "水面或液體表面結冰,被冰覆蓋",
+      "titleEn": "freeze over",
+      "formula": "freeze over",
+      "highlight": "freeze over",
+      "descriptionZh": "水面或液體表面結冰,被冰覆蓋",
+      "descriptionEn": "The pond froze over during the night.",
+      "examples": [
+        {
+          "en": "The pond froze over during the night.",
+          "zh": "池塘在夜間結了冰。",
+          "highlight": "froze over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "故意冷落、排擠或阻止某人或某團體參與某事",
+      "titleEn": "freeze somebody/something out; freeze somebody/something out of something",
+      "formula": "freeze somebody/something out; freeze somebody/something out of something",
+      "highlight": "freeze somebody/something out; freeze somebody/something out of something",
+      "descriptionZh": "故意冷落、排擠或阻止某人或某團體參與某事",
+      "descriptionEn": "The others froze Leo out of the group.",
+      "examples": [
+        {
+          "en": "The others froze Leo out of the group.",
+          "zh": "其他人把里奧排擠出那個小組。",
+          "highlight": "froze Leo out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+      "titleEn": "freeze up",
+      "formula": "freeze up",
+      "highlight": "freeze up",
+      "descriptionZh": "水管、水龍頭或供水系統因結冰而堵塞或停止運作",
+      "descriptionEn": "The outside pipes froze up last night.",
+      "examples": [
+        {
+          "en": "The outside pipes froze up last night.",
+          "zh": "室外水管昨晚因結冰而堵塞。",
+          "highlight": "froze up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述不同的結冰問題",
+      "titleEn": "Describe different kinds of ice problems clearly",
+      "zh": "freeze over 表示水面被冰覆蓋;freeze up 則表示水管或水龍頭因結冰而堵塞。",
+      "en": "Freeze over describes ice covering the surface of water, while freeze up describes ice blocking a pipe or tap."
+    },
+    {
+      "titleZh": "談論故意排擠他人的情況",
+      "titleEn": "Talk about deliberate exclusion",
+      "zh": "freeze somebody out 可以描述某人被故意冷落,或被排除在小組、活動或決定之外。",
+      "en": "Freeze somebody out can describe people deliberately ignoring or excluding someone from a group, activity or decision."
+    },
+    {
+      "titleZh": "理解冬季天氣和家居問題",
+      "titleEn": "Understand winter and household problems",
+      "zh": "這些表達有助你理解天氣報告,以及有關湖泊、河流、水龍頭和水管結冰的對話。",
+      "en": "These expressions help you understand weather reports and conversations about frozen lakes, rivers, taps and pipes."
+    },
+    {
+      "titleZh": "在自然和人際情境中使用 FREEZE",
+      "titleEn": "Use FREEZE for both physical and social situations",
+      "zh": "FREEZE 片語動詞不但可以描述寒冷天氣,也可以描述社團、球隊、會議和比賽中的不公平排擠行為。",
+      "en": "FREEZE expressions can describe not only cold weather but also unfair behaviour in clubs, teams, meetings and competitions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述不同的結冰問題",
+      "談論故意排擠他人的情況",
+      "理解冬季天氣和家居問題",
+      "在自然和人際情境中使用 FREEZE"
+    ],
+    "contextsEn": [
+      "Describe different kinds of ice problems clearly",
+      "Talk about deliberate exclusion",
+      "Understand winter and household problems",
+      "Use FREEZE for both physical and social situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述不同的結冰問題",
+        "titleEn": "Describe different kinds of ice problems clearly",
+        "zh": "freeze over 表示水面被冰覆蓋;freeze up 則表示水管或水龍頭因結冰而堵塞。",
+        "en": "Freeze over describes ice covering the surface of water, while freeze up describes ice blocking a pipe or tap.",
+        "examples": [
+          {
+            "en": "The pond froze over during the night.",
+            "zh": "池塘在夜間結了冰。",
+            "highlight": "froze over"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論故意排擠他人的情況",
+        "titleEn": "Talk about deliberate exclusion",
+        "zh": "freeze somebody out 可以描述某人被故意冷落,或被排除在小組、活動或決定之外。",
+        "en": "Freeze somebody out can describe people deliberately ignoring or excluding someone from a group, activity or decision.",
+        "examples": [
+          {
+            "en": "The others froze Leo out of the group.",
+            "zh": "其他人把里奧排擠出那個小組。",
+            "highlight": "froze Leo out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解冬季天氣和家居問題",
+        "titleEn": "Understand winter and household problems",
+        "zh": "這些表達有助你理解天氣報告,以及有關湖泊、河流、水龍頭和水管結冰的對話。",
+        "en": "These expressions help you understand weather reports and conversations about frozen lakes, rivers, taps and pipes.",
+        "examples": [
+          {
+            "en": "The outside pipes froze up last night.",
+            "zh": "室外水管昨晚因結冰而堵塞。",
+            "highlight": "froze up"
+          }
+        ]
+      },
+      {
+        "titleZh": "在自然和人際情境中使用 FREEZE",
+        "titleEn": "Use FREEZE for both physical and social situations",
+        "zh": "FREEZE 片語動詞不但可以描述寒冷天氣,也可以描述社團、球隊、會議和比賽中的不公平排擠行為。",
+        "en": "FREEZE expressions can describe not only cold weather but also unfair behaviour in clubs, teams, meetings and competitions.",
+        "examples": [
+          {
+            "en": "The pond froze over during the night.",
+            "zh": "池塘在夜間結了冰。",
+            "highlight": "froze over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FREEZE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FREEZE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FREEZE 片語動詞。",
+      "en": "Read the whole sentence and choose the FREEZE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FREEZE ... OUT 中使用 him、her、it 或 them 時,請按照以上例子把這些字放在正確位置。",
+      "titleEn": "When using him, her, it or them in a FREEZE.",
+      "zh": "在 FREEZE ... OUT 中使用 him、her、it 或 them 時,請按照以上例子把這些字放在正確位置。",
+      "en": "When using him, her, it or them in a FREEZE... OUT expression, place the word as shown: freeze him out freeze them out of the meeting"
+    },
+    {
+      "titleZh": "水面被冰覆蓋時使用 freeze over;水管、水龍頭或供水系統因結冰而堵塞時使用 freeze up。",
+      "titleEn": "Use freeze over when ice covers a water surface.",
+      "zh": "水面被冰覆蓋時使用 freeze over;水管、水龍頭或供水系統因結冰而堵塞時使用 freeze up。",
+      "en": "Use freeze over when ice covers a water surface. Use freeze up when ice blocks a pipe, tap or water system."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FREEZE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FREEZE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FREEZE 動詞片語句子改寫練習",
+    "titleEn": "FREEZE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FREEZE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FREEZE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-131-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The other players deliberately did not allow Ben to join any team discussions.",
+      "promptZh": "其他球員故意不讓賓參與任何球隊討論。",
+      "starter": "The",
+      "answer": "The other players deliberately froze Ben out of all team discussions.",
+      "answerZh": "其他球員故意把賓排擠在所有球隊討論之外。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "During the night, the pond became completely covered with ice.",
+      "promptZh": "池塘在夜間完全結了冰。",
+      "starter": "During",
+      "answer": "During the night, the pond froze over completely.",
+      "answerZh": "池塘在夜間完全結了冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ice blocked the outside pipes last night.",
+      "promptZh": "昨晚,冰堵塞了室外水管。",
+      "starter": "Last",
+      "answer": "Last night, the outside pipes froze up.",
+      "answerZh": "室外水管昨晚因結冰而堵塞。",
+      "highlight": "Last night",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Her classmates kept ignoring her so that she could not join them.",
+      "promptZh": "她的同學一直冷落她,不讓她加入他們。",
+      "starter": "Her",
+      "answer": "Her classmates kept freezing her out.",
+      "answerZh": "她的同學一直冷落和排擠她。",
+      "highlight": "freezing",
+      "targetForm": "freeze somebody out",
+      "targetMeaningZh": "故意冷落或排擠某人"
+    },
+    {
+      "id": "phrasal-verb-131-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After two very cold nights, the small lake became covered with ice.",
+      "promptZh": "經過兩個非常寒冷的晚上後,小湖結了冰。",
+      "starter": "After",
+      "answer": "After two very cold nights, the small lake froze over.",
+      "answerZh": "經過兩個非常寒冷的晚上後,小湖結了冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The kitchen pipe stopped working after ice formed inside it.",
+      "promptZh": "廚房水管內結冰後便停止運作。",
+      "starter": "The",
+      "answer": "The kitchen pipe froze up.",
+      "answerZh": "廚房水管因結冰而堵塞。",
+      "highlight": "froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "At the weekend, the club deliberately did not allow Arun to join its activities.",
+      "promptZh": "週末時,社團故意不讓阿倫參加活動。",
+      "starter": "At",
+      "answer": "At the weekend, the club deliberately froze Arun out of its activities.",
+      "answerZh": "週末時,社團故意把阿倫排擠在活動之外。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "By morning, a layer of ice covered the whole river.",
+      "promptZh": "到早上時,整個河面已被一層冰覆蓋。",
+      "starter": "By",
+      "answer": "By morning, the river had frozen over.",
+      "answerZh": "到早上時,河面已經結冰。",
+      "highlight": "had frozen over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "No water could pass through our pipe because ice filled it.",
+      "promptZh": "冰堵住了我們的水管,令水無法流過。",
+      "starter": "Our",
+      "answer": "Our water pipe froze up.",
+      "answerZh": "我們的水管因結冰而堵塞。",
+      "highlight": "Our",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The older pupils ignored the new boy on purpose.",
+      "promptZh": "年長的學生故意冷落那名新生。",
+      "starter": "The",
+      "answer": "The older pupils froze the new boy out.",
+      "answerZh": "年長的學生故意排擠那名新生。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out",
+      "targetMeaningZh": "故意冷落或排擠某人"
+    },
+    {
+      "id": "phrasal-verb-131-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ice is starting to block the garden pipes now.",
+      "promptZh": "冰現在開始堵塞花園水管。",
+      "starter": "The",
+      "answer": "The garden pipes are freezing up now.",
+      "answerZh": "花園水管現在正因結冰而堵塞。",
+      "highlight": "are freezing up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "For several weeks, the team has deliberately excluded Leila from important decisions.",
+      "promptZh": "數星期以來,球隊一直故意不讓莉拉參與重要決定。",
+      "starter": "For",
+      "answer": "For several weeks, the team has been freezing Leila out of important decisions.",
+      "answerZh": "數星期以來,球隊一直把莉拉排擠在重要決定之外。",
+      "highlight": "been freezing",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The canal may become covered with ice tonight.",
+      "promptZh": "運河今晚可能會結冰。",
+      "starter": "The",
+      "answer": "The canal may freeze over tonight.",
+      "answerZh": "運河今晚可能會結冰。",
+      "highlight": "freeze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Why has ice blocked the water pipes again?",
+      "promptZh": "為甚麼冰又堵塞了水管?",
+      "starter": "Why",
+      "answer": "Why have the water pipes frozen up again?",
+      "answerZh": "為甚麼水管又因結冰而堵塞了?",
+      "highlight": "have",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Did the other members deliberately prevent you from joining the discussion?",
+      "promptZh": "其他成員是否故意不讓你參與討論?",
+      "starter": "Did",
+      "answer": "Did the other members freeze you out of the discussion?",
+      "answerZh": "其他成員是否故意把你排擠在討論之外?",
+      "highlight": "freeze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The outdoor pool has become completely covered with ice.",
+      "promptZh": "室外泳池已完全結冰。",
+      "starter": "The",
+      "answer": "The outdoor pool has frozen over completely.",
+      "answerZh": "室外泳池已完全結冰。",
+      "highlight": "frozen over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Unless we cover the pipe, ice may block it tonight.",
+      "promptZh": "除非我們把水管包好,否則冰今晚可能會把它堵塞。",
+      "starter": "Unless",
+      "answer": "Unless we cover the pipe, it may freeze up tonight.",
+      "answerZh": "除非我們把水管包好,否則它今晚可能會因結冰而堵塞。",
+      "highlight": "it",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The new rules will prevent several small clubs from entering the competition.",
+      "promptZh": "新規則將令數間小型社團無法參加比賽。",
+      "starter": "The",
+      "answer": "The new rules will freeze several small clubs out of the competition.",
+      "answerZh": "新規則將把數間小型社團排除在比賽之外。",
+      "highlight": "freeze",
+      "targetForm": "freeze somebody/something out of something",
+      "targetMeaningZh": "使某人或某團體無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Because we kept the room warm, ice did not block the tap.",
+      "promptZh": "由於我們保持房間溫暖,冰沒有堵塞水龍頭。",
+      "starter": "Because",
+      "answer": "Because we kept the room warm, the tap did not freeze up.",
+      "answerZh": "由於我們保持房間溫暖,水龍頭沒有因結冰而堵塞。",
+      "highlight": "the tap",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did the pond become covered with ice last winter?",
+      "promptZh": "池塘去年冬天有結冰嗎?",
+      "starter": "Did",
+      "answer": "Did the pond freeze over last winter?",
+      "answerZh": "池塘去年冬天有結冰嗎?",
+      "highlight": "freeze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "By sunrise, the shallow pond had become completely covered with ice.",
+      "promptZh": "到日出時,淺水池已完全結冰。",
+      "starter": "By",
+      "answer": "By sunrise, the shallow pond had frozen over completely.",
+      "answerZh": "到日出時,淺水池已完全結冰。",
+      "highlight": "frozen over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The group did not invite Sam to any activities. They were deliberately excluding him.",
+      "promptZh": "小組沒有邀請森參加任何活動。他們正故意排擠他。",
+      "starter": "The",
+      "answer": "The group did not invite Sam to any activities. They were deliberately freezing him out.",
+      "answerZh": "小組沒有邀請森參加任何活動。他們正故意排擠他。",
+      "highlight": "freezing",
+      "targetForm": "freeze somebody out",
+      "targetMeaningZh": "故意冷落或排擠某人"
+    },
+    {
+      "id": "phrasal-verb-131-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We could not get any water because ice had blocked the outside tap.",
+      "promptZh": "我們取不到水,因為冰堵塞了室外水龍頭。",
+      "starter": "We",
+      "answer": "We could not get any water because the outside tap had frozen up.",
+      "answerZh": "我們取不到水,因為室外水龍頭已因結冰而堵塞。",
+      "highlight": "had frozen up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The lake is slowly becoming covered with ice from the edges.",
+      "promptZh": "湖面正由邊緣開始慢慢結冰。",
+      "starter": "The",
+      "answer": "The lake is slowly freezing over from the edges.",
+      "answerZh": "湖面正由邊緣開始慢慢結冰。",
+      "highlight": "freezing over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面逐漸結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "No student should be deliberately prevented from joining the class trip.",
+      "promptZh": "任何學生都不應被故意阻止參加班級旅行。",
+      "starter": "No",
+      "answer": "No student should be frozen out of the class trip.",
+      "answerZh": "任何學生都不應被排除在班級旅行之外。",
+      "highlight": "frozen out of",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "It became so cold that no water could move through the narrow pipe.",
+      "promptZh": "天氣變得非常寒冷,水無法流過那條窄水管。",
+      "starter": "It",
+      "answer": "It became so cold that the narrow pipe froze up.",
+      "answerZh": "天氣變得非常寒冷,那條窄水管因結冰而堵塞。",
+      "highlight": "froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The centre of the river was still moving, but the water near the sides had become covered with ice.",
+      "promptZh": "河中心的水仍在流動,但兩旁的水面已經結冰。",
+      "starter": "The",
+      "answer": "The centre of the river was still moving, but the water near the sides had frozen over.",
+      "answerZh": "河中心的水仍在流動,但兩旁的水面已經結冰。",
+      "highlight": "frozen over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "They stopped sharing information with us so that we could not join the planning meetings.",
+      "promptZh": "他們不再與我們分享資料,使我們無法參與規劃會議。",
+      "starter": "They",
+      "answer": "They stopped sharing information with us to freeze us out of the planning meetings.",
+      "answerZh": "他們不再與我們分享資料,藉此把我們排擠在規劃會議之外。",
+      "highlight": "to freeze us out of",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A repair worker said that ice had blocked the old pipes during the night.",
+      "promptZh": "維修人員說,冰在夜間堵塞了舊水管。",
+      "starter": "A",
+      "answer": "A repair worker said that the old pipes had frozen up during the night.",
+      "answerZh": "維修人員說,舊水管在夜間因結冰而堵塞了。",
+      "highlight": "had frozen up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The temperature stayed low for hours, so the small pool became covered with ice.",
+      "promptZh": "氣溫連續數小時都很低,因此小水池結了冰。",
+      "starter": "The",
+      "answer": "The temperature stayed low for hours, so the small pool froze over.",
+      "answerZh": "氣溫連續數小時都很低,因此小水池結了冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Private meetings prevented the staff members from joining the talks.",
+      "promptZh": "私下會議令員工無法參與商討。",
+      "starter": "Private",
+      "answer": "Private meetings froze the staff members out of the talks.",
+      "answerZh": "私下會議把員工排除在商討之外。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "使某人無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The lake was not the problem; the pipes had become blocked with ice.",
+      "promptZh": "問題不在湖面,而是水管已因結冰而堵塞。",
+      "starter": "The",
+      "answer": "The lake was not the problem; the pipes had frozen up.",
+      "answerZh": "問題不在湖面,而是水管已因結冰而堵塞。",
+      "highlight": "frozen up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The pipes still worked, but the pond became covered with ice before morning.",
+      "promptZh": "水管仍然運作,但池塘在早上前已結冰。",
+      "starter": "The",
+      "answer": "The pipes still worked, but the pond froze over before morning.",
+      "answerZh": "水管仍然運作,但池塘在早上前已結冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The larger companies cut their prices because they wanted to make smaller sellers leave the market.",
+      "promptZh": "較大型公司減價,因為它們想迫使較小型商戶離開市場。",
+      "starter": "The",
+      "answer": "The larger companies cut their prices to freeze smaller sellers out of the market.",
+      "answerZh": "較大型公司減價,藉此把較小型商戶迫出市場。",
+      "highlight": "freeze",
+      "targetForm": "freeze somebody/something out of something",
+      "targetMeaningZh": "迫使某人或某團體離開"
+    },
+    {
+      "id": "phrasal-verb-131-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the pond was already covered with ice, no water came from the kitchen tap because ice was inside it.",
+      "promptZh": "雖然池塘已經結冰,但廚房水龍頭內也有冰,所以沒有水流出。",
+      "starter": "Although",
+      "answer": "Although the pond was already covered with ice, the kitchen tap also froze up.",
+      "answerZh": "雖然池塘已經結冰,但廚房水龍頭也因結冰而堵塞。",
+      "highlight": "also froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the outside pipe worked normally, the canal became covered with ice.",
+      "promptZh": "雖然室外水管運作正常,但運河結了冰。",
+      "starter": "Although",
+      "answer": "Although the outside pipe worked normally, the canal froze over.",
+      "answerZh": "雖然室外水管運作正常,但運河結了冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Even though Hana helped at the start, the others later excluded her from every important meeting.",
+      "promptZh": "雖然花奈一開始有幫忙,但其他人後來不讓她參與任何重要會議。",
+      "starter": "Even",
+      "answer": "Even though Hana helped at the start, the others later froze her out of every important meeting.",
+      "answerZh": "雖然花奈一開始有幫忙,但其他人後來把她排擠在所有重要會議之外。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The river was still flowing, but ice stopped water passing through our pipe.",
+      "promptZh": "河水仍在流動,但冰令水無法通過我們的水管。",
+      "starter": "The",
+      "answer": "The river was still flowing, but our pipe froze up.",
+      "answerZh": "河水仍在流動,但我們的水管因結冰而堵塞。",
+      "highlight": "froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The tap still worked, but the shallow lake became fully covered with ice.",
+      "promptZh": "水龍頭仍然運作,但淺水湖已完全結冰。",
+      "starter": "The",
+      "answer": "The tap still worked, but the shallow lake froze over completely.",
+      "answerZh": "水龍頭仍然運作,但淺水湖已完全結冰。",
+      "highlight": "froze over completely",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "If they keep refusing to speak to her, they may make it impossible for her to stay in the club.",
+      "promptZh": "如果他們繼續拒絕與她說話,可能會令她無法留在社團。",
+      "starter": "If",
+      "answer": "If they keep refusing to speak to her, they may freeze her out of the club.",
+      "answerZh": "如果他們繼續拒絕與她說話,可能會把她排擠出社團。",
+      "highlight": "freeze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "排擠某人,令其無法留下"
+    },
+    {
+      "id": "phrasal-verb-131-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We tried to use the tap, but no water flowed because ice had blocked the pipe.",
+      "promptZh": "我們嘗試使用水龍頭,但因為冰堵塞了水管,所以沒有水流出。",
+      "starter": "We",
+      "answer": "We tried to use the tap, but no water flowed because the pipe had frozen up.",
+      "answerZh": "我們嘗試使用水龍頭,但因為水管已因結冰而堵塞,所以沒有水流出。",
+      "highlight": "had frozen up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The air stayed below zero all night, and by morning ice covered the whole pond.",
+      "promptZh": "整晚氣溫都在零度以下,到早上時整個池塘已被冰覆蓋。",
+      "starter": "The",
+      "answer": "The air stayed below zero all night, and by morning the pond had frozen over completely.",
+      "answerZh": "整晚氣溫都在零度以下,到早上時池塘已完全結冰。",
+      "highlight": "had frozen over completely",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "At first, Kai joined every planning meeting, but later the others excluded him from the project.",
+      "promptZh": "起初,啟參與每次規劃會議,但後來其他人把他排除在項目之外。",
+      "starter": "At",
+      "answer": "At first, Kai joined every planning meeting, but later the others froze him out of the project.",
+      "answerZh": "起初,啟參與每次規劃會議,但後來其他人把他排擠在項目之外。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "故意排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "If the temperature falls again tonight, the unprotected pipes will probably stop carrying water because of ice.",
+      "promptZh": "如果今晚氣溫再次下降,沒有保護的水管很可能會因結冰而無法供水。",
+      "starter": "If",
+      "answer": "If the temperature falls again tonight, the unprotected pipes will probably freeze up.",
+      "answerZh": "如果今晚氣溫再次下降,沒有保護的水管很可能會因結冰而堵塞。",
+      "highlight": "freeze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The lake looked normal at sunset, but its whole surface became covered with ice during the very cold night.",
+      "promptZh": "日落時湖面看來仍然正常,但在非常寒冷的夜間,整個湖面都結了冰。",
+      "starter": "The",
+      "answer": "The lake looked normal at sunset, but its whole surface froze over during the very cold night.",
+      "answerZh": "日落時湖面看來仍然正常,但在非常寒冷的夜間,整個湖面都結了冰。",
+      "highlight": "froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The organiser promised an open discussion, yet only three people received the papers and everyone else was prevented from joining the discussion.",
+      "promptZh": "主辦人承諾進行公開討論,但只有三個人收到文件,其他人都不能參與討論。",
+      "starter": "The",
+      "answer": "The organiser promised an open discussion, yet only three people received the papers and everyone else was frozen out of the discussion.",
+      "answerZh": "主辦人承諾進行公開討論,但只有三個人收到文件,其他人都被排擠在討論之外。",
+      "highlight": "frozen out of",
+      "targetForm": "freeze somebody out of something",
+      "targetMeaningZh": "排擠某人,使其無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although there was no ice on the pond, no water came from the outside tap because ice had formed inside it.",
+      "promptZh": "雖然池塘沒有結冰,但室外水龍頭內結了冰,所以沒有水流出。",
+      "starter": "Although",
+      "answer": "Although there was no ice on the pond, the outside tap froze up.",
+      "answerZh": "雖然池塘沒有結冰,但室外水龍頭因結冰而堵塞。",
+      "highlight": "froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    },
+    {
+      "id": "phrasal-verb-131-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "People could walk beside the canal, but they could not skate until its whole surface became covered with ice.",
+      "promptZh": "人們可以沿着運河步行,但要等整個水面結冰後才能溜冰。",
+      "starter": "People",
+      "answer": "People could walk beside the canal, but they could not skate until it froze over.",
+      "answerZh": "人們可以沿着運河步行,但要等運河結冰後才能溜冰。",
+      "highlight": "it froze over",
+      "targetForm": "freeze over",
+      "targetMeaningZh": "水面結冰"
+    },
+    {
+      "id": "phrasal-verb-131-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Smaller teams could practise, but the high entry fee made it impossible for them to join the final event.",
+      "promptZh": "較小型的隊伍可以練習,但高昂的參加費令它們無法參加最後活動。",
+      "starter": "Smaller",
+      "answer": "Smaller teams could practise, but the high entry fee froze them out of the final event.",
+      "answerZh": "較小型的隊伍可以練習,但高昂的參加費令它們無法參加最後活動。",
+      "highlight": "froze",
+      "targetForm": "freeze somebody/something out of something",
+      "targetMeaningZh": "使某人或某團體無法參與某事"
+    },
+    {
+      "id": "phrasal-verb-131-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We had covered most of the pipes, but one old pipe still stopped carrying water because of ice before dawn.",
+      "promptZh": "我們已把大部分水管包好,但其中一條舊水管在天亮前仍因結冰而無法供水。",
+      "starter": "We",
+      "answer": "We had covered most of the pipes, but one old pipe still froze up before dawn.",
+      "answerZh": "我們已把大部分水管包好,但其中一條舊水管在天亮前仍因結冰而堵塞。",
+      "highlight": "froze up",
+      "targetForm": "freeze up",
+      "targetMeaningZh": "因結冰而堵塞或停止運作"
+    }
+  ]
+}

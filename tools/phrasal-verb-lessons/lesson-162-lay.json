@@ -1,0 +1,2226 @@
+{
+  "id": "phrasal-verb-162",
+  "order": 162,
+  "slug": "lay",
+  "version": "1",
+  "title": "LAY 動詞片語",
+  "titleEn": "Lay",
+  "titleZh": "LAY 動詞片語",
+  "level": "B1",
+  "groupCount": 16,
+  "source": {
+    "file": "Phrasal Verbs 161 - LAY.pdf",
+    "sourceNumber": 161,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LAY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LAY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LAY",
+      "highlight": "LAY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The frightened man laid about himself with an umbrella.",
+      "zh": "那名受驚男子拿着雨傘向四周亂揮。",
+      "highlight": "laid about himself with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach laid into the team for not trying hard enough.",
+      "zh": "教練因球隊不夠努力而嚴厲斥責他們。",
+      "highlight": "laid into the team for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You should lay off sugary drinks for a while.",
+      "zh": "你應該暫時停止飲用含糖飲品。",
+      "highlight": "lay off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "揮動手腳或物件,向四周亂打；猛烈襲擊;憤怒地嚴厲斥責；暫時停止使用、進食、飲用或做某事；停止煩擾、批評或欺負;住手；因工作不足或財政問題而解僱；一擊把某人打至失去知覺；因傷病使某人一段時間無法外出或工作；把正在使用的東西放到一旁；把建議、計劃或資料正式提交給某人或組織考慮；留起或儲起,日後使用；把手上或正在使用的東西放下；預先買入或準備一批東西,留待日後使用；特別安排或提供食物、交通、娛樂或服務；把工作、責任或負擔交給某人；把東西攤開或排列好,方便觀看或使用；讓船、車輛或機器暫停使用一段時間",
+    "en": "lay about you/yourself (with something); lay into somebody/something (with something / for something / for doing something); lay off something / lay off doing something; lay off / lay off somebody/something / lay off doing something; lay somebody off; lay somebody out; lay somebody up; lay something aside; lay something before somebody/something; lay something by; lay something down; lay something in; lay something on; lay something on somebody; lay something out; lay something up",
+    "naturalZh": [
+      "揮動手腳或物件,向四周亂打",
+      "猛烈襲擊;憤怒地嚴厲斥責",
+      "暫時停止使用、進食、飲用或做某事",
+      "停止煩擾、批評或欺負;住手",
+      "因工作不足或財政問題而解僱",
+      "一擊把某人打至失去知覺",
+      "因傷病使某人一段時間無法外出或工作",
+      "把正在使用的東西放到一旁",
+      "把建議、計劃或資料正式提交給某人或組織考慮",
+      "留起或儲起,日後使用",
+      "把手上或正在使用的東西放下",
+      "預先買入或準備一批東西,留待日後使用",
+      "特別安排或提供食物、交通、娛樂或服務",
+      "把工作、責任或負擔交給某人",
+      "把東西攤開或排列好,方便觀看或使用",
+      "讓船、車輛或機器暫停使用一段時間"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lay about you/yourself (with something)",
+      "titleZh": "揮動手腳或物件,向四周亂打",
+      "titleEn": "lay about you/yourself (with something)",
+      "descriptionZh": "揮動手腳或物件,向四周亂打",
+      "descriptionEn": "The frightened man laid about himself with an umbrella.",
+      "examples": [
+        {
+          "en": "The frightened man laid about himself with an umbrella.",
+          "zh": "那名受驚男子拿着雨傘向四周亂揮。",
+          "highlight": "laid about himself with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay into somebody/something (with something / for something / for doing something)",
+      "titleZh": "猛烈襲擊;憤怒地嚴厲斥責",
+      "titleEn": "lay into somebody/something (with something / for something / for doing something)",
+      "descriptionZh": "猛烈襲擊;憤怒地嚴厲斥責",
+      "descriptionEn": "The coach laid into the team for not trying hard enough.",
+      "examples": [
+        {
+          "en": "The coach laid into the team for not trying hard enough.",
+          "zh": "教練因球隊不夠努力而嚴厲斥責他們。",
+          "highlight": "laid into the team for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay off something / lay off doing something",
+      "titleZh": "暫時停止使用、進食、飲用或做某事",
+      "titleEn": "lay off something / lay off doing something",
+      "descriptionZh": "暫時停止使用、進食、飲用或做某事",
+      "descriptionEn": "You should lay off sugary drinks for a while.",
+      "examples": [
+        {
+          "en": "You should lay off sugary drinks for a while.",
+          "zh": "你應該暫時停止飲用含糖飲品。",
+          "highlight": "lay off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay off / lay off somebody/something / lay off doing something",
+      "titleZh": "停止煩擾、批評或欺負;住手",
+      "titleEn": "lay off / lay off somebody/something / lay off doing something",
+      "descriptionZh": "停止煩擾、批評或欺負;住手",
+      "descriptionEn": "Lay off him—he has already apologised.",
+      "examples": [
+        {
+          "en": "Lay off him—he has already apologised.",
+          "zh": "別再煩他——他已經道歉了。",
+          "highlight": "Lay off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay somebody off",
+      "titleZh": "因工作不足或財政問題而解僱",
+      "titleEn": "lay somebody off",
+      "descriptionZh": "因工作不足或財政問題而解僱",
+      "descriptionEn": "The factory laid twenty workers off.",
+      "examples": [
+        {
+          "en": "The factory laid twenty workers off.",
+          "zh": "工廠解僱了二十名員工。",
+          "highlight": "laid twenty workers off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay somebody out",
+      "titleZh": "一擊把某人打至失去知覺",
+      "titleEn": "lay somebody out",
+      "descriptionZh": "一擊把某人打至失去知覺",
+      "descriptionEn": "One punch laid the boxer out.",
+      "examples": [
+        {
+          "en": "One punch laid the boxer out.",
+          "zh": "一拳把那名拳手打至失去知覺。",
+          "highlight": "laid the boxer out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay somebody up",
+      "titleZh": "因傷病使某人一段時間無法外出或工作",
+      "titleEn": "lay somebody up",
+      "descriptionZh": "因傷病使某人一段時間無法外出或工作",
+      "descriptionEn": "A bad ankle laid him up for two weeks.",
+      "examples": [
+        {
+          "en": "A bad ankle laid him up for two weeks.",
+          "zh": "腳踝受傷令他兩星期無法外出。",
+          "highlight": "laid him up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay something aside",
+      "titleZh": "把正在使用的東西放到一旁",
+      "titleEn": "lay something aside",
+      "descriptionZh": "把正在使用的東西放到一旁",
+      "descriptionEn": "She laid her phone aside and opened the book.",
+      "examples": [
+        {
+          "en": "She laid her phone aside and opened the book.",
+          "zh": "她把手機放到一旁,然後打開書本。",
+          "highlight": "laid"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lay something before somebody/something",
+      "titleZh": "把建議、計劃或資料正式提交給某人或組織考慮",
+      "titleEn": "lay something before somebody/something",
+      "descriptionZh": "把建議、計劃或資料正式提交給某人或組織考慮",
+      "descriptionEn": "The students laid their idea before the school council.",
+      "examples": [
+        {
+          "en": "The students laid their idea before the school council.",
+          "zh": "學生把構思正式提交給學校議會考慮。",
+          "highlight": "laid"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something by",
+      "titleZh": "留起或儲起,日後使用",
+      "titleEn": "lay something by",
+      "descriptionZh": "留起或儲起,日後使用",
+      "descriptionEn": "We lay a little money by each month.",
+      "examples": [
+        {
+          "en": "We lay a little money by each month.",
+          "zh": "我們每月留起少量金錢。",
+          "highlight": "lay a little money by"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something down",
+      "titleZh": "把手上或正在使用的東西放下",
+      "titleEn": "lay something down",
+      "descriptionZh": "把手上或正在使用的東西放下",
+      "descriptionEn": "He laid the brush down beside the paint.",
+      "examples": [
+        {
+          "en": "He laid the brush down beside the paint.",
+          "zh": "他把畫筆放在顏料旁。",
+          "highlight": "laid the brush down"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something in",
+      "titleZh": "預先買入或準備一批東西,留待日後使用",
+      "titleEn": "lay something in",
+      "descriptionZh": "預先買入或準備一批東西,留待日後使用",
+      "descriptionEn": "We laid in enough food for the long weekend.",
+      "examples": [
+        {
+          "en": "We laid in enough food for the long weekend.",
+          "zh": "我們為長週末預先買入並儲備了足夠食物。",
+          "highlight": "laid in"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something on",
+      "titleZh": "特別安排或提供食物、交通、娛樂或服務",
+      "titleEn": "lay something on",
+      "descriptionZh": "特別安排或提供食物、交通、娛樂或服務",
+      "descriptionEn": "The hotel laid on a bus for the guests.",
+      "examples": [
+        {
+          "en": "The hotel laid on a bus for the guests.",
+          "zh": "酒店為住客安排了一輛巴士。",
+          "highlight": "laid on"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something on somebody",
+      "titleZh": "把工作、責任或負擔交給某人",
+      "titleEn": "lay something on somebody",
+      "descriptionZh": "把工作、責任或負擔交給某人",
+      "descriptionEn": "Please do not lay all the extra work on me.",
+      "examples": [
+        {
+          "en": "Please do not lay all the extra work on me.",
+          "zh": "請不要把所有額外工作都交給我。",
+          "highlight": "lay all the extra work on"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something out",
+      "titleZh": "把東西攤開或排列好,方便觀看或使用",
+      "titleEn": "lay something out",
+      "descriptionZh": "把東西攤開或排列好,方便觀看或使用",
+      "descriptionEn": "Lay the cards out on the table.",
+      "examples": [
+        {
+          "en": "Lay the cards out on the table.",
+          "zh": "把紙牌攤在桌上。",
+          "highlight": "Lay the cards out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "lay something up",
+      "titleZh": "讓船、車輛或機器暫停使用一段時間",
+      "titleEn": "lay something up",
+      "descriptionZh": "讓船、車輛或機器暫停使用一段時間",
+      "descriptionEn": "The family lays the boat up every winter.",
+      "examples": [
+        {
+          "en": "The family lays the boat up every winter.",
+          "zh": "那家人每年冬天都讓小艇暫停使用。",
+          "highlight": "lays the boat up"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LAY 片語動詞的實際用途",
+    "labelEn": "LAY Phrasal Verbs in Use",
+    "summaryZh": "LAY 片語動詞能幫助你分辨把東西放到一旁、放下,以及攤開排列供人觀看等不同動作。；你可以用 lay something by 和 lay something in 表示留起或儲備物資,也可以用 lay somethingon 表示安排服務或活動。；LAY 片語動詞可以描述解僱員工、因傷病而無法工作,以及讓船隻暫停使用。；lay off 和 lay into 等表達常見於警告、批評或憤怒說話的情境。認識它們有助你理解說話者的態度。",
+    "summaryEn": "LAY expressions help you distinguish between putting something to one side, placing it down and arranging it for people to see. You can use lay something by and lay something in for saving or preparing supplies, and lay something on for arranging a service or event. The LAY family can describe dismissing workers, being unable to work because of illness, and taking a boat out of use. Expressions such as lay off and lay into often appear when people are warning, criticising or speaking angrily. Recognising them helps you understand the speaker’s attitude.",
+    "contextsZh": [
+      "清楚描述放置和排列物件",
+      "談論為日後作準備",
+      "描述工作、健康和交通情況",
+      "理解強烈警告和批評"
+    ],
+    "contextsEn": [
+      "Talk clearly about placing and arranging things",
+      "Talk about preparation for later",
+      "Describe work, health and transport situations",
+      "Understand strong warnings and criticism"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LAY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LAY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lay about you/yourself (with something)",
+    "fixedHighlight": "lay about you/yourself (with something)",
+    "fixedZh": "閱讀整句,選出意思相同的 LAY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LAY expression that gives the same meaning.",
+    "correct": "laid about himself with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照例子中的語序:lay them off、lay it aside、lay it on us、lay it up。；lay off 可以表示暫停某種習慣、停止煩擾某人,或解僱員工。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow the word order shown in the examples: lay them off, lay it aside, lay it on us, lay it up. Lay off may mean stopping a habit, leaving somebody alone or dismissing workers. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "lay about you/yourself (with something)",
+      "lay into somebody/something (with something / for something / for doing something)",
+      "lay off something / lay off doing something",
+      "lay off / lay off somebody/something / lay off doing something",
+      "lay somebody off",
+      "lay somebody out",
+      "lay somebody up",
+      "lay something aside",
+      "lay something before somebody/something",
+      "lay something by",
+      "lay something down",
+      "lay something in",
+      "lay something on",
+      "lay something on somebody",
+      "lay something out",
+      "lay something up"
+    ],
+    "variableItemsEn": [
+      "lay about you/yourself (with something)",
+      "lay into somebody/something (with something / for something / for doing something)",
+      "lay off something / lay off doing something",
+      "lay off / lay off somebody/something / lay off doing something",
+      "lay somebody off",
+      "lay somebody out",
+      "lay somebody up",
+      "lay something aside",
+      "lay something before somebody/something",
+      "lay something by",
+      "lay something down",
+      "lay something in",
+      "lay something on",
+      "lay something on somebody",
+      "lay something out",
+      "lay something up"
+    ],
+    "forms": [
+      {
+        "formZh": "揮動手腳或物件,向四周亂打",
+        "formEn": "lay about you/yourself (with something)",
+        "exampleZh": "那名受驚男子拿着雨傘向四周亂揮。",
+        "exampleEn": "The frightened man laid about himself with an umbrella.",
+        "highlight": "laid about himself with"
+      },
+      {
+        "formZh": "猛烈襲擊;憤怒地嚴厲斥責",
+        "formEn": "lay into somebody/something (with something / for something / for doing something)",
+        "exampleZh": "教練因球隊不夠努力而嚴厲斥責他們。",
+        "exampleEn": "The coach laid into the team for not trying hard enough.",
+        "highlight": "laid into the team for"
+      },
+      {
+        "formZh": "暫時停止使用、進食、飲用或做某事",
+        "formEn": "lay off something / lay off doing something",
+        "exampleZh": "你應該暫時停止飲用含糖飲品。",
+        "exampleEn": "You should lay off sugary drinks for a while.",
+        "highlight": "lay off"
+      },
+      {
+        "formZh": "停止煩擾、批評或欺負;住手",
+        "formEn": "lay off / lay off somebody/something / lay off doing something",
+        "exampleZh": "別再煩他——他已經道歉了。",
+        "exampleEn": "Lay off him—he has already apologised.",
+        "highlight": "Lay off"
+      },
+      {
+        "formZh": "因工作不足或財政問題而解僱",
+        "formEn": "lay somebody off",
+        "exampleZh": "工廠解僱了二十名員工。",
+        "exampleEn": "The factory laid twenty workers off.",
+        "highlight": "laid twenty workers off"
+      },
+      {
+        "formZh": "一擊把某人打至失去知覺",
+        "formEn": "lay somebody out",
+        "exampleZh": "一拳把那名拳手打至失去知覺。",
+        "exampleEn": "One punch laid the boxer out.",
+        "highlight": "laid the boxer out"
+      },
+      {
+        "formZh": "因傷病使某人一段時間無法外出或工作",
+        "formEn": "lay somebody up",
+        "exampleZh": "腳踝受傷令他兩星期無法外出。",
+        "exampleEn": "A bad ankle laid him up for two weeks.",
+        "highlight": "laid him up"
+      },
+      {
+        "formZh": "把正在使用的東西放到一旁",
+        "formEn": "lay something aside",
+        "exampleZh": "她把手機放到一旁,然後打開書本。",
+        "exampleEn": "She laid her phone aside and opened the book.",
+        "highlight": "laid"
+      },
+      {
+        "formZh": "把建議、計劃或資料正式提交給某人或組織考慮",
+        "formEn": "lay something before somebody/something",
+        "exampleZh": "學生把構思正式提交給學校議會考慮。",
+        "exampleEn": "The students laid their idea before the school council.",
+        "highlight": "laid"
+      },
+      {
+        "formZh": "留起或儲起,日後使用",
+        "formEn": "lay something by",
+        "exampleZh": "我們每月留起少量金錢。",
+        "exampleEn": "We lay a little money by each month.",
+        "highlight": "lay a little money by"
+      },
+      {
+        "formZh": "把手上或正在使用的東西放下",
+        "formEn": "lay something down",
+        "exampleZh": "他把畫筆放在顏料旁。",
+        "exampleEn": "He laid the brush down beside the paint.",
+        "highlight": "laid the brush down"
+      },
+      {
+        "formZh": "預先買入或準備一批東西,留待日後使用",
+        "formEn": "lay something in",
+        "exampleZh": "我們為長週末預先買入並儲備了足夠食物。",
+        "exampleEn": "We laid in enough food for the long weekend.",
+        "highlight": "laid in"
+      },
+      {
+        "formZh": "特別安排或提供食物、交通、娛樂或服務",
+        "formEn": "lay something on",
+        "exampleZh": "酒店為住客安排了一輛巴士。",
+        "exampleEn": "The hotel laid on a bus for the guests.",
+        "highlight": "laid on"
+      },
+      {
+        "formZh": "把工作、責任或負擔交給某人",
+        "formEn": "lay something on somebody",
+        "exampleZh": "請不要把所有額外工作都交給我。",
+        "exampleEn": "Please do not lay all the extra work on me.",
+        "highlight": "lay all the extra work on"
+      },
+      {
+        "formZh": "把東西攤開或排列好,方便觀看或使用",
+        "formEn": "lay something out",
+        "exampleZh": "把紙牌攤在桌上。",
+        "exampleEn": "Lay the cards out on the table.",
+        "highlight": "Lay the cards out"
+      },
+      {
+        "formZh": "讓船、車輛或機器暫停使用一段時間",
+        "formEn": "lay something up",
+        "exampleZh": "那家人每年冬天都讓小艇暫停使用。",
+        "exampleEn": "The family lays the boat up every winter.",
+        "highlight": "lays the boat up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "揮動手腳或物件,向四周亂打",
+      "titleEn": "lay about you/yourself (with something)",
+      "formula": "lay about you/yourself (with something)",
+      "highlight": "lay about you/yourself (with something)",
+      "descriptionZh": "揮動手腳或物件,向四周亂打",
+      "descriptionEn": "The frightened man laid about himself with an umbrella.",
+      "examples": [
+        {
+          "en": "The frightened man laid about himself with an umbrella.",
+          "zh": "那名受驚男子拿着雨傘向四周亂揮。",
+          "highlight": "laid about himself with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "猛烈襲擊;憤怒地嚴厲斥責",
+      "titleEn": "lay into somebody/something (with something / for something / for doing something)",
+      "formula": "lay into somebody/something (with something / for something / for doing something)",
+      "highlight": "lay into somebody/something (with something / for something / for doing something)",
+      "descriptionZh": "猛烈襲擊;憤怒地嚴厲斥責",
+      "descriptionEn": "The coach laid into the team for not trying hard enough.",
+      "examples": [
+        {
+          "en": "The coach laid into the team for not trying hard enough.",
+          "zh": "教練因球隊不夠努力而嚴厲斥責他們。",
+          "highlight": "laid into the team for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "暫時停止使用、進食、飲用或做某事",
+      "titleEn": "lay off something / lay off doing something",
+      "formula": "lay off something / lay off doing something",
+      "highlight": "lay off something / lay off doing something",
+      "descriptionZh": "暫時停止使用、進食、飲用或做某事",
+      "descriptionEn": "You should lay off sugary drinks for a while.",
+      "examples": [
+        {
+          "en": "You should lay off sugary drinks for a while.",
+          "zh": "你應該暫時停止飲用含糖飲品。",
+          "highlight": "lay off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "停止煩擾、批評或欺負;住手",
+      "titleEn": "lay off / lay off somebody/something / lay off doing something",
+      "formula": "lay off / lay off somebody/something / lay off doing something",
+      "highlight": "lay off / lay off somebody/something / lay off doing something",
+      "descriptionZh": "停止煩擾、批評或欺負;住手",
+      "descriptionEn": "Lay off him—he has already apologised.",
+      "examples": [
+        {
+          "en": "Lay off him—he has already apologised.",
+          "zh": "別再煩他——他已經道歉了。",
+          "highlight": "Lay off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因工作不足或財政問題而解僱",
+      "titleEn": "lay somebody off",
+      "formula": "lay somebody off",
+      "highlight": "lay somebody off",
+      "descriptionZh": "因工作不足或財政問題而解僱",
+      "descriptionEn": "The factory laid twenty workers off.",
+      "examples": [
+        {
+          "en": "The factory laid twenty workers off.",
+          "zh": "工廠解僱了二十名員工。",
+          "highlight": "laid twenty workers off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "一擊把某人打至失去知覺",
+      "titleEn": "lay somebody out",
+      "formula": "lay somebody out",
+      "highlight": "lay somebody out",
+      "descriptionZh": "一擊把某人打至失去知覺",
+      "descriptionEn": "One punch laid the boxer out.",
+      "examples": [
+        {
+          "en": "One punch laid the boxer out.",
+          "zh": "一拳把那名拳手打至失去知覺。",
+          "highlight": "laid the boxer out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "因傷病使某人一段時間無法外出或工作",
+      "titleEn": "lay somebody up",
+      "formula": "lay somebody up",
+      "highlight": "lay somebody up",
+      "descriptionZh": "因傷病使某人一段時間無法外出或工作",
+      "descriptionEn": "A bad ankle laid him up for two weeks.",
+      "examples": [
+        {
+          "en": "A bad ankle laid him up for two weeks.",
+          "zh": "腳踝受傷令他兩星期無法外出。",
+          "highlight": "laid him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把正在使用的東西放到一旁",
+      "titleEn": "lay something aside",
+      "formula": "lay something aside",
+      "highlight": "lay something aside",
+      "descriptionZh": "把正在使用的東西放到一旁",
+      "descriptionEn": "She laid her phone aside and opened the book.",
+      "examples": [
+        {
+          "en": "She laid her phone aside and opened the book.",
+          "zh": "她把手機放到一旁,然後打開書本。",
+          "highlight": "laid"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "把建議、計劃或資料正式提交給某人或組織考慮",
+      "titleEn": "lay something before somebody/something",
+      "formula": "lay something before somebody/something",
+      "highlight": "lay something before somebody/something",
+      "descriptionZh": "把建議、計劃或資料正式提交給某人或組織考慮",
+      "descriptionEn": "The students laid their idea before the school council.",
+      "examples": [
+        {
+          "en": "The students laid their idea before the school council.",
+          "zh": "學生把構思正式提交給學校議會考慮。",
+          "highlight": "laid"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "留起或儲起,日後使用",
+      "titleEn": "lay something by",
+      "formula": "lay something by",
+      "highlight": "lay something by",
+      "descriptionZh": "留起或儲起,日後使用",
+      "descriptionEn": "We lay a little money by each month.",
+      "examples": [
+        {
+          "en": "We lay a little money by each month.",
+          "zh": "我們每月留起少量金錢。",
+          "highlight": "lay a little money by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "把手上或正在使用的東西放下",
+      "titleEn": "lay something down",
+      "formula": "lay something down",
+      "highlight": "lay something down",
+      "descriptionZh": "把手上或正在使用的東西放下",
+      "descriptionEn": "He laid the brush down beside the paint.",
+      "examples": [
+        {
+          "en": "He laid the brush down beside the paint.",
+          "zh": "他把畫筆放在顏料旁。",
+          "highlight": "laid the brush down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "預先買入或準備一批東西,留待日後使用",
+      "titleEn": "lay something in",
+      "formula": "lay something in",
+      "highlight": "lay something in",
+      "descriptionZh": "預先買入或準備一批東西,留待日後使用",
+      "descriptionEn": "We laid in enough food for the long weekend.",
+      "examples": [
+        {
+          "en": "We laid in enough food for the long weekend.",
+          "zh": "我們為長週末預先買入並儲備了足夠食物。",
+          "highlight": "laid in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "特別安排或提供食物、交通、娛樂或服務",
+      "titleEn": "lay something on",
+      "formula": "lay something on",
+      "highlight": "lay something on",
+      "descriptionZh": "特別安排或提供食物、交通、娛樂或服務",
+      "descriptionEn": "The hotel laid on a bus for the guests.",
+      "examples": [
+        {
+          "en": "The hotel laid on a bus for the guests.",
+          "zh": "酒店為住客安排了一輛巴士。",
+          "highlight": "laid on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把工作、責任或負擔交給某人",
+      "titleEn": "lay something on somebody",
+      "formula": "lay something on somebody",
+      "highlight": "lay something on somebody",
+      "descriptionZh": "把工作、責任或負擔交給某人",
+      "descriptionEn": "Please do not lay all the extra work on me.",
+      "examples": [
+        {
+          "en": "Please do not lay all the extra work on me.",
+          "zh": "請不要把所有額外工作都交給我。",
+          "highlight": "lay all the extra work on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把東西攤開或排列好,方便觀看或使用",
+      "titleEn": "lay something out",
+      "formula": "lay something out",
+      "highlight": "lay something out",
+      "descriptionZh": "把東西攤開或排列好,方便觀看或使用",
+      "descriptionEn": "Lay the cards out on the table.",
+      "examples": [
+        {
+          "en": "Lay the cards out on the table.",
+          "zh": "把紙牌攤在桌上。",
+          "highlight": "Lay the cards out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "讓船、車輛或機器暫停使用一段時間",
+      "titleEn": "lay something up",
+      "formula": "lay something up",
+      "highlight": "lay something up",
+      "descriptionZh": "讓船、車輛或機器暫停使用一段時間",
+      "descriptionEn": "The family lays the boat up every winter.",
+      "examples": [
+        {
+          "en": "The family lays the boat up every winter.",
+          "zh": "那家人每年冬天都讓小艇暫停使用。",
+          "highlight": "lays the boat up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述放置和排列物件",
+      "titleEn": "Talk clearly about placing and arranging things",
+      "zh": "LAY 片語動詞能幫助你分辨把東西放到一旁、放下,以及攤開排列供人觀看等不同動作。",
+      "en": "LAY expressions help you distinguish between putting something to one side, placing it down and arranging it for people to see."
+    },
+    {
+      "titleZh": "談論為日後作準備",
+      "titleEn": "Talk about preparation for later",
+      "zh": "你可以用 lay something by 和 lay something in 表示留起或儲備物資,也可以用 lay somethingon 表示安排服務或活動。",
+      "en": "You can use lay something by and lay something in for saving or preparing supplies, and lay something on for arranging a service or event."
+    },
+    {
+      "titleZh": "描述工作、健康和交通情況",
+      "titleEn": "Describe work, health and transport situations",
+      "zh": "LAY 片語動詞可以描述解僱員工、因傷病而無法工作,以及讓船隻暫停使用。",
+      "en": "The LAY family can describe dismissing workers, being unable to work because of illness, and taking a boat out of use."
+    },
+    {
+      "titleZh": "理解強烈警告和批評",
+      "titleEn": "Understand strong warnings and criticism",
+      "zh": "lay off 和 lay into 等表達常見於警告、批評或憤怒說話的情境。認識它們有助你理解說話者的態度。",
+      "en": "Expressions such as lay off and lay into often appear when people are warning, criticising or speaking angrily. Recognising them helps you understand the speaker’s attitude."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述放置和排列物件",
+      "談論為日後作準備",
+      "描述工作、健康和交通情況",
+      "理解強烈警告和批評"
+    ],
+    "contextsEn": [
+      "Talk clearly about placing and arranging things",
+      "Talk about preparation for later",
+      "Describe work, health and transport situations",
+      "Understand strong warnings and criticism"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述放置和排列物件",
+        "titleEn": "Talk clearly about placing and arranging things",
+        "zh": "LAY 片語動詞能幫助你分辨把東西放到一旁、放下,以及攤開排列供人觀看等不同動作。",
+        "en": "LAY expressions help you distinguish between putting something to one side, placing it down and arranging it for people to see.",
+        "examples": [
+          {
+            "en": "The frightened man laid about himself with an umbrella.",
+            "zh": "那名受驚男子拿着雨傘向四周亂揮。",
+            "highlight": "laid about himself with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論為日後作準備",
+        "titleEn": "Talk about preparation for later",
+        "zh": "你可以用 lay something by 和 lay something in 表示留起或儲備物資,也可以用 lay somethingon 表示安排服務或活動。",
+        "en": "You can use lay something by and lay something in for saving or preparing supplies, and lay something on for arranging a service or event.",
+        "examples": [
+          {
+            "en": "The coach laid into the team for not trying hard enough.",
+            "zh": "教練因球隊不夠努力而嚴厲斥責他們。",
+            "highlight": "laid into the team for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述工作、健康和交通情況",
+        "titleEn": "Describe work, health and transport situations",
+        "zh": "LAY 片語動詞可以描述解僱員工、因傷病而無法工作,以及讓船隻暫停使用。",
+        "en": "The LAY family can describe dismissing workers, being unable to work because of illness, and taking a boat out of use.",
+        "examples": [
+          {
+            "en": "You should lay off sugary drinks for a while.",
+            "zh": "你應該暫時停止飲用含糖飲品。",
+            "highlight": "lay off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解強烈警告和批評",
+        "titleEn": "Understand strong warnings and criticism",
+        "zh": "lay off 和 lay into 等表達常見於警告、批評或憤怒說話的情境。認識它們有助你理解說話者的態度。",
+        "en": "Expressions such as lay off and lay into often appear when people are warning, criticising or speaking angrily. Recognising them helps you understand the speaker’s attitude.",
+        "examples": [
+          {
+            "en": "Lay off him—he has already apologised.",
+            "zh": "別再煩他——他已經道歉了。",
+            "highlight": "Lay off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LAY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LAY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LAY 片語動詞。",
+      "en": "Read the whole sentence and choose the LAY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照例子中的語序:lay them off、lay it aside、lay it on us、lay it up。",
+      "titleEn": "When using him, her, it or them, follow the word order shown in the examples: lay them off, lay it aside, lay it on us, lay it up.",
+      "zh": "使用 him、her、it 或 them 時,請按照例子中的語序:lay them off、lay it aside、lay it on us、lay it up。",
+      "en": "When using him, her, it or them, follow the word order shown in the examples: lay them off, lay it aside, lay it on us, lay it up."
+    },
+    {
+      "titleZh": "lay off 可以表示暫停某種習慣、停止煩擾某人,或解僱員工。請仔細閱讀整個情境。",
+      "titleEn": "Lay off may mean stopping a habit, leaving somebody alone or dismissing workers.",
+      "zh": "lay off 可以表示暫停某種習慣、停止煩擾某人,或解僱員工。請仔細閱讀整個情境。",
+      "en": "Lay off may mean stopping a habit, leaving somebody alone or dismissing workers. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LAY 動詞片語句子改寫練習",
+    "titleEn": "LAY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-162-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "We bought and stored enough food for the long weekend.",
+      "promptZh": "我們買了並儲存足夠食物,準備在長週末使用。",
+      "starter": "We",
+      "answer": "We laid in enough food for the long weekend.",
+      "answerZh": "我們買了並儲存足夠食物,準備在長週末使用。",
+      "highlight": "laid in",
+      "targetForm": "lay something in",
+      "targetMeaningZh": "預先買入或準備一批東西,留待日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Stop bothering your younger brother.",
+      "promptZh": "不要再煩擾你的弟弟。",
+      "starter": "Lay",
+      "answer": "Lay off your younger brother.",
+      "answerZh": "不要再煩擾你的弟弟。",
+      "highlight": "Lay off",
+      "targetForm": "lay off somebody",
+      "targetMeaningZh": "停止煩擾、批評或欺負;住手"
+    },
+    {
+      "id": "phrasal-verb-162-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The class formally presented its idea to the school council.",
+      "promptZh": "全班把構思正式提交給學校議會考慮。",
+      "starter": "The",
+      "answer": "The class laid its idea before the school council.",
+      "answerZh": "全班把構思正式提交給學校議會考慮。",
+      "highlight": "laid",
+      "targetForm": "lay something before somebody/something",
+      "targetMeaningZh": "把建議、計劃或資料正式提交考慮"
+    },
+    {
+      "id": "phrasal-verb-162-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The frightened hiker swung his stick wildly in every direction.",
+      "promptZh": "那名受驚的遠足者把手杖向四周亂揮。",
+      "starter": "The",
+      "answer": "The frightened hiker laid about himself with his stick.",
+      "answerZh": "那名受驚的遠足者把手杖向四周亂揮。",
+      "highlight": "laid about himself with",
+      "targetForm": "lay about you/yourself with something",
+      "targetMeaningZh": "揮動手腳或物件,向四周亂打"
+    },
+    {
+      "id": "phrasal-verb-162-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Spread all the clothes on the bed so we can see them.",
+      "promptZh": "把所有衣服攤在床上,讓我們看清楚。",
+      "starter": "Lay",
+      "answer": "Lay all the clothes out on the bed so we can see them.",
+      "answerZh": "把所有衣服攤在床上,讓我們看清楚。",
+      "highlight": "Lay",
+      "targetForm": "lay something out",
+      "targetMeaningZh": "把東西攤開或排列好"
+    },
+    {
+      "id": "phrasal-verb-162-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "One punch knocked the boxer unconscious.",
+      "promptZh": "一拳把那名拳手打至失去知覺。",
+      "starter": "One",
+      "answer": "One punch laid the boxer out.",
+      "answerZh": "一拳把那名拳手打至失去知覺。",
+      "highlight": "laid",
+      "targetForm": "lay somebody out",
+      "targetMeaningZh": "一擊把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-162-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "You should stop drinking sugary drinks for a while.",
+      "promptZh": "你應該暫時停止飲用含糖飲品。",
+      "starter": "You",
+      "answer": "You should lay off sugary drinks for a while.",
+      "answerZh": "你應該暫時停止飲用含糖飲品。",
+      "highlight": "lay off",
+      "targetForm": "lay off something",
+      "targetMeaningZh": "暫時停止使用、進食或飲用某物"
+    },
+    {
+      "id": "phrasal-verb-162-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Please do not give all this extra work to me.",
+      "promptZh": "請不要把所有額外工作都交給我。",
+      "starter": "Please",
+      "answer": "Please do not lay all this extra work on me.",
+      "answerZh": "請不要把所有額外工作都交給我。",
+      "highlight": "lay",
+      "targetForm": "lay something on somebody",
+      "targetMeaningZh": "把工作、責任或負擔交給某人"
+    },
+    {
+      "id": "phrasal-verb-162-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "She placed her phone to one side and opened the book.",
+      "promptZh": "她把手機放到一旁,然後打開書本。",
+      "starter": "She",
+      "answer": "She laid her phone aside and opened the book.",
+      "answerZh": "她把手機放到一旁,然後打開書本。",
+      "highlight": "laid",
+      "targetForm": "lay something aside",
+      "targetMeaningZh": "把正在使用的東西放到一旁"
+    },
+    {
+      "id": "phrasal-verb-162-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The shop dismissed two workers because business was slow.",
+      "promptZh": "店舖因生意淡靜而解僱了兩名員工。",
+      "starter": "The",
+      "answer": "The shop laid two workers off because business was slow.",
+      "answerZh": "店舖因生意淡靜而解僱了兩名員工。",
+      "highlight": "laid",
+      "targetForm": "lay somebody off",
+      "targetMeaningZh": "因工作不足或財政問題而解僱"
+    },
+    {
+      "id": "phrasal-verb-162-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The hotel provided a bus for its guests.",
+      "promptZh": "酒店為住客安排了一輛巴士。",
+      "starter": "The",
+      "answer": "The hotel laid on a bus for its guests.",
+      "answerZh": "酒店為住客安排了一輛巴士。",
+      "highlight": "laid on",
+      "targetForm": "lay something on",
+      "targetMeaningZh": "特別安排或提供交通、食物、娛樂或服務"
+    },
+    {
+      "id": "phrasal-verb-162-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The manager angrily criticised the team for arriving late.",
+      "promptZh": "經理因球隊遲到而憤怒地斥責他們。",
+      "starter": "The",
+      "answer": "The manager laid into the team for arriving late.",
+      "answerZh": "經理因球隊遲到而憤怒地斥責他們。",
+      "highlight": "laid into",
+      "targetForm": "lay into somebody",
+      "targetMeaningZh": "憤怒地嚴厲斥責某人"
+    },
+    {
+      "id": "phrasal-verb-162-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We take our boat out of use every winter.",
+      "promptZh": "我們每年冬天都讓小艇暫停使用。",
+      "starter": "We",
+      "answer": "We lay our boat up every winter.",
+      "answerZh": "我們每年冬天都讓小艇暫停使用。",
+      "highlight": "lay",
+      "targetForm": "lay something up",
+      "targetMeaningZh": "讓船、車輛或機器暫停使用"
+    },
+    {
+      "id": "phrasal-verb-162-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We save a little money for emergencies each month.",
+      "promptZh": "我們每月留起少量金錢,以備不時之需。",
+      "starter": "We",
+      "answer": "We lay a little money by for emergencies each month.",
+      "answerZh": "我們每月留起少量金錢,以備不時之需。",
+      "highlight": "lay",
+      "targetForm": "lay something by",
+      "targetMeaningZh": "留起或儲起,日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "A broken ankle kept Rosa at home for a month.",
+      "promptZh": "腳踝骨折令羅莎一個月無法外出。",
+      "starter": "A",
+      "answer": "A broken ankle laid Rosa up for a month.",
+      "answerZh": "腳踝骨折令羅莎一個月無法外出。",
+      "highlight": "laid",
+      "targetForm": "lay somebody up",
+      "targetMeaningZh": "因傷病使某人無法外出或工作"
+    },
+    {
+      "id": "phrasal-verb-162-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "He stopped writing and placed his pen on the desk.",
+      "promptZh": "他停止書寫,把筆放在桌上。",
+      "starter": "He",
+      "answer": "He stopped writing and laid his pen down on the desk.",
+      "answerZh": "他停止書寫,把筆放在桌上。",
+      "highlight": "laid",
+      "targetForm": "lay something down",
+      "targetMeaningZh": "把手上或正在使用的東西放下"
+    },
+    {
+      "id": "phrasal-verb-162-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The company may dismiss more staff next month.",
+      "promptZh": "公司下月可能會解僱更多員工。",
+      "starter": "The",
+      "answer": "The company may lay more staff off next month.",
+      "answerZh": "公司下月可能會解僱更多員工。",
+      "highlight": "lay",
+      "targetForm": "lay somebody off",
+      "targetMeaningZh": "因工作不足或財政問題而解僱"
+    },
+    {
+      "id": "phrasal-verb-162-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The school is arranging a special lunch for the visiting team.",
+      "promptZh": "學校正為到訪球隊安排一頓特別午餐。",
+      "starter": "The",
+      "answer": "The school is laying on a special lunch for the visiting team.",
+      "answerZh": "學校正為到訪球隊安排一頓特別午餐。",
+      "highlight": "laying on",
+      "targetForm": "lay something on",
+      "targetMeaningZh": "特別安排或提供食物、交通、娛樂或服務"
+    },
+    {
+      "id": "phrasal-verb-162-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Please place your work to one side for a moment.",
+      "promptZh": "請暫時把手上的工作放到一旁。",
+      "starter": "Please",
+      "answer": "Please lay your work aside for a moment.",
+      "answerZh": "請暫時把手上的工作放到一旁。",
+      "highlight": "lay",
+      "targetForm": "lay something aside",
+      "targetMeaningZh": "把正在使用的東西放到一旁"
+    },
+    {
+      "id": "phrasal-verb-162-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The writer is fiercely attacking the new rule in her article.",
+      "promptZh": "那名作者正在文章中猛烈批評新規則。",
+      "starter": "The",
+      "answer": "The writer is laying into the new rule in her article.",
+      "answerZh": "那名作者正在文章中猛烈批評新規則。",
+      "highlight": "laying into",
+      "targetForm": "lay into something",
+      "targetMeaningZh": "猛烈批評某事物"
+    },
+    {
+      "id": "phrasal-verb-162-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Please place the scissors on the table.",
+      "promptZh": "請把剪刀放在桌上。",
+      "starter": "Please",
+      "answer": "Please lay the scissors down on the table.",
+      "answerZh": "請把剪刀放在桌上。",
+      "highlight": "lay",
+      "targetForm": "lay something down",
+      "targetMeaningZh": "把手上或正在使用的東西放下"
+    },
+    {
+      "id": "phrasal-verb-162-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The old ferry is out of use while it is being repaired.",
+      "promptZh": "舊渡輪在維修期間暫停使用。",
+      "starter": "The",
+      "answer": "The old ferry is laid up while it is being repaired.",
+      "answerZh": "舊渡輪在維修期間暫停使用。",
+      "highlight": "laid up",
+      "targetForm": "lay something up",
+      "targetMeaningZh": "讓船、車輛或機器暫停使用"
+    },
+    {
+      "id": "phrasal-verb-162-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Nina will not stop bothering Ben, although he has asked her twice.",
+      "promptZh": "妮娜不肯停止煩擾賓,雖然他已經兩次叫她不要這樣做。",
+      "starter": "Nina",
+      "answer": "Nina will not lay off Ben, although he has asked her twice.",
+      "answerZh": "妮娜不肯停止煩擾賓,雖然他已經兩次叫她不要這樣做。",
+      "highlight": "lay off",
+      "targetForm": "lay off somebody",
+      "targetMeaningZh": "停止煩擾或批評某人"
+    },
+    {
+      "id": "phrasal-verb-162-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Tessa has saved some money for a new bicycle.",
+      "promptZh": "泰莎已留起一些錢買新單車。",
+      "starter": "Tessa",
+      "answer": "Tessa has laid some money by for a new bicycle.",
+      "answerZh": "泰莎已留起一些錢買新單車。",
+      "highlight": "laid",
+      "targetForm": "lay something by",
+      "targetMeaningZh": "留起或儲起,日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "During the noisy scene, the actor was swinging his umbrella wildly around him.",
+      "promptZh": "在那場吵鬧的戲中,演員正用雨傘向四周亂揮。",
+      "starter": "During",
+      "answer": "During the noisy scene, the actor was laying about himself with his umbrella.",
+      "answerZh": "在那場吵鬧的戲中,演員正用雨傘向四周亂揮。",
+      "highlight": "laying about himself with",
+      "targetForm": "lay about you/yourself with something",
+      "targetMeaningZh": "揮動物件向四周亂打"
+    },
+    {
+      "id": "phrasal-verb-162-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The manager often gives too much extra work to Leo.",
+      "promptZh": "經理經常把太多額外工作交給里奧。",
+      "starter": "The",
+      "answer": "The manager often lays too much extra work on Leo.",
+      "answerZh": "經理經常把太多額外工作交給里奧。",
+      "highlight": "lays",
+      "targetForm": "lay something on somebody",
+      "targetMeaningZh": "把工作、責任或負擔交給某人"
+    },
+    {
+      "id": "phrasal-verb-162-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "A blow like that could knock you unconscious.",
+      "promptZh": "那樣的一擊可能會把你打至失去知覺。",
+      "starter": "A",
+      "answer": "A blow like that could lay you out.",
+      "answerZh": "那樣的一擊可能會把你打至失去知覺。",
+      "highlight": "lay",
+      "targetForm": "lay somebody out",
+      "targetMeaningZh": "一擊把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-162-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Tomorrow, we will formally present the plan to the committee for a decision.",
+      "promptZh": "明天,我們會把計劃正式提交委員會決定。",
+      "starter": "Tomorrow",
+      "answer": "Tomorrow, we will lay the plan before the committee for a decision.",
+      "answerZh": "明天,我們會把計劃正式提交委員會決定。",
+      "highlight": "lay",
+      "targetForm": "lay something before somebody/something",
+      "targetMeaningZh": "把計劃或資料正式提交考慮"
+    },
+    {
+      "id": "phrasal-verb-162-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "I am trying to stop eating fried food this month.",
+      "promptZh": "我這個月正嘗試停止進食油炸食物。",
+      "starter": "I",
+      "answer": "I am trying to lay off fried food this month.",
+      "answerZh": "我這個月正嘗試停止進食油炸食物。",
+      "highlight": "lay off",
+      "targetForm": "lay off something",
+      "targetMeaningZh": "暫時停止進食或使用某物"
+    },
+    {
+      "id": "phrasal-verb-162-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The cook is arranging the plates on the long table.",
+      "promptZh": "廚師正把碟子排列在長桌上。",
+      "starter": "The",
+      "answer": "The cook is laying the plates out on the long table.",
+      "answerZh": "廚師正把碟子排列在長桌上。",
+      "highlight": "laying",
+      "targetForm": "lay something out",
+      "targetMeaningZh": "把東西攤開或排列好"
+    },
+    {
+      "id": "phrasal-verb-162-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The café is buying extra milk before the holiday.",
+      "promptZh": "咖啡店正在假期前預先購買並儲備額外牛奶。",
+      "starter": "The",
+      "answer": "The café is laying in extra milk before the holiday.",
+      "answerZh": "咖啡店正在假期前預先購買並儲備額外牛奶。",
+      "highlight": "laying in",
+      "targetForm": "lay something in",
+      "targetMeaningZh": "預先買入並儲備"
+    },
+    {
+      "id": "phrasal-verb-162-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "This back problem has kept me away from work all week.",
+      "promptZh": "這個背部問題令我整個星期都無法工作。",
+      "starter": "This",
+      "answer": "This back problem has laid me up all week.",
+      "answerZh": "這個背部問題令我整個星期都無法工作。",
+      "highlight": "laid",
+      "targetForm": "lay somebody up",
+      "targetMeaningZh": "因傷病使某人無法外出或工作"
+    },
+    {
+      "id": "phrasal-verb-162-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The final proposal was formally presented to the school committee.",
+      "promptZh": "最終建議已正式提交學校委員會考慮。",
+      "starter": "The",
+      "answer": "The final proposal was laid before the school committee.",
+      "answerZh": "最終建議已正式提交學校委員會考慮。",
+      "highlight": "laid before",
+      "targetForm": "lay something before somebody/something",
+      "targetMeaningZh": "把建議或資料正式提交考慮"
+    },
+    {
+      "id": "phrasal-verb-162-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The doctor told him to stop using his phone late at night.",
+      "promptZh": "醫生叫他停止深夜使用手機。",
+      "starter": "The",
+      "answer": "The doctor told him to lay off using his phone late at night.",
+      "answerZh": "醫生叫他停止深夜使用手機。",
+      "highlight": "lay off",
+      "targetForm": "lay off doing something",
+      "targetMeaningZh": "暫時停止做某事"
+    },
+    {
+      "id": "phrasal-verb-162-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The project was huge. The manager made us responsible for it without warning.",
+      "promptZh": "那個項目十分龐大。經理毫無預警地把責任交給我們。",
+      "starter": "The",
+      "answer": "The project was huge. The manager laid it on us without warning.",
+      "answerZh": "那個項目十分龐大。經理毫無預警地把責任交給我們。",
+      "highlight": "laid it on",
+      "targetForm": "lay something on somebody",
+      "targetMeaningZh": "把工作、責任或負擔交給某人"
+    },
+    {
+      "id": "phrasal-verb-162-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Without warning, the falling branch knocked him unconscious.",
+      "promptZh": "掉下來的樹枝毫無預警地把他撞至失去知覺。",
+      "starter": "Without",
+      "answer": "Without warning, the falling branch laid him out.",
+      "answerZh": "掉下來的樹枝毫無預警地把他撞至失去知覺。",
+      "highlight": "laid",
+      "targetForm": "lay somebody out",
+      "targetMeaningZh": "把某人撞或打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-162-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Before the road closed, the village shop had already bought and stored extra food.",
+      "promptZh": "道路封閉前,村內店舖已經預先買入並儲備額外食物。",
+      "starter": "Before",
+      "answer": "Before the road closed, the village shop had already laid in extra food.",
+      "answerZh": "道路封閉前,村內店舖已經預先買入並儲備額外食物。",
+      "highlight": "laid in",
+      "targetForm": "lay something in",
+      "targetMeaningZh": "預先買入並儲備"
+    },
+    {
+      "id": "phrasal-verb-162-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The girl swung a rolled-up poster wildly in every direction.",
+      "promptZh": "那名女孩拿着捲起的海報向四周亂揮。",
+      "starter": "The",
+      "answer": "The girl laid about herself with a rolled-up poster.",
+      "answerZh": "那名女孩拿着捲起的海報向四周亂揮。",
+      "highlight": "laid about herself with",
+      "targetForm": "lay about you/yourself with something",
+      "targetMeaningZh": "揮動物件向四周亂打"
+    },
+    {
+      "id": "phrasal-verb-162-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The boat had finished its summer trips. They stopped using it for the winter.",
+      "promptZh": "那艘小艇已完成夏季航程。他們在冬季暫停使用它。",
+      "starter": "The",
+      "answer": "The boat had finished its summer trips. They laid it up for the winter.",
+      "answerZh": "那艘小艇已完成夏季航程。他們在冬季暫停使用它。",
+      "highlight": "laid",
+      "targetForm": "lay something up",
+      "targetMeaningZh": "讓船、車輛或機器暫停使用"
+    },
+    {
+      "id": "phrasal-verb-162-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The business could not keep them, so it dismissed them.",
+      "promptZh": "公司無法繼續聘用他們,因此把他們解僱了。",
+      "starter": "The",
+      "answer": "The business could not keep them, so it laid them off.",
+      "answerZh": "公司無法繼續聘用他們,因此把他們解僱了。",
+      "highlight": "laid",
+      "targetForm": "lay somebody off",
+      "targetMeaningZh": "因工作不足或財政問題而解僱"
+    },
+    {
+      "id": "phrasal-verb-162-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "This is some of my pay. I save it for emergencies.",
+      "promptZh": "這是我部分薪金。我把它留起來以備不時之需。",
+      "starter": "This",
+      "answer": "This is some of my pay. I lay it by for emergencies.",
+      "answerZh": "這是我部分薪金。我把它留起來以備不時之需。",
+      "highlight": "lay",
+      "targetForm": "lay something by",
+      "targetMeaningZh": "留起或儲起,日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "The illness kept them in bed for several days.",
+      "promptZh": "那場病令他們臥床數天。",
+      "starter": "The",
+      "answer": "The illness laid them up for several days.",
+      "answerZh": "那場病令他們臥床數天。",
+      "highlight": "laid",
+      "targetForm": "lay somebody up",
+      "targetMeaningZh": "因傷病使某人無法外出或工作"
+    },
+    {
+      "id": "phrasal-verb-162-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Spread the maps across the floor so I can see them.",
+      "promptZh": "把地圖攤在地板上,讓我可以看清楚。",
+      "starter": "Lay",
+      "answer": "Lay the maps out across the floor so I can see them.",
+      "answerZh": "把地圖攤在地板上,讓我可以看清楚。",
+      "highlight": "Lay",
+      "targetForm": "lay something out",
+      "targetMeaningZh": "把東西攤開或排列好"
+    },
+    {
+      "id": "phrasal-verb-162-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Please stop teasing Kai.",
+      "promptZh": "請停止取笑啟。",
+      "starter": "Please",
+      "answer": "Please lay off teasing Kai.",
+      "answerZh": "請停止取笑啟。",
+      "highlight": "lay off",
+      "targetForm": "lay off doing something",
+      "targetMeaningZh": "停止煩擾、欺負或批評"
+    },
+    {
+      "id": "phrasal-verb-162-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "She carried the box inside and placed it carefully beside the door.",
+      "promptZh": "她把箱子搬進屋內,小心地放在門旁。",
+      "starter": "She",
+      "answer": "She carried the box inside and laid it down carefully beside the door.",
+      "answerZh": "她把箱子搬進屋內,小心地放在門旁。",
+      "highlight": "laid",
+      "targetForm": "lay something down",
+      "targetMeaningZh": "把手上或正在使用的東西放下"
+    },
+    {
+      "id": "phrasal-verb-162-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The angry customer began hitting the door hard with his bag.",
+      "promptZh": "那名憤怒的顧客開始用手袋猛烈擊打門。",
+      "starter": "The",
+      "answer": "The angry customer began laying into the door with his bag.",
+      "answerZh": "那名憤怒的顧客開始用手袋猛烈擊打門。",
+      "highlight": "laying into",
+      "targetForm": "lay into something with something",
+      "targetMeaningZh": "用某物猛烈擊打"
+    },
+    {
+      "id": "phrasal-verb-162-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "He read the letter, then placed it to one side.",
+      "promptZh": "他讀完信後,把它放到一旁。",
+      "starter": "He",
+      "answer": "He read the letter, then laid it aside.",
+      "answerZh": "他讀完信後,把它放到一旁。",
+      "highlight": "laid",
+      "targetForm": "lay something aside",
+      "targetMeaningZh": "把正在使用的東西放到一旁"
+    },
+    {
+      "id": "phrasal-verb-162-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Special trains were provided after the match.",
+      "promptZh": "比賽後安排了特別列車。",
+      "starter": "Special",
+      "answer": "Special trains were laid on after the match.",
+      "answerZh": "比賽後安排了特別列車。",
+      "highlight": "laid on",
+      "targetForm": "lay something on",
+      "targetMeaningZh": "特別安排或提供交通、食物、娛樂或服務"
+    },
+    {
+      "id": "phrasal-verb-162-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The teacher strongly criticised Ben for copying another student’s work.",
+      "promptZh": "老師因賓抄襲另一名學生的功課而嚴厲斥責他。",
+      "starter": "The",
+      "answer": "The teacher laid into Ben for copying another student’s work.",
+      "answerZh": "老師因賓抄襲另一名學生的功課而嚴厲斥責他。",
+      "highlight": "laid into",
+      "targetForm": "lay into somebody for doing something",
+      "targetMeaningZh": "因某人做了某事而嚴厲斥責"
+    },
+    {
+      "id": "phrasal-verb-162-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The heavy bag had been placed beside the door before the guests arrived.",
+      "promptZh": "客人到達前,那個沉重的袋子已被放在門旁。",
+      "starter": "The",
+      "answer": "The heavy bag had been laid down beside the door before the guests arrived.",
+      "answerZh": "客人到達前,那個沉重的袋子已被放在門旁。",
+      "highlight": "laid down",
+      "targetForm": "lay something down",
+      "targetMeaningZh": "把東西放下"
+    },
+    {
+      "id": "phrasal-verb-162-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Fifteen drivers were dismissed when the delivery service became smaller.",
+      "promptZh": "送貨服務縮減時,十五名司機被解僱。",
+      "starter": "Fifteen",
+      "answer": "Fifteen drivers were laid off when the delivery service became smaller.",
+      "answerZh": "送貨服務縮減時,十五名司機被解僱。",
+      "highlight": "laid off",
+      "targetForm": "lay somebody off",
+      "targetMeaningZh": "因工作不足或財政問題而解僱"
+    },
+    {
+      "id": "phrasal-verb-162-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The tools had been arranged in a straight line before the class began.",
+      "promptZh": "課堂開始前,工具已排列成一直線。",
+      "starter": "The",
+      "answer": "The tools had been laid out in a straight line before the class began.",
+      "answerZh": "課堂開始前,工具已排列成一直線。",
+      "highlight": "laid out",
+      "targetForm": "lay something out",
+      "targetMeaningZh": "把東西攤開或排列好"
+    },
+    {
+      "id": "phrasal-verb-162-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "He was unable to leave home for ten days because of a knee injury.",
+      "promptZh": "他因膝傷而十天無法外出。",
+      "starter": "He",
+      "answer": "He was laid up for ten days with a knee injury.",
+      "answerZh": "他因膝傷而十天無法外出。",
+      "highlight": "laid up",
+      "targetForm": "lay somebody up",
+      "targetMeaningZh": "因傷病使某人無法外出或工作"
+    },
+    {
+      "id": "phrasal-verb-162-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Will the club provide music and food for the party?",
+      "promptZh": "會所會為派對安排音樂和食物嗎?",
+      "starter": "Will",
+      "answer": "Will the club lay on music and food for the party?",
+      "answerZh": "會所會為派對安排音樂和食物嗎?",
+      "highlight": "lay on",
+      "targetForm": "lay something on",
+      "targetMeaningZh": "特別安排或提供食物、交通、娛樂或服務"
+    },
+    {
+      "id": "phrasal-verb-162-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "During the stage fight, the performer swung a foam sword wildly in every direction.",
+      "promptZh": "舞台打鬥場面中,表演者拿着泡棉劍向四周亂揮。",
+      "starter": "During",
+      "answer": "During the stage fight, the performer laid about himself with a foam sword.",
+      "answerZh": "舞台打鬥場面中,表演者拿着泡棉劍向四周亂揮。",
+      "highlight": "laid about himself with",
+      "targetForm": "lay about you/yourself with something",
+      "targetMeaningZh": "揮動物件向四周亂打"
+    },
+    {
+      "id": "phrasal-verb-162-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "It will be formally presented to the judges this afternoon.",
+      "promptZh": "它將於今天下午正式提交評判考慮。",
+      "starter": "It",
+      "answer": "It will be laid before the judges this afternoon.",
+      "answerZh": "它將於今天下午正式提交評判考慮。",
+      "highlight": "laid before",
+      "targetForm": "lay something before somebody",
+      "targetMeaningZh": "把建議或資料正式提交某人考慮"
+    },
+    {
+      "id": "phrasal-verb-162-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The mistake happened years ago, so why will the reporters not stop bothering him?",
+      "promptZh": "那個錯誤已是多年前的事,為何記者仍不停煩擾他?",
+      "starter": "The",
+      "answer": "The mistake happened years ago, so why will the reporters not lay off him?",
+      "answerZh": "那個錯誤已是多年前的事,為何記者仍不停煩擾他?",
+      "highlight": "lay off",
+      "targetForm": "lay off somebody",
+      "targetMeaningZh": "停止煩擾或批評某人"
+    },
+    {
+      "id": "phrasal-verb-162-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Where will the club keep the boats out of use during the cold months?",
+      "promptZh": "會所在寒冷月份會把小艇停放在哪裏暫停使用?",
+      "starter": "Where",
+      "answer": "Where will the club lay the boats up during the cold months?",
+      "answerZh": "會所在寒冷月份會把小艇停放在哪裏暫停使用?",
+      "highlight": "lay",
+      "targetForm": "lay something up",
+      "targetMeaningZh": "讓船、車輛或機器暫停使用"
+    },
+    {
+      "id": "phrasal-verb-162-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The gardener saved some seeds for planting next spring.",
+      "promptZh": "園丁留起了一些種子,準備明年春天種植。",
+      "starter": "The",
+      "answer": "The gardener laid some seeds by for planting next spring.",
+      "answerZh": "園丁留起了一些種子,準備明年春天種植。",
+      "highlight": "laid",
+      "targetForm": "lay something by",
+      "targetMeaningZh": "留起或儲起,日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The first hit did little, but the second one knocked the fighter unconscious.",
+      "promptZh": "第一擊影響不大,但第二擊把那名拳手打至失去知覺。",
+      "starter": "The",
+      "answer": "The first hit did little, but the second one laid the fighter out.",
+      "answerZh": "第一擊影響不大,但第二擊把那名拳手打至失去知覺。",
+      "highlight": "laid",
+      "targetForm": "lay somebody out",
+      "targetMeaningZh": "一擊把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-162-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Why are you giving one student all the responsibility?",
+      "promptZh": "你為何把所有責任都交給一名學生?",
+      "starter": "Why",
+      "answer": "Why are you laying all the responsibility on one student?",
+      "answerZh": "你為何把所有責任都交給一名學生?",
+      "highlight": "laying",
+      "targetForm": "lay something on somebody",
+      "targetMeaningZh": "把責任或負擔交給某人"
+    },
+    {
+      "id": "phrasal-verb-162-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Why did the family buy and store three boxes of candles before the power cuts?",
+      "promptZh": "為何那家人在停電前預先買入並儲備三箱蠟燭?",
+      "starter": "Why",
+      "answer": "Why did the family lay in three boxes of candles before the power cuts?",
+      "answerZh": "為何那家人在停電前預先買入並儲備三箱蠟燭?",
+      "highlight": "lay in",
+      "targetForm": "lay something in",
+      "targetMeaningZh": "預先買入並儲備"
+    },
+    {
+      "id": "phrasal-verb-162-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Why don’t you stop playing online games until your exams are over?",
+      "promptZh": "你何不暫停玩網上遊戲,直至考試結束?",
+      "starter": "Why",
+      "answer": "Why don’t you lay off playing online games until your exams are over?",
+      "answerZh": "你何不暫停玩網上遊戲,直至考試結束?",
+      "highlight": "lay off",
+      "targetForm": "lay off doing something",
+      "targetMeaningZh": "暫時停止做某事"
+    },
+    {
+      "id": "phrasal-verb-162-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The old plan has been placed to one side while we test the new one.",
+      "promptZh": "我們測試新計劃期間,舊計劃已暫時擱置。",
+      "starter": "The",
+      "answer": "The old plan has been laid aside while we test the new one.",
+      "answerZh": "我們測試新計劃期間,舊計劃已暫時擱置。",
+      "highlight": "laid aside",
+      "targetForm": "lay something aside",
+      "targetMeaningZh": "暫時把某事物擱置"
+    },
+    {
+      "id": "phrasal-verb-162-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The team already had two urgent jobs, but the supervisor gave them another difficult task.",
+      "promptZh": "團隊已有兩項緊急工作,但主管又把另一項困難工作交給他們。",
+      "starter": "The",
+      "answer": "The team already had two urgent jobs, but the supervisor laid another difficult task on them.",
+      "answerZh": "團隊已有兩項緊急工作,但主管又把另一項困難工作交給他們。",
+      "highlight": "laid",
+      "targetForm": "lay something on somebody",
+      "targetMeaningZh": "把工作、責任或負擔交給某人"
+    },
+    {
+      "id": "phrasal-verb-162-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "When the child began speaking, the nurse stopped writing and placed her notes to one side.",
+      "promptZh": "孩子開始說話時,護士停止書寫,把筆記放到一旁。",
+      "starter": "When",
+      "answer": "When the child began speaking, the nurse stopped writing and laid her notes aside.",
+      "answerZh": "孩子開始說話時,護士停止書寫,把筆記放到一旁。",
+      "highlight": "laid",
+      "targetForm": "lay something aside",
+      "targetMeaningZh": "把正在使用的東西放到一旁"
+    },
+    {
+      "id": "phrasal-verb-162-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Because the village shop would close for a week, the owner bought and stored extra bread, rice and water.",
+      "promptZh": "因為村內店舖會休息一星期,店主預先買入並儲備額外麵包、米和食水。",
+      "starter": "Because",
+      "answer": "Because the village shop would close for a week, the owner laid in extra bread, rice and water.",
+      "answerZh": "因為村內店舖會休息一星期,店主預先買入並儲備額外麵包、米和食水。",
+      "highlight": "laid in",
+      "targetForm": "lay something in",
+      "targetMeaningZh": "預先買入並儲備"
+    },
+    {
+      "id": "phrasal-verb-162-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "You have corrected Kai three times already; stop criticising him now.",
+      "promptZh": "你已糾正啟三次了;現在不要再批評他。",
+      "starter": "You",
+      "answer": "You have corrected Kai three times already; lay off him now.",
+      "answerZh": "你已糾正啟三次了;現在不要再批評他。",
+      "highlight": "lay off",
+      "targetForm": "lay off somebody",
+      "targetMeaningZh": "停止煩擾或批評某人"
+    },
+    {
+      "id": "phrasal-verb-162-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "During the match, a clean hit to the chin knocked the fighter unconscious at once.",
+      "promptZh": "比賽期間,一記準確擊中下巴的拳立即把拳手打至失去知覺。",
+      "starter": "During",
+      "answer": "During the match, a clean hit to the chin laid the fighter out at once.",
+      "answerZh": "比賽期間,一記準確擊中下巴的拳立即把拳手打至失去知覺。",
+      "highlight": "laid",
+      "targetForm": "lay somebody out",
+      "targetMeaningZh": "一擊把某人打至失去知覺"
+    },
+    {
+      "id": "phrasal-verb-162-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Instead of spending all her pay, Tessa saves some of it for future travel.",
+      "promptZh": "泰莎沒有花掉全部薪金,而是留起一部分作日後旅行之用。",
+      "starter": "Instead",
+      "answer": "Instead of spending all her pay, Tessa lays some of it by for future travel.",
+      "answerZh": "泰莎沒有花掉全部薪金,而是留起一部分作日後旅行之用。",
+      "highlight": "lays",
+      "targetForm": "lay something by",
+      "targetMeaningZh": "留起或儲起,日後使用"
+    },
+    {
+      "id": "phrasal-verb-162-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After the team ignored three warnings, the coach angrily criticised them in front of everyone.",
+      "promptZh": "球隊無視三次警告後,教練當着眾人嚴厲斥責他們。",
+      "starter": "After",
+      "answer": "After the team ignored three warnings, the coach laid into them in front of everyone.",
+      "answerZh": "球隊無視三次警告後,教練當着眾人嚴厲斥責他們。",
+      "highlight": "laid into",
+      "targetForm": "lay into somebody",
+      "targetMeaningZh": "憤怒地嚴厲斥責某人"
+    },
+    {
+      "id": "phrasal-verb-162-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "After the summer trips ended, the family took the small sailing boat out of use until spring.",
+      "promptZh": "夏季航程結束後,那家人讓小帆船暫停使用,直至春天。",
+      "starter": "After",
+      "answer": "After the summer trips ended, the family laid the small sailing boat up until spring.",
+      "answerZh": "夏季航程結束後,那家人讓小帆船暫停使用,直至春天。",
+      "highlight": "laid",
+      "targetForm": "lay something up",
+      "targetMeaningZh": "讓船、車輛或機器暫停使用"
+    },
+    {
+      "id": "phrasal-verb-162-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Orders fell for six months, and the factory finally had to dismiss part of its night team.",
+      "promptZh": "訂單連續六個月下降,工廠最後不得不解僱部分夜班員工。",
+      "starter": "Orders",
+      "answer": "Orders fell for six months, and the factory finally had to lay off part of its night team.",
+      "answerZh": "訂單連續六個月下降,工廠最後不得不解僱部分夜班員工。",
+      "highlight": "lay off",
+      "targetForm": "lay somebody off",
+      "targetMeaningZh": "因工作不足或財政問題而解僱"
+    },
+    {
+      "id": "phrasal-verb-162-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 31,
+      "prompt": "After checking the final page, the student placed the exam paper on the teacher’s desk.",
+      "promptZh": "檢查最後一頁後,學生把試卷放在老師的桌上。",
+      "starter": "After",
+      "answer": "After checking the final page, the student laid the exam paper down on the teacher’s desk.",
+      "answerZh": "檢查最後一頁後,學生把試卷放在老師的桌上。",
+      "highlight": "laid",
+      "targetForm": "lay something down",
+      "targetMeaningZh": "把手上或正在使用的東西放下"
+    },
+    {
+      "id": "phrasal-verb-162-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After several sleepless nights, Nora decided to stop drinking energy drinks for a while.",
+      "promptZh": "連續幾晚睡不好後,諾拉決定暫時停止飲用能量飲品。",
+      "starter": "After",
+      "answer": "After several sleepless nights, Nora decided to lay off energy drinks for a while.",
+      "answerZh": "連續幾晚睡不好後,諾拉決定暫時停止飲用能量飲品。",
+      "highlight": "lay off",
+      "targetForm": "lay off something",
+      "targetMeaningZh": "暫時停止飲用或使用某物"
+    },
+    {
+      "id": "phrasal-verb-162-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After checking every detail, the students formally presented their request to the principal and asked for a decision.",
+      "promptZh": "檢查每個細節後,學生把要求正式提交校長,並請校長作出決定。",
+      "starter": "After",
+      "answer": "After checking every detail, the students laid their request before the principal and asked for a decision.",
+      "answerZh": "檢查每個細節後,學生把要求正式提交校長,並請校長作出決定。",
+      "highlight": "laid",
+      "targetForm": "lay something before somebody",
+      "targetMeaningZh": "把要求或建議正式提交某人考慮"
+    },
+    {
+      "id": "phrasal-verb-162-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Before packing, Lina spread every item on the floor and checked the list twice.",
+      "promptZh": "執拾行李前,莉娜把每件物品攤在地板上,並把清單檢查了兩次。",
+      "starter": "Before",
+      "answer": "Before packing, Lina laid every item out on the floor and checked the list twice.",
+      "answerZh": "執拾行李前,莉娜把每件物品攤在地板上,並把清單檢查了兩次。",
+      "highlight": "laid",
+      "targetForm": "lay something out",
+      "targetMeaningZh": "把東西攤開或排列好"
+    },
+    {
+      "id": "phrasal-verb-162-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After the cycling accident, the shoulder injury kept Oliver away from school until the end of the month.",
+      "promptZh": "單車意外後,肩傷令奧利弗直至月底都無法上學。",
+      "starter": "After",
+      "answer": "After the cycling accident, the shoulder injury laid Oliver up until the end of the month.",
+      "answerZh": "單車意外後,肩傷令奧利弗直至月底都無法上學。",
+      "highlight": "laid",
+      "targetForm": "lay somebody up",
+      "targetMeaningZh": "因傷病使某人無法外出、上學或工作"
+    },
+    {
+      "id": "phrasal-verb-162-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "Because the last train left early, the organisers arranged a late bus to take everyone home.",
+      "promptZh": "因為尾班車提早開出,主辦單位安排了一輛深夜巴士接載大家回家。",
+      "starter": "Because",
+      "answer": "Because the last train left early, the organisers laid on a late bus to take everyone home.",
+      "answerZh": "因為尾班車提早開出,主辦單位安排了一輛深夜巴士接載大家回家。",
+      "highlight": "laid on",
+      "targetForm": "lay something on",
+      "targetMeaningZh": "特別安排或提供交通、食物、娛樂或服務"
+    },
+    {
+      "id": "phrasal-verb-162-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 32,
+      "prompt": "When the dogs rushed towards her, Eva swung her walking stick wildly around her to stop them coming closer.",
+      "promptZh": "狗隻衝向伊娃時,她用手杖向四周亂揮,阻止牠們靠近。",
+      "starter": "When",
+      "answer": "When the dogs rushed towards her, Eva laid about herself with her walking stick to stop them coming closer.",
+      "answerZh": "狗隻衝向伊娃時,她用手杖向四周亂揮,阻止牠們靠近。",
+      "highlight": "laid about herself with",
+      "targetForm": "lay about you/yourself with something",
+      "targetMeaningZh": "揮動物件向四周亂打"
+    }
+  ]
+}

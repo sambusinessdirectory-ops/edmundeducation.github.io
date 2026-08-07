@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-117",
+  "order": 117,
+  "slug": "dust",
+  "version": "1",
+  "title": "DUST 動詞片語",
+  "titleEn": "Dust",
+  "titleZh": "DUST 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 116 - DUST.pdf",
+    "sourceNumber": 116,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DUST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DUST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DUST",
+      "highlight": "DUST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She stood up and dusted herself down.",
+      "zh": "她站起來,拍走身上的灰塵。",
+      "highlight": "dusted herself down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The club dusted off its old summer plan.",
+      "zh": "俱樂部重新採用了舊有的夏季計劃。",
+      "highlight": "dusted off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "After the poor result, he dusted himself off and tried again.",
+      "zh": "面對不理想的結果後,他振作起來,再次嘗試。",
+      "highlight": "dusted himself off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走；把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用；受挫或失敗後振作起來,繼續嘗試",
+    "en": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down; dust something off / dust something down; dust yourself off / dust yourself down",
+    "naturalZh": [
+      "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+      "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+      "受挫或失敗後振作起來,繼續嘗試"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "titleZh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+      "titleEn": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "descriptionZh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+      "descriptionEn": "She stood up and dusted herself down.",
+      "examples": [
+        {
+          "en": "She stood up and dusted herself down.",
+          "zh": "她站起來,拍走身上的灰塵。",
+          "highlight": "dusted herself down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dust something off / dust something down",
+      "titleZh": "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+      "titleEn": "dust something off / dust something down",
+      "descriptionZh": "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+      "descriptionEn": "The club dusted off its old summer plan.",
+      "examples": [
+        {
+          "en": "The club dusted off its old summer plan.",
+          "zh": "俱樂部重新採用了舊有的夏季計劃。",
+          "highlight": "dusted off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dust yourself off / dust yourself down",
+      "titleZh": "受挫或失敗後振作起來,繼續嘗試",
+      "titleEn": "dust yourself off / dust yourself down",
+      "descriptionZh": "受挫或失敗後振作起來,繼續嘗試",
+      "descriptionEn": "After the poor result, he dusted himself off and tried again.",
+      "examples": [
+        {
+          "en": "After the poor result, he dusted himself off and tried again.",
+          "zh": "面對不理想的結果後,他振作起來,再次嘗試。",
+          "highlight": "dusted himself off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DUST 片語動詞的實際用途",
+    "labelEn": "DUST Phrasal Verbs in Use",
+    "summaryZh": "DUST 片語動詞可以描述拍走衣服、家具和其他物件上的粉末、沙或乾泥。；dust something off 或 down 可以表示重新採用舊計劃、舊食譜或舊節目。；dust yourself off 或 down 可以描述某人在失望或失敗後重新振作,繼續嘗試。；同一個 DUST 表達既可以描述實際清潔,也可以用來談論重新採用舊計劃或從挫折中振作。",
+    "summaryEn": "DUST expressions can describe removing powder, sand or dry dirt from clothes, furniture and other objects. Dust something off or down allows you to explain that an old plan, recipe or programme is being used again. Dust yourself off or down describes someone recovering from disappointment and continuing to try. The same DUST expression may describe cleaning something physically or dealing with an old plan or a disappointment.",
+    "contextsZh": [
+      "自然地談論清潔衣物和物件",
+      "談論重新採用舊有構思",
+      "表達失敗後重新振作",
+      "理解實際動作和比喻意思"
+    ],
+    "contextsEn": [
+      "Talk naturally about cleaning clothes and objects",
+      "Talk about using an old idea again",
+      "Express the idea of recovering after failure",
+      "Understand both physical and non-physical meanings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DUST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DUST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+    "fixedHighlight": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+    "fixedZh": "閱讀整句,選出意思相同的 DUST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DUST expression that gives the same meaning.",
+    "correct": "dusted herself down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her、them 或 yourself 時,請按照以上例子放在 DUST 和 OFF/DOWN 之間。；在這組片語動詞中,OFF 和 DOWN 有時可以表達相同意思。參考答案會提供一個自然示例;在意思相同的情況下,相應的另一種形式亦可接受。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her, them or yourself, place the word as shown: dust it off dust him down dust yourself off OFF and DOWN can sometimes express the same meaning in this family. The answer key gives one natural model answer, but the matching variant is also acceptable where appropriate.",
+    "variableItemsZh": [
+      "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "dust something off / dust something down",
+      "dust yourself off / dust yourself down"
+    ],
+    "variableItemsEn": [
+      "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "dust something off / dust something down",
+      "dust yourself off / dust yourself down"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+        "formEn": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+        "exampleZh": "她站起來,拍走身上的灰塵。",
+        "exampleEn": "She stood up and dusted herself down.",
+        "highlight": "dusted herself down"
+      },
+      {
+        "formZh": "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+        "formEn": "dust something off / dust something down",
+        "exampleZh": "俱樂部重新採用了舊有的夏季計劃。",
+        "exampleEn": "The club dusted off its old summer plan.",
+        "highlight": "dusted off"
+      },
+      {
+        "formZh": "受挫或失敗後振作起來,繼續嘗試",
+        "formEn": "dust yourself off / dust yourself down",
+        "exampleZh": "面對不理想的結果後,他振作起來,再次嘗試。",
+        "exampleEn": "After the poor result, he dusted himself off and tried again.",
+        "highlight": "dusted himself off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+      "titleEn": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "formula": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "highlight": "dust somebody/something off / dust somebody/something down; dust yourself off / dust yourself down",
+      "descriptionZh": "把某人、某物或自己表面的灰塵、粉末、沙或乾泥拍走或刷走",
+      "descriptionEn": "She stood up and dusted herself down.",
+      "examples": [
+        {
+          "en": "She stood up and dusted herself down.",
+          "zh": "她站起來,拍走身上的灰塵。",
+          "highlight": "dusted herself down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+      "titleEn": "dust something off / dust something down",
+      "formula": "dust something off / dust something down",
+      "highlight": "dust something off / dust something down",
+      "descriptionZh": "把擱置已久的計劃、構思、做法、食譜或節目重新拿出來使用",
+      "descriptionEn": "The club dusted off its old summer plan.",
+      "examples": [
+        {
+          "en": "The club dusted off its old summer plan.",
+          "zh": "俱樂部重新採用了舊有的夏季計劃。",
+          "highlight": "dusted off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "受挫或失敗後振作起來,繼續嘗試",
+      "titleEn": "dust yourself off / dust yourself down",
+      "formula": "dust yourself off / dust yourself down",
+      "highlight": "dust yourself off / dust yourself down",
+      "descriptionZh": "受挫或失敗後振作起來,繼續嘗試",
+      "descriptionEn": "After the poor result, he dusted himself off and tried again.",
+      "examples": [
+        {
+          "en": "After the poor result, he dusted himself off and tried again.",
+          "zh": "面對不理想的結果後,他振作起來,再次嘗試。",
+          "highlight": "dusted himself off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論清潔衣物和物件",
+      "titleEn": "Talk naturally about cleaning clothes and objects",
+      "zh": "DUST 片語動詞可以描述拍走衣服、家具和其他物件上的粉末、沙或乾泥。",
+      "en": "DUST expressions can describe removing powder, sand or dry dirt from clothes, furniture and other objects."
+    },
+    {
+      "titleZh": "談論重新採用舊有構思",
+      "titleEn": "Talk about using an old idea again",
+      "zh": "dust something off 或 down 可以表示重新採用舊計劃、舊食譜或舊節目。",
+      "en": "Dust something off or down allows you to explain that an old plan, recipe or programme is being used again."
+    },
+    {
+      "titleZh": "表達失敗後重新振作",
+      "titleEn": "Express the idea of recovering after failure",
+      "zh": "dust yourself off 或 down 可以描述某人在失望或失敗後重新振作,繼續嘗試。",
+      "en": "Dust yourself off or down describes someone recovering from disappointment and continuing to try."
+    },
+    {
+      "titleZh": "理解實際動作和比喻意思",
+      "titleEn": "Understand both physical and non-physical meanings",
+      "zh": "同一個 DUST 表達既可以描述實際清潔,也可以用來談論重新採用舊計劃或從挫折中振作。",
+      "en": "The same DUST expression may describe cleaning something physically or dealing with an old plan or a disappointment."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論清潔衣物和物件",
+      "談論重新採用舊有構思",
+      "表達失敗後重新振作",
+      "理解實際動作和比喻意思"
+    ],
+    "contextsEn": [
+      "Talk naturally about cleaning clothes and objects",
+      "Talk about using an old idea again",
+      "Express the idea of recovering after failure",
+      "Understand both physical and non-physical meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論清潔衣物和物件",
+        "titleEn": "Talk naturally about cleaning clothes and objects",
+        "zh": "DUST 片語動詞可以描述拍走衣服、家具和其他物件上的粉末、沙或乾泥。",
+        "en": "DUST expressions can describe removing powder, sand or dry dirt from clothes, furniture and other objects.",
+        "examples": [
+          {
+            "en": "She stood up and dusted herself down.",
+            "zh": "她站起來,拍走身上的灰塵。",
+            "highlight": "dusted herself down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論重新採用舊有構思",
+        "titleEn": "Talk about using an old idea again",
+        "zh": "dust something off 或 down 可以表示重新採用舊計劃、舊食譜或舊節目。",
+        "en": "Dust something off or down allows you to explain that an old plan, recipe or programme is being used again.",
+        "examples": [
+          {
+            "en": "The club dusted off its old summer plan.",
+            "zh": "俱樂部重新採用了舊有的夏季計劃。",
+            "highlight": "dusted off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達失敗後重新振作",
+        "titleEn": "Express the idea of recovering after failure",
+        "zh": "dust yourself off 或 down 可以描述某人在失望或失敗後重新振作,繼續嘗試。",
+        "en": "Dust yourself off or down describes someone recovering from disappointment and continuing to try.",
+        "examples": [
+          {
+            "en": "After the poor result, he dusted himself off and tried again.",
+            "zh": "面對不理想的結果後,他振作起來,再次嘗試。",
+            "highlight": "dusted himself off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解實際動作和比喻意思",
+        "titleEn": "Understand both physical and non-physical meanings",
+        "zh": "同一個 DUST 表達既可以描述實際清潔,也可以用來談論重新採用舊計劃或從挫折中振作。",
+        "en": "The same DUST expression may describe cleaning something physically or dealing with an old plan or a disappointment.",
+        "examples": [
+          {
+            "en": "She stood up and dusted herself down.",
+            "zh": "她站起來,拍走身上的灰塵。",
+            "highlight": "dusted herself down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DUST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DUST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DUST 片語動詞。",
+      "en": "Read the whole sentence and choose the DUST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her、them 或 yourself 時,請按照以上例子放在 DUST 和 OFF/DOWN 之間。",
+      "titleEn": "When using it, him, her, them or yourself, place the word as shown: dust it off dust him down dust yourself off.",
+      "zh": "使用 it、him、her、them 或 yourself 時,請按照以上例子放在 DUST 和 OFF/DOWN 之間。",
+      "en": "When using it, him, her, them or yourself, place the word as shown: dust it off dust him down dust yourself off"
+    },
+    {
+      "titleZh": "在這組片語動詞中,OFF 和 DOWN 有時可以表達相同意思。參考答案會提供一個自然示例;在意思相同的情況下,相應的另一種形式亦可接受。",
+      "titleEn": "OFF and DOWN can sometimes express the same meaning in this family.",
+      "zh": "在這組片語動詞中,OFF 和 DOWN 有時可以表達相同意思。參考答案會提供一個自然示例;在意思相同的情況下,相應的另一種形式亦可接受。",
+      "en": "OFF and DOWN can sometimes express the same meaning in this family. The answer key gives one natural model answer, but the matching variant is also acceptable where appropriate."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DUST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DUST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DUST 動詞片語句子改寫練習",
+    "titleEn": "DUST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DUST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DUST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-117-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The school decided to use its old sports-day plan again this year.",
+      "promptZh": "學校決定今年再次採用舊有的運動日計劃。",
+      "starter": "The",
+      "answer": "The school decided to dust off its old sports-day plan for this year.",
+      "answerZh": "學校決定今年再次採用舊有的運動日計劃。",
+      "highlight": "dust off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "Ben removed the fine powder from his jacket with his hand.",
+      "promptZh": "賓用手拍走外套上的細粉末。",
+      "starter": "Ben",
+      "answer": "Ben dusted his jacket off.",
+      "answerZh": "賓用手拍走外套上的細粉末。",
+      "highlight": "dusted",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末拍走"
+    },
+    {
+      "id": "phrasal-verb-117-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After losing the first game, Ava recovered and played again.",
+      "promptZh": "艾娃輸掉第一場比賽後振作起來,再次上場。",
+      "starter": "After",
+      "answer": "After losing the first game, Ava dusted herself off and played again.",
+      "answerZh": "艾娃輸掉第一場比賽後振作起來,再次上場。",
+      "highlight": "dusted herself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our club decided to use last year’s picnic plan again.",
+      "promptZh": "我們的俱樂部決定再次採用去年的野餐計劃。",
+      "starter": "Our",
+      "answer": "Our club decided to dust down last year’s picnic plan.",
+      "answerZh": "我們的俱樂部決定再次採用去年的野餐計劃。",
+      "highlight": "dust down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please remove the grey powder from the old photo album before opening it.",
+      "promptZh": "打開舊相簿前,請先掃走上面的灰色粉末。",
+      "starter": "Please",
+      "answer": "Please dust off the old photo album before opening it.",
+      "answerZh": "打開舊相簿前,請先掃走上面的灰色粉末。",
+      "highlight": "dust off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末掃走"
+    },
+    {
+      "id": "phrasal-verb-117-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam recovered after the bad result and tried again.",
+      "promptZh": "森面對不理想的結果後重新振作,再次嘗試。",
+      "starter": "Sam",
+      "answer": "Sam dusted himself down after the bad result and tried again.",
+      "answerZh": "森面對不理想的結果後重新振作,再次嘗試。",
+      "highlight": "dusted himself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The team used an old training plan again.",
+      "promptZh": "球隊再次採用了一項舊有的訓練計劃。",
+      "starter": "The",
+      "answer": "The team dusted off an old training plan.",
+      "answerZh": "球隊再次採用了一項舊有的訓練計劃。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ruby stood up and removed the dirt from her clothes.",
+      "promptZh": "露比站起來,拍走衣服上的污物。",
+      "starter": "Ruby",
+      "answer": "Ruby stood up and dusted herself down.",
+      "answerZh": "露比站起來,拍走衣服上的污物。",
+      "highlight": "dusted herself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "把自己身上的灰塵或污物拍走"
+    },
+    {
+      "id": "phrasal-verb-117-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We recovered after the mistake and continued.",
+      "promptZh": "我們犯錯後重新振作,繼續做下去。",
+      "starter": "We",
+      "answer": "We dusted ourselves off after the mistake and continued.",
+      "answerZh": "我們犯錯後重新振作,繼續做下去。",
+      "highlight": "dusted ourselves off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad used an old soup recipe again for dinner.",
+      "promptZh": "爸爸晚餐時再次採用了一份舊有的湯食譜。",
+      "starter": "Dad",
+      "answer": "Dad dusted off an old soup recipe for dinner.",
+      "answerZh": "爸爸晚餐時再次採用了一份舊有的湯食譜。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊食譜重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Chloe has recovered after the poor mark and is studying again.",
+      "promptZh": "歌露兒在取得不理想的分數後已經振作起來,並再次努力溫習。",
+      "starter": "Chloe",
+      "answer": "Chloe has dusted herself off after the poor mark and is studying again.",
+      "answerZh": "歌露兒在取得不理想的分數後已經振作起來,並再次努力溫習。",
+      "highlight": "dusted herself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The theatre is preparing to use an old family show again this winter.",
+      "promptZh": "劇院正準備在今年冬季重新推出一個舊有的合家歡節目。",
+      "starter": "The",
+      "answer": "The theatre is dusting off an old family show for this winter.",
+      "answerZh": "劇院正重新推出一個舊有的合家歡節目,供今年冬季上演。",
+      "highlight": "dusting off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊節目重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I will remove the flour from my shirt before lunch.",
+      "promptZh": "我會在午餐前拍走恤衫上的麵粉。",
+      "starter": "I",
+      "answer": "I will dust my shirt off before lunch.",
+      "answerZh": "我會在午餐前拍走恤衫上的麵粉。",
+      "highlight": "dust",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的粉末拍走"
+    },
+    {
+      "id": "phrasal-verb-117-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has Leo recovered after the failed interview and become ready to try again?",
+      "promptZh": "里奧在面試失敗後已經振作起來,準備再次嘗試了嗎?",
+      "starter": "Has",
+      "answer": "Has Leo dusted himself down after the failed interview and become ready to try again?",
+      "answerZh": "里奧在面試失敗後已經振作起來,準備再次嘗試了嗎?",
+      "highlight": "dusted himself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "受挫後振作起來,準備再次嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Are they preparing to use the old travel plan again next summer?",
+      "promptZh": "他們正準備在明年夏天重新採用舊有的旅行計劃嗎?",
+      "starter": "Are",
+      "answer": "Are they dusting down the old travel plan for next summer?",
+      "answerZh": "他們正準備在明年夏天重新採用舊有的旅行計劃嗎?",
+      "highlight": "dusting down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The children are removing the sand from their shoes.",
+      "promptZh": "孩子們正在拍走鞋上的沙。",
+      "starter": "The",
+      "answer": "The children are dusting their shoes off.",
+      "answerZh": "孩子們正在拍走鞋上的沙。",
+      "highlight": "dusting",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的沙或灰塵拍走"
+    },
+    {
+      "id": "phrasal-verb-117-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You can recover and begin again tomorrow.",
+      "promptZh": "你可以重新振作,明天再次開始。",
+      "starter": "You",
+      "answer": "You can dust yourself off and begin again tomorrow.",
+      "answerZh": "你可以重新振作,明天再次開始。",
+      "highlight": "dust yourself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,重新開始"
+    },
+    {
+      "id": "phrasal-verb-117-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have begun using the old reading programme again.",
+      "promptZh": "我們已再次採用舊有的閱讀計劃。",
+      "starter": "We",
+      "answer": "We have dusted off the old reading programme.",
+      "answerZh": "我們已重新採用舊有的閱讀計劃。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Grace removes the thin grey layer from the shelf every Saturday.",
+      "promptZh": "嘉莉絲每逢星期六都會掃走架子上的一層薄薄灰色粉末。",
+      "starter": "Grace",
+      "answer": "Grace dusts the shelf down every Saturday.",
+      "answerZh": "嘉莉絲每逢星期六都會掃走架子上的一層薄薄灰色粉末。",
+      "highlight": "dusts",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "清除某物表面的灰塵或粉末"
+    },
+    {
+      "id": "phrasal-verb-117-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They are recovering after the project failed and planning a new one.",
+      "promptZh": "他們正從項目失敗中振作起來,並計劃一個新項目。",
+      "starter": "They",
+      "answer": "They are dusting themselves off after the project failed and planning a new one.",
+      "answerZh": "他們正從項目失敗中振作起來,並計劃一個新項目。",
+      "highlight": "dusting themselves off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Because the box was covered in fine grey powder, Nora cleaned its surface before opening it.",
+      "promptZh": "由於盒子表面佈滿細小的灰色粉末,諾拉在打開它之前先清潔了表面。",
+      "starter": "Because",
+      "answer": "Because the box was covered in fine grey powder, Nora dusted it off before opening it.",
+      "answerZh": "由於盒子表面佈滿細小的灰色粉末,諾拉在打開它之前先清潔了表面。",
+      "highlight": "dusted it off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末清除"
+    },
+    {
+      "id": "phrasal-verb-117-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The plan had not been used for years, but the council used it again for the new park.",
+      "promptZh": "這個計劃多年未有使用,但市議會為新公園重新採用了它。",
+      "starter": "The",
+      "answer": "The plan had not been used for years, but the council dusted it off for the new park.",
+      "answerZh": "這個計劃多年未有使用,但市議會為新公園重新採用了它。",
+      "highlight": "dusted",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把擱置已久的計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Daniel did badly in his first talk. He recovered and volunteered to speak again.",
+      "promptZh": "丹尼爾第一次演講表現不理想。他重新振作,並自願再次發言。",
+      "starter": "Daniel",
+      "answer": "Daniel did badly in his first talk. He dusted himself down and volunteered to speak again.",
+      "answerZh": "丹尼爾第一次演講表現不理想。他重新振作,並自願再次發言。",
+      "highlight": "dusted himself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The chairs were cleaned to remove the fine grey powder before the guests arrived.",
+      "promptZh": "客人到達前,椅子上的細小灰色粉末已被清理乾淨。",
+      "starter": "The",
+      "answer": "The chairs were dusted down before the guests arrived.",
+      "answerZh": "客人到達前,椅子上的細小灰色粉末已被清理乾淨。",
+      "highlight": "dusted down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "清除某物表面的灰塵或粉末"
+    },
+    {
+      "id": "phrasal-verb-117-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "An old emergency plan was used again when the storm warning arrived.",
+      "promptZh": "收到暴風雨警告時,一項舊有的緊急應變計劃再次被採用。",
+      "starter": "An",
+      "answer": "An old emergency plan was dusted off when the storm warning arrived.",
+      "answerZh": "收到暴風雨警告時,一項舊有的緊急應變計劃再次被採用。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the team rejected her idea, Priya recovered and wrote a new one.",
+      "promptZh": "團隊拒絕普里雅的構思後,她重新振作,並寫了一個新構思。",
+      "starter": "After",
+      "answer": "After the team rejected her idea, Priya dusted herself off and wrote a new one.",
+      "answerZh": "團隊拒絕普里雅的構思後,她重新振作,並寫了一個新構思。",
+      "highlight": "dusted herself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "His coach removed the dry dirt from his clothes after the race.",
+      "promptZh": "比賽後,他的教練拍走了他衣服上的乾泥。",
+      "starter": "His",
+      "answer": "His coach dusted him down after the race.",
+      "answerZh": "比賽後,他的教練拍走了他衣服上的乾泥。",
+      "highlight": "dusted him down",
+      "targetForm": "dust somebody down",
+      "targetMeaningZh": "拍走某人身上的灰塵或乾泥"
+    },
+    {
+      "id": "phrasal-verb-117-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The club had an old plan for a book sale. It decided to use it again this term.",
+      "promptZh": "俱樂部有一項舊有的賣書活動計劃,並決定今個學期再次採用。",
+      "starter": "The",
+      "answer": "The club had an old plan for a book sale. It decided to dust it down for this term.",
+      "answerZh": "俱樂部有一項舊有的賣書活動計劃,並決定今個學期再次採用。",
+      "highlight": "dust",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Omar did not stay upset for long; he recovered and tried again.",
+      "promptZh": "奧馬沒有難過太久;他重新振作,再次嘗試。",
+      "starter": "Omar",
+      "answer": "Omar did not stay upset for long; he dusted himself off and tried again.",
+      "answerZh": "奧馬沒有難過太久;他重新振作,再次嘗試。",
+      "highlight": "dusted himself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Before the sale, the owner removed a layer of fine grey powder from the large wooden clock in the back room.",
+      "promptZh": "出售前,店主掃走了後房那座大型木鐘上的一層細小灰色粉末。",
+      "starter": "Before",
+      "answer": "Before the sale, the owner dusted off the large wooden clock in the back room.",
+      "answerZh": "出售前,店主掃走了後房那座大型木鐘上的一層細小灰色粉末。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末掃走"
+    },
+    {
+      "id": "phrasal-verb-117-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The school had cancelled the garden project two years ago, but it used the plan again when new help arrived.",
+      "promptZh": "校方兩年前取消了花園項目,但在有人提供新協助後,又重新採用了該計劃。",
+      "starter": "The",
+      "answer": "The school had cancelled the garden project two years ago, but it dusted off the plan when new help arrived.",
+      "answerZh": "校方兩年前取消了花園項目,但在有人提供新協助後,又重新採用了該計劃。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把擱置已久的計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A bad review hurt Hana, but she recovered and performed again the next night.",
+      "promptZh": "一篇負面評論令花奈很難受,但她重新振作,第二晚再次演出。",
+      "starter": "A",
+      "answer": "A bad review hurt Hana, but she dusted herself down and performed again the next night.",
+      "answerZh": "一篇負面評論令花奈很難受,但她重新振作,第二晚再次演出。",
+      "highlight": "dusted herself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before wearing the coat, Isaac removed the fine grey powder after taking it from the cupboard.",
+      "promptZh": "艾錫從衣櫃取出外套後,先拍走上面的細小灰色粉末才穿上。",
+      "starter": "Before",
+      "answer": "Before wearing the coat, Isaac dusted it off after taking it from the cupboard.",
+      "answerZh": "艾錫從衣櫃取出外套後,先拍走上面的細小灰色粉末才穿上。",
+      "highlight": "dusted it off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末拍走"
+    },
+    {
+      "id": "phrasal-verb-117-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did the coach decide to use the old match plan again before the final?",
+      "promptZh": "教練為何決定在決賽前重新採用舊有的比賽計劃?",
+      "starter": "Why",
+      "answer": "Why did the coach dust down the old match plan before the final?",
+      "answerZh": "教練為何決定在決賽前重新採用舊有的比賽計劃?",
+      "highlight": "dust down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Even after the first shop failed, the owners recovered and started a smaller one.",
+      "promptZh": "即使第一間店舖經營失敗,店主仍重新振作,開設了一間較小的店舖。",
+      "starter": "Even",
+      "answer": "Even after the first shop failed, the owners dusted themselves off and started a smaller one.",
+      "answerZh": "即使第一間店舖經營失敗,店主仍重新振作,開設了一間較小的店舖。",
+      "highlight": "dusted themselves off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,重新開始"
+    },
+    {
+      "id": "phrasal-verb-117-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The old books were covered in fine grey powder, so we cleaned them before giving them to the class.",
+      "promptZh": "舊書佈滿細小的灰色粉末,所以我們清潔後才把它們交給班上的同學。",
+      "starter": "The",
+      "answer": "The old books were covered in fine grey powder, so we dusted them down before giving them to the class.",
+      "answerZh": "舊書佈滿細小的灰色粉末,所以我們清潔後才把它們交給班上的同學。",
+      "highlight": "dusted",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "清除某物表面的灰塵或粉末"
+    },
+    {
+      "id": "phrasal-verb-117-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Instead of writing a new guide, the club used the one from last year again.",
+      "promptZh": "俱樂部沒有編寫新指南,而是再次採用去年的版本。",
+      "starter": "Instead",
+      "answer": "Instead of writing a new guide, the club dusted off the one from last year.",
+      "answerZh": "俱樂部沒有編寫新指南,而是再次採用去年的版本。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊有資料重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Tessa missed the winning shot, but she recovered and continued playing.",
+      "promptZh": "泰莎射失致勝一球,但她重新振作,繼續比賽。",
+      "starter": "Tessa",
+      "answer": "Tessa missed the winning shot, but she dusted herself off and continued playing.",
+      "answerZh": "泰莎射失致勝一球,但她重新振作,繼續比賽。",
+      "highlight": "dusted herself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could you remove the fine grey powder from the bicycle seat before I sit down?",
+      "promptZh": "我坐下前,你可以先掃走單車座位上的細小灰色粉末嗎?",
+      "starter": "Could",
+      "answer": "Could you dust the bicycle seat off before I sit down?",
+      "answerZh": "我坐下前,你可以先掃走單車座位上的細小灰色粉末嗎?",
+      "highlight": "dust",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的灰塵或粉末掃走"
+    },
+    {
+      "id": "phrasal-verb-117-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The museum used an old children’s programme again during the school holiday.",
+      "promptZh": "博物館在學校假期期間重新推出了一個舊有的兒童活動計劃。",
+      "starter": "The",
+      "answer": "The museum dusted off an old children’s programme during the school holiday.",
+      "answerZh": "博物館在學校假期期間重新推出了一個舊有的兒童活動計劃。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊節目重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The class laughed at his first answer, but Victor recovered and tried the next question.",
+      "promptZh": "全班同學取笑域陀的第一個答案,但他重新振作,嘗試回答下一條問題。",
+      "starter": "The",
+      "answer": "The class laughed at his first answer, but Victor dusted himself off and tried the next question.",
+      "answerZh": "全班同學取笑域陀的第一個答案,但他重新振作,嘗試回答下一條問題。",
+      "highlight": "dusted himself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "With very little time to prepare, the organisers used the plan from last year’s fair again.",
+      "promptZh": "由於準備時間很少,主辦人員再次採用了去年市集的計劃。",
+      "starter": "With",
+      "answer": "With very little time to prepare, the organisers dusted off the plan from last year’s fair.",
+      "answerZh": "由於準備時間很少,主辦人員再次採用了去年市集的計劃。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After opening the old suitcase, Jade removed the fine grey powder from the coats inside before wearing one.",
+      "promptZh": "翡翠打開舊行李箱後,先掃走裡面外套上的細小灰色粉末才穿上其中一件。",
+      "starter": "After",
+      "answer": "After opening the old suitcase, Jade dusted down the coats inside before wearing one.",
+      "answerZh": "翡翠打開舊行李箱後,先掃走裡面外套上的細小灰色粉末才穿上其中一件。",
+      "highlight": "dusted down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "清除某物表面的灰塵或粉末"
+    },
+    {
+      "id": "phrasal-verb-117-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the first lesson went badly, I recovered, changed the activity and tried again.",
+      "promptZh": "第一堂課進行得不理想時,我重新振作,更改活動後再次嘗試。",
+      "starter": "When",
+      "answer": "When the first lesson went badly, I dusted myself down, changed the activity and tried again.",
+      "answerZh": "第一堂課進行得不理想時,我重新振作,更改活動後再次嘗試。",
+      "highlight": "dusted myself down",
+      "targetForm": "dust yourself down",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The restaurant had stopped serving the dish, but it used the recipe again when customers asked for it.",
+      "promptZh": "餐廳已停止供應那道菜,但有顧客要求時,便再次採用了那份食譜。",
+      "starter": "The",
+      "answer": "The restaurant had stopped serving the dish, but it dusted off the recipe when customers asked for it.",
+      "answerZh": "餐廳已停止供應那道菜,但有顧客要求時,便再次採用了那份食譜。",
+      "highlight": "dusted off",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把舊食譜重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After sliding onto the dry ground, the hikers removed the dry dirt from their clothes.",
+      "promptZh": "遠足者滑倒在乾燥的地面上後,拍走了衣服上的乾泥。",
+      "starter": "After",
+      "answer": "After sliding onto the dry ground, the hikers dusted themselves off.",
+      "answerZh": "遠足者滑倒在乾燥的地面上後,拍走了衣服上的乾泥。",
+      "highlight": "dusted themselves off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "拍走自己衣服或身上的灰塵和乾泥"
+    },
+    {
+      "id": "phrasal-verb-117-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Although the group did not win the contest, they recovered and entered another one.",
+      "promptZh": "雖然小組未能勝出比賽,但他們重新振作,參加了另一場比賽。",
+      "starter": "Although",
+      "answer": "Although the group did not win the contest, they dusted themselves off and entered another one.",
+      "answerZh": "雖然小組未能勝出比賽,但他們重新振作,參加了另一場比賽。",
+      "highlight": "dusted themselves off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    },
+    {
+      "id": "phrasal-verb-117-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Rather than design a new safety plan, the company used an older one again and changed a few details.",
+      "promptZh": "公司沒有設計新的安全計劃,而是重新採用一份較舊的計劃,並修改了幾項細節。",
+      "starter": "Rather",
+      "answer": "Rather than design a new safety plan, the company dusted down an older one and changed a few details.",
+      "answerZh": "公司沒有設計新的安全計劃,而是重新採用一份較舊的計劃,並修改了幾項細節。",
+      "highlight": "dusted down",
+      "targetForm": "dust something down",
+      "targetMeaningZh": "把舊計劃重新拿出來使用"
+    },
+    {
+      "id": "phrasal-verb-117-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The cake box was covered in flour, so Zoe removed it before carrying the box outside.",
+      "promptZh": "蛋糕盒佈滿麵粉,所以素兒在把盒子拿到外面前先清理乾淨。",
+      "starter": "The",
+      "answer": "The cake box was covered in flour, so Zoe dusted it off before carrying it outside.",
+      "answerZh": "蛋糕盒佈滿麵粉,所以素兒在把盒子拿到外面前先清理乾淨。",
+      "highlight": "dusted",
+      "targetForm": "dust something off",
+      "targetMeaningZh": "把某物表面的粉末拍走或掃走"
+    },
+    {
+      "id": "phrasal-verb-117-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After three shops refused to sell his cards, Ethan recovered, changed the designs and tried a fourth shop.",
+      "promptZh": "三間店舖拒絕出售伊森的卡片後,他重新振作,修改設計,並嘗試聯絡第四間店舖。",
+      "starter": "After",
+      "answer": "After three shops refused to sell his cards, Ethan dusted himself off, changed the designs and tried a fourth shop.",
+      "answerZh": "三間店舖拒絕出售伊森的卡片後,他重新振作,修改設計,並嘗試聯絡第四間店舖。",
+      "highlight": "dusted himself off",
+      "targetForm": "dust yourself off",
+      "targetMeaningZh": "受挫後振作起來,繼續嘗試"
+    }
+  ]
+}

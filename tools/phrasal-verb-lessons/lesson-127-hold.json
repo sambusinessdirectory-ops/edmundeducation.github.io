@@ -1,0 +1,3432 @@
+{
+  "id": "phrasal-verb-127",
+  "order": 127,
+  "slug": "hold",
+  "version": "1",
+  "title": "HOLD 動詞片語",
+  "titleEn": "Hold",
+  "titleZh": "HOLD 動詞片語",
+  "level": "B1",
+  "groupCount": 26,
+  "source": {
+    "file": "Phrasal Verbs 126 - HOLD.pdf",
+    "sourceNumber": 126,
+    "pageCount": 52,
+    "teachingPdfPages": [
+      1,
+      2,
+      6
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "answerKeyPdfPages": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HOLD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HOLD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HOLD",
+      "highlight": "HOLD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Our host did not hold back on the food.",
+      "zh": "主人在食物方面毫不吝嗇。",
+      "highlight": "hold back on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He held forth about football for half an hour.",
+      "zh": "他滔滔不絕地談了半小時足球。",
+      "highlight": "held forth about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Luckily, the rain held off.",
+      "zh": "幸好雨暫時沒有下起來。",
+      "highlight": "held off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某方面不吝嗇;大量提供；滔滔不絕地談論；雨、雪等暫時不開始；抓緊;緊握；保留;不丟掉；支撐或維持到某個時候；拒絕現有條件,等待更好的東西；對某人隱瞞資料;沒有把一切說出來；帶來或給予希望、可能性；壓制某人;阻礙其自由或進步；要求某人履行承諾或協議；阻止某人或某物向前;抑制；把某人或某物按住或固定住；阻擋;暫時抵禦；舉起;抬起;展示；把某人或某事物當作典範；因某事怪責某人;對某人心存芥蒂；使某物保持附着；把某物伸出去；把事情押後處理；利用某事向某人施壓或控制某人；把某物貼着或按在另一物上；堅守原則、承諾或決定；維持完整或團結;使某物保持完整；在困難下仍維持良好狀態；贊成或接受某種做法,常用於否定句",
+    "en": "hold back on something; hold forth on/about something; hold off; hold on; hold on to/onto somebody or something; hold on to/onto somebody or something; hold out; hold out for something; hold out on somebody; hold out something; hold somebody down; hold somebody to something; hold somebody/something back; hold somebody/something down; hold somebody/something off; hold somebody/something up; hold somebody/something up as something; hold something against somebody; hold something on; hold something out; hold something over; hold something over somebody; hold something to something; hold to something; hold together; hold something together; hold up; hold with something",
+    "naturalZh": [
+      "在某方面不吝嗇;大量提供",
+      "滔滔不絕地談論",
+      "雨、雪等暫時不開始",
+      "抓緊;緊握",
+      "保留;不丟掉",
+      "支撐或維持到某個時候",
+      "拒絕現有條件,等待更好的東西",
+      "對某人隱瞞資料;沒有把一切說出來",
+      "帶來或給予希望、可能性",
+      "壓制某人;阻礙其自由或進步",
+      "要求某人履行承諾或協議",
+      "阻止某人或某物向前;抑制",
+      "把某人或某物按住或固定住",
+      "阻擋;暫時抵禦",
+      "舉起;抬起;展示",
+      "把某人或某事物當作典範",
+      "因某事怪責某人;對某人心存芥蒂",
+      "使某物保持附着",
+      "把某物伸出去",
+      "把事情押後處理",
+      "利用某事向某人施壓或控制某人",
+      "把某物貼着或按在另一物上",
+      "堅守原則、承諾或決定",
+      "維持完整或團結;使某物保持完整",
+      "在困難下仍維持良好狀態",
+      "贊成或接受某種做法,常用於否定句"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hold back on something",
+      "titleZh": "在某方面不吝嗇;大量提供",
+      "titleEn": "hold back on something",
+      "descriptionZh": "在某方面不吝嗇;大量提供",
+      "descriptionEn": "Our host did not hold back on the food.",
+      "examples": [
+        {
+          "en": "Our host did not hold back on the food.",
+          "zh": "主人在食物方面毫不吝嗇。",
+          "highlight": "hold back on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold forth on/about something",
+      "titleZh": "滔滔不絕地談論",
+      "titleEn": "hold forth on/about something",
+      "descriptionZh": "滔滔不絕地談論",
+      "descriptionEn": "He held forth about football for half an hour.",
+      "examples": [
+        {
+          "en": "He held forth about football for half an hour.",
+          "zh": "他滔滔不絕地談了半小時足球。",
+          "highlight": "held forth about"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold off",
+      "titleZh": "雨、雪等暫時不開始",
+      "titleEn": "hold off",
+      "descriptionZh": "雨、雪等暫時不開始",
+      "descriptionEn": "Luckily, the rain held off.",
+      "examples": [
+        {
+          "en": "Luckily, the rain held off.",
+          "zh": "幸好雨暫時沒有下起來。",
+          "highlight": "held off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold on; hold on to/onto somebody or something",
+      "titleZh": "抓緊;緊握",
+      "titleEn": "hold on; hold on to/onto somebody or something",
+      "descriptionZh": "抓緊;緊握",
+      "descriptionEn": "Hold on to the rail.",
+      "examples": [
+        {
+          "en": "Hold on to the rail.",
+          "zh": "抓緊扶手。",
+          "highlight": "Hold on to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold on to/onto somebody or something",
+      "titleZh": "保留;不丟掉",
+      "titleEn": "hold on to/onto somebody or something",
+      "descriptionZh": "保留;不丟掉",
+      "descriptionEn": "Hold on to your receipt.",
+      "examples": [
+        {
+          "en": "Hold on to your receipt.",
+          "zh": "保留你的收據。",
+          "highlight": "Hold on to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold out",
+      "titleZh": "支撐或維持到某個時候",
+      "titleEn": "hold out",
+      "descriptionZh": "支撐或維持到某個時候",
+      "descriptionEn": "I hope our water holds out.",
+      "examples": [
+        {
+          "en": "I hope our water holds out.",
+          "zh": "我希望我們的食水能維持下去。",
+          "highlight": "holds out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold out for something",
+      "titleZh": "拒絕現有條件,等待更好的東西",
+      "titleEn": "hold out for something",
+      "descriptionZh": "拒絕現有條件,等待更好的東西",
+      "descriptionEn": "They are holding out for a better price.",
+      "examples": [
+        {
+          "en": "They are holding out for a better price.",
+          "zh": "他們拒絕現有價錢,等待更好的價格。",
+          "highlight": "holding out for"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold out on somebody",
+      "titleZh": "對某人隱瞞資料;沒有把一切說出來",
+      "titleEn": "hold out on somebody",
+      "descriptionZh": "對某人隱瞞資料;沒有把一切說出來",
+      "descriptionEn": "Are you holding out on me?",
+      "examples": [
+        {
+          "en": "Are you holding out on me?",
+          "zh": "你是否仍有事情瞞着我?",
+          "highlight": "holding out on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold out something",
+      "titleZh": "帶來或給予希望、可能性",
+      "titleEn": "hold out something",
+      "descriptionZh": "帶來或給予希望、可能性",
+      "descriptionEn": "The report holds out some hope.",
+      "examples": [
+        {
+          "en": "The report holds out some hope.",
+          "zh": "報告帶來了一些希望。",
+          "highlight": "holds out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold somebody down",
+      "titleZh": "壓制某人;阻礙其自由或進步",
+      "titleEn": "hold somebody down",
+      "descriptionZh": "壓制某人;阻礙其自由或進步",
+      "descriptionEn": "Unfair rules can hold people down.",
+      "examples": [
+        {
+          "en": "Unfair rules can hold people down.",
+          "zh": "不公平的規則會壓制人們。",
+          "highlight": "hold people down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold somebody to something",
+      "titleZh": "要求某人履行承諾或協議",
+      "titleEn": "hold somebody to something",
+      "descriptionZh": "要求某人履行承諾或協議",
+      "descriptionEn": "I will hold you to your promise.",
+      "examples": [
+        {
+          "en": "I will hold you to your promise.",
+          "zh": "我會要求你履行承諾。",
+          "highlight": "hold you to"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold somebody/something back",
+      "titleZh": "阻止某人或某物向前;抑制",
+      "titleEn": "hold somebody/something back",
+      "descriptionZh": "阻止某人或某物向前;抑制",
+      "descriptionEn": "The gate held the crowd back.",
+      "examples": [
+        {
+          "en": "The gate held the crowd back.",
+          "zh": "閘門阻止人群向前。",
+          "highlight": "held the crowd back"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold somebody/something down",
+      "titleZh": "把某人或某物按住或固定住",
+      "titleEn": "hold somebody/something down",
+      "descriptionZh": "把某人或某物按住或固定住",
+      "descriptionEn": "The nurse held his arm down.",
+      "examples": [
+        {
+          "en": "The nurse held his arm down.",
+          "zh": "護士按住他的手臂。",
+          "highlight": "held his arm down"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hold somebody/something off",
+      "titleZh": "阻擋;暫時抵禦",
+      "titleEn": "hold somebody/something off",
+      "descriptionZh": "阻擋;暫時抵禦",
+      "descriptionEn": "The wall held the water off.",
+      "examples": [
+        {
+          "en": "The wall held the water off.",
+          "zh": "那道牆暫時擋住了水。",
+          "highlight": "held the water off"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold somebody/something up",
+      "titleZh": "舉起;抬起;展示",
+      "titleEn": "hold somebody/something up",
+      "descriptionZh": "舉起;抬起;展示",
+      "descriptionEn": "She held up the photo.",
+      "examples": [
+        {
+          "en": "She held up the photo.",
+          "zh": "她舉起照片。",
+          "highlight": "held up"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold somebody/something up as something",
+      "titleZh": "把某人或某事物當作典範",
+      "titleEn": "hold somebody/something up as something",
+      "descriptionZh": "把某人或某事物當作典範",
+      "descriptionEn": "The school held him up as a model student.",
+      "examples": [
+        {
+          "en": "The school held him up as a model student.",
+          "zh": "學校把他視為模範學生。",
+          "highlight": "held him up"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something against somebody",
+      "titleZh": "因某事怪責某人;對某人心存芥蒂",
+      "titleEn": "hold something against somebody",
+      "descriptionZh": "因某事怪責某人;對某人心存芥蒂",
+      "descriptionEn": "I will not hold it against you.",
+      "examples": [
+        {
+          "en": "I will not hold it against you.",
+          "zh": "我不會因此怪責你。",
+          "highlight": "hold it against"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something on",
+      "titleZh": "使某物保持附着",
+      "titleEn": "hold something on",
+      "descriptionZh": "使某物保持附着",
+      "descriptionEn": "These clips hold the cover on.",
+      "examples": [
+        {
+          "en": "These clips hold the cover on.",
+          "zh": "這些夾子使外蓋保持固定。",
+          "highlight": "hold the cover on"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something out",
+      "titleZh": "把某物伸出去",
+      "titleEn": "hold something out",
+      "descriptionZh": "把某物伸出去",
+      "descriptionEn": "He held his hand out.",
+      "examples": [
+        {
+          "en": "He held his hand out.",
+          "zh": "他把手伸出去。",
+          "highlight": "held his hand out"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something over",
+      "titleZh": "把事情押後處理",
+      "titleEn": "hold something over",
+      "descriptionZh": "把事情押後處理",
+      "descriptionEn": "We held the matter over until Monday.",
+      "examples": [
+        {
+          "en": "We held the matter over until Monday.",
+          "zh": "我們把事情押後至星期一處理。",
+          "highlight": "held the matter over"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something over somebody",
+      "titleZh": "利用某事向某人施壓或控制某人",
+      "titleEn": "hold something over somebody",
+      "descriptionZh": "利用某事向某人施壓或控制某人",
+      "descriptionEn": "She held the secret over him.",
+      "examples": [
+        {
+          "en": "She held the secret over him.",
+          "zh": "她利用那個秘密向他施壓。",
+          "highlight": "held the secret over"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold something to something",
+      "titleZh": "把某物貼着或按在另一物上",
+      "titleEn": "hold something to something",
+      "descriptionZh": "把某物貼着或按在另一物上",
+      "descriptionEn": "He held the phone to his ear.",
+      "examples": [
+        {
+          "en": "He held the phone to his ear.",
+          "zh": "他把電話貼在耳邊。",
+          "highlight": "held the phone to"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold to something",
+      "titleZh": "堅守原則、承諾或決定",
+      "titleEn": "hold to something",
+      "descriptionZh": "堅守原則、承諾或決定",
+      "descriptionEn": "She held to her decision.",
+      "examples": [
+        {
+          "en": "She held to her decision.",
+          "zh": "她堅持自己的決定。",
+          "highlight": "held to"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold together; hold something together",
+      "titleZh": "維持完整或團結;使某物保持完整",
+      "titleEn": "hold together; hold something together",
+      "descriptionZh": "維持完整或團結;使某物保持完整",
+      "descriptionEn": "The tape held the box together.",
+      "examples": [
+        {
+          "en": "The tape held the box together.",
+          "zh": "膠紙使箱子保持完整。",
+          "highlight": "held the box together"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold up",
+      "titleZh": "在困難下仍維持良好狀態",
+      "titleEn": "hold up",
+      "descriptionZh": "在困難下仍維持良好狀態",
+      "descriptionEn": "The old roof held up well.",
+      "examples": [
+        {
+          "en": "The old roof held up well.",
+          "zh": "舊屋頂仍維持得很好。",
+          "highlight": "held up"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hold with something",
+      "titleZh": "贊成或接受某種做法,常用於否定句",
+      "titleEn": "hold with something",
+      "descriptionZh": "贊成或接受某種做法,常用於否定句",
+      "descriptionEn": "I do not hold with rude behaviour.",
+      "examples": [
+        {
+          "en": "I do not hold with rude behaviour.",
+          "zh": "我不贊成無禮的行為。",
+          "highlight": "hold with"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HOLD 片語動詞的實際用途",
+    "labelEn": "HOLD Phrasal Verbs in Use",
+    "summaryZh": "hold on、hold back、hold down、hold off 和 hold up 等表達,可以幫助你描述抓緊、阻止、按住、抵擋和舉起事物。；hold out 可以表示食物、金錢或體力仍能維持;hold up 則可以表示生意、道路或物件在困難下仍保持良好狀態。；你可以用 hold somebody to 表示要求某人履行承諾、用 hold to 表示堅守原則、用 holdsomething against somebody 表示怪責某人,以及用 hold with 表示贊成某種做法。；hold out for 表示某人等待更好的選擇;hold out on 和 hold something over somebody 則可以描述人與人之間的隱瞞和施壓。",
+    "summaryEn": "Expressions such as hold on, hold back, hold down, hold off and hold up help you describe gripping, stopping, restraining, protecting and raising things. Hold out can show that food, money or strength continues to last. Hold up can show that a business, road or object remains in good condition. You can hold somebody to a promise, hold to your principles, refuse to hold a mistake against somebody, or say that you do not hold with a particular action. Hold out for shows that someone is waiting for a better choice. Hold out on and hold something over somebody describe hidden information and pressure between people.",
+    "contextsZh": [
+      "使用 HOLD 描述實際控制和保護",
+      "描述事物能否繼續或維持良好狀態",
+      "清楚談論承諾、原則和個人態度",
+      "描述壓力、選擇和隱瞞資料"
+    ],
+    "contextsEn": [
+      "Use HOLD to describe physical control and protection",
+      "Describe whether something continues or remains strong",
+      "Talk clearly about promises, principles and personal feelings",
+      "Describe pressure, choices and hidden information"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HOLD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HOLD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hold back on something",
+    "fixedHighlight": "hold back on something",
+    "fixedZh": "閱讀整句,選出意思相同的 HOLD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HOLD expression that gives the same meaning.",
+    "correct": "hold back on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子把它放在正確位置。；hold on to 和 hold onto 都可以放在人物或事物之前。請仔細閱讀情境:它們可以表示「抓緊」,也可以表示「保留」。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in the following expressions, place the word as shown: hold it back hold him down hold them off hold it up hold it out Hold on to and hold onto can both be used before a person or thing. Read the situation carefully: the expression may mean “grip tightly” or “keep something”.",
+    "variableItemsZh": [
+      "hold back on something",
+      "hold forth on/about something",
+      "hold off",
+      "hold on; hold on to/onto somebody or something",
+      "hold on to/onto somebody or something",
+      "hold out",
+      "hold out for something",
+      "hold out on somebody",
+      "hold out something",
+      "hold somebody down",
+      "hold somebody to something",
+      "hold somebody/something back",
+      "hold somebody/something down",
+      "hold somebody/something off",
+      "hold somebody/something up",
+      "hold somebody/something up as something",
+      "hold something against somebody",
+      "hold something on",
+      "hold something out",
+      "hold something over",
+      "hold something over somebody",
+      "hold something to something",
+      "hold to something",
+      "hold together; hold something together",
+      "hold up",
+      "hold with something"
+    ],
+    "variableItemsEn": [
+      "hold back on something",
+      "hold forth on/about something",
+      "hold off",
+      "hold on; hold on to/onto somebody or something",
+      "hold on to/onto somebody or something",
+      "hold out",
+      "hold out for something",
+      "hold out on somebody",
+      "hold out something",
+      "hold somebody down",
+      "hold somebody to something",
+      "hold somebody/something back",
+      "hold somebody/something down",
+      "hold somebody/something off",
+      "hold somebody/something up",
+      "hold somebody/something up as something",
+      "hold something against somebody",
+      "hold something on",
+      "hold something out",
+      "hold something over",
+      "hold something over somebody",
+      "hold something to something",
+      "hold to something",
+      "hold together; hold something together",
+      "hold up",
+      "hold with something"
+    ],
+    "forms": [
+      {
+        "formZh": "在某方面不吝嗇;大量提供",
+        "formEn": "hold back on something",
+        "exampleZh": "主人在食物方面毫不吝嗇。",
+        "exampleEn": "Our host did not hold back on the food.",
+        "highlight": "hold back on"
+      },
+      {
+        "formZh": "滔滔不絕地談論",
+        "formEn": "hold forth on/about something",
+        "exampleZh": "他滔滔不絕地談了半小時足球。",
+        "exampleEn": "He held forth about football for half an hour.",
+        "highlight": "held forth about"
+      },
+      {
+        "formZh": "雨、雪等暫時不開始",
+        "formEn": "hold off",
+        "exampleZh": "幸好雨暫時沒有下起來。",
+        "exampleEn": "Luckily, the rain held off.",
+        "highlight": "held off"
+      },
+      {
+        "formZh": "抓緊;緊握",
+        "formEn": "hold on; hold on to/onto somebody or something",
+        "exampleZh": "抓緊扶手。",
+        "exampleEn": "Hold on to the rail.",
+        "highlight": "Hold on to"
+      },
+      {
+        "formZh": "保留;不丟掉",
+        "formEn": "hold on to/onto somebody or something",
+        "exampleZh": "保留你的收據。",
+        "exampleEn": "Hold on to your receipt.",
+        "highlight": "Hold on to"
+      },
+      {
+        "formZh": "支撐或維持到某個時候",
+        "formEn": "hold out",
+        "exampleZh": "我希望我們的食水能維持下去。",
+        "exampleEn": "I hope our water holds out.",
+        "highlight": "holds out"
+      },
+      {
+        "formZh": "拒絕現有條件,等待更好的東西",
+        "formEn": "hold out for something",
+        "exampleZh": "他們拒絕現有價錢,等待更好的價格。",
+        "exampleEn": "They are holding out for a better price.",
+        "highlight": "holding out for"
+      },
+      {
+        "formZh": "對某人隱瞞資料;沒有把一切說出來",
+        "formEn": "hold out on somebody",
+        "exampleZh": "你是否仍有事情瞞着我?",
+        "exampleEn": "Are you holding out on me?",
+        "highlight": "holding out on"
+      },
+      {
+        "formZh": "帶來或給予希望、可能性",
+        "formEn": "hold out something",
+        "exampleZh": "報告帶來了一些希望。",
+        "exampleEn": "The report holds out some hope.",
+        "highlight": "holds out"
+      },
+      {
+        "formZh": "壓制某人;阻礙其自由或進步",
+        "formEn": "hold somebody down",
+        "exampleZh": "不公平的規則會壓制人們。",
+        "exampleEn": "Unfair rules can hold people down.",
+        "highlight": "hold people down"
+      },
+      {
+        "formZh": "要求某人履行承諾或協議",
+        "formEn": "hold somebody to something",
+        "exampleZh": "我會要求你履行承諾。",
+        "exampleEn": "I will hold you to your promise.",
+        "highlight": "hold you to"
+      },
+      {
+        "formZh": "阻止某人或某物向前;抑制",
+        "formEn": "hold somebody/something back",
+        "exampleZh": "閘門阻止人群向前。",
+        "exampleEn": "The gate held the crowd back.",
+        "highlight": "held the crowd back"
+      },
+      {
+        "formZh": "把某人或某物按住或固定住",
+        "formEn": "hold somebody/something down",
+        "exampleZh": "護士按住他的手臂。",
+        "exampleEn": "The nurse held his arm down.",
+        "highlight": "held his arm down"
+      },
+      {
+        "formZh": "阻擋;暫時抵禦",
+        "formEn": "hold somebody/something off",
+        "exampleZh": "那道牆暫時擋住了水。",
+        "exampleEn": "The wall held the water off.",
+        "highlight": "held the water off"
+      },
+      {
+        "formZh": "舉起;抬起;展示",
+        "formEn": "hold somebody/something up",
+        "exampleZh": "她舉起照片。",
+        "exampleEn": "She held up the photo.",
+        "highlight": "held up"
+      },
+      {
+        "formZh": "把某人或某事物當作典範",
+        "formEn": "hold somebody/something up as something",
+        "exampleZh": "學校把他視為模範學生。",
+        "exampleEn": "The school held him up as a model student.",
+        "highlight": "held him up"
+      },
+      {
+        "formZh": "因某事怪責某人;對某人心存芥蒂",
+        "formEn": "hold something against somebody",
+        "exampleZh": "我不會因此怪責你。",
+        "exampleEn": "I will not hold it against you.",
+        "highlight": "hold it against"
+      },
+      {
+        "formZh": "使某物保持附着",
+        "formEn": "hold something on",
+        "exampleZh": "這些夾子使外蓋保持固定。",
+        "exampleEn": "These clips hold the cover on.",
+        "highlight": "hold the cover on"
+      },
+      {
+        "formZh": "把某物伸出去",
+        "formEn": "hold something out",
+        "exampleZh": "他把手伸出去。",
+        "exampleEn": "He held his hand out.",
+        "highlight": "held his hand out"
+      },
+      {
+        "formZh": "把事情押後處理",
+        "formEn": "hold something over",
+        "exampleZh": "我們把事情押後至星期一處理。",
+        "exampleEn": "We held the matter over until Monday.",
+        "highlight": "held the matter over"
+      },
+      {
+        "formZh": "利用某事向某人施壓或控制某人",
+        "formEn": "hold something over somebody",
+        "exampleZh": "她利用那個秘密向他施壓。",
+        "exampleEn": "She held the secret over him.",
+        "highlight": "held the secret over"
+      },
+      {
+        "formZh": "把某物貼着或按在另一物上",
+        "formEn": "hold something to something",
+        "exampleZh": "他把電話貼在耳邊。",
+        "exampleEn": "He held the phone to his ear.",
+        "highlight": "held the phone to"
+      },
+      {
+        "formZh": "堅守原則、承諾或決定",
+        "formEn": "hold to something",
+        "exampleZh": "她堅持自己的決定。",
+        "exampleEn": "She held to her decision.",
+        "highlight": "held to"
+      },
+      {
+        "formZh": "維持完整或團結;使某物保持完整",
+        "formEn": "hold together; hold something together",
+        "exampleZh": "膠紙使箱子保持完整。",
+        "exampleEn": "The tape held the box together.",
+        "highlight": "held the box together"
+      },
+      {
+        "formZh": "在困難下仍維持良好狀態",
+        "formEn": "hold up",
+        "exampleZh": "舊屋頂仍維持得很好。",
+        "exampleEn": "The old roof held up well.",
+        "highlight": "held up"
+      },
+      {
+        "formZh": "贊成或接受某種做法,常用於否定句",
+        "formEn": "hold with something",
+        "exampleZh": "我不贊成無禮的行為。",
+        "exampleEn": "I do not hold with rude behaviour.",
+        "highlight": "hold with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某方面不吝嗇;大量提供",
+      "titleEn": "hold back on something",
+      "formula": "hold back on something",
+      "highlight": "hold back on something",
+      "descriptionZh": "在某方面不吝嗇;大量提供",
+      "descriptionEn": "Our host did not hold back on the food.",
+      "examples": [
+        {
+          "en": "Our host did not hold back on the food.",
+          "zh": "主人在食物方面毫不吝嗇。",
+          "highlight": "hold back on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "滔滔不絕地談論",
+      "titleEn": "hold forth on/about something",
+      "formula": "hold forth on/about something",
+      "highlight": "hold forth on/about something",
+      "descriptionZh": "滔滔不絕地談論",
+      "descriptionEn": "He held forth about football for half an hour.",
+      "examples": [
+        {
+          "en": "He held forth about football for half an hour.",
+          "zh": "他滔滔不絕地談了半小時足球。",
+          "highlight": "held forth about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "雨、雪等暫時不開始",
+      "titleEn": "hold off",
+      "formula": "hold off",
+      "highlight": "hold off",
+      "descriptionZh": "雨、雪等暫時不開始",
+      "descriptionEn": "Luckily, the rain held off.",
+      "examples": [
+        {
+          "en": "Luckily, the rain held off.",
+          "zh": "幸好雨暫時沒有下起來。",
+          "highlight": "held off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "抓緊;緊握",
+      "titleEn": "hold on; hold on to/onto somebody or something",
+      "formula": "hold on; hold on to/onto somebody or something",
+      "highlight": "hold on; hold on to/onto somebody or something",
+      "descriptionZh": "抓緊;緊握",
+      "descriptionEn": "Hold on to the rail.",
+      "examples": [
+        {
+          "en": "Hold on to the rail.",
+          "zh": "抓緊扶手。",
+          "highlight": "Hold on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "保留;不丟掉",
+      "titleEn": "hold on to/onto somebody or something",
+      "formula": "hold on to/onto somebody or something",
+      "highlight": "hold on to/onto somebody or something",
+      "descriptionZh": "保留;不丟掉",
+      "descriptionEn": "Hold on to your receipt.",
+      "examples": [
+        {
+          "en": "Hold on to your receipt.",
+          "zh": "保留你的收據。",
+          "highlight": "Hold on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "支撐或維持到某個時候",
+      "titleEn": "hold out",
+      "formula": "hold out",
+      "highlight": "hold out",
+      "descriptionZh": "支撐或維持到某個時候",
+      "descriptionEn": "I hope our water holds out.",
+      "examples": [
+        {
+          "en": "I hope our water holds out.",
+          "zh": "我希望我們的食水能維持下去。",
+          "highlight": "holds out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "拒絕現有條件,等待更好的東西",
+      "titleEn": "hold out for something",
+      "formula": "hold out for something",
+      "highlight": "hold out for something",
+      "descriptionZh": "拒絕現有條件,等待更好的東西",
+      "descriptionEn": "They are holding out for a better price.",
+      "examples": [
+        {
+          "en": "They are holding out for a better price.",
+          "zh": "他們拒絕現有價錢,等待更好的價格。",
+          "highlight": "holding out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "對某人隱瞞資料;沒有把一切說出來",
+      "titleEn": "hold out on somebody",
+      "formula": "hold out on somebody",
+      "highlight": "hold out on somebody",
+      "descriptionZh": "對某人隱瞞資料;沒有把一切說出來",
+      "descriptionEn": "Are you holding out on me?",
+      "examples": [
+        {
+          "en": "Are you holding out on me?",
+          "zh": "你是否仍有事情瞞着我?",
+          "highlight": "holding out on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "帶來或給予希望、可能性",
+      "titleEn": "hold out something",
+      "formula": "hold out something",
+      "highlight": "hold out something",
+      "descriptionZh": "帶來或給予希望、可能性",
+      "descriptionEn": "The report holds out some hope.",
+      "examples": [
+        {
+          "en": "The report holds out some hope.",
+          "zh": "報告帶來了一些希望。",
+          "highlight": "holds out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "壓制某人;阻礙其自由或進步",
+      "titleEn": "hold somebody down",
+      "formula": "hold somebody down",
+      "highlight": "hold somebody down",
+      "descriptionZh": "壓制某人;阻礙其自由或進步",
+      "descriptionEn": "Unfair rules can hold people down.",
+      "examples": [
+        {
+          "en": "Unfair rules can hold people down.",
+          "zh": "不公平的規則會壓制人們。",
+          "highlight": "hold people down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "要求某人履行承諾或協議",
+      "titleEn": "hold somebody to something",
+      "formula": "hold somebody to something",
+      "highlight": "hold somebody to something",
+      "descriptionZh": "要求某人履行承諾或協議",
+      "descriptionEn": "I will hold you to your promise.",
+      "examples": [
+        {
+          "en": "I will hold you to your promise.",
+          "zh": "我會要求你履行承諾。",
+          "highlight": "hold you to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "阻止某人或某物向前;抑制",
+      "titleEn": "hold somebody/something back",
+      "formula": "hold somebody/something back",
+      "highlight": "hold somebody/something back",
+      "descriptionZh": "阻止某人或某物向前;抑制",
+      "descriptionEn": "The gate held the crowd back.",
+      "examples": [
+        {
+          "en": "The gate held the crowd back.",
+          "zh": "閘門阻止人群向前。",
+          "highlight": "held the crowd back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某人或某物按住或固定住",
+      "titleEn": "hold somebody/something down",
+      "formula": "hold somebody/something down",
+      "highlight": "hold somebody/something down",
+      "descriptionZh": "把某人或某物按住或固定住",
+      "descriptionEn": "The nurse held his arm down.",
+      "examples": [
+        {
+          "en": "The nurse held his arm down.",
+          "zh": "護士按住他的手臂。",
+          "highlight": "held his arm down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "阻擋;暫時抵禦",
+      "titleEn": "hold somebody/something off",
+      "formula": "hold somebody/something off",
+      "highlight": "hold somebody/something off",
+      "descriptionZh": "阻擋;暫時抵禦",
+      "descriptionEn": "The wall held the water off.",
+      "examples": [
+        {
+          "en": "The wall held the water off.",
+          "zh": "那道牆暫時擋住了水。",
+          "highlight": "held the water off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "舉起;抬起;展示",
+      "titleEn": "hold somebody/something up",
+      "formula": "hold somebody/something up",
+      "highlight": "hold somebody/something up",
+      "descriptionZh": "舉起;抬起;展示",
+      "descriptionEn": "She held up the photo.",
+      "examples": [
+        {
+          "en": "She held up the photo.",
+          "zh": "她舉起照片。",
+          "highlight": "held up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把某人或某事物當作典範",
+      "titleEn": "hold somebody/something up as something",
+      "formula": "hold somebody/something up as something",
+      "highlight": "hold somebody/something up as something",
+      "descriptionZh": "把某人或某事物當作典範",
+      "descriptionEn": "The school held him up as a model student.",
+      "examples": [
+        {
+          "en": "The school held him up as a model student.",
+          "zh": "學校把他視為模範學生。",
+          "highlight": "held him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "因某事怪責某人;對某人心存芥蒂",
+      "titleEn": "hold something against somebody",
+      "formula": "hold something against somebody",
+      "highlight": "hold something against somebody",
+      "descriptionZh": "因某事怪責某人;對某人心存芥蒂",
+      "descriptionEn": "I will not hold it against you.",
+      "examples": [
+        {
+          "en": "I will not hold it against you.",
+          "zh": "我不會因此怪責你。",
+          "highlight": "hold it against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "使某物保持附着",
+      "titleEn": "hold something on",
+      "formula": "hold something on",
+      "highlight": "hold something on",
+      "descriptionZh": "使某物保持附着",
+      "descriptionEn": "These clips hold the cover on.",
+      "examples": [
+        {
+          "en": "These clips hold the cover on.",
+          "zh": "這些夾子使外蓋保持固定。",
+          "highlight": "hold the cover on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "把某物伸出去",
+      "titleEn": "hold something out",
+      "formula": "hold something out",
+      "highlight": "hold something out",
+      "descriptionZh": "把某物伸出去",
+      "descriptionEn": "He held his hand out.",
+      "examples": [
+        {
+          "en": "He held his hand out.",
+          "zh": "他把手伸出去。",
+          "highlight": "held his hand out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "把事情押後處理",
+      "titleEn": "hold something over",
+      "formula": "hold something over",
+      "highlight": "hold something over",
+      "descriptionZh": "把事情押後處理",
+      "descriptionEn": "We held the matter over until Monday.",
+      "examples": [
+        {
+          "en": "We held the matter over until Monday.",
+          "zh": "我們把事情押後至星期一處理。",
+          "highlight": "held the matter over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "利用某事向某人施壓或控制某人",
+      "titleEn": "hold something over somebody",
+      "formula": "hold something over somebody",
+      "highlight": "hold something over somebody",
+      "descriptionZh": "利用某事向某人施壓或控制某人",
+      "descriptionEn": "She held the secret over him.",
+      "examples": [
+        {
+          "en": "She held the secret over him.",
+          "zh": "她利用那個秘密向他施壓。",
+          "highlight": "held the secret over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "把某物貼着或按在另一物上",
+      "titleEn": "hold something to something",
+      "formula": "hold something to something",
+      "highlight": "hold something to something",
+      "descriptionZh": "把某物貼着或按在另一物上",
+      "descriptionEn": "He held the phone to his ear.",
+      "examples": [
+        {
+          "en": "He held the phone to his ear.",
+          "zh": "他把電話貼在耳邊。",
+          "highlight": "held the phone to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "堅守原則、承諾或決定",
+      "titleEn": "hold to something",
+      "formula": "hold to something",
+      "highlight": "hold to something",
+      "descriptionZh": "堅守原則、承諾或決定",
+      "descriptionEn": "She held to her decision.",
+      "examples": [
+        {
+          "en": "She held to her decision.",
+          "zh": "她堅持自己的決定。",
+          "highlight": "held to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "維持完整或團結;使某物保持完整",
+      "titleEn": "hold together; hold something together",
+      "formula": "hold together; hold something together",
+      "highlight": "hold together; hold something together",
+      "descriptionZh": "維持完整或團結;使某物保持完整",
+      "descriptionEn": "The tape held the box together.",
+      "examples": [
+        {
+          "en": "The tape held the box together.",
+          "zh": "膠紙使箱子保持完整。",
+          "highlight": "held the box together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "在困難下仍維持良好狀態",
+      "titleEn": "hold up",
+      "formula": "hold up",
+      "highlight": "hold up",
+      "descriptionZh": "在困難下仍維持良好狀態",
+      "descriptionEn": "The old roof held up well.",
+      "examples": [
+        {
+          "en": "The old roof held up well.",
+          "zh": "舊屋頂仍維持得很好。",
+          "highlight": "held up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "贊成或接受某種做法,常用於否定句",
+      "titleEn": "hold with something",
+      "formula": "hold with something",
+      "highlight": "hold with something",
+      "descriptionZh": "贊成或接受某種做法,常用於否定句",
+      "descriptionEn": "I do not hold with rude behaviour.",
+      "examples": [
+        {
+          "en": "I do not hold with rude behaviour.",
+          "zh": "我不贊成無禮的行為。",
+          "highlight": "hold with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 HOLD 描述實際控制和保護",
+      "titleEn": "Use HOLD to describe physical control and protection",
+      "zh": "hold on、hold back、hold down、hold off 和 hold up 等表達,可以幫助你描述抓緊、阻止、按住、抵擋和舉起事物。",
+      "en": "Expressions such as hold on, hold back, hold down, hold off and hold up help you describe gripping, stopping, restraining, protecting and raising things."
+    },
+    {
+      "titleZh": "描述事物能否繼續或維持良好狀態",
+      "titleEn": "Describe whether something continues or remains strong",
+      "zh": "hold out 可以表示食物、金錢或體力仍能維持;hold up 則可以表示生意、道路或物件在困難下仍保持良好狀態。",
+      "en": "Hold out can show that food, money or strength continues to last. Hold up can show that a business, road or object remains in good condition."
+    },
+    {
+      "titleZh": "清楚談論承諾、原則和個人態度",
+      "titleEn": "Talk clearly about promises, principles and personal feelings",
+      "zh": "你可以用 hold somebody to 表示要求某人履行承諾、用 hold to 表示堅守原則、用 holdsomething against somebody 表示怪責某人,以及用 hold with 表示贊成某種做法。",
+      "en": "You can hold somebody to a promise, hold to your principles, refuse to hold a mistake against somebody, or say that you do not hold with a particular action."
+    },
+    {
+      "titleZh": "描述壓力、選擇和隱瞞資料",
+      "titleEn": "Describe pressure, choices and hidden information",
+      "zh": "hold out for 表示某人等待更好的選擇;hold out on 和 hold something over somebody 則可以描述人與人之間的隱瞞和施壓。",
+      "en": "Hold out for shows that someone is waiting for a better choice. Hold out on and hold something over somebody describe hidden information and pressure between people."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 HOLD 描述實際控制和保護",
+      "描述事物能否繼續或維持良好狀態",
+      "清楚談論承諾、原則和個人態度",
+      "描述壓力、選擇和隱瞞資料"
+    ],
+    "contextsEn": [
+      "Use HOLD to describe physical control and protection",
+      "Describe whether something continues or remains strong",
+      "Talk clearly about promises, principles and personal feelings",
+      "Describe pressure, choices and hidden information"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 HOLD 描述實際控制和保護",
+        "titleEn": "Use HOLD to describe physical control and protection",
+        "zh": "hold on、hold back、hold down、hold off 和 hold up 等表達,可以幫助你描述抓緊、阻止、按住、抵擋和舉起事物。",
+        "en": "Expressions such as hold on, hold back, hold down, hold off and hold up help you describe gripping, stopping, restraining, protecting and raising things.",
+        "examples": [
+          {
+            "en": "Our host did not hold back on the food.",
+            "zh": "主人在食物方面毫不吝嗇。",
+            "highlight": "hold back on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述事物能否繼續或維持良好狀態",
+        "titleEn": "Describe whether something continues or remains strong",
+        "zh": "hold out 可以表示食物、金錢或體力仍能維持;hold up 則可以表示生意、道路或物件在困難下仍保持良好狀態。",
+        "en": "Hold out can show that food, money or strength continues to last. Hold up can show that a business, road or object remains in good condition.",
+        "examples": [
+          {
+            "en": "He held forth about football for half an hour.",
+            "zh": "他滔滔不絕地談了半小時足球。",
+            "highlight": "held forth about"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論承諾、原則和個人態度",
+        "titleEn": "Talk clearly about promises, principles and personal feelings",
+        "zh": "你可以用 hold somebody to 表示要求某人履行承諾、用 hold to 表示堅守原則、用 holdsomething against somebody 表示怪責某人,以及用 hold with 表示贊成某種做法。",
+        "en": "You can hold somebody to a promise, hold to your principles, refuse to hold a mistake against somebody, or say that you do not hold with a particular action.",
+        "examples": [
+          {
+            "en": "Luckily, the rain held off.",
+            "zh": "幸好雨暫時沒有下起來。",
+            "highlight": "held off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述壓力、選擇和隱瞞資料",
+        "titleEn": "Describe pressure, choices and hidden information",
+        "zh": "hold out for 表示某人等待更好的選擇;hold out on 和 hold something over somebody 則可以描述人與人之間的隱瞞和施壓。",
+        "en": "Hold out for shows that someone is waiting for a better choice. Hold out on and hold something over somebody describe hidden information and pressure between people.",
+        "examples": [
+          {
+            "en": "Hold on to the rail.",
+            "zh": "抓緊扶手。",
+            "highlight": "Hold on to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HOLD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HOLD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HOLD 片語動詞。",
+      "en": "Read the whole sentence and choose the HOLD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子把它放在正確位置。",
+      "titleEn": "When using him, her, it or them in the following expressions, place the word as shown: hold it back hold him down hold them off hold it up hold it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子把它放在正確位置。",
+      "en": "When using him, her, it or them in the following expressions, place the word as shown: hold it back hold him down hold them off hold it up hold it out"
+    },
+    {
+      "titleZh": "hold on to 和 hold onto 都可以放在人物或事物之前。請仔細閱讀情境:它們可以表示「抓緊」,也可以表示「保留」。",
+      "titleEn": "Hold on to and hold onto can both be used before a person or thing.",
+      "zh": "hold on to 和 hold onto 都可以放在人物或事物之前。請仔細閱讀情境:它們可以表示「抓緊」,也可以表示「保留」。",
+      "en": "Hold on to and hold onto can both be used before a person or thing. Read the situation carefully: the expression may mean “grip tightly” or “keep something”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HOLD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HOLD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HOLD 動詞片語句子改寫練習",
+    "titleEn": "HOLD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HOLD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HOLD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          26
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          27,
+          52
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          53,
+          78
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          79,
+          104
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          105,
+          130
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-127-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 30,
+      "prompt": "The rain did not start until after the match.",
+      "promptZh": "雨一直到比賽結束後才下起來。",
+      "starter": "The",
+      "answer": "The rain held off until after the match.",
+      "answerZh": "雨一直到比賽結束後才下起來。",
+      "highlight": "held off",
+      "targetForm": "hold off",
+      "targetMeaningZh": "雨、雪等暫時不開始"
+    },
+    {
+      "id": "phrasal-verb-127-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 30,
+      "prompt": "I know you made a mistake, but I will not continue to blame you for it.",
+      "promptZh": "我知道你犯了錯,但我不會因此一直怪責你。",
+      "starter": "I",
+      "answer": "I know you made a mistake, but I will not hold it against you.",
+      "answerZh": "我知道你犯了錯,但我不會因此一直怪責你。",
+      "highlight": "hold it against",
+      "targetForm": "hold something against somebody",
+      "targetMeaningZh": "因某事怪責某人"
+    },
+    {
+      "id": "phrasal-verb-127-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 30,
+      "prompt": "Our food will last until Friday.",
+      "promptZh": "我們的食物足夠維持到星期五。",
+      "starter": "Our",
+      "answer": "Our food will hold out until Friday.",
+      "answerZh": "我們的食物足夠維持到星期五。",
+      "highlight": "hold out",
+      "targetForm": "hold out",
+      "targetMeaningZh": "支撐或維持到某個時候"
+    },
+    {
+      "id": "phrasal-verb-127-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 30,
+      "prompt": "The old box is still staying in one piece.",
+      "promptZh": "這個舊箱子仍保持完整。",
+      "starter": "The",
+      "answer": "The old box is still holding together.",
+      "answerZh": "這個舊箱子仍保持完整。",
+      "highlight": "holding together",
+      "targetForm": "hold together",
+      "targetMeaningZh": "維持完整"
+    },
+    {
+      "id": "phrasal-verb-127-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 30,
+      "prompt": "The café was very generous with the cream in the desserts.",
+      "promptZh": "這間咖啡店在甜品中加入了大量忌廉。",
+      "starter": "The",
+      "answer": "The café did not hold back on the cream in the desserts.",
+      "answerZh": "這間咖啡店在甜品中加入了大量忌廉。",
+      "highlight": "did not hold back on",
+      "targetForm": "hold back on something",
+      "targetMeaningZh": "在某方面不吝嗇"
+    },
+    {
+      "id": "phrasal-verb-127-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 30,
+      "prompt": "The fence stopped the dogs from reaching us.",
+      "promptZh": "圍欄阻止了那些狗接近我們。",
+      "starter": "The",
+      "answer": "The fence held the dogs off.",
+      "answerZh": "圍欄阻止了那些狗接近我們。",
+      "highlight": "held",
+      "targetForm": "hold somebody/something off",
+      "targetMeaningZh": "阻擋;暫時抵禦"
+    },
+    {
+      "id": "phrasal-verb-127-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 31,
+      "prompt": "Keep the receipt until you get your money back.",
+      "promptZh": "保留收據,直到你取回款項。",
+      "starter": "Hold",
+      "answer": "Hold on to the receipt until you get your money back.",
+      "answerZh": "保留收據,直到你取回款項。",
+      "highlight": "Hold on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-127-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 31,
+      "prompt": "She pressed a cold cloth against his forehead.",
+      "promptZh": "她把一塊冷布敷在他的額頭上。",
+      "starter": "She",
+      "answer": "She held a cold cloth to his forehead.",
+      "answerZh": "她把一塊冷布敷在他的額頭上。",
+      "highlight": "held",
+      "targetForm": "hold something to something",
+      "targetMeaningZh": "把某物貼着另一物"
+    },
+    {
+      "id": "phrasal-verb-127-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 31,
+      "prompt": "She said she would make him keep his promise.",
+      "promptZh": "她說會要求他履行承諾。",
+      "starter": "She",
+      "answer": "She said she would hold him to his promise.",
+      "answerZh": "她說會要求他履行承諾。",
+      "highlight": "hold",
+      "targetForm": "hold somebody to something",
+      "targetMeaningZh": "要求某人履行承諾"
+    },
+    {
+      "id": "phrasal-verb-127-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 31,
+      "prompt": "Sales remained good during the quiet month.",
+      "promptZh": "在生意淡靜的月份,銷售仍維持良好。",
+      "starter": "Sales",
+      "answer": "Sales held up well during the quiet month.",
+      "answerZh": "在生意淡靜的月份,銷售仍維持良好。",
+      "highlight": "held up well",
+      "targetForm": "hold up",
+      "targetMeaningZh": "在困難下仍維持良好狀態"
+    },
+    {
+      "id": "phrasal-verb-127-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 31,
+      "prompt": "Stop hiding information from me.",
+      "promptZh": "不要再對我有所隱瞞。",
+      "starter": "Stop",
+      "answer": "Stop holding out on me.",
+      "answerZh": "不要再對我有所隱瞞。",
+      "highlight": "holding out on",
+      "targetForm": "hold out on somebody",
+      "targetMeaningZh": "對某人隱瞞資料"
+    },
+    {
+      "id": "phrasal-verb-127-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 31,
+      "prompt": "She extended her cup for more tea.",
+      "promptZh": "她把杯子伸出去,想再添茶。",
+      "starter": "She",
+      "answer": "She held her cup out for more tea.",
+      "answerZh": "她把杯子伸出去,想再添茶。",
+      "highlight": "held",
+      "targetForm": "hold something out",
+      "targetMeaningZh": "把某物伸出去"
+    },
+    {
+      "id": "phrasal-verb-127-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 32,
+      "prompt": "Uncle Peter spoke for a long time about football.",
+      "promptZh": "彼得叔叔滔滔不絕地談了很久足球。",
+      "starter": "Uncle",
+      "answer": "Uncle Peter held forth about football.",
+      "answerZh": "彼得叔叔滔滔不絕地談了很久足球。",
+      "highlight": "held forth",
+      "targetForm": "hold forth about something",
+      "targetMeaningZh": "滔滔不絕地談論"
+    },
+    {
+      "id": "phrasal-verb-127-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 32,
+      "prompt": "Two nurses kept his arm still during the test.",
+      "promptZh": "測試期間,兩名護士按住他的手臂。",
+      "starter": "Two",
+      "answer": "Two nurses held his arm down during the test.",
+      "answerZh": "測試期間,兩名護士按住他的手臂。",
+      "highlight": "held",
+      "targetForm": "hold something down",
+      "targetMeaningZh": "把某物按住"
+    },
+    {
+      "id": "phrasal-verb-127-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 32,
+      "prompt": "I do not agree with that way of teaching.",
+      "promptZh": "我不贊成那種教學方式。",
+      "starter": "I",
+      "answer": "I do not hold with that way of teaching.",
+      "answerZh": "我不贊成那種教學方式。",
+      "highlight": "hold",
+      "targetForm": "hold with something",
+      "targetMeaningZh": "贊成或接受某種做法"
+    },
+    {
+      "id": "phrasal-verb-127-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 32,
+      "prompt": "The workers refused the first offer because they wanted better pay.",
+      "promptZh": "工人拒絕第一個方案,等待更好的薪酬。",
+      "starter": "The",
+      "answer": "The workers held out for better pay.",
+      "answerZh": "工人拒絕第一個方案,等待更好的薪酬。",
+      "highlight": "held out for",
+      "targetForm": "hold out for something",
+      "targetMeaningZh": "等待更好的條件"
+    },
+    {
+      "id": "phrasal-verb-127-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 32,
+      "prompt": "The police could not stop the crowd from moving forward.",
+      "promptZh": "警方無法阻止人群向前移動。",
+      "starter": "The",
+      "answer": "The police could not hold the crowd back.",
+      "answerZh": "警方無法阻止人群向前移動。",
+      "highlight": "hold",
+      "targetForm": "hold somebody back",
+      "targetMeaningZh": "阻止某人向前"
+    },
+    {
+      "id": "phrasal-verb-127-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 32,
+      "prompt": "He used her old mistake as a way to control her.",
+      "promptZh": "他利用她以前的錯誤來控制她。",
+      "starter": "He",
+      "answer": "He held her old mistake over her.",
+      "answerZh": "他利用她以前的錯誤來控制她。",
+      "highlight": "held",
+      "targetForm": "hold something over somebody",
+      "targetMeaningZh": "利用某事向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-127-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 33,
+      "prompt": "Hold the handle tightly while the bus is moving.",
+      "promptZh": "巴士行駛時要抓緊把手。",
+      "starter": "Hold",
+      "answer": "Hold on to the handle while the bus is moving.",
+      "answerZh": "巴士行駛時要抓緊把手。",
+      "highlight": "Hold on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "抓緊某物"
+    },
+    {
+      "id": "phrasal-verb-127-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 33,
+      "prompt": "The school presented Ella as an example of a helpful student.",
+      "promptZh": "學校把埃拉視為樂於助人的學生典範。",
+      "starter": "The",
+      "answer": "The school held Ella up as an example of a helpful student.",
+      "answerZh": "學校把埃拉視為樂於助人的學生典範。",
+      "highlight": "held",
+      "targetForm": "hold somebody up as something",
+      "targetMeaningZh": "把某人當作典範"
+    },
+    {
+      "id": "phrasal-verb-127-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 33,
+      "prompt": "The doctor gave little reason to hope for a quick recovery.",
+      "promptZh": "醫生表示快速康復的希望不大。",
+      "starter": "The",
+      "answer": "The doctor held out little hope of a quick recovery.",
+      "answerZh": "醫生表示快速康復的希望不大。",
+      "highlight": "held out",
+      "targetForm": "hold out hope",
+      "targetMeaningZh": "給予希望"
+    },
+    {
+      "id": "phrasal-verb-127-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 33,
+      "prompt": "She always follows her principles.",
+      "promptZh": "她一向堅守自己的原則。",
+      "starter": "She",
+      "answer": "She always holds to her principles.",
+      "answerZh": "她一向堅守自己的原則。",
+      "highlight": "holds to",
+      "targetForm": "hold to something",
+      "targetMeaningZh": "堅守原則"
+    },
+    {
+      "id": "phrasal-verb-127-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 33,
+      "prompt": "She raised her hand to ask a question.",
+      "promptZh": "她舉手發問。",
+      "starter": "She",
+      "answer": "She held up her hand to ask a question.",
+      "answerZh": "她舉手發問。",
+      "highlight": "held up",
+      "targetForm": "hold something up",
+      "targetMeaningZh": "舉起某物"
+    },
+    {
+      "id": "phrasal-verb-127-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 33,
+      "prompt": "The unfair rules kept poorer workers from improving their lives.",
+      "promptZh": "不公平的規則阻礙較貧窮的工人改善生活。",
+      "starter": "The",
+      "answer": "The unfair rules held poorer workers down.",
+      "answerZh": "不公平的規則阻礙較貧窮的工人改善生活。",
+      "highlight": "held",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "壓制或阻礙某人"
+    },
+    {
+      "id": "phrasal-verb-127-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 34,
+      "prompt": "We decided to delay the decision until next week.",
+      "promptZh": "我們決定把這項決定押後至下星期。",
+      "starter": "We",
+      "answer": "We decided to hold the decision over until next week.",
+      "answerZh": "我們決定把這項決定押後至下星期。",
+      "highlight": "hold",
+      "targetForm": "hold something over",
+      "targetMeaningZh": "把事情押後處理"
+    },
+    {
+      "id": "phrasal-verb-127-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 34,
+      "prompt": "These clips keep the cover attached.",
+      "promptZh": "這些夾子使外蓋保持固定。",
+      "starter": "These",
+      "answer": "These clips hold the cover on.",
+      "answerZh": "這些夾子使外蓋保持固定。",
+      "highlight": "hold",
+      "targetForm": "hold something on",
+      "targetMeaningZh": "使某物保持附着"
+    },
+    {
+      "id": "phrasal-verb-127-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 34,
+      "prompt": "A gate is stopping the sheep from reaching the road.",
+      "promptZh": "一道閘門正阻止羊群走到馬路上。",
+      "starter": "A",
+      "answer": "A gate is holding the sheep back from the road.",
+      "answerZh": "一道閘門正阻止羊群走到馬路上。",
+      "highlight": "holding",
+      "targetForm": "hold somebody/something back",
+      "targetMeaningZh": "阻止向前"
+    },
+    {
+      "id": "phrasal-verb-127-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 34,
+      "prompt": "She was gripping the rail as the boat moved.",
+      "promptZh": "船移動時,她一直抓緊欄杆。",
+      "starter": "She",
+      "answer": "She was holding on to the rail as the boat moved.",
+      "answerZh": "船移動時,她一直抓緊欄杆。",
+      "highlight": "holding on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "抓緊某物"
+    },
+    {
+      "id": "phrasal-verb-127-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 34,
+      "prompt": "The committee has delayed the final vote until Monday.",
+      "promptZh": "委員會已把最終投票押後至星期一。",
+      "starter": "The",
+      "answer": "The committee has held the final vote over until Monday.",
+      "answerZh": "委員會已把最終投票押後至星期一。",
+      "highlight": "held",
+      "targetForm": "hold something over",
+      "targetMeaningZh": "把事情押後處理"
+    },
+    {
+      "id": "phrasal-verb-127-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 34,
+      "prompt": "She is refusing to sell until someone offers the full price.",
+      "promptZh": "她拒絕出售,等待有人支付全價。",
+      "starter": "She",
+      "answer": "She is holding out for the full price.",
+      "answerZh": "她拒絕出售,等待有人支付全價。",
+      "highlight": "holding out for",
+      "targetForm": "hold out for something",
+      "targetMeaningZh": "等待更好的條件"
+    },
+    {
+      "id": "phrasal-verb-127-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 35,
+      "prompt": "The winner is raising the cup above his head.",
+      "promptZh": "勝出者正把獎盃舉過頭頂。",
+      "starter": "The",
+      "answer": "The winner is holding up the cup above his head.",
+      "answerZh": "勝出者正把獎盃舉過頭頂。",
+      "highlight": "holding up",
+      "targetForm": "hold something up",
+      "targetMeaningZh": "舉起某物"
+    },
+    {
+      "id": "phrasal-verb-127-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 35,
+      "prompt": "The guest is speaking at length on the future of travel.",
+      "promptZh": "那位嘉賓正滔滔不絕地談論旅遊的未來。",
+      "starter": "The",
+      "answer": "The guest is holding forth on the future of travel.",
+      "answerZh": "那位嘉賓正滔滔不絕地談論旅遊的未來。",
+      "highlight": "holding forth",
+      "targetForm": "hold forth on something",
+      "targetMeaningZh": "滔滔不絕地談論"
+    },
+    {
+      "id": "phrasal-verb-127-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 35,
+      "prompt": "How well has the old laptop continued to work?",
+      "promptZh": "這部舊手提電腦至今維持得怎樣?",
+      "starter": "How",
+      "answer": "How well has the old laptop held up?",
+      "answerZh": "這部舊手提電腦至今維持得怎樣?",
+      "highlight": "held up",
+      "targetForm": "hold up",
+      "targetMeaningZh": "在困難下仍維持良好狀態"
+    },
+    {
+      "id": "phrasal-verb-127-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 35,
+      "prompt": "Only two screws are keeping the back panel attached.",
+      "promptZh": "只有兩顆螺絲使背板保持固定。",
+      "starter": "Only",
+      "answer": "Only two screws are holding the back panel on.",
+      "answerZh": "只有兩顆螺絲使背板保持固定。",
+      "highlight": "holding",
+      "targetForm": "hold something on",
+      "targetMeaningZh": "使某物保持附着"
+    },
+    {
+      "id": "phrasal-verb-127-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 35,
+      "prompt": "The new plan offers some hope that the shop can stay open.",
+      "promptZh": "新計劃帶來了一些店舖可以繼續營業的希望。",
+      "starter": "The",
+      "answer": "The new plan holds out some hope that the shop can stay open.",
+      "answerZh": "新計劃帶來了一些店舖可以繼續營業的希望。",
+      "highlight": "holds out",
+      "targetForm": "hold out hope",
+      "targetMeaningZh": "給予希望"
+    },
+    {
+      "id": "phrasal-verb-127-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 35,
+      "prompt": "The heavy books are keeping the papers in place.",
+      "promptZh": "幾本厚重的書正壓住那些紙張。",
+      "starter": "The",
+      "answer": "The heavy books are holding the papers down.",
+      "answerZh": "幾本厚重的書正壓住那些紙張。",
+      "highlight": "holding",
+      "targetForm": "hold something down",
+      "targetMeaningZh": "把某物壓住"
+    },
+    {
+      "id": "phrasal-verb-127-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 36,
+      "prompt": "I have kept all the letters from my old friends.",
+      "promptZh": "我一直保留着所有舊朋友寄來的信。",
+      "starter": "I",
+      "answer": "I have held onto all the letters from my old friends.",
+      "answerZh": "我一直保留着所有舊朋友寄來的信。",
+      "highlight": "held onto",
+      "targetForm": "hold onto something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-127-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 36,
+      "prompt": "The team has followed the original plan despite several problems.",
+      "promptZh": "儘管遇到幾個問題,團隊仍一直按照原定計劃行事。",
+      "starter": "The",
+      "answer": "The team has held to the original plan despite several problems.",
+      "answerZh": "儘管遇到幾個問題,團隊仍一直按照原定計劃行事。",
+      "highlight": "held to",
+      "targetForm": "hold to something",
+      "targetMeaningZh": "堅守計劃或決定"
+    },
+    {
+      "id": "phrasal-verb-127-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 36,
+      "prompt": "The article is presenting the small town as a model for clean streets.",
+      "promptZh": "文章正把這個小鎮視為街道清潔的典範。",
+      "starter": "The",
+      "answer": "The article is holding the small town up as a model for clean streets.",
+      "answerZh": "文章正把這個小鎮視為街道清潔的典範。",
+      "highlight": "holding",
+      "targetForm": "hold something up as something",
+      "targetMeaningZh": "把某事物當作典範"
+    },
+    {
+      "id": "phrasal-verb-127-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 36,
+      "prompt": "Our host is being very generous with the food tonight.",
+      "promptZh": "主人今晚準備了非常豐富的食物。",
+      "starter": "Our",
+      "answer": "Our host is not holding back on the food tonight.",
+      "answerZh": "主人今晚準備了非常豐富的食物。",
+      "highlight": "not holding back on",
+      "targetForm": "hold back on something",
+      "targetMeaningZh": "在某方面不吝嗇"
+    },
+    {
+      "id": "phrasal-verb-127-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 36,
+      "prompt": "He is pressing the phone against his ear because the room is noisy.",
+      "promptZh": "房間很嘈吵,所以他正把電話緊貼耳邊。",
+      "starter": "He",
+      "answer": "He is holding the phone to his ear because the room is noisy.",
+      "answerZh": "房間很嘈吵,所以他正把電話緊貼耳邊。",
+      "highlight": "holding",
+      "targetForm": "hold something to something",
+      "targetMeaningZh": "把某物貼着另一物"
+    },
+    {
+      "id": "phrasal-verb-127-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 36,
+      "prompt": "The battery has lasted longer than we expected.",
+      "promptZh": "電池維持得比我們預期更久。",
+      "starter": "The",
+      "answer": "The battery has held out longer than we expected.",
+      "answerZh": "電池維持得比我們預期更久。",
+      "highlight": "held out",
+      "targetForm": "hold out",
+      "targetMeaningZh": "繼續維持"
+    },
+    {
+      "id": "phrasal-verb-127-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 37,
+      "prompt": "For years, the system has prevented small farmers from becoming independent.",
+      "promptZh": "多年來,這個制度一直阻礙小農戶獨立發展。",
+      "starter": "For",
+      "answer": "For years, the system has held small farmers down.",
+      "answerZh": "多年來,這個制度一直阻礙小農戶獨立發展。",
+      "highlight": "held",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "壓制或阻礙某人"
+    },
+    {
+      "id": "phrasal-verb-127-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 37,
+      "prompt": "My parents have never approved of wasting food.",
+      "promptZh": "我的父母從不贊成浪費食物。",
+      "starter": "My",
+      "answer": "My parents have never held with wasting food.",
+      "answerZh": "我的父母從不贊成浪費食物。",
+      "highlight": "held with",
+      "targetForm": "hold with something",
+      "targetMeaningZh": "贊成某種做法"
+    },
+    {
+      "id": "phrasal-verb-127-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 37,
+      "prompt": "The child is extending both hands towards the puppy.",
+      "promptZh": "那個孩子正向小狗伸出雙手。",
+      "starter": "The",
+      "answer": "The child is holding both hands out towards the puppy.",
+      "answerZh": "那個孩子正向小狗伸出雙手。",
+      "highlight": "holding",
+      "targetForm": "hold something out",
+      "targetMeaningZh": "把某物伸出去"
+    },
+    {
+      "id": "phrasal-verb-127-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 37,
+      "prompt": "We will make the company follow the agreement.",
+      "promptZh": "我們會要求公司遵守協議。",
+      "starter": "We",
+      "answer": "We will hold the company to the agreement.",
+      "answerZh": "我們會要求公司遵守協議。",
+      "highlight": "hold",
+      "targetForm": "hold somebody to something",
+      "targetMeaningZh": "要求遵守協議"
+    },
+    {
+      "id": "phrasal-verb-127-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 37,
+      "prompt": "We hope the snow will not start before the buses arrive.",
+      "promptZh": "我們希望雪在巴士到達前不要下起來。",
+      "starter": "We",
+      "answer": "We hope the snow will hold off until the buses arrive.",
+      "answerZh": "我們希望雪在巴士到達前不要下起來。",
+      "highlight": "hold off until",
+      "targetForm": "hold off",
+      "targetMeaningZh": "雨、雪等暫時不開始"
+    },
+    {
+      "id": "phrasal-verb-127-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 37,
+      "prompt": "These strong straps are keeping the table together.",
+      "promptZh": "這些結實的帶子使桌子保持穩固完整。",
+      "starter": "These",
+      "answer": "These strong straps are holding the table together.",
+      "answerZh": "這些結實的帶子使桌子保持穩固完整。",
+      "highlight": "holding",
+      "targetForm": "hold something together",
+      "targetMeaningZh": "使某物保持完整"
+    },
+    {
+      "id": "phrasal-verb-127-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 38,
+      "prompt": "I think you are keeping part of the story from us.",
+      "promptZh": "我認為你仍有部分事情瞞着我們。",
+      "starter": "I",
+      "answer": "I think you are holding out on us.",
+      "answerZh": "我認為你仍有部分事情瞞着我們。",
+      "highlight": "holding out on",
+      "targetForm": "hold out on somebody",
+      "targetMeaningZh": "對某人隱瞞資料"
+    },
+    {
+      "id": "phrasal-verb-127-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 38,
+      "prompt": "Can these bags stop the floodwater until help arrives?",
+      "promptZh": "這些袋子能否阻擋洪水,直到救援到達?",
+      "starter": "Can",
+      "answer": "Can these bags hold the floodwater off until help arrives?",
+      "answerZh": "這些袋子能否阻擋洪水,直到救援到達?",
+      "highlight": "hold",
+      "targetForm": "hold something off",
+      "targetMeaningZh": "暫時阻擋某物"
+    },
+    {
+      "id": "phrasal-verb-127-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 38,
+      "prompt": "I do not want them to use this debt to control me later.",
+      "promptZh": "我不希望他們日後利用這筆債來控制我。",
+      "starter": "I",
+      "answer": "I do not want them to hold this debt over me later.",
+      "answerZh": "我不希望他們日後利用這筆債來控制我。",
+      "highlight": "hold",
+      "targetForm": "hold something over somebody",
+      "targetMeaningZh": "利用某事向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-127-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 38,
+      "prompt": "Are you still blaming me for what happened last year?",
+      "promptZh": "你是否仍因去年發生的事而怪責我?",
+      "starter": "Are",
+      "answer": "Are you still holding what happened last year against me?",
+      "answerZh": "你是否仍因去年發生的事而怪責我?",
+      "highlight": "holding",
+      "targetForm": "hold something against somebody",
+      "targetMeaningZh": "因某事怪責某人"
+    },
+    {
+      "id": "phrasal-verb-127-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 38,
+      "prompt": "The forecast gives us no reason to expect warm weather this weekend.",
+      "promptZh": "天氣預報顯示本週末沒有暖和天氣的希望。",
+      "starter": "The",
+      "answer": "The forecast holds out no hope of warm weather this weekend.",
+      "answerZh": "天氣預報顯示本週末沒有暖和天氣的希望。",
+      "highlight": "holds out",
+      "targetForm": "hold out hope",
+      "targetMeaningZh": "給予希望或可能性"
+    },
+    {
+      "id": "phrasal-verb-127-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 38,
+      "prompt": "We used chairs against the door to stop them from entering.",
+      "promptZh": "我們用椅子頂住門,阻止他們進入。",
+      "starter": "We",
+      "answer": "We used chairs against the door to hold them off.",
+      "answerZh": "我們用椅子頂住門,阻止他們進入。",
+      "highlight": "hold",
+      "targetForm": "hold somebody off",
+      "targetMeaningZh": "阻止某人接近"
+    },
+    {
+      "id": "phrasal-verb-127-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 39,
+      "prompt": "These notes may be useful later, so please keep them.",
+      "promptZh": "這些筆記日後可能有用,所以請保留它們。",
+      "starter": "These",
+      "answer": "These notes may be useful later, so please hold on to them.",
+      "answerZh": "這些筆記日後可能有用,所以請保留它們。",
+      "highlight": "hold on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-127-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 39,
+      "prompt": "She knew his secret and kept using it to make him obey.",
+      "promptZh": "她知道他的秘密,並一直利用它迫使他服從。",
+      "starter": "She",
+      "answer": "She knew his secret and kept holding it over him.",
+      "answerZh": "她知道他的秘密,並一直利用它迫使他服從。",
+      "highlight": "holding",
+      "targetForm": "hold something over somebody",
+      "targetMeaningZh": "利用某事控制某人"
+    },
+    {
+      "id": "phrasal-verb-127-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 39,
+      "prompt": "Dark clouds covered the sky, but the storm did not begin until the picnic ended.",
+      "promptZh": "天空烏雲密布,但暴風雨一直到野餐結束後才開始。",
+      "starter": "Dark",
+      "answer": "Dark clouds covered the sky, but the storm held off until the picnic ended.",
+      "answerZh": "天空烏雲密布,但暴風雨一直到野餐結束後才開始。",
+      "highlight": "held off",
+      "targetForm": "hold off",
+      "targetMeaningZh": "暴風雨暫時不開始"
+    },
+    {
+      "id": "phrasal-verb-127-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 39,
+      "prompt": "The strap is loose, so it cannot keep the bag’s lid attached.",
+      "promptZh": "帶子鬆了,所以無法使袋蓋保持固定。",
+      "starter": "The",
+      "answer": "The strap is loose, so it cannot hold the bag’s lid on.",
+      "answerZh": "帶子鬆了,所以無法使袋蓋保持固定。",
+      "highlight": "hold",
+      "targetForm": "hold something on",
+      "targetMeaningZh": "使某物保持附着"
+    },
+    {
+      "id": "phrasal-verb-127-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 39,
+      "prompt": "He promised to cook dinner, and his children made sure he kept his word.",
+      "promptZh": "他答應煮晚飯,而孩子們確保他信守承諾。",
+      "starter": "He",
+      "answer": "He promised to cook dinner, and his children held him to his word.",
+      "answerZh": "他答應煮晚飯,而孩子們確保他信守承諾。",
+      "highlight": "held him to",
+      "targetForm": "hold somebody to their word",
+      "targetMeaningZh": "要求某人信守承諾"
+    },
+    {
+      "id": "phrasal-verb-127-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 39,
+      "prompt": "The team had many arguments, but it remained united.",
+      "promptZh": "團隊雖有許多爭執,但仍保持團結。",
+      "starter": "The",
+      "answer": "The team had many arguments, but it held together.",
+      "answerZh": "團隊雖有許多爭執,但仍保持團結。",
+      "highlight": "held together",
+      "targetForm": "hold together",
+      "targetMeaningZh": "保持團結"
+    },
+    {
+      "id": "phrasal-verb-127-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 40,
+      "prompt": "We could accept this room now, but we are waiting for one with a sea view.",
+      "promptZh": "我們現在可以接受這個房間,但仍在等待一個可以看到海景的房間。",
+      "starter": "We",
+      "answer": "We could accept this room now, but we are holding out for one with a sea view.",
+      "answerZh": "我們現在可以接受這個房間,但仍在等待一個可以看到海景的房間。",
+      "highlight": "holding out",
+      "targetForm": "hold out for something",
+      "targetMeaningZh": "等待更好的選擇"
+    },
+    {
+      "id": "phrasal-verb-127-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 40,
+      "prompt": "Once Mr Chan began talking at length about school rules, he continued for nearly an hour.",
+      "promptZh": "陳先生一開始滔滔不絕地談論校規,便說了接近一小時。",
+      "starter": "Once",
+      "answer": "Once Mr Chan began holding forth on school rules, he continued for nearly an hour.",
+      "answerZh": "陳先生一開始滔滔不絕地談論校規,便說了接近一小時。",
+      "highlight": "holding forth on",
+      "targetForm": "hold forth on something",
+      "targetMeaningZh": "滔滔不絕地談論"
+    },
+    {
+      "id": "phrasal-verb-127-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 40,
+      "prompt": "His parents always used his older brother as the example he should follow.",
+      "promptZh": "他的父母總是把哥哥當作他應該效法的榜樣。",
+      "starter": "His",
+      "answer": "His parents always held his older brother up as the example he should follow.",
+      "answerZh": "他的父母總是把哥哥當作他應該效法的榜樣。",
+      "highlight": "held",
+      "targetForm": "hold somebody up as something",
+      "targetMeaningZh": "把某人當作榜樣"
+    },
+    {
+      "id": "phrasal-verb-127-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 40,
+      "prompt": "The road looked damaged, but it stayed usable after the heavy rain.",
+      "promptZh": "道路看來受損,但大雨後仍可使用。",
+      "starter": "The",
+      "answer": "The road looked damaged, but it held up after the heavy rain.",
+      "answerZh": "道路看來受損,但大雨後仍可使用。",
+      "highlight": "held up",
+      "targetForm": "hold up",
+      "targetMeaningZh": "在困難下仍維持良好狀態"
+    },
+    {
+      "id": "phrasal-verb-127-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 40,
+      "prompt": "The dog wanted to run towards the ducks, so I kept it beside me.",
+      "promptZh": "那隻狗想跑向鴨子,所以我把它拉住。",
+      "starter": "The",
+      "answer": "The dog wanted to run towards the ducks, so I held it back.",
+      "answerZh": "那隻狗想跑向鴨子,所以我把它拉住。",
+      "highlight": "held",
+      "targetForm": "hold something back",
+      "targetMeaningZh": "阻止某物向前"
+    },
+    {
+      "id": "phrasal-verb-127-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 40,
+      "prompt": "There was not enough time to discuss the last question, so we delayed it.",
+      "promptZh": "沒有足夠時間討論最後一個問題,所以我們把它押後處理。",
+      "starter": "There",
+      "answer": "There was not enough time to discuss the last question, so we held it over.",
+      "answerZh": "沒有足夠時間討論最後一個問題,所以我們把它押後處理。",
+      "highlight": "held",
+      "targetForm": "hold something over",
+      "targetMeaningZh": "把事情押後處理"
+    },
+    {
+      "id": "phrasal-verb-127-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 41,
+      "prompt": "The ride became faster, so I gripped my brother’s arm tightly.",
+      "promptZh": "機動遊戲加速了,所以我緊緊抓住哥哥的手臂。",
+      "starter": "The",
+      "answer": "The ride became faster, so I held on to my brother’s arm.",
+      "answerZh": "機動遊戲加速了,所以我緊緊抓住哥哥的手臂。",
+      "highlight": "held on to",
+      "targetForm": "hold on to somebody",
+      "targetMeaningZh": "抓緊某人"
+    },
+    {
+      "id": "phrasal-verb-127-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 41,
+      "prompt": "She wanted to study, but her family kept her from moving forward.",
+      "promptZh": "她想繼續學習,但家人一直阻礙她向前發展。",
+      "starter": "She",
+      "answer": "She wanted to study, but her family held her down.",
+      "answerZh": "她想繼續學習,但家人一直阻礙她向前發展。",
+      "highlight": "held",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "阻礙某人發展"
+    },
+    {
+      "id": "phrasal-verb-127-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 41,
+      "prompt": "Even under pressure, he refused to change his promise.",
+      "promptZh": "即使受到壓力,他仍堅守承諾。",
+      "starter": "Even",
+      "answer": "Even under pressure, he held to his promise.",
+      "answerZh": "即使受到壓力,他仍堅守承諾。",
+      "highlight": "held",
+      "targetForm": "hold to something",
+      "targetMeaningZh": "堅守承諾"
+    },
+    {
+      "id": "phrasal-verb-127-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 41,
+      "prompt": "The teacher showed us the card by raising it where everyone could see.",
+      "promptZh": "老師把卡片舉到所有人都看得見的位置。",
+      "starter": "The",
+      "answer": "The teacher held it up where everyone could see.",
+      "answerZh": "老師把卡片舉到所有人都看得見的位置。",
+      "highlight": "held",
+      "targetForm": "hold something up",
+      "targetMeaningZh": "舉起某物"
+    },
+    {
+      "id": "phrasal-verb-127-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 41,
+      "prompt": "They knew the children were hungry, so they served plenty of sandwiches.",
+      "promptZh": "他們知道孩子們肚餓,所以準備了大量三文治。",
+      "starter": "They",
+      "answer": "They knew the children were hungry, so they did not hold back on the sandwiches.",
+      "answerZh": "他們知道孩子們肚餓,所以準備了大量三文治。",
+      "highlight": "did not hold back on the",
+      "targetForm": "hold back on something",
+      "targetMeaningZh": "在某方面不吝嗇"
+    },
+    {
+      "id": "phrasal-verb-127-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 41,
+      "prompt": "I extended the ticket across the desk for him to take.",
+      "promptZh": "我把票伸過桌面,讓他接過去。",
+      "starter": "I",
+      "answer": "I held it out across the desk for him to take.",
+      "answerZh": "我把票伸過桌面,讓他接過去。",
+      "highlight": "held it out",
+      "targetForm": "hold something out",
+      "targetMeaningZh": "把某物伸出去"
+    },
+    {
+      "id": "phrasal-verb-127-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 42,
+      "prompt": "Do you approve of children using phones during dinner?",
+      "promptZh": "你贊成孩子在晚飯期間使用電話嗎?",
+      "starter": "Do",
+      "answer": "Do you hold with children using phones during dinner?",
+      "answerZh": "你贊成孩子在晚飯期間使用電話嗎?",
+      "highlight": "hold with",
+      "targetForm": "hold with something",
+      "targetMeaningZh": "贊成某種做法"
+    },
+    {
+      "id": "phrasal-verb-127-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 42,
+      "prompt": "We can stay here only while our money continues to last.",
+      "promptZh": "我們只能在金錢仍足夠時留在這裏。",
+      "starter": "We",
+      "answer": "We can stay here only while our money holds out.",
+      "answerZh": "我們只能在金錢仍足夠時留在這裏。",
+      "highlight": "holds out",
+      "targetForm": "hold out",
+      "targetMeaningZh": "繼續維持"
+    },
+    {
+      "id": "phrasal-verb-127-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "The nurse pressed it against the small cut for a minute.",
+      "promptZh": "護士把它按在小傷口上一分鐘。",
+      "starter": "The",
+      "answer": "The nurse held it to the small cut for a minute.",
+      "answerZh": "護士把它按在小傷口上一分鐘。",
+      "highlight": "held",
+      "targetForm": "hold something to something",
+      "targetMeaningZh": "把某物按在另一物上"
+    },
+    {
+      "id": "phrasal-verb-127-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "They knew where the keys were, but they did not tell the manager.",
+      "promptZh": "他們知道鎖匙在哪裏,卻沒有告訴經理。",
+      "starter": "They",
+      "answer": "They knew where the keys were, but they held out on the manager.",
+      "answerZh": "他們知道鎖匙在哪裏,卻沒有告訴經理。",
+      "highlight": "held out on",
+      "targetForm": "hold out on somebody",
+      "targetMeaningZh": "對某人隱瞞資料"
+    },
+    {
+      "id": "phrasal-verb-127-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "She forgot my birthday, but I did not stay angry with her about it.",
+      "promptZh": "她忘記了我的生日,但我沒有因此對她心存芥蒂。",
+      "starter": "She",
+      "answer": "She forgot my birthday, but I did not hold it against her.",
+      "answerZh": "她忘記了我的生日,但我沒有因此對她心存芥蒂。",
+      "highlight": "hold it against",
+      "targetForm": "hold something against somebody",
+      "targetMeaningZh": "因某事怪責某人"
+    },
+    {
+      "id": "phrasal-verb-127-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 42,
+      "prompt": "The wind was strong, so she used both hands to keep the map flat.",
+      "promptZh": "風很大,所以她用雙手壓住地圖。",
+      "starter": "The",
+      "answer": "The wind was strong, so she used both hands to hold the map down.",
+      "answerZh": "風很大,所以她用雙手壓住地圖。",
+      "highlight": "hold",
+      "targetForm": "hold something down",
+      "targetMeaningZh": "把某物壓住"
+    },
+    {
+      "id": "phrasal-verb-127-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 43,
+      "prompt": "The glue was weak, so one strip of tape was keeping the broken cover in one piece.",
+      "promptZh": "膠水黏力不足,所以一條膠紙把破裂的外蓋固定在一起。",
+      "starter": "The",
+      "answer": "The glue was weak, so one strip of tape was holding the broken cover together.",
+      "answerZh": "膠水黏力不足,所以一條膠紙把破裂的外蓋固定在一起。",
+      "highlight": "holding",
+      "targetForm": "hold something together",
+      "targetMeaningZh": "使某物保持完整"
+    },
+    {
+      "id": "phrasal-verb-127-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 43,
+      "prompt": "Rosa said she had explained everything, but her friends believed she was still hiding something from them.",
+      "promptZh": "羅莎說自己已解釋一切,但朋友們相信她仍有事情瞞着他們。",
+      "starter": "Rosa",
+      "answer": "Rosa said she had explained everything, but her friends believed she was still holding out on them.",
+      "answerZh": "羅莎說自己已解釋一切,但朋友們相信她仍有事情瞞着他們。",
+      "highlight": "holding out on",
+      "targetForm": "hold out on somebody",
+      "targetMeaningZh": "對某人有所隱瞞"
+    },
+    {
+      "id": "phrasal-verb-127-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 43,
+      "prompt": "At the airport, a driver raised a sign with our names on it.",
+      "promptZh": "在機場,一名司機舉起寫有我們名字的牌。",
+      "starter": "At",
+      "answer": "At the airport, a driver held up a sign with our names on it.",
+      "answerZh": "在機場,一名司機舉起寫有我們名字的牌。",
+      "highlight": "held up",
+      "targetForm": "hold something up",
+      "targetMeaningZh": "舉起或展示某物"
+    },
+    {
+      "id": "phrasal-verb-127-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 43,
+      "prompt": "Although the party was small, the family used plenty of lights and music.",
+      "promptZh": "雖然派對規模不大,但那家人用了大量燈飾和音樂。",
+      "starter": "Although",
+      "answer": "Although the party was small, the family did not hold back on the lights and music.",
+      "answerZh": "雖然派對規模不大,但那家人用了大量燈飾和音樂。",
+      "highlight": "did not hold back on the",
+      "targetForm": "hold back on something",
+      "targetMeaningZh": "在某方面不吝嗇"
+    },
+    {
+      "id": "phrasal-verb-127-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 43,
+      "prompt": "Because two members were absent, the club decided that the complaint should be discussed at the next meeting.",
+      "promptZh": "由於兩名成員缺席,會方決定把投訴押後至下次會議討論。",
+      "starter": "Because",
+      "answer": "Because two members were absent, the club decided that the complaint should be held over until the next meeting.",
+      "answerZh": "由於兩名成員缺席,會方決定把投訴押後至下次會議討論。",
+      "highlight": "held over until",
+      "targetForm": "hold something over",
+      "targetMeaningZh": "把事情押後處理"
+    },
+    {
+      "id": "phrasal-verb-127-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 44,
+      "prompt": "The injured player was moving wildly, and three people had to keep him on the ground.",
+      "promptZh": "受傷的球員不停掙扎,三個人不得不把他按在地上。",
+      "starter": "The",
+      "answer": "The injured player was moving wildly, and three people had to hold him down.",
+      "answerZh": "受傷的球員不停掙扎,三個人不得不把他按在地上。",
+      "highlight": "hold",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "把某人按住"
+    },
+    {
+      "id": "phrasal-verb-127-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 44,
+      "prompt": "The outdoor concert can continue as long as the heavy rain does not begin.",
+      "promptZh": "只要大雨尚未開始,戶外音樂會便可以繼續。",
+      "starter": "The",
+      "answer": "The outdoor concert can continue as long as the heavy rain holds off.",
+      "answerZh": "只要大雨尚未開始,戶外音樂會便可以繼續。",
+      "highlight": "holds off",
+      "targetForm": "hold off",
+      "targetMeaningZh": "雨暫時不開始"
+    },
+    {
+      "id": "phrasal-verb-127-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 44,
+      "prompt": "The manager said that one late arrival would not affect how he judged the new worker.",
+      "promptZh": "經理說,他不會因一次遲到而對那名新員工有成見。",
+      "starter": "The",
+      "answer": "The manager said that he would not hold one late arrival against the new worker.",
+      "answerZh": "經理說,他不會因一次遲到而對那名新員工有成見。",
+      "highlight": "he would not hold",
+      "targetForm": "hold something against somebody",
+      "targetMeaningZh": "因某事對某人有成見"
+    },
+    {
+      "id": "phrasal-verb-127-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 44,
+      "prompt": "To check the colour, the shopper placed the blue shirt against the black trousers.",
+      "promptZh": "為了比較顏色,顧客把藍色襯衫貼近黑色長褲。",
+      "starter": "To",
+      "answer": "To check the colour, the shopper held the blue shirt to the black trousers.",
+      "answerZh": "為了比較顏色,顧客把藍色襯衫貼近黑色長褲。",
+      "highlight": "held",
+      "targetForm": "hold something to something",
+      "targetMeaningZh": "把某物貼近另一物"
+    },
+    {
+      "id": "phrasal-verb-127-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 44,
+      "prompt": "The rescue team had enough water to last until help arrived.",
+      "promptZh": "救援隊的食水足夠維持到支援到達。",
+      "starter": "The",
+      "answer": "The rescue team’s water held out until help arrived.",
+      "answerZh": "救援隊的食水足夠維持到支援到達。",
+      "highlight": "team’s",
+      "targetForm": "hold out",
+      "targetMeaningZh": "維持到某個時候"
+    },
+    {
+      "id": "phrasal-verb-127-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 44,
+      "prompt": "The coach accepted hard training, but he did not approve of shouting at young players.",
+      "promptZh": "教練接受嚴格訓練,但不贊成向年輕球員大聲責罵。",
+      "starter": "The",
+      "answer": "The coach accepted hard training, but he did not hold with shouting at young players.",
+      "answerZh": "教練接受嚴格訓練,但不贊成向年輕球員大聲責罵。",
+      "highlight": "hold with",
+      "targetForm": "hold with something",
+      "targetMeaningZh": "贊成某種做法"
+    },
+    {
+      "id": "phrasal-verb-127-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 45,
+      "prompt": "The coach said every player would get a chance, and the team made sure he kept that promise.",
+      "promptZh": "教練說每名球員都會獲得機會,而球隊要求他履行這項承諾。",
+      "starter": "The",
+      "answer": "The coach said every player would get a chance, and the team held him to that promise.",
+      "answerZh": "教練說每名球員都會獲得機會,而球隊要求他履行這項承諾。",
+      "highlight": "held him to",
+      "targetForm": "hold somebody to something",
+      "targetMeaningZh": "要求某人履行承諾"
+    },
+    {
+      "id": "phrasal-verb-127-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 45,
+      "prompt": "The shop offered to replace the phone, but asked the customer to keep the box.",
+      "promptZh": "店舖願意更換手機,但要求顧客保留盒子。",
+      "starter": "The",
+      "answer": "The shop offered to replace the phone, but asked the customer to hold onto the box.",
+      "answerZh": "店舖願意更換手機,但要求顧客保留盒子。",
+      "highlight": "hold onto",
+      "targetForm": "hold onto something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-127-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 45,
+      "prompt": "The coach did not simply praise the captain; he presented her behaviour as the standard for the whole team.",
+      "promptZh": "教練不只是稱讚隊長,還把她的行為視為全隊的標準。",
+      "starter": "The",
+      "answer": "The coach did not simply praise the captain; he held her behaviour up as the standard for the whole team.",
+      "answerZh": "教練不只是稱讚隊長,還把她的行為視為全隊的標準。",
+      "highlight": "held",
+      "targetForm": "hold something up as something",
+      "targetMeaningZh": "把某事物視為標準"
+    },
+    {
+      "id": "phrasal-verb-127-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 45,
+      "prompt": "Without speaking, the woman stretched one hand towards the bus driver for her change.",
+      "promptZh": "那名女子沒有說話,只向巴士司機伸出一隻手,等候找續。",
+      "starter": "Without",
+      "answer": "Without speaking, the woman held one hand out towards the bus driver for her change.",
+      "answerZh": "那名女子沒有說話,只向巴士司機伸出一隻手,等候找續。",
+      "highlight": "held",
+      "targetForm": "hold something out",
+      "targetMeaningZh": "把某物伸出去"
+    },
+    {
+      "id": "phrasal-verb-127-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 45,
+      "prompt": "The player rejected two short contracts and continued waiting for a three-year deal.",
+      "promptZh": "那名球員拒絕了兩份短期合約,繼續等待一份三年合約。",
+      "starter": "The",
+      "answer": "The player held out for a three-year deal.",
+      "answerZh": "那名球員拒絕了兩份短期合約,繼續等待一份三年合約。",
+      "highlight": "held out",
+      "targetForm": "hold out for something",
+      "targetMeaningZh": "等待更好的條件"
+    },
+    {
+      "id": "phrasal-verb-127-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 45,
+      "prompt": "Her confidence remained strong even after two mistakes.",
+      "promptZh": "即使犯了兩次錯誤,她的信心仍然堅定。",
+      "starter": "Her",
+      "answer": "Her confidence held up even after two mistakes.",
+      "answerZh": "即使犯了兩次錯誤,她的信心仍然堅定。",
+      "highlight": "held up",
+      "targetForm": "hold up",
+      "targetMeaningZh": "在困難下仍維持良好狀態"
+    },
+    {
+      "id": "phrasal-verb-127-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 46,
+      "prompt": "During dinner, our neighbour gave a long, confident speech about healthy eating.",
+      "promptZh": "晚飯期間,我們的鄰居滔滔不絕地談論健康飲食。",
+      "starter": "During",
+      "answer": "During dinner, our neighbour held forth about healthy eating.",
+      "answerZh": "晚飯期間,我們的鄰居滔滔不絕地談論健康飲食。",
+      "highlight": "held forth",
+      "targetForm": "hold forth about something",
+      "targetMeaningZh": "滔滔不絕地談論"
+    },
+    {
+      "id": "phrasal-verb-127-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 46,
+      "prompt": "The defenders stopped the other team from scoring until half-time.",
+      "promptZh": "守方阻止對方得分,直至半場。",
+      "starter": "The",
+      "answer": "The defenders held the other team off until half-time.",
+      "answerZh": "守方阻止對方得分,直至半場。",
+      "highlight": "held",
+      "targetForm": "hold somebody off",
+      "targetMeaningZh": "阻止對方接近或成功"
+    },
+    {
+      "id": "phrasal-verb-127-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 46,
+      "prompt": "The group changed the date, but it continued to follow the rule that every member could speak.",
+      "promptZh": "小組改了日期,但仍堅守每名成員都可以發言的規則。",
+      "starter": "The",
+      "answer": "The group changed the date, but it held to the rule that every member could speak.",
+      "answerZh": "小組改了日期,但仍堅守每名成員都可以發言的規則。",
+      "highlight": "held",
+      "targetForm": "hold to something",
+      "targetMeaningZh": "堅守規則"
+    },
+    {
+      "id": "phrasal-verb-127-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 46,
+      "prompt": "Although the first test failed, the second result offered the possibility of a solution.",
+      "promptZh": "雖然第一次測試失敗,但第二個結果帶來了解決問題的可能性。",
+      "starter": "Although",
+      "answer": "Although the first test failed, the second result held out the possibility of a solution.",
+      "answerZh": "雖然第一次測試失敗,但第二個結果帶來了解決問題的可能性。",
+      "highlight": "held out",
+      "targetForm": "hold out the possibility",
+      "targetMeaningZh": "帶來某種可能性"
+    },
+    {
+      "id": "phrasal-verb-127-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 46,
+      "prompt": "Even when the ladder shook, he kept gripping it and did not let go.",
+      "promptZh": "即使梯子搖晃,他仍緊緊抓住,沒有放手。",
+      "starter": "Even",
+      "answer": "Even when the ladder shook, he held on and did not let go.",
+      "answerZh": "即使梯子搖晃,他仍緊緊抓住,沒有放手。",
+      "highlight": "held on",
+      "targetForm": "hold on",
+      "targetMeaningZh": "抓緊;不要放手"
+    },
+    {
+      "id": "phrasal-verb-127-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 46,
+      "prompt": "The costume looked simple, but hidden pins kept the large wings attached.",
+      "promptZh": "服裝看來簡單,但隱藏的別針使那對大翅膀保持固定。",
+      "starter": "The",
+      "answer": "The costume looked simple, but hidden pins held the large wings on.",
+      "answerZh": "服裝看來簡單,但隱藏的別針使那對大翅膀保持固定。",
+      "highlight": "held",
+      "targetForm": "hold something on",
+      "targetMeaningZh": "使某物保持附着"
+    },
+    {
+      "id": "phrasal-verb-127-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 47,
+      "prompt": "She tried not to cry, but she could no longer stop the tears.",
+      "promptZh": "她嘗試忍住不哭,但再也無法抑制淚水。",
+      "starter": "She",
+      "answer": "She tried not to cry, but she could no longer hold back the tears.",
+      "answerZh": "她嘗試忍住不哭,但再也無法抑制淚水。",
+      "highlight": "hold back",
+      "targetForm": "hold something back",
+      "targetMeaningZh": "抑制某物"
+    },
+    {
+      "id": "phrasal-verb-127-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 47,
+      "prompt": "The manager used the threat of losing his job to control him.",
+      "promptZh": "經理以失去工作的威脅來控制他。",
+      "starter": "The",
+      "answer": "The manager held the threat of losing his job over him.",
+      "answerZh": "經理以失去工作的威脅來控制他。",
+      "highlight": "held",
+      "targetForm": "hold something over somebody",
+      "targetMeaningZh": "利用某事控制某人"
+    },
+    {
+      "id": "phrasal-verb-127-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 47,
+      "prompt": "The club said it supported young players, yet its old rules continued to limit them.",
+      "promptZh": "球會聲稱支持年輕球員,但舊規則仍繼續限制他們的發展。",
+      "starter": "The",
+      "answer": "The club said it supported young players, yet its old rules continued to hold them down.",
+      "answerZh": "球會聲稱支持年輕球員,但舊規則仍繼續限制他們的發展。",
+      "highlight": "hold",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "壓制或限制某人"
+    },
+    {
+      "id": "phrasal-verb-127-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 47,
+      "prompt": "Because the project finished early and under budget, other teams began to present it as the model they should copy.",
+      "promptZh": "由於項目提早完成,而且開支低於預算,其他團隊開始把它視為應該仿效的典範。",
+      "starter": "Because",
+      "answer": "Because the project finished early and under budget, other teams began to hold it up as the model they should copy.",
+      "answerZh": "由於項目提早完成,而且開支低於預算,其他團隊開始把它視為應該仿效的典範。",
+      "highlight": "hold",
+      "targetForm": "hold something up as something",
+      "targetMeaningZh": "把某事物當作典範"
+    },
+    {
+      "id": "phrasal-verb-127-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 47,
+      "prompt": "Their strength was almost gone, but it lasted until they reached the village.",
+      "promptZh": "他們幾乎耗盡體力,但仍支撐到抵達村莊。",
+      "starter": "Their",
+      "answer": "Their strength was almost gone, but it held out until they reached the village.",
+      "answerZh": "他們幾乎耗盡體力,但仍支撐到抵達村莊。",
+      "highlight": "held out",
+      "targetForm": "hold out",
+      "targetMeaningZh": "支撐或維持下去"
+    },
+    {
+      "id": "phrasal-verb-127-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 47,
+      "prompt": "The easier choice would have saved time, yet the judge continued to follow the same fair standard.",
+      "promptZh": "較容易的選擇本可節省時間,但法官仍堅守同一個公平標準。",
+      "starter": "The",
+      "answer": "The easier choice would have saved time, yet the judge held to the same fair standard.",
+      "answerZh": "較容易的選擇本可節省時間,但法官仍堅守同一個公平標準。",
+      "highlight": "held",
+      "targetForm": "hold to something",
+      "targetMeaningZh": "堅守標準"
+    },
+    {
+      "id": "phrasal-verb-127-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 48,
+      "prompt": "No single law caused the problem; several unfair practices worked together to keep the whole community in a weak position.",
+      "promptZh": "問題並非由單一法例造成;多種不公平做法共同壓制整個社區,使其處於弱勢。",
+      "starter": "No",
+      "answer": "No single law caused the problem; several unfair practices worked together to hold the whole community down.",
+      "answerZh": "問題並非由單一法例造成;多種不公平做法共同壓制整個社區,使其處於弱勢。",
+      "highlight": "hold",
+      "targetForm": "hold somebody down",
+      "targetMeaningZh": "壓制某人或群體"
+    },
+    {
+      "id": "phrasal-verb-127-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 48,
+      "prompt": "As the train turned sharply, Ava grabbed the strap and kept her grip until it slowed down.",
+      "promptZh": "火車急轉彎時,艾娃抓緊吊環,直到火車減速才放手。",
+      "starter": "As",
+      "answer": "As the train turned sharply, Ava held on to the strap until it slowed down.",
+      "answerZh": "火車急轉彎時,艾娃抓緊吊環,直到火車減速才放手。",
+      "highlight": "held on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "抓緊某物"
+    },
+    {
+      "id": "phrasal-verb-127-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 48,
+      "prompt": "The manager wanted a quick answer, but the board postponed the matter until it had read the full report.",
+      "promptZh": "經理希望迅速得到答案,但董事會把事情押後,直至看完整份報告。",
+      "starter": "The",
+      "answer": "The manager wanted a quick answer, but the board held the matter over until it had read the full report.",
+      "answerZh": "經理希望迅速得到答案,但董事會把事情押後,直至看完整份報告。",
+      "highlight": "held",
+      "targetForm": "hold something over",
+      "targetMeaningZh": "把事情押後處理"
+    },
+    {
+      "id": "phrasal-verb-127-q111",
+      "number": 111,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 48,
+      "prompt": "Although the rule was popular with some parents, the head teacher said she could not approve of punishing the whole class for one student’s mistake.",
+      "promptZh": "雖然部分家長支持這項規則,但校長表示,她不能贊成因一名學生犯錯而懲罰全班。",
+      "starter": "Although",
+      "answer": "Although the rule was popular with some parents, the head teacher said she could not hold with punishing the whole class for one student’s mistake.",
+      "answerZh": "雖然部分家長支持這項規則,但校長表示,她不能贊成因一名學生犯錯而懲罰全班。",
+      "highlight": "hold with",
+      "targetForm": "hold with something",
+      "targetMeaningZh": "贊成某種做法"
+    },
+    {
+      "id": "phrasal-verb-127-q112",
+      "number": 112,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 48,
+      "prompt": "The small group knew it could not win, but it delayed the attackers long enough for the children to escape.",
+      "promptZh": "那小隊知道自己無法取勝,但仍阻擋攻擊者足夠長的時間,讓孩子們逃走。",
+      "starter": "The",
+      "answer": "The small group knew it could not win, but it held the attackers off long enough for the children to escape.",
+      "answerZh": "那小隊知道自己無法取勝,但仍阻擋攻擊者足夠長的時間,讓孩子們逃走。",
+      "highlight": "held",
+      "targetForm": "hold somebody off",
+      "targetMeaningZh": "暫時阻擋某人"
+    },
+    {
+      "id": "phrasal-verb-127-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 49,
+      "prompt": "When one small piece broke, nothing remained to keep the wheel attached to the toy car.",
+      "promptZh": "一個小零件斷裂後,便沒有東西可以把輪子固定在玩具車上。",
+      "starter": "When",
+      "answer": "When one small piece broke, nothing remained to hold the wheel on.",
+      "answerZh": "一個小零件斷裂後,便沒有東西可以把輪子固定在玩具車上。",
+      "highlight": "hold",
+      "targetForm": "hold something on",
+      "targetMeaningZh": "使某物保持附着"
+    },
+    {
+      "id": "phrasal-verb-127-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 49,
+      "prompt": "The hotel wanted the wedding meal to feel special, so it provided generous amounts of every dish.",
+      "promptZh": "酒店希望婚宴顯得特別,因此每道菜都準備得十分豐富。",
+      "starter": "The",
+      "answer": "The hotel wanted the wedding meal to feel special, so it did not hold back on any of the dishes.",
+      "answerZh": "酒店希望婚宴顯得特別,因此每道菜都準備得十分豐富。",
+      "highlight": "did not hold back on any",
+      "targetForm": "hold back on something",
+      "targetMeaningZh": "在某方面不吝嗇"
+    },
+    {
+      "id": "phrasal-verb-127-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 49,
+      "prompt": "Although most buyers accepted the discount, Nina waited because she wanted a much lower price.",
+      "promptZh": "雖然大部分買家接受了折扣,但妮娜仍繼續等待,因為她想要低得多的價格。",
+      "starter": "Although",
+      "answer": "Although most buyers accepted the discount, Nina held out for a much lower price.",
+      "answerZh": "雖然大部分買家接受了折扣,但妮娜仍繼續等待,因為她想要低得多的價格。",
+      "highlight": "held out for",
+      "targetForm": "hold out for something",
+      "targetMeaningZh": "等待更好的條件"
+    },
+    {
+      "id": "phrasal-verb-127-q116",
+      "number": 116,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 49,
+      "prompt": "The small business faced higher costs and fewer customers, but its sales remained surprisingly strong.",
+      "promptZh": "這間小企業面對成本上升和顧客減少,但銷售仍出乎意料地強勁。",
+      "starter": "The",
+      "answer": "The small business faced higher costs and fewer customers, but its sales held up surprisingly well.",
+      "answerZh": "這間小企業面對成本上升和顧客減少,但銷售仍出乎意料地強勁。",
+      "highlight": "held up",
+      "targetForm": "hold up",
+      "targetMeaningZh": "在困難下仍維持良好狀態"
+    },
+    {
+      "id": "phrasal-verb-127-q117",
+      "number": 117,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 49,
+      "prompt": "Lena admitted the truth because she did not want her cousin to keep using the secret as power over her.",
+      "promptZh": "莉娜承認了真相,因為她不想表親繼續利用那個秘密來控制她。",
+      "starter": "Lena",
+      "answer": "Lena admitted the truth because she did not want her cousin to keep holding the secret over her.",
+      "answerZh": "莉娜承認了真相,因為她不想表親繼續利用那個秘密來控制她。",
+      "highlight": "holding",
+      "targetForm": "hold something over somebody",
+      "targetMeaningZh": "利用某事向某人施壓"
+    },
+    {
+      "id": "phrasal-verb-127-q118",
+      "number": 118,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 49,
+      "prompt": "The team could not solve the problem because one member kept useful details secret from everyone else.",
+      "promptZh": "團隊無法解決問題,因為其中一名成員向其他人隱瞞了有用的細節。",
+      "starter": "The",
+      "answer": "The team could not solve the problem because one member held out on everyone else.",
+      "answerZh": "團隊無法解決問題,因為其中一名成員向其他人隱瞞了有用的細節。",
+      "highlight": "held out on",
+      "targetForm": "hold out on somebody",
+      "targetMeaningZh": "對某人隱瞞資料"
+    },
+    {
+      "id": "phrasal-verb-127-q119",
+      "number": 119,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 50,
+      "prompt": "Nobody had asked for a speech, but the visitor talked at length about how the town should change.",
+      "promptZh": "沒有人請他發表演說,但那位訪客仍滔滔不絕地談論這個小鎮應如何改變。",
+      "starter": "Nobody",
+      "answer": "Nobody had asked for a speech, but the visitor held forth on how the town should change.",
+      "answerZh": "沒有人請他發表演說,但那位訪客仍滔滔不絕地談論這個小鎮應如何改變。",
+      "highlight": "held forth on",
+      "targetForm": "hold forth on something",
+      "targetMeaningZh": "滔滔不絕地談論"
+    },
+    {
+      "id": "phrasal-verb-127-q120",
+      "number": 120,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 50,
+      "prompt": "When smoke entered the room, everyone pressed a wet towel against their face while leaving.",
+      "promptZh": "煙進入房間時,所有人在離開期間都把濕毛巾按在臉上。",
+      "starter": "When",
+      "answer": "When smoke entered the room, everyone held a wet towel to their face while leaving.",
+      "answerZh": "煙進入房間時,所有人在離開期間都把濕毛巾按在臉上。",
+      "highlight": "held",
+      "targetForm": "hold something to something",
+      "targetMeaningZh": "把某物按在另一物上"
+    },
+    {
+      "id": "phrasal-verb-127-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 50,
+      "prompt": "The hotel promised a full refund, so the guests insisted that it keep its promise.",
+      "promptZh": "酒店承諾全數退款,因此住客要求酒店履行承諾。",
+      "starter": "The",
+      "answer": "The hotel promised a full refund, so the guests held it to its promise.",
+      "answerZh": "酒店承諾全數退款,因此住客要求酒店履行承諾。",
+      "highlight": "held",
+      "targetForm": "hold somebody/something to something",
+      "targetMeaningZh": "要求履行承諾"
+    },
+    {
+      "id": "phrasal-verb-127-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 50,
+      "prompt": "Although the old ticket had no value, Daniel kept it because it reminded him of the trip.",
+      "promptZh": "雖然那張舊票已沒有價值,但丹尼爾仍保留着它,因為它令他想起那次旅程。",
+      "starter": "Although",
+      "answer": "Although the old ticket had no value, Daniel held on to it because it reminded him of the trip.",
+      "answerZh": "雖然那張舊票已沒有價值,但丹尼爾仍保留着它,因為它令他想起那次旅程。",
+      "highlight": "held on to",
+      "targetForm": "hold on to something",
+      "targetMeaningZh": "保留某物"
+    },
+    {
+      "id": "phrasal-verb-127-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 50,
+      "prompt": "The forecast looked poor, yet the rain did not begin until everyone had reached the station.",
+      "promptZh": "天氣預報並不理想,但雨一直到所有人抵達車站後才下起來。",
+      "starter": "The",
+      "answer": "The forecast looked poor, yet the rain held off until everyone had reached the station.",
+      "answerZh": "天氣預報並不理想,但雨一直到所有人抵達車站後才下起來。",
+      "highlight": "held off",
+      "targetForm": "hold off",
+      "targetMeaningZh": "雨暫時不開始"
+    },
+    {
+      "id": "phrasal-verb-127-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 50,
+      "prompt": "As the helicopter landed, everyone pressed the loose covers against the boxes so they would not fly away.",
+      "promptZh": "直升機降落時,所有人都壓住箱子上鬆脫的蓋布,以免它們飛走。",
+      "starter": "As",
+      "answer": "As the helicopter landed, everyone held the loose covers down so they would not fly away.",
+      "answerZh": "直升機降落時,所有人都壓住箱子上鬆脫的蓋布,以免它們飛走。",
+      "highlight": "held",
+      "targetForm": "hold something down",
+      "targetMeaningZh": "把某物壓住"
+    },
+    {
+      "id": "phrasal-verb-127-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 51,
+      "prompt": "The runner reached the finish line and extended the baton so that the next runner could take it.",
+      "promptZh": "跑手到達交接線後,把接力棒伸出去,讓下一名跑手接過。",
+      "starter": "The",
+      "answer": "The runner reached the finish line and held the baton out so that the next runner could take it.",
+      "answerZh": "跑手到達交接線後,把接力棒伸出去,讓下一名跑手接過。",
+      "highlight": "held",
+      "targetForm": "hold something out",
+      "targetMeaningZh": "把某物伸出去"
+    },
+    {
+      "id": "phrasal-verb-127-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 51,
+      "prompt": "Although Ben had refused to help before, Lara decided not to let that past choice affect their new project.",
+      "promptZh": "雖然賓以前曾拒絕幫忙,但拉娜決定不因他過去的選擇而影響這個新項目。",
+      "starter": "Although",
+      "answer": "Although Ben had refused to help before, Lara decided not to hold that past choice against him.",
+      "answerZh": "雖然賓以前曾拒絕幫忙,但拉娜決定不因他過去的選擇而影響這個新項目。",
+      "highlight": "hold",
+      "targetForm": "hold something against somebody",
+      "targetMeaningZh": "因某事怪責某人"
+    },
+    {
+      "id": "phrasal-verb-127-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 51,
+      "prompt": "The group lost two leaders, yet shared work and regular meetings kept everyone united.",
+      "promptZh": "小組失去了兩名領袖,但共同工作和定期會議仍使大家保持團結。",
+      "starter": "The",
+      "answer": "The group lost two leaders, yet shared work and regular meetings held everyone together.",
+      "answerZh": "小組失去了兩名領袖,但共同工作和定期會議仍使大家保持團結。",
+      "highlight": "held",
+      "targetForm": "hold somebody together",
+      "targetMeaningZh": "使人們保持團結"
+    },
+    {
+      "id": "phrasal-verb-127-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 51,
+      "prompt": "When the speaker asked who agreed, several people raised their phones with the message YES on the screens.",
+      "promptZh": "講者問誰同意時,幾個人舉起手機,螢幕上顯示着 YES。",
+      "starter": "When",
+      "answer": "When the speaker asked who agreed, several people held up their phones with the message YES on the screens.",
+      "answerZh": "講者問誰同意時,幾個人舉起手機,螢幕上顯示着 YES。",
+      "highlight": "held up",
+      "targetForm": "hold something up",
+      "targetMeaningZh": "舉起或展示某物"
+    },
+    {
+      "id": "phrasal-verb-127-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 51,
+      "prompt": "The early figures were disappointing, but the final report still gave some reason to believe sales could improve.",
+      "promptZh": "早期數字令人失望,但最終報告仍帶來了一些銷售可以改善的希望。",
+      "starter": "The",
+      "answer": "The early figures were disappointing, but the final report still held out some hope that sales could improve.",
+      "answerZh": "早期數字令人失望,但最終報告仍帶來了一些銷售可以改善的希望。",
+      "highlight": "held out",
+      "targetForm": "hold out hope",
+      "targetMeaningZh": "給予希望"
+    },
+    {
+      "id": "phrasal-verb-127-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 51,
+      "prompt": "Only a thin rope stood between the excited fans and the stage, and the staff struggled to stop them moving closer.",
+      "promptZh": "興奮的歌迷與舞台之間只有一條幼繩,職員努力阻止他們再靠近。",
+      "starter": "Only",
+      "answer": "Only a thin rope stood between the excited fans and the stage, and the staff struggled to hold them back.",
+      "answerZh": "興奮的歌迷與舞台之間只有一條幼繩,職員努力阻止他們再靠近。",
+      "highlight": "hold",
+      "targetForm": "hold somebody back",
+      "targetMeaningZh": "阻止某人向前"
+    }
+  ]
+}

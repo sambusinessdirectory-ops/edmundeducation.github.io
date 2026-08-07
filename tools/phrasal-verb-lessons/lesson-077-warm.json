@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-77",
+  "order": 77,
+  "slug": "warm",
+  "version": "1",
+  "title": "WARM 動詞片語",
+  "titleEn": "Warm",
+  "titleZh": "WARM 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 76 - WARM.pdf",
+    "sourceNumber": 76,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WARM 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WARM."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WARM",
+      "highlight": "WARM"
+    }
+  ],
+  "examples": [
+    {
+      "en": "It took Leo a few days to warm to his new coach.",
+      "zh": "里奧過了幾天才開始喜歡他的新教練。",
+      "highlight": "warm to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The speaker was warming to his theme now.",
+      "zh": "講者這時愈說愈投入自己的主題。",
+      "highlight": "warming to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Come and warm up by the fire. I will warm the soup up.",
+      "zh": "過來在火旁暖暖身吧。我會把湯翻熱。",
+      "highlight": "warm up by the fire. I will warm the soup up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "逐漸開始喜歡某人;對某人產生好感；逐漸開始喜歡、接受或對某事物產生興趣；變暖;暖和起來;使某人或某事物暖起來",
+    "en": "warm to somebody; warm to something; warm up / warm somebody or something up",
+    "naturalZh": [
+      "逐漸開始喜歡某人;對某人產生好感",
+      "逐漸開始喜歡、接受或對某事物產生興趣",
+      "變暖;暖和起來;使某人或某事物暖起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "warm to somebody",
+      "titleZh": "逐漸開始喜歡某人;對某人產生好感",
+      "titleEn": "warm to somebody",
+      "descriptionZh": "逐漸開始喜歡某人;對某人產生好感",
+      "descriptionEn": "It took Leo a few days to warm to his new coach.",
+      "examples": [
+        {
+          "en": "It took Leo a few days to warm to his new coach.",
+          "zh": "里奧過了幾天才開始喜歡他的新教練。",
+          "highlight": "warm to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "warm to something",
+      "titleZh": "逐漸開始喜歡、接受或對某事物產生興趣",
+      "titleEn": "warm to something",
+      "descriptionZh": "逐漸開始喜歡、接受或對某事物產生興趣",
+      "descriptionEn": "The speaker was warming to his theme now.",
+      "examples": [
+        {
+          "en": "The speaker was warming to his theme now.",
+          "zh": "講者這時愈說愈投入自己的主題。",
+          "highlight": "warming to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "warm up / warm somebody or something up",
+      "titleZh": "變暖;暖和起來;使某人或某事物暖起來",
+      "titleEn": "warm up / warm somebody or something up",
+      "descriptionZh": "變暖;暖和起來;使某人或某事物暖起來",
+      "descriptionEn": "Come and warm up by the fire. I will warm the soup up.",
+      "examples": [
+        {
+          "en": "Come and warm up by the fire. I will warm the soup up.",
+          "zh": "過來在火旁暖暖身吧。我會把湯翻熱。",
+          "highlight": "warm up by the fire. I will warm the soup up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WARM 片語動詞的實際用途",
+    "labelEn": "WARM Phrasal Verbs in Use",
+    "summaryZh": "warm to somebody 可以表示你起初未必喜歡或信任某人,但後來逐漸對他產生好感。；warm to something 可以描述你慢慢開始喜歡某項計劃、歌曲、故事、主題或活動。；warm up 可以描述身體、房間、食物或其他事物逐漸變暖。；warm somebody or something up 可以自然地描述把食物、飲品、衣物、房間或感到寒冷的人弄暖。",
+    "summaryEn": "Warm to somebody shows that you did not immediately like or trust a person, but your feelings became more positive over time. Warm to something can describe slowly becoming interested in a plan, song, story, subject or activity. Warm up is useful when talking about your body, a room, food or another thing becoming warmer. Warm somebody or something up lets you talk naturally about heating food, drinks, clothes, rooms or a person who feels cold.",
+    "contextsZh": [
+      "談論對某人的印象如何改變",
+      "表達對構思或活動逐漸產生興趣",
+      "描述寒冷過後逐漸暖和起來",
+      "談論把人或物弄暖"
+    ],
+    "contextsEn": [
+      "Talk about changing first impressions of people",
+      "Show growing interest in ideas and activities",
+      "Describe becoming comfortable after feeling cold",
+      "Talk about making people and things warmer"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WARM 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WARM expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "warm to somebody",
+    "fixedHighlight": "warm to somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 WARM 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WARM expression that gives the same meaning.",
+    "correct": "warm to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 warm to 表示對某人或某事物逐漸產生好感。使用 warm up 表示某人或某物變暖;使用warm ... up 表示把某人或某物弄暖。When using it, him, her or them in WARM ... UP, place the word in the middle:warm it upwarm him upwarm them up在 WARM ... UP 中使用 it、him、her 或 them 時,把代名詞放在 WARM 和 UP 中間。；在 Come and warm up by the fire 中,核心片語動詞是 warm up。by the fire 只說明暖身的地點,並非固定片語的一部分,可以省略。",
+    "variableEn": "Keep the same people, things, time and meaning. Use warm to when feelings become more positive over time. Use warm up when someone or something becomes warmer. Use warm... up when someone makes another person or thing warmer. In “Come and warm up by the fire”, the core expression is warm up. By the fire only tells us where the person becomes warm. It is optional.",
+    "variableItemsZh": [
+      "warm to somebody",
+      "warm to something",
+      "warm up / warm somebody or something up"
+    ],
+    "variableItemsEn": [
+      "warm to somebody",
+      "warm to something",
+      "warm up / warm somebody or something up"
+    ],
+    "forms": [
+      {
+        "formZh": "逐漸開始喜歡某人;對某人產生好感",
+        "formEn": "warm to somebody",
+        "exampleZh": "里奧過了幾天才開始喜歡他的新教練。",
+        "exampleEn": "It took Leo a few days to warm to his new coach.",
+        "highlight": "warm to"
+      },
+      {
+        "formZh": "逐漸開始喜歡、接受或對某事物產生興趣",
+        "formEn": "warm to something",
+        "exampleZh": "講者這時愈說愈投入自己的主題。",
+        "exampleEn": "The speaker was warming to his theme now.",
+        "highlight": "warming to"
+      },
+      {
+        "formZh": "變暖;暖和起來;使某人或某事物暖起來",
+        "formEn": "warm up / warm somebody or something up",
+        "exampleZh": "過來在火旁暖暖身吧。我會把湯翻熱。",
+        "exampleEn": "Come and warm up by the fire. I will warm the soup up.",
+        "highlight": "warm up by the fire. I will warm the soup up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "逐漸開始喜歡某人;對某人產生好感",
+      "titleEn": "warm to somebody",
+      "formula": "warm to somebody",
+      "highlight": "warm to somebody",
+      "descriptionZh": "逐漸開始喜歡某人;對某人產生好感",
+      "descriptionEn": "It took Leo a few days to warm to his new coach.",
+      "examples": [
+        {
+          "en": "It took Leo a few days to warm to his new coach.",
+          "zh": "里奧過了幾天才開始喜歡他的新教練。",
+          "highlight": "warm to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "逐漸開始喜歡、接受或對某事物產生興趣",
+      "titleEn": "warm to something",
+      "formula": "warm to something",
+      "highlight": "warm to something",
+      "descriptionZh": "逐漸開始喜歡、接受或對某事物產生興趣",
+      "descriptionEn": "The speaker was warming to his theme now.",
+      "examples": [
+        {
+          "en": "The speaker was warming to his theme now.",
+          "zh": "講者這時愈說愈投入自己的主題。",
+          "highlight": "warming to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "變暖;暖和起來;使某人或某事物暖起來",
+      "titleEn": "warm up / warm somebody or something up",
+      "formula": "warm up / warm somebody or something up",
+      "highlight": "warm up / warm somebody or something up",
+      "descriptionZh": "變暖;暖和起來;使某人或某事物暖起來",
+      "descriptionEn": "Come and warm up by the fire. I will warm the soup up.",
+      "examples": [
+        {
+          "en": "Come and warm up by the fire. I will warm the soup up.",
+          "zh": "過來在火旁暖暖身吧。我會把湯翻熱。",
+          "highlight": "warm up by the fire. I will warm the soup up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論對某人的印象如何改變",
+      "titleEn": "Talk about changing first impressions of people",
+      "zh": "warm to somebody 可以表示你起初未必喜歡或信任某人,但後來逐漸對他產生好感。",
+      "en": "Warm to somebody shows that you did not immediately like or trust a person, but your feelings became more positive over time."
+    },
+    {
+      "titleZh": "表達對構思或活動逐漸產生興趣",
+      "titleEn": "Show growing interest in ideas and activities",
+      "zh": "warm to something 可以描述你慢慢開始喜歡某項計劃、歌曲、故事、主題或活動。",
+      "en": "Warm to something can describe slowly becoming interested in a plan, song, story, subject or activity."
+    },
+    {
+      "titleZh": "描述寒冷過後逐漸暖和起來",
+      "titleEn": "Describe becoming comfortable after feeling cold",
+      "zh": "warm up 可以描述身體、房間、食物或其他事物逐漸變暖。",
+      "en": "Warm up is useful when talking about your body, a room, food or another thing becoming warmer."
+    },
+    {
+      "titleZh": "談論把人或物弄暖",
+      "titleEn": "Talk about making people and things warmer",
+      "zh": "warm somebody or something up 可以自然地描述把食物、飲品、衣物、房間或感到寒冷的人弄暖。",
+      "en": "Warm somebody or something up lets you talk naturally about heating food, drinks, clothes, rooms or a person who feels cold."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論對某人的印象如何改變",
+      "表達對構思或活動逐漸產生興趣",
+      "描述寒冷過後逐漸暖和起來",
+      "談論把人或物弄暖"
+    ],
+    "contextsEn": [
+      "Talk about changing first impressions of people",
+      "Show growing interest in ideas and activities",
+      "Describe becoming comfortable after feeling cold",
+      "Talk about making people and things warmer"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論對某人的印象如何改變",
+        "titleEn": "Talk about changing first impressions of people",
+        "zh": "warm to somebody 可以表示你起初未必喜歡或信任某人,但後來逐漸對他產生好感。",
+        "en": "Warm to somebody shows that you did not immediately like or trust a person, but your feelings became more positive over time.",
+        "examples": [
+          {
+            "en": "It took Leo a few days to warm to his new coach.",
+            "zh": "里奧過了幾天才開始喜歡他的新教練。",
+            "highlight": "warm to"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達對構思或活動逐漸產生興趣",
+        "titleEn": "Show growing interest in ideas and activities",
+        "zh": "warm to something 可以描述你慢慢開始喜歡某項計劃、歌曲、故事、主題或活動。",
+        "en": "Warm to something can describe slowly becoming interested in a plan, song, story, subject or activity.",
+        "examples": [
+          {
+            "en": "The speaker was warming to his theme now.",
+            "zh": "講者這時愈說愈投入自己的主題。",
+            "highlight": "warming to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述寒冷過後逐漸暖和起來",
+        "titleEn": "Describe becoming comfortable after feeling cold",
+        "zh": "warm up 可以描述身體、房間、食物或其他事物逐漸變暖。",
+        "en": "Warm up is useful when talking about your body, a room, food or another thing becoming warmer.",
+        "examples": [
+          {
+            "en": "Come and warm up by the fire. I will warm the soup up.",
+            "zh": "過來在火旁暖暖身吧。我會把湯翻熱。",
+            "highlight": "warm up by the fire. I will warm the soup up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論把人或物弄暖",
+        "titleEn": "Talk about making people and things warmer",
+        "zh": "warm somebody or something up 可以自然地描述把食物、飲品、衣物、房間或感到寒冷的人弄暖。",
+        "en": "Warm somebody or something up lets you talk naturally about heating food, drinks, clothes, rooms or a person who feels cold.",
+        "examples": [
+          {
+            "en": "It took Leo a few days to warm to his new coach.",
+            "zh": "里奧過了幾天才開始喜歡他的新教練。",
+            "highlight": "warm to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WARM 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WARM expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WARM 片語動詞。",
+      "en": "Read the whole sentence and choose the WARM expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 warm to 表示對某人或某事物逐漸產生好感。使用 warm up 表示某人或某物變暖;使用warm ... up 表示把某人或某物弄暖。When using it, him, her or them in WARM ... UP, place the word in the middle:warm it upwarm him upwarm them up在 WARM ... UP 中使用 it、him、her 或 them 時,把代名詞放在 WARM 和 UP 中間。",
+      "titleEn": "Use warm to when feelings become more positive over time.",
+      "zh": "使用 warm to 表示對某人或某事物逐漸產生好感。使用 warm up 表示某人或某物變暖;使用warm ... up 表示把某人或某物弄暖。When using it, him, her or them in WARM ... UP, place the word in the middle:warm it upwarm him upwarm them up在 WARM ... UP 中使用 it、him、her 或 them 時,把代名詞放在 WARM 和 UP 中間。",
+      "en": "Use warm to when feelings become more positive over time. Use warm up when someone or something becomes warmer. Use warm... up when someone makes another person or thing warmer."
+    },
+    {
+      "titleZh": "在 Come and warm up by the fire 中,核心片語動詞是 warm up。by the fire 只說明暖身的地點,並非固定片語的一部分,可以省略。",
+      "titleEn": "In “Come and warm up by the fire”, the core expression is warm up.",
+      "zh": "在 Come and warm up by the fire 中,核心片語動詞是 warm up。by the fire 只說明暖身的地點,並非固定片語的一部分,可以省略。",
+      "en": "In “Come and warm up by the fire”, the core expression is warm up. By the fire only tells us where the person becomes warm. It is optional."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WARM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WARM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WARM 動詞片語句子改寫練習",
+    "titleEn": "WARM Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WARM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WARM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-77-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "At first, I was unsure about the new timetable, but I slowly started to like it.",
+      "promptZh": "起初,我不肯定自己是否喜歡新的時間表,但後來慢慢開始喜歡它。",
+      "starter": "At",
+      "answer": "At first, I was unsure about the new timetable, but I slowly warmed to it.",
+      "answerZh": "起初,我不肯定自己是否喜歡新的時間表,但後來慢慢開始喜歡它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Come and make yourself warmer by the fire.",
+      "promptZh": "過來在火旁讓自己暖和一點吧。",
+      "starter": "Come",
+      "answer": "Come and warm up by the fire.",
+      "answerZh": "過來在火旁暖暖身吧。",
+      "highlight": "warm up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After a few days, Ben started to like his new classmate.",
+      "promptZh": "過了幾天,賓開始喜歡他的新同學。",
+      "starter": "After",
+      "answer": "After a few days, Ben warmed to his new classmate.",
+      "answerZh": "過了幾天,賓開始喜歡他的新同學。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The speaker was becoming more enthusiastic about his theme as he continued.",
+      "promptZh": "講者繼續說下去時,對自己的主題愈來愈投入。",
+      "starter": "The",
+      "answer": "The speaker was warming to his theme as he continued.",
+      "answerZh": "講者繼續說下去時,愈來愈投入自己的主題。",
+      "highlight": "warming to",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸對某事物產生興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-77-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The children slowly began to like their new babysitter.",
+      "promptZh": "孩子們慢慢開始喜歡新的保姆。",
+      "starter": "The",
+      "answer": "The children slowly warmed to their new babysitter.",
+      "answerZh": "孩子們慢慢開始喜歡新的保姆。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This milk is cold; I will make it warmer before drinking it.",
+      "promptZh": "這杯牛奶冷了;我會在喝之前把它弄暖一點。",
+      "starter": "This",
+      "answer": "This milk is cold; I will warm it up before drinking it.",
+      "answerZh": "這杯牛奶冷了;我會在喝之前把它弄暖。",
+      "highlight": "warm",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖或翻熱"
+    },
+    {
+      "id": "phrasal-verb-77-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Aisha did not like the song at first, but she began to enjoy it.",
+      "promptZh": "艾莎起初不喜歡這首歌,但後來開始喜歡它。",
+      "starter": "Aisha",
+      "answer": "Aisha did not like the song at first, but she warmed to it.",
+      "answerZh": "艾莎起初不喜歡這首歌,但後來開始喜歡它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our dog was nervous around the visitor, but soon began to like him.",
+      "promptZh": "我們的狗在訪客身旁時很緊張,但很快便開始喜歡他。",
+      "starter": "Our",
+      "answer": "Our dog was nervous around the visitor, but soon warmed to him.",
+      "answerZh": "我們的狗在訪客身旁時很緊張,但很快便開始喜歡他。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸對某人產生好感"
+    },
+    {
+      "id": "phrasal-verb-77-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The room became less cold when the sun came through the window.",
+      "promptZh": "陽光從窗戶照進來後,房間變得暖和了。",
+      "starter": "The",
+      "answer": "The room warmed up when the sun came through the window.",
+      "answerZh": "陽光從窗戶照進來後,房間變得暖和了。",
+      "highlight": "warmed up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We slowly began to accept the idea of an earlier start.",
+      "promptZh": "我們慢慢開始接受提早出發的想法。",
+      "starter": "We",
+      "answer": "We slowly warmed to the idea of an earlier start.",
+      "answerZh": "我們慢慢開始接受提早出發的想法。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始接受某個構思"
+    },
+    {
+      "id": "phrasal-verb-77-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The soup is becoming warmer on the cooker.",
+      "promptZh": "爐上的湯正在慢慢變暖。",
+      "starter": "The",
+      "answer": "The soup is warming up on the cooker.",
+      "answerZh": "爐上的湯正在慢慢變暖。",
+      "highlight": "warming up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nina is slowly beginning to like her new neighbour.",
+      "promptZh": "妮娜正慢慢開始喜歡她的新鄰居。",
+      "starter": "Nina",
+      "answer": "Nina is slowly warming to her new neighbour.",
+      "answerZh": "妮娜正慢慢開始喜歡她的新鄰居。",
+      "highlight": "warming",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Has the team started to like the new practice plan?",
+      "promptZh": "球隊開始喜歡新的練習計劃了嗎?",
+      "starter": "Has",
+      "answer": "Has the team warmed to the new practice plan?",
+      "answerZh": "球隊開始喜歡新的練習計劃了嗎?",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I have made the towels nice and warm for the children.",
+      "promptZh": "我已把毛巾弄暖給孩子們使用。",
+      "starter": "I",
+      "answer": "I have warmed the towels up for the children.",
+      "answerZh": "我已把毛巾弄暖給孩子們使用。",
+      "highlight": "warmed",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "He may begin to like the new way of learning.",
+      "promptZh": "他可能會開始喜歡這種新的學習方法。",
+      "starter": "He",
+      "answer": "He may warm to the new way of learning.",
+      "answerZh": "他可能會開始喜歡這種新的學習方法。",
+      "highlight": "warm",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The baby has finally started to like her new carer.",
+      "promptZh": "嬰兒終於開始喜歡她的新照顧者。",
+      "starter": "The",
+      "answer": "The baby has finally warmed to her new carer.",
+      "answerZh": "嬰兒終於開始喜歡她的新照顧者。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Please make your hands warmer before you touch the baby.",
+      "promptZh": "接觸嬰兒之前,請先把雙手弄暖。",
+      "starter": "Please",
+      "answer": "Please warm your hands up before you touch the baby.",
+      "answerZh": "接觸嬰兒之前,請先把雙手弄暖。",
+      "highlight": "warm",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the shy student start to like the new teacher?",
+      "promptZh": "那名害羞的學生為甚麼開始喜歡新老師?",
+      "starter": "Why",
+      "answer": "Why did the shy student warm to the new teacher?",
+      "answerZh": "那名害羞的學生為甚麼開始喜歡新老師?",
+      "highlight": "warm",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I am not beginning to like this idea yet.",
+      "promptZh": "我仍未開始喜歡這個構思。",
+      "starter": "I",
+      "answer": "I am not warming to this idea yet.",
+      "answerZh": "我仍未開始喜歡這個構思。",
+      "highlight": "warming",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "These socks are cold, but the heater will make them warmer.",
+      "promptZh": "這些襪子很冷,但暖爐會把它們弄暖。",
+      "starter": "These",
+      "answer": "These socks are cold, but the heater will warm them up.",
+      "answerZh": "這些襪子很冷,但暖爐會把它們弄暖。",
+      "highlight": "warm",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "At first, Eva felt unsure about the new club leader. After two meetings, she started to like him.",
+      "promptZh": "起初,伊娃不太肯定自己是否喜歡新的社團領袖。見過兩次後,她開始喜歡他。",
+      "starter": "At",
+      "answer": "At first, Eva felt unsure about the new club leader. After two meetings, she warmed to him.",
+      "answerZh": "起初,伊娃不太肯定自己是否喜歡新的社團領袖。見過兩次後,她開始喜歡他。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The baby’s blanket was cold, so Dad made it warmer before bedtime.",
+      "promptZh": "嬰兒的毛氈很冷,所以爸爸在睡前把它弄暖。",
+      "starter": "The",
+      "answer": "The baby’s blanket was cold, so Dad warmed it up before bedtime.",
+      "answerZh": "嬰兒的毛氈很冷,所以爸爸在睡前把它弄暖。",
+      "highlight": "warmed",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The first chapter felt slow, but I started to enjoy the story later.",
+      "promptZh": "第一章感覺很沉悶,但我後來開始喜歡這個故事。",
+      "starter": "The",
+      "answer": "The first chapter felt slow, but I warmed to the story later.",
+      "answerZh": "第一章感覺很沉悶,但我後來開始喜歡這個故事。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new nurse spoke very little at first, but the patients slowly began to like her.",
+      "promptZh": "新護士起初很少說話,但病人慢慢開始喜歡她。",
+      "starter": "The",
+      "answer": "The new nurse spoke very little at first, but the patients slowly warmed to her.",
+      "answerZh": "新護士起初很少說話,但病人慢慢開始喜歡她。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸對某人產生好感"
+    },
+    {
+      "id": "phrasal-verb-77-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By the time we reached the café, my hands had become warm again.",
+      "promptZh": "我們到達咖啡店時,我的雙手已再次暖和起來。",
+      "starter": "By",
+      "answer": "By the time we reached the café, my hands had warmed up.",
+      "answerZh": "我們到達咖啡店時,我的雙手已再次暖和起來。",
+      "highlight": "warmed up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The kitten was afraid of Sam at first, but has now started to like him.",
+      "promptZh": "小貓起初很害怕森,但現在已開始喜歡他。",
+      "starter": "The",
+      "answer": "The kitten was afraid of Sam at first, but has now warmed to him.",
+      "answerZh": "小貓起初很害怕森,但現在已開始喜歡他。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We did not like the new after-school club at first, but after two meetings, we began to enjoy it.",
+      "promptZh": "我們起初不喜歡新的課後活動,但參加兩次後便開始喜歡它。",
+      "starter": "We",
+      "answer": "We did not like the new after-school club at first, but after two meetings, we warmed to it.",
+      "answerZh": "我們起初不喜歡新的課後活動,但參加兩次後便開始喜歡它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The car was very cold inside, so we waited until it became warmer.",
+      "promptZh": "車廂內十分寒冷,所以我們等到車內變暖。",
+      "starter": "The",
+      "answer": "The car was very cold inside, so we waited until it warmed up.",
+      "answerZh": "車廂內十分寒冷,所以我們等到車內變暖。",
+      "highlight": "warmed up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Did the new student eventually start to like the rest of the class?",
+      "promptZh": "新同學最後開始喜歡班上其他人了嗎?",
+      "starter": "Did",
+      "answer": "Did the new student eventually warm to the rest of the class?",
+      "answerZh": "新同學最後開始喜歡班上其他人了嗎?",
+      "highlight": "warm",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The idea sounded strange at first. After a short discussion, the group began to accept it.",
+      "promptZh": "這個構思起初聽來很奇怪。簡短討論後,小組開始接受它。",
+      "starter": "The",
+      "answer": "The idea sounded strange at first. After a short discussion, the group warmed to it.",
+      "answerZh": "這個構思起初聽來很奇怪。簡短討論後,小組開始接受它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始接受某個構思"
+    },
+    {
+      "id": "phrasal-verb-77-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The team did not reject the new design, but they needed time before they started to like it.",
+      "promptZh": "球隊沒有拒絕新設計,但他們需要一些時間才開始喜歡它。",
+      "starter": "The",
+      "answer": "The team did not reject the new design, but they needed time to warm to it.",
+      "answerZh": "球隊沒有拒絕新設計,但他們需要一些時間才開始喜歡它。",
+      "highlight": "warm to",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although Ryan was quiet, the other players slowly began to like him.",
+      "promptZh": "雖然賴恩很安靜,但其他球員慢慢開始喜歡他。",
+      "starter": "Although",
+      "answer": "Although Ryan was quiet, the other players slowly warmed to him.",
+      "answerZh": "雖然賴恩很安靜,但其他球員慢慢開始喜歡他。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸對某人產生好感"
+    },
+    {
+      "id": "phrasal-verb-77-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The bread is not hot enough yet; leave it in the oven until it becomes warmer.",
+      "promptZh": "麵包還不夠熱;把它留在焗爐內,直至它變暖。",
+      "starter": "The",
+      "answer": "The bread is not hot enough yet; leave it in the oven until it warms up.",
+      "answerZh": "麵包還不夠熱;把它留在焗爐內,直至它變暖。",
+      "highlight": "warms up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At first, the class disliked the longer reading time, but after a week they started to like it.",
+      "promptZh": "起初,全班不喜歡較長的閱讀時間,但一星期後,他們開始喜歡它。",
+      "starter": "At",
+      "answer": "At first, the class disliked the longer reading time, but after a week they warmed to it.",
+      "answerZh": "起初,全班不喜歡較長的閱讀時間,但一星期後,他們開始喜歡它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The dog was wet and cold, so we dried it and made it warm again.",
+      "promptZh": "那隻狗又濕又冷,所以我們把牠擦乾,並讓牠再次暖和起來。",
+      "starter": "The",
+      "answer": "The dog was wet and cold, so we dried it and warmed it up.",
+      "answerZh": "那隻狗又濕又冷,所以我們把牠擦乾,並讓牠再次暖和起來。",
+      "highlight": "warmed",
+      "targetForm": "warm somebody up",
+      "targetMeaningZh": "使某人或動物暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The children did not trust the new coach immediately, but his patience helped them start to like him.",
+      "promptZh": "孩子們沒有立即信任新教練,但他的耐性令他們開始喜歡他。",
+      "starter": "The",
+      "answer": "The children did not trust the new coach immediately, but his patience helped them warm to him.",
+      "answerZh": "孩子們沒有立即信任新教練,但他的耐性令他們開始喜歡他。",
+      "highlight": "warm",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸對某人產生好感"
+    },
+    {
+      "id": "phrasal-verb-77-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The book club was unsure about reading poems, but the members slowly became interested in the idea.",
+      "promptZh": "讀書會起初不肯定是否要讀詩,但成員慢慢對這個構思產生興趣。",
+      "starter": "The",
+      "answer": "The book club was unsure about reading poems, but the members slowly warmed to the idea.",
+      "answerZh": "讀書會起初不肯定是否要讀詩,但成員慢慢對這個構思產生興趣。",
+      "highlight": "warmed to",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡或接受某個構思"
+    },
+    {
+      "id": "phrasal-verb-77-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "I thought our new neighbour was unfriendly, but after speaking with her twice, I began to like her.",
+      "promptZh": "我起初以為新鄰居不友善,但和她談過兩次後,我開始喜歡她。",
+      "starter": "I",
+      "answer": "I thought our new neighbour was unfriendly, but after speaking with her twice, I warmed to her.",
+      "answerZh": "我起初以為新鄰居不友善,但和她談過兩次後,我開始喜歡她。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The plates were cold, so the cook made them warmer before serving the food.",
+      "promptZh": "碟子很冷,所以廚師在上菜前把它們弄暖。",
+      "starter": "The",
+      "answer": "The plates were cold, so the cook warmed them up before serving the food.",
+      "answerZh": "碟子很冷,所以廚師在上菜前把它們弄暖。",
+      "highlight": "warmed",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The children first found the museum boring, but the guide’s stories helped them start to enjoy it.",
+      "promptZh": "孩子們起初覺得博物館很沉悶,但導遊的故事令他們開始喜歡它。",
+      "starter": "The",
+      "answer": "The children first found the museum boring, but the guide’s stories helped them warm to it.",
+      "answerZh": "孩子們起初覺得博物館很沉悶,但導遊的故事令他們開始喜歡它。",
+      "highlight": "warm",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-77-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We had been outside in the cold for an hour, so we stood near the fire until we became warm again.",
+      "promptZh": "我們在寒冷的戶外待了一小時,所以站在火旁,直至身體再次暖和起來。",
+      "starter": "We",
+      "answer": "We had been outside in the cold for an hour, so we stood near the fire until we warmed up.",
+      "answerZh": "我們在寒冷的戶外待了一小時,所以站在火旁,直至身體再次暖和起來。",
+      "highlight": "warmed up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    },
+    {
+      "id": "phrasal-verb-77-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The school was unsure about the idea of a quiet reading room, but it slowly began to see its value.",
+      "promptZh": "學校起初不肯定是否接納設立安靜閱讀室的構思,但後來慢慢看到它的好處。",
+      "starter": "The",
+      "answer": "The school was unsure about the idea of a quiet reading room, but it slowly warmed to it.",
+      "answerZh": "學校起初不肯定是否接納設立安靜閱讀室的構思,但後來慢慢接受了它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始接受某個構思"
+    },
+    {
+      "id": "phrasal-verb-77-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Lena found the new manager strict at first, but after seeing his fair decisions, she began to like him.",
+      "promptZh": "莉娜起初覺得新經理很嚴格,但看到他處事公平後,她開始喜歡他。",
+      "starter": "Lena",
+      "answer": "Lena found the new manager strict at first, but after seeing his fair decisions, she warmed to him.",
+      "answerZh": "莉娜起初覺得新經理很嚴格,但看到他處事公平後,她開始喜歡他。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸對某人產生好感"
+    },
+    {
+      "id": "phrasal-verb-77-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The tea had gone cold during the meeting, so I made it warm again before drinking it.",
+      "promptZh": "茶在會議期間變冷了,所以我在喝之前把它翻熱。",
+      "starter": "The",
+      "answer": "The tea had gone cold during the meeting, so I warmed it up before drinking it.",
+      "answerZh": "茶在會議期間變冷了,所以我在喝之前把它翻熱。",
+      "highlight": "warmed",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖或翻熱"
+    },
+    {
+      "id": "phrasal-verb-77-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Our cat hid whenever the visitor arrived. After several quiet visits, it began to like her.",
+      "promptZh": "每當訪客到來時,我們的貓都會躲起來。經過幾次安靜的探訪後,牠開始喜歡她。",
+      "starter": "Our",
+      "answer": "Our cat hid whenever the visitor arrived. After several quiet visits, it warmed to her.",
+      "answerZh": "每當訪客到來時,我們的貓都會躲起來。經過幾次安靜的探訪後,牠開始喜歡她。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I was against the plan at first, but after hearing about the lower cost and shorter journey, I slowly began to accept it.",
+      "promptZh": "我起初反對這個計劃,但聽到費用較低、路程較短後,我慢慢開始接受它。",
+      "starter": "I",
+      "answer": "I was against the plan at first, but after hearing about the lower cost and shorter journey, I slowly warmed to it.",
+      "answerZh": "我起初反對這個計劃,但聽到費用較低、路程較短後,我慢慢開始接受它。",
+      "highlight": "warmed",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸開始接受某個構思或計劃"
+    },
+    {
+      "id": "phrasal-verb-77-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the children come inside, make the room warmer with the heater.",
+      "promptZh": "孩子們進來之前,請用暖爐把房間弄暖。",
+      "starter": "Before",
+      "answer": "Before the children come inside, warm the room up with the heater.",
+      "answerZh": "孩子們進來之前,請用暖爐把房間弄暖。",
+      "highlight": "warm",
+      "targetForm": "warm something up",
+      "targetMeaningZh": "把某事物弄暖"
+    },
+    {
+      "id": "phrasal-verb-77-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new student answered with one word at first, but the group was kind, and she slowly began to like them.",
+      "promptZh": "新同學起初只用一個字回答,但小組對她很友善,她慢慢開始喜歡他們。",
+      "starter": "The",
+      "answer": "The new student answered with one word at first, but the group was kind, and she slowly warmed to them.",
+      "answerZh": "新同學起初只用一個字回答,但小組對她很友善,她慢慢開始喜歡他們。",
+      "highlight": "warmed",
+      "targetForm": "warm to somebody",
+      "targetMeaningZh": "逐漸開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-77-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The presenter sounded unsure at the beginning, but as she spoke, she became more enthusiastic about her theme.",
+      "promptZh": "演講者開始時聽來不太有信心,但她說下去後,對自己的主題愈來愈投入。",
+      "starter": "The",
+      "answer": "The presenter sounded unsure at the beginning, but as she spoke, she warmed to her theme.",
+      "answerZh": "演講者開始時聽來不太有信心,但她說下去後,對自己的主題愈來愈投入。",
+      "highlight": "warmed to",
+      "targetForm": "warm to something",
+      "targetMeaningZh": "逐漸對某事物產生興趣或熱情"
+    },
+    {
+      "id": "phrasal-verb-77-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The wet clothes felt cold, so we placed them near the heater until they became warmer.",
+      "promptZh": "濕衣服摸起來很冷,所以我們把它們放在暖爐旁,直至它們變暖。",
+      "starter": "The",
+      "answer": "The wet clothes felt cold, so we placed them near the heater until they warmed up.",
+      "answerZh": "濕衣服摸起來很冷,所以我們把它們放在暖爐旁,直至它們變暖。",
+      "highlight": "warmed up",
+      "targetForm": "warm up",
+      "targetMeaningZh": "變暖;暖和起來"
+    }
+  ]
+}

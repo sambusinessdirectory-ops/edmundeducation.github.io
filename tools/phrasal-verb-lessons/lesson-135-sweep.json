@@ -1,0 +1,1813 @@
+{
+  "id": "phrasal-verb-135",
+  "order": 135,
+  "slug": "sweep",
+  "version": "1",
+  "title": "SWEEP 動詞片語",
+  "titleEn": "Sweep",
+  "titleZh": "SWEEP 動詞片語",
+  "level": "B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 134 - SWEEP.pdf",
+    "sourceNumber": 134,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SWEEP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SWEEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SWEEP",
+      "highlight": "SWEEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Ana was swept along by her father’s enthusiasm.",
+      "zh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+      "highlight": "swept along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "United swept Liverpool aside with ease.",
+      "zh": "聯隊輕易擊敗了利物浦。",
+      "highlight": "swept",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The manager swept all our objections aside.",
+      "zh": "經理把我們所有反對意見置諸不理。",
+      "highlight": "swept",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中；輕易擊敗或排除某人；完全不理會或拒絕考慮某事；把某物徹底沖走、吹走、摧毀或清除；以橫掃的動作把某物從表面移走；把頭髮向後撥或向上梳；把某人迷倒;令某人迅速深深愛上自己；用掃帚把某個地方清掃乾淨；迅速而流暢地把某人抱起；用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+    "en": "sweep somebody along / away; sweep somebody aside; sweep something aside; sweep something away; sweep something off / sweep something off something; sweep something back / up; sweep somebody off their feet; sweep something out; sweep somebody up; sweep up / sweep something up",
+    "naturalZh": [
+      "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+      "輕易擊敗或排除某人",
+      "完全不理會或拒絕考慮某事",
+      "把某物徹底沖走、吹走、摧毀或清除",
+      "以橫掃的動作把某物從表面移走",
+      "把頭髮向後撥或向上梳",
+      "把某人迷倒;令某人迅速深深愛上自己",
+      "用掃帚把某個地方清掃乾淨",
+      "迅速而流暢地把某人抱起",
+      "用掃帚清掃;把塵埃、污垢或碎屑掃起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sweep somebody along / away",
+      "titleZh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+      "titleEn": "sweep somebody along / away",
+      "descriptionZh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+      "descriptionEn": "Ana was swept along by her father’s enthusiasm.",
+      "examples": [
+        {
+          "en": "Ana was swept along by her father’s enthusiasm.",
+          "zh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+          "highlight": "swept along"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweep somebody aside",
+      "titleZh": "輕易擊敗或排除某人",
+      "titleEn": "sweep somebody aside",
+      "descriptionZh": "輕易擊敗或排除某人",
+      "descriptionEn": "United swept Liverpool aside with ease.",
+      "examples": [
+        {
+          "en": "United swept Liverpool aside with ease.",
+          "zh": "聯隊輕易擊敗了利物浦。",
+          "highlight": "swept"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweep something aside",
+      "titleZh": "完全不理會或拒絕考慮某事",
+      "titleEn": "sweep something aside",
+      "descriptionZh": "完全不理會或拒絕考慮某事",
+      "descriptionEn": "The manager swept all our objections aside.",
+      "examples": [
+        {
+          "en": "The manager swept all our objections aside.",
+          "zh": "經理把我們所有反對意見置諸不理。",
+          "highlight": "swept"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweep something away",
+      "titleZh": "把某物徹底沖走、吹走、摧毀或清除",
+      "titleEn": "sweep something away",
+      "descriptionZh": "把某物徹底沖走、吹走、摧毀或清除",
+      "descriptionEn": "The flood swept the small bridge away.",
+      "examples": [
+        {
+          "en": "The flood swept the small bridge away.",
+          "zh": "洪水把小橋沖走了。",
+          "highlight": "swept the small bridge away"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweep something off / sweep something off something",
+      "titleZh": "以橫掃的動作把某物從表面移走",
+      "titleEn": "sweep something off / sweep something off something",
+      "descriptionZh": "以橫掃的動作把某物從表面移走",
+      "descriptionEn": "He swept the crumbs off the table.",
+      "examples": [
+        {
+          "en": "He swept the crumbs off the table.",
+          "zh": "他把麵包碎從桌上掃走。",
+          "highlight": "swept the crumbs off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sweep something back / up",
+      "titleZh": "把頭髮向後撥或向上梳",
+      "titleEn": "sweep something back / up",
+      "descriptionZh": "把頭髮向後撥或向上梳",
+      "descriptionEn": "She swept her hair back from her face.",
+      "examples": [
+        {
+          "en": "She swept her hair back from her face.",
+          "zh": "她把頭髮從臉前撥到後面。",
+          "highlight": "swept her hair back"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sweep somebody off their feet",
+      "titleZh": "把某人迷倒;令某人迅速深深愛上自己",
+      "titleEn": "sweep somebody off their feet",
+      "descriptionZh": "把某人迷倒;令某人迅速深深愛上自己",
+      "descriptionEn": "Layla was swept off her feet by his charm.",
+      "examples": [
+        {
+          "en": "Layla was swept off her feet by his charm.",
+          "zh": "萊拉被他的魅力迷倒。",
+          "highlight": "swept off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sweep something out",
+      "titleZh": "用掃帚把某個地方清掃乾淨",
+      "titleEn": "sweep something out",
+      "descriptionZh": "用掃帚把某個地方清掃乾淨",
+      "descriptionEn": "Brad swept out the garage.",
+      "examples": [
+        {
+          "en": "Brad swept out the garage.",
+          "zh": "布拉德把車房清掃乾淨。",
+          "highlight": "swept out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sweep somebody up",
+      "titleZh": "迅速而流暢地把某人抱起",
+      "titleEn": "sweep somebody up",
+      "descriptionZh": "迅速而流暢地把某人抱起",
+      "descriptionEn": "He swept the child up in his arms.",
+      "examples": [
+        {
+          "en": "He swept the child up in his arms.",
+          "zh": "他順勢把孩子抱進懷裏。",
+          "highlight": "swept the child up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sweep up / sweep something up",
+      "titleZh": "用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+      "titleEn": "sweep up / sweep something up",
+      "descriptionZh": "用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+      "descriptionEn": "We swept up before we left.",
+      "examples": [
+        {
+          "en": "We swept up before we left.",
+          "zh": "我們離開前清掃了地方。",
+          "highlight": "swept up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SWEEP 片語動詞的實際用途",
+    "labelEn": "SWEEP Phrasal Verbs in Use",
+    "summaryZh": "SWEEP 片語動詞可以分別表達清掃整個房間、掃起污垢,以及把物件從表面掃走。；sweep somebody along 或 away 可以描述某人深受氣氛感染;sweep somebody off their feet 則可以表示某人迅速墮入愛河。；SWEEP 可以描述球隊輕易擊敗對手、洪水沖走物件,或某人完全不理會反對意見。；這些表達常見於日常對話、故事、體育報道,以及有關暴風雨或洪水的描述。",
+    "summaryEn": "SWEEP expressions can distinguish between cleaning a whole room, collecting dirt and removing something from a surface. Sweep somebody along or away can describe being strongly affected by an atmosphere, while sweep somebody off their feet describes suddenly falling deeply in love. SWEEP can describe a team defeating an opponent easily, a flood carrying something away or a person refusing to consider an objection. These expressions often appear in conversations, stories, sports reports and descriptions of storms or floods.",
+    "contextsZh": [
+      "清楚表達不同的清掃方式",
+      "描述強烈情緒和吸引力",
+      "描述徹底而有力的行動",
+      "理解日常英語、體育報道和新聞中的 SWEEP"
+    ],
+    "contextsEn": [
+      "Talk about different kinds of cleaning clearly",
+      "Describe powerful feelings and attraction",
+      "Describe complete and forceful actions",
+      "Understand SWEEP in everyday English, sport and news"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SWEEP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SWEEP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sweep somebody along / away",
+    "fixedHighlight": "sweep somebody along / away",
+    "fixedZh": "閱讀整句,選出意思相同的 SWEEP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SWEEP expression that gives the same meaning.",
+    "correct": "swept along",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；sweep out 通常指把某個地方清掃乾淨;sweep up 通常指進行清掃,或把污垢和碎屑掃起來。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: sweep it away sweep them aside sweep her up Sweep out usually refers to cleaning a place. Sweep up usually refers to cleaning generally or collecting dirt and small pieces.",
+    "variableItemsZh": [
+      "sweep somebody along / away",
+      "sweep somebody aside",
+      "sweep something aside",
+      "sweep something away",
+      "sweep something off / sweep something off something",
+      "sweep something back / up",
+      "sweep somebody off their feet",
+      "sweep something out",
+      "sweep somebody up",
+      "sweep up / sweep something up"
+    ],
+    "variableItemsEn": [
+      "sweep somebody along / away",
+      "sweep somebody aside",
+      "sweep something aside",
+      "sweep something away",
+      "sweep something off / sweep something off something",
+      "sweep something back / up",
+      "sweep somebody off their feet",
+      "sweep something out",
+      "sweep somebody up",
+      "sweep up / sweep something up"
+    ],
+    "forms": [
+      {
+        "formZh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+        "formEn": "sweep somebody along / away",
+        "exampleZh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+        "exampleEn": "Ana was swept along by her father’s enthusiasm.",
+        "highlight": "swept along"
+      },
+      {
+        "formZh": "輕易擊敗或排除某人",
+        "formEn": "sweep somebody aside",
+        "exampleZh": "聯隊輕易擊敗了利物浦。",
+        "exampleEn": "United swept Liverpool aside with ease.",
+        "highlight": "swept"
+      },
+      {
+        "formZh": "完全不理會或拒絕考慮某事",
+        "formEn": "sweep something aside",
+        "exampleZh": "經理把我們所有反對意見置諸不理。",
+        "exampleEn": "The manager swept all our objections aside.",
+        "highlight": "swept"
+      },
+      {
+        "formZh": "把某物徹底沖走、吹走、摧毀或清除",
+        "formEn": "sweep something away",
+        "exampleZh": "洪水把小橋沖走了。",
+        "exampleEn": "The flood swept the small bridge away.",
+        "highlight": "swept the small bridge away"
+      },
+      {
+        "formZh": "以橫掃的動作把某物從表面移走",
+        "formEn": "sweep something off / sweep something off something",
+        "exampleZh": "他把麵包碎從桌上掃走。",
+        "exampleEn": "He swept the crumbs off the table.",
+        "highlight": "swept the crumbs off"
+      },
+      {
+        "formZh": "把頭髮向後撥或向上梳",
+        "formEn": "sweep something back / up",
+        "exampleZh": "她把頭髮從臉前撥到後面。",
+        "exampleEn": "She swept her hair back from her face.",
+        "highlight": "swept her hair back"
+      },
+      {
+        "formZh": "把某人迷倒;令某人迅速深深愛上自己",
+        "formEn": "sweep somebody off their feet",
+        "exampleZh": "萊拉被他的魅力迷倒。",
+        "exampleEn": "Layla was swept off her feet by his charm.",
+        "highlight": "swept off"
+      },
+      {
+        "formZh": "用掃帚把某個地方清掃乾淨",
+        "formEn": "sweep something out",
+        "exampleZh": "布拉德把車房清掃乾淨。",
+        "exampleEn": "Brad swept out the garage.",
+        "highlight": "swept out"
+      },
+      {
+        "formZh": "迅速而流暢地把某人抱起",
+        "formEn": "sweep somebody up",
+        "exampleZh": "他順勢把孩子抱進懷裏。",
+        "exampleEn": "He swept the child up in his arms.",
+        "highlight": "swept the child up"
+      },
+      {
+        "formZh": "用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+        "formEn": "sweep up / sweep something up",
+        "exampleZh": "我們離開前清掃了地方。",
+        "exampleEn": "We swept up before we left.",
+        "highlight": "swept up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+      "titleEn": "sweep somebody along / away",
+      "formula": "sweep somebody along / away",
+      "highlight": "sweep somebody along / away",
+      "descriptionZh": "使某人受到強烈情緒、熱情或氣氛感染,情不自禁地投入其中",
+      "descriptionEn": "Ana was swept along by her father’s enthusiasm.",
+      "examples": [
+        {
+          "en": "Ana was swept along by her father’s enthusiasm.",
+          "zh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+          "highlight": "swept along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "輕易擊敗或排除某人",
+      "titleEn": "sweep somebody aside",
+      "formula": "sweep somebody aside",
+      "highlight": "sweep somebody aside",
+      "descriptionZh": "輕易擊敗或排除某人",
+      "descriptionEn": "United swept Liverpool aside with ease.",
+      "examples": [
+        {
+          "en": "United swept Liverpool aside with ease.",
+          "zh": "聯隊輕易擊敗了利物浦。",
+          "highlight": "swept"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "完全不理會或拒絕考慮某事",
+      "titleEn": "sweep something aside",
+      "formula": "sweep something aside",
+      "highlight": "sweep something aside",
+      "descriptionZh": "完全不理會或拒絕考慮某事",
+      "descriptionEn": "The manager swept all our objections aside.",
+      "examples": [
+        {
+          "en": "The manager swept all our objections aside.",
+          "zh": "經理把我們所有反對意見置諸不理。",
+          "highlight": "swept"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物徹底沖走、吹走、摧毀或清除",
+      "titleEn": "sweep something away",
+      "formula": "sweep something away",
+      "highlight": "sweep something away",
+      "descriptionZh": "把某物徹底沖走、吹走、摧毀或清除",
+      "descriptionEn": "The flood swept the small bridge away.",
+      "examples": [
+        {
+          "en": "The flood swept the small bridge away.",
+          "zh": "洪水把小橋沖走了。",
+          "highlight": "swept the small bridge away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "以橫掃的動作把某物從表面移走",
+      "titleEn": "sweep something off / sweep something off something",
+      "formula": "sweep something off / sweep something off something",
+      "highlight": "sweep something off / sweep something off something",
+      "descriptionZh": "以橫掃的動作把某物從表面移走",
+      "descriptionEn": "He swept the crumbs off the table.",
+      "examples": [
+        {
+          "en": "He swept the crumbs off the table.",
+          "zh": "他把麵包碎從桌上掃走。",
+          "highlight": "swept the crumbs off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把頭髮向後撥或向上梳",
+      "titleEn": "sweep something back / up",
+      "formula": "sweep something back / up",
+      "highlight": "sweep something back / up",
+      "descriptionZh": "把頭髮向後撥或向上梳",
+      "descriptionEn": "She swept her hair back from her face.",
+      "examples": [
+        {
+          "en": "She swept her hair back from her face.",
+          "zh": "她把頭髮從臉前撥到後面。",
+          "highlight": "swept her hair back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某人迷倒;令某人迅速深深愛上自己",
+      "titleEn": "sweep somebody off their feet",
+      "formula": "sweep somebody off their feet",
+      "highlight": "sweep somebody off their feet",
+      "descriptionZh": "把某人迷倒;令某人迅速深深愛上自己",
+      "descriptionEn": "Layla was swept off her feet by his charm.",
+      "examples": [
+        {
+          "en": "Layla was swept off her feet by his charm.",
+          "zh": "萊拉被他的魅力迷倒。",
+          "highlight": "swept off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "用掃帚把某個地方清掃乾淨",
+      "titleEn": "sweep something out",
+      "formula": "sweep something out",
+      "highlight": "sweep something out",
+      "descriptionZh": "用掃帚把某個地方清掃乾淨",
+      "descriptionEn": "Brad swept out the garage.",
+      "examples": [
+        {
+          "en": "Brad swept out the garage.",
+          "zh": "布拉德把車房清掃乾淨。",
+          "highlight": "swept out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "迅速而流暢地把某人抱起",
+      "titleEn": "sweep somebody up",
+      "formula": "sweep somebody up",
+      "highlight": "sweep somebody up",
+      "descriptionZh": "迅速而流暢地把某人抱起",
+      "descriptionEn": "He swept the child up in his arms.",
+      "examples": [
+        {
+          "en": "He swept the child up in his arms.",
+          "zh": "他順勢把孩子抱進懷裏。",
+          "highlight": "swept the child up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+      "titleEn": "sweep up / sweep something up",
+      "formula": "sweep up / sweep something up",
+      "highlight": "sweep up / sweep something up",
+      "descriptionZh": "用掃帚清掃;把塵埃、污垢或碎屑掃起來",
+      "descriptionEn": "We swept up before we left.",
+      "examples": [
+        {
+          "en": "We swept up before we left.",
+          "zh": "我們離開前清掃了地方。",
+          "highlight": "swept up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達不同的清掃方式",
+      "titleEn": "Talk about different kinds of cleaning clearly",
+      "zh": "SWEEP 片語動詞可以分別表達清掃整個房間、掃起污垢,以及把物件從表面掃走。",
+      "en": "SWEEP expressions can distinguish between cleaning a whole room, collecting dirt and removing something from a surface."
+    },
+    {
+      "titleZh": "描述強烈情緒和吸引力",
+      "titleEn": "Describe powerful feelings and attraction",
+      "zh": "sweep somebody along 或 away 可以描述某人深受氣氛感染;sweep somebody off their feet 則可以表示某人迅速墮入愛河。",
+      "en": "Sweep somebody along or away can describe being strongly affected by an atmosphere, while sweep somebody off their feet describes suddenly falling deeply in love."
+    },
+    {
+      "titleZh": "描述徹底而有力的行動",
+      "titleEn": "Describe complete and forceful actions",
+      "zh": "SWEEP 可以描述球隊輕易擊敗對手、洪水沖走物件,或某人完全不理會反對意見。",
+      "en": "SWEEP can describe a team defeating an opponent easily, a flood carrying something away or a person refusing to consider an objection."
+    },
+    {
+      "titleZh": "理解日常英語、體育報道和新聞中的 SWEEP",
+      "titleEn": "Understand SWEEP in everyday English, sport and news",
+      "zh": "這些表達常見於日常對話、故事、體育報道,以及有關暴風雨或洪水的描述。",
+      "en": "These expressions often appear in conversations, stories, sports reports and descriptions of storms or floods."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達不同的清掃方式",
+      "描述強烈情緒和吸引力",
+      "描述徹底而有力的行動",
+      "理解日常英語、體育報道和新聞中的 SWEEP"
+    ],
+    "contextsEn": [
+      "Talk about different kinds of cleaning clearly",
+      "Describe powerful feelings and attraction",
+      "Describe complete and forceful actions",
+      "Understand SWEEP in everyday English, sport and news"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達不同的清掃方式",
+        "titleEn": "Talk about different kinds of cleaning clearly",
+        "zh": "SWEEP 片語動詞可以分別表達清掃整個房間、掃起污垢,以及把物件從表面掃走。",
+        "en": "SWEEP expressions can distinguish between cleaning a whole room, collecting dirt and removing something from a surface.",
+        "examples": [
+          {
+            "en": "Ana was swept along by her father’s enthusiasm.",
+            "zh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+            "highlight": "swept along"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述強烈情緒和吸引力",
+        "titleEn": "Describe powerful feelings and attraction",
+        "zh": "sweep somebody along 或 away 可以描述某人深受氣氛感染;sweep somebody off their feet 則可以表示某人迅速墮入愛河。",
+        "en": "Sweep somebody along or away can describe being strongly affected by an atmosphere, while sweep somebody off their feet describes suddenly falling deeply in love.",
+        "examples": [
+          {
+            "en": "United swept Liverpool aside with ease.",
+            "zh": "聯隊輕易擊敗了利物浦。",
+            "highlight": "swept"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述徹底而有力的行動",
+        "titleEn": "Describe complete and forceful actions",
+        "zh": "SWEEP 可以描述球隊輕易擊敗對手、洪水沖走物件,或某人完全不理會反對意見。",
+        "en": "SWEEP can describe a team defeating an opponent easily, a flood carrying something away or a person refusing to consider an objection.",
+        "examples": [
+          {
+            "en": "The manager swept all our objections aside.",
+            "zh": "經理把我們所有反對意見置諸不理。",
+            "highlight": "swept"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解日常英語、體育報道和新聞中的 SWEEP",
+        "titleEn": "Understand SWEEP in everyday English, sport and news",
+        "zh": "這些表達常見於日常對話、故事、體育報道,以及有關暴風雨或洪水的描述。",
+        "en": "These expressions often appear in conversations, stories, sports reports and descriptions of storms or floods.",
+        "examples": [
+          {
+            "en": "The flood swept the small bridge away.",
+            "zh": "洪水把小橋沖走了。",
+            "highlight": "swept the small bridge away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SWEEP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SWEEP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SWEEP 片語動詞。",
+      "en": "Read the whole sentence and choose the SWEEP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: sweep it away sweep them aside sweep her up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: sweep it away sweep them aside sweep her up"
+    },
+    {
+      "titleZh": "sweep out 通常指把某個地方清掃乾淨;sweep up 通常指進行清掃,或把污垢和碎屑掃起來。",
+      "titleEn": "Sweep out usually refers to cleaning a place.",
+      "zh": "sweep out 通常指把某個地方清掃乾淨;sweep up 通常指進行清掃,或把污垢和碎屑掃起來。",
+      "en": "Sweep out usually refers to cleaning a place. Sweep up usually refers to cleaning generally or collecting dirt and small pieces."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SWEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SWEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SWEEP 動詞片語句子改寫練習",
+    "titleEn": "SWEEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SWEEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SWEEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-135-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We used a broom to collect the dirt on the floor before we left.",
+      "promptZh": "我們離開前用掃帚把地上的污垢掃在一起。",
+      "starter": "We",
+      "answer": "We swept up the dirt on the floor before we left.",
+      "answerZh": "我們離開前把地上的污垢掃在一起。",
+      "highlight": "swept up",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把污垢或碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Her father’s enthusiasm made Ana share his excitement.",
+      "promptZh": "父親的熱情令安娜也感到同樣興奮。",
+      "starter": "Ana",
+      "answer": "Ana was swept along by her father’s enthusiasm.",
+      "answerZh": "安娜受到父親的熱情感染,也不由自主地投入其中。",
+      "highlight": "Ana was swept along by",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到熱情或氣氛感染"
+    },
+    {
+      "id": "phrasal-verb-135-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "He removed the crumbs from the table with one quick movement of his hand.",
+      "promptZh": "他用手迅速一撥,把桌上的麵包碎移走。",
+      "starter": "He",
+      "answer": "He swept the crumbs off the table with one quick movement of his hand.",
+      "answerZh": "他用手迅速一撥,把桌上的麵包碎掃下來。",
+      "highlight": "swept",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The manager ignored all our objections without discussing them.",
+      "promptZh": "經理沒有作出討論,便完全不理會我們所有反對意見。",
+      "starter": "The",
+      "answer": "The manager swept all our objections aside without discussing them.",
+      "answerZh": "經理沒有作出討論,便把我們所有反對意見置諸不理。",
+      "highlight": "swept",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Brad cleaned the garage with a broom, pushing all the dirt outside.",
+      "promptZh": "布拉德用掃帚清掃車房,把所有污垢掃到外面。",
+      "starter": "Brad",
+      "answer": "Brad swept out the garage, pushing all the dirt outside.",
+      "answerZh": "布拉德把車房清掃乾淨,將所有污垢掃到外面。",
+      "highlight": "swept out",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "United defeated Liverpool with ease.",
+      "promptZh": "聯隊輕易擊敗了利物浦。",
+      "starter": "United",
+      "answer": "United swept Liverpool aside with ease.",
+      "answerZh": "聯隊輕易擊敗了利物浦。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗或排除某人"
+    },
+    {
+      "id": "phrasal-verb-135-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "She moved her hair back from her face with both hands.",
+      "promptZh": "她用雙手把頭髮從臉前撥到後面。",
+      "starter": "She",
+      "answer": "She swept her hair back from her face with both hands.",
+      "answerZh": "她用雙手把頭髮從臉前撥到後面。",
+      "highlight": "swept",
+      "targetForm": "sweep something back",
+      "targetMeaningZh": "把頭髮向後撥"
+    },
+    {
+      "id": "phrasal-verb-135-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The flood carried the small wooden bridge away.",
+      "promptZh": "洪水把那座小木橋沖走了。",
+      "starter": "The",
+      "answer": "The flood swept the small wooden bridge away.",
+      "answerZh": "洪水把那座小木橋沖走了。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底沖走或清除"
+    },
+    {
+      "id": "phrasal-verb-135-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "He ran forward and quickly lifted her into his arms.",
+      "promptZh": "他跑上前,迅速把她抱進懷裏。",
+      "starter": "He",
+      "answer": "He ran forward and quickly swept her up in his arms.",
+      "answerZh": "他跑上前,迅速把她抱進懷裏。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The music moved us so strongly that we forgot everything else.",
+      "promptZh": "音樂深深打動了我們,令我們忘記其他一切。",
+      "starter": "We",
+      "answer": "We were swept away by the music and forgot everything else.",
+      "answerZh": "我們完全被音樂感染,忘記了其他一切。",
+      "highlight": "We were swept away by",
+      "targetForm": "sweep somebody away",
+      "targetMeaningZh": "使某人受到強烈情緒感染"
+    },
+    {
+      "id": "phrasal-verb-135-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Ethan’s charm made Layla fall in love with him very quickly.",
+      "promptZh": "伊森的魅力令萊拉很快便愛上了他。",
+      "starter": "Layla",
+      "answer": "Layla was quickly swept off her feet by Ethan’s charm.",
+      "answerZh": "萊拉很快便被伊森的魅力迷倒。",
+      "highlight": "Layla was quickly swept off her feet by",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "All their complaints were ignored.",
+      "promptZh": "他們所有投訴都被置諸不理。",
+      "starter": "All",
+      "answer": "All their complaints were swept aside.",
+      "answerZh": "他們所有投訴都被置諸不理。",
+      "highlight": "swept aside",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The champion defeated her first opponent easily.",
+      "promptZh": "冠軍輕易擊敗了第一名對手。",
+      "starter": "The",
+      "answer": "The champion swept her first opponent aside.",
+      "answerZh": "冠軍輕易擊敗了第一名對手。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "A huge wave completely destroyed the sandcastle.",
+      "promptZh": "一個巨浪把沙堡完全摧毀了。",
+      "starter": "A",
+      "answer": "A huge wave swept the sandcastle away.",
+      "answerZh": "一個巨浪把沙堡完全沖走了。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底沖走或摧毀"
+    },
+    {
+      "id": "phrasal-verb-135-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Several beach chairs have been carried away by the storm.",
+      "promptZh": "幾張沙灘椅已被暴風雨捲走。",
+      "starter": "Several",
+      "answer": "Several beach chairs have been swept away by the storm.",
+      "answerZh": "幾張沙灘椅已被暴風雨捲走。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底沖走或吹走"
+    },
+    {
+      "id": "phrasal-verb-135-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Did Noah’s warm smile make you fall in love with him at once?",
+      "promptZh": "諾亞溫暖的笑容令你立即愛上他嗎?",
+      "starter": "Were",
+      "answer": "Were you swept off your feet by Noah’s warm smile?",
+      "answerZh": "你有被諾亞溫暖的笑容迷倒嗎?",
+      "highlight": "Were you swept off your feet by",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The crowd’s excitement is making Leo more and more involved.",
+      "promptZh": "群眾的興奮情緒令里奧愈來愈投入。",
+      "starter": "Leo",
+      "answer": "Leo is being swept along by the crowd’s excitement.",
+      "answerZh": "里奧正受到群眾的興奮情緒感染,愈來愈投入其中。",
+      "highlight": "Leo is being swept along by",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到氣氛感染"
+    },
+    {
+      "id": "phrasal-verb-135-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The wind has blown the papers from the desk.",
+      "promptZh": "風已把文件從書桌上吹走。",
+      "starter": "The",
+      "answer": "The wind has swept the papers off the desk.",
+      "answerZh": "風已把文件從書桌上掃落。",
+      "highlight": "swept",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "When the child runs to him, Dad will lift her into his arms in one smooth movement.",
+      "promptZh": "孩子跑向爸爸時,他會順勢把她抱進懷裏。",
+      "starter": "When",
+      "answer": "When the child runs to him, Dad will sweep her up in his arms.",
+      "answerZh": "孩子跑向爸爸時,他會順勢把她抱進懷裏。",
+      "highlight": "sweep",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Nora is moving her wet hair back from her eyes.",
+      "promptZh": "諾拉正把濕髮從眼前撥到後面。",
+      "starter": "Nora",
+      "answer": "Nora is sweeping her wet hair back from her eyes.",
+      "answerZh": "諾拉正把濕髮從眼前撥到後面。",
+      "highlight": "sweeping",
+      "targetForm": "sweep something back",
+      "targetMeaningZh": "把頭髮向後撥"
+    },
+    {
+      "id": "phrasal-verb-135-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Our team has defeated every opponent easily this season.",
+      "promptZh": "我們的球隊今季輕易擊敗了每一名對手。",
+      "starter": "Our",
+      "answer": "Our team has swept every opponent aside this season.",
+      "answerZh": "我們的球隊今季輕易擊敗了每一名對手。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The empty shop is being cleaned with brooms before painting begins.",
+      "promptZh": "粉飾工程開始前,空置店舖正在用掃帚清掃。",
+      "starter": "The",
+      "answer": "The empty shop is being swept out before painting begins.",
+      "answerZh": "粉飾工程開始前,空置店舖正在清掃。",
+      "highlight": "swept out",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "We must not simply ignore these safety concerns.",
+      "promptZh": "我們絕不能就這樣忽視這些安全問題。",
+      "starter": "We",
+      "answer": "We must not simply sweep these safety concerns aside.",
+      "answerZh": "我們絕不能就這樣把這些安全問題置諸不理。",
+      "highlight": "sweep",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會某事"
+    },
+    {
+      "id": "phrasal-verb-135-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Who removed the flour from the counter with a cloth?",
+      "promptZh": "誰用布把櫃枱上的麵粉抹走了?",
+      "starter": "Who",
+      "answer": "Who swept the flour off the counter with a cloth?",
+      "answerZh": "誰用布把櫃枱上的麵粉掃走了?",
+      "highlight": "swept",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Lena has collected all the broken pieces with a broom.",
+      "promptZh": "莉娜已用掃帚把所有碎片掃在一起。",
+      "starter": "Lena",
+      "answer": "Lena has swept up all the broken pieces.",
+      "answerZh": "莉娜已把所有碎片掃起來。",
+      "highlight": "swept up",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "His music and kind conversation may make her fall deeply in love with him in a single evening.",
+      "promptZh": "他的音樂和親切交談,可能會令她在一個晚上內深深愛上他。",
+      "starter": "She",
+      "answer": "She may be swept off her feet by his music and kind conversation in a single evening.",
+      "answerZh": "他的音樂和親切交談,可能會在一個晚上內把她迷倒。",
+      "highlight": "She may be swept off her feet by",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "令某人迅速深深愛上自己"
+    },
+    {
+      "id": "phrasal-verb-135-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Her hair was arranged into a high style for the dance.",
+      "promptZh": "她的頭髮為舞會梳成了高髮髻。",
+      "starter": "Her",
+      "answer": "Her hair was swept up into a high style for the dance.",
+      "answerZh": "她的頭髮為舞會向上梳成了高髮髻。",
+      "highlight": "swept up",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把頭髮向上梳"
+    },
+    {
+      "id": "phrasal-verb-135-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Have you cleaned the small shed with a broom yet?",
+      "promptZh": "你已用掃帚把小工具房清掃乾淨了嗎?",
+      "starter": "Have",
+      "answer": "Have you swept out the small shed yet?",
+      "answerZh": "你已把小工具房清掃乾淨了嗎?",
+      "highlight": "swept out",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Her fringe kept falling over her eyes, so she moved it back with one hand.",
+      "promptZh": "她的瀏海不斷垂到眼前,所以她用一隻手把它撥到後面。",
+      "starter": "Her",
+      "answer": "Her fringe kept falling over her eyes, so she swept it back with one hand.",
+      "answerZh": "她的瀏海不斷垂到眼前,所以她用一隻手把它撥到後面。",
+      "highlight": "swept",
+      "targetForm": "sweep something back",
+      "targetMeaningZh": "把頭髮向後撥"
+    },
+    {
+      "id": "phrasal-verb-135-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The festival began quietly. Soon, its excitement made everyone become fully involved.",
+      "promptZh": "節慶活動開始時很平靜。不久,它的熱鬧氣氛便令所有人完全投入其中。",
+      "starter": "The",
+      "answer": "The festival began quietly. Soon, everyone was swept along by its excitement.",
+      "answerZh": "節慶活動開始時很平靜。不久,所有人便受到熱鬧氣氛感染,完全投入其中。",
+      "highlight": "everyone was swept along by",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到氣氛感染"
+    },
+    {
+      "id": "phrasal-verb-135-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The old van was full of sand, so we cleaned it with a broom.",
+      "promptZh": "那輛舊客貨車滿是沙粒,所以我們用掃帚把車廂清掃乾淨。",
+      "starter": "The",
+      "answer": "The old van was full of sand, so we swept it out.",
+      "answerZh": "那輛舊客貨車滿是沙粒,所以我們把車廂清掃乾淨。",
+      "highlight": "swept",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The little girl ran to Karim, and he lifted her into his arms.",
+      "promptZh": "小女孩跑向卡里姆,他把她抱進懷裏。",
+      "starter": "The",
+      "answer": "The little girl ran to Karim, and he swept her up in his arms.",
+      "answerZh": "小女孩跑向卡里姆,他順勢把她抱進懷裏。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The parents raised several questions, but each one was ignored.",
+      "promptZh": "家長提出了幾個問題,但每一個都被置諸不理。",
+      "starter": "The",
+      "answer": "The parents raised several questions, but each one was swept aside.",
+      "answerZh": "家長提出了幾個問題,但每一個都被置諸不理。",
+      "highlight": "swept aside",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Two strong teams challenged the champions, but the champions defeated them easily.",
+      "promptZh": "兩支強隊挑戰冠軍隊,但冠軍隊輕易擊敗了它們。",
+      "starter": "Two",
+      "answer": "Two strong teams challenged the champions, but the champions swept them aside.",
+      "answerZh": "兩支強隊挑戰冠軍隊,但冠軍隊輕易擊敗了它們。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "There was dust on the chair, so Ava removed it with her hand before sitting down.",
+      "promptZh": "椅子上有灰塵,所以艾娃坐下前用手把灰塵撥走。",
+      "starter": "There",
+      "answer": "There was dust on the chair, so Ava swept it off before sitting down.",
+      "answerZh": "椅子上有灰塵,所以艾娃坐下前用手把灰塵掃走。",
+      "highlight": "swept",
+      "targetForm": "sweep something off",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Rice covered the kitchen floor, so Ben collected it with a broom.",
+      "promptZh": "米粒散滿廚房地面,所以本用掃帚把它們掃在一起。",
+      "starter": "Rice",
+      "answer": "Rice covered the kitchen floor, so Ben swept it up.",
+      "answerZh": "米粒散滿廚房地面,所以本把它們掃起來。",
+      "highlight": "swept",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把污垢或碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The old wall may be carried away if the river rises again.",
+      "promptZh": "如果河水再次上漲,那道舊牆可能會被沖走。",
+      "starter": "The",
+      "answer": "The old wall may be swept away if the river rises again.",
+      "answerZh": "如果河水再次上漲,那道舊牆可能會被沖走。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底沖走或摧毀"
+    },
+    {
+      "id": "phrasal-verb-135-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The speaker’s enthusiasm has made many students share her excitement.",
+      "promptZh": "講者的熱情令許多學生也感到興奮。",
+      "starter": "Many",
+      "answer": "Many students have been swept along by the speaker’s enthusiasm.",
+      "answerZh": "許多學生都受到講者的熱情感染,也投入其中。",
+      "highlight": "Many students have been swept along by",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到熱情感染"
+    },
+    {
+      "id": "phrasal-verb-135-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "At first, Priya was not interested in Daniel. His gentle humour soon made her fall in love with him.",
+      "promptZh": "起初,普里雅對丹尼爾沒有興趣。他溫和的幽默感很快便令她愛上了他。",
+      "starter": "At",
+      "answer": "At first, Priya was not interested in Daniel. His gentle humour soon swept her off her feet.",
+      "answerZh": "起初,普里雅對丹尼爾沒有興趣。他溫和的幽默感很快便把她迷倒。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "As soon as the young boy reached his mother, she lifted him quickly into her arms.",
+      "promptZh": "小男孩一走到母親身旁,她便迅速把他抱進懷裏。",
+      "starter": "As",
+      "answer": "As soon as the young boy reached his mother, she swept him up in her arms.",
+      "answerZh": "小男孩一走到母親身旁,她便順勢把他抱進懷裏。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The visiting team was defeated easily in the first round.",
+      "promptZh": "客隊在第一輪便被輕易擊敗。",
+      "starter": "The",
+      "answer": "The visiting team was swept aside in the first round.",
+      "answerZh": "客隊在第一輪便被輕易擊敗。",
+      "highlight": "swept aside",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After the glass broke, all the small pieces were collected with a broom.",
+      "promptZh": "玻璃打破後,所有小碎片都用掃帚掃在一起。",
+      "starter": "After",
+      "answer": "After the glass broke, all the small pieces were swept up.",
+      "answerZh": "玻璃打破後,所有小碎片都被掃起來。",
+      "highlight": "swept up",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Theo’s charm and thoughtfulness made Rosa fall deeply in love with him by the end of the evening.",
+      "promptZh": "到了晚上結束時,西奧的魅力和體貼已令羅莎深深愛上了他。",
+      "starter": "Theo’s",
+      "answer": "Theo’s charm and thoughtfulness swept Rosa off her feet by the end of the evening.",
+      "answerZh": "到了晚上結束時,西奧的魅力和體貼已把羅莎迷倒。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The committee listened to the cost concerns but dismissed them immediately without checking the figures.",
+      "promptZh": "委員會聽取了有關成本的憂慮,卻沒有核對數字便立即不予理會。",
+      "starter": "The",
+      "answer": "The committee listened to the cost concerns but swept them aside immediately without checking the figures.",
+      "answerZh": "委員會聽取了有關成本的憂慮,卻沒有核對數字便立即把它們置諸不理。",
+      "highlight": "swept",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Hana planned to watch quietly, but she soon shared the crowd’s excitement and shouted with the other fans.",
+      "promptZh": "哈娜本來打算安靜觀看,但很快便受到群眾情緒感染,與其他球迷一起呼喊。",
+      "starter": "Hana",
+      "answer": "Hana planned to watch quietly, but she was soon swept along by the crowd’s excitement and shouted with the other fans.",
+      "answerZh": "哈娜本來打算安靜觀看,但很快便受到群眾的興奮情緒感染,與其他球迷一起呼喊。",
+      "highlight": "she was",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到氣氛感染"
+    },
+    {
+      "id": "phrasal-verb-135-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "As the server reached across the table, his sleeve knocked all the empty cups onto the floor.",
+      "promptZh": "侍應伸手越過桌面時,衣袖把所有空杯掃到地上。",
+      "starter": "As",
+      "answer": "As the server reached across the table, his sleeve swept all the empty cups off the table and onto the floor.",
+      "answerZh": "侍應伸手越過桌面時,衣袖把所有空杯從桌上掃到地上。",
+      "highlight": "swept",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The child had been crying, but her aunt lifted her close in one smooth movement and comforted her.",
+      "promptZh": "孩子一直在哭,但姨姨順勢把她抱進懷裏安慰她。",
+      "starter": "The",
+      "answer": "The child had been crying, but her aunt swept her up in her arms and comforted her.",
+      "answerZh": "孩子一直在哭,但姨姨順勢把她抱進懷裏安慰她。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The strong wind removed every small cloud, leaving a completely clear sky.",
+      "promptZh": "強風吹走了每一朵小雲,令天空變得完全晴朗。",
+      "starter": "The",
+      "answer": "The strong wind swept every small cloud away, leaving a completely clear sky.",
+      "answerZh": "強風把每一朵小雲吹走,令天空變得完全晴朗。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底吹走或清除"
+    },
+    {
+      "id": "phrasal-verb-135-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The top seed defeated the new player so easily that the match ended in twenty minutes.",
+      "promptZh": "頭號種子球手輕易擊敗新球手,賽事二十分鐘便結束。",
+      "starter": "The",
+      "answer": "The top seed swept the new player aside, and the match ended in twenty minutes.",
+      "answerZh": "頭號種子球手輕易擊敗新球手,賽事二十分鐘便結束。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before entering the kitchen, Zoe gathered her long hair above her neck and tied it into a loose knot.",
+      "promptZh": "進入廚房前,佐伊把長髮梳到頸部上方,紮成一個鬆鬆的髮髻。",
+      "starter": "Before",
+      "answer": "Before entering the kitchen, Zoe swept her long hair up into a loose knot.",
+      "answerZh": "進入廚房前,佐伊把長髮向上梳,紮成一個鬆鬆的髮髻。",
+      "highlight": "swept",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把頭髮向上梳"
+    },
+    {
+      "id": "phrasal-verb-135-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After the builders left, the family used brooms to clean all the dust from the empty room.",
+      "promptZh": "工人離開後,那家人用掃帚清走空房內的所有灰塵。",
+      "starter": "After",
+      "answer": "After the builders left, the family swept out the empty room.",
+      "answerZh": "工人離開後,那家人把空房清掃乾淨。",
+      "highlight": "swept out",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The school received clear warnings about the broken gate, yet it ignored them.",
+      "promptZh": "學校收到有關損壞閘門的明確警告,卻沒有理會。",
+      "starter": "The",
+      "answer": "The school received clear warnings about the broken gate, yet it swept them aside.",
+      "answerZh": "學校收到有關損壞閘門的明確警告,卻把它們置諸不理。",
+      "highlight": "swept",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The café had closed, but someone still needed to collect the sugar and paper from under the tables with a broom.",
+      "promptZh": "咖啡店已關門,但仍要有人用掃帚把桌下的糖粒和紙屑掃在一起。",
+      "starter": "The",
+      "answer": "The café had closed, but someone still needed to sweep up the sugar and paper from under the tables.",
+      "answerZh": "咖啡店已關門,但仍要有人把桌下的糖粒和紙屑掃起來。",
+      "highlight": "sweep up",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把污垢或碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Before the lesson, the teacher removed the chalk dust from the board with a cloth.",
+      "promptZh": "上課前,老師用布把黑板上的粉筆灰抹走。",
+      "starter": "Before",
+      "answer": "Before the lesson, the teacher swept the chalk dust off the board with a cloth.",
+      "answerZh": "上課前,老師用布把黑板上的粉筆灰掃走。",
+      "highlight": "swept",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走"
+    },
+    {
+      "id": "phrasal-verb-135-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The new law removed several old rules at once.",
+      "promptZh": "新法例一次過廢除了幾項舊規則。",
+      "starter": "The",
+      "answer": "The new law swept several old rules away at once.",
+      "answerZh": "新法例一次過廢除了幾項舊規則。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底清除"
+    },
+    {
+      "id": "phrasal-verb-135-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "A strong breeze pushed Ivy’s hair back from her face as she opened the door.",
+      "promptZh": "艾薇打開門時,一陣強風吹起她的頭髮,把它從臉前吹到後面。",
+      "starter": "A",
+      "answer": "A strong breeze swept Ivy’s hair back from her face as she opened the door.",
+      "answerZh": "艾薇打開門時,一陣強風把她的頭髮從臉前吹到後面。",
+      "highlight": "swept",
+      "targetForm": "sweep something back",
+      "targetMeaningZh": "把頭髮向後撥或吹向後方"
+    },
+    {
+      "id": "phrasal-verb-135-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The local club expected a hard match, but the national champions defeated them without allowing a single goal.",
+      "promptZh": "本地球會原以為比賽會很艱難,但全國冠軍隊輕易擊敗了他們,沒有讓他們取得任何入球。",
+      "starter": "The",
+      "answer": "The local club expected a hard match, but the national champions swept them aside without allowing a single goal.",
+      "answerZh": "本地球會原以為比賽會很艱難,但全國冠軍隊輕易擊敗了他們,沒有讓他們取得任何入球。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody aside",
+      "targetMeaningZh": "輕易擊敗某人"
+    },
+    {
+      "id": "phrasal-verb-135-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The family wanted to use the old storeroom again, so they cleaned it thoroughly with brooms before moving the boxes in.",
+      "promptZh": "那家人想再次使用舊儲物室,所以在搬入箱子前用掃帚把它徹底清掃乾淨。",
+      "starter": "The",
+      "answer": "The family wanted to use the old storeroom again, so they swept it out thoroughly before moving the boxes in.",
+      "answerZh": "那家人想再次使用舊儲物室,所以在搬入箱子前把它徹底清掃乾淨。",
+      "highlight": "swept",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After days of heavy rain, the river rose suddenly and carried away the footbridge that joined the two villages.",
+      "promptZh": "連日大雨後,河水突然上漲,沖走了連接兩條村落的行人橋。",
+      "starter": "After",
+      "answer": "After days of heavy rain, the river rose suddenly and swept the footbridge that joined the two villages away.",
+      "answerZh": "連日大雨後,河水突然上漲,沖走了連接兩條村落的行人橋。",
+      "highlight": "swept",
+      "targetForm": "sweep something away",
+      "targetMeaningZh": "把某物徹底沖走或摧毀"
+    },
+    {
+      "id": "phrasal-verb-135-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Nadia had promised herself not to fall in love quickly, but Sam’s kindness and confidence changed her feelings in a single evening.",
+      "promptZh": "娜迪亞曾答應自己不要太快愛上別人,但森的善良和自信在一個晚上便改變了她的感受。",
+      "starter": "Nadia",
+      "answer": "Nadia had promised herself not to fall in love quickly, but Sam’s kindness and confidence swept her off her feet in a single evening.",
+      "answerZh": "娜迪亞曾答應自己不要太快愛上別人,但森的善良和自信在一個晚上便把她迷倒。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The band played with such energy that even the quietest guests became fully involved in the dancing.",
+      "promptZh": "樂隊演奏得充滿活力,連最安靜的賓客也完全投入舞蹈之中。",
+      "starter": "The",
+      "answer": "The band’s energy swept even the quietest guests along, and they became fully involved in the dancing.",
+      "answerZh": "樂隊的活力感染了連最安靜的賓客,令他們完全投入舞蹈之中。",
+      "highlight": "band’s",
+      "targetForm": "sweep somebody along",
+      "targetMeaningZh": "使某人受到氣氛或熱情感染"
+    },
+    {
+      "id": "phrasal-verb-135-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "When Ari finally returned after six months away, his older sister ran towards him, lifted him into her arms and laughed.",
+      "promptZh": "阿里離開六個月後終於回來,姊姊跑向他,把他抱進懷裏並笑了起來。",
+      "starter": "When",
+      "answer": "When Ari finally returned after six months away, his older sister ran towards him, swept him up in her arms and laughed.",
+      "answerZh": "阿里離開六個月後終於回來,姊姊跑向他,順勢把他抱進懷裏並笑了起來。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The young staff offered several practical ideas, but the director refused to consider any of them because he wanted his own plan.",
+      "promptZh": "年輕員工提出了幾個實際構思,但總監因為只想採用自己的計劃而拒絕考慮任何一個。",
+      "starter": "The",
+      "answer": "The young staff offered several practical ideas, but the director swept them all aside because he wanted his own plan.",
+      "answerZh": "年輕員工提出了幾個實際構思,但總監因為只想採用自己的計劃而把它們全都置諸不理。",
+      "highlight": "swept",
+      "targetForm": "sweep something aside",
+      "targetMeaningZh": "完全不理會或拒絕考慮某事"
+    },
+    {
+      "id": "phrasal-verb-135-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After the art activity, tiny pieces of paper covered the floor, so the children used brooms to collect every one of them.",
+      "promptZh": "美術活動後,小紙屑散滿地面,所以孩子們用掃帚把它們全部掃在一起。",
+      "starter": "After",
+      "answer": "After the art activity, tiny pieces of paper covered the floor, so the children swept them all up.",
+      "answerZh": "美術活動後,小紙屑散滿地面,所以孩子們把它們全部掃起來。",
+      "highlight": "swept",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把碎屑掃起來"
+    },
+    {
+      "id": "phrasal-verb-135-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The wind kept blowing her hair across her eyes, so Keira used both hands to move it behind her head and hold it there.",
+      "promptZh": "風吹得她的頭髮不斷遮住雙眼,所以姬拉用雙手把頭髮撥到腦後並按住。",
+      "starter": "The",
+      "answer": "The wind kept blowing her hair across her eyes, so Keira swept it back with both hands and held it there.",
+      "answerZh": "風吹得她的頭髮不斷遮住雙眼,所以姬拉用雙手把頭髮撥到腦後並按住。",
+      "highlight": "swept it back with",
+      "targetForm": "sweep something back",
+      "targetMeaningZh": "把頭髮向後撥"
+    },
+    {
+      "id": "phrasal-verb-135-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before the new family could move into the flat, the workers had to clean each empty room with brooms and remove the dust.",
+      "promptZh": "新家庭入住單位前,工人必須用掃帚清掃每個空房間,清走灰塵。",
+      "starter": "Before",
+      "answer": "Before the new family could move into the flat, the workers had to sweep out each empty room.",
+      "answerZh": "新家庭入住單位前,工人必須把每個空房間清掃乾淨。",
+      "highlight": "sweep out",
+      "targetForm": "sweep something out",
+      "targetMeaningZh": "用掃帚把某個地方清掃乾淨"
+    },
+    {
+      "id": "phrasal-verb-135-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The sudden gust moved across the picnic table and sent every paper plate onto the grass.",
+      "promptZh": "一陣突如其來的強風吹過野餐桌,把所有紙碟吹到草地上。",
+      "starter": "The",
+      "answer": "The sudden gust swept every paper plate off the picnic table and onto the grass.",
+      "answerZh": "一陣突如其來的強風把所有紙碟從野餐桌吹到草地上。",
+      "highlight": "swept every paper plate off",
+      "targetForm": "sweep something off something",
+      "targetMeaningZh": "把某物從表面掃走或吹走"
+    },
+    {
+      "id": "phrasal-verb-135-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although Daniel usually avoided serious relationships, Leila’s warm humour made him fall deeply in love almost at once.",
+      "promptZh": "雖然丹尼爾通常避免發展認真的感情關係,但蕾拉溫暖的幽默感幾乎立即令他深深愛上她。",
+      "starter": "Although",
+      "answer": "Although Daniel usually avoided serious relationships, Leila’s warm humour swept him off his feet almost at once.",
+      "answerZh": "雖然丹尼爾通常避免發展認真的感情關係,但蕾拉溫暖的幽默感幾乎立即把他迷倒。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody off their feet",
+      "targetMeaningZh": "把某人迷倒"
+    },
+    {
+      "id": "phrasal-verb-135-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The boy ran through the airport doors, and his father lifted him into his arms in one quick, joyful movement.",
+      "promptZh": "男孩跑過機場大門,父親開心地迅速把他抱進懷裏。",
+      "starter": "The",
+      "answer": "The boy ran through the airport doors, and his father swept him up in his arms in one quick, joyful movement.",
+      "answerZh": "男孩跑過機場大門,父親開心地迅速把他抱進懷裏。",
+      "highlight": "swept",
+      "targetForm": "sweep somebody up",
+      "targetMeaningZh": "迅速而流暢地把某人抱起"
+    },
+    {
+      "id": "phrasal-verb-135-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The storm had left leaves and small branches across the path, and the park workers used brooms to collect them before visitors arrived.",
+      "promptZh": "暴風雨令小徑上滿是樹葉和小樹枝,公園工人在遊人到達前用掃帚把它們掃在一起。",
+      "starter": "The",
+      "answer": "The storm had left leaves and small branches across the path, and the park workers swept them up before visitors arrived.",
+      "answerZh": "暴風雨令小徑上滿是樹葉和小樹枝,公園工人在遊人到達前把它們掃起來。",
+      "highlight": "swept",
+      "targetForm": "sweep something up",
+      "targetMeaningZh": "把污垢或碎屑掃起來"
+    }
+  ]
+}

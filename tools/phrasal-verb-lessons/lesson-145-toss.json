@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-145",
+  "order": 145,
+  "slug": "toss",
+  "version": "1",
+  "title": "TOSS 動詞片語",
+  "titleEn": "Toss",
+  "titleZh": "TOSS 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 144 - TOSS.pdf",
+    "sourceNumber": 144,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TOSS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TOSS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TOSS",
+      "highlight": "TOSS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We tossed a few ideas around after lunch.",
+      "zh": "午飯後,我們提出並討論了幾個想法。",
+      "highlight": "tossed a few ideas around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tossed the letter aside and stood up.",
+      "zh": "他把信隨手丟到一旁,然後站起來。",
+      "highlight": "tossed",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please do not toss that receipt away.",
+      "zh": "請不要把那張收據丟掉。",
+      "highlight": "toss that receipt away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在作決定前,非正式地提出並討論想法或建議；把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺；把不要的東西丟掉；迅速喝下飲品；以擲硬幣決定誰得到某物或先做某事；很快而且看似毫不費力地完成寫作或創作",
+    "en": "toss something around / toss something about; toss something aside; toss something away; toss something back; toss for something / toss somebody for something / toss up / toss up for something; toss something off",
+    "naturalZh": [
+      "在作決定前,非正式地提出並討論想法或建議",
+      "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+      "把不要的東西丟掉",
+      "迅速喝下飲品",
+      "以擲硬幣決定誰得到某物或先做某事",
+      "很快而且看似毫不費力地完成寫作或創作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "toss something around / toss something about",
+      "titleZh": "在作決定前,非正式地提出並討論想法或建議",
+      "titleEn": "toss something around / toss something about",
+      "descriptionZh": "在作決定前,非正式地提出並討論想法或建議",
+      "descriptionEn": "We tossed a few ideas around after lunch.",
+      "examples": [
+        {
+          "en": "We tossed a few ideas around after lunch.",
+          "zh": "午飯後,我們提出並討論了幾個想法。",
+          "highlight": "tossed a few ideas around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "toss something aside",
+      "titleZh": "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+      "titleEn": "toss something aside",
+      "descriptionZh": "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+      "descriptionEn": "He tossed the letter aside and stood up.",
+      "examples": [
+        {
+          "en": "He tossed the letter aside and stood up.",
+          "zh": "他把信隨手丟到一旁,然後站起來。",
+          "highlight": "tossed"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "toss something away",
+      "titleZh": "把不要的東西丟掉",
+      "titleEn": "toss something away",
+      "descriptionZh": "把不要的東西丟掉",
+      "descriptionEn": "Please do not toss that receipt away.",
+      "examples": [
+        {
+          "en": "Please do not toss that receipt away.",
+          "zh": "請不要把那張收據丟掉。",
+          "highlight": "toss that receipt away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "toss something back",
+      "titleZh": "迅速喝下飲品",
+      "titleEn": "toss something back",
+      "descriptionZh": "迅速喝下飲品",
+      "descriptionEn": "He tossed back the water before the race.",
+      "examples": [
+        {
+          "en": "He tossed back the water before the race.",
+          "zh": "比賽前,他一口喝下了那杯水。",
+          "highlight": "tossed back"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "toss for something / toss somebody for something / toss up / toss up for something",
+      "titleZh": "以擲硬幣決定誰得到某物或先做某事",
+      "titleEn": "toss for something / toss somebody for something / toss up / toss up for something",
+      "descriptionZh": "以擲硬幣決定誰得到某物或先做某事",
+      "descriptionEn": "Let’s toss for the window seat.",
+      "examples": [
+        {
+          "en": "Let’s toss for the window seat.",
+          "zh": "我們擲硬幣決定誰坐窗邊座位吧。",
+          "highlight": "toss for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "toss something off",
+      "titleZh": "很快而且看似毫不費力地完成寫作或創作",
+      "titleEn": "toss something off",
+      "descriptionZh": "很快而且看似毫不費力地完成寫作或創作",
+      "descriptionEn": "She tossed off the short article before lunch.",
+      "examples": [
+        {
+          "en": "She tossed off the short article before lunch.",
+          "zh": "她在午飯前便輕鬆迅速地寫完了那篇短文。",
+          "highlight": "tossed off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TOSS 片語動詞的實際用途",
+    "labelEn": "TOSS Phrasal Verbs in Use",
+    "summaryZh": "toss ideas around 或 about 可以描述大家在選擇方案前,非正式地提出並討論不同構思。；toss something away 表示把某物丟掉;toss something aside 則表示把某物隨手丟到一旁,或不再理會它。；toss a drink back 表示迅速喝下飲品;toss a piece of writing off 則表示很快而且看似毫不費力地完成寫作。；toss for something、toss somebody for something 和 toss up 可以描述以擲硬幣決定誰先開始或得到某物。",
+    "summaryEn": "Toss ideas around or about helps you describe an informal discussion before people choose a plan. Toss something away shows that it is thrown out, while toss something aside shows that it is quickly put to one side or no longer considered. Toss a drink back describes drinking it quickly. Toss a piece of writing off describes producing it quickly and with little apparent effort. Toss for something, toss somebody for something and toss up help you describe deciding who goes first or receives something.",
+    "contextsZh": [
+      "在作決定前討論不同構思",
+      "描述丟掉或不再理會某物",
+      "表達迅速而看似輕鬆的動作",
+      "以擲硬幣公平處理小決定"
+    ],
+    "contextsEn": [
+      "Discuss ideas before making a decision",
+      "Describe what happens to unwanted or ignored things",
+      "Express quick, easy-looking actions",
+      "Make small decisions fairly with a coin"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TOSS 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TOSS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "toss something around / toss something about",
+    "fixedHighlight": "toss something around / toss something about",
+    "fixedZh": "閱讀整句,選出意思相同的 TOSS 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TOSS expression that gives the same meaning.",
+    "correct": "tossed a few ideas around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 TOSS ... AROUND / ASIDE / AWAY / BACK / OFF 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；toss for something、toss somebody for something 和 toss up / toss up for something 都表示以擲硬幣作決定。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them in a TOSS... AROUND / ASIDE / AWAY / BACK / OFF expression, place the word as shown: toss it around toss him aside toss them away toss it back toss it off Toss for something, toss somebody for something and toss up / toss up for something all use a coin to make a decision.",
+    "variableItemsZh": [
+      "toss something around / toss something about",
+      "toss something aside",
+      "toss something away",
+      "toss something back",
+      "toss for something / toss somebody for something / toss up / toss up for something",
+      "toss something off"
+    ],
+    "variableItemsEn": [
+      "toss something around / toss something about",
+      "toss something aside",
+      "toss something away",
+      "toss something back",
+      "toss for something / toss somebody for something / toss up / toss up for something",
+      "toss something off"
+    ],
+    "forms": [
+      {
+        "formZh": "在作決定前,非正式地提出並討論想法或建議",
+        "formEn": "toss something around / toss something about",
+        "exampleZh": "午飯後,我們提出並討論了幾個想法。",
+        "exampleEn": "We tossed a few ideas around after lunch.",
+        "highlight": "tossed a few ideas around"
+      },
+      {
+        "formZh": "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+        "formEn": "toss something aside",
+        "exampleZh": "他把信隨手丟到一旁,然後站起來。",
+        "exampleEn": "He tossed the letter aside and stood up.",
+        "highlight": "tossed"
+      },
+      {
+        "formZh": "把不要的東西丟掉",
+        "formEn": "toss something away",
+        "exampleZh": "請不要把那張收據丟掉。",
+        "exampleEn": "Please do not toss that receipt away.",
+        "highlight": "toss that receipt away"
+      },
+      {
+        "formZh": "迅速喝下飲品",
+        "formEn": "toss something back",
+        "exampleZh": "比賽前,他一口喝下了那杯水。",
+        "exampleEn": "He tossed back the water before the race.",
+        "highlight": "tossed back"
+      },
+      {
+        "formZh": "以擲硬幣決定誰得到某物或先做某事",
+        "formEn": "toss for something / toss somebody for something / toss up / toss up for something",
+        "exampleZh": "我們擲硬幣決定誰坐窗邊座位吧。",
+        "exampleEn": "Let’s toss for the window seat.",
+        "highlight": "toss for"
+      },
+      {
+        "formZh": "很快而且看似毫不費力地完成寫作或創作",
+        "formEn": "toss something off",
+        "exampleZh": "她在午飯前便輕鬆迅速地寫完了那篇短文。",
+        "exampleEn": "She tossed off the short article before lunch.",
+        "highlight": "tossed off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在作決定前,非正式地提出並討論想法或建議",
+      "titleEn": "toss something around / toss something about",
+      "formula": "toss something around / toss something about",
+      "highlight": "toss something around / toss something about",
+      "descriptionZh": "在作決定前,非正式地提出並討論想法或建議",
+      "descriptionEn": "We tossed a few ideas around after lunch.",
+      "examples": [
+        {
+          "en": "We tossed a few ideas around after lunch.",
+          "zh": "午飯後,我們提出並討論了幾個想法。",
+          "highlight": "tossed a few ideas around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+      "titleEn": "toss something aside",
+      "formula": "toss something aside",
+      "highlight": "toss something aside",
+      "descriptionZh": "把某物隨手丟到一旁,常帶有不耐煩或不再理會的感覺",
+      "descriptionEn": "He tossed the letter aside and stood up.",
+      "examples": [
+        {
+          "en": "He tossed the letter aside and stood up.",
+          "zh": "他把信隨手丟到一旁,然後站起來。",
+          "highlight": "tossed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把不要的東西丟掉",
+      "titleEn": "toss something away",
+      "formula": "toss something away",
+      "highlight": "toss something away",
+      "descriptionZh": "把不要的東西丟掉",
+      "descriptionEn": "Please do not toss that receipt away.",
+      "examples": [
+        {
+          "en": "Please do not toss that receipt away.",
+          "zh": "請不要把那張收據丟掉。",
+          "highlight": "toss that receipt away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "迅速喝下飲品",
+      "titleEn": "toss something back",
+      "formula": "toss something back",
+      "highlight": "toss something back",
+      "descriptionZh": "迅速喝下飲品",
+      "descriptionEn": "He tossed back the water before the race.",
+      "examples": [
+        {
+          "en": "He tossed back the water before the race.",
+          "zh": "比賽前,他一口喝下了那杯水。",
+          "highlight": "tossed back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "以擲硬幣決定誰得到某物或先做某事",
+      "titleEn": "toss for something / toss somebody for something / toss up / toss up for something",
+      "formula": "toss for something / toss somebody for something / toss up / toss up for something",
+      "highlight": "toss for something / toss somebody for something / toss up / toss up for something",
+      "descriptionZh": "以擲硬幣決定誰得到某物或先做某事",
+      "descriptionEn": "Let’s toss for the window seat.",
+      "examples": [
+        {
+          "en": "Let’s toss for the window seat.",
+          "zh": "我們擲硬幣決定誰坐窗邊座位吧。",
+          "highlight": "toss for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "很快而且看似毫不費力地完成寫作或創作",
+      "titleEn": "toss something off",
+      "formula": "toss something off",
+      "highlight": "toss something off",
+      "descriptionZh": "很快而且看似毫不費力地完成寫作或創作",
+      "descriptionEn": "She tossed off the short article before lunch.",
+      "examples": [
+        {
+          "en": "She tossed off the short article before lunch.",
+          "zh": "她在午飯前便輕鬆迅速地寫完了那篇短文。",
+          "highlight": "tossed off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "在作決定前討論不同構思",
+      "titleEn": "Discuss ideas before making a decision",
+      "zh": "toss ideas around 或 about 可以描述大家在選擇方案前,非正式地提出並討論不同構思。",
+      "en": "Toss ideas around or about helps you describe an informal discussion before people choose a plan."
+    },
+    {
+      "titleZh": "描述丟掉或不再理會某物",
+      "titleEn": "Describe what happens to unwanted or ignored things",
+      "zh": "toss something away 表示把某物丟掉;toss something aside 則表示把某物隨手丟到一旁,或不再理會它。",
+      "en": "Toss something away shows that it is thrown out, while toss something aside shows that it is quickly put to one side or no longer considered."
+    },
+    {
+      "titleZh": "表達迅速而看似輕鬆的動作",
+      "titleEn": "Express quick, easy-looking actions",
+      "zh": "toss a drink back 表示迅速喝下飲品;toss a piece of writing off 則表示很快而且看似毫不費力地完成寫作。",
+      "en": "Toss a drink back describes drinking it quickly. Toss a piece of writing off describes producing it quickly and with little apparent effort."
+    },
+    {
+      "titleZh": "以擲硬幣公平處理小決定",
+      "titleEn": "Make small decisions fairly with a coin",
+      "zh": "toss for something、toss somebody for something 和 toss up 可以描述以擲硬幣決定誰先開始或得到某物。",
+      "en": "Toss for something, toss somebody for something and toss up help you describe deciding who goes first or receives something."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "在作決定前討論不同構思",
+      "描述丟掉或不再理會某物",
+      "表達迅速而看似輕鬆的動作",
+      "以擲硬幣公平處理小決定"
+    ],
+    "contextsEn": [
+      "Discuss ideas before making a decision",
+      "Describe what happens to unwanted or ignored things",
+      "Express quick, easy-looking actions",
+      "Make small decisions fairly with a coin"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "在作決定前討論不同構思",
+        "titleEn": "Discuss ideas before making a decision",
+        "zh": "toss ideas around 或 about 可以描述大家在選擇方案前,非正式地提出並討論不同構思。",
+        "en": "Toss ideas around or about helps you describe an informal discussion before people choose a plan.",
+        "examples": [
+          {
+            "en": "We tossed a few ideas around after lunch.",
+            "zh": "午飯後,我們提出並討論了幾個想法。",
+            "highlight": "tossed a few ideas around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述丟掉或不再理會某物",
+        "titleEn": "Describe what happens to unwanted or ignored things",
+        "zh": "toss something away 表示把某物丟掉;toss something aside 則表示把某物隨手丟到一旁,或不再理會它。",
+        "en": "Toss something away shows that it is thrown out, while toss something aside shows that it is quickly put to one side or no longer considered.",
+        "examples": [
+          {
+            "en": "He tossed the letter aside and stood up.",
+            "zh": "他把信隨手丟到一旁,然後站起來。",
+            "highlight": "tossed"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達迅速而看似輕鬆的動作",
+        "titleEn": "Express quick, easy-looking actions",
+        "zh": "toss a drink back 表示迅速喝下飲品;toss a piece of writing off 則表示很快而且看似毫不費力地完成寫作。",
+        "en": "Toss a drink back describes drinking it quickly. Toss a piece of writing off describes producing it quickly and with little apparent effort.",
+        "examples": [
+          {
+            "en": "Please do not toss that receipt away.",
+            "zh": "請不要把那張收據丟掉。",
+            "highlight": "toss that receipt away"
+          }
+        ]
+      },
+      {
+        "titleZh": "以擲硬幣公平處理小決定",
+        "titleEn": "Make small decisions fairly with a coin",
+        "zh": "toss for something、toss somebody for something 和 toss up 可以描述以擲硬幣決定誰先開始或得到某物。",
+        "en": "Toss for something, toss somebody for something and toss up help you describe deciding who goes first or receives something.",
+        "examples": [
+          {
+            "en": "He tossed back the water before the race.",
+            "zh": "比賽前,他一口喝下了那杯水。",
+            "highlight": "tossed back"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TOSS 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TOSS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TOSS 片語動詞。",
+      "en": "Read the whole sentence and choose the TOSS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 TOSS ... AROUND / ASIDE / AWAY / BACK / OFF 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them in a TOSS.",
+      "zh": "在 TOSS ... AROUND / ASIDE / AWAY / BACK / OFF 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them in a TOSS... AROUND / ASIDE / AWAY / BACK / OFF expression, place the word as shown: toss it around toss him aside toss them away toss it back toss it off"
+    },
+    {
+      "titleZh": "toss for something、toss somebody for something 和 toss up / toss up for something 都表示以擲硬幣作決定。",
+      "titleEn": "Toss for something, toss somebody for something and toss up / toss up for something all use a coin to make a decision.",
+      "zh": "toss for something、toss somebody for something 和 toss up / toss up for something 都表示以擲硬幣作決定。",
+      "en": "Toss for something, toss somebody for something and toss up / toss up for something all use a coin to make a decision."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TOSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TOSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TOSS 動詞片語句子改寫練習",
+    "titleEn": "TOSS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TOSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TOSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-145-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We discussed a few ideas informally after lunch.",
+      "promptZh": "午飯後,我們非正式地討論了幾個想法。",
+      "starter": "We",
+      "answer": "We tossed a few ideas around after lunch.",
+      "answerZh": "午飯後,我們提出並討論了幾個想法。",
+      "highlight": "tossed",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He drank the water quickly before the race.",
+      "promptZh": "比賽前,他很快喝下了那杯水。",
+      "starter": "He",
+      "answer": "He tossed back the water before the race.",
+      "answerZh": "比賽前,他一口喝下了那杯水。",
+      "highlight": "tossed back",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He threw the newspaper to one side and stood up.",
+      "promptZh": "他把報紙丟到一旁,然後站起來。",
+      "starter": "He",
+      "answer": "He tossed the newspaper aside and stood up.",
+      "answerZh": "他把報紙隨手丟到一旁,然後站起來。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We used a coin to decide who would take the window seat.",
+      "promptZh": "我們擲硬幣決定誰坐窗邊座位。",
+      "starter": "We",
+      "answer": "We tossed for the window seat.",
+      "answerZh": "我們擲硬幣決定誰坐窗邊座位。",
+      "highlight": "tossed for",
+      "targetForm": "toss for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please do not throw that receipt in the bin.",
+      "promptZh": "請不要把那張收據丟進垃圾桶。",
+      "starter": "Please",
+      "answer": "Please do not toss that receipt away.",
+      "answerZh": "請不要把那張收據丟掉。",
+      "highlight": "toss",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "She wrote the short article quickly and easily before lunch.",
+      "promptZh": "她在午飯前迅速而輕鬆地寫完了那篇短文。",
+      "starter": "She",
+      "answer": "She tossed off the short article before lunch.",
+      "answerZh": "她在午飯前便輕鬆迅速地寫完了那篇短文。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Zara threw her wet towel to one side before opening the door.",
+      "promptZh": "扎拉開門前把濕毛巾丟到一旁。",
+      "starter": "Zara",
+      "answer": "Zara tossed her wet towel aside before opening the door.",
+      "answerZh": "扎拉開門前把濕毛巾隨手丟到一旁。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The team discussed several names informally before choosing one.",
+      "promptZh": "團隊在選定一個名字前,非正式地討論了幾個名字。",
+      "starter": "The",
+      "answer": "The team tossed several names about before choosing one.",
+      "answerZh": "團隊在選定一個名字前,提出並討論了幾個名字。",
+      "highlight": "tossed",
+      "targetForm": "toss something about",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The two captains used a coin before the match to decide who would start.",
+      "promptZh": "兩名隊長在比賽前擲硬幣,決定哪一隊先開始。",
+      "starter": "The",
+      "answer": "The two captains tossed up before the match to decide who would start.",
+      "answerZh": "兩名隊長在比賽前擲硬幣,決定哪一隊先開始。",
+      "highlight": "tossed up",
+      "targetForm": "toss up",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The nurse quickly drank the small cup of juice and returned to work.",
+      "promptZh": "護士迅速喝下那小杯果汁,然後返回工作。",
+      "starter": "The",
+      "answer": "The nurse tossed back the small cup of juice and returned to work.",
+      "answerZh": "護士一口喝下那小杯果汁,然後返回工作。",
+      "highlight": "tossed back",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Leo wrote a funny poem in only ten minutes and made it look easy.",
+      "promptZh": "里奧只用了十分鐘便寫好一首有趣的詩,而且看來毫不費力。",
+      "starter": "Leo",
+      "answer": "Leo tossed off a funny poem in only ten minutes.",
+      "answerZh": "里奧只用了十分鐘便輕鬆迅速地寫好一首有趣的詩。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ella threw the broken pen in the bin after class.",
+      "promptZh": "埃拉下課後把壞掉的筆丟進垃圾桶。",
+      "starter": "Ella",
+      "answer": "Ella tossed the broken pen away after class.",
+      "answerZh": "埃拉下課後把壞掉的筆丟掉。",
+      "highlight": "tossed",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We are informally discussing a few holiday plans this evening.",
+      "promptZh": "我們今晚正非正式地討論幾個假期計劃。",
+      "starter": "We",
+      "answer": "We are tossing a few holiday plans around this evening.",
+      "answerZh": "我們今晚正提出並討論幾個假期計劃。",
+      "highlight": "tossing",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "He has thrown all the old tickets in the bin.",
+      "promptZh": "他已把所有舊票丟進垃圾桶。",
+      "starter": "He",
+      "answer": "He has tossed all the old tickets away.",
+      "answerZh": "他已把所有舊票丟掉。",
+      "highlight": "tossed",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The writer quickly and easily completed three short reviews that morning.",
+      "promptZh": "那名作家當天早上迅速而輕鬆地完成了三篇短評。",
+      "starter": "The",
+      "answer": "The writer tossed off three short reviews that morning.",
+      "answerZh": "那名作家當天早上輕鬆迅速地完成了三篇短評。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The child throws his shoes to one side as soon as he gets home.",
+      "promptZh": "那個孩子一回到家便把鞋子丟到一旁。",
+      "starter": "The",
+      "answer": "The child tosses his shoes aside as soon as he gets home.",
+      "answerZh": "那個孩子一回到家便把鞋子隨手丟到一旁。",
+      "highlight": "tosses",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Shall we use a coin to decide who gets the last piece of cake?",
+      "promptZh": "我們擲硬幣決定誰吃最後一件蛋糕,好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we toss for the last piece of cake?",
+      "answerZh": "我們擲硬幣決定誰吃最後一件蛋糕,好嗎?",
+      "highlight": "toss for",
+      "targetForm": "toss for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Arun quickly drank his juice and left the café.",
+      "promptZh": "阿倫很快喝下果汁,然後離開咖啡店。",
+      "starter": "Arun",
+      "answer": "Arun tossed back his juice and left the café.",
+      "answerZh": "阿倫一口喝下果汁,然後離開咖啡店。",
+      "highlight": "tossed back",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Have you discussed my suggestion informally with the others?",
+      "promptZh": "你有沒有和其他人非正式地討論我的建議?",
+      "starter": "Have",
+      "answer": "Have you tossed my suggestion around with the others?",
+      "answerZh": "你有沒有和其他人提出並討論我的建議?",
+      "highlight": "tossed",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Are you going to throw these boxes in the bin?",
+      "promptZh": "你打算把這些盒子丟進垃圾桶嗎?",
+      "starter": "Are",
+      "answer": "Are you going to toss these boxes away?",
+      "answerZh": "你打算把這些盒子丟掉嗎?",
+      "highlight": "toss",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She quickly drinks a glass of water before every talk.",
+      "promptZh": "她每次演講前都會迅速喝下一杯水。",
+      "starter": "She",
+      "answer": "She tosses back a glass of water before every talk.",
+      "answerZh": "她每次演講前都會一口喝下一杯水。",
+      "highlight": "tosses back",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Can you really write the speech quickly and easily before dinner?",
+      "promptZh": "你真的可以在晚飯前迅速而輕鬆地寫好演講稿嗎?",
+      "starter": "Can",
+      "answer": "Can you really toss off the speech before dinner?",
+      "answerZh": "你真的可以在晚飯前輕鬆迅速地完成演講稿嗎?",
+      "highlight": "toss off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Please do not throw the safety note to one side without reading it.",
+      "promptZh": "請不要未看便把安全提示丟到一旁。",
+      "starter": "Please",
+      "answer": "Please do not toss the safety note aside without reading it.",
+      "answerZh": "請不要未看便把安全提示隨手丟到一旁。",
+      "highlight": "toss",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "You and I will use a coin to decide who takes the first turn.",
+      "promptZh": "你和我會擲硬幣,決定誰先開始。",
+      "starter": "I",
+      "answer": "I will toss you for the first turn.",
+      "answerZh": "我會和你擲硬幣,決定誰先開始。",
+      "highlight": "toss you for",
+      "targetForm": "toss somebody for something",
+      "targetMeaningZh": "與某人擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "She picked up the coat, checked the label, and threw it to one side.",
+      "promptZh": "她拿起外套、查看標籤,然後把它丟到一旁。",
+      "starter": "She",
+      "answer": "She picked up the coat, checked the label, and tossed it aside.",
+      "answerZh": "她拿起外套、查看標籤,然後把它隨手丟到一旁。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They had used a coin to decide who could choose the music.",
+      "promptZh": "他們早已擲硬幣,決定誰可以選擇音樂。",
+      "starter": "They",
+      "answer": "They had tossed up for the right to choose the music.",
+      "answerZh": "他們早已擲硬幣,決定誰有權選擇音樂。",
+      "highlight": "tossed up for the right",
+      "targetForm": "toss up for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The group had discussed it informally for an hour before voting.",
+      "promptZh": "小組在投票前已非正式地討論了那件事一小時。",
+      "starter": "The",
+      "answer": "The group had tossed it around for an hour before voting.",
+      "answerZh": "小組在投票前已提出並討論了那件事一小時。",
+      "highlight": "tossed",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Because the liquid medicine tasted bad, Ben drank it in one quick movement.",
+      "promptZh": "因為那種液體藥物味道很差,賓一下子便把它喝掉。",
+      "starter": "Because",
+      "answer": "Because the liquid medicine tasted bad, Ben tossed it back in one quick movement.",
+      "answerZh": "因為那種液體藥物味道很差,賓一下子便把它喝掉。",
+      "highlight": "tossed",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "He said the note would take hours, but I wrote it quickly and easily in twenty minutes.",
+      "promptZh": "他說那張便條要花幾小時,但我在二十分鐘內便迅速而輕鬆地寫好。",
+      "starter": "He",
+      "answer": "He said the note would take hours, but I tossed it off in twenty minutes.",
+      "answerZh": "他說那張便條要花幾小時,但我在二十分鐘內便輕鬆迅速地寫好。",
+      "highlight": "tossed",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I nearly threw it in the bin, but then I saw the phone number on it.",
+      "promptZh": "我差點把它丟進垃圾桶,但後來看見上面的電話號碼。",
+      "starter": "I",
+      "answer": "I nearly tossed it away, but then I saw the phone number on it.",
+      "answerZh": "我差點把它丟掉,但後來看見上面的電話號碼。",
+      "highlight": "tossed",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We cannot agree, so let us use a coin to decide.",
+      "promptZh": "我們無法達成一致,所以用擲硬幣來決定吧。",
+      "starter": "We",
+      "answer": "We cannot agree, so let us toss for it.",
+      "answerZh": "我們無法達成一致,所以擲硬幣決定吧。",
+      "highlight": "toss for it",
+      "targetForm": "toss for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Annoyed by the message, Ravi threw his phone to one side.",
+      "promptZh": "拉維因那則訊息而生氣,把手機丟到一旁。",
+      "starter": "Annoyed",
+      "answer": "Annoyed by the message, Ravi tossed his phone aside.",
+      "answerZh": "拉維因那則訊息而生氣,把手機隨手丟到一旁。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before anyone could ask a question, Nia had quickly drunk the juice.",
+      "promptZh": "在任何人來得及提問前,妮亞已迅速喝下果汁。",
+      "starter": "Before",
+      "answer": "Before anyone could ask a question, Nia had tossed the juice back.",
+      "answerZh": "在任何人來得及提問前,妮亞已一口喝下果汁。",
+      "highlight": "tossed",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "At dinner, the family informally discussed three ideas for Sunday.",
+      "promptZh": "晚飯時,家人非正式地討論了三個星期日活動的構思。",
+      "starter": "At",
+      "answer": "At dinner, the family tossed around three ideas for Sunday.",
+      "answerZh": "晚飯時,家人提出並討論了三個星期日活動的構思。",
+      "highlight": "tossed around",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We should not put the bottle in the rubbish because it can be used again.",
+      "promptZh": "我們不應把那個瓶子丟進垃圾,因為它可以再次使用。",
+      "starter": "We",
+      "answer": "We should not toss the bottle away because it can be used again.",
+      "answerZh": "我們不應把那個瓶子丟掉,因為它可以再次使用。",
+      "highlight": "toss",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Before class, Nia had quickly and easily written a short reply to the email.",
+      "promptZh": "上課前,妮亞已迅速而輕鬆地寫好一封簡短的電郵回覆。",
+      "starter": "Before",
+      "answer": "Before class, Nia had tossed off a short reply to the email.",
+      "answerZh": "上課前,妮亞已輕鬆迅速地寫好一封簡短的電郵回覆。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before we change the club rules, let us discuss the idea informally first.",
+      "promptZh": "在更改學會規則前,我們先非正式地討論這個構思吧。",
+      "starter": "Before",
+      "answer": "Before we change the club rules, let us toss the idea around first.",
+      "answerZh": "在更改學會規則前,我們先提出並討論這個構思吧。",
+      "highlight": "toss",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Instead of throwing the bread in the bin, we used it to make toast.",
+      "promptZh": "我們沒有把麵包丟進垃圾桶,而是用它來做多士。",
+      "starter": "Instead",
+      "answer": "Instead of tossing the bread away, we used it to make toast.",
+      "answerZh": "我們沒有把麵包丟掉,而是用它來做多士。",
+      "highlight": "tossing",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After a short argument, the sisters used a coin to decide who would get the larger bedroom, and Lina lost.",
+      "promptZh": "短暫爭論後,兩姊妹擲硬幣決定誰得到較大的睡房,而莉娜輸了。",
+      "starter": "After",
+      "answer": "After a short argument, the sisters tossed for the larger bedroom, and Lina lost.",
+      "answerZh": "短暫爭論後,兩姊妹擲硬幣決定誰得到較大的睡房,而莉娜輸了。",
+      "highlight": "tossed for",
+      "targetForm": "toss for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "On the train, the singer quickly wrote a new song and made it look easy.",
+      "promptZh": "在火車上,那名歌手迅速寫好一首新歌,而且看來毫不費力。",
+      "starter": "On",
+      "answer": "On the train, the singer tossed off a new song, making it look easy.",
+      "answerZh": "在火車上,那名歌手輕鬆迅速地寫好一首新歌。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Once everyone started using the phone, the old map was put to one side on the table.",
+      "promptZh": "大家開始使用手機後,那張舊地圖便被放到桌子一旁。",
+      "starter": "Once",
+      "answer": "Once everyone started using the phone, the old map was tossed aside on the table.",
+      "answerZh": "大家開始使用手機後,那張舊地圖便被隨手丟到桌子一旁。",
+      "highlight": "tossed aside",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "During the race, the runner quickly drank some water but did not stop for long.",
+      "promptZh": "比賽期間,那名跑手很快喝了些水,但沒有停留太久。",
+      "starter": "During",
+      "answer": "During the race, the runner tossed back some water but did not stop for long.",
+      "answerZh": "比賽期間,那名跑手一口喝了些水,但沒有停留太久。",
+      "highlight": "tossed back",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The shop threw several good chairs onto a rubbish pile simply because the colour had changed.",
+      "promptZh": "那間店只因顏色改變了,便把幾張仍然完好的椅子丟到垃圾堆。",
+      "starter": "The",
+      "answer": "The shop tossed away several good chairs simply because the colour had changed.",
+      "answerZh": "那間店只因顏色改變了,便丟掉幾張仍然完好的椅子。",
+      "highlight": "tossed away",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Several possible titles were discussed informally during the meeting.",
+      "promptZh": "會議期間,大家非正式地討論了幾個可能的標題。",
+      "starter": "Several",
+      "answer": "Several possible titles were tossed about during the meeting.",
+      "answerZh": "會議期間,大家提出並討論了幾個可能的標題。",
+      "highlight": "tossed about",
+      "targetForm": "toss something about",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Leo did not sip the cold drink; he drank it quickly at once.",
+      "promptZh": "里奧沒有慢慢啜飲那杯冷飲;他立即把它迅速喝下。",
+      "starter": "Leo",
+      "answer": "Leo did not sip the cold drink; he tossed it back at once.",
+      "answerZh": "里奧沒有慢慢啜飲那杯冷飲;他立即把它一口喝下。",
+      "highlight": "tossed",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "He almost put the form to one side without reading it, but the red note stopped him.",
+      "promptZh": "他差點未看便把表格放到一旁,但紅色提示令他停下來。",
+      "starter": "He",
+      "answer": "He almost tossed the form aside without reading it, but the red note stopped him.",
+      "answerZh": "他差點未看便把表格隨手丟到一旁,但紅色提示令他停下來。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "This report looks carefully planned, but Arun completed it quickly during lunch and made it look easy.",
+      "promptZh": "這份報告看來經過仔細計劃,但阿倫在午飯時間便迅速完成,而且看來毫不費力。",
+      "starter": "This",
+      "answer": "This report looks carefully planned, but Arun tossed it off during lunch, making it look easy.",
+      "answerZh": "這份報告看來經過仔細計劃,但阿倫在午飯時間便輕鬆迅速地完成。",
+      "highlight": "tossed",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The captains will use a coin to decide which team may choose the end before the game.",
+      "promptZh": "比賽前,兩名隊長會擲硬幣決定哪一隊可以選擇場地一端。",
+      "starter": "The",
+      "answer": "The captains will toss up for the choice of ends before the game.",
+      "answerZh": "比賽前,兩名隊長會擲硬幣決定哪一隊可以選擇場地一端。",
+      "highlight": "toss up for",
+      "targetForm": "toss up for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although the teacher gave the class a week, Ella wrote the whole story quickly and easily on the first evening.",
+      "promptZh": "雖然老師給了全班一星期時間,但埃拉在第一晚便迅速而輕鬆地寫完整個故事。",
+      "starter": "Although",
+      "answer": "Although the teacher gave the class a week, Ella tossed off the whole story on the first evening.",
+      "answerZh": "雖然老師給了全班一星期時間,但埃拉在第一晚便輕鬆迅速地寫完整個故事。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Without reading the final page, the teacher threw the report to one side in frustration.",
+      "promptZh": "老師未讀最後一頁,便惱怒地把報告丟到一旁。",
+      "starter": "Without",
+      "answer": "Without reading the final page, the teacher tossed the report aside in frustration.",
+      "answerZh": "老師未讀最後一頁,便惱怒地把報告隨手丟到一旁。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    },
+    {
+      "id": "phrasal-verb-145-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "With only a minute before the bus arrived, Ava quickly drank her juice and hurried to the stop.",
+      "promptZh": "巴士還有一分鐘便到,艾娃迅速喝下果汁,趕往巴士站。",
+      "starter": "With",
+      "answer": "With only a minute before the bus arrived, Ava tossed her juice back and hurried to the stop.",
+      "answerZh": "巴士還有一分鐘便到,艾娃一口喝下果汁,趕往巴士站。",
+      "highlight": "tossed",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Although the plan sounded simple, we discussed it informally for several days before agreeing.",
+      "promptZh": "雖然計劃聽來簡單,但我們非正式地討論了幾天才達成一致。",
+      "starter": "Although",
+      "answer": "Although the plan sounded simple, we tossed it around for several days before agreeing.",
+      "answerZh": "雖然計劃聽來簡單,但我們提出並討論了幾天才達成一致。",
+      "highlight": "tossed",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Since both students wanted to present first, the teacher asked them to use a coin to decide.",
+      "promptZh": "由於兩名學生都想先匯報,老師請他們擲硬幣決定。",
+      "starter": "Since",
+      "answer": "Since both students wanted to present first, the teacher asked them to toss for it.",
+      "answerZh": "由於兩名學生都想先匯報,老師請他們擲硬幣決定。",
+      "highlight": "toss for it",
+      "targetForm": "toss for something",
+      "targetMeaningZh": "以擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the party ended, Kai put the paper cups in the rubbish but kept the glass ones.",
+      "promptZh": "派對結束後,啟把紙杯丟進垃圾,但保留玻璃杯。",
+      "starter": "When",
+      "answer": "When the party ended, Kai tossed away the paper cups but kept the glass ones.",
+      "answerZh": "派對結束後,啟丟掉紙杯,但保留玻璃杯。",
+      "highlight": "tossed away",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The drink was sour, but Omar quickly drank it rather than leave it on the table.",
+      "promptZh": "那杯飲品很酸,但奧馬沒有把它留在桌上,而是迅速喝下。",
+      "starter": "The",
+      "answer": "The drink was sour, but Omar tossed it back rather than leave it on the table.",
+      "answerZh": "那杯飲品很酸,但奧馬沒有把它留在桌上,而是一口喝下。",
+      "highlight": "tossed",
+      "targetForm": "toss something back",
+      "targetMeaningZh": "迅速喝下飲品"
+    },
+    {
+      "id": "phrasal-verb-145-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "While the children waited, the comic artist quickly and easily made a simple drawing for them.",
+      "promptZh": "孩子們等候時,那名漫畫家迅速而輕鬆地為他們畫了一幅簡單圖畫。",
+      "starter": "While",
+      "answer": "While the children waited, the comic artist tossed off a simple drawing for them.",
+      "answerZh": "孩子們等候時,那名漫畫家輕鬆迅速地為他們畫了一幅簡單圖畫。",
+      "highlight": "tossed off",
+      "targetForm": "toss something off",
+      "targetMeaningZh": "迅速而輕鬆地完成寫作或創作"
+    },
+    {
+      "id": "phrasal-verb-145-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "She was about to throw the old photo in the bin when she recognised her grandmother.",
+      "promptZh": "她正要把舊照片丟進垃圾桶時,認出了自己的祖母。",
+      "starter": "She",
+      "answer": "She was about to toss the old photo away when she recognised her grandmother.",
+      "answerZh": "她正要把舊照片丟掉時,認出了自己的祖母。",
+      "highlight": "toss",
+      "targetForm": "toss something away",
+      "targetMeaningZh": "把不要的東西丟掉"
+    },
+    {
+      "id": "phrasal-verb-145-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Eva said that she and I would use a coin to decide who got the last ticket.",
+      "promptZh": "伊娃說她會和我擲硬幣,決定誰得到最後一張票。",
+      "starter": "Eva",
+      "answer": "Eva said she would toss me for the last ticket.",
+      "answerZh": "伊娃說她會和我擲硬幣,決定誰得到最後一張票。",
+      "highlight": "toss me for",
+      "targetForm": "toss somebody for something",
+      "targetMeaningZh": "與某人擲硬幣作決定"
+    },
+    {
+      "id": "phrasal-verb-145-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The students informally discussed ways to make the school fair more fun, then chose the cheapest one.",
+      "promptZh": "學生非正式地討論了令學校嘉年華更有趣的方法,然後選了最便宜的一個。",
+      "starter": "The",
+      "answer": "The students tossed around ways to make the school fair more fun, then chose the cheapest one.",
+      "answerZh": "學生提出並討論了令學校嘉年華更有趣的方法,然後選了最便宜的一個。",
+      "highlight": "tossed around",
+      "targetForm": "toss something around",
+      "targetMeaningZh": "提出並討論想法或建議"
+    },
+    {
+      "id": "phrasal-verb-145-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Niko threw the empty box to one side, then realised the key was still inside it.",
+      "promptZh": "尼高把空盒子丟到一旁,後來才發現鎖匙仍在裏面。",
+      "starter": "Niko",
+      "answer": "Niko tossed the empty box aside, then realised the key was still inside it.",
+      "answerZh": "尼高把空盒子隨手丟到一旁,後來才發現鎖匙仍在裏面。",
+      "highlight": "tossed",
+      "targetForm": "toss something aside",
+      "targetMeaningZh": "把某物隨手丟到一旁"
+    }
+  ]
+}

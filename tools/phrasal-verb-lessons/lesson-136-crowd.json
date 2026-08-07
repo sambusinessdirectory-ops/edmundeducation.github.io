@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-136",
+  "order": 136,
+  "slug": "crowd",
+  "version": "1",
+  "title": "CROWD 動詞片語",
+  "titleEn": "Crowd",
+  "titleZh": "CROWD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 135 - CROWD.pdf",
+    "sourceNumber": 135,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CROWD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CROWD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CROWD",
+      "highlight": "CROWD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Students crowded round the new robot.",
+      "zh": "學生們緊緊圍在新機械人旁。",
+      "highlight": "crowded round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The high walls seemed to crowd in on us.",
+      "zh": "高牆彷彿從四周逼近我們。",
+      "highlight": "crowd in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "As soon as the doors opened, people crowded in.",
+      "zh": "門一打開,人們便大批湧入。",
+      "highlight": "crowded in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "聚集並緊緊圍在某人或某物周圍；彷彿從四周逼近,使某人感到受壓或被困；大批人一起進入某處；把太多人或太多東西擠進或擠到有限空間；因人或物太多,令某人或某物被迫離開或失去位置",
+    "en": "crowd around / crowd round (somebody/something); crowd in (on somebody); crowd in / crowd into something; crowd somebody/something in / into/onto something; crowd somebody/something out / out of something",
+    "naturalZh": [
+      "聚集並緊緊圍在某人或某物周圍",
+      "彷彿從四周逼近,使某人感到受壓或被困",
+      "大批人一起進入某處",
+      "把太多人或太多東西擠進或擠到有限空間",
+      "因人或物太多,令某人或某物被迫離開或失去位置"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "crowd around / crowd round (somebody/something)",
+      "titleZh": "聚集並緊緊圍在某人或某物周圍",
+      "titleEn": "crowd around / crowd round (somebody/something)",
+      "descriptionZh": "聚集並緊緊圍在某人或某物周圍",
+      "descriptionEn": "Students crowded round the new robot.",
+      "examples": [
+        {
+          "en": "Students crowded round the new robot.",
+          "zh": "學生們緊緊圍在新機械人旁。",
+          "highlight": "crowded round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crowd in (on somebody)",
+      "titleZh": "彷彿從四周逼近,使某人感到受壓或被困",
+      "titleEn": "crowd in (on somebody)",
+      "descriptionZh": "彷彿從四周逼近,使某人感到受壓或被困",
+      "descriptionEn": "The high walls seemed to crowd in on us.",
+      "examples": [
+        {
+          "en": "The high walls seemed to crowd in on us.",
+          "zh": "高牆彷彿從四周逼近我們。",
+          "highlight": "crowd in on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crowd in / crowd into something",
+      "titleZh": "大批人一起進入某處",
+      "titleEn": "crowd in / crowd into something",
+      "descriptionZh": "大批人一起進入某處",
+      "descriptionEn": "As soon as the doors opened, people crowded in.",
+      "examples": [
+        {
+          "en": "As soon as the doors opened, people crowded in.",
+          "zh": "門一打開,人們便大批湧入。",
+          "highlight": "crowded in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "crowd somebody/something in / into/onto something",
+      "titleZh": "把太多人或太多東西擠進或擠到有限空間",
+      "titleEn": "crowd somebody/something in / into/onto something",
+      "descriptionZh": "把太多人或太多東西擠進或擠到有限空間",
+      "descriptionEn": "We crowded all the bags into the boot.",
+      "examples": [
+        {
+          "en": "We crowded all the bags into the boot.",
+          "zh": "我們把所有袋子塞進車尾箱。",
+          "highlight": "crowded all the bags into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "crowd somebody/something out / out of something",
+      "titleZh": "因人或物太多,令某人或某物被迫離開或失去位置",
+      "titleEn": "crowd somebody/something out / out of something",
+      "descriptionZh": "因人或物太多,令某人或某物被迫離開或失去位置",
+      "descriptionEn": "Tourists crowded the regular customers out of the café.",
+      "examples": [
+        {
+          "en": "Tourists crowded the regular customers out of the café.",
+          "zh": "遊客太多,令咖啡店的熟客被迫離開。",
+          "highlight": "crowded the regular customers out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CROWD 片語動詞的實際用途",
+    "labelEn": "CROWD Phrasal Verbs in Use",
+    "summaryZh": "crowd around 和 crowd round 可以描述人們緊緊圍在某人、某物或某件事情周圍。；當大批人一起進入店舖、車站、大堂、升降機或其他地方時,可以使用 crowd in 和 crowd into。；crowd in on 可以描述牆壁、建築物或人群令某人感到被困或不舒服。；crowd out 可以表示空間不足,令某人或某物無法留下;亦可表示激烈競爭迫使其他人離開。",
+    "summaryEn": "Crowd around and crowd round help you describe people forming a tight group around a person, object or event. Crowd in and crowd into are useful when many people enter a shop, station, hall, lift or other place together. Crowd in on can describe walls, buildings or people making somebody feel trapped or uncomfortable. Crowd out can show that there is no longer enough room for somebody or something, or that strong competition forces others away.",
+    "contextsZh": [
+      "描述人們緊密聚集的情況",
+      "談論繁忙的入口和擠迫的地方",
+      "描述地方令人感到狹窄受壓",
+      "說明人或事物如何失去空間"
+    ],
+    "contextsEn": [
+      "Describe people gathering closely",
+      "Talk about busy entrances and packed places",
+      "Show that a place feels too narrow",
+      "Explain how people or things lose their space"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CROWD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CROWD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "crowd around / crowd round (somebody/something)",
+    "fixedHighlight": "crowd around / crowd round (somebody/something)",
+    "fixedZh": "閱讀整句,選出意思相同的 CROWD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CROWD expression that gives the same meaning.",
+    "correct": "crowded round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 CROWD ... IN 或 CROWD ... OUT 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；在這組片語動詞中,around 和 round 可以表達相同意思。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with CROWD... IN or CROWD... OUT, place the word as shown: crowd them in crowd him out Around and round can express the same meaning in this family.",
+    "variableItemsZh": [
+      "crowd around / crowd round (somebody/something)",
+      "crowd in (on somebody)",
+      "crowd in / crowd into something",
+      "crowd somebody/something in / into/onto something",
+      "crowd somebody/something out / out of something"
+    ],
+    "variableItemsEn": [
+      "crowd around / crowd round (somebody/something)",
+      "crowd in (on somebody)",
+      "crowd in / crowd into something",
+      "crowd somebody/something in / into/onto something",
+      "crowd somebody/something out / out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "聚集並緊緊圍在某人或某物周圍",
+        "formEn": "crowd around / crowd round (somebody/something)",
+        "exampleZh": "學生們緊緊圍在新機械人旁。",
+        "exampleEn": "Students crowded round the new robot.",
+        "highlight": "crowded round"
+      },
+      {
+        "formZh": "彷彿從四周逼近,使某人感到受壓或被困",
+        "formEn": "crowd in (on somebody)",
+        "exampleZh": "高牆彷彿從四周逼近我們。",
+        "exampleEn": "The high walls seemed to crowd in on us.",
+        "highlight": "crowd in on"
+      },
+      {
+        "formZh": "大批人一起進入某處",
+        "formEn": "crowd in / crowd into something",
+        "exampleZh": "門一打開,人們便大批湧入。",
+        "exampleEn": "As soon as the doors opened, people crowded in.",
+        "highlight": "crowded in"
+      },
+      {
+        "formZh": "把太多人或太多東西擠進或擠到有限空間",
+        "formEn": "crowd somebody/something in / into/onto something",
+        "exampleZh": "我們把所有袋子塞進車尾箱。",
+        "exampleEn": "We crowded all the bags into the boot.",
+        "highlight": "crowded all the bags into"
+      },
+      {
+        "formZh": "因人或物太多,令某人或某物被迫離開或失去位置",
+        "formEn": "crowd somebody/something out / out of something",
+        "exampleZh": "遊客太多,令咖啡店的熟客被迫離開。",
+        "exampleEn": "Tourists crowded the regular customers out of the café.",
+        "highlight": "crowded the regular customers out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "聚集並緊緊圍在某人或某物周圍",
+      "titleEn": "crowd around / crowd round (somebody/something)",
+      "formula": "crowd around / crowd round (somebody/something)",
+      "highlight": "crowd around / crowd round (somebody/something)",
+      "descriptionZh": "聚集並緊緊圍在某人或某物周圍",
+      "descriptionEn": "Students crowded round the new robot.",
+      "examples": [
+        {
+          "en": "Students crowded round the new robot.",
+          "zh": "學生們緊緊圍在新機械人旁。",
+          "highlight": "crowded round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "彷彿從四周逼近,使某人感到受壓或被困",
+      "titleEn": "crowd in (on somebody)",
+      "formula": "crowd in (on somebody)",
+      "highlight": "crowd in (on somebody)",
+      "descriptionZh": "彷彿從四周逼近,使某人感到受壓或被困",
+      "descriptionEn": "The high walls seemed to crowd in on us.",
+      "examples": [
+        {
+          "en": "The high walls seemed to crowd in on us.",
+          "zh": "高牆彷彿從四周逼近我們。",
+          "highlight": "crowd in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "大批人一起進入某處",
+      "titleEn": "crowd in / crowd into something",
+      "formula": "crowd in / crowd into something",
+      "highlight": "crowd in / crowd into something",
+      "descriptionZh": "大批人一起進入某處",
+      "descriptionEn": "As soon as the doors opened, people crowded in.",
+      "examples": [
+        {
+          "en": "As soon as the doors opened, people crowded in.",
+          "zh": "門一打開,人們便大批湧入。",
+          "highlight": "crowded in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把太多人或太多東西擠進或擠到有限空間",
+      "titleEn": "crowd somebody/something in / into/onto something",
+      "formula": "crowd somebody/something in / into/onto something",
+      "highlight": "crowd somebody/something in / into/onto something",
+      "descriptionZh": "把太多人或太多東西擠進或擠到有限空間",
+      "descriptionEn": "We crowded all the bags into the boot.",
+      "examples": [
+        {
+          "en": "We crowded all the bags into the boot.",
+          "zh": "我們把所有袋子塞進車尾箱。",
+          "highlight": "crowded all the bags into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "因人或物太多,令某人或某物被迫離開或失去位置",
+      "titleEn": "crowd somebody/something out / out of something",
+      "formula": "crowd somebody/something out / out of something",
+      "highlight": "crowd somebody/something out / out of something",
+      "descriptionZh": "因人或物太多,令某人或某物被迫離開或失去位置",
+      "descriptionEn": "Tourists crowded the regular customers out of the café.",
+      "examples": [
+        {
+          "en": "Tourists crowded the regular customers out of the café.",
+          "zh": "遊客太多,令咖啡店的熟客被迫離開。",
+          "highlight": "crowded the regular customers out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述人們緊密聚集的情況",
+      "titleEn": "Describe people gathering closely",
+      "zh": "crowd around 和 crowd round 可以描述人們緊緊圍在某人、某物或某件事情周圍。",
+      "en": "Crowd around and crowd round help you describe people forming a tight group around a person, object or event."
+    },
+    {
+      "titleZh": "談論繁忙的入口和擠迫的地方",
+      "titleEn": "Talk about busy entrances and packed places",
+      "zh": "當大批人一起進入店舖、車站、大堂、升降機或其他地方時,可以使用 crowd in 和 crowd into。",
+      "en": "Crowd in and crowd into are useful when many people enter a shop, station, hall, lift or other place together."
+    },
+    {
+      "titleZh": "描述地方令人感到狹窄受壓",
+      "titleEn": "Show that a place feels too narrow",
+      "zh": "crowd in on 可以描述牆壁、建築物或人群令某人感到被困或不舒服。",
+      "en": "Crowd in on can describe walls, buildings or people making somebody feel trapped or uncomfortable."
+    },
+    {
+      "titleZh": "說明人或事物如何失去空間",
+      "titleEn": "Explain how people or things lose their space",
+      "zh": "crowd out 可以表示空間不足,令某人或某物無法留下;亦可表示激烈競爭迫使其他人離開。",
+      "en": "Crowd out can show that there is no longer enough room for somebody or something, or that strong competition forces others away."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述人們緊密聚集的情況",
+      "談論繁忙的入口和擠迫的地方",
+      "描述地方令人感到狹窄受壓",
+      "說明人或事物如何失去空間"
+    ],
+    "contextsEn": [
+      "Describe people gathering closely",
+      "Talk about busy entrances and packed places",
+      "Show that a place feels too narrow",
+      "Explain how people or things lose their space"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述人們緊密聚集的情況",
+        "titleEn": "Describe people gathering closely",
+        "zh": "crowd around 和 crowd round 可以描述人們緊緊圍在某人、某物或某件事情周圍。",
+        "en": "Crowd around and crowd round help you describe people forming a tight group around a person, object or event.",
+        "examples": [
+          {
+            "en": "Students crowded round the new robot.",
+            "zh": "學生們緊緊圍在新機械人旁。",
+            "highlight": "crowded round"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論繁忙的入口和擠迫的地方",
+        "titleEn": "Talk about busy entrances and packed places",
+        "zh": "當大批人一起進入店舖、車站、大堂、升降機或其他地方時,可以使用 crowd in 和 crowd into。",
+        "en": "Crowd in and crowd into are useful when many people enter a shop, station, hall, lift or other place together.",
+        "examples": [
+          {
+            "en": "The high walls seemed to crowd in on us.",
+            "zh": "高牆彷彿從四周逼近我們。",
+            "highlight": "crowd in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述地方令人感到狹窄受壓",
+        "titleEn": "Show that a place feels too narrow",
+        "zh": "crowd in on 可以描述牆壁、建築物或人群令某人感到被困或不舒服。",
+        "en": "Crowd in on can describe walls, buildings or people making somebody feel trapped or uncomfortable.",
+        "examples": [
+          {
+            "en": "As soon as the doors opened, people crowded in.",
+            "zh": "門一打開,人們便大批湧入。",
+            "highlight": "crowded in"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明人或事物如何失去空間",
+        "titleEn": "Explain how people or things lose their space",
+        "zh": "crowd out 可以表示空間不足,令某人或某物無法留下;亦可表示激烈競爭迫使其他人離開。",
+        "en": "Crowd out can show that there is no longer enough room for somebody or something, or that strong competition forces others away.",
+        "examples": [
+          {
+            "en": "We crowded all the bags into the boot.",
+            "zh": "我們把所有袋子塞進車尾箱。",
+            "highlight": "crowded all the bags into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CROWD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CROWD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CROWD 片語動詞。",
+      "en": "Read the whole sentence and choose the CROWD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 CROWD ... IN 或 CROWD ... OUT 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them with CROWD.",
+      "zh": "在 CROWD ... IN 或 CROWD ... OUT 中使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them with CROWD... IN or CROWD... OUT, place the word as shown: crowd them in crowd him out"
+    },
+    {
+      "titleZh": "在這組片語動詞中,around 和 round 可以表達相同意思。",
+      "titleEn": "Around and round can express the same meaning in this family.",
+      "zh": "在這組片語動詞中,around 和 round 可以表達相同意思。",
+      "en": "Around and round can express the same meaning in this family."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CROWD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CROWD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CROWD 動詞片語句子改寫練習",
+    "titleEn": "CROWD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CROWD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CROWD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-136-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "Many shoppers entered the shop together when the doors opened.",
+      "promptZh": "門打開時,許多顧客一起進入店舖。",
+      "starter": "The",
+      "answer": "The shoppers crowded into the shop when the doors opened.",
+      "answerZh": "門打開時,顧客們一起湧入店舖。",
+      "highlight": "The",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The children moved close together to watch the street performer.",
+      "promptZh": "孩子們靠得很近,一起觀看街頭表演者。",
+      "starter": "The",
+      "answer": "The children crowded around to watch the street performer.",
+      "answerZh": "孩子們圍在一起觀看街頭表演者。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around",
+      "targetMeaningZh": "聚集並緊緊圍在周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We fitted six chairs into the small room.",
+      "promptZh": "我們把六張椅子擠進那個小房間。",
+      "starter": "We",
+      "answer": "We crowded six chairs into the small room.",
+      "answerZh": "我們把六張椅子擠進那個小房間。",
+      "highlight": "crowded",
+      "targetForm": "crowd something into something",
+      "targetMeaningZh": "把某物擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The tall walls seemed to close around Leo.",
+      "promptZh": "高牆彷彿從四周逼近里奧。",
+      "starter": "The",
+      "answer": "The tall walls seemed to crowd in on Leo.",
+      "answerZh": "高牆彷彿從四周逼近里奧。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "So many tourists filled the café that the regular customers had to leave.",
+      "promptZh": "遊客太多,擠滿咖啡店,令熟客不得不離開。",
+      "starter": "Tourists",
+      "answer": "Tourists crowded the regular customers out of the café.",
+      "answerZh": "遊客太多,令咖啡店的熟客被迫離開。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody out of something",
+      "targetMeaningZh": "因人太多而把某人擠走"
+    },
+    {
+      "id": "phrasal-verb-136-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "People stood in a tight group by the noticeboard to read the results.",
+      "promptZh": "人們緊密地聚集在告示板旁閱讀結果。",
+      "starter": "People",
+      "answer": "People crowded around the noticeboard to read the results.",
+      "answerZh": "人們緊緊圍在告示板旁閱讀結果。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The driver fitted all the bags into the boot.",
+      "promptZh": "司機把所有袋子塞進車尾箱。",
+      "starter": "The",
+      "answer": "The driver crowded all the bags into the boot.",
+      "answerZh": "司機把所有袋子塞進車尾箱。",
+      "highlight": "crowded",
+      "targetForm": "crowd something into something",
+      "targetMeaningZh": "把某物擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "As soon as the gate opened, the fans entered in a large group.",
+      "promptZh": "大閘一打開,球迷便大批進入。",
+      "starter": "As",
+      "answer": "As soon as the gate opened, the fans crowded in.",
+      "answerZh": "大閘一打開,球迷便大批湧入。",
+      "highlight": "crowded",
+      "targetForm": "crowd in",
+      "targetMeaningZh": "大批人一起進入"
+    },
+    {
+      "id": "phrasal-verb-136-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "In the narrow street, the high buildings seemed to press close around us.",
+      "promptZh": "在狹窄的街道上,高樓彷彿從四周逼近我們。",
+      "starter": "In",
+      "answer": "In the narrow street, the high buildings seemed to crowd in on us.",
+      "answerZh": "在狹窄的街道上,高樓彷彿從四周逼近我們。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Students formed a tight circle beside the new robot.",
+      "promptZh": "學生們緊密地圍在新機械人旁。",
+      "starter": "Students",
+      "answer": "Students crowded round the new robot.",
+      "answerZh": "學生們緊緊圍在新機械人旁。",
+      "highlight": "crowded round",
+      "targetForm": "crowd round something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "So many market stalls filled the square that the musicians had no room to perform.",
+      "promptZh": "市集攤檔太多,佔滿廣場,令樂手沒有地方表演。",
+      "starter": "The",
+      "answer": "The market stalls crowded the musicians out of the square.",
+      "answerZh": "市集攤檔佔滿廣場,令樂手沒有地方表演。",
+      "highlight": "The",
+      "targetForm": "crowd somebody out of something",
+      "targetMeaningZh": "佔用空間而令某人被迫離開"
+    },
+    {
+      "id": "phrasal-verb-136-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We managed to fit everyone inside before the rain started.",
+      "promptZh": "我們在下雨前把所有人都擠進室內。",
+      "starter": "We",
+      "answer": "We crowded everyone in before the rain started.",
+      "answerZh": "我們在下雨前把所有人都擠進室內。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody in",
+      "targetMeaningZh": "把人擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The dark trees seemed to be closing around Sara as she walked alone.",
+      "promptZh": "莎拉獨自行走時,黑暗的樹木彷彿正從四周逼近她。",
+      "starter": "The",
+      "answer": "The dark trees seemed to be crowding in on Sara as she walked alone.",
+      "answerZh": "莎拉獨自行走時,黑暗的樹木彷彿正從四周逼近她。",
+      "highlight": "crowding in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "More people are entering the hall every minute.",
+      "promptZh": "每分鐘都有更多人進入大堂。",
+      "starter": "More",
+      "answer": "More people are crowding into the hall every minute.",
+      "answerZh": "每分鐘都有更多人湧入大堂。",
+      "highlight": "crowding into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "A small group has formed a tight circle beside the injured cyclist.",
+      "promptZh": "一小群人已緊密地圍在受傷的單車手身旁。",
+      "starter": "A",
+      "answer": "A small group has crowded around the injured cyclist.",
+      "answerZh": "一小群人已緊緊圍在受傷的單車手身旁。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around somebody",
+      "targetMeaningZh": "緊緊圍在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The new supermarket has forced two small shops to leave the area.",
+      "promptZh": "新超級市場已迫使兩間小店離開該區。",
+      "starter": "The",
+      "answer": "The new supermarket has crowded two small shops out of the area.",
+      "answerZh": "新超級市場已迫使兩間小店離開該區。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody/something out of something",
+      "targetMeaningZh": "透過競爭把其他人或事物迫走"
+    },
+    {
+      "id": "phrasal-verb-136-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Can we fit one more person inside?",
+      "promptZh": "我們可以再擠一個人進去嗎?",
+      "starter": "Can",
+      "answer": "Can we crowd one more person in?",
+      "answerZh": "我們可以再擠一個人進去嗎?",
+      "highlight": "crowd",
+      "targetForm": "crowd somebody in",
+      "targetMeaningZh": "把人擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why are so many people entering the station at once?",
+      "promptZh": "為甚麼這麼多人同時進入車站?",
+      "starter": "Why",
+      "answer": "Why are so many people crowding into the station?",
+      "answerZh": "為甚麼這麼多人同時湧入車站?",
+      "highlight": "crowding into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "In the tiny lift, the other passengers were standing so close around him that he felt trapped.",
+      "promptZh": "在狹小的升降機內,其他乘客站得太近,令他感到被困。",
+      "starter": "In",
+      "answer": "In the tiny lift, the other passengers were crowding in on him.",
+      "answerZh": "在狹小的升降機內,其他乘客站得太近,令他感到被困。",
+      "highlight": "crowding in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到被困"
+    },
+    {
+      "id": "phrasal-verb-136-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Fans were standing in a tight group close to the singer outside the hotel.",
+      "promptZh": "球迷在酒店外緊密地聚集在歌手身旁。",
+      "starter": "Fans",
+      "answer": "Fans were crowding round the singer outside the hotel.",
+      "answerZh": "球迷在酒店外緊緊圍在歌手身旁。",
+      "highlight": "crowding round",
+      "targetForm": "crowd round somebody",
+      "targetMeaningZh": "緊緊圍在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "They have placed too many books on the top shelf.",
+      "promptZh": "他們把太多書放在最上層的書架上。",
+      "starter": "They",
+      "answer": "They have crowded too many books onto the top shelf.",
+      "answerZh": "他們把太多書擠到最上層的書架上。",
+      "highlight": "crowded",
+      "targetForm": "crowd something onto something",
+      "targetMeaningZh": "把太多東西擠到某處"
+    },
+    {
+      "id": "phrasal-verb-136-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "By noon, large numbers of visitors had entered every room.",
+      "promptZh": "到了中午,大批訪客已進入每個房間。",
+      "starter": "By",
+      "answer": "By noon, visitors had crowded into every room.",
+      "answerZh": "到了中午,大批訪客已湧入每個房間。",
+      "highlight": "crowded into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "There are so many extra tables that people in wheelchairs have no room in the café.",
+      "promptZh": "額外的桌子太多,令使用輪椅的人在咖啡店內沒有足夠空間。",
+      "starter": "The",
+      "answer": "The extra tables are crowding people in wheelchairs out of the café.",
+      "answerZh": "額外的桌子太多,令使用輪椅的人在咖啡店內沒有足夠空間。",
+      "highlight": "The",
+      "targetForm": "crowd somebody out of something",
+      "targetMeaningZh": "佔用空間而令某人無法留下"
+    },
+    {
+      "id": "phrasal-verb-136-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The buildings may feel as if they are closing around you in the old part of town.",
+      "promptZh": "在舊城區,建築物可能會令你感到彷彿正從四周逼近。",
+      "starter": "The",
+      "answer": "The buildings may crowd in on you in the old part of town.",
+      "answerZh": "在舊城區,建築物可能會令你感到彷彿正從四周逼近。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The minibus was full, but we managed to fit the last three passengers inside.",
+      "promptZh": "小巴已坐滿,但我們仍設法把最後三名乘客擠進去。",
+      "starter": "The",
+      "answer": "The minibus was full, but we managed to crowd them in.",
+      "answerZh": "小巴已坐滿,但我們仍設法把最後三名乘客擠進去。",
+      "highlight": "crowd them in",
+      "targetForm": "crowd somebody in",
+      "targetMeaningZh": "把人擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Only two small family shops remain. The new cafés have forced the others to leave the neighbourhood.",
+      "promptZh": "區內只剩下兩間小型家庭店舖。新開的咖啡店迫使其他店舖離開。",
+      "starter": "Only",
+      "answer": "Only two small family shops remain. The new cafés have crowded the others out of the neighbourhood.",
+      "answerZh": "區內只剩下兩間小型家庭店舖。新開的咖啡店迫使其他店舖離開。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody/something out of something",
+      "targetMeaningZh": "透過競爭把其他人或事物迫走"
+    },
+    {
+      "id": "phrasal-verb-136-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "When the bell rang, the pupils entered the classroom together.",
+      "promptZh": "鐘聲響起時,學生們一起進入課室。",
+      "starter": "When",
+      "answer": "When the bell rang, the pupils crowded into the classroom.",
+      "answerZh": "鐘聲響起時,學生們一起湧入課室。",
+      "highlight": "crowded into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "They stood close together beside her to hear the news.",
+      "promptZh": "他們緊密地站在她身旁聽消息。",
+      "starter": "They",
+      "answer": "They crowded around her to hear the news.",
+      "answerZh": "他們緊緊圍在她身旁聽消息。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around somebody",
+      "targetMeaningZh": "緊緊圍在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "In the small cave, the rock walls seemed to close around them.",
+      "promptZh": "在小洞穴內,岩壁彷彿從四周逼近他們。",
+      "starter": "In",
+      "answer": "In the small cave, the rock walls seemed to crowd in on them.",
+      "answerZh": "在小洞穴內,岩壁彷彿從四周逼近他們。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "There were so many pictures that there was no room for the useful text.",
+      "promptZh": "圖片太多,令頁面沒有空間放有用的文字。",
+      "starter": "Too",
+      "answer": "Too many pictures crowded the useful text out.",
+      "answerZh": "圖片太多,令有用的文字沒有位置。",
+      "highlight": "Too",
+      "targetForm": "crowd something out",
+      "targetMeaningZh": "佔用空間而令某物消失"
+    },
+    {
+      "id": "phrasal-verb-136-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The organiser fitted the last boxes onto the back table.",
+      "promptZh": "主辦人把最後幾個箱子擠到後面的桌上。",
+      "starter": "The",
+      "answer": "The organiser crowded the last boxes onto the back table.",
+      "answerZh": "主辦人把最後幾個箱子擠到後面的桌上。",
+      "highlight": "crowded",
+      "targetForm": "crowd something onto something",
+      "targetMeaningZh": "把某物擠到有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We had to wait outside because too many people had already entered.",
+      "promptZh": "太多人已經進入,所以我們只好在外面等候。",
+      "starter": "We",
+      "answer": "We had to wait outside because too many people had already crowded in.",
+      "answerZh": "太多人已經湧入,所以我們只好在外面等候。",
+      "highlight": "crowded in",
+      "targetForm": "crowd in",
+      "targetMeaningZh": "大批人一起進入"
+    },
+    {
+      "id": "phrasal-verb-136-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Visitors formed a tight circle beside it as soon as the model train started moving.",
+      "promptZh": "模型火車一開始移動,訪客便緊密地圍在它旁邊。",
+      "starter": "Visitors",
+      "answer": "Visitors crowded round it as soon as the model train started moving.",
+      "answerZh": "模型火車一開始移動,訪客便緊緊圍在它旁邊。",
+      "highlight": "crowded round",
+      "targetForm": "crowd round something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "He had so much homework that he had no time for football at the weekend.",
+      "promptZh": "他有太多功課,週末沒有時間踢足球。",
+      "starter": "Too",
+      "answer": "Too much homework crowded football out of his weekend.",
+      "answerZh": "他有太多功課,令週末沒有時間踢足球。",
+      "highlight": "Too",
+      "targetForm": "crowd something out of something",
+      "targetMeaningZh": "佔用時間或空間而排除某事"
+    },
+    {
+      "id": "phrasal-verb-136-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Please do not all enter the lift together.",
+      "promptZh": "請不要一起進入升降機。",
+      "starter": "Please",
+      "answer": "Please do not all crowd into the lift at once.",
+      "answerZh": "請不要一起擠進升降機。",
+      "highlight": "crowd into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When everyone stood too close around Ava, she felt trapped.",
+      "promptZh": "所有人都站得太近,令艾娃感到被困。",
+      "starter": "When",
+      "answer": "When everyone stood too close, they crowded in on Ava.",
+      "answerZh": "所有人都站得太近,令艾娃感到被困。",
+      "highlight": "they crowded in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到被困"
+    },
+    {
+      "id": "phrasal-verb-136-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "At the science fair, parents stood in a tight group by the table where the children were testing their machine.",
+      "promptZh": "在科學展覽中,家長緊密地聚集在桌旁,觀看孩子測試機器。",
+      "starter": "At",
+      "answer": "At the science fair, parents crowded around the table where the children were testing their machine.",
+      "answerZh": "在科學展覽中,家長緊緊圍在桌旁,觀看孩子測試機器。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "After a few minutes, the low ceiling and narrow walls seemed to press closer.",
+      "promptZh": "過了幾分鐘,低矮的天花和狹窄的牆壁彷彿愈來愈逼近。",
+      "starter": "After",
+      "answer": "After a few minutes, the low ceiling and narrow walls seemed to crowd in.",
+      "answerZh": "過了幾分鐘,低矮的天花和狹窄的牆壁彷彿愈來愈逼近。",
+      "highlight": "crowd in",
+      "targetForm": "crowd in",
+      "targetMeaningZh": "彷彿從四周逼近"
+    },
+    {
+      "id": "phrasal-verb-136-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We can fit the extra cushions onto the sofa, but there will be no space left.",
+      "promptZh": "我們可以把額外的靠墊擠到梳化上,但之後便完全沒有空間。",
+      "starter": "We",
+      "answer": "We can crowd the extra cushions onto the sofa, but there will be no space left.",
+      "answerZh": "我們可以把額外的靠墊擠到梳化上,但之後便完全沒有空間。",
+      "highlight": "crowd",
+      "targetForm": "crowd something onto something",
+      "targetMeaningZh": "把某物擠到有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Some shops now sell so many cheap copies that they no longer have room for the original toys.",
+      "promptZh": "有些店舖售賣太多廉價仿製品,已沒有空間放原裝玩具。",
+      "starter": "Cheap",
+      "answer": "Cheap copies are crowding the original toys out of some shops.",
+      "answerZh": "廉價仿製品太多,令部分店舖沒有空間放原裝玩具。",
+      "highlight": "are crowding",
+      "targetForm": "crowd something out of something",
+      "targetMeaningZh": "佔用空間或市場而排除其他事物"
+    },
+    {
+      "id": "phrasal-verb-136-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Once the final bus arrived, everyone entered through the front door together.",
+      "promptZh": "最後一班巴士到達後,所有人一起從前門進入。",
+      "starter": "Once",
+      "answer": "Once the final bus arrived, everyone crowded in through the front door.",
+      "answerZh": "最後一班巴士到達後,所有人一起從前門湧入。",
+      "highlight": "crowded in",
+      "targetForm": "crowd in",
+      "targetMeaningZh": "大批人一起進入"
+    },
+    {
+      "id": "phrasal-verb-136-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Why did everyone form a tight circle by the screen when the message appeared?",
+      "promptZh": "訊息出現時,為甚麼每個人都緊密地圍在螢幕旁?",
+      "starter": "Why",
+      "answer": "Why did everyone crowd round the screen when the message appeared?",
+      "answerZh": "訊息出現時,為甚麼每個人都緊緊圍在螢幕旁?",
+      "highlight": "crowd round",
+      "targetForm": "crowd round something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "On the packed train, people kept standing closer and closer around the man by the door.",
+      "promptZh": "在擠迫的列車上,人們不斷向門旁的男子逼近。",
+      "starter": "On",
+      "answer": "On the packed train, people kept crowding in on the man by the door.",
+      "answerZh": "在擠迫的列車上,人們不斷向門旁的男子逼近。",
+      "highlight": "crowding in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The teacher put twenty pupils into a room meant for ten.",
+      "promptZh": "老師把二十名學生放進一個只適合十人的房間。",
+      "starter": "The",
+      "answer": "The teacher crowded twenty pupils into a room meant for ten.",
+      "answerZh": "老師把二十名學生擠進一個只適合十人的房間。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody into something",
+      "targetMeaningZh": "把太多人擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Guests began to enter the kitchen in large numbers when they smelled the food.",
+      "promptZh": "客人聞到食物香味後,便大批進入廚房。",
+      "starter": "Guests",
+      "answer": "Guests began to crowd into the kitchen when they smelled the food.",
+      "answerZh": "客人聞到食物香味後,便大批湧入廚房。",
+      "highlight": "crowd into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The tourists stood in a tight group beside the guide, making it hard for others to pass.",
+      "promptZh": "遊客緊密地聚集在導遊身旁,令其他人難以通過。",
+      "starter": "The",
+      "answer": "The tourists crowded around the guide, making it hard for others to pass.",
+      "answerZh": "遊客緊緊圍在導遊身旁,令其他人難以通過。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around somebody",
+      "targetMeaningZh": "緊緊圍在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "This fast-growing tree takes so much space and light that the smaller plants cannot remain in the garden.",
+      "promptZh": "這棵生長迅速的樹佔去太多空間和陽光,令較小的植物無法留在花園。",
+      "starter": "This",
+      "answer": "This fast-growing tree crowds the smaller plants out of the garden.",
+      "answerZh": "這棵生長迅速的樹佔去太多空間和陽光,令較小的植物無法留在花園。",
+      "highlight": "crowds",
+      "targetForm": "crowd something out of something",
+      "targetMeaningZh": "佔用資源而令其他事物無法留下"
+    },
+    {
+      "id": "phrasal-verb-136-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "As the alley became narrower, the walls seemed to close around us from both sides.",
+      "promptZh": "小巷愈來愈窄,兩旁的牆壁彷彿從四周逼近我們。",
+      "starter": "As",
+      "answer": "As the alley became narrower, the walls seemed to crowd in on us from both sides.",
+      "answerZh": "小巷愈來愈窄,兩旁的牆壁彷彿從四周逼近我們。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The town has added so many holiday flats that local families can no longer find homes in the centre.",
+      "promptZh": "鎮上增加了太多度假公寓,令本地家庭再也無法在市中心找到住所。",
+      "starter": "The",
+      "answer": "The town has added so many holiday flats that local families are being crowded out of the centre.",
+      "answerZh": "鎮上增加了太多度假公寓,令本地家庭正被迫離開市中心。",
+      "highlight": "are being crowded out of",
+      "targetForm": "crowd somebody out of something",
+      "targetMeaningZh": "因空間或競爭而令某人被迫離開"
+    },
+    {
+      "id": "phrasal-verb-136-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Although the car was already full, we fitted the shopping bags inside beside our feet.",
+      "promptZh": "雖然車內已經坐滿,我們仍把購物袋擠到腳邊。",
+      "starter": "Although",
+      "answer": "Although the car was already full, we crowded the shopping bags in beside our feet.",
+      "answerZh": "雖然車內已經坐滿,我們仍把購物袋擠到腳邊。",
+      "highlight": "crowded",
+      "targetForm": "crowd something in",
+      "targetMeaningZh": "把某物擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "When the rescue team arrived, worried neighbours moved close together beside them and asked for news.",
+      "promptZh": "救援隊到達時,憂心的鄰居緊密地聚集在他們身旁查問消息。",
+      "starter": "When",
+      "answer": "When the rescue team arrived, worried neighbours crowded round them and asked for news.",
+      "answerZh": "救援隊到達時,憂心的鄰居緊緊圍在他們身旁查問消息。",
+      "highlight": "crowded round",
+      "targetForm": "crowd round somebody",
+      "targetMeaningZh": "緊緊圍在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The doors opened late, so hundreds of passengers entered the station at the same time.",
+      "promptZh": "門遲了才打開,所以數百名乘客同時進入車站。",
+      "starter": "The",
+      "answer": "The doors opened late, so hundreds of passengers crowded into the station at the same time.",
+      "answerZh": "門遲了才打開,所以數百名乘客同時湧入車站。",
+      "highlight": "crowded into",
+      "targetForm": "crowd into something",
+      "targetMeaningZh": "大批人一起進入某處"
+    },
+    {
+      "id": "phrasal-verb-136-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After several hours underground, the low walls seemed to be closing around the workers.",
+      "promptZh": "在地底工作數小時後,低矮的牆壁彷彿從四周逼近工人。",
+      "starter": "After",
+      "answer": "After several hours underground, the low walls seemed to crowd in on the workers.",
+      "answerZh": "在地底工作數小時後,低矮的牆壁彷彿從四周逼近工人。",
+      "highlight": "crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-136-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "A few people spoke so loudly that quieter voices could not be heard in the discussion.",
+      "promptZh": "少數人說話太大聲,令較安靜的聲音在討論中無法被聽見。",
+      "starter": "A",
+      "answer": "A few loud voices crowded quieter voices out of the discussion.",
+      "answerZh": "少數人的聲音太響亮,令較安靜的聲音無法在討論中被聽見。",
+      "highlight": "loud voices crowded",
+      "targetForm": "crowd something out of something",
+      "targetMeaningZh": "壓過或排除其他事物"
+    },
+    {
+      "id": "phrasal-verb-136-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "To make room for the food, they put all the drinks close together on one small table.",
+      "promptZh": "為了騰出空間放食物,他們把所有飲品放在一張小桌上。",
+      "starter": "To",
+      "answer": "To make room for the food, they crowded all the drinks onto one small table.",
+      "answerZh": "為了騰出空間放食物,他們把所有飲品擠到一張小桌上。",
+      "highlight": "crowded",
+      "targetForm": "crowd something onto something",
+      "targetMeaningZh": "把太多東西擠到有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "People had formed a tight group at the entrance, so the nurse could not enter.",
+      "promptZh": "人們緊密地聚集在入口,令護士無法進入。",
+      "starter": "People",
+      "answer": "People had crowded around the entrance, so the nurse could not enter.",
+      "answerZh": "人們緊緊圍在入口,令護士無法進入。",
+      "highlight": "crowded around",
+      "targetForm": "crowd around something",
+      "targetMeaningZh": "緊緊圍在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-136-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When large hotels use most of the beach, small family businesses may be forced to leave the area.",
+      "promptZh": "當大型酒店佔用大部分海灘時,小型家庭生意可能被迫離開該區。",
+      "starter": "When",
+      "answer": "When large hotels take most of the beach, they can crowd small family businesses out of the area.",
+      "answerZh": "當大型酒店佔用大部分海灘時,可能會迫使小型家庭生意離開該區。",
+      "highlight": "take",
+      "targetForm": "crowd somebody/something out of something",
+      "targetMeaningZh": "透過競爭把其他人或事物迫走"
+    },
+    {
+      "id": "phrasal-verb-136-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the doors were unlocked, the waiting passengers began to enter in a large group.",
+      "promptZh": "門一解鎖,等候的乘客便開始大批進入。",
+      "starter": "As",
+      "answer": "As soon as the doors were unlocked, the waiting passengers began to crowd in.",
+      "answerZh": "門一解鎖,等候的乘客便開始大批湧入。",
+      "highlight": "crowd",
+      "targetForm": "crowd in",
+      "targetMeaningZh": "大批人一起進入"
+    },
+    {
+      "id": "phrasal-verb-136-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "There was almost no room, but the staff managed to fit the final guests into the back row.",
+      "promptZh": "幾乎沒有空間,但職員仍把最後幾位客人擠進後排。",
+      "starter": "There",
+      "answer": "There was almost no room, but the staff crowded the final guests into the back row.",
+      "answerZh": "幾乎沒有空間,但職員仍把最後幾位客人擠進後排。",
+      "highlight": "crowded",
+      "targetForm": "crowd somebody into something",
+      "targetMeaningZh": "把人擠進有限空間"
+    },
+    {
+      "id": "phrasal-verb-136-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "With tall buildings on both sides and heavy traffic behind us, the city felt as if it was closing around us.",
+      "promptZh": "兩旁都是高樓,身後又有繁忙車流,這座城市令我們感到彷彿正從四周逼近。",
+      "starter": "With",
+      "answer": "With tall buildings on both sides and heavy traffic behind us, the city seemed to crowd in on us.",
+      "answerZh": "兩旁都是高樓,身後又有繁忙車流,這座城市彷彿從四周逼近我們。",
+      "highlight": "seemed to crowd in on",
+      "targetForm": "crowd in on somebody",
+      "targetMeaningZh": "從四周逼近,使某人感到受壓"
+    }
+  ]
+}

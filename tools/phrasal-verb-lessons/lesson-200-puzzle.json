@@ -1,0 +1,998 @@
+{
+  "id": "phrasal-verb-200",
+  "order": 200,
+  "slug": "puzzle",
+  "version": "1",
+  "title": "PUZZLE 動詞片語",
+  "titleEn": "Puzzle",
+  "titleZh": "PUZZLE 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 198 - PUZZLE.pdf",
+    "sourceNumber": 198,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PUZZLE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PUZZLE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PUZZLE",
+      "highlight": "PUZZLE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Police are still puzzling over the incident.",
+      "zh": "警方仍在反覆思考這宗事件。",
+      "highlight": "puzzling over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We finally puzzled out how the lock worked.",
+      "zh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+      "highlight": "puzzled out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "仔細或反覆思考某事,希望理解或解釋它。；經仔細思考後弄清楚某事、明白某事或找出答案。",
+    "en": "puzzle over/about something; puzzle something out",
+    "naturalZh": [
+      "仔細或反覆思考某事,希望理解或解釋它。",
+      "經仔細思考後弄清楚某事、明白某事或找出答案。"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "puzzle over/about something",
+      "titleZh": "仔細或反覆思考某事,希望理解或解釋它。",
+      "titleEn": "puzzle over/about something",
+      "descriptionZh": "仔細或反覆思考某事,希望理解或解釋它。",
+      "descriptionEn": "Police are still puzzling over the incident.",
+      "examples": [
+        {
+          "en": "Police are still puzzling over the incident.",
+          "zh": "警方仍在反覆思考這宗事件。",
+          "highlight": "puzzling over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "puzzle something out",
+      "titleZh": "經仔細思考後弄清楚某事、明白某事或找出答案。",
+      "titleEn": "puzzle something out",
+      "descriptionZh": "經仔細思考後弄清楚某事、明白某事或找出答案。",
+      "descriptionEn": "We finally puzzled out how the lock worked.",
+      "examples": [
+        {
+          "en": "We finally puzzled out how the lock worked.",
+          "zh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+          "highlight": "puzzled out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PUZZLE 片語動詞的實際用途",
+    "labelEn": "PUZZLE Phrasal Verbs in Use",
+    "summaryZh": "puzzle over/about 描述仔細思考的過程;puzzle something out 則表示某人弄清楚事情或找出答案。；這些表達適合用來談論提示、密碼、地圖、說明、謎題和令人困惑的事件。；你可以使用 puzzle out,表示某人仔細思考後,弄懂機器、應用程式、規則、規律或方法。；PUZZLE 片語動詞能讓你自然地描述認真而仔細的思考。",
+    "summaryEn": "Puzzle over/about describes the thinking process, while puzzle something out shows that someone understands something or finds an answer. These expressions are useful when discussing clues, codes, maps, instructions, puzzles and confusing events. You can use puzzle out to describe understanding a machine, an app, a rule, a pattern or a method after careful thought. The PUZZLE expressions give you a natural way to describe serious and careful thought.",
+    "contextsZh": [
+      "清楚分辨思考過程和找出答案",
+      "自然談論提示、訊息和困難問題",
+      "說明某人如何弄懂事物的運作方式",
+      "避免不斷重複使用 “think hard”"
+    ],
+    "contextsEn": [
+      "Show the difference between thinking and finding an answer",
+      "Talk naturally about clues, messages and difficult questions",
+      "Explain how someone understands the way something works",
+      "Describe difficult thinking without repeatedly using “think hard”"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PUZZLE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PUZZLE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "puzzle over/about something",
+    "fixedHighlight": "puzzle over/about something",
+    "fixedZh": "閱讀整句,選出意思相同的 PUZZLE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PUZZLE expression that gives the same meaning.",
+    "correct": "puzzling over",
+    "incorrectForms": [],
+    "variableZh": "當某人花時間仔細思考某事時,使用 puzzle over/about something。當某人透過仔細思考弄清楚某事或找出答案時,使用 puzzle something out。；保留原句中的人物、事物、時間、結果和意思。；在 puzzle ... out 中使用 it 或 them 時,把它放在 PUZZLE 和 OUT 中間。",
+    "variableEn": "Use puzzle over/about something when someone spends time thinking hard about something. Use puzzle something out when someone understands it or finds the answer through careful thought. Keep the same people, things, time, result and meaning. When using it or them with puzzle... out, place the word between PUZZLE and OUT: puzzle it out puzzle them out",
+    "variableItemsZh": [
+      "puzzle over/about something",
+      "puzzle something out"
+    ],
+    "variableItemsEn": [
+      "puzzle over/about something",
+      "puzzle something out"
+    ],
+    "forms": [
+      {
+        "formZh": "仔細或反覆思考某事,希望理解或解釋它。",
+        "formEn": "puzzle over/about something",
+        "exampleZh": "警方仍在反覆思考這宗事件。",
+        "exampleEn": "Police are still puzzling over the incident.",
+        "highlight": "puzzling over"
+      },
+      {
+        "formZh": "經仔細思考後弄清楚某事、明白某事或找出答案。",
+        "formEn": "puzzle something out",
+        "exampleZh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+        "exampleEn": "We finally puzzled out how the lock worked.",
+        "highlight": "puzzled out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "仔細或反覆思考某事,希望理解或解釋它。",
+      "titleEn": "puzzle over/about something",
+      "formula": "puzzle over/about something",
+      "highlight": "puzzle over/about something",
+      "descriptionZh": "仔細或反覆思考某事,希望理解或解釋它。",
+      "descriptionEn": "Police are still puzzling over the incident.",
+      "examples": [
+        {
+          "en": "Police are still puzzling over the incident.",
+          "zh": "警方仍在反覆思考這宗事件。",
+          "highlight": "puzzling over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "經仔細思考後弄清楚某事、明白某事或找出答案。",
+      "titleEn": "puzzle something out",
+      "formula": "puzzle something out",
+      "highlight": "puzzle something out",
+      "descriptionZh": "經仔細思考後弄清楚某事、明白某事或找出答案。",
+      "descriptionEn": "We finally puzzled out how the lock worked.",
+      "examples": [
+        {
+          "en": "We finally puzzled out how the lock worked.",
+          "zh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+          "highlight": "puzzled out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚分辨思考過程和找出答案",
+      "titleEn": "Show the difference between thinking and finding an answer",
+      "zh": "puzzle over/about 描述仔細思考的過程;puzzle something out 則表示某人弄清楚事情或找出答案。",
+      "en": "Puzzle over/about describes the thinking process, while puzzle something out shows that someone understands something or finds an answer."
+    },
+    {
+      "titleZh": "自然談論提示、訊息和困難問題",
+      "titleEn": "Talk naturally about clues, messages and difficult questions",
+      "zh": "這些表達適合用來談論提示、密碼、地圖、說明、謎題和令人困惑的事件。",
+      "en": "These expressions are useful when discussing clues, codes, maps, instructions, puzzles and confusing events."
+    },
+    {
+      "titleZh": "說明某人如何弄懂事物的運作方式",
+      "titleEn": "Explain how someone understands the way something works",
+      "zh": "你可以使用 puzzle out,表示某人仔細思考後,弄懂機器、應用程式、規則、規律或方法。",
+      "en": "You can use puzzle out to describe understanding a machine, an app, a rule, a pattern or a method after careful thought."
+    },
+    {
+      "titleZh": "避免不斷重複使用 “think hard”",
+      "titleEn": "Describe difficult thinking without repeatedly using “think hard”",
+      "zh": "PUZZLE 片語動詞能讓你自然地描述認真而仔細的思考。",
+      "en": "The PUZZLE expressions give you a natural way to describe serious and careful thought."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚分辨思考過程和找出答案",
+      "自然談論提示、訊息和困難問題",
+      "說明某人如何弄懂事物的運作方式",
+      "避免不斷重複使用 “think hard”"
+    ],
+    "contextsEn": [
+      "Show the difference between thinking and finding an answer",
+      "Talk naturally about clues, messages and difficult questions",
+      "Explain how someone understands the way something works",
+      "Describe difficult thinking without repeatedly using “think hard”"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚分辨思考過程和找出答案",
+        "titleEn": "Show the difference between thinking and finding an answer",
+        "zh": "puzzle over/about 描述仔細思考的過程;puzzle something out 則表示某人弄清楚事情或找出答案。",
+        "en": "Puzzle over/about describes the thinking process, while puzzle something out shows that someone understands something or finds an answer.",
+        "examples": [
+          {
+            "en": "Police are still puzzling over the incident.",
+            "zh": "警方仍在反覆思考這宗事件。",
+            "highlight": "puzzling over"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論提示、訊息和困難問題",
+        "titleEn": "Talk naturally about clues, messages and difficult questions",
+        "zh": "這些表達適合用來談論提示、密碼、地圖、說明、謎題和令人困惑的事件。",
+        "en": "These expressions are useful when discussing clues, codes, maps, instructions, puzzles and confusing events.",
+        "examples": [
+          {
+            "en": "We finally puzzled out how the lock worked.",
+            "zh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+            "highlight": "puzzled out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某人如何弄懂事物的運作方式",
+        "titleEn": "Explain how someone understands the way something works",
+        "zh": "你可以使用 puzzle out,表示某人仔細思考後,弄懂機器、應用程式、規則、規律或方法。",
+        "en": "You can use puzzle out to describe understanding a machine, an app, a rule, a pattern or a method after careful thought.",
+        "examples": [
+          {
+            "en": "Police are still puzzling over the incident.",
+            "zh": "警方仍在反覆思考這宗事件。",
+            "highlight": "puzzling over"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免不斷重複使用 “think hard”",
+        "titleEn": "Describe difficult thinking without repeatedly using “think hard”",
+        "zh": "PUZZLE 片語動詞能讓你自然地描述認真而仔細的思考。",
+        "en": "The PUZZLE expressions give you a natural way to describe serious and careful thought.",
+        "examples": [
+          {
+            "en": "We finally puzzled out how the lock worked.",
+            "zh": "我們仔細思考後,終於弄清楚門鎖的運作方式。",
+            "highlight": "puzzled out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PUZZLE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PUZZLE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PUZZLE 片語動詞。",
+      "en": "Read the whole sentence and choose the PUZZLE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "當某人花時間仔細思考某事時,使用 puzzle over/about something。當某人透過仔細思考弄清楚某事或找出答案時,使用 puzzle something out。",
+      "titleEn": "Use puzzle over/about something when someone spends time thinking hard about something.",
+      "zh": "當某人花時間仔細思考某事時,使用 puzzle over/about something。當某人透過仔細思考弄清楚某事或找出答案時,使用 puzzle something out。",
+      "en": "Use puzzle over/about something when someone spends time thinking hard about something. Use puzzle something out when someone understands it or finds the answer through careful thought."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "在 puzzle ... out 中使用 it 或 them 時,把它放在 PUZZLE 和 OUT 中間。",
+      "titleEn": "When using it or them with puzzle.",
+      "zh": "在 puzzle ... out 中使用 it 或 them 時,把它放在 PUZZLE 和 OUT 中間。",
+      "en": "When using it or them with puzzle... out, place the word between PUZZLE and OUT: puzzle it out puzzle them out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PUZZLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PUZZLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PUZZLE 動詞片語句子改寫練習",
+    "titleEn": "PUZZLE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PUZZLE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PUZZLE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-200-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The students thought hard about the strange message for a long time.",
+      "promptZh": "學生長時間仔細思考那段奇怪的訊息。",
+      "starter": "The",
+      "answer": "The students puzzled over the strange message for a long time.",
+      "answerZh": "學生長時間反覆思考那段奇怪的訊息。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Ella thought carefully and finally understood the final clue.",
+      "promptZh": "埃拉仔細思考後,終於明白最後一個提示。",
+      "starter": "Ella",
+      "answer": "Ella finally puzzled out the final clue.",
+      "answerZh": "埃拉仔細思考後,終於弄明白最後一個提示。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Police are still thinking hard about the incident.",
+      "promptZh": "警方仍在仔細思考這宗事件。",
+      "starter": "Police",
+      "answer": "Police are still puzzling over the incident.",
+      "answerZh": "警方仍在反覆思考這宗事件。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "We thought carefully and found the reason for the missing files.",
+      "promptZh": "我們仔細思考後,找出了檔案失蹤的原因。",
+      "starter": "We",
+      "answer": "We puzzled out the reason for the missing files.",
+      "answerZh": "我們仔細思考後,找出了檔案失蹤的原因。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後找出答案或原因"
+    },
+    {
+      "id": "phrasal-verb-200-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Noah thought carefully and understood how the toy worked.",
+      "promptZh": "諾亞仔細思考後,明白了這件玩具的運作方式。",
+      "starter": "Noah",
+      "answer": "Noah puzzled out how the toy worked.",
+      "answerZh": "諾亞仔細思考後,弄清楚這件玩具的運作方式。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The teacher spent all evening thinking about the wrong answer.",
+      "promptZh": "老師整晚都在思考那個錯誤答案。",
+      "starter": "The",
+      "answer": "The teacher puzzled over the wrong answer all evening.",
+      "answerZh": "老師整晚都在反覆思考那個錯誤答案。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "I thought carefully and found the answer to the number problem.",
+      "promptZh": "我仔細思考後,找出了那道數學題的答案。",
+      "starter": "I",
+      "answer": "I puzzled out the answer to the number problem.",
+      "answerZh": "我仔細思考後,找出了那道數學題的答案。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後找出答案"
+    },
+    {
+      "id": "phrasal-verb-200-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Scientists are thinking hard about why the fish changed direction.",
+      "promptZh": "科學家正在仔細思考魚兒為何改變方向。",
+      "starter": "Scientists",
+      "answer": "Scientists are puzzling over why the fish changed direction.",
+      "answerZh": "科學家正在反覆思考魚兒為何改變方向。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Chloe has managed to understand the signs on the map after careful thought.",
+      "promptZh": "克洛伊仔細思考後,已看懂地圖上的標誌。",
+      "starter": "Chloe",
+      "answer": "Chloe has puzzled out the signs on the map.",
+      "answerZh": "克洛伊仔細思考後,已弄懂地圖上的標誌。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The team is thinking hard about why the door will not open.",
+      "promptZh": "團隊正在仔細思考那道門為何打不開。",
+      "starter": "The",
+      "answer": "The team is puzzling over why the door will not open.",
+      "answerZh": "團隊正在反覆思考那道門為何打不開。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Can you think carefully and discover what this short code means?",
+      "promptZh": "你能仔細思考,弄清楚這段短密碼的意思嗎?",
+      "starter": "Can",
+      "answer": "Can you puzzle out what this short code means?",
+      "answerZh": "你能仔細思考,弄清楚這段短密碼的意思嗎?",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Ben spent the journey thinking about the strange sound from the car.",
+      "promptZh": "賓在整段旅程中都在思考汽車發出的怪聲。",
+      "starter": "Ben",
+      "answer": "Ben puzzled over the strange sound from the car during the journey.",
+      "answerZh": "賓在整段旅程中都在反覆思考汽車發出的怪聲。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Priya often thinks hard about how birds find their way home.",
+      "promptZh": "普里雅經常仔細思考鳥兒如何找到回家的路。",
+      "starter": "Priya",
+      "answer": "Priya often puzzles about how birds find their way home.",
+      "answerZh": "普里雅經常仔細思考鳥兒如何找到回家的路。",
+      "highlight": "puzzles",
+      "targetForm": "puzzle about something",
+      "targetMeaningZh": "仔細思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We will think carefully and find the best way to place all the pieces correctly.",
+      "promptZh": "我們會仔細思考,找出正確放置所有拼塊的最佳方法。",
+      "starter": "We",
+      "answer": "We will puzzle out the best way to place all the pieces correctly.",
+      "answerZh": "我們會仔細思考,找出正確放置所有拼塊的最佳方法。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後找出答案或方法"
+    },
+    {
+      "id": "phrasal-verb-200-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Why is Leo thinking so hard about the last line of the story?",
+      "promptZh": "里奧為何正在仔細思考故事的最後一行?",
+      "starter": "Why",
+      "answer": "Why is Leo puzzling over the last line of the story?",
+      "answerZh": "里奧為何正在反覆思考故事的最後一行?",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Ava tried hard but could not understand the old note.",
+      "promptZh": "艾娃很努力嘗試,但仍無法看懂那張舊紙條。",
+      "starter": "Ava",
+      "answer": "Ava tried hard but could not puzzle out the old note.",
+      "answerZh": "艾娃很努力嘗試,但仍無法弄懂那張舊紙條。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "After thinking hard about the map for ten minutes, Jay saw a second path.",
+      "promptZh": "傑仔細研究地圖十分鐘後,看見了第二條路。",
+      "starter": "After",
+      "answer": "After puzzling over the map for ten minutes, Jay saw a second path.",
+      "answerZh": "傑反覆研究地圖十分鐘後,看見了第二條路。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考或研究某事"
+    },
+    {
+      "id": "phrasal-verb-200-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The instructions were confusing, but we thought carefully and understood them.",
+      "promptZh": "說明令人困惑,但我們仔細思考後把它們弄明白了。",
+      "starter": "The",
+      "answer": "The instructions were confusing, but we puzzled them out.",
+      "answerZh": "說明令人困惑,但我們仔細思考後把它們弄明白了。",
+      "highlight": "puzzled",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The answer was not clear, so Lena tried to understand it by careful thought.",
+      "promptZh": "答案並不清楚,因此莉娜嘗試仔細思考,把它弄明白。",
+      "starter": "The",
+      "answer": "The answer was not clear, so Lena tried to puzzle it out.",
+      "answerZh": "答案並不清楚,因此莉娜嘗試仔細思考,把它弄明白。",
+      "highlight": "puzzle",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Omar has been thinking hard about the same question since lunch.",
+      "promptZh": "奧馬從午飯時間起,一直仔細思考同一個問題。",
+      "starter": "Omar",
+      "answer": "Omar has been puzzling over the same question since lunch.",
+      "answerZh": "奧馬從午飯時間起,一直反覆思考同一個問題。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "How did the children understand the secret message? They thought carefully about each symbol.",
+      "promptZh": "孩子們如何弄懂那段秘密訊息?他們仔細思考每一個符號。",
+      "starter": "How",
+      "answer": "How did the children puzzle out the secret message? They thought carefully about each symbol.",
+      "answerZh": "孩子們如何弄懂那段秘密訊息?他們仔細思考每一個符號。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Eva may spend tonight thinking hard about the ending of the film.",
+      "promptZh": "伊娃今晚可能會花時間仔細思考電影的結局。",
+      "starter": "Eva",
+      "answer": "Eva may spend tonight puzzling about the ending of the film.",
+      "answerZh": "伊娃今晚可能會花時間仔細思考電影的結局。",
+      "highlight": "puzzling",
+      "targetForm": "puzzle about something",
+      "targetMeaningZh": "仔細思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Daniel did not just guess; he thought carefully about every possible cause.",
+      "promptZh": "丹尼爾並非只是猜測;他仔細思考了每一個可能原因。",
+      "starter": "Daniel",
+      "answer": "Daniel did not just guess; he puzzled over every possible cause.",
+      "answerZh": "丹尼爾並非只是猜測;他仔細思考了每一個可能原因。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "It took the class twenty minutes of careful thought to understand the pattern.",
+      "promptZh": "全班仔細思考了二十分鐘,才明白那個規律。",
+      "starter": "It",
+      "answer": "It took the class twenty minutes to puzzle out the pattern.",
+      "answerZh": "全班仔細思考了二十分鐘,才弄懂那個規律。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚規律或答案"
+    },
+    {
+      "id": "phrasal-verb-200-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "After a long discussion, the club finally discovered why the lights kept going dark.",
+      "promptZh": "經過長時間討論後,社團終於弄清楚燈光為何不斷變暗。",
+      "starter": "After",
+      "answer": "After a long discussion, the club finally puzzled out why the lights kept going dark.",
+      "answerZh": "經過長時間討論後,社團終於弄清楚燈光為何不斷變暗。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚原因"
+    },
+    {
+      "id": "phrasal-verb-200-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The coach kept thinking hard about why the team lost its focus.",
+      "promptZh": "教練一直仔細思考球隊為何失去專注。",
+      "starter": "The",
+      "answer": "The coach kept puzzling over why the team lost its focus.",
+      "answerZh": "教練一直反覆思考球隊為何失去專注。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "For several days, I thought hard about the meaning of the picture.",
+      "promptZh": "我連續幾天仔細思考那幅圖畫的意思。",
+      "starter": "For",
+      "answer": "For several days, I puzzled over the meaning of the picture.",
+      "answerZh": "我連續幾天反覆思考那幅圖畫的意思。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "By comparing the two maps, Sara understood which road was shorter.",
+      "promptZh": "莎拉比較兩張地圖後,弄清楚哪條路較短。",
+      "starter": "By",
+      "answer": "By comparing the two maps, Sara puzzled out which road was shorter.",
+      "answerZh": "莎拉比較兩張地圖後,弄清楚哪條路較短。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後找出答案"
+    },
+    {
+      "id": "phrasal-verb-200-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Hugo is still thinking hard about whether to trust the message.",
+      "promptZh": "雨果仍在仔細思考是否應該相信那段訊息。",
+      "starter": "Hugo",
+      "answer": "Hugo is still puzzling about whether to trust the message.",
+      "answerZh": "雨果仍在仔細思考是否應該相信那段訊息。",
+      "highlight": "puzzling",
+      "targetForm": "puzzle about something",
+      "targetMeaningZh": "仔細思考某事,希望作出判斷"
+    },
+    {
+      "id": "phrasal-verb-200-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The machine looked simple, but nobody could understand why it stopped every ten minutes.",
+      "promptZh": "這部機器看來很簡單,但沒有人能弄清楚它為何每十分鐘便停下來。",
+      "starter": "The",
+      "answer": "The machine looked simple, but nobody could puzzle out why it stopped every ten minutes.",
+      "answerZh": "這部機器看來很簡單,但沒有人能弄清楚它為何每十分鐘便停下來。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚原因"
+    },
+    {
+      "id": "phrasal-verb-200-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The class compared all four clues and understood the hidden rule.",
+      "promptZh": "全班比較了四個提示,並弄清楚隱藏的規則。",
+      "starter": "The",
+      "answer": "The class compared all four clues and puzzled out the hidden rule.",
+      "answerZh": "全班比較了四個提示,並弄清楚隱藏的規則。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚規則或答案"
+    },
+    {
+      "id": "phrasal-verb-200-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Although everyone had an idea, the group continued thinking hard about the problem.",
+      "promptZh": "雖然每個人都有想法,但小組仍繼續仔細思考那個問題。",
+      "starter": "Although",
+      "answer": "Although everyone had an idea, the group continued puzzling over the problem.",
+      "answerZh": "雖然每個人都有想法,但小組仍繼續反覆思考那個問題。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解決"
+    },
+    {
+      "id": "phrasal-verb-200-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The family found an old key with no label. After careful thought, they understood which cupboard it opened.",
+      "promptZh": "一家人找到一條沒有標記的舊鎖匙。仔細思考後,他們弄清楚它能打開哪個櫃。",
+      "starter": "The",
+      "answer": "The family found an old key with no label. After careful thought, they puzzled out which cupboard it opened.",
+      "answerZh": "一家人找到一條沒有標記的舊鎖匙。仔細思考後,他們弄清楚它能打開哪個櫃。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Even after reading the email twice, Farah kept thinking hard about what the writer really wanted.",
+      "promptZh": "即使把電郵看了兩遍,法拉仍仔細思考作者真正想要甚麼。",
+      "starter": "Even",
+      "answer": "Even after reading the email twice, Farah kept puzzling about what the writer really wanted.",
+      "answerZh": "即使把電郵看了兩遍,法拉仍反覆思考作者真正想要甚麼。",
+      "highlight": "puzzling",
+      "targetForm": "puzzle about something",
+      "targetMeaningZh": "仔細思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I had seen the symbols before, and this helped me understand the message by careful thought.",
+      "promptZh": "我以前見過這些符號,這幫助我仔細思考並弄懂那段訊息。",
+      "starter": "I",
+      "answer": "I had seen the symbols before, and this helped me puzzle out the message.",
+      "answerZh": "我以前見過這些符號,這幫助我仔細思考並弄懂那段訊息。",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚某事"
+    },
+    {
+      "id": "phrasal-verb-200-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "While the others searched for more clues, Ravi sat quietly and thought hard about the strange numbers.",
+      "promptZh": "其他人尋找更多提示時,拉維靜靜坐着,仔細思考那些奇怪的數字。",
+      "starter": "While",
+      "answer": "While the others searched for more clues, Ravi sat quietly and puzzled over the strange numbers.",
+      "answerZh": "其他人尋找更多提示時,拉維靜靜坐着,反覆思考那些奇怪的數字。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The answer was not obvious, so the students spent the whole lesson thinking about why the experiment had failed.",
+      "promptZh": "答案並不明顯,所以學生用了整堂課仔細思考實驗失敗的原因。",
+      "starter": "The",
+      "answer": "The answer was not obvious, so the students spent the whole lesson puzzling over why the experiment had failed.",
+      "answerZh": "答案並不明顯,所以學生用了整堂課反覆思考實驗失敗的原因。",
+      "highlight": "puzzling over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或解釋"
+    },
+    {
+      "id": "phrasal-verb-200-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Could Sofia understand how the app chose the next song after studying its choices?",
+      "promptZh": "索菲亞研究過應用程式的選擇後,能弄清楚它如何選出下一首歌嗎?",
+      "starter": "Could",
+      "answer": "Could Sofia puzzle out how the app chose the next song after studying its choices?",
+      "answerZh": "索菲亞研究過應用程式的選擇後,能弄清楚它如何選出下一首歌嗎?",
+      "highlight": "puzzle out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚運作方式"
+    },
+    {
+      "id": "phrasal-verb-200-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Since the match ended, the coach has thought hard about one decision made near the end.",
+      "promptZh": "比賽結束後,教練一直仔細思考接近完場時所作的一個決定。",
+      "starter": "Since",
+      "answer": "Since the match ended, the coach has puzzled over one decision made near the end.",
+      "answerZh": "比賽結束後,教練一直反覆思考接近完場時所作的一個決定。",
+      "highlight": "puzzled over",
+      "targetForm": "puzzle over something",
+      "targetMeaningZh": "反覆思考某事,希望理解或評估"
+    },
+    {
+      "id": "phrasal-verb-200-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After the last clue arrived, Omar finally understood what had happened to the missing package.",
+      "promptZh": "最後一個提示送到後,奧馬終於弄清楚失蹤的包裹發生了甚麼事。",
+      "starter": "After",
+      "answer": "After the last clue arrived, Omar finally puzzled out what had happened to the missing package.",
+      "answerZh": "最後一個提示送到後,奧馬終於弄清楚失蹤的包裹發生了甚麼事。",
+      "highlight": "puzzled out",
+      "targetForm": "puzzle something out",
+      "targetMeaningZh": "經仔細思考後弄清楚事情或找出答案"
+    }
+  ]
+}

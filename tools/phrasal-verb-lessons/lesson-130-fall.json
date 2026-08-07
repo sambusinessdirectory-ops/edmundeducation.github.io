@@ -1,0 +1,3087 @@
+{
+  "id": "phrasal-verb-130",
+  "order": 130,
+  "slug": "fall",
+  "version": "1",
+  "title": "FALL 動詞片語",
+  "titleEn": "Fall",
+  "titleZh": "FALL 動詞片語",
+  "level": "B1",
+  "groupCount": 23,
+  "source": {
+    "file": "Phrasal Verbs 129 - FALL.pdf",
+    "sourceNumber": 129,
+    "pageCount": 47,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "answerKeyPdfPages": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FALL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FALL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FALL",
+      "highlight": "FALL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Everyone fell about at the silly photo.",
+      "zh": "大家看到那張滑稽照片都笑得前仰後合。",
+      "highlight": "fell about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Large pieces of paint were falling away from the wall.",
+      "zh": "大片油漆正從牆上剝落。",
+      "highlight": "falling away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The runner fell back near the end of the race.",
+      "zh": "那名跑手在比賽接近尾聲時名次下跌。",
+      "highlight": "fell back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "笑得前仰後合;大笑不止；表面的一部分剝落;脫落；後退;落後;名次下跌；在其他方法失敗時依靠某人或某事物；未能跟上工作、學業或付款進度;拖欠；落在後面;未能跟上某人或某事物；倒下;倒塌；未能妥善做好某事;在某方面失職；被某人或某事欺騙;信以為真；屋頂、天花或洞穴向內塌陷；與某人或某群人為伍;結交；同意並跟隨某項計劃或安排；進入某種狀態；減少;下降；從某物脫落；費用、責任或負擔落在某人身上;由某人承擔；頭髮、牙齒等脫落；失去平衡而跌倒；被某人或某物絆倒；計劃或安排未能實現;告吹；某項責任落在某人身上；開始做某事;投入工作、進食或交談；歸入某個類別、標題或規則之下",
+    "en": "fall about; fall away; fall back; fall back on/upon somebody/something; fall behind with/in something; fall behind; fall behind somebody/something; fall down; fall down on something; fall for somebody/something; fall in; fall in with somebody; fall in with something; fall into something; fall off; fall off; fall off something; fall on/upon somebody/something; fall out; fall over; fall over somebody/something; fall through; fall to somebody to do something; fall to something; fall to doing something; fall under something",
+    "naturalZh": [
+      "笑得前仰後合;大笑不止",
+      "表面的一部分剝落;脫落",
+      "後退;落後;名次下跌",
+      "在其他方法失敗時依靠某人或某事物",
+      "未能跟上工作、學業或付款進度;拖欠",
+      "落在後面;未能跟上某人或某事物",
+      "倒下;倒塌",
+      "未能妥善做好某事;在某方面失職",
+      "被某人或某事欺騙;信以為真",
+      "屋頂、天花或洞穴向內塌陷",
+      "與某人或某群人為伍;結交",
+      "同意並跟隨某項計劃或安排",
+      "進入某種狀態",
+      "減少;下降",
+      "從某物脫落",
+      "費用、責任或負擔落在某人身上;由某人承擔",
+      "頭髮、牙齒等脫落",
+      "失去平衡而跌倒",
+      "被某人或某物絆倒",
+      "計劃或安排未能實現;告吹",
+      "某項責任落在某人身上",
+      "開始做某事;投入工作、進食或交談",
+      "歸入某個類別、標題或規則之下"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fall about",
+      "titleZh": "笑得前仰後合;大笑不止",
+      "titleEn": "fall about",
+      "descriptionZh": "笑得前仰後合;大笑不止",
+      "descriptionEn": "Everyone fell about at the silly photo.",
+      "examples": [
+        {
+          "en": "Everyone fell about at the silly photo.",
+          "zh": "大家看到那張滑稽照片都笑得前仰後合。",
+          "highlight": "fell about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall away",
+      "titleZh": "表面的一部分剝落;脫落",
+      "titleEn": "fall away",
+      "descriptionZh": "表面的一部分剝落;脫落",
+      "descriptionEn": "Large pieces of paint were falling away from the wall.",
+      "examples": [
+        {
+          "en": "Large pieces of paint were falling away from the wall.",
+          "zh": "大片油漆正從牆上剝落。",
+          "highlight": "falling away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall back",
+      "titleZh": "後退;落後;名次下跌",
+      "titleEn": "fall back",
+      "descriptionZh": "後退;落後;名次下跌",
+      "descriptionEn": "The runner fell back near the end of the race.",
+      "examples": [
+        {
+          "en": "The runner fell back near the end of the race.",
+          "zh": "那名跑手在比賽接近尾聲時名次下跌。",
+          "highlight": "fell back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall back on/upon somebody/something",
+      "titleZh": "在其他方法失敗時依靠某人或某事物",
+      "titleEn": "fall back on/upon somebody/something",
+      "descriptionZh": "在其他方法失敗時依靠某人或某事物",
+      "descriptionEn": "We can fall back on our savings if necessary.",
+      "examples": [
+        {
+          "en": "We can fall back on our savings if necessary.",
+          "zh": "如有需要,我們可以依靠積蓄應急。",
+          "highlight": "fall back on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall behind with/in something",
+      "titleZh": "未能跟上工作、學業或付款進度;拖欠",
+      "titleEn": "fall behind with/in something",
+      "descriptionZh": "未能跟上工作、學業或付款進度;拖欠",
+      "descriptionEn": "He fell behind with his homework.",
+      "examples": [
+        {
+          "en": "He fell behind with his homework.",
+          "zh": "他未能跟上功課進度。",
+          "highlight": "fell behind with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall behind; fall behind somebody/something",
+      "titleZh": "落在後面;未能跟上某人或某事物",
+      "titleEn": "fall behind; fall behind somebody/something",
+      "descriptionZh": "落在後面;未能跟上某人或某事物",
+      "descriptionEn": "I slowed down and fell behind the others.",
+      "examples": [
+        {
+          "en": "I slowed down and fell behind the others.",
+          "zh": "我慢了下來,落在其他人後面。",
+          "highlight": "fell behind"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall down",
+      "titleZh": "倒下;倒塌",
+      "titleEn": "fall down",
+      "descriptionZh": "倒下;倒塌",
+      "descriptionEn": "The old fence fell down in the storm.",
+      "examples": [
+        {
+          "en": "The old fence fell down in the storm.",
+          "zh": "舊圍欄在暴風雨中倒塌了。",
+          "highlight": "fell down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall down on something",
+      "titleZh": "未能妥善做好某事;在某方面失職",
+      "titleEn": "fall down on something",
+      "descriptionZh": "未能妥善做好某事;在某方面失職",
+      "descriptionEn": "The team fell down on keeping everyone informed.",
+      "examples": [
+        {
+          "en": "The team fell down on keeping everyone informed.",
+          "zh": "團隊未能妥善通知所有人。",
+          "highlight": "fell down on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall for somebody/something",
+      "titleZh": "被某人或某事欺騙;信以為真",
+      "titleEn": "fall for somebody/something",
+      "descriptionZh": "被某人或某事欺騙;信以為真",
+      "descriptionEn": "Do not fall for that fake message.",
+      "examples": [
+        {
+          "en": "Do not fall for that fake message.",
+          "zh": "不要相信那則虛假訊息而上當。",
+          "highlight": "fall for"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall in",
+      "titleZh": "屋頂、天花或洞穴向內塌陷",
+      "titleEn": "fall in",
+      "descriptionZh": "屋頂、天花或洞穴向內塌陷",
+      "descriptionEn": "Part of the cave roof fell in.",
+      "examples": [
+        {
+          "en": "Part of the cave roof fell in.",
+          "zh": "洞穴頂部有一部分向內塌陷。",
+          "highlight": "fell in"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall in with somebody",
+      "titleZh": "與某人或某群人為伍;結交",
+      "titleEn": "fall in with somebody",
+      "descriptionZh": "與某人或某群人為伍;結交",
+      "descriptionEn": "He fell in with a noisy group at school.",
+      "examples": [
+        {
+          "en": "He fell in with a noisy group at school.",
+          "zh": "他在學校與一群吵鬧的學生為伍。",
+          "highlight": "fell in with"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall in with something",
+      "titleZh": "同意並跟隨某項計劃或安排",
+      "titleEn": "fall in with something",
+      "descriptionZh": "同意並跟隨某項計劃或安排",
+      "descriptionEn": "She fell in with their plan.",
+      "examples": [
+        {
+          "en": "She fell in with their plan.",
+          "zh": "她同意並跟隨他們的計劃。",
+          "highlight": "fell in with"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fall into something",
+      "titleZh": "進入某種狀態",
+      "titleEn": "fall into something",
+      "descriptionZh": "進入某種狀態",
+      "descriptionEn": "The baby fell into a deep sleep.",
+      "examples": [
+        {
+          "en": "The baby fell into a deep sleep.",
+          "zh": "嬰兒進入了熟睡狀態。",
+          "highlight": "fell into"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall off",
+      "titleZh": "減少;下降",
+      "titleEn": "fall off",
+      "descriptionZh": "減少;下降",
+      "descriptionEn": "Interest in the club has fallen off.",
+      "examples": [
+        {
+          "en": "Interest in the club has fallen off.",
+          "zh": "人們對該會的興趣已經下降。",
+          "highlight": "fallen off"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall off; fall off something",
+      "titleZh": "從某物脫落",
+      "titleEn": "fall off; fall off something",
+      "descriptionZh": "從某物脫落",
+      "descriptionEn": "The handle fell off the drawer.",
+      "examples": [
+        {
+          "en": "The handle fell off the drawer.",
+          "zh": "把手從抽屜上脫落了。",
+          "highlight": "fell off"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall on/upon somebody/something",
+      "titleZh": "費用、責任或負擔落在某人身上;由某人承擔",
+      "titleEn": "fall on/upon somebody/something",
+      "descriptionZh": "費用、責任或負擔落在某人身上;由某人承擔",
+      "descriptionEn": "Most of the cost fell on the parents.",
+      "examples": [
+        {
+          "en": "Most of the cost fell on the parents.",
+          "zh": "大部分費用由家長承擔。",
+          "highlight": "fell on"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall out",
+      "titleZh": "頭髮、牙齒等脫落",
+      "titleEn": "fall out",
+      "descriptionZh": "頭髮、牙齒等脫落",
+      "descriptionEn": "Some of his hair fell out after he was ill.",
+      "examples": [
+        {
+          "en": "Some of his hair fell out after he was ill.",
+          "zh": "他生病後有些頭髮脫落了。",
+          "highlight": "fell out"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall over",
+      "titleZh": "失去平衡而跌倒",
+      "titleEn": "fall over",
+      "descriptionZh": "失去平衡而跌倒",
+      "descriptionEn": "The child fell over on the wet floor.",
+      "examples": [
+        {
+          "en": "The child fell over on the wet floor.",
+          "zh": "那名孩子在濕滑的地面上跌倒了。",
+          "highlight": "fell over"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall over somebody/something",
+      "titleZh": "被某人或某物絆倒",
+      "titleEn": "fall over somebody/something",
+      "descriptionZh": "被某人或某物絆倒",
+      "descriptionEn": "Be careful not to fall over the bag.",
+      "examples": [
+        {
+          "en": "Be careful not to fall over the bag.",
+          "zh": "小心不要被那個袋絆倒。",
+          "highlight": "fall over"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall through",
+      "titleZh": "計劃或安排未能實現;告吹",
+      "titleEn": "fall through",
+      "descriptionZh": "計劃或安排未能實現;告吹",
+      "descriptionEn": "Our weekend plans fell through.",
+      "examples": [
+        {
+          "en": "Our weekend plans fell through.",
+          "zh": "我們的週末計劃告吹了。",
+          "highlight": "fell through"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall to somebody to do something",
+      "titleZh": "某項責任落在某人身上",
+      "titleEn": "fall to somebody to do something",
+      "descriptionZh": "某項責任落在某人身上",
+      "descriptionEn": "It fell to me to tell the group.",
+      "examples": [
+        {
+          "en": "It fell to me to tell the group.",
+          "zh": "通知小組的責任落在我身上。",
+          "highlight": "fell to me to"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall to something; fall to doing something",
+      "titleZh": "開始做某事;投入工作、進食或交談",
+      "titleEn": "fall to something; fall to doing something",
+      "descriptionZh": "開始做某事;投入工作、進食或交談",
+      "descriptionEn": "After lunch, they fell to work.",
+      "examples": [
+        {
+          "en": "After lunch, they fell to work.",
+          "zh": "午飯後,他們便投入工作。",
+          "highlight": "fell to"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fall under something",
+      "titleZh": "歸入某個類別、標題或規則之下",
+      "titleEn": "fall under something",
+      "descriptionZh": "歸入某個類別、標題或規則之下",
+      "descriptionEn": "This book falls under history.",
+      "examples": [
+        {
+          "en": "This book falls under history.",
+          "zh": "這本書歸入歷史類別。",
+          "highlight": "falls under"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FALL 片語動詞的實際用途",
+    "labelEn": "FALL Phrasal Verbs in Use",
+    "summaryZh": "fall back、fall behind 和 fall over 可以描述不同形式的移動;fall down 和 fall in 則能分辨向地面倒塌和向內塌陷。；fall through 可以描述未能實現的計劃;fall to 可以指出責任落在誰身上;fall back on 則表示原有方法失敗時所依靠的人或資源。；fall off 可以表示數量下降或物件脫落;fall away 描述物料從表面剝落;fall out 則常用於頭髮或牙齒脫落。；fall about 描述大笑不止;fall for 描述上當受騙;fall in with somebody 則可以表示與某個群體為伍。；fall into 描述進入某種狀態;fall in with something 表示同意某項計劃;fall under 則指出某事物所屬的類別或規則。",
+    "summaryEn": "collapse Fall back, fall behind and fall over describe different kinds of movement. Fall down and fall in help you distinguish between something collapsing to the ground and something collapsing inward. Fall through describes a plan that does not happen. Fall to shows who receives a duty, while fall back on describes the person or resource used when another plan fails. out Fall off can describe a decrease or something becoming detached. Fall away describes material breaking away from a surface, while fall out is commonly used for hair or teeth. Fall about describes uncontrollable laughter. Fall for describes being deceived, while fall in with somebody can describe joining or becoming friendly with a particular group. Fall into describes entering a state, fall in with something describes agreeing to a plan, and fall under shows the category or rule to which something belongs.",
+    "contextsZh": [
+      "描述移動、意外和不同形式的倒塌",
+      "談論告吹的計劃、責任和後備選擇",
+      "描述下降、剝落和脫落",
+      "談論反應、受騙和社交選擇",
+      "描述狀態、同意和分類"
+    ],
+    "contextsEn": [
+      "Describe movement, accidents and different kinds of",
+      "Talk about failed plans, duties and backup choices",
+      "Describe things decreasing, breaking away or coming",
+      "Talk about reactions, deception and social choices",
+      "Describe states, agreements and categories"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FALL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FALL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fall about",
+    "fixedHighlight": "fall about",
+    "fixedZh": "閱讀整句,選出意思相同的 FALL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FALL expression that gives the same meaning.",
+    "correct": "fell about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；相近的表達可以有不同意思。例如,fall off 可以表示「下降」,也可以表示「脫落」。fall in 和 falldown 都可以描述倒塌,但方式不同。；on 和 upon 有時可以表達相同意思;with 和 in 亦會按參考表所示的形式使用。",
+    "variableEn": "Keep the same people, things, time and meaning. Similar expressions may have different meanings. For example, fall off can mean “decrease” or “become detached”. Fall in and fall down both describe collapse, but in different ways. On and upon can sometimes express the same meaning. With and in are both used in the forms shown in the reference bank.",
+    "variableItemsZh": [
+      "fall about",
+      "fall away",
+      "fall back",
+      "fall back on/upon somebody/something",
+      "fall behind with/in something",
+      "fall behind; fall behind somebody/something",
+      "fall down",
+      "fall down on something",
+      "fall for somebody/something",
+      "fall in",
+      "fall in with somebody",
+      "fall in with something",
+      "fall into something",
+      "fall off",
+      "fall off; fall off something",
+      "fall on/upon somebody/something",
+      "fall out",
+      "fall over",
+      "fall over somebody/something",
+      "fall through",
+      "fall to somebody to do something",
+      "fall to something; fall to doing something",
+      "fall under something"
+    ],
+    "variableItemsEn": [
+      "fall about",
+      "fall away",
+      "fall back",
+      "fall back on/upon somebody/something",
+      "fall behind with/in something",
+      "fall behind; fall behind somebody/something",
+      "fall down",
+      "fall down on something",
+      "fall for somebody/something",
+      "fall in",
+      "fall in with somebody",
+      "fall in with something",
+      "fall into something",
+      "fall off",
+      "fall off; fall off something",
+      "fall on/upon somebody/something",
+      "fall out",
+      "fall over",
+      "fall over somebody/something",
+      "fall through",
+      "fall to somebody to do something",
+      "fall to something; fall to doing something",
+      "fall under something"
+    ],
+    "forms": [
+      {
+        "formZh": "笑得前仰後合;大笑不止",
+        "formEn": "fall about",
+        "exampleZh": "大家看到那張滑稽照片都笑得前仰後合。",
+        "exampleEn": "Everyone fell about at the silly photo.",
+        "highlight": "fell about"
+      },
+      {
+        "formZh": "表面的一部分剝落;脫落",
+        "formEn": "fall away",
+        "exampleZh": "大片油漆正從牆上剝落。",
+        "exampleEn": "Large pieces of paint were falling away from the wall.",
+        "highlight": "falling away"
+      },
+      {
+        "formZh": "後退;落後;名次下跌",
+        "formEn": "fall back",
+        "exampleZh": "那名跑手在比賽接近尾聲時名次下跌。",
+        "exampleEn": "The runner fell back near the end of the race.",
+        "highlight": "fell back"
+      },
+      {
+        "formZh": "在其他方法失敗時依靠某人或某事物",
+        "formEn": "fall back on/upon somebody/something",
+        "exampleZh": "如有需要,我們可以依靠積蓄應急。",
+        "exampleEn": "We can fall back on our savings if necessary.",
+        "highlight": "fall back on"
+      },
+      {
+        "formZh": "未能跟上工作、學業或付款進度;拖欠",
+        "formEn": "fall behind with/in something",
+        "exampleZh": "他未能跟上功課進度。",
+        "exampleEn": "He fell behind with his homework.",
+        "highlight": "fell behind with"
+      },
+      {
+        "formZh": "落在後面;未能跟上某人或某事物",
+        "formEn": "fall behind; fall behind somebody/something",
+        "exampleZh": "我慢了下來,落在其他人後面。",
+        "exampleEn": "I slowed down and fell behind the others.",
+        "highlight": "fell behind"
+      },
+      {
+        "formZh": "倒下;倒塌",
+        "formEn": "fall down",
+        "exampleZh": "舊圍欄在暴風雨中倒塌了。",
+        "exampleEn": "The old fence fell down in the storm.",
+        "highlight": "fell down"
+      },
+      {
+        "formZh": "未能妥善做好某事;在某方面失職",
+        "formEn": "fall down on something",
+        "exampleZh": "團隊未能妥善通知所有人。",
+        "exampleEn": "The team fell down on keeping everyone informed.",
+        "highlight": "fell down on"
+      },
+      {
+        "formZh": "被某人或某事欺騙;信以為真",
+        "formEn": "fall for somebody/something",
+        "exampleZh": "不要相信那則虛假訊息而上當。",
+        "exampleEn": "Do not fall for that fake message.",
+        "highlight": "fall for"
+      },
+      {
+        "formZh": "屋頂、天花或洞穴向內塌陷",
+        "formEn": "fall in",
+        "exampleZh": "洞穴頂部有一部分向內塌陷。",
+        "exampleEn": "Part of the cave roof fell in.",
+        "highlight": "fell in"
+      },
+      {
+        "formZh": "與某人或某群人為伍;結交",
+        "formEn": "fall in with somebody",
+        "exampleZh": "他在學校與一群吵鬧的學生為伍。",
+        "exampleEn": "He fell in with a noisy group at school.",
+        "highlight": "fell in with"
+      },
+      {
+        "formZh": "同意並跟隨某項計劃或安排",
+        "formEn": "fall in with something",
+        "exampleZh": "她同意並跟隨他們的計劃。",
+        "exampleEn": "She fell in with their plan.",
+        "highlight": "fell in with"
+      },
+      {
+        "formZh": "進入某種狀態",
+        "formEn": "fall into something",
+        "exampleZh": "嬰兒進入了熟睡狀態。",
+        "exampleEn": "The baby fell into a deep sleep.",
+        "highlight": "fell into"
+      },
+      {
+        "formZh": "減少;下降",
+        "formEn": "fall off",
+        "exampleZh": "人們對該會的興趣已經下降。",
+        "exampleEn": "Interest in the club has fallen off.",
+        "highlight": "fallen off"
+      },
+      {
+        "formZh": "從某物脫落",
+        "formEn": "fall off; fall off something",
+        "exampleZh": "把手從抽屜上脫落了。",
+        "exampleEn": "The handle fell off the drawer.",
+        "highlight": "fell off"
+      },
+      {
+        "formZh": "費用、責任或負擔落在某人身上;由某人承擔",
+        "formEn": "fall on/upon somebody/something",
+        "exampleZh": "大部分費用由家長承擔。",
+        "exampleEn": "Most of the cost fell on the parents.",
+        "highlight": "fell on"
+      },
+      {
+        "formZh": "頭髮、牙齒等脫落",
+        "formEn": "fall out",
+        "exampleZh": "他生病後有些頭髮脫落了。",
+        "exampleEn": "Some of his hair fell out after he was ill.",
+        "highlight": "fell out"
+      },
+      {
+        "formZh": "失去平衡而跌倒",
+        "formEn": "fall over",
+        "exampleZh": "那名孩子在濕滑的地面上跌倒了。",
+        "exampleEn": "The child fell over on the wet floor.",
+        "highlight": "fell over"
+      },
+      {
+        "formZh": "被某人或某物絆倒",
+        "formEn": "fall over somebody/something",
+        "exampleZh": "小心不要被那個袋絆倒。",
+        "exampleEn": "Be careful not to fall over the bag.",
+        "highlight": "fall over"
+      },
+      {
+        "formZh": "計劃或安排未能實現;告吹",
+        "formEn": "fall through",
+        "exampleZh": "我們的週末計劃告吹了。",
+        "exampleEn": "Our weekend plans fell through.",
+        "highlight": "fell through"
+      },
+      {
+        "formZh": "某項責任落在某人身上",
+        "formEn": "fall to somebody to do something",
+        "exampleZh": "通知小組的責任落在我身上。",
+        "exampleEn": "It fell to me to tell the group.",
+        "highlight": "fell to me to"
+      },
+      {
+        "formZh": "開始做某事;投入工作、進食或交談",
+        "formEn": "fall to something; fall to doing something",
+        "exampleZh": "午飯後,他們便投入工作。",
+        "exampleEn": "After lunch, they fell to work.",
+        "highlight": "fell to"
+      },
+      {
+        "formZh": "歸入某個類別、標題或規則之下",
+        "formEn": "fall under something",
+        "exampleZh": "這本書歸入歷史類別。",
+        "exampleEn": "This book falls under history.",
+        "highlight": "falls under"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "笑得前仰後合;大笑不止",
+      "titleEn": "fall about",
+      "formula": "fall about",
+      "highlight": "fall about",
+      "descriptionZh": "笑得前仰後合;大笑不止",
+      "descriptionEn": "Everyone fell about at the silly photo.",
+      "examples": [
+        {
+          "en": "Everyone fell about at the silly photo.",
+          "zh": "大家看到那張滑稽照片都笑得前仰後合。",
+          "highlight": "fell about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "表面的一部分剝落;脫落",
+      "titleEn": "fall away",
+      "formula": "fall away",
+      "highlight": "fall away",
+      "descriptionZh": "表面的一部分剝落;脫落",
+      "descriptionEn": "Large pieces of paint were falling away from the wall.",
+      "examples": [
+        {
+          "en": "Large pieces of paint were falling away from the wall.",
+          "zh": "大片油漆正從牆上剝落。",
+          "highlight": "falling away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "後退;落後;名次下跌",
+      "titleEn": "fall back",
+      "formula": "fall back",
+      "highlight": "fall back",
+      "descriptionZh": "後退;落後;名次下跌",
+      "descriptionEn": "The runner fell back near the end of the race.",
+      "examples": [
+        {
+          "en": "The runner fell back near the end of the race.",
+          "zh": "那名跑手在比賽接近尾聲時名次下跌。",
+          "highlight": "fell back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在其他方法失敗時依靠某人或某事物",
+      "titleEn": "fall back on/upon somebody/something",
+      "formula": "fall back on/upon somebody/something",
+      "highlight": "fall back on/upon somebody/something",
+      "descriptionZh": "在其他方法失敗時依靠某人或某事物",
+      "descriptionEn": "We can fall back on our savings if necessary.",
+      "examples": [
+        {
+          "en": "We can fall back on our savings if necessary.",
+          "zh": "如有需要,我們可以依靠積蓄應急。",
+          "highlight": "fall back on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "未能跟上工作、學業或付款進度;拖欠",
+      "titleEn": "fall behind with/in something",
+      "formula": "fall behind with/in something",
+      "highlight": "fall behind with/in something",
+      "descriptionZh": "未能跟上工作、學業或付款進度;拖欠",
+      "descriptionEn": "He fell behind with his homework.",
+      "examples": [
+        {
+          "en": "He fell behind with his homework.",
+          "zh": "他未能跟上功課進度。",
+          "highlight": "fell behind with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "落在後面;未能跟上某人或某事物",
+      "titleEn": "fall behind; fall behind somebody/something",
+      "formula": "fall behind; fall behind somebody/something",
+      "highlight": "fall behind; fall behind somebody/something",
+      "descriptionZh": "落在後面;未能跟上某人或某事物",
+      "descriptionEn": "I slowed down and fell behind the others.",
+      "examples": [
+        {
+          "en": "I slowed down and fell behind the others.",
+          "zh": "我慢了下來,落在其他人後面。",
+          "highlight": "fell behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "倒下;倒塌",
+      "titleEn": "fall down",
+      "formula": "fall down",
+      "highlight": "fall down",
+      "descriptionZh": "倒下;倒塌",
+      "descriptionEn": "The old fence fell down in the storm.",
+      "examples": [
+        {
+          "en": "The old fence fell down in the storm.",
+          "zh": "舊圍欄在暴風雨中倒塌了。",
+          "highlight": "fell down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "未能妥善做好某事;在某方面失職",
+      "titleEn": "fall down on something",
+      "formula": "fall down on something",
+      "highlight": "fall down on something",
+      "descriptionZh": "未能妥善做好某事;在某方面失職",
+      "descriptionEn": "The team fell down on keeping everyone informed.",
+      "examples": [
+        {
+          "en": "The team fell down on keeping everyone informed.",
+          "zh": "團隊未能妥善通知所有人。",
+          "highlight": "fell down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "被某人或某事欺騙;信以為真",
+      "titleEn": "fall for somebody/something",
+      "formula": "fall for somebody/something",
+      "highlight": "fall for somebody/something",
+      "descriptionZh": "被某人或某事欺騙;信以為真",
+      "descriptionEn": "Do not fall for that fake message.",
+      "examples": [
+        {
+          "en": "Do not fall for that fake message.",
+          "zh": "不要相信那則虛假訊息而上當。",
+          "highlight": "fall for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "屋頂、天花或洞穴向內塌陷",
+      "titleEn": "fall in",
+      "formula": "fall in",
+      "highlight": "fall in",
+      "descriptionZh": "屋頂、天花或洞穴向內塌陷",
+      "descriptionEn": "Part of the cave roof fell in.",
+      "examples": [
+        {
+          "en": "Part of the cave roof fell in.",
+          "zh": "洞穴頂部有一部分向內塌陷。",
+          "highlight": "fell in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "與某人或某群人為伍;結交",
+      "titleEn": "fall in with somebody",
+      "formula": "fall in with somebody",
+      "highlight": "fall in with somebody",
+      "descriptionZh": "與某人或某群人為伍;結交",
+      "descriptionEn": "He fell in with a noisy group at school.",
+      "examples": [
+        {
+          "en": "He fell in with a noisy group at school.",
+          "zh": "他在學校與一群吵鬧的學生為伍。",
+          "highlight": "fell in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "同意並跟隨某項計劃或安排",
+      "titleEn": "fall in with something",
+      "formula": "fall in with something",
+      "highlight": "fall in with something",
+      "descriptionZh": "同意並跟隨某項計劃或安排",
+      "descriptionEn": "She fell in with their plan.",
+      "examples": [
+        {
+          "en": "She fell in with their plan.",
+          "zh": "她同意並跟隨他們的計劃。",
+          "highlight": "fell in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "進入某種狀態",
+      "titleEn": "fall into something",
+      "formula": "fall into something",
+      "highlight": "fall into something",
+      "descriptionZh": "進入某種狀態",
+      "descriptionEn": "The baby fell into a deep sleep.",
+      "examples": [
+        {
+          "en": "The baby fell into a deep sleep.",
+          "zh": "嬰兒進入了熟睡狀態。",
+          "highlight": "fell into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "減少;下降",
+      "titleEn": "fall off",
+      "formula": "fall off",
+      "highlight": "fall off",
+      "descriptionZh": "減少;下降",
+      "descriptionEn": "Interest in the club has fallen off.",
+      "examples": [
+        {
+          "en": "Interest in the club has fallen off.",
+          "zh": "人們對該會的興趣已經下降。",
+          "highlight": "fallen off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "從某物脫落",
+      "titleEn": "fall off; fall off something",
+      "formula": "fall off; fall off something",
+      "highlight": "fall off; fall off something",
+      "descriptionZh": "從某物脫落",
+      "descriptionEn": "The handle fell off the drawer.",
+      "examples": [
+        {
+          "en": "The handle fell off the drawer.",
+          "zh": "把手從抽屜上脫落了。",
+          "highlight": "fell off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "費用、責任或負擔落在某人身上;由某人承擔",
+      "titleEn": "fall on/upon somebody/something",
+      "formula": "fall on/upon somebody/something",
+      "highlight": "fall on/upon somebody/something",
+      "descriptionZh": "費用、責任或負擔落在某人身上;由某人承擔",
+      "descriptionEn": "Most of the cost fell on the parents.",
+      "examples": [
+        {
+          "en": "Most of the cost fell on the parents.",
+          "zh": "大部分費用由家長承擔。",
+          "highlight": "fell on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "頭髮、牙齒等脫落",
+      "titleEn": "fall out",
+      "formula": "fall out",
+      "highlight": "fall out",
+      "descriptionZh": "頭髮、牙齒等脫落",
+      "descriptionEn": "Some of his hair fell out after he was ill.",
+      "examples": [
+        {
+          "en": "Some of his hair fell out after he was ill.",
+          "zh": "他生病後有些頭髮脫落了。",
+          "highlight": "fell out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "失去平衡而跌倒",
+      "titleEn": "fall over",
+      "formula": "fall over",
+      "highlight": "fall over",
+      "descriptionZh": "失去平衡而跌倒",
+      "descriptionEn": "The child fell over on the wet floor.",
+      "examples": [
+        {
+          "en": "The child fell over on the wet floor.",
+          "zh": "那名孩子在濕滑的地面上跌倒了。",
+          "highlight": "fell over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "被某人或某物絆倒",
+      "titleEn": "fall over somebody/something",
+      "formula": "fall over somebody/something",
+      "highlight": "fall over somebody/something",
+      "descriptionZh": "被某人或某物絆倒",
+      "descriptionEn": "Be careful not to fall over the bag.",
+      "examples": [
+        {
+          "en": "Be careful not to fall over the bag.",
+          "zh": "小心不要被那個袋絆倒。",
+          "highlight": "fall over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "計劃或安排未能實現;告吹",
+      "titleEn": "fall through",
+      "formula": "fall through",
+      "highlight": "fall through",
+      "descriptionZh": "計劃或安排未能實現;告吹",
+      "descriptionEn": "Our weekend plans fell through.",
+      "examples": [
+        {
+          "en": "Our weekend plans fell through.",
+          "zh": "我們的週末計劃告吹了。",
+          "highlight": "fell through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "某項責任落在某人身上",
+      "titleEn": "fall to somebody to do something",
+      "formula": "fall to somebody to do something",
+      "highlight": "fall to somebody to do something",
+      "descriptionZh": "某項責任落在某人身上",
+      "descriptionEn": "It fell to me to tell the group.",
+      "examples": [
+        {
+          "en": "It fell to me to tell the group.",
+          "zh": "通知小組的責任落在我身上。",
+          "highlight": "fell to me to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "開始做某事;投入工作、進食或交談",
+      "titleEn": "fall to something; fall to doing something",
+      "formula": "fall to something; fall to doing something",
+      "highlight": "fall to something; fall to doing something",
+      "descriptionZh": "開始做某事;投入工作、進食或交談",
+      "descriptionEn": "After lunch, they fell to work.",
+      "examples": [
+        {
+          "en": "After lunch, they fell to work.",
+          "zh": "午飯後,他們便投入工作。",
+          "highlight": "fell to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "歸入某個類別、標題或規則之下",
+      "titleEn": "fall under something",
+      "formula": "fall under something",
+      "highlight": "fall under something",
+      "descriptionZh": "歸入某個類別、標題或規則之下",
+      "descriptionEn": "This book falls under history.",
+      "examples": [
+        {
+          "en": "This book falls under history.",
+          "zh": "這本書歸入歷史類別。",
+          "highlight": "falls under"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述移動、意外和不同形式的倒塌",
+      "titleEn": "Describe movement, accidents and different kinds of",
+      "zh": "fall back、fall behind 和 fall over 可以描述不同形式的移動;fall down 和 fall in 則能分辨向地面倒塌和向內塌陷。",
+      "en": "collapse Fall back, fall behind and fall over describe different kinds of movement. Fall down and fall in help you distinguish between something collapsing to the ground and something collapsing inward."
+    },
+    {
+      "titleZh": "談論告吹的計劃、責任和後備選擇",
+      "titleEn": "Talk about failed plans, duties and backup choices",
+      "zh": "fall through 可以描述未能實現的計劃;fall to 可以指出責任落在誰身上;fall back on 則表示原有方法失敗時所依靠的人或資源。",
+      "en": "Fall through describes a plan that does not happen. Fall to shows who receives a duty, while fall back on describes the person or resource used when another plan fails."
+    },
+    {
+      "titleZh": "描述下降、剝落和脫落",
+      "titleEn": "Describe things decreasing, breaking away or coming",
+      "zh": "fall off 可以表示數量下降或物件脫落;fall away 描述物料從表面剝落;fall out 則常用於頭髮或牙齒脫落。",
+      "en": "out Fall off can describe a decrease or something becoming detached. Fall away describes material breaking away from a surface, while fall out is commonly used for hair or teeth."
+    },
+    {
+      "titleZh": "談論反應、受騙和社交選擇",
+      "titleEn": "Talk about reactions, deception and social choices",
+      "zh": "fall about 描述大笑不止;fall for 描述上當受騙;fall in with somebody 則可以表示與某個群體為伍。",
+      "en": "Fall about describes uncontrollable laughter. Fall for describes being deceived, while fall in with somebody can describe joining or becoming friendly with a particular group."
+    },
+    {
+      "titleZh": "描述狀態、同意和分類",
+      "titleEn": "Describe states, agreements and categories",
+      "zh": "fall into 描述進入某種狀態;fall in with something 表示同意某項計劃;fall under 則指出某事物所屬的類別或規則。",
+      "en": "Fall into describes entering a state, fall in with something describes agreeing to a plan, and fall under shows the category or rule to which something belongs."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述移動、意外和不同形式的倒塌",
+      "談論告吹的計劃、責任和後備選擇",
+      "描述下降、剝落和脫落",
+      "談論反應、受騙和社交選擇",
+      "描述狀態、同意和分類"
+    ],
+    "contextsEn": [
+      "Describe movement, accidents and different kinds of",
+      "Talk about failed plans, duties and backup choices",
+      "Describe things decreasing, breaking away or coming",
+      "Talk about reactions, deception and social choices",
+      "Describe states, agreements and categories"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述移動、意外和不同形式的倒塌",
+        "titleEn": "Describe movement, accidents and different kinds of",
+        "zh": "fall back、fall behind 和 fall over 可以描述不同形式的移動;fall down 和 fall in 則能分辨向地面倒塌和向內塌陷。",
+        "en": "collapse Fall back, fall behind and fall over describe different kinds of movement. Fall down and fall in help you distinguish between something collapsing to the ground and something collapsing inward.",
+        "examples": [
+          {
+            "en": "Everyone fell about at the silly photo.",
+            "zh": "大家看到那張滑稽照片都笑得前仰後合。",
+            "highlight": "fell about"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論告吹的計劃、責任和後備選擇",
+        "titleEn": "Talk about failed plans, duties and backup choices",
+        "zh": "fall through 可以描述未能實現的計劃;fall to 可以指出責任落在誰身上;fall back on 則表示原有方法失敗時所依靠的人或資源。",
+        "en": "Fall through describes a plan that does not happen. Fall to shows who receives a duty, while fall back on describes the person or resource used when another plan fails.",
+        "examples": [
+          {
+            "en": "Large pieces of paint were falling away from the wall.",
+            "zh": "大片油漆正從牆上剝落。",
+            "highlight": "falling away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述下降、剝落和脫落",
+        "titleEn": "Describe things decreasing, breaking away or coming",
+        "zh": "fall off 可以表示數量下降或物件脫落;fall away 描述物料從表面剝落;fall out 則常用於頭髮或牙齒脫落。",
+        "en": "out Fall off can describe a decrease or something becoming detached. Fall away describes material breaking away from a surface, while fall out is commonly used for hair or teeth.",
+        "examples": [
+          {
+            "en": "The runner fell back near the end of the race.",
+            "zh": "那名跑手在比賽接近尾聲時名次下跌。",
+            "highlight": "fell back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論反應、受騙和社交選擇",
+        "titleEn": "Talk about reactions, deception and social choices",
+        "zh": "fall about 描述大笑不止;fall for 描述上當受騙;fall in with somebody 則可以表示與某個群體為伍。",
+        "en": "Fall about describes uncontrollable laughter. Fall for describes being deceived, while fall in with somebody can describe joining or becoming friendly with a particular group.",
+        "examples": [
+          {
+            "en": "We can fall back on our savings if necessary.",
+            "zh": "如有需要,我們可以依靠積蓄應急。",
+            "highlight": "fall back on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述狀態、同意和分類",
+        "titleEn": "Describe states, agreements and categories",
+        "zh": "fall into 描述進入某種狀態;fall in with something 表示同意某項計劃;fall under 則指出某事物所屬的類別或規則。",
+        "en": "Fall into describes entering a state, fall in with something describes agreeing to a plan, and fall under shows the category or rule to which something belongs.",
+        "examples": [
+          {
+            "en": "He fell behind with his homework.",
+            "zh": "他未能跟上功課進度。",
+            "highlight": "fell behind with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FALL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FALL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FALL 片語動詞。",
+      "en": "Read the whole sentence and choose the FALL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "相近的表達可以有不同意思。例如,fall off 可以表示「下降」,也可以表示「脫落」。fall in 和 falldown 都可以描述倒塌,但方式不同。",
+      "titleEn": "Similar expressions may have different meanings.",
+      "zh": "相近的表達可以有不同意思。例如,fall off 可以表示「下降」,也可以表示「脫落」。fall in 和 falldown 都可以描述倒塌,但方式不同。",
+      "en": "Similar expressions may have different meanings. For example, fall off can mean “decrease” or “become detached”. Fall in and fall down both describe collapse, but in different ways."
+    },
+    {
+      "titleZh": "on 和 upon 有時可以表達相同意思;with 和 in 亦會按參考表所示的形式使用。",
+      "titleEn": "On and upon can sometimes express the same meaning.",
+      "zh": "on 和 upon 有時可以表達相同意思;with 和 in 亦會按參考表所示的形式使用。",
+      "en": "On and upon can sometimes express the same meaning. With and in are both used in the forms shown in the reference bank."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FALL 動詞片語句子改寫練習",
+    "titleEn": "FALL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FALL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FALL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          23
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          24,
+          46
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          47,
+          92
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          93,
+          115
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-130-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Clara lost her balance and dropped to the ground.",
+      "promptZh": "克拉拉失去平衡,跌倒在地上。",
+      "starter": "Clara",
+      "answer": "Clara lost her balance and fell over.",
+      "answerZh": "克拉拉失去平衡,跌倒在地上。",
+      "highlight": "fell over",
+      "targetForm": "fall over",
+      "targetMeaningZh": "失去平衡而跌倒"
+    },
+    {
+      "id": "phrasal-verb-130-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Everyone laughed loudly when the teacher’s hat blew away.",
+      "promptZh": "老師的帽子被風吹走時,大家都大笑不止。",
+      "starter": "Everyone",
+      "answer": "Everyone fell about when the teacher’s hat blew away.",
+      "answerZh": "老師的帽子被風吹走時,大家都大笑不止。",
+      "highlight": "fell about",
+      "targetForm": "fall about",
+      "targetMeaningZh": "大笑不止;笑得前仰後合"
+    },
+    {
+      "id": "phrasal-verb-130-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "After the bell rang, the students began their work at once.",
+      "promptZh": "鐘聲響起後,學生立即開始工作。",
+      "starter": "After",
+      "answer": "After the bell rang, the students fell to work.",
+      "answerZh": "鐘聲響起後,學生立即投入工作。",
+      "highlight": "fell to",
+      "targetForm": "fall to something",
+      "targetMeaningZh": "開始做某事;投入工作"
+    },
+    {
+      "id": "phrasal-verb-130-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "Leo believed the false message and was tricked.",
+      "promptZh": "里奧相信了那則虛假訊息,因而受騙。",
+      "starter": "Leo",
+      "answer": "Leo fell for the false message.",
+      "answerZh": "里奧相信了那則虛假訊息,因而受騙。",
+      "highlight": "fell for",
+      "targetForm": "fall for something",
+      "targetMeaningZh": "受騙;信以為真"
+    },
+    {
+      "id": "phrasal-verb-130-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "I walked more slowly and ended up behind the group.",
+      "promptZh": "我走得較慢,最後落在隊伍後面。",
+      "starter": "I",
+      "answer": "I walked more slowly and fell behind the group.",
+      "answerZh": "我走得較慢,最後落在隊伍後面。",
+      "highlight": "fell",
+      "targetForm": "fall behind somebody/something",
+      "targetMeaningZh": "落在某人或某事物後面"
+    },
+    {
+      "id": "phrasal-verb-130-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The handle became detached from the cupboard door.",
+      "promptZh": "把手從櫥櫃門上脫落了。",
+      "starter": "The",
+      "answer": "The handle fell off the cupboard door.",
+      "answerZh": "把手從櫥櫃門上脫落了。",
+      "highlight": "fell off",
+      "targetForm": "fall off something",
+      "targetMeaningZh": "從某物脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The old garden wall collapsed during the storm.",
+      "promptZh": "舊花園圍牆在暴風雨中倒塌了。",
+      "starter": "The",
+      "answer": "The old garden wall fell down during the storm.",
+      "answerZh": "舊花園圍牆在暴風雨中倒塌了。",
+      "highlight": "fell down",
+      "targetForm": "fall down",
+      "targetMeaningZh": "倒下;倒塌"
+    },
+    {
+      "id": "phrasal-verb-130-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "We have some savings we can use if the main plan fails.",
+      "promptZh": "如果主要計劃失敗,我們可以使用積蓄應急。",
+      "starter": "We",
+      "answer": "We can fall back on our savings if the main plan fails.",
+      "answerZh": "如果主要計劃失敗,我們可以使用積蓄應急。",
+      "highlight": "fall back on our savings",
+      "targetForm": "fall back on something",
+      "targetMeaningZh": "在其他方法失敗時依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-130-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "Most of the repair cost had to be paid by us.",
+      "promptZh": "大部分維修費用須由我們承擔。",
+      "starter": "Most",
+      "answer": "Most of the repair cost fell on us.",
+      "answerZh": "大部分維修費用須由我們承擔。",
+      "highlight": "fell on",
+      "targetForm": "fall on somebody",
+      "targetMeaningZh": "費用或負擔由某人承擔"
+    },
+    {
+      "id": "phrasal-verb-130-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Large pieces of the old wall broke away and dropped.",
+      "promptZh": "舊牆有大塊部分剝落並掉下來。",
+      "starter": "Large",
+      "answer": "Large pieces of the old wall fell away.",
+      "answerZh": "舊牆有大塊部分剝落並掉下來。",
+      "highlight": "fell",
+      "targetForm": "fall away",
+      "targetMeaningZh": "剝落;脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Sam tripped because a box was in his way.",
+      "promptZh": "森被擋路的箱子絆倒了。",
+      "starter": "Sam",
+      "answer": "Sam fell over a box that was in his way.",
+      "answerZh": "森被擋路的箱子絆倒了。",
+      "highlight": "fell over",
+      "targetForm": "fall over something",
+      "targetMeaningZh": "被某物絆倒"
+    },
+    {
+      "id": "phrasal-verb-130-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "These books belong in the travel section.",
+      "promptZh": "這些書歸入旅遊類別。",
+      "starter": "These",
+      "answer": "These books fall under the travel section.",
+      "answerZh": "這些書歸入旅遊類別。",
+      "highlight": "fall under",
+      "targetForm": "fall under something",
+      "targetMeaningZh": "歸入某個類別或標題之下"
+    },
+    {
+      "id": "phrasal-verb-130-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The baby entered a deep sleep after the journey.",
+      "promptZh": "嬰兒在旅程後進入了熟睡狀態。",
+      "starter": "The",
+      "answer": "The baby fell into a deep sleep after the journey.",
+      "answerZh": "嬰兒在旅程後進入了熟睡狀態。",
+      "highlight": "fell into",
+      "targetForm": "fall into something",
+      "targetMeaningZh": "進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-130-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The number of visitors has decreased recently.",
+      "promptZh": "訪客人數最近有所下降。",
+      "starter": "The",
+      "answer": "The number of visitors has fallen off recently.",
+      "answerZh": "訪客人數最近有所下降。",
+      "highlight": "fallen off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "減少;下降"
+    },
+    {
+      "id": "phrasal-verb-130-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The job of calling everyone became my responsibility.",
+      "promptZh": "致電通知所有人的責任落在我身上。",
+      "starter": "It",
+      "answer": "It fell to me to call everyone.",
+      "answerZh": "致電通知所有人的責任落在我身上。",
+      "highlight": "It fell to me to call",
+      "targetForm": "fall to somebody to do something",
+      "targetMeaningZh": "某項責任落在某人身上"
+    },
+    {
+      "id": "phrasal-verb-130-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Omar became friendly with a group that often broke school rules.",
+      "promptZh": "奧馬與一群經常違反校規的人為伍。",
+      "starter": "Omar",
+      "answer": "Omar fell in with a group that often broke school rules.",
+      "answerZh": "奧馬與一群經常違反校規的人為伍。",
+      "highlight": "fell in",
+      "targetForm": "fall in with somebody",
+      "targetMeaningZh": "與某人或某群人為伍"
+    },
+    {
+      "id": "phrasal-verb-130-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Our plan for a picnic did not happen.",
+      "promptZh": "我們的野餐計劃未能實現。",
+      "starter": "Our",
+      "answer": "Our plan for a picnic fell through.",
+      "answerZh": "我們的野餐計劃告吹了。",
+      "highlight": "fell through",
+      "targetForm": "fall through",
+      "targetMeaningZh": "計劃或安排未能實現"
+    },
+    {
+      "id": "phrasal-verb-130-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The cave roof collapsed inward during the night.",
+      "promptZh": "洞穴頂部在夜間向內塌陷。",
+      "starter": "The",
+      "answer": "The cave roof fell in during the night.",
+      "answerZh": "洞穴頂部在夜間向內塌陷。",
+      "highlight": "fell in",
+      "targetForm": "fall in",
+      "targetMeaningZh": "向內塌陷"
+    },
+    {
+      "id": "phrasal-verb-130-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Ben was near the front, but he moved to a lower position near the finish.",
+      "promptZh": "賓原本接近前列,但在終點前名次下跌。",
+      "starter": "Ben",
+      "answer": "Ben was near the front, but he fell back near the finish.",
+      "answerZh": "賓原本接近前列,但在終點前名次下跌。",
+      "highlight": "fell back",
+      "targetForm": "fall back",
+      "targetMeaningZh": "落後;名次下跌"
+    },
+    {
+      "id": "phrasal-verb-130-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Nina agreed to follow the team’s plan.",
+      "promptZh": "妮娜同意跟隨團隊的計劃。",
+      "starter": "Nina",
+      "answer": "Nina fell in with the team’s plan.",
+      "answerZh": "妮娜同意跟隨團隊的計劃。",
+      "highlight": "fell in with",
+      "targetForm": "fall in with something",
+      "targetMeaningZh": "同意並跟隨某項計劃"
+    },
+    {
+      "id": "phrasal-verb-130-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "Two of the child’s baby teeth became loose and came out.",
+      "promptZh": "孩子有兩隻乳齒鬆脫並掉了出來。",
+      "starter": "Two",
+      "answer": "Two of the child’s baby teeth fell out.",
+      "answerZh": "孩子有兩隻乳齒鬆脫並掉了出來。",
+      "highlight": "fell",
+      "targetForm": "fall out",
+      "targetMeaningZh": "牙齒、頭髮等脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "The organisers did not do the safety checks properly.",
+      "promptZh": "主辦單位未有妥善完成安全檢查。",
+      "starter": "The",
+      "answer": "The organisers fell down on the safety checks.",
+      "answerZh": "主辦單位未有妥善完成安全檢查。",
+      "highlight": "fell down on",
+      "targetForm": "fall down on something",
+      "targetMeaningZh": "未能妥善做好某事"
+    },
+    {
+      "id": "phrasal-verb-130-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Aisha did not keep up with the rent payments.",
+      "promptZh": "艾莎未能按時繳交租金。",
+      "starter": "Aisha",
+      "answer": "Aisha fell behind with the rent.",
+      "answerZh": "艾莎未能按時繳交租金。",
+      "highlight": "fell behind",
+      "targetForm": "fall behind with something",
+      "targetMeaningZh": "未能跟上付款進度;拖欠"
+    },
+    {
+      "id": "phrasal-verb-130-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Her hair is coming out more than usual.",
+      "promptZh": "她的頭髮比平常脫落得更多。",
+      "starter": "Her",
+      "answer": "Her hair is falling out more than usual.",
+      "answerZh": "她的頭髮比平常脫落得更多。",
+      "highlight": "falling",
+      "targetForm": "fall out",
+      "targetMeaningZh": "頭髮、牙齒等脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "The roof is collapsing inward, so leave the building.",
+      "promptZh": "屋頂正在向內塌陷,請離開大樓。",
+      "starter": "The",
+      "answer": "The roof is falling in, so leave the building.",
+      "answerZh": "屋頂正在向內塌陷,請離開大樓。",
+      "highlight": "falling in",
+      "targetForm": "fall in",
+      "targetMeaningZh": "向內塌陷"
+    },
+    {
+      "id": "phrasal-verb-130-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "The cyclist has lost several places since the hill began.",
+      "promptZh": "自從開始上斜後,那名單車手已落後了幾個位置。",
+      "starter": "The",
+      "answer": "The cyclist has fallen back several places since the hill began.",
+      "answerZh": "自從開始上斜後,那名單車手已落後了幾個位置。",
+      "highlight": "fallen back",
+      "targetForm": "fall back",
+      "targetMeaningZh": "落後;名次下跌"
+    },
+    {
+      "id": "phrasal-verb-130-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "We may have to agree to their arrangements this time.",
+      "promptZh": "這次我們或許必須同意跟隨他們的安排。",
+      "starter": "We",
+      "answer": "We may have to fall in with their arrangements this time.",
+      "answerZh": "這次我們或許必須同意跟隨他們的安排。",
+      "highlight": "fall in with",
+      "targetForm": "fall in with something",
+      "targetMeaningZh": "同意並跟隨某項安排"
+    },
+    {
+      "id": "phrasal-verb-130-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The job of opening the hall will probably become Leo’s responsibility.",
+      "promptZh": "打開禮堂的責任很可能會落在里奧身上。",
+      "starter": "It",
+      "answer": "It will probably fall to Leo to open the hall.",
+      "answerZh": "打開禮堂的責任很可能會落在里奧身上。",
+      "highlight": "It will probably fall to Leo to open",
+      "targetForm": "fall to somebody to do something",
+      "targetMeaningZh": "某項責任落在某人身上"
+    },
+    {
+      "id": "phrasal-verb-130-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Walk quickly or you will end up behind the rest of us.",
+      "promptZh": "走快一點,否則你會落在我們其餘的人後面。",
+      "starter": "Walk",
+      "answer": "Walk quickly or you will fall behind the rest of us.",
+      "answerZh": "走快一點,否則你會落在我們其餘的人後面。",
+      "highlight": "fall",
+      "targetForm": "fall behind somebody",
+      "targetMeaningZh": "落在某人後面"
+    },
+    {
+      "id": "phrasal-verb-130-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "He is failing to keep up in maths because he missed two weeks.",
+      "promptZh": "他因缺課兩星期,正逐漸跟不上數學進度。",
+      "starter": "He",
+      "answer": "He is falling behind in maths because he missed two weeks.",
+      "answerZh": "他因缺課兩星期,正逐漸跟不上數學進度。",
+      "highlight": "falling behind",
+      "targetForm": "fall behind in something",
+      "targetMeaningZh": "未能跟上學習進度"
+    },
+    {
+      "id": "phrasal-verb-130-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "How could you believe such an obvious trick?",
+      "promptZh": "你怎會相信如此明顯的騙局?",
+      "starter": "How",
+      "answer": "How could you fall for such an obvious trick?",
+      "answerZh": "你怎會相信如此明顯的騙局?",
+      "highlight": "fall for",
+      "targetForm": "fall for something",
+      "targetMeaningZh": "受騙;信以為真"
+    },
+    {
+      "id": "phrasal-verb-130-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "One side of the shed has collapsed.",
+      "promptZh": "小屋的一邊已經倒塌。",
+      "starter": "One",
+      "answer": "One side of the shed has fallen down.",
+      "answerZh": "小屋的一邊已經倒塌。",
+      "highlight": "fallen down",
+      "targetForm": "fall down",
+      "targetMeaningZh": "倒下;倒塌"
+    },
+    {
+      "id": "phrasal-verb-130-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Ravi always laughs uncontrollably at his brother’s impressions.",
+      "promptZh": "拉維總是被哥哥模仿別人的樣子逗得大笑不止。",
+      "starter": "Ravi",
+      "answer": "Ravi always falls about at his brother’s impressions.",
+      "answerZh": "拉維總是被哥哥模仿別人的樣子逗得大笑不止。",
+      "highlight": "falls about",
+      "targetForm": "fall about",
+      "targetMeaningZh": "大笑不止;笑得前仰後合"
+    },
+    {
+      "id": "phrasal-verb-130-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Which heading does this old map belong under?",
+      "promptZh": "這張舊地圖應歸入哪個標題之下?",
+      "starter": "Which",
+      "answer": "Which heading does this old map fall under?",
+      "answerZh": "這張舊地圖應歸入哪個標題之下?",
+      "highlight": "fall",
+      "targetForm": "fall under something",
+      "targetMeaningZh": "歸入某個標題或類別之下"
+    },
+    {
+      "id": "phrasal-verb-130-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Did you trip because of the bag by the door?",
+      "promptZh": "你是否被門邊的袋絆倒了?",
+      "starter": "Did",
+      "answer": "Did you fall over the bag by the door?",
+      "answerZh": "你是否被門邊的袋絆倒了?",
+      "highlight": "fall over",
+      "targetForm": "fall over something",
+      "targetMeaningZh": "被某物絆倒"
+    },
+    {
+      "id": "phrasal-verb-130-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "Since changing schools, Dan has become friendly with a group that skips lessons.",
+      "promptZh": "丹轉校後,與一群經常逃課的人為伍。",
+      "starter": "Since",
+      "answer": "Since changing schools, Dan has fallen in with a group that skips lessons.",
+      "answerZh": "丹轉校後,與一群經常逃課的人為伍。",
+      "highlight": "fallen in",
+      "targetForm": "fall in with somebody",
+      "targetMeaningZh": "與某人或某群人為伍"
+    },
+    {
+      "id": "phrasal-verb-130-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The extra cost is usually paid by the person who cancels late.",
+      "promptZh": "額外費用通常由遲取消的人承擔。",
+      "starter": "The",
+      "answer": "The extra cost usually falls on the person who cancels late.",
+      "answerZh": "額外費用通常由遲取消的人承擔。",
+      "highlight": "falls on",
+      "targetForm": "fall on somebody",
+      "targetMeaningZh": "費用或負擔由某人承擔"
+    },
+    {
+      "id": "phrasal-verb-130-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The room has become completely silent.",
+      "promptZh": "房間已經變得完全寂靜。",
+      "starter": "The",
+      "answer": "The room has fallen into complete silence.",
+      "answerZh": "房間已經變得完全寂靜。",
+      "highlight": "fallen into complete silence",
+      "targetForm": "fall into something",
+      "targetMeaningZh": "進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-130-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The dry earth is breaking away from the edge of the path.",
+      "promptZh": "乾燥的泥土正從小徑邊緣剝落。",
+      "starter": "The",
+      "answer": "The dry earth is falling away from the edge of the path.",
+      "answerZh": "乾燥的泥土正從小徑邊緣剝落。",
+      "highlight": "falling",
+      "targetForm": "fall away",
+      "targetMeaningZh": "剝落;脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "The club is failing to give new members enough help.",
+      "promptZh": "該會未能為新會員提供足夠幫助。",
+      "starter": "The",
+      "answer": "The club is falling down on giving new members enough help.",
+      "answerZh": "該會未能為新會員提供足夠幫助。",
+      "highlight": "falling down on giving",
+      "targetForm": "fall down on something",
+      "targetMeaningZh": "未能妥善做好某事"
+    },
+    {
+      "id": "phrasal-verb-130-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "One wheel has become detached from the toy car.",
+      "promptZh": "玩具車的一個車輪已經脫落。",
+      "starter": "One",
+      "answer": "One wheel has fallen off the toy car.",
+      "answerZh": "玩具車的一個車輪已經脫落。",
+      "highlight": "fallen off",
+      "targetForm": "fall off something",
+      "targetMeaningZh": "從某物脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Sales have decreased since the shop moved.",
+      "promptZh": "店舖搬遷後,銷售額有所下降。",
+      "starter": "Sales",
+      "answer": "Sales have fallen off since the shop moved.",
+      "answerZh": "店舖搬遷後,銷售額有所下降。",
+      "highlight": "fallen off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "減少;下降"
+    },
+    {
+      "id": "phrasal-verb-130-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "If the bus does not come, we can use the train as our backup.",
+      "promptZh": "如果巴士沒有來,我們可以改用火車。",
+      "starter": "If",
+      "answer": "If the bus does not come, we can fall back on the train.",
+      "answerZh": "如果巴士沒有來,我們可以改用火車。",
+      "highlight": "fall back on",
+      "targetForm": "fall back on something",
+      "targetMeaningZh": "在其他方法失敗時改用某事物"
+    },
+    {
+      "id": "phrasal-verb-130-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Once the food arrives, everyone will begin eating at once.",
+      "promptZh": "食物一送到,大家便會立即開始進食。",
+      "starter": "Once",
+      "answer": "Once the food arrives, everyone will fall to eating at once.",
+      "answerZh": "食物一送到,大家便會立即開始進食。",
+      "highlight": "fall to",
+      "targetForm": "fall to doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-130-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "The school trip has been cancelled because no coach is available.",
+      "promptZh": "由於沒有旅遊巴可用,學校旅行已告吹。",
+      "starter": "The",
+      "answer": "The school trip has fallen through because no coach is available.",
+      "answerZh": "由於沒有旅遊巴可用,學校旅行已告吹。",
+      "highlight": "fallen through",
+      "targetForm": "fall through",
+      "targetMeaningZh": "計劃或安排未能實現"
+    },
+    {
+      "id": "phrasal-verb-130-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "Do not run on the wet floor, or you may lose your balance and drop.",
+      "promptZh": "不要在濕滑地面上奔跑,否則你可能會跌倒。",
+      "starter": "Do",
+      "answer": "Do not run on the wet floor, or you may fall over.",
+      "answerZh": "不要在濕滑地面上奔跑,否則你可能會跌倒。",
+      "highlight": "fall over",
+      "targetForm": "fall over",
+      "targetMeaningZh": "失去平衡而跌倒"
+    },
+    {
+      "id": "phrasal-verb-130-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "Attendance was high in spring, but it has decreased since then.",
+      "promptZh": "春季出席人數很高,但此後已經下降。",
+      "starter": "Attendance",
+      "answer": "Attendance was high in spring, but it has fallen off since then.",
+      "answerZh": "春季出席人數很高,但此後已經下降。",
+      "highlight": "fallen off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "減少;下降"
+    },
+    {
+      "id": "phrasal-verb-130-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The guide walked too quickly. Two visitors slowly ended up behind.",
+      "promptZh": "導遊走得太快,兩名訪客逐漸落在後面。",
+      "starter": "The",
+      "answer": "The guide walked too quickly. Two visitors slowly fell behind.",
+      "answerZh": "導遊走得太快,兩名訪客逐漸落在後面。",
+      "highlight": "fell",
+      "targetForm": "fall behind",
+      "targetMeaningZh": "落在後面"
+    },
+    {
+      "id": "phrasal-verb-130-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The joke was simple. Even the quiet parents laughed uncontrollably.",
+      "promptZh": "笑話很簡單,連安靜的家長也笑得前仰後合。",
+      "starter": "The",
+      "answer": "The joke was simple. Even the quiet parents fell about laughing.",
+      "answerZh": "笑話很簡單,連安靜的家長也笑得前仰後合。",
+      "highlight": "fell about laughing",
+      "targetForm": "fall about",
+      "targetMeaningZh": "大笑不止;笑得前仰後合"
+    },
+    {
+      "id": "phrasal-verb-130-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "This rule belongs under health and safety, not under travel.",
+      "promptZh": "這項規則歸入健康與安全類別,而不是旅遊類別。",
+      "starter": "This",
+      "answer": "This rule falls under health and safety, not under travel.",
+      "answerZh": "這項規則歸入健康與安全類別,而不是旅遊類別。",
+      "highlight": "falls",
+      "targetForm": "fall under something",
+      "targetMeaningZh": "歸入某個類別或規則之下"
+    },
+    {
+      "id": "phrasal-verb-130-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The new system may fail, but we have an older one we can use instead.",
+      "promptZh": "新系統可能失靈,但我們可以改用舊系統。",
+      "starter": "The",
+      "answer": "The new system may fail, but we can fall back on the older one.",
+      "answerZh": "新系統可能失靈,但我們可以改用舊系統。",
+      "highlight": "can fall back on the",
+      "targetForm": "fall back on something",
+      "targetMeaningZh": "在其他方法失敗時改用某事物"
+    },
+    {
+      "id": "phrasal-verb-130-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The old brush was poor, and several hairs came out while I painted.",
+      "promptZh": "那把舊刷子品質很差,我繪畫時有幾根刷毛掉了出來。",
+      "starter": "The",
+      "answer": "The old brush was poor, and several hairs fell out while I painted.",
+      "answerZh": "那把舊刷子品質很差,我繪畫時有幾根刷毛掉了出來。",
+      "highlight": "fell",
+      "targetForm": "fall out",
+      "targetMeaningZh": "頭髮、牙齒等脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The bill was shared, but most of it had to be paid by the adults.",
+      "promptZh": "帳單由大家分擔,但大部分須由成人支付。",
+      "starter": "The",
+      "answer": "The bill was shared, but most of it fell on the adults.",
+      "answerZh": "帳單由大家分擔,但大部分須由成人支付。",
+      "highlight": "fell on",
+      "targetForm": "fall on somebody",
+      "targetMeaningZh": "費用或負擔由某人承擔"
+    },
+    {
+      "id": "phrasal-verb-130-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "After the lights went out, the audience became completely quiet.",
+      "promptZh": "燈熄滅後,觀眾陷入完全寂靜。",
+      "starter": "After",
+      "answer": "After the lights went out, the audience fell into complete silence.",
+      "answerZh": "燈熄滅後,觀眾陷入完全寂靜。",
+      "highlight": "fell into complete silence",
+      "targetForm": "fall into something",
+      "targetMeaningZh": "進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-130-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "Ella did not know anyone at first. Soon she joined a group of older students.",
+      "promptZh": "埃拉起初不認識任何人,不久便與一群年長學生為伍。",
+      "starter": "Ella",
+      "answer": "Ella did not know anyone at first. Soon she fell in with a group of older students.",
+      "answerZh": "埃拉起初不認識任何人,不久便與一群年長學生為伍。",
+      "highlight": "fell in with",
+      "targetForm": "fall in with somebody",
+      "targetMeaningZh": "與某人或某群人為伍"
+    },
+    {
+      "id": "phrasal-verb-130-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The label was loose. It became detached while I was washing the bottle.",
+      "promptZh": "標籤本來鬆脫,我清洗瓶子時它便掉了下來。",
+      "starter": "The",
+      "answer": "The label was loose. It fell off the bottle while I was washing it.",
+      "answerZh": "標籤本來鬆脫,我清洗瓶子時它便掉了下來。",
+      "highlight": "fell off the bottle",
+      "targetForm": "fall off something",
+      "targetMeaningZh": "從某物脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The tunnel was closed after part of its roof collapsed inward.",
+      "promptZh": "隧道的一部分頂部向內塌陷後,隧道被關閉。",
+      "starter": "The",
+      "answer": "The tunnel was closed after part of its roof fell in.",
+      "answerZh": "隧道的一部分頂部向內塌陷後,隧道被關閉。",
+      "highlight": "fell in",
+      "targetForm": "fall in",
+      "targetMeaningZh": "向內塌陷"
+    },
+    {
+      "id": "phrasal-verb-130-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The others were away, so the duty of locking the office became mine.",
+      "promptZh": "其他人不在,因此鎖上辦公室的責任落在我身上。",
+      "starter": "The",
+      "answer": "The others were away, so it fell to me to lock the office.",
+      "answerZh": "其他人不在,因此鎖上辦公室的責任落在我身上。",
+      "highlight": "it fell to me to lock",
+      "targetForm": "fall to somebody to do something",
+      "targetMeaningZh": "某項責任落在某人身上"
+    },
+    {
+      "id": "phrasal-verb-130-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "As the workers touched the old ceiling, parts of it broke away in small pieces.",
+      "promptZh": "工人觸碰舊天花時,部分天花碎成小塊剝落。",
+      "starter": "As",
+      "answer": "As the workers touched the old ceiling, parts of it fell away in small pieces.",
+      "answerZh": "工人觸碰舊天花時,部分天花碎成小塊剝落。",
+      "highlight": "fell",
+      "targetForm": "fall away",
+      "targetMeaningZh": "剝落;脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The manager admitted that the team had failed to keep customers informed.",
+      "promptZh": "經理承認團隊未能妥善通知顧客。",
+      "starter": "The",
+      "answer": "The manager admitted that the team had fallen down on keeping customers informed.",
+      "answerZh": "經理承認團隊未能妥善通知顧客。",
+      "highlight": "fallen down on keeping",
+      "targetForm": "fall down on something",
+      "targetMeaningZh": "未能妥善做好某事"
+    },
+    {
+      "id": "phrasal-verb-130-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The plan was not our choice, but we agreed to it.",
+      "promptZh": "這項計劃並非我們的選擇,但我們同意跟隨。",
+      "starter": "The",
+      "answer": "The plan was not our choice, but we fell in with it.",
+      "answerZh": "這項計劃並非我們的選擇,但我們同意跟隨。",
+      "highlight": "fell in with",
+      "targetForm": "fall in with something",
+      "targetMeaningZh": "同意並跟隨某項計劃"
+    },
+    {
+      "id": "phrasal-verb-130-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "Nora missed several classes. She is now failing to keep up with the work.",
+      "promptZh": "諾拉缺席了數課,現在未能跟上功課進度。",
+      "starter": "Nora",
+      "answer": "Nora missed several classes. She is now falling behind with the work.",
+      "answerZh": "諾拉缺席了數課,現在未能跟上功課進度。",
+      "highlight": "falling behind",
+      "targetForm": "fall behind with something",
+      "targetMeaningZh": "未能跟上工作或學習進度"
+    },
+    {
+      "id": "phrasal-verb-130-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The floor moved under us. We nearly lost our balance and dropped to the ground.",
+      "promptZh": "地面在我們腳下移動,我們幾乎失去平衡跌倒。",
+      "starter": "The",
+      "answer": "The floor moved under us. We nearly fell over.",
+      "answerZh": "地面在我們腳下移動,我們幾乎失去平衡跌倒。",
+      "highlight": "fell over",
+      "targetForm": "fall over",
+      "targetMeaningZh": "失去平衡而跌倒"
+    },
+    {
+      "id": "phrasal-verb-130-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "We had booked the room, but the event still failed because the speaker was ill.",
+      "promptZh": "我們已預訂場地,但活動仍因講者生病而告吹。",
+      "starter": "We",
+      "answer": "We had booked the room, but the event still fell through because the speaker was ill.",
+      "answerZh": "我們已預訂場地,但活動仍因講者生病而告吹。",
+      "highlight": "fell through",
+      "targetForm": "fall through",
+      "targetMeaningZh": "計劃或安排未能實現"
+    },
+    {
+      "id": "phrasal-verb-130-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The message looked real, but she did not believe it.",
+      "promptZh": "訊息看似真實,但她沒有上當。",
+      "starter": "The",
+      "answer": "The message looked real, but she did not fall for it.",
+      "answerZh": "訊息看似真實,但她沒有上當。",
+      "highlight": "fall for",
+      "targetForm": "fall for something",
+      "targetMeaningZh": "受騙;信以為真"
+    },
+    {
+      "id": "phrasal-verb-130-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "She had been leading, but after the turn she moved back behind three runners.",
+      "promptZh": "她原本領先,但轉彎後落到三名跑手之後。",
+      "starter": "She",
+      "answer": "She had been leading, but after the turn she fell back behind three runners.",
+      "answerZh": "她原本領先,但轉彎後落到三名跑手之後。",
+      "highlight": "fell",
+      "targetForm": "fall back",
+      "targetMeaningZh": "落後;名次下跌"
+    },
+    {
+      "id": "phrasal-verb-130-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The shelf was weak, and the whole thing collapsed when the books were added.",
+      "promptZh": "層架不夠穩固,放上書本後整個倒塌。",
+      "starter": "The",
+      "answer": "The shelf was weak, and the whole thing fell down when the books were added.",
+      "answerZh": "層架不夠穩固,放上書本後整個倒塌。",
+      "highlight": "fell down",
+      "targetForm": "fall down",
+      "targetMeaningZh": "倒下;倒塌"
+    },
+    {
+      "id": "phrasal-verb-130-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "The plates arrived, and everyone immediately began eating.",
+      "promptZh": "碟子端上來後,大家立即開始進食。",
+      "starter": "The",
+      "answer": "The plates arrived, and everyone immediately fell to eating.",
+      "answerZh": "碟子端上來後,大家立即開始進食。",
+      "highlight": "fell to",
+      "targetForm": "fall to doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-130-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The chair was in the dark hallway, and I tripped because it was in my way.",
+      "promptZh": "椅子放在黑暗的走廊裏,我被它絆倒了。",
+      "starter": "The",
+      "answer": "The chair was in the dark hallway, and I fell over it.",
+      "answerZh": "椅子放在黑暗的走廊裏,我被它絆倒了。",
+      "highlight": "fell over",
+      "targetForm": "fall over something",
+      "targetMeaningZh": "被某物絆倒"
+    },
+    {
+      "id": "phrasal-verb-130-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "We disliked the schedule, but we agreed to follow it because the others would not change it.",
+      "promptZh": "我們不喜歡時間表,但其他人不肯改動,所以我們同意跟隨。",
+      "starter": "We",
+      "answer": "We disliked the schedule, but we fell in with it because the others would not change it.",
+      "answerZh": "我們不喜歡時間表,但其他人不肯改動,所以我們同意跟隨。",
+      "highlight": "fell in with",
+      "targetForm": "fall in with something",
+      "targetMeaningZh": "同意並跟隨某項安排"
+    },
+    {
+      "id": "phrasal-verb-130-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "When all the fresh food was gone, the family had to use the tins kept for emergencies.",
+      "promptZh": "新鮮食物用完後,這家人只好依靠留作緊急用途的罐頭食品。",
+      "starter": "When",
+      "answer": "When all the fresh food was gone, the family had to fall back upon the tins kept for emergencies.",
+      "answerZh": "新鮮食物用完後,這家人只好依靠留作緊急用途的罐頭食品。",
+      "highlight": "fall back upon",
+      "targetForm": "fall back upon something",
+      "targetMeaningZh": "在其他方法失敗時依靠某事物"
+    },
+    {
+      "id": "phrasal-verb-130-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The lid stayed attached, but several loose hairs came out of the brush.",
+      "promptZh": "蓋子仍然連着,但刷子有幾根鬆脫的毛掉了出來。",
+      "starter": "The",
+      "answer": "The lid stayed attached, but several loose hairs fell out of the brush.",
+      "answerZh": "蓋子仍然連着,但刷子有幾根鬆脫的毛掉了出來。",
+      "highlight": "fell",
+      "targetForm": "fall out",
+      "targetMeaningZh": "頭髮、牙齒等脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The cost was shared by everyone, but the job of speaking to the owner became Clara’s responsibility.",
+      "promptZh": "費用由所有人分擔,但與店主交談的責任落在克拉拉身上。",
+      "starter": "The",
+      "answer": "The cost was shared by everyone, but it fell to Clara to speak to the owner.",
+      "answerZh": "費用由所有人分擔,但與店主交談的責任落在克拉拉身上。",
+      "highlight": "it fell to Clara to speak",
+      "targetForm": "fall to somebody to do something",
+      "targetMeaningZh": "某項責任落在某人身上"
+    },
+    {
+      "id": "phrasal-verb-130-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The plan was fully discussed, but it failed when the hall became unavailable.",
+      "promptZh": "計劃已經充分討論,但場地無法使用後,計劃便告吹。",
+      "starter": "The",
+      "answer": "The plan was fully discussed, but it fell through when the hall became unavailable.",
+      "answerZh": "計劃已經充分討論,但場地無法使用後,計劃便告吹。",
+      "highlight": "fell through",
+      "targetForm": "fall through",
+      "targetMeaningZh": "計劃或安排未能實現"
+    },
+    {
+      "id": "phrasal-verb-130-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Only the centre of the old roof collapsed inward; the walls stayed standing.",
+      "promptZh": "只有舊屋頂的中央部分向內塌陷,牆壁仍然直立。",
+      "starter": "Only",
+      "answer": "Only the centre of the old roof fell in; the walls stayed standing.",
+      "answerZh": "只有舊屋頂的中央部分向內塌陷,牆壁仍然直立。",
+      "highlight": "fell in",
+      "targetForm": "fall in",
+      "targetMeaningZh": "向內塌陷"
+    },
+    {
+      "id": "phrasal-verb-130-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "The story was not really funny, but Ravi’s serious face made us laugh until we could hardly speak.",
+      "promptZh": "故事本身並不好笑,但拉維嚴肅的表情令我們笑得幾乎說不出話。",
+      "starter": "The",
+      "answer": "The story was not really funny, but Ravi’s serious face made us fall about.",
+      "answerZh": "故事本身並不好笑,但拉維嚴肅的表情令我們笑得幾乎說不出話。",
+      "highlight": "fall about",
+      "targetForm": "fall about",
+      "targetMeaningZh": "大笑不止;笑得前仰後合"
+    },
+    {
+      "id": "phrasal-verb-130-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Nina did not simply lose her balance; she tripped because the toy was in her path.",
+      "promptZh": "妮娜不只是失去平衡;她是被路上的玩具絆倒。",
+      "starter": "Nina",
+      "answer": "Nina fell over the toy that was in her path.",
+      "answerZh": "妮娜被路上的玩具絆倒。",
+      "highlight": "fell over",
+      "targetForm": "fall over something",
+      "targetMeaningZh": "被某物絆倒"
+    },
+    {
+      "id": "phrasal-verb-130-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "After a few quiet minutes, the two strangers suddenly began talking like old friends.",
+      "promptZh": "短暫沉默後,兩名陌生人忽然像老朋友般開始交談。",
+      "starter": "After",
+      "answer": "After a few quiet minutes, the two strangers fell to talking like old friends.",
+      "answerZh": "短暫沉默後,兩名陌生人忽然像老朋友般開始交談。",
+      "highlight": "fell to",
+      "targetForm": "fall to doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-130-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "The button did not stay on the coat; it became detached and dropped to the floor.",
+      "promptZh": "鈕扣沒有留在外套上,而是脫落並掉到地上。",
+      "starter": "The",
+      "answer": "The button fell off and dropped to the floor.",
+      "answerZh": "鈕扣脫落並掉到地上。",
+      "highlight": "fell off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "The child did not simply become tired; within minutes, she entered a very deep sleep.",
+      "promptZh": "孩子不只是感到疲倦;幾分鐘內,她便進入了熟睡狀態。",
+      "starter": "The",
+      "answer": "The child did not simply become tired; within minutes, she fell into a very deep sleep.",
+      "answerZh": "孩子不只是感到疲倦;幾分鐘內,她便進入了熟睡狀態。",
+      "highlight": "fell into",
+      "targetForm": "fall into something",
+      "targetMeaningZh": "進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-130-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Nothing became detached, but interest in the video decreased sharply after the first week.",
+      "promptZh": "沒有任何東西脫落,但影片推出一星期後,人們的興趣大幅下降。",
+      "starter": "Nothing",
+      "answer": "Nothing became detached, but interest in the video fell off sharply after the first week.",
+      "answerZh": "沒有任何東西脫落,但影片推出一星期後,人們的興趣大幅下降。",
+      "highlight": "fell off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "減少;下降"
+    },
+    {
+      "id": "phrasal-verb-130-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "The food was good, but the café failed badly when it came to serving customers quickly.",
+      "promptZh": "食物不錯,但咖啡店未能迅速為顧客服務。",
+      "starter": "The",
+      "answer": "The food was good, but the café fell down on serving customers quickly.",
+      "answerZh": "食物不錯,但咖啡店未能迅速為顧客服務。",
+      "highlight": "fell down on",
+      "targetForm": "fall down on something",
+      "targetMeaningZh": "未能妥善做好某事"
+    },
+    {
+      "id": "phrasal-verb-130-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "The walkers did not lose places in a race; they simply could not keep pace with the guide.",
+      "promptZh": "這些步行者並非在比賽中失去名次;他們只是跟不上導遊的步速。",
+      "starter": "The",
+      "answer": "The walkers did not lose places in a race; they simply fell behind the guide.",
+      "answerZh": "這些步行者並非在比賽中失去名次;他們只是跟不上導遊的步速。",
+      "highlight": "fell behind",
+      "targetForm": "fall behind somebody",
+      "targetMeaningZh": "未能跟上某人"
+    },
+    {
+      "id": "phrasal-verb-130-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "After joining a new club, Ben began spending time with members who often caused trouble.",
+      "promptZh": "賓加入新會社後,開始與經常惹麻煩的會員為伍。",
+      "starter": "After",
+      "answer": "After joining a new club, Ben fell in with members who often caused trouble.",
+      "answerZh": "賓加入新會社後,開始與經常惹麻煩的會員為伍。",
+      "highlight": "fell in",
+      "targetForm": "fall in with somebody",
+      "targetMeaningZh": "與某人或某群人為伍"
+    },
+    {
+      "id": "phrasal-verb-130-q85",
+      "number": 85,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "The item is not broken; it simply belongs in the “kitchen” group on the website.",
+      "promptZh": "該物品沒有損壞;它只是歸入網站上的「廚房」類別。",
+      "starter": "The",
+      "answer": "The item is not broken; it falls under the “kitchen” group on the website.",
+      "answerZh": "該物品沒有損壞;它只是歸入網站上的「廚房」類別。",
+      "highlight": "falls under",
+      "targetForm": "fall under something",
+      "targetMeaningZh": "歸入某個類別之下"
+    },
+    {
+      "id": "phrasal-verb-130-q86",
+      "number": 86,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "The website looked almost real, so several people believed its promise of free phones.",
+      "promptZh": "該網站看來幾乎是真的,所以數人相信了免費電話的承諾。",
+      "starter": "The",
+      "answer": "The website looked almost real, so several people fell for its promise of free phones.",
+      "answerZh": "該網站看來幾乎是真的,所以數人相信了免費電話的承諾。",
+      "highlight": "fell for",
+      "targetForm": "fall for something",
+      "targetMeaningZh": "受騙;信以為真"
+    },
+    {
+      "id": "phrasal-verb-130-q87",
+      "number": 87,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The outside layer of the old door was slowly breaking away in strips; the whole door was still in place.",
+      "promptZh": "舊門的外層正逐條剝落,但整扇門仍在原位。",
+      "starter": "The",
+      "answer": "The outside layer of the old door was slowly falling away in strips; the whole door was still in place.",
+      "answerZh": "舊門的外層正逐條剝落,但整扇門仍在原位。",
+      "highlight": "falling",
+      "targetForm": "fall away",
+      "targetMeaningZh": "剝落;脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q88",
+      "number": 88,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "No object was in Arun’s way; he simply lost his balance on the moving bus.",
+      "promptZh": "阿倫前面沒有障礙物;他只是在行駛中的巴士上失去平衡跌倒。",
+      "starter": "No",
+      "answer": "No object was in Arun’s way; he simply fell over on the moving bus.",
+      "answerZh": "阿倫前面沒有障礙物;他只是在行駛中的巴士上失去平衡跌倒。",
+      "highlight": "fell over",
+      "targetForm": "fall over",
+      "targetMeaningZh": "失去平衡而跌倒"
+    },
+    {
+      "id": "phrasal-verb-130-q89",
+      "number": 89,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "Because she spent too little time studying, Eva was no longer keeping up in science.",
+      "promptZh": "伊娃花在溫習上的時間太少,已逐漸跟不上科學科進度。",
+      "starter": "Because",
+      "answer": "Because she spent too little time studying, Eva was falling behind in science.",
+      "answerZh": "伊娃花在溫習上的時間太少,已逐漸跟不上科學科進度。",
+      "highlight": "falling behind",
+      "targetForm": "fall behind in something",
+      "targetMeaningZh": "未能跟上學習進度"
+    },
+    {
+      "id": "phrasal-verb-130-q90",
+      "number": 90,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The whole empty tent collapsed onto the ground in the strong wind.",
+      "promptZh": "整個空帳篷在強風中倒塌在地上。",
+      "starter": "The",
+      "answer": "The whole empty tent fell down in the strong wind.",
+      "answerZh": "整個空帳篷在強風中倒塌在地上。",
+      "highlight": "fell down",
+      "targetForm": "fall down",
+      "targetMeaningZh": "倒下;倒塌"
+    },
+    {
+      "id": "phrasal-verb-130-q91",
+      "number": 91,
+      "band": 3,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The prize money was limited, so the remaining cost had to be paid by the club.",
+      "promptZh": "獎金有限,因此餘下費用須由該會承擔。",
+      "starter": "The",
+      "answer": "The prize money was limited, so the remaining cost fell upon the club.",
+      "answerZh": "獎金有限,因此餘下費用須由該會承擔。",
+      "highlight": "fell upon",
+      "targetForm": "fall upon something",
+      "targetMeaningZh": "費用或負擔由某人或某組織承擔"
+    },
+    {
+      "id": "phrasal-verb-130-q92",
+      "number": 92,
+      "band": 3,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "The runner was level with the leaders at first, but after the final turn he dropped from first to fourth.",
+      "promptZh": "那名跑手起初與領先者並列,但最後一個彎後由第一名跌至第四名。",
+      "starter": "The",
+      "answer": "The runner was level with the leaders at first, but after the final turn he fell back from first to fourth.",
+      "answerZh": "那名跑手起初與領先者並列,但最後一個彎後由第一名跌至第四名。",
+      "highlight": "fell back",
+      "targetForm": "fall back",
+      "targetMeaningZh": "落後;名次下跌"
+    },
+    {
+      "id": "phrasal-verb-130-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "The group finished the main task well, but it failed to tell local people about the change of time.",
+      "promptZh": "小組很好地完成主要工作,但未能通知居民時間有變。",
+      "starter": "The",
+      "answer": "The group finished the main task well, but it fell down on telling local people about the change of time.",
+      "answerZh": "小組很好地完成主要工作,但未能通知居民時間有變。",
+      "highlight": "fell down on telling",
+      "targetForm": "fall down on something",
+      "targetMeaningZh": "未能妥善做好某事"
+    },
+    {
+      "id": "phrasal-verb-130-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "The form asks for “daily travel”, and bus tickets, train tickets and taxi bills all belong in that group.",
+      "promptZh": "表格要求填寫「日常交通」,而巴士票、火車票和的士收據均歸入該類別。",
+      "starter": "The",
+      "answer": "The form asks for “daily travel”, and bus tickets, train tickets and taxi bills all fall under that group.",
+      "answerZh": "表格要求填寫「日常交通」,而巴士票、火車票和的士收據均歸入該類別。",
+      "highlight": "fall under",
+      "targetForm": "fall under something",
+      "targetMeaningZh": "歸入某個類別之下"
+    },
+    {
+      "id": "phrasal-verb-130-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "At first everyone stayed serious, but the actor’s tiny umbrella was so unexpected that the whole room began laughing uncontrollably.",
+      "promptZh": "起初大家保持嚴肅,但演員的小雨傘出人意料,令全場大笑不止。",
+      "starter": "At",
+      "answer": "At first everyone stayed serious, but the actor’s tiny umbrella made the whole room fall about.",
+      "answerZh": "起初大家保持嚴肅,但演員的小雨傘出人意料,令全場大笑不止。",
+      "highlight": "made",
+      "targetForm": "fall about",
+      "targetMeaningZh": "大笑不止;笑得前仰後合"
+    },
+    {
+      "id": "phrasal-verb-130-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Everyone had agreed on the holiday, but the plan failed when two people could no longer take time off work.",
+      "promptZh": "大家原本已同意旅行安排,但兩人無法再請假後,計劃便告吹。",
+      "starter": "Everyone",
+      "answer": "Everyone had agreed on the holiday, but the plan fell through when two people could no longer take time off work.",
+      "answerZh": "大家原本已同意旅行安排,但兩人無法再請假後,計劃便告吹。",
+      "highlight": "fell through",
+      "targetForm": "fall through",
+      "targetMeaningZh": "計劃或安排未能實現"
+    },
+    {
+      "id": "phrasal-verb-130-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "The path looked safe from a distance, but heavy rain had caused its outer edge to break away in several places.",
+      "promptZh": "小徑從遠處看來安全,但大雨已令外圍邊緣多處剝落。",
+      "starter": "The",
+      "answer": "The path looked safe from a distance, but heavy rain had caused its outer edge to fall away in several places.",
+      "answerZh": "小徑從遠處看來安全,但大雨已令外圍邊緣多處剝落。",
+      "highlight": "fall",
+      "targetForm": "fall away",
+      "targetMeaningZh": "剝落;脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "We hope the new online system works, but the paper records are still available if we need another option.",
+      "promptZh": "我們希望新的網上系統運作正常,但如有需要,仍可改用紙本紀錄。",
+      "starter": "We",
+      "answer": "We hope the new online system works, but we can fall back on the paper records if necessary.",
+      "answerZh": "我們希望新的網上系統運作正常,但如有需要,仍可改用紙本紀錄。",
+      "highlight": "we can fall back on",
+      "targetForm": "fall back on something",
+      "targetMeaningZh": "在其他方法失敗時改用某事物"
+    },
+    {
+      "id": "phrasal-verb-130-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Leo wanted to make friends quickly at his new school, but he chose a group that often encouraged him to break rules.",
+      "promptZh": "里奧希望在新學校盡快結交朋友,卻與一群經常鼓勵他違規的人為伍。",
+      "starter": "Leo",
+      "answer": "Leo wanted to make friends quickly at his new school, but he fell in with a group that often encouraged him to break rules.",
+      "answerZh": "里奧希望在新學校盡快結交朋友,卻與一群經常鼓勵他違規的人為伍。",
+      "highlight": "fell in with",
+      "targetForm": "fall in with somebody",
+      "targetMeaningZh": "與某人或某群人為伍"
+    },
+    {
+      "id": "phrasal-verb-130-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "After the long drive, Ben sat on the sofa and was asleep so deeply within a few minutes that nobody could wake him easily.",
+      "promptZh": "長途乘車後,賓坐在梳化上,數分鐘內便睡得很沉,別人很難喚醒他。",
+      "starter": "After",
+      "answer": "After the long drive, Ben sat on the sofa and fell into such a deep sleep that nobody could wake him easily.",
+      "answerZh": "長途乘車後,賓坐在梳化上,數分鐘內便睡得很沉,別人很難喚醒他。",
+      "highlight": "fell into such",
+      "targetForm": "fall into something",
+      "targetMeaningZh": "進入某種狀態"
+    },
+    {
+      "id": "phrasal-verb-130-q101",
+      "number": 101,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "The club was busy in September, but fewer and fewer people attended as winter came.",
+      "promptZh": "該會在九月很忙碌,但入冬後出席人數愈來愈少。",
+      "starter": "The",
+      "answer": "The club was busy in September, but attendance fell off as winter came.",
+      "answerZh": "該會在九月很忙碌,但入冬後出席人數愈來愈少。",
+      "highlight": "attendance fell off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "減少;下降"
+    },
+    {
+      "id": "phrasal-verb-130-q102",
+      "number": 102,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Our first choice was a morning meeting, but the rest of the team wanted the afternoon, so we agreed to their plan.",
+      "promptZh": "我們原本首選早上開會,但其餘隊員希望下午舉行,因此我們同意跟隨他們的計劃。",
+      "starter": "Our",
+      "answer": "Our first choice was a morning meeting, but we fell in with their plan for the afternoon.",
+      "answerZh": "我們原本首選早上開會,但其餘隊員希望下午舉行,因此我們同意跟隨他們的計劃。",
+      "highlight": "we fell in with their plan for",
+      "targetForm": "fall in with something",
+      "targetMeaningZh": "同意並跟隨某項計劃"
+    },
+    {
+      "id": "phrasal-verb-130-q103",
+      "number": 103,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The workers heard a loud crack and left at once; minutes later, part of the ceiling collapsed inward.",
+      "promptZh": "工人聽到巨響後立即離開;數分鐘後,部分天花向內塌陷。",
+      "starter": "The",
+      "answer": "The workers heard a loud crack and left at once; minutes later, part of the ceiling fell in.",
+      "answerZh": "工人聽到巨響後立即離開;數分鐘後,部分天花向內塌陷。",
+      "highlight": "fell in",
+      "targetForm": "fall in",
+      "targetMeaningZh": "向內塌陷"
+    },
+    {
+      "id": "phrasal-verb-130-q104",
+      "number": 104,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The email used the bank’s colours and logo, and that was enough to make several customers believe the lie.",
+      "promptZh": "電郵使用了銀行的顏色和標誌,足以令數名顧客相信謊言而上當。",
+      "starter": "The",
+      "answer": "The email used the bank’s colours and logo, and that was enough to make several customers fall for the lie.",
+      "answerZh": "電郵使用了銀行的顏色和標誌,足以令數名顧客相信謊言而上當。",
+      "highlight": "fall for",
+      "targetForm": "fall for something",
+      "targetMeaningZh": "受騙;信以為真"
+    },
+    {
+      "id": "phrasal-verb-130-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The school received some help, but families still had to pay most of the cost of the trip.",
+      "promptZh": "學校獲得了一些資助,但大部分旅行費用仍須由各家庭承擔。",
+      "starter": "The",
+      "answer": "The school received some help, but most of the cost of the trip still fell on the families.",
+      "answerZh": "學校獲得了一些資助,但大部分旅行費用仍須由各家庭承擔。",
+      "highlight": "still fell on the families",
+      "targetForm": "fall on somebody",
+      "targetMeaningZh": "費用或負擔由某人承擔"
+    },
+    {
+      "id": "phrasal-verb-130-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "Kai kept missing practice. By the end of the month, he had not completed the same amount of work as the others.",
+      "promptZh": "啟不斷缺席練習。到月底時,他完成的工作仍比其他人少。",
+      "starter": "Kai",
+      "answer": "Kai kept missing practice. By the end of the month, he had fallen behind with his work.",
+      "answerZh": "啟不斷缺席練習。到月底時,他完成的工作仍比其他人少。",
+      "highlight": "fallen behind with his",
+      "targetForm": "fall behind with something",
+      "targetMeaningZh": "未能跟上工作進度"
+    },
+    {
+      "id": "phrasal-verb-130-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The meeting began slowly, but once the first question was asked, everyone started discussing the problem with real interest.",
+      "promptZh": "會議開始時進展緩慢,但第一條問題提出後,大家便饒有興趣地開始討論問題。",
+      "starter": "The",
+      "answer": "The meeting began slowly, but once the first question was asked, everyone fell to discussing the problem with real interest.",
+      "answerZh": "會議開始時進展緩慢,但第一條問題提出後,大家便饒有興趣地開始討論問題。",
+      "highlight": "fell to",
+      "targetForm": "fall to doing something",
+      "targetMeaningZh": "開始做某事"
+    },
+    {
+      "id": "phrasal-verb-130-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 45,
+      "prompt": "While I was carrying the old suitcase, one of its wheels became detached and rolled across the floor.",
+      "promptZh": "我提着舊行李箱時,其中一個輪子脫落,滾過地面。",
+      "starter": "While",
+      "answer": "While I was carrying the old suitcase, one of its wheels fell off and rolled across the floor.",
+      "answerZh": "我提着舊行李箱時,其中一個輪子脫落,滾過地面。",
+      "highlight": "fell off",
+      "targetForm": "fall off",
+      "targetMeaningZh": "脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "Clara led the race for several minutes, but on the long hill she lost positions while the others moved ahead.",
+      "promptZh": "克拉拉在數分鐘內領先,但上長斜路時名次下跌,其他跑手超前。",
+      "starter": "Clara",
+      "answer": "Clara led the race for several minutes, but on the long hill she fell back while the others moved ahead.",
+      "answerZh": "克拉拉在數分鐘內領先,但上長斜路時名次下跌,其他跑手超前。",
+      "highlight": "fell back",
+      "targetForm": "fall back",
+      "targetMeaningZh": "落後;名次下跌"
+    },
+    {
+      "id": "phrasal-verb-130-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The lights were off, so Omar did not see the shoes in the hallway and tripped because of them.",
+      "promptZh": "燈沒有亮,奧馬看不見走廊裏的鞋,因而被鞋絆倒。",
+      "starter": "The",
+      "answer": "The lights were off, so Omar fell over the shoes in the hallway.",
+      "answerZh": "燈沒有亮,奧馬看不見走廊裏的鞋,因而被鞋絆倒。",
+      "highlight": "fell over",
+      "targetForm": "fall over something",
+      "targetMeaningZh": "被某物絆倒"
+    },
+    {
+      "id": "phrasal-verb-130-q111",
+      "number": 111,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The child was eating when a loose tooth came out, but there was no pain.",
+      "promptZh": "孩子正在進食時,一隻鬆脫的牙齒掉了出來,但沒有疼痛。",
+      "starter": "The",
+      "answer": "The child was eating when a loose tooth fell out, but there was no pain.",
+      "answerZh": "孩子正在進食時,一隻鬆脫的牙齒掉了出來,但沒有疼痛。",
+      "highlight": "fell",
+      "targetForm": "fall out",
+      "targetMeaningZh": "頭髮、牙齒等脫落"
+    },
+    {
+      "id": "phrasal-verb-130-q112",
+      "number": 112,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The stage looked strong at first, but one side collapsed under the weight of the heavy boxes.",
+      "promptZh": "舞台起初看來牢固,但一邊在重箱的重量下倒塌。",
+      "starter": "The",
+      "answer": "The stage looked strong at first, but one side fell down under the weight of the heavy boxes.",
+      "answerZh": "舞台起初看來牢固,但一邊在重箱的重量下倒塌。",
+      "highlight": "fell down",
+      "targetForm": "fall down",
+      "targetMeaningZh": "倒下;倒塌"
+    },
+    {
+      "id": "phrasal-verb-130-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "The train moved suddenly as Clara stood up, and she lost her balance before she could hold the rail.",
+      "promptZh": "克拉拉站起來時火車突然移動,她還未能握住扶手便失去平衡跌倒。",
+      "starter": "The",
+      "answer": "The train moved suddenly as Clara stood up, and she fell over before she could hold the rail.",
+      "answerZh": "克拉拉站起來時火車突然移動,她還未能握住扶手便失去平衡跌倒。",
+      "highlight": "fell over",
+      "targetForm": "fall over",
+      "targetMeaningZh": "失去平衡而跌倒"
+    },
+    {
+      "id": "phrasal-verb-130-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 46,
+      "prompt": "The family started the walk together, but the youngest child could not keep the same speed and ended up some distance behind.",
+      "promptZh": "一家人一起出發步行,但年幼的孩子跟不上速度,最後落後了一段距離。",
+      "starter": "The",
+      "answer": "The family started the walk together, but the youngest child fell behind.",
+      "answerZh": "一家人一起出發步行,但年幼的孩子跟不上速度,最後落後了一段距離。",
+      "highlight": "fell",
+      "targetForm": "fall behind",
+      "targetMeaningZh": "落在後面;未能跟上"
+    },
+    {
+      "id": "phrasal-verb-130-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 47,
+      "prompt": "Both parents were busy, so the responsibility for taking the children to school became their neighbour’s.",
+      "promptZh": "父母都很忙,因此送孩子上學的責任落在鄰居身上。",
+      "starter": "Both",
+      "answer": "Both parents were busy, so it fell to their neighbour to take the children to school.",
+      "answerZh": "父母都很忙,因此送孩子上學的責任落在鄰居身上。",
+      "highlight": "it fell to their neighbour to take",
+      "targetForm": "fall to somebody to do something",
+      "targetMeaningZh": "某項責任落在某人身上"
+    }
+  ]
+}

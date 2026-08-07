@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-53",
+  "order": 53,
+  "slug": "meet",
+  "version": "1",
+  "title": "MEET 動詞片語",
+  "titleEn": "Meet",
+  "titleZh": "MEET 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 52 - MEET.pdf",
+    "sourceNumber": 52,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MEET 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MEET."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MEET",
+      "highlight": "MEET"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The audience met the announcement with loud applause.",
+      "zh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+      "highlight": "met the announcement with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We are meeting up with Gary after work.",
+      "zh": "我們下班後會和 Gary 見面。",
+      "highlight": "meeting up with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The cyclist met with an accident on his way home.",
+      "zh": "那名單車手在回家途中遇上意外。",
+      "highlight": "met with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以某種方式回應某事;某事受到某種反應；相約見面;聚會；遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+    "en": "meet something with something; meet up / meet up with somebody; meet with something",
+    "naturalZh": [
+      "以某種方式回應某事;某事受到某種反應",
+      "相約見面;聚會",
+      "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "meet something with something",
+      "titleZh": "以某種方式回應某事;某事受到某種反應",
+      "titleEn": "meet something with something",
+      "descriptionZh": "以某種方式回應某事;某事受到某種反應",
+      "descriptionEn": "The audience met the announcement with loud applause.",
+      "examples": [
+        {
+          "en": "The audience met the announcement with loud applause.",
+          "zh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+          "highlight": "met the announcement with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "meet up / meet up with somebody",
+      "titleZh": "相約見面;聚會",
+      "titleEn": "meet up / meet up with somebody",
+      "descriptionZh": "相約見面;聚會",
+      "descriptionEn": "We are meeting up with Gary after work.",
+      "examples": [
+        {
+          "en": "We are meeting up with Gary after work.",
+          "zh": "我們下班後會和 Gary 見面。",
+          "highlight": "meeting up with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "meet with something",
+      "titleZh": "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+      "titleEn": "meet with something",
+      "descriptionZh": "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+      "descriptionEn": "The cyclist met with an accident on his way home.",
+      "examples": [
+        {
+          "en": "The cyclist met with an accident on his way home.",
+          "zh": "那名單車手在回家途中遇上意外。",
+          "highlight": "met with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MEET 片語動詞的實際用途",
+    "labelEn": "MEET Phrasal Verbs in Use",
+    "summaryZh": "meet up 可以讓你自然地談論與朋友、同學或同事見面。；meet something with something 可以表示人們以憤怒、沉默、支持、笑聲或其他方式回應某事。；meet with something 可以描述意外、困難、延誤和成功。；這些表達能幫助你分辨與人見面、回應某事和經歷某件事情等不同意思。",
+    "summaryEn": "Meet up lets you talk naturally about seeing friends, classmates or colleagues. Meet something with something can show whether people respond with anger, silence, support, laughter or another reaction. Meet with something can describe accidents, difficulties, delays and success. These expressions help you distinguish meeting a person from reacting to something or experiencing an event.",
+    "contextsZh": [
+      "使用 MEET 談論社交安排",
+      "描述人們如何回應事情",
+      "談論意外經歷和結果",
+      "理解 MEET 的不同意思"
+    ],
+    "contextsEn": [
+      "Use MEET to talk about social plans",
+      "Describe how people react",
+      "Talk about unexpected experiences and results",
+      "Understand different meanings of MEET"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MEET 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MEET expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "meet something with something",
+    "fixedHighlight": "meet something with something",
+    "fixedZh": "閱讀整句,選出意思相同的 MEET 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MEET expression that gives the same meaning.",
+    "correct": "met the announcement with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；meet something with something 可以出現在不同句式中:The students met the news with cheers.The news was met with cheers.；meet up 可以單獨使用,也可以接與你見面的人:We met up after class.I met up with Aaron after class.",
+    "variableEn": "Keep the same people, things, time and meaning. Meet something with something can appear in different sentence forms: The students met the news with cheers. The news was met with cheers. Meet up may be used by itself or with another person: We met up after class. I met up with Aaron after class.",
+    "variableItemsZh": [
+      "meet something with something",
+      "meet up / meet up with somebody",
+      "meet with something"
+    ],
+    "variableItemsEn": [
+      "meet something with something",
+      "meet up / meet up with somebody",
+      "meet with something"
+    ],
+    "forms": [
+      {
+        "formZh": "以某種方式回應某事;某事受到某種反應",
+        "formEn": "meet something with something",
+        "exampleZh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+        "exampleEn": "The audience met the announcement with loud applause.",
+        "highlight": "met the announcement with"
+      },
+      {
+        "formZh": "相約見面;聚會",
+        "formEn": "meet up / meet up with somebody",
+        "exampleZh": "我們下班後會和 Gary 見面。",
+        "exampleEn": "We are meeting up with Gary after work.",
+        "highlight": "meeting up with"
+      },
+      {
+        "formZh": "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+        "formEn": "meet with something",
+        "exampleZh": "那名單車手在回家途中遇上意外。",
+        "exampleEn": "The cyclist met with an accident on his way home.",
+        "highlight": "met with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以某種方式回應某事;某事受到某種反應",
+      "titleEn": "meet something with something",
+      "formula": "meet something with something",
+      "highlight": "meet something with something",
+      "descriptionZh": "以某種方式回應某事;某事受到某種反應",
+      "descriptionEn": "The audience met the announcement with loud applause.",
+      "examples": [
+        {
+          "en": "The audience met the announcement with loud applause.",
+          "zh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+          "highlight": "met the announcement with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "相約見面;聚會",
+      "titleEn": "meet up / meet up with somebody",
+      "formula": "meet up / meet up with somebody",
+      "highlight": "meet up / meet up with somebody",
+      "descriptionZh": "相約見面;聚會",
+      "descriptionEn": "We are meeting up with Gary after work.",
+      "examples": [
+        {
+          "en": "We are meeting up with Gary after work.",
+          "zh": "我們下班後會和 Gary 見面。",
+          "highlight": "meeting up with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+      "titleEn": "meet with something",
+      "formula": "meet with something",
+      "highlight": "meet with something",
+      "descriptionZh": "遭遇或經歷某事;得到某種結果,常用於意外、困難、延誤或成功",
+      "descriptionEn": "The cyclist met with an accident on his way home.",
+      "examples": [
+        {
+          "en": "The cyclist met with an accident on his way home.",
+          "zh": "那名單車手在回家途中遇上意外。",
+          "highlight": "met with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 MEET 談論社交安排",
+      "titleEn": "Use MEET to talk about social plans",
+      "zh": "meet up 可以讓你自然地談論與朋友、同學或同事見面。",
+      "en": "Meet up lets you talk naturally about seeing friends, classmates or colleagues."
+    },
+    {
+      "titleZh": "描述人們如何回應事情",
+      "titleEn": "Describe how people react",
+      "zh": "meet something with something 可以表示人們以憤怒、沉默、支持、笑聲或其他方式回應某事。",
+      "en": "Meet something with something can show whether people respond with anger, silence, support, laughter or another reaction."
+    },
+    {
+      "titleZh": "談論意外經歷和結果",
+      "titleEn": "Talk about unexpected experiences and results",
+      "zh": "meet with something 可以描述意外、困難、延誤和成功。",
+      "en": "Meet with something can describe accidents, difficulties, delays and success."
+    },
+    {
+      "titleZh": "理解 MEET 的不同意思",
+      "titleEn": "Understand different meanings of MEET",
+      "zh": "這些表達能幫助你分辨與人見面、回應某事和經歷某件事情等不同意思。",
+      "en": "These expressions help you distinguish meeting a person from reacting to something or experiencing an event."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 MEET 談論社交安排",
+      "描述人們如何回應事情",
+      "談論意外經歷和結果",
+      "理解 MEET 的不同意思"
+    ],
+    "contextsEn": [
+      "Use MEET to talk about social plans",
+      "Describe how people react",
+      "Talk about unexpected experiences and results",
+      "Understand different meanings of MEET"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 MEET 談論社交安排",
+        "titleEn": "Use MEET to talk about social plans",
+        "zh": "meet up 可以讓你自然地談論與朋友、同學或同事見面。",
+        "en": "Meet up lets you talk naturally about seeing friends, classmates or colleagues.",
+        "examples": [
+          {
+            "en": "The audience met the announcement with loud applause.",
+            "zh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+            "highlight": "met the announcement with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述人們如何回應事情",
+        "titleEn": "Describe how people react",
+        "zh": "meet something with something 可以表示人們以憤怒、沉默、支持、笑聲或其他方式回應某事。",
+        "en": "Meet something with something can show whether people respond with anger, silence, support, laughter or another reaction.",
+        "examples": [
+          {
+            "en": "We are meeting up with Gary after work.",
+            "zh": "我們下班後會和 Gary 見面。",
+            "highlight": "meeting up with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論意外經歷和結果",
+        "titleEn": "Talk about unexpected experiences and results",
+        "zh": "meet with something 可以描述意外、困難、延誤和成功。",
+        "en": "Meet with something can describe accidents, difficulties, delays and success.",
+        "examples": [
+          {
+            "en": "The cyclist met with an accident on his way home.",
+            "zh": "那名單車手在回家途中遇上意外。",
+            "highlight": "met with"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 MEET 的不同意思",
+        "titleEn": "Understand different meanings of MEET",
+        "zh": "這些表達能幫助你分辨與人見面、回應某事和經歷某件事情等不同意思。",
+        "en": "These expressions help you distinguish meeting a person from reacting to something or experiencing an event.",
+        "examples": [
+          {
+            "en": "The audience met the announcement with loud applause.",
+            "zh": "觀眾以熱烈掌聲回應這項公布。)The announcement was met with loud applause.(這項公布獲得熱烈掌聲回應。",
+            "highlight": "met the announcement with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MEET 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MEET expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MEET 片語動詞。",
+      "en": "Read the whole sentence and choose the MEET expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "meet something with something 可以出現在不同句式中:The students met the news with cheers.The news was met with cheers.",
+      "titleEn": "Meet something with something can appear in different sentence forms: The students met the news with cheers.",
+      "zh": "meet something with something 可以出現在不同句式中:The students met the news with cheers.The news was met with cheers.",
+      "en": "Meet something with something can appear in different sentence forms: The students met the news with cheers. The news was met with cheers."
+    },
+    {
+      "titleZh": "meet up 可以單獨使用,也可以接與你見面的人:We met up after class.I met up with Aaron after class.",
+      "titleEn": "Meet up may be used by itself or with another person: We met up after class.",
+      "zh": "meet up 可以單獨使用,也可以接與你見面的人:We met up after class.I met up with Aaron after class.",
+      "en": "Meet up may be used by itself or with another person: We met up after class. I met up with Aaron after class."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MEET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MEET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MEET 動詞片語句子改寫練習",
+    "titleEn": "MEET Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MEET 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MEET. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-53-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The audience responded to the announcement with loud applause.",
+      "promptZh": "觀眾以熱烈掌聲回應這項公布。",
+      "starter": "The",
+      "answer": "The audience met the announcement with loud applause.",
+      "answerZh": "觀眾以熱烈掌聲回應這項公布。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We are going to see one another after school.",
+      "promptZh": "我們放學後會見面。",
+      "starter": "We",
+      "answer": "We are going to meet up after school.",
+      "answerZh": "我們放學後會見面。",
+      "highlight": "meet up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The cyclist had an accident on the way home.",
+      "promptZh": "那名單車手在回家途中遇上意外。",
+      "starter": "The",
+      "answer": "The cyclist met with an accident on the way home.",
+      "answerZh": "那名單車手在回家途中遇上意外。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sara and I had coffee together yesterday.",
+      "promptZh": "Sara 和我昨天一起喝咖啡。",
+      "starter": "Sara",
+      "answer": "Sara and I met up for coffee yesterday.",
+      "answerZh": "Sara 和我昨天見面喝咖啡。",
+      "highlight": "met up for",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The children responded to the good news with cheers.",
+      "promptZh": "孩子們以歡呼聲回應這個好消息。",
+      "starter": "The",
+      "answer": "The children met the good news with cheers.",
+      "answerZh": "孩子們以歡呼聲回應這個好消息。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The travellers experienced several delays during the journey.",
+      "promptZh": "旅客在旅程中遇上數次延誤。",
+      "starter": "The",
+      "answer": "The travellers met with several delays during the journey.",
+      "answerZh": "旅客在旅程中遇上數次延誤。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Let us all come to the library at three.",
+      "promptZh": "大家三時到圖書館集合吧。",
+      "starter": "Let’s",
+      "answer": "Let’s all meet up at the library at three.",
+      "answerZh": "大家三時在圖書館集合吧。",
+      "highlight": "Let’s",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Lena responded to the rude comment with silence.",
+      "promptZh": "Lena 以沉默回應那句無禮的說話。",
+      "starter": "Lena",
+      "answer": "Lena met the rude comment with silence.",
+      "answerZh": "Lena 以沉默回應那句無禮的說話。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The school project experienced a few problems at the start.",
+      "promptZh": "學校專題在開始時遇到幾個問題。",
+      "starter": "The",
+      "answer": "The school project met with a few problems at the start.",
+      "answerZh": "學校專題在開始時遇到幾個問題。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The old friends saw one another again last weekend.",
+      "promptZh": "這群老朋友上週末再次見面。",
+      "starter": "The",
+      "answer": "The old friends met up again last weekend.",
+      "answerZh": "這群老朋友上週末再次見面。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new café has had great success since it opened.",
+      "promptZh": "這間新咖啡店開業後一直非常成功。",
+      "starter": "The",
+      "answer": "The new café has met with great success since it opened.",
+      "answerZh": "這間新咖啡店自開業以來取得了很大成功。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "得到某種結果"
+    },
+    {
+      "id": "phrasal-verb-53-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Eva responded to the bad news with a smile.",
+      "promptZh": "Eva 以微笑回應這個壞消息。",
+      "starter": "Eva",
+      "answer": "Eva met the bad news with a smile.",
+      "answerZh": "Eva 以微笑回應這個壞消息。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Will you see Daniel after work?",
+      "promptZh": "你下班後會和 Daniel 見面嗎?",
+      "starter": "Will",
+      "answer": "Will you meet up with Daniel after work?",
+      "answerZh": "你下班後會和 Daniel 見面嗎?",
+      "highlight": "meet up with",
+      "targetForm": "meet up with somebody",
+      "targetMeaningZh": "與某人相約見面"
+    },
+    {
+      "id": "phrasal-verb-53-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The students have responded to the new rule with many complaints.",
+      "promptZh": "學生們以許多投訴回應這項新規則。",
+      "starter": "The",
+      "answer": "The students have met the new rule with many complaints.",
+      "answerZh": "學生們以許多投訴回應這項新規則。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "No one had any trouble during the walk.",
+      "promptZh": "整段步行期間,沒有人遇到任何麻煩。",
+      "starter": "No",
+      "answer": "No one met with any trouble during the walk.",
+      "answerZh": "整段步行期間,沒有人遇到任何麻煩。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We have seen one another twice this month.",
+      "promptZh": "我們這個月已經見過兩次。",
+      "starter": "We",
+      "answer": "We have met up twice this month.",
+      "answerZh": "我們這個月已經見過兩次。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the crowd respond to the news with silence?",
+      "promptZh": "為甚麼群眾以沉默回應這個消息?",
+      "starter": "Why",
+      "answer": "Why did the crowd meet the news with silence?",
+      "answerZh": "為甚麼群眾以沉默回應這個消息?",
+      "highlight": "meet",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The team may experience some difficulty in the final stage.",
+      "promptZh": "球隊在最後階段可能會遇到一些困難。",
+      "starter": "The",
+      "answer": "The team may meet with some difficulty in the final stage.",
+      "answerZh": "球隊在最後階段可能會遇到一些困難。",
+      "highlight": "meet with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Grace is going to see her former classmates tonight.",
+      "promptZh": "Grace 今晚會和以前的同學見面。",
+      "starter": "Grace",
+      "answer": "Grace is going to meet up with her former classmates tonight.",
+      "answerZh": "Grace 今晚會和以前的同學見面。",
+      "highlight": "meet up with",
+      "targetForm": "meet up with somebody",
+      "targetMeaningZh": "與某人相約見面"
+    },
+    {
+      "id": "phrasal-verb-53-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Our suggestion received strong support from the club.",
+      "promptZh": "我們的建議獲得了俱樂部的大力支持。",
+      "starter": "Our",
+      "answer": "Our suggestion was met with strong support from the club.",
+      "answerZh": "我們的建議獲得了俱樂部的大力支持。",
+      "highlight": "was met with",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "某事受到某種反應"
+    },
+    {
+      "id": "phrasal-verb-53-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I missed the morning session, but I saw the others at lunch.",
+      "promptZh": "我錯過了早上的環節,但午飯時見到了其他人。",
+      "starter": "I",
+      "answer": "I missed the morning session, but I met up with the others at lunch.",
+      "answerZh": "我錯過了早上的環節,但午飯時和其他人見面。",
+      "highlight": "met up with",
+      "targetForm": "meet up with somebody",
+      "targetMeaningZh": "與某人相約見面"
+    },
+    {
+      "id": "phrasal-verb-53-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The driver had a minor accident near the station.",
+      "promptZh": "司機在車站附近遇到一宗輕微意外。",
+      "starter": "The",
+      "answer": "The driver met with a minor accident near the station.",
+      "answerZh": "司機在車站附近遇到一宗輕微意外。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The staff made a request. The manager answered it with a firm no.",
+      "promptZh": "員工提出了一項要求。經理堅決拒絕了它。",
+      "starter": "The",
+      "answer": "The staff made a request. The manager met it with a firm no.",
+      "answerZh": "員工提出了一項要求。經理堅決拒絕了這項要求。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We planned to see one another, but the rain changed our plans.",
+      "promptZh": "我們本來打算見面,但下雨令我們改變計劃。",
+      "starter": "We",
+      "answer": "We planned to meet up, but the rain changed our plans.",
+      "answerZh": "我們本來打算見面,但下雨令我們改變計劃。",
+      "highlight": "meet up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The teacher responded to their excuse with a doubtful look.",
+      "promptZh": "老師以懷疑的眼神回應他們的藉口。",
+      "starter": "The",
+      "answer": "The teacher met their excuse with a doubtful look.",
+      "answerZh": "老師以懷疑的眼神回應他們的藉口。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The rescue team encountered strong winds near the top.",
+      "promptZh": "救援隊在接近山頂時遇上強風。",
+      "starter": "The",
+      "answer": "The rescue team met with strong winds near the top.",
+      "answerZh": "救援隊在接近山頂時遇上強風。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The cousins had not seen one another for years, so they arranged a Sunday lunch.",
+      "promptZh": "幾位表兄弟姊妹多年沒有見面,因此安排了星期日共進午餐。",
+      "starter": "The",
+      "answer": "The cousins had not met up for years, so they arranged a Sunday lunch.",
+      "answerZh": "幾位表兄弟姊妹多年來沒有聚會,因此安排了星期日共進午餐。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The first plan experienced many difficulties and was stopped.",
+      "promptZh": "第一個計劃遇到很多困難,最後被停止。",
+      "starter": "The",
+      "answer": "The first plan met with many difficulties and was stopped.",
+      "answerZh": "第一個計劃遇到很多困難,最後被停止。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The new timetable has received a mixed reaction from parents.",
+      "promptZh": "新時間表收到家長褒貶不一的反應。",
+      "starter": "The",
+      "answer": "The new timetable has been met with a mixed reaction from parents.",
+      "answerZh": "新時間表收到家長褒貶不一的反應。",
+      "highlight": "been met with",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "某事受到某種反應"
+    },
+    {
+      "id": "phrasal-verb-53-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We will all gather at the station before the trip.",
+      "promptZh": "我們會在旅程開始前於車站集合。",
+      "starter": "We",
+      "answer": "We will all meet up at the station before the trip.",
+      "answerZh": "我們會在旅程開始前於車站集合。",
+      "highlight": "meet up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the school announced the longer day, many parents reacted with anger.",
+      "promptZh": "學校宣布延長上課日後,許多家長都非常憤怒。",
+      "starter": "When",
+      "answer": "When the school announced the longer day, many parents met the announcement with anger.",
+      "answerZh": "學校宣布延長上課日後,許多家長以憤怒回應這項公布。",
+      "highlight": "met the announcement",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the online class, a few students stayed and talked in person.",
+      "promptZh": "網上課堂結束後,幾名學生留下來面對面交談。",
+      "starter": "After",
+      "answer": "After the online class, a few students met up and talked in person.",
+      "answerZh": "網上課堂結束後,幾名學生見面並面對面交談。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The young singer became very successful after her first song.",
+      "promptZh": "這名年輕歌手在推出第一首歌後非常成功。",
+      "starter": "The",
+      "answer": "The young singer met with great success after her first song.",
+      "answerZh": "這名年輕歌手在推出第一首歌後取得了很大成功。",
+      "highlight": "met with great success",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "得到某種結果"
+    },
+    {
+      "id": "phrasal-verb-53-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "His offer received only silence from the group.",
+      "promptZh": "他的提議只換來小組的沉默。",
+      "starter": "His",
+      "answer": "His offer was met with silence from the group.",
+      "answerZh": "他的提議只換來小組的沉默。",
+      "highlight": "was met with",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "某事受到某種反應"
+    },
+    {
+      "id": "phrasal-verb-53-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The search had little success before dark.",
+      "promptZh": "天黑前,搜尋工作幾乎沒有成果。",
+      "starter": "The",
+      "answer": "The search met with little success before dark.",
+      "answerZh": "天黑前,搜尋工作幾乎沒有成果。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "得到某種結果"
+    },
+    {
+      "id": "phrasal-verb-53-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Could we see each other next week to discuss the plan?",
+      "promptZh": "我們下星期可以見面討論計劃嗎?",
+      "starter": "Could",
+      "answer": "Could we meet up next week to discuss the plan?",
+      "answerZh": "我們下星期可以見面討論計劃嗎?",
+      "highlight": "meet up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The staff responded to the sudden change with confusion.",
+      "promptZh": "員工對突然的改動感到困惑。",
+      "starter": "The",
+      "answer": "The staff met the sudden change with confusion.",
+      "answerZh": "員工以困惑回應突然的改動。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After moving to different cities, the four friends still saw one another every summer.",
+      "promptZh": "四位朋友搬到不同城市後,仍然每年夏天見面。",
+      "starter": "After",
+      "answer": "After moving to different cities, the four friends still met up every summer.",
+      "answerZh": "四位朋友搬到不同城市後,仍然每年夏天見面。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The building work experienced two unexpected delays because of the storm.",
+      "promptZh": "建築工程因暴風雨而遇上兩次意外延誤。",
+      "starter": "The",
+      "answer": "The building work met with two unexpected delays because of the storm.",
+      "answerZh": "建築工程因暴風雨而遇上兩次意外延誤。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She did not argue; she responded to the unfair question with a calm smile.",
+      "promptZh": "她沒有爭辯,只以平靜的微笑回應那條不公平的問題。",
+      "starter": "She",
+      "answer": "She did not argue; she met the unfair question with a calm smile.",
+      "answerZh": "她沒有爭辯,只以平靜的微笑回應那條不公平的問題。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The hikers had no serious problems until they reached the narrow path.",
+      "promptZh": "遠足者在到達狹窄小徑前沒有遇到任何嚴重問題。",
+      "starter": "The",
+      "answer": "The hikers met with no serious problems until they reached the narrow path.",
+      "answerZh": "遠足者在到達狹窄小徑前沒有遇到任何嚴重問題。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team expected praise, but the audience responded to the performance with cold silence.",
+      "promptZh": "球隊本來期待讚賞,但觀眾以冷淡的沉默回應表演。",
+      "starter": "The",
+      "answer": "The team expected praise, but the audience met the performance with cold silence.",
+      "answerZh": "球隊本來期待讚賞,但觀眾以冷淡的沉默回應表演。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We had all been busy for weeks, so Friday evening was the first time we saw one another.",
+      "promptZh": "我們幾個星期以來都很忙,所以星期五晚是我們首次見面。",
+      "starter": "We",
+      "answer": "We had all been busy for weeks, so Friday evening was the first time we met up.",
+      "answerZh": "我們幾個星期以來都很忙,所以星期五晚是我們首次見面。",
+      "highlight": "met up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the route looked simple, the drivers experienced several unexpected problems.",
+      "promptZh": "雖然路線看來簡單,但司機遇上了幾個意料之外的問題。",
+      "starter": "Although",
+      "answer": "Although the route looked simple, the drivers met with several unexpected problems.",
+      "answerZh": "雖然路線看來簡單,但司機遇上了幾個意料之外的問題。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    },
+    {
+      "id": "phrasal-verb-53-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Theo said he could not join us, but he later came to the café and saw everyone.",
+      "promptZh": "Theo 說他不能加入我們,但後來仍到咖啡店和大家見面。",
+      "starter": "Theo",
+      "answer": "Theo said he could not join us, but he later came to the café and met up with everyone.",
+      "answerZh": "Theo 說他不能加入我們,但後來仍到咖啡店和大家見面。",
+      "highlight": "met up with",
+      "targetForm": "meet up with somebody",
+      "targetMeaningZh": "與某人相約見面"
+    },
+    {
+      "id": "phrasal-verb-53-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The director answered every complaint with patience rather than anger.",
+      "promptZh": "主任以耐性而不是憤怒回應每一宗投訴。",
+      "starter": "The",
+      "answer": "The director met every complaint with patience rather than anger.",
+      "answerZh": "主任以耐性而不是憤怒回應每一宗投訴。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The small team had great success with its second attempt.",
+      "promptZh": "這支小隊第二次嘗試時取得了很大成功。",
+      "starter": "The",
+      "answer": "The small team met with great success in its second attempt.",
+      "answerZh": "這支小隊第二次嘗試時取得了很大成功。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "得到某種結果"
+    },
+    {
+      "id": "phrasal-verb-53-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Shall we see one another near the museum and walk there together?",
+      "promptZh": "我們在博物館附近見面,再一起步行前往,可以嗎?",
+      "starter": "Shall",
+      "answer": "Shall we meet up near the museum and walk there together?",
+      "answerZh": "我們在博物館附近見面,再一起步行前往,可以嗎?",
+      "highlight": "meet up",
+      "targetForm": "meet up",
+      "targetMeaningZh": "相約見面;聚會"
+    },
+    {
+      "id": "phrasal-verb-53-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The players heard the final decision and responded with loud protests.",
+      "promptZh": "球員聽到最終決定後,以大聲抗議回應。",
+      "starter": "The",
+      "answer": "The players met the final decision with loud protests.",
+      "answerZh": "球員以大聲抗議回應最終決定。",
+      "highlight": "met",
+      "targetForm": "meet something with something",
+      "targetMeaningZh": "以某種方式回應某事"
+    },
+    {
+      "id": "phrasal-verb-53-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "On his way to give important evidence, the chief witness had an accident.",
+      "promptZh": "主要證人在前往提供重要證供途中遇上意外。",
+      "starter": "On",
+      "answer": "On his way to give important evidence, the chief witness met with an accident.",
+      "answerZh": "主要證人在前往提供重要證供途中遇上意外。",
+      "highlight": "met with",
+      "targetForm": "meet with something",
+      "targetMeaningZh": "遭遇或經歷某事"
+    }
+  ]
+}

@@ -1,0 +1,1804 @@
+{
+  "id": "phrasal-verb-40",
+  "order": 40,
+  "slug": "leave",
+  "version": "1",
+  "title": "LEAVE 動詞片語",
+  "titleEn": "Leave",
+  "titleZh": "LEAVE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 39 - LEAVE.pdf",
+    "sourceNumber": 39,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LEAVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LEAVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LEAVE",
+      "highlight": "LEAVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Two million dollars? Leave it out!",
+      "zh": "二百萬美元?得了吧!",
+      "highlight": "Leave it out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He shouted at them, but they would not leave off.",
+      "zh": "他向他們大叫,但他們仍不肯停下來。",
+      "highlight": "leave off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It seemed unkind to leave Daisy out, so we invited her too.",
+      "zh": "不邀請黛西似乎很不友善,所以我們也邀請了她。",
+      "highlight": "leave Daisy out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "得了吧;別胡說了;別鬧了,屬英式非正式用語；停止;停止做某事；不讓某人參與;把某人排除在群體、活動或邀請之外；讓某人自行繼續或處理某事,常用於表示不再打擾對方；遠遠拋離某人或某事物;遠勝競爭對手；離開時遺下某人或某物;把某人、某物或某地留在身後；不提及、不包括或不牽涉某人或某事物；暫且不考慮某事;把某事擱置一旁；保留某部分;不把它刪去或移除；繼續穿戴某物;不把它脫下",
+    "en": "leave it out; leave off / leave off something / leave off doing something; leave somebody out / leave somebody out of something; leave somebody to something; leave somebody/something behind; leave somebody/something behind / leave something behind somebody; leave somebody/something out / leave somebody/something out of something; leave something aside; leave something in; leave something on",
+    "naturalZh": [
+      "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+      "停止;停止做某事",
+      "不讓某人參與;把某人排除在群體、活動或邀請之外",
+      "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+      "遠遠拋離某人或某事物;遠勝競爭對手",
+      "離開時遺下某人或某物;把某人、某物或某地留在身後",
+      "不提及、不包括或不牽涉某人或某事物",
+      "暫且不考慮某事;把某事擱置一旁",
+      "保留某部分;不把它刪去或移除",
+      "繼續穿戴某物;不把它脫下"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "leave it out",
+      "titleZh": "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+      "titleEn": "leave it out",
+      "descriptionZh": "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+      "descriptionEn": "Two million dollars? Leave it out!",
+      "examples": [
+        {
+          "en": "Two million dollars? Leave it out!",
+          "zh": "二百萬美元?得了吧!",
+          "highlight": "Leave it out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leave off / leave off something / leave off doing something",
+      "titleZh": "停止;停止做某事",
+      "titleEn": "leave off / leave off something / leave off doing something",
+      "descriptionZh": "停止;停止做某事",
+      "descriptionEn": "He shouted at them, but they would not leave off.",
+      "examples": [
+        {
+          "en": "He shouted at them, but they would not leave off.",
+          "zh": "他向他們大叫,但他們仍不肯停下來。",
+          "highlight": "leave off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leave somebody out / leave somebody out of something",
+      "titleZh": "不讓某人參與;把某人排除在群體、活動或邀請之外",
+      "titleEn": "leave somebody out / leave somebody out of something",
+      "descriptionZh": "不讓某人參與;把某人排除在群體、活動或邀請之外",
+      "descriptionEn": "It seemed unkind to leave Daisy out, so we invited her too.",
+      "examples": [
+        {
+          "en": "It seemed unkind to leave Daisy out, so we invited her too.",
+          "zh": "不邀請黛西似乎很不友善,所以我們也邀請了她。",
+          "highlight": "leave Daisy out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leave somebody to something",
+      "titleZh": "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+      "titleEn": "leave somebody to something",
+      "descriptionZh": "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+      "descriptionEn": "If you do not need me any more, I will leave you to it.",
+      "examples": [
+        {
+          "en": "If you do not need me any more, I will leave you to it.",
+          "zh": "如果你不再需要我,我便讓你自行繼續。",
+          "highlight": "leave you to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leave somebody/something behind",
+      "titleZh": "遠遠拋離某人或某事物;遠勝競爭對手",
+      "titleEn": "leave somebody/something behind",
+      "descriptionZh": "遠遠拋離某人或某事物;遠勝競爭對手",
+      "descriptionEn": "The new car is going to leave the competition far behind.",
+      "examples": [
+        {
+          "en": "The new car is going to leave the competition far behind.",
+          "zh": "這款新車將會遠遠拋離競爭對手。",
+          "highlight": "leave the competition far behind"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "leave somebody/something behind / leave something behind somebody",
+      "titleZh": "離開時遺下某人或某物;把某人、某物或某地留在身後",
+      "titleEn": "leave somebody/something behind / leave something behind somebody",
+      "descriptionZh": "離開時遺下某人或某物;把某人、某物或某地留在身後",
+      "descriptionEn": "Somebody has left their umbrella behind.",
+      "examples": [
+        {
+          "en": "Somebody has left their umbrella behind.",
+          "zh": "有人遺下了雨傘。",
+          "highlight": "left their umbrella behind"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "leave somebody/something out / leave somebody/something out of something",
+      "titleZh": "不提及、不包括或不牽涉某人或某事物",
+      "titleEn": "leave somebody/something out / leave somebody/something out of something",
+      "descriptionZh": "不提及、不包括或不牽涉某人或某事物",
+      "descriptionEn": "Leave my brother out of this.",
+      "examples": [
+        {
+          "en": "Leave my brother out of this.",
+          "zh": "不要把我的哥哥牽涉進這件事。",
+          "highlight": "Leave my brother out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "leave something aside",
+      "titleZh": "暫且不考慮某事;把某事擱置一旁",
+      "titleEn": "leave something aside",
+      "descriptionZh": "暫且不考慮某事;把某事擱置一旁",
+      "descriptionEn": "Leaving aside the parking problem, the housing development is well planned.",
+      "examples": [
+        {
+          "en": "Leaving aside the parking problem, the housing development is well planned.",
+          "zh": "撇開泊車問題不談,這個住宅發展項目規劃得很好。",
+          "highlight": "Leaving"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "leave something in",
+      "titleZh": "保留某部分;不把它刪去或移除",
+      "titleEn": "leave something in",
+      "descriptionZh": "保留某部分;不把它刪去或移除",
+      "descriptionEn": "Make sure you leave that paragraph in.",
+      "examples": [
+        {
+          "en": "Make sure you leave that paragraph in.",
+          "zh": "務必把那一段保留下來。",
+          "highlight": "leave that paragraph in"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "leave something on",
+      "titleZh": "繼續穿戴某物;不把它脫下",
+      "titleEn": "leave something on",
+      "descriptionZh": "繼續穿戴某物;不把它脫下",
+      "descriptionEn": "Leave your shoes on.",
+      "examples": [
+        {
+          "en": "Leave your shoes on.",
+          "zh": "不要脫下鞋子。",
+          "highlight": "Leave your shoes on"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LEAVE 片語動詞的實際用途",
+    "labelEn": "LEAVE Phrasal Verbs in Use",
+    "summaryZh": "leave off 可以表示某項活動停止;leave somebody to something 則可以表示讓某人自行繼續。；你可以不讓某人參與活動、把某個名字從名單中刪去,或不把某人牽涉進爭論。；leave something behind 可以表示遺下物品;leave the competition behind 則可以表示遠遠勝過競爭對手。；leave something in 表示不要刪去文字、圖片或影片的某部分;leave something on 則表示繼續穿戴某物。",
+    "summaryEn": "Leave off can show that an activity stops. Leave somebody to something can show that a person is allowed to continue alone. You can leave a person out of an activity, leave a name out of a list or leave somebody out of an argument. Leave something behind can describe forgetting an object. Leave the competition behind can show that someone or something becomes much better than its rivals. Leave something in means not removing part of a text, picture or video. Leave something on means continuing to wear it.",
+    "contextsZh": [
+      "使用 LEAVE 談論停止和繼續",
+      "描述不同形式的「不包括」",
+      "談論遺下物品或遠遠領先",
+      "清楚指示應該保留甚麼"
+    ],
+    "contextsEn": [
+      "Use LEAVE to talk about stopping and continuing",
+      "Describe different ways of not including something",
+      "Talk about being forgotten or moving far ahead",
+      "Give clear instructions about what should stay"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LEAVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LEAVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "leave it out",
+    "fixedHighlight": "leave it out",
+    "fixedZh": "閱讀整句,選出意思相同的 LEAVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LEAVE expression that gives the same meaning.",
+    "correct": "Leave it out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；leave somebody out 通常表示不讓某人參與;leave somebody or something out 也可以表示不提及或不牽涉某人或某事物。請仔細閱讀整個情境。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Leave somebody out usually means not including that person. Leave somebody or something out can also mean not mentioning or involving them. Read the whole situation carefully. When using him, her, it or them, place the word as shown: leave him out leave her to it leave it in leave them behind leave it on",
+    "variableItemsZh": [
+      "leave it out",
+      "leave off / leave off something / leave off doing something",
+      "leave somebody out / leave somebody out of something",
+      "leave somebody to something",
+      "leave somebody/something behind",
+      "leave somebody/something behind / leave something behind somebody",
+      "leave somebody/something out / leave somebody/something out of something",
+      "leave something aside",
+      "leave something in",
+      "leave something on"
+    ],
+    "variableItemsEn": [
+      "leave it out",
+      "leave off / leave off something / leave off doing something",
+      "leave somebody out / leave somebody out of something",
+      "leave somebody to something",
+      "leave somebody/something behind",
+      "leave somebody/something behind / leave something behind somebody",
+      "leave somebody/something out / leave somebody/something out of something",
+      "leave something aside",
+      "leave something in",
+      "leave something on"
+    ],
+    "forms": [
+      {
+        "formZh": "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+        "formEn": "leave it out",
+        "exampleZh": "二百萬美元?得了吧!",
+        "exampleEn": "Two million dollars? Leave it out!",
+        "highlight": "Leave it out"
+      },
+      {
+        "formZh": "停止;停止做某事",
+        "formEn": "leave off / leave off something / leave off doing something",
+        "exampleZh": "他向他們大叫,但他們仍不肯停下來。",
+        "exampleEn": "He shouted at them, but they would not leave off.",
+        "highlight": "leave off"
+      },
+      {
+        "formZh": "不讓某人參與;把某人排除在群體、活動或邀請之外",
+        "formEn": "leave somebody out / leave somebody out of something",
+        "exampleZh": "不邀請黛西似乎很不友善,所以我們也邀請了她。",
+        "exampleEn": "It seemed unkind to leave Daisy out, so we invited her too.",
+        "highlight": "leave Daisy out"
+      },
+      {
+        "formZh": "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+        "formEn": "leave somebody to something",
+        "exampleZh": "如果你不再需要我,我便讓你自行繼續。",
+        "exampleEn": "If you do not need me any more, I will leave you to it.",
+        "highlight": "leave you to"
+      },
+      {
+        "formZh": "遠遠拋離某人或某事物;遠勝競爭對手",
+        "formEn": "leave somebody/something behind",
+        "exampleZh": "這款新車將會遠遠拋離競爭對手。",
+        "exampleEn": "The new car is going to leave the competition far behind.",
+        "highlight": "leave the competition far behind"
+      },
+      {
+        "formZh": "離開時遺下某人或某物;把某人、某物或某地留在身後",
+        "formEn": "leave somebody/something behind / leave something behind somebody",
+        "exampleZh": "有人遺下了雨傘。",
+        "exampleEn": "Somebody has left their umbrella behind.",
+        "highlight": "left their umbrella behind"
+      },
+      {
+        "formZh": "不提及、不包括或不牽涉某人或某事物",
+        "formEn": "leave somebody/something out / leave somebody/something out of something",
+        "exampleZh": "不要把我的哥哥牽涉進這件事。",
+        "exampleEn": "Leave my brother out of this.",
+        "highlight": "Leave my brother out"
+      },
+      {
+        "formZh": "暫且不考慮某事;把某事擱置一旁",
+        "formEn": "leave something aside",
+        "exampleZh": "撇開泊車問題不談,這個住宅發展項目規劃得很好。",
+        "exampleEn": "Leaving aside the parking problem, the housing development is well planned.",
+        "highlight": "Leaving"
+      },
+      {
+        "formZh": "保留某部分;不把它刪去或移除",
+        "formEn": "leave something in",
+        "exampleZh": "務必把那一段保留下來。",
+        "exampleEn": "Make sure you leave that paragraph in.",
+        "highlight": "leave that paragraph in"
+      },
+      {
+        "formZh": "繼續穿戴某物;不把它脫下",
+        "formEn": "leave something on",
+        "exampleZh": "不要脫下鞋子。",
+        "exampleEn": "Leave your shoes on.",
+        "highlight": "Leave your shoes on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+      "titleEn": "leave it out",
+      "formula": "leave it out",
+      "highlight": "leave it out",
+      "descriptionZh": "得了吧;別胡說了;別鬧了,屬英式非正式用語",
+      "descriptionEn": "Two million dollars? Leave it out!",
+      "examples": [
+        {
+          "en": "Two million dollars? Leave it out!",
+          "zh": "二百萬美元?得了吧!",
+          "highlight": "Leave it out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "停止;停止做某事",
+      "titleEn": "leave off / leave off something / leave off doing something",
+      "formula": "leave off / leave off something / leave off doing something",
+      "highlight": "leave off / leave off something / leave off doing something",
+      "descriptionZh": "停止;停止做某事",
+      "descriptionEn": "He shouted at them, but they would not leave off.",
+      "examples": [
+        {
+          "en": "He shouted at them, but they would not leave off.",
+          "zh": "他向他們大叫,但他們仍不肯停下來。",
+          "highlight": "leave off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "不讓某人參與;把某人排除在群體、活動或邀請之外",
+      "titleEn": "leave somebody out / leave somebody out of something",
+      "formula": "leave somebody out / leave somebody out of something",
+      "highlight": "leave somebody out / leave somebody out of something",
+      "descriptionZh": "不讓某人參與;把某人排除在群體、活動或邀請之外",
+      "descriptionEn": "It seemed unkind to leave Daisy out, so we invited her too.",
+      "examples": [
+        {
+          "en": "It seemed unkind to leave Daisy out, so we invited her too.",
+          "zh": "不邀請黛西似乎很不友善,所以我們也邀請了她。",
+          "highlight": "leave Daisy out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+      "titleEn": "leave somebody to something",
+      "formula": "leave somebody to something",
+      "highlight": "leave somebody to something",
+      "descriptionZh": "讓某人自行繼續或處理某事,常用於表示不再打擾對方",
+      "descriptionEn": "If you do not need me any more, I will leave you to it.",
+      "examples": [
+        {
+          "en": "If you do not need me any more, I will leave you to it.",
+          "zh": "如果你不再需要我,我便讓你自行繼續。",
+          "highlight": "leave you to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "遠遠拋離某人或某事物;遠勝競爭對手",
+      "titleEn": "leave somebody/something behind",
+      "formula": "leave somebody/something behind",
+      "highlight": "leave somebody/something behind",
+      "descriptionZh": "遠遠拋離某人或某事物;遠勝競爭對手",
+      "descriptionEn": "The new car is going to leave the competition far behind.",
+      "examples": [
+        {
+          "en": "The new car is going to leave the competition far behind.",
+          "zh": "這款新車將會遠遠拋離競爭對手。",
+          "highlight": "leave the competition far behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "離開時遺下某人或某物;把某人、某物或某地留在身後",
+      "titleEn": "leave somebody/something behind / leave something behind somebody",
+      "formula": "leave somebody/something behind / leave something behind somebody",
+      "highlight": "leave somebody/something behind / leave something behind somebody",
+      "descriptionZh": "離開時遺下某人或某物;把某人、某物或某地留在身後",
+      "descriptionEn": "Somebody has left their umbrella behind.",
+      "examples": [
+        {
+          "en": "Somebody has left their umbrella behind.",
+          "zh": "有人遺下了雨傘。",
+          "highlight": "left their umbrella behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "不提及、不包括或不牽涉某人或某事物",
+      "titleEn": "leave somebody/something out / leave somebody/something out of something",
+      "formula": "leave somebody/something out / leave somebody/something out of something",
+      "highlight": "leave somebody/something out / leave somebody/something out of something",
+      "descriptionZh": "不提及、不包括或不牽涉某人或某事物",
+      "descriptionEn": "Leave my brother out of this.",
+      "examples": [
+        {
+          "en": "Leave my brother out of this.",
+          "zh": "不要把我的哥哥牽涉進這件事。",
+          "highlight": "Leave my brother out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "暫且不考慮某事;把某事擱置一旁",
+      "titleEn": "leave something aside",
+      "formula": "leave something aside",
+      "highlight": "leave something aside",
+      "descriptionZh": "暫且不考慮某事;把某事擱置一旁",
+      "descriptionEn": "Leaving aside the parking problem, the housing development is well planned.",
+      "examples": [
+        {
+          "en": "Leaving aside the parking problem, the housing development is well planned.",
+          "zh": "撇開泊車問題不談,這個住宅發展項目規劃得很好。",
+          "highlight": "Leaving"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "保留某部分;不把它刪去或移除",
+      "titleEn": "leave something in",
+      "formula": "leave something in",
+      "highlight": "leave something in",
+      "descriptionZh": "保留某部分;不把它刪去或移除",
+      "descriptionEn": "Make sure you leave that paragraph in.",
+      "examples": [
+        {
+          "en": "Make sure you leave that paragraph in.",
+          "zh": "務必把那一段保留下來。",
+          "highlight": "leave that paragraph in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "繼續穿戴某物;不把它脫下",
+      "titleEn": "leave something on",
+      "formula": "leave something on",
+      "highlight": "leave something on",
+      "descriptionZh": "繼續穿戴某物;不把它脫下",
+      "descriptionEn": "Leave your shoes on.",
+      "examples": [
+        {
+          "en": "Leave your shoes on.",
+          "zh": "不要脫下鞋子。",
+          "highlight": "Leave your shoes on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 LEAVE 談論停止和繼續",
+      "titleEn": "Use LEAVE to talk about stopping and continuing",
+      "zh": "leave off 可以表示某項活動停止;leave somebody to something 則可以表示讓某人自行繼續。",
+      "en": "Leave off can show that an activity stops. Leave somebody to something can show that a person is allowed to continue alone."
+    },
+    {
+      "titleZh": "描述不同形式的「不包括」",
+      "titleEn": "Describe different ways of not including something",
+      "zh": "你可以不讓某人參與活動、把某個名字從名單中刪去,或不把某人牽涉進爭論。",
+      "en": "You can leave a person out of an activity, leave a name out of a list or leave somebody out of an argument."
+    },
+    {
+      "titleZh": "談論遺下物品或遠遠領先",
+      "titleEn": "Talk about being forgotten or moving far ahead",
+      "zh": "leave something behind 可以表示遺下物品;leave the competition behind 則可以表示遠遠勝過競爭對手。",
+      "en": "Leave something behind can describe forgetting an object. Leave the competition behind can show that someone or something becomes much better than its rivals."
+    },
+    {
+      "titleZh": "清楚指示應該保留甚麼",
+      "titleEn": "Give clear instructions about what should stay",
+      "zh": "leave something in 表示不要刪去文字、圖片或影片的某部分;leave something on 則表示繼續穿戴某物。",
+      "en": "Leave something in means not removing part of a text, picture or video. Leave something on means continuing to wear it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 LEAVE 談論停止和繼續",
+      "描述不同形式的「不包括」",
+      "談論遺下物品或遠遠領先",
+      "清楚指示應該保留甚麼"
+    ],
+    "contextsEn": [
+      "Use LEAVE to talk about stopping and continuing",
+      "Describe different ways of not including something",
+      "Talk about being forgotten or moving far ahead",
+      "Give clear instructions about what should stay"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 LEAVE 談論停止和繼續",
+        "titleEn": "Use LEAVE to talk about stopping and continuing",
+        "zh": "leave off 可以表示某項活動停止;leave somebody to something 則可以表示讓某人自行繼續。",
+        "en": "Leave off can show that an activity stops. Leave somebody to something can show that a person is allowed to continue alone.",
+        "examples": [
+          {
+            "en": "Two million dollars? Leave it out!",
+            "zh": "二百萬美元?得了吧!",
+            "highlight": "Leave it out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同形式的「不包括」",
+        "titleEn": "Describe different ways of not including something",
+        "zh": "你可以不讓某人參與活動、把某個名字從名單中刪去,或不把某人牽涉進爭論。",
+        "en": "You can leave a person out of an activity, leave a name out of a list or leave somebody out of an argument.",
+        "examples": [
+          {
+            "en": "He shouted at them, but they would not leave off.",
+            "zh": "他向他們大叫,但他們仍不肯停下來。",
+            "highlight": "leave off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論遺下物品或遠遠領先",
+        "titleEn": "Talk about being forgotten or moving far ahead",
+        "zh": "leave something behind 可以表示遺下物品;leave the competition behind 則可以表示遠遠勝過競爭對手。",
+        "en": "Leave something behind can describe forgetting an object. Leave the competition behind can show that someone or something becomes much better than its rivals.",
+        "examples": [
+          {
+            "en": "It seemed unkind to leave Daisy out, so we invited her too.",
+            "zh": "不邀請黛西似乎很不友善,所以我們也邀請了她。",
+            "highlight": "leave Daisy out"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚指示應該保留甚麼",
+        "titleEn": "Give clear instructions about what should stay",
+        "zh": "leave something in 表示不要刪去文字、圖片或影片的某部分;leave something on 則表示繼續穿戴某物。",
+        "en": "Leave something in means not removing part of a text, picture or video. Leave something on means continuing to wear it.",
+        "examples": [
+          {
+            "en": "If you do not need me any more, I will leave you to it.",
+            "zh": "如果你不再需要我,我便讓你自行繼續。",
+            "highlight": "leave you to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LEAVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LEAVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LEAVE 片語動詞。",
+      "en": "Read the whole sentence and choose the LEAVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "leave somebody out 通常表示不讓某人參與;leave somebody or something out 也可以表示不提及或不牽涉某人或某事物。請仔細閱讀整個情境。",
+      "titleEn": "Leave somebody out usually means not including that person.",
+      "zh": "leave somebody out 通常表示不讓某人參與;leave somebody or something out 也可以表示不提及或不牽涉某人或某事物。請仔細閱讀整個情境。",
+      "en": "Leave somebody out usually means not including that person. Leave somebody or something out can also mean not mentioning or involving them. Read the whole situation carefully."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: leave him out leave her to it leave it in leave them behind leave it on.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: leave him out leave her to it leave it in leave them behind leave it on"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LEAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LEAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LEAVE 動詞片語句子改寫練習",
+    "titleEn": "LEAVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LEAVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LEAVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-40-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The faster runner soon moved far ahead of the others.",
+      "promptZh": "那名較快的跑手很快便遠遠拋離其他人。",
+      "starter": "The",
+      "answer": "The faster runner soon left the others far behind.",
+      "answerZh": "那名較快的跑手很快便把其他人遠遠拋在後面。",
+      "highlight": "left",
+      "targetForm": "leave somebody behind",
+      "targetMeaningZh": "遠遠拋離某人"
+    },
+    {
+      "id": "phrasal-verb-40-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Do not remove the final sentence from the email.",
+      "promptZh": "不要刪去電郵的最後一句。",
+      "starter": "Leave",
+      "answer": "Leave the final sentence in the email.",
+      "answerZh": "把最後一句保留在電郵內。",
+      "highlight": "Leave",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A house for one dollar? I do not believe you!",
+      "promptZh": "一美元買一間屋?我才不相信你!",
+      "starter": "A",
+      "answer": "A house for one dollar? Leave it out!",
+      "answerZh": "一美元買一間屋?得了吧!",
+      "highlight": "Leave it out",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We did not include Maya in the game.",
+      "promptZh": "我們沒有讓瑪雅參加遊戲。",
+      "starter": "We",
+      "answer": "We left Maya out of the game.",
+      "answerZh": "我們沒有讓瑪雅參加遊戲。",
+      "highlight": "left",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "If we do not consider the cost, the plan is good.",
+      "promptZh": "如果不考慮費用,這個計劃很好。",
+      "starter": "Leaving",
+      "answer": "Leaving the cost aside, the plan is good.",
+      "answerZh": "撇開費用不談,這個計劃很好。",
+      "highlight": "Leaving",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The children finally stopped shouting.",
+      "promptZh": "孩子們終於停止叫喊。",
+      "starter": "The",
+      "answer": "The children finally left off shouting.",
+      "answerZh": "孩子們終於停止叫喊。",
+      "highlight": "left off",
+      "targetForm": "leave off doing something",
+      "targetMeaningZh": "停止做某事"
+    },
+    {
+      "id": "phrasal-verb-40-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I forgot my umbrella at the café.",
+      "promptZh": "我把雨傘遺留在咖啡店。",
+      "starter": "I",
+      "answer": "I left my umbrella behind at the café.",
+      "answerZh": "我把雨傘遺留在咖啡店。",
+      "highlight": "left",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "離開時遺下某物"
+    },
+    {
+      "id": "phrasal-verb-40-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "You no longer need my help, so I will let you finish it alone.",
+      "promptZh": "你已經不再需要我的幫助,所以我會讓你自行完成。",
+      "starter": "You",
+      "answer": "You no longer need my help, so I’ll leave you to it.",
+      "answerZh": "你已經不再需要我的幫助,所以我會讓你自行完成。",
+      "highlight": "I’ll leave",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Do not take off your coat.",
+      "promptZh": "不要脫下外套。",
+      "starter": "Leave",
+      "answer": "Leave your coat on.",
+      "answerZh": "不要脫下外套。",
+      "highlight": "Leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Do not involve my sister in this argument.",
+      "promptZh": "不要把我的妹妹牽涉進這場爭論。",
+      "starter": "Leave",
+      "answer": "Leave my sister out of this argument.",
+      "answerZh": "不要把我的妹妹牽涉進這場爭論。",
+      "highlight": "Leave",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不牽涉某人"
+    },
+    {
+      "id": "phrasal-verb-40-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "You won the race without training? I do not believe that!",
+      "promptZh": "你沒有訓練也贏了比賽?我才不相信!",
+      "starter": "You",
+      "answer": "You won the race without training? Leave it out!",
+      "answerZh": "你沒有訓練也贏了比賽?得了吧!",
+      "highlight": "Leave it out",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Let us stop work for ten minutes.",
+      "promptZh": "讓我們暫停工作十分鐘。",
+      "starter": "Let",
+      "answer": "Let us leave off work for ten minutes.",
+      "answerZh": "讓我們暫停工作十分鐘。",
+      "highlight": "leave off",
+      "targetForm": "leave off something",
+      "targetMeaningZh": "暫停某事"
+    },
+    {
+      "id": "phrasal-verb-40-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Do not exclude Leo from the team photo.",
+      "promptZh": "不要把里奧排除在團隊合照之外。",
+      "starter": "Do",
+      "answer": "Do not leave Leo out of the team photo.",
+      "answerZh": "不要把里奧排除在團隊合照之外。",
+      "highlight": "leave",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The waiter walked away so we could continue our meal in peace.",
+      "promptZh": "侍應走開,讓我們可以安靜地繼續用餐。",
+      "starter": "The",
+      "answer": "The waiter left us to our meal.",
+      "answerZh": "侍應讓我們自行繼續用餐。",
+      "highlight": "left us to",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "You should not remove your hat yet.",
+      "promptZh": "你暫時不應脫下帽子。",
+      "starter": "You",
+      "answer": "You should leave your hat on for now.",
+      "answerZh": "你暫時應繼續戴着帽子。",
+      "highlight": "leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "This new app has moved far ahead of its older rivals.",
+      "promptZh": "這款新應用程式已遠遠領先較舊的競爭對手。",
+      "starter": "This",
+      "answer": "This new app has left its older rivals far behind.",
+      "answerZh": "這款新應用程式已把較舊的競爭對手遠遠拋在後面。",
+      "highlight": "left",
+      "targetForm": "leave somebody/something behind",
+      "targetMeaningZh": "遠遠拋離"
+    },
+    {
+      "id": "phrasal-verb-40-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Why did you omit my name from the list?",
+      "promptZh": "你為甚麼把我的名字從名單中刪去?",
+      "starter": "Why",
+      "answer": "Why did you leave my name out of the list?",
+      "answerZh": "你為甚麼沒有把我的名字列入名單?",
+      "highlight": "leave",
+      "targetForm": "leave something out of something",
+      "targetMeaningZh": "不包括某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "You expect me to carry all these boxes? You cannot be serious!",
+      "promptZh": "你要我搬走所有這些箱子?你不會是認真的吧!",
+      "starter": "You",
+      "answer": "You expect me to carry all these boxes? Leave it out!",
+      "answerZh": "你要我搬走所有這些箱子?得了吧!",
+      "highlight": "Leave it out",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I will let you continue your work alone now.",
+      "promptZh": "我現在會讓你自行繼續工作。",
+      "starter": "I’ll",
+      "answer": "I’ll leave you to your work now.",
+      "answerZh": "我現在會讓你自行繼續工作。",
+      "highlight": "I’ll leave",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The coach is not including Ben in today’s practice.",
+      "promptZh": "教練沒有讓賓參加今天的練習。",
+      "starter": "The",
+      "answer": "The coach is leaving Ben out of today’s practice.",
+      "answerZh": "教練沒有讓賓參加今天的練習。",
+      "highlight": "leaving",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "For now, we are not considering the weather problem.",
+      "promptZh": "目前我們暫不考慮天氣問題。",
+      "starter": "For",
+      "answer": "For now, we are leaving the weather problem aside.",
+      "answerZh": "目前我們把天氣問題暫且擱置。",
+      "highlight": "leaving",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Did you keep the funny mistake in the final video?",
+      "promptZh": "你有把那個有趣的錯誤保留在最後的影片中嗎?",
+      "starter": "Did",
+      "answer": "Did you leave the funny mistake in the final video?",
+      "answerZh": "你有把那個有趣的錯誤保留在最後的影片中嗎?",
+      "highlight": "leave",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Someone has forgotten a blue bag on the bus.",
+      "promptZh": "有人把一個藍色袋遺留在巴士上。",
+      "starter": "Someone",
+      "answer": "Someone has left a blue bag behind on the bus.",
+      "answerZh": "有人把一個藍色袋遺留在巴士上。",
+      "highlight": "left",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "離開時遺下某物"
+    },
+    {
+      "id": "phrasal-verb-40-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Why won’t that dog stop barking?",
+      "promptZh": "那隻狗為甚麼不停吠叫?",
+      "starter": "Why",
+      "answer": "Why won’t that dog leave off barking?",
+      "answerZh": "那隻狗為甚麼不停吠叫?",
+      "highlight": "leave off",
+      "targetForm": "leave off doing something",
+      "targetMeaningZh": "停止做某事"
+    },
+    {
+      "id": "phrasal-verb-40-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The new train service may soon move far ahead of the old one.",
+      "promptZh": "新的列車服務可能很快便遠遠勝過舊有服務。",
+      "starter": "The",
+      "answer": "The new train service may soon leave the old one far behind.",
+      "answerZh": "新的列車服務可能很快便把舊有服務遠遠拋在後面。",
+      "highlight": "leave",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "遠遠勝過某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Have we forgotten anyone at the picnic area?",
+      "promptZh": "我們是否把任何人遺留在野餐區?",
+      "starter": "Have",
+      "answer": "Have we left anyone behind at the picnic area?",
+      "answerZh": "我們是否把任何人遺留在野餐區?",
+      "highlight": "left",
+      "targetForm": "leave somebody behind",
+      "targetMeaningZh": "離開時遺下某人"
+    },
+    {
+      "id": "phrasal-verb-40-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Please do not omit the address from the form.",
+      "promptZh": "請不要漏填表格上的地址。",
+      "starter": "Please",
+      "answer": "Please do not leave the address out of the form.",
+      "answerZh": "請不要漏填表格上的地址。",
+      "highlight": "leave",
+      "targetForm": "leave something out of something",
+      "targetMeaningZh": "不包括某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Can we ignore the question of colour for now?",
+      "promptZh": "我們可以暫時不考慮顏色問題嗎?",
+      "starter": "Can",
+      "answer": "Can we leave the question of colour aside for now?",
+      "answerZh": "我們可以暫時把顏色問題擱置嗎?",
+      "highlight": "leave",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The children were arguing. Their father told them to stop.",
+      "promptZh": "孩子們正在爭吵,父親叫他們停下來。",
+      "starter": "The",
+      "answer": "The children were arguing. Their father told them to leave off.",
+      "answerZh": "孩子們正在爭吵,父親叫他們停下來。",
+      "highlight": "leave off",
+      "targetForm": "leave off",
+      "targetMeaningZh": "停止"
+    },
+    {
+      "id": "phrasal-verb-40-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The last photo is useful, so keep it in the report.",
+      "promptZh": "最後一張照片很有用,所以把它保留在報告內。",
+      "starter": "The",
+      "answer": "The last photo is useful, so leave it in the report.",
+      "answerZh": "最後一張照片很有用,所以把它保留在報告內。",
+      "highlight": "leave",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I have shown you how to use the machine. Now you can continue alone.",
+      "promptZh": "我已經示範如何使用機器,現在你可以自行繼續。",
+      "starter": "I",
+      "answer": "I have shown you how to use the machine. Now I’ll leave you to it.",
+      "answerZh": "我已經示範如何使用機器,現在我會讓你自行繼續。",
+      "highlight": "I’ll leave",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The bus drove away without Tom because he was still inside the shop.",
+      "promptZh": "巴士開走了,但湯姆仍在店內,因此沒有上車。",
+      "starter": "The",
+      "answer": "The bus left Tom behind because he was still inside the shop.",
+      "answerZh": "巴士開走時把湯姆留下,因為他仍在店內。",
+      "highlight": "left",
+      "targetForm": "leave somebody behind",
+      "targetMeaningZh": "離開時遺下某人"
+    },
+    {
+      "id": "phrasal-verb-40-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Our team was far better than the others by the end of the season.",
+      "promptZh": "到了球季結束時,我們的球隊已遠勝其他球隊。",
+      "starter": "Our",
+      "answer": "Our team had left the others far behind by the end of the season.",
+      "answerZh": "到了球季結束時,我們的球隊已把其他球隊遠遠拋在後面。",
+      "highlight": "had left",
+      "targetForm": "leave somebody behind",
+      "targetMeaningZh": "遠遠拋離某人"
+    },
+    {
+      "id": "phrasal-verb-40-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The group added everyone to the chat except her.",
+      "promptZh": "小組把所有人加入聊天群組,唯獨沒有她。",
+      "starter": "The",
+      "answer": "The group left her out of the chat.",
+      "answerZh": "小組沒有把她加入聊天群組。",
+      "highlight": "left her out of",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "You say you met three famous actors today? I do not believe you!",
+      "promptZh": "你說今天遇見了三名著名演員?我才不相信你!",
+      "starter": "You",
+      "answer": "You say you met three famous actors today? Leave it out!",
+      "answerZh": "你說今天遇見了三名著名演員?得了吧!",
+      "highlight": "Leave it out",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The room is cold, so keep your jumper on.",
+      "promptZh": "房間很冷,所以繼續穿着毛衣。",
+      "starter": "The",
+      "answer": "The room is cold, so leave your jumper on.",
+      "answerZh": "房間很冷,所以不要脫下毛衣。",
+      "highlight": "leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "This is an argument between you and me. Do not involve Alex.",
+      "promptZh": "這是你和我之間的爭論,不要把亞歷克斯牽涉進來。",
+      "starter": "This",
+      "answer": "This is an argument between you and me. Leave Alex out of it.",
+      "answerZh": "這是你和我之間的爭論,不要把亞歷克斯牽涉進來。",
+      "highlight": "Leave",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不牽涉某人"
+    },
+    {
+      "id": "phrasal-verb-40-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If we do not consider the small kitchen, the flat is perfect.",
+      "promptZh": "如果不考慮廚房較小,這個單位便很完美。",
+      "starter": "Leaving",
+      "answer": "Leaving the small kitchen aside, the flat is perfect.",
+      "answerZh": "撇開廚房較小這點不談,這個單位很完美。",
+      "highlight": "Leaving",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The editor wanted to remove the joke, but I asked her to keep it.",
+      "promptZh": "編輯想刪去那個笑話,但我叫她把它保留下來。",
+      "starter": "The",
+      "answer": "The editor wanted to remove the joke, but I asked her to leave it in.",
+      "answerZh": "編輯想刪去那個笑話,但我叫她把它保留下來。",
+      "highlight": "leave",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The sign says visitors must keep their shoes on.",
+      "promptZh": "告示寫明訪客必須繼續穿着鞋子。",
+      "starter": "The",
+      "answer": "The sign says visitors must leave their shoes on.",
+      "answerZh": "告示寫明訪客不得脫下鞋子。",
+      "highlight": "leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "You think I can finish this in two minutes? Stop joking!",
+      "promptZh": "你以為我可以在兩分鐘內完成?別開玩笑了!",
+      "starter": "You",
+      "answer": "You think I can finish this in two minutes? Leave it out!",
+      "answerZh": "你以為我可以在兩分鐘內完成?得了吧!",
+      "highlight": "Leave it out",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別開玩笑了"
+    },
+    {
+      "id": "phrasal-verb-40-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "He kept tapping the desk, so I asked him to stop.",
+      "promptZh": "他不停敲桌子,所以我叫他停下來。",
+      "starter": "He",
+      "answer": "He kept tapping the desk, so I asked him to leave off.",
+      "answerZh": "他不停敲桌子,所以我叫他停下來。",
+      "highlight": "leave off",
+      "targetForm": "leave off",
+      "targetMeaningZh": "停止"
+    },
+    {
+      "id": "phrasal-verb-40-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "We will discuss the budget later. For now, do not consider it.",
+      "promptZh": "我們稍後會討論預算,目前先不要考慮它。",
+      "starter": "We",
+      "answer": "We will discuss the budget later. For now, leave it aside.",
+      "answerZh": "我們稍後會討論預算,目前先把它擱置。",
+      "highlight": "leave",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "It would be unfair not to include Aisha in the class project.",
+      "promptZh": "不讓艾莎參加班級專題會很不公平。",
+      "starter": "It",
+      "answer": "It would be unfair to leave Aisha out of the class project.",
+      "answerZh": "把艾莎排除在班級專題之外會很不公平。",
+      "highlight": "leave",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Tell me what happened, but do not include my brother in the story.",
+      "promptZh": "告訴我發生了甚麼事,但不要在故事中提及我的哥哥。",
+      "starter": "Tell",
+      "answer": "Tell me what happened, but leave my brother out of the story.",
+      "answerZh": "告訴我發生了甚麼事,但不要在故事中提及我的哥哥。",
+      "highlight": "leave",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不提及某人"
+    },
+    {
+      "id": "phrasal-verb-40-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Our new model is much more popular than every other model.",
+      "promptZh": "我們的新型號遠比其他型號受歡迎。",
+      "starter": "Our",
+      "answer": "Our new model has left every other model far behind.",
+      "answerZh": "我們的新型號已把其他型號遠遠拋在後面。",
+      "highlight": "has left",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "遠遠勝過某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The rain did not stop until lunchtime.",
+      "promptZh": "雨一直下到午飯時間才停止。",
+      "starter": "The",
+      "answer": "The rain did not leave off until lunchtime.",
+      "answerZh": "雨一直下到午飯時間才停止。",
+      "highlight": "leave off",
+      "targetForm": "leave off",
+      "targetMeaningZh": "停止"
+    },
+    {
+      "id": "phrasal-verb-40-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "You paid five hundred pounds for that pen? I cannot believe it!",
+      "promptZh": "你花了五百英鎊買那支筆?我簡直不敢相信!",
+      "starter": "You",
+      "answer": "You paid five hundred pounds for that pen? Leave it out!",
+      "answerZh": "你花了五百英鎊買那支筆?得了吧!",
+      "highlight": "Leave",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The mistake is part of the joke, so do not remove it from the video.",
+      "promptZh": "那個錯誤是笑話的一部分,所以不要把它從影片中刪去。",
+      "starter": "The",
+      "answer": "The mistake is part of the joke, so leave it in the video.",
+      "answerZh": "那個錯誤是笑話的一部分,所以把它保留在影片中。",
+      "highlight": "leave",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The teacher let the children continue building the model without help.",
+      "promptZh": "老師讓孩子們在沒有協助下自行繼續製作模型。",
+      "starter": "The",
+      "answer": "The teacher left the children to it.",
+      "answerZh": "老師讓孩子們自行繼續製作模型。",
+      "highlight": "left",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Check the table before we go; I do not want anyone to forget a phone.",
+      "promptZh": "離開前檢查桌面;我不想有人遺下手機。",
+      "starter": "Check",
+      "answer": "Check the table before we go; I do not want anyone to leave a phone behind.",
+      "answerZh": "離開前檢查桌面;我不想有人遺下手機。",
+      "highlight": "leave",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "離開時遺下某物"
+    },
+    {
+      "id": "phrasal-verb-40-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Even indoors, he kept his sunglasses on.",
+      "promptZh": "即使在室內,他也一直戴着太陽眼鏡。",
+      "starter": "Even",
+      "answer": "Even indoors, he left his sunglasses on.",
+      "answerZh": "即使在室內,他也沒有脫下太陽眼鏡。",
+      "highlight": "left",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The class chose every student except Noor for the school play.",
+      "promptZh": "全班選了每名學生參演校內話劇,唯獨沒有努爾。",
+      "starter": "The",
+      "answer": "The class left Noor out of the school play.",
+      "answerZh": "全班沒有讓努爾參演校內話劇。",
+      "highlight": "left",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不讓某人參與"
+    },
+    {
+      "id": "phrasal-verb-40-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The librarian showed us the books and then let us continue reading alone.",
+      "promptZh": "圖書館職員向我們介紹書本,然後讓我們自行繼續閱讀。",
+      "starter": "The",
+      "answer": "The librarian showed us the books and then left us to our reading.",
+      "answerZh": "圖書館職員向我們介紹書本,然後讓我們自行繼續閱讀。",
+      "highlight": "left",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行繼續"
+    },
+    {
+      "id": "phrasal-verb-40-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "By the final lap, Mei was much faster than every other runner.",
+      "promptZh": "到了最後一圈,梅遠比其他跑手快。",
+      "starter": "By",
+      "answer": "By the final lap, Mei had left every other runner far behind.",
+      "answerZh": "到了最後一圈,梅已把其他跑手遠遠拋在後面。",
+      "highlight": "lap, Mei had left",
+      "targetForm": "leave somebody behind",
+      "targetMeaningZh": "遠遠拋離某人"
+    },
+    {
+      "id": "phrasal-verb-40-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As Tom drove away, the village became farther and farther away.",
+      "promptZh": "湯姆駕車離開時,村莊變得愈來愈遠。",
+      "starter": "As",
+      "answer": "As Tom drove away, she left the village behind her.",
+      "answerZh": "湯姆駕車離開時,把村莊留在身後。",
+      "highlight": "she left",
+      "targetForm": "leave something behind somebody",
+      "targetMeaningZh": "把某物或某地留在身後"
+    },
+    {
+      "id": "phrasal-verb-40-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "You say a child built this whole website alone? I do not believe it!",
+      "promptZh": "你說一個孩子獨自製作了整個網站?我才不相信!",
+      "starter": "You",
+      "answer": "You say a child built this whole website alone? Leave it out!",
+      "answerZh": "你說一個孩子獨自製作了整個網站?得了吧!",
+      "highlight": "Leave",
+      "targetForm": "leave it out",
+      "targetMeaningZh": "得了吧;別胡說了"
+    },
+    {
+      "id": "phrasal-verb-40-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "When the train arrived, Eva realised that her suitcase was still on the platform.",
+      "promptZh": "列車到站後,伊娃發現自己的行李箱仍在月台上。",
+      "starter": "When",
+      "answer": "When the train arrived, Eva realised that she had left her suitcase behind on the platform.",
+      "answerZh": "列車到站後,伊娃發現自己把行李箱遺留在月台上。",
+      "highlight": "Eva realised that she had left",
+      "targetForm": "leave something behind",
+      "targetMeaningZh": "離開時遺下某物"
+    },
+    {
+      "id": "phrasal-verb-40-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The mechanic had explained the problem, so he let us discuss the choice alone.",
+      "promptZh": "技工已經解釋問題,所以讓我們自行討論選擇。",
+      "starter": "The",
+      "answer": "The mechanic had explained the problem, so he left us to it.",
+      "answerZh": "技工已經解釋問題,所以讓我們自行討論選擇。",
+      "highlight": "left",
+      "targetForm": "leave somebody to something",
+      "targetMeaningZh": "讓某人自行處理"
+    },
+    {
+      "id": "phrasal-verb-40-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The neighbours kept playing loud music even after midnight and would not stop.",
+      "promptZh": "鄰居過了午夜仍不停播放吵耳音樂,不肯停下來。",
+      "starter": "The",
+      "answer": "The neighbours kept playing loud music even after midnight and would not leave off.",
+      "answerZh": "鄰居過了午夜仍不停播放吵耳音樂,不肯停下來。",
+      "highlight": "leave off",
+      "targetForm": "leave off",
+      "targetMeaningZh": "停止"
+    },
+    {
+      "id": "phrasal-verb-40-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After several updates, the small company’s app became much better than its rivals.",
+      "promptZh": "經過數次更新後,這間小公司的應用程式遠勝競爭對手。",
+      "starter": "After",
+      "answer": "After several updates, the small company’s app left its rivals far behind.",
+      "answerZh": "經過數次更新後,這間小公司的應用程式把競爭對手遠遠拋在後面。",
+      "highlight": "left",
+      "targetForm": "leave somebody/something behind",
+      "targetMeaningZh": "遠遠拋離"
+    },
+    {
+      "id": "phrasal-verb-40-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "They invited everyone except Chloe to the meal, and she felt forgotten.",
+      "promptZh": "他們邀請所有人吃飯,唯獨沒有克洛伊,令她覺得自己被遺忘。",
+      "starter": "They",
+      "answer": "They left Chloe out of the invitation, and she felt forgotten.",
+      "answerZh": "他們沒有邀請克洛伊,令她覺得自己被遺忘。",
+      "highlight": "left",
+      "targetForm": "leave somebody out of something",
+      "targetMeaningZh": "不把某人包括在內"
+    },
+    {
+      "id": "phrasal-verb-40-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The floor is wet, so keep your boots on until you reach the door.",
+      "promptZh": "地面濕滑,所以在走到門口前繼續穿着靴子。",
+      "starter": "The",
+      "answer": "The floor is wet, so leave your boots on until you reach the door.",
+      "answerZh": "地面濕滑,所以在走到門口前不要脫下靴子。",
+      "highlight": "leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    },
+    {
+      "id": "phrasal-verb-40-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "You can explain your own mistake, but do not bring my name into it.",
+      "promptZh": "你可以解釋自己的錯誤,但不要把我的名字牽涉進去。",
+      "starter": "You",
+      "answer": "You can explain your own mistake, but leave my name out of it.",
+      "answerZh": "你可以解釋自己的錯誤,但不要把我的名字牽涉進去。",
+      "highlight": "leave",
+      "targetForm": "leave something out of something",
+      "targetMeaningZh": "不提及或不牽涉某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "If we ignore the long journey, the hotel is a good choice.",
+      "promptZh": "如果不考慮路程很遠,這間酒店是不錯的選擇。",
+      "starter": "Leaving",
+      "answer": "Leaving the long journey aside, the hotel is a good choice.",
+      "answerZh": "撇開路程很遠這點不談,這間酒店是不錯的選擇。",
+      "highlight": "Leaving",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The story is long, but the final scene is important and should not be removed.",
+      "promptZh": "故事很長,但最後一幕很重要,不應刪去。",
+      "starter": "The",
+      "answer": "The story is long, but the final scene should be left in.",
+      "answerZh": "故事很長,但最後一幕很重要,應該保留下來。",
+      "highlight": "left in",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The report should describe the accident but omit the names.",
+      "promptZh": "報告應描述意外,但不要包括姓名。",
+      "starter": "The",
+      "answer": "The report should describe the accident but leave the names out.",
+      "answerZh": "報告應描述意外,但不要包括姓名。",
+      "highlight": "leave",
+      "targetForm": "leave something out",
+      "targetMeaningZh": "不包括或不提及某事物"
+    },
+    {
+      "id": "phrasal-verb-40-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "We can discuss who pays later; for now, do not consider that question.",
+      "promptZh": "我們稍後可以討論由誰付款;目前先不要考慮這個問題。",
+      "starter": "We",
+      "answer": "We can discuss who pays later; for now, leave that question aside.",
+      "answerZh": "我們稍後可以討論由誰付款;目前先把這個問題擱置。",
+      "highlight": "leave",
+      "targetForm": "leave something aside",
+      "targetMeaningZh": "暫且不考慮某事"
+    },
+    {
+      "id": "phrasal-verb-40-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Although the teacher thought the example was strange, she kept it in the lesson.",
+      "promptZh": "雖然老師覺得例子很奇怪,但仍把它保留在課堂中。",
+      "starter": "Although",
+      "answer": "Although the teacher thought the example was strange, she left it in the lesson.",
+      "answerZh": "雖然老師覺得例子很奇怪,但仍把它保留在課堂中。",
+      "highlight": "left",
+      "targetForm": "leave something in",
+      "targetMeaningZh": "保留;不刪去"
+    },
+    {
+      "id": "phrasal-verb-40-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The doctor said I could keep the bandage on until tomorrow.",
+      "promptZh": "醫生說我可以讓繃帶留到明天才除下。",
+      "starter": "The",
+      "answer": "The doctor said I could leave the bandage on until tomorrow.",
+      "answerZh": "醫生說我可以讓繃帶留到明天才除下。",
+      "highlight": "leave",
+      "targetForm": "leave something on",
+      "targetMeaningZh": "繼續穿戴某物"
+    }
+  ]
+}

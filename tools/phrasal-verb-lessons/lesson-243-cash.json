@@ -1,0 +1,1199 @@
+{
+  "id": "phrasal-verb-243",
+  "order": 243,
+  "slug": "cash",
+  "version": "1",
+  "title": "CASH 動詞片語",
+  "titleEn": "Cash",
+  "titleZh": "CASH 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 232 - CASH.pdf",
+    "sourceNumber": 232,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CASH",
+      "highlight": "CASH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Several cafés cashed in on the festival crowds.",
+      "zh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+      "highlight": "cashed in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Cash in the unused travellers’ cheques after your trip.",
+      "zh": "旅行後把未使用的旅行支票兌換成現金。",
+      "highlight": "Cash in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We cash up after the doors close.",
+      "zh": "我們在關門後點算並核對當日的營業款項。",
+      "highlight": "cash up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味；把有現金價值的票券、投資或其他物品兌換成現金；在營業或值班結束時,點算並核對收到的款項",
+    "en": "cash in / cash in on something; cash something in; cash up",
+    "naturalZh": [
+      "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+      "把有現金價值的票券、投資或其他物品兌換成現金",
+      "在營業或值班結束時,點算並核對收到的款項"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cash in / cash in on something",
+      "titleZh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+      "titleEn": "cash in / cash in on something",
+      "descriptionZh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+      "descriptionEn": "Several cafés cashed in on the festival crowds.",
+      "examples": [
+        {
+          "en": "Several cafés cashed in on the festival crowds.",
+          "zh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+          "highlight": "cashed in on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cash something in",
+      "titleZh": "把有現金價值的票券、投資或其他物品兌換成現金",
+      "titleEn": "cash something in",
+      "descriptionZh": "把有現金價值的票券、投資或其他物品兌換成現金",
+      "descriptionEn": "Cash in the unused travellers’ cheques after your trip.",
+      "examples": [
+        {
+          "en": "Cash in the unused travellers’ cheques after your trip.",
+          "zh": "旅行後把未使用的旅行支票兌換成現金。",
+          "highlight": "Cash in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cash up",
+      "titleZh": "在營業或值班結束時,點算並核對收到的款項",
+      "titleEn": "cash up",
+      "descriptionZh": "在營業或值班結束時,點算並核對收到的款項",
+      "descriptionEn": "We cash up after the doors close.",
+      "examples": [
+        {
+          "en": "We cash up after the doors close.",
+          "zh": "我們在關門後點算並核對當日的營業款項。",
+          "highlight": "cash up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CASH 片語動詞的實際用途",
+    "labelEn": "CASH Phrasal Verbs in Use",
+    "summaryZh": "cash in on 可以描述商戶或個人如何利用潮流、事件或公眾興趣來賺錢。；cash something in 可以描述把旅行支票、中獎票券或投資等兌換成現金。；cash up 可以自然地描述在營業結束時點算並核對當日收到的款項。；cash in on、cash something in 和 cash up 都包含 CASH,但分別表示利用情況獲利、兌換現金和點算營業款項。",
+    "summaryEn": "Cash in on helps you describe how a business or person uses a trend, event or public interest to make money. Cash something in can describe exchanging travellers’ cheques, prize tickets, investments or similar items for cash. Cash up lets you talk naturally about counting and checking the money received during the day. Cash in on, cash something in and cash up all contain CASH, but they describe profit, exchanging something for money and checking business takings.",
+    "contextsZh": [
+      "談論如何利用熱門事件賺錢",
+      "表達如何把有價值的物品兌換成現金",
+      "描述店舖關門前的重要工作",
+      "理解三個意思截然不同的 CASH 表達"
+    ],
+    "contextsEn": [
+      "Talk about making money from popular events",
+      "Explain how valuable items are changed into money",
+      "Describe an important shop-closing task",
+      "Understand three very different CASH expressions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cash in / cash in on something",
+    "fixedHighlight": "cash in / cash in on something",
+    "fixedZh": "閱讀整句,選出意思相同的 CASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CASH expression that gives the same meaning.",
+    "correct": "cashed in on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當獲利的情況已經清楚時,cash in 可以單獨使用。要指出利用甚麼情況獲利,則使用cash in on。；使用 it 或 them 時,把它放在 cash 和 in 中間。cash up 則表示點算並核對店舖或公司的營業款項。",
+    "variableEn": "Keep the same people, things, time and meaning. Cash in can appear by itself when the profitable situation is already clear. Use cash in on before naming the situation. The shops quickly cashed in. The shops cashed in on the festival. When using it or them with cash something in, place the word between cash and in: cash it in cash them in Cash up describes counting and checking the money received by a shop or business.",
+    "variableItemsZh": [
+      "cash in / cash in on something",
+      "cash something in",
+      "cash up"
+    ],
+    "variableItemsEn": [
+      "cash in / cash in on something",
+      "cash something in",
+      "cash up"
+    ],
+    "forms": [
+      {
+        "formZh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+        "formEn": "cash in / cash in on something",
+        "exampleZh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+        "exampleEn": "Several cafés cashed in on the festival crowds.",
+        "highlight": "cashed in on"
+      },
+      {
+        "formZh": "把有現金價值的票券、投資或其他物品兌換成現金",
+        "formEn": "cash something in",
+        "exampleZh": "旅行後把未使用的旅行支票兌換成現金。",
+        "exampleEn": "Cash in the unused travellers’ cheques after your trip.",
+        "highlight": "Cash in"
+      },
+      {
+        "formZh": "在營業或值班結束時,點算並核對收到的款項",
+        "formEn": "cash up",
+        "exampleZh": "我們在關門後點算並核對當日的營業款項。",
+        "exampleEn": "We cash up after the doors close.",
+        "highlight": "cash up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+      "titleEn": "cash in / cash in on something",
+      "formula": "cash in / cash in on something",
+      "highlight": "cash in / cash in on something",
+      "descriptionZh": "利用某個情況、機會或公眾興趣來賺錢或取得好處;有時帶批評意味",
+      "descriptionEn": "Several cafés cashed in on the festival crowds.",
+      "examples": [
+        {
+          "en": "Several cafés cashed in on the festival crowds.",
+          "zh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+          "highlight": "cashed in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把有現金價值的票券、投資或其他物品兌換成現金",
+      "titleEn": "cash something in",
+      "formula": "cash something in",
+      "highlight": "cash something in",
+      "descriptionZh": "把有現金價值的票券、投資或其他物品兌換成現金",
+      "descriptionEn": "Cash in the unused travellers’ cheques after your trip.",
+      "examples": [
+        {
+          "en": "Cash in the unused travellers’ cheques after your trip.",
+          "zh": "旅行後把未使用的旅行支票兌換成現金。",
+          "highlight": "Cash in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在營業或值班結束時,點算並核對收到的款項",
+      "titleEn": "cash up",
+      "formula": "cash up",
+      "highlight": "cash up",
+      "descriptionZh": "在營業或值班結束時,點算並核對收到的款項",
+      "descriptionEn": "We cash up after the doors close.",
+      "examples": [
+        {
+          "en": "We cash up after the doors close.",
+          "zh": "我們在關門後點算並核對當日的營業款項。",
+          "highlight": "cash up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論如何利用熱門事件賺錢",
+      "titleEn": "Talk about making money from popular events",
+      "zh": "cash in on 可以描述商戶或個人如何利用潮流、事件或公眾興趣來賺錢。",
+      "en": "Cash in on helps you describe how a business or person uses a trend, event or public interest to make money."
+    },
+    {
+      "titleZh": "表達如何把有價值的物品兌換成現金",
+      "titleEn": "Explain how valuable items are changed into money",
+      "zh": "cash something in 可以描述把旅行支票、中獎票券或投資等兌換成現金。",
+      "en": "Cash something in can describe exchanging travellers’ cheques, prize tickets, investments or similar items for cash."
+    },
+    {
+      "titleZh": "描述店舖關門前的重要工作",
+      "titleEn": "Describe an important shop-closing task",
+      "zh": "cash up 可以自然地描述在營業結束時點算並核對當日收到的款項。",
+      "en": "Cash up lets you talk naturally about counting and checking the money received during the day."
+    },
+    {
+      "titleZh": "理解三個意思截然不同的 CASH 表達",
+      "titleEn": "Understand three very different CASH expressions",
+      "zh": "cash in on、cash something in 和 cash up 都包含 CASH,但分別表示利用情況獲利、兌換現金和點算營業款項。",
+      "en": "Cash in on, cash something in and cash up all contain CASH, but they describe profit, exchanging something for money and checking business takings."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論如何利用熱門事件賺錢",
+      "表達如何把有價值的物品兌換成現金",
+      "描述店舖關門前的重要工作",
+      "理解三個意思截然不同的 CASH 表達"
+    ],
+    "contextsEn": [
+      "Talk about making money from popular events",
+      "Explain how valuable items are changed into money",
+      "Describe an important shop-closing task",
+      "Understand three very different CASH expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論如何利用熱門事件賺錢",
+        "titleEn": "Talk about making money from popular events",
+        "zh": "cash in on 可以描述商戶或個人如何利用潮流、事件或公眾興趣來賺錢。",
+        "en": "Cash in on helps you describe how a business or person uses a trend, event or public interest to make money.",
+        "examples": [
+          {
+            "en": "Several cafés cashed in on the festival crowds.",
+            "zh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+            "highlight": "cashed in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達如何把有價值的物品兌換成現金",
+        "titleEn": "Explain how valuable items are changed into money",
+        "zh": "cash something in 可以描述把旅行支票、中獎票券或投資等兌換成現金。",
+        "en": "Cash something in can describe exchanging travellers’ cheques, prize tickets, investments or similar items for cash.",
+        "examples": [
+          {
+            "en": "Cash in the unused travellers’ cheques after your trip.",
+            "zh": "旅行後把未使用的旅行支票兌換成現金。",
+            "highlight": "Cash in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述店舖關門前的重要工作",
+        "titleEn": "Describe an important shop-closing task",
+        "zh": "cash up 可以自然地描述在營業結束時點算並核對當日收到的款項。",
+        "en": "Cash up lets you talk naturally about counting and checking the money received during the day.",
+        "examples": [
+          {
+            "en": "We cash up after the doors close.",
+            "zh": "我們在關門後點算並核對當日的營業款項。",
+            "highlight": "cash up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解三個意思截然不同的 CASH 表達",
+        "titleEn": "Understand three very different CASH expressions",
+        "zh": "cash in on、cash something in 和 cash up 都包含 CASH,但分別表示利用情況獲利、兌換現金和點算營業款項。",
+        "en": "Cash in on, cash something in and cash up all contain CASH, but they describe profit, exchanging something for money and checking business takings.",
+        "examples": [
+          {
+            "en": "Several cafés cashed in on the festival crowds.",
+            "zh": "幾間咖啡店利用節慶期間的人潮賺取更多金錢。",
+            "highlight": "cashed in on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CASH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CASH 片語動詞。",
+      "en": "Read the whole sentence and choose the CASH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當獲利的情況已經清楚時,cash in 可以單獨使用。要指出利用甚麼情況獲利,則使用cash in on。",
+      "titleEn": "Cash in can appear by itself when the profitable situation is already clear.",
+      "zh": "當獲利的情況已經清楚時,cash in 可以單獨使用。要指出利用甚麼情況獲利,則使用cash in on。",
+      "en": "Cash in can appear by itself when the profitable situation is already clear. Use cash in on before naming the situation. The shops quickly cashed in. The shops cashed in on the festival."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,把它放在 cash 和 in 中間。cash up 則表示點算並核對店舖或公司的營業款項。",
+      "titleEn": "When using it or them with cash something in, place the word between cash and in: cash it in cash them in Cash up describes counting and checking the money received by a shop or business.",
+      "zh": "使用 it 或 them 時,把它放在 cash 和 in 中間。cash up 則表示點算並核對店舖或公司的營業款項。",
+      "en": "When using it or them with cash something in, place the word between cash and in: cash it in cash them in Cash up describes counting and checking the money received by a shop or business."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CASH 動詞片語句子改寫練習",
+    "titleEn": "CASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-243-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Local cafés made extra money from the large festival crowds.",
+      "promptZh": "本地咖啡店利用節慶期間的大量人潮賺取額外金錢。",
+      "starter": "Local",
+      "answer": "Local cafés cashed in on the large festival crowds.",
+      "answerZh": "本地咖啡店利用節慶期間的大量人潮賺取額外金錢。",
+      "highlight": "cashed in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The staff counted and checked the day’s money at six.",
+      "promptZh": "職員在六時點算並核對當日的營業款項。",
+      "starter": "The",
+      "answer": "The staff cashed up at six.",
+      "answerZh": "職員在六時點算並核對當日的營業款項。",
+      "highlight": "cashed up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Nora exchanged her unused travellers’ cheques for cash after the trip.",
+      "promptZh": "諾拉在旅行後把未使用的旅行支票兌換成現金。",
+      "starter": "Nora",
+      "answer": "Nora cashed in her unused travellers’ cheques after the trip.",
+      "answerZh": "諾拉在旅行後把未使用的旅行支票兌換成現金。",
+      "highlight": "cashed in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "A shop used the sudden demand for umbrellas to make more money.",
+      "promptZh": "一間店舖利用人們突然需要雨傘的情況賺取更多金錢。",
+      "starter": "A",
+      "answer": "A shop cashed in on the sudden demand for umbrellas.",
+      "answerZh": "一間店舖利用人們突然需要雨傘的情況賺取更多金錢。",
+      "highlight": "cashed in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We count and check the money before going home.",
+      "promptZh": "我們回家前會點算並核對營業款項。",
+      "starter": "We",
+      "answer": "We cash up before going home.",
+      "answerZh": "我們回家前會點算並核對營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Please exchange this winning ticket for cash today.",
+      "promptZh": "請今天把這張中獎票券兌換成現金。",
+      "starter": "Please",
+      "answer": "Please cash this winning ticket in today.",
+      "answerZh": "請今天把這張中獎票券兌換成現金。",
+      "highlight": "cash",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Several websites made money from public interest in the story.",
+      "promptZh": "幾個網站利用公眾對這則故事的興趣來賺錢。",
+      "starter": "Several",
+      "answer": "Several websites cashed in on public interest in the story.",
+      "answerZh": "幾個網站利用公眾對這則故事的興趣來賺錢。",
+      "highlight": "cashed in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用公眾興趣賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "At closing time, Daniel counted and checked all the money.",
+      "promptZh": "關門時,丹尼爾點算並核對了所有款項。",
+      "starter": "At",
+      "answer": "At closing time, Daniel cashed up.",
+      "answerZh": "關門時,丹尼爾點算並核對了所有款項。",
+      "highlight": "cashed up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "I exchanged the casino chips for cash before leaving.",
+      "promptZh": "我離開前把賭場籌碼兌換成現金。",
+      "starter": "I",
+      "answer": "I cashed the casino chips in before leaving.",
+      "answerZh": "我離開前把賭場籌碼兌換成現金。",
+      "highlight": "cashed",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The hotel made a large profit during the sports event.",
+      "promptZh": "酒店在體育盛事期間賺取了大量利潤。",
+      "starter": "The",
+      "answer": "The hotel cashed in during the sports event.",
+      "answerZh": "酒店在體育盛事期間利用機會賺取了大量利潤。",
+      "highlight": "cashed in",
+      "targetForm": "cash in",
+      "targetMeaningZh": "利用當前情況獲利"
+    },
+    {
+      "id": "phrasal-verb-243-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "You can exchange the remaining travellers’ cheques for cash at the airport.",
+      "promptZh": "你可以在機場把剩餘的旅行支票兌換成現金。",
+      "starter": "You",
+      "answer": "You can cash in the remaining travellers’ cheques at the airport.",
+      "answerZh": "你可以在機場把剩餘的旅行支票兌換成現金。",
+      "highlight": "cash in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The snack shops are making extra money from the concert crowd.",
+      "promptZh": "小食店正利用演唱會人潮賺取額外金錢。",
+      "starter": "The",
+      "answer": "The snack shops are cashing in on the concert crowd.",
+      "answerZh": "小食店正利用演唱會人潮賺取額外金錢。",
+      "highlight": "cashing in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Is the manager counting and checking today’s money now?",
+      "promptZh": "經理現在正在點算並核對今天的營業款項嗎?",
+      "starter": "Is",
+      "answer": "Is the manager cashing up now?",
+      "answerZh": "經理現在正在點算並核對今天的營業款項嗎?",
+      "highlight": "cashing up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Leila has exchanged her small investment for cash.",
+      "promptZh": "萊拉已把她的小額投資兌換成現金。",
+      "starter": "Leila",
+      "answer": "Leila has cashed in her small investment.",
+      "answerZh": "萊拉已把她的小額投資兌換成現金。",
+      "highlight": "cashed in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把投資兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The company may use the sudden popularity of the game to make more money.",
+      "promptZh": "公司可能會利用這款遊戲突然流行的機會賺取更多金錢。",
+      "starter": "The",
+      "answer": "The company may cash in on the sudden popularity of the game.",
+      "answerZh": "公司可能會利用這款遊戲突然流行的機會賺取更多金錢。",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用熱門事物賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "We will count and check the money after the last customer leaves.",
+      "promptZh": "最後一位顧客離開後,我們會點算並核對營業款項。",
+      "starter": "We",
+      "answer": "We will cash up after the last customer leaves.",
+      "answerZh": "最後一位顧客離開後,我們會點算並核對營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Do not exchange the prize ticket for cash yet.",
+      "promptZh": "暫時不要把那張中獎票券兌換成現金。",
+      "starter": "Do",
+      "answer": "Do not cash the prize ticket in yet.",
+      "answerZh": "暫時不要把那張中獎票券兌換成現金。",
+      "highlight": "cash",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did so many sellers use the storm to make extra money?",
+      "promptZh": "為甚麼那麼多商戶利用暴風雨來賺取額外金錢?",
+      "starter": "Why",
+      "answer": "Why did so many sellers cash in on the storm?",
+      "answerZh": "為甚麼那麼多商戶利用暴風雨來賺取額外金錢?",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The assistants have already counted and checked today’s money.",
+      "promptZh": "助理已經點算並核對了今天的營業款項。",
+      "starter": "The",
+      "answer": "The assistants have already cashed up.",
+      "answerZh": "助理已經點算並核對了今天的營業款項。",
+      "highlight": "cashed up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "When will you exchange your casino chips for cash?",
+      "promptZh": "你甚麼時候會把賭場籌碼兌換成現金?",
+      "starter": "When",
+      "answer": "When will you cash in your casino chips?",
+      "answerZh": "你甚麼時候會把賭場籌碼兌換成現金?",
+      "highlight": "cash in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The shop closes at seven. After that, the staff count and check the day’s money.",
+      "promptZh": "店舖在七時關門。之後,職員會點算並核對當日的營業款項。",
+      "starter": "The",
+      "answer": "The shop closes at seven. After that, the staff cash up.",
+      "answerZh": "店舖在七時關門。之後,職員會點算並核對當日的營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "I no longer need the vouchers, so I will exchange them for cash.",
+      "promptZh": "我不再需要那些現金券,所以會把它們兌換成現金。",
+      "starter": "I",
+      "answer": "I no longer need the vouchers, so I will cash them in.",
+      "answerZh": "我不再需要那些現金券,所以會把它們兌換成現金。",
+      "highlight": "cash",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The town became famous online, and local businesses used the attention to make more money.",
+      "promptZh": "這個小鎮在網上成名,而本地商戶利用這份關注來賺取更多金錢。",
+      "starter": "The",
+      "answer": "The town became famous online, and local businesses cashed in on the attention.",
+      "answerZh": "這個小鎮在網上成名,而本地商戶利用這份關注來賺取更多金錢。",
+      "highlight": "cashed in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用公眾關注賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Before we lock the door, we must count and check all the money received today.",
+      "promptZh": "鎖門前,我們必須點算並核對今天收到的所有款項。",
+      "starter": "Before",
+      "answer": "Before we lock the door, we must cash up.",
+      "answerZh": "鎖門前,我們必須點算並核對今天收到的所有款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The unused travellers’ cheques can be exchanged for cash at this bank.",
+      "promptZh": "未使用的旅行支票可以在這間銀行兌換成現金。",
+      "starter": "The",
+      "answer": "The unused travellers’ cheques can be cashed in at this bank.",
+      "answerZh": "未使用的旅行支票可以在這間銀行兌換成現金。",
+      "highlight": "cashed in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Some sellers tried to make money from people’s fear when food was hard to find.",
+      "promptZh": "食物難以購買時,一些商戶試圖利用人們的恐懼來賺錢。",
+      "starter": "Some",
+      "answer": "Some sellers tried to cash in on people’s fear when food was hard to find.",
+      "answerZh": "食物難以購買時,一些商戶試圖利用人們的恐懼來賺錢。",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況或情緒獲利"
+    },
+    {
+      "id": "phrasal-verb-243-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "While the owner was counting and checking the money, the phone rang.",
+      "promptZh": "店主正在點算並核對營業款項時,電話響了。",
+      "starter": "While",
+      "answer": "While the owner was cashing up, the phone rang.",
+      "answerZh": "店主正在點算並核對營業款項時,電話響了。",
+      "highlight": "cashing up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "After exchanging her winning ticket for cash, Ava bought a new bicycle.",
+      "promptZh": "艾娃把中獎票券兌換成現金後,買了一輛新單車。",
+      "starter": "After",
+      "answer": "After cashing in her winning ticket, Ava bought a new bicycle.",
+      "answerZh": "艾娃把中獎票券兌換成現金後,買了一輛新單車。",
+      "highlight": "cashing in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "We refused to use the family’s bad news as a way to make money.",
+      "promptZh": "我們拒絕利用那個家庭的壞消息來賺錢。",
+      "starter": "We",
+      "answer": "We refused to cash in on the family’s bad news.",
+      "answerZh": "我們拒絕利用那個家庭的壞消息來賺錢。",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "It usually takes us twenty minutes to count and check the day’s money.",
+      "promptZh": "我們通常需要二十分鐘點算並核對當日的營業款項。",
+      "starter": "It",
+      "answer": "It usually takes us twenty minutes to cash up.",
+      "answerZh": "我們通常需要二十分鐘點算並核對當日的營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Reusable bottles suddenly became popular, and one brand made a large profit.",
+      "promptZh": "可重用水樽突然流行起來,而其中一個品牌賺取了大量利潤。",
+      "starter": "Reusable",
+      "answer": "Reusable bottles suddenly became popular, and one brand cashed in.",
+      "answerZh": "可重用水樽突然流行起來,而其中一個品牌利用機會賺取了大量利潤。",
+      "highlight": "cashed in",
+      "targetForm": "cash in",
+      "targetMeaningZh": "利用當前情況獲利"
+    },
+    {
+      "id": "phrasal-verb-243-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The old investment was exchanged for cash before its owner moved abroad.",
+      "promptZh": "那項舊投資在持有人移居外地前已兌換成現金。",
+      "starter": "The",
+      "answer": "The old investment was cashed in before its owner moved abroad.",
+      "answerZh": "那項舊投資在持有人移居外地前已兌換成現金。",
+      "highlight": "cashed in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把投資兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "How often do you count and check the shop’s money?",
+      "promptZh": "你們多久點算並核對一次店舖的營業款項?",
+      "starter": "How",
+      "answer": "How often do you cash up?",
+      "answerZh": "你們多久點算並核對一次店舖的營業款項?",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Instead of helping, the online star used the problem to gain more followers and money.",
+      "promptZh": "那名網絡紅人沒有幫忙,反而利用問題來增加追蹤者並賺錢。",
+      "starter": "Instead",
+      "answer": "Instead of helping, the online star cashed in on the problem to gain more followers and money.",
+      "answerZh": "那名網絡紅人沒有幫忙,反而利用問題來增加追蹤者並賺錢。",
+      "highlight": "cashed in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況取得利益"
+    },
+    {
+      "id": "phrasal-verb-243-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The café does not count and check its money until every customer has left.",
+      "promptZh": "咖啡店要等所有顧客離開後,才點算並核對營業款項。",
+      "starter": "The",
+      "answer": "The café does not cash up until every customer has left.",
+      "answerZh": "咖啡店要等所有顧客離開後,才點算並核對營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Before travelling home, the players exchanged all their casino chips for cash.",
+      "promptZh": "回家前,玩家把所有賭場籌碼兌換成現金。",
+      "starter": "Before",
+      "answer": "Before travelling home, the players cashed in all their casino chips.",
+      "answerZh": "回家前,玩家把所有賭場籌碼兌換成現金。",
+      "highlight": "cashed in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Businesses should not use a terrible public event simply to make a profit.",
+      "promptZh": "商戶不應只是為了獲利而利用一宗嚴重的公眾事件。",
+      "starter": "Businesses",
+      "answer": "Businesses should not cash in on a terrible public event simply to make a profit.",
+      "answerZh": "商戶不應只是為了獲利而利用一宗嚴重的公眾事件。",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "She decided to exchange her insurance policy for its cash value.",
+      "promptZh": "她決定把保險單兌換成現金價值。",
+      "starter": "She",
+      "answer": "She decided to cash in her insurance policy.",
+      "answerZh": "她決定把保險單兌換成現金價值。",
+      "highlight": "cash in",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把保險單兌換成現金價值"
+    },
+    {
+      "id": "phrasal-verb-243-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The new assistant forgot to count and check the money before leaving.",
+      "promptZh": "新助理離開前忘記點算並核對營業款項。",
+      "starter": "The",
+      "answer": "The new assistant forgot to cash up before leaving.",
+      "answerZh": "新助理離開前忘記點算並核對營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Did the tour company use the film’s success to sell more trips?",
+      "promptZh": "旅遊公司有利用電影的成功來售賣更多旅行團嗎?",
+      "starter": "Did",
+      "answer": "Did the tour company cash in on the film’s success to sell more trips?",
+      "answerZh": "旅遊公司有利用電影的成功來售賣更多旅行團嗎?",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某件事的成功獲利"
+    },
+    {
+      "id": "phrasal-verb-243-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the travellers’ cheques were old, the bank still exchanged them for cash.",
+      "promptZh": "雖然那些旅行支票已經很舊,銀行仍然把它們兌換成現金。",
+      "starter": "Although",
+      "answer": "Although the travellers’ cheques were old, the bank still cashed them in.",
+      "answerZh": "雖然那些旅行支票已經很舊,銀行仍然把它們兌換成現金。",
+      "highlight": "cashed",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Once the final payment has been recorded, the team can count and check the day’s money.",
+      "promptZh": "記錄最後一筆付款後,團隊便可以點算並核對當日的營業款項。",
+      "starter": "Once",
+      "answer": "Once the final payment has been recorded, the team can cash up.",
+      "answerZh": "記錄最後一筆付款後,團隊便可以點算並核對當日的營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The video suddenly became popular, and several small shops quickly used the opportunity to increase their sales.",
+      "promptZh": "影片突然流行起來,幾間小店迅速利用這個機會增加銷售額。",
+      "starter": "The",
+      "answer": "The video suddenly became popular, and several small shops quickly cashed in.",
+      "answerZh": "影片突然流行起來,幾間小店迅速利用這個機會增加銷售額。",
+      "highlight": "cashed in",
+      "targetForm": "cash in",
+      "targetMeaningZh": "利用當前情況獲利"
+    },
+    {
+      "id": "phrasal-verb-243-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Rosa kept the prize ticket for a week before exchanging it for cash.",
+      "promptZh": "羅莎保留了那張中獎票券一星期,然後才把它兌換成現金。",
+      "starter": "Rosa",
+      "answer": "Rosa kept the prize ticket for a week before cashing it in.",
+      "answerZh": "羅莎保留了那張中獎票券一星期,然後才把它兌換成現金。",
+      "highlight": "cashing",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The writer did not want others to think she was using the family’s private problem to make money.",
+      "promptZh": "那名作家不希望別人認為她正利用那個家庭的私人問題來賺錢。",
+      "starter": "The",
+      "answer": "The writer did not want others to think she was cashing in on the family’s private problem.",
+      "answerZh": "那名作家不希望別人認為她正利用那個家庭的私人問題來賺錢。",
+      "highlight": "cashing in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "We had nearly finished counting and checking the money when the lights went out.",
+      "promptZh": "燈熄滅時,我們已差不多完成點算並核對營業款項。",
+      "starter": "We",
+      "answer": "We had nearly finished cashing up when the lights went out.",
+      "answerZh": "燈熄滅時,我們已差不多完成點算並核對營業款項。",
+      "highlight": "cashing up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Those prize tickets expire tomorrow, so remember to exchange them for cash today.",
+      "promptZh": "那些中獎票券明天到期,所以記得今天把它們兌換成現金。",
+      "starter": "Those",
+      "answer": "Those prize tickets expire tomorrow, so remember to cash them in today.",
+      "answerZh": "那些中獎票券明天到期,所以記得今天把它們兌換成現金。",
+      "highlight": "cash",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把有現金價值的物品兌換成現金"
+    },
+    {
+      "id": "phrasal-verb-243-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "After the doors were locked, only two workers stayed to count and check the money.",
+      "promptZh": "鎖門後,只有兩名職員留下來點算並核對營業款項。",
+      "starter": "After",
+      "answer": "After the doors were locked, only two workers stayed to cash up.",
+      "answerZh": "鎖門後,只有兩名職員留下來點算並核對營業款項。",
+      "highlight": "cash up",
+      "targetForm": "cash up",
+      "targetMeaningZh": "點算並核對營業款項"
+    },
+    {
+      "id": "phrasal-verb-243-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "A few companies are already trying to use the new law as an opportunity to make more money.",
+      "promptZh": "幾間公司已經試圖利用新法例作為賺取更多金錢的機會。",
+      "starter": "A",
+      "answer": "A few companies are already trying to cash in on the new law.",
+      "answerZh": "幾間公司已經試圖利用新法例來賺取更多金錢。",
+      "highlight": "cash in on",
+      "targetForm": "cash in on something",
+      "targetMeaningZh": "利用某個情況賺錢或取得好處"
+    },
+    {
+      "id": "phrasal-verb-243-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "If you no longer want the investment, you can exchange it for cash before the end of the month.",
+      "promptZh": "如果你不再需要那項投資,可以在月底前把它兌換成現金。",
+      "starter": "If",
+      "answer": "If you no longer want the investment, you can cash it in before the end of the month.",
+      "answerZh": "如果你不再需要那項投資,可以在月底前把它兌換成現金。",
+      "highlight": "cash",
+      "targetForm": "cash something in",
+      "targetMeaningZh": "把投資兌換成現金"
+    }
+  ]
+}

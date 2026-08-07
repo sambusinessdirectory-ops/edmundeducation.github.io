@@ -1,0 +1,997 @@
+{
+  "id": "phrasal-verb-125",
+  "order": 125,
+  "slug": "empty",
+  "version": "1",
+  "title": "EMPTY 動詞片語",
+  "titleEn": "Empty",
+  "titleZh": "EMPTY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 124 - EMPTY.pdf",
+    "sourceNumber": 124,
+    "pageCount": 17,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 EMPTY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to EMPTY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "EMPTY",
+      "highlight": "EMPTY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The crowd emptied out of the hall after the show.",
+      "zh": "表演結束後,人群離開了禮堂。",
+      "highlight": "emptied out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He emptied the bag out onto the table.",
+      "zh": "他把袋內所有東西全部取出,放到桌上。",
+      "highlight": "emptied the bag out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "人們離開某處,使該處變空;某處因人們離開而變空；把容器內的東西全部取出;把某物從容器內全部取出",
+    "en": "empty out / empty out of something; empty something out / empty something out of something",
+    "naturalZh": [
+      "人們離開某處,使該處變空;某處因人們離開而變空",
+      "把容器內的東西全部取出;把某物從容器內全部取出"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "empty out / empty out of something",
+      "titleZh": "人們離開某處,使該處變空;某處因人們離開而變空",
+      "titleEn": "empty out / empty out of something",
+      "descriptionZh": "人們離開某處,使該處變空;某處因人們離開而變空",
+      "descriptionEn": "The crowd emptied out of the hall after the show.",
+      "examples": [
+        {
+          "en": "The crowd emptied out of the hall after the show.",
+          "zh": "表演結束後,人群離開了禮堂。",
+          "highlight": "emptied out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "empty something out / empty something out of something",
+      "titleZh": "把容器內的東西全部取出;把某物從容器內全部取出",
+      "titleEn": "empty something out / empty something out of something",
+      "descriptionZh": "把容器內的東西全部取出;把某物從容器內全部取出",
+      "descriptionEn": "He emptied the bag out onto the table.",
+      "examples": [
+        {
+          "en": "He emptied the bag out onto the table.",
+          "zh": "他把袋內所有東西全部取出,放到桌上。",
+          "highlight": "emptied the bag out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "EMPTY 片語動詞的實際用途",
+    "labelEn": "EMPTY Phrasal Verbs in Use",
+    "summaryZh": "empty out 可以描述餐廳、課室、戲院等地方在人們離開後變得空蕩蕩。；empty out of something 可以描述一群人在活動結束後離開某處。；empty something out 適合用來談論清空袋子、箱子、抽屜、櫃子和口袋。；你可以說 empty a bag out,也可以說 empty the books out of the bag,視乎你想強調容器還是裏面的物品。",
+    "summaryEn": "Empty out can describe restaurants, classrooms, cinemas and other places becoming empty when people leave. Empty out of something can describe a crowd or group leaving a place, especially after an event ends. Empty something out is useful when talking about bags, boxes, drawers, cupboards and pockets. You can empty a bag out or empty the books out of the bag, depending on what you want to focus on.",
+    "contextsZh": [
+      "自然描述某處逐漸變空",
+      "描述一群人一起離開",
+      "描述把容器完全清空",
+      "清楚表示容器和裏面物品的關係"
+    ],
+    "contextsEn": [
+      "Talk naturally about places becoming empty",
+      "Describe people leaving together",
+      "Describe completely clearing a container",
+      "Make the relationship between the container and its contents clear"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 EMPTY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the EMPTY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "empty out / empty out of something",
+    "fixedHighlight": "empty out / empty out of something",
+    "fixedZh": "閱讀整句,選出意思相同的 EMPTY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the EMPTY expression that gives the same meaning.",
+    "correct": "emptied out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；某個地方可以 empty out;人們也可以 empty out of 某個地方。；要表示把容器內所有東西取出,可按照以上例子使用。",
+    "variableEn": "Keep the same people, things, time and meaning. A place can empty out, or people can empty out of a place. The café emptied out. The customers emptied out of the café. To remove everything from a container, use the expressions as shown: empty the bag out empty the coins out of the bag empty it out",
+    "variableItemsZh": [
+      "empty out / empty out of something",
+      "empty something out / empty something out of something"
+    ],
+    "variableItemsEn": [
+      "empty out / empty out of something",
+      "empty something out / empty something out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "人們離開某處,使該處變空;某處因人們離開而變空",
+        "formEn": "empty out / empty out of something",
+        "exampleZh": "表演結束後,人群離開了禮堂。",
+        "exampleEn": "The crowd emptied out of the hall after the show.",
+        "highlight": "emptied out"
+      },
+      {
+        "formZh": "把容器內的東西全部取出;把某物從容器內全部取出",
+        "formEn": "empty something out / empty something out of something",
+        "exampleZh": "他把袋內所有東西全部取出,放到桌上。",
+        "exampleEn": "He emptied the bag out onto the table.",
+        "highlight": "emptied the bag out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "人們離開某處,使該處變空;某處因人們離開而變空",
+      "titleEn": "empty out / empty out of something",
+      "formula": "empty out / empty out of something",
+      "highlight": "empty out / empty out of something",
+      "descriptionZh": "人們離開某處,使該處變空;某處因人們離開而變空",
+      "descriptionEn": "The crowd emptied out of the hall after the show.",
+      "examples": [
+        {
+          "en": "The crowd emptied out of the hall after the show.",
+          "zh": "表演結束後,人群離開了禮堂。",
+          "highlight": "emptied out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把容器內的東西全部取出;把某物從容器內全部取出",
+      "titleEn": "empty something out / empty something out of something",
+      "formula": "empty something out / empty something out of something",
+      "highlight": "empty something out / empty something out of something",
+      "descriptionZh": "把容器內的東西全部取出;把某物從容器內全部取出",
+      "descriptionEn": "He emptied the bag out onto the table.",
+      "examples": [
+        {
+          "en": "He emptied the bag out onto the table.",
+          "zh": "他把袋內所有東西全部取出,放到桌上。",
+          "highlight": "emptied the bag out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然描述某處逐漸變空",
+      "titleEn": "Talk naturally about places becoming empty",
+      "zh": "empty out 可以描述餐廳、課室、戲院等地方在人們離開後變得空蕩蕩。",
+      "en": "Empty out can describe restaurants, classrooms, cinemas and other places becoming empty when people leave."
+    },
+    {
+      "titleZh": "描述一群人一起離開",
+      "titleEn": "Describe people leaving together",
+      "zh": "empty out of something 可以描述一群人在活動結束後離開某處。",
+      "en": "Empty out of something can describe a crowd or group leaving a place, especially after an event ends."
+    },
+    {
+      "titleZh": "描述把容器完全清空",
+      "titleEn": "Describe completely clearing a container",
+      "zh": "empty something out 適合用來談論清空袋子、箱子、抽屜、櫃子和口袋。",
+      "en": "Empty something out is useful when talking about bags, boxes, drawers, cupboards and pockets."
+    },
+    {
+      "titleZh": "清楚表示容器和裏面物品的關係",
+      "titleEn": "Make the relationship between the container and its contents clear",
+      "zh": "你可以說 empty a bag out,也可以說 empty the books out of the bag,視乎你想強調容器還是裏面的物品。",
+      "en": "You can empty a bag out or empty the books out of the bag, depending on what you want to focus on."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然描述某處逐漸變空",
+      "描述一群人一起離開",
+      "描述把容器完全清空",
+      "清楚表示容器和裏面物品的關係"
+    ],
+    "contextsEn": [
+      "Talk naturally about places becoming empty",
+      "Describe people leaving together",
+      "Describe completely clearing a container",
+      "Make the relationship between the container and its contents clear"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然描述某處逐漸變空",
+        "titleEn": "Talk naturally about places becoming empty",
+        "zh": "empty out 可以描述餐廳、課室、戲院等地方在人們離開後變得空蕩蕩。",
+        "en": "Empty out can describe restaurants, classrooms, cinemas and other places becoming empty when people leave.",
+        "examples": [
+          {
+            "en": "The crowd emptied out of the hall after the show.",
+            "zh": "表演結束後,人群離開了禮堂。",
+            "highlight": "emptied out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述一群人一起離開",
+        "titleEn": "Describe people leaving together",
+        "zh": "empty out of something 可以描述一群人在活動結束後離開某處。",
+        "en": "Empty out of something can describe a crowd or group leaving a place, especially after an event ends.",
+        "examples": [
+          {
+            "en": "He emptied the bag out onto the table.",
+            "zh": "他把袋內所有東西全部取出,放到桌上。",
+            "highlight": "emptied the bag out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述把容器完全清空",
+        "titleEn": "Describe completely clearing a container",
+        "zh": "empty something out 適合用來談論清空袋子、箱子、抽屜、櫃子和口袋。",
+        "en": "Empty something out is useful when talking about bags, boxes, drawers, cupboards and pockets.",
+        "examples": [
+          {
+            "en": "The crowd emptied out of the hall after the show.",
+            "zh": "表演結束後,人群離開了禮堂。",
+            "highlight": "emptied out"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表示容器和裏面物品的關係",
+        "titleEn": "Make the relationship between the container and its contents clear",
+        "zh": "你可以說 empty a bag out,也可以說 empty the books out of the bag,視乎你想強調容器還是裏面的物品。",
+        "en": "You can empty a bag out or empty the books out of the bag, depending on what you want to focus on.",
+        "examples": [
+          {
+            "en": "He emptied the bag out onto the table.",
+            "zh": "他把袋內所有東西全部取出,放到桌上。",
+            "highlight": "emptied the bag out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 EMPTY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the EMPTY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 EMPTY 片語動詞。",
+      "en": "Read the whole sentence and choose the EMPTY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "某個地方可以 empty out;人們也可以 empty out of 某個地方。",
+      "titleEn": "A place can empty out, or people can empty out of a place.",
+      "zh": "某個地方可以 empty out;人們也可以 empty out of 某個地方。",
+      "en": "A place can empty out, or people can empty out of a place. The café emptied out. The customers emptied out of the café."
+    },
+    {
+      "titleZh": "要表示把容器內所有東西取出,可按照以上例子使用。",
+      "titleEn": "To remove everything from a container, use the expressions as shown: empty the bag out empty the coins out of the bag empty it out.",
+      "zh": "要表示把容器內所有東西取出,可按照以上例子使用。",
+      "en": "To remove everything from a container, use the expressions as shown: empty the bag out empty the coins out of the bag empty it out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 EMPTY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to EMPTY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "EMPTY 動詞片語句子改寫練習",
+    "titleEn": "EMPTY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 EMPTY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to EMPTY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-125-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "At 11.30, all the customers left the restaurant.",
+      "promptZh": "十一時三十分,所有顧客都離開了餐廳。",
+      "starter": "At",
+      "answer": "At 11.30, all the customers emptied out of the restaurant.",
+      "answerZh": "十一時三十分,所有顧客都離開了餐廳。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "He removed everything from the bag and put it on the table.",
+      "promptZh": "他把袋內所有東西全部取出,放到桌上。",
+      "starter": "He",
+      "answer": "He emptied the bag out onto the table.",
+      "answerZh": "他把袋內所有東西全部取出,放到桌上。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The cinema became empty soon after the film ended.",
+      "promptZh": "電影結束後不久,戲院便變得空蕩蕩。",
+      "starter": "The",
+      "answer": "The cinema emptied out soon after the film ended.",
+      "answerZh": "電影結束後不久,戲院便變得空蕩蕩。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Sara removed all the coins from the jar.",
+      "promptZh": "莎拉把所有硬幣從罐子裏取出。",
+      "starter": "Sara",
+      "answer": "Sara emptied all the coins out of the jar.",
+      "answerZh": "莎拉把所有硬幣從罐子裏取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "We removed everything from the kitchen cupboard before painting it.",
+      "promptZh": "我們在粉刷廚房櫃子前,把裏面的東西全部取出。",
+      "starter": "We",
+      "answer": "We emptied the kitchen cupboard out before painting it.",
+      "answerZh": "我們在粉刷廚房櫃子前,把裏面的東西全部取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "After the talk, the students left the hall together.",
+      "promptZh": "講座結束後,學生一起離開禮堂。",
+      "starter": "After",
+      "answer": "After the talk, the students emptied out of the hall together.",
+      "answerZh": "講座結束後,學生一起離開禮堂。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Leo removed all the water from the bottle.",
+      "promptZh": "里奧把瓶內所有水倒出。",
+      "starter": "Leo",
+      "answer": "Leo emptied all the water out of the bottle.",
+      "answerZh": "里奧把瓶內所有水倒出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The shop became empty when it closed.",
+      "promptZh": "店舖關門時,裏面便變得空蕩蕩。",
+      "starter": "The",
+      "answer": "The shop emptied out when it closed.",
+      "answerZh": "店舖關門時,裏面便變得空蕩蕩。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "I am removing everything from my schoolbag now.",
+      "promptZh": "我現在正把書包裏的東西全部取出。",
+      "starter": "I",
+      "answer": "I am emptying my schoolbag out now.",
+      "answerZh": "我現在正把書包裏的東西全部取出。",
+      "highlight": "emptying",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "People are leaving the stadium through every gate.",
+      "promptZh": "人們正從各個出口離開體育場。",
+      "starter": "People",
+      "answer": "People are emptying out of the stadium through every gate.",
+      "answerZh": "人們正從各個出口離開體育場。",
+      "highlight": "emptying out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "We have removed all the old clothes from the wardrobe.",
+      "promptZh": "我們已把衣櫃裏所有舊衣服取出。",
+      "starter": "We",
+      "answer": "We have emptied all the old clothes out of the wardrobe.",
+      "answerZh": "我們已把衣櫃裏所有舊衣服取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The café has now become empty after the lunch crowd left.",
+      "promptZh": "午餐時段的人群離開後,咖啡店現在已變得空蕩蕩。",
+      "starter": "The",
+      "answer": "The café has now emptied out after the lunch crowd left.",
+      "answerZh": "午餐時段的人群離開後,咖啡店現在已變得空蕩蕩。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The train will become empty at the final station.",
+      "promptZh": "火車到達終點站時會變得空蕩蕩。",
+      "starter": "The",
+      "answer": "The train will empty out at the final station.",
+      "answerZh": "火車到達終點站時會變得空蕩蕩。",
+      "highlight": "empty out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Have you removed everything from the desk drawer?",
+      "promptZh": "你已把書桌抽屜裏的東西全部取出了嗎?",
+      "starter": "Have",
+      "answer": "Have you emptied the desk drawer out?",
+      "answerZh": "你已把書桌抽屜裏的東西全部取出了嗎?",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Why did everyone leave the park so quickly?",
+      "promptZh": "為甚麼大家這麼快便離開公園?",
+      "starter": "Why",
+      "answer": "Why did everyone empty out of the park so quickly?",
+      "answerZh": "為甚麼大家這麼快便離開公園?",
+      "highlight": "empty out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "You should remove everything from your pockets before washing the trousers.",
+      "promptZh": "洗褲子前,你應該把褲袋裏所有東西取出。",
+      "starter": "You",
+      "answer": "You should empty your pockets out before washing the trousers.",
+      "answerZh": "洗褲子前,你應該把褲袋裏所有東西取出。",
+      "highlight": "empty",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The concert ended. The crowd then left the hall through the side doors.",
+      "promptZh": "音樂會結束了。之後,人群從側門離開禮堂。",
+      "starter": "The",
+      "answer": "The concert ended. The crowd then emptied out of the hall through the side doors.",
+      "answerZh": "音樂會結束了。之後,人群從側門離開禮堂。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The box is full of old papers. Please remove everything from it.",
+      "promptZh": "箱子裏放滿了舊紙張。請把裏面的東西全部取出。",
+      "starter": "The",
+      "answer": "The box is full of old papers. Please empty it out.",
+      "answerZh": "箱子裏放滿了舊紙張。請把裏面的東西全部取出。",
+      "highlight": "empty",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The room was going to be painted, so we removed everything from all the shelves.",
+      "promptZh": "房間即將粉刷,所以我們把所有架子上的東西全部取出。",
+      "starter": "The",
+      "answer": "The room was going to be painted, so we emptied all the shelves out.",
+      "answerZh": "房間即將粉刷,所以我們把所有架子上的東西全部取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "As the last buses arrived, people left the station little by little.",
+      "promptZh": "最後幾班巴士到達時,人們逐漸離開車站。",
+      "starter": "As",
+      "answer": "As the last buses arrived, people emptied out of the station little by little.",
+      "answerZh": "最後幾班巴士到達時,人們逐漸離開車站。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Nora removed all the toys from the box and placed them on the carpet.",
+      "promptZh": "諾拉把箱子裏所有玩具取出,放到地毯上。",
+      "starter": "Nora",
+      "answer": "Nora emptied all the toys out of the box onto the carpet.",
+      "answerZh": "諾拉把箱子裏所有玩具取出,放到地毯上。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "How long did it take for the classroom to become empty after the bell?",
+      "promptZh": "下課鐘響後,課室花了多久才變空?",
+      "starter": "How",
+      "answer": "How long did it take for the classroom to empty out after the bell?",
+      "answerZh": "下課鐘響後,課室花了多久才變空?",
+      "highlight": "empty out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The waiting room did not become empty until the final patient left.",
+      "promptZh": "候診室直到最後一名病人離開後才變空。",
+      "starter": "The",
+      "answer": "The waiting room did not empty out until the final patient left.",
+      "answerZh": "候診室直到最後一名病人離開後才變空。",
+      "highlight": "empty out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Before the trip, Daniel removed all the unnecessary items from his suitcase.",
+      "promptZh": "出發旅行前,丹尼爾把行李箱裏所有不需要的物品取出。",
+      "starter": "Before",
+      "answer": "Before the trip, Daniel emptied all the unnecessary items out of his suitcase.",
+      "answerZh": "出發旅行前,丹尼爾把行李箱裏所有不需要的物品取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The cleaner removed all the rubbish from the bin before washing it.",
+      "promptZh": "清潔工在清洗垃圾桶前,把裏面的垃圾全部取出。",
+      "starter": "The",
+      "answer": "The cleaner emptied all the rubbish out of the bin before washing it.",
+      "answerZh": "清潔工在清洗垃圾桶前,把裏面的垃圾全部取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "By midnight, the beach had become empty as visitors went home.",
+      "promptZh": "到了午夜,遊人回家後,海灘已變得空蕩蕩。",
+      "starter": "By",
+      "answer": "By midnight, the beach had emptied out as visitors went home.",
+      "answerZh": "到了午夜,遊人回家後,海灘已變得空蕩蕩。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The lunch box still has food inside. Why have you not removed everything from it?",
+      "promptZh": "午餐盒裏仍有食物。你為甚麼還未把裏面的東西全部取出?",
+      "starter": "The",
+      "answer": "The lunch box still has food inside. Why have you not emptied it out?",
+      "answerZh": "午餐盒裏仍有食物。你為甚麼還未把裏面的東西全部取出?",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "When the bus reached the last stop, all the passengers left the bus.",
+      "promptZh": "巴士到達總站時,所有乘客都下了車。",
+      "starter": "When",
+      "answer": "When the bus reached the last stop, all the passengers emptied out of the bus.",
+      "answerZh": "巴士到達總站時,所有乘客都下了車。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The library became empty soon after the closing announcement.",
+      "promptZh": "閉館廣播後不久,圖書館便變得空蕩蕩。",
+      "starter": "The",
+      "answer": "The library emptied out soon after the closing announcement.",
+      "answerZh": "閉館廣播後不久,圖書館便變得空蕩蕩。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Before recycling the bottles, remove all the water from them.",
+      "promptZh": "回收瓶子前,先把裏面的水全部倒出。",
+      "starter": "Before",
+      "answer": "Before recycling the bottles, empty all the water out of them.",
+      "answerZh": "回收瓶子前,先把裏面的水全部倒出。",
+      "highlight": "empty",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "She placed all the contents of the handbag on the bed.",
+      "promptZh": "她把手袋裏所有東西放到床上。",
+      "starter": "She",
+      "answer": "She emptied the handbag out onto the bed.",
+      "answerZh": "她把手袋裏所有東西全部取出,放到床上。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Did the theatre become empty immediately after the show?",
+      "promptZh": "表演結束後,劇院立即變空了嗎?",
+      "starter": "Did",
+      "answer": "Did the theatre empty out immediately after the show?",
+      "answerZh": "表演結束後,劇院立即變空了嗎?",
+      "highlight": "empty out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The match finished at ten. Within minutes, all the fans had left the stadium.",
+      "promptZh": "比賽在十時結束。幾分鐘內,所有球迷都離開了體育場。",
+      "starter": "The",
+      "answer": "The match finished at ten. Within minutes, all the fans had emptied out of the stadium.",
+      "answerZh": "比賽在十時結束。幾分鐘內,所有球迷都離開了體育場。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "We could not find the key, so Dad removed every item from the drawer.",
+      "promptZh": "我們找不到鎖匙,所以爸爸把抽屜裏每件物品都取出。",
+      "starter": "We",
+      "answer": "We could not find the key, so Dad emptied the drawer out.",
+      "answerZh": "我們找不到鎖匙,所以爸爸把抽屜裏每件物品都取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The rain stopped, and families slowly left the indoor play area.",
+      "promptZh": "雨停後,家庭遊客慢慢離開室內遊樂區。",
+      "starter": "The",
+      "answer": "The rain stopped, and families slowly emptied out of the indoor play area.",
+      "answerZh": "雨停後,家庭遊客慢慢離開室內遊樂區。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    },
+    {
+      "id": "phrasal-verb-125-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Before returning the bag, please remove all the books and papers from it.",
+      "promptZh": "歸還袋子前,請把裏面的書本和紙張全部取出。",
+      "starter": "Before",
+      "answer": "Before returning the bag, please empty all the books and papers out of it.",
+      "answerZh": "歸還袋子前,請把裏面的書本和紙張全部取出。",
+      "highlight": "empty",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Staff had removed everything from the toy boxes before the children arrived.",
+      "promptZh": "孩子到達前,職員已把玩具箱裏的東西全部取出。",
+      "starter": "Staff",
+      "answer": "Staff had emptied the toy boxes out before the children arrived.",
+      "answerZh": "孩子到達前,職員已把玩具箱裏的東西全部取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out",
+      "targetMeaningZh": "把容器內的東西全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "At first, the meeting room was full, but it slowly became empty as workers left after their names were called.",
+      "promptZh": "起初會議室坐滿了人,但點名後,員工逐一離開,房間慢慢變空。",
+      "starter": "At",
+      "answer": "At first, the meeting room was full, but it slowly emptied out as workers left after their names were called.",
+      "answerZh": "起初會議室坐滿了人,但點名後,員工逐一離開,房間慢慢變空。",
+      "highlight": "emptied out",
+      "targetForm": "empty out",
+      "targetMeaningZh": "因人們離開而變空"
+    },
+    {
+      "id": "phrasal-verb-125-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Before washing the coat, Ella removed everything from its pockets.",
+      "promptZh": "清洗外套前,埃拉把所有東西從外套口袋裏取出。",
+      "starter": "Before",
+      "answer": "Before washing the coat, Ella emptied everything out of its pockets.",
+      "answerZh": "清洗外套前,埃拉把所有東西從外套口袋裏取出。",
+      "highlight": "emptied",
+      "targetForm": "empty something out of something",
+      "targetMeaningZh": "把某物從容器內全部取出"
+    },
+    {
+      "id": "phrasal-verb-125-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The final train arrived, and soon everyone left the station.",
+      "promptZh": "尾班火車到達後不久,所有人都離開了車站。",
+      "starter": "The",
+      "answer": "The final train arrived, and soon everyone emptied out of the station.",
+      "answerZh": "尾班火車到達後不久,所有人都離開了車站。",
+      "highlight": "emptied out of",
+      "targetForm": "empty out of something",
+      "targetMeaningZh": "人們離開某處"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-137",
+  "order": 137,
+  "slug": "chew",
+  "version": "1",
+  "title": "CHEW 動詞片語",
+  "titleEn": "Chew",
+  "titleZh": "CHEW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 136 - CHEW.pdf",
+    "sourceNumber": 136,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHEW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHEW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHEW",
+      "highlight": "CHEW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The puppy chewed on a rubber toy.",
+      "zh": "小狗咬着一個橡膠玩具。",
+      "highlight": "chewed on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach chewed the players out for being late.",
+      "zh": "教練因球員遲到而嚴厲責罵他們。",
+      "highlight": "chewed the players out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I need time to chew the offer over.",
+      "zh": "我需要時間仔細考慮這份提議。",
+      "highlight": "chew the offer over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "咬着某物並反覆咀嚼或啃咬；嚴厲責罵某人;痛斥某人；仔細考慮;反覆思量；把某物嚼碎或咬爛",
+    "en": "chew on something; chew somebody out; chew something over / chew over something / chew on something; chew something up",
+    "naturalZh": [
+      "咬着某物並反覆咀嚼或啃咬",
+      "嚴厲責罵某人;痛斥某人",
+      "仔細考慮;反覆思量",
+      "把某物嚼碎或咬爛"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "chew on something",
+      "titleZh": "咬着某物並反覆咀嚼或啃咬",
+      "titleEn": "chew on something",
+      "descriptionZh": "咬着某物並反覆咀嚼或啃咬",
+      "descriptionEn": "The puppy chewed on a rubber toy.",
+      "examples": [
+        {
+          "en": "The puppy chewed on a rubber toy.",
+          "zh": "小狗咬着一個橡膠玩具。",
+          "highlight": "chewed on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chew somebody out",
+      "titleZh": "嚴厲責罵某人;痛斥某人",
+      "titleEn": "chew somebody out",
+      "descriptionZh": "嚴厲責罵某人;痛斥某人",
+      "descriptionEn": "The coach chewed the players out for being late.",
+      "examples": [
+        {
+          "en": "The coach chewed the players out for being late.",
+          "zh": "教練因球員遲到而嚴厲責罵他們。",
+          "highlight": "chewed the players out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chew something over / chew over something / chew on something",
+      "titleZh": "仔細考慮;反覆思量",
+      "titleEn": "chew something over / chew over something / chew on something",
+      "descriptionZh": "仔細考慮;反覆思量",
+      "descriptionEn": "I need time to chew the offer over.",
+      "examples": [
+        {
+          "en": "I need time to chew the offer over.",
+          "zh": "我需要時間仔細考慮這份提議。",
+          "highlight": "chew the offer over"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "chew something up",
+      "titleZh": "把某物嚼碎或咬爛",
+      "titleEn": "chew something up",
+      "descriptionZh": "把某物嚼碎或咬爛",
+      "descriptionEn": "The puppy chewed the old cardboard box up.",
+      "examples": [
+        {
+          "en": "The puppy chewed the old cardboard box up.",
+          "zh": "小狗把舊紙皮箱咬爛了。",
+          "highlight": "chewed the old cardboard box up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CHEW 片語動詞的實際用途",
+    "labelEn": "CHEW Phrasal Verbs in Use",
+    "summaryZh": "chew on 表示反覆咬着某物;chew up 則表示把某物嚼碎或咬成小塊。；chew something over 和 chew on something 可以表示仔細考慮一個構思、問題或提議。；chew somebody out 可以幫助你理解某人受到嚴厲責罵的情境。；chew on 既可以描述咬東西的動作,也可以表示仔細思考。你需要根據整句判斷意思。",
+    "summaryEn": "Chew on focuses on repeatedly biting something, while chew up shows that the object is bitten into small pieces. Chew something over and chew on something can show that you are considering an idea, problem or offer carefully. Chew somebody out helps you understand situations in which someone is angrily and severely criticised. Chew on can describe a physical action or careful thought. The full sentence tells you which meaning is intended.",
+    "contextsZh": [
+      "清楚表達不同的咬食動作",
+      "表示自己需要時間思考",
+      "理解語氣強烈的非正式責罵",
+      "分辨身體動作和思考意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about different kinds of biting",
+      "Show that you need time to think",
+      "Understand strong informal criticism",
+      "Recognise physical and thinking meanings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CHEW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHEW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "chew on something",
+    "fixedHighlight": "chew on something",
+    "fixedZh": "閱讀整句,選出意思相同的 CHEW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHEW expression that gives the same meaning.",
+    "correct": "chewed on",
+    "incorrectForms": [],
+    "variableZh": "chew on something 在本練習中有兩個意思:反覆咬着某物,或仔細考慮某事。請仔細閱讀情境。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；chew somebody out 語氣強烈,主要用於非正式美式英語。",
+    "variableEn": "Chew on something has two meanings in this exercise. It can mean repeatedly biting something or thinking carefully about something. Read the situation carefully. When using him, her, it or them, follow these examples: chew him out chew it over chew it up chew on it Chew somebody out sounds strong and is mainly used in informal American English.",
+    "variableItemsZh": [
+      "chew on something",
+      "chew somebody out",
+      "chew something over / chew over something / chew on something",
+      "chew something up"
+    ],
+    "variableItemsEn": [
+      "chew on something",
+      "chew somebody out",
+      "chew something over / chew over something / chew on something",
+      "chew something up"
+    ],
+    "forms": [
+      {
+        "formZh": "咬着某物並反覆咀嚼或啃咬",
+        "formEn": "chew on something",
+        "exampleZh": "小狗咬着一個橡膠玩具。",
+        "exampleEn": "The puppy chewed on a rubber toy.",
+        "highlight": "chewed on"
+      },
+      {
+        "formZh": "嚴厲責罵某人;痛斥某人",
+        "formEn": "chew somebody out",
+        "exampleZh": "教練因球員遲到而嚴厲責罵他們。",
+        "exampleEn": "The coach chewed the players out for being late.",
+        "highlight": "chewed the players out"
+      },
+      {
+        "formZh": "仔細考慮;反覆思量",
+        "formEn": "chew something over / chew over something / chew on something",
+        "exampleZh": "我需要時間仔細考慮這份提議。",
+        "exampleEn": "I need time to chew the offer over.",
+        "highlight": "chew the offer over"
+      },
+      {
+        "formZh": "把某物嚼碎或咬爛",
+        "formEn": "chew something up",
+        "exampleZh": "小狗把舊紙皮箱咬爛了。",
+        "exampleEn": "The puppy chewed the old cardboard box up.",
+        "highlight": "chewed the old cardboard box up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "咬着某物並反覆咀嚼或啃咬",
+      "titleEn": "chew on something",
+      "formula": "chew on something",
+      "highlight": "chew on something",
+      "descriptionZh": "咬着某物並反覆咀嚼或啃咬",
+      "descriptionEn": "The puppy chewed on a rubber toy.",
+      "examples": [
+        {
+          "en": "The puppy chewed on a rubber toy.",
+          "zh": "小狗咬着一個橡膠玩具。",
+          "highlight": "chewed on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "嚴厲責罵某人;痛斥某人",
+      "titleEn": "chew somebody out",
+      "formula": "chew somebody out",
+      "highlight": "chew somebody out",
+      "descriptionZh": "嚴厲責罵某人;痛斥某人",
+      "descriptionEn": "The coach chewed the players out for being late.",
+      "examples": [
+        {
+          "en": "The coach chewed the players out for being late.",
+          "zh": "教練因球員遲到而嚴厲責罵他們。",
+          "highlight": "chewed the players out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "仔細考慮;反覆思量",
+      "titleEn": "chew something over / chew over something / chew on something",
+      "formula": "chew something over / chew over something / chew on something",
+      "highlight": "chew something over / chew over something / chew on something",
+      "descriptionZh": "仔細考慮;反覆思量",
+      "descriptionEn": "I need time to chew the offer over.",
+      "examples": [
+        {
+          "en": "I need time to chew the offer over.",
+          "zh": "我需要時間仔細考慮這份提議。",
+          "highlight": "chew the offer over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物嚼碎或咬爛",
+      "titleEn": "chew something up",
+      "formula": "chew something up",
+      "highlight": "chew something up",
+      "descriptionZh": "把某物嚼碎或咬爛",
+      "descriptionEn": "The puppy chewed the old cardboard box up.",
+      "examples": [
+        {
+          "en": "The puppy chewed the old cardboard box up.",
+          "zh": "小狗把舊紙皮箱咬爛了。",
+          "highlight": "chewed the old cardboard box up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達不同的咬食動作",
+      "titleEn": "Talk clearly about different kinds of biting",
+      "zh": "chew on 表示反覆咬着某物;chew up 則表示把某物嚼碎或咬成小塊。",
+      "en": "Chew on focuses on repeatedly biting something, while chew up shows that the object is bitten into small pieces."
+    },
+    {
+      "titleZh": "表示自己需要時間思考",
+      "titleEn": "Show that you need time to think",
+      "zh": "chew something over 和 chew on something 可以表示仔細考慮一個構思、問題或提議。",
+      "en": "Chew something over and chew on something can show that you are considering an idea, problem or offer carefully."
+    },
+    {
+      "titleZh": "理解語氣強烈的非正式責罵",
+      "titleEn": "Understand strong informal criticism",
+      "zh": "chew somebody out 可以幫助你理解某人受到嚴厲責罵的情境。",
+      "en": "Chew somebody out helps you understand situations in which someone is angrily and severely criticised."
+    },
+    {
+      "titleZh": "分辨身體動作和思考意思",
+      "titleEn": "Recognise physical and thinking meanings",
+      "zh": "chew on 既可以描述咬東西的動作,也可以表示仔細思考。你需要根據整句判斷意思。",
+      "en": "Chew on can describe a physical action or careful thought. The full sentence tells you which meaning is intended."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達不同的咬食動作",
+      "表示自己需要時間思考",
+      "理解語氣強烈的非正式責罵",
+      "分辨身體動作和思考意思"
+    ],
+    "contextsEn": [
+      "Talk clearly about different kinds of biting",
+      "Show that you need time to think",
+      "Understand strong informal criticism",
+      "Recognise physical and thinking meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達不同的咬食動作",
+        "titleEn": "Talk clearly about different kinds of biting",
+        "zh": "chew on 表示反覆咬着某物;chew up 則表示把某物嚼碎或咬成小塊。",
+        "en": "Chew on focuses on repeatedly biting something, while chew up shows that the object is bitten into small pieces.",
+        "examples": [
+          {
+            "en": "The puppy chewed on a rubber toy.",
+            "zh": "小狗咬着一個橡膠玩具。",
+            "highlight": "chewed on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示自己需要時間思考",
+        "titleEn": "Show that you need time to think",
+        "zh": "chew something over 和 chew on something 可以表示仔細考慮一個構思、問題或提議。",
+        "en": "Chew something over and chew on something can show that you are considering an idea, problem or offer carefully.",
+        "examples": [
+          {
+            "en": "The coach chewed the players out for being late.",
+            "zh": "教練因球員遲到而嚴厲責罵他們。",
+            "highlight": "chewed the players out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解語氣強烈的非正式責罵",
+        "titleEn": "Understand strong informal criticism",
+        "zh": "chew somebody out 可以幫助你理解某人受到嚴厲責罵的情境。",
+        "en": "Chew somebody out helps you understand situations in which someone is angrily and severely criticised.",
+        "examples": [
+          {
+            "en": "I need time to chew the offer over.",
+            "zh": "我需要時間仔細考慮這份提議。",
+            "highlight": "chew the offer over"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨身體動作和思考意思",
+        "titleEn": "Recognise physical and thinking meanings",
+        "zh": "chew on 既可以描述咬東西的動作,也可以表示仔細思考。你需要根據整句判斷意思。",
+        "en": "Chew on can describe a physical action or careful thought. The full sentence tells you which meaning is intended.",
+        "examples": [
+          {
+            "en": "The puppy chewed the old cardboard box up.",
+            "zh": "小狗把舊紙皮箱咬爛了。",
+            "highlight": "chewed the old cardboard box up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CHEW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHEW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CHEW 片語動詞。",
+      "en": "Read the whole sentence and choose the CHEW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "chew on something 在本練習中有兩個意思:反覆咬着某物,或仔細考慮某事。請仔細閱讀情境。",
+      "titleEn": "Chew on something has two meanings in this exercise.",
+      "zh": "chew on something 在本練習中有兩個意思:反覆咬着某物,或仔細考慮某事。請仔細閱讀情境。",
+      "en": "Chew on something has two meanings in this exercise. It can mean repeatedly biting something or thinking carefully about something. Read the situation carefully."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these examples: chew him out chew it over chew it up chew on it.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these examples: chew him out chew it over chew it up chew on it"
+    },
+    {
+      "titleZh": "chew somebody out 語氣強烈,主要用於非正式美式英語。",
+      "titleEn": "Chew somebody out sounds strong and is mainly used in informal American English.",
+      "zh": "chew somebody out 語氣強烈,主要用於非正式美式英語。",
+      "en": "Chew somebody out sounds strong and is mainly used in informal American English."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHEW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHEW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHEW 動詞片語句子改寫練習",
+    "titleEn": "CHEW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHEW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHEW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-137-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The puppy kept biting its rubber toy beside the sofa.",
+      "promptZh": "小狗在梳化旁邊不停咬着它的橡膠玩具。",
+      "starter": "The",
+      "answer": "The puppy chewed on its rubber toy beside the sofa.",
+      "answerZh": "小狗在梳化旁邊不停咬着它的橡膠玩具。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I need to think carefully about the offer before I decide.",
+      "promptZh": "我需要在作決定前仔細考慮這份提議。",
+      "starter": "I",
+      "answer": "I need to chew the offer over before I decide.",
+      "answerZh": "我需要在作決定前仔細考慮這份提議。",
+      "highlight": "chew",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The coach angrily scolded the players for arriving late.",
+      "promptZh": "教練因球員遲到而嚴厲責罵他們。",
+      "starter": "The",
+      "answer": "The coach chewed the players out for arriving late.",
+      "answerZh": "教練因球員遲到而嚴厲責罵他們。",
+      "highlight": "chewed",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Before swallowing it, the baby bit the soft biscuit into small pieces.",
+      "promptZh": "嬰兒在吞下軟餅乾前把它咬成小塊。",
+      "starter": "Before",
+      "answer": "Before swallowing it, the baby chewed the soft biscuit up.",
+      "answerZh": "嬰兒在吞下軟餅乾前把它嚼成小塊。",
+      "highlight": "chewed",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nora kept biting her lower lip while waiting for the result.",
+      "promptZh": "諾拉在等候結果時不停咬下唇。",
+      "starter": "Nora",
+      "answer": "Nora chewed on her lower lip while waiting for the result.",
+      "answerZh": "諾拉在等候結果時不停咬下唇。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We should think carefully about the idea until tomorrow.",
+      "promptZh": "我們應該仔細考慮這個構思,直至明天。",
+      "starter": "We",
+      "answer": "We should chew on the idea until tomorrow.",
+      "answerZh": "我們應該仔細考慮這個構思,直至明天。",
+      "highlight": "chew on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Dad angrily scolded me for leaving the door unlocked.",
+      "promptZh": "爸爸因我沒有鎖門而嚴厲責罵我。",
+      "starter": "Dad",
+      "answer": "Dad chewed me out for leaving the door unlocked.",
+      "answerZh": "爸爸因我沒有鎖門而嚴厲責罵我。",
+      "highlight": "chewed",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The dog bit the old newspaper into small pieces.",
+      "promptZh": "那隻狗把舊報紙咬碎了。",
+      "starter": "The",
+      "answer": "The dog chewed the old newspaper up.",
+      "answerZh": "那隻狗把舊報紙咬碎了。",
+      "highlight": "chewed",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Please think carefully about it before you answer.",
+      "promptZh": "請在回答前仔細考慮一下。",
+      "starter": "Please",
+      "answer": "Please chew it over before you answer.",
+      "answerZh": "請在回答前仔細考慮一下。",
+      "highlight": "chew",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "A rabbit was repeatedly biting a wooden stick.",
+      "promptZh": "一隻兔子正在反覆咬一根木棒。",
+      "starter": "A",
+      "answer": "A rabbit was chewing on a wooden stick.",
+      "answerZh": "一隻兔子正在反覆咬一根木棒。",
+      "highlight": "chewing on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Rita has been angrily scolded twice for missing practice.",
+      "promptZh": "麗塔因缺席練習而兩次受到嚴厲責罵。",
+      "starter": "Rita",
+      "answer": "Rita has been chewed out twice for missing practice.",
+      "answerZh": "麗塔因缺席練習而兩次受到嚴厲責罵。",
+      "highlight": "chewed out",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The puppy has bitten the corner of the mat into pieces.",
+      "promptZh": "小狗已把地墊的一角咬爛了。",
+      "starter": "The",
+      "answer": "The puppy has chewed up the corner of the mat.",
+      "answerZh": "小狗已把地墊的一角咬爛了。",
+      "highlight": "chewed up",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why is Leo repeatedly biting the end of his pencil?",
+      "promptZh": "里奧為甚麼不停咬鉛筆末端?",
+      "starter": "Why",
+      "answer": "Why is Leo chewing on the end of his pencil?",
+      "answerZh": "里奧為甚麼不停咬鉛筆末端?",
+      "highlight": "chewing on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sara is still thinking carefully about the question.",
+      "promptZh": "莎拉仍在仔細考慮那個問題。",
+      "starter": "Sara",
+      "answer": "Sara is still chewing the question over.",
+      "answerZh": "莎拉仍在仔細考慮那個問題。",
+      "highlight": "chewing",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The manager will angrily scold us if we ignore the safety rule.",
+      "promptZh": "如果我們忽視安全規則,經理會嚴厲責罵我們。",
+      "starter": "The",
+      "answer": "The manager will chew us out if we ignore the safety rule.",
+      "answerZh": "如果我們忽視安全規則,經理會嚴厲責罵我們。",
+      "highlight": "chew",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did the horse bite the apple into small pieces before swallowing it?",
+      "promptZh": "那匹馬吞下蘋果前有把它嚼碎嗎?",
+      "starter": "Did",
+      "answer": "Did the horse chew the apple up before swallowing it?",
+      "answerZh": "那匹馬吞下蘋果前有把它嚼碎嗎?",
+      "highlight": "chew",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ben repeatedly bites a straw when he feels nervous.",
+      "promptZh": "賓感到緊張時會反覆咬飲管。",
+      "starter": "Ben",
+      "answer": "Ben chews on a straw when he feels nervous.",
+      "answerZh": "賓感到緊張時會反覆咬飲管。",
+      "highlight": "chews on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could you think carefully about my suggestion for a day?",
+      "promptZh": "你可以花一天時間仔細考慮我的建議嗎?",
+      "starter": "Could",
+      "answer": "Could you chew on my suggestion for a day?",
+      "answerZh": "你可以花一天時間仔細考慮我的建議嗎?",
+      "highlight": "chew on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The child swallowed the apple piece without first biting it into small pieces.",
+      "promptZh": "那孩子沒有先把蘋果塊嚼碎便吞下了。",
+      "starter": "The",
+      "answer": "The child swallowed the apple piece without first chewing it up.",
+      "answerZh": "那孩子沒有先把蘋果塊嚼碎便吞下了。",
+      "highlight": "chewing",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the teacher angrily scold him in front of the class?",
+      "promptZh": "老師為甚麼在全班面前嚴厲責罵他?",
+      "starter": "Why",
+      "answer": "Why did the teacher chew him out in front of the class?",
+      "answerZh": "老師為甚麼在全班面前嚴厲責罵他?",
+      "highlight": "chew",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The dog found a cardboard tube and bit it into small pieces.",
+      "promptZh": "那隻狗找到一個紙筒,並把它咬碎了。",
+      "starter": "The",
+      "answer": "The dog found a cardboard tube and chewed it up.",
+      "answerZh": "那隻狗找到一個紙筒,並把它咬碎了。",
+      "highlight": "chewed",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The baby picked up the teething ring and began biting it again and again.",
+      "promptZh": "嬰兒拿起磨牙環,開始反覆咬它。",
+      "starter": "The",
+      "answer": "The baby picked up the teething ring and began chewing on it.",
+      "answerZh": "嬰兒拿起磨牙環,開始反覆咬它。",
+      "highlight": "chewing on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Take a day to think carefully about it before you say yes.",
+      "promptZh": "在答應前,花一天時間仔細考慮一下。",
+      "starter": "Take",
+      "answer": "Take a day to chew it over before you say yes.",
+      "answerZh": "在答應前,花一天時間仔細考慮一下。",
+      "highlight": "chew",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The supervisor was angry and scolded them harshly after the mistake.",
+      "promptZh": "督導因那次錯誤而生氣,並嚴厲責罵他們。",
+      "starter": "The",
+      "answer": "The supervisor was angry and chewed them out after the mistake.",
+      "answerZh": "督導因那次錯誤而生氣,並嚴厲責罵他們。",
+      "highlight": "chewed",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Evan’s dog had been biting a bone again and again before dinner was served.",
+      "promptZh": "晚餐端上前,埃文的狗一直反覆咬一根骨頭。",
+      "starter": "Evan’s",
+      "answer": "Evan’s dog had been chewing on a bone before dinner was served.",
+      "answerZh": "晚餐端上前,埃文的狗一直反覆咬一根骨頭。",
+      "highlight": "chewing on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The soft toy had been bitten into pieces by the puppy.",
+      "promptZh": "那個軟玩具被小狗咬爛了。",
+      "starter": "The",
+      "answer": "The soft toy had been chewed up by the puppy.",
+      "answerZh": "那個軟玩具被小狗咬爛了。",
+      "highlight": "chewed up",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The plan is important. We need to think carefully about it before the meeting.",
+      "promptZh": "這項計劃很重要。我們需要在會議前仔細考慮一下。",
+      "starter": "The",
+      "answer": "The plan is important. We need to chew on it before the meeting.",
+      "answerZh": "這項計劃很重要。我們需要在會議前仔細考慮一下。",
+      "highlight": "chew on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I was angrily scolded by my boss for sending the wrong file.",
+      "promptZh": "我因傳送錯誤檔案而受到老闆嚴厲責罵。",
+      "starter": "I",
+      "answer": "I was chewed out by my boss for sending the wrong file.",
+      "answerZh": "我因傳送錯誤檔案而受到老闆嚴厲責罵。",
+      "highlight": "chewed out",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The goat found a paper bag. Why did it bite it into small pieces instead of leaving it alone?",
+      "promptZh": "那隻山羊找到一個紙袋。牠為甚麼不放着不管,反而把它咬碎?",
+      "starter": "The",
+      "answer": "The goat found a paper bag. Why did it chew it up instead of leaving it alone?",
+      "answerZh": "那隻山羊找到一個紙袋。牠為甚麼不放着不管,反而把它咬碎?",
+      "highlight": "chew",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "While the vet spoke, the puppy kept biting a rope toy.",
+      "promptZh": "獸醫說話時,小狗一直咬着一個繩結玩具。",
+      "starter": "While",
+      "answer": "While the vet spoke, the puppy chewed on a rope toy.",
+      "answerZh": "獸醫說話時,小狗一直咬着一個繩結玩具。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After reading the email, Lena thought carefully about the problem for an hour.",
+      "promptZh": "蓮娜閱讀電郵後,花了一小時仔細考慮那個問題。",
+      "starter": "After",
+      "answer": "After reading the email, Lena chewed the problem over for an hour.",
+      "answerZh": "蓮娜閱讀電郵後,花了一小時仔細考慮那個問題。",
+      "highlight": "chewed",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The director angrily scolded the actor for ignoring the stage rule.",
+      "promptZh": "導演因演員沒有遵守舞台規則而嚴厲責罵他。",
+      "starter": "The",
+      "answer": "The director chewed the actor out for ignoring the stage rule.",
+      "answerZh": "導演因演員沒有遵守舞台規則而嚴厲責罵他。",
+      "highlight": "chewed",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "While thinking about the puzzle, Omar repeatedly bit his lower lip.",
+      "promptZh": "奧馬思考那個謎題時,不停咬下唇。",
+      "starter": "While",
+      "answer": "While thinking about the puzzle, Omar chewed on his lower lip.",
+      "answerZh": "奧馬思考那個謎題時,不停咬下唇。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The caterpillars bit the leaves into small pieces during the night.",
+      "promptZh": "毛蟲在夜間把葉子咬碎了。",
+      "starter": "The",
+      "answer": "The caterpillars chewed up the leaves during the night.",
+      "answerZh": "毛蟲在夜間把葉子咬碎了。",
+      "highlight": "chewed up",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Have you thought carefully about the idea long enough to decide?",
+      "promptZh": "你是否已充分考慮這個構思,可以作決定了?",
+      "starter": "Have",
+      "answer": "Have you chewed on the idea long enough to decide?",
+      "answerZh": "你是否已充分考慮這個構思,可以作決定了?",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The head teacher did not angrily scold Eva; she spoke calmly.",
+      "promptZh": "校長沒有嚴厲責罵伊娃;她只是平靜地說話。",
+      "starter": "The",
+      "answer": "The head teacher did not chew Eva out; she spoke calmly.",
+      "answerZh": "校長沒有嚴厲責罵伊娃;她只是平靜地說話。",
+      "highlight": "chew",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A tired runner kept biting an energy bar during the break.",
+      "promptZh": "一名疲倦的跑手在休息時一直咬着能量棒。",
+      "starter": "A",
+      "answer": "A tired runner chewed on an energy bar during the break.",
+      "answerZh": "一名疲倦的跑手在休息時一直咬着能量棒。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The suggestion was considered carefully by the whole team before they voted.",
+      "promptZh": "整個團隊在投票前仔細考慮了這項建議。",
+      "starter": "The",
+      "answer": "The suggestion was chewed over by the whole team before they voted.",
+      "answerZh": "整個團隊在投票前仔細考慮了這項建議。",
+      "highlight": "chewed over",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Bite the vegetables into small pieces before you swallow them.",
+      "promptZh": "吞下蔬菜前,先把它們嚼碎。",
+      "starter": "Chew",
+      "answer": "Chew the vegetables up before you swallow them.",
+      "answerZh": "吞下蔬菜前,先把它們嚼碎。",
+      "highlight": "Chew",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I expected Mum to angrily scold me for breaking the lamp.",
+      "promptZh": "我以為媽媽會因我打破燈而嚴厲責罵我。",
+      "starter": "I",
+      "answer": "I expected Mum to chew me out for breaking the lamp.",
+      "answerZh": "我以為媽媽會因我打破燈而嚴厲責罵我。",
+      "highlight": "chew",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "During the long wait, Ava repeatedly bit the edge of her paper cup without noticing.",
+      "promptZh": "艾娃在漫長等候期間,不知不覺地不停咬紙杯邊緣。",
+      "starter": "During",
+      "answer": "During the long wait, Ava chewed on the edge of her paper cup without noticing.",
+      "answerZh": "艾娃在漫長等候期間,不知不覺地不停咬紙杯邊緣。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We have two good choices, so let’s think carefully about them before making a final decision.",
+      "promptZh": "我們有兩個不錯的選擇,所以在作最後決定前先仔細考慮一下吧。",
+      "starter": "We",
+      "answer": "We have two good choices, so let’s chew them over before making a final decision.",
+      "answerZh": "我們有兩個不錯的選擇,所以在作最後決定前先仔細考慮一下吧。",
+      "highlight": "chew",
+      "targetForm": "chew something over",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the second warning, the coach angrily scolded Jordan for shouting at the referee.",
+      "promptZh": "第二次警告後,教練因佐敦向裁判大叫而嚴厲責罵他。",
+      "starter": "After",
+      "answer": "After the second warning, the coach chewed Jordan out for shouting at the referee.",
+      "answerZh": "第二次警告後,教練因佐敦向裁判大叫而嚴厲責罵他。",
+      "highlight": "chewed",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "By the time we returned, the dog had bitten the cardboard box into small pieces.",
+      "promptZh": "我們回來時,那隻狗已把紙皮箱咬碎了。",
+      "starter": "By",
+      "answer": "By the time we returned, the dog had chewed the cardboard box up.",
+      "answerZh": "我們回來時,那隻狗已把紙皮箱咬碎了。",
+      "highlight": "chewed",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Nina said she would think carefully about the question overnight before replying.",
+      "promptZh": "妮娜說她會用一晚仔細考慮那個問題,然後才回覆。",
+      "starter": "Nina",
+      "answer": "Nina said she would chew on the question overnight before replying.",
+      "answerZh": "妮娜說她會用一晚仔細考慮那個問題,然後才回覆。",
+      "highlight": "chew on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Why was the child repeatedly biting the rubber duck instead of playing with it?",
+      "promptZh": "那孩子為甚麼一直咬橡膠鴨,而不是拿它來玩?",
+      "starter": "Why",
+      "answer": "Why was the child chewing on the rubber duck instead of playing with it?",
+      "answerZh": "那孩子為甚麼一直咬橡膠鴨,而不是拿它來玩?",
+      "highlight": "chewing on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    },
+    {
+      "id": "phrasal-verb-137-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the files are lost again, we may all be angrily scolded by the manager.",
+      "promptZh": "如果檔案再次遺失,我們所有人都可能被經理嚴厲責罵。",
+      "starter": "If",
+      "answer": "If the files are lost again, we may all be chewed out by the manager.",
+      "answerZh": "如果檔案再次遺失,我們所有人都可能被經理嚴厲責罵。",
+      "highlight": "chewed out",
+      "targetForm": "chew somebody out",
+      "targetMeaningZh": "嚴厲責罵某人;主要用於非正式美式英語"
+    },
+    {
+      "id": "phrasal-verb-137-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The goats found the paper decorations and bit them into small pieces before anyone could stop them.",
+      "promptZh": "那些山羊找到紙製裝飾後,在任何人能阻止牠們前便把裝飾咬碎了。",
+      "starter": "The",
+      "answer": "The goats found the paper decorations and chewed them up before anyone could stop them.",
+      "answerZh": "那些山羊找到紙製裝飾後,在任何人能阻止牠們前便把裝飾咬碎了。",
+      "highlight": "chewed",
+      "targetForm": "chew something up",
+      "targetMeaningZh": "把某物嚼碎或咬爛"
+    },
+    {
+      "id": "phrasal-verb-137-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before accepting the job, Karim spent the weekend thinking carefully about the offer.",
+      "promptZh": "卡里姆在接受那份工作前,花了整個週末仔細考慮那份提議。",
+      "starter": "Before",
+      "answer": "Before accepting the job, Karim spent the weekend chewing over the offer.",
+      "answerZh": "卡里姆在接受那份工作前,花了整個週末仔細考慮那份提議。",
+      "highlight": "chewing over",
+      "targetForm": "chew over something",
+      "targetMeaningZh": "仔細考慮;反覆思量"
+    },
+    {
+      "id": "phrasal-verb-137-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "As the meeting continued, Theo repeatedly bit a piece of bread and listened.",
+      "promptZh": "會議繼續進行時,西奧一邊反覆咬着一塊麵包,一邊聆聽。",
+      "starter": "As",
+      "answer": "As the meeting continued, Theo chewed on a piece of bread and listened.",
+      "answerZh": "會議繼續進行時,西奧一邊反覆咬着一塊麵包,一邊聆聽。",
+      "highlight": "chewed on",
+      "targetForm": "chew on something",
+      "targetMeaningZh": "咬着某物並反覆咀嚼或啃咬"
+    }
+  ]
+}

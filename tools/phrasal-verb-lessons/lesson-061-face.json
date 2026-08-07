@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-61",
+  "order": 61,
+  "slug": "face",
+  "version": "1",
+  "title": "FACE 動詞片語",
+  "titleEn": "Face",
+  "titleZh": "FACE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 60 - FACE.pdf",
+    "sourceNumber": 60,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FACE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FACE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FACE",
+      "highlight": "FACE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The teams face off at 2.30.",
+      "zh": "兩隊於二時三十分對賽。",
+      "highlight": "face off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The front bedroom faces onto a garden.",
+      "zh": "前面的睡房朝向花園。",
+      "highlight": "faces onto",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The President is determined to face down his critics.",
+      "zh": "總統決心與批評者對抗,使他們退讓。",
+      "highlight": "face down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與對手比賽、較量或正式對決；房間、窗戶或建築物朝向某處；勇敢地對抗某人,使對方退讓或不再威嚇自己；承認並面對困難的事實、問題或責任",
+    "en": "face off; face onto something; face somebody down; face up to something",
+    "naturalZh": [
+      "與對手比賽、較量或正式對決",
+      "房間、窗戶或建築物朝向某處",
+      "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+      "承認並面對困難的事實、問題或責任"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "face off",
+      "titleZh": "與對手比賽、較量或正式對決",
+      "titleEn": "face off",
+      "descriptionZh": "與對手比賽、較量或正式對決",
+      "descriptionEn": "The teams face off at 2.30.",
+      "examples": [
+        {
+          "en": "The teams face off at 2.30.",
+          "zh": "兩隊於二時三十分對賽。",
+          "highlight": "face off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "face onto something",
+      "titleZh": "房間、窗戶或建築物朝向某處",
+      "titleEn": "face onto something",
+      "descriptionZh": "房間、窗戶或建築物朝向某處",
+      "descriptionEn": "The front bedroom faces onto a garden.",
+      "examples": [
+        {
+          "en": "The front bedroom faces onto a garden.",
+          "zh": "前面的睡房朝向花園。",
+          "highlight": "faces onto"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "face somebody down",
+      "titleZh": "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+      "titleEn": "face somebody down",
+      "descriptionZh": "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+      "descriptionEn": "The President is determined to face down his critics.",
+      "examples": [
+        {
+          "en": "The President is determined to face down his critics.",
+          "zh": "總統決心與批評者對抗,使他們退讓。",
+          "highlight": "face down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "face up to something",
+      "titleZh": "承認並面對困難的事實、問題或責任",
+      "titleEn": "face up to something",
+      "descriptionZh": "承認並面對困難的事實、問題或責任",
+      "descriptionEn": "When is she going to face up to her responsibilities?",
+      "examples": [
+        {
+          "en": "When is she going to face up to her responsibilities?",
+          "zh": "她甚麼時候才會面對自己的責任?",
+          "highlight": "face up to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FACE 片語動詞的實際用途",
+    "labelEn": "FACE Phrasal Verbs in Use",
+    "summaryZh": "face off 可以描述兩支隊伍、兩名選手或兩名候選人直接較量。；face onto 可以說明房間、窗戶或建築物朝向哪個地方。；face somebody down 表示某人拒絕被嚇倒,並使對方退讓。；face up to 可以表示不再逃避,並承認問題、錯誤、真相或責任。",
+    "summaryEn": "Face off lets you describe two teams, players or candidates competing directly against each other. Face onto helps you explain what a room, window or building looks towards. Face somebody down shows that a person refuses to be frightened and causes the other person to give way. Face up to helps you talk about accepting a problem, mistake, truth or responsibility instead of avoiding it.",
+    "contextsZh": [
+      "談論正面競爭",
+      "描述房間和窗戶的方向",
+      "描述面對威嚇時的勇氣",
+      "坦然面對困難的事實和責任"
+    ],
+    "contextsEn": [
+      "Talk about direct competition",
+      "Describe the direction of rooms and windows",
+      "Describe courage during a difficult confrontation",
+      "Talk honestly about difficult facts and duties"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FACE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FACE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "face off",
+    "fixedHighlight": "face off",
+    "fixedZh": "閱讀整句,選出意思相同的 FACE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FACE expression that gives the same meaning.",
+    "correct": "face off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FACE ... DOWN 中,把人物放在 FACE 和 DOWN 之間。；face off 本身已可完整使用。如要說明對手,可以加上 against。",
+    "variableEn": "Keep the same people, things, time and meaning. In a FACE... DOWN expression, place the person between FACE and DOWN: face him down face them down Face off is complete by itself. To name the opponent, you may add against: face off against another team",
+    "variableItemsZh": [
+      "face off",
+      "face onto something",
+      "face somebody down",
+      "face up to something"
+    ],
+    "variableItemsEn": [
+      "face off",
+      "face onto something",
+      "face somebody down",
+      "face up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "與對手比賽、較量或正式對決",
+        "formEn": "face off",
+        "exampleZh": "兩隊於二時三十分對賽。",
+        "exampleEn": "The teams face off at 2.30.",
+        "highlight": "face off"
+      },
+      {
+        "formZh": "房間、窗戶或建築物朝向某處",
+        "formEn": "face onto something",
+        "exampleZh": "前面的睡房朝向花園。",
+        "exampleEn": "The front bedroom faces onto a garden.",
+        "highlight": "faces onto"
+      },
+      {
+        "formZh": "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+        "formEn": "face somebody down",
+        "exampleZh": "總統決心與批評者對抗,使他們退讓。",
+        "exampleEn": "The President is determined to face down his critics.",
+        "highlight": "face down"
+      },
+      {
+        "formZh": "承認並面對困難的事實、問題或責任",
+        "formEn": "face up to something",
+        "exampleZh": "她甚麼時候才會面對自己的責任?",
+        "exampleEn": "When is she going to face up to her responsibilities?",
+        "highlight": "face up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與對手比賽、較量或正式對決",
+      "titleEn": "face off",
+      "formula": "face off",
+      "highlight": "face off",
+      "descriptionZh": "與對手比賽、較量或正式對決",
+      "descriptionEn": "The teams face off at 2.30.",
+      "examples": [
+        {
+          "en": "The teams face off at 2.30.",
+          "zh": "兩隊於二時三十分對賽。",
+          "highlight": "face off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "房間、窗戶或建築物朝向某處",
+      "titleEn": "face onto something",
+      "formula": "face onto something",
+      "highlight": "face onto something",
+      "descriptionZh": "房間、窗戶或建築物朝向某處",
+      "descriptionEn": "The front bedroom faces onto a garden.",
+      "examples": [
+        {
+          "en": "The front bedroom faces onto a garden.",
+          "zh": "前面的睡房朝向花園。",
+          "highlight": "faces onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+      "titleEn": "face somebody down",
+      "formula": "face somebody down",
+      "highlight": "face somebody down",
+      "descriptionZh": "勇敢地對抗某人,使對方退讓或不再威嚇自己",
+      "descriptionEn": "The President is determined to face down his critics.",
+      "examples": [
+        {
+          "en": "The President is determined to face down his critics.",
+          "zh": "總統決心與批評者對抗,使他們退讓。",
+          "highlight": "face down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "承認並面對困難的事實、問題或責任",
+      "titleEn": "face up to something",
+      "formula": "face up to something",
+      "highlight": "face up to something",
+      "descriptionZh": "承認並面對困難的事實、問題或責任",
+      "descriptionEn": "When is she going to face up to her responsibilities?",
+      "examples": [
+        {
+          "en": "When is she going to face up to her responsibilities?",
+          "zh": "她甚麼時候才會面對自己的責任?",
+          "highlight": "face up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論正面競爭",
+      "titleEn": "Talk about direct competition",
+      "zh": "face off 可以描述兩支隊伍、兩名選手或兩名候選人直接較量。",
+      "en": "Face off lets you describe two teams, players or candidates competing directly against each other."
+    },
+    {
+      "titleZh": "描述房間和窗戶的方向",
+      "titleEn": "Describe the direction of rooms and windows",
+      "zh": "face onto 可以說明房間、窗戶或建築物朝向哪個地方。",
+      "en": "Face onto helps you explain what a room, window or building looks towards."
+    },
+    {
+      "titleZh": "描述面對威嚇時的勇氣",
+      "titleEn": "Describe courage during a difficult confrontation",
+      "zh": "face somebody down 表示某人拒絕被嚇倒,並使對方退讓。",
+      "en": "Face somebody down shows that a person refuses to be frightened and causes the other person to give way."
+    },
+    {
+      "titleZh": "坦然面對困難的事實和責任",
+      "titleEn": "Talk honestly about difficult facts and duties",
+      "zh": "face up to 可以表示不再逃避,並承認問題、錯誤、真相或責任。",
+      "en": "Face up to helps you talk about accepting a problem, mistake, truth or responsibility instead of avoiding it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論正面競爭",
+      "描述房間和窗戶的方向",
+      "描述面對威嚇時的勇氣",
+      "坦然面對困難的事實和責任"
+    ],
+    "contextsEn": [
+      "Talk about direct competition",
+      "Describe the direction of rooms and windows",
+      "Describe courage during a difficult confrontation",
+      "Talk honestly about difficult facts and duties"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論正面競爭",
+        "titleEn": "Talk about direct competition",
+        "zh": "face off 可以描述兩支隊伍、兩名選手或兩名候選人直接較量。",
+        "en": "Face off lets you describe two teams, players or candidates competing directly against each other.",
+        "examples": [
+          {
+            "en": "The teams face off at 2.30.",
+            "zh": "兩隊於二時三十分對賽。",
+            "highlight": "face off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述房間和窗戶的方向",
+        "titleEn": "Describe the direction of rooms and windows",
+        "zh": "face onto 可以說明房間、窗戶或建築物朝向哪個地方。",
+        "en": "Face onto helps you explain what a room, window or building looks towards.",
+        "examples": [
+          {
+            "en": "The front bedroom faces onto a garden.",
+            "zh": "前面的睡房朝向花園。",
+            "highlight": "faces onto"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述面對威嚇時的勇氣",
+        "titleEn": "Describe courage during a difficult confrontation",
+        "zh": "face somebody down 表示某人拒絕被嚇倒,並使對方退讓。",
+        "en": "Face somebody down shows that a person refuses to be frightened and causes the other person to give way.",
+        "examples": [
+          {
+            "en": "The President is determined to face down his critics.",
+            "zh": "總統決心與批評者對抗,使他們退讓。",
+            "highlight": "face down"
+          }
+        ]
+      },
+      {
+        "titleZh": "坦然面對困難的事實和責任",
+        "titleEn": "Talk honestly about difficult facts and duties",
+        "zh": "face up to 可以表示不再逃避,並承認問題、錯誤、真相或責任。",
+        "en": "Face up to helps you talk about accepting a problem, mistake, truth or responsibility instead of avoiding it.",
+        "examples": [
+          {
+            "en": "When is she going to face up to her responsibilities?",
+            "zh": "她甚麼時候才會面對自己的責任?",
+            "highlight": "face up to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FACE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FACE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FACE 片語動詞。",
+      "en": "Read the whole sentence and choose the FACE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FACE ... DOWN 中,把人物放在 FACE 和 DOWN 之間。",
+      "titleEn": "In a FACE.",
+      "zh": "在 FACE ... DOWN 中,把人物放在 FACE 和 DOWN 之間。",
+      "en": "In a FACE... DOWN expression, place the person between FACE and DOWN: face him down face them down"
+    },
+    {
+      "titleZh": "face off 本身已可完整使用。如要說明對手,可以加上 against。",
+      "titleEn": "Face off is complete by itself.",
+      "zh": "face off 本身已可完整使用。如要說明對手,可以加上 against。",
+      "en": "Face off is complete by itself. To name the opponent, you may add against: face off against another team"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FACE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FACE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FACE 動詞片語句子改寫練習",
+    "titleEn": "FACE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FACE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FACE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-61-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The two teams will compete in the final tomorrow.",
+      "promptZh": "兩隊明天將在決賽中對賽。",
+      "starter": "The",
+      "answer": "The two teams will face off in the final tomorrow.",
+      "answerZh": "兩隊明天將在決賽中對賽。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The kitchen looks directly towards the garden.",
+      "promptZh": "廚房正對花園。",
+      "starter": "The",
+      "answer": "The kitchen faces onto the garden.",
+      "answerZh": "廚房正對花園。",
+      "highlight": "faces onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Daniel must accept the fact that he made a mistake.",
+      "promptZh": "丹尼爾必須承認自己犯了錯。",
+      "starter": "Daniel",
+      "answer": "Daniel must face up to the fact that he made a mistake.",
+      "answerZh": "丹尼爾必須承認自己犯了錯。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實或問題"
+    },
+    {
+      "id": "phrasal-verb-61-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The shop owner bravely confronted the angry man until he stopped threatening her.",
+      "promptZh": "店主勇敢地與那名憤怒男子對抗,直至他不再威嚇她。",
+      "starter": "The",
+      "answer": "The shop owner faced the angry man down until he stopped threatening her.",
+      "answerZh": "店主勇敢地與那名憤怒男子對抗,直至他不再威嚇她。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The two chess players will compete at noon.",
+      "promptZh": "兩名棋手將於正午較量。",
+      "starter": "The",
+      "answer": "The two chess players will face off at noon.",
+      "answerZh": "兩名棋手將於正午較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We need to accept the fact that the money is missing.",
+      "promptZh": "我們需要承認那筆錢不見了的事實。",
+      "starter": "We",
+      "answer": "We need to face up to the fact that the money is missing.",
+      "answerZh": "我們需要承認那筆錢不見了的事實。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實或問題"
+    },
+    {
+      "id": "phrasal-verb-61-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The dining room looks directly towards a quiet street.",
+      "promptZh": "飯廳正對一條寧靜的街道。",
+      "starter": "The",
+      "answer": "The dining room faces onto a quiet street.",
+      "answerZh": "飯廳正對一條寧靜的街道。",
+      "highlight": "faces onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher firmly confronted the rude parent until he stopped shouting.",
+      "promptZh": "老師堅定地與那名無禮的家長對抗,直至他停止叫喊。",
+      "starter": "The",
+      "answer": "The teacher faced the rude parent down until he stopped shouting.",
+      "answerZh": "老師堅定地與那名無禮的家長對抗,直至他停止叫喊。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The finalists compete tonight.",
+      "promptZh": "兩名決賽選手今晚較量。",
+      "starter": "The",
+      "answer": "The finalists face off tonight.",
+      "answerZh": "兩名決賽選手今晚較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She finally accepted her responsibilities.",
+      "promptZh": "她終於承擔自己的責任。",
+      "starter": "She",
+      "answer": "She finally faced up to her responsibilities.",
+      "answerZh": "她終於承擔自己的責任。",
+      "highlight": "faced up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對自己的責任"
+    },
+    {
+      "id": "phrasal-verb-61-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new back windows now look towards the sea.",
+      "promptZh": "後方的新窗戶現在朝向大海。",
+      "starter": "The",
+      "answer": "The new back windows now face onto the sea.",
+      "answerZh": "後方的新窗戶現在朝向大海。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The manager is calmly confronting the angry customer and refusing to be frightened.",
+      "promptZh": "經理正冷靜地面對那名憤怒的顧客,拒絕被他嚇倒。",
+      "starter": "The",
+      "answer": "The manager is calmly facing the angry customer down and refusing to be frightened.",
+      "answerZh": "經理正冷靜地面對那名憤怒的顧客,拒絕被他嚇倒。",
+      "highlight": "facing",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our school team has competed against the same club twice this year.",
+      "promptZh": "本校球隊今年已與同一間球會比賽兩次。",
+      "starter": "Our",
+      "answer": "Our school team has faced off against the same club twice this year.",
+      "answerZh": "本校球隊今年已與同一間球會比賽兩次。",
+      "highlight": "faced off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Has he accepted the fact that the plan failed?",
+      "promptZh": "他是否已承認計劃失敗的事實?",
+      "starter": "Has",
+      "answer": "Has he faced up to the fact that the plan failed?",
+      "answerZh": "他是否已承認計劃失敗的事實?",
+      "highlight": "faced up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實"
+    },
+    {
+      "id": "phrasal-verb-61-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The new office will look directly towards the river.",
+      "promptZh": "新辦公室將會正對河流。",
+      "starter": "The",
+      "answer": "The new office will face onto the river.",
+      "answerZh": "新辦公室將會正對河流。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The guard has calmly confronted the shouting men and made them move away.",
+      "promptZh": "守衛冷靜地與那些叫喊的男子對抗,並使他們離開。",
+      "starter": "The",
+      "answer": "The guard has calmly faced the shouting men down and made them move away.",
+      "answerZh": "守衛冷靜地與那些叫喊的男子對抗,並使他們離開。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does your bedroom look towards the park?",
+      "promptZh": "你的睡房是否朝向公園?",
+      "starter": "Does",
+      "answer": "Does your bedroom face onto the park?",
+      "answerZh": "你的睡房是否朝向公園?",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are the two candidates competing in a live debate tonight?",
+      "promptZh": "兩名候選人為何今晚要在直播辯論中較量?",
+      "starter": "Why",
+      "answer": "Why are the two candidates facing off in a live debate tonight?",
+      "answerZh": "兩名候選人為何今晚要在直播辯論中較量?",
+      "highlight": "facing off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The older student did not let the bullies frighten her and forced them to leave.",
+      "promptZh": "那名年長學生沒有被惡霸嚇倒,並迫使他們離開。",
+      "starter": "The",
+      "answer": "The older student faced the bullies down and forced them to leave.",
+      "answerZh": "那名年長學生沒有被惡霸嚇倒,並迫使他們離開。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You cannot avoid accepting the cost of your decision forever.",
+      "promptZh": "你不能永遠逃避承認自己的決定所帶來的代價。",
+      "starter": "You",
+      "answer": "You cannot avoid facing up to the cost of your decision forever.",
+      "answerZh": "你不能永遠逃避面對自己的決定所帶來的代價。",
+      "highlight": "facing up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的後果"
+    },
+    {
+      "id": "phrasal-verb-61-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The man tried to scare us, but we calmly confronted him until he left.",
+      "promptZh": "那名男子企圖嚇唬我們,但我們冷靜地與他對抗,直至他離開。",
+      "starter": "The",
+      "answer": "The man tried to scare us, but we calmly faced him down until he left.",
+      "answerZh": "那名男子企圖嚇唬我們,但我們冷靜地與他對抗,直至他離開。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Our group needs to accept the fact that its first idea will not work.",
+      "promptZh": "我們的小組需要承認第一個構思行不通的事實。",
+      "starter": "Our",
+      "answer": "Our group needs to face up to the fact that its first idea will not work.",
+      "answerZh": "我們的小組需要承認第一個構思行不通的事實。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實"
+    },
+    {
+      "id": "phrasal-verb-61-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The new flats were designed so that their balconies look towards the park.",
+      "promptZh": "這些新住宅的設計使露台朝向公園。",
+      "starter": "The",
+      "answer": "The new flats were designed so that their balconies face onto the park.",
+      "answerZh": "這些新住宅的設計使露台朝向公園。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The semi-final starts at four. The two players will compete then.",
+      "promptZh": "準決賽於四時開始。兩名選手屆時會進行較量。",
+      "starter": "The",
+      "answer": "The semi-final starts at four. The two players will face off then.",
+      "answerZh": "準決賽於四時開始。兩名選手屆時會進行較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the guard bravely confront the shouting man until he left the station?",
+      "promptZh": "守衛是否勇敢地與那名叫喊的男子對抗,直至他離開車站?",
+      "starter": "Did",
+      "answer": "Did the guard bravely face the shouting man down until he left the station?",
+      "answerZh": "守衛是否勇敢地與那名叫喊的男子對抗,直至他離開車站?",
+      "highlight": "face",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We kept avoiding the problem, but it was time to accept it.",
+      "promptZh": "我們一直逃避問題,但現在是時候面對它了。",
+      "starter": "We",
+      "answer": "We kept avoiding the problem, but it was time to face up to it.",
+      "answerZh": "我們一直逃避問題,但現在是時候面對它了。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的問題"
+    },
+    {
+      "id": "phrasal-verb-61-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The café has large windows that look towards the square.",
+      "promptZh": "這間咖啡店的大窗戶朝向廣場。",
+      "starter": "The",
+      "answer": "The café has large windows that face onto the square.",
+      "answerZh": "這間咖啡店的大窗戶朝向廣場。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although she was alone, she firmly confronted the loud man until he stopped arguing.",
+      "promptZh": "雖然她只有一個人,但她堅定地與那名大聲叫喊的男子對抗,直至他停止爭吵。",
+      "starter": "Although",
+      "answer": "Although she was alone, she faced the loud man down until he stopped arguing.",
+      "answerZh": "雖然她只有一個人,但她堅定地與那名大聲叫喊的男子對抗,直至他停止爭吵。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At 7 p.m., the two top teams will compete for the cup.",
+      "promptZh": "晚上七時,兩支頂尖球隊將為獎盃較量。",
+      "starter": "At",
+      "answer": "At 7 p.m., the two top teams will face off for the cup.",
+      "answerZh": "晚上七時,兩支頂尖球隊將為獎盃較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children were finally ready to accept what they had done.",
+      "promptZh": "孩子們終於準備好面對自己所做的事。",
+      "starter": "The",
+      "answer": "The children were finally ready to face up to what they had done.",
+      "answerZh": "孩子們終於準備好面對自己所做的事。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對自己的行為"
+    },
+    {
+      "id": "phrasal-verb-61-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The company cannot solve the problem until it accepts the fact that the old system is failing.",
+      "promptZh": "公司必須承認舊系統正在失效,才能解決問題。",
+      "starter": "The",
+      "answer": "The company cannot solve the problem until it faces up to the fact that the old system is failing.",
+      "answerZh": "公司必須承認舊系統正在失效,才能解決問題。",
+      "highlight": "faces up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實"
+    },
+    {
+      "id": "phrasal-verb-61-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The two cooks will compete in front of the judges in the final round.",
+      "promptZh": "兩名廚師將在最後一輪於評判面前較量。",
+      "starter": "The",
+      "answer": "The two cooks will face off in front of the judges in the final round.",
+      "answerZh": "兩名廚師將在最後一輪於評判面前較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Both windows in the sitting room look directly towards the lake.",
+      "promptZh": "客廳的兩扇窗戶都正對湖泊。",
+      "starter": "Both",
+      "answer": "Both windows in the sitting room face onto the lake.",
+      "answerZh": "客廳的兩扇窗戶都正對湖泊。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The reporter stayed calm and firmly challenged the officer until he stopped trying to frighten her.",
+      "promptZh": "記者保持冷靜,堅定地與那名官員對抗,直至他不再企圖嚇唬她。",
+      "starter": "The",
+      "answer": "The reporter stayed calm and faced the officer down until he stopped trying to frighten her.",
+      "answerZh": "記者保持冷靜,堅定地與那名官員對抗,直至他不再企圖嚇唬她。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of blaming everyone else, Amir needs to accept his own responsibility for the failure.",
+      "promptZh": "阿米爾不應責怪其他人,而應承認自己對失敗所負的責任。",
+      "starter": "Instead",
+      "answer": "Instead of blaming everyone else, Amir needs to face up to his own responsibility for the failure.",
+      "answerZh": "阿米爾不應責怪其他人,而應承認自己對失敗所負的責任。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對自己的責任"
+    },
+    {
+      "id": "phrasal-verb-61-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After winning their groups, the two youngest players now compete for a place in the final.",
+      "promptZh": "兩名最年輕的選手在小組勝出後,現在將爭奪決賽席位。",
+      "starter": "After",
+      "answer": "After winning their groups, the two youngest players now face off for a place in the final.",
+      "answerZh": "兩名最年輕的選手在小組勝出後,現在將爭奪決賽席位。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The new classroom is at the end of the hall, and its main windows look towards the playground.",
+      "promptZh": "新課室位於走廊盡頭,主要窗戶朝向操場。",
+      "starter": "The",
+      "answer": "The new classroom is at the end of the hall, and its main windows face onto the playground.",
+      "answerZh": "新課室位於走廊盡頭,主要窗戶朝向操場。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She kept changing the subject because she did not want to accept the difficult truth.",
+      "promptZh": "她不斷轉換話題,因為她不想承認那個令人難受的真相。",
+      "starter": "She",
+      "answer": "She kept changing the subject because she did not want to face up to the difficult truth.",
+      "answerZh": "她不斷轉換話題,因為她不想承認那個令人難受的真相。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的真相"
+    },
+    {
+      "id": "phrasal-verb-61-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The tall boy tried to frighten Leo, but Leo firmly confronted him until he left.",
+      "promptZh": "那名高大的男孩企圖嚇唬里奧,但里奧堅定地與他對抗,直至他離開。",
+      "starter": "The",
+      "answer": "The tall boy tried to frighten Leo, but Leo faced him down until he left.",
+      "answerZh": "那名高大的男孩企圖嚇唬里奧,但里奧堅定地與他對抗,直至他離開。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Neither side wants to lose when the two teams compete again on Saturday.",
+      "promptZh": "兩隊星期六再次對賽時,雙方都不想落敗。",
+      "starter": "Neither",
+      "answer": "Neither side wants to lose when the two teams face off again on Saturday.",
+      "answerZh": "兩隊星期六再次對賽時,雙方都不想落敗。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The crowd became quiet as the young player calmly challenged the shouting captain until he finally stopped shouting.",
+      "promptZh": "年輕球員冷靜地與那名叫喊的隊長對抗,直至他終於停止叫喊,群眾亦安靜下來。",
+      "starter": "The",
+      "answer": "The crowd became quiet as the young player calmly faced the shouting captain down until he finally stopped shouting.",
+      "answerZh": "年輕球員冷靜地與那名叫喊的隊長對抗,直至他終於停止叫喊,群眾亦安靜下來。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When guests enter the flat, they first see a living room whose glass doors look directly towards a small garden.",
+      "promptZh": "客人進入單位時,首先會看見一個玻璃門正對小花園的客廳。",
+      "starter": "When",
+      "answer": "When guests enter the flat, they first see a living room whose glass doors face onto a small garden.",
+      "answerZh": "客人進入單位時,首先會看見一個玻璃門正對小花園的客廳。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The family can make a sensible budget only after they accept how much they really spend each month.",
+      "promptZh": "這個家庭只有承認每月的實際開支,才能制訂合理的預算。",
+      "starter": "The",
+      "answer": "The family can make a sensible budget only after they face up to how much they really spend each month.",
+      "answerZh": "這個家庭只有承認每月的實際開支,才能制訂合理的預算。",
+      "highlight": "face up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實"
+    },
+    {
+      "id": "phrasal-verb-61-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The final will be the first time these two clubs compete against each other in front of a full stadium.",
+      "promptZh": "這場決賽將是兩間球會首次在滿座的球場內互相較量。",
+      "starter": "The",
+      "answer": "The final will be the first time these two clubs face off against each other in front of a full stadium.",
+      "answerZh": "這場決賽將是兩間球會首次在滿座的球場內互相較量。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The company director tried to frighten the staff member, but she remained calm and made him stop threatening her.",
+      "promptZh": "公司主管企圖嚇唬那名職員,但她保持冷靜,並使他停止威嚇她。",
+      "starter": "The",
+      "answer": "The company director tried to frighten the staff member, but she calmly faced him down and made him stop threatening her.",
+      "answerZh": "公司主管企圖嚇唬那名職員,但她冷靜地與他對抗,並使他停止威嚇她。",
+      "highlight": "calmly faced him down",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the bedroom is small, its two windows look directly towards a bright open garden.",
+      "promptZh": "雖然睡房很小,但兩扇窗戶正對一個明亮開揚的花園。",
+      "starter": "Although",
+      "answer": "Although the bedroom is small, its two windows face onto a bright open garden.",
+      "answerZh": "雖然睡房很小,但兩扇窗戶正對一個明亮開揚的花園。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the boys blocked the doorway, the older woman challenged them firmly until they moved aside.",
+      "promptZh": "那些男孩堵住門口時,那名年長女子堅定地與他們對抗,直至他們讓開。",
+      "starter": "When",
+      "answer": "When the boys blocked the doorway, the older woman faced them down until they moved aside.",
+      "answerZh": "那些男孩堵住門口時,那名年長女子堅定地與他們對抗,直至他們讓開。",
+      "highlight": "faced",
+      "targetForm": "face somebody down",
+      "targetMeaningZh": "勇敢對抗某人,使對方退讓"
+    },
+    {
+      "id": "phrasal-verb-61-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After months of training, the two best young boxers compete tonight to decide who joins the national team.",
+      "promptZh": "經過多月訓練後,兩名最出色的年輕拳手今晚將會較量,以決定誰能加入國家隊。",
+      "starter": "After",
+      "answer": "After months of training, the two best young boxers face off tonight to decide who joins the national team.",
+      "answerZh": "經過多月訓練後,兩名最出色的年輕拳手今晚將會較量,以決定誰能加入國家隊。",
+      "highlight": "face off",
+      "targetForm": "face off",
+      "targetMeaningZh": "與對手比賽或對決"
+    },
+    {
+      "id": "phrasal-verb-61-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The house feels private because none of its main rooms look towards the busy road.",
+      "promptZh": "這所房子感覺很有私隱,因為主要房間都不朝向繁忙的道路。",
+      "starter": "The",
+      "answer": "The house feels private because none of its main rooms face onto the busy road.",
+      "answerZh": "這所房子感覺很有私隱,因為主要房間都不朝向繁忙的道路。",
+      "highlight": "face onto",
+      "targetForm": "face onto something",
+      "targetMeaningZh": "朝向某處"
+    },
+    {
+      "id": "phrasal-verb-61-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "For years, the club blamed bad luck, but improvement began only when the players accepted the fact that their training was not good enough.",
+      "promptZh": "多年來,球會一直歸咎於運氣欠佳;直至球員承認訓練不足,情況才開始改善。",
+      "starter": "For",
+      "answer": "For years, the club blamed bad luck, but improvement began only when the players faced up to the fact that their training was not good enough.",
+      "answerZh": "多年來,球會一直歸咎於運氣欠佳;直至球員承認訓練不足,情況才開始改善。",
+      "highlight": "faced up to",
+      "targetForm": "face up to something",
+      "targetMeaningZh": "承認並面對困難的事實"
+    }
+  ]
+}

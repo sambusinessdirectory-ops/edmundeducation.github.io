@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-318",
+  "order": 318,
+  "slug": "sort",
+  "version": "1",
+  "title": "SORT 動詞片語",
+  "titleEn": "Sort",
+  "titleZh": "SORT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 303 - SORT.pdf",
+    "sourceNumber": 303,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SORT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SORT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SORT",
+      "highlight": "SORT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The guards were sent to sort the troublemakers out.",
+      "zh": "守衛被派去對付那些滋事者。",
+      "highlight": "sort the troublemakers out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I can sort you out with some dry clothes.",
+      "zh": "我可以給你提供一些乾衣服。",
+      "highlight": "sort you out with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The problem should sort itself out soon.",
+      "zh": "這個問題應該很快便會自行解決。",
+      "highlight": "sort itself out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味；為某人提供或安排所需的物品；問題或情況自行解決,無須別人處理；逐一查看或整理大量物件,以尋找或選出所需的東西",
+    "en": "sort somebody out; sort somebody out with something; sort itself out; sort through something",
+    "naturalZh": [
+      "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+      "為某人提供或安排所需的物品",
+      "問題或情況自行解決,無須別人處理",
+      "逐一查看或整理大量物件,以尋找或選出所需的東西"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sort somebody out",
+      "titleZh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+      "titleEn": "sort somebody out",
+      "descriptionZh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+      "descriptionEn": "The guards were sent to sort the troublemakers out.",
+      "examples": [
+        {
+          "en": "The guards were sent to sort the troublemakers out.",
+          "zh": "守衛被派去對付那些滋事者。",
+          "highlight": "sort the troublemakers out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sort somebody out with something",
+      "titleZh": "為某人提供或安排所需的物品",
+      "titleEn": "sort somebody out with something",
+      "descriptionZh": "為某人提供或安排所需的物品",
+      "descriptionEn": "I can sort you out with some dry clothes.",
+      "examples": [
+        {
+          "en": "I can sort you out with some dry clothes.",
+          "zh": "我可以給你提供一些乾衣服。",
+          "highlight": "sort you out with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sort itself out",
+      "titleZh": "問題或情況自行解決,無須別人處理",
+      "titleEn": "sort itself out",
+      "descriptionZh": "問題或情況自行解決,無須別人處理",
+      "descriptionEn": "The problem should sort itself out soon.",
+      "examples": [
+        {
+          "en": "The problem should sort itself out soon.",
+          "zh": "這個問題應該很快便會自行解決。",
+          "highlight": "sort itself out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sort through something",
+      "titleZh": "逐一查看或整理大量物件,以尋找或選出所需的東西",
+      "titleEn": "sort through something",
+      "descriptionZh": "逐一查看或整理大量物件,以尋找或選出所需的東西",
+      "descriptionEn": "She sorted through the box of old photos.",
+      "examples": [
+        {
+          "en": "She sorted through the box of old photos.",
+          "zh": "她逐一查看箱內的舊照片。",
+          "highlight": "sorted through"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SORT 片語動詞的實際用途",
+    "labelEn": "SORT Phrasal Verbs in Use",
+    "summaryZh": "sort somebody out 是非正式表達,可表示對付或懲治惹麻煩的人。這個說法有時帶有威嚇意味,因此必須留意情境和語氣。；sort somebody out with something 可以用來表示為別人提供衣物、門票、食物、房間或其他所需物品。；sort itself out 可以表示一個問題或混亂情況無須別人處理,便自然得到解決。；sort through something 適合用來描述逐一查看衣物、文件、照片、訊息或其他物件的過程。",
+    "summaryEn": "Sort somebody out is an informal expression used when someone intends to deal firmly with or punish a person who has caused trouble. It can sound aggressive, so the situation and tone are important. Sort somebody out with something can be used when providing clothes, tickets, food, a room or another item that someone needs. Sort itself out expresses the idea that a problem or confusing situation becomes settled naturally. Sort through something is useful when examining clothes, papers, photographs, messages or other items one by one.",
+    "contextsZh": [
+      "描述以強硬方式對付滋事者",
+      "自然地表示為別人提供協助",
+      "談論自行解決的問題",
+      "描述仔細尋找和查看的過程"
+    ],
+    "contextsEn": [
+      "Describe dealing firmly with troublesome behaviour",
+      "Offer practical help naturally",
+      "Talk about problems that disappear without help",
+      "Describe careful searching and checking"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SORT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SORT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sort somebody out",
+    "fixedHighlight": "sort somebody out",
+    "fixedZh": "閱讀整句,選出意思相同的 SORT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SORT expression that gives the same meaning.",
+    "correct": "sort the troublemakers out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 SORT ... OUT 中,把 him、her、us、them 和 itself 等字詞放在 SORT 和 OUT 中間。；sort somebody out 和 sort somebody out with something 的意思非常不同。前者可以表示對付或懲治惹麻煩的人;後者則表示為某人提供所需物品。",
+    "variableEn": "Keep the same people, things, time and meaning. In SORT... OUT expressions, place words such as him, her, us, them and itself between SORT and OUT: sort him out sort them out with tickets sort itself out Sort somebody out and sort somebody out with something have very different meanings. The first can mean dealing with or punishing a troublesome person. The second means providing someone with something they need.",
+    "variableItemsZh": [
+      "sort somebody out",
+      "sort somebody out with something",
+      "sort itself out",
+      "sort through something"
+    ],
+    "variableItemsEn": [
+      "sort somebody out",
+      "sort somebody out with something",
+      "sort itself out",
+      "sort through something"
+    ],
+    "forms": [
+      {
+        "formZh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+        "formEn": "sort somebody out",
+        "exampleZh": "守衛被派去對付那些滋事者。",
+        "exampleEn": "The guards were sent to sort the troublemakers out.",
+        "highlight": "sort the troublemakers out"
+      },
+      {
+        "formZh": "為某人提供或安排所需的物品",
+        "formEn": "sort somebody out with something",
+        "exampleZh": "我可以給你提供一些乾衣服。",
+        "exampleEn": "I can sort you out with some dry clothes.",
+        "highlight": "sort you out with"
+      },
+      {
+        "formZh": "問題或情況自行解決,無須別人處理",
+        "formEn": "sort itself out",
+        "exampleZh": "這個問題應該很快便會自行解決。",
+        "exampleEn": "The problem should sort itself out soon.",
+        "highlight": "sort itself out"
+      },
+      {
+        "formZh": "逐一查看或整理大量物件,以尋找或選出所需的東西",
+        "formEn": "sort through something",
+        "exampleZh": "她逐一查看箱內的舊照片。",
+        "exampleEn": "She sorted through the box of old photos.",
+        "highlight": "sorted through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+      "titleEn": "sort somebody out",
+      "formula": "sort somebody out",
+      "highlight": "sort somebody out",
+      "descriptionZh": "以強硬方式對付或懲治惹麻煩的人;有時帶威嚇或武力意味",
+      "descriptionEn": "The guards were sent to sort the troublemakers out.",
+      "examples": [
+        {
+          "en": "The guards were sent to sort the troublemakers out.",
+          "zh": "守衛被派去對付那些滋事者。",
+          "highlight": "sort the troublemakers out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "為某人提供或安排所需的物品",
+      "titleEn": "sort somebody out with something",
+      "formula": "sort somebody out with something",
+      "highlight": "sort somebody out with something",
+      "descriptionZh": "為某人提供或安排所需的物品",
+      "descriptionEn": "I can sort you out with some dry clothes.",
+      "examples": [
+        {
+          "en": "I can sort you out with some dry clothes.",
+          "zh": "我可以給你提供一些乾衣服。",
+          "highlight": "sort you out with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "問題或情況自行解決,無須別人處理",
+      "titleEn": "sort itself out",
+      "formula": "sort itself out",
+      "highlight": "sort itself out",
+      "descriptionZh": "問題或情況自行解決,無須別人處理",
+      "descriptionEn": "The problem should sort itself out soon.",
+      "examples": [
+        {
+          "en": "The problem should sort itself out soon.",
+          "zh": "這個問題應該很快便會自行解決。",
+          "highlight": "sort itself out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "逐一查看或整理大量物件,以尋找或選出所需的東西",
+      "titleEn": "sort through something",
+      "formula": "sort through something",
+      "highlight": "sort through something",
+      "descriptionZh": "逐一查看或整理大量物件,以尋找或選出所需的東西",
+      "descriptionEn": "She sorted through the box of old photos.",
+      "examples": [
+        {
+          "en": "She sorted through the box of old photos.",
+          "zh": "她逐一查看箱內的舊照片。",
+          "highlight": "sorted through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述以強硬方式對付滋事者",
+      "titleEn": "Describe dealing firmly with troublesome behaviour",
+      "zh": "sort somebody out 是非正式表達,可表示對付或懲治惹麻煩的人。這個說法有時帶有威嚇意味,因此必須留意情境和語氣。",
+      "en": "Sort somebody out is an informal expression used when someone intends to deal firmly with or punish a person who has caused trouble. It can sound aggressive, so the situation and tone are important."
+    },
+    {
+      "titleZh": "自然地表示為別人提供協助",
+      "titleEn": "Offer practical help naturally",
+      "zh": "sort somebody out with something 可以用來表示為別人提供衣物、門票、食物、房間或其他所需物品。",
+      "en": "Sort somebody out with something can be used when providing clothes, tickets, food, a room or another item that someone needs."
+    },
+    {
+      "titleZh": "談論自行解決的問題",
+      "titleEn": "Talk about problems that disappear without help",
+      "zh": "sort itself out 可以表示一個問題或混亂情況無須別人處理,便自然得到解決。",
+      "en": "Sort itself out expresses the idea that a problem or confusing situation becomes settled naturally."
+    },
+    {
+      "titleZh": "描述仔細尋找和查看的過程",
+      "titleEn": "Describe careful searching and checking",
+      "zh": "sort through something 適合用來描述逐一查看衣物、文件、照片、訊息或其他物件的過程。",
+      "en": "Sort through something is useful when examining clothes, papers, photographs, messages or other items one by one."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述以強硬方式對付滋事者",
+      "自然地表示為別人提供協助",
+      "談論自行解決的問題",
+      "描述仔細尋找和查看的過程"
+    ],
+    "contextsEn": [
+      "Describe dealing firmly with troublesome behaviour",
+      "Offer practical help naturally",
+      "Talk about problems that disappear without help",
+      "Describe careful searching and checking"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述以強硬方式對付滋事者",
+        "titleEn": "Describe dealing firmly with troublesome behaviour",
+        "zh": "sort somebody out 是非正式表達,可表示對付或懲治惹麻煩的人。這個說法有時帶有威嚇意味,因此必須留意情境和語氣。",
+        "en": "Sort somebody out is an informal expression used when someone intends to deal firmly with or punish a person who has caused trouble. It can sound aggressive, so the situation and tone are important.",
+        "examples": [
+          {
+            "en": "The guards were sent to sort the troublemakers out.",
+            "zh": "守衛被派去對付那些滋事者。",
+            "highlight": "sort the troublemakers out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地表示為別人提供協助",
+        "titleEn": "Offer practical help naturally",
+        "zh": "sort somebody out with something 可以用來表示為別人提供衣物、門票、食物、房間或其他所需物品。",
+        "en": "Sort somebody out with something can be used when providing clothes, tickets, food, a room or another item that someone needs.",
+        "examples": [
+          {
+            "en": "I can sort you out with some dry clothes.",
+            "zh": "我可以給你提供一些乾衣服。",
+            "highlight": "sort you out with"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論自行解決的問題",
+        "titleEn": "Talk about problems that disappear without help",
+        "zh": "sort itself out 可以表示一個問題或混亂情況無須別人處理,便自然得到解決。",
+        "en": "Sort itself out expresses the idea that a problem or confusing situation becomes settled naturally.",
+        "examples": [
+          {
+            "en": "The problem should sort itself out soon.",
+            "zh": "這個問題應該很快便會自行解決。",
+            "highlight": "sort itself out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述仔細尋找和查看的過程",
+        "titleEn": "Describe careful searching and checking",
+        "zh": "sort through something 適合用來描述逐一查看衣物、文件、照片、訊息或其他物件的過程。",
+        "en": "Sort through something is useful when examining clothes, papers, photographs, messages or other items one by one.",
+        "examples": [
+          {
+            "en": "She sorted through the box of old photos.",
+            "zh": "她逐一查看箱內的舊照片。",
+            "highlight": "sorted through"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SORT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SORT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SORT 片語動詞。",
+      "en": "Read the whole sentence and choose the SORT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 SORT ... OUT 中,把 him、her、us、them 和 itself 等字詞放在 SORT 和 OUT 中間。",
+      "titleEn": "In SORT.",
+      "zh": "在 SORT ... OUT 中,把 him、her、us、them 和 itself 等字詞放在 SORT 和 OUT 中間。",
+      "en": "In SORT... OUT expressions, place words such as him, her, us, them and itself between SORT and OUT: sort him out sort them out with tickets sort itself out"
+    },
+    {
+      "titleZh": "sort somebody out 和 sort somebody out with something 的意思非常不同。前者可以表示對付或懲治惹麻煩的人;後者則表示為某人提供所需物品。",
+      "titleEn": "Sort somebody out and sort somebody out with something have very different meanings.",
+      "zh": "sort somebody out 和 sort somebody out with something 的意思非常不同。前者可以表示對付或懲治惹麻煩的人;後者則表示為某人提供所需物品。",
+      "en": "Sort somebody out and sort somebody out with something have very different meanings. The first can mean dealing with or punishing a troublesome person. The second means providing someone with something they need."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SORT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SORT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SORT 動詞片語句子改寫練習",
+    "titleEn": "SORT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SORT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SORT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-318-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I can provide you with a clean shirt.",
+      "promptZh": "我可以給你提供一件乾淨的恤衫。",
+      "starter": "I",
+      "answer": "I can sort you out with a clean shirt.",
+      "answerZh": "我可以給你提供一件乾淨的恤衫。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "She examined the clothes in her wardrobe one by one to find something warm.",
+      "promptZh": "她逐件查看衣櫃裏的衣服,想找一件保暖的衣物。",
+      "starter": "She",
+      "answer": "She sorted through her wardrobe for something warm.",
+      "answerZh": "她逐件查看衣櫃裏的衣服,想找一件保暖的衣物。",
+      "highlight": "sorted through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The manager sent the security guards to deal firmly with the troublemakers.",
+      "promptZh": "經理派保安人員去對付那些滋事者。",
+      "starter": "The",
+      "answer": "The manager sent the security guards to sort the troublemakers out.",
+      "answerZh": "經理派保安人員去對付那些滋事者。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The problem should disappear without any help soon.",
+      "promptZh": "這個問題應該很快便會自行消失。",
+      "starter": "The",
+      "answer": "The problem should sort itself out soon.",
+      "answerZh": "這個問題應該很快便會自行解決。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The hotel provided us with a room for the night.",
+      "promptZh": "酒店為我們安排了一個房間過夜。",
+      "starter": "The",
+      "answer": "The hotel sorted us out with a room for the night.",
+      "answerZh": "酒店為我們安排了一個房間過夜。",
+      "highlight": "sorted",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供或安排所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I examined the old photos one by one yesterday.",
+      "promptZh": "我昨天逐張查看了那些舊照片。",
+      "starter": "I",
+      "answer": "I sorted through the old photos yesterday.",
+      "answerZh": "我昨天逐張查看了那些舊照片。",
+      "highlight": "sorted through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The captain promised to punish the players for starting the fight.",
+      "promptZh": "隊長答應會懲罰引起打鬥的球員。",
+      "starter": "The",
+      "answer": "The captain promised to sort the players out for starting the fight.",
+      "answerZh": "隊長答應會懲治引起打鬥的球員。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Nobody helped, but the booking problem was gone by the next morning.",
+      "promptZh": "沒有人處理,但訂位問題到了翌日早上便自行消失了。",
+      "starter": "The",
+      "answer": "The booking problem sorted itself out by the next morning.",
+      "answerZh": "訂位問題到了翌日早上便自行解決了。",
+      "highlight": "sorted itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Can you get me a train ticket?",
+      "promptZh": "你可以替我安排一張火車票嗎?",
+      "starter": "Can",
+      "answer": "Can you sort me out with a train ticket?",
+      "answerZh": "你可以替我安排一張火車票嗎?",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供或安排所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We need to examine the things in these boxes one by one.",
+      "promptZh": "我們需要逐一查看這些箱子裏的物品。",
+      "starter": "We",
+      "answer": "We need to sort through these boxes.",
+      "answerZh": "我們需要逐一查看這些箱子裏的物品。",
+      "highlight": "sort through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The internet problem has gone away on its own.",
+      "promptZh": "網絡問題已經自行消失了。",
+      "starter": "The",
+      "answer": "The internet problem has sorted itself out.",
+      "answerZh": "網絡問題已經自行解決了。",
+      "highlight": "sorted itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guards will punish him if he causes trouble again.",
+      "promptZh": "如果他再次惹麻煩,守衛便會懲治他。",
+      "starter": "The",
+      "answer": "The guards will sort him out if he causes trouble again.",
+      "answerZh": "如果他再次惹麻煩,守衛便會懲治他。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They are examining all the forms one by one now.",
+      "promptZh": "他們現在正逐一查看所有表格。",
+      "starter": "They",
+      "answer": "They are sorting through all the forms one by one now.",
+      "answerZh": "他們現在正逐一查看所有表格。",
+      "highlight": "sorting through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Our teacher has provided us with extra practice books.",
+      "promptZh": "老師已給我們提供額外的練習冊。",
+      "starter": "Our",
+      "answer": "Our teacher has sorted us out with extra practice books.",
+      "answerZh": "老師已給我們提供額外的練習冊。",
+      "highlight": "sorted",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Who is going to punish those boys for what they did?",
+      "promptZh": "誰會因為那些男孩所做的事而懲罰他們?",
+      "starter": "Who",
+      "answer": "Who is going to sort those boys out for what they did?",
+      "answerZh": "誰會因為那些男孩所做的事而懲治他們?",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The problem may not go away on its own this time.",
+      "promptZh": "這次問題未必會自行消失。",
+      "starter": "The",
+      "answer": "The problem may not sort itself out this time.",
+      "answerZh": "這次問題未必會自行解決。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I was checking my emails one by one when I found your message.",
+      "promptZh": "我逐封查看電郵時,找到了你的訊息。",
+      "starter": "I",
+      "answer": "I was sorting through my emails when I found your message.",
+      "answerZh": "我逐封查看電郵時,找到了你的訊息。",
+      "highlight": "sorting through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The shop could not provide me with a jacket in the right size.",
+      "promptZh": "店舖未能給我提供一件尺碼合適的外套。",
+      "starter": "The",
+      "answer": "The shop could not sort me out with a jacket in the right size.",
+      "answerZh": "店舖未能給我提供一件尺碼合適的外套。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do you think the confusion will clear without anyone helping?",
+      "promptZh": "你認為這個混亂情況會自行解決嗎?",
+      "starter": "Do",
+      "answer": "Do you think the confusion will sort itself out?",
+      "answerZh": "你認為這個混亂情況會自行解決嗎?",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The coach had already punished the troublemakers before the match began.",
+      "promptZh": "比賽開始前,教練已經懲罰了那些滋事者。",
+      "starter": "The",
+      "answer": "The coach had already sorted the troublemakers out before the match began.",
+      "answerZh": "比賽開始前,教練已經懲治了那些滋事者。",
+      "highlight": "sorted",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Here are the papers. Please examine them one by one and keep the useful ones.",
+      "promptZh": "文件在這裏。請逐一查看,並保留有用的文件。",
+      "starter": "Here",
+      "answer": "Here are the papers. Please sort through them and keep the useful ones.",
+      "answerZh": "文件在這裏。請逐一查看,並保留有用的文件。",
+      "highlight": "sort through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The school provided them with new uniforms.",
+      "promptZh": "學校給他們提供了新校服。",
+      "starter": "The",
+      "answer": "The school sorted them out with new uniforms.",
+      "answerZh": "學校給他們提供了新校服。",
+      "highlight": "sorted",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We waited to see whether the problem would disappear without help.",
+      "promptZh": "我們等待看看問題會否自行消失。",
+      "starter": "We",
+      "answer": "We waited to see whether the problem would sort itself out.",
+      "answerZh": "我們等待看看問題會否自行解決。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They sent two men to punish him.",
+      "promptZh": "他們派了兩個人去教訓他。",
+      "starter": "They",
+      "answer": "They sent two men to sort him out.",
+      "answerZh": "他們派了兩個人去教訓他。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Examining all these receipts one by one will take an hour.",
+      "promptZh": "逐一查看所有這些收據需要一小時。",
+      "starter": "Sorting",
+      "answer": "Sorting through all these receipts will take an hour.",
+      "answerZh": "逐一查看所有這些收據需要一小時。",
+      "highlight": "Sorting through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Who provided you with the spare key?",
+      "promptZh": "誰給你提供了後備鎖匙?",
+      "starter": "Who",
+      "answer": "Who sorted you out with the spare key?",
+      "answerZh": "誰給你提供了後備鎖匙?",
+      "highlight": "sorted",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The mix-up was slowly becoming clear without anyone helping.",
+      "promptZh": "沒有人協助,但這場混亂正逐漸自行解決。",
+      "starter": "The",
+      "answer": "The mix-up was slowly sorting itself out.",
+      "answerZh": "這場混亂正逐漸自行解決。",
+      "highlight": "sorting itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After examining the papers one by one, Ava found the bill.",
+      "promptZh": "艾娃逐一查看文件後,找到了帳單。",
+      "starter": "After",
+      "answer": "After sorting through the papers, Ava found the bill.",
+      "answerZh": "艾娃逐一查看文件後,找到了帳單。",
+      "highlight": "sorting through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The head teacher said she would punish the boys herself.",
+      "promptZh": "校長說她會親自懲罰那些男孩。",
+      "starter": "The",
+      "answer": "The head teacher said she would sort the boys out herself.",
+      "answerZh": "校長說她會親自懲治那些男孩。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The coach offered to provide us with water and towels.",
+      "promptZh": "教練主動提出為我們提供食水和毛巾。",
+      "starter": "The",
+      "answer": "The coach offered to sort us out with water and towels.",
+      "answerZh": "教練主動提出為我們提供食水和毛巾。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The older boys threatened to punish Leo for telling the teacher what they had done.",
+      "promptZh": "那些年長的男孩威脅要教訓里奧,因為他把他們所做的事告訴了老師。",
+      "starter": "The",
+      "answer": "The older boys threatened to sort Leo out for telling the teacher what they had done.",
+      "answerZh": "那些年長的男孩威脅要教訓里奧,因為他把他們所做的事告訴了老師。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I hoped the disagreement would end naturally without anyone helping.",
+      "promptZh": "我希望這場爭執無須任何人協助便會自然結束。",
+      "starter": "I",
+      "answer": "I hoped the disagreement would sort itself out without anyone helping.",
+      "answerZh": "我希望這場爭執無須任何人協助便會自行解決。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The airline managed to provide us with seats together.",
+      "promptZh": "航空公司成功為我們安排了相連的座位。",
+      "starter": "The",
+      "answer": "The airline managed to sort us out with seats together.",
+      "answerZh": "航空公司成功為我們安排了相連的座位。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供或安排所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before deciding what to keep, examine every item in the drawer carefully.",
+      "promptZh": "決定保留哪些東西前,先仔細逐一查看抽屜裏的物品。",
+      "starter": "Before",
+      "answer": "Before deciding what to keep, sort through the drawer carefully.",
+      "answerZh": "決定保留哪些東西前,先仔細逐一查看抽屜裏的物品。",
+      "highlight": "sort through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The owner called security to deal firmly with the men after they broke a table.",
+      "promptZh": "那些人弄壞一張桌子後,店主召來保安人員對付他們。",
+      "starter": "The",
+      "answer": "The owner called security to sort the men out after they broke a table.",
+      "answerZh": "那些人弄壞一張桌子後,店主召來保安人員對付他們。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If the printer problem does not go away on its own, call the office.",
+      "promptZh": "如果打印機問題沒有自行消失,便致電辦公室。",
+      "starter": "If",
+      "answer": "If the printer problem does not sort itself out, call the office.",
+      "answerZh": "如果打印機問題沒有自行解決,便致電辦公室。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She said she could provide him with some dry clothes.",
+      "promptZh": "她說可以給他提供一些乾衣服。",
+      "starter": "She",
+      "answer": "She said she could sort him out with some dry clothes.",
+      "answerZh": "她說可以給他提供一些乾衣服。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Have you checked all the messages from yesterday one by one?",
+      "promptZh": "你有逐一查看昨天的所有訊息嗎?",
+      "starter": "Have",
+      "answer": "Have you sorted through all the messages from yesterday?",
+      "answerZh": "你有逐一查看昨天的所有訊息嗎?",
+      "highlight": "sorted through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By lunchtime, the problem had disappeared without anyone fixing it.",
+      "promptZh": "到了午飯時間,問題已在無人處理下自行消失。",
+      "starter": "By",
+      "answer": "By lunchtime, the problem had sorted itself out.",
+      "answerZh": "到了午飯時間,問題已經自行解決。",
+      "highlight": "sorted itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nobody should threaten to punish her just because she made one mistake.",
+      "promptZh": "沒有人應該只因為她犯了一個錯誤便威脅要教訓她。",
+      "starter": "Nobody",
+      "answer": "Nobody should threaten to sort her out just because she made one mistake.",
+      "answerZh": "沒有人應該只因為她犯了一個錯誤便威脅要教訓她。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If you arrive early, the staff can provide you with a locker and a towel.",
+      "promptZh": "如果你提早到達,職員可以為你安排一個儲物櫃和一條毛巾。",
+      "starter": "If",
+      "answer": "If you arrive early, the staff can sort you out with a locker and a towel.",
+      "answerZh": "如果你提早到達,職員可以為你安排一個儲物櫃和一條毛巾。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供或安排所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "While examining the boxes in the spare room one by one, we found an old school bag.",
+      "promptZh": "我們逐一查看空房裏的箱子時,找到了一個舊書包。",
+      "starter": "While",
+      "answer": "While sorting through the boxes in the spare room, we found an old school bag.",
+      "answerZh": "我們逐一查看空房裏的箱子時,找到了一個舊書包。",
+      "highlight": "sorting through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The shop owner did not want a fight, but he asked the guards to deal firmly with the troublemakers.",
+      "promptZh": "店主不希望發生打鬥,但他要求守衛以強硬方式對付滋事者。",
+      "starter": "The",
+      "answer": "The shop owner did not want a fight, but he asked the guards to sort the troublemakers out.",
+      "answerZh": "店主不希望發生打鬥,但他要求守衛以強硬方式對付滋事者。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We changed nothing because we believed the small problem would disappear on its own.",
+      "promptZh": "我們沒有作出任何改變,因為我們相信這個小問題會自行消失。",
+      "starter": "We",
+      "answer": "We changed nothing because we believed the small problem would sort itself out.",
+      "answerZh": "我們沒有作出任何改變,因為我們相信這個小問題會自行解決。",
+      "highlight": "sort itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before choosing a photo for the poster, Noor examined nearly a hundred pictures.",
+      "promptZh": "努爾為海報選擇照片前,逐一查看了接近一百張圖片。",
+      "starter": "Before",
+      "answer": "Before choosing a photo for the poster, Noor sorted through nearly a hundred pictures.",
+      "answerZh": "努爾為海報選擇照片前,逐一查看了接近一百張圖片。",
+      "highlight": "sorted through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Could the hotel provide our group with an early breakfast?",
+      "promptZh": "酒店可以為我們一行人安排提早享用早餐嗎?",
+      "starter": "Could",
+      "answer": "Could the hotel sort our group out with an early breakfast?",
+      "answerZh": "酒店可以為我們一行人安排提早享用早餐嗎?",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供或安排所需物品"
+    },
+    {
+      "id": "phrasal-verb-318-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If those men return and start another fight, security will deal firmly with them.",
+      "promptZh": "如果那些人回來再次引起打鬥,保安人員便會對付他們。",
+      "starter": "If",
+      "answer": "If those men return and start another fight, security will sort them out.",
+      "answerZh": "如果那些人回來再次引起打鬥,保安人員便會對付他們。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out",
+      "targetMeaningZh": "以強硬方式對付或懲治某人"
+    },
+    {
+      "id": "phrasal-verb-318-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "It took Sam most of the evening to examine the clothes and decide what to keep.",
+      "promptZh": "森花了大半個晚上逐件查看衣服,並決定保留哪些衣物。",
+      "starter": "It",
+      "answer": "It took Sam most of the evening to sort through the clothes and decide what to keep.",
+      "answerZh": "森花了大半個晚上逐件查看衣服,並決定保留哪些衣物。",
+      "highlight": "sort through",
+      "targetForm": "sort through something",
+      "targetMeaningZh": "逐一查看或整理大量物件"
+    },
+    {
+      "id": "phrasal-verb-318-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Although the mix-up looked serious at first, it eventually disappeared without anyone fixing it.",
+      "promptZh": "雖然這場混亂起初看來很嚴重,但最後無須任何人處理便自行解決了。",
+      "starter": "Although",
+      "answer": "Although the mix-up looked serious at first, it eventually sorted itself out.",
+      "answerZh": "雖然這場混亂起初看來很嚴重,但最後自行解決了。",
+      "highlight": "sorted itself out",
+      "targetForm": "sort itself out",
+      "targetMeaningZh": "問題或情況自行解決"
+    },
+    {
+      "id": "phrasal-verb-318-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The club was able to provide every new member with a name badge.",
+      "promptZh": "會所能夠為每位新會員提供姓名牌。",
+      "starter": "The",
+      "answer": "The club was able to sort every new member out with a name badge.",
+      "answerZh": "會所能夠為每位新會員提供姓名牌。",
+      "highlight": "sort",
+      "targetForm": "sort somebody out with something",
+      "targetMeaningZh": "為某人提供所需物品"
+    }
+  ]
+}

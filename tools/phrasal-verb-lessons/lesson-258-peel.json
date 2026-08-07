@@ -1,0 +1,1251 @@
+{
+  "id": "phrasal-verb-258",
+  "order": 258,
+  "slug": "peel",
+  "version": "1",
+  "title": "PEEL 動詞片語",
+  "titleEn": "Peel",
+  "titleZh": "PEEL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 243 - PEEL.pdf",
+    "sourceNumber": 243,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PEEL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PEEL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PEEL",
+      "highlight": "PEEL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The wallpaper had started to peel away from the wall.",
+      "zh": "牆紙已開始從牆身剝離。)She peeled back the corner of the carpet.(她揭開地氈的一角。",
+      "highlight": "peel away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The wallpaper was peeling off.",
+      "zh": "牆紙正在剝落。",
+      "highlight": "peeling off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He peeled off his wet clothes.",
+      "zh": "他把濕衣服脫下。",
+      "highlight": "peeled off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起；薄層、油漆、圖案或貼紙從表面剝落；脫下黏着身體、濕透或較緊的衣物；把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+    "en": "peel away/back (from something); peel something away/back (from something); peel off; peel something off; peel something off; peel something off something",
+    "naturalZh": [
+      "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+      "薄層、油漆、圖案或貼紙從表面剝落",
+      "脫下黏着身體、濕透或較緊的衣物",
+      "把包裝、標籤、貼紙、膠紙或覆蓋物揭下"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "peel away/back (from something); peel something away/back (from something)",
+      "titleZh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+      "titleEn": "peel away/back (from something); peel something away/back (from something)",
+      "descriptionZh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+      "descriptionEn": "The wallpaper had started to peel away from the wall.",
+      "examples": [
+        {
+          "en": "The wallpaper had started to peel away from the wall.",
+          "zh": "牆紙已開始從牆身剝離。)She peeled back the corner of the carpet.(她揭開地氈的一角。",
+          "highlight": "peel away from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "peel off",
+      "titleZh": "薄層、油漆、圖案或貼紙從表面剝落",
+      "titleEn": "peel off",
+      "descriptionZh": "薄層、油漆、圖案或貼紙從表面剝落",
+      "descriptionEn": "The wallpaper was peeling off.",
+      "examples": [
+        {
+          "en": "The wallpaper was peeling off.",
+          "zh": "牆紙正在剝落。",
+          "highlight": "peeling off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "peel something off",
+      "titleZh": "脫下黏着身體、濕透或較緊的衣物",
+      "titleEn": "peel something off",
+      "descriptionZh": "脫下黏着身體、濕透或較緊的衣物",
+      "descriptionEn": "He peeled off his wet clothes.",
+      "examples": [
+        {
+          "en": "He peeled off his wet clothes.",
+          "zh": "他把濕衣服脫下。",
+          "highlight": "peeled off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "peel something off; peel something off something",
+      "titleZh": "把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+      "titleEn": "peel something off; peel something off something",
+      "descriptionZh": "把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+      "descriptionEn": "He peeled off the sweet wrapper.",
+      "examples": [
+        {
+          "en": "He peeled off the sweet wrapper.",
+          "zh": "他把糖果包裝紙揭下。)She peeled the label off the jar.(她把玻璃罐上的標籤揭下。",
+          "highlight": "peeled off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PEEL 片語動詞的實際用途",
+    "labelEn": "PEEL Phrasal Verbs in Use",
+    "summaryZh": "PEEL 片語動詞可以描述牆紙翹起、油漆剝落,或衣物上的印刷圖案脫落。；游泳、運動或淋雨後,衣物可能會黏着身體。PEEL OFF 可以生動地表達把這些衣物脫下。；你可以用 PEEL 表達揭下食物包裝、瓶上的標籤或螢幕上的保護膜。；當某人揭起地氈、牆紙或紙張,以查看下面的地板、牆身或文字時,可以使用 PEEL BACK。",
+    "summaryEn": "PEEL expressions can describe wallpaper lifting from a wall, paint separating from a door or a printed picture disappearing from a shirt. After swimming, exercise or heavy rain, clothes may stick to the body. PEEL OFF gives a clear picture of pulling those clothes away. You can peel a wrapper off some food, peel a label off a bottle or peel protective film off a screen. PEEL BACK is useful when a person lifts a layer to see what is underneath, such as a floor, a wall or hidden writing.",
+    "contextsZh": [
+      "描述牆身、油漆和印刷表面的損壞",
+      "自然描述脫下濕透或緊貼身體的衣物",
+      "描述打開包裝和揭下標籤",
+      "表示揭開表層,露出下面的事物"
+    ],
+    "contextsEn": [
+      "Describe damage to walls, paint and printed surfaces",
+      "Talk naturally about removing wet or tight clothes",
+      "Describe opening packages and removing labels",
+      "Show that something underneath has been revealed"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PEEL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PEEL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "peel away/back (from something); peel something away/back (from something)",
+    "fixedHighlight": "peel away/back (from something); peel something away/back (from something)",
+    "fixedZh": "閱讀整句,選出意思相同的 PEEL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PEEL expression that gives the same meaning.",
+    "correct": "peel away from",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、地點和意思。；名詞通常可以放在兩個位置;但使用 it、him、her 或 them 時,須把代名詞放在 PEEL 和 OFF 中間。；FROM + 地方屬於補充資料,用來說明表層從哪個表面剝離。當表面已經清楚時,可以省略FROM 部分。；PEEL AWAY/BACK 和 PEEL OFF 有時都可以描述表層剝離。本練習會利用完整情境,讓你分辨牆紙或表層翹起、一般剝落、脫下濕衣物,以及揭下包裝或標籤等不同用法。",
+    "variableEn": "Keep the same people, things, time, place and meaning. A noun can often appear in either position: peel the label off peel off the label However, it, him, her and them must appear in the middle: peel it off peel them off FROM + a place is additional information. It tells us which surface the layer is separating from: The wallpaper began to peel away. The wallpaper began to peel away from the wall. When the surface is already clear, the phrase beginning with FROM is optional. PEEL AWAY/BACK and PEEL OFF can sometimes describe similar surface damage. In this exercise: ● PEEL AWAY/BACK is used when a layer lifts back, remains partly attached or reveals what is underneath. ● PEEL OFF is used for the more general idea of a layer separating from a surface. ● PEEL SOMETHING OFF can describe removing wet or tight clothes. ● PEEL SOMETHING OFF SOMETHING can describe removing a wrapper, label, sticker or covering.",
+    "variableItemsZh": [
+      "peel away/back (from something); peel something away/back (from something)",
+      "peel off",
+      "peel something off",
+      "peel something off; peel something off something"
+    ],
+    "variableItemsEn": [
+      "peel away/back (from something); peel something away/back (from something)",
+      "peel off",
+      "peel something off",
+      "peel something off; peel something off something"
+    ],
+    "forms": [
+      {
+        "formZh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+        "formEn": "peel away/back (from something); peel something away/back (from something)",
+        "exampleZh": "牆紙已開始從牆身剝離。)She peeled back the corner of the carpet.(她揭開地氈的一角。",
+        "exampleEn": "The wallpaper had started to peel away from the wall.",
+        "highlight": "peel away from"
+      },
+      {
+        "formZh": "薄層、油漆、圖案或貼紙從表面剝落",
+        "formEn": "peel off",
+        "exampleZh": "牆紙正在剝落。",
+        "exampleEn": "The wallpaper was peeling off.",
+        "highlight": "peeling off"
+      },
+      {
+        "formZh": "脫下黏着身體、濕透或較緊的衣物",
+        "formEn": "peel something off",
+        "exampleZh": "他把濕衣服脫下。",
+        "exampleEn": "He peeled off his wet clothes.",
+        "highlight": "peeled off"
+      },
+      {
+        "formZh": "把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+        "formEn": "peel something off; peel something off something",
+        "exampleZh": "他把糖果包裝紙揭下。)She peeled the label off the jar.(她把玻璃罐上的標籤揭下。",
+        "exampleEn": "He peeled off the sweet wrapper.",
+        "highlight": "peeled off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+      "titleEn": "peel away/back (from something); peel something away/back (from something)",
+      "formula": "peel away/back (from something); peel something away/back (from something)",
+      "highlight": "peel away/back (from something); peel something away/back (from something)",
+      "descriptionZh": "表層逐漸翹起或剝離;把一層物料揭開或向後掀起",
+      "descriptionEn": "The wallpaper had started to peel away from the wall.",
+      "examples": [
+        {
+          "en": "The wallpaper had started to peel away from the wall.",
+          "zh": "牆紙已開始從牆身剝離。)She peeled back the corner of the carpet.(她揭開地氈的一角。",
+          "highlight": "peel away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "薄層、油漆、圖案或貼紙從表面剝落",
+      "titleEn": "peel off",
+      "formula": "peel off",
+      "highlight": "peel off",
+      "descriptionZh": "薄層、油漆、圖案或貼紙從表面剝落",
+      "descriptionEn": "The wallpaper was peeling off.",
+      "examples": [
+        {
+          "en": "The wallpaper was peeling off.",
+          "zh": "牆紙正在剝落。",
+          "highlight": "peeling off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "脫下黏着身體、濕透或較緊的衣物",
+      "titleEn": "peel something off",
+      "formula": "peel something off",
+      "highlight": "peel something off",
+      "descriptionZh": "脫下黏着身體、濕透或較緊的衣物",
+      "descriptionEn": "He peeled off his wet clothes.",
+      "examples": [
+        {
+          "en": "He peeled off his wet clothes.",
+          "zh": "他把濕衣服脫下。",
+          "highlight": "peeled off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+      "titleEn": "peel something off; peel something off something",
+      "formula": "peel something off; peel something off something",
+      "highlight": "peel something off; peel something off something",
+      "descriptionZh": "把包裝、標籤、貼紙、膠紙或覆蓋物揭下",
+      "descriptionEn": "He peeled off the sweet wrapper.",
+      "examples": [
+        {
+          "en": "He peeled off the sweet wrapper.",
+          "zh": "他把糖果包裝紙揭下。)She peeled the label off the jar.(她把玻璃罐上的標籤揭下。",
+          "highlight": "peeled off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述牆身、油漆和印刷表面的損壞",
+      "titleEn": "Describe damage to walls, paint and printed surfaces",
+      "zh": "PEEL 片語動詞可以描述牆紙翹起、油漆剝落,或衣物上的印刷圖案脫落。",
+      "en": "PEEL expressions can describe wallpaper lifting from a wall, paint separating from a door or a printed picture disappearing from a shirt."
+    },
+    {
+      "titleZh": "自然描述脫下濕透或緊貼身體的衣物",
+      "titleEn": "Talk naturally about removing wet or tight clothes",
+      "zh": "游泳、運動或淋雨後,衣物可能會黏着身體。PEEL OFF 可以生動地表達把這些衣物脫下。",
+      "en": "After swimming, exercise or heavy rain, clothes may stick to the body. PEEL OFF gives a clear picture of pulling those clothes away."
+    },
+    {
+      "titleZh": "描述打開包裝和揭下標籤",
+      "titleEn": "Describe opening packages and removing labels",
+      "zh": "你可以用 PEEL 表達揭下食物包裝、瓶上的標籤或螢幕上的保護膜。",
+      "en": "You can peel a wrapper off some food, peel a label off a bottle or peel protective film off a screen."
+    },
+    {
+      "titleZh": "表示揭開表層,露出下面的事物",
+      "titleEn": "Show that something underneath has been revealed",
+      "zh": "當某人揭起地氈、牆紙或紙張,以查看下面的地板、牆身或文字時,可以使用 PEEL BACK。",
+      "en": "PEEL BACK is useful when a person lifts a layer to see what is underneath, such as a floor, a wall or hidden writing."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述牆身、油漆和印刷表面的損壞",
+      "自然描述脫下濕透或緊貼身體的衣物",
+      "描述打開包裝和揭下標籤",
+      "表示揭開表層,露出下面的事物"
+    ],
+    "contextsEn": [
+      "Describe damage to walls, paint and printed surfaces",
+      "Talk naturally about removing wet or tight clothes",
+      "Describe opening packages and removing labels",
+      "Show that something underneath has been revealed"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述牆身、油漆和印刷表面的損壞",
+        "titleEn": "Describe damage to walls, paint and printed surfaces",
+        "zh": "PEEL 片語動詞可以描述牆紙翹起、油漆剝落,或衣物上的印刷圖案脫落。",
+        "en": "PEEL expressions can describe wallpaper lifting from a wall, paint separating from a door or a printed picture disappearing from a shirt.",
+        "examples": [
+          {
+            "en": "The wallpaper had started to peel away from the wall.",
+            "zh": "牆紙已開始從牆身剝離。)She peeled back the corner of the carpet.(她揭開地氈的一角。",
+            "highlight": "peel away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述脫下濕透或緊貼身體的衣物",
+        "titleEn": "Talk naturally about removing wet or tight clothes",
+        "zh": "游泳、運動或淋雨後,衣物可能會黏着身體。PEEL OFF 可以生動地表達把這些衣物脫下。",
+        "en": "After swimming, exercise or heavy rain, clothes may stick to the body. PEEL OFF gives a clear picture of pulling those clothes away.",
+        "examples": [
+          {
+            "en": "The wallpaper was peeling off.",
+            "zh": "牆紙正在剝落。",
+            "highlight": "peeling off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述打開包裝和揭下標籤",
+        "titleEn": "Describe opening packages and removing labels",
+        "zh": "你可以用 PEEL 表達揭下食物包裝、瓶上的標籤或螢幕上的保護膜。",
+        "en": "You can peel a wrapper off some food, peel a label off a bottle or peel protective film off a screen.",
+        "examples": [
+          {
+            "en": "He peeled off his wet clothes.",
+            "zh": "他把濕衣服脫下。",
+            "highlight": "peeled off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示揭開表層,露出下面的事物",
+        "titleEn": "Show that something underneath has been revealed",
+        "zh": "當某人揭起地氈、牆紙或紙張,以查看下面的地板、牆身或文字時,可以使用 PEEL BACK。",
+        "en": "PEEL BACK is useful when a person lifts a layer to see what is underneath, such as a floor, a wall or hidden writing.",
+        "examples": [
+          {
+            "en": "He peeled off the sweet wrapper.",
+            "zh": "他把糖果包裝紙揭下。)She peeled the label off the jar.(她把玻璃罐上的標籤揭下。",
+            "highlight": "peeled off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PEEL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PEEL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PEEL 片語動詞。",
+      "en": "Read the whole sentence and choose the PEEL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、地點和意思。",
+      "titleEn": "Keep the same people, things, time, place and meaning.",
+      "zh": "保留原句中的人物、事物、時間、地點和意思。",
+      "en": "Keep the same people, things, time, place and meaning."
+    },
+    {
+      "titleZh": "名詞通常可以放在兩個位置;但使用 it、him、her 或 them 時,須把代名詞放在 PEEL 和 OFF 中間。",
+      "titleEn": "A noun can often appear in either position: peel the label off peel off the label However, it, him, her and them must appear in the middle: peel it off peel them off.",
+      "zh": "名詞通常可以放在兩個位置;但使用 it、him、her 或 them 時,須把代名詞放在 PEEL 和 OFF 中間。",
+      "en": "A noun can often appear in either position: peel the label off peel off the label However, it, him, her and them must appear in the middle: peel it off peel them off"
+    },
+    {
+      "titleZh": "FROM + 地方屬於補充資料,用來說明表層從哪個表面剝離。當表面已經清楚時,可以省略FROM 部分。",
+      "titleEn": "FROM + a place is additional information.",
+      "zh": "FROM + 地方屬於補充資料,用來說明表層從哪個表面剝離。當表面已經清楚時,可以省略FROM 部分。",
+      "en": "FROM + a place is additional information. It tells us which surface the layer is separating from: The wallpaper began to peel away. The wallpaper began to peel away from the wall. When the surface is already clear, the phrase beginning with FROM is optional."
+    },
+    {
+      "titleZh": "PEEL AWAY/BACK 和 PEEL OFF 有時都可以描述表層剝離。本練習會利用完整情境,讓你分辨牆紙或表層翹起、一般剝落、脫下濕衣物,以及揭下包裝或標籤等不同用法。",
+      "titleEn": "PEEL AWAY/BACK and PEEL OFF can sometimes describe similar surface damage.",
+      "zh": "PEEL AWAY/BACK 和 PEEL OFF 有時都可以描述表層剝離。本練習會利用完整情境,讓你分辨牆紙或表層翹起、一般剝落、脫下濕衣物,以及揭下包裝或標籤等不同用法。",
+      "en": "PEEL AWAY/BACK and PEEL OFF can sometimes describe similar surface damage. In this exercise: ● PEEL AWAY/BACK is used when a layer lifts back, remains partly attached or reveals what is underneath. ● PEEL OFF is used for the more general idea of a layer separating from a surface. ● PEEL SOMETHING OFF can describe removing wet or tight clothes. ● PEEL SOMETHING OFF SOMETHING can describe removing a wrapper, label, sticker or covering."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PEEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PEEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PEEL 動詞片語句子改寫練習",
+    "titleEn": "PEEL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PEEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PEEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-258-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The old wallpaper began to lift away from the wall near the window, but it was still attached at the bottom.",
+      "promptZh": "舊牆紙開始在窗邊的位置翹起,但底部仍然黏在牆上。",
+      "starter": "The",
+      "answer": "The old wallpaper began to peel away from the wall near the window, but it was still attached at the bottom.",
+      "answerZh": "舊牆紙開始在窗邊的位置從牆身剝離,但底部仍然黏着。",
+      "highlight": "peel",
+      "targetForm": "peel away from something",
+      "targetMeaningZh": "從表面逐漸剝離"
+    },
+    {
+      "id": "phrasal-verb-258-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Eva removed the price label from the new cup by pulling it away.",
+      "promptZh": "伊娃把新杯上的價錢標籤揭下來。",
+      "starter": "Eva",
+      "answer": "Eva peeled the price label off the new cup.",
+      "answerZh": "伊娃把新杯上的價錢標籤揭下來。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把標籤或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Small pieces of paint are separating from the garden chair.",
+      "promptZh": "花園椅上的油漆正逐小片脫落。",
+      "starter": "The",
+      "answer": "The paint on the garden chair is peeling off in small pieces.",
+      "answerZh": "花園椅上的油漆正逐小片剝落。",
+      "highlight": "The",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the walk, Ryan removed his wet socks, which were sticking to his feet.",
+      "promptZh": "步行後,賴恩脫下黏着雙腳的濕襪。",
+      "starter": "After",
+      "answer": "After the walk, Ryan peeled off his wet socks, which were sticking to his feet.",
+      "answerZh": "步行後,賴恩把黏着雙腳的濕襪脫下。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad lifted the corner of the carpet to look underneath.",
+      "promptZh": "爸爸揭起地氈的一角查看下面。",
+      "starter": "Dad",
+      "answer": "Dad peeled back the corner of the carpet to look underneath.",
+      "answerZh": "爸爸揭開地氈的一角查看下面。",
+      "highlight": "peeled back",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I removed the wrapper from the chocolate bar by pulling it away.",
+      "promptZh": "我把朱古力條的包裝紙揭下來。",
+      "starter": "I",
+      "answer": "I peeled the wrapper off the chocolate bar.",
+      "answerZh": "我把朱古力條的包裝紙揭下來。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把包裝或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "At the door, the children removed their wet raincoats, which were sticking to their clothes.",
+      "promptZh": "孩子們在門口脫下黏着衣服的濕雨衣。",
+      "starter": "At",
+      "answer": "At the door, the children peeled off their wet raincoats, which were sticking to their clothes.",
+      "answerZh": "孩子們在門口把黏着衣服的濕雨衣脫下。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "One of the stickers became loose and separated completely during the rain.",
+      "promptZh": "其中一張貼紙在下雨期間鬆開並完全脫落。",
+      "starter": "One",
+      "answer": "One of the stickers peeled off completely during the rain.",
+      "answerZh": "其中一張貼紙在下雨期間完全脫落。",
+      "highlight": "peeled off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Please remove the plastic film from the screen by pulling it away.",
+      "promptZh": "請把螢幕上的塑膠薄膜揭下。",
+      "starter": "Please",
+      "answer": "Please peel the plastic film off the screen.",
+      "answerZh": "請把螢幕上的塑膠薄膜揭下。",
+      "highlight": "peel",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把覆蓋物從表面揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A thin layer of bark was curling away from the tree but had not fallen.",
+      "promptZh": "一層薄薄的樹皮正從樹幹翹起,但尚未掉下來。",
+      "starter": "A",
+      "answer": "A thin layer of bark was peeling away from the tree but had not fallen.",
+      "answerZh": "一層薄薄的樹皮正慢慢從樹幹剝離,但尚未掉下來。",
+      "highlight": "peeling",
+      "targetForm": "peel away from something",
+      "targetMeaningZh": "從表面逐漸剝離"
+    },
+    {
+      "id": "phrasal-verb-258-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are small pieces of paint separating from the bathroom door?",
+      "promptZh": "浴室門上的油漆為甚麼正逐小片脫落?",
+      "starter": "Why",
+      "answer": "Why is the paint on the bathroom door peeling off in small pieces?",
+      "answerZh": "浴室門上的油漆為甚麼正逐小片剝落?",
+      "highlight": "is the",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The paper has started to curl backwards at the corners.",
+      "promptZh": "紙張的幾個角已開始向後翹起。",
+      "starter": "The",
+      "answer": "The paper has started to peel back at the corners.",
+      "answerZh": "紙張的幾個角已開始向後翹起。",
+      "highlight": "peel back",
+      "targetForm": "peel back",
+      "targetMeaningZh": "表層開始向後翹起"
+    },
+    {
+      "id": "phrasal-verb-258-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Noah has already removed the tape from the box by pulling it away.",
+      "promptZh": "諾亞已把箱子上的膠紙撕下。",
+      "starter": "Noah",
+      "answer": "Noah has already peeled the tape off the box.",
+      "answerZh": "諾亞已把箱子上的膠紙撕下。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把膠紙或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After football, Ben had to remove his sweaty shirt, as it was sticking to him.",
+      "promptZh": "踢足球後,賓不得不脫下黏着身體的汗濕上衣。",
+      "starter": "After",
+      "answer": "After football, Ben had to peel his sweaty shirt off, as it was sticking to him.",
+      "answerZh": "踢足球後,賓不得不把黏着身體的汗濕上衣脫下。",
+      "highlight": "peel",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The gold letters on the bag have begun to separate from its surface.",
+      "promptZh": "袋上的金色字樣已開始從表面脫落。",
+      "starter": "The",
+      "answer": "The gold letters on the bag have begun to peel off.",
+      "answerZh": "袋上的金色字樣已開始脫落。",
+      "highlight": "peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We will need to lift the loose wallpaper to see the wall before painting.",
+      "promptZh": "油漆前,我們需要揭起鬆脫的牆紙查看牆身。",
+      "starter": "We",
+      "answer": "We will need to peel back the loose wallpaper to see the wall before painting.",
+      "answerZh": "油漆前,我們需要把鬆脫的牆紙揭開,以查看牆身。",
+      "highlight": "peel back",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She is removing her wet gloves now; they are sticking to her hands.",
+      "promptZh": "她現在正脫下黏着雙手的濕手套。",
+      "starter": "She",
+      "answer": "She is peeling off her wet gloves now; they are sticking to her hands.",
+      "answerZh": "她現在正脫下黏着雙手的濕手套。",
+      "highlight": "peeling off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The sticker is covering the name. Could you remove it without tearing the card?",
+      "promptZh": "貼紙遮住了名字。你可以在不撕破卡片的情況下把它揭下嗎?",
+      "starter": "The",
+      "answer": "The sticker is covering the name. Could you peel it off without tearing the card?",
+      "answerZh": "貼紙遮住了名字。你可以在不撕破卡片的情況下把它揭下嗎?",
+      "highlight": "peel",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "把貼紙或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The printed picture stayed firmly on the shirt in the wash.",
+      "promptZh": "這個印刷圖案在清洗時仍牢牢留在上衣上。",
+      "starter": "The",
+      "answer": "The printed picture did not peel off in the wash.",
+      "answerZh": "這個印刷圖案在清洗時沒有脫落。",
+      "highlight": "did not peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "As the sun warmed the window, the old film slowly lifted away from the glass at one edge.",
+      "promptZh": "陽光令窗戶變暖時,舊薄膜的一邊慢慢從玻璃上翹起。",
+      "starter": "As",
+      "answer": "As the sun warmed the window, the old film slowly peeled away from the glass at one edge.",
+      "answerZh": "陽光令窗戶變暖時,舊薄膜的一邊慢慢從玻璃上剝離。",
+      "highlight": "peeled",
+      "targetForm": "peel away from something",
+      "targetMeaningZh": "從表面逐漸剝離"
+    },
+    {
+      "id": "phrasal-verb-258-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After the swim, the children removed their wet T-shirts in the changing room because the shirts were sticking to them.",
+      "promptZh": "游泳後,孩子們在更衣室脫下黏着身體的濕T恤。",
+      "starter": "After",
+      "answer": "After the swim, the children peeled their wet T-shirts off in the changing room because the shirts were sticking to them.",
+      "answerZh": "游泳後,孩子們在更衣室把黏着身體的濕T恤脫下。",
+      "highlight": "peeled",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The shop assistant removed the old sticker from the jar by pulling it away and added a new one.",
+      "promptZh": "店員把罐上的舊貼紙揭下,並加上一張新的。",
+      "starter": "The",
+      "answer": "The shop assistant peeled the old sticker off the jar and added a new one.",
+      "answerZh": "店員把罐上的舊貼紙揭下,並加上一張新的。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把貼紙或標籤揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "To check the floorboards, the worker lifted a small part of the carpet.",
+      "promptZh": "為了檢查地板,工人揭起地氈的一小部分。",
+      "starter": "To",
+      "answer": "To check the floorboards, the worker peeled back a small part of the carpet.",
+      "answerZh": "為了檢查地板,工人揭開地氈的一小部分。",
+      "highlight": "peeled back",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The top layer of the bag was starting to separate after only a week.",
+      "promptZh": "袋子的表層僅使用一星期便開始脫落。",
+      "starter": "The",
+      "answer": "The top layer of the bag was peeling off after only a week.",
+      "answerZh": "袋子的表層僅使用一星期便開始剝落。",
+      "highlight": "peeling off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Liam could not remove his wet jeans without help because they were sticking to his legs.",
+      "promptZh": "利亞姆無法自行脫下黏着雙腿的濕牛仔褲。",
+      "starter": "Liam",
+      "answer": "Liam could not peel his wet jeans off without help because they were sticking to his legs.",
+      "answerZh": "利亞姆無法在沒有幫助下把黏着雙腿的濕牛仔褲脫下。",
+      "highlight": "peel",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The paper cover was removed from the parcel by pulling it away before the parcel was opened.",
+      "promptZh": "包裹打開前,外面的紙張被揭下。",
+      "starter": "The",
+      "answer": "The paper cover was peeled off the parcel before it was opened.",
+      "answerZh": "包裹打開前,外面的紙張被揭下。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把包裝或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the end of the day, half the picture on the school bag had separated from the surface.",
+      "promptZh": "到了當天結束時,書包上的圖案已有一半脫落。",
+      "starter": "By",
+      "answer": "By the end of the day, half the picture on the school bag had peeled off.",
+      "answerZh": "到了當天結束時,書包上的圖案已有一半脫落。",
+      "highlight": "peeled off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The corner of the poster had lifted away from the wall overnight, although most of it was still attached.",
+      "promptZh": "海報的一角在一夜之間從牆身翹起,但大部分仍然黏着。",
+      "starter": "The",
+      "answer": "The corner of the poster had peeled away from the wall overnight, although most of it was still attached.",
+      "answerZh": "海報的一角在一夜之間從牆身剝離,但大部分仍然黏着。",
+      "highlight": "peeled",
+      "targetForm": "peel away from something",
+      "targetMeaningZh": "從表面逐漸剝離"
+    },
+    {
+      "id": "phrasal-verb-258-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before entering the house, we removed our wet jackets, which were sticking to our clothes.",
+      "promptZh": "進屋前,我們脫下黏着衣服的濕外套。",
+      "starter": "Before",
+      "answer": "Before entering the house, we peeled off our wet jackets, which were sticking to our clothes.",
+      "answerZh": "進屋前,我們把黏着衣服的濕外套脫下。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "First, remove the foil covering the yoghurt pot by pulling it away.",
+      "promptZh": "首先,把乳酪杯上的錫紙揭下。",
+      "starter": "First",
+      "answer": "First, peel off the foil covering the yoghurt pot.",
+      "answerZh": "首先,把乳酪杯上的錫紙揭下。",
+      "highlight": "peel off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "把包裝或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the builder lifted the old wallpaper, he found a crack underneath.",
+      "promptZh": "建築工人揭起舊牆紙時,發現下面有一道裂縫。",
+      "starter": "When",
+      "answer": "When the builder peeled the old wallpaper back, he found a crack underneath.",
+      "answerZh": "建築工人把舊牆紙揭開時,發現下面有一道裂縫。",
+      "highlight": "peeled",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Olivia quickly removed her wet jumper when she came indoors.",
+      "promptZh": "奧利維亞進屋後迅速脫下濕毛衣。",
+      "starter": "Olivia",
+      "answer": "Olivia quickly peeled off her wet jumper when she came indoors.",
+      "answerZh": "奧利維亞進屋後迅速脫下濕毛衣。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "I tried to remove the label from the bottle by pulling it away, but it tore in half.",
+      "promptZh": "我嘗試把瓶上的標籤揭下,但它撕成了兩半。",
+      "starter": "I",
+      "answer": "I tried to peel the label off the bottle, but it tore in half.",
+      "answerZh": "我嘗試把瓶上的標籤揭下,但它撕成了兩半。",
+      "highlight": "peel",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把標籤或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After several hot days, the picture on the T-shirt started to separate from the material.",
+      "promptZh": "連續幾天炎熱天氣後,T恤上的圖案開始脫落。",
+      "starter": "After",
+      "answer": "After several hot days, the picture on the T-shirt started to peel off.",
+      "answerZh": "連續幾天炎熱天氣後,T恤上的圖案開始脫落。",
+      "highlight": "peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The clear plastic sheet was beginning to separate from the table, but it was still partly attached.",
+      "promptZh": "透明膠片開始從桌面剝離,但仍有一部分黏着。",
+      "starter": "The",
+      "answer": "The clear plastic sheet was beginning to peel away from the table, but it was still partly attached.",
+      "answerZh": "透明膠片開始從桌面剝離,但仍有一部分黏着。",
+      "highlight": "peel away",
+      "targetForm": "peel away from something",
+      "targetMeaningZh": "從表面逐漸剝離"
+    },
+    {
+      "id": "phrasal-verb-258-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because his clothes were soaked, Leo removed them as soon as he reached home.",
+      "promptZh": "因為衣服濕透了,里奧一回家便把它們脫下。",
+      "starter": "Because",
+      "answer": "Because his clothes were soaked, Leo peeled them off as soon as he reached home.",
+      "answerZh": "因為衣服濕透了,里奧一回家便把它們脫下。",
+      "highlight": "peeled",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If the wall stays wet, the new paint may separate from it again.",
+      "promptZh": "如果牆身一直潮濕,新油漆可能再次脫落。",
+      "starter": "If",
+      "answer": "If the wall stays wet, the new paint may peel off again.",
+      "answerZh": "如果牆身一直潮濕,新油漆可能再次剝落。",
+      "highlight": "peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before recycling the jar, remove the paper label from it by pulling it away.",
+      "promptZh": "回收玻璃罐前,把上面的紙標籤揭下。",
+      "starter": "Before",
+      "answer": "Before recycling the jar, peel the paper label off it.",
+      "answerZh": "回收玻璃罐前,把上面的紙標籤揭下。",
+      "highlight": "peel",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把標籤或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Why did Ava remove her tight gloves before using the phone?",
+      "promptZh": "艾娃為甚麼在使用手機前脫下緊貼雙手的手套?",
+      "starter": "Why",
+      "answer": "Why did Ava peel her tight gloves off before using the phone?",
+      "answerZh": "艾娃為甚麼在使用手機前把緊貼雙手的手套脫下?",
+      "highlight": "peel",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下較緊或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Carefully lift the loose paper and check the writing underneath.",
+      "promptZh": "小心揭起鬆脫的紙張,查看下面的文字。",
+      "starter": "Carefully",
+      "answer": "Carefully peel back the loose paper and check the writing underneath.",
+      "answerZh": "小心揭開鬆脫的紙張,查看下面的文字。",
+      "highlight": "peel back",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The gift looked too neat to open, but Kai slowly removed the tape from the paper without tearing it.",
+      "promptZh": "禮物包得十分整齊,啟不捨得打開,但他慢慢撕下膠紙,沒有弄破包裝紙。",
+      "starter": "The",
+      "answer": "The gift looked too neat to open, but Kai slowly peeled the tape off the paper without tearing it.",
+      "answerZh": "禮物包得十分整齊,啟不捨得打開,但他慢慢把膠紙從包裝紙上撕下,沒有把紙弄破。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把膠紙或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The numbers on the sports shirt had started to separate, although the shirt was almost new.",
+      "promptZh": "運動上衣雖然幾乎全新,但上面的號碼已開始脫落。",
+      "starter": "The",
+      "answer": "The numbers on the sports shirt had started to peel off, although the shirt was almost new.",
+      "answerZh": "運動上衣雖然幾乎全新,但上面的號碼已開始脫落。",
+      "highlight": "peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After cycling through heavy rain, the group stood by the door and removed their wet clothes.",
+      "promptZh": "一行人冒着大雨踏單車後,站在門邊脫下濕衣服。",
+      "starter": "After",
+      "answer": "After cycling through heavy rain, the group stood by the door and peeled off their wet clothes.",
+      "answerZh": "一行人冒着大雨踏單車後,站在門邊脫下濕衣服。",
+      "highlight": "peeled off",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The wallpaper was only lifting at one edge, so the decorator pulled that edge aside to see whether the wall was dry.",
+      "promptZh": "牆紙只有一邊翹起,所以裝修工人把那一邊揭開,查看牆身是否乾燥。",
+      "starter": "The",
+      "answer": "The wallpaper was only lifting at one edge, so the decorator peeled it back to see whether the wall was dry.",
+      "answerZh": "牆紙只有一邊翹起,所以裝修工人把它揭開,查看牆身是否乾燥。",
+      "highlight": "peeled it back",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    },
+    {
+      "id": "phrasal-verb-258-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Before returning the laptop, Erin carefully removed every sticker from the case by pulling it away.",
+      "promptZh": "歸還手提電腦前,艾琳小心揭下外殼上的每張貼紙。",
+      "starter": "Before",
+      "answer": "Before returning the laptop, Erin carefully peeled every sticker off the case.",
+      "answerZh": "歸還手提電腦前,艾琳小心揭下外殼上的每張貼紙。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把貼紙或標籤揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Even though the mug was washed by hand, its printed design slowly separated from the surface.",
+      "promptZh": "雖然杯子是用手清洗,但上面的印花仍慢慢脫落。",
+      "starter": "Even",
+      "answer": "Even though the mug was washed by hand, its printed design slowly peeled off.",
+      "answerZh": "雖然杯子是用手清洗,但上面的印花仍慢慢脫落。",
+      "highlight": "peeled off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The trousers were so wet that Daniel had to sit down before he could remove them.",
+      "promptZh": "長褲濕透了,丹尼爾要先坐下才能把它脫下。",
+      "starter": "The",
+      "answer": "The trousers were so wet that Daniel had to sit down before he could peel them off.",
+      "answerZh": "長褲濕透了,丹尼爾要先坐下才能把它脫下。",
+      "highlight": "peel",
+      "targetForm": "peel something off",
+      "targetMeaningZh": "脫下濕透或緊貼身體的衣物"
+    },
+    {
+      "id": "phrasal-verb-258-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Once the parcel arrived, the child removed the brown paper from it by pulling it away and found a book inside.",
+      "promptZh": "包裹送到後,孩子揭下外面的啡色包裝紙,發現裏面有一本書。",
+      "starter": "Once",
+      "answer": "Once the parcel arrived, the child peeled the brown paper off it and found a book inside.",
+      "answerZh": "包裹送到後,孩子揭下外面的啡色包裝紙,發現裏面有一本書。",
+      "highlight": "peeled",
+      "targetForm": "peel something off something",
+      "targetMeaningZh": "把包裝或覆蓋物揭下"
+    },
+    {
+      "id": "phrasal-verb-258-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The clear layer may separate if you leave the phone in strong sunlight.",
+      "promptZh": "如果把手機放在強烈陽光下,透明表層可能會脫落。",
+      "starter": "The",
+      "answer": "The clear layer may peel off if you leave the phone in strong sunlight.",
+      "answerZh": "如果把手機放在強烈陽光下,透明表層可能會脫落。",
+      "highlight": "peel off",
+      "targetForm": "peel off",
+      "targetMeaningZh": "從表面剝落"
+    },
+    {
+      "id": "phrasal-verb-258-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Rather than remove the whole poster, the teacher lifted one corner and read the note behind it.",
+      "promptZh": "老師沒有把整張海報拆下,而是揭起一角,閱讀後面的便條。",
+      "starter": "Rather",
+      "answer": "Rather than remove the whole poster, the teacher peeled one corner back and read the note behind it.",
+      "answerZh": "老師沒有把整張海報拆下,而是揭開一角,閱讀後面的便條。",
+      "highlight": "peeled",
+      "targetForm": "peel something back",
+      "targetMeaningZh": "把表層向後揭開"
+    }
+  ]
+}

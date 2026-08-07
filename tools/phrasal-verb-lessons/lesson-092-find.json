@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-92",
+  "order": 92,
+  "slug": "find",
+  "version": "1",
+  "title": "FIND 動詞片語",
+  "titleEn": "Find",
+  "titleZh": "FIND 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 91 - FIND.pdf",
+    "sourceNumber": 91,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FIND 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FIND."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FIND",
+      "highlight": "FIND"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The court found against the builder.",
+      "zh": "法庭作出了對該建築商不利的裁決。",
+      "highlight": "found against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The judge found for the student.",
+      "zh": "法官作出了有利於該學生的裁決。",
+      "highlight": "found for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We found out why the door was locked.",
+      "zh": "我們查明了那扇門為何上鎖。",
+      "highlight": "found out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "法庭作出不利於某人的裁決;裁定某人敗訴；法庭作出有利於某人的裁決;裁定某人勝訴；得知、查明或發現資料；揭穿某人的謊言、欺騙或不當行為",
+    "en": "find against somebody; find for somebody; find out; find something out; find somebody out",
+    "naturalZh": [
+      "法庭作出不利於某人的裁決;裁定某人敗訴",
+      "法庭作出有利於某人的裁決;裁定某人勝訴",
+      "得知、查明或發現資料",
+      "揭穿某人的謊言、欺騙或不當行為"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "find against somebody",
+      "titleZh": "法庭作出不利於某人的裁決;裁定某人敗訴",
+      "titleEn": "find against somebody",
+      "descriptionZh": "法庭作出不利於某人的裁決;裁定某人敗訴",
+      "descriptionEn": "The court found against the builder.",
+      "examples": [
+        {
+          "en": "The court found against the builder.",
+          "zh": "法庭作出了對該建築商不利的裁決。",
+          "highlight": "found against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "find for somebody",
+      "titleZh": "法庭作出有利於某人的裁決;裁定某人勝訴",
+      "titleEn": "find for somebody",
+      "descriptionZh": "法庭作出有利於某人的裁決;裁定某人勝訴",
+      "descriptionEn": "The judge found for the student.",
+      "examples": [
+        {
+          "en": "The judge found for the student.",
+          "zh": "法官作出了有利於該學生的裁決。",
+          "highlight": "found for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "find out; find something out",
+      "titleZh": "得知、查明或發現資料",
+      "titleEn": "find out; find something out",
+      "descriptionZh": "得知、查明或發現資料",
+      "descriptionEn": "We found out why the door was locked.",
+      "examples": [
+        {
+          "en": "We found out why the door was locked.",
+          "zh": "我們查明了那扇門為何上鎖。",
+          "highlight": "found out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "find somebody out",
+      "titleZh": "揭穿某人的謊言、欺騙或不當行為",
+      "titleEn": "find somebody out",
+      "descriptionZh": "揭穿某人的謊言、欺騙或不當行為",
+      "descriptionEn": "Her brother found her out when the two stories did not match.",
+      "examples": [
+        {
+          "en": "Her brother found her out when the two stories did not match.",
+          "zh": "她的哥哥發現兩個說法不一致,因而揭穿了她。",
+          "highlight": "found her out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FIND 片語動詞的實際用途",
+    "labelEn": "FIND Phrasal Verbs in Use",
+    "summaryZh": "find for 和 find against 能幫助你理解法庭的裁決對哪一方有利或不利。；你可以用 find out 表示查明事實、得知某件事情,或弄清楚某事的運作方法。；find somebody out 可以描述某人的謊言、把戲或不誠實行為被揭穿。；這些表達會出現在日常對話、新聞報道、法庭報道、電影和故事之中。",
+    "summaryEn": "Find for and find against help you understand which person or organisation a court decision supports. You can use find out to talk about discovering a fact, learning about an event or understanding how something works. Find somebody out helps you describe the moment when someone’s lie, trick or dishonest behaviour is discovered. These expressions appear in conversations, news reports, court reports, films and stories.",
+    "contextsZh": [
+      "更清楚理解法庭裁決",
+      "說明自己如何得知新資料",
+      "描述謊言或欺騙被揭穿",
+      "理解真實英語中 FIND 的不同意思"
+    ],
+    "contextsEn": [
+      "Understand court decisions more clearly",
+      "Explain how you learnt new information",
+      "Describe lies and dishonest behaviour being uncovered",
+      "Recognise different meanings of FIND in real English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FIND 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FIND expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "find against somebody",
+    "fixedHighlight": "find against somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 FIND 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FIND expression that gives the same meaning.",
+    "correct": "found against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；find for 和 find against 主要用於法庭裁決:find for somebody = 裁決對該人有利find against somebody = 裁決對該人不利；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Find for and find against are mainly used for court decisions: find for somebody = the decision supports that person find against somebody = the decision does not support that person When using it, him, her or them, place the word as shown: find it out find him out find her out find them out",
+    "variableItemsZh": [
+      "find against somebody",
+      "find for somebody",
+      "find out; find something out",
+      "find somebody out"
+    ],
+    "variableItemsEn": [
+      "find against somebody",
+      "find for somebody",
+      "find out; find something out",
+      "find somebody out"
+    ],
+    "forms": [
+      {
+        "formZh": "法庭作出不利於某人的裁決;裁定某人敗訴",
+        "formEn": "find against somebody",
+        "exampleZh": "法庭作出了對該建築商不利的裁決。",
+        "exampleEn": "The court found against the builder.",
+        "highlight": "found against"
+      },
+      {
+        "formZh": "法庭作出有利於某人的裁決;裁定某人勝訴",
+        "formEn": "find for somebody",
+        "exampleZh": "法官作出了有利於該學生的裁決。",
+        "exampleEn": "The judge found for the student.",
+        "highlight": "found for"
+      },
+      {
+        "formZh": "得知、查明或發現資料",
+        "formEn": "find out; find something out",
+        "exampleZh": "我們查明了那扇門為何上鎖。",
+        "exampleEn": "We found out why the door was locked.",
+        "highlight": "found out"
+      },
+      {
+        "formZh": "揭穿某人的謊言、欺騙或不當行為",
+        "formEn": "find somebody out",
+        "exampleZh": "她的哥哥發現兩個說法不一致,因而揭穿了她。",
+        "exampleEn": "Her brother found her out when the two stories did not match.",
+        "highlight": "found her out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "法庭作出不利於某人的裁決;裁定某人敗訴",
+      "titleEn": "find against somebody",
+      "formula": "find against somebody",
+      "highlight": "find against somebody",
+      "descriptionZh": "法庭作出不利於某人的裁決;裁定某人敗訴",
+      "descriptionEn": "The court found against the builder.",
+      "examples": [
+        {
+          "en": "The court found against the builder.",
+          "zh": "法庭作出了對該建築商不利的裁決。",
+          "highlight": "found against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "法庭作出有利於某人的裁決;裁定某人勝訴",
+      "titleEn": "find for somebody",
+      "formula": "find for somebody",
+      "highlight": "find for somebody",
+      "descriptionZh": "法庭作出有利於某人的裁決;裁定某人勝訴",
+      "descriptionEn": "The judge found for the student.",
+      "examples": [
+        {
+          "en": "The judge found for the student.",
+          "zh": "法官作出了有利於該學生的裁決。",
+          "highlight": "found for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "得知、查明或發現資料",
+      "titleEn": "find out; find something out",
+      "formula": "find out; find something out",
+      "highlight": "find out; find something out",
+      "descriptionZh": "得知、查明或發現資料",
+      "descriptionEn": "We found out why the door was locked.",
+      "examples": [
+        {
+          "en": "We found out why the door was locked.",
+          "zh": "我們查明了那扇門為何上鎖。",
+          "highlight": "found out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "揭穿某人的謊言、欺騙或不當行為",
+      "titleEn": "find somebody out",
+      "formula": "find somebody out",
+      "highlight": "find somebody out",
+      "descriptionZh": "揭穿某人的謊言、欺騙或不當行為",
+      "descriptionEn": "Her brother found her out when the two stories did not match.",
+      "examples": [
+        {
+          "en": "Her brother found her out when the two stories did not match.",
+          "zh": "她的哥哥發現兩個說法不一致,因而揭穿了她。",
+          "highlight": "found her out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更清楚理解法庭裁決",
+      "titleEn": "Understand court decisions more clearly",
+      "zh": "find for 和 find against 能幫助你理解法庭的裁決對哪一方有利或不利。",
+      "en": "Find for and find against help you understand which person or organisation a court decision supports."
+    },
+    {
+      "titleZh": "說明自己如何得知新資料",
+      "titleEn": "Explain how you learnt new information",
+      "zh": "你可以用 find out 表示查明事實、得知某件事情,或弄清楚某事的運作方法。",
+      "en": "You can use find out to talk about discovering a fact, learning about an event or understanding how something works."
+    },
+    {
+      "titleZh": "描述謊言或欺騙被揭穿",
+      "titleEn": "Describe lies and dishonest behaviour being uncovered",
+      "zh": "find somebody out 可以描述某人的謊言、把戲或不誠實行為被揭穿。",
+      "en": "Find somebody out helps you describe the moment when someone’s lie, trick or dishonest behaviour is discovered."
+    },
+    {
+      "titleZh": "理解真實英語中 FIND 的不同意思",
+      "titleEn": "Recognise different meanings of FIND in real English",
+      "zh": "這些表達會出現在日常對話、新聞報道、法庭報道、電影和故事之中。",
+      "en": "These expressions appear in conversations, news reports, court reports, films and stories."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更清楚理解法庭裁決",
+      "說明自己如何得知新資料",
+      "描述謊言或欺騙被揭穿",
+      "理解真實英語中 FIND 的不同意思"
+    ],
+    "contextsEn": [
+      "Understand court decisions more clearly",
+      "Explain how you learnt new information",
+      "Describe lies and dishonest behaviour being uncovered",
+      "Recognise different meanings of FIND in real English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更清楚理解法庭裁決",
+        "titleEn": "Understand court decisions more clearly",
+        "zh": "find for 和 find against 能幫助你理解法庭的裁決對哪一方有利或不利。",
+        "en": "Find for and find against help you understand which person or organisation a court decision supports.",
+        "examples": [
+          {
+            "en": "The court found against the builder.",
+            "zh": "法庭作出了對該建築商不利的裁決。",
+            "highlight": "found against"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明自己如何得知新資料",
+        "titleEn": "Explain how you learnt new information",
+        "zh": "你可以用 find out 表示查明事實、得知某件事情,或弄清楚某事的運作方法。",
+        "en": "You can use find out to talk about discovering a fact, learning about an event or understanding how something works.",
+        "examples": [
+          {
+            "en": "The judge found for the student.",
+            "zh": "法官作出了有利於該學生的裁決。",
+            "highlight": "found for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述謊言或欺騙被揭穿",
+        "titleEn": "Describe lies and dishonest behaviour being uncovered",
+        "zh": "find somebody out 可以描述某人的謊言、把戲或不誠實行為被揭穿。",
+        "en": "Find somebody out helps you describe the moment when someone’s lie, trick or dishonest behaviour is discovered.",
+        "examples": [
+          {
+            "en": "We found out why the door was locked.",
+            "zh": "我們查明了那扇門為何上鎖。",
+            "highlight": "found out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解真實英語中 FIND 的不同意思",
+        "titleEn": "Recognise different meanings of FIND in real English",
+        "zh": "這些表達會出現在日常對話、新聞報道、法庭報道、電影和故事之中。",
+        "en": "These expressions appear in conversations, news reports, court reports, films and stories.",
+        "examples": [
+          {
+            "en": "Her brother found her out when the two stories did not match.",
+            "zh": "她的哥哥發現兩個說法不一致,因而揭穿了她。",
+            "highlight": "found her out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FIND 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FIND expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FIND 片語動詞。",
+      "en": "Read the whole sentence and choose the FIND expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "find for 和 find against 主要用於法庭裁決:find for somebody = 裁決對該人有利find against somebody = 裁決對該人不利",
+      "titleEn": "Find for and find against are mainly used for court decisions: find for somebody = the decision supports that person find against somebody = the decision does not support that person.",
+      "zh": "find for 和 find against 主要用於法庭裁決:find for somebody = 裁決對該人有利find against somebody = 裁決對該人不利",
+      "en": "Find for and find against are mainly used for court decisions: find for somebody = the decision supports that person find against somebody = the decision does not support that person"
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: find it out find him out find her out find them out.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: find it out find him out find her out find them out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FIND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FIND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FIND 動詞片語句子改寫練習",
+    "titleEn": "FIND Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FIND 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FIND. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-92-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I learnt about the class change this morning.",
+      "promptZh": "我今早得知課堂時間有改動。",
+      "starter": "I",
+      "answer": "I found out about the class change this morning.",
+      "answerZh": "我今早得知課堂時間有改動。",
+      "highlight": "found out",
+      "targetForm": "find out about something",
+      "targetMeaningZh": "得知或發現某事的資料"
+    },
+    {
+      "id": "phrasal-verb-92-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The court made a decision against the delivery company.",
+      "promptZh": "法庭作出了對速遞公司不利的裁決。",
+      "starter": "The",
+      "answer": "The court found against the delivery company.",
+      "answerZh": "法庭作出了對速遞公司不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Noah had copied the homework, and the teacher exposed him.",
+      "promptZh": "諾亞抄了功課,而老師揭穿了他。",
+      "starter": "Noah",
+      "answer": "Noah had copied the homework, and the teacher found him out.",
+      "answerZh": "諾亞抄了功課,而老師揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The judge made a decision in the tenant’s favour.",
+      "promptZh": "法官作出了有利於租客的裁決。",
+      "starter": "The",
+      "answer": "The judge found for the tenant.",
+      "answerZh": "法官作出了有利於租客的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We discovered that the train would be late.",
+      "promptZh": "我們得知火車將會延誤。",
+      "starter": "We",
+      "answer": "We found out that the train would be late.",
+      "answerZh": "我們得知火車將會延誤。",
+      "highlight": "found out",
+      "targetForm": "find out that...",
+      "targetMeaningZh": "得知或發現某項事實"
+    },
+    {
+      "id": "phrasal-verb-92-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The man used a false name, but the police exposed him.",
+      "promptZh": "該男子使用假名,但警方揭穿了他。",
+      "starter": "The",
+      "answer": "The man used a false name, but the police found him out.",
+      "answerZh": "該男子使用假名,但警方揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The judge’s decision went against the shop owner.",
+      "promptZh": "法官的裁決對店主不利。",
+      "starter": "The",
+      "answer": "The judge found against the shop owner.",
+      "answerZh": "法官作出了對店主不利的裁決。",
+      "highlight": "judge found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "She learnt how the machine worked.",
+      "promptZh": "她弄清楚了這部機器的運作方法。",
+      "starter": "She",
+      "answer": "She found out how the machine worked.",
+      "answerZh": "她弄清楚了這部機器的運作方法。",
+      "highlight": "found out",
+      "targetForm": "find out how...",
+      "targetMeaningZh": "弄清楚做某事的方法"
+    },
+    {
+      "id": "phrasal-verb-92-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The court decided in the driver’s favour.",
+      "promptZh": "法庭作出了有利於該司機的裁決。",
+      "starter": "The",
+      "answer": "The court found for the driver.",
+      "answerZh": "法庭作出了有利於該司機的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "He had been lying, and his family exposed him.",
+      "promptZh": "他一直在說謊,而他的家人揭穿了他。",
+      "starter": "He",
+      "answer": "He had been lying, and his family found him out.",
+      "answerZh": "他一直在說謊,而他的家人揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的謊言或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The court has decided in favour of the customer.",
+      "promptZh": "法庭已作出有利於顧客的裁決。",
+      "starter": "The",
+      "answer": "The court has found for the customer.",
+      "answerZh": "法庭已作出有利於顧客的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ella is trying to discover why the light keeps going dark.",
+      "promptZh": "埃拉正嘗試查明那盞燈為何不斷熄滅。",
+      "starter": "Ella",
+      "answer": "Ella is trying to find out why the light keeps going dark.",
+      "answerZh": "埃拉正嘗試查明那盞燈為何不斷熄滅。",
+      "highlight": "find out",
+      "targetForm": "find out why...",
+      "targetMeaningZh": "查明某事發生的原因"
+    },
+    {
+      "id": "phrasal-verb-92-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The judge will probably decide against the company.",
+      "promptZh": "法官很可能會作出對該公司不利的裁決。",
+      "starter": "The",
+      "answer": "The judge will probably find against the company.",
+      "answerZh": "法官很可能會作出對該公司不利的裁決。",
+      "highlight": "find",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "If the cheating seller is exposed, he will lose access to the website.",
+      "promptZh": "如果該名欺騙顧客的賣家被揭發,他便會失去使用該網站的權限。",
+      "starter": "If",
+      "answer": "If the cheating seller is found out, he will lose access to the website.",
+      "answerZh": "如果該名欺騙顧客的賣家被揭發,他便會失去使用該網站的權限。",
+      "highlight": "found out",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did you discover when the shop closes?",
+      "promptZh": "你查到那間店何時關門嗎?",
+      "starter": "Did",
+      "answer": "Did you find out when the shop closes?",
+      "answerZh": "你查到那間店何時關門嗎?",
+      "highlight": "find out",
+      "targetForm": "find out when...",
+      "targetMeaningZh": "查明事情發生的時間"
+    },
+    {
+      "id": "phrasal-verb-92-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The court did not decide against the nurse.",
+      "promptZh": "法庭沒有作出對該護士不利的裁決。",
+      "starter": "The",
+      "answer": "The court did not find against the nurse.",
+      "answerZh": "法庭沒有作出對該護士不利的裁決。",
+      "highlight": "find",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The jury may decide in favour of the worker.",
+      "promptZh": "陪審團可能會作出有利於該工人的裁決。",
+      "starter": "The",
+      "answer": "The jury may find for the worker.",
+      "answerZh": "陪審團可能會作出有利於該工人的裁決。",
+      "highlight": "find for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Priya invented the story, and her classmates have exposed her.",
+      "promptZh": "普里雅捏造了那個故事,而她的同學已揭穿了她。",
+      "starter": "Priya",
+      "answer": "Priya invented the story, and her classmates have found her out.",
+      "answerZh": "普里雅捏造了那個故事,而她的同學已揭穿了她。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的謊言或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I still have not discovered the answer.",
+      "promptZh": "我仍未找出答案。",
+      "starter": "I",
+      "answer": "I still have not found out the answer.",
+      "answerZh": "我仍未找出答案。",
+      "highlight": "found out",
+      "targetForm": "find out something",
+      "targetMeaningZh": "查明或找到某項資料"
+    },
+    {
+      "id": "phrasal-verb-92-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Why did the judge decide against the landlord?",
+      "promptZh": "法官為何作出對業主不利的裁決?",
+      "starter": "Why",
+      "answer": "Why did the judge find against the landlord?",
+      "answerZh": "法官為何作出對業主不利的裁決?",
+      "highlight": "find",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Leo sent false messages, but the school exposed him after checking them.",
+      "promptZh": "里奧發送了虛假訊息,但學校查看訊息後揭穿了他。",
+      "starter": "Leo",
+      "answer": "Leo sent false messages, but the school found him out after checking them.",
+      "answerZh": "里奧發送了虛假訊息,但學校查看訊息後揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "In the end, the judge made a decision in the cyclist’s favour.",
+      "promptZh": "最後,法官作出了有利於該單車手的裁決。",
+      "starter": "In",
+      "answer": "In the end, the judge found for the cyclist.",
+      "answerZh": "最後,法官作出了有利於該單車手的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We need to discover it before tomorrow.",
+      "promptZh": "我們需要在明天前查明此事。",
+      "starter": "We",
+      "answer": "We need to find it out before tomorrow.",
+      "answerZh": "我們需要在明天前查明此事。",
+      "highlight": "find",
+      "targetForm": "find something out",
+      "targetMeaningZh": "查明或發現某項資料"
+    },
+    {
+      "id": "phrasal-verb-92-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The court’s decision went against both brothers.",
+      "promptZh": "法庭的裁決對兩兄弟都不利。",
+      "starter": "The",
+      "answer": "The court found against both brothers.",
+      "answerZh": "法庭作出了對兩兄弟都不利的裁決。",
+      "highlight": "court found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The boy had lied, but everyone believed him until his sister exposed him.",
+      "promptZh": "那個男孩說了謊,但所有人都相信他,直到他的姊姊揭穿了他。",
+      "starter": "The",
+      "answer": "The boy had lied, but everyone believed him until his sister found him out.",
+      "answerZh": "那個男孩說了謊,但所有人都相信他,直到他的姊姊揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的謊言或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The jury made a decision in the small business’s favour.",
+      "promptZh": "陪審團作出了有利於該小商戶的裁決。",
+      "starter": "The",
+      "answer": "The jury found for the small business.",
+      "answerZh": "陪審團作出了有利於該小商戶的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The reporter discovered more about the missing painting.",
+      "promptZh": "記者查到更多關於失蹤畫作的資料。",
+      "starter": "The",
+      "answer": "The reporter found out more about the missing painting.",
+      "answerZh": "記者查到更多關於失蹤畫作的資料。",
+      "highlight": "found out",
+      "targetForm": "find out about something",
+      "targetMeaningZh": "查到更多關於某事的資料"
+    },
+    {
+      "id": "phrasal-verb-92-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The player cheated, but someone exposed him after watching the video.",
+      "promptZh": "該球員作弊,但有人看過影片後揭穿了他。",
+      "starter": "The",
+      "answer": "The player cheated, but someone found him out after watching the video.",
+      "answerZh": "該球員作弊,但有人看過影片後揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the first judge supported the club, the next court made a decision against it.",
+      "promptZh": "雖然第一名法官支持該會所,但其後的法庭作出了對它不利的裁決。",
+      "starter": "Although",
+      "answer": "Although the first judge supported the club, the next court found against it.",
+      "answerZh": "雖然第一名法官支持該會所,但其後的法庭作出了對它不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody/something",
+      "targetMeaningZh": "法庭作出對某一方不利的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The court considered the facts and decided in our favour.",
+      "promptZh": "法庭考慮所有事實後,作出了有利於我們的裁決。",
+      "starter": "The",
+      "answer": "The court considered the facts and found for us.",
+      "answerZh": "法庭考慮所有事實後,作出了有利於我們的裁決。",
+      "highlight": "found for us",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The customer expected to win, but the judge’s decision went against her.",
+      "promptZh": "顧客原以為會勝訴,但法官的裁決對她不利。",
+      "starter": "The",
+      "answer": "The customer expected to win, but the judge found against her.",
+      "answerZh": "顧客原以為會勝訴,但法官作出了對她不利的裁決。",
+      "highlight": "judge found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The dishonest online adviser was finally exposed by the people he had fooled.",
+      "promptZh": "該名不誠實的網上顧問最終被受騙的人揭發。",
+      "starter": "The",
+      "answer": "The dishonest online adviser was finally found out by the people he had fooled.",
+      "answerZh": "該名不誠實的網上顧問最終被受騙的人揭發。",
+      "highlight": "found out",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The two sides gave different stories, but the court’s decision supported the neighbour.",
+      "promptZh": "雙方的說法不同,但法庭的裁決支持鄰居一方。",
+      "starter": "The",
+      "answer": "The two sides gave different stories, but the court found for the neighbour.",
+      "answerZh": "雙方的說法不同,但法庭作出了有利於鄰居一方的裁決。",
+      "highlight": "court found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After asking several people, Jun discovered who had left the bag.",
+      "promptZh": "俊問了幾個人後,查到是誰留下那個袋。",
+      "starter": "After",
+      "answer": "After asking several people, Jun found out who had left the bag.",
+      "answerZh": "俊問了幾個人後,查到是誰留下那個袋。",
+      "highlight": "found out",
+      "targetForm": "find out who...",
+      "targetMeaningZh": "查明某人的身分"
+    },
+    {
+      "id": "phrasal-verb-92-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The worker had taken some money, and the manager exposed him when he counted the cash.",
+      "promptZh": "那名工人拿走了一些金錢,而經理點算現金時揭穿了他。",
+      "starter": "The",
+      "answer": "The worker had taken some money, and the manager found him out when he counted the cash.",
+      "answerZh": "那名工人拿走了一些金錢,而經理點算現金時揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The hotel seemed likely to win, but the court still made a decision against it.",
+      "promptZh": "酒店看來很可能會勝訴,但法庭仍作出了對它不利的裁決。",
+      "starter": "The",
+      "answer": "The hotel seemed likely to win, but the court still found against it.",
+      "answerZh": "酒店看來很可能會勝訴,但法庭仍作出了對它不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody/something",
+      "targetMeaningZh": "法庭作出對某一方不利的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I could not discover the time online, so I called the office.",
+      "promptZh": "我未能在網上查到時間,所以致電辦公室。",
+      "starter": "I",
+      "answer": "I could not find out the time online, so I called the office.",
+      "answerZh": "我未能在網上查到時間,所以致電辦公室。",
+      "highlight": "find out",
+      "targetForm": "find out something",
+      "targetMeaningZh": "查明或找到某項資料"
+    },
+    {
+      "id": "phrasal-verb-92-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Neither side had a lawyer, but the judge made a decision in the woman’s favour.",
+      "promptZh": "雙方都沒有律師,但法官作出了有利於該女子的裁決。",
+      "starter": "Neither",
+      "answer": "Neither side had a lawyer, but the judge found for the woman.",
+      "answerZh": "雙方都沒有律師,但法官作出了有利於該女子的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The two men thought nobody would expose them for cheating, but a neighbour did.",
+      "promptZh": "該兩名男子以為沒有人會揭發他們作弊,但一名鄰居揭發了他們。",
+      "starter": "The",
+      "answer": "The two men thought nobody would find them out for cheating, but a neighbour did.",
+      "answerZh": "該兩名男子以為沒有人會揭發他們作弊,但一名鄰居揭發了他們。",
+      "highlight": "find",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After hearing both sides, the judge made a decision against the bus company.",
+      "promptZh": "法官聽取雙方的說法後,作出了對巴士公司不利的裁決。",
+      "starter": "After",
+      "answer": "After hearing both sides, the judge found against the bus company.",
+      "answerZh": "法官聽取雙方的說法後,作出了對巴士公司不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before signing the form, Hana checked and learnt what information the school needed.",
+      "promptZh": "哈娜簽署表格前,先查清楚學校需要哪些資料。",
+      "starter": "Before",
+      "answer": "Before signing the form, Hana found out what information the school needed.",
+      "answerZh": "哈娜簽署表格前,先查清楚學校需要哪些資料。",
+      "highlight": "found out",
+      "targetForm": "find out what...",
+      "targetMeaningZh": "查明需要哪些資料"
+    },
+    {
+      "id": "phrasal-verb-92-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The company looked stronger, but after hearing all the facts, the court decided in the customer’s favour.",
+      "promptZh": "公司看來較有勝算,但法庭聽取所有事實後,作出了有利於顧客的裁決。",
+      "starter": "The",
+      "answer": "The company looked stronger, but after hearing all the facts, the court found for the customer.",
+      "answerZh": "公司看來較有勝算,但法庭聽取所有事實後,作出了有利於顧客的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "For months, the student pretended to write the work himself, but his teacher finally exposed him.",
+      "promptZh": "幾個月來,該學生假裝功課是自己寫的,但老師最終揭穿了他。",
+      "starter": "For",
+      "answer": "For months, the student pretended to write the work himself, but his teacher finally found him out.",
+      "answerZh": "幾個月來,該學生假裝功課是自己寫的,但老師最終揭穿了他。",
+      "highlight": "found",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The landlord believed the case was simple, yet the judge made a decision against him after reading the messages.",
+      "promptZh": "業主認為案件很簡單,但法官閱讀訊息後,作出了對他不利的裁決。",
+      "starter": "The",
+      "answer": "The landlord believed the case was simple, yet the judge found against him after reading the messages.",
+      "answerZh": "業主認為案件很簡單,但法官閱讀訊息後,作出了對他不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We knew the event had changed, but nobody had discovered where it would now be held.",
+      "promptZh": "我們知道活動安排有變,但沒有人查到新的舉行地點。",
+      "starter": "We",
+      "answer": "We knew the event had changed, but nobody had found out where it would now be held.",
+      "answerZh": "我們知道活動安排有變,但沒有人查到新的舉行地點。",
+      "highlight": "found out",
+      "targetForm": "find out where...",
+      "targetMeaningZh": "查明某事的地點"
+    },
+    {
+      "id": "phrasal-verb-92-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the first report blamed the nurse, the court later made a decision in her favour.",
+      "promptZh": "雖然第一份報告指責該護士,但法庭其後作出了有利於她的裁決。",
+      "starter": "Although",
+      "answer": "Although the first report blamed the nurse, the court later found for her.",
+      "answerZh": "雖然第一份報告指責該護士,但法庭其後作出了有利於她的裁決。",
+      "highlight": "found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I discovered how much the repair would cost after the shop checked the phone.",
+      "promptZh": "店舖檢查電話後,我查到了維修費用。",
+      "starter": "I",
+      "answer": "I found out how much the repair would cost after the shop checked the phone.",
+      "answerZh": "店舖檢查電話後,我查到了維修費用。",
+      "highlight": "found out",
+      "targetForm": "find out how much...",
+      "targetMeaningZh": "查明數量或費用"
+    },
+    {
+      "id": "phrasal-verb-92-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The group used false photos for weeks. They were exposed when one member posted the original picture.",
+      "promptZh": "該群人使用虛假照片達數星期。其中一名成員發布原本的照片後,他們便被揭穿。",
+      "starter": "The",
+      "answer": "The group used false photos for weeks. They were found out when one member posted the original picture.",
+      "answerZh": "該群人使用虛假照片達數星期。其中一名成員發布原本的照片後,他們便被揭穿。",
+      "highlight": "found out",
+      "targetForm": "find somebody out",
+      "targetMeaningZh": "揭穿某人的欺騙或不當行為"
+    },
+    {
+      "id": "phrasal-verb-92-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The judge’s final decision supported the farmer, not the large company.",
+      "promptZh": "法官的最終裁決支持農夫,而不是那間大公司。",
+      "starter": "The",
+      "answer": "The judge found for the farmer, not the large company.",
+      "answerZh": "法官作出了有利於農夫,而不是那間大公司的裁決。",
+      "highlight": "judge found for",
+      "targetForm": "find for somebody",
+      "targetMeaningZh": "法庭作出有利於某人的裁決"
+    },
+    {
+      "id": "phrasal-verb-92-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The court accepted that the customer had been treated unfairly and made a decision against the travel company.",
+      "promptZh": "法庭接納顧客曾受到不公平對待,並作出了對旅遊公司不利的裁決。",
+      "starter": "The",
+      "answer": "The court accepted that the customer had been treated unfairly and found against the travel company.",
+      "answerZh": "法庭接納顧客曾受到不公平對待,並作出了對旅遊公司不利的裁決。",
+      "highlight": "found",
+      "targetForm": "find against somebody",
+      "targetMeaningZh": "法庭作出不利於某人的裁決"
+    }
+  ]
+}

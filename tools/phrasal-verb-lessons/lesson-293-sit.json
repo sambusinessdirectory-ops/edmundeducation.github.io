@@ -1,0 +1,2005 @@
+{
+  "id": "phrasal-verb-293",
+  "order": 293,
+  "slug": "sit",
+  "version": "1",
+  "title": "SIT 動詞片語",
+  "titleEn": "Sit",
+  "titleZh": "SIT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 278 - SIT.pdf",
+    "sourceNumber": 278,
+    "pageCount": 34,
+    "teachingPdfPages": [
+      1,
+      2,
+      4
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SIT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SIT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SIT",
+      "highlight": "SIT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We sat around the station for an hour.",
+      "zh": "(我們在車站無所事事地等了一小時。)Sit round is a British variant of sit around in this meaning.",
+      "highlight": "sat around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He sat back and closed his eyes.",
+      "zh": "他向後靠在椅背上,閉上眼睛。",
+      "highlight": "sat back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We cannot sit by while animals are being hurt.",
+      "zh": "(當動物受到傷害時,我們不能袖手旁觀。)Sit by is complete by itself. Phrases such as and watch, and let something happen and whilesomething happens provide extra information.",
+      "highlight": "sit by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情；向後靠着坐;舒服地靠在椅背上；在不好的事情發生時不採取行動;袖手旁觀;坐視不理；讓某人坐下;使某人就座；為畫家或攝影師當模特兒;坐着讓人畫像或拍照；旁聽或列席會議、課堂或討論,但不參與其中；暫時代替某人工作或出席會議；擔任委員會、小組或評審團的成員；坐在室外；不參加某項活動、比賽或其中一個環節；扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+    "en": "sit around / sit round sit around/round somewhere; sit back; sit by; sit somebody down; sit for somebody/something; sit in on something; sit in for somebody; sit on something; sit out; sit something out; sit somebody up",
+    "naturalZh": [
+      "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+      "向後靠着坐;舒服地靠在椅背上",
+      "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+      "讓某人坐下;使某人就座",
+      "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+      "旁聽或列席會議、課堂或討論,但不參與其中",
+      "暫時代替某人工作或出席會議",
+      "擔任委員會、小組或評審團的成員",
+      "坐在室外",
+      "不參加某項活動、比賽或其中一個環節",
+      "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sit around / sit round sit around/round somewhere",
+      "titleZh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+      "titleEn": "sit around / sit round sit around/round somewhere",
+      "descriptionZh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+      "descriptionEn": "We sat around the station for an hour.",
+      "examples": [
+        {
+          "en": "We sat around the station for an hour.",
+          "zh": "(我們在車站無所事事地等了一小時。)Sit round is a British variant of sit around in this meaning.",
+          "highlight": "sat around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit back",
+      "titleZh": "向後靠着坐;舒服地靠在椅背上",
+      "titleEn": "sit back",
+      "descriptionZh": "向後靠着坐;舒服地靠在椅背上",
+      "descriptionEn": "He sat back and closed his eyes.",
+      "examples": [
+        {
+          "en": "He sat back and closed his eyes.",
+          "zh": "他向後靠在椅背上,閉上眼睛。",
+          "highlight": "sat back"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit by",
+      "titleZh": "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+      "titleEn": "sit by",
+      "descriptionZh": "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+      "descriptionEn": "We cannot sit by while animals are being hurt.",
+      "examples": [
+        {
+          "en": "We cannot sit by while animals are being hurt.",
+          "zh": "(當動物受到傷害時,我們不能袖手旁觀。)Sit by is complete by itself. Phrases such as and watch, and let something happen and whilesomething happens provide extra information.",
+          "highlight": "sit by"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit somebody down",
+      "titleZh": "讓某人坐下;使某人就座",
+      "titleEn": "sit somebody down",
+      "descriptionZh": "讓某人坐下;使某人就座",
+      "descriptionEn": "The teacher sat us down and explained the problem.",
+      "examples": [
+        {
+          "en": "The teacher sat us down and explained the problem.",
+          "zh": "老師讓我們坐下,然後解釋問題。",
+          "highlight": "sat us down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit for somebody/something",
+      "titleZh": "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+      "titleEn": "sit for somebody/something",
+      "descriptionZh": "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+      "descriptionEn": "The actor sat for a portrait.",
+      "examples": [
+        {
+          "en": "The actor sat for a portrait.",
+          "zh": "(那名演員坐着讓人畫像。)In this exercise, sit for refers to posing for an artist or photographer.",
+          "highlight": "sat for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit in on something",
+      "titleZh": "旁聽或列席會議、課堂或討論,但不參與其中",
+      "titleEn": "sit in on something",
+      "descriptionZh": "旁聽或列席會議、課堂或討論,但不參與其中",
+      "descriptionEn": "I was allowed to sit in on the meeting.",
+      "examples": [
+        {
+          "en": "I was allowed to sit in on the meeting.",
+          "zh": "我獲准列席這次會議。",
+          "highlight": "sit in on"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sit in for somebody",
+      "titleZh": "暫時代替某人工作或出席會議",
+      "titleEn": "sit in for somebody",
+      "descriptionZh": "暫時代替某人工作或出席會議",
+      "descriptionEn": "Ella is sitting in for our receptionist today.",
+      "examples": [
+        {
+          "en": "Ella is sitting in for our receptionist today.",
+          "zh": "埃拉今天暫代接待員的工作。",
+          "highlight": "sitting in for"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sit on something",
+      "titleZh": "擔任委員會、小組或評審團的成員",
+      "titleEn": "sit on something",
+      "descriptionZh": "擔任委員會、小組或評審團的成員",
+      "descriptionEn": "Three teachers sit on the school committee.",
+      "examples": [
+        {
+          "en": "Three teachers sit on the school committee.",
+          "zh": "三名老師是學校委員會的成員。",
+          "highlight": "sit on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sit out",
+      "titleZh": "坐在室外",
+      "titleEn": "sit out",
+      "descriptionZh": "坐在室外",
+      "descriptionEn": "It was warm enough to sit out after dinner.",
+      "examples": [
+        {
+          "en": "It was warm enough to sit out after dinner.",
+          "zh": "天氣夠暖,我們可以在晚飯後坐在室外。",
+          "highlight": "sit out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sit something out",
+      "titleZh": "不參加某項活動、比賽或其中一個環節",
+      "titleEn": "sit something out",
+      "descriptionZh": "不參加某項活動、比賽或其中一個環節",
+      "descriptionEn": "I think I will sit this game out.",
+      "examples": [
+        {
+          "en": "I think I will sit this game out.",
+          "zh": "我想我不會參加這場比賽。",
+          "highlight": "sit this game out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sit somebody up",
+      "titleZh": "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+      "titleEn": "sit somebody up",
+      "descriptionZh": "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+      "descriptionEn": "The nurse sat the child up in bed.",
+      "examples": [
+        {
+          "en": "The nurse sat the child up in bed.",
+          "zh": "護士扶孩子在床上坐起來。",
+          "highlight": "sat the child up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SIT 片語動詞的實際用途",
+    "labelEn": "SIT Phrasal Verbs in Use",
+    "summaryZh": "sit around 表示無所事事地消磨時間;sit by 的意思更嚴重,表示眼看不好的事情發生,卻沒有採取行動。；sit in on a meeting 表示以旁聽者身分出席;sit in for somebody 表示暫代某人;sit on acommittee 則表示擔任委員會成員。；當某人選擇不參加或被迫錯過比賽、舞蹈、旅程或其他活動時,可以使用 sit something out。；sit back、sit somebody down 和 sit somebody up 分別描述三種不同的動作或坐姿。",
+    "summaryEn": "Sit around means spending time doing very little. Sit by is more serious: it means failing to act while something wrong is happening. Sit in on a meeting means attending as an observer. Sit in for somebody means replacing that person. Sit on a committee means being one of its members. Sit something out is useful when someone chooses or has to miss a game, dance, trip or other activity. Sit back, sit somebody down and sit somebody up describe three different movements or sitting positions.",
+    "contextsZh": [
+      "清楚區分不同形式的「不行動」",
+      "談論會議和臨時職務",
+      "表達某人是否參與活動",
+      "更準確地描述身體姿勢"
+    ],
+    "contextsEn": [
+      "Describe different kinds of inactivity clearly",
+      "Talk about meetings and temporary roles",
+      "Express whether someone joins an activity",
+      "Describe body position more precisely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SIT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SIT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sit around / sit round sit around/round somewhere",
+    "fixedHighlight": "sit around / sit round sit around/round somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 SIT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SIT expression that gives the same meaning.",
+    "correct": "sat around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；先學習核心表達。其他字詞可以補充資料,但不一定是固定表達的一部分。例如,sit by 是核心表達;and watch 和 while something happens 則解釋當時發生了甚麼事。；留意以下重要分別:● We sat out after dinner.我們晚飯後坐在室外。● I sat the game out.我沒有參加那場比賽。● She sat him down.她讓他坐下。● She sat him up.她扶他從躺着或靠着的姿勢坐起來。",
+    "variableEn": "Keep the same people, things, time and meaning. Learn the core expression first. Other words may add information, but they are not always fixed parts of the expression. For example: ● sit by ● sit by and watch ● sit by while something happens The core expression is sit by. And watch and while something happens explain what the person allowed to happen. Notice these important differences: ● We sat out after dinner. We sat outside. ● I sat the game out. I did not take part in the game. ● She sat him down. She made him sit. ● She sat him up. She helped him move from lying or leaning to a sitting position.",
+    "variableItemsZh": [
+      "sit around / sit round sit around/round somewhere",
+      "sit back",
+      "sit by",
+      "sit somebody down",
+      "sit for somebody/something",
+      "sit in on something",
+      "sit in for somebody",
+      "sit on something",
+      "sit out",
+      "sit something out",
+      "sit somebody up"
+    ],
+    "variableItemsEn": [
+      "sit around / sit round sit around/round somewhere",
+      "sit back",
+      "sit by",
+      "sit somebody down",
+      "sit for somebody/something",
+      "sit in on something",
+      "sit in for somebody",
+      "sit on something",
+      "sit out",
+      "sit something out",
+      "sit somebody up"
+    ],
+    "forms": [
+      {
+        "formZh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+        "formEn": "sit around / sit round sit around/round somewhere",
+        "exampleZh": "(我們在車站無所事事地等了一小時。)Sit round is a British variant of sit around in this meaning.",
+        "exampleEn": "We sat around the station for an hour.",
+        "highlight": "sat around"
+      },
+      {
+        "formZh": "向後靠着坐;舒服地靠在椅背上",
+        "formEn": "sit back",
+        "exampleZh": "他向後靠在椅背上,閉上眼睛。",
+        "exampleEn": "He sat back and closed his eyes.",
+        "highlight": "sat back"
+      },
+      {
+        "formZh": "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+        "formEn": "sit by",
+        "exampleZh": "(當動物受到傷害時,我們不能袖手旁觀。)Sit by is complete by itself. Phrases such as and watch, and let something happen and whilesomething happens provide extra information.",
+        "exampleEn": "We cannot sit by while animals are being hurt.",
+        "highlight": "sit by"
+      },
+      {
+        "formZh": "讓某人坐下;使某人就座",
+        "formEn": "sit somebody down",
+        "exampleZh": "老師讓我們坐下,然後解釋問題。",
+        "exampleEn": "The teacher sat us down and explained the problem.",
+        "highlight": "sat us down"
+      },
+      {
+        "formZh": "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+        "formEn": "sit for somebody/something",
+        "exampleZh": "(那名演員坐着讓人畫像。)In this exercise, sit for refers to posing for an artist or photographer.",
+        "exampleEn": "The actor sat for a portrait.",
+        "highlight": "sat for"
+      },
+      {
+        "formZh": "旁聽或列席會議、課堂或討論,但不參與其中",
+        "formEn": "sit in on something",
+        "exampleZh": "我獲准列席這次會議。",
+        "exampleEn": "I was allowed to sit in on the meeting.",
+        "highlight": "sit in on"
+      },
+      {
+        "formZh": "暫時代替某人工作或出席會議",
+        "formEn": "sit in for somebody",
+        "exampleZh": "埃拉今天暫代接待員的工作。",
+        "exampleEn": "Ella is sitting in for our receptionist today.",
+        "highlight": "sitting in for"
+      },
+      {
+        "formZh": "擔任委員會、小組或評審團的成員",
+        "formEn": "sit on something",
+        "exampleZh": "三名老師是學校委員會的成員。",
+        "exampleEn": "Three teachers sit on the school committee.",
+        "highlight": "sit on"
+      },
+      {
+        "formZh": "坐在室外",
+        "formEn": "sit out",
+        "exampleZh": "天氣夠暖,我們可以在晚飯後坐在室外。",
+        "exampleEn": "It was warm enough to sit out after dinner.",
+        "highlight": "sit out"
+      },
+      {
+        "formZh": "不參加某項活動、比賽或其中一個環節",
+        "formEn": "sit something out",
+        "exampleZh": "我想我不會參加這場比賽。",
+        "exampleEn": "I think I will sit this game out.",
+        "highlight": "sit this game out"
+      },
+      {
+        "formZh": "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+        "formEn": "sit somebody up",
+        "exampleZh": "護士扶孩子在床上坐起來。",
+        "exampleEn": "The nurse sat the child up in bed.",
+        "highlight": "sat the child up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+      "titleEn": "sit around / sit round sit around/round somewhere",
+      "formula": "sit around / sit round sit around/round somewhere",
+      "highlight": "sit around / sit round sit around/round somewhere",
+      "descriptionZh": "閒坐;無所事事;在某處消磨時間而沒有做多少事情",
+      "descriptionEn": "We sat around the station for an hour.",
+      "examples": [
+        {
+          "en": "We sat around the station for an hour.",
+          "zh": "(我們在車站無所事事地等了一小時。)Sit round is a British variant of sit around in this meaning.",
+          "highlight": "sat around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "向後靠着坐;舒服地靠在椅背上",
+      "titleEn": "sit back",
+      "formula": "sit back",
+      "highlight": "sit back",
+      "descriptionZh": "向後靠着坐;舒服地靠在椅背上",
+      "descriptionEn": "He sat back and closed his eyes.",
+      "examples": [
+        {
+          "en": "He sat back and closed his eyes.",
+          "zh": "他向後靠在椅背上,閉上眼睛。",
+          "highlight": "sat back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+      "titleEn": "sit by",
+      "formula": "sit by",
+      "highlight": "sit by",
+      "descriptionZh": "在不好的事情發生時不採取行動;袖手旁觀;坐視不理",
+      "descriptionEn": "We cannot sit by while animals are being hurt.",
+      "examples": [
+        {
+          "en": "We cannot sit by while animals are being hurt.",
+          "zh": "(當動物受到傷害時,我們不能袖手旁觀。)Sit by is complete by itself. Phrases such as and watch, and let something happen and whilesomething happens provide extra information.",
+          "highlight": "sit by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "讓某人坐下;使某人就座",
+      "titleEn": "sit somebody down",
+      "formula": "sit somebody down",
+      "highlight": "sit somebody down",
+      "descriptionZh": "讓某人坐下;使某人就座",
+      "descriptionEn": "The teacher sat us down and explained the problem.",
+      "examples": [
+        {
+          "en": "The teacher sat us down and explained the problem.",
+          "zh": "老師讓我們坐下,然後解釋問題。",
+          "highlight": "sat us down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+      "titleEn": "sit for somebody/something",
+      "formula": "sit for somebody/something",
+      "highlight": "sit for somebody/something",
+      "descriptionZh": "為畫家或攝影師當模特兒;坐着讓人畫像或拍照",
+      "descriptionEn": "The actor sat for a portrait.",
+      "examples": [
+        {
+          "en": "The actor sat for a portrait.",
+          "zh": "(那名演員坐着讓人畫像。)In this exercise, sit for refers to posing for an artist or photographer.",
+          "highlight": "sat for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "旁聽或列席會議、課堂或討論,但不參與其中",
+      "titleEn": "sit in on something",
+      "formula": "sit in on something",
+      "highlight": "sit in on something",
+      "descriptionZh": "旁聽或列席會議、課堂或討論,但不參與其中",
+      "descriptionEn": "I was allowed to sit in on the meeting.",
+      "examples": [
+        {
+          "en": "I was allowed to sit in on the meeting.",
+          "zh": "我獲准列席這次會議。",
+          "highlight": "sit in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "暫時代替某人工作或出席會議",
+      "titleEn": "sit in for somebody",
+      "formula": "sit in for somebody",
+      "highlight": "sit in for somebody",
+      "descriptionZh": "暫時代替某人工作或出席會議",
+      "descriptionEn": "Ella is sitting in for our receptionist today.",
+      "examples": [
+        {
+          "en": "Ella is sitting in for our receptionist today.",
+          "zh": "埃拉今天暫代接待員的工作。",
+          "highlight": "sitting in for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "擔任委員會、小組或評審團的成員",
+      "titleEn": "sit on something",
+      "formula": "sit on something",
+      "highlight": "sit on something",
+      "descriptionZh": "擔任委員會、小組或評審團的成員",
+      "descriptionEn": "Three teachers sit on the school committee.",
+      "examples": [
+        {
+          "en": "Three teachers sit on the school committee.",
+          "zh": "三名老師是學校委員會的成員。",
+          "highlight": "sit on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "坐在室外",
+      "titleEn": "sit out",
+      "formula": "sit out",
+      "highlight": "sit out",
+      "descriptionZh": "坐在室外",
+      "descriptionEn": "It was warm enough to sit out after dinner.",
+      "examples": [
+        {
+          "en": "It was warm enough to sit out after dinner.",
+          "zh": "天氣夠暖,我們可以在晚飯後坐在室外。",
+          "highlight": "sit out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "不參加某項活動、比賽或其中一個環節",
+      "titleEn": "sit something out",
+      "formula": "sit something out",
+      "highlight": "sit something out",
+      "descriptionZh": "不參加某項活動、比賽或其中一個環節",
+      "descriptionEn": "I think I will sit this game out.",
+      "examples": [
+        {
+          "en": "I think I will sit this game out.",
+          "zh": "我想我不會參加這場比賽。",
+          "highlight": "sit this game out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+      "titleEn": "sit somebody up",
+      "formula": "sit somebody up",
+      "highlight": "sit somebody up",
+      "descriptionZh": "扶某人坐起來;使某人從躺着或靠着的姿勢坐起來",
+      "descriptionEn": "The nurse sat the child up in bed.",
+      "examples": [
+        {
+          "en": "The nurse sat the child up in bed.",
+          "zh": "護士扶孩子在床上坐起來。",
+          "highlight": "sat the child up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚區分不同形式的「不行動」",
+      "titleEn": "Describe different kinds of inactivity clearly",
+      "zh": "sit around 表示無所事事地消磨時間;sit by 的意思更嚴重,表示眼看不好的事情發生,卻沒有採取行動。",
+      "en": "Sit around means spending time doing very little. Sit by is more serious: it means failing to act while something wrong is happening."
+    },
+    {
+      "titleZh": "談論會議和臨時職務",
+      "titleEn": "Talk about meetings and temporary roles",
+      "zh": "sit in on a meeting 表示以旁聽者身分出席;sit in for somebody 表示暫代某人;sit on acommittee 則表示擔任委員會成員。",
+      "en": "Sit in on a meeting means attending as an observer. Sit in for somebody means replacing that person. Sit on a committee means being one of its members."
+    },
+    {
+      "titleZh": "表達某人是否參與活動",
+      "titleEn": "Express whether someone joins an activity",
+      "zh": "當某人選擇不參加或被迫錯過比賽、舞蹈、旅程或其他活動時,可以使用 sit something out。",
+      "en": "Sit something out is useful when someone chooses or has to miss a game, dance, trip or other activity."
+    },
+    {
+      "titleZh": "更準確地描述身體姿勢",
+      "titleEn": "Describe body position more precisely",
+      "zh": "sit back、sit somebody down 和 sit somebody up 分別描述三種不同的動作或坐姿。",
+      "en": "Sit back, sit somebody down and sit somebody up describe three different movements or sitting positions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚區分不同形式的「不行動」",
+      "談論會議和臨時職務",
+      "表達某人是否參與活動",
+      "更準確地描述身體姿勢"
+    ],
+    "contextsEn": [
+      "Describe different kinds of inactivity clearly",
+      "Talk about meetings and temporary roles",
+      "Express whether someone joins an activity",
+      "Describe body position more precisely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚區分不同形式的「不行動」",
+        "titleEn": "Describe different kinds of inactivity clearly",
+        "zh": "sit around 表示無所事事地消磨時間;sit by 的意思更嚴重,表示眼看不好的事情發生,卻沒有採取行動。",
+        "en": "Sit around means spending time doing very little. Sit by is more serious: it means failing to act while something wrong is happening.",
+        "examples": [
+          {
+            "en": "We sat around the station for an hour.",
+            "zh": "(我們在車站無所事事地等了一小時。)Sit round is a British variant of sit around in this meaning.",
+            "highlight": "sat around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論會議和臨時職務",
+        "titleEn": "Talk about meetings and temporary roles",
+        "zh": "sit in on a meeting 表示以旁聽者身分出席;sit in for somebody 表示暫代某人;sit on acommittee 則表示擔任委員會成員。",
+        "en": "Sit in on a meeting means attending as an observer. Sit in for somebody means replacing that person. Sit on a committee means being one of its members.",
+        "examples": [
+          {
+            "en": "He sat back and closed his eyes.",
+            "zh": "他向後靠在椅背上,閉上眼睛。",
+            "highlight": "sat back"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達某人是否參與活動",
+        "titleEn": "Express whether someone joins an activity",
+        "zh": "當某人選擇不參加或被迫錯過比賽、舞蹈、旅程或其他活動時,可以使用 sit something out。",
+        "en": "Sit something out is useful when someone chooses or has to miss a game, dance, trip or other activity.",
+        "examples": [
+          {
+            "en": "We cannot sit by while animals are being hurt.",
+            "zh": "(當動物受到傷害時,我們不能袖手旁觀。)Sit by is complete by itself. Phrases such as and watch, and let something happen and whilesomething happens provide extra information.",
+            "highlight": "sit by"
+          }
+        ]
+      },
+      {
+        "titleZh": "更準確地描述身體姿勢",
+        "titleEn": "Describe body position more precisely",
+        "zh": "sit back、sit somebody down 和 sit somebody up 分別描述三種不同的動作或坐姿。",
+        "en": "Sit back, sit somebody down and sit somebody up describe three different movements or sitting positions.",
+        "examples": [
+          {
+            "en": "The teacher sat us down and explained the problem.",
+            "zh": "老師讓我們坐下,然後解釋問題。",
+            "highlight": "sat us down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SIT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SIT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SIT 片語動詞。",
+      "en": "Read the whole sentence and choose the SIT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "先學習核心表達。其他字詞可以補充資料,但不一定是固定表達的一部分。例如,sit by 是核心表達;and watch 和 while something happens 則解釋當時發生了甚麼事。",
+      "titleEn": "Learn the core expression first.",
+      "zh": "先學習核心表達。其他字詞可以補充資料,但不一定是固定表達的一部分。例如,sit by 是核心表達;and watch 和 while something happens 則解釋當時發生了甚麼事。",
+      "en": "Learn the core expression first. Other words may add information, but they are not always fixed parts of the expression. For example: ● sit by ● sit by and watch ● sit by while something happens The core expression is sit by. And watch and while something happens explain what the person allowed to happen."
+    },
+    {
+      "titleZh": "留意以下重要分別:● We sat out after dinner.我們晚飯後坐在室外。● I sat the game out.我沒有參加那場比賽。● She sat him down.她讓他坐下。● She sat him up.她扶他從躺着或靠着的姿勢坐起來。",
+      "titleEn": "Notice these important differences: ● We sat out after dinner.",
+      "zh": "留意以下重要分別:● We sat out after dinner.我們晚飯後坐在室外。● I sat the game out.我沒有參加那場比賽。● She sat him down.她讓他坐下。● She sat him up.她扶他從躺着或靠着的姿勢坐起來。",
+      "en": "Notice these important differences: ● We sat out after dinner. We sat outside. ● I sat the game out. I did not take part in the game. ● She sat him down. She made him sit. ● She sat him up. She helped him move from lying or leaning to a sitting position."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SIT 動詞片語句子改寫練習",
+    "titleEn": "SIT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-293-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The children spent an hour in the waiting room doing almost nothing.",
+      "promptZh": "孩子們在候診室無所事事地過了一小時。",
+      "starter": "The",
+      "answer": "The children sat around the waiting room for an hour.",
+      "answerZh": "孩子們在候診室無所事事地等了一小時。",
+      "highlight": "sat around",
+      "targetForm": "sit around somewhere",
+      "targetMeaningZh": "在某處閒坐或無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The new teacher attended our maths lesson to watch, but she did not take part.",
+      "promptZh": "新老師旁聽了我們的數學課,但沒有參與課堂活動。",
+      "starter": "The",
+      "answer": "The new teacher sat in on our maths lesson.",
+      "answerZh": "新老師旁聽了我們的數學課。",
+      "highlight": "sat in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We cannot simply do nothing while people damage the playground.",
+      "promptZh": "當有人破壞遊樂場時,我們不能甚麼也不做。",
+      "starter": "We",
+      "answer": "We cannot sit by while people damage the playground.",
+      "answerZh": "當有人破壞遊樂場時,我們不能袖手旁觀。",
+      "highlight": "sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "We sat outside after dinner because the evening was warm.",
+      "promptZh": "由於晚上天氣溫暖,我們晚飯後坐在室外。",
+      "starter": "We",
+      "answer": "We sat out after dinner because the evening was warm.",
+      "answerZh": "由於晚上天氣溫暖,我們晚飯後坐在室外。",
+      "highlight": "sat out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Dad made Leo sit beside the fire.",
+      "promptZh": "爸爸讓里奧坐在爐火旁。",
+      "starter": "Dad",
+      "answer": "Dad sat Leo down beside the fire.",
+      "answerZh": "爸爸讓里奧坐在爐火旁。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Nora leaned back comfortably in her chair and closed her eyes.",
+      "promptZh": "諾拉舒服地靠在椅背上,閉上眼睛。",
+      "starter": "Nora",
+      "answer": "Nora sat back in her chair and closed her eyes.",
+      "answerZh": "諾拉向後靠在椅背上,閉上眼睛。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "I am not going to take part in this dance.",
+      "promptZh": "我不打算參加這支舞。",
+      "starter": "I",
+      "answer": "I am going to sit this dance out.",
+      "answerZh": "我不打算參加這支舞。",
+      "highlight": "sit",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The actor posed for a portrait last month.",
+      "promptZh": "那名演員上月坐着讓人畫像。",
+      "starter": "The",
+      "answer": "The actor sat for a portrait last month.",
+      "answerZh": "那名演員上月坐着讓人畫像。",
+      "highlight": "sat",
+      "targetForm": "sit for something",
+      "targetMeaningZh": "坐着讓人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Four parents are members of the school committee.",
+      "promptZh": "四名家長是學校委員會的成員。",
+      "starter": "Four",
+      "answer": "Four parents sit on the school committee.",
+      "answerZh": "四名家長是學校委員會的成員。",
+      "highlight": "sit on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或小組的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "We spent all afternoon at home doing very little.",
+      "promptZh": "我們整個下午都在家中無所事事。",
+      "starter": "We",
+      "answer": "We sat round at home all afternoon doing very little.",
+      "answerZh": "我們整個下午都在家中無所事事。",
+      "highlight": "sat round at home",
+      "targetForm": "sit round",
+      "targetMeaningZh": "閒坐;無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The nurse helped the child move into a sitting position in bed.",
+      "promptZh": "護士扶孩子在床上坐起來。",
+      "starter": "The",
+      "answer": "The nurse sat the child up in bed.",
+      "answerZh": "護士扶孩子在床上坐起來。",
+      "highlight": "sat",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Ravi replaced the manager at Monday’s meeting.",
+      "promptZh": "拉維在星期一的會議上代替經理出席。",
+      "starter": "Ravi",
+      "answer": "Ravi sat in for the manager at Monday’s meeting.",
+      "answerZh": "拉維在星期一的會議上代替經理出席。",
+      "highlight": "sat in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "She refused to do nothing while the dog suffered.",
+      "promptZh": "她拒絕在那隻狗受苦時袖手旁觀。",
+      "starter": "She",
+      "answer": "She refused to sit by and watch the dog suffer.",
+      "answerZh": "她拒絕袖手旁觀,看着那隻狗受苦。",
+      "highlight": "sit by and watch",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The teacher made us sit and then explained the new rule.",
+      "promptZh": "老師讓我們坐下,然後解釋新規則。",
+      "starter": "The",
+      "answer": "The teacher sat us down and explained the new rule.",
+      "answerZh": "老師讓我們坐下,然後解釋新規則。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Grandad leaned back and enjoyed the music.",
+      "promptZh": "祖父向後靠着坐,享受音樂。",
+      "starter": "Grandad",
+      "answer": "Grandad sat back and enjoyed the music.",
+      "answerZh": "祖父向後靠着坐,享受音樂。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The family posed for a group photograph.",
+      "promptZh": "這家人坐着拍攝了一張全家福。",
+      "starter": "The",
+      "answer": "The family sat for a group photograph.",
+      "answerZh": "這家人坐着拍攝了一張全家福。",
+      "highlight": "sat",
+      "targetForm": "sit for something",
+      "targetMeaningZh": "坐着讓人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Ella is replacing our receptionist today.",
+      "promptZh": "埃拉今天正在暫代接待員的工作。",
+      "starter": "Ella",
+      "answer": "Ella is sitting in for our receptionist today.",
+      "answerZh": "埃拉今天正在暫代接待員的工作。",
+      "highlight": "sitting in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "He never spends time doing nothing when there is work to do.",
+      "promptZh": "有工作要做時,他從不無所事事。",
+      "starter": "He",
+      "answer": "He never sits around when there is work to do.",
+      "answerZh": "有工作要做時,他從不無所事事。",
+      "highlight": "sits around",
+      "targetForm": "sit around",
+      "targetMeaningZh": "閒坐;無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Sam could not take part in the match because his ankle hurt.",
+      "promptZh": "森因為腳踝疼痛,無法參加比賽。",
+      "starter": "Sam",
+      "answer": "Sam had to sit the match out because his ankle hurt.",
+      "answerZh": "森因為腳踝疼痛,不得不缺席比賽。",
+      "highlight": "had to sit",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Could you make the children sit before the story begins?",
+      "promptZh": "你可以在故事開始前讓孩子們坐下嗎?",
+      "starter": "Could",
+      "answer": "Could you sit the children down before the story begins?",
+      "answerZh": "你可以在故事開始前讓孩子們坐下嗎?",
+      "highlight": "sit",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Is your uncle still a member of the town council?",
+      "promptZh": "你的叔叔仍然是市議會的成員嗎?",
+      "starter": "Does",
+      "answer": "Does your uncle still sit on the town council?",
+      "answerZh": "你的叔叔仍然是市議會的成員嗎?",
+      "highlight": "Does",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或組織的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "I have been invited to attend tomorrow’s planning meeting as an observer.",
+      "promptZh": "我獲邀以旁聽者身分出席明天的計劃會議。",
+      "starter": "I",
+      "answer": "I have been invited to sit in on tomorrow’s planning meeting.",
+      "answerZh": "我獲邀旁聽明天的計劃會議。",
+      "highlight": "sit in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Please lean back and make yourself comfortable.",
+      "promptZh": "請向後靠着坐,讓自己舒服一點。",
+      "starter": "Please",
+      "answer": "Please sit back and make yourself comfortable.",
+      "answerZh": "請向後靠着坐,讓自己舒服一點。",
+      "highlight": "sit",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The guests are sitting outside because it is cooler in the garden.",
+      "promptZh": "客人們正在室外坐着,因為花園比較涼快。",
+      "starter": "The",
+      "answer": "The guests are sitting out because it is cooler in the garden.",
+      "answerZh": "客人們正在室外坐着,因為花園比較涼快。",
+      "highlight": "sitting out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Will the singer pose for the photographer tomorrow?",
+      "promptZh": "那名歌手明天會坐着讓攝影師拍照嗎?",
+      "starter": "Will",
+      "answer": "Will the singer sit for the photographer tomorrow?",
+      "answerZh": "那名歌手明天會坐着讓攝影師拍照嗎?",
+      "highlight": "sit",
+      "targetForm": "sit for somebody",
+      "targetMeaningZh": "坐着讓某人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "A responsible adult should not ignore a child who is in danger.",
+      "promptZh": "負責任的成年人不應對身處危險的孩子坐視不理。",
+      "starter": "No",
+      "answer": "No responsible adult should sit by when a child is in danger.",
+      "answerZh": "負責任的成年人不應對身處危險的孩子坐視不理。",
+      "highlight": "No",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Can you help Grandma move into a sitting position so that she can drink some water?",
+      "promptZh": "你可以扶祖母坐起來,讓她喝點水嗎?",
+      "starter": "Can",
+      "answer": "Can you sit Grandma up so that she can drink some water?",
+      "answerZh": "你可以扶祖母坐起來,讓她喝點水嗎?",
+      "highlight": "sit",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "A supply teacher has been replacing Mr Wong all week.",
+      "promptZh": "一名代課老師整個星期都在代替黃老師。",
+      "starter": "A",
+      "answer": "A supply teacher has been sitting in for Mr Wong all week.",
+      "answerZh": "一名代課老師整個星期都在代替黃老師。",
+      "highlight": "sitting in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Why is the head teacher attending our class only to observe it today?",
+      "promptZh": "校長今天為甚麼只以旁聽者身分參與我們的課堂?",
+      "starter": "Why",
+      "answer": "Why is the head teacher sitting in on our class today?",
+      "answerZh": "校長今天為甚麼旁聽我們的課堂?",
+      "highlight": "sitting in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "I may not take part in the next round because I need a rest.",
+      "promptZh": "我可能不會參加下一回合,因為我需要休息。",
+      "starter": "I",
+      "answer": "I may sit the next round out because I need a rest.",
+      "answerZh": "我可能不會參加下一回合,因為我需要休息。",
+      "highlight": "sit",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Two students are now members of the library group.",
+      "promptZh": "兩名學生現在是圖書館小組的成員。",
+      "starter": "Two",
+      "answer": "Two students now sit on the library group.",
+      "answerZh": "兩名學生現在是圖書館小組的成員。",
+      "highlight": "sit on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或小組的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "We cannot sit outside tonight because it is raining.",
+      "promptZh": "今晚正在下雨,我們不能坐在室外。",
+      "starter": "We",
+      "answer": "We cannot sit out tonight because it is raining.",
+      "answerZh": "今晚正在下雨,我們不能坐在室外。",
+      "highlight": "sit out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "After the long walk, I leaned back and rested my legs.",
+      "promptZh": "走了很長的路後,我向後靠着坐,讓雙腿休息。",
+      "starter": "After",
+      "answer": "After the long walk, I sat back and rested my legs.",
+      "answerZh": "走了很長的路後,我向後靠着坐,讓雙腿休息。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Both doctors are members of the hospital safety group.",
+      "promptZh": "兩名醫生都是醫院安全小組的成員。",
+      "starter": "Both",
+      "answer": "Both doctors sit on the hospital safety group.",
+      "answerZh": "兩名醫生都是醫院安全小組的成員。",
+      "highlight": "sit on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或小組的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "We had spent nearly two hours at the station doing very little.",
+      "promptZh": "我們已在車站無所事事地過了接近兩小時。",
+      "starter": "We",
+      "answer": "We had been sitting around the station for nearly two hours.",
+      "answerZh": "我們已在車站無所事事地等了接近兩小時。",
+      "highlight": "been sitting around the station for",
+      "targetForm": "sit around somewhere",
+      "targetMeaningZh": "在某處閒坐或無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Several children posed for the artist while she drew them.",
+      "promptZh": "藝術家替幾名孩子畫畫時,他們坐着當模特兒。",
+      "starter": "Several",
+      "answer": "Several children sat for the artist while she drew them.",
+      "answerZh": "藝術家替幾名孩子畫畫時,他們坐着當模特兒。",
+      "highlight": "sat",
+      "targetForm": "sit for somebody",
+      "targetMeaningZh": "坐着讓某人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Ben injured his hand, so he is not playing in this game.",
+      "promptZh": "賓弄傷了手,所以不會參加這場比賽。",
+      "starter": "Ben",
+      "answer": "Ben injured his hand, so he is sitting this game out.",
+      "answerZh": "賓弄傷了手,所以不會參加這場比賽。",
+      "highlight": "sitting",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "How could they do nothing and allow the fire to spread?",
+      "promptZh": "他們怎能甚麼也不做,任由火勢蔓延?",
+      "starter": "How",
+      "answer": "How could they sit by and let the fire spread?",
+      "answerZh": "他們怎能袖手旁觀,任由火勢蔓延?",
+      "highlight": "sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I will replace you while you attend the training course.",
+      "promptZh": "你參加培訓課程期間,我會代替你。",
+      "starter": "I",
+      "answer": "I will sit in for you while you attend the training course.",
+      "answerZh": "你參加培訓課程期間,我會代替你。",
+      "highlight": "sit in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The carer gently helped him sit upright and placed a pillow behind him.",
+      "promptZh": "照顧者輕輕扶他坐起來,並在他身後放了一個枕頭。",
+      "starter": "The",
+      "answer": "The carer gently sat him up and placed a pillow behind him.",
+      "answerZh": "照顧者輕輕扶他坐起來,並在他身後放了一個枕頭。",
+      "highlight": "sat",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "She made her brother sit at the kitchen table for a serious talk.",
+      "promptZh": "她讓弟弟坐在廚房餐桌旁,準備認真談一談。",
+      "starter": "She",
+      "answer": "She sat her brother down at the kitchen table for a serious talk.",
+      "answerZh": "她讓弟弟坐在廚房餐桌旁,準備認真談一談。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Our class was allowed to attend the science talk as observers.",
+      "promptZh": "我們班獲准以旁聽者身分出席科學講座。",
+      "starter": "Our",
+      "answer": "Our class was allowed to sit in on the science talk.",
+      "answerZh": "我們班獲准旁聽科學講座。",
+      "highlight": "sit in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Although the café was crowded, we found a quiet place outside to sit.",
+      "promptZh": "雖然咖啡店很擠迫,但我們在室外找到一個安靜的地方坐下。",
+      "starter": "Although",
+      "answer": "Although the café was crowded, we found a quiet place to sit out.",
+      "answerZh": "雖然咖啡店很擠迫,但我們在室外找到一個安靜的地方坐下。",
+      "highlight": "sit out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The passenger leaned back as soon as the plane left the ground.",
+      "promptZh": "飛機一起飛,那名乘客便向後靠着坐。",
+      "starter": "The",
+      "answer": "The passenger sat back as soon as the plane left the ground.",
+      "answerZh": "飛機一起飛,那名乘客便向後靠着坐。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "They asked me to join the debate, but I chose not to take part.",
+      "promptZh": "他們邀請我參加辯論,但我選擇不參與。",
+      "starter": "They",
+      "answer": "They asked me to join the debate, but I chose to sit it out.",
+      "answerZh": "他們邀請我參加辯論,但我選擇不參與。",
+      "highlight": "sit it out",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Why are you spending time here doing nothing when everyone else is helping?",
+      "promptZh": "其他人都在幫忙,你為甚麼仍在這裏無所事事?",
+      "starter": "Why",
+      "answer": "Why are you sitting round here when everyone else is helping?",
+      "answerZh": "其他人都在幫忙,你為甚麼仍在這裏無所事事?",
+      "highlight": "sitting round",
+      "targetForm": "sit round somewhere",
+      "targetMeaningZh": "在某處閒坐或無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Her father used two cushions to help the baby sit upright safely.",
+      "promptZh": "她的父親用兩個靠墊安全地扶嬰兒坐起來。",
+      "starter": "Her",
+      "answer": "Her father used two cushions to sit the baby up safely.",
+      "answerZh": "她的父親用兩個靠墊安全地扶嬰兒坐起來。",
+      "highlight": "sit",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The neighbours refused to do nothing while the old tree was being cut down.",
+      "promptZh": "當那棵老樹被砍下時,鄰居拒絕袖手旁觀。",
+      "starter": "The",
+      "answer": "The neighbours would not sit by while the old tree was being cut down.",
+      "answerZh": "當那棵老樹被砍下時,鄰居不願袖手旁觀。",
+      "highlight": "would not sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "A trainee nurse attended the visit to observe how it was done.",
+      "promptZh": "一名實習護士旁觀了這次探訪,了解工作是怎樣進行的。",
+      "starter": "A",
+      "answer": "A trainee nurse sat in on the visit to learn how it was done.",
+      "answerZh": "一名實習護士旁觀了這次探訪,了解工作是怎樣進行的。",
+      "highlight": "sat in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "There is no point spending time doing nothing and waiting for someone else to act.",
+      "promptZh": "無所事事地等待其他人採取行動是沒有意義的。",
+      "starter": "There",
+      "answer": "There is no point sitting around and waiting for someone else to act.",
+      "answerZh": "無所事事地等待其他人採取行動是沒有意義的。",
+      "highlight": "sitting around",
+      "targetForm": "sit around",
+      "targetMeaningZh": "閒坐;無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The coach made the team sit after the match and spoke calmly to them.",
+      "promptZh": "比賽後,教練讓全隊坐下,平靜地跟他們說話。",
+      "starter": "The",
+      "answer": "The coach sat the team down after the match and spoke calmly to them.",
+      "answerZh": "比賽後,教練讓全隊坐下,平靜地跟他們說話。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The balcony was warm enough for us to sit outside until midnight.",
+      "promptZh": "露台十分溫暖,我們可以在室外坐至午夜。",
+      "starter": "The",
+      "answer": "The balcony was warm enough for us to sit out until midnight.",
+      "answerZh": "露台十分溫暖,我們可以在室外坐至午夜。",
+      "highlight": "sit out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Could Priya replace you during the afternoon shift?",
+      "promptZh": "普里雅可以在下午更次代替你嗎?",
+      "starter": "Could",
+      "answer": "Could Priya sit in for you during the afternoon shift?",
+      "answerZh": "普里雅可以在下午更次代替你嗎?",
+      "highlight": "sit in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The shop owner took action when he saw a customer being treated unfairly.",
+      "promptZh": "店主看見一名顧客受到不公平對待時,立即採取行動。",
+      "starter": "The",
+      "answer": "The shop owner did not sit by when he saw a customer being treated unfairly.",
+      "answerZh": "店主看見一名顧客受到不公平對待時,沒有袖手旁觀。",
+      "highlight": "did not sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I would rather not take part in the trip than travel while I feel ill.",
+      "promptZh": "我寧願不參加這次旅程,也不想在身體不適時出發。",
+      "starter": "I",
+      "answer": "I would rather sit the trip out than travel while I feel ill.",
+      "answerZh": "我寧願不參加這次旅程,也不想在身體不適時出發。",
+      "highlight": "sit",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The painter asked the old sailor to pose for him.",
+      "promptZh": "畫家請那名老水手坐着讓他畫像。",
+      "starter": "The",
+      "answer": "The painter asked the old sailor to sit for him.",
+      "answerZh": "畫家請那名老水手坐着讓他畫像。",
+      "highlight": "sit",
+      "targetForm": "sit for somebody",
+      "targetMeaningZh": "坐着讓某人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Please help the patient sit upright slowly before giving her the soup.",
+      "promptZh": "給病人喝湯前,請慢慢扶她坐起來。",
+      "starter": "Please",
+      "answer": "Please sit the patient up slowly before giving her the soup.",
+      "answerZh": "給病人喝湯前,請慢慢扶她坐起來。",
+      "highlight": "sit",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Everyone who is a member of the panel must read the entries.",
+      "promptZh": "每名評審團成員都必須閱讀參賽作品。",
+      "starter": "Everyone",
+      "answer": "Everyone who sits on the panel must read the entries.",
+      "answerZh": "每名評審團成員都必須閱讀參賽作品。",
+      "highlight": "sits on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會、小組或評審團的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Once the lights went down, the audience leaned back to enjoy the film.",
+      "promptZh": "燈光變暗後,觀眾向後靠着坐,準備欣賞電影。",
+      "starter": "Once",
+      "answer": "Once the lights went down, the audience sat back to enjoy the film.",
+      "answerZh": "燈光變暗後,觀眾向後靠着坐,準備欣賞電影。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Parents may attend one lesson as observers before choosing the course.",
+      "promptZh": "家長選擇課程前,可以旁聽一堂課。",
+      "starter": "Parents",
+      "answer": "Parents may sit in on one lesson before choosing the course.",
+      "answerZh": "家長選擇課程前,可以旁聽一堂課。",
+      "highlight": "sit in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Before telling us the news, Mum made us sit in the living room.",
+      "promptZh": "媽媽告訴我們消息前,先讓我們在客廳坐下。",
+      "starter": "Before",
+      "answer": "Before telling us the news, Mum sat us down in the living room.",
+      "answerZh": "媽媽告訴我們消息前,先讓我們在客廳坐下。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The club captain chose not to take part in this contest and gave a younger player a chance.",
+      "promptZh": "球會隊長選擇不參加這項比賽,把機會讓給一名較年輕的球員。",
+      "starter": "The",
+      "answer": "The club captain decided to sit this contest out and give a younger player a chance.",
+      "answerZh": "球會隊長決定不參加這項比賽,把機會讓給一名較年輕的球員。",
+      "highlight": "decided",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "With the usual host away, Dan replaced her on the radio show.",
+      "promptZh": "原來的主持人不在時,丹在電台節目中代替了她。",
+      "starter": "With",
+      "answer": "With the usual host away, Dan sat in for her on the radio show.",
+      "answerZh": "原來的主持人不在時,丹在電台節目中代替了她。",
+      "highlight": "sat in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The twins were asked to pose for a photograph in their school uniforms.",
+      "promptZh": "這對雙胞胎獲安排穿着校服坐着拍照。",
+      "starter": "The",
+      "answer": "The twins were asked to sit for a photograph in their school uniforms.",
+      "answerZh": "這對雙胞胎獲安排穿着校服坐着拍照。",
+      "highlight": "sit",
+      "targetForm": "sit for something",
+      "targetMeaningZh": "坐着讓人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Because the baby could not sit alone, his mother helped him sit upright against a cushion.",
+      "promptZh": "由於嬰兒未能自己坐着,母親扶他靠着一個靠墊坐起來。",
+      "starter": "Because",
+      "answer": "Because the baby could not sit alone, his mother sat him up against a cushion.",
+      "answerZh": "由於嬰兒未能自己坐着,母親扶他靠着一個靠墊坐起來。",
+      "highlight": "sat",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "As part of her training, Leila attended several interviews as an observer but asked no questions.",
+      "promptZh": "作為培訓的一部分,蕾拉旁聽了數次面試,但沒有提出問題。",
+      "starter": "As",
+      "answer": "As part of her training, Leila sat in on several interviews but asked no questions.",
+      "answerZh": "作為培訓的一部分,蕾拉旁聽了數次面試,但沒有提出問題。",
+      "highlight": "sat in on",
+      "targetForm": "sit in on something",
+      "targetMeaningZh": "旁聽或列席,但不參與"
+    },
+    {
+      "id": "phrasal-verb-293-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "We cannot simply do nothing and hope that the bullying stops on its own.",
+      "promptZh": "我們不能袖手旁觀,只希望欺凌行為自行停止。",
+      "starter": "We",
+      "answer": "We cannot simply sit by and hope that the bullying stops on its own.",
+      "answerZh": "我們不能袖手旁觀,只希望欺凌行為自行停止。",
+      "highlight": "sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Before agreeing to become a member of the committee, Marcus asked how often it met.",
+      "promptZh": "同意加入委員會前,馬庫斯詢問委員會多久開會一次。",
+      "starter": "Before",
+      "answer": "Before agreeing to sit on the committee, Marcus asked how often it met.",
+      "answerZh": "同意加入委員會前,馬庫斯詢問委員會多久開會一次。",
+      "highlight": "sit on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或小組的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "While the delayed train was being checked, passengers spent their time on the platform doing nothing.",
+      "promptZh": "延誤的列車接受檢查期間,乘客在月台上無所事事地等待。",
+      "starter": "While",
+      "answer": "While the delayed train was being checked, passengers sat around on the platform with nothing to do.",
+      "answerZh": "延誤的列車接受檢查期間,乘客在月台上無所事事地等待。",
+      "highlight": "sat around",
+      "targetForm": "sit around somewhere",
+      "targetMeaningZh": "在某處閒坐或無所事事"
+    },
+    {
+      "id": "phrasal-verb-293-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The local artist invited three neighbours to pose for a large painting.",
+      "promptZh": "本地藝術家邀請三名鄰居坐着,讓他繪畫一幅大型畫作。",
+      "starter": "The",
+      "answer": "The local artist invited three neighbours to sit for a large painting.",
+      "answerZh": "本地藝術家邀請三名鄰居坐着,讓他繪畫一幅大型畫作。",
+      "highlight": "sit",
+      "targetForm": "sit for something",
+      "targetMeaningZh": "坐着讓人畫像或拍照"
+    },
+    {
+      "id": "phrasal-verb-293-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The sky cleared after lunch, allowing everyone to sit outside for the rest of the afternoon.",
+      "promptZh": "午飯後天空放晴,大家可以在餘下的下午坐在室外。",
+      "starter": "The",
+      "answer": "The sky cleared after lunch, allowing everyone to sit out for the rest of the afternoon.",
+      "answerZh": "午飯後天空放晴,大家可以在餘下的下午坐在室外。",
+      "highlight": "sit out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "If the team leader is still ill tomorrow, I can replace her.",
+      "promptZh": "如果組長明天仍然生病,我可以代替她。",
+      "starter": "If",
+      "answer": "If the team leader is still ill tomorrow, I can sit in for her.",
+      "answerZh": "如果組長明天仍然生病,我可以代替她。",
+      "highlight": "sit in for",
+      "targetForm": "sit in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-293-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The doctor made the worried parents sit before explaining the test results.",
+      "promptZh": "醫生先讓憂心的父母坐下,然後解釋檢查結果。",
+      "starter": "The",
+      "answer": "The doctor sat the worried parents down before explaining the test results.",
+      "answerZh": "醫生先讓憂心的父母坐下,然後解釋檢查結果。",
+      "highlight": "sat",
+      "targetForm": "sit somebody down",
+      "targetMeaningZh": "讓某人坐下"
+    },
+    {
+      "id": "phrasal-verb-293-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "After missing two weeks of practice, Noah chose not to take part in the final match.",
+      "promptZh": "錯過兩星期的練習後,諾亞選擇不參加決賽。",
+      "starter": "After",
+      "answer": "After missing two weeks of practice, Noah chose to sit the final match out.",
+      "answerZh": "錯過兩星期的練習後,諾亞選擇不參加決賽。",
+      "highlight": "sit",
+      "targetForm": "sit something out",
+      "targetMeaningZh": "不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-293-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "With all the work finished, we leaned back and watched the sun go down.",
+      "promptZh": "完成所有工作後,我們向後靠着坐,觀看日落。",
+      "starter": "With",
+      "answer": "With all the work finished, we sat back and watched the sun go down.",
+      "answerZh": "完成所有工作後,我們向後靠着坐,觀看日落。",
+      "highlight": "sat",
+      "targetForm": "sit back",
+      "targetMeaningZh": "向後靠着坐"
+    },
+    {
+      "id": "phrasal-verb-293-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Could you help me move Dad into a sitting position without hurting his back?",
+      "promptZh": "你可以幫我扶爸爸坐起來,同時避免弄傷他的背部嗎?",
+      "starter": "Could",
+      "answer": "Could you help me sit Dad up without hurting his back?",
+      "answerZh": "你可以幫我扶爸爸坐起來,同時避免弄傷他的背部嗎?",
+      "highlight": "sit",
+      "targetForm": "sit somebody up",
+      "targetMeaningZh": "扶某人坐起來"
+    },
+    {
+      "id": "phrasal-verb-293-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The student who is a member of the school meals committee collects ideas from every class.",
+      "promptZh": "那名學校膳食委員會的學生委員會收集各班的意見。",
+      "starter": "The",
+      "answer": "The student who sits on the school meals committee collects ideas from every class.",
+      "answerZh": "那名學校膳食委員會的學生委員會收集各班的意見。",
+      "highlight": "sits on",
+      "targetForm": "sit on something",
+      "targetMeaningZh": "擔任委員會或小組的成員"
+    },
+    {
+      "id": "phrasal-verb-293-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The council cannot do nothing while families lose their only bus service.",
+      "promptZh": "當居民家庭失去唯一的巴士服務時,議會不能袖手旁觀。",
+      "starter": "The",
+      "answer": "The council cannot sit by while families lose their only bus service.",
+      "answerZh": "當居民家庭失去唯一的巴士服務時,議會不能袖手旁觀。",
+      "highlight": "sit by",
+      "targetForm": "sit by",
+      "targetMeaningZh": "對不好的事情袖手旁觀"
+    },
+    {
+      "id": "phrasal-verb-293-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Even in winter, my grandparents sit outside whenever the sun is warm enough.",
+      "promptZh": "即使在冬天,只要陽光夠暖,我的祖父母便會坐在室外。",
+      "starter": "Even",
+      "answer": "Even in winter, my grandparents sit out whenever the sun is warm enough.",
+      "answerZh": "即使在冬天,只要陽光夠暖,我的祖父母便會坐在室外。",
+      "highlight": "sit out",
+      "targetForm": "sit out",
+      "targetMeaningZh": "坐在室外"
+    },
+    {
+      "id": "phrasal-verb-293-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Instead of doing nothing all evening, we helped prepare the hall.",
+      "promptZh": "我們沒有整晚無所事事,而是協助準備禮堂。",
+      "starter": "Instead",
+      "answer": "Instead of sitting round all evening, we helped prepare the hall.",
+      "answerZh": "我們沒有整晚無所事事,而是協助準備禮堂。",
+      "highlight": "sitting round",
+      "targetForm": "sit round",
+      "targetMeaningZh": "閒坐;無所事事"
+    }
+  ]
+}

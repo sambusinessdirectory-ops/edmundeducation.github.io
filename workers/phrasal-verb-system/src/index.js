@@ -3,16 +3,14 @@ import { ACCEPTED_ANSWERS, LESSON_QUESTION_COUNTS } from "./catalog.js";
 const SERVICE_NAME = "edmund-phrasal-verb-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const LESSON_IDS = new Set(Object.keys(LESSON_QUESTION_COUNTS));
-const TOTAL_QUESTIONS = Object.values(LESSON_QUESTION_COUNTS)
-  .reduce((total, count) => total + Number(count || 0), 0);
 const CONTENT_VERSION = "1";
 const SECTION_BOOKMARK_ID = "__section__";
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
-const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
-const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
+const MAX_ATTEMPT_BODY_BYTES = 512 * 1024;
+const MAX_ATTEMPT_RESULT_BYTES = 384 * 1024;
 const MAX_BOOKMARK_BODY_BYTES = 256 * 1024;
-const MAX_BOOKMARKS = TOTAL_QUESTIONS + LESSON_IDS.size;
+const MAX_BOOKMARKS = 2005;
 const BOOKMARK_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -54,7 +52,7 @@ function answerCatalogReadiness() {
   const countsReady = expectedLessonIds.every((lessonId) => (
     Number.isInteger(LESSON_QUESTION_COUNTS[lessonId])
     && LESSON_QUESTION_COUNTS[lessonId] >= 1
-    && LESSON_QUESTION_COUNTS[lessonId] <= 99
+    && LESSON_QUESTION_COUNTS[lessonId] <= 999
   ));
   const expectedIds = countsReady ? expectedLessonIds.flatMap((lessonId) => Array.from(
     { length: LESSON_QUESTION_COUNTS[lessonId] },
@@ -85,6 +83,8 @@ function answerCatalogReadiness() {
     expectedQuestions: expectedIds.length
   });
 }
+
+const CATALOG_READINESS = answerCatalogReadiness();
 
 export default {
   async fetch(request, env) {
@@ -118,7 +118,7 @@ async function route(request, env) {
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
     const configured = isConfigured(env);
-    const catalog = answerCatalogReadiness();
+    const catalog = CATALOG_READINESS;
     return json(
       {
         ok: configured && catalog.ready,
@@ -677,7 +677,7 @@ function normalizeAttemptResult(value, context) {
     context.totalCount,
     context.lessonId
   );
-  if (correctIds.length && !answerCatalogReadiness().ready) {
+  if (correctIds.length && !CATALOG_READINESS.ready) {
     throw new HttpError(
       503,
       "ANSWER_CATALOG_NOT_READY",

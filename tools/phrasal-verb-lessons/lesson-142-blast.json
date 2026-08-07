@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-142",
+  "order": 142,
+  "slug": "blast",
+  "version": "1",
+  "title": "BLAST 動詞片語",
+  "titleEn": "Blast",
+  "titleZh": "BLAST 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 141 - BLAST.pdf",
+    "sourceNumber": 141,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BLAST 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BLAST."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BLAST",
+      "highlight": "BLAST"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The old cannons blasted away during the show.",
+      "zh": "表演期間,那些舊式大炮不斷開火。",
+      "highlight": "blasted away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The rocket blasted off at sunrise.",
+      "zh": "火箭在日出時發射升空。",
+      "highlight": "blasted off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Music was blasting out of the speakers.",
+      "zh": "音樂正從揚聲器大聲播放出來。",
+      "highlight": "blasting out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "持續開火;向某人或某物反覆射擊；火箭或太空船發射升空；大聲播放或傳出音樂、聲音或訊息；以爆炸把某人或某物炸走、炸除或炸毀",
+    "en": "blast away / blast away at somebody or something; blast off; blast out / blast something out; blast somebody or something away",
+    "naturalZh": [
+      "持續開火;向某人或某物反覆射擊",
+      "火箭或太空船發射升空",
+      "大聲播放或傳出音樂、聲音或訊息",
+      "以爆炸把某人或某物炸走、炸除或炸毀"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "blast away / blast away at somebody or something",
+      "titleZh": "持續開火;向某人或某物反覆射擊",
+      "titleEn": "blast away / blast away at somebody or something",
+      "descriptionZh": "持續開火;向某人或某物反覆射擊",
+      "descriptionEn": "The old cannons blasted away during the show.",
+      "examples": [
+        {
+          "en": "The old cannons blasted away during the show.",
+          "zh": "表演期間,那些舊式大炮不斷開火。",
+          "highlight": "blasted away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blast off",
+      "titleZh": "火箭或太空船發射升空",
+      "titleEn": "blast off",
+      "descriptionZh": "火箭或太空船發射升空",
+      "descriptionEn": "The rocket blasted off at sunrise.",
+      "examples": [
+        {
+          "en": "The rocket blasted off at sunrise.",
+          "zh": "火箭在日出時發射升空。",
+          "highlight": "blasted off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "blast out / blast something out",
+      "titleZh": "大聲播放或傳出音樂、聲音或訊息",
+      "titleEn": "blast out / blast something out",
+      "descriptionZh": "大聲播放或傳出音樂、聲音或訊息",
+      "descriptionEn": "Music was blasting out of the speakers.",
+      "examples": [
+        {
+          "en": "Music was blasting out of the speakers.",
+          "zh": "音樂正從揚聲器大聲播放出來。",
+          "highlight": "blasting out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "blast somebody or something away",
+      "titleZh": "以爆炸把某人或某物炸走、炸除或炸毀",
+      "titleEn": "blast somebody or something away",
+      "descriptionZh": "以爆炸把某人或某物炸走、炸除或炸毀",
+      "descriptionEn": "Workers blasted the loose rock away.",
+      "examples": [
+        {
+          "en": "Workers blasted the loose rock away.",
+          "zh": "工人用爆炸把鬆散的岩石炸走。",
+          "highlight": "blasted the loose rock away"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BLAST 片語動詞的實際用途",
+    "labelEn": "BLAST Phrasal Verbs in Use",
+    "summaryZh": "blast off 可以直接描述火箭或太空船開始升空,展開太空旅程。；blast out 可以描述以極大音量播放的音樂、警告和廣播訊息。；blast away 可以描述大炮、太空船或遊戲角色持續開火。；blast something away 可以描述工人用爆炸移除岩石、牆壁或其他物件。",
+    "summaryEn": "Blast off gives you a direct way to describe a rocket or spacecraft beginning its journey into space. Blast out helps you describe music, warnings and announcements that are played extremely loudly. Blast away can describe cannons, spaceships or game characters firing continuously. Blast something away can describe workers removing rock, walls or other objects with explosions.",
+    "contextsZh": [
+      "談論火箭和太空旅程",
+      "描述非常響亮的音樂和訊息",
+      "描述遊戲、電影和表演中的連續射擊",
+      "說明如何用爆炸移除物件"
+    ],
+    "contextsEn": [
+      "Talk about rockets and space travel",
+      "Describe very loud music and messages",
+      "Describe repeated firing in games, films and shows",
+      "Explain how explosions remove something"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BLAST 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BLAST expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "blast away / blast away at somebody or something",
+    "fixedHighlight": "blast away / blast away at somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 BLAST 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BLAST expression that gives the same meaning.",
+    "correct": "blasted away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；留意以下分別:blast away at the rock= 不斷向岩石射擊blast the rock away= 用爆炸把岩石炸走",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: blast it out blast them away Notice the difference: blast away at the rock = keep firing at the rock blast the rock away = remove the rock with an explosion",
+    "variableItemsZh": [
+      "blast away / blast away at somebody or something",
+      "blast off",
+      "blast out / blast something out",
+      "blast somebody or something away"
+    ],
+    "variableItemsEn": [
+      "blast away / blast away at somebody or something",
+      "blast off",
+      "blast out / blast something out",
+      "blast somebody or something away"
+    ],
+    "forms": [
+      {
+        "formZh": "持續開火;向某人或某物反覆射擊",
+        "formEn": "blast away / blast away at somebody or something",
+        "exampleZh": "表演期間,那些舊式大炮不斷開火。",
+        "exampleEn": "The old cannons blasted away during the show.",
+        "highlight": "blasted away"
+      },
+      {
+        "formZh": "火箭或太空船發射升空",
+        "formEn": "blast off",
+        "exampleZh": "火箭在日出時發射升空。",
+        "exampleEn": "The rocket blasted off at sunrise.",
+        "highlight": "blasted off"
+      },
+      {
+        "formZh": "大聲播放或傳出音樂、聲音或訊息",
+        "formEn": "blast out / blast something out",
+        "exampleZh": "音樂正從揚聲器大聲播放出來。",
+        "exampleEn": "Music was blasting out of the speakers.",
+        "highlight": "blasting out"
+      },
+      {
+        "formZh": "以爆炸把某人或某物炸走、炸除或炸毀",
+        "formEn": "blast somebody or something away",
+        "exampleZh": "工人用爆炸把鬆散的岩石炸走。",
+        "exampleEn": "Workers blasted the loose rock away.",
+        "highlight": "blasted the loose rock away"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "持續開火;向某人或某物反覆射擊",
+      "titleEn": "blast away / blast away at somebody or something",
+      "formula": "blast away / blast away at somebody or something",
+      "highlight": "blast away / blast away at somebody or something",
+      "descriptionZh": "持續開火;向某人或某物反覆射擊",
+      "descriptionEn": "The old cannons blasted away during the show.",
+      "examples": [
+        {
+          "en": "The old cannons blasted away during the show.",
+          "zh": "表演期間,那些舊式大炮不斷開火。",
+          "highlight": "blasted away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "火箭或太空船發射升空",
+      "titleEn": "blast off",
+      "formula": "blast off",
+      "highlight": "blast off",
+      "descriptionZh": "火箭或太空船發射升空",
+      "descriptionEn": "The rocket blasted off at sunrise.",
+      "examples": [
+        {
+          "en": "The rocket blasted off at sunrise.",
+          "zh": "火箭在日出時發射升空。",
+          "highlight": "blasted off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "大聲播放或傳出音樂、聲音或訊息",
+      "titleEn": "blast out / blast something out",
+      "formula": "blast out / blast something out",
+      "highlight": "blast out / blast something out",
+      "descriptionZh": "大聲播放或傳出音樂、聲音或訊息",
+      "descriptionEn": "Music was blasting out of the speakers.",
+      "examples": [
+        {
+          "en": "Music was blasting out of the speakers.",
+          "zh": "音樂正從揚聲器大聲播放出來。",
+          "highlight": "blasting out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "以爆炸把某人或某物炸走、炸除或炸毀",
+      "titleEn": "blast somebody or something away",
+      "formula": "blast somebody or something away",
+      "highlight": "blast somebody or something away",
+      "descriptionZh": "以爆炸把某人或某物炸走、炸除或炸毀",
+      "descriptionEn": "Workers blasted the loose rock away.",
+      "examples": [
+        {
+          "en": "Workers blasted the loose rock away.",
+          "zh": "工人用爆炸把鬆散的岩石炸走。",
+          "highlight": "blasted the loose rock away"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論火箭和太空旅程",
+      "titleEn": "Talk about rockets and space travel",
+      "zh": "blast off 可以直接描述火箭或太空船開始升空,展開太空旅程。",
+      "en": "Blast off gives you a direct way to describe a rocket or spacecraft beginning its journey into space."
+    },
+    {
+      "titleZh": "描述非常響亮的音樂和訊息",
+      "titleEn": "Describe very loud music and messages",
+      "zh": "blast out 可以描述以極大音量播放的音樂、警告和廣播訊息。",
+      "en": "Blast out helps you describe music, warnings and announcements that are played extremely loudly."
+    },
+    {
+      "titleZh": "描述遊戲、電影和表演中的連續射擊",
+      "titleEn": "Describe repeated firing in games, films and shows",
+      "zh": "blast away 可以描述大炮、太空船或遊戲角色持續開火。",
+      "en": "Blast away can describe cannons, spaceships or game characters firing continuously."
+    },
+    {
+      "titleZh": "說明如何用爆炸移除物件",
+      "titleEn": "Explain how explosions remove something",
+      "zh": "blast something away 可以描述工人用爆炸移除岩石、牆壁或其他物件。",
+      "en": "Blast something away can describe workers removing rock, walls or other objects with explosions."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論火箭和太空旅程",
+      "描述非常響亮的音樂和訊息",
+      "描述遊戲、電影和表演中的連續射擊",
+      "說明如何用爆炸移除物件"
+    ],
+    "contextsEn": [
+      "Talk about rockets and space travel",
+      "Describe very loud music and messages",
+      "Describe repeated firing in games, films and shows",
+      "Explain how explosions remove something"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論火箭和太空旅程",
+        "titleEn": "Talk about rockets and space travel",
+        "zh": "blast off 可以直接描述火箭或太空船開始升空,展開太空旅程。",
+        "en": "Blast off gives you a direct way to describe a rocket or spacecraft beginning its journey into space.",
+        "examples": [
+          {
+            "en": "The old cannons blasted away during the show.",
+            "zh": "表演期間,那些舊式大炮不斷開火。",
+            "highlight": "blasted away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述非常響亮的音樂和訊息",
+        "titleEn": "Describe very loud music and messages",
+        "zh": "blast out 可以描述以極大音量播放的音樂、警告和廣播訊息。",
+        "en": "Blast out helps you describe music, warnings and announcements that are played extremely loudly.",
+        "examples": [
+          {
+            "en": "The rocket blasted off at sunrise.",
+            "zh": "火箭在日出時發射升空。",
+            "highlight": "blasted off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述遊戲、電影和表演中的連續射擊",
+        "titleEn": "Describe repeated firing in games, films and shows",
+        "zh": "blast away 可以描述大炮、太空船或遊戲角色持續開火。",
+        "en": "Blast away can describe cannons, spaceships or game characters firing continuously.",
+        "examples": [
+          {
+            "en": "Music was blasting out of the speakers.",
+            "zh": "音樂正從揚聲器大聲播放出來。",
+            "highlight": "blasting out"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明如何用爆炸移除物件",
+        "titleEn": "Explain how explosions remove something",
+        "zh": "blast something away 可以描述工人用爆炸移除岩石、牆壁或其他物件。",
+        "en": "Blast something away can describe workers removing rock, walls or other objects with explosions.",
+        "examples": [
+          {
+            "en": "Workers blasted the loose rock away.",
+            "zh": "工人用爆炸把鬆散的岩石炸走。",
+            "highlight": "blasted the loose rock away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BLAST 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BLAST expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BLAST 片語動詞。",
+      "en": "Read the whole sentence and choose the BLAST expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: blast it out blast them away.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: blast it out blast them away"
+    },
+    {
+      "titleZh": "留意以下分別:blast away at the rock= 不斷向岩石射擊blast the rock away= 用爆炸把岩石炸走",
+      "titleEn": "Notice the difference: blast away at the rock = keep firing at the rock blast the rock away = remove the rock with an explosion.",
+      "zh": "留意以下分別:blast away at the rock= 不斷向岩石射擊blast the rock away= 用爆炸把岩石炸走",
+      "en": "Notice the difference: blast away at the rock = keep firing at the rock blast the rock away = remove the rock with an explosion"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BLAST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BLAST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BLAST 動詞片語句子改寫練習",
+    "titleEn": "BLAST Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BLAST 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BLAST. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-142-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The speakers played the school song at full volume.",
+      "promptZh": "揚聲器以最大音量播放校歌。",
+      "starter": "The",
+      "answer": "The speakers blasted out the school song at full volume.",
+      "answerZh": "揚聲器以最大音量播放校歌。",
+      "highlight": "blasted out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "In the video game, the player kept firing at the stone wall.",
+      "promptZh": "在電子遊戲中,玩家不斷向石牆射擊。",
+      "starter": "In",
+      "answer": "In the video game, the player blasted away at the stone wall.",
+      "answerZh": "在電子遊戲中,玩家不斷向石牆射擊。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "At noon, the rocket left the launch pad.",
+      "promptZh": "中午時,火箭離開發射台升空。",
+      "starter": "At",
+      "answer": "At noon, the rocket blasted off.",
+      "answerZh": "中午時,火箭發射升空。",
+      "highlight": "blasted off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Workers removed the large rock with a small explosion.",
+      "promptZh": "工人用一次小型爆炸移走那塊巨石。",
+      "starter": "Workers",
+      "answer": "Workers blasted the large rock away with a small explosion.",
+      "answerZh": "工人用一次小型爆炸把那塊巨石炸走。",
+      "highlight": "blasted",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Loud music came from the café.",
+      "promptZh": "響亮的音樂從咖啡店傳出。",
+      "starter": "Loud",
+      "answer": "Loud music blasted out of the café.",
+      "answerZh": "響亮的音樂從咖啡店大聲傳出。",
+      "highlight": "blasted out of",
+      "targetForm": "blast out",
+      "targetMeaningZh": "大聲傳出"
+    },
+    {
+      "id": "phrasal-verb-142-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "During the harbour show, the old cannons kept firing for several minutes.",
+      "promptZh": "海港表演期間,那些舊式大炮連續開火了數分鐘。",
+      "starter": "During",
+      "answer": "During the harbour show, the old cannons blasted away for several minutes.",
+      "answerZh": "海港表演期間,那些舊式大炮連續開火了數分鐘。",
+      "highlight": "blasted away",
+      "targetForm": "blast away",
+      "targetMeaningZh": "持續開火"
+    },
+    {
+      "id": "phrasal-verb-142-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "At full volume, the radio played a warning.",
+      "promptZh": "收音機以最大音量播放警告訊息。",
+      "starter": "At",
+      "answer": "At full volume, the radio blasted out a warning.",
+      "answerZh": "收音機以最大音量播放警告訊息。",
+      "highlight": "blasted out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "For the new road, the builders used explosions to remove part of the cliff.",
+      "promptZh": "為了修建新道路,建築工人用爆炸方式移除了懸崖的一部分。",
+      "starter": "For",
+      "answer": "For the new road, the builders blasted away part of the cliff.",
+      "answerZh": "為了修建新道路,建築工人炸除了懸崖的一部分。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸炸除某物"
+    },
+    {
+      "id": "phrasal-verb-142-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Inside the game, the toy spaceship kept firing at the giant robot.",
+      "promptZh": "在遊戲中,玩具太空船不斷向巨型機械人射擊。",
+      "starter": "Inside",
+      "answer": "Inside the game, the toy spaceship blasted away at the giant robot.",
+      "answerZh": "在遊戲中,玩具太空船不斷向巨型機械人射擊。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "At 8 a.m., the space probe left the launch pad.",
+      "promptZh": "上午八時,太空探測器離開發射台升空。",
+      "starter": "At",
+      "answer": "At 8 a.m., the space probe blasted off.",
+      "answerZh": "上午八時,太空探測器發射升空。",
+      "highlight": "blasted off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The road team is removing loose rock with explosions.",
+      "promptZh": "道路工程隊正用爆炸方式移走鬆散的岩石。",
+      "starter": "The",
+      "answer": "The road team is blasting loose rock away.",
+      "answerZh": "道路工程隊正把鬆散岩石炸走。",
+      "highlight": "blasting",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Tomorrow, the rocket will leave the launch pad at the desert base.",
+      "promptZh": "明天,火箭將從沙漠基地的發射台升空。",
+      "starter": "Tomorrow",
+      "answer": "Tomorrow, the rocket will blast off from the desert base.",
+      "answerZh": "明天,火箭將從沙漠基地發射升空。",
+      "highlight": "blast off from",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Music has been playing loudly from the flat all morning.",
+      "promptZh": "整個早上,音樂一直從該住所大聲播放出來。",
+      "starter": "Music",
+      "answer": "Music has been blasting out of the flat all morning.",
+      "answerZh": "整個早上,音樂一直從該住所大聲播放出來。",
+      "highlight": "blasting out of",
+      "targetForm": "blast out",
+      "targetMeaningZh": "大聲播放或傳出"
+    },
+    {
+      "id": "phrasal-verb-142-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why were the game characters firing at the gate again and again?",
+      "promptZh": "為甚麼遊戲角色一次又一次向大門射擊?",
+      "starter": "Why",
+      "answer": "Why were the game characters blasting away at the gate?",
+      "answerZh": "為甚麼遊戲角色不斷向大門射擊?",
+      "highlight": "blasting away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The rock was removed with explosions to make a narrow path.",
+      "promptZh": "為了開出一條狹窄小路,那塊岩石被用爆炸方式移除。",
+      "starter": "The",
+      "answer": "The rock was blasted away to make a narrow path.",
+      "answerZh": "為了開出一條狹窄小路,那塊岩石被炸走。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Because the weather was bad, the rocket did not leave the ground.",
+      "promptZh": "由於天氣惡劣,火箭沒有升空。",
+      "starter": "Because",
+      "answer": "Because the weather was bad, the rocket did not blast off.",
+      "answerZh": "由於天氣惡劣,火箭沒有升空。",
+      "highlight": "blast off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Every morning, the shop’s speakers play dance music at full volume.",
+      "promptZh": "店舖的揚聲器每天早上都以最大音量播放舞曲。",
+      "starter": "Every",
+      "answer": "Every morning, the shop’s speakers blast out dance music at full volume.",
+      "answerZh": "店舖的揚聲器每天早上都以最大音量播放舞曲。",
+      "highlight": "blast out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The old wall was unsafe, so the workers removed it with explosions.",
+      "promptZh": "那幅舊牆並不安全,所以工人用爆炸方式把它移除。",
+      "starter": "The",
+      "answer": "The old wall was unsafe, so the workers blasted it away.",
+      "answerZh": "那幅舊牆並不安全,所以工人把它炸走了。",
+      "highlight": "blasted",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "For ten minutes, the cannons have kept firing.",
+      "promptZh": "大炮已連續開火十分鐘。",
+      "starter": "For",
+      "answer": "For ten minutes, the cannons have been blasting away.",
+      "answerZh": "大炮已連續開火十分鐘。",
+      "highlight": "been blasting away",
+      "targetForm": "blast away",
+      "targetMeaningZh": "持續開火"
+    },
+    {
+      "id": "phrasal-verb-142-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "When is the new spacecraft going to leave the launch pad?",
+      "promptZh": "新太空船何時會離開發射台升空?",
+      "starter": "When",
+      "answer": "When is the new spacecraft going to blast off?",
+      "answerZh": "新太空船何時會發射升空?",
+      "highlight": "blast off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Leo chose the final song. The hall was quiet until he played it at full volume.",
+      "promptZh": "里奧選了最後一首歌。禮堂原本很安靜,直至他以最大音量播放那首歌。",
+      "starter": "Leo",
+      "answer": "Leo chose the final song. The hall was quiet until he blasted it out at full volume.",
+      "answerZh": "里奧選了最後一首歌。禮堂原本很安靜,直至他以最大音量播放它。",
+      "highlight": "blasted",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Beside the tunnel, the engineers used explosions to remove the large pieces of rock.",
+      "promptZh": "工程師用爆炸方式移除了隧道旁的大塊岩石。",
+      "starter": "Beside",
+      "answer": "Beside the tunnel, the engineers blasted away the large pieces of rock.",
+      "answerZh": "工程師炸除了隧道旁的大塊岩石。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸炸除某物"
+    },
+    {
+      "id": "phrasal-verb-142-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "During the boat parade, the small cannons kept firing.",
+      "promptZh": "船隻巡遊期間,小型大炮不斷開火。",
+      "starter": "During",
+      "answer": "During the boat parade, the small cannons blasted away.",
+      "answerZh": "船隻巡遊期間,小型大炮不斷開火。",
+      "highlight": "blasted away",
+      "targetForm": "blast away",
+      "targetMeaningZh": "持續開火"
+    },
+    {
+      "id": "phrasal-verb-142-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The countdown has started. The rocket is leaving the launch pad now.",
+      "promptZh": "倒數已開始。火箭現在正離開發射台升空。",
+      "starter": "The",
+      "answer": "The countdown has started. The rocket is blasting off now.",
+      "answerZh": "倒數已開始。火箭現在正發射升空。",
+      "highlight": "blasting off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The message was played very loudly through every speaker.",
+      "promptZh": "這段訊息透過每個揚聲器大聲播放。",
+      "starter": "The",
+      "answer": "The message was blasted out through every speaker.",
+      "answerZh": "這段訊息透過每個揚聲器大聲播出。",
+      "highlight": "blasted out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Ordinary tools could not move the hard rock, so the team used explosions to remove it.",
+      "promptZh": "普通工具無法移動那塊堅硬岩石,所以工程隊用爆炸方式把它移除。",
+      "starter": "Ordinary",
+      "answer": "Ordinary tools could not move the hard rock, so the team blasted it away.",
+      "answerZh": "普通工具無法移動那塊堅硬岩石,所以工程隊把它炸走了。",
+      "highlight": "blasted",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did the stadium speakers play the announcement at full volume?",
+      "promptZh": "為甚麼體育館的揚聲器要以最大音量播放廣播訊息?",
+      "starter": "Why",
+      "answer": "Why did the stadium speakers blast out the announcement at full volume?",
+      "answerZh": "為甚麼體育館的揚聲器要以最大音量播放廣播訊息?",
+      "highlight": "blast out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The robot kept firing at the metal door until it opened.",
+      "promptZh": "機械人不斷向金屬門射擊,直至門打開。",
+      "starter": "The",
+      "answer": "The robot blasted away at the metal door until it opened.",
+      "answerZh": "機械人不斷向金屬門射擊,直至門打開。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before the new road was built, the concrete wall had to be removed with explosions.",
+      "promptZh": "在新道路建成前,那幅混凝土牆必須用爆炸方式移除。",
+      "starter": "Before",
+      "answer": "Before the new road was built, the concrete wall had to be blasted away.",
+      "answerZh": "在新道路建成前,那幅混凝土牆必須被炸走。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "By the time we arrived, the second rocket had already left the launch pad.",
+      "promptZh": "我們到達時,第二支火箭早已離開發射台升空。",
+      "starter": "By",
+      "answer": "By the time we arrived, the second rocket had already blasted off.",
+      "answerZh": "我們到達時,第二支火箭早已發射升空。",
+      "highlight": "blasted off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "In the space game, the pilot kept firing at the asteroid but did not destroy it.",
+      "promptZh": "在太空遊戲中,飛行員不斷向小行星射擊,但沒有摧毀它。",
+      "starter": "In",
+      "answer": "In the space game, the pilot blasted away at the asteroid but did not destroy it.",
+      "answerZh": "在太空遊戲中,飛行員不斷向小行星射擊,但沒有摧毀它。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Road construction could not continue until workers used explosions to remove the rock in its path.",
+      "promptZh": "道路工程要待工人用爆炸方式移除前方的岩石後才能繼續。",
+      "starter": "Road",
+      "answer": "Road construction could not continue until workers blasted away the rock in its path.",
+      "answerZh": "道路工程要待工人炸除前方的岩石後才能繼續。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸炸除某物"
+    },
+    {
+      "id": "phrasal-verb-142-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the crew finished the countdown, the spacecraft rose from the launch pad.",
+      "promptZh": "工作人員完成倒數後,太空船從發射台升空。",
+      "starter": "After",
+      "answer": "After the crew finished the countdown, the spacecraft blasted off.",
+      "answerZh": "工作人員完成倒數後,太空船發射升空。",
+      "highlight": "blasted off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "As the train arrived, a recorded voice came loudly from the station speakers.",
+      "promptZh": "列車到站時,一段錄音從車站揚聲器大聲播放出來。",
+      "starter": "As",
+      "answer": "As the train arrived, a recorded voice blasted out of the station speakers.",
+      "answerZh": "列車到站時,一段錄音從車站揚聲器大聲播放出來。",
+      "highlight": "blasted out of",
+      "targetForm": "blast out",
+      "targetMeaningZh": "大聲播放或傳出"
+    },
+    {
+      "id": "phrasal-verb-142-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During the film scene, the guards kept firing at the locked door.",
+      "promptZh": "電影場景中,守衛不斷向上鎖的門射擊。",
+      "starter": "During",
+      "answer": "During the film scene, the guards blasted away at the locked door.",
+      "answerZh": "電影場景中,守衛不斷向上鎖的門射擊。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "With a few small explosions, the workers removed the rock completely.",
+      "promptZh": "工人用幾次小型爆炸把岩石完全移除。",
+      "starter": "With",
+      "answer": "With a few small explosions, the workers blasted the rock away completely.",
+      "answerZh": "工人用幾次小型爆炸把岩石完全炸走。",
+      "highlight": "blasted",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物完全炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Nora had one final song and played it so loudly that people outside could hear it.",
+      "promptZh": "諾拉還有最後一首歌,於是把它播得很大聲,連外面的人也聽得到。",
+      "starter": "Nora",
+      "answer": "Nora had one final song and blasted it out so loudly that people outside could hear it.",
+      "answerZh": "諾拉還有最後一首歌,於是把它播得很大聲,連外面的人也聽得到。",
+      "highlight": "blasted",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "If the wind becomes weaker, the rocket may leave the launch pad tonight.",
+      "promptZh": "如果風勢減弱,火箭今晚可能會離開發射台升空。",
+      "starter": "If",
+      "answer": "If the wind becomes weaker, the rocket may blast off tonight.",
+      "answerZh": "如果風勢減弱,火箭今晚可能會發射升空。",
+      "highlight": "blast off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After the old bridge was closed, experts used explosions to remove its damaged centre.",
+      "promptZh": "舊橋關閉後,專家用爆炸方式移除了受損的中央部分。",
+      "starter": "After",
+      "answer": "After the old bridge was closed, experts blasted away its damaged centre.",
+      "answerZh": "舊橋關閉後,專家炸除了受損的中央部分。",
+      "highlight": "blasted away",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸炸除某物"
+    },
+    {
+      "id": "phrasal-verb-142-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "For several minutes, the game showed two ships firing at each other.",
+      "promptZh": "遊戲畫面顯示兩艘太空船互相射擊了數分鐘。",
+      "starter": "For",
+      "answer": "For several minutes, the game showed two ships blasting away at each other.",
+      "answerZh": "遊戲畫面顯示兩艘太空船互相射擊了數分鐘。",
+      "highlight": "blasting away",
+      "targetForm": "blast away at somebody or something",
+      "targetMeaningZh": "持續向對方射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After two delays, the rocket finally rose from the launch pad at sunrise and began its journey into space.",
+      "promptZh": "兩次延誤後,火箭終於在日出時從發射台升空,展開太空旅程。",
+      "starter": "After",
+      "answer": "After two delays, the rocket finally blasted off at sunrise and began its journey into space.",
+      "answerZh": "兩次延誤後,火箭終於在日出時發射升空,展開太空旅程。",
+      "highlight": "blasted off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At the street party, a speaker beside the stage played music so loudly that people at the next corner could hear it.",
+      "promptZh": "街頭派對上,舞台旁的揚聲器把音樂播得很大聲,連下一個街角的人也聽得到。",
+      "starter": "At",
+      "answer": "At the street party, a speaker beside the stage blasted out music so loudly that people at the next corner could hear it.",
+      "answerZh": "街頭派對上,舞台旁的揚聲器把音樂播得很大聲,連下一個街角的人也聽得到。",
+      "highlight": "blasted out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The tunnel team found a wall of hard rock. It used several small explosions to remove the wall and continued working.",
+      "promptZh": "隧道工程隊發現一面堅硬的岩壁。他們用幾次小型爆炸把岩壁移除,然後繼續工作。",
+      "starter": "The",
+      "answer": "The tunnel team found a wall of hard rock. It blasted the wall away with several small explosions and continued working.",
+      "answerZh": "隧道工程隊發現一面堅硬的岩壁。他們用幾次小型爆炸把岩壁炸走,然後繼續工作。",
+      "highlight": "blasted the wall away with",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "In the final level of the game, the two robots kept firing at the shield, but it stayed in place.",
+      "promptZh": "在遊戲最後一關,兩個機械人不斷向護盾射擊,但護盾仍然留在原位。",
+      "starter": "In",
+      "answer": "In the final level of the game, the two robots blasted away at the shield, but it stayed in place.",
+      "answerZh": "在遊戲最後一關,兩個機械人不斷向護盾射擊,但護盾仍然留在原位。",
+      "highlight": "blasted away",
+      "targetForm": "blast away at something",
+      "targetMeaningZh": "不斷向某物射擊"
+    },
+    {
+      "id": "phrasal-verb-142-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The space team had to wait for clear weather before the rocket could begin its flight into space.",
+      "promptZh": "太空隊伍要等待天氣轉晴,火箭才能開始太空飛行。",
+      "starter": "The",
+      "answer": "The space team had to wait for clear weather before the rocket could blast off.",
+      "answerZh": "太空隊伍要等待天氣轉晴,火箭才能發射升空。",
+      "highlight": "blast off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The emergency message was impossible to miss because every speaker in the building played it at full volume.",
+      "promptZh": "大家不可能錯過這段緊急訊息,因為大樓內每個揚聲器都以最大音量播放它。",
+      "starter": "The",
+      "answer": "The emergency message was impossible to miss because every speaker in the building blasted it out at full volume.",
+      "answerZh": "大家不可能錯過這段緊急訊息,因為大樓內每個揚聲器都以最大音量播放它。",
+      "highlight": "blasted",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After months of tests, will the small spacecraft finally leave the launch pad this Friday?",
+      "promptZh": "經過數月測試後,這艘小型太空船終於會在本星期五離開發射台升空嗎?",
+      "starter": "After",
+      "answer": "After months of tests, will the small spacecraft finally blast off this Friday?",
+      "answerZh": "經過數月測試後,這艘小型太空船終於會在本星期五發射升空嗎?",
+      "highlight": "blast off",
+      "targetForm": "blast off",
+      "targetMeaningZh": "發射升空"
+    },
+    {
+      "id": "phrasal-verb-142-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the old concrete steps blocked the new path, workers used several small explosions to remove them.",
+      "promptZh": "舊混凝土梯級阻擋了新小路,所以工人用幾次小型爆炸把它們移除。",
+      "starter": "Because",
+      "answer": "Because the old concrete steps blocked the new path, workers blasted them away with several small explosions.",
+      "answerZh": "舊混凝土梯級阻擋了新小路,所以工人用幾次小型爆炸把它們炸走。",
+      "highlight": "blasted them away with",
+      "targetForm": "blast something away",
+      "targetMeaningZh": "用爆炸把某物炸走"
+    },
+    {
+      "id": "phrasal-verb-142-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "I closed the window because the café across the road was playing the same song at full volume again.",
+      "promptZh": "我關上窗戶,因為馬路對面的咖啡店又以最大音量播放同一首歌。",
+      "starter": "I",
+      "answer": "I closed the window because the café across the road was blasting out the same song at full volume again.",
+      "answerZh": "我關上窗戶,因為馬路對面的咖啡店又以最大音量播放同一首歌。",
+      "highlight": "blasting out",
+      "targetForm": "blast something out",
+      "targetMeaningZh": "大聲播放某物"
+    },
+    {
+      "id": "phrasal-verb-142-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "During the show, the stage cannons kept firing while bright lights moved across the sky.",
+      "promptZh": "表演期間,舞台大炮不斷開火,而明亮燈光在天空中移動。",
+      "starter": "During",
+      "answer": "During the show, the stage cannons blasted away while bright lights moved across the sky.",
+      "answerZh": "表演期間,舞台大炮不斷開火,而明亮燈光在天空中移動。",
+      "highlight": "blasted away",
+      "targetForm": "blast away",
+      "targetMeaningZh": "持續開火"
+    }
+  ]
+}

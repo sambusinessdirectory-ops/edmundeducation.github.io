@@ -1,0 +1,2373 @@
+{
+  "id": "phrasal-verb-256",
+  "order": 256,
+  "slug": "play",
+  "version": "1",
+  "title": "PLAY 動詞片語",
+  "titleEn": "Play",
+  "titleZh": "PLAY 動詞片語",
+  "level": "B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 241 - PLAY.pdf",
+    "sourceNumber": 241,
+    "pageCount": 37,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerKeyPdfPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PLAY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PLAY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PLAY",
+      "highlight": "PLAY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They thought I was the new coach, so I played along.",
+      "zh": "他們以為我是新教練,所以我順着他們的誤會演下去。",
+      "highlight": "played along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stop playing around and finish your work.",
+      "zh": "別再胡鬧,完成你的工作吧。",
+      "highlight": "playing around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He is only playing at being a chef.",
+      "zh": "他只是在裝作當廚師,並不認真。",
+      "highlight": "playing at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "假裝同意或合作;順着對方的意思做；胡鬧;不認真做事;浪費時間；只是裝作或隨便做某事,並不認真；嘗試不同方法或選擇,看看哪一個最好；使某事看來沒有實際上那麼重要或嚴重；加賽以決定勝方、排名或晉級資格；使兩人或兩組互相競爭,以便自己得益；在體育比賽中繼續作賽或恢復作賽；樂隊或音樂人到公眾場所現場演出；把錄下的聲音或影像重新播放；把一個場景、情況或事件演出或重現出來；利用某人的感受、恐懼、內疚或弱點來影響對方；事情發生及發展,直至得出結果或自然結束；運作不正常,或令某人感到痛楚和不適；強調某事,使它顯得格外重要、出色或有利；討好或奉承某人,以取得對方的好感或幫助；按照別人對某種形象或名聲的預期來表現",
+    "en": "play along (with somebody/something); play around / play about; play at doing something; play around/about with something; play something down / play it down; play off; play A off against B; play on; play out; play something back (to somebody); play something out; play on/upon something; play out / play itself or themselves out; play up / play somebody up; play something up / play it or them up; play up to somebody; play up to something",
+    "naturalZh": [
+      "假裝同意或合作;順着對方的意思做",
+      "胡鬧;不認真做事;浪費時間",
+      "只是裝作或隨便做某事,並不認真",
+      "嘗試不同方法或選擇,看看哪一個最好",
+      "使某事看來沒有實際上那麼重要或嚴重",
+      "加賽以決定勝方、排名或晉級資格",
+      "使兩人或兩組互相競爭,以便自己得益",
+      "在體育比賽中繼續作賽或恢復作賽",
+      "樂隊或音樂人到公眾場所現場演出",
+      "把錄下的聲音或影像重新播放",
+      "把一個場景、情況或事件演出或重現出來",
+      "利用某人的感受、恐懼、內疚或弱點來影響對方",
+      "事情發生及發展,直至得出結果或自然結束",
+      "運作不正常,或令某人感到痛楚和不適",
+      "強調某事,使它顯得格外重要、出色或有利",
+      "討好或奉承某人,以取得對方的好感或幫助",
+      "按照別人對某種形象或名聲的預期來表現"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "play along (with somebody/something)",
+      "titleZh": "假裝同意或合作;順着對方的意思做",
+      "titleEn": "play along (with somebody/something)",
+      "descriptionZh": "假裝同意或合作;順着對方的意思做",
+      "descriptionEn": "They thought I was the new coach, so I played along.",
+      "examples": [
+        {
+          "en": "They thought I was the new coach, so I played along.",
+          "zh": "他們以為我是新教練,所以我順着他們的誤會演下去。",
+          "highlight": "played along"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play around / play about",
+      "titleZh": "胡鬧;不認真做事;浪費時間",
+      "titleEn": "play around / play about",
+      "descriptionZh": "胡鬧;不認真做事;浪費時間",
+      "descriptionEn": "Stop playing around and finish your work.",
+      "examples": [
+        {
+          "en": "Stop playing around and finish your work.",
+          "zh": "別再胡鬧,完成你的工作吧。",
+          "highlight": "playing around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play at doing something",
+      "titleZh": "只是裝作或隨便做某事,並不認真",
+      "titleEn": "play at doing something",
+      "descriptionZh": "只是裝作或隨便做某事,並不認真",
+      "descriptionEn": "He is only playing at being a chef.",
+      "examples": [
+        {
+          "en": "He is only playing at being a chef.",
+          "zh": "他只是在裝作當廚師,並不認真。",
+          "highlight": "playing at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play around/about with something",
+      "titleZh": "嘗試不同方法或選擇,看看哪一個最好",
+      "titleEn": "play around/about with something",
+      "descriptionZh": "嘗試不同方法或選擇,看看哪一個最好",
+      "descriptionEn": "Play around with the colours before you choose.",
+      "examples": [
+        {
+          "en": "Play around with the colours before you choose.",
+          "zh": "作出選擇前,先試試不同顏色。",
+          "highlight": "Play around with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play something down / play it down",
+      "titleZh": "使某事看來沒有實際上那麼重要或嚴重",
+      "titleEn": "play something down / play it down",
+      "descriptionZh": "使某事看來沒有實際上那麼重要或嚴重",
+      "descriptionEn": "The company played the problem down.",
+      "examples": [
+        {
+          "en": "The company played the problem down.",
+          "zh": "公司淡化了問題的嚴重性。",
+          "highlight": "played the problem down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play off",
+      "titleZh": "加賽以決定勝方、排名或晉級資格",
+      "titleEn": "play off",
+      "descriptionZh": "加賽以決定勝方、排名或晉級資格",
+      "descriptionEn": "The two teams will play off for the cup.",
+      "examples": [
+        {
+          "en": "The two teams will play off for the cup.",
+          "zh": "兩隊將加賽,以爭奪獎盃。",
+          "highlight": "play off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play A off against B",
+      "titleZh": "使兩人或兩組互相競爭,以便自己得益",
+      "titleEn": "play A off against B",
+      "descriptionZh": "使兩人或兩組互相競爭,以便自己得益",
+      "descriptionEn": "He played one shop off against the other.",
+      "examples": [
+        {
+          "en": "He played one shop off against the other.",
+          "zh": "他挑動兩間店舖互相競爭。",
+          "highlight": "played one shop off against"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play on",
+      "titleZh": "在體育比賽中繼續作賽或恢復作賽",
+      "titleEn": "play on",
+      "descriptionZh": "在體育比賽中繼續作賽或恢復作賽",
+      "descriptionEn": "The referee told both teams to play on.",
+      "examples": [
+        {
+          "en": "The referee told both teams to play on.",
+          "zh": "球證叫兩隊繼續作賽。",
+          "highlight": "play on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play out",
+      "titleZh": "樂隊或音樂人到公眾場所現場演出",
+      "titleEn": "play out",
+      "descriptionZh": "樂隊或音樂人到公眾場所現場演出",
+      "descriptionEn": "The band plays out at weekends.",
+      "examples": [
+        {
+          "en": "The band plays out at weekends.",
+          "zh": "這支樂隊在週末到外面公開演出。",
+          "highlight": "plays out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "play something back (to somebody)",
+      "titleZh": "把錄下的聲音或影像重新播放",
+      "titleEn": "play something back (to somebody)",
+      "descriptionZh": "把錄下的聲音或影像重新播放",
+      "descriptionEn": "Please play the message back to me.",
+      "examples": [
+        {
+          "en": "Please play the message back to me.",
+          "zh": "請把那段訊息重新播放給我聽。",
+          "highlight": "play the message back to"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play something out",
+      "titleZh": "把一個場景、情況或事件演出或重現出來",
+      "titleEn": "play something out",
+      "descriptionZh": "把一個場景、情況或事件演出或重現出來",
+      "descriptionEn": "The students played the scene out.",
+      "examples": [
+        {
+          "en": "The students played the scene out.",
+          "zh": "學生把那個場景演了出來。",
+          "highlight": "played the scene out"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play on/upon something",
+      "titleZh": "利用某人的感受、恐懼、內疚或弱點來影響對方",
+      "titleEn": "play on/upon something",
+      "descriptionZh": "利用某人的感受、恐懼、內疚或弱點來影響對方",
+      "descriptionEn": "The advert played on people’s fears.",
+      "examples": [
+        {
+          "en": "The advert played on people’s fears.",
+          "zh": "廣告利用人們的恐懼。",
+          "highlight": "played on"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play out / play itself or themselves out",
+      "titleZh": "事情發生及發展,直至得出結果或自然結束",
+      "titleEn": "play out / play itself or themselves out",
+      "descriptionZh": "事情發生及發展,直至得出結果或自然結束",
+      "descriptionEn": "Let us see how the situation plays out.",
+      "examples": [
+        {
+          "en": "Let us see how the situation plays out.",
+          "zh": "讓我們看看情況如何發展。",
+          "highlight": "plays out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play up / play somebody up",
+      "titleZh": "運作不正常,或令某人感到痛楚和不適",
+      "titleEn": "play up / play somebody up",
+      "descriptionZh": "運作不正常,或令某人感到痛楚和不適",
+      "descriptionEn": "My knee is playing me up again.",
+      "examples": [
+        {
+          "en": "My knee is playing me up again.",
+          "zh": "我的膝蓋又令我感到痛楚了。",
+          "highlight": "playing me up"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play something up / play it or them up",
+      "titleZh": "強調某事,使它顯得格外重要、出色或有利",
+      "titleEn": "play something up / play it or them up",
+      "descriptionZh": "強調某事,使它顯得格外重要、出色或有利",
+      "descriptionEn": "The advert played up the phone’s camera.",
+      "examples": [
+        {
+          "en": "The advert played up the phone’s camera.",
+          "zh": "廣告特別強調手機的相機功能。",
+          "highlight": "played up"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play up to somebody",
+      "titleZh": "討好或奉承某人,以取得對方的好感或幫助",
+      "titleEn": "play up to somebody",
+      "descriptionZh": "討好或奉承某人,以取得對方的好感或幫助",
+      "descriptionEn": "He plays up to the manager when he wants help.",
+      "examples": [
+        {
+          "en": "He plays up to the manager when he wants help.",
+          "zh": "他想得到幫助時便會討好經理。",
+          "highlight": "plays up to"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "play up to something",
+      "titleZh": "按照別人對某種形象或名聲的預期來表現",
+      "titleEn": "play up to something",
+      "descriptionZh": "按照別人對某種形象或名聲的預期來表現",
+      "descriptionEn": "He plays up to his reputation for being funny.",
+      "examples": [
+        {
+          "en": "He plays up to his reputation for being funny.",
+          "zh": "他按照自己風趣的名聲來表現。",
+          "highlight": "plays up to"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PLAY 片語動詞的實際用途",
+    "labelEn": "PLAY Phrasal Verbs in Use",
+    "summaryZh": "play along 表示某人假裝同意;play around 和 play at doing something 則表示某人的行為並不認真。；play around with something 適合用來談論在作決定前嘗試不同顏色、版面、設定、構思或其他選擇。；play off、play on、play out 和 play something back 可用來談論決勝賽、繼續作賽、現場演出,以及重新播放聲音或影像。；play A off against B、play on something、play something down 和 play something up 可描述挑動競爭、利用感受、淡化事情或刻意強調某事。；play up 可描述機器或身體部位出問題;play up to 可描述討好他人或按照某種形象表現;play out則可說明事情如何發展。",
+    "summaryEn": "Play along shows that someone pretends to agree, while play around and play at doing something show that a person is not behaving seriously. Play around with something is useful when testing colours, layouts, settings, ideas or other choices before making a decision. Play off, play on, play out and play something back help you discuss deciding matches, continuing games, live performances and recorded sound or video. Play A off against B, play on something, play something down and play something up describe how people create competition, use feelings, reduce importance or give extra attention to something. Play up can describe a machine or body part causing trouble. Play up to can describe flattery or behaviour that matches an image. Play out can show how a situation develops.",
+    "contextsZh": [
+      "談論假裝配合和不認真的行為",
+      "描述嘗試不同可能性",
+      "自然談論運動、音樂和錄音",
+      "解釋影響他人、挑動競爭和自我宣傳",
+      "描述故障、形象和事情發展"
+    ],
+    "contextsEn": [
+      "Talk about pretending and unserious behaviour",
+      "Describe trying different possibilities",
+      "Talk naturally about sport, music and recordings",
+      "Explain influence, competition and self-promotion",
+      "Describe problems, public images and developing events"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PLAY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PLAY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "play along (with somebody/something)",
+    "fixedHighlight": "play along (with somebody/something)",
+    "fixedZh": "閱讀整句,選出意思相同的 PLAY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PLAY expression that gives the same meaning.",
+    "correct": "played along",
+    "incorrectForms": [],
+    "variableZh": "學習參考表所列的完整核心表達,不要把後面的所有詞語都自動視為固定部分。額外片語可能只用來補充方法、原因、時間或地點。For example:The campaign played on people’s fear.(這項活動利用人們的恐懼。)The campaign played on people’s fear by showing only the worst cases.(這項活動只展示最壞的個案,藉此利用人們的恐懼。)The words by showing only the worst cases explain how the campaign did it. The coreexpression is play on something.by showing only the worst cases 只說明活動採用了甚麼方法;核心表達是 play on something。；使用 it 或 them 時,請按照以下例子放在正確位置:play it downplay it backplay it outplay it upplay them off against each other；外形相近的表達可能有完全不同的意思,尤其要留意:play around = waste time or behave foolishlyplay around with something = try different possibilitiesplay something down = make it seem less importantplay something up = make it seem more importantplay up to somebody = flatter or please a personplay up to something = behave in a way that matches an expected image or reputation",
+    "variableEn": "Learn the complete core expression shown in the reference bank. Do not automatically treat every later phrase as part of it. Extra phrases may only explain the method, reason, time or place. When using it or them with the following expressions, place the word as shown: Similar-looking expressions may have very different meanings. In particular, compare:",
+    "variableItemsZh": [
+      "play along (with somebody/something)",
+      "play around / play about",
+      "play at doing something",
+      "play around/about with something",
+      "play something down / play it down",
+      "play off",
+      "play A off against B",
+      "play on",
+      "play out",
+      "play something back (to somebody)",
+      "play something out",
+      "play on/upon something",
+      "play out / play itself or themselves out",
+      "play up / play somebody up",
+      "play something up / play it or them up",
+      "play up to somebody",
+      "play up to something"
+    ],
+    "variableItemsEn": [
+      "play along (with somebody/something)",
+      "play around / play about",
+      "play at doing something",
+      "play around/about with something",
+      "play something down / play it down",
+      "play off",
+      "play A off against B",
+      "play on",
+      "play out",
+      "play something back (to somebody)",
+      "play something out",
+      "play on/upon something",
+      "play out / play itself or themselves out",
+      "play up / play somebody up",
+      "play something up / play it or them up",
+      "play up to somebody",
+      "play up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "假裝同意或合作;順着對方的意思做",
+        "formEn": "play along (with somebody/something)",
+        "exampleZh": "他們以為我是新教練,所以我順着他們的誤會演下去。",
+        "exampleEn": "They thought I was the new coach, so I played along.",
+        "highlight": "played along"
+      },
+      {
+        "formZh": "胡鬧;不認真做事;浪費時間",
+        "formEn": "play around / play about",
+        "exampleZh": "別再胡鬧,完成你的工作吧。",
+        "exampleEn": "Stop playing around and finish your work.",
+        "highlight": "playing around"
+      },
+      {
+        "formZh": "只是裝作或隨便做某事,並不認真",
+        "formEn": "play at doing something",
+        "exampleZh": "他只是在裝作當廚師,並不認真。",
+        "exampleEn": "He is only playing at being a chef.",
+        "highlight": "playing at"
+      },
+      {
+        "formZh": "嘗試不同方法或選擇,看看哪一個最好",
+        "formEn": "play around/about with something",
+        "exampleZh": "作出選擇前,先試試不同顏色。",
+        "exampleEn": "Play around with the colours before you choose.",
+        "highlight": "Play around with"
+      },
+      {
+        "formZh": "使某事看來沒有實際上那麼重要或嚴重",
+        "formEn": "play something down / play it down",
+        "exampleZh": "公司淡化了問題的嚴重性。",
+        "exampleEn": "The company played the problem down.",
+        "highlight": "played the problem down"
+      },
+      {
+        "formZh": "加賽以決定勝方、排名或晉級資格",
+        "formEn": "play off",
+        "exampleZh": "兩隊將加賽,以爭奪獎盃。",
+        "exampleEn": "The two teams will play off for the cup.",
+        "highlight": "play off"
+      },
+      {
+        "formZh": "使兩人或兩組互相競爭,以便自己得益",
+        "formEn": "play A off against B",
+        "exampleZh": "他挑動兩間店舖互相競爭。",
+        "exampleEn": "He played one shop off against the other.",
+        "highlight": "played one shop off against"
+      },
+      {
+        "formZh": "在體育比賽中繼續作賽或恢復作賽",
+        "formEn": "play on",
+        "exampleZh": "球證叫兩隊繼續作賽。",
+        "exampleEn": "The referee told both teams to play on.",
+        "highlight": "play on"
+      },
+      {
+        "formZh": "樂隊或音樂人到公眾場所現場演出",
+        "formEn": "play out",
+        "exampleZh": "這支樂隊在週末到外面公開演出。",
+        "exampleEn": "The band plays out at weekends.",
+        "highlight": "plays out"
+      },
+      {
+        "formZh": "把錄下的聲音或影像重新播放",
+        "formEn": "play something back (to somebody)",
+        "exampleZh": "請把那段訊息重新播放給我聽。",
+        "exampleEn": "Please play the message back to me.",
+        "highlight": "play the message back to"
+      },
+      {
+        "formZh": "把一個場景、情況或事件演出或重現出來",
+        "formEn": "play something out",
+        "exampleZh": "學生把那個場景演了出來。",
+        "exampleEn": "The students played the scene out.",
+        "highlight": "played the scene out"
+      },
+      {
+        "formZh": "利用某人的感受、恐懼、內疚或弱點來影響對方",
+        "formEn": "play on/upon something",
+        "exampleZh": "廣告利用人們的恐懼。",
+        "exampleEn": "The advert played on people’s fears.",
+        "highlight": "played on"
+      },
+      {
+        "formZh": "事情發生及發展,直至得出結果或自然結束",
+        "formEn": "play out / play itself or themselves out",
+        "exampleZh": "讓我們看看情況如何發展。",
+        "exampleEn": "Let us see how the situation plays out.",
+        "highlight": "plays out"
+      },
+      {
+        "formZh": "運作不正常,或令某人感到痛楚和不適",
+        "formEn": "play up / play somebody up",
+        "exampleZh": "我的膝蓋又令我感到痛楚了。",
+        "exampleEn": "My knee is playing me up again.",
+        "highlight": "playing me up"
+      },
+      {
+        "formZh": "強調某事,使它顯得格外重要、出色或有利",
+        "formEn": "play something up / play it or them up",
+        "exampleZh": "廣告特別強調手機的相機功能。",
+        "exampleEn": "The advert played up the phone’s camera.",
+        "highlight": "played up"
+      },
+      {
+        "formZh": "討好或奉承某人,以取得對方的好感或幫助",
+        "formEn": "play up to somebody",
+        "exampleZh": "他想得到幫助時便會討好經理。",
+        "exampleEn": "He plays up to the manager when he wants help.",
+        "highlight": "plays up to"
+      },
+      {
+        "formZh": "按照別人對某種形象或名聲的預期來表現",
+        "formEn": "play up to something",
+        "exampleZh": "他按照自己風趣的名聲來表現。",
+        "exampleEn": "He plays up to his reputation for being funny.",
+        "highlight": "plays up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "假裝同意或合作;順着對方的意思做",
+      "titleEn": "play along (with somebody/something)",
+      "formula": "play along (with somebody/something)",
+      "highlight": "play along (with somebody/something)",
+      "descriptionZh": "假裝同意或合作;順着對方的意思做",
+      "descriptionEn": "They thought I was the new coach, so I played along.",
+      "examples": [
+        {
+          "en": "They thought I was the new coach, so I played along.",
+          "zh": "他們以為我是新教練,所以我順着他們的誤會演下去。",
+          "highlight": "played along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "胡鬧;不認真做事;浪費時間",
+      "titleEn": "play around / play about",
+      "formula": "play around / play about",
+      "highlight": "play around / play about",
+      "descriptionZh": "胡鬧;不認真做事;浪費時間",
+      "descriptionEn": "Stop playing around and finish your work.",
+      "examples": [
+        {
+          "en": "Stop playing around and finish your work.",
+          "zh": "別再胡鬧,完成你的工作吧。",
+          "highlight": "playing around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "只是裝作或隨便做某事,並不認真",
+      "titleEn": "play at doing something",
+      "formula": "play at doing something",
+      "highlight": "play at doing something",
+      "descriptionZh": "只是裝作或隨便做某事,並不認真",
+      "descriptionEn": "He is only playing at being a chef.",
+      "examples": [
+        {
+          "en": "He is only playing at being a chef.",
+          "zh": "他只是在裝作當廚師,並不認真。",
+          "highlight": "playing at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "嘗試不同方法或選擇,看看哪一個最好",
+      "titleEn": "play around/about with something",
+      "formula": "play around/about with something",
+      "highlight": "play around/about with something",
+      "descriptionZh": "嘗試不同方法或選擇,看看哪一個最好",
+      "descriptionEn": "Play around with the colours before you choose.",
+      "examples": [
+        {
+          "en": "Play around with the colours before you choose.",
+          "zh": "作出選擇前,先試試不同顏色。",
+          "highlight": "Play around with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "使某事看來沒有實際上那麼重要或嚴重",
+      "titleEn": "play something down / play it down",
+      "formula": "play something down / play it down",
+      "highlight": "play something down / play it down",
+      "descriptionZh": "使某事看來沒有實際上那麼重要或嚴重",
+      "descriptionEn": "The company played the problem down.",
+      "examples": [
+        {
+          "en": "The company played the problem down.",
+          "zh": "公司淡化了問題的嚴重性。",
+          "highlight": "played the problem down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "加賽以決定勝方、排名或晉級資格",
+      "titleEn": "play off",
+      "formula": "play off",
+      "highlight": "play off",
+      "descriptionZh": "加賽以決定勝方、排名或晉級資格",
+      "descriptionEn": "The two teams will play off for the cup.",
+      "examples": [
+        {
+          "en": "The two teams will play off for the cup.",
+          "zh": "兩隊將加賽,以爭奪獎盃。",
+          "highlight": "play off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "使兩人或兩組互相競爭,以便自己得益",
+      "titleEn": "play A off against B",
+      "formula": "play A off against B",
+      "highlight": "play A off against B",
+      "descriptionZh": "使兩人或兩組互相競爭,以便自己得益",
+      "descriptionEn": "He played one shop off against the other.",
+      "examples": [
+        {
+          "en": "He played one shop off against the other.",
+          "zh": "他挑動兩間店舖互相競爭。",
+          "highlight": "played one shop off against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在體育比賽中繼續作賽或恢復作賽",
+      "titleEn": "play on",
+      "formula": "play on",
+      "highlight": "play on",
+      "descriptionZh": "在體育比賽中繼續作賽或恢復作賽",
+      "descriptionEn": "The referee told both teams to play on.",
+      "examples": [
+        {
+          "en": "The referee told both teams to play on.",
+          "zh": "球證叫兩隊繼續作賽。",
+          "highlight": "play on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "樂隊或音樂人到公眾場所現場演出",
+      "titleEn": "play out",
+      "formula": "play out",
+      "highlight": "play out",
+      "descriptionZh": "樂隊或音樂人到公眾場所現場演出",
+      "descriptionEn": "The band plays out at weekends.",
+      "examples": [
+        {
+          "en": "The band plays out at weekends.",
+          "zh": "這支樂隊在週末到外面公開演出。",
+          "highlight": "plays out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把錄下的聲音或影像重新播放",
+      "titleEn": "play something back (to somebody)",
+      "formula": "play something back (to somebody)",
+      "highlight": "play something back (to somebody)",
+      "descriptionZh": "把錄下的聲音或影像重新播放",
+      "descriptionEn": "Please play the message back to me.",
+      "examples": [
+        {
+          "en": "Please play the message back to me.",
+          "zh": "請把那段訊息重新播放給我聽。",
+          "highlight": "play the message back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "把一個場景、情況或事件演出或重現出來",
+      "titleEn": "play something out",
+      "formula": "play something out",
+      "highlight": "play something out",
+      "descriptionZh": "把一個場景、情況或事件演出或重現出來",
+      "descriptionEn": "The students played the scene out.",
+      "examples": [
+        {
+          "en": "The students played the scene out.",
+          "zh": "學生把那個場景演了出來。",
+          "highlight": "played the scene out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "利用某人的感受、恐懼、內疚或弱點來影響對方",
+      "titleEn": "play on/upon something",
+      "formula": "play on/upon something",
+      "highlight": "play on/upon something",
+      "descriptionZh": "利用某人的感受、恐懼、內疚或弱點來影響對方",
+      "descriptionEn": "The advert played on people’s fears.",
+      "examples": [
+        {
+          "en": "The advert played on people’s fears.",
+          "zh": "廣告利用人們的恐懼。",
+          "highlight": "played on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "事情發生及發展,直至得出結果或自然結束",
+      "titleEn": "play out / play itself or themselves out",
+      "formula": "play out / play itself or themselves out",
+      "highlight": "play out / play itself or themselves out",
+      "descriptionZh": "事情發生及發展,直至得出結果或自然結束",
+      "descriptionEn": "Let us see how the situation plays out.",
+      "examples": [
+        {
+          "en": "Let us see how the situation plays out.",
+          "zh": "讓我們看看情況如何發展。",
+          "highlight": "plays out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "運作不正常,或令某人感到痛楚和不適",
+      "titleEn": "play up / play somebody up",
+      "formula": "play up / play somebody up",
+      "highlight": "play up / play somebody up",
+      "descriptionZh": "運作不正常,或令某人感到痛楚和不適",
+      "descriptionEn": "My knee is playing me up again.",
+      "examples": [
+        {
+          "en": "My knee is playing me up again.",
+          "zh": "我的膝蓋又令我感到痛楚了。",
+          "highlight": "playing me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "強調某事,使它顯得格外重要、出色或有利",
+      "titleEn": "play something up / play it or them up",
+      "formula": "play something up / play it or them up",
+      "highlight": "play something up / play it or them up",
+      "descriptionZh": "強調某事,使它顯得格外重要、出色或有利",
+      "descriptionEn": "The advert played up the phone’s camera.",
+      "examples": [
+        {
+          "en": "The advert played up the phone’s camera.",
+          "zh": "廣告特別強調手機的相機功能。",
+          "highlight": "played up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "討好或奉承某人,以取得對方的好感或幫助",
+      "titleEn": "play up to somebody",
+      "formula": "play up to somebody",
+      "highlight": "play up to somebody",
+      "descriptionZh": "討好或奉承某人,以取得對方的好感或幫助",
+      "descriptionEn": "He plays up to the manager when he wants help.",
+      "examples": [
+        {
+          "en": "He plays up to the manager when he wants help.",
+          "zh": "他想得到幫助時便會討好經理。",
+          "highlight": "plays up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "按照別人對某種形象或名聲的預期來表現",
+      "titleEn": "play up to something",
+      "formula": "play up to something",
+      "highlight": "play up to something",
+      "descriptionZh": "按照別人對某種形象或名聲的預期來表現",
+      "descriptionEn": "He plays up to his reputation for being funny.",
+      "examples": [
+        {
+          "en": "He plays up to his reputation for being funny.",
+          "zh": "他按照自己風趣的名聲來表現。",
+          "highlight": "plays up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論假裝配合和不認真的行為",
+      "titleEn": "Talk about pretending and unserious behaviour",
+      "zh": "play along 表示某人假裝同意;play around 和 play at doing something 則表示某人的行為並不認真。",
+      "en": "Play along shows that someone pretends to agree, while play around and play at doing something show that a person is not behaving seriously."
+    },
+    {
+      "titleZh": "描述嘗試不同可能性",
+      "titleEn": "Describe trying different possibilities",
+      "zh": "play around with something 適合用來談論在作決定前嘗試不同顏色、版面、設定、構思或其他選擇。",
+      "en": "Play around with something is useful when testing colours, layouts, settings, ideas or other choices before making a decision."
+    },
+    {
+      "titleZh": "自然談論運動、音樂和錄音",
+      "titleEn": "Talk naturally about sport, music and recordings",
+      "zh": "play off、play on、play out 和 play something back 可用來談論決勝賽、繼續作賽、現場演出,以及重新播放聲音或影像。",
+      "en": "Play off, play on, play out and play something back help you discuss deciding matches, continuing games, live performances and recorded sound or video."
+    },
+    {
+      "titleZh": "解釋影響他人、挑動競爭和自我宣傳",
+      "titleEn": "Explain influence, competition and self-promotion",
+      "zh": "play A off against B、play on something、play something down 和 play something up 可描述挑動競爭、利用感受、淡化事情或刻意強調某事。",
+      "en": "Play A off against B, play on something, play something down and play something up describe how people create competition, use feelings, reduce importance or give extra attention to something."
+    },
+    {
+      "titleZh": "描述故障、形象和事情發展",
+      "titleEn": "Describe problems, public images and developing events",
+      "zh": "play up 可描述機器或身體部位出問題;play up to 可描述討好他人或按照某種形象表現;play out則可說明事情如何發展。",
+      "en": "Play up can describe a machine or body part causing trouble. Play up to can describe flattery or behaviour that matches an image. Play out can show how a situation develops."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論假裝配合和不認真的行為",
+      "描述嘗試不同可能性",
+      "自然談論運動、音樂和錄音",
+      "解釋影響他人、挑動競爭和自我宣傳",
+      "描述故障、形象和事情發展"
+    ],
+    "contextsEn": [
+      "Talk about pretending and unserious behaviour",
+      "Describe trying different possibilities",
+      "Talk naturally about sport, music and recordings",
+      "Explain influence, competition and self-promotion",
+      "Describe problems, public images and developing events"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論假裝配合和不認真的行為",
+        "titleEn": "Talk about pretending and unserious behaviour",
+        "zh": "play along 表示某人假裝同意;play around 和 play at doing something 則表示某人的行為並不認真。",
+        "en": "Play along shows that someone pretends to agree, while play around and play at doing something show that a person is not behaving seriously.",
+        "examples": [
+          {
+            "en": "They thought I was the new coach, so I played along.",
+            "zh": "他們以為我是新教練,所以我順着他們的誤會演下去。",
+            "highlight": "played along"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述嘗試不同可能性",
+        "titleEn": "Describe trying different possibilities",
+        "zh": "play around with something 適合用來談論在作決定前嘗試不同顏色、版面、設定、構思或其他選擇。",
+        "en": "Play around with something is useful when testing colours, layouts, settings, ideas or other choices before making a decision.",
+        "examples": [
+          {
+            "en": "Stop playing around and finish your work.",
+            "zh": "別再胡鬧,完成你的工作吧。",
+            "highlight": "playing around"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論運動、音樂和錄音",
+        "titleEn": "Talk naturally about sport, music and recordings",
+        "zh": "play off、play on、play out 和 play something back 可用來談論決勝賽、繼續作賽、現場演出,以及重新播放聲音或影像。",
+        "en": "Play off, play on, play out and play something back help you discuss deciding matches, continuing games, live performances and recorded sound or video.",
+        "examples": [
+          {
+            "en": "He is only playing at being a chef.",
+            "zh": "他只是在裝作當廚師,並不認真。",
+            "highlight": "playing at"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋影響他人、挑動競爭和自我宣傳",
+        "titleEn": "Explain influence, competition and self-promotion",
+        "zh": "play A off against B、play on something、play something down 和 play something up 可描述挑動競爭、利用感受、淡化事情或刻意強調某事。",
+        "en": "Play A off against B, play on something, play something down and play something up describe how people create competition, use feelings, reduce importance or give extra attention to something.",
+        "examples": [
+          {
+            "en": "Play around with the colours before you choose.",
+            "zh": "作出選擇前,先試試不同顏色。",
+            "highlight": "Play around with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述故障、形象和事情發展",
+        "titleEn": "Describe problems, public images and developing events",
+        "zh": "play up 可描述機器或身體部位出問題;play up to 可描述討好他人或按照某種形象表現;play out則可說明事情如何發展。",
+        "en": "Play up can describe a machine or body part causing trouble. Play up to can describe flattery or behaviour that matches an image. Play out can show how a situation develops.",
+        "examples": [
+          {
+            "en": "The company played the problem down.",
+            "zh": "公司淡化了問題的嚴重性。",
+            "highlight": "played the problem down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PLAY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PLAY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PLAY 片語動詞。",
+      "en": "Read the whole sentence and choose the PLAY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "學習參考表所列的完整核心表達,不要把後面的所有詞語都自動視為固定部分。額外片語可能只用來補充方法、原因、時間或地點。For example:The campaign played on people’s fear.(這項活動利用人們的恐懼。)The campaign played on people’s fear by showing only the worst cases.(這項活動只展示最壞的個案,藉此利用人們的恐懼。)The words by showing only the worst cases explain how the campaign did it. The coreexpression is play on something.by showing only the worst cases 只說明活動採用了甚麼方法;核心表達是 play on something。",
+      "titleEn": "Learn the complete core expression shown in the reference bank.",
+      "zh": "學習參考表所列的完整核心表達,不要把後面的所有詞語都自動視為固定部分。額外片語可能只用來補充方法、原因、時間或地點。For example:The campaign played on people’s fear.(這項活動利用人們的恐懼。)The campaign played on people’s fear by showing only the worst cases.(這項活動只展示最壞的個案,藉此利用人們的恐懼。)The words by showing only the worst cases explain how the campaign did it. The coreexpression is play on something.by showing only the worst cases 只說明活動採用了甚麼方法;核心表達是 play on something。",
+      "en": "Learn the complete core expression shown in the reference bank. Do not automatically treat every later phrase as part of it. Extra phrases may only explain the method, reason, time or place."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以下例子放在正確位置:play it downplay it backplay it outplay it upplay them off against each other",
+      "titleEn": "When using it or them with the following expressions, place the word as shown:.",
+      "zh": "使用 it 或 them 時,請按照以下例子放在正確位置:play it downplay it backplay it outplay it upplay them off against each other",
+      "en": "When using it or them with the following expressions, place the word as shown:"
+    },
+    {
+      "titleZh": "外形相近的表達可能有完全不同的意思,尤其要留意:play around = waste time or behave foolishlyplay around with something = try different possibilitiesplay something down = make it seem less importantplay something up = make it seem more importantplay up to somebody = flatter or please a personplay up to something = behave in a way that matches an expected image or reputation",
+      "titleEn": "Similar-looking expressions may have very different meanings.",
+      "zh": "外形相近的表達可能有完全不同的意思,尤其要留意:play around = waste time or behave foolishlyplay around with something = try different possibilitiesplay something down = make it seem less importantplay something up = make it seem more importantplay up to somebody = flatter or please a personplay up to something = behave in a way that matches an expected image or reputation",
+      "en": "Similar-looking expressions may have very different meanings. In particular, compare:"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PLAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PLAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PLAY 動詞片語句子改寫練習",
+    "titleEn": "PLAY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PLAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PLAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          51
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          52,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-256-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "Please let me hear the voice message again.",
+      "promptZh": "請讓我再聽一次那段語音訊息。",
+      "starter": "Please",
+      "answer": "Please play the voice message back to me.",
+      "answerZh": "請把那段語音訊息重新播放給我聽。",
+      "highlight": "play",
+      "targetForm": "play something back (to somebody)",
+      "targetMeaningZh": "把錄下的聲音或影像重新播放"
+    },
+    {
+      "id": "phrasal-verb-256-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Stop wasting time and start your work.",
+      "promptZh": "別再浪費時間,開始工作吧。",
+      "starter": "Stop",
+      "answer": "Stop playing around and start your work.",
+      "answerZh": "別再胡鬧,開始工作吧。",
+      "highlight": "playing around",
+      "targetForm": "play around / play about",
+      "targetMeaningZh": "胡鬧;不認真做事;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-256-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The advert made the phone's camera seem especially important.",
+      "promptZh": "廣告把手機的相機功能說得格外重要。",
+      "starter": "The",
+      "answer": "The advert played up the phone's camera.",
+      "answerZh": "廣告特別強調手機的相機功能。",
+      "highlight": "played up",
+      "targetForm": "play something up / play it or them up",
+      "targetMeaningZh": "強調某事,使它顯得格外重要、出色或有利"
+    },
+    {
+      "id": "phrasal-verb-256-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The two teams must compete in another match to decide the champion.",
+      "promptZh": "兩隊必須加賽一場,以決定冠軍。",
+      "starter": "The",
+      "answer": "The two teams must play off for the championship.",
+      "answerZh": "兩隊必須加賽,以決定冠軍。",
+      "highlight": "play off for",
+      "targetForm": "play off",
+      "targetMeaningZh": "加賽以決定勝方、排名或晉級資格"
+    },
+    {
+      "id": "phrasal-verb-256-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "They knew the story was false but pretended to believe it.",
+      "promptZh": "他們知道那個故事是假的,卻假裝相信。",
+      "starter": "They",
+      "answer": "They knew the story was false but played along.",
+      "answerZh": "他們知道那個故事是假的,卻順着對方的意思假裝相信。",
+      "highlight": "played along",
+      "targetForm": "play along (with somebody/something)",
+      "targetMeaningZh": "假裝同意或合作;順着對方的意思做"
+    },
+    {
+      "id": "phrasal-verb-256-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "My knee is causing pain again.",
+      "promptZh": "我的膝蓋又在痛了。",
+      "starter": "My",
+      "answer": "My knee is playing up again.",
+      "answerZh": "我的膝蓋又在作痛了。",
+      "highlight": "playing up",
+      "targetForm": "play up / play somebody up",
+      "targetMeaningZh": "運作不正常,或令某人感到痛楚和不適"
+    },
+    {
+      "id": "phrasal-verb-256-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Try different fonts until you find the clearest one.",
+      "promptZh": "嘗試不同字體,直至找到最清楚的一款。",
+      "starter": "Play",
+      "answer": "Play around with different fonts until you find the clearest one.",
+      "answerZh": "試試不同字體,直至找到最清楚的一款。",
+      "highlight": "Play around with",
+      "targetForm": "play around/about with something",
+      "targetMeaningZh": "嘗試不同方法或選擇,看看哪一個最好"
+    },
+    {
+      "id": "phrasal-verb-256-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The advert used people's fear to sell the product.",
+      "promptZh": "廣告利用人們的恐懼來推銷產品。",
+      "starter": "The",
+      "answer": "The advert played on people's fear to sell the product.",
+      "answerZh": "廣告利用人們的恐懼來推銷產品。",
+      "highlight": "played on",
+      "targetForm": "play on/upon something",
+      "targetMeaningZh": "利用某人的感受、恐懼、內疚或弱點來影響對方"
+    },
+    {
+      "id": "phrasal-verb-256-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The band performs in public every Friday.",
+      "promptZh": "這支樂隊逢星期五都會公開演出。",
+      "starter": "The",
+      "answer": "The band plays out every Friday.",
+      "answerZh": "這支樂隊逢星期五都會到外面公開演出。",
+      "highlight": "plays out",
+      "targetForm": "play out",
+      "targetMeaningZh": "樂隊或音樂人到公眾場所現場演出"
+    },
+    {
+      "id": "phrasal-verb-256-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The company tried to make the problem seem less serious.",
+      "promptZh": "公司試圖令問題看來沒有那麼嚴重。",
+      "starter": "The",
+      "answer": "The company tried to play the problem down.",
+      "answerZh": "公司試圖淡化問題的嚴重性。",
+      "highlight": "play",
+      "targetForm": "play something down / play it down",
+      "targetMeaningZh": "使某事看來沒有實際上那麼重要或嚴重"
+    },
+    {
+      "id": "phrasal-verb-256-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "She flatters the manager to gain his favour.",
+      "promptZh": "她奉承經理,以取得他的好感。",
+      "starter": "She",
+      "answer": "She plays up to the manager to gain his favour.",
+      "answerZh": "她討好經理,以取得他的好感。",
+      "highlight": "plays up to",
+      "targetForm": "play up to somebody",
+      "targetMeaningZh": "討好或奉承某人,以取得對方的好感或幫助"
+    },
+    {
+      "id": "phrasal-verb-256-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "He is not seriously trying to be a writer.",
+      "promptZh": "他並不是真的認真嘗試當作家。",
+      "starter": "He",
+      "answer": "He is only playing at being a writer.",
+      "answerZh": "他只是在裝作當作家,並不認真。",
+      "highlight": "only playing at being",
+      "targetForm": "play at doing something",
+      "targetMeaningZh": "只是裝作或隨便做某事,並不認真"
+    },
+    {
+      "id": "phrasal-verb-256-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "The referee told the players to continue.",
+      "promptZh": "球證叫球員繼續作賽。",
+      "starter": "The",
+      "answer": "The referee told the players to play on.",
+      "answerZh": "球證叫球員繼續作賽。",
+      "highlight": "play on",
+      "targetForm": "play on",
+      "targetMeaningZh": "在體育比賽中繼續作賽或恢復作賽"
+    },
+    {
+      "id": "phrasal-verb-256-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The students acted the scene in class.",
+      "promptZh": "學生在課堂上演出了那個場景。",
+      "starter": "The",
+      "answer": "The students played the scene out in class.",
+      "answerZh": "學生在課堂上把那個場景演了出來。",
+      "highlight": "played",
+      "targetForm": "play something out",
+      "targetMeaningZh": "把一個場景、情況或事件演出或重現出來"
+    },
+    {
+      "id": "phrasal-verb-256-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "He makes one parent compete with the other to get what he wants.",
+      "promptZh": "他令父母二人互相較量,以取得自己想要的東西。",
+      "starter": "He",
+      "answer": "He plays one parent off against the other to get what he wants.",
+      "answerZh": "他挑動父母二人互相較量,以取得自己想要的東西。",
+      "highlight": "plays",
+      "targetForm": "play A off against B",
+      "targetMeaningZh": "使兩人或兩組互相競爭,以便自己得益"
+    },
+    {
+      "id": "phrasal-verb-256-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Let us wait and see how the situation develops.",
+      "promptZh": "讓我們等着看看情況如何發展。",
+      "starter": "Let",
+      "answer": "Let us wait and see how the situation plays out.",
+      "answerZh": "讓我們等着看看情況如何發展。",
+      "highlight": "plays out",
+      "targetForm": "play out / play itself or themselves out",
+      "targetMeaningZh": "事情發生及發展,直至得出結果或自然結束"
+    },
+    {
+      "id": "phrasal-verb-256-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "He has a reputation for being funny and behaves as people expect.",
+      "promptZh": "他以風趣見稱,表現也正如人們所預期。",
+      "starter": "He",
+      "answer": "He plays up to his reputation for being funny.",
+      "answerZh": "他按照自己風趣的名聲來表現。",
+      "highlight": "plays up to his",
+      "targetForm": "play up to something",
+      "targetMeaningZh": "按照別人對某種形象或名聲的預期來表現"
+    },
+    {
+      "id": "phrasal-verb-256-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "The disagreement is still developing.",
+      "promptZh": "這場分歧仍在發展。",
+      "starter": "The",
+      "answer": "The disagreement is still playing out.",
+      "answerZh": "這場分歧仍在發展。",
+      "highlight": "playing out",
+      "targetForm": "play out / play itself or themselves out",
+      "targetMeaningZh": "事情發生及發展,直至得出結果或自然結束"
+    },
+    {
+      "id": "phrasal-verb-256-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "We have been testing several layouts for the class poster.",
+      "promptZh": "我們一直在嘗試幾種班級海報的版面。",
+      "starter": "We",
+      "answer": "We have been playing about with several layouts for the class poster.",
+      "answerZh": "我們一直在嘗試幾種班級海報的版面。",
+      "highlight": "playing about with",
+      "targetForm": "play around/about with something",
+      "targetMeaningZh": "嘗試不同方法或選擇,看看哪一個最好"
+    },
+    {
+      "id": "phrasal-verb-256-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The buyer was trying to make the two shops compete against each other.",
+      "promptZh": "買家當時正試圖令兩間店舖互相競爭。",
+      "starter": "The",
+      "answer": "The buyer was playing the two shops off against each other.",
+      "answerZh": "買家當時正挑動兩間店舖互相競爭。",
+      "highlight": "playing",
+      "targetForm": "play A off against B",
+      "targetMeaningZh": "使兩人或兩組互相競爭,以便自己得益"
+    },
+    {
+      "id": "phrasal-verb-256-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "He has been trying to please his teacher so that she will choose him.",
+      "promptZh": "他一直在討好老師,希望她會選中他。",
+      "starter": "He",
+      "answer": "He has been playing up to his teacher so that she will choose him.",
+      "answerZh": "他一直在討好老師,希望她會選中他。",
+      "highlight": "playing up",
+      "targetForm": "play up to somebody",
+      "targetMeaningZh": "討好或奉承某人,以取得對方的好感或幫助"
+    },
+    {
+      "id": "phrasal-verb-256-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The reporter is letting the guest hear the interview recording again.",
+      "promptZh": "記者正讓嘉賓再聽一次訪問錄音。",
+      "starter": "The",
+      "answer": "The reporter is playing the interview recording back to the guest.",
+      "answerZh": "記者正把訪問錄音重新播放給嘉賓聽。",
+      "highlight": "playing",
+      "targetForm": "play something back (to somebody)",
+      "targetMeaningZh": "把錄下的聲音或影像重新播放"
+    },
+    {
+      "id": "phrasal-verb-256-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "They were pretending to run a shop but had no real plan.",
+      "promptZh": "他們裝作在經營店舖,卻沒有真正的計劃。",
+      "starter": "They",
+      "answer": "They were playing at running a shop but had no real plan.",
+      "answerZh": "他們只是在裝作經營店舖,卻沒有真正的計劃。",
+      "highlight": "playing at running",
+      "targetForm": "play at doing something",
+      "targetMeaningZh": "只是裝作或隨便做某事,並不認真"
+    },
+    {
+      "id": "phrasal-verb-256-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Despite the light rain, the teams are continuing the match.",
+      "promptZh": "儘管下着小雨,兩隊仍在繼續比賽。",
+      "starter": "Despite",
+      "answer": "Despite the light rain, the teams are playing on.",
+      "answerZh": "儘管下着小雨,兩隊仍在繼續作賽。",
+      "highlight": "playing on",
+      "targetForm": "play on",
+      "targetMeaningZh": "在體育比賽中繼續作賽或恢復作賽"
+    },
+    {
+      "id": "phrasal-verb-256-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "She is emphasizing her experience during the interview.",
+      "promptZh": "她在面試期間正強調自己的經驗。",
+      "starter": "She",
+      "answer": "She is playing up her experience during the interview.",
+      "answerZh": "她在面試期間正特別強調自己的經驗。",
+      "highlight": "playing up",
+      "targetForm": "play something up / play it or them up",
+      "targetMeaningZh": "強調某事,使它顯得格外重要、出色或有利"
+    },
+    {
+      "id": "phrasal-verb-256-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The children have been behaving foolishly instead of getting ready.",
+      "promptZh": "孩子們一直在胡鬧,沒有好好作準備。",
+      "starter": "The",
+      "answer": "The children have been playing about instead of getting ready.",
+      "answerZh": "孩子們一直在胡鬧,沒有好好作準備。",
+      "highlight": "playing about",
+      "targetForm": "play around / play about",
+      "targetMeaningZh": "胡鬧;不認真做事;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-256-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The singer is behaving like the wild star the public expects.",
+      "promptZh": "這名歌手正表現得像公眾所期待的狂野明星。",
+      "starter": "The",
+      "answer": "The singer is playing up to her wild image.",
+      "answerZh": "這名歌手正按照自己的狂野形象來表現。",
+      "highlight": "playing up to her",
+      "targetForm": "play up to something",
+      "targetMeaningZh": "按照別人對某種形象或名聲的預期來表現"
+    },
+    {
+      "id": "phrasal-verb-256-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "She is making her injury seem less serious than it is.",
+      "promptZh": "她正把自己的傷勢說得比實際情況輕微。",
+      "starter": "She",
+      "answer": "She is playing down her injury.",
+      "answerZh": "她正在淡化自己的傷勢。",
+      "highlight": "playing down",
+      "targetForm": "play something down / play it down",
+      "targetMeaningZh": "使某事看來沒有實際上那麼重要或嚴重"
+    },
+    {
+      "id": "phrasal-verb-256-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "We have started performing live at small cafés.",
+      "promptZh": "我們已開始在小型咖啡店現場演出。",
+      "starter": "We",
+      "answer": "We have started playing out at small cafés.",
+      "answerZh": "我們已開始在小型咖啡店公開演出。",
+      "highlight": "playing out",
+      "targetForm": "play out",
+      "targetMeaningZh": "樂隊或音樂人到公眾場所現場演出"
+    },
+    {
+      "id": "phrasal-verb-256-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "The printer has been working badly all morning.",
+      "promptZh": "打印機整個早上都運作不正常。",
+      "starter": "The",
+      "answer": "The printer has been playing up all morning.",
+      "answerZh": "打印機整個早上都在出問題。",
+      "highlight": "playing up",
+      "targetForm": "play up / play somebody up",
+      "targetMeaningZh": "運作不正常,或令某人感到痛楚和不適"
+    },
+    {
+      "id": "phrasal-verb-256-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "For now, I am pretending to agree with their plan.",
+      "promptZh": "目前,我正假裝同意他們的計劃。",
+      "starter": "For",
+      "answer": "For now, I am playing along with their plan.",
+      "answerZh": "目前,我正假裝同意他們的計劃。",
+      "highlight": "playing along",
+      "targetForm": "play along (with somebody/something)",
+      "targetMeaningZh": "假裝同意或合作;順着對方的意思做"
+    },
+    {
+      "id": "phrasal-verb-256-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The tied players are competing in a deciding game for a place in the final.",
+      "promptZh": "同分的兩名選手正在進行決勝賽,以爭奪決賽席位。",
+      "starter": "The",
+      "answer": "The tied players are playing off for a place in the final.",
+      "answerZh": "同分的兩名選手正在加賽,以爭奪決賽席位。",
+      "highlight": "playing off",
+      "targetForm": "play off",
+      "targetMeaningZh": "加賽以決定勝方、排名或晉級資格"
+    },
+    {
+      "id": "phrasal-verb-256-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "He is using my guilt to make me stay.",
+      "promptZh": "他正利用我的內疚感令我留下來。",
+      "starter": "He",
+      "answer": "He is playing on my guilt to make me stay.",
+      "answerZh": "他正利用我的內疚感令我留下來。",
+      "highlight": "playing on",
+      "targetForm": "play on/upon something",
+      "targetMeaningZh": "利用某人的感受、恐懼、內疚或弱點來影響對方"
+    },
+    {
+      "id": "phrasal-verb-256-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "They are acting an imaginary interview to practise for tomorrow.",
+      "promptZh": "他們正在演練一場想像中的訪問,為明天作準備。",
+      "starter": "They",
+      "answer": "They are playing out an imaginary interview to practise for tomorrow.",
+      "answerZh": "他們正在把一場想像中的訪問演練出來,為明天作準備。",
+      "highlight": "playing out",
+      "targetForm": "play something out",
+      "targetMeaningZh": "把一個場景、情況或事件演出或重現出來"
+    },
+    {
+      "id": "phrasal-verb-256-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "Do not make it seem unimportant; the delay affects everyone.",
+      "promptZh": "不要把它說得不重要;這次延誤影響所有人。",
+      "starter": "Do",
+      "answer": "Do not play it down; the delay affects everyone.",
+      "answerZh": "不要淡化它;這次延誤影響所有人。",
+      "highlight": "play",
+      "targetForm": "play something down / play it down",
+      "targetMeaningZh": "使某事看來沒有實際上那麼重要或嚴重"
+    },
+    {
+      "id": "phrasal-verb-256-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We discussed the argument and then acted it from beginning to end.",
+      "promptZh": "我們討論了那場爭執,然後從頭到尾把它演了一次。",
+      "starter": "We",
+      "answer": "We discussed the argument and then played it out from beginning to end.",
+      "answerZh": "我們討論了那場爭執,然後從頭到尾把它演了一次。",
+      "highlight": "played",
+      "targetForm": "play something out",
+      "targetMeaningZh": "把一個場景、情況或事件演出或重現出來"
+    },
+    {
+      "id": "phrasal-verb-256-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "When they mistook Nora for the manager, she decided to pretend they were right.",
+      "promptZh": "他們誤以為 Nora 是經理時,她決定假裝他們沒有弄錯。",
+      "starter": "When",
+      "answer": "When they mistook Nora for the manager, she decided to play along.",
+      "answerZh": "他們誤以為 Nora 是經理時,她決定順着他們的誤會演下去。",
+      "highlight": "play along",
+      "targetForm": "play along (with somebody/something)",
+      "targetMeaningZh": "假裝同意或合作;順着對方的意思做"
+    },
+    {
+      "id": "phrasal-verb-256-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The old lift started working badly again just before lunch.",
+      "promptZh": "那部舊升降機在午飯前又開始運作不正常。",
+      "starter": "The",
+      "answer": "The old lift started playing up again just before lunch.",
+      "answerZh": "那部舊升降機在午飯前又開始出問題。",
+      "highlight": "playing up",
+      "targetForm": "play up / play somebody up",
+      "targetMeaningZh": "運作不正常,或令某人感到痛楚和不適"
+    },
+    {
+      "id": "phrasal-verb-256-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "He deliberately made them compete with each other for his support.",
+      "promptZh": "他故意令他們互相競爭,以爭取他的支持。",
+      "starter": "He",
+      "answer": "He deliberately played them off against each other so that each would compete for his support.",
+      "answerZh": "他故意挑動他們互相競爭,以爭取他的支持。",
+      "highlight": "played",
+      "targetForm": "play A off against B",
+      "targetMeaningZh": "使兩人或兩組互相競爭,以便自己得益"
+    },
+    {
+      "id": "phrasal-verb-256-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "I recorded the announcement. Could you let the class hear it again?",
+      "promptZh": "我錄下了那段公布。你可以讓全班再聽一次嗎?",
+      "starter": "I",
+      "answer": "I recorded the announcement. Could you play it back to the class?",
+      "answerZh": "我錄下了那段公布。你可以把它重新播放給全班聽嗎?",
+      "highlight": "play it back to",
+      "targetForm": "play something back (to somebody)",
+      "targetMeaningZh": "把錄下的聲音或影像重新播放"
+    },
+    {
+      "id": "phrasal-verb-256-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "People expected him to be rude, and he behaved exactly that way.",
+      "promptZh": "人們預期他會表現無禮,而他的行為正好符合這種印象。",
+      "starter": "People",
+      "answer": "People expected him to be rude, and he played up to it.",
+      "answerZh": "人們預期他會表現無禮,而他也照着這種印象來表現。",
+      "highlight": "played up to it",
+      "targetForm": "play up to something",
+      "targetMeaningZh": "按照別人對某種形象或名聲的預期來表現"
+    },
+    {
+      "id": "phrasal-verb-256-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "You can experiment with it before making the final choice.",
+      "promptZh": "你可以先試用不同方法,再作最後選擇。",
+      "starter": "You",
+      "answer": "You can play around with it before making the final choice.",
+      "answerZh": "你可以先試用不同方法,再作最後選擇。",
+      "highlight": "play around",
+      "targetForm": "play around/about with something",
+      "targetMeaningZh": "嘗試不同方法或選擇,看看哪一個最好"
+    },
+    {
+      "id": "phrasal-verb-256-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "These events must continue until they reach their natural end.",
+      "promptZh": "這些事件必須繼續發展,直至自然結束。",
+      "starter": "These",
+      "answer": "These events must play themselves out.",
+      "answerZh": "這些事件必須自行發展至自然結束。",
+      "highlight": "play themselves out",
+      "targetForm": "play out / play itself or themselves out",
+      "targetMeaningZh": "事情發生及發展,直至得出結果或自然結束"
+    },
+    {
+      "id": "phrasal-verb-256-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "If the score remains equal, they will compete in a deciding match tomorrow.",
+      "promptZh": "如果比分仍然相同,他們明天便會進行決勝賽。",
+      "starter": "If",
+      "answer": "If the score remains equal, they will play off tomorrow.",
+      "answerZh": "如果比分仍然相同,他們明天便會加賽決勝。",
+      "highlight": "play off",
+      "targetForm": "play off",
+      "targetMeaningZh": "加賽以決定勝方、排名或晉級資格"
+    },
+    {
+      "id": "phrasal-verb-256-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Do not treat learning the piano as a game if you want to improve.",
+      "promptZh": "如果你想進步,便不要把學鋼琴當作兒戲。",
+      "starter": "Do",
+      "answer": "Do not play at learning the piano if you want to improve.",
+      "answerZh": "如果你想進步,便不要只是假裝在學鋼琴。",
+      "highlight": "play at",
+      "targetForm": "play at doing something",
+      "targetMeaningZh": "只是裝作或隨便做某事,並不認真"
+    },
+    {
+      "id": "phrasal-verb-256-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "The change was small, but the article made it seem important.",
+      "promptZh": "這項改動很小,但文章卻把它說得很重要。",
+      "starter": "The",
+      "answer": "The change was small, but the article played it up.",
+      "answerZh": "這項改動很小,但文章卻大力強調它。",
+      "highlight": "played",
+      "targetForm": "play something up / play it or them up",
+      "targetMeaningZh": "強調某事,使它顯得格外重要、出色或有利"
+    },
+    {
+      "id": "phrasal-verb-256-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Should we continue, or has the whistle ended the game?",
+      "promptZh": "我們應該繼續,還是哨聲已經終止比賽?",
+      "starter": "Should",
+      "answer": "Should we play on, or has the whistle ended the game?",
+      "answerZh": "我們應該繼續作賽,還是哨聲已經終止比賽?",
+      "highlight": "play on",
+      "targetForm": "play on",
+      "targetMeaningZh": "在體育比賽中繼續作賽或恢復作賽"
+    },
+    {
+      "id": "phrasal-verb-256-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Do not use their worries to get more money from them.",
+      "promptZh": "不要利用他們的憂慮,從他們身上取得更多金錢。",
+      "starter": "Do",
+      "answer": "Do not play on their worries to get more money from them.",
+      "answerZh": "不要利用他們的憂慮,從他們身上取得更多金錢。",
+      "highlight": "play on",
+      "targetForm": "play on/upon something",
+      "targetMeaningZh": "利用某人的感受、恐懼、內疚或弱點來影響對方"
+    },
+    {
+      "id": "phrasal-verb-256-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "We cannot keep behaving foolishly if we want to finish today.",
+      "promptZh": "如果我們想今天完成,便不能繼續胡鬧。",
+      "starter": "We",
+      "answer": "We cannot keep playing around if we want to finish today.",
+      "answerZh": "如果我們想今天完成,便不能繼續胡鬧。",
+      "highlight": "playing around",
+      "targetForm": "play around / play about",
+      "targetMeaningZh": "胡鬧;不認真做事;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-256-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Do not flatter me just because you want a favour.",
+      "promptZh": "不要只因為想我幫忙便奉承我。",
+      "starter": "Do",
+      "answer": "Do not play up to me just because you want a favour.",
+      "answerZh": "不要只因為想我幫忙便討好我。",
+      "highlight": "play up to",
+      "targetForm": "play up to somebody",
+      "targetMeaningZh": "討好或奉承某人,以取得對方的好感或幫助"
+    },
+    {
+      "id": "phrasal-verb-256-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "Do they perform in public often, or do they only rehearse at home?",
+      "promptZh": "他們經常公開演出,還是只在家中排練?",
+      "starter": "Do",
+      "answer": "Do they play out often, or do they only rehearse at home?",
+      "answerZh": "他們經常到外面公開演出,還是只在家中排練?",
+      "highlight": "play out",
+      "targetForm": "play out",
+      "targetMeaningZh": "樂隊或音樂人到公眾場所現場演出"
+    },
+    {
+      "id": "phrasal-verb-256-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "A serious local band should perform live regularly, not only post songs online.",
+      "promptZh": "一支認真的本地樂隊應該定期現場演出,而不只是把歌曲放上網。",
+      "starter": "A",
+      "answer": "A serious local band should play out regularly, not only post songs online.",
+      "answerZh": "一支認真的本地樂隊應該定期公開演出,而不只是把歌曲放上網。",
+      "highlight": "play out",
+      "targetForm": "play out",
+      "targetMeaningZh": "樂隊或音樂人到公眾場所現場演出"
+    },
+    {
+      "id": "phrasal-verb-256-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The message succeeded because it took advantage of parents' concern for their children.",
+      "promptZh": "這段訊息成功,是因為它利用了父母對子女的關心。",
+      "starter": "The",
+      "answer": "The message succeeded because it played upon parents' concern for their children.",
+      "answerZh": "這段訊息成功,是因為它利用了父母對子女的關心。",
+      "highlight": "played upon",
+      "targetForm": "play on/upon something",
+      "targetMeaningZh": "利用某人的感受、恐懼、內疚或弱點來影響對方"
+    },
+    {
+      "id": "phrasal-verb-256-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Which two clubs competed in the deciding match for the last cup place?",
+      "promptZh": "哪兩間俱樂部進行了決勝賽,以爭奪最後一個盃賽席位?",
+      "starter": "Which",
+      "answer": "Which two clubs played off for the last cup place?",
+      "answerZh": "哪兩間俱樂部加賽,以爭奪最後一個盃賽席位?",
+      "highlight": "played off",
+      "targetForm": "play off",
+      "targetMeaningZh": "加賽以決定勝方、排名或晉級資格"
+    },
+    {
+      "id": "phrasal-verb-256-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Were you doing the task or merely wasting time?",
+      "promptZh": "你剛才是在做任務,還是只在浪費時間?",
+      "starter": "Were",
+      "answer": "Were you doing the task or just playing about?",
+      "answerZh": "你剛才是在做任務,還是只在胡鬧?",
+      "highlight": "just playing about",
+      "targetForm": "play around / play about",
+      "targetMeaningZh": "胡鬧;不認真做事;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-256-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Why did the coach let the players watch the final minute again?",
+      "promptZh": "教練為甚麼讓球員再看一次最後一分鐘的片段?",
+      "starter": "Why",
+      "answer": "Why did the coach play the final minute back to the players?",
+      "answerZh": "教練為甚麼把最後一分鐘的片段重新播放給球員看?",
+      "highlight": "play",
+      "targetForm": "play something back (to somebody)",
+      "targetMeaningZh": "把錄下的聲音或影像重新播放"
+    },
+    {
+      "id": "phrasal-verb-256-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "Why did the actor behave like the proud hero the audience expected to see?",
+      "promptZh": "那名演員為甚麼表現得像觀眾預期看到的驕傲英雄?",
+      "starter": "Why",
+      "answer": "Why did the actor play up to the audience's image of a proud hero?",
+      "answerZh": "那名演員為甚麼按照觀眾心目中驕傲英雄的形象來表現?",
+      "highlight": "play up to",
+      "targetForm": "play up to something",
+      "targetMeaningZh": "按照別人對某種形象或名聲的預期來表現"
+    },
+    {
+      "id": "phrasal-verb-256-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "Although the mistake was serious, the report made its effect seem small.",
+      "promptZh": "雖然錯誤很嚴重,但報告把它的影響說得很小。",
+      "starter": "Although",
+      "answer": "Although the mistake was serious, the report played down its effect.",
+      "answerZh": "雖然錯誤很嚴重,但報告淡化了它的影響。",
+      "highlight": "played down",
+      "targetForm": "play something down / play it down",
+      "targetMeaningZh": "使某事看來沒有實際上那麼重要或嚴重"
+    },
+    {
+      "id": "phrasal-verb-256-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "How did the final part of the story develop?",
+      "promptZh": "故事的最後部分是怎樣發展的?",
+      "starter": "How",
+      "answer": "How did the final part of the story play out?",
+      "answerZh": "故事的最後部分是怎樣發展的?",
+      "highlight": "play out",
+      "targetForm": "play out / play itself or themselves out",
+      "targetMeaningZh": "事情發生及發展,直至得出結果或自然結束"
+    },
+    {
+      "id": "phrasal-verb-256-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Why are they being so eager to please the new coach?",
+      "promptZh": "他們為甚麼如此急於討好新教練?",
+      "starter": "Why",
+      "answer": "Why are they playing up to the new coach?",
+      "answerZh": "他們為甚麼在討好新教練?",
+      "highlight": "playing up",
+      "targetForm": "play up to somebody",
+      "targetMeaningZh": "討好或奉承某人,以取得對方的好感或幫助"
+    },
+    {
+      "id": "phrasal-verb-256-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The difficult family scene was acted in front of the audience.",
+      "promptZh": "那個困難的家庭場景在觀眾面前演了出來。",
+      "starter": "The",
+      "answer": "The difficult family scene was played out in front of the audience.",
+      "answerZh": "那個困難的家庭場景在觀眾面前演了出來。",
+      "highlight": "played out",
+      "targetForm": "play something out",
+      "targetMeaningZh": "把一個場景、情況或事件演出或重現出來"
+    },
+    {
+      "id": "phrasal-verb-256-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Why did you pretend to support the joke when you knew the truth?",
+      "promptZh": "你明知真相,為甚麼仍假裝支持那個玩笑?",
+      "starter": "Why",
+      "answer": "Why did you play along with the joke when you knew the truth?",
+      "answerZh": "你明知真相,為甚麼仍順着那個玩笑演下去?",
+      "highlight": "play along with",
+      "targetForm": "play along (with somebody/something)",
+      "targetMeaningZh": "假裝同意或合作;順着對方的意思做"
+    },
+    {
+      "id": "phrasal-verb-256-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "She got a lower price by making one seller compete with the other.",
+      "promptZh": "她令兩名賣家互相競爭,因而取得較低價格。",
+      "starter": "She",
+      "answer": "She played one seller off against the other and got a lower price.",
+      "answerZh": "她挑動兩名賣家互相競爭,因而取得較低價格。",
+      "highlight": "played one seller off against the other and",
+      "targetForm": "play A off against B",
+      "targetMeaningZh": "使兩人或兩組互相競爭,以便自己得益"
+    },
+    {
+      "id": "phrasal-verb-256-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Why did the report make the small improvement seem so important?",
+      "promptZh": "報告為甚麼把這項小改進說得如此重要?",
+      "starter": "Why",
+      "answer": "Why did the report play up the small improvement?",
+      "answerZh": "報告為甚麼大力強調這項小改進?",
+      "highlight": "play up",
+      "targetForm": "play something up / play it or them up",
+      "targetMeaningZh": "強調某事,使它顯得格外重要、出色或有利"
+    },
+    {
+      "id": "phrasal-verb-256-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Why not try different ways of arranging the chairs?",
+      "promptZh": "為甚麼不試試以不同方式擺放椅子?",
+      "starter": "Why",
+      "answer": "Why not play about with different ways of arranging the chairs?",
+      "answerZh": "為甚麼不試試以不同方式擺放椅子?",
+      "highlight": "play about with",
+      "targetForm": "play around/about with something",
+      "targetMeaningZh": "嘗試不同方法或選擇,看看哪一個最好"
+    },
+    {
+      "id": "phrasal-verb-256-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Is your back causing you pain again?",
+      "promptZh": "你的背部又令你感到痛楚嗎?",
+      "starter": "Is",
+      "answer": "Is your back playing you up again?",
+      "answerZh": "你的背部又在令你感到痛楚嗎?",
+      "highlight": "playing",
+      "targetForm": "play up / play somebody up",
+      "targetMeaningZh": "運作不正常,或令某人感到痛楚和不適"
+    },
+    {
+      "id": "phrasal-verb-256-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "She is not seriously working towards opening a café, although she talks about it often.",
+      "promptZh": "雖然她經常談及開咖啡店,但她並沒有認真為此努力。",
+      "starter": "She",
+      "answer": "She is only playing at opening a café, although she talks about it often.",
+      "answerZh": "雖然她經常談及開咖啡店,但她只是在說着玩,並不認真。",
+      "highlight": "only playing at",
+      "targetForm": "play at doing something",
+      "targetMeaningZh": "只是裝作或隨便做某事,並不認真"
+    },
+    {
+      "id": "phrasal-verb-256-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The striker claimed a foul, but the referee told everyone to continue.",
+      "promptZh": "前鋒聲稱對方犯規,但球證叫所有人繼續作賽。",
+      "starter": "The",
+      "answer": "The striker claimed a foul, but the referee told everyone to play on.",
+      "answerZh": "前鋒聲稱對方犯規,但球證叫所有人繼續作賽。",
+      "highlight": "play on",
+      "targetForm": "play on",
+      "targetMeaningZh": "在體育比賽中繼續作賽或恢復作賽"
+    },
+    {
+      "id": "phrasal-verb-256-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The manager gave different promises to the two teams so that each would compete for his support.",
+      "promptZh": "經理向兩個團隊作出不同承諾,令雙方爭取他的支持。",
+      "starter": "The",
+      "answer": "The manager played the two teams off against each other by giving them different promises.",
+      "answerZh": "經理向兩個團隊作出不同承諾,挑動雙方互相競爭。",
+      "highlight": "played",
+      "targetForm": "play A off against B",
+      "targetMeaningZh": "使兩人或兩組互相競爭,以便自己得益"
+    },
+    {
+      "id": "phrasal-verb-256-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "To attract visitors, the website strongly emphasized the town's quiet beaches and cheap food.",
+      "promptZh": "為了吸引遊客,網站大力強調小鎮寧靜的海灘和便宜的食物。",
+      "starter": "To",
+      "answer": "To attract visitors, the website played up the town's quiet beaches and cheap food.",
+      "answerZh": "為了吸引遊客,網站大力宣傳小鎮寧靜的海灘和便宜的食物。",
+      "highlight": "played up",
+      "targetForm": "play something up / play it or them up",
+      "targetMeaningZh": "強調某事,使它顯得格外重要、出色或有利"
+    },
+    {
+      "id": "phrasal-verb-256-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "No one knows how the talks will develop, so both sides are waiting before making another move.",
+      "promptZh": "沒有人知道會談將如何發展,因此雙方都在等待,暫不採取下一步行動。",
+      "starter": "No",
+      "answer": "No one knows how the talks will play out, so both sides are waiting before making another move.",
+      "answerZh": "沒有人知道會談將如何發展,因此雙方都在等待,暫不採取下一步行動。",
+      "highlight": "play out",
+      "targetForm": "play out / play itself or themselves out",
+      "targetMeaningZh": "事情發生及發展,直至得出結果或自然結束"
+    },
+    {
+      "id": "phrasal-verb-256-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Before deleting the voice note, Eva listened to the whole recording again.",
+      "promptZh": "刪除語音訊息前,Eva 再聽了一次完整錄音。",
+      "starter": "Before",
+      "answer": "Before deleting the voice note, Eva played the whole recording back.",
+      "answerZh": "刪除語音訊息前,Eva 把完整錄音重新播放了一次。",
+      "highlight": "played",
+      "targetForm": "play something back (to somebody)",
+      "targetMeaningZh": "把錄下的聲音或影像重新播放"
+    },
+    {
+      "id": "phrasal-verb-256-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "Visitors expected the guide to look traditional, so he wore old-style clothes and spoke in a formal way.",
+      "promptZh": "遊客預期導遊看來很傳統,所以他穿上舊式服裝,並以正式方式說話。",
+      "starter": "The",
+      "answer": "The guide played up to the traditional image by wearing old-style clothes and speaking in a formal way.",
+      "answerZh": "導遊穿上舊式服裝並以正式方式說話,以迎合那種傳統形象。",
+      "highlight": "played up",
+      "targetForm": "play up to something",
+      "targetMeaningZh": "按照別人對某種形象或名聲的預期來表現"
+    },
+    {
+      "id": "phrasal-verb-256-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "While everyone else packed the boxes, Alex kept behaving foolishly, so the whole group finished late.",
+      "promptZh": "其他人都在收拾箱子時,Alex 卻一直胡鬧,結果整組人都很遲才完成。",
+      "starter": "While",
+      "answer": "While everyone else packed the boxes, Alex kept playing around, so the whole group finished late.",
+      "answerZh": "其他人都在收拾箱子時,Alex 卻一直胡鬧,結果整組人都很遲才完成。",
+      "highlight": "playing around",
+      "targetForm": "play around / play about",
+      "targetMeaningZh": "胡鬧;不認真做事;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-256-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "By showing only the worst cases, the campaign used people's fear of failure to win support.",
+      "promptZh": "這項活動只展示最壞的個案,利用人們對失敗的恐懼來爭取支持。",
+      "starter": "By",
+      "answer": "By showing only the worst cases, the campaign played on people's fear of failure to win support.",
+      "answerZh": "這項活動只展示最壞的個案,利用人們對失敗的恐懼來爭取支持。",
+      "highlight": "played on",
+      "targetForm": "play on/upon something",
+      "targetMeaningZh": "利用某人的感受、恐懼、內疚或弱點來影響對方"
+    },
+    {
+      "id": "phrasal-verb-256-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Eastside and North Park finished level on points, so they had to compete in one final match for the last place in the next round.",
+      "promptZh": "Eastside 和 North Park 最後同分,因此必須進行一場決勝賽,爭奪下一圈的最後一個席位。",
+      "starter": "Eastside",
+      "answer": "Eastside and North Park finished level on points, so they had to play off for the last place in the next round.",
+      "answerZh": "Eastside 和 North Park 最後同分,因此必須加賽,爭奪下一圈的最後一個席位。",
+      "highlight": "play off",
+      "targetForm": "play off",
+      "targetMeaningZh": "加賽以決定勝方、排名或晉級資格"
+    },
+    {
+      "id": "phrasal-verb-256-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "He did not correct the callers; instead, he pretended to accept their mistake until he understood what they wanted.",
+      "promptZh": "他沒有糾正來電者,反而假裝接受他們的誤會,直至弄清楚他們想要甚麼。",
+      "starter": "He",
+      "answer": "He did not correct the callers; instead, he played along until he understood what they wanted.",
+      "answerZh": "他沒有糾正來電者,反而順着他們的誤會演下去,直至弄清楚他們想要甚麼。",
+      "highlight": "played along",
+      "targetForm": "play along (with somebody/something)",
+      "targetMeaningZh": "假裝同意或合作;順着對方的意思做"
+    },
+    {
+      "id": "phrasal-verb-256-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 35,
+      "prompt": "Because his shoulder was causing him pain, Daniel could not finish the match.",
+      "promptZh": "因為肩膀令 Daniel 感到痛楚,他未能完成比賽。",
+      "starter": "Because",
+      "answer": "Because his shoulder was playing him up, Daniel could not finish the match.",
+      "answerZh": "因為肩膀一直令 Daniel 感到痛楚,他未能完成比賽。",
+      "highlight": "playing",
+      "targetForm": "play up / play somebody up",
+      "targetMeaningZh": "運作不正常,或令某人感到痛楚和不適"
+    },
+    {
+      "id": "phrasal-verb-256-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "After months of practising in a bedroom, the group finally began performing for real audiences around town.",
+      "promptZh": "在睡房排練了幾個月後,這個組合終於開始在城中為真正的觀眾演出。",
+      "starter": "After",
+      "answer": "After months of practising in a bedroom, the group finally began playing out around town.",
+      "answerZh": "在睡房排練了幾個月後,這個組合終於開始在城中公開演出。",
+      "highlight": "playing out",
+      "targetForm": "play out",
+      "targetMeaningZh": "樂隊或音樂人到公眾場所現場演出"
+    },
+    {
+      "id": "phrasal-verb-256-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "When asked about safety, the organisers made the risk seem smaller than it really was.",
+      "promptZh": "被問及安全問題時,主辦單位把風險說得比實際情況小。",
+      "starter": "When",
+      "answer": "When asked about safety, the organisers played the risk down.",
+      "answerZh": "被問及安全問題時,主辦單位淡化了風險。",
+      "highlight": "played",
+      "targetForm": "play something down / play it down",
+      "targetMeaningZh": "使某事看來沒有實際上那麼重要或嚴重"
+    },
+    {
+      "id": "phrasal-verb-256-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "Although he disliked the director, he behaved in a way designed to please her because he wanted a better role.",
+      "promptZh": "雖然他不喜歡導演,但因為想得到更好的角色,他仍刻意討好她。",
+      "starter": "Although",
+      "answer": "Although he disliked the director, he played up to her because he wanted a better role.",
+      "answerZh": "雖然他不喜歡導演,但因為想得到更好的角色,他仍討好她。",
+      "highlight": "played up",
+      "targetForm": "play up to somebody",
+      "targetMeaningZh": "討好或奉承某人,以取得對方的好感或幫助"
+    },
+    {
+      "id": "phrasal-verb-256-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "Several players stopped and looked at the referee, but she signalled that the game should continue.",
+      "promptZh": "幾名球員停下來望向球證,但她示意比賽應該繼續。",
+      "starter": "Several",
+      "answer": "Several players stopped and looked at the referee, but she signalled for them to play on.",
+      "answerZh": "幾名球員停下來望向球證,但她示意他們繼續作賽。",
+      "highlight": "for them to play on",
+      "targetForm": "play on",
+      "targetMeaningZh": "在體育比賽中繼續作賽或恢復作賽"
+    },
+    {
+      "id": "phrasal-verb-256-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "The team tested the settings in several ways before finding the clearest display.",
+      "promptZh": "團隊以幾種方式測試設定,最後才找到最清楚的顯示方式。",
+      "starter": "The",
+      "answer": "The team played around with the settings before finding the clearest display.",
+      "answerZh": "團隊嘗試了不同設定,最後才找到最清楚的顯示方式。",
+      "highlight": "played around with",
+      "targetForm": "play around/about with something",
+      "targetMeaningZh": "嘗試不同方法或選擇,看看哪一個最好"
+    },
+    {
+      "id": "phrasal-verb-256-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 36,
+      "prompt": "To understand the problem, the class took each role and acted the whole situation as if it were real.",
+      "promptZh": "為了理解問題,全班分別扮演不同角色,把整個情況當作真實事件演出來。",
+      "starter": "To",
+      "answer": "To understand the problem, the class played the whole situation out as if it were real.",
+      "answerZh": "為了理解問題,全班把整個情況當作真實事件演出來。",
+      "highlight": "played",
+      "targetForm": "play something out",
+      "targetMeaningZh": "把一個場景、情況或事件演出或重現出來"
+    },
+    {
+      "id": "phrasal-verb-256-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "For months, the club claimed it wanted change, but it made no serious effort to change anything.",
+      "promptZh": "幾個月來,俱樂部聲稱想作出改變,卻沒有認真採取任何行動。",
+      "starter": "For",
+      "answer": "For months, the club claimed it wanted change but was only playing at making changes.",
+      "answerZh": "幾個月來,俱樂部聲稱想作出改變,但其實只是在做做樣子。",
+      "highlight": "was only playing at making changes",
+      "targetForm": "play at doing something",
+      "targetMeaningZh": "只是裝作或隨便做某事,並不認真"
+    }
+  ]
+}

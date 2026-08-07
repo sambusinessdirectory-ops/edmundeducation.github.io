@@ -1,0 +1,2348 @@
+{
+  "id": "phrasal-verb-96",
+  "order": 96,
+  "slug": "draw",
+  "version": "1",
+  "title": "DRAW 動詞片語",
+  "titleEn": "Draw",
+  "titleZh": "DRAW 動詞片語",
+  "level": "B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 95 - DRAW.pdf",
+    "sourceNumber": 95,
+    "pageCount": 34,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRAW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRAW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRAW",
+      "highlight": "DRAW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She drew back from the hot pan.",
+      "zh": "她從熱鍋旁向後退。",
+      "highlight": "drew back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The evenings begin to draw in after summer.",
+      "zh": "夏季過後,傍晚開始愈來愈早天黑。",
+      "highlight": "draw in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The train drew in at platform two.",
+      "zh": "火車駛進二號月台。",
+      "highlight": "drew in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "退後;縮後；(白晝縮短時)天黑得愈來愈早；(火車)駛進並到達車站；(時間、晚上或季節)漸漸過去；運用;借助經驗、知識、記憶或資源；(火車)駛離車站；吸引某人;使某人捲入某事或參與某活動；引導不多話的人開口;令某人更願意表達；減少;消耗資金、供應或儲備；從某來源取得、汲取或引申出某事物；吸入空氣或一口氣；從容器中抽取或放出液體；把某事拖長;使某事持續更久；提取款項;從戶口取錢；擬定;草擬計劃、清單、規則或文件；(車輛)駛近並停下;使車輛停下；挺直身體,以顯得自信、莊重或不滿",
+    "en": "draw back; draw in; draw in; draw into something; draw on; draw on something; draw upon something; draw out; draw out of something; draw somebody in; draw somebody into something; draw somebody into doing something; draw somebody out; draw something down; draw something from something; draw something in; draw something off; draw something out; draw something out; draw something out of something; draw something up; draw up; draw a vehicle up; draw yourself up",
+    "naturalZh": [
+      "退後;縮後",
+      "(白晝縮短時)天黑得愈來愈早",
+      "(火車)駛進並到達車站",
+      "(時間、晚上或季節)漸漸過去",
+      "運用;借助經驗、知識、記憶或資源",
+      "(火車)駛離車站",
+      "吸引某人;使某人捲入某事或參與某活動",
+      "引導不多話的人開口;令某人更願意表達",
+      "減少;消耗資金、供應或儲備",
+      "從某來源取得、汲取或引申出某事物",
+      "吸入空氣或一口氣",
+      "從容器中抽取或放出液體",
+      "把某事拖長;使某事持續更久",
+      "提取款項;從戶口取錢",
+      "擬定;草擬計劃、清單、規則或文件",
+      "(車輛)駛近並停下;使車輛停下",
+      "挺直身體,以顯得自信、莊重或不滿"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "draw back",
+      "titleZh": "退後;縮後",
+      "titleEn": "draw back",
+      "descriptionZh": "退後;縮後",
+      "descriptionEn": "She drew back from the hot pan.",
+      "examples": [
+        {
+          "en": "She drew back from the hot pan.",
+          "zh": "她從熱鍋旁向後退。",
+          "highlight": "drew back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw in",
+      "titleZh": "(白晝縮短時)天黑得愈來愈早",
+      "titleEn": "draw in",
+      "descriptionZh": "(白晝縮短時)天黑得愈來愈早",
+      "descriptionEn": "The evenings begin to draw in after summer.",
+      "examples": [
+        {
+          "en": "The evenings begin to draw in after summer.",
+          "zh": "夏季過後,傍晚開始愈來愈早天黑。",
+          "highlight": "draw in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw in; draw into something",
+      "titleZh": "(火車)駛進並到達車站",
+      "titleEn": "draw in; draw into something",
+      "descriptionZh": "(火車)駛進並到達車站",
+      "descriptionEn": "The train drew in at platform two.",
+      "examples": [
+        {
+          "en": "The train drew in at platform two.",
+          "zh": "火車駛進二號月台。",
+          "highlight": "drew in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw on",
+      "titleZh": "(時間、晚上或季節)漸漸過去",
+      "titleEn": "draw on",
+      "descriptionZh": "(時間、晚上或季節)漸漸過去",
+      "descriptionEn": "As the day drew on, we grew tired.",
+      "examples": [
+        {
+          "en": "As the day drew on, we grew tired.",
+          "zh": "隨着日間漸漸過去,我們開始感到疲倦。",
+          "highlight": "drew on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw on something; draw upon something",
+      "titleZh": "運用;借助經驗、知識、記憶或資源",
+      "titleEn": "draw on something; draw upon something",
+      "descriptionZh": "運用;借助經驗、知識、記憶或資源",
+      "descriptionEn": "She drew on her knowledge of plants.",
+      "examples": [
+        {
+          "en": "She drew on her knowledge of plants.",
+          "zh": "她運用了自己的植物知識。",
+          "highlight": "drew on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw out; draw out of something",
+      "titleZh": "(火車)駛離車站",
+      "titleEn": "draw out; draw out of something",
+      "descriptionZh": "(火車)駛離車站",
+      "descriptionEn": "The train drew out a few minutes late.",
+      "examples": [
+        {
+          "en": "The train drew out a few minutes late.",
+          "zh": "火車遲了幾分鐘才駛離。",
+          "highlight": "drew out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "titleZh": "吸引某人;使某人捲入某事或參與某活動",
+      "titleEn": "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "descriptionZh": "吸引某人;使某人捲入某事或參與某活動",
+      "descriptionEn": "The music drew everyone into the room.",
+      "examples": [
+        {
+          "en": "The music drew everyone into the room.",
+          "zh": "音樂把所有人都吸引進房間。",
+          "highlight": "drew everyone into"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw somebody out",
+      "titleZh": "引導不多話的人開口;令某人更願意表達",
+      "titleEn": "draw somebody out",
+      "descriptionZh": "引導不多話的人開口;令某人更願意表達",
+      "descriptionEn": "The interviewer drew the shy singer out.",
+      "examples": [
+        {
+          "en": "The interviewer drew the shy singer out.",
+          "zh": "訪問員引導那名害羞的歌手開口。",
+          "highlight": "drew the shy singer out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw something down",
+      "titleZh": "減少;消耗資金、供應或儲備",
+      "titleEn": "draw something down",
+      "descriptionZh": "減少;消耗資金、供應或儲備",
+      "descriptionEn": "The trip drew down our travel fund.",
+      "examples": [
+        {
+          "en": "The trip drew down our travel fund.",
+          "zh": "這次旅程消耗了我們的旅費。",
+          "highlight": "drew down"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "draw something from something",
+      "titleZh": "從某來源取得、汲取或引申出某事物",
+      "titleEn": "draw something from something",
+      "descriptionZh": "從某來源取得、汲取或引申出某事物",
+      "descriptionEn": "The poem draws its power from simple words.",
+      "examples": [
+        {
+          "en": "The poem draws its power from simple words.",
+          "zh": "這首詩從簡單文字中取得力量。",
+          "highlight": "draws its power from"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw something in",
+      "titleZh": "吸入空氣或一口氣",
+      "titleEn": "draw something in",
+      "descriptionZh": "吸入空氣或一口氣",
+      "descriptionEn": "He drew in a sharp breath.",
+      "examples": [
+        {
+          "en": "He drew in a sharp breath.",
+          "zh": "他猛然吸了一口氣。",
+          "highlight": "drew in"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw something off",
+      "titleZh": "從容器中抽取或放出液體",
+      "titleEn": "draw something off",
+      "descriptionZh": "從容器中抽取或放出液體",
+      "descriptionEn": "They drew off water from the barrel.",
+      "examples": [
+        {
+          "en": "They drew off water from the barrel.",
+          "zh": "他們從桶中放出水。",
+          "highlight": "drew off"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw something out",
+      "titleZh": "把某事拖長;使某事持續更久",
+      "titleEn": "draw something out",
+      "descriptionZh": "把某事拖長;使某事持續更久",
+      "descriptionEn": "Do not draw the lesson out too long.",
+      "examples": [
+        {
+          "en": "Do not draw the lesson out too long.",
+          "zh": "不要把課堂拖得太長。",
+          "highlight": "draw the lesson out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw something out; draw something out of something",
+      "titleZh": "提取款項;從戶口取錢",
+      "titleEn": "draw something out; draw something out of something",
+      "descriptionZh": "提取款項;從戶口取錢",
+      "descriptionEn": "She drew £20 out of her account.",
+      "examples": [
+        {
+          "en": "She drew £20 out of her account.",
+          "zh": "她從戶口提取了二十英鎊。",
+          "highlight": "drew £20 out"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw something up",
+      "titleZh": "擬定;草擬計劃、清單、規則或文件",
+      "titleEn": "draw something up",
+      "descriptionZh": "擬定;草擬計劃、清單、規則或文件",
+      "descriptionEn": "We drew up a simple plan.",
+      "examples": [
+        {
+          "en": "We drew up a simple plan.",
+          "zh": "我們擬定了一份簡單計劃。",
+          "highlight": "drew up"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw up; draw a vehicle up",
+      "titleZh": "(車輛)駛近並停下;使車輛停下",
+      "titleEn": "draw up; draw a vehicle up",
+      "descriptionZh": "(車輛)駛近並停下;使車輛停下",
+      "descriptionEn": "A bus drew up near the school.",
+      "examples": [
+        {
+          "en": "A bus drew up near the school.",
+          "zh": "一輛巴士駛到學校附近停下。",
+          "highlight": "drew up"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "draw yourself up",
+      "titleZh": "挺直身體,以顯得自信、莊重或不滿",
+      "titleEn": "draw yourself up",
+      "descriptionZh": "挺直身體,以顯得自信、莊重或不滿",
+      "descriptionEn": "He drew himself up proudly.",
+      "examples": [
+        {
+          "en": "He drew himself up proudly.",
+          "zh": "他自豪地挺直身體。",
+          "highlight": "drew himself up"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRAW 片語動詞的實際用途",
+    "labelEn": "DRAW Phrasal Verbs in Use",
+    "summaryZh": "DRAW 片語動詞可以描述火車到站或離站、車輛停下、人物向後退,以及傍晚愈來愈早天黑。；你可以用 draw on 或 draw upon 表示運用知識和經驗,也可以用 draw something fromsomething 說明構思、資料或感受的來源。；DRAW 可以表示故事吸引某人、某人捲入一件事,或引導不多話的人開口。；DRAW 片語動詞可以描述擬定計劃、從戶口取錢、消耗儲備、吸氣,以及從容器中抽取液體。",
+    "summaryEn": "DRAW expressions can describe a train arriving or leaving, a vehicle stopping, a person moving backwards, and evenings becoming darker earlier. You can use draw on or draw upon for knowledge and experience, and draw something from something for the source of an idea, fact or feeling. DRAW can show that a story attracts someone, that a person becomes involved in something, or that a quiet person is encouraged to speak. DRAW expressions can describe preparing a plan, taking money from an account, reducing supplies, breathing in and removing liquid from a container.",
+    "contextsZh": [
+      "清楚描述移動和時間變化",
+      "談論構思、經驗和來源",
+      "描述吸引、參與和交談",
+      "準確表達實際行動"
+    ],
+    "contextsEn": [
+      "Describe movement and changing time clearly",
+      "Talk about ideas, experience and sources",
+      "Describe attention, involvement and conversation",
+      "Express practical actions precisely"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRAW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRAW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "draw back",
+    "fixedHighlight": "draw back",
+    "fixedZh": "閱讀整句,選出意思相同的 DRAW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRAW expression that gives the same meaning.",
+    "correct": "drew back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照例子使用正確語序:draw him out;draw her in;drawit up;draw on it。；draw on 和 draw upon 可以表達相同意思;draw upon 通常較正式。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, follow the word order shown in the examples: draw him out; draw her in; draw it up; draw on it. Draw on and draw upon can express the same idea. Draw upon is usually more formal.",
+    "variableItemsZh": [
+      "draw back",
+      "draw in",
+      "draw in; draw into something",
+      "draw on",
+      "draw on something; draw upon something",
+      "draw out; draw out of something",
+      "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "draw somebody out",
+      "draw something down",
+      "draw something from something",
+      "draw something in",
+      "draw something off",
+      "draw something out",
+      "draw something out; draw something out of something",
+      "draw something up",
+      "draw up; draw a vehicle up",
+      "draw yourself up"
+    ],
+    "variableItemsEn": [
+      "draw back",
+      "draw in",
+      "draw in; draw into something",
+      "draw on",
+      "draw on something; draw upon something",
+      "draw out; draw out of something",
+      "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "draw somebody out",
+      "draw something down",
+      "draw something from something",
+      "draw something in",
+      "draw something off",
+      "draw something out",
+      "draw something out; draw something out of something",
+      "draw something up",
+      "draw up; draw a vehicle up",
+      "draw yourself up"
+    ],
+    "forms": [
+      {
+        "formZh": "退後;縮後",
+        "formEn": "draw back",
+        "exampleZh": "她從熱鍋旁向後退。",
+        "exampleEn": "She drew back from the hot pan.",
+        "highlight": "drew back"
+      },
+      {
+        "formZh": "(白晝縮短時)天黑得愈來愈早",
+        "formEn": "draw in",
+        "exampleZh": "夏季過後,傍晚開始愈來愈早天黑。",
+        "exampleEn": "The evenings begin to draw in after summer.",
+        "highlight": "draw in"
+      },
+      {
+        "formZh": "(火車)駛進並到達車站",
+        "formEn": "draw in; draw into something",
+        "exampleZh": "火車駛進二號月台。",
+        "exampleEn": "The train drew in at platform two.",
+        "highlight": "drew in"
+      },
+      {
+        "formZh": "(時間、晚上或季節)漸漸過去",
+        "formEn": "draw on",
+        "exampleZh": "隨着日間漸漸過去,我們開始感到疲倦。",
+        "exampleEn": "As the day drew on, we grew tired.",
+        "highlight": "drew on"
+      },
+      {
+        "formZh": "運用;借助經驗、知識、記憶或資源",
+        "formEn": "draw on something; draw upon something",
+        "exampleZh": "她運用了自己的植物知識。",
+        "exampleEn": "She drew on her knowledge of plants.",
+        "highlight": "drew on"
+      },
+      {
+        "formZh": "(火車)駛離車站",
+        "formEn": "draw out; draw out of something",
+        "exampleZh": "火車遲了幾分鐘才駛離。",
+        "exampleEn": "The train drew out a few minutes late.",
+        "highlight": "drew out"
+      },
+      {
+        "formZh": "吸引某人;使某人捲入某事或參與某活動",
+        "formEn": "draw somebody in; draw somebody into something; draw somebody into doing something",
+        "exampleZh": "音樂把所有人都吸引進房間。",
+        "exampleEn": "The music drew everyone into the room.",
+        "highlight": "drew everyone into"
+      },
+      {
+        "formZh": "引導不多話的人開口;令某人更願意表達",
+        "formEn": "draw somebody out",
+        "exampleZh": "訪問員引導那名害羞的歌手開口。",
+        "exampleEn": "The interviewer drew the shy singer out.",
+        "highlight": "drew the shy singer out"
+      },
+      {
+        "formZh": "減少;消耗資金、供應或儲備",
+        "formEn": "draw something down",
+        "exampleZh": "這次旅程消耗了我們的旅費。",
+        "exampleEn": "The trip drew down our travel fund.",
+        "highlight": "drew down"
+      },
+      {
+        "formZh": "從某來源取得、汲取或引申出某事物",
+        "formEn": "draw something from something",
+        "exampleZh": "這首詩從簡單文字中取得力量。",
+        "exampleEn": "The poem draws its power from simple words.",
+        "highlight": "draws its power from"
+      },
+      {
+        "formZh": "吸入空氣或一口氣",
+        "formEn": "draw something in",
+        "exampleZh": "他猛然吸了一口氣。",
+        "exampleEn": "He drew in a sharp breath.",
+        "highlight": "drew in"
+      },
+      {
+        "formZh": "從容器中抽取或放出液體",
+        "formEn": "draw something off",
+        "exampleZh": "他們從桶中放出水。",
+        "exampleEn": "They drew off water from the barrel.",
+        "highlight": "drew off"
+      },
+      {
+        "formZh": "把某事拖長;使某事持續更久",
+        "formEn": "draw something out",
+        "exampleZh": "不要把課堂拖得太長。",
+        "exampleEn": "Do not draw the lesson out too long.",
+        "highlight": "draw the lesson out"
+      },
+      {
+        "formZh": "提取款項;從戶口取錢",
+        "formEn": "draw something out; draw something out of something",
+        "exampleZh": "她從戶口提取了二十英鎊。",
+        "exampleEn": "She drew £20 out of her account.",
+        "highlight": "drew £20 out"
+      },
+      {
+        "formZh": "擬定;草擬計劃、清單、規則或文件",
+        "formEn": "draw something up",
+        "exampleZh": "我們擬定了一份簡單計劃。",
+        "exampleEn": "We drew up a simple plan.",
+        "highlight": "drew up"
+      },
+      {
+        "formZh": "(車輛)駛近並停下;使車輛停下",
+        "formEn": "draw up; draw a vehicle up",
+        "exampleZh": "一輛巴士駛到學校附近停下。",
+        "exampleEn": "A bus drew up near the school.",
+        "highlight": "drew up"
+      },
+      {
+        "formZh": "挺直身體,以顯得自信、莊重或不滿",
+        "formEn": "draw yourself up",
+        "exampleZh": "他自豪地挺直身體。",
+        "exampleEn": "He drew himself up proudly.",
+        "highlight": "drew himself up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "退後;縮後",
+      "titleEn": "draw back",
+      "formula": "draw back",
+      "highlight": "draw back",
+      "descriptionZh": "退後;縮後",
+      "descriptionEn": "She drew back from the hot pan.",
+      "examples": [
+        {
+          "en": "She drew back from the hot pan.",
+          "zh": "她從熱鍋旁向後退。",
+          "highlight": "drew back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "(白晝縮短時)天黑得愈來愈早",
+      "titleEn": "draw in",
+      "formula": "draw in",
+      "highlight": "draw in",
+      "descriptionZh": "(白晝縮短時)天黑得愈來愈早",
+      "descriptionEn": "The evenings begin to draw in after summer.",
+      "examples": [
+        {
+          "en": "The evenings begin to draw in after summer.",
+          "zh": "夏季過後,傍晚開始愈來愈早天黑。",
+          "highlight": "draw in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "(火車)駛進並到達車站",
+      "titleEn": "draw in; draw into something",
+      "formula": "draw in; draw into something",
+      "highlight": "draw in; draw into something",
+      "descriptionZh": "(火車)駛進並到達車站",
+      "descriptionEn": "The train drew in at platform two.",
+      "examples": [
+        {
+          "en": "The train drew in at platform two.",
+          "zh": "火車駛進二號月台。",
+          "highlight": "drew in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "(時間、晚上或季節)漸漸過去",
+      "titleEn": "draw on",
+      "formula": "draw on",
+      "highlight": "draw on",
+      "descriptionZh": "(時間、晚上或季節)漸漸過去",
+      "descriptionEn": "As the day drew on, we grew tired.",
+      "examples": [
+        {
+          "en": "As the day drew on, we grew tired.",
+          "zh": "隨着日間漸漸過去,我們開始感到疲倦。",
+          "highlight": "drew on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "運用;借助經驗、知識、記憶或資源",
+      "titleEn": "draw on something; draw upon something",
+      "formula": "draw on something; draw upon something",
+      "highlight": "draw on something; draw upon something",
+      "descriptionZh": "運用;借助經驗、知識、記憶或資源",
+      "descriptionEn": "She drew on her knowledge of plants.",
+      "examples": [
+        {
+          "en": "She drew on her knowledge of plants.",
+          "zh": "她運用了自己的植物知識。",
+          "highlight": "drew on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "(火車)駛離車站",
+      "titleEn": "draw out; draw out of something",
+      "formula": "draw out; draw out of something",
+      "highlight": "draw out; draw out of something",
+      "descriptionZh": "(火車)駛離車站",
+      "descriptionEn": "The train drew out a few minutes late.",
+      "examples": [
+        {
+          "en": "The train drew out a few minutes late.",
+          "zh": "火車遲了幾分鐘才駛離。",
+          "highlight": "drew out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "吸引某人;使某人捲入某事或參與某活動",
+      "titleEn": "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "formula": "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "highlight": "draw somebody in; draw somebody into something; draw somebody into doing something",
+      "descriptionZh": "吸引某人;使某人捲入某事或參與某活動",
+      "descriptionEn": "The music drew everyone into the room.",
+      "examples": [
+        {
+          "en": "The music drew everyone into the room.",
+          "zh": "音樂把所有人都吸引進房間。",
+          "highlight": "drew everyone into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "引導不多話的人開口;令某人更願意表達",
+      "titleEn": "draw somebody out",
+      "formula": "draw somebody out",
+      "highlight": "draw somebody out",
+      "descriptionZh": "引導不多話的人開口;令某人更願意表達",
+      "descriptionEn": "The interviewer drew the shy singer out.",
+      "examples": [
+        {
+          "en": "The interviewer drew the shy singer out.",
+          "zh": "訪問員引導那名害羞的歌手開口。",
+          "highlight": "drew the shy singer out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "減少;消耗資金、供應或儲備",
+      "titleEn": "draw something down",
+      "formula": "draw something down",
+      "highlight": "draw something down",
+      "descriptionZh": "減少;消耗資金、供應或儲備",
+      "descriptionEn": "The trip drew down our travel fund.",
+      "examples": [
+        {
+          "en": "The trip drew down our travel fund.",
+          "zh": "這次旅程消耗了我們的旅費。",
+          "highlight": "drew down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "從某來源取得、汲取或引申出某事物",
+      "titleEn": "draw something from something",
+      "formula": "draw something from something",
+      "highlight": "draw something from something",
+      "descriptionZh": "從某來源取得、汲取或引申出某事物",
+      "descriptionEn": "The poem draws its power from simple words.",
+      "examples": [
+        {
+          "en": "The poem draws its power from simple words.",
+          "zh": "這首詩從簡單文字中取得力量。",
+          "highlight": "draws its power from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "吸入空氣或一口氣",
+      "titleEn": "draw something in",
+      "formula": "draw something in",
+      "highlight": "draw something in",
+      "descriptionZh": "吸入空氣或一口氣",
+      "descriptionEn": "He drew in a sharp breath.",
+      "examples": [
+        {
+          "en": "He drew in a sharp breath.",
+          "zh": "他猛然吸了一口氣。",
+          "highlight": "drew in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "從容器中抽取或放出液體",
+      "titleEn": "draw something off",
+      "formula": "draw something off",
+      "highlight": "draw something off",
+      "descriptionZh": "從容器中抽取或放出液體",
+      "descriptionEn": "They drew off water from the barrel.",
+      "examples": [
+        {
+          "en": "They drew off water from the barrel.",
+          "zh": "他們從桶中放出水。",
+          "highlight": "drew off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把某事拖長;使某事持續更久",
+      "titleEn": "draw something out",
+      "formula": "draw something out",
+      "highlight": "draw something out",
+      "descriptionZh": "把某事拖長;使某事持續更久",
+      "descriptionEn": "Do not draw the lesson out too long.",
+      "examples": [
+        {
+          "en": "Do not draw the lesson out too long.",
+          "zh": "不要把課堂拖得太長。",
+          "highlight": "draw the lesson out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "提取款項;從戶口取錢",
+      "titleEn": "draw something out; draw something out of something",
+      "formula": "draw something out; draw something out of something",
+      "highlight": "draw something out; draw something out of something",
+      "descriptionZh": "提取款項;從戶口取錢",
+      "descriptionEn": "She drew £20 out of her account.",
+      "examples": [
+        {
+          "en": "She drew £20 out of her account.",
+          "zh": "她從戶口提取了二十英鎊。",
+          "highlight": "drew £20 out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "擬定;草擬計劃、清單、規則或文件",
+      "titleEn": "draw something up",
+      "formula": "draw something up",
+      "highlight": "draw something up",
+      "descriptionZh": "擬定;草擬計劃、清單、規則或文件",
+      "descriptionEn": "We drew up a simple plan.",
+      "examples": [
+        {
+          "en": "We drew up a simple plan.",
+          "zh": "我們擬定了一份簡單計劃。",
+          "highlight": "drew up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "(車輛)駛近並停下;使車輛停下",
+      "titleEn": "draw up; draw a vehicle up",
+      "formula": "draw up; draw a vehicle up",
+      "highlight": "draw up; draw a vehicle up",
+      "descriptionZh": "(車輛)駛近並停下;使車輛停下",
+      "descriptionEn": "A bus drew up near the school.",
+      "examples": [
+        {
+          "en": "A bus drew up near the school.",
+          "zh": "一輛巴士駛到學校附近停下。",
+          "highlight": "drew up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "挺直身體,以顯得自信、莊重或不滿",
+      "titleEn": "draw yourself up",
+      "formula": "draw yourself up",
+      "highlight": "draw yourself up",
+      "descriptionZh": "挺直身體,以顯得自信、莊重或不滿",
+      "descriptionEn": "He drew himself up proudly.",
+      "examples": [
+        {
+          "en": "He drew himself up proudly.",
+          "zh": "他自豪地挺直身體。",
+          "highlight": "drew himself up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述移動和時間變化",
+      "titleEn": "Describe movement and changing time clearly",
+      "zh": "DRAW 片語動詞可以描述火車到站或離站、車輛停下、人物向後退,以及傍晚愈來愈早天黑。",
+      "en": "DRAW expressions can describe a train arriving or leaving, a vehicle stopping, a person moving backwards, and evenings becoming darker earlier."
+    },
+    {
+      "titleZh": "談論構思、經驗和來源",
+      "titleEn": "Talk about ideas, experience and sources",
+      "zh": "你可以用 draw on 或 draw upon 表示運用知識和經驗,也可以用 draw something fromsomething 說明構思、資料或感受的來源。",
+      "en": "You can use draw on or draw upon for knowledge and experience, and draw something from something for the source of an idea, fact or feeling."
+    },
+    {
+      "titleZh": "描述吸引、參與和交談",
+      "titleEn": "Describe attention, involvement and conversation",
+      "zh": "DRAW 可以表示故事吸引某人、某人捲入一件事,或引導不多話的人開口。",
+      "en": "DRAW can show that a story attracts someone, that a person becomes involved in something, or that a quiet person is encouraged to speak."
+    },
+    {
+      "titleZh": "準確表達實際行動",
+      "titleEn": "Express practical actions precisely",
+      "zh": "DRAW 片語動詞可以描述擬定計劃、從戶口取錢、消耗儲備、吸氣,以及從容器中抽取液體。",
+      "en": "DRAW expressions can describe preparing a plan, taking money from an account, reducing supplies, breathing in and removing liquid from a container."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述移動和時間變化",
+      "談論構思、經驗和來源",
+      "描述吸引、參與和交談",
+      "準確表達實際行動"
+    ],
+    "contextsEn": [
+      "Describe movement and changing time clearly",
+      "Talk about ideas, experience and sources",
+      "Describe attention, involvement and conversation",
+      "Express practical actions precisely"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述移動和時間變化",
+        "titleEn": "Describe movement and changing time clearly",
+        "zh": "DRAW 片語動詞可以描述火車到站或離站、車輛停下、人物向後退,以及傍晚愈來愈早天黑。",
+        "en": "DRAW expressions can describe a train arriving or leaving, a vehicle stopping, a person moving backwards, and evenings becoming darker earlier.",
+        "examples": [
+          {
+            "en": "She drew back from the hot pan.",
+            "zh": "她從熱鍋旁向後退。",
+            "highlight": "drew back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論構思、經驗和來源",
+        "titleEn": "Talk about ideas, experience and sources",
+        "zh": "你可以用 draw on 或 draw upon 表示運用知識和經驗,也可以用 draw something fromsomething 說明構思、資料或感受的來源。",
+        "en": "You can use draw on or draw upon for knowledge and experience, and draw something from something for the source of an idea, fact or feeling.",
+        "examples": [
+          {
+            "en": "The evenings begin to draw in after summer.",
+            "zh": "夏季過後,傍晚開始愈來愈早天黑。",
+            "highlight": "draw in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述吸引、參與和交談",
+        "titleEn": "Describe attention, involvement and conversation",
+        "zh": "DRAW 可以表示故事吸引某人、某人捲入一件事,或引導不多話的人開口。",
+        "en": "DRAW can show that a story attracts someone, that a person becomes involved in something, or that a quiet person is encouraged to speak.",
+        "examples": [
+          {
+            "en": "The train drew in at platform two.",
+            "zh": "火車駛進二號月台。",
+            "highlight": "drew in"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確表達實際行動",
+        "titleEn": "Express practical actions precisely",
+        "zh": "DRAW 片語動詞可以描述擬定計劃、從戶口取錢、消耗儲備、吸氣,以及從容器中抽取液體。",
+        "en": "DRAW expressions can describe preparing a plan, taking money from an account, reducing supplies, breathing in and removing liquid from a container.",
+        "examples": [
+          {
+            "en": "As the day drew on, we grew tired.",
+            "zh": "隨着日間漸漸過去,我們開始感到疲倦。",
+            "highlight": "drew on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRAW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRAW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRAW 片語動詞。",
+      "en": "Read the whole sentence and choose the DRAW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照例子使用正確語序:draw him out;draw her in;drawit up;draw on it。",
+      "titleEn": "When using him, her, it or them, follow the word order shown in the examples: draw him out; draw her in; draw it up; draw on it.",
+      "zh": "使用 him、her、it 或 them 時,請按照例子使用正確語序:draw him out;draw her in;drawit up;draw on it。",
+      "en": "When using him, her, it or them, follow the word order shown in the examples: draw him out; draw her in; draw it up; draw on it."
+    },
+    {
+      "titleZh": "draw on 和 draw upon 可以表達相同意思;draw upon 通常較正式。",
+      "titleEn": "Draw on and draw upon can express the same idea.",
+      "zh": "draw on 和 draw upon 可以表達相同意思;draw upon 通常較正式。",
+      "en": "Draw on and draw upon can express the same idea. Draw upon is usually more formal."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRAW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRAW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRAW 動詞片語句子改寫練習",
+    "titleEn": "DRAW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRAW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRAW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          51
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          52,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-96-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 19,
+      "prompt": "The club prepared a list of new rules.",
+      "promptZh": "學會擬定了一份新規則清單。",
+      "starter": "The",
+      "answer": "The club drew up a list of new rules.",
+      "answerZh": "學會擬定了一份新規則清單。",
+      "highlight": "drew up",
+      "targetForm": "draw something up",
+      "targetMeaningZh": "擬定;草擬計劃、清單、規則或文件"
+    },
+    {
+      "id": "phrasal-verb-96-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 19,
+      "prompt": "The child moved backwards when the dog barked.",
+      "promptZh": "狗隻吠叫時,那個孩子向後退。",
+      "starter": "The",
+      "answer": "The child drew back when the dog barked.",
+      "answerZh": "狗隻吠叫時,那個孩子向後退。",
+      "highlight": "drew back",
+      "targetForm": "draw back",
+      "targetMeaningZh": "退後;縮後"
+    },
+    {
+      "id": "phrasal-verb-96-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 19,
+      "prompt": "The chef used years of experience.",
+      "promptZh": "廚師運用了多年的經驗。",
+      "starter": "The",
+      "answer": "The chef drew on years of experience.",
+      "answerZh": "廚師運用了多年的經驗。",
+      "highlight": "drew on",
+      "targetForm": "draw on something; draw upon something",
+      "targetMeaningZh": "運用;借助經驗、知識、記憶或資源"
+    },
+    {
+      "id": "phrasal-verb-96-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 20,
+      "prompt": "A taxi arrived and stopped outside the hotel.",
+      "promptZh": "一輛的士駛到酒店外停下。",
+      "starter": "A",
+      "answer": "A taxi drew up outside the hotel.",
+      "answerZh": "一輛的士駛到酒店外停下。",
+      "highlight": "drew up",
+      "targetForm": "draw up; draw a vehicle up",
+      "targetMeaningZh": "車輛駛近並停下;使車輛停下"
+    },
+    {
+      "id": "phrasal-verb-96-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The teacher gently encouraged the quiet pupil to speak.",
+      "promptZh": "老師溫和地鼓勵那名安靜的學生開口。",
+      "starter": "The",
+      "answer": "The teacher gently drew the quiet pupil out.",
+      "answerZh": "老師溫和地引導那名安靜的學生開口。",
+      "highlight": "drew",
+      "targetForm": "draw somebody out",
+      "targetMeaningZh": "引導不多話的人開口;令某人更願意表達"
+    },
+    {
+      "id": "phrasal-verb-96-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "It is getting dark earlier in the evenings now.",
+      "promptZh": "現在傍晚天黑得愈來愈早。",
+      "starter": "The",
+      "answer": "The evenings are drawing in now.",
+      "answerZh": "現在傍晚天黑得愈來愈早。",
+      "highlight": "are drawing in",
+      "targetForm": "draw in",
+      "targetMeaningZh": "白晝縮短時,天黑得愈來愈早"
+    },
+    {
+      "id": "phrasal-verb-96-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "I withdrew £40 from my account.",
+      "promptZh": "我從戶口提取了四十英鎊。",
+      "starter": "I",
+      "answer": "I drew £40 out of my account.",
+      "answerZh": "我從戶口提取了四十英鎊。",
+      "highlight": "drew",
+      "targetForm": "draw something out; draw something out of something",
+      "targetMeaningZh": "提取款項;從戶口取錢"
+    },
+    {
+      "id": "phrasal-verb-96-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The train arrived at the station at six.",
+      "promptZh": "火車在六時駛進車站。",
+      "starter": "The",
+      "answer": "The train drew into the station at six.",
+      "answerZh": "火車在六時駛進車站。",
+      "highlight": "drew into",
+      "targetForm": "draw in; draw into something",
+      "targetMeaningZh": "火車駛進並到達車站"
+    },
+    {
+      "id": "phrasal-verb-96-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 21,
+      "prompt": "She took a deep breath before speaking.",
+      "promptZh": "她說話前深深吸了一口氣。",
+      "starter": "She",
+      "answer": "She drew in a deep breath before speaking.",
+      "answerZh": "她說話前深深吸了一口氣。",
+      "highlight": "drew in",
+      "targetForm": "draw something in",
+      "targetMeaningZh": "吸入空氣或一口氣"
+    },
+    {
+      "id": "phrasal-verb-96-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The mystery story quickly caught the reader’s interest.",
+      "promptZh": "這個神秘故事很快吸引了讀者。",
+      "starter": "The",
+      "answer": "The mystery story quickly drew the reader in.",
+      "answerZh": "這個神秘故事很快吸引了讀者。",
+      "highlight": "drew",
+      "targetForm": "draw somebody in; draw somebody into something; draw somebody into doing",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-96-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The repairs reduced our emergency savings.",
+      "promptZh": "維修費用減少了我們的緊急儲蓄。",
+      "starter": "The",
+      "answer": "The repairs drew down our emergency savings.",
+      "answerZh": "維修費用消耗了我們的緊急儲蓄。",
+      "highlight": "drew down",
+      "targetForm": "draw something down",
+      "targetMeaningZh": "減少;消耗資金、供應或儲備"
+    },
+    {
+      "id": "phrasal-verb-96-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "As the afternoon slowly passed, the park became quieter.",
+      "promptZh": "隨着下午漸漸過去,公園變得較安靜。",
+      "starter": "As",
+      "answer": "As the afternoon drew on, the park became quieter.",
+      "answerZh": "隨着下午漸深,公園變得較安靜。",
+      "highlight": "drew on",
+      "targetForm": "draw on",
+      "targetMeaningZh": "時間、晚上或季節漸漸過去"
+    },
+    {
+      "id": "phrasal-verb-96-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The worker removed some water from the tank.",
+      "promptZh": "工人從水箱抽走了一些水。",
+      "starter": "The",
+      "answer": "The worker drew off some water from the tank.",
+      "answerZh": "工人從水箱放出了一些水。",
+      "highlight": "drew off",
+      "targetForm": "draw something off",
+      "targetMeaningZh": "從容器中抽取或放出液體"
+    },
+    {
+      "id": "phrasal-verb-96-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The head teacher stood straight before replying.",
+      "promptZh": "校長回答前挺直了身體。",
+      "starter": "The",
+      "answer": "The head teacher drew herself up before replying.",
+      "answerZh": "校長回答前挺直了身體。",
+      "highlight": "drew herself up",
+      "targetForm": "draw yourself up",
+      "targetMeaningZh": "挺直身體,以顯得自信、莊重或不滿"
+    },
+    {
+      "id": "phrasal-verb-96-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "The artist got inspiration from old family photographs.",
+      "promptZh": "藝術家從舊家庭照片中得到靈感。",
+      "starter": "The",
+      "answer": "The artist drew inspiration from old family photographs.",
+      "answerZh": "藝術家從舊家庭照片中汲取靈感。",
+      "highlight": "drew",
+      "targetForm": "draw something from something",
+      "targetMeaningZh": "從某來源取得、汲取或引申出某事物"
+    },
+    {
+      "id": "phrasal-verb-96-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "At noon, the train left the station.",
+      "promptZh": "中午時,火車駛離車站。",
+      "starter": "At",
+      "answer": "At noon, the train drew out of the station.",
+      "answerZh": "中午時,火車駛離車站。",
+      "highlight": "drew out of",
+      "targetForm": "draw out; draw out of something",
+      "targetMeaningZh": "火車駛離車站"
+    },
+    {
+      "id": "phrasal-verb-96-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The host made the interview last another hour.",
+      "promptZh": "主持人把訪問延長了另一小時。",
+      "starter": "The",
+      "answer": "The host drew the interview out for another hour.",
+      "answerZh": "主持人把訪問拖長了另一小時。",
+      "highlight": "drew",
+      "targetForm": "draw something out",
+      "targetMeaningZh": "把某事拖長;使某事持續更久"
+    },
+    {
+      "id": "phrasal-verb-96-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "By October, the nights will be getting dark earlier.",
+      "promptZh": "到了十月,晚上會更早天黑。",
+      "starter": "By",
+      "answer": "By October, the nights will be drawing in.",
+      "answerZh": "到了十月,晚上會更早天黑。",
+      "highlight": "drawing in",
+      "targetForm": "draw in",
+      "targetMeaningZh": "白晝縮短時,天黑得愈來愈早"
+    },
+    {
+      "id": "phrasal-verb-96-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "This drink gets its colour from fresh berries.",
+      "promptZh": "這款飲品的顏色來自新鮮莓果。",
+      "starter": "This",
+      "answer": "This drink draws its colour from fresh berries.",
+      "answerZh": "這款飲品的顏色取自新鮮莓果。",
+      "highlight": "draws",
+      "targetForm": "draw something from something",
+      "targetMeaningZh": "從某來源取得、汲取或引申出某事物"
+    },
+    {
+      "id": "phrasal-verb-96-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The lively discussion persuaded several new students to join the project.",
+      "promptZh": "這場熱烈討論促使幾名新學生加入項目。",
+      "starter": "The",
+      "answer": "The lively discussion drew several new students into joining the project.",
+      "answerZh": "這場熱烈討論吸引了幾名新學生加入項目。",
+      "highlight": "drew",
+      "targetForm": "draw somebody in; draw somebody into something; draw somebody into doing",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-96-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "She has withdrawn some cash for the trip.",
+      "promptZh": "她已為旅程提取了一些現金。",
+      "starter": "She",
+      "answer": "She has drawn some cash out for the trip.",
+      "answerZh": "她已為旅程提取了一些現金。",
+      "highlight": "drawn",
+      "targetForm": "draw something out; draw something out of something",
+      "targetMeaningZh": "提取款項;從戶口取錢"
+    },
+    {
+      "id": "phrasal-verb-96-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The driver brought the van to a stop beside the gate.",
+      "promptZh": "司機把客貨車停在閘門旁。",
+      "starter": "The",
+      "answer": "The driver drew the van up beside the gate.",
+      "answerZh": "司機把客貨車停在閘門旁。",
+      "highlight": "drew",
+      "targetForm": "draw up; draw a vehicle up",
+      "targetMeaningZh": "車輛駛近並停下;使車輛停下"
+    },
+    {
+      "id": "phrasal-verb-96-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "We may need to use our food supplies.",
+      "promptZh": "我們可能需要動用食物儲備。",
+      "starter": "We",
+      "answer": "We may need to draw on our food supplies.",
+      "answerZh": "我們可能需要動用食物儲備。",
+      "highlight": "draw on",
+      "targetForm": "draw on something; draw upon something",
+      "targetMeaningZh": "運用;借助經驗、知識、記憶或資源"
+    },
+    {
+      "id": "phrasal-verb-96-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Why is the cat moving backwards from the open box?",
+      "promptZh": "那隻貓為何正從打開的箱子旁向後退?",
+      "starter": "Why",
+      "answer": "Why is the cat drawing back from the open box?",
+      "answerZh": "那隻貓為何正從打開的箱子旁向後退?",
+      "highlight": "drawing back",
+      "targetForm": "draw back",
+      "targetMeaningZh": "退後;縮後"
+    },
+    {
+      "id": "phrasal-verb-96-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Can you remove a little oil from the container?",
+      "promptZh": "你可以從容器中抽走少量油嗎?",
+      "starter": "Can",
+      "answer": "Can you draw off a little oil from the container?",
+      "answerZh": "你可以從容器中抽出少量油嗎?",
+      "highlight": "draw off",
+      "targetForm": "draw something off",
+      "targetMeaningZh": "從容器中抽取或放出液體"
+    },
+    {
+      "id": "phrasal-verb-96-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "The team is preparing a new timetable.",
+      "promptZh": "團隊正在擬定新的時間表。",
+      "starter": "The",
+      "answer": "The team is drawing up a new timetable.",
+      "answerZh": "團隊正在擬定新的時間表。",
+      "highlight": "drawing up",
+      "targetForm": "draw something up",
+      "targetMeaningZh": "擬定;草擬計劃、清單、規則或文件"
+    },
+    {
+      "id": "phrasal-verb-96-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "We straightened our bodies and tried to look confident.",
+      "promptZh": "我們挺直身體,嘗試表現得有自信。",
+      "starter": "We",
+      "answer": "We drew ourselves up and tried to look confident.",
+      "answerZh": "我們挺直身體,嘗試表現得有自信。",
+      "highlight": "drew ourselves up",
+      "targetForm": "draw yourself up",
+      "targetMeaningZh": "挺直身體,以顯得自信、莊重或不滿"
+    },
+    {
+      "id": "phrasal-verb-96-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The evening was slowly passing, and the air grew colder.",
+      "promptZh": "傍晚漸漸過去,空氣亦變得更冷。",
+      "starter": "The",
+      "answer": "The evening was drawing on, and the air grew colder.",
+      "answerZh": "傍晚漸深,空氣亦變得更冷。",
+      "highlight": "drawing on",
+      "targetForm": "draw on",
+      "targetMeaningZh": "時間、晚上或季節漸漸過去"
+    },
+    {
+      "id": "phrasal-verb-96-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Extra costs could reduce the project fund.",
+      "promptZh": "額外開支可能會減少項目資金。",
+      "starter": "Extra",
+      "answer": "Extra costs could draw down the project fund.",
+      "answerZh": "額外開支可能會消耗項目資金。",
+      "highlight": "draw down",
+      "targetForm": "draw something down",
+      "targetMeaningZh": "減少;消耗資金、供應或儲備"
+    },
+    {
+      "id": "phrasal-verb-96-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The last train is arriving at platform three.",
+      "promptZh": "尾班火車正駛進三號月台。",
+      "starter": "The",
+      "answer": "The last train is drawing in at platform three.",
+      "answerZh": "尾班火車正駛進三號月台。",
+      "highlight": "drawing in",
+      "targetForm": "draw in; draw into something",
+      "targetMeaningZh": "火車駛進並到達車站"
+    },
+    {
+      "id": "phrasal-verb-96-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "A few friendly questions soon encouraged him to talk more.",
+      "promptZh": "幾條友善的問題很快便令他多說了一點。",
+      "starter": "A",
+      "answer": "A few friendly questions soon drew him out.",
+      "answerZh": "幾條友善的問題很快便引導他多說了一點。",
+      "highlight": "drew",
+      "targetForm": "draw somebody out",
+      "targetMeaningZh": "引導不多話的人開口;令某人更願意表達"
+    },
+    {
+      "id": "phrasal-verb-96-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "The swimmer breathed air in slowly through his nose.",
+      "promptZh": "泳手慢慢用鼻子吸入空氣。",
+      "starter": "The",
+      "answer": "The swimmer drew air in slowly through his nose.",
+      "answerZh": "泳手慢慢用鼻子吸入空氣。",
+      "highlight": "drew",
+      "targetForm": "draw something in",
+      "targetMeaningZh": "吸入空氣或一口氣"
+    },
+    {
+      "id": "phrasal-verb-96-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The speaker did not want to make the meeting last longer.",
+      "promptZh": "講者不想令會議持續更久。",
+      "starter": "The",
+      "answer": "The speaker did not want to draw the meeting out.",
+      "answerZh": "講者不想把會議拖長。",
+      "highlight": "draw",
+      "targetForm": "draw something out",
+      "targetMeaningZh": "把某事拖長;使某事持續更久"
+    },
+    {
+      "id": "phrasal-verb-96-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The train had already left when we reached the platform.",
+      "promptZh": "我們到達月台時,火車已經開走。",
+      "starter": "The",
+      "answer": "The train had already drawn out when we reached the platform.",
+      "answerZh": "我們到達月台時,火車已經駛離。",
+      "highlight": "drawn out",
+      "targetForm": "draw out; draw out of something",
+      "targetMeaningZh": "火車駛離車站"
+    },
+    {
+      "id": "phrasal-verb-96-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "He paused, breathed in the cold air, and smiled.",
+      "promptZh": "他停下來,吸入冰冷的空氣,然後微笑。",
+      "starter": "He",
+      "answer": "He paused, drew the cold air in, and smiled.",
+      "answerZh": "他停下來,吸入冰冷的空氣,然後微笑。",
+      "highlight": "drew",
+      "targetForm": "draw something in",
+      "targetMeaningZh": "吸入空氣或一口氣"
+    },
+    {
+      "id": "phrasal-verb-96-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The safety plan was prepared before the school trip.",
+      "promptZh": "安全計劃在學校旅行前已擬定好。",
+      "starter": "The",
+      "answer": "The safety plan was drawn up before the school trip.",
+      "answerZh": "安全計劃在學校旅行前已擬定好。",
+      "highlight": "drawn up",
+      "targetForm": "draw something up",
+      "targetMeaningZh": "擬定;草擬計劃、清單、規則或文件"
+    },
+    {
+      "id": "phrasal-verb-96-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The horse came close, and I stepped away from it.",
+      "promptZh": "那匹馬走近,而我便向後退。",
+      "starter": "The",
+      "answer": "The horse came close, and I drew back from it.",
+      "answerZh": "那匹馬走近,而我便向後退。",
+      "highlight": "drew back",
+      "targetForm": "draw back",
+      "targetMeaningZh": "退後;縮後"
+    },
+    {
+      "id": "phrasal-verb-96-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "I avoided the argument, but they involved me in it.",
+      "promptZh": "我本來避開爭論,但他們把我捲入其中。",
+      "starter": "I",
+      "answer": "I avoided the argument, but they drew me into it.",
+      "answerZh": "我本來避開爭論,但他們把我捲入其中。",
+      "highlight": "drew",
+      "targetForm": "draw somebody in; draw somebody into something; draw somebody into doing",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-96-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Our train was late, but it finally arrived at the station at noon.",
+      "promptZh": "我們的火車誤點,但終於在中午駛進車站。",
+      "starter": "Our",
+      "answer": "Our train was late, but it finally drew into the station at noon.",
+      "answerZh": "我們的火車誤點,但終於在中午駛進車站。",
+      "highlight": "drew into",
+      "targetForm": "draw in; draw into something",
+      "targetMeaningZh": "火車駛進並到達車站"
+    },
+    {
+      "id": "phrasal-verb-96-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The long journey has reduced our fuel reserves.",
+      "promptZh": "長途旅程已減少了我們的燃料儲備。",
+      "starter": "The",
+      "answer": "The long journey has drawn down our fuel reserves.",
+      "answerZh": "長途旅程已消耗了我們的燃料儲備。",
+      "highlight": "drawn down",
+      "targetForm": "draw something down",
+      "targetMeaningZh": "減少;消耗資金、供應或儲備"
+    },
+    {
+      "id": "phrasal-verb-96-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "He stood at his full height and stared at us.",
+      "promptZh": "他挺直身體,以完整身高站着,並凝視我們。",
+      "starter": "He",
+      "answer": "He drew himself up to his full height and stared at us.",
+      "answerZh": "他挺直身體,以完整身高站着,並凝視我們。",
+      "highlight": "drew himself up to",
+      "targetForm": "draw yourself up",
+      "targetMeaningZh": "挺直身體,以顯得自信、莊重或不滿"
+    },
+    {
+      "id": "phrasal-verb-96-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The guide knew the area well, so we used her knowledge.",
+      "promptZh": "導遊很熟悉該區,所以我們運用了她的知識。",
+      "starter": "The",
+      "answer": "The guide knew the area well, so we drew on her knowledge.",
+      "answerZh": "導遊很熟悉該區,所以我們借助了她的知識。",
+      "highlight": "drew on",
+      "targetForm": "draw on something; draw upon something",
+      "targetMeaningZh": "運用;借助經驗、知識、記憶或資源"
+    },
+    {
+      "id": "phrasal-verb-96-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "Several long breaks made the game last much longer.",
+      "promptZh": "幾次長時間休息令比賽延長了很多。",
+      "starter": "Several",
+      "answer": "Several long breaks drew the game out.",
+      "answerZh": "幾次長時間休息把比賽拖長了。",
+      "highlight": "drew",
+      "targetForm": "draw something out",
+      "targetMeaningZh": "把某事拖長;使某事持續更久"
+    },
+    {
+      "id": "phrasal-verb-96-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The days are shorter now; it has begun to get dark earlier in the evenings.",
+      "promptZh": "現在日間較短;傍晚已開始更早天黑。",
+      "starter": "The",
+      "answer": "The days are shorter now; the evenings have begun to draw in.",
+      "answerZh": "現在日間較短;傍晚已開始更早天黑。",
+      "highlight": "days are shorter now; the evenings have",
+      "targetForm": "draw in",
+      "targetMeaningZh": "白晝縮短時,天黑得愈來愈早"
+    },
+    {
+      "id": "phrasal-verb-96-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "I needed the money, so I withdrew it at lunch.",
+      "promptZh": "我需要那筆錢,所以午飯時把它提取出來。",
+      "starter": "I",
+      "answer": "I needed the money, so I drew it out at lunch.",
+      "answerZh": "我需要那筆錢,所以午飯時把它提取出來。",
+      "highlight": "drew",
+      "targetForm": "draw something out; draw something out of something",
+      "targetMeaningZh": "提取款項;從戶口取錢"
+    },
+    {
+      "id": "phrasal-verb-96-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The doors closed, and the train began to leave.",
+      "promptZh": "車門關上,火車開始駛離。",
+      "starter": "The",
+      "answer": "The doors closed, and the train began to draw out.",
+      "answerZh": "車門關上,火車開始駛離。",
+      "highlight": "draw out",
+      "targetForm": "draw out; draw out of something",
+      "targetMeaningZh": "火車駛離車站"
+    },
+    {
+      "id": "phrasal-verb-96-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The report gets its facts from three short surveys.",
+      "promptZh": "這份報告的資料來自三項簡短調查。",
+      "starter": "The",
+      "answer": "The report draws its facts from three short surveys.",
+      "answerZh": "這份報告的資料取自三項簡短調查。",
+      "highlight": "draws",
+      "targetForm": "draw something from something",
+      "targetMeaningZh": "從某來源取得、汲取或引申出某事物"
+    },
+    {
+      "id": "phrasal-verb-96-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "As winter slowly passed, the cold weather continued.",
+      "promptZh": "隨着冬季漸漸過去,寒冷天氣仍然持續。",
+      "starter": "As",
+      "answer": "As winter drew on, the cold weather continued.",
+      "answerZh": "隨着冬季漸深,寒冷天氣仍然持續。",
+      "highlight": "drew on",
+      "targetForm": "draw on",
+      "targetMeaningZh": "時間、晚上或季節漸漸過去"
+    },
+    {
+      "id": "phrasal-verb-96-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The coach stopped, and the passengers left it.",
+      "promptZh": "旅遊巴停下,乘客便離開車廂。",
+      "starter": "The",
+      "answer": "The coach drew up, and the passengers left it.",
+      "answerZh": "旅遊巴停下,乘客便離開車廂。",
+      "highlight": "drew up",
+      "targetForm": "draw up; draw a vehicle up",
+      "targetMeaningZh": "車輛駛近並停下;使車輛停下"
+    },
+    {
+      "id": "phrasal-verb-96-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The host was patient and slowly encouraged her to speak more openly.",
+      "promptZh": "主持人很有耐性,慢慢引導她更坦率地說話。",
+      "starter": "The",
+      "answer": "The host was patient and slowly drew her out.",
+      "answerZh": "主持人很有耐性,慢慢引導她更坦率地說話。",
+      "highlight": "drew",
+      "targetForm": "draw somebody out",
+      "targetMeaningZh": "引導不多話的人開口;令某人更願意表達"
+    },
+    {
+      "id": "phrasal-verb-96-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The extra water was removed through a pipe.",
+      "promptZh": "多餘的水經由喉管排走。",
+      "starter": "The",
+      "answer": "The extra water was drawn off through a pipe.",
+      "answerZh": "多餘的水經由喉管抽走。",
+      "highlight": "drawn off",
+      "targetForm": "draw something off",
+      "targetMeaningZh": "從容器中抽取或放出液體"
+    },
+    {
+      "id": "phrasal-verb-96-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "We waved as the train left the station.",
+      "promptZh": "火車駛離車站時,我們揮手道別。",
+      "starter": "We",
+      "answer": "We waved as the train drew out of the station.",
+      "answerZh": "火車駛離車站時,我們揮手道別。",
+      "highlight": "drew out of",
+      "targetForm": "draw out; draw out of something",
+      "targetMeaningZh": "火車駛離車站"
+    },
+    {
+      "id": "phrasal-verb-96-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Offended by the joke, she stood straight and replied calmly.",
+      "promptZh": "她因那個笑話而感到受冒犯,於是挺直身體,冷靜地回答。",
+      "starter": "Offended",
+      "answer": "Offended by the joke, she drew herself up and replied calmly.",
+      "answerZh": "她因那個笑話而感到受冒犯,於是挺直身體,冷靜地回答。",
+      "highlight": "drew herself up",
+      "targetForm": "draw yourself up",
+      "targetMeaningZh": "挺直身體,以顯得自信、莊重或不滿"
+    },
+    {
+      "id": "phrasal-verb-96-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The film gets much of its humour from school life.",
+      "promptZh": "這部電影的大部分幽默元素來自校園生活。",
+      "starter": "The",
+      "answer": "The film draws much of its humour from school life.",
+      "answerZh": "這部電影的大部分幽默元素取材自校園生活。",
+      "highlight": "draws",
+      "targetForm": "draw something from something",
+      "targetMeaningZh": "從某來源取得、汲取或引申出某事物"
+    },
+    {
+      "id": "phrasal-verb-96-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "It gets dark early at night during a British winter.",
+      "promptZh": "英國冬季的晚上很早便天黑。",
+      "starter": "The",
+      "answer": "The nights draw in early during a British winter.",
+      "answerZh": "英國冬季的晚上很早便天黑。",
+      "highlight": "The nights draw in",
+      "targetForm": "draw in",
+      "targetMeaningZh": "白晝縮短時,天黑得愈來愈早"
+    },
+    {
+      "id": "phrasal-verb-96-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The promise of easy money caused him to become involved in the dishonest plan.",
+      "promptZh": "輕易賺錢的承諾令他捲入了這個不誠實的計劃。",
+      "starter": "The",
+      "answer": "The promise of easy money drew him into the dishonest plan.",
+      "answerZh": "輕易賺錢的承諾令他捲入了這個不誠實的計劃。",
+      "highlight": "drew",
+      "targetForm": "draw somebody in; draw somebody into something; draw somebody into doing",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-96-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "He withdrew £100 from his savings account.",
+      "promptZh": "他從儲蓄戶口提取了一百英鎊。",
+      "starter": "He",
+      "answer": "He drew £100 out of his savings account.",
+      "answerZh": "他從儲蓄戶口提取了一百英鎊。",
+      "highlight": "drew",
+      "targetForm": "draw something out; draw something out of something",
+      "targetMeaningZh": "提取款項;從戶口取錢"
+    },
+    {
+      "id": "phrasal-verb-96-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "As the train entered York station, everyone collected their bags.",
+      "promptZh": "火車駛進約克站時,所有人都收拾好行李。",
+      "starter": "As",
+      "answer": "As the train drew into York station, everyone collected their bags.",
+      "answerZh": "火車駛進約克站時,所有人都收拾好行李。",
+      "highlight": "drew into",
+      "targetForm": "draw in; draw into something",
+      "targetMeaningZh": "火車駛進並到達車站"
+    },
+    {
+      "id": "phrasal-verb-96-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "A dry summer had reduced the town’s water supply.",
+      "promptZh": "乾旱的夏季令鎮上的食水供應減少。",
+      "starter": "A",
+      "answer": "A dry summer had drawn down the town’s water supply.",
+      "answerZh": "乾旱的夏季消耗了鎮上的食水供應。",
+      "highlight": "drawn down",
+      "targetForm": "draw something down",
+      "targetMeaningZh": "減少;消耗資金、供應或儲備"
+    },
+    {
+      "id": "phrasal-verb-96-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "The interviewer used simple questions to encourage the teenager to talk.",
+      "promptZh": "訪問員用簡單問題鼓勵那名青少年開口。",
+      "starter": "The",
+      "answer": "The interviewer used simple questions to draw the teenager out.",
+      "answerZh": "訪問員用簡單問題引導那名青少年開口。",
+      "highlight": "draw",
+      "targetForm": "draw somebody out",
+      "targetMeaningZh": "引導不多話的人開口;令某人更願意表達"
+    },
+    {
+      "id": "phrasal-verb-96-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Arguments over small details made the talks continue for several more days.",
+      "promptZh": "大家為小細節爭論,令會談多持續了幾天。",
+      "starter": "Arguments",
+      "answer": "Arguments over small details drew the talks out for several more days.",
+      "answerZh": "大家為小細節爭論,把會談拖長了幾天。",
+      "highlight": "drew",
+      "targetForm": "draw something out",
+      "targetMeaningZh": "把某事拖長;使某事持續更久"
+    },
+    {
+      "id": "phrasal-verb-96-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The writer used childhood memories for the final chapter.",
+      "promptZh": "作家在最後一章運用了童年回憶。",
+      "starter": "The",
+      "answer": "The writer drew upon childhood memories for the final chapter.",
+      "answerZh": "作家在最後一章取材自童年回憶。",
+      "highlight": "drew upon",
+      "targetForm": "draw on something; draw upon something",
+      "targetMeaningZh": "運用;借助經驗、知識、記憶或資源"
+    },
+    {
+      "id": "phrasal-verb-96-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "A police car arrived and stopped beside the bus.",
+      "promptZh": "一輛警車駛到巴士旁停下。",
+      "starter": "A",
+      "answer": "A police car drew up beside the bus.",
+      "answerZh": "一輛警車駛到巴士旁停下。",
+      "highlight": "drew up",
+      "targetForm": "draw up; draw a vehicle up",
+      "targetMeaningZh": "車輛駛近並停下;使車輛停下"
+    },
+    {
+      "id": "phrasal-verb-96-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The doctor asked her to take a slow breath.",
+      "promptZh": "醫生叫她慢慢吸一口氣。",
+      "starter": "The",
+      "answer": "The doctor asked her to draw in a slow breath.",
+      "answerZh": "醫生叫她慢慢吸一口氣。",
+      "highlight": "draw in",
+      "targetForm": "draw something in",
+      "targetMeaningZh": "吸入空氣或一口氣"
+    },
+    {
+      "id": "phrasal-verb-96-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The two clubs prepared a written agreement.",
+      "promptZh": "兩個學會擬定了一份書面協議。",
+      "starter": "The",
+      "answer": "The two clubs drew up a written agreement.",
+      "answerZh": "兩個學會擬定了一份書面協議。",
+      "highlight": "drew up",
+      "targetForm": "draw something up",
+      "targetMeaningZh": "擬定;草擬計劃、清單、規則或文件"
+    },
+    {
+      "id": "phrasal-verb-96-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The meeting grew quieter as the night slowly passed.",
+      "promptZh": "隨着夜晚漸漸過去,會議變得較安靜。",
+      "starter": "The",
+      "answer": "The meeting grew quieter as the night drew on.",
+      "answerZh": "隨着夜色漸深,會議變得較安靜。",
+      "highlight": "drew on",
+      "targetForm": "draw on",
+      "targetMeaningZh": "時間、晚上或季節漸漸過去"
+    },
+    {
+      "id": "phrasal-verb-96-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Seeing smoke under the door, the nurse moved back at once.",
+      "promptZh": "護士看見門下有煙,立即向後退。",
+      "starter": "Seeing",
+      "answer": "Seeing smoke under the door, the nurse drew back at once.",
+      "answerZh": "護士看見門下有煙,立即向後退。",
+      "highlight": "drew",
+      "targetForm": "draw back",
+      "targetMeaningZh": "退後;縮後"
+    },
+    {
+      "id": "phrasal-verb-96-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The farmer removed some milk from the large tank.",
+      "promptZh": "農夫從大奶缸中取出了一些牛奶。",
+      "starter": "The",
+      "answer": "The farmer drew off some milk from the large tank.",
+      "answerZh": "農夫從大奶缸中放出了一些牛奶。",
+      "highlight": "drew off",
+      "targetForm": "draw something off",
+      "targetMeaningZh": "從容器中抽取或放出液體"
+    },
+    {
+      "id": "phrasal-verb-96-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Paying for the new roof will use most of our savings.",
+      "promptZh": "支付新屋頂的費用會用去我們大部分儲蓄。",
+      "starter": "Paying",
+      "answer": "Paying for the new roof will draw down most of our savings.",
+      "answerZh": "支付新屋頂的費用會消耗我們大部分儲蓄。",
+      "highlight": "draw down",
+      "targetForm": "draw something down",
+      "targetMeaningZh": "減少;消耗資金、供應或儲備"
+    },
+    {
+      "id": "phrasal-verb-96-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "As our train entered the crowded station, the rain began.",
+      "promptZh": "我們的火車駛進擠迫的車站時,開始下雨。",
+      "starter": "As",
+      "answer": "As our train drew into the crowded station, the rain began.",
+      "answerZh": "我們的火車駛進擠迫的車站時,開始下雨。",
+      "highlight": "drew into",
+      "targetForm": "draw in; draw into something",
+      "targetMeaningZh": "火車駛進並到達車站"
+    },
+    {
+      "id": "phrasal-verb-96-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "At first, Arun gave one-word answers, but the reporter slowly encouraged him to tell the full story.",
+      "promptZh": "阿倫起初只用一個字回答,但記者慢慢引導他說出完整經過。",
+      "starter": "At",
+      "answer": "At first, Arun gave one-word answers, but the reporter slowly drew him out.",
+      "answerZh": "阿倫起初只用一個字回答,但記者慢慢引導他說出完整經過。",
+      "highlight": "drew",
+      "targetForm": "draw somebody out",
+      "targetMeaningZh": "引導不多話的人開口;令某人更願意表達"
+    },
+    {
+      "id": "phrasal-verb-96-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Before refilling the tank, they removed the old fuel.",
+      "promptZh": "重新注滿油箱前,他們抽走了舊燃料。",
+      "starter": "Before",
+      "answer": "Before refilling the tank, they drew off the old fuel.",
+      "answerZh": "重新注滿油箱前,他們抽走了舊燃料。",
+      "highlight": "drew off",
+      "targetForm": "draw something off",
+      "targetMeaningZh": "從容器中抽取或放出液體"
+    },
+    {
+      "id": "phrasal-verb-96-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "When the snake lifted its head, everyone near the path stepped backwards.",
+      "promptZh": "蛇抬起頭時,小路附近的所有人都向後退。",
+      "starter": "When",
+      "answer": "When the snake lifted its head, everyone near the path drew back.",
+      "answerZh": "蛇抬起頭時,小路附近的所有人都向後退。",
+      "highlight": "drew back",
+      "targetForm": "draw back",
+      "targetMeaningZh": "退後;縮後"
+    },
+    {
+      "id": "phrasal-verb-96-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Before the festival, the organisers prepared a clear safety plan.",
+      "promptZh": "節慶活動前,主辦單位擬定了一份清晰的安全計劃。",
+      "starter": "Before",
+      "answer": "Before the festival, the organisers drew up a clear safety plan.",
+      "answerZh": "節慶活動前,主辦單位擬定了一份清晰的安全計劃。",
+      "highlight": "drew up",
+      "targetForm": "draw something up",
+      "targetMeaningZh": "擬定;草擬計劃、清單、規則或文件"
+    },
+    {
+      "id": "phrasal-verb-96-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "She only meant to watch, but the game soon caught her full attention.",
+      "promptZh": "她原本只打算觀看,但這場比賽很快便完全吸引了她。",
+      "starter": "She",
+      "answer": "She only meant to watch, but the game soon drew her in.",
+      "answerZh": "她原本只打算觀看,但這場比賽很快便吸引了她。",
+      "highlight": "drew",
+      "targetForm": "draw somebody in; draw somebody into something; draw somebody into doing",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-96-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The guests kept talking, but as the evening moved towards its later hours, the room emptied.",
+      "promptZh": "賓客仍在交談,但隨着夜色漸深,房間內的人逐漸離去。",
+      "starter": "The",
+      "answer": "The guests kept talking, but as the evening drew on, the room emptied.",
+      "answerZh": "賓客仍在交談,但隨着夜色漸深,房間內的人逐漸離去。",
+      "highlight": "drew on",
+      "targetForm": "draw on",
+      "targetMeaningZh": "時間、晚上或季節漸漸過去"
+    },
+    {
+      "id": "phrasal-verb-96-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "After checking the balance, Nia withdrew the last £20 from her account.",
+      "promptZh": "妮亞查看結餘後,從戶口提取了最後二十英鎊。",
+      "starter": "After",
+      "answer": "After checking the balance, Nia drew the last £20 out of her account.",
+      "answerZh": "妮亞查看結餘後,從戶口提取了最後二十英鎊。",
+      "highlight": "drew",
+      "targetForm": "draw something out; draw something out of something",
+      "targetMeaningZh": "提取款項;從戶口取錢"
+    },
+    {
+      "id": "phrasal-verb-96-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Hearing the unfair claim, the captain stood at his full height before answering.",
+      "promptZh": "隊長聽到那項不公平的說法後,在回答前挺直了身體。",
+      "starter": "Hearing",
+      "answer": "Hearing the unfair claim, the captain drew himself up before answering.",
+      "answerZh": "隊長聽到那項不公平的說法後,在回答前挺直了身體。",
+      "highlight": "drew himself up",
+      "targetForm": "draw yourself up",
+      "targetMeaningZh": "挺直身體,以顯得自信、莊重或不滿"
+    },
+    {
+      "id": "phrasal-verb-96-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "To solve the problem, the team used what it had learnt before.",
+      "promptZh": "為了解決問題,團隊運用了過往所學。",
+      "starter": "To",
+      "answer": "To solve the problem, the team drew on what it had learnt before.",
+      "answerZh": "為了解決問題,團隊運用了過往所學。",
+      "highlight": "drew on",
+      "targetForm": "draw on something; draw upon something",
+      "targetMeaningZh": "運用;借助經驗、知識、記憶或資源"
+    },
+    {
+      "id": "phrasal-verb-96-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "By the time the train left the station, every seat was taken.",
+      "promptZh": "火車駛離車站時,所有座位都已有人坐。",
+      "starter": "By",
+      "answer": "By the time the train drew out, every seat was taken.",
+      "answerZh": "火車駛離時,所有座位都已有人坐。",
+      "highlight": "drew out",
+      "targetForm": "draw out; draw out of something",
+      "targetMeaningZh": "火車駛離車站"
+    },
+    {
+      "id": "phrasal-verb-96-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "A black car arrived and stopped, and two people left it.",
+      "promptZh": "一輛黑色汽車駛到並停下,兩個人隨即離開車廂。",
+      "starter": "A",
+      "answer": "A black car drew up, and two people left it.",
+      "answerZh": "一輛黑色汽車駛到並停下,兩個人隨即離開車廂。",
+      "highlight": "drew up",
+      "targetForm": "draw up; draw a vehicle up",
+      "targetMeaningZh": "車輛駛近並停下;使車輛停下"
+    },
+    {
+      "id": "phrasal-verb-96-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Although the story is new, many of its details come from real events.",
+      "promptZh": "雖然故事是全新的,但當中許多細節來自真實事件。",
+      "starter": "Although",
+      "answer": "Although the story is new, it draws many of its details from real events.",
+      "answerZh": "雖然故事是全新的,但當中許多細節取材自真實事件。",
+      "highlight": "it draws",
+      "targetForm": "draw something from something",
+      "targetMeaningZh": "從某來源取得、汲取或引申出某事物"
+    },
+    {
+      "id": "phrasal-verb-96-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "The children went home earlier because it was getting dark earlier in the evenings.",
+      "promptZh": "孩子們較早回家,因為傍晚愈來愈早天黑。",
+      "starter": "The",
+      "answer": "The children went home earlier because the evenings were drawing in.",
+      "answerZh": "孩子們較早回家,因為傍晚愈來愈早天黑。",
+      "highlight": "were drawing in",
+      "targetForm": "draw in",
+      "targetMeaningZh": "白晝縮短時,天黑得愈來愈早"
+    },
+    {
+      "id": "phrasal-verb-96-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "The chair tried to finish, but one member made the discussion continue.",
+      "promptZh": "主席嘗試結束討論,但一名成員令討論繼續下去。",
+      "starter": "The",
+      "answer": "The chair tried to finish, but one member drew the discussion out.",
+      "answerZh": "主席嘗試結束討論,但一名成員把討論拖長了。",
+      "highlight": "drew",
+      "targetForm": "draw something out",
+      "targetMeaningZh": "把某事拖長;使某事持續更久"
+    },
+    {
+      "id": "phrasal-verb-96-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Before entering the cold water, she took one long breath.",
+      "promptZh": "進入冷水前,她長長吸了一口氣。",
+      "starter": "Before",
+      "answer": "Before entering the cold water, she drew in one long breath.",
+      "answerZh": "進入冷水前,她長長吸了一口氣。",
+      "highlight": "drew in",
+      "targetForm": "draw something in",
+      "targetMeaningZh": "吸入空氣或一口氣"
+    }
+  ]
+}

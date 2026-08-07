@@ -1,0 +1,2012 @@
+{
+  "id": "phrasal-verb-284",
+  "order": 284,
+  "slug": "show",
+  "version": "1",
+  "title": "SHOW 動詞片語",
+  "titleEn": "Show",
+  "titleZh": "SHOW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 11,
+  "source": {
+    "file": "Phrasal Verbs 269 - SHOW.pdf",
+    "sourceNumber": 269,
+    "pageCount": 33,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerKeyPdfPages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHOW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHOW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHOW",
+      "highlight": "SHOW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The guide showed us around the palace.",
+      "zh": "導遊帶我們參觀皇宮。",
+      "highlight": "showed us around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The receptionist showed the visitors in.",
+      "zh": "接待員領訪客入內。",
+      "highlight": "showed the visitors in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stop showing off!",
+      "zh": "別再炫耀了!",
+      "highlight": "showing off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "帶某人參觀;帶某人四處看看；領某人入內;帶某人進入某個房間；炫耀;賣弄;刻意吸引別人注意；向別人展示或炫耀某人或某物；送某人離開;帶某人到出口；帶某人參觀或查看房屋、建築物或地方；從某物透出;隔着物料仍然可以看見；出現;到場；變得清楚可見;使某物更顯眼或更容易看見；令某人難堪;使某人出醜或顯得愚蠢；揭露某人或某事物的真面目",
+    "en": "show somebody around / show somebody round / show somebody around or round something; show somebody in / show somebody into something; show off; show somebody or something off to somebody; show somebody out / show somebody out of something; show somebody over something; show through / show through something; show up; show up / show something up; show somebody up; show somebody or something up as/for something",
+    "naturalZh": [
+      "帶某人參觀;帶某人四處看看",
+      "領某人入內;帶某人進入某個房間",
+      "炫耀;賣弄;刻意吸引別人注意",
+      "向別人展示或炫耀某人或某物",
+      "送某人離開;帶某人到出口",
+      "帶某人參觀或查看房屋、建築物或地方",
+      "從某物透出;隔着物料仍然可以看見",
+      "出現;到場",
+      "變得清楚可見;使某物更顯眼或更容易看見",
+      "令某人難堪;使某人出醜或顯得愚蠢",
+      "揭露某人或某事物的真面目"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "show somebody around / show somebody round / show somebody around or round something",
+      "titleZh": "帶某人參觀;帶某人四處看看",
+      "titleEn": "show somebody around / show somebody round / show somebody around or round something",
+      "descriptionZh": "帶某人參觀;帶某人四處看看",
+      "descriptionEn": "The guide showed us around the palace.",
+      "examples": [
+        {
+          "en": "The guide showed us around the palace.",
+          "zh": "導遊帶我們參觀皇宮。",
+          "highlight": "showed us around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show somebody in / show somebody into something",
+      "titleZh": "領某人入內;帶某人進入某個房間",
+      "titleEn": "show somebody in / show somebody into something",
+      "descriptionZh": "領某人入內;帶某人進入某個房間",
+      "descriptionEn": "The receptionist showed the visitors in.",
+      "examples": [
+        {
+          "en": "The receptionist showed the visitors in.",
+          "zh": "接待員領訪客入內。",
+          "highlight": "showed the visitors in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show off",
+      "titleZh": "炫耀;賣弄;刻意吸引別人注意",
+      "titleEn": "show off",
+      "descriptionZh": "炫耀;賣弄;刻意吸引別人注意",
+      "descriptionEn": "Stop showing off!",
+      "examples": [
+        {
+          "en": "Stop showing off!",
+          "zh": "別再炫耀了!",
+          "highlight": "showing off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show somebody or something off to somebody",
+      "titleZh": "向別人展示或炫耀某人或某物",
+      "titleEn": "show somebody or something off to somebody",
+      "descriptionZh": "向別人展示或炫耀某人或某物",
+      "descriptionEn": "He showed his new watch off to his friends.",
+      "examples": [
+        {
+          "en": "He showed his new watch off to his friends.",
+          "zh": "他向朋友展示自己的新手錶。",
+          "highlight": "showed his new watch off to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show somebody out / show somebody out of something",
+      "titleZh": "送某人離開;帶某人到出口",
+      "titleEn": "show somebody out / show somebody out of something",
+      "descriptionZh": "送某人離開;帶某人到出口",
+      "descriptionEn": "I will show you out.",
+      "examples": [
+        {
+          "en": "I will show you out.",
+          "zh": "我會送你出去。",
+          "highlight": "show you out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show somebody over something",
+      "titleZh": "帶某人參觀或查看房屋、建築物或地方",
+      "titleEn": "show somebody over something",
+      "descriptionZh": "帶某人參觀或查看房屋、建築物或地方",
+      "descriptionEn": "The agent showed us over the flat.",
+      "examples": [
+        {
+          "en": "The agent showed us over the flat.",
+          "zh": "地產代理帶我們參觀單位。",
+          "highlight": "showed us over"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "show through / show through something",
+      "titleZh": "從某物透出;隔着物料仍然可以看見",
+      "titleEn": "show through / show through something",
+      "descriptionZh": "從某物透出;隔着物料仍然可以看見",
+      "descriptionEn": "The ink shows through the thin paper.",
+      "examples": [
+        {
+          "en": "The ink shows through the thin paper.",
+          "zh": "墨水從薄紙背面透了出來。",
+          "highlight": "shows through"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "show up",
+      "titleZh": "出現;到場",
+      "titleEn": "show up",
+      "descriptionZh": "出現;到場",
+      "descriptionEn": "She finally showed up at lunchtime.",
+      "examples": [
+        {
+          "en": "She finally showed up at lunchtime.",
+          "zh": "她終於在午飯時間出現。",
+          "highlight": "showed up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "show up / show something up",
+      "titleZh": "變得清楚可見;使某物更顯眼或更容易看見",
+      "titleEn": "show up / show something up",
+      "descriptionZh": "變得清楚可見;使某物更顯眼或更容易看見",
+      "descriptionEn": "The white letters show up clearly on black paper.",
+      "examples": [
+        {
+          "en": "The white letters show up clearly on black paper.",
+          "zh": "白色字體在黑紙上十分顯眼。",
+          "highlight": "show up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "show somebody up",
+      "titleZh": "令某人難堪;使某人出醜或顯得愚蠢",
+      "titleEn": "show somebody up",
+      "descriptionZh": "令某人難堪;使某人出醜或顯得愚蠢",
+      "descriptionEn": "He showed me up in front of my friends.",
+      "examples": [
+        {
+          "en": "He showed me up in front of my friends.",
+          "zh": "他在朋友面前令我難堪。",
+          "highlight": "showed me up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "show somebody or something up as/for something",
+      "titleZh": "揭露某人或某事物的真面目",
+      "titleEn": "show somebody or something up as/for something",
+      "descriptionZh": "揭露某人或某事物的真面目",
+      "descriptionEn": "The facts showed the story up as false.",
+      "examples": [
+        {
+          "en": "The facts showed the story up as false.",
+          "zh": "事實揭露了這個故事是假的。",
+          "highlight": "showed the story up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHOW 片語動詞的實際用途",
+    "labelEn": "SHOW Phrasal Verbs in Use",
+    "summaryZh": "show somebody around、in、out 和 over 可以用來談論接待訪客、帶人參觀,以及協助別人進出某個地方。；show something off 可以表示自豪地展示某物;show off 則可以描述刻意吸引別人注意的行為。；show up 可以描述某人到場、某物變得清楚可見,或某種顏色在另一種背景下特別顯眼。；show somebody up 可以表示令某人出醜;show somebody or something up as/for something 則可以揭露某人或某事物的真面目。",
+    "summaryEn": "Show somebody around, in, out and over help you talk about welcoming visitors, giving tours and helping people enter or leave. Show something off describes proudly displaying something. Show off describes behaviour intended to attract attention. Show up can describe somebody arriving, something becoming visible or one colour standing out against another. Show somebody up can describe making someone look foolish. Show somebody or something up as/for something can reveal the truth about them.",
+    "contextsZh": [
+      "使用 SHOW 帶領別人參觀或進出不同地方",
+      "談論展示物件或刻意吸引注意",
+      "描述到場和清楚可見的情況",
+      "談論令人難堪和揭露真相"
+    ],
+    "contextsEn": [
+      "Use SHOW to guide people through different places",
+      "Talk about displaying something or trying to impress people",
+      "Describe arrival and visibility",
+      "Talk about embarrassment and revealed truth"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHOW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHOW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "show somebody around / show somebody round / show somebody around or round something",
+    "fixedHighlight": "show somebody around / show somebody round / show somebody around or round something",
+    "fixedZh": "閱讀整句,選出意思相同的 SHOW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHOW expression that gives the same meaning.",
+    "correct": "showed us around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；show up 可以表示到場,也可以表示變得清楚可見。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. With him, her, it or them, follow these examples: show him around show her in show it off show them out show him up Show up can mean arrive, but it can also mean become easy to see. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "show somebody around / show somebody round / show somebody around or round something",
+      "show somebody in / show somebody into something",
+      "show off",
+      "show somebody or something off to somebody",
+      "show somebody out / show somebody out of something",
+      "show somebody over something",
+      "show through / show through something",
+      "show up",
+      "show up / show something up",
+      "show somebody up",
+      "show somebody or something up as/for something"
+    ],
+    "variableItemsEn": [
+      "show somebody around / show somebody round / show somebody around or round something",
+      "show somebody in / show somebody into something",
+      "show off",
+      "show somebody or something off to somebody",
+      "show somebody out / show somebody out of something",
+      "show somebody over something",
+      "show through / show through something",
+      "show up",
+      "show up / show something up",
+      "show somebody up",
+      "show somebody or something up as/for something"
+    ],
+    "forms": [
+      {
+        "formZh": "帶某人參觀;帶某人四處看看",
+        "formEn": "show somebody around / show somebody round / show somebody around or round something",
+        "exampleZh": "導遊帶我們參觀皇宮。",
+        "exampleEn": "The guide showed us around the palace.",
+        "highlight": "showed us around"
+      },
+      {
+        "formZh": "領某人入內;帶某人進入某個房間",
+        "formEn": "show somebody in / show somebody into something",
+        "exampleZh": "接待員領訪客入內。",
+        "exampleEn": "The receptionist showed the visitors in.",
+        "highlight": "showed the visitors in"
+      },
+      {
+        "formZh": "炫耀;賣弄;刻意吸引別人注意",
+        "formEn": "show off",
+        "exampleZh": "別再炫耀了!",
+        "exampleEn": "Stop showing off!",
+        "highlight": "showing off"
+      },
+      {
+        "formZh": "向別人展示或炫耀某人或某物",
+        "formEn": "show somebody or something off to somebody",
+        "exampleZh": "他向朋友展示自己的新手錶。",
+        "exampleEn": "He showed his new watch off to his friends.",
+        "highlight": "showed his new watch off to"
+      },
+      {
+        "formZh": "送某人離開;帶某人到出口",
+        "formEn": "show somebody out / show somebody out of something",
+        "exampleZh": "我會送你出去。",
+        "exampleEn": "I will show you out.",
+        "highlight": "show you out"
+      },
+      {
+        "formZh": "帶某人參觀或查看房屋、建築物或地方",
+        "formEn": "show somebody over something",
+        "exampleZh": "地產代理帶我們參觀單位。",
+        "exampleEn": "The agent showed us over the flat.",
+        "highlight": "showed us over"
+      },
+      {
+        "formZh": "從某物透出;隔着物料仍然可以看見",
+        "formEn": "show through / show through something",
+        "exampleZh": "墨水從薄紙背面透了出來。",
+        "exampleEn": "The ink shows through the thin paper.",
+        "highlight": "shows through"
+      },
+      {
+        "formZh": "出現;到場",
+        "formEn": "show up",
+        "exampleZh": "她終於在午飯時間出現。",
+        "exampleEn": "She finally showed up at lunchtime.",
+        "highlight": "showed up"
+      },
+      {
+        "formZh": "變得清楚可見;使某物更顯眼或更容易看見",
+        "formEn": "show up / show something up",
+        "exampleZh": "白色字體在黑紙上十分顯眼。",
+        "exampleEn": "The white letters show up clearly on black paper.",
+        "highlight": "show up"
+      },
+      {
+        "formZh": "令某人難堪;使某人出醜或顯得愚蠢",
+        "formEn": "show somebody up",
+        "exampleZh": "他在朋友面前令我難堪。",
+        "exampleEn": "He showed me up in front of my friends.",
+        "highlight": "showed me up"
+      },
+      {
+        "formZh": "揭露某人或某事物的真面目",
+        "formEn": "show somebody or something up as/for something",
+        "exampleZh": "事實揭露了這個故事是假的。",
+        "exampleEn": "The facts showed the story up as false.",
+        "highlight": "showed the story up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "帶某人參觀;帶某人四處看看",
+      "titleEn": "show somebody around / show somebody round / show somebody around or round something",
+      "formula": "show somebody around / show somebody round / show somebody around or round something",
+      "highlight": "show somebody around / show somebody round / show somebody around or round something",
+      "descriptionZh": "帶某人參觀;帶某人四處看看",
+      "descriptionEn": "The guide showed us around the palace.",
+      "examples": [
+        {
+          "en": "The guide showed us around the palace.",
+          "zh": "導遊帶我們參觀皇宮。",
+          "highlight": "showed us around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "領某人入內;帶某人進入某個房間",
+      "titleEn": "show somebody in / show somebody into something",
+      "formula": "show somebody in / show somebody into something",
+      "highlight": "show somebody in / show somebody into something",
+      "descriptionZh": "領某人入內;帶某人進入某個房間",
+      "descriptionEn": "The receptionist showed the visitors in.",
+      "examples": [
+        {
+          "en": "The receptionist showed the visitors in.",
+          "zh": "接待員領訪客入內。",
+          "highlight": "showed the visitors in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "炫耀;賣弄;刻意吸引別人注意",
+      "titleEn": "show off",
+      "formula": "show off",
+      "highlight": "show off",
+      "descriptionZh": "炫耀;賣弄;刻意吸引別人注意",
+      "descriptionEn": "Stop showing off!",
+      "examples": [
+        {
+          "en": "Stop showing off!",
+          "zh": "別再炫耀了!",
+          "highlight": "showing off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "向別人展示或炫耀某人或某物",
+      "titleEn": "show somebody or something off to somebody",
+      "formula": "show somebody or something off to somebody",
+      "highlight": "show somebody or something off to somebody",
+      "descriptionZh": "向別人展示或炫耀某人或某物",
+      "descriptionEn": "He showed his new watch off to his friends.",
+      "examples": [
+        {
+          "en": "He showed his new watch off to his friends.",
+          "zh": "他向朋友展示自己的新手錶。",
+          "highlight": "showed his new watch off to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "送某人離開;帶某人到出口",
+      "titleEn": "show somebody out / show somebody out of something",
+      "formula": "show somebody out / show somebody out of something",
+      "highlight": "show somebody out / show somebody out of something",
+      "descriptionZh": "送某人離開;帶某人到出口",
+      "descriptionEn": "I will show you out.",
+      "examples": [
+        {
+          "en": "I will show you out.",
+          "zh": "我會送你出去。",
+          "highlight": "show you out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "帶某人參觀或查看房屋、建築物或地方",
+      "titleEn": "show somebody over something",
+      "formula": "show somebody over something",
+      "highlight": "show somebody over something",
+      "descriptionZh": "帶某人參觀或查看房屋、建築物或地方",
+      "descriptionEn": "The agent showed us over the flat.",
+      "examples": [
+        {
+          "en": "The agent showed us over the flat.",
+          "zh": "地產代理帶我們參觀單位。",
+          "highlight": "showed us over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "從某物透出;隔着物料仍然可以看見",
+      "titleEn": "show through / show through something",
+      "formula": "show through / show through something",
+      "highlight": "show through / show through something",
+      "descriptionZh": "從某物透出;隔着物料仍然可以看見",
+      "descriptionEn": "The ink shows through the thin paper.",
+      "examples": [
+        {
+          "en": "The ink shows through the thin paper.",
+          "zh": "墨水從薄紙背面透了出來。",
+          "highlight": "shows through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "出現;到場",
+      "titleEn": "show up",
+      "formula": "show up",
+      "highlight": "show up",
+      "descriptionZh": "出現;到場",
+      "descriptionEn": "She finally showed up at lunchtime.",
+      "examples": [
+        {
+          "en": "She finally showed up at lunchtime.",
+          "zh": "她終於在午飯時間出現。",
+          "highlight": "showed up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "變得清楚可見;使某物更顯眼或更容易看見",
+      "titleEn": "show up / show something up",
+      "formula": "show up / show something up",
+      "highlight": "show up / show something up",
+      "descriptionZh": "變得清楚可見;使某物更顯眼或更容易看見",
+      "descriptionEn": "The white letters show up clearly on black paper.",
+      "examples": [
+        {
+          "en": "The white letters show up clearly on black paper.",
+          "zh": "白色字體在黑紙上十分顯眼。",
+          "highlight": "show up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "令某人難堪;使某人出醜或顯得愚蠢",
+      "titleEn": "show somebody up",
+      "formula": "show somebody up",
+      "highlight": "show somebody up",
+      "descriptionZh": "令某人難堪;使某人出醜或顯得愚蠢",
+      "descriptionEn": "He showed me up in front of my friends.",
+      "examples": [
+        {
+          "en": "He showed me up in front of my friends.",
+          "zh": "他在朋友面前令我難堪。",
+          "highlight": "showed me up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "揭露某人或某事物的真面目",
+      "titleEn": "show somebody or something up as/for something",
+      "formula": "show somebody or something up as/for something",
+      "highlight": "show somebody or something up as/for something",
+      "descriptionZh": "揭露某人或某事物的真面目",
+      "descriptionEn": "The facts showed the story up as false.",
+      "examples": [
+        {
+          "en": "The facts showed the story up as false.",
+          "zh": "事實揭露了這個故事是假的。",
+          "highlight": "showed the story up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 SHOW 帶領別人參觀或進出不同地方",
+      "titleEn": "Use SHOW to guide people through different places",
+      "zh": "show somebody around、in、out 和 over 可以用來談論接待訪客、帶人參觀,以及協助別人進出某個地方。",
+      "en": "Show somebody around, in, out and over help you talk about welcoming visitors, giving tours and helping people enter or leave."
+    },
+    {
+      "titleZh": "談論展示物件或刻意吸引注意",
+      "titleEn": "Talk about displaying something or trying to impress people",
+      "zh": "show something off 可以表示自豪地展示某物;show off 則可以描述刻意吸引別人注意的行為。",
+      "en": "Show something off describes proudly displaying something. Show off describes behaviour intended to attract attention."
+    },
+    {
+      "titleZh": "描述到場和清楚可見的情況",
+      "titleEn": "Describe arrival and visibility",
+      "zh": "show up 可以描述某人到場、某物變得清楚可見,或某種顏色在另一種背景下特別顯眼。",
+      "en": "Show up can describe somebody arriving, something becoming visible or one colour standing out against another."
+    },
+    {
+      "titleZh": "談論令人難堪和揭露真相",
+      "titleEn": "Talk about embarrassment and revealed truth",
+      "zh": "show somebody up 可以表示令某人出醜;show somebody or something up as/for something 則可以揭露某人或某事物的真面目。",
+      "en": "Show somebody up can describe making someone look foolish. Show somebody or something up as/for something can reveal the truth about them."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 SHOW 帶領別人參觀或進出不同地方",
+      "談論展示物件或刻意吸引注意",
+      "描述到場和清楚可見的情況",
+      "談論令人難堪和揭露真相"
+    ],
+    "contextsEn": [
+      "Use SHOW to guide people through different places",
+      "Talk about displaying something or trying to impress people",
+      "Describe arrival and visibility",
+      "Talk about embarrassment and revealed truth"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 SHOW 帶領別人參觀或進出不同地方",
+        "titleEn": "Use SHOW to guide people through different places",
+        "zh": "show somebody around、in、out 和 over 可以用來談論接待訪客、帶人參觀,以及協助別人進出某個地方。",
+        "en": "Show somebody around, in, out and over help you talk about welcoming visitors, giving tours and helping people enter or leave.",
+        "examples": [
+          {
+            "en": "The guide showed us around the palace.",
+            "zh": "導遊帶我們參觀皇宮。",
+            "highlight": "showed us around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論展示物件或刻意吸引注意",
+        "titleEn": "Talk about displaying something or trying to impress people",
+        "zh": "show something off 可以表示自豪地展示某物;show off 則可以描述刻意吸引別人注意的行為。",
+        "en": "Show something off describes proudly displaying something. Show off describes behaviour intended to attract attention.",
+        "examples": [
+          {
+            "en": "The receptionist showed the visitors in.",
+            "zh": "接待員領訪客入內。",
+            "highlight": "showed the visitors in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述到場和清楚可見的情況",
+        "titleEn": "Describe arrival and visibility",
+        "zh": "show up 可以描述某人到場、某物變得清楚可見,或某種顏色在另一種背景下特別顯眼。",
+        "en": "Show up can describe somebody arriving, something becoming visible or one colour standing out against another.",
+        "examples": [
+          {
+            "en": "Stop showing off!",
+            "zh": "別再炫耀了!",
+            "highlight": "showing off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論令人難堪和揭露真相",
+        "titleEn": "Talk about embarrassment and revealed truth",
+        "zh": "show somebody up 可以表示令某人出醜;show somebody or something up as/for something 則可以揭露某人或某事物的真面目。",
+        "en": "Show somebody up can describe making someone look foolish. Show somebody or something up as/for something can reveal the truth about them.",
+        "examples": [
+          {
+            "en": "He showed his new watch off to his friends.",
+            "zh": "他向朋友展示自己的新手錶。",
+            "highlight": "showed his new watch off to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHOW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHOW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHOW 片語動詞。",
+      "en": "Read the whole sentence and choose the SHOW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "With him, her, it or them, follow these examples: show him around show her in show it off show them out show him up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "With him, her, it or them, follow these examples: show him around show her in show it off show them out show him up"
+    },
+    {
+      "titleZh": "show up 可以表示到場,也可以表示變得清楚可見。請仔細閱讀整個情境。",
+      "titleEn": "Show up can mean arrive, but it can also mean become easy to see.",
+      "zh": "show up 可以表示到場,也可以表示變得清楚可見。請仔細閱讀整個情境。",
+      "en": "Show up can mean arrive, but it can also mean become easy to see. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHOW 動詞片語句子改寫練習",
+    "titleEn": "SHOW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-284-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "Lena finally arrived at lunchtime.",
+      "promptZh": "Lena 終於在午飯時間到達。",
+      "starter": "Lena",
+      "answer": "Lena finally showed up at lunchtime.",
+      "answerZh": "Lena 終於在午飯時間出現。",
+      "highlight": "showed up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The guide took us on a tour of the old castle.",
+      "promptZh": "導遊帶我們參觀古堡。",
+      "starter": "The",
+      "answer": "The guide showed us around the old castle.",
+      "answerZh": "導遊帶我們參觀古堡。",
+      "highlight": "showed",
+      "targetForm": "show somebody around something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 19,
+      "prompt": "The writing can be seen through the thin paper.",
+      "promptZh": "文字可以透過薄紙看見。",
+      "starter": "The",
+      "answer": "The writing shows through the thin paper.",
+      "answerZh": "文字透過薄紙顯現出來。",
+      "highlight": "shows",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "Arun proudly displayed his new bike to his friends.",
+      "promptZh": "Arun 自豪地向朋友展示他的新單車。",
+      "starter": "Arun",
+      "answer": "Arun showed his new bike off to his friends.",
+      "answerZh": "Arun 向朋友展示自己的新單車。",
+      "highlight": "showed",
+      "targetForm": "show something off to somebody",
+      "targetMeaningZh": "向別人展示或炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-284-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "Kai made his brother look foolish in front of the whole class.",
+      "promptZh": "Kai 在全班面前令弟弟顯得很愚蠢。",
+      "starter": "Kai",
+      "answer": "Kai showed his brother up in front of the whole class.",
+      "answerZh": "Kai 在全班面前令弟弟難堪。",
+      "highlight": "showed",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 20,
+      "prompt": "The receptionist led the visitors inside.",
+      "promptZh": "接待員領訪客入內。",
+      "starter": "The",
+      "answer": "The receptionist showed the visitors in.",
+      "answerZh": "接待員領訪客入內。",
+      "highlight": "showed",
+      "targetForm": "show somebody in",
+      "targetMeaningZh": "領某人入內"
+    },
+    {
+      "id": "phrasal-verb-284-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The white paint is very easy to see on the dark wall.",
+      "promptZh": "白色油漆在深色牆上十分顯眼。",
+      "starter": "The",
+      "answer": "The white paint shows up clearly on the dark wall.",
+      "answerZh": "白色油漆在深色牆上十分顯眼。",
+      "highlight": "shows up clearly",
+      "targetForm": "show up",
+      "targetMeaningZh": "變得清楚可見;顯眼"
+    },
+    {
+      "id": "phrasal-verb-284-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Stop trying to make everyone admire you!",
+      "promptZh": "別再刻意令所有人注意和欣賞你!",
+      "starter": "Stop",
+      "answer": "Stop showing off!",
+      "answerZh": "別再炫耀了!",
+      "highlight": "showing off",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "The agent took us around the flat so that we could inspect it.",
+      "promptZh": "地產代理帶我們參觀單位,讓我們查看環境。",
+      "starter": "The",
+      "answer": "The agent showed us over the flat.",
+      "answerZh": "地產代理帶我們參觀單位。",
+      "highlight": "showed",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The test revealed that the watch was a cheap copy.",
+      "promptZh": "測試揭露了這隻手錶是廉價仿製品。",
+      "starter": "The",
+      "answer": "The test showed the watch up as a cheap copy.",
+      "answerZh": "測試揭露了這隻手錶是廉價仿製品。",
+      "highlight": "showed",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "I will lead you to the door.",
+      "promptZh": "我會帶你到門口。",
+      "starter": "I",
+      "answer": "I will show you out.",
+      "answerZh": "我會送你出去。",
+      "highlight": "show",
+      "targetForm": "show somebody out",
+      "targetMeaningZh": "帶某人到出口;送某人離開"
+    },
+    {
+      "id": "phrasal-verb-284-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "Nora gave the guests a tour of the museum.",
+      "promptZh": "Nora 帶賓客參觀博物館。",
+      "starter": "Nora",
+      "answer": "Nora showed the guests round the museum.",
+      "answerZh": "Nora 帶賓客參觀博物館。",
+      "highlight": "showed",
+      "targetForm": "show somebody round something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Ethan proudly displayed his drawing to his family.",
+      "promptZh": "Ethan 自豪地向家人展示自己的畫作。",
+      "starter": "Ethan",
+      "answer": "Ethan showed his drawing off to his family.",
+      "answerZh": "Ethan 向家人展示自己的畫作。",
+      "highlight": "showed",
+      "targetForm": "show something off to somebody",
+      "targetMeaningZh": "向別人展示某物"
+    },
+    {
+      "id": "phrasal-verb-284-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Noah did not arrive for the match.",
+      "promptZh": "Noah 沒有到場參加比賽。",
+      "starter": "Noah",
+      "answer": "Noah did not show up for the match.",
+      "answerZh": "Noah 沒有到場參加比賽。",
+      "highlight": "show up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "The bright lamp made every mark on the table easy to see.",
+      "promptZh": "明亮的燈光令桌上的每一道痕跡都清楚可見。",
+      "starter": "The",
+      "answer": "The bright lamp showed up every mark on the table.",
+      "answerZh": "明亮的燈光令桌上的每一道痕跡都清楚可見。",
+      "highlight": "showed up",
+      "targetForm": "show something up",
+      "targetMeaningZh": "使某物變得清楚可見"
+    },
+    {
+      "id": "phrasal-verb-284-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "The tests revealed that the drink was unsafe.",
+      "promptZh": "測試顯示這種飲品並不安全。",
+      "starter": "The",
+      "answer": "The tests showed the drink up as unsafe.",
+      "answerZh": "測試顯示這種飲品並不安全。",
+      "highlight": "showed",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Please lead Daniel into the waiting room.",
+      "promptZh": "請帶 Daniel 進入候診室。",
+      "starter": "Please",
+      "answer": "Please show Daniel into the waiting room.",
+      "answerZh": "請帶 Daniel 進入候診室。",
+      "highlight": "show",
+      "targetForm": "show somebody into something",
+      "targetMeaningZh": "帶某人進入某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The yellow lines have become clearly visible in the photo.",
+      "promptZh": "黃色線條在相片中已變得清楚可見。",
+      "starter": "The",
+      "answer": "The yellow lines have shown up clearly in the photo.",
+      "answerZh": "黃色線條在相片中已清楚顯現。",
+      "highlight": "shown up",
+      "targetForm": "show up",
+      "targetMeaningZh": "變得清楚可見"
+    },
+    {
+      "id": "phrasal-verb-284-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "He is always trying to impress people when guests visit.",
+      "promptZh": "有客人到訪時,他總是刻意吸引別人注意。",
+      "starter": "He",
+      "answer": "He is always showing off when guests visit.",
+      "answerZh": "有客人到訪時,他總是刻意炫耀。",
+      "highlight": "showing off",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The nurse will lead us out of the clinic.",
+      "promptZh": "護士會帶我們離開診所。",
+      "starter": "The",
+      "answer": "The nurse will show us out of the clinic.",
+      "answerZh": "護士會帶我們離開診所。",
+      "highlight": "show",
+      "targetForm": "show somebody out of something",
+      "targetMeaningZh": "帶某人離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The new photographs have revealed that the advert was misleading.",
+      "promptZh": "新相片揭露了該廣告具有誤導成分。",
+      "starter": "The",
+      "answer": "The new photographs have shown the advert up as misleading.",
+      "answerZh": "新相片揭露了該廣告具有誤導成分。",
+      "highlight": "shown",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "Will you give Priya a tour of the school?",
+      "promptZh": "你會帶 Priya 參觀學校嗎?",
+      "starter": "Will",
+      "answer": "Will you show Priya around the school?",
+      "answerZh": "你會帶 Priya 參觀學校嗎?",
+      "highlight": "show",
+      "targetForm": "show somebody around something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "The owner is taking a family around the house so that they can inspect it.",
+      "promptZh": "屋主正帶一家人參觀房子,讓他們查看環境。",
+      "starter": "The",
+      "answer": "The owner is showing a family over the house.",
+      "answerZh": "屋主正帶一家人參觀房子。",
+      "highlight": "showing",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Her blue shirt could be seen through the thin white top.",
+      "promptZh": "她的藍色恤衫可以透過薄薄的白色上衣看見。",
+      "starter": "Her",
+      "answer": "Her blue shirt was showing through the thin white top.",
+      "answerZh": "她的藍色恤衫透過薄薄的白色上衣顯現出來。",
+      "highlight": "was showing",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Why did Sam not arrive for class?",
+      "promptZh": "Sam 為甚麼沒有到課堂?",
+      "starter": "Why",
+      "answer": "Why did Sam not show up for class?",
+      "answerZh": "Sam 為甚麼沒有到課堂?",
+      "highlight": "show up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The shop has been displaying its newest phones online.",
+      "promptZh": "店舖一直在網上展示最新款式的電話。",
+      "starter": "The",
+      "answer": "The shop has been showing its newest phones off online.",
+      "answerZh": "店舖一直在網上展示最新款式的電話。",
+      "highlight": "showing",
+      "targetForm": "show something off",
+      "targetMeaningZh": "展示或炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-284-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Do not make me look foolish in front of the guests.",
+      "promptZh": "不要在賓客面前令我難堪。",
+      "starter": "Do",
+      "answer": "Do not show me up in front of the guests.",
+      "answerZh": "不要在賓客面前令我難堪。",
+      "highlight": "show",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The host led the two speakers into the hall.",
+      "promptZh": "主持人帶兩位講者進入大堂。",
+      "starter": "The",
+      "answer": "The host showed the two speakers into the hall.",
+      "answerZh": "主持人帶兩位講者進入大堂。",
+      "highlight": "showed",
+      "targetForm": "show somebody into something",
+      "targetMeaningZh": "帶某人進入某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The child was trying to attract everyone’s attention again during dinner.",
+      "promptZh": "那個孩子在晚餐期間又再刻意吸引所有人的注意。",
+      "starter": "The",
+      "answer": "The child was showing off again during dinner.",
+      "answerZh": "那個孩子在晚餐期間又再炫耀。",
+      "highlight": "showing off",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Could you lead them to the exit after the meeting?",
+      "promptZh": "會議後,你可以帶他們到出口嗎?",
+      "starter": "Could",
+      "answer": "Could you show them out after the meeting?",
+      "answerZh": "會議後,你可以送他們出去嗎?",
+      "highlight": "show",
+      "targetForm": "show somebody out",
+      "targetMeaningZh": "帶某人到出口;送某人離開"
+    },
+    {
+      "id": "phrasal-verb-284-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The words are not easy to see against this background colour.",
+      "promptZh": "這些文字在這種背景顏色上並不清楚。",
+      "starter": "The",
+      "answer": "The words do not show up well against this background colour.",
+      "answerZh": "這些文字在這種背景顏色上並不清楚。",
+      "highlight": "do",
+      "targetForm": "show up",
+      "targetMeaningZh": "變得清楚可見;顯眼"
+    },
+    {
+      "id": "phrasal-verb-284-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "The interview revealed that he had not prepared.",
+      "promptZh": "面試顯示他沒有作好準備。",
+      "starter": "The",
+      "answer": "The interview showed him up as unprepared.",
+      "answerZh": "面試顯示他沒有作好準備。",
+      "highlight": "showed him up as unprepared",
+      "targetForm": "show somebody up as something",
+      "targetMeaningZh": "揭露某人的真實情況"
+    },
+    {
+      "id": "phrasal-verb-284-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Rosa bought a new camera. She proudly let everyone see it at lunch.",
+      "promptZh": "Rosa 買了一部新相機。她在午飯時自豪地讓所有人觀看。",
+      "starter": "Rosa",
+      "answer": "Rosa bought a new camera. She showed it off to everyone at lunch.",
+      "answerZh": "Rosa 買了一部新相機。她在午飯時向所有人展示。",
+      "highlight": "showed it off to",
+      "targetForm": "show something off to somebody",
+      "targetMeaningZh": "向別人展示某物"
+    },
+    {
+      "id": "phrasal-verb-284-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "The new student arrived early, so I gave her a tour.",
+      "promptZh": "新學生提早到達,所以我帶她四處參觀。",
+      "starter": "The",
+      "answer": "The new student arrived early, so I showed her around.",
+      "answerZh": "新學生提早到達,所以我帶她四處參觀。",
+      "highlight": "showed",
+      "targetForm": "show somebody around",
+      "targetMeaningZh": "帶某人四處參觀"
+    },
+    {
+      "id": "phrasal-verb-284-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "We were taken around the sports centre before joining.",
+      "promptZh": "加入前,有人帶我們參觀體育中心。",
+      "starter": "We",
+      "answer": "We were shown over the sports centre before joining.",
+      "answerZh": "加入前,有人帶我們參觀體育中心。",
+      "highlight": "shown over",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The label could be seen through the thin gift paper.",
+      "promptZh": "標籤可以透過薄薄的禮物包裝紙看見。",
+      "starter": "The",
+      "answer": "The label showed through the thin gift paper.",
+      "answerZh": "標籤透過薄薄的禮物包裝紙顯現出來。",
+      "highlight": "showed",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "I knew the answer, but I did not want to make him look foolish.",
+      "promptZh": "我知道答案,但我不想令他難堪。",
+      "starter": "I",
+      "answer": "I knew the answer, but I did not want to show him up.",
+      "answerZh": "我知道答案,但我不想令他難堪。",
+      "highlight": "show",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "A member of staff led us into a small meeting room.",
+      "promptZh": "一名職員帶我們進入一間小型會議室。",
+      "starter": "A",
+      "answer": "A member of staff showed us into a small meeting room.",
+      "answerZh": "一名職員帶我們進入一間小型會議室。",
+      "highlight": "showed",
+      "targetForm": "show somebody into something",
+      "targetMeaningZh": "帶某人進入某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "By noon, the delivery driver still had not arrived.",
+      "promptZh": "到了中午,送貨司機仍未到達。",
+      "starter": "By",
+      "answer": "By noon, the delivery driver still had not shown up.",
+      "answerZh": "到了中午,送貨司機仍未出現。",
+      "highlight": "shown up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The marks were difficult to see. The blue light made them clearly visible.",
+      "promptZh": "那些痕跡很難看見。藍色燈光令它們變得清楚可見。",
+      "starter": "The",
+      "answer": "The marks were difficult to see. The blue light showed them up clearly.",
+      "answerZh": "那些痕跡很難看見。藍色燈光令它們變得清楚可見。",
+      "highlight": "showed",
+      "targetForm": "show something up",
+      "targetMeaningZh": "使某物變得清楚可見"
+    },
+    {
+      "id": "phrasal-verb-284-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "She likes trying to impress everyone when her cousins visit.",
+      "promptZh": "表兄弟姊妹到訪時,她喜歡刻意吸引所有人的注意。",
+      "starter": "She",
+      "answer": "She likes to show off when her cousins visit.",
+      "answerZh": "表兄弟姊妹到訪時,她喜歡刻意炫耀。",
+      "highlight": "show off",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "After the tour, the guard led us out of the building.",
+      "promptZh": "參觀結束後,保安員帶我們離開大樓。",
+      "starter": "After",
+      "answer": "After the tour, the guard showed us out of the building.",
+      "answerZh": "參觀結束後,保安員帶我們離開大樓。",
+      "highlight": "showed",
+      "targetForm": "show somebody out of something",
+      "targetMeaningZh": "帶某人離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "One simple fact revealed that the story was false.",
+      "promptZh": "一個簡單的事實便揭露了這個故事是假的。",
+      "starter": "One",
+      "answer": "One simple fact showed the story up as false.",
+      "answerZh": "一個簡單的事實便揭露了這個故事是假的。",
+      "highlight": "showed",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "We had never visited the theatre, so Max gave us a tour of it.",
+      "promptZh": "我們從未到過這間劇院,所以 Max 帶我們參觀。",
+      "starter": "We",
+      "answer": "We had never visited the theatre, so Max showed us round it.",
+      "answerZh": "我們從未到過這間劇院,所以 Max 帶我們參觀。",
+      "highlight": "showed",
+      "targetForm": "show somebody round something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The coach proudly presented the young player to the visitors.",
+      "promptZh": "教練自豪地向訪客展示這名年輕球員。",
+      "starter": "The",
+      "answer": "The coach showed the young player off to the visitors.",
+      "answerZh": "教練自豪地向訪客展示這名年輕球員。",
+      "highlight": "showed",
+      "targetForm": "show somebody off to somebody",
+      "targetMeaningZh": "向別人自豪地展示某人"
+    },
+    {
+      "id": "phrasal-verb-284-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The agent took them around the flat before they made a decision.",
+      "promptZh": "地產代理帶他們參觀單位,然後他們才作決定。",
+      "starter": "The",
+      "answer": "The agent showed them over the flat before they made a decision.",
+      "answerZh": "地產代理帶他們參觀單位,然後他們才作決定。",
+      "highlight": "showed",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "A dark pattern could be seen through the thin curtain.",
+      "promptZh": "深色圖案可以透過薄薄的窗簾看見。",
+      "starter": "A",
+      "answer": "A dark pattern showed through the thin curtain.",
+      "answerZh": "深色圖案透過薄薄的窗簾顯現出來。",
+      "highlight": "showed",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Her joke made me look foolish in front of the team.",
+      "promptZh": "她的笑話令我在球隊面前難堪。",
+      "starter": "Her",
+      "answer": "Her joke showed me up in front of the team.",
+      "answerZh": "她的笑話令我在球隊面前難堪。",
+      "highlight": "showed",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "After welcoming the exchange students, the teacher took them through the whole school and explained each room.",
+      "promptZh": "老師歡迎交換生後,帶他們參觀整間學校,並介紹每個房間。",
+      "starter": "After",
+      "answer": "After welcoming the exchange students, the teacher showed them around the whole school and explained each room.",
+      "answerZh": "老師歡迎交換生後,帶他們參觀整間學校,並介紹每個房間。",
+      "highlight": "showed",
+      "targetForm": "show somebody around something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The hidden camera revealed that the seller was a cheat.",
+      "promptZh": "隱藏攝影機揭露了賣家是個騙子。",
+      "starter": "The",
+      "answer": "The hidden camera showed the seller up for the cheat he was.",
+      "answerZh": "隱藏攝影機揭露了賣家是個騙子。",
+      "highlight": "showed",
+      "targetForm": "show somebody up for something",
+      "targetMeaningZh": "揭露某人的真面目"
+    },
+    {
+      "id": "phrasal-verb-284-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "Everyone else arrived by nine, but the singer did not appear until ten.",
+      "promptZh": "其他人九時前已到達,但歌手直到十時才出現。",
+      "starter": "Everyone",
+      "answer": "Everyone else arrived by nine, but the singer did not show up until ten.",
+      "answerZh": "其他人九時前已到達,但歌手直到十時才出現。",
+      "highlight": "show up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "He kept doing difficult tricks because he wanted the crowd to admire him.",
+      "promptZh": "他不斷表演高難度動作,因為他想觀眾欣賞自己。",
+      "starter": "He",
+      "answer": "He kept showing off by doing difficult tricks in front of the crowd.",
+      "answerZh": "他不斷在觀眾面前表演高難度動作來炫耀自己。",
+      "highlight": "showing off by",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The visitors were at the front desk, so the receptionist led them into the office.",
+      "promptZh": "訪客正在接待處,所以接待員帶他們進入辦公室。",
+      "starter": "The",
+      "answer": "The visitors were at the front desk, so the receptionist showed them into the office.",
+      "answerZh": "訪客正在接待處,所以接待員帶他們進入辦公室。",
+      "highlight": "showed",
+      "targetForm": "show somebody into something",
+      "targetMeaningZh": "帶某人進入某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The pale writing was easy to see only when it was placed on black paper.",
+      "promptZh": "這些淺色文字只有放在黑紙上時才清楚可見。",
+      "starter": "The",
+      "answer": "The pale writing showed up only when it was placed on black paper.",
+      "answerZh": "這些淺色文字只有放在黑紙上時才清楚顯現。",
+      "highlight": "showed up",
+      "targetForm": "show up",
+      "targetMeaningZh": "變得清楚可見;顯眼"
+    },
+    {
+      "id": "phrasal-verb-284-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Once the meeting ended, the assistant walked the last guest to the exit.",
+      "promptZh": "會議結束後,助理帶最後一位賓客到出口。",
+      "starter": "Once",
+      "answer": "Once the meeting ended, the assistant showed the last guest out.",
+      "answerZh": "會議結束後,助理送最後一位賓客出去。",
+      "highlight": "showed",
+      "targetForm": "show somebody out",
+      "targetMeaningZh": "帶某人到出口;送某人離開"
+    },
+    {
+      "id": "phrasal-verb-284-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The owner took us around every room of the café before we bought it.",
+      "promptZh": "我們購買咖啡店前,屋主帶我們參觀了每個房間。",
+      "starter": "The",
+      "answer": "The owner showed us over the café before we bought it.",
+      "answerZh": "我們購買咖啡店前,屋主帶我們參觀了店內環境。",
+      "highlight": "showed",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "The new lights made the painting look its best.",
+      "promptZh": "新的燈光令畫作呈現出最佳效果。",
+      "starter": "The",
+      "answer": "The new lights showed the painting off beautifully.",
+      "answerZh": "新的燈光把畫作最美的一面展現出來。",
+      "highlight": "showed",
+      "targetForm": "show something off",
+      "targetMeaningZh": "以最佳效果展示某物"
+    },
+    {
+      "id": "phrasal-verb-284-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The old red paint can still be seen through the new white paint.",
+      "promptZh": "舊有的紅色油漆仍然可以透過新的白色油漆看見。",
+      "starter": "The",
+      "answer": "The old red paint shows through the new white paint.",
+      "answerZh": "舊有的紅色油漆仍然透過新的白色油漆顯現出來。",
+      "highlight": "shows",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "I did not correct Dad at the table because I did not want to make him look foolish.",
+      "promptZh": "我沒有在飯桌上糾正爸爸,因為我不想令他難堪。",
+      "starter": "I",
+      "answer": "I did not correct Dad at the table because I did not want to show him up.",
+      "answerZh": "我沒有在飯桌上糾正爸爸,因為我不想令他難堪。",
+      "highlight": "show",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "When the doctor was ready, a nurse led the next patient inside.",
+      "promptZh": "醫生準備好後,一名護士領下一位病人入內。",
+      "starter": "When",
+      "answer": "When the doctor was ready, a nurse showed the next patient in.",
+      "answerZh": "醫生準備好後,一名護士領下一位病人入內。",
+      "highlight": "showed",
+      "targetForm": "show somebody in",
+      "targetMeaningZh": "領某人入內"
+    },
+    {
+      "id": "phrasal-verb-284-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The team won, but none of the players tried to attract attention afterwards.",
+      "promptZh": "球隊勝出了,但賽後沒有球員刻意吸引別人注意。",
+      "starter": "The",
+      "answer": "The team won, but none of the players showed off afterwards.",
+      "answerZh": "球隊勝出了,但賽後沒有球員刻意炫耀。",
+      "highlight": "showed off",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "We waited for an hour, but the bus never arrived.",
+      "promptZh": "我們等了一小時,但巴士一直沒有到達。",
+      "starter": "We",
+      "answer": "We waited for an hour, but the bus never showed up.",
+      "answerZh": "我們等了一小時,但巴士一直沒有出現。",
+      "highlight": "showed up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The close-up photograph made every small crack easy to see.",
+      "promptZh": "近鏡相片令每一道小裂紋都清楚可見。",
+      "starter": "The",
+      "answer": "The close-up photograph showed up every small crack.",
+      "answerZh": "近鏡相片令每一道小裂紋都清楚可見。",
+      "highlight": "showed up",
+      "targetForm": "show something up",
+      "targetMeaningZh": "使某物變得清楚可見"
+    },
+    {
+      "id": "phrasal-verb-284-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "A second check revealed that the online review was fake.",
+      "promptZh": "第二次檢查揭露了網上評論是假的。",
+      "starter": "A",
+      "answer": "A second check showed the online review up as fake.",
+      "answerZh": "第二次檢查揭露了網上評論是假的。",
+      "highlight": "showed",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "The morning light could be seen through the curtains and woke us earlier than expected.",
+      "promptZh": "晨光透過窗簾照進來,令我們比預期更早醒來。",
+      "starter": "The",
+      "answer": "The morning light showed through the curtains and woke us earlier than expected.",
+      "answerZh": "晨光透過窗簾照進來,令我們比預期更早醒來。",
+      "highlight": "showed",
+      "targetForm": "show through something",
+      "targetMeaningZh": "透過某物顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "As it was our first day at the centre, a volunteer gave us a tour before the lesson began.",
+      "promptZh": "由於這是我們第一天到中心,一名義工在課堂開始前帶我們參觀。",
+      "starter": "As",
+      "answer": "As it was our first day at the centre, a volunteer showed us round before the lesson began.",
+      "answerZh": "由於這是我們第一天到中心,一名義工在課堂開始前帶我們參觀。",
+      "highlight": "showed",
+      "targetForm": "show somebody round",
+      "targetMeaningZh": "帶某人四處參觀"
+    },
+    {
+      "id": "phrasal-verb-284-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Even though I knew his answer was wrong, I stayed quiet because correcting him there would have made him look foolish.",
+      "promptZh": "雖然我知道他的答案錯了,但我保持沉默,因為當場糾正他會令他難堪。",
+      "starter": "Even",
+      "answer": "Even though I knew his answer was wrong, I stayed quiet because correcting him there would have shown him up.",
+      "answerZh": "雖然我知道他的答案錯了,但我保持沉默,因為當場糾正他會令他難堪。",
+      "highlight": "shown",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    },
+    {
+      "id": "phrasal-verb-284-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "The manager thanked the visitors and led them out of the office when the discussion ended.",
+      "promptZh": "討論結束後,經理感謝訪客,並帶他們離開辦公室。",
+      "starter": "The",
+      "answer": "The manager thanked the visitors and showed them out of the office when the discussion ended.",
+      "answerZh": "討論結束後,經理感謝訪客,並帶他們離開辦公室。",
+      "highlight": "showed",
+      "targetForm": "show somebody out of something",
+      "targetMeaningZh": "帶某人離開某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Before making an offer, the couple asked the owner to take them around the house once more.",
+      "promptZh": "提出價錢前,那對夫婦請屋主再帶他們參觀房子一次。",
+      "starter": "Before",
+      "answer": "Before making an offer, the couple asked the owner to show them over the house once more.",
+      "answerZh": "提出價錢前,那對夫婦請屋主再帶他們參觀房子一次。",
+      "highlight": "show",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The missing dates revealed that the story was a lie.",
+      "promptZh": "缺少的日期揭露了這個故事是謊言。",
+      "starter": "The",
+      "answer": "The missing dates showed the story up as a lie.",
+      "answerZh": "缺少的日期揭露了這個故事是謊言。",
+      "highlight": "showed",
+      "targetForm": "show something up as something",
+      "targetMeaningZh": "揭露某物的真實性質"
+    },
+    {
+      "id": "phrasal-verb-284-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The food was ready and everyone was waiting, but the final guest did not arrive until nearly nine.",
+      "promptZh": "食物已準備好,所有人也在等待,但最後一位賓客接近九時才到達。",
+      "starter": "The",
+      "answer": "The food was ready and everyone was waiting, but the final guest did not show up until nearly nine.",
+      "answerZh": "食物已準備好,所有人也在等待,但最後一位賓客接近九時才出現。",
+      "highlight": "show up",
+      "targetForm": "show up",
+      "targetMeaningZh": "出現;到場"
+    },
+    {
+      "id": "phrasal-verb-284-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "At the school fair, Nia proudly displayed her robot to everyone who came near the table.",
+      "promptZh": "在學校嘉年華中,Nia 自豪地向每個走近攤位的人展示她的機械人。",
+      "starter": "At",
+      "answer": "At the school fair, Nia showed her robot off to everyone who came near the table.",
+      "answerZh": "在學校嘉年華中,Nia 向每個走近攤位的人展示她的機械人。",
+      "highlight": "showed",
+      "targetForm": "show something off to somebody",
+      "targetMeaningZh": "向別人展示某物"
+    },
+    {
+      "id": "phrasal-verb-284-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "When the door opened, the assistant led the parents into the room where the teacher was waiting.",
+      "promptZh": "門打開後,助理帶家長進入老師正在等候的房間。",
+      "starter": "When",
+      "answer": "When the door opened, the assistant showed the parents into the room where the teacher was waiting.",
+      "answerZh": "門打開後,助理帶家長進入老師正在等候的房間。",
+      "highlight": "showed",
+      "targetForm": "show somebody into something",
+      "targetMeaningZh": "帶某人進入某個地方"
+    },
+    {
+      "id": "phrasal-verb-284-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Against the plain white wall, the dark wooden chairs were much easier to see than they had been in the shop.",
+      "promptZh": "深色木椅放在純白色牆壁前,比放在店內時顯眼得多。",
+      "starter": "Against",
+      "answer": "Against the plain white wall, the dark wooden chairs showed up much better than they had in the shop.",
+      "answerZh": "深色木椅放在純白色牆壁前,比放在店內時顯眼得多。",
+      "highlight": "showed up",
+      "targetForm": "show up",
+      "targetMeaningZh": "變得清楚可見;顯眼"
+    },
+    {
+      "id": "phrasal-verb-284-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Instead of helping with the game, Omar spent the whole time trying to impress the younger children.",
+      "promptZh": "Omar 沒有協助遊戲,反而整段時間都在嘗試令年幼的孩子注意自己。",
+      "starter": "Instead",
+      "answer": "Instead of helping with the game, Omar spent the whole time showing off in front of the younger children.",
+      "answerZh": "Omar 沒有協助遊戲,反而整段時間都在年幼的孩子面前炫耀。",
+      "highlight": "showing off in front of",
+      "targetForm": "show off",
+      "targetMeaningZh": "炫耀;刻意吸引注意"
+    },
+    {
+      "id": "phrasal-verb-284-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "After lunch, Priya gave the new families a tour of the centre and answered their questions.",
+      "promptZh": "午飯後,Priya 帶新家庭參觀中心,並回答他們的問題。",
+      "starter": "After",
+      "answer": "After lunch, Priya showed the new families around the centre and answered their questions.",
+      "answerZh": "午飯後,Priya 帶新家庭參觀中心,並回答他們的問題。",
+      "highlight": "showed",
+      "targetForm": "show somebody around something",
+      "targetMeaningZh": "帶某人參觀某地"
+    },
+    {
+      "id": "phrasal-verb-284-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "Once the concert ended, a member of staff led us outside through a side door.",
+      "promptZh": "音樂會結束後,一名職員帶我們經側門離開。",
+      "starter": "Once",
+      "answer": "Once the concert ended, a member of staff showed us out through a side door.",
+      "answerZh": "音樂會結束後,一名職員經側門帶我們離開。",
+      "highlight": "showed",
+      "targetForm": "show somebody out",
+      "targetMeaningZh": "帶某人到出口;送某人離開"
+    },
+    {
+      "id": "phrasal-verb-284-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The agent took the couple around the flat, but they decided that the kitchen was too small.",
+      "promptZh": "地產代理帶那對夫婦參觀單位,但他們認為廚房太小。",
+      "starter": "The",
+      "answer": "The agent showed the couple over the flat, but they decided that the kitchen was too small.",
+      "answerZh": "地產代理帶那對夫婦參觀單位,但他們認為廚房太小。",
+      "highlight": "showed",
+      "targetForm": "show somebody over something",
+      "targetMeaningZh": "帶某人參觀或查看某地"
+    },
+    {
+      "id": "phrasal-verb-284-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "Because the fabric was so thin, the words on the shirt underneath could be seen through it.",
+      "promptZh": "由於布料太薄,下面恤衫上的文字可以透出來。",
+      "starter": "Because",
+      "answer": "Because the fabric was so thin, the words on the shirt underneath showed through.",
+      "answerZh": "由於布料太薄,下面恤衫上的文字透了出來。",
+      "highlight": "showed",
+      "targetForm": "show through",
+      "targetMeaningZh": "透出;顯現"
+    },
+    {
+      "id": "phrasal-verb-284-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "The child had copied the answer, but the teacher corrected him quietly so that she would not embarrass him in front of the class.",
+      "promptZh": "那個孩子抄了答案,但老師安靜地糾正他,以免令他在全班面前難堪。",
+      "starter": "The",
+      "answer": "The child had copied the answer, but the teacher corrected him quietly so that she would not show him up in front of the class.",
+      "answerZh": "那個孩子抄了答案,但老師安靜地糾正他,以免令他在全班面前難堪。",
+      "highlight": "show",
+      "targetForm": "show somebody up",
+      "targetMeaningZh": "令某人難堪或出醜"
+    }
+  ]
+}

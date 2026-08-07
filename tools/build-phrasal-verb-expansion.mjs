@@ -6,7 +6,8 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dataPath = path.join(root, "phrasal-verb-system-data.js");
 const lessonDirectory = path.join(root, "tools/phrasal-verb-lessons");
-const expectedLessonCount = 35;
+const expectedLessonCount = 329;
+const maximumQuestionsPerLesson = 999;
 
 function requireCondition(condition, message) {
   if (!condition) throw new Error(message);
@@ -93,7 +94,7 @@ function validateLesson(lesson, expectedOrder) {
     });
   }
   requireCondition(lesson.instructions && normalText(lesson.instructions.zh) && normalText(lesson.instructions.en), `${prefix}: instructions are incomplete`);
-  requireCondition(Array.isArray(lesson.questions) && lesson.questions.length > 0 && lesson.questions.length <= 99, `${prefix}: questions are missing or exceed the two-digit contract`);
+  requireCondition(Array.isArray(lesson.questions) && lesson.questions.length > 0 && lesson.questions.length <= maximumQuestionsPerLesson, `${prefix}: questions are missing or exceed the supported limit`);
 
   validateBilingualExamples(lesson.examples || [], `${prefix}.examples`);
   lesson.meaningGroups.forEach((group, index) => {
@@ -143,7 +144,7 @@ requireCondition(existingFirstLesson, "The existing Build lesson is missing");
 
 const fragments = fs.existsSync(lessonDirectory)
   ? fs.readdirSync(lessonDirectory)
-    .filter((name) => /^lesson-(?:0[2-9]|[12][0-9]|3[0-5])(?:-[a-z0-9-]+)?\.json$/.test(name))
+    .filter((name) => /^lesson-\d{2,3}(?:-[a-z0-9-]+)?\.json$/.test(name))
     .sort()
     .map((name) => readLessonFragment(path.join(lessonDirectory, name)))
   : [];

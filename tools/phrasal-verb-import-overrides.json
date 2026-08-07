@@ -1,0 +1,652 @@
+{
+  "Phrasal Verbs 86 - MARK.pdf": {
+    "answers": [
+      {
+        "localNumber": 1,
+        "volume": 1,
+        "page": 4,
+        "answer": "The coach marked Ben down as a promising player from the start.",
+        "answerZh": "教練從一開始便認定賓是一名有前途的球員。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 2,
+        "volume": 1,
+        "page": 4,
+        "answer": "Workers marked the wet floor area off with yellow tape.",
+        "answerZh": "工人用黃色膠帶把濕滑地面範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 3,
+        "volume": 1,
+        "page": 4,
+        "answer": "The shop marked all winter coats down by 20%.",
+        "answerZh": "店舖把所有冬季外套減價兩成。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 4,
+        "volume": 1,
+        "page": 5,
+        "answer": "Her calm voice marked her out from the other speakers.",
+        "answerZh": "她沉着的聲線令她與其他講者顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 5,
+        "volume": 1,
+        "page": 5,
+        "answer": "The café marked the price of coffee up by one dollar.",
+        "answerZh": "咖啡店把咖啡價格提高了一元。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 6,
+        "volume": 1,
+        "page": 5,
+        "answer": "The teacher marked Leo down because of poor spelling.",
+        "answerZh": "老師因里奧串字錯誤而扣了他的分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 7,
+        "volume": 1,
+        "page": 5,
+        "answer": "She marked out a circle on the ground for the game.",
+        "answerZh": "她在地上劃出一個圓圈供遊戲使用。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 8,
+        "volume": 1,
+        "page": 5,
+        "answer": "The staff marked the queueing area off with red rope.",
+        "answerZh": "職員用紅繩把排隊範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 9,
+        "volume": 1,
+        "page": 6,
+        "answer": "I marked Ava down as the most careful student in the group.",
+        "answerZh": "我認定艾娃是小組中最細心的學生。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 10,
+        "volume": 1,
+        "page": 6,
+        "answer": "The store marked the bag up by 10%.",
+        "answerZh": "店舖把手袋加價一成。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 11,
+        "volume": 1,
+        "page": 6,
+        "answer": "His bright red shoes marked him out from the other runners.",
+        "answerZh": "他鮮紅色的鞋令他與其他跑手顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 12,
+        "volume": 1,
+        "page": 6,
+        "answer": "They marked the old laptops down by £50.",
+        "answerZh": "他們把舊款手提電腦減價五十英鎊。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 13,
+        "volume": 1,
+        "page": 6,
+        "answer": "The examiner marked Nina down for missing two answers.",
+        "answerZh": "評卷員因妮娜漏答兩題而扣了她的分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 14,
+        "volume": 1,
+        "page": 6,
+        "answer": "We marked out a square on the floor to show where the table should go.",
+        "answerZh": "我們在地上劃出一個正方形，顯示桌子應放的位置。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 15,
+        "volume": 1,
+        "page": 7,
+        "answer": "The children are marking out the path for the race with chalk.",
+        "answerZh": "孩子們正用粉筆劃出比賽路線。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 16,
+        "volume": 1,
+        "page": 7,
+        "answer": "She was marked down because her handwriting was hard to read.",
+        "answerZh": "她因字跡難以辨認而被扣分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 17,
+        "volume": 1,
+        "page": 7,
+        "answer": "Why has the shop marked these umbrellas up by 15%?",
+        "answerZh": "為甚麼店舖把這些雨傘加價百分之十五？",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 18,
+        "volume": 1,
+        "page": 7,
+        "answer": "We had marked him down as a quiet child before he joined the drama club.",
+        "answerZh": "在他參加戲劇社之前，我們一直認定他是個安靜的孩子。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 19,
+        "volume": 1,
+        "page": 7,
+        "answer": "Please mark the area around the broken step off with tape.",
+        "answerZh": "請用膠帶把損壞梯級附近的範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 20,
+        "volume": 1,
+        "page": 8,
+        "answer": "These shoes have been marked down from £60 to £40.",
+        "answerZh": "這些鞋已由六十英鎊減價至四十英鎊。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 21,
+        "volume": 1,
+        "page": 8,
+        "answer": "Her drawings have always marked her out from the other pupils.",
+        "answerZh": "她的畫作一直令她與其他學生顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 22,
+        "volume": 1,
+        "page": 8,
+        "answer": "Will the teacher mark us down for one small spelling mistake?",
+        "answerZh": "老師會否因一個小小的串字錯誤而扣我們的分？",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 23,
+        "volume": 1,
+        "page": 8,
+        "answer": "Could you mark out the position of the new shelf on the wall?",
+        "answerZh": "你可以在牆上標示新層架的位置嗎？",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 24,
+        "volume": 1,
+        "page": 8,
+        "answer": "The police have marked the unsafe area off with cones.",
+        "answerZh": "警方已用雪糕筒把不安全範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 25,
+        "volume": 1,
+        "page": 8,
+        "answer": "Have you already marked Rosa down as a possible team leader?",
+        "answerZh": "你是否已認定羅莎可能成為小組領袖？",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 26,
+        "volume": 1,
+        "page": 9,
+        "answer": "What marked this small café out from all the others?",
+        "answerZh": "是甚麼令這間小咖啡店與其他店舖顯得不同？",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 27,
+        "volume": 1,
+        "page": 9,
+        "answer": "The seller may mark the bike up before summer.",
+        "answerZh": "賣家可能會在夏天前把單車加價。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 28,
+        "volume": 1,
+        "page": 9,
+        "answer": "At the end of each day, the supermarket marks fresh bread down.",
+        "answerZh": "每天傍晚，超級市場都會把新鮮麵包減價。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 29,
+        "volume": 1,
+        "page": 9,
+        "answer": "The badge was small, but it marked the school team out from the others.",
+        "answerZh": "那個徽章很小，卻令校隊與其他隊伍顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 30,
+        "volume": 1,
+        "page": 9,
+        "answer": "The jacket was too expensive, so the manager marked it down by 25%.",
+        "answerZh": "那件外套太昂貴，所以經理把它減價百分之二十五。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 31,
+        "volume": 1,
+        "page": 10,
+        "answer": "There was broken glass near the gate, so the caretaker marked the area off with cones.",
+        "answerZh": "大閘附近有碎玻璃，所以管理員用雪糕筒把該範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 32,
+        "volume": 1,
+        "page": 10,
+        "answer": "Everyone thought Kai would become a strong swimmer. They marked him down as a swimmer with a bright future.",
+        "answerZh": "大家都認為啟會成為出色的泳手。他們認定他是一名很有前途的泳手。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 33,
+        "volume": 1,
+        "page": 10,
+        "answer": "We need a place for the new cupboard. Please mark it out on the floor.",
+        "answerZh": "我們需要為新櫃子找一個位置。請在地上把位置劃出來。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 34,
+        "volume": 1,
+        "page": 10,
+        "answer": "The tickets were cheap last week, but the organiser has now marked them up by £5.",
+        "answerZh": "門票上星期很便宜，但主辦單位現已把它們加價五英鎊。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 35,
+        "volume": 1,
+        "page": 10,
+        "answer": "The answer was mostly correct, but the teacher marked it down because one part was missing.",
+        "answerZh": "答案大致正確，但老師因為缺少了一部分而扣分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 36,
+        "volume": 1,
+        "page": 10,
+        "answer": "At £20, the toys did not sell, so the shop marked them down to £12.",
+        "answerZh": "這些玩具以二十英鎊出售時賣不出去，所以店舖把它們減價至十二英鎊。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 37,
+        "volume": 1,
+        "page": 11,
+        "answer": "The twins looked alike, but one wore a blue hat that marked her out from her sister.",
+        "answerZh": "這對雙胞胎樣子相似，但其中一人戴着藍帽，令她與姊妹顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 38,
+        "volume": 1,
+        "page": 11,
+        "answer": "Before the sports day, the teachers used white paint to mark out the running lanes.",
+        "answerZh": "運動日前，老師用白漆劃出跑道。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 39,
+        "volume": 1,
+        "page": 11,
+        "answer": "A delivery is arriving soon, so we should mark this space off with cones.",
+        "answerZh": "送貨車很快便會到達，所以我們應用雪糕筒把這個位置分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 40,
+        "volume": 1,
+        "page": 11,
+        "answer": "I made three small mistakes, but the examiner did not mark me down for them.",
+        "answerZh": "我犯了三個小錯誤，但評卷員沒有因此扣我的分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 41,
+        "volume": 1,
+        "page": 11,
+        "answer": "At first, Sara seemed very organised, so I marked her down as a good organiser.",
+        "answerZh": "莎拉起初看來很有條理，所以我認定她很善於籌辦事情。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 42,
+        "volume": 1,
+        "page": 11,
+        "answer": "If the shop marks this lamp up again, few people will buy it.",
+        "answerZh": "如果店舖再次把這盞燈加價，便很少人會購買。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 43,
+        "volume": 1,
+        "page": 12,
+        "answer": "The shirt cost £25 yesterday. Why did the shop mark it up to £35 today?",
+        "answerZh": "這件恤衫昨天售二十五英鎊。店舖今天為何把它加價至三十五英鎊？",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 44,
+        "volume": 1,
+        "page": 12,
+        "answer": "The school does not want pupils near the wet paint, so it has marked the space off with rope.",
+        "answerZh": "學校不想學生走近未乾的油漆，所以用繩把該範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 45,
+        "volume": 1,
+        "page": 12,
+        "answer": "After one strong practice, the coach began to mark Hana down as a possible team captain.",
+        "answerZh": "經過一次出色的練習後，教練開始認為花奈可能成為隊長。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 46,
+        "volume": 1,
+        "page": 12,
+        "answer": "The builders used blue chalk to mark out the exact position of the wall.",
+        "answerZh": "建築工人用藍色粉筆標示牆壁的確實位置。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 47,
+        "volume": 1,
+        "page": 12,
+        "answer": "The teacher did not fail Omar, but she marked him down for using the wrong date.",
+        "answerZh": "老師沒有令奧馬不合格，但因他使用了錯誤日期而扣了他的分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 48,
+        "volume": 1,
+        "page": 13,
+        "answer": "Although the song was simple, its unusual ending marked it out from the other songs.",
+        "answerZh": "這首歌很簡單，但不尋常的結尾令它與其他歌曲顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 49,
+        "volume": 1,
+        "page": 13,
+        "answer": "To clear the old books, the bookshop will mark them all down by 30%.",
+        "answerZh": "書店為了清走舊書，會把所有舊書減價三成。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 50,
+        "volume": 1,
+        "page": 13,
+        "answer": "Although the garden is open, the workers have marked one small section off with signs to keep people out.",
+        "answerZh": "花園仍然開放，但工人用告示把其中一小部分分隔開，不讓人進入。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 51,
+        "volume": 1,
+        "page": 13,
+        "answer": "This phone was already expensive, and the seller has marked it up once more.",
+        "answerZh": "這部電話本來已很昂貴，賣家現在又再加價。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 52,
+        "volume": 1,
+        "page": 13,
+        "answer": "Would you mark a student down for using American spelling?",
+        "answerZh": "你會否因學生使用美式串法而扣分？",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 53,
+        "volume": 1,
+        "page": 14,
+        "answer": "The children did not mark out the whole football pitch; they only marked out the goal area.",
+        "answerZh": "孩子們沒有劃出整個足球場，只劃出了龍門區。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 54,
+        "volume": 1,
+        "page": 14,
+        "answer": "We had not marked Ella down as a fast runner until she won the race.",
+        "answerZh": "在埃拉勝出比賽前，我們從未認定她是一名速度快的跑手。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 55,
+        "volume": 1,
+        "page": 14,
+        "answer": "The fruit is still fresh, but the shop has marked it down because it must be sold today.",
+        "answerZh": "水果仍然新鮮，但店舖因為必須在今天售出而把它減價。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 56,
+        "volume": 1,
+        "page": 14,
+        "answer": "What marked the new pupil out from the others was how kindly he helped everyone.",
+        "answerZh": "令這名新生顯得與眾不同的，是他友善地幫助每一個人。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 57,
+        "volume": 1,
+        "page": 14,
+        "answer": "Although the report contained good ideas, the teacher marked Nina down because she had not checked her spelling.",
+        "answerZh": "雖然報告包含不少好構思，但妮娜沒有檢查串字，所以老師扣了她的分。",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 58,
+        "volume": 1,
+        "page": 14,
+        "answer": "Before anyone moved the furniture, Leo used tape to mark out the position of each table.",
+        "answerZh": "在任何人搬動傢俬前，里奧先用膠帶標示每張桌子應放的位置。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 59,
+        "volume": 1,
+        "page": 15,
+        "answer": "The two designs used the same colours, but one clear message marked the second design out from the first.",
+        "answerZh": "兩個設計使用相同顏色，但一個清晰的訊息令第二個設計與第一個顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 60,
+        "volume": 1,
+        "page": 15,
+        "answer": "The concert is nearly full, so the organiser may mark the remaining tickets up before Friday.",
+        "answerZh": "演唱會接近滿座，所以主辦單位可能在星期五前提高餘下門票的價格。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 61,
+        "volume": 1,
+        "page": 15,
+        "answer": "When water began to fall from the ceiling, staff quickly marked the area below off with chairs and tape.",
+        "answerZh": "天花板開始滴水時，職員迅速用椅子和膠帶把下面的範圍分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 62,
+        "volume": 1,
+        "page": 15,
+        "answer": "Even before the interview ended, the manager had marked Yusuf down as the best person for the job.",
+        "answerZh": "面試尚未結束，經理已認定優素福是這份工作的最佳人選。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      },
+      {
+        "localNumber": 63,
+        "volume": 1,
+        "page": 15,
+        "answer": "These cakes will not be fresh tomorrow, so the café should mark them down before closing.",
+        "answerZh": "這些蛋糕明天便不再新鮮，所以咖啡店應在關門前把它們減價。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 64,
+        "volume": 1,
+        "page": 16,
+        "answer": "The route was not easy to see, so volunteers placed small flags to mark it out clearly.",
+        "answerZh": "路線不容易看清，所以義工放置小旗幟，把路線清楚標示出來。",
+        "targetForm": "mark something out",
+        "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+      },
+      {
+        "localNumber": 65,
+        "volume": 1,
+        "page": 16,
+        "answer": "Why was Jay’s work marked down even though all his ideas were correct?",
+        "answerZh": "雖然阿積所有構思都正確，為甚麼他的作品仍被扣分？",
+        "targetForm": "mark somebody/something down",
+        "targetMeaningZh": "因錯誤或不足而扣分"
+      },
+      {
+        "localNumber": 66,
+        "volume": 1,
+        "page": 16,
+        "answer": "The road was still open, but cones marked off the part where the workers were repairing it.",
+        "answerZh": "道路仍然開放，但雪糕筒把工人維修的部分分隔開來。",
+        "targetForm": "mark something off",
+        "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+      },
+      {
+        "localNumber": 67,
+        "volume": 1,
+        "page": 16,
+        "answer": "Many pupils sang well, but Ava’s clear words and strong voice marked her out from the others.",
+        "answerZh": "很多學生都唱得很好，但艾娃清晰的咬字和有力的聲線令她與其他人顯得不同。",
+        "targetForm": "mark somebody/something out",
+        "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+      },
+      {
+        "localNumber": 68,
+        "volume": 1,
+        "page": 16,
+        "answer": "The coat had been in the window for months before the shop finally marked it down to half price.",
+        "answerZh": "這件外套在櫥窗內放了幾個月，店舖最後才把它減至半價。",
+        "targetForm": "mark something down",
+        "targetMeaningZh": "減價；調低價格"
+      },
+      {
+        "localNumber": 69,
+        "volume": 1,
+        "page": 16,
+        "answer": "If the shop marks this used bike up any further, it will cost almost as much as a new one.",
+        "answerZh": "如果店舖再把這輛二手單車加價，它的價格便會差不多和新車一樣。",
+        "targetForm": "mark something up",
+        "targetMeaningZh": "加價；調高價格"
+      },
+      {
+        "localNumber": 70,
+        "volume": 1,
+        "page": 17,
+        "answer": "I was wrong to mark Daniel down as unfriendly; he was simply nervous in new situations.",
+        "answerZh": "我錯把丹尼爾看作不友善的人；他只是在新環境中感到緊張。",
+        "targetForm": "mark somebody down as something",
+        "targetMeaningZh": "把某人看作或認定為某類人"
+      }
+    ]
+  },
+  "Phrasal Verb 112 - TIP.pdf": {
+    "maxPage": 16
+  },
+  "Phrasal Verbs 247 - GET (Volume 3).pdf": {
+    "answerPatches": {
+      "1:80": {
+        "localNumber": 80,
+        "volume": 1,
+        "page": 35,
+        "answer": "It took several attempts to get our message through to the group.",
+        "answerZh": "我們嘗試了幾次，才成功把訊息傳達給小組。",
+        "targetForm": "get something through to somebody",
+        "targetMeaningZh": "成功把訊息傳達給某人"
+      }
+    }
+  }
+}

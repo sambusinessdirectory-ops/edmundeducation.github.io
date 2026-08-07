@@ -1,0 +1,1199 @@
+{
+  "id": "phrasal-verb-324",
+  "order": 324,
+  "slug": "puff",
+  "version": "1",
+  "title": "PUFF 動詞片語",
+  "titleEn": "Puff",
+  "titleZh": "PUFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 309 - PUFF.pdf",
+    "sourceNumber": 309,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PUFF 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PUFF."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PUFF",
+      "highlight": "PUFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "He sat outside, puffing away at his pipe.",
+      "zh": "他坐在外面,一口接一口地抽着煙斗。",
+      "highlight": "puffing away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She puffed out her cheeks in anger.",
+      "zh": "她生氣地鼓起雙頰。",
+      "highlight": "puffed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The skin around his eye began to puff up.",
+      "zh": "他眼睛周圍的皮膚開始腫起。",
+      "highlight": "puff up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "一口接一口地抽煙;不停地抽煙；鼓起臉頰、胸膛或其他身體部位；腫起;令某個身體部位腫起",
+    "en": "puff away / puff away at or on something; puff something out; puff up / puff something up",
+    "naturalZh": [
+      "一口接一口地抽煙;不停地抽煙",
+      "鼓起臉頰、胸膛或其他身體部位",
+      "腫起;令某個身體部位腫起"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "puff away / puff away at or on something",
+      "titleZh": "一口接一口地抽煙;不停地抽煙",
+      "titleEn": "puff away / puff away at or on something",
+      "descriptionZh": "一口接一口地抽煙;不停地抽煙",
+      "descriptionEn": "He sat outside, puffing away at his pipe.",
+      "examples": [
+        {
+          "en": "He sat outside, puffing away at his pipe.",
+          "zh": "他坐在外面,一口接一口地抽着煙斗。",
+          "highlight": "puffing away at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "puff something out",
+      "titleZh": "鼓起臉頰、胸膛或其他身體部位",
+      "titleEn": "puff something out",
+      "descriptionZh": "鼓起臉頰、胸膛或其他身體部位",
+      "descriptionEn": "She puffed out her cheeks in anger.",
+      "examples": [
+        {
+          "en": "She puffed out her cheeks in anger.",
+          "zh": "她生氣地鼓起雙頰。",
+          "highlight": "puffed out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "puff up / puff something up",
+      "titleZh": "腫起;令某個身體部位腫起",
+      "titleEn": "puff up / puff something up",
+      "descriptionZh": "腫起;令某個身體部位腫起",
+      "descriptionEn": "The skin around his eye began to puff up.",
+      "examples": [
+        {
+          "en": "The skin around his eye began to puff up.",
+          "zh": "他眼睛周圍的皮膚開始腫起。",
+          "highlight": "puff up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PUFF 片語動詞的實際用途",
+    "labelEn": "PUFF Phrasal Verbs in Use",
+    "summaryZh": "puff away 可以描述成年人一口接一口地抽煙斗、雪茄或香煙。；puff something out 可以描述某人鼓起臉頰或挺起胸膛,以表達憤怒、自豪或自信。；puff up 可以描述臉、手、嘴唇或其他身體部位因撞擊、昆蟲叮咬或身體反應而腫起。；手部可以自行腫起,而昆蟲叮咬也可以令手部腫起。",
+    "summaryEn": "Puff away can describe an adult repeatedly smoking a pipe, cigar or cigarette. Puff something out can describe someone filling their cheeks with air or pushing their chest forward to show anger, pride or confidence. Puff up can describe a face, hand, lip or another body part becoming swollen after a hit, bite or reaction. A hand can puff up, while an insect bite can puff the hand up.",
+    "contextsZh": [
+      "描述某人不停抽煙",
+      "描述清楚的身體語言",
+      "談論身體腫脹",
+      "表達自行出現的變化或由其他事物引起的變化"
+    ],
+    "contextsEn": [
+      "Describe someone continuing to smoke",
+      "Describe clear body language",
+      "Talk about swelling",
+      "Show whether something changes by itself or is affected by something else"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PUFF 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PUFF expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "puff away / puff away at or on something",
+    "fixedHighlight": "puff away / puff away at or on something",
+    "fixedZh": "閱讀整句,選出意思相同的 PUFF 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PUFF expression that gives the same meaning.",
+    "correct": "puffing away at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；核心表達是 puff away。at 或 on 只是補充說明那個人正在抽甚麼:He puffed away.He puffed away at his pipe.He puffed away on a cigar.；在 PUFF ... OUT 或 PUFF ... UP 中使用 it 或 them 時,把它放在中間:puff them outpuff it up",
+    "variableEn": "Keep the same people, things, time and meaning. The core expression is puff away. At or on simply tells us what the person is smoking: He puffed away. He puffed away at his pipe. He puffed away on a cigar. When using it or them with PUFF... OUT or PUFF... UP, place the word in the middle: puff them out puff it up",
+    "variableItemsZh": [
+      "puff away / puff away at or on something",
+      "puff something out",
+      "puff up / puff something up"
+    ],
+    "variableItemsEn": [
+      "puff away / puff away at or on something",
+      "puff something out",
+      "puff up / puff something up"
+    ],
+    "forms": [
+      {
+        "formZh": "一口接一口地抽煙;不停地抽煙",
+        "formEn": "puff away / puff away at or on something",
+        "exampleZh": "他坐在外面,一口接一口地抽着煙斗。",
+        "exampleEn": "He sat outside, puffing away at his pipe.",
+        "highlight": "puffing away at"
+      },
+      {
+        "formZh": "鼓起臉頰、胸膛或其他身體部位",
+        "formEn": "puff something out",
+        "exampleZh": "她生氣地鼓起雙頰。",
+        "exampleEn": "She puffed out her cheeks in anger.",
+        "highlight": "puffed out"
+      },
+      {
+        "formZh": "腫起;令某個身體部位腫起",
+        "formEn": "puff up / puff something up",
+        "exampleZh": "他眼睛周圍的皮膚開始腫起。",
+        "exampleEn": "The skin around his eye began to puff up.",
+        "highlight": "puff up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "一口接一口地抽煙;不停地抽煙",
+      "titleEn": "puff away / puff away at or on something",
+      "formula": "puff away / puff away at or on something",
+      "highlight": "puff away / puff away at or on something",
+      "descriptionZh": "一口接一口地抽煙;不停地抽煙",
+      "descriptionEn": "He sat outside, puffing away at his pipe.",
+      "examples": [
+        {
+          "en": "He sat outside, puffing away at his pipe.",
+          "zh": "他坐在外面,一口接一口地抽着煙斗。",
+          "highlight": "puffing away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "鼓起臉頰、胸膛或其他身體部位",
+      "titleEn": "puff something out",
+      "formula": "puff something out",
+      "highlight": "puff something out",
+      "descriptionZh": "鼓起臉頰、胸膛或其他身體部位",
+      "descriptionEn": "She puffed out her cheeks in anger.",
+      "examples": [
+        {
+          "en": "She puffed out her cheeks in anger.",
+          "zh": "她生氣地鼓起雙頰。",
+          "highlight": "puffed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "腫起;令某個身體部位腫起",
+      "titleEn": "puff up / puff something up",
+      "formula": "puff up / puff something up",
+      "highlight": "puff up / puff something up",
+      "descriptionZh": "腫起;令某個身體部位腫起",
+      "descriptionEn": "The skin around his eye began to puff up.",
+      "examples": [
+        {
+          "en": "The skin around his eye began to puff up.",
+          "zh": "他眼睛周圍的皮膚開始腫起。",
+          "highlight": "puff up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某人不停抽煙",
+      "titleEn": "Describe someone continuing to smoke",
+      "zh": "puff away 可以描述成年人一口接一口地抽煙斗、雪茄或香煙。",
+      "en": "Puff away can describe an adult repeatedly smoking a pipe, cigar or cigarette."
+    },
+    {
+      "titleZh": "描述清楚的身體語言",
+      "titleEn": "Describe clear body language",
+      "zh": "puff something out 可以描述某人鼓起臉頰或挺起胸膛,以表達憤怒、自豪或自信。",
+      "en": "Puff something out can describe someone filling their cheeks with air or pushing their chest forward to show anger, pride or confidence."
+    },
+    {
+      "titleZh": "談論身體腫脹",
+      "titleEn": "Talk about swelling",
+      "zh": "puff up 可以描述臉、手、嘴唇或其他身體部位因撞擊、昆蟲叮咬或身體反應而腫起。",
+      "en": "Puff up can describe a face, hand, lip or another body part becoming swollen after a hit, bite or reaction."
+    },
+    {
+      "titleZh": "表達自行出現的變化或由其他事物引起的變化",
+      "titleEn": "Show whether something changes by itself or is affected by something else",
+      "zh": "手部可以自行腫起,而昆蟲叮咬也可以令手部腫起。",
+      "en": "A hand can puff up, while an insect bite can puff the hand up."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某人不停抽煙",
+      "描述清楚的身體語言",
+      "談論身體腫脹",
+      "表達自行出現的變化或由其他事物引起的變化"
+    ],
+    "contextsEn": [
+      "Describe someone continuing to smoke",
+      "Describe clear body language",
+      "Talk about swelling",
+      "Show whether something changes by itself or is affected by something else"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某人不停抽煙",
+        "titleEn": "Describe someone continuing to smoke",
+        "zh": "puff away 可以描述成年人一口接一口地抽煙斗、雪茄或香煙。",
+        "en": "Puff away can describe an adult repeatedly smoking a pipe, cigar or cigarette.",
+        "examples": [
+          {
+            "en": "He sat outside, puffing away at his pipe.",
+            "zh": "他坐在外面,一口接一口地抽着煙斗。",
+            "highlight": "puffing away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述清楚的身體語言",
+        "titleEn": "Describe clear body language",
+        "zh": "puff something out 可以描述某人鼓起臉頰或挺起胸膛,以表達憤怒、自豪或自信。",
+        "en": "Puff something out can describe someone filling their cheeks with air or pushing their chest forward to show anger, pride or confidence.",
+        "examples": [
+          {
+            "en": "She puffed out her cheeks in anger.",
+            "zh": "她生氣地鼓起雙頰。",
+            "highlight": "puffed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論身體腫脹",
+        "titleEn": "Talk about swelling",
+        "zh": "puff up 可以描述臉、手、嘴唇或其他身體部位因撞擊、昆蟲叮咬或身體反應而腫起。",
+        "en": "Puff up can describe a face, hand, lip or another body part becoming swollen after a hit, bite or reaction.",
+        "examples": [
+          {
+            "en": "The skin around his eye began to puff up.",
+            "zh": "他眼睛周圍的皮膚開始腫起。",
+            "highlight": "puff up"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達自行出現的變化或由其他事物引起的變化",
+        "titleEn": "Show whether something changes by itself or is affected by something else",
+        "zh": "手部可以自行腫起,而昆蟲叮咬也可以令手部腫起。",
+        "en": "A hand can puff up, while an insect bite can puff the hand up.",
+        "examples": [
+          {
+            "en": "He sat outside, puffing away at his pipe.",
+            "zh": "他坐在外面,一口接一口地抽着煙斗。",
+            "highlight": "puffing away at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PUFF 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PUFF expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PUFF 片語動詞。",
+      "en": "Read the whole sentence and choose the PUFF expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "核心表達是 puff away。at 或 on 只是補充說明那個人正在抽甚麼:He puffed away.He puffed away at his pipe.He puffed away on a cigar.",
+      "titleEn": "The core expression is puff away.",
+      "zh": "核心表達是 puff away。at 或 on 只是補充說明那個人正在抽甚麼:He puffed away.He puffed away at his pipe.He puffed away on a cigar.",
+      "en": "The core expression is puff away. At or on simply tells us what the person is smoking: He puffed away. He puffed away at his pipe. He puffed away on a cigar."
+    },
+    {
+      "titleZh": "在 PUFF ... OUT 或 PUFF ... UP 中使用 it 或 them 時,把它放在中間:puff them outpuff it up",
+      "titleEn": "When using it or them with PUFF.",
+      "zh": "在 PUFF ... OUT 或 PUFF ... UP 中使用 it 或 them 時,把它放在中間:puff them outpuff it up",
+      "en": "When using it or them with PUFF... OUT or PUFF... UP, place the word in the middle: puff them out puff it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PUFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PUFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PUFF 動詞片語句子改寫練習",
+    "titleEn": "PUFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PUFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PUFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-324-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Rita filled both cheeks with air to make a funny face.",
+      "promptZh": "麗塔鼓起雙頰,扮出一個有趣的表情。",
+      "starter": "Rita",
+      "answer": "Rita puffed out both cheeks to make a funny face.",
+      "answerZh": "麗塔鼓起雙頰,扮出一個有趣的表情。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "After the bee sting, his hand became swollen.",
+      "promptZh": "被蜜蜂螫傷後,他的手腫了起來。",
+      "starter": "After",
+      "answer": "After the bee sting, his hand puffed up.",
+      "answerZh": "被蜜蜂螫傷後,他的手腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "An older man sat by the window and kept smoking his pipe.",
+      "promptZh": "一名年長男子坐在窗邊,不停地抽着煙斗。",
+      "starter": "An",
+      "answer": "An older man sat by the window, puffing away at his pipe.",
+      "answerZh": "一名年長男子坐在窗邊,一口接一口地抽着煙斗。",
+      "highlight": "puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The proud winner pushed his chest forward when the crowd cheered.",
+      "promptZh": "群眾歡呼時,那名自豪的勝出者挺起胸膛。",
+      "starter": "The",
+      "answer": "The proud winner puffed out his chest when the crowd cheered.",
+      "answerZh": "群眾歡呼時,那名自豪的勝出者挺起胸膛。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Overnight, the area around her eye became swollen.",
+      "promptZh": "一夜之間,她眼睛周圍的位置腫了起來。",
+      "starter": "Overnight",
+      "answer": "Overnight, the area around her eye puffed up.",
+      "answerZh": "一夜之間,她眼睛周圍的位置腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Daniel sat on the balcony and continued smoking a cigar.",
+      "promptZh": "丹尼爾坐在露台上,不停地抽着雪茄。",
+      "starter": "Daniel",
+      "answer": "Daniel sat on the balcony, puffing away on a cigar.",
+      "answerZh": "丹尼爾坐在露台上,一口接一口地抽着雪茄。",
+      "highlight": "puffing away on",
+      "targetForm": "puff away on something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "To look larger, the small bird pushed its chest forward.",
+      "promptZh": "為了讓自己看起來更大,那隻小鳥挺起胸膛。",
+      "starter": "To",
+      "answer": "To look larger, the small bird puffed out its chest.",
+      "answerZh": "為了讓自己看起來更大,那隻小鳥挺起胸膛。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The insect bite made her ankle swell.",
+      "promptZh": "昆蟲叮咬令她的腳踝腫了起來。",
+      "starter": "The",
+      "answer": "The insect bite puffed her ankle up.",
+      "answerZh": "昆蟲叮咬令她的腳踝腫了起來。",
+      "highlight": "puffed",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "At the café, the customer kept smoking his cigarette.",
+      "promptZh": "在咖啡店裏,那名顧客不停地抽着香煙。",
+      "starter": "At",
+      "answer": "At the café, the customer puffed away at his cigarette.",
+      "answerZh": "在咖啡店裏,那名顧客一口接一口地抽着香煙。",
+      "highlight": "puffed away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben filled his cheeks with air before blowing out the candles.",
+      "promptZh": "賓在吹熄蠟燭前鼓起雙頰。",
+      "starter": "Ben",
+      "answer": "Ben puffed out his cheeks before blowing out the candles.",
+      "answerZh": "賓在吹熄蠟燭前鼓起雙頰。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Her eyes are becoming swollen after she cried for a long time.",
+      "promptZh": "她哭了很久後,雙眼正開始腫起來。",
+      "starter": "Her",
+      "answer": "Her eyes are puffing up after she cried for a long time.",
+      "answerZh": "她哭了很久後,雙眼正開始腫起來。",
+      "highlight": "puffing up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "By the door, the actor stood and continued smoking a cigar.",
+      "promptZh": "那名演員站在門邊,不停地抽着雪茄。",
+      "starter": "By",
+      "answer": "By the door, the actor stood puffing away on a cigar.",
+      "answerZh": "那名演員站在門邊,一口接一口地抽着雪茄。",
+      "highlight": "puffing away on",
+      "targetForm": "puff away on something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Why does the bird push its chest forward when another bird comes near?",
+      "promptZh": "另一隻鳥走近時,牠為甚麼會挺起胸膛?",
+      "starter": "Why",
+      "answer": "Why does the bird puff out its chest when another bird comes near?",
+      "answerZh": "另一隻鳥走近時,牠為甚麼會挺起胸膛?",
+      "highlight": "puff out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "An allergic reaction has made his face swell.",
+      "promptZh": "過敏反應令他的臉腫了起來。",
+      "starter": "An",
+      "answer": "An allergic reaction has puffed his face up.",
+      "answerZh": "過敏反應令他的臉腫了起來。",
+      "highlight": "puffed",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "They will sit outside and continue smoking their pipes.",
+      "promptZh": "他們會坐在外面,不停地抽着煙斗。",
+      "starter": "They",
+      "answer": "They will sit outside and puff away at their pipes.",
+      "answerZh": "他們會坐在外面,一口接一口地抽着煙斗。",
+      "highlight": "puff away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Nora is filling her cheeks with air for the photo.",
+      "promptZh": "諾拉正為了拍照而鼓起雙頰。",
+      "starter": "Nora",
+      "answer": "Nora is puffing out her cheeks for the photo.",
+      "answerZh": "諾拉正為了拍照而鼓起雙頰。",
+      "highlight": "puffing out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "His lip did not become swollen after the fall.",
+      "promptZh": "他跌倒後,嘴唇並沒有腫起來。",
+      "starter": "His",
+      "answer": "His lip did not puff up after the fall.",
+      "answerZh": "他跌倒後,嘴唇並沒有腫起來。",
+      "highlight": "puff up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Did the visitor keep smoking his pipe during the break?",
+      "promptZh": "那名訪客在休息期間有一直抽煙斗嗎?",
+      "starter": "Did",
+      "answer": "Did the visitor puff away at his pipe during the break?",
+      "answerZh": "那名訪客在休息期間有一直抽煙斗嗎?",
+      "highlight": "puff away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The peacock has pushed its chest forward to look larger.",
+      "promptZh": "那隻孔雀挺起胸膛,讓自己看起來更大。",
+      "starter": "The",
+      "answer": "The peacock has puffed out its chest to look larger.",
+      "answerZh": "那隻孔雀挺起胸膛,讓自己看起來更大。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Too little sleep can make your eyes look swollen.",
+      "promptZh": "睡眠不足可以令你的雙眼看起來浮腫。",
+      "starter": "Too",
+      "answer": "Too little sleep can puff your eyes up.",
+      "answerZh": "睡眠不足可以令你的雙眼看起來浮腫。",
+      "highlight": "puff",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "He lit the pipe. A minute later, he was still smoking it steadily.",
+      "promptZh": "他點燃了煙斗。一分鐘後,他仍然一口接一口地抽着它。",
+      "starter": "He",
+      "answer": "He lit the pipe. A minute later, he was still puffing away at it.",
+      "answerZh": "他點燃了煙斗。一分鐘後,他仍然一口接一口地抽着它。",
+      "highlight": "puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Her cheeks looked flat in the funny photo. The photographer asked her to fill them with air.",
+      "promptZh": "她在那張有趣的照片中雙頰看起來很平。攝影師請她把雙頰鼓起來。",
+      "starter": "Her",
+      "answer": "Her cheeks looked flat in the funny photo. The photographer asked her to puff them out.",
+      "answerZh": "她在那張有趣的照片中雙頰看起來很平。攝影師請她把雙頰鼓起來。",
+      "highlight": "puff",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "His thumb was stung by a bee. The sting made it swollen within minutes.",
+      "promptZh": "他的拇指被蜜蜂螫傷。幾分鐘內,螫傷便令它腫了起來。",
+      "starter": "His",
+      "answer": "His thumb was stung by a bee. The sting puffed it up within minutes.",
+      "answerZh": "他的拇指被蜜蜂螫傷。幾分鐘內,螫傷便令它腫了起來。",
+      "highlight": "puffed",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "While she waited, the woman remained by the window and continued smoking a cigarette.",
+      "promptZh": "等候期間,那名女子留在窗邊,不停地抽着香煙。",
+      "starter": "While",
+      "answer": "While she waited, the woman remained by the window, puffing away at a cigarette.",
+      "answerZh": "等候期間,那名女子留在窗邊,一口接一口地抽着香煙。",
+      "highlight": "puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "When it faced another bird, the sparrow pushed its chest forward.",
+      "promptZh": "面對另一隻鳥時,那隻麻雀挺起胸膛。",
+      "starter": "When",
+      "answer": "When it faced another bird, the sparrow puffed its chest out.",
+      "answerZh": "面對另一隻鳥時,那隻麻雀挺起胸膛。",
+      "highlight": "puffed",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The blow made both of his cheeks swollen.",
+      "promptZh": "那一下撞擊令他的兩邊臉頰都腫了起來。",
+      "starter": "The",
+      "answer": "The blow puffed up both of his cheeks.",
+      "answerZh": "那一下撞擊令他的兩邊臉頰都腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "She did not stop smoking her pipe, even when the room became cold.",
+      "promptZh": "即使房間變冷,她仍沒有停止抽煙斗。",
+      "starter": "She",
+      "answer": "She kept puffing away at her pipe, even when the room became cold.",
+      "answerZh": "即使房間變冷,她仍不停地抽着煙斗。",
+      "highlight": "kept puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Do not fill your cheeks with air while you are drinking.",
+      "promptZh": "喝東西時不要鼓起雙頰。",
+      "starter": "Do",
+      "answer": "Do not puff out your cheeks while you are drinking.",
+      "answerZh": "喝東西時不要鼓起雙頰。",
+      "highlight": "puff out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The area around his eye was becoming more and more swollen.",
+      "promptZh": "他眼睛周圍的位置變得愈來愈腫。",
+      "starter": "The",
+      "answer": "The area around his eye was puffing up more and more.",
+      "answerZh": "他眼睛周圍的位置變得愈來愈腫。",
+      "highlight": "puffing up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "From the garden, we could see him continuing to smoke his cigar.",
+      "promptZh": "我們從花園看見他不停地抽着雪茄。",
+      "starter": "From",
+      "answer": "From the garden, we could see him puffing away on his cigar.",
+      "answerZh": "我們從花園看見他一口接一口地抽着雪茄。",
+      "highlight": "puffing away on",
+      "targetForm": "puff away on something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Leo was not hurt; he only filled his cheeks with air to look silly.",
+      "promptZh": "里奧並沒有受傷;他只是鼓起雙頰,扮出滑稽的樣子。",
+      "starter": "Leo",
+      "answer": "Leo was not hurt; he only puffed out his cheeks to look silly.",
+      "answerZh": "里奧並沒有受傷;他只是鼓起雙頰,扮出滑稽的樣子。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Beside the fire, the man quietly continued smoking a pipe.",
+      "promptZh": "那名男子在火爐旁靜靜地不停抽煙斗。",
+      "starter": "Beside",
+      "answer": "Beside the fire, the man quietly puffed away at a pipe.",
+      "answerZh": "那名男子在火爐旁靜靜地一口接一口抽着煙斗。",
+      "highlight": "puffed away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After the dentist worked on her tooth, one side of her face became swollen.",
+      "promptZh": "牙醫處理她的牙齒後,她其中一邊臉腫了起來。",
+      "starter": "After",
+      "answer": "After the dentist worked on her tooth, one side of her face puffed up.",
+      "answerZh": "牙醫處理她的牙齒後,她其中一邊臉腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The runner pushed his chest forward proudly when his name was announced.",
+      "promptZh": "大會讀出那名跑手的名字時,他自豪地挺起胸膛。",
+      "starter": "The",
+      "answer": "The runner puffed out his chest proudly when his name was announced.",
+      "answerZh": "大會讀出那名跑手的名字時,他自豪地挺起胸膛。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Even after everyone else left the garden, the guest continued smoking his cigar.",
+      "promptZh": "即使其他人都離開了花園,那名客人仍不停地抽着雪茄。",
+      "starter": "Even",
+      "answer": "Even after everyone else left the garden, the guest kept puffing away on his cigar.",
+      "answerZh": "即使其他人都離開了花園,那名客人仍一口接一口地抽着雪茄。",
+      "highlight": "kept puffing away on",
+      "targetForm": "puff away on something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Too much salty food made the area around her eyes look swollen the next morning.",
+      "promptZh": "吃了太多鹹食物後,她雙眼周圍的位置翌日看起來很浮腫。",
+      "starter": "Too",
+      "answer": "Too much salty food puffed up the area around her eyes the next morning.",
+      "answerZh": "吃了太多鹹食物後,她雙眼周圍的位置翌日變得浮腫。",
+      "highlight": "puffed up",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The trumpet player filled his cheeks with air before playing the long note.",
+      "promptZh": "小號手在吹奏那個長音前鼓起雙頰。",
+      "starter": "The",
+      "answer": "The trumpet player puffed out his cheeks before playing the long note.",
+      "answerZh": "小號手在吹奏那個長音前鼓起雙頰。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "While the others talked, Martin kept drawing smoke from his pipe again and again.",
+      "promptZh": "其他人交談時,馬丁一口接一口地抽着煙斗。",
+      "starter": "While",
+      "answer": "While the others talked, Martin puffed away at his pipe.",
+      "answerZh": "其他人交談時,馬丁一口接一口地抽着煙斗。",
+      "highlight": "puffed away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The hit did not make his whole face swollen; only his lower lip became swollen.",
+      "promptZh": "那一下撞擊沒有令他的整張臉腫起來;只有下唇腫了。",
+      "starter": "The",
+      "answer": "The hit did not make his whole face puff up; only his lower lip puffed up.",
+      "answerZh": "那一下撞擊沒有令他的整張臉腫起來;只有下唇腫了。",
+      "highlight": "puff up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "She was not injured; she simply filled both cheeks with air because she was annoyed.",
+      "promptZh": "她並沒有受傷;她只是因為感到不滿而鼓起雙頰。",
+      "starter": "She",
+      "answer": "She was not injured; she simply puffed out both cheeks because she was annoyed.",
+      "answerZh": "她並沒有受傷;她只是因為感到不滿而鼓起雙頰。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After an insect bit his hand, one finger slowly became swollen while the others stayed normal.",
+      "promptZh": "昆蟲叮咬他的手後,其中一隻手指慢慢腫起來,其他手指則沒有異樣。",
+      "starter": "After",
+      "answer": "After an insect bit his hand, one finger slowly puffed up while the others stayed normal.",
+      "answerZh": "昆蟲叮咬他的手後,其中一隻手指慢慢腫起來,其他手指則沒有異樣。",
+      "highlight": "puffed up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The little bird faced a larger bird, pushed its chest forward and refused to move.",
+      "promptZh": "那隻小鳥面對一隻較大的鳥,挺起胸膛,拒絕離開。",
+      "starter": "The",
+      "answer": "The little bird faced a larger bird, puffed out its chest and refused to move.",
+      "answerZh": "那隻小鳥面對一隻較大的鳥,挺起胸膛,拒絕離開。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Because the train was delayed, the man stood at the far end of the platform and continued smoking his pipe while he waited.",
+      "promptZh": "由於列車延誤,那名男子站在月台遠處,等候期間不停地抽着煙斗。",
+      "starter": "Because",
+      "answer": "Because the train was delayed, the man stood at the far end of the platform, puffing away at his pipe while he waited.",
+      "answerZh": "由於列車延誤,那名男子站在月台遠處,等候期間一口接一口地抽着煙斗。",
+      "highlight": "puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "At first, the mark looked small, but within an hour the skin around it had become swollen.",
+      "promptZh": "起初那個傷痕看起來很小,但一小時內,周圍的皮膚已經腫了起來。",
+      "starter": "At",
+      "answer": "At first, the mark looked small, but within an hour the skin around it had puffed up.",
+      "answerZh": "起初那個傷痕看起來很小,但一小時內,周圍的皮膚已經腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff up",
+      "targetMeaningZh": "腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "When the photographer asked for a funny face, Chloe filled her cheeks with air and crossed her eyes.",
+      "promptZh": "攝影師請克洛伊扮一個有趣表情時,她鼓起雙頰並把雙眼望向中間。",
+      "starter": "When",
+      "answer": "When the photographer asked for a funny face, Chloe puffed out her cheeks and crossed her eyes.",
+      "answerZh": "攝影師請克洛伊扮一個有趣表情時,她鼓起雙頰並把雙眼望向中間。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the party had ended, one guest remained on the balcony, steadily smoking a cigar and watching the street.",
+      "promptZh": "雖然派對已經結束,但一名客人仍留在露台上,一口接一口地抽着雪茄,並望着街道。",
+      "starter": "Although",
+      "answer": "Although the party had ended, one guest remained on the balcony, puffing away on a cigar and watching the street.",
+      "answerZh": "雖然派對已經結束,但一名客人仍留在露台上,一口接一口地抽着雪茄,並望着街道。",
+      "highlight": "puffing away on",
+      "targetForm": "puff away on something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A new face cream made the skin below both eyes swollen by morning.",
+      "promptZh": "一款新的面霜令她雙眼下方的皮膚在早上前腫了起來。",
+      "starter": "A",
+      "answer": "A new face cream puffed up the skin below both eyes by morning.",
+      "answerZh": "一款新的面霜令她雙眼下方的皮膚在早上前腫了起來。",
+      "highlight": "puffed up",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    },
+    {
+      "id": "phrasal-verb-324-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before walking onto the stage, the singer pushed her chest forward to look confident.",
+      "promptZh": "走上舞台前,那名歌手挺起胸膛,讓自己看起來更有自信。",
+      "starter": "Before",
+      "answer": "Before walking onto the stage, the singer puffed out her chest to look confident.",
+      "answerZh": "走上舞台前,那名歌手挺起胸膛,讓自己看起來更有自信。",
+      "highlight": "puffed out",
+      "targetForm": "puff something out",
+      "targetMeaningZh": "挺起或鼓起某個身體部位"
+    },
+    {
+      "id": "phrasal-verb-324-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the doctor had told him not to smoke, the man sat outside and continued smoking a cigarette during the whole break.",
+      "promptZh": "雖然醫生曾勸他不要吸煙,但那名男子仍坐在外面,在整段休息時間不停地抽着香煙。",
+      "starter": "Although",
+      "answer": "Although the doctor had told him not to smoke, the man sat outside, puffing away at a cigarette throughout the break.",
+      "answerZh": "雖然醫生曾勸他不要吸煙,但那名男子仍坐在外面,在整段休息時間一口接一口地抽着香煙。",
+      "highlight": "puffing away at",
+      "targetForm": "puff away at something",
+      "targetMeaningZh": "不停地抽某種煙"
+    },
+    {
+      "id": "phrasal-verb-324-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "The first hit did not leave a mark, but the second made his cheek swollen within minutes.",
+      "promptZh": "第一次撞擊沒有留下痕跡,但第二次撞擊在幾分鐘內令他的臉頰腫了起來。",
+      "starter": "The",
+      "answer": "The first hit did not leave a mark, but the second puffed his cheek up within minutes.",
+      "answerZh": "第一次撞擊沒有留下痕跡,但第二次撞擊在幾分鐘內令他的臉頰腫了起來。",
+      "highlight": "puffed",
+      "targetForm": "puff something up",
+      "targetMeaningZh": "令某個身體部位腫起"
+    }
+  ]
+}

@@ -1,0 +1,1723 @@
+{
+  "id": "phrasal-verb-282",
+  "order": 282,
+  "slug": "sign",
+  "version": "1",
+  "title": "SIGN 動詞片語",
+  "titleEn": "Sign",
+  "titleZh": "SIGN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 267 - SIGN.pdf",
+    "sourceNumber": 267,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SIGN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SIGN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SIGN",
+      "highlight": "SIGN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "All visitors must sign in on arrival.",
+      "zh": "所有訪客到達時都必須登記。",
+      "highlight": "sign in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I will sign off now and post this letter.",
+      "zh": "我現在會結束這封信,然後把它寄出。",
+      "highlight": "sign off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The manager signed off all the invoices.",
+      "zh": "經理批准了所有發票。",
+      "highlight": "signed off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "到達某地方時登記;替某人辦理到達登記；在信件、訊息、節目或通話結束時告別或結束；檢查後正式批准已完成的工作、帳單或費用；正式批准計劃、報告、建議或決定；簽名確認已收到某物；登記借走或帶走某物；簽署文件,正式把財產、權利或控制權轉讓給某人；報名參加;同意加入;替某人報名;聘請某人參與工作",
+    "en": "sign in; sign somebody in; sign off; sign something off; sign off on something; sign for something; sign something out; sign something over to somebody; sign up; sign somebody up; sign on; sign somebody on",
+    "naturalZh": [
+      "到達某地方時登記;替某人辦理到達登記",
+      "在信件、訊息、節目或通話結束時告別或結束",
+      "檢查後正式批准已完成的工作、帳單或費用",
+      "正式批准計劃、報告、建議或決定",
+      "簽名確認已收到某物",
+      "登記借走或帶走某物",
+      "簽署文件,正式把財產、權利或控制權轉讓給某人",
+      "報名參加;同意加入;替某人報名;聘請某人參與工作"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sign in; sign somebody in",
+      "titleZh": "到達某地方時登記;替某人辦理到達登記",
+      "titleEn": "sign in; sign somebody in",
+      "descriptionZh": "到達某地方時登記;替某人辦理到達登記",
+      "descriptionEn": "All visitors must sign in on arrival.",
+      "examples": [
+        {
+          "en": "All visitors must sign in on arrival.",
+          "zh": "所有訪客到達時都必須登記。",
+          "highlight": "sign in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sign off",
+      "titleZh": "在信件、訊息、節目或通話結束時告別或結束",
+      "titleEn": "sign off",
+      "descriptionZh": "在信件、訊息、節目或通話結束時告別或結束",
+      "descriptionEn": "I will sign off now and post this letter.",
+      "examples": [
+        {
+          "en": "I will sign off now and post this letter.",
+          "zh": "我現在會結束這封信,然後把它寄出。",
+          "highlight": "sign off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sign something off",
+      "titleZh": "檢查後正式批准已完成的工作、帳單或費用",
+      "titleEn": "sign something off",
+      "descriptionZh": "檢查後正式批准已完成的工作、帳單或費用",
+      "descriptionEn": "The manager signed off all the invoices.",
+      "examples": [
+        {
+          "en": "The manager signed off all the invoices.",
+          "zh": "經理批准了所有發票。",
+          "highlight": "signed off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sign off on something",
+      "titleZh": "正式批准計劃、報告、建議或決定",
+      "titleEn": "sign off on something",
+      "descriptionZh": "正式批准計劃、報告、建議或決定",
+      "descriptionEn": "The director has not signed off on the report yet.",
+      "examples": [
+        {
+          "en": "The director has not signed off on the report yet.",
+          "zh": "主管尚未正式批准這份報告。",
+          "highlight": "signed off on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sign for something",
+      "titleZh": "簽名確認已收到某物",
+      "titleEn": "sign for something",
+      "descriptionZh": "簽名確認已收到某物",
+      "descriptionEn": "I signed for the parcel at the door.",
+      "examples": [
+        {
+          "en": "I signed for the parcel at the door.",
+          "zh": "我在門口簽名確認收到了包裹。",
+          "highlight": "signed for"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sign something out",
+      "titleZh": "登記借走或帶走某物",
+      "titleEn": "sign something out",
+      "descriptionZh": "登記借走或帶走某物",
+      "descriptionEn": "Please sign the key out before taking it.",
+      "examples": [
+        {
+          "en": "Please sign the key out before taking it.",
+          "zh": "取走鎖匙前,請先登記借用。",
+          "highlight": "sign the key out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sign something over to somebody",
+      "titleZh": "簽署文件,正式把財產、權利或控制權轉讓給某人",
+      "titleEn": "sign something over to somebody",
+      "descriptionZh": "簽署文件,正式把財產、權利或控制權轉讓給某人",
+      "descriptionEn": "He signed the house over to his daughter.",
+      "examples": [
+        {
+          "en": "He signed the house over to his daughter.",
+          "zh": "他簽署文件,把房子轉讓給女兒。",
+          "highlight": "signed the house over to"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sign up; sign somebody up; sign on; sign somebody on",
+      "titleZh": "報名參加;同意加入;替某人報名;聘請某人參與工作",
+      "titleEn": "sign up; sign somebody up; sign on; sign somebody on",
+      "descriptionZh": "報名參加;同意加入;替某人報名;聘請某人參與工作",
+      "descriptionEn": "She has signed up to star in the new film.",
+      "examples": [
+        {
+          "en": "She has signed up to star in the new film.",
+          "zh": "她已簽約擔任新電影的主角。",
+          "highlight": "signed up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SIGN 片語動詞的實際用途",
+    "labelEn": "SIGN Phrasal Verbs in Use",
+    "summaryZh": "sign in 和 sign somebody in 可用來描述酒店、辦公室、學校、活動場地和保安大樓的登記程序。；sign off 可用來結束信件、電郵、廣播節目、視像通話或網上訊息。；你可以 sign completed work off,表示批准已完成的工作;也可以 sign off on a plan,表示正式批准一項計劃。；SIGN 片語動詞可以表示報名參加課程、借用設備、簽收包裹或正式轉讓財產。",
+    "summaryEn": "Sign in and sign somebody in help you describe what happens at hotels, offices, schools, events and secure buildings. Sign off is useful when ending a letter, email, broadcast, video call or online message. You can sign completed work off or sign off on a new plan, report or proposal. The SIGN family can describe joining a course, borrowing equipment, receiving a parcel or legally transferring property.",
+    "contextsZh": [
+      "清楚談論到達登記和訪客紀錄",
+      "自然地結束訊息和節目",
+      "分辨不同種類的正式批准",
+      "描述報名、借用、收件和轉讓"
+    ],
+    "contextsEn": [
+      "Talk clearly about arrivals and visitor records",
+      "End messages and programmes naturally",
+      "Distinguish different kinds of approval",
+      "Describe joining, borrowing, receiving and transferring"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SIGN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SIGN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sign in; sign somebody in",
+    "fixedHighlight": "sign in; sign somebody in",
+    "fixedZh": "閱讀整句,選出意思相同的 SIGN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SIGN expression that gives the same meaning.",
+    "correct": "sign in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；注意以下意思相近的表達:● sign in 表示登記某人已到達;sign up 或 sign on 表示報名或加入。● sign something off 表示批准已完成的工作、帳單或費用;sign off on something 表示批准計劃、報告或建議。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: sign him in sign it off sign it out sign it over sign her up Do not confuse these similar expressions: ● sign in records someone’s arrival; sign up or sign on means joining. ● sign something off approves completed work, bills or expenses; sign off on something approves a plan, report or proposal.",
+    "variableItemsZh": [
+      "sign in; sign somebody in",
+      "sign off",
+      "sign something off",
+      "sign off on something",
+      "sign for something",
+      "sign something out",
+      "sign something over to somebody",
+      "sign up; sign somebody up; sign on; sign somebody on"
+    ],
+    "variableItemsEn": [
+      "sign in; sign somebody in",
+      "sign off",
+      "sign something off",
+      "sign off on something",
+      "sign for something",
+      "sign something out",
+      "sign something over to somebody",
+      "sign up; sign somebody up; sign on; sign somebody on"
+    ],
+    "forms": [
+      {
+        "formZh": "到達某地方時登記;替某人辦理到達登記",
+        "formEn": "sign in; sign somebody in",
+        "exampleZh": "所有訪客到達時都必須登記。",
+        "exampleEn": "All visitors must sign in on arrival.",
+        "highlight": "sign in"
+      },
+      {
+        "formZh": "在信件、訊息、節目或通話結束時告別或結束",
+        "formEn": "sign off",
+        "exampleZh": "我現在會結束這封信,然後把它寄出。",
+        "exampleEn": "I will sign off now and post this letter.",
+        "highlight": "sign off"
+      },
+      {
+        "formZh": "檢查後正式批准已完成的工作、帳單或費用",
+        "formEn": "sign something off",
+        "exampleZh": "經理批准了所有發票。",
+        "exampleEn": "The manager signed off all the invoices.",
+        "highlight": "signed off"
+      },
+      {
+        "formZh": "正式批准計劃、報告、建議或決定",
+        "formEn": "sign off on something",
+        "exampleZh": "主管尚未正式批准這份報告。",
+        "exampleEn": "The director has not signed off on the report yet.",
+        "highlight": "signed off on"
+      },
+      {
+        "formZh": "簽名確認已收到某物",
+        "formEn": "sign for something",
+        "exampleZh": "我在門口簽名確認收到了包裹。",
+        "exampleEn": "I signed for the parcel at the door.",
+        "highlight": "signed for"
+      },
+      {
+        "formZh": "登記借走或帶走某物",
+        "formEn": "sign something out",
+        "exampleZh": "取走鎖匙前,請先登記借用。",
+        "exampleEn": "Please sign the key out before taking it.",
+        "highlight": "sign the key out"
+      },
+      {
+        "formZh": "簽署文件,正式把財產、權利或控制權轉讓給某人",
+        "formEn": "sign something over to somebody",
+        "exampleZh": "他簽署文件,把房子轉讓給女兒。",
+        "exampleEn": "He signed the house over to his daughter.",
+        "highlight": "signed the house over to"
+      },
+      {
+        "formZh": "報名參加;同意加入;替某人報名;聘請某人參與工作",
+        "formEn": "sign up; sign somebody up; sign on; sign somebody on",
+        "exampleZh": "她已簽約擔任新電影的主角。",
+        "exampleEn": "She has signed up to star in the new film.",
+        "highlight": "signed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "到達某地方時登記;替某人辦理到達登記",
+      "titleEn": "sign in; sign somebody in",
+      "formula": "sign in; sign somebody in",
+      "highlight": "sign in; sign somebody in",
+      "descriptionZh": "到達某地方時登記;替某人辦理到達登記",
+      "descriptionEn": "All visitors must sign in on arrival.",
+      "examples": [
+        {
+          "en": "All visitors must sign in on arrival.",
+          "zh": "所有訪客到達時都必須登記。",
+          "highlight": "sign in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在信件、訊息、節目或通話結束時告別或結束",
+      "titleEn": "sign off",
+      "formula": "sign off",
+      "highlight": "sign off",
+      "descriptionZh": "在信件、訊息、節目或通話結束時告別或結束",
+      "descriptionEn": "I will sign off now and post this letter.",
+      "examples": [
+        {
+          "en": "I will sign off now and post this letter.",
+          "zh": "我現在會結束這封信,然後把它寄出。",
+          "highlight": "sign off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "檢查後正式批准已完成的工作、帳單或費用",
+      "titleEn": "sign something off",
+      "formula": "sign something off",
+      "highlight": "sign something off",
+      "descriptionZh": "檢查後正式批准已完成的工作、帳單或費用",
+      "descriptionEn": "The manager signed off all the invoices.",
+      "examples": [
+        {
+          "en": "The manager signed off all the invoices.",
+          "zh": "經理批准了所有發票。",
+          "highlight": "signed off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "正式批准計劃、報告、建議或決定",
+      "titleEn": "sign off on something",
+      "formula": "sign off on something",
+      "highlight": "sign off on something",
+      "descriptionZh": "正式批准計劃、報告、建議或決定",
+      "descriptionEn": "The director has not signed off on the report yet.",
+      "examples": [
+        {
+          "en": "The director has not signed off on the report yet.",
+          "zh": "主管尚未正式批准這份報告。",
+          "highlight": "signed off on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "簽名確認已收到某物",
+      "titleEn": "sign for something",
+      "formula": "sign for something",
+      "highlight": "sign for something",
+      "descriptionZh": "簽名確認已收到某物",
+      "descriptionEn": "I signed for the parcel at the door.",
+      "examples": [
+        {
+          "en": "I signed for the parcel at the door.",
+          "zh": "我在門口簽名確認收到了包裹。",
+          "highlight": "signed for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "登記借走或帶走某物",
+      "titleEn": "sign something out",
+      "formula": "sign something out",
+      "highlight": "sign something out",
+      "descriptionZh": "登記借走或帶走某物",
+      "descriptionEn": "Please sign the key out before taking it.",
+      "examples": [
+        {
+          "en": "Please sign the key out before taking it.",
+          "zh": "取走鎖匙前,請先登記借用。",
+          "highlight": "sign the key out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "簽署文件,正式把財產、權利或控制權轉讓給某人",
+      "titleEn": "sign something over to somebody",
+      "formula": "sign something over to somebody",
+      "highlight": "sign something over to somebody",
+      "descriptionZh": "簽署文件,正式把財產、權利或控制權轉讓給某人",
+      "descriptionEn": "He signed the house over to his daughter.",
+      "examples": [
+        {
+          "en": "He signed the house over to his daughter.",
+          "zh": "他簽署文件,把房子轉讓給女兒。",
+          "highlight": "signed the house over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "報名參加;同意加入;替某人報名;聘請某人參與工作",
+      "titleEn": "sign up; sign somebody up; sign on; sign somebody on",
+      "formula": "sign up; sign somebody up; sign on; sign somebody on",
+      "highlight": "sign up; sign somebody up; sign on; sign somebody on",
+      "descriptionZh": "報名參加;同意加入;替某人報名;聘請某人參與工作",
+      "descriptionEn": "She has signed up to star in the new film.",
+      "examples": [
+        {
+          "en": "She has signed up to star in the new film.",
+          "zh": "她已簽約擔任新電影的主角。",
+          "highlight": "signed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論到達登記和訪客紀錄",
+      "titleEn": "Talk clearly about arrivals and visitor records",
+      "zh": "sign in 和 sign somebody in 可用來描述酒店、辦公室、學校、活動場地和保安大樓的登記程序。",
+      "en": "Sign in and sign somebody in help you describe what happens at hotels, offices, schools, events and secure buildings."
+    },
+    {
+      "titleZh": "自然地結束訊息和節目",
+      "titleEn": "End messages and programmes naturally",
+      "zh": "sign off 可用來結束信件、電郵、廣播節目、視像通話或網上訊息。",
+      "en": "Sign off is useful when ending a letter, email, broadcast, video call or online message."
+    },
+    {
+      "titleZh": "分辨不同種類的正式批准",
+      "titleEn": "Distinguish different kinds of approval",
+      "zh": "你可以 sign completed work off,表示批准已完成的工作;也可以 sign off on a plan,表示正式批准一項計劃。",
+      "en": "You can sign completed work off or sign off on a new plan, report or proposal."
+    },
+    {
+      "titleZh": "描述報名、借用、收件和轉讓",
+      "titleEn": "Describe joining, borrowing, receiving and transferring",
+      "zh": "SIGN 片語動詞可以表示報名參加課程、借用設備、簽收包裹或正式轉讓財產。",
+      "en": "The SIGN family can describe joining a course, borrowing equipment, receiving a parcel or legally transferring property."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論到達登記和訪客紀錄",
+      "自然地結束訊息和節目",
+      "分辨不同種類的正式批准",
+      "描述報名、借用、收件和轉讓"
+    ],
+    "contextsEn": [
+      "Talk clearly about arrivals and visitor records",
+      "End messages and programmes naturally",
+      "Distinguish different kinds of approval",
+      "Describe joining, borrowing, receiving and transferring"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論到達登記和訪客紀錄",
+        "titleEn": "Talk clearly about arrivals and visitor records",
+        "zh": "sign in 和 sign somebody in 可用來描述酒店、辦公室、學校、活動場地和保安大樓的登記程序。",
+        "en": "Sign in and sign somebody in help you describe what happens at hotels, offices, schools, events and secure buildings.",
+        "examples": [
+          {
+            "en": "All visitors must sign in on arrival.",
+            "zh": "所有訪客到達時都必須登記。",
+            "highlight": "sign in"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地結束訊息和節目",
+        "titleEn": "End messages and programmes naturally",
+        "zh": "sign off 可用來結束信件、電郵、廣播節目、視像通話或網上訊息。",
+        "en": "Sign off is useful when ending a letter, email, broadcast, video call or online message.",
+        "examples": [
+          {
+            "en": "I will sign off now and post this letter.",
+            "zh": "我現在會結束這封信,然後把它寄出。",
+            "highlight": "sign off"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨不同種類的正式批准",
+        "titleEn": "Distinguish different kinds of approval",
+        "zh": "你可以 sign completed work off,表示批准已完成的工作;也可以 sign off on a plan,表示正式批准一項計劃。",
+        "en": "You can sign completed work off or sign off on a new plan, report or proposal.",
+        "examples": [
+          {
+            "en": "The manager signed off all the invoices.",
+            "zh": "經理批准了所有發票。",
+            "highlight": "signed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述報名、借用、收件和轉讓",
+        "titleEn": "Describe joining, borrowing, receiving and transferring",
+        "zh": "SIGN 片語動詞可以表示報名參加課程、借用設備、簽收包裹或正式轉讓財產。",
+        "en": "The SIGN family can describe joining a course, borrowing equipment, receiving a parcel or legally transferring property.",
+        "examples": [
+          {
+            "en": "The director has not signed off on the report yet.",
+            "zh": "主管尚未正式批准這份報告。",
+            "highlight": "signed off on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SIGN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SIGN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SIGN 片語動詞。",
+      "en": "Read the whole sentence and choose the SIGN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: sign him in sign it off sign it out sign it over sign her up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: sign him in sign it off sign it out sign it over sign her up"
+    },
+    {
+      "titleZh": "注意以下意思相近的表達:● sign in 表示登記某人已到達;sign up 或 sign on 表示報名或加入。● sign something off 表示批准已完成的工作、帳單或費用;sign off on something 表示批准計劃、報告或建議。",
+      "titleEn": "Do not confuse these similar expressions: ● sign in records someone’s arrival; sign up or sign on means joining.",
+      "zh": "注意以下意思相近的表達:● sign in 表示登記某人已到達;sign up 或 sign on 表示報名或加入。● sign something off 表示批准已完成的工作、帳單或費用;sign off on something 表示批准計劃、報告或建議。",
+      "en": "Do not confuse these similar expressions: ● sign in records someone’s arrival; sign up or sign on means joining. ● sign something off approves completed work, bills or expenses; sign off on something approves a plan, report or proposal."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SIGN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SIGN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SIGN 動詞片語句子改寫練習",
+    "titleEn": "SIGN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SIGN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SIGN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-282-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Every visitor must record their arrival at reception.",
+      "promptZh": "每名訪客都必須在接待處登記到達。",
+      "starter": "Every",
+      "answer": "Every visitor must sign in at reception.",
+      "answerZh": "每名訪客都必須在接待處登記到達。",
+      "highlight": "sign in",
+      "targetForm": "sign in",
+      "targetMeaningZh": "登記到達"
+    },
+    {
+      "id": "phrasal-verb-282-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "Jon agreed to join the school play.",
+      "promptZh": "喬恩同意參加學校話劇。",
+      "starter": "Jon",
+      "answer": "Jon signed up for the school play.",
+      "answerZh": "喬恩報名參加了學校話劇。",
+      "highlight": "signed up for",
+      "targetForm": "sign up for something",
+      "targetMeaningZh": "報名參加"
+    },
+    {
+      "id": "phrasal-verb-282-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The delivery driver asked Clara to write her signature to confirm that she had received the parcel.",
+      "promptZh": "送貨員請克拉拉簽名,確認她已收到包裹。",
+      "starter": "The",
+      "answer": "The delivery driver asked Clara to sign for the parcel.",
+      "answerZh": "送貨員請克拉拉簽名確認收到了包裹。",
+      "highlight": "sign for",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The manager approved all the travel bills after checking them.",
+      "promptZh": "經理檢查後批准了所有交通帳單。",
+      "starter": "The",
+      "answer": "The manager signed off all the travel bills after checking them.",
+      "answerZh": "經理檢查後批准了所有交通帳單。",
+      "highlight": "signed off",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准已檢查的帳單或工作"
+    },
+    {
+      "id": "phrasal-verb-282-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "I will end this letter now and post it.",
+      "promptZh": "我現在會結束這封信,然後把它寄出。",
+      "starter": "I",
+      "answer": "I will sign off now and post this letter.",
+      "answerZh": "我現在會結束這封信,然後把它寄出。",
+      "highlight": "sign off",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束信件或訊息"
+    },
+    {
+      "id": "phrasal-verb-282-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Please record that you are borrowing the library tablet before taking it.",
+      "promptZh": "取走圖書館的平板電腦前,請先登記借用。",
+      "starter": "Please",
+      "answer": "Please sign the library tablet out before taking it.",
+      "answerZh": "取走圖書館的平板電腦前,請先登記借用。",
+      "highlight": "sign",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The head teacher has not yet formally approved the new school-trip plan.",
+      "promptZh": "校長尚未正式批准新的學校旅行計劃。",
+      "starter": "The",
+      "answer": "The head teacher has not yet signed off on the new school-trip plan.",
+      "answerZh": "校長尚未正式批准新的學校旅行計劃。",
+      "highlight": "signed off on",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或建議"
+    },
+    {
+      "id": "phrasal-verb-282-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Mr Chan legally transferred the flat to his son.",
+      "promptZh": "陳先生正式把單位轉讓給兒子。",
+      "starter": "Mr",
+      "answer": "Mr Chan signed the flat over to his son.",
+      "answerZh": "陳先生正式把單位轉讓給兒子。",
+      "highlight": "signed",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產或權利"
+    },
+    {
+      "id": "phrasal-verb-282-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The receptionist recorded the two guests’ arrival.",
+      "promptZh": "接待員為兩名住客辦理了到達登記。",
+      "starter": "The",
+      "answer": "The receptionist signed the two guests in.",
+      "answerZh": "接待員為兩名住客辦理了到達登記。",
+      "highlight": "signed",
+      "targetForm": "sign somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-282-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "After checking the work, the engineer approved it as complete.",
+      "promptZh": "工程師檢查工作後,正式確認工作已完成。",
+      "starter": "After",
+      "answer": "After checking the work, the engineer signed it off as complete.",
+      "answerZh": "工程師檢查工作後,正式確認工作已完成。",
+      "highlight": "signed",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式確認工作已完成"
+    },
+    {
+      "id": "phrasal-verb-282-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The club registered Eva for the weekend course.",
+      "promptZh": "會所替伊娃報名參加週末課程。",
+      "starter": "The",
+      "answer": "The club signed Eva up for the weekend course.",
+      "answerZh": "會所替伊娃報名參加週末課程。",
+      "highlight": "signed",
+      "targetForm": "sign somebody up for something",
+      "targetMeaningZh": "替某人報名參加"
+    },
+    {
+      "id": "phrasal-verb-282-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The radio host ended the programme just before midnight.",
+      "promptZh": "電台主持在午夜前結束了節目。",
+      "starter": "The",
+      "answer": "The radio host signed off just before midnight.",
+      "answerZh": "電台主持在午夜前結束了節目。",
+      "highlight": "signed off",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束廣播或節目"
+    },
+    {
+      "id": "phrasal-verb-282-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "Leo recorded that he had borrowed the camera.",
+      "promptZh": "里奧登記借走了相機。",
+      "starter": "Leo",
+      "answer": "Leo signed the camera out.",
+      "answerZh": "里奧登記借走了相機。",
+      "highlight": "signed",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The board formally approved the final budget.",
+      "promptZh": "董事會正式批准了最終預算。",
+      "starter": "The",
+      "answer": "The board signed off on the final budget.",
+      "answerZh": "董事會正式批准了最終預算。",
+      "highlight": "signed off on",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或決定"
+    },
+    {
+      "id": "phrasal-verb-282-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Are you ending the video call now?",
+      "promptZh": "你現在要結束視像通話嗎?",
+      "starter": "Are",
+      "answer": "Are you signing off from the video call now?",
+      "answerZh": "你現在要結束視像通話嗎?",
+      "highlight": "signing off from",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束通話或訊息"
+    },
+    {
+      "id": "phrasal-verb-282-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "Rosa is recording her arrival at the hotel desk.",
+      "promptZh": "羅莎正在酒店櫃位辦理到達登記。",
+      "starter": "Rosa",
+      "answer": "Rosa is signing in at the hotel desk.",
+      "answerZh": "羅莎正在酒店櫃位辦理到達登記。",
+      "highlight": "signing in",
+      "targetForm": "sign in",
+      "targetMeaningZh": "登記到達"
+    },
+    {
+      "id": "phrasal-verb-282-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "I had to write my signature before the courier gave me the package.",
+      "promptZh": "速遞員把包裹交給我前,我必須簽名確認收件。",
+      "starter": "I",
+      "answer": "I had to sign for the package before the courier gave it to me.",
+      "answerZh": "速遞員把包裹交給我前,我必須簽名確認收件。",
+      "highlight": "sign for the package",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The agency has agreed to employ three new actors.",
+      "promptZh": "這間經理人公司已同意聘請三名新演員。",
+      "starter": "The",
+      "answer": "The agency has signed on three new actors.",
+      "answerZh": "這間經理人公司已聘請三名新演員。",
+      "highlight": "signed on",
+      "targetForm": "sign somebody on",
+      "targetMeaningZh": "正式聘請某人"
+    },
+    {
+      "id": "phrasal-verb-282-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The supervisor is approving today’s completed repair jobs.",
+      "promptZh": "主管正在批准今天已完成的維修工作。",
+      "starter": "The",
+      "answer": "The supervisor is signing off today’s completed repair jobs.",
+      "answerZh": "主管正在批准今天已完成的維修工作。",
+      "highlight": "signing off",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "批准已完成的工作"
+    },
+    {
+      "id": "phrasal-verb-282-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Nora will record that she has borrowed the key before leaving.",
+      "promptZh": "諾拉離開前會登記借走鎖匙。",
+      "starter": "Nora",
+      "answer": "Nora will sign the key out before leaving.",
+      "answerZh": "諾拉離開前會登記借走鎖匙。",
+      "highlight": "sign",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Has the council formally approved the new park plan?",
+      "promptZh": "議會已正式批准新的公園計劃嗎?",
+      "starter": "Has",
+      "answer": "Has the council signed off on the new park plan?",
+      "answerZh": "議會已正式批准新的公園計劃嗎?",
+      "highlight": "signed off on",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或建議"
+    },
+    {
+      "id": "phrasal-verb-282-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The owner is legally transferring the café to his niece.",
+      "promptZh": "店主正正式把咖啡店轉讓給侄女。",
+      "starter": "The",
+      "answer": "The owner is signing the café over to his niece.",
+      "answerZh": "店主正正式把咖啡店轉讓給侄女。",
+      "highlight": "signing",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產或業務"
+    },
+    {
+      "id": "phrasal-verb-282-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Did the security guard record you as a visitor?",
+      "promptZh": "保安員有替你辦理訪客登記嗎?",
+      "starter": "Did",
+      "answer": "Did the security guard sign you in as a visitor?",
+      "answerZh": "保安員有替你辦理訪客登記嗎?",
+      "highlight": "sign",
+      "targetForm": "sign somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-282-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The accounts officer did not approve the invoices yesterday.",
+      "promptZh": "會計職員昨天沒有批准那些發票。",
+      "starter": "The",
+      "answer": "The accounts officer did not sign the invoices off yesterday.",
+      "answerZh": "會計職員昨天沒有批准那些發票。",
+      "highlight": "sign",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准發票或帳項"
+    },
+    {
+      "id": "phrasal-verb-282-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Who wrote their signature to confirm receipt of the flowers?",
+      "promptZh": "誰簽名確認收到了那些花?",
+      "starter": "Who",
+      "answer": "Who signed for the flowers?",
+      "answerZh": "誰簽名確認收到了那些花?",
+      "highlight": "signed for",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The director may formally approve the report tomorrow.",
+      "promptZh": "主管可能會在明天正式批准這份報告。",
+      "starter": "The",
+      "answer": "The director may sign off on the report tomorrow.",
+      "answerZh": "主管可能會在明天正式批准這份報告。",
+      "highlight": "sign off on",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准報告"
+    },
+    {
+      "id": "phrasal-verb-282-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The old farmer had legally transferred the land to his children.",
+      "promptZh": "那名老農夫早已正式把土地轉讓給子女。",
+      "starter": "The",
+      "answer": "The old farmer had signed the land over to his children.",
+      "answerZh": "那名老農夫早已正式把土地轉讓給子女。",
+      "highlight": "signed",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產"
+    },
+    {
+      "id": "phrasal-verb-282-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Sonia has agreed to work with the new theatre company.",
+      "promptZh": "索尼婭已同意加入新的劇團工作。",
+      "starter": "Sonia",
+      "answer": "Sonia has signed on with the new theatre company.",
+      "answerZh": "索尼婭已簽約加入新的劇團工作。",
+      "highlight": "signed on",
+      "targetForm": "sign on with somebody",
+      "targetMeaningZh": "簽約加入公司或團體"
+    },
+    {
+      "id": "phrasal-verb-282-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The committee has finished checking the safety report. It still needs the chairperson’s formal approval.",
+      "promptZh": "委員會已完成檢查安全報告,但報告仍需要主席正式批准。",
+      "starter": "The",
+      "answer": "The committee has finished checking the safety report, but the chairperson still needs to sign off on it.",
+      "answerZh": "委員會已完成檢查安全報告,但主席仍須正式批准它。",
+      "highlight": "but the chairperson",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准報告或建議"
+    },
+    {
+      "id": "phrasal-verb-282-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Kai arrived late, so the receptionist recorded his arrival separately.",
+      "promptZh": "啟遲到了,所以接待員另外為他辦理到達登記。",
+      "starter": "Kai",
+      "answer": "Kai arrived late, so the receptionist signed him in separately.",
+      "answerZh": "啟遲到了,所以接待員另外為他辦理到達登記。",
+      "highlight": "signed him in",
+      "targetForm": "sign somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-282-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The coach asked if I wanted to join the team, and I agreed.",
+      "promptZh": "教練問我是否想加入球隊,而我答應了。",
+      "starter": "The",
+      "answer": "The coach asked if I wanted to join the team, and I signed up.",
+      "answerZh": "教練問我是否想加入球隊,而我報名加入了。",
+      "highlight": "signed up",
+      "targetForm": "sign up",
+      "targetMeaningZh": "報名或同意加入"
+    },
+    {
+      "id": "phrasal-verb-282-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The file is missing. A student recorded that they borrowed it yesterday.",
+      "promptZh": "文件不見了。有一名學生昨天曾登記借走它。",
+      "starter": "The",
+      "answer": "The file is missing; a student signed it out yesterday.",
+      "answerZh": "文件不見了;有一名學生昨天曾登記借走它。",
+      "highlight": "missing",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Before sending the email, he ended it with “Best wishes” and his name.",
+      "promptZh": "寄出電郵前,他以「祝好」和自己的名字作結。",
+      "starter": "Before",
+      "answer": "Before sending the email, he signed off with “Best wishes” and his name.",
+      "answerZh": "寄出電郵前,他以「祝好」和自己的名字作結。",
+      "highlight": "signed off",
+      "targetForm": "sign off with something",
+      "targetMeaningZh": "以某些字句結束信件或訊息"
+    },
+    {
+      "id": "phrasal-verb-282-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The singer agreed to give all rights to the song to the charity.",
+      "promptZh": "歌手同意把歌曲的所有權利正式轉讓給該慈善機構。",
+      "starter": "The",
+      "answer": "The singer signed all rights to the song over to the charity.",
+      "answerZh": "歌手正式把歌曲的所有權利轉讓給該慈善機構。",
+      "highlight": "signed",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓權利或財產"
+    },
+    {
+      "id": "phrasal-verb-282-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "No one could take the new laptop until a member of staff wrote a signature to confirm receipt.",
+      "promptZh": "職員簽名確認收件前,任何人都不能取走新的手提電腦。",
+      "starter": "No",
+      "answer": "No one could take the new laptop until a member of staff signed for it.",
+      "answerZh": "職員簽名確認收件前,任何人都不能取走新的手提電腦。",
+      "highlight": "signed for it",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The work was complete, and the manager approved it after a final check.",
+      "promptZh": "工作已完成,而經理在最後檢查後正式批准了它。",
+      "starter": "The",
+      "answer": "The work was complete, and the manager signed it off after a final check.",
+      "answerZh": "工作已完成,而經理在最後檢查後正式批准了它。",
+      "highlight": "signed",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准已完成的工作"
+    },
+    {
+      "id": "phrasal-verb-282-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "I have said everything I need to say, so I will end this message here.",
+      "promptZh": "我已說完所有需要說的話,所以會在這裏結束訊息。",
+      "starter": "I",
+      "answer": "I have said everything I need to say, so I will sign off here.",
+      "answerZh": "我已說完所有需要說的話,所以會在這裏結束訊息。",
+      "highlight": "sign off",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束訊息或通話"
+    },
+    {
+      "id": "phrasal-verb-282-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The producer registered two young actors to appear in the advert.",
+      "promptZh": "監製安排兩名年輕演員簽約參演廣告。",
+      "starter": "The",
+      "answer": "The producer signed two young actors up to appear in the advert.",
+      "answerZh": "監製安排兩名年輕演員簽約參演廣告。",
+      "highlight": "signed",
+      "targetForm": "sign somebody up to do something",
+      "targetMeaningZh": "安排或聘請某人參與"
+    },
+    {
+      "id": "phrasal-verb-282-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Before taking the sports equipment, we had to record each item we borrowed.",
+      "promptZh": "取走運動器材前,我們必須登記每件借用物品。",
+      "starter": "Before",
+      "answer": "Before taking the sports equipment, we had to sign each item out.",
+      "answerZh": "取走運動器材前,我們必須登記每件借用物品。",
+      "highlight": "sign",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Could you approve these completed expense claims before lunch?",
+      "promptZh": "你可以在午膳前批准這些已完成的開支申請嗎?",
+      "starter": "Could",
+      "answer": "Could you sign these completed expense claims off before lunch?",
+      "answerZh": "你可以在午膳前批准這些已完成的開支申請嗎?",
+      "highlight": "sign",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准帳項或申請"
+    },
+    {
+      "id": "phrasal-verb-282-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Using a legal agreement, the owner transferred the business to Rosa.",
+      "promptZh": "店主透過一份法律協議,把公司正式轉讓給羅莎。",
+      "starter": "Using",
+      "answer": "Using a legal agreement, the owner signed the business over to Rosa.",
+      "answerZh": "店主透過一份法律協議,把公司正式轉讓給羅莎。",
+      "highlight": "signed",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓業務或財產"
+    },
+    {
+      "id": "phrasal-verb-282-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "When the parcel arrived, Sam was away, so his neighbour wrote a signature to accept it.",
+      "promptZh": "包裹送到時,森不在家,所以鄰居簽名代收。",
+      "starter": "When",
+      "answer": "When the parcel arrived, Sam was away, so his neighbour signed for it.",
+      "answerZh": "包裹送到時,森不在家,所以鄰居簽名代收。",
+      "highlight": "signed for",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The invoices had already been checked, but they could not be paid until the finance manager approved them.",
+      "promptZh": "發票已經檢查,但必須由財務經理批准後才可以付款。",
+      "starter": "The",
+      "answer": "The invoices had already been checked, but they could not be paid until the finance manager signed them off.",
+      "answerZh": "發票已經檢查,但必須由財務經理批准後才可以付款。",
+      "highlight": "signed",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准發票或帳項"
+    },
+    {
+      "id": "phrasal-verb-282-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Joining the conference was free, but every guest still had to record their arrival at the door.",
+      "promptZh": "參加會議是免費的,但每名來賓仍須在門口登記到達。",
+      "starter": "Joining",
+      "answer": "Joining the conference was free, but every guest still had to sign in at the door.",
+      "answerZh": "參加會議是免費的,但每名來賓仍須在門口登記到達。",
+      "highlight": "sign in",
+      "targetForm": "sign in",
+      "targetMeaningZh": "登記到達"
+    },
+    {
+      "id": "phrasal-verb-282-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The father did not simply let his daughter use the house; he legally made her the owner.",
+      "promptZh": "父親不只是讓女兒使用房子,而是正式把房子的擁有權轉讓給她。",
+      "starter": "The",
+      "answer": "The father did not simply let his daughter use the house; he signed it over to her.",
+      "answerZh": "父親不只是讓女兒使用房子,而是正式把房子的擁有權轉讓給她。",
+      "highlight": "signed it over to",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產"
+    },
+    {
+      "id": "phrasal-verb-282-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "You may enter the building today, but you must register for the course before Friday.",
+      "promptZh": "你今天可以進入大樓,但必須在星期五前報名參加課程。",
+      "starter": "You",
+      "answer": "You may enter the building today, but you must sign up for the course before Friday.",
+      "answerZh": "你今天可以進入大樓,但必須在星期五前報名參加課程。",
+      "highlight": "sign up",
+      "targetForm": "sign up for something",
+      "targetMeaningZh": "報名參加"
+    },
+    {
+      "id": "phrasal-verb-282-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The report is finished, but it cannot be published until the President gives formal approval.",
+      "promptZh": "報告已完成,但必須得到總統正式批准後才可以發表。",
+      "starter": "The",
+      "answer": "The report is finished, but it cannot be published until the President signs off on it.",
+      "answerZh": "報告已完成,但必須得到總統正式批准後才可以發表。",
+      "highlight": "signs off on it",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准報告"
+    },
+    {
+      "id": "phrasal-verb-282-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The presenter was not approving the show; she was simply ending the broadcast.",
+      "promptZh": "主持人不是在批准節目;她只是在結束廣播。",
+      "starter": "The",
+      "answer": "The presenter was not approving the show; she was simply signing off.",
+      "answerZh": "主持人不是在批准節目;她只是在結束廣播。",
+      "highlight": "signing off",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束廣播或節目"
+    },
+    {
+      "id": "phrasal-verb-282-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The visitor book records arrivals, but this second book records every file that leaves the office.",
+      "promptZh": "訪客簿記錄到達者,而另一本簿則記錄每份被帶離辦公室的文件。",
+      "starter": "The",
+      "answer": "The visitor book records arrivals, but this second book is used to sign every file out.",
+      "answerZh": "訪客簿記錄到達者,而另一本簿則用來登記每份被帶離辦公室的文件。",
+      "highlight": "is used to sign",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走或帶走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "At the door, the courier did not ask me to approve the package; he only asked for my signature to confirm that I had received it.",
+      "promptZh": "在門口,速遞員不是要求我批准包裹;他只是要求我簽名確認收件。",
+      "starter": "At",
+      "answer": "At the door, the courier did not ask me to approve the package; he only asked me to sign for it.",
+      "answerZh": "在門口,速遞員不是要求我批准包裹;他只是要求我簽名確認收件。",
+      "highlight": "me to sign",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Although Priya had already joined the club, she still had to record her arrival at each training session.",
+      "promptZh": "雖然普里雅已加入會所,但每次訓練時仍須登記到達。",
+      "starter": "Although",
+      "answer": "Although Priya had already joined the club, she still had to sign in at each training session.",
+      "answerZh": "雖然普里雅已加入會所,但每次訓練時仍須登記到達。",
+      "highlight": "sign in",
+      "targetForm": "sign in",
+      "targetMeaningZh": "登記到達"
+    },
+    {
+      "id": "phrasal-verb-282-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The completed repair work had been approved, but the larger safety plan still needed the director’s formal approval.",
+      "promptZh": "已完成的維修工作獲得批准,但較大的安全計劃仍需要主管正式批准。",
+      "starter": "The",
+      "answer": "The completed repair work had been approved, but the director still needed to sign off on the larger safety plan.",
+      "answerZh": "已完成的維修工作獲得批准,但主管仍須正式批准較大的安全計劃。",
+      "highlight": "director still needed to sign off on the",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或建議"
+    },
+    {
+      "id": "phrasal-verb-282-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After giving the final weather update, the radio host ended the programme with a short farewell.",
+      "promptZh": "電台主持報告最後一節天氣消息後,以簡短道別結束節目。",
+      "starter": "After",
+      "answer": "After giving the final weather update, the radio host signed off with a short farewell.",
+      "answerZh": "電台主持報告最後一節天氣消息後,以簡短道別結束節目。",
+      "highlight": "signed off",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束廣播或節目"
+    },
+    {
+      "id": "phrasal-verb-282-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The key had not been lost; someone had borrowed it without making a record.",
+      "promptZh": "鎖匙並沒有遺失;有人借走它時沒有登記。",
+      "starter": "The",
+      "answer": "The key had not been lost; someone had taken it without signing it out.",
+      "answerZh": "鎖匙並沒有遺失;有人取走它時沒有登記。",
+      "highlight": "taken",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走或帶走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The company did not record the actor’s arrival; it formally hired him for three films.",
+      "promptZh": "公司不是替那名演員辦理到達登記,而是正式聘請他參演三部電影。",
+      "starter": "The",
+      "answer": "The company did not record the actor’s arrival; it signed him on for three films.",
+      "answerZh": "公司不是替那名演員辦理到達登記,而是正式聘請他參演三部電影。",
+      "highlight": "signed",
+      "targetForm": "sign somebody on for something",
+      "targetMeaningZh": "聘請某人參與工作"
+    },
+    {
+      "id": "phrasal-verb-282-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The signature on the form did not approve the order; it only confirmed that someone had received the parcel.",
+      "promptZh": "表格上的簽名並不表示批准訂單;它只確認有人已收到包裹。",
+      "starter": "The",
+      "answer": "The signature on the form did not approve the order; it only showed that someone had signed for the parcel.",
+      "answerZh": "表格上的簽名並不表示批准訂單;它只顯示有人已簽收包裹。",
+      "highlight": "showed",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "After one meeting, Daniel agreed to take the lead part in the director’s new film.",
+      "promptZh": "經過一次會面後,丹尼爾同意擔任導演新電影的主角。",
+      "starter": "After",
+      "answer": "After one meeting, Daniel signed on to take the lead part in the director’s new film.",
+      "answerZh": "經過一次會面後,丹尼爾簽約擔任導演新電影的主角。",
+      "highlight": "signed on",
+      "targetForm": "sign on to do something",
+      "targetMeaningZh": "同意或簽約參與工作"
+    },
+    {
+      "id": "phrasal-verb-282-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The electricians had finished every repair, but the building manager checked the work before approving it as complete.",
+      "promptZh": "電工已完成所有維修,但大廈經理在正式確認工作完成前先作檢查。",
+      "starter": "The",
+      "answer": "The electricians had finished every repair, but the building manager checked the work before signing it off as complete.",
+      "answerZh": "電工已完成所有維修,但大廈經理在正式確認工作完成前先作檢查。",
+      "highlight": "signing",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式確認工作已完成"
+    },
+    {
+      "id": "phrasal-verb-282-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "When the bus arrived at the camp after dark, a member of staff recorded every student’s arrival.",
+      "promptZh": "巴士入夜後到達營地時,一名職員為每名學生辦理到達登記。",
+      "starter": "When",
+      "answer": "When the bus arrived at the camp after dark, a member of staff signed every student in.",
+      "answerZh": "巴士入夜後到達營地時,一名職員為每名學生辦理到達登記。",
+      "highlight": "signed",
+      "targetForm": "sign somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-282-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The parcel was valuable, so the driver would not leave it until someone had written a signature to accept it.",
+      "promptZh": "包裹十分貴重,所以必須有人簽名收件,司機才會把它留下。",
+      "starter": "The",
+      "answer": "The parcel was valuable, so the driver would not leave it until someone had signed for it.",
+      "answerZh": "包裹十分貴重,所以必須有人簽名收件,司機才會把它留下。",
+      "highlight": "signed for",
+      "targetForm": "sign for something",
+      "targetMeaningZh": "簽名確認收件"
+    },
+    {
+      "id": "phrasal-verb-282-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Once the papers were completed, the family shop legally became the property of the owner’s two sons.",
+      "promptZh": "文件完成後,這間家庭店舖正式成為店主兩名兒子的財產。",
+      "starter": "Once",
+      "answer": "Once the papers were completed, the owner signed the family shop over to his two sons.",
+      "answerZh": "文件完成後,店主正式把這間家庭店舖轉讓給兩名兒子。",
+      "highlight": "owner signed the",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產或業務"
+    },
+    {
+      "id": "phrasal-verb-282-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "At the end of her final online report, the journalist wrote her name and promised to return the next morning.",
+      "promptZh": "記者在最後一篇網上報道結尾寫上名字,並承諾翌日早上再回來。",
+      "starter": "At",
+      "answer": "At the end of her final online report, the journalist signed off with her name and promised to return the next morning.",
+      "answerZh": "記者在最後一篇網上報道結尾寫上名字,並承諾翌日早上再回來。",
+      "highlight": "signed off with",
+      "targetForm": "sign off with something",
+      "targetMeaningZh": "以名字或道別語作結"
+    },
+    {
+      "id": "phrasal-verb-282-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Everyone agreed with the new timetable, but it could not be used until the head teacher gave formal approval.",
+      "promptZh": "所有人都同意新的時間表,但必須得到校長正式批准後才可以使用。",
+      "starter": "Everyone",
+      "answer": "Everyone agreed with the new timetable, but it could not be used until the head teacher signed off on it.",
+      "answerZh": "所有人都同意新的時間表,但必須得到校長正式批准後才可以使用。",
+      "highlight": "signed off on it",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或決定"
+    },
+    {
+      "id": "phrasal-verb-282-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The museum could not find the old map. Later, staff discovered that someone had borrowed it but had not made the required record.",
+      "promptZh": "博物館找不到那張舊地圖。後來職員發現有人借走了它,卻沒有按規定登記。",
+      "starter": "The",
+      "answer": "The museum could not find the old map; later, staff discovered that someone had borrowed it without signing it out.",
+      "answerZh": "博物館找不到那張舊地圖;後來職員發現有人借走了它,卻沒有按規定登記。",
+      "highlight": "find the old map",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走某物"
+    },
+    {
+      "id": "phrasal-verb-282-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Before the builder could be paid, the owner had to confirm that the kitchen work was properly finished.",
+      "promptZh": "向建築工人付款前,屋主必須正式確認廚房工程已妥善完成。",
+      "starter": "Before",
+      "answer": "Before the builder could be paid, the owner had to sign off the kitchen work as properly finished.",
+      "answerZh": "向建築工人付款前,屋主必須正式確認廚房工程已妥善完成。",
+      "highlight": "sign off",
+      "targetForm": "sign something off",
+      "targetMeaningZh": "正式批准或確認已完成的工作"
+    },
+    {
+      "id": "phrasal-verb-282-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The hotel had already received the group’s booking, but the receptionist still had to record each guest’s arrival separately.",
+      "promptZh": "酒店已收到團體預訂,但接待員仍須分別為每名住客辦理到達登記。",
+      "starter": "The",
+      "answer": "The hotel had already received the group’s booking, but the receptionist still had to sign each guest in separately.",
+      "answerZh": "酒店已收到團體預訂,但接待員仍須分別為每名住客辦理到達登記。",
+      "highlight": "sign",
+      "targetForm": "sign somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-282-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "She had managed the shop for years, but she did not become its owner until her uncle legally transferred it to her.",
+      "promptZh": "她管理這間店舖多年,但直到叔父正式把店舖轉讓給她,她才成為店主。",
+      "starter": "She",
+      "answer": "She had managed the shop for years, but she did not become its owner until her uncle signed it over to her.",
+      "answerZh": "她管理這間店舖多年,但直到叔父正式把店舖轉讓給她,她才成為店主。",
+      "highlight": "signed",
+      "targetForm": "sign something over to somebody",
+      "targetMeaningZh": "正式轉讓財產或業務"
+    },
+    {
+      "id": "phrasal-verb-282-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "As the long video call ended, Arun gave a final thank-you and said goodbye.",
+      "promptZh": "漫長的視像通話結束時,阿倫最後道謝並說再見。",
+      "starter": "As",
+      "answer": "As the long video call ended, Arun signed off with a final thank-you and said goodbye.",
+      "answerZh": "漫長的視像通話結束時,阿倫最後道謝並說再見。",
+      "highlight": "signed off with",
+      "targetForm": "sign off",
+      "targetMeaningZh": "結束通話或訊息"
+    },
+    {
+      "id": "phrasal-verb-282-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The committee could discuss the plan for weeks, but only the council leader could give the final formal approval.",
+      "promptZh": "委員會可以討論這項計劃數星期,但只有議會領袖可以給予最終正式批准。",
+      "starter": "The",
+      "answer": "The committee could discuss the plan for weeks, but only the council leader could sign off on it.",
+      "answerZh": "委員會可以討論這項計劃數星期,但只有議會領袖可以給予最終正式批准。",
+      "highlight": "sign off on it",
+      "targetForm": "sign off on something",
+      "targetMeaningZh": "正式批准計劃或建議"
+    },
+    {
+      "id": "phrasal-verb-282-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "If you take the camera without recording the loan, staff will not know who has it.",
+      "promptZh": "如果你取走相機而不登記借用,職員便不知道相機在誰手上。",
+      "starter": "If",
+      "answer": "If you take the camera without signing it out, staff will not know who has it.",
+      "answerZh": "如果你取走相機而不登記借用,職員便不知道相機在誰手上。",
+      "highlight": "signing it out",
+      "targetForm": "sign something out",
+      "targetMeaningZh": "登記借走或帶走某物"
+    }
+  ]
+}

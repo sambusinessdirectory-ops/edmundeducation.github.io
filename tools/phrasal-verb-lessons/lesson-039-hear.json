@@ -1,0 +1,1244 @@
+{
+  "id": "phrasal-verb-39",
+  "order": 39,
+  "slug": "hear",
+  "version": "1",
+  "title": "HEAR 動詞片語",
+  "titleEn": "Hear",
+  "titleZh": "HEAR 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 38 - HEAR.pdf",
+    "sourceNumber": 38,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HEAR",
+      "highlight": "HEAR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I was sorry to hear about your accident.",
+      "zh": "得知你遇上意外,我感到很難過。",
+      "highlight": "hear about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do you ever hear from your old school friends?",
+      "zh": "你還會收到舊同學的消息嗎?",
+      "highlight": "hear from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I have heard of the Alexander technique, but I know very little about it.",
+      "zh": "我聽過亞歷山大技巧,但對它所知很少。",
+      "highlight": "heard",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "聽到或得知有關某人、某事或某件事情的消息；收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事；聽過某人或某事物的名稱;知道其存在,但未必了解詳情；聽某人把話或解釋完整說完",
+    "en": "hear about somebody/something hear of somebody/something hear something of somebody/something; hear from somebody hear something from somebody; hear of somebody/something; hear somebody out",
+    "naturalZh": [
+      "聽到或得知有關某人、某事或某件事情的消息",
+      "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+      "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+      "聽某人把話或解釋完整說完"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "titleZh": "聽到或得知有關某人、某事或某件事情的消息",
+      "titleEn": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "descriptionZh": "聽到或得知有關某人、某事或某件事情的消息",
+      "descriptionEn": "I was sorry to hear about your accident.",
+      "examples": [
+        {
+          "en": "I was sorry to hear about your accident.",
+          "zh": "得知你遇上意外,我感到很難過。",
+          "highlight": "hear about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hear from somebody hear something from somebody",
+      "titleZh": "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+      "titleEn": "hear from somebody hear something from somebody",
+      "descriptionZh": "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+      "descriptionEn": "Do you ever hear from your old school friends?",
+      "examples": [
+        {
+          "en": "Do you ever hear from your old school friends?",
+          "zh": "你還會收到舊同學的消息嗎?",
+          "highlight": "hear from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hear of somebody/something",
+      "titleZh": "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+      "titleEn": "hear of somebody/something",
+      "descriptionZh": "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+      "descriptionEn": "I have heard of the Alexander technique, but I know very little about it.",
+      "examples": [
+        {
+          "en": "I have heard of the Alexander technique, but I know very little about it.",
+          "zh": "我聽過亞歷山大技巧,但對它所知很少。",
+          "highlight": "heard"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hear somebody out",
+      "titleZh": "聽某人把話或解釋完整說完",
+      "titleEn": "hear somebody out",
+      "descriptionZh": "聽某人把話或解釋完整說完",
+      "descriptionEn": "Please hear me out before you make a decision.",
+      "examples": [
+        {
+          "en": "Please hear me out before you make a decision.",
+          "zh": "作出決定前,請先聽我把話說完。",
+          "highlight": "hear me out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HEAR 片語動詞的實際用途",
+    "labelEn": "HEAR Phrasal Verbs in Use",
+    "summaryZh": "hear about 和 hear of 可以幫助你回應有關疾病、意外、成功、改動和其他事情的消息。；hear from 表示某人透過訊息、電話、電郵或其他方式聯絡你。；hear of 可以表示你對某個名稱或構思感到熟悉,即使你對它所知不多。；當你希望別人在作出判斷前先聽完整個解釋時,可以使用 hear somebody out。",
+    "summaryEn": "Hear about and hear of help you respond to news about illnesses, accidents, successes, changes and other events. Hear from shows that somebody has contacted you by message, phone, email or another method. Hear of can show that a name or idea is familiar, even when you do not know much about it. Hear somebody out is useful when you want others to listen to your complete explanation before judging you.",
+    "contextsZh": [
+      "自然談論消息和重要事情",
+      "談論與別人保持聯絡",
+      "分辨「聽過」和「深入了解」",
+      "請別人公平地聽完整個解釋"
+    ],
+    "contextsEn": [
+      "Talk naturally about news and important events",
+      "Talk about keeping in contact",
+      "Show the difference between recognition and detailed knowledge",
+      "Ask people to listen fairly"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+    "fixedHighlight": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 HEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HEAR expression that gives the same meaning.",
+    "correct": "hear about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；hear about 和 hear of 都可以表示得知消息。不過,hear of 也可以表示知道某人或某事物存在,即使你對其所知不多。；hear somebody out 表示聽完某人的整個解釋,不要中途打斷或過早作出判斷。",
+    "variableEn": "Keep the same people, things, time and meaning. Hear about and hear of can mean receiving news. However, hear of can also mean that you know somebody or something exists, although you may know very little about them. Hear somebody out means listening until the person has finished explaining. Do not interrupt or decide too early.",
+    "variableItemsZh": [
+      "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "hear from somebody hear something from somebody",
+      "hear of somebody/something",
+      "hear somebody out"
+    ],
+    "variableItemsEn": [
+      "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "hear from somebody hear something from somebody",
+      "hear of somebody/something",
+      "hear somebody out"
+    ],
+    "forms": [
+      {
+        "formZh": "聽到或得知有關某人、某事或某件事情的消息",
+        "formEn": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+        "exampleZh": "得知你遇上意外,我感到很難過。",
+        "exampleEn": "I was sorry to hear about your accident.",
+        "highlight": "hear about"
+      },
+      {
+        "formZh": "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+        "formEn": "hear from somebody hear something from somebody",
+        "exampleZh": "你還會收到舊同學的消息嗎?",
+        "exampleEn": "Do you ever hear from your old school friends?",
+        "highlight": "hear from"
+      },
+      {
+        "formZh": "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+        "formEn": "hear of somebody/something",
+        "exampleZh": "我聽過亞歷山大技巧,但對它所知很少。",
+        "exampleEn": "I have heard of the Alexander technique, but I know very little about it.",
+        "highlight": "heard"
+      },
+      {
+        "formZh": "聽某人把話或解釋完整說完",
+        "formEn": "hear somebody out",
+        "exampleZh": "作出決定前,請先聽我把話說完。",
+        "exampleEn": "Please hear me out before you make a decision.",
+        "highlight": "hear me out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "聽到或得知有關某人、某事或某件事情的消息",
+      "titleEn": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "formula": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "highlight": "hear about somebody/something hear of somebody/something hear something of somebody/something",
+      "descriptionZh": "聽到或得知有關某人、某事或某件事情的消息",
+      "descriptionEn": "I was sorry to hear about your accident.",
+      "examples": [
+        {
+          "en": "I was sorry to hear about your accident.",
+          "zh": "得知你遇上意外,我感到很難過。",
+          "highlight": "hear about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+      "titleEn": "hear from somebody hear something from somebody",
+      "formula": "hear from somebody hear something from somebody",
+      "highlight": "hear from somebody hear something from somebody",
+      "descriptionZh": "收到某人的消息、電話、電郵或其他聯絡;從某人口中得知某事",
+      "descriptionEn": "Do you ever hear from your old school friends?",
+      "examples": [
+        {
+          "en": "Do you ever hear from your old school friends?",
+          "zh": "你還會收到舊同學的消息嗎?",
+          "highlight": "hear from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+      "titleEn": "hear of somebody/something",
+      "formula": "hear of somebody/something",
+      "highlight": "hear of somebody/something",
+      "descriptionZh": "聽過某人或某事物的名稱;知道其存在,但未必了解詳情",
+      "descriptionEn": "I have heard of the Alexander technique, but I know very little about it.",
+      "examples": [
+        {
+          "en": "I have heard of the Alexander technique, but I know very little about it.",
+          "zh": "我聽過亞歷山大技巧,但對它所知很少。",
+          "highlight": "heard"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "聽某人把話或解釋完整說完",
+      "titleEn": "hear somebody out",
+      "formula": "hear somebody out",
+      "highlight": "hear somebody out",
+      "descriptionZh": "聽某人把話或解釋完整說完",
+      "descriptionEn": "Please hear me out before you make a decision.",
+      "examples": [
+        {
+          "en": "Please hear me out before you make a decision.",
+          "zh": "作出決定前,請先聽我把話說完。",
+          "highlight": "hear me out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論消息和重要事情",
+      "titleEn": "Talk naturally about news and important events",
+      "zh": "hear about 和 hear of 可以幫助你回應有關疾病、意外、成功、改動和其他事情的消息。",
+      "en": "Hear about and hear of help you respond to news about illnesses, accidents, successes, changes and other events."
+    },
+    {
+      "titleZh": "談論與別人保持聯絡",
+      "titleEn": "Talk about keeping in contact",
+      "zh": "hear from 表示某人透過訊息、電話、電郵或其他方式聯絡你。",
+      "en": "Hear from shows that somebody has contacted you by message, phone, email or another method."
+    },
+    {
+      "titleZh": "分辨「聽過」和「深入了解」",
+      "titleEn": "Show the difference between recognition and detailed knowledge",
+      "zh": "hear of 可以表示你對某個名稱或構思感到熟悉,即使你對它所知不多。",
+      "en": "Hear of can show that a name or idea is familiar, even when you do not know much about it."
+    },
+    {
+      "titleZh": "請別人公平地聽完整個解釋",
+      "titleEn": "Ask people to listen fairly",
+      "zh": "當你希望別人在作出判斷前先聽完整個解釋時,可以使用 hear somebody out。",
+      "en": "Hear somebody out is useful when you want others to listen to your complete explanation before judging you."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論消息和重要事情",
+      "談論與別人保持聯絡",
+      "分辨「聽過」和「深入了解」",
+      "請別人公平地聽完整個解釋"
+    ],
+    "contextsEn": [
+      "Talk naturally about news and important events",
+      "Talk about keeping in contact",
+      "Show the difference between recognition and detailed knowledge",
+      "Ask people to listen fairly"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論消息和重要事情",
+        "titleEn": "Talk naturally about news and important events",
+        "zh": "hear about 和 hear of 可以幫助你回應有關疾病、意外、成功、改動和其他事情的消息。",
+        "en": "Hear about and hear of help you respond to news about illnesses, accidents, successes, changes and other events.",
+        "examples": [
+          {
+            "en": "I was sorry to hear about your accident.",
+            "zh": "得知你遇上意外,我感到很難過。",
+            "highlight": "hear about"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論與別人保持聯絡",
+        "titleEn": "Talk about keeping in contact",
+        "zh": "hear from 表示某人透過訊息、電話、電郵或其他方式聯絡你。",
+        "en": "Hear from shows that somebody has contacted you by message, phone, email or another method.",
+        "examples": [
+          {
+            "en": "Do you ever hear from your old school friends?",
+            "zh": "你還會收到舊同學的消息嗎?",
+            "highlight": "hear from"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨「聽過」和「深入了解」",
+        "titleEn": "Show the difference between recognition and detailed knowledge",
+        "zh": "hear of 可以表示你對某個名稱或構思感到熟悉,即使你對它所知不多。",
+        "en": "Hear of can show that a name or idea is familiar, even when you do not know much about it.",
+        "examples": [
+          {
+            "en": "I have heard of the Alexander technique, but I know very little about it.",
+            "zh": "我聽過亞歷山大技巧,但對它所知很少。",
+            "highlight": "heard"
+          }
+        ]
+      },
+      {
+        "titleZh": "請別人公平地聽完整個解釋",
+        "titleEn": "Ask people to listen fairly",
+        "zh": "當你希望別人在作出判斷前先聽完整個解釋時,可以使用 hear somebody out。",
+        "en": "Hear somebody out is useful when you want others to listen to your complete explanation before judging you.",
+        "examples": [
+          {
+            "en": "Please hear me out before you make a decision.",
+            "zh": "作出決定前,請先聽我把話說完。",
+            "highlight": "hear me out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HEAR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the HEAR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "hear about 和 hear of 都可以表示得知消息。不過,hear of 也可以表示知道某人或某事物存在,即使你對其所知不多。",
+      "titleEn": "Hear about and hear of can mean receiving news.",
+      "zh": "hear about 和 hear of 都可以表示得知消息。不過,hear of 也可以表示知道某人或某事物存在,即使你對其所知不多。",
+      "en": "Hear about and hear of can mean receiving news. However, hear of can also mean that you know somebody or something exists, although you may know very little about them."
+    },
+    {
+      "titleZh": "hear somebody out 表示聽完某人的整個解釋,不要中途打斷或過早作出判斷。",
+      "titleEn": "Hear somebody out means listening until the person has finished explaining.",
+      "zh": "hear somebody out 表示聽完某人的整個解釋,不要中途打斷或過早作出判斷。",
+      "en": "Hear somebody out means listening until the person has finished explaining. Do not interrupt or decide too early."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HEAR 動詞片語句子改寫練習",
+    "titleEn": "HEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-39-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "I was sorry when I received news of your mother’s illness.",
+      "promptZh": "得知你母親患病,我感到很難過。",
+      "starter": "I",
+      "answer": "I was sorry to hear about your mother’s illness.",
+      "answerZh": "得知你母親患病,我感到很難過。",
+      "highlight": "to hear about",
+      "targetForm": "hear about somebody/something",
+      "targetMeaningZh": "聽到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Do any of your old school friends still contact you?",
+      "promptZh": "你的舊同學還會聯絡你嗎?",
+      "starter": "Do",
+      "answer": "Do you ever hear from any of your old school friends?",
+      "answerZh": "你還會收到任何舊同學的消息嗎?",
+      "highlight": "you ever hear from",
+      "targetForm": "hear from somebody",
+      "targetMeaningZh": "收到某人的消息或聯絡"
+    },
+    {
+      "id": "phrasal-verb-39-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please listen to my whole explanation before you answer.",
+      "promptZh": "回答前,請先聽完整個解釋。",
+      "starter": "Please",
+      "answer": "Please hear me out before you answer.",
+      "answerZh": "回答前,請先聽我把話說完。",
+      "highlight": "hear me out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I know the name of the Alexander technique, but I know nothing about it.",
+      "promptZh": "我聽過亞歷山大技巧這個名稱,但對它一無所知。",
+      "starter": "I’ve",
+      "answer": "I’ve heard of the Alexander technique, but I know nothing about it.",
+      "answerZh": "我聽過亞歷山大技巧,但對它一無所知。",
+      "highlight": "I’ve heard",
+      "targetForm": "hear of somebody/something",
+      "targetMeaningZh": "聽過某人或某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We were sad when we received news of the accident.",
+      "promptZh": "得知那宗意外的消息,我們感到很難過。",
+      "starter": "We",
+      "answer": "We were sad to hear of the accident.",
+      "answerZh": "得知那宗意外的消息,我們感到很難過。",
+      "highlight": "to hear",
+      "targetForm": "hear of somebody/something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The teacher listened to Ben’s full explanation before making a decision.",
+      "promptZh": "老師先聽完賓的完整解釋,然後才作出決定。",
+      "starter": "The",
+      "answer": "The teacher heard Ben out before making a decision.",
+      "answerZh": "老師先聽完賓的完整解釋,然後才作出決定。",
+      "highlight": "heard Ben out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Maya sent me a message yesterday.",
+      "promptZh": "瑪雅昨天傳了訊息給我。",
+      "starter": "I",
+      "answer": "I heard from Maya yesterday.",
+      "answerZh": "我昨天收到瑪雅的消息。",
+      "highlight": "I heard from",
+      "targetForm": "hear from somebody",
+      "targetMeaningZh": "收到某人的消息或聯絡"
+    },
+    {
+      "id": "phrasal-verb-39-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Do you know the name of this writer?",
+      "promptZh": "你聽過這位作家的名字嗎?",
+      "starter": "Have",
+      "answer": "Have you heard of this writer?",
+      "answerZh": "你聽過這位作家嗎?",
+      "highlight": "Have",
+      "targetForm": "hear of somebody/something",
+      "targetMeaningZh": "聽過某人或某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam was pleased when he received news of your new job.",
+      "promptZh": "得知你找到新工作,森感到很高興。",
+      "starter": "Sam",
+      "answer": "Sam was pleased to hear about your new job.",
+      "answerZh": "得知你找到新工作,森感到很高興。",
+      "highlight": "to hear about",
+      "targetForm": "hear about somebody/something",
+      "targetMeaningZh": "聽到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Listen to us until we finish, and then choose.",
+      "promptZh": "先聽我們把話說完,然後才作出選擇。",
+      "starter": "Hear",
+      "answer": "Hear us out before you choose.",
+      "answerZh": "作出選擇前,請先聽我們把話說完。",
+      "highlight": "Hear",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We have not received a reply from the hotel yet.",
+      "promptZh": "我們仍未收到酒店的回覆。",
+      "starter": "We",
+      "answer": "We have not heard from the hotel yet.",
+      "answerZh": "我們仍未收到酒店的回覆。",
+      "highlight": "heard",
+      "targetForm": "hear from somebody/something",
+      "targetMeaningZh": "收到某人或機構的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Have you received any news about the change to tomorrow’s class?",
+      "promptZh": "你有沒有收到有關明日課堂改動的消息?",
+      "starter": "Have",
+      "answer": "Have you heard about the change to tomorrow’s class?",
+      "answerZh": "你有沒有得知明日課堂的改動?",
+      "highlight": "heard",
+      "targetForm": "hear about something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Will you listen to her full idea before saying no?",
+      "promptZh": "你可以先聽完她的整個構思,然後才拒絕嗎?",
+      "starter": "Will",
+      "answer": "Will you hear her out before saying no?",
+      "answerZh": "你可以先聽完她的整個構思,然後才拒絕嗎?",
+      "highlight": "hear",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Most of the children did not know that this old game existed.",
+      "promptZh": "大部分孩子都不知道這款舊遊戲的存在。",
+      "starter": "Most",
+      "answer": "Most of the children had never heard of this old game.",
+      "answerZh": "大部分孩子從未聽過這款舊遊戲。",
+      "highlight": "had never heard of",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Nina told me the result this morning.",
+      "promptZh": "妮娜今早告訴了我結果。",
+      "starter": "I",
+      "answer": "I heard the result from Nina this morning.",
+      "answerZh": "我今早從妮娜口中得知結果。",
+      "highlight": "I heard",
+      "targetForm": "hear something from somebody",
+      "targetMeaningZh": "從某人口中得知某事"
+    },
+    {
+      "id": "phrasal-verb-39-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "When Leo learnt about the cancelled match, he called the team.",
+      "promptZh": "里奧得知比賽取消後,便致電球隊。",
+      "starter": "When",
+      "answer": "When Leo heard about the cancelled match, he called the team.",
+      "answerZh": "里奧得知比賽取消後,便致電球隊。",
+      "highlight": "heard",
+      "targetForm": "hear about something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She knew the name of the village but had never visited it.",
+      "promptZh": "她聽過那條村莊的名字,但從未到訪過。",
+      "starter": "She",
+      "answer": "She had heard of the village but had never visited it.",
+      "answerZh": "她聽過那條村莊,但從未到訪過。",
+      "highlight": "had heard",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Have the organisers contacted you since Monday?",
+      "promptZh": "主辦單位自星期一起有沒有聯絡你?",
+      "starter": "Have",
+      "answer": "Have you heard from the organisers since Monday?",
+      "answerZh": "你自星期一起有沒有收到主辦單位的消息?",
+      "highlight": "you heard from",
+      "targetForm": "hear from somebody/something",
+      "targetMeaningZh": "收到某人或機構的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We received no information about the problem until Friday.",
+      "promptZh": "直至星期五,我們都沒有收到有關問題的消息。",
+      "starter": "We",
+      "answer": "We heard nothing of the problem until Friday.",
+      "answerZh": "直至星期五,我們都沒有收到有關問題的消息。",
+      "highlight": "heard nothing of",
+      "targetForm": "hear something of somebody/something",
+      "targetMeaningZh": "收到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The manager listened to both workers until they had each finished speaking.",
+      "promptZh": "經理聽完兩名工人的完整說法。",
+      "starter": "The",
+      "answer": "The manager heard both workers out.",
+      "answerZh": "經理聽完了兩名工人的完整說法。",
+      "highlight": "heard",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Before today, I did not know that this phone app existed.",
+      "promptZh": "在今天之前,我不知道這款手機應用程式的存在。",
+      "starter": "Before",
+      "answer": "Before today, I had never heard of this phone app.",
+      "answerZh": "在今天之前,我從未聽過這款手機應用程式。",
+      "highlight": "had never heard of",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I last received a message from Chloe three months ago.",
+      "promptZh": "我上一次收到克洛伊的訊息是在三個月前。",
+      "starter": "I",
+      "answer": "I last heard from Chloe three months ago.",
+      "answerZh": "我上一次收到克洛伊的消息是在三個月前。",
+      "highlight": "heard",
+      "targetForm": "hear from somebody",
+      "targetMeaningZh": "收到某人的消息或聯絡"
+    },
+    {
+      "id": "phrasal-verb-39-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The whole class was excited after receiving news of the school trip.",
+      "promptZh": "全班收到學校旅行的消息後都非常興奮。",
+      "starter": "The",
+      "answer": "The whole class was excited to hear about the school trip.",
+      "answerZh": "全班得知學校旅行的消息後都非常興奮。",
+      "highlight": "to hear about",
+      "targetForm": "hear about something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I know you disagree, but listen until I have explained everything.",
+      "promptZh": "我知道你不同意,但請先聽我把一切解釋清楚。",
+      "starter": "I",
+      "answer": "I know you disagree, but hear me out.",
+      "answerZh": "我知道你不同意,但請先聽我把話說完。",
+      "highlight": "hear me out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "My parents know the name of the restaurant, although they have never eaten there.",
+      "promptZh": "我父母聽過這間餐廳的名字,但從未在那裏用膳。",
+      "starter": "My",
+      "answer": "My parents have heard of the restaurant, although they have never eaten there.",
+      "answerZh": "我父母聽過這間餐廳,但從未在那裏用膳。",
+      "highlight": "have heard",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ella told us the story herself.",
+      "promptZh": "埃拉親自告訴了我們這個故事。",
+      "starter": "We",
+      "answer": "We heard the story from Ella herself.",
+      "answerZh": "我們親自從埃拉口中聽到這個故事。",
+      "highlight": "We heard",
+      "targetForm": "hear something from somebody",
+      "targetMeaningZh": "從某人口中得知某事"
+    },
+    {
+      "id": "phrasal-verb-39-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Kai was surprised when he learnt about the shop closing.",
+      "promptZh": "啟得知店舖即將結業時感到很驚訝。",
+      "starter": "Kai",
+      "answer": "Kai was surprised to hear about the shop closing.",
+      "answerZh": "啟得知店舖即將結業時感到很驚訝。",
+      "highlight": "to hear",
+      "targetForm": "hear about something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Have the students been told that this type of music exists?",
+      "promptZh": "學生聽過這種音樂嗎?",
+      "starter": "Have",
+      "answer": "Have the students heard of this type of music?",
+      "answerZh": "學生聽過這種音樂嗎?",
+      "highlight": "heard of",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We had received no message from the repair shop by lunchtime.",
+      "promptZh": "到了午飯時間,我們仍未收到維修店的消息。",
+      "starter": "We",
+      "answer": "We had heard nothing from the repair shop by lunchtime.",
+      "answerZh": "到了午飯時間,我們仍未收到維修店的消息。",
+      "highlight": "heard nothing",
+      "targetForm": "hear something from somebody/something",
+      "targetMeaningZh": "收到某人或機構的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The coach refused to listen to our full reason for being late.",
+      "promptZh": "教練拒絕聽完我們遲到的完整原因。",
+      "starter": "The",
+      "answer": "The coach refused to hear us out.",
+      "answerZh": "教練拒絕聽完我們遲到的完整原因。",
+      "highlight": "hear us out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Before you blame Amir, listen to his full side of the story.",
+      "promptZh": "責怪阿米爾之前,請先聽完他的完整說法。",
+      "starter": "Before",
+      "answer": "Before you blame Amir, hear him out.",
+      "answerZh": "責怪阿米爾之前,請先聽完他的完整說法。",
+      "highlight": "hear him out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I recognise the name of the book, but I have never read it.",
+      "promptZh": "我聽過這本書的名字,但從未讀過。",
+      "starter": "I’ve",
+      "answer": "I’ve heard of the book, but I have never read it.",
+      "answerZh": "我聽過這本書,但從未讀過。",
+      "highlight": "I’ve heard",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The head teacher told me the information directly.",
+      "promptZh": "校長直接把資料告訴了我。",
+      "starter": "I",
+      "answer": "I heard the information directly from the head teacher.",
+      "answerZh": "我直接從校長口中得知資料。",
+      "highlight": "I heard the information directly from",
+      "targetForm": "hear something from somebody",
+      "targetMeaningZh": "從某人口中得知某事"
+    },
+    {
+      "id": "phrasal-verb-39-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Mina was delighted when she received news of her cousin’s success.",
+      "promptZh": "米娜得知表親成功的消息時感到非常高興。",
+      "starter": "Mina",
+      "answer": "Mina was delighted to hear about her cousin’s success.",
+      "answerZh": "米娜得知表親成功的消息時感到非常高興。",
+      "highlight": "to hear about",
+      "targetForm": "hear about somebody/something",
+      "targetMeaningZh": "聽到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the idea sounded strange, the group listened until Rosa had fully explained it.",
+      "promptZh": "雖然這個構思聽起來很奇怪,但小組仍聽完了羅莎的完整解釋。",
+      "starter": "Although",
+      "answer": "Although the idea sounded strange, the group heard Rosa out.",
+      "answerZh": "雖然這個構思聽起來很奇怪,但小組仍聽完了羅莎的完整解釋。",
+      "highlight": "heard",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Few people in our class knew that the sport existed before this week.",
+      "promptZh": "本星期之前,班上很少人知道這種運動的存在。",
+      "starter": "Few",
+      "answer": "Few people in our class had heard of the sport before this week.",
+      "answerZh": "本星期之前,班上很少人聽過這種運動。",
+      "highlight": "had heard of",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Has your brother contacted you since he moved abroad?",
+      "promptZh": "你哥哥移居外國後有沒有聯絡你?",
+      "starter": "Have",
+      "answer": "Have you heard from your brother since he moved abroad?",
+      "answerZh": "你哥哥移居外國後有沒有聯絡你?",
+      "highlight": "Have you heard from",
+      "targetForm": "hear from somebody",
+      "targetMeaningZh": "收到某人的消息或聯絡"
+    },
+    {
+      "id": "phrasal-verb-39-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The club leader listened to the young man’s complete explanation before deciding what to do.",
+      "promptZh": "社團領袖先聽完那名年輕人的完整解釋,然後才決定怎樣做。",
+      "starter": "The",
+      "answer": "The club leader heard the young man out before deciding what to do.",
+      "answerZh": "社團領袖先聽完那名年輕人的完整解釋,然後才決定怎樣做。",
+      "highlight": "heard",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We knew the name of the café, but we did not know where it was.",
+      "promptZh": "我們聽過這間咖啡店的名字,但不知道它位於哪裏。",
+      "starter": "We",
+      "answer": "We had heard of the café, but we did not know where it was.",
+      "answerZh": "我們聽過這間咖啡店,但不知道它位於哪裏。",
+      "highlight": "had heard",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Did you receive any news about Rosa’s accident?",
+      "promptZh": "你有沒有收到有關羅莎遇上意外的消息?",
+      "starter": "Did",
+      "answer": "Did you hear about Rosa’s accident?",
+      "answerZh": "你有沒有得知羅莎遇上意外的消息?",
+      "highlight": "hear",
+      "targetForm": "hear about somebody/something",
+      "targetMeaningZh": "聽到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I was relieved when I learnt that the missing dog had been found safe.",
+      "promptZh": "得知失蹤的狗隻已安全尋回,我感到很安心。",
+      "starter": "I",
+      "answer": "I was relieved to hear about the missing dog being found safe.",
+      "answerZh": "得知失蹤的狗隻已安全尋回,我感到很安心。",
+      "highlight": "to hear about",
+      "targetForm": "hear about somebody/something",
+      "targetMeaningZh": "聽到或得知有關某人或某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Please listen to my full explanation of why the plan changed before deciding it was a mistake.",
+      "promptZh": "認定計劃的改動是錯誤之前,請先聽完我的完整解釋。",
+      "starter": "Please",
+      "answer": "Please hear me out before deciding the plan change was a mistake.",
+      "answerZh": "認定計劃的改動是錯誤之前,請先聽完我的完整解釋。",
+      "highlight": "hear me out before deciding",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nora knew the name of the singer, but she could not name any of his songs.",
+      "promptZh": "諾拉聽過這名歌手,但說不出他的任何歌曲。",
+      "starter": "Nora",
+      "answer": "Nora had heard of the singer, but she could not name any of his songs.",
+      "answerZh": "諾拉聽過這名歌手,但說不出他的任何歌曲。",
+      "highlight": "had heard",
+      "targetForm": "hear of somebody",
+      "targetMeaningZh": "聽過某人;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We received the final time from the coach, not from the website.",
+      "promptZh": "我們是從教練口中得知最終時間,而不是從網站得知。",
+      "starter": "We",
+      "answer": "We heard the final time from the coach, not from the website.",
+      "answerZh": "我們是從教練口中得知最終時間,而不是從網站得知。",
+      "highlight": "heard",
+      "targetForm": "hear something from somebody",
+      "targetMeaningZh": "從某人口中得知某事"
+    },
+    {
+      "id": "phrasal-verb-39-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The parents were angry at first, but they listened until their daughter had explained the whole situation.",
+      "promptZh": "父母起初很生氣,但仍聽完了女兒對整件事的解釋。",
+      "starter": "The",
+      "answer": "The parents were angry at first, but they heard their daughter out.",
+      "answerZh": "父母起初很生氣,但仍聽完了女兒對整件事的解釋。",
+      "highlight": "heard",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Everyone was shocked when they received news of the sudden timetable change.",
+      "promptZh": "所有人得知時間表突然改動時都感到震驚。",
+      "starter": "Everyone",
+      "answer": "Everyone was shocked to hear about the sudden timetable change.",
+      "answerZh": "所有人得知時間表突然改動時都感到震驚。",
+      "highlight": "to hear about",
+      "targetForm": "hear about something",
+      "targetMeaningZh": "聽到或得知有關某事的消息"
+    },
+    {
+      "id": "phrasal-verb-39-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before joining the club, I did not know that this form of chess existed.",
+      "promptZh": "加入社團前,我不知道這種國際象棋玩法的存在。",
+      "starter": "Before",
+      "answer": "Before joining the club, I had never heard of this form of chess.",
+      "answerZh": "加入社團前,我從未聽過這種國際象棋玩法。",
+      "highlight": "had never heard of",
+      "targetForm": "hear of something",
+      "targetMeaningZh": "聽過某事物;知道其存在"
+    },
+    {
+      "id": "phrasal-verb-39-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Even if you think his answer is wrong, listen until he has completed his explanation.",
+      "promptZh": "即使你認為他的答案錯誤,也應先聽完他的解釋。",
+      "starter": "Even",
+      "answer": "Even if you think his answer is wrong, hear him out.",
+      "answerZh": "即使你認為他的答案錯誤,也應先聽完他的解釋。",
+      "highlight": "hear him out",
+      "targetForm": "hear somebody out",
+      "targetMeaningZh": "聽某人把話或解釋完整說完"
+    },
+    {
+      "id": "phrasal-verb-39-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I hope Anna contacts us soon after her journey.",
+      "promptZh": "我希望安娜在旅程結束後很快聯絡我們。",
+      "starter": "I",
+      "answer": "I hope we hear from Anna soon after her journey.",
+      "answerZh": "我希望安娜在旅程結束後很快聯絡我們。",
+      "highlight": "we hear from",
+      "targetForm": "hear from somebody",
+      "targetMeaningZh": "收到某人的消息或聯絡"
+    },
+    {
+      "id": "phrasal-verb-39-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After reporting the lost bags, we received no further news about them until the airport called that evening.",
+      "promptZh": "報告行李遺失後,我們一直沒有收到進一步消息,直至機場當晚來電。",
+      "starter": "After",
+      "answer": "After reporting the lost bags, we heard nothing further of them until the airport called that evening.",
+      "answerZh": "報告行李遺失後,我們一直沒有收到進一步消息,直至機場當晚來電。",
+      "highlight": "heard nothing",
+      "targetForm": "hear something of somebody/something",
+      "targetMeaningZh": "收到或得知有關某人或某事的消息"
+    }
+  ]
+}

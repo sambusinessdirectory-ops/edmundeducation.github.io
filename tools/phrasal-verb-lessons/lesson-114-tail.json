@@ -1,0 +1,997 @@
+{
+  "id": "phrasal-verb-114",
+  "order": 114,
+  "slug": "tail",
+  "version": "1",
+  "title": "TAIL 動詞片語",
+  "titleEn": "Tail",
+  "titleZh": "TAIL 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 113 - TAIL.pdf",
+    "sourceNumber": 113,
+    "pageCount": 17,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TAIL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TAIL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TAIL",
+      "highlight": "TAIL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Traffic tailed back for four miles after the bridge closed.",
+      "zh": "大橋封閉後,車龍向後延伸達四英里。",
+      "highlight": "tailed back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Orders tailed off near the end of the month.",
+      "zh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+      "highlight": "tailed off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "車龍向後延伸;車輛排成長龍；逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+    "en": "tail back; tail off / tail away",
+    "naturalZh": [
+      "車龍向後延伸;車輛排成長龍",
+      "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tail back",
+      "titleZh": "車龍向後延伸;車輛排成長龍",
+      "titleEn": "tail back",
+      "descriptionZh": "車龍向後延伸;車輛排成長龍",
+      "descriptionEn": "Traffic tailed back for four miles after the bridge closed.",
+      "examples": [
+        {
+          "en": "Traffic tailed back for four miles after the bridge closed.",
+          "zh": "大橋封閉後,車龍向後延伸達四英里。",
+          "highlight": "tailed back"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tail off / tail away",
+      "titleZh": "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+      "titleEn": "tail off / tail away",
+      "descriptionZh": "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+      "descriptionEn": "Orders tailed off near the end of the month.",
+      "examples": [
+        {
+          "en": "Orders tailed off near the end of the month.",
+          "zh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+          "highlight": "tailed off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TAIL 片語動詞的實際用途",
+    "labelEn": "TAIL Phrasal Verbs in Use",
+    "summaryZh": "tail back 能幫助你理解車龍延伸了多遠的交通資訊。；tail off 可以描述銷售量、需求、興趣、雨勢或活動逐漸減少。；tail away 適合描述聲音、音樂或笑聲慢慢變弱,直至消失。；這些片語動詞能清楚表示車龍或下降情況是逐步形成,而不是突然發生。",
+    "summaryEn": "Tail back helps you understand reports about how far a traffic queue has reached. Tail off can describe sales, demand, interest, rain, activity and other things becoming less little by little. Tail away is useful for voices, music, laughter and other sounds that become quieter until they disappear. These expressions make it clear that the traffic queue or decrease develops little by little rather than happening suddenly.",
+    "contextsZh": [
+      "更容易理解交通報道",
+      "清楚描述逐步下降",
+      "描述聲音逐漸消失",
+      "表達變化是逐步發生的"
+    ],
+    "contextsEn": [
+      "Understand traffic reports more easily",
+      "Describe a slow decrease clearly",
+      "Describe sounds slowly disappearing",
+      "Show that a change happens over time"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TAIL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TAIL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tail back",
+    "fixedHighlight": "tail back",
+    "fixedZh": "閱讀整句,選出意思相同的 TAIL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TAIL expression that gives the same meaning.",
+    "correct": "tailed back",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；tail back 主要用來表示車龍由繁忙或受阻的位置向後延伸。；tail off 和 tail away 都可以表示某事物逐漸減少、減弱或變得安靜。tail away 較少見,尤其常用於聲音逐漸消失的情況。",
+    "variableEn": "Keep the same people, things, time and meaning. Tail back is mainly used when a line of traffic stretches a long distance from a busy or blocked point. Tail off and tail away both describe something becoming weaker, smaller or quieter little by little. Tail away is less frequent and is especially natural when a sound slowly disappears.",
+    "variableItemsZh": [
+      "tail back",
+      "tail off / tail away"
+    ],
+    "variableItemsEn": [
+      "tail back",
+      "tail off / tail away"
+    ],
+    "forms": [
+      {
+        "formZh": "車龍向後延伸;車輛排成長龍",
+        "formEn": "tail back",
+        "exampleZh": "大橋封閉後,車龍向後延伸達四英里。",
+        "exampleEn": "Traffic tailed back for four miles after the bridge closed.",
+        "highlight": "tailed back"
+      },
+      {
+        "formZh": "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+        "formEn": "tail off / tail away",
+        "exampleZh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+        "exampleEn": "Orders tailed off near the end of the month.",
+        "highlight": "tailed off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "車龍向後延伸;車輛排成長龍",
+      "titleEn": "tail back",
+      "formula": "tail back",
+      "highlight": "tail back",
+      "descriptionZh": "車龍向後延伸;車輛排成長龍",
+      "descriptionEn": "Traffic tailed back for four miles after the bridge closed.",
+      "examples": [
+        {
+          "en": "Traffic tailed back for four miles after the bridge closed.",
+          "zh": "大橋封閉後,車龍向後延伸達四英里。",
+          "highlight": "tailed back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+      "titleEn": "tail off / tail away",
+      "formula": "tail off / tail away",
+      "highlight": "tail off / tail away",
+      "descriptionZh": "逐漸減少、減弱、變得安靜或停止;tail away 較少見,尤其常用於聲音慢慢消失",
+      "descriptionEn": "Orders tailed off near the end of the month.",
+      "examples": [
+        {
+          "en": "Orders tailed off near the end of the month.",
+          "zh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+          "highlight": "tailed off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "更容易理解交通報道",
+      "titleEn": "Understand traffic reports more easily",
+      "zh": "tail back 能幫助你理解車龍延伸了多遠的交通資訊。",
+      "en": "Tail back helps you understand reports about how far a traffic queue has reached."
+    },
+    {
+      "titleZh": "清楚描述逐步下降",
+      "titleEn": "Describe a slow decrease clearly",
+      "zh": "tail off 可以描述銷售量、需求、興趣、雨勢或活動逐漸減少。",
+      "en": "Tail off can describe sales, demand, interest, rain, activity and other things becoming less little by little."
+    },
+    {
+      "titleZh": "描述聲音逐漸消失",
+      "titleEn": "Describe sounds slowly disappearing",
+      "zh": "tail away 適合描述聲音、音樂或笑聲慢慢變弱,直至消失。",
+      "en": "Tail away is useful for voices, music, laughter and other sounds that become quieter until they disappear."
+    },
+    {
+      "titleZh": "表達變化是逐步發生的",
+      "titleEn": "Show that a change happens over time",
+      "zh": "這些片語動詞能清楚表示車龍或下降情況是逐步形成,而不是突然發生。",
+      "en": "These expressions make it clear that the traffic queue or decrease develops little by little rather than happening suddenly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "更容易理解交通報道",
+      "清楚描述逐步下降",
+      "描述聲音逐漸消失",
+      "表達變化是逐步發生的"
+    ],
+    "contextsEn": [
+      "Understand traffic reports more easily",
+      "Describe a slow decrease clearly",
+      "Describe sounds slowly disappearing",
+      "Show that a change happens over time"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "更容易理解交通報道",
+        "titleEn": "Understand traffic reports more easily",
+        "zh": "tail back 能幫助你理解車龍延伸了多遠的交通資訊。",
+        "en": "Tail back helps you understand reports about how far a traffic queue has reached.",
+        "examples": [
+          {
+            "en": "Traffic tailed back for four miles after the bridge closed.",
+            "zh": "大橋封閉後,車龍向後延伸達四英里。",
+            "highlight": "tailed back"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述逐步下降",
+        "titleEn": "Describe a slow decrease clearly",
+        "zh": "tail off 可以描述銷售量、需求、興趣、雨勢或活動逐漸減少。",
+        "en": "Tail off can describe sales, demand, interest, rain, activity and other things becoming less little by little.",
+        "examples": [
+          {
+            "en": "Orders tailed off near the end of the month.",
+            "zh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+            "highlight": "tailed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述聲音逐漸消失",
+        "titleEn": "Describe sounds slowly disappearing",
+        "zh": "tail away 適合描述聲音、音樂或笑聲慢慢變弱,直至消失。",
+        "en": "Tail away is useful for voices, music, laughter and other sounds that become quieter until they disappear.",
+        "examples": [
+          {
+            "en": "Traffic tailed back for four miles after the bridge closed.",
+            "zh": "大橋封閉後,車龍向後延伸達四英里。",
+            "highlight": "tailed back"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達變化是逐步發生的",
+        "titleEn": "Show that a change happens over time",
+        "zh": "這些片語動詞能清楚表示車龍或下降情況是逐步形成,而不是突然發生。",
+        "en": "These expressions make it clear that the traffic queue or decrease develops little by little rather than happening suddenly.",
+        "examples": [
+          {
+            "en": "Orders tailed off near the end of the month.",
+            "zh": "月尾時,訂單量逐漸減少。)The music tailed away into silence.(音樂聲逐漸變弱,最後完全消失。",
+            "highlight": "tailed off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TAIL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TAIL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TAIL 片語動詞。",
+      "en": "Read the whole sentence and choose the TAIL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "tail back 主要用來表示車龍由繁忙或受阻的位置向後延伸。",
+      "titleEn": "Tail back is mainly used when a line of traffic stretches a long distance from a busy or blocked point.",
+      "zh": "tail back 主要用來表示車龍由繁忙或受阻的位置向後延伸。",
+      "en": "Tail back is mainly used when a line of traffic stretches a long distance from a busy or blocked point."
+    },
+    {
+      "titleZh": "tail off 和 tail away 都可以表示某事物逐漸減少、減弱或變得安靜。tail away 較少見,尤其常用於聲音逐漸消失的情況。",
+      "titleEn": "Tail off and tail away both describe something becoming weaker, smaller or quieter little by little.",
+      "zh": "tail off 和 tail away 都可以表示某事物逐漸減少、減弱或變得安靜。tail away 較少見,尤其常用於聲音逐漸消失的情況。",
+      "en": "Tail off and tail away both describe something becoming weaker, smaller or quieter little by little. Tail away is less frequent and is especially natural when a sound slowly disappears."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TAIL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TAIL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TAIL 動詞片語句子改寫練習",
+    "titleEn": "TAIL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TAIL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TAIL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-114-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Sales became lower little by little after the summer holiday.",
+      "promptZh": "暑假後,銷售量逐步下降。",
+      "starter": "Sales",
+      "answer": "Sales tailed off after the summer holiday.",
+      "answerZh": "暑假後,銷售量逐漸下降。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "After the accident, traffic formed a queue for six miles.",
+      "promptZh": "意外發生後,車龍長達六英里。",
+      "starter": "After",
+      "answer": "After the accident, traffic tailed back for six miles.",
+      "answerZh": "意外發生後,車龍向後延伸達六英里。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "Her voice became quieter and finally could not be heard.",
+      "promptZh": "她的聲音愈來愈小,最後完全聽不見。",
+      "starter": "Her",
+      "answer": "Her voice tailed away until it could no longer be heard.",
+      "answerZh": "她的聲音逐漸變弱,直至完全聽不見。",
+      "highlight": "tailed away until it",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Cars formed a long queue that reached the town centre.",
+      "promptZh": "汽車排成長龍,一直延伸至市中心。",
+      "starter": "Cars",
+      "answer": "Cars tailed back to the town centre.",
+      "answerZh": "車龍一直延伸至市中心。",
+      "highlight": "tailed back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Traffic formed a three-mile queue from the tunnel.",
+      "promptZh": "隧道外出現了長達三英里的車龍。",
+      "starter": "Traffic",
+      "answer": "Traffic tailed back from the tunnel for three miles.",
+      "answerZh": "車龍由隧道向後延伸三英里。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Interest in the game slowly became weaker.",
+      "promptZh": "人們對這款遊戲的興趣逐漸減退。",
+      "starter": "Interest",
+      "answer": "Interest in the game tailed off.",
+      "answerZh": "人們對這款遊戲的興趣逐漸減退。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The rain slowly became lighter during the afternoon.",
+      "promptZh": "下午期間,雨勢逐漸減弱。",
+      "starter": "The",
+      "answer": "The rain tailed off during the afternoon.",
+      "answerZh": "下午期間,雨勢逐漸減弱。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The queue of lorries stretched from the roadworks to the bridge.",
+      "promptZh": "貨車車龍由道路工程位置一直延伸至大橋。",
+      "starter": "The",
+      "answer": "The lorries tailed back from the roadworks to the bridge.",
+      "answerZh": "貨車車龍由道路工程位置一直延伸至大橋。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Because one lane is closed, traffic is forming a long queue towards the roundabout.",
+      "promptZh": "由於一條行車線封閉,車龍正朝迴旋處方向延伸。",
+      "starter": "Because",
+      "answer": "Because one lane is closed, traffic is tailing back towards the roundabout.",
+      "answerZh": "由於一條行車線封閉,車龍正朝迴旋處方向延伸。",
+      "highlight": "tailing back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The number of visitors has slowly decreased since January.",
+      "promptZh": "訪客人數自一月起逐漸減少。",
+      "starter": "Visitor",
+      "answer": "Visitor numbers have tailed off since January.",
+      "answerZh": "訪客人數自一月起逐漸減少。",
+      "highlight": "Visitor numbers have tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Did the traffic queue reach the station after the road closed?",
+      "promptZh": "道路封閉後,車龍有沒有延伸至車站?",
+      "starter": "Did",
+      "answer": "Did the traffic tail back to the station after the road closed?",
+      "answerZh": "道路封閉後,車龍有沒有延伸至車站?",
+      "highlight": "tail back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The music was becoming quieter as the band left the stage.",
+      "promptZh": "樂隊離開舞台時,音樂聲正逐漸變弱。",
+      "starter": "The",
+      "answer": "The music was tailing away as the band left the stage.",
+      "answerZh": "樂隊離開舞台時,音樂聲正逐漸變弱。",
+      "highlight": "tailing away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Demand for winter coats may slowly decrease in March.",
+      "promptZh": "三月時,冬季外套的需求可能逐漸下降。",
+      "starter": "Demand",
+      "answer": "Demand for winter coats may tail off in March.",
+      "answerZh": "三月時,冬季外套的需求可能逐漸下降。",
+      "highlight": "tail off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "A queue of cars has formed from the car park entrance to the main road.",
+      "promptZh": "車龍已由停車場入口延伸至大路。",
+      "starter": "Cars",
+      "answer": "Cars have tailed back from the car park entrance to the main road.",
+      "answerZh": "車龍已由停車場入口延伸至大路。",
+      "highlight": "have tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "If the lights fail again, traffic will form a queue beyond the school.",
+      "promptZh": "如果交通燈再次失靈,車龍將延伸至學校以外。",
+      "starter": "If",
+      "answer": "If the lights fail again, traffic will tail back beyond the school.",
+      "answerZh": "如果交通燈再次失靈,車龍將延伸至學校以外。",
+      "highlight": "tail back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Orders are not decreasing yet, but they may do so next month.",
+      "promptZh": "訂單量尚未下降,但下個月可能會開始減少。",
+      "starter": "Orders",
+      "answer": "Orders are not tailing off yet, but they may do so next month.",
+      "answerZh": "訂單量尚未下降,但下個月可能會開始減少。",
+      "highlight": "tailing off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The child began confidently, but her voice became softer near the end of the poem.",
+      "promptZh": "孩子起初充滿自信,但讀到詩歌末段時,她的聲音逐漸變弱。",
+      "starter": "The",
+      "answer": "The child began confidently, but her voice tailed away near the end of the poem.",
+      "answerZh": "孩子起初充滿自信,但讀到詩歌末段時,她的聲音逐漸變弱。",
+      "highlight": "tailed away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The bridge was closed for an hour. Vehicles formed a queue as far as the hospital.",
+      "promptZh": "大橋封閉了一小時。車龍一直延伸至醫院。",
+      "starter": "The",
+      "answer": "The bridge was closed for an hour. Vehicles tailed back as far as the hospital.",
+      "answerZh": "大橋封閉了一小時。車龍一直延伸至醫院。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "By noon, the line of buses had reached the old market from the station.",
+      "promptZh": "到中午,巴士車龍已由車站延伸至舊市場。",
+      "starter": "By",
+      "answer": "By noon, the buses had tailed back from the station to the old market.",
+      "answerZh": "到中午,巴士車龍已由車站延伸至舊市場。",
+      "highlight": "tailed back from the station to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Bookings were high at first, but they slowly became fewer.",
+      "promptZh": "最初的預訂數目很多,但其後逐漸減少。",
+      "starter": "Bookings",
+      "answer": "Bookings were high at first, but they tailed off.",
+      "answerZh": "最初的預訂數目很多,但其後逐漸減少。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Why did the vehicles form a queue all the way from the tunnel to the harbour?",
+      "promptZh": "為甚麼車龍由隧道一直延伸至海港?",
+      "starter": "Why",
+      "answer": "Why did the vehicles tail back all the way from the tunnel to the harbour?",
+      "answerZh": "為甚麼車龍由隧道一直延伸至海港?",
+      "highlight": "tail back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The applause was loud at first, but it slowly became weaker.",
+      "promptZh": "掌聲起初十分響亮,但其後逐漸減弱。",
+      "starter": "The",
+      "answer": "The applause was loud at first, but it tailed off.",
+      "answerZh": "掌聲起初十分響亮,但其後逐漸減弱。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Their laughter became quieter as they walked farther from the house.",
+      "promptZh": "他們愈走愈遠時,笑聲亦逐漸變弱。",
+      "starter": "Their",
+      "answer": "Their laughter tailed away as they walked farther from the house.",
+      "answerZh": "他們愈走愈遠時,笑聲亦逐漸變弱。",
+      "highlight": "tailed away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The ferry arrived late, so cars formed a queue beyond the ticket office.",
+      "promptZh": "渡輪遲了到達,因此車龍延伸至售票處以外。",
+      "starter": "The",
+      "answer": "The ferry arrived late, so cars tailed back beyond the ticket office.",
+      "answerZh": "渡輪遲了到達,因此車龍延伸至售票處以外。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Roadworks near the stadium caused a vehicle queue that reached the second junction.",
+      "promptZh": "體育館附近的道路工程令車龍延伸至第二個路口。",
+      "starter": "Roadworks",
+      "answer": "Roadworks near the stadium caused traffic to tail back to the second junction.",
+      "answerZh": "體育館附近的道路工程令車龍延伸至第二個路口。",
+      "highlight": "traffic to tail back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The café stayed busy after lunch, but the number of customers slowly became smaller by four o’clock.",
+      "promptZh": "咖啡店午膳後仍然十分繁忙,但到四時時,顧客人數已逐漸減少。",
+      "starter": "The",
+      "answer": "The café stayed busy after lunch, but customer numbers tailed off by four o’clock.",
+      "answerZh": "咖啡店午膳後仍然十分繁忙,但到四時時,顧客人數已逐漸減少。",
+      "highlight": "customer numbers tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "At the end of the song, the singer’s final note became softer until it disappeared.",
+      "promptZh": "歌曲完結時,歌手的最後一個音逐漸變弱,直至消失。",
+      "starter": "At",
+      "answer": "At the end of the song, the singer’s final note tailed away.",
+      "answerZh": "歌曲完結時,歌手的最後一個音逐漸變弱,直至消失。",
+      "highlight": "tailed away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Because of the broken traffic lights, the car queue reached the library.",
+      "promptZh": "由於交通燈損壞,車龍一直延伸至圖書館。",
+      "starter": "Because",
+      "answer": "Because of the broken traffic lights, cars tailed back to the library.",
+      "answerZh": "由於交通燈損壞,車龍一直延伸至圖書館。",
+      "highlight": "cars tailed back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The online discussion was active for two days, but fewer new comments appeared afterwards.",
+      "promptZh": "網上討論活躍了兩天,但其後出現的新留言逐漸減少。",
+      "starter": "The",
+      "answer": "The online discussion was active for two days, but new comments tailed off afterwards.",
+      "answerZh": "網上討論活躍了兩天,但其後出現的新留言逐漸減少。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Traffic formed a queue beyond the petrol station but not as far as the airport road.",
+      "promptZh": "車龍延伸至油站以外,但尚未到達機場路。",
+      "starter": "Traffic",
+      "answer": "Traffic tailed back beyond the petrol station but not as far as the airport road.",
+      "answerZh": "車龍延伸至油站以外,但尚未到達機場路。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The snow closed one lane, and the queue of cars soon reached the village sign.",
+      "promptZh": "大雪令一條行車線封閉,車龍很快便延伸至村口標誌。",
+      "starter": "The",
+      "answer": "The snow closed one lane, and cars soon tailed back to the village sign.",
+      "answerZh": "大雪令一條行車線封閉,車龍很快便延伸至村口標誌。",
+      "highlight": "tailed back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The loud cheering slowly became weaker after the home team lost the lead.",
+      "promptZh": "主隊失去領先優勢後,響亮的歡呼聲逐漸減弱。",
+      "starter": "The",
+      "answer": "The loud cheering tailed off after the home team lost the lead.",
+      "answerZh": "主隊失去領先優勢後,響亮的歡呼聲逐漸減弱。",
+      "highlight": "tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The hall was noisy at first, but when the speaker raised her hand, the talking slowly became quieter and stopped.",
+      "promptZh": "大堂起初十分嘈吵,但講者舉手後,談話聲逐漸變小並停止。",
+      "starter": "The",
+      "answer": "The hall was noisy at first, but when the speaker raised her hand, the talking tailed away.",
+      "answerZh": "大堂起初十分嘈吵,但講者舉手後,談話聲逐漸變小並停止。",
+      "highlight": "tailed away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    },
+    {
+      "id": "phrasal-verb-114-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "A delivery van had stopped working near the bridge, and by eight o’clock the vehicle queue had reached the city park.",
+      "promptZh": "一輛送貨車在大橋附近故障,到八時時,車龍已延伸至市內公園。",
+      "starter": "A",
+      "answer": "A delivery van had stopped working near the bridge, and by eight o’clock traffic had tailed back to the city park.",
+      "answerZh": "一輛送貨車在大橋附近故障,到八時時,車龍已延伸至市內公園。",
+      "highlight": "traffic",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The shop’s new drink sold well for several weeks, but fewer people bought it after the first excitement ended.",
+      "promptZh": "店舖的新飲品暢銷了數星期,但最初的新鮮感過去後,購買的人逐漸減少。",
+      "starter": "The",
+      "answer": "The shop’s new drink sold well for several weeks, but sales tailed off after the first excitement ended.",
+      "answerZh": "店舖的新飲品暢銷了數星期,但最初的新鮮感過去後,銷售量逐漸下降。",
+      "highlight": "sales tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The tunnel reopened at nine, but before then the line of cars had reached the airport road.",
+      "promptZh": "隧道在九時重開,但在此之前,車龍已延伸至機場路。",
+      "starter": "The",
+      "answer": "The tunnel reopened at nine, but before then cars had tailed back to the airport road.",
+      "answerZh": "隧道在九時重開,但在此之前,車龍已延伸至機場路。",
+      "highlight": "tailed back to",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "If the police close the road near the market, the queue may reach the bus station within minutes.",
+      "promptZh": "如果警方封閉街市附近的道路,車龍可能在數分鐘內延伸至巴士站。",
+      "starter": "If",
+      "answer": "If the police close the road near the market, traffic may tail back to the bus station within minutes.",
+      "answerZh": "如果警方封閉街市附近的道路,車龍可能在數分鐘內延伸至巴士站。",
+      "highlight": "traffic",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "At first, students asked many questions, but they asked fewer and fewer as the lesson ended.",
+      "promptZh": "學生起初提出很多問題,但課堂接近完結時,問題逐漸減少。",
+      "starter": "At",
+      "answer": "At first, students asked many questions, but the questions tailed off as the lesson ended.",
+      "answerZh": "學生起初提出很多問題,但課堂接近完結時,問題逐漸減少。",
+      "highlight": "the questions tailed off",
+      "targetForm": "tail off",
+      "targetMeaningZh": "逐漸減少或減弱"
+    },
+    {
+      "id": "phrasal-verb-114-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Heavy rain reduced the road to one lane, and lorries formed a queue from the port to the first roundabout.",
+      "promptZh": "大雨令道路只剩下一條行車線,貨車車龍由港口延伸至第一個迴旋處。",
+      "starter": "Heavy",
+      "answer": "Heavy rain reduced the road to one lane, and lorries tailed back from the port to the first roundabout.",
+      "answerZh": "大雨令道路只剩下一條行車線,貨車車龍由港口延伸至第一個迴旋處。",
+      "highlight": "tailed back",
+      "targetForm": "tail back",
+      "targetMeaningZh": "車龍向後延伸"
+    },
+    {
+      "id": "phrasal-verb-114-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "His answer began clearly, but his voice became quieter when he noticed that everyone was staring at him.",
+      "promptZh": "他的回答起初十分清楚,但當他發現所有人都望着他時,聲音便逐漸變弱。",
+      "starter": "His",
+      "answer": "His answer began clearly, but his voice tailed away when he noticed that everyone was staring at him.",
+      "answerZh": "他的回答起初十分清楚,但當他發現所有人都望着他時,聲音便逐漸變弱。",
+      "highlight": "tailed away",
+      "targetForm": "tail away",
+      "targetMeaningZh": "聲音逐漸變弱或消失"
+    }
+  ]
+}

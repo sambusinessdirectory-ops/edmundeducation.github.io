@@ -1,0 +1,3674 @@
+{
+  "id": "phrasal-verb-238",
+  "order": 238,
+  "slug": "bring",
+  "version": "1",
+  "title": "BRING 動詞片語",
+  "titleEn": "Bring",
+  "titleZh": "BRING 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 28,
+  "source": {
+    "file": "Phrasal Verbs 230 - BRING.pdf",
+    "sourceNumber": 230,
+    "pageCount": 56,
+    "teachingPdfPages": [
+      1,
+      2,
+      6
+    ],
+    "exercisePdfPages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "answerKeyPdfPages": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BRING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BRING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BRING",
+      "highlight": "BRING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The school project brought the two classes together.",
+      "zh": "這個學校項目令兩班學生更團結。",
+      "highlight": "brought the two classes together",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The weekend market brings in about £800 a month.",
+      "zh": "週末市集每月帶來約八百英鎊收入。",
+      "highlight": "brings in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Can I bring my cousin along to the picnic?",
+      "zh": "我可以帶表親一起去野餐嗎?",
+      "highlight": "bring my cousin along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "使人和好、團結、相識或聚在一起;把人或物集合起來；賺取或帶來某筆收入；帶某人或某物一起前往；說服某人同意某事或接受某個看法；把某人或某物送回、帶回或歸還；令某人情緒低落或不開心；產生、帶來或生下;多見於正式或舊式英語；請某人參與、協助或提供專業意見；幫助某人在學習或訓練期間進步、成長；令害羞或緊張的人變得較有自信、較願意說話；令某人的皮膚出現紅疹、斑點或汗水；令昏迷的人恢復知覺、醒過來；養育和教導孩子,直至他們長大；把某人或某物帶到別人的家或所在之處；把某人或某事交由法庭、委員會或負責人審理、討論或決定；把某人或某物從較高位置移到較低位置；把某人或某物帶進室內或指定地方；把某人或某物移到較高位置；令某人或某物達到所需水平或標準；造成或促成某件事情發生；把談話或討論轉到某個話題；降低價格、數量、水平或比率；因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果；把日期或時間提前；引入新的法律、規則或管制措施；成功完成困難的事情；引起疾病、痛楚或其他不愉快情況；把某物從袋、盒、口袋等地方取出",
+    "en": "bring A and B together / bring somebody/something together; bring in something / bring somebody in something; bring somebody/something along; bring somebody round / bring somebody around (to something); bring somebody/something back (to something); bring somebody down; bring somebody/something forth; bring somebody in; bring somebody on; bring somebody out; bring somebody out in something; bring somebody round / bring somebody around / bring somebody to; bring somebody up; bring somebody/something round / around / over; bring somebody/something before somebody/something; bring somebody/something down; bring somebody/something in / bring somebody/something into something; bring somebody/something up (to something); bring somebody/something up to something; bring something about; bring something round/around to something; bring something down; bring something down on/upon somebody / bring something on/upon somebody/yourself; bring something forward; bring something in; bring something off; bring something on; bring something out (of something)",
+    "naturalZh": [
+      "使人和好、團結、相識或聚在一起;把人或物集合起來",
+      "賺取或帶來某筆收入",
+      "帶某人或某物一起前往",
+      "說服某人同意某事或接受某個看法",
+      "把某人或某物送回、帶回或歸還",
+      "令某人情緒低落或不開心",
+      "產生、帶來或生下;多見於正式或舊式英語",
+      "請某人參與、協助或提供專業意見",
+      "幫助某人在學習或訓練期間進步、成長",
+      "令害羞或緊張的人變得較有自信、較願意說話",
+      "令某人的皮膚出現紅疹、斑點或汗水",
+      "令昏迷的人恢復知覺、醒過來",
+      "養育和教導孩子,直至他們長大",
+      "把某人或某物帶到別人的家或所在之處",
+      "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+      "把某人或某物從較高位置移到較低位置",
+      "把某人或某物帶進室內或指定地方",
+      "把某人或某物移到較高位置",
+      "令某人或某物達到所需水平或標準",
+      "造成或促成某件事情發生",
+      "把談話或討論轉到某個話題",
+      "降低價格、數量、水平或比率",
+      "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+      "把日期或時間提前",
+      "引入新的法律、規則或管制措施",
+      "成功完成困難的事情",
+      "引起疾病、痛楚或其他不愉快情況",
+      "把某物從袋、盒、口袋等地方取出"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "bring A and B together / bring somebody/something together",
+      "titleZh": "使人和好、團結、相識或聚在一起;把人或物集合起來",
+      "titleEn": "bring A and B together / bring somebody/something together",
+      "descriptionZh": "使人和好、團結、相識或聚在一起;把人或物集合起來",
+      "descriptionEn": "The school project brought the two classes together.",
+      "examples": [
+        {
+          "en": "The school project brought the two classes together.",
+          "zh": "這個學校項目令兩班學生更團結。",
+          "highlight": "brought the two classes together"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring in something / bring somebody in something",
+      "titleZh": "賺取或帶來某筆收入",
+      "titleEn": "bring in something / bring somebody in something",
+      "descriptionZh": "賺取或帶來某筆收入",
+      "descriptionEn": "The weekend market brings in about £800 a month.",
+      "examples": [
+        {
+          "en": "The weekend market brings in about £800 a month.",
+          "zh": "週末市集每月帶來約八百英鎊收入。",
+          "highlight": "brings in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody/something along",
+      "titleZh": "帶某人或某物一起前往",
+      "titleEn": "bring somebody/something along",
+      "descriptionZh": "帶某人或某物一起前往",
+      "descriptionEn": "Can I bring my cousin along to the picnic?",
+      "examples": [
+        {
+          "en": "Can I bring my cousin along to the picnic?",
+          "zh": "我可以帶表親一起去野餐嗎?",
+          "highlight": "bring my cousin along"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody round / bring somebody around (to something)",
+      "titleZh": "說服某人同意某事或接受某個看法",
+      "titleEn": "bring somebody round / bring somebody around (to something)",
+      "descriptionZh": "說服某人同意某事或接受某個看法",
+      "descriptionEn": "We finally brought Daniel round to our plan.",
+      "examples": [
+        {
+          "en": "We finally brought Daniel round to our plan.",
+          "zh": "我們最終說服 Daniel 接受我們的計劃。",
+          "highlight": "brought Daniel round to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody/something back (to something)",
+      "titleZh": "把某人或某物送回、帶回或歸還",
+      "titleEn": "bring somebody/something back (to something)",
+      "descriptionZh": "把某人或某物送回、帶回或歸還",
+      "descriptionEn": "Please bring the library book back tomorrow.",
+      "examples": [
+        {
+          "en": "Please bring the library book back tomorrow.",
+          "zh": "明天請把圖書館的書歸還。",
+          "highlight": "bring the library book back"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody down",
+      "titleZh": "令某人情緒低落或不開心",
+      "titleEn": "bring somebody down",
+      "descriptionZh": "令某人情緒低落或不開心",
+      "descriptionEn": "Rainy days sometimes bring me down.",
+      "examples": [
+        {
+          "en": "Rainy days sometimes bring me down.",
+          "zh": "下雨天有時會令我情緒低落。",
+          "highlight": "bring me down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody/something forth",
+      "titleZh": "產生、帶來或生下;多見於正式或舊式英語",
+      "titleEn": "bring somebody/something forth",
+      "descriptionZh": "產生、帶來或生下;多見於正式或舊式英語",
+      "descriptionEn": "Her question brought forth several useful ideas.",
+      "examples": [
+        {
+          "en": "Her question brought forth several useful ideas.",
+          "zh": "她的問題引發了幾個有用的構思。",
+          "highlight": "brought"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody in",
+      "titleZh": "請某人參與、協助或提供專業意見",
+      "titleEn": "bring somebody in",
+      "descriptionZh": "請某人參與、協助或提供專業意見",
+      "descriptionEn": "We should bring a doctor in.",
+      "examples": [
+        {
+          "en": "We should bring a doctor in.",
+          "zh": "我們應該請醫生來協助。",
+          "highlight": "bring a doctor in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody on",
+      "titleZh": "幫助某人在學習或訓練期間進步、成長",
+      "titleEn": "bring somebody on",
+      "descriptionZh": "幫助某人在學習或訓練期間進步、成長",
+      "descriptionEn": "The coach is bringing the younger players on well.",
+      "examples": [
+        {
+          "en": "The coach is bringing the younger players on well.",
+          "zh": "教練正有效地培養年輕球員。",
+          "highlight": "bringing the younger players on"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody out",
+      "titleZh": "令害羞或緊張的人變得較有自信、較願意說話",
+      "titleEn": "bring somebody out",
+      "descriptionZh": "令害羞或緊張的人變得較有自信、較願意說話",
+      "descriptionEn": "The friendly host brought the shy guest out.",
+      "examples": [
+        {
+          "en": "The friendly host brought the shy guest out.",
+          "zh": "友善的主持令害羞的賓客放鬆下來,變得更願意說話。",
+          "highlight": "brought the shy guest out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody out in something",
+      "titleZh": "令某人的皮膚出現紅疹、斑點或汗水",
+      "titleEn": "bring somebody out in something",
+      "descriptionZh": "令某人的皮膚出現紅疹、斑點或汗水",
+      "descriptionEn": "Strawberries bring me out in a rash.",
+      "examples": [
+        {
+          "en": "Strawberries bring me out in a rash.",
+          "zh": "士多啤梨會令我出紅疹。",
+          "highlight": "bring me out in"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody round / bring somebody around / bring somebody to",
+      "titleZh": "令昏迷的人恢復知覺、醒過來",
+      "titleEn": "bring somebody round / bring somebody around / bring somebody to",
+      "descriptionZh": "令昏迷的人恢復知覺、醒過來",
+      "descriptionEn": "The nurse brought him round.",
+      "examples": [
+        {
+          "en": "The nurse brought him round.",
+          "zh": "護士令他恢復知覺。",
+          "highlight": "brought him round"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody up",
+      "titleZh": "養育和教導孩子,直至他們長大",
+      "titleEn": "bring somebody up",
+      "descriptionZh": "養育和教導孩子,直至他們長大",
+      "descriptionEn": "Her grandparents brought her up.",
+      "examples": [
+        {
+          "en": "Her grandparents brought her up.",
+          "zh": "她由祖父母養育成人。",
+          "highlight": "brought her up"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody/something round / around / over",
+      "titleZh": "把某人或某物帶到別人的家或所在之處",
+      "titleEn": "bring somebody/something round / around / over",
+      "descriptionZh": "把某人或某物帶到別人的家或所在之處",
+      "descriptionEn": "Bring your cousin round this evening.",
+      "examples": [
+        {
+          "en": "Bring your cousin round this evening.",
+          "zh": "今晚帶你的表親來我家吧。",
+          "highlight": "Bring your cousin round"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 1
+    },
+    {
+      "formula": "bring somebody/something before somebody/something",
+      "titleZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+      "titleEn": "bring somebody/something before somebody/something",
+      "descriptionZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+      "descriptionEn": "The case was brought before the judge.",
+      "examples": [
+        {
+          "en": "The case was brought before the judge.",
+          "zh": "案件被提交法官審理。",
+          "highlight": "brought"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring somebody/something down",
+      "titleZh": "把某人或某物從較高位置移到較低位置",
+      "titleEn": "bring somebody/something down",
+      "descriptionZh": "把某人或某物從較高位置移到較低位置",
+      "descriptionEn": "They brought the boxes down from the attic.",
+      "examples": [
+        {
+          "en": "They brought the boxes down from the attic.",
+          "zh": "他們把箱子從閣樓搬下來。",
+          "highlight": "brought the boxes down"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring somebody/something in / bring somebody/something into something",
+      "titleZh": "把某人或某物帶進室內或指定地方",
+      "titleEn": "bring somebody/something in / bring somebody/something into something",
+      "descriptionZh": "把某人或某物帶進室內或指定地方",
+      "descriptionEn": "Please bring another chair in.",
+      "examples": [
+        {
+          "en": "Please bring another chair in.",
+          "zh": "請多拿一張椅子進來。",
+          "highlight": "bring another chair in"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring somebody/something up (to something)",
+      "titleZh": "把某人或某物移到較高位置",
+      "titleEn": "bring somebody/something up (to something)",
+      "descriptionZh": "把某人或某物移到較高位置",
+      "descriptionEn": "Breakfast was brought up to our room.",
+      "examples": [
+        {
+          "en": "Breakfast was brought up to our room.",
+          "zh": "早餐被送到我們的房間。",
+          "highlight": "brought up to"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring somebody/something up to something",
+      "titleZh": "令某人或某物達到所需水平或標準",
+      "titleEn": "bring somebody/something up to something",
+      "descriptionZh": "令某人或某物達到所需水平或標準",
+      "descriptionEn": "The repairs brought the playground up to safety standards.",
+      "examples": [
+        {
+          "en": "The repairs brought the playground up to safety standards.",
+          "zh": "維修工程令遊樂場達到安全標準。",
+          "highlight": "brought the playground up to"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something about",
+      "titleZh": "造成或促成某件事情發生",
+      "titleEn": "bring something about",
+      "descriptionZh": "造成或促成某件事情發生",
+      "descriptionEn": "What brought about this change?",
+      "examples": [
+        {
+          "en": "What brought about this change?",
+          "zh": "是甚麼促成了這項改變?",
+          "highlight": "brought about"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something round/around to something",
+      "titleZh": "把談話或討論轉到某個話題",
+      "titleEn": "bring something round/around to something",
+      "descriptionZh": "把談話或討論轉到某個話題",
+      "descriptionEn": "He always brings the conversation round to football.",
+      "examples": [
+        {
+          "en": "He always brings the conversation round to football.",
+          "zh": "他總是把話題轉到足球。",
+          "highlight": "brings the conversation round to"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something down",
+      "titleZh": "降低價格、數量、水平或比率",
+      "titleEn": "bring something down",
+      "descriptionZh": "降低價格、數量、水平或比率",
+      "descriptionEn": "The shop has brought prices down.",
+      "examples": [
+        {
+          "en": "The shop has brought prices down.",
+          "zh": "店舖已降低價格。",
+          "highlight": "brought prices down"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "titleZh": "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+      "titleEn": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "descriptionZh": "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+      "descriptionEn": "His careless words brought trouble down on the team.",
+      "examples": [
+        {
+          "en": "His careless words brought trouble down on the team.",
+          "zh": "他不小心的說話令整個團隊惹上麻煩。",
+          "highlight": "brought trouble down on"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something forward",
+      "titleZh": "把日期或時間提前",
+      "titleEn": "bring something forward",
+      "descriptionZh": "把日期或時間提前",
+      "descriptionEn": "They brought the meeting forward to Monday.",
+      "examples": [
+        {
+          "en": "They brought the meeting forward to Monday.",
+          "zh": "他們把會議提前至星期一。",
+          "highlight": "brought the meeting forward"
+        }
+      ],
+      "number": 24,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something in",
+      "titleZh": "引入新的法律、規則或管制措施",
+      "titleEn": "bring something in",
+      "descriptionZh": "引入新的法律、規則或管制措施",
+      "descriptionEn": "The school brought in a new phone rule.",
+      "examples": [
+        {
+          "en": "The school brought in a new phone rule.",
+          "zh": "學校引入了一項新的手機規則。",
+          "highlight": "brought in"
+        }
+      ],
+      "number": 25,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something off",
+      "titleZh": "成功完成困難的事情",
+      "titleEn": "bring something off",
+      "descriptionZh": "成功完成困難的事情",
+      "descriptionEn": "The team brought off a surprising win.",
+      "examples": [
+        {
+          "en": "The team brought off a surprising win.",
+          "zh": "球隊成功取得一場意外的勝利。",
+          "highlight": "brought off"
+        }
+      ],
+      "number": 26,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something on",
+      "titleZh": "引起疾病、痛楚或其他不愉快情況",
+      "titleEn": "bring something on",
+      "descriptionZh": "引起疾病、痛楚或其他不愉快情況",
+      "descriptionEn": "Stress brought on his headaches.",
+      "examples": [
+        {
+          "en": "Stress brought on his headaches.",
+          "zh": "壓力引起了他的頭痛。",
+          "highlight": "brought on"
+        }
+      ],
+      "number": 27,
+      "pageGroup": 2
+    },
+    {
+      "formula": "bring something out (of something)",
+      "titleZh": "把某物從袋、盒、口袋等地方取出",
+      "titleEn": "bring something out (of something)",
+      "descriptionZh": "把某物從袋、盒、口袋等地方取出",
+      "descriptionEn": "He brought a card out of his wallet.",
+      "examples": [
+        {
+          "en": "He brought a card out of his wallet.",
+          "zh": "他從銀包取出一張卡。",
+          "highlight": "brought a card out"
+        }
+      ],
+      "number": 28,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BRING 片語動詞的實際用途",
+    "labelEn": "BRING Phrasal Verbs in Use",
+    "summaryZh": "bring along、bring back、bring in、bring down、bring up 和 bring over 等表達,可以描述帶同人物或物件、把它們帶回,或移到另一個地方。；bring together 可以令人團結;bring somebody round 可以表示說服某人;bring somebody out 可以令人更有自信;bring somebody on 則可以表示協助學習者或球員進步。；bring about、bring on、bring forth 和 bring something upon somebody 可以說明改變、疾病、反應或不愉快結果是如何出現的。；你可以用 bring in 表示引入規則、bring forward 表示把日期提前、bring down 表示降低價格、bring in 表示帶來收入,以及 bring off 表示成功完成困難的計劃。",
+    "summaryEn": "Expressions such as bring along, bring back, bring in, bring down, bring up and bring over let you describe taking people and things with you, returning them, or moving them to another place. Bring together can unite people, bring somebody round can change a person's mind, bring somebody out can build confidence, and bring somebody on can help a learner or player improve. Bring about, bring on, bring forth and bring something upon somebody help you explain how a change, illness, response or unpleasant result happened. You can bring in a rule, bring a date forward, bring prices down, bring money in or bring off a difficult plan.",
+    "contextsZh": [
+      "用 BRING 描述不同方向的移動",
+      "談論人際關係、自信和個人成長",
+      "清楚解釋成因和後果",
+      "描述工作和日常生活中的實際改動"
+    ],
+    "contextsEn": [
+      "Use BRING to describe movement in many directions",
+      "Talk about relationships, confidence and personal development",
+      "Explain causes and consequences clearly",
+      "Describe practical changes in work and daily life"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BRING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BRING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "bring A and B together / bring somebody/something together",
+    "fixedHighlight": "bring A and B together / bring somebody/something together",
+    "fixedZh": "閱讀整句,選出意思相同的 BRING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BRING expression that gives the same meaning.",
+    "correct": "brought the two classes together",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、地點和意思。；有些 BRING 片語動詞的形式相近,但意思截然不同。請仔細閱讀完整情境,特別留意 bring in、bring on、bring out、bring round/around 和 bring up。；使用 it、him、her 或 them 時,請按照以上例子放在 BRING 和後面的字之間。",
+    "variableEn": "Keep the same people, things, time, place and meaning. Some BRING expressions look similar but have very different meanings. Read the full situation carefully, especially with bring in, bring on, bring out, bring round/around and bring up. When using it, him, her or them in expressions such as bring... back/down/in/out/up, place the word as shown: bring it back bring him in bring them down bring her out bring it up",
+    "variableItemsZh": [
+      "bring A and B together / bring somebody/something together",
+      "bring in something / bring somebody in something",
+      "bring somebody/something along",
+      "bring somebody round / bring somebody around (to something)",
+      "bring somebody/something back (to something)",
+      "bring somebody down",
+      "bring somebody/something forth",
+      "bring somebody in",
+      "bring somebody on",
+      "bring somebody out",
+      "bring somebody out in something",
+      "bring somebody round / bring somebody around / bring somebody to",
+      "bring somebody up",
+      "bring somebody/something round / around / over",
+      "bring somebody/something before somebody/something",
+      "bring somebody/something down",
+      "bring somebody/something in / bring somebody/something into something",
+      "bring somebody/something up (to something)",
+      "bring somebody/something up to something",
+      "bring something about",
+      "bring something round/around to something",
+      "bring something down",
+      "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "bring something forward",
+      "bring something in",
+      "bring something off",
+      "bring something on",
+      "bring something out (of something)"
+    ],
+    "variableItemsEn": [
+      "bring A and B together / bring somebody/something together",
+      "bring in something / bring somebody in something",
+      "bring somebody/something along",
+      "bring somebody round / bring somebody around (to something)",
+      "bring somebody/something back (to something)",
+      "bring somebody down",
+      "bring somebody/something forth",
+      "bring somebody in",
+      "bring somebody on",
+      "bring somebody out",
+      "bring somebody out in something",
+      "bring somebody round / bring somebody around / bring somebody to",
+      "bring somebody up",
+      "bring somebody/something round / around / over",
+      "bring somebody/something before somebody/something",
+      "bring somebody/something down",
+      "bring somebody/something in / bring somebody/something into something",
+      "bring somebody/something up (to something)",
+      "bring somebody/something up to something",
+      "bring something about",
+      "bring something round/around to something",
+      "bring something down",
+      "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "bring something forward",
+      "bring something in",
+      "bring something off",
+      "bring something on",
+      "bring something out (of something)"
+    ],
+    "forms": [
+      {
+        "formZh": "使人和好、團結、相識或聚在一起;把人或物集合起來",
+        "formEn": "bring A and B together / bring somebody/something together",
+        "exampleZh": "這個學校項目令兩班學生更團結。",
+        "exampleEn": "The school project brought the two classes together.",
+        "highlight": "brought the two classes together"
+      },
+      {
+        "formZh": "賺取或帶來某筆收入",
+        "formEn": "bring in something / bring somebody in something",
+        "exampleZh": "週末市集每月帶來約八百英鎊收入。",
+        "exampleEn": "The weekend market brings in about £800 a month.",
+        "highlight": "brings in"
+      },
+      {
+        "formZh": "帶某人或某物一起前往",
+        "formEn": "bring somebody/something along",
+        "exampleZh": "我可以帶表親一起去野餐嗎?",
+        "exampleEn": "Can I bring my cousin along to the picnic?",
+        "highlight": "bring my cousin along"
+      },
+      {
+        "formZh": "說服某人同意某事或接受某個看法",
+        "formEn": "bring somebody round / bring somebody around (to something)",
+        "exampleZh": "我們最終說服 Daniel 接受我們的計劃。",
+        "exampleEn": "We finally brought Daniel round to our plan.",
+        "highlight": "brought Daniel round to"
+      },
+      {
+        "formZh": "把某人或某物送回、帶回或歸還",
+        "formEn": "bring somebody/something back (to something)",
+        "exampleZh": "明天請把圖書館的書歸還。",
+        "exampleEn": "Please bring the library book back tomorrow.",
+        "highlight": "bring the library book back"
+      },
+      {
+        "formZh": "令某人情緒低落或不開心",
+        "formEn": "bring somebody down",
+        "exampleZh": "下雨天有時會令我情緒低落。",
+        "exampleEn": "Rainy days sometimes bring me down.",
+        "highlight": "bring me down"
+      },
+      {
+        "formZh": "產生、帶來或生下;多見於正式或舊式英語",
+        "formEn": "bring somebody/something forth",
+        "exampleZh": "她的問題引發了幾個有用的構思。",
+        "exampleEn": "Her question brought forth several useful ideas.",
+        "highlight": "brought"
+      },
+      {
+        "formZh": "請某人參與、協助或提供專業意見",
+        "formEn": "bring somebody in",
+        "exampleZh": "我們應該請醫生來協助。",
+        "exampleEn": "We should bring a doctor in.",
+        "highlight": "bring a doctor in"
+      },
+      {
+        "formZh": "幫助某人在學習或訓練期間進步、成長",
+        "formEn": "bring somebody on",
+        "exampleZh": "教練正有效地培養年輕球員。",
+        "exampleEn": "The coach is bringing the younger players on well.",
+        "highlight": "bringing the younger players on"
+      },
+      {
+        "formZh": "令害羞或緊張的人變得較有自信、較願意說話",
+        "formEn": "bring somebody out",
+        "exampleZh": "友善的主持令害羞的賓客放鬆下來,變得更願意說話。",
+        "exampleEn": "The friendly host brought the shy guest out.",
+        "highlight": "brought the shy guest out"
+      },
+      {
+        "formZh": "令某人的皮膚出現紅疹、斑點或汗水",
+        "formEn": "bring somebody out in something",
+        "exampleZh": "士多啤梨會令我出紅疹。",
+        "exampleEn": "Strawberries bring me out in a rash.",
+        "highlight": "bring me out in"
+      },
+      {
+        "formZh": "令昏迷的人恢復知覺、醒過來",
+        "formEn": "bring somebody round / bring somebody around / bring somebody to",
+        "exampleZh": "護士令他恢復知覺。",
+        "exampleEn": "The nurse brought him round.",
+        "highlight": "brought him round"
+      },
+      {
+        "formZh": "養育和教導孩子,直至他們長大",
+        "formEn": "bring somebody up",
+        "exampleZh": "她由祖父母養育成人。",
+        "exampleEn": "Her grandparents brought her up.",
+        "highlight": "brought her up"
+      },
+      {
+        "formZh": "把某人或某物帶到別人的家或所在之處",
+        "formEn": "bring somebody/something round / around / over",
+        "exampleZh": "今晚帶你的表親來我家吧。",
+        "exampleEn": "Bring your cousin round this evening.",
+        "highlight": "Bring your cousin round"
+      },
+      {
+        "formZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+        "formEn": "bring somebody/something before somebody/something",
+        "exampleZh": "案件被提交法官審理。",
+        "exampleEn": "The case was brought before the judge.",
+        "highlight": "brought"
+      },
+      {
+        "formZh": "把某人或某物從較高位置移到較低位置",
+        "formEn": "bring somebody/something down",
+        "exampleZh": "他們把箱子從閣樓搬下來。",
+        "exampleEn": "They brought the boxes down from the attic.",
+        "highlight": "brought the boxes down"
+      },
+      {
+        "formZh": "把某人或某物帶進室內或指定地方",
+        "formEn": "bring somebody/something in / bring somebody/something into something",
+        "exampleZh": "請多拿一張椅子進來。",
+        "exampleEn": "Please bring another chair in.",
+        "highlight": "bring another chair in"
+      },
+      {
+        "formZh": "把某人或某物移到較高位置",
+        "formEn": "bring somebody/something up (to something)",
+        "exampleZh": "早餐被送到我們的房間。",
+        "exampleEn": "Breakfast was brought up to our room.",
+        "highlight": "brought up to"
+      },
+      {
+        "formZh": "令某人或某物達到所需水平或標準",
+        "formEn": "bring somebody/something up to something",
+        "exampleZh": "維修工程令遊樂場達到安全標準。",
+        "exampleEn": "The repairs brought the playground up to safety standards.",
+        "highlight": "brought the playground up to"
+      },
+      {
+        "formZh": "造成或促成某件事情發生",
+        "formEn": "bring something about",
+        "exampleZh": "是甚麼促成了這項改變?",
+        "exampleEn": "What brought about this change?",
+        "highlight": "brought about"
+      },
+      {
+        "formZh": "把談話或討論轉到某個話題",
+        "formEn": "bring something round/around to something",
+        "exampleZh": "他總是把話題轉到足球。",
+        "exampleEn": "He always brings the conversation round to football.",
+        "highlight": "brings the conversation round to"
+      },
+      {
+        "formZh": "降低價格、數量、水平或比率",
+        "formEn": "bring something down",
+        "exampleZh": "店舖已降低價格。",
+        "exampleEn": "The shop has brought prices down.",
+        "highlight": "brought prices down"
+      },
+      {
+        "formZh": "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+        "formEn": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+        "exampleZh": "他不小心的說話令整個團隊惹上麻煩。",
+        "exampleEn": "His careless words brought trouble down on the team.",
+        "highlight": "brought trouble down on"
+      },
+      {
+        "formZh": "把日期或時間提前",
+        "formEn": "bring something forward",
+        "exampleZh": "他們把會議提前至星期一。",
+        "exampleEn": "They brought the meeting forward to Monday.",
+        "highlight": "brought the meeting forward"
+      },
+      {
+        "formZh": "引入新的法律、規則或管制措施",
+        "formEn": "bring something in",
+        "exampleZh": "學校引入了一項新的手機規則。",
+        "exampleEn": "The school brought in a new phone rule.",
+        "highlight": "brought in"
+      },
+      {
+        "formZh": "成功完成困難的事情",
+        "formEn": "bring something off",
+        "exampleZh": "球隊成功取得一場意外的勝利。",
+        "exampleEn": "The team brought off a surprising win.",
+        "highlight": "brought off"
+      },
+      {
+        "formZh": "引起疾病、痛楚或其他不愉快情況",
+        "formEn": "bring something on",
+        "exampleZh": "壓力引起了他的頭痛。",
+        "exampleEn": "Stress brought on his headaches.",
+        "highlight": "brought on"
+      },
+      {
+        "formZh": "把某物從袋、盒、口袋等地方取出",
+        "formEn": "bring something out (of something)",
+        "exampleZh": "他從銀包取出一張卡。",
+        "exampleEn": "He brought a card out of his wallet.",
+        "highlight": "brought a card out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "使人和好、團結、相識或聚在一起;把人或物集合起來",
+      "titleEn": "bring A and B together / bring somebody/something together",
+      "formula": "bring A and B together / bring somebody/something together",
+      "highlight": "bring A and B together / bring somebody/something together",
+      "descriptionZh": "使人和好、團結、相識或聚在一起;把人或物集合起來",
+      "descriptionEn": "The school project brought the two classes together.",
+      "examples": [
+        {
+          "en": "The school project brought the two classes together.",
+          "zh": "這個學校項目令兩班學生更團結。",
+          "highlight": "brought the two classes together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "賺取或帶來某筆收入",
+      "titleEn": "bring in something / bring somebody in something",
+      "formula": "bring in something / bring somebody in something",
+      "highlight": "bring in something / bring somebody in something",
+      "descriptionZh": "賺取或帶來某筆收入",
+      "descriptionEn": "The weekend market brings in about £800 a month.",
+      "examples": [
+        {
+          "en": "The weekend market brings in about £800 a month.",
+          "zh": "週末市集每月帶來約八百英鎊收入。",
+          "highlight": "brings in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "帶某人或某物一起前往",
+      "titleEn": "bring somebody/something along",
+      "formula": "bring somebody/something along",
+      "highlight": "bring somebody/something along",
+      "descriptionZh": "帶某人或某物一起前往",
+      "descriptionEn": "Can I bring my cousin along to the picnic?",
+      "examples": [
+        {
+          "en": "Can I bring my cousin along to the picnic?",
+          "zh": "我可以帶表親一起去野餐嗎?",
+          "highlight": "bring my cousin along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "說服某人同意某事或接受某個看法",
+      "titleEn": "bring somebody round / bring somebody around (to something)",
+      "formula": "bring somebody round / bring somebody around (to something)",
+      "highlight": "bring somebody round / bring somebody around (to something)",
+      "descriptionZh": "說服某人同意某事或接受某個看法",
+      "descriptionEn": "We finally brought Daniel round to our plan.",
+      "examples": [
+        {
+          "en": "We finally brought Daniel round to our plan.",
+          "zh": "我們最終說服 Daniel 接受我們的計劃。",
+          "highlight": "brought Daniel round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某人或某物送回、帶回或歸還",
+      "titleEn": "bring somebody/something back (to something)",
+      "formula": "bring somebody/something back (to something)",
+      "highlight": "bring somebody/something back (to something)",
+      "descriptionZh": "把某人或某物送回、帶回或歸還",
+      "descriptionEn": "Please bring the library book back tomorrow.",
+      "examples": [
+        {
+          "en": "Please bring the library book back tomorrow.",
+          "zh": "明天請把圖書館的書歸還。",
+          "highlight": "bring the library book back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "令某人情緒低落或不開心",
+      "titleEn": "bring somebody down",
+      "formula": "bring somebody down",
+      "highlight": "bring somebody down",
+      "descriptionZh": "令某人情緒低落或不開心",
+      "descriptionEn": "Rainy days sometimes bring me down.",
+      "examples": [
+        {
+          "en": "Rainy days sometimes bring me down.",
+          "zh": "下雨天有時會令我情緒低落。",
+          "highlight": "bring me down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "產生、帶來或生下;多見於正式或舊式英語",
+      "titleEn": "bring somebody/something forth",
+      "formula": "bring somebody/something forth",
+      "highlight": "bring somebody/something forth",
+      "descriptionZh": "產生、帶來或生下;多見於正式或舊式英語",
+      "descriptionEn": "Her question brought forth several useful ideas.",
+      "examples": [
+        {
+          "en": "Her question brought forth several useful ideas.",
+          "zh": "她的問題引發了幾個有用的構思。",
+          "highlight": "brought"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "請某人參與、協助或提供專業意見",
+      "titleEn": "bring somebody in",
+      "formula": "bring somebody in",
+      "highlight": "bring somebody in",
+      "descriptionZh": "請某人參與、協助或提供專業意見",
+      "descriptionEn": "We should bring a doctor in.",
+      "examples": [
+        {
+          "en": "We should bring a doctor in.",
+          "zh": "我們應該請醫生來協助。",
+          "highlight": "bring a doctor in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "幫助某人在學習或訓練期間進步、成長",
+      "titleEn": "bring somebody on",
+      "formula": "bring somebody on",
+      "highlight": "bring somebody on",
+      "descriptionZh": "幫助某人在學習或訓練期間進步、成長",
+      "descriptionEn": "The coach is bringing the younger players on well.",
+      "examples": [
+        {
+          "en": "The coach is bringing the younger players on well.",
+          "zh": "教練正有效地培養年輕球員。",
+          "highlight": "bringing the younger players on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "令害羞或緊張的人變得較有自信、較願意說話",
+      "titleEn": "bring somebody out",
+      "formula": "bring somebody out",
+      "highlight": "bring somebody out",
+      "descriptionZh": "令害羞或緊張的人變得較有自信、較願意說話",
+      "descriptionEn": "The friendly host brought the shy guest out.",
+      "examples": [
+        {
+          "en": "The friendly host brought the shy guest out.",
+          "zh": "友善的主持令害羞的賓客放鬆下來,變得更願意說話。",
+          "highlight": "brought the shy guest out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "令某人的皮膚出現紅疹、斑點或汗水",
+      "titleEn": "bring somebody out in something",
+      "formula": "bring somebody out in something",
+      "highlight": "bring somebody out in something",
+      "descriptionZh": "令某人的皮膚出現紅疹、斑點或汗水",
+      "descriptionEn": "Strawberries bring me out in a rash.",
+      "examples": [
+        {
+          "en": "Strawberries bring me out in a rash.",
+          "zh": "士多啤梨會令我出紅疹。",
+          "highlight": "bring me out in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "令昏迷的人恢復知覺、醒過來",
+      "titleEn": "bring somebody round / bring somebody around / bring somebody to",
+      "formula": "bring somebody round / bring somebody around / bring somebody to",
+      "highlight": "bring somebody round / bring somebody around / bring somebody to",
+      "descriptionZh": "令昏迷的人恢復知覺、醒過來",
+      "descriptionEn": "The nurse brought him round.",
+      "examples": [
+        {
+          "en": "The nurse brought him round.",
+          "zh": "護士令他恢復知覺。",
+          "highlight": "brought him round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "養育和教導孩子,直至他們長大",
+      "titleEn": "bring somebody up",
+      "formula": "bring somebody up",
+      "highlight": "bring somebody up",
+      "descriptionZh": "養育和教導孩子,直至他們長大",
+      "descriptionEn": "Her grandparents brought her up.",
+      "examples": [
+        {
+          "en": "Her grandparents brought her up.",
+          "zh": "她由祖父母養育成人。",
+          "highlight": "brought her up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把某人或某物帶到別人的家或所在之處",
+      "titleEn": "bring somebody/something round / around / over",
+      "formula": "bring somebody/something round / around / over",
+      "highlight": "bring somebody/something round / around / over",
+      "descriptionZh": "把某人或某物帶到別人的家或所在之處",
+      "descriptionEn": "Bring your cousin round this evening.",
+      "examples": [
+        {
+          "en": "Bring your cousin round this evening.",
+          "zh": "今晚帶你的表親來我家吧。",
+          "highlight": "Bring your cousin round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+      "titleEn": "bring somebody/something before somebody/something",
+      "formula": "bring somebody/something before somebody/something",
+      "highlight": "bring somebody/something before somebody/something",
+      "descriptionZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定",
+      "descriptionEn": "The case was brought before the judge.",
+      "examples": [
+        {
+          "en": "The case was brought before the judge.",
+          "zh": "案件被提交法官審理。",
+          "highlight": "brought"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把某人或某物從較高位置移到較低位置",
+      "titleEn": "bring somebody/something down",
+      "formula": "bring somebody/something down",
+      "highlight": "bring somebody/something down",
+      "descriptionZh": "把某人或某物從較高位置移到較低位置",
+      "descriptionEn": "They brought the boxes down from the attic.",
+      "examples": [
+        {
+          "en": "They brought the boxes down from the attic.",
+          "zh": "他們把箱子從閣樓搬下來。",
+          "highlight": "brought the boxes down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "把某人或某物帶進室內或指定地方",
+      "titleEn": "bring somebody/something in / bring somebody/something into something",
+      "formula": "bring somebody/something in / bring somebody/something into something",
+      "highlight": "bring somebody/something in / bring somebody/something into something",
+      "descriptionZh": "把某人或某物帶進室內或指定地方",
+      "descriptionEn": "Please bring another chair in.",
+      "examples": [
+        {
+          "en": "Please bring another chair in.",
+          "zh": "請多拿一張椅子進來。",
+          "highlight": "bring another chair in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "把某人或某物移到較高位置",
+      "titleEn": "bring somebody/something up (to something)",
+      "formula": "bring somebody/something up (to something)",
+      "highlight": "bring somebody/something up (to something)",
+      "descriptionZh": "把某人或某物移到較高位置",
+      "descriptionEn": "Breakfast was brought up to our room.",
+      "examples": [
+        {
+          "en": "Breakfast was brought up to our room.",
+          "zh": "早餐被送到我們的房間。",
+          "highlight": "brought up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "令某人或某物達到所需水平或標準",
+      "titleEn": "bring somebody/something up to something",
+      "formula": "bring somebody/something up to something",
+      "highlight": "bring somebody/something up to something",
+      "descriptionZh": "令某人或某物達到所需水平或標準",
+      "descriptionEn": "The repairs brought the playground up to safety standards.",
+      "examples": [
+        {
+          "en": "The repairs brought the playground up to safety standards.",
+          "zh": "維修工程令遊樂場達到安全標準。",
+          "highlight": "brought the playground up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "造成或促成某件事情發生",
+      "titleEn": "bring something about",
+      "formula": "bring something about",
+      "highlight": "bring something about",
+      "descriptionZh": "造成或促成某件事情發生",
+      "descriptionEn": "What brought about this change?",
+      "examples": [
+        {
+          "en": "What brought about this change?",
+          "zh": "是甚麼促成了這項改變?",
+          "highlight": "brought about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "把談話或討論轉到某個話題",
+      "titleEn": "bring something round/around to something",
+      "formula": "bring something round/around to something",
+      "highlight": "bring something round/around to something",
+      "descriptionZh": "把談話或討論轉到某個話題",
+      "descriptionEn": "He always brings the conversation round to football.",
+      "examples": [
+        {
+          "en": "He always brings the conversation round to football.",
+          "zh": "他總是把話題轉到足球。",
+          "highlight": "brings the conversation round to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "降低價格、數量、水平或比率",
+      "titleEn": "bring something down",
+      "formula": "bring something down",
+      "highlight": "bring something down",
+      "descriptionZh": "降低價格、數量、水平或比率",
+      "descriptionEn": "The shop has brought prices down.",
+      "examples": [
+        {
+          "en": "The shop has brought prices down.",
+          "zh": "店舖已降低價格。",
+          "highlight": "brought prices down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+      "titleEn": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "formula": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "highlight": "bring something down on/upon somebody / bring something on/upon somebody/yourself",
+      "descriptionZh": "因自己的行為令某人或自己招致麻煩、羞辱或其他不愉快後果",
+      "descriptionEn": "His careless words brought trouble down on the team.",
+      "examples": [
+        {
+          "en": "His careless words brought trouble down on the team.",
+          "zh": "他不小心的說話令整個團隊惹上麻煩。",
+          "highlight": "brought trouble down on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 24,
+      "titleZh": "把日期或時間提前",
+      "titleEn": "bring something forward",
+      "formula": "bring something forward",
+      "highlight": "bring something forward",
+      "descriptionZh": "把日期或時間提前",
+      "descriptionEn": "They brought the meeting forward to Monday.",
+      "examples": [
+        {
+          "en": "They brought the meeting forward to Monday.",
+          "zh": "他們把會議提前至星期一。",
+          "highlight": "brought the meeting forward"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 25,
+      "titleZh": "引入新的法律、規則或管制措施",
+      "titleEn": "bring something in",
+      "formula": "bring something in",
+      "highlight": "bring something in",
+      "descriptionZh": "引入新的法律、規則或管制措施",
+      "descriptionEn": "The school brought in a new phone rule.",
+      "examples": [
+        {
+          "en": "The school brought in a new phone rule.",
+          "zh": "學校引入了一項新的手機規則。",
+          "highlight": "brought in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 26,
+      "titleZh": "成功完成困難的事情",
+      "titleEn": "bring something off",
+      "formula": "bring something off",
+      "highlight": "bring something off",
+      "descriptionZh": "成功完成困難的事情",
+      "descriptionEn": "The team brought off a surprising win.",
+      "examples": [
+        {
+          "en": "The team brought off a surprising win.",
+          "zh": "球隊成功取得一場意外的勝利。",
+          "highlight": "brought off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 27,
+      "titleZh": "引起疾病、痛楚或其他不愉快情況",
+      "titleEn": "bring something on",
+      "formula": "bring something on",
+      "highlight": "bring something on",
+      "descriptionZh": "引起疾病、痛楚或其他不愉快情況",
+      "descriptionEn": "Stress brought on his headaches.",
+      "examples": [
+        {
+          "en": "Stress brought on his headaches.",
+          "zh": "壓力引起了他的頭痛。",
+          "highlight": "brought on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 28,
+      "titleZh": "把某物從袋、盒、口袋等地方取出",
+      "titleEn": "bring something out (of something)",
+      "formula": "bring something out (of something)",
+      "highlight": "bring something out (of something)",
+      "descriptionZh": "把某物從袋、盒、口袋等地方取出",
+      "descriptionEn": "He brought a card out of his wallet.",
+      "examples": [
+        {
+          "en": "He brought a card out of his wallet.",
+          "zh": "他從銀包取出一張卡。",
+          "highlight": "brought a card out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 BRING 描述不同方向的移動",
+      "titleEn": "Use BRING to describe movement in many directions",
+      "zh": "bring along、bring back、bring in、bring down、bring up 和 bring over 等表達,可以描述帶同人物或物件、把它們帶回,或移到另一個地方。",
+      "en": "Expressions such as bring along, bring back, bring in, bring down, bring up and bring over let you describe taking people and things with you, returning them, or moving them to another place."
+    },
+    {
+      "titleZh": "談論人際關係、自信和個人成長",
+      "titleEn": "Talk about relationships, confidence and personal development",
+      "zh": "bring together 可以令人團結;bring somebody round 可以表示說服某人;bring somebody out 可以令人更有自信;bring somebody on 則可以表示協助學習者或球員進步。",
+      "en": "Bring together can unite people, bring somebody round can change a person's mind, bring somebody out can build confidence, and bring somebody on can help a learner or player improve."
+    },
+    {
+      "titleZh": "清楚解釋成因和後果",
+      "titleEn": "Explain causes and consequences clearly",
+      "zh": "bring about、bring on、bring forth 和 bring something upon somebody 可以說明改變、疾病、反應或不愉快結果是如何出現的。",
+      "en": "Bring about, bring on, bring forth and bring something upon somebody help you explain how a change, illness, response or unpleasant result happened."
+    },
+    {
+      "titleZh": "描述工作和日常生活中的實際改動",
+      "titleEn": "Describe practical changes in work and daily life",
+      "zh": "你可以用 bring in 表示引入規則、bring forward 表示把日期提前、bring down 表示降低價格、bring in 表示帶來收入,以及 bring off 表示成功完成困難的計劃。",
+      "en": "You can bring in a rule, bring a date forward, bring prices down, bring money in or bring off a difficult plan."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 BRING 描述不同方向的移動",
+      "談論人際關係、自信和個人成長",
+      "清楚解釋成因和後果",
+      "描述工作和日常生活中的實際改動"
+    ],
+    "contextsEn": [
+      "Use BRING to describe movement in many directions",
+      "Talk about relationships, confidence and personal development",
+      "Explain causes and consequences clearly",
+      "Describe practical changes in work and daily life"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 BRING 描述不同方向的移動",
+        "titleEn": "Use BRING to describe movement in many directions",
+        "zh": "bring along、bring back、bring in、bring down、bring up 和 bring over 等表達,可以描述帶同人物或物件、把它們帶回,或移到另一個地方。",
+        "en": "Expressions such as bring along, bring back, bring in, bring down, bring up and bring over let you describe taking people and things with you, returning them, or moving them to another place.",
+        "examples": [
+          {
+            "en": "The school project brought the two classes together.",
+            "zh": "這個學校項目令兩班學生更團結。",
+            "highlight": "brought the two classes together"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論人際關係、自信和個人成長",
+        "titleEn": "Talk about relationships, confidence and personal development",
+        "zh": "bring together 可以令人團結;bring somebody round 可以表示說服某人;bring somebody out 可以令人更有自信;bring somebody on 則可以表示協助學習者或球員進步。",
+        "en": "Bring together can unite people, bring somebody round can change a person's mind, bring somebody out can build confidence, and bring somebody on can help a learner or player improve.",
+        "examples": [
+          {
+            "en": "The weekend market brings in about £800 a month.",
+            "zh": "週末市集每月帶來約八百英鎊收入。",
+            "highlight": "brings in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚解釋成因和後果",
+        "titleEn": "Explain causes and consequences clearly",
+        "zh": "bring about、bring on、bring forth 和 bring something upon somebody 可以說明改變、疾病、反應或不愉快結果是如何出現的。",
+        "en": "Bring about, bring on, bring forth and bring something upon somebody help you explain how a change, illness, response or unpleasant result happened.",
+        "examples": [
+          {
+            "en": "Can I bring my cousin along to the picnic?",
+            "zh": "我可以帶表親一起去野餐嗎?",
+            "highlight": "bring my cousin along"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述工作和日常生活中的實際改動",
+        "titleEn": "Describe practical changes in work and daily life",
+        "zh": "你可以用 bring in 表示引入規則、bring forward 表示把日期提前、bring down 表示降低價格、bring in 表示帶來收入,以及 bring off 表示成功完成困難的計劃。",
+        "en": "You can bring in a rule, bring a date forward, bring prices down, bring money in or bring off a difficult plan.",
+        "examples": [
+          {
+            "en": "We finally brought Daniel round to our plan.",
+            "zh": "我們最終說服 Daniel 接受我們的計劃。",
+            "highlight": "brought Daniel round to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BRING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BRING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BRING 片語動詞。",
+      "en": "Read the whole sentence and choose the BRING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、地點和意思。",
+      "titleEn": "Keep the same people, things, time, place and meaning.",
+      "zh": "保留原句中的人物、事物、時間、地點和意思。",
+      "en": "Keep the same people, things, time, place and meaning."
+    },
+    {
+      "titleZh": "有些 BRING 片語動詞的形式相近,但意思截然不同。請仔細閱讀完整情境,特別留意 bring in、bring on、bring out、bring round/around 和 bring up。",
+      "titleEn": "Some BRING expressions look similar but have very different meanings.",
+      "zh": "有些 BRING 片語動詞的形式相近,但意思截然不同。請仔細閱讀完整情境,特別留意 bring in、bring on、bring out、bring round/around 和 bring up。",
+      "en": "Some BRING expressions look similar but have very different meanings. Read the full situation carefully, especially with bring in, bring on, bring out, bring round/around and bring up."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在 BRING 和後面的字之間。",
+      "titleEn": "When using it, him, her or them in expressions such as bring.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在 BRING 和後面的字之間。",
+      "en": "When using it, him, her or them in expressions such as bring... back/down/in/out/up, place the word as shown: bring it back bring him in bring them down bring her out bring it up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BRING 動詞片語句子改寫練習",
+    "titleEn": "BRING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BRING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BRING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          28
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          57,
+          84
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          85,
+          112
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          113,
+          140
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-238-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 31,
+      "prompt": "I will drive you home after the film.",
+      "promptZh": "電影結束後,我會駕車送你回家。",
+      "starter": "I",
+      "answer": "I will bring you back after the film.",
+      "answerZh": "電影結束後,我會送你回來。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something back (to something)",
+      "targetMeaningZh": "把某人或某物送回、帶回或歸還"
+    },
+    {
+      "id": "phrasal-verb-238-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 32,
+      "prompt": "He took a card out of his wallet.",
+      "promptZh": "他從銀包取出一張卡。",
+      "starter": "He",
+      "answer": "He brought a card out of his wallet.",
+      "answerZh": "他從銀包取出一張卡。",
+      "highlight": "brought",
+      "targetForm": "bring something out (of something)",
+      "targetMeaningZh": "把某物從袋、盒、口袋等地方取出"
+    },
+    {
+      "id": "phrasal-verb-238-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 32,
+      "prompt": "Breakfast was carried upstairs to our room.",
+      "promptZh": "早餐被送上樓到我們的房間。",
+      "starter": "Breakfast",
+      "answer": "Breakfast was brought up to our room.",
+      "answerZh": "早餐被送到我們的房間。",
+      "highlight": "brought up",
+      "targetForm": "bring somebody/something up (to something)",
+      "targetMeaningZh": "把某人或某物移到較高位置"
+    },
+    {
+      "id": "phrasal-verb-238-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 32,
+      "prompt": "The case was presented to the judge for a decision.",
+      "promptZh": "案件被提交法官作出裁決。",
+      "starter": "The",
+      "answer": "The case was brought before the judge.",
+      "answerZh": "案件被提交法官審理。",
+      "highlight": "brought before",
+      "targetForm": "bring somebody/something before somebody/something",
+      "targetMeaningZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定"
+    },
+    {
+      "id": "phrasal-verb-238-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 32,
+      "prompt": "The friendly host helped the shy guest become more confident.",
+      "promptZh": "友善的主持令害羞的賓客變得更有自信。",
+      "starter": "The",
+      "answer": "The friendly host brought the shy guest out.",
+      "answerZh": "友善的主持令害羞的賓客放鬆下來,變得更有自信。",
+      "highlight": "brought",
+      "targetForm": "bring somebody out",
+      "targetMeaningZh": "令害羞或緊張的人變得較有自信、較願意說話"
+    },
+    {
+      "id": "phrasal-verb-238-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 32,
+      "prompt": "We finally persuaded Daniel to accept our plan.",
+      "promptZh": "我們最終說服 Daniel 接受我們的計劃。",
+      "starter": "We",
+      "answer": "We finally brought Daniel round to our plan.",
+      "answerZh": "我們最終說服 Daniel 接受我們的計劃。",
+      "highlight": "brought",
+      "targetForm": "bring somebody round / bring somebody around (to something)",
+      "targetMeaningZh": "說服某人同意某事或接受某個看法"
+    },
+    {
+      "id": "phrasal-verb-238-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 32,
+      "prompt": "They carried the boxes from the attic to a lower floor.",
+      "promptZh": "他們把箱子從閣樓搬到較低樓層。",
+      "starter": "They",
+      "answer": "They brought the boxes down from the attic.",
+      "answerZh": "他們把箱子從閣樓搬下來。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something down",
+      "targetMeaningZh": "把某人或某物從較高位置移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-238-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 33,
+      "prompt": "The school introduced a new phone rule.",
+      "promptZh": "學校引入了一項新的手機規則。",
+      "starter": "The",
+      "answer": "The school brought in a new phone rule.",
+      "answerZh": "學校引入了一項新的手機規則。",
+      "highlight": "brought in",
+      "targetForm": "bring something in",
+      "targetMeaningZh": "引入新的法律、規則或管制措施"
+    },
+    {
+      "id": "phrasal-verb-238-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 33,
+      "prompt": "Take your cousin to my home this evening.",
+      "promptZh": "今晚帶你的表親來我家吧。",
+      "starter": "Bring",
+      "answer": "Bring your cousin round this evening.",
+      "answerZh": "今晚帶你的表親來我家吧。",
+      "highlight": "Bring",
+      "targetForm": "bring somebody/something round / around / over",
+      "targetMeaningZh": "把某人或某物帶到別人的家或所在之處"
+    },
+    {
+      "id": "phrasal-verb-238-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 33,
+      "prompt": "What caused this change?",
+      "promptZh": "是甚麼造成了這項改變?",
+      "starter": "What",
+      "answer": "What brought about this change?",
+      "answerZh": "是甚麼促成了這項改變?",
+      "highlight": "brought about",
+      "targetForm": "bring something about",
+      "targetMeaningZh": "造成或促成某件事情發生"
+    },
+    {
+      "id": "phrasal-verb-238-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 33,
+      "prompt": "The coach is helping the younger players make good progress.",
+      "promptZh": "教練正幫助年輕球員取得良好進步。",
+      "starter": "The",
+      "answer": "The coach is bringing the younger players on well.",
+      "answerZh": "教練正有效地培養年輕球員。",
+      "highlight": "bringing",
+      "targetForm": "bring somebody on",
+      "targetMeaningZh": "幫助某人在學習或訓練期間進步、成長"
+    },
+    {
+      "id": "phrasal-verb-238-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 33,
+      "prompt": "The queen gave birth to a healthy son.",
+      "promptZh": "王后誕下一名健康的兒子。",
+      "starter": "The",
+      "answer": "The queen brought forth a healthy son.",
+      "answerZh": "王后誕下一名健康的兒子。",
+      "highlight": "brought forth",
+      "targetForm": "bring somebody/something forth",
+      "targetMeaningZh": "產生、帶來或生下;多見於正式或舊式英語"
+    },
+    {
+      "id": "phrasal-verb-238-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 33,
+      "prompt": "Stress caused his headaches.",
+      "promptZh": "壓力引起了他的頭痛。",
+      "starter": "Stress",
+      "answer": "Stress brought on his headaches.",
+      "answerZh": "壓力引起了他的頭痛。",
+      "highlight": "brought on",
+      "targetForm": "bring something on",
+      "targetMeaningZh": "引起疾病、痛楚或其他不愉快情況"
+    },
+    {
+      "id": "phrasal-verb-238-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 34,
+      "prompt": "He always directs the conversation to football.",
+      "promptZh": "他總是把話題轉到足球。",
+      "starter": "He",
+      "answer": "He always brings the conversation round to football.",
+      "answerZh": "他總是把話題轉到足球。",
+      "highlight": "brings",
+      "targetForm": "bring something round/around to something",
+      "targetMeaningZh": "把談話或討論轉到某個話題"
+    },
+    {
+      "id": "phrasal-verb-238-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 34,
+      "prompt": "The nurse made him conscious again.",
+      "promptZh": "護士令他恢復知覺。",
+      "starter": "The",
+      "answer": "The nurse brought him round.",
+      "answerZh": "護士令他恢復知覺。",
+      "highlight": "brought",
+      "targetForm": "bring somebody round / bring somebody around / bring somebody to",
+      "targetMeaningZh": "令昏迷的人恢復知覺、醒過來"
+    },
+    {
+      "id": "phrasal-verb-238-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 34,
+      "prompt": "The team achieved a surprising win.",
+      "promptZh": "球隊取得了一場意外的勝利。",
+      "starter": "The",
+      "answer": "The team brought off a surprising win.",
+      "answerZh": "球隊成功取得一場意外的勝利。",
+      "highlight": "brought off",
+      "targetForm": "bring something off",
+      "targetMeaningZh": "成功完成困難的事情"
+    },
+    {
+      "id": "phrasal-verb-238-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 34,
+      "prompt": "We should ask a doctor to help.",
+      "promptZh": "我們應該請醫生來協助。",
+      "starter": "We",
+      "answer": "We should bring a doctor in.",
+      "answerZh": "我們應該請醫生來協助。",
+      "highlight": "bring",
+      "targetForm": "bring somebody in",
+      "targetMeaningZh": "請某人參與、協助或提供專業意見"
+    },
+    {
+      "id": "phrasal-verb-238-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 34,
+      "prompt": "The shop has reduced prices.",
+      "promptZh": "店舖已降低價格。",
+      "starter": "The",
+      "answer": "The shop has brought prices down.",
+      "answerZh": "店舖已降低價格。",
+      "highlight": "brought",
+      "targetForm": "bring something down",
+      "targetMeaningZh": "降低價格、數量、水平或比率"
+    },
+    {
+      "id": "phrasal-verb-238-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 34,
+      "prompt": "Please take another chair inside.",
+      "promptZh": "請多拿一張椅子進來。",
+      "starter": "Please",
+      "answer": "Please bring another chair in.",
+      "answerZh": "請多拿一張椅子進來。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something in / bring somebody/something into something",
+      "targetMeaningZh": "把某人或某物帶進室內或指定地方"
+    },
+    {
+      "id": "phrasal-verb-238-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 35,
+      "prompt": "The repairs made the playground meet the safety standards.",
+      "promptZh": "維修工程令遊樂場符合安全標準。",
+      "starter": "The",
+      "answer": "The repairs brought the playground up to safety standards.",
+      "answerZh": "維修工程令遊樂場達到安全標準。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something up to something",
+      "targetMeaningZh": "令某人或某物達到所需水平或標準"
+    },
+    {
+      "id": "phrasal-verb-238-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 35,
+      "prompt": "His careless words caused trouble for the whole team.",
+      "promptZh": "他不小心的說話令整個團隊惹上麻煩。",
+      "starter": "His",
+      "answer": "His careless words brought trouble down on the whole team.",
+      "answerZh": "他不小心的說話令整個團隊惹上麻煩。",
+      "highlight": "brought",
+      "targetForm": "bring something down on/upon somebody / bring something on/upon",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-238-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 35,
+      "prompt": "Strawberries cause a rash on my skin.",
+      "promptZh": "士多啤梨會令我的皮膚出紅疹。",
+      "starter": "Strawberries",
+      "answer": "Strawberries bring me out in a rash.",
+      "answerZh": "士多啤梨會令我出紅疹。",
+      "highlight": "bring me out in",
+      "targetForm": "bring somebody out in something",
+      "targetMeaningZh": "令某人的皮膚出現紅疹、斑點或汗水"
+    },
+    {
+      "id": "phrasal-verb-238-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 35,
+      "prompt": "Her grandparents raised her.",
+      "promptZh": "她由祖父母養育成人。",
+      "starter": "Her",
+      "answer": "Her grandparents brought her up.",
+      "answerZh": "她由祖父母養育成人。",
+      "highlight": "brought",
+      "targetForm": "bring somebody up",
+      "targetMeaningZh": "養育和教導孩子,直至他們長大"
+    },
+    {
+      "id": "phrasal-verb-238-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 35,
+      "prompt": "Can I take my cousin with me to the picnic?",
+      "promptZh": "我可以帶表親一起去野餐嗎?",
+      "starter": "Can",
+      "answer": "Can I bring my cousin along to the picnic?",
+      "answerZh": "我可以帶表親一起去野餐嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something along",
+      "targetMeaningZh": "帶某人或某物一起前往"
+    },
+    {
+      "id": "phrasal-verb-238-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "The school trip helped the two classes become closer.",
+      "promptZh": "學校旅行令兩班學生變得更親近。",
+      "starter": "The",
+      "answer": "The school trip brought the two classes together.",
+      "answerZh": "學校旅行令兩班學生變得更親近。",
+      "highlight": "brought",
+      "targetForm": "bring A and B together / bring somebody/something together",
+      "targetMeaningZh": "使人和好、團結、相識或聚在一起;把人或物集合起來"
+    },
+    {
+      "id": "phrasal-verb-238-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "Rainy days sometimes make me feel unhappy.",
+      "promptZh": "下雨天有時會令我不開心。",
+      "starter": "Rainy",
+      "answer": "Rainy days sometimes bring me down.",
+      "answerZh": "下雨天有時會令我情緒低落。",
+      "highlight": "bring",
+      "targetForm": "bring somebody down",
+      "targetMeaningZh": "令某人情緒低落或不開心"
+    },
+    {
+      "id": "phrasal-verb-238-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "They moved the meeting to the earlier date of Monday.",
+      "promptZh": "他們把會議提前至星期一。",
+      "starter": "They",
+      "answer": "They brought the meeting forward to Monday.",
+      "answerZh": "他們把會議提前至星期一。",
+      "highlight": "brought",
+      "targetForm": "bring something forward",
+      "targetMeaningZh": "把日期或時間提前"
+    },
+    {
+      "id": "phrasal-verb-238-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "The weekend market earns about £800 each month.",
+      "promptZh": "週末市集每月賺取約八百英鎊。",
+      "starter": "The",
+      "answer": "The weekend market brings in about £800 each month.",
+      "answerZh": "週末市集每月帶來約八百英鎊收入。",
+      "highlight": "brings in",
+      "targetForm": "bring in something / bring somebody in something",
+      "targetMeaningZh": "賺取或帶來某筆收入"
+    },
+    {
+      "id": "phrasal-verb-238-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "A new safety law has been introduced.",
+      "promptZh": "一項新的安全法例已經實施。",
+      "starter": "A",
+      "answer": "A new safety law has been brought in.",
+      "answerZh": "一項新的安全法例已經實施。",
+      "highlight": "brought in",
+      "targetForm": "bring something in",
+      "targetMeaningZh": "引入新的法律、規則或管制措施"
+    },
+    {
+      "id": "phrasal-verb-238-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 36,
+      "prompt": "She has succeeded in carrying out a difficult rescue.",
+      "promptZh": "她成功完成了一次艱難的救援。",
+      "starter": "She",
+      "answer": "She has brought off a difficult rescue.",
+      "answerZh": "她成功完成了一次艱難的救援。",
+      "highlight": "brought off",
+      "targetForm": "bring something off",
+      "targetMeaningZh": "成功完成困難的事情"
+    },
+    {
+      "id": "phrasal-verb-238-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "Please take your ID card with you tomorrow.",
+      "promptZh": "明天請帶同身分證。",
+      "starter": "Please",
+      "answer": "Please bring your ID card along tomorrow.",
+      "answerZh": "明天請帶同身分證。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something along",
+      "targetMeaningZh": "帶某人或某物一起前往"
+    },
+    {
+      "id": "phrasal-verb-238-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "Cold water may make her conscious again.",
+      "promptZh": "冷水可能會令她恢復知覺。",
+      "starter": "Cold",
+      "answer": "Cold water may bring her around.",
+      "answerZh": "冷水可能會令她恢復知覺。",
+      "highlight": "bring",
+      "targetForm": "bring somebody round / bring somebody around / bring somebody to",
+      "targetMeaningZh": "令昏迷的人恢復知覺、醒過來"
+    },
+    {
+      "id": "phrasal-verb-238-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "The cold weather has caused a bad cough.",
+      "promptZh": "寒冷天氣引起了嚴重咳嗽。",
+      "starter": "The",
+      "answer": "The cold weather has brought on a bad cough.",
+      "answerZh": "寒冷天氣引起了嚴重咳嗽。",
+      "highlight": "brought on",
+      "targetForm": "bring something on",
+      "targetMeaningZh": "引起疾病、痛楚或其他不愉快情況"
+    },
+    {
+      "id": "phrasal-verb-238-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "The school has asked an expert to check the roof.",
+      "promptZh": "學校已請一名專家檢查屋頂。",
+      "starter": "The",
+      "answer": "The school has brought in an expert to check the roof.",
+      "answerZh": "學校已請一名專家檢查屋頂。",
+      "highlight": "brought in",
+      "targetForm": "bring somebody in",
+      "targetMeaningZh": "請某人參與、協助或提供專業意見"
+    },
+    {
+      "id": "phrasal-verb-238-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "Regular practice has helped her improve quickly.",
+      "promptZh": "定期練習令她進步得很快。",
+      "starter": "Regular",
+      "answer": "Regular practice has brought her on quickly.",
+      "answerZh": "定期練習令她進步得很快。",
+      "highlight": "brought",
+      "targetForm": "bring somebody on",
+      "targetMeaningZh": "幫助某人在學習或訓練期間進步、成長"
+    },
+    {
+      "id": "phrasal-verb-238-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 37,
+      "prompt": "She took a clean towel out of the cupboard for the guest.",
+      "promptZh": "她從櫃中取出一條乾淨毛巾給客人。",
+      "starter": "She",
+      "answer": "She brought a clean towel out of the cupboard for the guest.",
+      "answerZh": "她從櫃中取出一條乾淨毛巾給客人。",
+      "highlight": "brought",
+      "targetForm": "bring something out (of something)",
+      "targetMeaningZh": "把某物從袋、盒、口袋等地方取出"
+    },
+    {
+      "id": "phrasal-verb-238-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "A shared hobby is helping Ava and Noah become friends.",
+      "promptZh": "一項共同興趣正令 Ava 和 Noah 成為朋友。",
+      "starter": "A",
+      "answer": "A shared hobby is bringing Ava and Noah together.",
+      "answerZh": "一項共同興趣正令 Ava 和 Noah 成為朋友。",
+      "highlight": "bringing",
+      "targetForm": "bring A and B together / bring somebody/something together",
+      "targetMeaningZh": "使人和好、團結、相識或聚在一起;把人或物集合起來"
+    },
+    {
+      "id": "phrasal-verb-238-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "That soap has caused red spots on her skin.",
+      "promptZh": "那種肥皂令她的皮膚出現紅點。",
+      "starter": "That",
+      "answer": "That soap has brought her out in red spots.",
+      "answerZh": "那種肥皂令她的皮膚出現紅點。",
+      "highlight": "brought her out in",
+      "targetForm": "bring somebody out in something",
+      "targetMeaningZh": "令某人的皮膚出現紅疹、斑點或汗水"
+    },
+    {
+      "id": "phrasal-verb-238-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "The plan will be presented to the school board next week.",
+      "promptZh": "計劃將於下星期提交校董會討論。",
+      "starter": "The",
+      "answer": "The plan will be brought before the school board next week.",
+      "answerZh": "計劃將於下星期提交校董會討論。",
+      "highlight": "brought before",
+      "targetForm": "bring somebody/something before somebody/something",
+      "targetMeaningZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定"
+    },
+    {
+      "id": "phrasal-verb-238-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "She took the dog into the kitchen.",
+      "promptZh": "她把狗帶進廚房。",
+      "starter": "She",
+      "answer": "She brought the dog into the kitchen.",
+      "answerZh": "她把狗帶進廚房。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something in / bring somebody/something into something",
+      "targetMeaningZh": "把某人或某物帶進室內或指定地方"
+    },
+    {
+      "id": "phrasal-verb-238-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "The school has moved the test one week earlier.",
+      "promptZh": "學校已把測驗提前一星期。",
+      "starter": "The",
+      "answer": "The school has brought the test forward by one week.",
+      "answerZh": "學校已把測驗提前一星期。",
+      "highlight": "brought",
+      "targetForm": "bring something forward",
+      "targetMeaningZh": "把日期或時間提前"
+    },
+    {
+      "id": "phrasal-verb-238-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 38,
+      "prompt": "She is trying to direct the discussion to next year's trip.",
+      "promptZh": "她正嘗試把討論轉到明年的旅行。",
+      "starter": "She",
+      "answer": "She is trying to bring the discussion around to next year's trip.",
+      "answerZh": "她正嘗試把討論轉到明年的旅行。",
+      "highlight": "bring",
+      "targetForm": "bring something round/around to something",
+      "targetMeaningZh": "把談話或討論轉到某個話題"
+    },
+    {
+      "id": "phrasal-verb-238-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 39,
+      "prompt": "They are raising three children.",
+      "promptZh": "他們正在養育三名孩子。",
+      "starter": "They",
+      "answer": "They are bringing up three children.",
+      "answerZh": "他們正在養育三名孩子。",
+      "highlight": "bringing up",
+      "targetForm": "bring somebody up",
+      "targetMeaningZh": "養育和教導孩子,直至他們長大"
+    },
+    {
+      "id": "phrasal-verb-238-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 39,
+      "prompt": "She is slowly persuading her parents to accept the idea.",
+      "promptZh": "她正慢慢說服父母接受這個構思。",
+      "starter": "She",
+      "answer": "She is slowly bringing her parents around to the idea.",
+      "answerZh": "她正慢慢說服父母接受這個構思。",
+      "highlight": "bringing",
+      "targetForm": "bring somebody round / bring somebody around (to something)",
+      "targetMeaningZh": "說服某人同意某事或接受某個看法"
+    },
+    {
+      "id": "phrasal-verb-238-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 39,
+      "prompt": "You caused this problem for yourself.",
+      "promptZh": "這個問題是你自己招致的。",
+      "starter": "You",
+      "answer": "You brought this problem on yourself.",
+      "answerZh": "這個問題是你自己招致的。",
+      "highlight": "brought",
+      "targetForm": "bring something down on/upon somebody / bring something on/upon",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-238-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 39,
+      "prompt": "The extra lessons are helping him reach the level of the rest of the class.",
+      "promptZh": "額外課堂正協助他達到班上其他同學的水平。",
+      "starter": "The",
+      "answer": "The extra lessons are bringing him up to the level of the rest of the class.",
+      "answerZh": "額外課堂正協助他達到班上其他同學的水平。",
+      "highlight": "bringing",
+      "targetForm": "bring somebody/something up to something",
+      "targetMeaningZh": "令某人或某物達到所需水平或標準"
+    },
+    {
+      "id": "phrasal-verb-238-q47",
+      "number": 47,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 39,
+      "prompt": "These changes should reduce waiting times.",
+      "promptZh": "這些改動應該可以縮短等候時間。",
+      "starter": "These",
+      "answer": "These changes should bring down waiting times.",
+      "answerZh": "這些改動應該可以縮短等候時間。",
+      "highlight": "bring down",
+      "targetForm": "bring something down",
+      "targetMeaningZh": "降低價格、數量、水平或比率"
+    },
+    {
+      "id": "phrasal-verb-238-q48",
+      "number": 48,
+      "band": 2,
+      "sourcePage": 15,
+      "answerSourcePage": 40,
+      "prompt": "The new bus route has reduced journey times.",
+      "promptZh": "新巴士路線縮短了車程時間。",
+      "starter": "The",
+      "answer": "The new bus route has brought about shorter journey times.",
+      "answerZh": "新巴士路線令車程時間縮短。",
+      "highlight": "brought about shorter",
+      "targetForm": "bring something about",
+      "targetMeaningZh": "造成或促成某件事情發生"
+    },
+    {
+      "id": "phrasal-verb-238-q49",
+      "number": 49,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 40,
+      "prompt": "Please take your bike from the balcony to the ground floor.",
+      "promptZh": "請把單車從露台搬到地下。",
+      "starter": "Please",
+      "answer": "Please bring your bike down from the balcony.",
+      "answerZh": "請把單車從露台搬下來。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something down",
+      "targetMeaningZh": "把某人或某物從較高位置移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-238-q50",
+      "number": 50,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 40,
+      "prompt": "The bad result has made Omar feel very low.",
+      "promptZh": "那個差劣的結果令 Omar 十分低落。",
+      "starter": "The",
+      "answer": "The bad result has really brought Omar down.",
+      "answerZh": "那個差劣的結果令 Omar 十分低落。",
+      "highlight": "really brought",
+      "targetForm": "bring somebody down",
+      "targetMeaningZh": "令某人情緒低落或不開心"
+    },
+    {
+      "id": "phrasal-verb-238-q51",
+      "number": 51,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 40,
+      "prompt": "Her online lessons are earning her a steady income.",
+      "promptZh": "她的網上課堂正為她帶來穩定收入。",
+      "starter": "Her",
+      "answer": "Her online lessons are bringing her in a steady income.",
+      "answerZh": "她的網上課堂正為她帶來穩定收入。",
+      "highlight": "bringing",
+      "targetForm": "bring in something / bring somebody in something",
+      "targetMeaningZh": "賺取或帶來某筆收入"
+    },
+    {
+      "id": "phrasal-verb-238-q52",
+      "number": 52,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 40,
+      "prompt": "Can you carry the bags upstairs from the car?",
+      "promptZh": "你可以把袋子從車上拿到樓上嗎?",
+      "starter": "Can",
+      "answer": "Can you bring the bags up from the car?",
+      "answerZh": "你可以把袋子從車上拿到樓上嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something up (to something)",
+      "targetMeaningZh": "把某人或某物移到較高位置"
+    },
+    {
+      "id": "phrasal-verb-238-q53",
+      "number": 53,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 40,
+      "prompt": "Please return the library book tomorrow.",
+      "promptZh": "明天請歸還圖書館的書。",
+      "starter": "Please",
+      "answer": "Please bring the library book back tomorrow.",
+      "answerZh": "明天請把圖書館的書帶回來。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something back (to something)",
+      "targetMeaningZh": "把某人或某物送回、帶回或歸還"
+    },
+    {
+      "id": "phrasal-verb-238-q54",
+      "number": 54,
+      "band": 2,
+      "sourcePage": 16,
+      "answerSourcePage": 41,
+      "prompt": "Group games are slowly making Aria less shy.",
+      "promptZh": "小組遊戲正慢慢令 Aria 不再那麼害羞。",
+      "starter": "Group",
+      "answer": "Group games are gradually bringing Aria out.",
+      "answerZh": "小組遊戲正慢慢令 Aria 變得較有自信。",
+      "highlight": "gradually bringing",
+      "targetForm": "bring somebody out",
+      "targetMeaningZh": "令害羞或緊張的人變得較有自信、較願意說話"
+    },
+    {
+      "id": "phrasal-verb-238-q55",
+      "number": 55,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 41,
+      "prompt": "I will take the papers to your place after work.",
+      "promptZh": "下班後,我會把文件帶到你那裏。",
+      "starter": "I",
+      "answer": "I will bring the papers over after work.",
+      "answerZh": "下班後,我會把文件帶到你那裏。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something round / around / over",
+      "targetMeaningZh": "把某人或某物帶到別人的家或所在之處"
+    },
+    {
+      "id": "phrasal-verb-238-q56",
+      "number": 56,
+      "band": 2,
+      "sourcePage": 17,
+      "answerSourcePage": 41,
+      "prompt": "The tree has produced plenty of fruit this year.",
+      "promptZh": "這棵樹今年結出了大量果實。",
+      "starter": "The",
+      "answer": "The tree has brought forth plenty of fruit this year.",
+      "answerZh": "這棵樹今年結出了大量果實。",
+      "highlight": "brought forth",
+      "targetForm": "bring somebody/something forth",
+      "targetMeaningZh": "產生、帶來或生下;多見於正式或舊式英語"
+    },
+    {
+      "id": "phrasal-verb-238-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 41,
+      "prompt": "Could we move it to the earlier time of ten o'clock?",
+      "promptZh": "我們可以把它提前至十時嗎?",
+      "starter": "Could",
+      "answer": "Could we bring it forward to ten o'clock?",
+      "answerZh": "我們可以把它提前至十時嗎?",
+      "highlight": "bring",
+      "targetForm": "bring something forward",
+      "targetMeaningZh": "把日期或時間提前"
+    },
+    {
+      "id": "phrasal-verb-238-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 41,
+      "prompt": "The organiser gathered the musicians and dancers for one show.",
+      "promptZh": "主辦人把音樂家和舞蹈員集合起來,參與同一場表演。",
+      "starter": "The",
+      "answer": "The organiser brought the musicians and dancers together for one show.",
+      "answerZh": "主辦人把音樂家和舞蹈員集合起來,參與同一場表演。",
+      "highlight": "brought",
+      "targetForm": "bring A and B together / bring somebody/something together",
+      "targetMeaningZh": "使人和好、團結、相識或聚在一起;把人或物集合起來"
+    },
+    {
+      "id": "phrasal-verb-238-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 41,
+      "prompt": "The club has prepared a new rule. It plans to introduce it next month.",
+      "promptZh": "球會已擬定一項新規則,並計劃下月實施。",
+      "starter": "The",
+      "answer": "The club has prepared a new rule. It plans to bring it in next month.",
+      "answerZh": "球會已擬定一項新規則,並計劃下月實施。",
+      "highlight": "bring",
+      "targetForm": "bring something in",
+      "targetMeaningZh": "引入新的法律、規則或管制措施"
+    },
+    {
+      "id": "phrasal-verb-238-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 42,
+      "prompt": "I asked for the key, and she took it out of her bag.",
+      "promptZh": "我索取鎖匙,而她把它從袋中取出。",
+      "starter": "I",
+      "answer": "I asked for the key, and she brought it out of her bag.",
+      "answerZh": "我索取鎖匙,而她把它從袋中取出。",
+      "highlight": "brought",
+      "targetForm": "bring something out (of something)",
+      "targetMeaningZh": "把某物從袋、盒、口袋等地方取出"
+    },
+    {
+      "id": "phrasal-verb-238-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 42,
+      "prompt": "She borrowed my charger and returned it this morning.",
+      "promptZh": "她借了我的充電器,並在今早歸還。",
+      "starter": "She",
+      "answer": "She borrowed my charger and brought it back this morning.",
+      "answerZh": "她借了我的充電器,並在今早帶了回來。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something back (to something)",
+      "targetMeaningZh": "把某人或某物送回、帶回或歸還"
+    },
+    {
+      "id": "phrasal-verb-238-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 42,
+      "prompt": "The pain started suddenly. We do not know what caused it.",
+      "promptZh": "疼痛突然開始。我們不知道是甚麼引起的。",
+      "starter": "The",
+      "answer": "The pain started suddenly. We do not know what brought it on.",
+      "answerZh": "疼痛突然開始。我們不知道是甚麼引起的。",
+      "highlight": "brought",
+      "targetForm": "bring something on",
+      "targetMeaningZh": "引起疾病、痛楚或其他不愉快情況"
+    },
+    {
+      "id": "phrasal-verb-238-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 42,
+      "prompt": "The waiter carried it upstairs a few minutes later.",
+      "promptZh": "幾分鐘後,侍應把它拿到樓上。",
+      "starter": "The",
+      "answer": "The waiter brought it up a few minutes later.",
+      "answerZh": "幾分鐘後,侍應把它拿到樓上。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something up (to something)",
+      "targetMeaningZh": "把某人或某物移到較高位置"
+    },
+    {
+      "id": "phrasal-verb-238-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 42,
+      "prompt": "This class should help you improve before the exam.",
+      "promptZh": "這個課程應該能幫助你在考試前進步。",
+      "starter": "This",
+      "answer": "This class should bring you on before the exam.",
+      "answerZh": "這個課程應該能幫助你在考試前進步。",
+      "highlight": "bring",
+      "targetForm": "bring somebody on",
+      "targetMeaningZh": "幫助某人在學習或訓練期間進步、成長"
+    },
+    {
+      "id": "phrasal-verb-238-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 42,
+      "prompt": "We could not make the driver conscious again.",
+      "promptZh": "我們無法令司機恢復知覺。",
+      "starter": "We",
+      "answer": "We could not bring the driver to.",
+      "answerZh": "我們無法令司機恢復知覺。",
+      "highlight": "bring",
+      "targetForm": "bring somebody round / bring somebody around / bring somebody to",
+      "targetMeaningZh": "令昏迷的人恢復知覺、醒過來"
+    },
+    {
+      "id": "phrasal-verb-238-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 43,
+      "prompt": "Nobody thought they could do it, but they succeeded.",
+      "promptZh": "沒有人認為他們能夠做到,但他們成功了。",
+      "starter": "Nobody",
+      "answer": "Nobody thought they could do it, but they brought it off.",
+      "answerZh": "沒有人認為他們能夠做到,但他們成功了。",
+      "highlight": "brought it off",
+      "targetForm": "bring something off",
+      "targetMeaningZh": "成功完成困難的事情"
+    },
+    {
+      "id": "phrasal-verb-238-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 43,
+      "prompt": "The decision has caused shame for the club.",
+      "promptZh": "這項決定令球會蒙羞。",
+      "starter": "The",
+      "answer": "The decision has brought shame upon the club.",
+      "answerZh": "這項決定令球會蒙羞。",
+      "highlight": "brought",
+      "targetForm": "bring something down on/upon somebody / bring something on/upon",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-238-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 43,
+      "prompt": "I was raised by my uncle.",
+      "promptZh": "我由叔父養育成人。",
+      "starter": "I",
+      "answer": "I was brought up by my uncle.",
+      "answerZh": "我由叔父養育成人。",
+      "highlight": "brought up",
+      "targetForm": "bring somebody up",
+      "targetMeaningZh": "養育和教導孩子,直至他們長大"
+    },
+    {
+      "id": "phrasal-verb-238-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 43,
+      "prompt": "The costs were too high. The new plan has reduced them by ten per cent.",
+      "promptZh": "成本太高。新計劃已把它們降低百分之十。",
+      "starter": "The",
+      "answer": "The costs were too high. The new plan has brought them down by ten per cent.",
+      "answerZh": "成本太高。新計劃已把它們降低百分之十。",
+      "highlight": "brought",
+      "targetForm": "bring something down",
+      "targetMeaningZh": "降低價格、數量、水平或比率"
+    },
+    {
+      "id": "phrasal-verb-238-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 43,
+      "prompt": "We need to improve it until it meets the required standard.",
+      "promptZh": "我們需要改善它,直至達到所需標準。",
+      "starter": "We",
+      "answer": "We need to bring it up to the required standard.",
+      "answerZh": "我們需要把它提升至所需標準。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something up to something",
+      "targetMeaningZh": "令某人或某物達到所需水平或標準"
+    },
+    {
+      "id": "phrasal-verb-238-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 43,
+      "prompt": "The new cream caused an itchy rash on his skin.",
+      "promptZh": "那種新乳霜令他的皮膚出現痕癢的紅疹。",
+      "starter": "The",
+      "answer": "The new cream brought him out in an itchy rash.",
+      "answerZh": "那種新乳霜令他的皮膚出現痕癢的紅疹。",
+      "highlight": "brought him out in",
+      "targetForm": "bring somebody out in something",
+      "targetMeaningZh": "令某人的皮膚出現紅疹、斑點或汗水"
+    },
+    {
+      "id": "phrasal-verb-238-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 44,
+      "prompt": "The facts persuaded him in the end.",
+      "promptZh": "那些事實最終說服了他。",
+      "starter": "The",
+      "answer": "The facts brought him round in the end.",
+      "answerZh": "那些事實最終說服了他。",
+      "highlight": "brought",
+      "targetForm": "bring somebody round / bring somebody around (to something)",
+      "targetMeaningZh": "說服某人同意某事或接受某個看法"
+    },
+    {
+      "id": "phrasal-verb-238-q73",
+      "number": 73,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 44,
+      "prompt": "A few easy questions helped him speak more freely during the interview.",
+      "promptZh": "幾條簡單問題令他在面試期間更自在地說話。",
+      "starter": "A",
+      "answer": "A few easy questions brought him out during the interview.",
+      "answerZh": "幾條簡單問題令他在面試期間更自在地說話。",
+      "highlight": "brought",
+      "targetForm": "bring somebody out",
+      "targetMeaningZh": "令害羞或緊張的人變得較有自信、較願意說話"
+    },
+    {
+      "id": "phrasal-verb-238-q74",
+      "number": 74,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 44,
+      "prompt": "The problem was too serious, so they asked her to help.",
+      "promptZh": "問題太嚴重,所以他們請她協助。",
+      "starter": "The",
+      "answer": "The problem was too serious, so they brought her in to help.",
+      "answerZh": "問題太嚴重,所以他們請她協助。",
+      "highlight": "brought",
+      "targetForm": "bring somebody in",
+      "targetMeaningZh": "請某人參與、協助或提供專業意見"
+    },
+    {
+      "id": "phrasal-verb-238-q75",
+      "number": 75,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 44,
+      "prompt": "It was raining, so we took them inside.",
+      "promptZh": "當時正在下雨,所以我們把它們拿進室內。",
+      "starter": "It",
+      "answer": "It was raining, so we brought them in.",
+      "answerZh": "當時正在下雨,所以我們把它們拿進室內。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something in / bring somebody/something into something",
+      "targetMeaningZh": "把某人或某物帶進室內或指定地方"
+    },
+    {
+      "id": "phrasal-verb-238-q76",
+      "number": 76,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 44,
+      "prompt": "Her question produced several useful ideas.",
+      "promptZh": "她的問題引發了幾個有用的構思。",
+      "starter": "Her",
+      "answer": "Her question brought forth several useful ideas.",
+      "answerZh": "她的問題引發了幾個有用的構思。",
+      "highlight": "brought forth",
+      "targetForm": "bring somebody/something forth",
+      "targetMeaningZh": "產生、帶來或生下;多見於正式或舊式英語"
+    },
+    {
+      "id": "phrasal-verb-238-q77",
+      "number": 77,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "I mentioned lunch, but he directed the conversation to work again.",
+      "promptZh": "我提到午膳,但他再次把話題轉到工作。",
+      "starter": "I",
+      "answer": "I mentioned lunch, but he brought the conversation round to work again.",
+      "answerZh": "我提到午膳,但他再次把話題轉到工作。",
+      "highlight": "brought",
+      "targetForm": "bring something round/around to something",
+      "targetMeaningZh": "把談話或討論轉到某個話題"
+    },
+    {
+      "id": "phrasal-verb-238-q78",
+      "number": 78,
+      "band": 3,
+      "sourcePage": 20,
+      "answerSourcePage": 45,
+      "prompt": "The police presented him to the court for judgement.",
+      "promptZh": "警方把他帶到法庭接受審判。",
+      "starter": "The",
+      "answer": "The police brought him before the court.",
+      "answerZh": "警方把他帶到法庭接受審判。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something before somebody/something",
+      "targetMeaningZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定"
+    },
+    {
+      "id": "phrasal-verb-238-q79",
+      "number": 79,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 45,
+      "prompt": "Do not let one mistake make you lose confidence.",
+      "promptZh": "不要讓一次錯誤令你失去信心。",
+      "starter": "Do",
+      "answer": "Do not let one mistake bring you down.",
+      "answerZh": "不要讓一次錯誤令你情緒低落。",
+      "highlight": "bring",
+      "targetForm": "bring somebody down",
+      "targetMeaningZh": "令某人情緒低落或不開心"
+    },
+    {
+      "id": "phrasal-verb-238-q80",
+      "number": 80,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 45,
+      "prompt": "The concert earned enough money to repair the roof.",
+      "promptZh": "音樂會賺得足夠金錢維修屋頂。",
+      "starter": "The",
+      "answer": "The concert brought in enough money to repair the roof.",
+      "answerZh": "音樂會帶來足夠收入維修屋頂。",
+      "highlight": "brought in",
+      "targetForm": "bring in something / bring somebody in something",
+      "targetMeaningZh": "賺取或帶來某筆收入"
+    },
+    {
+      "id": "phrasal-verb-238-q81",
+      "number": 81,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 45,
+      "prompt": "She took them to her home to meet her parents.",
+      "promptZh": "她帶他們到家中見父母。",
+      "starter": "She",
+      "answer": "She brought them around to meet her parents.",
+      "answerZh": "她帶他們到家中見父母。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something round / around / over",
+      "targetMeaningZh": "把某人或某物帶到別人的家或所在之處"
+    },
+    {
+      "id": "phrasal-verb-238-q82",
+      "number": 82,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 45,
+      "prompt": "Nobody expected the result, but one small decision caused it.",
+      "promptZh": "沒有人預料到這個結果,但一個小決定促成了它。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the result, but one small decision brought it about.",
+      "answerZh": "沒有人預料到這個結果,但一個小決定促成了它。",
+      "highlight": "brought",
+      "targetForm": "bring something about",
+      "targetMeaningZh": "造成或促成某件事情發生"
+    },
+    {
+      "id": "phrasal-verb-238-q83",
+      "number": 83,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "I took it with me because you said we might need it.",
+      "promptZh": "你說我們可能需要它,所以我把它帶來了。",
+      "starter": "I",
+      "answer": "I brought it along because you said we might need it.",
+      "answerZh": "你說我們可能需要它,所以我把它帶來了。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something along",
+      "targetMeaningZh": "帶某人或某物一起前往"
+    },
+    {
+      "id": "phrasal-verb-238-q84",
+      "number": 84,
+      "band": 3,
+      "sourcePage": 21,
+      "answerSourcePage": 46,
+      "prompt": "I left the bag upstairs, so Leo carried it downstairs.",
+      "promptZh": "我把袋子留在樓上,所以 Leo 把它拿到樓下。",
+      "starter": "I",
+      "answer": "I left the bag upstairs, so Leo brought it down.",
+      "answerZh": "我把袋子留在樓上,所以 Leo 把它拿到樓下。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something down",
+      "targetMeaningZh": "把某人或某物從較高位置移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-238-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 46,
+      "prompt": "Why did the council introduce these parking controls?",
+      "promptZh": "市議會為甚麼引入這些泊車管制措施?",
+      "starter": "Why",
+      "answer": "Why did the council bring in these parking controls?",
+      "answerZh": "市議會為甚麼引入這些泊車管制措施?",
+      "highlight": "bring in",
+      "targetForm": "bring something in",
+      "targetMeaningZh": "引入新的法律、規則或管制措施"
+    },
+    {
+      "id": "phrasal-verb-238-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 46,
+      "prompt": "The club needs a patient trainer who can help beginners develop.",
+      "promptZh": "球會需要一位有耐性的教練來培養初學者。",
+      "starter": "The",
+      "answer": "The club needs a patient trainer who can bring beginners on.",
+      "answerZh": "球會需要一位有耐性的教練來培養初學者。",
+      "highlight": "bring",
+      "targetForm": "bring somebody on",
+      "targetMeaningZh": "幫助某人在學習或訓練期間進步、成長"
+    },
+    {
+      "id": "phrasal-verb-238-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 46,
+      "prompt": "The workers are lowering the old sign carefully.",
+      "promptZh": "工人正小心地把舊招牌降下來。",
+      "starter": "The",
+      "answer": "The workers are bringing the old sign down carefully.",
+      "answerZh": "工人正小心地把舊招牌降下來。",
+      "highlight": "bringing",
+      "targetForm": "bring somebody/something down",
+      "targetMeaningZh": "把某人或某物從較高位置移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-238-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 46,
+      "prompt": "Can the young goalkeeper make another excellent save?",
+      "promptZh": "這名年輕守門員能否再次成功作出精彩撲救?",
+      "starter": "Can",
+      "answer": "Can the young goalkeeper bring off another excellent save?",
+      "answerZh": "這名年輕守門員能否再次成功作出精彩撲救?",
+      "highlight": "bring off",
+      "targetForm": "bring something off",
+      "targetMeaningZh": "成功完成困難的事情"
+    },
+    {
+      "id": "phrasal-verb-238-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "The teacher knows how to help quiet pupils become more confident.",
+      "promptZh": "老師懂得如何令安靜的學生變得更有自信。",
+      "starter": "The",
+      "answer": "The teacher knows how to bring quiet pupils out.",
+      "answerZh": "老師懂得如何令安靜的學生變得更有自信。",
+      "highlight": "bring",
+      "targetForm": "bring somebody out",
+      "targetMeaningZh": "令害羞或緊張的人變得較有自信、較願意說話"
+    },
+    {
+      "id": "phrasal-verb-238-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 47,
+      "prompt": "The storm helped the neighbours end years of disagreement.",
+      "promptZh": "暴風雨令鄰居結束了多年的不和。",
+      "starter": "The",
+      "answer": "The storm brought the neighbours together after years of disagreement.",
+      "answerZh": "暴風雨令鄰居結束了多年的不和。",
+      "highlight": "brought",
+      "targetForm": "bring A and B together / bring somebody/something together",
+      "targetMeaningZh": "使人和好、團結、相識或聚在一起;把人或物集合起來"
+    },
+    {
+      "id": "phrasal-verb-238-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 47,
+      "prompt": "Does heat cause spots on your skin?",
+      "promptZh": "炎熱天氣會令你的皮膚出現斑點嗎?",
+      "starter": "Does",
+      "answer": "Does heat bring you out in spots?",
+      "answerZh": "炎熱天氣會令你的皮膚出現斑點嗎?",
+      "highlight": "bring you out in",
+      "targetForm": "bring somebody out in something",
+      "targetMeaningZh": "令某人的皮膚出現紅疹、斑點或汗水"
+    },
+    {
+      "id": "phrasal-verb-238-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 47,
+      "prompt": "Why do you keep directing every discussion to money?",
+      "promptZh": "為甚麼你總是把每次討論轉到金錢?",
+      "starter": "Why",
+      "answer": "Why do you keep bringing every discussion around to money?",
+      "answerZh": "為甚麼你總是把每次討論轉到金錢?",
+      "highlight": "bringing",
+      "targetForm": "bring something round/around to something",
+      "targetMeaningZh": "把談話或討論轉到某個話題"
+    },
+    {
+      "id": "phrasal-verb-238-q93",
+      "number": 93,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 47,
+      "prompt": "Too much exercise may cause the pain to return.",
+      "promptZh": "過量運動可能會令疼痛再次出現。",
+      "starter": "Too",
+      "answer": "Too much exercise may bring on the pain again.",
+      "answerZh": "過量運動可能會令疼痛再次出現。",
+      "highlight": "bring on",
+      "targetForm": "bring something on",
+      "targetMeaningZh": "引起疾病、痛楚或其他不愉快情況"
+    },
+    {
+      "id": "phrasal-verb-238-q94",
+      "number": 94,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 47,
+      "prompt": "Could you take the extra chairs to my flat?",
+      "promptZh": "你可以把額外的椅子帶到我的單位嗎?",
+      "starter": "Could",
+      "answer": "Could you bring the extra chairs round to my flat?",
+      "answerZh": "你可以把額外的椅子帶到我的單位嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something round / around / over",
+      "targetMeaningZh": "把某人或某物帶到別人的家或所在之處"
+    },
+    {
+      "id": "phrasal-verb-238-q95",
+      "number": 95,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "He raised his sons to be kind and honest.",
+      "promptZh": "他教導兒子要善良和誠實。",
+      "starter": "He",
+      "answer": "He brought his sons up to be kind and honest.",
+      "answerZh": "他教導兒子要善良和誠實。",
+      "highlight": "brought",
+      "targetForm": "bring somebody up",
+      "targetMeaningZh": "養育和教導孩子,直至他們長大"
+    },
+    {
+      "id": "phrasal-verb-238-q96",
+      "number": 96,
+      "band": 4,
+      "sourcePage": 23,
+      "answerSourcePage": 48,
+      "prompt": "Working alone for weeks was beginning to make her unhappy.",
+      "promptZh": "獨自工作數星期開始令她感到不開心。",
+      "starter": "Working",
+      "answer": "Working alone for weeks was beginning to bring her down.",
+      "answerZh": "獨自工作數星期開始令她情緒低落。",
+      "highlight": "bring",
+      "targetForm": "bring somebody down",
+      "targetMeaningZh": "令某人情緒低落或不開心"
+    },
+    {
+      "id": "phrasal-verb-238-q97",
+      "number": 97,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 48,
+      "prompt": "She raised the cup to her lips.",
+      "promptZh": "她把杯子舉到嘴邊。",
+      "starter": "She",
+      "answer": "She brought the cup up to her lips.",
+      "answerZh": "她把杯子舉到嘴邊。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something up (to something)",
+      "targetMeaningZh": "把某人或某物移到較高位置"
+    },
+    {
+      "id": "phrasal-verb-238-q98",
+      "number": 98,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 48,
+      "prompt": "The driver can take us back to the hotel after dinner.",
+      "promptZh": "晚膳後,司機可以送我們返回酒店。",
+      "starter": "The",
+      "answer": "The driver can bring us back to the hotel after dinner.",
+      "answerZh": "晚膳後,司機可以送我們返回酒店。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something back (to something)",
+      "targetMeaningZh": "把某人或某物送回、帶回或歸還"
+    },
+    {
+      "id": "phrasal-verb-238-q99",
+      "number": 99,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 48,
+      "prompt": "Anyone joining the walk may take a friend with them.",
+      "promptZh": "任何參加步行活動的人都可以帶一位朋友同行。",
+      "starter": "Anyone",
+      "answer": "Anyone joining the walk may bring a friend along.",
+      "answerZh": "任何參加步行活動的人都可以帶一位朋友同行。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something along",
+      "targetMeaningZh": "帶某人或某物一起前往"
+    },
+    {
+      "id": "phrasal-verb-238-q100",
+      "number": 100,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 48,
+      "prompt": "How much does the small café earn during summer?",
+      "promptZh": "這間小咖啡店在夏季賺取多少收入?",
+      "starter": "How",
+      "answer": "How much does the small café bring in during summer?",
+      "answerZh": "這間小咖啡店在夏季帶來多少收入?",
+      "highlight": "bring in",
+      "targetForm": "bring in something / bring somebody in something",
+      "targetMeaningZh": "賺取或帶來某筆收入"
+    },
+    {
+      "id": "phrasal-verb-238-q101",
+      "number": 101,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "The club has improved its kitchen so that it meets modern safety standards.",
+      "promptZh": "球會已改善廚房,使它符合現代安全標準。",
+      "starter": "The",
+      "answer": "The club has brought its kitchen up to modern safety standards.",
+      "answerZh": "球會已把廚房提升至現代安全標準。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something up to something",
+      "targetMeaningZh": "令某人或某物達到所需水平或標準"
+    },
+    {
+      "id": "phrasal-verb-238-q102",
+      "number": 102,
+      "band": 4,
+      "sourcePage": 24,
+      "answerSourcePage": 49,
+      "prompt": "Bad weather may force us to move the match to an earlier date.",
+      "promptZh": "惡劣天氣可能迫使我們把比賽提前。",
+      "starter": "Bad",
+      "answer": "Bad weather may force us to bring the match forward.",
+      "answerZh": "惡劣天氣可能迫使我們把比賽提前。",
+      "highlight": "bring",
+      "targetForm": "bring something forward",
+      "targetMeaningZh": "把日期或時間提前"
+    },
+    {
+      "id": "phrasal-verb-238-q103",
+      "number": 103,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 49,
+      "prompt": "Could you help persuade the committee before Friday?",
+      "promptZh": "你可以在星期五前協助說服委員會嗎?",
+      "starter": "Could",
+      "answer": "Could you help bring the committee around before Friday?",
+      "answerZh": "你可以在星期五前協助說服委員會嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody round / bring somebody around (to something)",
+      "targetMeaningZh": "說服某人同意某事或接受某個看法"
+    },
+    {
+      "id": "phrasal-verb-238-q104",
+      "number": 104,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 49,
+      "prompt": "Could someone take the boxes into the hall?",
+      "promptZh": "有人可以把箱子搬進禮堂嗎?",
+      "starter": "Could",
+      "answer": "Could someone bring the boxes into the hall?",
+      "answerZh": "有人可以把箱子搬進禮堂嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something in / bring somebody/something into something",
+      "targetMeaningZh": "把某人或某物帶進室內或指定地方"
+    },
+    {
+      "id": "phrasal-verb-238-q105",
+      "number": 105,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 49,
+      "prompt": "Should this complaint be presented to the head teacher for a decision?",
+      "promptZh": "這宗投訴是否應該交由校長處理?",
+      "starter": "Should",
+      "answer": "Should this complaint be brought before the head teacher?",
+      "answerZh": "這宗投訴是否應該交由校長處理?",
+      "highlight": "brought before",
+      "targetForm": "bring somebody/something before somebody/something",
+      "targetMeaningZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定"
+    },
+    {
+      "id": "phrasal-verb-238-q106",
+      "number": 106,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 49,
+      "prompt": "The teacher took the old map out for the class to see.",
+      "promptZh": "老師取出舊地圖給全班觀看。",
+      "starter": "The",
+      "answer": "The teacher brought the old map out for the class to see.",
+      "answerZh": "老師取出舊地圖給全班觀看。",
+      "highlight": "brought",
+      "targetForm": "bring something out (of something)",
+      "targetMeaningZh": "把某物從袋、盒、口袋等地方取出"
+    },
+    {
+      "id": "phrasal-verb-238-q107",
+      "number": 107,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Can the council reduce the noise level at night?",
+      "promptZh": "市議會可以降低夜間的噪音水平嗎?",
+      "starter": "Can",
+      "answer": "Can the council bring the noise level down at night?",
+      "answerZh": "市議會可以降低夜間的噪音水平嗎?",
+      "highlight": "bring",
+      "targetForm": "bring something down",
+      "targetMeaningZh": "降低價格、數量、水平或比率"
+    },
+    {
+      "id": "phrasal-verb-238-q108",
+      "number": 108,
+      "band": 4,
+      "sourcePage": 25,
+      "answerSourcePage": 50,
+      "prompt": "Do we really need to involve the police?",
+      "promptZh": "我們真的需要請警方介入嗎?",
+      "starter": "Do",
+      "answer": "Do we really need to bring the police in?",
+      "answerZh": "我們真的需要請警方介入嗎?",
+      "highlight": "bring",
+      "targetForm": "bring somebody in",
+      "targetMeaningZh": "請某人參與、協助或提供專業意見"
+    },
+    {
+      "id": "phrasal-verb-238-q109",
+      "number": 109,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 50,
+      "prompt": "Better communication can cause real change.",
+      "promptZh": "更好的溝通可以帶來真正的改變。",
+      "starter": "Better",
+      "answer": "Better communication can bring about real change.",
+      "answerZh": "更好的溝通可以帶來真正的改變。",
+      "highlight": "bring about",
+      "targetForm": "bring something about",
+      "targetMeaningZh": "造成或促成某件事情發生"
+    },
+    {
+      "id": "phrasal-verb-238-q110",
+      "number": 110,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 50,
+      "prompt": "The new rule may cause strong complaints from parents.",
+      "promptZh": "新規則可能會引起家長的強烈投訴。",
+      "starter": "The",
+      "answer": "The new rule may bring forth strong complaints from parents.",
+      "answerZh": "新規則可能會引起家長的強烈投訴。",
+      "highlight": "bring forth",
+      "targetForm": "bring somebody/something forth",
+      "targetMeaningZh": "產生、帶來或生下;多見於正式或舊式英語"
+    },
+    {
+      "id": "phrasal-verb-238-q111",
+      "number": 111,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 50,
+      "prompt": "Has the doctor managed to make him conscious again yet?",
+      "promptZh": "醫生是否已成功令他恢復知覺?",
+      "starter": "Has",
+      "answer": "Has the doctor managed to bring him round yet?",
+      "answerZh": "醫生是否已成功令他恢復知覺?",
+      "highlight": "bring",
+      "targetForm": "bring somebody round / bring somebody around / bring somebody to",
+      "targetMeaningZh": "令昏迷的人恢復知覺、醒過來"
+    },
+    {
+      "id": "phrasal-verb-238-q112",
+      "number": 112,
+      "band": 4,
+      "sourcePage": 26,
+      "answerSourcePage": 50,
+      "prompt": "Do not cause more trouble for your family.",
+      "promptZh": "不要令家人招致更多麻煩。",
+      "starter": "Do",
+      "answer": "Do not bring more trouble down on your family.",
+      "answerZh": "不要令家人招致更多麻煩。",
+      "highlight": "bring",
+      "targetForm": "bring something down on/upon somebody / bring something on/upon",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-238-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 51,
+      "prompt": "We were talking about the school show, but the coach somehow directed the conversation to Saturday's match.",
+      "promptZh": "我們原本在談論學校表演,但教練不知怎樣把話題轉到星期六的比賽。",
+      "starter": "We",
+      "answer": "We were talking about the school show, but the coach somehow brought the conversation round to Saturday's match.",
+      "answerZh": "我們原本在談論學校表演,但教練不知怎樣把話題轉到星期六的比賽。",
+      "highlight": "brought",
+      "targetForm": "bring something round/around to something",
+      "targetMeaningZh": "把談話或討論轉到某個話題"
+    },
+    {
+      "id": "phrasal-verb-238-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "At first she answered in one-word replies, but the relaxed conversation soon helped her speak more openly.",
+      "promptZh": "起初她只以一兩個字回答,但輕鬆的對話很快令她更願意說話。",
+      "starter": "At",
+      "answer": "At first she answered in one-word replies, but the relaxed conversation soon brought her out.",
+      "answerZh": "起初她只以一兩個字回答,但輕鬆的對話很快令她更願意說話。",
+      "highlight": "brought",
+      "targetForm": "bring somebody out",
+      "targetMeaningZh": "令害羞或緊張的人變得較有自信、較願意說話"
+    },
+    {
+      "id": "phrasal-verb-238-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "The town had discussed the problem for years, but the new mayor's plan finally produced a solution.",
+      "promptZh": "小鎮多年來一直討論這個問題,但新任市長的計劃最終促成了解決方法。",
+      "starter": "The",
+      "answer": "The town had discussed the problem for years, but the new mayor's plan finally brought about a solution.",
+      "answerZh": "小鎮多年來一直討論這個問題,但新任市長的計劃最終促成了解決方法。",
+      "highlight": "brought about",
+      "targetForm": "bring something about",
+      "targetMeaningZh": "造成或促成某件事情發生"
+    },
+    {
+      "id": "phrasal-verb-238-q116",
+      "number": 116,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "Because the hall was needed on Friday, the organisers moved the concert to Thursday evening.",
+      "promptZh": "由於星期五需要使用禮堂,主辦單位把音樂會提前至星期四晚上。",
+      "starter": "Because",
+      "answer": "Because the hall was needed on Friday, the organisers brought the concert forward to Thursday evening.",
+      "answerZh": "由於星期五需要使用禮堂,主辦單位把音樂會提前至星期四晚上。",
+      "highlight": "brought",
+      "targetForm": "bring something forward",
+      "targetMeaningZh": "把日期或時間提前"
+    },
+    {
+      "id": "phrasal-verb-238-q117",
+      "number": 117,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 51,
+      "prompt": "When you come to the workshop, take the notebook we used last week with you.",
+      "promptZh": "你來參加工作坊時,請帶同我們上星期使用的筆記簿。",
+      "starter": "When",
+      "answer": "When you come to the workshop, bring along the notebook we used last week.",
+      "answerZh": "你來參加工作坊時,請帶同我們上星期使用的筆記簿。",
+      "highlight": "bring along",
+      "targetForm": "bring somebody/something along",
+      "targetMeaningZh": "帶某人或某物一起前往"
+    },
+    {
+      "id": "phrasal-verb-238-q118",
+      "number": 118,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "If the shoes are too small, return them to the shop with the receipt.",
+      "promptZh": "如果鞋子太小,請連同收據把它們退回店舖。",
+      "starter": "If",
+      "answer": "If the shoes are too small, bring them back to the shop with the receipt.",
+      "answerZh": "如果鞋子太小,請連同收據把它們帶回店舖。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something back (to something)",
+      "targetMeaningZh": "把某人或某物送回、帶回或歸還"
+    },
+    {
+      "id": "phrasal-verb-238-q119",
+      "number": 119,
+      "band": 5,
+      "sourcePage": 27,
+      "answerSourcePage": 52,
+      "prompt": "Although their parents worked abroad, an aunt raised the two children in a loving home.",
+      "promptZh": "雖然父母在外地工作,但兩名孩子由姨母在充滿關愛的家庭中養育成人。",
+      "starter": "Although",
+      "answer": "Although their parents worked abroad, an aunt brought the two children up in a loving home.",
+      "answerZh": "雖然父母在外地工作,但兩名孩子由姨母在充滿關愛的家庭中養育成人。",
+      "highlight": "brought",
+      "targetForm": "bring somebody up",
+      "targetMeaningZh": "養育和教導孩子,直至他們長大"
+    },
+    {
+      "id": "phrasal-verb-238-q120",
+      "number": 120,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "After several accidents near the gate, the school introduced a rule that younger pupils must wait inside.",
+      "promptZh": "校門附近發生數宗意外後,學校引入規則,要求年幼學生在室內等候。",
+      "starter": "After",
+      "answer": "After several accidents near the gate, the school brought in a rule that younger pupils must wait inside.",
+      "answerZh": "校門附近發生數宗意外後,學校引入規則,要求年幼學生在室內等候。",
+      "highlight": "brought in",
+      "targetForm": "bring something in",
+      "targetMeaningZh": "引入新的法律、規則或管制措施"
+    },
+    {
+      "id": "phrasal-verb-238-q121",
+      "number": 121,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "After several months of careful spending, the family managed to reduce its monthly costs.",
+      "promptZh": "經過數月謹慎消費後,這個家庭成功降低每月開支。",
+      "starter": "After",
+      "answer": "After several months of careful spending, the family managed to bring its monthly costs down.",
+      "answerZh": "經過數月謹慎消費後,這個家庭成功降低每月開支。",
+      "highlight": "bring",
+      "targetForm": "bring something down",
+      "targetMeaningZh": "降低價格、數量、水平或比率"
+    },
+    {
+      "id": "phrasal-verb-238-q122",
+      "number": 122,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "Whatever is in that drink has caused spots all over my skin.",
+      "promptZh": "那杯飲品中的某種成分令我全身皮膚出現斑點。",
+      "starter": "Whatever",
+      "answer": "Whatever is in that drink has brought me out in spots.",
+      "answerZh": "那杯飲品中的某種成分令我全身皮膚出現斑點。",
+      "highlight": "brought me out in",
+      "targetForm": "bring somebody out in something",
+      "targetMeaningZh": "令某人的皮膚出現紅疹、斑點或汗水"
+    },
+    {
+      "id": "phrasal-verb-238-q123",
+      "number": 123,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 52,
+      "prompt": "After the class representatives collected the students' views, they presented the matter to the principal.",
+      "promptZh": "班代表收集學生的意見後,把事情提交校長處理。",
+      "starter": "After",
+      "answer": "After the class representatives collected the students' views, they brought the matter before the principal.",
+      "answerZh": "班代表收集學生的意見後,把事情提交校長處理。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something before somebody/something",
+      "targetMeaningZh": "把某人或某事交由法庭、委員會或負責人審理、討論或決定"
+    },
+    {
+      "id": "phrasal-verb-238-q124",
+      "number": 124,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "The book collects stories from ten young writers in one volume.",
+      "promptZh": "這本書把十位年輕作家的故事收錄在同一冊內。",
+      "starter": "The",
+      "answer": "The book brings together stories from ten young writers in one volume.",
+      "answerZh": "這本書把十位年輕作家的故事收錄在同一冊內。",
+      "highlight": "brings together",
+      "targetForm": "bring A and B together / bring somebody/something together",
+      "targetMeaningZh": "使人和好、團結、相識或聚在一起;把人或物集合起來"
+    },
+    {
+      "id": "phrasal-verb-238-q125",
+      "number": 125,
+      "band": 5,
+      "sourcePage": 28,
+      "answerSourcePage": 53,
+      "prompt": "Before the storm started, the neighbours took all the garden chairs inside.",
+      "promptZh": "暴風雨開始前,鄰居把所有花園椅子搬進室內。",
+      "starter": "Before",
+      "answer": "Before the storm started, the neighbours brought all the garden chairs in.",
+      "answerZh": "暴風雨開始前,鄰居把所有花園椅子搬進室內。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something in / bring somebody/something into something",
+      "targetMeaningZh": "把某人或某物帶進室內或指定地方"
+    },
+    {
+      "id": "phrasal-verb-238-q126",
+      "number": 126,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "After a few minutes, the first-aid worker made the runner conscious again, and she opened her eyes.",
+      "promptZh": "幾分鐘後,急救員令跑手恢復知覺,而她亦睜開了眼睛。",
+      "starter": "After",
+      "answer": "After a few minutes, the first-aid worker brought the runner around, and she opened her eyes.",
+      "answerZh": "幾分鐘後,急救員令跑手恢復知覺,而她亦睜開了眼睛。",
+      "highlight": "brought",
+      "targetForm": "bring somebody round / bring somebody around / bring somebody to",
+      "targetMeaningZh": "令昏迷的人恢復知覺、醒過來"
+    },
+    {
+      "id": "phrasal-verb-238-q127",
+      "number": 127,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "She had felt well all morning, but the long, hot walk caused another bad headache.",
+      "promptZh": "她整個早上都感覺良好,但漫長而炎熱的步行再次引起嚴重頭痛。",
+      "starter": "She",
+      "answer": "She had felt well all morning, but the long, hot walk brought on another bad headache.",
+      "answerZh": "她整個早上都感覺良好,但漫長而炎熱的步行再次引起嚴重頭痛。",
+      "highlight": "brought on",
+      "targetForm": "bring something on",
+      "targetMeaningZh": "引起疾病、痛楚或其他不愉快情況"
+    },
+    {
+      "id": "phrasal-verb-238-q128",
+      "number": 128,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 53,
+      "prompt": "When the lift stopped working, the staff carried the heavy equipment downstairs.",
+      "promptZh": "升降機停止運作時,職員把沉重的設備搬到樓下。",
+      "starter": "When",
+      "answer": "When the lift stopped working, the staff brought the heavy equipment down by the stairs.",
+      "answerZh": "升降機停止運作時,職員沿樓梯把沉重的設備搬到樓下。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something down",
+      "targetMeaningZh": "把某人或某物從較高位置移到較低位置"
+    },
+    {
+      "id": "phrasal-verb-238-q129",
+      "number": 129,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "At first the coach opposed the change, but the players eventually persuaded her to agree with them.",
+      "promptZh": "教練起初反對這項改動,但球員最終說服她同意他們的看法。",
+      "starter": "At",
+      "answer": "At first the coach opposed the change, but the players eventually brought her round to their way of thinking.",
+      "answerZh": "教練起初反對這項改動,但球員最終說服她同意他們的看法。",
+      "highlight": "brought",
+      "targetForm": "bring somebody round / bring somebody around (to something)",
+      "targetMeaningZh": "說服某人同意某事或接受某個看法"
+    },
+    {
+      "id": "phrasal-verb-238-q130",
+      "number": 130,
+      "band": 5,
+      "sourcePage": 29,
+      "answerSourcePage": 54,
+      "prompt": "When the child began to cry, his father took a toy out of the backpack and handed it to him.",
+      "promptZh": "孩子開始哭泣時,父親從背囊取出一件玩具交給他。",
+      "starter": "When",
+      "answer": "When the child began to cry, his father brought a toy out of the backpack and handed it to him.",
+      "answerZh": "孩子開始哭泣時,父親從背囊取出一件玩具交給他。",
+      "highlight": "brought",
+      "targetForm": "bring something out (of something)",
+      "targetMeaningZh": "把某物從袋、盒、口袋等地方取出"
+    },
+    {
+      "id": "phrasal-verb-238-q131",
+      "number": 131,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "He tried to stay cheerful, but spending his birthday away from home made him deeply unhappy.",
+      "promptZh": "他嘗試保持開朗,但在外地獨自過生日令他十分低落。",
+      "starter": "He",
+      "answer": "He tried to stay cheerful, but spending his birthday away from home brought him right down.",
+      "answerZh": "他嘗試保持開朗,但在外地獨自過生日令他十分低落。",
+      "highlight": "brought",
+      "targetForm": "bring somebody down",
+      "targetMeaningZh": "令某人情緒低落或不開心"
+    },
+    {
+      "id": "phrasal-verb-238-q132",
+      "number": 132,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "Because the lift was broken, two staff members carried the food to the top floor.",
+      "promptZh": "由於升降機壞了,兩名職員把食物送到頂層。",
+      "starter": "Because",
+      "answer": "Because the lift was broken, two staff members brought the food up to the top floor.",
+      "answerZh": "由於升降機壞了,兩名職員把食物送到頂層。",
+      "highlight": "brought",
+      "targetForm": "bring somebody/something up (to something)",
+      "targetMeaningZh": "把某人或某物移到較高位置"
+    },
+    {
+      "id": "phrasal-verb-238-q133",
+      "number": 133,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "When the exchange student arrives, take him to our place so that everyone can meet him.",
+      "promptZh": "交換生到埗後,帶他來我們這裏,讓大家認識他。",
+      "starter": "When",
+      "answer": "When the exchange student arrives, bring him over so that everyone can meet him.",
+      "answerZh": "交換生到埗後,帶他來我們這裏,讓大家認識他。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something round / around / over",
+      "targetMeaningZh": "把某人或某物帶到別人的家或所在之處"
+    },
+    {
+      "id": "phrasal-verb-238-q134",
+      "number": 134,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 54,
+      "prompt": "Before the centre could reopen, the owners had to improve every room until it met the required standard.",
+      "promptZh": "中心重開前,業主必須改善每個房間,使它們達到所需標準。",
+      "starter": "Before",
+      "answer": "Before the centre could reopen, the owners had to bring every room up to the required standard.",
+      "answerZh": "中心重開前,業主必須把每個房間提升至所需標準。",
+      "highlight": "bring",
+      "targetForm": "bring somebody/something up to something",
+      "targetMeaningZh": "令某人或某物達到所需水平或標準"
+    },
+    {
+      "id": "phrasal-verb-238-q135",
+      "number": 135,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "He was talented but inexperienced, so the senior players helped him improve throughout the season.",
+      "promptZh": "他有天分但欠缺經驗,所以資深球員在整個球季中協助他進步。",
+      "starter": "He",
+      "answer": "He was talented but inexperienced, so the senior players helped bring him on throughout the season.",
+      "answerZh": "他有天分但欠缺經驗,所以資深球員在整個球季中協助他進步。",
+      "highlight": "bring",
+      "targetForm": "bring somebody on",
+      "targetMeaningZh": "幫助某人在學習或訓練期間進步、成長"
+    },
+    {
+      "id": "phrasal-verb-238-q136",
+      "number": 136,
+      "band": 5,
+      "sourcePage": 30,
+      "answerSourcePage": 55,
+      "prompt": "His decision to ignore every warning caused trouble for him.",
+      "promptZh": "他決定無視所有警告,令自己惹上麻煩。",
+      "starter": "His",
+      "answer": "His decision to ignore every warning brought trouble upon himself.",
+      "answerZh": "他決定無視所有警告,令自己惹上麻煩。",
+      "highlight": "brought",
+      "targetForm": "bring something down on/upon somebody / bring something on/upon",
+      "targetMeaningZh": "使用指定片語動詞保留原句意思"
+    },
+    {
+      "id": "phrasal-verb-238-q137",
+      "number": 137,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "The plan looked impossible at first, yet the small group completed it successfully without extra money or help.",
+      "promptZh": "計劃起初看來不可能完成,但這個小組在沒有額外金錢或協助下成功做到了。",
+      "starter": "The",
+      "answer": "The plan looked impossible at first, yet the small group brought it off without extra money or help.",
+      "answerZh": "計劃起初看來不可能完成,但這個小組在沒有額外金錢或協助下成功做到了。",
+      "highlight": "brought",
+      "targetForm": "bring something off",
+      "targetMeaningZh": "成功完成困難的事情"
+    },
+    {
+      "id": "phrasal-verb-238-q138",
+      "number": 138,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "When the team could not fix the computer system, the manager asked someone with more experience to help.",
+      "promptZh": "團隊無法修理電腦系統時,經理請了一位經驗較豐富的人來協助。",
+      "starter": "When",
+      "answer": "When the team could not fix the computer system, the manager brought in someone with more experience.",
+      "answerZh": "團隊無法修理電腦系統時,經理請了一位經驗較豐富的人來協助。",
+      "highlight": "brought in",
+      "targetForm": "bring somebody in",
+      "targetMeaningZh": "請某人參與、協助或提供專業意見"
+    },
+    {
+      "id": "phrasal-verb-238-q139",
+      "number": 139,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 55,
+      "prompt": "Although the shop is tiny, it has earned the family more money than expected this year.",
+      "promptZh": "這間店舖雖然很小,但今年為這個家庭賺取的收入比預期多。",
+      "starter": "Although",
+      "answer": "Although the shop is tiny, it has brought the family in more money than expected this year.",
+      "answerZh": "這間店舖雖然很小,但今年為這個家庭帶來的收入比預期多。",
+      "highlight": "brought",
+      "targetForm": "bring in something / bring somebody in something",
+      "targetMeaningZh": "賺取或帶來某筆收入"
+    },
+    {
+      "id": "phrasal-verb-238-q140",
+      "number": 140,
+      "band": 5,
+      "sourcePage": 31,
+      "answerSourcePage": 56,
+      "prompt": "Although the speech was short, it produced a warm response from the audience.",
+      "promptZh": "演說雖然簡短,卻引起觀眾熱烈的反應。",
+      "starter": "Although",
+      "answer": "Although the speech was short, it brought forth a warm response from the audience.",
+      "answerZh": "演說雖然簡短,卻引起觀眾熱烈的反應。",
+      "highlight": "brought forth",
+      "targetForm": "bring somebody/something forth",
+      "targetMeaningZh": "產生、帶來或生下;多見於正式或舊式英語"
+    }
+  ]
+}

@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-281",
+  "order": 281,
+  "slug": "strip",
+  "version": "1",
+  "title": "STRIP 動詞片語",
+  "titleEn": "Strip",
+  "titleZh": "STRIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 266 - STRIP.pdf",
+    "sourceNumber": 266,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STRIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STRIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STRIP",
+      "highlight": "STRIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We stripped away the old paint to reveal the wood.",
+      "zh": "我們移除舊油漆,露出下面的木材。",
+      "highlight": "stripped away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The mechanic stripped down the engine.",
+      "zh": "技工把引擎拆開檢查。",
+      "highlight": "stripped down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He stripped down to his shorts.",
+      "zh": "他脫去衣服,只剩下短褲。",
+      "highlight": "stripped down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分；把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理；脫去衣服,直至只剩某件或某類衣物；奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分；脫去衣服,或脫掉某件衣物；拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+    "en": "strip something away / strip something off or from something; strip something down; strip down to something; strip somebody/something of something; strip off / strip something off; strip something out",
+    "naturalZh": [
+      "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+      "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+      "脫去衣服,直至只剩某件或某類衣物",
+      "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+      "脫去衣服,或脫掉某件衣物",
+      "拆除建築物、車輛或其他物件內部的設備、部件或原有特色"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "strip something away / strip something off or from something",
+      "titleZh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+      "titleEn": "strip something away / strip something off or from something",
+      "descriptionZh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+      "descriptionEn": "We stripped away the old paint to reveal the wood.",
+      "examples": [
+        {
+          "en": "We stripped away the old paint to reveal the wood.",
+          "zh": "我們移除舊油漆,露出下面的木材。",
+          "highlight": "stripped away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strip something down",
+      "titleZh": "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+      "titleEn": "strip something down",
+      "descriptionZh": "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+      "descriptionEn": "The mechanic stripped down the engine.",
+      "examples": [
+        {
+          "en": "The mechanic stripped down the engine.",
+          "zh": "技工把引擎拆開檢查。",
+          "highlight": "stripped down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strip down to something",
+      "titleZh": "脫去衣服,直至只剩某件或某類衣物",
+      "titleEn": "strip down to something",
+      "descriptionZh": "脫去衣服,直至只剩某件或某類衣物",
+      "descriptionEn": "He stripped down to his shorts.",
+      "examples": [
+        {
+          "en": "He stripped down to his shorts.",
+          "zh": "他脫去衣服,只剩下短褲。",
+          "highlight": "stripped down to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "strip somebody/something of something",
+      "titleZh": "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+      "titleEn": "strip somebody/something of something",
+      "descriptionZh": "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+      "descriptionEn": "The boxer was stripped of his title.",
+      "examples": [
+        {
+          "en": "The boxer was stripped of his title.",
+          "zh": "那名拳擊手被褫奪頭銜。",
+          "highlight": "stripped"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strip off / strip something off",
+      "titleZh": "脫去衣服,或脫掉某件衣物",
+      "titleEn": "strip off / strip something off",
+      "descriptionZh": "脫去衣服,或脫掉某件衣物",
+      "descriptionEn": "She stripped off and jumped into the water.",
+      "examples": [
+        {
+          "en": "She stripped off and jumped into the water.",
+          "zh": "她脫去衣服,跳進水中。",
+          "highlight": "stripped off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "strip something out",
+      "titleZh": "拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+      "titleEn": "strip something out",
+      "descriptionZh": "拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+      "descriptionEn": "They stripped out the old kitchen.",
+      "examples": [
+        {
+          "en": "They stripped out the old kitchen.",
+          "zh": "他們拆除了舊廚房內的設備。",
+          "highlight": "stripped out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STRIP 片語動詞的實際用途",
+    "labelEn": "STRIP Phrasal Verbs in Use",
+    "summaryZh": "你可以用 strip away、strip off 和 strip from 談論移除油漆、牆紙、貼紙和其他覆蓋物。；strip down 可以描述拆開機器;strip out 則可以描述拆除房間、車輛或建築物內的設備。；strip off 表示脫去衣服;strip down to something 則能說明最後剩下甚麼衣物。；strip somebody or something of something 可以表示某人的重要職位、獎項、權利或財物被奪去。",
+    "summaryEn": "You can use strip away, strip off and strip from when talking about paint, wallpaper, stickers and other coverings. Strip down describes taking a machine apart, while strip out describes removing things from inside a room, vehicle or building. Strip off describes taking clothes off. Strip down to something tells the listener what clothing remains. Strip somebody or something of something can express that an important position, award, right or possession has been taken away.",
+    "contextsZh": [
+      "清楚描述移除表面物料",
+      "談論機器維修和建築物改動",
+      "更準確地描述脫去衣服",
+      "描述失去頭銜、獎項或貴重物品"
+    ],
+    "contextsEn": [
+      "Describe removing surfaces clearly",
+      "Talk about repairs and changes to machines or buildings",
+      "Describe removing clothes more precisely",
+      "Describe the loss of titles, prizes or valuable possessions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STRIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STRIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "strip something away / strip something off or from something",
+    "fixedHighlight": "strip something away / strip something off or from something",
+    "fixedZh": "閱讀整句,選出意思相同的 STRIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STRIP expression that gives the same meaning.",
+    "correct": "stripped away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；strip off 通常與脫衣服有關;strip something off 或 from a surface 則表示移除油漆、牆紙或其他覆蓋物。；strip something down 表示把機器或物件拆開;strip down to something 則表示脫去衣服,直至只剩所述衣物。",
+    "variableEn": "Keep the same people, things, time and meaning. Strip off usually concerns clothes. Strip something off or from a surface concerns paint, paper or another covering. Strip something down means taking a machine or object apart. Strip down to something means removing clothes until only the stated clothing remains.",
+    "variableItemsZh": [
+      "strip something away / strip something off or from something",
+      "strip something down",
+      "strip down to something",
+      "strip somebody/something of something",
+      "strip off / strip something off",
+      "strip something out"
+    ],
+    "variableItemsEn": [
+      "strip something away / strip something off or from something",
+      "strip something down",
+      "strip down to something",
+      "strip somebody/something of something",
+      "strip off / strip something off",
+      "strip something out"
+    ],
+    "forms": [
+      {
+        "formZh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+        "formEn": "strip something away / strip something off or from something",
+        "exampleZh": "我們移除舊油漆,露出下面的木材。",
+        "exampleEn": "We stripped away the old paint to reveal the wood.",
+        "highlight": "stripped away"
+      },
+      {
+        "formZh": "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+        "formEn": "strip something down",
+        "exampleZh": "技工把引擎拆開檢查。",
+        "exampleEn": "The mechanic stripped down the engine.",
+        "highlight": "stripped down"
+      },
+      {
+        "formZh": "脫去衣服,直至只剩某件或某類衣物",
+        "formEn": "strip down to something",
+        "exampleZh": "他脫去衣服,只剩下短褲。",
+        "exampleEn": "He stripped down to his shorts.",
+        "highlight": "stripped down to"
+      },
+      {
+        "formZh": "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+        "formEn": "strip somebody/something of something",
+        "exampleZh": "那名拳擊手被褫奪頭銜。",
+        "exampleEn": "The boxer was stripped of his title.",
+        "highlight": "stripped"
+      },
+      {
+        "formZh": "脫去衣服,或脫掉某件衣物",
+        "formEn": "strip off / strip something off",
+        "exampleZh": "她脫去衣服,跳進水中。",
+        "exampleEn": "She stripped off and jumped into the water.",
+        "highlight": "stripped off"
+      },
+      {
+        "formZh": "拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+        "formEn": "strip something out",
+        "exampleZh": "他們拆除了舊廚房內的設備。",
+        "exampleEn": "They stripped out the old kitchen.",
+        "highlight": "stripped out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+      "titleEn": "strip something away / strip something off or from something",
+      "formula": "strip something away / strip something off or from something",
+      "highlight": "strip something away / strip something off or from something",
+      "descriptionZh": "移除表面的一層物料或覆蓋物;strip away 常強調露出下面的部分",
+      "descriptionEn": "We stripped away the old paint to reveal the wood.",
+      "examples": [
+        {
+          "en": "We stripped away the old paint to reveal the wood.",
+          "zh": "我們移除舊油漆,露出下面的木材。",
+          "highlight": "stripped away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+      "titleEn": "strip something down",
+      "formula": "strip something down",
+      "highlight": "strip something down",
+      "descriptionZh": "把機器、車輛或物件拆開至主要零件,以便檢查、清潔或修理",
+      "descriptionEn": "The mechanic stripped down the engine.",
+      "examples": [
+        {
+          "en": "The mechanic stripped down the engine.",
+          "zh": "技工把引擎拆開檢查。",
+          "highlight": "stripped down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "脫去衣服,直至只剩某件或某類衣物",
+      "titleEn": "strip down to something",
+      "formula": "strip down to something",
+      "highlight": "strip down to something",
+      "descriptionZh": "脫去衣服,直至只剩某件或某類衣物",
+      "descriptionEn": "He stripped down to his shorts.",
+      "examples": [
+        {
+          "en": "He stripped down to his shorts.",
+          "zh": "他脫去衣服,只剩下短褲。",
+          "highlight": "stripped down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+      "titleEn": "strip somebody/something of something",
+      "formula": "strip somebody/something of something",
+      "highlight": "strip somebody/something of something",
+      "descriptionZh": "奪去某人的頭銜、獎項、權力或財物;使某物失去重要部分",
+      "descriptionEn": "The boxer was stripped of his title.",
+      "examples": [
+        {
+          "en": "The boxer was stripped of his title.",
+          "zh": "那名拳擊手被褫奪頭銜。",
+          "highlight": "stripped"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "脫去衣服,或脫掉某件衣物",
+      "titleEn": "strip off / strip something off",
+      "formula": "strip off / strip something off",
+      "highlight": "strip off / strip something off",
+      "descriptionZh": "脫去衣服,或脫掉某件衣物",
+      "descriptionEn": "She stripped off and jumped into the water.",
+      "examples": [
+        {
+          "en": "She stripped off and jumped into the water.",
+          "zh": "她脫去衣服,跳進水中。",
+          "highlight": "stripped off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+      "titleEn": "strip something out",
+      "formula": "strip something out",
+      "highlight": "strip something out",
+      "descriptionZh": "拆除建築物、車輛或其他物件內部的設備、部件或原有特色",
+      "descriptionEn": "They stripped out the old kitchen.",
+      "examples": [
+        {
+          "en": "They stripped out the old kitchen.",
+          "zh": "他們拆除了舊廚房內的設備。",
+          "highlight": "stripped out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述移除表面物料",
+      "titleEn": "Describe removing surfaces clearly",
+      "zh": "你可以用 strip away、strip off 和 strip from 談論移除油漆、牆紙、貼紙和其他覆蓋物。",
+      "en": "You can use strip away, strip off and strip from when talking about paint, wallpaper, stickers and other coverings."
+    },
+    {
+      "titleZh": "談論機器維修和建築物改動",
+      "titleEn": "Talk about repairs and changes to machines or buildings",
+      "zh": "strip down 可以描述拆開機器;strip out 則可以描述拆除房間、車輛或建築物內的設備。",
+      "en": "Strip down describes taking a machine apart, while strip out describes removing things from inside a room, vehicle or building."
+    },
+    {
+      "titleZh": "更準確地描述脫去衣服",
+      "titleEn": "Describe removing clothes more precisely",
+      "zh": "strip off 表示脫去衣服;strip down to something 則能說明最後剩下甚麼衣物。",
+      "en": "Strip off describes taking clothes off. Strip down to something tells the listener what clothing remains."
+    },
+    {
+      "titleZh": "描述失去頭銜、獎項或貴重物品",
+      "titleEn": "Describe the loss of titles, prizes or valuable possessions",
+      "zh": "strip somebody or something of something 可以表示某人的重要職位、獎項、權利或財物被奪去。",
+      "en": "Strip somebody or something of something can express that an important position, award, right or possession has been taken away."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述移除表面物料",
+      "談論機器維修和建築物改動",
+      "更準確地描述脫去衣服",
+      "描述失去頭銜、獎項或貴重物品"
+    ],
+    "contextsEn": [
+      "Describe removing surfaces clearly",
+      "Talk about repairs and changes to machines or buildings",
+      "Describe removing clothes more precisely",
+      "Describe the loss of titles, prizes or valuable possessions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述移除表面物料",
+        "titleEn": "Describe removing surfaces clearly",
+        "zh": "你可以用 strip away、strip off 和 strip from 談論移除油漆、牆紙、貼紙和其他覆蓋物。",
+        "en": "You can use strip away, strip off and strip from when talking about paint, wallpaper, stickers and other coverings.",
+        "examples": [
+          {
+            "en": "We stripped away the old paint to reveal the wood.",
+            "zh": "我們移除舊油漆,露出下面的木材。",
+            "highlight": "stripped away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論機器維修和建築物改動",
+        "titleEn": "Talk about repairs and changes to machines or buildings",
+        "zh": "strip down 可以描述拆開機器;strip out 則可以描述拆除房間、車輛或建築物內的設備。",
+        "en": "Strip down describes taking a machine apart, while strip out describes removing things from inside a room, vehicle or building.",
+        "examples": [
+          {
+            "en": "The mechanic stripped down the engine.",
+            "zh": "技工把引擎拆開檢查。",
+            "highlight": "stripped down"
+          }
+        ]
+      },
+      {
+        "titleZh": "更準確地描述脫去衣服",
+        "titleEn": "Describe removing clothes more precisely",
+        "zh": "strip off 表示脫去衣服;strip down to something 則能說明最後剩下甚麼衣物。",
+        "en": "Strip off describes taking clothes off. Strip down to something tells the listener what clothing remains.",
+        "examples": [
+          {
+            "en": "He stripped down to his shorts.",
+            "zh": "他脫去衣服,只剩下短褲。",
+            "highlight": "stripped down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述失去頭銜、獎項或貴重物品",
+        "titleEn": "Describe the loss of titles, prizes or valuable possessions",
+        "zh": "strip somebody or something of something 可以表示某人的重要職位、獎項、權利或財物被奪去。",
+        "en": "Strip somebody or something of something can express that an important position, award, right or possession has been taken away.",
+        "examples": [
+          {
+            "en": "The boxer was stripped of his title.",
+            "zh": "那名拳擊手被褫奪頭銜。",
+            "highlight": "stripped"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STRIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STRIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STRIP 片語動詞。",
+      "en": "Read the whole sentence and choose the STRIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "strip off 通常與脫衣服有關;strip something off 或 from a surface 則表示移除油漆、牆紙或其他覆蓋物。",
+      "titleEn": "Strip off usually concerns clothes.",
+      "zh": "strip off 通常與脫衣服有關;strip something off 或 from a surface 則表示移除油漆、牆紙或其他覆蓋物。",
+      "en": "Strip off usually concerns clothes. Strip something off or from a surface concerns paint, paper or another covering."
+    },
+    {
+      "titleZh": "strip something down 表示把機器或物件拆開;strip down to something 則表示脫去衣服,直至只剩所述衣物。",
+      "titleEn": "Strip something down means taking a machine or object apart.",
+      "zh": "strip something down 表示把機器或物件拆開;strip down to something 則表示脫去衣服,直至只剩所述衣物。",
+      "en": "Strip something down means taking a machine or object apart. Strip down to something means removing clothes until only the stated clothing remains."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STRIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STRIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STRIP 動詞片語句子改寫練習",
+    "titleEn": "STRIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STRIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STRIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-281-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The boxer lost his title as a punishment for refusing to take part in the fight.",
+      "promptZh": "那名拳擊手因拒絕參賽而受到懲罰,失去了頭銜。",
+      "starter": "The",
+      "answer": "The boxer was stripped of his title as a punishment for refusing to take part in the fight.",
+      "answerZh": "那名拳擊手因拒絕參賽而受到懲罰,被褫奪頭銜。",
+      "highlight": "was stripped of",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的頭銜、獎項、權力或財物"
+    },
+    {
+      "id": "phrasal-verb-281-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Workers removed the old paint to reveal the wood underneath.",
+      "promptZh": "工人移除舊油漆,露出下面的木材。",
+      "starter": "Workers",
+      "answer": "Workers stripped away the old paint to reveal the wood underneath.",
+      "answerZh": "工人移除舊油漆,露出下面的木材。",
+      "highlight": "stripped away",
+      "targetForm": "strip something away",
+      "targetMeaningZh": "移除一層覆蓋物,露出下面的部分"
+    },
+    {
+      "id": "phrasal-verb-281-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The owners removed all the original features from inside the house.",
+      "promptZh": "業主拆除了房屋內所有原有特色。",
+      "starter": "The",
+      "answer": "The owners stripped out all the original features of the house.",
+      "answerZh": "業主拆除了房屋內所有原有特色。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Before the swim, Leo removed his clothes until only his shorts remained.",
+      "promptZh": "游泳前,Leo 脫去衣服,只剩下短褲。",
+      "starter": "Before",
+      "answer": "Before the swim, Leo stripped down to his shorts.",
+      "answerZh": "游泳前,Leo 脫去衣服,只剩下短褲。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "To replace the worn parts, the mechanics took the engine apart.",
+      "promptZh": "為了更換磨損的零件,技工把引擎拆開。",
+      "starter": "To",
+      "answer": "To replace the worn parts, the mechanics stripped down the engine.",
+      "answerZh": "為了更換磨損的零件,技工把引擎拆開。",
+      "highlight": "stripped down",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Nora removed her clothes and dived into the water.",
+      "promptZh": "Nora 脫去衣服,跳進水中。",
+      "starter": "Nora",
+      "answer": "Nora stripped off and dived into the water.",
+      "answerZh": "Nora 脫去衣服,跳進水中。",
+      "highlight": "stripped off",
+      "targetForm": "strip off",
+      "targetMeaningZh": "脫去衣服"
+    },
+    {
+      "id": "phrasal-verb-281-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Dad removed the old stickers from the cupboard door.",
+      "promptZh": "爸爸移除了櫃門上的舊貼紙。",
+      "starter": "Dad",
+      "answer": "Dad stripped the old stickers off the cupboard door.",
+      "answerZh": "爸爸移除了櫃門上的舊貼紙。",
+      "highlight": "stripped",
+      "targetForm": "strip something off something",
+      "targetMeaningZh": "從表面移除覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The organisers took the runner’s medal away after she broke the rules.",
+      "promptZh": "那名跑手違反規則後,主辦單位收回了她的獎牌。",
+      "starter": "The",
+      "answer": "The organisers stripped the runner of her medal after she broke the rules.",
+      "answerZh": "那名跑手違反規則後,主辦單位收回了她的獎牌。",
+      "highlight": "stripped",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的頭銜、獎項、權力或財物"
+    },
+    {
+      "id": "phrasal-verb-281-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We took the old bicycle apart before cleaning every piece.",
+      "promptZh": "我們先把舊單車拆開,然後清潔每個零件。",
+      "starter": "We",
+      "answer": "We stripped the old bicycle down before cleaning every piece.",
+      "answerZh": "我們先把舊單車拆開,然後清潔每個零件。",
+      "highlight": "stripped",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Inside the old bus, the workers removed all the seats and cupboards.",
+      "promptZh": "工人拆除了舊巴士內所有座椅和櫃子。",
+      "starter": "Inside",
+      "answer": "Inside the old bus, the workers stripped out all the seats and cupboards.",
+      "answerZh": "工人拆除了舊巴士內所有座椅和櫃子。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Kai quickly removed his wet jacket.",
+      "promptZh": "Kai 很快便脫掉濕外套。",
+      "starter": "Kai",
+      "answer": "Kai quickly stripped his wet jacket off.",
+      "answerZh": "Kai 很快便脫掉濕外套。",
+      "highlight": "stripped",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "For the massage, Ava removed her clothes until only her underwear remained.",
+      "promptZh": "為了接受按摩,Ava 脫去衣服,只剩下內衣。",
+      "starter": "For",
+      "answer": "For the massage, Ava stripped down to her underwear.",
+      "answerZh": "為了接受按摩,Ava 脫去衣服,只剩下內衣。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The swimmers are removing their outer clothes until only their swimsuits remain.",
+      "promptZh": "泳手正脫去外衣,直至只剩下泳衣。",
+      "starter": "The",
+      "answer": "The swimmers are stripping down to their swimsuits.",
+      "answerZh": "泳手正脫去外衣,直至只剩下泳衣。",
+      "highlight": "stripping down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "They are removing the old kitchen before the new one arrives.",
+      "promptZh": "他們正在拆除舊廚房內的設備,為新廚房作準備。",
+      "starter": "They",
+      "answer": "They are stripping out the old kitchen before the new one arrives.",
+      "answerZh": "他們正在拆除舊廚房內的設備,為新廚房作準備。",
+      "highlight": "stripping out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The workers are removing the wet wallpaper from the wall.",
+      "promptZh": "工人正從牆上移除濕牆紙。",
+      "starter": "The",
+      "answer": "The workers are stripping the wet wallpaper off the wall.",
+      "answerZh": "工人正從牆上移除濕牆紙。",
+      "highlight": "stripping",
+      "targetForm": "strip something off something",
+      "targetMeaningZh": "從表面移除覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Because the hall is warm, the children are removing their coats.",
+      "promptZh": "由於禮堂很暖,孩子們正在脫下外套。",
+      "starter": "Because",
+      "answer": "Because the hall is warm, the children are stripping off their coats.",
+      "answerZh": "由於禮堂很暖,孩子們正在脫下外套。",
+      "highlight": "stripping off",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "After repeated rule-breaking, the club has taken away the player’s role as captain.",
+      "promptZh": "那名球員多次違反規則後,球會已取消他的隊長職位。",
+      "starter": "After",
+      "answer": "After repeated rule-breaking, the club has stripped the player of his role as captain.",
+      "answerZh": "那名球員多次違反規則後,球會已取消他的隊長職位。",
+      "highlight": "stripped",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的職位、頭銜或權力"
+    },
+    {
+      "id": "phrasal-verb-281-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "At the moment, the team is taking the machine apart.",
+      "promptZh": "團隊目前正在拆開機器。",
+      "starter": "At",
+      "answer": "At the moment, the team is stripping the machine down.",
+      "answerZh": "團隊目前正在拆開機器。",
+      "highlight": "stripping",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We may need to remove all the old wiring before painting the room.",
+      "promptZh": "粉刷房間前,我們可能需要拆除所有舊電線。",
+      "starter": "We",
+      "answer": "We may need to strip out all the old wiring before painting the room.",
+      "answerZh": "粉刷房間前,我們可能需要拆除所有舊電線。",
+      "highlight": "strip out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do we need to remove our clothes until only our shorts remain?",
+      "promptZh": "我們是否需要脫去衣服,直至只剩下短褲?",
+      "starter": "Do",
+      "answer": "Do we need to strip down to our shorts?",
+      "answerZh": "我們是否需要脫去衣服,直至只剩下短褲?",
+      "highlight": "strip down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Will they take the printer apart to find the broken part?",
+      "promptZh": "他們會否拆開打印機,以找出損壞的零件?",
+      "starter": "Will",
+      "answer": "Will they strip the printer down to find the broken part?",
+      "answerZh": "他們會否拆開打印機,以找出損壞的零件?",
+      "highlight": "strip",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has the old varnish been removed from the table yet?",
+      "promptZh": "桌上的舊清漆已經移除了嗎?",
+      "starter": "Has",
+      "answer": "Has the old varnish been stripped from the table yet?",
+      "answerZh": "桌上的舊清漆已經移除了嗎?",
+      "highlight": "stripped",
+      "targetForm": "strip something from something",
+      "targetMeaningZh": "從表面移除覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Can the judges take the winner’s title away if she broke the rules?",
+      "promptZh": "如果得獎者違反規則,評判可以取消她的冠軍頭銜嗎?",
+      "starter": "Can",
+      "answer": "Can the judges strip the winner of her title if she broke the rules?",
+      "answerZh": "如果得獎者違反規則,評判可以取消她的冠軍頭銜嗎?",
+      "highlight": "strip",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的職位、頭銜或獎項"
+    },
+    {
+      "id": "phrasal-verb-281-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why did Noah remove his shirt so quickly?",
+      "promptZh": "Noah 為甚麼這麼快便脫掉上衣?",
+      "starter": "Why",
+      "answer": "Why did Noah strip his shirt off so quickly?",
+      "answerZh": "Noah 為甚麼這麼快便脫掉上衣?",
+      "highlight": "strip",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The motor was making a strange noise, so we took it apart.",
+      "promptZh": "摩打發出奇怪聲音,所以我們把它拆開。",
+      "starter": "The",
+      "answer": "The motor was making a strange noise, so we stripped it down.",
+      "answerZh": "摩打發出奇怪聲音,所以我們把它拆開。",
+      "highlight": "stripped",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Hana’s jumper was wet, so she removed it at once.",
+      "promptZh": "Hana 的冷衫濕了,所以她立即把它脫掉。",
+      "starter": "Hana’s",
+      "answer": "Hana’s jumper was wet, so she stripped it off at once.",
+      "answerZh": "Hana 的冷衫濕了,所以她立即把它脫掉。",
+      "highlight": "stripped",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The player lost the prize after the judges found that he had cheated.",
+      "promptZh": "評判發現那名選手作弊後,取消了他的獎項。",
+      "starter": "The",
+      "answer": "The player was stripped of the prize after the judges found that he had cheated.",
+      "answerZh": "評判發現那名選手作弊後,取消了他的獎項。",
+      "highlight": "was stripped of",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的頭銜、獎項、權力或財物"
+    },
+    {
+      "id": "phrasal-verb-281-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The window frame was covered in old paint. It took us all morning to remove it.",
+      "promptZh": "窗框上滿是舊油漆。我們花了整個上午才把它移除。",
+      "starter": "The",
+      "answer": "The window frame was covered in old paint. It took us all morning to strip it off.",
+      "answerZh": "窗框上滿是舊油漆。我們花了整個上午才把它移除。",
+      "highlight": "strip",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "移除表面的覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Because the room was very hot, Leo removed his shirt and trousers until only his underwear remained.",
+      "promptZh": "由於房間很熱,Leo 脫去上衣和長褲,只剩下內衣。",
+      "starter": "Because",
+      "answer": "Because the room was very hot, Leo stripped down to his underwear.",
+      "answerZh": "由於房間很熱,Leo 脫去衣服,只剩下內衣。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The old storage system is no longer needed, so the team will remove it completely.",
+      "promptZh": "舊儲物系統已不再需要,所以團隊會把它完全拆除。",
+      "starter": "The",
+      "answer": "The old storage system is no longer needed, so the team will strip it out completely.",
+      "answerZh": "舊儲物系統已不再需要,所以團隊會把它完全拆除。",
+      "highlight": "strip",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Without waiting for a towel, the swimmers removed their clothes and ran into the water.",
+      "promptZh": "泳手沒有等待毛巾,便脫去衣服跑進水中。",
+      "starter": "Without",
+      "answer": "Without waiting for a towel, the swimmers stripped off and ran into the water.",
+      "answerZh": "泳手沒有等待毛巾,便脫去衣服跑進水中。",
+      "highlight": "stripped off",
+      "targetForm": "strip off",
+      "targetMeaningZh": "脫去衣服"
+    },
+    {
+      "id": "phrasal-verb-281-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Before it was rebuilt, the old bus was completely taken apart.",
+      "promptZh": "重建前,那輛舊巴士被完全拆開。",
+      "starter": "Before",
+      "answer": "Before it was rebuilt, the old bus was completely stripped down.",
+      "answerZh": "重建前,那輛舊巴士被完全拆開。",
+      "highlight": "stripped down",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器、車輛或物件拆開"
+    },
+    {
+      "id": "phrasal-verb-281-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "All the seats were removed from the van before it became a small home.",
+      "promptZh": "那輛客貨車改建成小型住所前,所有座椅都被拆除。",
+      "starter": "All",
+      "answer": "All the seats were stripped out of the van before it became a small home.",
+      "answerZh": "那輛客貨車改建成小型住所前,所有座椅都被拆除。",
+      "highlight": "stripped out of",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Thieves took all the valuable parts from the car, leaving only its body.",
+      "promptZh": "賊人拿走了汽車所有貴重零件,只留下車身。",
+      "starter": "Thieves",
+      "answer": "Thieves stripped the car of all its valuable parts, leaving only its body.",
+      "answerZh": "賊人拿走了汽車所有貴重零件,只留下車身。",
+      "highlight": "stripped the car of",
+      "targetForm": "strip something of something",
+      "targetMeaningZh": "使某物失去重要或貴重部分"
+    },
+    {
+      "id": "phrasal-verb-281-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the top layer was removed, the original stone could be seen.",
+      "promptZh": "最上層被移除後,原有石材便露了出來。",
+      "starter": "After",
+      "answer": "After the top layer was stripped away, the original stone could be seen.",
+      "answerZh": "最上層被移除後,原有石材便露了出來。",
+      "highlight": "stripped away",
+      "targetForm": "strip something away",
+      "targetMeaningZh": "移除一層覆蓋物,露出下面的部分"
+    },
+    {
+      "id": "phrasal-verb-281-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "By the time the nurse returned, Sam had removed his clothes until only a hospital gown remained.",
+      "promptZh": "護士回來時,Sam 已脫去衣服,只剩下醫院袍。",
+      "starter": "By",
+      "answer": "By the time the nurse returned, Sam had stripped down to a hospital gown.",
+      "answerZh": "護士回來時,Sam 已脫去衣服,只剩下醫院袍。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The café kept the outside walls but removed everything inside.",
+      "promptZh": "咖啡店保留外牆,但拆除了內部所有設備。",
+      "starter": "The",
+      "answer": "The café kept the outside walls but stripped out everything inside.",
+      "answerZh": "咖啡店保留外牆,但拆除了內部所有設備。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before repainting the gate, the workers had to remove every layer of old paint.",
+      "promptZh": "重新粉刷大閘前,工人必須移除每一層舊油漆。",
+      "starter": "Before",
+      "answer": "Before repainting the gate, the workers had to strip all the old paint off.",
+      "answerZh": "重新粉刷大閘前,工人必須移除所有舊油漆。",
+      "highlight": "strip all the",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "移除表面的覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before entering the pool, the children removed their outer clothes until only their swimsuits remained.",
+      "promptZh": "進入泳池前,孩子們脫去外衣,直至只剩下泳衣。",
+      "starter": "Before",
+      "answer": "Before entering the pool, the children stripped down to their swimsuits.",
+      "answerZh": "進入泳池前,孩子們脫去外衣,直至只剩下泳衣。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The new rule took away the team’s right to choose its own captain.",
+      "promptZh": "新規則奪去了球隊自行選擇隊長的權利。",
+      "starter": "The",
+      "answer": "The new rule stripped the team of the right to choose its own captain.",
+      "answerZh": "新規則奪去了球隊自行選擇隊長的權利。",
+      "highlight": "stripped",
+      "targetForm": "strip somebody/something of something",
+      "targetMeaningZh": "奪去某人或某組織的權利或權力"
+    },
+    {
+      "id": "phrasal-verb-281-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Ava came home in wet clothes and quickly removed them.",
+      "promptZh": "Ava 穿着濕衣服回家,並很快把它們脫掉。",
+      "starter": "Ava",
+      "answer": "Ava came home in wet clothes and quickly stripped them off.",
+      "answerZh": "Ava 穿着濕衣服回家,並很快把它們脫掉。",
+      "highlight": "stripped",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The repair worker did not just open the fan; he took it completely apart.",
+      "promptZh": "維修人員不只是打開風扇,而是把它完全拆開。",
+      "starter": "The",
+      "answer": "The repair worker did not just open the fan; he stripped it right down.",
+      "answerZh": "維修人員不只是打開風扇,而是把它完全拆開。",
+      "highlight": "stripped",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件完全拆開"
+    },
+    {
+      "id": "phrasal-verb-281-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The shop removed the shiny covering from the wooden sign so that its natural surface could be seen.",
+      "promptZh": "店舖移除了木製招牌上的光亮覆蓋物,讓天然表面露出來。",
+      "starter": "The",
+      "answer": "The shop stripped away the shiny covering from the wooden sign to reveal its natural surface.",
+      "answerZh": "店舖移除了木製招牌上的光亮覆蓋物,露出天然表面。",
+      "highlight": "stripped away",
+      "targetForm": "strip something away",
+      "targetMeaningZh": "移除一層覆蓋物,露出下面的部分"
+    },
+    {
+      "id": "phrasal-verb-281-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Before the new shop opened, workers removed the old shelves, lights and counter from inside.",
+      "promptZh": "新店開業前,工人拆除了內部的舊架、燈和櫃台。",
+      "starter": "Before",
+      "answer": "Before the new shop opened, workers stripped out the old shelves, lights and counter.",
+      "answerZh": "新店開業前,工人拆除了內部的舊架、燈和櫃台。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After learning that the singer had broken the rules, the club took away her festival title.",
+      "promptZh": "會方得知那名歌手違反規則後,取消了她的音樂節冠軍頭銜。",
+      "starter": "After",
+      "answer": "After learning that the singer had broken the rules, the club stripped her of her festival title.",
+      "answerZh": "會方得知那名歌手違反規則後,取消了她的音樂節冠軍頭銜。",
+      "highlight": "stripped her of",
+      "targetForm": "strip somebody of something",
+      "targetMeaningZh": "奪去某人的職位、頭銜或獎項"
+    },
+    {
+      "id": "phrasal-verb-281-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The actor removed almost all of his costume until he was wearing only a white T-shirt and shorts.",
+      "promptZh": "那名演員脫去大部分戲服,最後只穿着白色T恤和短褲。",
+      "starter": "The",
+      "answer": "The actor stripped down to a white T-shirt and shorts.",
+      "answerZh": "那名演員脫去大部分戲服,最後只穿着白色T恤和短褲。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "To find the broken part, the technician had to take the coffee machine apart piece by piece.",
+      "promptZh": "為了找出損壞的零件,技術員必須逐件拆開咖啡機。",
+      "starter": "To",
+      "answer": "To find the broken part, the technician had to strip the coffee machine down piece by piece.",
+      "answerZh": "為了找出損壞的零件,技術員必須逐件拆開咖啡機。",
+      "highlight": "strip",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "As soon as he left the stage, the actor removed the heavy coat.",
+      "promptZh": "那名演員一離開舞台,便脫下厚重的外套。",
+      "starter": "As",
+      "answer": "As soon as he left the stage, the actor stripped the heavy coat off.",
+      "answerZh": "那名演員一離開舞台,便脫下厚重的外套。",
+      "highlight": "stripped",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "As soon as the race ended, Ben removed his wet running top and changed into a dry one.",
+      "promptZh": "賽事一結束,Ben 便脫下濕透的跑步上衣,換上乾爽衣服。",
+      "starter": "As",
+      "answer": "As soon as the race ended, Ben stripped off his wet running top and changed into a dry one.",
+      "answerZh": "賽事一結束,Ben 便脫下濕透的跑步上衣,換上乾爽衣服。",
+      "highlight": "stripped off",
+      "targetForm": "strip off / strip something off",
+      "targetMeaningZh": "脫去衣服或脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By the end of the theft, the flat had been left without its television, computers or jewellery.",
+      "promptZh": "盜竊結束後,單位內的電視、電腦和珠寶已全部被拿走。",
+      "starter": "By",
+      "answer": "By the end of the theft, the flat had been stripped of its television, computers and jewellery.",
+      "answerZh": "盜竊結束後,單位內的電視、電腦和珠寶已全部被拿走。",
+      "highlight": "stripped of",
+      "targetForm": "strip something of something",
+      "targetMeaningZh": "使某物失去貴重或重要部分"
+    },
+    {
+      "id": "phrasal-verb-281-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The boat engine could not be repaired until it had been taken apart and checked carefully.",
+      "promptZh": "船隻引擎必須先拆開並仔細檢查,才能進行維修。",
+      "starter": "The",
+      "answer": "The boat engine could not be repaired until it had been stripped down and checked carefully.",
+      "answerZh": "船隻引擎必須先拆開並仔細檢查,才能進行維修。",
+      "highlight": "stripped down",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The house looked empty because every old cupboard and light had been removed from inside.",
+      "promptZh": "房屋看來空蕩蕩,因為內部每個舊櫃和燈都已被拆除。",
+      "starter": "The",
+      "answer": "The house looked empty because every old cupboard and light had been stripped out.",
+      "answerZh": "房屋看來空蕩蕩,因為內部每個舊櫃和燈都已被拆除。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The metal door looked new only after every bit of rust and old paint had been removed from it.",
+      "promptZh": "金屬門上的鐵鏽和舊油漆全部被移除後,才看來像新的一樣。",
+      "starter": "The",
+      "answer": "The metal door looked new only after every bit of rust and old paint had been stripped from it.",
+      "answerZh": "金屬門上的鐵鏽和舊油漆全部被移除後,才看來像新的一樣。",
+      "highlight": "stripped",
+      "targetForm": "strip something from something",
+      "targetMeaningZh": "從表面移除物料或覆蓋物"
+    },
+    {
+      "id": "phrasal-verb-281-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Because the changing room was warm, Priya removed her coat and extra layers until only a light top and shorts remained.",
+      "promptZh": "由於更衣室很暖,Priya 脫去外套和多層衣物,只剩下薄上衣和短褲。",
+      "starter": "Because",
+      "answer": "Because the changing room was warm, Priya stripped down to a light top and shorts.",
+      "answerZh": "由於更衣室很暖,Priya 脫去外套和多層衣物,只剩下薄上衣和短褲。",
+      "highlight": "stripped down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩所述衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The company lost its licence after it repeatedly ignored the safety rules.",
+      "promptZh": "公司多次無視安全規則後,被吊銷牌照。",
+      "starter": "The",
+      "answer": "The company was stripped of its licence after it repeatedly ignored the safety rules.",
+      "answerZh": "公司多次無視安全規則後,被吊銷牌照。",
+      "highlight": "was stripped of",
+      "targetForm": "strip somebody/something of something",
+      "targetMeaningZh": "奪去牌照、權利、職位或其他重要事物"
+    },
+    {
+      "id": "phrasal-verb-281-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The children were so eager to swim that they removed their outer clothes before the teacher finished speaking.",
+      "promptZh": "孩子們急着游泳,老師還未說完,他們便脫掉外衣。",
+      "starter": "The",
+      "answer": "The children were so eager to swim that they stripped their outer clothes off before the teacher finished speaking.",
+      "answerZh": "孩子們急着游泳,老師還未說完,他們便脫掉外衣。",
+      "highlight": "stripped",
+      "targetForm": "strip something off",
+      "targetMeaningZh": "脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "For the body scan, the staff asked Noah to remove his clothes until only his underwear remained.",
+      "promptZh": "為了進行身體掃描,職員要求 Noah 脫去衣服,只剩下內衣。",
+      "starter": "For",
+      "answer": "For the body scan, the staff asked Noah to strip down to his underwear.",
+      "answerZh": "為了進行身體掃描,職員要求 Noah 脫去衣服,只剩下內衣。",
+      "highlight": "strip down to",
+      "targetForm": "strip down to something",
+      "targetMeaningZh": "脫去衣服,直至只剩某件衣物"
+    },
+    {
+      "id": "phrasal-verb-281-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Rather than replace the old scooter, they took it apart, cleaned every part and built it again.",
+      "promptZh": "他們沒有更換舊電單車,而是把它拆開,清潔每個零件後再重新組裝。",
+      "starter": "Rather",
+      "answer": "Rather than replace the old scooter, they stripped it down, cleaned every part and built it again.",
+      "answerZh": "他們沒有更換舊電單車,而是把它拆開,清潔每個零件後再重新組裝。",
+      "highlight": "stripped",
+      "targetForm": "strip something down",
+      "targetMeaningZh": "把機器或物件拆開檢查或修理"
+    },
+    {
+      "id": "phrasal-verb-281-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "They wanted a completely new office, so they removed everything inside while leaving the outer walls.",
+      "promptZh": "他們想要一個全新的辦公室,所以保留外牆,但拆除了內部所有設備。",
+      "starter": "They",
+      "answer": "They wanted a completely new office, so they stripped out everything inside while leaving the outer walls.",
+      "answerZh": "他們想要一個全新的辦公室,所以保留外牆,但拆除了內部所有設備。",
+      "highlight": "stripped out",
+      "targetForm": "strip something out",
+      "targetMeaningZh": "拆除內部設備、部件或特色"
+    },
+    {
+      "id": "phrasal-verb-281-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "To repair the old chair properly, we first removed the cracked covering and exposed the wood below.",
+      "promptZh": "為了妥善修理舊椅子,我們先移除破裂的覆蓋物,露出下面的木材。",
+      "starter": "To",
+      "answer": "To repair the old chair properly, we first stripped away the cracked covering and exposed the wood below.",
+      "answerZh": "為了妥善修理舊椅子,我們先移除破裂的覆蓋物,露出下面的木材。",
+      "highlight": "stripped away",
+      "targetForm": "strip something away",
+      "targetMeaningZh": "移除一層覆蓋物,露出下面的部分"
+    }
+  ]
+}

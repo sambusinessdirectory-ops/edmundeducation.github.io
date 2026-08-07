@@ -1,0 +1,1243 @@
+{
+  "id": "phrasal-verb-95",
+  "order": 95,
+  "slug": "help",
+  "version": "1",
+  "title": "HELP 動詞片語",
+  "titleEn": "Help",
+  "titleZh": "HELP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 94 - HELP.pdf",
+    "sourceNumber": 94,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HELP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HELP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HELP",
+      "highlight": "HELP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Thank you for helping us out with the boxes.",
+      "zh": "謝謝你幫我們處理這些箱子。",
+      "highlight": "helping us out with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Can I help you off with your coat?",
+      "zh": "要我幫你脫下外套嗎?",
+      "highlight": "help you off with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Can I help you to some soup?",
+      "zh": "要我替你盛些湯嗎?)Please help yourself to some bread.(請自行取用麵包。",
+      "highlight": "help you to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "幫忙;在別人需要時提供實際協助；協助某人穿上或脫下衣物；替某人拿取或盛上食物或飲品;自行取用食物或飲品；推動某事;使某事進展得更順利",
+    "en": "help out (with something) / help somebody out (with something); help somebody on/off with something; help somebody to something / help yourself to something; help something along",
+    "naturalZh": [
+      "幫忙;在別人需要時提供實際協助",
+      "協助某人穿上或脫下衣物",
+      "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+      "推動某事;使某事進展得更順利"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "help out (with something) / help somebody out (with something)",
+      "titleZh": "幫忙;在別人需要時提供實際協助",
+      "titleEn": "help out (with something) / help somebody out (with something)",
+      "descriptionZh": "幫忙;在別人需要時提供實際協助",
+      "descriptionEn": "Thank you for helping us out with the boxes.",
+      "examples": [
+        {
+          "en": "Thank you for helping us out with the boxes.",
+          "zh": "謝謝你幫我們處理這些箱子。",
+          "highlight": "helping us out with"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "help somebody on/off with something",
+      "titleZh": "協助某人穿上或脫下衣物",
+      "titleEn": "help somebody on/off with something",
+      "descriptionZh": "協助某人穿上或脫下衣物",
+      "descriptionEn": "Can I help you off with your coat?",
+      "examples": [
+        {
+          "en": "Can I help you off with your coat?",
+          "zh": "要我幫你脫下外套嗎?",
+          "highlight": "help you off with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "help somebody to something / help yourself to something",
+      "titleZh": "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+      "titleEn": "help somebody to something / help yourself to something",
+      "descriptionZh": "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+      "descriptionEn": "Can I help you to some soup?",
+      "examples": [
+        {
+          "en": "Can I help you to some soup?",
+          "zh": "要我替你盛些湯嗎?)Please help yourself to some bread.(請自行取用麵包。",
+          "highlight": "help you to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "help something along",
+      "titleZh": "推動某事;使某事進展得更順利",
+      "titleEn": "help something along",
+      "descriptionZh": "推動某事;使某事進展得更順利",
+      "descriptionEn": "A cup of tea helped the conversation along.",
+      "examples": [
+        {
+          "en": "A cup of tea helped the conversation along.",
+          "zh": "一杯茶令談話進行得更順利。",
+          "highlight": "helped the conversation along"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HELP 片語動詞的實際用途",
+    "labelEn": "HELP Phrasal Verbs in Use",
+    "summaryZh": "help out 可用來談論協助工作、解決問題、籌備活動或分擔費用。；help somebody on/off with something 可用於外套、夾克、靴子、手套和其他衣物。；help somebody to something 和 help yourself to something 常用於用餐、派對和家庭聚會。；help something along 可表示令談話、課堂、計劃或其他活動進行得更順利。",
+    "summaryEn": "Help out allows you to talk naturally about helping with work, problems, events or costs. Help somebody on/off with something is useful when helping with coats, jackets, boots, gloves and other clothes. Help somebody to something and help yourself to something are useful at meals, parties and family gatherings. Help something along can describe making a conversation, lesson, project or other activity progress more smoothly.",
+    "contextsZh": [
+      "用自然方式表示實際幫忙",
+      "禮貌地協助別人穿脫衣物",
+      "在用餐時招待別人或自行取用食物",
+      "表示推動事情向前發展"
+    ],
+    "contextsEn": [
+      "Offer practical help naturally",
+      "Give polite help with clothes",
+      "Serve or offer food and drinks",
+      "Show that something is moving forward"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HELP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HELP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "help out (with something) / help somebody out (with something)",
+    "fixedHighlight": "help out (with something) / help somebody out (with something)",
+    "fixedZh": "閱讀整句,選出意思相同的 HELP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HELP expression that gives the same meaning.",
+    "correct": "helping us out with",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 help ... out 時,把 him、her、it 或 them 放在 help 之後:help him outhelp them out with the boxes；談論衣物時,on 表示協助某人穿上衣物,off 則表示協助某人脫下衣物:help her on with her coathelp him off with his boots",
+    "variableEn": "Keep the same people, things, time and meaning. In help... out, place him, her, it or them after help: help him out help them out with the boxes With clothes, on means helping someone put something on, while off means helping someone remove it: help her on with her coat help him off with his boots",
+    "variableItemsZh": [
+      "help out (with something) / help somebody out (with something)",
+      "help somebody on/off with something",
+      "help somebody to something / help yourself to something",
+      "help something along"
+    ],
+    "variableItemsEn": [
+      "help out (with something) / help somebody out (with something)",
+      "help somebody on/off with something",
+      "help somebody to something / help yourself to something",
+      "help something along"
+    ],
+    "forms": [
+      {
+        "formZh": "幫忙;在別人需要時提供實際協助",
+        "formEn": "help out (with something) / help somebody out (with something)",
+        "exampleZh": "謝謝你幫我們處理這些箱子。",
+        "exampleEn": "Thank you for helping us out with the boxes.",
+        "highlight": "helping us out with"
+      },
+      {
+        "formZh": "協助某人穿上或脫下衣物",
+        "formEn": "help somebody on/off with something",
+        "exampleZh": "要我幫你脫下外套嗎?",
+        "exampleEn": "Can I help you off with your coat?",
+        "highlight": "help you off with"
+      },
+      {
+        "formZh": "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+        "formEn": "help somebody to something / help yourself to something",
+        "exampleZh": "要我替你盛些湯嗎?)Please help yourself to some bread.(請自行取用麵包。",
+        "exampleEn": "Can I help you to some soup?",
+        "highlight": "help you to"
+      },
+      {
+        "formZh": "推動某事;使某事進展得更順利",
+        "formEn": "help something along",
+        "exampleZh": "一杯茶令談話進行得更順利。",
+        "exampleEn": "A cup of tea helped the conversation along.",
+        "highlight": "helped the conversation along"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "幫忙;在別人需要時提供實際協助",
+      "titleEn": "help out (with something) / help somebody out (with something)",
+      "formula": "help out (with something) / help somebody out (with something)",
+      "highlight": "help out (with something) / help somebody out (with something)",
+      "descriptionZh": "幫忙;在別人需要時提供實際協助",
+      "descriptionEn": "Thank you for helping us out with the boxes.",
+      "examples": [
+        {
+          "en": "Thank you for helping us out with the boxes.",
+          "zh": "謝謝你幫我們處理這些箱子。",
+          "highlight": "helping us out with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "協助某人穿上或脫下衣物",
+      "titleEn": "help somebody on/off with something",
+      "formula": "help somebody on/off with something",
+      "highlight": "help somebody on/off with something",
+      "descriptionZh": "協助某人穿上或脫下衣物",
+      "descriptionEn": "Can I help you off with your coat?",
+      "examples": [
+        {
+          "en": "Can I help you off with your coat?",
+          "zh": "要我幫你脫下外套嗎?",
+          "highlight": "help you off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+      "titleEn": "help somebody to something / help yourself to something",
+      "formula": "help somebody to something / help yourself to something",
+      "highlight": "help somebody to something / help yourself to something",
+      "descriptionZh": "替某人拿取或盛上食物或飲品;自行取用食物或飲品",
+      "descriptionEn": "Can I help you to some soup?",
+      "examples": [
+        {
+          "en": "Can I help you to some soup?",
+          "zh": "要我替你盛些湯嗎?)Please help yourself to some bread.(請自行取用麵包。",
+          "highlight": "help you to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "推動某事;使某事進展得更順利",
+      "titleEn": "help something along",
+      "formula": "help something along",
+      "highlight": "help something along",
+      "descriptionZh": "推動某事;使某事進展得更順利",
+      "descriptionEn": "A cup of tea helped the conversation along.",
+      "examples": [
+        {
+          "en": "A cup of tea helped the conversation along.",
+          "zh": "一杯茶令談話進行得更順利。",
+          "highlight": "helped the conversation along"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用自然方式表示實際幫忙",
+      "titleEn": "Offer practical help naturally",
+      "zh": "help out 可用來談論協助工作、解決問題、籌備活動或分擔費用。",
+      "en": "Help out allows you to talk naturally about helping with work, problems, events or costs."
+    },
+    {
+      "titleZh": "禮貌地協助別人穿脫衣物",
+      "titleEn": "Give polite help with clothes",
+      "zh": "help somebody on/off with something 可用於外套、夾克、靴子、手套和其他衣物。",
+      "en": "Help somebody on/off with something is useful when helping with coats, jackets, boots, gloves and other clothes."
+    },
+    {
+      "titleZh": "在用餐時招待別人或自行取用食物",
+      "titleEn": "Serve or offer food and drinks",
+      "zh": "help somebody to something 和 help yourself to something 常用於用餐、派對和家庭聚會。",
+      "en": "Help somebody to something and help yourself to something are useful at meals, parties and family gatherings."
+    },
+    {
+      "titleZh": "表示推動事情向前發展",
+      "titleEn": "Show that something is moving forward",
+      "zh": "help something along 可表示令談話、課堂、計劃或其他活動進行得更順利。",
+      "en": "Help something along can describe making a conversation, lesson, project or other activity progress more smoothly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用自然方式表示實際幫忙",
+      "禮貌地協助別人穿脫衣物",
+      "在用餐時招待別人或自行取用食物",
+      "表示推動事情向前發展"
+    ],
+    "contextsEn": [
+      "Offer practical help naturally",
+      "Give polite help with clothes",
+      "Serve or offer food and drinks",
+      "Show that something is moving forward"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用自然方式表示實際幫忙",
+        "titleEn": "Offer practical help naturally",
+        "zh": "help out 可用來談論協助工作、解決問題、籌備活動或分擔費用。",
+        "en": "Help out allows you to talk naturally about helping with work, problems, events or costs.",
+        "examples": [
+          {
+            "en": "Thank you for helping us out with the boxes.",
+            "zh": "謝謝你幫我們處理這些箱子。",
+            "highlight": "helping us out with"
+          }
+        ]
+      },
+      {
+        "titleZh": "禮貌地協助別人穿脫衣物",
+        "titleEn": "Give polite help with clothes",
+        "zh": "help somebody on/off with something 可用於外套、夾克、靴子、手套和其他衣物。",
+        "en": "Help somebody on/off with something is useful when helping with coats, jackets, boots, gloves and other clothes.",
+        "examples": [
+          {
+            "en": "Can I help you off with your coat?",
+            "zh": "要我幫你脫下外套嗎?",
+            "highlight": "help you off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "在用餐時招待別人或自行取用食物",
+        "titleEn": "Serve or offer food and drinks",
+        "zh": "help somebody to something 和 help yourself to something 常用於用餐、派對和家庭聚會。",
+        "en": "Help somebody to something and help yourself to something are useful at meals, parties and family gatherings.",
+        "examples": [
+          {
+            "en": "Can I help you to some soup?",
+            "zh": "要我替你盛些湯嗎?)Please help yourself to some bread.(請自行取用麵包。",
+            "highlight": "help you to"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示推動事情向前發展",
+        "titleEn": "Show that something is moving forward",
+        "zh": "help something along 可表示令談話、課堂、計劃或其他活動進行得更順利。",
+        "en": "Help something along can describe making a conversation, lesson, project or other activity progress more smoothly.",
+        "examples": [
+          {
+            "en": "A cup of tea helped the conversation along.",
+            "zh": "一杯茶令談話進行得更順利。",
+            "highlight": "helped the conversation along"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HELP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HELP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HELP 片語動詞。",
+      "en": "Read the whole sentence and choose the HELP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 help ... out 時,把 him、her、it 或 them 放在 help 之後:help him outhelp them out with the boxes",
+      "titleEn": "In help.",
+      "zh": "使用 help ... out 時,把 him、her、it 或 them 放在 help 之後:help him outhelp them out with the boxes",
+      "en": "In help... out, place him, her, it or them after help: help him out help them out with the boxes"
+    },
+    {
+      "titleZh": "談論衣物時,on 表示協助某人穿上衣物,off 則表示協助某人脫下衣物:help her on with her coathelp him off with his boots",
+      "titleEn": "With clothes, on means helping someone put something on, while off means helping someone remove it: help her on with her coat help him off with his boots.",
+      "zh": "談論衣物時,on 表示協助某人穿上衣物,off 則表示協助某人脫下衣物:help her on with her coathelp him off with his boots",
+      "en": "With clothes, on means helping someone put something on, while off means helping someone remove it: help her on with her coat help him off with his boots"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HELP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HELP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HELP 動詞片語句子改寫練習",
+    "titleEn": "HELP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HELP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HELP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-95-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Thank you for doing some of the work with us today.",
+      "promptZh": "謝謝你今天和我們一起分擔部分工作。",
+      "starter": "Thank",
+      "answer": "Thank you for helping us out with some of the work today.",
+      "answerZh": "謝謝你今天協助我們分擔部分工作。",
+      "highlight": "helping us out with",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "協助某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-95-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please take some fruit from the bowl.",
+      "promptZh": "請自行取用碗裏的水果。",
+      "starter": "Please",
+      "answer": "Please help yourself to some fruit from the bowl.",
+      "answerZh": "請自行取用碗裏的水果。",
+      "highlight": "help yourself to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Can I assist you in removing your coat?",
+      "promptZh": "要我協助你脫下外套嗎?",
+      "starter": "Can",
+      "answer": "Can I help you off with your coat?",
+      "answerZh": "要我幫你脫下外套嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A short joke made the conversation move more easily.",
+      "promptZh": "一個小笑話令談話進行得更順利。",
+      "starter": "A",
+      "answer": "A short joke helped the conversation along.",
+      "answerZh": "一個小笑話令談話進行得更順利。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某事進展得更順利"
+    },
+    {
+      "id": "phrasal-verb-95-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Could you assist me with the chairs?",
+      "promptZh": "你可以協助我處理這些椅子嗎?",
+      "starter": "Could",
+      "answer": "Could you help me out with the chairs?",
+      "answerZh": "你可以協助我處理這些椅子嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "協助某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-95-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "May I serve anyone some more rice?",
+      "promptZh": "要我替任何人再盛一些飯嗎?",
+      "starter": "May",
+      "answer": "May I help anyone to some more rice?",
+      "answerZh": "要我替任何人再盛一些飯嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Her father assisted her in getting dressed in the raincoat.",
+      "promptZh": "她的父親協助她穿上雨衣。",
+      "starter": "Her",
+      "answer": "Her father helped her on with the raincoat.",
+      "answerZh": "她的父親協助她穿上雨衣。",
+      "highlight": "helped",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Two neighbours came to assist when we moved house.",
+      "promptZh": "我們搬屋時,兩位鄰居前來幫忙。",
+      "starter": "Two",
+      "answer": "Two neighbours came to help out when we moved house.",
+      "answerZh": "我們搬屋時,兩位鄰居前來幫忙。",
+      "highlight": "help out",
+      "targetForm": "help out",
+      "targetMeaningZh": "幫忙"
+    },
+    {
+      "id": "phrasal-verb-95-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "This cup of tea should make things move more smoothly.",
+      "promptZh": "這杯茶應該能令事情進行得更順利。",
+      "starter": "This",
+      "answer": "This cup of tea should help things along.",
+      "answerZh": "這杯茶應該能令事情進行得更順利。",
+      "highlight": "help",
+      "targetForm": "help something along",
+      "targetMeaningZh": "推動某事順利進行"
+    },
+    {
+      "id": "phrasal-verb-95-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The host served each child some juice.",
+      "promptZh": "主人替每個孩子倒了一些果汁。",
+      "starter": "The",
+      "answer": "The host helped each child to some juice.",
+      "answerZh": "主人替每個孩子倒了一些果汁。",
+      "highlight": "helped",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或倒上食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Could you assist me with these gloves? My hands are too cold.",
+      "promptZh": "你可以協助我戴上這雙手套嗎?我的手太冷了。",
+      "starter": "Could",
+      "answer": "Could you help me on with these gloves? My hands are too cold.",
+      "answerZh": "你可以幫我戴上這雙手套嗎?我的手太冷了。",
+      "highlight": "help",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ella often assists at the school library on Fridays.",
+      "promptZh": "艾拉逢星期五經常在學校圖書館幫忙。",
+      "starter": "Ella",
+      "answer": "Ella often helps out at the school library on Fridays.",
+      "answerZh": "艾拉逢星期五經常在學校圖書館幫忙。",
+      "highlight": "helps out",
+      "targetForm": "help out",
+      "targetMeaningZh": "幫忙"
+    },
+    {
+      "id": "phrasal-verb-95-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The extra worker is making the job move faster.",
+      "promptZh": "多了一名工作人員,令工作進行得更快。",
+      "starter": "The",
+      "answer": "The extra worker is helping the job along.",
+      "answerZh": "多了一名工作人員,令工作進行得更快。",
+      "highlight": "helping",
+      "targetForm": "help something along",
+      "targetMeaningZh": "推動某事向前進展"
+    },
+    {
+      "id": "phrasal-verb-95-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Please take another biscuit if you would like one.",
+      "promptZh": "如果你想吃,請再取一塊餅乾。",
+      "starter": "Please",
+      "answer": "Please help yourself to another biscuit if you would like one.",
+      "answerZh": "如果你想吃,請自行再取一塊餅乾。",
+      "highlight": "help yourself to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach assisted the child in removing the wet jacket.",
+      "promptZh": "教練協助那孩子脫下濕外套。",
+      "starter": "The",
+      "answer": "The coach helped the child off with the wet jacket.",
+      "answerZh": "教練協助那孩子脫下濕外套。",
+      "highlight": "helped",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I can assist you with the online form tonight.",
+      "promptZh": "我今晚可以協助你填寫網上表格。",
+      "starter": "I",
+      "answer": "I can help you out with the online form tonight.",
+      "answerZh": "我今晚可以協助你填寫網上表格。",
+      "highlight": "help",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "協助某人處理某事"
+    },
+    {
+      "id": "phrasal-verb-95-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could I serve you some soup?",
+      "promptZh": "要我替你盛些湯嗎?",
+      "starter": "Could",
+      "answer": "Could I help you to some soup?",
+      "answerZh": "要我替你盛些湯嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Before leaving, Noah assisted his grandfather with his coat.",
+      "promptZh": "出門前,諾亞協助祖父穿上外套。",
+      "starter": "Before",
+      "answer": "Before leaving, Noah helped his grandfather on with his coat.",
+      "answerZh": "出門前,諾亞協助祖父穿上外套。",
+      "highlight": "helped",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Good weather has made the young plants grow faster.",
+      "promptZh": "好天氣令幼苗生長得更快。",
+      "starter": "Good",
+      "answer": "Good weather has helped the young plants along.",
+      "answerZh": "好天氣令幼苗生長得更快。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "促進某事物生長或發展"
+    },
+    {
+      "id": "phrasal-verb-95-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Who assisted with the food at the party?",
+      "promptZh": "派對上的食物由誰協助處理?",
+      "starter": "Who",
+      "answer": "Who helped out with the food at the party?",
+      "answerZh": "派對上的食物由誰協助處理?",
+      "highlight": "helped out",
+      "targetForm": "help out with something",
+      "targetMeaningZh": "協助處理某事"
+    },
+    {
+      "id": "phrasal-verb-95-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A clear map made the planning easier and quicker.",
+      "promptZh": "一張清晰的地圖令規劃工作進行得更容易、更快捷。",
+      "starter": "A",
+      "answer": "A clear map helped the planning along.",
+      "answerZh": "一張清晰的地圖令規劃工作進行得更容易、更快捷。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某事進展得更順利"
+    },
+    {
+      "id": "phrasal-verb-95-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The host told the guests to take drinks from the table.",
+      "promptZh": "主人叫客人自行從桌上取用飲品。",
+      "starter": "The",
+      "answer": "The host told the guests to help themselves to drinks from the table.",
+      "answerZh": "主人叫客人自行從桌上取用飲品。",
+      "highlight": "help themselves to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We were short of staff, so Dan assisted us for an hour.",
+      "promptZh": "我們人手不足,所以丹協助了我們一小時。",
+      "starter": "We",
+      "answer": "We were short of staff, so Dan helped us out for an hour.",
+      "answerZh": "我們人手不足,所以丹協助了我們一小時。",
+      "highlight": "helped",
+      "targetForm": "help somebody out",
+      "targetMeaningZh": "在某人需要時提供協助"
+    },
+    {
+      "id": "phrasal-verb-95-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The boots were tight, so I assisted her in removing them.",
+      "promptZh": "那雙靴子很緊,所以我協助她把它們脫下。",
+      "starter": "The",
+      "answer": "The boots were tight, so I helped her off with them.",
+      "answerZh": "那雙靴子很緊,所以我協助她把它們脫下。",
+      "highlight": "helped",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The music kept the long exercise session moving.",
+      "promptZh": "音樂令漫長的運動課繼續進行。",
+      "starter": "The",
+      "answer": "The music helped the long exercise session along.",
+      "answerZh": "音樂令漫長的運動課繼續順利進行。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某項活動繼續順利進行"
+    },
+    {
+      "id": "phrasal-verb-95-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Sam served his grandmother a small piece of cake.",
+      "promptZh": "山姆替祖母拿了一小塊蛋糕。",
+      "starter": "Sam",
+      "answer": "Sam helped his grandmother to a small piece of cake.",
+      "answerZh": "山姆替祖母拿了一小塊蛋糕。",
+      "highlight": "helped",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The costume was difficult to wear, so the teacher assisted the boy in getting dressed.",
+      "promptZh": "那套戲服很難穿,所以老師協助那男孩穿上它。",
+      "starter": "The",
+      "answer": "The costume was difficult to wear, so the teacher helped the boy on with it.",
+      "answerZh": "那套戲服很難穿,所以老師協助那男孩穿上它。",
+      "highlight": "helped",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The boxes were heavy, but a passer-by assisted with them.",
+      "promptZh": "箱子很重,但一名途人協助處理它們。",
+      "starter": "The",
+      "answer": "The boxes were heavy, but a passer-by helped out with them.",
+      "answerZh": "箱子很重,但一名途人協助處理它們。",
+      "highlight": "helped out",
+      "targetForm": "help out with something",
+      "targetMeaningZh": "協助處理某事"
+    },
+    {
+      "id": "phrasal-verb-95-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "One more example may make the lesson progress more smoothly.",
+      "promptZh": "多一個例子或許能令課堂進行得更順利。",
+      "starter": "One",
+      "answer": "One more example may help the lesson along.",
+      "answerZh": "多一個例子或許能令課堂進行得更順利。",
+      "highlight": "help",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某事進展得更順利"
+    },
+    {
+      "id": "phrasal-verb-95-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Take as much salad as you need.",
+      "promptZh": "按需要自行取用沙律。",
+      "starter": "Help",
+      "answer": "Help yourself to as much salad as you need.",
+      "answerZh": "按需要自行取用沙律。",
+      "highlight": "Help yourself to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At the family meal, our aunt served everyone some fish before sitting down.",
+      "promptZh": "家庭聚餐時,姨姨在坐下前替每個人夾了一些魚。",
+      "starter": "At",
+      "answer": "At the family meal, our aunt helped everyone to some fish before sitting down.",
+      "answerZh": "家庭聚餐時,姨姨在坐下前替每個人夾了一些魚。",
+      "highlight": "helped",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the show, the teacher assisted the children in removing their costumes.",
+      "promptZh": "表演結束後,老師協助孩子們脫下戲服。",
+      "starter": "After",
+      "answer": "After the show, the teacher helped the children off with their costumes.",
+      "answerZh": "表演結束後,老師協助孩子們脫下戲服。",
+      "highlight": "helped",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The new machine made the repairs progress faster.",
+      "promptZh": "新機器令維修工作進行得更快。",
+      "starter": "The",
+      "answer": "The new machine helped the repairs along.",
+      "answerZh": "新機器令維修工作進行得更快。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "推動某事向前進展"
+    },
+    {
+      "id": "phrasal-verb-95-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Several parents assisted the club with the cost of the uniforms.",
+      "promptZh": "幾位家長協助球會支付制服費用。",
+      "starter": "Several",
+      "answer": "Several parents helped the club out with the cost of the uniforms.",
+      "answerZh": "幾位家長協助球會支付制服費用。",
+      "highlight": "helped",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "協助某人或團體解決問題"
+    },
+    {
+      "id": "phrasal-verb-95-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "You do not need to wait for me; take some tea and sandwiches.",
+      "promptZh": "你不用等我;請自行取用茶和三文治。",
+      "starter": "You",
+      "answer": "You do not need to wait for me; help yourself to some tea and sandwiches.",
+      "answerZh": "你不用等我;請自行取用茶和三文治。",
+      "highlight": "help yourself to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Would you assist Dad with his heavy jacket before he goes outside?",
+      "promptZh": "爸爸出門前,你願意協助他穿上厚外套嗎?",
+      "starter": "Would",
+      "answer": "Would you help Dad on with his heavy jacket before he goes outside?",
+      "answerZh": "爸爸出門前,你願意協助他穿上厚外套嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A friendly question made the interview continue more easily.",
+      "promptZh": "一條友善的問題令訪問更容易繼續下去。",
+      "starter": "A",
+      "answer": "A friendly question helped the interview along.",
+      "answerZh": "一條友善的問題令訪問更容易繼續下去。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某事繼續順利進行"
+    },
+    {
+      "id": "phrasal-verb-95-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the bowl came round, Leo served his younger sister some noodles.",
+      "promptZh": "碗傳過來時,里奧替妹妹盛了一些麵。",
+      "starter": "When",
+      "answer": "When the bowl came round, Leo helped his younger sister to some noodles.",
+      "answerZh": "碗傳過來時,里奧替妹妹盛了一些麵。",
+      "highlight": "helped",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The child could not remove her life jacket, so a staff member assisted her.",
+      "promptZh": "那孩子無法脫下救生衣,所以一名職員協助她。",
+      "starter": "The",
+      "answer": "The child could not remove her life jacket, so a staff member helped her off with it.",
+      "answerZh": "那孩子無法脫下救生衣,所以一名職員協助她。",
+      "highlight": "helped",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could the older students assist the beginners with the computer setup?",
+      "promptZh": "高年級學生可以協助初學者設定電腦嗎?",
+      "starter": "Could",
+      "answer": "Could the older students help the beginners out with the computer setup?",
+      "answerZh": "高年級學生可以協助初學者設定電腦嗎?",
+      "highlight": "help",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "協助某人處理問題或工作"
+    },
+    {
+      "id": "phrasal-verb-95-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The first few sales made it easier for the small business to continue.",
+      "promptZh": "最初幾宗生意令這間小企業更容易繼續經營。",
+      "starter": "The",
+      "answer": "The first few sales helped the small business along.",
+      "answerZh": "最初幾宗生意令這間小企業更容易繼續經營。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "協助某事物繼續發展"
+    },
+    {
+      "id": "phrasal-verb-95-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The kitchen was busy, so I stayed for another hour to assist.",
+      "promptZh": "廚房很忙,所以我多留了一小時幫忙。",
+      "starter": "The",
+      "answer": "The kitchen was busy, so I stayed for another hour to help out.",
+      "answerZh": "廚房很忙,所以我多留了一小時幫忙。",
+      "highlight": "help out",
+      "targetForm": "help out",
+      "targetMeaningZh": "在有需要時幫忙"
+    },
+    {
+      "id": "phrasal-verb-95-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The host noticed that I had no dessert and offered to serve me some cake.",
+      "promptZh": "主人留意到我沒有甜品,便提出替我拿一些蛋糕。",
+      "starter": "The",
+      "answer": "The host noticed that I had no dessert and offered to help me to some cake.",
+      "answerZh": "主人留意到我沒有甜品,便提出替我拿一些蛋糕。",
+      "highlight": "help",
+      "targetForm": "help somebody to something",
+      "targetMeaningZh": "替某人拿取或盛上食物"
+    },
+    {
+      "id": "phrasal-verb-95-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As his hands were cold and stiff, I assisted him with his gloves.",
+      "promptZh": "他的手又冷又僵,所以我協助他戴上手套。",
+      "starter": "As",
+      "answer": "As his hands were cold and stiff, I helped him on with his gloves.",
+      "answerZh": "他的手又冷又僵,所以我協助他戴上手套。",
+      "highlight": "helped",
+      "targetForm": "help somebody on with something",
+      "targetMeaningZh": "協助某人穿上衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The team had lost energy, but a short break made the rest of the meeting go more smoothly.",
+      "promptZh": "團隊已經沒有精神,但短暫休息令會議餘下部分進行得更順利。",
+      "starter": "The",
+      "answer": "The team had lost energy, but a short break helped the rest of the meeting along.",
+      "answerZh": "團隊已經沒有精神,但短暫休息令會議餘下部分進行得更順利。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "使某事繼續順利進行"
+    },
+    {
+      "id": "phrasal-verb-95-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the bus broke down, a driver from another company assisted us with the luggage.",
+      "promptZh": "巴士壞了,另一間公司的司機協助我們處理行李。",
+      "starter": "When",
+      "answer": "When the bus broke down, a driver from another company helped us out with the luggage.",
+      "answerZh": "巴士壞了,另一間公司的司機協助我們處理行李。",
+      "highlight": "helped",
+      "targetForm": "help somebody out with something",
+      "targetMeaningZh": "在某人遇到困難時提供協助"
+    },
+    {
+      "id": "phrasal-verb-95-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "There is plenty of food left, so all the guests may take a little more.",
+      "promptZh": "還有很多食物,所以所有客人都可以再取一點。",
+      "starter": "There",
+      "answer": "There is plenty of food left, so all the guests may help themselves to a little more.",
+      "answerZh": "還有很多食物,所以所有客人都可以再自行取用一點。",
+      "highlight": "help themselves to",
+      "targetForm": "help yourself to something",
+      "targetMeaningZh": "自行取用食物或飲品"
+    },
+    {
+      "id": "phrasal-verb-95-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After the plan slowed down, some clear advice made the next stage move forward again.",
+      "promptZh": "計劃進度放慢後,一些清晰建議令下一階段再次向前推進。",
+      "starter": "After",
+      "answer": "After the plan slowed down, some clear advice helped the next stage along.",
+      "answerZh": "計劃進度放慢後,一些清晰建議推動下一階段再次向前發展。",
+      "highlight": "helped",
+      "targetForm": "help something along",
+      "targetMeaningZh": "推動某事向前進展"
+    },
+    {
+      "id": "phrasal-verb-95-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The little girl was tired after the walk, so her brother assisted her in removing her muddy boots.",
+      "promptZh": "小女孩步行後很累,所以哥哥協助她脫下沾滿泥的靴子。",
+      "starter": "The",
+      "answer": "The little girl was tired after the walk, so her brother helped her off with her muddy boots.",
+      "answerZh": "小女孩步行後很累,所以哥哥協助她脫下沾滿泥的靴子。",
+      "highlight": "helped",
+      "targetForm": "help somebody off with something",
+      "targetMeaningZh": "協助某人脫下衣物"
+    },
+    {
+      "id": "phrasal-verb-95-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "We had almost finished the room, but we still needed someone to assist with the final boxes.",
+      "promptZh": "我們差不多完成房間整理,但仍需要有人協助處理最後幾個箱子。",
+      "starter": "We",
+      "answer": "We had almost finished the room, but we still needed someone to help out with the final boxes.",
+      "answerZh": "我們差不多完成房間整理,但仍需要有人協助處理最後幾個箱子。",
+      "highlight": "help out",
+      "targetForm": "help out with something",
+      "targetMeaningZh": "協助處理某項工作"
+    }
+  ]
+}

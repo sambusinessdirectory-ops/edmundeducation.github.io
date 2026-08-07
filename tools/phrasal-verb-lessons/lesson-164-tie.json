@@ -1,0 +1,1684 @@
+{
+  "id": "phrasal-verb-164",
+  "order": 164,
+  "slug": "tie",
+  "version": "1",
+  "title": "TIE 動詞片語",
+  "titleEn": "Tie",
+  "titleZh": "TIE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 163 - TIE.pdf",
+    "sourceNumber": 163,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TIE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TIE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TIE",
+      "highlight": "TIE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We finally tied the coach down to a date.",
+      "zh": "我們終於令教練答應定下一個日期。",
+      "highlight": "tied the coach down to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her story ties in with the photos.",
+      "zh": "她的說法與照片吻合。",
+      "highlight": "ties in with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The book was written to tie in with the TV series.",
+      "zh": "這本書是為了配合該電視劇集而寫的。",
+      "highlight": "tie in with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "令某人作出明確承諾,或確定日期、時間、安排等；與資料、說法、數字或事實吻合；與另一活動、內容或產品互相配合；把某物的末端扎緊或打結封好；把船停靠並繫好；把某人綁起來；用繩、絲帶等把包裹或其他物件捆好",
+    "en": "tie somebody down / tie somebody down to something; tie in with something; tie in with something / tie something in with something; tie something off; tie up / tie something up; tie somebody up; tie something up",
+    "naturalZh": [
+      "令某人作出明確承諾,或確定日期、時間、安排等",
+      "與資料、說法、數字或事實吻合",
+      "與另一活動、內容或產品互相配合",
+      "把某物的末端扎緊或打結封好",
+      "把船停靠並繫好",
+      "把某人綁起來",
+      "用繩、絲帶等把包裹或其他物件捆好"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tie somebody down / tie somebody down to something",
+      "titleZh": "令某人作出明確承諾,或確定日期、時間、安排等",
+      "titleEn": "tie somebody down / tie somebody down to something",
+      "descriptionZh": "令某人作出明確承諾,或確定日期、時間、安排等",
+      "descriptionEn": "We finally tied the coach down to a date.",
+      "examples": [
+        {
+          "en": "We finally tied the coach down to a date.",
+          "zh": "我們終於令教練答應定下一個日期。",
+          "highlight": "tied the coach down to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tie in with something",
+      "titleZh": "與資料、說法、數字或事實吻合",
+      "titleEn": "tie in with something",
+      "descriptionZh": "與資料、說法、數字或事實吻合",
+      "descriptionEn": "Her story ties in with the photos.",
+      "examples": [
+        {
+          "en": "Her story ties in with the photos.",
+          "zh": "她的說法與照片吻合。",
+          "highlight": "ties in with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tie in with something / tie something in with something",
+      "titleZh": "與另一活動、內容或產品互相配合",
+      "titleEn": "tie in with something / tie something in with something",
+      "descriptionZh": "與另一活動、內容或產品互相配合",
+      "descriptionEn": "The book was written to tie in with the TV series.",
+      "examples": [
+        {
+          "en": "The book was written to tie in with the TV series.",
+          "zh": "這本書是為了配合該電視劇集而寫的。",
+          "highlight": "tie in with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tie something off",
+      "titleZh": "把某物的末端扎緊或打結封好",
+      "titleEn": "tie something off",
+      "descriptionZh": "把某物的末端扎緊或打結封好",
+      "descriptionEn": "Please tie off the end of the balloon.",
+      "examples": [
+        {
+          "en": "Please tie off the end of the balloon.",
+          "zh": "請把氣球末端打結封好。",
+          "highlight": "tie off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tie up / tie something up",
+      "titleZh": "把船停靠並繫好",
+      "titleEn": "tie up / tie something up",
+      "descriptionZh": "把船停靠並繫好",
+      "descriptionEn": "We tied the boat up beside the dock.",
+      "examples": [
+        {
+          "en": "We tied the boat up beside the dock.",
+          "zh": "我們把船停靠並繫在碼頭旁。",
+          "highlight": "tied the boat up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tie somebody up",
+      "titleZh": "把某人綁起來",
+      "titleEn": "tie somebody up",
+      "descriptionZh": "把某人綁起來",
+      "descriptionEn": "For the trick, the magician tied his assistant up.",
+      "examples": [
+        {
+          "en": "For the trick, the magician tied his assistant up.",
+          "zh": "在表演中,魔術師把助手綁起來。",
+          "highlight": "tied his assistant up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tie something up",
+      "titleZh": "用繩、絲帶等把包裹或其他物件捆好",
+      "titleEn": "tie something up",
+      "descriptionZh": "用繩、絲帶等把包裹或其他物件捆好",
+      "descriptionEn": "She tied the parcel up with a ribbon.",
+      "examples": [
+        {
+          "en": "She tied the parcel up with a ribbon.",
+          "zh": "(她用絲帶把包裹捆好。)Related word: tie-in(名詞)與電影、電視節目、活動等配套推出的產品或內容The toys were released as a film tie-in.(這些玩具是作為電影配套產品推出的。)Tie-in is a noun, so it is included for reference but is not one of the seven exercise groups.tie-in 是名詞,因此只供參考,不屬於以下七組練習內容。",
+          "highlight": "tied the parcel up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TIE 片語動詞的實際用途",
+    "labelEn": "TIE Phrasal Verbs in Use",
+    "summaryZh": "tie somebody down 可表示令某人就答案、日期或安排作出明確承諾。；tie in with 可用來比較說法、日期、數字、訊息和事實是否一致。；tie in with 和 tie something in with something 可表示書籍、課堂、廣告和活動如何互相配合。；TIE 片語動詞可用來描述把繩端扎好、把船繫在碼頭、在表演中安全地綁好表演者,以及把包裹捆好。",
+    "summaryEn": "Tie somebody down helps you talk about getting a firm answer, date or agreement from someone. Tie in with helps you compare stories, dates, numbers, messages and facts. Tie in with and tie something in with something show how books, lessons, adverts and events are planned to support one another. The TIE family can describe closing a rope end, mooring a boat, tying a performer safely during a show or fastening a parcel.",
+    "contextsZh": [
+      "清楚表達日期和承諾",
+      "判斷資料是否吻合",
+      "表達活動和產品之間的配合",
+      "描述不同的綁緊和固定方式"
+    ],
+    "contextsEn": [
+      "Make dates and promises clear",
+      "Check whether information agrees",
+      "Connect activities and products",
+      "Describe different ways of securing things"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TIE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TIE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tie somebody down / tie somebody down to something",
+    "fixedHighlight": "tie somebody down / tie somebody down to something",
+    "fixedZh": "閱讀整句,選出意思相同的 TIE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TIE expression that gives the same meaning.",
+    "correct": "tied the coach down to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；tie in with 可以表達兩種不同意思:資料可以與其他資料吻合;活動或產品亦可以與另一活動或產品互相配合。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: tie him down tie her up tie it off tie them up Tie in with can express two different ideas. Information may match other information, or an activity or product may be planned to connect with another one. Read the full situation carefully.",
+    "variableItemsZh": [
+      "tie somebody down / tie somebody down to something",
+      "tie in with something",
+      "tie in with something / tie something in with something",
+      "tie something off",
+      "tie up / tie something up",
+      "tie somebody up",
+      "tie something up"
+    ],
+    "variableItemsEn": [
+      "tie somebody down / tie somebody down to something",
+      "tie in with something",
+      "tie in with something / tie something in with something",
+      "tie something off",
+      "tie up / tie something up",
+      "tie somebody up",
+      "tie something up"
+    ],
+    "forms": [
+      {
+        "formZh": "令某人作出明確承諾,或確定日期、時間、安排等",
+        "formEn": "tie somebody down / tie somebody down to something",
+        "exampleZh": "我們終於令教練答應定下一個日期。",
+        "exampleEn": "We finally tied the coach down to a date.",
+        "highlight": "tied the coach down to"
+      },
+      {
+        "formZh": "與資料、說法、數字或事實吻合",
+        "formEn": "tie in with something",
+        "exampleZh": "她的說法與照片吻合。",
+        "exampleEn": "Her story ties in with the photos.",
+        "highlight": "ties in with"
+      },
+      {
+        "formZh": "與另一活動、內容或產品互相配合",
+        "formEn": "tie in with something / tie something in with something",
+        "exampleZh": "這本書是為了配合該電視劇集而寫的。",
+        "exampleEn": "The book was written to tie in with the TV series.",
+        "highlight": "tie in with"
+      },
+      {
+        "formZh": "把某物的末端扎緊或打結封好",
+        "formEn": "tie something off",
+        "exampleZh": "請把氣球末端打結封好。",
+        "exampleEn": "Please tie off the end of the balloon.",
+        "highlight": "tie off"
+      },
+      {
+        "formZh": "把船停靠並繫好",
+        "formEn": "tie up / tie something up",
+        "exampleZh": "我們把船停靠並繫在碼頭旁。",
+        "exampleEn": "We tied the boat up beside the dock.",
+        "highlight": "tied the boat up"
+      },
+      {
+        "formZh": "把某人綁起來",
+        "formEn": "tie somebody up",
+        "exampleZh": "在表演中,魔術師把助手綁起來。",
+        "exampleEn": "For the trick, the magician tied his assistant up.",
+        "highlight": "tied his assistant up"
+      },
+      {
+        "formZh": "用繩、絲帶等把包裹或其他物件捆好",
+        "formEn": "tie something up",
+        "exampleZh": "(她用絲帶把包裹捆好。)Related word: tie-in(名詞)與電影、電視節目、活動等配套推出的產品或內容The toys were released as a film tie-in.(這些玩具是作為電影配套產品推出的。)Tie-in is a noun, so it is included for reference but is not one of the seven exercise groups.tie-in 是名詞,因此只供參考,不屬於以下七組練習內容。",
+        "exampleEn": "She tied the parcel up with a ribbon.",
+        "highlight": "tied the parcel up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "令某人作出明確承諾,或確定日期、時間、安排等",
+      "titleEn": "tie somebody down / tie somebody down to something",
+      "formula": "tie somebody down / tie somebody down to something",
+      "highlight": "tie somebody down / tie somebody down to something",
+      "descriptionZh": "令某人作出明確承諾,或確定日期、時間、安排等",
+      "descriptionEn": "We finally tied the coach down to a date.",
+      "examples": [
+        {
+          "en": "We finally tied the coach down to a date.",
+          "zh": "我們終於令教練答應定下一個日期。",
+          "highlight": "tied the coach down to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "與資料、說法、數字或事實吻合",
+      "titleEn": "tie in with something",
+      "formula": "tie in with something",
+      "highlight": "tie in with something",
+      "descriptionZh": "與資料、說法、數字或事實吻合",
+      "descriptionEn": "Her story ties in with the photos.",
+      "examples": [
+        {
+          "en": "Her story ties in with the photos.",
+          "zh": "她的說法與照片吻合。",
+          "highlight": "ties in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "與另一活動、內容或產品互相配合",
+      "titleEn": "tie in with something / tie something in with something",
+      "formula": "tie in with something / tie something in with something",
+      "highlight": "tie in with something / tie something in with something",
+      "descriptionZh": "與另一活動、內容或產品互相配合",
+      "descriptionEn": "The book was written to tie in with the TV series.",
+      "examples": [
+        {
+          "en": "The book was written to tie in with the TV series.",
+          "zh": "這本書是為了配合該電視劇集而寫的。",
+          "highlight": "tie in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物的末端扎緊或打結封好",
+      "titleEn": "tie something off",
+      "formula": "tie something off",
+      "highlight": "tie something off",
+      "descriptionZh": "把某物的末端扎緊或打結封好",
+      "descriptionEn": "Please tie off the end of the balloon.",
+      "examples": [
+        {
+          "en": "Please tie off the end of the balloon.",
+          "zh": "請把氣球末端打結封好。",
+          "highlight": "tie off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把船停靠並繫好",
+      "titleEn": "tie up / tie something up",
+      "formula": "tie up / tie something up",
+      "highlight": "tie up / tie something up",
+      "descriptionZh": "把船停靠並繫好",
+      "descriptionEn": "We tied the boat up beside the dock.",
+      "examples": [
+        {
+          "en": "We tied the boat up beside the dock.",
+          "zh": "我們把船停靠並繫在碼頭旁。",
+          "highlight": "tied the boat up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某人綁起來",
+      "titleEn": "tie somebody up",
+      "formula": "tie somebody up",
+      "highlight": "tie somebody up",
+      "descriptionZh": "把某人綁起來",
+      "descriptionEn": "For the trick, the magician tied his assistant up.",
+      "examples": [
+        {
+          "en": "For the trick, the magician tied his assistant up.",
+          "zh": "在表演中,魔術師把助手綁起來。",
+          "highlight": "tied his assistant up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用繩、絲帶等把包裹或其他物件捆好",
+      "titleEn": "tie something up",
+      "formula": "tie something up",
+      "highlight": "tie something up",
+      "descriptionZh": "用繩、絲帶等把包裹或其他物件捆好",
+      "descriptionEn": "She tied the parcel up with a ribbon.",
+      "examples": [
+        {
+          "en": "She tied the parcel up with a ribbon.",
+          "zh": "(她用絲帶把包裹捆好。)Related word: tie-in(名詞)與電影、電視節目、活動等配套推出的產品或內容The toys were released as a film tie-in.(這些玩具是作為電影配套產品推出的。)Tie-in is a noun, so it is included for reference but is not one of the seven exercise groups.tie-in 是名詞,因此只供參考,不屬於以下七組練習內容。",
+          "highlight": "tied the parcel up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達日期和承諾",
+      "titleEn": "Make dates and promises clear",
+      "zh": "tie somebody down 可表示令某人就答案、日期或安排作出明確承諾。",
+      "en": "Tie somebody down helps you talk about getting a firm answer, date or agreement from someone."
+    },
+    {
+      "titleZh": "判斷資料是否吻合",
+      "titleEn": "Check whether information agrees",
+      "zh": "tie in with 可用來比較說法、日期、數字、訊息和事實是否一致。",
+      "en": "Tie in with helps you compare stories, dates, numbers, messages and facts."
+    },
+    {
+      "titleZh": "表達活動和產品之間的配合",
+      "titleEn": "Connect activities and products",
+      "zh": "tie in with 和 tie something in with something 可表示書籍、課堂、廣告和活動如何互相配合。",
+      "en": "Tie in with and tie something in with something show how books, lessons, adverts and events are planned to support one another."
+    },
+    {
+      "titleZh": "描述不同的綁緊和固定方式",
+      "titleEn": "Describe different ways of securing things",
+      "zh": "TIE 片語動詞可用來描述把繩端扎好、把船繫在碼頭、在表演中安全地綁好表演者,以及把包裹捆好。",
+      "en": "The TIE family can describe closing a rope end, mooring a boat, tying a performer safely during a show or fastening a parcel."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達日期和承諾",
+      "判斷資料是否吻合",
+      "表達活動和產品之間的配合",
+      "描述不同的綁緊和固定方式"
+    ],
+    "contextsEn": [
+      "Make dates and promises clear",
+      "Check whether information agrees",
+      "Connect activities and products",
+      "Describe different ways of securing things"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達日期和承諾",
+        "titleEn": "Make dates and promises clear",
+        "zh": "tie somebody down 可表示令某人就答案、日期或安排作出明確承諾。",
+        "en": "Tie somebody down helps you talk about getting a firm answer, date or agreement from someone.",
+        "examples": [
+          {
+            "en": "We finally tied the coach down to a date.",
+            "zh": "我們終於令教練答應定下一個日期。",
+            "highlight": "tied the coach down to"
+          }
+        ]
+      },
+      {
+        "titleZh": "判斷資料是否吻合",
+        "titleEn": "Check whether information agrees",
+        "zh": "tie in with 可用來比較說法、日期、數字、訊息和事實是否一致。",
+        "en": "Tie in with helps you compare stories, dates, numbers, messages and facts.",
+        "examples": [
+          {
+            "en": "Her story ties in with the photos.",
+            "zh": "她的說法與照片吻合。",
+            "highlight": "ties in with"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達活動和產品之間的配合",
+        "titleEn": "Connect activities and products",
+        "zh": "tie in with 和 tie something in with something 可表示書籍、課堂、廣告和活動如何互相配合。",
+        "en": "Tie in with and tie something in with something show how books, lessons, adverts and events are planned to support one another.",
+        "examples": [
+          {
+            "en": "The book was written to tie in with the TV series.",
+            "zh": "這本書是為了配合該電視劇集而寫的。",
+            "highlight": "tie in with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同的綁緊和固定方式",
+        "titleEn": "Describe different ways of securing things",
+        "zh": "TIE 片語動詞可用來描述把繩端扎好、把船繫在碼頭、在表演中安全地綁好表演者,以及把包裹捆好。",
+        "en": "The TIE family can describe closing a rope end, mooring a boat, tying a performer safely during a show or fastening a parcel.",
+        "examples": [
+          {
+            "en": "Please tie off the end of the balloon.",
+            "zh": "請把氣球末端打結封好。",
+            "highlight": "tie off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TIE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TIE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TIE 片語動詞。",
+      "en": "Read the whole sentence and choose the TIE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: tie him down tie her up tie it off tie them up.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: tie him down tie her up tie it off tie them up"
+    },
+    {
+      "titleZh": "tie in with 可以表達兩種不同意思:資料可以與其他資料吻合;活動或產品亦可以與另一活動或產品互相配合。請仔細閱讀整個情境。",
+      "titleEn": "Tie in with can express two different ideas.",
+      "zh": "tie in with 可以表達兩種不同意思:資料可以與其他資料吻合;活動或產品亦可以與另一活動或產品互相配合。請仔細閱讀整個情境。",
+      "en": "Tie in with can express two different ideas. Information may match other information, or an activity or product may be planned to connect with another one. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TIE 動詞片語句子改寫練習",
+    "titleEn": "TIE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TIE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TIE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-164-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Her story agrees with the photos.",
+      "promptZh": "她的說法與照片吻合。",
+      "starter": "Her",
+      "answer": "Her story ties in with the photos.",
+      "answerZh": "她的說法與照片吻合。",
+      "highlight": "ties in",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "She fastened the parcel with a ribbon.",
+      "promptZh": "她用絲帶把包裹捆好。",
+      "starter": "She",
+      "answer": "She tied the parcel up with a ribbon.",
+      "answerZh": "她用絲帶把包裹捆好。",
+      "highlight": "tied",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "We finally got the coach to agree to a date for the match.",
+      "promptZh": "我們終於令教練答應為比賽定下一個日期。",
+      "starter": "We",
+      "answer": "We finally tied the coach down to a date for the match.",
+      "answerZh": "我們終於令教練答應為比賽定下一個日期。",
+      "highlight": "tied",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The small boat stopped and was fastened beside the dock.",
+      "promptZh": "小船停在碼頭旁,並繫在那裏。",
+      "starter": "The",
+      "answer": "The small boat tied up beside the dock.",
+      "answerZh": "小船停靠在碼頭旁。",
+      "highlight": "tied up",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "This book was written to connect with the TV series.",
+      "promptZh": "這本書是為了配合該電視劇集而寫的。",
+      "starter": "This",
+      "answer": "This book was written to tie in with the TV series.",
+      "answerZh": "這本書是為了配合該電視劇集而寫的。",
+      "highlight": "tie in",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please close the end of the balloon with a knot.",
+      "promptZh": "請在氣球末端打結封好。",
+      "starter": "Please",
+      "answer": "Please tie off the end of the balloon.",
+      "answerZh": "請把氣球末端打結封好。",
+      "highlight": "tie off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "For the magic trick, the assistant bound the performer with a soft rope.",
+      "promptZh": "在魔術表演中,助手用柔軟的繩把表演者綁起來。",
+      "starter": "For",
+      "answer": "For the magic trick, the assistant tied the performer up with a soft rope.",
+      "answerZh": "在魔術表演中,助手用柔軟的繩把表演者綁起來。",
+      "highlight": "tied",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The organiser could not get the band to give a firm answer.",
+      "promptZh": "主辦人未能令樂隊作出明確答覆。",
+      "starter": "The",
+      "answer": "The organiser could not tie the band down.",
+      "answerZh": "主辦人未能令樂隊作出明確答覆。",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "These numbers match our records.",
+      "promptZh": "這些數字與我們的紀錄吻合。",
+      "starter": "These",
+      "answer": "These numbers tie in with our records.",
+      "answerZh": "這些數字與我們的紀錄吻合。",
+      "highlight": "tie in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "In the school play, the pirates bound the captain so he could not move.",
+      "promptZh": "在學校話劇中,海盜把船長綁起來,令他無法移動。",
+      "starter": "In",
+      "answer": "In the school play, the pirates tied the captain up so he could not move.",
+      "answerZh": "在學校話劇中,海盜把船長綁起來,令他無法移動。",
+      "highlight": "tied",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We fastened the boat beside the wooden platform.",
+      "promptZh": "我們把船繫在木製平台旁。",
+      "starter": "We",
+      "answer": "We tied the boat up beside the wooden platform.",
+      "answerZh": "我們把船停靠並繫在木製平台旁。",
+      "highlight": "tied",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "He secured the end of the rope with a knot.",
+      "promptZh": "他在繩的末端打結,把它扎緊。",
+      "starter": "He",
+      "answer": "He tied off the end of the rope.",
+      "answerZh": "他把繩的末端打結扎緊。",
+      "highlight": "tied off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Our school sale was planned to connect with Sports Day.",
+      "promptZh": "我們的學校義賣活動是為了配合運動日而安排的。",
+      "starter": "Our",
+      "answer": "Our school sale was planned to tie in with Sports Day.",
+      "answerZh": "我們的學校義賣活動是為了配合運動日而安排的。",
+      "highlight": "tie in",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Please bundle these old newspapers with string.",
+      "promptZh": "請用繩把這些舊報紙捆好。",
+      "starter": "Please",
+      "answer": "Please tie these old newspapers up with string.",
+      "answerZh": "請用繩把這些舊報紙捆好。",
+      "highlight": "tie",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The ferry is now stopping at the dock and being fastened there.",
+      "promptZh": "渡輪現正停在碼頭,並繫在那裏。",
+      "starter": "The",
+      "answer": "The ferry is tying up at the dock now.",
+      "answerZh": "渡輪現正停靠碼頭。",
+      "highlight": "The ferry is tying up",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Can you get the photographer to agree to a time for the photo session today?",
+      "promptZh": "你今天可以令攝影師答應一個拍攝時間嗎?",
+      "starter": "Can",
+      "answer": "Can you tie the photographer down to a time for the photo session today?",
+      "answerZh": "你今天可以令攝影師答應一個拍攝時間嗎?",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The new advert is designed to connect with the summer festival.",
+      "promptZh": "這個新廣告是為了配合夏日節而設計的。",
+      "starter": "The",
+      "answer": "The new advert is designed to tie in with the summer festival.",
+      "answerZh": "這個新廣告是為了配合夏日節而設計的。",
+      "highlight": "tie in",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Dad is fastening the gift with a blue ribbon.",
+      "promptZh": "爸爸正用藍色絲帶把禮物捆好。",
+      "starter": "Dad",
+      "answer": "Dad is tying the gift up with a blue ribbon.",
+      "answerZh": "爸爸正用藍色絲帶把禮物捆好。",
+      "highlight": "tying",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "His answer does not match what the teacher showed us.",
+      "promptZh": "他的答案與老師向我們展示的內容不符。",
+      "starter": "His",
+      "answer": "His answer does not tie in with what the teacher showed us.",
+      "answerZh": "他的答案與老師向我們展示的內容不符。",
+      "highlight": "tie in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The actor is binding another actor with a rope for the scene.",
+      "promptZh": "演員正為該場戲用一條繩把另一名演員綁起來。",
+      "starter": "The",
+      "answer": "The actor is tying another actor up with a rope for the scene.",
+      "answerZh": "演員正為該場戲用一條繩把另一名演員綁起來。",
+      "highlight": "The actor is tying",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "She is closing the top of the bag with string.",
+      "promptZh": "她正用繩把袋口扎緊。",
+      "starter": "She",
+      "answer": "She is tying off the top of the bag with string.",
+      "answerZh": "她正用繩把袋口扎緊。",
+      "highlight": "tying off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do these dates agree with the messages on your phone?",
+      "promptZh": "這些日期與你手機上的訊息吻合嗎?",
+      "starter": "Do",
+      "answer": "Do these dates tie in with the messages on your phone?",
+      "answerZh": "這些日期與你手機上的訊息吻合嗎?",
+      "highlight": "tie in",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "They have fastened their boat beside the café by the water.",
+      "promptZh": "他們已把船繫在水邊的咖啡店旁。",
+      "starter": "They",
+      "answer": "They have tied their boat up beside the café by the water.",
+      "answerZh": "他們已把船停靠並繫在水邊的咖啡店旁。",
+      "highlight": "tied",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Have you bundled the boxes with string yet?",
+      "promptZh": "你已用繩把那些盒子捆好嗎?",
+      "starter": "Have",
+      "answer": "Have you tied the boxes up with string yet?",
+      "answerZh": "你已用繩把那些盒子捆好嗎?",
+      "highlight": "tied",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "They still have not made the chef agree to a final menu.",
+      "promptZh": "他們仍未令廚師答應採用最終餐單。",
+      "starter": "They",
+      "answer": "They still have not tied the chef down to a final menu.",
+      "answerZh": "他們仍未令廚師答應採用最終餐單。",
+      "highlight": "tied",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Have you secured the loose end of the rope with a knot?",
+      "promptZh": "你已把鬆開的繩端打結扎緊嗎?",
+      "starter": "Have",
+      "answer": "Have you tied off the loose end of the rope?",
+      "answerZh": "你已把鬆開的繩端打結扎緊嗎?",
+      "highlight": "tied off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Did the magician really bind his assistant?",
+      "promptZh": "魔術師真的把助手綁起來了嗎?",
+      "starter": "Did",
+      "answer": "Did the magician really tie his assistant up?",
+      "answerZh": "魔術師真的把助手綁起來了嗎?",
+      "highlight": "tie",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They will connect the music lesson with the school show.",
+      "promptZh": "他們會把音樂課與學校表演配合起來。",
+      "starter": "They",
+      "answer": "They will tie the music lesson in with the school show.",
+      "answerZh": "他們會把音樂課與學校表演配合起來。",
+      "highlight": "tie",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The parcel was fastened with strong string before it was posted.",
+      "promptZh": "包裹寄出前已用結實的繩捆好。",
+      "starter": "The",
+      "answer": "The parcel was tied up with strong string before it was posted.",
+      "answerZh": "包裹寄出前已用結實的繩捆好。",
+      "highlight": "tied up",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The museum has planned a new art activity. It wants to connect it with next month's family event.",
+      "promptZh": "博物館策劃了一項新的藝術活動,並希望把它與下個月的家庭活動配合起來。",
+      "starter": "The",
+      "answer": "The museum has planned a new art activity. It wants to tie it in with next month's family event.",
+      "answerZh": "博物館策劃了一項新的藝術活動,並希望把它與下個月的家庭活動配合起來。",
+      "highlight": "tie",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "They used a soft cloth to bind him during the play.",
+      "promptZh": "他們在話劇中用柔軟的布把他綁起來。",
+      "starter": "They",
+      "answer": "They used a soft cloth to tie him up during the play.",
+      "answerZh": "他們在話劇中用柔軟的布把他綁起來。",
+      "highlight": "tie",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The first report says the bus left at eight, and the second report agrees with it.",
+      "promptZh": "第一份報告說巴士在八時開出,而第二份報告與它吻合。",
+      "starter": "The",
+      "answer": "The first report says the bus left at eight, and the second report ties in with it.",
+      "answerZh": "第一份報告說巴士在八時開出,而第二份報告與它吻合。",
+      "highlight": "ties in",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "The boat was fastened at the dock before the storm arrived.",
+      "promptZh": "暴風雨來臨前,那艘船已繫在碼頭。",
+      "starter": "The",
+      "answer": "The boat was tied up at the dock before the storm arrived.",
+      "answerZh": "暴風雨來臨前,那艘船已停靠並繫在碼頭。",
+      "highlight": "tied up",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Before Friday, the club needs to get a firm promise from him.",
+      "promptZh": "球會需要在星期五前得到他的明確承諾。",
+      "starter": "Before",
+      "answer": "Before Friday, the club needs to tie him down.",
+      "answerZh": "球會需要在星期五前令他作出明確承諾。",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The bag was closed at the top with a tight knot.",
+      "promptZh": "袋口已用一個緊結扎好。",
+      "starter": "The",
+      "answer": "The bag was tied off at the top with a tight knot.",
+      "answerZh": "袋口已用一個緊結扎好。",
+      "highlight": "tied off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "After reaching the island, we fastened it beside the other boats.",
+      "promptZh": "到達小島後,我們把它繫在其他船旁。",
+      "starter": "After",
+      "answer": "After reaching the island, we tied it up beside the other boats.",
+      "answerZh": "到達小島後,我們把它停靠並繫在其他船旁。",
+      "highlight": "tied",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "These papers are loose, so fasten them together with string.",
+      "promptZh": "這些紙張很鬆散,所以請用繩把它們捆在一起。",
+      "starter": "These",
+      "answer": "These papers are loose, so tie them up with string.",
+      "answerZh": "這些紙張很鬆散,所以請用繩把它們捆好。",
+      "highlight": "tie",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Everything she has told us matches the facts so far.",
+      "promptZh": "她至今告訴我們的一切都與事實吻合。",
+      "starter": "Everything",
+      "answer": "Everything she has told us ties in with the facts so far.",
+      "answerZh": "她至今告訴我們的一切都與事實吻合。",
+      "highlight": "ties in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The end is loose, so secure it with a knot before you pull the rope.",
+      "promptZh": "繩端很鬆,所以拉繩前要先用結把它扎緊。",
+      "starter": "The",
+      "answer": "The end is loose, so tie it off before you pull the rope.",
+      "answerZh": "繩端很鬆,所以拉繩前要先把它打結扎緊。",
+      "highlight": "tie",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The class project was connected with the book the students were reading.",
+      "promptZh": "這個課堂專題與學生正在閱讀的書配合起來。",
+      "starter": "The",
+      "answer": "The class project was tied in with the book the students were reading.",
+      "answerZh": "這個課堂專題與學生正在閱讀的書配合起來。",
+      "highlight": "tied in",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We could not get her to agree to one day for the visit.",
+      "promptZh": "我們未能令她答應選定一天參觀。",
+      "starter": "We",
+      "answer": "We could not tie her down to one day for the visit.",
+      "answerZh": "我們未能令她答應選定一天參觀。",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The performer was bound before the box was closed.",
+      "promptZh": "箱子關上前,表演者已被綁起來。",
+      "starter": "The",
+      "answer": "The performer was tied up before the box was closed.",
+      "answerZh": "箱子關上前,表演者已被綁起來。",
+      "highlight": "tied up",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The singer kept saying ‘maybe’, so the manager could not get a firm answer about the concert date.",
+      "promptZh": "歌手一直說「可能吧」,所以經理未能就演唱會日期取得明確答覆。",
+      "starter": "The",
+      "answer": "The singer kept saying ‘maybe’, so the manager could not tie her down to a concert date.",
+      "answerZh": "歌手一直說「可能吧」,所以經理未能令她答應一個演唱會日期。",
+      "highlight": "tie her down to",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Before carrying the rubbish bag downstairs, close its open top firmly with a knot.",
+      "promptZh": "把垃圾袋拿到樓下前,先用結把打開的袋口牢牢扎好。",
+      "starter": "Before",
+      "answer": "Before carrying the rubbish bag downstairs, tie off its open top firmly.",
+      "answerZh": "把垃圾袋拿到樓下前,先把打開的袋口牢牢扎好。",
+      "highlight": "tie off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The time on the receipt matches the time shown by the shop camera.",
+      "promptZh": "收據上的時間與店內攝影機顯示的時間吻合。",
+      "starter": "The",
+      "answer": "The time on the receipt ties in with the time shown by the shop camera.",
+      "answerZh": "收據上的時間與店內攝影機顯示的時間吻合。",
+      "highlight": "ties in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "In the safety lesson, the teacher showed why nobody should bind another person as a joke.",
+      "promptZh": "在安全課上,老師說明為何任何人都不應為了玩笑而把別人綁起來。",
+      "starter": "In",
+      "answer": "In the safety lesson, the teacher showed why nobody should tie another person up as a joke.",
+      "answerZh": "在安全課上,老師說明為何任何人都不應為了玩笑而把別人綁起來。",
+      "highlight": "tie",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "To give the campaign one clear idea, the team connected the poster, video and online game with the same story.",
+      "promptZh": "為了令宣傳活動有一個清晰主題,團隊把海報、影片和網上遊戲與同一個故事連繫起來。",
+      "starter": "To",
+      "answer": "To give the campaign one clear idea, the team tied the poster, video and online game in with the same story.",
+      "answerZh": "為了令宣傳活動有一個清晰主題,團隊把海報、影片和網上遊戲與同一個故事連繫起來。",
+      "highlight": "tied",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Before taking the magazines to the recycling point, bundle them neatly with string.",
+      "promptZh": "把雜誌拿到回收點前,先用繩把它們整齊地捆好。",
+      "starter": "Before",
+      "answer": "Before taking the magazines to the recycling point, tie them up neatly with string.",
+      "answerZh": "把雜誌拿到回收點前,先用繩把它們整齊地捆好。",
+      "highlight": "tie",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The river bus could not stop and be fastened at its usual place because two fishing boats were already there.",
+      "promptZh": "水上巴士無法在平日的位置停靠並繫好,因為已有兩艘漁船停在那裏。",
+      "starter": "The",
+      "answer": "The river bus could not tie up at its usual place because two fishing boats were already there.",
+      "answerZh": "水上巴士無法在平日的位置停靠,因為已有兩艘漁船停在那裏。",
+      "highlight": "tie up",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "One detail in his story did not agree with what the other passengers remembered.",
+      "promptZh": "他說法中的一個細節與其他乘客的記憶不符。",
+      "starter": "One",
+      "answer": "One detail in his story did not tie in with what the other passengers remembered.",
+      "answerZh": "他說法中的一個細節與其他乘客的記憶不符。",
+      "highlight": "tie in",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before printing the invitations, we must get the family to confirm the exact time.",
+      "promptZh": "印製邀請卡前,我們必須令那個家庭確認準確時間。",
+      "starter": "Before",
+      "answer": "Before printing the invitations, we must tie the family down to the exact time.",
+      "answerZh": "印製邀請卡前,我們必須令那個家庭確認準確時間。",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before leaving the harbour café, the family made sure their boat was safely fastened to the dock.",
+      "promptZh": "離開海港咖啡店前,那個家庭確保他們的船已安全繫在碼頭。",
+      "starter": "Before",
+      "answer": "Before leaving the harbour café, the family made sure their boat was safely tied up at the dock.",
+      "answerZh": "離開海港咖啡店前,那個家庭確保他們的船已安全停靠並繫在碼頭。",
+      "highlight": "tied up at",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The shop assistant wrapped the box in brown paper and then fastened it with red ribbon.",
+      "promptZh": "店員用啡色紙包好盒子,然後用紅色絲帶把它捆好。",
+      "starter": "The",
+      "answer": "The shop assistant wrapped the box in brown paper and then tied it up with red ribbon.",
+      "answerZh": "店員用啡色紙包好盒子,然後用紅色絲帶把它捆好。",
+      "highlight": "tied",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "For the town's food festival, the shop changed its window display so that it connected with the event.",
+      "promptZh": "為配合鎮上的美食節,店舖更改了櫥窗陳列,使它與活動互相配合。",
+      "starter": "For",
+      "answer": "For the town's food festival, the shop tied its window display in with the event.",
+      "answerZh": "為配合鎮上的美食節,店舖把櫥窗陳列與活動連繫起來。",
+      "highlight": "tied",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The story says the thieves bound the night guard and left him in a small room.",
+      "promptZh": "故事說賊人把夜更保安員綁起來,並把他留在一個小房間內。",
+      "starter": "The",
+      "answer": "The story says the thieves tied the night guard up and left him in a small room.",
+      "answerZh": "故事說賊人把夜更保安員綁起來,並把他留在一個小房間內。",
+      "highlight": "tied",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The camping rope may come loose, so make a final knot in the free end.",
+      "promptZh": "露營繩可能會鬆開,所以要在繩的自由端打上最後一個結。",
+      "starter": "The",
+      "answer": "The camping rope may come loose, so tie off the free end.",
+      "answerZh": "露營繩可能會鬆開,所以要把繩的自由端打結扎緊。",
+      "highlight": "tie off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Because the lesson should not feel separate from the visit, we will connect the final activity with what students saw there.",
+      "promptZh": "由於課堂不應與參觀活動分開,我們會把最後一項活動與學生在那裏看到的事物連繫起來。",
+      "starter": "Because",
+      "answer": "Because the lesson should not feel separate from the visit, we will tie the final activity in with what students saw there.",
+      "answerZh": "由於課堂不應與參觀活動分開,我們會把最後一項活動與學生在那裏看到的事物連繫起來。",
+      "highlight": "tie",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    },
+    {
+      "id": "phrasal-verb-164-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "During the escape show, two helpers bound the performer carefully, but he was free again within a minute.",
+      "promptZh": "在逃脫表演中,兩名助手小心地把表演者綁起來,但他在一分鐘內便再次自由。",
+      "starter": "During",
+      "answer": "During the escape show, two helpers tied the performer up carefully, but he was free again within a minute.",
+      "answerZh": "在逃脫表演中,兩名助手小心地把表演者綁起來,但他在一分鐘內便再次自由。",
+      "highlight": "tied",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Dark clouds were coming, so the sailors quickly brought the small boat to the dock and fastened it there.",
+      "promptZh": "烏雲正在逼近,所以水手迅速把小船帶到碼頭並繫在那裏。",
+      "starter": "Dark",
+      "answer": "Dark clouds were coming, so the sailors quickly tied the small boat up at the dock.",
+      "answerZh": "烏雲正在逼近,所以水手迅速把小船停靠並繫在碼頭。",
+      "highlight": "tied",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "At first, the note seemed unimportant, but its date and place both matched the traveller's story.",
+      "promptZh": "起初那張便條看來並不重要,但上面的日期和地點都與旅客的說法吻合。",
+      "starter": "At",
+      "answer": "At first, the note seemed unimportant, but its date and place both tied in with the traveller's story.",
+      "answerZh": "起初那張便條看來並不重要,但上面的日期和地點都與旅客的說法吻合。",
+      "highlight": "tied in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Once the balloon is full, make a knot at its neck before you hand it to the child.",
+      "promptZh": "氣球充滿氣後,在交給孩子前先在氣球頸部打結。",
+      "starter": "Once",
+      "answer": "Once the balloon is full, tie off its neck before you hand it to the child.",
+      "answerZh": "氣球充滿氣後,在交給孩子前先把氣球頸部打結封好。",
+      "highlight": "tie off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The speaker likes the idea, but unless we get her to agree clearly to a day, we cannot book the hall.",
+      "promptZh": "講者喜歡這個構思,但除非我們令她明確答應一個日期,否則便無法預訂禮堂。",
+      "starter": "The",
+      "answer": "The speaker likes the idea, but unless we tie her down to a day, we cannot book the hall.",
+      "answerZh": "講者喜歡這個構思,但除非我們令她明確答應一個日期,否則便無法預訂禮堂。",
+      "highlight": "tie",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The parcel was ready to post, except that nobody had yet secured the paper around it with string.",
+      "promptZh": "包裹已可寄出,只是仍未有人用繩把外面的包裝紙固定好。",
+      "starter": "The",
+      "answer": "The parcel was ready to post, except that nobody had yet tied it up with string.",
+      "answerZh": "包裹已可寄出,只是仍未有人用繩把它捆好。",
+      "highlight": "tied",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The tour boat reached the village just before noon and stopped at the dock.",
+      "promptZh": "觀光船在中午前不久到達村莊,並停在碼頭。",
+      "starter": "The",
+      "answer": "The tour boat tied up at the village dock just before noon.",
+      "answerZh": "觀光船在中午前不久停靠在村莊的碼頭。",
+      "highlight": "tied up at",
+      "targetForm": "tie up / tie something up",
+      "targetMeaningZh": "把船停靠並繫好"
+    },
+    {
+      "id": "phrasal-verb-164-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "If the marks on the map match the route we walked, we will know that we are reading it correctly.",
+      "promptZh": "如果地圖上的記號與我們走過的路線吻合,我們便知道自己沒有看錯。",
+      "starter": "If",
+      "answer": "If the marks on the map tie in with the route we walked, we will know that we are reading it correctly.",
+      "answerZh": "如果地圖上的記號與我們走過的路線吻合,我們便知道自己沒有看錯。",
+      "highlight": "tie in with",
+      "targetForm": "tie in with something",
+      "targetMeaningZh": "與資料、說法或事實吻合"
+    },
+    {
+      "id": "phrasal-verb-164-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "To keep the old letters together during the move, Dad bundled them carefully with a piece of ribbon.",
+      "promptZh": "為了在搬屋期間把舊信件放在一起,爸爸用一條絲帶小心地把它們捆好。",
+      "starter": "To",
+      "answer": "To keep the old letters together during the move, Dad tied them up carefully with a piece of ribbon.",
+      "answerZh": "為了在搬屋期間把舊信件放在一起,爸爸用一條絲帶小心地把它們捆好。",
+      "highlight": "tied",
+      "targetForm": "tie something up",
+      "targetMeaningZh": "用繩或絲帶把某物捆好"
+    },
+    {
+      "id": "phrasal-verb-164-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "After several phone calls, the team finally got the owner to agree that 3 May would be the opening date.",
+      "promptZh": "經過幾次電話聯絡後,團隊終於令店主答應把五月三日定為開業日期。",
+      "starter": "After",
+      "answer": "After several phone calls, the team finally tied the owner down to 3 May as the opening date.",
+      "answerZh": "經過幾次電話聯絡後,團隊終於令店主答應把五月三日定為開業日期。",
+      "highlight": "tied",
+      "targetForm": "tie somebody down / tie somebody down to something",
+      "targetMeaningZh": "令某人作出明確承諾"
+    },
+    {
+      "id": "phrasal-verb-164-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The rope has been cut to the right length; now secure the end with a knot so it cannot come loose.",
+      "promptZh": "繩已剪至合適長度;現在把末端打結扎緊,以免鬆開。",
+      "starter": "The",
+      "answer": "The rope has been cut to the right length; now tie off the end so it cannot come loose.",
+      "answerZh": "繩已剪至合適長度;現在把末端打結扎緊,以免鬆開。",
+      "highlight": "tie off",
+      "targetForm": "tie something off",
+      "targetMeaningZh": "把末端扎緊或打結封好"
+    },
+    {
+      "id": "phrasal-verb-164-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The children knew it was only acting, but the scene looked real when the pirate crew bound the hero.",
+      "promptZh": "孩子們知道這只是演戲,但海盜團把英雄綁起來時,場面看來十分真實。",
+      "starter": "The",
+      "answer": "The children knew it was only acting, but the scene looked real when the pirate crew tied the hero up.",
+      "answerZh": "孩子們知道這只是演戲,但海盜團把英雄綁起來時,場面看來十分真實。",
+      "highlight": "tied",
+      "targetForm": "tie somebody up",
+      "targetMeaningZh": "把某人綁起來"
+    },
+    {
+      "id": "phrasal-verb-164-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The company released a short game at the same time as the film because it wanted the game to connect with the film.",
+      "promptZh": "公司在電影上映的同時推出一款短遊戲,因為它希望遊戲能與電影互相配合。",
+      "starter": "The",
+      "answer": "The company released a short game at the same time to tie in with the film.",
+      "answerZh": "公司在同一時間推出一款短遊戲,以配合該電影。",
+      "highlight": "tie in",
+      "targetForm": "tie in with something / tie something in with something",
+      "targetMeaningZh": "與另一活動、內容或產品配合"
+    }
+  ]
+}

@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-209",
+  "order": 209,
+  "slug": "rip",
+  "version": "1",
+  "title": "RIP 動詞片語",
+  "titleEn": "Rip",
+  "titleZh": "RIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 207 - RIP.pdf",
+    "sourceNumber": 207,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 RIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to RIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "RIP",
+      "highlight": "RIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The dog ripped at the rope with its teeth.",
+      "zh": "那隻狗用牙齒猛烈撕咬繩子。",
+      "highlight": "ripped at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The coach ripped into the players for arriving late.",
+      "zh": "教練因球員遲到而怒斥他們。",
+      "highlight": "ripped into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The garage ripped us off with several unfair charges.",
+      "zh": "車房以多項不合理收費敲了我們竹槓。",
+      "highlight": "ripped us off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "猛烈撕咬、抓撕或攻擊某物；猛烈批評某人或某事;怒斥某人；欺騙某人,尤其向對方索取過高價錢或提供劣質貨品；偷走某物;非法抄襲某事物；猛地或用力撕掉、扯下某物；猛烈而迅速地穿過某地方,並造成破壞",
+    "en": "rip at something; rip into somebody/something; rip somebody off; rip something off; rip something off; rip something off somebody/something; rip through something",
+    "naturalZh": [
+      "猛烈撕咬、抓撕或攻擊某物",
+      "猛烈批評某人或某事;怒斥某人",
+      "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+      "偷走某物;非法抄襲某事物",
+      "猛地或用力撕掉、扯下某物",
+      "猛烈而迅速地穿過某地方,並造成破壞"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "rip at something",
+      "titleZh": "猛烈撕咬、抓撕或攻擊某物",
+      "titleEn": "rip at something",
+      "descriptionZh": "猛烈撕咬、抓撕或攻擊某物",
+      "descriptionEn": "The dog ripped at the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The dog ripped at the rope with its teeth.",
+          "zh": "那隻狗用牙齒猛烈撕咬繩子。",
+          "highlight": "ripped at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rip into somebody/something",
+      "titleZh": "猛烈批評某人或某事;怒斥某人",
+      "titleEn": "rip into somebody/something",
+      "descriptionZh": "猛烈批評某人或某事;怒斥某人",
+      "descriptionEn": "The coach ripped into the players for arriving late.",
+      "examples": [
+        {
+          "en": "The coach ripped into the players for arriving late.",
+          "zh": "教練因球員遲到而怒斥他們。",
+          "highlight": "ripped into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rip somebody off",
+      "titleZh": "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+      "titleEn": "rip somebody off",
+      "descriptionZh": "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+      "descriptionEn": "The garage ripped us off with several unfair charges.",
+      "examples": [
+        {
+          "en": "The garage ripped us off with several unfair charges.",
+          "zh": "車房以多項不合理收費敲了我們竹槓。",
+          "highlight": "ripped us off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "rip something off",
+      "titleZh": "偷走某物;非法抄襲某事物",
+      "titleEn": "rip something off",
+      "descriptionZh": "偷走某物;非法抄襲某事物",
+      "descriptionEn": "Thieves broke in and ripped off five computers.",
+      "examples": [
+        {
+          "en": "Thieves broke in and ripped off five computers.",
+          "zh": "賊人闖入並偷走了五部電腦。",
+          "highlight": "ripped off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "rip something off; rip something off somebody/something",
+      "titleZh": "猛地或用力撕掉、扯下某物",
+      "titleEn": "rip something off; rip something off somebody/something",
+      "descriptionZh": "猛地或用力撕掉、扯下某物",
+      "descriptionEn": "She ripped the label off the bottle.",
+      "examples": [
+        {
+          "en": "She ripped the label off the bottle.",
+          "zh": "她猛地把標籤從瓶上撕下。",
+          "highlight": "ripped the label off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "rip through something",
+      "titleZh": "猛烈而迅速地穿過某地方,並造成破壞",
+      "titleEn": "rip through something",
+      "descriptionZh": "猛烈而迅速地穿過某地方,並造成破壞",
+      "descriptionEn": "The fire ripped through the empty warehouse.",
+      "examples": [
+        {
+          "en": "The fire ripped through the empty warehouse.",
+          "zh": "大火迅速燒遍空置貨倉。",
+          "highlight": "ripped through"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "RIP 片語動詞的實際用途",
+    "labelEn": "RIP Phrasal Verbs in Use",
+    "summaryZh": "rip at 和 rip something off 可以描述動物猛烈撕咬物件,或某人突然用力扯下某物。；rip into somebody/something 表示批評帶有憤怒、直接而強烈的語氣。；rip somebody off 可以描述欺騙顧客;rip something off 則可以描述偷走物件或抄襲別人的作品。；rip through 可用來描述大火、風暴、洪水和爆炸迅速蔓延並造成嚴重破壞。",
+    "summaryEn": "Rip at and rip something off can describe animals tearing at objects or people pulling things away suddenly and forcefully. Rip into somebody or something shows that the criticism is angry, direct and forceful. Rip somebody off can describe cheating a customer, while rip something off can describe stealing an object or copying another person’s work. Rip through is useful when talking about fires, storms, floods and explosions that move rapidly and cause serious damage.",
+    "contextsZh": [
+      "清楚描述猛烈的動作",
+      "理解猛烈的批評",
+      "談論不合理收費、偷竊和抄襲",
+      "描述迅速造成的破壞"
+    ],
+    "contextsEn": [
+      "Describe forceful physical actions clearly",
+      "Understand strong criticism",
+      "Talk about unfair prices, theft and copied work",
+      "Describe fast-moving destruction"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 RIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the RIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "rip at something",
+    "fixedHighlight": "rip at something",
+    "fixedZh": "閱讀整句,選出意思相同的 RIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the RIP expression that gives the same meaning.",
+    "correct": "ripped at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；核心表達是 rip into somebody/something。for 或 with 後面的部分只是補充被責罵的原因或所使用的言詞。；在 RIP ... OFF 中使用 him、her、it 或 them 時,把代名詞放在 RIP 和 OFF 中間。",
+    "variableEn": "Keep the same people, things, time and meaning. The core expression is rip into somebody/something. A phrase beginning with for or with only adds the reason or the words used: The coach ripped into the players. The coach ripped into the players for arriving late. The coach ripped into the players with a stream of angry words. When using him, her, it or them in a RIP... OFF expression, place the word between RIP and OFF: rip him off rip it off rip them off",
+    "variableItemsZh": [
+      "rip at something",
+      "rip into somebody/something",
+      "rip somebody off",
+      "rip something off",
+      "rip something off; rip something off somebody/something",
+      "rip through something"
+    ],
+    "variableItemsEn": [
+      "rip at something",
+      "rip into somebody/something",
+      "rip somebody off",
+      "rip something off",
+      "rip something off; rip something off somebody/something",
+      "rip through something"
+    ],
+    "forms": [
+      {
+        "formZh": "猛烈撕咬、抓撕或攻擊某物",
+        "formEn": "rip at something",
+        "exampleZh": "那隻狗用牙齒猛烈撕咬繩子。",
+        "exampleEn": "The dog ripped at the rope with its teeth.",
+        "highlight": "ripped at"
+      },
+      {
+        "formZh": "猛烈批評某人或某事;怒斥某人",
+        "formEn": "rip into somebody/something",
+        "exampleZh": "教練因球員遲到而怒斥他們。",
+        "exampleEn": "The coach ripped into the players for arriving late.",
+        "highlight": "ripped into"
+      },
+      {
+        "formZh": "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+        "formEn": "rip somebody off",
+        "exampleZh": "車房以多項不合理收費敲了我們竹槓。",
+        "exampleEn": "The garage ripped us off with several unfair charges.",
+        "highlight": "ripped us off"
+      },
+      {
+        "formZh": "偷走某物;非法抄襲某事物",
+        "formEn": "rip something off",
+        "exampleZh": "賊人闖入並偷走了五部電腦。",
+        "exampleEn": "Thieves broke in and ripped off five computers.",
+        "highlight": "ripped off"
+      },
+      {
+        "formZh": "猛地或用力撕掉、扯下某物",
+        "formEn": "rip something off; rip something off somebody/something",
+        "exampleZh": "她猛地把標籤從瓶上撕下。",
+        "exampleEn": "She ripped the label off the bottle.",
+        "highlight": "ripped the label off"
+      },
+      {
+        "formZh": "猛烈而迅速地穿過某地方,並造成破壞",
+        "formEn": "rip through something",
+        "exampleZh": "大火迅速燒遍空置貨倉。",
+        "exampleEn": "The fire ripped through the empty warehouse.",
+        "highlight": "ripped through"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "猛烈撕咬、抓撕或攻擊某物",
+      "titleEn": "rip at something",
+      "formula": "rip at something",
+      "highlight": "rip at something",
+      "descriptionZh": "猛烈撕咬、抓撕或攻擊某物",
+      "descriptionEn": "The dog ripped at the rope with its teeth.",
+      "examples": [
+        {
+          "en": "The dog ripped at the rope with its teeth.",
+          "zh": "那隻狗用牙齒猛烈撕咬繩子。",
+          "highlight": "ripped at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "猛烈批評某人或某事;怒斥某人",
+      "titleEn": "rip into somebody/something",
+      "formula": "rip into somebody/something",
+      "highlight": "rip into somebody/something",
+      "descriptionZh": "猛烈批評某人或某事;怒斥某人",
+      "descriptionEn": "The coach ripped into the players for arriving late.",
+      "examples": [
+        {
+          "en": "The coach ripped into the players for arriving late.",
+          "zh": "教練因球員遲到而怒斥他們。",
+          "highlight": "ripped into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+      "titleEn": "rip somebody off",
+      "formula": "rip somebody off",
+      "highlight": "rip somebody off",
+      "descriptionZh": "欺騙某人,尤其向對方索取過高價錢或提供劣質貨品",
+      "descriptionEn": "The garage ripped us off with several unfair charges.",
+      "examples": [
+        {
+          "en": "The garage ripped us off with several unfair charges.",
+          "zh": "車房以多項不合理收費敲了我們竹槓。",
+          "highlight": "ripped us off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "偷走某物;非法抄襲某事物",
+      "titleEn": "rip something off",
+      "formula": "rip something off",
+      "highlight": "rip something off",
+      "descriptionZh": "偷走某物;非法抄襲某事物",
+      "descriptionEn": "Thieves broke in and ripped off five computers.",
+      "examples": [
+        {
+          "en": "Thieves broke in and ripped off five computers.",
+          "zh": "賊人闖入並偷走了五部電腦。",
+          "highlight": "ripped off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "猛地或用力撕掉、扯下某物",
+      "titleEn": "rip something off; rip something off somebody/something",
+      "formula": "rip something off; rip something off somebody/something",
+      "highlight": "rip something off; rip something off somebody/something",
+      "descriptionZh": "猛地或用力撕掉、扯下某物",
+      "descriptionEn": "She ripped the label off the bottle.",
+      "examples": [
+        {
+          "en": "She ripped the label off the bottle.",
+          "zh": "她猛地把標籤從瓶上撕下。",
+          "highlight": "ripped the label off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "猛烈而迅速地穿過某地方,並造成破壞",
+      "titleEn": "rip through something",
+      "formula": "rip through something",
+      "highlight": "rip through something",
+      "descriptionZh": "猛烈而迅速地穿過某地方,並造成破壞",
+      "descriptionEn": "The fire ripped through the empty warehouse.",
+      "examples": [
+        {
+          "en": "The fire ripped through the empty warehouse.",
+          "zh": "大火迅速燒遍空置貨倉。",
+          "highlight": "ripped through"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述猛烈的動作",
+      "titleEn": "Describe forceful physical actions clearly",
+      "zh": "rip at 和 rip something off 可以描述動物猛烈撕咬物件,或某人突然用力扯下某物。",
+      "en": "Rip at and rip something off can describe animals tearing at objects or people pulling things away suddenly and forcefully."
+    },
+    {
+      "titleZh": "理解猛烈的批評",
+      "titleEn": "Understand strong criticism",
+      "zh": "rip into somebody/something 表示批評帶有憤怒、直接而強烈的語氣。",
+      "en": "Rip into somebody or something shows that the criticism is angry, direct and forceful."
+    },
+    {
+      "titleZh": "談論不合理收費、偷竊和抄襲",
+      "titleEn": "Talk about unfair prices, theft and copied work",
+      "zh": "rip somebody off 可以描述欺騙顧客;rip something off 則可以描述偷走物件或抄襲別人的作品。",
+      "en": "Rip somebody off can describe cheating a customer, while rip something off can describe stealing an object or copying another person’s work."
+    },
+    {
+      "titleZh": "描述迅速造成的破壞",
+      "titleEn": "Describe fast-moving destruction",
+      "zh": "rip through 可用來描述大火、風暴、洪水和爆炸迅速蔓延並造成嚴重破壞。",
+      "en": "Rip through is useful when talking about fires, storms, floods and explosions that move rapidly and cause serious damage."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述猛烈的動作",
+      "理解猛烈的批評",
+      "談論不合理收費、偷竊和抄襲",
+      "描述迅速造成的破壞"
+    ],
+    "contextsEn": [
+      "Describe forceful physical actions clearly",
+      "Understand strong criticism",
+      "Talk about unfair prices, theft and copied work",
+      "Describe fast-moving destruction"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述猛烈的動作",
+        "titleEn": "Describe forceful physical actions clearly",
+        "zh": "rip at 和 rip something off 可以描述動物猛烈撕咬物件,或某人突然用力扯下某物。",
+        "en": "Rip at and rip something off can describe animals tearing at objects or people pulling things away suddenly and forcefully.",
+        "examples": [
+          {
+            "en": "The dog ripped at the rope with its teeth.",
+            "zh": "那隻狗用牙齒猛烈撕咬繩子。",
+            "highlight": "ripped at"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解猛烈的批評",
+        "titleEn": "Understand strong criticism",
+        "zh": "rip into somebody/something 表示批評帶有憤怒、直接而強烈的語氣。",
+        "en": "Rip into somebody or something shows that the criticism is angry, direct and forceful.",
+        "examples": [
+          {
+            "en": "The coach ripped into the players for arriving late.",
+            "zh": "教練因球員遲到而怒斥他們。",
+            "highlight": "ripped into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論不合理收費、偷竊和抄襲",
+        "titleEn": "Talk about unfair prices, theft and copied work",
+        "zh": "rip somebody off 可以描述欺騙顧客;rip something off 則可以描述偷走物件或抄襲別人的作品。",
+        "en": "Rip somebody off can describe cheating a customer, while rip something off can describe stealing an object or copying another person’s work.",
+        "examples": [
+          {
+            "en": "The garage ripped us off with several unfair charges.",
+            "zh": "車房以多項不合理收費敲了我們竹槓。",
+            "highlight": "ripped us off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迅速造成的破壞",
+        "titleEn": "Describe fast-moving destruction",
+        "zh": "rip through 可用來描述大火、風暴、洪水和爆炸迅速蔓延並造成嚴重破壞。",
+        "en": "Rip through is useful when talking about fires, storms, floods and explosions that move rapidly and cause serious damage.",
+        "examples": [
+          {
+            "en": "Thieves broke in and ripped off five computers.",
+            "zh": "賊人闖入並偷走了五部電腦。",
+            "highlight": "ripped off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 RIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the RIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 RIP 片語動詞。",
+      "en": "Read the whole sentence and choose the RIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "核心表達是 rip into somebody/something。for 或 with 後面的部分只是補充被責罵的原因或所使用的言詞。",
+      "titleEn": "The core expression is rip into somebody/something.",
+      "zh": "核心表達是 rip into somebody/something。for 或 with 後面的部分只是補充被責罵的原因或所使用的言詞。",
+      "en": "The core expression is rip into somebody/something. A phrase beginning with for or with only adds the reason or the words used: The coach ripped into the players. The coach ripped into the players for arriving late. The coach ripped into the players with a stream of angry words."
+    },
+    {
+      "titleZh": "在 RIP ... OFF 中使用 him、her、it 或 them 時,把代名詞放在 RIP 和 OFF 中間。",
+      "titleEn": "When using him, her, it or them in a RIP.",
+      "zh": "在 RIP ... OFF 中使用 him、her、it 或 them 時,把代名詞放在 RIP 和 OFF 中間。",
+      "en": "When using him, her, it or them in a RIP... OFF expression, place the word between RIP and OFF: rip him off rip it off rip them off"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 RIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to RIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "RIP 動詞片語句子改寫練習",
+    "titleEn": "RIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 RIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to RIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-209-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The dog attacked the old rope violently with its teeth.",
+      "promptZh": "那隻狗用牙齒猛烈撕咬那條舊繩。",
+      "starter": "The",
+      "answer": "The dog ripped at the old rope with its teeth.",
+      "answerZh": "那隻狗用牙齒猛烈撕咬那條舊繩。",
+      "highlight": "ripped at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The taxi driver cheated us by charging twice the normal price.",
+      "promptZh": "的士司機向我們收取正常車費的兩倍,欺騙了我們。",
+      "starter": "The",
+      "answer": "The taxi driver ripped us off by charging twice the normal price.",
+      "answerZh": "的士司機向我們收取正常車費的兩倍,敲了我們竹槓。",
+      "highlight": "ripped",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A powerful fire moved quickly through the empty warehouse and destroyed it.",
+      "promptZh": "一場猛烈大火迅速燒遍空置貨倉,並把它燒毀。",
+      "starter": "A",
+      "answer": "A powerful fire ripped through the empty warehouse and destroyed it.",
+      "answerZh": "一場猛烈大火迅速燒遍空置貨倉,並把它燒毀。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The coach angrily criticised the players for arriving late.",
+      "promptZh": "教練因球員遲到而怒斥他們。",
+      "starter": "The",
+      "answer": "The coach ripped into the players for arriving late.",
+      "answerZh": "教練因球員遲到而怒斥他們。",
+      "highlight": "ripped into",
+      "targetForm": "rip into somebody",
+      "targetMeaningZh": "猛烈批評或怒斥某人"
+    },
+    {
+      "id": "phrasal-verb-209-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Lena pulled the label off the bottle in one sudden, forceful movement.",
+      "promptZh": "莉娜突然用力把標籤從瓶上扯下。",
+      "starter": "Lena",
+      "answer": "Lena ripped the label off the bottle.",
+      "answerZh": "莉娜用力把標籤從瓶上扯下。",
+      "highlight": "ripped",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Thieves broke into the office and stole five computers.",
+      "promptZh": "賊人闖入辦公室,偷走了五部電腦。",
+      "starter": "Thieves",
+      "answer": "Thieves broke into the office and ripped off five computers.",
+      "answerZh": "賊人闖入辦公室,偷走了五部電腦。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "偷走某物"
+    },
+    {
+      "id": "phrasal-verb-209-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We were cheated when the shop sold us a broken phone at full price.",
+      "promptZh": "那間店以正價賣給我們一部壞電話,令我們受騙。",
+      "starter": "We",
+      "answer": "We were ripped off when the shop sold us a broken phone at full price.",
+      "answerZh": "那間店以正價賣給我們一部壞電話,令我們被敲了竹槓。",
+      "highlight": "ripped off",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The bird attacked the plastic bag with its beak, trying to tear it open.",
+      "promptZh": "那隻鳥用鳥嘴猛烈撕扯膠袋,試圖把它啄破。",
+      "starter": "The",
+      "answer": "The bird ripped at the plastic bag with its beak, trying to tear it open.",
+      "answerZh": "那隻鳥用鳥嘴猛烈撕扯膠袋,試圖把它啄破。",
+      "highlight": "ripped at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The reviewer strongly criticised the film because the story made no sense.",
+      "promptZh": "影評人猛烈批評這部電影,因為故事完全不合情理。",
+      "starter": "The",
+      "answer": "The reviewer ripped into the film because the story made no sense.",
+      "answerZh": "影評人猛烈批評這部電影,因為故事完全不合情理。",
+      "highlight": "ripped into",
+      "targetForm": "rip into something",
+      "targetMeaningZh": "猛烈批評某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A violent storm moved through the small town and damaged many roofs.",
+      "promptZh": "一場猛烈風暴橫掃小鎮,損壞了許多屋頂。",
+      "starter": "A",
+      "answer": "A violent storm ripped through the small town and damaged many roofs.",
+      "answerZh": "一場猛烈風暴橫掃小鎮,損壞了許多屋頂。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The new website illegally copied the small shop’s logo.",
+      "promptZh": "新網站非法抄襲了那間小店的標誌。",
+      "starter": "The",
+      "answer": "The new website ripped off the small shop’s logo.",
+      "answerZh": "新網站非法抄襲了那間小店的標誌。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Jay pulled his wet shirt off quickly.",
+      "promptZh": "傑迅速把濕透的上衣扯下。",
+      "starter": "Jay",
+      "answer": "Jay ripped his wet shirt off.",
+      "answerZh": "傑迅速把濕透的上衣扯下。",
+      "highlight": "ripped",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "迅速扯下某物"
+    },
+    {
+      "id": "phrasal-verb-209-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The studio has illegally copied the main idea from an older film.",
+      "promptZh": "製作公司非法抄襲了一部較舊電影的主要構思。",
+      "starter": "The",
+      "answer": "The studio has ripped off the main idea from an older film.",
+      "answerZh": "製作公司非法抄襲了一部較舊電影的主要構思。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why did the manager angrily criticise you for one small mistake?",
+      "promptZh": "經理為何因一個小錯誤而怒斥你?",
+      "starter": "Why",
+      "answer": "Why did the manager rip into you for one small mistake?",
+      "answerZh": "經理為何因一個小錯誤而怒斥你?",
+      "highlight": "rip into",
+      "targetForm": "rip into somebody for something",
+      "targetMeaningZh": "因某事怒斥某人"
+    },
+    {
+      "id": "phrasal-verb-209-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The wind is pulling the loose cover off the boat.",
+      "promptZh": "風正把鬆脫的船罩從船上扯下。",
+      "starter": "The",
+      "answer": "The wind is ripping the loose cover off the boat.",
+      "answerZh": "風正把鬆脫的船罩從船上扯下。",
+      "highlight": "ripping",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The puppy is attacking the cushion with its teeth.",
+      "promptZh": "小狗正用牙齒猛烈撕咬坐墊。",
+      "starter": "The",
+      "answer": "The puppy is ripping at the cushion with its teeth.",
+      "answerZh": "小狗正用牙齒猛烈撕咬坐墊。",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "By midnight, the fire had moved through three empty shops and badly damaged them.",
+      "promptZh": "到午夜時,大火已迅速燒遍三間空置店舖,並把它們嚴重燒毀。",
+      "starter": "By",
+      "answer": "By midnight, the fire had ripped through three empty shops and badly damaged them.",
+      "answerZh": "到午夜時,大火已迅速燒遍三間空置店舖,並把它們嚴重燒毀。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Tourists can be cheated by drivers who charge unfair prices.",
+      "promptZh": "遊客可能會被收取不合理車費的司機敲竹槓。",
+      "starter": "Tourists",
+      "answer": "Tourists can be ripped off by drivers who charge unfair prices.",
+      "answerZh": "遊客可能會被收取不合理車費的司機敲竹槓。",
+      "highlight": "ripped off",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;向某人索價過高"
+    },
+    {
+      "id": "phrasal-verb-209-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The teacher may angrily criticise the class if nobody follows the safety rules.",
+      "promptZh": "如果沒有人遵守安全規則,老師可能會怒斥全班。",
+      "starter": "The",
+      "answer": "The teacher may rip into the class if nobody follows the safety rules.",
+      "answerZh": "如果沒有人遵守安全規則,老師可能會怒斥全班。",
+      "highlight": "rip into",
+      "targetForm": "rip into somebody",
+      "targetMeaningZh": "猛烈批評或怒斥某人"
+    },
+    {
+      "id": "phrasal-verb-209-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Our game design appeared on another website. Someone had copied it illegally from our site.",
+      "promptZh": "我們的遊戲設計出現在另一個網站上。有人從我們的網站非法抄襲了它。",
+      "starter": "Our",
+      "answer": "Our game design appeared on another website. Someone had ripped it off from our site.",
+      "answerZh": "我們的遊戲設計出現在另一個網站上。有人從我們的網站非法抄襲了它。",
+      "highlight": "ripped",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Do not let the cat attack the curtains with its claws.",
+      "promptZh": "不要讓貓用爪猛烈撕扯窗簾。",
+      "starter": "Do",
+      "answer": "Do not let the cat rip at the curtains with its claws.",
+      "answerZh": "不要讓貓用爪猛烈撕扯窗簾。",
+      "highlight": "rip at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Nora pulled the paper wrapping off the box in one quick movement.",
+      "promptZh": "諾拉一下子把包裝紙從盒上扯下。",
+      "starter": "Nora",
+      "answer": "Nora ripped the paper wrapping off the box in one quick movement.",
+      "answerZh": "諾拉一下子把包裝紙從盒上扯下。",
+      "highlight": "ripped",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Are they trying to cheat me with this extra charge?",
+      "promptZh": "他們是否企圖利用這項額外收費敲我竹槓?",
+      "starter": "Are",
+      "answer": "Are they trying to rip me off with this extra charge?",
+      "answerZh": "他們是否企圖利用這項額外收費敲我竹槓?",
+      "highlight": "rip",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "A wall of water was moving violently through the campsite, carrying tents away.",
+      "promptZh": "一道洪水正猛烈衝過營地,把帳篷沖走。",
+      "starter": "A",
+      "answer": "A wall of water was ripping through the campsite, carrying tents away.",
+      "answerZh": "一道洪水正猛烈衝過營地,把帳篷沖走。",
+      "highlight": "ripping",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Being cheated at the airport made the family angry.",
+      "promptZh": "在機場受騙令那個家庭十分生氣。",
+      "starter": "Being",
+      "answer": "Being ripped off at the airport made the family angry.",
+      "answerZh": "在機場被敲竹槓令那個家庭十分生氣。",
+      "highlight": "ripped off",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Nothing could stop the flames from moving quickly through the dry grass.",
+      "promptZh": "沒有任何東西能阻止火焰迅速燒過乾草地。",
+      "starter": "Nothing",
+      "answer": "Nothing could stop the flames from ripping through the dry grass.",
+      "answerZh": "沒有任何東西能阻止火焰迅速燒過乾草地。",
+      "highlight": "ripping",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After attacking the cardboard box for several minutes, the fox made a hole in it.",
+      "promptZh": "狐狸猛烈撕咬紙皮箱數分鐘後,在箱上弄出了一個洞。",
+      "starter": "After",
+      "answer": "After ripping at the cardboard box for several minutes, the fox made a hole in it.",
+      "answerZh": "狐狸猛烈撕咬紙皮箱數分鐘後,在箱上弄出了一個洞。",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The sticker was removed from the window with one quick, forceful pull.",
+      "promptZh": "貼紙被人一下子用力從窗上扯下。",
+      "starter": "The",
+      "answer": "The sticker was ripped off the window.",
+      "answerZh": "貼紙被人一下子用力從窗上扯下。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The song appears to have been copied illegally from an old hit.",
+      "promptZh": "這首歌看來是從一首舊熱門歌曲非法抄襲而來。",
+      "starter": "The",
+      "answer": "The song appears to have been ripped off from an old hit.",
+      "answerZh": "這首歌看來是從一首舊熱門歌曲非法抄襲而來。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Without warning, the customer began to criticise the clerk angrily with a long list of complaints.",
+      "promptZh": "顧客毫無預警地開始怒斥店員,說出一大串投訴。",
+      "starter": "Without",
+      "answer": "Without warning, the customer began to rip into the clerk with a long list of complaints.",
+      "answerZh": "顧客毫無預警地開始怒斥店員,說出一大串投訴。",
+      "highlight": "rip into",
+      "targetForm": "rip into somebody with something",
+      "targetMeaningZh": "以強烈言詞怒斥某人"
+    },
+    {
+      "id": "phrasal-verb-209-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The old school was empty when an explosion moved violently through it.",
+      "promptZh": "爆炸猛烈衝過那間舊校舍時,校舍內空無一人。",
+      "starter": "The",
+      "answer": "The old school was empty when an explosion ripped through it.",
+      "answerZh": "爆炸猛烈衝過那間舊校舍時,校舍內空無一人。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The bank was accused of cheating customers with unfair fees.",
+      "promptZh": "銀行被指利用不公平費用敲顧客竹槓。",
+      "starter": "The",
+      "answer": "The bank was accused of ripping customers off with unfair fees.",
+      "answerZh": "銀行被指利用不公平費用敲顧客竹槓。",
+      "highlight": "ripping",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;向某人收取不合理費用"
+    },
+    {
+      "id": "phrasal-verb-209-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Before opening the parcel, Arun pulled the strong tape off it quickly.",
+      "promptZh": "阿倫打開包裹前,迅速把牢固的膠紙扯下。",
+      "starter": "Before",
+      "answer": "Before opening the parcel, Arun ripped the strong tape off it.",
+      "answerZh": "阿倫打開包裹前,迅速把牢固的膠紙扯下。",
+      "highlight": "ripped",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Why is the animal attacking the wooden door with its claws?",
+      "promptZh": "那隻動物為何正用爪猛烈抓撕木門?",
+      "starter": "Why",
+      "answer": "Why is the animal ripping at the wooden door with its claws?",
+      "answerZh": "那隻動物為何正用爪猛烈抓撕木門?",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "It was unfair of the captain to criticise Leo angrily for missing one pass.",
+      "promptZh": "隊長因里奧漏接一次傳球便怒斥他,這樣並不公平。",
+      "starter": "It",
+      "answer": "It was unfair of the captain to rip into Leo for missing one pass.",
+      "answerZh": "隊長因里奧漏接一次傳球便怒斥他,這樣並不公平。",
+      "highlight": "rip into",
+      "targetForm": "rip into somebody for doing something",
+      "targetMeaningZh": "因某人做了某事而怒斥對方"
+    },
+    {
+      "id": "phrasal-verb-209-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "He admitted illegally copying the logo from a young artist.",
+      "promptZh": "他承認非法抄襲了一名年輕藝術家的標誌。",
+      "starter": "He",
+      "answer": "He admitted ripping off the logo from a young artist.",
+      "answerZh": "他承認非法抄襲了一名年輕藝術家的標誌。",
+      "highlight": "ripping off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The child pulled the toy mask from his face so quickly that the string broke.",
+      "promptZh": "孩子太快把玩具面具從臉上扯下,令繩子斷了。",
+      "starter": "The",
+      "answer": "The child ripped the toy mask off his face so quickly that the string broke.",
+      "answerZh": "孩子太快把玩具面具從臉上扯下,令繩子斷了。",
+      "highlight": "ripped",
+      "targetForm": "rip something off somebody",
+      "targetMeaningZh": "猛地把某物從某人身上扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Strong winds attacked the tent all night, pulling at the cloth.",
+      "promptZh": "強風吹了一整晚,不斷猛烈拉扯帳篷布。",
+      "starter": "Strong",
+      "answer": "Strong winds ripped at the tent all night, pulling at the cloth.",
+      "answerZh": "強風吹了一整晚,不斷猛烈拉扯帳篷布。",
+      "highlight": "ripped at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕扯或拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-209-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Was this phone app illegally copied from an older game?",
+      "promptZh": "這款手機應用程式是從一款較舊遊戲非法抄襲而來的嗎?",
+      "starter": "Was",
+      "answer": "Was this phone app ripped off from an older game?",
+      "answerZh": "這款手機應用程式是從一款較舊遊戲非法抄襲而來的嗎?",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "A restaurant that cheats visitors will soon receive bad reviews.",
+      "promptZh": "一間欺騙遊客的餐廳很快便會收到負評。",
+      "starter": "A",
+      "answer": "A restaurant that rips visitors off will soon receive bad reviews.",
+      "answerZh": "一間敲遊客竹槓的餐廳很快便會收到負評。",
+      "highlight": "rips",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After strongly criticising the plan, the director asked the team to start again.",
+      "promptZh": "導演猛烈批評計劃後,要求團隊重新開始。",
+      "starter": "After",
+      "answer": "After ripping into the plan, the director asked the team to start again.",
+      "answerZh": "導演猛烈批評計劃後,要求團隊重新開始。",
+      "highlight": "ripping into",
+      "targetForm": "rip into something",
+      "targetMeaningZh": "猛烈批評某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "We watched as the storm moved violently through the forest and knocked down trees.",
+      "promptZh": "我們看着風暴猛烈穿過森林,吹倒樹木。",
+      "starter": "We",
+      "answer": "We watched as the storm ripped through the forest and knocked down trees.",
+      "answerZh": "我們看着風暴猛烈穿過森林,吹倒樹木。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The trapped bird kept attacking the net with its beak.",
+      "promptZh": "被困的小鳥不斷用鳥嘴猛烈撕扯那張網。",
+      "starter": "The",
+      "answer": "The trapped bird kept ripping at the net with its beak.",
+      "answerZh": "被困的小鳥不斷用鳥嘴猛烈撕扯那張網。",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Why did you pull the poster off the wall in one sudden, forceful movement?",
+      "promptZh": "你為何一下子用力把海報從牆上扯下?",
+      "starter": "Why",
+      "answer": "Why did you rip the poster off the wall in one sudden movement?",
+      "answerZh": "你為何一下子用力把海報從牆上扯下?",
+      "highlight": "rip",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "She felt that the online seller had cheated her by sending a cheap copy.",
+      "promptZh": "她覺得網上賣家寄來廉價仿製品,欺騙了她。",
+      "starter": "She",
+      "answer": "She felt that the online seller had ripped her off by sending a cheap copy.",
+      "answerZh": "她覺得網上賣家寄來廉價仿製品,欺騙了她。",
+      "highlight": "ripped",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;提供劣質貨品"
+    },
+    {
+      "id": "phrasal-verb-209-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Do not illegally copy another writer’s work and call it your own.",
+      "promptZh": "不要非法抄襲另一位作家的作品,然後說是自己的。",
+      "starter": "Do",
+      "answer": "Do not rip off another writer’s work and call it your own.",
+      "answerZh": "不要非法抄襲另一位作家的作品,然後說是自己的。",
+      "highlight": "rip off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "A storm that moved violently through the coastal area left hundreds of homes without power.",
+      "promptZh": "一場橫掃沿海地區的風暴令數百個家庭停電。",
+      "starter": "A",
+      "answer": "A storm that ripped through the coastal area left hundreds of homes without power.",
+      "answerZh": "一場橫掃沿海地區的風暴令數百個家庭停電。",
+      "highlight": "ripped",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The presenter was ready to criticise the new rule strongly during the live show.",
+      "promptZh": "主持人準備在直播節目中猛烈批評新規則。",
+      "starter": "The",
+      "answer": "The presenter was ready to rip into the new rule during the live show.",
+      "answerZh": "主持人準備在直播節目中猛烈批評新規則。",
+      "highlight": "rip into",
+      "targetForm": "rip into something",
+      "targetMeaningZh": "猛烈批評某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After moving violently through the village, the flood carried cars and signs away.",
+      "promptZh": "洪水猛烈衝過村莊後,把汽車和路牌沖走。",
+      "starter": "After",
+      "answer": "After ripping through the village, the flood carried cars and signs away.",
+      "answerZh": "洪水猛烈衝過村莊後,把汽車和路牌沖走。",
+      "highlight": "ripping",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Do not let a dishonest repair shop cheat you by adding work you did not ask for.",
+      "promptZh": "不要讓不誠實的維修店加入你沒有要求的工作來敲你竹槓。",
+      "starter": "Do",
+      "answer": "Do not let a dishonest repair shop rip you off by adding work you did not ask for.",
+      "answerZh": "不要讓不誠實的維修店加入你沒有要求的工作來敲你竹槓。",
+      "highlight": "rip",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;敲某人竹槓"
+    },
+    {
+      "id": "phrasal-verb-209-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The coach may strongly criticise anyone who arrives late in front of the whole team.",
+      "promptZh": "教練可能會在全隊面前怒斥任何遲到的人。",
+      "starter": "The",
+      "answer": "The coach may rip into anyone who arrives late in front of the whole team.",
+      "answerZh": "教練可能會在全隊面前怒斥任何遲到的人。",
+      "highlight": "rip into",
+      "targetForm": "rip into somebody",
+      "targetMeaningZh": "猛烈批評或怒斥某人"
+    },
+    {
+      "id": "phrasal-verb-209-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The company may have illegally copied its new design from a student project.",
+      "promptZh": "公司可能從一個學生項目非法抄襲了新設計。",
+      "starter": "The",
+      "answer": "The company may have ripped off its new design from a student project.",
+      "answerZh": "公司可能從一個學生項目非法抄襲了新設計。",
+      "highlight": "ripped off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even after the keeper moved the food, the animal continued attacking the bag.",
+      "promptZh": "即使管理員已把食物移走,那隻動物仍繼續猛烈撕扯袋子。",
+      "starter": "Even",
+      "answer": "Even after the keeper moved the food, the animal continued ripping at the bag.",
+      "answerZh": "即使管理員已把食物移走,那隻動物仍繼續猛烈撕扯袋子。",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    },
+    {
+      "id": "phrasal-verb-209-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the race ended, Zoe pulled the number from her shirt in one hard movement.",
+      "promptZh": "比賽一結束,佐伊便一下子用力把號碼布從上衣扯下。",
+      "starter": "As",
+      "answer": "As soon as the race ended, Zoe ripped the number off her shirt.",
+      "answerZh": "比賽一結束,佐伊便一下子用力把號碼布從上衣扯下。",
+      "highlight": "ripped",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Although the price looked fair, the poor-quality parts showed that the garage had cheated us.",
+      "promptZh": "雖然價格看來合理,但低質素零件顯示車房欺騙了我們。",
+      "starter": "Although",
+      "answer": "Although the price looked fair, the poor-quality parts showed that the garage had ripped us off.",
+      "answerZh": "雖然價格看來合理,但低質素零件顯示車房欺騙了我們。",
+      "highlight": "ripped",
+      "targetForm": "rip somebody off",
+      "targetMeaningZh": "欺騙某人;提供劣質貨品"
+    },
+    {
+      "id": "phrasal-verb-209-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The closed doors stopped the fire from moving through the whole building.",
+      "promptZh": "關上的門阻止大火燒遍整座大樓。",
+      "starter": "The",
+      "answer": "The closed doors stopped the fire from ripping through the whole building.",
+      "answerZh": "關上的門阻止大火燒遍整座大樓。",
+      "highlight": "ripping",
+      "targetForm": "rip through something",
+      "targetMeaningZh": "猛烈穿過並造成破壞"
+    },
+    {
+      "id": "phrasal-verb-209-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After illegally copying the film’s main idea, the studio changed only the ending.",
+      "promptZh": "製作公司非法抄襲電影的主要構思後,只改了結局。",
+      "starter": "After",
+      "answer": "After ripping off the film’s main idea, the studio changed only the ending.",
+      "answerZh": "製作公司非法抄襲電影的主要構思後,只改了結局。",
+      "highlight": "ripping off",
+      "targetForm": "rip something off",
+      "targetMeaningZh": "非法抄襲某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The article strongly criticises the company for hiding the extra charges.",
+      "promptZh": "文章猛烈批評公司隱瞞額外收費。",
+      "starter": "The",
+      "answer": "The article rips into the company for hiding the extra charges.",
+      "answerZh": "文章猛烈批評公司隱瞞額外收費。",
+      "highlight": "rips into",
+      "targetForm": "rip into somebody/something for doing something",
+      "targetMeaningZh": "因某事猛烈批評某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-209-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The wind had pulled the roof from the small shed before anyone could protect it.",
+      "promptZh": "在任何人來得及保護小棚前,強風已把屋頂扯走。",
+      "starter": "The",
+      "answer": "The wind had ripped the roof off the small shed before anyone could protect it.",
+      "answerZh": "在任何人來得及保護小棚前,強風已把屋頂扯走。",
+      "highlight": "ripped",
+      "targetForm": "rip something off something",
+      "targetMeaningZh": "猛地把某物扯下"
+    },
+    {
+      "id": "phrasal-verb-209-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The dog would not stop attacking the seat belt with its teeth during the journey.",
+      "promptZh": "旅程途中,那隻狗不停用牙齒猛烈撕咬安全帶。",
+      "starter": "The",
+      "answer": "The dog would not stop ripping at the seat belt with its teeth during the journey.",
+      "answerZh": "旅程途中,那隻狗不停用牙齒猛烈撕咬安全帶。",
+      "highlight": "ripping at",
+      "targetForm": "rip at something",
+      "targetMeaningZh": "猛烈撕咬或抓撕某物"
+    }
+  ]
+}

@@ -1,0 +1,2463 @@
+{
+  "id": "phrasal-verb-210",
+  "order": 210,
+  "slug": "give",
+  "version": "1",
+  "title": "GIVE 動詞片語",
+  "titleEn": "Give",
+  "titleZh": "GIVE 動詞片語",
+  "level": "B1",
+  "groupCount": 18,
+  "source": {
+    "file": "Phrasal Verbs 208 - GIVE.pdf",
+    "sourceNumber": 208,
+    "pageCount": 39,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "answerKeyPdfPages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GIVE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GIVE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GIVE",
+      "highlight": "GIVE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "At last, Ravi gave in.",
+      "zh": "拉維終於讓步了。",
+      "highlight": "gave in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She gives of her time every weekend.",
+      "zh": "她每個週末都自願付出時間幫助別人。",
+      "highlight": "gives",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The candle gives off a sweet smell.",
+      "zh": "蠟燭散發出香甜的氣味。",
+      "highlight": "gives off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "停止抵抗;讓步;認輸；自願付出時間、精力或能力幫助別人；散發氣味、熱力、光、氣體等；門或窗通往、面向某處；力量、供應或設備最後耗盡或失靈；停止令人厭煩的行為;別鬧了；在婚禮上陪伴新娘進場,並正式把她交給伴侶；把某人或某物歸還；放棄;停止嘗試、做某事或維持某種關係；把人或事物交給別人管理,或把時間、空間撥作某種用途；無意中暴露身分、秘密、真相或真正感受；免費送出;捐出；為某物支付某個價錢；交上;提交文件、功課或測驗；派發;分發；不再相信某人或某事能改善或成功；完全投入某種感受或活動;任由自己受其支配；向警方或其他當局投降",
+    "en": "give in (to somebody/something); give of something / give of yourself; give off something; give onto something; give out; give over; give somebody away; give somebody/something back (to somebody); give up / give somebody/something up / give up doing something; give somebody/something over to somebody / give something over to something; give somebody/something/yourself away; give something away; give something for something; give something in (to somebody); give something out; give up on somebody/something; give yourself over/up to something / doing something; give yourself up (to somebody/something)",
+    "naturalZh": [
+      "停止抵抗;讓步;認輸",
+      "自願付出時間、精力或能力幫助別人",
+      "散發氣味、熱力、光、氣體等",
+      "門或窗通往、面向某處",
+      "力量、供應或設備最後耗盡或失靈",
+      "停止令人厭煩的行為;別鬧了",
+      "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+      "把某人或某物歸還",
+      "放棄;停止嘗試、做某事或維持某種關係",
+      "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+      "無意中暴露身分、秘密、真相或真正感受",
+      "免費送出;捐出",
+      "為某物支付某個價錢",
+      "交上;提交文件、功課或測驗",
+      "派發;分發",
+      "不再相信某人或某事能改善或成功",
+      "完全投入某種感受或活動;任由自己受其支配",
+      "向警方或其他當局投降"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "give in (to somebody/something)",
+      "titleZh": "停止抵抗;讓步;認輸",
+      "titleEn": "give in (to somebody/something)",
+      "descriptionZh": "停止抵抗;讓步;認輸",
+      "descriptionEn": "At last, Ravi gave in.",
+      "examples": [
+        {
+          "en": "At last, Ravi gave in.",
+          "zh": "拉維終於讓步了。",
+          "highlight": "gave in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give of something / give of yourself",
+      "titleZh": "自願付出時間、精力或能力幫助別人",
+      "titleEn": "give of something / give of yourself",
+      "descriptionZh": "自願付出時間、精力或能力幫助別人",
+      "descriptionEn": "She gives of her time every weekend.",
+      "examples": [
+        {
+          "en": "She gives of her time every weekend.",
+          "zh": "她每個週末都自願付出時間幫助別人。",
+          "highlight": "gives"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give off something",
+      "titleZh": "散發氣味、熱力、光、氣體等",
+      "titleEn": "give off something",
+      "descriptionZh": "散發氣味、熱力、光、氣體等",
+      "descriptionEn": "The candle gives off a sweet smell.",
+      "examples": [
+        {
+          "en": "The candle gives off a sweet smell.",
+          "zh": "蠟燭散發出香甜的氣味。",
+          "highlight": "gives off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give onto something",
+      "titleZh": "門或窗通往、面向某處",
+      "titleEn": "give onto something",
+      "descriptionZh": "門或窗通往、面向某處",
+      "descriptionEn": "The doors give onto a small garden.",
+      "examples": [
+        {
+          "en": "The doors give onto a small garden.",
+          "zh": "這些門通往一個小花園。",
+          "highlight": "give onto"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give out",
+      "titleZh": "力量、供應或設備最後耗盡或失靈",
+      "titleEn": "give out",
+      "descriptionZh": "力量、供應或設備最後耗盡或失靈",
+      "descriptionEn": "My strength gave out near the end.",
+      "examples": [
+        {
+          "en": "My strength gave out near the end.",
+          "zh": "接近終點時,我終於用盡了力氣。",
+          "highlight": "gave out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give over",
+      "titleZh": "停止令人厭煩的行為;別鬧了",
+      "titleEn": "give over",
+      "descriptionZh": "停止令人厭煩的行為;別鬧了",
+      "descriptionEn": "Give over! I am trying to read.",
+      "examples": [
+        {
+          "en": "Give over! I am trying to read.",
+          "zh": "別鬧了!我正在看書。",
+          "highlight": "Give over"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give somebody away",
+      "titleZh": "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+      "titleEn": "give somebody away",
+      "descriptionZh": "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+      "descriptionEn": "Her mother gave her away at the wedding.",
+      "examples": [
+        {
+          "en": "Her mother gave her away at the wedding.",
+          "zh": "她的母親在婚禮上陪伴她進場,並正式把她交給伴侶。",
+          "highlight": "gave her away"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give somebody/something back (to somebody)",
+      "titleZh": "把某人或某物歸還",
+      "titleEn": "give somebody/something back (to somebody)",
+      "descriptionZh": "把某人或某物歸還",
+      "descriptionEn": "Please give the keys back to me.",
+      "examples": [
+        {
+          "en": "Please give the keys back to me.",
+          "zh": "請把鎖匙還給我。",
+          "highlight": "give the keys back to"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give up / give somebody/something up / give up doing something",
+      "titleZh": "放棄;停止嘗試、做某事或維持某種關係",
+      "titleEn": "give up / give somebody/something up / give up doing something",
+      "descriptionZh": "放棄;停止嘗試、做某事或維持某種關係",
+      "descriptionEn": "He gave up trying after an hour.",
+      "examples": [
+        {
+          "en": "He gave up trying after an hour.",
+          "zh": "他嘗試了一小時後便放棄了。",
+          "highlight": "gave up"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "give somebody/something over to somebody / give something over to something",
+      "titleZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+      "titleEn": "give somebody/something over to somebody / give something over to something",
+      "descriptionZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+      "descriptionEn": "They gave the hall over to the youth club.",
+      "examples": [
+        {
+          "en": "They gave the hall over to the youth club.",
+          "zh": "他們把禮堂交給青年會使用。",
+          "highlight": "gave the hall over to"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give somebody/something/yourself away",
+      "titleZh": "無意中暴露身分、秘密、真相或真正感受",
+      "titleEn": "give somebody/something/yourself away",
+      "descriptionZh": "無意中暴露身分、秘密、真相或真正感受",
+      "descriptionEn": "His red face gave him away.",
+      "examples": [
+        {
+          "en": "His red face gave him away.",
+          "zh": "他通紅的臉暴露了他。",
+          "highlight": "gave him away"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give something away",
+      "titleZh": "免費送出;捐出",
+      "titleEn": "give something away",
+      "descriptionZh": "免費送出;捐出",
+      "descriptionEn": "She gave her old books away.",
+      "examples": [
+        {
+          "en": "She gave her old books away.",
+          "zh": "她把舊書送了出去。",
+          "highlight": "gave her old books away"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give something for something",
+      "titleZh": "為某物支付某個價錢",
+      "titleEn": "give something for something",
+      "descriptionZh": "為某物支付某個價錢",
+      "descriptionEn": "I gave thirty pounds for the chair.",
+      "examples": [
+        {
+          "en": "I gave thirty pounds for the chair.",
+          "zh": "我花了三十英鎊買這張椅子。",
+          "highlight": "gave thirty pounds for"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give something in (to somebody)",
+      "titleZh": "交上;提交文件、功課或測驗",
+      "titleEn": "give something in (to somebody)",
+      "descriptionZh": "交上;提交文件、功課或測驗",
+      "descriptionEn": "Please give your form in tomorrow.",
+      "examples": [
+        {
+          "en": "Please give your form in tomorrow.",
+          "zh": "請明天交上表格。",
+          "highlight": "give your form in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give something out",
+      "titleZh": "派發;分發",
+      "titleEn": "give something out",
+      "descriptionZh": "派發;分發",
+      "descriptionEn": "The nurse gave out masks.",
+      "examples": [
+        {
+          "en": "The nurse gave out masks.",
+          "zh": "護士派發了口罩。",
+          "highlight": "gave out"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give up on somebody/something",
+      "titleZh": "不再相信某人或某事能改善或成功",
+      "titleEn": "give up on somebody/something",
+      "descriptionZh": "不再相信某人或某事能改善或成功",
+      "descriptionEn": "Do not give up on your team.",
+      "examples": [
+        {
+          "en": "Do not give up on your team.",
+          "zh": "不要對你的球隊失去信心。",
+          "highlight": "give up on"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give yourself over/up to something / doing something",
+      "titleZh": "完全投入某種感受或活動;任由自己受其支配",
+      "titleEn": "give yourself over/up to something / doing something",
+      "descriptionZh": "完全投入某種感受或活動;任由自己受其支配",
+      "descriptionEn": "She gave herself over to the music.",
+      "examples": [
+        {
+          "en": "She gave herself over to the music.",
+          "zh": "她讓自己完全投入音樂之中。",
+          "highlight": "gave herself over to"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "give yourself up (to somebody/something)",
+      "titleZh": "向警方或其他當局投降",
+      "titleEn": "give yourself up (to somebody/something)",
+      "descriptionZh": "向警方或其他當局投降",
+      "descriptionEn": "The man gave himself up to the police.",
+      "examples": [
+        {
+          "en": "The man gave himself up to the police.",
+          "zh": "那名男子向警方投降。",
+          "highlight": "gave himself up to"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GIVE 片語動詞的實際用途",
+    "labelEn": "GIVE Phrasal Verbs in Use",
+    "summaryZh": "give in 表示停止抵抗;give up 表示停止某項活動或嘗試;give up on somebody/something 則表示不再相信某人或某事能成功。；你可以 give of your time,表示付出時間;give something back,表示歸還物件;give somethingaway,表示送出物件;give something out,則表示派發物品。；give off 可以描述熱力、光或氣味;give onto 可以描述門窗通往哪裏;give out 則可以表示電池、聲音或供應停止運作。；give somebody away 可以表示暴露秘密,也可以用於婚禮情境;give something over 表示轉交控制權或使用權;give yourself up 則表示投降。",
+    "summaryEn": "Give in describes stopping your resistance. Give up describes stopping an activity or attempt, while give up on somebody or something shows that you no longer expect success. You can give of your time, give an object back, give unwanted things away or give papers out to a group. Give off can describe heat, light or smells. Give onto describes where a door or window leads, while give out can show that a battery, voice or supply has stopped working. Give somebody away can reveal a secret or have a special wedding meaning. Give something over transfers its control or use, while give yourself up describes surrendering.",
+    "contextsZh": [
+      "清楚談論讓步、放棄和失去希望",
+      "描述付出、歸還、贈送和派發",
+      "描述物件和地方的情況",
+      "談論秘密、控制權和投降"
+    ],
+    "contextsEn": [
+      "Talk clearly about stopping and losing hope",
+      "Describe sharing, returning and distributing things",
+      "Describe what objects and places do",
+      "Talk about secrets, control and surrender"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GIVE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GIVE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "give in (to somebody/something)",
+    "fixedHighlight": "give in (to somebody/something)",
+    "fixedZh": "閱讀整句,選出意思相同的 GIVE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GIVE expression that gives the same meaning.",
+    "correct": "gave in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；(我讓步了。)I gave my test in.(我交上了測驗。)Her eyes gave her away.(她的眼神暴露了她。)She gave the books away.(她把書送了出去。)請閱讀整個情境,以分辨外形相近但意思不同的 GIVE 片語動詞。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: give it back give them away give him up give it in give them out Some GIVE expressions look similar but have very different meanings: I gave in.",
+    "variableItemsZh": [
+      "give in (to somebody/something)",
+      "give of something / give of yourself",
+      "give off something",
+      "give onto something",
+      "give out",
+      "give over",
+      "give somebody away",
+      "give somebody/something back (to somebody)",
+      "give up / give somebody/something up / give up doing something",
+      "give somebody/something over to somebody / give something over to something",
+      "give somebody/something/yourself away",
+      "give something away",
+      "give something for something",
+      "give something in (to somebody)",
+      "give something out",
+      "give up on somebody/something",
+      "give yourself over/up to something / doing something",
+      "give yourself up (to somebody/something)"
+    ],
+    "variableItemsEn": [
+      "give in (to somebody/something)",
+      "give of something / give of yourself",
+      "give off something",
+      "give onto something",
+      "give out",
+      "give over",
+      "give somebody away",
+      "give somebody/something back (to somebody)",
+      "give up / give somebody/something up / give up doing something",
+      "give somebody/something over to somebody / give something over to something",
+      "give somebody/something/yourself away",
+      "give something away",
+      "give something for something",
+      "give something in (to somebody)",
+      "give something out",
+      "give up on somebody/something",
+      "give yourself over/up to something / doing something",
+      "give yourself up (to somebody/something)"
+    ],
+    "forms": [
+      {
+        "formZh": "停止抵抗;讓步;認輸",
+        "formEn": "give in (to somebody/something)",
+        "exampleZh": "拉維終於讓步了。",
+        "exampleEn": "At last, Ravi gave in.",
+        "highlight": "gave in"
+      },
+      {
+        "formZh": "自願付出時間、精力或能力幫助別人",
+        "formEn": "give of something / give of yourself",
+        "exampleZh": "她每個週末都自願付出時間幫助別人。",
+        "exampleEn": "She gives of her time every weekend.",
+        "highlight": "gives"
+      },
+      {
+        "formZh": "散發氣味、熱力、光、氣體等",
+        "formEn": "give off something",
+        "exampleZh": "蠟燭散發出香甜的氣味。",
+        "exampleEn": "The candle gives off a sweet smell.",
+        "highlight": "gives off"
+      },
+      {
+        "formZh": "門或窗通往、面向某處",
+        "formEn": "give onto something",
+        "exampleZh": "這些門通往一個小花園。",
+        "exampleEn": "The doors give onto a small garden.",
+        "highlight": "give onto"
+      },
+      {
+        "formZh": "力量、供應或設備最後耗盡或失靈",
+        "formEn": "give out",
+        "exampleZh": "接近終點時,我終於用盡了力氣。",
+        "exampleEn": "My strength gave out near the end.",
+        "highlight": "gave out"
+      },
+      {
+        "formZh": "停止令人厭煩的行為;別鬧了",
+        "formEn": "give over",
+        "exampleZh": "別鬧了!我正在看書。",
+        "exampleEn": "Give over! I am trying to read.",
+        "highlight": "Give over"
+      },
+      {
+        "formZh": "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+        "formEn": "give somebody away",
+        "exampleZh": "她的母親在婚禮上陪伴她進場,並正式把她交給伴侶。",
+        "exampleEn": "Her mother gave her away at the wedding.",
+        "highlight": "gave her away"
+      },
+      {
+        "formZh": "把某人或某物歸還",
+        "formEn": "give somebody/something back (to somebody)",
+        "exampleZh": "請把鎖匙還給我。",
+        "exampleEn": "Please give the keys back to me.",
+        "highlight": "give the keys back to"
+      },
+      {
+        "formZh": "放棄;停止嘗試、做某事或維持某種關係",
+        "formEn": "give up / give somebody/something up / give up doing something",
+        "exampleZh": "他嘗試了一小時後便放棄了。",
+        "exampleEn": "He gave up trying after an hour.",
+        "highlight": "gave up"
+      },
+      {
+        "formZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+        "formEn": "give somebody/something over to somebody / give something over to something",
+        "exampleZh": "他們把禮堂交給青年會使用。",
+        "exampleEn": "They gave the hall over to the youth club.",
+        "highlight": "gave the hall over to"
+      },
+      {
+        "formZh": "無意中暴露身分、秘密、真相或真正感受",
+        "formEn": "give somebody/something/yourself away",
+        "exampleZh": "他通紅的臉暴露了他。",
+        "exampleEn": "His red face gave him away.",
+        "highlight": "gave him away"
+      },
+      {
+        "formZh": "免費送出;捐出",
+        "formEn": "give something away",
+        "exampleZh": "她把舊書送了出去。",
+        "exampleEn": "She gave her old books away.",
+        "highlight": "gave her old books away"
+      },
+      {
+        "formZh": "為某物支付某個價錢",
+        "formEn": "give something for something",
+        "exampleZh": "我花了三十英鎊買這張椅子。",
+        "exampleEn": "I gave thirty pounds for the chair.",
+        "highlight": "gave thirty pounds for"
+      },
+      {
+        "formZh": "交上;提交文件、功課或測驗",
+        "formEn": "give something in (to somebody)",
+        "exampleZh": "請明天交上表格。",
+        "exampleEn": "Please give your form in tomorrow.",
+        "highlight": "give your form in"
+      },
+      {
+        "formZh": "派發;分發",
+        "formEn": "give something out",
+        "exampleZh": "護士派發了口罩。",
+        "exampleEn": "The nurse gave out masks.",
+        "highlight": "gave out"
+      },
+      {
+        "formZh": "不再相信某人或某事能改善或成功",
+        "formEn": "give up on somebody/something",
+        "exampleZh": "不要對你的球隊失去信心。",
+        "exampleEn": "Do not give up on your team.",
+        "highlight": "give up on"
+      },
+      {
+        "formZh": "完全投入某種感受或活動;任由自己受其支配",
+        "formEn": "give yourself over/up to something / doing something",
+        "exampleZh": "她讓自己完全投入音樂之中。",
+        "exampleEn": "She gave herself over to the music.",
+        "highlight": "gave herself over to"
+      },
+      {
+        "formZh": "向警方或其他當局投降",
+        "formEn": "give yourself up (to somebody/something)",
+        "exampleZh": "那名男子向警方投降。",
+        "exampleEn": "The man gave himself up to the police.",
+        "highlight": "gave himself up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "停止抵抗;讓步;認輸",
+      "titleEn": "give in (to somebody/something)",
+      "formula": "give in (to somebody/something)",
+      "highlight": "give in (to somebody/something)",
+      "descriptionZh": "停止抵抗;讓步;認輸",
+      "descriptionEn": "At last, Ravi gave in.",
+      "examples": [
+        {
+          "en": "At last, Ravi gave in.",
+          "zh": "拉維終於讓步了。",
+          "highlight": "gave in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "自願付出時間、精力或能力幫助別人",
+      "titleEn": "give of something / give of yourself",
+      "formula": "give of something / give of yourself",
+      "highlight": "give of something / give of yourself",
+      "descriptionZh": "自願付出時間、精力或能力幫助別人",
+      "descriptionEn": "She gives of her time every weekend.",
+      "examples": [
+        {
+          "en": "She gives of her time every weekend.",
+          "zh": "她每個週末都自願付出時間幫助別人。",
+          "highlight": "gives"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "散發氣味、熱力、光、氣體等",
+      "titleEn": "give off something",
+      "formula": "give off something",
+      "highlight": "give off something",
+      "descriptionZh": "散發氣味、熱力、光、氣體等",
+      "descriptionEn": "The candle gives off a sweet smell.",
+      "examples": [
+        {
+          "en": "The candle gives off a sweet smell.",
+          "zh": "蠟燭散發出香甜的氣味。",
+          "highlight": "gives off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "門或窗通往、面向某處",
+      "titleEn": "give onto something",
+      "formula": "give onto something",
+      "highlight": "give onto something",
+      "descriptionZh": "門或窗通往、面向某處",
+      "descriptionEn": "The doors give onto a small garden.",
+      "examples": [
+        {
+          "en": "The doors give onto a small garden.",
+          "zh": "這些門通往一個小花園。",
+          "highlight": "give onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "力量、供應或設備最後耗盡或失靈",
+      "titleEn": "give out",
+      "formula": "give out",
+      "highlight": "give out",
+      "descriptionZh": "力量、供應或設備最後耗盡或失靈",
+      "descriptionEn": "My strength gave out near the end.",
+      "examples": [
+        {
+          "en": "My strength gave out near the end.",
+          "zh": "接近終點時,我終於用盡了力氣。",
+          "highlight": "gave out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "停止令人厭煩的行為;別鬧了",
+      "titleEn": "give over",
+      "formula": "give over",
+      "highlight": "give over",
+      "descriptionZh": "停止令人厭煩的行為;別鬧了",
+      "descriptionEn": "Give over! I am trying to read.",
+      "examples": [
+        {
+          "en": "Give over! I am trying to read.",
+          "zh": "別鬧了!我正在看書。",
+          "highlight": "Give over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+      "titleEn": "give somebody away",
+      "formula": "give somebody away",
+      "highlight": "give somebody away",
+      "descriptionZh": "在婚禮上陪伴新娘進場,並正式把她交給伴侶",
+      "descriptionEn": "Her mother gave her away at the wedding.",
+      "examples": [
+        {
+          "en": "Her mother gave her away at the wedding.",
+          "zh": "她的母親在婚禮上陪伴她進場,並正式把她交給伴侶。",
+          "highlight": "gave her away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把某人或某物歸還",
+      "titleEn": "give somebody/something back (to somebody)",
+      "formula": "give somebody/something back (to somebody)",
+      "highlight": "give somebody/something back (to somebody)",
+      "descriptionZh": "把某人或某物歸還",
+      "descriptionEn": "Please give the keys back to me.",
+      "examples": [
+        {
+          "en": "Please give the keys back to me.",
+          "zh": "請把鎖匙還給我。",
+          "highlight": "give the keys back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "放棄;停止嘗試、做某事或維持某種關係",
+      "titleEn": "give up / give somebody/something up / give up doing something",
+      "formula": "give up / give somebody/something up / give up doing something",
+      "highlight": "give up / give somebody/something up / give up doing something",
+      "descriptionZh": "放棄;停止嘗試、做某事或維持某種關係",
+      "descriptionEn": "He gave up trying after an hour.",
+      "examples": [
+        {
+          "en": "He gave up trying after an hour.",
+          "zh": "他嘗試了一小時後便放棄了。",
+          "highlight": "gave up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+      "titleEn": "give somebody/something over to somebody / give something over to something",
+      "formula": "give somebody/something over to somebody / give something over to something",
+      "highlight": "give somebody/something over to somebody / give something over to something",
+      "descriptionZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途",
+      "descriptionEn": "They gave the hall over to the youth club.",
+      "examples": [
+        {
+          "en": "They gave the hall over to the youth club.",
+          "zh": "他們把禮堂交給青年會使用。",
+          "highlight": "gave the hall over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "無意中暴露身分、秘密、真相或真正感受",
+      "titleEn": "give somebody/something/yourself away",
+      "formula": "give somebody/something/yourself away",
+      "highlight": "give somebody/something/yourself away",
+      "descriptionZh": "無意中暴露身分、秘密、真相或真正感受",
+      "descriptionEn": "His red face gave him away.",
+      "examples": [
+        {
+          "en": "His red face gave him away.",
+          "zh": "他通紅的臉暴露了他。",
+          "highlight": "gave him away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "免費送出;捐出",
+      "titleEn": "give something away",
+      "formula": "give something away",
+      "highlight": "give something away",
+      "descriptionZh": "免費送出;捐出",
+      "descriptionEn": "She gave her old books away.",
+      "examples": [
+        {
+          "en": "She gave her old books away.",
+          "zh": "她把舊書送了出去。",
+          "highlight": "gave her old books away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "為某物支付某個價錢",
+      "titleEn": "give something for something",
+      "formula": "give something for something",
+      "highlight": "give something for something",
+      "descriptionZh": "為某物支付某個價錢",
+      "descriptionEn": "I gave thirty pounds for the chair.",
+      "examples": [
+        {
+          "en": "I gave thirty pounds for the chair.",
+          "zh": "我花了三十英鎊買這張椅子。",
+          "highlight": "gave thirty pounds for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "交上;提交文件、功課或測驗",
+      "titleEn": "give something in (to somebody)",
+      "formula": "give something in (to somebody)",
+      "highlight": "give something in (to somebody)",
+      "descriptionZh": "交上;提交文件、功課或測驗",
+      "descriptionEn": "Please give your form in tomorrow.",
+      "examples": [
+        {
+          "en": "Please give your form in tomorrow.",
+          "zh": "請明天交上表格。",
+          "highlight": "give your form in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "派發;分發",
+      "titleEn": "give something out",
+      "formula": "give something out",
+      "highlight": "give something out",
+      "descriptionZh": "派發;分發",
+      "descriptionEn": "The nurse gave out masks.",
+      "examples": [
+        {
+          "en": "The nurse gave out masks.",
+          "zh": "護士派發了口罩。",
+          "highlight": "gave out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "不再相信某人或某事能改善或成功",
+      "titleEn": "give up on somebody/something",
+      "formula": "give up on somebody/something",
+      "highlight": "give up on somebody/something",
+      "descriptionZh": "不再相信某人或某事能改善或成功",
+      "descriptionEn": "Do not give up on your team.",
+      "examples": [
+        {
+          "en": "Do not give up on your team.",
+          "zh": "不要對你的球隊失去信心。",
+          "highlight": "give up on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "完全投入某種感受或活動;任由自己受其支配",
+      "titleEn": "give yourself over/up to something / doing something",
+      "formula": "give yourself over/up to something / doing something",
+      "highlight": "give yourself over/up to something / doing something",
+      "descriptionZh": "完全投入某種感受或活動;任由自己受其支配",
+      "descriptionEn": "She gave herself over to the music.",
+      "examples": [
+        {
+          "en": "She gave herself over to the music.",
+          "zh": "她讓自己完全投入音樂之中。",
+          "highlight": "gave herself over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "向警方或其他當局投降",
+      "titleEn": "give yourself up (to somebody/something)",
+      "formula": "give yourself up (to somebody/something)",
+      "highlight": "give yourself up (to somebody/something)",
+      "descriptionZh": "向警方或其他當局投降",
+      "descriptionEn": "The man gave himself up to the police.",
+      "examples": [
+        {
+          "en": "The man gave himself up to the police.",
+          "zh": "那名男子向警方投降。",
+          "highlight": "gave himself up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論讓步、放棄和失去希望",
+      "titleEn": "Talk clearly about stopping and losing hope",
+      "zh": "give in 表示停止抵抗;give up 表示停止某項活動或嘗試;give up on somebody/something 則表示不再相信某人或某事能成功。",
+      "en": "Give in describes stopping your resistance. Give up describes stopping an activity or attempt, while give up on somebody or something shows that you no longer expect success."
+    },
+    {
+      "titleZh": "描述付出、歸還、贈送和派發",
+      "titleEn": "Describe sharing, returning and distributing things",
+      "zh": "你可以 give of your time,表示付出時間;give something back,表示歸還物件;give somethingaway,表示送出物件;give something out,則表示派發物品。",
+      "en": "You can give of your time, give an object back, give unwanted things away or give papers out to a group."
+    },
+    {
+      "titleZh": "描述物件和地方的情況",
+      "titleEn": "Describe what objects and places do",
+      "zh": "give off 可以描述熱力、光或氣味;give onto 可以描述門窗通往哪裏;give out 則可以表示電池、聲音或供應停止運作。",
+      "en": "Give off can describe heat, light or smells. Give onto describes where a door or window leads, while give out can show that a battery, voice or supply has stopped working."
+    },
+    {
+      "titleZh": "談論秘密、控制權和投降",
+      "titleEn": "Talk about secrets, control and surrender",
+      "zh": "give somebody away 可以表示暴露秘密,也可以用於婚禮情境;give something over 表示轉交控制權或使用權;give yourself up 則表示投降。",
+      "en": "Give somebody away can reveal a secret or have a special wedding meaning. Give something over transfers its control or use, while give yourself up describes surrendering."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論讓步、放棄和失去希望",
+      "描述付出、歸還、贈送和派發",
+      "描述物件和地方的情況",
+      "談論秘密、控制權和投降"
+    ],
+    "contextsEn": [
+      "Talk clearly about stopping and losing hope",
+      "Describe sharing, returning and distributing things",
+      "Describe what objects and places do",
+      "Talk about secrets, control and surrender"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論讓步、放棄和失去希望",
+        "titleEn": "Talk clearly about stopping and losing hope",
+        "zh": "give in 表示停止抵抗;give up 表示停止某項活動或嘗試;give up on somebody/something 則表示不再相信某人或某事能成功。",
+        "en": "Give in describes stopping your resistance. Give up describes stopping an activity or attempt, while give up on somebody or something shows that you no longer expect success.",
+        "examples": [
+          {
+            "en": "At last, Ravi gave in.",
+            "zh": "拉維終於讓步了。",
+            "highlight": "gave in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述付出、歸還、贈送和派發",
+        "titleEn": "Describe sharing, returning and distributing things",
+        "zh": "你可以 give of your time,表示付出時間;give something back,表示歸還物件;give somethingaway,表示送出物件;give something out,則表示派發物品。",
+        "en": "You can give of your time, give an object back, give unwanted things away or give papers out to a group.",
+        "examples": [
+          {
+            "en": "She gives of her time every weekend.",
+            "zh": "她每個週末都自願付出時間幫助別人。",
+            "highlight": "gives"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述物件和地方的情況",
+        "titleEn": "Describe what objects and places do",
+        "zh": "give off 可以描述熱力、光或氣味;give onto 可以描述門窗通往哪裏;give out 則可以表示電池、聲音或供應停止運作。",
+        "en": "Give off can describe heat, light or smells. Give onto describes where a door or window leads, while give out can show that a battery, voice or supply has stopped working.",
+        "examples": [
+          {
+            "en": "The candle gives off a sweet smell.",
+            "zh": "蠟燭散發出香甜的氣味。",
+            "highlight": "gives off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論秘密、控制權和投降",
+        "titleEn": "Talk about secrets, control and surrender",
+        "zh": "give somebody away 可以表示暴露秘密,也可以用於婚禮情境;give something over 表示轉交控制權或使用權;give yourself up 則表示投降。",
+        "en": "Give somebody away can reveal a secret or have a special wedding meaning. Give something over transfers its control or use, while give yourself up describes surrendering.",
+        "examples": [
+          {
+            "en": "The doors give onto a small garden.",
+            "zh": "這些門通往一個小花園。",
+            "highlight": "give onto"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GIVE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GIVE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GIVE 片語動詞。",
+      "en": "Read the whole sentence and choose the GIVE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: give it back give them away give him up give it in give them out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, place the word as shown: give it back give them away give him up give it in give them out"
+    },
+    {
+      "titleZh": "(我讓步了。)I gave my test in.(我交上了測驗。)Her eyes gave her away.(她的眼神暴露了她。)She gave the books away.(她把書送了出去。)請閱讀整個情境,以分辨外形相近但意思不同的 GIVE 片語動詞。",
+      "titleEn": "Some GIVE expressions look similar but have very different meanings: I gave in.",
+      "zh": "(我讓步了。)I gave my test in.(我交上了測驗。)Her eyes gave her away.(她的眼神暴露了她。)She gave the books away.(她把書送了出去。)請閱讀整個情境,以分辨外形相近但意思不同的 GIVE 片語動詞。",
+      "en": "Some GIVE expressions look similar but have very different meanings: I gave in."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GIVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GIVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GIVE 動詞片語句子改寫練習",
+    "titleEn": "GIVE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GIVE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GIVE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          18
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          19,
+          36
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          37,
+          72
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          73,
+          90
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-210-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 22,
+      "prompt": "The teacher distributed the exam papers.",
+      "promptZh": "老師派發了試卷。",
+      "starter": "The",
+      "answer": "The teacher gave out the exam papers.",
+      "answerZh": "老師派發了試卷。",
+      "highlight": "gave out",
+      "targetForm": "give something out",
+      "targetMeaningZh": "派發;分發"
+    },
+    {
+      "id": "phrasal-verb-210-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 23,
+      "prompt": "I admit defeat—you will have to tell me the answer.",
+      "promptZh": "我認輸了——你要告訴我答案。",
+      "starter": "I",
+      "answer": "I give in—you will have to tell me the answer.",
+      "answerZh": "我認輸了——你要告訴我答案。",
+      "highlight": "give in",
+      "targetForm": "give in (to somebody/something)",
+      "targetMeaningZh": "停止抵抗;讓步;認輸"
+    },
+    {
+      "id": "phrasal-verb-210-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "How much did you pay for the bicycle?",
+      "promptZh": "你買這輛單車花了多少錢?",
+      "starter": "How",
+      "answer": "How much did you give for the bicycle?",
+      "answerZh": "你買這輛單車花了多少錢?",
+      "highlight": "give",
+      "targetForm": "give something for something",
+      "targetMeaningZh": "為某物支付某個價錢"
+    },
+    {
+      "id": "phrasal-verb-210-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "Please submit your test to the teacher when you finish.",
+      "promptZh": "完成後,請把測驗交給老師。",
+      "starter": "Please",
+      "answer": "Please give your test in to the teacher when you finish.",
+      "answerZh": "完成後,請把測驗交給老師。",
+      "highlight": "give",
+      "targetForm": "give something in (to somebody)",
+      "targetMeaningZh": "交上;提交文件、功課或測驗"
+    },
+    {
+      "id": "phrasal-verb-210-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "For the evening, she allowed herself to enjoy the music completely.",
+      "promptZh": "那個晚上,她讓自己完全投入音樂之中。",
+      "starter": "For",
+      "answer": "For the evening, she gave herself over to the music.",
+      "answerZh": "那個晚上,她讓自己完全投入音樂之中。",
+      "highlight": "gave",
+      "targetForm": "give yourself over/up to something / doing something",
+      "targetMeaningZh": "完全投入某種感受或活動;任由自己受其支配"
+    },
+    {
+      "id": "phrasal-verb-210-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 23,
+      "prompt": "The shop decided not to sell the extra drinks and offered them for no money.",
+      "promptZh": "店舖決定不出售多出的飲品,而是免費送出。",
+      "starter": "The",
+      "answer": "The shop decided not to sell the extra drinks and gave them away.",
+      "answerZh": "店舖決定不出售多出的飲品,而是免費送出。",
+      "highlight": "gave",
+      "targetForm": "give something away",
+      "targetMeaningZh": "免費送出;捐出"
+    },
+    {
+      "id": "phrasal-verb-210-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "Please return my book.",
+      "promptZh": "請把我的書還給我。",
+      "starter": "Please",
+      "answer": "Please give my book back.",
+      "answerZh": "請把我的書還給我。",
+      "highlight": "give",
+      "targetForm": "give somebody/something back (to somebody)",
+      "targetMeaningZh": "把某人或某物歸還"
+    },
+    {
+      "id": "phrasal-verb-210-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 24,
+      "prompt": "The thief surrendered to the police.",
+      "promptZh": "那名賊人向警方投降。",
+      "starter": "The",
+      "answer": "The thief gave himself up to the police.",
+      "answerZh": "那名賊人向警方投降。",
+      "highlight": "gave himself up",
+      "targetForm": "give yourself up (to somebody/something)",
+      "targetMeaningZh": "向警方或其他當局投降"
+    },
+    {
+      "id": "phrasal-verb-210-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "We transferred control of the house to my aunt.",
+      "promptZh": "我們把房子的管理權交給了姨母。",
+      "starter": "We",
+      "answer": "We gave the house over to my aunt.",
+      "answerZh": "我們把房子的管理權交給了姨母。",
+      "highlight": "gave",
+      "targetForm": "give somebody/something over to somebody / give something over to something",
+      "targetMeaningZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途"
+    },
+    {
+      "id": "phrasal-verb-210-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "The French windows lead directly to a balcony.",
+      "promptZh": "落地玻璃門直接通往露台。",
+      "starter": "The",
+      "answer": "The French windows give directly onto a balcony.",
+      "answerZh": "落地玻璃門直接通往露台。",
+      "highlight": "give",
+      "targetForm": "give onto something",
+      "targetMeaningZh": "門或窗通往、面向某處"
+    },
+    {
+      "id": "phrasal-verb-210-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "Her smile revealed the surprise.",
+      "promptZh": "她的笑容洩露了這個驚喜。",
+      "starter": "Her",
+      "answer": "Her smile gave the surprise away.",
+      "answerZh": "她的笑容洩露了這個驚喜。",
+      "highlight": "gave",
+      "targetForm": "give somebody/something/yourself away",
+      "targetMeaningZh": "無意中暴露身分、秘密、真相或真正感受"
+    },
+    {
+      "id": "phrasal-verb-210-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 24,
+      "prompt": "I have stopped believing that he will change.",
+      "promptZh": "我已不再相信他會改變。",
+      "starter": "I",
+      "answer": "I have given up on him.",
+      "answerZh": "我已不再相信他會改變。",
+      "highlight": "given up on him",
+      "targetForm": "give up on somebody/something",
+      "targetMeaningZh": "不再相信某人或某事能改善或成功"
+    },
+    {
+      "id": "phrasal-verb-210-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "My voice finally failed after the long speech.",
+      "promptZh": "完成那篇長演說後,我的聲音終於失靈了。",
+      "starter": "My",
+      "answer": "My voice finally gave out after the long speech.",
+      "answerZh": "完成那篇長演說後,我的聲音終於失靈了。",
+      "highlight": "gave out",
+      "targetForm": "give out",
+      "targetMeaningZh": "力量、供應或設備最後耗盡或失靈"
+    },
+    {
+      "id": "phrasal-verb-210-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 25,
+      "prompt": "The burning wood produces a pleasant smell.",
+      "promptZh": "燃燒中的木材散發出宜人的氣味。",
+      "starter": "The",
+      "answer": "The burning wood gives off a pleasant smell.",
+      "answerZh": "燃燒中的木材散發出宜人的氣味。",
+      "highlight": "gives off",
+      "targetForm": "give off something",
+      "targetMeaningZh": "散發氣味、熱力、光、氣體等"
+    },
+    {
+      "id": "phrasal-verb-210-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "She freely uses her time to help older people in her area.",
+      "promptZh": "她自願付出時間,幫助區內的長者。",
+      "starter": "She",
+      "answer": "She gives of her time to help older people in her area.",
+      "answerZh": "她自願付出時間,幫助區內的長者。",
+      "highlight": "gives of",
+      "targetForm": "give of something / give of yourself",
+      "targetMeaningZh": "自願付出時間、精力或能力幫助別人"
+    },
+    {
+      "id": "phrasal-verb-210-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "Stop it!",
+      "promptZh": "別鬧了!",
+      "starter": "Give",
+      "answer": "Give over!",
+      "answerZh": "別鬧了!",
+      "highlight": "Give over",
+      "targetForm": "give over",
+      "targetMeaningZh": "停止令人厭煩的行為;別鬧了"
+    },
+    {
+      "id": "phrasal-verb-210-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "He stopped smoking last year.",
+      "promptZh": "他去年戒了煙。",
+      "starter": "He",
+      "answer": "He gave up smoking last year.",
+      "answerZh": "他去年戒了煙。",
+      "highlight": "gave up",
+      "targetForm": "give up / give somebody/something up / give up doing something",
+      "targetMeaningZh": "放棄;停止嘗試、做某事或維持某種關係"
+    },
+    {
+      "id": "phrasal-verb-210-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 25,
+      "prompt": "Her father accompanied her and formally presented her to her partner during the wedding ceremony.",
+      "promptZh": "她的父親在婚禮上陪伴她進場,並正式把她交給伴侶。",
+      "starter": "Her",
+      "answer": "Her father gave her away during the wedding ceremony.",
+      "answerZh": "她的父親在婚禮上陪伴她進場,並正式把她交給伴侶。",
+      "highlight": "gave",
+      "targetForm": "give somebody away",
+      "targetMeaningZh": "在婚禮上陪伴新娘進場並正式把她交給伴侶"
+    },
+    {
+      "id": "phrasal-verb-210-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 26,
+      "prompt": "His nervous voice is revealing that he knows more than he says.",
+      "promptZh": "他緊張的聲音暴露了他知道的事情比說出來的更多。",
+      "starter": "His",
+      "answer": "His nervous voice is giving him away.",
+      "answerZh": "他緊張的聲音暴露了他其實有所隱瞞。",
+      "highlight": "giving him away",
+      "targetForm": "give somebody/something/yourself away",
+      "targetMeaningZh": "無意中暴露身分、秘密、真相或真正感受"
+    },
+    {
+      "id": "phrasal-verb-210-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Have you submitted your form yet?",
+      "promptZh": "你已經交了表格嗎?",
+      "starter": "Have",
+      "answer": "Have you given your form in yet?",
+      "answerZh": "你已經交了表格嗎?",
+      "highlight": "given",
+      "targetForm": "give something in (to somebody)",
+      "targetMeaningZh": "交上;提交文件、功課或測驗"
+    },
+    {
+      "id": "phrasal-verb-210-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "Volunteers are distributing water outside the station.",
+      "promptZh": "義工正在車站外派發食水。",
+      "starter": "Volunteers",
+      "answer": "Volunteers are giving out water outside the station.",
+      "answerZh": "義工正在車站外派發食水。",
+      "highlight": "giving out",
+      "targetForm": "give something out",
+      "targetMeaningZh": "派發;分發"
+    },
+    {
+      "id": "phrasal-verb-210-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "After the bad news, he has allowed worry to control him completely.",
+      "promptZh": "聽到壞消息後,他一直任由憂慮完全控制自己。",
+      "starter": "After",
+      "answer": "After the bad news, he has given himself over to worry.",
+      "answerZh": "聽到壞消息後,他一直任由憂慮完全控制自己。",
+      "highlight": "given himself over to",
+      "targetForm": "give yourself over/up to something / doing something",
+      "targetMeaningZh": "完全投入某種感受或活動;任由自己受其支配"
+    },
+    {
+      "id": "phrasal-verb-210-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 26,
+      "prompt": "The newspaper has devoted two pages to the storm.",
+      "promptZh": "報章已撥出兩頁報道這場暴風雨。",
+      "starter": "The",
+      "answer": "The newspaper has given two pages over to the storm.",
+      "answerZh": "報章已撥出兩頁報道這場暴風雨。",
+      "highlight": "given",
+      "targetForm": "give somebody/something over to somebody / give something over to something",
+      "targetMeaningZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途"
+    },
+    {
+      "id": "phrasal-verb-210-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "After two hours of arguing, he finally stopped resisting.",
+      "promptZh": "爭論了兩小時後,他終於不再抵抗。",
+      "starter": "After",
+      "answer": "After two hours of arguing, he finally gave in.",
+      "answerZh": "爭論了兩小時後,他終於讓步。",
+      "highlight": "gave in",
+      "targetForm": "give in (to somebody/something)",
+      "targetMeaningZh": "停止抵抗;讓步;認輸"
+    },
+    {
+      "id": "phrasal-verb-210-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 27,
+      "prompt": "This small heater is producing too much heat.",
+      "promptZh": "這部小型暖爐正散發過多熱力。",
+      "starter": "This",
+      "answer": "This small heater is giving off too much heat.",
+      "answerZh": "這部小型暖爐正散發過多熱力。",
+      "highlight": "giving off",
+      "targetForm": "give off something",
+      "targetMeaningZh": "散發氣味、熱力、光、氣體等"
+    },
+    {
+      "id": "phrasal-verb-210-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "I will return it to you tomorrow.",
+      "promptZh": "我明天會把它還給你。",
+      "starter": "I",
+      "answer": "I will give it back to you tomorrow.",
+      "answerZh": "我明天會把它還給你。",
+      "highlight": "give",
+      "targetForm": "give somebody/something back (to somebody)",
+      "targetMeaningZh": "把某人或某物歸還"
+    },
+    {
+      "id": "phrasal-verb-210-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "Will you stop making that noise?",
+      "promptZh": "你可以停止發出那種聲音嗎?",
+      "starter": "Will",
+      "answer": "Will you give over?",
+      "answerZh": "你可以別鬧了嗎?",
+      "highlight": "give over",
+      "targetForm": "give over",
+      "targetMeaningZh": "停止令人厭煩的行為;別鬧了"
+    },
+    {
+      "id": "phrasal-verb-210-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 27,
+      "prompt": "They are donating their old clothes to a local group.",
+      "promptZh": "他們正把舊衣服捐給一個本地團體。",
+      "starter": "They",
+      "answer": "They are giving their old clothes away to a local group.",
+      "answerZh": "他們正把舊衣服捐給一個本地團體。",
+      "highlight": "giving",
+      "targetForm": "give something away",
+      "targetMeaningZh": "免費送出;捐出"
+    },
+    {
+      "id": "phrasal-verb-210-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "She paid twenty pounds for the small table.",
+      "promptZh": "她花了二十英鎊買這張小桌子。",
+      "starter": "She",
+      "answer": "She gave twenty pounds for the small table.",
+      "answerZh": "她花了二十英鎊買這張小桌子。",
+      "highlight": "gave",
+      "targetForm": "give something for something",
+      "targetMeaningZh": "為某物支付某個價錢"
+    },
+    {
+      "id": "phrasal-verb-210-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 28,
+      "prompt": "After two days, she surrendered to the police.",
+      "promptZh": "兩天後,她向警方投降。",
+      "starter": "After",
+      "answer": "After two days, she gave herself up to the police.",
+      "answerZh": "兩天後,她向警方投降。",
+      "highlight": "gave herself up",
+      "targetForm": "give yourself up (to somebody/something)",
+      "targetMeaningZh": "向警方或其他當局投降"
+    },
+    {
+      "id": "phrasal-verb-210-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "Who is going to accompany you and formally present you to your partner during the wedding ceremony?",
+      "promptZh": "誰會在婚禮上陪伴你進場,並正式把你交給伴侶?",
+      "starter": "Who",
+      "answer": "Who is going to give you away during the wedding ceremony?",
+      "answerZh": "誰會在婚禮上陪伴你進場,並正式把你交給伴侶?",
+      "highlight": "give",
+      "targetForm": "give somebody away",
+      "targetMeaningZh": "在婚禮上陪伴新娘進場並正式把她交給伴侶"
+    },
+    {
+      "id": "phrasal-verb-210-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The bedroom window has a view of the back garden.",
+      "promptZh": "睡房的窗戶面向後花園。",
+      "starter": "The",
+      "answer": "The bedroom window gives onto the back garden.",
+      "answerZh": "睡房的窗戶面向後花園。",
+      "highlight": "gives onto",
+      "targetForm": "give onto something",
+      "targetMeaningZh": "門或窗通往、面向某處"
+    },
+    {
+      "id": "phrasal-verb-210-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "I will not stop seeing all my friends just because I am getting married.",
+      "promptZh": "我不會只因為要結婚便不再與所有朋友來往。",
+      "starter": "I",
+      "answer": "I will not give up all my friends just because I am getting married.",
+      "answerZh": "我不會只因為要結婚便放棄所有朋友。",
+      "highlight": "give up",
+      "targetForm": "give up / give somebody/something up / give up doing something",
+      "targetMeaningZh": "放棄;停止嘗試、做某事或維持某種關係"
+    },
+    {
+      "id": "phrasal-verb-210-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 28,
+      "prompt": "The old battery may stop working before we arrive.",
+      "promptZh": "這枚舊電池可能在我們到達前便失靈。",
+      "starter": "The",
+      "answer": "The old battery may give out before we arrive.",
+      "answerZh": "這枚舊電池可能在我們到達前便失靈。",
+      "highlight": "give out",
+      "targetForm": "give out",
+      "targetMeaningZh": "力量、供應或設備最後耗盡或失靈"
+    },
+    {
+      "id": "phrasal-verb-210-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "Many volunteers have freely offered their time and energy to the project.",
+      "promptZh": "許多義工都自願為這個項目付出時間和精力。",
+      "starter": "Many",
+      "answer": "Many volunteers have given of their time and energy to the project.",
+      "answerZh": "許多義工都自願為這個項目付出時間和精力。",
+      "highlight": "given of",
+      "targetForm": "give of something / give of yourself",
+      "targetMeaningZh": "自願付出時間、精力或能力幫助別人"
+    },
+    {
+      "id": "phrasal-verb-210-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 29,
+      "prompt": "They have not stopped hoping that their marriage can be saved.",
+      "promptZh": "他們仍然相信自己的婚姻可以挽救。",
+      "starter": "They",
+      "answer": "They have not given up on their marriage.",
+      "answerZh": "他們仍然沒有放棄挽救自己的婚姻。",
+      "highlight": "given up on",
+      "targetForm": "give up on somebody/something",
+      "targetMeaningZh": "不再相信某人或某事能改善或成功"
+    },
+    {
+      "id": "phrasal-verb-210-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "The doors at the back lead directly to the yard.",
+      "promptZh": "後方的門直接通往院子。",
+      "starter": "The",
+      "answer": "The doors at the back give directly onto the yard.",
+      "answerZh": "後方的門直接通往院子。",
+      "highlight": "give",
+      "targetForm": "give onto something",
+      "targetMeaningZh": "門或窗通往、面向某處"
+    },
+    {
+      "id": "phrasal-verb-210-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "Her legs failed before she reached the top of the hill.",
+      "promptZh": "她還未到達山頂,雙腿便沒有力氣了。",
+      "starter": "Her",
+      "answer": "Her legs gave out before she reached the top of the hill.",
+      "answerZh": "她還未到達山頂,雙腿便沒有力氣了。",
+      "highlight": "gave out",
+      "targetForm": "give out",
+      "targetMeaningZh": "力量、供應或設備最後耗盡或失靈"
+    },
+    {
+      "id": "phrasal-verb-210-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 29,
+      "prompt": "The school did not accept the parents’ repeated request.",
+      "promptZh": "學校沒有接受家長一再提出的要求。",
+      "starter": "The",
+      "answer": "The school did not give in to the parents’ repeated request.",
+      "answerZh": "學校沒有向家長一再提出的要求讓步。",
+      "highlight": "give in to",
+      "targetForm": "give in (to somebody/something)",
+      "targetMeaningZh": "停止抵抗;讓步;認輸"
+    },
+    {
+      "id": "phrasal-verb-210-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "We printed the maps and distributed them at the entrance.",
+      "promptZh": "我們印好地圖,並在入口處派發。",
+      "starter": "We",
+      "answer": "We printed the maps and gave them out at the entrance.",
+      "answerZh": "我們印好地圖,並在入口處派發。",
+      "highlight": "gave",
+      "targetForm": "give something out",
+      "targetMeaningZh": "派發;分發"
+    },
+    {
+      "id": "phrasal-verb-210-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 30,
+      "prompt": "The children kept arguing, so their mother told them to stop.",
+      "promptZh": "孩子們不停爭吵,所以母親叫他們別鬧了。",
+      "starter": "The",
+      "answer": "The children kept arguing, so their mother told them to give over.",
+      "answerZh": "孩子們不停爭吵,所以母親叫他們別鬧了。",
+      "highlight": "give over",
+      "targetForm": "give over",
+      "targetMeaningZh": "停止令人厭煩的行為;別鬧了"
+    },
+    {
+      "id": "phrasal-verb-210-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "I tried to hide, but my bright shoes revealed where I was.",
+      "promptZh": "我嘗試躲藏,但鮮色的鞋子暴露了我的位置。",
+      "starter": "I",
+      "answer": "I tried to hide, but my bright shoes gave me away.",
+      "answerZh": "我嘗試躲藏,但鮮色的鞋子暴露了我的位置。",
+      "highlight": "gave me away",
+      "targetForm": "give somebody/something/yourself away",
+      "targetMeaningZh": "無意中暴露身分、秘密、真相或真正感受"
+    },
+    {
+      "id": "phrasal-verb-210-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "This flower has a sweet smell. The flower produces it only at night.",
+      "promptZh": "這朵花有一股香甜氣味,而且只會在晚上散發。",
+      "starter": "This",
+      "answer": "This flower has a sweet smell. The flower gives it off only at night.",
+      "answerZh": "這朵花有一股香甜氣味,而且只會在晚上散發。",
+      "highlight": "gives",
+      "targetForm": "give off something",
+      "targetMeaningZh": "散發氣味、熱力、光、氣體等"
+    },
+    {
+      "id": "phrasal-verb-210-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "Her uncle accompanied her and formally presented her to her partner during the ceremony.",
+      "promptZh": "她的叔父在婚禮上陪伴她進場,並正式把她交給伴侶。",
+      "starter": "She",
+      "answer": "She was given away by her uncle during the ceremony.",
+      "answerZh": "她在婚禮上由叔父陪伴進場,並正式交給伴侶。",
+      "highlight": "She was given away by",
+      "targetForm": "give somebody away",
+      "targetMeaningZh": "在婚禮上陪伴新娘進場並正式把她交給伴侶"
+    },
+    {
+      "id": "phrasal-verb-210-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 30,
+      "prompt": "We stopped thinking about work and allowed ourselves to enjoy the holiday completely.",
+      "promptZh": "我們不再想着工作,讓自己完全享受假期。",
+      "starter": "We",
+      "answer": "We gave ourselves over to enjoying the holiday.",
+      "answerZh": "我們不再想着工作,讓自己完全享受假期。",
+      "highlight": "gave",
+      "targetForm": "give yourself over/up to something / doing something",
+      "targetMeaningZh": "完全投入某種感受或活動;任由自己受其支配"
+    },
+    {
+      "id": "phrasal-verb-210-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "The hall belongs to the school, but the school allowed the youth club to use it all summer.",
+      "promptZh": "禮堂屬於學校,但校方讓青年會整個夏天使用它。",
+      "starter": "The",
+      "answer": "The hall belongs to the school, but the school gave it over to the youth club for the summer.",
+      "answerZh": "禮堂屬於學校,但校方把它交給青年會在整個夏天使用。",
+      "highlight": "gave it over to",
+      "targetForm": "give somebody/something over to somebody / give something over to something",
+      "targetMeaningZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途"
+    },
+    {
+      "id": "phrasal-verb-210-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 31,
+      "prompt": "Although he is busy, he still freely offers his skills to help new students.",
+      "promptZh": "雖然他很忙,但仍自願運用自己的技能幫助新同學。",
+      "starter": "Although",
+      "answer": "Although he is busy, he still gives of his skills to help new students.",
+      "answerZh": "雖然他很忙,但仍自願運用自己的技能幫助新同學。",
+      "highlight": "gives of",
+      "targetForm": "give of something / give of yourself",
+      "targetMeaningZh": "自願付出時間、精力或能力幫助別人"
+    },
+    {
+      "id": "phrasal-verb-210-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "When you finish the report, submit it to the office staff.",
+      "promptZh": "完成報告後,請把它交給辦公室職員。",
+      "starter": "When",
+      "answer": "When you finish the report, give it in to the office staff.",
+      "answerZh": "完成報告後,請把它交給辦公室職員。",
+      "highlight": "give",
+      "targetForm": "give something in (to somebody)",
+      "targetMeaningZh": "交上;提交文件、功課或測驗"
+    },
+    {
+      "id": "phrasal-verb-210-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "The two men decided to surrender to the officers.",
+      "promptZh": "那兩名男子決定向警員投降。",
+      "starter": "The",
+      "answer": "The two men decided to give themselves up to the officers.",
+      "answerZh": "那兩名男子決定向警員投降。",
+      "highlight": "give themselves up",
+      "targetForm": "give yourself up (to somebody/something)",
+      "targetMeaningZh": "向警方或其他當局投降"
+    },
+    {
+      "id": "phrasal-verb-210-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "After the visit, we returned the children to their parents.",
+      "promptZh": "探訪結束後,我們把孩子交還給他們的父母。",
+      "starter": "After",
+      "answer": "After the visit, we gave the children back to their parents.",
+      "answerZh": "探訪結束後,我們把孩子交還給他們的父母。",
+      "highlight": "gave",
+      "targetForm": "give somebody/something back (to somebody)",
+      "targetMeaningZh": "把某人或某物歸還"
+    },
+    {
+      "id": "phrasal-verb-210-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 31,
+      "prompt": "I would not pay that much for an old phone.",
+      "promptZh": "我不會花那麼多錢買一部舊電話。",
+      "starter": "I",
+      "answer": "I would not give that much for an old phone.",
+      "answerZh": "我不會花那麼多錢買一部舊電話。",
+      "highlight": "give",
+      "targetForm": "give something for something",
+      "targetMeaningZh": "為某物支付某個價錢"
+    },
+    {
+      "id": "phrasal-verb-210-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "The coach refused to stop believing in the weakest player.",
+      "promptZh": "教練拒絕放棄對那名最弱球員的信心。",
+      "starter": "The",
+      "answer": "The coach refused to give up on the weakest player.",
+      "answerZh": "教練拒絕放棄對那名最弱球員的信心。",
+      "highlight": "give up on",
+      "targetForm": "give up on somebody/something",
+      "targetMeaningZh": "不再相信某人或某事能改善或成功"
+    },
+    {
+      "id": "phrasal-verb-210-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 32,
+      "prompt": "I do not need these chairs, so I will donate them.",
+      "promptZh": "我不需要這些椅子,所以會把它們送出去。",
+      "starter": "I",
+      "answer": "I do not need these chairs, so I will give them away.",
+      "answerZh": "我不需要這些椅子,所以會把它們送出去。",
+      "highlight": "give",
+      "targetForm": "give something away",
+      "targetMeaningZh": "免費送出;捐出"
+    },
+    {
+      "id": "phrasal-verb-210-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "They tried the plan for a week, then abandoned it.",
+      "promptZh": "他們試行了這項計劃一星期,然後把它放棄了。",
+      "starter": "They",
+      "answer": "They tried the plan for a week, then gave it up.",
+      "answerZh": "他們試行了這項計劃一星期,然後把它放棄了。",
+      "highlight": "gave",
+      "targetForm": "give up / give somebody/something up / give up doing something",
+      "targetMeaningZh": "放棄;停止嘗試、做某事或維持某種關係"
+    },
+    {
+      "id": "phrasal-verb-210-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 32,
+      "prompt": "The note looked real, but one spelling mistake revealed the truth.",
+      "promptZh": "那張便條看來是真的,但一個串字錯誤洩露了真相。",
+      "starter": "The",
+      "answer": "The note looked real, but one spelling mistake gave it away.",
+      "answerZh": "那張便條看來是真的,但一個串字錯誤洩露了真相。",
+      "highlight": "gave it away",
+      "targetForm": "give somebody/something/yourself away",
+      "targetMeaningZh": "無意中暴露身分、秘密、真相或真正感受"
+    },
+    {
+      "id": "phrasal-verb-210-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "Why did she abandon the idea of studying abroad?",
+      "promptZh": "她為何放棄到外地升學的想法?",
+      "starter": "Why",
+      "answer": "Why did she give up the idea of studying abroad?",
+      "answerZh": "她為何放棄到外地升學的想法?",
+      "highlight": "give up",
+      "targetForm": "give up / give somebody/something up / give up doing something",
+      "targetMeaningZh": "放棄;停止嘗試、做某事或維持某種關係"
+    },
+    {
+      "id": "phrasal-verb-210-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "Who will distribute the name cards before the meeting?",
+      "promptZh": "誰會在會議前派發名牌?",
+      "starter": "Who",
+      "answer": "Who will give out the name cards before the meeting?",
+      "answerZh": "誰會在會議前派發名牌?",
+      "highlight": "give out",
+      "targetForm": "give something out",
+      "targetMeaningZh": "派發;分發"
+    },
+    {
+      "id": "phrasal-verb-210-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 33,
+      "prompt": "Because her father could not attend, her older sister accompanied her and formally presented her to her partner during the wedding.",
+      "promptZh": "由於父親未能出席,她的姐姐在婚禮上陪伴她進場,並正式把她交給伴侶。",
+      "starter": "Because",
+      "answer": "Because her father could not attend, her older sister gave her away at the wedding.",
+      "answerZh": "由於父親未能出席,她的姐姐在婚禮上陪伴她進場,並正式把她交給伴侶。",
+      "highlight": "gave",
+      "targetForm": "give somebody away",
+      "targetMeaningZh": "在婚禮上陪伴新娘進場並正式把她交給伴侶"
+    },
+    {
+      "id": "phrasal-verb-210-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "Why have you stopped trying to repair the old computer?",
+      "promptZh": "你為何已經不再嘗試修理那部舊電腦?",
+      "starter": "Why",
+      "answer": "Why have you given up on the old computer?",
+      "answerZh": "你為何已經對那部舊電腦不抱希望?",
+      "highlight": "given up on",
+      "targetForm": "give up on somebody/something",
+      "targetMeaningZh": "不再相信某人或某事能改善或成功"
+    },
+    {
+      "id": "phrasal-verb-210-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "We chose the room whose glass doors lead to the swimming pool.",
+      "promptZh": "我們選了那間玻璃門通往泳池的房間。",
+      "starter": "We",
+      "answer": "We chose the room whose glass doors give onto the swimming pool.",
+      "answerZh": "我們選了那間玻璃門通往泳池的房間。",
+      "highlight": "give onto",
+      "targetForm": "give onto something",
+      "targetMeaningZh": "門或窗通往、面向某處"
+    },
+    {
+      "id": "phrasal-verb-210-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 33,
+      "prompt": "People who willingly use their talents to help others can change a community.",
+      "promptZh": "願意運用自己的才能幫助別人的人,可以改變一個社區。",
+      "starter": "People",
+      "answer": "People who give of their talents to help others can change a community.",
+      "answerZh": "願意運用自己的才能幫助別人的人,可以改變一個社區。",
+      "highlight": "give of",
+      "targetForm": "give of something / give of yourself",
+      "targetMeaningZh": "自願付出時間、精力或能力幫助別人"
+    },
+    {
+      "id": "phrasal-verb-210-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "Why did he donate most of his books?",
+      "promptZh": "他為何捐出大部分書籍?",
+      "starter": "Why",
+      "answer": "Why did he give most of his books away?",
+      "answerZh": "他為何捐出大部分書籍?",
+      "highlight": "give",
+      "targetForm": "give something away",
+      "targetMeaningZh": "免費送出;捐出"
+    },
+    {
+      "id": "phrasal-verb-210-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "When the owner retired, she placed her son in control of the shop.",
+      "promptZh": "店主退休時,把店舖交給兒子管理。",
+      "starter": "When",
+      "answer": "When the owner retired, she gave the shop over to her son.",
+      "answerZh": "店主退休時,把店舖交給兒子管理。",
+      "highlight": "gave the shop over to",
+      "targetForm": "give somebody/something over to somebody / give something over to something",
+      "targetMeaningZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途"
+    },
+    {
+      "id": "phrasal-verb-210-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 34,
+      "prompt": "Why have you not returned my charger yet?",
+      "promptZh": "你為何還未把充電器還給我?",
+      "starter": "Why",
+      "answer": "Why have you not given my charger back yet?",
+      "answerZh": "你為何還未把充電器還給我?",
+      "highlight": "given",
+      "targetForm": "give somebody/something back (to somebody)",
+      "targetMeaningZh": "把某人或某物歸還"
+    },
+    {
+      "id": "phrasal-verb-210-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "Stop complaining; the queue is moving.",
+      "promptZh": "別再抱怨了;隊伍正在前進。",
+      "starter": "Give",
+      "answer": "Give over; the queue is moving.",
+      "answerZh": "別再抱怨了;隊伍正在前進。",
+      "highlight": "Give over",
+      "targetForm": "give over",
+      "targetMeaningZh": "停止令人厭煩的行為;別鬧了"
+    },
+    {
+      "id": "phrasal-verb-210-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "Why does this old lamp produce so much heat?",
+      "promptZh": "這盞舊燈為何會散發這麼多熱力?",
+      "starter": "Why",
+      "answer": "Why does this old lamp give off so much heat?",
+      "answerZh": "這盞舊燈為何會散發這麼多熱力?",
+      "highlight": "give off",
+      "targetForm": "give off something",
+      "targetMeaningZh": "散發氣味、熱力、光、氣體等"
+    },
+    {
+      "id": "phrasal-verb-210-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 34,
+      "prompt": "Instead of fighting her sadness, Lena allowed it to take complete control.",
+      "promptZh": "莉娜沒有抗拒悲傷,反而任由它完全控制自己。",
+      "starter": "Instead",
+      "answer": "Instead of fighting her sadness, Lena gave herself over to it.",
+      "answerZh": "莉娜沒有抗拒悲傷,反而任由它完全控制自己。",
+      "highlight": "gave herself over to",
+      "targetForm": "give yourself over/up to something / doing something",
+      "targetMeaningZh": "完全投入某種感受或活動;任由自己受其支配"
+    },
+    {
+      "id": "phrasal-verb-210-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "Would you stop resisting if everyone asked you to change your decision?",
+      "promptZh": "如果所有人都要求你改變決定,你會停止抵抗嗎?",
+      "starter": "Would",
+      "answer": "Would you give in if everyone asked you to change your decision?",
+      "answerZh": "如果所有人都要求你改變決定,你會讓步嗎?",
+      "highlight": "give in",
+      "targetForm": "give in (to somebody/something)",
+      "targetMeaningZh": "停止抵抗;讓步;認輸"
+    },
+    {
+      "id": "phrasal-verb-210-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 35,
+      "prompt": "Why did the suspect finally surrender to the police?",
+      "promptZh": "那名疑犯為何最終向警方投降?",
+      "starter": "Why",
+      "answer": "Why did the suspect finally give himself up to the police?",
+      "answerZh": "那名疑犯為何最終向警方投降?",
+      "highlight": "give himself up",
+      "targetForm": "give yourself up (to somebody/something)",
+      "targetMeaningZh": "向警方或其他當局投降"
+    },
+    {
+      "id": "phrasal-verb-210-q70",
+      "number": 70,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "What is the highest price you would pay for this painting?",
+      "promptZh": "你願意為這幅畫支付的最高價錢是多少?",
+      "starter": "What",
+      "answer": "What is the most you would give for this painting?",
+      "answerZh": "你願意為這幅畫支付的最高價錢是多少?",
+      "highlight": "most",
+      "targetForm": "give something for something",
+      "targetMeaningZh": "為某物支付某個價錢"
+    },
+    {
+      "id": "phrasal-verb-210-q71",
+      "number": 71,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "Why did Sara submit her homework late?",
+      "promptZh": "莎拉為何遲交功課?",
+      "starter": "Why",
+      "answer": "Why did Sara give her homework in late?",
+      "answerZh": "莎拉為何遲交功課?",
+      "highlight": "give",
+      "targetForm": "give something in (to somebody)",
+      "targetMeaningZh": "交上;提交文件、功課或測驗"
+    },
+    {
+      "id": "phrasal-verb-210-q72",
+      "number": 72,
+      "band": 3,
+      "sourcePage": 19,
+      "answerSourcePage": 35,
+      "prompt": "We had enough water at first, but in the end none was left.",
+      "promptZh": "我們起初有足夠食水,但最後完全用盡了。",
+      "starter": "We",
+      "answer": "We had enough water at first, but our supply finally gave out.",
+      "answerZh": "我們起初有足夠食水,但供應最後完全耗盡了。",
+      "highlight": "our supply finally gave out",
+      "targetForm": "give out",
+      "targetMeaningZh": "力量、供應或設備最後耗盡或失靈"
+    },
+    {
+      "id": "phrasal-verb-210-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "He has repeated the same story all morning. I wish he would stop.",
+      "promptZh": "他整個早上都在重複同一個故事。我希望他別再說了。",
+      "starter": "He",
+      "answer": "He has repeated the same story all morning. I wish he would give over.",
+      "answerZh": "他整個早上都在重複同一個故事。我希望他別再說了。",
+      "highlight": "give over",
+      "targetForm": "give over",
+      "targetMeaningZh": "停止令人厭煩的行為;別鬧了"
+    },
+    {
+      "id": "phrasal-verb-210-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "The coach was never paid, but for years he freely offered his time and energy to young players.",
+      "promptZh": "教練從未收取薪金,但多年來一直自願為年輕球員付出時間和精力。",
+      "starter": "The",
+      "answer": "The coach was never paid, but for years he gave of his time and energy to young players.",
+      "answerZh": "教練從未收取薪金,但多年來一直自願為年輕球員付出時間和精力。",
+      "highlight": "gave of",
+      "targetForm": "give of something / give of yourself",
+      "targetMeaningZh": "自願付出時間、精力或能力幫助別人"
+    },
+    {
+      "id": "phrasal-verb-210-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 36,
+      "prompt": "She said she had never seen the gift, but the look in her eyes revealed that she knew about it.",
+      "promptZh": "她說自己從未見過那份禮物,但眼神暴露了她其實知道這件事。",
+      "starter": "She",
+      "answer": "She said she had never seen the gift, but the look in her eyes gave her away.",
+      "answerZh": "她說自己從未見過那份禮物,但眼神暴露了她其實知道這件事。",
+      "highlight": "gave her away",
+      "targetForm": "give somebody/something/yourself away",
+      "targetMeaningZh": "無意中暴露身分、秘密、真相或真正感受"
+    },
+    {
+      "id": "phrasal-verb-210-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "The teacher asked us to submit both pages before leaving the room.",
+      "promptZh": "老師要求我們在離開課室前交上兩頁答案。",
+      "starter": "The",
+      "answer": "The teacher asked us to give both pages in before leaving the room.",
+      "answerZh": "老師要求我們在離開課室前交上兩頁答案。",
+      "highlight": "give",
+      "targetForm": "give something in (to somebody)",
+      "targetMeaningZh": "交上;提交文件、功課或測驗"
+    },
+    {
+      "id": "phrasal-verb-210-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "At the ceremony, the bride asked both parents to walk with her and formally present her.",
+      "promptZh": "在婚禮上,新娘請父母一同陪伴她進場,並正式把她交給伴侶。",
+      "starter": "At",
+      "answer": "At the ceremony, the bride asked both parents to give her away.",
+      "answerZh": "在婚禮上,新娘請父母一同陪伴她進場,並正式把她交給伴侶。",
+      "highlight": "give",
+      "targetForm": "give somebody away",
+      "targetMeaningZh": "在婚禮上陪伴新娘進場並正式把她交給伴侶"
+    },
+    {
+      "id": "phrasal-verb-210-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 36,
+      "prompt": "Once the music began, the dancers forgot everything else and allowed themselves to dance without holding back.",
+      "promptZh": "音樂一開始,舞者便忘記其他事情,讓自己毫無保留地跳舞。",
+      "starter": "Once",
+      "answer": "Once the music began, the dancers gave themselves up to dancing.",
+      "answerZh": "音樂一開始,舞者便忘記其他事情,讓自己毫無保留地跳舞。",
+      "highlight": "gave",
+      "targetForm": "give yourself over/up to something / doing something",
+      "targetMeaningZh": "完全投入某種感受或活動;任由自己受其支配"
+    },
+    {
+      "id": "phrasal-verb-210-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "At the end of the hall, a pair of glass doors leads directly to a quiet courtyard.",
+      "promptZh": "走廊盡頭有一對玻璃門,直接通往一個安靜的庭院。",
+      "starter": "At",
+      "answer": "At the end of the hall, a pair of glass doors gives directly onto a quiet courtyard.",
+      "answerZh": "走廊盡頭有一對玻璃門,直接通往一個安靜的庭院。",
+      "highlight": "gives",
+      "targetForm": "give onto something",
+      "targetMeaningZh": "門或窗通往、面向某處"
+    },
+    {
+      "id": "phrasal-verb-210-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 37,
+      "prompt": "The first plan failed, but the team still believes the project can work.",
+      "promptZh": "第一個計劃失敗了,但團隊仍相信這個項目可以成功。",
+      "starter": "The",
+      "answer": "The first plan failed, but the team has not given up on the project.",
+      "answerZh": "第一個計劃失敗了,但團隊仍未放棄這個項目。",
+      "highlight": "has not given up on",
+      "targetForm": "give up on somebody/something",
+      "targetMeaningZh": "不再相信某人或某事能改善或成功"
+    },
+    {
+      "id": "phrasal-verb-210-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "Although the children kept asking for sweets, their father refused to stop resisting.",
+      "promptZh": "雖然孩子們不停要求吃糖果,但父親仍拒絕讓步。",
+      "starter": "Although",
+      "answer": "Although the children kept asking for sweets, their father refused to give in.",
+      "answerZh": "雖然孩子們不停要求吃糖果,但父親仍拒絕讓步。",
+      "highlight": "give in",
+      "targetForm": "give in (to somebody/something)",
+      "targetMeaningZh": "停止抵抗;讓步;認輸"
+    },
+    {
+      "id": "phrasal-verb-210-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "The museum lent the painting for one month, and the gallery promised to return it on Friday.",
+      "promptZh": "博物館把畫作借出一個月,而畫廊承諾在星期五歸還。",
+      "starter": "The",
+      "answer": "The museum lent the painting for one month, and the gallery promised to give it back on Friday.",
+      "answerZh": "博物館把畫作借出一個月,而畫廊承諾在星期五歸還。",
+      "highlight": "give",
+      "targetForm": "give somebody/something back (to somebody)",
+      "targetMeaningZh": "把某人或某物歸還"
+    },
+    {
+      "id": "phrasal-verb-210-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 37,
+      "prompt": "When these leaves are crushed, they produce a sharp smell that stays on your hands.",
+      "promptZh": "這些葉子被壓碎時,會散發一股留在手上的強烈氣味。",
+      "starter": "When",
+      "answer": "When these leaves are crushed, they give off a sharp smell that stays on your hands.",
+      "answerZh": "這些葉子被壓碎時,會散發一股留在手上的強烈氣味。",
+      "highlight": "give off",
+      "targetForm": "give off something",
+      "targetMeaningZh": "散發氣味、熱力、光、氣體等"
+    },
+    {
+      "id": "phrasal-verb-210-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "After hours of carrying boxes, his strength failed just as he reached the stairs.",
+      "promptZh": "搬運了數小時的箱子後,他走到樓梯時終於用盡力氣。",
+      "starter": "After",
+      "answer": "After hours of carrying boxes, his strength gave out just as he reached the stairs.",
+      "answerZh": "搬運了數小時的箱子後,他走到樓梯時終於用盡力氣。",
+      "highlight": "gave out",
+      "targetForm": "give out",
+      "targetMeaningZh": "力量、供應或設備最後耗盡或失靈"
+    },
+    {
+      "id": "phrasal-verb-210-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Instead of selling the extra food, the café offered it free to local families.",
+      "promptZh": "咖啡店沒有出售多出的食物,而是免費送給區內家庭。",
+      "starter": "Instead",
+      "answer": "Instead of selling the extra food, the café gave it away to local families.",
+      "answerZh": "咖啡店沒有出售多出的食物,而是免費送給區內家庭。",
+      "highlight": "gave",
+      "targetForm": "give something away",
+      "targetMeaningZh": "免費送出;捐出"
+    },
+    {
+      "id": "phrasal-verb-210-q86",
+      "number": 86,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 38,
+      "prompt": "Knowing that the police had surrounded the house, the man came outside and surrendered.",
+      "promptZh": "那名男子知道警方已包圍房屋,於是走到外面投降。",
+      "starter": "Knowing",
+      "answer": "Knowing that the police had surrounded the house, the man came outside and gave himself up.",
+      "answerZh": "那名男子知道警方已包圍房屋,於是走到外面投降。",
+      "highlight": "gave himself up",
+      "targetForm": "give yourself up (to somebody/something)",
+      "targetMeaningZh": "向警方或其他當局投降"
+    },
+    {
+      "id": "phrasal-verb-210-q87",
+      "number": 87,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 38,
+      "prompt": "Although the car looked new, the buyer paid only three thousand pounds for it.",
+      "promptZh": "雖然那輛汽車看來很新,但買家只花了三千英鎊購買。",
+      "starter": "Although",
+      "answer": "Although the car looked new, the buyer gave only three thousand pounds for it.",
+      "answerZh": "雖然那輛汽車看來很新,但買家只花了三千英鎊購買。",
+      "highlight": "gave",
+      "targetForm": "give something for something",
+      "targetMeaningZh": "為某物支付某個價錢"
+    },
+    {
+      "id": "phrasal-verb-210-q88",
+      "number": 88,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 38,
+      "prompt": "Before the race began, staff distributed numbers and safety information to every runner.",
+      "promptZh": "比賽開始前,工作人員向每名跑手派發號碼和安全資訊。",
+      "starter": "Before",
+      "answer": "Before the race began, staff gave out numbers and safety information to every runner.",
+      "answerZh": "比賽開始前,工作人員向每名跑手派發號碼和安全資訊。",
+      "highlight": "gave out",
+      "targetForm": "give something out",
+      "targetMeaningZh": "派發;分發"
+    },
+    {
+      "id": "phrasal-verb-210-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 38,
+      "prompt": "For the anniversary issue, the magazine devoted its first ten pages to photographs from the past.",
+      "promptZh": "在周年特刊中,雜誌把最前十頁撥作刊登昔日照片。",
+      "starter": "For",
+      "answer": "For the anniversary issue, the magazine gave its first ten pages over to photographs from the past.",
+      "answerZh": "在周年特刊中,雜誌把最前十頁撥作刊登昔日照片。",
+      "highlight": "gave",
+      "targetForm": "give somebody/something over to somebody / give something over to something",
+      "targetMeaningZh": "把人或事物交給別人管理,或把時間、空間撥作某種用途"
+    },
+    {
+      "id": "phrasal-verb-210-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 39,
+      "prompt": "Even after three failed attempts, he refused to stop trying.",
+      "promptZh": "即使三次嘗試都失敗了,他仍拒絕放棄。",
+      "starter": "Even",
+      "answer": "Even after three failed attempts, he refused to give up.",
+      "answerZh": "即使三次嘗試都失敗了,他仍拒絕放棄。",
+      "highlight": "give up",
+      "targetForm": "give up / give somebody/something up / give up doing something",
+      "targetMeaningZh": "放棄;停止嘗試、做某事或維持某種關係"
+    }
+  ]
+}

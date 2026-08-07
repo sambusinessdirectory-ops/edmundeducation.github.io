@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-295",
+  "order": 295,
+  "slug": "scrub",
+  "version": "1",
+  "title": "SCRUB 動詞片語",
+  "titleEn": "Scrub",
+  "titleZh": "SCRUB 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 280 - SCRUB.pdf",
+    "sourceNumber": 280,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SCRUB 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SCRUB."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SCRUB",
+      "highlight": "SCRUB"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A second doctor scrubbed in to help.",
+      "zh": "另一名醫生完成清潔準備後加入手術提供協助。",
+      "highlight": "scrubbed in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Scrub all that mud off the walls.",
+      "zh": "把牆上所有泥濘擦洗乾淨。",
+      "highlight": "Scrub all that mud off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He scrubbed out the pans and left them to drain.",
+      "zh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+      "highlight": "scrubbed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "完成手部清潔和其他準備,加入手術；用力擦洗,把污垢、油漬或痕跡從表面清除；徹底擦洗容器或物件的內部；在手術前徹底清洗雙手和手臂",
+    "en": "scrub in; scrub something off / scrub something off something; scrub something out; scrub up",
+    "naturalZh": [
+      "完成手部清潔和其他準備,加入手術",
+      "用力擦洗,把污垢、油漬或痕跡從表面清除",
+      "徹底擦洗容器或物件的內部",
+      "在手術前徹底清洗雙手和手臂"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "scrub in",
+      "titleZh": "完成手部清潔和其他準備,加入手術",
+      "titleEn": "scrub in",
+      "descriptionZh": "完成手部清潔和其他準備,加入手術",
+      "descriptionEn": "A second doctor scrubbed in to help.",
+      "examples": [
+        {
+          "en": "A second doctor scrubbed in to help.",
+          "zh": "另一名醫生完成清潔準備後加入手術提供協助。",
+          "highlight": "scrubbed in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "scrub something off / scrub something off something",
+      "titleZh": "用力擦洗,把污垢、油漬或痕跡從表面清除",
+      "titleEn": "scrub something off / scrub something off something",
+      "descriptionZh": "用力擦洗,把污垢、油漬或痕跡從表面清除",
+      "descriptionEn": "Scrub all that mud off the walls.",
+      "examples": [
+        {
+          "en": "Scrub all that mud off the walls.",
+          "zh": "把牆上所有泥濘擦洗乾淨。",
+          "highlight": "Scrub all that mud off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "scrub something out",
+      "titleZh": "徹底擦洗容器或物件的內部",
+      "titleEn": "scrub something out",
+      "descriptionZh": "徹底擦洗容器或物件的內部",
+      "descriptionEn": "He scrubbed out the pans and left them to drain.",
+      "examples": [
+        {
+          "en": "He scrubbed out the pans and left them to drain.",
+          "zh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+          "highlight": "scrubbed out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "scrub up",
+      "titleZh": "在手術前徹底清洗雙手和手臂",
+      "titleEn": "scrub up",
+      "descriptionZh": "在手術前徹底清洗雙手和手臂",
+      "descriptionEn": "The surgeon scrubbed up and put on his gloves.",
+      "examples": [
+        {
+          "en": "The surgeon scrubbed up and put on his gloves.",
+          "zh": "外科醫生徹底清洗雙手和手臂,然後戴上手套。",
+          "highlight": "scrubbed up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SCRUB 片語動詞的實際用途",
+    "labelEn": "SCRUB Phrasal Verbs in Use",
+    "summaryZh": "scrub something off 表示用力擦洗,把泥濘、油漬、油漆或其他痕跡從物件表面清除。；你可以 scrub dirt off a wall,表示清潔牆壁表面;也可以 scrub out a pan、bath、sink 或 bin,表示徹底清潔內部。；scrub up 和 scrub in 常用於談論醫生、護士和手術前的準備工作。；SCRUB 片語動詞表示用力而仔細地擦洗,而不只是輕輕抹一下。",
+    "summaryEn": "Scrub something off shows that mud, grease, paint or another mark is removed from a surface by hard rubbing. You can scrub dirt off a wall, but you scrub out a pan, bath, sink or bin. Scrub up and scrub in are commonly connected with doctors, nurses and operations. SCRUB expressions show that someone cleans something firmly and carefully rather than simply wiping it.",
+    "contextsZh": [
+      "清楚描述如何清除頑固污漬",
+      "分辨清潔表面和清潔內部",
+      "理解手術前使用的英語",
+      "表達比一般清洗更徹底的動作"
+    ],
+    "contextsEn": [
+      "Describe the removal of difficult dirt clearly",
+      "Distinguish between cleaning a surface and cleaning the inside",
+      "Understand English used before an operation",
+      "Express more than ordinary washing"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SCRUB 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SCRUB expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "scrub in",
+    "fixedHighlight": "scrub in",
+    "fixedZh": "閱讀整句,選出意思相同的 SCRUB 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SCRUB expression that gives the same meaning.",
+    "correct": "scrubbed in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；scrub off 表示把污垢從物件表面擦走;scrub out 則表示徹底擦洗容器或物件的內部。；scrub up 強調在手術前清洗雙手和手臂;scrub in 則強調完成準備並加入手術。",
+    "variableEn": "Keep the same people, things, time and meaning. Scrub off and scrub out describe different kinds of cleaning: scrub mud off the wall scrub the pan out Scrub up focuses on washing before an operation. Scrub in focuses on completing the preparation and taking part in the operation.",
+    "variableItemsZh": [
+      "scrub in",
+      "scrub something off / scrub something off something",
+      "scrub something out",
+      "scrub up"
+    ],
+    "variableItemsEn": [
+      "scrub in",
+      "scrub something off / scrub something off something",
+      "scrub something out",
+      "scrub up"
+    ],
+    "forms": [
+      {
+        "formZh": "完成手部清潔和其他準備,加入手術",
+        "formEn": "scrub in",
+        "exampleZh": "另一名醫生完成清潔準備後加入手術提供協助。",
+        "exampleEn": "A second doctor scrubbed in to help.",
+        "highlight": "scrubbed in"
+      },
+      {
+        "formZh": "用力擦洗,把污垢、油漬或痕跡從表面清除",
+        "formEn": "scrub something off / scrub something off something",
+        "exampleZh": "把牆上所有泥濘擦洗乾淨。",
+        "exampleEn": "Scrub all that mud off the walls.",
+        "highlight": "Scrub all that mud off"
+      },
+      {
+        "formZh": "徹底擦洗容器或物件的內部",
+        "formEn": "scrub something out",
+        "exampleZh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+        "exampleEn": "He scrubbed out the pans and left them to drain.",
+        "highlight": "scrubbed out"
+      },
+      {
+        "formZh": "在手術前徹底清洗雙手和手臂",
+        "formEn": "scrub up",
+        "exampleZh": "外科醫生徹底清洗雙手和手臂,然後戴上手套。",
+        "exampleEn": "The surgeon scrubbed up and put on his gloves.",
+        "highlight": "scrubbed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "完成手部清潔和其他準備,加入手術",
+      "titleEn": "scrub in",
+      "formula": "scrub in",
+      "highlight": "scrub in",
+      "descriptionZh": "完成手部清潔和其他準備,加入手術",
+      "descriptionEn": "A second doctor scrubbed in to help.",
+      "examples": [
+        {
+          "en": "A second doctor scrubbed in to help.",
+          "zh": "另一名醫生完成清潔準備後加入手術提供協助。",
+          "highlight": "scrubbed in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用力擦洗,把污垢、油漬或痕跡從表面清除",
+      "titleEn": "scrub something off / scrub something off something",
+      "formula": "scrub something off / scrub something off something",
+      "highlight": "scrub something off / scrub something off something",
+      "descriptionZh": "用力擦洗,把污垢、油漬或痕跡從表面清除",
+      "descriptionEn": "Scrub all that mud off the walls.",
+      "examples": [
+        {
+          "en": "Scrub all that mud off the walls.",
+          "zh": "把牆上所有泥濘擦洗乾淨。",
+          "highlight": "Scrub all that mud off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "徹底擦洗容器或物件的內部",
+      "titleEn": "scrub something out",
+      "formula": "scrub something out",
+      "highlight": "scrub something out",
+      "descriptionZh": "徹底擦洗容器或物件的內部",
+      "descriptionEn": "He scrubbed out the pans and left them to drain.",
+      "examples": [
+        {
+          "en": "He scrubbed out the pans and left them to drain.",
+          "zh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+          "highlight": "scrubbed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在手術前徹底清洗雙手和手臂",
+      "titleEn": "scrub up",
+      "formula": "scrub up",
+      "highlight": "scrub up",
+      "descriptionZh": "在手術前徹底清洗雙手和手臂",
+      "descriptionEn": "The surgeon scrubbed up and put on his gloves.",
+      "examples": [
+        {
+          "en": "The surgeon scrubbed up and put on his gloves.",
+          "zh": "外科醫生徹底清洗雙手和手臂,然後戴上手套。",
+          "highlight": "scrubbed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述如何清除頑固污漬",
+      "titleEn": "Describe the removal of difficult dirt clearly",
+      "zh": "scrub something off 表示用力擦洗,把泥濘、油漬、油漆或其他痕跡從物件表面清除。",
+      "en": "Scrub something off shows that mud, grease, paint or another mark is removed from a surface by hard rubbing."
+    },
+    {
+      "titleZh": "分辨清潔表面和清潔內部",
+      "titleEn": "Distinguish between cleaning a surface and cleaning the inside",
+      "zh": "你可以 scrub dirt off a wall,表示清潔牆壁表面;也可以 scrub out a pan、bath、sink 或 bin,表示徹底清潔內部。",
+      "en": "You can scrub dirt off a wall, but you scrub out a pan, bath, sink or bin."
+    },
+    {
+      "titleZh": "理解手術前使用的英語",
+      "titleEn": "Understand English used before an operation",
+      "zh": "scrub up 和 scrub in 常用於談論醫生、護士和手術前的準備工作。",
+      "en": "Scrub up and scrub in are commonly connected with doctors, nurses and operations."
+    },
+    {
+      "titleZh": "表達比一般清洗更徹底的動作",
+      "titleEn": "Express more than ordinary washing",
+      "zh": "SCRUB 片語動詞表示用力而仔細地擦洗,而不只是輕輕抹一下。",
+      "en": "SCRUB expressions show that someone cleans something firmly and carefully rather than simply wiping it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述如何清除頑固污漬",
+      "分辨清潔表面和清潔內部",
+      "理解手術前使用的英語",
+      "表達比一般清洗更徹底的動作"
+    ],
+    "contextsEn": [
+      "Describe the removal of difficult dirt clearly",
+      "Distinguish between cleaning a surface and cleaning the inside",
+      "Understand English used before an operation",
+      "Express more than ordinary washing"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述如何清除頑固污漬",
+        "titleEn": "Describe the removal of difficult dirt clearly",
+        "zh": "scrub something off 表示用力擦洗,把泥濘、油漬、油漆或其他痕跡從物件表面清除。",
+        "en": "Scrub something off shows that mud, grease, paint or another mark is removed from a surface by hard rubbing.",
+        "examples": [
+          {
+            "en": "A second doctor scrubbed in to help.",
+            "zh": "另一名醫生完成清潔準備後加入手術提供協助。",
+            "highlight": "scrubbed in"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨清潔表面和清潔內部",
+        "titleEn": "Distinguish between cleaning a surface and cleaning the inside",
+        "zh": "你可以 scrub dirt off a wall,表示清潔牆壁表面;也可以 scrub out a pan、bath、sink 或 bin,表示徹底清潔內部。",
+        "en": "You can scrub dirt off a wall, but you scrub out a pan, bath, sink or bin.",
+        "examples": [
+          {
+            "en": "Scrub all that mud off the walls.",
+            "zh": "把牆上所有泥濘擦洗乾淨。",
+            "highlight": "Scrub all that mud off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解手術前使用的英語",
+        "titleEn": "Understand English used before an operation",
+        "zh": "scrub up 和 scrub in 常用於談論醫生、護士和手術前的準備工作。",
+        "en": "Scrub up and scrub in are commonly connected with doctors, nurses and operations.",
+        "examples": [
+          {
+            "en": "He scrubbed out the pans and left them to drain.",
+            "zh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+            "highlight": "scrubbed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達比一般清洗更徹底的動作",
+        "titleEn": "Express more than ordinary washing",
+        "zh": "SCRUB 片語動詞表示用力而仔細地擦洗,而不只是輕輕抹一下。",
+        "en": "SCRUB expressions show that someone cleans something firmly and carefully rather than simply wiping it.",
+        "examples": [
+          {
+            "en": "The surgeon scrubbed up and put on his gloves.",
+            "zh": "外科醫生徹底清洗雙手和手臂,然後戴上手套。",
+            "highlight": "scrubbed up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SCRUB 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SCRUB expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SCRUB 片語動詞。",
+      "en": "Read the whole sentence and choose the SCRUB expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "scrub off 表示把污垢從物件表面擦走;scrub out 則表示徹底擦洗容器或物件的內部。",
+      "titleEn": "Scrub off and scrub out describe different kinds of cleaning: scrub mud off the wall scrub the pan out.",
+      "zh": "scrub off 表示把污垢從物件表面擦走;scrub out 則表示徹底擦洗容器或物件的內部。",
+      "en": "Scrub off and scrub out describe different kinds of cleaning: scrub mud off the wall scrub the pan out"
+    },
+    {
+      "titleZh": "scrub up 強調在手術前清洗雙手和手臂;scrub in 則強調完成準備並加入手術。",
+      "titleEn": "Scrub up focuses on washing before an operation.",
+      "zh": "scrub up 強調在手術前清洗雙手和手臂;scrub in 則強調完成準備並加入手術。",
+      "en": "Scrub up focuses on washing before an operation. Scrub in focuses on completing the preparation and taking part in the operation."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SCRUB 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SCRUB. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SCRUB 動詞片語句子改寫練習",
+    "titleEn": "SCRUB Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SCRUB 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SCRUB. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-295-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please remove all that mud from the walls by rubbing hard.",
+      "promptZh": "請用力擦洗,把牆上所有泥濘清除。",
+      "starter": "Please",
+      "answer": "Please scrub all that mud off the walls.",
+      "answerZh": "請把牆上所有泥濘擦洗乾淨。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污垢從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The surgeon washed his hands and arms carefully before putting on his gloves.",
+      "promptZh": "外科醫生仔細清洗雙手和手臂,然後戴上手套。",
+      "starter": "The",
+      "answer": "The surgeon scrubbed up before putting on his gloves.",
+      "answerZh": "外科醫生徹底清洗雙手和手臂,然後戴上手套。",
+      "highlight": "scrubbed up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "He cleaned the inside of the pans carefully and left them to drain.",
+      "promptZh": "他仔細清洗平底鍋內部,然後把它們放在一旁瀝乾。",
+      "starter": "He",
+      "answer": "He scrubbed out the pans and left them to drain.",
+      "answerZh": "他徹底擦洗平底鍋內部,然後把它們放在一旁瀝乾。",
+      "highlight": "scrubbed out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The second doctor washed and prepared himself to join the operation before it began.",
+      "promptZh": "第二名醫生在手術開始前完成清洗和準備,以加入手術。",
+      "starter": "The",
+      "answer": "The second doctor scrubbed in before the operation began.",
+      "answerZh": "第二名醫生在手術開始前完成清洗準備並加入手術。",
+      "highlight": "scrubbed in before",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nora removed the paint from the table by rubbing it hard.",
+      "promptZh": "Nora 用力擦洗,把桌上的油漆清除。",
+      "starter": "Nora",
+      "answer": "Nora scrubbed the paint off the table.",
+      "answerZh": "Nora 用力擦洗,把桌上的油漆清除。",
+      "highlight": "scrubbed",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把痕跡從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "All the doctors must wash their hands and arms carefully before an operation.",
+      "promptZh": "所有醫生都必須在手術前仔細清洗雙手和手臂。",
+      "starter": "All",
+      "answer": "All the doctors must scrub up before an operation.",
+      "answerZh": "所有醫生都必須在手術前徹底清洗雙手和手臂。",
+      "highlight": "scrub up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Can you remove the dirt from these shoes by rubbing them hard?",
+      "promptZh": "你可以用力擦洗,把這些鞋上的污垢清除嗎?",
+      "starter": "Can",
+      "answer": "Can you scrub the dirt off these shoes?",
+      "answerZh": "你可以用力擦洗,把這些鞋上的污垢清除嗎?",
+      "highlight": "scrub",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污垢從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The cleaner washed the inside of the bath carefully after the guests left.",
+      "promptZh": "住客離開後,清潔工人仔細擦洗浴缸內部。",
+      "starter": "The",
+      "answer": "The cleaner scrubbed the bath out after the guests left.",
+      "answerZh": "住客離開後,清潔工人徹底擦洗浴缸內部。",
+      "highlight": "scrubbed",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Two nurses washed and prepared themselves so that they could help with the operation.",
+      "promptZh": "兩名護士完成清洗和準備,以協助手術。",
+      "starter": "Two",
+      "answer": "Two nurses scrubbed in to help with the operation.",
+      "answerZh": "兩名護士完成準備並加入手術提供協助。",
+      "highlight": "scrubbed in to",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She is carefully washing her hands and arms for the operation now, so please wait.",
+      "promptZh": "她現在正為手術仔細清洗雙手和手臂,所以請稍等。",
+      "starter": "She",
+      "answer": "She is scrubbing up now, so please wait.",
+      "answerZh": "她現在正為手術徹底清洗雙手和手臂,所以請稍等。",
+      "highlight": "scrubbing up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new surgeon has already washed and prepared herself for the morning operation.",
+      "promptZh": "新來的外科醫生已完成清洗和準備,以參與早上的手術。",
+      "starter": "The",
+      "answer": "The new surgeon has already scrubbed in for the morning operation.",
+      "answerZh": "新來的外科醫生已完成準備,以參與早上的手術。",
+      "highlight": "scrubbed in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have you cleaned the inside of the kitchen sink carefully yet?",
+      "promptZh": "你已經仔細擦洗廚房洗滌盆的內部了嗎?",
+      "starter": "Have",
+      "answer": "Have you scrubbed out the kitchen sink yet?",
+      "answerZh": "你已經徹底擦洗廚房洗滌盆的內部了嗎?",
+      "highlight": "scrubbed out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The grease will remain unless you remove it by rubbing hard.",
+      "promptZh": "除非你用力擦洗,否則油漬會繼續留在那裏。",
+      "starter": "The",
+      "answer": "The grease will remain unless you scrub it off.",
+      "answerZh": "除非你用力把油漬擦走,否則它會繼續留在那裏。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off",
+      "targetMeaningZh": "用力擦洗,把污漬清除"
+    },
+    {
+      "id": "phrasal-verb-295-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why is the nurse washing and preparing to take part in this operation?",
+      "promptZh": "為甚麼那名護士正在清洗和準備,以參與這項手術?",
+      "starter": "Why",
+      "answer": "Why is the nurse scrubbing in for this operation?",
+      "answerZh": "為甚麼那名護士正在完成準備,以參與這項手術?",
+      "highlight": "scrubbing",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Before every operation, the team washes its hands and arms carefully.",
+      "promptZh": "每次手術前,醫療團隊都會仔細清洗雙手和手臂。",
+      "starter": "Before",
+      "answer": "Before every operation, the team scrubs up carefully.",
+      "answerZh": "每次手術前,醫療團隊都會仔細清洗雙手和手臂。",
+      "highlight": "scrubs up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The café worker is cleaning the inside of the large bin carefully now.",
+      "promptZh": "咖啡店員工現正仔細擦洗大型垃圾桶的內部。",
+      "starter": "The",
+      "answer": "The café worker is scrubbing the large bin out now.",
+      "answerZh": "咖啡店員工現正徹底擦洗大型垃圾桶的內部。",
+      "highlight": "scrubbing",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Only trained staff may complete the special washing and take part in the operation.",
+      "promptZh": "只有受過訓練的職員才可以完成指定清洗程序並參與手術。",
+      "starter": "Only",
+      "answer": "Only trained staff may scrub in.",
+      "answerZh": "只有受過訓練的職員才可以完成準備並參與手術。",
+      "highlight": "scrub",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I could not remove the ink from my desk by rubbing it.",
+      "promptZh": "我無法用力擦洗,把書桌上的墨水清除。",
+      "starter": "I",
+      "answer": "I could not scrub the ink off my desk.",
+      "answerZh": "我無法用力擦洗,把書桌上的墨水清除。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污漬從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "After lunch, we will clean the inside of all the cooking pots carefully.",
+      "promptZh": "午膳後,我們會仔細擦洗所有煮食鍋的內部。",
+      "starter": "After",
+      "answer": "After lunch, we will scrub out all the cooking pots.",
+      "answerZh": "午膳後,我們會徹底擦洗所有煮食鍋的內部。",
+      "highlight": "scrub out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did the surgeon wash his hands and arms carefully before entering the operating theatre?",
+      "promptZh": "外科醫生進入手術室前有仔細清洗雙手和手臂嗎?",
+      "starter": "Did",
+      "answer": "Did the surgeon scrub up before entering the operating theatre?",
+      "answerZh": "外科醫生進入手術室前有徹底清洗雙手和手臂嗎?",
+      "highlight": "scrub up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The operation is about to begin, but one doctor is still washing her hands and arms carefully.",
+      "promptZh": "手術即將開始,但其中一名醫生仍在仔細清洗雙手和手臂。",
+      "starter": "The",
+      "answer": "The operation is about to begin, but one doctor is still scrubbing up.",
+      "answerZh": "手術即將開始,但其中一名醫生仍在清洗雙手和手臂。",
+      "highlight": "scrubbing up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The mark was difficult to remove, but Sam finally removed it by rubbing hard.",
+      "promptZh": "那個痕跡很難清除,但 Sam 最後用力擦洗把它清除了。",
+      "starter": "The",
+      "answer": "The mark was difficult to remove, but Sam finally scrubbed it off.",
+      "answerZh": "那個痕跡很難清除,但 Sam 最後用力把它擦走了。",
+      "highlight": "scrubbed",
+      "targetForm": "scrub something off",
+      "targetMeaningZh": "用力擦洗,把痕跡清除"
+    },
+    {
+      "id": "phrasal-verb-295-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The senior nurse asked Leo to complete the required washing and assist the surgeon.",
+      "promptZh": "資深護士請 Leo 完成指定清洗程序並協助外科醫生。",
+      "starter": "The",
+      "answer": "The senior nurse asked Leo to scrub in and assist the surgeon.",
+      "answerZh": "資深護士請 Leo 完成準備並加入手術,協助外科醫生。",
+      "highlight": "scrub in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Because the bucket was dirty inside, Tara cleaned it very carefully.",
+      "promptZh": "因為水桶內部很骯髒,Tara 仔細地把它清洗乾淨。",
+      "starter": "Because",
+      "answer": "Because the bucket was dirty inside, Tara scrubbed it out.",
+      "answerZh": "因為水桶內部很骯髒,Tara 徹底把它擦洗乾淨。",
+      "highlight": "scrubbed",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The floor is covered in mud. Please remove it by rubbing hard before it dries.",
+      "promptZh": "地板滿是泥濘。請在泥濘乾掉前用力把它擦走。",
+      "starter": "The",
+      "answer": "The floor is covered in mud. Please scrub it off before it dries.",
+      "answerZh": "地板滿是泥濘。請在泥濘乾掉前把它擦走。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off",
+      "targetMeaningZh": "用力擦洗,把污垢清除"
+    },
+    {
+      "id": "phrasal-verb-295-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After carefully washing her hands and arms for the operation, the surgeon dried them and put on her gloves.",
+      "promptZh": "外科醫生為手術仔細清洗雙手和手臂後,把手抹乾並戴上手套。",
+      "starter": "After",
+      "answer": "After scrubbing up, the surgeon dried her hands and put on her gloves.",
+      "answerZh": "外科醫生徹底清洗雙手和手臂後,把手抹乾並戴上手套。",
+      "highlight": "scrubbing up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The pans were cleaned carefully inside and placed beside the sink to dry.",
+      "promptZh": "平底鍋內部經過仔細清洗後,被放在洗滌盆旁邊晾乾。",
+      "starter": "The",
+      "answer": "The pans were scrubbed out and placed beside the sink to dry.",
+      "answerZh": "平底鍋內部經過徹底擦洗後,被放在洗滌盆旁邊晾乾。",
+      "highlight": "scrubbed out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before that morning, the young doctor had never completed the required preparation to join an operation.",
+      "promptZh": "在那天早上之前,那名年輕醫生從未完成準備並加入手術。",
+      "starter": "The",
+      "answer": "The young doctor had never scrubbed in before that morning.",
+      "answerZh": "在那天早上之前,那名年輕醫生從未完成準備並加入手術。",
+      "highlight": "scrubbed in before that morning",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Removing the grease from the tray by rubbing hard took nearly ten minutes.",
+      "promptZh": "用力擦洗以清除托盤上的油漬花了接近十分鐘。",
+      "starter": "Scrubbing",
+      "answer": "Scrubbing the grease off the tray took nearly ten minutes.",
+      "answerZh": "用力擦洗托盤上的油漬花了接近十分鐘。",
+      "highlight": "Scrubbing",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污漬從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "No one may touch the equipment until they have carefully washed their hands and arms.",
+      "promptZh": "任何人都必須仔細清洗雙手和手臂後,才可以觸碰設備。",
+      "starter": "No",
+      "answer": "No one may touch the equipment until they have scrubbed up.",
+      "answerZh": "任何人都必須徹底清洗雙手和手臂後,才可以觸碰設備。",
+      "highlight": "scrubbed up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The mud was on the outside of the bucket, but the cleaner also washed its inside very carefully.",
+      "promptZh": "泥濘在水桶外面,但清潔工人也仔細清洗了水桶內部。",
+      "starter": "The",
+      "answer": "The mud was on the outside of the bucket, but the cleaner scrubbed the bucket out as well.",
+      "answerZh": "泥濘在水桶外面,但清潔工人也徹底擦洗了水桶內部。",
+      "highlight": "scrubbed the bucket out as well",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Although the student doctor only watched yesterday, she will prepare and take part in the operation today.",
+      "promptZh": "雖然那名實習醫生昨天只在旁觀看,但她今天會完成準備並參與手術。",
+      "starter": "Although",
+      "answer": "Although the student doctor only watched yesterday, she will scrub in today.",
+      "answerZh": "雖然那名實習醫生昨天只在旁觀看,但她今天會完成準備並參與手術。",
+      "highlight": "scrub",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The writing was removed from the door by hard rubbing before the shop opened.",
+      "promptZh": "店舖開門前,門上的字已經被用力擦洗清除。",
+      "starter": "The",
+      "answer": "The writing was scrubbed off the door before the shop opened.",
+      "answerZh": "店舖開門前,門上的字已經被擦洗清除。",
+      "highlight": "scrubbed off",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把痕跡從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "While the nurse was carefully washing her hands and arms, the surgeon checked the equipment.",
+      "promptZh": "護士仔細清洗雙手和手臂時,外科醫生檢查了設備。",
+      "starter": "While",
+      "answer": "While the nurse was scrubbing up, the surgeon checked the equipment.",
+      "answerZh": "護士徹底清洗雙手和手臂時,外科醫生檢查了設備。",
+      "highlight": "scrubbing up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We washed the outside of the bin first and then cleaned its inside very carefully.",
+      "promptZh": "我們先清洗垃圾桶外面,然後仔細擦洗其內部。",
+      "starter": "We",
+      "answer": "We washed the outside of the bin first and then scrubbed it out.",
+      "answerZh": "我們先清洗垃圾桶外面,然後徹底擦洗其內部。",
+      "highlight": "scrubbed it out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the assistant completed the required preparation, she joined the operation and stood beside the surgeon.",
+      "promptZh": "助理完成指定準備並加入手術後,站在外科醫生旁邊。",
+      "starter": "After",
+      "answer": "After the assistant scrubbed in, she stood beside the surgeon.",
+      "answerZh": "助理完成準備並加入手術後,站在外科醫生旁邊。",
+      "highlight": "scrubbed in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The old pot still smelled bad even after we had cleaned its inside carefully.",
+      "promptZh": "即使我們仔細清洗了舊鍋的內部,它仍然有難聞的氣味。",
+      "starter": "The",
+      "answer": "The old pot still smelled bad even after we had scrubbed it out.",
+      "answerZh": "即使我們徹底擦洗了舊鍋的內部,它仍然有難聞的氣味。",
+      "highlight": "scrubbed it out",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "You should wet the cloth first and then remove the dried food from the plate by rubbing hard.",
+      "promptZh": "你應先把布弄濕,然後用力擦走碟上的乾硬食物。",
+      "starter": "You",
+      "answer": "You should wet the cloth first and then scrub the dried food off the plate.",
+      "answerZh": "你應先把布弄濕,然後用力擦走碟上的乾硬食物。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污垢從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The doctor who prepared first to take part in the operation helped check the equipment.",
+      "promptZh": "最先完成準備並參與手術的醫生協助檢查設備。",
+      "starter": "The",
+      "answer": "The doctor who scrubbed in first helped check the equipment.",
+      "answerZh": "最先完成準備並參與手術的醫生協助檢查設備。",
+      "highlight": "scrubbed in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If you have not carefully washed your hands and arms yet, do it before you put on the gloves.",
+      "promptZh": "如果你仍未仔細清洗雙手和手臂,請在戴上手套前完成清洗。",
+      "starter": "If",
+      "answer": "If you have not scrubbed up yet, do it before you put on the gloves.",
+      "answerZh": "如果你仍未徹底清洗雙手和手臂,請在戴上手套前完成清洗。",
+      "highlight": "scrubbed up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the stain looked old, the cleaner managed to remove it by rubbing hard without damaging the floor.",
+      "promptZh": "雖然污漬看來已經很久,但清潔工人成功用力把它擦走,而且沒有損壞地板。",
+      "starter": "Although",
+      "answer": "Although the stain looked old, the cleaner managed to scrub it off without damaging the floor.",
+      "answerZh": "雖然污漬看來已經很久,但清潔工人成功把它擦走,而且沒有損壞地板。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off",
+      "targetMeaningZh": "用力擦洗,把污漬清除"
+    },
+    {
+      "id": "phrasal-verb-295-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By the time the patient arrived, both surgeons had carefully washed their hands and arms and were ready.",
+      "promptZh": "病人到達時,兩名外科醫生都已仔細清洗雙手和手臂並準備就緒。",
+      "starter": "By",
+      "answer": "By the time the patient arrived, both surgeons had scrubbed up and were ready.",
+      "answerZh": "病人到達時,兩名外科醫生都已徹底清洗雙手和手臂並準備就緒。",
+      "highlight": "scrubbed up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The nurse was not expected to take part, but she was asked to prepare and join the operation when another nurse became ill.",
+      "promptZh": "那名護士原本不需要參與手術,但另一名護士生病後,她被要求完成準備並加入手術。",
+      "starter": "The",
+      "answer": "The nurse was not expected to take part, but she was asked to scrub in when another nurse became ill.",
+      "answerZh": "那名護士原本不需要參與手術,但另一名護士生病後,她被要求完成準備並加入手術。",
+      "highlight": "scrub in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before returning the camping pot, we cleaned its inside until it was completely clean.",
+      "promptZh": "歸還露營鍋前,我們徹底擦洗其內部,直至完全乾淨。",
+      "starter": "Before",
+      "answer": "Before returning the camping pot, we scrubbed it out until the inside was completely clean.",
+      "answerZh": "歸還露營鍋前,我們徹底擦洗其內部,直至完全乾淨。",
+      "highlight": "scrubbed it out until the",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The children had covered the wall with crayon marks, so their father made them remove the marks by rubbing hard.",
+      "promptZh": "孩子們在牆上畫滿蠟筆痕跡,所以父親要求他們用力擦洗,把痕跡清除。",
+      "starter": "The",
+      "answer": "The children had covered the wall with crayon marks, so their father made them scrub the marks off.",
+      "answerZh": "孩子們在牆上畫滿蠟筆痕跡,所以父親要求他們把痕跡擦洗乾淨。",
+      "highlight": "scrub",
+      "targetForm": "scrub something off",
+      "targetMeaningZh": "用力擦洗,把痕跡清除"
+    },
+    {
+      "id": "phrasal-verb-295-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "To prepare properly for the operation, the surgeon spent several minutes washing her hands and arms.",
+      "promptZh": "為了妥善準備手術,外科醫生花了幾分鐘清洗雙手和手臂。",
+      "starter": "To",
+      "answer": "To scrub up properly, the surgeon spent several minutes washing her hands and arms.",
+      "answerZh": "為了妥善完成手術前的清洗,外科醫生花了幾分鐘清洗雙手和手臂。",
+      "highlight": "scrub up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    },
+    {
+      "id": "phrasal-verb-295-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The sink had not been used for months, so its inside needed to be cleaned carefully before the café reopened.",
+      "promptZh": "洗滌盆已有多個月沒有使用,所以咖啡店重開前需要徹底擦洗其內部。",
+      "starter": "The",
+      "answer": "The sink had not been used for months, so it needed to be scrubbed out before the café reopened.",
+      "answerZh": "洗滌盆已有多個月沒有使用,所以咖啡店重開前需要徹底擦洗其內部。",
+      "highlight": "it",
+      "targetForm": "scrub something out",
+      "targetMeaningZh": "徹底擦洗物件內部"
+    },
+    {
+      "id": "phrasal-verb-295-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the emergency operation was announced, three doctors immediately prepared to take part.",
+      "promptZh": "緊急手術公布後,三名醫生立即完成準備,以參與手術。",
+      "starter": "When",
+      "answer": "When the emergency operation was announced, three doctors immediately scrubbed in.",
+      "answerZh": "緊急手術公布後,三名醫生立即完成準備並加入手術。",
+      "highlight": "scrubbed in",
+      "targetForm": "scrub in",
+      "targetMeaningZh": "完成準備並加入手術"
+    },
+    {
+      "id": "phrasal-verb-295-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We tried soap and warm water, but the mud could not be removed from the stone steps by hard rubbing.",
+      "promptZh": "我們嘗試使用肥皂和暖水,但仍無法用力擦走石級上的泥濘。",
+      "starter": "We",
+      "answer": "We tried soap and warm water, but the mud could not be scrubbed off the stone steps.",
+      "answerZh": "我們嘗試使用肥皂和暖水,但仍無法把石級上的泥濘擦走。",
+      "highlight": "scrubbed off",
+      "targetForm": "scrub something off something",
+      "targetMeaningZh": "用力擦洗,把污垢從表面清除"
+    },
+    {
+      "id": "phrasal-verb-295-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The surgeon checked the patient only after she had carefully washed her hands and arms and put on clean gloves.",
+      "promptZh": "外科醫生仔細清洗雙手和手臂並戴上乾淨手套後,才檢查病人。",
+      "starter": "The",
+      "answer": "The surgeon checked the patient only after she had scrubbed up and put on clean gloves.",
+      "answerZh": "外科醫生徹底清洗雙手和手臂並戴上乾淨手套後,才檢查病人。",
+      "highlight": "scrubbed up",
+      "targetForm": "scrub up",
+      "targetMeaningZh": "在手術前徹底清洗雙手和手臂"
+    }
+  ]
+}

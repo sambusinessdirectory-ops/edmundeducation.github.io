@@ -1,0 +1,1205 @@
+{
+  "id": "phrasal-verb-82",
+  "order": 82,
+  "slug": "know",
+  "version": "1",
+  "title": "KNOW 動詞片語",
+  "titleEn": "Know",
+  "titleZh": "KNOW 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 81 - KNOW.pdf",
+    "sourceNumber": 81,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 KNOW 有關的表達。",
+    "en": "Learn and practise the expressions related to KNOW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "KNOW",
+      "highlight": "KNOW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She knows a violin from a cello.",
+      "zh": "她分辨得到小提琴和大提琴。",
+      "highlight": "knows a violin from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Do you know of a quiet café near here?",
+      "zh": "你知道附近有沒有一間安靜的咖啡店嗎?",
+      "highlight": "know",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Her friends know her as Beth.",
+      "zh": "她的朋友都以 Beth 這個名字認識她。)Related forms:She is known as Beth.(她以 Beth 這個名字為人所知。)She is known to her friends as Beth.(她的朋友都以 Beth 這個名字認識她。",
+      "highlight": "know",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "分辨 A 與 B;知道兩者的分別；知道某人或某事物的存在;聽說過；以某個名字、稱呼、描述或身分認識某人或某事物",
+    "en": "know A from B; know of somebody/something; know somebody/something as something",
+    "naturalZh": [
+      "分辨 A 與 B;知道兩者的分別",
+      "知道某人或某事物的存在;聽說過",
+      "以某個名字、稱呼、描述或身分認識某人或某事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "know A from B",
+      "titleZh": "分辨 A 與 B;知道兩者的分別",
+      "titleEn": "know A from B",
+      "descriptionZh": "分辨 A 與 B;知道兩者的分別",
+      "descriptionEn": "She knows a violin from a cello.",
+      "examples": [
+        {
+          "en": "She knows a violin from a cello.",
+          "zh": "她分辨得到小提琴和大提琴。",
+          "highlight": "knows a violin from"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "know of somebody/something",
+      "titleZh": "知道某人或某事物的存在;聽說過",
+      "titleEn": "know of somebody/something",
+      "descriptionZh": "知道某人或某事物的存在;聽說過",
+      "descriptionEn": "Do you know of a quiet café near here?",
+      "examples": [
+        {
+          "en": "Do you know of a quiet café near here?",
+          "zh": "你知道附近有沒有一間安靜的咖啡店嗎?",
+          "highlight": "know"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "know somebody/something as something",
+      "titleZh": "以某個名字、稱呼、描述或身分認識某人或某事物",
+      "titleEn": "know somebody/something as something",
+      "descriptionZh": "以某個名字、稱呼、描述或身分認識某人或某事物",
+      "descriptionEn": "Her friends know her as Beth.",
+      "examples": [
+        {
+          "en": "Her friends know her as Beth.",
+          "zh": "她的朋友都以 Beth 這個名字認識她。)Related forms:She is known as Beth.(她以 Beth 這個名字為人所知。)She is known to her friends as Beth.(她的朋友都以 Beth 這個名字認識她。",
+          "highlight": "know"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "KNOW 片語動詞的實際用途",
+    "labelEn": "KNOW Phrasal Verbs in Use",
+    "summaryZh": "know A from B 能幫助你表達某人是否能分辨兩件相似的物件、概念、聲音或人物。；即使你不熟悉某人、地方、服務或可能性,也可以使用 know of 表示自己曾經聽說過。；know somebody as something 能幫助你說明某人或某事物的名字、暱稱、稱呼、描述或身分。；這些表達適合用來詢問店舖、服務、人物、交通和地點,也可以用來說明某人或某事物通常有甚麼稱呼。",
+    "summaryEn": "know A from B helps you explain whether someone can distinguish two similar objects, ideas, sounds or people. know of lets you say that you have heard about a person, place, service or possibility, even when you do not know it well. know somebody as something helps you explain the name, nickname, title, description or role connected with a person or thing. These expressions are useful when asking about shops, services, people, transport and places, or when explaining how something is commonly called.",
+    "contextsZh": [
+      "清楚表達能否分辨相似事物",
+      "不用假裝十分熟悉,也能提及某人或某事",
+      "解釋名字、暱稱和身分",
+      "自然地詢問實用資訊"
+    ],
+    "contextsEn": [
+      "Tell similar things apart clearly",
+      "Mention something without claiming personal experience",
+      "Explain names, nicknames and roles",
+      "Ask for useful information naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 KNOW 表達。",
+    "formalEn": "Read the whole sentence and choose the KNOW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "know A from B",
+    "fixedHighlight": "know A from B",
+    "fixedZh": "閱讀整句,選出意思相同的 KNOW 表達。",
+    "fixedEn": "Read the whole sentence and choose the KNOW expression that gives the same meaning.",
+    "correct": "knows a violin from",
+    "incorrectForms": [],
+    "variableZh": "在 know A from B 中,A 和 B 代表需要比較的兩個事物,兩者都是這個表達的必要部分。The words after B are optional details:A trained worker knows safe wiring from dangerous wiring at a glance.at a glance only explains how easily the worker can distinguish them. It is not part of the fixedexpression.B 之後的內容可以補充其他資料。例如 at a glance 只表示工人可以一眼分辨兩者,並不是固定表達的一部分。；know of somebody/something 表示知道某人或某事物的存在,並不一定表示你與對方相識。；know somebody/something as something 表示以某個名字、描述、稱呼或身分認識某人或某事物。Related forms include:be known as somethingbe known to somebody as something相關形式包括:be known as something被稱為......;以......為人所知be known to somebody as something某人以某個名字或身分認識......",
+    "variableEn": "In know A from B, A and B are the two things being compared. Both are necessary parts of the expression. know of somebody/something means that you are aware that the person or thing exists. It does not necessarily mean that you know the person personally. know somebody/something as something gives a person or thing a name, description, title or role.",
+    "variableItemsZh": [
+      "know A from B",
+      "know of somebody/something",
+      "know somebody/something as something"
+    ],
+    "variableItemsEn": [
+      "know A from B",
+      "know of somebody/something",
+      "know somebody/something as something"
+    ],
+    "forms": [
+      {
+        "formZh": "分辨 A 與 B;知道兩者的分別",
+        "formEn": "know A from B",
+        "exampleZh": "她分辨得到小提琴和大提琴。",
+        "exampleEn": "She knows a violin from a cello.",
+        "highlight": "knows a violin from"
+      },
+      {
+        "formZh": "知道某人或某事物的存在;聽說過",
+        "formEn": "know of somebody/something",
+        "exampleZh": "你知道附近有沒有一間安靜的咖啡店嗎?",
+        "exampleEn": "Do you know of a quiet café near here?",
+        "highlight": "know"
+      },
+      {
+        "formZh": "以某個名字、稱呼、描述或身分認識某人或某事物",
+        "formEn": "know somebody/something as something",
+        "exampleZh": "她的朋友都以 Beth 這個名字認識她。)Related forms:She is known as Beth.(她以 Beth 這個名字為人所知。)She is known to her friends as Beth.(她的朋友都以 Beth 這個名字認識她。",
+        "exampleEn": "Her friends know her as Beth.",
+        "highlight": "know"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "分辨 A 與 B;知道兩者的分別",
+      "titleEn": "know A from B",
+      "formula": "know A from B",
+      "highlight": "know A from B",
+      "descriptionZh": "分辨 A 與 B;知道兩者的分別",
+      "descriptionEn": "She knows a violin from a cello.",
+      "examples": [
+        {
+          "en": "She knows a violin from a cello.",
+          "zh": "她分辨得到小提琴和大提琴。",
+          "highlight": "knows a violin from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "知道某人或某事物的存在;聽說過",
+      "titleEn": "know of somebody/something",
+      "formula": "know of somebody/something",
+      "highlight": "know of somebody/something",
+      "descriptionZh": "知道某人或某事物的存在;聽說過",
+      "descriptionEn": "Do you know of a quiet café near here?",
+      "examples": [
+        {
+          "en": "Do you know of a quiet café near here?",
+          "zh": "你知道附近有沒有一間安靜的咖啡店嗎?",
+          "highlight": "know"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "以某個名字、稱呼、描述或身分認識某人或某事物",
+      "titleEn": "know somebody/something as something",
+      "formula": "know somebody/something as something",
+      "highlight": "know somebody/something as something",
+      "descriptionZh": "以某個名字、稱呼、描述或身分認識某人或某事物",
+      "descriptionEn": "Her friends know her as Beth.",
+      "examples": [
+        {
+          "en": "Her friends know her as Beth.",
+          "zh": "她的朋友都以 Beth 這個名字認識她。)Related forms:She is known as Beth.(她以 Beth 這個名字為人所知。)She is known to her friends as Beth.(她的朋友都以 Beth 這個名字認識她。",
+          "highlight": "know"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達能否分辨相似事物",
+      "titleEn": "Tell similar things apart clearly",
+      "zh": "know A from B 能幫助你表達某人是否能分辨兩件相似的物件、概念、聲音或人物。",
+      "en": "know A from B helps you explain whether someone can distinguish two similar objects, ideas, sounds or people."
+    },
+    {
+      "titleZh": "不用假裝十分熟悉,也能提及某人或某事",
+      "titleEn": "Mention something without claiming personal experience",
+      "zh": "即使你不熟悉某人、地方、服務或可能性,也可以使用 know of 表示自己曾經聽說過。",
+      "en": "know of lets you say that you have heard about a person, place, service or possibility, even when you do not know it well."
+    },
+    {
+      "titleZh": "解釋名字、暱稱和身分",
+      "titleEn": "Explain names, nicknames and roles",
+      "zh": "know somebody as something 能幫助你說明某人或某事物的名字、暱稱、稱呼、描述或身分。",
+      "en": "know somebody as something helps you explain the name, nickname, title, description or role connected with a person or thing."
+    },
+    {
+      "titleZh": "自然地詢問實用資訊",
+      "titleEn": "Ask for useful information naturally",
+      "zh": "這些表達適合用來詢問店舖、服務、人物、交通和地點,也可以用來說明某人或某事物通常有甚麼稱呼。",
+      "en": "These expressions are useful when asking about shops, services, people, transport and places, or when explaining how something is commonly called."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達能否分辨相似事物",
+      "不用假裝十分熟悉,也能提及某人或某事",
+      "解釋名字、暱稱和身分",
+      "自然地詢問實用資訊"
+    ],
+    "contextsEn": [
+      "Tell similar things apart clearly",
+      "Mention something without claiming personal experience",
+      "Explain names, nicknames and roles",
+      "Ask for useful information naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達能否分辨相似事物",
+        "titleEn": "Tell similar things apart clearly",
+        "zh": "know A from B 能幫助你表達某人是否能分辨兩件相似的物件、概念、聲音或人物。",
+        "en": "know A from B helps you explain whether someone can distinguish two similar objects, ideas, sounds or people.",
+        "examples": [
+          {
+            "en": "She knows a violin from a cello.",
+            "zh": "她分辨得到小提琴和大提琴。",
+            "highlight": "knows a violin from"
+          }
+        ]
+      },
+      {
+        "titleZh": "不用假裝十分熟悉,也能提及某人或某事",
+        "titleEn": "Mention something without claiming personal experience",
+        "zh": "即使你不熟悉某人、地方、服務或可能性,也可以使用 know of 表示自己曾經聽說過。",
+        "en": "know of lets you say that you have heard about a person, place, service or possibility, even when you do not know it well.",
+        "examples": [
+          {
+            "en": "Do you know of a quiet café near here?",
+            "zh": "你知道附近有沒有一間安靜的咖啡店嗎?",
+            "highlight": "know"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋名字、暱稱和身分",
+        "titleEn": "Explain names, nicknames and roles",
+        "zh": "know somebody as something 能幫助你說明某人或某事物的名字、暱稱、稱呼、描述或身分。",
+        "en": "know somebody as something helps you explain the name, nickname, title, description or role connected with a person or thing.",
+        "examples": [
+          {
+            "en": "Her friends know her as Beth.",
+            "zh": "她的朋友都以 Beth 這個名字認識她。)Related forms:She is known as Beth.(她以 Beth 這個名字為人所知。)She is known to her friends as Beth.(她的朋友都以 Beth 這個名字認識她。",
+            "highlight": "know"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地詢問實用資訊",
+        "titleEn": "Ask for useful information naturally",
+        "zh": "這些表達適合用來詢問店舖、服務、人物、交通和地點,也可以用來說明某人或某事物通常有甚麼稱呼。",
+        "en": "These expressions are useful when asking about shops, services, people, transport and places, or when explaining how something is commonly called.",
+        "examples": [
+          {
+            "en": "She knows a violin from a cello.",
+            "zh": "她分辨得到小提琴和大提琴。",
+            "highlight": "knows a violin from"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 KNOW 表達。",
+      "titleEn": "Read the whole sentence and choose the KNOW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 KNOW 表達。",
+      "en": "Read the whole sentence and choose the KNOW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "在 know A from B 中,A 和 B 代表需要比較的兩個事物,兩者都是這個表達的必要部分。The words after B are optional details:A trained worker knows safe wiring from dangerous wiring at a glance.at a glance only explains how easily the worker can distinguish them. It is not part of the fixedexpression.B 之後的內容可以補充其他資料。例如 at a glance 只表示工人可以一眼分辨兩者,並不是固定表達的一部分。",
+      "titleEn": "In know A from B, A and B are the two things being compared.",
+      "zh": "在 know A from B 中,A 和 B 代表需要比較的兩個事物,兩者都是這個表達的必要部分。The words after B are optional details:A trained worker knows safe wiring from dangerous wiring at a glance.at a glance only explains how easily the worker can distinguish them. It is not part of the fixedexpression.B 之後的內容可以補充其他資料。例如 at a glance 只表示工人可以一眼分辨兩者,並不是固定表達的一部分。",
+      "en": "In know A from B, A and B are the two things being compared. Both are necessary parts of the expression."
+    },
+    {
+      "titleZh": "know of somebody/something 表示知道某人或某事物的存在,並不一定表示你與對方相識。",
+      "titleEn": "know of somebody/something means that you are aware that the person or thing exists.",
+      "zh": "know of somebody/something 表示知道某人或某事物的存在,並不一定表示你與對方相識。",
+      "en": "know of somebody/something means that you are aware that the person or thing exists. It does not necessarily mean that you know the person personally."
+    },
+    {
+      "titleZh": "know somebody/something as something 表示以某個名字、描述、稱呼或身分認識某人或某事物。Related forms include:be known as somethingbe known to somebody as something相關形式包括:be known as something被稱為......;以......為人所知be known to somebody as something某人以某個名字或身分認識......",
+      "titleEn": "know somebody/something as something gives a person or thing a name, description, title or role.",
+      "zh": "know somebody/something as something 表示以某個名字、描述、稱呼或身分認識某人或某事物。Related forms include:be known as somethingbe known to somebody as something相關形式包括:be known as something被稱為......;以......為人所知be known to somebody as something某人以某個名字或身分認識......",
+      "en": "know somebody/something as something gives a person or thing a name, description, title or role."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 KNOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to KNOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "KNOW 動詞片語句子改寫練習",
+    "titleEn": "KNOW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 KNOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to KNOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-82-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Her close friends call her Beth.",
+      "promptZh": "她的好友都叫她 Beth。",
+      "starter": "Her",
+      "answer": "Her close friends know her as Beth.",
+      "answerZh": "她的好友都以 Beth 這個名字認識她。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字或稱呼認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ella cannot tell a violin from a cello.",
+      "promptZh": "Ella 分不清小提琴和大提琴。",
+      "starter": "Ella",
+      "answer": "Ella doesn’t know a violin from a cello.",
+      "answerZh": "Ella 分不清小提琴和大提琴。",
+      "highlight": "doesn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Are you aware of any quiet cafés near the station?",
+      "promptZh": "你知道車站附近有沒有安靜的咖啡店嗎?",
+      "starter": "Do",
+      "answer": "Do you know of any quiet cafés near the station?",
+      "answerZh": "你知道車站附近有沒有安靜的咖啡店嗎?",
+      "highlight": "Do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在;聽說過"
+    },
+    {
+      "id": "phrasal-verb-82-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The child can now tell a square from a rectangle.",
+      "promptZh": "那個孩子現在分辨得到正方形和長方形。",
+      "starter": "The",
+      "answer": "The child now knows a square from a rectangle.",
+      "answerZh": "那個孩子現在分辨得到正方形和長方形。",
+      "highlight": "knows",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Everyone at the club calls the coach Mr King.",
+      "promptZh": "俱樂部裏每個人都稱那位教練為 King 先生。",
+      "starter": "Everyone",
+      "answer": "Everyone at the club knows the coach as Mr King.",
+      "answerZh": "俱樂部裏每個人都以 King 先生這個稱呼認識那位教練。",
+      "highlight": "knows",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字或稱呼認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I am not aware of anyone who can repair this old radio.",
+      "promptZh": "我不知道有誰可以修理這部舊收音機。",
+      "starter": "I",
+      "answer": "I don’t know of anyone who can repair this old radio.",
+      "answerZh": "我不知道有誰可以修理這部舊收音機。",
+      "highlight": "don’t know",
+      "targetForm": "know of somebody",
+      "targetMeaningZh": "知道某人的存在;聽說過某人"
+    },
+    {
+      "id": "phrasal-verb-82-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sam cannot tell fresh milk from sour milk.",
+      "promptZh": "Sam 分不清鮮奶和變酸的牛奶。",
+      "starter": "Sam",
+      "answer": "Sam doesn’t know fresh milk from sour milk.",
+      "answerZh": "Sam 分不清鮮奶和變酸的牛奶。",
+      "highlight": "doesn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Are you aware of a safe place where we can leave our bags?",
+      "promptZh": "你知道有沒有安全的地方可以寄存我們的袋子嗎?",
+      "starter": "Do",
+      "answer": "Do you know of a safe place where we can leave our bags?",
+      "answerZh": "你知道有沒有安全的地方可以寄存我們的袋子嗎?",
+      "highlight": "Do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或地方的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Local people call this beach Silver Bay.",
+      "promptZh": "當地人稱這個海灘為 Silver Bay。",
+      "starter": "Local",
+      "answer": "Local people know this beach as Silver Bay.",
+      "answerZh": "當地人以 Silver Bay 這個名字認識這個海灘。",
+      "highlight": "know",
+      "targetForm": "know something as something",
+      "targetMeaningZh": "以某個名字認識某事物"
+    },
+    {
+      "id": "phrasal-verb-82-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Even after the lesson, Ben still could not tell a noun from a verb.",
+      "promptZh": "即使上完課,Ben 仍然分不清名詞和動詞。",
+      "starter": "Even",
+      "answer": "Even after the lesson, Ben still didn’t know a noun from a verb.",
+      "answerZh": "即使上完課,Ben 仍然分不清名詞和動詞。",
+      "highlight": "didn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We are not aware of any reason that could explain the delay.",
+      "promptZh": "我們不知道有任何原因可以解釋這次延誤。",
+      "starter": "We",
+      "answer": "We do not know of any reason that could explain the delay.",
+      "answerZh": "我們不知道有任何原因可以解釋這次延誤。",
+      "highlight": "do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在;得悉某事"
+    },
+    {
+      "id": "phrasal-verb-82-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "At school, people call him Leo, not Leonard.",
+      "promptZh": "在學校裏,大家叫他 Leo,而不是 Leonard。",
+      "starter": "At",
+      "answer": "At school, people know him as Leo, not Leonard.",
+      "answerZh": "在學校裏,大家都以 Leo 這個名字認識他,而不是 Leonard。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "My younger brother can now tell a bee from a wasp.",
+      "promptZh": "我的弟弟現在分辨得到蜜蜂和黃蜂。",
+      "starter": "My",
+      "answer": "My younger brother now knows a bee from a wasp.",
+      "answerZh": "我的弟弟現在分辨得到蜜蜂和黃蜂。",
+      "highlight": "knows",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The building was called the Old Market for many years.",
+      "promptZh": "這座建築物多年來一直被稱為 Old Market。",
+      "starter": "The",
+      "answer": "The building was known as the Old Market for many years.",
+      "answerZh": "這座建築物多年來一直以 Old Market 之名為人所知。",
+      "highlight": "was known as",
+      "targetForm": "be known as something",
+      "targetMeaningZh": "被稱為;以......為人所知"
+    },
+    {
+      "id": "phrasal-verb-82-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Is your teacher aware of this free reading app?",
+      "promptZh": "你的老師知道有這個免費閱讀應用程式嗎?",
+      "starter": "Does",
+      "answer": "Does your teacher know of this free reading app?",
+      "answerZh": "你的老師知道有這個免費閱讀應用程式嗎?",
+      "highlight": "Does",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在;聽說過"
+    },
+    {
+      "id": "phrasal-verb-82-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Would you be able to tell a real signature from a copied one?",
+      "promptZh": "你分辨得到真簽名和仿製簽名嗎?",
+      "starter": "Would",
+      "answer": "Would you know a real signature from a copied one?",
+      "answerZh": "你分辨得到真簽名和仿製簽名嗎?",
+      "highlight": "know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Her neighbours have always called her Auntie May.",
+      "promptZh": "她的鄰居一直都叫她 May 姨姨。",
+      "starter": "Her",
+      "answer": "Her neighbours have always known her as Auntie May.",
+      "answerZh": "她的鄰居一直都以 May 姨姨這個稱呼認識她。",
+      "highlight": "known",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字或稱呼認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "He still cannot tell a serious warning from a joke.",
+      "promptZh": "他仍然分不清嚴肅的警告和玩笑。",
+      "starter": "He",
+      "answer": "He still doesn’t know a serious warning from a joke.",
+      "answerZh": "他仍然分不清嚴肅的警告和玩笑。",
+      "highlight": "doesn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The council is aware of several empty flats in this area.",
+      "promptZh": "區議會知道這個地區有幾個空置單位。",
+      "starter": "The",
+      "answer": "The council knows of several empty flats in this area.",
+      "answerZh": "區議會知道這個地區有幾個空置單位。",
+      "highlight": "knows",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "In the music club, everyone calls the twins the Blue Notes.",
+      "promptZh": "在音樂俱樂部裏,大家都稱那對雙胞胎為 the Blue Notes。",
+      "starter": "In",
+      "answer": "In the music club, everyone knows the twins as the Blue Notes.",
+      "answerZh": "在音樂俱樂部裏,大家都以 the Blue Notes 這個稱呼認識那對雙胞胎。",
+      "highlight": "knows",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名稱或稱呼認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "At first, I could not tell the front-door key from the garage key.",
+      "promptZh": "起初,我分不清大門鎖匙和車房鎖匙。",
+      "starter": "At",
+      "answer": "At first, I didn’t know the front-door key from the garage key.",
+      "answerZh": "起初,我分不清大門鎖匙和車房鎖匙。",
+      "highlight": "didn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "I need a maths tutor. Are you aware of anyone nearby?",
+      "promptZh": "我需要一位數學補習老師。你知道附近有沒有數學補習老師嗎?",
+      "starter": "I",
+      "answer": "I need a maths tutor. Do you know of anyone nearby?",
+      "answerZh": "我需要一位數學補習老師。你知道附近有沒有數學補習老師嗎?",
+      "highlight": "Do",
+      "targetForm": "know of somebody",
+      "targetMeaningZh": "知道某人的存在;聽說過某人"
+    },
+    {
+      "id": "phrasal-verb-82-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "People in the village call the narrow path the Goat Road.",
+      "promptZh": "村裏的人稱那條狹窄小路為 the Goat Road。",
+      "starter": "People",
+      "answer": "People in the village know the narrow path as the Goat Road.",
+      "answerZh": "村裏的人以 the Goat Road 這個名字認識那條狹窄小路。",
+      "highlight": "know",
+      "targetForm": "know something as something",
+      "targetMeaningZh": "以某個名字認識某事物"
+    },
+    {
+      "id": "phrasal-verb-82-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The doctor is not aware of any food that causes this problem.",
+      "promptZh": "醫生不知道有任何食物會引起這個問題。",
+      "starter": "The",
+      "answer": "The doctor does not know of any food that causes this problem.",
+      "answerZh": "醫生不知道有任何食物會引起這個問題。",
+      "highlight": "does",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在;得悉某事"
+    },
+    {
+      "id": "phrasal-verb-82-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The new assistant could not tell the holiday request form from the sick-leave form.",
+      "promptZh": "那位新助理分不清假期申請表和病假表格。",
+      "starter": "The",
+      "answer": "The new assistant didn’t know the holiday request form from the sick-leave form.",
+      "answerZh": "那位新助理分不清假期申請表和病假表格。",
+      "highlight": "didn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The teacher’s full name is Elizabeth, but her pupils call her Liz.",
+      "promptZh": "那位老師的全名是 Elizabeth,但學生都叫她 Liz。",
+      "starter": "The",
+      "answer": "The teacher’s full name is Elizabeth, but her pupils know her as Liz.",
+      "answerZh": "那位老師的全名是 Elizabeth,但學生都以 Liz 這個名字認識她。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Are there any late buses to the airport that you are aware of?",
+      "promptZh": "你知道有沒有較晚開往機場的巴士嗎?",
+      "starter": "Do",
+      "answer": "Do you know of any late buses to the airport?",
+      "answerZh": "你知道有沒有較晚開往機場的巴士嗎?",
+      "highlight": "Do you know of",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或服務的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The shop’s official name is Green Corner, but most customers call it the Little Green Shop.",
+      "promptZh": "這間店的正式名稱是 Green Corner,但大部分顧客都稱它為 the Little Green Shop。",
+      "starter": "The",
+      "answer": "The shop’s official name is Green Corner, but most customers know it as the Little Green Shop.",
+      "answerZh": "這間店的正式名稱是 Green Corner,但大部分顧客都以 the Little Green Shop 這個名字認識它。",
+      "highlight": "know",
+      "targetForm": "know something as something",
+      "targetMeaningZh": "以某個名字認識某事物"
+    },
+    {
+      "id": "phrasal-verb-82-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After one week in the kitchen, Ravi could finally tell basil from mint.",
+      "promptZh": "在廚房工作一星期後,Ravi 終於分辨得到羅勒和薄荷。",
+      "starter": "After",
+      "answer": "After one week in the kitchen, Ravi finally knew basil from mint.",
+      "answerZh": "在廚房工作一星期後,Ravi 終於分辨得到羅勒和薄荷。",
+      "highlight": "knew",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We need a room for Friday. Are you aware of any cheap hotels?",
+      "promptZh": "我們星期五需要一個房間。你知道有沒有便宜的酒店嗎?",
+      "starter": "We",
+      "answer": "We need a room for Friday. Do you know of any cheap hotels?",
+      "answerZh": "我們星期五需要一個房間。你知道有沒有便宜的酒店嗎?",
+      "highlight": "Do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或地方的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I am aware of one small bookshop that stays open late.",
+      "promptZh": "我知道有一間小書店營業至很晚。",
+      "starter": "I",
+      "answer": "I know of one small bookshop that stays open late.",
+      "answerZh": "我知道有一間小書店營業至很晚。",
+      "highlight": "know",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或地方的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Some people could not tell a fake ticket from a real one because the copy looked convincing.",
+      "promptZh": "有些人分不清假票和真票,因為仿製品看起來很逼真。",
+      "starter": "Some",
+      "answer": "Some people didn’t know a fake ticket from a real one because the copy looked convincing.",
+      "answerZh": "有些人分不清假票和真票,因為仿製品看起來很逼真。",
+      "highlight": "didn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The singer’s real name is Grace Ho, but fans call her Gigi.",
+      "promptZh": "這位歌手的真名是 Grace Ho,但歌迷都稱她為 Gigi。",
+      "starter": "The",
+      "answer": "The singer’s real name is Grace Ho, but fans know her as Gigi.",
+      "answerZh": "這位歌手的真名是 Grace Ho,但歌迷都以 Gigi 這個名字認識她。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Would your brother be able to tell a laptop charger from a phone charger?",
+      "promptZh": "你的弟弟分辨得到手提電腦充電器和手機充電器嗎?",
+      "starter": "Would",
+      "answer": "Would your brother know a laptop charger from a phone charger?",
+      "answerZh": "你的弟弟分辨得到手提電腦充電器和手機充電器嗎?",
+      "highlight": "know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one in our class is aware of a better way to solve the problem.",
+      "promptZh": "我們班裏沒有人知道有更好的方法解決這個問題。",
+      "starter": "No",
+      "answer": "No one in our class knows of a better way to solve the problem.",
+      "answerZh": "我們班裏沒有人知道有更好的方法解決這個問題。",
+      "highlight": "knows",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或方法的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "People in her online art group call Nora Starling.",
+      "promptZh": "在網上藝術小組裏,大家都稱 Nora 為 Starling。",
+      "starter": "In",
+      "answer": "In her online art group, Nora is known as Starling.",
+      "answerZh": "在她的網上藝術小組裏,Nora 以 Starling 這個名字為人所知。",
+      "highlight": "In her online art group, Nora is known as Starling.",
+      "targetForm": "be known as something",
+      "targetMeaningZh": "被稱為;以......為人所知"
+    },
+    {
+      "id": "phrasal-verb-82-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By the end of the course, every student should be able to tell a fact from an opinion.",
+      "promptZh": "課程結束時,每位學生都應該能分辨事實和意見。",
+      "starter": "By",
+      "answer": "By the end of the course, every student should know a fact from an opinion.",
+      "answerZh": "課程結束時,每位學生都應該能分辨事實和意見。",
+      "highlight": "know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Are you aware of a local group that collects old books for children?",
+      "promptZh": "你知道有沒有本地團體為兒童收集舊書嗎?",
+      "starter": "Do",
+      "answer": "Do you know of a local group that collects old books for children?",
+      "answerZh": "你知道有沒有本地團體為兒童收集舊書嗎?",
+      "highlight": "Do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某團體或事物的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The bridge has another name among local walkers: the Red Gate.",
+      "promptZh": "在本地遠足人士之間,這座橋另有一個名稱:the Red Gate。",
+      "starter": "The",
+      "answer": "The bridge is known to local walkers as the Red Gate.",
+      "answerZh": "本地遠足人士都以 the Red Gate 這個名字認識這座橋。",
+      "highlight": "is known to",
+      "targetForm": "be known to somebody as something",
+      "targetMeaningZh": "某人以某個名字或稱呼認識某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-82-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I would not be able to tell one modern dance style from another.",
+      "promptZh": "我分不清各種現代舞風格。",
+      "starter": "I",
+      "answer": "I wouldn’t know one modern dance style from another.",
+      "answerZh": "我分不清各種現代舞風格。",
+      "highlight": "wouldn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Most people call Aaron the quiet one in the band, although he talks a lot at home.",
+      "promptZh": "大部分人都稱 Aaron 為樂隊中安靜的一位,雖然他在家裏說話很多。",
+      "starter": "Most",
+      "answer": "Most people know Aaron as the quiet one in the band, although he talks a lot at home.",
+      "answerZh": "大部分人都以樂隊中安靜的一位來認識 Aaron,雖然他在家裏說話很多。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個描述或身分認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We have checked several streets, but we are not aware of any café that opens before six.",
+      "promptZh": "我們已查看了幾條街道,但不知道有任何咖啡店在六時前開門。",
+      "starter": "We",
+      "answer": "We have checked several streets, but we do not know of any café that opens before six.",
+      "answerZh": "我們已查看了幾條街道,但不知道有任何咖啡店在六時前開門。",
+      "highlight": "do",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物或地方的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Without the labels, I would not be able to tell the sugar jar from the salt jar.",
+      "promptZh": "沒有標籤的話,我便分不清糖罐和鹽罐。",
+      "starter": "Without",
+      "answer": "Without the labels, I wouldn’t know the sugar jar from the salt jar.",
+      "answerZh": "沒有標籤的話,我便分不清糖罐和鹽罐。",
+      "highlight": "wouldn’t know",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The island’s official name is Westhaven, but the fishermen call it Green Island.",
+      "promptZh": "這個島的正式名稱是 Westhaven,但漁民都稱它為 Green Island。",
+      "starter": "The",
+      "answer": "The island’s official name is Westhaven, but the fishermen know it as Green Island.",
+      "answerZh": "這個島的正式名稱是 Westhaven,但漁民都以 Green Island 這個名字認識它。",
+      "highlight": "know",
+      "targetForm": "know something as something",
+      "targetMeaningZh": "以某個名字認識某事物"
+    },
+    {
+      "id": "phrasal-verb-82-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A trained worker can tell safe wiring from dangerous wiring at a glance.",
+      "promptZh": "受過訓練的工人一眼便能分辨安全和危險的電線接駁。",
+      "starter": "A",
+      "answer": "A trained worker knows safe wiring from dangerous wiring at a glance.",
+      "answerZh": "受過訓練的工人一眼便能分辨安全和危險的電線接駁。",
+      "highlight": "knows",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Is anyone in the office aware of a copy of the missing file?",
+      "promptZh": "辦公室裏有沒有人知道那份遺失檔案還有副本?",
+      "starter": "Does",
+      "answer": "Does anyone in the office know of a copy of the missing file?",
+      "answerZh": "辦公室裏有沒有人知道那份遺失檔案還有副本?",
+      "highlight": "Does",
+      "targetForm": "know of something",
+      "targetMeaningZh": "知道某事物的存在"
+    },
+    {
+      "id": "phrasal-verb-82-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "To the children at the sports centre, Coach Wong is simply “Uncle Ray”.",
+      "promptZh": "對體育中心的孩子來說,Wong 教練就是「Ray 叔叔」。",
+      "starter": "The",
+      "answer": "The children at the sports centre know Coach Wong as “Uncle Ray”.",
+      "answerZh": "體育中心的孩子都以「Ray 叔叔」這個稱呼認識 Wong 教練。",
+      "highlight": "know",
+      "targetForm": "know somebody as something",
+      "targetMeaningZh": "以某個名字或稱呼認識某人"
+    },
+    {
+      "id": "phrasal-verb-82-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "She grew up near farms, so she can easily tell wheat from barley.",
+      "promptZh": "她在農場附近長大,所以很容易分辨小麥和大麥。",
+      "starter": "She",
+      "answer": "She grew up near farms, so she knows wheat from barley.",
+      "answerZh": "她在農場附近長大,所以分辨得到小麥和大麥。",
+      "highlight": "knows",
+      "targetForm": "know A from B",
+      "targetMeaningZh": "分辨 A 與 B"
+    },
+    {
+      "id": "phrasal-verb-82-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The museum needs an old photo of the harbour. Are you aware of anyone who may have one?",
+      "promptZh": "博物館需要一張海港的舊照片。你知道有誰可能有一張嗎?",
+      "starter": "The",
+      "answer": "The museum needs an old photo of the harbour. Do you know of anyone who may have one?",
+      "answerZh": "博物館需要一張海港的舊照片。你知道有誰可能有一張嗎?",
+      "highlight": "Do",
+      "targetForm": "know of somebody",
+      "targetMeaningZh": "知道某人的存在;聽說過某人"
+    },
+    {
+      "id": "phrasal-verb-82-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "The app is officially called QuickNote, though many users call it QN.",
+      "promptZh": "這個應用程式的正式名稱是 QuickNote,但許多用戶都稱它為 QN。",
+      "starter": "The",
+      "answer": "The app is officially called QuickNote, though many users know it as QN.",
+      "answerZh": "這個應用程式的正式名稱是 QuickNote,但許多用戶都以 QN 這個名稱認識它。",
+      "highlight": "know",
+      "targetForm": "know something as something",
+      "targetMeaningZh": "以某個名字或簡稱認識某事物"
+    }
+  ]
+}

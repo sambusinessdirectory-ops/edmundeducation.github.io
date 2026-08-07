@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-78",
+  "order": 78,
+  "slug": "feel",
+  "version": "1",
+  "title": "FEEL 動詞片語",
+  "titleEn": "Feel",
+  "titleZh": "FEEL 動詞片語",
+  "level": "B1(adult learners)",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 77 - FEEL.pdf",
+    "sourceNumber": 77,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FEEL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FEEL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FEEL",
+      "highlight": "FEEL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I really felt for her when she had to raise two children alone.",
+      "zh": "她要獨力撫養兩名子女時,我真的很同情她。",
+      "highlight": "felt for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She reported a man who had felt her up on the bus.",
+      "zh": "她舉報一名曾在巴士上未經同意,以帶有性意味的方式觸摸她身體的男子。",
+      "highlight": "felt her up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I do not feel up to going out tonight.",
+      "zh": "我今晚沒有精神外出。",
+      "highlight": "feel up to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對某人的困難感到同情;替某人難過；以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)；有足夠精神、體力或信心去做某事",
+    "en": "feel for somebody; feel somebody up; feel up to something / feel up to doing something",
+    "naturalZh": [
+      "對某人的困難感到同情;替某人難過",
+      "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+      "有足夠精神、體力或信心去做某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "feel for somebody",
+      "titleZh": "對某人的困難感到同情;替某人難過",
+      "titleEn": "feel for somebody",
+      "descriptionZh": "對某人的困難感到同情;替某人難過",
+      "descriptionEn": "I really felt for her when she had to raise two children alone.",
+      "examples": [
+        {
+          "en": "I really felt for her when she had to raise two children alone.",
+          "zh": "她要獨力撫養兩名子女時,我真的很同情她。",
+          "highlight": "felt for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "feel somebody up",
+      "titleZh": "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+      "titleEn": "feel somebody up",
+      "descriptionZh": "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+      "descriptionEn": "She reported a man who had felt her up on the bus.",
+      "examples": [
+        {
+          "en": "She reported a man who had felt her up on the bus.",
+          "zh": "她舉報一名曾在巴士上未經同意,以帶有性意味的方式觸摸她身體的男子。",
+          "highlight": "felt her up"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "feel up to something / feel up to doing something",
+      "titleZh": "有足夠精神、體力或信心去做某事",
+      "titleEn": "feel up to something / feel up to doing something",
+      "descriptionZh": "有足夠精神、體力或信心去做某事",
+      "descriptionEn": "I do not feel up to going out tonight.",
+      "examples": [
+        {
+          "en": "I do not feel up to going out tonight.",
+          "zh": "我今晚沒有精神外出。",
+          "highlight": "feel up to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FEEL 片語動詞的實際用途",
+    "labelEn": "FEEL Phrasal Verbs in Use",
+    "summaryZh": "feel for somebody 能幫助你在他人遇到困難時,表達關心和同情。；feel up to something 能幫助你說明自己是否有足夠精神、體力或信心去做某事。；feel somebody up 有助你理解關於未經同意的性騷擾式觸摸的警告、報告和對話。；這些表達看起來相似,但分別談論同情、是否有能力做某事,以及未經同意的性觸摸。",
+    "summaryEn": "Feel for somebody helps you express care when another person is having a difficult time. Feel up to something helps you say whether you are ready, strong enough or confident enough to do it. Feel somebody up is useful for understanding warnings, reports and conversations about unwanted sexual touching. These expressions look similar, but they talk about sympathy, readiness and unwanted touching.",
+    "contextsZh": [
+      "用 FEEL 自然表達同情",
+      "誠實表達自己的精神和信心",
+      "辨認和報告不恰當的觸摸行為",
+      "避免混淆三個意思非常不同的 FEEL 表達"
+    ],
+    "contextsEn": [
+      "Show sympathy naturally with FEEL",
+      "Talk honestly about energy and confidence",
+      "Recognise and report inappropriate touching",
+      "Avoid confusing three very different FEEL expressions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FEEL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FEEL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "feel for somebody",
+    "fixedHighlight": "feel for somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 FEEL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FEEL expression that gives the same meaning.",
+    "correct": "felt for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 feel up to 後,可接一件事情、一項活動或 -ing 形式。；feel somebody up 是非正式而帶批評意味的說法,通常指未經同意,以帶有性意味的方式觸摸某人的身體。",
+    "variableEn": "Keep the same people, things, time and meaning. After feel up to, use a thing, an activity or an -ing form: feel up to the walk feel up to walking Feel somebody up is informal and disapproving. It describes touching someone’s body in a sexual way, usually without permission: feel him up feel her up",
+    "variableItemsZh": [
+      "feel for somebody",
+      "feel somebody up",
+      "feel up to something / feel up to doing something"
+    ],
+    "variableItemsEn": [
+      "feel for somebody",
+      "feel somebody up",
+      "feel up to something / feel up to doing something"
+    ],
+    "forms": [
+      {
+        "formZh": "對某人的困難感到同情;替某人難過",
+        "formEn": "feel for somebody",
+        "exampleZh": "她要獨力撫養兩名子女時,我真的很同情她。",
+        "exampleEn": "I really felt for her when she had to raise two children alone.",
+        "highlight": "felt for"
+      },
+      {
+        "formZh": "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+        "formEn": "feel somebody up",
+        "exampleZh": "她舉報一名曾在巴士上未經同意,以帶有性意味的方式觸摸她身體的男子。",
+        "exampleEn": "She reported a man who had felt her up on the bus.",
+        "highlight": "felt her up"
+      },
+      {
+        "formZh": "有足夠精神、體力或信心去做某事",
+        "formEn": "feel up to something / feel up to doing something",
+        "exampleZh": "我今晚沒有精神外出。",
+        "exampleEn": "I do not feel up to going out tonight.",
+        "highlight": "feel up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對某人的困難感到同情;替某人難過",
+      "titleEn": "feel for somebody",
+      "formula": "feel for somebody",
+      "highlight": "feel for somebody",
+      "descriptionZh": "對某人的困難感到同情;替某人難過",
+      "descriptionEn": "I really felt for her when she had to raise two children alone.",
+      "examples": [
+        {
+          "en": "I really felt for her when she had to raise two children alone.",
+          "zh": "她要獨力撫養兩名子女時,我真的很同情她。",
+          "highlight": "felt for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+      "titleEn": "feel somebody up",
+      "formula": "feel somebody up",
+      "highlight": "feel somebody up",
+      "descriptionZh": "以帶有性意味的方式摸某人的身體,通常未經對方同意(非正式,帶批評意味)",
+      "descriptionEn": "She reported a man who had felt her up on the bus.",
+      "examples": [
+        {
+          "en": "She reported a man who had felt her up on the bus.",
+          "zh": "她舉報一名曾在巴士上未經同意,以帶有性意味的方式觸摸她身體的男子。",
+          "highlight": "felt her up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "有足夠精神、體力或信心去做某事",
+      "titleEn": "feel up to something / feel up to doing something",
+      "formula": "feel up to something / feel up to doing something",
+      "highlight": "feel up to something / feel up to doing something",
+      "descriptionZh": "有足夠精神、體力或信心去做某事",
+      "descriptionEn": "I do not feel up to going out tonight.",
+      "examples": [
+        {
+          "en": "I do not feel up to going out tonight.",
+          "zh": "我今晚沒有精神外出。",
+          "highlight": "feel up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "用 FEEL 自然表達同情",
+      "titleEn": "Show sympathy naturally with FEEL",
+      "zh": "feel for somebody 能幫助你在他人遇到困難時,表達關心和同情。",
+      "en": "Feel for somebody helps you express care when another person is having a difficult time."
+    },
+    {
+      "titleZh": "誠實表達自己的精神和信心",
+      "titleEn": "Talk honestly about energy and confidence",
+      "zh": "feel up to something 能幫助你說明自己是否有足夠精神、體力或信心去做某事。",
+      "en": "Feel up to something helps you say whether you are ready, strong enough or confident enough to do it."
+    },
+    {
+      "titleZh": "辨認和報告不恰當的觸摸行為",
+      "titleEn": "Recognise and report inappropriate touching",
+      "zh": "feel somebody up 有助你理解關於未經同意的性騷擾式觸摸的警告、報告和對話。",
+      "en": "Feel somebody up is useful for understanding warnings, reports and conversations about unwanted sexual touching."
+    },
+    {
+      "titleZh": "避免混淆三個意思非常不同的 FEEL 表達",
+      "titleEn": "Avoid confusing three very different FEEL expressions",
+      "zh": "這些表達看起來相似,但分別談論同情、是否有能力做某事,以及未經同意的性觸摸。",
+      "en": "These expressions look similar, but they talk about sympathy, readiness and unwanted touching."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "用 FEEL 自然表達同情",
+      "誠實表達自己的精神和信心",
+      "辨認和報告不恰當的觸摸行為",
+      "避免混淆三個意思非常不同的 FEEL 表達"
+    ],
+    "contextsEn": [
+      "Show sympathy naturally with FEEL",
+      "Talk honestly about energy and confidence",
+      "Recognise and report inappropriate touching",
+      "Avoid confusing three very different FEEL expressions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "用 FEEL 自然表達同情",
+        "titleEn": "Show sympathy naturally with FEEL",
+        "zh": "feel for somebody 能幫助你在他人遇到困難時,表達關心和同情。",
+        "en": "Feel for somebody helps you express care when another person is having a difficult time.",
+        "examples": [
+          {
+            "en": "I really felt for her when she had to raise two children alone.",
+            "zh": "她要獨力撫養兩名子女時,我真的很同情她。",
+            "highlight": "felt for"
+          }
+        ]
+      },
+      {
+        "titleZh": "誠實表達自己的精神和信心",
+        "titleEn": "Talk honestly about energy and confidence",
+        "zh": "feel up to something 能幫助你說明自己是否有足夠精神、體力或信心去做某事。",
+        "en": "Feel up to something helps you say whether you are ready, strong enough or confident enough to do it.",
+        "examples": [
+          {
+            "en": "She reported a man who had felt her up on the bus.",
+            "zh": "她舉報一名曾在巴士上未經同意,以帶有性意味的方式觸摸她身體的男子。",
+            "highlight": "felt her up"
+          }
+        ]
+      },
+      {
+        "titleZh": "辨認和報告不恰當的觸摸行為",
+        "titleEn": "Recognise and report inappropriate touching",
+        "zh": "feel somebody up 有助你理解關於未經同意的性騷擾式觸摸的警告、報告和對話。",
+        "en": "Feel somebody up is useful for understanding warnings, reports and conversations about unwanted sexual touching.",
+        "examples": [
+          {
+            "en": "I do not feel up to going out tonight.",
+            "zh": "我今晚沒有精神外出。",
+            "highlight": "feel up to"
+          }
+        ]
+      },
+      {
+        "titleZh": "避免混淆三個意思非常不同的 FEEL 表達",
+        "titleEn": "Avoid confusing three very different FEEL expressions",
+        "zh": "這些表達看起來相似,但分別談論同情、是否有能力做某事,以及未經同意的性觸摸。",
+        "en": "These expressions look similar, but they talk about sympathy, readiness and unwanted touching.",
+        "examples": [
+          {
+            "en": "I really felt for her when she had to raise two children alone.",
+            "zh": "她要獨力撫養兩名子女時,我真的很同情她。",
+            "highlight": "felt for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FEEL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FEEL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FEEL 片語動詞。",
+      "en": "Read the whole sentence and choose the FEEL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 feel up to 後,可接一件事情、一項活動或 -ing 形式。",
+      "titleEn": "After feel up to, use a thing, an activity or an -ing form: feel up to the walk feel up to walking.",
+      "zh": "使用 feel up to 後,可接一件事情、一項活動或 -ing 形式。",
+      "en": "After feel up to, use a thing, an activity or an -ing form: feel up to the walk feel up to walking"
+    },
+    {
+      "titleZh": "feel somebody up 是非正式而帶批評意味的說法,通常指未經同意,以帶有性意味的方式觸摸某人的身體。",
+      "titleEn": "Feel somebody up is informal and disapproving.",
+      "zh": "feel somebody up 是非正式而帶批評意味的說法,通常指未經同意,以帶有性意味的方式觸摸某人的身體。",
+      "en": "Feel somebody up is informal and disapproving. It describes touching someone’s body in a sexual way, usually without permission: feel him up feel her up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FEEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FEEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FEEL 動詞片語句子改寫練習",
+    "titleEn": "FEEL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FEEL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FEEL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-78-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I sympathised with the new employee when nobody offered to help him.",
+      "promptZh": "新員工沒有人主動幫忙時,我很同情他。",
+      "starter": "I",
+      "answer": "I felt for the new employee when nobody offered to help him.",
+      "answerZh": "新員工沒有人主動幫忙時,我很同情他。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I do not have the energy to cook tonight.",
+      "promptZh": "我今晚沒有精神煮飯。",
+      "starter": "I",
+      "answer": "I do not feel up to cooking tonight.",
+      "answerZh": "我今晚沒有精神煮飯。",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "A stranger touched her body in a sexual way without permission on the crowded train.",
+      "promptZh": "一名陌生人在擠迫的火車上,未經她同意,以帶有性意味的方式觸摸她的身體。",
+      "starter": "A",
+      "answer": "A stranger felt her up on the crowded train.",
+      "answerZh": "一名陌生人在擠迫的火車上,未經她同意,以帶有性意味的方式觸摸她的身體。",
+      "highlight": "felt",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We were very sorry for the family after the storm damaged their home.",
+      "promptZh": "暴風雨破壞了那家人的住所後,我們都替他們難過。",
+      "starter": "We",
+      "answer": "We felt for the family after the storm damaged their home.",
+      "answerZh": "暴風雨破壞了那家人的住所後,我們都替他們難過。",
+      "highlight": "felt",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "If you have enough energy, we can walk to the café.",
+      "promptZh": "如果你有足夠精神,我們可以步行到咖啡店。",
+      "starter": "If",
+      "answer": "If you feel up to it, we can walk to the café.",
+      "answerZh": "如果你有足夠精神,我們可以步行到咖啡店。",
+      "highlight": "feel up to it",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She reported him for touching her body in a sexual way at the party.",
+      "promptZh": "她舉報他在派對上以帶有性意味的方式觸摸她的身體。",
+      "starter": "She",
+      "answer": "She reported him for feeling her up at the party.",
+      "answerZh": "她舉報他在派對上以帶有性意味的方式觸摸她的身體。",
+      "highlight": "feeling",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Everyone sympathised with Leila when she had to cancel her trip.",
+      "promptZh": "萊拉被迫取消旅程時,大家都很同情她。",
+      "starter": "Everyone",
+      "answer": "Everyone felt for Leila when she had to cancel her trip.",
+      "answerZh": "萊拉被迫取消旅程時,大家都很同情她。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Does Amir have enough energy for the long drive?",
+      "promptZh": "阿米爾有足夠精神應付這段長途車程嗎?",
+      "starter": "Does",
+      "answer": "Does Amir feel up to the long drive?",
+      "answerZh": "阿米爾有足夠精神應付這段長途車程嗎?",
+      "highlight": "feel up to",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nobody has the right to touch your body sexually without your permission.",
+      "promptZh": "任何人都無權在未經你同意下,以帶有性意味的方式觸摸你的身體。",
+      "starter": "Nobody",
+      "answer": "Nobody has the right to feel you up.",
+      "answerZh": "任何人都無權在未經你同意下,以帶有性意味的方式觸摸你的身體。",
+      "highlight": "feel you up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "You have to sympathise with him; he has been working two jobs for months.",
+      "promptZh": "你也得同情他;他已經連續幾個月做兩份工作。",
+      "starter": "You",
+      "answer": "You have to feel for him; he has been working two jobs for months.",
+      "answerZh": "你也得同情他;他已經連續幾個月做兩份工作。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She had enough energy to answer a few emails after lunch.",
+      "promptZh": "午飯後,她有足夠精神回覆幾封電郵。",
+      "starter": "She",
+      "answer": "She felt up to answering a few emails after lunch.",
+      "answerZh": "午飯後,她有足夠精神回覆幾封電郵。",
+      "highlight": "felt up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I have always had sympathy for people who care for a sick parent alone.",
+      "promptZh": "我一直都很同情那些獨力照顧患病父母的人。",
+      "starter": "I",
+      "answer": "I have always felt for people who care for a sick parent alone.",
+      "answerZh": "我一直都很同情那些獨力照顧患病父母的人。",
+      "highlight": "felt",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Did that man touch your body in a sexual way without permission in the lift?",
+      "promptZh": "那名男子有沒有在升降機內未經你同意,以帶有性意味的方式觸摸你的身體?",
+      "starter": "Did",
+      "answer": "Did that man feel you up in the lift?",
+      "answerZh": "那名男子有沒有在升降機內未經你同意,以帶有性意味的方式觸摸你的身體?",
+      "highlight": "feel you up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We may not have enough energy for another meeting this afternoon.",
+      "promptZh": "今天下午,我們可能沒有精神再開一場會議。",
+      "starter": "We",
+      "answer": "We may not feel up to another meeting this afternoon.",
+      "answerZh": "今天下午,我們可能沒有精神再開一場會議。",
+      "highlight": "feel up to",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do you sympathise with the parents who waited outside all night?",
+      "promptZh": "你同情那些整晚在外面等候的家長嗎?",
+      "starter": "Do",
+      "answer": "Do you feel for the parents who waited outside all night?",
+      "answerZh": "你同情那些整晚在外面等候的家長嗎?",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The camera showed him touching a woman’s body in a sexual way near the door.",
+      "promptZh": "攝影機拍到他在門旁,以帶有性意味的方式觸摸一名女子的身體。",
+      "starter": "The",
+      "answer": "The camera showed him feeling a woman up near the door.",
+      "answerZh": "攝影機拍到他在門旁,以帶有性意味的方式觸摸一名女子的身體。",
+      "highlight": "feeling",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I am finally well enough to return to work.",
+      "promptZh": "我終於有足夠精神重返工作崗位。",
+      "starter": "I",
+      "answer": "I finally feel up to returning to work.",
+      "answerZh": "我終於有足夠精神重返工作崗位。",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She did not sympathise with him because he had caused the problem himself.",
+      "promptZh": "她不同情他,因為問題是他自己造成的。",
+      "starter": "She",
+      "answer": "She did not feel for him because he had caused the problem himself.",
+      "answerZh": "她不同情他,因為問題是他自己造成的。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The young man said that another passenger had touched his body sexually without permission on the bus.",
+      "promptZh": "那名年輕男子表示,另一名乘客曾在巴士上未經同意,以帶有性意味的方式觸摸他的身體。",
+      "starter": "The",
+      "answer": "The young man said that another passenger had felt him up on the bus.",
+      "answerZh": "那名年輕男子表示,另一名乘客曾在巴士上未經同意,以帶有性意味的方式觸摸他的身體。",
+      "highlight": "felt him up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Would you have enough confidence to speak first?",
+      "promptZh": "你有足夠信心第一個發言嗎?",
+      "starter": "Would",
+      "answer": "Would you feel up to speaking first?",
+      "answerZh": "你有足夠信心第一個發言嗎?",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "She pushed him away when he tried to touch her body sexually.",
+      "promptZh": "他企圖以帶有性意味的方式觸摸她的身體時,她把他推開。",
+      "starter": "She",
+      "answer": "She pushed him away when he tried to feel her up.",
+      "answerZh": "他企圖以帶有性意味的方式觸摸她的身體時,她把他推開。",
+      "highlight": "feel",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Most viewers sympathised with the boy when he lost his dog.",
+      "promptZh": "那個男孩失去愛犬時,大部分觀眾都很同情他。",
+      "starter": "Most",
+      "answer": "Most viewers felt for the boy when he lost his dog.",
+      "answerZh": "那個男孩失去愛犬時,大部分觀眾都很同情他。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "He did not have enough energy for the climb after a sleepless night.",
+      "promptZh": "他整晚沒有睡覺,因此沒有精神應付這次登山。",
+      "starter": "He",
+      "answer": "He did not feel up to the climb after a sleepless night.",
+      "answerZh": "他整晚沒有睡覺,因此沒有精神應付這次登山。",
+      "highlight": "feel up to",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The club removed a customer who had touched someone sexually without permission on the dance floor.",
+      "promptZh": "夜店趕走了一名在舞池上未經同意,以帶有性意味的方式觸摸別人的顧客。",
+      "starter": "The",
+      "answer": "The club removed a customer who had felt someone up on the dance floor.",
+      "answerZh": "夜店趕走了一名在舞池上未經同意,以帶有性意味的方式觸摸別人的顧客。",
+      "highlight": "felt",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After a short rest, Nora had enough energy to continue the journey.",
+      "promptZh": "短暫休息後,諾拉有足夠精神繼續行程。",
+      "starter": "After",
+      "answer": "After a short rest, Nora felt up to continuing the journey.",
+      "answerZh": "短暫休息後,諾拉有足夠精神繼續行程。",
+      "highlight": "felt up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "It was hard not to sympathise with the staff after the shop closed.",
+      "promptZh": "店舖結業後,大家很難不同情那些員工。",
+      "starter": "It",
+      "answer": "It was hard not to feel for the staff after the shop closed.",
+      "answerZh": "店舖結業後,大家很難不同情那些員工。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "He denied touching anyone’s body in a sexual way during the event.",
+      "promptZh": "他否認在活動期間,以帶有性意味的方式觸摸任何人的身體。",
+      "starter": "He",
+      "answer": "He denied feeling anyone up during the event.",
+      "answerZh": "他否認在活動期間,以帶有性意味的方式觸摸任何人的身體。",
+      "highlight": "feeling anyone up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I have not had enough energy to see visitors this week.",
+      "promptZh": "我這個星期一直沒有精神見客。",
+      "starter": "I",
+      "answer": "I have not felt up to seeing visitors this week.",
+      "answerZh": "我這個星期一直沒有精神見客。",
+      "highlight": "felt up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although she was angry, Hana still had sympathy for her friend.",
+      "promptZh": "雖然哈娜很生氣,但她仍然同情朋友。",
+      "starter": "Although",
+      "answer": "Although she was angry, Hana still felt for her friend.",
+      "answerZh": "雖然哈娜很生氣,但她仍然同情朋友。",
+      "highlight": "felt",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If someone touches your body sexually without permission, leave the area and ask for help.",
+      "promptZh": "如果有人未經你同意,以帶有性意味的方式觸摸你的身體,請離開現場並尋求協助。",
+      "starter": "If",
+      "answer": "If someone feels you up, leave the area and ask for help.",
+      "answerZh": "如果有人未經你同意,以帶有性意味的方式觸摸你的身體,請離開現場並尋求協助。",
+      "highlight": "feels you up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Parents may sympathise with children who are nervous on their first school day.",
+      "promptZh": "家長可能會同情那些在開學第一天感到緊張的孩子。",
+      "starter": "Parents",
+      "answer": "Parents may feel for children who are nervous on their first school day.",
+      "answerZh": "家長可能會同情那些在開學第一天感到緊張的孩子。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The witness saw the man touch a passenger’s body in a sexual way while everyone was leaving.",
+      "promptZh": "所有人正在離場時,目擊者看見那名男子以帶有性意味的方式觸摸一名乘客的身體。",
+      "starter": "The",
+      "answer": "The witness saw the man feel a passenger up while everyone was leaving.",
+      "answerZh": "所有人正在離場時,目擊者看見那名男子以帶有性意味的方式觸摸一名乘客的身體。",
+      "highlight": "feel",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When you have enough energy, call me and we can finish the form together.",
+      "promptZh": "當你有足夠精神時,請致電給我,我們可以一起完成表格。",
+      "starter": "When",
+      "answer": "When you feel up to it, call me and we can finish the form together.",
+      "answerZh": "當你有足夠精神時,請致電給我,我們可以一起完成表格。",
+      "highlight": "feel up to it",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I especially sympathised with Raj when he had to give the speech alone.",
+      "promptZh": "拉傑要獨自發表演說時,我尤其同情他。",
+      "starter": "I",
+      "answer": "I especially felt for Raj when he had to give the speech alone.",
+      "answerZh": "拉傑要獨自發表演說時,我尤其同情他。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The patient may have enough energy for a short walk tomorrow.",
+      "promptZh": "病人明天可能有足夠精神短暫散步。",
+      "starter": "The",
+      "answer": "The patient may feel up to a short walk tomorrow.",
+      "answerZh": "病人明天可能有足夠精神短暫散步。",
+      "highlight": "feel up to",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "She was shocked when a stranger touched her body sexually without permission in the queue.",
+      "promptZh": "她排隊時,一名陌生人未經同意,以帶有性意味的方式觸摸她的身體,令她十分震驚。",
+      "starter": "She",
+      "answer": "She was shocked when a stranger felt her up in the queue.",
+      "answerZh": "她排隊時,一名陌生人未經同意,以帶有性意味的方式觸摸她的身體,令她十分震驚。",
+      "highlight": "felt",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "People are beginning to sympathise with the driver after hearing the full story.",
+      "promptZh": "人們聽完整件事後,開始同情那名司機。",
+      "starter": "People",
+      "answer": "People are beginning to feel for the driver after hearing the full story.",
+      "answerZh": "人們聽完整件事後,開始同情那名司機。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Are you sure you have enough strength to carry that box downstairs?",
+      "promptZh": "你確定自己有足夠體力把那個箱子搬到樓下嗎?",
+      "starter": "Are",
+      "answer": "Are you sure you feel up to carrying that box downstairs?",
+      "answerZh": "你確定自己有足夠體力把那個箱子搬到樓下嗎?",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The safety notice says that nobody may touch another guest in a sexual way.",
+      "promptZh": "安全告示說明,任何人都不可對另一名賓客作出帶有性意味的觸摸。",
+      "starter": "The",
+      "answer": "The safety notice says that nobody may feel another guest up.",
+      "answerZh": "安全告示說明,任何人都不可對另一名賓客作出帶有性意味的觸摸。",
+      "highlight": "feel",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We could all sympathise with her, even though we could not solve the problem.",
+      "promptZh": "即使我們無法解決問題,大家仍然很同情她。",
+      "starter": "We",
+      "answer": "We could all feel for her, even though we could not solve the problem.",
+      "answerZh": "即使我們無法解決問題,大家仍然很同情她。",
+      "highlight": "feel for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nobody expected her to have enough energy to perform so soon after the flu.",
+      "promptZh": "沒有人預料她患流感後這麼快便有足夠精神表演。",
+      "starter": "Nobody",
+      "answer": "Nobody expected her to feel up to performing so soon after the flu.",
+      "answerZh": "沒有人預料她患流感後這麼快便有足夠精神表演。",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Ben had lost his own job last year, so he sympathised with the workers.",
+      "promptZh": "賓去年也曾失業,因此他很同情那些工人。",
+      "starter": "Ben",
+      "answer": "Ben had lost his own job last year, so he felt for the workers.",
+      "answerZh": "賓去年也曾失業,因此他很同情那些工人。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A security officer stopped him before he could touch anyone’s body sexually without permission.",
+      "promptZh": "保安員在他未經同意,以帶有性意味的方式觸摸任何人之前,已把他制止。",
+      "starter": "A",
+      "answer": "A security officer stopped him before he could feel anyone up.",
+      "answerZh": "保安員在他未經同意,以帶有性意味的方式觸摸任何人之前,已把他制止。",
+      "highlight": "feel anyone up",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By Friday, I should have enough energy to take the full test.",
+      "promptZh": "到星期五,我應該有足夠精神完成整份測驗。",
+      "starter": "By",
+      "answer": "By Friday, I should feel up to taking the full test.",
+      "answerZh": "到星期五,我應該有足夠精神完成整份測驗。",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The teacher sympathised with the child but still had to apply the rule.",
+      "promptZh": "老師雖然同情那個孩子,但仍然必須執行規則。",
+      "starter": "The",
+      "answer": "The teacher felt for the child but still had to apply the rule.",
+      "answerZh": "老師雖然同情那個孩子,但仍然必須執行規則。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The complaint said that he had touched two people’s bodies sexually without permission at the crowded event.",
+      "promptZh": "投訴內容指,他在擠迫的活動中曾未經同意,以帶有性意味的方式觸摸兩人的身體。",
+      "starter": "The",
+      "answer": "The complaint said that he had felt two people up at the crowded event.",
+      "answerZh": "投訴內容指,他在擠迫的活動中曾未經同意,以帶有性意味的方式觸摸兩人的身體。",
+      "highlight": "felt",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even after the coach explained everything, Theo did not have enough confidence to join the race.",
+      "promptZh": "即使教練解釋了一切,西奧仍然沒有足夠信心參加比賽。",
+      "starter": "Even",
+      "answer": "Even after the coach explained everything, Theo did not feel up to joining the race.",
+      "answerZh": "即使教練解釋了一切,西奧仍然沒有足夠信心參加比賽。",
+      "highlight": "feel up",
+      "targetForm": "feel up to doing something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    },
+    {
+      "id": "phrasal-verb-78-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the singer forgot the words, the audience sympathised with her rather than laughing.",
+      "promptZh": "歌手忘記歌詞時,觀眾沒有取笑她,反而很同情她。",
+      "starter": "When",
+      "answer": "When the singer forgot the words, the audience felt for her rather than laughing.",
+      "answerZh": "歌手忘記歌詞時,觀眾沒有取笑她,反而很同情她。",
+      "highlight": "felt for",
+      "targetForm": "feel for somebody",
+      "targetMeaningZh": "同情某人;替某人難過"
+    },
+    {
+      "id": "phrasal-verb-78-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The organiser removed the man after several guests said he had touched them sexually without permission.",
+      "promptZh": "幾名賓客表示那名男子曾未經同意,以帶有性意味的方式觸摸他們的身體後,主辦方把他趕走。",
+      "starter": "The",
+      "answer": "The organiser removed the man after several guests said he had felt them up.",
+      "answerZh": "幾名賓客表示那名男子曾未經同意,以帶有性意味的方式觸摸他們的身體後,主辦方把他趕走。",
+      "highlight": "felt",
+      "targetForm": "feel somebody up",
+      "targetMeaningZh": "以帶有性意味的方式摸某人的身體,通常未經同意"
+    },
+    {
+      "id": "phrasal-verb-78-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "If the weather improves and you have enough energy, we could take the longer path home.",
+      "promptZh": "如果天氣好轉,而你又有足夠精神,我們可以走較長的路回家。",
+      "starter": "If",
+      "answer": "If the weather improves and you feel up to it, we could take the longer path home.",
+      "answerZh": "如果天氣好轉,而你又有足夠精神,我們可以走較長的路回家。",
+      "highlight": "feel up to it",
+      "targetForm": "feel up to something",
+      "targetMeaningZh": "有足夠精神、體力或信心去做某事"
+    }
+  ]
+}

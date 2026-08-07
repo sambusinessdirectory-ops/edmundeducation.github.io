@@ -1,0 +1,1746 @@
+{
+  "id": "phrasal-verb-102",
+  "order": 102,
+  "slug": "open",
+  "version": "1",
+  "title": "OPEN 動詞片語",
+  "titleEn": "Open",
+  "titleZh": "OPEN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 8,
+  "source": {
+    "file": "Phrasal Verbs 101 - OPEN.pdf",
+    "sourceNumber": 101,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 OPEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to OPEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "OPEN",
+      "highlight": "OPEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The doors open onto a small garden.",
+      "zh": "這些門直接通往一個小花園。",
+      "highlight": "open onto",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Two bedrooms open off the hall.",
+      "zh": "兩間睡房直接連接大廳。",
+      "highlight": "open off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The valley opened out below us.",
+      "zh": "山谷在我們腳下展開。",
+      "highlight": "opened out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "門、窗或房間直接通往或面向某處；房間或門直接連接另一個房間、走廊或大廳；地方、山谷或景色在眼前展開或變寬；(較口語)為某人開刀;切開身體進行手術；展開或攤開摺起的物件；打開或拆開封閉的物件,讓人看見或取用裏面；敞開心扉;坦白說出感受或問題；機會、名額、道路或選擇變得可用,或令它們出現",
+    "en": "open into/onto something; open off something; open out; open somebody up; open something out; open something up; open up / open up to somebody / open up about something; open up / open something up",
+    "naturalZh": [
+      "門、窗或房間直接通往或面向某處",
+      "房間或門直接連接另一個房間、走廊或大廳",
+      "地方、山谷或景色在眼前展開或變寬",
+      "(較口語)為某人開刀;切開身體進行手術",
+      "展開或攤開摺起的物件",
+      "打開或拆開封閉的物件,讓人看見或取用裏面",
+      "敞開心扉;坦白說出感受或問題",
+      "機會、名額、道路或選擇變得可用,或令它們出現"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "open into/onto something",
+      "titleZh": "門、窗或房間直接通往或面向某處",
+      "titleEn": "open into/onto something",
+      "descriptionZh": "門、窗或房間直接通往或面向某處",
+      "descriptionEn": "The doors open onto a small garden.",
+      "examples": [
+        {
+          "en": "The doors open onto a small garden.",
+          "zh": "這些門直接通往一個小花園。",
+          "highlight": "open onto"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "open off something",
+      "titleZh": "房間或門直接連接另一個房間、走廊或大廳",
+      "titleEn": "open off something",
+      "descriptionZh": "房間或門直接連接另一個房間、走廊或大廳",
+      "descriptionEn": "Two bedrooms open off the hall.",
+      "examples": [
+        {
+          "en": "Two bedrooms open off the hall.",
+          "zh": "兩間睡房直接連接大廳。",
+          "highlight": "open off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "open out",
+      "titleZh": "地方、山谷或景色在眼前展開或變寬",
+      "titleEn": "open out",
+      "descriptionZh": "地方、山谷或景色在眼前展開或變寬",
+      "descriptionEn": "The valley opened out below us.",
+      "examples": [
+        {
+          "en": "The valley opened out below us.",
+          "zh": "山谷在我們腳下展開。",
+          "highlight": "opened out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "open somebody up",
+      "titleZh": "(較口語)為某人開刀;切開身體進行手術",
+      "titleEn": "open somebody up",
+      "descriptionZh": "(較口語)為某人開刀;切開身體進行手術",
+      "descriptionEn": "The doctors opened him up to repair the problem.",
+      "examples": [
+        {
+          "en": "The doctors opened him up to repair the problem.",
+          "zh": "醫生為他開刀,以修補問題。",
+          "highlight": "opened him up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "open something out",
+      "titleZh": "展開或攤開摺起的物件",
+      "titleEn": "open something out",
+      "descriptionZh": "展開或攤開摺起的物件",
+      "descriptionEn": "She opened the map out on the table.",
+      "examples": [
+        {
+          "en": "She opened the map out on the table.",
+          "zh": "她在桌上攤開地圖。",
+          "highlight": "opened the map out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "open something up",
+      "titleZh": "打開或拆開封閉的物件,讓人看見或取用裏面",
+      "titleEn": "open something up",
+      "descriptionZh": "打開或拆開封閉的物件,讓人看見或取用裏面",
+      "descriptionEn": "He opened the parcel up carefully.",
+      "examples": [
+        {
+          "en": "He opened the parcel up carefully.",
+          "zh": "他小心地拆開包裹。",
+          "highlight": "opened the parcel up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "open up / open up to somebody / open up about something",
+      "titleZh": "敞開心扉;坦白說出感受或問題",
+      "titleEn": "open up / open up to somebody / open up about something",
+      "descriptionZh": "敞開心扉;坦白說出感受或問題",
+      "descriptionEn": "She opened up to her sister.",
+      "examples": [
+        {
+          "en": "She opened up to her sister.",
+          "zh": "她向姐姐敞開心扉。",
+          "highlight": "opened up to"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "open up / open something up",
+      "titleZh": "機會、名額、道路或選擇變得可用,或令它們出現",
+      "titleEn": "open up / open something up",
+      "descriptionZh": "機會、名額、道路或選擇變得可用,或令它們出現",
+      "descriptionEn": "The course opened up new job opportunities.",
+      "examples": [
+        {
+          "en": "The course opened up new job opportunities.",
+          "zh": "這個課程開拓了新的工作機會。",
+          "highlight": "opened up"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "OPEN 片語動詞的實際用途",
+    "labelEn": "OPEN Phrasal Verbs in Use",
+    "summaryZh": "open onto、open into 和 open off 能幫助你描述房間、大廳、花園和其他地方之間的連接。；open out 能幫助你描述山谷、道路、海岸或景色在眼前變得寬闊。；你可以用 open a map out 表示攤開地圖,也可以用 open a parcel up 或 open a case up 表示打開包裹或箱子。；open up 可以表示某人開始坦白談及憂慮、恐懼或其他個人感受。；open up 可以表示新的工作、名額、道路或可能性變得可供選擇。",
+    "summaryEn": "Open onto, open into and open off help you describe the connection between rooms, halls, gardens and other places. Open out helps you describe a valley, road, coast or view spreading wide in front of you. You can open a map out, open a parcel up or open a case up when you need to see or use what is inside. Open up lets you say that someone begins to speak honestly about worries, fear or other personal feelings. Open up can show that new jobs, places, routes or possibilities have become available.",
+    "contextsZh": [
+      "清楚說明門和房間通往何處",
+      "描述景色和空間在眼前展開",
+      "自然描述展開或打開物件",
+      "表達坦白真誠的感受",
+      "談論新機會和新選擇"
+    ],
+    "contextsEn": [
+      "Talk clearly about where doors and rooms lead",
+      "Describe views and spaces becoming wider",
+      "Talk about folded and closed things naturally",
+      "Express honest feelings",
+      "Talk about new opportunities and choices"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 OPEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the OPEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "open into/onto something",
+    "fixedHighlight": "open into/onto something",
+    "fixedZh": "閱讀整句,選出意思相同的 OPEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the OPEN expression that gives the same meaning.",
+    "correct": "open onto",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當 it、him、her 或 them 指被打開、攤開或接受手術的人或物時,請按照以上例子放在正確位置。；open up 有多個意思,可以表示敞開心扉、打開封閉物件或帶來新機會。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When it, him, her or them is the person or thing being opened, place the word as shown: open it up / open it out / open him up Open up has several meanings. It may refer to feelings, closed objects or new opportunities. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "open into/onto something",
+      "open off something",
+      "open out",
+      "open somebody up",
+      "open something out",
+      "open something up",
+      "open up / open up to somebody / open up about something",
+      "open up / open something up"
+    ],
+    "variableItemsEn": [
+      "open into/onto something",
+      "open off something",
+      "open out",
+      "open somebody up",
+      "open something out",
+      "open something up",
+      "open up / open up to somebody / open up about something",
+      "open up / open something up"
+    ],
+    "forms": [
+      {
+        "formZh": "門、窗或房間直接通往或面向某處",
+        "formEn": "open into/onto something",
+        "exampleZh": "這些門直接通往一個小花園。",
+        "exampleEn": "The doors open onto a small garden.",
+        "highlight": "open onto"
+      },
+      {
+        "formZh": "房間或門直接連接另一個房間、走廊或大廳",
+        "formEn": "open off something",
+        "exampleZh": "兩間睡房直接連接大廳。",
+        "exampleEn": "Two bedrooms open off the hall.",
+        "highlight": "open off"
+      },
+      {
+        "formZh": "地方、山谷或景色在眼前展開或變寬",
+        "formEn": "open out",
+        "exampleZh": "山谷在我們腳下展開。",
+        "exampleEn": "The valley opened out below us.",
+        "highlight": "opened out"
+      },
+      {
+        "formZh": "(較口語)為某人開刀;切開身體進行手術",
+        "formEn": "open somebody up",
+        "exampleZh": "醫生為他開刀,以修補問題。",
+        "exampleEn": "The doctors opened him up to repair the problem.",
+        "highlight": "opened him up"
+      },
+      {
+        "formZh": "展開或攤開摺起的物件",
+        "formEn": "open something out",
+        "exampleZh": "她在桌上攤開地圖。",
+        "exampleEn": "She opened the map out on the table.",
+        "highlight": "opened the map out"
+      },
+      {
+        "formZh": "打開或拆開封閉的物件,讓人看見或取用裏面",
+        "formEn": "open something up",
+        "exampleZh": "他小心地拆開包裹。",
+        "exampleEn": "He opened the parcel up carefully.",
+        "highlight": "opened the parcel up"
+      },
+      {
+        "formZh": "敞開心扉;坦白說出感受或問題",
+        "formEn": "open up / open up to somebody / open up about something",
+        "exampleZh": "她向姐姐敞開心扉。",
+        "exampleEn": "She opened up to her sister.",
+        "highlight": "opened up to"
+      },
+      {
+        "formZh": "機會、名額、道路或選擇變得可用,或令它們出現",
+        "formEn": "open up / open something up",
+        "exampleZh": "這個課程開拓了新的工作機會。",
+        "exampleEn": "The course opened up new job opportunities.",
+        "highlight": "opened up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "門、窗或房間直接通往或面向某處",
+      "titleEn": "open into/onto something",
+      "formula": "open into/onto something",
+      "highlight": "open into/onto something",
+      "descriptionZh": "門、窗或房間直接通往或面向某處",
+      "descriptionEn": "The doors open onto a small garden.",
+      "examples": [
+        {
+          "en": "The doors open onto a small garden.",
+          "zh": "這些門直接通往一個小花園。",
+          "highlight": "open onto"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "房間或門直接連接另一個房間、走廊或大廳",
+      "titleEn": "open off something",
+      "formula": "open off something",
+      "highlight": "open off something",
+      "descriptionZh": "房間或門直接連接另一個房間、走廊或大廳",
+      "descriptionEn": "Two bedrooms open off the hall.",
+      "examples": [
+        {
+          "en": "Two bedrooms open off the hall.",
+          "zh": "兩間睡房直接連接大廳。",
+          "highlight": "open off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "地方、山谷或景色在眼前展開或變寬",
+      "titleEn": "open out",
+      "formula": "open out",
+      "highlight": "open out",
+      "descriptionZh": "地方、山谷或景色在眼前展開或變寬",
+      "descriptionEn": "The valley opened out below us.",
+      "examples": [
+        {
+          "en": "The valley opened out below us.",
+          "zh": "山谷在我們腳下展開。",
+          "highlight": "opened out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "(較口語)為某人開刀;切開身體進行手術",
+      "titleEn": "open somebody up",
+      "formula": "open somebody up",
+      "highlight": "open somebody up",
+      "descriptionZh": "(較口語)為某人開刀;切開身體進行手術",
+      "descriptionEn": "The doctors opened him up to repair the problem.",
+      "examples": [
+        {
+          "en": "The doctors opened him up to repair the problem.",
+          "zh": "醫生為他開刀,以修補問題。",
+          "highlight": "opened him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "展開或攤開摺起的物件",
+      "titleEn": "open something out",
+      "formula": "open something out",
+      "highlight": "open something out",
+      "descriptionZh": "展開或攤開摺起的物件",
+      "descriptionEn": "She opened the map out on the table.",
+      "examples": [
+        {
+          "en": "She opened the map out on the table.",
+          "zh": "她在桌上攤開地圖。",
+          "highlight": "opened the map out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "打開或拆開封閉的物件,讓人看見或取用裏面",
+      "titleEn": "open something up",
+      "formula": "open something up",
+      "highlight": "open something up",
+      "descriptionZh": "打開或拆開封閉的物件,讓人看見或取用裏面",
+      "descriptionEn": "He opened the parcel up carefully.",
+      "examples": [
+        {
+          "en": "He opened the parcel up carefully.",
+          "zh": "他小心地拆開包裹。",
+          "highlight": "opened the parcel up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "敞開心扉;坦白說出感受或問題",
+      "titleEn": "open up / open up to somebody / open up about something",
+      "formula": "open up / open up to somebody / open up about something",
+      "highlight": "open up / open up to somebody / open up about something",
+      "descriptionZh": "敞開心扉;坦白說出感受或問題",
+      "descriptionEn": "She opened up to her sister.",
+      "examples": [
+        {
+          "en": "She opened up to her sister.",
+          "zh": "她向姐姐敞開心扉。",
+          "highlight": "opened up to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "機會、名額、道路或選擇變得可用,或令它們出現",
+      "titleEn": "open up / open something up",
+      "formula": "open up / open something up",
+      "highlight": "open up / open something up",
+      "descriptionZh": "機會、名額、道路或選擇變得可用,或令它們出現",
+      "descriptionEn": "The course opened up new job opportunities.",
+      "examples": [
+        {
+          "en": "The course opened up new job opportunities.",
+          "zh": "這個課程開拓了新的工作機會。",
+          "highlight": "opened up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚說明門和房間通往何處",
+      "titleEn": "Talk clearly about where doors and rooms lead",
+      "zh": "open onto、open into 和 open off 能幫助你描述房間、大廳、花園和其他地方之間的連接。",
+      "en": "Open onto, open into and open off help you describe the connection between rooms, halls, gardens and other places."
+    },
+    {
+      "titleZh": "描述景色和空間在眼前展開",
+      "titleEn": "Describe views and spaces becoming wider",
+      "zh": "open out 能幫助你描述山谷、道路、海岸或景色在眼前變得寬闊。",
+      "en": "Open out helps you describe a valley, road, coast or view spreading wide in front of you."
+    },
+    {
+      "titleZh": "自然描述展開或打開物件",
+      "titleEn": "Talk about folded and closed things naturally",
+      "zh": "你可以用 open a map out 表示攤開地圖,也可以用 open a parcel up 或 open a case up 表示打開包裹或箱子。",
+      "en": "You can open a map out, open a parcel up or open a case up when you need to see or use what is inside."
+    },
+    {
+      "titleZh": "表達坦白真誠的感受",
+      "titleEn": "Express honest feelings",
+      "zh": "open up 可以表示某人開始坦白談及憂慮、恐懼或其他個人感受。",
+      "en": "Open up lets you say that someone begins to speak honestly about worries, fear or other personal feelings."
+    },
+    {
+      "titleZh": "談論新機會和新選擇",
+      "titleEn": "Talk about new opportunities and choices",
+      "zh": "open up 可以表示新的工作、名額、道路或可能性變得可供選擇。",
+      "en": "Open up can show that new jobs, places, routes or possibilities have become available."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚說明門和房間通往何處",
+      "描述景色和空間在眼前展開",
+      "自然描述展開或打開物件",
+      "表達坦白真誠的感受",
+      "談論新機會和新選擇"
+    ],
+    "contextsEn": [
+      "Talk clearly about where doors and rooms lead",
+      "Describe views and spaces becoming wider",
+      "Talk about folded and closed things naturally",
+      "Express honest feelings",
+      "Talk about new opportunities and choices"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚說明門和房間通往何處",
+        "titleEn": "Talk clearly about where doors and rooms lead",
+        "zh": "open onto、open into 和 open off 能幫助你描述房間、大廳、花園和其他地方之間的連接。",
+        "en": "Open onto, open into and open off help you describe the connection between rooms, halls, gardens and other places.",
+        "examples": [
+          {
+            "en": "The doors open onto a small garden.",
+            "zh": "這些門直接通往一個小花園。",
+            "highlight": "open onto"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述景色和空間在眼前展開",
+        "titleEn": "Describe views and spaces becoming wider",
+        "zh": "open out 能幫助你描述山谷、道路、海岸或景色在眼前變得寬闊。",
+        "en": "Open out helps you describe a valley, road, coast or view spreading wide in front of you.",
+        "examples": [
+          {
+            "en": "Two bedrooms open off the hall.",
+            "zh": "兩間睡房直接連接大廳。",
+            "highlight": "open off"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述展開或打開物件",
+        "titleEn": "Talk about folded and closed things naturally",
+        "zh": "你可以用 open a map out 表示攤開地圖,也可以用 open a parcel up 或 open a case up 表示打開包裹或箱子。",
+        "en": "You can open a map out, open a parcel up or open a case up when you need to see or use what is inside.",
+        "examples": [
+          {
+            "en": "The valley opened out below us.",
+            "zh": "山谷在我們腳下展開。",
+            "highlight": "opened out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達坦白真誠的感受",
+        "titleEn": "Express honest feelings",
+        "zh": "open up 可以表示某人開始坦白談及憂慮、恐懼或其他個人感受。",
+        "en": "Open up lets you say that someone begins to speak honestly about worries, fear or other personal feelings.",
+        "examples": [
+          {
+            "en": "The doctors opened him up to repair the problem.",
+            "zh": "醫生為他開刀,以修補問題。",
+            "highlight": "opened him up"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論新機會和新選擇",
+        "titleEn": "Talk about new opportunities and choices",
+        "zh": "open up 可以表示新的工作、名額、道路或可能性變得可供選擇。",
+        "en": "Open up can show that new jobs, places, routes or possibilities have become available.",
+        "examples": [
+          {
+            "en": "She opened the map out on the table.",
+            "zh": "她在桌上攤開地圖。",
+            "highlight": "opened the map out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 OPEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the OPEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 OPEN 片語動詞。",
+      "en": "Read the whole sentence and choose the OPEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當 it、him、her 或 them 指被打開、攤開或接受手術的人或物時,請按照以上例子放在正確位置。",
+      "titleEn": "When it, him, her or them is the person or thing being opened, place the word as shown: open it up / open it out / open him up.",
+      "zh": "當 it、him、her 或 them 指被打開、攤開或接受手術的人或物時,請按照以上例子放在正確位置。",
+      "en": "When it, him, her or them is the person or thing being opened, place the word as shown: open it up / open it out / open him up"
+    },
+    {
+      "titleZh": "open up 有多個意思,可以表示敞開心扉、打開封閉物件或帶來新機會。請仔細閱讀整個情境。",
+      "titleEn": "Open up has several meanings.",
+      "zh": "open up 有多個意思,可以表示敞開心扉、打開封閉物件或帶來新機會。請仔細閱讀整個情境。",
+      "en": "Open up has several meanings. It may refer to feelings, closed objects or new opportunities. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 OPEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to OPEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "OPEN 動詞片語句子改寫練習",
+    "titleEn": "OPEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 OPEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to OPEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-102-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The narrow valley became wide in front of us.",
+      "promptZh": "狹窄的山谷在我們眼前變得寬闊。",
+      "starter": "The",
+      "answer": "The narrow valley opened out in front of us.",
+      "answerZh": "狹窄的山谷在我們眼前展開。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Can you unseal that box of books for me?",
+      "promptZh": "你可以替我拆開那箱書嗎?",
+      "starter": "Can",
+      "answer": "Can you open up that box of books for me?",
+      "answerZh": "你可以替我打開那箱書嗎?",
+      "highlight": "open up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The kitchen door leads directly to a small garden.",
+      "promptZh": "廚房門直接通往一個小花園。",
+      "starter": "The",
+      "answer": "The kitchen door opens onto a small garden.",
+      "answerZh": "廚房門直接通往一個小花園。",
+      "highlight": "opens onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Zara finally spoke honestly and told me why she was upset.",
+      "promptZh": "Zara 終於坦白說話,告訴我她為何不開心。",
+      "starter": "Zara",
+      "answer": "Zara finally opened up and told me why she was upset.",
+      "answerZh": "Zara 終於敞開心扉,告訴我她為何不開心。",
+      "highlight": "opened up",
+      "targetForm": "open up",
+      "targetMeaningZh": "敞開心扉,坦白說出感受"
+    },
+    {
+      "id": "phrasal-verb-102-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The doctors cut into his body during an operation to repair the problem.",
+      "promptZh": "醫生在手術期間切開他的身體,以修補問題。",
+      "starter": "The",
+      "answer": "The doctors opened him up to repair the problem.",
+      "answerZh": "醫生為他開刀,以修補問題。",
+      "highlight": "opened him up",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Two small bedrooms can be entered directly from the main hall.",
+      "promptZh": "兩間小睡房可以直接從大廳進入。",
+      "starter": "Two",
+      "answer": "Two small bedrooms open off the main hall.",
+      "answerZh": "兩間小睡房直接連接大廳。",
+      "highlight": "open off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He unfolded the map on the table.",
+      "promptZh": "他在桌上攤開地圖。",
+      "starter": "He",
+      "answer": "He opened the map out on the table.",
+      "answerZh": "他在桌上攤開地圖。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The new course made many job opportunities available to her.",
+      "promptZh": "這個新課程為她帶來許多工作機會。",
+      "starter": "The",
+      "answer": "The new course opened up many job opportunities for her.",
+      "answerZh": "這個新課程為她開拓了許多工作機會。",
+      "highlight": "opened up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會"
+    },
+    {
+      "id": "phrasal-verb-102-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Beyond the trees, the land spread wide towards the sea.",
+      "promptZh": "樹林後面,土地向大海方向廣闊地展開。",
+      "starter": "Beyond",
+      "answer": "Beyond the trees, the land opened out towards the sea.",
+      "answerZh": "樹林後面,土地向大海方向廣闊地展開。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "During the operation, they cut into the patient's body but found nothing serious.",
+      "promptZh": "手術期間,他們切開病人的身體,但沒有發現嚴重問題。",
+      "starter": "They",
+      "answer": "They opened the patient up but found nothing serious.",
+      "answerZh": "他們為病人開刀,但沒有發現嚴重問題。",
+      "highlight": "They opened",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ben removed the wrapping from the parcel as soon as it arrived.",
+      "promptZh": "包裹一送到,Ben 便拆去包裝。",
+      "starter": "Ben",
+      "answer": "Ben opened the parcel up as soon as it arrived.",
+      "answerZh": "包裹一送到,Ben 便把它拆開。",
+      "highlight": "opened",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Our hotel room led directly to the beach.",
+      "promptZh": "我們的酒店房間直接通往海灘。",
+      "starter": "Our",
+      "answer": "Our hotel room opened onto the beach.",
+      "answerZh": "我們的酒店房間直接通往海灘。",
+      "highlight": "opened onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nina spread the picnic blanket flat on the grass.",
+      "promptZh": "Nina 把摺起的野餐墊攤平在草地上。",
+      "starter": "Nina",
+      "answer": "Nina opened the picnic blanket out on the grass.",
+      "answerZh": "Nina 把野餐墊攤開在草地上。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "He spoke honestly to his brother about the problem.",
+      "promptZh": "他向哥哥坦白談及那個問題。",
+      "starter": "He",
+      "answer": "He opened up to his brother about the problem.",
+      "answerZh": "他向哥哥敞開心扉,坦白談及那個問題。",
+      "highlight": "opened up",
+      "targetForm": "open up to somebody",
+      "targetMeaningZh": "向某人敞開心扉"
+    },
+    {
+      "id": "phrasal-verb-102-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Several places on the school trip have become available.",
+      "promptZh": "學校旅行有幾個名額空了出來。",
+      "starter": "Several",
+      "answer": "Several places have opened up on the school trip.",
+      "answerZh": "學校旅行有幾個名額空了出來。",
+      "highlight": "have opened up",
+      "targetForm": "open up",
+      "targetMeaningZh": "機會、名額或職位變得可供使用"
+    },
+    {
+      "id": "phrasal-verb-102-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "A bathroom is directly connected to the guest room.",
+      "promptZh": "一間浴室直接連接客房。",
+      "starter": "A",
+      "answer": "A bathroom opens off the guest room.",
+      "answerZh": "一間浴室直接連接客房。",
+      "highlight": "opens off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Ella is slowly becoming willing to talk honestly with her new teacher.",
+      "promptZh": "Ella 正慢慢願意向新老師坦白說話。",
+      "starter": "Ella",
+      "answer": "Ella is slowly opening up to her new teacher.",
+      "answerZh": "Ella 正慢慢向新老師敞開心扉。",
+      "highlight": "opening up",
+      "targetForm": "open up to somebody",
+      "targetMeaningZh": "向某人敞開心扉"
+    },
+    {
+      "id": "phrasal-verb-102-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "As we reached the top, the valley was becoming wider below us.",
+      "promptZh": "我們到達山頂時,腳下的山谷正逐漸變寬。",
+      "starter": "As",
+      "answer": "As we reached the top, the valley was opening out below us.",
+      "answerZh": "我們到達山頂時,腳下的山谷正逐漸展開。",
+      "highlight": "opening out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "These glass doors lead directly into the dining room.",
+      "promptZh": "這些玻璃門直接通往飯廳。",
+      "starter": "These",
+      "answer": "These glass doors open into the dining room.",
+      "answerZh": "這些玻璃門直接通往飯廳。",
+      "highlight": "open",
+      "targetForm": "open into something",
+      "targetMeaningZh": "直接通往某處"
+    },
+    {
+      "id": "phrasal-verb-102-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The doctors are cutting into her body now during an operation to find the cause of the pain.",
+      "promptZh": "醫生現正於手術期間切開她的身體,以找出疼痛的原因。",
+      "starter": "The",
+      "answer": "The doctors are opening her up now to find the cause of the pain.",
+      "answerZh": "醫生現正為她開刀,以找出疼痛原因。",
+      "highlight": "opening",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The staff are unzipping all the bags for a safety check.",
+      "promptZh": "職員正拉開所有袋子的拉鏈,以進行安全檢查。",
+      "starter": "The",
+      "answer": "The staff are opening up all the bags for a safety check.",
+      "answerZh": "職員正打開所有袋子,以進行安全檢查。",
+      "highlight": "opening up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "I am unfolding the folded paper very carefully.",
+      "promptZh": "我正非常小心地展開那張摺好的紙。",
+      "starter": "I",
+      "answer": "I am opening the folded paper out very carefully.",
+      "answerZh": "我正非常小心地攤開那張摺好的紙。",
+      "highlight": "opening",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The offices were directly connected to a bright reception area.",
+      "promptZh": "那些辦公室直接連接一個明亮的接待處。",
+      "starter": "The",
+      "answer": "The offices opened off a bright reception area.",
+      "answerZh": "那些辦公室直接連接一個明亮的接待處。",
+      "highlight": "opened off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Better train service will make more travel options available to local families.",
+      "promptZh": "更好的鐵路服務會為本地家庭提供更多出行選擇。",
+      "starter": "Better",
+      "answer": "Better train service will open up more travel options for local families.",
+      "answerZh": "更好的鐵路服務會為本地家庭開拓更多出行選擇。",
+      "highlight": "open up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會或選擇"
+    },
+    {
+      "id": "phrasal-verb-102-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The narrow road becomes wider just beyond the bridge.",
+      "promptZh": "這條狹窄道路在橋的另一邊變得更寬闊。",
+      "starter": "The",
+      "answer": "The narrow road opens out just beyond the bridge.",
+      "answerZh": "這條狹窄道路在橋的另一邊變得寬闊。",
+      "highlight": "opens out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why will you not speak honestly and tell us what is wrong?",
+      "promptZh": "你為何不肯坦白說出發生了甚麼事?",
+      "starter": "Why",
+      "answer": "Why won't you open up and tell us what is wrong?",
+      "answerZh": "你為何不肯敞開心扉,告訴我們發生了甚麼事?",
+      "highlight": "won't",
+      "targetForm": "open up",
+      "targetMeaningZh": "敞開心扉,坦白說出感受"
+    },
+    {
+      "id": "phrasal-verb-102-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The doctors had cut into his body during an earlier operation.",
+      "promptZh": "醫生曾在較早前的一次手術中切開他的身體。",
+      "starter": "The",
+      "answer": "The doctors had opened him up once before.",
+      "answerZh": "醫生以前曾為他開過一次刀。",
+      "highlight": "opened him up once before",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Please keep the paint tin closed until we are ready to use it.",
+      "promptZh": "在我們準備使用油漆前,請不要打開油漆罐。",
+      "starter": "Please",
+      "answer": "Please do not open the paint tin up until we are ready to use it.",
+      "answerZh": "在我們準備使用油漆前,請不要打開油漆罐。",
+      "highlight": "do not open",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The map was wet, so we unfolded it beside the fire.",
+      "promptZh": "地圖濕了,所以我們在火旁把它攤開。",
+      "starter": "The",
+      "answer": "The map was wet, so we opened it out beside the fire.",
+      "answerZh": "地圖濕了,所以我們在火旁把它攤開。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "At the end of the hall, a narrow door led directly into a quiet reading room.",
+      "promptZh": "大廳盡頭有一道窄門,直接通往一間安靜的閱覽室。",
+      "starter": "At",
+      "answer": "At the end of the hall, a narrow door opened into a quiet reading room.",
+      "answerZh": "大廳盡頭有一道窄門,直接通往一間安靜的閱覽室。",
+      "highlight": "opened",
+      "targetForm": "open into something",
+      "targetMeaningZh": "直接通往某處"
+    },
+    {
+      "id": "phrasal-verb-102-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I asked a few gentle questions, and Dan began to talk honestly about his worries.",
+      "promptZh": "我問了幾條溫和的問題,Dan 便開始坦白談及自己的憂慮。",
+      "starter": "I",
+      "answer": "I asked a few gentle questions, and Dan opened up about his worries.",
+      "answerZh": "我問了幾條溫和的問題,Dan 便開始敞開心扉,談及自己的憂慮。",
+      "highlight": "opened up",
+      "targetForm": "open up about something",
+      "targetMeaningZh": "坦白談及某事"
+    },
+    {
+      "id": "phrasal-verb-102-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "All three classrooms can be entered directly from this corridor.",
+      "promptZh": "三間課室都可以直接從這條走廊進入。",
+      "starter": "The",
+      "answer": "The three classrooms all open off this corridor.",
+      "answerZh": "三間課室都直接連接這條走廊。",
+      "highlight": "The",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The new computer room has made more study opportunities available to students.",
+      "promptZh": "新的電腦室為學生提供了更多學習機會。",
+      "starter": "The",
+      "answer": "The new computer room has opened up more study opportunities for students.",
+      "answerZh": "新的電腦室為學生開拓了更多學習機會。",
+      "highlight": "opened up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會"
+    },
+    {
+      "id": "phrasal-verb-102-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They did not cut into her body because the scan showed the problem clearly.",
+      "promptZh": "他們沒有切開她的身體,因為掃描結果已清楚顯示問題。",
+      "starter": "They",
+      "answer": "They did not open her up because the scan showed the problem clearly.",
+      "answerZh": "他們沒有為她開刀,因為掃描已清楚顯示問題。",
+      "highlight": "open",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After the narrow pass, the countryside spread wide before them.",
+      "promptZh": "經過狹窄的山口後,廣闊的鄉間景色在他們眼前展開。",
+      "starter": "After",
+      "answer": "After the narrow pass, the countryside opened out before them.",
+      "answerZh": "經過狹窄的山口後,廣闊的鄉間景色在他們眼前展開。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The box was sealed, but Ravi managed to remove the seal and lid without a knife.",
+      "promptZh": "箱子被封住了,但 Ravi 不用刀也成功拆掉封口並打開箱蓋。",
+      "starter": "The",
+      "answer": "The box was sealed, but Ravi managed to open it up without a knife.",
+      "answerZh": "箱子被封住了,但 Ravi 不用刀也成功把它打開。",
+      "highlight": "open it up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The bedroom has two tall doors that lead directly to the balcony.",
+      "promptZh": "睡房有兩道高門,直接通往露台。",
+      "starter": "The",
+      "answer": "The bedroom has two tall doors that open onto the balcony.",
+      "answerZh": "睡房有兩道高門,直接通往露台。",
+      "highlight": "open onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Please unfold the paper so everyone can see the drawing.",
+      "promptZh": "請把紙張展開,讓每個人都能看見圖畫。",
+      "starter": "Please",
+      "answer": "Please open the paper out so everyone can see the drawing.",
+      "answerZh": "請把紙張攤開,讓每個人都能看見圖畫。",
+      "highlight": "open",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "On the left, two quiet rooms are connected directly to the library.",
+      "promptZh": "左邊有兩間安靜的房間,直接連接圖書館。",
+      "starter": "On",
+      "answer": "On the left, two quiet rooms open off the library.",
+      "answerZh": "左邊有兩間安靜的房間,直接連接圖書館。",
+      "highlight": "open off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "She did not talk honestly about her feelings until she felt safe.",
+      "promptZh": "她在感到安全後才坦白談及自己的感受。",
+      "starter": "She",
+      "answer": "She did not open up about her feelings until she felt safe.",
+      "answerZh": "她直至感到安全後,才坦白談及自己的感受。",
+      "highlight": "open up",
+      "targetForm": "open up about something",
+      "targetMeaningZh": "坦白談及某事"
+    },
+    {
+      "id": "phrasal-verb-102-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did the doctors cut into the patient's body if the test showed no damage?",
+      "promptZh": "如果檢查顯示沒有受損,醫生為何仍要切開病人的身體?",
+      "starter": "Why",
+      "answer": "Why did the doctors open the patient up if the test showed no damage?",
+      "answerZh": "如果檢查顯示沒有受損,醫生為何仍為病人開刀?",
+      "highlight": "open",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "If the shop closes, a new space may become available in the town centre.",
+      "promptZh": "如果店舖結業,市中心可能會空出一個新舖位。",
+      "starter": "If",
+      "answer": "If the shop closes, a new space may open up in the town centre.",
+      "answerZh": "如果店舖結業,市中心可能會空出一個新舖位。",
+      "highlight": "open up",
+      "targetForm": "open up",
+      "targetMeaningZh": "機會、名額或空間變得可供使用"
+    },
+    {
+      "id": "phrasal-verb-102-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A short passage has four doors, and each bedroom can be entered directly from it.",
+      "promptZh": "一條短走廊有四道門,每間睡房都可以直接從走廊進入。",
+      "starter": "A",
+      "answer": "A short passage has four doors, and each bedroom opens off it.",
+      "answerZh": "一條短走廊有四道門,每間睡房都直接連接走廊。",
+      "highlight": "opens off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The guide removed the front cover of the old clock so visitors could see the moving parts.",
+      "promptZh": "導遊拆下舊鐘的前蓋,讓參觀者看見裏面會動的零件。",
+      "starter": "The",
+      "answer": "The guide opened up the old clock so visitors could see the moving parts.",
+      "answerZh": "導遊打開舊鐘,讓參觀者看見裏面會動的零件。",
+      "highlight": "opened up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開物件,讓人看見或取用裏面"
+    },
+    {
+      "id": "phrasal-verb-102-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Learning to drive made a wider range of jobs available to Ben.",
+      "promptZh": "學會駕駛令 Ben 可以選擇更多不同工作。",
+      "starter": "Learning",
+      "answer": "Learning to drive opened up a wider range of jobs for Ben.",
+      "answerZh": "學會駕駛為 Ben 開拓了更多不同工作選擇。",
+      "highlight": "opened up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會"
+    },
+    {
+      "id": "phrasal-verb-102-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A small side door leads directly to the station platform, not the street.",
+      "promptZh": "一道小側門直接通往車站月台,而不是街道。",
+      "starter": "A",
+      "answer": "A small side door opens onto the station platform, not the street.",
+      "answerZh": "一道小側門直接通往車站月台,而不是街道。",
+      "highlight": "opens onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The path left the dark trees, and the whole coast became clearly visible ahead of us.",
+      "promptZh": "小徑離開陰暗的樹林後,整片海岸清楚展現在我們前方。",
+      "starter": "The",
+      "answer": "The path left the dark trees, and the whole coast opened out ahead of us.",
+      "answerZh": "小徑離開陰暗的樹林後,整片海岸展現在我們前方。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "At first, Omar gave only short answers, but after a while he began to speak freely and honestly to the group.",
+      "promptZh": "起初 Omar 只作簡短回答,但過了一會,他開始向小組自在而坦白地說話。",
+      "starter": "At",
+      "answer": "At first, Omar gave only short answers, but after a while he opened up to the group.",
+      "answerZh": "起初 Omar 只作簡短回答,但過了一會,他開始向小組敞開心扉。",
+      "highlight": "opened up",
+      "targetForm": "open up to somebody",
+      "targetMeaningZh": "向某人敞開心扉"
+    },
+    {
+      "id": "phrasal-verb-102-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Sam took the folded plan from his bag and unfolded it across the desk.",
+      "promptZh": "Sam 從袋中取出摺好的平面圖,並把它攤開在書桌上。",
+      "starter": "Sam",
+      "answer": "Sam took the folded plan from his bag and opened it out across the desk.",
+      "answerZh": "Sam 從袋中取出摺好的平面圖,並把它攤開在書桌上。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The team first tried a simple treatment, but later they had to cut into his body during an operation.",
+      "promptZh": "醫療團隊起初嘗試簡單治療,但後來必須在手術期間切開他的身體。",
+      "starter": "The",
+      "answer": "The team first tried a simple treatment, but later they had to open him up.",
+      "answerZh": "醫療團隊先嘗試簡單治療,但後來仍須為他開刀。",
+      "highlight": "open him up",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The café has a small kitchen that is reached directly from the back room.",
+      "promptZh": "咖啡店有一間小廚房,可以直接從後房進入。",
+      "starter": "The",
+      "answer": "The café has a small kitchen that opens off the back room.",
+      "answerZh": "咖啡店有一間小廚房,直接連接後房。",
+      "highlight": "opens off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "From the hilltop, the city spread below us like a map.",
+      "promptZh": "從山頂望下去,城市像地圖一樣在我們腳下展開。",
+      "starter": "From",
+      "answer": "From the hilltop, the city opened out below us like a map.",
+      "answerZh": "從山頂望下去,城市像地圖一樣在我們腳下展開。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Aisha carefully removed the wrapping from the package because the glass inside might break.",
+      "promptZh": "Aisha 小心拆去包裹的包裝,因為裏面的玻璃可能會破裂。",
+      "starter": "Aisha",
+      "answer": "Aisha carefully opened the package up because the glass inside might break.",
+      "answerZh": "Aisha 小心拆開包裹,因為裏面的玻璃可能會破裂。",
+      "highlight": "opened",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Two shorter routes to the hospital will become available when the new bridge is finished.",
+      "promptZh": "新橋建成後,將會有兩條較短路線通往醫院。",
+      "starter": "Two",
+      "answer": "Two shorter routes to the hospital will open up when the new bridge is finished.",
+      "answerZh": "新橋建成後,將會開通兩條較短路線通往醫院。",
+      "highlight": "open up",
+      "targetForm": "open up",
+      "targetMeaningZh": "新的道路、選擇或機會變得可供使用"
+    },
+    {
+      "id": "phrasal-verb-102-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Behind the house, the French windows lead straight to a stone path.",
+      "promptZh": "屋後的落地玻璃門直接通往一條石路。",
+      "starter": "Behind",
+      "answer": "Behind the house, the French windows open onto a stone path.",
+      "answerZh": "屋後的落地玻璃門直接通往一條石路。",
+      "highlight": "open onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The child carefully unfolded the leaflet to show all four panels.",
+      "promptZh": "孩子小心地展開單張,展示全部四個版面。",
+      "starter": "The",
+      "answer": "The child carefully opened the leaflet out to show all four panels.",
+      "answerZh": "孩子小心地把單張展開,展示全部四個版面。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We did not push him; we waited quietly until he was ready to talk honestly about what had happened.",
+      "promptZh": "我們沒有催迫他,只是安靜等待,直至他準備好坦白談及所發生的事。",
+      "starter": "We",
+      "answer": "We did not push him; we waited quietly until he was ready to open up about what had happened.",
+      "answerZh": "我們沒有催迫他,只是安靜等待,直至他準備好敞開心扉,談及所發生的事。",
+      "highlight": "open up",
+      "targetForm": "open up about something",
+      "targetMeaningZh": "坦白談及某事"
+    },
+    {
+      "id": "phrasal-verb-102-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We followed the narrow river until the land became wide and the mountains appeared on both sides.",
+      "promptZh": "我們沿着狹窄的河流前進,直至土地變得開闊,兩旁出現群山。",
+      "starter": "We",
+      "answer": "We followed the narrow river until the land opened out and the mountains appeared on both sides.",
+      "answerZh": "我們沿着狹窄的河流前進,直至土地變得開闊,兩旁出現群山。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Eva unfolded the large map across the back seat before we chose the road.",
+      "promptZh": "在我們選擇道路前,Eva 在後座攤開了大型地圖。",
+      "starter": "Eva",
+      "answer": "Eva opened the large map out across the back seat before we chose the road.",
+      "answerZh": "在我們選擇道路前,Eva 在後座攤開了大型地圖。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Once the website starts working, it should make new ways available for small shops to reach customers.",
+      "promptZh": "網站開始運作後,應能為小店提供接觸顧客的新方法。",
+      "starter": "Once",
+      "answer": "Once the website starts working, it should open up new ways for small shops to reach customers.",
+      "answerZh": "網站開始運作後,應能為小店開拓接觸顧客的新方法。",
+      "highlight": "open up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會或方法"
+    },
+    {
+      "id": "phrasal-verb-102-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When we moved the curtain aside, we saw that the doors led directly to a wide balcony above the sea.",
+      "promptZh": "我們把窗簾移開時,看見那些門直接通往海上的寬闊露台。",
+      "starter": "When",
+      "answer": "When we moved the curtain aside, we saw that the doors opened onto a wide balcony above the sea.",
+      "answerZh": "我們把窗簾移開時,看見那些門直接通往海上的寬闊露台。",
+      "highlight": "opened onto",
+      "targetForm": "open onto something",
+      "targetMeaningZh": "直接通往或面向某處"
+    },
+    {
+      "id": "phrasal-verb-102-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The scan gave no clear answer, so the doctors decided to cut into the patient's body during an operation and look for the cause.",
+      "promptZh": "掃描沒有提供明確答案,因此醫生決定在手術期間切開病人的身體,尋找原因。",
+      "starter": "The",
+      "answer": "The scan gave no clear answer, so the doctors decided to open the patient up and look for the cause.",
+      "answerZh": "掃描未能給出清楚答案,所以醫生決定為病人開刀,尋找原因。",
+      "highlight": "open",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The box looked empty, but when we removed the lid and looked inside, we found a second layer under the paper.",
+      "promptZh": "箱子看來是空的,但我們打開箱蓋查看時,發現紙張下還有一層。",
+      "starter": "The",
+      "answer": "The box looked empty, but when we opened it up, we found a second layer under the paper.",
+      "answerZh": "箱子看來是空的,但我們打開查看時,發現紙張下還有一層。",
+      "highlight": "opened it up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開物件,讓人看見或取用裏面"
+    },
+    {
+      "id": "phrasal-verb-102-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Visitors enter a round hall first; all the exhibition rooms are connected directly to it.",
+      "promptZh": "參觀者先進入一個圓形大廳;所有展覽室都直接連接大廳。",
+      "starter": "Visitors",
+      "answer": "Visitors enter a round hall first; all the exhibition rooms open off it.",
+      "answerZh": "參觀者先進入一個圓形大廳;所有展覽室都直接連接大廳。",
+      "highlight": "open off",
+      "targetForm": "open off something",
+      "targetMeaningZh": "房間或門直接連接另一個空間"
+    },
+    {
+      "id": "phrasal-verb-102-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "After hours between high walls, the path reached a point where the valley became wide in the evening light.",
+      "promptZh": "在高牆之間走了幾小時後,小徑到達一處,山谷在晚霞中變得開闊。",
+      "starter": "After",
+      "answer": "After hours between high walls, the path reached a point where the valley opened out in the evening light.",
+      "answerZh": "在高牆之間走了幾小時後,小徑到達一處,山谷在晚霞中展開。",
+      "highlight": "opened out",
+      "targetForm": "open out",
+      "targetMeaningZh": "在眼前展開或變寬"
+    },
+    {
+      "id": "phrasal-verb-102-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Good exam results do not promise success, but they can make choices available that were not available before.",
+      "promptZh": "良好的考試成績不能保證成功,但可以帶來以前沒有的選擇。",
+      "starter": "Good",
+      "answer": "Good exam results do not promise success, but they can open up choices that were not available before.",
+      "answerZh": "良好的考試成績不能保證成功,但可以開拓以前沒有的選擇。",
+      "highlight": "open up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "帶來或創造新的機會或選擇"
+    },
+    {
+      "id": "phrasal-verb-102-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Lena had hidden her fear for weeks, but one calm conversation helped her speak honestly to her parents.",
+      "promptZh": "Lena 把恐懼藏在心中多星期,但一次平靜的對話幫助她向父母坦白。",
+      "starter": "Lena",
+      "answer": "Lena had hidden her fear for weeks, but one calm conversation helped her open up to her parents.",
+      "answerZh": "Lena 把恐懼藏在心中多星期,但一次平靜的對話幫助她向父母敞開心扉。",
+      "highlight": "open up",
+      "targetForm": "open up to somebody",
+      "targetMeaningZh": "向某人敞開心扉"
+    },
+    {
+      "id": "phrasal-verb-102-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The paper had been folded for years, but Leo unfolded it slowly and read the message inside.",
+      "promptZh": "那張紙摺起多年,但 Leo 慢慢把它展開,閱讀裏面的訊息。",
+      "starter": "The",
+      "answer": "The paper had been folded for years, but Leo opened it out slowly and read the message inside.",
+      "answerZh": "那張紙摺起多年,但 Leo 慢慢把它展開,閱讀裏面的訊息。",
+      "highlight": "opened",
+      "targetForm": "open something out",
+      "targetMeaningZh": "展開或攤開摺起的物件"
+    },
+    {
+      "id": "phrasal-verb-102-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although the doctors were unsure what they would find, they cut into her body during an operation and repaired the damaged area.",
+      "promptZh": "雖然醫生不確定會發現甚麼,但他們在手術期間切開她的身體,並修補受損位置。",
+      "starter": "Although",
+      "answer": "Although the doctors were unsure what they would find, they opened her up and repaired the damaged area.",
+      "answerZh": "雖然醫生不確定會發現甚麼,但他們仍為她開刀,並修補受損部位。",
+      "highlight": "opened",
+      "targetForm": "open somebody up",
+      "targetMeaningZh": "為某人進行開刀手術"
+    },
+    {
+      "id": "phrasal-verb-102-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Dad asked me to unfasten the tool case and check whether every piece was there.",
+      "promptZh": "爸爸叫我打開工具箱,檢查所有工具是否齊全。",
+      "starter": "Dad",
+      "answer": "Dad asked me to open up the tool case and check whether every piece was there.",
+      "answerZh": "爸爸叫我打開工具箱,檢查所有工具是否齊全。",
+      "highlight": "open up",
+      "targetForm": "open something up",
+      "targetMeaningZh": "打開或拆開封閉的物件"
+    }
+  ]
+}

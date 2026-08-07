@@ -1,0 +1,2972 @@
+{
+  "id": "phrasal-verb-274",
+  "order": 274,
+  "slug": "pull",
+  "version": "1",
+  "title": "PULL 動詞片語",
+  "titleEn": "Pull",
+  "titleZh": "PULL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 22,
+  "source": {
+    "file": "Phrasal Verbs 259 - PULL.pdf",
+    "sourceNumber": 259,
+    "pageCount": 44,
+    "teachingPdfPages": [
+      1,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "contentPdfPages": [
+      1,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "answerKeyPdfPages": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PULL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PULL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PULL",
+      "highlight": "PULL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Ava pulled ahead of the other runners.",
+      "zh": "Ava 超越其他跑手,取得領先。",
+      "highlight": "pulled",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They pulled the fighting dogs apart.",
+      "zh": "他們把正在打鬥的狗拉開。",
+      "highlight": "pulled",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I pulled Ben aside to warn him.",
+      "zh": "我把 Ben 拉到一旁提醒他。",
+      "highlight": "pulled",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在比賽或競爭中超前;領先某人或某事物；把人或物拉開;把物件拆成多個部分；把某人拉到一旁,通常是為了私下說話；把某物拉向一旁；反覆拉扯某物；離開;把某人或某物拉離某處；向後退或把身體縮後；在比賽中追近比分;扳回失分；使某人感到疲倦、虛弱或情緒低落；把窗簾、百葉簾等拉下；支持某人或某事;希望其成功；退出、撤走或停止參與某事；從某處取出某物；把車駛到路旁停下;截停車輛；渡過難關或康復;幫助某人捱過困難；把門帶上或拉至關上；團結合作;使一群人團結起來；把某人或某物拖到水面下；車輛停下或駛至某處停下；指出並批評某人的錯誤或行為；加把勁;改善表現或行為；把植物連根拔起",
+    "en": "pull ahead / pull ahead of somebody or something; pull somebody or something apart / pull something apart; pull somebody aside; pull something aside; pull at something; pull away / pull away from something / pull somebody or something away; pull back; pull back / pull something back; pull somebody down; pull something down; pull for somebody or something; pull out / pull out of something / pull somebody or something out; pull something out / pull something out of something; pull over / pull somebody or something over; pull through / pull through something / pull somebody through; pull something to; pull together / pull something together; pull somebody or something under; pull up; pull somebody up; pull your socks up; pull something up",
+    "naturalZh": [
+      "在比賽或競爭中超前;領先某人或某事物",
+      "把人或物拉開;把物件拆成多個部分",
+      "把某人拉到一旁,通常是為了私下說話",
+      "把某物拉向一旁",
+      "反覆拉扯某物",
+      "離開;把某人或某物拉離某處",
+      "向後退或把身體縮後",
+      "在比賽中追近比分;扳回失分",
+      "使某人感到疲倦、虛弱或情緒低落",
+      "把窗簾、百葉簾等拉下",
+      "支持某人或某事;希望其成功",
+      "退出、撤走或停止參與某事",
+      "從某處取出某物",
+      "把車駛到路旁停下;截停車輛",
+      "渡過難關或康復;幫助某人捱過困難",
+      "把門帶上或拉至關上",
+      "團結合作;使一群人團結起來",
+      "把某人或某物拖到水面下",
+      "車輛停下或駛至某處停下",
+      "指出並批評某人的錯誤或行為",
+      "加把勁;改善表現或行為",
+      "把植物連根拔起"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pull ahead / pull ahead of somebody or something",
+      "titleZh": "在比賽或競爭中超前;領先某人或某事物",
+      "titleEn": "pull ahead / pull ahead of somebody or something",
+      "descriptionZh": "在比賽或競爭中超前;領先某人或某事物",
+      "descriptionEn": "Ava pulled ahead of the other runners.",
+      "examples": [
+        {
+          "en": "Ava pulled ahead of the other runners.",
+          "zh": "Ava 超越其他跑手,取得領先。",
+          "highlight": "pulled"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull somebody or something apart / pull something apart",
+      "titleZh": "把人或物拉開;把物件拆成多個部分",
+      "titleEn": "pull somebody or something apart / pull something apart",
+      "descriptionZh": "把人或物拉開;把物件拆成多個部分",
+      "descriptionEn": "They pulled the fighting dogs apart.",
+      "examples": [
+        {
+          "en": "They pulled the fighting dogs apart.",
+          "zh": "他們把正在打鬥的狗拉開。",
+          "highlight": "pulled"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull somebody aside",
+      "titleZh": "把某人拉到一旁,通常是為了私下說話",
+      "titleEn": "pull somebody aside",
+      "descriptionZh": "把某人拉到一旁,通常是為了私下說話",
+      "descriptionEn": "I pulled Ben aside to warn him.",
+      "examples": [
+        {
+          "en": "I pulled Ben aside to warn him.",
+          "zh": "我把 Ben 拉到一旁提醒他。",
+          "highlight": "pulled"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull something aside",
+      "titleZh": "把某物拉向一旁",
+      "titleEn": "pull something aside",
+      "descriptionZh": "把某物拉向一旁",
+      "descriptionEn": "She pulled the curtain aside.",
+      "examples": [
+        {
+          "en": "She pulled the curtain aside.",
+          "zh": "她把窗簾拉到一旁。",
+          "highlight": "pulled"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull at something",
+      "titleZh": "反覆拉扯某物",
+      "titleEn": "pull at something",
+      "descriptionZh": "反覆拉扯某物",
+      "descriptionEn": "The child pulled at his father's sleeve.",
+      "examples": [
+        {
+          "en": "The child pulled at his father's sleeve.",
+          "zh": "孩子不停拉扯爸爸的衣袖。",
+          "highlight": "pulled at"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull away / pull away from something / pull somebody or something away",
+      "titleZh": "離開;把某人或某物拉離某處",
+      "titleEn": "pull away / pull away from something / pull somebody or something away",
+      "descriptionZh": "離開;把某人或某物拉離某處",
+      "descriptionEn": "The train pulled away from the station.",
+      "examples": [
+        {
+          "en": "The train pulled away from the station.",
+          "zh": "火車駛離車站。",
+          "highlight": "pulled away from"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull back",
+      "titleZh": "向後退或把身體縮後",
+      "titleEn": "pull back",
+      "descriptionZh": "向後退或把身體縮後",
+      "descriptionEn": "She pulled back in surprise.",
+      "examples": [
+        {
+          "en": "She pulled back in surprise.",
+          "zh": "她驚訝地向後退。",
+          "highlight": "pulled back"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull back / pull something back",
+      "titleZh": "在比賽中追近比分;扳回失分",
+      "titleEn": "pull back / pull something back",
+      "descriptionZh": "在比賽中追近比分;扳回失分",
+      "descriptionEn": "Rovers pulled a goal back before half-time.",
+      "examples": [
+        {
+          "en": "Rovers pulled a goal back before half-time.",
+          "zh": "Rovers 在半場前追回一球。",
+          "highlight": "pulled a goal back"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull somebody down",
+      "titleZh": "使某人感到疲倦、虛弱或情緒低落",
+      "titleEn": "pull somebody down",
+      "descriptionZh": "使某人感到疲倦、虛弱或情緒低落",
+      "descriptionEn": "The long hours were pulling him down.",
+      "examples": [
+        {
+          "en": "The long hours were pulling him down.",
+          "zh": "長時間工作令他身心疲累。",
+          "highlight": "pulling him down"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull something down",
+      "titleZh": "把窗簾、百葉簾等拉下",
+      "titleEn": "pull something down",
+      "descriptionZh": "把窗簾、百葉簾等拉下",
+      "descriptionEn": "She pulled down the blinds.",
+      "examples": [
+        {
+          "en": "She pulled down the blinds.",
+          "zh": "她把百葉簾拉下。",
+          "highlight": "pulled down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull for somebody or something",
+      "titleZh": "支持某人或某事;希望其成功",
+      "titleEn": "pull for somebody or something",
+      "descriptionZh": "支持某人或某事;希望其成功",
+      "descriptionEn": "We are all pulling for you.",
+      "examples": [
+        {
+          "en": "We are all pulling for you.",
+          "zh": "我們全都支持你。",
+          "highlight": "pulling for"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pull out / pull out of something / pull somebody or something out",
+      "titleZh": "退出、撤走或停止參與某事",
+      "titleEn": "pull out / pull out of something / pull somebody or something out",
+      "descriptionZh": "退出、撤走或停止參與某事",
+      "descriptionEn": "The company pulled out of the project.",
+      "examples": [
+        {
+          "en": "The company pulled out of the project.",
+          "zh": "公司退出了該項目。",
+          "highlight": "pulled out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull something out / pull something out of something",
+      "titleZh": "從某處取出某物",
+      "titleEn": "pull something out / pull something out of something",
+      "descriptionZh": "從某處取出某物",
+      "descriptionEn": "He pulled an envelope out of his pocket.",
+      "examples": [
+        {
+          "en": "He pulled an envelope out of his pocket.",
+          "zh": "他從口袋裏取出一個信封。",
+          "highlight": "pulled an envelope out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull over / pull somebody or something over",
+      "titleZh": "把車駛到路旁停下;截停車輛",
+      "titleEn": "pull over / pull somebody or something over",
+      "descriptionZh": "把車駛到路旁停下;截停車輛",
+      "descriptionEn": "The police pulled the car over.",
+      "examples": [
+        {
+          "en": "The police pulled the car over.",
+          "zh": "警方截停了那輛車。",
+          "highlight": "pulled the car over"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull through / pull through something / pull somebody through",
+      "titleZh": "渡過難關或康復;幫助某人捱過困難",
+      "titleEn": "pull through / pull through something / pull somebody through",
+      "descriptionZh": "渡過難關或康復;幫助某人捱過困難",
+      "descriptionEn": "Her family helped pull her through the illness.",
+      "examples": [
+        {
+          "en": "Her family helped pull her through the illness.",
+          "zh": "家人幫助她捱過疾病。",
+          "highlight": "pull her through"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull something to",
+      "titleZh": "把門帶上或拉至關上",
+      "titleEn": "pull something to",
+      "descriptionZh": "把門帶上或拉至關上",
+      "descriptionEn": "Pull the door to behind you.",
+      "examples": [
+        {
+          "en": "Pull the door to behind you.",
+          "zh": "離開時請把門帶上。",
+          "highlight": "Pull the door to"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull together / pull something together",
+      "titleZh": "團結合作;使一群人團結起來",
+      "titleEn": "pull together / pull something together",
+      "descriptionZh": "團結合作;使一群人團結起來",
+      "descriptionEn": "We can finish today if we pull together.",
+      "examples": [
+        {
+          "en": "We can finish today if we pull together.",
+          "zh": "如果大家團結合作,我們今天便能完成。",
+          "highlight": "pull together"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull somebody or something under",
+      "titleZh": "把某人或某物拖到水面下",
+      "titleEn": "pull somebody or something under",
+      "descriptionZh": "把某人或某物拖到水面下",
+      "descriptionEn": "The strong current pulled the swimmer under.",
+      "examples": [
+        {
+          "en": "The strong current pulled the swimmer under.",
+          "zh": "強勁水流把泳手拖到水面下。",
+          "highlight": "pulled the swimmer under"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull up",
+      "titleZh": "車輛停下或駛至某處停下",
+      "titleEn": "pull up",
+      "descriptionZh": "車輛停下或駛至某處停下",
+      "descriptionEn": "A taxi pulled up outside the hotel.",
+      "examples": [
+        {
+          "en": "A taxi pulled up outside the hotel.",
+          "zh": "一輛的士在酒店外停下。",
+          "highlight": "pulled up"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull somebody up",
+      "titleZh": "指出並批評某人的錯誤或行為",
+      "titleEn": "pull somebody up",
+      "descriptionZh": "指出並批評某人的錯誤或行為",
+      "descriptionEn": "The teacher pulled him up on his spelling.",
+      "examples": [
+        {
+          "en": "The teacher pulled him up on his spelling.",
+          "zh": "老師指出並批評他的串字錯誤。",
+          "highlight": "pulled him up"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull your socks up",
+      "titleZh": "加把勁;改善表現或行為",
+      "titleEn": "pull your socks up",
+      "descriptionZh": "加把勁;改善表現或行為",
+      "descriptionEn": "You need to pull your socks up before the exam.",
+      "examples": [
+        {
+          "en": "You need to pull your socks up before the exam.",
+          "zh": "你在考試前需要加把勁。",
+          "highlight": "pull your socks up"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pull something up",
+      "titleZh": "把植物連根拔起",
+      "titleEn": "pull something up",
+      "descriptionZh": "把植物連根拔起",
+      "descriptionEn": "They pulled the weeds up.",
+      "examples": [
+        {
+          "en": "They pulled the weeds up.",
+          "zh": "他們把雜草連根拔起。",
+          "highlight": "pulled the weeds up"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PULL 片語動詞的實際用途",
+    "labelEn": "PULL Phrasal Verbs in Use",
+    "summaryZh": "pull ahead 可以表示某人取得領先;pull something back 則可以表示球隊追近比分。；pull away、pull over 和 pull up 能幫助你描述車輛駛離、在路旁停下或到達後停下。；你可以 pull for 某人、與其他人 pull together,或幫助某人 pull through 一段困難時期。；PULL 片語動詞可以描述拉動窗簾、帶上門、從口袋取出物件、拆開機器和拔除植物。；pull your socks up 可以叫某人改善表現;pull somebody down 則表示某事令人疲倦或情緒低落。",
+    "summaryEn": "Pull ahead shows someone moving into the lead, while pull something back can describe a team reducing the other side's lead. Pull away, pull over and pull up help you describe a vehicle leaving, stopping beside the road or arriving and stopping. You can pull for someone, pull together as a team or help someone pull through a difficult time. PULL expressions can describe moving curtains, closing doors, taking things from pockets, taking machines apart and removing plants. Pull your socks up tells someone to improve, while pull somebody down describes something making a person tired or unhappy.",
+    "contextsZh": [
+      "描述比賽中的領先和追近",
+      "清楚描述車輛的移動和停下",
+      "描述支持、合作和渡過難關",
+      "自然描述移動日常物件",
+      "談論努力和個人困難"
+    ],
+    "contextsEn": [
+      "Describe progress in races and competitions",
+      "Talk clearly about vehicles and movement",
+      "Describe support, teamwork and recovery",
+      "Talk naturally about moving everyday objects",
+      "Talk about effort and personal problems"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PULL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PULL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pull ahead / pull ahead of somebody or something",
+    "fixedHighlight": "pull ahead / pull ahead of somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 PULL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PULL expression that gives the same meaning.",
+    "correct": "pulled",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當 him、her、it 或 them 指被移動的人或物時,請按照以上例子放在正確位置。；pull out、pull over 和 pull up 都可能與離開或停下有關,但它們表示不同情況。請仔細閱讀整句。",
+    "variableEn": "Keep the same people, things, time and meaning. When him, her, it or them is being moved, place the word as shown: pull him aside pull it out pull them apart pull her away Pull out, pull over and pull up can all involve leaving or stopping, but they express different situations. Read the full sentence carefully.",
+    "variableItemsZh": [
+      "pull ahead / pull ahead of somebody or something",
+      "pull somebody or something apart / pull something apart",
+      "pull somebody aside",
+      "pull something aside",
+      "pull at something",
+      "pull away / pull away from something / pull somebody or something away",
+      "pull back",
+      "pull back / pull something back",
+      "pull somebody down",
+      "pull something down",
+      "pull for somebody or something",
+      "pull out / pull out of something / pull somebody or something out",
+      "pull something out / pull something out of something",
+      "pull over / pull somebody or something over",
+      "pull through / pull through something / pull somebody through",
+      "pull something to",
+      "pull together / pull something together",
+      "pull somebody or something under",
+      "pull up",
+      "pull somebody up",
+      "pull your socks up",
+      "pull something up"
+    ],
+    "variableItemsEn": [
+      "pull ahead / pull ahead of somebody or something",
+      "pull somebody or something apart / pull something apart",
+      "pull somebody aside",
+      "pull something aside",
+      "pull at something",
+      "pull away / pull away from something / pull somebody or something away",
+      "pull back",
+      "pull back / pull something back",
+      "pull somebody down",
+      "pull something down",
+      "pull for somebody or something",
+      "pull out / pull out of something / pull somebody or something out",
+      "pull something out / pull something out of something",
+      "pull over / pull somebody or something over",
+      "pull through / pull through something / pull somebody through",
+      "pull something to",
+      "pull together / pull something together",
+      "pull somebody or something under",
+      "pull up",
+      "pull somebody up",
+      "pull your socks up",
+      "pull something up"
+    ],
+    "forms": [
+      {
+        "formZh": "在比賽或競爭中超前;領先某人或某事物",
+        "formEn": "pull ahead / pull ahead of somebody or something",
+        "exampleZh": "Ava 超越其他跑手,取得領先。",
+        "exampleEn": "Ava pulled ahead of the other runners.",
+        "highlight": "pulled"
+      },
+      {
+        "formZh": "把人或物拉開;把物件拆成多個部分",
+        "formEn": "pull somebody or something apart / pull something apart",
+        "exampleZh": "他們把正在打鬥的狗拉開。",
+        "exampleEn": "They pulled the fighting dogs apart.",
+        "highlight": "pulled"
+      },
+      {
+        "formZh": "把某人拉到一旁,通常是為了私下說話",
+        "formEn": "pull somebody aside",
+        "exampleZh": "我把 Ben 拉到一旁提醒他。",
+        "exampleEn": "I pulled Ben aside to warn him.",
+        "highlight": "pulled"
+      },
+      {
+        "formZh": "把某物拉向一旁",
+        "formEn": "pull something aside",
+        "exampleZh": "她把窗簾拉到一旁。",
+        "exampleEn": "She pulled the curtain aside.",
+        "highlight": "pulled"
+      },
+      {
+        "formZh": "反覆拉扯某物",
+        "formEn": "pull at something",
+        "exampleZh": "孩子不停拉扯爸爸的衣袖。",
+        "exampleEn": "The child pulled at his father's sleeve.",
+        "highlight": "pulled at"
+      },
+      {
+        "formZh": "離開;把某人或某物拉離某處",
+        "formEn": "pull away / pull away from something / pull somebody or something away",
+        "exampleZh": "火車駛離車站。",
+        "exampleEn": "The train pulled away from the station.",
+        "highlight": "pulled away from"
+      },
+      {
+        "formZh": "向後退或把身體縮後",
+        "formEn": "pull back",
+        "exampleZh": "她驚訝地向後退。",
+        "exampleEn": "She pulled back in surprise.",
+        "highlight": "pulled back"
+      },
+      {
+        "formZh": "在比賽中追近比分;扳回失分",
+        "formEn": "pull back / pull something back",
+        "exampleZh": "Rovers 在半場前追回一球。",
+        "exampleEn": "Rovers pulled a goal back before half-time.",
+        "highlight": "pulled a goal back"
+      },
+      {
+        "formZh": "使某人感到疲倦、虛弱或情緒低落",
+        "formEn": "pull somebody down",
+        "exampleZh": "長時間工作令他身心疲累。",
+        "exampleEn": "The long hours were pulling him down.",
+        "highlight": "pulling him down"
+      },
+      {
+        "formZh": "把窗簾、百葉簾等拉下",
+        "formEn": "pull something down",
+        "exampleZh": "她把百葉簾拉下。",
+        "exampleEn": "She pulled down the blinds.",
+        "highlight": "pulled down"
+      },
+      {
+        "formZh": "支持某人或某事;希望其成功",
+        "formEn": "pull for somebody or something",
+        "exampleZh": "我們全都支持你。",
+        "exampleEn": "We are all pulling for you.",
+        "highlight": "pulling for"
+      },
+      {
+        "formZh": "退出、撤走或停止參與某事",
+        "formEn": "pull out / pull out of something / pull somebody or something out",
+        "exampleZh": "公司退出了該項目。",
+        "exampleEn": "The company pulled out of the project.",
+        "highlight": "pulled out"
+      },
+      {
+        "formZh": "從某處取出某物",
+        "formEn": "pull something out / pull something out of something",
+        "exampleZh": "他從口袋裏取出一個信封。",
+        "exampleEn": "He pulled an envelope out of his pocket.",
+        "highlight": "pulled an envelope out"
+      },
+      {
+        "formZh": "把車駛到路旁停下;截停車輛",
+        "formEn": "pull over / pull somebody or something over",
+        "exampleZh": "警方截停了那輛車。",
+        "exampleEn": "The police pulled the car over.",
+        "highlight": "pulled the car over"
+      },
+      {
+        "formZh": "渡過難關或康復;幫助某人捱過困難",
+        "formEn": "pull through / pull through something / pull somebody through",
+        "exampleZh": "家人幫助她捱過疾病。",
+        "exampleEn": "Her family helped pull her through the illness.",
+        "highlight": "pull her through"
+      },
+      {
+        "formZh": "把門帶上或拉至關上",
+        "formEn": "pull something to",
+        "exampleZh": "離開時請把門帶上。",
+        "exampleEn": "Pull the door to behind you.",
+        "highlight": "Pull the door to"
+      },
+      {
+        "formZh": "團結合作;使一群人團結起來",
+        "formEn": "pull together / pull something together",
+        "exampleZh": "如果大家團結合作,我們今天便能完成。",
+        "exampleEn": "We can finish today if we pull together.",
+        "highlight": "pull together"
+      },
+      {
+        "formZh": "把某人或某物拖到水面下",
+        "formEn": "pull somebody or something under",
+        "exampleZh": "強勁水流把泳手拖到水面下。",
+        "exampleEn": "The strong current pulled the swimmer under.",
+        "highlight": "pulled the swimmer under"
+      },
+      {
+        "formZh": "車輛停下或駛至某處停下",
+        "formEn": "pull up",
+        "exampleZh": "一輛的士在酒店外停下。",
+        "exampleEn": "A taxi pulled up outside the hotel.",
+        "highlight": "pulled up"
+      },
+      {
+        "formZh": "指出並批評某人的錯誤或行為",
+        "formEn": "pull somebody up",
+        "exampleZh": "老師指出並批評他的串字錯誤。",
+        "exampleEn": "The teacher pulled him up on his spelling.",
+        "highlight": "pulled him up"
+      },
+      {
+        "formZh": "加把勁;改善表現或行為",
+        "formEn": "pull your socks up",
+        "exampleZh": "你在考試前需要加把勁。",
+        "exampleEn": "You need to pull your socks up before the exam.",
+        "highlight": "pull your socks up"
+      },
+      {
+        "formZh": "把植物連根拔起",
+        "formEn": "pull something up",
+        "exampleZh": "他們把雜草連根拔起。",
+        "exampleEn": "They pulled the weeds up.",
+        "highlight": "pulled the weeds up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在比賽或競爭中超前;領先某人或某事物",
+      "titleEn": "pull ahead / pull ahead of somebody or something",
+      "formula": "pull ahead / pull ahead of somebody or something",
+      "highlight": "pull ahead / pull ahead of somebody or something",
+      "descriptionZh": "在比賽或競爭中超前;領先某人或某事物",
+      "descriptionEn": "Ava pulled ahead of the other runners.",
+      "examples": [
+        {
+          "en": "Ava pulled ahead of the other runners.",
+          "zh": "Ava 超越其他跑手,取得領先。",
+          "highlight": "pulled"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把人或物拉開;把物件拆成多個部分",
+      "titleEn": "pull somebody or something apart / pull something apart",
+      "formula": "pull somebody or something apart / pull something apart",
+      "highlight": "pull somebody or something apart / pull something apart",
+      "descriptionZh": "把人或物拉開;把物件拆成多個部分",
+      "descriptionEn": "They pulled the fighting dogs apart.",
+      "examples": [
+        {
+          "en": "They pulled the fighting dogs apart.",
+          "zh": "他們把正在打鬥的狗拉開。",
+          "highlight": "pulled"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人拉到一旁,通常是為了私下說話",
+      "titleEn": "pull somebody aside",
+      "formula": "pull somebody aside",
+      "highlight": "pull somebody aside",
+      "descriptionZh": "把某人拉到一旁,通常是為了私下說話",
+      "descriptionEn": "I pulled Ben aside to warn him.",
+      "examples": [
+        {
+          "en": "I pulled Ben aside to warn him.",
+          "zh": "我把 Ben 拉到一旁提醒他。",
+          "highlight": "pulled"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物拉向一旁",
+      "titleEn": "pull something aside",
+      "formula": "pull something aside",
+      "highlight": "pull something aside",
+      "descriptionZh": "把某物拉向一旁",
+      "descriptionEn": "She pulled the curtain aside.",
+      "examples": [
+        {
+          "en": "She pulled the curtain aside.",
+          "zh": "她把窗簾拉到一旁。",
+          "highlight": "pulled"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "反覆拉扯某物",
+      "titleEn": "pull at something",
+      "formula": "pull at something",
+      "highlight": "pull at something",
+      "descriptionZh": "反覆拉扯某物",
+      "descriptionEn": "The child pulled at his father's sleeve.",
+      "examples": [
+        {
+          "en": "The child pulled at his father's sleeve.",
+          "zh": "孩子不停拉扯爸爸的衣袖。",
+          "highlight": "pulled at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "離開;把某人或某物拉離某處",
+      "titleEn": "pull away / pull away from something / pull somebody or something away",
+      "formula": "pull away / pull away from something / pull somebody or something away",
+      "highlight": "pull away / pull away from something / pull somebody or something away",
+      "descriptionZh": "離開;把某人或某物拉離某處",
+      "descriptionEn": "The train pulled away from the station.",
+      "examples": [
+        {
+          "en": "The train pulled away from the station.",
+          "zh": "火車駛離車站。",
+          "highlight": "pulled away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "向後退或把身體縮後",
+      "titleEn": "pull back",
+      "formula": "pull back",
+      "highlight": "pull back",
+      "descriptionZh": "向後退或把身體縮後",
+      "descriptionEn": "She pulled back in surprise.",
+      "examples": [
+        {
+          "en": "She pulled back in surprise.",
+          "zh": "她驚訝地向後退。",
+          "highlight": "pulled back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在比賽中追近比分;扳回失分",
+      "titleEn": "pull back / pull something back",
+      "formula": "pull back / pull something back",
+      "highlight": "pull back / pull something back",
+      "descriptionZh": "在比賽中追近比分;扳回失分",
+      "descriptionEn": "Rovers pulled a goal back before half-time.",
+      "examples": [
+        {
+          "en": "Rovers pulled a goal back before half-time.",
+          "zh": "Rovers 在半場前追回一球。",
+          "highlight": "pulled a goal back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "使某人感到疲倦、虛弱或情緒低落",
+      "titleEn": "pull somebody down",
+      "formula": "pull somebody down",
+      "highlight": "pull somebody down",
+      "descriptionZh": "使某人感到疲倦、虛弱或情緒低落",
+      "descriptionEn": "The long hours were pulling him down.",
+      "examples": [
+        {
+          "en": "The long hours were pulling him down.",
+          "zh": "長時間工作令他身心疲累。",
+          "highlight": "pulling him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "把窗簾、百葉簾等拉下",
+      "titleEn": "pull something down",
+      "formula": "pull something down",
+      "highlight": "pull something down",
+      "descriptionZh": "把窗簾、百葉簾等拉下",
+      "descriptionEn": "She pulled down the blinds.",
+      "examples": [
+        {
+          "en": "She pulled down the blinds.",
+          "zh": "她把百葉簾拉下。",
+          "highlight": "pulled down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "支持某人或某事;希望其成功",
+      "titleEn": "pull for somebody or something",
+      "formula": "pull for somebody or something",
+      "highlight": "pull for somebody or something",
+      "descriptionZh": "支持某人或某事;希望其成功",
+      "descriptionEn": "We are all pulling for you.",
+      "examples": [
+        {
+          "en": "We are all pulling for you.",
+          "zh": "我們全都支持你。",
+          "highlight": "pulling for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "退出、撤走或停止參與某事",
+      "titleEn": "pull out / pull out of something / pull somebody or something out",
+      "formula": "pull out / pull out of something / pull somebody or something out",
+      "highlight": "pull out / pull out of something / pull somebody or something out",
+      "descriptionZh": "退出、撤走或停止參與某事",
+      "descriptionEn": "The company pulled out of the project.",
+      "examples": [
+        {
+          "en": "The company pulled out of the project.",
+          "zh": "公司退出了該項目。",
+          "highlight": "pulled out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "從某處取出某物",
+      "titleEn": "pull something out / pull something out of something",
+      "formula": "pull something out / pull something out of something",
+      "highlight": "pull something out / pull something out of something",
+      "descriptionZh": "從某處取出某物",
+      "descriptionEn": "He pulled an envelope out of his pocket.",
+      "examples": [
+        {
+          "en": "He pulled an envelope out of his pocket.",
+          "zh": "他從口袋裏取出一個信封。",
+          "highlight": "pulled an envelope out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "把車駛到路旁停下;截停車輛",
+      "titleEn": "pull over / pull somebody or something over",
+      "formula": "pull over / pull somebody or something over",
+      "highlight": "pull over / pull somebody or something over",
+      "descriptionZh": "把車駛到路旁停下;截停車輛",
+      "descriptionEn": "The police pulled the car over.",
+      "examples": [
+        {
+          "en": "The police pulled the car over.",
+          "zh": "警方截停了那輛車。",
+          "highlight": "pulled the car over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "渡過難關或康復;幫助某人捱過困難",
+      "titleEn": "pull through / pull through something / pull somebody through",
+      "formula": "pull through / pull through something / pull somebody through",
+      "highlight": "pull through / pull through something / pull somebody through",
+      "descriptionZh": "渡過難關或康復;幫助某人捱過困難",
+      "descriptionEn": "Her family helped pull her through the illness.",
+      "examples": [
+        {
+          "en": "Her family helped pull her through the illness.",
+          "zh": "家人幫助她捱過疾病。",
+          "highlight": "pull her through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "把門帶上或拉至關上",
+      "titleEn": "pull something to",
+      "formula": "pull something to",
+      "highlight": "pull something to",
+      "descriptionZh": "把門帶上或拉至關上",
+      "descriptionEn": "Pull the door to behind you.",
+      "examples": [
+        {
+          "en": "Pull the door to behind you.",
+          "zh": "離開時請把門帶上。",
+          "highlight": "Pull the door to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "團結合作;使一群人團結起來",
+      "titleEn": "pull together / pull something together",
+      "formula": "pull together / pull something together",
+      "highlight": "pull together / pull something together",
+      "descriptionZh": "團結合作;使一群人團結起來",
+      "descriptionEn": "We can finish today if we pull together.",
+      "examples": [
+        {
+          "en": "We can finish today if we pull together.",
+          "zh": "如果大家團結合作,我們今天便能完成。",
+          "highlight": "pull together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "把某人或某物拖到水面下",
+      "titleEn": "pull somebody or something under",
+      "formula": "pull somebody or something under",
+      "highlight": "pull somebody or something under",
+      "descriptionZh": "把某人或某物拖到水面下",
+      "descriptionEn": "The strong current pulled the swimmer under.",
+      "examples": [
+        {
+          "en": "The strong current pulled the swimmer under.",
+          "zh": "強勁水流把泳手拖到水面下。",
+          "highlight": "pulled the swimmer under"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "車輛停下或駛至某處停下",
+      "titleEn": "pull up",
+      "formula": "pull up",
+      "highlight": "pull up",
+      "descriptionZh": "車輛停下或駛至某處停下",
+      "descriptionEn": "A taxi pulled up outside the hotel.",
+      "examples": [
+        {
+          "en": "A taxi pulled up outside the hotel.",
+          "zh": "一輛的士在酒店外停下。",
+          "highlight": "pulled up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "指出並批評某人的錯誤或行為",
+      "titleEn": "pull somebody up",
+      "formula": "pull somebody up",
+      "highlight": "pull somebody up",
+      "descriptionZh": "指出並批評某人的錯誤或行為",
+      "descriptionEn": "The teacher pulled him up on his spelling.",
+      "examples": [
+        {
+          "en": "The teacher pulled him up on his spelling.",
+          "zh": "老師指出並批評他的串字錯誤。",
+          "highlight": "pulled him up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "加把勁;改善表現或行為",
+      "titleEn": "pull your socks up",
+      "formula": "pull your socks up",
+      "highlight": "pull your socks up",
+      "descriptionZh": "加把勁;改善表現或行為",
+      "descriptionEn": "You need to pull your socks up before the exam.",
+      "examples": [
+        {
+          "en": "You need to pull your socks up before the exam.",
+          "zh": "你在考試前需要加把勁。",
+          "highlight": "pull your socks up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "把植物連根拔起",
+      "titleEn": "pull something up",
+      "formula": "pull something up",
+      "highlight": "pull something up",
+      "descriptionZh": "把植物連根拔起",
+      "descriptionEn": "They pulled the weeds up.",
+      "examples": [
+        {
+          "en": "They pulled the weeds up.",
+          "zh": "他們把雜草連根拔起。",
+          "highlight": "pulled the weeds up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述比賽中的領先和追近",
+      "titleEn": "Describe progress in races and competitions",
+      "zh": "pull ahead 可以表示某人取得領先;pull something back 則可以表示球隊追近比分。",
+      "en": "Pull ahead shows someone moving into the lead, while pull something back can describe a team reducing the other side's lead."
+    },
+    {
+      "titleZh": "清楚描述車輛的移動和停下",
+      "titleEn": "Talk clearly about vehicles and movement",
+      "zh": "pull away、pull over 和 pull up 能幫助你描述車輛駛離、在路旁停下或到達後停下。",
+      "en": "Pull away, pull over and pull up help you describe a vehicle leaving, stopping beside the road or arriving and stopping."
+    },
+    {
+      "titleZh": "描述支持、合作和渡過難關",
+      "titleEn": "Describe support, teamwork and recovery",
+      "zh": "你可以 pull for 某人、與其他人 pull together,或幫助某人 pull through 一段困難時期。",
+      "en": "You can pull for someone, pull together as a team or help someone pull through a difficult time."
+    },
+    {
+      "titleZh": "自然描述移動日常物件",
+      "titleEn": "Talk naturally about moving everyday objects",
+      "zh": "PULL 片語動詞可以描述拉動窗簾、帶上門、從口袋取出物件、拆開機器和拔除植物。",
+      "en": "PULL expressions can describe moving curtains, closing doors, taking things from pockets, taking machines apart and removing plants."
+    },
+    {
+      "titleZh": "談論努力和個人困難",
+      "titleEn": "Talk about effort and personal problems",
+      "zh": "pull your socks up 可以叫某人改善表現;pull somebody down 則表示某事令人疲倦或情緒低落。",
+      "en": "Pull your socks up tells someone to improve, while pull somebody down describes something making a person tired or unhappy."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述比賽中的領先和追近",
+      "清楚描述車輛的移動和停下",
+      "描述支持、合作和渡過難關",
+      "自然描述移動日常物件",
+      "談論努力和個人困難"
+    ],
+    "contextsEn": [
+      "Describe progress in races and competitions",
+      "Talk clearly about vehicles and movement",
+      "Describe support, teamwork and recovery",
+      "Talk naturally about moving everyday objects",
+      "Talk about effort and personal problems"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述比賽中的領先和追近",
+        "titleEn": "Describe progress in races and competitions",
+        "zh": "pull ahead 可以表示某人取得領先;pull something back 則可以表示球隊追近比分。",
+        "en": "Pull ahead shows someone moving into the lead, while pull something back can describe a team reducing the other side's lead.",
+        "examples": [
+          {
+            "en": "Ava pulled ahead of the other runners.",
+            "zh": "Ava 超越其他跑手,取得領先。",
+            "highlight": "pulled"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述車輛的移動和停下",
+        "titleEn": "Talk clearly about vehicles and movement",
+        "zh": "pull away、pull over 和 pull up 能幫助你描述車輛駛離、在路旁停下或到達後停下。",
+        "en": "Pull away, pull over and pull up help you describe a vehicle leaving, stopping beside the road or arriving and stopping.",
+        "examples": [
+          {
+            "en": "They pulled the fighting dogs apart.",
+            "zh": "他們把正在打鬥的狗拉開。",
+            "highlight": "pulled"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述支持、合作和渡過難關",
+        "titleEn": "Describe support, teamwork and recovery",
+        "zh": "你可以 pull for 某人、與其他人 pull together,或幫助某人 pull through 一段困難時期。",
+        "en": "You can pull for someone, pull together as a team or help someone pull through a difficult time.",
+        "examples": [
+          {
+            "en": "I pulled Ben aside to warn him.",
+            "zh": "我把 Ben 拉到一旁提醒他。",
+            "highlight": "pulled"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然描述移動日常物件",
+        "titleEn": "Talk naturally about moving everyday objects",
+        "zh": "PULL 片語動詞可以描述拉動窗簾、帶上門、從口袋取出物件、拆開機器和拔除植物。",
+        "en": "PULL expressions can describe moving curtains, closing doors, taking things from pockets, taking machines apart and removing plants.",
+        "examples": [
+          {
+            "en": "She pulled the curtain aside.",
+            "zh": "她把窗簾拉到一旁。",
+            "highlight": "pulled"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論努力和個人困難",
+        "titleEn": "Talk about effort and personal problems",
+        "zh": "pull your socks up 可以叫某人改善表現;pull somebody down 則表示某事令人疲倦或情緒低落。",
+        "en": "Pull your socks up tells someone to improve, while pull somebody down describes something making a person tired or unhappy.",
+        "examples": [
+          {
+            "en": "The child pulled at his father's sleeve.",
+            "zh": "孩子不停拉扯爸爸的衣袖。",
+            "highlight": "pulled at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PULL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PULL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PULL 片語動詞。",
+      "en": "Read the whole sentence and choose the PULL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當 him、her、it 或 them 指被移動的人或物時,請按照以上例子放在正確位置。",
+      "titleEn": "When him, her, it or them is being moved, place the word as shown: pull him aside pull it out pull them apart pull her away.",
+      "zh": "當 him、her、it 或 them 指被移動的人或物時,請按照以上例子放在正確位置。",
+      "en": "When him, her, it or them is being moved, place the word as shown: pull him aside pull it out pull them apart pull her away"
+    },
+    {
+      "titleZh": "pull out、pull over 和 pull up 都可能與離開或停下有關,但它們表示不同情況。請仔細閱讀整句。",
+      "titleEn": "Pull out, pull over and pull up can all involve leaving or stopping, but they express different situations.",
+      "zh": "pull out、pull over 和 pull up 都可能與離開或停下有關,但它們表示不同情況。請仔細閱讀整句。",
+      "en": "Pull out, pull over and pull up can all involve leaving or stopping, but they express different situations. Read the full sentence carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PULL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PULL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PULL 動詞片語句子改寫練習",
+    "titleEn": "PULL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PULL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PULL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          22
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          23,
+          44
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          45,
+          66
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          67,
+          88
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          89,
+          110
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-274-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 25,
+      "prompt": "He moved one step backwards and stared at her in disbelief.",
+      "promptZh": "他向後退了一步,難以置信地望着她。",
+      "starter": "He",
+      "answer": "He pulled back and stared at her in disbelief.",
+      "answerZh": "他向後退,難以置信地望着她。",
+      "highlight": "pulled back",
+      "targetForm": "pull back",
+      "targetMeaningZh": "向後退或把身體縮後"
+    },
+    {
+      "id": "phrasal-verb-274-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 25,
+      "prompt": "Lena took a small key from her pocket.",
+      "promptZh": "Lena 從口袋裏取出一條小鎖匙。",
+      "starter": "Lena",
+      "answer": "Lena pulled a small key out of her pocket.",
+      "answerZh": "Lena 從口袋裏取出一條小鎖匙。",
+      "highlight": "pulled",
+      "targetForm": "pull something out of something",
+      "targetMeaningZh": "從某處取出某物"
+    },
+    {
+      "id": "phrasal-verb-274-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 25,
+      "prompt": "We all hope that your team wins tomorrow.",
+      "promptZh": "我們全都希望你的球隊明天勝出。",
+      "starter": "We",
+      "answer": "We are all pulling for your team to win tomorrow.",
+      "answerZh": "我們全都支持你的球隊,希望它明天勝出。",
+      "highlight": "are",
+      "targetForm": "pull for somebody or something",
+      "targetMeaningZh": "支持某人或某事"
+    },
+    {
+      "id": "phrasal-verb-274-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "I took Ben to one side so that I could speak to him privately.",
+      "promptZh": "我把 Ben 帶到一旁,以便私下跟他說話。",
+      "starter": "I",
+      "answer": "I pulled Ben aside so that I could speak to him privately.",
+      "answerZh": "我把 Ben 拉到一旁,以便私下跟他說話。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody aside",
+      "targetMeaningZh": "把某人拉到一旁私下說話"
+    },
+    {
+      "id": "phrasal-verb-274-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "She lowered the blinds and locked the door.",
+      "promptZh": "她拉下百葉簾,並鎖上門。",
+      "starter": "She",
+      "answer": "She pulled down the blinds and locked the door.",
+      "answerZh": "她拉下百葉簾,並鎖上門。",
+      "highlight": "pulled down",
+      "targetForm": "pull something down",
+      "targetMeaningZh": "把窗簾或百葉簾拉下"
+    },
+    {
+      "id": "phrasal-verb-274-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "Ava moved in front of the other runners on the straight road.",
+      "promptZh": "Ava 在直路上超越其他跑手,取得領先。",
+      "starter": "Ava",
+      "answer": "Ava pulled ahead of the other runners on the straight road.",
+      "answerZh": "Ava 在直路上超越其他跑手,取得領先。",
+      "highlight": "pulled ahead",
+      "targetForm": "pull ahead of somebody",
+      "targetMeaningZh": "在比賽中超前"
+    },
+    {
+      "id": "phrasal-verb-274-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "The doctors expected him to recover after the accident.",
+      "promptZh": "醫生預計他會在意外後康復。",
+      "starter": "The",
+      "answer": "The doctors expected him to pull through after the accident.",
+      "answerZh": "醫生預計他會在意外後康復。",
+      "highlight": "pull through",
+      "targetForm": "pull through",
+      "targetMeaningZh": "渡過難關或康復"
+    },
+    {
+      "id": "phrasal-verb-274-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 26,
+      "prompt": "The little boy kept tugging anxiously at her sleeve.",
+      "promptZh": "小男孩焦急地不停拉扯她的衣袖。",
+      "starter": "The",
+      "answer": "The little boy pulled anxiously at her sleeve.",
+      "answerZh": "小男孩焦急地拉扯她的衣袖。",
+      "highlight": "pulled",
+      "targetForm": "pull at something",
+      "targetMeaningZh": "反覆拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-274-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 26,
+      "prompt": "If we all work together, we will finish by Friday.",
+      "promptZh": "如果大家合作,我們會在星期五前完成。",
+      "starter": "If",
+      "answer": "If we all pull together, we will finish by Friday.",
+      "answerZh": "如果大家團結合作,我們會在星期五前完成。",
+      "highlight": "pull",
+      "targetForm": "pull together",
+      "targetMeaningZh": "團結合作"
+    },
+    {
+      "id": "phrasal-verb-274-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Zara moved the curtain to one side and found a small door.",
+      "promptZh": "Zara 把窗簾移到一旁,發現一道小門。",
+      "starter": "Zara",
+      "answer": "Zara pulled the curtain aside and found a small door.",
+      "answerZh": "Zara 把窗簾拉到一旁,發現一道小門。",
+      "highlight": "pulled",
+      "targetForm": "pull something aside",
+      "targetMeaningZh": "把某物拉向一旁"
+    },
+    {
+      "id": "phrasal-verb-274-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "A taxi stopped beside us.",
+      "promptZh": "一輛的士在我們旁邊停下。",
+      "starter": "A",
+      "answer": "A taxi pulled up beside us.",
+      "answerZh": "一輛的士在我們旁邊停下。",
+      "highlight": "pulled up",
+      "targetForm": "pull up",
+      "targetMeaningZh": "車輛駛至某處停下"
+    },
+    {
+      "id": "phrasal-verb-274-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Several adults separated the two fighting men.",
+      "promptZh": "幾名成年人把兩名正在打鬥的男子拉開。",
+      "starter": "Several",
+      "answer": "Several adults pulled the two fighting men apart.",
+      "answerZh": "幾名成年人把兩名正在打鬥的男子拉開。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody apart",
+      "targetMeaningZh": "把人拉開"
+    },
+    {
+      "id": "phrasal-verb-274-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Please close the door behind you.",
+      "promptZh": "請在離開時把門帶上。",
+      "starter": "Please",
+      "answer": "Please pull the door to behind you.",
+      "answerZh": "離開時請把門帶上。",
+      "highlight": "pull",
+      "targetForm": "pull something to",
+      "targetMeaningZh": "把門帶上"
+    },
+    {
+      "id": "phrasal-verb-274-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 27,
+      "prompt": "The team withdrew from the tournament yesterday.",
+      "promptZh": "球隊昨天退出了比賽。",
+      "starter": "The",
+      "answer": "The team pulled out of the tournament yesterday.",
+      "answerZh": "球隊昨天退出了比賽。",
+      "highlight": "pulled out of",
+      "targetForm": "pull out of something",
+      "targetMeaningZh": "退出某事"
+    },
+    {
+      "id": "phrasal-verb-274-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 27,
+      "prompt": "You need to make more effort at school.",
+      "promptZh": "你在學校需要更加努力。",
+      "starter": "You",
+      "answer": "You need to pull your socks up at school.",
+      "answerZh": "你在學校需要加把勁。",
+      "highlight": "pull your socks up",
+      "targetForm": "pull your socks up",
+      "targetMeaningZh": "加把勁;改善表現"
+    },
+    {
+      "id": "phrasal-verb-274-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The train left the platform just as we arrived.",
+      "promptZh": "我們剛到達時,火車便駛離月台。",
+      "starter": "The",
+      "answer": "The train pulled away from the platform just as we arrived.",
+      "answerZh": "我們剛到達時,火車便駛離月台。",
+      "highlight": "pulled away from",
+      "targetForm": "pull away from something",
+      "targetMeaningZh": "駛離或離開某處"
+    },
+    {
+      "id": "phrasal-verb-274-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The long working hours are making him tired and unhappy.",
+      "promptZh": "長時間工作令他疲倦和不開心。",
+      "starter": "The",
+      "answer": "The long working hours are pulling him down.",
+      "answerZh": "長時間工作正令他身心疲累。",
+      "highlight": "pulling",
+      "targetForm": "pull somebody down",
+      "targetMeaningZh": "使某人疲倦、虛弱或情緒低落"
+    },
+    {
+      "id": "phrasal-verb-274-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The teacher criticised Leo for his untidy handwriting.",
+      "promptZh": "老師批評 Leo 的字跡不整齊。",
+      "starter": "The",
+      "answer": "The teacher pulled Leo up on his untidy handwriting.",
+      "answerZh": "老師指出並批評 Leo 字跡不整齊。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody up on something",
+      "targetMeaningZh": "指出並批評某人的錯誤"
+    },
+    {
+      "id": "phrasal-verb-274-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The children removed the small plants by their roots.",
+      "promptZh": "孩子們把小植物連根拔起。",
+      "starter": "The",
+      "answer": "The children pulled the small plants up.",
+      "answerZh": "孩子們把小植物連根拔起。",
+      "highlight": "pulled",
+      "targetForm": "pull something up",
+      "targetMeaningZh": "把植物連根拔起"
+    },
+    {
+      "id": "phrasal-verb-274-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 28,
+      "prompt": "Rovers scored once and reduced the other team's lead to one goal.",
+      "promptZh": "Rovers 攻入一球,把對方的領先優勢縮窄至一球。",
+      "starter": "Rovers",
+      "answer": "Rovers pulled a goal back and reduced the other team's lead to one goal.",
+      "answerZh": "Rovers 追回一球,把對方的領先優勢縮窄至一球。",
+      "highlight": "pulled a goal back",
+      "targetForm": "pull something back",
+      "targetMeaningZh": "在比賽中扳回失分"
+    },
+    {
+      "id": "phrasal-verb-274-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 28,
+      "prompt": "The driver moved the car to the side of the road and stopped.",
+      "promptZh": "司機把車駛到路旁停下。",
+      "starter": "The",
+      "answer": "The driver pulled over and stopped.",
+      "answerZh": "司機把車駛到路旁停下。",
+      "highlight": "pulled over",
+      "targetForm": "pull over",
+      "targetMeaningZh": "把車駛到路旁停下"
+    },
+    {
+      "id": "phrasal-verb-274-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "The waves dragged the swimmer below the water.",
+      "promptZh": "海浪把泳手拖到水面下。",
+      "starter": "The",
+      "answer": "The waves pulled the swimmer under.",
+      "answerZh": "海浪把泳手拖到水面下。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody under",
+      "targetMeaningZh": "把某人拖到水面下"
+    },
+    {
+      "id": "phrasal-verb-274-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "By the final lap, Eva has moved in front of the other runners.",
+      "promptZh": "到最後一圈時,Eva 已超越其他跑手。",
+      "starter": "By",
+      "answer": "By the final lap, Eva has pulled ahead of the other runners.",
+      "answerZh": "到最後一圈時,Eva 已超越其他跑手。",
+      "highlight": "pulled ahead",
+      "targetForm": "pull ahead of somebody",
+      "targetMeaningZh": "在比賽中超前"
+    },
+    {
+      "id": "phrasal-verb-274-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Nina was moving the curtain to one side when the light went out.",
+      "promptZh": "燈光熄滅時,Nina 正把窗簾移到一旁。",
+      "starter": "Nina",
+      "answer": "Nina was pulling the curtain aside when the light went out.",
+      "answerZh": "燈光熄滅時,Nina 正把窗簾拉到一旁。",
+      "highlight": "pulling",
+      "targetForm": "pull something aside",
+      "targetMeaningZh": "把某物拉向一旁"
+    },
+    {
+      "id": "phrasal-verb-274-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "The doctors believe that he will recover from this illness.",
+      "promptZh": "醫生相信他會從這場疾病中康復。",
+      "starter": "The",
+      "answer": "The doctors believe that he will pull through this illness.",
+      "answerZh": "醫生相信他會捱過這場疾病並康復。",
+      "highlight": "pull through",
+      "targetForm": "pull through something",
+      "targetMeaningZh": "渡過難關或康復"
+    },
+    {
+      "id": "phrasal-verb-274-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 29,
+      "prompt": "Omar had taken the note from the drawer before anyone entered.",
+      "promptZh": "其他人進來前,Omar 已從抽屜取出便條。",
+      "starter": "Omar",
+      "answer": "Omar had pulled the note out of the drawer before anyone entered.",
+      "answerZh": "其他人進來前,Omar 已從抽屜取出便條。",
+      "highlight": "pulled",
+      "targetForm": "pull something out of something",
+      "targetMeaningZh": "從某處取出某物"
+    },
+    {
+      "id": "phrasal-verb-274-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 29,
+      "prompt": "The bus stopped outside the museum at ten o'clock.",
+      "promptZh": "巴士在十時於博物館外停下。",
+      "starter": "The",
+      "answer": "The bus pulled up outside the museum at ten o'clock.",
+      "answerZh": "巴士在十時於博物館外停下。",
+      "highlight": "pulled up",
+      "targetForm": "pull up",
+      "targetMeaningZh": "車輛駛至某處停下"
+    },
+    {
+      "id": "phrasal-verb-274-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "The manager took her to one side before the meeting began.",
+      "promptZh": "會議開始前,經理把她帶到一旁。",
+      "starter": "The",
+      "answer": "The manager pulled her aside before the meeting began.",
+      "answerZh": "會議開始前,經理把她拉到一旁。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody aside",
+      "targetMeaningZh": "把某人拉到一旁私下說話"
+    },
+    {
+      "id": "phrasal-verb-274-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "I moved the child away from the broken glass.",
+      "promptZh": "我把孩子拉離碎玻璃。",
+      "starter": "I",
+      "answer": "I pulled the child away from the broken glass.",
+      "answerZh": "我把孩子拉離碎玻璃。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody away from something",
+      "targetMeaningZh": "把某人拉離某處"
+    },
+    {
+      "id": "phrasal-verb-274-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "Kai lowered the window shade because the sunlight was too bright.",
+      "promptZh": "Kai 因為陽光太猛烈而拉下窗簾。",
+      "starter": "Kai",
+      "answer": "Kai pulled the window shade down because the sunlight was too bright.",
+      "answerZh": "Kai 因為陽光太猛烈而拉下窗簾。",
+      "highlight": "pulled",
+      "targetForm": "pull something down",
+      "targetMeaningZh": "把窗簾或百葉簾拉下"
+    },
+    {
+      "id": "phrasal-verb-274-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "We all want the school team to win the final.",
+      "promptZh": "我們全都希望校隊在決賽中勝出。",
+      "starter": "We",
+      "answer": "We are all pulling for the school team to win the final.",
+      "answerZh": "我們全都支持校隊,希望它在決賽中勝出。",
+      "highlight": "are",
+      "targetForm": "pull for somebody or something",
+      "targetMeaningZh": "支持某人或某事"
+    },
+    {
+      "id": "phrasal-verb-274-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 30,
+      "prompt": "If you want to stay on the team, you must make more effort.",
+      "promptZh": "如果你想留在球隊,就必須更加努力。",
+      "starter": "If",
+      "answer": "If you want to stay on the team, you must pull your socks up.",
+      "answerZh": "如果你想留在球隊,就必須加把勁。",
+      "highlight": "pull your socks up",
+      "targetForm": "pull your socks up",
+      "targetMeaningZh": "加把勁;改善表現"
+    },
+    {
+      "id": "phrasal-verb-274-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 30,
+      "prompt": "The engineers are taking the old machine to pieces.",
+      "promptZh": "工程人員正把舊機器拆開。",
+      "starter": "The",
+      "answer": "The engineers are pulling the old machine apart.",
+      "answerZh": "工程人員正把舊機器拆開。",
+      "highlight": "pulling",
+      "targetForm": "pull something apart",
+      "targetMeaningZh": "把物件拆成多個部分"
+    },
+    {
+      "id": "phrasal-verb-274-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "The strong current is dragging the small boat below the water.",
+      "promptZh": "強勁水流正把小船拖到水面下。",
+      "starter": "The",
+      "answer": "The strong current is pulling the small boat under.",
+      "answerZh": "強勁水流正把小船拖到水面下。",
+      "highlight": "pulling",
+      "targetForm": "pull something under",
+      "targetMeaningZh": "把某物拖到水面下"
+    },
+    {
+      "id": "phrasal-verb-274-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "The editor criticised the writer for using the wrong name.",
+      "promptZh": "編輯批評作者使用了錯誤的名字。",
+      "starter": "The",
+      "answer": "The editor pulled the writer up on using the wrong name.",
+      "answerZh": "編輯指出並批評作者使用了錯誤的名字。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody up on something",
+      "targetMeaningZh": "指出並批評某人的錯誤"
+    },
+    {
+      "id": "phrasal-verb-274-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "We can finish the work today if we cooperate.",
+      "promptZh": "如果大家合作,我們今天便能完成工作。",
+      "starter": "We",
+      "answer": "We can finish the work today if we pull together.",
+      "answerZh": "如果大家團結合作,我們今天便能完成工作。",
+      "highlight": "pull together",
+      "targetForm": "pull together",
+      "targetMeaningZh": "團結合作"
+    },
+    {
+      "id": "phrasal-verb-274-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "The baby kept tugging at the blanket.",
+      "promptZh": "嬰兒不停拉扯毛氈。",
+      "starter": "The",
+      "answer": "The baby kept pulling at the blanket.",
+      "answerZh": "嬰兒不停拉扯毛氈。",
+      "highlight": "pulling",
+      "targetForm": "pull at something",
+      "targetMeaningZh": "反覆拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-274-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 31,
+      "prompt": "The main sponsor has withdrawn from the event.",
+      "promptZh": "主要贊助者已退出活動。",
+      "starter": "The",
+      "answer": "The main sponsor has pulled out of the event.",
+      "answerZh": "主要贊助者已退出活動。",
+      "highlight": "pulled out of",
+      "targetForm": "pull out of something",
+      "targetMeaningZh": "退出某事"
+    },
+    {
+      "id": "phrasal-verb-274-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 31,
+      "prompt": "The dog moved backwards when it heard the loud noise.",
+      "promptZh": "那隻狗聽到巨響時向後退。",
+      "starter": "The",
+      "answer": "The dog pulled back when it heard the loud noise.",
+      "answerZh": "那隻狗聽到巨響時向後退。",
+      "highlight": "pulled back",
+      "targetForm": "pull back",
+      "targetMeaningZh": "向後退或把身體縮後"
+    },
+    {
+      "id": "phrasal-verb-274-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "Please close the side door when you leave.",
+      "promptZh": "離開時請把側門帶上。",
+      "starter": "Please",
+      "answer": "Please pull the side door to when you leave.",
+      "answerZh": "離開時請把側門帶上。",
+      "highlight": "pull",
+      "targetForm": "pull something to",
+      "targetMeaningZh": "把門帶上"
+    },
+    {
+      "id": "phrasal-verb-274-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "United scored once and reduced the score to 3–1.",
+      "promptZh": "United 攻入一球,把比分追近至三比一。",
+      "starter": "United",
+      "answer": "United pulled a goal back to make the score 3–1.",
+      "answerZh": "United 追回一球,把比分追近至三比一。",
+      "highlight": "pulled a goal back to make",
+      "targetForm": "pull something back",
+      "targetMeaningZh": "在比賽中扳回失分"
+    },
+    {
+      "id": "phrasal-verb-274-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "Weeks of worry are making her weak and unhappy.",
+      "promptZh": "多星期的憂慮正令她身心疲累。",
+      "starter": "Weeks",
+      "answer": "Weeks of worry are pulling her down.",
+      "answerZh": "多星期的憂慮正令她身心疲累。",
+      "highlight": "pulling",
+      "targetForm": "pull somebody down",
+      "targetMeaningZh": "使某人疲倦、虛弱或情緒低落"
+    },
+    {
+      "id": "phrasal-verb-274-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "We have removed all the weeds by their roots.",
+      "promptZh": "我們已把所有雜草連根拔起。",
+      "starter": "We",
+      "answer": "We have pulled all the weeds up.",
+      "answerZh": "我們已把所有雜草連根拔起。",
+      "highlight": "pulled",
+      "targetForm": "pull something up",
+      "targetMeaningZh": "把植物連根拔起"
+    },
+    {
+      "id": "phrasal-verb-274-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 32,
+      "prompt": "The police made the car stop at the side of the road.",
+      "promptZh": "警方截停那輛車,着它停在路旁。",
+      "starter": "The",
+      "answer": "The police pulled the car over.",
+      "answerZh": "警方截停了那輛車。",
+      "highlight": "pulled",
+      "targetForm": "pull something over",
+      "targetMeaningZh": "截停車輛"
+    },
+    {
+      "id": "phrasal-verb-274-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 32,
+      "prompt": "The coach removed Rosa from the match after her ankle began to hurt.",
+      "promptZh": "Rosa 的腳踝開始疼痛後,教練把她調離比賽。",
+      "starter": "The",
+      "answer": "The coach pulled Rosa out of the match after her ankle began to hurt.",
+      "answerZh": "Rosa 的腳踝開始疼痛後,教練把她調離比賽。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody out of something",
+      "targetMeaningZh": "把某人撤離某事"
+    },
+    {
+      "id": "phrasal-verb-274-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The little girl tugged repeatedly at her father's coat.",
+      "promptZh": "小女孩反覆拉扯爸爸的外套。",
+      "starter": "The",
+      "answer": "The little girl pulled repeatedly at her father's coat.",
+      "answerZh": "小女孩反覆拉扯爸爸的外套。",
+      "highlight": "pulled",
+      "targetForm": "pull at something",
+      "targetMeaningZh": "反覆拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-274-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The teacher criticised me for my poor spelling.",
+      "promptZh": "老師批評我的串字不佳。",
+      "starter": "The",
+      "answer": "The teacher pulled me up on my poor spelling.",
+      "answerZh": "老師指出並批評我的串字不佳。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody up on something",
+      "targetMeaningZh": "指出並批評某人的錯誤"
+    },
+    {
+      "id": "phrasal-verb-274-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "They took the shelves to pieces before moving them upstairs.",
+      "promptZh": "他們先把書架拆開,才搬到樓上。",
+      "starter": "They",
+      "answer": "They pulled the shelves apart before moving them upstairs.",
+      "answerZh": "他們先把書架拆開,才搬到樓上。",
+      "highlight": "pulled",
+      "targetForm": "pull something apart",
+      "targetMeaningZh": "把物件拆成多個部分"
+    },
+    {
+      "id": "phrasal-verb-274-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "On the final hill, the cyclist moved in front of the group.",
+      "promptZh": "在最後一個山坡上,單車手超越了大隊。",
+      "starter": "On",
+      "answer": "On the final hill, the cyclist pulled ahead of the group.",
+      "answerZh": "在最後一個山坡上,單車手超越了大隊。",
+      "highlight": "pulled ahead",
+      "targetForm": "pull ahead of somebody or something",
+      "targetMeaningZh": "在比賽中超前"
+    },
+    {
+      "id": "phrasal-verb-274-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 33,
+      "prompt": "His family's support helped him survive those difficult weeks.",
+      "promptZh": "家人的支持幫助他捱過那些艱難的星期。",
+      "starter": "His",
+      "answer": "His family's support pulled him through those difficult weeks.",
+      "answerZh": "家人的支持幫助他捱過那些艱難的星期。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody through something",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-274-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 33,
+      "prompt": "Please close the door gently, but do not lock it.",
+      "promptZh": "請輕輕把門帶上,但不要鎖門。",
+      "starter": "Please",
+      "answer": "Please pull the door to gently, but do not lock it.",
+      "answerZh": "請輕輕把門帶上,但不要鎖門。",
+      "highlight": "pull",
+      "targetForm": "pull something to",
+      "targetMeaningZh": "把門帶上"
+    },
+    {
+      "id": "phrasal-verb-274-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "I moved Arun away from the edge before he lost his balance.",
+      "promptZh": "Arun 失去平衡前,我把他拉離邊緣。",
+      "starter": "I",
+      "answer": "I pulled Arun away from the edge before he lost his balance.",
+      "answerZh": "Arun 失去平衡前,我把他拉離邊緣。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody away from something",
+      "targetMeaningZh": "把某人拉離某處"
+    },
+    {
+      "id": "phrasal-verb-274-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "She lowered the blinds before starting the film.",
+      "promptZh": "她在播放電影前拉下百葉簾。",
+      "starter": "She",
+      "answer": "She pulled the blinds down before starting the film.",
+      "answerZh": "她在播放電影前拉下百葉簾。",
+      "highlight": "pulled",
+      "targetForm": "pull something down",
+      "targetMeaningZh": "把窗簾或百葉簾拉下"
+    },
+    {
+      "id": "phrasal-verb-274-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "Before the meeting, I took Rosa to one side and explained the problem.",
+      "promptZh": "會議前,我把 Rosa 帶到一旁,向她解釋問題。",
+      "starter": "Before",
+      "answer": "Before the meeting, I pulled Rosa aside and explained the problem.",
+      "answerZh": "會議前,我把 Rosa 拉到一旁,向她解釋問題。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody aside",
+      "targetMeaningZh": "把某人拉到一旁私下說話"
+    },
+    {
+      "id": "phrasal-verb-274-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "The note was inside the drawer, and Nia took it out.",
+      "promptZh": "便條在抽屜裏,Nia 把它取了出來。",
+      "starter": "The",
+      "answer": "The note was inside the drawer, and Nia pulled it out.",
+      "answerZh": "便條在抽屜裏,Nia 把它取了出來。",
+      "highlight": "pulled",
+      "targetForm": "pull something out",
+      "targetMeaningZh": "從裏面取出某物"
+    },
+    {
+      "id": "phrasal-verb-274-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 34,
+      "prompt": "When the dog suddenly barked, Ben moved backwards in surprise.",
+      "promptZh": "那隻狗突然吠叫時,Ben 驚訝地向後退。",
+      "starter": "When",
+      "answer": "When the dog suddenly barked, Ben pulled back in surprise.",
+      "answerZh": "那隻狗突然吠叫時,Ben 驚訝地向後退。",
+      "highlight": "pulled back",
+      "targetForm": "pull back",
+      "targetMeaningZh": "向後退或把身體縮後"
+    },
+    {
+      "id": "phrasal-verb-274-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 34,
+      "prompt": "The captain's speech united the whole team.",
+      "promptZh": "隊長的演說令整支球隊團結起來。",
+      "starter": "The",
+      "answer": "The captain's speech pulled the whole team together.",
+      "answerZh": "隊長的演說令整支球隊團結起來。",
+      "highlight": "pulled",
+      "targetForm": "pull something together",
+      "targetMeaningZh": "使一群人團結起來"
+    },
+    {
+      "id": "phrasal-verb-274-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "Could you move your car to the side and stop near the shop?",
+      "promptZh": "你可以把車駛到路旁,在店舖附近停下嗎?",
+      "starter": "Could",
+      "answer": "Could you pull over near the shop?",
+      "answerZh": "你可以把車駛到路旁,在店舖附近停下嗎?",
+      "highlight": "pull over",
+      "targetForm": "pull over",
+      "targetMeaningZh": "把車駛到路旁停下"
+    },
+    {
+      "id": "phrasal-verb-274-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "The weeds were crowding the path, so they removed them by the roots.",
+      "promptZh": "雜草佔滿小路,所以他們把雜草連根拔起。",
+      "starter": "The",
+      "answer": "The weeds were crowding the path, so they pulled them up.",
+      "answerZh": "雜草佔滿小路,所以他們把雜草連根拔起。",
+      "highlight": "pulled",
+      "targetForm": "pull something up",
+      "targetMeaningZh": "把植物連根拔起"
+    },
+    {
+      "id": "phrasal-verb-274-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "Rovers scored before the break and reduced the other team's lead to 2–1.",
+      "promptZh": "Rovers 在休息前入球,把對方的領先優勢縮窄至二比一。",
+      "starter": "Rovers",
+      "answer": "Rovers pulled a goal back before the break and made the score 2–1.",
+      "answerZh": "Rovers 在休息前追回一球,把比分追近至二比一。",
+      "highlight": "pulled a goal back",
+      "targetForm": "pull something back",
+      "targetMeaningZh": "在比賽中扳回失分"
+    },
+    {
+      "id": "phrasal-verb-274-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "The current almost dragged the swimmer below the surface.",
+      "promptZh": "水流差點把泳手拖到水面下。",
+      "starter": "The",
+      "answer": "The current almost pulled the swimmer under.",
+      "answerZh": "水流差點把泳手拖到水面下。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody under",
+      "targetMeaningZh": "把某人拖到水面下"
+    },
+    {
+      "id": "phrasal-verb-274-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 35,
+      "prompt": "Everyone in the office hopes that our team succeeds.",
+      "promptZh": "辦公室裏每個人都希望我們的團隊成功。",
+      "starter": "Everyone",
+      "answer": "Everyone in the office is pulling for our team to succeed.",
+      "answerZh": "辦公室裏每個人都支持我們的團隊,希望它成功。",
+      "highlight": "is pulling for",
+      "targetForm": "pull for somebody or something",
+      "targetMeaningZh": "支持某人或某事"
+    },
+    {
+      "id": "phrasal-verb-274-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 35,
+      "prompt": "The coach told the players that they needed to improve their effort.",
+      "promptZh": "教練告訴球員,他們需要更加努力。",
+      "starter": "The",
+      "answer": "The coach told the players to pull their socks up.",
+      "answerZh": "教練告訴球員要加把勁。",
+      "highlight": "pull",
+      "targetForm": "pull your socks up",
+      "targetMeaningZh": "加把勁;改善表現"
+    },
+    {
+      "id": "phrasal-verb-274-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "The curtain blocked the window, so she moved it to one side.",
+      "promptZh": "窗簾遮住窗戶,所以她把它拉到一旁。",
+      "starter": "The",
+      "answer": "The curtain blocked the window, so she pulled it aside.",
+      "answerZh": "窗簾遮住窗戶,所以她把它拉到一旁。",
+      "highlight": "pulled",
+      "targetForm": "pull something aside",
+      "targetMeaningZh": "把某物拉向一旁"
+    },
+    {
+      "id": "phrasal-verb-274-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "The constant pain was making him weak and unhappy.",
+      "promptZh": "持續的疼痛正令他感到虛弱和不開心。",
+      "starter": "The",
+      "answer": "The constant pain was pulling him down.",
+      "answerZh": "持續的疼痛正令他感到虛弱和不開心。",
+      "highlight": "pulling",
+      "targetForm": "pull somebody down",
+      "targetMeaningZh": "使某人疲倦、虛弱或情緒低落"
+    },
+    {
+      "id": "phrasal-verb-274-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "A taxi stopped beside us, and the driver opened the door.",
+      "promptZh": "一輛的士在我們旁邊停下,司機打開車門。",
+      "starter": "A",
+      "answer": "A taxi pulled up beside us, and the driver opened the door.",
+      "answerZh": "一輛的士在我們旁邊停下,司機打開車門。",
+      "highlight": "pulled up",
+      "targetForm": "pull up",
+      "targetMeaningZh": "車輛駛至某處停下"
+    },
+    {
+      "id": "phrasal-verb-274-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 36,
+      "prompt": "The car came to a stop outside the house.",
+      "promptZh": "汽車在房子外停下。",
+      "starter": "The",
+      "answer": "The car pulled up outside the house.",
+      "answerZh": "汽車在房子外停下。",
+      "highlight": "pulled up",
+      "targetForm": "pull up",
+      "targetMeaningZh": "車輛駛至某處停下"
+    },
+    {
+      "id": "phrasal-verb-274-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 36,
+      "prompt": "The company decided not to continue with the building project.",
+      "promptZh": "公司決定不再參與該建築項目。",
+      "starter": "The",
+      "answer": "The company pulled out of the building project.",
+      "answerZh": "公司退出了該建築項目。",
+      "highlight": "pulled out of",
+      "targetForm": "pull out of something",
+      "targetMeaningZh": "退出某事"
+    },
+    {
+      "id": "phrasal-verb-274-q69",
+      "number": 69,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "To reveal the small door, she moved the curtain sideways.",
+      "promptZh": "為了露出小門,她把窗簾拉向一旁。",
+      "starter": "To",
+      "answer": "To reveal the small door, she pulled the curtain aside.",
+      "answerZh": "為了露出小門,她把窗簾拉向一旁。",
+      "highlight": "pulled",
+      "targetForm": "pull something aside",
+      "targetMeaningZh": "把某物拉向一旁"
+    },
+    {
+      "id": "phrasal-verb-274-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "In the last two hundred metres, the runner moved into first place.",
+      "promptZh": "在最後二百米,跑手超前取得第一名。",
+      "starter": "In",
+      "answer": "In the last two hundred metres, the runner pulled ahead.",
+      "answerZh": "在最後二百米,跑手超前取得第一名。",
+      "highlight": "pulled ahead",
+      "targetForm": "pull ahead",
+      "targetMeaningZh": "在比賽中超前"
+    },
+    {
+      "id": "phrasal-verb-274-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "The pressure at work made Dan feel tired and unhappy.",
+      "promptZh": "工作壓力令 Dan 感到疲倦和不開心。",
+      "starter": "The",
+      "answer": "The pressure at work pulled Dan down.",
+      "answerZh": "工作壓力令 Dan 感到疲倦和不開心。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody down",
+      "targetMeaningZh": "使某人疲倦、虛弱或情緒低落"
+    },
+    {
+      "id": "phrasal-verb-274-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "The wallet was inside her bag, and she took it from inside.",
+      "promptZh": "銀包在她的袋裏,她把它取了出來。",
+      "starter": "The",
+      "answer": "The wallet was inside her bag, and she pulled it out.",
+      "answerZh": "銀包在她的袋裏,她把它取了出來。",
+      "highlight": "pulled",
+      "targetForm": "pull something out",
+      "targetMeaningZh": "從裏面取出某物"
+    },
+    {
+      "id": "phrasal-verb-274-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 37,
+      "prompt": "Few people thought that the patient would survive the serious illness.",
+      "promptZh": "很少人認為病人能捱過這場重病。",
+      "starter": "Few",
+      "answer": "Few people thought that the patient would pull through the serious illness.",
+      "answerZh": "很少人認為病人能捱過這場重病。",
+      "highlight": "pull through",
+      "targetForm": "pull through something",
+      "targetMeaningZh": "渡過難關或康復"
+    },
+    {
+      "id": "phrasal-verb-274-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 37,
+      "prompt": "The team were two goals behind, but they then scored once.",
+      "promptZh": "球隊落後兩球,但其後攻入一球。",
+      "starter": "The",
+      "answer": "The team were two goals behind, but they then pulled a goal back.",
+      "answerZh": "球隊落後兩球,但其後追回一球。",
+      "highlight": "pulled a goal back",
+      "targetForm": "pull something back",
+      "targetMeaningZh": "在比賽中扳回失分"
+    },
+    {
+      "id": "phrasal-verb-274-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "He could not repair the clock, so he took it to pieces.",
+      "promptZh": "他無法修理時鐘,所以把它拆開。",
+      "starter": "He",
+      "answer": "He could not repair the clock, so he pulled it apart.",
+      "answerZh": "他無法修理時鐘,所以把它拆開。",
+      "highlight": "pulled",
+      "targetForm": "pull something apart",
+      "targetMeaningZh": "把物件拆成多個部分"
+    },
+    {
+      "id": "phrasal-verb-274-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The child was standing too close to the fire, so his father moved him away.",
+      "promptZh": "孩子站得太近火堆,所以爸爸把他拉開。",
+      "starter": "The",
+      "answer": "The child was standing too close to the fire, so his father pulled him away.",
+      "answerZh": "孩子站得太近火堆,所以爸爸把他拉開。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody away",
+      "targetMeaningZh": "把某人拉離某處"
+    },
+    {
+      "id": "phrasal-verb-274-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "Do not lock the door; simply close it gently.",
+      "promptZh": "不要鎖門,只須輕輕把門帶上。",
+      "starter": "Do",
+      "answer": "Do not lock the door; simply pull it to gently.",
+      "answerZh": "不要鎖門,只須輕輕把門帶上。",
+      "highlight": "pull",
+      "targetForm": "pull something to",
+      "targetMeaningZh": "把門帶上"
+    },
+    {
+      "id": "phrasal-verb-274-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The whole class hopes that Priya wins the competition.",
+      "promptZh": "全班都希望 Priya 在比賽中勝出。",
+      "starter": "The",
+      "answer": "The whole class is pulling for Priya to win the competition.",
+      "answerZh": "全班都支持 Priya,希望她在比賽中勝出。",
+      "highlight": "is pulling for",
+      "targetForm": "pull for somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-274-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 38,
+      "prompt": "The waves dragged the board below the surface.",
+      "promptZh": "海浪把木板拖到水面下。",
+      "starter": "The",
+      "answer": "The waves pulled the board under.",
+      "answerZh": "海浪把木板拖到水面下。",
+      "highlight": "pulled",
+      "targetForm": "pull something under",
+      "targetMeaningZh": "把某物拖到水面下"
+    },
+    {
+      "id": "phrasal-verb-274-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 38,
+      "prompt": "The manager criticised Omar for being late several times.",
+      "promptZh": "經理批評 Omar 多次遲到。",
+      "starter": "The",
+      "answer": "The manager pulled Omar up on being late several times.",
+      "answerZh": "經理指出並批評 Omar 多次遲到。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody up on something",
+      "targetMeaningZh": "指出並批評某人的錯誤"
+    },
+    {
+      "id": "phrasal-verb-274-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The two groups stopped arguing and began to cooperate.",
+      "promptZh": "兩個小組停止爭吵,開始合作。",
+      "starter": "The",
+      "answer": "The two groups stopped arguing and pulled together.",
+      "answerZh": "兩個小組停止爭吵,並開始合作。",
+      "highlight": "pulled together",
+      "targetForm": "pull together",
+      "targetMeaningZh": "團結合作"
+    },
+    {
+      "id": "phrasal-verb-274-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The sunlight was too bright, so he lowered the screen.",
+      "promptZh": "陽光太猛烈,所以他拉下遮光簾。",
+      "starter": "The",
+      "answer": "The sunlight was too bright, so he pulled the screen down.",
+      "answerZh": "陽光太猛烈,所以他拉下遮光簾。",
+      "highlight": "pulled",
+      "targetForm": "pull something down",
+      "targetMeaningZh": "把窗簾或百葉簾拉下"
+    },
+    {
+      "id": "phrasal-verb-274-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "She moved backwards and looked at the message in disbelief.",
+      "promptZh": "她向後退,難以置信地望着那段訊息。",
+      "starter": "She",
+      "answer": "She pulled back and looked at the message in disbelief.",
+      "answerZh": "她向後退,難以置信地望着那段訊息。",
+      "highlight": "pulled back",
+      "targetForm": "pull back",
+      "targetMeaningZh": "向後退或把身體縮後"
+    },
+    {
+      "id": "phrasal-verb-274-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "I needed to give my colleague a private warning, so I took him to one side.",
+      "promptZh": "我需要私下提醒同事,所以把他帶到一旁。",
+      "starter": "I",
+      "answer": "I needed to give my colleague a private warning, so I pulled him aside.",
+      "answerZh": "我需要私下提醒同事,所以把他拉到一旁。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody aside",
+      "targetMeaningZh": "把某人拉到一旁私下說話"
+    },
+    {
+      "id": "phrasal-verb-274-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 39,
+      "prompt": "Before planting the new flowers, the gardeners removed the old plants by their roots.",
+      "promptZh": "種植新花朵前,園丁把舊植物連根拔起。",
+      "starter": "Before",
+      "answer": "Before planting the new flowers, the gardeners pulled the old plants up.",
+      "answerZh": "種植新花朵前,園丁把舊植物連根拔起。",
+      "highlight": "pulled",
+      "targetForm": "pull something up",
+      "targetMeaningZh": "把植物連根拔起"
+    },
+    {
+      "id": "phrasal-verb-274-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 39,
+      "prompt": "When the warning light appeared, the driver moved to the side of the road and stopped.",
+      "promptZh": "警告燈亮起時,司機把車駛到路旁停下。",
+      "starter": "When",
+      "answer": "When the warning light appeared, the driver pulled over.",
+      "answerZh": "警告燈亮起時,司機把車駛到路旁停下。",
+      "highlight": "pulled over",
+      "targetForm": "pull over",
+      "targetMeaningZh": "把車駛到路旁停下"
+    },
+    {
+      "id": "phrasal-verb-274-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "The nervous child repeatedly tugged at his mother's coat.",
+      "promptZh": "緊張的孩子反覆拉扯媽媽的外套。",
+      "starter": "The",
+      "answer": "The nervous child repeatedly pulled at his mother's coat.",
+      "answerZh": "緊張的孩子反覆拉扯媽媽的外套。",
+      "highlight": "pulled",
+      "targetForm": "pull at something",
+      "targetMeaningZh": "反覆拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-274-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "If you want to pass the course, you must work much harder.",
+      "promptZh": "如果你想通過課程,就必須更加努力。",
+      "starter": "If",
+      "answer": "If you want to pass the course, you must pull your socks up.",
+      "answerZh": "如果你想通過課程,就必須加把勁。",
+      "highlight": "pull your socks up",
+      "targetForm": "pull your socks up",
+      "targetMeaningZh": "加把勁;改善表現"
+    },
+    {
+      "id": "phrasal-verb-274-q89",
+      "number": 89,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "Her calm leadership united the two groups after weeks of disagreement.",
+      "promptZh": "經過多星期的分歧後,她冷靜的領導令兩個小組團結起來。",
+      "starter": "Her",
+      "answer": "Her calm leadership pulled the two groups together after weeks of disagreement.",
+      "answerZh": "經過多星期的分歧後,她冷靜的領導令兩個小組團結起來。",
+      "highlight": "pulled",
+      "targetForm": "pull something together",
+      "targetMeaningZh": "使一群人團結起來"
+    },
+    {
+      "id": "phrasal-verb-274-q90",
+      "number": 90,
+      "band": 5,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "When the box suddenly opened, Leo moved backwards and covered his face.",
+      "promptZh": "箱子突然打開時,Leo 向後退並遮住臉部。",
+      "starter": "When",
+      "answer": "When the box suddenly opened, Leo pulled back and covered his face.",
+      "answerZh": "箱子突然打開時,Leo 向後退並遮住臉部。",
+      "highlight": "pulled back",
+      "targetForm": "pull back",
+      "targetMeaningZh": "向後退或把身體縮後"
+    },
+    {
+      "id": "phrasal-verb-274-q91",
+      "number": 91,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 40,
+      "prompt": "Although we cannot attend the race, we all hope that you win.",
+      "promptZh": "雖然我們不能出席比賽,但我們全都希望你勝出。",
+      "starter": "Although",
+      "answer": "Although we cannot attend the race, we are all pulling for you to win.",
+      "answerZh": "雖然我們不能出席比賽,但我們全都支持你,希望你勝出。",
+      "highlight": "are",
+      "targetForm": "pull for somebody",
+      "targetMeaningZh": "支持某人"
+    },
+    {
+      "id": "phrasal-verb-274-q92",
+      "number": 92,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 40,
+      "prompt": "Before the new path could be built, the workers removed the old shrubs by their roots.",
+      "promptZh": "建造新小路前,工人把舊灌木連根拔起。",
+      "starter": "Before",
+      "answer": "Before the new path could be built, the workers pulled the old shrubs up.",
+      "answerZh": "建造新小路前,工人把舊灌木連根拔起。",
+      "highlight": "pulled",
+      "targetForm": "pull something up",
+      "targetMeaningZh": "把植物連根拔起"
+    },
+    {
+      "id": "phrasal-verb-274-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "The police signalled to the driver and made him stop at the side of the road.",
+      "promptZh": "警方向司機發出指示,着他停在路旁。",
+      "starter": "The",
+      "answer": "The police pulled the driver over at the side of the road.",
+      "answerZh": "警方在路旁截停了該名司機。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody over",
+      "targetMeaningZh": "截停駕駛者"
+    },
+    {
+      "id": "phrasal-verb-274-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "After her long illness, the care of her neighbours helped Nia survive and recover.",
+      "promptZh": "Nia 患上長期疾病後,鄰居的照顧幫助她捱過難關並康復。",
+      "starter": "The",
+      "answer": "The care of her neighbours pulled Nia through her long illness.",
+      "answerZh": "鄰居的照顧幫助 Nia 捱過長期疾病。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody through something",
+      "targetMeaningZh": "幫助某人捱過困難"
+    },
+    {
+      "id": "phrasal-verb-274-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "Ava stayed behind during the early part of the race, but on the fast straight she moved in front of every other runner.",
+      "promptZh": "Ava 在比賽初段落後,但在快速直路上超越了所有其他跑手。",
+      "starter": "Ava",
+      "answer": "Ava stayed behind during the early part of the race, but on the fast straight she pulled ahead of every other runner.",
+      "answerZh": "Ava 在比賽初段落後,但在快速直路上超越了所有其他跑手。",
+      "highlight": "pulled ahead",
+      "targetForm": "pull ahead of somebody",
+      "targetMeaningZh": "在比賽中超前"
+    },
+    {
+      "id": "phrasal-verb-274-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "When the host moved the curtain to one side, a narrow wooden door appeared.",
+      "promptZh": "主持人把窗簾拉到一旁時,一道窄木門便露了出來。",
+      "starter": "When",
+      "answer": "When the host pulled the curtain aside, a narrow wooden door appeared.",
+      "answerZh": "主持人把窗簾拉到一旁時,一道窄木門便露了出來。",
+      "highlight": "pulled",
+      "targetForm": "pull something aside",
+      "targetMeaningZh": "把某物拉向一旁"
+    },
+    {
+      "id": "phrasal-verb-274-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 41,
+      "prompt": "The editor noticed the same punctuation mistakes again and criticised the writer for them.",
+      "promptZh": "編輯再次發現相同的標點錯誤,並因此批評作者。",
+      "starter": "The",
+      "answer": "The editor pulled the writer up on his repeated punctuation mistakes.",
+      "answerZh": "編輯指出並批評作者重複出現的標點錯誤。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody up on something",
+      "targetMeaningZh": "指出並批評某人的錯誤"
+    },
+    {
+      "id": "phrasal-verb-274-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 41,
+      "prompt": "He reached into his coat and took a sealed envelope from his pocket.",
+      "promptZh": "他把手伸進外套,從口袋取出一個密封信封。",
+      "starter": "He",
+      "answer": "He reached into his coat and pulled a sealed envelope out of his pocket.",
+      "answerZh": "他把手伸進外套,從口袋取出一個密封信封。",
+      "highlight": "pulled",
+      "targetForm": "pull something out of something",
+      "targetMeaningZh": "從某處取出某物"
+    },
+    {
+      "id": "phrasal-verb-274-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "We reached the station just as the train began leaving the platform.",
+      "promptZh": "我們到達車站時,火車剛開始駛離月台。",
+      "starter": "We",
+      "answer": "We reached the station just as the train began pulling away from the platform.",
+      "answerZh": "我們到達車站時,火車剛開始駛離月台。",
+      "highlight": "pulling away from",
+      "targetForm": "pull away from something",
+      "targetMeaningZh": "駛離或離開某處"
+    },
+    {
+      "id": "phrasal-verb-274-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "The manager warned the team that they must improve their effort if they wanted to keep their jobs.",
+      "promptZh": "經理警告團隊,如果他們想保住工作,便必須更加努力。",
+      "starter": "The",
+      "answer": "The manager warned the team that they must pull their socks up if they wanted to keep their jobs.",
+      "answerZh": "經理警告團隊,如果他們想保住工作,便必須加把勁。",
+      "highlight": "pull",
+      "targetForm": "pull your socks up",
+      "targetMeaningZh": "加把勁;改善表現"
+    },
+    {
+      "id": "phrasal-verb-274-q101",
+      "number": 101,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "After falling 3–0 behind, the home side scored twice and reduced the score to 3–2.",
+      "promptZh": "主隊落後零比三後連入兩球,把比分追近至三比二。",
+      "starter": "After",
+      "answer": "After falling 3–0 behind, the home side pulled two goals back to make the score 3–2.",
+      "answerZh": "主隊落後零比三後追回兩球,把比分追近至三比二。",
+      "highlight": "pulled two goals back to make",
+      "targetForm": "pull something back",
+      "targetMeaningZh": "在比賽中扳回失分"
+    },
+    {
+      "id": "phrasal-verb-274-q102",
+      "number": 102,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "Two dogs began fighting near the gate, and three people were needed to separate them.",
+      "promptZh": "兩隻狗在閘門附近打鬥,需要三個人把牠們拉開。",
+      "starter": "Two",
+      "answer": "Two dogs began fighting near the gate, and three people were needed to pull them apart.",
+      "answerZh": "兩隻狗在閘門附近打鬥,需要三個人把牠們拉開。",
+      "highlight": "pull",
+      "targetForm": "pull somebody apart",
+      "targetMeaningZh": "把正在打鬥的人或動物拉開"
+    },
+    {
+      "id": "phrasal-verb-274-q103",
+      "number": 103,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 42,
+      "prompt": "Please keep the room warm by closing the door gently when you leave.",
+      "promptZh": "離開時請輕輕把門帶上,保持房間溫暖。",
+      "starter": "Please",
+      "answer": "Please keep the room warm by pulling the door to gently when you leave.",
+      "answerZh": "離開時請輕輕把門帶上,保持房間溫暖。",
+      "highlight": "pulling",
+      "targetForm": "pull something to",
+      "targetMeaningZh": "把門帶上"
+    },
+    {
+      "id": "phrasal-verb-274-q104",
+      "number": 104,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 42,
+      "prompt": "We had been waiting for ten minutes when the bus finally stopped outside the school.",
+      "promptZh": "我們等了十分鐘後,巴士終於在學校外停下。",
+      "starter": "We",
+      "answer": "We had been waiting for ten minutes when the bus finally pulled up outside the school.",
+      "answerZh": "我們等了十分鐘後,巴士終於在學校外停下。",
+      "highlight": "pulled up",
+      "targetForm": "pull up",
+      "targetMeaningZh": "車輛駛至某處停下"
+    },
+    {
+      "id": "phrasal-verb-274-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "I did not want the others to hear, so I took my colleague to one side.",
+      "promptZh": "我不想其他人聽見,所以把同事帶到一旁。",
+      "starter": "I",
+      "answer": "I did not want the others to hear, so I pulled my colleague aside.",
+      "answerZh": "我不想其他人聽見,所以把同事拉到一旁。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody aside",
+      "targetMeaningZh": "把某人拉到一旁私下說話"
+    },
+    {
+      "id": "phrasal-verb-274-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Months of poor sleep were making Zara feel weaker every day.",
+      "promptZh": "數月睡眠不足令 Zara 每天都感到更加虛弱。",
+      "starter": "Months",
+      "answer": "Months of poor sleep were pulling Zara down.",
+      "answerZh": "數月睡眠不足正令 Zara 愈來愈虛弱。",
+      "highlight": "pulling",
+      "targetForm": "pull somebody down",
+      "targetMeaningZh": "使某人疲倦、虛弱或情緒低落"
+    },
+    {
+      "id": "phrasal-verb-274-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "When the danger increased, the organisers withdrew all the workers from the area.",
+      "promptZh": "危險增加時,主辦單位把所有工作人員撤離該區。",
+      "starter": "When",
+      "answer": "When the danger increased, the organisers pulled all the workers out of the area.",
+      "answerZh": "危險增加時,主辦單位把所有工作人員撤離該區。",
+      "highlight": "pulled",
+      "targetForm": "pull somebody out of something",
+      "targetMeaningZh": "把某人撤離某處"
+    },
+    {
+      "id": "phrasal-verb-274-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "Before the film started, the staff lowered the shutters and locked the doors.",
+      "promptZh": "電影開始前,職員拉下捲閘並鎖上門。",
+      "starter": "Before",
+      "answer": "Before the film started, the staff pulled the shutters down and locked the doors.",
+      "answerZh": "電影開始前,職員拉下捲閘並鎖上門。",
+      "highlight": "pulled",
+      "targetForm": "pull something down",
+      "targetMeaningZh": "把簾、閘或類似物件拉下"
+    },
+    {
+      "id": "phrasal-verb-274-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 43,
+      "prompt": "As his mother spoke to the teacher, the little boy tugged anxiously at her sleeve.",
+      "promptZh": "媽媽跟老師說話時,小男孩焦急地拉扯她的衣袖。",
+      "starter": "As",
+      "answer": "As his mother spoke to the teacher, the little boy pulled anxiously at her sleeve.",
+      "answerZh": "媽媽跟老師說話時,小男孩焦急地拉扯她的衣袖。",
+      "highlight": "pulled",
+      "targetForm": "pull at something",
+      "targetMeaningZh": "反覆拉扯某物"
+    },
+    {
+      "id": "phrasal-verb-274-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 43,
+      "prompt": "The boat turned sideways, and the strong current dragged it below the water.",
+      "promptZh": "小船轉向一側,強勁水流把它拖到水面下。",
+      "starter": "The",
+      "answer": "The boat turned sideways, and the strong current pulled it under.",
+      "answerZh": "小船轉向一側,強勁水流把它拖到水面下。",
+      "highlight": "pulled",
+      "targetForm": "pull something under",
+      "targetMeaningZh": "把某物拖到水面下"
+    }
+  ]
+}

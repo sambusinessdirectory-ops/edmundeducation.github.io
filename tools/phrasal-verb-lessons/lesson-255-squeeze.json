@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-255",
+  "order": 255,
+  "slug": "squeeze",
+  "version": "1",
+  "title": "SQUEEZE 動詞片語",
+  "titleEn": "Squeeze",
+  "titleZh": "SQUEEZE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 240 - SQUEEZE.pdf",
+    "sourceNumber": 240,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SQUEEZE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SQUEEZE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SQUEEZE",
+      "highlight": "SQUEEZE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We squeezed into the crowded lift.",
+      "zh": "我們勉強擠進了擠迫的升降機。",
+      "highlight": "squeezed into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dentist squeezed me in before lunch.",
+      "zh": "牙醫在午飯前勉強安排時間接見我。",
+      "highlight": "squeezed me in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Small firms are being squeezed out by larger companies.",
+      "zh": "小公司正受到較大公司的排擠,被迫退出市場。",
+      "highlight": "squeezed out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "勉強擠進狹窄或擠迫的空間；在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去；迫使某人或某事物退出某地方、行業、活動或市場；用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+    "en": "squeeze in / squeeze into something Also: squash in / squash into something; squeeze somebody/something in / squeeze somebody/something into something; squeeze somebody/something out / squeeze somebody/something out of something; squeeze something out",
+    "naturalZh": [
+      "勉強擠進狹窄或擠迫的空間",
+      "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+      "迫使某人或某事物退出某地方、行業、活動或市場",
+      "用力擠壓濕布、毛巾或海綿,把當中的水擠走"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "squeeze in / squeeze into something Also: squash in / squash into something",
+      "titleZh": "勉強擠進狹窄或擠迫的空間",
+      "titleEn": "squeeze in / squeeze into something Also: squash in / squash into something",
+      "descriptionZh": "勉強擠進狹窄或擠迫的空間",
+      "descriptionEn": "We squeezed into the crowded lift.",
+      "examples": [
+        {
+          "en": "We squeezed into the crowded lift.",
+          "zh": "我們勉強擠進了擠迫的升降機。",
+          "highlight": "squeezed into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "squeeze somebody/something in / squeeze somebody/something into something",
+      "titleZh": "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+      "titleEn": "squeeze somebody/something in / squeeze somebody/something into something",
+      "descriptionZh": "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+      "descriptionEn": "The dentist squeezed me in before lunch.",
+      "examples": [
+        {
+          "en": "The dentist squeezed me in before lunch.",
+          "zh": "牙醫在午飯前勉強安排時間接見我。",
+          "highlight": "squeezed me in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "squeeze somebody/something out / squeeze somebody/something out of something",
+      "titleZh": "迫使某人或某事物退出某地方、行業、活動或市場",
+      "titleEn": "squeeze somebody/something out / squeeze somebody/something out of something",
+      "descriptionZh": "迫使某人或某事物退出某地方、行業、活動或市場",
+      "descriptionEn": "Small firms are being squeezed out by larger companies.",
+      "examples": [
+        {
+          "en": "Small firms are being squeezed out by larger companies.",
+          "zh": "小公司正受到較大公司的排擠,被迫退出市場。",
+          "highlight": "squeezed out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "squeeze something out",
+      "titleZh": "用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+      "titleEn": "squeeze something out",
+      "descriptionZh": "用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+      "descriptionEn": "She squeezed the cloth out.",
+      "examples": [
+        {
+          "en": "She squeezed the cloth out.",
+          "zh": "她把布中的水擠走。",
+          "highlight": "squeezed the cloth out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SQUEEZE 片語動詞的實際用途",
+    "labelEn": "SQUEEZE Phrasal Verbs in Use",
+    "summaryZh": "squeeze in 和 squeeze into something 可以描述擠進滿座巴士、小型汽車、擠迫的升降機或其他狹窄空間。；你可以把另一本書塞進袋中、把另一張椅子放進房間,或在已排滿的時間表中安排多一名病人。；當競爭、高昂成本或更強大的團體迫使某人退出市場、地方或活動時,可以使用 squeezesomebody or something out。；squeeze something out 可以自然地描述把布、毛巾、海綿或地拖中的水擠走。",
+    "summaryEn": "Squeeze in and squeeze into something help you describe entering a full bus, a small car, a crowded lift or another narrow space. You can squeeze another book into a bag, squeeze another chair into a room or squeeze a patient into a full timetable. Squeeze somebody or something out is useful when competition, high costs or stronger groups make someone leave a market, place or activity. Squeeze something out gives you a natural way to talk about pressing water from a cloth, towel, sponge or mop.",
+    "contextsZh": [
+      "描述擠進狹窄或擠迫的空間",
+      "談論在有限空間或時間內加入人或物",
+      "描述某人或某事物受到排擠",
+      "談論把濕物中的水擠走"
+    ],
+    "contextsEn": [
+      "Describe entering a crowded space",
+      "Talk about fitting people, objects and appointments into limited space",
+      "Describe people or businesses being forced to leave",
+      "Talk about removing water from wet objects"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SQUEEZE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+    "formalEn": "Read the whole sentence and choose the SQUEEZE expression that gives the same meaning. Keep the same people, things, time and situation."
+  },
+  "fixedVariable": {
+    "fixed": "squeeze in / squeeze into something Also: squash in / squash into something",
+    "fixedHighlight": "squeeze in / squeeze into something Also: squash in / squash into something",
+    "fixedZh": "閱讀整句,選出意思相同的 SQUEEZE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+    "fixedEn": "Read the whole sentence and choose the SQUEEZE expression that gives the same meaning. Keep the same people, things, time and situation.",
+    "correct": "squeezed into",
+    "incorrectForms": [],
+    "variableZh": "squeeze in 本身可以完整使用;squeeze into something 則補充擠進的地方。squeeze somebody/something in 本身也可以完整使用;squeeze somebody/something intosomething 則補充把人或物塞進哪裏。；squeeze somebody/something out 本身可以完整使用;out of something 則補充被迫退出的地方、活動或市場。；(較大的公司迫使小公司退出。)She squeezed the wet cloth out.(她把濕布中的水擠走。)With him, her, it or them, follow these examples:squeeze it insqueeze them outsqueeze it out使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SQUEEZE 和 IN/OUT 之間。",
+    "variableEn": "Squeeze in can stand alone. Squeeze into something adds the place that a person enters. We squeezed in. We squeezed into the crowded lift. Squeeze somebody/something in can also stand alone. Squeeze somebody/something into something adds the place or situation where that person or thing is fitted. We squeezed the bags in. We squeezed the bags into the car. Squeeze somebody/something out can stand alone. Out of something adds the place, activity or market that the person or thing is forced to leave. The small shop was squeezed out. The small shop was squeezed out of the market. Read the context carefully because squeeze something out can express two different ideas: Larger companies squeezed the small firm out.",
+    "variableItemsZh": [
+      "squeeze in / squeeze into something Also: squash in / squash into something",
+      "squeeze somebody/something in / squeeze somebody/something into something",
+      "squeeze somebody/something out / squeeze somebody/something out of something",
+      "squeeze something out"
+    ],
+    "variableItemsEn": [
+      "squeeze in / squeeze into something Also: squash in / squash into something",
+      "squeeze somebody/something in / squeeze somebody/something into something",
+      "squeeze somebody/something out / squeeze somebody/something out of something",
+      "squeeze something out"
+    ],
+    "forms": [
+      {
+        "formZh": "勉強擠進狹窄或擠迫的空間",
+        "formEn": "squeeze in / squeeze into something Also: squash in / squash into something",
+        "exampleZh": "我們勉強擠進了擠迫的升降機。",
+        "exampleEn": "We squeezed into the crowded lift.",
+        "highlight": "squeezed into"
+      },
+      {
+        "formZh": "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+        "formEn": "squeeze somebody/something in / squeeze somebody/something into something",
+        "exampleZh": "牙醫在午飯前勉強安排時間接見我。",
+        "exampleEn": "The dentist squeezed me in before lunch.",
+        "highlight": "squeezed me in"
+      },
+      {
+        "formZh": "迫使某人或某事物退出某地方、行業、活動或市場",
+        "formEn": "squeeze somebody/something out / squeeze somebody/something out of something",
+        "exampleZh": "小公司正受到較大公司的排擠,被迫退出市場。",
+        "exampleEn": "Small firms are being squeezed out by larger companies.",
+        "highlight": "squeezed out"
+      },
+      {
+        "formZh": "用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+        "formEn": "squeeze something out",
+        "exampleZh": "她把布中的水擠走。",
+        "exampleEn": "She squeezed the cloth out.",
+        "highlight": "squeezed the cloth out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "勉強擠進狹窄或擠迫的空間",
+      "titleEn": "squeeze in / squeeze into something Also: squash in / squash into something",
+      "formula": "squeeze in / squeeze into something Also: squash in / squash into something",
+      "highlight": "squeeze in / squeeze into something Also: squash in / squash into something",
+      "descriptionZh": "勉強擠進狹窄或擠迫的空間",
+      "descriptionEn": "We squeezed into the crowded lift.",
+      "examples": [
+        {
+          "en": "We squeezed into the crowded lift.",
+          "zh": "我們勉強擠進了擠迫的升降機。",
+          "highlight": "squeezed into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+      "titleEn": "squeeze somebody/something in / squeeze somebody/something into something",
+      "formula": "squeeze somebody/something in / squeeze somebody/something into something",
+      "highlight": "squeeze somebody/something in / squeeze somebody/something into something",
+      "descriptionZh": "在空間或時間有限的情況下,勉強把某人或某物塞進去或安排進去",
+      "descriptionEn": "The dentist squeezed me in before lunch.",
+      "examples": [
+        {
+          "en": "The dentist squeezed me in before lunch.",
+          "zh": "牙醫在午飯前勉強安排時間接見我。",
+          "highlight": "squeezed me in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "迫使某人或某事物退出某地方、行業、活動或市場",
+      "titleEn": "squeeze somebody/something out / squeeze somebody/something out of something",
+      "formula": "squeeze somebody/something out / squeeze somebody/something out of something",
+      "highlight": "squeeze somebody/something out / squeeze somebody/something out of something",
+      "descriptionZh": "迫使某人或某事物退出某地方、行業、活動或市場",
+      "descriptionEn": "Small firms are being squeezed out by larger companies.",
+      "examples": [
+        {
+          "en": "Small firms are being squeezed out by larger companies.",
+          "zh": "小公司正受到較大公司的排擠,被迫退出市場。",
+          "highlight": "squeezed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+      "titleEn": "squeeze something out",
+      "formula": "squeeze something out",
+      "highlight": "squeeze something out",
+      "descriptionZh": "用力擠壓濕布、毛巾或海綿,把當中的水擠走",
+      "descriptionEn": "She squeezed the cloth out.",
+      "examples": [
+        {
+          "en": "She squeezed the cloth out.",
+          "zh": "她把布中的水擠走。",
+          "highlight": "squeezed the cloth out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述擠進狹窄或擠迫的空間",
+      "titleEn": "Describe entering a crowded space",
+      "zh": "squeeze in 和 squeeze into something 可以描述擠進滿座巴士、小型汽車、擠迫的升降機或其他狹窄空間。",
+      "en": "Squeeze in and squeeze into something help you describe entering a full bus, a small car, a crowded lift or another narrow space."
+    },
+    {
+      "titleZh": "談論在有限空間或時間內加入人或物",
+      "titleEn": "Talk about fitting people, objects and appointments into limited space",
+      "zh": "你可以把另一本書塞進袋中、把另一張椅子放進房間,或在已排滿的時間表中安排多一名病人。",
+      "en": "You can squeeze another book into a bag, squeeze another chair into a room or squeeze a patient into a full timetable."
+    },
+    {
+      "titleZh": "描述某人或某事物受到排擠",
+      "titleEn": "Describe people or businesses being forced to leave",
+      "zh": "當競爭、高昂成本或更強大的團體迫使某人退出市場、地方或活動時,可以使用 squeezesomebody or something out。",
+      "en": "Squeeze somebody or something out is useful when competition, high costs or stronger groups make someone leave a market, place or activity."
+    },
+    {
+      "titleZh": "談論把濕物中的水擠走",
+      "titleEn": "Talk about removing water from wet objects",
+      "zh": "squeeze something out 可以自然地描述把布、毛巾、海綿或地拖中的水擠走。",
+      "en": "Squeeze something out gives you a natural way to talk about pressing water from a cloth, towel, sponge or mop."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述擠進狹窄或擠迫的空間",
+      "談論在有限空間或時間內加入人或物",
+      "描述某人或某事物受到排擠",
+      "談論把濕物中的水擠走"
+    ],
+    "contextsEn": [
+      "Describe entering a crowded space",
+      "Talk about fitting people, objects and appointments into limited space",
+      "Describe people or businesses being forced to leave",
+      "Talk about removing water from wet objects"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述擠進狹窄或擠迫的空間",
+        "titleEn": "Describe entering a crowded space",
+        "zh": "squeeze in 和 squeeze into something 可以描述擠進滿座巴士、小型汽車、擠迫的升降機或其他狹窄空間。",
+        "en": "Squeeze in and squeeze into something help you describe entering a full bus, a small car, a crowded lift or another narrow space.",
+        "examples": [
+          {
+            "en": "We squeezed into the crowded lift.",
+            "zh": "我們勉強擠進了擠迫的升降機。",
+            "highlight": "squeezed into"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論在有限空間或時間內加入人或物",
+        "titleEn": "Talk about fitting people, objects and appointments into limited space",
+        "zh": "你可以把另一本書塞進袋中、把另一張椅子放進房間,或在已排滿的時間表中安排多一名病人。",
+        "en": "You can squeeze another book into a bag, squeeze another chair into a room or squeeze a patient into a full timetable.",
+        "examples": [
+          {
+            "en": "The dentist squeezed me in before lunch.",
+            "zh": "牙醫在午飯前勉強安排時間接見我。",
+            "highlight": "squeezed me in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人或某事物受到排擠",
+        "titleEn": "Describe people or businesses being forced to leave",
+        "zh": "當競爭、高昂成本或更強大的團體迫使某人退出市場、地方或活動時,可以使用 squeezesomebody or something out。",
+        "en": "Squeeze somebody or something out is useful when competition, high costs or stronger groups make someone leave a market, place or activity.",
+        "examples": [
+          {
+            "en": "Small firms are being squeezed out by larger companies.",
+            "zh": "小公司正受到較大公司的排擠,被迫退出市場。",
+            "highlight": "squeezed out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論把濕物中的水擠走",
+        "titleEn": "Talk about removing water from wet objects",
+        "zh": "squeeze something out 可以自然地描述把布、毛巾、海綿或地拖中的水擠走。",
+        "en": "Squeeze something out gives you a natural way to talk about pressing water from a cloth, towel, sponge or mop.",
+        "examples": [
+          {
+            "en": "She squeezed the cloth out.",
+            "zh": "她把布中的水擠走。",
+            "highlight": "squeezed the cloth out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SQUEEZE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+      "titleEn": "Read the whole sentence and choose the SQUEEZE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SQUEEZE 片語動詞,並保留原句中的人物、事物、時間和情境。",
+      "en": "Read the whole sentence and choose the SQUEEZE expression that gives the same meaning. Keep the same people, things, time and situation."
+    },
+    {
+      "titleZh": "squeeze in 本身可以完整使用;squeeze into something 則補充擠進的地方。squeeze somebody/something in 本身也可以完整使用;squeeze somebody/something intosomething 則補充把人或物塞進哪裏。",
+      "titleEn": "Squeeze in can stand alone.",
+      "zh": "squeeze in 本身可以完整使用;squeeze into something 則補充擠進的地方。squeeze somebody/something in 本身也可以完整使用;squeeze somebody/something intosomething 則補充把人或物塞進哪裏。",
+      "en": "Squeeze in can stand alone. Squeeze into something adds the place that a person enters. We squeezed in. We squeezed into the crowded lift. Squeeze somebody/something in can also stand alone. Squeeze somebody/something into something adds the place or situation where that person or thing is fitted. We squeezed the bags in. We squeezed the bags into the car."
+    },
+    {
+      "titleZh": "squeeze somebody/something out 本身可以完整使用;out of something 則補充被迫退出的地方、活動或市場。",
+      "titleEn": "Squeeze somebody/something out can stand alone.",
+      "zh": "squeeze somebody/something out 本身可以完整使用;out of something 則補充被迫退出的地方、活動或市場。",
+      "en": "Squeeze somebody/something out can stand alone. Out of something adds the place, activity or market that the person or thing is forced to leave. The small shop was squeezed out. The small shop was squeezed out of the market."
+    },
+    {
+      "titleZh": "(較大的公司迫使小公司退出。)She squeezed the wet cloth out.(她把濕布中的水擠走。)With him, her, it or them, follow these examples:squeeze it insqueeze them outsqueeze it out使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SQUEEZE 和 IN/OUT 之間。",
+      "titleEn": "Read the context carefully because squeeze something out can express two different ideas: Larger companies squeezed the small firm out.",
+      "zh": "(較大的公司迫使小公司退出。)She squeezed the wet cloth out.(她把濕布中的水擠走。)With him, her, it or them, follow these examples:squeeze it insqueeze them outsqueeze it out使用 him、her、it 或 them 時,請按照以上例子把代名詞放在 SQUEEZE 和 IN/OUT 之間。",
+      "en": "Read the context carefully because squeeze something out can express two different ideas: Larger companies squeezed the small firm out."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SQUEEZE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SQUEEZE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SQUEEZE 動詞片語句子改寫練習",
+    "titleEn": "SQUEEZE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SQUEEZE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SQUEEZE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-255-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "One child still managed to enter the crowded bus.",
+      "promptZh": "仍有一名孩子成功登上那輛擠迫的巴士。",
+      "starter": "One",
+      "answer": "One child still squeezed into the crowded bus.",
+      "answerZh": "仍有一名孩子成功擠進了那輛擠迫的巴士。",
+      "highlight": "squeezed into",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ravi managed to fit one more book into his bag.",
+      "promptZh": "Ravi 成功把多一本書放進袋中。",
+      "starter": "Ravi",
+      "answer": "Ravi squeezed one more book into his bag.",
+      "answerZh": "Ravi 勉強把多一本書塞進袋中。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something into something",
+      "targetMeaningZh": "在空間有限的情況下把某物塞進去"
+    },
+    {
+      "id": "phrasal-verb-255-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The larger supermarket forced the small shop out of the local market.",
+      "promptZh": "較大的超級市場迫使那間小店退出本地市場。",
+      "starter": "The",
+      "answer": "The larger supermarket squeezed the small shop out of the local market.",
+      "answerZh": "較大的超級市場迫使那間小店退出本地市場。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某個市場或地方"
+    },
+    {
+      "id": "phrasal-verb-255-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ella pressed the wet cloth until the water came out.",
+      "promptZh": "Ella 用力壓那塊濕布,直至水流出來。",
+      "starter": "Ella",
+      "answer": "Ella squeezed the wet cloth out.",
+      "answerZh": "Ella 把濕布中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Two more students managed to enter the crowded lift.",
+      "promptZh": "另外兩名學生成功進入了擠迫的升降機。",
+      "starter": "Two",
+      "answer": "Two more students squeezed into the crowded lift.",
+      "answerZh": "另外兩名學生勉強擠進了擠迫的升降機。",
+      "highlight": "squeezed into",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The dentist found time to see me before lunch even though the timetable was full.",
+      "promptZh": "雖然時間表已排滿,牙醫仍在午飯前安排時間接見我。",
+      "starter": "The",
+      "answer": "The dentist squeezed me in before lunch even though the timetable was full.",
+      "answerZh": "雖然時間表已排滿,牙醫仍在午飯前勉強安排時間接見我。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在已排滿的時間表中勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Please press the sponge until most of the water comes out.",
+      "promptZh": "請擠壓海綿,直至大部分水流出來。",
+      "starter": "Please",
+      "answer": "Please squeeze the sponge out.",
+      "answerZh": "請把海綿中的水擠走。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Higher rent made two small cafés leave the area.",
+      "promptZh": "租金上升令兩間小型咖啡店被迫離開該區。",
+      "starter": "Higher",
+      "answer": "Higher rent squeezed two small cafés out of the area.",
+      "answerZh": "租金上升迫使兩間小型咖啡店離開該區。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某地方"
+    },
+    {
+      "id": "phrasal-verb-255-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Can we fit another chair into this room?",
+      "promptZh": "我們可以在這個房間再放一張椅子嗎?",
+      "starter": "Can",
+      "answer": "Can we squeeze another chair into this room?",
+      "answerZh": "我們可以在這個房間勉強再放一張椅子嗎?",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something into something",
+      "targetMeaningZh": "在空間有限的情況下把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-255-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We managed to fit into the back seat, although it was very narrow.",
+      "promptZh": "雖然後座十分狹窄,我們仍成功坐了進去。",
+      "starter": "We",
+      "answer": "We managed to squeeze into the back seat, although it was very narrow.",
+      "answerZh": "雖然後座十分狹窄,我們仍成功擠了進去。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Several family shops have had to leave because the new shopping centre took most of their customers.",
+      "promptZh": "新商場搶走了大部分顧客,幾間家庭式店舖因而被迫離開。",
+      "starter": "Several",
+      "answer": "Several family shops have been squeezed out by the new shopping centre.",
+      "answerZh": "幾間家庭式店舖已受到新商場排擠,被迫結業。",
+      "highlight": "been squeezed out by",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "迫使某事物退出市場或停止經營"
+    },
+    {
+      "id": "phrasal-verb-255-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "More passengers are forcing themselves into the crowded train before the doors close.",
+      "promptZh": "更多乘客在車門關上前勉強擠進擠迫的列車。",
+      "starter": "More",
+      "answer": "More passengers are squeezing into the crowded train before the doors close.",
+      "answerZh": "更多乘客在車門關上前擠進擠迫的列車。",
+      "highlight": "squeezing",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The doctor often finds time for one extra patient at the end of the morning.",
+      "promptZh": "醫生經常在上午結束前安排時間接見多一名病人。",
+      "starter": "The",
+      "answer": "The doctor often squeezes one extra patient in at the end of the morning.",
+      "answerZh": "醫生經常在上午結束前勉強安排時間接見多一名病人。",
+      "highlight": "squeezes",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在已排滿的時間表中勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The towel was soaking wet, but I have now pressed all the water from it.",
+      "promptZh": "毛巾原本濕透了,但我現在已把當中的水擠走。",
+      "starter": "The",
+      "answer": "The towel was soaking wet, but I have now squeezed it out.",
+      "answerZh": "毛巾原本濕透了,但我現在已把當中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Large chain stores can take so much business that small cafés have to leave city centres.",
+      "promptZh": "大型連鎖店可能搶走大量生意,令小型咖啡店被迫離開市中心。",
+      "starter": "Large",
+      "answer": "Large chain stores can squeeze small cafés out of city centres.",
+      "answerZh": "大型連鎖店可能迫使小型咖啡店離開市中心。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某地方"
+    },
+    {
+      "id": "phrasal-verb-255-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "How did you manage to enter that tiny car?",
+      "promptZh": "你是怎樣成功坐進那輛細小的汽車的?",
+      "starter": "How",
+      "answer": "How did you squeeze into that tiny car?",
+      "answerZh": "你是怎樣擠進那輛細小的汽車的?",
+      "highlight": "squeeze into",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The timetable is full, but I will try to find time for you.",
+      "promptZh": "時間表已排滿,但我會嘗試安排時間給你。",
+      "starter": "The",
+      "answer": "The timetable is full, but I will try to squeeze you in.",
+      "answerZh": "時間表已排滿,但我會嘗試安排時間給你。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在已排滿的時間表中勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Do not store the sponge until you have pressed the water from it.",
+      "promptZh": "把海綿收起來前,必須先把當中的水擠走。",
+      "starter": "Do",
+      "answer": "Do not store the sponge until you have squeezed it out.",
+      "answerZh": "把海綿收起來前,必須先把當中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "All six of us have somehow managed to fit into the small tent.",
+      "promptZh": "我們六個人不知怎的全都成功進入了那個小帳篷。",
+      "starter": "All",
+      "answer": "All six of us have somehow squeezed into the small tent.",
+      "answerZh": "我們六個人不知怎的全都擠進了那個小帳篷。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The largest websites may take so many users that smaller websites cannot remain.",
+      "promptZh": "最大的網站可能吸引大量用戶,令較小的網站無法繼續營運。",
+      "starter": "The",
+      "answer": "The largest websites may squeeze smaller websites out.",
+      "answerZh": "最大的網站可能排擠較小的網站,令它們無法繼續營運。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "迫使某事物退出市場或停止經營"
+    },
+    {
+      "id": "phrasal-verb-255-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "This jacket is the last item. Perhaps we can still fit it into the case.",
+      "promptZh": "這件外套是最後一件物品。也許我們仍可以把它放進箱中。",
+      "starter": "This",
+      "answer": "This jacket is the last item. Perhaps we can still squeeze it in.",
+      "answerZh": "這件外套是最後一件物品。也許我們仍可以把它勉強塞進去。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something in",
+      "targetMeaningZh": "在空間有限的情況下把某物塞進去"
+    },
+    {
+      "id": "phrasal-verb-255-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The floor cloth is wet. Press it until the water comes out.",
+      "promptZh": "地布濕了。請把當中的水擠走。",
+      "starter": "The",
+      "answer": "The floor cloth is wet. Squeeze it out.",
+      "answerZh": "地布濕了。請把當中的水擠走。",
+      "highlight": "Squeeze",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although the lift looked full, Kai managed to enter.",
+      "promptZh": "雖然升降機看來已滿,Kai 仍成功進去了。",
+      "starter": "Although",
+      "answer": "Although the lift looked full, Kai squeezed in.",
+      "answerZh": "雖然升降機看來已滿,Kai 仍擠了進去。",
+      "highlight": "squeezed in",
+      "targetForm": "squeeze in",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Cheaper online books were forcing the small book company out of the market.",
+      "promptZh": "較便宜的網上書籍正迫使那間小型書商退出市場。",
+      "starter": "Cheaper",
+      "answer": "Cheaper online books were squeezing the small book company out of the market.",
+      "answerZh": "較便宜的網上書籍正迫使那間小型書商退出市場。",
+      "highlight": "squeezing",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某個市場"
+    },
+    {
+      "id": "phrasal-verb-255-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could I be given a short appointment between two meetings?",
+      "promptZh": "可以在兩個會議之間安排一個短時間接見我嗎?",
+      "starter": "Could",
+      "answer": "Could I be squeezed in between two meetings?",
+      "answerZh": "可以在兩個會議之間安排一個短時間接見我嗎?",
+      "highlight": "squeezed in",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在已排滿的時間表中勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "You should press the mop until the extra water comes out.",
+      "promptZh": "你應該把地拖中多餘的水擠走。",
+      "starter": "You",
+      "answer": "You should squeeze the mop out.",
+      "answerZh": "你應該把地拖中多餘的水擠走。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We had to fit into the tiny photo booth.",
+      "promptZh": "我們不得不擠進那個細小的自拍亭。",
+      "starter": "We",
+      "answer": "We had to squeeze into the tiny photo booth.",
+      "answerZh": "我們不得不擠進那個細小的自拍亭。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The larger companies did more than compete with the small firms; they made them leave the market.",
+      "promptZh": "較大的公司不只是與小公司競爭,更迫使它們退出市場。",
+      "starter": "The",
+      "answer": "The larger companies did more than compete with the small firms; they squeezed them out.",
+      "answerZh": "較大的公司不只是與小公司競爭,更迫使它們退出市場。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "迫使某事物退出市場或活動"
+    },
+    {
+      "id": "phrasal-verb-255-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The organiser managed to fit one final ten-minute talk into the programme.",
+      "promptZh": "主辦單位成功在節目中安排最後一個十分鐘的演講。",
+      "starter": "The",
+      "answer": "The organiser squeezed one final ten-minute talk into the programme.",
+      "answerZh": "主辦單位在節目中勉強安排了最後一個十分鐘的演講。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something into something",
+      "targetMeaningZh": "在時間有限的情況下把某事安排進去"
+    },
+    {
+      "id": "phrasal-verb-255-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Have you removed the water from the towel by pressing it?",
+      "promptZh": "你已經把毛巾中的水擠走了嗎?",
+      "starter": "Have",
+      "answer": "Have you squeezed the towel out?",
+      "answerZh": "你已經把毛巾中的水擠走了嗎?",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Before using the cleaning cloth again, Noor pressed it firmly until no water remained.",
+      "promptZh": "再次使用清潔布前,Noor 用力擠壓它,直至沒有水留下。",
+      "starter": "Before",
+      "answer": "Before using the cleaning cloth again, Noor squeezed it out.",
+      "answerZh": "再次使用清潔布前,Noor 把當中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the back row was very narrow, four children managed to fit into it.",
+      "promptZh": "雖然後排十分狹窄,四名孩子仍成功坐了進去。",
+      "starter": "Although",
+      "answer": "Although the back row was very narrow, four children squeezed into it.",
+      "answerZh": "雖然後排十分狹窄,四名孩子仍擠了進去。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強擠進狹窄的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A rise in rent made several small art studios leave the building.",
+      "promptZh": "租金上升令幾間小型藝術工作室被迫搬離大廈。",
+      "starter": "A",
+      "answer": "A rise in rent squeezed several small art studios out of the building.",
+      "answerZh": "租金上升迫使幾間小型藝術工作室搬離大廈。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物離開某地方"
+    },
+    {
+      "id": "phrasal-verb-255-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Do you think the teacher can find five minutes to see me before class?",
+      "promptZh": "你認為老師可以在上課前安排五分鐘接見我嗎?",
+      "starter": "Do",
+      "answer": "Do you think the teacher can squeeze me in before class?",
+      "answerZh": "你認為老師可以在上課前安排時間接見我嗎?",
+      "highlight": "squeeze",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在時間有限的情況下勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The cloth should be pressed until the water is removed before it is used on the floor.",
+      "promptZh": "用這塊布抹地前,應先把當中的水擠走。",
+      "starter": "The",
+      "answer": "The cloth should be squeezed out before it is used on the floor.",
+      "answerZh": "用這塊布抹地前,應先把當中的水擠走。",
+      "highlight": "squeezed out",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The train doors were about to close, but the last passenger managed to enter.",
+      "promptZh": "列車車門快要關上,但最後一名乘客仍成功進入車廂。",
+      "starter": "The",
+      "answer": "The train doors were about to close, but the last passenger squeezed in.",
+      "answerZh": "列車車門快要關上,但最後一名乘客仍擠進了車廂。",
+      "highlight": "squeezed in",
+      "targetForm": "squeeze in",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Richer clubs took the best players and forced the local team out of the top league.",
+      "promptZh": "較富有的球會羅致了最出色的球員,並迫使本地球隊退出頂級聯賽。",
+      "starter": "Richer",
+      "answer": "Richer clubs squeezed the local team out of the top league.",
+      "answerZh": "較富有的球會迫使本地球隊退出頂級聯賽。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某項活動或比賽"
+    },
+    {
+      "id": "phrasal-verb-255-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We managed to fit the baby’s chair between the table and the wall.",
+      "promptZh": "我們成功把嬰兒椅放在桌子和牆壁之間。",
+      "starter": "We",
+      "answer": "We squeezed the baby’s chair in between the table and the wall.",
+      "answerZh": "我們把嬰兒椅勉強放在桌子和牆壁之間。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something in",
+      "targetMeaningZh": "在空間有限的情況下把某物放進去"
+    },
+    {
+      "id": "phrasal-verb-255-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After washing the small towel, I pressed it until it stopped dripping.",
+      "promptZh": "洗過小毛巾後,我把它擠至不再滴水。",
+      "starter": "After",
+      "answer": "After washing the small towel, I squeezed it out.",
+      "answerZh": "洗過小毛巾後,我把當中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "He managed to put on the jacket, although it was much too small.",
+      "promptZh": "雖然外套小得多,他仍成功穿了進去。",
+      "starter": "He",
+      "answer": "He squeezed into the jacket, although it was much too small.",
+      "answerZh": "雖然外套小得多,他仍勉強穿了進去。",
+      "highlight": "squeezed into",
+      "targetForm": "squeeze into something",
+      "targetMeaningZh": "勉強穿進過小或過窄的衣物"
+    },
+    {
+      "id": "phrasal-verb-255-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family bakery had served the street for years. After two large chains opened nearby, it could no longer remain in the area.",
+      "promptZh": "這間家庭式麵包店在街上經營了多年。兩間大型連鎖店在附近開業後,它便無法繼續留在該區。",
+      "starter": "The",
+      "answer": "The family bakery had served the street for years. After two large chains opened nearby, it was squeezed out of the area.",
+      "answerZh": "這間家庭式麵包店在街上經營了多年。兩間大型連鎖店在附近開業後,它便受到排擠,被迫離開該區。",
+      "highlight": "was squeezed out of",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某地方或市場"
+    },
+    {
+      "id": "phrasal-verb-255-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The case already held clothes and books, but Lena still managed to fit a small gift inside.",
+      "promptZh": "箱子已放有衣服和書籍,但Lena仍成功把一份小禮物放進去。",
+      "starter": "The",
+      "answer": "The case already held clothes and books, but Lena still squeezed a small gift in.",
+      "answerZh": "箱子已放有衣服和書籍,但 Lena 仍勉強把一份小禮物塞了進去。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something in",
+      "targetMeaningZh": "在空間有限的情況下把某物塞進去"
+    },
+    {
+      "id": "phrasal-verb-255-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the café table was meant for four people, six friends managed to fit around it.",
+      "promptZh": "雖然咖啡店的桌子只供四人使用,六名朋友仍成功圍着它坐下。",
+      "starter": "Although",
+      "answer": "Although the café table was meant for four people, six friends squeezed in around it.",
+      "answerZh": "雖然咖啡店的桌子只供四人使用,六名朋友仍勉強圍着它坐下。",
+      "highlight": "squeezed in",
+      "targetForm": "squeeze in",
+      "targetMeaningZh": "勉強擠進有限的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The sponge was full of dirty water. Ben pressed it until the water came out before cleaning the next window.",
+      "promptZh": "海綿充滿污水。Ben 在清潔下一扇窗前,把當中的水擠走。",
+      "starter": "The",
+      "answer": "The sponge was full of dirty water. Ben squeezed it out before cleaning the next window.",
+      "answerZh": "海綿充滿污水。Ben 在清潔下一扇窗前,把當中的水擠走。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    },
+    {
+      "id": "phrasal-verb-255-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The new rule did not ban small sellers directly, but its extra costs made many of them leave the market.",
+      "promptZh": "新規則沒有直接禁止小型賣家,但額外費用令許多賣家被迫退出市場。",
+      "starter": "The",
+      "answer": "The new rule did not ban small sellers directly, but its extra costs squeezed many of them out of the market.",
+      "answerZh": "新規則沒有直接禁止小型賣家,但額外費用迫使許多賣家退出市場。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze somebody out of something",
+      "targetMeaningZh": "迫使某人退出某個市場或活動"
+    },
+    {
+      "id": "phrasal-verb-255-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Because the clinic was full, I did not expect the receptionist to find time for me that afternoon.",
+      "promptZh": "因為診所已排滿,我沒有預期接待員能在當天下午安排時間給我。",
+      "starter": "Because",
+      "answer": "Because the clinic was full, I did not expect the receptionist to squeeze me in that afternoon.",
+      "answerZh": "因為診所已排滿,我沒有預期接待員能在當天下午安排時間給我。",
+      "highlight": "squeeze",
+      "targetForm": "squeeze somebody in",
+      "targetMeaningZh": "在已排滿的時間表中勉強安排某人"
+    },
+    {
+      "id": "phrasal-verb-255-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The bus was so full that no additional passenger could have entered.",
+      "promptZh": "巴士十分擠迫,再沒有任何乘客可以上車。",
+      "starter": "The",
+      "answer": "The bus was so full that not one more passenger could have squeezed in.",
+      "answerZh": "巴士十分擠迫,再沒有任何乘客可以擠上車。",
+      "highlight": "not one more",
+      "targetForm": "squeeze in",
+      "targetMeaningZh": "勉強擠進狹窄或擠迫的空間"
+    },
+    {
+      "id": "phrasal-verb-255-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By the end of the year, two larger apps had taken most of the users and forced the smaller app out of the market.",
+      "promptZh": "到了年末,兩個較大型的應用程式已吸引大部分用戶,迫使較小的應用程式退出市場。",
+      "starter": "By",
+      "answer": "By the end of the year, two larger apps had squeezed the smaller app out of the market.",
+      "answerZh": "到了年末,兩個較大型的應用程式已迫使較小的應用程式退出市場。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out of something",
+      "targetMeaningZh": "迫使某事物退出某個市場"
+    },
+    {
+      "id": "phrasal-verb-255-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The suitcase was nearly closed. Somehow, Arun managed to fit one more pair of shoes into it.",
+      "promptZh": "行李箱幾乎已經關好。不知怎的,Arun 仍成功把多一雙鞋放進去。",
+      "starter": "The",
+      "answer": "The suitcase was nearly closed. Somehow, Arun squeezed one more pair of shoes into it.",
+      "answerZh": "行李箱幾乎已經關好。不知怎的,Arun 仍把多一雙鞋勉強塞了進去。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something into something",
+      "targetMeaningZh": "在空間有限的情況下把某物塞進去"
+    },
+    {
+      "id": "phrasal-verb-255-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Once the camping towel had been pressed until the water came out, it dried quickly.",
+      "promptZh": "露營毛巾中的水被擠走後,很快便乾了。",
+      "starter": "Once",
+      "answer": "Once the camping towel had been squeezed out, it dried quickly.",
+      "answerZh": "露營毛巾中的水被擠走後,很快便乾了。",
+      "highlight": "squeezed",
+      "targetForm": "squeeze something out",
+      "targetMeaningZh": "用力擠壓濕物,把當中的水擠走"
+    }
+  ]
+}

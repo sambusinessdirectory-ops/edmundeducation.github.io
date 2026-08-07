@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-49",
+  "order": 49,
+  "slug": "gather",
+  "version": "1",
+  "title": "GATHER 動詞片語",
+  "titleEn": "Gather",
+  "titleZh": "GATHER 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 48 - GATHER.pdf",
+    "sourceNumber": 48,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 GATHER 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to GATHER."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "GATHER",
+      "highlight": "GATHER"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Everyone gathered around to hear the song.",
+      "zh": "大家圍攏起來聽這首歌。",
+      "highlight": "gathered around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The farmers gathered the apples in before the rain.",
+      "zh": "農夫在下雨前把蘋果收好。",
+      "highlight": "gathered the apples in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She gathered together her belongings and left.",
+      "zh": "她收拾好自己的物品後便離開。",
+      "highlight": "gathered together",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事；收割並收集農作物,以便儲存；把散開或放在不同地方的物件收集起來",
+    "en": "gather around / gather round; gather around / round somebody or something; gather something in; gather something together / gather something up",
+    "naturalZh": [
+      "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+      "收割並收集農作物,以便儲存",
+      "把散開或放在不同地方的物件收集起來"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "gather around / gather round; gather around / round somebody or something",
+      "titleZh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+      "titleEn": "gather around / gather round; gather around / round somebody or something",
+      "descriptionZh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+      "descriptionEn": "Everyone gathered around to hear the song.",
+      "examples": [
+        {
+          "en": "Everyone gathered around to hear the song.",
+          "zh": "大家圍攏起來聽這首歌。",
+          "highlight": "gathered around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "gather something in",
+      "titleZh": "收割並收集農作物,以便儲存",
+      "titleEn": "gather something in",
+      "descriptionZh": "收割並收集農作物,以便儲存",
+      "descriptionEn": "The farmers gathered the apples in before the rain.",
+      "examples": [
+        {
+          "en": "The farmers gathered the apples in before the rain.",
+          "zh": "農夫在下雨前把蘋果收好。",
+          "highlight": "gathered the apples in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "gather something together / gather something up",
+      "titleZh": "把散開或放在不同地方的物件收集起來",
+      "titleEn": "gather something together / gather something up",
+      "descriptionZh": "把散開或放在不同地方的物件收集起來",
+      "descriptionEn": "She gathered together her belongings and left.",
+      "examples": [
+        {
+          "en": "She gathered together her belongings and left.",
+          "zh": "她收拾好自己的物品後便離開。",
+          "highlight": "gathered together"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "GATHER 片語動詞的實際用途",
+    "labelEn": "GATHER Phrasal Verbs in Use",
+    "summaryZh": "gather around 和 gather round 可以描述人們走近某位說話者、某件物件或某項活動,並聚成一群。；gather something in 可以描述在下雨、天黑或儲存之前收好水果或農作物。；gather up 和 gather together 適合用來談論收拾個人物品、玩具、文件、袋子和工具等物件。；你可以分辨 GATHER 是描述人們聚成一群、收割農作物,還是收拾零散物品。",
+    "summaryEn": "Gather around and gather round help you describe people moving close to a speaker, an object or an activity. Gather something in can describe collecting fruit or crops before rain, darkness or storage. Gather up and gather together are useful for belongings, toys, papers, bags, tools and other objects. You can recognise whether GATHER describes people forming a group, crops being collected or objects being tidied.",
+    "contextsZh": [
+      "自然描述人們聚在一起",
+      "談論在適當時間收割農作物",
+      "描述收拾零散物品",
+      "按情境理解不同的 GATHER 表達"
+    ],
+    "contextsEn": [
+      "Describe people forming a group naturally",
+      "Talk about collecting crops at the right time",
+      "Describe collecting loose things",
+      "Understand different GATHER expressions in context"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 GATHER 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the GATHER expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "gather around / gather round; gather around / round somebody or something",
+    "fixedHighlight": "gather around / gather round; gather around / round somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 GATHER 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the GATHER expression that gives the same meaning.",
+    "correct": "gathered around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在本練習中,around 和 round 可以表達相同意思。；使用 it 或 them 時,請按照以上例子排列。",
+    "variableEn": "Keep the same people, things, time and meaning. Around and round can express the same meaning in this exercise: gather around the table gather round the table When using it or them, follow these examples: gather them in gather them up gather them together",
+    "variableItemsZh": [
+      "gather around / gather round; gather around / round somebody or something",
+      "gather something in",
+      "gather something together / gather something up"
+    ],
+    "variableItemsEn": [
+      "gather around / gather round; gather around / round somebody or something",
+      "gather something in",
+      "gather something together / gather something up"
+    ],
+    "forms": [
+      {
+        "formZh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+        "formEn": "gather around / gather round; gather around / round somebody or something",
+        "exampleZh": "大家圍攏起來聽這首歌。",
+        "exampleEn": "Everyone gathered around to hear the song.",
+        "highlight": "gathered around"
+      },
+      {
+        "formZh": "收割並收集農作物,以便儲存",
+        "formEn": "gather something in",
+        "exampleZh": "農夫在下雨前把蘋果收好。",
+        "exampleEn": "The farmers gathered the apples in before the rain.",
+        "highlight": "gathered the apples in"
+      },
+      {
+        "formZh": "把散開或放在不同地方的物件收集起來",
+        "formEn": "gather something together / gather something up",
+        "exampleZh": "她收拾好自己的物品後便離開。",
+        "exampleEn": "She gathered together her belongings and left.",
+        "highlight": "gathered together"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+      "titleEn": "gather around / gather round; gather around / round somebody or something",
+      "formula": "gather around / gather round; gather around / round somebody or something",
+      "highlight": "gather around / gather round; gather around / round somebody or something",
+      "descriptionZh": "聚集在某人或某物周圍;圍攏起來觀看、聆聽或一起做某事",
+      "descriptionEn": "Everyone gathered around to hear the song.",
+      "examples": [
+        {
+          "en": "Everyone gathered around to hear the song.",
+          "zh": "大家圍攏起來聽這首歌。",
+          "highlight": "gathered around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "收割並收集農作物,以便儲存",
+      "titleEn": "gather something in",
+      "formula": "gather something in",
+      "highlight": "gather something in",
+      "descriptionZh": "收割並收集農作物,以便儲存",
+      "descriptionEn": "The farmers gathered the apples in before the rain.",
+      "examples": [
+        {
+          "en": "The farmers gathered the apples in before the rain.",
+          "zh": "農夫在下雨前把蘋果收好。",
+          "highlight": "gathered the apples in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把散開或放在不同地方的物件收集起來",
+      "titleEn": "gather something together / gather something up",
+      "formula": "gather something together / gather something up",
+      "highlight": "gather something together / gather something up",
+      "descriptionZh": "把散開或放在不同地方的物件收集起來",
+      "descriptionEn": "She gathered together her belongings and left.",
+      "examples": [
+        {
+          "en": "She gathered together her belongings and left.",
+          "zh": "她收拾好自己的物品後便離開。",
+          "highlight": "gathered together"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然描述人們聚在一起",
+      "titleEn": "Describe people forming a group naturally",
+      "zh": "gather around 和 gather round 可以描述人們走近某位說話者、某件物件或某項活動,並聚成一群。",
+      "en": "Gather around and gather round help you describe people moving close to a speaker, an object or an activity."
+    },
+    {
+      "titleZh": "談論在適當時間收割農作物",
+      "titleEn": "Talk about collecting crops at the right time",
+      "zh": "gather something in 可以描述在下雨、天黑或儲存之前收好水果或農作物。",
+      "en": "Gather something in can describe collecting fruit or crops before rain, darkness or storage."
+    },
+    {
+      "titleZh": "描述收拾零散物品",
+      "titleEn": "Describe collecting loose things",
+      "zh": "gather up 和 gather together 適合用來談論收拾個人物品、玩具、文件、袋子和工具等物件。",
+      "en": "Gather up and gather together are useful for belongings, toys, papers, bags, tools and other objects."
+    },
+    {
+      "titleZh": "按情境理解不同的 GATHER 表達",
+      "titleEn": "Understand different GATHER expressions in context",
+      "zh": "你可以分辨 GATHER 是描述人們聚成一群、收割農作物,還是收拾零散物品。",
+      "en": "You can recognise whether GATHER describes people forming a group, crops being collected or objects being tidied."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然描述人們聚在一起",
+      "談論在適當時間收割農作物",
+      "描述收拾零散物品",
+      "按情境理解不同的 GATHER 表達"
+    ],
+    "contextsEn": [
+      "Describe people forming a group naturally",
+      "Talk about collecting crops at the right time",
+      "Describe collecting loose things",
+      "Understand different GATHER expressions in context"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然描述人們聚在一起",
+        "titleEn": "Describe people forming a group naturally",
+        "zh": "gather around 和 gather round 可以描述人們走近某位說話者、某件物件或某項活動,並聚成一群。",
+        "en": "Gather around and gather round help you describe people moving close to a speaker, an object or an activity.",
+        "examples": [
+          {
+            "en": "Everyone gathered around to hear the song.",
+            "zh": "大家圍攏起來聽這首歌。",
+            "highlight": "gathered around"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論在適當時間收割農作物",
+        "titleEn": "Talk about collecting crops at the right time",
+        "zh": "gather something in 可以描述在下雨、天黑或儲存之前收好水果或農作物。",
+        "en": "Gather something in can describe collecting fruit or crops before rain, darkness or storage.",
+        "examples": [
+          {
+            "en": "The farmers gathered the apples in before the rain.",
+            "zh": "農夫在下雨前把蘋果收好。",
+            "highlight": "gathered the apples in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述收拾零散物品",
+        "titleEn": "Describe collecting loose things",
+        "zh": "gather up 和 gather together 適合用來談論收拾個人物品、玩具、文件、袋子和工具等物件。",
+        "en": "Gather up and gather together are useful for belongings, toys, papers, bags, tools and other objects.",
+        "examples": [
+          {
+            "en": "She gathered together her belongings and left.",
+            "zh": "她收拾好自己的物品後便離開。",
+            "highlight": "gathered together"
+          }
+        ]
+      },
+      {
+        "titleZh": "按情境理解不同的 GATHER 表達",
+        "titleEn": "Understand different GATHER expressions in context",
+        "zh": "你可以分辨 GATHER 是描述人們聚成一群、收割農作物,還是收拾零散物品。",
+        "en": "You can recognise whether GATHER describes people forming a group, crops being collected or objects being tidied.",
+        "examples": [
+          {
+            "en": "Everyone gathered around to hear the song.",
+            "zh": "大家圍攏起來聽這首歌。",
+            "highlight": "gathered around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 GATHER 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the GATHER expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 GATHER 片語動詞。",
+      "en": "Read the whole sentence and choose the GATHER expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在本練習中,around 和 round 可以表達相同意思。",
+      "titleEn": "Around and round can express the same meaning in this exercise: gather around the table gather round the table.",
+      "zh": "在本練習中,around 和 round 可以表達相同意思。",
+      "en": "Around and round can express the same meaning in this exercise: gather around the table gather round the table"
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子排列。",
+      "titleEn": "When using it or them, follow these examples: gather them in gather them up gather them together.",
+      "zh": "使用 it 或 them 時,請按照以上例子排列。",
+      "en": "When using it or them, follow these examples: gather them in gather them up gather them together"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 GATHER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to GATHER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "GATHER 動詞片語句子改寫練習",
+    "titleEn": "GATHER Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 GATHER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to GATHER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-49-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The children formed a circle with the teacher in the middle to see the map.",
+      "promptZh": "孩子們圍成一圈,讓老師站在中間,以便看地圖。",
+      "starter": "The",
+      "answer": "The children gathered around the teacher to see the map.",
+      "answerZh": "孩子們聚在老師周圍看地圖。",
+      "highlight": "gathered around",
+      "targetForm": "gather around somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Leo collected the toys from the floor before dinner.",
+      "promptZh": "里奧在晚飯前把地上的玩具收拾起來。",
+      "starter": "Leo",
+      "answer": "Leo gathered up the toys from the floor before dinner.",
+      "answerZh": "里奧在晚飯前把地上的玩具收拾起來。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把散落的物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The farmers picked and collected the ripe apples before the rain.",
+      "promptZh": "農夫在下雨前把成熟的蘋果採下並收好。",
+      "starter": "The",
+      "answer": "The farmers gathered the ripe apples in before the rain.",
+      "answerZh": "農夫在下雨前把成熟的蘋果收好。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Everyone moved close in a group to hear the song.",
+      "promptZh": "大家走近並聚成一群,以便聽這首歌。",
+      "starter": "Everyone",
+      "answer": "Everyone gathered round to hear the song.",
+      "answerZh": "大家圍攏起來聽這首歌。",
+      "highlight": "gathered round",
+      "targetForm": "gather round",
+      "targetMeaningZh": "圍攏起來"
+    },
+    {
+      "id": "phrasal-verb-49-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The family collected the pumpkins and stored them for winter.",
+      "promptZh": "那家人收好南瓜,留待冬天使用。",
+      "starter": "The",
+      "answer": "The family gathered the pumpkins in and stored them for winter.",
+      "answerZh": "那家人收好南瓜,留待冬天使用。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please move all the papers into one place.",
+      "promptZh": "請把所有文件放在同一個地方。",
+      "starter": "Please",
+      "answer": "Please gather the papers together.",
+      "answerZh": "請把所有文件集中在一起。",
+      "highlight": "gather",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The family stood close together with the birthday cake in the middle.",
+      "promptZh": "那家人緊靠在一起,生日蛋糕放在中間。",
+      "starter": "The",
+      "answer": "The family gathered around the birthday cake.",
+      "answerZh": "那家人聚在生日蛋糕周圍。",
+      "highlight": "gathered around",
+      "targetForm": "gather around something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sara collected her books and left the library.",
+      "promptZh": "莎拉收拾好自己的書後便離開圖書館。",
+      "starter": "Sara",
+      "answer": "Sara gathered up her books and left the library.",
+      "answerZh": "莎拉收拾好自己的書後便離開圖書館。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The workers picked and collected the grapes when they were ripe.",
+      "promptZh": "葡萄成熟時,工人把它們採下並收好。",
+      "starter": "The",
+      "answer": "The workers gathered the grapes in when they were ripe.",
+      "answerZh": "葡萄成熟時,工人把它們採下並收好。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The students moved close to the screen as a group to see the photo.",
+      "promptZh": "學生們一起走近螢幕看照片。",
+      "starter": "The",
+      "answer": "The students gathered round the screen to see the photo.",
+      "answerZh": "學生們聚在螢幕周圍看照片。",
+      "highlight": "gathered round",
+      "targetForm": "gather round something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The farmers are collecting the corn before the storm.",
+      "promptZh": "農夫正在暴風雨來臨前收好粟米。",
+      "starter": "The",
+      "answer": "The farmers are gathering the corn in before the storm.",
+      "answerZh": "農夫正在暴風雨來臨前收好粟米。",
+      "highlight": "gathering",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The visitors are forming a group close to the guide now.",
+      "promptZh": "遊客現在正走近導遊並聚成一群。",
+      "starter": "The",
+      "answer": "The visitors are gathering around the guide now.",
+      "answerZh": "遊客現在正聚在導遊周圍。",
+      "highlight": "gathering around",
+      "targetForm": "gather around somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ava is putting all the receipts in one place now.",
+      "promptZh": "艾娃現在正把所有收據集中在一個地方。",
+      "starter": "Ava",
+      "answer": "Ava is gathering all the receipts together now.",
+      "answerZh": "艾娃現在正把所有收據集中在一起。",
+      "highlight": "gathering",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Has the family collected all the potatoes for storage?",
+      "promptZh": "那家人是否已把所有薯仔收好,準備儲存?",
+      "starter": "Has",
+      "answer": "Has the family gathered all the potatoes in for storage?",
+      "answerZh": "那家人是否已把所有薯仔收好,準備儲存?",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We have moved all the chairs into one place.",
+      "promptZh": "我們已把所有椅子集中在一個地方。",
+      "starter": "We",
+      "answer": "We have gathered all the chairs together.",
+      "answerZh": "我們已把所有椅子集中在一起。",
+      "highlight": "gathered",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will the children move close to the storyteller and stand as a group?",
+      "promptZh": "孩子們會走近說故事的人並聚成一群嗎?",
+      "starter": "Will",
+      "answer": "Will the children gather round the storyteller?",
+      "answerZh": "孩子們會聚在說故事的人周圍嗎?",
+      "highlight": "gather round",
+      "targetForm": "gather round somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We will collect the last oranges before dark.",
+      "promptZh": "我們會在天黑前收好最後一批橙。",
+      "starter": "We",
+      "answer": "We will gather the last oranges in before dark.",
+      "answerZh": "我們會在天黑前收好最後一批橙。",
+      "highlight": "gather",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The wind spread the leaves across the path, but Dan will collect them.",
+      "promptZh": "風吹得樹葉散落在小路上,但丹會把它們收拾起來。",
+      "starter": "The",
+      "answer": "The wind spread the leaves across the path, but Dan will gather them up.",
+      "answerZh": "風吹得樹葉散落在小路上,但丹會把它們收拾起來。",
+      "highlight": "gather",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把散落的物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The rice was picked and collected before the heavy rain.",
+      "promptZh": "稻米在大雨來臨前已被收割並收好。",
+      "starter": "The",
+      "answer": "The rice was gathered in before the heavy rain.",
+      "answerZh": "稻米在大雨來臨前已被收割並收好。",
+      "highlight": "gathered in",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "When the bell rang, everyone quickly moved close to the school gate and stood in a group.",
+      "promptZh": "鐘聲響起時,大家迅速走近校門並聚成一群。",
+      "starter": "When",
+      "answer": "When the bell rang, everyone quickly gathered around the school gate.",
+      "answerZh": "鐘聲響起時,大家迅速聚集在校門周圍。",
+      "highlight": "gathered around",
+      "targetForm": "gather around something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She collected them from the desk and put them in her bag.",
+      "promptZh": "她把它們從書桌上收起來,然後放進袋中。",
+      "starter": "She",
+      "answer": "She gathered them up and put them in her bag.",
+      "answerZh": "她把它們收起來,然後放進袋中。",
+      "highlight": "gathered",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Please move close to the table and stand as a group.",
+      "promptZh": "請走近桌子並聚成一群。",
+      "starter": "Please",
+      "answer": "Please gather round the table.",
+      "answerZh": "請聚到桌子周圍。",
+      "highlight": "gather round",
+      "targetForm": "gather round something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They must collect the beans before the heavy rain.",
+      "promptZh": "他們必須在大雨來臨前收好豆。",
+      "starter": "They",
+      "answer": "They must gather the beans in before the heavy rain.",
+      "answerZh": "他們必須在大雨來臨前收好豆。",
+      "highlight": "gather",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The books were collected from the tables after class.",
+      "promptZh": "下課後,桌上的書本都被收拾起來。",
+      "starter": "The",
+      "answer": "The books were gathered up from the tables after class.",
+      "answerZh": "下課後,桌上的書本都被收拾起來。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By Friday, the workers had collected all the strawberries for storage.",
+      "promptZh": "到了星期五,工人已收好所有士多啤梨,準備儲存。",
+      "starter": "By",
+      "answer": "By Friday, the workers had gathered all the strawberries in for storage.",
+      "answerZh": "到了星期五,工人已收好所有士多啤梨,準備儲存。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A small crowd was forming close to the street singer.",
+      "promptZh": "一小群人正在街頭歌手附近聚集。",
+      "starter": "A",
+      "answer": "A small crowd was gathering around the street singer.",
+      "answerZh": "一小群人正在街頭歌手周圍聚集。",
+      "highlight": "gathering around",
+      "targetForm": "gather around somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Can you move all your pens into one place before you leave?",
+      "promptZh": "你可以在離開前把所有筆集中在一個地方嗎?",
+      "starter": "Can",
+      "answer": "Can you gather your pens together before you leave?",
+      "answerZh": "你可以在離開前把所有筆集中在一起嗎?",
+      "highlight": "gather",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why were the onions collected early?",
+      "promptZh": "為甚麼洋蔥提早被收好?",
+      "starter": "Why",
+      "answer": "Why were the onions gathered in early?",
+      "answerZh": "為甚麼洋蔥提早被收好?",
+      "highlight": "gathered in",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "People had formed a close group with the heater in the middle before the room became warm.",
+      "promptZh": "房間變暖前,人們已靠近暖爐聚成一群。",
+      "starter": "People",
+      "answer": "People had gathered round the heater before the room became warm.",
+      "answerZh": "房間變暖前,人們已聚在暖爐周圍。",
+      "highlight": "gathered round",
+      "targetForm": "gather round something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the party, we collected the cups, plates and napkins from the room.",
+      "promptZh": "派對結束後,我們收拾了房內的杯、碟和餐巾。",
+      "starter": "After",
+      "answer": "After the party, we gathered up the cups, plates and napkins from the room.",
+      "answerZh": "派對結束後,我們收拾了房內的杯、碟和餐巾。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The coach showed the team a photo, and the players moved close to him in a group.",
+      "promptZh": "教練向球隊展示一張照片,球員便走近他並聚成一群。",
+      "starter": "The",
+      "answer": "The coach showed the team a photo, and the players gathered around him.",
+      "answerZh": "教練向球隊展示一張照片,球員便聚在他周圍。",
+      "highlight": "gathered around",
+      "targetForm": "gather around somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "A storm was coming, so the farmers decided to cut and collect all the wheat before evening.",
+      "promptZh": "暴風雨即將來臨,因此農夫決定在傍晚前收割並收好所有小麥。",
+      "starter": "A",
+      "answer": "A storm was coming, so the farmers decided to gather all the wheat in before evening.",
+      "answerZh": "暴風雨即將來臨,因此農夫決定在傍晚前收好所有小麥。",
+      "highlight": "gather",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When the alarm sounded, Ben quickly collected his phone, keys and wallet.",
+      "promptZh": "警報響起時,賓迅速收起手機、鎖匙和銀包。",
+      "starter": "When",
+      "answer": "When the alarm sounded, Ben quickly gathered up his phone, keys and wallet.",
+      "answerZh": "警報響起時,賓迅速收起手機、鎖匙和銀包。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件迅速收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At the market, customers stood close to the large pot in a group to smell the soup.",
+      "promptZh": "在市場裏,顧客聚在大鍋旁聞湯的香味。",
+      "starter": "At",
+      "answer": "At the market, customers gathered round the large pot to smell the soup.",
+      "answerZh": "在市場裏,顧客聚在大鍋周圍聞湯的香味。",
+      "highlight": "gathered round",
+      "targetForm": "gather round something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The photos came from several boxes, and Rosa put them all in one place.",
+      "promptZh": "這些照片來自幾個箱子,羅莎把它們全部集中在一個地方。",
+      "starter": "The",
+      "answer": "The photos came from several boxes, and Rosa gathered them all together.",
+      "answerZh": "這些照片來自幾個箱子,羅莎把它們全部集中在一起。",
+      "highlight": "gathered",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The village usually collects its rice crop before the wet season begins.",
+      "promptZh": "這條村通常在雨季開始前收割稻米。",
+      "starter": "The",
+      "answer": "The village usually gathers its rice crop in before the wet season begins.",
+      "answerZh": "這條村通常在雨季開始前收好稻米。",
+      "highlight": "gathers",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Why did the neighbours form a close group to read the noticeboard?",
+      "promptZh": "鄰居為甚麼聚成一群閱讀告示板?",
+      "starter": "Why",
+      "answer": "Why did the neighbours gather around the noticeboard?",
+      "answerZh": "鄰居為甚麼聚在告示板周圍?",
+      "highlight": "gather around",
+      "targetForm": "gather around something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although some apples were still green, the workers picked and collected all the ripe ones.",
+      "promptZh": "雖然部分蘋果仍未成熟,但工人把所有成熟的蘋果採下並收好。",
+      "starter": "Although",
+      "answer": "Although some apples were still green, the workers gathered all the ripe ones in.",
+      "answerZh": "雖然部分蘋果仍未成熟,但工人把所有成熟的蘋果收好。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The art teacher collected the broken crayons from different desks.",
+      "promptZh": "美術老師把不同書桌上的斷蠟筆集中起來。",
+      "starter": "The",
+      "answer": "The art teacher gathered together the broken crayons from different desks.",
+      "answerZh": "美術老師把不同書桌上的斷蠟筆集中起來。",
+      "highlight": "gathered together",
+      "targetForm": "gather together something",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "A musician began playing outside, and people soon stood close to her in a group.",
+      "promptZh": "一名音樂人在外面開始演奏,人們很快便走近她並聚成一群。",
+      "starter": "A",
+      "answer": "A musician began playing outside, and people soon gathered round her.",
+      "answerZh": "一名音樂人在外面開始演奏,人們很快便聚在她周圍。",
+      "highlight": "gathered round",
+      "targetForm": "gather round somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before moving house, they checked every room and collected all the small items they still wanted.",
+      "promptZh": "搬屋前,他們檢查每個房間,並收好所有仍然想保留的小物件。",
+      "starter": "Before",
+      "answer": "Before moving house, they checked every room and gathered up all the small items they still wanted.",
+      "answerZh": "搬屋前,他們檢查每個房間,並收好所有仍然想保留的小物件。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把散落的物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "As the guide opened the old box, the children who had been talking moved close to her as a group to see inside.",
+      "promptZh": "導遊打開舊箱子時,原本正在交談的孩子們一起走近她,看看箱內有甚麼。",
+      "starter": "As",
+      "answer": "As the guide opened the old box, the children who had been talking gathered around her to see inside.",
+      "answerZh": "導遊打開舊箱子時,原本正在交談的孩子們聚在她周圍,看看箱內有甚麼。",
+      "highlight": "gathered around",
+      "targetForm": "gather around somebody",
+      "targetMeaningZh": "聚集在某人周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After checking the weather report, the farmer asked everyone to collect the ripe tomatoes before the evening rain and leave the green ones.",
+      "promptZh": "查看天氣報告後,農夫請大家在傍晚下雨前收好成熟的番茄,留下未成熟的番茄。",
+      "starter": "After",
+      "answer": "After checking the weather report, the farmer asked everyone to gather the ripe tomatoes in before the evening rain and leave the green ones.",
+      "answerZh": "查看天氣報告後,農夫請大家在傍晚下雨前收好成熟的番茄,留下未成熟的番茄。",
+      "highlight": "gather",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The map pieces were spread across the table, so Ravi moved them into one place for the group to check.",
+      "promptZh": "地圖碎片散落在桌上,因此拉維把它們集中在一起,讓大家檢查。",
+      "starter": "The",
+      "answer": "The map pieces were spread across the table, so Ravi gathered them together for the group to check.",
+      "answerZh": "地圖碎片散落在桌上,因此拉維把它們集中在一起,讓大家檢查。",
+      "highlight": "gathered",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    },
+    {
+      "id": "phrasal-verb-49-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The fields were almost empty because most of the harvest had already been collected and stored.",
+      "promptZh": "田地幾乎空了,因為大部分收成都已收割並儲存起來。",
+      "starter": "The",
+      "answer": "The fields were almost empty because most of the harvest had already been gathered in and stored.",
+      "answerZh": "田地幾乎空了,因為大部分收成都已收割並儲存起來。",
+      "highlight": "gathered in",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the final score appeared, the supporters stood close together with the phone in the middle and cheered.",
+      "promptZh": "最終比數出現時,球迷聚在手機周圍歡呼。",
+      "starter": "When",
+      "answer": "When the final score appeared, the supporters gathered round the phone and cheered.",
+      "answerZh": "最終比數出現時,球迷聚在手機周圍歡呼。",
+      "highlight": "gathered round",
+      "targetForm": "gather round something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "As the bus arrived, the students collected their bags, bottles and coats and checked that nothing was left.",
+      "promptZh": "巴士到達時,學生收好袋子、水樽和外套,並檢查有沒有遺下物品。",
+      "starter": "As",
+      "answer": "As the bus arrived, the students gathered up their bags, bottles and coats and checked that nothing was left.",
+      "answerZh": "巴士到達時,學生收好袋子、水樽和外套,並檢查有沒有遺下物品。",
+      "highlight": "gathered up",
+      "targetForm": "gather something up",
+      "targetMeaningZh": "把物件收拾起來"
+    },
+    {
+      "id": "phrasal-verb-49-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family left some beans outside because they had not yet picked and collected them.",
+      "promptZh": "那家人把一些豆留在外面,因為他們尚未採摘並收好那些豆。",
+      "starter": "The",
+      "answer": "The family left some beans outside because they had not yet gathered them in.",
+      "answerZh": "那家人把一些豆留在外面,因為他們尚未把那些豆收好。",
+      "highlight": "gathered",
+      "targetForm": "gather something in",
+      "targetMeaningZh": "收割並收好農作物"
+    },
+    {
+      "id": "phrasal-verb-49-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Nobody asked them to move closer; the volunteers naturally stood close to the model in a group to discuss it.",
+      "promptZh": "沒有人要求他們走近;義工自然地聚在模型旁討論。",
+      "starter": "Nobody",
+      "answer": "Nobody asked them to move closer; the volunteers naturally gathered around the model to discuss it.",
+      "answerZh": "沒有人要求他們走近;義工自然地聚在模型周圍討論。",
+      "highlight": "gathered around",
+      "targetForm": "gather around something",
+      "targetMeaningZh": "聚集在某物周圍"
+    },
+    {
+      "id": "phrasal-verb-49-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Instead of leaving the tools in different parts of the workshop, the team collected them in one area before counting them.",
+      "promptZh": "團隊沒有把工具留在工作室的不同地方,而是在點算前把它們集中在同一個區域。",
+      "starter": "Instead",
+      "answer": "Instead of leaving the tools in different parts of the workshop, the team gathered them together in one area before counting them.",
+      "answerZh": "團隊沒有把工具留在工作室的不同地方,而是在點算前把它們集中在同一個區域。",
+      "highlight": "gathered",
+      "targetForm": "gather something together",
+      "targetMeaningZh": "把物件集中在一起"
+    }
+  ]
+}

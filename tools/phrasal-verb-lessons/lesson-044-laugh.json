@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-44",
+  "order": 44,
+  "slug": "laugh",
+  "version": "1",
+  "title": "LAUGH 動詞片語",
+  "titleEn": "Laugh",
+  "titleZh": "LAUGH 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 43 - LAUGH.pdf",
+    "sourceNumber": 43,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LAUGH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LAUGH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LAUGH",
+      "highlight": "LAUGH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Some pupils laughed at Leo when he gave the wrong answer.",
+      "zh": "里奧答錯問題時,一些學生嘲笑他。",
+      "highlight": "laughed at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We all laughed at Maya’s joke.",
+      "zh": "我們全都因瑪雅的笑話而笑。",
+      "highlight": "laughed at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Nina laughed off the rude comment.",
+      "zh": "妮娜對那句無禮的說話一笑置之。",
+      "highlight": "laughed off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己；因某件事有趣或好笑而笑；對某事一笑置之;把某事當作不重要或不嚴重",
+    "en": "laugh at somebody/yourself; laugh at something; laugh something off",
+    "naturalZh": [
+      "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+      "因某件事有趣或好笑而笑",
+      "對某事一笑置之;把某事當作不重要或不嚴重"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "laugh at somebody/yourself",
+      "titleZh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+      "titleEn": "laugh at somebody/yourself",
+      "descriptionZh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+      "descriptionEn": "Some pupils laughed at Leo when he gave the wrong answer.",
+      "examples": [
+        {
+          "en": "Some pupils laughed at Leo when he gave the wrong answer.",
+          "zh": "里奧答錯問題時,一些學生嘲笑他。",
+          "highlight": "laughed at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "laugh at something",
+      "titleZh": "因某件事有趣或好笑而笑",
+      "titleEn": "laugh at something",
+      "descriptionZh": "因某件事有趣或好笑而笑",
+      "descriptionEn": "We all laughed at Maya’s joke.",
+      "examples": [
+        {
+          "en": "We all laughed at Maya’s joke.",
+          "zh": "我們全都因瑪雅的笑話而笑。",
+          "highlight": "laughed at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "laugh something off",
+      "titleZh": "對某事一笑置之;把某事當作不重要或不嚴重",
+      "titleEn": "laugh something off",
+      "descriptionZh": "對某事一笑置之;把某事當作不重要或不嚴重",
+      "descriptionEn": "Nina laughed off the rude comment.",
+      "examples": [
+        {
+          "en": "Nina laughed off the rude comment.",
+          "zh": "妮娜對那句無禮的說話一笑置之。",
+          "highlight": "laughed off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LAUGH 片語動詞的實際用途",
+    "labelEn": "LAUGH Phrasal Verbs in Use",
+    "summaryZh": "laugh at a joke 表示因笑話有趣而笑;laugh at a person 則可以表示不友善地取笑某人。；laugh at yourself 可以表示你不會因小錯誤而感到過分尷尬或不快。；laugh something off 可以描述某人不把批評、傳聞、錯誤或尷尬情況當作重要事情。；這些表達常用於描述人們如何回應笑話、錯誤、批評、傳聞和尷尬情況。",
+    "summaryEn": "Laugh at a joke describes enjoying something funny, while laugh at a person can describe unkindly making fun of someone. Laugh at yourself can show that you do not become too embarrassed or upset by a small mistake. Laugh something off can describe someone treating criticism, rumours, mistakes or embarrassing moments as unimportant. These expressions often appear when people respond to jokes, mistakes, criticism, rumours and embarrassing situations.",
+    "contextsZh": [
+      "分辨開心的笑和不友善的嘲笑",
+      "自然表達自己能夠看輕小錯誤",
+      "表示不把某些說話或問題放在心上",
+      "理解對話和故事中的常見反應"
+    ],
+    "contextsEn": [
+      "Distinguish friendly laughter from unkind laughter",
+      "Talk naturally about seeing the funny side of your own mistakes",
+      "Show that a comment or problem is not being taken seriously",
+      "Understand common reactions in conversations and stories"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LAUGH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LAUGH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "laugh at somebody/yourself",
+    "fixedHighlight": "laugh at somebody/yourself",
+    "fixedZh": "閱讀整句,選出意思相同的 LAUGH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LAUGH expression that gives the same meaning.",
+    "correct": "laughed at",
+    "incorrectForms": [],
+    "variableZh": "laugh at Ben — 嘲笑賓laugh at Ben’s joke — 因賓的笑話而笑laugh at 後面可以接人物或事物。請仔細閱讀情境,判斷意思是嘲笑某人,還是因某件事有趣而笑。；在 LAUGH ... OFF 中使用 it 或 them 時,把它放在 LAUGH 和 OFF 中間。；laugh something off 表示以笑或玩笑的方式,把某件事當作不重要或不嚴重。",
+    "variableEn": "Laugh at can be followed by a person or a thing. Read the situation carefully: When using it or them in a LAUGH... OFF expression, place the word between LAUGH and OFF: laugh it off laugh them off Laugh something off means treating something as unimportant or not serious, often by smiling or joking about it.",
+    "variableItemsZh": [
+      "laugh at somebody/yourself",
+      "laugh at something",
+      "laugh something off"
+    ],
+    "variableItemsEn": [
+      "laugh at somebody/yourself",
+      "laugh at something",
+      "laugh something off"
+    ],
+    "forms": [
+      {
+        "formZh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+        "formEn": "laugh at somebody/yourself",
+        "exampleZh": "里奧答錯問題時,一些學生嘲笑他。",
+        "exampleEn": "Some pupils laughed at Leo when he gave the wrong answer.",
+        "highlight": "laughed at"
+      },
+      {
+        "formZh": "因某件事有趣或好笑而笑",
+        "formEn": "laugh at something",
+        "exampleZh": "我們全都因瑪雅的笑話而笑。",
+        "exampleEn": "We all laughed at Maya’s joke.",
+        "highlight": "laughed at"
+      },
+      {
+        "formZh": "對某事一笑置之;把某事當作不重要或不嚴重",
+        "formEn": "laugh something off",
+        "exampleZh": "妮娜對那句無禮的說話一笑置之。",
+        "exampleEn": "Nina laughed off the rude comment.",
+        "highlight": "laughed off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+      "titleEn": "laugh at somebody/yourself",
+      "formula": "laugh at somebody/yourself",
+      "highlight": "laugh at somebody/yourself",
+      "descriptionZh": "嘲笑某人;因某人的行為或錯誤而取笑他;能夠取笑自己",
+      "descriptionEn": "Some pupils laughed at Leo when he gave the wrong answer.",
+      "examples": [
+        {
+          "en": "Some pupils laughed at Leo when he gave the wrong answer.",
+          "zh": "里奧答錯問題時,一些學生嘲笑他。",
+          "highlight": "laughed at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "因某件事有趣或好笑而笑",
+      "titleEn": "laugh at something",
+      "formula": "laugh at something",
+      "highlight": "laugh at something",
+      "descriptionZh": "因某件事有趣或好笑而笑",
+      "descriptionEn": "We all laughed at Maya’s joke.",
+      "examples": [
+        {
+          "en": "We all laughed at Maya’s joke.",
+          "zh": "我們全都因瑪雅的笑話而笑。",
+          "highlight": "laughed at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "對某事一笑置之;把某事當作不重要或不嚴重",
+      "titleEn": "laugh something off",
+      "formula": "laugh something off",
+      "highlight": "laugh something off",
+      "descriptionZh": "對某事一笑置之;把某事當作不重要或不嚴重",
+      "descriptionEn": "Nina laughed off the rude comment.",
+      "examples": [
+        {
+          "en": "Nina laughed off the rude comment.",
+          "zh": "妮娜對那句無禮的說話一笑置之。",
+          "highlight": "laughed off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "分辨開心的笑和不友善的嘲笑",
+      "titleEn": "Distinguish friendly laughter from unkind laughter",
+      "zh": "laugh at a joke 表示因笑話有趣而笑;laugh at a person 則可以表示不友善地取笑某人。",
+      "en": "Laugh at a joke describes enjoying something funny, while laugh at a person can describe unkindly making fun of someone."
+    },
+    {
+      "titleZh": "自然表達自己能夠看輕小錯誤",
+      "titleEn": "Talk naturally about seeing the funny side of your own mistakes",
+      "zh": "laugh at yourself 可以表示你不會因小錯誤而感到過分尷尬或不快。",
+      "en": "Laugh at yourself can show that you do not become too embarrassed or upset by a small mistake."
+    },
+    {
+      "titleZh": "表示不把某些說話或問題放在心上",
+      "titleEn": "Show that a comment or problem is not being taken seriously",
+      "zh": "laugh something off 可以描述某人不把批評、傳聞、錯誤或尷尬情況當作重要事情。",
+      "en": "Laugh something off can describe someone treating criticism, rumours, mistakes or embarrassing moments as unimportant."
+    },
+    {
+      "titleZh": "理解對話和故事中的常見反應",
+      "titleEn": "Understand common reactions in conversations and stories",
+      "zh": "這些表達常用於描述人們如何回應笑話、錯誤、批評、傳聞和尷尬情況。",
+      "en": "These expressions often appear when people respond to jokes, mistakes, criticism, rumours and embarrassing situations."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "分辨開心的笑和不友善的嘲笑",
+      "自然表達自己能夠看輕小錯誤",
+      "表示不把某些說話或問題放在心上",
+      "理解對話和故事中的常見反應"
+    ],
+    "contextsEn": [
+      "Distinguish friendly laughter from unkind laughter",
+      "Talk naturally about seeing the funny side of your own mistakes",
+      "Show that a comment or problem is not being taken seriously",
+      "Understand common reactions in conversations and stories"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "分辨開心的笑和不友善的嘲笑",
+        "titleEn": "Distinguish friendly laughter from unkind laughter",
+        "zh": "laugh at a joke 表示因笑話有趣而笑;laugh at a person 則可以表示不友善地取笑某人。",
+        "en": "Laugh at a joke describes enjoying something funny, while laugh at a person can describe unkindly making fun of someone.",
+        "examples": [
+          {
+            "en": "Some pupils laughed at Leo when he gave the wrong answer.",
+            "zh": "里奧答錯問題時,一些學生嘲笑他。",
+            "highlight": "laughed at"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然表達自己能夠看輕小錯誤",
+        "titleEn": "Talk naturally about seeing the funny side of your own mistakes",
+        "zh": "laugh at yourself 可以表示你不會因小錯誤而感到過分尷尬或不快。",
+        "en": "Laugh at yourself can show that you do not become too embarrassed or upset by a small mistake.",
+        "examples": [
+          {
+            "en": "We all laughed at Maya’s joke.",
+            "zh": "我們全都因瑪雅的笑話而笑。",
+            "highlight": "laughed at"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示不把某些說話或問題放在心上",
+        "titleEn": "Show that a comment or problem is not being taken seriously",
+        "zh": "laugh something off 可以描述某人不把批評、傳聞、錯誤或尷尬情況當作重要事情。",
+        "en": "Laugh something off can describe someone treating criticism, rumours, mistakes or embarrassing moments as unimportant.",
+        "examples": [
+          {
+            "en": "Nina laughed off the rude comment.",
+            "zh": "妮娜對那句無禮的說話一笑置之。",
+            "highlight": "laughed off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解對話和故事中的常見反應",
+        "titleEn": "Understand common reactions in conversations and stories",
+        "zh": "這些表達常用於描述人們如何回應笑話、錯誤、批評、傳聞和尷尬情況。",
+        "en": "These expressions often appear when people respond to jokes, mistakes, criticism, rumours and embarrassing situations.",
+        "examples": [
+          {
+            "en": "Some pupils laughed at Leo when he gave the wrong answer.",
+            "zh": "里奧答錯問題時,一些學生嘲笑他。",
+            "highlight": "laughed at"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LAUGH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LAUGH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LAUGH 片語動詞。",
+      "en": "Read the whole sentence and choose the LAUGH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "laugh at Ben — 嘲笑賓laugh at Ben’s joke — 因賓的笑話而笑laugh at 後面可以接人物或事物。請仔細閱讀情境,判斷意思是嘲笑某人,還是因某件事有趣而笑。",
+      "titleEn": "Laugh at can be followed by a person or a thing.",
+      "zh": "laugh at Ben — 嘲笑賓laugh at Ben’s joke — 因賓的笑話而笑laugh at 後面可以接人物或事物。請仔細閱讀情境,判斷意思是嘲笑某人,還是因某件事有趣而笑。",
+      "en": "Laugh at can be followed by a person or a thing. Read the situation carefully:"
+    },
+    {
+      "titleZh": "在 LAUGH ... OFF 中使用 it 或 them 時,把它放在 LAUGH 和 OFF 中間。",
+      "titleEn": "When using it or them in a LAUGH.",
+      "zh": "在 LAUGH ... OFF 中使用 it 或 them 時,把它放在 LAUGH 和 OFF 中間。",
+      "en": "When using it or them in a LAUGH... OFF expression, place the word between LAUGH and OFF: laugh it off laugh them off"
+    },
+    {
+      "titleZh": "laugh something off 表示以笑或玩笑的方式,把某件事當作不重要或不嚴重。",
+      "titleEn": "Laugh something off means treating something as unimportant or not serious, often by smiling or joking about it.",
+      "zh": "laugh something off 表示以笑或玩笑的方式,把某件事當作不重要或不嚴重。",
+      "en": "Laugh something off means treating something as unimportant or not serious, often by smiling or joking about it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LAUGH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LAUGH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LAUGH 動詞片語句子改寫練習",
+    "titleEn": "LAUGH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LAUGH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LAUGH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-44-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Everyone found Tom’s joke funny.",
+      "promptZh": "每個人都覺得湯姆的笑話很好笑。",
+      "starter": "Everyone",
+      "answer": "Everyone laughed at Tom’s joke.",
+      "answerZh": "每個人都因湯姆的笑話而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Some boys made fun of Leo when he dropped his books.",
+      "promptZh": "里奧把書掉在地上時,一些男孩取笑他。",
+      "starter": "Some",
+      "answer": "Some boys laughed at Leo when he dropped his books.",
+      "answerZh": "里奧把書掉在地上時,一些男孩取笑他。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ella treated the criticism as unimportant.",
+      "promptZh": "埃拉沒有把那些批評放在心上。",
+      "starter": "Ella",
+      "answer": "Ella laughed off the criticism.",
+      "answerZh": "埃拉對那些批評一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Do not make fun of your brother because of his haircut.",
+      "promptZh": "不要因你弟弟的髮型而取笑他。",
+      "starter": "Do",
+      "answer": "Do not laugh at your brother because of his haircut.",
+      "answerZh": "不要因你弟弟的髮型而取笑他。",
+      "highlight": "laugh at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We all found the funny video amusing.",
+      "promptZh": "我們全都覺得那段有趣的影片很好笑。",
+      "starter": "We",
+      "answer": "We all laughed at the funny video.",
+      "answerZh": "我們全都因那段有趣的影片而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach treated the rumours as silly and unimportant.",
+      "promptZh": "教練認為那些傳聞很可笑,沒有把它們放在心上。",
+      "starter": "The",
+      "answer": "The coach laughed off the rumours.",
+      "answerZh": "教練對那些傳聞一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Nina can see the funny side of her own small mistakes.",
+      "promptZh": "妮娜能夠看到自己所犯小錯誤的有趣一面。",
+      "starter": "Nina",
+      "answer": "Nina can laugh at herself when she makes a small mistake.",
+      "answerZh": "妮娜犯下小錯誤時,能夠取笑自己。",
+      "highlight": "laugh at herself when she makes a",
+      "targetForm": "laugh at yourself",
+      "targetMeaningZh": "能夠取笑自己"
+    },
+    {
+      "id": "phrasal-verb-44-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Did you find my joke funny?",
+      "promptZh": "你覺得我的笑話好笑嗎?",
+      "starter": "Did",
+      "answer": "Did you laugh at my joke?",
+      "answerZh": "你有因我的笑話而笑嗎?",
+      "highlight": "laugh at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He treated the embarrassing fall as no big problem.",
+      "promptZh": "他把那次令人尷尬的跌倒當作小事。",
+      "starter": "He",
+      "answer": "He laughed off the embarrassing fall.",
+      "answerZh": "他對那次令人尷尬的跌倒一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The children made fun of the man because of his unusual hat.",
+      "promptZh": "孩子們因那名男子奇怪的帽子而取笑他。",
+      "starter": "The",
+      "answer": "The children laughed at the man because of his unusual hat.",
+      "answerZh": "孩子們因那名男子奇怪的帽子而取笑他。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She is treating the bad review as unimportant.",
+      "promptZh": "她正對那篇負面評論一笑置之。",
+      "starter": "She",
+      "answer": "She is laughing off the bad review.",
+      "answerZh": "她正對那篇負面評論一笑置之。",
+      "highlight": "laughing off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Tom never finds my stories funny.",
+      "promptZh": "湯姆從來不覺得我的故事好笑。",
+      "starter": "Tom",
+      "answer": "Tom never laughs at my stories.",
+      "answerZh": "湯姆從來不會因我的故事而笑。",
+      "highlight": "laughs at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why are they making fun of Karim?",
+      "promptZh": "他們為甚麼在取笑卡里姆?",
+      "starter": "Why",
+      "answer": "Why are they laughing at Karim?",
+      "answerZh": "他們為甚麼在取笑卡里姆?",
+      "highlight": "laughing at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We found the comic strip so funny that we started laughing.",
+      "promptZh": "我們覺得那幅連環漫畫非常有趣,所以笑了起來。",
+      "starter": "We",
+      "answer": "We started laughing at the comic strip.",
+      "answerZh": "我們因那幅連環漫畫而笑了起來。",
+      "highlight": "started laughing at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Maya has treated all the online comments as unimportant.",
+      "promptZh": "瑪雅沒有把所有網上評論放在心上。",
+      "starter": "Maya",
+      "answer": "Maya has laughed off all the online comments.",
+      "answerZh": "瑪雅對所有網上評論一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The class did not make fun of Ella when she gave the wrong answer.",
+      "promptZh": "埃拉答錯時,全班沒有取笑她。",
+      "starter": "The",
+      "answer": "The class did not laugh at Ella when she gave the wrong answer.",
+      "answerZh": "埃拉答錯時,全班沒有取笑她。",
+      "highlight": "laugh at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Will the children find this silly song funny?",
+      "promptZh": "孩子們會覺得這首傻氣的歌曲好笑嗎?",
+      "starter": "Will",
+      "answer": "Will the children laugh at this silly song?",
+      "answerZh": "孩子們會因這首傻氣的歌曲而笑嗎?",
+      "highlight": "laugh at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can he treat the mistake as a small matter?",
+      "promptZh": "他能否把那個錯誤當作小事?",
+      "starter": "Can",
+      "answer": "Can he laugh off the mistake?",
+      "answerZh": "他能否對那個錯誤一笑置之?",
+      "highlight": "laugh off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I was able to see the funny side of my own mistake after I saw the photograph.",
+      "promptZh": "我看到照片後,能夠看到自己所犯錯誤的有趣一面。",
+      "starter": "I",
+      "answer": "I was able to laugh at myself after I saw the photograph.",
+      "answerZh": "我看到照片後,能夠取笑自己。",
+      "highlight": "laugh at myself",
+      "targetForm": "laugh at yourself",
+      "targetMeaningZh": "能夠取笑自己"
+    },
+    {
+      "id": "phrasal-verb-44-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nobody found the final joke funny.",
+      "promptZh": "沒有人覺得最後那個笑話好笑。",
+      "starter": "Nobody",
+      "answer": "Nobody laughed at the final joke.",
+      "answerZh": "沒有人因最後那個笑話而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The comment upset her at first, but she soon treated it as unimportant.",
+      "promptZh": "那句說話最初令她不快,但她很快便沒有把它放在心上。",
+      "starter": "The",
+      "answer": "The comment upset her at first, but she soon laughed it off.",
+      "answerZh": "那句說話最初令她不快,但她很快便一笑置之。",
+      "highlight": "laughed",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They made fun of him when he forgot his line.",
+      "promptZh": "他忘記台詞時,他們取笑他。",
+      "starter": "They",
+      "answer": "They laughed at him when he forgot his line.",
+      "answerZh": "他忘記台詞時,他們取笑他。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I showed them the picture, but they did not find it funny.",
+      "promptZh": "我把照片給他們看,但他們不覺得好笑。",
+      "starter": "I",
+      "answer": "I showed them the picture, but they did not laugh at it.",
+      "answerZh": "我把照片給他們看,但他們沒有因它而笑。",
+      "highlight": "laugh at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The manager treated the suggestion as a joke and did not take it seriously.",
+      "promptZh": "經理把那項建議當作笑話,沒有認真看待。",
+      "starter": "The",
+      "answer": "The suggestion was laughed off by the manager.",
+      "answerZh": "那項建議被經理一笑置之。",
+      "highlight": "The suggestion was laughed off by",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Priya was able to see the funny side of her own fall on stage.",
+      "promptZh": "普里雅能夠看到自己在台上跌倒的有趣一面。",
+      "starter": "Priya",
+      "answer": "Priya was able to laugh at herself after falling on stage.",
+      "answerZh": "普里雅在台上跌倒後,能夠取笑自己。",
+      "highlight": "laugh at herself after falling",
+      "targetForm": "laugh at yourself",
+      "targetMeaningZh": "能夠取笑自己"
+    },
+    {
+      "id": "phrasal-verb-44-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Which scene in the film made you laugh?",
+      "promptZh": "電影中的哪一幕令你發笑?",
+      "starter": "Which",
+      "answer": "Which scene in the film did you laugh at?",
+      "answerZh": "你因電影中的哪一幕而發笑?",
+      "highlight": "did",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The rumour is false, so we should treat it as unimportant.",
+      "promptZh": "那個傳聞是假的,所以我們不應把它放在心上。",
+      "starter": "The",
+      "answer": "The rumour is false, so we should laugh it off.",
+      "answerZh": "那個傳聞是假的,所以我們應該一笑置之。",
+      "highlight": "laugh",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Tom heard the others making fun of her when she was not there.",
+      "promptZh": "湯姆聽說其他人在她不在場時取笑她。",
+      "starter": "Tom",
+      "answer": "Tom heard the others laughing at her behind her back.",
+      "answerZh": "湯姆聽說其他人在她背後取笑她。",
+      "highlight": "laughing at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children found the puppet show very funny.",
+      "promptZh": "孩子們覺得木偶表演非常有趣。",
+      "starter": "The",
+      "answer": "The children laughed at the puppet show.",
+      "answerZh": "孩子們因木偶表演而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The interviewer mentioned his earlier mistake. He smiled and treated it as a small matter.",
+      "promptZh": "訪問員提到他較早前的錯誤。他笑了笑,並把它當作小事。",
+      "starter": "The",
+      "answer": "The interviewer mentioned his earlier mistake. He smiled and laughed it off.",
+      "answerZh": "訪問員提到他較早前的錯誤。他笑了笑,並對它一笑置之。",
+      "highlight": "laughed",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The audience were making fun of the speaker rather than enjoying his speech.",
+      "promptZh": "觀眾是在取笑講者,而不是欣賞他的演說。",
+      "starter": "The",
+      "answer": "The audience were laughing at the speaker rather than enjoying his speech.",
+      "answerZh": "觀眾是在取笑講者,而不是欣賞他的演說。",
+      "highlight": "laughing at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When reporters asked about the weak sales, the director smiled and treated the problem as unimportant.",
+      "promptZh": "記者問及銷量欠佳時,主管笑了笑,沒有把問題放在心上。",
+      "starter": "When",
+      "answer": "When reporters asked about the weak sales, the director smiled and laughed off the problem.",
+      "answerZh": "記者問及銷量欠佳時,主管笑了笑,對問題一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I told the joke twice, but nobody found it funny.",
+      "promptZh": "我把笑話說了兩次,但沒有人覺得好笑。",
+      "starter": "I",
+      "answer": "I told the joke twice, but nobody laughed at it.",
+      "answerZh": "我把笑話說了兩次,但沒有人因它而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of helping Amir after he fell, a few pupils made fun of him.",
+      "promptZh": "阿米爾跌倒後,幾名學生沒有幫助他,反而取笑他。",
+      "starter": "Instead",
+      "answer": "Instead of helping Amir after he fell, a few pupils laughed at him.",
+      "answerZh": "阿米爾跌倒後,幾名學生沒有幫助他,反而取笑他。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The actor did not answer the rumour seriously; she simply joked about it and moved on.",
+      "promptZh": "那名演員沒有認真回應傳聞;她只是開了個玩笑,然後轉到另一個話題。",
+      "starter": "The",
+      "answer": "The actor laughed off the rumour and moved on.",
+      "answerZh": "那名演員對傳聞一笑置之,然後轉到另一個話題。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The baby always found the toy’s funny noise amusing.",
+      "promptZh": "嬰兒總是覺得玩具發出的有趣聲音很好笑。",
+      "starter": "The",
+      "answer": "The baby always laughed at the toy’s funny noise.",
+      "answerZh": "嬰兒總是因玩具發出的有趣聲音而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even after sending the message to the wrong group, I was able to see the funny side of my own mistake.",
+      "promptZh": "即使把訊息傳送到錯誤的群組,我仍能看到自己錯誤的有趣一面。",
+      "starter": "Even",
+      "answer": "Even after sending the message to the wrong group, I was able to laugh at myself.",
+      "answerZh": "即使把訊息傳送到錯誤的群組,我仍能取笑自己。",
+      "highlight": "laugh at myself",
+      "targetForm": "laugh at yourself",
+      "targetMeaningZh": "能夠取笑自己"
+    },
+    {
+      "id": "phrasal-verb-44-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "He acted as though the warning did not matter, although the rest of us were worried.",
+      "promptZh": "他表現得好像那項警告並不重要,但我們其他人都很擔心。",
+      "starter": "He",
+      "answer": "He laughed off the warning, although the rest of us were worried.",
+      "answerZh": "他對那項警告一笑置之,但我們其他人都很擔心。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why does nobody find the joke in this advert funny?",
+      "promptZh": "為甚麼沒有人覺得這個廣告中的笑話好笑?",
+      "starter": "Why",
+      "answer": "Why does nobody laugh at the joke in this advert?",
+      "answerZh": "為甚麼沒有人因這個廣告中的笑話而笑?",
+      "highlight": "laugh at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The other players secretly made fun of Ben after he missed the easy goal.",
+      "promptZh": "賓射失那個容易的入球後,其他球員暗中取笑他。",
+      "starter": "The",
+      "answer": "The other players secretly laughed at Ben after he missed the easy goal.",
+      "answerZh": "賓射失那個容易的入球後,其他球員暗中取笑他。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After the photograph appeared online, Maya smiled and acted as though the embarrassing moment was unimportant.",
+      "promptZh": "照片在網上出現後,瑪雅笑了笑,表現得好像那個尷尬時刻並不重要。",
+      "starter": "After",
+      "answer": "After the photograph appeared online, Maya laughed off the embarrassing moment.",
+      "answerZh": "照片在網上出現後,瑪雅對那個尷尬時刻一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The team should not make fun of new players when they make simple mistakes.",
+      "promptZh": "新球員犯下簡單錯誤時,球隊不應取笑他們。",
+      "starter": "The",
+      "answer": "The team should not laugh at new players when they make simple mistakes.",
+      "answerZh": "新球員犯下簡單錯誤時,球隊不應取笑他們。",
+      "highlight": "laugh at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although I had heard the story before, I still found the ending funny.",
+      "promptZh": "雖然我以前聽過這個故事,但仍然覺得結局很好笑。",
+      "starter": "Although",
+      "answer": "Although I had heard the story before, I still laughed at the ending.",
+      "answerZh": "雖然我以前聽過這個故事,但仍然因結局而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The interviewer asked about the criticism, but the singer treated it as a joke and changed the subject.",
+      "promptZh": "訪問員問及那些批評,但歌手把它當作笑話,然後轉換話題。",
+      "starter": "The",
+      "answer": "The interviewer asked about the criticism, but the singer laughed it off and changed the subject.",
+      "answerZh": "訪問員問及那些批評,但歌手一笑置之,然後轉換話題。",
+      "highlight": "laughed",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "When he saw the old school photograph, Karim could smile at how silly he had looked.",
+      "promptZh": "卡里姆看到舊校園照片時,能夠笑自己當時看起來多麼傻氣。",
+      "starter": "When",
+      "answer": "When he saw the old school photograph, Karim could laugh at himself for looking so silly.",
+      "answerZh": "卡里姆看到舊校園照片時,能夠笑自己當時看起來十分傻氣。",
+      "highlight": "laugh",
+      "targetForm": "laugh at yourself",
+      "targetMeaningZh": "能夠取笑自己"
+    },
+    {
+      "id": "phrasal-verb-44-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The children had seen the clip many times, yet it still made them laugh.",
+      "promptZh": "孩子們已看過那段短片很多次,但它仍然令他們發笑。",
+      "starter": "The",
+      "answer": "The children had seen the clip many times, yet they still laughed at it.",
+      "answerZh": "孩子們已看過那段短片很多次,但仍然因它而笑。",
+      "highlight": "they still laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "People suggested that Leo wanted the manager’s job, but he dismissed the idea with a smile.",
+      "promptZh": "人們認為里奧想得到經理的職位,但他笑着表示那個說法不值得認真看待。",
+      "starter": "People",
+      "answer": "People suggested that Leo wanted the manager’s job, but he laughed off the idea.",
+      "answerZh": "人們認為里奧想得到經理的職位,但他對那個說法一笑置之。",
+      "highlight": "laughed off",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    },
+    {
+      "id": "phrasal-verb-44-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "It hurt Ava to learn that some classmates had been making fun of her when she was not there.",
+      "promptZh": "艾娃得知一些同學在她不在場時取笑她,感到十分難受。",
+      "starter": "It",
+      "answer": "It hurt Ava to learn that some classmates had been laughing at her behind her back.",
+      "answerZh": "艾娃得知一些同學一直在她背後取笑她,感到十分難受。",
+      "highlight": "laughing at",
+      "targetForm": "laugh at somebody",
+      "targetMeaningZh": "嘲笑某人"
+    },
+    {
+      "id": "phrasal-verb-44-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even the quiet audience found the comedian’s last joke funny.",
+      "promptZh": "即使是安靜的觀眾,也覺得那名喜劇演員最後的笑話很好笑。",
+      "starter": "Even",
+      "answer": "Even the quiet audience laughed at the comedian’s last joke.",
+      "answerZh": "即使是安靜的觀眾,也因那名喜劇演員最後的笑話而笑。",
+      "highlight": "laughed at",
+      "targetForm": "laugh at something",
+      "targetMeaningZh": "因某事物有趣而笑"
+    },
+    {
+      "id": "phrasal-verb-44-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Although the result was disappointing, the captain smiled, treated it as a small problem and focused on the next match.",
+      "promptZh": "雖然賽果令人失望,但隊長笑了笑,把它當作小問題,並把注意力放在下一場比賽。",
+      "starter": "Although",
+      "answer": "Although the result was disappointing, the captain laughed it off and focused on the next match.",
+      "answerZh": "雖然賽果令人失望,但隊長一笑置之,並把注意力放在下一場比賽。",
+      "highlight": "laughed",
+      "targetForm": "laugh something off",
+      "targetMeaningZh": "對某事一笑置之;把某事當作不重要"
+    }
+  ]
+}

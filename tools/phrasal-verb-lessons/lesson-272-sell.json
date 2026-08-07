@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-272",
+  "order": 272,
+  "slug": "sell",
+  "version": "1",
+  "title": "SELL 動詞片語",
+  "titleEn": "Sell",
+  "titleZh": "SELL 動詞片語",
+  "level": "B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 257 - SELL.pdf",
+    "sourceNumber": 257,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SELL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SELL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SELL",
+      "highlight": "SELL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The farm sold off its old machines.",
+      "zh": "農場出售了不再需要的舊機器。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She repaired the phone and sold it on.",
+      "zh": "(她修好手機後,把它轉售給別人。)The words to somebody are optional. They identify the new buyer.to somebody 並非必須,只是說明新買家是誰。",
+      "highlight": "She",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The Saturday show is sold out.",
+      "zh": "星期六的表演門票已經售罄。",
+      "highlight": "The",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "出售不再需要的土地、財產或物品；把自己擁有、使用或買入的東西再賣給別人；票、座位或可售物品全部售罄；出賣或背叛某人、團體或組織；把某種貨品全部賣光;沒有該貨品剩下；賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+    "en": "sell something off; sell something on (to somebody); sell out / be sold out; sell somebody/something out (to somebody/something); sell out of something / be sold out of something; sell up / sell something up",
+    "naturalZh": [
+      "出售不再需要的土地、財產或物品",
+      "把自己擁有、使用或買入的東西再賣給別人",
+      "票、座位或可售物品全部售罄",
+      "出賣或背叛某人、團體或組織",
+      "把某種貨品全部賣光;沒有該貨品剩下",
+      "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "sell something off",
+      "titleZh": "出售不再需要的土地、財產或物品",
+      "titleEn": "sell something off",
+      "descriptionZh": "出售不再需要的土地、財產或物品",
+      "descriptionEn": "The farm sold off its old machines.",
+      "examples": [
+        {
+          "en": "The farm sold off its old machines.",
+          "zh": "農場出售了不再需要的舊機器。",
+          "highlight": "The"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sell something on (to somebody)",
+      "titleZh": "把自己擁有、使用或買入的東西再賣給別人",
+      "titleEn": "sell something on (to somebody)",
+      "descriptionZh": "把自己擁有、使用或買入的東西再賣給別人",
+      "descriptionEn": "She repaired the phone and sold it on.",
+      "examples": [
+        {
+          "en": "She repaired the phone and sold it on.",
+          "zh": "(她修好手機後,把它轉售給別人。)The words to somebody are optional. They identify the new buyer.to somebody 並非必須,只是說明新買家是誰。",
+          "highlight": "She"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sell out / be sold out",
+      "titleZh": "票、座位或可售物品全部售罄",
+      "titleEn": "sell out / be sold out",
+      "descriptionZh": "票、座位或可售物品全部售罄",
+      "descriptionEn": "The Saturday show is sold out.",
+      "examples": [
+        {
+          "en": "The Saturday show is sold out.",
+          "zh": "星期六的表演門票已經售罄。",
+          "highlight": "The"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "sell somebody/something out (to somebody/something)",
+      "titleZh": "出賣或背叛某人、團體或組織",
+      "titleEn": "sell somebody/something out (to somebody/something)",
+      "descriptionZh": "出賣或背叛某人、團體或組織",
+      "descriptionEn": "He sold his team out to the rival club.",
+      "examples": [
+        {
+          "en": "He sold his team out to the rival club.",
+          "zh": "(他向對手俱樂部出賣了自己的球隊。)The words to somebody/something are optional. The core expression is sellsomebody/something out.to somebody/something 並非必須。核心表達是 sell somebody/something out。",
+          "highlight": "He"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sell out of something / be sold out of something",
+      "titleZh": "把某種貨品全部賣光;沒有該貨品剩下",
+      "titleEn": "sell out of something / be sold out of something",
+      "descriptionZh": "把某種貨品全部賣光;沒有該貨品剩下",
+      "descriptionEn": "The bakery has sold out of bread.",
+      "examples": [
+        {
+          "en": "The bakery has sold out of bread.",
+          "zh": "麵包店的麵包已經售罄。",
+          "highlight": "The"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "sell up / sell something up",
+      "titleZh": "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+      "titleEn": "sell up / sell something up",
+      "descriptionZh": "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+      "descriptionEn": "They sold up and moved away.",
+      "examples": [
+        {
+          "en": "They sold up and moved away.",
+          "zh": "他們賣掉大部分財物,然後搬走了。",
+          "highlight": "They"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SELL 片語動詞的實際用途",
+    "labelEn": "SELL Phrasal Verbs in Use",
+    "summaryZh": "sell something off 表示出售不再需要的財產或物品;sell something on 則表示把東西轉售給下一位買家。；sell out 可以表示活動門票售罄;sell out of something 則表示賣方已沒有某種貨品。；sell up 可以表示某人在退休或搬遷前,賣掉住所、生意或大部分財物。；sell somebody out 並不是把某人出售,而是出賣或背叛該人或團體。",
+    "summaryEn": "Sell something off describes getting rid of unwanted property or objects. Sell something on describes selling something to its next owner. Sell out can describe an event with no tickets left. Sell out of something shows that a seller has none of a particular product left. Sell up can describe selling a home, business or most possessions before retiring or moving elsewhere. Sell somebody out does not mean selling a person. It means betraying that person or group.",
+    "contextsZh": [
+      "分清出售不需要物品和轉售",
+      "清楚談論門票和店舖存貨",
+      "描述出售家園或生意後的重大轉變",
+      "理解 SELL 的非字面意思"
+    ],
+    "contextsEn": [
+      "Distinguish unwanted sales from resale",
+      "Talk clearly about tickets and shop supplies",
+      "Describe major changes involving a home or business",
+      "Recognise a non-literal meaning of SELL"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SELL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SELL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "sell something off",
+    "fixedHighlight": "sell something off",
+    "fixedZh": "閱讀整句,選出意思相同的 SELL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SELL expression that gives the same meaning.",
+    "correct": "The",
+    "incorrectForms": [],
+    "variableZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；音樂會的門票已售罄。)The shop is sold out of bread.(店舖的麵包已售罄。；補充部分並非固定表達的一部分。以 to 開始的部分只補充說明東西賣給了誰,或某人向哪一方出賣了別人。",
+    "variableEn": "When using it, him, her or them, place the word as shown: sell it off sell it on sell them out sell it up Sell out and sell out of something express different ideas: The concert is sold out. Extra information is not part of the fixed expression: She sold the phone on. She sold the phone on to a friend. He sold us out. He sold us out to the other team. The words beginning with to simply tell us who received the thing or information.",
+    "variableItemsZh": [
+      "sell something off",
+      "sell something on (to somebody)",
+      "sell out / be sold out",
+      "sell somebody/something out (to somebody/something)",
+      "sell out of something / be sold out of something",
+      "sell up / sell something up"
+    ],
+    "variableItemsEn": [
+      "sell something off",
+      "sell something on (to somebody)",
+      "sell out / be sold out",
+      "sell somebody/something out (to somebody/something)",
+      "sell out of something / be sold out of something",
+      "sell up / sell something up"
+    ],
+    "forms": [
+      {
+        "formZh": "出售不再需要的土地、財產或物品",
+        "formEn": "sell something off",
+        "exampleZh": "農場出售了不再需要的舊機器。",
+        "exampleEn": "The farm sold off its old machines.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "把自己擁有、使用或買入的東西再賣給別人",
+        "formEn": "sell something on (to somebody)",
+        "exampleZh": "(她修好手機後,把它轉售給別人。)The words to somebody are optional. They identify the new buyer.to somebody 並非必須,只是說明新買家是誰。",
+        "exampleEn": "She repaired the phone and sold it on.",
+        "highlight": "She"
+      },
+      {
+        "formZh": "票、座位或可售物品全部售罄",
+        "formEn": "sell out / be sold out",
+        "exampleZh": "星期六的表演門票已經售罄。",
+        "exampleEn": "The Saturday show is sold out.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "出賣或背叛某人、團體或組織",
+        "formEn": "sell somebody/something out (to somebody/something)",
+        "exampleZh": "(他向對手俱樂部出賣了自己的球隊。)The words to somebody/something are optional. The core expression is sellsomebody/something out.to somebody/something 並非必須。核心表達是 sell somebody/something out。",
+        "exampleEn": "He sold his team out to the rival club.",
+        "highlight": "He"
+      },
+      {
+        "formZh": "把某種貨品全部賣光;沒有該貨品剩下",
+        "formEn": "sell out of something / be sold out of something",
+        "exampleZh": "麵包店的麵包已經售罄。",
+        "exampleEn": "The bakery has sold out of bread.",
+        "highlight": "The"
+      },
+      {
+        "formZh": "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+        "formEn": "sell up / sell something up",
+        "exampleZh": "他們賣掉大部分財物,然後搬走了。",
+        "exampleEn": "They sold up and moved away.",
+        "highlight": "They"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "出售不再需要的土地、財產或物品",
+      "titleEn": "sell something off",
+      "formula": "sell something off",
+      "highlight": "sell something off",
+      "descriptionZh": "出售不再需要的土地、財產或物品",
+      "descriptionEn": "The farm sold off its old machines.",
+      "examples": [
+        {
+          "en": "The farm sold off its old machines.",
+          "zh": "農場出售了不再需要的舊機器。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把自己擁有、使用或買入的東西再賣給別人",
+      "titleEn": "sell something on (to somebody)",
+      "formula": "sell something on (to somebody)",
+      "highlight": "sell something on (to somebody)",
+      "descriptionZh": "把自己擁有、使用或買入的東西再賣給別人",
+      "descriptionEn": "She repaired the phone and sold it on.",
+      "examples": [
+        {
+          "en": "She repaired the phone and sold it on.",
+          "zh": "(她修好手機後,把它轉售給別人。)The words to somebody are optional. They identify the new buyer.to somebody 並非必須,只是說明新買家是誰。",
+          "highlight": "She"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "票、座位或可售物品全部售罄",
+      "titleEn": "sell out / be sold out",
+      "formula": "sell out / be sold out",
+      "highlight": "sell out / be sold out",
+      "descriptionZh": "票、座位或可售物品全部售罄",
+      "descriptionEn": "The Saturday show is sold out.",
+      "examples": [
+        {
+          "en": "The Saturday show is sold out.",
+          "zh": "星期六的表演門票已經售罄。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "出賣或背叛某人、團體或組織",
+      "titleEn": "sell somebody/something out (to somebody/something)",
+      "formula": "sell somebody/something out (to somebody/something)",
+      "highlight": "sell somebody/something out (to somebody/something)",
+      "descriptionZh": "出賣或背叛某人、團體或組織",
+      "descriptionEn": "He sold his team out to the rival club.",
+      "examples": [
+        {
+          "en": "He sold his team out to the rival club.",
+          "zh": "(他向對手俱樂部出賣了自己的球隊。)The words to somebody/something are optional. The core expression is sellsomebody/something out.to somebody/something 並非必須。核心表達是 sell somebody/something out。",
+          "highlight": "He"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某種貨品全部賣光;沒有該貨品剩下",
+      "titleEn": "sell out of something / be sold out of something",
+      "formula": "sell out of something / be sold out of something",
+      "highlight": "sell out of something / be sold out of something",
+      "descriptionZh": "把某種貨品全部賣光;沒有該貨品剩下",
+      "descriptionEn": "The bakery has sold out of bread.",
+      "examples": [
+        {
+          "en": "The bakery has sold out of bread.",
+          "zh": "麵包店的麵包已經售罄。",
+          "highlight": "The"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+      "titleEn": "sell up / sell something up",
+      "formula": "sell up / sell something up",
+      "highlight": "sell up / sell something up",
+      "descriptionZh": "賣掉生意、房產或大部分財物,通常為了搬遷、退休或停止經營",
+      "descriptionEn": "They sold up and moved away.",
+      "examples": [
+        {
+          "en": "They sold up and moved away.",
+          "zh": "他們賣掉大部分財物,然後搬走了。",
+          "highlight": "They"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "分清出售不需要物品和轉售",
+      "titleEn": "Distinguish unwanted sales from resale",
+      "zh": "sell something off 表示出售不再需要的財產或物品;sell something on 則表示把東西轉售給下一位買家。",
+      "en": "Sell something off describes getting rid of unwanted property or objects. Sell something on describes selling something to its next owner."
+    },
+    {
+      "titleZh": "清楚談論門票和店舖存貨",
+      "titleEn": "Talk clearly about tickets and shop supplies",
+      "zh": "sell out 可以表示活動門票售罄;sell out of something 則表示賣方已沒有某種貨品。",
+      "en": "Sell out can describe an event with no tickets left. Sell out of something shows that a seller has none of a particular product left."
+    },
+    {
+      "titleZh": "描述出售家園或生意後的重大轉變",
+      "titleEn": "Describe major changes involving a home or business",
+      "zh": "sell up 可以表示某人在退休或搬遷前,賣掉住所、生意或大部分財物。",
+      "en": "Sell up can describe selling a home, business or most possessions before retiring or moving elsewhere."
+    },
+    {
+      "titleZh": "理解 SELL 的非字面意思",
+      "titleEn": "Recognise a non-literal meaning of SELL",
+      "zh": "sell somebody out 並不是把某人出售,而是出賣或背叛該人或團體。",
+      "en": "Sell somebody out does not mean selling a person. It means betraying that person or group."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "分清出售不需要物品和轉售",
+      "清楚談論門票和店舖存貨",
+      "描述出售家園或生意後的重大轉變",
+      "理解 SELL 的非字面意思"
+    ],
+    "contextsEn": [
+      "Distinguish unwanted sales from resale",
+      "Talk clearly about tickets and shop supplies",
+      "Describe major changes involving a home or business",
+      "Recognise a non-literal meaning of SELL"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "分清出售不需要物品和轉售",
+        "titleEn": "Distinguish unwanted sales from resale",
+        "zh": "sell something off 表示出售不再需要的財產或物品;sell something on 則表示把東西轉售給下一位買家。",
+        "en": "Sell something off describes getting rid of unwanted property or objects. Sell something on describes selling something to its next owner.",
+        "examples": [
+          {
+            "en": "The farm sold off its old machines.",
+            "zh": "農場出售了不再需要的舊機器。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論門票和店舖存貨",
+        "titleEn": "Talk clearly about tickets and shop supplies",
+        "zh": "sell out 可以表示活動門票售罄;sell out of something 則表示賣方已沒有某種貨品。",
+        "en": "Sell out can describe an event with no tickets left. Sell out of something shows that a seller has none of a particular product left.",
+        "examples": [
+          {
+            "en": "She repaired the phone and sold it on.",
+            "zh": "(她修好手機後,把它轉售給別人。)The words to somebody are optional. They identify the new buyer.to somebody 並非必須,只是說明新買家是誰。",
+            "highlight": "She"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述出售家園或生意後的重大轉變",
+        "titleEn": "Describe major changes involving a home or business",
+        "zh": "sell up 可以表示某人在退休或搬遷前,賣掉住所、生意或大部分財物。",
+        "en": "Sell up can describe selling a home, business or most possessions before retiring or moving elsewhere.",
+        "examples": [
+          {
+            "en": "The Saturday show is sold out.",
+            "zh": "星期六的表演門票已經售罄。",
+            "highlight": "The"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 SELL 的非字面意思",
+        "titleEn": "Recognise a non-literal meaning of SELL",
+        "zh": "sell somebody out 並不是把某人出售,而是出賣或背叛該人或團體。",
+        "en": "Sell somebody out does not mean selling a person. It means betraying that person or group.",
+        "examples": [
+          {
+            "en": "He sold his team out to the rival club.",
+            "zh": "(他向對手俱樂部出賣了自己的球隊。)The words to somebody/something are optional. The core expression is sellsomebody/something out.to somebody/something 並非必須。核心表達是 sell somebody/something out。",
+            "highlight": "He"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SELL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SELL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SELL 片語動詞。",
+      "en": "Read the whole sentence and choose the SELL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: sell it off sell it on sell them out sell it up.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: sell it off sell it on sell them out sell it up"
+    },
+    {
+      "titleZh": "音樂會的門票已售罄。)The shop is sold out of bread.(店舖的麵包已售罄。",
+      "titleEn": "Sell out and sell out of something express different ideas: The concert is sold out.",
+      "zh": "音樂會的門票已售罄。)The shop is sold out of bread.(店舖的麵包已售罄。",
+      "en": "Sell out and sell out of something express different ideas: The concert is sold out."
+    },
+    {
+      "titleZh": "補充部分並非固定表達的一部分。以 to 開始的部分只補充說明東西賣給了誰,或某人向哪一方出賣了別人。",
+      "titleEn": "Extra information is not part of the fixed expression: She sold the phone on.",
+      "zh": "補充部分並非固定表達的一部分。以 to 開始的部分只補充說明東西賣給了誰,或某人向哪一方出賣了別人。",
+      "en": "Extra information is not part of the fixed expression: She sold the phone on. She sold the phone on to a friend. He sold us out. He sold us out to the other team. The words beginning with to simply tell us who received the thing or information."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SELL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SELL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SELL 動詞片語句子改寫練習",
+    "titleEn": "SELL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SELL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SELL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-272-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The council sold the old chairs because it no longer needed them.",
+      "promptZh": "市議會出售了不再需要的舊椅子。",
+      "starter": "The",
+      "answer": "The council sold off the old chairs because it no longer needed them.",
+      "answerZh": "市議會出售了不再需要的舊椅子。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或物品"
+    },
+    {
+      "id": "phrasal-verb-272-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Friday’s concert had no tickets left within an hour.",
+      "promptZh": "星期五音樂會的門票在一小時內便全部售罄。",
+      "starter": "Friday’s",
+      "answer": "Friday’s concert sold out within an hour.",
+      "answerZh": "星期五音樂會的門票在一小時內便全部售罄。",
+      "highlight": "sold out",
+      "targetForm": "sell out",
+      "targetMeaningZh": "門票或可售物品全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ravi used the bicycle for a year and then sold it to another student.",
+      "promptZh": "拉維使用那輛單車一年後,把它賣給了另一名學生。",
+      "starter": "Ravi",
+      "answer": "Ravi used the bicycle for a year and then sold it on to another student.",
+      "answerZh": "拉維使用那輛單車一年後,把它轉售給另一名學生。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一人"
+    },
+    {
+      "id": "phrasal-verb-272-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The bakery had no bread left by noon.",
+      "promptZh": "麵包店到了中午已沒有麵包剩下。",
+      "starter": "The",
+      "answer": "The bakery sold out of bread by noon.",
+      "answerZh": "麵包店到了中午已把麵包全部賣光。",
+      "highlight": "sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The couple sold everything they owned and then moved abroad.",
+      "promptZh": "這對夫婦賣掉所有財物後移居外國。",
+      "starter": "The",
+      "answer": "The couple sold up and moved abroad.",
+      "answerZh": "這對夫婦賣掉所有財物後移居外國。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Kai betrayed his teammates by giving their plan to the other team.",
+      "promptZh": "啟把隊友的計劃交給對手球隊,出賣了自己的隊友。",
+      "starter": "Kai",
+      "answer": "Kai sold his teammates out by giving their plan to the other team.",
+      "answerZh": "啟把隊友的計劃交給對手球隊,出賣了自己的隊友。",
+      "highlight": "sold",
+      "targetForm": "sell somebody out",
+      "targetMeaningZh": "出賣或背叛某人"
+    },
+    {
+      "id": "phrasal-verb-272-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "There are no seats left for tonight’s show.",
+      "promptZh": "今晚的表演已沒有座位剩下。",
+      "starter": "Tonight’s",
+      "answer": "Tonight’s show is sold out.",
+      "answerZh": "今晚表演的門票已經售罄。",
+      "highlight": "is sold out",
+      "targetForm": "be sold out",
+      "targetMeaningZh": "門票或座位已全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The unused field beside the school was sold because the school no longer needed it.",
+      "promptZh": "學校出售了旁邊不再需要的空置土地。",
+      "starter": "The",
+      "answer": "The unused field beside the school was sold off because the school no longer needed it.",
+      "answerZh": "學校出售了旁邊不再需要的空置土地。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或土地"
+    },
+    {
+      "id": "phrasal-verb-272-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The owner sold everything in the business and then retired.",
+      "promptZh": "店主賣掉生意中的所有東西後退休了。",
+      "starter": "The",
+      "answer": "The owner sold up and then retired.",
+      "answerZh": "店主賣掉生意中的所有東西後退休了。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The shop bought the old desk cheaply and later sold it to someone else.",
+      "promptZh": "店舖低價買入那張舊書桌,後來再把它賣給別人。",
+      "starter": "The",
+      "answer": "The shop bought the old desk cheaply and later sold it on.",
+      "answerZh": "店舖低價買入那張舊書桌,後來再把它轉售給別人。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on",
+      "targetMeaningZh": "把某物轉售給另一人"
+    },
+    {
+      "id": "phrasal-verb-272-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Someone betrayed the group, but we do not know who.",
+      "promptZh": "有人出賣了這個團體,但我們不知道是誰。",
+      "starter": "Someone",
+      "answer": "Someone sold the group out, but we do not know who.",
+      "answerZh": "有人出賣了這個團體,但我們不知道是誰。",
+      "highlight": "sold",
+      "targetForm": "sell somebody/something out",
+      "targetMeaningZh": "出賣或背叛某人或團體"
+    },
+    {
+      "id": "phrasal-verb-272-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The market stall has no apples left today.",
+      "promptZh": "這個市集攤檔今天已沒有蘋果剩下。",
+      "starter": "The",
+      "answer": "The market stall is sold out of apples today.",
+      "answerZh": "這個市集攤檔今天的蘋果已經售罄。",
+      "highlight": "is sold out of",
+      "targetForm": "be sold out of something",
+      "targetMeaningZh": "某種貨品已經售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We have no large boxes left.",
+      "promptZh": "我們已沒有大紙箱剩下。",
+      "starter": "We",
+      "answer": "We have sold out of large boxes.",
+      "answerZh": "我們已把大紙箱全部賣光。",
+      "highlight": "sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The farm is selling its unused machines one by one.",
+      "promptZh": "農場正逐一出售不再使用的機器。",
+      "starter": "The",
+      "answer": "The farm is selling off its unused machines one by one.",
+      "answerZh": "農場正逐一出售不再使用的機器。",
+      "highlight": "selling off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或物品"
+    },
+    {
+      "id": "phrasal-verb-272-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Nina would never betray her friends to the rival team.",
+      "promptZh": "妮娜絕不會向對手球隊出賣自己的朋友。",
+      "starter": "Nina",
+      "answer": "Nina would never sell her friends out to the rival team.",
+      "answerZh": "妮娜絕不會向對手球隊出賣自己的朋友。",
+      "highlight": "sell",
+      "targetForm": "sell somebody out to somebody",
+      "targetMeaningZh": "向另一方出賣某人"
+    },
+    {
+      "id": "phrasal-verb-272-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The tickets for the game will all be bought very quickly.",
+      "promptZh": "這場比賽的門票很快便會全部售罄。",
+      "starter": "The",
+      "answer": "The tickets for the game will sell out very quickly.",
+      "answerZh": "這場比賽的門票很快便會全部售罄。",
+      "highlight": "sell out",
+      "targetForm": "sell out",
+      "targetMeaningZh": "門票或可售物品全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Once I repair the phone, I will sell it to another buyer.",
+      "promptZh": "我修好手機後,便會把它賣給另一名買家。",
+      "starter": "Once",
+      "answer": "Once I repair the phone, I will sell it on to another buyer.",
+      "answerZh": "我修好手機後,便會把它轉售給另一名買家。",
+      "highlight": "sell it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一名買家"
+    },
+    {
+      "id": "phrasal-verb-272-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "They plan to sell everything and leave the city.",
+      "promptZh": "他們計劃賣掉所有財物,然後離開這座城市。",
+      "starter": "They",
+      "answer": "They plan to sell up and leave the city.",
+      "answerZh": "他們計劃賣掉所有財物,然後離開這座城市。",
+      "highlight": "sell up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The shop no longer needs the old shelves, so it will sell them.",
+      "promptZh": "店舖不再需要那些舊架子,所以會把它們出售。",
+      "starter": "The",
+      "answer": "The shop no longer needs the old shelves, so it will sell them off.",
+      "answerZh": "店舖不再需要那些舊架子,所以會把它們出售。",
+      "highlight": "sell them off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的物品"
+    },
+    {
+      "id": "phrasal-verb-272-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Does the shop have no blue shirts left?",
+      "promptZh": "店舖已沒有藍色恤衫剩下嗎?",
+      "starter": "Is",
+      "answer": "Is the shop sold out of blue shirts?",
+      "answerZh": "店舖的藍色恤衫已經售罄嗎?",
+      "highlight": "Is",
+      "targetForm": "be sold out of something",
+      "targetMeaningZh": "某種貨品已經售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Does Saturday’s match have no tickets left?",
+      "promptZh": "星期六的比賽門票已經售罄嗎?",
+      "starter": "Is",
+      "answer": "Is Saturday’s match sold out?",
+      "answerZh": "星期六的比賽門票已經售罄嗎?",
+      "highlight": "Is",
+      "targetForm": "be sold out",
+      "targetMeaningZh": "門票已全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The villagers discovered that someone from their village had betrayed them to the enemy.",
+      "promptZh": "村民發現村內有人向敵人出賣了他們。",
+      "starter": "The",
+      "answer": "The villagers discovered that they had been sold out to the enemy by someone from their village.",
+      "answerZh": "村民發現村內有人向敵人出賣了他們。",
+      "highlight": "they had been sold out to the enemy by",
+      "targetForm": "sell somebody out to somebody",
+      "targetMeaningZh": "向另一方出賣某人"
+    },
+    {
+      "id": "phrasal-verb-272-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Are you really going to sell everything and move away?",
+      "promptZh": "你真的打算賣掉所有財物後搬走嗎?",
+      "starter": "Are",
+      "answer": "Are you really going to sell up and move away?",
+      "answerZh": "你真的打算賣掉所有財物後搬走嗎?",
+      "highlight": "sell up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The car was used for a year and then sold to a new owner.",
+      "promptZh": "這輛汽車使用了一年,然後被轉售給新車主。",
+      "starter": "The",
+      "answer": "The car was used for a year and then sold on to a new owner.",
+      "answerZh": "這輛汽車使用了一年,然後被轉售給新車主。",
+      "highlight": "sold on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一人"
+    },
+    {
+      "id": "phrasal-verb-272-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Did the company keep the building, or did it sell it to another business?",
+      "promptZh": "公司保留了那幢大樓,還是把它轉售給另一間公司?",
+      "starter": "Did",
+      "answer": "Did the company keep the building, or did it sell it on to another business?",
+      "answerZh": "公司保留了那幢大樓,還是把它轉售給另一間公司?",
+      "highlight": "sell it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一名買家"
+    },
+    {
+      "id": "phrasal-verb-272-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "By the time we visited, the family had sold everything and left the town.",
+      "promptZh": "我們到訪時,那家人已經賣掉所有財物並離開了小鎮。",
+      "starter": "By",
+      "answer": "By the time we visited, the family had sold up and left the town.",
+      "answerZh": "我們到訪時,那家人已經賣掉所有財物並離開了小鎮。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The afternoon show has no tickets left, but the evening show still has some.",
+      "promptZh": "下午場的門票已經售罄,但晚上場仍有少量門票。",
+      "starter": "The",
+      "answer": "The afternoon show is sold out, but the evening show still has some tickets.",
+      "answerZh": "下午場的門票已經售罄,但晚上場仍有少量門票。",
+      "highlight": "is sold out",
+      "targetForm": "be sold out",
+      "targetMeaningZh": "門票已全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I trusted Leo, but he betrayed me for money.",
+      "promptZh": "我信任里奧,但他為了金錢出賣了我。",
+      "starter": "I",
+      "answer": "I trusted Leo, but he sold me out for money.",
+      "answerZh": "我信任里奧,但他為了金錢出賣了我。",
+      "highlight": "sold",
+      "targetForm": "sell somebody out",
+      "targetMeaningZh": "出賣或背叛某人"
+    },
+    {
+      "id": "phrasal-verb-272-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Several empty buildings owned by the company were sold to raise money.",
+      "promptZh": "公司出售了數幢空置大樓以籌集資金。",
+      "starter": "Several",
+      "answer": "Several empty buildings owned by the company were sold off to raise money.",
+      "answerZh": "公司出售了數幢空置大樓以籌集資金。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產"
+    },
+    {
+      "id": "phrasal-verb-272-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "By the end of the race, the drinks stall had no cold water left.",
+      "promptZh": "比賽結束時,飲品攤檔的凍水已全部售罄。",
+      "starter": "By",
+      "answer": "By the end of the race, the drinks stall had sold out of cold water.",
+      "answerZh": "比賽結束時,飲品攤檔已把凍水全部賣光。",
+      "highlight": "stall had sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The family sold the café, all its furniture and equipment, and then retired.",
+      "promptZh": "這家人出售了整間咖啡店及其所有傢俬和設備,然後退休。",
+      "starter": "The",
+      "answer": "The family sold the café up and then retired.",
+      "answerZh": "這家人出售了整間咖啡店,然後退休。",
+      "highlight": "sold the café up",
+      "targetForm": "sell something up",
+      "targetMeaningZh": "把整盤生意或財產出售"
+    },
+    {
+      "id": "phrasal-verb-272-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Nora bought the camera second-hand. A month later, she sold it again.",
+      "promptZh": "諾拉買了一部二手相機。一個月後,她把相機轉售給別人。",
+      "starter": "Nora",
+      "answer": "Nora bought the camera second-hand. A month later, she sold it on.",
+      "answerZh": "諾拉買了一部二手相機。一個月後,她把相機轉售給別人。",
+      "highlight": "she sold it on",
+      "targetForm": "sell something on",
+      "targetMeaningZh": "把某物轉售給另一人"
+    },
+    {
+      "id": "phrasal-verb-272-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Who betrayed the club by sharing its private plans?",
+      "promptZh": "誰把俱樂部的內部計劃告訴別人,出賣了俱樂部?",
+      "starter": "Who",
+      "answer": "Who sold the club out by sharing its private plans?",
+      "answerZh": "誰把俱樂部的內部計劃告訴別人,出賣了俱樂部?",
+      "highlight": "sold",
+      "targetForm": "sell something out",
+      "targetMeaningZh": "出賣或背叛某個團體"
+    },
+    {
+      "id": "phrasal-verb-272-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The first printing of the new book had no copies left by lunchtime.",
+      "promptZh": "這本新書的首批印刷本在午飯前已全部售罄。",
+      "starter": "The",
+      "answer": "The first printing of the new book sold out by lunchtime.",
+      "answerZh": "這本新書的首批印刷本在午飯前已全部售罄。",
+      "highlight": "sold out",
+      "targetForm": "sell out",
+      "targetMeaningZh": "所有可售物品全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The small shop had no batteries left, so I went elsewhere.",
+      "promptZh": "那間小店的電池已經售罄,所以我去了別處。",
+      "starter": "The",
+      "answer": "The small shop was sold out of batteries, so I went elsewhere.",
+      "answerZh": "那間小店的電池已經售罄,所以我去了別處。",
+      "highlight": "was sold out of",
+      "targetForm": "be sold out of something",
+      "targetMeaningZh": "某種貨品已經售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Why did the museum sell all its unwanted furniture?",
+      "promptZh": "博物館為甚麼出售所有不再需要的傢俬?",
+      "starter": "Why",
+      "answer": "Why did the museum sell off all its unwanted furniture?",
+      "answerZh": "博物館為甚麼出售所有不再需要的傢俬?",
+      "highlight": "sell off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的物品"
+    },
+    {
+      "id": "phrasal-verb-272-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The player betrayed us to the other team.",
+      "promptZh": "那名球員向對手球隊出賣了我們。",
+      "starter": "The",
+      "answer": "The player sold us out to the other team.",
+      "answerZh": "那名球員向對手球隊出賣了我們。",
+      "highlight": "sold",
+      "targetForm": "sell somebody out to somebody",
+      "targetMeaningZh": "向另一方出賣某人"
+    },
+    {
+      "id": "phrasal-verb-272-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The dealer did not keep the rare watch; he sold it to another collector.",
+      "promptZh": "商人沒有保留那隻罕有手錶,而是把它轉售給另一名收藏家。",
+      "starter": "The",
+      "answer": "The dealer did not keep the rare watch; he sold it on to another collector.",
+      "answerZh": "商人沒有保留那隻罕有手錶,而是把它轉售給另一名收藏家。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一名買家"
+    },
+    {
+      "id": "phrasal-verb-272-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Tickets were still available, but the shop had no programmes left.",
+      "promptZh": "門票仍然有售,但店舖的場刊已經售罄。",
+      "starter": "Tickets",
+      "answer": "Tickets were still available, but the shop had sold out of programmes.",
+      "answerZh": "門票仍然有售,但店舖已把場刊全部賣光。",
+      "highlight": "still available, but the shop had sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "To raise money quickly, the club sold its extra sports equipment.",
+      "promptZh": "為了迅速籌集資金,俱樂部出售了多餘的運動器材。",
+      "starter": "To",
+      "answer": "To raise money quickly, the club sold off its extra sports equipment.",
+      "answerZh": "為了迅速籌集資金,俱樂部出售了多餘的運動器材。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或物品"
+    },
+    {
+      "id": "phrasal-verb-272-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The band added another date because all tickets for the first concert had been bought.",
+      "promptZh": "樂隊加開了一場音樂會,因為第一場的門票已經全部售罄。",
+      "starter": "The",
+      "answer": "The band added another date because the first concert had sold out.",
+      "answerZh": "樂隊加開了一場音樂會,因為第一場的門票已經全部售罄。",
+      "highlight": "sold out",
+      "targetForm": "sell out",
+      "targetMeaningZh": "活動門票全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "They sold everything they owned before moving away.",
+      "promptZh": "他們在搬走前賣掉了所有財物。",
+      "starter": "They",
+      "answer": "They sold up before moving away.",
+      "answerZh": "他們在搬走前賣掉了所有財物。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Each owner ran the café for a while and then sold it to someone new.",
+      "promptZh": "每名店主經營咖啡店一段時間後,都把它轉售給新店主。",
+      "starter": "Each",
+      "answer": "Each owner ran the café for a while and then sold it on.",
+      "answerZh": "每名店主經營咖啡店一段時間後,都把它轉售給新店主。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on",
+      "targetMeaningZh": "把某物或生意轉售給另一人"
+    },
+    {
+      "id": "phrasal-verb-272-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The leader betrayed the whole group to protect himself.",
+      "promptZh": "領袖為了保護自己而出賣了整個團體。",
+      "starter": "The",
+      "answer": "The leader sold the whole group out to protect himself.",
+      "answerZh": "領袖為了保護自己而出賣了整個團體。",
+      "highlight": "sold",
+      "targetForm": "sell somebody/something out",
+      "targetMeaningZh": "出賣或背叛某人或團體"
+    },
+    {
+      "id": "phrasal-verb-272-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After forty years, the family decided to sell the hotel and stop running it.",
+      "promptZh": "經營四十年後,這家人決定出售酒店並停止經營。",
+      "starter": "After",
+      "answer": "After forty years, the family decided to sell the hotel up and stop running it.",
+      "answerZh": "經營四十年後,這家人決定出售酒店並停止經營。",
+      "highlight": "sell the hotel up",
+      "targetForm": "sell something up",
+      "targetMeaningZh": "把整盤生意或財產出售"
+    },
+    {
+      "id": "phrasal-verb-272-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "By the time we arrived, the café had no chocolate cake left.",
+      "promptZh": "我們到達時,咖啡店的朱古力蛋糕已經售罄。",
+      "starter": "By",
+      "answer": "By the time we arrived, the café was sold out of chocolate cake.",
+      "answerZh": "我們到達時,咖啡店的朱古力蛋糕已經售罄。",
+      "highlight": "was sold out of",
+      "targetForm": "be sold out of something",
+      "targetMeaningZh": "某種貨品已經售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The council kept the useful buses but sold the rest.",
+      "promptZh": "市議會保留了仍然有用的巴士,但出售了其餘巴士。",
+      "starter": "The",
+      "answer": "The council kept the useful buses but sold the rest off.",
+      "answerZh": "市議會保留了仍然有用的巴士,但出售了其餘巴士。",
+      "highlight": "useful buses but sold the rest off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或物品"
+    },
+    {
+      "id": "phrasal-verb-272-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "People could still buy shirts, but there were no tickets left for the event.",
+      "promptZh": "人們仍可購買恤衫,但活動門票已經售罄。",
+      "starter": "People",
+      "answer": "People could still buy shirts, but the event was sold out.",
+      "answerZh": "人們仍可購買恤衫,但活動門票已經售罄。",
+      "highlight": "was sold out",
+      "targetForm": "be sold out",
+      "targetMeaningZh": "活動門票已全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Once the children had left home, their parents sold the house and most of their possessions and moved to a smaller flat.",
+      "promptZh": "子女離家後,父母賣掉房子和大部分財物,搬到一個較小的單位。",
+      "starter": "Once",
+      "answer": "Once the children had left home, their parents sold up and moved to a smaller flat.",
+      "answerZh": "子女離家後,父母賣掉房子和大部分財物,搬到一個較小的單位。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉住所、生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "If you wait until Friday, there may be no tickets left for the play.",
+      "promptZh": "假如你等到星期五,話劇門票可能已經售罄。",
+      "starter": "If",
+      "answer": "If you wait until Friday, the play may be sold out.",
+      "answerZh": "假如你等到星期五,話劇門票可能已經售罄。",
+      "highlight": "the play",
+      "targetForm": "be sold out",
+      "targetMeaningZh": "門票已全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The family kept the house but sold the unused land behind it.",
+      "promptZh": "這家人保留了房子,但出售了屋後不再使用的土地。",
+      "starter": "The",
+      "answer": "The family kept the house but sold off the unused land behind it.",
+      "answerZh": "這家人保留了房子,但出售了屋後不再使用的土地。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的土地或財產"
+    },
+    {
+      "id": "phrasal-verb-272-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The website still showed the shoes, but the seller had no size 40 pairs left.",
+      "promptZh": "網站仍然顯示那些鞋,但賣方已沒有40碼的鞋剩下。",
+      "starter": "The",
+      "answer": "The website still showed the shoes, but the seller had sold out of size 40 pairs.",
+      "answerZh": "網站仍然顯示那些鞋,但賣方已把40碼的鞋全部賣光。",
+      "highlight": "seller had sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Even though we had trusted her, she gave our secret to the rival club.",
+      "promptZh": "雖然我們一直信任她,但她把我們的秘密告訴了對手俱樂部。",
+      "starter": "Even",
+      "answer": "Even though we had trusted her, she sold us out to the rival club by giving them our secret.",
+      "answerZh": "雖然我們一直信任她,但她把我們的秘密告訴對手俱樂部,出賣了我們。",
+      "highlight": "she sold us out",
+      "targetForm": "sell somebody out to somebody",
+      "targetMeaningZh": "向另一方出賣某人"
+    },
+    {
+      "id": "phrasal-verb-272-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The team ran the online shop for a year, then sold it to another company.",
+      "promptZh": "團隊經營網店一年後,把它轉售給另一間公司。",
+      "starter": "The",
+      "answer": "The team ran the online shop for a year, then sold it on to another company.",
+      "answerZh": "團隊經營網店一年後,把它轉售給另一間公司。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把生意或物品轉售給另一名買家"
+    },
+    {
+      "id": "phrasal-verb-272-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The organiser expected some empty seats, yet every ticket was bought before the doors opened.",
+      "promptZh": "主辦者原本以為會有空位,但開門前所有門票已經售罄。",
+      "starter": "The",
+      "answer": "The organiser expected some empty seats, yet the event sold out before the doors opened.",
+      "answerZh": "主辦者原本以為會有空位,但開門前所有門票已經售罄。",
+      "highlight": "the event sold out",
+      "targetForm": "sell out",
+      "targetMeaningZh": "活動門票全部售罄"
+    },
+    {
+      "id": "phrasal-verb-272-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The shopkeeper had hoped to pass the shop to his son, but in the end he sold everything and retired.",
+      "promptZh": "店主原本希望把店舖交給兒子,但最後還是賣掉一切並退休。",
+      "starter": "The",
+      "answer": "The shopkeeper had hoped to pass the shop to his son, but in the end he sold up and retired.",
+      "answerZh": "店主原本希望把店舖交給兒子,但最後還是賣掉一切並退休。",
+      "highlight": "sold up",
+      "targetForm": "sell up",
+      "targetMeaningZh": "賣掉生意或大部分財物"
+    },
+    {
+      "id": "phrasal-verb-272-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Leo repaired old bikes rather than keeping them; once each one worked, he sold it to a new rider.",
+      "promptZh": "里奧修理舊單車而不把它們留下;每輛單車修好後,他便把它轉售給新車主。",
+      "starter": "Leo",
+      "answer": "Leo repaired old bikes rather than keeping them; once each one worked, he sold it on to a new rider.",
+      "answerZh": "里奧修理舊單車而不把它們留下;每輛單車修好後,他便把它轉售給新車主。",
+      "highlight": "sold it on",
+      "targetForm": "sell something on to somebody",
+      "targetMeaningZh": "把某物轉售給另一名買家"
+    },
+    {
+      "id": "phrasal-verb-272-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The manager promised to support the staff, but later blamed them all to save his own job.",
+      "promptZh": "經理答應支持員工,但後來為了保住自己的工作而把責任推到他們身上。",
+      "starter": "The",
+      "answer": "The manager promised to support the staff, but later sold them out to save his own job.",
+      "answerZh": "經理答應支持員工,但後來為了保住自己的工作而出賣了他們。",
+      "highlight": "sold",
+      "targetForm": "sell somebody out",
+      "targetMeaningZh": "出賣或背叛某人"
+    },
+    {
+      "id": "phrasal-verb-272-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The stall expected enough food for everyone, but no sandwiches were left before lunch ended.",
+      "promptZh": "攤檔原本以為食物足夠所有人享用,但午飯時間結束前,三文治已經售罄。",
+      "starter": "The",
+      "answer": "The stall expected enough food for everyone, but it had sold out of sandwiches before lunch ended.",
+      "answerZh": "攤檔原本以為食物足夠所有人享用,但午飯時間結束前已把三文治全部賣光。",
+      "highlight": "stall expected enough food for everyone, but it had sold out of",
+      "targetForm": "sell out of something",
+      "targetMeaningZh": "把某種貨品全部賣光"
+    },
+    {
+      "id": "phrasal-verb-272-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before buying new computers, the office sold all the old ones it no longer needed.",
+      "promptZh": "辦公室購買新電腦前,出售了所有不再需要的舊電腦。",
+      "starter": "Before",
+      "answer": "Before buying new computers, the office sold off all the old ones it no longer needed.",
+      "answerZh": "辦公室購買新電腦前,出售了所有不再需要的舊電腦。",
+      "highlight": "sold off",
+      "targetForm": "sell something off",
+      "targetMeaningZh": "出售不再需要的財產或物品"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-104",
+  "order": 104,
+  "slug": "order",
+  "version": "1",
+  "title": "ORDER 動詞片語",
+  "titleEn": "Order",
+  "titleZh": "ORDER 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 103 - ORDER.pdf",
+    "sourceNumber": 103,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ORDER 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ORDER."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ORDER",
+      "highlight": "ORDER"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We were too tired to cook, so we ordered in.",
+      "zh": "我們太累,不想煮飯,所以叫了外賣。",
+      "highlight": "ordered in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We ordered out for pizza.",
+      "zh": "我們叫了薄餅外賣。",
+      "highlight": "ordered out for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He is always ordering his younger brother around.",
+      "zh": "他總是呼呼喝喝地使喚弟弟。",
+      "highlight": "ordering his younger brother around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "叫食物送到所在地方;叫外賣；向餐廳叫外賣;可用 for 說明想吃的食物；不斷命令或使喚某人;對某人呼呼喝喝；命令某人離開、下車或離場",
+    "en": "order in / order in something; order out / order out for something; order somebody around; order somebody off / order somebody off something",
+    "naturalZh": [
+      "叫食物送到所在地方;叫外賣",
+      "向餐廳叫外賣;可用 for 說明想吃的食物",
+      "不斷命令或使喚某人;對某人呼呼喝喝",
+      "命令某人離開、下車或離場"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "order in / order in something",
+      "titleZh": "叫食物送到所在地方;叫外賣",
+      "titleEn": "order in / order in something",
+      "descriptionZh": "叫食物送到所在地方;叫外賣",
+      "descriptionEn": "We were too tired to cook, so we ordered in.",
+      "examples": [
+        {
+          "en": "We were too tired to cook, so we ordered in.",
+          "zh": "我們太累,不想煮飯,所以叫了外賣。",
+          "highlight": "ordered in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "order out / order out for something",
+      "titleZh": "向餐廳叫外賣;可用 for 說明想吃的食物",
+      "titleEn": "order out / order out for something",
+      "descriptionZh": "向餐廳叫外賣;可用 for 說明想吃的食物",
+      "descriptionEn": "We ordered out for pizza.",
+      "examples": [
+        {
+          "en": "We ordered out for pizza.",
+          "zh": "我們叫了薄餅外賣。",
+          "highlight": "ordered out for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "order somebody around",
+      "titleZh": "不斷命令或使喚某人;對某人呼呼喝喝",
+      "titleEn": "order somebody around",
+      "descriptionZh": "不斷命令或使喚某人;對某人呼呼喝喝",
+      "descriptionEn": "He is always ordering his younger brother around.",
+      "examples": [
+        {
+          "en": "He is always ordering his younger brother around.",
+          "zh": "他總是呼呼喝喝地使喚弟弟。",
+          "highlight": "ordering his younger brother around"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "order somebody off / order somebody off something",
+      "titleZh": "命令某人離開、下車或離場",
+      "titleEn": "order somebody off / order somebody off something",
+      "descriptionZh": "命令某人離開、下車或離場",
+      "descriptionEn": "The driver ordered the boys off the bus.",
+      "examples": [
+        {
+          "en": "The driver ordered the boys off the bus.",
+          "zh": "司機命令那些男孩下車。",
+          "highlight": "ordered the boys off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ORDER 片語動詞的實際用途",
+    "labelEn": "ORDER Phrasal Verbs in Use",
+    "summaryZh": "當沒有人想煮飯或沒有時間煮飯時,order in 和 order out 能幫助你自然地談論叫外賣。；order somebody around 可以描述某人不斷吩咐或使喚別人。；order somebody off 可以描述司機、球證或負責人命令某人下車或離開某處。；這些表達顯示 ORDER 既可以用來談論叫外賣,也可以用來表示向別人發出強硬命令。",
+    "summaryEn": "Order in and order out help you talk about choosing takeaway food when nobody wants or has time to cook. Order somebody around describes a person who keeps telling other people what to do. Order somebody off can describe a driver, referee or person in charge telling somebody to leave a vehicle or place. These expressions show that ORDER can relate to food delivery or to giving people strong commands.",
+    "contextsZh": [
+      "自然談論叫外賣",
+      "清楚描述呼呼喝喝的行為",
+      "談論被命令離開的情況",
+      "理解 ORDER 的兩類不同用法"
+    ],
+    "contextsEn": [
+      "Talk naturally about getting food delivered",
+      "Describe bossy behaviour clearly",
+      "Talk about being told to leave",
+      "Understand two very different uses of ORDER"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ORDER 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ORDER expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "order in / order in something",
+    "fixedHighlight": "order in / order in something",
+    "fixedZh": "閱讀整句,選出意思相同的 ORDER 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ORDER expression that gives the same meaning.",
+    "correct": "ordered in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；order in 和 order out 都可以表示叫外賣。請按照以上形式使用:order in some noodlesorder out for pizza；提及某人時,請按照以上例子放置人物:order him aroundorder them off the bus",
+    "variableEn": "Keep the same people, things, time and meaning. Order in and order out can both describe getting food delivered. Follow the forms shown below: order in some noodles order out for pizza When a person is mentioned, place the person as shown: order him around order them off the bus",
+    "variableItemsZh": [
+      "order in / order in something",
+      "order out / order out for something",
+      "order somebody around",
+      "order somebody off / order somebody off something"
+    ],
+    "variableItemsEn": [
+      "order in / order in something",
+      "order out / order out for something",
+      "order somebody around",
+      "order somebody off / order somebody off something"
+    ],
+    "forms": [
+      {
+        "formZh": "叫食物送到所在地方;叫外賣",
+        "formEn": "order in / order in something",
+        "exampleZh": "我們太累,不想煮飯,所以叫了外賣。",
+        "exampleEn": "We were too tired to cook, so we ordered in.",
+        "highlight": "ordered in"
+      },
+      {
+        "formZh": "向餐廳叫外賣;可用 for 說明想吃的食物",
+        "formEn": "order out / order out for something",
+        "exampleZh": "我們叫了薄餅外賣。",
+        "exampleEn": "We ordered out for pizza.",
+        "highlight": "ordered out for"
+      },
+      {
+        "formZh": "不斷命令或使喚某人;對某人呼呼喝喝",
+        "formEn": "order somebody around",
+        "exampleZh": "他總是呼呼喝喝地使喚弟弟。",
+        "exampleEn": "He is always ordering his younger brother around.",
+        "highlight": "ordering his younger brother around"
+      },
+      {
+        "formZh": "命令某人離開、下車或離場",
+        "formEn": "order somebody off / order somebody off something",
+        "exampleZh": "司機命令那些男孩下車。",
+        "exampleEn": "The driver ordered the boys off the bus.",
+        "highlight": "ordered the boys off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "叫食物送到所在地方;叫外賣",
+      "titleEn": "order in / order in something",
+      "formula": "order in / order in something",
+      "highlight": "order in / order in something",
+      "descriptionZh": "叫食物送到所在地方;叫外賣",
+      "descriptionEn": "We were too tired to cook, so we ordered in.",
+      "examples": [
+        {
+          "en": "We were too tired to cook, so we ordered in.",
+          "zh": "我們太累,不想煮飯,所以叫了外賣。",
+          "highlight": "ordered in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "向餐廳叫外賣;可用 for 說明想吃的食物",
+      "titleEn": "order out / order out for something",
+      "formula": "order out / order out for something",
+      "highlight": "order out / order out for something",
+      "descriptionZh": "向餐廳叫外賣;可用 for 說明想吃的食物",
+      "descriptionEn": "We ordered out for pizza.",
+      "examples": [
+        {
+          "en": "We ordered out for pizza.",
+          "zh": "我們叫了薄餅外賣。",
+          "highlight": "ordered out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "不斷命令或使喚某人;對某人呼呼喝喝",
+      "titleEn": "order somebody around",
+      "formula": "order somebody around",
+      "highlight": "order somebody around",
+      "descriptionZh": "不斷命令或使喚某人;對某人呼呼喝喝",
+      "descriptionEn": "He is always ordering his younger brother around.",
+      "examples": [
+        {
+          "en": "He is always ordering his younger brother around.",
+          "zh": "他總是呼呼喝喝地使喚弟弟。",
+          "highlight": "ordering his younger brother around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "命令某人離開、下車或離場",
+      "titleEn": "order somebody off / order somebody off something",
+      "formula": "order somebody off / order somebody off something",
+      "highlight": "order somebody off / order somebody off something",
+      "descriptionZh": "命令某人離開、下車或離場",
+      "descriptionEn": "The driver ordered the boys off the bus.",
+      "examples": [
+        {
+          "en": "The driver ordered the boys off the bus.",
+          "zh": "司機命令那些男孩下車。",
+          "highlight": "ordered the boys off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然談論叫外賣",
+      "titleEn": "Talk naturally about getting food delivered",
+      "zh": "當沒有人想煮飯或沒有時間煮飯時,order in 和 order out 能幫助你自然地談論叫外賣。",
+      "en": "Order in and order out help you talk about choosing takeaway food when nobody wants or has time to cook."
+    },
+    {
+      "titleZh": "清楚描述呼呼喝喝的行為",
+      "titleEn": "Describe bossy behaviour clearly",
+      "zh": "order somebody around 可以描述某人不斷吩咐或使喚別人。",
+      "en": "Order somebody around describes a person who keeps telling other people what to do."
+    },
+    {
+      "titleZh": "談論被命令離開的情況",
+      "titleEn": "Talk about being told to leave",
+      "zh": "order somebody off 可以描述司機、球證或負責人命令某人下車或離開某處。",
+      "en": "Order somebody off can describe a driver, referee or person in charge telling somebody to leave a vehicle or place."
+    },
+    {
+      "titleZh": "理解 ORDER 的兩類不同用法",
+      "titleEn": "Understand two very different uses of ORDER",
+      "zh": "這些表達顯示 ORDER 既可以用來談論叫外賣,也可以用來表示向別人發出強硬命令。",
+      "en": "These expressions show that ORDER can relate to food delivery or to giving people strong commands."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然談論叫外賣",
+      "清楚描述呼呼喝喝的行為",
+      "談論被命令離開的情況",
+      "理解 ORDER 的兩類不同用法"
+    ],
+    "contextsEn": [
+      "Talk naturally about getting food delivered",
+      "Describe bossy behaviour clearly",
+      "Talk about being told to leave",
+      "Understand two very different uses of ORDER"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然談論叫外賣",
+        "titleEn": "Talk naturally about getting food delivered",
+        "zh": "當沒有人想煮飯或沒有時間煮飯時,order in 和 order out 能幫助你自然地談論叫外賣。",
+        "en": "Order in and order out help you talk about choosing takeaway food when nobody wants or has time to cook.",
+        "examples": [
+          {
+            "en": "We were too tired to cook, so we ordered in.",
+            "zh": "我們太累,不想煮飯,所以叫了外賣。",
+            "highlight": "ordered in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述呼呼喝喝的行為",
+        "titleEn": "Describe bossy behaviour clearly",
+        "zh": "order somebody around 可以描述某人不斷吩咐或使喚別人。",
+        "en": "Order somebody around describes a person who keeps telling other people what to do.",
+        "examples": [
+          {
+            "en": "We ordered out for pizza.",
+            "zh": "我們叫了薄餅外賣。",
+            "highlight": "ordered out for"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論被命令離開的情況",
+        "titleEn": "Talk about being told to leave",
+        "zh": "order somebody off 可以描述司機、球證或負責人命令某人下車或離開某處。",
+        "en": "Order somebody off can describe a driver, referee or person in charge telling somebody to leave a vehicle or place.",
+        "examples": [
+          {
+            "en": "He is always ordering his younger brother around.",
+            "zh": "他總是呼呼喝喝地使喚弟弟。",
+            "highlight": "ordering his younger brother around"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解 ORDER 的兩類不同用法",
+        "titleEn": "Understand two very different uses of ORDER",
+        "zh": "這些表達顯示 ORDER 既可以用來談論叫外賣,也可以用來表示向別人發出強硬命令。",
+        "en": "These expressions show that ORDER can relate to food delivery or to giving people strong commands.",
+        "examples": [
+          {
+            "en": "The driver ordered the boys off the bus.",
+            "zh": "司機命令那些男孩下車。",
+            "highlight": "ordered the boys off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ORDER 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ORDER expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ORDER 片語動詞。",
+      "en": "Read the whole sentence and choose the ORDER expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "order in 和 order out 都可以表示叫外賣。請按照以上形式使用:order in some noodlesorder out for pizza",
+      "titleEn": "Order in and order out can both describe getting food delivered.",
+      "zh": "order in 和 order out 都可以表示叫外賣。請按照以上形式使用:order in some noodlesorder out for pizza",
+      "en": "Order in and order out can both describe getting food delivered. Follow the forms shown below: order in some noodles order out for pizza"
+    },
+    {
+      "titleZh": "提及某人時,請按照以上例子放置人物:order him aroundorder them off the bus",
+      "titleEn": "When a person is mentioned, place the person as shown: order him around order them off the bus.",
+      "zh": "提及某人時,請按照以上例子放置人物:order him aroundorder them off the bus",
+      "en": "When a person is mentioned, place the person as shown: order him around order them off the bus"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ORDER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ORDER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ORDER 動詞片語句子改寫練習",
+    "titleEn": "ORDER Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ORDER 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ORDER. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-104-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "We are too tired to cook, so let’s have food delivered.",
+      "promptZh": "我們太累,不想煮飯,所以不如叫食物送來。",
+      "starter": "We",
+      "answer": "We are too tired to cook, so let’s order in.",
+      "answerZh": "我們太累,不想煮飯,所以不如叫外賣。",
+      "highlight": "order in",
+      "targetForm": "order in",
+      "targetMeaningZh": "叫食物送來;叫外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The new team leader keeps telling everyone what to do in a bossy way.",
+      "promptZh": "新組長總是呼呼喝喝地吩咐所有人做事。",
+      "starter": "The",
+      "answer": "The new team leader keeps ordering everyone around.",
+      "answerZh": "新組長總是呼呼喝喝地使喚所有人。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We called the restaurant and asked for pizza to be delivered.",
+      "promptZh": "我們致電餐廳,要求把薄餅送來。",
+      "starter": "We",
+      "answer": "We ordered out for pizza.",
+      "answerZh": "我們叫了薄餅外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The driver told the noisy boys to leave the bus.",
+      "promptZh": "司機命令那些吵鬧的男孩下車。",
+      "starter": "The",
+      "answer": "The driver ordered the noisy boys off the bus.",
+      "answerZh": "司機命令那些吵鬧的男孩下車。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離開或下車"
+    },
+    {
+      "id": "phrasal-verb-104-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Let’s have some lunch delivered.",
+      "promptZh": "不如叫些午餐送來。",
+      "starter": "Let’s",
+      "answer": "Let’s order in some lunch.",
+      "answerZh": "不如叫些午餐外賣。",
+      "highlight": "order in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Could we call a takeaway and ask for curry tonight?",
+      "promptZh": "今晚我們可以致電外賣店叫咖喱嗎?",
+      "starter": "Could",
+      "answer": "Could we order out for curry tonight?",
+      "answerZh": "今晚我們可以叫咖喱外賣嗎?",
+      "highlight": "order out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Stop telling your little brother what to do all the time.",
+      "promptZh": "不要總是吩咐你弟弟做這做那。",
+      "starter": "Stop",
+      "answer": "Stop ordering your little brother around all the time.",
+      "answerZh": "不要總是呼呼喝喝地使喚你弟弟。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The class had sandwiches delivered for the afternoon trip.",
+      "promptZh": "全班為下午的旅程叫了三文治送來。",
+      "starter": "The",
+      "answer": "The class ordered in sandwiches for the afternoon trip.",
+      "answerZh": "全班為下午的旅程叫了三文治外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The referee told the player to leave the pitch.",
+      "promptZh": "球證命令那名球員離開球場。",
+      "starter": "The",
+      "answer": "The referee ordered the player off the pitch.",
+      "answerZh": "球證命令那名球員離開球場。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離場"
+    },
+    {
+      "id": "phrasal-verb-104-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They called a nearby café because they wanted soup and bread delivered.",
+      "promptZh": "他們致電附近的咖啡店,要求把湯和麵包送來。",
+      "starter": "They",
+      "answer": "They ordered out for soup and bread from a nearby café.",
+      "answerZh": "他們向附近的咖啡店叫了湯和麵包外賣。",
+      "highlight": "ordered out for soup and bread from",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why does Ben always tell his friends what to do?",
+      "promptZh": "為甚麼 Ben 總是吩咐朋友做這做那?",
+      "starter": "Why",
+      "answer": "Why does Ben always order his friends around?",
+      "answerZh": "為甚麼 Ben 總是呼呼喝喝地使喚朋友?",
+      "highlight": "order",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We have called the pizza shop and asked for pizza several times this month.",
+      "promptZh": "本月我們已多次致電薄餅店,要求送來薄餅。",
+      "starter": "We",
+      "answer": "We have ordered out for pizza several times this month.",
+      "answerZh": "本月我們已多次叫薄餅外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The guard has told everyone to leave the stage.",
+      "promptZh": "保安員已命令所有人離開舞台。",
+      "starter": "The",
+      "answer": "The guard has ordered everyone off the stage.",
+      "answerZh": "保安員已命令所有人離開舞台。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-104-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Nina is having some rice and chicken delivered now.",
+      "promptZh": "Nina 現正叫人送來米飯和雞肉。",
+      "starter": "Nina",
+      "answer": "Nina is ordering in some rice and chicken now.",
+      "answerZh": "Nina 現正叫米飯和雞肉外賣。",
+      "highlight": "ordering in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "I will not let the older students keep telling me what to do.",
+      "promptZh": "我不會讓較年長的學生繼續呼呼喝喝地使喚我。",
+      "starter": "I",
+      "answer": "I will not let the older students keep ordering me around.",
+      "answerZh": "我不會讓較年長的學生繼續呼呼喝喝地使喚我。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Shall we call the restaurant and ask for a Chinese meal?",
+      "promptZh": "我們叫一份中式外賣好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we order out for a Chinese meal?",
+      "answerZh": "我們叫一份中式外賣好嗎?",
+      "highlight": "order out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The office has had breakfast delivered every Friday this month.",
+      "promptZh": "本月每個星期五,辦公室都叫了早餐送來。",
+      "starter": "The",
+      "answer": "The office has ordered in breakfast every Friday this month.",
+      "answerZh": "本月每個星期五,辦公室都叫了早餐外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Were the passengers told to leave the train?",
+      "promptZh": "乘客是否被命令下車?",
+      "starter": "Were",
+      "answer": "Were the passengers ordered off the train?",
+      "answerZh": "乘客是否被命令下車?",
+      "highlight": "ordered off",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人下車"
+    },
+    {
+      "id": "phrasal-verb-104-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Sara is always telling the new worker what to do.",
+      "promptZh": "Sara 總是吩咐新員工做這做那。",
+      "starter": "Sara",
+      "answer": "Sara is always ordering the new worker around.",
+      "answerZh": "Sara 總是呼呼喝喝地使喚新員工。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We may ask the Thai restaurant to deliver noodles tonight.",
+      "promptZh": "今晚我們可能會叫泰國餐廳送來麵食。",
+      "starter": "We",
+      "answer": "We may order out for noodles from the Thai restaurant tonight.",
+      "answerZh": "今晚我們可能會向那間泰國餐廳叫麵食外賣。",
+      "highlight": "order out for noodles from",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The coach was angry. He told two players to leave the field.",
+      "promptZh": "教練很生氣。他命令兩名球員離開球場。",
+      "starter": "The",
+      "answer": "The coach was angry. He ordered two players off the field.",
+      "answerZh": "教練很生氣。他命令兩名球員離開球場。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離場"
+    },
+    {
+      "id": "phrasal-verb-104-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We do not have time to cook. We will have some food delivered.",
+      "promptZh": "我們沒有時間煮飯。我們會叫些食物送來。",
+      "starter": "We",
+      "answer": "We do not have time to cook. We will order in some food.",
+      "answerZh": "我們沒有時間煮飯。我們會叫些食物外賣。",
+      "highlight": "order in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The manager gave them commands all morning and never listened.",
+      "promptZh": "經理整個早上都在使喚他們,從來沒有聽取意見。",
+      "starter": "The",
+      "answer": "The manager ordered them around all morning and never listened.",
+      "answerZh": "經理整個早上都在呼呼喝喝地使喚他們,從來沒有聽取意見。",
+      "highlight": "ordered",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They called the takeaway and asked for burgers. What did they do?",
+      "promptZh": "他們致電外賣店,要求送來漢堡包。他們做了甚麼?",
+      "starter": "They",
+      "answer": "They ordered out for burgers.",
+      "answerZh": "他們叫了漢堡包外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After the second warning, the referee told him to leave.",
+      "promptZh": "第二次警告後,球證命令他離場。",
+      "starter": "After",
+      "answer": "After the second warning, the referee ordered him off.",
+      "answerZh": "第二次警告後,球證命令他離場。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off",
+      "targetMeaningZh": "命令某人離場"
+    },
+    {
+      "id": "phrasal-verb-104-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The meeting ran late, so the team had soup delivered.",
+      "promptZh": "會議延遲結束,所以團隊叫了湯送來。",
+      "starter": "The",
+      "answer": "The meeting ran late, so the team ordered in soup.",
+      "answerZh": "會議延遲結束,所以團隊叫了湯外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The driver told them to leave the bus because they were shouting.",
+      "promptZh": "司機因為他們大叫而命令他們下車。",
+      "starter": "The",
+      "answer": "The driver ordered them off the bus because they were shouting.",
+      "answerZh": "司機因為他們大叫而命令他們下車。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人下車"
+    },
+    {
+      "id": "phrasal-verb-104-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not keep telling us what to do during the project.",
+      "promptZh": "進行項目期間,不要一直呼呼喝喝地使喚我們。",
+      "starter": "Do",
+      "answer": "Do not keep ordering us around during the project.",
+      "answerZh": "進行項目期間,不要一直呼呼喝喝地使喚我們。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ruby called the café and asked for two bowls of noodles to be delivered.",
+      "promptZh": "Ruby 致電咖啡店,要求送來兩碗麵。",
+      "starter": "Ruby",
+      "answer": "Ruby ordered out for two bowls of noodles from the café.",
+      "answerZh": "Ruby 向咖啡店叫了兩碗麵外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Has the family had dinner delivered yet?",
+      "promptZh": "這家人叫了晚餐送來沒有?",
+      "starter": "Has",
+      "answer": "Has the family ordered in dinner yet?",
+      "answerZh": "這家人叫了晚餐外賣沒有?",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The hotel kitchen was closed, so we asked a nearby restaurant to deliver pizza.",
+      "promptZh": "酒店廚房關閉了,所以我們請附近的餐廳送來薄餅。",
+      "starter": "The",
+      "answer": "The hotel kitchen was closed, so we ordered out for pizza from a nearby restaurant.",
+      "answerZh": "酒店廚房關閉了,所以我們向附近的餐廳叫了薄餅外賣。",
+      "highlight": "ordered out for pizza from",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "A safety officer told the visitors to leave the damaged bridge.",
+      "promptZh": "一名安全人員命令遊客離開受損的橋。",
+      "starter": "A",
+      "answer": "A safety officer ordered the visitors off the damaged bridge.",
+      "answerZh": "一名安全人員命令遊客離開受損的橋。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離開某處"
+    },
+    {
+      "id": "phrasal-verb-104-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of walking to a restaurant, the group had hot meals delivered.",
+      "promptZh": "這群人沒有步行前往餐廳,而是叫了熱食送來。",
+      "starter": "Instead",
+      "answer": "Instead of walking to a restaurant, the group ordered in hot meals.",
+      "answerZh": "這群人沒有步行前往餐廳,而是叫了熱食外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The director did not ask politely; he kept telling the actors exactly what to do.",
+      "promptZh": "導演沒有禮貌地提出要求;他不斷吩咐演員要做甚麼。",
+      "starter": "The",
+      "answer": "The director did not ask politely; he kept ordering the actors around.",
+      "answerZh": "導演沒有禮貌地提出要求;他不斷呼呼喝喝地使喚演員。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The guests wanted Indian food, so the host phoned a takeaway and asked for an Indian meal.",
+      "promptZh": "客人想吃印度菜,所以主人致電外賣店叫了一份印度餐。",
+      "starter": "The",
+      "answer": "The guests wanted Indian food, so the host ordered out for an Indian meal.",
+      "answerZh": "客人想吃印度菜,所以主人叫了一份印度餐外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The referee had already told one player to leave before the rain began.",
+      "promptZh": "下雨前,球證已命令一名球員離場。",
+      "starter": "The",
+      "answer": "The referee had already ordered one player off before the rain began.",
+      "answerZh": "下雨前,球證已命令一名球員離場。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off",
+      "targetMeaningZh": "命令某人離場"
+    },
+    {
+      "id": "phrasal-verb-104-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why are you letting one person tell the whole group what to do?",
+      "promptZh": "為甚麼你讓一個人呼呼喝喝地使喚整個小組?",
+      "starter": "Why",
+      "answer": "Why are you letting one person order the whole group around?",
+      "answerZh": "為甚麼你讓一個人呼呼喝喝地使喚整個小組?",
+      "highlight": "order",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The shop stayed open late, and the workers had noodles delivered during their break.",
+      "promptZh": "店舖營業至很晚,員工在休息時叫了麵食送來。",
+      "starter": "The",
+      "answer": "The shop stayed open late, and the workers ordered in noodles during their break.",
+      "answerZh": "店舖營業至很晚,員工在休息時叫了麵食外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If the passengers keep blocking the door, the driver may tell them to leave the bus.",
+      "promptZh": "如果乘客繼續堵塞車門,司機可能會命令他們下車。",
+      "starter": "If",
+      "answer": "If the passengers keep blocking the door, the driver may order them off the bus.",
+      "answerZh": "如果乘客繼續堵塞車門,司機可能會命令他們下車。",
+      "highlight": "order",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人下車"
+    },
+    {
+      "id": "phrasal-verb-104-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Because nobody wanted to cook, we called a restaurant and asked for Thai food.",
+      "promptZh": "因為沒有人想煮飯,所以我們致電餐廳叫泰國菜。",
+      "starter": "Because",
+      "answer": "Because nobody wanted to cook, we ordered out for Thai food.",
+      "answerZh": "因為沒有人想煮飯,所以我們叫了泰國菜外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "During the group task, Noah kept giving everyone commands instead of doing any work himself.",
+      "promptZh": "進行小組任務時,Noah 不斷使喚所有人,自己卻沒有做任何工作。",
+      "starter": "During",
+      "answer": "During the group task, Noah kept ordering everyone around instead of doing any work himself.",
+      "answerZh": "進行小組任務時,Noah 不斷呼呼喝喝地使喚所有人,自己卻沒有做任何工作。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The rain was heavy, and the children were hungry, so their parents had dinner delivered.",
+      "promptZh": "雨下得很大,孩子們也餓了,所以父母叫了晚餐送來。",
+      "starter": "The",
+      "answer": "The rain was heavy, and the children were hungry, so their parents ordered in dinner.",
+      "answerZh": "雨下得很大,孩子們也餓了,所以父母叫了晚餐外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The player argued with the referee again, so she was told to leave the pitch immediately.",
+      "promptZh": "那名球員再次與球證爭論,因此被命令立即離開球場。",
+      "starter": "The",
+      "answer": "The player argued with the referee again, so she was ordered off the pitch immediately.",
+      "answerZh": "那名球員再次與球證爭論,因此被命令立即離開球場。",
+      "highlight": "ordered off",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人離場"
+    },
+    {
+      "id": "phrasal-verb-104-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "We had planned to cook, but the oven stopped working, so we called a restaurant and asked for a Chinese meal.",
+      "promptZh": "我們原本打算煮飯,但焗爐壞了,所以致電餐廳叫了一份中式外賣。",
+      "starter": "We",
+      "answer": "We had planned to cook, but the oven stopped working, so we ordered out for a Chinese meal.",
+      "answerZh": "我們原本打算煮飯,但焗爐壞了,所以叫了一份中式外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A good leader explains the job clearly and does not keep telling people what to do in a rude way.",
+      "promptZh": "好的領袖會清楚解釋工作,不會以無禮的態度不斷使喚別人。",
+      "starter": "A",
+      "answer": "A good leader explains the job clearly and does not keep ordering people around.",
+      "answerZh": "好的領袖會清楚解釋工作,不會不斷呼呼喝喝地使喚別人。",
+      "highlight": "ordering",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The train was delayed for two hours, so the staff had sandwiches delivered for everyone.",
+      "promptZh": "列車延誤了兩小時,所以職員為所有人叫了三文治送來。",
+      "starter": "The",
+      "answer": "The train was delayed for two hours, so the staff ordered in sandwiches for everyone.",
+      "answerZh": "列車延誤了兩小時,所以職員為所有人叫了三文治外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    },
+    {
+      "id": "phrasal-verb-104-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I joined the club to help, not to be told what to do by one older member all evening.",
+      "promptZh": "我加入這個學會是為了幫忙,不是為了整晚被一名年長成員呼呼喝喝地使喚。",
+      "starter": "I",
+      "answer": "I joined the club to help, not to be ordered around by one older member all evening.",
+      "answerZh": "我加入這個學會是為了幫忙,不是為了整晚被一名年長成員呼呼喝喝地使喚。",
+      "highlight": "ordered around",
+      "targetForm": "order somebody around",
+      "targetMeaningZh": "不斷命令或使喚某人"
+    },
+    {
+      "id": "phrasal-verb-104-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the driver saw smoke at the back of the bus, he told all the passengers to leave it at once.",
+      "promptZh": "司機看見巴士後方冒煙時,立即命令所有乘客下車。",
+      "starter": "When",
+      "answer": "When the driver saw smoke at the back of the bus, he ordered all the passengers off it at once.",
+      "answerZh": "司機看見巴士後方冒煙時,立即命令所有乘客下車。",
+      "highlight": "ordered",
+      "targetForm": "order somebody off something",
+      "targetMeaningZh": "命令某人下車"
+    },
+    {
+      "id": "phrasal-verb-104-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The friends agreed on pizza, then called the takeaway and asked for two large pizzas to be delivered.",
+      "promptZh": "朋友們決定吃薄餅,然後致電外賣店叫了兩個大薄餅。",
+      "starter": "The",
+      "answer": "The friends agreed on pizza, then ordered out for two large pizzas.",
+      "answerZh": "朋友們決定吃薄餅,然後叫了兩個大薄餅外賣。",
+      "highlight": "ordered out",
+      "targetForm": "order out for something",
+      "targetMeaningZh": "向餐廳叫某種外賣"
+    },
+    {
+      "id": "phrasal-verb-104-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "After a long day at the beach, nobody wanted to cook, so the family had a hot meal delivered.",
+      "promptZh": "在海灘度過漫長的一天後,沒有人想煮飯,所以這家人叫了一頓熱食送來。",
+      "starter": "After",
+      "answer": "After a long day at the beach, nobody wanted to cook, so the family ordered in a hot meal.",
+      "answerZh": "在海灘度過漫長的一天後,沒有人想煮飯,所以這家人叫了一頓熱食外賣。",
+      "highlight": "ordered in",
+      "targetForm": "order in something",
+      "targetMeaningZh": "叫某種食物送來"
+    }
+  ]
+}

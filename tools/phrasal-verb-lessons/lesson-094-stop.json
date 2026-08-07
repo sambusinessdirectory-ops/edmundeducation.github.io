@@ -1,0 +1,2031 @@
+{
+  "id": "phrasal-verb-94",
+  "order": 94,
+  "slug": "stop",
+  "version": "1",
+  "title": "STOP 動詞片語",
+  "titleEn": "Stop",
+  "titleZh": "STOP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 12,
+  "source": {
+    "file": "Phrasal Verbs 93 - STOP.pdf",
+    "sourceNumber": 93,
+    "pageCount": 16,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STOP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STOP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STOP",
+      "highlight": "STOP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Stop around this evening for tea.",
+      "zh": "今晚過來探訪並喝杯茶吧。",
+      "highlight": "Stop around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A few members stopped away from the vote.",
+      "zh": "幾名成員沒有出席投票。",
+      "highlight": "stopped away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Can you stop back tomorrow morning?",
+      "zh": "你明早可以再回來嗎?",
+      "highlight": "stop back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "(非正式)到某人家中探訪並逗留一會；(非正式)不出席;缺席；(主要美式英語)稍後返回某處；(非正式)其他人離開後留下來；(非正式)短暫探訪；(英式非正式)留在家中;不外出；(英式)旅途中短暫停留；在原定時間後繼續留下；(英式非正式)在外逗留至很晚；途中停留過夜；(英式非正式)夜深仍不睡;熬夜；填塞或封住洞口、縫隙",
+    "en": "stop around / stop around somewhere; stop away / stop away from something; stop back; stop behind / stop behind after something; stop by / stop by somewhere; stop in; stop off / stop off at or in somewhere; stop on; stop out; stop over / stop over in or at somewhere; stop up; stop something up",
+    "naturalZh": [
+      "(非正式)到某人家中探訪並逗留一會",
+      "(非正式)不出席;缺席",
+      "(主要美式英語)稍後返回某處",
+      "(非正式)其他人離開後留下來",
+      "(非正式)短暫探訪",
+      "(英式非正式)留在家中;不外出",
+      "(英式)旅途中短暫停留",
+      "在原定時間後繼續留下",
+      "(英式非正式)在外逗留至很晚",
+      "途中停留過夜",
+      "(英式非正式)夜深仍不睡;熬夜",
+      "填塞或封住洞口、縫隙"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "stop around / stop around somewhere",
+      "titleZh": "(非正式)到某人家中探訪並逗留一會",
+      "titleEn": "stop around / stop around somewhere",
+      "descriptionZh": "(非正式)到某人家中探訪並逗留一會",
+      "descriptionEn": "Stop around this evening for tea.",
+      "examples": [
+        {
+          "en": "Stop around this evening for tea.",
+          "zh": "今晚過來探訪並喝杯茶吧。",
+          "highlight": "Stop around"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop away / stop away from something",
+      "titleZh": "(非正式)不出席;缺席",
+      "titleEn": "stop away / stop away from something",
+      "descriptionZh": "(非正式)不出席;缺席",
+      "descriptionEn": "A few members stopped away from the vote.",
+      "examples": [
+        {
+          "en": "A few members stopped away from the vote.",
+          "zh": "幾名成員沒有出席投票。",
+          "highlight": "stopped away from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop back",
+      "titleZh": "(主要美式英語)稍後返回某處",
+      "titleEn": "stop back",
+      "descriptionZh": "(主要美式英語)稍後返回某處",
+      "descriptionEn": "Can you stop back tomorrow morning?",
+      "examples": [
+        {
+          "en": "Can you stop back tomorrow morning?",
+          "zh": "你明早可以再回來嗎?",
+          "highlight": "stop back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop behind / stop behind after something",
+      "titleZh": "(非正式)其他人離開後留下來",
+      "titleEn": "stop behind / stop behind after something",
+      "descriptionZh": "(非正式)其他人離開後留下來",
+      "descriptionEn": "Rosa stopped behind after the lesson.",
+      "examples": [
+        {
+          "en": "Rosa stopped behind after the lesson.",
+          "zh": "課堂結束、其他人離開後,羅莎留了下來。",
+          "highlight": "stopped behind after"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop by / stop by somewhere",
+      "titleZh": "(非正式)短暫探訪",
+      "titleEn": "stop by / stop by somewhere",
+      "descriptionZh": "(非正式)短暫探訪",
+      "descriptionEn": "I’ll stop by your office at noon.",
+      "examples": [
+        {
+          "en": "I’ll stop by your office at noon.",
+          "zh": "我中午會到你的辦公室短暫探訪。",
+          "highlight": "stop by"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop in",
+      "titleZh": "(英式非正式)留在家中;不外出",
+      "titleEn": "stop in",
+      "descriptionZh": "(英式非正式)留在家中;不外出",
+      "descriptionEn": "They decided to stop in on Saturday.",
+      "examples": [
+        {
+          "en": "They decided to stop in on Saturday.",
+          "zh": "他們決定星期六留在家中。",
+          "highlight": "stop in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stop off / stop off at or in somewhere",
+      "titleZh": "(英式)旅途中短暫停留",
+      "titleEn": "stop off / stop off at or in somewhere",
+      "descriptionZh": "(英式)旅途中短暫停留",
+      "descriptionEn": "We stopped off at a village bakery.",
+      "examples": [
+        {
+          "en": "We stopped off at a village bakery.",
+          "zh": "我們在旅途中到一間鄉村麵包店短暫停留。",
+          "highlight": "stopped off at"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stop on",
+      "titleZh": "在原定時間後繼續留下",
+      "titleEn": "stop on",
+      "descriptionZh": "在原定時間後繼續留下",
+      "descriptionEn": "Sam stopped on for another half-hour.",
+      "examples": [
+        {
+          "en": "Sam stopped on for another half-hour.",
+          "zh": "森在原定時間後再多留了半小時。",
+          "highlight": "stopped on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stop out",
+      "titleZh": "(英式非正式)在外逗留至很晚",
+      "titleEn": "stop out",
+      "descriptionZh": "(英式非正式)在外逗留至很晚",
+      "descriptionEn": "They stopped out well past midnight.",
+      "examples": [
+        {
+          "en": "They stopped out well past midnight.",
+          "zh": "他們在外逗留至午夜過後很久。",
+          "highlight": "stopped out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stop over / stop over in or at somewhere",
+      "titleZh": "途中停留過夜",
+      "titleEn": "stop over / stop over in or at somewhere",
+      "descriptionZh": "途中停留過夜",
+      "descriptionEn": "The family stopped over in Madrid.",
+      "examples": [
+        {
+          "en": "The family stopped over in Madrid.",
+          "zh": "這家人在馬德里停留過夜。",
+          "highlight": "stopped over in"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stop up",
+      "titleZh": "(英式非正式)夜深仍不睡;熬夜",
+      "titleEn": "stop up",
+      "descriptionZh": "(英式非正式)夜深仍不睡;熬夜",
+      "descriptionEn": "Do not stop up waiting for me.",
+      "examples": [
+        {
+          "en": "Do not stop up waiting for me.",
+          "zh": "不要為了等我而熬夜。",
+          "highlight": "stop up"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stop something up",
+      "titleZh": "填塞或封住洞口、縫隙",
+      "titleEn": "stop something up",
+      "descriptionZh": "填塞或封住洞口、縫隙",
+      "descriptionEn": "She stopped up the crack with paper.",
+      "examples": [
+        {
+          "en": "She stopped up the crack with paper.",
+          "zh": "她用紙填塞裂縫。",
+          "highlight": "stopped up"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STOP 片語動詞的實際用途",
+    "labelEn": "STOP Phrasal Verbs in Use",
+    "summaryZh": "stop around、stop by 和 stop back 能幫助你分辨逗留一會、短暫探訪和稍後返回。；stop in、stop behind、stop on、stop out 和 stop up 可以分別描述留在家中、其他人離開後留下、延長工作時間、在外逗留至很晚和熬夜。；stop off 表示繼續行程前短暫停留;stop over 通常表示途中停留過夜。；stop away 可以描述不出席活動;stop something up 則可以描述填塞洞口或縫隙。",
+    "summaryEn": "Stop around, stop by and stop back help you distinguish between visiting for a while, making a brief visit and returning later. Stop in, stop behind, stop on, stop out and stop up describe staying at home, remaining after others leave, working longer, staying away from home late and staying awake late. Stop off describes a short break before continuing a journey, while stop over usually describes an overnight stay. Stop away can describe not attending an event, while stop something up can describe filling a hole or gap.",
+    "contextsZh": [
+      "使用 STOP 描述不同形式的探訪",
+      "清楚說明某人為何留下或很晚仍未休息",
+      "描述兩種不同的旅途停留",
+      "談論缺席和封住開口"
+    ],
+    "contextsEn": [
+      "Use STOP to describe different kinds of visits",
+      "Explain clearly why somebody stays or leaves late",
+      "Describe two different travel breaks",
+      "Talk about absence and blocked openings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STOP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STOP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "stop around / stop around somewhere",
+    "fixedHighlight": "stop around / stop around somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 STOP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STOP expression that gives the same meaning.",
+    "correct": "Stop around",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；stop off 表示在旅途中短暫停留;stop over 通常表示在旅途中停留過夜。；stop up 可以表示熬夜;stop something up 則表示填塞或封住開口。使用 it 或 them 時,應說 stopit up 或 stop them up。",
+    "variableEn": "Keep the same people, things, time and meaning. Stop off means taking a short break during a journey. Stop over usually means staying for a night during a journey. Stop up can mean staying awake late. Stop something up means filling or blocking an opening. With it or them, say stop it up or stop them up.",
+    "variableItemsZh": [
+      "stop around / stop around somewhere",
+      "stop away / stop away from something",
+      "stop back",
+      "stop behind / stop behind after something",
+      "stop by / stop by somewhere",
+      "stop in",
+      "stop off / stop off at or in somewhere",
+      "stop on",
+      "stop out",
+      "stop over / stop over in or at somewhere",
+      "stop up",
+      "stop something up"
+    ],
+    "variableItemsEn": [
+      "stop around / stop around somewhere",
+      "stop away / stop away from something",
+      "stop back",
+      "stop behind / stop behind after something",
+      "stop by / stop by somewhere",
+      "stop in",
+      "stop off / stop off at or in somewhere",
+      "stop on",
+      "stop out",
+      "stop over / stop over in or at somewhere",
+      "stop up",
+      "stop something up"
+    ],
+    "forms": [
+      {
+        "formZh": "(非正式)到某人家中探訪並逗留一會",
+        "formEn": "stop around / stop around somewhere",
+        "exampleZh": "今晚過來探訪並喝杯茶吧。",
+        "exampleEn": "Stop around this evening for tea.",
+        "highlight": "Stop around"
+      },
+      {
+        "formZh": "(非正式)不出席;缺席",
+        "formEn": "stop away / stop away from something",
+        "exampleZh": "幾名成員沒有出席投票。",
+        "exampleEn": "A few members stopped away from the vote.",
+        "highlight": "stopped away from"
+      },
+      {
+        "formZh": "(主要美式英語)稍後返回某處",
+        "formEn": "stop back",
+        "exampleZh": "你明早可以再回來嗎?",
+        "exampleEn": "Can you stop back tomorrow morning?",
+        "highlight": "stop back"
+      },
+      {
+        "formZh": "(非正式)其他人離開後留下來",
+        "formEn": "stop behind / stop behind after something",
+        "exampleZh": "課堂結束、其他人離開後,羅莎留了下來。",
+        "exampleEn": "Rosa stopped behind after the lesson.",
+        "highlight": "stopped behind after"
+      },
+      {
+        "formZh": "(非正式)短暫探訪",
+        "formEn": "stop by / stop by somewhere",
+        "exampleZh": "我中午會到你的辦公室短暫探訪。",
+        "exampleEn": "I’ll stop by your office at noon.",
+        "highlight": "stop by"
+      },
+      {
+        "formZh": "(英式非正式)留在家中;不外出",
+        "formEn": "stop in",
+        "exampleZh": "他們決定星期六留在家中。",
+        "exampleEn": "They decided to stop in on Saturday.",
+        "highlight": "stop in"
+      },
+      {
+        "formZh": "(英式)旅途中短暫停留",
+        "formEn": "stop off / stop off at or in somewhere",
+        "exampleZh": "我們在旅途中到一間鄉村麵包店短暫停留。",
+        "exampleEn": "We stopped off at a village bakery.",
+        "highlight": "stopped off at"
+      },
+      {
+        "formZh": "在原定時間後繼續留下",
+        "formEn": "stop on",
+        "exampleZh": "森在原定時間後再多留了半小時。",
+        "exampleEn": "Sam stopped on for another half-hour.",
+        "highlight": "stopped on"
+      },
+      {
+        "formZh": "(英式非正式)在外逗留至很晚",
+        "formEn": "stop out",
+        "exampleZh": "他們在外逗留至午夜過後很久。",
+        "exampleEn": "They stopped out well past midnight.",
+        "highlight": "stopped out"
+      },
+      {
+        "formZh": "途中停留過夜",
+        "formEn": "stop over / stop over in or at somewhere",
+        "exampleZh": "這家人在馬德里停留過夜。",
+        "exampleEn": "The family stopped over in Madrid.",
+        "highlight": "stopped over in"
+      },
+      {
+        "formZh": "(英式非正式)夜深仍不睡;熬夜",
+        "formEn": "stop up",
+        "exampleZh": "不要為了等我而熬夜。",
+        "exampleEn": "Do not stop up waiting for me.",
+        "highlight": "stop up"
+      },
+      {
+        "formZh": "填塞或封住洞口、縫隙",
+        "formEn": "stop something up",
+        "exampleZh": "她用紙填塞裂縫。",
+        "exampleEn": "She stopped up the crack with paper.",
+        "highlight": "stopped up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "(非正式)到某人家中探訪並逗留一會",
+      "titleEn": "stop around / stop around somewhere",
+      "formula": "stop around / stop around somewhere",
+      "highlight": "stop around / stop around somewhere",
+      "descriptionZh": "(非正式)到某人家中探訪並逗留一會",
+      "descriptionEn": "Stop around this evening for tea.",
+      "examples": [
+        {
+          "en": "Stop around this evening for tea.",
+          "zh": "今晚過來探訪並喝杯茶吧。",
+          "highlight": "Stop around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "(非正式)不出席;缺席",
+      "titleEn": "stop away / stop away from something",
+      "formula": "stop away / stop away from something",
+      "highlight": "stop away / stop away from something",
+      "descriptionZh": "(非正式)不出席;缺席",
+      "descriptionEn": "A few members stopped away from the vote.",
+      "examples": [
+        {
+          "en": "A few members stopped away from the vote.",
+          "zh": "幾名成員沒有出席投票。",
+          "highlight": "stopped away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "(主要美式英語)稍後返回某處",
+      "titleEn": "stop back",
+      "formula": "stop back",
+      "highlight": "stop back",
+      "descriptionZh": "(主要美式英語)稍後返回某處",
+      "descriptionEn": "Can you stop back tomorrow morning?",
+      "examples": [
+        {
+          "en": "Can you stop back tomorrow morning?",
+          "zh": "你明早可以再回來嗎?",
+          "highlight": "stop back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "(非正式)其他人離開後留下來",
+      "titleEn": "stop behind / stop behind after something",
+      "formula": "stop behind / stop behind after something",
+      "highlight": "stop behind / stop behind after something",
+      "descriptionZh": "(非正式)其他人離開後留下來",
+      "descriptionEn": "Rosa stopped behind after the lesson.",
+      "examples": [
+        {
+          "en": "Rosa stopped behind after the lesson.",
+          "zh": "課堂結束、其他人離開後,羅莎留了下來。",
+          "highlight": "stopped behind after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "(非正式)短暫探訪",
+      "titleEn": "stop by / stop by somewhere",
+      "formula": "stop by / stop by somewhere",
+      "highlight": "stop by / stop by somewhere",
+      "descriptionZh": "(非正式)短暫探訪",
+      "descriptionEn": "I’ll stop by your office at noon.",
+      "examples": [
+        {
+          "en": "I’ll stop by your office at noon.",
+          "zh": "我中午會到你的辦公室短暫探訪。",
+          "highlight": "stop by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "(英式非正式)留在家中;不外出",
+      "titleEn": "stop in",
+      "formula": "stop in",
+      "highlight": "stop in",
+      "descriptionZh": "(英式非正式)留在家中;不外出",
+      "descriptionEn": "They decided to stop in on Saturday.",
+      "examples": [
+        {
+          "en": "They decided to stop in on Saturday.",
+          "zh": "他們決定星期六留在家中。",
+          "highlight": "stop in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "(英式)旅途中短暫停留",
+      "titleEn": "stop off / stop off at or in somewhere",
+      "formula": "stop off / stop off at or in somewhere",
+      "highlight": "stop off / stop off at or in somewhere",
+      "descriptionZh": "(英式)旅途中短暫停留",
+      "descriptionEn": "We stopped off at a village bakery.",
+      "examples": [
+        {
+          "en": "We stopped off at a village bakery.",
+          "zh": "我們在旅途中到一間鄉村麵包店短暫停留。",
+          "highlight": "stopped off at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在原定時間後繼續留下",
+      "titleEn": "stop on",
+      "formula": "stop on",
+      "highlight": "stop on",
+      "descriptionZh": "在原定時間後繼續留下",
+      "descriptionEn": "Sam stopped on for another half-hour.",
+      "examples": [
+        {
+          "en": "Sam stopped on for another half-hour.",
+          "zh": "森在原定時間後再多留了半小時。",
+          "highlight": "stopped on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "(英式非正式)在外逗留至很晚",
+      "titleEn": "stop out",
+      "formula": "stop out",
+      "highlight": "stop out",
+      "descriptionZh": "(英式非正式)在外逗留至很晚",
+      "descriptionEn": "They stopped out well past midnight.",
+      "examples": [
+        {
+          "en": "They stopped out well past midnight.",
+          "zh": "他們在外逗留至午夜過後很久。",
+          "highlight": "stopped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "途中停留過夜",
+      "titleEn": "stop over / stop over in or at somewhere",
+      "formula": "stop over / stop over in or at somewhere",
+      "highlight": "stop over / stop over in or at somewhere",
+      "descriptionZh": "途中停留過夜",
+      "descriptionEn": "The family stopped over in Madrid.",
+      "examples": [
+        {
+          "en": "The family stopped over in Madrid.",
+          "zh": "這家人在馬德里停留過夜。",
+          "highlight": "stopped over in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "(英式非正式)夜深仍不睡;熬夜",
+      "titleEn": "stop up",
+      "formula": "stop up",
+      "highlight": "stop up",
+      "descriptionZh": "(英式非正式)夜深仍不睡;熬夜",
+      "descriptionEn": "Do not stop up waiting for me.",
+      "examples": [
+        {
+          "en": "Do not stop up waiting for me.",
+          "zh": "不要為了等我而熬夜。",
+          "highlight": "stop up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "填塞或封住洞口、縫隙",
+      "titleEn": "stop something up",
+      "formula": "stop something up",
+      "highlight": "stop something up",
+      "descriptionZh": "填塞或封住洞口、縫隙",
+      "descriptionEn": "She stopped up the crack with paper.",
+      "examples": [
+        {
+          "en": "She stopped up the crack with paper.",
+          "zh": "她用紙填塞裂縫。",
+          "highlight": "stopped up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 STOP 描述不同形式的探訪",
+      "titleEn": "Use STOP to describe different kinds of visits",
+      "zh": "stop around、stop by 和 stop back 能幫助你分辨逗留一會、短暫探訪和稍後返回。",
+      "en": "Stop around, stop by and stop back help you distinguish between visiting for a while, making a brief visit and returning later."
+    },
+    {
+      "titleZh": "清楚說明某人為何留下或很晚仍未休息",
+      "titleEn": "Explain clearly why somebody stays or leaves late",
+      "zh": "stop in、stop behind、stop on、stop out 和 stop up 可以分別描述留在家中、其他人離開後留下、延長工作時間、在外逗留至很晚和熬夜。",
+      "en": "Stop in, stop behind, stop on, stop out and stop up describe staying at home, remaining after others leave, working longer, staying away from home late and staying awake late."
+    },
+    {
+      "titleZh": "描述兩種不同的旅途停留",
+      "titleEn": "Describe two different travel breaks",
+      "zh": "stop off 表示繼續行程前短暫停留;stop over 通常表示途中停留過夜。",
+      "en": "Stop off describes a short break before continuing a journey, while stop over usually describes an overnight stay."
+    },
+    {
+      "titleZh": "談論缺席和封住開口",
+      "titleEn": "Talk about absence and blocked openings",
+      "zh": "stop away 可以描述不出席活動;stop something up 則可以描述填塞洞口或縫隙。",
+      "en": "Stop away can describe not attending an event, while stop something up can describe filling a hole or gap."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 STOP 描述不同形式的探訪",
+      "清楚說明某人為何留下或很晚仍未休息",
+      "描述兩種不同的旅途停留",
+      "談論缺席和封住開口"
+    ],
+    "contextsEn": [
+      "Use STOP to describe different kinds of visits",
+      "Explain clearly why somebody stays or leaves late",
+      "Describe two different travel breaks",
+      "Talk about absence and blocked openings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 STOP 描述不同形式的探訪",
+        "titleEn": "Use STOP to describe different kinds of visits",
+        "zh": "stop around、stop by 和 stop back 能幫助你分辨逗留一會、短暫探訪和稍後返回。",
+        "en": "Stop around, stop by and stop back help you distinguish between visiting for a while, making a brief visit and returning later.",
+        "examples": [
+          {
+            "en": "Stop around this evening for tea.",
+            "zh": "今晚過來探訪並喝杯茶吧。",
+            "highlight": "Stop around"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明某人為何留下或很晚仍未休息",
+        "titleEn": "Explain clearly why somebody stays or leaves late",
+        "zh": "stop in、stop behind、stop on、stop out 和 stop up 可以分別描述留在家中、其他人離開後留下、延長工作時間、在外逗留至很晚和熬夜。",
+        "en": "Stop in, stop behind, stop on, stop out and stop up describe staying at home, remaining after others leave, working longer, staying away from home late and staying awake late.",
+        "examples": [
+          {
+            "en": "A few members stopped away from the vote.",
+            "zh": "幾名成員沒有出席投票。",
+            "highlight": "stopped away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述兩種不同的旅途停留",
+        "titleEn": "Describe two different travel breaks",
+        "zh": "stop off 表示繼續行程前短暫停留;stop over 通常表示途中停留過夜。",
+        "en": "Stop off describes a short break before continuing a journey, while stop over usually describes an overnight stay.",
+        "examples": [
+          {
+            "en": "Can you stop back tomorrow morning?",
+            "zh": "你明早可以再回來嗎?",
+            "highlight": "stop back"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論缺席和封住開口",
+        "titleEn": "Talk about absence and blocked openings",
+        "zh": "stop away 可以描述不出席活動;stop something up 則可以描述填塞洞口或縫隙。",
+        "en": "Stop away can describe not attending an event, while stop something up can describe filling a hole or gap.",
+        "examples": [
+          {
+            "en": "Rosa stopped behind after the lesson.",
+            "zh": "課堂結束、其他人離開後,羅莎留了下來。",
+            "highlight": "stopped behind after"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STOP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STOP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STOP 片語動詞。",
+      "en": "Read the whole sentence and choose the STOP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "stop off 表示在旅途中短暫停留;stop over 通常表示在旅途中停留過夜。",
+      "titleEn": "Stop off means taking a short break during a journey.",
+      "zh": "stop off 表示在旅途中短暫停留;stop over 通常表示在旅途中停留過夜。",
+      "en": "Stop off means taking a short break during a journey. Stop over usually means staying for a night during a journey."
+    },
+    {
+      "titleZh": "stop up 可以表示熬夜;stop something up 則表示填塞或封住開口。使用 it 或 them 時,應說 stopit up 或 stop them up。",
+      "titleEn": "Stop up can mean staying awake late.",
+      "zh": "stop up 可以表示熬夜;stop something up 則表示填塞或封住開口。使用 it 或 them 時,應說 stopit up 或 stop them up。",
+      "en": "Stop up can mean staying awake late. Stop something up means filling or blocking an opening. With it or them, say stop it up or stop them up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STOP 動詞片語句子改寫練習",
+    "titleEn": "STOP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STOP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STOP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          16
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          33,
+          48
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          49,
+          64
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          65,
+          80
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-94-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "I visited Ben’s desk for a minute before lunch.",
+      "promptZh": "我午飯前到賓的座位找了他一分鐘。",
+      "starter": "I",
+      "answer": "I stopped by Ben’s desk for a minute before lunch.",
+      "answerZh": "我午飯前到賓的座位找了他一分鐘。",
+      "highlight": "stopped by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "We stayed awake late to watch the football final.",
+      "promptZh": "我們熬夜觀看足球決賽。",
+      "starter": "We",
+      "answer": "We stopped up late to watch the football final.",
+      "answerZh": "我們熬夜觀看足球決賽。",
+      "highlight": "stopped up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "Several invited guests did not attend the dinner because they were protesting.",
+      "promptZh": "數名獲邀賓客因為抗議而沒有出席晚宴。",
+      "starter": "Several",
+      "answer": "Several invited guests stopped away from the dinner in protest.",
+      "answerZh": "數名獲邀賓客為了抗議而沒有出席晚宴。",
+      "highlight": "stopped away from",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "The coach paused briefly in Oxford before continuing to London.",
+      "promptZh": "旅遊巴前往倫敦途中,在牛津短暫停留了一會。",
+      "starter": "The",
+      "answer": "The coach stopped off in Oxford before continuing to London.",
+      "answerZh": "旅遊巴前往倫敦途中,在牛津短暫停留了一會。",
+      "highlight": "stopped off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "They filled the small hole to keep cold air outside.",
+      "promptZh": "他們填塞了那個小洞,以免冷空氣進入。",
+      "starter": "They",
+      "answer": "They stopped up the small hole to keep cold air outside.",
+      "answerZh": "他們填塞了那個小洞,以免冷空氣進入。",
+      "highlight": "stopped up",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "Please visit us for a while after your dance class.",
+      "promptZh": "舞蹈課後請到我們這裏探訪並逗留一會。",
+      "starter": "Please",
+      "answer": "Please stop around for a while after your dance class.",
+      "answerZh": "舞蹈課後請到我們這裏探訪並逗留一會。",
+      "highlight": "stop around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "We are staying at home tonight because it is raining.",
+      "promptZh": "今晚下雨,所以我們會留在家中。",
+      "starter": "We",
+      "answer": "We are stopping in tonight because it is raining.",
+      "answerZh": "今晚下雨,所以我們會留在家中。",
+      "highlight": "stopping in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 10,
+      "prompt": "Please return later; the manager is busy now.",
+      "promptZh": "請稍後再回來;經理現在很忙。",
+      "starter": "Please",
+      "answer": "Please stop back later; the manager is busy now.",
+      "answerZh": "請稍後再回來;經理現在很忙。",
+      "highlight": "stop back",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "We stayed for one night in Dubai during our journey to Kenya.",
+      "promptZh": "我們前往肯尼亞途中在杜拜住了一晚。",
+      "starter": "We",
+      "answer": "We stopped over in Dubai for one night on our journey to Kenya.",
+      "answerZh": "我們前往肯尼亞途中在杜拜停留了一晚。",
+      "highlight": "stopped over in Dubai",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Leo stayed after class when the other students left.",
+      "promptZh": "其他學生離開後,里奧在下課後留了下來。",
+      "starter": "Leo",
+      "answer": "Leo stopped behind after class when the other students left.",
+      "answerZh": "其他學生離開後,里奧在下課後留了下來。",
+      "highlight": "stopped behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Please make a brief visit when you arrive.",
+      "promptZh": "你到達後,請過來短暫探訪一下。",
+      "starter": "Please",
+      "answer": "Please stop by when you arrive.",
+      "answerZh": "你到達後,請過來短暫探訪一下。",
+      "highlight": "stop by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "He often stays away from home until two in the morning.",
+      "promptZh": "他經常在外逗留至凌晨兩點才回家。",
+      "starter": "He",
+      "answer": "He often stops out until two in the morning.",
+      "answerZh": "他經常在外逗留至凌晨兩點才回家。",
+      "highlight": "stops out",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "I stayed at work for another hour to finish the order.",
+      "promptZh": "我在下班時間後多留了一小時,以完成訂單。",
+      "starter": "I",
+      "answer": "I stopped on at work for another hour to finish the order.",
+      "answerZh": "我在下班時間後多留了一小時,以完成訂單。",
+      "highlight": "stopped on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "We took a short break for lunch during our journey to York.",
+      "promptZh": "我們前往約克途中短暫停留吃午飯。",
+      "starter": "We",
+      "answer": "We stopped off for lunch on our journey to York.",
+      "answerZh": "我們前往約克途中短暫停留吃午飯。",
+      "highlight": "stopped off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "I will return later, when the shop is less busy.",
+      "promptZh": "我會在店舖沒有那麼繁忙時再回來。",
+      "starter": "I",
+      "answer": "I will stop back later, when the shop is less busy.",
+      "answerZh": "我會在店舖沒有那麼繁忙時再回來。",
+      "highlight": "stop back",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Nora visited our flat for a while before dinner.",
+      "promptZh": "諾拉晚飯前到我們的住所探訪並逗留了一會。",
+      "starter": "Nora",
+      "answer": "Nora stopped around our flat for a while before dinner.",
+      "answerZh": "諾拉晚飯前到我們的住所探訪並逗留了一會。",
+      "highlight": "stopped around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "There is a hole in the roof. Please fill it before the rain starts.",
+      "promptZh": "屋頂有一個洞。請在下雨前把它填好。",
+      "starter": "There",
+      "answer": "There is a hole in the roof. Please stop it up before the rain starts.",
+      "answerZh": "屋頂有一個洞。請在下雨前把它填好。",
+      "highlight": "stop",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Omar often visits for a while on Friday evenings.",
+      "promptZh": "奧馬經常在星期五晚上到訪並逗留一會。",
+      "starter": "Omar",
+      "answer": "Omar often stops around on Friday evenings.",
+      "answerZh": "奧馬經常在星期五晚上到訪並逗留一會。",
+      "highlight": "stops around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Sofia makes a brief visit to the library desk every Monday.",
+      "promptZh": "索菲亞每逢星期一都會到圖書館服務台停留一會。",
+      "starter": "Sofia",
+      "answer": "Sofia stops by the library desk every Monday.",
+      "answerZh": "索菲亞每逢星期一都會到圖書館服務台停留一會。",
+      "highlight": "stops by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Nora is staying at work for an extra hour this evening.",
+      "promptZh": "諾拉今晚會在正常下班時間後多留一小時。",
+      "starter": "Nora",
+      "answer": "Nora is stopping on at work for an extra hour this evening.",
+      "answerZh": "諾拉今晚會在正常下班時間後多留一小時。",
+      "highlight": "stopping on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 11,
+      "prompt": "Kai usually stays at home on Sunday evenings.",
+      "promptZh": "啟通常在星期日晚上留在家中。",
+      "starter": "Kai",
+      "answer": "Kai usually stops in on Sunday evenings.",
+      "answerZh": "啟通常在星期日晚上留在家中。",
+      "highlight": "stops in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Will your flight include an overnight stay in Doha?",
+      "promptZh": "你的航班會在多哈停留一晚嗎?",
+      "starter": "Will",
+      "answer": "Will your flight stop over in Doha for the night?",
+      "answerZh": "你的航班會在多哈停留一晚嗎?",
+      "highlight": "stop over",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Nina returned to the café the next morning to collect her bag.",
+      "promptZh": "妮娜翌日早上返回咖啡店取回手袋。",
+      "starter": "Nina",
+      "answer": "Nina stopped back at the café the next morning to collect her bag.",
+      "answerZh": "妮娜翌日早上返回咖啡店取回手袋。",
+      "highlight": "stopped back at",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "We are not staying out late tonight because we work tomorrow.",
+      "promptZh": "我們明天要上班,所以今晚不會在外逗留至很晚。",
+      "starter": "We",
+      "answer": "We are not stopping out late tonight because we work tomorrow.",
+      "answerZh": "我們明天要上班,所以今晚不會在外逗留至很晚。",
+      "highlight": "stopping",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Eva often stays awake late when she has a new book.",
+      "promptZh": "伊娃有新書時,經常會熬夜閱讀。",
+      "starter": "Eva",
+      "answer": "Eva often stops up late when she has a new book.",
+      "answerZh": "伊娃有新書時,經常會熬夜閱讀。",
+      "highlight": "stops up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Many parents may avoid the meeting because they disagree with the new rule.",
+      "promptZh": "許多家長可能因為不同意新規則而不出席會議。",
+      "starter": "Many",
+      "answer": "Many parents may stop away from the meeting because they disagree with the new rule.",
+      "answerZh": "許多家長可能因為不同意新規則而不出席會議。",
+      "highlight": "stop away from",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The family will take a short break at a farm shop during the drive.",
+      "promptZh": "這家人會在駕車途中到一間農場商店短暫停留。",
+      "starter": "The",
+      "answer": "The family will stop off at a farm shop during the drive.",
+      "answerZh": "這家人會在駕車途中到一間農場商店短暫停留。",
+      "highlight": "stop off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Will you stay at the office until six to help us?",
+      "promptZh": "你可以在正常時間後留在辦公室至六時幫助我們嗎?",
+      "starter": "Will",
+      "answer": "Will you stop on at the office until six to help us?",
+      "answerZh": "你可以在正常時間後留在辦公室至六時幫助我們嗎?",
+      "highlight": "stop on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Two helpers will stay after the event to fold the chairs.",
+      "promptZh": "兩名助手會在活動結束、其他人離開後留下來摺好椅子。",
+      "starter": "Two",
+      "answer": "Two helpers will stop behind after the event to fold the chairs.",
+      "answerZh": "兩名助手會在活動結束、其他人離開後留下來摺好椅子。",
+      "highlight": "stop behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The worker has filled every gap around the window.",
+      "promptZh": "工人已填塞窗戶周圍的每一道縫隙。",
+      "starter": "The",
+      "answer": "The worker has stopped up every gap around the window.",
+      "answerZh": "工人已填塞窗戶周圍的每一道縫隙。",
+      "highlight": "stopped up",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The travellers are staying overnight in Rome before their next flight.",
+      "promptZh": "旅客會在乘搭下一班航班前於羅馬住一晚。",
+      "starter": "The",
+      "answer": "The travellers are stopping over in Rome before their next flight.",
+      "answerZh": "旅客會在乘搭下一班航班前於羅馬停留一晚。",
+      "highlight": "stopping over",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "Do not stay awake too late before tomorrow’s test.",
+      "promptZh": "明天測驗前不要熬夜至太晚。",
+      "starter": "Do",
+      "answer": "Do not stop up too late before tomorrow’s test.",
+      "answerZh": "明天測驗前不要熬夜至太晚。",
+      "highlight": "stop up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "They had stayed for two nights in Singapore before continuing to Australia.",
+      "promptZh": "他們前往澳洲前,曾在新加坡住了兩晚。",
+      "starter": "They",
+      "answer": "They had stopped over in Singapore for two nights before continuing to Australia.",
+      "answerZh": "他們前往澳洲前,曾在新加坡停留了兩晚。",
+      "highlight": "stopped over in Singapore",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 12,
+      "prompt": "The rain was so heavy that half the audience did not attend.",
+      "promptZh": "雨勢太大,因此一半觀眾沒有出席。",
+      "starter": "The",
+      "answer": "The rain was so heavy that half the audience stopped away.",
+      "answerZh": "雨勢太大,因此一半觀眾沒有出席。",
+      "highlight": "stopped away",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Could you visit my office for a few minutes after the lesson?",
+      "promptZh": "下課後你可以到我的辦公室坐幾分鐘嗎?",
+      "starter": "Could",
+      "answer": "Could you stop by my office for a few minutes after the lesson?",
+      "answerZh": "下課後你可以到我的辦公室坐幾分鐘嗎?",
+      "highlight": "stop by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "The holes in the wall were filled with cloth.",
+      "promptZh": "牆上的洞已用布填塞。",
+      "starter": "The",
+      "answer": "The holes in the wall were stopped up with cloth.",
+      "answerZh": "牆上的洞已用布填塞。",
+      "highlight": "stopped up",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Could you visit for a while when your lesson ends?",
+      "promptZh": "你的課堂結束後,可以到訪並逗留一會嗎?",
+      "starter": "Could",
+      "answer": "Could you stop around when your lesson ends?",
+      "answerZh": "你的課堂結束後,可以到訪並逗留一會嗎?",
+      "highlight": "stop around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "I stayed at home last night and read a book.",
+      "promptZh": "我昨晚留在家中看書。",
+      "starter": "I",
+      "answer": "I stopped in last night and read a book.",
+      "answerZh": "我昨晚留在家中看書。",
+      "highlight": "stopped in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "The manager asked them to remain for thirty minutes after their shift.",
+      "promptZh": "經理要求他們在輪班結束後多留三十分鐘。",
+      "starter": "The",
+      "answer": "The manager asked them to stop on for thirty minutes after their shift.",
+      "answerZh": "經理要求他們在輪班結束後多留三十分鐘。",
+      "highlight": "stop on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Can you return here after lunch to sign the form?",
+      "promptZh": "你午飯後可以回來這裏簽署表格嗎?",
+      "starter": "Can",
+      "answer": "Can you stop back here after lunch to sign the form?",
+      "answerZh": "你午飯後可以回來這裏簽署表格嗎?",
+      "highlight": "stop back",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Did the students stay away from home past midnight after the concert?",
+      "promptZh": "音樂會後,那些學生是否在外逗留至午夜過後?",
+      "starter": "Did",
+      "answer": "Did the students stop out past midnight after the concert?",
+      "answerZh": "音樂會後,那些學生是否在外逗留至午夜過後?",
+      "highlight": "stop out",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "I stayed after practice because I needed to speak to the coach.",
+      "promptZh": "練習結束、其他人離開後,我留下來,因為我需要跟教練談話。",
+      "starter": "I",
+      "answer": "I stopped behind after practice because I needed to speak to the coach.",
+      "answerZh": "練習結束、其他人離開後,我留下來,因為我需要跟教練談話。",
+      "highlight": "stopped behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Are you staying awake for the late film tonight?",
+      "promptZh": "你今晚會熬夜觀看深夜電影嗎?",
+      "starter": "Are",
+      "answer": "Are you stopping up for the late film tonight?",
+      "answerZh": "你今晚會熬夜觀看深夜電影嗎?",
+      "highlight": "stopping up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Can we take a short break at the next service station before we continue?",
+      "promptZh": "我們繼續行程前,可以在下一個公路服務站短暫停留嗎?",
+      "starter": "Can",
+      "answer": "Can we stop off at the next service station before we continue?",
+      "answerZh": "我們繼續行程前,可以在下一個公路服務站短暫停留嗎?",
+      "highlight": "stop off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Why did so many players choose not to attend the awards night?",
+      "promptZh": "為甚麼這麼多球員選擇不出席頒獎晚會?",
+      "starter": "Why",
+      "answer": "Why did so many players stop away from the awards night?",
+      "answerZh": "為甚麼這麼多球員選擇不出席頒獎晚會?",
+      "highlight": "stop away from",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Are you staying at home tonight, or are you meeting the others?",
+      "promptZh": "你今晚會留在家中,還是會跟其他人見面?",
+      "starter": "Are",
+      "answer": "Are you stopping in tonight, or are you meeting the others?",
+      "answerZh": "你今晚會留在家中,還是會跟其他人見面?",
+      "highlight": "stopping in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Priya stayed away from home very late after the birthday meal.",
+      "promptZh": "生日晚飯後,普里雅在外逗留至很晚才回家。",
+      "starter": "Priya",
+      "answer": "Priya stopped out very late after the birthday meal.",
+      "answerZh": "生日晚飯後,普里雅在外逗留至很晚才回家。",
+      "highlight": "stopped out",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 13,
+      "prompt": "Why did Eva remain after everyone else had left the hall?",
+      "promptZh": "其他人離開禮堂後,伊娃為甚麼仍留下來?",
+      "starter": "Why",
+      "answer": "Why did Eva stop behind after everyone else had left the hall?",
+      "answerZh": "其他人離開禮堂後,伊娃為甚麼仍留下來?",
+      "highlight": "stop behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Although his shift had ended, Jamal remained at the shop to finish the last order.",
+      "promptZh": "雖然賈邁勒的輪班已經結束,但他仍留在店內完成最後一張訂單。",
+      "starter": "Although",
+      "answer": "Although his shift had ended, Jamal stopped on at the shop to finish the last order.",
+      "answerZh": "雖然賈邁勒的輪班已經結束,但他仍留在店內完成最後一張訂單。",
+      "highlight": "stopped on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "We were nearby, so we made a brief visit to the new bookshop.",
+      "promptZh": "我們當時就在附近,所以到那間新書店短暫逛了一會。",
+      "starter": "We",
+      "answer": "We were nearby, so we stopped by the new bookshop.",
+      "answerZh": "我們當時就在附近,所以到那間新書店短暫逛了一會。",
+      "highlight": "stopped by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "If the organisers ignore the complaints, more families may decide not to attend.",
+      "promptZh": "如果主辦單位忽視投訴,更多家庭可能會決定不出席。",
+      "starter": "If",
+      "answer": "If the organisers ignore the complaints, more families may stop away.",
+      "answerZh": "如果主辦單位忽視投訴,更多家庭可能會決定不出席。",
+      "highlight": "stop away",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Because the next train left in the morning, the group spent the night at a small hotel in Lyon.",
+      "promptZh": "由於下一班火車翌日早上才開出,這群人在里昂的一間小酒店住了一晚。",
+      "starter": "Because",
+      "answer": "Because the next train left in the morning, the group stopped over at a small hotel in Lyon.",
+      "answerZh": "由於下一班火車翌日早上才開出,這群人在里昂的一間小酒店停留了一晚。",
+      "highlight": "stopped over",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "We had an hour free, so we visited Priya’s house for a while.",
+      "promptZh": "我們有一小時空閒時間,所以到普里雅家中探訪並逗留了一會。",
+      "starter": "We",
+      "answer": "We had an hour free, so we stopped around Priya’s house for a while.",
+      "answerZh": "我們有一小時空閒時間,所以到普里雅家中探訪並逗留了一會。",
+      "highlight": "stopped around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Water was entering through a narrow crack, so Arun filled the opening with a piece of rubber.",
+      "promptZh": "水從一道狹窄裂縫滲入,所以阿倫用一塊橡膠填塞開口。",
+      "starter": "Water",
+      "answer": "Water was entering through a narrow crack, so Arun stopped up the opening with a piece of rubber.",
+      "answerZh": "水從一道狹窄裂縫滲入,所以阿倫用一塊橡膠填塞開口。",
+      "highlight": "stopped up",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The whole team left at six, but Arun remained to check the lights.",
+      "promptZh": "整隊人在六時離開,但阿倫留下來檢查燈光。",
+      "starter": "The",
+      "answer": "The whole team left at six, but Arun stopped behind to check the lights.",
+      "answerZh": "整隊人在六時離開,但阿倫留下來檢查燈光。",
+      "highlight": "stopped behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The cycling group paused at a village shop, bought water, and then continued towards the coast.",
+      "promptZh": "單車隊在一間鄉村商店短暫停留,買水後再繼續前往海岸。",
+      "starter": "The",
+      "answer": "The cycling group stopped off at a village shop, bought water, and then continued towards the coast.",
+      "answerZh": "單車隊在一間鄉村商店短暫停留,買水後再繼續前往海岸。",
+      "highlight": "stopped off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Because the streets were icy, the family decided to stay at home instead of visiting friends.",
+      "promptZh": "由於街道結冰,這家人決定留在家中,不去探望朋友。",
+      "starter": "Because",
+      "answer": "Because the streets were icy, the family decided to stop in instead of visiting friends.",
+      "answerZh": "由於街道結冰,這家人決定留在家中,不去探望朋友。",
+      "highlight": "stop in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "The assistant was not free, so I returned to the office two hours later.",
+      "promptZh": "助理當時沒有空,所以我兩小時後再返回辦公室。",
+      "starter": "The",
+      "answer": "The assistant was not free, so I stopped back at the office two hours later.",
+      "answerZh": "助理當時沒有空,所以我兩小時後再返回辦公室。",
+      "highlight": "stopped back at",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Although he was tired, Ben stayed awake until midnight to see the match end.",
+      "promptZh": "雖然賓很疲倦,但他仍熬夜至午夜觀看比賽結束。",
+      "starter": "Although",
+      "answer": "Although he was tired, Ben stopped up until midnight to see the match end.",
+      "answerZh": "雖然賓很疲倦,但他仍熬夜至午夜觀看比賽結束。",
+      "highlight": "stopped up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Although the last bus left at eleven, Omar stayed out with his friends until nearly one.",
+      "promptZh": "雖然尾班巴士在十一時開出,奧馬仍和朋友在外逗留至接近一時。",
+      "starter": "Although",
+      "answer": "Although the last bus left at eleven, Omar stopped out with his friends until nearly one.",
+      "answerZh": "雖然尾班巴士在十一時開出,奧馬仍和朋友在外逗留至接近一時。",
+      "highlight": "stopped",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 14,
+      "prompt": "Before the doors closed, Ravi made a quick visit to the ticket desk to ask one question.",
+      "promptZh": "大門關閉前,拉維到售票處停留片刻,問了一個問題。",
+      "starter": "Before",
+      "answer": "Before the doors closed, Ravi stopped by the ticket desk to ask one question.",
+      "answerZh": "大門關閉前,拉維到售票處停留片刻,問了一個問題。",
+      "highlight": "stopped by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "I may visit your place for a while after work, but I cannot stay for dinner.",
+      "promptZh": "下班後我可能會到你家探訪並逗留一會,但不能留下吃晚飯。",
+      "starter": "I",
+      "answer": "I may stop around your place for a while after work, but I cannot stay for dinner.",
+      "answerZh": "下班後我可能會到你家探訪並逗留一會,但不能留下吃晚飯。",
+      "highlight": "stop around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "On their train journey north, the students took a brief break in Leeds for lunch.",
+      "promptZh": "學生乘火車北上途中,在列斯短暫停留吃午飯。",
+      "starter": "On",
+      "answer": "On their train journey north, the students stopped off in Leeds for lunch.",
+      "answerZh": "學生乘火車北上途中,在列斯短暫停留吃午飯。",
+      "highlight": "stopped off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "He said he would return another day if the repair was not finished.",
+      "promptZh": "他說,如果維修尚未完成,便會改天再回來。",
+      "starter": "He",
+      "answer": "He said he would stop back another day if the repair was not finished.",
+      "answerZh": "他說,如果維修尚未完成,便會改天再回來。",
+      "highlight": "stop back",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "We did not drive straight to Edinburgh; we took a short break in Newcastle and continued after a meal.",
+      "promptZh": "我們沒有直接駕車前往愛丁堡;我們在紐卡素短暫停留,吃過飯後再繼續。",
+      "starter": "We",
+      "answer": "We did not drive straight to Edinburgh; we stopped off in Newcastle and continued after a meal.",
+      "answerZh": "我們沒有直接駕車前往愛丁堡;我們在紐卡素短暫停留,吃過飯後再繼續。",
+      "highlight": "stopped off",
+      "targetForm": "stop off at/in somewhere",
+      "targetMeaningZh": "旅途中短暫停留"
+    },
+    {
+      "id": "phrasal-verb-94-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "I knew I had to catch an early train, yet I stayed awake past midnight reading.",
+      "promptZh": "我知道自己翌日要乘搭早班火車,卻仍熬夜閱讀至午夜過後。",
+      "starter": "I",
+      "answer": "I knew I had to catch an early train, yet I stopped up past midnight reading.",
+      "answerZh": "我知道自己翌日要乘搭早班火車,卻仍熬夜閱讀至午夜過後。",
+      "highlight": "stopped up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The shop had not finished packing my order, so I returned near closing time to collect it.",
+      "promptZh": "店舖尚未包裝好我的訂單,所以我接近關門時再回去領取。",
+      "starter": "The",
+      "answer": "The shop had not finished packing my order, so I stopped back near closing time to collect it.",
+      "answerZh": "店舖尚未包裝好我的訂單,所以我接近關門時再回去領取。",
+      "highlight": "stopped back",
+      "targetForm": "stop back",
+      "targetMeaningZh": "稍後返回某處"
+    },
+    {
+      "id": "phrasal-verb-94-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "We had planned to eat at a restaurant, but the strong wind made us decide to stay at home for the evening.",
+      "promptZh": "我們本來計劃到餐廳吃飯,但強風令我們決定整晚留在家中。",
+      "starter": "We",
+      "answer": "We had planned to eat at a restaurant, but the strong wind made us decide to stop in for the evening.",
+      "answerZh": "我們本來計劃到餐廳吃飯,但強風令我們決定整晚留在家中。",
+      "highlight": "stop in",
+      "targetForm": "stop in",
+      "targetMeaningZh": "留在家中;不外出"
+    },
+    {
+      "id": "phrasal-verb-94-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The report had to be sent that night, so two staff members stayed after work to check it.",
+      "promptZh": "報告必須在當晚送出,所以兩名職員下班後繼續留下來檢查。",
+      "starter": "The",
+      "answer": "The report had to be sent that night, so two staff members stopped on after work to check it.",
+      "answerZh": "報告必須在當晚送出,所以兩名職員下班後繼續留下來檢查。",
+      "highlight": "stopped on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Although every member received an invitation, some chose not to attend because they opposed the decision.",
+      "promptZh": "雖然每名成員都收到邀請,但有些人因反對該決定而選擇不出席。",
+      "starter": "Although",
+      "answer": "Although every member received an invitation, some stopped away because they opposed the decision.",
+      "answerZh": "雖然每名成員都收到邀請,但有些人因反對該決定而缺席。",
+      "highlight": "stopped away",
+      "targetForm": "stop away / stop away from something",
+      "targetMeaningZh": "不出席;缺席"
+    },
+    {
+      "id": "phrasal-verb-94-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "The route was too long for one day, so the drivers stayed overnight in Bristol before continuing west.",
+      "promptZh": "路程太長,無法一天完成,所以司機在布里斯托住了一晚,然後繼續向西行。",
+      "starter": "The",
+      "answer": "The route was too long for one day, so the drivers stopped over in Bristol before continuing west.",
+      "answerZh": "路程太長,無法一天完成,所以司機在布里斯托停留了一晚,然後繼續向西行。",
+      "highlight": "stopped over",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "I only had five minutes before the meeting, but I visited Nia’s desk to leave the keys.",
+      "promptZh": "會議前我只有五分鐘,但仍到妮亞的座位把鎖匙留下。",
+      "starter": "I",
+      "answer": "I only had five minutes before the meeting, but I stopped by Nia’s desk to leave the keys.",
+      "answerZh": "會議前我只有五分鐘,但仍到妮亞的座位把鎖匙留下。",
+      "highlight": "stopped by",
+      "targetForm": "stop by / stop by somewhere",
+      "targetMeaningZh": "短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-94-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 15,
+      "prompt": "Cold air entered through several gaps around the old door, so the family filled them with strips of cloth.",
+      "promptZh": "冷空氣從舊門周圍的幾道縫隙進入,所以這家人用布條把它們填塞。",
+      "starter": "Cold",
+      "answer": "Cold air entered through several gaps around the old door, so the family stopped them up with strips of cloth.",
+      "answerZh": "冷空氣從舊門周圍的幾道縫隙進入,所以這家人用布條把它們填塞。",
+      "highlight": "stopped",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    },
+    {
+      "id": "phrasal-verb-94-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "After the club meeting, several friends visited the coach’s home and stayed for tea.",
+      "promptZh": "俱樂部會議後,幾位朋友到教練家中探訪,並留下來喝茶。",
+      "starter": "After",
+      "answer": "After the club meeting, several friends stopped around the coach’s home and stayed for tea.",
+      "answerZh": "俱樂部會議後,幾位朋友到教練家中探訪,並留下來喝茶。",
+      "highlight": "stopped around",
+      "targetForm": "stop around / stop around somewhere",
+      "targetMeaningZh": "到某人家中探訪並逗留一會"
+    },
+    {
+      "id": "phrasal-verb-94-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Nia needed to get up early, so she refused to stay away from home late after the show.",
+      "promptZh": "妮亞翌日要早起,所以表演後她不肯在外逗留至很晚。",
+      "starter": "Nia",
+      "answer": "Nia needed to get up early, so she refused to stop out late after the show.",
+      "answerZh": "妮亞翌日要早起,所以表演後她不肯在外逗留至很晚。",
+      "highlight": "stop out",
+      "targetForm": "stop out",
+      "targetMeaningZh": "在外逗留至很晚"
+    },
+    {
+      "id": "phrasal-verb-94-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The programme did not finish until one, but several viewers stayed awake until then because they wanted to see the result.",
+      "promptZh": "節目直至一時才結束,但幾名觀眾為了看結果而一直熬夜至那時。",
+      "starter": "The",
+      "answer": "The programme did not finish until one, but several viewers stopped up until then because they wanted to see the result.",
+      "answerZh": "節目直至一時才結束,但幾名觀眾為了看結果而一直熬夜至那時。",
+      "highlight": "stopped up",
+      "targetForm": "stop up",
+      "targetMeaningZh": "夜深仍不睡;熬夜"
+    },
+    {
+      "id": "phrasal-verb-94-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Once the parents had left the school hall, three teachers remained to discuss the next day’s trip.",
+      "promptZh": "家長離開學校禮堂後,三名老師留下來討論翌日的行程。",
+      "starter": "Once",
+      "answer": "Once the parents had left the school hall, three teachers stopped behind to discuss the next day’s trip.",
+      "answerZh": "家長離開學校禮堂後,三名老師留下來討論翌日的行程。",
+      "highlight": "stopped behind",
+      "targetForm": "stop behind",
+      "targetMeaningZh": "其他人離開後留下來"
+    },
+    {
+      "id": "phrasal-verb-94-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "Could you remain for a little longer after the meeting and help put the papers in order?",
+      "promptZh": "會議後你可以多留一會,幫忙整理文件嗎?",
+      "starter": "Could",
+      "answer": "Could you stop on for a little longer after the meeting and help put the papers in order?",
+      "answerZh": "會議後你可以多留一會,幫忙整理文件嗎?",
+      "highlight": "stop on",
+      "targetForm": "stop on",
+      "targetMeaningZh": "在原定時間後繼續留下"
+    },
+    {
+      "id": "phrasal-verb-94-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "On the long trip home, we spent one night in Seoul and continued our journey the next morning.",
+      "promptZh": "在漫長的回程途中,我們在首爾住了一晚,翌日早上再繼續行程。",
+      "starter": "On",
+      "answer": "On the long trip home, we stopped over in Seoul and continued our journey the next morning.",
+      "answerZh": "在漫長的回程途中,我們在首爾停留了一晚,翌日早上再繼續行程。",
+      "highlight": "stopped over",
+      "targetForm": "stop over in/at somewhere",
+      "targetMeaningZh": "途中停留過夜"
+    },
+    {
+      "id": "phrasal-verb-94-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 16,
+      "prompt": "The bottle had no lid, so Nina filled its opening with clean cloth before carrying it.",
+      "promptZh": "瓶子沒有蓋,所以妮娜在拿走前用乾淨的布填塞瓶口。",
+      "starter": "The",
+      "answer": "The bottle had no lid, so Nina stopped up its opening with clean cloth before carrying it.",
+      "answerZh": "瓶子沒有蓋,所以妮娜在拿走前用乾淨的布填塞瓶口。",
+      "highlight": "stopped up",
+      "targetForm": "stop something up",
+      "targetMeaningZh": "填塞或封住洞口/縫隙"
+    }
+  ]
+}

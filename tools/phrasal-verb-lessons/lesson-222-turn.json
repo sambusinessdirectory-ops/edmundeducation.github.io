@@ -1,0 +1,3071 @@
+{
+  "id": "phrasal-verb-222",
+  "order": 222,
+  "slug": "turn",
+  "version": "1",
+  "title": "TURN 動詞片語",
+  "titleEn": "Turn",
+  "titleZh": "TURN 動詞片語",
+  "level": "B1",
+  "groupCount": 23,
+  "source": {
+    "file": "Phrasal Verbs 220 - TURN.pdf",
+    "sourceNumber": 220,
+    "pageCount": 46,
+    "teachingPdfPages": [
+      1,
+      2,
+      6
+    ],
+    "exercisePdfPages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "answerKeyPdfPages": [
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TURN 有關的片語動詞和表達。",
+    "en": "Learn and practise the phrasal verbs and expressions related to TURN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TURN",
+      "highlight": "TURN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The cornered fox turned on the dog.",
+      "zh": "那隻被逼到角落的狐狸突然襲擊那隻狗。",
+      "highlight": "turned on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The result turns on one final vote.",
+      "zh": "結果取決於最後一票。",
+      "highlight": "turns on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The lamp will turn itself on at seven.",
+      "zh": "燈會在七時自動開啟。",
+      "highlight": "turn itself on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "突然襲擊、責怪或反對某人；取決於某事;turn upon 較正式；開始運作;開啟電器、燈光、暖氣等；使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)；把水、光線、武器等對準某人或某物;upon 較正式；令某人開始對某人或某事物產生興趣；到場參加或支持某項活動；向外彎或向外指;使某物向外；關掉燈或熱源；翻身、翻面或翻轉某人或某物；引擎開始或繼續運轉;使引擎啟動；把某人、某物、控制權或責任移交給另一方；改過自新;開始以更負責任的方式行事；轉身或轉向另一面;使某人或某物轉向；使原本欠佳的情況、機構或生意重新好轉；轉身面向某人；在沒有更好辦法時採用某事物或某種做法；把話題、注意力或討論轉到另一件事；到達或出現；向上彎或向上指;使某物向上；調高音量、溫度或強度；上下顛倒;把某物倒轉；徹底搜查某處,並把地方弄得十分凌亂",
+    "en": "turn on somebody; turn on something / turn upon something; turn on / turn itself on / turn something on; turn somebody on; turn something on/upon somebody/something; turn somebody on to somebody/something; turn out; turn out / turn something out; turn something out; turn over / turn somebody/something over; turn over / turn something over; turn somebody/something over to somebody/something; turn over a new leaf; turn round / turn somebody/something round; turn round / turn something round; turn to somebody; turn to something; turn to something / turn something to something; turn up; turn up / turn something up; turn something up; turn upside down / turn something upside down; turn something upside down",
+    "naturalZh": [
+      "突然襲擊、責怪或反對某人",
+      "取決於某事;turn upon 較正式",
+      "開始運作;開啟電器、燈光、暖氣等",
+      "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+      "把水、光線、武器等對準某人或某物;upon 較正式",
+      "令某人開始對某人或某事物產生興趣",
+      "到場參加或支持某項活動",
+      "向外彎或向外指;使某物向外",
+      "關掉燈或熱源",
+      "翻身、翻面或翻轉某人或某物",
+      "引擎開始或繼續運轉;使引擎啟動",
+      "把某人、某物、控制權或責任移交給另一方",
+      "改過自新;開始以更負責任的方式行事",
+      "轉身或轉向另一面;使某人或某物轉向",
+      "使原本欠佳的情況、機構或生意重新好轉",
+      "轉身面向某人",
+      "在沒有更好辦法時採用某事物或某種做法",
+      "把話題、注意力或討論轉到另一件事",
+      "到達或出現",
+      "向上彎或向上指;使某物向上",
+      "調高音量、溫度或強度",
+      "上下顛倒;把某物倒轉",
+      "徹底搜查某處,並把地方弄得十分凌亂"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "turn on somebody",
+      "titleZh": "突然襲擊、責怪或反對某人",
+      "titleEn": "turn on somebody",
+      "descriptionZh": "突然襲擊、責怪或反對某人",
+      "descriptionEn": "The cornered fox turned on the dog.",
+      "examples": [
+        {
+          "en": "The cornered fox turned on the dog.",
+          "zh": "那隻被逼到角落的狐狸突然襲擊那隻狗。",
+          "highlight": "turned on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn on something / turn upon something",
+      "titleZh": "取決於某事;turn upon 較正式",
+      "titleEn": "turn on something / turn upon something",
+      "descriptionZh": "取決於某事;turn upon 較正式",
+      "descriptionEn": "The result turns on one final vote.",
+      "examples": [
+        {
+          "en": "The result turns on one final vote.",
+          "zh": "結果取決於最後一票。",
+          "highlight": "turns on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn on / turn itself on / turn something on",
+      "titleZh": "開始運作;開啟電器、燈光、暖氣等",
+      "titleEn": "turn on / turn itself on / turn something on",
+      "descriptionZh": "開始運作;開啟電器、燈光、暖氣等",
+      "descriptionEn": "The lamp will turn itself on at seven.",
+      "examples": [
+        {
+          "en": "The lamp will turn itself on at seven.",
+          "zh": "燈會在七時自動開啟。",
+          "highlight": "turn itself on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody on",
+      "titleZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+      "titleEn": "turn somebody on",
+      "descriptionZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+      "descriptionEn": "Fast cars really turn him on.",
+      "examples": [
+        {
+          "en": "Fast cars really turn him on.",
+          "zh": "高速汽車確實令他感到興奮。",
+          "highlight": "turn him on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn something on/upon somebody/something",
+      "titleZh": "把水、光線、武器等對準某人或某物;upon 較正式",
+      "titleEn": "turn something on/upon somebody/something",
+      "descriptionZh": "把水、光線、武器等對準某人或某物;upon 較正式",
+      "descriptionEn": "The guard turned a torch on the gate.",
+      "examples": [
+        {
+          "en": "The guard turned a torch on the gate.",
+          "zh": "警衞把電筒對準大閘。",
+          "highlight": "turned a torch on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody on to somebody/something",
+      "titleZh": "令某人開始對某人或某事物產生興趣",
+      "titleEn": "turn somebody on to somebody/something",
+      "descriptionZh": "令某人開始對某人或某事物產生興趣",
+      "descriptionEn": "This book turned me on to science.",
+      "examples": [
+        {
+          "en": "This book turned me on to science.",
+          "zh": "這本書令我開始對科學感興趣。",
+          "highlight": "turned me on to"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn out",
+      "titleZh": "到場參加或支持某項活動",
+      "titleEn": "turn out",
+      "descriptionZh": "到場參加或支持某項活動",
+      "descriptionEn": "Hundreds of people turned out for the parade.",
+      "examples": [
+        {
+          "en": "Hundreds of people turned out for the parade.",
+          "zh": "數百人到場參加巡遊。",
+          "highlight": "turned out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn out / turn something out",
+      "titleZh": "向外彎或向外指;使某物向外",
+      "titleEn": "turn out / turn something out",
+      "descriptionZh": "向外彎或向外指;使某物向外",
+      "descriptionEn": "Her feet turn out slightly.",
+      "examples": [
+        {
+          "en": "Her feet turn out slightly.",
+          "zh": "她的雙腳微微向外彎。",
+          "highlight": "turn out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn something out",
+      "titleZh": "關掉燈或熱源",
+      "titleEn": "turn something out",
+      "descriptionZh": "關掉燈或熱源",
+      "descriptionEn": "Please turn out the bedroom light.",
+      "examples": [
+        {
+          "en": "Please turn out the bedroom light.",
+          "zh": "請關掉睡房的燈。",
+          "highlight": "turn out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn over / turn somebody/something over",
+      "titleZh": "翻身、翻面或翻轉某人或某物",
+      "titleEn": "turn over / turn somebody/something over",
+      "descriptionZh": "翻身、翻面或翻轉某人或某物",
+      "descriptionEn": "Turn the fish over after two minutes.",
+      "examples": [
+        {
+          "en": "Turn the fish over after two minutes.",
+          "zh": "兩分鐘後把魚翻面。",
+          "highlight": "Turn the fish over"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn over / turn something over",
+      "titleZh": "引擎開始或繼續運轉;使引擎啟動",
+      "titleEn": "turn over / turn something over",
+      "descriptionZh": "引擎開始或繼續運轉;使引擎啟動",
+      "descriptionEn": "The engine turned over at once.",
+      "examples": [
+        {
+          "en": "The engine turned over at once.",
+          "zh": "引擎立即啟動。",
+          "highlight": "turned over"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody/something over to somebody/something",
+      "titleZh": "把某人、某物、控制權或責任移交給另一方",
+      "titleEn": "turn somebody/something over to somebody/something",
+      "descriptionZh": "把某人、某物、控制權或責任移交給另一方",
+      "descriptionEn": "They turned the keys over to the new owner.",
+      "examples": [
+        {
+          "en": "They turned the keys over to the new owner.",
+          "zh": "他們把鎖匙交給新主人。",
+          "highlight": "turned the keys over to"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn over a new leaf",
+      "titleZh": "改過自新;開始以更負責任的方式行事",
+      "titleEn": "turn over a new leaf",
+      "descriptionZh": "改過自新;開始以更負責任的方式行事",
+      "descriptionEn": "He has turned over a new leaf.",
+      "examples": [
+        {
+          "en": "He has turned over a new leaf.",
+          "zh": "他已經改過自新。",
+          "highlight": "turned over"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn round / turn somebody/something round",
+      "titleZh": "轉身或轉向另一面;使某人或某物轉向",
+      "titleEn": "turn round / turn somebody/something round",
+      "descriptionZh": "轉身或轉向另一面;使某人或某物轉向",
+      "descriptionEn": "She turned round when I called.",
+      "examples": [
+        {
+          "en": "She turned round when I called.",
+          "zh": "我叫她時,她轉過身來。",
+          "highlight": "turned round"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn round / turn something round",
+      "titleZh": "使原本欠佳的情況、機構或生意重新好轉",
+      "titleEn": "turn round / turn something round",
+      "descriptionZh": "使原本欠佳的情況、機構或生意重新好轉",
+      "descriptionEn": "The new manager turned the café round.",
+      "examples": [
+        {
+          "en": "The new manager turned the café round.",
+          "zh": "新經理令咖啡店重新好轉。",
+          "highlight": "turned the café round"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn to somebody",
+      "titleZh": "轉身面向某人",
+      "titleEn": "turn to somebody",
+      "descriptionZh": "轉身面向某人",
+      "descriptionEn": "She turned to him and nodded.",
+      "examples": [
+        {
+          "en": "She turned to him and nodded.",
+          "zh": "她轉身面向他,然後點頭。",
+          "highlight": "turned to"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn to something",
+      "titleZh": "在沒有更好辦法時採用某事物或某種做法",
+      "titleEn": "turn to something",
+      "descriptionZh": "在沒有更好辦法時採用某事物或某種做法",
+      "descriptionEn": "He turned to borrowing when his savings ran out.",
+      "examples": [
+        {
+          "en": "He turned to borrowing when his savings ran out.",
+          "zh": "儲蓄用完後,他轉而借貸。",
+          "highlight": "turned to"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn to something / turn something to something",
+      "titleZh": "把話題、注意力或討論轉到另一件事",
+      "titleEn": "turn to something / turn something to something",
+      "descriptionZh": "把話題、注意力或討論轉到另一件事",
+      "descriptionEn": "The talk then turned to travel.",
+      "examples": [
+        {
+          "en": "The talk then turned to travel.",
+          "zh": "談話其後轉到旅遊。",
+          "highlight": "turned to"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn up",
+      "titleZh": "到達或出現",
+      "titleEn": "turn up",
+      "descriptionZh": "到達或出現",
+      "descriptionEn": "Nobody turned up for the class.",
+      "examples": [
+        {
+          "en": "Nobody turned up for the class.",
+          "zh": "沒有人來上課。",
+          "highlight": "turned up"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn up / turn something up",
+      "titleZh": "向上彎或向上指;使某物向上",
+      "titleEn": "turn up / turn something up",
+      "descriptionZh": "向上彎或向上指;使某物向上",
+      "descriptionEn": "The ends of the ribbon turn up.",
+      "examples": [
+        {
+          "en": "The ends of the ribbon turn up.",
+          "zh": "絲帶的末端向上翹。",
+          "highlight": "turn up"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn something up",
+      "titleZh": "調高音量、溫度或強度",
+      "titleEn": "turn something up",
+      "descriptionZh": "調高音量、溫度或強度",
+      "descriptionEn": "Turn the radio up a little.",
+      "examples": [
+        {
+          "en": "Turn the radio up a little.",
+          "zh": "把收音機音量調高一點。",
+          "highlight": "Turn the radio up"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn upside down / turn something upside down",
+      "titleZh": "上下顛倒;把某物倒轉",
+      "titleEn": "turn upside down / turn something upside down",
+      "descriptionZh": "上下顛倒;把某物倒轉",
+      "descriptionEn": "The small boat turned upside down.",
+      "examples": [
+        {
+          "en": "The small boat turned upside down.",
+          "zh": "小船上下顛倒。",
+          "highlight": "turned upside down"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn something upside down",
+      "titleZh": "徹底搜查某處,並把地方弄得十分凌亂",
+      "titleEn": "turn something upside down",
+      "descriptionZh": "徹底搜查某處,並把地方弄得十分凌亂",
+      "descriptionEn": "We turned the kitchen upside down looking for the ring.",
+      "examples": [
+        {
+          "en": "We turned the kitchen upside down looking for the ring.",
+          "zh": "我們為了尋找戒指,把廚房翻得亂七八糟。",
+          "highlight": "turned the kitchen upside down"
+        }
+      ],
+      "number": 23,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TURN 片語動詞的實際用途",
+    "labelEn": "TURN Phrasal Verbs in Use",
+    "summaryZh": "TURN 表達可以表示機器啟動、關燈,以及調高音量或暖氣。；你可以使用 TURN 描述轉身、翻面、翻身、向外或向上,以及上下顛倒。；TURN 可以表示某人到達、人群出席活動,或某人開始對音樂、藝術或其他事物感興趣。；TURN 表達可以說明一項決定取決於甚麼、某人最後採用甚麼方法、討論如何轉換話題,以及某人或生意如何改善。",
+    "summaryEn": "TURN expressions let you say that a machine starts, a light is switched off or the volume and heating are increased. You can use TURN to describe facing another way, flipping an object, rolling over, pointing outwards or upwards, and becoming upside down. TURN can show that someone arrives, a crowd attends an event, or a person becomes interested in music, art or another subject. TURN expressions can show what a decision depends on, what someone uses as a last choice, how a discussion changes topic, or how a person or business improves.",
+    "contextsZh": [
+      "控制機器、燈光、暖氣和聲音",
+      "清楚描述動作和方向",
+      "談論到達、出席和興趣轉變",
+      "解釋決定、困難選擇和正面改變"
+    ],
+    "contextsEn": [
+      "Control machines, lights, heat and sound",
+      "Describe movement and direction clearly",
+      "Talk about people arriving, attending and changing their interests",
+      "Explain decisions, difficult choices and positive change"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TURN 表達。",
+    "formalEn": "Read the whole sentence and choose the TURN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "turn on somebody",
+    "fixedHighlight": "turn on somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 TURN 表達。",
+    "fixedEn": "Read the whole sentence and choose the TURN expression that gives the same meaning.",
+    "correct": "turned on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；ON 表達的詞序會改變意思:turn on him=突然襲擊或責怪他turn him on=令他感興趣或興奮turn him on to jazz=令他開始對爵士樂感興趣；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Word order changes the meaning of the ON expressions: turn on him = suddenly attack or blame him turn him on = make him interested or excited turn him on to jazz = make him interested in jazz When using it, him, her or them, place the word as shown: turn it on turn him on turn it over turn them over to the police turn it up turn them out turn it upside down",
+    "variableItemsZh": [
+      "turn on somebody",
+      "turn on something / turn upon something",
+      "turn on / turn itself on / turn something on",
+      "turn somebody on",
+      "turn something on/upon somebody/something",
+      "turn somebody on to somebody/something",
+      "turn out",
+      "turn out / turn something out",
+      "turn something out",
+      "turn over / turn somebody/something over",
+      "turn over / turn something over",
+      "turn somebody/something over to somebody/something",
+      "turn over a new leaf",
+      "turn round / turn somebody/something round",
+      "turn round / turn something round",
+      "turn to somebody",
+      "turn to something",
+      "turn to something / turn something to something",
+      "turn up",
+      "turn up / turn something up",
+      "turn something up",
+      "turn upside down / turn something upside down",
+      "turn something upside down"
+    ],
+    "variableItemsEn": [
+      "turn on somebody",
+      "turn on something / turn upon something",
+      "turn on / turn itself on / turn something on",
+      "turn somebody on",
+      "turn something on/upon somebody/something",
+      "turn somebody on to somebody/something",
+      "turn out",
+      "turn out / turn something out",
+      "turn something out",
+      "turn over / turn somebody/something over",
+      "turn over / turn something over",
+      "turn somebody/something over to somebody/something",
+      "turn over a new leaf",
+      "turn round / turn somebody/something round",
+      "turn round / turn something round",
+      "turn to somebody",
+      "turn to something",
+      "turn to something / turn something to something",
+      "turn up",
+      "turn up / turn something up",
+      "turn something up",
+      "turn upside down / turn something upside down",
+      "turn something upside down"
+    ],
+    "forms": [
+      {
+        "formZh": "突然襲擊、責怪或反對某人",
+        "formEn": "turn on somebody",
+        "exampleZh": "那隻被逼到角落的狐狸突然襲擊那隻狗。",
+        "exampleEn": "The cornered fox turned on the dog.",
+        "highlight": "turned on"
+      },
+      {
+        "formZh": "取決於某事;turn upon 較正式",
+        "formEn": "turn on something / turn upon something",
+        "exampleZh": "結果取決於最後一票。",
+        "exampleEn": "The result turns on one final vote.",
+        "highlight": "turns on"
+      },
+      {
+        "formZh": "開始運作;開啟電器、燈光、暖氣等",
+        "formEn": "turn on / turn itself on / turn something on",
+        "exampleZh": "燈會在七時自動開啟。",
+        "exampleEn": "The lamp will turn itself on at seven.",
+        "highlight": "turn itself on"
+      },
+      {
+        "formZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+        "formEn": "turn somebody on",
+        "exampleZh": "高速汽車確實令他感到興奮。",
+        "exampleEn": "Fast cars really turn him on.",
+        "highlight": "turn him on"
+      },
+      {
+        "formZh": "把水、光線、武器等對準某人或某物;upon 較正式",
+        "formEn": "turn something on/upon somebody/something",
+        "exampleZh": "警衞把電筒對準大閘。",
+        "exampleEn": "The guard turned a torch on the gate.",
+        "highlight": "turned a torch on"
+      },
+      {
+        "formZh": "令某人開始對某人或某事物產生興趣",
+        "formEn": "turn somebody on to somebody/something",
+        "exampleZh": "這本書令我開始對科學感興趣。",
+        "exampleEn": "This book turned me on to science.",
+        "highlight": "turned me on to"
+      },
+      {
+        "formZh": "到場參加或支持某項活動",
+        "formEn": "turn out",
+        "exampleZh": "數百人到場參加巡遊。",
+        "exampleEn": "Hundreds of people turned out for the parade.",
+        "highlight": "turned out"
+      },
+      {
+        "formZh": "向外彎或向外指;使某物向外",
+        "formEn": "turn out / turn something out",
+        "exampleZh": "她的雙腳微微向外彎。",
+        "exampleEn": "Her feet turn out slightly.",
+        "highlight": "turn out"
+      },
+      {
+        "formZh": "關掉燈或熱源",
+        "formEn": "turn something out",
+        "exampleZh": "請關掉睡房的燈。",
+        "exampleEn": "Please turn out the bedroom light.",
+        "highlight": "turn out"
+      },
+      {
+        "formZh": "翻身、翻面或翻轉某人或某物",
+        "formEn": "turn over / turn somebody/something over",
+        "exampleZh": "兩分鐘後把魚翻面。",
+        "exampleEn": "Turn the fish over after two minutes.",
+        "highlight": "Turn the fish over"
+      },
+      {
+        "formZh": "引擎開始或繼續運轉;使引擎啟動",
+        "formEn": "turn over / turn something over",
+        "exampleZh": "引擎立即啟動。",
+        "exampleEn": "The engine turned over at once.",
+        "highlight": "turned over"
+      },
+      {
+        "formZh": "把某人、某物、控制權或責任移交給另一方",
+        "formEn": "turn somebody/something over to somebody/something",
+        "exampleZh": "他們把鎖匙交給新主人。",
+        "exampleEn": "They turned the keys over to the new owner.",
+        "highlight": "turned the keys over to"
+      },
+      {
+        "formZh": "改過自新;開始以更負責任的方式行事",
+        "formEn": "turn over a new leaf",
+        "exampleZh": "他已經改過自新。",
+        "exampleEn": "He has turned over a new leaf.",
+        "highlight": "turned over"
+      },
+      {
+        "formZh": "轉身或轉向另一面;使某人或某物轉向",
+        "formEn": "turn round / turn somebody/something round",
+        "exampleZh": "我叫她時,她轉過身來。",
+        "exampleEn": "She turned round when I called.",
+        "highlight": "turned round"
+      },
+      {
+        "formZh": "使原本欠佳的情況、機構或生意重新好轉",
+        "formEn": "turn round / turn something round",
+        "exampleZh": "新經理令咖啡店重新好轉。",
+        "exampleEn": "The new manager turned the café round.",
+        "highlight": "turned the café round"
+      },
+      {
+        "formZh": "轉身面向某人",
+        "formEn": "turn to somebody",
+        "exampleZh": "她轉身面向他,然後點頭。",
+        "exampleEn": "She turned to him and nodded.",
+        "highlight": "turned to"
+      },
+      {
+        "formZh": "在沒有更好辦法時採用某事物或某種做法",
+        "formEn": "turn to something",
+        "exampleZh": "儲蓄用完後,他轉而借貸。",
+        "exampleEn": "He turned to borrowing when his savings ran out.",
+        "highlight": "turned to"
+      },
+      {
+        "formZh": "把話題、注意力或討論轉到另一件事",
+        "formEn": "turn to something / turn something to something",
+        "exampleZh": "談話其後轉到旅遊。",
+        "exampleEn": "The talk then turned to travel.",
+        "highlight": "turned to"
+      },
+      {
+        "formZh": "到達或出現",
+        "formEn": "turn up",
+        "exampleZh": "沒有人來上課。",
+        "exampleEn": "Nobody turned up for the class.",
+        "highlight": "turned up"
+      },
+      {
+        "formZh": "向上彎或向上指;使某物向上",
+        "formEn": "turn up / turn something up",
+        "exampleZh": "絲帶的末端向上翹。",
+        "exampleEn": "The ends of the ribbon turn up.",
+        "highlight": "turn up"
+      },
+      {
+        "formZh": "調高音量、溫度或強度",
+        "formEn": "turn something up",
+        "exampleZh": "把收音機音量調高一點。",
+        "exampleEn": "Turn the radio up a little.",
+        "highlight": "Turn the radio up"
+      },
+      {
+        "formZh": "上下顛倒;把某物倒轉",
+        "formEn": "turn upside down / turn something upside down",
+        "exampleZh": "小船上下顛倒。",
+        "exampleEn": "The small boat turned upside down.",
+        "highlight": "turned upside down"
+      },
+      {
+        "formZh": "徹底搜查某處,並把地方弄得十分凌亂",
+        "formEn": "turn something upside down",
+        "exampleZh": "我們為了尋找戒指,把廚房翻得亂七八糟。",
+        "exampleEn": "We turned the kitchen upside down looking for the ring.",
+        "highlight": "turned the kitchen upside down"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "突然襲擊、責怪或反對某人",
+      "titleEn": "turn on somebody",
+      "formula": "turn on somebody",
+      "highlight": "turn on somebody",
+      "descriptionZh": "突然襲擊、責怪或反對某人",
+      "descriptionEn": "The cornered fox turned on the dog.",
+      "examples": [
+        {
+          "en": "The cornered fox turned on the dog.",
+          "zh": "那隻被逼到角落的狐狸突然襲擊那隻狗。",
+          "highlight": "turned on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "取決於某事;turn upon 較正式",
+      "titleEn": "turn on something / turn upon something",
+      "formula": "turn on something / turn upon something",
+      "highlight": "turn on something / turn upon something",
+      "descriptionZh": "取決於某事;turn upon 較正式",
+      "descriptionEn": "The result turns on one final vote.",
+      "examples": [
+        {
+          "en": "The result turns on one final vote.",
+          "zh": "結果取決於最後一票。",
+          "highlight": "turns on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "開始運作;開啟電器、燈光、暖氣等",
+      "titleEn": "turn on / turn itself on / turn something on",
+      "formula": "turn on / turn itself on / turn something on",
+      "highlight": "turn on / turn itself on / turn something on",
+      "descriptionZh": "開始運作;開啟電器、燈光、暖氣等",
+      "descriptionEn": "The lamp will turn itself on at seven.",
+      "examples": [
+        {
+          "en": "The lamp will turn itself on at seven.",
+          "zh": "燈會在七時自動開啟。",
+          "highlight": "turn itself on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+      "titleEn": "turn somebody on",
+      "formula": "turn somebody on",
+      "highlight": "turn somebody on",
+      "descriptionZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味)",
+      "descriptionEn": "Fast cars really turn him on.",
+      "examples": [
+        {
+          "en": "Fast cars really turn him on.",
+          "zh": "高速汽車確實令他感到興奮。",
+          "highlight": "turn him on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把水、光線、武器等對準某人或某物;upon 較正式",
+      "titleEn": "turn something on/upon somebody/something",
+      "formula": "turn something on/upon somebody/something",
+      "highlight": "turn something on/upon somebody/something",
+      "descriptionZh": "把水、光線、武器等對準某人或某物;upon 較正式",
+      "descriptionEn": "The guard turned a torch on the gate.",
+      "examples": [
+        {
+          "en": "The guard turned a torch on the gate.",
+          "zh": "警衞把電筒對準大閘。",
+          "highlight": "turned a torch on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "令某人開始對某人或某事物產生興趣",
+      "titleEn": "turn somebody on to somebody/something",
+      "formula": "turn somebody on to somebody/something",
+      "highlight": "turn somebody on to somebody/something",
+      "descriptionZh": "令某人開始對某人或某事物產生興趣",
+      "descriptionEn": "This book turned me on to science.",
+      "examples": [
+        {
+          "en": "This book turned me on to science.",
+          "zh": "這本書令我開始對科學感興趣。",
+          "highlight": "turned me on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "到場參加或支持某項活動",
+      "titleEn": "turn out",
+      "formula": "turn out",
+      "highlight": "turn out",
+      "descriptionZh": "到場參加或支持某項活動",
+      "descriptionEn": "Hundreds of people turned out for the parade.",
+      "examples": [
+        {
+          "en": "Hundreds of people turned out for the parade.",
+          "zh": "數百人到場參加巡遊。",
+          "highlight": "turned out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "向外彎或向外指;使某物向外",
+      "titleEn": "turn out / turn something out",
+      "formula": "turn out / turn something out",
+      "highlight": "turn out / turn something out",
+      "descriptionZh": "向外彎或向外指;使某物向外",
+      "descriptionEn": "Her feet turn out slightly.",
+      "examples": [
+        {
+          "en": "Her feet turn out slightly.",
+          "zh": "她的雙腳微微向外彎。",
+          "highlight": "turn out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "關掉燈或熱源",
+      "titleEn": "turn something out",
+      "formula": "turn something out",
+      "highlight": "turn something out",
+      "descriptionZh": "關掉燈或熱源",
+      "descriptionEn": "Please turn out the bedroom light.",
+      "examples": [
+        {
+          "en": "Please turn out the bedroom light.",
+          "zh": "請關掉睡房的燈。",
+          "highlight": "turn out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "翻身、翻面或翻轉某人或某物",
+      "titleEn": "turn over / turn somebody/something over",
+      "formula": "turn over / turn somebody/something over",
+      "highlight": "turn over / turn somebody/something over",
+      "descriptionZh": "翻身、翻面或翻轉某人或某物",
+      "descriptionEn": "Turn the fish over after two minutes.",
+      "examples": [
+        {
+          "en": "Turn the fish over after two minutes.",
+          "zh": "兩分鐘後把魚翻面。",
+          "highlight": "Turn the fish over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "引擎開始或繼續運轉;使引擎啟動",
+      "titleEn": "turn over / turn something over",
+      "formula": "turn over / turn something over",
+      "highlight": "turn over / turn something over",
+      "descriptionZh": "引擎開始或繼續運轉;使引擎啟動",
+      "descriptionEn": "The engine turned over at once.",
+      "examples": [
+        {
+          "en": "The engine turned over at once.",
+          "zh": "引擎立即啟動。",
+          "highlight": "turned over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "把某人、某物、控制權或責任移交給另一方",
+      "titleEn": "turn somebody/something over to somebody/something",
+      "formula": "turn somebody/something over to somebody/something",
+      "highlight": "turn somebody/something over to somebody/something",
+      "descriptionZh": "把某人、某物、控制權或責任移交給另一方",
+      "descriptionEn": "They turned the keys over to the new owner.",
+      "examples": [
+        {
+          "en": "They turned the keys over to the new owner.",
+          "zh": "他們把鎖匙交給新主人。",
+          "highlight": "turned the keys over to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "改過自新;開始以更負責任的方式行事",
+      "titleEn": "turn over a new leaf",
+      "formula": "turn over a new leaf",
+      "highlight": "turn over a new leaf",
+      "descriptionZh": "改過自新;開始以更負責任的方式行事",
+      "descriptionEn": "He has turned over a new leaf.",
+      "examples": [
+        {
+          "en": "He has turned over a new leaf.",
+          "zh": "他已經改過自新。",
+          "highlight": "turned over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "轉身或轉向另一面;使某人或某物轉向",
+      "titleEn": "turn round / turn somebody/something round",
+      "formula": "turn round / turn somebody/something round",
+      "highlight": "turn round / turn somebody/something round",
+      "descriptionZh": "轉身或轉向另一面;使某人或某物轉向",
+      "descriptionEn": "She turned round when I called.",
+      "examples": [
+        {
+          "en": "She turned round when I called.",
+          "zh": "我叫她時,她轉過身來。",
+          "highlight": "turned round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "使原本欠佳的情況、機構或生意重新好轉",
+      "titleEn": "turn round / turn something round",
+      "formula": "turn round / turn something round",
+      "highlight": "turn round / turn something round",
+      "descriptionZh": "使原本欠佳的情況、機構或生意重新好轉",
+      "descriptionEn": "The new manager turned the café round.",
+      "examples": [
+        {
+          "en": "The new manager turned the café round.",
+          "zh": "新經理令咖啡店重新好轉。",
+          "highlight": "turned the café round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "轉身面向某人",
+      "titleEn": "turn to somebody",
+      "formula": "turn to somebody",
+      "highlight": "turn to somebody",
+      "descriptionZh": "轉身面向某人",
+      "descriptionEn": "She turned to him and nodded.",
+      "examples": [
+        {
+          "en": "She turned to him and nodded.",
+          "zh": "她轉身面向他,然後點頭。",
+          "highlight": "turned to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "在沒有更好辦法時採用某事物或某種做法",
+      "titleEn": "turn to something",
+      "formula": "turn to something",
+      "highlight": "turn to something",
+      "descriptionZh": "在沒有更好辦法時採用某事物或某種做法",
+      "descriptionEn": "He turned to borrowing when his savings ran out.",
+      "examples": [
+        {
+          "en": "He turned to borrowing when his savings ran out.",
+          "zh": "儲蓄用完後,他轉而借貸。",
+          "highlight": "turned to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "把話題、注意力或討論轉到另一件事",
+      "titleEn": "turn to something / turn something to something",
+      "formula": "turn to something / turn something to something",
+      "highlight": "turn to something / turn something to something",
+      "descriptionZh": "把話題、注意力或討論轉到另一件事",
+      "descriptionEn": "The talk then turned to travel.",
+      "examples": [
+        {
+          "en": "The talk then turned to travel.",
+          "zh": "談話其後轉到旅遊。",
+          "highlight": "turned to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "到達或出現",
+      "titleEn": "turn up",
+      "formula": "turn up",
+      "highlight": "turn up",
+      "descriptionZh": "到達或出現",
+      "descriptionEn": "Nobody turned up for the class.",
+      "examples": [
+        {
+          "en": "Nobody turned up for the class.",
+          "zh": "沒有人來上課。",
+          "highlight": "turned up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "向上彎或向上指;使某物向上",
+      "titleEn": "turn up / turn something up",
+      "formula": "turn up / turn something up",
+      "highlight": "turn up / turn something up",
+      "descriptionZh": "向上彎或向上指;使某物向上",
+      "descriptionEn": "The ends of the ribbon turn up.",
+      "examples": [
+        {
+          "en": "The ends of the ribbon turn up.",
+          "zh": "絲帶的末端向上翹。",
+          "highlight": "turn up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "調高音量、溫度或強度",
+      "titleEn": "turn something up",
+      "formula": "turn something up",
+      "highlight": "turn something up",
+      "descriptionZh": "調高音量、溫度或強度",
+      "descriptionEn": "Turn the radio up a little.",
+      "examples": [
+        {
+          "en": "Turn the radio up a little.",
+          "zh": "把收音機音量調高一點。",
+          "highlight": "Turn the radio up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "上下顛倒;把某物倒轉",
+      "titleEn": "turn upside down / turn something upside down",
+      "formula": "turn upside down / turn something upside down",
+      "highlight": "turn upside down / turn something upside down",
+      "descriptionZh": "上下顛倒;把某物倒轉",
+      "descriptionEn": "The small boat turned upside down.",
+      "examples": [
+        {
+          "en": "The small boat turned upside down.",
+          "zh": "小船上下顛倒。",
+          "highlight": "turned upside down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 23,
+      "titleZh": "徹底搜查某處,並把地方弄得十分凌亂",
+      "titleEn": "turn something upside down",
+      "formula": "turn something upside down",
+      "highlight": "turn something upside down",
+      "descriptionZh": "徹底搜查某處,並把地方弄得十分凌亂",
+      "descriptionEn": "We turned the kitchen upside down looking for the ring.",
+      "examples": [
+        {
+          "en": "We turned the kitchen upside down looking for the ring.",
+          "zh": "我們為了尋找戒指,把廚房翻得亂七八糟。",
+          "highlight": "turned the kitchen upside down"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "控制機器、燈光、暖氣和聲音",
+      "titleEn": "Control machines, lights, heat and sound",
+      "zh": "TURN 表達可以表示機器啟動、關燈,以及調高音量或暖氣。",
+      "en": "TURN expressions let you say that a machine starts, a light is switched off or the volume and heating are increased."
+    },
+    {
+      "titleZh": "清楚描述動作和方向",
+      "titleEn": "Describe movement and direction clearly",
+      "zh": "你可以使用 TURN 描述轉身、翻面、翻身、向外或向上,以及上下顛倒。",
+      "en": "You can use TURN to describe facing another way, flipping an object, rolling over, pointing outwards or upwards, and becoming upside down."
+    },
+    {
+      "titleZh": "談論到達、出席和興趣轉變",
+      "titleEn": "Talk about people arriving, attending and changing their interests",
+      "zh": "TURN 可以表示某人到達、人群出席活動,或某人開始對音樂、藝術或其他事物感興趣。",
+      "en": "TURN can show that someone arrives, a crowd attends an event, or a person becomes interested in music, art or another subject."
+    },
+    {
+      "titleZh": "解釋決定、困難選擇和正面改變",
+      "titleEn": "Explain decisions, difficult choices and positive change",
+      "zh": "TURN 表達可以說明一項決定取決於甚麼、某人最後採用甚麼方法、討論如何轉換話題,以及某人或生意如何改善。",
+      "en": "TURN expressions can show what a decision depends on, what someone uses as a last choice, how a discussion changes topic, or how a person or business improves."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "控制機器、燈光、暖氣和聲音",
+      "清楚描述動作和方向",
+      "談論到達、出席和興趣轉變",
+      "解釋決定、困難選擇和正面改變"
+    ],
+    "contextsEn": [
+      "Control machines, lights, heat and sound",
+      "Describe movement and direction clearly",
+      "Talk about people arriving, attending and changing their interests",
+      "Explain decisions, difficult choices and positive change"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "控制機器、燈光、暖氣和聲音",
+        "titleEn": "Control machines, lights, heat and sound",
+        "zh": "TURN 表達可以表示機器啟動、關燈,以及調高音量或暖氣。",
+        "en": "TURN expressions let you say that a machine starts, a light is switched off or the volume and heating are increased.",
+        "examples": [
+          {
+            "en": "The cornered fox turned on the dog.",
+            "zh": "那隻被逼到角落的狐狸突然襲擊那隻狗。",
+            "highlight": "turned on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述動作和方向",
+        "titleEn": "Describe movement and direction clearly",
+        "zh": "你可以使用 TURN 描述轉身、翻面、翻身、向外或向上,以及上下顛倒。",
+        "en": "You can use TURN to describe facing another way, flipping an object, rolling over, pointing outwards or upwards, and becoming upside down.",
+        "examples": [
+          {
+            "en": "The result turns on one final vote.",
+            "zh": "結果取決於最後一票。",
+            "highlight": "turns on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論到達、出席和興趣轉變",
+        "titleEn": "Talk about people arriving, attending and changing their interests",
+        "zh": "TURN 可以表示某人到達、人群出席活動,或某人開始對音樂、藝術或其他事物感興趣。",
+        "en": "TURN can show that someone arrives, a crowd attends an event, or a person becomes interested in music, art or another subject.",
+        "examples": [
+          {
+            "en": "The lamp will turn itself on at seven.",
+            "zh": "燈會在七時自動開啟。",
+            "highlight": "turn itself on"
+          }
+        ]
+      },
+      {
+        "titleZh": "解釋決定、困難選擇和正面改變",
+        "titleEn": "Explain decisions, difficult choices and positive change",
+        "zh": "TURN 表達可以說明一項決定取決於甚麼、某人最後採用甚麼方法、討論如何轉換話題,以及某人或生意如何改善。",
+        "en": "TURN expressions can show what a decision depends on, what someone uses as a last choice, how a discussion changes topic, or how a person or business improves.",
+        "examples": [
+          {
+            "en": "Fast cars really turn him on.",
+            "zh": "高速汽車確實令他感到興奮。",
+            "highlight": "turn him on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TURN 表達。",
+      "titleEn": "Read the whole sentence and choose the TURN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TURN 表達。",
+      "en": "Read the whole sentence and choose the TURN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "ON 表達的詞序會改變意思:turn on him=突然襲擊或責怪他turn him on=令他感興趣或興奮turn him on to jazz=令他開始對爵士樂感興趣",
+      "titleEn": "Word order changes the meaning of the ON expressions: turn on him = suddenly attack or blame him turn him on = make him interested or excited turn him on to jazz = make him interested in jazz.",
+      "zh": "ON 表達的詞序會改變意思:turn on him=突然襲擊或責怪他turn him on=令他感興趣或興奮turn him on to jazz=令他開始對爵士樂感興趣",
+      "en": "Word order changes the meaning of the ON expressions: turn on him = suddenly attack or blame him turn him on = make him interested or excited turn him on to jazz = make him interested in jazz"
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: turn it on turn him on turn it over turn them over to the police turn it up turn them out turn it upside down.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: turn it on turn him on turn it over turn them over to the police turn it up turn them out turn it upside down"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TURN 動詞片語句子改寫練習",
+    "titleEn": "TURN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          23
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          24,
+          46
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          47,
+          69
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          70,
+          92
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          93,
+          115
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-222-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "Ben finally arrived at three o’clock.",
+      "promptZh": "Ben 終於在三時到達。",
+      "starter": "Ben",
+      "answer": "Ben finally turned up at three o’clock.",
+      "answerZh": "Ben 終於在三時到達。",
+      "highlight": "turned up",
+      "targetForm": "turn up",
+      "targetMeaningZh": "到達或出現"
+    },
+    {
+      "id": "phrasal-verb-222-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 26,
+      "prompt": "Please switch the kitchen light on.",
+      "promptZh": "請開啟廚房的燈。",
+      "starter": "Please",
+      "answer": "Please turn the kitchen light on.",
+      "answerZh": "請開啟廚房的燈。",
+      "highlight": "turn",
+      "targetForm": "turn on / turn itself on / turn something on",
+      "targetMeaningZh": "開始運作;開啟電器、燈光、暖氣等"
+    },
+    {
+      "id": "phrasal-verb-222-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "The dog suddenly attacked the delivery man.",
+      "promptZh": "那隻狗突然襲擊送貨員。",
+      "starter": "The",
+      "answer": "The dog suddenly turned on the delivery man.",
+      "answerZh": "那隻狗突然襲擊送貨員。",
+      "highlight": "turned on",
+      "targetForm": "turn on somebody",
+      "targetMeaningZh": "突然襲擊、責怪或反對某人"
+    },
+    {
+      "id": "phrasal-verb-222-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Please face the other way.",
+      "promptZh": "請轉身面向另一邊。",
+      "starter": "Please",
+      "answer": "Please turn round.",
+      "answerZh": "請轉身面向另一邊。",
+      "highlight": "turn round",
+      "targetForm": "turn round / turn somebody/something round",
+      "targetMeaningZh": "轉身或轉向另一面;使某人或某物轉向"
+    },
+    {
+      "id": "phrasal-verb-222-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 27,
+      "prompt": "Many villagers came to welcome the team.",
+      "promptZh": "許多村民到場歡迎球隊。",
+      "starter": "Many",
+      "answer": "Many villagers turned out to welcome the team.",
+      "answerZh": "許多村民到場歡迎球隊。",
+      "highlight": "turned out",
+      "targetForm": "turn out",
+      "targetMeaningZh": "到場參加或支持某項活動"
+    },
+    {
+      "id": "phrasal-verb-222-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Please increase the television volume.",
+      "promptZh": "請調高電視音量。",
+      "starter": "Please",
+      "answer": "Please turn the television up.",
+      "answerZh": "請調高電視音量。",
+      "highlight": "turn",
+      "targetForm": "turn something up",
+      "targetMeaningZh": "調高音量、溫度或強度"
+    },
+    {
+      "id": "phrasal-verb-222-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "With no money left, he began using crime to pay his debts.",
+      "promptZh": "身無分文之下,他開始以犯罪方式償還債務。",
+      "starter": "With",
+      "answer": "With no money left, he turned to crime to pay his debts.",
+      "answerZh": "身無分文之下,他開始以犯罪方式償還債務。",
+      "highlight": "turned to",
+      "targetForm": "turn to something",
+      "targetMeaningZh": "在沒有更好辦法時採用某事物或某種做法"
+    },
+    {
+      "id": "phrasal-verb-222-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 27,
+      "prompt": "Please flip the card so I can see the back.",
+      "promptZh": "請把卡片翻面,讓我看看背面。",
+      "starter": "Please",
+      "answer": "Please turn the card over so I can see the back.",
+      "answerZh": "請把卡片翻面,讓我看看背面。",
+      "highlight": "turn",
+      "targetForm": "turn over / turn somebody/something over",
+      "targetMeaningZh": "翻身、翻面或翻轉某人或某物"
+    },
+    {
+      "id": "phrasal-verb-222-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "My uncle first introduced me to jazz.",
+      "promptZh": "最初是叔叔令我接觸爵士樂。",
+      "starter": "My",
+      "answer": "My uncle first turned me on to jazz.",
+      "answerZh": "最初是叔叔令我接觸爵士樂。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on to somebody/something",
+      "targetMeaningZh": "令某人開始對某人或某事物產生興趣"
+    },
+    {
+      "id": "phrasal-verb-222-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "He faced me and smiled.",
+      "promptZh": "他轉身面向我,然後微笑。",
+      "starter": "He",
+      "answer": "He turned to me and smiled.",
+      "answerZh": "他轉身面向我,然後微笑。",
+      "highlight": "turned to",
+      "targetForm": "turn to somebody",
+      "targetMeaningZh": "轉身面向某人"
+    },
+    {
+      "id": "phrasal-verb-222-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 28,
+      "prompt": "The team’s place in the final depends on today’s match.",
+      "promptZh": "球隊能否晉身決賽取決於今天的比賽。",
+      "starter": "The",
+      "answer": "The team’s place in the final turns on today’s match.",
+      "answerZh": "球隊能否晉身決賽取決於今天的比賽。",
+      "highlight": "turns",
+      "targetForm": "turn on something / turn upon something",
+      "targetMeaningZh": "取決於某事;turn upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "Remember to switch off the lights before leaving.",
+      "promptZh": "離開前記得關燈。",
+      "starter": "Remember",
+      "answer": "Remember to turn out the lights before leaving.",
+      "answerZh": "離開前記得關燈。",
+      "highlight": "turn out",
+      "targetForm": "turn something out",
+      "targetMeaningZh": "關掉燈或熱源"
+    },
+    {
+      "id": "phrasal-verb-222-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "Her nose points upwards at the end.",
+      "promptZh": "她的鼻尖向上翹。",
+      "starter": "Her",
+      "answer": "Her nose turns up at the end.",
+      "answerZh": "她的鼻尖向上翹。",
+      "highlight": "turns up",
+      "targetForm": "turn up / turn something up",
+      "targetMeaningZh": "向上彎或向上指;使某物向上"
+    },
+    {
+      "id": "phrasal-verb-222-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 28,
+      "prompt": "The border officers handed the man to the police.",
+      "promptZh": "邊境人員把該男子交給警方。",
+      "starter": "The",
+      "answer": "The border officers turned the man over to the police.",
+      "answerZh": "邊境人員把該男子交給警方。",
+      "highlight": "turned",
+      "targetForm": "turn somebody/something over to somebody/something",
+      "targetMeaningZh": "把某人、某物、控制權或責任移交給另一方"
+    },
+    {
+      "id": "phrasal-verb-222-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Motorbikes really excite Daniel.",
+      "promptZh": "電單車確實令 Daniel 感到興奮。",
+      "starter": "Motorbikes",
+      "answer": "Motorbikes really turn Daniel on.",
+      "answerZh": "電單車確實令 Daniel 感到興奮。",
+      "highlight": "turn",
+      "targetForm": "turn somebody on",
+      "targetMeaningZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味"
+    },
+    {
+      "id": "phrasal-verb-222-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "The car hit the wall and ended with its roof on the ground.",
+      "promptZh": "汽車撞上牆壁,最後車頂貼着地面。",
+      "starter": "The",
+      "answer": "The car hit the wall and turned upside down.",
+      "answerZh": "汽車撞上牆壁後上下顛倒。",
+      "highlight": "turned upside down",
+      "targetForm": "turn upside down / turn something upside down",
+      "targetMeaningZh": "上下顛倒;把某物倒轉"
+    },
+    {
+      "id": "phrasal-verb-222-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 29,
+      "prompt": "Our conversation soon changed to music.",
+      "promptZh": "我們的談話很快轉到音樂。",
+      "starter": "Our",
+      "answer": "Our conversation soon turned to music.",
+      "answerZh": "我們的談話很快轉到音樂。",
+      "highlight": "turned",
+      "targetForm": "turn to something / turn something to something",
+      "targetMeaningZh": "把話題、注意力或討論轉到另一件事"
+    },
+    {
+      "id": "phrasal-verb-222-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "Her toes point away from each other when she stands.",
+      "promptZh": "她站立時,腳趾向外分開。",
+      "starter": "Her",
+      "answer": "Her toes turn out when she stands.",
+      "answerZh": "她站立時,腳趾向外分開。",
+      "highlight": "turn out",
+      "targetForm": "turn out / turn something out",
+      "targetMeaningZh": "向外彎或向外指;使某物向外"
+    },
+    {
+      "id": "phrasal-verb-222-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 29,
+      "prompt": "The new coach made the losing team successful again.",
+      "promptZh": "新教練令原本屢戰屢敗的球隊重新取得成功。",
+      "starter": "The",
+      "answer": "The new coach turned the losing team round.",
+      "answerZh": "新教練令原本屢戰屢敗的球隊重新取得成功。",
+      "highlight": "turned",
+      "targetForm": "turn round / turn something round",
+      "targetMeaningZh": "使原本欠佳的情況、機構或生意重新好轉"
+    },
+    {
+      "id": "phrasal-verb-222-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "I tried to start the car, but the engine did not start.",
+      "promptZh": "我嘗試啟動汽車,但引擎沒有啟動。",
+      "starter": "I",
+      "answer": "I tried to start the car, but the engine did not turn over.",
+      "answerZh": "我嘗試啟動汽車,但引擎沒有啟動。",
+      "highlight": "turn over",
+      "targetForm": "turn over / turn something over",
+      "targetMeaningZh": "引擎開始或繼續運轉;使引擎啟動"
+    },
+    {
+      "id": "phrasal-verb-222-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The firefighters directed their hoses at the burning roof.",
+      "promptZh": "消防員把水喉對準正在燃燒的屋頂。",
+      "starter": "The",
+      "answer": "The firefighters turned their hoses on the burning roof.",
+      "answerZh": "消防員把水喉對準正在燃燒的屋頂。",
+      "highlight": "turned",
+      "targetForm": "turn something on/upon somebody/something",
+      "targetMeaningZh": "把水、光線、武器等對準某人或某物;upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "After many warnings, Leo decided to start behaving better.",
+      "promptZh": "受到多次警告後,Leo 決定開始改善自己的行為。",
+      "starter": "After",
+      "answer": "After many warnings, Leo decided to turn over a new leaf.",
+      "answerZh": "受到多次警告後,Leo 決定改過自新。",
+      "highlight": "turn over a new leaf",
+      "targetForm": "turn over a new leaf",
+      "targetMeaningZh": "改過自新;開始以更負責任的方式行事"
+    },
+    {
+      "id": "phrasal-verb-222-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 30,
+      "prompt": "The burglars searched the flat everywhere and left it in a mess.",
+      "promptZh": "爆竊者徹底搜查單位,並把它弄得一片凌亂。",
+      "starter": "The",
+      "answer": "The burglars turned the flat upside down.",
+      "answerZh": "爆竊者徹底搜查單位,並把它弄得一片凌亂。",
+      "highlight": "turned",
+      "targetForm": "turn something upside down",
+      "targetMeaningZh": "徹底搜查某處,並把地方弄得十分凌亂"
+    },
+    {
+      "id": "phrasal-verb-222-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "His left foot is beginning to point outwards as he walks.",
+      "promptZh": "他走路時,左腳開始向外彎。",
+      "starter": "His",
+      "answer": "His left foot is beginning to turn out as he walks.",
+      "answerZh": "他走路時,左腳開始向外彎。",
+      "highlight": "turn out",
+      "targetForm": "turn out / turn something out",
+      "targetMeaningZh": "向外彎或向外指;使某物向外"
+    },
+    {
+      "id": "phrasal-verb-222-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 30,
+      "prompt": "Only six students have arrived so far.",
+      "promptZh": "至今只有六名學生到達。",
+      "starter": "Only",
+      "answer": "Only six students have turned up so far.",
+      "answerZh": "至今只有六名學生到達。",
+      "highlight": "turned up",
+      "targetForm": "turn up",
+      "targetMeaningZh": "到達或出現"
+    },
+    {
+      "id": "phrasal-verb-222-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Next month, she will give control of the shop to her son.",
+      "promptZh": "下個月,她會把店舖的控制權交給兒子。",
+      "starter": "Next",
+      "answer": "Next month, she will turn the shop over to her son.",
+      "answerZh": "下個月,她會把店舖的控制權交給兒子。",
+      "highlight": "turn",
+      "targetForm": "turn somebody/something over to somebody/something",
+      "targetMeaningZh": "把某人、某物、控制權或責任移交給另一方"
+    },
+    {
+      "id": "phrasal-verb-222-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Does modern art interest you?",
+      "promptZh": "現代藝術會令你感興趣嗎?",
+      "starter": "Does",
+      "answer": "Does modern art turn you on?",
+      "answerZh": "現代藝術會令你感興趣嗎?",
+      "highlight": "turn",
+      "targetForm": "turn somebody on",
+      "targetMeaningZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味"
+    },
+    {
+      "id": "phrasal-verb-222-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "It is cold; could you increase the heating?",
+      "promptZh": "天氣很冷;你可以調高暖氣嗎?",
+      "starter": "It",
+      "answer": "It is cold; could you turn the heating up?",
+      "answerZh": "天氣很冷;你可以調高暖氣嗎?",
+      "highlight": "turn",
+      "targetForm": "turn something up",
+      "targetMeaningZh": "調高音量、溫度或強度"
+    },
+    {
+      "id": "phrasal-verb-222-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 31,
+      "prompt": "Her final decision may depend on the cost.",
+      "promptZh": "她的最後決定可能取決於費用。",
+      "starter": "Her",
+      "answer": "Her final decision may turn on the cost.",
+      "answerZh": "她的最後決定可能取決於費用。",
+      "highlight": "turn",
+      "targetForm": "turn on something / turn upon something",
+      "targetMeaningZh": "取決於某事;turn upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "The cyclist heard a bell behind him and faced the other direction.",
+      "promptZh": "單車手聽到身後的鈴聲,便轉身面向另一個方向。",
+      "starter": "The",
+      "answer": "The cyclist heard a bell behind him and turned round.",
+      "answerZh": "單車手聽到身後的鈴聲,便轉身面向另一個方向。",
+      "highlight": "turned round",
+      "targetForm": "turn round / turn somebody/something round",
+      "targetMeaningZh": "轉身或轉向另一面;使某人或某物轉向"
+    },
+    {
+      "id": "phrasal-verb-222-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 31,
+      "prompt": "Who made you interested in old films?",
+      "promptZh": "誰令你開始對舊電影感興趣?",
+      "starter": "Who",
+      "answer": "Who turned you on to old films?",
+      "answerZh": "誰令你開始對舊電影感興趣?",
+      "highlight": "turned",
+      "targetForm": "turn somebody on to somebody/something",
+      "targetMeaningZh": "令某人開始對某人或某事物產生興趣"
+    },
+    {
+      "id": "phrasal-verb-222-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The old car’s engine is starting slowly this morning.",
+      "promptZh": "那輛舊車的引擎今早啟動得很慢。",
+      "starter": "The",
+      "answer": "The old car’s engine is turning over slowly this morning.",
+      "answerZh": "那輛舊車的引擎今早啟動得很慢。",
+      "highlight": "turning over",
+      "targetForm": "turn over / turn something over",
+      "targetMeaningZh": "引擎開始或繼續運轉;使引擎啟動"
+    },
+    {
+      "id": "phrasal-verb-222-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "Why did the normally friendly cat suddenly attack you?",
+      "promptZh": "那隻平日友善的貓為何突然襲擊你?",
+      "starter": "Why",
+      "answer": "Why did the normally friendly cat suddenly turn on you?",
+      "answerZh": "那隻平日友善的貓為何突然襲擊你?",
+      "highlight": "turn on",
+      "targetForm": "turn on somebody",
+      "targetMeaningZh": "突然襲擊、責怪或反對某人"
+    },
+    {
+      "id": "phrasal-verb-222-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "After discussing food, the class is now changing its attention to travel.",
+      "promptZh": "討論食物後,全班現在正把注意力轉到旅遊。",
+      "starter": "After",
+      "answer": "After discussing food, the class is now turning its attention to travel.",
+      "answerZh": "討論食物後,全班現在正把注意力轉到旅遊。",
+      "highlight": "turning",
+      "targetForm": "turn to something / turn something to something",
+      "targetMeaningZh": "把話題、注意力或討論轉到另一件事"
+    },
+    {
+      "id": "phrasal-verb-222-q35",
+      "number": 35,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 32,
+      "prompt": "The oven is set to start automatically at six.",
+      "promptZh": "焗爐已設定於六時自動啟動。",
+      "starter": "The",
+      "answer": "The oven is set to turn itself on at six.",
+      "answerZh": "焗爐已設定於六時自動啟動。",
+      "highlight": "turn itself on",
+      "targetForm": "turn on / turn itself on / turn something on",
+      "targetMeaningZh": "開始運作;開啟電器、燈光、暖氣等"
+    },
+    {
+      "id": "phrasal-verb-222-q36",
+      "number": 36,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "I have searched my room everywhere for the missing key.",
+      "promptZh": "我為了尋找失去的鎖匙,已把房間每個角落都搜遍。",
+      "starter": "I",
+      "answer": "I have turned my room upside down looking for the missing key.",
+      "answerZh": "我為了尋找失去的鎖匙,已把房間翻得亂七八糟。",
+      "highlight": "turned",
+      "targetForm": "turn something upside down",
+      "targetMeaningZh": "徹底搜查某處,並把地方弄得十分凌亂"
+    },
+    {
+      "id": "phrasal-verb-222-q37",
+      "number": 37,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 32,
+      "prompt": "When I spoke, Nora faced me immediately.",
+      "promptZh": "我說話時,Nora 立即轉身面向我。",
+      "starter": "When",
+      "answer": "When I spoke, Nora turned to me immediately.",
+      "answerZh": "我說話時,Nora 立即轉身面向我。",
+      "highlight": "turned to",
+      "targetForm": "turn to somebody",
+      "targetMeaningZh": "轉身面向某人"
+    },
+    {
+      "id": "phrasal-verb-222-q38",
+      "number": 38,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "More than two hundred people came for the school concert.",
+      "promptZh": "超過二百人到場參加學校音樂會。",
+      "starter": "More",
+      "answer": "More than two hundred people turned out for the school concert.",
+      "answerZh": "超過二百人到場參加學校音樂會。",
+      "highlight": "turned out",
+      "targetForm": "turn out",
+      "targetMeaningZh": "到場參加或支持某項活動"
+    },
+    {
+      "id": "phrasal-verb-222-q39",
+      "number": 39,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The corners of his mouth point upwards when he smiles.",
+      "promptZh": "他微笑時,嘴角會向上翹。",
+      "starter": "The",
+      "answer": "The corners of his mouth turn up when he smiles.",
+      "answerZh": "他微笑時,嘴角會向上翹。",
+      "highlight": "turn up",
+      "targetForm": "turn up / turn something up",
+      "targetMeaningZh": "向上彎或向上指;使某物向上"
+    },
+    {
+      "id": "phrasal-verb-222-q40",
+      "number": 40,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "She says she has changed her behaviour for the better.",
+      "promptZh": "她說自己已經改變行為,變得更好。",
+      "starter": "She",
+      "answer": "She says she has turned over a new leaf.",
+      "answerZh": "她說自己已經改過自新。",
+      "highlight": "turned over a new leaf",
+      "targetForm": "turn over a new leaf",
+      "targetMeaningZh": "改過自新;開始以更負責任的方式行事"
+    },
+    {
+      "id": "phrasal-verb-222-q41",
+      "number": 41,
+      "band": 2,
+      "sourcePage": 13,
+      "answerSourcePage": 33,
+      "prompt": "The guard suddenly directed the bright torch at us.",
+      "promptZh": "警衞突然把強光電筒對準我們。",
+      "starter": "The",
+      "answer": "The guard suddenly turned the bright torch on us.",
+      "answerZh": "警衞突然把強光電筒對準我們。",
+      "highlight": "turned",
+      "targetForm": "turn something on/upon somebody/something",
+      "targetMeaningZh": "把水、光線、武器等對準某人或某物;upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q42",
+      "number": 42,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "The baby rolled onto its stomach.",
+      "promptZh": "嬰兒翻身伏在床上。",
+      "starter": "The",
+      "answer": "The baby turned over onto its stomach.",
+      "answerZh": "嬰兒翻身伏在床上。",
+      "highlight": "turned over",
+      "targetForm": "turn over / turn somebody/something over",
+      "targetMeaningZh": "翻身、翻面或翻轉某人或某物"
+    },
+    {
+      "id": "phrasal-verb-222-q43",
+      "number": 43,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 33,
+      "prompt": "When the paper map failed, we used our phones for help.",
+      "promptZh": "紙本地圖派不上用場時,我們改用電話求助。",
+      "starter": "When",
+      "answer": "When the paper map failed, we turned to our phones for help.",
+      "answerZh": "紙本地圖派不上用場時,我們改用電話求助。",
+      "highlight": "turned to",
+      "targetForm": "turn to something",
+      "targetMeaningZh": "在沒有更好辦法時採用某事物或某種做法"
+    },
+    {
+      "id": "phrasal-verb-222-q44",
+      "number": 44,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Sam always switches the hall light off before bed.",
+      "promptZh": "Sam 每晚睡前都會關掉走廊的燈。",
+      "starter": "Sam",
+      "answer": "Sam always turns the hall light out before bed.",
+      "answerZh": "Sam 每晚睡前都會關掉走廊的燈。",
+      "highlight": "turns",
+      "targetForm": "turn something out",
+      "targetMeaningZh": "關掉燈或熱源"
+    },
+    {
+      "id": "phrasal-verb-222-q45",
+      "number": 45,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "The business is becoming successful again after a very poor winter.",
+      "promptZh": "生意在經歷非常差的冬季後正重新好轉。",
+      "starter": "The",
+      "answer": "The business is turning round after a very poor winter.",
+      "answerZh": "生意在經歷非常差的冬季後正重新好轉。",
+      "highlight": "turning round",
+      "targetForm": "turn round / turn something round",
+      "targetMeaningZh": "使原本欠佳的情況、機構或生意重新好轉"
+    },
+    {
+      "id": "phrasal-verb-222-q46",
+      "number": 46,
+      "band": 2,
+      "sourcePage": 14,
+      "answerSourcePage": 34,
+      "prompt": "Be careful not to place the cake with its top underneath.",
+      "promptZh": "小心不要把蛋糕上下倒轉。",
+      "starter": "Be",
+      "answer": "Be careful not to turn the cake upside down.",
+      "answerZh": "小心不要把蛋糕上下倒轉。",
+      "highlight": "turn",
+      "targetForm": "turn upside down / turn something upside down",
+      "targetMeaningZh": "上下顛倒;把某物倒轉"
+    },
+    {
+      "id": "phrasal-verb-222-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "I pressed the button and started it.",
+      "promptZh": "我按下按鈕,把它開啟。",
+      "starter": "I",
+      "answer": "I pressed the button and turned it on.",
+      "answerZh": "我按下按鈕,把它開啟。",
+      "highlight": "turned",
+      "targetForm": "turn on / turn itself on / turn something on",
+      "targetMeaningZh": "開始運作;開啟電器、燈光、暖氣等"
+    },
+    {
+      "id": "phrasal-verb-222-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 34,
+      "prompt": "The pancake is brown on one side; flip it now.",
+      "promptZh": "班戟的一面已經變成金黃色;現在把它翻面吧。",
+      "starter": "The",
+      "answer": "The pancake is brown on one side; turn it over now.",
+      "answerZh": "班戟的一面已經變成金黃色;現在把它翻面吧。",
+      "highlight": "turn",
+      "targetForm": "turn over / turn somebody/something over",
+      "targetMeaningZh": "翻身、翻面或翻轉某人或某物"
+    },
+    {
+      "id": "phrasal-verb-222-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The host ended the first topic and directed the discussion to school life.",
+      "promptZh": "主持人結束第一個話題,並把討論轉到校園生活。",
+      "starter": "The",
+      "answer": "The host ended the first topic and turned the discussion to school life.",
+      "answerZh": "主持人結束第一個話題,並把討論轉到校園生活。",
+      "highlight": "turned",
+      "targetForm": "turn to something / turn something to something",
+      "targetMeaningZh": "把話題、注意力或討論轉到另一件事"
+    },
+    {
+      "id": "phrasal-verb-222-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "A friend recommended the podcast, and it made us interested in local history.",
+      "promptZh": "一位朋友推薦了那個網上節目,而它令我們開始對本地歷史感興趣。",
+      "starter": "A",
+      "answer": "A friend recommended the podcast, and it turned us on to local history.",
+      "answerZh": "一位朋友推薦了那個網上節目,而它令我們開始對本地歷史感興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on to somebody/something",
+      "targetMeaningZh": "令某人開始對某人或某事物產生興趣"
+    },
+    {
+      "id": "phrasal-verb-222-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "We trusted the crowd, but it suddenly attacked us.",
+      "promptZh": "我們信任那群人,但他們突然襲擊我們。",
+      "starter": "We",
+      "answer": "We trusted the crowd, but it suddenly turned on us.",
+      "answerZh": "我們信任那群人,但他們突然襲擊我們。",
+      "highlight": "turned on",
+      "targetForm": "turn on somebody",
+      "targetMeaningZh": "突然襲擊、責怪或反對某人"
+    },
+    {
+      "id": "phrasal-verb-222-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 15,
+      "answerSourcePage": 35,
+      "prompt": "The game required the box to have its top underneath, so I changed its position.",
+      "promptZh": "遊戲要求盒子的頂部朝下,所以我改變了它的位置。",
+      "starter": "The",
+      "answer": "The game required the box to have its top underneath, so I turned it upside down.",
+      "answerZh": "遊戲要求盒子的頂部朝下,所以我把它上下倒轉。",
+      "highlight": "turned it upside down",
+      "targetForm": "turn upside down / turn something upside down",
+      "targetMeaningZh": "上下顛倒;把某物倒轉"
+    },
+    {
+      "id": "phrasal-verb-222-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "I cannot finish these duties, so I will give them to my assistant.",
+      "promptZh": "我無法完成這些職務,所以會把它們交給助理負責。",
+      "starter": "I",
+      "answer": "I cannot finish these duties, so I will turn them over to my assistant.",
+      "answerZh": "我無法完成這些職務,所以會把它們交給助理負責。",
+      "highlight": "turn",
+      "targetForm": "turn somebody/something over to somebody/something",
+      "targetMeaningZh": "把某人、某物、控制權或責任移交給另一方"
+    },
+    {
+      "id": "phrasal-verb-222-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 35,
+      "prompt": "The artist bent the ends so that they pointed upwards.",
+      "promptZh": "藝術家把末端向上彎。",
+      "starter": "The",
+      "answer": "The artist turned the ends up.",
+      "answerZh": "藝術家把末端向上彎。",
+      "highlight": "turned",
+      "targetForm": "turn up / turn something up",
+      "targetMeaningZh": "向上彎或向上指;使某物向上"
+    },
+    {
+      "id": "phrasal-verb-222-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The shop was losing money, but its new owner has made it successful again.",
+      "promptZh": "店舖本來一直虧蝕,但新店主已令它重新取得成功。",
+      "starter": "The",
+      "answer": "The shop was losing money, but its new owner has turned it round.",
+      "answerZh": "店舖本來一直虧蝕,但新店主已令它重新取得成功。",
+      "highlight": "turned",
+      "targetForm": "turn round / turn something round",
+      "targetMeaningZh": "使原本欠佳的情況、機構或生意重新好轉"
+    },
+    {
+      "id": "phrasal-verb-222-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "Although it was raining, a large crowd came to watch the race.",
+      "promptZh": "雖然正在下雨,仍有大批人到場觀看比賽。",
+      "starter": "Although",
+      "answer": "Although it was raining, a large crowd turned out to watch the race.",
+      "answerZh": "雖然正在下雨,仍有大批人到場觀看比賽。",
+      "highlight": "turned out",
+      "targetForm": "turn out",
+      "targetMeaningZh": "到場參加或支持某項活動"
+    },
+    {
+      "id": "phrasal-verb-222-q57",
+      "number": 57,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "That kind of loud music has never excited me.",
+      "promptZh": "那種嘈吵的音樂從來沒有令我感到興奮。",
+      "starter": "That",
+      "answer": "That kind of loud music has never turned me on.",
+      "answerZh": "那種嘈吵的音樂從來沒有令我感到興奮。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on",
+      "targetMeaningZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味"
+    },
+    {
+      "id": "phrasal-verb-222-q58",
+      "number": 58,
+      "band": 3,
+      "sourcePage": 16,
+      "answerSourcePage": 36,
+      "prompt": "The lights were still on, so I switched them off.",
+      "promptZh": "燈仍然亮着,所以我把它們關掉。",
+      "starter": "The",
+      "answer": "The lights were still on, so I turned them out.",
+      "answerZh": "燈仍然亮着,所以我把它們關掉。",
+      "highlight": "turned",
+      "targetForm": "turn something out",
+      "targetMeaningZh": "關掉燈或熱源"
+    },
+    {
+      "id": "phrasal-verb-222-q59",
+      "number": 59,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "She had tried every other idea before using a loan as her final answer.",
+      "promptZh": "她嘗試過所有其他方法後,才把借貸當作最後辦法。",
+      "starter": "She",
+      "answer": "She had tried every other idea before turning to a loan as her final answer.",
+      "answerZh": "她嘗試過所有其他方法後,才把借貸當作最後辦法。",
+      "highlight": "turning to",
+      "targetForm": "turn to something",
+      "targetMeaningZh": "在沒有更好辦法時採用某事物或某種做法"
+    },
+    {
+      "id": "phrasal-verb-222-q60",
+      "number": 60,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 36,
+      "prompt": "They searched the room from top to bottom but found nothing.",
+      "promptZh": "他們把房間從頭到尾徹底搜查,但甚麼也找不到。",
+      "starter": "They",
+      "answer": "They turned the room upside down but found nothing.",
+      "answerZh": "他們把房間翻得亂七八糟,但甚麼也找不到。",
+      "highlight": "turned",
+      "targetForm": "turn something upside down",
+      "targetMeaningZh": "徹底搜查某處,並把地方弄得十分凌亂"
+    },
+    {
+      "id": "phrasal-verb-222-q61",
+      "number": 61,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The battery was weak, but we finally made the engine start.",
+      "promptZh": "電池電力不足,但我們最終令引擎啟動。",
+      "starter": "The",
+      "answer": "The battery was weak, but we finally turned the engine over.",
+      "answerZh": "電池電力不足,但我們最終令引擎啟動。",
+      "highlight": "turned",
+      "targetForm": "turn over / turn something over",
+      "targetMeaningZh": "引擎開始或繼續運轉;使引擎啟動"
+    },
+    {
+      "id": "phrasal-verb-222-q62",
+      "number": 62,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The chair faced the wall, so I moved it to face the window.",
+      "promptZh": "椅子原本面向牆壁,所以我把它轉向窗戶。",
+      "starter": "The",
+      "answer": "The chair faced the wall, so I turned it round to face the window.",
+      "answerZh": "椅子原本面向牆壁,所以我把它轉向窗戶。",
+      "highlight": "turned",
+      "targetForm": "turn round / turn somebody/something round",
+      "targetMeaningZh": "轉身或轉向另一面;使某人或某物轉向"
+    },
+    {
+      "id": "phrasal-verb-222-q63",
+      "number": 63,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "Whether we travel tomorrow depends entirely on the weather.",
+      "promptZh": "我們明天會否出發完全取決於天氣。",
+      "starter": "Whether",
+      "answer": "Whether we travel tomorrow turns entirely on the weather.",
+      "answerZh": "我們明天會否出發完全取決於天氣。",
+      "highlight": "turns",
+      "targetForm": "turn on something / turn upon something",
+      "targetMeaningZh": "取決於某事;turn upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q64",
+      "number": 64,
+      "band": 3,
+      "sourcePage": 17,
+      "answerSourcePage": 37,
+      "prompt": "The child heard his name and faced her.",
+      "promptZh": "孩子聽到自己的名字,便轉身面向她。",
+      "starter": "The",
+      "answer": "The child heard his name and turned to her.",
+      "answerZh": "孩子聽到自己的名字,便轉身面向她。",
+      "highlight": "turned to",
+      "targetForm": "turn to somebody",
+      "targetMeaningZh": "轉身面向某人"
+    },
+    {
+      "id": "phrasal-verb-222-q65",
+      "number": 65,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "The music is too quiet, so increase it.",
+      "promptZh": "音樂太小聲,所以請把音量調高。",
+      "starter": "The",
+      "answer": "The music is too quiet, so turn it up.",
+      "answerZh": "音樂太小聲,所以請把音量調高。",
+      "highlight": "turn",
+      "targetForm": "turn something up",
+      "targetMeaningZh": "調高音量、溫度或強度"
+    },
+    {
+      "id": "phrasal-verb-222-q66",
+      "number": 66,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 37,
+      "prompt": "The teacher asked the dancers to point their toes outwards.",
+      "promptZh": "老師要求舞蹈員把腳趾向外。",
+      "starter": "The",
+      "answer": "The teacher asked the dancers to turn their toes out.",
+      "answerZh": "老師要求舞蹈員把腳趾向外。",
+      "highlight": "turn",
+      "targetForm": "turn out / turn something out",
+      "targetMeaningZh": "向外彎或向外指;使某物向外"
+    },
+    {
+      "id": "phrasal-verb-222-q67",
+      "number": 67,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "Will you start behaving more responsibly and stop arriving late?",
+      "promptZh": "你會開始表現得更負責任,不再遲到嗎?",
+      "starter": "Will",
+      "answer": "Will you turn over a new leaf and stop arriving late?",
+      "answerZh": "你會改過自新,不再遲到嗎?",
+      "highlight": "turn over a new leaf",
+      "targetForm": "turn over a new leaf",
+      "targetMeaningZh": "改過自新;開始以更負責任的方式行事"
+    },
+    {
+      "id": "phrasal-verb-222-q68",
+      "number": 68,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "We waited for Eva, but she never arrived.",
+      "promptZh": "我們一直等 Eva,但她始終沒有出現。",
+      "starter": "We",
+      "answer": "We waited for Eva, but she never turned up.",
+      "answerZh": "我們一直等 Eva,但她始終沒有出現。",
+      "highlight": "turned up",
+      "targetForm": "turn up",
+      "targetMeaningZh": "到達或出現"
+    },
+    {
+      "id": "phrasal-verb-222-q69",
+      "number": 69,
+      "band": 3,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "They raised the hose and directed it at the flames.",
+      "promptZh": "他們舉起水喉,把它對準火焰。",
+      "starter": "They",
+      "answer": "They raised the hose and turned it on the flames.",
+      "answerZh": "他們舉起水喉,把它對準火焰。",
+      "highlight": "turned",
+      "targetForm": "turn something on/upon somebody/something",
+      "targetMeaningZh": "把水、光線、武器等對準某人或某物;upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q70",
+      "number": 70,
+      "band": 4,
+      "sourcePage": 18,
+      "answerSourcePage": 38,
+      "prompt": "Can one new product make the company successful again?",
+      "promptZh": "一件新產品能令公司重新取得成功嗎?",
+      "starter": "Can",
+      "answer": "Can one new product turn the company round?",
+      "answerZh": "一件新產品能令公司重新取得成功嗎?",
+      "highlight": "turn",
+      "targetForm": "turn round / turn something round",
+      "targetMeaningZh": "使原本欠佳的情況、機構或生意重新好轉"
+    },
+    {
+      "id": "phrasal-verb-222-q71",
+      "number": 71,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "The photographer directed the strongest light upon the model.",
+      "promptZh": "攝影師把最強的燈光對準模特兒。",
+      "starter": "The",
+      "answer": "The photographer turned the strongest light upon the model.",
+      "answerZh": "攝影師把最強的燈光對準模特兒。",
+      "highlight": "turned",
+      "targetForm": "turn something on/upon somebody/something",
+      "targetMeaningZh": "把水、光線、武器等對準某人或某物;upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q72",
+      "number": 72,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 38,
+      "prompt": "What time did the repair worker finally arrive?",
+      "promptZh": "維修員最終在甚麼時間到達?",
+      "starter": "What",
+      "answer": "What time did the repair worker finally turn up?",
+      "answerZh": "維修員最終在甚麼時間到達?",
+      "highlight": "turn up",
+      "targetForm": "turn up",
+      "targetMeaningZh": "到達或出現"
+    },
+    {
+      "id": "phrasal-verb-222-q73",
+      "number": 73,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "Why does one wheel point away from the centre?",
+      "promptZh": "為何其中一個車輪向外偏?",
+      "starter": "Why",
+      "answer": "Why does one wheel turn out?",
+      "answerZh": "為何其中一個車輪向外偏?",
+      "highlight": "turn out",
+      "targetForm": "turn out / turn something out",
+      "targetMeaningZh": "向外彎或向外指;使某物向外"
+    },
+    {
+      "id": "phrasal-verb-222-q74",
+      "number": 74,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The result of the interview may depend upon one small detail.",
+      "promptZh": "面試結果可能取決於一個小細節。",
+      "starter": "The",
+      "answer": "The result of the interview may turn upon one small detail.",
+      "answerZh": "面試結果可能取決於一個小細節。",
+      "highlight": "turn",
+      "targetForm": "turn on something / turn upon something",
+      "targetMeaningZh": "取決於某事;turn upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q75",
+      "number": 75,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "The coach believed the player had truly changed and would no longer argue with everyone.",
+      "promptZh": "教練相信那名球員已真正改變,不會再與所有人爭吵。",
+      "starter": "The",
+      "answer": "The coach believed the player had turned over a new leaf and would no longer argue with everyone.",
+      "answerZh": "教練相信那名球員已經改過自新,不會再與所有人爭吵。",
+      "highlight": "turned over a new leaf",
+      "targetForm": "turn over a new leaf",
+      "targetMeaningZh": "改過自新;開始以更負責任的方式行事"
+    },
+    {
+      "id": "phrasal-verb-222-q76",
+      "number": 76,
+      "band": 4,
+      "sourcePage": 19,
+      "answerSourcePage": 39,
+      "prompt": "Why was the radio made so loud during the advert?",
+      "promptZh": "為何廣告播放期間收音機的音量被調得那麼高?",
+      "starter": "Why",
+      "answer": "Why was the radio turned up so loud during the advert?",
+      "answerZh": "為何廣告播放期間收音機的音量被調得那麼高?",
+      "highlight": "turned up",
+      "targetForm": "turn something up",
+      "targetMeaningZh": "調高音量、溫度或強度"
+    },
+    {
+      "id": "phrasal-verb-222-q77",
+      "number": 77,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "How many residents came to support the clean-up day?",
+      "promptZh": "有多少名居民到場支持清潔日?",
+      "starter": "How",
+      "answer": "How many residents turned out to support the clean-up day?",
+      "answerZh": "有多少名居民到場支持清潔日?",
+      "highlight": "turned out",
+      "targetForm": "turn out",
+      "targetMeaningZh": "到場參加或支持某項活動"
+    },
+    {
+      "id": "phrasal-verb-222-q78",
+      "number": 78,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 39,
+      "prompt": "The documents were handed to the school office after the meeting.",
+      "promptZh": "會議後,文件被交到校務處。",
+      "starter": "The",
+      "answer": "The documents were turned over to the school office after the meeting.",
+      "answerZh": "會議後,文件被交到校務處。",
+      "highlight": "turned over",
+      "targetForm": "turn somebody/something over to somebody/something",
+      "targetMeaningZh": "把某人、某物、控制權或責任移交給另一方"
+    },
+    {
+      "id": "phrasal-verb-222-q79",
+      "number": 79,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Without answering the question, the chairperson faced the next speaker.",
+      "promptZh": "主席沒有回答問題,反而轉身面向下一位講者。",
+      "starter": "Without",
+      "answer": "Without answering the question, the chairperson turned to the next speaker.",
+      "answerZh": "主席沒有回答問題,反而轉身面向下一位講者。",
+      "highlight": "turned to",
+      "targetForm": "turn to somebody",
+      "targetMeaningZh": "轉身面向某人"
+    },
+    {
+      "id": "phrasal-verb-222-q80",
+      "number": 80,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Why did the thieves search the office so thoroughly and leave it in a mess?",
+      "promptZh": "那些賊人為何徹底搜查辦公室,並把它弄得一片凌亂?",
+      "starter": "Why",
+      "answer": "Why did the thieves turn the office upside down?",
+      "answerZh": "那些賊人為何把辦公室翻得亂七八糟?",
+      "highlight": "turn",
+      "targetForm": "turn something upside down",
+      "targetMeaningZh": "徹底搜查某處,並把地方弄得十分凌亂"
+    },
+    {
+      "id": "phrasal-verb-222-q81",
+      "number": 81,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "The heating was started before the children arrived.",
+      "promptZh": "暖氣在孩子們到達前已經開啟。",
+      "starter": "The",
+      "answer": "The heating was turned on before the children arrived.",
+      "answerZh": "暖氣在孩子們到達前已經開啟。",
+      "highlight": "turned on",
+      "targetForm": "turn on / turn itself on / turn something on",
+      "targetMeaningZh": "開始運作;開啟電器、燈光、暖氣等"
+    },
+    {
+      "id": "phrasal-verb-222-q82",
+      "number": 82,
+      "band": 4,
+      "sourcePage": 20,
+      "answerSourcePage": 40,
+      "prompt": "Why did the meeting suddenly change to the problem of parking?",
+      "promptZh": "會議為何突然轉到泊車問題?",
+      "starter": "Why",
+      "answer": "Why did the meeting suddenly turn to the problem of parking?",
+      "answerZh": "會議為何突然轉到泊車問題?",
+      "highlight": "turn",
+      "targetForm": "turn to something / turn something to something",
+      "targetMeaningZh": "把話題、注意力或討論轉到另一件事"
+    },
+    {
+      "id": "phrasal-verb-222-q83",
+      "number": 83,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 40,
+      "prompt": "She examined the label, then flipped the bottle to read the bottom.",
+      "promptZh": "她查看標籤後,把瓶子翻轉以閱讀底部的文字。",
+      "starter": "She",
+      "answer": "She examined the label, then turned the bottle over to read the bottom.",
+      "answerZh": "她查看標籤後,把瓶子翻轉以閱讀底部的文字。",
+      "highlight": "turned",
+      "targetForm": "turn over / turn somebody/something over",
+      "targetMeaningZh": "翻身、翻面或翻轉某人或某物"
+    },
+    {
+      "id": "phrasal-verb-222-q84",
+      "number": 84,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "What interested her most about photography was working with light.",
+      "promptZh": "攝影最令她感興趣的地方,是運用光線進行創作。",
+      "starter": "What",
+      "answer": "What turned her on most about photography was working with light.",
+      "answerZh": "攝影最令她感興趣的地方,是運用光線進行創作。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on",
+      "targetMeaningZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味"
+    },
+    {
+      "id": "phrasal-verb-222-q85",
+      "number": 85,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "During the game, the children placed every cup with its open side on the table.",
+      "promptZh": "遊戲期間,孩子們把每隻杯的開口朝下放在桌上。",
+      "starter": "During",
+      "answer": "During the game, the children turned every cup upside down.",
+      "answerZh": "遊戲期間,孩子們把每隻杯上下倒轉。",
+      "highlight": "turned",
+      "targetForm": "turn upside down / turn something upside down",
+      "targetMeaningZh": "上下顛倒;把某物倒轉"
+    },
+    {
+      "id": "phrasal-verb-222-q86",
+      "number": 86,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "After months of support, several fans unexpectedly began blaming the singer.",
+      "promptZh": "支持了幾個月後,幾名歌迷突然開始責怪那名歌手。",
+      "starter": "After",
+      "answer": "After months of support, several fans unexpectedly turned on the singer.",
+      "answerZh": "支持了幾個月後,幾名歌迷突然開始責怪那名歌手。",
+      "highlight": "turned on",
+      "targetForm": "turn on somebody",
+      "targetMeaningZh": "突然襲擊、責怪或反對某人"
+    },
+    {
+      "id": "phrasal-verb-222-q87",
+      "number": 87,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Why will the motor not start even though the lights work?",
+      "promptZh": "燈明明正常,為何摩打仍不能啟動?",
+      "starter": "Why",
+      "answer": "Why will the motor not turn over even though the lights work?",
+      "answerZh": "燈明明正常,為何摩打仍不能啟動?",
+      "highlight": "turn over",
+      "targetForm": "turn over / turn something over",
+      "targetMeaningZh": "引擎開始或繼續運轉;使引擎啟動"
+    },
+    {
+      "id": "phrasal-verb-222-q88",
+      "number": 88,
+      "band": 4,
+      "sourcePage": 21,
+      "answerSourcePage": 41,
+      "prompt": "Why do the front parts of these shoes point upwards?",
+      "promptZh": "這些鞋的前端為何向上翹?",
+      "starter": "Why",
+      "answer": "Why do the front parts of these shoes turn up?",
+      "answerZh": "這些鞋的前端為何向上翹?",
+      "highlight": "turn up",
+      "targetForm": "turn up / turn something up",
+      "targetMeaningZh": "向上彎或向上指;使某物向上"
+    },
+    {
+      "id": "phrasal-verb-222-q89",
+      "number": 89,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 41,
+      "prompt": "It was a school project that first made Lena interested in coding.",
+      "promptZh": "最初令 Lena 對編程感興趣的是一個學校專題研習。",
+      "starter": "It",
+      "answer": "It was a school project that first turned Lena on to coding.",
+      "answerZh": "最初令 Lena 對編程感興趣的是一個學校專題研習。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on to somebody/something",
+      "targetMeaningZh": "令某人開始對某人或某事物產生興趣"
+    },
+    {
+      "id": "phrasal-verb-222-q90",
+      "number": 90,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "Could you make the photo face the other way?",
+      "promptZh": "你可以把相片轉向另一面嗎?",
+      "starter": "Could",
+      "answer": "Could you turn the photo round?",
+      "answerZh": "你可以把相片轉向另一面嗎?",
+      "highlight": "turn",
+      "targetForm": "turn round / turn somebody/something round",
+      "targetMeaningZh": "轉身或轉向另一面;使某人或某物轉向"
+    },
+    {
+      "id": "phrasal-verb-222-q91",
+      "number": 91,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "The team should not use cheating simply because the task is difficult.",
+      "promptZh": "球隊不應只因任務困難便採用作弊手段。",
+      "starter": "The",
+      "answer": "The team should not turn to cheating simply because the task is difficult.",
+      "answerZh": "球隊不應只因任務困難便採用作弊手段。",
+      "highlight": "turn to",
+      "targetForm": "turn to something",
+      "targetMeaningZh": "在沒有更好辦法時採用某事物或某種做法"
+    },
+    {
+      "id": "phrasal-verb-222-q92",
+      "number": 92,
+      "band": 4,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "Before the film began, a worker switched off every light in the hall.",
+      "promptZh": "電影開始前,一名工作人員關掉禮堂內所有燈。",
+      "starter": "Before",
+      "answer": "Before the film began, a worker turned out every light in the hall.",
+      "answerZh": "電影開始前,一名工作人員關掉禮堂內所有燈。",
+      "highlight": "turned out",
+      "targetForm": "turn something out",
+      "targetMeaningZh": "關掉燈或熱源"
+    },
+    {
+      "id": "phrasal-verb-222-q93",
+      "number": 93,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "We checked every drawer and moved nearly every piece of furniture while searching for the passport.",
+      "promptZh": "我們為了尋找護照,檢查每個抽屜,並移動了幾乎所有家具。",
+      "starter": "We",
+      "answer": "We turned the room upside down while searching for the passport.",
+      "answerZh": "我們為了尋找護照,把房間翻得亂七八糟。",
+      "highlight": "turned the room upside down",
+      "targetForm": "turn something upside down",
+      "targetMeaningZh": "徹底搜查某處,並把地方弄得十分凌亂"
+    },
+    {
+      "id": "phrasal-verb-222-q94",
+      "number": 94,
+      "band": 5,
+      "sourcePage": 22,
+      "answerSourcePage": 42,
+      "prompt": "When her name was called from behind, she quickly changed direction to see who was there.",
+      "promptZh": "有人從身後叫她的名字時,她迅速轉身查看是誰。",
+      "starter": "When",
+      "answer": "When her name was called from behind, she quickly turned round to see who was there.",
+      "answerZh": "有人從身後叫她的名字時,她迅速轉身查看是誰。",
+      "highlight": "turned round",
+      "targetForm": "turn round / turn somebody/something round",
+      "targetMeaningZh": "轉身或轉向另一面;使某人或某物轉向"
+    },
+    {
+      "id": "phrasal-verb-222-q95",
+      "number": 95,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 42,
+      "prompt": "Although many facts matter, the final choice depends on whether the school can afford it.",
+      "promptZh": "雖然有很多因素都很重要,但最後決定取決於學校能否負擔費用。",
+      "starter": "Although",
+      "answer": "Although many facts matter, the final choice turns on whether the school can afford it.",
+      "answerZh": "雖然有很多因素都很重要,但最後決定取決於學校能否負擔費用。",
+      "highlight": "turns",
+      "targetForm": "turn on something / turn upon something",
+      "targetMeaningZh": "取決於某事;turn upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q96",
+      "number": 96,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Although nobody had invited him, he arrived at the party just before dinner.",
+      "promptZh": "雖然沒有人邀請他,但他在晚餐前突然來到派對。",
+      "starter": "Although",
+      "answer": "Although nobody had invited him, he turned up at the party just before dinner.",
+      "answerZh": "雖然沒有人邀請他,但他在晚餐前突然來到派對。",
+      "highlight": "turned up",
+      "targetForm": "turn up",
+      "targetMeaningZh": "到達或出現"
+    },
+    {
+      "id": "phrasal-verb-222-q97",
+      "number": 97,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "Before that trip, I knew little about street food; our guide made me interested in it.",
+      "promptZh": "那次旅行前,我對街頭小食所知不多;是導遊令我開始對它感興趣。",
+      "starter": "Before",
+      "answer": "Before that trip, I knew little about street food; our guide turned me on to it.",
+      "answerZh": "那次旅行前,我對街頭小食所知不多;是導遊令我開始對它感興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody on to somebody/something",
+      "targetMeaningZh": "令某人開始對某人或某事物產生興趣"
+    },
+    {
+      "id": "phrasal-verb-222-q98",
+      "number": 98,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "After several quiet clicks, the engine finally began running when she tried again.",
+      "promptZh": "發出幾下輕微的咔嗒聲後,她再次嘗試時引擎終於開始運轉。",
+      "starter": "After",
+      "answer": "After several quiet clicks, the engine finally turned over when she tried again.",
+      "answerZh": "發出幾下輕微的咔嗒聲後,她再次嘗試時引擎終於開始運轉。",
+      "highlight": "turned over",
+      "targetForm": "turn over / turn something over",
+      "targetMeaningZh": "引擎開始或繼續運轉;使引擎啟動"
+    },
+    {
+      "id": "phrasal-verb-222-q99",
+      "number": 99,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "After reading the note, he slowly faced his sister and asked whether it was true.",
+      "promptZh": "讀過字條後,他慢慢轉身面向妹妹,問她事情是否屬實。",
+      "starter": "After",
+      "answer": "After reading the note, he slowly turned to his sister and asked whether it was true.",
+      "answerZh": "讀過字條後,他慢慢轉身面向妹妹,問她事情是否屬實。",
+      "highlight": "turned to",
+      "targetForm": "turn to somebody",
+      "targetMeaningZh": "轉身面向某人"
+    },
+    {
+      "id": "phrasal-verb-222-q100",
+      "number": 100,
+      "band": 5,
+      "sourcePage": 23,
+      "answerSourcePage": 43,
+      "prompt": "When the crowd moved closer, officers directed the water cannon at the people in front.",
+      "promptZh": "人群走近時,警員把水炮對準前方的人。",
+      "starter": "When",
+      "answer": "When the crowd moved closer, officers turned the water cannon on the people in front.",
+      "answerZh": "人群走近時,警員把水炮對準前方的人。",
+      "highlight": "turned",
+      "targetForm": "turn something on/upon somebody/something",
+      "targetMeaningZh": "把水、光線、武器等對準某人或某物;upon 較正式"
+    },
+    {
+      "id": "phrasal-verb-222-q101",
+      "number": 101,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 43,
+      "prompt": "As the room grew colder, Dad increased the heating by two degrees.",
+      "promptZh": "房間愈來愈冷時,爸爸把暖氣調高了兩度。",
+      "starter": "As",
+      "answer": "As the room grew colder, Dad turned the heating up by two degrees.",
+      "answerZh": "房間愈來愈冷時,爸爸把暖氣調高了兩度。",
+      "highlight": "turned",
+      "targetForm": "turn something up",
+      "targetMeaningZh": "調高音量、溫度或強度"
+    },
+    {
+      "id": "phrasal-verb-222-q102",
+      "number": 102,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "After missing another deadline, he promised that from Monday he would change his habits for the better.",
+      "promptZh": "再次錯過限期後,他承諾由星期一起會改掉壞習慣。",
+      "starter": "After",
+      "answer": "After missing another deadline, he promised that from Monday he would turn over a new leaf.",
+      "answerZh": "再次錯過限期後,他承諾由星期一起會改過自新。",
+      "highlight": "turn over a new leaf",
+      "targetForm": "turn over a new leaf",
+      "targetMeaningZh": "改過自新;開始以更負責任的方式行事"
+    },
+    {
+      "id": "phrasal-verb-222-q103",
+      "number": 103,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "The organisers feared an empty hall, but nearly every family came to hear the young musicians.",
+      "promptZh": "主辦者擔心禮堂會空無一人,但幾乎每個家庭都到場欣賞年輕樂手演奏。",
+      "starter": "The",
+      "answer": "The organisers feared an empty hall, but nearly every family turned out to hear the young musicians.",
+      "answerZh": "主辦者擔心禮堂會空無一人,但幾乎每個家庭都到場欣賞年輕樂手演奏。",
+      "highlight": "turned out",
+      "targetForm": "turn out",
+      "targetMeaningZh": "到場參加或支持某項活動"
+    },
+    {
+      "id": "phrasal-verb-222-q104",
+      "number": 104,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "At 5.30, the coffee machine will start automatically, so nobody needs to touch it.",
+      "promptZh": "咖啡機會在五時半自動啟動,所以沒有人需要碰它。",
+      "starter": "At",
+      "answer": "At 5.30, the coffee machine will turn itself on, so nobody needs to touch it.",
+      "answerZh": "咖啡機會在五時半自動啟動,所以沒有人需要碰它。",
+      "highlight": "turn itself on",
+      "targetForm": "turn on / turn itself on / turn something on",
+      "targetMeaningZh": "開始運作;開啟電器、燈光、暖氣等"
+    },
+    {
+      "id": "phrasal-verb-222-q105",
+      "number": 105,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "Once the safety questions were finished, the interviewer directed her attention to the costs.",
+      "promptZh": "安全問題結束後,訪問員把注意力轉到費用方面。",
+      "starter": "Once",
+      "answer": "Once the safety questions were finished, the interviewer turned her attention to the costs.",
+      "answerZh": "安全問題結束後,訪問員把注意力轉到費用方面。",
+      "highlight": "turned",
+      "targetForm": "turn to something / turn something to something",
+      "targetMeaningZh": "把話題、注意力或討論轉到另一件事"
+    },
+    {
+      "id": "phrasal-verb-222-q106",
+      "number": 106,
+      "band": 5,
+      "sourcePage": 24,
+      "answerSourcePage": 44,
+      "prompt": "The wind lifted the small boat and left it with its bottom facing the sky.",
+      "promptZh": "大風吹起小船,令船底朝天。",
+      "starter": "The",
+      "answer": "The wind lifted the small boat and turned it upside down.",
+      "answerZh": "大風吹起小船,令它上下顛倒。",
+      "highlight": "turned",
+      "targetForm": "turn upside down / turn something upside down",
+      "targetMeaningZh": "上下顛倒;把某物倒轉"
+    },
+    {
+      "id": "phrasal-verb-222-q107",
+      "number": 107,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 44,
+      "prompt": "Because one side of the mattress was wearing faster than the other, we moved it so the other side faced upwards.",
+      "promptZh": "因為床褥的一面比另一面磨損得快,我們把它翻面,讓另一面朝上。",
+      "starter": "Because",
+      "answer": "Because one side of the mattress was wearing faster than the other, we turned it over so the other side faced upwards.",
+      "answerZh": "因為床褥的一面比另一面磨損得快,我們把它翻面,讓另一面朝上。",
+      "highlight": "turned",
+      "targetForm": "turn over / turn somebody/something over",
+      "targetMeaningZh": "翻身、翻面或翻轉某人或某物"
+    },
+    {
+      "id": "phrasal-verb-222-q108",
+      "number": 108,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "After weeks without work, he felt desperate enough to use illegal ways of making money.",
+      "promptZh": "失業數星期後,他感到絕望,甚至打算以非法方式賺錢。",
+      "starter": "After",
+      "answer": "After weeks without work, he felt desperate enough to turn to crime.",
+      "answerZh": "失業數星期後,他感到絕望,甚至打算以犯罪方式賺錢。",
+      "highlight": "turn to crime",
+      "targetForm": "turn to something",
+      "targetMeaningZh": "在沒有更好辦法時採用某事物或某種做法"
+    },
+    {
+      "id": "phrasal-verb-222-q109",
+      "number": 109,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "He tried several hobbies, but only mountain biking made him feel truly excited.",
+      "promptZh": "他嘗試過幾種嗜好,但只有越野單車真正令他感到興奮。",
+      "starter": "He",
+      "answer": "He tried several hobbies, but only mountain biking really turned him on.",
+      "answerZh": "他嘗試過幾種嗜好,但只有越野單車真正令他感到興奮。",
+      "highlight": "really turned",
+      "targetForm": "turn somebody on",
+      "targetMeaningZh": "使某人感到興奮或產生興趣(非正式;某些語境可帶性意味"
+    },
+    {
+      "id": "phrasal-verb-222-q110",
+      "number": 110,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "Once the new manager is trained, the owner plans to give her full control of the café.",
+      "promptZh": "新經理接受培訓後,店主打算把咖啡店的全部控制權交給她。",
+      "starter": "Once",
+      "answer": "Once the new manager is trained, the owner plans to turn the café over to her.",
+      "answerZh": "新經理接受培訓後,店主打算把咖啡店的全部控制權交給她。",
+      "highlight": "turn",
+      "targetForm": "turn somebody/something over to somebody/something",
+      "targetMeaningZh": "把某人、某物、控制權或責任移交給另一方"
+    },
+    {
+      "id": "phrasal-verb-222-q111",
+      "number": 111,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "The old photograph shows a child whose toes pointed slightly upwards.",
+      "promptZh": "那張舊照片顯示一名腳趾微微向上翹的孩子。",
+      "starter": "The",
+      "answer": "The old photograph shows a child whose toes turned up slightly.",
+      "answerZh": "那張舊照片顯示一名腳趾微微向上翹的孩子。",
+      "highlight": "turned up",
+      "targetForm": "turn up / turn something up",
+      "targetMeaningZh": "向上彎或向上指;使某物向上"
+    },
+    {
+      "id": "phrasal-verb-222-q112",
+      "number": 112,
+      "band": 5,
+      "sourcePage": 25,
+      "answerSourcePage": 45,
+      "prompt": "No one expected the tame dog to attack its owner when he reached for the bowl.",
+      "promptZh": "沒有人料到那隻溫馴的狗會在主人伸手拿碗時襲擊他。",
+      "starter": "No",
+      "answer": "No one expected the tame dog to turn on its owner when he reached for the bowl.",
+      "answerZh": "沒有人料到那隻溫馴的狗會在主人伸手拿碗時襲擊他。",
+      "highlight": "turn on",
+      "targetForm": "turn on somebody",
+      "targetMeaningZh": "突然襲擊、責怪或反對某人"
+    },
+    {
+      "id": "phrasal-verb-222-q113",
+      "number": 113,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "Within six months, the head teacher changed a failing school into one that parents trusted.",
+      "promptZh": "校長在六個月內令一所表現欠佳的學校變成一所受家長信任的學校。",
+      "starter": "Within",
+      "answer": "Within six months, the head teacher turned the failing school round, and parents began to trust it.",
+      "answerZh": "校長在六個月內令那所表現欠佳的學校重新好轉,家長亦開始信任它。",
+      "highlight": "turned the",
+      "targetForm": "turn round / turn something round",
+      "targetMeaningZh": "使原本欠佳的情況、機構或生意重新好轉"
+    },
+    {
+      "id": "phrasal-verb-222-q114",
+      "number": 114,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "Once the last customer had left, the manager checked the doors and switched all the lights off.",
+      "promptZh": "最後一名顧客離開後,經理檢查門鎖並關掉所有燈。",
+      "starter": "Once",
+      "answer": "Once the last customer had left, the manager checked the doors and turned all the lights out.",
+      "answerZh": "最後一名顧客離開後,經理檢查門鎖並關掉所有燈。",
+      "highlight": "turned",
+      "targetForm": "turn something out",
+      "targetMeaningZh": "關掉燈或熱源"
+    },
+    {
+      "id": "phrasal-verb-222-q115",
+      "number": 115,
+      "band": 5,
+      "sourcePage": 26,
+      "answerSourcePage": 46,
+      "prompt": "As the child grew, both feet started pointing outwards, so the doctor checked them.",
+      "promptZh": "隨着孩子長大,雙腳開始向外彎,因此醫生為他檢查。",
+      "starter": "As",
+      "answer": "As the child grew, both feet started turning out, so the doctor checked them.",
+      "answerZh": "隨着孩子長大,雙腳開始向外彎,因此醫生為他檢查。",
+      "highlight": "turning out",
+      "targetForm": "turn out / turn something out",
+      "targetMeaningZh": "向外彎或向外指;使某物向外"
+    }
+  ]
+}

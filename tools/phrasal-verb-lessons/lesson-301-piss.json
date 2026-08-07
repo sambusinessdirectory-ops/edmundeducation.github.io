@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-301",
+  "order": 301,
+  "slug": "piss",
+  "version": "1",
+  "title": "PISS 動詞片語",
+  "titleEn": "Piss",
+  "titleZh": "PISS 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 286 - PISS.pdf",
+    "sourceNumber": 286,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PISS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PISS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PISS",
+      "highlight": "PISS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We have work to do, so stop pissing about.",
+      "zh": "我們還有工作要做,所以不要再浪費時間。",
+      "highlight": "pissing about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The company pissed us around for weeks.",
+      "zh": "公司折騰了我們幾個星期,不斷拖延和改變安排。",
+      "highlight": "pissed us around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "It was pissing down all morning.",
+      "zh": "整個上午都下着傾盆大雨。",
+      "highlight": "pissing down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "胡鬧;瞎混;浪費時間；耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便；下着傾盆大雨；惹怒某人;令某人非常厭煩；離開;滾開",
+    "en": "piss about / piss around; piss somebody about / piss somebody around; piss down / piss it down; piss somebody off; piss off",
+    "naturalZh": [
+      "胡鬧;瞎混;浪費時間",
+      "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+      "下着傾盆大雨",
+      "惹怒某人;令某人非常厭煩",
+      "離開;滾開"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "piss about / piss around",
+      "titleZh": "胡鬧;瞎混;浪費時間",
+      "titleEn": "piss about / piss around",
+      "descriptionZh": "胡鬧;瞎混;浪費時間",
+      "descriptionEn": "We have work to do, so stop pissing about.",
+      "examples": [
+        {
+          "en": "We have work to do, so stop pissing about.",
+          "zh": "我們還有工作要做,所以不要再浪費時間。",
+          "highlight": "pissing about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "piss somebody about / piss somebody around",
+      "titleZh": "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+      "titleEn": "piss somebody about / piss somebody around",
+      "descriptionZh": "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+      "descriptionEn": "The company pissed us around for weeks.",
+      "examples": [
+        {
+          "en": "The company pissed us around for weeks.",
+          "zh": "公司折騰了我們幾個星期,不斷拖延和改變安排。",
+          "highlight": "pissed us around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "piss down / piss it down",
+      "titleZh": "下着傾盆大雨",
+      "titleEn": "piss down / piss it down",
+      "descriptionZh": "下着傾盆大雨",
+      "descriptionEn": "It was pissing down all morning.",
+      "examples": [
+        {
+          "en": "It was pissing down all morning.",
+          "zh": "整個上午都下着傾盆大雨。",
+          "highlight": "pissing down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "piss somebody off",
+      "titleZh": "惹怒某人;令某人非常厭煩",
+      "titleEn": "piss somebody off",
+      "descriptionZh": "惹怒某人;令某人非常厭煩",
+      "descriptionEn": "His rude behaviour really pissed me off.",
+      "examples": [
+        {
+          "en": "His rude behaviour really pissed me off.",
+          "zh": "他的無禮行為令我非常生氣。",
+          "highlight": "pissed me off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "piss off",
+      "titleZh": "離開;滾開",
+      "titleEn": "piss off",
+      "descriptionZh": "離開;滾開",
+      "descriptionEn": "She told the man to piss off.",
+      "examples": [
+        {
+          "en": "She told the man to piss off.",
+          "zh": "她叫那個男人滾開。",
+          "highlight": "piss off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PISS 片語動詞的實際用途",
+    "labelEn": "PISS Phrasal Verbs in Use",
+    "summaryZh": "piss about 和 piss around 常用來強烈批評某人浪費時間或胡鬧。；piss somebody about 或 around 可以描述某人或公司不斷拖延、更改安排或製造麻煩,令別人受到折騰。；piss down 和 piss it down 是表示下着傾盆大雨的強烈粗俗說法。；piss somebody off 表示惹怒某人;兩字之間沒有某人時,piss off 則表示離開或滾開。",
+    "summaryEn": "Piss about and piss around are common ways of strongly criticising someone who is wasting time or behaving foolishly. Piss somebody about or around describes situations in which a person or company repeatedly delays, confuses or inconveniences someone. Piss down and piss it down are strong, vulgar ways of saying that it is raining extremely heavily. Piss somebody off means annoy someone, while piss off without a person between the two words means leave or go away.",
+    "contextsZh": [
+      "理解批評別人浪費時間的強烈口語",
+      "理解別人投訴受到折騰的說法",
+      "理解英式英語中形容大雨的生動說法",
+      "分辨「惹怒某人」和「離開」"
+    ],
+    "contextsEn": [
+      "Understand strong informal speech about wasting time",
+      "Recognise complaints about being treated badly",
+      "Understand a vivid British expression for heavy rain",
+      "Distinguish annoyance from leaving"
+    ],
+    "formalZh": "本練習中的所有表達都屬粗俗及非常口語的用法,可能會冒犯別人,因此不應用於正式寫作、禮貌對話、學校或專業場合。",
+    "formalEn": "All the expressions in this set are vulgar and very informal. They may offend people, so avoid using them in formal writing, polite conversation, school or professional situations."
+  },
+  "fixedVariable": {
+    "fixed": "piss about / piss around",
+    "fixedHighlight": "piss about / piss around",
+    "fixedZh": "本練習中的所有表達都屬粗俗及非常口語的用法,可能會冒犯別人,因此不應用於正式寫作、禮貌對話、學校或專業場合。",
+    "fixedEn": "All the expressions in this set are vulgar and very informal. They may offend people, so avoid using them in formal writing, polite conversation, school or professional situations.",
+    "correct": "pissing about",
+    "incorrectForms": [],
+    "variableZh": "仔細閱讀整句。piss off 表示離開或滾開;piss somebody off 則表示惹怒某人。；about 和 around 在以上表達中可以表示相同意思。；piss down 和 piss it down 都表示下着傾盆大雨。",
+    "variableEn": "Read the whole sentence carefully. Piss off means leave or go away, but piss somebody off means annoy somebody. About and around can express the same meaning in these expressions: piss about / piss around piss somebody about / piss somebody around Piss down and piss it down both mean rain extremely heavily.",
+    "variableItemsZh": [
+      "piss about / piss around",
+      "piss somebody about / piss somebody around",
+      "piss down / piss it down",
+      "piss somebody off",
+      "piss off"
+    ],
+    "variableItemsEn": [
+      "piss about / piss around",
+      "piss somebody about / piss somebody around",
+      "piss down / piss it down",
+      "piss somebody off",
+      "piss off"
+    ],
+    "forms": [
+      {
+        "formZh": "胡鬧;瞎混;浪費時間",
+        "formEn": "piss about / piss around",
+        "exampleZh": "我們還有工作要做,所以不要再浪費時間。",
+        "exampleEn": "We have work to do, so stop pissing about.",
+        "highlight": "pissing about"
+      },
+      {
+        "formZh": "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+        "formEn": "piss somebody about / piss somebody around",
+        "exampleZh": "公司折騰了我們幾個星期,不斷拖延和改變安排。",
+        "exampleEn": "The company pissed us around for weeks.",
+        "highlight": "pissed us around"
+      },
+      {
+        "formZh": "下着傾盆大雨",
+        "formEn": "piss down / piss it down",
+        "exampleZh": "整個上午都下着傾盆大雨。",
+        "exampleEn": "It was pissing down all morning.",
+        "highlight": "pissing down"
+      },
+      {
+        "formZh": "惹怒某人;令某人非常厭煩",
+        "formEn": "piss somebody off",
+        "exampleZh": "他的無禮行為令我非常生氣。",
+        "exampleEn": "His rude behaviour really pissed me off.",
+        "highlight": "pissed me off"
+      },
+      {
+        "formZh": "離開;滾開",
+        "formEn": "piss off",
+        "exampleZh": "她叫那個男人滾開。",
+        "exampleEn": "She told the man to piss off.",
+        "highlight": "piss off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "胡鬧;瞎混;浪費時間",
+      "titleEn": "piss about / piss around",
+      "formula": "piss about / piss around",
+      "highlight": "piss about / piss around",
+      "descriptionZh": "胡鬧;瞎混;浪費時間",
+      "descriptionEn": "We have work to do, so stop pissing about.",
+      "examples": [
+        {
+          "en": "We have work to do, so stop pissing about.",
+          "zh": "我們還有工作要做,所以不要再浪費時間。",
+          "highlight": "pissing about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+      "titleEn": "piss somebody about / piss somebody around",
+      "formula": "piss somebody about / piss somebody around",
+      "highlight": "piss somebody about / piss somebody around",
+      "descriptionZh": "耍弄某人;拖延或反覆改變安排,令某人浪費時間或感到不便",
+      "descriptionEn": "The company pissed us around for weeks.",
+      "examples": [
+        {
+          "en": "The company pissed us around for weeks.",
+          "zh": "公司折騰了我們幾個星期,不斷拖延和改變安排。",
+          "highlight": "pissed us around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "下着傾盆大雨",
+      "titleEn": "piss down / piss it down",
+      "formula": "piss down / piss it down",
+      "highlight": "piss down / piss it down",
+      "descriptionZh": "下着傾盆大雨",
+      "descriptionEn": "It was pissing down all morning.",
+      "examples": [
+        {
+          "en": "It was pissing down all morning.",
+          "zh": "整個上午都下着傾盆大雨。",
+          "highlight": "pissing down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "惹怒某人;令某人非常厭煩",
+      "titleEn": "piss somebody off",
+      "formula": "piss somebody off",
+      "highlight": "piss somebody off",
+      "descriptionZh": "惹怒某人;令某人非常厭煩",
+      "descriptionEn": "His rude behaviour really pissed me off.",
+      "examples": [
+        {
+          "en": "His rude behaviour really pissed me off.",
+          "zh": "他的無禮行為令我非常生氣。",
+          "highlight": "pissed me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "離開;滾開",
+      "titleEn": "piss off",
+      "formula": "piss off",
+      "highlight": "piss off",
+      "descriptionZh": "離開;滾開",
+      "descriptionEn": "She told the man to piss off.",
+      "examples": [
+        {
+          "en": "She told the man to piss off.",
+          "zh": "她叫那個男人滾開。",
+          "highlight": "piss off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "理解批評別人浪費時間的強烈口語",
+      "titleEn": "Understand strong informal speech about wasting time",
+      "zh": "piss about 和 piss around 常用來強烈批評某人浪費時間或胡鬧。",
+      "en": "Piss about and piss around are common ways of strongly criticising someone who is wasting time or behaving foolishly."
+    },
+    {
+      "titleZh": "理解別人投訴受到折騰的說法",
+      "titleEn": "Recognise complaints about being treated badly",
+      "zh": "piss somebody about 或 around 可以描述某人或公司不斷拖延、更改安排或製造麻煩,令別人受到折騰。",
+      "en": "Piss somebody about or around describes situations in which a person or company repeatedly delays, confuses or inconveniences someone."
+    },
+    {
+      "titleZh": "理解英式英語中形容大雨的生動說法",
+      "titleEn": "Understand a vivid British expression for heavy rain",
+      "zh": "piss down 和 piss it down 是表示下着傾盆大雨的強烈粗俗說法。",
+      "en": "Piss down and piss it down are strong, vulgar ways of saying that it is raining extremely heavily."
+    },
+    {
+      "titleZh": "分辨「惹怒某人」和「離開」",
+      "titleEn": "Distinguish annoyance from leaving",
+      "zh": "piss somebody off 表示惹怒某人;兩字之間沒有某人時,piss off 則表示離開或滾開。",
+      "en": "Piss somebody off means annoy someone, while piss off without a person between the two words means leave or go away."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "理解批評別人浪費時間的強烈口語",
+      "理解別人投訴受到折騰的說法",
+      "理解英式英語中形容大雨的生動說法",
+      "分辨「惹怒某人」和「離開」"
+    ],
+    "contextsEn": [
+      "Understand strong informal speech about wasting time",
+      "Recognise complaints about being treated badly",
+      "Understand a vivid British expression for heavy rain",
+      "Distinguish annoyance from leaving"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "理解批評別人浪費時間的強烈口語",
+        "titleEn": "Understand strong informal speech about wasting time",
+        "zh": "piss about 和 piss around 常用來強烈批評某人浪費時間或胡鬧。",
+        "en": "Piss about and piss around are common ways of strongly criticising someone who is wasting time or behaving foolishly.",
+        "examples": [
+          {
+            "en": "We have work to do, so stop pissing about.",
+            "zh": "我們還有工作要做,所以不要再浪費時間。",
+            "highlight": "pissing about"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解別人投訴受到折騰的說法",
+        "titleEn": "Recognise complaints about being treated badly",
+        "zh": "piss somebody about 或 around 可以描述某人或公司不斷拖延、更改安排或製造麻煩,令別人受到折騰。",
+        "en": "Piss somebody about or around describes situations in which a person or company repeatedly delays, confuses or inconveniences someone.",
+        "examples": [
+          {
+            "en": "The company pissed us around for weeks.",
+            "zh": "公司折騰了我們幾個星期,不斷拖延和改變安排。",
+            "highlight": "pissed us around"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解英式英語中形容大雨的生動說法",
+        "titleEn": "Understand a vivid British expression for heavy rain",
+        "zh": "piss down 和 piss it down 是表示下着傾盆大雨的強烈粗俗說法。",
+        "en": "Piss down and piss it down are strong, vulgar ways of saying that it is raining extremely heavily.",
+        "examples": [
+          {
+            "en": "It was pissing down all morning.",
+            "zh": "整個上午都下着傾盆大雨。",
+            "highlight": "pissing down"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨「惹怒某人」和「離開」",
+        "titleEn": "Distinguish annoyance from leaving",
+        "zh": "piss somebody off 表示惹怒某人;兩字之間沒有某人時,piss off 則表示離開或滾開。",
+        "en": "Piss somebody off means annoy someone, while piss off without a person between the two words means leave or go away.",
+        "examples": [
+          {
+            "en": "His rude behaviour really pissed me off.",
+            "zh": "他的無禮行為令我非常生氣。",
+            "highlight": "pissed me off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "本練習中的所有表達都屬粗俗及非常口語的用法,可能會冒犯別人,因此不應用於正式寫作、禮貌對話、學校或專業場合。",
+      "titleEn": "All the expressions in this set are vulgar and very informal.",
+      "zh": "本練習中的所有表達都屬粗俗及非常口語的用法,可能會冒犯別人,因此不應用於正式寫作、禮貌對話、學校或專業場合。",
+      "en": "All the expressions in this set are vulgar and very informal. They may offend people, so avoid using them in formal writing, polite conversation, school or professional situations."
+    },
+    {
+      "titleZh": "仔細閱讀整句。piss off 表示離開或滾開;piss somebody off 則表示惹怒某人。",
+      "titleEn": "Read the whole sentence carefully.",
+      "zh": "仔細閱讀整句。piss off 表示離開或滾開;piss somebody off 則表示惹怒某人。",
+      "en": "Read the whole sentence carefully. Piss off means leave or go away, but piss somebody off means annoy somebody."
+    },
+    {
+      "titleZh": "about 和 around 在以上表達中可以表示相同意思。",
+      "titleEn": "About and around can express the same meaning in these expressions: piss about / piss around piss somebody about / piss somebody around.",
+      "zh": "about 和 around 在以上表達中可以表示相同意思。",
+      "en": "About and around can express the same meaning in these expressions: piss about / piss around piss somebody about / piss somebody around"
+    },
+    {
+      "titleZh": "piss down 和 piss it down 都表示下着傾盆大雨。",
+      "titleEn": "Piss down and piss it down both mean rain extremely heavily.",
+      "zh": "piss down 和 piss it down 都表示下着傾盆大雨。",
+      "en": "Piss down and piss it down both mean rain extremely heavily."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PISS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PISS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PISS 動詞片語句子改寫練習",
+    "titleEn": "PISS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PISS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PISS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-301-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "It is raining very heavily outside.",
+      "promptZh": "外面正下着傾盆大雨。",
+      "starter": "It’s",
+      "answer": "It’s pissing down outside.",
+      "answerZh": "外面正下着傾盆大雨。",
+      "highlight": "It’s pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We have not got time to waste.",
+      "promptZh": "我們沒有時間可以浪費。",
+      "starter": "We",
+      "answer": "We haven’t got time to piss about.",
+      "answerZh": "我們沒有時間可以浪費。",
+      "highlight": "haven’t",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "That loud music really annoys me.",
+      "promptZh": "那麼吵耳的音樂真的令我非常厭煩。",
+      "starter": "That",
+      "answer": "That loud music really pisses me off.",
+      "answerZh": "那麼吵耳的音樂真的令我非常厭煩。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人;令某人非常厭煩"
+    },
+    {
+      "id": "phrasal-verb-301-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Do not keep changing things and wasting my time; just give me a clear answer.",
+      "promptZh": "不要不斷改變安排和浪費我的時間;直接給我一個明確答案。",
+      "starter": "Don’t",
+      "answer": "Don’t piss me about; just give me a clear answer.",
+      "answerZh": "不要再折騰我;直接給我一個明確答案。",
+      "highlight": "Don’t piss me about",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "耍弄某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-301-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The man shouted at us to go away.",
+      "promptZh": "那個男人大聲叫我們滾開。",
+      "starter": "The",
+      "answer": "The man shouted at us to piss off.",
+      "answerZh": "那個男人大聲叫我們滾開。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Stop fooling around and finish your homework.",
+      "promptZh": "不要再胡鬧,完成你的功課。",
+      "starter": "Stop",
+      "answer": "Stop pissing around and finish your homework.",
+      "answerZh": "不要再胡鬧,完成你的功課。",
+      "highlight": "pissing",
+      "targetForm": "piss around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The shop kept delaying us and changing its story for three weeks.",
+      "promptZh": "那間店舖拖延了我們三個星期,而且不斷改變說法。",
+      "starter": "The",
+      "answer": "The shop pissed us around for three weeks.",
+      "answerZh": "那間店舖折騰了我們三個星期。",
+      "highlight": "pissed",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "It was raining extremely heavily during the match.",
+      "promptZh": "比賽期間下着傾盆大雨。",
+      "starter": "It",
+      "answer": "It was pissing it down during the match.",
+      "answerZh": "比賽期間下着傾盆大雨。",
+      "highlight": "pissing it down",
+      "targetForm": "piss it down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "He left without saying goodbye.",
+      "promptZh": "他沒有道別便離開了。",
+      "starter": "He",
+      "answer": "He pissed off without saying goodbye.",
+      "answerZh": "他沒有道別便離開了。",
+      "highlight": "pissed off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-301-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Her rude comment made Daniel very angry.",
+      "promptZh": "她無禮的說話令丹尼爾非常生氣。",
+      "starter": "Her",
+      "answer": "Her rude comment pissed Daniel off.",
+      "answerZh": "她無禮的說話令丹尼爾非常生氣。",
+      "highlight": "pissed",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The boys were fooling around near the entrance.",
+      "promptZh": "那些男孩子正在入口附近胡鬧。",
+      "starter": "The",
+      "answer": "The boys were pissing about near the entrance.",
+      "answerZh": "那些男孩子正在入口附近胡鬧。",
+      "highlight": "pissing about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;瞎混"
+    },
+    {
+      "id": "phrasal-verb-301-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please do not waste customers’ time or keep changing the arrangements.",
+      "promptZh": "請不要浪費顧客的時間,也不要不斷改變安排。",
+      "starter": "Please",
+      "answer": "Please don’t piss customers around.",
+      "answerZh": "請不要再折騰顧客。",
+      "highlight": "don’t piss",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "耍弄某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-301-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Why does that noise annoy you so much?",
+      "promptZh": "那種聲音為甚麼令你如此厭煩?",
+      "starter": "Why",
+      "answer": "Why does that noise piss you off so much?",
+      "answerZh": "那種聲音為甚麼令你如此厭煩?",
+      "highlight": "piss",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人;令某人非常厭煩"
+    },
+    {
+      "id": "phrasal-verb-301-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "It has been raining heavily since lunchtime.",
+      "promptZh": "由午飯時間開始,一直下着大雨。",
+      "starter": "It",
+      "answer": "It has been pissing down since lunchtime.",
+      "answerZh": "由午飯時間開始,一直下着大雨。",
+      "highlight": "pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "She told the salesman to go away.",
+      "promptZh": "她叫那名售貨員滾開。",
+      "starter": "She",
+      "answer": "She told the salesman to piss off.",
+      "answerZh": "她叫那名售貨員滾開。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The company has been making its staff wait and changing plans for months.",
+      "promptZh": "公司幾個月來一直令員工等候,並不斷改變計劃。",
+      "starter": "The",
+      "answer": "The company has been pissing its staff about for months.",
+      "answerZh": "公司幾個月來一直折騰員工。",
+      "highlight": "pissing",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "You should stop wasting time and start working.",
+      "promptZh": "你應該停止浪費時間,開始工作。",
+      "starter": "You",
+      "answer": "You should stop pissing around and start working.",
+      "answerZh": "你應該停止浪費時間,開始工作。",
+      "highlight": "pissing around",
+      "targetForm": "piss around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "It may rain very heavily later this evening.",
+      "promptZh": "今晚較後時間可能會下傾盆大雨。",
+      "starter": "It",
+      "answer": "It may piss it down later this evening.",
+      "answerZh": "今晚較後時間可能會下傾盆大雨。",
+      "highlight": "piss it down",
+      "targetForm": "piss it down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Being ignored really annoys him.",
+      "promptZh": "被人忽視真的令他非常生氣。",
+      "starter": "Being",
+      "answer": "Being ignored really pisses him off.",
+      "answerZh": "被人忽視真的令他非常生氣。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why are they wasting your time and changing the arrangements again?",
+      "promptZh": "他們為甚麼又浪費你的時間和改變安排?",
+      "starter": "Why",
+      "answer": "Why are they pissing you around again?",
+      "answerZh": "他們為甚麼又在折騰你?",
+      "highlight": "pissing you around",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "耍弄某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-301-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The unwanted guests finally left at midnight.",
+      "promptZh": "那些不受歡迎的客人終於在午夜離開。",
+      "starter": "The",
+      "answer": "The unwanted guests finally pissed off at midnight.",
+      "answerZh": "那些不受歡迎的客人終於在午夜離開。",
+      "highlight": "pissed off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-301-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Are you going to help, or just waste time?",
+      "promptZh": "你究竟會幫忙,還是只打算浪費時間?",
+      "starter": "Are",
+      "answer": "Are you going to help, or just piss about?",
+      "answerZh": "你究竟會幫忙,還是只打算浪費時間?",
+      "highlight": "piss about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "If it rains very heavily tomorrow, the game will be cancelled.",
+      "promptZh": "如果明天下傾盆大雨,比賽便會取消。",
+      "starter": "If",
+      "answer": "If it pisses down tomorrow, the game will be cancelled.",
+      "answerZh": "如果明天下傾盆大雨,比賽便會取消。",
+      "highlight": "pisses down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "His constant complaining is annoying everyone.",
+      "promptZh": "他不停抱怨,令所有人都非常厭煩。",
+      "starter": "His",
+      "answer": "His constant complaining is pissing everyone off.",
+      "answerZh": "他不停抱怨,令所有人都非常厭煩。",
+      "highlight": "pissing",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人;令某人非常厭煩"
+    },
+    {
+      "id": "phrasal-verb-301-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I wish those men would go away and leave us alone.",
+      "promptZh": "我希望那些男人可以滾開,不要再騷擾我們。",
+      "starter": "I",
+      "answer": "I wish those men would piss off and leave us alone.",
+      "answerZh": "我希望那些男人可以滾開,不要再騷擾我們。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We are tired of the booking office wasting our time and repeatedly changing things.",
+      "promptZh": "我們已厭倦訂票處浪費我們的時間和不斷改變安排。",
+      "starter": "We",
+      "answer": "We are tired of being pissed about by the booking office.",
+      "answerZh": "我們已厭倦受到訂票處折騰。",
+      "highlight": "being pissed about by",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Because it was raining very heavily outside, we stayed in the café.",
+      "promptZh": "由於外面下着傾盆大雨,我們留在咖啡店內。",
+      "starter": "With",
+      "answer": "With it pissing down outside, we stayed in the café.",
+      "answerZh": "由於外面下着傾盆大雨,我們留在咖啡店內。",
+      "highlight": "With",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Instead of wasting time, Ryan fixed the problem.",
+      "promptZh": "賴恩沒有浪費時間,而是把問題解決了。",
+      "starter": "Instead",
+      "answer": "Instead of pissing around, Ryan fixed the problem.",
+      "answerZh": "賴恩沒有浪費時間,而是把問題解決了。",
+      "highlight": "pissing around",
+      "targetForm": "piss around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why do you not just go away and bother someone else?",
+      "promptZh": "你為甚麼不乾脆滾開,去騷擾其他人?",
+      "starter": "Why",
+      "answer": "Why don’t you just piss off and bother someone else?",
+      "answerZh": "你為甚麼不乾脆滾開,去騷擾其他人?",
+      "highlight": "don’t",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "What annoys Ella most is people arriving late.",
+      "promptZh": "最令埃拉生氣的是別人遲到。",
+      "starter": "What",
+      "answer": "What pisses Ella off most is people arriving late.",
+      "answerZh": "最令埃拉生氣的是別人遲到。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I will not let that agency waste my time and change the arrangements again.",
+      "promptZh": "我不會再讓那間公司浪費我的時間和改變安排。",
+      "starter": "I",
+      "answer": "I will not let that agency piss me around again.",
+      "answerZh": "我不會再讓那間公司折騰我。",
+      "highlight": "piss me around",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "耍弄某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-301-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "After leaving early, Noah missed the announcement.",
+      "promptZh": "諾亞提早離開,因此錯過了公布。",
+      "starter": "After",
+      "answer": "After pissing off early, Noah missed the announcement.",
+      "answerZh": "諾亞提早離開,因此錯過了公布。",
+      "highlight": "pissing off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-301-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Wasting time will not get the work finished.",
+      "promptZh": "浪費時間並不能把工作完成。",
+      "starter": "Pissing",
+      "answer": "Pissing about will not get the work finished.",
+      "answerZh": "浪費時間並不能把工作完成。",
+      "highlight": "Pissing about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Outside, it was still raining very heavily when the bus arrived.",
+      "promptZh": "巴士到達時,外面仍然下着傾盆大雨。",
+      "starter": "Outside",
+      "answer": "Outside, it was still pissing down when the bus arrived.",
+      "answerZh": "巴士到達時,外面仍然下着傾盆大雨。",
+      "highlight": "pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "That message must have annoyed your parents.",
+      "promptZh": "那則訊息一定令你的父母非常生氣。",
+      "starter": "That",
+      "answer": "That message must have pissed your parents off.",
+      "answerZh": "那則訊息一定令你的父母非常生氣。",
+      "highlight": "pissed",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The driver left before anyone could question him.",
+      "promptZh": "司機在任何人能夠質問他之前便離開了。",
+      "starter": "The",
+      "answer": "The driver pissed off before anyone could question him.",
+      "answerZh": "司機在任何人能夠質問他之前便離開了。",
+      "highlight": "pissed off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-301-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "It really annoys me when people play videos on the bus without headphones.",
+      "promptZh": "別人在巴士上不用耳機播放影片,真的令我非常厭煩。",
+      "starter": "It",
+      "answer": "It really pisses me off when people play videos on the bus without headphones.",
+      "answerZh": "別人在巴士上不用耳機播放影片,真的令我非常厭煩。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人;令某人非常厭煩"
+    },
+    {
+      "id": "phrasal-verb-301-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "There is no point wasting time when the train leaves in ten minutes.",
+      "promptZh": "火車十分鐘後便開出,現在浪費時間毫無意義。",
+      "starter": "There",
+      "answer": "There is no point pissing about when the train leaves in ten minutes.",
+      "answerZh": "火車十分鐘後便開出,現在浪費時間毫無意義。",
+      "highlight": "pissing about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "By the time we reached the station, it was raining extremely heavily.",
+      "promptZh": "我們到達車站時,正下着傾盆大雨。",
+      "starter": "By",
+      "answer": "By the time we reached the station, it was pissing it down.",
+      "answerZh": "我們到達車站時,正下着傾盆大雨。",
+      "highlight": "pissing it down",
+      "targetForm": "piss it down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The landlord treated the family badly by changing the moving date twice and wasting their time.",
+      "promptZh": "業主兩次更改搬屋日期,浪費那家人的時間,不斷折騰他們。",
+      "starter": "The",
+      "answer": "The landlord pissed the family about by changing the moving date twice.",
+      "answerZh": "業主兩次更改搬屋日期,不斷折騰那家人。",
+      "highlight": "pissed",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Rather than apologise, the customer told the waiter to go away.",
+      "promptZh": "那名顧客沒有道歉,反而叫侍應滾開。",
+      "starter": "Rather",
+      "answer": "Rather than apologise, the customer told the waiter to piss off.",
+      "answerZh": "那名顧客沒有道歉,反而叫侍應滾開。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The way he speaks to new staff really annoys them.",
+      "promptZh": "他跟新員工說話的方式令他們非常生氣。",
+      "starter": "The",
+      "answer": "The way he speaks to new staff really pisses them off.",
+      "answerZh": "他跟新員工說話的方式令他們非常生氣。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "You cannot keep wasting time while everyone else does the work.",
+      "promptZh": "其他人都在工作時,你不能繼續浪費時間。",
+      "starter": "You",
+      "answer": "You cannot keep pissing around while everyone else does the work.",
+      "answerZh": "其他人都在工作時,你不能繼續浪費時間。",
+      "highlight": "pissing around",
+      "targetForm": "piss around",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "How long are they going to delay us and keep changing things over this refund?",
+      "promptZh": "他們還要為這筆退款拖延我們多久,並不斷改變安排?",
+      "starter": "How",
+      "answer": "How long are they going to piss us about over this refund?",
+      "answerZh": "他們還要為這筆退款折騰我們多久?",
+      "highlight": "piss",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although it was raining heavily, the runners finished the race.",
+      "promptZh": "雖然下着大雨,參賽者仍完成了比賽。",
+      "starter": "Although",
+      "answer": "Although it was pissing down, the runners finished the race.",
+      "answerZh": "雖然下着大雨,參賽者仍完成了比賽。",
+      "highlight": "pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "He should apologise instead of telling people to go away.",
+      "promptZh": "他應該道歉,而不是叫別人滾開。",
+      "starter": "He",
+      "answer": "He should apologise instead of telling people to piss off.",
+      "answerZh": "他應該道歉,而不是叫別人滾開。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nothing annoys Grace more than people touching her desk.",
+      "promptZh": "沒有甚麼比別人碰格蕾絲的書桌更令她生氣。",
+      "starter": "Nothing",
+      "answer": "Nothing pisses Grace off more than people touching her desk.",
+      "answerZh": "沒有甚麼比別人碰格蕾絲的書桌更令她生氣。",
+      "highlight": "pisses",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The meeting ended late because the manager kept wasting time.",
+      "promptZh": "會議很遲才結束,因為經理一直在浪費時間。",
+      "starter": "The",
+      "answer": "The meeting ended late because the manager kept pissing about.",
+      "answerZh": "會議很遲才結束,因為經理一直在浪費時間。",
+      "highlight": "pissing about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Even if it rains extremely heavily all afternoon, the concert will continue indoors.",
+      "promptZh": "即使整個下午都下着傾盆大雨,音樂會仍會在室內繼續。",
+      "starter": "Even",
+      "answer": "Even if it pisses it down all afternoon, the concert will continue indoors.",
+      "answerZh": "即使整個下午都下着傾盆大雨,音樂會仍會在室內繼續。",
+      "highlight": "pisses it down",
+      "targetForm": "piss it down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "After the company had wasted their time and repeatedly changed the arrangements for weeks, the couple cancelled the order.",
+      "promptZh": "公司幾個星期來一直浪費他們的時間並反覆改變安排,因此那對夫婦取消了訂單。",
+      "starter": "After",
+      "answer": "After being pissed around for weeks, the couple cancelled the order.",
+      "answerZh": "受到折騰幾個星期後,那對夫婦取消了訂單。",
+      "highlight": "being pissed around",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "I knew the decision would annoy a lot of people.",
+      "promptZh": "我知道這項決定會令很多人非常生氣。",
+      "starter": "I",
+      "answer": "I knew the decision would piss a lot of people off.",
+      "answerZh": "我知道這項決定會令很多人非常生氣。",
+      "highlight": "piss",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Anyone who wastes time or fools around during the safety check will be asked to leave.",
+      "promptZh": "任何人在安全檢查期間浪費時間或胡鬧,都會被要求離開。",
+      "starter": "Anyone",
+      "answer": "Anyone who pisses about during the safety check will be asked to leave.",
+      "answerZh": "任何人在安全檢查期間胡鬧或浪費時間,都會被要求離開。",
+      "highlight": "pisses about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When the neighbour told the children to go away in a very rude way, their father demanded an apology.",
+      "promptZh": "鄰居非常無禮地叫那些孩子滾開後,他們的父親要求對方道歉。",
+      "starter": "When",
+      "answer": "When the neighbour told the children to piss off, their father demanded an apology.",
+      "answerZh": "鄰居叫那些孩子滾開後,他們的父親要求對方道歉。",
+      "highlight": "piss off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開;滾開"
+    },
+    {
+      "id": "phrasal-verb-301-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Stop wasting the delivery drivers’ time and give them the correct address.",
+      "promptZh": "不要再浪費送貨司機的時間,給他們正確地址。",
+      "starter": "Stop",
+      "answer": "Stop pissing the delivery drivers around and give them the correct address.",
+      "answerZh": "不要再折騰送貨司機,給他們正確地址。",
+      "highlight": "pissing",
+      "targetForm": "piss somebody around",
+      "targetMeaningZh": "耍弄某人;浪費某人的時間"
+    },
+    {
+      "id": "phrasal-verb-301-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "We had planned a picnic, but it started raining heavily before noon.",
+      "promptZh": "我們原本計劃去野餐,但中午前便開始下起傾盆大雨。",
+      "starter": "We",
+      "answer": "We had planned a picnic, but it started pissing down before noon.",
+      "answerZh": "我們原本計劃去野餐,但中午前便開始下起傾盆大雨。",
+      "highlight": "pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    },
+    {
+      "id": "phrasal-verb-301-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "What really annoyed the team was the last-minute rule change.",
+      "promptZh": "真正令球隊生氣的是最後一刻更改規則。",
+      "starter": "What",
+      "answer": "What really pissed the team off was the last-minute rule change.",
+      "answerZh": "真正令球隊生氣的是最後一刻更改規則。",
+      "highlight": "pissed",
+      "targetForm": "piss somebody off",
+      "targetMeaningZh": "惹怒某人"
+    },
+    {
+      "id": "phrasal-verb-301-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The seller took the money, left and stopped answering messages.",
+      "promptZh": "賣家收取款項後便離開,而且不再回覆訊息。",
+      "starter": "The",
+      "answer": "The seller took the money, pissed off and stopped answering messages.",
+      "answerZh": "賣家收取款項後便離開,而且不再回覆訊息。",
+      "highlight": "pissed off",
+      "targetForm": "piss off",
+      "targetMeaningZh": "離開"
+    },
+    {
+      "id": "phrasal-verb-301-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "If we keep wasting time, we will miss the last bus.",
+      "promptZh": "如果我們繼續浪費時間,便會錯過尾班巴士。",
+      "starter": "If",
+      "answer": "If we keep pissing about, we will miss the last bus.",
+      "answerZh": "如果我們繼續浪費時間,便會錯過尾班巴士。",
+      "highlight": "pissing about",
+      "targetForm": "piss about",
+      "targetMeaningZh": "胡鬧;浪費時間"
+    },
+    {
+      "id": "phrasal-verb-301-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The travel company should not be allowed to waste customers’ time and keep changing arrangements like this.",
+      "promptZh": "不應容許那間旅遊公司這樣浪費顧客的時間和不斷改變安排。",
+      "starter": "The",
+      "answer": "The travel company should not be allowed to piss customers about like this.",
+      "answerZh": "不應容許那間旅遊公司這樣折騰顧客。",
+      "highlight": "piss",
+      "targetForm": "piss somebody about",
+      "targetMeaningZh": "拖延或反覆改變安排,令某人不便"
+    },
+    {
+      "id": "phrasal-verb-301-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We could hear the heavy rain outside all night.",
+      "promptZh": "整晚都可以聽到外面的傾盆大雨。",
+      "starter": "We",
+      "answer": "We could hear it pissing down outside all night.",
+      "answerZh": "整晚都可以聽到外面的傾盆大雨。",
+      "highlight": "it pissing down",
+      "targetForm": "piss down",
+      "targetMeaningZh": "下着傾盆大雨"
+    }
+  ]
+}

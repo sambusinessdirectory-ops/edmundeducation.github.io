@@ -1,0 +1,997 @@
+{
+  "id": "phrasal-verb-70",
+  "order": 70,
+  "slug": "cotton",
+  "version": "1",
+  "title": "COTTON 動詞片語",
+  "titleEn": "Cotton",
+  "titleZh": "COTTON 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verbs 69 - COTTON.pdf",
+    "sourceNumber": 69,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 COTTON 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to COTTON."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "COTTON",
+      "highlight": "COTTON"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Leo cottoned on after the second example.",
+      "zh": "里奧看過第二個例子後便明白了。",
+      "highlight": "cottoned on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Nina did not cotton to the new plan at first.",
+      "zh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+      "highlight": "cotton to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "開始明白、領會或察覺某件事；開始喜歡某人或某事物;開始接受或贊同某個想法",
+    "en": "cotton on / cotton on to something; cotton to somebody/something",
+    "naturalZh": [
+      "開始明白、領會或察覺某件事",
+      "開始喜歡某人或某事物;開始接受或贊同某個想法"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cotton on / cotton on to something",
+      "titleZh": "開始明白、領會或察覺某件事",
+      "titleEn": "cotton on / cotton on to something",
+      "descriptionZh": "開始明白、領會或察覺某件事",
+      "descriptionEn": "Leo cottoned on after the second example.",
+      "examples": [
+        {
+          "en": "Leo cottoned on after the second example.",
+          "zh": "里奧看過第二個例子後便明白了。",
+          "highlight": "cottoned on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cotton to somebody/something",
+      "titleZh": "開始喜歡某人或某事物;開始接受或贊同某個想法",
+      "titleEn": "cotton to somebody/something",
+      "descriptionZh": "開始喜歡某人或某事物;開始接受或贊同某個想法",
+      "descriptionEn": "Nina did not cotton to the new plan at first.",
+      "examples": [
+        {
+          "en": "Nina did not cotton to the new plan at first.",
+          "zh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+          "highlight": "cotton to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "COTTON 片語動詞的實際用途",
+    "labelEn": "COTTON Phrasal Verbs in Use",
+    "summaryZh": "當某人並非立即明白,而是在稍後才察覺意思、規則或答案時,cotton on 十分實用。；cotton on 可以表示某人看到標誌、表情、例子或其他線索後,逐漸明白發生了甚麼事。；cotton to 可以描述人或動物逐漸喜歡或接受新的對象、地方、習慣或想法。；cotton on 與「明白」有關,而 cotton to 則與「喜歡或接受」有關。掌握兩者有助你更準確地理解口語對話。",
+    "summaryEn": "Cotton on is useful when a person does not understand immediately but later notices the meaning, rule or answer. Cotton on can show that a person works something out after seeing a sign, expression, example or other clue. Cotton to can describe a person or animal slowly becoming comfortable with a new person, place, routine or idea. Cotton on concerns understanding, while cotton to concerns liking or accepting. Knowing both helps you understand informal conversations more accurately.",
+    "contextsZh": [
+      "描述某人開始明白的一刻",
+      "表示某人從線索中明白事情",
+      "談論逐漸喜歡或接受某人或某事物",
+      "理解兩個意思截然不同的表達"
+    ],
+    "contextsEn": [
+      "Describe the moment when someone begins to understand",
+      "Show that someone understands from clues",
+      "Talk about slowly beginning to like someone or something",
+      "Understand two expressions with very different meanings"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 COTTON 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the COTTON expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cotton on / cotton on to something",
+    "fixedHighlight": "cotton on / cotton on to something",
+    "fixedZh": "閱讀整句,選出意思相同的 COTTON 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the COTTON expression that gives the same meaning.",
+    "correct": "cottoned on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；當某人開始明白時,可使用 cotton on。當句子指出某人明白的事實、想法、笑話、規則或情況時,可使用 cotton on to something。Leo finally cottoned on.(里奧終於明白了。)Leo finally cottoned on to the rule.(里奧終於明白了那項規則。)；當某人開始喜歡某人或某事物,或開始接受某個想法時,可使用 cotton tosomebody/something。這個表達常用於描述起初不太喜歡或接受某事物的情況。I did not cotton to the idea straight away.(我並非立即接受這個想法。)",
+    "variableEn": "Keep the same people, things, time and meaning. Use cotton on when someone begins to understand. Use cotton on to something when the sentence names the fact, idea, joke, rule or situation that the person understands. Use cotton to somebody/something when someone begins to like a person or thing, or begins to accept an idea. It often appears in sentences about not liking something immediately.",
+    "variableItemsZh": [
+      "cotton on / cotton on to something",
+      "cotton to somebody/something"
+    ],
+    "variableItemsEn": [
+      "cotton on / cotton on to something",
+      "cotton to somebody/something"
+    ],
+    "forms": [
+      {
+        "formZh": "開始明白、領會或察覺某件事",
+        "formEn": "cotton on / cotton on to something",
+        "exampleZh": "里奧看過第二個例子後便明白了。",
+        "exampleEn": "Leo cottoned on after the second example.",
+        "highlight": "cottoned on"
+      },
+      {
+        "formZh": "開始喜歡某人或某事物;開始接受或贊同某個想法",
+        "formEn": "cotton to somebody/something",
+        "exampleZh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+        "exampleEn": "Nina did not cotton to the new plan at first.",
+        "highlight": "cotton to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "開始明白、領會或察覺某件事",
+      "titleEn": "cotton on / cotton on to something",
+      "formula": "cotton on / cotton on to something",
+      "highlight": "cotton on / cotton on to something",
+      "descriptionZh": "開始明白、領會或察覺某件事",
+      "descriptionEn": "Leo cottoned on after the second example.",
+      "examples": [
+        {
+          "en": "Leo cottoned on after the second example.",
+          "zh": "里奧看過第二個例子後便明白了。",
+          "highlight": "cottoned on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "開始喜歡某人或某事物;開始接受或贊同某個想法",
+      "titleEn": "cotton to somebody/something",
+      "formula": "cotton to somebody/something",
+      "highlight": "cotton to somebody/something",
+      "descriptionZh": "開始喜歡某人或某事物;開始接受或贊同某個想法",
+      "descriptionEn": "Nina did not cotton to the new plan at first.",
+      "examples": [
+        {
+          "en": "Nina did not cotton to the new plan at first.",
+          "zh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+          "highlight": "cotton to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述某人開始明白的一刻",
+      "titleEn": "Describe the moment when someone begins to understand",
+      "zh": "當某人並非立即明白,而是在稍後才察覺意思、規則或答案時,cotton on 十分實用。",
+      "en": "Cotton on is useful when a person does not understand immediately but later notices the meaning, rule or answer."
+    },
+    {
+      "titleZh": "表示某人從線索中明白事情",
+      "titleEn": "Show that someone understands from clues",
+      "zh": "cotton on 可以表示某人看到標誌、表情、例子或其他線索後,逐漸明白發生了甚麼事。",
+      "en": "Cotton on can show that a person works something out after seeing a sign, expression, example or other clue."
+    },
+    {
+      "titleZh": "談論逐漸喜歡或接受某人或某事物",
+      "titleEn": "Talk about slowly beginning to like someone or something",
+      "zh": "cotton to 可以描述人或動物逐漸喜歡或接受新的對象、地方、習慣或想法。",
+      "en": "Cotton to can describe a person or animal slowly becoming comfortable with a new person, place, routine or idea."
+    },
+    {
+      "titleZh": "理解兩個意思截然不同的表達",
+      "titleEn": "Understand two expressions with very different meanings",
+      "zh": "cotton on 與「明白」有關,而 cotton to 則與「喜歡或接受」有關。掌握兩者有助你更準確地理解口語對話。",
+      "en": "Cotton on concerns understanding, while cotton to concerns liking or accepting. Knowing both helps you understand informal conversations more accurately."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述某人開始明白的一刻",
+      "表示某人從線索中明白事情",
+      "談論逐漸喜歡或接受某人或某事物",
+      "理解兩個意思截然不同的表達"
+    ],
+    "contextsEn": [
+      "Describe the moment when someone begins to understand",
+      "Show that someone understands from clues",
+      "Talk about slowly beginning to like someone or something",
+      "Understand two expressions with very different meanings"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述某人開始明白的一刻",
+        "titleEn": "Describe the moment when someone begins to understand",
+        "zh": "當某人並非立即明白,而是在稍後才察覺意思、規則或答案時,cotton on 十分實用。",
+        "en": "Cotton on is useful when a person does not understand immediately but later notices the meaning, rule or answer.",
+        "examples": [
+          {
+            "en": "Leo cottoned on after the second example.",
+            "zh": "里奧看過第二個例子後便明白了。",
+            "highlight": "cottoned on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示某人從線索中明白事情",
+        "titleEn": "Show that someone understands from clues",
+        "zh": "cotton on 可以表示某人看到標誌、表情、例子或其他線索後,逐漸明白發生了甚麼事。",
+        "en": "Cotton on can show that a person works something out after seeing a sign, expression, example or other clue.",
+        "examples": [
+          {
+            "en": "Nina did not cotton to the new plan at first.",
+            "zh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+            "highlight": "cotton to"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論逐漸喜歡或接受某人或某事物",
+        "titleEn": "Talk about slowly beginning to like someone or something",
+        "zh": "cotton to 可以描述人或動物逐漸喜歡或接受新的對象、地方、習慣或想法。",
+        "en": "Cotton to can describe a person or animal slowly becoming comfortable with a new person, place, routine or idea.",
+        "examples": [
+          {
+            "en": "Leo cottoned on after the second example.",
+            "zh": "里奧看過第二個例子後便明白了。",
+            "highlight": "cottoned on"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解兩個意思截然不同的表達",
+        "titleEn": "Understand two expressions with very different meanings",
+        "zh": "cotton on 與「明白」有關,而 cotton to 則與「喜歡或接受」有關。掌握兩者有助你更準確地理解口語對話。",
+        "en": "Cotton on concerns understanding, while cotton to concerns liking or accepting. Knowing both helps you understand informal conversations more accurately.",
+        "examples": [
+          {
+            "en": "Nina did not cotton to the new plan at first.",
+            "zh": "(妮娜起初不太接受這個新計劃。)Usage note 用法提示:cotton on 是口語表達,尤其常見於英式英語;cotton to 同樣屬於口語表達,較常見於北美英語。",
+            "highlight": "cotton to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 COTTON 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the COTTON expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 COTTON 片語動詞。",
+      "en": "Read the whole sentence and choose the COTTON expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "當某人開始明白時,可使用 cotton on。當句子指出某人明白的事實、想法、笑話、規則或情況時,可使用 cotton on to something。Leo finally cottoned on.(里奧終於明白了。)Leo finally cottoned on to the rule.(里奧終於明白了那項規則。)",
+      "titleEn": "Use cotton on when someone begins to understand.",
+      "zh": "當某人開始明白時,可使用 cotton on。當句子指出某人明白的事實、想法、笑話、規則或情況時,可使用 cotton on to something。Leo finally cottoned on.(里奧終於明白了。)Leo finally cottoned on to the rule.(里奧終於明白了那項規則。)",
+      "en": "Use cotton on when someone begins to understand. Use cotton on to something when the sentence names the fact, idea, joke, rule or situation that the person understands."
+    },
+    {
+      "titleZh": "當某人開始喜歡某人或某事物,或開始接受某個想法時,可使用 cotton tosomebody/something。這個表達常用於描述起初不太喜歡或接受某事物的情況。I did not cotton to the idea straight away.(我並非立即接受這個想法。)",
+      "titleEn": "Use cotton to somebody/something when someone begins to like a person or thing, or begins to accept an idea.",
+      "zh": "當某人開始喜歡某人或某事物,或開始接受某個想法時,可使用 cotton tosomebody/something。這個表達常用於描述起初不太喜歡或接受某事物的情況。I did not cotton to the idea straight away.(我並非立即接受這個想法。)",
+      "en": "Use cotton to somebody/something when someone begins to like a person or thing, or begins to accept an idea. It often appears in sentences about not liking something immediately."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 COTTON 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to COTTON. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "COTTON 動詞片語句子改寫練習",
+    "titleEn": "COTTON Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 COTTON 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to COTTON. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          24
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          25,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-70-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The class understood after one more example.",
+      "promptZh": "全班多看一個例子後便明白了。",
+      "starter": "The",
+      "answer": "The class cottoned on after one more example.",
+      "answerZh": "全班多看一個例子後便明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Ava soon began to like the new art teacher.",
+      "promptZh": "艾娃很快便開始喜歡新來的美術老師。",
+      "starter": "Ava",
+      "answer": "Ava soon cottoned to the new art teacher.",
+      "answerZh": "艾娃很快便開始喜歡新來的美術老師。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Ben understood the game rules very quickly.",
+      "promptZh": "賓很快便明白了遊戲規則。",
+      "starter": "Ben",
+      "answer": "Ben cottoned on to the game rules very quickly.",
+      "answerZh": "賓很快便明白了遊戲規則。",
+      "highlight": "cottoned on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "I did not like the new school lunch straight away.",
+      "promptZh": "我並非立即喜歡新的學校午餐。",
+      "starter": "I",
+      "answer": "I did not cotton to the new school lunch straight away.",
+      "answerZh": "我並非立即喜歡新的學校午餐。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The puppy quickly began to like our children.",
+      "promptZh": "小狗很快便開始喜歡我們的孩子。",
+      "starter": "The",
+      "answer": "The puppy quickly cottoned to our children.",
+      "answerZh": "小狗很快便開始喜歡我們的孩子。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "After a short explanation, Omar understood.",
+      "promptZh": "經過簡短解釋後,奧馬便明白了。",
+      "starter": "After",
+      "answer": "After a short explanation, Omar cottoned on.",
+      "answerZh": "經過簡短解釋後,奧馬便明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ella never liked the new school song.",
+      "promptZh": "埃拉從來不喜歡新的校歌。",
+      "starter": "Ella",
+      "answer": "Ella never cottoned to the new school song.",
+      "answerZh": "埃拉從來不喜歡新的校歌。",
+      "highlight": "cottoned to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Priya finally understood the joke.",
+      "promptZh": "普里雅終於明白了那個笑話。",
+      "starter": "Priya",
+      "answer": "Priya finally cottoned on to the joke.",
+      "answerZh": "普里雅終於明白了那個笑話。",
+      "highlight": "cottoned on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Sam is slowly beginning to like his new neighbour.",
+      "promptZh": "山姆正慢慢開始喜歡他的新鄰居。",
+      "starter": "Sam",
+      "answer": "Sam is slowly cottoning to his new neighbour.",
+      "answerZh": "山姆正慢慢開始喜歡他的新鄰居。",
+      "highlight": "cottoning",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The children are beginning to understand the pattern now.",
+      "promptZh": "孩子們現在開始明白這個規律。",
+      "starter": "The",
+      "answer": "The children are cottoning on to the pattern now.",
+      "answerZh": "孩子們現在開始明白這個規律。",
+      "highlight": "cottoning on",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Did Leo understand when he saw the map?",
+      "promptZh": "里奧看到地圖時明白了嗎?",
+      "starter": "Did",
+      "answer": "Did Leo cotton on when he saw the map?",
+      "answerZh": "里奧看到地圖時明白了嗎?",
+      "highlight": "cotton on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We have not begun to like the new timetable yet.",
+      "promptZh": "我們仍未開始喜歡新的時間表。",
+      "starter": "We",
+      "answer": "We have not cottoned to the new timetable yet.",
+      "answerZh": "我們仍未開始喜歡新的時間表。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Nina has now realised how the app works.",
+      "promptZh": "妮娜現在已明白這個應用程式怎樣運作。",
+      "starter": "Nina",
+      "answer": "Nina has now cottoned on to how the app works.",
+      "answerZh": "妮娜現在已明白這個應用程式怎樣運作。",
+      "highlight": "cottoned on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "My brother will not accept that idea easily.",
+      "promptZh": "我弟弟不會輕易接受那個想法。",
+      "starter": "My",
+      "answer": "My brother will not cotton to that idea easily.",
+      "answerZh": "我弟弟不會輕易接受那個想法。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始接受或贊同某個想法"
+    },
+    {
+      "id": "phrasal-verb-70-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Has your cat begun to like the new bed yet?",
+      "promptZh": "你的貓開始喜歡新的睡床了嗎?",
+      "starter": "Has",
+      "answer": "Has your cat cottoned to the new bed yet?",
+      "answerZh": "你的貓開始喜歡新的睡床了嗎?",
+      "highlight": "cottoned",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "At last, the team understood the coach’s plan.",
+      "promptZh": "球隊終於明白教練的計劃。",
+      "starter": "At",
+      "answer": "At last, the team cottoned on to the coach’s plan.",
+      "answerZh": "球隊終於明白教練的計劃。",
+      "highlight": "cottoned on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "I thought the clue was simple, but Ravi did not understand.",
+      "promptZh": "我以為那條線索很簡單,但拉維並不明白。",
+      "starter": "I",
+      "answer": "I thought the clue was simple, but Ravi did not cotton on.",
+      "answerZh": "我以為那條線索很簡單,但拉維並不明白。",
+      "highlight": "cotton on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Chloe did not like him at first, but she likes him now.",
+      "promptZh": "克洛伊起初不喜歡他,但現在喜歡他了。",
+      "starter": "Chloe",
+      "answer": "Chloe did not cotton to him at first, but she likes him now.",
+      "answerZh": "克洛伊起初不喜歡他,但現在喜歡他了。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The students have never liked this kind of homework.",
+      "promptZh": "學生們從來不喜歡這類功課。",
+      "starter": "The",
+      "answer": "The students have never cottoned to this kind of homework.",
+      "answerZh": "學生們從來不喜歡這類功課。",
+      "highlight": "cottoned to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Once she saw the missing number, Aisha understood.",
+      "promptZh": "艾莎看到欠缺的數字後便明白了。",
+      "starter": "Once",
+      "answer": "Once she saw the missing number, Aisha cottoned on.",
+      "answerZh": "艾莎看到欠缺的數字後便明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Our dog seems to have begun to like the new baby.",
+      "promptZh": "我們的狗似乎已開始喜歡新生嬰兒。",
+      "starter": "Our",
+      "answer": "Our dog seems to have cottoned to the new baby.",
+      "answerZh": "我們的狗似乎已開始喜歡新生嬰兒。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "Why has nobody realised that there is a mistake yet?",
+      "promptZh": "為甚麼仍然沒有人察覺當中有錯誤?",
+      "starter": "Why",
+      "answer": "Why has nobody cottoned on to the mistake yet?",
+      "answerZh": "為甚麼仍然沒有人察覺當中的錯誤?",
+      "highlight": "cottoned on to the",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始察覺某事"
+    },
+    {
+      "id": "phrasal-verb-70-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "They had already understood before the teacher explained it.",
+      "promptZh": "老師解釋之前,他們已經明白了。",
+      "starter": "They",
+      "answer": "They had already cottoned on before the teacher explained it.",
+      "answerZh": "老師解釋之前,他們已經明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "At first, Daniel did not like the new rules.",
+      "promptZh": "丹尼爾起初不喜歡這些新規則。",
+      "starter": "At",
+      "answer": "At first, Daniel did not cotton to the new rules.",
+      "answerZh": "丹尼爾起初不喜歡這些新規則。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始接受或喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q25",
+      "number": 25,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Even after two weeks, I still have not begun to like the new morning routine.",
+      "promptZh": "即使過了兩星期,我仍未開始喜歡新的早晨習慣。",
+      "starter": "Even",
+      "answer": "Even after two weeks, I still have not cottoned to the new morning routine.",
+      "answerZh": "即使過了兩星期,我仍未開始喜歡新的早晨習慣。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡或接受某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q26",
+      "number": 26,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The players only understood when the referee pointed at the clock.",
+      "promptZh": "球證指着時鐘時,球員們才明白。",
+      "starter": "The",
+      "answer": "The players only cottoned on when the referee pointed at the clock.",
+      "answerZh": "球證指着時鐘時,球員們才明白。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q27",
+      "number": 27,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Do you think the children will begin to like the new coach?",
+      "promptZh": "你認為孩子們會開始喜歡新教練嗎?",
+      "starter": "Do",
+      "answer": "Do you think the children will cotton to the new coach?",
+      "answerZh": "你認為孩子們會開始喜歡新教練嗎?",
+      "highlight": "cotton",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q28",
+      "number": 28,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "It took Julia a moment to understand what the sign meant.",
+      "promptZh": "茱莉亞花了一點時間才明白那個標誌的意思。",
+      "starter": "It",
+      "answer": "It took Julia a moment to cotton on to what the sign meant.",
+      "answerZh": "茱莉亞花了一點時間才明白那個標誌的意思。",
+      "highlight": "cotton on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q29",
+      "number": 29,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "People are slowly realising that there is a problem with the door.",
+      "promptZh": "人們正慢慢察覺這道門有問題。",
+      "starter": "People",
+      "answer": "People are slowly cottoning on to the problem with the door.",
+      "answerZh": "人們正慢慢察覺這道門有問題。",
+      "highlight": "cottoning on to the",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始察覺某事"
+    },
+    {
+      "id": "phrasal-verb-70-q30",
+      "number": 30,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Ben soon began to like the quieter room and slept better.",
+      "promptZh": "賓很快便開始喜歡較安靜的房間,而且睡得更好。",
+      "starter": "Ben",
+      "answer": "Ben soon cottoned to the quieter room and slept better.",
+      "answerZh": "賓很快便開始喜歡較安靜的房間,而且睡得更好。",
+      "highlight": "cottoned",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "We might not understand unless you show us another example.",
+      "promptZh": "除非你再給我們看一個例子,否則我們可能不會明白。",
+      "starter": "We",
+      "answer": "We might not cotton on unless you show us another example.",
+      "answerZh": "除非你再給我們看一個例子,否則我們可能不會明白。",
+      "highlight": "cotton on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "My parents never really liked that café.",
+      "promptZh": "我的父母從來都不太喜歡那間咖啡店。",
+      "starter": "My",
+      "answer": "My parents never really cottoned to that café.",
+      "answerZh": "我的父母從來都不太喜歡那間咖啡店。",
+      "highlight": "cottoned to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "At first the puzzle looked impossible, but I understood after I saw the colours.",
+      "promptZh": "那個謎題起初看來無法解開,但我看到那些顏色後便明白了。",
+      "starter": "At",
+      "answer": "At first the puzzle looked impossible, but I cottoned on after I saw the colours.",
+      "answerZh": "那個謎題起初看來無法解開,但我看到那些顏色後便明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    },
+    {
+      "id": "phrasal-verb-70-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The club members did not like the idea until they tried it.",
+      "promptZh": "俱樂部成員嘗試過後,才開始喜歡這個想法。",
+      "starter": "The",
+      "answer": "The club members did not cotton to the idea until they tried it.",
+      "answerZh": "俱樂部成員嘗試過後,才開始喜歡這個想法。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡或接受某個想法"
+    },
+    {
+      "id": "phrasal-verb-70-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "By the time the teacher asked for an answer, Eva had understood the trick.",
+      "promptZh": "老師要求作答時,伊娃已經明白當中的竅門。",
+      "starter": "By",
+      "answer": "By the time the teacher asked for an answer, Eva had cottoned on to the trick.",
+      "answerZh": "老師要求作答時,伊娃已經明白當中的竅門。",
+      "highlight": "cottoned on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Although Arun was friendly, the shy kitten did not begin to like him straight away.",
+      "promptZh": "雖然阿倫很友善,但害羞的小貓並非立即開始喜歡他。",
+      "starter": "Although",
+      "answer": "Although Arun was friendly, the shy kitten did not cotton to him straight away.",
+      "answerZh": "雖然阿倫很友善,但害羞的小貓並非立即開始喜歡他。",
+      "highlight": "cotton",
+      "targetForm": "cotton to somebody",
+      "targetMeaningZh": "開始喜歡某人"
+    },
+    {
+      "id": "phrasal-verb-70-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "We did not like the film at first, but the ending changed our minds.",
+      "promptZh": "我們起初不喜歡這部電影,但結局令我們改變了看法。",
+      "starter": "We",
+      "answer": "We did not cotton to the film at first, but the ending changed our minds.",
+      "answerZh": "我們起初不喜歡這部電影,但結局令我們改變了看法。",
+      "highlight": "cotton to",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Once the team understands how the machine works, the task will be easy.",
+      "promptZh": "球隊一旦明白這部機器怎樣運作,任務便會很容易。",
+      "starter": "Once",
+      "answer": "Once the team cottons on to how the machine works, the task will be easy.",
+      "answerZh": "球隊一旦明白這部機器怎樣運作,任務便會很容易。",
+      "highlight": "cottons on to",
+      "targetForm": "cotton on to something",
+      "targetMeaningZh": "開始明白某事"
+    },
+    {
+      "id": "phrasal-verb-70-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Has your sister begun to like the smaller flat yet?",
+      "promptZh": "你的姊妹開始喜歡這個較小的單位了嗎?",
+      "starter": "Has",
+      "answer": "Has your sister cottoned to the smaller flat yet?",
+      "answerZh": "你的姊妹開始喜歡這個較小的單位了嗎?",
+      "highlight": "cottoned",
+      "targetForm": "cotton to something",
+      "targetMeaningZh": "開始喜歡某事物"
+    },
+    {
+      "id": "phrasal-verb-70-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Nobody told Nina the answer, but she understood when she saw everyone smiling.",
+      "promptZh": "沒有人告訴妮娜答案,但她看到所有人都在微笑時便明白了。",
+      "starter": "Nobody",
+      "answer": "Nobody told Nina the answer, but she cottoned on when she saw everyone smiling.",
+      "answerZh": "沒有人告訴妮娜答案,但她看到所有人都在微笑時便明白了。",
+      "highlight": "cottoned on",
+      "targetForm": "cotton on",
+      "targetMeaningZh": "開始明白或領會"
+    }
+  ]
+}

@@ -1,0 +1,1242 @@
+{
+  "id": "phrasal-verb-273",
+  "order": 273,
+  "slug": "press",
+  "version": "1",
+  "title": "PRESS 動詞片語",
+  "titleEn": "Press",
+  "titleZh": "PRESS 動詞片語",
+  "level": "A2–B1 transitional",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 258 - PRESS.pdf",
+    "sourceNumber": 258,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PRESS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PRESS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PRESS",
+      "highlight": "PRESS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They pressed forward despite the cold.",
+      "zh": "儘管天氣寒冷,他們仍繼續前進。",
+      "highlight": "pressed forward",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The reporter pressed him for an answer.",
+      "zh": "記者再三追問他,要求他作答。",
+      "highlight": "pressed him for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "People pressed in on the singer.",
+      "zh": "人群從四周向那名歌手逼近。",
+      "highlight": "pressed in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "即使遇到困難仍繼續;繼續推進；強烈要求某事;向某人追問或催促某人提供某事；從四周逼近某人;令某人感到被包圍或受壓；硬要某人接受某物,常指食物、禮物、幫助或意見",
+    "en": "press ahead / press on / press forward (with something); press for something; press somebody for something; press in on/upon somebody; press something on somebody",
+    "naturalZh": [
+      "即使遇到困難仍繼續;繼續推進",
+      "強烈要求某事;向某人追問或催促某人提供某事",
+      "從四周逼近某人;令某人感到被包圍或受壓",
+      "硬要某人接受某物,常指食物、禮物、幫助或意見"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "press ahead / press on / press forward (with something)",
+      "titleZh": "即使遇到困難仍繼續;繼續推進",
+      "titleEn": "press ahead / press on / press forward (with something)",
+      "descriptionZh": "即使遇到困難仍繼續;繼續推進",
+      "descriptionEn": "They pressed forward despite the cold.",
+      "examples": [
+        {
+          "en": "They pressed forward despite the cold.",
+          "zh": "儘管天氣寒冷,他們仍繼續前進。",
+          "highlight": "pressed forward"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "press for something; press somebody for something",
+      "titleZh": "強烈要求某事;向某人追問或催促某人提供某事",
+      "titleEn": "press for something; press somebody for something",
+      "descriptionZh": "強烈要求某事;向某人追問或催促某人提供某事",
+      "descriptionEn": "The reporter pressed him for an answer.",
+      "examples": [
+        {
+          "en": "The reporter pressed him for an answer.",
+          "zh": "記者再三追問他,要求他作答。",
+          "highlight": "pressed him for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "press in on/upon somebody",
+      "titleZh": "從四周逼近某人;令某人感到被包圍或受壓",
+      "titleEn": "press in on/upon somebody",
+      "descriptionZh": "從四周逼近某人;令某人感到被包圍或受壓",
+      "descriptionEn": "People pressed in on the singer.",
+      "examples": [
+        {
+          "en": "People pressed in on the singer.",
+          "zh": "人群從四周向那名歌手逼近。",
+          "highlight": "pressed in on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "press something on somebody",
+      "titleZh": "硬要某人接受某物,常指食物、禮物、幫助或意見",
+      "titleEn": "press something on somebody",
+      "descriptionZh": "硬要某人接受某物,常指食物、禮物、幫助或意見",
+      "descriptionEn": "Our host pressed some fruit on us.",
+      "examples": [
+        {
+          "en": "Our host pressed some fruit on us.",
+          "zh": "主人硬要我們吃些水果。",
+          "highlight": "pressed some fruit on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PRESS 片語動詞的實際用途",
+    "labelEn": "PRESS Phrasal Verbs in Use",
+    "summaryZh": "press on、press ahead 和 press forward 可以描述某人即使遇上惡劣天氣、問題或延誤,仍然繼續前進。；press for 和 press somebody for something 可以用來談論強烈要求答案、會面、更安全的環境或更好的待遇。；press in on 可以描述人群逐漸靠近,也可以表示某人感到被牆壁、黑暗、憂慮或問題包圍。；press something on somebody 表示某人不斷給予食物、禮物、金錢或意見,並硬要另一個人接受。",
+    "summaryEn": "Press on, press ahead and press forward help you describe someone who continues despite bad weather, problems, delays or other difficulties. Press for and press somebody for something help you describe strong requests for answers, meetings, safer conditions or better treatment. Press in on can describe a crowd moving closer or a person feeling surrounded by walls, darkness, worries or problems. Press something on somebody shows that a person keeps offering food, gifts, money or advice and strongly wants the other person to accept it.",
+    "contextsZh": [
+      "談論遇到困難時仍繼續",
+      "堅定地要求行動、資料或改變",
+      "描述人群或問題從四周逼近",
+      "描述令人難以拒絕的給予"
+    ],
+    "contextsEn": [
+      "Talk about continuing when something is difficult",
+      "Ask firmly for action, information or change",
+      "Describe people or problems closing around someone",
+      "Describe offers that are difficult to refuse"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PRESS 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PRESS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "press ahead / press on / press forward (with something)",
+    "fixedHighlight": "press ahead / press on / press forward (with something)",
+    "fixedZh": "閱讀整句,選出意思相同的 PRESS 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PRESS expression that gives the same meaning.",
+    "correct": "pressed forward",
+    "incorrectForms": [],
+    "variableZh": "press on、press ahead 和 press forward 本身已是完整表達。只有在要說明繼續進行哪項工作、計劃或活動時,才加上 with + 名詞。；press for something 表示強烈要求某事;press somebody for something 表示向某人追問或催促某人提供某事。；當某人硬要另一個人接受某物時,使用 press + 某物 + on + 某人。",
+    "variableEn": "Press on, press ahead and press forward are already complete expressions. Add with + a noun only when you want to name the work, plan or activity being continued. They pressed on. They pressed on with the work. Compare these two forms: They pressed for an answer. They pressed him for an answer. When someone strongly insists that another person accept something, use: press + something + on + somebody She pressed it on me.",
+    "variableItemsZh": [
+      "press ahead / press on / press forward (with something)",
+      "press for something; press somebody for something",
+      "press in on/upon somebody",
+      "press something on somebody"
+    ],
+    "variableItemsEn": [
+      "press ahead / press on / press forward (with something)",
+      "press for something; press somebody for something",
+      "press in on/upon somebody",
+      "press something on somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "即使遇到困難仍繼續;繼續推進",
+        "formEn": "press ahead / press on / press forward (with something)",
+        "exampleZh": "儘管天氣寒冷,他們仍繼續前進。",
+        "exampleEn": "They pressed forward despite the cold.",
+        "highlight": "pressed forward"
+      },
+      {
+        "formZh": "強烈要求某事;向某人追問或催促某人提供某事",
+        "formEn": "press for something; press somebody for something",
+        "exampleZh": "記者再三追問他,要求他作答。",
+        "exampleEn": "The reporter pressed him for an answer.",
+        "highlight": "pressed him for"
+      },
+      {
+        "formZh": "從四周逼近某人;令某人感到被包圍或受壓",
+        "formEn": "press in on/upon somebody",
+        "exampleZh": "人群從四周向那名歌手逼近。",
+        "exampleEn": "People pressed in on the singer.",
+        "highlight": "pressed in on"
+      },
+      {
+        "formZh": "硬要某人接受某物,常指食物、禮物、幫助或意見",
+        "formEn": "press something on somebody",
+        "exampleZh": "主人硬要我們吃些水果。",
+        "exampleEn": "Our host pressed some fruit on us.",
+        "highlight": "pressed some fruit on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "即使遇到困難仍繼續;繼續推進",
+      "titleEn": "press ahead / press on / press forward (with something)",
+      "formula": "press ahead / press on / press forward (with something)",
+      "highlight": "press ahead / press on / press forward (with something)",
+      "descriptionZh": "即使遇到困難仍繼續;繼續推進",
+      "descriptionEn": "They pressed forward despite the cold.",
+      "examples": [
+        {
+          "en": "They pressed forward despite the cold.",
+          "zh": "儘管天氣寒冷,他們仍繼續前進。",
+          "highlight": "pressed forward"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "強烈要求某事;向某人追問或催促某人提供某事",
+      "titleEn": "press for something; press somebody for something",
+      "formula": "press for something; press somebody for something",
+      "highlight": "press for something; press somebody for something",
+      "descriptionZh": "強烈要求某事;向某人追問或催促某人提供某事",
+      "descriptionEn": "The reporter pressed him for an answer.",
+      "examples": [
+        {
+          "en": "The reporter pressed him for an answer.",
+          "zh": "記者再三追問他,要求他作答。",
+          "highlight": "pressed him for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "從四周逼近某人;令某人感到被包圍或受壓",
+      "titleEn": "press in on/upon somebody",
+      "formula": "press in on/upon somebody",
+      "highlight": "press in on/upon somebody",
+      "descriptionZh": "從四周逼近某人;令某人感到被包圍或受壓",
+      "descriptionEn": "People pressed in on the singer.",
+      "examples": [
+        {
+          "en": "People pressed in on the singer.",
+          "zh": "人群從四周向那名歌手逼近。",
+          "highlight": "pressed in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "硬要某人接受某物,常指食物、禮物、幫助或意見",
+      "titleEn": "press something on somebody",
+      "formula": "press something on somebody",
+      "highlight": "press something on somebody",
+      "descriptionZh": "硬要某人接受某物,常指食物、禮物、幫助或意見",
+      "descriptionEn": "Our host pressed some fruit on us.",
+      "examples": [
+        {
+          "en": "Our host pressed some fruit on us.",
+          "zh": "主人硬要我們吃些水果。",
+          "highlight": "pressed some fruit on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論遇到困難時仍繼續",
+      "titleEn": "Talk about continuing when something is difficult",
+      "zh": "press on、press ahead 和 press forward 可以描述某人即使遇上惡劣天氣、問題或延誤,仍然繼續前進。",
+      "en": "Press on, press ahead and press forward help you describe someone who continues despite bad weather, problems, delays or other difficulties."
+    },
+    {
+      "titleZh": "堅定地要求行動、資料或改變",
+      "titleEn": "Ask firmly for action, information or change",
+      "zh": "press for 和 press somebody for something 可以用來談論強烈要求答案、會面、更安全的環境或更好的待遇。",
+      "en": "Press for and press somebody for something help you describe strong requests for answers, meetings, safer conditions or better treatment."
+    },
+    {
+      "titleZh": "描述人群或問題從四周逼近",
+      "titleEn": "Describe people or problems closing around someone",
+      "zh": "press in on 可以描述人群逐漸靠近,也可以表示某人感到被牆壁、黑暗、憂慮或問題包圍。",
+      "en": "Press in on can describe a crowd moving closer or a person feeling surrounded by walls, darkness, worries or problems."
+    },
+    {
+      "titleZh": "描述令人難以拒絕的給予",
+      "titleEn": "Describe offers that are difficult to refuse",
+      "zh": "press something on somebody 表示某人不斷給予食物、禮物、金錢或意見,並硬要另一個人接受。",
+      "en": "Press something on somebody shows that a person keeps offering food, gifts, money or advice and strongly wants the other person to accept it."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論遇到困難時仍繼續",
+      "堅定地要求行動、資料或改變",
+      "描述人群或問題從四周逼近",
+      "描述令人難以拒絕的給予"
+    ],
+    "contextsEn": [
+      "Talk about continuing when something is difficult",
+      "Ask firmly for action, information or change",
+      "Describe people or problems closing around someone",
+      "Describe offers that are difficult to refuse"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論遇到困難時仍繼續",
+        "titleEn": "Talk about continuing when something is difficult",
+        "zh": "press on、press ahead 和 press forward 可以描述某人即使遇上惡劣天氣、問題或延誤,仍然繼續前進。",
+        "en": "Press on, press ahead and press forward help you describe someone who continues despite bad weather, problems, delays or other difficulties.",
+        "examples": [
+          {
+            "en": "They pressed forward despite the cold.",
+            "zh": "儘管天氣寒冷,他們仍繼續前進。",
+            "highlight": "pressed forward"
+          }
+        ]
+      },
+      {
+        "titleZh": "堅定地要求行動、資料或改變",
+        "titleEn": "Ask firmly for action, information or change",
+        "zh": "press for 和 press somebody for something 可以用來談論強烈要求答案、會面、更安全的環境或更好的待遇。",
+        "en": "Press for and press somebody for something help you describe strong requests for answers, meetings, safer conditions or better treatment.",
+        "examples": [
+          {
+            "en": "The reporter pressed him for an answer.",
+            "zh": "記者再三追問他,要求他作答。",
+            "highlight": "pressed him for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述人群或問題從四周逼近",
+        "titleEn": "Describe people or problems closing around someone",
+        "zh": "press in on 可以描述人群逐漸靠近,也可以表示某人感到被牆壁、黑暗、憂慮或問題包圍。",
+        "en": "Press in on can describe a crowd moving closer or a person feeling surrounded by walls, darkness, worries or problems.",
+        "examples": [
+          {
+            "en": "People pressed in on the singer.",
+            "zh": "人群從四周向那名歌手逼近。",
+            "highlight": "pressed in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述令人難以拒絕的給予",
+        "titleEn": "Describe offers that are difficult to refuse",
+        "zh": "press something on somebody 表示某人不斷給予食物、禮物、金錢或意見,並硬要另一個人接受。",
+        "en": "Press something on somebody shows that a person keeps offering food, gifts, money or advice and strongly wants the other person to accept it.",
+        "examples": [
+          {
+            "en": "Our host pressed some fruit on us.",
+            "zh": "主人硬要我們吃些水果。",
+            "highlight": "pressed some fruit on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PRESS 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PRESS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PRESS 片語動詞。",
+      "en": "Read the whole sentence and choose the PRESS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "press on、press ahead 和 press forward 本身已是完整表達。只有在要說明繼續進行哪項工作、計劃或活動時,才加上 with + 名詞。",
+      "titleEn": "Press on, press ahead and press forward are already complete expressions.",
+      "zh": "press on、press ahead 和 press forward 本身已是完整表達。只有在要說明繼續進行哪項工作、計劃或活動時,才加上 with + 名詞。",
+      "en": "Press on, press ahead and press forward are already complete expressions. Add with + a noun only when you want to name the work, plan or activity being continued. They pressed on. They pressed on with the work."
+    },
+    {
+      "titleZh": "press for something 表示強烈要求某事;press somebody for something 表示向某人追問或催促某人提供某事。",
+      "titleEn": "Compare these two forms: They pressed for an answer.",
+      "zh": "press for something 表示強烈要求某事;press somebody for something 表示向某人追問或催促某人提供某事。",
+      "en": "Compare these two forms: They pressed for an answer. They pressed him for an answer."
+    },
+    {
+      "titleZh": "當某人硬要另一個人接受某物時,使用 press + 某物 + on + 某人。",
+      "titleEn": "When someone strongly insists that another person accept something, use: press + something + on + somebody She pressed it on me.",
+      "zh": "當某人硬要另一個人接受某物時,使用 press + 某物 + on + 某人。",
+      "en": "When someone strongly insists that another person accept something, use: press + something + on + somebody She pressed it on me."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PRESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PRESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PRESS 動詞片語句子改寫練習",
+    "titleEn": "PRESS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PRESS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PRESS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-273-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The crowd moved closer around us from every side.",
+      "promptZh": "人群從四面向我們靠近。",
+      "starter": "The",
+      "answer": "The crowd pressed in on us from every side.",
+      "answerZh": "人群從四面向我們逼近。",
+      "highlight": "pressed in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "The hikers continued, although it was getting dark.",
+      "promptZh": "雖然天色漸暗,遠足者仍繼續前進。",
+      "starter": "The",
+      "answer": "The hikers pressed on, although it was getting dark.",
+      "answerZh": "雖然天色漸暗,遠足者仍繼續前進。",
+      "highlight": "pressed on",
+      "targetForm": "press on",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Our host strongly insisted that we take more cake.",
+      "promptZh": "主人硬要我們再吃些蛋糕。",
+      "starter": "Our",
+      "answer": "Our host pressed more cake on us.",
+      "answerZh": "主人硬要我們再吃些蛋糕。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The workers are demanding a pay rise.",
+      "promptZh": "工人正強烈要求加薪。",
+      "starter": "The",
+      "answer": "The workers are pressing for a pay rise.",
+      "answerZh": "工人正強烈要求加薪。",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Despite the heavy rain, the team continued moving forward.",
+      "promptZh": "儘管下着大雨,球隊仍繼續向前。",
+      "starter": "Despite",
+      "answer": "Despite the heavy rain, the team pressed forward.",
+      "answerZh": "儘管下着大雨,球隊仍繼續向前。",
+      "highlight": "pressed",
+      "targetForm": "press forward",
+      "targetMeaningZh": "繼續向前;繼續推進"
+    },
+    {
+      "id": "phrasal-verb-273-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Darkness closed around the lost walkers.",
+      "promptZh": "黑暗逐漸包圍迷路的遠足者。",
+      "starter": "Darkness",
+      "answer": "Darkness pressed in on the lost walkers.",
+      "answerZh": "黑暗逐漸從四周逼近迷路的遠足者。",
+      "highlight": "pressed in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Parents are urging the council to provide safer crossings near the school.",
+      "promptZh": "家長正催促地方議會在學校附近提供更安全的行人過路處。",
+      "starter": "Parents",
+      "answer": "Parents are pressing the council for safer crossings near the school.",
+      "answerZh": "家長正催促地方議會在學校附近提供更安全的行人過路處。",
+      "highlight": "pressing",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Her aunt insisted that she accept a warm coat.",
+      "promptZh": "她的姨姨硬要她接受一件保暖外套。",
+      "starter": "Her",
+      "answer": "Her aunt pressed a warm coat on her.",
+      "answerZh": "她的姨姨硬要她接受一件保暖外套。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "We continued with the project after the first plan failed.",
+      "promptZh": "第一個計劃失敗後,我們仍繼續推進項目。",
+      "starter": "We",
+      "answer": "We pressed ahead with the project after the first plan failed.",
+      "answerZh": "第一個計劃失敗後,我們仍繼續推進項目。",
+      "highlight": "pressed ahead",
+      "targetForm": "press ahead with something",
+      "targetMeaningZh": "繼續推進某事"
+    },
+    {
+      "id": "phrasal-verb-273-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Local people are demanding cleaner water.",
+      "promptZh": "當地居民正強烈要求提供更潔淨的食水。",
+      "starter": "Local",
+      "answer": "Local people are pressing for cleaner water.",
+      "answerZh": "當地居民正強烈要求提供更潔淨的食水。",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The walls seem to be closing around him.",
+      "promptZh": "牆壁彷彿正從四周向他逼近。",
+      "starter": "The",
+      "answer": "The walls seem to be pressing in on him.",
+      "answerZh": "牆壁彷彿正從四周向他逼近。",
+      "highlight": "pressing in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Workers have been demanding better safety rules for weeks.",
+      "promptZh": "數星期來,工人一直強烈要求制定更完善的安全規則。",
+      "starter": "Workers",
+      "answer": "Workers have been pressing for better safety rules for weeks.",
+      "answerZh": "數星期來,工人一直強烈要求制定更完善的安全規則。",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "She continues with her training even when she is tired.",
+      "promptZh": "即使疲倦,她仍繼續訓練。",
+      "starter": "She",
+      "answer": "She presses on with her training even when she is tired.",
+      "answerZh": "即使疲倦,她仍繼續訓練。",
+      "highlight": "presses on",
+      "targetForm": "press on with something",
+      "targetMeaningZh": "繼續進行某事"
+    },
+    {
+      "id": "phrasal-verb-273-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Leo’s neighbour insisted that he accept a bag of oranges.",
+      "promptZh": "里奧的鄰居硬要他接受一袋橙。",
+      "starter": "Leo’s",
+      "answer": "Leo’s neighbour pressed a bag of oranges on him.",
+      "answerZh": "里奧的鄰居硬要他接受一袋橙。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Was the crowd moving closer around you?",
+      "promptZh": "人群當時是否正從四周向你逼近?",
+      "starter": "Was",
+      "answer": "Was the crowd pressing in on you?",
+      "answerZh": "人群當時是否正從四周向你逼近?",
+      "highlight": "pressing in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Are the students demanding a longer lunch break?",
+      "promptZh": "學生是否正強烈要求延長午膳時間?",
+      "starter": "Are",
+      "answer": "Are the students pressing for a longer lunch break?",
+      "answerZh": "學生是否正強烈要求延長午膳時間?",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "They did not insist that we accept their advice.",
+      "promptZh": "他們沒有硬要我們接受他們的意見。",
+      "starter": "They",
+      "answer": "They did not press their advice on us.",
+      "answerZh": "他們沒有硬要我們接受他們的意見。",
+      "highlight": "press",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "After a short rest, the runners continued.",
+      "promptZh": "短暫休息後,跑手繼續前進。",
+      "starter": "After",
+      "answer": "After a short rest, the runners pressed on.",
+      "answerZh": "短暫休息後,跑手繼續前進。",
+      "highlight": "pressed on",
+      "targetForm": "press on",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "All these worries have begun to close around her.",
+      "promptZh": "所有這些憂慮開始從四面向她壓過來。",
+      "starter": "All",
+      "answer": "All these worries have begun to press in on her.",
+      "answerZh": "所有這些憂慮開始從四面向她壓過來。",
+      "highlight": "press in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "令某人感到被問題或憂慮包圍"
+    },
+    {
+      "id": "phrasal-verb-273-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Why did the reporter keep asking the coach for a clear answer?",
+      "promptZh": "記者為甚麼不斷追問教練,要求一個清楚的答案?",
+      "starter": "Why",
+      "answer": "Why did the reporter press the coach for a clear answer?",
+      "answerZh": "記者為甚麼再三追問教練,要求一個清楚的答案?",
+      "highlight": "press",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The shopkeeper offered me a free sample. She insisted that I accept it.",
+      "promptZh": "店主給我一份免費試用品,並硬要我接受。",
+      "starter": "The",
+      "answer": "The shopkeeper offered me a free sample. She pressed it on me.",
+      "answerZh": "店主給我一份免費試用品,並硬要我接受。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "We must continue with the work before the weather changes.",
+      "promptZh": "我們必須在天氣轉變前繼續工作。",
+      "starter": "We",
+      "answer": "We must press on with the work before the weather changes.",
+      "answerZh": "我們必須在天氣轉變前繼續工作。",
+      "highlight": "press on",
+      "targetForm": "press on with something",
+      "targetMeaningZh": "繼續進行某事"
+    },
+    {
+      "id": "phrasal-verb-273-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The lift was crowded. People moved closer around us as more passengers entered.",
+      "promptZh": "升降機十分擠迫。隨着更多乘客進入,人們逐漸從四周向我們靠近。",
+      "starter": "The",
+      "answer": "The lift was crowded. People pressed in on us as more passengers entered.",
+      "answerZh": "升降機十分擠迫。隨着更多乘客進入,人們逐漸從四周向我們逼近。",
+      "highlight": "pressed in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The witness was repeatedly asked for more details.",
+      "promptZh": "證人被再三追問更多細節。",
+      "starter": "The",
+      "answer": "The witness was pressed for more details.",
+      "answerZh": "證人被再三追問更多細節。",
+      "highlight": "pressed",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Priya had not asked for advice, but her cousin kept insisting that she follow it.",
+      "promptZh": "普里雅沒有要求別人給意見,但她的表親仍不斷硬要她接受那些意見。",
+      "starter": "Priya",
+      "answer": "Priya had not asked for advice, but her cousin kept pressing it on her.",
+      "answerZh": "普里雅沒有要求別人給意見,但她的表親仍不斷硬要她接受那些意見。",
+      "highlight": "pressing",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Although the road was difficult, the group continued towards the village.",
+      "promptZh": "雖然道路難行,眾人仍繼續向村莊前進。",
+      "starter": "Although",
+      "answer": "Although the road was difficult, the group pressed on towards the village.",
+      "answerZh": "雖然道路難行,眾人仍繼續向村莊前進。",
+      "highlight": "pressed on",
+      "targetForm": "press on",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The police may keep asking him for an explanation.",
+      "promptZh": "警方可能會不斷追問他,要求他作出解釋。",
+      "starter": "The",
+      "answer": "The police may press him for an explanation.",
+      "answerZh": "警方可能會追問他,要求他作出解釋。",
+      "highlight": "press",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "At night, the silence seemed to close around the child.",
+      "promptZh": "夜裏,寂靜彷彿從四周逼近那個孩子。",
+      "starter": "At",
+      "answer": "At night, the silence seemed to press in upon the child.",
+      "answerZh": "夜裏,寂靜彷彿從四周逼近那個孩子。",
+      "highlight": "press in upon",
+      "targetForm": "press in upon somebody",
+      "targetMeaningZh": "從四周逼近某人;令某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-273-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The company is continuing with its plans for the new shop.",
+      "promptZh": "公司正繼續推進新店的計劃。",
+      "starter": "The",
+      "answer": "The company is pressing ahead with its plans for the new shop.",
+      "answerZh": "公司正繼續推進新店的計劃。",
+      "highlight": "pressing ahead",
+      "targetForm": "press ahead with something",
+      "targetMeaningZh": "繼續推進某事"
+    },
+    {
+      "id": "phrasal-verb-273-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Sam refused the extra money, but his uncle kept insisting that he take it.",
+      "promptZh": "森姆拒絕了額外的金錢,但他的叔叔仍硬要他接受。",
+      "starter": "Sam",
+      "answer": "Sam refused the extra money, but his uncle kept pressing it on him.",
+      "answerZh": "森姆拒絕了額外的金錢,但他的叔叔仍硬要他接受。",
+      "highlight": "pressing",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Several problems seemed to close around Nora at once.",
+      "promptZh": "幾個問題彷彿同時從四面向諾拉壓過來。",
+      "starter": "Several",
+      "answer": "Several problems seemed to press in on Nora at once.",
+      "answerZh": "幾個問題彷彿同時從四面向諾拉壓過來。",
+      "highlight": "press in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "令某人感到被問題包圍"
+    },
+    {
+      "id": "phrasal-verb-273-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I only asked for one cup of tea, but they insisted that I take another.",
+      "promptZh": "我只要求一杯茶,但他們硬要我再喝一杯。",
+      "starter": "I",
+      "answer": "I only asked for one cup of tea, but they pressed another on me.",
+      "answerZh": "我只要求一杯茶,但他們硬要我再喝一杯。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The tenants kept demanding repairs to the lift.",
+      "promptZh": "租戶不斷強烈要求維修升降機。",
+      "starter": "The",
+      "answer": "The tenants kept pressing for repairs to the lift.",
+      "answerZh": "租戶不斷強烈要求維修升降機。",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Even after the first idea failed, the organisers continued with the event.",
+      "promptZh": "即使第一個構思失敗,主辦人仍繼續籌辦活動。",
+      "starter": "Even",
+      "answer": "Even after the first idea failed, the organisers pressed ahead with the event.",
+      "answerZh": "即使第一個構思失敗,主辦人仍繼續籌辦活動。",
+      "highlight": "pressed ahead",
+      "targetForm": "press ahead with something",
+      "targetMeaningZh": "繼續推進某事"
+    },
+    {
+      "id": "phrasal-verb-273-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Reporters moved very close around the actor outside the theatre.",
+      "promptZh": "記者在劇院外從四周逼近那名演員。",
+      "starter": "Reporters",
+      "answer": "Reporters pressed in on the actor outside the theatre.",
+      "answerZh": "記者在劇院外從四周逼近那名演員。",
+      "highlight": "pressed in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "His friends kept insisting that he accept the free tickets even after he had refused them.",
+      "promptZh": "即使他已拒絕免費門票,他的朋友仍硬要他接受。",
+      "starter": "His",
+      "answer": "His friends kept pressing the free tickets on him even after he had refused them.",
+      "answerZh": "即使他已拒絕免費門票,他的朋友仍硬要他接受。",
+      "highlight": "pressing",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The students did not stop when the task became harder; they continued.",
+      "promptZh": "任務變得更困難時,學生沒有停下來;他們繼續下去。",
+      "starter": "The",
+      "answer": "The students did not stop when the task became harder; they pressed on.",
+      "answerZh": "任務變得更困難時,學生沒有停下來;他們繼續下去。",
+      "highlight": "pressed on",
+      "targetForm": "press on",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The interviewer asked the singer again and again for the real reason.",
+      "promptZh": "訪問員再三追問歌手真正的原因。",
+      "starter": "The",
+      "answer": "The interviewer pressed the singer for the real reason.",
+      "answerZh": "訪問員再三追問歌手真正的原因。",
+      "highlight": "pressed",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Our neighbours insisted that we accept several boxes of fruit.",
+      "promptZh": "鄰居硬要我們接受幾箱水果。",
+      "starter": "Our",
+      "answer": "Our neighbours pressed several boxes of fruit on us.",
+      "answerZh": "鄰居硬要我們接受幾箱水果。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "During the storm, the people in the small boat felt the sea and darkness closing around them.",
+      "promptZh": "暴風雨期間,小船上的人感到海浪和黑暗從四面向他們逼近。",
+      "starter": "During",
+      "answer": "During the storm, the sea and darkness seemed to press in on the people in the small boat.",
+      "answerZh": "暴風雨期間,海浪和黑暗彷彿從四面向小船上的人逼近。",
+      "highlight": "the sea and darkness seemed to press in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人;令某人感到受壓"
+    },
+    {
+      "id": "phrasal-verb-273-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The committee wanted a decision, so it kept strongly asking the manager for one before Friday.",
+      "promptZh": "委員會希望得到決定,因此不斷催促經理在星期五前作出決定。",
+      "starter": "The",
+      "answer": "The committee wanted a decision, so it kept pressing the manager for one before Friday.",
+      "answerZh": "委員會希望得到決定,因此不斷催促經理在星期五前作出決定。",
+      "highlight": "pressing",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Though several people told her to stop, Eva continued because she believed the plan could work.",
+      "promptZh": "雖然幾個人叫伊娃停下來,但她相信計劃可行,因此仍繼續下去。",
+      "starter": "Though",
+      "answer": "Though several people told her to stop, Eva pressed ahead because she believed the plan could work.",
+      "answerZh": "雖然幾個人叫伊娃停下來,但她相信計劃可行,因此仍繼續下去。",
+      "highlight": "pressed ahead",
+      "targetForm": "press ahead",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The host knew we were full, but he still insisted that we take more food.",
+      "promptZh": "主人知道我們已經吃飽,但仍硬要我們再吃些食物。",
+      "starter": "The",
+      "answer": "The host knew we were full, but he still pressed more food on us.",
+      "answerZh": "主人知道我們已經吃飽,但仍硬要我們再吃些食物。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "With the crowd getting closer from every side, the children could hardly move.",
+      "promptZh": "人群從四面愈靠愈近,孩子們幾乎無法移動。",
+      "starter": "With",
+      "answer": "With the crowd pressing in on them from every side, the children could hardly move.",
+      "answerZh": "人群從四面向孩子們逼近,他們幾乎無法移動。",
+      "highlight": "pressing in on them",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "從四周逼近某人"
+    },
+    {
+      "id": "phrasal-verb-273-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Residents are demanding a meeting because the road has become dangerous.",
+      "promptZh": "由於道路已變得危險,居民正強烈要求舉行會議。",
+      "starter": "Residents",
+      "answer": "Residents are pressing for a meeting because the road has become dangerous.",
+      "answerZh": "由於道路已變得危險,居民正強烈要求舉行會議。",
+      "highlight": "pressing for",
+      "targetForm": "press for something",
+      "targetMeaningZh": "強烈要求某事"
+    },
+    {
+      "id": "phrasal-verb-273-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Rather than wait for perfect conditions, the team decided to continue.",
+      "promptZh": "球隊決定繼續下去,而不是等待最理想的條件。",
+      "starter": "Rather",
+      "answer": "Rather than wait for perfect conditions, the team decided to press on.",
+      "answerZh": "球隊決定繼續下去,而不是等待最理想的條件。",
+      "highlight": "press on",
+      "targetForm": "press on",
+      "targetMeaningZh": "即使遇到困難仍繼續"
+    },
+    {
+      "id": "phrasal-verb-273-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "As his worries seemed to close around him, Ben found it difficult to think clearly.",
+      "promptZh": "當憂慮彷彿從四周向賓壓過來時,他很難清楚思考。",
+      "starter": "As",
+      "answer": "As his worries pressed in on him, Ben found it difficult to think clearly.",
+      "answerZh": "當憂慮從四周向賓壓過來時,他很難清楚思考。",
+      "highlight": "pressed in on",
+      "targetForm": "press in on somebody",
+      "targetMeaningZh": "令某人感到被憂慮或問題包圍"
+    },
+    {
+      "id": "phrasal-verb-273-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "She knew I did not need the money, but she still insisted that I accept it.",
+      "promptZh": "她知道我不需要那些錢,但仍硬要我接受。",
+      "starter": "She",
+      "answer": "She knew I did not need the money, but she still pressed it on me.",
+      "answerZh": "她知道我不需要那些錢,但仍硬要我接受。",
+      "highlight": "pressed",
+      "targetForm": "press something on somebody",
+      "targetMeaningZh": "硬要某人接受某物"
+    },
+    {
+      "id": "phrasal-verb-273-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "The journalist did not accept the short reply and kept asking the mayor for more details.",
+      "promptZh": "記者不接受那個簡短答覆,並不斷追問市長更多細節。",
+      "starter": "The",
+      "answer": "The journalist did not accept the short reply and kept pressing the mayor for more details.",
+      "answerZh": "記者不接受那個簡短答覆,並不斷追問市長更多細節。",
+      "highlight": "pressing",
+      "targetForm": "press somebody for something",
+      "targetMeaningZh": "向某人追問或催促某人提供某事"
+    },
+    {
+      "id": "phrasal-verb-273-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 18,
+      "prompt": "After two members left, the group chose to continue with the project instead of giving up.",
+      "promptZh": "兩名成員離開後,團隊選擇繼續推進項目,而不是放棄。",
+      "starter": "After",
+      "answer": "After two members left, the group chose to press forward with the project instead of giving up.",
+      "answerZh": "兩名成員離開後,團隊選擇繼續推進項目,而不是放棄。",
+      "highlight": "press forward",
+      "targetForm": "press forward with something",
+      "targetMeaningZh": "繼續推進某事"
+    }
+  ]
+}

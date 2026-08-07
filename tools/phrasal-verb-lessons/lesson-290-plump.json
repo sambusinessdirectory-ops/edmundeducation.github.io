@@ -1,0 +1,1442 @@
+{
+  "id": "phrasal-verb-290",
+  "order": 290,
+  "slug": "plump",
+  "version": "1",
+  "title": "PLUMP 動詞片語",
+  "titleEn": "Plump",
+  "titleZh": "PLUMP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 275 - PLUMP.pdf",
+    "sourceNumber": 275,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PLUMP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PLUMP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PLUMP",
+      "highlight": "PLUMP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I think I will plump for the fish.",
+      "zh": "我想我會選擇魚。",
+      "highlight": "plump for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He plumped down on the sofa.",
+      "zh": "他重重地坐在梳化上。",
+      "highlight": "plumped down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She plumped her bag down by the door.",
+      "zh": "她把手袋重重地放在門旁。",
+      "highlight": "plumped her bag down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "經過考慮後選擇某人或某事物；重重地坐下;一下子坐下；把某物重重地或突然地放下；在浸泡或烹煮後變得較飽滿、柔軟；把枕頭或靠墊拍鬆,令其回復飽滿",
+    "en": "plump for somebody/something; plump down / plump yourself down; plump something down; plump up; plump something up",
+    "naturalZh": [
+      "經過考慮後選擇某人或某事物",
+      "重重地坐下;一下子坐下",
+      "把某物重重地或突然地放下",
+      "在浸泡或烹煮後變得較飽滿、柔軟",
+      "把枕頭或靠墊拍鬆,令其回復飽滿"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "plump for somebody/something",
+      "titleZh": "經過考慮後選擇某人或某事物",
+      "titleEn": "plump for somebody/something",
+      "descriptionZh": "經過考慮後選擇某人或某事物",
+      "descriptionEn": "I think I will plump for the fish.",
+      "examples": [
+        {
+          "en": "I think I will plump for the fish.",
+          "zh": "我想我會選擇魚。",
+          "highlight": "plump for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plump down / plump yourself down",
+      "titleZh": "重重地坐下;一下子坐下",
+      "titleEn": "plump down / plump yourself down",
+      "descriptionZh": "重重地坐下;一下子坐下",
+      "descriptionEn": "He plumped down on the sofa.",
+      "examples": [
+        {
+          "en": "He plumped down on the sofa.",
+          "zh": "他重重地坐在梳化上。",
+          "highlight": "plumped down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plump something down",
+      "titleZh": "把某物重重地或突然地放下",
+      "titleEn": "plump something down",
+      "descriptionZh": "把某物重重地或突然地放下",
+      "descriptionEn": "She plumped her bag down by the door.",
+      "examples": [
+        {
+          "en": "She plumped her bag down by the door.",
+          "zh": "她把手袋重重地放在門旁。",
+          "highlight": "plumped her bag down"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "plump up",
+      "titleZh": "在浸泡或烹煮後變得較飽滿、柔軟",
+      "titleEn": "plump up",
+      "descriptionZh": "在浸泡或烹煮後變得較飽滿、柔軟",
+      "descriptionEn": "The raisins plumped up in the warm water.",
+      "examples": [
+        {
+          "en": "The raisins plumped up in the warm water.",
+          "zh": "提子乾在暖水中浸得飽滿柔軟。",
+          "highlight": "plumped up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "plump something up",
+      "titleZh": "把枕頭或靠墊拍鬆,令其回復飽滿",
+      "titleEn": "plump something up",
+      "descriptionZh": "把枕頭或靠墊拍鬆,令其回復飽滿",
+      "descriptionEn": "Please plump up the pillows.",
+      "examples": [
+        {
+          "en": "Please plump up the pillows.",
+          "zh": "請把枕頭拍鬆,令它們回復飽滿。",
+          "highlight": "plump up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PLUMP 片語動詞的實際用途",
+    "labelEn": "PLUMP Phrasal Verbs in Use",
+    "summaryZh": "plump for 可用來說明你最後選擇哪一款食物、哪一個人、哪種顏色或哪項計劃。；plump down 可以表示重重地坐下;plump something down 則可以表示把物件重重地放下。；plump up 可以描述提子乾、乾果或米粒變得較飽滿柔軟。；plump something up 可用來描述把扁平的枕頭或靠墊拍鬆,令它重新變得飽滿舒適。",
+    "summaryEn": "Plump for helps you say which meal, person, colour or plan you finally choose. Plump down can describe sitting down heavily, while plump something down describes putting an object down heavily. Plump up can describe raisins, dried fruit or rice becoming fuller and softer. Plump something up helps you describe making a flat pillow or cushion look full and comfortable again.",
+    "contextsZh": [
+      "談論最後作出的選擇",
+      "描述重重或突然的動作",
+      "描述乾製食物浸泡後的變化",
+      "談論枕頭和靠墊"
+    ],
+    "contextsEn": [
+      "Talk about making a choice",
+      "Describe heavy or sudden movements",
+      "Describe dried food changing in water",
+      "Talk about pillows and cushions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PLUMP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PLUMP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "plump for somebody/something",
+    "fixedHighlight": "plump for somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 PLUMP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PLUMP expression that gives the same meaning.",
+    "correct": "plump for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；plump down 和 plump yourself down 都可以表示重重地坐下。；使用 it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Plump down and plump yourself down can both describe sitting down heavily: He plumped down on the sofa. She plumped herself down in the armchair. When using it or them in these expressions, place the word as shown: plump it down plump them up",
+    "variableItemsZh": [
+      "plump for somebody/something",
+      "plump down / plump yourself down",
+      "plump something down",
+      "plump up",
+      "plump something up"
+    ],
+    "variableItemsEn": [
+      "plump for somebody/something",
+      "plump down / plump yourself down",
+      "plump something down",
+      "plump up",
+      "plump something up"
+    ],
+    "forms": [
+      {
+        "formZh": "經過考慮後選擇某人或某事物",
+        "formEn": "plump for somebody/something",
+        "exampleZh": "我想我會選擇魚。",
+        "exampleEn": "I think I will plump for the fish.",
+        "highlight": "plump for"
+      },
+      {
+        "formZh": "重重地坐下;一下子坐下",
+        "formEn": "plump down / plump yourself down",
+        "exampleZh": "他重重地坐在梳化上。",
+        "exampleEn": "He plumped down on the sofa.",
+        "highlight": "plumped down"
+      },
+      {
+        "formZh": "把某物重重地或突然地放下",
+        "formEn": "plump something down",
+        "exampleZh": "她把手袋重重地放在門旁。",
+        "exampleEn": "She plumped her bag down by the door.",
+        "highlight": "plumped her bag down"
+      },
+      {
+        "formZh": "在浸泡或烹煮後變得較飽滿、柔軟",
+        "formEn": "plump up",
+        "exampleZh": "提子乾在暖水中浸得飽滿柔軟。",
+        "exampleEn": "The raisins plumped up in the warm water.",
+        "highlight": "plumped up"
+      },
+      {
+        "formZh": "把枕頭或靠墊拍鬆,令其回復飽滿",
+        "formEn": "plump something up",
+        "exampleZh": "請把枕頭拍鬆,令它們回復飽滿。",
+        "exampleEn": "Please plump up the pillows.",
+        "highlight": "plump up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "經過考慮後選擇某人或某事物",
+      "titleEn": "plump for somebody/something",
+      "formula": "plump for somebody/something",
+      "highlight": "plump for somebody/something",
+      "descriptionZh": "經過考慮後選擇某人或某事物",
+      "descriptionEn": "I think I will plump for the fish.",
+      "examples": [
+        {
+          "en": "I think I will plump for the fish.",
+          "zh": "我想我會選擇魚。",
+          "highlight": "plump for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "重重地坐下;一下子坐下",
+      "titleEn": "plump down / plump yourself down",
+      "formula": "plump down / plump yourself down",
+      "highlight": "plump down / plump yourself down",
+      "descriptionZh": "重重地坐下;一下子坐下",
+      "descriptionEn": "He plumped down on the sofa.",
+      "examples": [
+        {
+          "en": "He plumped down on the sofa.",
+          "zh": "他重重地坐在梳化上。",
+          "highlight": "plumped down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物重重地或突然地放下",
+      "titleEn": "plump something down",
+      "formula": "plump something down",
+      "highlight": "plump something down",
+      "descriptionZh": "把某物重重地或突然地放下",
+      "descriptionEn": "She plumped her bag down by the door.",
+      "examples": [
+        {
+          "en": "She plumped her bag down by the door.",
+          "zh": "她把手袋重重地放在門旁。",
+          "highlight": "plumped her bag down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在浸泡或烹煮後變得較飽滿、柔軟",
+      "titleEn": "plump up",
+      "formula": "plump up",
+      "highlight": "plump up",
+      "descriptionZh": "在浸泡或烹煮後變得較飽滿、柔軟",
+      "descriptionEn": "The raisins plumped up in the warm water.",
+      "examples": [
+        {
+          "en": "The raisins plumped up in the warm water.",
+          "zh": "提子乾在暖水中浸得飽滿柔軟。",
+          "highlight": "plumped up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把枕頭或靠墊拍鬆,令其回復飽滿",
+      "titleEn": "plump something up",
+      "formula": "plump something up",
+      "highlight": "plump something up",
+      "descriptionZh": "把枕頭或靠墊拍鬆,令其回復飽滿",
+      "descriptionEn": "Please plump up the pillows.",
+      "examples": [
+        {
+          "en": "Please plump up the pillows.",
+          "zh": "請把枕頭拍鬆,令它們回復飽滿。",
+          "highlight": "plump up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論最後作出的選擇",
+      "titleEn": "Talk about making a choice",
+      "zh": "plump for 可用來說明你最後選擇哪一款食物、哪一個人、哪種顏色或哪項計劃。",
+      "en": "Plump for helps you say which meal, person, colour or plan you finally choose."
+    },
+    {
+      "titleZh": "描述重重或突然的動作",
+      "titleEn": "Describe heavy or sudden movements",
+      "zh": "plump down 可以表示重重地坐下;plump something down 則可以表示把物件重重地放下。",
+      "en": "Plump down can describe sitting down heavily, while plump something down describes putting an object down heavily."
+    },
+    {
+      "titleZh": "描述乾製食物浸泡後的變化",
+      "titleEn": "Describe dried food changing in water",
+      "zh": "plump up 可以描述提子乾、乾果或米粒變得較飽滿柔軟。",
+      "en": "Plump up can describe raisins, dried fruit or rice becoming fuller and softer."
+    },
+    {
+      "titleZh": "談論枕頭和靠墊",
+      "titleEn": "Talk about pillows and cushions",
+      "zh": "plump something up 可用來描述把扁平的枕頭或靠墊拍鬆,令它重新變得飽滿舒適。",
+      "en": "Plump something up helps you describe making a flat pillow or cushion look full and comfortable again."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論最後作出的選擇",
+      "描述重重或突然的動作",
+      "描述乾製食物浸泡後的變化",
+      "談論枕頭和靠墊"
+    ],
+    "contextsEn": [
+      "Talk about making a choice",
+      "Describe heavy or sudden movements",
+      "Describe dried food changing in water",
+      "Talk about pillows and cushions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論最後作出的選擇",
+        "titleEn": "Talk about making a choice",
+        "zh": "plump for 可用來說明你最後選擇哪一款食物、哪一個人、哪種顏色或哪項計劃。",
+        "en": "Plump for helps you say which meal, person, colour or plan you finally choose.",
+        "examples": [
+          {
+            "en": "I think I will plump for the fish.",
+            "zh": "我想我會選擇魚。",
+            "highlight": "plump for"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述重重或突然的動作",
+        "titleEn": "Describe heavy or sudden movements",
+        "zh": "plump down 可以表示重重地坐下;plump something down 則可以表示把物件重重地放下。",
+        "en": "Plump down can describe sitting down heavily, while plump something down describes putting an object down heavily.",
+        "examples": [
+          {
+            "en": "He plumped down on the sofa.",
+            "zh": "他重重地坐在梳化上。",
+            "highlight": "plumped down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述乾製食物浸泡後的變化",
+        "titleEn": "Describe dried food changing in water",
+        "zh": "plump up 可以描述提子乾、乾果或米粒變得較飽滿柔軟。",
+        "en": "Plump up can describe raisins, dried fruit or rice becoming fuller and softer.",
+        "examples": [
+          {
+            "en": "She plumped her bag down by the door.",
+            "zh": "她把手袋重重地放在門旁。",
+            "highlight": "plumped her bag down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論枕頭和靠墊",
+        "titleEn": "Talk about pillows and cushions",
+        "zh": "plump something up 可用來描述把扁平的枕頭或靠墊拍鬆,令它重新變得飽滿舒適。",
+        "en": "Plump something up helps you describe making a flat pillow or cushion look full and comfortable again.",
+        "examples": [
+          {
+            "en": "The raisins plumped up in the warm water.",
+            "zh": "提子乾在暖水中浸得飽滿柔軟。",
+            "highlight": "plumped up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PLUMP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PLUMP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PLUMP 片語動詞。",
+      "en": "Read the whole sentence and choose the PLUMP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "plump down 和 plump yourself down 都可以表示重重地坐下。",
+      "titleEn": "Plump down and plump yourself down can both describe sitting down heavily: He plumped down on the sofa.",
+      "zh": "plump down 和 plump yourself down 都可以表示重重地坐下。",
+      "en": "Plump down and plump yourself down can both describe sitting down heavily: He plumped down on the sofa. She plumped herself down in the armchair."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in these expressions, place the word as shown: plump it down plump them up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in these expressions, place the word as shown: plump it down plump them up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PLUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PLUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PLUMP 動詞片語句子改寫練習",
+    "titleEn": "PLUMP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PLUMP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PLUMP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-290-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "I think I will choose the vegetable soup.",
+      "promptZh": "我想我會選擇雜菜湯。",
+      "starter": "I",
+      "answer": "I think I will plump for the vegetable soup.",
+      "answerZh": "我想我會選擇雜菜湯。",
+      "highlight": "plump for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Leo put his bag down heavily by the door.",
+      "promptZh": "里奧把袋子重重地放在門旁。",
+      "starter": "Leo",
+      "answer": "Leo plumped his bag down by the door.",
+      "answerZh": "里奧把袋子重重地放在門旁。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Dad sat down heavily on the sofa after work.",
+      "promptZh": "爸爸下班後重重地坐在梳化上。",
+      "starter": "Dad",
+      "answer": "Dad plumped down on the sofa after work.",
+      "answerZh": "爸爸下班後重重地坐在梳化上。",
+      "highlight": "plumped",
+      "targetForm": "plump down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The raisins became full and soft in the warm water.",
+      "promptZh": "提子乾在暖水中變得飽滿柔軟。",
+      "starter": "The",
+      "answer": "The raisins plumped up in the warm water.",
+      "answerZh": "提子乾在暖水中浸得飽滿柔軟。",
+      "highlight": "plumped up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "在浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "After looking at both coats, Eva chose the blue one.",
+      "promptZh": "伊娃看過兩件外套後,選擇了藍色那件。",
+      "starter": "After",
+      "answer": "After looking at both coats, Eva plumped for the blue one.",
+      "answerZh": "伊娃看過兩件外套後,選擇了藍色那件。",
+      "highlight": "plumped for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I made the sofa cushions full and soft again before the guests arrived.",
+      "promptZh": "客人到達前,我把梳化靠墊拍鬆,令它們回復飽滿柔軟。",
+      "starter": "I",
+      "answer": "I plumped up the sofa cushions before the guests arrived.",
+      "answerZh": "客人到達前,我把梳化靠墊拍鬆,令它們回復飽滿柔軟。",
+      "highlight": "plumped up",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "She put the box down heavily on the floor.",
+      "promptZh": "她把箱子重重地放在地上。",
+      "starter": "She",
+      "answer": "She plumped the box down on the floor.",
+      "answerZh": "她把箱子重重地放在地上。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The tired child sat down heavily on the rug.",
+      "promptZh": "疲倦的孩子重重地坐在地氈上。",
+      "starter": "The",
+      "answer": "The tired child plumped herself down on the rug.",
+      "answerZh": "疲倦的孩子重重地坐在地氈上。",
+      "highlight": "plumped herself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please make your pillow full and soft again before you go to bed.",
+      "promptZh": "睡覺前,請把你的枕頭拍鬆,令它回復飽滿柔軟。",
+      "starter": "Please",
+      "answer": "Please plump your pillow up before you go to bed.",
+      "answerZh": "睡覺前,請把你的枕頭拍鬆,令它回復飽滿柔軟。",
+      "highlight": "plump",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把枕頭拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The class chose Noah as team leader.",
+      "promptZh": "全班選擇諾亞擔任隊長。",
+      "starter": "The",
+      "answer": "The class plumped for Noah as team leader.",
+      "answerZh": "全班選擇諾亞擔任隊長。",
+      "highlight": "plumped for",
+      "targetForm": "plump for somebody",
+      "targetMeaningZh": "經過考慮後選擇某人"
+    },
+    {
+      "id": "phrasal-verb-290-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "These dried cherries will become fuller as they soak.",
+      "promptZh": "這些櫻桃乾浸泡後會變得較飽滿。",
+      "starter": "These",
+      "answer": "These dried cherries will plump up as they soak.",
+      "answerZh": "這些櫻桃乾浸泡後會變得較飽滿。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "在浸泡後變得較飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The hotel worker made the cushions full and soft again.",
+      "promptZh": "酒店職員把靠墊拍鬆,令它們回復飽滿柔軟。",
+      "starter": "The",
+      "answer": "The hotel worker plumped the cushions up.",
+      "answerZh": "酒店職員把靠墊拍鬆,令它們回復飽滿柔軟。",
+      "highlight": "plumped",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Aisha is sitting down heavily in the armchair now.",
+      "promptZh": "艾莎現在正重重地坐進扶手椅裏。",
+      "starter": "Aisha",
+      "answer": "Aisha is plumping herself down in the armchair now.",
+      "answerZh": "艾莎現在正重重地坐進扶手椅裏。",
+      "highlight": "plumping herself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The rice has become full and soft in the soup.",
+      "promptZh": "湯裏的米已變得飽滿柔軟。",
+      "starter": "The",
+      "answer": "The rice has plumped up nicely in the soup.",
+      "answerZh": "湯裏的米已變得飽滿柔軟。",
+      "highlight": "plumped up nicely",
+      "targetForm": "plump up",
+      "targetMeaningZh": "烹煮後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did you choose the smaller room?",
+      "promptZh": "你為甚麼選擇較小的房間?",
+      "starter": "Why",
+      "answer": "Why did you plump for the smaller room?",
+      "answerZh": "你為甚麼選擇較小的房間?",
+      "highlight": "plump for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "He has just put the parcel down heavily on my desk.",
+      "promptZh": "他剛剛把包裹重重地放在我的書桌上。",
+      "starter": "He",
+      "answer": "He has just plumped the parcel down on my desk.",
+      "answerZh": "他剛剛把包裹重重地放在我的書桌上。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "We will sit down heavily on the grass when we reach the park.",
+      "promptZh": "我們到達公園後,會重重地坐在草地上。",
+      "starter": "We",
+      "answer": "We will plump down on the grass when we reach the park.",
+      "answerZh": "我們到達公園後,會重重地坐在草地上。",
+      "highlight": "plump",
+      "targetForm": "plump down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Could you make these cushions full and soft again for me?",
+      "promptZh": "你可以替我把這些靠墊拍鬆,令它們回復飽滿柔軟嗎?",
+      "starter": "Could",
+      "answer": "Could you plump these cushions up for me?",
+      "answerZh": "你可以替我把這些靠墊拍鬆,令它們回復飽滿柔軟嗎?",
+      "highlight": "plump",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The dried mushrooms are becoming fuller in the bowl.",
+      "promptZh": "碗裏的冬菇乾正變得較飽滿。",
+      "starter": "The",
+      "answer": "The dried mushrooms are plumping up in the bowl.",
+      "answerZh": "碗裏的冬菇乾正變得較飽滿。",
+      "highlight": "plumping up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Our group may choose the morning train.",
+      "promptZh": "我們這一組可能會選擇早上的火車。",
+      "starter": "Our",
+      "answer": "Our group may plump for the morning train.",
+      "answerZh": "我們這一組可能會選擇早上的火車。",
+      "highlight": "plump for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do not put your wet coat down heavily on the bed.",
+      "promptZh": "不要把濕外套重重地放在床上。",
+      "starter": "Do",
+      "answer": "Do not plump your wet coat down on the bed.",
+      "answerZh": "不要把濕外套重重地放在床上。",
+      "highlight": "plump",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Did Ben sit down heavily beside you?",
+      "promptZh": "賓有沒有重重地坐在你旁邊?",
+      "starter": "Did",
+      "answer": "Did Ben plump himself down beside you?",
+      "answerZh": "賓有沒有重重地坐在你旁邊?",
+      "highlight": "plump himself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "She always makes the pillows full and soft again before breakfast.",
+      "promptZh": "她總會在早餐前把枕頭拍鬆,令它們回復飽滿柔軟。",
+      "starter": "She",
+      "answer": "She always plumps the pillows up before breakfast.",
+      "answerZh": "她總會在早餐前把枕頭拍鬆,令它們回復飽滿柔軟。",
+      "highlight": "plumps",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把枕頭拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The dried fruit should become full and soft after an hour in water.",
+      "promptZh": "乾果在水中浸泡一小時後,應該會變得飽滿柔軟。",
+      "starter": "The",
+      "answer": "The dried fruit should plump up after an hour in water.",
+      "answerZh": "乾果在水中浸泡一小時後,應該會變得飽滿柔軟。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The pillows look flat, so I will make them full and soft again.",
+      "promptZh": "這些枕頭看來很扁平,所以我會把它們拍鬆,令它們回復飽滿柔軟。",
+      "starter": "The",
+      "answer": "The pillows look flat, so I will plump them up.",
+      "answerZh": "這些枕頭看來很扁平,所以我會把它們拍鬆。",
+      "highlight": "plump",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把枕頭拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Your books are heavy; do not put them down heavily on the glass table.",
+      "promptZh": "你的書很重;不要把它們重重地放在玻璃桌上。",
+      "starter": "Your",
+      "answer": "Your books are heavy; do not plump them down on the glass table.",
+      "answerZh": "你的書很重;不要把它們重重地放在玻璃桌上。",
+      "highlight": "plump",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We could not choose both desserts, so we chose the lemon cake.",
+      "promptZh": "我們不能同時選擇兩款甜品,所以選擇了檸檬蛋糕。",
+      "starter": "We",
+      "answer": "We could not choose both desserts, so we plumped for the lemon cake.",
+      "answerZh": "我們不能同時選擇兩款甜品,所以選擇了檸檬蛋糕。",
+      "highlight": "plumped for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "After soaking all night, the dried fruit had become full and soft.",
+      "promptZh": "乾果浸泡了一整晚後,已變得飽滿柔軟。",
+      "starter": "After",
+      "answer": "After soaking all night, the dried fruit had plumped up.",
+      "answerZh": "乾果浸泡了一整晚後,已變得飽滿柔軟。",
+      "highlight": "plumped up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Tom opened the door, came in and sat down heavily without saying a word.",
+      "promptZh": "湯姆開門進來,然後一言不發地重重坐下。",
+      "starter": "Tom",
+      "answer": "Tom opened the door, came in and plumped himself down without saying a word.",
+      "answerZh": "湯姆開門進來,然後一言不發地重重坐下。",
+      "highlight": "plumped himself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The waiter carried the plates over and put them down heavily in front of us.",
+      "promptZh": "侍應把碟子拿過來,重重地放在我們面前。",
+      "starter": "The",
+      "answer": "The waiter carried the plates over and plumped them down in front of us.",
+      "answerZh": "侍應把碟子拿過來,重重地放在我們面前。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The cleaner shook the two cushions and made them full again.",
+      "promptZh": "清潔工人搖了搖兩個靠墊,令它們回復飽滿。",
+      "starter": "The",
+      "answer": "The cleaner shook the two cushions and plumped them up.",
+      "answerZh": "清潔工人搖了搖兩個靠墊,令它們回復飽滿。",
+      "highlight": "plumped",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "If the red shoes are sold out, I will choose the black pair.",
+      "promptZh": "如果紅色鞋子售罄,我會選擇黑色那雙。",
+      "starter": "If",
+      "answer": "If the red shoes are sold out, I will plump for the black pair.",
+      "answerZh": "如果紅色鞋子售罄,我會選擇黑色那雙。",
+      "highlight": "plump for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Keep the dried apricots in water until they become full and soft.",
+      "promptZh": "把杏脯留在水中,直至它們變得飽滿柔軟。",
+      "starter": "Keep",
+      "answer": "Keep the dried apricots in water until they plump up.",
+      "answerZh": "把杏脯留在水中,直至它們變得飽滿柔軟。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Sofia was tired and put her shopping bags down heavily beside the chair.",
+      "promptZh": "索菲亞很疲倦,把購物袋重重地放在椅子旁。",
+      "starter": "Sofia",
+      "answer": "Sofia was tired and plumped her shopping bags down beside the chair.",
+      "answerZh": "索菲亞很疲倦,把購物袋重重地放在椅子旁。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the long walk, we sat down heavily under a tree.",
+      "promptZh": "長途步行後,我們重重地坐在一棵樹下。",
+      "starter": "After",
+      "answer": "After the long walk, we plumped down under a tree.",
+      "answerZh": "長途步行後,我們重重地坐在一棵樹下。",
+      "highlight": "plumped",
+      "targetForm": "plump down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "This old cushion is flat, so please make it full again before anyone sits on it.",
+      "promptZh": "這個舊靠墊很扁平,所以請在有人坐上去前把它拍鬆。",
+      "starter": "This",
+      "answer": "This old cushion is flat, so please plump it up before anyone sits on it.",
+      "answerZh": "這個舊靠墊很扁平,所以請在有人坐上去前把它拍鬆。",
+      "highlight": "plump",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The menu offers fish, pasta and curry, but I will probably choose the fish.",
+      "promptZh": "餐牌上有魚、意粉和咖喱,但我大概會選擇魚。",
+      "starter": "The",
+      "answer": "The menu offers fish, pasta and curry, but I will probably plump for the fish.",
+      "answerZh": "餐牌上有魚、意粉和咖喱,但我大概會選擇魚。",
+      "highlight": "plump for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Without warning, the boy put the muddy football down heavily on the clean table.",
+      "promptZh": "那個男孩突然把沾滿泥濘的足球重重地放在乾淨的桌上。",
+      "starter": "Without",
+      "answer": "Without warning, the boy plumped the muddy football down on the clean table.",
+      "answerZh": "那個男孩突然把沾滿泥濘的足球重重地放在乾淨的桌上。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物突然重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "When the meeting finally ended, Priya sat down heavily in the nearest chair.",
+      "promptZh": "會議終於結束時,普里雅重重地坐在最近的椅子上。",
+      "starter": "When",
+      "answer": "When the meeting finally ended, Priya plumped herself down in the nearest chair.",
+      "answerZh": "會議終於結束時,普里雅重重地坐在最近的椅子上。",
+      "highlight": "plumped herself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The pillows had become flat during the journey, so the host made them full again before bedtime.",
+      "promptZh": "枕頭在旅程中變得扁平,所以主人在睡覺前把它們拍鬆。",
+      "starter": "The",
+      "answer": "The pillows had become flat during the journey, so the host plumped them up before bedtime.",
+      "answerZh": "枕頭在旅程中變得扁平,所以主人在睡覺前把它們拍鬆。",
+      "highlight": "plumped",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把枕頭拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Once the dried apples become full and soft, add them to the cake mixture.",
+      "promptZh": "乾蘋果變得飽滿柔軟後,把它們加入蛋糕材料中。",
+      "starter": "Once",
+      "answer": "Once the dried apples plump up, add them to the cake mixture.",
+      "answerZh": "乾蘋果變得飽滿柔軟後,把它們加入蛋糕材料中。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The judges discussed the three singers and finally chose Daniel.",
+      "promptZh": "評判討論過三名歌手後,最後選擇了丹尼爾。",
+      "starter": "The",
+      "answer": "The judges discussed the three singers and finally plumped for Daniel.",
+      "answerZh": "評判討論過三名歌手後,最後選擇了丹尼爾。",
+      "highlight": "plumped for",
+      "targetForm": "plump for somebody",
+      "targetMeaningZh": "經過考慮後選擇某人"
+    },
+    {
+      "id": "phrasal-verb-290-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Please carry the vase carefully rather than putting it down heavily on the shelf.",
+      "promptZh": "請小心拿着花瓶,不要把它重重地放在架上。",
+      "starter": "Please",
+      "answer": "Please carry the vase carefully rather than plumping it down on the shelf.",
+      "answerZh": "請小心拿着花瓶,不要把它重重地放在架上。",
+      "highlight": "plumping",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Exhausted by the heat, the walkers sat down heavily beside the path.",
+      "promptZh": "步行者被炎熱天氣弄得筋疲力盡,重重地坐在小徑旁。",
+      "starter": "Exhausted",
+      "answer": "Exhausted by the heat, the walkers plumped down beside the path.",
+      "answerZh": "步行者被炎熱天氣弄得筋疲力盡,重重地坐在小徑旁。",
+      "highlight": "plumped",
+      "targetForm": "plump down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "I was unsure whether to order tea or coffee, but in the end I chose tea.",
+      "promptZh": "我不肯定應該點茶還是咖啡,但最後選擇了茶。",
+      "starter": "I",
+      "answer": "I was unsure whether to order tea or coffee, but in the end I plumped for tea.",
+      "answerZh": "我不肯定應該點茶還是咖啡,但最後選擇了茶。",
+      "highlight": "plumped for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The rice grains will grow larger and softer while the dish cooks.",
+      "promptZh": "菜式烹煮期間,米粒會變得較大和柔軟。",
+      "starter": "The",
+      "answer": "The rice grains will plump up while the dish cooks.",
+      "answerZh": "菜式烹煮期間,米粒會變得較飽滿柔軟。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "烹煮後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She walked into the room and put a thick folder down heavily in front of the manager.",
+      "promptZh": "她走進房間,把一個厚厚的文件夾重重地放在經理面前。",
+      "starter": "She",
+      "answer": "She walked into the room and plumped a thick folder down in front of the manager.",
+      "answerZh": "她走進房間,把一個厚厚的文件夾重重地放在經理面前。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Before taking the photograph, the shop assistant made every cushion on the sofa look full again.",
+      "promptZh": "拍照前,店員把梳化上的每個靠墊都拍得重新飽滿。",
+      "starter": "Before",
+      "answer": "Before taking the photograph, the shop assistant plumped up every cushion on the sofa.",
+      "answerZh": "拍照前,店員把梳化上的每個靠墊都拍得重新飽滿。",
+      "highlight": "plumped up",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "As soon as the last guest left, the host sat down heavily on the sofa and closed her eyes.",
+      "promptZh": "最後一名客人離開後,主人立即重重地坐在梳化上,閉上眼睛。",
+      "starter": "As",
+      "answer": "As soon as the last guest left, the host plumped herself down on the sofa and closed her eyes.",
+      "answerZh": "最後一名客人離開後,主人立即重重地坐在梳化上,閉上眼睛。",
+      "highlight": "plumped herself",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "If the raisins have not become full and soft yet, leave them in the warm water for another ten minutes.",
+      "promptZh": "如果提子乾仍未變得飽滿柔軟,便把它們留在暖水中多十分鐘。",
+      "starter": "If",
+      "answer": "If the raisins have not plumped up yet, leave them in the warm water for another ten minutes.",
+      "answerZh": "如果提子乾仍未變得飽滿柔軟,便把它們留在暖水中多十分鐘。",
+      "highlight": "plumped up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "We had considered several places for the school picnic, but we eventually chose the lake.",
+      "promptZh": "我們考慮過幾個學校旅行地點,但最後選擇了湖邊。",
+      "starter": "We",
+      "answer": "We had considered several places for the school picnic, but we eventually plumped for the lake.",
+      "answerZh": "我們考慮過幾個學校旅行地點,但最後選擇了湖邊。",
+      "highlight": "plumped for",
+      "targetForm": "plump for something",
+      "targetMeaningZh": "經過考慮後選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-290-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The box contained glass cups, so I was surprised when he put it down heavily on the floor.",
+      "promptZh": "箱子裏有玻璃杯,所以他把箱子重重地放在地上時,我感到十分驚訝。",
+      "starter": "The",
+      "answer": "The box contained glass cups, so I was surprised when he plumped it down on the floor.",
+      "answerZh": "箱子裏有玻璃杯,所以他把箱子重重地放在地上時,我感到十分驚訝。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The room looked untidy because the cushions were flat, so Noah made them full again and placed them neatly.",
+      "promptZh": "靠墊很扁平,令房間看來不整齊,所以諾亞把它們拍鬆,再整齊地放好。",
+      "starter": "The",
+      "answer": "The room looked untidy because the cushions were flat, so Noah plumped them up and placed them neatly.",
+      "answerZh": "靠墊很扁平,令房間看來不整齊,所以諾亞把它們拍鬆,再整齊地放好。",
+      "highlight": "plumped",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把靠墊拍鬆,令它回復飽滿"
+    },
+    {
+      "id": "phrasal-verb-290-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After carrying all the bags upstairs, I sat down heavily on the bed for a short rest.",
+      "promptZh": "把所有袋子搬上樓後,我重重地坐在床上休息一會兒。",
+      "starter": "After",
+      "answer": "After carrying all the bags upstairs, I plumped down on the bed for a short rest.",
+      "answerZh": "把所有袋子搬上樓後,我重重地坐在床上休息一會兒。",
+      "highlight": "plumped",
+      "targetForm": "plump down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "By the time the soup was ready, the rice had become full and soft.",
+      "promptZh": "湯煮好時,米已變得飽滿柔軟。",
+      "starter": "By",
+      "answer": "By the time the soup was ready, the rice had plumped up and become soft.",
+      "answerZh": "湯煮好時,米已變得飽滿柔軟。",
+      "highlight": "plumped up and",
+      "targetForm": "plump up",
+      "targetMeaningZh": "烹煮後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The panel had to choose one person for the final round, and it chose Aisha.",
+      "promptZh": "評審團需要選擇一人進入最後一輪,最後選擇了艾莎。",
+      "starter": "The",
+      "answer": "The panel had to choose one person for the final round, and it plumped for Aisha.",
+      "answerZh": "評審團需要選擇一人進入最後一輪,最後選擇了艾莎。",
+      "highlight": "plumped for",
+      "targetForm": "plump for somebody",
+      "targetMeaningZh": "經過考慮後選擇某人"
+    },
+    {
+      "id": "phrasal-verb-290-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "When the teacher asked for the homework, Sam put the whole pile down heavily on her desk.",
+      "promptZh": "老師要求收取功課時,森把整疊功課重重地放在她的書桌上。",
+      "starter": "When",
+      "answer": "When the teacher asked for the homework, Sam plumped the whole pile down on her desk.",
+      "answerZh": "老師要求收取功課時,森把整疊功課重重地放在她的書桌上。",
+      "highlight": "plumped",
+      "targetForm": "plump something down",
+      "targetMeaningZh": "把某物重重地放下"
+    },
+    {
+      "id": "phrasal-verb-290-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "There were no empty chairs, so the children sat down heavily on the carpet.",
+      "promptZh": "沒有空椅子,所以孩子們重重地坐在地氈上。",
+      "starter": "There",
+      "answer": "There were no empty chairs, so the children plumped themselves down on the carpet.",
+      "answerZh": "沒有空椅子,所以孩子們重重地坐在地氈上。",
+      "highlight": "plumped themselves",
+      "targetForm": "plump yourself down",
+      "targetMeaningZh": "重重地坐下"
+    },
+    {
+      "id": "phrasal-verb-290-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Soak the dried berries until they become full and soft, then add them to the warm porridge.",
+      "promptZh": "把乾莓浸至飽滿柔軟,然後把它們加入暖粥中。",
+      "starter": "Soak",
+      "answer": "Soak the dried berries until they plump up, then add them to the warm porridge.",
+      "answerZh": "把乾莓浸至飽滿柔軟,然後把它們加入暖粥中。",
+      "highlight": "plump up",
+      "targetForm": "plump up",
+      "targetMeaningZh": "浸泡後變得較飽滿柔軟"
+    },
+    {
+      "id": "phrasal-verb-290-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before the visitors arrived, we made the spare-room pillows full again and opened the window.",
+      "promptZh": "訪客到達前,我們把客房的枕頭拍鬆,並打開窗戶。",
+      "starter": "Before",
+      "answer": "Before the visitors arrived, we plumped the spare-room pillows up and opened the window.",
+      "answerZh": "訪客到達前,我們把客房的枕頭拍鬆,並打開窗戶。",
+      "highlight": "plumped",
+      "targetForm": "plump something up",
+      "targetMeaningZh": "把枕頭拍鬆,令它回復飽滿"
+    }
+  ]
+}

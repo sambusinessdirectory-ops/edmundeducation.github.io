@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-308",
+  "order": 308,
+  "slug": "hide",
+  "version": "1",
+  "title": "HIDE 動詞片語",
+  "titleEn": "Hide",
+  "titleZh": "HIDE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 293 - Hide.pdf",
+    "sourceNumber": 293,
+    "pageCount": 19,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HIDE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HIDE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HIDE",
+      "highlight": "HIDE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "After the argument, Ben hid away in his room.",
+      "zh": "爭執後,賓獨自躲在房間裏,不願見人。",
+      "highlight": "hid away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The thief hid out in an empty house.",
+      "zh": "那名小偷藏身在一間空屋內,以免被人找到。",
+      "highlight": "hid out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I hid the birthday present away in the cupboard.",
+      "zh": "我把生日禮物藏在櫃內。",
+      "highlight": "hid the birthday present away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "獨自躲起來,避開其他人或不願見人；藏身在秘密地方,以免被找到；把某人或某物藏在秘密或安全的地方",
+    "en": "hide away / hide yourself away; hide out; hide somebody/something away",
+    "naturalZh": [
+      "獨自躲起來,避開其他人或不願見人",
+      "藏身在秘密地方,以免被找到",
+      "把某人或某物藏在秘密或安全的地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hide away / hide yourself away",
+      "titleZh": "獨自躲起來,避開其他人或不願見人",
+      "titleEn": "hide away / hide yourself away",
+      "descriptionZh": "獨自躲起來,避開其他人或不願見人",
+      "descriptionEn": "After the argument, Ben hid away in his room.",
+      "examples": [
+        {
+          "en": "After the argument, Ben hid away in his room.",
+          "zh": "爭執後,賓獨自躲在房間裏,不願見人。",
+          "highlight": "hid away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hide out",
+      "titleZh": "藏身在秘密地方,以免被找到",
+      "titleEn": "hide out",
+      "descriptionZh": "藏身在秘密地方,以免被找到",
+      "descriptionEn": "The thief hid out in an empty house.",
+      "examples": [
+        {
+          "en": "The thief hid out in an empty house.",
+          "zh": "那名小偷藏身在一間空屋內,以免被人找到。",
+          "highlight": "hid out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hide somebody/something away",
+      "titleZh": "把某人或某物藏在秘密或安全的地方",
+      "titleEn": "hide somebody/something away",
+      "descriptionZh": "把某人或某物藏在秘密或安全的地方",
+      "descriptionEn": "I hid the birthday present away in the cupboard.",
+      "examples": [
+        {
+          "en": "I hid the birthday present away in the cupboard.",
+          "zh": "我把生日禮物藏在櫃內。",
+          "highlight": "hid the birthday present away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HIDE 片語動詞的實際用途",
+    "labelEn": "HIDE Phrasal Verbs in Use",
+    "summaryZh": "hide away 可以描述某人因為不開心、疲倦或不想見人而獨自躲起來。；當某人因其他人正在尋找自己而藏身在秘密地方時,可以使用 hide out。；hide something away 可以表示把禮物、金錢、信件或其他物品藏在不容易找到的地方。；HIDE 片語動詞能幫助你分辨把自己躲起來、藏身在秘密地方,以及把其他人或物品藏起來。",
+    "summaryEn": "Hide away can describe someone staying alone because they feel upset, tired or unwilling to meet other people. Hide out is useful when someone stays in a secret place because other people are searching for them. Hide something away can describe putting presents, money, letters or other things somewhere difficult to find. The HIDE family helps you distinguish between hiding yourself, staying somewhere secretly and hiding another person or object.",
+    "contextsZh": [
+      "談論避開別人和獨處",
+      "描述某人躲避追尋",
+      "談論把物品安全或秘密地收藏起來",
+      "清楚分辨誰或甚麼被藏起來"
+    ],
+    "contextsEn": [
+      "Talk about avoiding people and being alone",
+      "Describe someone avoiding being found",
+      "Talk about keeping things safe or secret",
+      "Show clearly who or what is being hidden"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HIDE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HIDE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hide away / hide yourself away",
+    "fixedHighlight": "hide away / hide yourself away",
+    "fixedZh": "閱讀整句,選出意思相同的 HIDE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HIDE expression that gives the same meaning.",
+    "correct": "hid away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 HIDE ... AWAY 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；hide away 和 hide out 描述不同情況:hide away — 獨自躲起來,避開其他人hide out — 因有人正在尋找自己而藏身在秘密地方",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them in a HIDE... AWAY expression, place the word as shown: hide it away hide him away Hide away and hide out describe different situations: hide away — stay alone and avoid other people hide out — stay in a secret place because somebody is looking for you",
+    "variableItemsZh": [
+      "hide away / hide yourself away",
+      "hide out",
+      "hide somebody/something away"
+    ],
+    "variableItemsEn": [
+      "hide away / hide yourself away",
+      "hide out",
+      "hide somebody/something away"
+    ],
+    "forms": [
+      {
+        "formZh": "獨自躲起來,避開其他人或不願見人",
+        "formEn": "hide away / hide yourself away",
+        "exampleZh": "爭執後,賓獨自躲在房間裏,不願見人。",
+        "exampleEn": "After the argument, Ben hid away in his room.",
+        "highlight": "hid away"
+      },
+      {
+        "formZh": "藏身在秘密地方,以免被找到",
+        "formEn": "hide out",
+        "exampleZh": "那名小偷藏身在一間空屋內,以免被人找到。",
+        "exampleEn": "The thief hid out in an empty house.",
+        "highlight": "hid out"
+      },
+      {
+        "formZh": "把某人或某物藏在秘密或安全的地方",
+        "formEn": "hide somebody/something away",
+        "exampleZh": "我把生日禮物藏在櫃內。",
+        "exampleEn": "I hid the birthday present away in the cupboard.",
+        "highlight": "hid the birthday present away"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "獨自躲起來,避開其他人或不願見人",
+      "titleEn": "hide away / hide yourself away",
+      "formula": "hide away / hide yourself away",
+      "highlight": "hide away / hide yourself away",
+      "descriptionZh": "獨自躲起來,避開其他人或不願見人",
+      "descriptionEn": "After the argument, Ben hid away in his room.",
+      "examples": [
+        {
+          "en": "After the argument, Ben hid away in his room.",
+          "zh": "爭執後,賓獨自躲在房間裏,不願見人。",
+          "highlight": "hid away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "藏身在秘密地方,以免被找到",
+      "titleEn": "hide out",
+      "formula": "hide out",
+      "highlight": "hide out",
+      "descriptionZh": "藏身在秘密地方,以免被找到",
+      "descriptionEn": "The thief hid out in an empty house.",
+      "examples": [
+        {
+          "en": "The thief hid out in an empty house.",
+          "zh": "那名小偷藏身在一間空屋內,以免被人找到。",
+          "highlight": "hid out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物藏在秘密或安全的地方",
+      "titleEn": "hide somebody/something away",
+      "formula": "hide somebody/something away",
+      "highlight": "hide somebody/something away",
+      "descriptionZh": "把某人或某物藏在秘密或安全的地方",
+      "descriptionEn": "I hid the birthday present away in the cupboard.",
+      "examples": [
+        {
+          "en": "I hid the birthday present away in the cupboard.",
+          "zh": "我把生日禮物藏在櫃內。",
+          "highlight": "hid the birthday present away"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論避開別人和獨處",
+      "titleEn": "Talk about avoiding people and being alone",
+      "zh": "hide away 可以描述某人因為不開心、疲倦或不想見人而獨自躲起來。",
+      "en": "Hide away can describe someone staying alone because they feel upset, tired or unwilling to meet other people."
+    },
+    {
+      "titleZh": "描述某人躲避追尋",
+      "titleEn": "Describe someone avoiding being found",
+      "zh": "當某人因其他人正在尋找自己而藏身在秘密地方時,可以使用 hide out。",
+      "en": "Hide out is useful when someone stays in a secret place because other people are searching for them."
+    },
+    {
+      "titleZh": "談論把物品安全或秘密地收藏起來",
+      "titleEn": "Talk about keeping things safe or secret",
+      "zh": "hide something away 可以表示把禮物、金錢、信件或其他物品藏在不容易找到的地方。",
+      "en": "Hide something away can describe putting presents, money, letters or other things somewhere difficult to find."
+    },
+    {
+      "titleZh": "清楚分辨誰或甚麼被藏起來",
+      "titleEn": "Show clearly who or what is being hidden",
+      "zh": "HIDE 片語動詞能幫助你分辨把自己躲起來、藏身在秘密地方,以及把其他人或物品藏起來。",
+      "en": "The HIDE family helps you distinguish between hiding yourself, staying somewhere secretly and hiding another person or object."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論避開別人和獨處",
+      "描述某人躲避追尋",
+      "談論把物品安全或秘密地收藏起來",
+      "清楚分辨誰或甚麼被藏起來"
+    ],
+    "contextsEn": [
+      "Talk about avoiding people and being alone",
+      "Describe someone avoiding being found",
+      "Talk about keeping things safe or secret",
+      "Show clearly who or what is being hidden"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論避開別人和獨處",
+        "titleEn": "Talk about avoiding people and being alone",
+        "zh": "hide away 可以描述某人因為不開心、疲倦或不想見人而獨自躲起來。",
+        "en": "Hide away can describe someone staying alone because they feel upset, tired or unwilling to meet other people.",
+        "examples": [
+          {
+            "en": "After the argument, Ben hid away in his room.",
+            "zh": "爭執後,賓獨自躲在房間裏,不願見人。",
+            "highlight": "hid away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人躲避追尋",
+        "titleEn": "Describe someone avoiding being found",
+        "zh": "當某人因其他人正在尋找自己而藏身在秘密地方時,可以使用 hide out。",
+        "en": "Hide out is useful when someone stays in a secret place because other people are searching for them.",
+        "examples": [
+          {
+            "en": "The thief hid out in an empty house.",
+            "zh": "那名小偷藏身在一間空屋內,以免被人找到。",
+            "highlight": "hid out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論把物品安全或秘密地收藏起來",
+        "titleEn": "Talk about keeping things safe or secret",
+        "zh": "hide something away 可以表示把禮物、金錢、信件或其他物品藏在不容易找到的地方。",
+        "en": "Hide something away can describe putting presents, money, letters or other things somewhere difficult to find.",
+        "examples": [
+          {
+            "en": "I hid the birthday present away in the cupboard.",
+            "zh": "我把生日禮物藏在櫃內。",
+            "highlight": "hid the birthday present away"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚分辨誰或甚麼被藏起來",
+        "titleEn": "Show clearly who or what is being hidden",
+        "zh": "HIDE 片語動詞能幫助你分辨把自己躲起來、藏身在秘密地方,以及把其他人或物品藏起來。",
+        "en": "The HIDE family helps you distinguish between hiding yourself, staying somewhere secretly and hiding another person or object.",
+        "examples": [
+          {
+            "en": "After the argument, Ben hid away in his room.",
+            "zh": "爭執後,賓獨自躲在房間裏,不願見人。",
+            "highlight": "hid away"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HIDE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HIDE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HIDE 片語動詞。",
+      "en": "Read the whole sentence and choose the HIDE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 HIDE ... AWAY 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them in a HIDE.",
+      "zh": "在 HIDE ... AWAY 中使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them in a HIDE... AWAY expression, place the word as shown: hide it away hide him away"
+    },
+    {
+      "titleZh": "hide away 和 hide out 描述不同情況:hide away — 獨自躲起來,避開其他人hide out — 因有人正在尋找自己而藏身在秘密地方",
+      "titleEn": "Hide away and hide out describe different situations: hide away — stay alone and avoid other people hide out — stay in a secret place because somebody is looking for you.",
+      "zh": "hide away 和 hide out 描述不同情況:hide away — 獨自躲起來,避開其他人hide out — 因有人正在尋找自己而藏身在秘密地方",
+      "en": "Hide away and hide out describe different situations: hide away — stay alone and avoid other people hide out — stay in a secret place because somebody is looking for you"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HIDE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HIDE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HIDE 動詞片語句子改寫練習",
+    "titleEn": "HIDE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HIDE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HIDE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-308-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "After the argument, Lena stayed alone in her room and did not want anyone to see her.",
+      "promptZh": "爭執後,莉娜獨自留在房間裏,不想見任何人。",
+      "starter": "Lena",
+      "answer": "Lena hid away in her room after the argument.",
+      "answerZh": "爭執後,莉娜獨自躲在房間裏,不願見人。",
+      "highlight": "Lena hid away in her room",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I put the spare key in a kitchen drawer where nobody would find it.",
+      "promptZh": "我把後備鎖匙放在廚房抽屜內一個沒有人會找到的地方。",
+      "starter": "I",
+      "answer": "I hid the spare key away in a kitchen drawer.",
+      "answerZh": "我把後備鎖匙藏在廚房抽屜內。",
+      "highlight": "hid",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The thief stayed in an empty house so the police could not find him.",
+      "promptZh": "那名小偷留在一間空屋內,以免被警方找到。",
+      "starter": "The",
+      "answer": "The thief hid out in an empty house.",
+      "answerZh": "那名小偷藏身在一間空屋內,以免被警方找到。",
+      "highlight": "hid out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "After school, Noah often stays by himself in a quiet part of the library so nobody will disturb him.",
+      "promptZh": "放學後,諾亞經常獨自留在圖書館一個安靜的角落,以免受到打擾。",
+      "starter": "After",
+      "answer": "After school, Noah often hides himself away in a quiet part of the library.",
+      "answerZh": "放學後,諾亞經常獨自躲在圖書館一個安靜的角落。",
+      "highlight": "hides",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The children put the presents somewhere their father would not see them before he came home.",
+      "promptZh": "父親回家前,孩子們把禮物放在他看不見的地方。",
+      "starter": "The",
+      "answer": "The children hid the presents away before their father came home.",
+      "answerZh": "父親回家前,孩子們把禮物藏了起來。",
+      "highlight": "hid",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "While everyone searched for him, Omar stayed in the old shed until dark.",
+      "promptZh": "所有人都在尋找奧馬時,他留在舊棚屋內直至天黑。",
+      "starter": "Omar",
+      "answer": "Omar hid out in the old shed until dark.",
+      "answerZh": "奧馬藏身在舊棚屋內直至天黑,以免被找到。",
+      "highlight": "hid out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "On difficult days, Eva stays somewhere alone and avoids everyone.",
+      "promptZh": "在難過的日子,伊娃會獨自躲起來,避開所有人。",
+      "starter": "On",
+      "answer": "On difficult days, Eva hides away from everyone.",
+      "answerZh": "在難過的日子,伊娃會獨自躲起來,避開所有人。",
+      "highlight": "hides away from",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Why did the boys stay behind the empty shop while everyone was looking for them?",
+      "promptZh": "所有人都在尋找那些男孩時,他們為甚麼躲在空置店舖後面?",
+      "starter": "Why",
+      "answer": "Why did the boys hide out behind the empty shop?",
+      "answerZh": "那些男孩為甚麼藏身在空置店舖後面,以免被找到?",
+      "highlight": "hide out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please put the chocolate somewhere the children will not find it.",
+      "promptZh": "請把朱古力放在孩子們找不到的地方。",
+      "starter": "Please",
+      "answer": "Please hide the chocolate away before the children find it.",
+      "answerZh": "請在孩子們找到朱古力前把它藏起來。",
+      "highlight": "hide",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Whenever he felt upset, Leo stayed alone upstairs and did not want to see anyone.",
+      "promptZh": "每當里奧感到不開心時,他都會獨自留在樓上,不想見任何人。",
+      "starter": "Whenever",
+      "answer": "Whenever he felt upset, Leo hid away upstairs.",
+      "answerZh": "每當里奧感到不開心時,他都會獨自躲在樓上。",
+      "highlight": "hid away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The two teenagers may be staying under the old bridge to avoid the people looking for them.",
+      "promptZh": "那兩名青少年可能正藏身在舊橋下,以避開正在尋找他們的人。",
+      "starter": "The",
+      "answer": "The two teenagers may be hiding out under the old bridge.",
+      "answerZh": "那兩名青少年可能正藏身在舊橋下,以免被找到。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Aisha has stayed alone in her room and avoided everyone all afternoon.",
+      "promptZh": "艾莎整個下午都獨自留在房間裏,避開所有人。",
+      "starter": "Aisha",
+      "answer": "Aisha has hidden herself away in her room all afternoon.",
+      "answerZh": "艾莎整個下午都把自己躲在房間裏,避開所有人。",
+      "highlight": "hidden herself away",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We have put the old letters in a locked box where nobody will see them.",
+      "promptZh": "我們已把舊信件放在一個上鎖的盒子內,不讓任何人看見。",
+      "starter": "We",
+      "answer": "We have hidden the old letters away in a locked box.",
+      "answerZh": "我們已把舊信件藏在一個上鎖的盒子內。",
+      "highlight": "hidden",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Has the thief been staying near the station so the police will not find him?",
+      "promptZh": "那名小偷是否一直藏身在車站附近,以免被警方找到?",
+      "starter": "Has",
+      "answer": "Has the thief been hiding out near the station?",
+      "answerZh": "那名小偷是否一直藏身在車站附近,以免被警方找到?",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I will stay alone at home and avoid everyone if the party becomes too noisy.",
+      "promptZh": "如果派對變得太嘈吵,我會獨自留在家中,避開所有人。",
+      "starter": "I",
+      "answer": "I will hide away at home if the party becomes too noisy.",
+      "answerZh": "如果派對變得太嘈吵,我會獨自躲在家中,避開其他人。",
+      "highlight": "hide away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Dad is putting the birthday cake in the garage where the children will not find it.",
+      "promptZh": "爸爸正把生日蛋糕放在車房內一個孩子們找不到的地方。",
+      "starter": "Dad",
+      "answer": "Dad is hiding the birthday cake away in the garage.",
+      "answerZh": "爸爸正把生日蛋糕藏在車房內。",
+      "highlight": "hiding",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "They will stay in the hills where nobody can find them until the search ends.",
+      "promptZh": "他們會藏身在山中一個沒有人能找到的地方,直至搜索結束。",
+      "starter": "They",
+      "answer": "They will hide out in the hills until the search ends.",
+      "answerZh": "他們會藏身在山中,直至搜索結束。",
+      "highlight": "hide out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did you put it somewhere secret before your sister entered the room?",
+      "promptZh": "你在妹妹進入房間前把它藏起來了嗎?",
+      "starter": "Did",
+      "answer": "Did you hide it away before your sister entered the room?",
+      "answerZh": "你在妹妹進入房間前把它藏起來了嗎?",
+      "highlight": "hide",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The singer sometimes stays somewhere private and avoids everyone for a few days after a long tour.",
+      "promptZh": "完成漫長巡迴演出後,那名歌手有時會在私人地方獨處數天,避開所有人。",
+      "starter": "The",
+      "answer": "The singer sometimes hides away for a few days after a long tour.",
+      "answerZh": "完成漫長巡迴演出後,那名歌手有時會獨自躲起來數天。",
+      "highlight": "hides away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Where are the two boys staying while everyone searches for them?",
+      "promptZh": "所有人都在尋找那兩名男孩時,他們藏身在哪裏?",
+      "starter": "Where",
+      "answer": "Where are the two boys hiding out while everyone searches for them?",
+      "answerZh": "所有人都在尋找那兩名男孩時,他們藏身在哪裏?",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She found the ring and put it in a secret place before anyone noticed.",
+      "promptZh": "她找到戒指後,在任何人發現前把它藏了起來。",
+      "starter": "She",
+      "answer": "She found the ring and hid it away before anyone noticed.",
+      "answerZh": "她找到戒指後,在任何人發現前把它藏了起來。",
+      "highlight": "hid",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ben was upset, so he stayed alone and avoided people for the weekend.",
+      "promptZh": "賓感到不開心,所以整個週末都獨自躲起來,避開其他人。",
+      "starter": "Ben",
+      "answer": "Ben was upset, so he hid himself away for the weekend.",
+      "answerZh": "賓感到不開心,所以整個週末都把自己躲起來,避開其他人。",
+      "highlight": "hid himself away",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The two men had been staying in a small cabin for weeks so the police would not find them.",
+      "promptZh": "那兩名男子已在一間小木屋內藏身數星期,以免被警方找到。",
+      "starter": "The",
+      "answer": "The two men had been hiding out in a small cabin for weeks.",
+      "answerZh": "那兩名男子已在一間小木屋內藏身數星期,以免被警方找到。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Someone had put the money behind a loose board in the wall, where it could not be found.",
+      "promptZh": "有人把金錢藏在牆上一塊鬆脫的木板後面,令人無法找到。",
+      "starter": "The",
+      "answer": "The money had been hidden away behind a loose board in the wall.",
+      "answerZh": "金錢被藏在牆上一塊鬆脫的木板後面。",
+      "highlight": "had been hidden away",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "After breaking the window, the boys stayed in a neighbour’s empty garage so the adults could not find them.",
+      "promptZh": "打破窗戶後,那些男孩藏身在鄰居的空置車房內,以免被成年人找到。",
+      "starter": "After",
+      "answer": "After breaking the window, the boys hid out in a neighbour’s empty garage.",
+      "answerZh": "打破窗戶後,那些男孩藏身在鄰居的空置車房內,以免被成年人找到。",
+      "highlight": "hid out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "During the holiday, I wanted to stay alone somewhere quiet and read.",
+      "promptZh": "假期期間,我想獨自躲在一個安靜的地方閱讀。",
+      "starter": "During",
+      "answer": "During the holiday, I wanted to hide away somewhere quiet and read.",
+      "answerZh": "假期期間,我想獨自躲在一個安靜的地方閱讀。",
+      "highlight": "hide away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Can you put these documents in a safe, secret place until the meeting is over?",
+      "promptZh": "你可以把這些文件藏在安全而秘密的地方,直至會議結束嗎?",
+      "starter": "Can",
+      "answer": "Can you hide these documents away until the meeting is over?",
+      "answerZh": "你可以把這些文件藏起來,直至會議結束嗎?",
+      "highlight": "hide",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nobody knew that the thief was staying above the shop so he would not be found.",
+      "promptZh": "沒有人知道那名小偷正藏身在店舖樓上,以免被人找到。",
+      "starter": "Nobody",
+      "answer": "Nobody knew that the thief was hiding out above the shop.",
+      "answerZh": "沒有人知道那名小偷正藏身在店舖樓上。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "She did not stay alone and avoid everyone after the mistake; she came to explain it.",
+      "promptZh": "犯錯後,她沒有獨自躲起來避開所有人,而是前來解釋。",
+      "starter": "She",
+      "answer": "She did not hide away after the mistake; she came to explain it.",
+      "answerZh": "犯錯後,她沒有獨自躲起來,而是前來解釋。",
+      "highlight": "hide away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "During the storm, the guide put the children in a safe room where nobody outside could see them.",
+      "promptZh": "暴風雨期間,導遊把孩子們藏在一間安全的房間內,外面的人無法看見他們。",
+      "starter": "During",
+      "answer": "During the storm, the guide hid the children away in a safe room.",
+      "answerZh": "暴風雨期間,導遊把孩子們藏在一間安全的房間內。",
+      "highlight": "hid",
+      "targetForm": "hide somebody away",
+      "targetMeaningZh": "把某人藏在安全或秘密的地方"
+    },
+    {
+      "id": "phrasal-verb-308-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Even when friends called, Daniel stayed alone in the spare room and refused to see them.",
+      "promptZh": "即使朋友來電,丹尼爾仍獨自留在客房內,不肯見他們。",
+      "starter": "Even",
+      "answer": "Even when friends called, Daniel hid himself away in the spare room.",
+      "answerZh": "即使朋友來電,丹尼爾仍把自己躲在客房內,不肯見他們。",
+      "highlight": "hid himself away",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The prisoner who had escaped may have stayed in the fishing village so the police would not find him.",
+      "promptZh": "那名逃走的囚犯可能曾藏身在漁村內,以免被警方找到。",
+      "starter": "The",
+      "answer": "The prisoner who had escaped may have hidden out in the fishing village.",
+      "answerZh": "那名逃走的囚犯可能曾藏身在漁村內,以免被警方找到。",
+      "highlight": "hidden out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Before the guests arrived, we put the broken lamp in a cupboard so they would not see it.",
+      "promptZh": "客人到達前,我們把破爛的燈藏在櫃內,以免他們看見。",
+      "starter": "Before",
+      "answer": "Before the guests arrived, we hid the broken lamp away in a cupboard.",
+      "answerZh": "客人到達前,我們把破爛的燈藏在櫃內。",
+      "highlight": "hid",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Instead of joining the family dinner, Sara stayed alone upstairs.",
+      "promptZh": "莎拉沒有參加家庭晚餐,而是獨自躲在樓上。",
+      "starter": "Rather",
+      "answer": "Rather than join the family dinner, Sara hid away upstairs.",
+      "answerZh": "莎拉沒有參加家庭晚餐,而是獨自躲在樓上。",
+      "highlight": "Rather than join",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "How long did the group stay in the mountains while people were searching for them?",
+      "promptZh": "有人正在尋找該小組時,他們在山中藏身了多久?",
+      "starter": "How",
+      "answer": "How long did the group hide out in the mountains?",
+      "answerZh": "該小組在山中藏身了多久?",
+      "highlight": "hide out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The writer often stays alone in a quiet cottage when she needs to work.",
+      "promptZh": "那名作家需要工作時,經常獨自躲在一間安靜的小屋裏。",
+      "starter": "The",
+      "answer": "The writer often hides away in a quiet cottage when she needs to work.",
+      "answerZh": "那名作家需要工作時,經常獨自躲在一間安靜的小屋裏。",
+      "highlight": "hides away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "I know you bought a gift, but where have you put it so I cannot find it?",
+      "promptZh": "我知道你買了一份禮物,但你把它藏在哪裏,令我找不到?",
+      "starter": "I",
+      "answer": "I know you bought a gift, but where have you hidden it away?",
+      "answerZh": "我知道你買了一份禮物,但你把它藏在哪裏?",
+      "highlight": "hidden",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "After the alarm, the men stayed in a closed factory so the guards could not find them.",
+      "promptZh": "警報響起後,那些男子藏身在一間已關閉的工廠內,以免被保安找到。",
+      "starter": "After",
+      "answer": "After the alarm, the men hid out in a closed factory.",
+      "answerZh": "警報響起後,那些男子藏身在一間已關閉的工廠內,以免被保安找到。",
+      "highlight": "hid out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "You cannot stay alone and avoid everyone forever just because one conversation went badly.",
+      "promptZh": "你不能只因一次談話不順利,便永遠獨自躲起來,避開所有人。",
+      "starter": "You",
+      "answer": "You cannot hide yourself away forever just because one conversation went badly.",
+      "answerZh": "你不能只因一次談話不順利,便永遠把自己躲起來,避開所有人。",
+      "highlight": "hide yourself away",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Someone had put the old photographs at the back of the cupboard, where they remained unseen.",
+      "promptZh": "有人把舊照片藏在櫃的後方,一直沒有人看見。",
+      "starter": "The",
+      "answer": "The old photographs had been hidden away at the back of the cupboard.",
+      "answerZh": "舊照片一直被藏在櫃的後方。",
+      "highlight": "had been hidden away",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "For several nights, the thieves had been staying in a house near the port while the police searched for them.",
+      "promptZh": "警方搜索那些小偷期間,他們已連續數晚藏身在港口附近的一間房子內。",
+      "starter": "For",
+      "answer": "For several nights, the thieves had been hiding out in a house near the port.",
+      "answerZh": "那些小偷已連續數晚藏身在港口附近的一間房子內。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before leaving, Ravi put the map in a place where only his sister could find it.",
+      "promptZh": "離開前,拉維把地圖藏在一個只有妹妹能找到的地方。",
+      "starter": "Before",
+      "answer": "Before leaving, Ravi hid the map away where only his sister could find it.",
+      "answerZh": "離開前,拉維把地圖藏在一個只有妹妹能找到的地方。",
+      "highlight": "hid",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the team tried to help, Nina stayed alone and answered no messages.",
+      "promptZh": "雖然團隊嘗試幫助妮娜,但她仍獨自躲起來,沒有回覆任何訊息。",
+      "starter": "Although",
+      "answer": "Although the team tried to help, Nina hid herself away and answered no messages.",
+      "answerZh": "雖然團隊嘗試幫助妮娜,但她仍把自己躲起來,沒有回覆任何訊息。",
+      "highlight": "hid herself away",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The police believed the man was staying somewhere outside the city to avoid being found.",
+      "promptZh": "警方相信那名男子正藏身在市外某處,以免被找到。",
+      "starter": "The",
+      "answer": "The police believed the man was hiding out somewhere outside the city.",
+      "answerZh": "警方相信那名男子正藏身在市外某處,以免被找到。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The family put the young prince in a small village where his enemies would not find him until it was safe.",
+      "promptZh": "那個家庭把小王子藏在一條小村莊內,直至情況安全,以免被敵人找到。",
+      "starter": "The",
+      "answer": "The family hid the young prince away in a small village until it was safe.",
+      "answerZh": "那個家庭把小王子藏在一條小村莊內,直至情況安全。",
+      "highlight": "hid",
+      "targetForm": "hide somebody away",
+      "targetMeaningZh": "把某人藏在安全或秘密的地方"
+    },
+    {
+      "id": "phrasal-verb-308-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If the reporters find this hotel, the actor will have to stay secretly somewhere else so they cannot find him.",
+      "promptZh": "如果記者找到這間酒店,那名演員便要藏身在其他地方,以免被他們找到。",
+      "starter": "If",
+      "answer": "If the reporters find this hotel, the actor will have to hide out somewhere else.",
+      "answerZh": "如果記者找到這間酒店,那名演員便要藏身在其他地方。",
+      "highlight": "hide out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "After the public argument, the manager chose to stay somewhere private and avoid people for a few days.",
+      "promptZh": "公開爭執後,經理選擇在私人地方獨處數天,避開其他人。",
+      "starter": "After",
+      "answer": "After the public argument, the manager chose to hide away for a few days.",
+      "answerZh": "公開爭執後,經理選擇獨自躲起來數天,避開其他人。",
+      "highlight": "hide away",
+      "targetForm": "hide away",
+      "targetMeaningZh": "獨自躲起來,避開其他人"
+    },
+    {
+      "id": "phrasal-verb-308-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Nobody expected the man everyone was looking for to be staying in his cousin’s flat.",
+      "promptZh": "沒有人料到大家正在尋找的男子會藏身在表親的單位內。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the man everyone was looking for to be hiding out in his cousin’s flat.",
+      "answerZh": "沒有人料到大家正在尋找的男子會藏身在表親的單位內。",
+      "highlight": "hiding out",
+      "targetForm": "hide out",
+      "targetMeaningZh": "藏身在秘密地方,以免被找到"
+    },
+    {
+      "id": "phrasal-verb-308-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Someone had put the diary in such a secret place that nobody found it for thirty years.",
+      "promptZh": "有人把日記藏在一個非常秘密的地方,三十年來都沒有人找到。",
+      "starter": "The",
+      "answer": "The diary had been hidden away so carefully that nobody found it for thirty years.",
+      "answerZh": "日記被藏得非常隱密,三十年來都沒有人找到。",
+      "highlight": "had been hidden away so carefully",
+      "targetForm": "hide something away",
+      "targetMeaningZh": "把某物藏起來"
+    },
+    {
+      "id": "phrasal-verb-308-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "When every conversation felt too difficult, he began to stay alone and avoid even his closest friends.",
+      "promptZh": "當每次談話都令他感到十分困難時,他開始獨自躲起來,甚至避開最親近的朋友。",
+      "starter": "When",
+      "answer": "When every conversation felt too difficult, he began to hide himself away from his closest friends.",
+      "answerZh": "當每次談話都令他感到十分困難時,他開始把自己躲起來,甚至避開最親近的朋友。",
+      "highlight": "hide himself away from",
+      "targetForm": "hide yourself away",
+      "targetMeaningZh": "把自己躲起來,避開其他人"
+    }
+  ]
+}

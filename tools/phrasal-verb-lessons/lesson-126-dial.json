@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-126",
+  "order": 126,
+  "slug": "dial",
+  "version": "1",
+  "title": "DIAL 動詞片語",
+  "titleEn": "Dial",
+  "titleZh": "DIAL 動詞片語",
+  "level": "B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 125 - DIAL.pdf",
+    "sourceNumber": 125,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DIAL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DIAL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DIAL",
+      "highlight": "DIAL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I dialled into the office system from home.",
+      "zh": "我在家中撥號連接辦公室系統。",
+      "highlight": "I",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Press 9 before you dial out.",
+      "zh": "撥打外線前請先按 9。",
+      "highlight": "dial out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Could you dial up the clinic for me?",
+      "zh": "你可以替我致電診所嗎?",
+      "highlight": "dial up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統；從酒店、辦公室或其他內線電話撥打外線；致電某處或撥打某個電話號碼",
+    "en": "dial in / dial into something / dial up something; dial out; dial up something / dial it or them up",
+    "naturalZh": [
+      "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+      "從酒店、辦公室或其他內線電話撥打外線",
+      "致電某處或撥打某個電話號碼"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dial in / dial into something / dial up something",
+      "titleZh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+      "titleEn": "dial in / dial into something / dial up something",
+      "descriptionZh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+      "descriptionEn": "I dialled into the office system from home.",
+      "examples": [
+        {
+          "en": "I dialled into the office system from home.",
+          "zh": "我在家中撥號連接辦公室系統。",
+          "highlight": "I"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dial out",
+      "titleZh": "從酒店、辦公室或其他內線電話撥打外線",
+      "titleEn": "dial out",
+      "descriptionZh": "從酒店、辦公室或其他內線電話撥打外線",
+      "descriptionEn": "Press 9 before you dial out.",
+      "examples": [
+        {
+          "en": "Press 9 before you dial out.",
+          "zh": "撥打外線前請先按 9。",
+          "highlight": "dial out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dial up something / dial it or them up",
+      "titleZh": "致電某處或撥打某個電話號碼",
+      "titleEn": "dial up something / dial it or them up",
+      "descriptionZh": "致電某處或撥打某個電話號碼",
+      "descriptionEn": "Could you dial up the clinic for me?",
+      "examples": [
+        {
+          "en": "Could you dial up the clinic for me?",
+          "zh": "你可以替我致電診所嗎?",
+          "highlight": "dial up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DIAL 片語動詞的實際用途",
+    "labelEn": "DIAL Phrasal Verbs in Use",
+    "summaryZh": "dial in 和 dial into 可以描述在家中或另一座建築物內連接辦公室或學校的電腦。；如果電話系統要求你先按某個數字才能撥打外線,便可能會使用 dial out。；dial up 可以用來表示致電診所、酒店、餐廳、辦公室或撥打某個電話號碼。；這些表達可能出現在舊式電腦系統、辦公室電話和酒店電話的使用指示中。",
+    "summaryEn": "Dial in and dial into can describe connecting to an office or school computer from home or another building. Dial out is useful when a telephone system requires you to press a number before making an outside call. Dial up can be used when calling a clinic, hotel, restaurant, office or telephone number. These expressions may appear in instructions for older computer systems, office telephones and hotel phones.",
+    "contextsZh": [
+      "談論從另一個地方連接電腦",
+      "理解辦公室和酒店的電話指示",
+      "談論致電某處或撥打號碼",
+      "理解較舊式科技和職場英語"
+    ],
+    "contextsEn": [
+      "Talk about connecting to a computer from another place",
+      "Understand office and hotel telephone instructions",
+      "Talk about calling a place or number",
+      "Understand older technology and workplace English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DIAL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DIAL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dial in / dial into something / dial up something",
+    "fixedHighlight": "dial in / dial into something / dial up something",
+    "fixedZh": "閱讀整句,選出意思相同的 DIAL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DIAL expression that gives the same meaning.",
+    "correct": "I",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；dial up something 可以表達兩種不同意思:dial up the office network = 連接辦公室網絡dial up the clinic = 致電診所；使用 it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Dial up something can express two different ideas: dial up the office network = connect to the network dial up the clinic = call the clinic When using it or them with dial up, place the word as shown: dial it up dial them up",
+    "variableItemsZh": [
+      "dial in / dial into something / dial up something",
+      "dial out",
+      "dial up something / dial it or them up"
+    ],
+    "variableItemsEn": [
+      "dial in / dial into something / dial up something",
+      "dial out",
+      "dial up something / dial it or them up"
+    ],
+    "forms": [
+      {
+        "formZh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+        "formEn": "dial in / dial into something / dial up something",
+        "exampleZh": "我在家中撥號連接辦公室系統。",
+        "exampleEn": "I dialled into the office system from home.",
+        "highlight": "I"
+      },
+      {
+        "formZh": "從酒店、辦公室或其他內線電話撥打外線",
+        "formEn": "dial out",
+        "exampleZh": "撥打外線前請先按 9。",
+        "exampleEn": "Press 9 before you dial out.",
+        "highlight": "dial out"
+      },
+      {
+        "formZh": "致電某處或撥打某個電話號碼",
+        "formEn": "dial up something / dial it or them up",
+        "exampleZh": "你可以替我致電診所嗎?",
+        "exampleEn": "Could you dial up the clinic for me?",
+        "highlight": "dial up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+      "titleEn": "dial in / dial into something / dial up something",
+      "formula": "dial in / dial into something / dial up something",
+      "highlight": "dial in / dial into something / dial up something",
+      "descriptionZh": "透過電話線或撥號連線,遙距連接電腦、網絡或系統",
+      "descriptionEn": "I dialled into the office system from home.",
+      "examples": [
+        {
+          "en": "I dialled into the office system from home.",
+          "zh": "我在家中撥號連接辦公室系統。",
+          "highlight": "I"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "從酒店、辦公室或其他內線電話撥打外線",
+      "titleEn": "dial out",
+      "formula": "dial out",
+      "highlight": "dial out",
+      "descriptionZh": "從酒店、辦公室或其他內線電話撥打外線",
+      "descriptionEn": "Press 9 before you dial out.",
+      "examples": [
+        {
+          "en": "Press 9 before you dial out.",
+          "zh": "撥打外線前請先按 9。",
+          "highlight": "dial out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "致電某處或撥打某個電話號碼",
+      "titleEn": "dial up something / dial it or them up",
+      "formula": "dial up something / dial it or them up",
+      "highlight": "dial up something / dial it or them up",
+      "descriptionZh": "致電某處或撥打某個電話號碼",
+      "descriptionEn": "Could you dial up the clinic for me?",
+      "examples": [
+        {
+          "en": "Could you dial up the clinic for me?",
+          "zh": "你可以替我致電診所嗎?",
+          "highlight": "dial up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論從另一個地方連接電腦",
+      "titleEn": "Talk about connecting to a computer from another place",
+      "zh": "dial in 和 dial into 可以描述在家中或另一座建築物內連接辦公室或學校的電腦。",
+      "en": "Dial in and dial into can describe connecting to an office or school computer from home or another building."
+    },
+    {
+      "titleZh": "理解辦公室和酒店的電話指示",
+      "titleEn": "Understand office and hotel telephone instructions",
+      "zh": "如果電話系統要求你先按某個數字才能撥打外線,便可能會使用 dial out。",
+      "en": "Dial out is useful when a telephone system requires you to press a number before making an outside call."
+    },
+    {
+      "titleZh": "談論致電某處或撥打號碼",
+      "titleEn": "Talk about calling a place or number",
+      "zh": "dial up 可以用來表示致電診所、酒店、餐廳、辦公室或撥打某個電話號碼。",
+      "en": "Dial up can be used when calling a clinic, hotel, restaurant, office or telephone number."
+    },
+    {
+      "titleZh": "理解較舊式科技和職場英語",
+      "titleEn": "Understand older technology and workplace English",
+      "zh": "這些表達可能出現在舊式電腦系統、辦公室電話和酒店電話的使用指示中。",
+      "en": "These expressions may appear in instructions for older computer systems, office telephones and hotel phones."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論從另一個地方連接電腦",
+      "理解辦公室和酒店的電話指示",
+      "談論致電某處或撥打號碼",
+      "理解較舊式科技和職場英語"
+    ],
+    "contextsEn": [
+      "Talk about connecting to a computer from another place",
+      "Understand office and hotel telephone instructions",
+      "Talk about calling a place or number",
+      "Understand older technology and workplace English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論從另一個地方連接電腦",
+        "titleEn": "Talk about connecting to a computer from another place",
+        "zh": "dial in 和 dial into 可以描述在家中或另一座建築物內連接辦公室或學校的電腦。",
+        "en": "Dial in and dial into can describe connecting to an office or school computer from home or another building.",
+        "examples": [
+          {
+            "en": "I dialled into the office system from home.",
+            "zh": "我在家中撥號連接辦公室系統。",
+            "highlight": "I"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解辦公室和酒店的電話指示",
+        "titleEn": "Understand office and hotel telephone instructions",
+        "zh": "如果電話系統要求你先按某個數字才能撥打外線,便可能會使用 dial out。",
+        "en": "Dial out is useful when a telephone system requires you to press a number before making an outside call.",
+        "examples": [
+          {
+            "en": "Press 9 before you dial out.",
+            "zh": "撥打外線前請先按 9。",
+            "highlight": "dial out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論致電某處或撥打號碼",
+        "titleEn": "Talk about calling a place or number",
+        "zh": "dial up 可以用來表示致電診所、酒店、餐廳、辦公室或撥打某個電話號碼。",
+        "en": "Dial up can be used when calling a clinic, hotel, restaurant, office or telephone number.",
+        "examples": [
+          {
+            "en": "Could you dial up the clinic for me?",
+            "zh": "你可以替我致電診所嗎?",
+            "highlight": "dial up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解較舊式科技和職場英語",
+        "titleEn": "Understand older technology and workplace English",
+        "zh": "這些表達可能出現在舊式電腦系統、辦公室電話和酒店電話的使用指示中。",
+        "en": "These expressions may appear in instructions for older computer systems, office telephones and hotel phones.",
+        "examples": [
+          {
+            "en": "I dialled into the office system from home.",
+            "zh": "我在家中撥號連接辦公室系統。",
+            "highlight": "I"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DIAL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DIAL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DIAL 片語動詞。",
+      "en": "Read the whole sentence and choose the DIAL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "dial up something 可以表達兩種不同意思:dial up the office network = 連接辦公室網絡dial up the clinic = 致電診所",
+      "titleEn": "Dial up something can express two different ideas: dial up the office network = connect to the network dial up the clinic = call the clinic.",
+      "zh": "dial up something 可以表達兩種不同意思:dial up the office network = 連接辦公室網絡dial up the clinic = 致電診所",
+      "en": "Dial up something can express two different ideas: dial up the office network = connect to the network dial up the clinic = call the clinic"
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them with dial up, place the word as shown: dial it up dial them up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them with dial up, place the word as shown: dial it up dial them up"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DIAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DIAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DIAL 動詞片語句子改寫練習",
+    "titleEn": "DIAL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DIAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DIAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-126-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "I connect to the office computer from home when I need a file.",
+      "promptZh": "我需要檔案時,會在家中連接辦公室的電腦。",
+      "starter": "I",
+      "answer": "I dial into the office computer from home when I need a file.",
+      "answerZh": "我需要檔案時,會在家中撥號連接辦公室的電腦。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please call the doctor’s office for me.",
+      "promptZh": "請替我致電醫生診所。",
+      "starter": "Please",
+      "answer": "Please dial up the doctor’s office for me.",
+      "answerZh": "請替我致電醫生診所。",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "You must press 9 before you can make an outside call from the hotel.",
+      "promptZh": "在酒店撥打外線前,你必須先按 9。",
+      "starter": "You",
+      "answer": "You must press 9 before you can dial out from the hotel.",
+      "answerZh": "在酒店撥打外線前,你必須先按 9。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The engineer connected to the main system from her laptop.",
+      "promptZh": "工程師用手提電腦連接主系統。",
+      "starter": "The",
+      "answer": "The engineer dialled into the main system from her laptop.",
+      "answerZh": "工程師用手提電腦撥號連接主系統。",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This desk phone cannot make outside calls.",
+      "promptZh": "這部桌面電話不能撥打外線。",
+      "starter": "This",
+      "answer": "This desk phone cannot dial out.",
+      "answerZh": "這部桌面電話不能撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I found the restaurant’s number and called it.",
+      "promptZh": "我找到餐廳的電話號碼後便打了過去。",
+      "starter": "I",
+      "answer": "I found the restaurant’s number and dialled it up.",
+      "answerZh": "我找到餐廳的電話號碼後便打了過去。",
+      "highlight": "dialled",
+      "targetForm": "dial something up / dial it up",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Staff can connect to the company database from home.",
+      "promptZh": "職員可以在家中連接公司資料庫。",
+      "starter": "Staff",
+      "answer": "Staff can dial into the company database from home.",
+      "answerZh": "職員可以在家中撥號連接公司資料庫。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Can guests make outside calls from their rooms?",
+      "promptZh": "住客可以在房間撥打外線嗎?",
+      "starter": "Can",
+      "answer": "Can guests dial out from their rooms?",
+      "answerZh": "住客可以在房間撥打外線嗎?",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "She called the taxi office before leaving.",
+      "promptZh": "她離開前致電了的士公司。",
+      "starter": "She",
+      "answer": "She dialled up the taxi office before leaving.",
+      "answerZh": "她離開前致電了的士公司。",
+      "highlight": "dialled up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We used a phone line to connect to the school network.",
+      "promptZh": "我們使用電話線連接學校網絡。",
+      "starter": "We",
+      "answer": "We used a phone line to dial up the school network.",
+      "answerZh": "我們使用電話線撥號連接學校網絡。",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "透過電話線連接電腦網絡"
+    },
+    {
+      "id": "phrasal-verb-126-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Press zero before you make an outside call.",
+      "promptZh": "撥打外線前請先按零。",
+      "starter": "Press",
+      "answer": "Press zero before you dial out.",
+      "answerZh": "撥打外線前請先按零。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Daniel is connecting from his hotel room to use the office system.",
+      "promptZh": "Daniel 正在酒店房間連接辦公室系統。",
+      "starter": "Daniel",
+      "answer": "Daniel is dialling in from his hotel room to use the office system.",
+      "answerZh": "Daniel 正在酒店房間撥號連接辦公室系統。",
+      "highlight": "dialling in",
+      "targetForm": "dial in",
+      "targetMeaningZh": "從另一個地方遙距連線"
+    },
+    {
+      "id": "phrasal-verb-126-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Could you call the hotel and ask about the room?",
+      "promptZh": "你可以致電酒店查詢房間嗎?",
+      "starter": "Could",
+      "answer": "Could you dial up the hotel and ask about the room?",
+      "answerZh": "你可以致電酒店查詢房間嗎?",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The new phone system lets staff in every office make outside calls.",
+      "promptZh": "新的電話系統讓每間辦公室的職員都可以撥打外線。",
+      "starter": "The",
+      "answer": "The new phone system lets staff in every office dial out.",
+      "answerZh": "新的電話系統讓每間辦公室的職員都可以撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Have you connected to the company network yet?",
+      "promptZh": "你已經連接公司網絡了嗎?",
+      "starter": "Have",
+      "answer": "Have you dialled into the company network yet?",
+      "answerZh": "你已經撥號連接公司網絡了嗎?",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦網絡"
+    },
+    {
+      "id": "phrasal-verb-126-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why can’t I make an outside call from this desk?",
+      "promptZh": "為甚麼我不能在這張辦公桌撥打外線?",
+      "starter": "Why",
+      "answer": "Why can’t I dial out from this desk?",
+      "answerZh": "為甚麼我不能在這張辦公桌撥打外線?",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The two numbers were on the list. The assistant has already called them.",
+      "promptZh": "那兩個號碼列在清單上。助理已經打過去了。",
+      "starter": "The",
+      "answer": "The two numbers were on the list. The assistant has already dialled them up.",
+      "answerZh": "那兩個號碼列在清單上。助理已經打過去了。",
+      "highlight": "dialled",
+      "targetForm": "dial something up / dial them up",
+      "targetMeaningZh": "撥打電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The support worker could not connect to the remote computer last night.",
+      "promptZh": "支援人員昨晚無法連接遠端電腦。",
+      "starter": "The",
+      "answer": "The support worker could not dial into the remote computer last night.",
+      "answerZh": "支援人員昨晚無法撥號連接遠端電腦。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Call the clinic now and ask for an appointment.",
+      "promptZh": "現在致電診所預約時間。",
+      "starter": "Dial",
+      "answer": "Dial up the clinic now and ask for an appointment.",
+      "answerZh": "現在致電診所預約時間。",
+      "highlight": "Dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Reception said we would be able to make outside calls after noon.",
+      "promptZh": "接待處表示,我們在中午後便可以撥打外線。",
+      "starter": "Reception",
+      "answer": "Reception said we would be able to dial out after noon.",
+      "answerZh": "接待處表示,我們在中午後便可以撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The number was on the note, so I called it at once.",
+      "promptZh": "號碼寫在便條上,所以我立即打了過去。",
+      "starter": "The",
+      "answer": "The number was on the note, so I dialled it up at once.",
+      "answerZh": "號碼寫在便條上,所以我立即打了過去。",
+      "highlight": "dialled",
+      "targetForm": "dial something up / dial it up",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The office computer was still running. From home, we connected to it to download the files.",
+      "promptZh": "辦公室的電腦仍然開着。我們在家中連接該電腦以下載檔案。",
+      "starter": "The",
+      "answer": "The office computer was still running. From home, we dialled into it to download the files.",
+      "answerZh": "辦公室的電腦仍然開着。我們在家中撥號連接該電腦以下載檔案。",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Once the line is fixed, you should be able to make an outside call.",
+      "promptZh": "電話線修好後,你應該便可以撥打外線。",
+      "starter": "Once",
+      "answer": "Once the line is fixed, you should be able to dial out.",
+      "answerZh": "電話線修好後,你應該便可以撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "These are the two offices. Please call them and check their opening times.",
+      "promptZh": "這就是那兩間辦公室。請致電兩間辦公室,查詢其營業時間。",
+      "starter": "These",
+      "answer": "These are the two offices. Please dial them up and check their opening times.",
+      "answerZh": "這就是那兩間辦公室。請致電兩間辦公室,查詢其營業時間。",
+      "highlight": "dial",
+      "targetForm": "dial something up / dial them up",
+      "targetMeaningZh": "致電某些地方"
+    },
+    {
+      "id": "phrasal-verb-126-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The child tried to make an outside call, but the hotel phone was locked.",
+      "promptZh": "那個孩子嘗試撥打外線,但酒店電話已被鎖上。",
+      "starter": "The",
+      "answer": "The child tried to dial out, but the hotel phone was locked.",
+      "answerZh": "那個孩子嘗試撥打外線,但酒店電話已被鎖上。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old laptop was being used to connect to the office network.",
+      "promptZh": "那部舊手提電腦正用來連接辦公室網絡。",
+      "starter": "The",
+      "answer": "The old laptop was being used to dial into the office network.",
+      "answerZh": "那部舊手提電腦正用來撥號連接辦公室網絡。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦網絡"
+    },
+    {
+      "id": "phrasal-verb-126-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Which number did you call first?",
+      "promptZh": "你先撥打了哪個號碼?",
+      "starter": "Which",
+      "answer": "Which number did you dial up first?",
+      "answerZh": "你先撥打了哪個號碼?",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Only staff can make outside calls from these phones after 6 p.m.",
+      "promptZh": "下午六時後,只有職員可以使用這些電話撥打外線。",
+      "starter": "Only",
+      "answer": "Only staff can dial out from these phones after 6 p.m.",
+      "answerZh": "下午六時後,只有職員可以使用這些電話撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not connect to the school system on a public computer.",
+      "promptZh": "不要使用公共電腦連接學校系統。",
+      "starter": "Do",
+      "answer": "Do not dial into the school system on a public computer.",
+      "answerZh": "不要使用公共電腦撥號連接學校系統。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦系統"
+    },
+    {
+      "id": "phrasal-verb-126-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "She wanted the shop’s help, so she called it herself.",
+      "promptZh": "她需要店舖協助,所以親自致電該店。",
+      "starter": "She",
+      "answer": "She wanted the shop’s help, so she dialled it up herself.",
+      "answerZh": "她需要店舖協助,所以親自致電該店。",
+      "highlight": "dialled",
+      "targetForm": "dial something up / dial it up",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A home worker used a password and a phone line to connect to the company computer.",
+      "promptZh": "一名在家工作的職員使用密碼和電話線連接公司的電腦。",
+      "starter": "A",
+      "answer": "A home worker used a password and a phone line to dial into the company computer.",
+      "answerZh": "一名在家工作的職員使用密碼和電話線撥號連接公司的電腦。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Visitors must ask reception before making an outside call from the room.",
+      "promptZh": "訪客在房間撥打外線前,必須先詢問接待處。",
+      "starter": "Visitors",
+      "answer": "Visitors must ask reception before dialling out from the room.",
+      "answerZh": "訪客在房間撥打外線前,必須先詢問接待處。",
+      "highlight": "dialling out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The receptionist called the airport information desk to check the flight time.",
+      "promptZh": "接待員致電機場詢問處查詢航班時間。",
+      "starter": "The",
+      "answer": "The receptionist dialled up the airport information desk to check the flight time.",
+      "answerZh": "接待員致電機場詢問處查詢航班時間。",
+      "highlight": "dialled up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The technician had connected to the network before the office opened.",
+      "promptZh": "技術人員在辦公室開門前已經連接網絡。",
+      "starter": "The",
+      "answer": "The technician had dialled into the network before the office opened.",
+      "answerZh": "技術人員在辦公室開門前已經撥號連接網絡。",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦網絡"
+    },
+    {
+      "id": "phrasal-verb-126-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Could you call the number on the back of the card?",
+      "promptZh": "你可以撥打卡背面的電話號碼嗎?",
+      "starter": "Could",
+      "answer": "Could you dial up the number on the back of the card?",
+      "answerZh": "你可以撥打卡背面的電話號碼嗎?",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During the power cut, staff could no longer make outside calls on the office phones.",
+      "promptZh": "停電期間,職員無法再使用辦公室電話撥打外線。",
+      "starter": "During",
+      "answer": "During the power cut, staff could no longer dial out on the office phones.",
+      "answerZh": "停電期間,職員無法再使用辦公室電話撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Instead of travelling to the office, the designer connected from home and collected the files.",
+      "promptZh": "設計師沒有前往辦公室,而是在家中連線並取得檔案。",
+      "starter": "Instead",
+      "answer": "Instead of travelling to the office, the designer dialled in from home and collected the files.",
+      "answerZh": "設計師沒有前往辦公室,而是在家中撥號連線並取得檔案。",
+      "highlight": "dialled in",
+      "targetForm": "dial in",
+      "targetMeaningZh": "從另一個地方遙距連線"
+    },
+    {
+      "id": "phrasal-verb-126-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If you hear a tone after pressing 9, you can make an outside call.",
+      "promptZh": "如果按 9 後聽到提示音,你便可以撥打外線。",
+      "starter": "If",
+      "answer": "If you hear a tone after pressing 9, you can dial out.",
+      "answerZh": "如果按 9 後聽到提示音,你便可以撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "I gave him the two clinic numbers, and he called them before lunch.",
+      "promptZh": "我把兩個診所號碼交給他,而他在午膳前致電了兩間診所。",
+      "starter": "I",
+      "answer": "I gave him the two clinic numbers, and he dialled them up before lunch.",
+      "answerZh": "我把兩個診所號碼交給他,而他在午膳前致電了兩間診所。",
+      "highlight": "dialled",
+      "targetForm": "dial something up / dial them up",
+      "targetMeaningZh": "撥打電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The old machine could connect to the library’s computer service through a phone line.",
+      "promptZh": "那部舊機器可以透過電話線連接圖書館的電腦服務。",
+      "starter": "The",
+      "answer": "The old machine could dial up the library’s computer service through a phone line.",
+      "answerZh": "那部舊機器可以透過電話線撥號連接圖書館的電腦服務。",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "透過電話線連接電腦系統"
+    },
+    {
+      "id": "phrasal-verb-126-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We could receive calls on the emergency phone, but we could not make an outside call.",
+      "promptZh": "我們可以使用緊急電話接聽來電,但不能撥打外線。",
+      "starter": "We",
+      "answer": "We could receive calls on the emergency phone, but we could not dial out.",
+      "answerZh": "我們可以使用緊急電話接聽來電,但不能撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If the website does not answer your question, call the support number printed below.",
+      "promptZh": "如果網站未能解答你的問題,請撥打下方印有的支援電話號碼。",
+      "starter": "If",
+      "answer": "If the website does not answer your question, dial up the support number printed below.",
+      "answerZh": "如果網站未能解答你的問題,請撥打下方印有的支援電話號碼。",
+      "highlight": "dial up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the road was closed, the manager stayed home and connected to the office system to get the report.",
+      "promptZh": "道路封閉時,經理留在家中,連接辦公室系統以取得報告。",
+      "starter": "When",
+      "answer": "When the road was closed, the manager stayed home and dialled into the office system to get the report.",
+      "answerZh": "道路封閉時,經理留在家中,撥號連接辦公室系統以取得報告。",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦系統"
+    },
+    {
+      "id": "phrasal-verb-126-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Why did the hotel block guests from making outside calls after midnight?",
+      "promptZh": "為甚麼酒店禁止住客在午夜後撥打外線?",
+      "starter": "Why",
+      "answer": "Why did the hotel block guests from dialling out after midnight?",
+      "answerZh": "為甚麼酒店禁止住客在午夜後撥打外線?",
+      "highlight": "dialling out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The team could still connect to the shared computer through a phone line from another building.",
+      "promptZh": "團隊仍然可以在另一座建築物內,透過電話線連接共用電腦。",
+      "starter": "The",
+      "answer": "The team could still dial into the shared computer through a phone line from another building.",
+      "answerZh": "團隊仍然可以在另一座建築物內,透過電話線撥號連接共用電腦。",
+      "highlight": "dial into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The nurse gave me the clinic’s number, but I forgot to call it.",
+      "promptZh": "護士把診所的電話號碼交給我,但我忘了打過去。",
+      "starter": "The",
+      "answer": "The nurse gave me the clinic’s number, but I forgot to dial it up.",
+      "answerZh": "護士把診所的電話號碼交給我,但我忘了打過去。",
+      "highlight": "dial",
+      "targetForm": "dial something up / dial it up",
+      "targetMeaningZh": "撥打某個電話號碼"
+    },
+    {
+      "id": "phrasal-verb-126-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We tested every desk phone to see whether we could make an outside call on it.",
+      "promptZh": "我們測試每一部桌面電話,看看能否用它撥打外線。",
+      "starter": "We",
+      "answer": "We tested every desk phone to see whether we could dial out on it.",
+      "answerZh": "我們測試每一部桌面電話,看看能否用它撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    },
+    {
+      "id": "phrasal-verb-126-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before online storage became common, students often connected to the school computer by phone line to get their work files.",
+      "promptZh": "網上儲存普及前,學生經常透過電話線連接學校電腦,以取得自己的功課檔案。",
+      "starter": "Before",
+      "answer": "Before online storage became common, students often dialled into the school computer by phone line to get their work files.",
+      "answerZh": "網上儲存普及前,學生經常透過電話線撥號連接學校電腦,以取得自己的功課檔案。",
+      "highlight": "dialled into",
+      "targetForm": "dial into something",
+      "targetMeaningZh": "遙距連接電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-126-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Instead of waiting for an email reply, the traveller called the airline’s office and asked about the delay.",
+      "promptZh": "旅客沒有等待電郵回覆,而是致電航空公司辦公室查詢延誤情況。",
+      "starter": "Instead",
+      "answer": "Instead of waiting for an email reply, the traveller dialled up the airline’s office and asked about the delay.",
+      "answerZh": "旅客沒有等待電郵回覆,而是致電航空公司辦公室查詢延誤情況。",
+      "highlight": "dialled up",
+      "targetForm": "dial up something",
+      "targetMeaningZh": "致電某處"
+    },
+    {
+      "id": "phrasal-verb-126-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Although internal calls still worked, nobody could make an outside call until the main line was repaired.",
+      "promptZh": "雖然內線電話仍然運作,但在主要電話線修好前,沒有人可以撥打外線。",
+      "starter": "Although",
+      "answer": "Although internal calls still worked, nobody could dial out until the main line was repaired.",
+      "answerZh": "雖然內線電話仍然運作,但在主要電話線修好前,沒有人可以撥打外線。",
+      "highlight": "dial out",
+      "targetForm": "dial out",
+      "targetMeaningZh": "撥打外線"
+    }
+  ]
+}

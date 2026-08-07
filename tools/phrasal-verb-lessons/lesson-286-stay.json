@@ -1,0 +1,2347 @@
+{
+  "id": "phrasal-verb-286",
+  "order": 286,
+  "slug": "stay",
+  "version": "1",
+  "title": "STAY 動詞片語",
+  "titleEn": "Stay",
+  "titleZh": "STAY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 17,
+  "source": {
+    "file": "Phrasal Verbs 271 - STAY.pdf",
+    "sourceNumber": 271,
+    "pageCount": 35,
+    "teachingPdfPages": [
+      1,
+      2,
+      5
+    ],
+    "exercisePdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "answerKeyPdfPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STAY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STAY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STAY",
+      "highlight": "STAY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We practise every day to stay ahead of the other teams.",
+      "zh": "我們每天練習,以保持領先其他隊伍。",
+      "highlight": "stay",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I’ll stay around in case you need me.",
+      "zh": "我會留在附近,以防你需要我。",
+      "highlight": "stay around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Stay away from the edge.",
+      "zh": "不要靠近邊緣。",
+      "highlight": "Stay away from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "保持領先;領先於某人或某事物；留在附近;暫時不離開；遠離;不要靠近；保持距離;不要向前走近；在其他人離開後留下；保持在較低、放下或平伏的位置；保持在裏面或原位;不掉出來；雨、雪等暫時不下；因生病或受傷而暫不上班、上學或參加活動；避免食用、飲用、使用或接觸某事物；保持附着或留在原位;不脫落；在外逗留;遲些才回家；不要進入;留在外面；不介入爭執、問題或別人的事情；在別人的家中或另一個地方留宿；衣物等保持提起或不向下滑；繼續跟隨、使用、支持或進行;不放棄",
+    "en": "stay ahead / stay ahead of somebody or something; stay around; stay away / stay away from somebody or something; stay back; stay behind / stay behind after something; stay down; stay in; stay off; stay off / stay off work or school; stay off something; stay on; stay out; stay out / stay out of something; stay out of something; stay over; stay up; stay with somebody or something",
+    "naturalZh": [
+      "保持領先;領先於某人或某事物",
+      "留在附近;暫時不離開",
+      "遠離;不要靠近",
+      "保持距離;不要向前走近",
+      "在其他人離開後留下",
+      "保持在較低、放下或平伏的位置",
+      "保持在裏面或原位;不掉出來",
+      "雨、雪等暫時不下",
+      "因生病或受傷而暫不上班、上學或參加活動",
+      "避免食用、飲用、使用或接觸某事物",
+      "保持附着或留在原位;不脫落",
+      "在外逗留;遲些才回家",
+      "不要進入;留在外面",
+      "不介入爭執、問題或別人的事情",
+      "在別人的家中或另一個地方留宿",
+      "衣物等保持提起或不向下滑",
+      "繼續跟隨、使用、支持或進行;不放棄"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "stay ahead / stay ahead of somebody or something",
+      "titleZh": "保持領先;領先於某人或某事物",
+      "titleEn": "stay ahead / stay ahead of somebody or something",
+      "descriptionZh": "保持領先;領先於某人或某事物",
+      "descriptionEn": "We practise every day to stay ahead of the other teams.",
+      "examples": [
+        {
+          "en": "We practise every day to stay ahead of the other teams.",
+          "zh": "我們每天練習,以保持領先其他隊伍。",
+          "highlight": "stay"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay around",
+      "titleZh": "留在附近;暫時不離開",
+      "titleEn": "stay around",
+      "descriptionZh": "留在附近;暫時不離開",
+      "descriptionEn": "I’ll stay around in case you need me.",
+      "examples": [
+        {
+          "en": "I’ll stay around in case you need me.",
+          "zh": "我會留在附近,以防你需要我。",
+          "highlight": "stay around"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay away / stay away from somebody or something",
+      "titleZh": "遠離;不要靠近",
+      "titleEn": "stay away / stay away from somebody or something",
+      "descriptionZh": "遠離;不要靠近",
+      "descriptionEn": "Stay away from the edge.",
+      "examples": [
+        {
+          "en": "Stay away from the edge.",
+          "zh": "不要靠近邊緣。",
+          "highlight": "Stay away from"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay back",
+      "titleZh": "保持距離;不要向前走近",
+      "titleEn": "stay back",
+      "descriptionZh": "保持距離;不要向前走近",
+      "descriptionEn": "The police asked the crowd to stay back.",
+      "examples": [
+        {
+          "en": "The police asked the crowd to stay back.",
+          "zh": "警方向人群表示不要走近。",
+          "highlight": "stay back"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay behind / stay behind after something",
+      "titleZh": "在其他人離開後留下",
+      "titleEn": "stay behind / stay behind after something",
+      "descriptionZh": "在其他人離開後留下",
+      "descriptionEn": "I had to stay behind after class.",
+      "examples": [
+        {
+          "en": "I had to stay behind after class.",
+          "zh": "我下課後必須留下來。",
+          "highlight": "stay behind after"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay down",
+      "titleZh": "保持在較低、放下或平伏的位置",
+      "titleEn": "stay down",
+      "descriptionZh": "保持在較低、放下或平伏的位置",
+      "descriptionEn": "The blind will not stay down.",
+      "examples": [
+        {
+          "en": "The blind will not stay down.",
+          "zh": "窗簾無法保持放下。",
+          "highlight": "stay down"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay in",
+      "titleZh": "保持在裏面或原位;不掉出來",
+      "titleEn": "stay in",
+      "descriptionZh": "保持在裏面或原位;不掉出來",
+      "descriptionEn": "This nail will not stay in the wall.",
+      "examples": [
+        {
+          "en": "This nail will not stay in the wall.",
+          "zh": "這口釘無法留在牆內。",
+          "highlight": "stay in"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay off",
+      "titleZh": "雨、雪等暫時不下",
+      "titleEn": "stay off",
+      "descriptionZh": "雨、雪等暫時不下",
+      "descriptionEn": "If the rain stays off, we can eat outside.",
+      "examples": [
+        {
+          "en": "If the rain stays off, we can eat outside.",
+          "zh": "如果暫時不下雨,我們便可以在外面用餐。",
+          "highlight": "stays off"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay off / stay off work or school",
+      "titleZh": "因生病或受傷而暫不上班、上學或參加活動",
+      "titleEn": "stay off / stay off work or school",
+      "descriptionZh": "因生病或受傷而暫不上班、上學或參加活動",
+      "descriptionEn": "He stayed off work for a week after hurting his back.",
+      "examples": [
+        {
+          "en": "He stayed off work for a week after hurting his back.",
+          "zh": "他弄傷背部後,一星期沒有上班。",
+          "highlight": "stayed off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "stay off something",
+      "titleZh": "避免食用、飲用、使用或接觸某事物",
+      "titleEn": "stay off something",
+      "descriptionZh": "避免食用、飲用、使用或接觸某事物",
+      "descriptionEn": "The doctor told him to stay off alcohol.",
+      "examples": [
+        {
+          "en": "The doctor told him to stay off alcohol.",
+          "zh": "醫生吩咐他不要喝酒。",
+          "highlight": "stay off"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay on",
+      "titleZh": "保持附着或留在原位;不脫落",
+      "titleEn": "stay on",
+      "descriptionZh": "保持附着或留在原位;不脫落",
+      "descriptionEn": "This lid will not stay on.",
+      "examples": [
+        {
+          "en": "This lid will not stay on.",
+          "zh": "這個蓋子無法保持蓋好。",
+          "highlight": "stay on"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay out",
+      "titleZh": "在外逗留;遲些才回家",
+      "titleEn": "stay out",
+      "descriptionZh": "在外逗留;遲些才回家",
+      "descriptionEn": "Sam was allowed to stay out until 11.30.",
+      "examples": [
+        {
+          "en": "Sam was allowed to stay out until 11.30.",
+          "zh": "森獲准在外逗留至十一時半。",
+          "highlight": "stay out"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay out / stay out of something",
+      "titleZh": "不要進入;留在外面",
+      "titleEn": "stay out / stay out of something",
+      "descriptionZh": "不要進入;留在外面",
+      "descriptionEn": "Stay out of the kitchen; the floor is wet.",
+      "examples": [
+        {
+          "en": "Stay out of the kitchen; the floor is wet.",
+          "zh": "不要進入廚房;地板仍然濕滑。",
+          "highlight": "Stay out"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay out of something",
+      "titleZh": "不介入爭執、問題或別人的事情",
+      "titleEn": "stay out of something",
+      "descriptionZh": "不介入爭執、問題或別人的事情",
+      "descriptionEn": "I try to stay out of their arguments.",
+      "examples": [
+        {
+          "en": "I try to stay out of their arguments.",
+          "zh": "我盡量不介入他們的爭執。",
+          "highlight": "stay out"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay over",
+      "titleZh": "在別人的家中或另一個地方留宿",
+      "titleEn": "stay over",
+      "descriptionZh": "在別人的家中或另一個地方留宿",
+      "descriptionEn": "It became late, so we stayed over.",
+      "examples": [
+        {
+          "en": "It became late, so we stayed over.",
+          "zh": "時間已晚,所以我們留下來過夜。",
+          "highlight": "stayed over"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay up",
+      "titleZh": "衣物等保持提起或不向下滑",
+      "titleEn": "stay up",
+      "descriptionZh": "衣物等保持提起或不向下滑",
+      "descriptionEn": "These trousers will not stay up without a belt.",
+      "examples": [
+        {
+          "en": "These trousers will not stay up without a belt.",
+          "zh": "這條褲子沒有皮帶便會滑下來。",
+          "highlight": "stay up"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "stay with somebody or something",
+      "titleZh": "繼續跟隨、使用、支持或進行;不放棄",
+      "titleEn": "stay with somebody or something",
+      "descriptionZh": "繼續跟隨、使用、支持或進行;不放棄",
+      "descriptionEn": "The course was difficult, but she stayed with it.",
+      "examples": [
+        {
+          "en": "The course was difficult, but she stayed with it.",
+          "zh": "課程很困難,但她仍然堅持下去。",
+          "highlight": "stayed with"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STAY 片語動詞的實際用途",
+    "labelEn": "STAY Phrasal Verbs in Use",
+    "summaryZh": "STAY 片語動詞可以表示人們保持安全距離,或物件留在正確位置,例如 stay back、stay away、stay in、stay on、stay down 和 stay up。；stay around、stay behind、stay out 和 stay over 可以用來說明某人留在哪裏,以及逗留多久。；stay off 可以表示避免喝酒,或因病而不上班;stay out of 則可以表示選擇不介入某個問題。；stay ahead 表示保持優勢,而 stay with something 則表示即使遇到困難也繼續下去。",
+    "summaryEn": "STAY expressions can show that people keep a safe distance or that objects remain in the correct place: stay back, stay away, stay in, stay on, stay down and stay up. Stay around, stay behind, stay out and stay over help you explain where someone remains and how long they remain there. You can use stay off to describe avoiding alcohol or missing work because of illness. Stay out of can describe choosing not to become involved in a problem. Stay ahead describes keeping an advantage, while stay with something describes continuing even when it is difficult.",
+    "contextsZh": [
+      "清楚描述位置和距離",
+      "談論某人留在某處",
+      "表達明智的選擇和限制",
+      "談論進度和堅持"
+    ],
+    "contextsEn": [
+      "Describe position and distance clearly",
+      "Talk about remaining somewhere",
+      "Express sensible choices and limits",
+      "Talk about progress and determination"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STAY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STAY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "stay ahead / stay ahead of somebody or something",
+    "fixedHighlight": "stay ahead / stay ahead of somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 STAY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STAY expression that gives the same meaning.",
+    "correct": "stay",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；仔細閱讀 STAY 後面的字詞。相似的表達可以有非常不同的意思:stay out until eleven 表示在外逗留至十一時stay out of the room 表示不要進入房間stay out of an argument 表示不要介入爭執；有些 STAY 表達用來描述物件保持在正確位置:釘子沒有掉出來。蓋子沒有脫落。窗簾保持放下。褲子沒有滑下來。",
+    "variableEn": "Keep the same people, things, time and meaning. Read the words after STAY carefully. Similar expressions can have very different meanings: stay out until eleven stay out of the room stay out of an argument Some STAY expressions describe an object remaining in the correct position: The nail stayed in. The lid stayed on. The blind stayed down. The trousers stayed up.",
+    "variableItemsZh": [
+      "stay ahead / stay ahead of somebody or something",
+      "stay around",
+      "stay away / stay away from somebody or something",
+      "stay back",
+      "stay behind / stay behind after something",
+      "stay down",
+      "stay in",
+      "stay off",
+      "stay off / stay off work or school",
+      "stay off something",
+      "stay on",
+      "stay out",
+      "stay out / stay out of something",
+      "stay out of something",
+      "stay over",
+      "stay up",
+      "stay with somebody or something"
+    ],
+    "variableItemsEn": [
+      "stay ahead / stay ahead of somebody or something",
+      "stay around",
+      "stay away / stay away from somebody or something",
+      "stay back",
+      "stay behind / stay behind after something",
+      "stay down",
+      "stay in",
+      "stay off",
+      "stay off / stay off work or school",
+      "stay off something",
+      "stay on",
+      "stay out",
+      "stay out / stay out of something",
+      "stay out of something",
+      "stay over",
+      "stay up",
+      "stay with somebody or something"
+    ],
+    "forms": [
+      {
+        "formZh": "保持領先;領先於某人或某事物",
+        "formEn": "stay ahead / stay ahead of somebody or something",
+        "exampleZh": "我們每天練習,以保持領先其他隊伍。",
+        "exampleEn": "We practise every day to stay ahead of the other teams.",
+        "highlight": "stay"
+      },
+      {
+        "formZh": "留在附近;暫時不離開",
+        "formEn": "stay around",
+        "exampleZh": "我會留在附近,以防你需要我。",
+        "exampleEn": "I’ll stay around in case you need me.",
+        "highlight": "stay around"
+      },
+      {
+        "formZh": "遠離;不要靠近",
+        "formEn": "stay away / stay away from somebody or something",
+        "exampleZh": "不要靠近邊緣。",
+        "exampleEn": "Stay away from the edge.",
+        "highlight": "Stay away from"
+      },
+      {
+        "formZh": "保持距離;不要向前走近",
+        "formEn": "stay back",
+        "exampleZh": "警方向人群表示不要走近。",
+        "exampleEn": "The police asked the crowd to stay back.",
+        "highlight": "stay back"
+      },
+      {
+        "formZh": "在其他人離開後留下",
+        "formEn": "stay behind / stay behind after something",
+        "exampleZh": "我下課後必須留下來。",
+        "exampleEn": "I had to stay behind after class.",
+        "highlight": "stay behind after"
+      },
+      {
+        "formZh": "保持在較低、放下或平伏的位置",
+        "formEn": "stay down",
+        "exampleZh": "窗簾無法保持放下。",
+        "exampleEn": "The blind will not stay down.",
+        "highlight": "stay down"
+      },
+      {
+        "formZh": "保持在裏面或原位;不掉出來",
+        "formEn": "stay in",
+        "exampleZh": "這口釘無法留在牆內。",
+        "exampleEn": "This nail will not stay in the wall.",
+        "highlight": "stay in"
+      },
+      {
+        "formZh": "雨、雪等暫時不下",
+        "formEn": "stay off",
+        "exampleZh": "如果暫時不下雨,我們便可以在外面用餐。",
+        "exampleEn": "If the rain stays off, we can eat outside.",
+        "highlight": "stays off"
+      },
+      {
+        "formZh": "因生病或受傷而暫不上班、上學或參加活動",
+        "formEn": "stay off / stay off work or school",
+        "exampleZh": "他弄傷背部後,一星期沒有上班。",
+        "exampleEn": "He stayed off work for a week after hurting his back.",
+        "highlight": "stayed off"
+      },
+      {
+        "formZh": "避免食用、飲用、使用或接觸某事物",
+        "formEn": "stay off something",
+        "exampleZh": "醫生吩咐他不要喝酒。",
+        "exampleEn": "The doctor told him to stay off alcohol.",
+        "highlight": "stay off"
+      },
+      {
+        "formZh": "保持附着或留在原位;不脫落",
+        "formEn": "stay on",
+        "exampleZh": "這個蓋子無法保持蓋好。",
+        "exampleEn": "This lid will not stay on.",
+        "highlight": "stay on"
+      },
+      {
+        "formZh": "在外逗留;遲些才回家",
+        "formEn": "stay out",
+        "exampleZh": "森獲准在外逗留至十一時半。",
+        "exampleEn": "Sam was allowed to stay out until 11.30.",
+        "highlight": "stay out"
+      },
+      {
+        "formZh": "不要進入;留在外面",
+        "formEn": "stay out / stay out of something",
+        "exampleZh": "不要進入廚房;地板仍然濕滑。",
+        "exampleEn": "Stay out of the kitchen; the floor is wet.",
+        "highlight": "Stay out"
+      },
+      {
+        "formZh": "不介入爭執、問題或別人的事情",
+        "formEn": "stay out of something",
+        "exampleZh": "我盡量不介入他們的爭執。",
+        "exampleEn": "I try to stay out of their arguments.",
+        "highlight": "stay out"
+      },
+      {
+        "formZh": "在別人的家中或另一個地方留宿",
+        "formEn": "stay over",
+        "exampleZh": "時間已晚,所以我們留下來過夜。",
+        "exampleEn": "It became late, so we stayed over.",
+        "highlight": "stayed over"
+      },
+      {
+        "formZh": "衣物等保持提起或不向下滑",
+        "formEn": "stay up",
+        "exampleZh": "這條褲子沒有皮帶便會滑下來。",
+        "exampleEn": "These trousers will not stay up without a belt.",
+        "highlight": "stay up"
+      },
+      {
+        "formZh": "繼續跟隨、使用、支持或進行;不放棄",
+        "formEn": "stay with somebody or something",
+        "exampleZh": "課程很困難,但她仍然堅持下去。",
+        "exampleEn": "The course was difficult, but she stayed with it.",
+        "highlight": "stayed with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "保持領先;領先於某人或某事物",
+      "titleEn": "stay ahead / stay ahead of somebody or something",
+      "formula": "stay ahead / stay ahead of somebody or something",
+      "highlight": "stay ahead / stay ahead of somebody or something",
+      "descriptionZh": "保持領先;領先於某人或某事物",
+      "descriptionEn": "We practise every day to stay ahead of the other teams.",
+      "examples": [
+        {
+          "en": "We practise every day to stay ahead of the other teams.",
+          "zh": "我們每天練習,以保持領先其他隊伍。",
+          "highlight": "stay"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "留在附近;暫時不離開",
+      "titleEn": "stay around",
+      "formula": "stay around",
+      "highlight": "stay around",
+      "descriptionZh": "留在附近;暫時不離開",
+      "descriptionEn": "I’ll stay around in case you need me.",
+      "examples": [
+        {
+          "en": "I’ll stay around in case you need me.",
+          "zh": "我會留在附近,以防你需要我。",
+          "highlight": "stay around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "遠離;不要靠近",
+      "titleEn": "stay away / stay away from somebody or something",
+      "formula": "stay away / stay away from somebody or something",
+      "highlight": "stay away / stay away from somebody or something",
+      "descriptionZh": "遠離;不要靠近",
+      "descriptionEn": "Stay away from the edge.",
+      "examples": [
+        {
+          "en": "Stay away from the edge.",
+          "zh": "不要靠近邊緣。",
+          "highlight": "Stay away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "保持距離;不要向前走近",
+      "titleEn": "stay back",
+      "formula": "stay back",
+      "highlight": "stay back",
+      "descriptionZh": "保持距離;不要向前走近",
+      "descriptionEn": "The police asked the crowd to stay back.",
+      "examples": [
+        {
+          "en": "The police asked the crowd to stay back.",
+          "zh": "警方向人群表示不要走近。",
+          "highlight": "stay back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "在其他人離開後留下",
+      "titleEn": "stay behind / stay behind after something",
+      "formula": "stay behind / stay behind after something",
+      "highlight": "stay behind / stay behind after something",
+      "descriptionZh": "在其他人離開後留下",
+      "descriptionEn": "I had to stay behind after class.",
+      "examples": [
+        {
+          "en": "I had to stay behind after class.",
+          "zh": "我下課後必須留下來。",
+          "highlight": "stay behind after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "保持在較低、放下或平伏的位置",
+      "titleEn": "stay down",
+      "formula": "stay down",
+      "highlight": "stay down",
+      "descriptionZh": "保持在較低、放下或平伏的位置",
+      "descriptionEn": "The blind will not stay down.",
+      "examples": [
+        {
+          "en": "The blind will not stay down.",
+          "zh": "窗簾無法保持放下。",
+          "highlight": "stay down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "保持在裏面或原位;不掉出來",
+      "titleEn": "stay in",
+      "formula": "stay in",
+      "highlight": "stay in",
+      "descriptionZh": "保持在裏面或原位;不掉出來",
+      "descriptionEn": "This nail will not stay in the wall.",
+      "examples": [
+        {
+          "en": "This nail will not stay in the wall.",
+          "zh": "這口釘無法留在牆內。",
+          "highlight": "stay in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "雨、雪等暫時不下",
+      "titleEn": "stay off",
+      "formula": "stay off",
+      "highlight": "stay off",
+      "descriptionZh": "雨、雪等暫時不下",
+      "descriptionEn": "If the rain stays off, we can eat outside.",
+      "examples": [
+        {
+          "en": "If the rain stays off, we can eat outside.",
+          "zh": "如果暫時不下雨,我們便可以在外面用餐。",
+          "highlight": "stays off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "因生病或受傷而暫不上班、上學或參加活動",
+      "titleEn": "stay off / stay off work or school",
+      "formula": "stay off / stay off work or school",
+      "highlight": "stay off / stay off work or school",
+      "descriptionZh": "因生病或受傷而暫不上班、上學或參加活動",
+      "descriptionEn": "He stayed off work for a week after hurting his back.",
+      "examples": [
+        {
+          "en": "He stayed off work for a week after hurting his back.",
+          "zh": "他弄傷背部後,一星期沒有上班。",
+          "highlight": "stayed off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "避免食用、飲用、使用或接觸某事物",
+      "titleEn": "stay off something",
+      "formula": "stay off something",
+      "highlight": "stay off something",
+      "descriptionZh": "避免食用、飲用、使用或接觸某事物",
+      "descriptionEn": "The doctor told him to stay off alcohol.",
+      "examples": [
+        {
+          "en": "The doctor told him to stay off alcohol.",
+          "zh": "醫生吩咐他不要喝酒。",
+          "highlight": "stay off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "保持附着或留在原位;不脫落",
+      "titleEn": "stay on",
+      "formula": "stay on",
+      "highlight": "stay on",
+      "descriptionZh": "保持附着或留在原位;不脫落",
+      "descriptionEn": "This lid will not stay on.",
+      "examples": [
+        {
+          "en": "This lid will not stay on.",
+          "zh": "這個蓋子無法保持蓋好。",
+          "highlight": "stay on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "在外逗留;遲些才回家",
+      "titleEn": "stay out",
+      "formula": "stay out",
+      "highlight": "stay out",
+      "descriptionZh": "在外逗留;遲些才回家",
+      "descriptionEn": "Sam was allowed to stay out until 11.30.",
+      "examples": [
+        {
+          "en": "Sam was allowed to stay out until 11.30.",
+          "zh": "森獲准在外逗留至十一時半。",
+          "highlight": "stay out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "不要進入;留在外面",
+      "titleEn": "stay out / stay out of something",
+      "formula": "stay out / stay out of something",
+      "highlight": "stay out / stay out of something",
+      "descriptionZh": "不要進入;留在外面",
+      "descriptionEn": "Stay out of the kitchen; the floor is wet.",
+      "examples": [
+        {
+          "en": "Stay out of the kitchen; the floor is wet.",
+          "zh": "不要進入廚房;地板仍然濕滑。",
+          "highlight": "Stay out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "不介入爭執、問題或別人的事情",
+      "titleEn": "stay out of something",
+      "formula": "stay out of something",
+      "highlight": "stay out of something",
+      "descriptionZh": "不介入爭執、問題或別人的事情",
+      "descriptionEn": "I try to stay out of their arguments.",
+      "examples": [
+        {
+          "en": "I try to stay out of their arguments.",
+          "zh": "我盡量不介入他們的爭執。",
+          "highlight": "stay out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "在別人的家中或另一個地方留宿",
+      "titleEn": "stay over",
+      "formula": "stay over",
+      "highlight": "stay over",
+      "descriptionZh": "在別人的家中或另一個地方留宿",
+      "descriptionEn": "It became late, so we stayed over.",
+      "examples": [
+        {
+          "en": "It became late, so we stayed over.",
+          "zh": "時間已晚,所以我們留下來過夜。",
+          "highlight": "stayed over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "衣物等保持提起或不向下滑",
+      "titleEn": "stay up",
+      "formula": "stay up",
+      "highlight": "stay up",
+      "descriptionZh": "衣物等保持提起或不向下滑",
+      "descriptionEn": "These trousers will not stay up without a belt.",
+      "examples": [
+        {
+          "en": "These trousers will not stay up without a belt.",
+          "zh": "這條褲子沒有皮帶便會滑下來。",
+          "highlight": "stay up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "繼續跟隨、使用、支持或進行;不放棄",
+      "titleEn": "stay with somebody or something",
+      "formula": "stay with somebody or something",
+      "highlight": "stay with somebody or something",
+      "descriptionZh": "繼續跟隨、使用、支持或進行;不放棄",
+      "descriptionEn": "The course was difficult, but she stayed with it.",
+      "examples": [
+        {
+          "en": "The course was difficult, but she stayed with it.",
+          "zh": "課程很困難,但她仍然堅持下去。",
+          "highlight": "stayed with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述位置和距離",
+      "titleEn": "Describe position and distance clearly",
+      "zh": "STAY 片語動詞可以表示人們保持安全距離,或物件留在正確位置,例如 stay back、stay away、stay in、stay on、stay down 和 stay up。",
+      "en": "STAY expressions can show that people keep a safe distance or that objects remain in the correct place: stay back, stay away, stay in, stay on, stay down and stay up."
+    },
+    {
+      "titleZh": "談論某人留在某處",
+      "titleEn": "Talk about remaining somewhere",
+      "zh": "stay around、stay behind、stay out 和 stay over 可以用來說明某人留在哪裏,以及逗留多久。",
+      "en": "Stay around, stay behind, stay out and stay over help you explain where someone remains and how long they remain there."
+    },
+    {
+      "titleZh": "表達明智的選擇和限制",
+      "titleEn": "Express sensible choices and limits",
+      "zh": "stay off 可以表示避免喝酒,或因病而不上班;stay out of 則可以表示選擇不介入某個問題。",
+      "en": "You can use stay off to describe avoiding alcohol or missing work because of illness. Stay out of can describe choosing not to become involved in a problem."
+    },
+    {
+      "titleZh": "談論進度和堅持",
+      "titleEn": "Talk about progress and determination",
+      "zh": "stay ahead 表示保持優勢,而 stay with something 則表示即使遇到困難也繼續下去。",
+      "en": "Stay ahead describes keeping an advantage, while stay with something describes continuing even when it is difficult."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述位置和距離",
+      "談論某人留在某處",
+      "表達明智的選擇和限制",
+      "談論進度和堅持"
+    ],
+    "contextsEn": [
+      "Describe position and distance clearly",
+      "Talk about remaining somewhere",
+      "Express sensible choices and limits",
+      "Talk about progress and determination"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述位置和距離",
+        "titleEn": "Describe position and distance clearly",
+        "zh": "STAY 片語動詞可以表示人們保持安全距離,或物件留在正確位置,例如 stay back、stay away、stay in、stay on、stay down 和 stay up。",
+        "en": "STAY expressions can show that people keep a safe distance or that objects remain in the correct place: stay back, stay away, stay in, stay on, stay down and stay up.",
+        "examples": [
+          {
+            "en": "We practise every day to stay ahead of the other teams.",
+            "zh": "我們每天練習,以保持領先其他隊伍。",
+            "highlight": "stay"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論某人留在某處",
+        "titleEn": "Talk about remaining somewhere",
+        "zh": "stay around、stay behind、stay out 和 stay over 可以用來說明某人留在哪裏,以及逗留多久。",
+        "en": "Stay around, stay behind, stay out and stay over help you explain where someone remains and how long they remain there.",
+        "examples": [
+          {
+            "en": "I’ll stay around in case you need me.",
+            "zh": "我會留在附近,以防你需要我。",
+            "highlight": "stay around"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達明智的選擇和限制",
+        "titleEn": "Express sensible choices and limits",
+        "zh": "stay off 可以表示避免喝酒,或因病而不上班;stay out of 則可以表示選擇不介入某個問題。",
+        "en": "You can use stay off to describe avoiding alcohol or missing work because of illness. Stay out of can describe choosing not to become involved in a problem.",
+        "examples": [
+          {
+            "en": "Stay away from the edge.",
+            "zh": "不要靠近邊緣。",
+            "highlight": "Stay away from"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論進度和堅持",
+        "titleEn": "Talk about progress and determination",
+        "zh": "stay ahead 表示保持優勢,而 stay with something 則表示即使遇到困難也繼續下去。",
+        "en": "Stay ahead describes keeping an advantage, while stay with something describes continuing even when it is difficult.",
+        "examples": [
+          {
+            "en": "The police asked the crowd to stay back.",
+            "zh": "警方向人群表示不要走近。",
+            "highlight": "stay back"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STAY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STAY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STAY 片語動詞。",
+      "en": "Read the whole sentence and choose the STAY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "仔細閱讀 STAY 後面的字詞。相似的表達可以有非常不同的意思:stay out until eleven 表示在外逗留至十一時stay out of the room 表示不要進入房間stay out of an argument 表示不要介入爭執",
+      "titleEn": "Read the words after STAY carefully.",
+      "zh": "仔細閱讀 STAY 後面的字詞。相似的表達可以有非常不同的意思:stay out until eleven 表示在外逗留至十一時stay out of the room 表示不要進入房間stay out of an argument 表示不要介入爭執",
+      "en": "Read the words after STAY carefully. Similar expressions can have very different meanings: stay out until eleven stay out of the room stay out of an argument"
+    },
+    {
+      "titleZh": "有些 STAY 表達用來描述物件保持在正確位置:釘子沒有掉出來。蓋子沒有脫落。窗簾保持放下。褲子沒有滑下來。",
+      "titleEn": "Some STAY expressions describe an object remaining in the correct position: The nail stayed in.",
+      "zh": "有些 STAY 表達用來描述物件保持在正確位置:釘子沒有掉出來。蓋子沒有脫落。窗簾保持放下。褲子沒有滑下來。",
+      "en": "Some STAY expressions describe an object remaining in the correct position: The nail stayed in. The lid stayed on. The blind stayed down. The trousers stayed up."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STAY 動詞片語句子改寫練習",
+    "titleEn": "STAY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STAY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STAY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          17
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          18,
+          34
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          35,
+          51
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          52,
+          68
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-286-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Our team must remain in front if it wants to win the league.",
+      "promptZh": "我們的球隊若想贏得聯賽,就必須保持領先。",
+      "starter": "Our",
+      "answer": "Our team must stay ahead if it wants to win the league.",
+      "answerZh": "我們的球隊若想贏得聯賽,就必須保持領先。",
+      "highlight": "stay ahead",
+      "targetForm": "stay ahead",
+      "targetMeaningZh": "保持領先"
+    },
+    {
+      "id": "phrasal-verb-286-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 20,
+      "prompt": "Do not enter the kitchen; the floor is wet.",
+      "promptZh": "不要進入廚房;地板仍然濕滑。",
+      "starter": "Stay",
+      "answer": "Stay out of the kitchen; the floor is wet.",
+      "answerZh": "不要進入廚房;地板仍然濕滑。",
+      "highlight": "Stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不要進入某處"
+    },
+    {
+      "id": "phrasal-verb-286-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "This window blind will not remain lowered.",
+      "promptZh": "這幅窗簾無法保持放下。",
+      "starter": "This",
+      "answer": "This window blind will not stay down.",
+      "answerZh": "這幅窗簾無法保持放下。",
+      "highlight": "stay down",
+      "targetForm": "stay down",
+      "targetMeaningZh": "保持在放下或較低的位置"
+    },
+    {
+      "id": "phrasal-verb-286-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "I’ll remain nearby in case you need me.",
+      "promptZh": "我會留在附近,以防你需要我。",
+      "starter": "I’ll",
+      "answer": "I’ll stay around in case you need me.",
+      "answerZh": "我會留在附近,以防你需要我。",
+      "highlight": "stay around",
+      "targetForm": "stay around",
+      "targetMeaningZh": "留在附近"
+    },
+    {
+      "id": "phrasal-verb-286-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 21,
+      "prompt": "The doctor told him not to drink alcohol.",
+      "promptZh": "醫生吩咐他不要喝酒。",
+      "starter": "The",
+      "answer": "The doctor told him to stay off alcohol.",
+      "answerZh": "醫生吩咐他不要喝酒。",
+      "highlight": "stay off",
+      "targetForm": "stay off something",
+      "targetMeaningZh": "避免食用或飲用某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "I had to remain after class to finish the work.",
+      "promptZh": "我下課後必須留下來完成工作。",
+      "starter": "I",
+      "answer": "I had to stay behind after class to finish the work.",
+      "answerZh": "我下課後必須留下來完成工作。",
+      "highlight": "stay behind",
+      "targetForm": "stay behind after something",
+      "targetMeaningZh": "在其他人離開後留下"
+    },
+    {
+      "id": "phrasal-verb-286-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "This lid will not remain in place.",
+      "promptZh": "這個蓋子無法保持在原位。",
+      "starter": "This",
+      "answer": "This lid will not stay on.",
+      "answerZh": "這個蓋子無法保持在原位。",
+      "highlight": "stay on",
+      "targetForm": "stay on",
+      "targetMeaningZh": "保持附着或留在原位"
+    },
+    {
+      "id": "phrasal-verb-286-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 21,
+      "prompt": "Do not go near the broken window.",
+      "promptZh": "不要靠近破裂的窗戶。",
+      "starter": "Stay",
+      "answer": "Stay away from the broken window.",
+      "answerZh": "不要靠近破裂的窗戶。",
+      "highlight": "Stay away from",
+      "targetForm": "stay away from something",
+      "targetMeaningZh": "遠離某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "It became late, so we slept at Leo’s house.",
+      "promptZh": "時間已晚,所以我們在里奧家中留宿。",
+      "starter": "It",
+      "answer": "It became late, so we stayed over at Leo’s house.",
+      "answerZh": "時間已晚,所以我們在里奧家中留宿。",
+      "highlight": "stayed over",
+      "targetForm": "stay over",
+      "targetMeaningZh": "留宿"
+    },
+    {
+      "id": "phrasal-verb-286-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "This loose nail will not remain in the wall.",
+      "promptZh": "這口鬆脫的釘無法留在牆內。",
+      "starter": "This",
+      "answer": "This loose nail will not stay in the wall.",
+      "answerZh": "這口鬆脫的釘無法留在牆內。",
+      "highlight": "stay",
+      "targetForm": "stay in",
+      "targetMeaningZh": "保持在裏面或原位"
+    },
+    {
+      "id": "phrasal-verb-286-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 22,
+      "prompt": "Sam was allowed to remain away from home until 11.30 on Saturday.",
+      "promptZh": "森星期六獲准在外逗留至十一時半。",
+      "starter": "Sam",
+      "answer": "Sam was allowed to stay out until 11.30 on Saturday.",
+      "answerZh": "森星期六獲准在外逗留至十一時半。",
+      "highlight": "stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "在外逗留;遲些才回家"
+    },
+    {
+      "id": "phrasal-verb-286-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "Several students were not enjoying the course, but they continued with it.",
+      "promptZh": "幾名學生並不享受這個課程,但仍然繼續修讀。",
+      "starter": "Several",
+      "answer": "Several students were not enjoying the course, but they stayed with it.",
+      "answerZh": "幾名學生並不享受這個課程,但仍然繼續修讀。",
+      "highlight": "stayed",
+      "targetForm": "stay with something",
+      "targetMeaningZh": "繼續進行;不放棄"
+    },
+    {
+      "id": "phrasal-verb-286-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "If the rain does not start, we can eat outside.",
+      "promptZh": "如果沒有下雨,我們便可以在外面用餐。",
+      "starter": "If",
+      "answer": "If the rain stays off, we can eat outside.",
+      "answerZh": "如果暫時不下雨,我們便可以在外面用餐。",
+      "highlight": "stays off",
+      "targetForm": "stay off",
+      "targetMeaningZh": "雨等暫時不下"
+    },
+    {
+      "id": "phrasal-verb-286-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 22,
+      "prompt": "The police told everyone not to move closer.",
+      "promptZh": "警察叫所有人不要走近。",
+      "starter": "The",
+      "answer": "The police told everyone to stay back.",
+      "answerZh": "警察叫所有人保持距離。",
+      "highlight": "stay back",
+      "targetForm": "stay back",
+      "targetMeaningZh": "保持距離;不要走近"
+    },
+    {
+      "id": "phrasal-verb-286-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "These trousers will fall without a belt.",
+      "promptZh": "這條褲子沒有皮帶便會滑下來。",
+      "starter": "These",
+      "answer": "These trousers will not stay up without a belt.",
+      "answerZh": "這條褲子沒有皮帶便會滑下來。",
+      "highlight": "not stay up",
+      "targetForm": "stay up",
+      "targetMeaningZh": "保持提起;不向下滑"
+    },
+    {
+      "id": "phrasal-verb-286-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "I try not to become involved in their small arguments.",
+      "promptZh": "我盡量不介入他們的小爭執。",
+      "starter": "I",
+      "answer": "I try to stay out of their small arguments.",
+      "answerZh": "我盡量不介入他們的小爭執。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不介入某事"
+    },
+    {
+      "id": "phrasal-verb-286-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 23,
+      "prompt": "He hurt his back and did not go to work for a week.",
+      "promptZh": "他弄傷背部,一星期沒有上班。",
+      "starter": "He",
+      "answer": "He hurt his back and stayed off work for a week.",
+      "answerZh": "他弄傷背部,一星期沒有上班。",
+      "highlight": "stayed off",
+      "targetForm": "stay off work",
+      "targetMeaningZh": "因生病或受傷而暫不上班"
+    },
+    {
+      "id": "phrasal-verb-286-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "Would you like to sleep at our house tonight?",
+      "promptZh": "你今晚想在我們家中留宿嗎?",
+      "starter": "Would",
+      "answer": "Would you like to stay over at our house tonight?",
+      "answerZh": "你今晚想在我們家中留宿嗎?",
+      "highlight": "stay over",
+      "targetForm": "stay over",
+      "targetMeaningZh": "留宿"
+    },
+    {
+      "id": "phrasal-verb-286-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "To remain more successful than nearby shops, we need better service.",
+      "promptZh": "要繼續領先附近的店舖,我們便需要提供更好的服務。",
+      "starter": "To",
+      "answer": "To stay ahead of nearby shops, we need better service.",
+      "answerZh": "要繼續領先附近的店舖,我們便需要提供更好的服務。",
+      "highlight": "stay ahead of",
+      "targetForm": "stay ahead of something",
+      "targetMeaningZh": "領先於某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 23,
+      "prompt": "The doctor advised her not to go near crowded places for a few days.",
+      "promptZh": "醫生建議她幾天內不要前往人多的地方。",
+      "starter": "The",
+      "answer": "The doctor advised her to stay away from crowded places for a few days.",
+      "answerZh": "醫生建議她幾天內不要前往人多的地方。",
+      "highlight": "stay away from",
+      "targetForm": "stay away from something",
+      "targetMeaningZh": "遠離某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Will the plug remain in if I move the cable?",
+      "promptZh": "如果我移動電線,插頭仍會留在原位嗎?",
+      "starter": "Will",
+      "answer": "Will the plug stay in if I move the cable?",
+      "answerZh": "如果我移動電線,插頭仍會留在原位嗎?",
+      "highlight": "stay",
+      "targetForm": "stay in",
+      "targetMeaningZh": "保持在裏面或原位"
+    },
+    {
+      "id": "phrasal-verb-286-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "Are you planning to continue with this exercise programme?",
+      "promptZh": "你打算繼續這個運動計劃嗎?",
+      "starter": "Are",
+      "answer": "Are you planning to stay with this exercise programme?",
+      "answerZh": "你打算繼續這個運動計劃嗎?",
+      "highlight": "stay",
+      "targetForm": "stay with something",
+      "targetMeaningZh": "繼續進行某事"
+    },
+    {
+      "id": "phrasal-verb-286-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 24,
+      "prompt": "The lid keeps rising and will not remain closed.",
+      "promptZh": "這個蓋子不斷升起,無法保持關閉。",
+      "starter": "The",
+      "answer": "The lid keeps rising and will not stay down.",
+      "answerZh": "這個蓋子不斷升起,無法保持關閉。",
+      "highlight": "stay down",
+      "targetForm": "stay down",
+      "targetMeaningZh": "保持在放下或較低的位置"
+    },
+    {
+      "id": "phrasal-verb-286-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Were you allowed to remain away from home after ten when you were younger?",
+      "promptZh": "你年輕時獲准在晚上十時後仍留在外面嗎?",
+      "starter": "Were",
+      "answer": "Were you allowed to stay out after ten when you were younger?",
+      "answerZh": "你年輕時獲准在晚上十時後仍留在外面嗎?",
+      "highlight": "stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "在外逗留;遲些才回家"
+    },
+    {
+      "id": "phrasal-verb-286-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Please remain at a safe distance while the machine is running.",
+      "promptZh": "機器運作期間,請保持安全距離。",
+      "starter": "Please",
+      "answer": "Please stay back while the machine is running.",
+      "answerZh": "機器運作期間,請保持安全距離。",
+      "highlight": "stay back",
+      "targetForm": "stay back",
+      "targetMeaningZh": "保持距離;不要走近"
+    },
+    {
+      "id": "phrasal-verb-286-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 24,
+      "prompt": "Can you avoid sugary drinks for a month?",
+      "promptZh": "你可以一個月不喝含糖飲品嗎?",
+      "starter": "Can",
+      "answer": "Can you stay off sugary drinks for a month?",
+      "answerZh": "你可以一個月不喝含糖飲品嗎?",
+      "highlight": "stay off",
+      "targetForm": "stay off something",
+      "targetMeaningZh": "避免食用或飲用某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Did Leo remain nearby after the others left?",
+      "promptZh": "其他人離開後,里奧有留在附近嗎?",
+      "starter": "Did",
+      "answer": "Did Leo stay around after the others left?",
+      "answerZh": "其他人離開後,里奧有留在附近嗎?",
+      "highlight": "stay around",
+      "targetForm": "stay around",
+      "targetMeaningZh": "留在附近"
+    },
+    {
+      "id": "phrasal-verb-286-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Why did the label remain attached after washing?",
+      "promptZh": "清洗後,這張標籤為何仍然沒有脫落?",
+      "starter": "Why",
+      "answer": "Why did the label stay on after washing?",
+      "answerZh": "清洗後,這張標籤為何仍然沒有脫落?",
+      "highlight": "stay on",
+      "targetForm": "stay on",
+      "targetMeaningZh": "保持附着;不脫落"
+    },
+    {
+      "id": "phrasal-verb-286-q29",
+      "number": 29,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 25,
+      "prompt": "Why did Aisha remain at school after the meeting?",
+      "promptZh": "會議結束後,艾莎為何仍然留在學校?",
+      "starter": "Why",
+      "answer": "Why did Aisha stay behind after the meeting?",
+      "answerZh": "會議結束後,艾莎為何仍然留下來?",
+      "highlight": "stay behind",
+      "targetForm": "stay behind after something",
+      "targetMeaningZh": "在其他人離開後留下"
+    },
+    {
+      "id": "phrasal-verb-286-q30",
+      "number": 30,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "The rain remained absent until the match ended.",
+      "promptZh": "直至比賽結束時,仍然沒有下雨。",
+      "starter": "The",
+      "answer": "The rain stayed off until the match ended.",
+      "answerZh": "直至比賽結束時,仍然沒有下雨。",
+      "highlight": "stayed off",
+      "targetForm": "stay off",
+      "targetMeaningZh": "雨等暫時不下"
+    },
+    {
+      "id": "phrasal-verb-286-q31",
+      "number": 31,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Please avoid becoming involved in this family disagreement.",
+      "promptZh": "請不要介入這場家庭爭執。",
+      "starter": "Please",
+      "answer": "Please stay out of this family disagreement.",
+      "answerZh": "請不要介入這場家庭爭執。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不介入某事"
+    },
+    {
+      "id": "phrasal-verb-286-q32",
+      "number": 32,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 25,
+      "prompt": "Her socks did not remain pulled up during the race.",
+      "promptZh": "比賽期間,她的襪子無法保持拉高。",
+      "starter": "Her",
+      "answer": "Her socks did not stay up during the race.",
+      "answerZh": "比賽期間,她的襪子無法保持拉高。",
+      "highlight": "stay",
+      "targetForm": "stay up",
+      "targetMeaningZh": "保持提起;不向下滑"
+    },
+    {
+      "id": "phrasal-verb-286-q33",
+      "number": 33,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Ella has a fever, so she will not go to school tomorrow.",
+      "promptZh": "埃拉發燒,所以明天不會上學。",
+      "starter": "Ella",
+      "answer": "Ella has a fever, so she will stay off school tomorrow.",
+      "answerZh": "埃拉發燒,所以明天不會上學。",
+      "highlight": "stay off",
+      "targetForm": "stay off school",
+      "targetMeaningZh": "因病而暫不上學"
+    },
+    {
+      "id": "phrasal-verb-286-q34",
+      "number": 34,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "Visitors must not enter this room.",
+      "promptZh": "訪客不得進入這個房間。",
+      "starter": "Visitors",
+      "answer": "Visitors must stay out of this room.",
+      "answerZh": "訪客不得進入這個房間。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不要進入某處"
+    },
+    {
+      "id": "phrasal-verb-286-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 26,
+      "prompt": "The bandage remained in place all night.",
+      "promptZh": "繃帶整晚都沒有脫落。",
+      "starter": "The",
+      "answer": "The bandage stayed on all night.",
+      "answerZh": "繃帶整晚都沒有脫落。",
+      "highlight": "stayed on",
+      "targetForm": "stay on",
+      "targetMeaningZh": "保持附着;不脫落"
+    },
+    {
+      "id": "phrasal-verb-286-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Two students were asked to remain after the lesson.",
+      "promptZh": "兩名學生被要求下課後留下來。",
+      "starter": "Two",
+      "answer": "Two students were asked to stay behind after the lesson.",
+      "answerZh": "兩名學生被要求下課後留下來。",
+      "highlight": "stay behind",
+      "targetForm": "stay behind after something",
+      "targetMeaningZh": "在其他人離開後留下"
+    },
+    {
+      "id": "phrasal-verb-286-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "She studies every week so that she can remain ahead of the rest of the class.",
+      "promptZh": "她每星期都溫習,以保持領先班上其他同學。",
+      "starter": "She",
+      "answer": "She studies every week so that she can stay ahead of the rest of the class.",
+      "answerZh": "她每星期都溫習,以保持領先班上其他同學。",
+      "highlight": "stay",
+      "targetForm": "stay ahead of somebody",
+      "targetMeaningZh": "領先於某人"
+    },
+    {
+      "id": "phrasal-verb-286-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 26,
+      "prompt": "Because the last bus had gone, the guests slept at our house.",
+      "promptZh": "由於尾班車已經開走,客人便在我們家中留宿。",
+      "starter": "Because",
+      "answer": "Because the last bus had gone, the guests stayed over at our house.",
+      "answerZh": "由於尾班車已經開走,客人便在我們家中留宿。",
+      "highlight": "stayed over",
+      "targetForm": "stay over",
+      "targetMeaningZh": "留宿"
+    },
+    {
+      "id": "phrasal-verb-286-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "She promised not to take part in the dispute.",
+      "promptZh": "她答應不會介入這場爭議。",
+      "starter": "She",
+      "answer": "She promised to stay out of the dispute.",
+      "answerZh": "她答應不會介入這場爭議。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不介入某事"
+    },
+    {
+      "id": "phrasal-verb-286-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "The key did not remain in the lock when I turned it.",
+      "promptZh": "我轉動鎖匙時,鎖匙沒有留在鎖內。",
+      "starter": "The",
+      "answer": "The key did not stay in the lock when I turned it.",
+      "answerZh": "我轉動鎖匙時,鎖匙沒有留在鎖內。",
+      "highlight": "stay",
+      "targetForm": "stay in",
+      "targetMeaningZh": "保持在裏面或原位"
+    },
+    {
+      "id": "phrasal-verb-286-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 27,
+      "prompt": "Why has the dog not gone near its food today?",
+      "promptZh": "那隻狗今天為何一直沒有走近食物?",
+      "starter": "Why",
+      "answer": "Why has the dog stayed away from its food today?",
+      "answerZh": "那隻狗今天為何一直沒有走近食物?",
+      "highlight": "stayed away from",
+      "targetForm": "stay away from something",
+      "targetMeaningZh": "遠離某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "This zip keeps sliding down, so it will not remain up.",
+      "promptZh": "這條拉鏈不斷向下滑,無法保持拉高。",
+      "starter": "This",
+      "answer": "This zip keeps sliding down, so it will not stay up.",
+      "answerZh": "這條拉鏈不斷向下滑,無法保持拉高。",
+      "highlight": "stay",
+      "targetForm": "stay up",
+      "targetMeaningZh": "保持提起;不向下滑"
+    },
+    {
+      "id": "phrasal-verb-286-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "The nurse asked me to remain nearby for a few minutes.",
+      "promptZh": "護士叫我在附近多留幾分鐘。",
+      "starter": "The",
+      "answer": "The nurse asked me to stay around for a few minutes.",
+      "answerZh": "護士叫我在附近多留幾分鐘。",
+      "highlight": "stay around",
+      "targetForm": "stay around",
+      "targetMeaningZh": "留在附近"
+    },
+    {
+      "id": "phrasal-verb-286-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 27,
+      "prompt": "Tariq hurt his knee and did not go to work for three days.",
+      "promptZh": "塔里克弄傷膝蓋,三天沒有上班。",
+      "starter": "Tariq",
+      "answer": "Tariq hurt his knee and stayed off work for three days.",
+      "answerZh": "塔里克弄傷膝蓋,三天沒有上班。",
+      "highlight": "stayed off",
+      "targetForm": "stay off work",
+      "targetMeaningZh": "因受傷而暫不上班"
+    },
+    {
+      "id": "phrasal-verb-286-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The corner of the rug finally remained flat after I placed a box on it.",
+      "promptZh": "我把箱子放在地氈一角後,那個角終於保持平伏。",
+      "starter": "The",
+      "answer": "The corner of the rug finally stayed down after I placed a box on it.",
+      "answerZh": "我把箱子放在地氈一角後,那個角終於保持平伏。",
+      "highlight": "stayed down",
+      "targetForm": "stay down",
+      "targetMeaningZh": "保持在較低或平伏的位置"
+    },
+    {
+      "id": "phrasal-verb-286-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "I am trying not to use social media while I study.",
+      "promptZh": "我溫習時正嘗試不使用社交媒體。",
+      "starter": "I",
+      "answer": "I am trying to stay off social media while I study.",
+      "answerZh": "我溫習時正嘗試不使用社交媒體。",
+      "highlight": "stay off",
+      "targetForm": "stay off something",
+      "targetMeaningZh": "避免使用某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 28,
+      "prompt": "The guide asked us not to move forwards until the gate opened.",
+      "promptZh": "導遊叫我們在閘門打開前不要向前走。",
+      "starter": "The",
+      "answer": "The guide asked us to stay back until the gate opened.",
+      "answerZh": "導遊叫我們在閘門打開前不要向前走。",
+      "highlight": "stay back",
+      "targetForm": "stay back",
+      "targetMeaningZh": "保持距離;不要向前走近"
+    },
+    {
+      "id": "phrasal-verb-286-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "We did not return home until midnight after the concert.",
+      "promptZh": "音樂會結束後,我們直至午夜才回家。",
+      "starter": "We",
+      "answer": "We stayed out until midnight after the concert.",
+      "answerZh": "音樂會結束後,我們在外逗留至午夜。",
+      "highlight": "stayed out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "在外逗留;遲些才回家"
+    },
+    {
+      "id": "phrasal-verb-286-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "The book was difficult at first, but I continued reading it.",
+      "promptZh": "這本書起初很難,但我仍然繼續讀下去。",
+      "starter": "The",
+      "answer": "The book was difficult at first, but I stayed with it.",
+      "answerZh": "這本書起初很難,但我仍然繼續讀下去。",
+      "highlight": "stayed with",
+      "targetForm": "stay with something",
+      "targetMeaningZh": "繼續進行;不放棄"
+    },
+    {
+      "id": "phrasal-verb-286-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 28,
+      "prompt": "Please do not enter; we are painting the walls.",
+      "promptZh": "請不要進來;我們正在髹牆。",
+      "starter": "Please",
+      "answer": "Please stay out; we are painting the walls.",
+      "answerZh": "請不要進來;我們正在髹牆。",
+      "highlight": "stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "不要進入;留在外面"
+    },
+    {
+      "id": "phrasal-verb-286-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "We will go to the beach if it does not rain.",
+      "promptZh": "如果沒有下雨,我們便會到海灘。",
+      "starter": "We",
+      "answer": "We will go to the beach if the rain stays off.",
+      "answerZh": "如果暫時不下雨,我們便會到海灘。",
+      "highlight": "the",
+      "targetForm": "stay off",
+      "targetMeaningZh": "雨等暫時不下"
+    },
+    {
+      "id": "phrasal-verb-286-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 29,
+      "prompt": "Although another coach was available, the player decided to continue with her current coach.",
+      "promptZh": "雖然另有一名教練可供選擇,但那名運動員決定繼續跟隨現任教練。",
+      "starter": "Although",
+      "answer": "Although another coach was available, the player decided to stay with her current coach.",
+      "answerZh": "雖然另有一名教練可供選擇,但那名運動員決定繼續跟隨現任教練。",
+      "highlight": "stay",
+      "targetForm": "stay with somebody",
+      "targetMeaningZh": "繼續跟隨或支持某人"
+    },
+    {
+      "id": "phrasal-verb-286-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "Luckily, there was no rain during the school fair.",
+      "promptZh": "幸好學校嘉年華舉行期間沒有下雨。",
+      "starter": "Luckily",
+      "answer": "Luckily, the rain stayed off during the school fair.",
+      "answerZh": "幸好學校嘉年華舉行期間沒有下雨。",
+      "highlight": "the",
+      "targetForm": "stay off",
+      "targetMeaningZh": "雨等暫時不下"
+    },
+    {
+      "id": "phrasal-verb-286-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The cook told the children not to enter the kitchen.",
+      "promptZh": "廚師叫孩子們不要進入廚房。",
+      "starter": "The",
+      "answer": "The cook told the children to stay out of the kitchen.",
+      "answerZh": "廚師叫孩子們不要進入廚房。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不要進入某處"
+    },
+    {
+      "id": "phrasal-verb-286-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 29,
+      "prompt": "The phone company improves its camera each year, which allows it to remain ahead of its competitors.",
+      "promptZh": "這間電話公司每年都改良相機功能,令它可以繼續領先競爭對手。",
+      "starter": "The",
+      "answer": "The phone company improves its camera each year, which allows it to stay ahead of its competitors.",
+      "answerZh": "這間電話公司每年都改良相機功能,令它可以繼續領先競爭對手。",
+      "highlight": "stay",
+      "targetForm": "stay ahead of somebody or something",
+      "targetMeaningZh": "領先於競爭對手"
+    },
+    {
+      "id": "phrasal-verb-286-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "The nurse advised him not to go to work until Monday.",
+      "promptZh": "護士建議他星期一前不要上班。",
+      "starter": "The",
+      "answer": "The nurse advised him to stay off work until Monday.",
+      "answerZh": "護士建議他星期一前不要上班。",
+      "highlight": "stay off",
+      "targetForm": "stay off work",
+      "targetMeaningZh": "因病或受傷而暫不上班"
+    },
+    {
+      "id": "phrasal-verb-286-q57",
+      "number": 57,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "His sleeves remained above his elbows because he had folded them tightly.",
+      "promptZh": "他把衣袖緊緊捲起,所以衣袖一直保持在手肘上方。",
+      "starter": "His",
+      "answer": "His sleeves stayed up because he had folded them tightly.",
+      "answerZh": "他把衣袖緊緊捲起,所以衣袖一直保持在手肘上方。",
+      "highlight": "stayed up",
+      "targetForm": "stay up",
+      "targetMeaningZh": "保持提起;不向下滑"
+    },
+    {
+      "id": "phrasal-verb-286-q58",
+      "number": 58,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 30,
+      "prompt": "Because the repair might take longer, one worker remained nearby.",
+      "promptZh": "由於維修可能需時較長,一名工人留在附近。",
+      "starter": "Because",
+      "answer": "Because the repair might take longer, one worker stayed around.",
+      "answerZh": "由於維修可能需時較長,一名工人留在附近。",
+      "highlight": "stayed around",
+      "targetForm": "stay around",
+      "targetMeaningZh": "留在附近"
+    },
+    {
+      "id": "phrasal-verb-286-q59",
+      "number": 59,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "It is often wiser not to become involved in other people’s private problems.",
+      "promptZh": "不介入別人的私人問題通常較為明智。",
+      "starter": "Staying",
+      "answer": "Staying out of other people’s private problems is often wiser.",
+      "answerZh": "不介入別人的私人問題通常較為明智。",
+      "highlight": "Staying out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不介入某事"
+    },
+    {
+      "id": "phrasal-verb-286-q60",
+      "number": 60,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Even in the strong wind, his hat remained on his head.",
+      "promptZh": "即使風勢強勁,他的帽子仍然沒有掉下來。",
+      "starter": "Even",
+      "answer": "Even in the strong wind, his hat stayed on.",
+      "answerZh": "即使風勢強勁,他的帽子仍然沒有掉下來。",
+      "highlight": "stayed",
+      "targetForm": "stay on",
+      "targetMeaningZh": "保持在原位;不脫落"
+    },
+    {
+      "id": "phrasal-verb-286-q61",
+      "number": 61,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 30,
+      "prompt": "Because the room was untidy, several helpers remained after the event.",
+      "promptZh": "由於房間很凌亂,幾名幫手在活動結束後留下來。",
+      "starter": "Because",
+      "answer": "Because the room was untidy, several helpers stayed behind after the event.",
+      "answerZh": "由於房間很凌亂,幾名幫手在活動結束後留下來。",
+      "highlight": "stayed behind",
+      "targetForm": "stay behind after something",
+      "targetMeaningZh": "在其他人離開後留下"
+    },
+    {
+      "id": "phrasal-verb-286-q62",
+      "number": 62,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Priya avoids coffee because caffeine keeps her awake.",
+      "promptZh": "普里雅避免喝咖啡,因為咖啡因令她無法入睡。",
+      "starter": "Priya",
+      "answer": "Priya stays off coffee because caffeine keeps her awake.",
+      "answerZh": "普里雅避免喝咖啡,因為咖啡因令她無法入睡。",
+      "highlight": "stays off",
+      "targetForm": "stay off something",
+      "targetMeaningZh": "避免飲用某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q63",
+      "number": 63,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "Children should not go near the river when the water is high.",
+      "promptZh": "水位高漲時,孩子們不應靠近河流。",
+      "starter": "Children",
+      "answer": "Children should stay away from the river when the water is high.",
+      "answerZh": "水位高漲時,孩子們不應靠近河流。",
+      "highlight": "stay away from",
+      "targetForm": "stay away from something",
+      "targetMeaningZh": "遠離某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q64",
+      "number": 64,
+      "band": 4,
+      "sourcePage": 16,
+      "answerSourcePage": 31,
+      "prompt": "My parents would not let me remain away from home late on school nights.",
+      "promptZh": "上學日前夕,父母不准我在外逗留至很晚。",
+      "starter": "My",
+      "answer": "My parents would not let me stay out late on school nights.",
+      "answerZh": "上學日前夕,父母不准我在外逗留至很晚。",
+      "highlight": "stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "在外逗留;遲些才回家"
+    },
+    {
+      "id": "phrasal-verb-286-q65",
+      "number": 65,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "Her hair would not remain flat in the wind.",
+      "promptZh": "她的頭髮在風中無法保持平伏。",
+      "starter": "Her",
+      "answer": "Her hair would not stay down in the wind.",
+      "answerZh": "她的頭髮在風中無法保持平伏。",
+      "highlight": "stay down",
+      "targetForm": "stay down",
+      "targetMeaningZh": "保持在較低或平伏的位置"
+    },
+    {
+      "id": "phrasal-verb-286-q66",
+      "number": 66,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "The children are excited because their cousins are sleeping at their house tonight.",
+      "promptZh": "孩子們很興奮,因為表兄弟姊妹今晚會在他們家中留宿。",
+      "starter": "The",
+      "answer": "The children are excited because their cousins are staying over at their house tonight.",
+      "answerZh": "孩子們很興奮,因為表兄弟姊妹今晚會在他們家中留宿。",
+      "highlight": "staying over",
+      "targetForm": "stay over",
+      "targetMeaningZh": "留宿"
+    },
+    {
+      "id": "phrasal-verb-286-q67",
+      "number": 67,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 31,
+      "prompt": "When the horse became nervous, the children remained at a distance.",
+      "promptZh": "那匹馬變得不安時,孩子們留在較遠的位置。",
+      "starter": "When",
+      "answer": "When the horse became nervous, the children stayed back.",
+      "answerZh": "那匹馬變得不安時,孩子們留在較遠的位置。",
+      "highlight": "stayed back",
+      "targetForm": "stay back",
+      "targetMeaningZh": "保持距離;不要走近"
+    },
+    {
+      "id": "phrasal-verb-286-q68",
+      "number": 68,
+      "band": 4,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "The earphone will not remain in my ear.",
+      "promptZh": "這隻耳機無法留在我的耳內。",
+      "starter": "The",
+      "answer": "The earphone will not stay in my ear.",
+      "answerZh": "這隻耳機無法留在我的耳內。",
+      "highlight": "stay",
+      "targetForm": "stay in",
+      "targetMeaningZh": "保持在裏面或原位"
+    },
+    {
+      "id": "phrasal-verb-286-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Although both friends asked for advice, Leo chose not to become involved in their argument.",
+      "promptZh": "雖然兩名朋友都向里奧尋求意見,但他選擇不介入他們的爭執。",
+      "starter": "Although",
+      "answer": "Although both friends asked for advice, Leo chose to stay out of their argument.",
+      "answerZh": "雖然兩名朋友都向里奧尋求意見,但他選擇不介入他們的爭執。",
+      "highlight": "stay out of",
+      "targetForm": "stay out of something",
+      "targetMeaningZh": "不介入某事"
+    },
+    {
+      "id": "phrasal-verb-286-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 32,
+      "prompt": "Without the clips, the long socks would not remain pulled up.",
+      "promptZh": "沒有夾子,這雙長襪便無法保持拉高。",
+      "starter": "Without",
+      "answer": "Without the clips, the long socks would not stay up.",
+      "answerZh": "沒有夾子,這雙長襪便無法保持拉高。",
+      "highlight": "stay",
+      "targetForm": "stay up",
+      "targetMeaningZh": "保持提起;不向下滑"
+    },
+    {
+      "id": "phrasal-verb-286-q71",
+      "number": 71,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The clouds were dark, but the rain did not begin until we reached home.",
+      "promptZh": "雲層很黑,但直至我們到家後才開始下雨。",
+      "starter": "The",
+      "answer": "The clouds were dark, but the rain stayed off until we reached home.",
+      "answerZh": "雲層很黑,但直至我們到家後才開始下雨。",
+      "highlight": "stayed off",
+      "targetForm": "stay off",
+      "targetMeaningZh": "雨等暫時不下"
+    },
+    {
+      "id": "phrasal-verb-286-q72",
+      "number": 72,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "The course is demanding, but students who continue with it usually improve.",
+      "promptZh": "這個課程要求很高,但堅持修讀的學生通常會有進步。",
+      "starter": "The",
+      "answer": "The course is demanding, but students who stay with it usually improve.",
+      "answerZh": "這個課程要求很高,但堅持修讀的學生通常會有進步。",
+      "highlight": "stay",
+      "targetForm": "stay with something",
+      "targetMeaningZh": "繼續進行;不放棄"
+    },
+    {
+      "id": "phrasal-verb-286-q73",
+      "number": 73,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 32,
+      "prompt": "“Do not come any closer!” the guard shouted.",
+      "promptZh": "守衛大聲喊道:「不要再走近!」",
+      "starter": "Stay",
+      "answer": "“Stay back!” the guard shouted.",
+      "answerZh": "守衛大聲喊道:「不要再走近!」",
+      "highlight": "Stay back",
+      "targetForm": "stay back",
+      "targetMeaningZh": "保持距離;不要走近"
+    },
+    {
+      "id": "phrasal-verb-286-q74",
+      "number": 74,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "The doctor told her not to return to work for another day.",
+      "promptZh": "醫生吩咐她多一天不要上班。",
+      "starter": "The",
+      "answer": "The doctor told her to stay off work for another day.",
+      "answerZh": "醫生吩咐她多一天不要上班。",
+      "highlight": "stay off",
+      "targetForm": "stay off work",
+      "targetMeaningZh": "因病或受傷而暫不上班"
+    },
+    {
+      "id": "phrasal-verb-286-q75",
+      "number": 75,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "You do not have to leave yet; remain nearby until the taxi arrives.",
+      "promptZh": "你暫時不用離開;留在附近直至的士到達。",
+      "starter": "You",
+      "answer": "You do not have to leave yet; stay around until the taxi arrives.",
+      "answerZh": "你暫時不用離開;留在附近直至的士到達。",
+      "highlight": "stay around",
+      "targetForm": "stay around",
+      "targetMeaningZh": "留在附近"
+    },
+    {
+      "id": "phrasal-verb-286-q76",
+      "number": 76,
+      "band": 5,
+      "sourcePage": 18,
+      "answerSourcePage": 33,
+      "prompt": "“Do not enter!” the worker shouted because the floor had just been painted.",
+      "promptZh": "由於地板剛髹好,工人大聲喊道:「不要進來!」",
+      "starter": "Stay",
+      "answer": "“Stay out!” the worker shouted because the floor had just been painted.",
+      "answerZh": "由於地板剛髹好,工人大聲喊道:「不要進來!」",
+      "highlight": "Stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "不要進入;留在外面"
+    },
+    {
+      "id": "phrasal-verb-286-q77",
+      "number": 77,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Remaining in front will require new ideas, not only last year’s success.",
+      "promptZh": "要保持領先,便需要新的構思,不能只依靠去年的成功。",
+      "starter": "Staying",
+      "answer": "Staying ahead will require new ideas, not only last year’s success.",
+      "answerZh": "要保持領先,便需要新的構思,不能只依靠去年的成功。",
+      "highlight": "Staying ahead",
+      "targetForm": "stay ahead",
+      "targetMeaningZh": "保持領先"
+    },
+    {
+      "id": "phrasal-verb-286-q78",
+      "number": 78,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "This bottle cap will remain attached only if you tighten it fully.",
+      "promptZh": "只有把這個瓶蓋完全扭緊,它才不會脫落。",
+      "starter": "This",
+      "answer": "This bottle cap will stay on only if you tighten it fully.",
+      "answerZh": "只有把這個瓶蓋完全扭緊,它才不會脫落。",
+      "highlight": "stay on",
+      "targetForm": "stay on",
+      "targetMeaningZh": "保持附着;不脫落"
+    },
+    {
+      "id": "phrasal-verb-286-q79",
+      "number": 79,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 33,
+      "prompt": "Even though the beach looked safe, the sign warned visitors not to go near the rocks.",
+      "promptZh": "雖然海灘看來很安全,但告示警告遊客不要靠近岩石。",
+      "starter": "Even",
+      "answer": "Even though the beach looked safe, the sign warned visitors to stay away from the rocks.",
+      "answerZh": "雖然海灘看來很安全,但告示警告遊客不要靠近岩石。",
+      "highlight": "stay away from",
+      "targetForm": "stay away from something",
+      "targetMeaningZh": "遠離某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q80",
+      "number": 80,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "If the snow gets worse, you can sleep here tonight.",
+      "promptZh": "如果雪勢變得更大,你今晚可以留在這裏過夜。",
+      "starter": "If",
+      "answer": "If the snow gets worse, you can stay over tonight.",
+      "answerZh": "如果雪勢變得更大,你今晚可以留在這裏過夜。",
+      "highlight": "stay over",
+      "targetForm": "stay over",
+      "targetMeaningZh": "留宿"
+    },
+    {
+      "id": "phrasal-verb-286-q81",
+      "number": 81,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "If the shelf pin does not remain in, the shelf may fall.",
+      "promptZh": "如果層板釘無法留在原位,層板可能會掉下來。",
+      "starter": "If",
+      "answer": "If the shelf pin does not stay in, the shelf may fall.",
+      "answerZh": "如果層板釘無法留在原位,層板可能會掉下來。",
+      "highlight": "stay",
+      "targetForm": "stay in",
+      "targetMeaningZh": "保持在裏面或原位"
+    },
+    {
+      "id": "phrasal-verb-286-q82",
+      "number": 82,
+      "band": 5,
+      "sourcePage": 19,
+      "answerSourcePage": 34,
+      "prompt": "Since tomorrow is a holiday, the children may remain away from home until ten.",
+      "promptZh": "由於明天是假期,孩子們可以在外逗留至十時。",
+      "starter": "Since",
+      "answer": "Since tomorrow is a holiday, the children may stay out until ten.",
+      "answerZh": "由於明天是假期,孩子們可以在外逗留至十時。",
+      "highlight": "stay out",
+      "targetForm": "stay out",
+      "targetMeaningZh": "在外逗留;遲些才回家"
+    },
+    {
+      "id": "phrasal-verb-286-q83",
+      "number": 83,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "For the next two weeks, the coach wants the players to avoid fast food.",
+      "promptZh": "未來兩星期,教練希望球員避免吃快餐。",
+      "starter": "For",
+      "answer": "For the next two weeks, the coach wants the players to stay off fast food.",
+      "answerZh": "未來兩星期,教練希望球員避免吃快餐。",
+      "highlight": "stay off",
+      "targetForm": "stay off something",
+      "targetMeaningZh": "避免食用某事物"
+    },
+    {
+      "id": "phrasal-verb-286-q84",
+      "number": 84,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "Sam remained after the others left so that he could speak to the teacher.",
+      "promptZh": "其他人離開後,森留下來與老師談話。",
+      "starter": "Sam",
+      "answer": "Sam stayed behind after the others left so that he could speak to the teacher.",
+      "answerZh": "其他人離開後,森留下來與老師談話。",
+      "highlight": "stayed behind",
+      "targetForm": "stay behind",
+      "targetMeaningZh": "在其他人離開後留下"
+    },
+    {
+      "id": "phrasal-verb-286-q85",
+      "number": 85,
+      "band": 5,
+      "sourcePage": 20,
+      "answerSourcePage": 34,
+      "prompt": "This button keeps rising after I press it.",
+      "promptZh": "我按下這個按鈕後,它不斷升起。",
+      "starter": "This",
+      "answer": "This button will not stay down after I press it.",
+      "answerZh": "我按下這個按鈕後,它無法保持在較低位置。",
+      "highlight": "will not stay down",
+      "targetForm": "stay down",
+      "targetMeaningZh": "保持在放下或較低的位置"
+    }
+  ]
+}

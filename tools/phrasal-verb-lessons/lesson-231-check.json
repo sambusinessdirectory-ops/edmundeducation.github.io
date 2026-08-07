@@ -1,0 +1,1815 @@
+{
+  "id": "phrasal-verb-231",
+  "order": 231,
+  "slug": "check",
+  "version": "1",
+  "title": "CHECK 動詞片語",
+  "titleEn": "Check",
+  "titleZh": "CHECK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 226 - CHECK.pdf",
+    "sourceNumber": 226,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHECK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHECK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHECK",
+      "highlight": "CHECK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We checked into the hotel, and the receptionist checked us in quickly.",
+      "zh": "我們到達酒店辦理入住,接待員很快便替我們完成登記。",
+      "highlight": "checked into the hotel, and the receptionist checked us in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I’ll check on dinner in a few minutes.",
+      "zh": "我幾分鐘後會查看晚餐的情況。",
+      "highlight": "check on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "His story did not check out.",
+      "zh": "他的說法經查證後並不屬實。",
+      "highlight": "check out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "到達酒店後辦理入住;替某人辦理到場登記；查看某人或某事物的情況,確保一切正常；經查證後證明屬實、正確或合理；在商店付款離開;替顧客結帳；辦理退房並離開住宿地方;提早離開；在作決定前調查或核實某人或某事；仔細檢查某人或某事物,看看是否有問題或錯誤；在機場等地方交出行李,辦理託運；在清單上把已完成或已確認的項目劃去；從圖書館等地方借閱或借用物品",
+    "en": "check into something / check somebody in; check on somebody/something; check out; check out / check somebody out; check out / check out of something; check somebody/something out / check up on somebody/something; check somebody/something over / check through something / check it or them through; check something in; check something off; check something out",
+    "naturalZh": [
+      "到達酒店後辦理入住;替某人辦理到場登記",
+      "查看某人或某事物的情況,確保一切正常",
+      "經查證後證明屬實、正確或合理",
+      "在商店付款離開;替顧客結帳",
+      "辦理退房並離開住宿地方;提早離開",
+      "在作決定前調查或核實某人或某事",
+      "仔細檢查某人或某事物,看看是否有問題或錯誤",
+      "在機場等地方交出行李,辦理託運",
+      "在清單上把已完成或已確認的項目劃去",
+      "從圖書館等地方借閱或借用物品"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "check into something / check somebody in",
+      "titleZh": "到達酒店後辦理入住;替某人辦理到場登記",
+      "titleEn": "check into something / check somebody in",
+      "descriptionZh": "到達酒店後辦理入住;替某人辦理到場登記",
+      "descriptionEn": "We checked into the hotel, and the receptionist checked us in quickly.",
+      "examples": [
+        {
+          "en": "We checked into the hotel, and the receptionist checked us in quickly.",
+          "zh": "我們到達酒店辦理入住,接待員很快便替我們完成登記。",
+          "highlight": "checked into the hotel, and the receptionist checked us in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "check on somebody/something",
+      "titleZh": "查看某人或某事物的情況,確保一切正常",
+      "titleEn": "check on somebody/something",
+      "descriptionZh": "查看某人或某事物的情況,確保一切正常",
+      "descriptionEn": "I’ll check on dinner in a few minutes.",
+      "examples": [
+        {
+          "en": "I’ll check on dinner in a few minutes.",
+          "zh": "我幾分鐘後會查看晚餐的情況。",
+          "highlight": "check on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "check out",
+      "titleZh": "經查證後證明屬實、正確或合理",
+      "titleEn": "check out",
+      "descriptionZh": "經查證後證明屬實、正確或合理",
+      "descriptionEn": "His story did not check out.",
+      "examples": [
+        {
+          "en": "His story did not check out.",
+          "zh": "他的說法經查證後並不屬實。",
+          "highlight": "check out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "check out / check somebody out",
+      "titleZh": "在商店付款離開;替顧客結帳",
+      "titleEn": "check out / check somebody out",
+      "descriptionZh": "在商店付款離開;替顧客結帳",
+      "descriptionEn": "You can check out at aisle eight.",
+      "examples": [
+        {
+          "en": "You can check out at aisle eight.",
+          "zh": "你可以在第八條通道結帳。",
+          "highlight": "check out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "check out / check out of something",
+      "titleZh": "辦理退房並離開住宿地方;提早離開",
+      "titleEn": "check out / check out of something",
+      "descriptionZh": "辦理退房並離開住宿地方;提早離開",
+      "descriptionEn": "We checked out of the hotel before noon.",
+      "examples": [
+        {
+          "en": "We checked out of the hotel before noon.",
+          "zh": "我們在中午前辦理退房並離開酒店。",
+          "highlight": "checked out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "check somebody/something out / check up on somebody/something",
+      "titleZh": "在作決定前調查或核實某人或某事",
+      "titleEn": "check somebody/something out / check up on somebody/something",
+      "descriptionZh": "在作決定前調查或核實某人或某事",
+      "descriptionEn": "Check the company out before you pay.",
+      "examples": [
+        {
+          "en": "Check the company out before you pay.",
+          "zh": "付款前先調查這間公司。",
+          "highlight": "Check the company out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "check somebody/something over / check through something / check it or them through",
+      "titleZh": "仔細檢查某人或某事物,看看是否有問題或錯誤",
+      "titleEn": "check somebody/something over / check through something / check it or them through",
+      "descriptionZh": "仔細檢查某人或某事物,看看是否有問題或錯誤",
+      "descriptionEn": "The doctor checked Leo over carefully.",
+      "examples": [
+        {
+          "en": "The doctor checked Leo over carefully.",
+          "zh": "醫生仔細檢查了里奧。",
+          "highlight": "checked Leo over"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "check something in",
+      "titleZh": "在機場等地方交出行李,辦理託運",
+      "titleEn": "check something in",
+      "descriptionZh": "在機場等地方交出行李,辦理託運",
+      "descriptionEn": "We checked our bags in at the airport.",
+      "examples": [
+        {
+          "en": "We checked our bags in at the airport.",
+          "zh": "我們在機場辦理了行李託運。",
+          "highlight": "checked our bags in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "check something off",
+      "titleZh": "在清單上把已完成或已確認的項目劃去",
+      "titleEn": "check something off",
+      "descriptionZh": "在清單上把已完成或已確認的項目劃去",
+      "descriptionEn": "I checked the last job off my list.",
+      "examples": [
+        {
+          "en": "I checked the last job off my list.",
+          "zh": "我把最後一項工作從清單上劃去。",
+          "highlight": "checked the last job off"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "check something out",
+      "titleZh": "從圖書館等地方借閱或借用物品",
+      "titleEn": "check something out",
+      "descriptionZh": "從圖書館等地方借閱或借用物品",
+      "descriptionEn": "Nina checked out two books from the library.",
+      "examples": [
+        {
+          "en": "Nina checked out two books from the library.",
+          "zh": "妮娜從圖書館借閱了兩本書。",
+          "highlight": "checked out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CHECK 片語動詞的實際用途",
+    "labelEn": "CHECK Phrasal Verbs in Use",
+    "summaryZh": "你可以用 check into 表示辦理酒店入住、用 check somebody in 表示替某人登記、用 check bagsin 表示託運行李,以及用 check out 表示離開前辦理退房。；check out 和 check up on 能幫助你在信任公司、聘用某人或相信一個說法前先作調查。；你可以 check work over、check through a report,並把已完成的工作 check off a list。；check out 可以表示在店舖付款,也可以表示從圖書館借閱或借用物品;整個情境會顯示所指的意思。",
+    "summaryEn": "You can check into a hotel, check somebody in at an event, check bags in at an airport and check out before leaving. Check out and check up on help you investigate before you trust a company, employ somebody or believe a story. You can check work over, check through a report and check finished jobs off a list. Check out may describe paying in a shop or borrowing an item from a library. The situation shows which meaning is intended.",
+    "contextsZh": [
+      "在旅程的不同階段使用 CHECK",
+      "查明人物、事物和資料是否可靠",
+      "清楚檢查工作和完成清單",
+      "理解店舖和圖書館中的 CHECK"
+    ],
+    "contextsEn": [
+      "Use CHECK throughout a journey",
+      "Find out whether people, things and information are reliable",
+      "Review work and complete lists clearly",
+      "Understand CHECK in shops and libraries"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CHECK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHECK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "check into something / check somebody in",
+    "fixedHighlight": "check into something / check somebody in",
+    "fixedZh": "閱讀整句,選出意思相同的 CHECK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHECK expression that gives the same meaning.",
+    "correct": "checked into the hotel, and the receptionist checked us in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。；check out 可以表達多個不同意思,包括資料經查證後正確、在店舖付款、離開酒店、調查某人或某事物,以及借閱或借用物品。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them in these expressions, place the word as shown: check him in check it out check it over check it off check it through Check out can express several different ideas. It may mean that information is correct, that somebody pays in a shop, that somebody leaves a hotel, that somebody investigates a person or thing, or that somebody borrows an item. Read the full situation carefully.",
+    "variableItemsZh": [
+      "check into something / check somebody in",
+      "check on somebody/something",
+      "check out",
+      "check out / check somebody out",
+      "check out / check out of something",
+      "check somebody/something out / check up on somebody/something",
+      "check somebody/something over / check through something / check it or them through",
+      "check something in",
+      "check something off",
+      "check something out"
+    ],
+    "variableItemsEn": [
+      "check into something / check somebody in",
+      "check on somebody/something",
+      "check out",
+      "check out / check somebody out",
+      "check out / check out of something",
+      "check somebody/something out / check up on somebody/something",
+      "check somebody/something over / check through something / check it or them through",
+      "check something in",
+      "check something off",
+      "check something out"
+    ],
+    "forms": [
+      {
+        "formZh": "到達酒店後辦理入住;替某人辦理到場登記",
+        "formEn": "check into something / check somebody in",
+        "exampleZh": "我們到達酒店辦理入住,接待員很快便替我們完成登記。",
+        "exampleEn": "We checked into the hotel, and the receptionist checked us in quickly.",
+        "highlight": "checked into the hotel, and the receptionist checked us in"
+      },
+      {
+        "formZh": "查看某人或某事物的情況,確保一切正常",
+        "formEn": "check on somebody/something",
+        "exampleZh": "我幾分鐘後會查看晚餐的情況。",
+        "exampleEn": "I’ll check on dinner in a few minutes.",
+        "highlight": "check on"
+      },
+      {
+        "formZh": "經查證後證明屬實、正確或合理",
+        "formEn": "check out",
+        "exampleZh": "他的說法經查證後並不屬實。",
+        "exampleEn": "His story did not check out.",
+        "highlight": "check out"
+      },
+      {
+        "formZh": "在商店付款離開;替顧客結帳",
+        "formEn": "check out / check somebody out",
+        "exampleZh": "你可以在第八條通道結帳。",
+        "exampleEn": "You can check out at aisle eight.",
+        "highlight": "check out"
+      },
+      {
+        "formZh": "辦理退房並離開住宿地方;提早離開",
+        "formEn": "check out / check out of something",
+        "exampleZh": "我們在中午前辦理退房並離開酒店。",
+        "exampleEn": "We checked out of the hotel before noon.",
+        "highlight": "checked out"
+      },
+      {
+        "formZh": "在作決定前調查或核實某人或某事",
+        "formEn": "check somebody/something out / check up on somebody/something",
+        "exampleZh": "付款前先調查這間公司。",
+        "exampleEn": "Check the company out before you pay.",
+        "highlight": "Check the company out"
+      },
+      {
+        "formZh": "仔細檢查某人或某事物,看看是否有問題或錯誤",
+        "formEn": "check somebody/something over / check through something / check it or them through",
+        "exampleZh": "醫生仔細檢查了里奧。",
+        "exampleEn": "The doctor checked Leo over carefully.",
+        "highlight": "checked Leo over"
+      },
+      {
+        "formZh": "在機場等地方交出行李,辦理託運",
+        "formEn": "check something in",
+        "exampleZh": "我們在機場辦理了行李託運。",
+        "exampleEn": "We checked our bags in at the airport.",
+        "highlight": "checked our bags in"
+      },
+      {
+        "formZh": "在清單上把已完成或已確認的項目劃去",
+        "formEn": "check something off",
+        "exampleZh": "我把最後一項工作從清單上劃去。",
+        "exampleEn": "I checked the last job off my list.",
+        "highlight": "checked the last job off"
+      },
+      {
+        "formZh": "從圖書館等地方借閱或借用物品",
+        "formEn": "check something out",
+        "exampleZh": "妮娜從圖書館借閱了兩本書。",
+        "exampleEn": "Nina checked out two books from the library.",
+        "highlight": "checked out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "到達酒店後辦理入住;替某人辦理到場登記",
+      "titleEn": "check into something / check somebody in",
+      "formula": "check into something / check somebody in",
+      "highlight": "check into something / check somebody in",
+      "descriptionZh": "到達酒店後辦理入住;替某人辦理到場登記",
+      "descriptionEn": "We checked into the hotel, and the receptionist checked us in quickly.",
+      "examples": [
+        {
+          "en": "We checked into the hotel, and the receptionist checked us in quickly.",
+          "zh": "我們到達酒店辦理入住,接待員很快便替我們完成登記。",
+          "highlight": "checked into the hotel, and the receptionist checked us in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "查看某人或某事物的情況,確保一切正常",
+      "titleEn": "check on somebody/something",
+      "formula": "check on somebody/something",
+      "highlight": "check on somebody/something",
+      "descriptionZh": "查看某人或某事物的情況,確保一切正常",
+      "descriptionEn": "I’ll check on dinner in a few minutes.",
+      "examples": [
+        {
+          "en": "I’ll check on dinner in a few minutes.",
+          "zh": "我幾分鐘後會查看晚餐的情況。",
+          "highlight": "check on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "經查證後證明屬實、正確或合理",
+      "titleEn": "check out",
+      "formula": "check out",
+      "highlight": "check out",
+      "descriptionZh": "經查證後證明屬實、正確或合理",
+      "descriptionEn": "His story did not check out.",
+      "examples": [
+        {
+          "en": "His story did not check out.",
+          "zh": "他的說法經查證後並不屬實。",
+          "highlight": "check out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在商店付款離開;替顧客結帳",
+      "titleEn": "check out / check somebody out",
+      "formula": "check out / check somebody out",
+      "highlight": "check out / check somebody out",
+      "descriptionZh": "在商店付款離開;替顧客結帳",
+      "descriptionEn": "You can check out at aisle eight.",
+      "examples": [
+        {
+          "en": "You can check out at aisle eight.",
+          "zh": "你可以在第八條通道結帳。",
+          "highlight": "check out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "辦理退房並離開住宿地方;提早離開",
+      "titleEn": "check out / check out of something",
+      "formula": "check out / check out of something",
+      "highlight": "check out / check out of something",
+      "descriptionZh": "辦理退房並離開住宿地方;提早離開",
+      "descriptionEn": "We checked out of the hotel before noon.",
+      "examples": [
+        {
+          "en": "We checked out of the hotel before noon.",
+          "zh": "我們在中午前辦理退房並離開酒店。",
+          "highlight": "checked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "在作決定前調查或核實某人或某事",
+      "titleEn": "check somebody/something out / check up on somebody/something",
+      "formula": "check somebody/something out / check up on somebody/something",
+      "highlight": "check somebody/something out / check up on somebody/something",
+      "descriptionZh": "在作決定前調查或核實某人或某事",
+      "descriptionEn": "Check the company out before you pay.",
+      "examples": [
+        {
+          "en": "Check the company out before you pay.",
+          "zh": "付款前先調查這間公司。",
+          "highlight": "Check the company out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "仔細檢查某人或某事物,看看是否有問題或錯誤",
+      "titleEn": "check somebody/something over / check through something / check it or them through",
+      "formula": "check somebody/something over / check through something / check it or them through",
+      "highlight": "check somebody/something over / check through something / check it or them through",
+      "descriptionZh": "仔細檢查某人或某事物,看看是否有問題或錯誤",
+      "descriptionEn": "The doctor checked Leo over carefully.",
+      "examples": [
+        {
+          "en": "The doctor checked Leo over carefully.",
+          "zh": "醫生仔細檢查了里奧。",
+          "highlight": "checked Leo over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在機場等地方交出行李,辦理託運",
+      "titleEn": "check something in",
+      "formula": "check something in",
+      "highlight": "check something in",
+      "descriptionZh": "在機場等地方交出行李,辦理託運",
+      "descriptionEn": "We checked our bags in at the airport.",
+      "examples": [
+        {
+          "en": "We checked our bags in at the airport.",
+          "zh": "我們在機場辦理了行李託運。",
+          "highlight": "checked our bags in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "在清單上把已完成或已確認的項目劃去",
+      "titleEn": "check something off",
+      "formula": "check something off",
+      "highlight": "check something off",
+      "descriptionZh": "在清單上把已完成或已確認的項目劃去",
+      "descriptionEn": "I checked the last job off my list.",
+      "examples": [
+        {
+          "en": "I checked the last job off my list.",
+          "zh": "我把最後一項工作從清單上劃去。",
+          "highlight": "checked the last job off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "從圖書館等地方借閱或借用物品",
+      "titleEn": "check something out",
+      "formula": "check something out",
+      "highlight": "check something out",
+      "descriptionZh": "從圖書館等地方借閱或借用物品",
+      "descriptionEn": "Nina checked out two books from the library.",
+      "examples": [
+        {
+          "en": "Nina checked out two books from the library.",
+          "zh": "妮娜從圖書館借閱了兩本書。",
+          "highlight": "checked out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "在旅程的不同階段使用 CHECK",
+      "titleEn": "Use CHECK throughout a journey",
+      "zh": "你可以用 check into 表示辦理酒店入住、用 check somebody in 表示替某人登記、用 check bagsin 表示託運行李,以及用 check out 表示離開前辦理退房。",
+      "en": "You can check into a hotel, check somebody in at an event, check bags in at an airport and check out before leaving."
+    },
+    {
+      "titleZh": "查明人物、事物和資料是否可靠",
+      "titleEn": "Find out whether people, things and information are reliable",
+      "zh": "check out 和 check up on 能幫助你在信任公司、聘用某人或相信一個說法前先作調查。",
+      "en": "Check out and check up on help you investigate before you trust a company, employ somebody or believe a story."
+    },
+    {
+      "titleZh": "清楚檢查工作和完成清單",
+      "titleEn": "Review work and complete lists clearly",
+      "zh": "你可以 check work over、check through a report,並把已完成的工作 check off a list。",
+      "en": "You can check work over, check through a report and check finished jobs off a list."
+    },
+    {
+      "titleZh": "理解店舖和圖書館中的 CHECK",
+      "titleEn": "Understand CHECK in shops and libraries",
+      "zh": "check out 可以表示在店舖付款,也可以表示從圖書館借閱或借用物品;整個情境會顯示所指的意思。",
+      "en": "Check out may describe paying in a shop or borrowing an item from a library. The situation shows which meaning is intended."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "在旅程的不同階段使用 CHECK",
+      "查明人物、事物和資料是否可靠",
+      "清楚檢查工作和完成清單",
+      "理解店舖和圖書館中的 CHECK"
+    ],
+    "contextsEn": [
+      "Use CHECK throughout a journey",
+      "Find out whether people, things and information are reliable",
+      "Review work and complete lists clearly",
+      "Understand CHECK in shops and libraries"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "在旅程的不同階段使用 CHECK",
+        "titleEn": "Use CHECK throughout a journey",
+        "zh": "你可以用 check into 表示辦理酒店入住、用 check somebody in 表示替某人登記、用 check bagsin 表示託運行李,以及用 check out 表示離開前辦理退房。",
+        "en": "You can check into a hotel, check somebody in at an event, check bags in at an airport and check out before leaving.",
+        "examples": [
+          {
+            "en": "We checked into the hotel, and the receptionist checked us in quickly.",
+            "zh": "我們到達酒店辦理入住,接待員很快便替我們完成登記。",
+            "highlight": "checked into the hotel, and the receptionist checked us in"
+          }
+        ]
+      },
+      {
+        "titleZh": "查明人物、事物和資料是否可靠",
+        "titleEn": "Find out whether people, things and information are reliable",
+        "zh": "check out 和 check up on 能幫助你在信任公司、聘用某人或相信一個說法前先作調查。",
+        "en": "Check out and check up on help you investigate before you trust a company, employ somebody or believe a story.",
+        "examples": [
+          {
+            "en": "I’ll check on dinner in a few minutes.",
+            "zh": "我幾分鐘後會查看晚餐的情況。",
+            "highlight": "check on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚檢查工作和完成清單",
+        "titleEn": "Review work and complete lists clearly",
+        "zh": "你可以 check work over、check through a report,並把已完成的工作 check off a list。",
+        "en": "You can check work over, check through a report and check finished jobs off a list.",
+        "examples": [
+          {
+            "en": "His story did not check out.",
+            "zh": "他的說法經查證後並不屬實。",
+            "highlight": "check out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解店舖和圖書館中的 CHECK",
+        "titleEn": "Understand CHECK in shops and libraries",
+        "zh": "check out 可以表示在店舖付款,也可以表示從圖書館借閱或借用物品;整個情境會顯示所指的意思。",
+        "en": "Check out may describe paying in a shop or borrowing an item from a library. The situation shows which meaning is intended.",
+        "examples": [
+          {
+            "en": "You can check out at aisle eight.",
+            "zh": "你可以在第八條通道結帳。",
+            "highlight": "check out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CHECK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHECK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CHECK 片語動詞。",
+      "en": "Read the whole sentence and choose the CHECK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them in these expressions, place the word as shown: check him in check it out check it over check it off check it through.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them in these expressions, place the word as shown: check him in check it out check it over check it off check it through"
+    },
+    {
+      "titleZh": "check out 可以表達多個不同意思,包括資料經查證後正確、在店舖付款、離開酒店、調查某人或某事物,以及借閱或借用物品。請仔細閱讀整個情境。",
+      "titleEn": "Check out can express several different ideas.",
+      "zh": "check out 可以表達多個不同意思,包括資料經查證後正確、在店舖付款、離開酒店、調查某人或某事物,以及借閱或借用物品。請仔細閱讀整個情境。",
+      "en": "Check out can express several different ideas. It may mean that information is correct, that somebody pays in a shop, that somebody leaves a hotel, that somebody investigates a person or thing, or that somebody borrows an item. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHECK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHECK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHECK 動詞片語句子改寫練習",
+    "titleEn": "CHECK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHECK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHECK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-231-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I marked milk as bought on my shopping list.",
+      "promptZh": "我在購物清單上把牛奶標示為已購買。",
+      "starter": "I",
+      "answer": "I checked milk off my shopping list.",
+      "answerZh": "我把牛奶從購物清單上劃去。",
+      "highlight": "checked",
+      "targetForm": "check something off",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "We arrived at the hotel and completed the arrival registration.",
+      "promptZh": "我們到達酒店,並完成入住登記。",
+      "starter": "We",
+      "answer": "We checked into the hotel.",
+      "answerZh": "我們到達酒店辦理入住。",
+      "highlight": "checked into",
+      "targetForm": "check into something",
+      "targetMeaningZh": "到達酒店等地方後辦理登記"
+    },
+    {
+      "id": "phrasal-verb-231-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The manager investigated the new driver before hiring him.",
+      "promptZh": "經理在聘用新司機前調查了他的資料。",
+      "starter": "The",
+      "answer": "The manager checked the new driver out before hiring him.",
+      "answerZh": "經理在聘用新司機前調查了他的資料。",
+      "highlight": "checked",
+      "targetForm": "check somebody out",
+      "targetMeaningZh": "在作決定前調查或核實某人"
+    },
+    {
+      "id": "phrasal-verb-231-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "You can pay for your shopping at aisle eight.",
+      "promptZh": "你可以在第八條通道付款。",
+      "starter": "You",
+      "answer": "You can check out at aisle eight.",
+      "answerZh": "你可以在第八條通道結帳。",
+      "highlight": "check out",
+      "targetForm": "check out",
+      "targetMeaningZh": "在商店付款離開"
+    },
+    {
+      "id": "phrasal-verb-231-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "I will make sure dinner is cooking properly.",
+      "promptZh": "我會查看晚餐是否煮得順利。",
+      "starter": "I",
+      "answer": "I will check on dinner.",
+      "answerZh": "我會查看晚餐的情況。",
+      "highlight": "check on",
+      "targetForm": "check on something",
+      "targetMeaningZh": "查看某事物的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "Lena borrowed two books from the library.",
+      "promptZh": "莉娜從圖書館借閱了兩本書。",
+      "starter": "Lena",
+      "answer": "Lena checked out two books from the library.",
+      "answerZh": "莉娜從圖書館借閱了兩本書。",
+      "highlight": "checked out",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "His story was not found to be true.",
+      "promptZh": "他的說法經查證後並不屬實。",
+      "starter": "His",
+      "answer": "His story did not check out.",
+      "answerZh": "他的說法經查證後並不屬實。",
+      "highlight": "did",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The doctor examined Noah carefully.",
+      "promptZh": "醫生仔細檢查了諾亞。",
+      "starter": "The",
+      "answer": "The doctor checked Noah over carefully.",
+      "answerZh": "醫生仔細檢查了諾亞。",
+      "highlight": "checked",
+      "targetForm": "check somebody over",
+      "targetMeaningZh": "仔細檢查某人,看看是否有問題"
+    },
+    {
+      "id": "phrasal-verb-231-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We paid the hotel bill and left before breakfast.",
+      "promptZh": "我們付清酒店帳單,並在早餐前離開。",
+      "starter": "We",
+      "answer": "We checked out of the hotel before breakfast.",
+      "answerZh": "我們在早餐前辦理退房並離開酒店。",
+      "highlight": "checked out of",
+      "targetForm": "check out of something",
+      "targetMeaningZh": "辦理退房並離開住宿地方"
+    },
+    {
+      "id": "phrasal-verb-231-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "At the airport, they handed their bags to airline staff.",
+      "promptZh": "在機場,他們把行李交給航空公司職員。",
+      "starter": "At",
+      "answer": "At the airport, they checked their bags in.",
+      "answerZh": "在機場,他們辦理了行李託運。",
+      "highlight": "checked",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "The receptionist registered every guest on arrival.",
+      "promptZh": "每位賓客到達時,接待員都替他們辦理登記。",
+      "starter": "The",
+      "answer": "The receptionist checked every guest in on arrival.",
+      "answerZh": "每位賓客到達時,接待員都替他們辦理登記。",
+      "highlight": "checked",
+      "targetForm": "check somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-231-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "This cashier can take your payment now.",
+      "promptZh": "這名收銀員現在可以替你結帳。",
+      "starter": "This",
+      "answer": "This cashier can check you out now.",
+      "answerZh": "這名收銀員現在可以替你結帳。",
+      "highlight": "check you out",
+      "targetForm": "check somebody out",
+      "targetMeaningZh": "替顧客結帳"
+    },
+    {
+      "id": "phrasal-verb-231-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Please see whether the baby is sleeping safely.",
+      "promptZh": "請看看嬰兒是否安穩地睡着。",
+      "starter": "Please",
+      "answer": "Please check on the baby.",
+      "answerZh": "請查看嬰兒的情況。",
+      "highlight": "check on",
+      "targetForm": "check on somebody",
+      "targetMeaningZh": "查看某人的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The numbers were correct when we tested them.",
+      "promptZh": "我們核實後發現這些數字正確。",
+      "starter": "The",
+      "answer": "The numbers checked out.",
+      "answerZh": "這些數字經核實後證明正確。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "So far, her explanation has been found to be true.",
+      "promptZh": "到目前為止,她的解釋經查證後屬實。",
+      "starter": "So",
+      "answer": "So far, her explanation has checked out.",
+      "answerZh": "到目前為止,她的解釋經查證後屬實。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "We are handing our suitcases to airline staff now.",
+      "promptZh": "我們現在正把行李箱交給航空公司職員。",
+      "starter": "We",
+      "answer": "We are checking our suitcases in now.",
+      "answerZh": "我們現在正辦理行李箱託運。",
+      "highlight": "checking",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "What time did Priya arrive and register at the hotel?",
+      "promptZh": "普里雅甚麼時候到達酒店並辦理入住?",
+      "starter": "What",
+      "answer": "What time did Priya check into the hotel?",
+      "answerZh": "普里雅甚麼時候到達酒店辦理入住?",
+      "highlight": "check into",
+      "targetForm": "check into something",
+      "targetMeaningZh": "到達酒店等地方後辦理登記"
+    },
+    {
+      "id": "phrasal-verb-231-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Guests must pay their bills and leave the hotel before noon tomorrow.",
+      "promptZh": "住客明天中午前必須付清帳單並離開酒店。",
+      "starter": "Guests",
+      "answer": "Guests must check out of the hotel before noon tomorrow.",
+      "answerZh": "住客明天中午前必須辦理退房並離開酒店。",
+      "highlight": "check out of",
+      "targetForm": "check out of something",
+      "targetMeaningZh": "辦理退房並離開住宿地方"
+    },
+    {
+      "id": "phrasal-verb-231-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The nurse is examining the child carefully.",
+      "promptZh": "護士正仔細檢查那名孩子。",
+      "starter": "The",
+      "answer": "The nurse is checking the child over carefully.",
+      "answerZh": "護士正仔細檢查那名孩子。",
+      "highlight": "checking",
+      "targetForm": "check somebody over",
+      "targetMeaningZh": "仔細檢查某人,看看是否有問題"
+    },
+    {
+      "id": "phrasal-verb-231-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I am going to see whether the soup is ready.",
+      "promptZh": "我打算看看湯是否已經煮好。",
+      "starter": "I",
+      "answer": "I am going to check on the soup.",
+      "answerZh": "我打算查看湯的情況。",
+      "highlight": "check on",
+      "targetForm": "check on something",
+      "targetMeaningZh": "查看某事物的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Where can customers pay before leaving the shop?",
+      "promptZh": "顧客離開店舖前可以在哪裏付款?",
+      "starter": "Where",
+      "answer": "Where can customers check out before leaving the shop?",
+      "answerZh": "顧客離開店舖前可以在哪裏結帳?",
+      "highlight": "check out",
+      "targetForm": "check out",
+      "targetMeaningZh": "在商店付款離開"
+    },
+    {
+      "id": "phrasal-verb-231-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Ava has borrowed three music books from the library.",
+      "promptZh": "艾娃已從圖書館借閱了三本音樂書。",
+      "starter": "Ava",
+      "answer": "Ava has checked out three music books from the library.",
+      "answerZh": "艾娃已從圖書館借閱了三本音樂書。",
+      "highlight": "checked out",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "You should investigate the company before paying.",
+      "promptZh": "你付款前應先調查這間公司。",
+      "starter": "You",
+      "answer": "You should check the company out before paying.",
+      "answerZh": "你付款前應先調查這間公司。",
+      "highlight": "check",
+      "targetForm": "check something out",
+      "targetMeaningZh": "在作決定前調查或核實某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Sam has not yet marked the last task as finished.",
+      "promptZh": "山姆尚未在清單上把最後一項工作標示為完成。",
+      "starter": "Sam",
+      "answer": "Sam has not yet checked the last task off.",
+      "answerZh": "山姆尚未把最後一項工作從清單上劃去。",
+      "highlight": "checked",
+      "targetForm": "check something off",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Your bags will be handed to airline staff at the desk.",
+      "promptZh": "你的行李將會在櫃位交給航空公司職員。",
+      "starter": "Your",
+      "answer": "Your bags will be checked in at the desk.",
+      "answerZh": "你的行李將會在櫃位辦理託運。",
+      "highlight": "checked in",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Why did the guests pay and leave the hotel one day early?",
+      "promptZh": "住客為甚麼提早一天付清帳單並離開酒店?",
+      "starter": "Why",
+      "answer": "Why did the guests check out of the hotel one day early?",
+      "answerZh": "住客為甚麼提早一天辦理退房並離開酒店?",
+      "highlight": "check out of",
+      "targetForm": "check out of something",
+      "targetMeaningZh": "辦理退房並離開住宿地方"
+    },
+    {
+      "id": "phrasal-verb-231-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "I have examined the report carefully from beginning to end.",
+      "promptZh": "我已從頭到尾仔細檢查這份報告。",
+      "starter": "I",
+      "answer": "I have checked it through carefully.",
+      "answerZh": "我已從頭到尾仔細檢查這份報告。",
+      "highlight": "checked it through",
+      "targetForm": "check something through",
+      "targetMeaningZh": "從頭到尾仔細檢查某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Employers often investigate people before giving them a job.",
+      "promptZh": "僱主給予某人工作前,通常會先調查對方。",
+      "starter": "Employers",
+      "answer": "Employers often check up on people before giving them a job.",
+      "answerZh": "僱主給予某人工作前,通常會先調查對方。",
+      "highlight": "check up on",
+      "targetForm": "check up on somebody",
+      "targetMeaningZh": "調查或核實某人的資料"
+    },
+    {
+      "id": "phrasal-verb-231-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The shop is quiet, so this assistant can take your payment now.",
+      "promptZh": "店舖現在不忙,所以這名店員可以立即替你結帳。",
+      "starter": "The",
+      "answer": "The shop is quiet, so this assistant can check you out now.",
+      "answerZh": "店舖現在不忙,所以這名店員可以立即替你結帳。",
+      "highlight": "check you out",
+      "targetForm": "check somebody out",
+      "targetMeaningZh": "替顧客結帳"
+    },
+    {
+      "id": "phrasal-verb-231-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The list says “send invitations”. I have marked it as finished.",
+      "promptZh": "清單上寫着「寄出邀請函」。我已把這項工作標示為完成。",
+      "starter": "The",
+      "answer": "The list says “send invitations”. I have checked it off.",
+      "answerZh": "清單上寫着「寄出邀請函」。我已把這項工作劃去。",
+      "highlight": "checked",
+      "targetForm": "check something off",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Every runner must be registered before the race begins.",
+      "promptZh": "每名跑手都必須在賽事開始前完成登記。",
+      "starter": "Every",
+      "answer": "Every runner must be checked in before the race begins.",
+      "answerZh": "每名跑手都必須在賽事開始前完成登記。",
+      "highlight": "checked in",
+      "targetForm": "check somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-231-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "This website looks useful, but investigate it before you enter your card details.",
+      "promptZh": "這個網站看來很有用,但輸入付款卡資料前應先調查一下。",
+      "starter": "This",
+      "answer": "This website looks useful, but check it out before you enter your card details.",
+      "answerZh": "這個網站看來很有用,但輸入付款卡資料前應先調查一下。",
+      "highlight": "check",
+      "targetForm": "check something out",
+      "targetMeaningZh": "在作決定前調查或核實某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Only two books may be borrowed by each student.",
+      "promptZh": "每名學生只可借閱兩本書。",
+      "starter": "Only",
+      "answer": "Only two books may be checked out by each student.",
+      "answerZh": "每名學生只可借閱兩本書。",
+      "highlight": "checked out",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The children are very quiet. Go and make sure they are all right.",
+      "promptZh": "孩子們很安靜。去看看他們是否一切安好。",
+      "starter": "The",
+      "answer": "The children are very quiet. Go and check on them.",
+      "answerZh": "孩子們很安靜。去查看一下他們的情況。",
+      "highlight": "check on them",
+      "targetForm": "check on somebody",
+      "targetMeaningZh": "查看某人的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "These suitcases are ready. Please hand them to the airline at the desk.",
+      "promptZh": "這些行李箱已準備好。請在櫃位把它們交給航空公司。",
+      "starter": "These",
+      "answer": "These suitcases are ready. Please check them in at the desk.",
+      "answerZh": "這些行李箱已準備好。請在櫃位替它們辦理託運。",
+      "highlight": "check",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "If his address is correct when we test it, we can send the parcel.",
+      "promptZh": "如果我們核實後發現他的地址正確,便可以寄出包裹。",
+      "starter": "If",
+      "answer": "If his address checks out, we can send the parcel.",
+      "answerZh": "如果他的地址經核實後正確,便可以寄出包裹。",
+      "highlight": "checks out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The bicycle may have a problem. Please examine it carefully.",
+      "promptZh": "這輛單車可能有問題。請仔細檢查它。",
+      "starter": "The",
+      "answer": "The bicycle may have a problem. Please check it over carefully.",
+      "answerZh": "這輛單車可能有問題。請仔細檢查它。",
+      "highlight": "check",
+      "targetForm": "check something over",
+      "targetMeaningZh": "仔細檢查某事物,看看是否有問題"
+    },
+    {
+      "id": "phrasal-verb-231-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "We paid the hotel bill and left before the morning tour.",
+      "promptZh": "我們付清酒店帳單,並在早上的行程開始前離開。",
+      "starter": "We",
+      "answer": "We checked out of the hotel before the morning tour.",
+      "answerZh": "我們在早上的行程開始前辦理退房並離開酒店。",
+      "highlight": "checked out of",
+      "targetForm": "check out of something",
+      "targetMeaningZh": "辦理退房並離開住宿地方"
+    },
+    {
+      "id": "phrasal-verb-231-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "After a long flight, the family arrived at the hotel and registered.",
+      "promptZh": "經過長途飛行後,那一家人到達酒店並辦理入住。",
+      "starter": "After",
+      "answer": "After a long flight, the family checked into the hotel.",
+      "answerZh": "經過長途飛行後,那一家人到達酒店辦理入住。",
+      "highlight": "checked into",
+      "targetForm": "check into something",
+      "targetMeaningZh": "到達酒店等地方後辦理登記"
+    },
+    {
+      "id": "phrasal-verb-231-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "Each confirmed name should be marked on the list.",
+      "promptZh": "每個已確認的名字都應在名單上作出標示。",
+      "starter": "Each",
+      "answer": "Each confirmed name should be checked off the list.",
+      "answerZh": "每個已確認的名字都應從名單上劃去。",
+      "highlight": "checked off",
+      "targetForm": "check something off something",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Could you visit Grandpa and make sure he is feeling better?",
+      "promptZh": "你可以探望爺爺,看看他是否好一點嗎?",
+      "starter": "Could",
+      "answer": "Could you check on Grandpa and make sure he is feeling better?",
+      "answerZh": "你可以查看爺爺的情況,看看他是否好一點嗎?",
+      "highlight": "check on",
+      "targetForm": "check on somebody",
+      "targetMeaningZh": "查看某人的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "I returned one book and borrowed another.",
+      "promptZh": "我歸還了一本書,並借閱了另一本。",
+      "starter": "I",
+      "answer": "I returned one book and checked another out.",
+      "answerZh": "我歸還了一本書,並借閱了另一本。",
+      "highlight": "checked",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The small bag can stay with you, but the large suitcase must be handed to airline staff.",
+      "promptZh": "小袋可以留在你身邊,但大行李箱必須交給航空公司職員。",
+      "starter": "The",
+      "answer": "The small bag can stay with you, but the large suitcase must be checked in.",
+      "answerZh": "小袋可以留在你身邊,但大行李箱必須辦理託運。",
+      "highlight": "checked in",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The story sounded strange, but every detail proved to be true.",
+      "promptZh": "這個故事聽來很奇怪,但每個細節都證明屬實。",
+      "starter": "The",
+      "answer": "The story sounded strange, but every detail checked out.",
+      "answerZh": "這個故事聽來很奇怪,但每個細節經查證後都屬實。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The hotel room was too noisy, so Aisha paid and left one day early.",
+      "promptZh": "酒店房間太嘈吵,所以艾莎提早一天付清帳單並離開。",
+      "starter": "The",
+      "answer": "The hotel room was too noisy, so Aisha checked out one day early.",
+      "answerZh": "酒店房間太嘈吵,所以艾莎提早一天辦理退房。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "辦理退房或提早離開"
+    },
+    {
+      "id": "phrasal-verb-231-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Please make sure the cake is not burning while I answer the door.",
+      "promptZh": "我去應門時,請看看蛋糕是否燒焦。",
+      "starter": "Please",
+      "answer": "Please check on the cake while I answer the door.",
+      "answerZh": "我去應門時,請查看蛋糕的情況。",
+      "highlight": "check on",
+      "targetForm": "check on something",
+      "targetMeaningZh": "查看某事物的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before buying the used phone, Arun investigated it carefully.",
+      "promptZh": "阿倫購買二手電話前,仔細調查了它。",
+      "starter": "Before",
+      "answer": "Before buying the used phone, Arun checked it out carefully.",
+      "answerZh": "阿倫購買二手電話前,仔細調查了它。",
+      "highlight": "checked",
+      "targetForm": "check something out",
+      "targetMeaningZh": "在作決定前調查或核實某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "We have already finished “book the tickets”, so mark that task on the list.",
+      "promptZh": "我們已完成「訂購門票」,所以請在清單上標示這項工作。",
+      "starter": "We",
+      "answer": "We have already finished “book the tickets”, so check that task off the list.",
+      "answerZh": "我們已完成「訂購門票」,所以請把這項工作從清單上劃去。",
+      "highlight": "check",
+      "targetForm": "check something off something",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Do not leave the supermarket yet; you still need to pay for the food.",
+      "promptZh": "先不要離開超級市場;你仍需為食物付款。",
+      "starter": "Do",
+      "answer": "Do not leave the supermarket yet; you still need to check out.",
+      "answerZh": "先不要離開超級市場;你仍需結帳。",
+      "highlight": "check out",
+      "targetForm": "check out",
+      "targetMeaningZh": "在商店付款離開"
+    },
+    {
+      "id": "phrasal-verb-231-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Read every answer carefully before you give the test to the teacher.",
+      "promptZh": "把測驗交給老師前,請仔細閱讀每個答案。",
+      "starter": "Check",
+      "answer": "Check through every answer carefully before you give the test to the teacher.",
+      "answerZh": "把測驗交給老師前,請仔細檢查每個答案。",
+      "highlight": "Check through",
+      "targetForm": "check through something",
+      "targetMeaningZh": "從頭到尾仔細檢查某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The library lets visitors borrow tablets for two hours.",
+      "promptZh": "圖書館容許訪客借用平板電腦兩小時。",
+      "starter": "The",
+      "answer": "The library lets visitors check out tablets for two hours.",
+      "answerZh": "圖書館容許訪客借用平板電腦兩小時。",
+      "highlight": "check out",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although the lobby was busy, the staff registered us quickly when we arrived.",
+      "promptZh": "雖然大堂很繁忙,但我們到達時職員很快便替我們登記。",
+      "starter": "Although",
+      "answer": "Although the lobby was busy, the staff checked us in quickly.",
+      "answerZh": "雖然大堂很繁忙,但職員很快便替我們完成登記。",
+      "highlight": "checked",
+      "targetForm": "check somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-231-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The address and phone number did not prove to be correct.",
+      "promptZh": "地址和電話號碼經核實後都不正確。",
+      "starter": "The",
+      "answer": "The address and phone number did not check out.",
+      "answerZh": "地址和電話號碼經核實後都不正確。",
+      "highlight": "check out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The school wants to investigate the new coach before offering him the job.",
+      "promptZh": "學校在向新教練提供工作前,想先調查他的資料。",
+      "starter": "The",
+      "answer": "The school wants to check up on the new coach before offering him the job.",
+      "answerZh": "學校在向新教練提供工作前,想先調查他的資料。",
+      "highlight": "check up on",
+      "targetForm": "check up on somebody",
+      "targetMeaningZh": "調查或核實某人的資料"
+    },
+    {
+      "id": "phrasal-verb-231-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Before leaving the hotel, everyone returned the room key at the desk.",
+      "promptZh": "離開酒店前,所有人都在櫃位交還房門鎖匙。",
+      "starter": "Before",
+      "answer": "Before checking out of the hotel, everyone returned the room key at the desk.",
+      "answerZh": "辦理退房離開酒店前,所有人都在櫃位交還房門鎖匙。",
+      "highlight": "checking out of",
+      "targetForm": "check out of something",
+      "targetMeaningZh": "辦理退房並離開住宿地方"
+    },
+    {
+      "id": "phrasal-verb-231-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "One cashier was free, so she took our payment immediately.",
+      "promptZh": "一名收銀員有空,所以立即替我們結帳。",
+      "starter": "One",
+      "answer": "One cashier was free, so she checked us out immediately.",
+      "answerZh": "一名收銀員有空,所以立即替我們結帳。",
+      "highlight": "checked us out",
+      "targetForm": "check somebody out",
+      "targetMeaningZh": "替顧客結帳"
+    },
+    {
+      "id": "phrasal-verb-231-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "By the time the concert started, staff had registered all the late guests.",
+      "promptZh": "音樂會開始時,職員已替所有遲到的賓客完成登記。",
+      "starter": "By",
+      "answer": "By the time the concert started, staff had checked all the late guests in.",
+      "answerZh": "音樂會開始時,職員已替所有遲到的賓客完成登記。",
+      "highlight": "checked",
+      "targetForm": "check somebody in",
+      "targetMeaningZh": "替某人辦理到達登記"
+    },
+    {
+      "id": "phrasal-verb-231-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before sending the email, Nina read the whole message carefully and looked for mistakes.",
+      "promptZh": "寄出電郵前,妮娜仔細閱讀整段訊息,並找出錯誤。",
+      "starter": "Before",
+      "answer": "Before sending the email, Nina checked through the whole message and looked for mistakes.",
+      "answerZh": "寄出電郵前,妮娜仔細檢查整段訊息,並找出錯誤。",
+      "highlight": "checked through",
+      "targetForm": "check through something",
+      "targetMeaningZh": "從頭到尾仔細檢查某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The queue was long, but we finally paid for our shopping at the last open till.",
+      "promptZh": "隊伍很長,但我們終於在最後一個仍然開放的收銀處付款。",
+      "starter": "The",
+      "answer": "The queue was long, but we finally checked out at the last open till.",
+      "answerZh": "隊伍很長,但我們終於在最後一個仍然開放的收銀處結帳。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "在商店付款離開"
+    },
+    {
+      "id": "phrasal-verb-231-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Once each piece of furniture had arrived, Leo marked it on the delivery list.",
+      "promptZh": "每件家具送到後,里奧便在送貨清單上作出標示。",
+      "starter": "Once",
+      "answer": "Once each piece of furniture had arrived, Leo checked it off the delivery list.",
+      "answerZh": "每件家具送到後,里奧便把它從送貨清單上劃去。",
+      "highlight": "checked",
+      "targetForm": "check something off something",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The soup had been cooking for an hour, so Dad went to make sure it was ready.",
+      "promptZh": "湯已煮了一小時,所以爸爸去看看是否已經煮好。",
+      "starter": "The",
+      "answer": "The soup had been cooking for an hour, so Dad went to check on it.",
+      "answerZh": "湯已煮了一小時,所以爸爸去查看它是否已經煮好。",
+      "highlight": "check on",
+      "targetForm": "check on something",
+      "targetMeaningZh": "查看某事物的情況,確保一切正常"
+    },
+    {
+      "id": "phrasal-verb-231-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "We kept our small bags, but airline staff took the two large cases for the flight.",
+      "promptZh": "我們把小袋留在身邊,但航空公司職員收走兩個大行李箱作託運。",
+      "starter": "We",
+      "answer": "We kept our small bags, but checked the two large cases in.",
+      "answerZh": "我們把小袋留在身邊,但辦理了兩個大行李箱的託運。",
+      "highlight": "checked",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The hotel was still noisy after midnight, so Chloe paid and left earlier than planned.",
+      "promptZh": "酒店過了午夜仍很嘈吵,所以克洛伊付清帳單後提早離開。",
+      "starter": "The",
+      "answer": "The hotel was still noisy after midnight, so Chloe checked out earlier than planned.",
+      "answerZh": "酒店過了午夜仍很嘈吵,所以克洛伊提早辦理退房。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "辦理退房或提早離開"
+    },
+    {
+      "id": "phrasal-verb-231-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "When the new history books arrived, students were allowed to borrow them for one week.",
+      "promptZh": "新歷史書送到後,學生可以借閱一星期。",
+      "starter": "When",
+      "answer": "When the new history books arrived, students were allowed to check them out for one week.",
+      "answerZh": "新歷史書送到後,學生可以借閱一星期。",
+      "highlight": "check",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    },
+    {
+      "id": "phrasal-verb-231-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The offer looked excellent, but we investigated the company before sending any money.",
+      "promptZh": "這項優惠看來很好,但我們在付款前先調查了這間公司。",
+      "starter": "The",
+      "answer": "The offer looked excellent, but we checked the company out before sending any money.",
+      "answerZh": "這項優惠看來很好,但我們在付款前先調查了這間公司。",
+      "highlight": "checked",
+      "targetForm": "check something out",
+      "targetMeaningZh": "在作決定前調查或核實某事物"
+    },
+    {
+      "id": "phrasal-verb-231-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "Leo explained what happened, and later every detail was found to be correct.",
+      "promptZh": "里奧解釋了事情經過,後來每個細節都證明正確。",
+      "starter": "Leo",
+      "answer": "Leo explained what happened, and later every detail checked out.",
+      "answerZh": "里奧解釋了事情經過,後來每個細節經查證後都正確。",
+      "highlight": "checked out",
+      "targetForm": "check out",
+      "targetMeaningZh": "經查證後證明屬實或正確"
+    },
+    {
+      "id": "phrasal-verb-231-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The laptop worked again, but the repair worker examined it carefully before returning it.",
+      "promptZh": "手提電腦恢復運作,但維修人員交還前仍仔細檢查了它。",
+      "starter": "The",
+      "answer": "The laptop worked again, but the repair worker checked it over carefully before returning it.",
+      "answerZh": "手提電腦恢復運作,但維修人員交還前仍仔細檢查了它。",
+      "highlight": "checked",
+      "targetForm": "check something over",
+      "targetMeaningZh": "仔細檢查某事物,看看是否有問題"
+    },
+    {
+      "id": "phrasal-verb-231-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We had planned six jobs for the morning. By noon, we had marked all six as finished.",
+      "promptZh": "我們早上安排了六項工作。到了中午,我們已把六項全部標示為完成。",
+      "starter": "We",
+      "answer": "We had planned six jobs for the morning. By noon, we had checked all six off.",
+      "answerZh": "我們早上安排了六項工作。到了中午,我們已把六項全部劃去。",
+      "highlight": "checked",
+      "targetForm": "check something off",
+      "targetMeaningZh": "在清單上把已完成或已確認的項目劃去"
+    },
+    {
+      "id": "phrasal-verb-231-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "Could you hand this suitcase to airline staff while I keep the small bag with me?",
+      "promptZh": "我把小袋留在身邊時,你可以把這個行李箱交給航空公司職員嗎?",
+      "starter": "Could",
+      "answer": "Could you check this suitcase in while I keep the small bag with me?",
+      "answerZh": "我把小袋留在身邊時,你可以替這個行李箱辦理託運嗎?",
+      "highlight": "check",
+      "targetForm": "check something in",
+      "targetMeaningZh": "在機場等地方交出行李辦理託運"
+    },
+    {
+      "id": "phrasal-verb-231-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "I needed the book for one night only, so I borrowed it and returned it the next morning.",
+      "promptZh": "我只需要這本書一晚,所以借閱後翌日早上便歸還。",
+      "starter": "I",
+      "answer": "I needed the book for one night only, so I checked it out and returned it the next morning.",
+      "answerZh": "我只需要這本書一晚,所以借閱後翌日早上便歸還。",
+      "highlight": "checked",
+      "targetForm": "check something out",
+      "targetMeaningZh": "從圖書館等地方借閱或借用物品"
+    }
+  ]
+}

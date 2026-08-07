@@ -1,0 +1,1196 @@
+{
+  "id": "phrasal-verb-202",
+  "order": 202,
+  "slug": "paint",
+  "version": "1",
+  "title": "PAINT 動詞片語",
+  "titleEn": "Paint",
+  "titleZh": "PAINT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 200 - PAINT.pdf",
+    "sourceNumber": 200,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PAINT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PAINT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PAINT",
+      "highlight": "PAINT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "We painted over the dirty marks on the wall.",
+      "zh": "我們用油漆蓋住牆上的污漬。",
+      "highlight": "painted over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The old flight number was hurriedly painted out.",
+      "zh": "舊有的航班編號被匆忙地用油漆遮掉。",
+      "highlight": "painted out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They painted the house up in bright colours.",
+      "zh": "他們把房子髹上鮮明的顏色。",
+      "highlight": "painted the house up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色；用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見；把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+    "en": "paint over something; paint something out; paint something up",
+    "naturalZh": [
+      "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+      "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+      "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "paint over something",
+      "titleZh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+      "titleEn": "paint over something",
+      "descriptionZh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+      "descriptionEn": "We painted over the dirty marks on the wall.",
+      "examples": [
+        {
+          "en": "We painted over the dirty marks on the wall.",
+          "zh": "我們用油漆蓋住牆上的污漬。",
+          "highlight": "painted over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "paint something out",
+      "titleZh": "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+      "titleEn": "paint something out",
+      "descriptionZh": "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+      "descriptionEn": "The old flight number was hurriedly painted out.",
+      "examples": [
+        {
+          "en": "The old flight number was hurriedly painted out.",
+          "zh": "舊有的航班編號被匆忙地用油漆遮掉。",
+          "highlight": "painted out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "paint something up",
+      "titleZh": "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+      "titleEn": "paint something up",
+      "descriptionZh": "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+      "descriptionEn": "They painted the house up in bright colours.",
+      "examples": [
+        {
+          "en": "They painted the house up in bright colours.",
+          "zh": "他們把房子髹上鮮明的顏色。",
+          "highlight": "painted the house up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PAINT 片語動詞的實際用途",
+    "labelEn": "PAINT Phrasal Verbs in Use",
+    "summaryZh": "paint over 可以表示用一層新油漆蓋住污漬、刮痕或不想保留的顏色。；當名稱、數字、線條、標誌或其他標記被油漆完全遮住時,可以使用 paint out。；paint up 可以描述把房屋、房間、店舖、船隻或其他地方重新髹得明亮鮮艷。；這些表達可以出現在關於裝修、維修、告示、道路、店舖、車輛和建築物的對話中。",
+    "summaryEn": "Paint over helps you explain that a new layer of paint covers stains, scratches or an unwanted colour. Paint out is useful when a name, number, line, logo or other marking is covered so that people cannot see it. Paint up can describe making a house, room, shop, boat or other place look fresh and colourful. These expressions can appear in conversations about decorating, repairs, signs, roads, shops, vehicles and buildings.",
+    "contextsZh": [
+      "清楚描述蓋住污漬和舊顏色",
+      "描述文字或標記被遮掉",
+      "描述為某處換上色彩繽紛的新面貌",
+      "理解日常生活中的 PAINT 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about covering marks and old colours",
+      "Explain that words or markings have been hidden",
+      "Describe giving a place a colourful new appearance",
+      "Understand PAINT expressions in everyday situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PAINT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PAINT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "paint over something",
+    "fixedHighlight": "paint over something",
+    "fixedZh": "閱讀整句,選出意思相同的 PAINT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PAINT expression that gives the same meaning.",
+    "correct": "painted over",
+    "incorrectForms": [],
+    "variableZh": "不要預期 PAINT 片語動詞每次都出現在相同位置。它可以放在 will 或 to 之後、出現在問句中,亦可以使用以上句式。；使用 it 或 them 時,請按照以上例子放在正確位置。；留意三者的分別:paint over 用油漆蓋住污漬或舊顏色paint out 用油漆遮掉文字、數字或標記paint up 把房屋、房間或店舖髹上鮮明顏色",
+    "variableEn": "Do not expect the PAINT expression to appear in the same place every time. It may follow will or to, appear in a question, or be used like this: We will paint over the marks. The old number was painted out. They decided to paint the house up. When using it or them, place the word as shown: paint over it paint it out paint it up Notice the difference: paint over dirty marks or an old colour paint words, numbers or markings out paint a house, room or shop up in bright colours",
+    "variableItemsZh": [
+      "paint over something",
+      "paint something out",
+      "paint something up"
+    ],
+    "variableItemsEn": [
+      "paint over something",
+      "paint something out",
+      "paint something up"
+    ],
+    "forms": [
+      {
+        "formZh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+        "formEn": "paint over something",
+        "exampleZh": "我們用油漆蓋住牆上的污漬。",
+        "exampleEn": "We painted over the dirty marks on the wall.",
+        "highlight": "painted over"
+      },
+      {
+        "formZh": "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+        "formEn": "paint something out",
+        "exampleZh": "舊有的航班編號被匆忙地用油漆遮掉。",
+        "exampleEn": "The old flight number was hurriedly painted out.",
+        "highlight": "painted out"
+      },
+      {
+        "formZh": "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+        "formEn": "paint something up",
+        "exampleZh": "他們把房子髹上鮮明的顏色。",
+        "exampleEn": "They painted the house up in bright colours.",
+        "highlight": "painted the house up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+      "titleEn": "paint over something",
+      "formula": "paint over something",
+      "highlight": "paint over something",
+      "descriptionZh": "在某物表面再髹一層油漆,以蓋住污漬、痕跡或原有顏色",
+      "descriptionEn": "We painted over the dirty marks on the wall.",
+      "examples": [
+        {
+          "en": "We painted over the dirty marks on the wall.",
+          "zh": "我們用油漆蓋住牆上的污漬。",
+          "highlight": "painted over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+      "titleEn": "paint something out",
+      "formula": "paint something out",
+      "highlight": "paint something out",
+      "descriptionZh": "用油漆把文字、數字、線條或標記完全遮掉,使其無法被看見",
+      "descriptionEn": "The old flight number was hurriedly painted out.",
+      "examples": [
+        {
+          "en": "The old flight number was hurriedly painted out.",
+          "zh": "舊有的航班編號被匆忙地用油漆遮掉。",
+          "highlight": "painted out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+      "titleEn": "paint something up",
+      "formula": "paint something up",
+      "highlight": "paint something up",
+      "descriptionZh": "把房屋、房間、店舖或其他地方重新髹上鮮明漂亮的顏色",
+      "descriptionEn": "They painted the house up in bright colours.",
+      "examples": [
+        {
+          "en": "They painted the house up in bright colours.",
+          "zh": "他們把房子髹上鮮明的顏色。",
+          "highlight": "painted the house up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述蓋住污漬和舊顏色",
+      "titleEn": "Talk clearly about covering marks and old colours",
+      "zh": "paint over 可以表示用一層新油漆蓋住污漬、刮痕或不想保留的顏色。",
+      "en": "Paint over helps you explain that a new layer of paint covers stains, scratches or an unwanted colour."
+    },
+    {
+      "titleZh": "描述文字或標記被遮掉",
+      "titleEn": "Explain that words or markings have been hidden",
+      "zh": "當名稱、數字、線條、標誌或其他標記被油漆完全遮住時,可以使用 paint out。",
+      "en": "Paint out is useful when a name, number, line, logo or other marking is covered so that people cannot see it."
+    },
+    {
+      "titleZh": "描述為某處換上色彩繽紛的新面貌",
+      "titleEn": "Describe giving a place a colourful new appearance",
+      "zh": "paint up 可以描述把房屋、房間、店舖、船隻或其他地方重新髹得明亮鮮艷。",
+      "en": "Paint up can describe making a house, room, shop, boat or other place look fresh and colourful."
+    },
+    {
+      "titleZh": "理解日常生活中的 PAINT 表達",
+      "titleEn": "Understand PAINT expressions in everyday situations",
+      "zh": "這些表達可以出現在關於裝修、維修、告示、道路、店舖、車輛和建築物的對話中。",
+      "en": "These expressions can appear in conversations about decorating, repairs, signs, roads, shops, vehicles and buildings."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述蓋住污漬和舊顏色",
+      "描述文字或標記被遮掉",
+      "描述為某處換上色彩繽紛的新面貌",
+      "理解日常生活中的 PAINT 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about covering marks and old colours",
+      "Explain that words or markings have been hidden",
+      "Describe giving a place a colourful new appearance",
+      "Understand PAINT expressions in everyday situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述蓋住污漬和舊顏色",
+        "titleEn": "Talk clearly about covering marks and old colours",
+        "zh": "paint over 可以表示用一層新油漆蓋住污漬、刮痕或不想保留的顏色。",
+        "en": "Paint over helps you explain that a new layer of paint covers stains, scratches or an unwanted colour.",
+        "examples": [
+          {
+            "en": "We painted over the dirty marks on the wall.",
+            "zh": "我們用油漆蓋住牆上的污漬。",
+            "highlight": "painted over"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述文字或標記被遮掉",
+        "titleEn": "Explain that words or markings have been hidden",
+        "zh": "當名稱、數字、線條、標誌或其他標記被油漆完全遮住時,可以使用 paint out。",
+        "en": "Paint out is useful when a name, number, line, logo or other marking is covered so that people cannot see it.",
+        "examples": [
+          {
+            "en": "The old flight number was hurriedly painted out.",
+            "zh": "舊有的航班編號被匆忙地用油漆遮掉。",
+            "highlight": "painted out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述為某處換上色彩繽紛的新面貌",
+        "titleEn": "Describe giving a place a colourful new appearance",
+        "zh": "paint up 可以描述把房屋、房間、店舖、船隻或其他地方重新髹得明亮鮮艷。",
+        "en": "Paint up can describe making a house, room, shop, boat or other place look fresh and colourful.",
+        "examples": [
+          {
+            "en": "They painted the house up in bright colours.",
+            "zh": "他們把房子髹上鮮明的顏色。",
+            "highlight": "painted the house up"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解日常生活中的 PAINT 表達",
+        "titleEn": "Understand PAINT expressions in everyday situations",
+        "zh": "這些表達可以出現在關於裝修、維修、告示、道路、店舖、車輛和建築物的對話中。",
+        "en": "These expressions can appear in conversations about decorating, repairs, signs, roads, shops, vehicles and buildings.",
+        "examples": [
+          {
+            "en": "We painted over the dirty marks on the wall.",
+            "zh": "我們用油漆蓋住牆上的污漬。",
+            "highlight": "painted over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PAINT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PAINT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PAINT 片語動詞。",
+      "en": "Read the whole sentence and choose the PAINT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "不要預期 PAINT 片語動詞每次都出現在相同位置。它可以放在 will 或 to 之後、出現在問句中,亦可以使用以上句式。",
+      "titleEn": "Do not expect the PAINT expression to appear in the same place every time.",
+      "zh": "不要預期 PAINT 片語動詞每次都出現在相同位置。它可以放在 will 或 to 之後、出現在問句中,亦可以使用以上句式。",
+      "en": "Do not expect the PAINT expression to appear in the same place every time. It may follow will or to, appear in a question, or be used like this: We will paint over the marks. The old number was painted out. They decided to paint the house up."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: paint over it paint it out paint it up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: paint over it paint it out paint it up"
+    },
+    {
+      "titleZh": "留意三者的分別:paint over 用油漆蓋住污漬或舊顏色paint out 用油漆遮掉文字、數字或標記paint up 把房屋、房間或店舖髹上鮮明顏色",
+      "titleEn": "Notice the difference: paint over dirty marks or an old colour paint words, numbers or markings out paint a house, room or shop up in bright colours.",
+      "zh": "留意三者的分別:paint over 用油漆蓋住污漬或舊顏色paint out 用油漆遮掉文字、數字或標記paint up 把房屋、房間或店舖髹上鮮明顏色",
+      "en": "Notice the difference: paint over dirty marks or an old colour paint words, numbers or markings out paint a house, room or shop up in bright colours"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PAINT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PAINT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PAINT 動詞片語句子改寫練習",
+    "titleEn": "PAINT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PAINT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PAINT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-202-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "We need to cover the dirty marks on the kitchen wall with new paint.",
+      "promptZh": "我們需要用新油漆蓋住廚房牆上的污漬。",
+      "starter": "We",
+      "answer": "We need to paint over the dirty marks on the kitchen wall.",
+      "answerZh": "我們需要用油漆蓋住廚房牆上的污漬。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The workers covered the old road number with paint so no one could see it.",
+      "promptZh": "工人用油漆蓋住舊有的道路編號,令其他人看不見它。",
+      "starter": "The",
+      "answer": "The workers painted the old road number out.",
+      "answerZh": "工人用油漆把舊有的道路編號遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "They gave the small café a fresh, colourful look with yellow and blue paint.",
+      "promptZh": "他們用黃色和藍色油漆,令那間小咖啡店煥然一新,色彩繽紛。",
+      "starter": "They",
+      "answer": "They painted the small café up in yellow and blue.",
+      "answerZh": "他們把那間小咖啡店髹成黃色和藍色,使它煥然一新。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The dark patches beside the door were covered with a fresh coat of paint.",
+      "promptZh": "門旁的深色污漬被一層新油漆蓋住了。",
+      "starter": "The",
+      "answer": "The dark patches beside the door were painted over with a fresh coat of paint.",
+      "answerZh": "門旁的深色污漬被一層新油漆蓋住了。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The family decorated the garden shed with bright green and white paint.",
+      "promptZh": "那家人用鮮綠色和白色油漆粉飾花園小屋。",
+      "starter": "The",
+      "answer": "The family painted the garden shed up in bright green and white.",
+      "answerZh": "那家人把花園小屋髹成鮮綠色和白色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Someone covered the old name on the box with paint so it disappeared.",
+      "promptZh": "有人用油漆蓋住箱上的舊名稱,令它消失不見。",
+      "starter": "Someone",
+      "answer": "Someone painted the old name on the box out.",
+      "answerZh": "有人用油漆把箱上的舊名稱遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The teacher put a new coat of paint over the dirty marks on the classroom wall.",
+      "promptZh": "老師在課室牆上的污漬上塗了一層新油漆。",
+      "starter": "The",
+      "answer": "The teacher painted over the dirty marks on the classroom wall.",
+      "answerZh": "老師用油漆蓋住課室牆上的污漬。",
+      "highlight": "painted",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "They covered the plane’s old markings with paint before the flight.",
+      "promptZh": "他們在航班起飛前,用油漆蓋住飛機上的舊標記。",
+      "starter": "They",
+      "answer": "They painted the plane’s old markings out before the flight.",
+      "answerZh": "他們在航班起飛前,用油漆把飛機上的舊標記遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The children decorated the playhouse with red, orange and yellow paint.",
+      "promptZh": "孩子們用紅色、橙色和黃色油漆粉飾遊戲小屋。",
+      "starter": "The",
+      "answer": "The children painted the playhouse up in red, orange and yellow.",
+      "answerZh": "孩子們把遊戲小屋髹成紅色、橙色和黃色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We’ll have to cover the grey marks on the hall wall with paint.",
+      "promptZh": "我們必須用油漆蓋住大堂牆上的灰色污漬。",
+      "starter": "We’ll",
+      "answer": "We’ll have to paint over the grey marks on the hall wall.",
+      "answerZh": "我們必須用油漆蓋住大堂牆上的灰色污漬。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The old numbers have been covered with paint and can no longer be seen.",
+      "promptZh": "舊有的數字已被油漆蓋住,現在已看不見。",
+      "starter": "The",
+      "answer": "The old numbers have been painted out and can no longer be seen.",
+      "answerZh": "舊有的數字已被油漆遮掉,現在已看不見。",
+      "highlight": "painted out",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The caretaker is covering the scratches on the wall with a new coat of paint.",
+      "promptZh": "管理員正用一層新油漆蓋住牆上的刮痕。",
+      "starter": "The",
+      "answer": "The caretaker is painting over the scratches on the wall.",
+      "answerZh": "管理員正用油漆蓋住牆上的刮痕。",
+      "highlight": "painting over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The owners are decorating the shop in bright red and gold.",
+      "promptZh": "店主正把店舖粉飾成鮮紅色和金色。",
+      "starter": "The",
+      "answer": "The owners are painting the shop up in bright red and gold.",
+      "answerZh": "店主正把店舖髹成鮮紅色和金色。",
+      "highlight": "painting",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the team hide the old logo under paint?",
+      "promptZh": "團隊為甚麼用油漆遮住舊標誌?",
+      "starter": "Why",
+      "answer": "Why did the team paint the old logo out?",
+      "answerZh": "團隊為甚麼用油漆把舊標誌遮掉?",
+      "highlight": "paint",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We could decorate the music room with cheerful colours.",
+      "promptZh": "我們可以用明亮悅目的顏色粉飾音樂室。",
+      "starter": "We",
+      "answer": "We could paint the music room up in cheerful colours.",
+      "answerZh": "我們可以把音樂室髹成明亮悅目的顏色。",
+      "highlight": "paint",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "They have covered every dirty patch with fresh paint.",
+      "promptZh": "他們已用新油漆蓋住每一處污漬。",
+      "starter": "They",
+      "answer": "They have painted over every dirty patch.",
+      "answerZh": "他們已用油漆蓋住每一處污漬。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Please cover the wrong date with paint so it cannot be seen.",
+      "promptZh": "請用油漆蓋住錯誤的日期,令它無法被看見。",
+      "starter": "Please",
+      "answer": "Please paint the wrong date out.",
+      "answerZh": "請用油漆把錯誤的日期遮掉。",
+      "highlight": "paint",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Has the club decorated the old boat in blue and white yet?",
+      "promptZh": "俱樂部已把那艘舊船粉飾成藍色和白色了嗎?",
+      "starter": "Has",
+      "answer": "Has the club painted the old boat up in blue and white yet?",
+      "answerZh": "俱樂部已把那艘舊船髹成藍色和白色了嗎?",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The decorators will cover the old brown colour with cream paint tomorrow.",
+      "promptZh": "裝修工人明天會用米白色油漆蓋住原有的啡色。",
+      "starter": "The",
+      "answer": "The decorators will paint over the old brown colour with cream paint tomorrow.",
+      "answerZh": "裝修工人明天會用米白色油漆蓋住原有的啡色。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The old information on the sign was covered with paint because it was no longer correct.",
+      "promptZh": "告示上的舊資料因已不再正確而被油漆蓋住。",
+      "starter": "The",
+      "answer": "The old information on the sign was painted out because it was no longer correct.",
+      "answerZh": "告示上的舊資料因已不再正確而被油漆遮掉。",
+      "highlight": "painted out",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The hall looked dull. The students gave it a fresh look with the school colours.",
+      "promptZh": "大堂看起來很沉悶。學生用學校的代表色令它煥然一新。",
+      "starter": "The",
+      "answer": "The hall looked dull. The students painted it up in the school colours.",
+      "answerZh": "大堂看起來很沉悶。學生用學校的代表色把它重新髹好。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The stain is still visible, so we will need to cover it with another coat of paint.",
+      "promptZh": "污漬仍然看得見,所以我們需要再用一層油漆蓋住它。",
+      "starter": "The",
+      "answer": "The stain is still visible, so we will need to paint over it with another coat of paint.",
+      "answerZh": "污漬仍然看得見,所以我們需要再用一層油漆蓋住它。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The old number was wrong, so the worker covered it with paint until it could not be seen.",
+      "promptZh": "舊編號是錯的,所以工人用油漆把它蓋住,直至看不見。",
+      "starter": "The",
+      "answer": "The old number was wrong, so the worker painted it out.",
+      "answerZh": "舊編號是錯的,所以工人用油漆把它遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "To prepare for the festival, the neighbours decorated the house in many bright colours.",
+      "promptZh": "為了準備節日,鄰居們用多種鮮明顏色粉飾房子。",
+      "starter": "To",
+      "answer": "To prepare for the festival, the neighbours painted the house up in many bright colours.",
+      "answerZh": "為了準備節日,鄰居們把房子髹成多種鮮明顏色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The letters were still easy to read, so another worker covered them with more paint.",
+      "promptZh": "那些字母仍然很容易看見,所以另一名工人用更多油漆把它們蓋住。",
+      "starter": "The",
+      "answer": "The letters were still easy to read, so another worker painted them out.",
+      "answerZh": "那些字母仍然很容易看見,所以另一名工人用油漆把它們遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After the old poster was removed, the staff covered the marks behind it with white paint.",
+      "promptZh": "舊海報被移走後,職員用白色油漆蓋住它後面的痕跡。",
+      "starter": "After",
+      "answer": "After the old poster was removed, the staff painted over the marks behind it with white paint.",
+      "answerZh": "舊海報被移走後,職員用白色油漆蓋住它後面的痕跡。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The little shop was old and plain, but its new owner decorated it in pink and green.",
+      "promptZh": "那間小店又舊又樸素,但新店主把它粉飾成粉紅色和綠色。",
+      "starter": "The",
+      "answer": "The little shop was old and plain, but its new owner painted it up in pink and green.",
+      "answerZh": "那間小店又舊又樸素,但新店主把它髹成粉紅色和綠色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Covering the dark line with a new layer of paint will hide it.",
+      "promptZh": "用一層新油漆蓋住那條深色線,便能把它遮住。",
+      "starter": "Painting",
+      "answer": "Painting over the dark line will hide it.",
+      "answerZh": "在那條深色線上重新髹油,便能把它遮住。",
+      "highlight": "Painting over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Before the film began, the crew covered the brand name on the car with paint so the camera could not show it.",
+      "promptZh": "電影開拍前,工作人員用油漆蓋住車上的品牌名稱,令鏡頭拍不到它。",
+      "starter": "Before",
+      "answer": "Before the film began, the crew painted the brand name on the car out.",
+      "answerZh": "電影開拍前,工作人員用油漆把車上的品牌名稱遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The café had been decorated in blue and gold before it reopened.",
+      "promptZh": "咖啡店在重新開業前已被粉飾成藍色和金色。",
+      "starter": "The",
+      "answer": "The café had been painted up in blue and gold before it reopened.",
+      "answerZh": "咖啡店在重新開業前已被髹成藍色和金色。",
+      "highlight": "painted up",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The wall does not need to be cleaned completely; we can cover the small marks with a fresh coat of paint.",
+      "promptZh": "牆壁不需要徹底清潔;我們可以用一層新油漆蓋住那些小污漬。",
+      "starter": "The",
+      "answer": "The wall does not need to be cleaned completely; we can paint over the small marks with a fresh coat of paint.",
+      "answerZh": "牆壁不需要徹底清潔;我們可以用一層新油漆蓋住那些小污漬。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The room was not simply repaired; it was decorated from top to bottom in bright sea colours.",
+      "promptZh": "房間不只是經過修補;它還由上至下被粉飾成鮮明的海洋色彩。",
+      "starter": "The",
+      "answer": "The room was not simply repaired; it was painted up from top to bottom in bright sea colours.",
+      "answerZh": "房間不只是經過修補;它還由上至下被髹成鮮明的海洋色彩。",
+      "highlight": "painted up",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The old arrows on the floor gave the wrong directions, so the workers covered them with paint until they disappeared.",
+      "promptZh": "地上的舊箭嘴指向錯誤方向,所以工人用油漆把它們蓋住,直至看不見。",
+      "starter": "The",
+      "answer": "The old arrows on the floor gave the wrong directions, so the workers painted them out.",
+      "answerZh": "地上的舊箭嘴指向錯誤方向,所以工人用油漆把它們遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "We do not want to remove the old blue paint. We only want to cover it with a lighter colour.",
+      "promptZh": "我們不想把原有的藍色油漆除去,只想用較淺的顏色蓋住它。",
+      "starter": "We",
+      "answer": "We do not want to remove the old blue paint. We only want to paint over it with a lighter colour.",
+      "answerZh": "我們不想把原有的藍色油漆除去,只想用較淺的顏色蓋住它。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The wall itself stayed the same colour, but the school name was hidden under paint.",
+      "promptZh": "牆壁本身保持原有顏色,但學校名稱被油漆遮住了。",
+      "starter": "The",
+      "answer": "The wall itself stayed the same colour, but the school name was painted out.",
+      "answerZh": "牆壁本身保持原有顏色,但學校名稱被油漆遮掉了。",
+      "highlight": "painted out",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The neighbours did not hide one small mark; they gave the whole house a bright new look with several colours.",
+      "promptZh": "鄰居們不是只遮蓋一處小污漬,而是用多種鮮明顏色令整間房子換上新面貌。",
+      "starter": "The",
+      "answer": "The neighbours did not hide one small mark; they painted the whole house up in several bright colours.",
+      "answerZh": "鄰居們不是只遮蓋一處小污漬,而是把整間房子髹上多種鮮明顏色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did they put a fresh coat of white paint over the dirty handprints?",
+      "promptZh": "他們為甚麼在骯髒的手印上塗一層新的白色油漆?",
+      "starter": "Why",
+      "answer": "Why did they paint over the dirty handprints with a fresh coat of white paint?",
+      "answerZh": "他們為甚麼用一層新的白色油漆蓋住骯髒的手印?",
+      "highlight": "paint over the dirty handprints with",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The old food stall was easy to miss until the owners decorated it in orange and purple.",
+      "promptZh": "那個舊食物攤檔以前很不起眼,直至店主把它粉飾成橙色和紫色。",
+      "starter": "The",
+      "answer": "The old food stall was easy to miss until the owners painted it up in orange and purple.",
+      "answerZh": "那個舊食物攤檔以前很不起眼,直至店主把它髹成橙色和紫色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A wrong line had been added to the map, but it was later covered with paint so no one could see it.",
+      "promptZh": "地圖上加了一條錯誤的線,但後來有人用油漆把它蓋住,令其他人看不見。",
+      "starter": "A",
+      "answer": "A wrong line had been added to the map, but it was later painted out.",
+      "answerZh": "地圖上加了一條錯誤的線,但後來它被油漆遮掉了。",
+      "highlight": "painted out",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "No words or signs were hidden. The decorators simply covered the stained parts of the wall with paint.",
+      "promptZh": "沒有任何文字或標誌被遮住。裝修工人只是用油漆蓋住牆上的污漬部分。",
+      "starter": "No",
+      "answer": "No words or signs were hidden. The decorators simply painted over the stained parts of the wall.",
+      "answerZh": "沒有任何文字或標誌被遮住。裝修工人只是用油漆蓋住牆上的污漬部分。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the old aircraft left for its new owner, workers quickly covered its former markings with paint.",
+      "promptZh": "那架舊飛機交給新主人前,工人迅速用油漆蓋住原有標記。",
+      "starter": "Before",
+      "answer": "Before the old aircraft left for its new owner, workers quickly painted its former markings out.",
+      "answerZh": "那架舊飛機交給新主人前,工人迅速用油漆把原有標記遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the children’s marks would not wash off the wall, their parents covered them with a fresh coat of paint.",
+      "promptZh": "因為孩子們留在牆上的痕跡洗不掉,所以父母用一層新油漆蓋住它們。",
+      "starter": "Because",
+      "answer": "Because the children’s marks would not wash off the wall, their parents painted over them with a fresh coat of paint.",
+      "answerZh": "因為孩子們留在牆上的痕跡洗不掉,所以父母用一層新油漆蓋住它們。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Local families wanted the dark community centre to feel more welcoming, so they decorated the whole building in warm yellow, red and blue.",
+      "promptZh": "區內家庭希望昏暗的社區中心變得更吸引,所以把整幢建築粉飾成暖黃色、紅色和藍色。",
+      "starter": "Local",
+      "answer": "Local families wanted the dark community centre to feel more welcoming, so they painted the whole building up in warm yellow, red and blue.",
+      "answerZh": "區內家庭希望昏暗的社區中心變得更吸引,所以把整幢建築髹成暖黃色、紅色和藍色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Rather than replace the sign, the owner covered last year’s opening times with paint.",
+      "promptZh": "店主沒有更換告示牌,而是用油漆蓋住去年的營業時間。",
+      "starter": "Rather",
+      "answer": "Rather than replace the sign, the owner painted last year’s opening times out.",
+      "answerZh": "店主沒有更換告示牌,而是用油漆把去年的營業時間遮掉。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Before the summer race, the team decorated the plain old boat in bright green and silver.",
+      "promptZh": "夏季比賽前,團隊把那艘樸素的舊船粉飾成鮮綠色和銀色。",
+      "starter": "Before",
+      "answer": "Before the summer race, the team painted the plain old boat up in bright green and silver.",
+      "answerZh": "夏季比賽前,團隊把那艘樸素的舊船髹成鮮綠色和銀色。",
+      "highlight": "painted",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A new noticeboard will go in that space, so we should first cover the dark marks behind the old one with paint.",
+      "promptZh": "新的告示板會放在那個位置,所以我們應先用油漆蓋住舊告示板後面的深色痕跡。",
+      "starter": "A",
+      "answer": "A new noticeboard will go in that space, so we should first paint over the dark marks behind the old one.",
+      "answerZh": "新的告示板會放在那個位置,所以我們應先用油漆蓋住舊告示板後面的深色痕跡。",
+      "highlight": "paint over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The number on the storage box was wrong. After checking the list, the worker covered it with paint and wrote the correct one beside it.",
+      "promptZh": "儲物箱上的編號是錯的。工人查看清單後,用油漆蓋住它,並在旁邊寫上正確編號。",
+      "starter": "The",
+      "answer": "The number on the storage box was wrong. After checking the list, the worker painted it out and wrote the correct one beside it.",
+      "answerZh": "儲物箱上的編號是錯的。工人查看清單後,用油漆把它遮掉,並在旁邊寫上正確編號。",
+      "highlight": "painted",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    },
+    {
+      "id": "phrasal-verb-202-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "To make the children’s room feel happier, the family decided to decorate it in soft blue, yellow and white.",
+      "promptZh": "為了令兒童房感覺更愉快,那家人決定把它粉飾成柔和的藍色、黃色和白色。",
+      "starter": "To",
+      "answer": "To make the children’s room feel happier, the family decided to paint it up in soft blue, yellow and white.",
+      "answerZh": "為了令兒童房感覺更愉快,那家人決定把它髹成柔和的藍色、黃色和白色。",
+      "highlight": "paint",
+      "targetForm": "paint something up",
+      "targetMeaningZh": "把房屋或地方重新髹上鮮明漂亮的顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The first coat did not hide the water marks, so the decorator covered them once more with thicker paint.",
+      "promptZh": "第一層油漆未能遮住水漬,所以裝修工人再用較厚的油漆蓋住它們。",
+      "starter": "The",
+      "answer": "The first coat did not hide the water marks, so the decorator painted over them once more with thicker paint.",
+      "answerZh": "第一層油漆未能遮住水漬,所以裝修工人再用較厚的油漆蓋住它們。",
+      "highlight": "painted over",
+      "targetForm": "paint over something",
+      "targetMeaningZh": "在表面再髹油,以蓋住污漬、痕跡或舊顏色"
+    },
+    {
+      "id": "phrasal-verb-202-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "People could still see the old team name under the thin paint, so the workers had to cover it completely with more paint.",
+      "promptZh": "人們仍能透過薄薄的油漆看見舊隊名,所以工人必須用更多油漆把它完全蓋住。",
+      "starter": "People",
+      "answer": "People could still see the old team name under the thin paint, so the workers had to paint it out completely with more paint.",
+      "answerZh": "人們仍能透過薄薄的油漆看見舊隊名,所以工人必須用更多油漆把它完全遮掉。",
+      "highlight": "paint",
+      "targetForm": "paint something out",
+      "targetMeaningZh": "用油漆把文字、數字或標記完全遮掉"
+    }
+  ]
+}

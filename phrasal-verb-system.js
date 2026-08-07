@@ -2,8 +2,8 @@
  * Public lesson contract (provided by phrasal-verb-system-data.js):
  * { version, system: "phrasal-verb", lessons: PhrasalVerbLesson[] }.
  *
- * Lesson IDs are permanent `phrasal-verb-NN` identifiers. Every published lesson has
- * a complete, sequential question set named `phrasal-verb-NN-q01` onward. Totals are
+ * Lesson IDs are permanent `phrasal-verb-NN[N]` identifiers. Every published lesson has
+ * a complete, sequential question set named `phrasal-verb-NN[N]-q01` onward. Totals are
  * always read from the lesson data so future units are not constrained to one size.
  * Chinese copy belongs in `*Zh`/`zh`, English copy in `*En`/`en`, and lesson
  * phrases are highlighted only when content explicitly supplies `highlight` or
@@ -17,8 +17,7 @@ const SESSION_KEY = "edmund-phrasal-verb-system-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-phrasal-verb-system-progress-panel-v1";
 const CUMULATIVE_PROGRESS_PREFERENCE_KEY = "edmund-phrasal-verb-system-cumulative-progress-v1";
 const SECTION_BOOKMARK_ID = "__section__";
-const MAX_BOOKMARKS = Math.max(1, (Array.isArray(CONTENT.lessons) ? CONTENT.lessons : [])
-  .reduce((total, lesson) => total + 1 + (Array.isArray(lesson?.questions) ? lesson.questions.length : 0), 0));
+const MAX_BOOKMARKS = 2005;
 const LESSON_PAGES = 8;
 const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
@@ -161,7 +160,7 @@ function isPlainObject(value) {
 }
 
 function validLessonContract(lesson) {
-  if (!isPlainObject(lesson) || !/^phrasal-verb-\d{2}$/.test(String(lesson.id || ""))) return false;
+  if (!isPlainObject(lesson) || !/^phrasal-verb-\d{2,3}$/.test(String(lesson.id || ""))) return false;
   if (!String(lesson.titleZh || lesson.title || "").trim()) return false;
   if (!String(lesson.titleEn || lesson.englishTitle || "").trim()) return false;
   if (!Array.isArray(lesson.questions) || !lesson.questions.length) return false;

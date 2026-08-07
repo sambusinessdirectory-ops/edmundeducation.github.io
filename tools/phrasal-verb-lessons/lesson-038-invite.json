@@ -1,0 +1,1437 @@
+{
+  "id": "phrasal-verb-38",
+  "order": 38,
+  "slug": "invite",
+  "version": "1",
+  "title": "INVITE 動詞片語",
+  "titleEn": "Invite",
+  "titleZh": "INVITE 動詞片語",
+  "level": "B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 37 - INVITE.pdf",
+    "sourceNumber": 37,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 INVITE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to INVITE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "INVITE",
+      "highlight": "INVITE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Shall I invite Dave along to the concert?",
+      "zh": "我要不要邀請戴夫一起去音樂會?",
+      "highlight": "invite Dave along",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I’ve invited a few friends round to watch the game with us on TV.",
+      "zh": "我邀請了幾位朋友到家中,和我們一起在電視上觀看比賽。",
+      "highlight": "invited a few friends round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She invited me back to her flat for coffee after the film.",
+      "zh": "看完電影後,她邀請我到她的住所喝咖啡。",
+      "highlight": "invited me back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "邀請某人同行或一起參加活動；邀請某人到自己家中作客；活動或聚會結束後,邀請某人到某個地方繼續相聚；邀請某人進屋,或上樓到住所；邀請某人外出用膳或參加社交活動",
+    "en": "invite somebody along; invite somebody around / over / round; invite somebody back to something; invite somebody in / up; invite somebody out",
+    "naturalZh": [
+      "邀請某人同行或一起參加活動",
+      "邀請某人到自己家中作客",
+      "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+      "邀請某人進屋,或上樓到住所",
+      "邀請某人外出用膳或參加社交活動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "invite somebody along",
+      "titleZh": "邀請某人同行或一起參加活動",
+      "titleEn": "invite somebody along",
+      "descriptionZh": "邀請某人同行或一起參加活動",
+      "descriptionEn": "Shall I invite Dave along to the concert?",
+      "examples": [
+        {
+          "en": "Shall I invite Dave along to the concert?",
+          "zh": "我要不要邀請戴夫一起去音樂會?",
+          "highlight": "invite Dave along"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "invite somebody around / over / round",
+      "titleZh": "邀請某人到自己家中作客",
+      "titleEn": "invite somebody around / over / round",
+      "descriptionZh": "邀請某人到自己家中作客",
+      "descriptionEn": "I’ve invited a few friends round to watch the game with us on TV.",
+      "examples": [
+        {
+          "en": "I’ve invited a few friends round to watch the game with us on TV.",
+          "zh": "我邀請了幾位朋友到家中,和我們一起在電視上觀看比賽。",
+          "highlight": "invited a few friends round"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "invite somebody back to something",
+      "titleZh": "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+      "titleEn": "invite somebody back to something",
+      "descriptionZh": "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+      "descriptionEn": "She invited me back to her flat for coffee after the film.",
+      "examples": [
+        {
+          "en": "She invited me back to her flat for coffee after the film.",
+          "zh": "看完電影後,她邀請我到她的住所喝咖啡。",
+          "highlight": "invited me back to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "invite somebody in / up",
+      "titleZh": "邀請某人進屋,或上樓到住所",
+      "titleEn": "invite somebody in / up",
+      "descriptionZh": "邀請某人進屋,或上樓到住所",
+      "descriptionEn": "Aren’t you going to invite me in for a coffee?",
+      "examples": [
+        {
+          "en": "Aren’t you going to invite me in for a coffee?",
+          "zh": "你不打算邀請我進去喝杯咖啡嗎?",
+          "highlight": "invite me in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "invite somebody out",
+      "titleZh": "邀請某人外出用膳或參加社交活動",
+      "titleEn": "invite somebody out",
+      "descriptionZh": "邀請某人外出用膳或參加社交活動",
+      "descriptionEn": "We’ve been invited out for dinner this evening.",
+      "examples": [
+        {
+          "en": "We’ve been invited out for dinner this evening.",
+          "zh": "今晚有人邀請我們外出用膳。",
+          "highlight": "invited out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "INVITE 片語動詞的實際用途",
+    "labelEn": "INVITE Phrasal Verbs in Use",
+    "summaryZh": "當你想邀請某人與你的團體一起參加音樂會、旅程、散步或其他活動時,可以使用 invitesomebody along。；invite somebody round、over 或 around 可以用來邀請朋友、鄰居或親友到家中作客。；invite somebody back 可以描述在電影、晚餐、派對或其他活動結束後,邀請某人到另一個地方繼續相聚。；invite somebody in 或 up 表示歡迎某人進入家中;invite somebody out 則表示邀請某人到餐廳或其他地方參加社交活動。",
+    "summaryEn": "Invite somebody along is useful when you want another person to join your group for a concert, trip, walk or other activity. Invite somebody round, over or around lets you ask friends, neighbours or relatives to visit your home. Invite somebody back helps you describe an invitation made after a film, meal, party or other event. Invite somebody in or up welcomes a person inside, while invite somebody out describes an invitation to a restaurant or another social place.",
+    "contextsZh": [
+      "邀請某人加入你的活動",
+      "歡迎別人到家中作客",
+      "在活動結束後繼續相聚",
+      "描述家中和外出的不同邀請"
+    ],
+    "contextsEn": [
+      "Invite somebody to join your plans",
+      "Welcome people into your home",
+      "Continue spending time together after an event",
+      "Describe invitations both inside and outside the home"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 INVITE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the INVITE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "invite somebody along",
+    "fixedHighlight": "invite somebody along",
+    "fixedZh": "閱讀整句,選出意思相同的 INVITE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the INVITE expression that gives the same meaning.",
+    "correct": "invite Dave along",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意「一起參加活動」與「應邀外出」的分別:invite somebody along = 邀請某人與你或你的團體同行invite somebody out = 邀請某人外出參加社交活動,例如外出用膳；以下表達描述與家中或私人地方有關的不同邀請:invite somebody round/around/over = 邀請某人到家中作客invite somebody in/up = 邀請某人進屋或上樓invite somebody back = 活動結束後,邀請某人到另一個地方繼續相聚",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the difference between joining an activity and going somewhere socially: invite somebody along = ask somebody to join you or your group invite somebody out = ask somebody to go somewhere socially, such as a restaurant These expressions describe different kinds of invitations involving a home or another private place: invite somebody round/around/over = ask somebody to visit your home invite somebody in/up = ask somebody to enter or come upstairs invite somebody back = after an activity, ask somebody to continue spending time with you somewhere else",
+    "variableItemsZh": [
+      "invite somebody along",
+      "invite somebody around / over / round",
+      "invite somebody back to something",
+      "invite somebody in / up",
+      "invite somebody out"
+    ],
+    "variableItemsEn": [
+      "invite somebody along",
+      "invite somebody around / over / round",
+      "invite somebody back to something",
+      "invite somebody in / up",
+      "invite somebody out"
+    ],
+    "forms": [
+      {
+        "formZh": "邀請某人同行或一起參加活動",
+        "formEn": "invite somebody along",
+        "exampleZh": "我要不要邀請戴夫一起去音樂會?",
+        "exampleEn": "Shall I invite Dave along to the concert?",
+        "highlight": "invite Dave along"
+      },
+      {
+        "formZh": "邀請某人到自己家中作客",
+        "formEn": "invite somebody around / over / round",
+        "exampleZh": "我邀請了幾位朋友到家中,和我們一起在電視上觀看比賽。",
+        "exampleEn": "I’ve invited a few friends round to watch the game with us on TV.",
+        "highlight": "invited a few friends round"
+      },
+      {
+        "formZh": "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+        "formEn": "invite somebody back to something",
+        "exampleZh": "看完電影後,她邀請我到她的住所喝咖啡。",
+        "exampleEn": "She invited me back to her flat for coffee after the film.",
+        "highlight": "invited me back to"
+      },
+      {
+        "formZh": "邀請某人進屋,或上樓到住所",
+        "formEn": "invite somebody in / up",
+        "exampleZh": "你不打算邀請我進去喝杯咖啡嗎?",
+        "exampleEn": "Aren’t you going to invite me in for a coffee?",
+        "highlight": "invite me in"
+      },
+      {
+        "formZh": "邀請某人外出用膳或參加社交活動",
+        "formEn": "invite somebody out",
+        "exampleZh": "今晚有人邀請我們外出用膳。",
+        "exampleEn": "We’ve been invited out for dinner this evening.",
+        "highlight": "invited out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "邀請某人同行或一起參加活動",
+      "titleEn": "invite somebody along",
+      "formula": "invite somebody along",
+      "highlight": "invite somebody along",
+      "descriptionZh": "邀請某人同行或一起參加活動",
+      "descriptionEn": "Shall I invite Dave along to the concert?",
+      "examples": [
+        {
+          "en": "Shall I invite Dave along to the concert?",
+          "zh": "我要不要邀請戴夫一起去音樂會?",
+          "highlight": "invite Dave along"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "邀請某人到自己家中作客",
+      "titleEn": "invite somebody around / over / round",
+      "formula": "invite somebody around / over / round",
+      "highlight": "invite somebody around / over / round",
+      "descriptionZh": "邀請某人到自己家中作客",
+      "descriptionEn": "I’ve invited a few friends round to watch the game with us on TV.",
+      "examples": [
+        {
+          "en": "I’ve invited a few friends round to watch the game with us on TV.",
+          "zh": "我邀請了幾位朋友到家中,和我們一起在電視上觀看比賽。",
+          "highlight": "invited a few friends round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+      "titleEn": "invite somebody back to something",
+      "formula": "invite somebody back to something",
+      "highlight": "invite somebody back to something",
+      "descriptionZh": "活動或聚會結束後,邀請某人到某個地方繼續相聚",
+      "descriptionEn": "She invited me back to her flat for coffee after the film.",
+      "examples": [
+        {
+          "en": "She invited me back to her flat for coffee after the film.",
+          "zh": "看完電影後,她邀請我到她的住所喝咖啡。",
+          "highlight": "invited me back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "邀請某人進屋,或上樓到住所",
+      "titleEn": "invite somebody in / up",
+      "formula": "invite somebody in / up",
+      "highlight": "invite somebody in / up",
+      "descriptionZh": "邀請某人進屋,或上樓到住所",
+      "descriptionEn": "Aren’t you going to invite me in for a coffee?",
+      "examples": [
+        {
+          "en": "Aren’t you going to invite me in for a coffee?",
+          "zh": "你不打算邀請我進去喝杯咖啡嗎?",
+          "highlight": "invite me in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "邀請某人外出用膳或參加社交活動",
+      "titleEn": "invite somebody out",
+      "formula": "invite somebody out",
+      "highlight": "invite somebody out",
+      "descriptionZh": "邀請某人外出用膳或參加社交活動",
+      "descriptionEn": "We’ve been invited out for dinner this evening.",
+      "examples": [
+        {
+          "en": "We’ve been invited out for dinner this evening.",
+          "zh": "今晚有人邀請我們外出用膳。",
+          "highlight": "invited out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "邀請某人加入你的活動",
+      "titleEn": "Invite somebody to join your plans",
+      "zh": "當你想邀請某人與你的團體一起參加音樂會、旅程、散步或其他活動時,可以使用 invitesomebody along。",
+      "en": "Invite somebody along is useful when you want another person to join your group for a concert, trip, walk or other activity."
+    },
+    {
+      "titleZh": "歡迎別人到家中作客",
+      "titleEn": "Welcome people into your home",
+      "zh": "invite somebody round、over 或 around 可以用來邀請朋友、鄰居或親友到家中作客。",
+      "en": "Invite somebody round, over or around lets you ask friends, neighbours or relatives to visit your home."
+    },
+    {
+      "titleZh": "在活動結束後繼續相聚",
+      "titleEn": "Continue spending time together after an event",
+      "zh": "invite somebody back 可以描述在電影、晚餐、派對或其他活動結束後,邀請某人到另一個地方繼續相聚。",
+      "en": "Invite somebody back helps you describe an invitation made after a film, meal, party or other event."
+    },
+    {
+      "titleZh": "描述家中和外出的不同邀請",
+      "titleEn": "Describe invitations both inside and outside the home",
+      "zh": "invite somebody in 或 up 表示歡迎某人進入家中;invite somebody out 則表示邀請某人到餐廳或其他地方參加社交活動。",
+      "en": "Invite somebody in or up welcomes a person inside, while invite somebody out describes an invitation to a restaurant or another social place."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "邀請某人加入你的活動",
+      "歡迎別人到家中作客",
+      "在活動結束後繼續相聚",
+      "描述家中和外出的不同邀請"
+    ],
+    "contextsEn": [
+      "Invite somebody to join your plans",
+      "Welcome people into your home",
+      "Continue spending time together after an event",
+      "Describe invitations both inside and outside the home"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "邀請某人加入你的活動",
+        "titleEn": "Invite somebody to join your plans",
+        "zh": "當你想邀請某人與你的團體一起參加音樂會、旅程、散步或其他活動時,可以使用 invitesomebody along。",
+        "en": "Invite somebody along is useful when you want another person to join your group for a concert, trip, walk or other activity.",
+        "examples": [
+          {
+            "en": "Shall I invite Dave along to the concert?",
+            "zh": "我要不要邀請戴夫一起去音樂會?",
+            "highlight": "invite Dave along"
+          }
+        ]
+      },
+      {
+        "titleZh": "歡迎別人到家中作客",
+        "titleEn": "Welcome people into your home",
+        "zh": "invite somebody round、over 或 around 可以用來邀請朋友、鄰居或親友到家中作客。",
+        "en": "Invite somebody round, over or around lets you ask friends, neighbours or relatives to visit your home.",
+        "examples": [
+          {
+            "en": "I’ve invited a few friends round to watch the game with us on TV.",
+            "zh": "我邀請了幾位朋友到家中,和我們一起在電視上觀看比賽。",
+            "highlight": "invited a few friends round"
+          }
+        ]
+      },
+      {
+        "titleZh": "在活動結束後繼續相聚",
+        "titleEn": "Continue spending time together after an event",
+        "zh": "invite somebody back 可以描述在電影、晚餐、派對或其他活動結束後,邀請某人到另一個地方繼續相聚。",
+        "en": "Invite somebody back helps you describe an invitation made after a film, meal, party or other event.",
+        "examples": [
+          {
+            "en": "She invited me back to her flat for coffee after the film.",
+            "zh": "看完電影後,她邀請我到她的住所喝咖啡。",
+            "highlight": "invited me back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述家中和外出的不同邀請",
+        "titleEn": "Describe invitations both inside and outside the home",
+        "zh": "invite somebody in 或 up 表示歡迎某人進入家中;invite somebody out 則表示邀請某人到餐廳或其他地方參加社交活動。",
+        "en": "Invite somebody in or up welcomes a person inside, while invite somebody out describes an invitation to a restaurant or another social place.",
+        "examples": [
+          {
+            "en": "Aren’t you going to invite me in for a coffee?",
+            "zh": "你不打算邀請我進去喝杯咖啡嗎?",
+            "highlight": "invite me in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 INVITE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the INVITE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 INVITE 片語動詞。",
+      "en": "Read the whole sentence and choose the INVITE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意「一起參加活動」與「應邀外出」的分別:invite somebody along = 邀請某人與你或你的團體同行invite somebody out = 邀請某人外出參加社交活動,例如外出用膳",
+      "titleEn": "Notice the difference between joining an activity and going somewhere socially: invite somebody along = ask somebody to join you or your group invite somebody out = ask somebody to go somewhere socially, such as a restaurant.",
+      "zh": "留意「一起參加活動」與「應邀外出」的分別:invite somebody along = 邀請某人與你或你的團體同行invite somebody out = 邀請某人外出參加社交活動,例如外出用膳",
+      "en": "Notice the difference between joining an activity and going somewhere socially: invite somebody along = ask somebody to join you or your group invite somebody out = ask somebody to go somewhere socially, such as a restaurant"
+    },
+    {
+      "titleZh": "以下表達描述與家中或私人地方有關的不同邀請:invite somebody round/around/over = 邀請某人到家中作客invite somebody in/up = 邀請某人進屋或上樓invite somebody back = 活動結束後,邀請某人到另一個地方繼續相聚",
+      "titleEn": "These expressions describe different kinds of invitations involving a home or another private place: invite somebody round/around/over = ask somebody to visit your home invite somebody in/up = ask somebody to enter or come upstairs invite somebody back = after an activity, ask somebody to continue spending time with you somewhere else.",
+      "zh": "以下表達描述與家中或私人地方有關的不同邀請:invite somebody round/around/over = 邀請某人到家中作客invite somebody in/up = 邀請某人進屋或上樓invite somebody back = 活動結束後,邀請某人到另一個地方繼續相聚",
+      "en": "These expressions describe different kinds of invitations involving a home or another private place: invite somebody round/around/over = ask somebody to visit your home invite somebody in/up = ask somebody to enter or come upstairs invite somebody back = after an activity, ask somebody to continue spending time with you somewhere else"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 INVITE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to INVITE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "INVITE 動詞片語句子改寫練習",
+    "titleEn": "INVITE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 INVITE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to INVITE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-38-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We asked Maya to join us at the concert.",
+      "promptZh": "我們邀請瑪雅和我們一起去音樂會。",
+      "starter": "We",
+      "answer": "We invited Maya along to the concert.",
+      "answerZh": "我們邀請瑪雅和我們一起去音樂會。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Ben asked the delivery driver to come inside out of the rain.",
+      "promptZh": "賓請送貨員進屋避雨。",
+      "starter": "Ben",
+      "answer": "Ben invited the delivery driver in out of the rain.",
+      "answerZh": "賓請送貨員進屋避雨。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Nina asked a few friends to come to her home and watch the match.",
+      "promptZh": "妮娜邀請了幾位朋友到她家中觀看比賽。",
+      "starter": "Nina",
+      "answer": "Nina invited a few friends round to watch the match.",
+      "answerZh": "妮娜邀請了幾位朋友到她家中觀看比賽。",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The Browns asked us to have dinner with them at a restaurant.",
+      "promptZh": "布朗一家邀請我們和他們一起到餐廳吃晚飯。",
+      "starter": "The",
+      "answer": "The Browns invited us out for dinner.",
+      "answerZh": "布朗一家邀請我們外出吃晚飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "After the film, Ella asked me to go to her flat for coffee.",
+      "promptZh": "看完電影後,埃拉邀請我到她的住所喝咖啡。",
+      "starter": "After",
+      "answer": "After the film, Ella invited me back to her flat for coffee.",
+      "answerZh": "看完電影後,埃拉邀請我到她的住所喝咖啡。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Shall we ask Leo to join us on the picnic?",
+      "promptZh": "我們要不要邀請里奧和我們一起去野餐?",
+      "starter": "Shall",
+      "answer": "Shall we invite Leo along on the picnic?",
+      "answerZh": "我們要不要邀請里奧和我們一起去野餐?",
+      "highlight": "invite",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We asked our neighbours to come to our home for tea.",
+      "promptZh": "我們邀請鄰居到家中喝茶。",
+      "starter": "We",
+      "answer": "We invited our neighbours over for tea.",
+      "answerZh": "我們邀請鄰居到家中喝茶。",
+      "highlight": "invited",
+      "targetForm": "invite somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Aren’t you going to ask me to come inside for a coffee?",
+      "promptZh": "你不打算請我進去喝杯咖啡嗎?",
+      "starter": "Aren’t",
+      "answer": "Aren’t you going to invite me in for a coffee?",
+      "answerZh": "你不打算邀請我進去喝杯咖啡嗎?",
+      "highlight": "invite",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "My aunt asked the whole family to have lunch with her at a restaurant.",
+      "promptZh": "姑母邀請全家人和她一起到餐廳吃午飯。",
+      "starter": "My",
+      "answer": "My aunt invited the whole family out for lunch.",
+      "answerZh": "姑母邀請全家人外出吃午飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The coach asked Sam to join us at the match.",
+      "promptZh": "教練邀請森和我們一起去觀看比賽。",
+      "starter": "The",
+      "answer": "The coach invited Sam along to the match.",
+      "answerZh": "教練邀請森和我們一起去觀看比賽。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Jake asked his classmates to come to his home for pizza.",
+      "promptZh": "傑克邀請同學到他家中吃薄餅。",
+      "starter": "Jake",
+      "answer": "Jake invited his classmates around for pizza.",
+      "answerZh": "傑克邀請同學到他家中吃薄餅。",
+      "highlight": "invited",
+      "targetForm": "invite somebody around",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "After the party, Tom asked us to continue the evening at her house.",
+      "promptZh": "派對結束後,湯姆邀請我們到她家中繼續相聚。",
+      "starter": "Tom",
+      "answer": "Tom invited us back to her house after the party.",
+      "answerZh": "派對結束後,湯姆邀請我們到她家中繼續相聚。",
+      "highlight": "Tom invited us back to her house",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The couple have asked us to go to their hotel for a drink after tonight’s show.",
+      "promptZh": "那對夫婦邀請我們在今晚的表演結束後,到他們的酒店喝一杯。",
+      "starter": "The",
+      "answer": "The couple have invited us back to their hotel for a drink after tonight’s show.",
+      "answerZh": "那對夫婦邀請我們在今晚的表演結束後,到他們的酒店喝一杯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Please ask Ava to come inside; she is waiting at the door.",
+      "promptZh": "請邀請艾娃進來;她正在門外等候。",
+      "starter": "Please",
+      "answer": "Please invite Ava in; she is waiting at the door.",
+      "answerZh": "請邀請艾娃進來;她正在門外等候。",
+      "highlight": "invite",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Tom is asking his cousin to join him at the school fair.",
+      "promptZh": "湯姆正邀請表弟和他一起參加學校嘉年華。",
+      "starter": "Tom",
+      "answer": "Tom is inviting his cousin along to the school fair.",
+      "answerZh": "湯姆正邀請表弟和他一起參加學校嘉年華。",
+      "highlight": "inviting",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Have you asked the new neighbours to come to your home yet?",
+      "promptZh": "你邀請新鄰居到家中作客了嗎?",
+      "starter": "Have",
+      "answer": "Have you invited the new neighbours round yet?",
+      "answerZh": "你邀請新鄰居到家中作客了嗎?",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Someone has asked us to have dinner at a restaurant this evening.",
+      "promptZh": "今晚有人邀請我們到餐廳吃晚飯。",
+      "starter": "We",
+      "answer": "We have been invited out for dinner this evening.",
+      "answerZh": "今晚有人邀請我們外出用膳。",
+      "highlight": "We",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why didn’t you ask Ravi to come upstairs to the flat?",
+      "promptZh": "你為甚麼沒有邀請拉維上樓到住所?",
+      "starter": "Why",
+      "answer": "Why didn’t you invite Ravi up to the flat?",
+      "answerZh": "你為甚麼沒有邀請拉維上樓到住所?",
+      "highlight": "invite",
+      "targetForm": "invite somebody up",
+      "targetMeaningZh": "邀請某人上樓到住所"
+    },
+    {
+      "id": "phrasal-verb-38-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "After the walk, she may ask us to go to her house for tea.",
+      "promptZh": "散步後,她可能會邀請我們到她家中喝茶。",
+      "starter": "After",
+      "answer": "After the walk, she may invite us back to her house for tea.",
+      "answerZh": "散步後,她可能會邀請我們到她家中喝茶。",
+      "highlight": "invite",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I will ask Noor to join us if we have another ticket.",
+      "promptZh": "如果我們有另一張門票,我會邀請努爾和我們一起去。",
+      "starter": "I",
+      "answer": "I will invite Noor along if we have another ticket.",
+      "answerZh": "如果我們有另一張門票,我會邀請努爾和我們一起去。",
+      "highlight": "invite",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The neighbour has asked Mum to come inside for a chat.",
+      "promptZh": "那名鄰居邀請媽媽進屋聊天。",
+      "starter": "The",
+      "answer": "The neighbour has invited Mum in for a chat.",
+      "answerZh": "那名鄰居邀請媽媽進屋聊天。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We are asking the whole class to come to our home on Saturday.",
+      "promptZh": "我們正邀請全班同學星期六到我們家中。",
+      "starter": "We",
+      "answer": "We are inviting the whole class over on Saturday.",
+      "answerZh": "我們正邀請全班同學星期六到我們家中。",
+      "highlight": "inviting",
+      "targetForm": "invite somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After dinner, did Alex ask you to go to his place?",
+      "promptZh": "晚飯後,亞歷克斯有邀請你到他的住所嗎?",
+      "starter": "After",
+      "answer": "After dinner, did Alex invite you back to his place?",
+      "answerZh": "晚飯後,亞歷克斯有邀請你到他的住所嗎?",
+      "highlight": "invite",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Why has your manager asked the team to have lunch at a restaurant?",
+      "promptZh": "你的經理為甚麼邀請全隊到餐廳吃午飯?",
+      "starter": "Why",
+      "answer": "Why has your manager invited the team out for lunch?",
+      "answerZh": "你的經理為甚麼邀請全隊外出吃午飯?",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The café had been open for ten years, so the owner asked all the staff to have dinner at a restaurant.",
+      "promptZh": "那間咖啡店已開業十年,所以店主邀請所有員工到餐廳吃晚飯。",
+      "starter": "The",
+      "answer": "The café had been open for ten years, so the owner invited all the staff out for dinner.",
+      "answerZh": "那間咖啡店已開業十年,所以店主邀請所有員工外出吃晚飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We met Priya at the café, and she later asked us to go to her flat.",
+      "promptZh": "我們在咖啡店遇見普里雅,其後她邀請我們到她的住所。",
+      "starter": "We",
+      "answer": "We met Priya at the café, and she later invited us back to her flat.",
+      "answerZh": "我們在咖啡店遇見普里雅,其後她邀請我們到她的住所。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "It was cold outside, so Ella asked the children to come inside.",
+      "promptZh": "外面很冷,所以埃拉邀請孩子們進屋。",
+      "starter": "It",
+      "answer": "It was cold outside, so Ella invited the children in.",
+      "answerZh": "外面很冷,所以埃拉邀請孩子們進屋。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The school had two spare seats, so it asked Ben and Kim to join the group at the play.",
+      "promptZh": "學校有兩個空位,所以邀請賓和金一起去看戲劇表演。",
+      "starter": "The",
+      "answer": "The school had two spare seats, so it invited Ben and Kim along to the play.",
+      "answerZh": "學校有兩個空位,所以邀請賓和金一起去看戲劇表演。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "My parents asked me to have a meal at a restaurant after my final exam.",
+      "promptZh": "期末考試後,父母邀請我到餐廳吃飯。",
+      "starter": "My",
+      "answer": "My parents invited me out for a meal after my final exam.",
+      "answerZh": "期末考試後,父母邀請我外出吃飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The game starts at eight, and we have asked a few friends to come to our home to watch it.",
+      "promptZh": "比賽八時開始,我們已邀請幾位朋友到家中觀看。",
+      "starter": "The",
+      "answer": "The game starts at eight, and we have invited a few friends round to watch it.",
+      "answerZh": "比賽八時開始,我們已邀請幾位朋友到家中觀看。",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Did someone ask you to have dinner at a restaurant, or did you eat at home?",
+      "promptZh": "有人邀請你到餐廳吃晚飯,還是你在家中用膳?",
+      "starter": "Were",
+      "answer": "Were you invited out for dinner, or did you eat at home?",
+      "answerZh": "有人邀請你外出吃晚飯,還是你在家中用膳?",
+      "highlight": "Were",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Kai was waiting downstairs, but nobody asked him to come upstairs.",
+      "promptZh": "啟正在樓下等候,但沒有人邀請他上樓。",
+      "starter": "Kai",
+      "answer": "Kai was waiting downstairs, but nobody invited him up.",
+      "answerZh": "啟正在樓下等候,但沒有人邀請他上樓。",
+      "highlight": "invited",
+      "targetForm": "invite somebody up",
+      "targetMeaningZh": "邀請某人上樓到住所"
+    },
+    {
+      "id": "phrasal-verb-38-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "If Mira wants company, we can ask her to join us on our walk.",
+      "promptZh": "如果米拉想有人陪伴,我們可以邀請她和我們一起散步。",
+      "starter": "If",
+      "answer": "If Mira wants company, we can invite her along on our walk.",
+      "answerZh": "如果米拉想有人陪伴,我們可以邀請她和我們一起散步。",
+      "highlight": "invite",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the concert, the singer asked the band to go to her house.",
+      "promptZh": "音樂會結束後,那名歌手邀請樂隊成員到她家中。",
+      "starter": "After",
+      "answer": "After the concert, the singer invited the band back to her house.",
+      "answerZh": "音樂會結束後,那名歌手邀請樂隊成員到她家中。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The club asked its volunteers to have lunch at a restaurant as a thank-you.",
+      "promptZh": "會方為了答謝義工,邀請他們到餐廳吃午飯。",
+      "starter": "The",
+      "answer": "The club invited its volunteers out for lunch to thank them.",
+      "answerZh": "會方為了答謝義工,邀請他們外出吃午飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We had not seen them for months, so we asked them to come and stay at our home for the weekend.",
+      "promptZh": "我們已有幾個月沒有見他們,所以邀請他們週末到我們家中留宿。",
+      "starter": "We",
+      "answer": "We had not seen them for months, so we invited them over for the weekend.",
+      "answerZh": "我們已有幾個月沒有見他們,所以邀請他們週末到我們家中留宿。",
+      "highlight": "invited",
+      "targetForm": "invite somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The film ended at ten, and Dan asked us to go to his place rather than end the evening.",
+      "promptZh": "電影十時結束,丹邀請我們到他的住所繼續相聚,而不是就此結束當晚的活動。",
+      "starter": "The",
+      "answer": "The film ended at ten, and Dan invited us back to his place rather than ending the evening.",
+      "answerZh": "電影十時結束,丹邀請我們到他的住所繼續相聚,而不是就此結束當晚的活動。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Our neighbours were going to the fireworks, so they asked us to join them.",
+      "promptZh": "鄰居正要去看煙花,所以邀請我們同行。",
+      "starter": "Our",
+      "answer": "Our neighbours were going to the fireworks, so they invited us along.",
+      "answerZh": "鄰居正要去看煙花,所以邀請我們同行。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The rain became heavier, and the woman asked the waiting children to come inside.",
+      "promptZh": "雨勢變得更大,那名女子便邀請正在等候的孩子們進屋。",
+      "starter": "The",
+      "answer": "The rain became heavier, and the woman invited the waiting children in.",
+      "answerZh": "雨勢變得更大,那名女子便邀請正在等候的孩子們進屋。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Instead of meeting at a café, Hana asked everyone to come to her house.",
+      "promptZh": "哈娜沒有約大家在咖啡店見面,而是邀請所有人到她家中。",
+      "starter": "Instead",
+      "answer": "Instead of meeting at a café, Hana invited everyone round to her house.",
+      "answerZh": "哈娜沒有約大家在咖啡店見面,而是邀請所有人到她家中。",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The company did not hold a party; it asked the staff to have dinner at a restaurant instead.",
+      "promptZh": "公司沒有舉行派對,而是邀請員工到餐廳吃晚飯。",
+      "starter": "The",
+      "answer": "The company did not hold a party; it invited the staff out for dinner instead.",
+      "answerZh": "公司沒有舉行派對,而是邀請員工外出吃晚飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "After the match, the captain asked the visiting players to go to the club for tea.",
+      "promptZh": "比賽結束後,隊長邀請客隊球員到會所喝茶。",
+      "starter": "After",
+      "answer": "After the match, the captain invited the visiting players back to the club for tea.",
+      "answerZh": "比賽結束後,隊長邀請客隊球員到會所喝茶。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Ravi was travelling alone, so we asked him to join us on the day trip.",
+      "promptZh": "拉維獨自旅行,所以我們邀請他參加我們的一日遊。",
+      "starter": "Ravi",
+      "answer": "Ravi was travelling alone, so we invited him along on the day trip.",
+      "answerZh": "拉維獨自旅行,所以我們邀請他參加我們的一日遊。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "When I reached her building, Zoe asked me to come upstairs for coffee.",
+      "promptZh": "我到達佐伊居住的大廈時,她邀請我上樓喝咖啡。",
+      "starter": "When",
+      "answer": "When I reached her building, Zoe invited me up for coffee.",
+      "answerZh": "我到達佐伊居住的大廈時,她邀請我上樓喝咖啡。",
+      "highlight": "invited",
+      "targetForm": "invite somebody up",
+      "targetMeaningZh": "邀請某人上樓到住所"
+    },
+    {
+      "id": "phrasal-verb-38-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Outside the theatre, Leo asked us to go to his flat for one last drink.",
+      "promptZh": "在劇院外,里奧邀請我們到他的住所再喝一杯。",
+      "starter": "Outside",
+      "answer": "Outside the theatre, Leo invited us back to his flat for one last drink.",
+      "answerZh": "在劇院外,里奧邀請我們到他的住所再喝一杯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We asked the new student to come to our home so that she could meet everyone in a relaxed setting.",
+      "promptZh": "我們邀請那名新同學到家中,讓她可以在輕鬆的環境下認識大家。",
+      "starter": "We",
+      "answer": "We invited the new student over so that she could meet everyone in a relaxed setting.",
+      "answerZh": "我們邀請那名新同學到家中,讓她可以在輕鬆的環境下認識大家。",
+      "highlight": "invited",
+      "targetForm": "invite somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "I am going to the book fair tomorrow and have asked Mei to join me.",
+      "promptZh": "我明天會去書展,並已邀請梅和我一起去。",
+      "starter": "I",
+      "answer": "I am going to the book fair tomorrow and have invited Mei along.",
+      "answerZh": "我明天會去書展,並已邀請梅和我一起去。",
+      "highlight": "invited",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "For their parents’ wedding anniversary, the children asked them to have dinner at a restaurant.",
+      "promptZh": "為了慶祝父母的結婚周年紀念,孩子們邀請他們到餐廳吃晚飯。",
+      "starter": "For",
+      "answer": "For their parents’ wedding anniversary, the children invited them out for dinner.",
+      "answerZh": "為了慶祝父母的結婚周年紀念,孩子們邀請他們外出吃晚飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Since our living room was finally ready, we asked the neighbours to come to our home for a small party.",
+      "promptZh": "由於客廳終於準備好,我們邀請鄰居到家中參加一個小型派對。",
+      "starter": "Since",
+      "answer": "Since our living room was finally ready, we invited the neighbours round for a small party.",
+      "answerZh": "由於客廳終於準備好,我們邀請鄰居到家中參加一個小型派對。",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The courier was waiting outside in the cold, so Dad asked him to come inside while he checked the address.",
+      "promptZh": "速遞員正在寒冷的戶外等候,所以爸爸在核對地址時請他進屋。",
+      "starter": "The",
+      "answer": "The courier was waiting outside in the cold, so Dad invited him in while he checked the address.",
+      "answerZh": "速遞員正在寒冷的戶外等候,所以爸爸在核對地址時請他進屋。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "We had only planned to see the play, but afterwards Lina asked us to go to her flat for dessert.",
+      "promptZh": "我們原本只打算觀看戲劇,但其後莉娜邀請我們到她的住所吃甜品。",
+      "starter": "We",
+      "answer": "We had only planned to see the play, but afterwards Lina invited us back to her flat for dessert.",
+      "answerZh": "我們原本只打算觀看戲劇,但其後莉娜邀請我們到她的住所吃甜品。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The trip was meant for club members, but the organiser said I could ask my sister to join us.",
+      "promptZh": "這次旅程原本是為會友而設,但主辦人說我可以邀請妹妹一起參加。",
+      "starter": "The",
+      "answer": "The trip was meant for club members, but the organiser said I could invite my sister along.",
+      "answerZh": "這次旅程原本是為會友而設,但主辦人說我可以邀請妹妹一起參加。",
+      "highlight": "invite",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "To celebrate our first week at work, the manager asked us to have lunch at a restaurant.",
+      "promptZh": "為了慶祝我們工作的第一個星期,經理邀請我們到餐廳吃午飯。",
+      "starter": "To",
+      "answer": "To celebrate our first week at work, the manager invited us out for lunch.",
+      "answerZh": "為了慶祝我們工作的第一個星期,經理邀請我們外出吃午飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    },
+    {
+      "id": "phrasal-verb-38-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I was about to leave the building when Arun opened the door and asked me to come upstairs to meet his family.",
+      "promptZh": "我正準備離開大廈時,阿倫打開門,邀請我上樓與他的家人見面。",
+      "starter": "I",
+      "answer": "I was about to leave the building when Arun opened the door and invited me up to meet his family.",
+      "answerZh": "我正準備離開大廈時,阿倫打開門,邀請我上樓與他的家人見面。",
+      "highlight": "invited",
+      "targetForm": "invite somebody up",
+      "targetMeaningZh": "邀請某人上樓到住所"
+    },
+    {
+      "id": "phrasal-verb-38-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "We usually meet in town, but this time Sophie has asked us to come to her home to watch a film.",
+      "promptZh": "我們通常在市中心見面,但今次索菲邀請我們到她家中看電影。",
+      "starter": "We",
+      "answer": "We usually meet in town, but this time Sophie has invited us over to watch a film.",
+      "answerZh": "我們通常在市中心見面,但今次索菲邀請我們到她家中看電影。",
+      "highlight": "invited",
+      "targetForm": "invite somebody over",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After dinner at the restaurant, the Browns asked everyone to go to their house for music and coffee.",
+      "promptZh": "在餐廳吃過晚飯後,布朗一家邀請所有人到他們家中聽音樂和喝咖啡。",
+      "starter": "After",
+      "answer": "After dinner at the restaurant, the Browns invited everyone back to their house for music and coffee.",
+      "answerZh": "在餐廳吃過晚飯後,布朗一家邀請所有人到他們家中聽音樂和喝咖啡。",
+      "highlight": "invited",
+      "targetForm": "invite somebody back",
+      "targetMeaningZh": "活動結束後邀請某人到另一個地方繼續相聚"
+    },
+    {
+      "id": "phrasal-verb-38-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The children were still on the doorstep, so I asked them to come inside before explaining the plan.",
+      "promptZh": "孩子們仍站在門前,所以我先邀請他們進屋,然後再解釋計劃。",
+      "starter": "The",
+      "answer": "The children were still on the doorstep, so I invited them in before explaining the plan.",
+      "answerZh": "孩子們仍站在門前,所以我先邀請他們進屋,然後再解釋計劃。",
+      "highlight": "invited",
+      "targetForm": "invite somebody in",
+      "targetMeaningZh": "邀請某人進屋"
+    },
+    {
+      "id": "phrasal-verb-38-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "When Carla heard we were going to the beach, she asked whether she could join us.",
+      "promptZh": "卡拉知道我們會去海灘後,便問可否與我們同行。",
+      "starter": "When",
+      "answer": "When Carla heard we were going to the beach, she asked whether we could invite her along.",
+      "answerZh": "卡拉知道我們會去海灘後,便問我們可否邀請她同行。",
+      "highlight": "we",
+      "targetForm": "invite somebody along",
+      "targetMeaningZh": "邀請某人同行或一起參加活動"
+    },
+    {
+      "id": "phrasal-verb-38-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Because the match was not being shown at the café, Amir asked the group to come to his home to watch it.",
+      "promptZh": "由於咖啡店沒有播放比賽,阿米爾邀請大家到他家中觀看。",
+      "starter": "Because",
+      "answer": "Because the match was not being shown at the café, Amir invited the group round to watch it at his home.",
+      "answerZh": "由於咖啡店沒有播放比賽,阿米爾邀請大家到他家中觀看。",
+      "highlight": "invited",
+      "targetForm": "invite somebody round",
+      "targetMeaningZh": "邀請某人到家中作客"
+    },
+    {
+      "id": "phrasal-verb-38-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 25,
+      "prompt": "We had worked late all week, so our team leader asked us to have dinner at a restaurant on Friday.",
+      "promptZh": "我們整個星期都工作至很晚,所以組長星期五邀請我們到餐廳吃晚飯。",
+      "starter": "We",
+      "answer": "We had worked late all week, so our team leader invited us out for dinner on Friday.",
+      "answerZh": "我們整個星期都工作至很晚,所以組長星期五邀請我們外出吃晚飯。",
+      "highlight": "invited",
+      "targetForm": "invite somebody out",
+      "targetMeaningZh": "邀請某人外出用膳或參加社交活動"
+    }
+  ]
+}

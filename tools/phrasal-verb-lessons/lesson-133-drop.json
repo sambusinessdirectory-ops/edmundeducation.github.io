@@ -1,0 +1,1772 @@
+{
+  "id": "phrasal-verb-133",
+  "order": 133,
+  "slug": "drop",
+  "version": "1",
+  "title": "DROP 動詞片語",
+  "titleEn": "Drop",
+  "titleZh": "DROP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 132 - DROP.pdf",
+    "sourceNumber": 132,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DROP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DROP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DROP",
+      "highlight": "DROP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I dropped round after work.",
+      "zh": "我下班後順道探訪。",
+      "highlight": "dropped round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The seabed dropped away near the rocks.",
+      "zh": "岩石附近的海床突然向下傾斜。",
+      "highlight": "dropped away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She dropped back to fourth place.",
+      "zh": "她退到第四名。",
+      "highlight": "dropped back",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "順道短暫探訪某人或某處；地面、海床等突然向下傾斜；退到較後位置或較低名次；落後於某人、某組人或原定進度；睡着;不知不覺入睡；中途退出活動、課程或比賽；把某人或某物送到某處後離開；令某人或自己惹上麻煩；順道把某物送到某人或某處",
+    "en": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere; drop away; drop back; drop behind / drop behind somebody or something; drop off; drop out / drop out of something; drop somebody/something off; drop somebody/yourself in it; drop something round / around / by / in / into somewhere",
+    "naturalZh": [
+      "順道短暫探訪某人或某處",
+      "地面、海床等突然向下傾斜",
+      "退到較後位置或較低名次",
+      "落後於某人、某組人或原定進度",
+      "睡着;不知不覺入睡",
+      "中途退出活動、課程或比賽",
+      "把某人或某物送到某處後離開",
+      "令某人或自己惹上麻煩",
+      "順道把某物送到某人或某處"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "titleZh": "順道短暫探訪某人或某處",
+      "titleEn": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "descriptionZh": "順道短暫探訪某人或某處",
+      "descriptionEn": "I dropped round after work.",
+      "examples": [
+        {
+          "en": "I dropped round after work.",
+          "zh": "我下班後順道探訪。",
+          "highlight": "dropped round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drop away",
+      "titleZh": "地面、海床等突然向下傾斜",
+      "titleEn": "drop away",
+      "descriptionZh": "地面、海床等突然向下傾斜",
+      "descriptionEn": "The seabed dropped away near the rocks.",
+      "examples": [
+        {
+          "en": "The seabed dropped away near the rocks.",
+          "zh": "岩石附近的海床突然向下傾斜。",
+          "highlight": "dropped away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drop back",
+      "titleZh": "退到較後位置或較低名次",
+      "titleEn": "drop back",
+      "descriptionZh": "退到較後位置或較低名次",
+      "descriptionEn": "She dropped back to fourth place.",
+      "examples": [
+        {
+          "en": "She dropped back to fourth place.",
+          "zh": "她退到第四名。",
+          "highlight": "dropped back"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drop behind / drop behind somebody or something",
+      "titleZh": "落後於某人、某組人或原定進度",
+      "titleEn": "drop behind / drop behind somebody or something",
+      "descriptionZh": "落後於某人、某組人或原定進度",
+      "descriptionEn": "Our team dropped behind the others.",
+      "examples": [
+        {
+          "en": "Our team dropped behind the others.",
+          "zh": "我們的隊伍落後於其他隊伍。",
+          "highlight": "dropped behind"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drop off",
+      "titleZh": "睡着;不知不覺入睡",
+      "titleEn": "drop off",
+      "descriptionZh": "睡着;不知不覺入睡",
+      "descriptionEn": "He dropped off on the sofa.",
+      "examples": [
+        {
+          "en": "He dropped off on the sofa.",
+          "zh": "他在梳化上睡着了。",
+          "highlight": "dropped off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drop out / drop out of something",
+      "titleZh": "中途退出活動、課程或比賽",
+      "titleEn": "drop out / drop out of something",
+      "descriptionZh": "中途退出活動、課程或比賽",
+      "descriptionEn": "Two runners dropped out of the race.",
+      "examples": [
+        {
+          "en": "Two runners dropped out of the race.",
+          "zh": "兩名跑手中途退出比賽。",
+          "highlight": "dropped out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drop somebody/something off",
+      "titleZh": "把某人或某物送到某處後離開",
+      "titleEn": "drop somebody/something off",
+      "descriptionZh": "把某人或某物送到某處後離開",
+      "descriptionEn": "Could you drop me off at the station?",
+      "examples": [
+        {
+          "en": "Could you drop me off at the station?",
+          "zh": "你可以送我到車站,讓我在那裏下車嗎?",
+          "highlight": "drop me off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drop somebody/yourself in it",
+      "titleZh": "令某人或自己惹上麻煩",
+      "titleEn": "drop somebody/yourself in it",
+      "descriptionZh": "令某人或自己惹上麻煩",
+      "descriptionEn": "He dropped himself in it by lying.",
+      "examples": [
+        {
+          "en": "He dropped himself in it by lying.",
+          "zh": "他因為說謊而令自己惹上麻煩。",
+          "highlight": "dropped himself in"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drop something round / around / by / in / into somewhere",
+      "titleZh": "順道把某物送到某人或某處",
+      "titleEn": "drop something round / around / by / in / into somewhere",
+      "descriptionZh": "順道把某物送到某人或某處",
+      "descriptionEn": "I’ll drop the papers round later.",
+      "examples": [
+        {
+          "en": "I’ll drop the papers round later.",
+          "zh": "我稍後會順道把文件送過去。",
+          "highlight": "drop the papers round"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DROP 片語動詞的實際用途",
+    "labelEn": "DROP Phrasal Verbs in Use",
+    "summaryZh": "DROP 片語動詞可以自然地表達順道探訪某人、為對方帶來物品,或把物品送到某處。；drop back 可以描述名次下降;drop behind 可以表示進度落後;drop out 則表示在完成前中途退出。；drop off 可以自然地表示睡着;drop away 則可以描述地面或海床突然向下傾斜。；drop somebody in it 可以清楚表示某人的說話或行為令另一個人惹上麻煩。",
+    "summaryEn": "DROP expressions let you talk naturally about visiting someone briefly, bringing them something or leaving an item at a place. Drop back describes moving to a lower place in a race or ranking. Drop behind describes making less progress, while drop out means leaving before the end. Drop off is a natural way to describe falling asleep. Drop away can describe land or a seabed that suddenly becomes much lower. Drop somebody in it clearly shows that one person’s words or actions have caused trouble for someone else.",
+    "contextsZh": [
+      "自然地談論短暫探訪和順道送物",
+      "清楚描述位置和進度變化",
+      "談論入睡和陡峭地形",
+      "說明誰令別人惹上麻煩"
+    ],
+    "contextsEn": [
+      "Make quick visits and deliveries sound natural",
+      "Describe position and progress clearly",
+      "Talk about sleep and steep ground",
+      "Explain who caused trouble"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DROP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DROP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+    "fixedHighlight": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+    "fixedZh": "閱讀整句,選出意思相同的 DROP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DROP expression that gives the same meaning.",
+    "correct": "dropped round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；以上表達都可以表示順道短暫探訪某人或某處。；請仔細分辨:drop off 表示睡着。drop somebody/something off 表示把某人或某物送到某處後離開。",
+    "variableEn": "Keep the same people, things, time and meaning. These expressions can all describe a short informal visit: drop by drop in drop in on somebody drop round drop around drop over drop into a place Read carefully: drop off = fall asleep drop somebody/something off = take somebody or something to a place and leave them there",
+    "variableItemsZh": [
+      "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "drop away",
+      "drop back",
+      "drop behind / drop behind somebody or something",
+      "drop off",
+      "drop out / drop out of something",
+      "drop somebody/something off",
+      "drop somebody/yourself in it",
+      "drop something round / around / by / in / into somewhere"
+    ],
+    "variableItemsEn": [
+      "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "drop away",
+      "drop back",
+      "drop behind / drop behind somebody or something",
+      "drop off",
+      "drop out / drop out of something",
+      "drop somebody/something off",
+      "drop somebody/yourself in it",
+      "drop something round / around / by / in / into somewhere"
+    ],
+    "forms": [
+      {
+        "formZh": "順道短暫探訪某人或某處",
+        "formEn": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+        "exampleZh": "我下班後順道探訪。",
+        "exampleEn": "I dropped round after work.",
+        "highlight": "dropped round"
+      },
+      {
+        "formZh": "地面、海床等突然向下傾斜",
+        "formEn": "drop away",
+        "exampleZh": "岩石附近的海床突然向下傾斜。",
+        "exampleEn": "The seabed dropped away near the rocks.",
+        "highlight": "dropped away"
+      },
+      {
+        "formZh": "退到較後位置或較低名次",
+        "formEn": "drop back",
+        "exampleZh": "她退到第四名。",
+        "exampleEn": "She dropped back to fourth place.",
+        "highlight": "dropped back"
+      },
+      {
+        "formZh": "落後於某人、某組人或原定進度",
+        "formEn": "drop behind / drop behind somebody or something",
+        "exampleZh": "我們的隊伍落後於其他隊伍。",
+        "exampleEn": "Our team dropped behind the others.",
+        "highlight": "dropped behind"
+      },
+      {
+        "formZh": "睡着;不知不覺入睡",
+        "formEn": "drop off",
+        "exampleZh": "他在梳化上睡着了。",
+        "exampleEn": "He dropped off on the sofa.",
+        "highlight": "dropped off"
+      },
+      {
+        "formZh": "中途退出活動、課程或比賽",
+        "formEn": "drop out / drop out of something",
+        "exampleZh": "兩名跑手中途退出比賽。",
+        "exampleEn": "Two runners dropped out of the race.",
+        "highlight": "dropped out"
+      },
+      {
+        "formZh": "把某人或某物送到某處後離開",
+        "formEn": "drop somebody/something off",
+        "exampleZh": "你可以送我到車站,讓我在那裏下車嗎?",
+        "exampleEn": "Could you drop me off at the station?",
+        "highlight": "drop me off"
+      },
+      {
+        "formZh": "令某人或自己惹上麻煩",
+        "formEn": "drop somebody/yourself in it",
+        "exampleZh": "他因為說謊而令自己惹上麻煩。",
+        "exampleEn": "He dropped himself in it by lying.",
+        "highlight": "dropped himself in"
+      },
+      {
+        "formZh": "順道把某物送到某人或某處",
+        "formEn": "drop something round / around / by / in / into somewhere",
+        "exampleZh": "我稍後會順道把文件送過去。",
+        "exampleEn": "I’ll drop the papers round later.",
+        "highlight": "drop the papers round"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "順道短暫探訪某人或某處",
+      "titleEn": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "formula": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "highlight": "drop by / drop in / drop in on somebody / drop round / drop around / drop over / drop into somewhere",
+      "descriptionZh": "順道短暫探訪某人或某處",
+      "descriptionEn": "I dropped round after work.",
+      "examples": [
+        {
+          "en": "I dropped round after work.",
+          "zh": "我下班後順道探訪。",
+          "highlight": "dropped round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "地面、海床等突然向下傾斜",
+      "titleEn": "drop away",
+      "formula": "drop away",
+      "highlight": "drop away",
+      "descriptionZh": "地面、海床等突然向下傾斜",
+      "descriptionEn": "The seabed dropped away near the rocks.",
+      "examples": [
+        {
+          "en": "The seabed dropped away near the rocks.",
+          "zh": "岩石附近的海床突然向下傾斜。",
+          "highlight": "dropped away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "退到較後位置或較低名次",
+      "titleEn": "drop back",
+      "formula": "drop back",
+      "highlight": "drop back",
+      "descriptionZh": "退到較後位置或較低名次",
+      "descriptionEn": "She dropped back to fourth place.",
+      "examples": [
+        {
+          "en": "She dropped back to fourth place.",
+          "zh": "她退到第四名。",
+          "highlight": "dropped back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "落後於某人、某組人或原定進度",
+      "titleEn": "drop behind / drop behind somebody or something",
+      "formula": "drop behind / drop behind somebody or something",
+      "highlight": "drop behind / drop behind somebody or something",
+      "descriptionZh": "落後於某人、某組人或原定進度",
+      "descriptionEn": "Our team dropped behind the others.",
+      "examples": [
+        {
+          "en": "Our team dropped behind the others.",
+          "zh": "我們的隊伍落後於其他隊伍。",
+          "highlight": "dropped behind"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "睡着;不知不覺入睡",
+      "titleEn": "drop off",
+      "formula": "drop off",
+      "highlight": "drop off",
+      "descriptionZh": "睡着;不知不覺入睡",
+      "descriptionEn": "He dropped off on the sofa.",
+      "examples": [
+        {
+          "en": "He dropped off on the sofa.",
+          "zh": "他在梳化上睡着了。",
+          "highlight": "dropped off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "中途退出活動、課程或比賽",
+      "titleEn": "drop out / drop out of something",
+      "formula": "drop out / drop out of something",
+      "highlight": "drop out / drop out of something",
+      "descriptionZh": "中途退出活動、課程或比賽",
+      "descriptionEn": "Two runners dropped out of the race.",
+      "examples": [
+        {
+          "en": "Two runners dropped out of the race.",
+          "zh": "兩名跑手中途退出比賽。",
+          "highlight": "dropped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把某人或某物送到某處後離開",
+      "titleEn": "drop somebody/something off",
+      "formula": "drop somebody/something off",
+      "highlight": "drop somebody/something off",
+      "descriptionZh": "把某人或某物送到某處後離開",
+      "descriptionEn": "Could you drop me off at the station?",
+      "examples": [
+        {
+          "en": "Could you drop me off at the station?",
+          "zh": "你可以送我到車站,讓我在那裏下車嗎?",
+          "highlight": "drop me off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "令某人或自己惹上麻煩",
+      "titleEn": "drop somebody/yourself in it",
+      "formula": "drop somebody/yourself in it",
+      "highlight": "drop somebody/yourself in it",
+      "descriptionZh": "令某人或自己惹上麻煩",
+      "descriptionEn": "He dropped himself in it by lying.",
+      "examples": [
+        {
+          "en": "He dropped himself in it by lying.",
+          "zh": "他因為說謊而令自己惹上麻煩。",
+          "highlight": "dropped himself in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "順道把某物送到某人或某處",
+      "titleEn": "drop something round / around / by / in / into somewhere",
+      "formula": "drop something round / around / by / in / into somewhere",
+      "highlight": "drop something round / around / by / in / into somewhere",
+      "descriptionZh": "順道把某物送到某人或某處",
+      "descriptionEn": "I’ll drop the papers round later.",
+      "examples": [
+        {
+          "en": "I’ll drop the papers round later.",
+          "zh": "我稍後會順道把文件送過去。",
+          "highlight": "drop the papers round"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論短暫探訪和順道送物",
+      "titleEn": "Make quick visits and deliveries sound natural",
+      "zh": "DROP 片語動詞可以自然地表達順道探訪某人、為對方帶來物品,或把物品送到某處。",
+      "en": "DROP expressions let you talk naturally about visiting someone briefly, bringing them something or leaving an item at a place."
+    },
+    {
+      "titleZh": "清楚描述位置和進度變化",
+      "titleEn": "Describe position and progress clearly",
+      "zh": "drop back 可以描述名次下降;drop behind 可以表示進度落後;drop out 則表示在完成前中途退出。",
+      "en": "Drop back describes moving to a lower place in a race or ranking. Drop behind describes making less progress, while drop out means leaving before the end."
+    },
+    {
+      "titleZh": "談論入睡和陡峭地形",
+      "titleEn": "Talk about sleep and steep ground",
+      "zh": "drop off 可以自然地表示睡着;drop away 則可以描述地面或海床突然向下傾斜。",
+      "en": "Drop off is a natural way to describe falling asleep. Drop away can describe land or a seabed that suddenly becomes much lower."
+    },
+    {
+      "titleZh": "說明誰令別人惹上麻煩",
+      "titleEn": "Explain who caused trouble",
+      "zh": "drop somebody in it 可以清楚表示某人的說話或行為令另一個人惹上麻煩。",
+      "en": "Drop somebody in it clearly shows that one person’s words or actions have caused trouble for someone else."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論短暫探訪和順道送物",
+      "清楚描述位置和進度變化",
+      "談論入睡和陡峭地形",
+      "說明誰令別人惹上麻煩"
+    ],
+    "contextsEn": [
+      "Make quick visits and deliveries sound natural",
+      "Describe position and progress clearly",
+      "Talk about sleep and steep ground",
+      "Explain who caused trouble"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論短暫探訪和順道送物",
+        "titleEn": "Make quick visits and deliveries sound natural",
+        "zh": "DROP 片語動詞可以自然地表達順道探訪某人、為對方帶來物品,或把物品送到某處。",
+        "en": "DROP expressions let you talk naturally about visiting someone briefly, bringing them something or leaving an item at a place.",
+        "examples": [
+          {
+            "en": "I dropped round after work.",
+            "zh": "我下班後順道探訪。",
+            "highlight": "dropped round"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚描述位置和進度變化",
+        "titleEn": "Describe position and progress clearly",
+        "zh": "drop back 可以描述名次下降;drop behind 可以表示進度落後;drop out 則表示在完成前中途退出。",
+        "en": "Drop back describes moving to a lower place in a race or ranking. Drop behind describes making less progress, while drop out means leaving before the end.",
+        "examples": [
+          {
+            "en": "The seabed dropped away near the rocks.",
+            "zh": "岩石附近的海床突然向下傾斜。",
+            "highlight": "dropped away"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論入睡和陡峭地形",
+        "titleEn": "Talk about sleep and steep ground",
+        "zh": "drop off 可以自然地表示睡着;drop away 則可以描述地面或海床突然向下傾斜。",
+        "en": "Drop off is a natural way to describe falling asleep. Drop away can describe land or a seabed that suddenly becomes much lower.",
+        "examples": [
+          {
+            "en": "She dropped back to fourth place.",
+            "zh": "她退到第四名。",
+            "highlight": "dropped back"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明誰令別人惹上麻煩",
+        "titleEn": "Explain who caused trouble",
+        "zh": "drop somebody in it 可以清楚表示某人的說話或行為令另一個人惹上麻煩。",
+        "en": "Drop somebody in it clearly shows that one person’s words or actions have caused trouble for someone else.",
+        "examples": [
+          {
+            "en": "Our team dropped behind the others.",
+            "zh": "我們的隊伍落後於其他隊伍。",
+            "highlight": "dropped behind"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DROP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DROP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DROP 片語動詞。",
+      "en": "Read the whole sentence and choose the DROP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "以上表達都可以表示順道短暫探訪某人或某處。",
+      "titleEn": "These expressions can all describe a short informal visit: drop by drop in drop in on somebody drop round drop around drop over drop into a place.",
+      "zh": "以上表達都可以表示順道短暫探訪某人或某處。",
+      "en": "These expressions can all describe a short informal visit: drop by drop in drop in on somebody drop round drop around drop over drop into a place"
+    },
+    {
+      "titleZh": "請仔細分辨:drop off 表示睡着。drop somebody/something off 表示把某人或某物送到某處後離開。",
+      "titleEn": "Read carefully: drop off = fall asleep drop somebody/something off = take somebody or something to a place and leave them there.",
+      "zh": "請仔細分辨:drop off 表示睡着。drop somebody/something off 表示把某人或某物送到某處後離開。",
+      "en": "Read carefully: drop off = fall asleep drop somebody/something off = take somebody or something to a place and leave them there"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DROP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DROP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DROP 動詞片語句子改寫練習",
+    "titleEn": "DROP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DROP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DROP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-133-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Dad fell asleep on the sofa after dinner.",
+      "promptZh": "爸爸晚飯後在梳化上睡着了。",
+      "starter": "Dad",
+      "answer": "Dad dropped off on the sofa after dinner.",
+      "answerZh": "爸爸晚飯後在梳化上睡着了。",
+      "highlight": "dropped off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Lena visited us briefly after school.",
+      "promptZh": "莉娜放學後短暫探望了我們。",
+      "starter": "Lena",
+      "answer": "Lena dropped by after school for a short visit.",
+      "answerZh": "莉娜放學後順道短暫探望我們。",
+      "highlight": "dropped by",
+      "targetForm": "drop by",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-133-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Our class made less progress than the other class in the reading challenge.",
+      "promptZh": "在閱讀挑戰中,我們班的進度落後於另一班。",
+      "starter": "Our",
+      "answer": "Our class dropped behind the other class in the reading challenge.",
+      "answerZh": "在閱讀挑戰中,我們班落後於另一班。",
+      "highlight": "dropped behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-133-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I visited Ben briefly this morning and delivered the library book.",
+      "promptZh": "我今早短暫探望賓,並把圖書館的書送給他。",
+      "starter": "I",
+      "answer": "I dropped the library book round to Ben this morning.",
+      "answerZh": "我今早順道把圖書館的書送給賓。",
+      "highlight": "dropped",
+      "targetForm": "drop something round",
+      "targetMeaningZh": "順道把某物送給某人"
+    },
+    {
+      "id": "phrasal-verb-133-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The runner moved from first place to third place near the end.",
+      "promptZh": "那名跑手在接近終點時由第一名退到第三名。",
+      "starter": "The",
+      "answer": "The runner dropped back to third place near the end.",
+      "answerZh": "那名跑手在接近終點時退到第三名。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置或較低名次"
+    },
+    {
+      "id": "phrasal-verb-133-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Two players withdrew from the competition before it began.",
+      "promptZh": "兩名選手在比賽開始前退出了比賽。",
+      "starter": "Two",
+      "answer": "Two players dropped out of the competition before it began.",
+      "answerZh": "兩名選手在比賽開始前中途退出。",
+      "highlight": "dropped out of",
+      "targetForm": "drop out of something",
+      "targetMeaningZh": "中途退出活動或比賽"
+    },
+    {
+      "id": "phrasal-verb-133-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Could you take me to the station and leave me there?",
+      "promptZh": "你可以送我到車站,讓我在那裏下車嗎?",
+      "starter": "Could",
+      "answer": "Could you drop me off at the station?",
+      "answerZh": "你可以送我到車站,讓我在那裏下車嗎?",
+      "highlight": "drop",
+      "targetForm": "drop somebody off",
+      "targetMeaningZh": "把某人送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The ground fell steeply after the gate.",
+      "promptZh": "大門後的地面突然向下傾斜。",
+      "starter": "The",
+      "answer": "The ground dropped away sharply after the gate.",
+      "answerZh": "大門後的地面突然陡峭地向下傾斜。",
+      "highlight": "dropped away sharply",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Sam caused trouble for himself by telling both teachers different stories.",
+      "promptZh": "森向兩位老師說了不同的版本,令自己惹上麻煩。",
+      "starter": "Sam",
+      "answer": "Sam dropped himself in it by telling both teachers different stories.",
+      "answerZh": "森向兩位老師說了不同的版本,令自己惹上麻煩。",
+      "highlight": "dropped",
+      "targetForm": "drop yourself in it",
+      "targetMeaningZh": "令自己惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We made a short informal visit to Aunt May after lunch.",
+      "promptZh": "我們午飯後順道短暫探望梅姨。",
+      "starter": "We",
+      "answer": "We dropped in on Aunt May after lunch.",
+      "answerZh": "我們午飯後順道短暫探望梅姨。",
+      "highlight": "dropped in on",
+      "targetForm": "drop in on somebody",
+      "targetMeaningZh": "順道短暫探訪某人"
+    },
+    {
+      "id": "phrasal-verb-133-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The baby fell asleep during the car journey.",
+      "promptZh": "嬰兒在乘車途中睡着了。",
+      "starter": "The",
+      "answer": "The baby dropped off during the car journey.",
+      "answerZh": "嬰兒在乘車途中睡着了。",
+      "highlight": "dropped off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The driver took the boxes to the shop and left them there.",
+      "promptZh": "司機把箱子送到店舖後便離開了。",
+      "starter": "The",
+      "answer": "The driver dropped the boxes off at the shop.",
+      "answerZh": "司機把箱子送到店舖後便離開了。",
+      "highlight": "dropped",
+      "targetForm": "drop something off",
+      "targetMeaningZh": "把某物送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Kai moved to a lower position as the hill became steeper.",
+      "promptZh": "山路愈來愈斜時,啟退到較後位置。",
+      "starter": "Kai",
+      "answer": "Kai dropped back as the hill became steeper.",
+      "answerZh": "山路愈來愈斜時,啟退到較後位置。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置"
+    },
+    {
+      "id": "phrasal-verb-133-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "She made a brief visit to reception before class to deliver the form.",
+      "promptZh": "她上課前短暫到接待處,把表格送去。",
+      "starter": "She",
+      "answer": "She dropped the form in at reception before class.",
+      "answerZh": "她上課前順道把表格送到接待處。",
+      "highlight": "dropped the form in at",
+      "targetForm": "drop something in",
+      "targetMeaningZh": "順道把某物送到某處"
+    },
+    {
+      "id": "phrasal-verb-133-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ella has left the music course before completing it.",
+      "promptZh": "埃拉尚未完成音樂課程便已退出。",
+      "starter": "Ella",
+      "answer": "Ella has dropped out of the music course.",
+      "answerZh": "埃拉已中途退出音樂課程。",
+      "highlight": "dropped out of",
+      "targetForm": "drop out of something",
+      "targetMeaningZh": "中途退出課程或活動"
+    },
+    {
+      "id": "phrasal-verb-133-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The land is falling steeply beside the narrow road.",
+      "promptZh": "狹窄道路旁的地面正陡峭地向下傾斜。",
+      "starter": "The",
+      "answer": "The land is dropping away beside the narrow road.",
+      "answerZh": "狹窄道路旁的地面正陡峭地向下傾斜。",
+      "highlight": "dropping away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Will you visit me briefly after work?",
+      "promptZh": "你下班後會順道短暫探望我嗎?",
+      "starter": "Will",
+      "answer": "Will you drop round after work?",
+      "answerZh": "你下班後會順道短暫探望我嗎?",
+      "highlight": "drop round",
+      "targetForm": "drop round",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-133-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ben is making less progress than his classmates in maths this term.",
+      "promptZh": "賓今個學期的數學進度落後於同學。",
+      "starter": "Ben",
+      "answer": "Ben is dropping behind in maths this term.",
+      "answerZh": "賓今個學期的數學進度正逐漸落後。",
+      "highlight": "dropping behind",
+      "targetForm": "drop behind",
+      "targetMeaningZh": "進度落後"
+    },
+    {
+      "id": "phrasal-verb-133-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The school bus will take us to the museum and leave us outside.",
+      "promptZh": "校巴會把我們送到博物館外,讓我們在那裏下車。",
+      "starter": "The",
+      "answer": "The school bus will drop us off outside the museum.",
+      "answerZh": "校巴會把我們送到博物館外,讓我們在那裏下車。",
+      "highlight": "drop",
+      "targetForm": "drop somebody off",
+      "targetMeaningZh": "把某人送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Do not cause trouble for your sister just to protect yourself.",
+      "promptZh": "不要只為保護自己而令妹妹惹上麻煩。",
+      "starter": "Do",
+      "answer": "Do not drop your sister in it just to protect yourself.",
+      "answerZh": "不要只為保護自己而令妹妹惹上麻煩。",
+      "highlight": "drop",
+      "targetForm": "drop somebody in it",
+      "targetMeaningZh": "令某人惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Leo often falls asleep while reading in bed.",
+      "promptZh": "里奧經常在牀上閱讀時睡着。",
+      "starter": "Leo",
+      "answer": "Leo often drops off while reading in bed.",
+      "answerZh": "里奧經常在牀上閱讀時睡着。",
+      "highlight": "drops off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The blue car has moved from second to fifth place.",
+      "promptZh": "藍色汽車已由第二名退到第五名。",
+      "starter": "The",
+      "answer": "The blue car has dropped back from second to fifth place.",
+      "answerZh": "藍色汽車已由第二名退到第五名。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置或較低名次"
+    },
+    {
+      "id": "phrasal-verb-133-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why did Arun leave the training course before completing it?",
+      "promptZh": "阿倫為何在完成訓練課程前退出?",
+      "starter": "Why",
+      "answer": "Why did Arun drop out of the training course?",
+      "answerZh": "阿倫為何中途退出訓練課程?",
+      "highlight": "drop out of",
+      "targetForm": "drop out of something",
+      "targetMeaningZh": "中途退出課程或活動"
+    },
+    {
+      "id": "phrasal-verb-133-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "I will make a brief visit later today and bring the keys.",
+      "promptZh": "我今天稍後會短暫到訪,並把鎖匙帶來。",
+      "starter": "I",
+      "answer": "I will drop the keys by later today.",
+      "answerZh": "我今天稍後會順道把鎖匙送過來。",
+      "highlight": "drop the keys by",
+      "targetForm": "drop something by",
+      "targetMeaningZh": "順道把某物送給某人"
+    },
+    {
+      "id": "phrasal-verb-133-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Nora is making a short visit to the café on her way home.",
+      "promptZh": "諾拉回家途中會順道短暫到訪那間咖啡店。",
+      "starter": "Nora",
+      "answer": "Nora is dropping into the café on her way home.",
+      "answerZh": "諾拉回家途中會順道短暫到訪那間咖啡店。",
+      "highlight": "dropping into",
+      "targetForm": "drop into somewhere",
+      "targetMeaningZh": "順道短暫到訪某處"
+    },
+    {
+      "id": "phrasal-verb-133-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Beyond the rocks, the seabed had fallen suddenly.",
+      "promptZh": "岩石以外的海床曾突然向下傾斜。",
+      "starter": "Beyond",
+      "answer": "Beyond the rocks, the seabed had dropped away suddenly.",
+      "answerZh": "岩石以外的海床曾突然向下傾斜。",
+      "highlight": "dropped away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The project is now later than planned.",
+      "promptZh": "項目進度現已落後於原定計劃。",
+      "starter": "The",
+      "answer": "The project has dropped behind schedule.",
+      "answerZh": "項目進度已落後於原定計劃。",
+      "highlight": "has dropped behind schedule",
+      "targetForm": "drop behind schedule",
+      "targetMeaningZh": "進度落後"
+    },
+    {
+      "id": "phrasal-verb-133-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "One careless message could cause trouble for all of us.",
+      "promptZh": "一則粗心的訊息便可能令我們所有人惹上麻煩。",
+      "starter": "One",
+      "answer": "One careless message could drop us all in it.",
+      "answerZh": "一則粗心的訊息便可能令我們所有人惹上麻煩。",
+      "highlight": "drop us",
+      "targetForm": "drop somebody in it",
+      "targetMeaningZh": "令某人惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The bags are heavy, so I will take them to your flat and leave them there.",
+      "promptZh": "這些袋很重,所以我會把它們送到你的住所。",
+      "starter": "The",
+      "answer": "The bags are heavy, so I will drop them off at your flat.",
+      "answerZh": "這些袋很重,所以我會把它們送到你的住所。",
+      "highlight": "drop",
+      "targetForm": "drop something off",
+      "targetMeaningZh": "把某物送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We missed two lessons, so the rest of the class has made more progress than us.",
+      "promptZh": "我們缺了兩堂課,所以其他同學的進度比我們快。",
+      "starter": "We",
+      "answer": "We missed two lessons, so we have dropped behind the rest of the class.",
+      "answerZh": "我們缺了兩堂課,所以進度已落後於其他同學。",
+      "highlight": "we have dropped behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某組人"
+    },
+    {
+      "id": "phrasal-verb-133-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "As we walked closer to the cliff, the ground fell steeply beneath us.",
+      "promptZh": "我們愈走近懸崖,腳下的地面便愈陡峭地向下傾斜。",
+      "starter": "As",
+      "answer": "As we walked closer to the cliff, the ground dropped away beneath us.",
+      "answerZh": "我們愈走近懸崖,腳下的地面便陡峭地向下傾斜。",
+      "highlight": "dropped away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The office needs the signed letter today, so please make a brief visit and deliver it before five.",
+      "promptZh": "辦公室今天需要那封已簽署的信,請在五時前短暫到訪並把它送到。",
+      "starter": "The",
+      "answer": "The office needs the signed letter today, so please drop it in before five.",
+      "answerZh": "辦公室今天需要那封已簽署的信,請在五時前順道送到。",
+      "highlight": "drop",
+      "targetForm": "drop something in",
+      "targetMeaningZh": "順道把某物送到某處"
+    },
+    {
+      "id": "phrasal-verb-133-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "I was tired and fell asleep before the film ended.",
+      "promptZh": "我很疲倦,在電影結束前便睡着了。",
+      "starter": "I",
+      "answer": "I was tired and dropped off before the film ended.",
+      "answerZh": "我很疲倦,在電影結束前便睡着了。",
+      "highlight": "dropped off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Grace was nearby, so she visited for ten minutes.",
+      "promptZh": "格蕾絲當時就在附近,所以順道探訪了十分鐘。",
+      "starter": "Grace",
+      "answer": "Grace was nearby, so she dropped in for ten minutes.",
+      "answerZh": "格蕾絲當時就在附近,所以順道探訪了十分鐘。",
+      "highlight": "dropped in",
+      "targetForm": "drop in",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-133-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The front group moved faster, and I moved towards the last few runners.",
+      "promptZh": "前面的跑手加快了速度,我退到接近最後幾名的位置。",
+      "starter": "The",
+      "answer": "The front group moved faster, and I dropped back towards the last few runners.",
+      "answerZh": "前面的跑手加快了速度,我退到接近最後幾名的位置。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置"
+    },
+    {
+      "id": "phrasal-verb-133-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Jordan was enjoying the class, but he had to leave before finishing when he moved away.",
+      "promptZh": "佐敦很喜歡這個課程,但搬走時不得不在完成前退出。",
+      "starter": "Jordan",
+      "answer": "Jordan was enjoying the class, but he had to drop out when he moved away.",
+      "answerZh": "佐敦很喜歡這個課程,但搬走時不得不中途退出。",
+      "highlight": "drop out",
+      "targetForm": "drop out",
+      "targetMeaningZh": "中途退出"
+    },
+    {
+      "id": "phrasal-verb-133-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "These books belong to the school; could you take them there and leave them tomorrow?",
+      "promptZh": "這些書屬於學校;你明天可以把它們送回那裏嗎?",
+      "starter": "These",
+      "answer": "These books belong to the school; could you drop them off there tomorrow?",
+      "answerZh": "這些書屬於學校;你明天可以把它們送回學校嗎?",
+      "highlight": "drop",
+      "targetForm": "drop something off",
+      "targetMeaningZh": "把某物送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Rita caused trouble for me when she told Dad I had broken the lamp.",
+      "promptZh": "麗塔告訴爸爸我打破了燈,令我惹上麻煩。",
+      "starter": "Rita",
+      "answer": "Rita dropped me in it when she told Dad I had broken the lamp.",
+      "answerZh": "麗塔告訴爸爸我打破了燈,令我惹上麻煩。",
+      "highlight": "dropped",
+      "targetForm": "drop somebody in it",
+      "targetMeaningZh": "令某人惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "From the window, we could see the hillside falling steeply towards the sea.",
+      "promptZh": "我們從窗外看見山坡陡峭地向海面傾斜。",
+      "starter": "From",
+      "answer": "From the window, we could see the hillside dropping away towards the sea.",
+      "answerZh": "我們從窗外看見山坡陡峭地向海面傾斜。",
+      "highlight": "dropping away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The room was warm, and several students were falling asleep.",
+      "promptZh": "房間很暖,幾名學生正逐漸睡着。",
+      "starter": "The",
+      "answer": "The room was warm, and several students were dropping off.",
+      "answerZh": "房間很暖,幾名學生正逐漸睡着。",
+      "highlight": "dropping off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "They had finished the posters, so Jo made a brief visit to the club leader and delivered them.",
+      "promptZh": "他們完成了海報,所以喬短暫探訪社團負責人,並把海報送去。",
+      "starter": "They",
+      "answer": "They had finished the posters, so Jo dropped them round to the club leader.",
+      "answerZh": "他們完成了海報,所以喬順道把海報送給社團負責人。",
+      "highlight": "dropped them round",
+      "targetForm": "drop something round",
+      "targetMeaningZh": "順道把某物送給某人"
+    },
+    {
+      "id": "phrasal-verb-133-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "After stopping to tie his shoe, Omar moved from second to sixth place.",
+      "promptZh": "奧馬停下來綁鞋帶後,由第二名退到第六名。",
+      "starter": "After",
+      "answer": "After stopping to tie his shoe, Omar dropped back from second to sixth place.",
+      "answerZh": "奧馬停下來綁鞋帶後,由第二名退到第六名。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置或較低名次"
+    },
+    {
+      "id": "phrasal-verb-133-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "If you blame Priya, you will cause trouble for her over something she did not do.",
+      "promptZh": "如果你責怪普里雅,便會令她因沒有做過的事惹上麻煩。",
+      "starter": "If",
+      "answer": "If you blame Priya, you will drop her in it for something she did not do.",
+      "answerZh": "如果你責怪普里雅,便會令她因沒有做過的事惹上麻煩。",
+      "highlight": "drop her in it",
+      "targetForm": "drop somebody in it",
+      "targetMeaningZh": "令某人惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The cyclist was still in the race, but she moved to a lower position when the road climbed.",
+      "promptZh": "那名單車手仍在比賽中,但道路上斜時,她的名次下降了。",
+      "starter": "The",
+      "answer": "The cyclist was still in the race, but she dropped back when the road climbed.",
+      "answerZh": "那名單車手仍在比賽中,但道路上斜時,她退到較後位置。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置"
+    },
+    {
+      "id": "phrasal-verb-133-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The club lost three members when they left halfway through the project.",
+      "promptZh": "三名成員在項目進行到一半時退出,社團因此失去了他們。",
+      "starter": "The",
+      "answer": "The club lost three members when they dropped out halfway through the project.",
+      "answerZh": "三名成員在項目進行到一半時退出,社團因此失去了他們。",
+      "highlight": "dropped out",
+      "targetForm": "drop out",
+      "targetMeaningZh": "中途退出"
+    },
+    {
+      "id": "phrasal-verb-133-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "I was passing your street, so I made a short visit to say hello.",
+      "promptZh": "我經過你的街道時,順道短暫探望你並打個招呼。",
+      "starter": "I",
+      "answer": "I was passing your street, so I dropped around to say hello.",
+      "answerZh": "我經過你的街道時,順道短暫探望你並打個招呼。",
+      "highlight": "dropped around",
+      "targetForm": "drop around",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-133-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Without regular practice, the team may make less progress than its main rivals.",
+      "promptZh": "如果沒有定期練習,球隊的進度可能會落後於主要對手。",
+      "starter": "Without",
+      "answer": "Without regular practice, the team may drop behind its main rivals.",
+      "answerZh": "如果沒有定期練習,球隊的進度可能會落後於主要對手。",
+      "highlight": "drop behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某組人"
+    },
+    {
+      "id": "phrasal-verb-133-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The beach looked safe, but the seabed fell steeply only a few steps from the shore.",
+      "promptZh": "海灘看似安全,但離岸只有幾步,海床便突然向下傾斜。",
+      "starter": "The",
+      "answer": "The beach looked safe, but the seabed dropped away only a few steps from the shore.",
+      "answerZh": "海灘看似安全,但離岸只有幾步,海床便突然向下傾斜。",
+      "highlight": "dropped away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The shuttle left our bags at the hotel before taking us to the airport.",
+      "promptZh": "接駁車先把我們的行李送到酒店,然後再載我們到機場。",
+      "starter": "The",
+      "answer": "The shuttle dropped our bags off at the hotel before taking us to the airport.",
+      "answerZh": "接駁車先把我們的行李送到酒店,然後再載我們到機場。",
+      "highlight": "dropped",
+      "targetForm": "drop something off",
+      "targetMeaningZh": "把某物送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "By promising everyone a place on the team, the coach caused trouble for herself.",
+      "promptZh": "教練答應每個人都能入隊,令自己惹上麻煩。",
+      "starter": "By",
+      "answer": "By promising everyone a place on the team, the coach dropped herself in it.",
+      "answerZh": "教練答應每個人都能入隊,令自己惹上麻煩。",
+      "highlight": "dropped",
+      "targetForm": "drop yourself in it",
+      "targetMeaningZh": "令自己惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The talk was interesting, but the man beside me kept falling asleep.",
+      "promptZh": "講座很有趣,但我旁邊的男子卻不斷睡着。",
+      "starter": "The",
+      "answer": "The talk was interesting, but the man beside me kept dropping off.",
+      "answerZh": "講座很有趣,但我旁邊的男子卻不斷睡着。",
+      "highlight": "dropping off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The other teams finished three tasks, but our team finished only one.",
+      "promptZh": "其他隊伍完成了三項任務,但我們隊只完成了一項。",
+      "starter": "Our",
+      "answer": "Our team dropped behind the other teams after finishing only one task.",
+      "answerZh": "我們隊只完成了一項任務,因此落後於其他隊伍。",
+      "highlight": "Our team dropped behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某組人"
+    },
+    {
+      "id": "phrasal-verb-133-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The teacher asked me to make a brief visit to the school office and deliver the permission slip.",
+      "promptZh": "老師叫我短暫到校務處,把家長同意書送去。",
+      "starter": "The",
+      "answer": "The teacher asked me to drop the permission slip into the school office.",
+      "answerZh": "老師叫我順道把家長同意書送到校務處。",
+      "highlight": "drop the permission slip into",
+      "targetForm": "drop something into somewhere",
+      "targetMeaningZh": "順道把某物送到某處"
+    },
+    {
+      "id": "phrasal-verb-133-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Why not make a short informal visit for tea on Sunday?",
+      "promptZh": "何不在星期日順道過來喝茶?",
+      "starter": "Why",
+      "answer": "Why not drop over for tea on Sunday?",
+      "answerZh": "何不在星期日順道過來喝茶?",
+      "highlight": "drop over",
+      "targetForm": "drop over",
+      "targetMeaningZh": "順道短暫探訪"
+    },
+    {
+      "id": "phrasal-verb-133-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "After leading the race, the horse moved to fifth place.",
+      "promptZh": "那匹馬領先一段時間後退到第五名。",
+      "starter": "After",
+      "answer": "After leading the race, the horse dropped back to fifth place.",
+      "answerZh": "那匹馬領先一段時間後退到第五名。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置或較低名次"
+    },
+    {
+      "id": "phrasal-verb-133-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The course became too expensive, so two students left before completing it.",
+      "promptZh": "課程變得太昂貴,所以兩名學生在完成前退出了。",
+      "starter": "The",
+      "answer": "The course became too expensive, so two students dropped out.",
+      "answerZh": "課程變得太昂貴,所以兩名學生中途退出了。",
+      "highlight": "dropped out",
+      "targetForm": "drop out",
+      "targetMeaningZh": "中途退出"
+    },
+    {
+      "id": "phrasal-verb-133-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before you come home, could you briefly visit the sports centre and deliver the forms?",
+      "promptZh": "你回家前,可以短暫到訪體育中心並把表格送去嗎?",
+      "starter": "Before",
+      "answer": "Before you come home, could you drop the forms round to the sports centre?",
+      "answerZh": "你回家前,可以順道把表格送到體育中心嗎?",
+      "highlight": "drop the forms round to",
+      "targetForm": "drop something round",
+      "targetMeaningZh": "順道把某物送到某處"
+    },
+    {
+      "id": "phrasal-verb-133-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Although Nora liked the course, she left before finishing when her work hours changed.",
+      "promptZh": "雖然諾拉喜歡課程,但工作時間改變後,她在完成前退出了。",
+      "starter": "Although",
+      "answer": "Although Nora liked the course, she dropped out when her work hours changed.",
+      "answerZh": "雖然諾拉喜歡課程,但工作時間改變後,她中途退出了。",
+      "highlight": "dropped out",
+      "targetForm": "drop out",
+      "targetMeaningZh": "中途退出"
+    },
+    {
+      "id": "phrasal-verb-133-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The shop made less progress than its competitors because it did not sell online.",
+      "promptZh": "這間店舖沒有在網上銷售,因此發展落後於競爭對手。",
+      "starter": "The",
+      "answer": "The shop dropped behind its competitors because it did not sell online.",
+      "answerZh": "這間店舖沒有在網上銷售,因此發展落後於競爭對手。",
+      "highlight": "dropped behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-133-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "By the time the train reached Brighton, half the children had fallen asleep.",
+      "promptZh": "列車抵達白禮頓時,一半孩子已經睡着。",
+      "starter": "By",
+      "answer": "By the time the train reached Brighton, half the children had dropped off.",
+      "answerZh": "列車抵達白禮頓時,一半孩子已經睡着。",
+      "highlight": "dropped off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    },
+    {
+      "id": "phrasal-verb-133-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The coach took us to a place near the stadium and left us there because the main road was closed.",
+      "promptZh": "由於主要道路封閉,旅遊巴把我們送到體育場附近,讓我們在那裏下車。",
+      "starter": "The",
+      "answer": "The coach dropped us off near the stadium because the main road was closed.",
+      "answerZh": "由於主要道路封閉,旅遊巴把我們送到體育場附近,讓我們在那裏下車。",
+      "highlight": "dropped",
+      "targetForm": "drop somebody off",
+      "targetMeaningZh": "把某人送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We were worried about Eva, so we made a short visit to her after work.",
+      "promptZh": "我們擔心伊娃,所以下班後順道短暫探望她。",
+      "starter": "We",
+      "answer": "We were worried about Eva, so we dropped in on her after work.",
+      "answerZh": "我們擔心伊娃,所以下班後順道短暫探望她。",
+      "highlight": "dropped in on",
+      "targetForm": "drop in on somebody",
+      "targetMeaningZh": "順道短暫探訪某人"
+    },
+    {
+      "id": "phrasal-verb-133-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The water looked shallow, but the seabed fell steeply just beyond the rocks.",
+      "promptZh": "海水看似很淺,但越過岩石後,海床便突然向下傾斜。",
+      "starter": "The",
+      "answer": "The water looked shallow, but the seabed dropped away just beyond the rocks.",
+      "answerZh": "海水看似很淺,但越過岩石後,海床便突然向下傾斜。",
+      "highlight": "dropped away",
+      "targetForm": "drop away",
+      "targetMeaningZh": "突然向下傾斜"
+    },
+    {
+      "id": "phrasal-verb-133-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "By hiding the mistake, the manager caused trouble for the whole team.",
+      "promptZh": "經理隱瞞錯誤,令整個團隊惹上麻煩。",
+      "starter": "By",
+      "answer": "By hiding the mistake, the manager dropped the whole team in it.",
+      "answerZh": "經理隱瞞錯誤,令整個團隊惹上麻煩。",
+      "highlight": "dropped",
+      "targetForm": "drop somebody in it",
+      "targetMeaningZh": "令某人惹上麻煩"
+    },
+    {
+      "id": "phrasal-verb-133-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "If you leave the competition now, the group may not have enough players.",
+      "promptZh": "如果你現在退出比賽,小組可能沒有足夠選手。",
+      "starter": "If",
+      "answer": "If you drop out now, the group may not have enough players.",
+      "answerZh": "如果你現在退出比賽,小組可能沒有足夠選手。",
+      "highlight": "drop out",
+      "targetForm": "drop out",
+      "targetMeaningZh": "中途退出"
+    },
+    {
+      "id": "phrasal-verb-133-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "I can visit you briefly later this morning and bring the medicine.",
+      "promptZh": "我今天早上稍後可以短暫探望你,並把藥物帶來。",
+      "starter": "I",
+      "answer": "I can drop the medicine around later this morning.",
+      "answerZh": "我今天早上稍後可以順道把藥物送給你。",
+      "highlight": "drop the medicine around",
+      "targetForm": "drop something around",
+      "targetMeaningZh": "順道把某物送給某人"
+    },
+    {
+      "id": "phrasal-verb-133-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The old computer moved to last place in the speed test.",
+      "promptZh": "舊電腦在速度測試中退到最後一名。",
+      "starter": "The",
+      "answer": "The old computer dropped back to last place in the speed test.",
+      "answerZh": "舊電腦在速度測試中退到最後一名。",
+      "highlight": "dropped back",
+      "targetForm": "drop back",
+      "targetMeaningZh": "退到較後位置或較低名次"
+    },
+    {
+      "id": "phrasal-verb-133-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "After missing several practices, Kim made less progress than the other dancers.",
+      "promptZh": "金缺席幾次練習後,進度落後於其他舞蹈員。",
+      "starter": "After",
+      "answer": "After missing several practices, Kim dropped behind the other dancers.",
+      "answerZh": "金缺席幾次練習後,進度落後於其他舞蹈員。",
+      "highlight": "dropped behind",
+      "targetForm": "drop behind somebody/something",
+      "targetMeaningZh": "落後於某人或某組人"
+    },
+    {
+      "id": "phrasal-verb-133-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The van driver took the food boxes to the hall and left them there before the guests arrived.",
+      "promptZh": "貨車司機在賓客到達前把食物箱送到禮堂。",
+      "starter": "The",
+      "answer": "The van driver dropped the food boxes off at the hall before the guests arrived.",
+      "answerZh": "貨車司機在賓客到達前把食物箱送到禮堂。",
+      "highlight": "dropped",
+      "targetForm": "drop something off",
+      "targetMeaningZh": "把某物送到某處後離開"
+    },
+    {
+      "id": "phrasal-verb-133-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "A few minutes after the lights went down, the tired child fell asleep.",
+      "promptZh": "燈光暗下幾分鐘後,那個疲倦的孩子便睡着了。",
+      "starter": "A",
+      "answer": "A few minutes after the lights went down, the tired child dropped off.",
+      "answerZh": "燈光暗下幾分鐘後,那個疲倦的孩子便睡着了。",
+      "highlight": "dropped off",
+      "targetForm": "drop off",
+      "targetMeaningZh": "睡着"
+    }
+  ]
+}

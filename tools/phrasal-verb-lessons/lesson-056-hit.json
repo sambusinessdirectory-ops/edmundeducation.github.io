@@ -1,0 +1,1488 @@
+{
+  "id": "phrasal-verb-56",
+  "order": 56,
+  "slug": "hit",
+  "version": "1",
+  "title": "HIT 動詞片語",
+  "titleEn": "Hit",
+  "titleZh": "HIT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 55 - HIT.pdf",
+    "sourceNumber": 55,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 HIT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to HIT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "HIT",
+      "highlight": "HIT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The actor hit back at the unfair comments.",
+      "zh": "那名演員對不公平的評論作出強硬反擊。",
+      "highlight": "hit back at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Zara and Eva hit it off straight away.",
+      "zh": "Zara 和 Eva 一見面便十分投契。",
+      "highlight": "hit it off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Someone at the dance was hitting on him.",
+      "zh": "舞會上有人正在向他調情。",
+      "highlight": "hitting on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "對批評或攻擊作出強硬反擊或回應；初次見面便相處投契;一見如故；主要見於北美非正式英語,表示向某人調情或表示愛慕興趣；突然或偶然想到一個主意、方法或答案；突然揮打或試圖打某人或某物；主要見於北美非正式英語,表示向某人開口要錢或借錢",
+    "en": "hit back (at somebody/something); hit it off (with somebody); hit on somebody; hit on something / hit upon something; hit out (at somebody/something); hit somebody up for something / hit somebody for something",
+    "naturalZh": [
+      "對批評或攻擊作出強硬反擊或回應",
+      "初次見面便相處投契;一見如故",
+      "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+      "突然或偶然想到一個主意、方法或答案",
+      "突然揮打或試圖打某人或某物",
+      "主要見於北美非正式英語,表示向某人開口要錢或借錢"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "hit back (at somebody/something)",
+      "titleZh": "對批評或攻擊作出強硬反擊或回應",
+      "titleEn": "hit back (at somebody/something)",
+      "descriptionZh": "對批評或攻擊作出強硬反擊或回應",
+      "descriptionEn": "The actor hit back at the unfair comments.",
+      "examples": [
+        {
+          "en": "The actor hit back at the unfair comments.",
+          "zh": "那名演員對不公平的評論作出強硬反擊。",
+          "highlight": "hit back at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hit it off (with somebody)",
+      "titleZh": "初次見面便相處投契;一見如故",
+      "titleEn": "hit it off (with somebody)",
+      "descriptionZh": "初次見面便相處投契;一見如故",
+      "descriptionEn": "Zara and Eva hit it off straight away.",
+      "examples": [
+        {
+          "en": "Zara and Eva hit it off straight away.",
+          "zh": "Zara 和 Eva 一見面便十分投契。",
+          "highlight": "hit it off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hit on somebody",
+      "titleZh": "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+      "titleEn": "hit on somebody",
+      "descriptionZh": "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+      "descriptionEn": "Someone at the dance was hitting on him.",
+      "examples": [
+        {
+          "en": "Someone at the dance was hitting on him.",
+          "zh": "舞會上有人正在向他調情。",
+          "highlight": "hitting on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "hit on something / hit upon something",
+      "titleZh": "突然或偶然想到一個主意、方法或答案",
+      "titleEn": "hit on something / hit upon something",
+      "descriptionZh": "突然或偶然想到一個主意、方法或答案",
+      "descriptionEn": "The class hit on a simple solution.",
+      "examples": [
+        {
+          "en": "The class hit on a simple solution.",
+          "zh": "全班突然想到一個簡單的解決方法。",
+          "highlight": "hit on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hit out (at somebody/something)",
+      "titleZh": "突然揮打或試圖打某人或某物",
+      "titleEn": "hit out (at somebody/something)",
+      "descriptionZh": "突然揮打或試圖打某人或某物",
+      "descriptionEn": "He hit out wildly when they tried to hold him.",
+      "examples": [
+        {
+          "en": "He hit out wildly when they tried to hold him.",
+          "zh": "他們試圖按住他時,他胡亂揮打。",
+          "highlight": "hit out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "hit somebody up for something / hit somebody for something",
+      "titleZh": "主要見於北美非正式英語,表示向某人開口要錢或借錢",
+      "titleEn": "hit somebody up for something / hit somebody for something",
+      "descriptionZh": "主要見於北美非正式英語,表示向某人開口要錢或借錢",
+      "descriptionEn": "She hit her brother up for some cash.",
+      "examples": [
+        {
+          "en": "She hit her brother up for some cash.",
+          "zh": "她向哥哥開口要了一些現金。",
+          "highlight": "hit her brother up for"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "HIT 片語動詞的實際用途",
+    "labelEn": "HIT Phrasal Verbs in Use",
+    "summaryZh": "hit back 表示某人受到批評或攻擊後作出強硬回應;hit out 則可以描述某人突然試圖揮打另一個人。；hit it off 表示兩人很快便相處投契;hit on somebody 則表示一個人向另一個人調情或表示愛慕之意。；當某人突然或意外地想到一個主意、答案或解決方法時,可以使用 hit on 或 hit upon。；hit somebody up for something 和 hit somebody for something 常見於談論向別人開口要錢或借錢的非正式對話。",
+    "summaryEn": "Hit back shows that someone responds strongly after being criticised or attacked. Hit out can describe someone suddenly trying to strike another person. Hit it off means that two people quickly become friendly. Hit on somebody means that one person shows romantic interest in another. Hit on and hit upon are useful when someone suddenly or unexpectedly thinks of an idea, answer or solution. Hit somebody up for something and hit somebody for something often appear in informal conversations about asking someone for money.",
+    "contextsZh": [
+      "清楚分辨「反擊回應」和「動手攻擊」",
+      "描述兩種截然不同的人際互動",
+      "描述突然想到主意的一刻",
+      "理解非正式英語中的金錢請求"
+    ],
+    "contextsEn": [
+      "Show the difference between answering and physically attacking",
+      "Describe two very different kinds of personal connection",
+      "Describe the moment when an idea appears",
+      "Understand informal requests for money"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 HIT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the HIT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "hit back (at somebody/something)",
+    "fixedHighlight": "hit back (at somebody/something)",
+    "fixedZh": "閱讀整句,選出意思相同的 HIT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the HIT expression that gives the same meaning.",
+    "correct": "hit back at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；hit on somebody 和 hit on/upon something 的意思截然不同:hit on somebody = 向某人調情或表示愛慕之意hit on/upon something = 突然或偶然想到一個主意；hit back 表示受到批評或攻擊後作出反擊。本練習中的 hit out 則表示突然試圖揮打某人或某物。",
+    "variableEn": "Keep the same people, things, time and meaning. hit on somebody and hit on/upon something have very different meanings: hit on somebody = show romantic interest hit on/upon something = suddenly think of an idea hit back describes a response to criticism or an attack. In this exercise, hit out describes suddenly trying to hit someone or something physically.",
+    "variableItemsZh": [
+      "hit back (at somebody/something)",
+      "hit it off (with somebody)",
+      "hit on somebody",
+      "hit on something / hit upon something",
+      "hit out (at somebody/something)",
+      "hit somebody up for something / hit somebody for something"
+    ],
+    "variableItemsEn": [
+      "hit back (at somebody/something)",
+      "hit it off (with somebody)",
+      "hit on somebody",
+      "hit on something / hit upon something",
+      "hit out (at somebody/something)",
+      "hit somebody up for something / hit somebody for something"
+    ],
+    "forms": [
+      {
+        "formZh": "對批評或攻擊作出強硬反擊或回應",
+        "formEn": "hit back (at somebody/something)",
+        "exampleZh": "那名演員對不公平的評論作出強硬反擊。",
+        "exampleEn": "The actor hit back at the unfair comments.",
+        "highlight": "hit back at"
+      },
+      {
+        "formZh": "初次見面便相處投契;一見如故",
+        "formEn": "hit it off (with somebody)",
+        "exampleZh": "Zara 和 Eva 一見面便十分投契。",
+        "exampleEn": "Zara and Eva hit it off straight away.",
+        "highlight": "hit it off"
+      },
+      {
+        "formZh": "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+        "formEn": "hit on somebody",
+        "exampleZh": "舞會上有人正在向他調情。",
+        "exampleEn": "Someone at the dance was hitting on him.",
+        "highlight": "hitting on"
+      },
+      {
+        "formZh": "突然或偶然想到一個主意、方法或答案",
+        "formEn": "hit on something / hit upon something",
+        "exampleZh": "全班突然想到一個簡單的解決方法。",
+        "exampleEn": "The class hit on a simple solution.",
+        "highlight": "hit on"
+      },
+      {
+        "formZh": "突然揮打或試圖打某人或某物",
+        "formEn": "hit out (at somebody/something)",
+        "exampleZh": "他們試圖按住他時,他胡亂揮打。",
+        "exampleEn": "He hit out wildly when they tried to hold him.",
+        "highlight": "hit out"
+      },
+      {
+        "formZh": "主要見於北美非正式英語,表示向某人開口要錢或借錢",
+        "formEn": "hit somebody up for something / hit somebody for something",
+        "exampleZh": "她向哥哥開口要了一些現金。",
+        "exampleEn": "She hit her brother up for some cash.",
+        "highlight": "hit her brother up for"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "對批評或攻擊作出強硬反擊或回應",
+      "titleEn": "hit back (at somebody/something)",
+      "formula": "hit back (at somebody/something)",
+      "highlight": "hit back (at somebody/something)",
+      "descriptionZh": "對批評或攻擊作出強硬反擊或回應",
+      "descriptionEn": "The actor hit back at the unfair comments.",
+      "examples": [
+        {
+          "en": "The actor hit back at the unfair comments.",
+          "zh": "那名演員對不公平的評論作出強硬反擊。",
+          "highlight": "hit back at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "初次見面便相處投契;一見如故",
+      "titleEn": "hit it off (with somebody)",
+      "formula": "hit it off (with somebody)",
+      "highlight": "hit it off (with somebody)",
+      "descriptionZh": "初次見面便相處投契;一見如故",
+      "descriptionEn": "Zara and Eva hit it off straight away.",
+      "examples": [
+        {
+          "en": "Zara and Eva hit it off straight away.",
+          "zh": "Zara 和 Eva 一見面便十分投契。",
+          "highlight": "hit it off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+      "titleEn": "hit on somebody",
+      "formula": "hit on somebody",
+      "highlight": "hit on somebody",
+      "descriptionZh": "主要見於北美非正式英語,表示向某人調情或表示愛慕興趣",
+      "descriptionEn": "Someone at the dance was hitting on him.",
+      "examples": [
+        {
+          "en": "Someone at the dance was hitting on him.",
+          "zh": "舞會上有人正在向他調情。",
+          "highlight": "hitting on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "突然或偶然想到一個主意、方法或答案",
+      "titleEn": "hit on something / hit upon something",
+      "formula": "hit on something / hit upon something",
+      "highlight": "hit on something / hit upon something",
+      "descriptionZh": "突然或偶然想到一個主意、方法或答案",
+      "descriptionEn": "The class hit on a simple solution.",
+      "examples": [
+        {
+          "en": "The class hit on a simple solution.",
+          "zh": "全班突然想到一個簡單的解決方法。",
+          "highlight": "hit on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然揮打或試圖打某人或某物",
+      "titleEn": "hit out (at somebody/something)",
+      "formula": "hit out (at somebody/something)",
+      "highlight": "hit out (at somebody/something)",
+      "descriptionZh": "突然揮打或試圖打某人或某物",
+      "descriptionEn": "He hit out wildly when they tried to hold him.",
+      "examples": [
+        {
+          "en": "He hit out wildly when they tried to hold him.",
+          "zh": "他們試圖按住他時,他胡亂揮打。",
+          "highlight": "hit out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "主要見於北美非正式英語,表示向某人開口要錢或借錢",
+      "titleEn": "hit somebody up for something / hit somebody for something",
+      "formula": "hit somebody up for something / hit somebody for something",
+      "highlight": "hit somebody up for something / hit somebody for something",
+      "descriptionZh": "主要見於北美非正式英語,表示向某人開口要錢或借錢",
+      "descriptionEn": "She hit her brother up for some cash.",
+      "examples": [
+        {
+          "en": "She hit her brother up for some cash.",
+          "zh": "她向哥哥開口要了一些現金。",
+          "highlight": "hit her brother up for"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚分辨「反擊回應」和「動手攻擊」",
+      "titleEn": "Show the difference between answering and physically attacking",
+      "zh": "hit back 表示某人受到批評或攻擊後作出強硬回應;hit out 則可以描述某人突然試圖揮打另一個人。",
+      "en": "Hit back shows that someone responds strongly after being criticised or attacked. Hit out can describe someone suddenly trying to strike another person."
+    },
+    {
+      "titleZh": "描述兩種截然不同的人際互動",
+      "titleEn": "Describe two very different kinds of personal connection",
+      "zh": "hit it off 表示兩人很快便相處投契;hit on somebody 則表示一個人向另一個人調情或表示愛慕之意。",
+      "en": "Hit it off means that two people quickly become friendly. Hit on somebody means that one person shows romantic interest in another."
+    },
+    {
+      "titleZh": "描述突然想到主意的一刻",
+      "titleEn": "Describe the moment when an idea appears",
+      "zh": "當某人突然或意外地想到一個主意、答案或解決方法時,可以使用 hit on 或 hit upon。",
+      "en": "Hit on and hit upon are useful when someone suddenly or unexpectedly thinks of an idea, answer or solution."
+    },
+    {
+      "titleZh": "理解非正式英語中的金錢請求",
+      "titleEn": "Understand informal requests for money",
+      "zh": "hit somebody up for something 和 hit somebody for something 常見於談論向別人開口要錢或借錢的非正式對話。",
+      "en": "Hit somebody up for something and hit somebody for something often appear in informal conversations about asking someone for money."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚分辨「反擊回應」和「動手攻擊」",
+      "描述兩種截然不同的人際互動",
+      "描述突然想到主意的一刻",
+      "理解非正式英語中的金錢請求"
+    ],
+    "contextsEn": [
+      "Show the difference between answering and physically attacking",
+      "Describe two very different kinds of personal connection",
+      "Describe the moment when an idea appears",
+      "Understand informal requests for money"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚分辨「反擊回應」和「動手攻擊」",
+        "titleEn": "Show the difference between answering and physically attacking",
+        "zh": "hit back 表示某人受到批評或攻擊後作出強硬回應;hit out 則可以描述某人突然試圖揮打另一個人。",
+        "en": "Hit back shows that someone responds strongly after being criticised or attacked. Hit out can describe someone suddenly trying to strike another person.",
+        "examples": [
+          {
+            "en": "The actor hit back at the unfair comments.",
+            "zh": "那名演員對不公平的評論作出強硬反擊。",
+            "highlight": "hit back at"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述兩種截然不同的人際互動",
+        "titleEn": "Describe two very different kinds of personal connection",
+        "zh": "hit it off 表示兩人很快便相處投契;hit on somebody 則表示一個人向另一個人調情或表示愛慕之意。",
+        "en": "Hit it off means that two people quickly become friendly. Hit on somebody means that one person shows romantic interest in another.",
+        "examples": [
+          {
+            "en": "Zara and Eva hit it off straight away.",
+            "zh": "Zara 和 Eva 一見面便十分投契。",
+            "highlight": "hit it off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述突然想到主意的一刻",
+        "titleEn": "Describe the moment when an idea appears",
+        "zh": "當某人突然或意外地想到一個主意、答案或解決方法時,可以使用 hit on 或 hit upon。",
+        "en": "Hit on and hit upon are useful when someone suddenly or unexpectedly thinks of an idea, answer or solution.",
+        "examples": [
+          {
+            "en": "Someone at the dance was hitting on him.",
+            "zh": "舞會上有人正在向他調情。",
+            "highlight": "hitting on"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解非正式英語中的金錢請求",
+        "titleEn": "Understand informal requests for money",
+        "zh": "hit somebody up for something 和 hit somebody for something 常見於談論向別人開口要錢或借錢的非正式對話。",
+        "en": "Hit somebody up for something and hit somebody for something often appear in informal conversations about asking someone for money.",
+        "examples": [
+          {
+            "en": "The class hit on a simple solution.",
+            "zh": "全班突然想到一個簡單的解決方法。",
+            "highlight": "hit on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 HIT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the HIT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 HIT 片語動詞。",
+      "en": "Read the whole sentence and choose the HIT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "hit on somebody 和 hit on/upon something 的意思截然不同:hit on somebody = 向某人調情或表示愛慕之意hit on/upon something = 突然或偶然想到一個主意",
+      "titleEn": "hit on somebody and hit on/upon something have very different meanings: hit on somebody = show romantic interest hit on/upon something = suddenly think of an idea.",
+      "zh": "hit on somebody 和 hit on/upon something 的意思截然不同:hit on somebody = 向某人調情或表示愛慕之意hit on/upon something = 突然或偶然想到一個主意",
+      "en": "hit on somebody and hit on/upon something have very different meanings: hit on somebody = show romantic interest hit on/upon something = suddenly think of an idea"
+    },
+    {
+      "titleZh": "hit back 表示受到批評或攻擊後作出反擊。本練習中的 hit out 則表示突然試圖揮打某人或某物。",
+      "titleEn": "hit back describes a response to criticism or an attack.",
+      "zh": "hit back 表示受到批評或攻擊後作出反擊。本練習中的 hit out 則表示突然試圖揮打某人或某物。",
+      "en": "hit back describes a response to criticism or an attack. In this exercise, hit out describes suddenly trying to hit someone or something physically."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 HIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to HIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "HIT 動詞片語句子改寫練習",
+    "titleEn": "HIT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 HIT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to HIT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-56-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The students suddenly thought of a simple way to save water.",
+      "promptZh": "學生突然想到一個節約用水的簡單方法。",
+      "starter": "The",
+      "answer": "The students hit on a simple way to save water.",
+      "answerZh": "學生突然想到一個節約用水的簡單方法。",
+      "highlight": "hit on",
+      "targetForm": "hit on something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Grace and Nia liked each other immediately when they met.",
+      "promptZh": "Grace 和 Nia 初次見面時便立即投契。",
+      "starter": "Grace",
+      "answer": "Grace and Nia hit it off when they met.",
+      "answerZh": "Grace 和 Nia 初次見面時便十分投契。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off with somebody",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The singer answered her critics strongly after they made unfair comments.",
+      "promptZh": "歌手受到不公平批評後,強硬地作出回應。",
+      "starter": "The",
+      "answer": "The singer hit back at her critics after they made unfair comments.",
+      "answerZh": "歌手受到不公平批評後,強硬地作出反擊。",
+      "highlight": "hit back at",
+      "targetForm": "hit back at somebody",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Leo asked his brother to lend him twenty dollars.",
+      "promptZh": "Leo 向哥哥借二十元。",
+      "starter": "Leo",
+      "answer": "Leo hit his brother up for twenty dollars.",
+      "answerZh": "Leo 向哥哥開口借二十元。",
+      "highlight": "hit",
+      "targetForm": "hit somebody up for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-56-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A man at the party tried to show romantic interest in Zara.",
+      "promptZh": "派對上一名男子試圖向 Zara 表示愛慕之意。",
+      "starter": "A",
+      "answer": "A man at the party hit on Zara.",
+      "answerZh": "派對上一名男子向 Zara 調情。",
+      "highlight": "hit on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The boxer suddenly swung at his opponent but missed.",
+      "promptZh": "拳手突然揮拳打向對手,但沒有打中。",
+      "starter": "The",
+      "answer": "The boxer hit out at his opponent but missed.",
+      "answerZh": "拳手突然揮拳打向對手,但沒有打中。",
+      "highlight": "hit out",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I became friendly with Omar from the moment we met.",
+      "promptZh": "我和 Omar 初次見面便很投契。",
+      "starter": "I",
+      "answer": "I hit it off with Omar from the moment we met.",
+      "answerZh": "我和 Omar 初次見面便很投契。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off with somebody",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "After several tries, Priya unexpectedly found the right answer.",
+      "promptZh": "嘗試了幾次後,Priya 意外地想到了正確答案。",
+      "starter": "After",
+      "answer": "After several tries, Priya hit upon the right answer.",
+      "answerZh": "嘗試了幾次後,Priya 意外地想到了正確答案。",
+      "highlight": "hit upon",
+      "targetForm": "hit upon something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The student asked me for some lunch money again.",
+      "promptZh": "那名學生又向我要午膳錢。",
+      "starter": "The",
+      "answer": "The student hit me for some lunch money again.",
+      "answerZh": "那名學生又向我開口要午膳錢。",
+      "highlight": "hit",
+      "targetForm": "hit somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "When the newspaper attacked the school, the head teacher responded strongly.",
+      "promptZh": "報章批評學校時,校長作出了強硬回應。",
+      "starter": "When",
+      "answer": "When the newspaper attacked the school, the head teacher hit back.",
+      "answerZh": "報章批評學校時,校長作出了強硬反擊。",
+      "highlight": "hit back",
+      "targetForm": "hit back",
+      "targetMeaningZh": "受到批評或攻擊後作出強硬反擊"
+    },
+    {
+      "id": "phrasal-verb-56-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The angry man suddenly tried to hit the officer who was holding his arm.",
+      "promptZh": "那名憤怒的男子突然試圖打正在抓住他手臂的警員。",
+      "starter": "The",
+      "answer": "The angry man hit out at the officer who was holding his arm.",
+      "answerZh": "那名憤怒的男子突然揮打正在抓住他手臂的警員。",
+      "highlight": "hit out at",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Theo kept speaking to my friend in a romantic way during the meal.",
+      "promptZh": "用膳期間,Theo 不斷用帶有愛慕意味的方式跟我的朋友說話。",
+      "starter": "Theo",
+      "answer": "Theo kept hitting on my friend during the meal.",
+      "answerZh": "用膳期間,Theo 不斷向我的朋友調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The company is now responding strongly to the false claims.",
+      "promptZh": "公司現正就這些失實說法作出強硬回應。",
+      "starter": "The",
+      "answer": "The company is now hitting back at the false claims.",
+      "answerZh": "公司現正就這些失實說法作出強硬反擊。",
+      "highlight": "hitting back at",
+      "targetForm": "hit back at something",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The team has finally thought of a name that everyone likes.",
+      "promptZh": "團隊終於想到一個人人都喜歡的名字。",
+      "starter": "The",
+      "answer": "The team has finally hit on a name that everyone likes.",
+      "answerZh": "團隊終於想到一個人人都喜歡的名字。",
+      "highlight": "hit on",
+      "targetForm": "hit on something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Why does Ben always ask you to give him cash?",
+      "promptZh": "為甚麼 Ben 總是向你要現金?",
+      "starter": "Why",
+      "answer": "Why does Ben always hit you up for cash?",
+      "answerZh": "為甚麼 Ben 總是向你開口要現金?",
+      "highlight": "hit",
+      "targetForm": "hit somebody up for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "My brother usually becomes friendly with new teammates very quickly.",
+      "promptZh": "我弟弟通常很快便能和新隊友相處投契。",
+      "starter": "My",
+      "answer": "My brother usually hits it off with new teammates very quickly.",
+      "answerZh": "我弟弟通常很快便能和新隊友相處投契。",
+      "highlight": "hits it off",
+      "targetForm": "hit it off with somebody",
+      "targetMeaningZh": "很快便和某人相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The losing fighter is wildly trying to hit anyone near him.",
+      "promptZh": "那名落敗的拳手正胡亂試圖打身邊的人。",
+      "starter": "The",
+      "answer": "The losing fighter is hitting out wildly at anyone near him.",
+      "answerZh": "那名落敗的拳手正胡亂揮打身邊的人。",
+      "highlight": "hitting out",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Why is that boy trying to show romantic interest in Eva?",
+      "promptZh": "為甚麼那個男孩試圖向 Eva 表示愛慕之意?",
+      "starter": "Why",
+      "answer": "Why is that boy hitting on Eva?",
+      "answerZh": "為甚麼那個男孩正在向 Eva 調情?",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do you think we might suddenly think of a better solution before Friday?",
+      "promptZh": "你認為我們會否在星期五前突然想到更好的解決方法?",
+      "starter": "Do",
+      "answer": "Do you think we might hit upon a better solution before Friday?",
+      "answerZh": "你認為我們會否在星期五前突然想到更好的解決方法?",
+      "highlight": "hit upon",
+      "targetForm": "hit upon something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The player did not respond when people criticised his mistake.",
+      "promptZh": "人們批評那名球員的失誤時,他沒有作出反擊。",
+      "starter": "The",
+      "answer": "The player did not hit back when people criticised his mistake.",
+      "answerZh": "人們批評那名球員的失誤時,他沒有作出反擊。",
+      "highlight": "hit back",
+      "targetForm": "hit back",
+      "targetMeaningZh": "受到批評或攻擊後作出強硬反擊"
+    },
+    {
+      "id": "phrasal-verb-56-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Did you and the new classmate like each other immediately?",
+      "promptZh": "你和新同學是否一見面便很投契?",
+      "starter": "Did",
+      "answer": "Did you and the new classmate hit it off immediately?",
+      "answerZh": "你和新同學是否一見面便很投契?",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She has already asked three friends for twenty dollars each.",
+      "promptZh": "她已經向三位朋友各開口要二十元。",
+      "starter": "She",
+      "answer": "She has already hit three friends for twenty dollars each.",
+      "answerZh": "她已經向三位朋友各開口要二十元。",
+      "highlight": "hit",
+      "targetForm": "hit somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She has never tried to flirt with anyone at work.",
+      "promptZh": "她從未嘗試在工作場所向任何人調情。",
+      "starter": "She",
+      "answer": "She has never hit on anyone at work.",
+      "answerZh": "她從未在工作場所向任何人調情。",
+      "highlight": "hit on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Did the boy suddenly try to hit you when you took the toy away?",
+      "promptZh": "你拿走玩具時,那個男孩是否突然試圖打你?",
+      "starter": "Did",
+      "answer": "Did the boy hit out at you when you took the toy away?",
+      "answerZh": "你拿走玩具時,那個男孩是否突然揮手打你?",
+      "highlight": "hit out at",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "I was short of bus fare, so I asked my cousin for five dollars.",
+      "promptZh": "我的車費不夠,所以向表親借了五元。",
+      "starter": "I",
+      "answer": "I was short of bus fare, so I hit my cousin up for five dollars.",
+      "answerZh": "我的車費不夠,所以向表親開口借了五元。",
+      "highlight": "hit",
+      "targetForm": "hit somebody up for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-56-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I thought he was only being friendly, but he was actually flirting with me.",
+      "promptZh": "我以為他只是友善,但其實他正在向我調情。",
+      "starter": "I",
+      "answer": "I thought he was only being friendly, but he was actually hitting on me.",
+      "answerZh": "我以為他只是友善,但其實他正在向我調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Eva met my cousin yesterday. They became friendly at once.",
+      "promptZh": "Eva 昨天遇見我的表親。他們立即變得很投契。",
+      "starter": "Eva",
+      "answer": "Eva met my cousin yesterday, and they hit it off at once.",
+      "answerZh": "Eva 昨天遇見我的表親,兩人立即十分投契。",
+      "highlight": "and",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "When the coach held his arm to stop the fight, the angry player suddenly tried to strike him.",
+      "promptZh": "教練抓住那名憤怒球員的手臂制止打鬥時,球員突然試圖打他。",
+      "starter": "When",
+      "answer": "When the coach held his arm to stop the fight, the angry player hit out at him.",
+      "answerZh": "教練抓住那名憤怒球員的手臂制止打鬥時,球員突然揮手打他。",
+      "highlight": "hit out at",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After they blamed her online, she answered them strongly in a video.",
+      "promptZh": "他們在網上責怪她後,她在影片中強硬回應他們。",
+      "starter": "After",
+      "answer": "After they blamed her online, she hit back at them in a video.",
+      "answerZh": "他們在網上責怪她後,她在影片中強硬反擊。",
+      "highlight": "hit back at",
+      "targetForm": "hit back at somebody",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "They tried several ideas. In the end, they unexpectedly found one that worked.",
+      "promptZh": "他們嘗試了幾個構思,最後意外地想到一個可行的方法。",
+      "starter": "They",
+      "answer": "They tried several ideas. In the end, they hit on one that worked.",
+      "answerZh": "他們嘗試了幾個構思,最後意外地想到一個可行的方法。",
+      "highlight": "hit on",
+      "targetForm": "hit on something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Please stop showing romantic interest in her; she is not interested.",
+      "promptZh": "請停止向她表示愛慕之意;她沒有興趣。",
+      "starter": "Please",
+      "answer": "Please stop hitting on her; she is not interested.",
+      "answerZh": "請停止向她調情;她沒有興趣。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "He did not ask us for any money this time.",
+      "promptZh": "他今次沒有向我們要錢。",
+      "starter": "He",
+      "answer": "He did not hit us for any money this time.",
+      "answerZh": "他今次沒有向我們開口要錢。",
+      "highlight": "hit",
+      "targetForm": "hit somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "He thought of the answer by chance while he was walking home.",
+      "promptZh": "他步行回家時偶然想到了答案。",
+      "starter": "He",
+      "answer": "He hit upon the answer while he was walking home.",
+      "answerZh": "他步行回家時偶然想到了答案。",
+      "highlight": "hit upon",
+      "targetForm": "hit upon something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We did not become friendly when we first worked together.",
+      "promptZh": "我們初次共事時並不投契。",
+      "starter": "We",
+      "answer": "We did not hit it off when we first worked together.",
+      "answerZh": "我們初次共事時並不投契。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面或相處時十分投契"
+    },
+    {
+      "id": "phrasal-verb-56-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The crowd moved closer. In fear, the man began swinging his arms at everyone around him.",
+      "promptZh": "人群愈走愈近。那名男子因害怕而開始向身邊所有人揮打。",
+      "starter": "The",
+      "answer": "The crowd moved closer. In fear, the man began hitting out at everyone around him.",
+      "answerZh": "人群愈走愈近。那名男子因害怕而開始向身邊所有人揮打。",
+      "highlight": "hitting out",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The host asked whether the actor would respond strongly to the rude review.",
+      "promptZh": "主持人問那名演員會否強硬回應那篇無禮的評論。",
+      "starter": "The",
+      "answer": "The host asked whether the actor would hit back at the rude review.",
+      "answerZh": "主持人問那名演員會否強硬反擊那篇無禮的評論。",
+      "highlight": "hit back at",
+      "targetForm": "hit back at something",
+      "targetMeaningZh": "對批評作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Although they had very different jobs, the two guests liked each other immediately at dinner.",
+      "promptZh": "雖然兩位賓客的工作截然不同,但他們晚膳時一見如故。",
+      "starter": "Although",
+      "answer": "Although they had very different jobs, the two guests hit it off immediately at dinner.",
+      "answerZh": "雖然兩位賓客的工作截然不同,但他們晚膳時一見如故。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The boxer was tired and could not see clearly, but he continued swinging wildly.",
+      "promptZh": "拳手十分疲倦,而且看不清楚,但仍繼續胡亂揮拳。",
+      "starter": "The",
+      "answer": "The boxer was tired and could not see clearly, but he continued hitting out wildly.",
+      "answerZh": "拳手十分疲倦,而且看不清楚,但仍繼續胡亂揮拳。",
+      "highlight": "hitting out",
+      "targetForm": "hit out",
+      "targetMeaningZh": "突然或猛烈地揮打"
+    },
+    {
+      "id": "phrasal-verb-56-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "They had not planned the idea before the meeting. During the talk, the designers suddenly thought of a new way to use the small room.",
+      "promptZh": "他們在會議前沒有構思過這個方法。討論期間,設計師突然想到小房間的新用途。",
+      "starter": "They",
+      "answer": "They had not planned the idea before the meeting. During the talk, the designers hit on a new way to use the small room.",
+      "answerZh": "他們在會議前沒有構思過這個方法。討論期間,設計師突然想到小房間的新用途。",
+      "highlight": "hit on",
+      "targetForm": "hit on something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The coach had stayed silent for days, but he finally answered the unfair criticism strongly.",
+      "promptZh": "教練沉默了數天,但最終強硬回應了不公平的批評。",
+      "starter": "The",
+      "answer": "The coach had stayed silent for days, but he finally hit back at the unfair criticism.",
+      "answerZh": "教練沉默了數天,但最終強硬反擊了不公平的批評。",
+      "highlight": "hit back at",
+      "targetForm": "hit back at something",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The customer asked for her number and kept making romantic comments, so she realised he was flirting with her.",
+      "promptZh": "那名顧客索取她的電話號碼,並不斷說帶有愛慕意味的話,所以她察覺他正在向自己調情。",
+      "starter": "The",
+      "answer": "The customer asked for her number and kept making romantic comments, so she realised he was hitting on her.",
+      "answerZh": "那名顧客索取她的電話號碼,並不斷說帶有愛慕意味的話,所以她察覺他正在向自己調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "After spending all his pay, Ravi asked his flatmate for enough money to buy food.",
+      "promptZh": "Ravi 花光薪金後,向室友開口借足夠買食物的錢。",
+      "starter": "After",
+      "answer": "After spending all his pay, Ravi hit his flatmate up for enough money to buy food.",
+      "answerZh": "Ravi 花光薪金後,向室友開口借足夠買食物的錢。",
+      "highlight": "hit",
+      "targetForm": "hit somebody up for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-56-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The actor’s character did not run away; he suddenly attacked the guard with his fists.",
+      "promptZh": "那名演員飾演的角色沒有逃走,反而突然揮拳攻擊守衛。",
+      "starter": "The",
+      "answer": "The actor’s character did not run away; he hit out at the guard with his fists.",
+      "answerZh": "那名演員飾演的角色沒有逃走,反而突然揮拳攻擊守衛。",
+      "highlight": "hit out at",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或攻擊某人"
+    },
+    {
+      "id": "phrasal-verb-56-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The first meeting was short, but Kai and the new coach quickly became friendly.",
+      "promptZh": "第一次會面雖然很短,但 Kai 和新教練很快便相處投契。",
+      "starter": "The",
+      "answer": "The first meeting was short, but Kai and the new coach quickly hit it off.",
+      "answerZh": "第一次會面雖然很短,但 Kai 和新教練很快便相處投契。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The group asked every parent for ten dollars to support the trip.",
+      "promptZh": "小組向每位家長開口要十元,以支持這次旅行。",
+      "starter": "The",
+      "answer": "The group hit every parent for ten dollars to support the trip.",
+      "answerZh": "小組向每位家長開口要十元,以支持這次旅行。",
+      "highlight": "hit",
+      "targetForm": "hit somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Nobody had planned the joke, but Daniel suddenly thought of it during the show.",
+      "promptZh": "沒有人事先設計這個笑話,但 Daniel 在表演期間突然想到了它。",
+      "starter": "Nobody",
+      "answer": "Nobody had planned the joke, but Daniel hit upon it during the show.",
+      "answerZh": "沒有人事先設計這個笑話,但 Daniel 在表演期間突然想到了它。",
+      "highlight": "hit upon",
+      "targetForm": "hit upon something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Some readers attacked the writer’s new book, and she responded by explaining why their claims were wrong.",
+      "promptZh": "一些讀者批評那名作家的新書,而她解釋他們的說法為何錯誤,以作出反擊。",
+      "starter": "Some",
+      "answer": "Some readers attacked the writer’s new book, and she hit back by explaining why their claims were wrong.",
+      "answerZh": "一些讀者批評那名作家的新書,而她解釋他們的說法為何錯誤,以作出反擊。",
+      "highlight": "hit back",
+      "targetForm": "hit back",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Daniel was not simply making conversation; he was trying to attract the new guest in a romantic way.",
+      "promptZh": "Daniel 不只是閒談;他正試圖以浪漫方式吸引那名新賓客。",
+      "starter": "Daniel",
+      "answer": "Daniel was not simply making conversation; he was hitting on the new guest.",
+      "answerZh": "Daniel 不只是閒談;他正在向那名新賓客調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "At first, Sofia thought the guitarist was only being polite, but his repeated invitations made it clear that he was flirting with her.",
+      "promptZh": "起初 Sofia 以為那名結他手只是有禮,但他一再邀約,令她明白對方正在向自己調情。",
+      "starter": "At",
+      "answer": "At first, Sofia thought the guitarist was only being polite, but his repeated invitations made it clear that he was hitting on her.",
+      "answerZh": "起初 Sofia 以為那名結他手只是有禮,但他一再邀約,令她明白對方正在向自己調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The shop was blamed for a problem it did not cause. Instead of staying silent, the owner strongly answered the online comments.",
+      "promptZh": "店舖因一個並非由它造成的問題而受到責怪。店主沒有保持沉默,反而強硬回應網上留言。",
+      "starter": "The",
+      "answer": "The shop was blamed for a problem it did not cause. Instead of staying silent, the owner hit back at the online comments.",
+      "answerZh": "店舖因一個並非由它造成的問題而受到責怪。店主沒有保持沉默,反而強硬反擊網上留言。",
+      "highlight": "hit back at",
+      "targetForm": "hit back at something",
+      "targetMeaningZh": "對批評或攻擊作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Farah had promised not to borrow again, but after losing her wallet she asked her aunt for enough money to get home.",
+      "promptZh": "Farah 曾答應不再借錢,但遺失銀包後,她向姨母開口借足夠回家的錢。",
+      "starter": "Farah",
+      "answer": "Farah had promised not to borrow again, but after losing her wallet she hit her aunt up for enough money to get home.",
+      "answerZh": "Farah 曾答應不再借錢,但遺失銀包後,她向姨母開口借足夠回家的錢。",
+      "highlight": "hit",
+      "targetForm": "hit somebody up for something",
+      "targetMeaningZh": "向某人開口要錢或借錢"
+    },
+    {
+      "id": "phrasal-verb-56-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The group were almost ready to stop trying when Zara suddenly thought of a way to repair the model with tape.",
+      "promptZh": "小組幾乎準備停止嘗試時,Zara 突然想到用膠紙修理模型的方法。",
+      "starter": "The",
+      "answer": "The group were almost ready to stop trying when Zara hit on a way to repair the model with tape.",
+      "answerZh": "小組幾乎準備停止嘗試時,Zara 突然想到用膠紙修理模型的方法。",
+      "highlight": "hit on",
+      "targetForm": "hit on something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Lina was worried about meeting her flatmate, but within minutes they were laughing and felt friendly with each other.",
+      "promptZh": "Lina 原本擔心與室友見面,但幾分鐘內兩人已一起說笑,並且十分投契。",
+      "starter": "Lina",
+      "answer": "Lina was worried about meeting her flatmate, but within minutes they hit it off.",
+      "answerZh": "Lina 原本擔心與室友見面,但幾分鐘內兩人已十分投契。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    },
+    {
+      "id": "phrasal-verb-56-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The player thought someone had pushed him on purpose, so he turned around and suddenly tried to hit the person behind him.",
+      "promptZh": "那名球員以為有人故意推他,於是轉身突然試圖打身後的人。",
+      "starter": "The",
+      "answer": "The player thought someone had pushed him on purpose, so he turned around and hit out at the person behind him.",
+      "answerZh": "那名球員以為有人故意推他,於是轉身突然揮打身後的人。",
+      "highlight": "hit out at",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "During the interview, the club manager was accused of ignoring young players, but she responded strongly and gave several examples of her work.",
+      "promptZh": "訪問期間,球會經理被指忽視年輕球員,但她作出強硬回應,並舉出數個工作例子。",
+      "starter": "During",
+      "answer": "During the interview, the club manager was accused of ignoring young players, but she hit back and gave several examples of her work.",
+      "answerZh": "訪問期間,球會經理被指忽視年輕球員,但她作出強硬反擊,並舉出數個工作例子。",
+      "highlight": "hit back",
+      "targetForm": "hit back",
+      "targetMeaningZh": "對批評或指責作出強硬反擊或回應"
+    },
+    {
+      "id": "phrasal-verb-56-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "I did not mind his friendly questions, but when he asked for a date, I understood that he had been showing romantic interest in me.",
+      "promptZh": "我不介意他友善地提問,但當他邀請我約會時,我便明白他一直在向我表示愛慕之意。",
+      "starter": "I",
+      "answer": "I did not mind his friendly questions, but when he asked for a date, I understood that he had been hitting on me.",
+      "answerZh": "我不介意他友善地提問,但當他邀請我約會時,我便明白他一直在向我調情。",
+      "highlight": "hitting on",
+      "targetForm": "hit on somebody",
+      "targetMeaningZh": "向某人調情;表示愛慕興趣"
+    },
+    {
+      "id": "phrasal-verb-56-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Nobody expected the frightened man to fight, but when two people tried to hold him still, he suddenly swung at them.",
+      "promptZh": "沒有人料到那名受驚男子會反抗,但當兩人試圖按住他時,他突然向他們揮打。",
+      "starter": "Nobody",
+      "answer": "Nobody expected the frightened man to fight, but when two people tried to hold him still, he suddenly hit out at them.",
+      "answerZh": "沒有人料到那名受驚男子會反抗,但當兩人試圖按住他時,他突然向他們揮打。",
+      "highlight": "hit out",
+      "targetForm": "hit out at somebody",
+      "targetMeaningZh": "突然揮打或試圖打某人"
+    },
+    {
+      "id": "phrasal-verb-56-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The club needed new balls, so the captain asked the neighbours for small amounts of money.",
+      "promptZh": "球會需要新球,所以隊長向鄰居逐一開口要少量金錢。",
+      "starter": "The",
+      "answer": "The club needed new balls, so the captain hit the neighbours for small amounts of money.",
+      "answerZh": "球會需要新球,所以隊長向鄰居逐一開口要少量金錢。",
+      "highlight": "hit",
+      "targetForm": "hit somebody for something",
+      "targetMeaningZh": "向某人開口要錢"
+    },
+    {
+      "id": "phrasal-verb-56-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "We tested many ideas without success. Just before lunch, one student unexpectedly found the answer that made the machine work.",
+      "promptZh": "我們測試了許多構思仍未成功。午膳前,一名學生意外地想到了令機器運作的答案。",
+      "starter": "We",
+      "answer": "We tested many ideas without success. Just before lunch, one student hit upon the answer that made the machine work.",
+      "answerZh": "我們測試了許多構思仍未成功。午膳前,一名學生意外地想到了令機器運作的答案。",
+      "highlight": "hit upon",
+      "targetForm": "hit upon something",
+      "targetMeaningZh": "突然或偶然想到主意、方法或答案"
+    },
+    {
+      "id": "phrasal-verb-56-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "I expected the two volunteers to disagree, but they liked each other immediately and worked happily together all day.",
+      "promptZh": "我本以為兩名義工會意見不合,但他們一見如故,整天合作愉快。",
+      "starter": "I",
+      "answer": "I expected the two volunteers to disagree, but they hit it off and worked happily together all day.",
+      "answerZh": "我本以為兩名義工會意見不合,但他們一見如故,整天合作愉快。",
+      "highlight": "hit it off",
+      "targetForm": "hit it off",
+      "targetMeaningZh": "初次見面便相處投契"
+    }
+  ]
+}

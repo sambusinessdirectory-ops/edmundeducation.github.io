@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-140",
+  "order": 140,
+  "slug": "drink",
+  "version": "1",
+  "title": "DRINK 動詞片語",
+  "titleEn": "Drink",
+  "titleZh": "DRINK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 139 - DRINK.pdf",
+    "sourceNumber": 139,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DRINK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DRINK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DRINK",
+      "highlight": "DRINK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She stood on the balcony and drank in the view.",
+      "zh": "她站在露台上,細心欣賞眼前的景色。",
+      "highlight": "drank in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He drank the water down in one go.",
+      "zh": "他一口氣把水喝下。",
+      "highlight": "drank the water down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We drank to the couple’s future.",
+      "zh": "我們為這對新人的未來乾杯。",
+      "highlight": "drank to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "細心欣賞並充分感受所見、所聞或周圍的氣氛；迅速把飲品喝下,常指一口氣喝下；舉杯祝賀某人或某事;為某人或某事乾杯；把杯中或容器內的飲品喝完",
+    "en": "drink in something; drink it/them in; drink something down; drink to somebody/something; drink up; drink something up",
+    "naturalZh": [
+      "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+      "迅速把飲品喝下,常指一口氣喝下",
+      "舉杯祝賀某人或某事;為某人或某事乾杯",
+      "把杯中或容器內的飲品喝完"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "drink in something; drink it/them in",
+      "titleZh": "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+      "titleEn": "drink in something; drink it/them in",
+      "descriptionZh": "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+      "descriptionEn": "She stood on the balcony and drank in the view.",
+      "examples": [
+        {
+          "en": "She stood on the balcony and drank in the view.",
+          "zh": "她站在露台上,細心欣賞眼前的景色。",
+          "highlight": "drank in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drink something down",
+      "titleZh": "迅速把飲品喝下,常指一口氣喝下",
+      "titleEn": "drink something down",
+      "descriptionZh": "迅速把飲品喝下,常指一口氣喝下",
+      "descriptionEn": "He drank the water down in one go.",
+      "examples": [
+        {
+          "en": "He drank the water down in one go.",
+          "zh": "他一口氣把水喝下。",
+          "highlight": "drank the water down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "drink to somebody/something",
+      "titleZh": "舉杯祝賀某人或某事;為某人或某事乾杯",
+      "titleEn": "drink to somebody/something",
+      "descriptionZh": "舉杯祝賀某人或某事;為某人或某事乾杯",
+      "descriptionEn": "We drank to the couple’s future.",
+      "examples": [
+        {
+          "en": "We drank to the couple’s future.",
+          "zh": "我們為這對新人的未來乾杯。",
+          "highlight": "drank to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "drink up; drink something up",
+      "titleZh": "把杯中或容器內的飲品喝完",
+      "titleEn": "drink up; drink something up",
+      "descriptionZh": "把杯中或容器內的飲品喝完",
+      "descriptionEn": "Your tea is getting cold, so drink up.",
+      "examples": [
+        {
+          "en": "Your tea is getting cold, so drink up.",
+          "zh": "你的茶快要變涼了,所以喝完吧。",
+          "highlight": "drink up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DRINK 片語動詞的實際用途",
+    "labelEn": "DRINK Phrasal Verbs in Use",
+    "summaryZh": "drink in 可以表示欣賞美景、細心聆聽別人的說話,或充分感受周圍的氣氛。；drink something down 着重迅速喝下;drink something up 則着重把飲品喝完。；drink to somebody or something 適合在婚禮、慶祝活動、聚餐和其他特別場合使用。；drink up 和 drink to somebody 等表達經常出現在日常對話、電影和社交場合中。",
+    "summaryEn": "Drink in can describe enjoying a beautiful view, listening closely to someone or fully experiencing an atmosphere. Drink something down focuses on drinking quickly, while drink something up focuses on finishing the drink. Drink to somebody or something is useful at weddings, celebrations, meals and other special events. Expressions such as drink up and drink to somebody often appear in daily conversations, films and social events.",
+    "contextsZh": [
+      "使用 DRINK 表達喝飲品以外的意思",
+      "準確描述某人如何喝完飲品",
+      "舉杯祝賀並表達美好祝願",
+      "理解常見指示和社交英語"
+    ],
+    "contextsEn": [
+      "Use DRINK to describe more than drinking a liquid",
+      "Describe exactly how somebody finishes a drink",
+      "Make toasts and express good wishes",
+      "Understand common instructions and social English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DRINK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DRINK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "drink in something; drink it/them in",
+    "fixedHighlight": "drink in something; drink it/them in",
+    "fixedZh": "閱讀整句,選出意思相同的 DRINK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DRINK expression that gives the same meaning.",
+    "correct": "drank in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在正確位置。；drink something down 通常表示迅速或一口氣喝下;drink something up 則表示把飲品喝完。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, place the word as shown: drink it in drink it down drink it up Drink something down usually means drinking it quickly or in one go. Drink something up simply means finishing it.",
+    "variableItemsZh": [
+      "drink in something; drink it/them in",
+      "drink something down",
+      "drink to somebody/something",
+      "drink up; drink something up"
+    ],
+    "variableItemsEn": [
+      "drink in something; drink it/them in",
+      "drink something down",
+      "drink to somebody/something",
+      "drink up; drink something up"
+    ],
+    "forms": [
+      {
+        "formZh": "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+        "formEn": "drink in something; drink it/them in",
+        "exampleZh": "她站在露台上,細心欣賞眼前的景色。",
+        "exampleEn": "She stood on the balcony and drank in the view.",
+        "highlight": "drank in"
+      },
+      {
+        "formZh": "迅速把飲品喝下,常指一口氣喝下",
+        "formEn": "drink something down",
+        "exampleZh": "他一口氣把水喝下。",
+        "exampleEn": "He drank the water down in one go.",
+        "highlight": "drank the water down"
+      },
+      {
+        "formZh": "舉杯祝賀某人或某事;為某人或某事乾杯",
+        "formEn": "drink to somebody/something",
+        "exampleZh": "我們為這對新人的未來乾杯。",
+        "exampleEn": "We drank to the couple’s future.",
+        "highlight": "drank to"
+      },
+      {
+        "formZh": "把杯中或容器內的飲品喝完",
+        "formEn": "drink up; drink something up",
+        "exampleZh": "你的茶快要變涼了,所以喝完吧。",
+        "exampleEn": "Your tea is getting cold, so drink up.",
+        "highlight": "drink up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+      "titleEn": "drink in something; drink it/them in",
+      "formula": "drink in something; drink it/them in",
+      "highlight": "drink in something; drink it/them in",
+      "descriptionZh": "細心欣賞並充分感受所見、所聞或周圍的氣氛",
+      "descriptionEn": "She stood on the balcony and drank in the view.",
+      "examples": [
+        {
+          "en": "She stood on the balcony and drank in the view.",
+          "zh": "她站在露台上,細心欣賞眼前的景色。",
+          "highlight": "drank in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "迅速把飲品喝下,常指一口氣喝下",
+      "titleEn": "drink something down",
+      "formula": "drink something down",
+      "highlight": "drink something down",
+      "descriptionZh": "迅速把飲品喝下,常指一口氣喝下",
+      "descriptionEn": "He drank the water down in one go.",
+      "examples": [
+        {
+          "en": "He drank the water down in one go.",
+          "zh": "他一口氣把水喝下。",
+          "highlight": "drank the water down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "舉杯祝賀某人或某事;為某人或某事乾杯",
+      "titleEn": "drink to somebody/something",
+      "formula": "drink to somebody/something",
+      "highlight": "drink to somebody/something",
+      "descriptionZh": "舉杯祝賀某人或某事;為某人或某事乾杯",
+      "descriptionEn": "We drank to the couple’s future.",
+      "examples": [
+        {
+          "en": "We drank to the couple’s future.",
+          "zh": "我們為這對新人的未來乾杯。",
+          "highlight": "drank to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把杯中或容器內的飲品喝完",
+      "titleEn": "drink up; drink something up",
+      "formula": "drink up; drink something up",
+      "highlight": "drink up; drink something up",
+      "descriptionZh": "把杯中或容器內的飲品喝完",
+      "descriptionEn": "Your tea is getting cold, so drink up.",
+      "examples": [
+        {
+          "en": "Your tea is getting cold, so drink up.",
+          "zh": "你的茶快要變涼了,所以喝完吧。",
+          "highlight": "drink up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 DRINK 表達喝飲品以外的意思",
+      "titleEn": "Use DRINK to describe more than drinking a liquid",
+      "zh": "drink in 可以表示欣賞美景、細心聆聽別人的說話,或充分感受周圍的氣氛。",
+      "en": "Drink in can describe enjoying a beautiful view, listening closely to someone or fully experiencing an atmosphere."
+    },
+    {
+      "titleZh": "準確描述某人如何喝完飲品",
+      "titleEn": "Describe exactly how somebody finishes a drink",
+      "zh": "drink something down 着重迅速喝下;drink something up 則着重把飲品喝完。",
+      "en": "Drink something down focuses on drinking quickly, while drink something up focuses on finishing the drink."
+    },
+    {
+      "titleZh": "舉杯祝賀並表達美好祝願",
+      "titleEn": "Make toasts and express good wishes",
+      "zh": "drink to somebody or something 適合在婚禮、慶祝活動、聚餐和其他特別場合使用。",
+      "en": "Drink to somebody or something is useful at weddings, celebrations, meals and other special events."
+    },
+    {
+      "titleZh": "理解常見指示和社交英語",
+      "titleEn": "Understand common instructions and social English",
+      "zh": "drink up 和 drink to somebody 等表達經常出現在日常對話、電影和社交場合中。",
+      "en": "Expressions such as drink up and drink to somebody often appear in daily conversations, films and social events."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 DRINK 表達喝飲品以外的意思",
+      "準確描述某人如何喝完飲品",
+      "舉杯祝賀並表達美好祝願",
+      "理解常見指示和社交英語"
+    ],
+    "contextsEn": [
+      "Use DRINK to describe more than drinking a liquid",
+      "Describe exactly how somebody finishes a drink",
+      "Make toasts and express good wishes",
+      "Understand common instructions and social English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 DRINK 表達喝飲品以外的意思",
+        "titleEn": "Use DRINK to describe more than drinking a liquid",
+        "zh": "drink in 可以表示欣賞美景、細心聆聽別人的說話,或充分感受周圍的氣氛。",
+        "en": "Drink in can describe enjoying a beautiful view, listening closely to someone or fully experiencing an atmosphere.",
+        "examples": [
+          {
+            "en": "She stood on the balcony and drank in the view.",
+            "zh": "她站在露台上,細心欣賞眼前的景色。",
+            "highlight": "drank in"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確描述某人如何喝完飲品",
+        "titleEn": "Describe exactly how somebody finishes a drink",
+        "zh": "drink something down 着重迅速喝下;drink something up 則着重把飲品喝完。",
+        "en": "Drink something down focuses on drinking quickly, while drink something up focuses on finishing the drink.",
+        "examples": [
+          {
+            "en": "He drank the water down in one go.",
+            "zh": "他一口氣把水喝下。",
+            "highlight": "drank the water down"
+          }
+        ]
+      },
+      {
+        "titleZh": "舉杯祝賀並表達美好祝願",
+        "titleEn": "Make toasts and express good wishes",
+        "zh": "drink to somebody or something 適合在婚禮、慶祝活動、聚餐和其他特別場合使用。",
+        "en": "Drink to somebody or something is useful at weddings, celebrations, meals and other special events.",
+        "examples": [
+          {
+            "en": "We drank to the couple’s future.",
+            "zh": "我們為這對新人的未來乾杯。",
+            "highlight": "drank to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見指示和社交英語",
+        "titleEn": "Understand common instructions and social English",
+        "zh": "drink up 和 drink to somebody 等表達經常出現在日常對話、電影和社交場合中。",
+        "en": "Expressions such as drink up and drink to somebody often appear in daily conversations, films and social events.",
+        "examples": [
+          {
+            "en": "Your tea is getting cold, so drink up.",
+            "zh": "你的茶快要變涼了,所以喝完吧。",
+            "highlight": "drink up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DRINK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DRINK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DRINK 片語動詞。",
+      "en": "Read the whole sentence and choose the DRINK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them, place the word as shown: drink it in drink it down drink it up.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them, place the word as shown: drink it in drink it down drink it up"
+    },
+    {
+      "titleZh": "drink something down 通常表示迅速或一口氣喝下;drink something up 則表示把飲品喝完。",
+      "titleEn": "Drink something down usually means drinking it quickly or in one go.",
+      "zh": "drink something down 通常表示迅速或一口氣喝下;drink something up 則表示把飲品喝完。",
+      "en": "Drink something down usually means drinking it quickly or in one go. Drink something up simply means finishing it."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DRINK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DRINK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DRINK 動詞片語句子改寫練習",
+    "titleEn": "DRINK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DRINK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DRINK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-140-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "At the wedding, everyone raised their glasses and wished the couple happiness.",
+      "promptZh": "婚禮上,大家舉杯祝願這對新人幸福。",
+      "starter": "At",
+      "answer": "At the wedding, everyone drank to the couple’s happiness.",
+      "answerZh": "婚禮上,大家為這對新人的幸福乾杯。",
+      "highlight": "drank to",
+      "targetForm": "drink to somebody/something",
+      "targetMeaningZh": "舉杯祝賀;為某人或某事乾杯"
+    },
+    {
+      "id": "phrasal-verb-140-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Sara stood at the top of the hill and took time to enjoy the wide view.",
+      "promptZh": "莎拉站在山頂,細心欣賞廣闊的景色。",
+      "starter": "Sara",
+      "answer": "Sara stood at the top of the hill and drank in the wide view.",
+      "answerZh": "莎拉站在山頂,細心欣賞廣闊的景色。",
+      "highlight": "drank in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Your hot chocolate is getting cold, so finish it.",
+      "promptZh": "你的熱朱古力快要變涼了,所以把它喝完吧。",
+      "starter": "Your",
+      "answer": "Your hot chocolate is getting cold, so drink up.",
+      "answerZh": "你的熱朱古力快要變涼了,所以喝完吧。",
+      "highlight": "drink up",
+      "targetForm": "drink up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Nina finished the cold water in one go.",
+      "promptZh": "妮娜一口氣喝下了那杯凍水。",
+      "starter": "Nina",
+      "answer": "Nina drank the cold water down in one go.",
+      "answerZh": "妮娜一口氣喝下了那杯凍水。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速或一口氣把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The visitors walked slowly through the market, enjoying all the colours and sounds.",
+      "promptZh": "遊客慢慢走過市場,細味當中的色彩和聲音。",
+      "starter": "The",
+      "answer": "The visitors walked slowly through the market, drinking in all the colours and sounds.",
+      "answerZh": "遊客慢慢走過市場,細味當中的色彩和聲音。",
+      "highlight": "drinking in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the final match, we raised our glasses to celebrate our team’s success.",
+      "promptZh": "決賽後,我們舉杯慶祝球隊成功。",
+      "starter": "After",
+      "answer": "After the final match, we drank to our team’s success.",
+      "answerZh": "決賽後,我們為球隊的成功乾杯。",
+      "highlight": "drank",
+      "targetForm": "drink to somebody/something",
+      "targetMeaningZh": "舉杯祝賀;為某人或某事乾杯"
+    },
+    {
+      "id": "phrasal-verb-140-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben finished all the orange juice before breakfast ended.",
+      "promptZh": "早餐結束前,賓喝光了所有橙汁。",
+      "starter": "Ben",
+      "answer": "Ben drank up all the orange juice before breakfast ended.",
+      "answerZh": "早餐結束前,賓喝光了所有橙汁。",
+      "highlight": "drank up",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Although the medicine tasted awful, Omar swallowed all of it quickly.",
+      "promptZh": "雖然藥水味道很差,奧馬仍很快把它全部喝下。",
+      "starter": "Although",
+      "answer": "Although the medicine tasted awful, Omar drank it down quickly.",
+      "answerZh": "雖然藥水味道很差,奧馬仍很快把它全部喝下。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We sat by the sea and fully enjoyed the peaceful evening atmosphere.",
+      "promptZh": "我們坐在海邊,細味寧靜的傍晚氣氛。",
+      "starter": "We",
+      "answer": "We sat by the sea and drank in the peaceful evening atmosphere.",
+      "answerZh": "我們坐在海邊,細味寧靜的傍晚氣氛。",
+      "highlight": "drank in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "充分感受周圍的氣氛"
+    },
+    {
+      "id": "phrasal-verb-140-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Please finish your milk before you leave the table.",
+      "promptZh": "離開餐桌前,請把牛奶喝完。",
+      "starter": "Please",
+      "answer": "Please drink your milk up before you leave the table.",
+      "answerZh": "離開餐桌前,請把牛奶喝完。",
+      "highlight": "drink",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "After the race, Ava finished a small bottle of water without stopping.",
+      "promptZh": "比賽後,艾娃沒有停下來,一口氣喝完了一小瓶水。",
+      "starter": "After",
+      "answer": "After the race, Ava drank a small bottle of water down without stopping.",
+      "answerZh": "比賽後,艾娃沒有停下來,一口氣喝完了一小瓶水。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo is looking at the old castle and enjoying every detail.",
+      "promptZh": "里奧正在欣賞古堡的每個細節。",
+      "starter": "Leo",
+      "answer": "Leo is drinking in every detail of the old castle.",
+      "answerZh": "里奧正在細味古堡的每個細節。",
+      "highlight": "drinking in every detail of",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Shall we raise our glasses to celebrate the new year?",
+      "promptZh": "我們舉杯慶祝新一年好嗎?",
+      "starter": "Shall",
+      "answer": "Shall we drink to the new year?",
+      "answerZh": "我們為新一年乾杯好嗎?",
+      "highlight": "drink",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某事乾杯"
+    },
+    {
+      "id": "phrasal-verb-140-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The baby has finished all the water in the cup.",
+      "promptZh": "嬰兒已經喝光杯中的水。",
+      "starter": "The",
+      "answer": "The baby has drunk up all the water in the cup.",
+      "answerZh": "嬰兒已經喝光杯中的水。",
+      "highlight": "drunk up",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The runner is quickly finishing the small glass of water before the race begins.",
+      "promptZh": "跑手正在比賽開始前迅速喝下那小杯水。",
+      "starter": "The",
+      "answer": "The runner is drinking the small glass of water down quickly before the race begins.",
+      "answerZh": "跑手正在比賽開始前迅速喝下那小杯水。",
+      "highlight": "drinking",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By sunset, the children had fully enjoyed the festival atmosphere.",
+      "promptZh": "日落前,孩子們已充分感受了節日氣氛。",
+      "starter": "By",
+      "answer": "By sunset, the children had drunk in the festival atmosphere.",
+      "answerZh": "日落前,孩子們已充分感受了節日氣氛。",
+      "highlight": "drunk in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "充分感受周圍的氣氛"
+    },
+    {
+      "id": "phrasal-verb-140-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not leave half the tea; finish it.",
+      "promptZh": "不要剩下半杯茶;把它喝完吧。",
+      "starter": "Do",
+      "answer": "Do not leave half the tea; drink it up.",
+      "answerZh": "不要剩下半杯茶;把它喝完吧。",
+      "highlight": "drink",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The guests were raising their glasses and wishing the host good health when the music started.",
+      "promptZh": "音樂開始時,賓客正舉杯祝願主人身體健康。",
+      "starter": "The",
+      "answer": "The guests were drinking to the host’s health when the music started.",
+      "answerZh": "音樂開始時,賓客正為主人的健康乾杯。",
+      "highlight": "drinking to",
+      "targetForm": "drink to somebody/something",
+      "targetMeaningZh": "為某人的健康或幸福乾杯"
+    },
+    {
+      "id": "phrasal-verb-140-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can you finish this juice in one go?",
+      "promptZh": "你可以一口氣喝下這杯果汁嗎?",
+      "starter": "Can",
+      "answer": "Can you drink this juice down in one go?",
+      "answerZh": "你可以一口氣喝下這杯果汁嗎?",
+      "highlight": "drink",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速或一口氣把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did you take time to enjoy the view from the train?",
+      "promptZh": "你有沒有細心欣賞火車外的景色?",
+      "starter": "Did",
+      "answer": "Did you drink in the view from the train?",
+      "answerZh": "你有沒有細心欣賞火車外的景色?",
+      "highlight": "drink in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I only poured a little juice, so please finish it.",
+      "promptZh": "我只倒了一點果汁,所以請把它喝完。",
+      "starter": "I",
+      "answer": "I only poured a little juice, so please drink it up.",
+      "answerZh": "我只倒了一點果汁,所以請把它喝完。",
+      "highlight": "drink",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Sam did not like the medicine, but he swallowed all of it in one mouthful.",
+      "promptZh": "森姆不喜歡那藥水,但仍一口把它全部喝下。",
+      "starter": "Sam",
+      "answer": "Sam did not like the medicine, but he drank it down in one mouthful.",
+      "answerZh": "森姆不喜歡那藥水,但仍一口把它全部喝下。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速或一口氣把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I looked around the grand theatre, fully enjoying and remembering every detail.",
+      "promptZh": "我環顧宏偉的劇院,細味並記住眼前的每個細節。",
+      "starter": "I",
+      "answer": "I looked around the grand theatre, drinking it all in.",
+      "answerZh": "我環顧宏偉的劇院,細味並記住眼前的一切。",
+      "highlight": "drinking it all in",
+      "targetForm": "drink it all in",
+      "targetMeaningZh": "充分感受並細味眼前的一切"
+    },
+    {
+      "id": "phrasal-verb-140-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Before dinner, they lifted their glasses to thank their parents for years of support.",
+      "promptZh": "晚餐前,他們舉杯感謝父母多年來的支持。",
+      "starter": "Before",
+      "answer": "Before dinner, they drank to their parents and thanked them for years of support.",
+      "answerZh": "晚餐前,他們為父母乾杯,並感謝父母多年來的支持。",
+      "highlight": "drank",
+      "targetForm": "drink to somebody",
+      "targetMeaningZh": "為某人舉杯祝賀或致意"
+    },
+    {
+      "id": "phrasal-verb-140-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The waiter waited while the last customer finished his drink.",
+      "promptZh": "侍應等候最後一位客人把飲品喝完。",
+      "starter": "The",
+      "answer": "The waiter waited while the last customer drank up.",
+      "answerZh": "侍應等候最後一位客人把飲品喝完。",
+      "highlight": "drank up",
+      "targetForm": "drink up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "I poured the last of the juice into a glass and finished it quickly.",
+      "promptZh": "我把剩下的果汁倒進杯中,然後迅速喝下。",
+      "starter": "I",
+      "answer": "I poured the last of the juice into a glass and drank it down.",
+      "answerZh": "我把剩下的果汁倒進杯中,然後迅速喝下。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did the club members raise their glasses to celebrate Emma’s success?",
+      "promptZh": "為甚麼俱樂部成員舉杯慶祝愛瑪成功?",
+      "starter": "Why",
+      "answer": "Why did the club members drink to Emma’s success?",
+      "answerZh": "為甚麼俱樂部成員為愛瑪的成功乾杯?",
+      "highlight": "drink",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某事舉杯慶祝"
+    },
+    {
+      "id": "phrasal-verb-140-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ava heard the wonderful news and stood silently, enjoying the moment completely.",
+      "promptZh": "艾娃聽到這個好消息後默默站着,細味這一刻。",
+      "starter": "Ava",
+      "answer": "Ava heard the wonderful news and stood silently, drinking it in.",
+      "answerZh": "艾娃聽到這個好消息後默默站着,細味這一刻。",
+      "highlight": "drinking it in",
+      "targetForm": "drink it in",
+      "targetMeaningZh": "充分感受並細味某事"
+    },
+    {
+      "id": "phrasal-verb-140-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The children finished their juice and placed the empty cups in the bin.",
+      "promptZh": "孩子們喝完果汁,然後把空杯放進垃圾桶。",
+      "starter": "The",
+      "answer": "The children drank their juice up and placed the empty cups in the bin.",
+      "answerZh": "孩子們喝完果汁,然後把空杯放進垃圾桶。",
+      "highlight": "drank",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why did Kai finish the water so fast?",
+      "promptZh": "啟為甚麼這麼快便喝下那杯水?",
+      "starter": "Why",
+      "answer": "Why did Kai drink the water down so fast?",
+      "answerZh": "啟為甚麼這麼快便喝下那杯水?",
+      "highlight": "drink",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "At the night market, the tourists slowed down to enjoy the smells, lights and music around them.",
+      "promptZh": "在夜市中,遊客放慢腳步,細味周圍的氣味、燈光和音樂。",
+      "starter": "At",
+      "answer": "At the night market, the tourists slowed down to drink in the smells, lights and music around them.",
+      "answerZh": "在夜市中,遊客放慢腳步,細味周圍的氣味、燈光和音樂。",
+      "highlight": "drink in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "At the goodbye meal, we lifted our glasses for Daniel and wished him well in his new job.",
+      "promptZh": "在告別聚餐上,我們為丹尼爾舉杯,祝願他在新工作中一切順利。",
+      "starter": "At",
+      "answer": "At the goodbye meal, we drank to Daniel and wished him well in his new job.",
+      "answerZh": "在告別聚餐上,我們為丹尼爾乾杯,祝願他在新工作中一切順利。",
+      "highlight": "drank to",
+      "targetForm": "drink to somebody",
+      "targetMeaningZh": "為某人舉杯祝福"
+    },
+    {
+      "id": "phrasal-verb-140-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Eva filled a small glass and finished the water in one go.",
+      "promptZh": "伊娃倒了一小杯水,然後一口氣喝下。",
+      "starter": "Eva",
+      "answer": "Eva filled a small glass and drank the water down in one go.",
+      "answerZh": "伊娃倒了一小杯水,然後一口氣喝下。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速或一口氣把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "There is no need to drink quickly, but please finish your drink before we leave.",
+      "promptZh": "你不用喝得很快,但請在我們離開前把飲品喝完。",
+      "starter": "There",
+      "answer": "There is no need to drink quickly, but please drink up before we leave.",
+      "answerZh": "你不用喝得很快,但請在我們離開前把飲品喝完。",
+      "highlight": "drink up",
+      "targetForm": "drink up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "During her first visit to the studio, Priya listened very closely to every word the singer said.",
+      "promptZh": "普里雅第一次到訪錄音室時,細心聆聽歌手說的每一句話。",
+      "starter": "During",
+      "answer": "During her first visit to the studio, Priya drank in every word the singer said.",
+      "answerZh": "普里雅第一次到訪錄音室時,細心聆聽歌手說的每一句話。",
+      "highlight": "drank in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "專心聆聽並充分理解"
+    },
+    {
+      "id": "phrasal-verb-140-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team had lost the match, but they still raised their glasses and said they hoped next season would be better.",
+      "promptZh": "球隊雖然輸了比賽,但仍舉杯祝願下個賽季有更好的表現。",
+      "starter": "The",
+      "answer": "The team had lost the match, but they still drank to a better season next year.",
+      "answerZh": "球隊雖然輸了比賽,但仍為下個更好的賽季乾杯。",
+      "highlight": "drank to a better season",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某個願望或目標乾杯"
+    },
+    {
+      "id": "phrasal-verb-140-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The coach gave Leo a cup of water, and he finished it quickly before returning to the field.",
+      "promptZh": "教練給里奧一杯水,他迅速喝下後便返回球場。",
+      "starter": "The",
+      "answer": "The coach gave Leo a cup of water, and he drank it down before returning to the field.",
+      "answerZh": "教練給里奧一杯水,他迅速喝下後便返回球場。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The crowd fell quiet and fully enjoyed the beauty of the final song.",
+      "promptZh": "群眾安靜下來,細味最後一首歌的美妙之處。",
+      "starter": "The",
+      "answer": "The crowd fell quiet, drinking in the beauty of the final song.",
+      "answerZh": "群眾安靜下來,細味最後一首歌的美妙之處。",
+      "highlight": "drinking in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "There was only one mouthful left, so I finished it.",
+      "promptZh": "只剩下一口,所以我把它喝完了。",
+      "starter": "There",
+      "answer": "There was only one mouthful left, so I drank it up.",
+      "answerZh": "只剩下一口,所以我把它喝完了。",
+      "highlight": "drank",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Let us raise our glasses to celebrate friendship and many more years together.",
+      "promptZh": "讓我們舉杯慶祝友誼,並祝願大家再共度許多年。",
+      "starter": "Let",
+      "answer": "Let us drink to friendship and many more years together.",
+      "answerZh": "讓我們為友誼和未來更多共聚的歲月乾杯。",
+      "highlight": "drink",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某事舉杯祝賀"
+    },
+    {
+      "id": "phrasal-verb-140-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We were about to leave the café, so everyone finished their drinks.",
+      "promptZh": "我們正準備離開咖啡店,所以大家都把飲品喝完了。",
+      "starter": "We",
+      "answer": "We were about to leave the café, so everyone drank up.",
+      "answerZh": "我們正準備離開咖啡店,所以大家都把飲品喝完了。",
+      "highlight": "drank up",
+      "targetForm": "drink up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the final examination results arrived, the family raised their glasses to celebrate Chloe’s hard work and success.",
+      "promptZh": "期末考試成績公布後,家人舉杯慶祝克洛伊的努力和成功。",
+      "starter": "When",
+      "answer": "When the final examination results arrived, the family drank to Chloe’s hard work and success.",
+      "answerZh": "期末考試成績公布後,家人為克洛伊的努力和成功乾杯。",
+      "highlight": "drank",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某事舉杯慶祝"
+    },
+    {
+      "id": "phrasal-verb-140-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After months away, Ben stepped onto the beach and took time to enjoy the familiar sights and sounds.",
+      "promptZh": "離開多月後,賓踏上沙灘,細味熟悉的景色和聲音。",
+      "starter": "After",
+      "answer": "After months away, Ben stepped onto the beach and drank in the familiar sights and sounds.",
+      "answerZh": "離開多月後,賓踏上沙灘,細味熟悉的景色和聲音。",
+      "highlight": "drank in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Although the lemon drink was very sour, Nora closed her eyes and finished it in one go.",
+      "promptZh": "雖然檸檬飲品很酸,諾拉仍閉上眼睛一口氣喝下。",
+      "starter": "Although",
+      "answer": "Although the lemon drink was very sour, Nora closed her eyes and drank it down in one go.",
+      "answerZh": "雖然檸檬飲品很酸,諾拉仍閉上眼睛一口氣喝下。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速或一口氣把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "At midnight, people across the room raised their glasses to welcome the year ahead.",
+      "promptZh": "午夜時,房內眾人舉杯迎接新一年。",
+      "starter": "At",
+      "answer": "At midnight, people across the room drank to the year ahead.",
+      "answerZh": "午夜時,房內眾人為新一年乾杯。",
+      "highlight": "drank",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某事舉杯慶祝或祝福"
+    },
+    {
+      "id": "phrasal-verb-140-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The child did not like the vegetable juice, but her father asked her to finish it before playing.",
+      "promptZh": "孩子不喜歡蔬菜汁,但父親請她在玩耍前把它喝完。",
+      "starter": "The",
+      "answer": "The child did not like the vegetable juice, but her father asked her to drink it up before playing.",
+      "answerZh": "孩子不喜歡蔬菜汁,但父親請她在玩耍前把它喝完。",
+      "highlight": "drink",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    },
+    {
+      "id": "phrasal-verb-140-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "For a few minutes, nobody spoke; they simply enjoyed the peaceful view before the rain came.",
+      "promptZh": "有幾分鐘沒有人說話;他們只是在下雨前細味寧靜的景色。",
+      "starter": "For",
+      "answer": "For a few minutes, nobody spoke; they simply drank in the peaceful view before the rain came.",
+      "answerZh": "有幾分鐘沒有人說話;他們只是在下雨前細味寧靜的景色。",
+      "highlight": "drank in",
+      "targetForm": "drink in something",
+      "targetMeaningZh": "細心欣賞並充分感受"
+    },
+    {
+      "id": "phrasal-verb-140-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The guests stood, thanked the volunteers and raised their glasses to celebrate everything they had achieved.",
+      "promptZh": "賓客站起來感謝義工,並舉杯慶祝大家取得的一切成果。",
+      "starter": "The",
+      "answer": "The guests stood, thanked the volunteers and drank to everything they had achieved.",
+      "answerZh": "賓客站起來感謝義工,並為大家取得的一切成果乾杯。",
+      "highlight": "drank",
+      "targetForm": "drink to something",
+      "targetMeaningZh": "為某項成果舉杯慶祝"
+    },
+    {
+      "id": "phrasal-verb-140-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The ferry was about to leave, so Ravi finished his juice quickly and hurried to the gate.",
+      "promptZh": "渡輪即將開出,所以拉維迅速喝下果汁,趕往閘口。",
+      "starter": "The",
+      "answer": "The ferry was about to leave, so Ravi drank his juice down quickly and hurried to the gate.",
+      "answerZh": "渡輪即將開出,所以拉維迅速喝下果汁,趕往閘口。",
+      "highlight": "drank",
+      "targetForm": "drink something down",
+      "targetMeaningZh": "迅速把飲品喝下"
+    },
+    {
+      "id": "phrasal-verb-140-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Before the train arrived, they finished the cold coffee they had bought and placed the empty cups in a bin.",
+      "promptZh": "火車到達前,他們喝完買來的凍咖啡,並把空杯放進垃圾桶。",
+      "starter": "Before",
+      "answer": "Before the train arrived, they drank up the cold coffee they had bought and placed the empty cups in a bin.",
+      "answerZh": "火車到達前,他們喝完買來的凍咖啡,並把空杯放進垃圾桶。",
+      "highlight": "drank up",
+      "targetForm": "drink something up",
+      "targetMeaningZh": "把飲品喝完"
+    }
+  ]
+}

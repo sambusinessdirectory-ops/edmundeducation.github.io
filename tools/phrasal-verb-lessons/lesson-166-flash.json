@@ -1,0 +1,1198 @@
+{
+  "id": "phrasal-verb-166",
+  "order": 166,
+  "slug": "flash",
+  "version": "1",
+  "title": "FLASH 動詞片語",
+  "titleEn": "Flash",
+  "titleZh": "FLASH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 165 - FLASH.pdf",
+    "sourceNumber": 165,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLASH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLASH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLASH",
+      "highlight": "FLASH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The smell made my mind flash back to a family picnic.",
+      "zh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+      "highlight": "flash back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "During the journey, the hours flashed by and fields flashed past the window.",
+      "zh": "旅途中,時間飛快過去,田野亦快速掠過車窗。",
+      "highlight": "flashed by",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She flashed her VIP pass around.",
+      "zh": "她四處炫耀自己的貴賓通行證。",
+      "highlight": "flashed her VIP pass around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "突然回想起以前的事情;思緒突然回到過去；時間飛快過去;快速經過某人或某物；四處炫耀某物;得意地把某物展示給很多人看",
+    "en": "flash back / flash back to something; flash by/past; flash by/past somebody/something; flash something around/about",
+    "naturalZh": [
+      "突然回想起以前的事情;思緒突然回到過去",
+      "時間飛快過去;快速經過某人或某物",
+      "四處炫耀某物;得意地把某物展示給很多人看"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "flash back / flash back to something",
+      "titleZh": "突然回想起以前的事情;思緒突然回到過去",
+      "titleEn": "flash back / flash back to something",
+      "descriptionZh": "突然回想起以前的事情;思緒突然回到過去",
+      "descriptionEn": "The smell made my mind flash back to a family picnic.",
+      "examples": [
+        {
+          "en": "The smell made my mind flash back to a family picnic.",
+          "zh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+          "highlight": "flash back to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flash by/past; flash by/past somebody/something",
+      "titleZh": "時間飛快過去;快速經過某人或某物",
+      "titleEn": "flash by/past; flash by/past somebody/something",
+      "descriptionZh": "時間飛快過去;快速經過某人或某物",
+      "descriptionEn": "During the journey, the hours flashed by and fields flashed past the window.",
+      "examples": [
+        {
+          "en": "During the journey, the hours flashed by and fields flashed past the window.",
+          "zh": "旅途中,時間飛快過去,田野亦快速掠過車窗。",
+          "highlight": "flashed by"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "flash something around/about",
+      "titleZh": "四處炫耀某物;得意地把某物展示給很多人看",
+      "titleEn": "flash something around/about",
+      "descriptionZh": "四處炫耀某物;得意地把某物展示給很多人看",
+      "descriptionEn": "She flashed her VIP pass around.",
+      "examples": [
+        {
+          "en": "She flashed her VIP pass around.",
+          "zh": "她四處炫耀自己的貴賓通行證。",
+          "highlight": "flashed her VIP pass around"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FLASH 片語動詞的實際用途",
+    "labelEn": "FLASH Phrasal Verbs in Use",
+    "summaryZh": "flash back 可以描述某段回憶突然再次出現在腦海中。；flash by 和 flash past 可以描述日子飛快過去,或人物和交通工具迅速經過。；flash something around/about 可以表示某人四處炫耀金錢、門票、證件或其他物品。；當人們談論回憶、忙碌的日子、旅程或炫耀行為時,這些表達十分有用。",
+    "summaryEn": "Flash back helps you describe a memory that suddenly returns to your mind. Flash by and flash past can describe busy days passing quickly or people and vehicles moving past at high speed. Flash something around/about shows that someone is proudly displaying money, tickets, cards or other possessions. These expressions are useful when people talk about memories, busy periods, journeys and proud behaviour.",
+    "contextsZh": [
+      "清楚表達突然湧現的回憶",
+      "表達時間流逝或移動的速度",
+      "描述炫耀行為",
+      "理解故事和對話中的 FLASH 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about sudden memories",
+      "Show how quickly time or movement passes",
+      "Describe showy behaviour",
+      "Understand FLASH expressions in stories and conversations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FLASH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLASH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "flash back / flash back to something",
+    "fixedHighlight": "flash back / flash back to something",
+    "fixedZh": "閱讀整句,選出意思相同的 FLASH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLASH expression that gives the same meaning.",
+    "correct": "flash back to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；flash by/past 可以表示時間飛快過去,也可以表示某人或某物快速經過。請仔細閱讀整個情境。；在 FLASH ... AROUND/ABOUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Flash by/past can describe time passing very quickly or a person or thing moving past very quickly. Read the full situation carefully. When using it or them with FLASH... AROUND/ABOUT, place the word as shown: flash it around flash them about",
+    "variableItemsZh": [
+      "flash back / flash back to something",
+      "flash by/past; flash by/past somebody/something",
+      "flash something around/about"
+    ],
+    "variableItemsEn": [
+      "flash back / flash back to something",
+      "flash by/past; flash by/past somebody/something",
+      "flash something around/about"
+    ],
+    "forms": [
+      {
+        "formZh": "突然回想起以前的事情;思緒突然回到過去",
+        "formEn": "flash back / flash back to something",
+        "exampleZh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+        "exampleEn": "The smell made my mind flash back to a family picnic.",
+        "highlight": "flash back to"
+      },
+      {
+        "formZh": "時間飛快過去;快速經過某人或某物",
+        "formEn": "flash by/past; flash by/past somebody/something",
+        "exampleZh": "旅途中,時間飛快過去,田野亦快速掠過車窗。",
+        "exampleEn": "During the journey, the hours flashed by and fields flashed past the window.",
+        "highlight": "flashed by"
+      },
+      {
+        "formZh": "四處炫耀某物;得意地把某物展示給很多人看",
+        "formEn": "flash something around/about",
+        "exampleZh": "她四處炫耀自己的貴賓通行證。",
+        "exampleEn": "She flashed her VIP pass around.",
+        "highlight": "flashed her VIP pass around"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "突然回想起以前的事情;思緒突然回到過去",
+      "titleEn": "flash back / flash back to something",
+      "formula": "flash back / flash back to something",
+      "highlight": "flash back / flash back to something",
+      "descriptionZh": "突然回想起以前的事情;思緒突然回到過去",
+      "descriptionEn": "The smell made my mind flash back to a family picnic.",
+      "examples": [
+        {
+          "en": "The smell made my mind flash back to a family picnic.",
+          "zh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+          "highlight": "flash back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "時間飛快過去;快速經過某人或某物",
+      "titleEn": "flash by/past; flash by/past somebody/something",
+      "formula": "flash by/past; flash by/past somebody/something",
+      "highlight": "flash by/past; flash by/past somebody/something",
+      "descriptionZh": "時間飛快過去;快速經過某人或某物",
+      "descriptionEn": "During the journey, the hours flashed by and fields flashed past the window.",
+      "examples": [
+        {
+          "en": "During the journey, the hours flashed by and fields flashed past the window.",
+          "zh": "旅途中,時間飛快過去,田野亦快速掠過車窗。",
+          "highlight": "flashed by"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "四處炫耀某物;得意地把某物展示給很多人看",
+      "titleEn": "flash something around/about",
+      "formula": "flash something around/about",
+      "highlight": "flash something around/about",
+      "descriptionZh": "四處炫耀某物;得意地把某物展示給很多人看",
+      "descriptionEn": "She flashed her VIP pass around.",
+      "examples": [
+        {
+          "en": "She flashed her VIP pass around.",
+          "zh": "她四處炫耀自己的貴賓通行證。",
+          "highlight": "flashed her VIP pass around"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達突然湧現的回憶",
+      "titleEn": "Talk clearly about sudden memories",
+      "zh": "flash back 可以描述某段回憶突然再次出現在腦海中。",
+      "en": "Flash back helps you describe a memory that suddenly returns to your mind."
+    },
+    {
+      "titleZh": "表達時間流逝或移動的速度",
+      "titleEn": "Show how quickly time or movement passes",
+      "zh": "flash by 和 flash past 可以描述日子飛快過去,或人物和交通工具迅速經過。",
+      "en": "Flash by and flash past can describe busy days passing quickly or people and vehicles moving past at high speed."
+    },
+    {
+      "titleZh": "描述炫耀行為",
+      "titleEn": "Describe showy behaviour",
+      "zh": "flash something around/about 可以表示某人四處炫耀金錢、門票、證件或其他物品。",
+      "en": "Flash something around/about shows that someone is proudly displaying money, tickets, cards or other possessions."
+    },
+    {
+      "titleZh": "理解故事和對話中的 FLASH 表達",
+      "titleEn": "Understand FLASH expressions in stories and conversations",
+      "zh": "當人們談論回憶、忙碌的日子、旅程或炫耀行為時,這些表達十分有用。",
+      "en": "These expressions are useful when people talk about memories, busy periods, journeys and proud behaviour."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達突然湧現的回憶",
+      "表達時間流逝或移動的速度",
+      "描述炫耀行為",
+      "理解故事和對話中的 FLASH 表達"
+    ],
+    "contextsEn": [
+      "Talk clearly about sudden memories",
+      "Show how quickly time or movement passes",
+      "Describe showy behaviour",
+      "Understand FLASH expressions in stories and conversations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達突然湧現的回憶",
+        "titleEn": "Talk clearly about sudden memories",
+        "zh": "flash back 可以描述某段回憶突然再次出現在腦海中。",
+        "en": "Flash back helps you describe a memory that suddenly returns to your mind.",
+        "examples": [
+          {
+            "en": "The smell made my mind flash back to a family picnic.",
+            "zh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+            "highlight": "flash back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達時間流逝或移動的速度",
+        "titleEn": "Show how quickly time or movement passes",
+        "zh": "flash by 和 flash past 可以描述日子飛快過去,或人物和交通工具迅速經過。",
+        "en": "Flash by and flash past can describe busy days passing quickly or people and vehicles moving past at high speed.",
+        "examples": [
+          {
+            "en": "During the journey, the hours flashed by and fields flashed past the window.",
+            "zh": "旅途中,時間飛快過去,田野亦快速掠過車窗。",
+            "highlight": "flashed by"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述炫耀行為",
+        "titleEn": "Describe showy behaviour",
+        "zh": "flash something around/about 可以表示某人四處炫耀金錢、門票、證件或其他物品。",
+        "en": "Flash something around/about shows that someone is proudly displaying money, tickets, cards or other possessions.",
+        "examples": [
+          {
+            "en": "She flashed her VIP pass around.",
+            "zh": "她四處炫耀自己的貴賓通行證。",
+            "highlight": "flashed her VIP pass around"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解故事和對話中的 FLASH 表達",
+        "titleEn": "Understand FLASH expressions in stories and conversations",
+        "zh": "當人們談論回憶、忙碌的日子、旅程或炫耀行為時,這些表達十分有用。",
+        "en": "These expressions are useful when people talk about memories, busy periods, journeys and proud behaviour.",
+        "examples": [
+          {
+            "en": "The smell made my mind flash back to a family picnic.",
+            "zh": "那種氣味令我的思緒突然回到一次家庭野餐。",
+            "highlight": "flash back to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FLASH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLASH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FLASH 片語動詞。",
+      "en": "Read the whole sentence and choose the FLASH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "flash by/past 可以表示時間飛快過去,也可以表示某人或某物快速經過。請仔細閱讀整個情境。",
+      "titleEn": "Flash by/past can describe time passing very quickly or a person or thing moving past very quickly.",
+      "zh": "flash by/past 可以表示時間飛快過去,也可以表示某人或某物快速經過。請仔細閱讀整個情境。",
+      "en": "Flash by/past can describe time passing very quickly or a person or thing moving past very quickly. Read the full situation carefully."
+    },
+    {
+      "titleZh": "在 FLASH ... AROUND/ABOUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them with FLASH.",
+      "zh": "在 FLASH ... AROUND/ABOUT 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them with FLASH... AROUND/ABOUT, place the word as shown: flash it around flash them about"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLASH 動詞片語句子改寫練習",
+    "titleEn": "FLASH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLASH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLASH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-166-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "The school holiday passed very quickly.",
+      "promptZh": "學校假期很快便過去了。",
+      "starter": "The",
+      "answer": "The school holiday flashed by.",
+      "answerZh": "學校假期很快便過去了。",
+      "highlight": "flashed by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 10,
+      "prompt": "My mind suddenly returned to my first day at secondary school.",
+      "promptZh": "我的思緒突然回到中學第一天。",
+      "starter": "My",
+      "answer": "My mind suddenly flashed back to my first day at secondary school.",
+      "answerZh": "我的思緒突然回到中學第一天。",
+      "highlight": "flashed back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Jordan showed his new phone to everyone in a proud way.",
+      "promptZh": "喬丹得意地向每個人展示他的新手機。",
+      "starter": "Jordan",
+      "answer": "Jordan flashed his new phone around.",
+      "answerZh": "喬丹四處炫耀他的新手機。",
+      "highlight": "flashed",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "A blue motorbike went past us very quickly.",
+      "promptZh": "一輛藍色電單車很快從我們身旁駛過。",
+      "starter": "A",
+      "answer": "A blue motorbike flashed by us.",
+      "answerZh": "一輛藍色電單車飛快地從我們身旁駛過。",
+      "highlight": "flashed by",
+      "targetForm": "flash by somebody",
+      "targetMeaningZh": "快速經過某人"
+    },
+    {
+      "id": "phrasal-verb-166-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Stop showing your money to everyone in a proud way.",
+      "promptZh": "不要得意地把你的錢展示給每個人看。",
+      "starter": "Stop",
+      "answer": "Stop flashing your money around.",
+      "answerZh": "不要四處炫耀你的錢。",
+      "highlight": "flashing",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "Her thoughts suddenly returned to the summer she spent with her cousins.",
+      "promptZh": "她的思緒突然回到與表兄弟姊妹共度的那個夏天。",
+      "starter": "Her",
+      "answer": "Her thoughts suddenly flashed back to the summer she spent with her cousins.",
+      "answerZh": "她的思緒突然回到與表兄弟姊妹共度的那個夏天。",
+      "highlight": "flashed back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The afternoon passed before we noticed it.",
+      "promptZh": "我們還未察覺,下午便過去了。",
+      "starter": "The",
+      "answer": "The afternoon flashed by before we noticed it.",
+      "answerZh": "我們還未察覺,下午便飛快地過去了。",
+      "highlight": "flashed by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Chloe proudly showed her concert pass to everyone.",
+      "promptZh": "高露兒自豪地向每個人展示她的演唱會通行證。",
+      "starter": "Chloe",
+      "answer": "Chloe flashed her concert pass about.",
+      "answerZh": "高露兒四處炫耀她的演唱會通行證。",
+      "highlight": "flashed",
+      "targetForm": "flash something about",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "Three runners moved past the crowd very quickly.",
+      "promptZh": "三名跑手飛快地經過人群。",
+      "starter": "Three",
+      "answer": "Three runners flashed past the crowd.",
+      "answerZh": "三名跑手飛快地經過人群。",
+      "highlight": "flashed",
+      "targetForm": "flash past somebody/something",
+      "targetMeaningZh": "快速經過某人或某物"
+    },
+    {
+      "id": "phrasal-verb-166-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Daniel’s mind suddenly returned to the small flat where he grew up.",
+      "promptZh": "丹尼爾的思緒突然回到他成長時居住的小單位。",
+      "starter": "Daniel’s",
+      "answer": "Daniel’s mind suddenly flashed back to the small flat where he grew up.",
+      "answerZh": "丹尼爾的思緒突然回到他成長時居住的小單位。",
+      "highlight": "flashed back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "She is proudly showing her gold card to everyone at the party.",
+      "promptZh": "她正在派對上自豪地向每個人展示自己的金卡。",
+      "starter": "She",
+      "answer": "She is flashing her gold card around at the party.",
+      "answerZh": "她正在派對上四處炫耀自己的金卡。",
+      "highlight": "flashing",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "His mind often returns to the past without warning.",
+      "promptZh": "他的思緒經常毫無預兆地回到過去。",
+      "starter": "His",
+      "answer": "His mind often flashes back without warning.",
+      "answerZh": "他的思緒經常毫無預兆地突然回到過去。",
+      "highlight": "flashes back",
+      "targetForm": "flash back",
+      "targetMeaningZh": "突然回想起往事"
+    },
+    {
+      "id": "phrasal-verb-166-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The weeks are passing very quickly this term.",
+      "promptZh": "這學期的數個星期過得很快。",
+      "starter": "The",
+      "answer": "The weeks are flashing by this term.",
+      "answerZh": "這學期的數個星期正飛快地過去。",
+      "highlight": "flashing by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Why are you holding up that large roll of cash just to impress everyone?",
+      "promptZh": "你為甚麼要舉起那一大疊現金,刻意令所有人留下深刻印象?",
+      "starter": "Why",
+      "answer": "Why are you flashing that large roll of cash around?",
+      "answerZh": "你為甚麼要四處炫耀那一大疊現金?",
+      "highlight": "flashing",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The old song can make my mind return suddenly to primary school.",
+      "promptZh": "那首舊歌可以令我的思緒突然回到小學時代。",
+      "starter": "The",
+      "answer": "The old song can make my mind flash back to primary school.",
+      "answerZh": "那首舊歌可以令我的思緒突然回到小學時代。",
+      "highlight": "flash back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Evan kept proudly showing the special ticket to everyone.",
+      "promptZh": "伊雲不斷得意地向所有人展示那張特別門票。",
+      "starter": "Evan",
+      "answer": "Evan kept flashing the special ticket about.",
+      "answerZh": "伊雲不斷四處炫耀那張特別門票。",
+      "highlight": "flashing",
+      "targetForm": "flash something about",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Did the whole weekend pass very quickly for you?",
+      "promptZh": "整個週末對你來說是否過得很快?",
+      "starter": "Did",
+      "answer": "Did the whole weekend flash by for you?",
+      "answerZh": "整個週末對你來說是否飛快地過去了?",
+      "highlight": "flash by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We will not show the expensive tickets to everyone just to impress them.",
+      "promptZh": "我們不會為了令人留下深刻印象,而向每個人展示那些昂貴門票。",
+      "starter": "We",
+      "answer": "We will not flash the expensive tickets around.",
+      "answerZh": "我們不會四處炫耀那些昂貴門票。",
+      "highlight": "flash",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "I have often suddenly remembered our first family holiday.",
+      "promptZh": "我經常突然想起我們第一次家庭旅行。",
+      "starter": "I",
+      "answer": "I have often flashed back to our first family holiday.",
+      "answerZh": "我經常突然想起我們第一次家庭旅行。",
+      "highlight": "flashed back to",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "From the bus, we saw the shops move past us very quickly, one after another.",
+      "promptZh": "我們從巴士上看見店舖一間接一間地飛快掠過。",
+      "starter": "From",
+      "answer": "From the bus, we saw the shops flash by us one after another.",
+      "answerZh": "我們從巴士上看見店舖一間接一間地飛快掠過。",
+      "highlight": "flash by",
+      "targetForm": "flash by somebody",
+      "targetMeaningZh": "快速經過某人"
+    },
+    {
+      "id": "phrasal-verb-166-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Whenever she smells fresh bread, her mind suddenly returns to her grandmother’s kitchen.",
+      "promptZh": "每當她聞到新鮮麵包的香味,她的思緒便突然回到祖母的廚房。",
+      "starter": "Whenever",
+      "answer": "Whenever she smells fresh bread, her mind flashes back to her grandmother’s kitchen.",
+      "answerZh": "每當她聞到新鮮麵包的香味,她的思緒便突然回到祖母的廚房。",
+      "highlight": "flashes back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Before I could read the number, the taxi had gone past me very quickly.",
+      "promptZh": "我還未看清號碼,那輛的士已飛快地從我身旁駛過。",
+      "starter": "Before",
+      "answer": "Before I could read the number, the taxi had flashed past me.",
+      "answerZh": "我還未看清號碼,那輛的士已飛快地從我身旁駛過。",
+      "highlight": "flashed",
+      "targetForm": "flash past somebody",
+      "targetMeaningZh": "快速經過某人"
+    },
+    {
+      "id": "phrasal-verb-166-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "He showed it proudly to everyone as soon as he opened the gift.",
+      "promptZh": "他一打開禮物,便得意地把它展示給每個人看。",
+      "starter": "He",
+      "answer": "He flashed it around as soon as he opened the gift.",
+      "answerZh": "他一打開禮物,便四處炫耀它。",
+      "highlight": "flashed",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "During the speech, my thoughts kept returning to the past.",
+      "promptZh": "演講期間,我的思緒不斷回到過去。",
+      "starter": "During",
+      "answer": "During the speech, my thoughts kept flashing back.",
+      "answerZh": "演講期間,我的思緒不斷突然回到過去。",
+      "highlight": "flashing back",
+      "targetForm": "flash back",
+      "targetMeaningZh": "突然回想起往事"
+    },
+    {
+      "id": "phrasal-verb-166-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The children were proudly showing the medals to everyone after the race.",
+      "promptZh": "比賽後,孩子們正自豪地向每個人展示獎牌。",
+      "starter": "The",
+      "answer": "The children were flashing the medals around after the race.",
+      "answerZh": "比賽後,孩子們正四處炫耀獎牌。",
+      "highlight": "flashing",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "While we stood at the crossing, several bicycles went past us very quickly.",
+      "promptZh": "我們站在過路處時,幾輛單車飛快地從我們身旁駛過。",
+      "starter": "While",
+      "answer": "While we stood at the crossing, several bicycles flashed by us.",
+      "answerZh": "我們站在過路處時,幾輛單車飛快地從我們身旁駛過。",
+      "highlight": "flashed by",
+      "targetForm": "flash by somebody",
+      "targetMeaningZh": "快速經過某人"
+    },
+    {
+      "id": "phrasal-verb-166-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did your mind return to the past without warning?",
+      "promptZh": "你的思緒有沒有毫無預兆地回到過去?",
+      "starter": "Did",
+      "answer": "Did your mind flash back without warning?",
+      "answerZh": "你的思緒有沒有毫無預兆地突然回到過去?",
+      "highlight": "flash back",
+      "targetForm": "flash back",
+      "targetMeaningZh": "突然回想起往事"
+    },
+    {
+      "id": "phrasal-verb-166-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "After receiving the tickets, Priya proudly showed them to everyone.",
+      "promptZh": "普里雅收到門票後,得意地把它們展示給每個人看。",
+      "starter": "After",
+      "answer": "After receiving the tickets, Priya flashed them about for everyone to see.",
+      "answerZh": "普里雅收到門票後,便四處炫耀它們,讓所有人看見。",
+      "highlight": "flashed",
+      "targetForm": "flash something about",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "As we walked through the museum, two hours passed before we noticed it.",
+      "promptZh": "我們參觀博物館時,兩小時在我們察覺前便過去了。",
+      "starter": "As",
+      "answer": "As we walked through the museum, two hours flashed past before we noticed it.",
+      "answerZh": "我們參觀博物館時,兩小時在我們察覺前便飛快地過去了。",
+      "highlight": "flashed past",
+      "targetForm": "flash past",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The photograph made us suddenly remember the past.",
+      "promptZh": "那張相片令我們突然想起往事。",
+      "starter": "The",
+      "answer": "The photograph made us flash back.",
+      "answerZh": "那張相片令我們突然想起往事。",
+      "highlight": "flash back",
+      "targetForm": "flash back",
+      "targetMeaningZh": "突然回想起往事"
+    },
+    {
+      "id": "phrasal-verb-166-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The train moved past the small station so quickly that I could not read its name.",
+      "promptZh": "火車飛快地駛過小站,快得令我看不清站名。",
+      "starter": "The",
+      "answer": "The train flashed past the small station so quickly that I could not read its name.",
+      "answerZh": "火車飛快地駛過小站,快得令我看不清站名。",
+      "highlight": "flashed",
+      "targetForm": "flash past something",
+      "targetMeaningZh": "快速經過某物"
+    },
+    {
+      "id": "phrasal-verb-166-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Leo should not proudly show that expensive watch to everyone at school.",
+      "promptZh": "里奧不應在學校向所有人炫耀那隻昂貴手錶。",
+      "starter": "Leo",
+      "answer": "Leo should not flash that expensive watch around at school.",
+      "answerZh": "里奧不應在學校四處炫耀那隻昂貴手錶。",
+      "highlight": "flash",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "At the sound of the school bell, her mind suddenly returned to her first day in class.",
+      "promptZh": "聽到校鐘聲時,她的思緒突然回到第一天上課。",
+      "starter": "At",
+      "answer": "At the sound of the school bell, her mind flashed back to her first day in class.",
+      "answerZh": "聽到校鐘聲時,她的思緒突然回到第一天上課。",
+      "highlight": "flashed back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The children were enjoying the game so much that the evening passed very quickly.",
+      "promptZh": "孩子們玩得非常開心,傍晚很快便過去了。",
+      "starter": "The",
+      "answer": "The children were enjoying the game so much that the evening flashed by.",
+      "answerZh": "孩子們玩得非常開心,傍晚很快便過去了。",
+      "highlight": "flashed by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "For a moment, I suddenly remembered the quiet street where we once lived.",
+      "promptZh": "有一刻,我突然想起我們以前居住的寧靜街道。",
+      "starter": "For",
+      "answer": "For a moment, I flashed back to the quiet street where we once lived.",
+      "answerZh": "有一刻,我突然想起我們以前居住的寧靜街道。",
+      "highlight": "flashed back to",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "They had one winning ticket, and Noah proudly showed it to everyone in the café.",
+      "promptZh": "他們有一張中獎門票,諾亞便在咖啡店內得意地向每個人展示它。",
+      "starter": "They",
+      "answer": "They had one winning ticket, and Noah flashed it around in the café.",
+      "answerZh": "他們有一張中獎門票,諾亞便在咖啡店內四處炫耀它。",
+      "highlight": "flashed",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "A bird moved past the window so quickly that we saw only a dark shape.",
+      "promptZh": "一隻鳥飛快掠過窗前,我們只看到一個黑影。",
+      "starter": "A",
+      "answer": "A bird flashed by the window so quickly that we saw only a dark shape.",
+      "answerZh": "一隻鳥飛快掠過窗前,我們只看到一個黑影。",
+      "highlight": "flashed by",
+      "targetForm": "flash by something",
+      "targetMeaningZh": "快速經過某物"
+    },
+    {
+      "id": "phrasal-verb-166-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Why did Ruby proudly show the backstage pass to everyone before the show?",
+      "promptZh": "露比為甚麼在表演前向每個人炫耀後台通行證?",
+      "starter": "Why",
+      "answer": "Why did Ruby flash the backstage pass about before the show?",
+      "answerZh": "露比為甚麼在表演前四處炫耀後台通行證?",
+      "highlight": "flash",
+      "targetForm": "flash something about",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Even after many years, his thoughts sometimes return suddenly to the day he won the school race.",
+      "promptZh": "即使多年後,他的思緒有時仍會突然回到贏得校內賽跑的那一天。",
+      "starter": "Even",
+      "answer": "Even after many years, his thoughts sometimes flash back to the day he won the school race.",
+      "answerZh": "即使多年後,他的思緒有時仍會突然回到贏得校內賽跑的那一天。",
+      "highlight": "flash back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "By the time we finished talking, another hour had passed very quickly.",
+      "promptZh": "我們談完時,另一個小時已很快過去了。",
+      "starter": "By",
+      "answer": "By the time we finished talking, another hour had flashed by.",
+      "answerZh": "我們談完時,另一個小時已飛快地過去了。",
+      "highlight": "flashed by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Kim had received a new gold card, but she did not need to show it proudly to everyone in the office.",
+      "promptZh": "金收到一張新的金卡,但她無須在辦公室內得意地把它展示給每個人看。",
+      "starter": "Kim",
+      "answer": "Kim had received a new gold card, but she did not need to flash it around in the office.",
+      "answerZh": "金收到一張新的金卡,但她無須在辦公室內四處炫耀它。",
+      "highlight": "flash",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "When the room became dark without warning, my mind returned to a stormy night from my childhood.",
+      "promptZh": "房間突然變暗時,我的思緒回到童年一個暴風雨的晚上。",
+      "starter": "When",
+      "answer": "When the room became dark without warning, my mind flashed back to a stormy night from my childhood.",
+      "answerZh": "房間突然變暗時,我的思緒突然回到童年一個暴風雨的晚上。",
+      "highlight": "flashed back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "We thought we had plenty of time, but the last few days passed before we could finish everything.",
+      "promptZh": "我們以為時間充裕,但最後幾天在我們完成一切前便過去了。",
+      "starter": "We",
+      "answer": "We thought we had plenty of time, but the last few days flashed by before we could finish everything.",
+      "answerZh": "我們以為時間充裕,但最後幾天在我們完成一切前便飛快地過去了。",
+      "highlight": "flashed by",
+      "targetForm": "flash by",
+      "targetMeaningZh": "時間飛快過去"
+    },
+    {
+      "id": "phrasal-verb-166-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The manager told Alex to stop proudly showing his company card to everyone in the office.",
+      "promptZh": "經理叫亞歷克斯不要再向辦公室內的每個人炫耀公司證件。",
+      "starter": "The",
+      "answer": "The manager told Alex to stop flashing his company card around the office.",
+      "answerZh": "經理叫亞歷克斯不要再在辦公室內四處炫耀公司證件。",
+      "highlight": "flashing",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "As the bus turned, the bright signs moved quickly past our windows one after another.",
+      "promptZh": "巴士轉彎時,明亮的招牌一個接一個地從車窗外快速掠過。",
+      "starter": "As",
+      "answer": "As the bus turned, the bright signs flashed past our windows one after another.",
+      "answerZh": "巴士轉彎時,明亮的招牌一個接一個地從車窗外快速掠過。",
+      "highlight": "flashed",
+      "targetForm": "flash past something",
+      "targetMeaningZh": "快速經過某物"
+    },
+    {
+      "id": "phrasal-verb-166-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Listening to the recording may make her suddenly remember the first song she performed in public.",
+      "promptZh": "聆聽那段錄音可能會令她突然想起第一次公開演唱的歌曲。",
+      "starter": "Listening",
+      "answer": "Listening to the recording may make her flash back to the first song she performed in public.",
+      "answerZh": "聆聽那段錄音可能會令她突然想起第一次公開演唱的歌曲。",
+      "highlight": "flash back to",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    },
+    {
+      "id": "phrasal-verb-166-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "They were proud of the special invitations and kept showing them to everyone all evening.",
+      "promptZh": "他們很喜歡那些特別邀請函,整個晚上都向每個人展示。",
+      "starter": "They",
+      "answer": "They were proud of the special invitations and kept flashing them about all evening.",
+      "answerZh": "他們很喜歡那些特別邀請函,整個晚上都四處炫耀它們。",
+      "highlight": "flashing",
+      "targetForm": "flash something about",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "I stopped watching for only a second, but the cyclist had already gone quickly past the gate.",
+      "promptZh": "我只是停止觀看一秒,那名單車手已快速駛過大閘。",
+      "starter": "I",
+      "answer": "I stopped watching for only a second, but the cyclist had already flashed past the gate.",
+      "answerZh": "我只是停止觀看一秒,那名單車手已快速駛過大閘。",
+      "highlight": "flashed",
+      "targetForm": "flash past something",
+      "targetMeaningZh": "快速經過某物"
+    },
+    {
+      "id": "phrasal-verb-166-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "You may be happy about your prize, but you do not have to show it proudly to everyone.",
+      "promptZh": "你可以為獎品感到高興,但不必向每個人炫耀。",
+      "starter": "You",
+      "answer": "You may be happy about your prize, but you do not have to flash it around.",
+      "answerZh": "你可以為獎品感到高興,但不必四處炫耀它。",
+      "highlight": "flash",
+      "targetForm": "flash something around",
+      "targetMeaningZh": "四處炫耀某物"
+    },
+    {
+      "id": "phrasal-verb-166-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Years later, the smell of that soap still makes his mind return suddenly to his childhood home.",
+      "promptZh": "多年後,那種肥皂的氣味仍令他的思緒突然回到童年住所。",
+      "starter": "Years",
+      "answer": "Years later, the smell of that soap still makes his mind flash back to his childhood home.",
+      "answerZh": "多年後,那種肥皂的氣味仍令他的思緒突然回到童年住所。",
+      "highlight": "flash back",
+      "targetForm": "flash back to something",
+      "targetMeaningZh": "突然回想起以前的事情"
+    }
+  ]
+}

@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-85",
+  "order": 85,
+  "slug": "ship",
+  "version": "1",
+  "title": "SHIP 動詞片語",
+  "titleEn": "Ship",
+  "titleZh": "SHIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 84 - SHIP.pdf",
+    "sourceNumber": 84,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SHIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SHIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SHIP",
+      "highlight": "SHIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They shipped the children off to summer camp.",
+      "zh": "他們把孩子送到夏令營。",
+      "highlight": "shipped the children off to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They shipped all their possessions off to Australia.",
+      "zh": "他們把所有財物運往澳洲。",
+      "highlight": "shipped all their possessions off to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They shipped the sculpture out to the States.",
+      "zh": "他們把雕塑運往美國。",
+      "highlight": "shipped the sculpture out to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間；把某人或某物運送到較遠的地方；把某人或某物由一個地方運往外地、海外或另一個工作地點",
+    "en": "ship somebody off (to...); ship somebody/something off (to...); ship somebody/something out (to...)",
+    "naturalZh": [
+      "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+      "把某人或某物運送到較遠的地方",
+      "把某人或某物由一個地方運往外地、海外或另一個工作地點"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "ship somebody off (to...)",
+      "titleZh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+      "titleEn": "ship somebody off (to...)",
+      "descriptionZh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+      "descriptionEn": "They shipped the children off to summer camp.",
+      "examples": [
+        {
+          "en": "They shipped the children off to summer camp.",
+          "zh": "他們把孩子送到夏令營。",
+          "highlight": "shipped the children off to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ship somebody/something off (to...)",
+      "titleZh": "把某人或某物運送到較遠的地方",
+      "titleEn": "ship somebody/something off (to...)",
+      "descriptionZh": "把某人或某物運送到較遠的地方",
+      "descriptionEn": "They shipped all their possessions off to Australia.",
+      "examples": [
+        {
+          "en": "They shipped all their possessions off to Australia.",
+          "zh": "他們把所有財物運往澳洲。",
+          "highlight": "shipped all their possessions off to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "ship somebody/something out (to...)",
+      "titleZh": "把某人或某物由一個地方運往外地、海外或另一個工作地點",
+      "titleEn": "ship somebody/something out (to...)",
+      "descriptionZh": "把某人或某物由一個地方運往外地、海外或另一個工作地點",
+      "descriptionEn": "They shipped the sculpture out to the States.",
+      "examples": [
+        {
+          "en": "They shipped the sculpture out to the States.",
+          "zh": "他們把雕塑運往美國。",
+          "highlight": "shipped the sculpture out to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SHIP 片語動詞的實際用途",
+    "labelEn": "SHIP Phrasal Verbs in Use",
+    "summaryZh": "這些表達可以描述孩子被送到營地、家具運往新居,以及貨物運往海外。實際使用的交通工具不一定是船。；SHIP SOMEBODY OFF 可以用來談論把某人送到營地、學校、訓練地點或親戚家暫住。；SHIP SOMETHING OFF 可以描述把家具、書籍、機器、樂器和其他財物運往遠方。；當公司、工廠、倉庫或機構把人員或貨物送往另一國家或工作地點時,可以使用 SHIPSOMEBODY/SOMETHING OUT。",
+    "summaryEn": "These expressions can describe children going to camp, furniture moving to a new home and goods travelling overseas. The transport does not have to be a ship. SHIP SOMEBODY OFF is useful when talking about a person being sent to camp, school, training or a relative’s home. SHIP SOMETHING OFF can describe sending furniture, books, machines, instruments and other belongings to a distant place. SHIP SOMEBODY/SOMETHING OUT is useful when a company, factory, warehouse or organisation sends people or goods to another country or work area.",
+    "contextsZh": [
+      "使用 SHIP 談論不一定使用船的運送",
+      "表達把某人送往別處逗留一段時間",
+      "自然談論運送財物和大型物件",
+      "描述人員或貨物由基地送往外地"
+    ],
+    "contextsEn": [
+      "Use SHIP without necessarily talking about a ship",
+      "Describe sending someone away for a period",
+      "Talk naturally about moving possessions and large objects",
+      "Describe goods or teams leaving a base"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SHIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SHIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "ship somebody off (to...)",
+    "fixedHighlight": "ship somebody off (to...)",
+    "fixedZh": "閱讀整句,選出意思相同的 SHIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SHIP expression that gives the same meaning.",
+    "correct": "shipped the children off to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、地點和意思。；名詞通常可以放在兩個位置;但使用 him、her、it 或 them 時,須把代名詞放在 SHIP 和 OFF/OUT 之間。；SHIP SOMEBODY OFF 通常表示把某人送到另一地方逗留一段時間。SHIPSOMEBODY/SOMETHING OFF 通常着重把人或物品運送到較遠的地方。SHIPSOMEBODY/SOMETHING OUT 則通常着重從公司、基地或國家把人或物品送往外地。",
+    "variableEn": "Keep the same people, things, time, place and meaning. A noun can often appear in either position: ship the boxes off ship off the boxes However, him, her, it and them must appear in the middle: ship him off ship it off ship them out SHIP SOMEBODY OFF often describes sending a person somewhere to stay for a period. SHIP SOMEBODY/SOMETHING OFF often focuses on transporting someone or something a long distance. SHIP SOMEBODY/SOMETHING OUT often focuses on sending them from a base, company or country to another place.",
+    "variableItemsZh": [
+      "ship somebody off (to...)",
+      "ship somebody/something off (to...)",
+      "ship somebody/something out (to...)"
+    ],
+    "variableItemsEn": [
+      "ship somebody off (to...)",
+      "ship somebody/something off (to...)",
+      "ship somebody/something out (to...)"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+        "formEn": "ship somebody off (to...)",
+        "exampleZh": "他們把孩子送到夏令營。",
+        "exampleEn": "They shipped the children off to summer camp.",
+        "highlight": "shipped the children off to"
+      },
+      {
+        "formZh": "把某人或某物運送到較遠的地方",
+        "formEn": "ship somebody/something off (to...)",
+        "exampleZh": "他們把所有財物運往澳洲。",
+        "exampleEn": "They shipped all their possessions off to Australia.",
+        "highlight": "shipped all their possessions off to"
+      },
+      {
+        "formZh": "把某人或某物由一個地方運往外地、海外或另一個工作地點",
+        "formEn": "ship somebody/something out (to...)",
+        "exampleZh": "他們把雕塑運往美國。",
+        "exampleEn": "They shipped the sculpture out to the States.",
+        "highlight": "shipped the sculpture out to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+      "titleEn": "ship somebody off (to...)",
+      "formula": "ship somebody off (to...)",
+      "highlight": "ship somebody off (to...)",
+      "descriptionZh": "把某人送到另一地方,通常讓他們在那裏逗留一段時間",
+      "descriptionEn": "They shipped the children off to summer camp.",
+      "examples": [
+        {
+          "en": "They shipped the children off to summer camp.",
+          "zh": "他們把孩子送到夏令營。",
+          "highlight": "shipped the children off to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人或某物運送到較遠的地方",
+      "titleEn": "ship somebody/something off (to...)",
+      "formula": "ship somebody/something off (to...)",
+      "highlight": "ship somebody/something off (to...)",
+      "descriptionZh": "把某人或某物運送到較遠的地方",
+      "descriptionEn": "They shipped all their possessions off to Australia.",
+      "examples": [
+        {
+          "en": "They shipped all their possessions off to Australia.",
+          "zh": "他們把所有財物運往澳洲。",
+          "highlight": "shipped all their possessions off to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某人或某物由一個地方運往外地、海外或另一個工作地點",
+      "titleEn": "ship somebody/something out (to...)",
+      "formula": "ship somebody/something out (to...)",
+      "highlight": "ship somebody/something out (to...)",
+      "descriptionZh": "把某人或某物由一個地方運往外地、海外或另一個工作地點",
+      "descriptionEn": "They shipped the sculpture out to the States.",
+      "examples": [
+        {
+          "en": "They shipped the sculpture out to the States.",
+          "zh": "他們把雕塑運往美國。",
+          "highlight": "shipped the sculpture out to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 SHIP 談論不一定使用船的運送",
+      "titleEn": "Use SHIP without necessarily talking about a ship",
+      "zh": "這些表達可以描述孩子被送到營地、家具運往新居,以及貨物運往海外。實際使用的交通工具不一定是船。",
+      "en": "These expressions can describe children going to camp, furniture moving to a new home and goods travelling overseas. The transport does not have to be a ship."
+    },
+    {
+      "titleZh": "表達把某人送往別處逗留一段時間",
+      "titleEn": "Describe sending someone away for a period",
+      "zh": "SHIP SOMEBODY OFF 可以用來談論把某人送到營地、學校、訓練地點或親戚家暫住。",
+      "en": "SHIP SOMEBODY OFF is useful when talking about a person being sent to camp, school, training or a relative’s home."
+    },
+    {
+      "titleZh": "自然談論運送財物和大型物件",
+      "titleEn": "Talk naturally about moving possessions and large objects",
+      "zh": "SHIP SOMETHING OFF 可以描述把家具、書籍、機器、樂器和其他財物運往遠方。",
+      "en": "SHIP SOMETHING OFF can describe sending furniture, books, machines, instruments and other belongings to a distant place."
+    },
+    {
+      "titleZh": "描述人員或貨物由基地送往外地",
+      "titleEn": "Describe goods or teams leaving a base",
+      "zh": "當公司、工廠、倉庫或機構把人員或貨物送往另一國家或工作地點時,可以使用 SHIPSOMEBODY/SOMETHING OUT。",
+      "en": "SHIP SOMEBODY/SOMETHING OUT is useful when a company, factory, warehouse or organisation sends people or goods to another country or work area."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 SHIP 談論不一定使用船的運送",
+      "表達把某人送往別處逗留一段時間",
+      "自然談論運送財物和大型物件",
+      "描述人員或貨物由基地送往外地"
+    ],
+    "contextsEn": [
+      "Use SHIP without necessarily talking about a ship",
+      "Describe sending someone away for a period",
+      "Talk naturally about moving possessions and large objects",
+      "Describe goods or teams leaving a base"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 SHIP 談論不一定使用船的運送",
+        "titleEn": "Use SHIP without necessarily talking about a ship",
+        "zh": "這些表達可以描述孩子被送到營地、家具運往新居,以及貨物運往海外。實際使用的交通工具不一定是船。",
+        "en": "These expressions can describe children going to camp, furniture moving to a new home and goods travelling overseas. The transport does not have to be a ship.",
+        "examples": [
+          {
+            "en": "They shipped the children off to summer camp.",
+            "zh": "他們把孩子送到夏令營。",
+            "highlight": "shipped the children off to"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達把某人送往別處逗留一段時間",
+        "titleEn": "Describe sending someone away for a period",
+        "zh": "SHIP SOMEBODY OFF 可以用來談論把某人送到營地、學校、訓練地點或親戚家暫住。",
+        "en": "SHIP SOMEBODY OFF is useful when talking about a person being sent to camp, school, training or a relative’s home.",
+        "examples": [
+          {
+            "en": "They shipped all their possessions off to Australia.",
+            "zh": "他們把所有財物運往澳洲。",
+            "highlight": "shipped all their possessions off to"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論運送財物和大型物件",
+        "titleEn": "Talk naturally about moving possessions and large objects",
+        "zh": "SHIP SOMETHING OFF 可以描述把家具、書籍、機器、樂器和其他財物運往遠方。",
+        "en": "SHIP SOMETHING OFF can describe sending furniture, books, machines, instruments and other belongings to a distant place.",
+        "examples": [
+          {
+            "en": "They shipped the sculpture out to the States.",
+            "zh": "他們把雕塑運往美國。",
+            "highlight": "shipped the sculpture out to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述人員或貨物由基地送往外地",
+        "titleEn": "Describe goods or teams leaving a base",
+        "zh": "當公司、工廠、倉庫或機構把人員或貨物送往另一國家或工作地點時,可以使用 SHIPSOMEBODY/SOMETHING OUT。",
+        "en": "SHIP SOMEBODY/SOMETHING OUT is useful when a company, factory, warehouse or organisation sends people or goods to another country or work area.",
+        "examples": [
+          {
+            "en": "They shipped the children off to summer camp.",
+            "zh": "他們把孩子送到夏令營。",
+            "highlight": "shipped the children off to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SHIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SHIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SHIP 片語動詞。",
+      "en": "Read the whole sentence and choose the SHIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、地點和意思。",
+      "titleEn": "Keep the same people, things, time, place and meaning.",
+      "zh": "保留原句中的人物、事物、時間、地點和意思。",
+      "en": "Keep the same people, things, time, place and meaning."
+    },
+    {
+      "titleZh": "名詞通常可以放在兩個位置;但使用 him、her、it 或 them 時,須把代名詞放在 SHIP 和 OFF/OUT 之間。",
+      "titleEn": "A noun can often appear in either position: ship the boxes off ship off the boxes However, him, her, it and them must appear in the middle: ship him off ship it off ship them out.",
+      "zh": "名詞通常可以放在兩個位置;但使用 him、her、it 或 them 時,須把代名詞放在 SHIP 和 OFF/OUT 之間。",
+      "en": "A noun can often appear in either position: ship the boxes off ship off the boxes However, him, her, it and them must appear in the middle: ship him off ship it off ship them out"
+    },
+    {
+      "titleZh": "SHIP SOMEBODY OFF 通常表示把某人送到另一地方逗留一段時間。SHIPSOMEBODY/SOMETHING OFF 通常着重把人或物品運送到較遠的地方。SHIPSOMEBODY/SOMETHING OUT 則通常着重從公司、基地或國家把人或物品送往外地。",
+      "titleEn": "SHIP SOMEBODY OFF often describes sending a person somewhere to stay for a period.",
+      "zh": "SHIP SOMEBODY OFF 通常表示把某人送到另一地方逗留一段時間。SHIPSOMEBODY/SOMETHING OFF 通常着重把人或物品運送到較遠的地方。SHIPSOMEBODY/SOMETHING OUT 則通常着重從公司、基地或國家把人或物品送往外地。",
+      "en": "SHIP SOMEBODY OFF often describes sending a person somewhere to stay for a period. SHIP SOMEBODY/SOMETHING OFF often focuses on transporting someone or something a long distance. SHIP SOMEBODY/SOMETHING OUT often focuses on sending them from a base, company or country to another place."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SHIP 動詞片語句子改寫練習",
+    "titleEn": "SHIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-85-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The moving company sent our boxes to the new flat in Edinburgh.",
+      "promptZh": "搬運公司把我們的箱子送到愛丁堡的新單位。",
+      "starter": "The",
+      "answer": "The moving company shipped off our boxes to the new flat in Edinburgh.",
+      "answerZh": "搬運公司把我們的箱子送到愛丁堡的新單位。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Our parents sent us to summer camp for two weeks.",
+      "promptZh": "父母把我們送到夏令營兩星期。",
+      "starter": "Our",
+      "answer": "Our parents shipped us off to summer camp for two weeks.",
+      "answerZh": "父母把我們送到夏令營兩星期。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The factory sent the first 200 tablet computers to shops in Japan.",
+      "promptZh": "工廠把首批二百部平板電腦送往日本的店舖。",
+      "starter": "The",
+      "answer": "The factory shipped out the first 200 tablet computers to shops in Japan.",
+      "answerZh": "工廠把首批二百部平板電腦送往日本的店舖。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Aunt Rosa sent the children to their grandparents’ home for the school holiday.",
+      "promptZh": "羅莎姨姨把孩子送到祖父母家度過學校假期。",
+      "starter": "Aunt",
+      "answer": "Aunt Rosa shipped the children off to their grandparents’ home for the school holiday.",
+      "answerZh": "羅莎姨姨把孩子送到祖父母家度過學校假期。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben sent his old guitar to his younger brother in Canada.",
+      "promptZh": "賓把舊結他送到加拿大給弟弟。",
+      "starter": "Ben",
+      "answer": "Ben shipped off his old guitar to his younger brother in Canada.",
+      "answerZh": "賓把舊結他送到加拿大給弟弟。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The museum sent the sculpture to the United States for an exhibition.",
+      "promptZh": "博物館把雕塑送往美國參展。",
+      "starter": "The",
+      "answer": "The museum shipped the sculpture out to the United States for an exhibition.",
+      "answerZh": "博物館把雕塑送往美國參展。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The school sent ten pupils to an outdoor centre for a week.",
+      "promptZh": "學校把十名學生送到戶外活動中心一星期。",
+      "starter": "The",
+      "answer": "The school shipped off ten pupils to an outdoor centre for a week.",
+      "answerZh": "學校把十名學生送到戶外活動中心一星期。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We sent all our books to our new home in Australia.",
+      "promptZh": "我們把所有書籍送往澳洲的新居。",
+      "starter": "We",
+      "answer": "We shipped all our books off to our new home in Australia.",
+      "answerZh": "我們把所有書籍送往澳洲的新居。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The charity sent food and water to the small island.",
+      "promptZh": "慈善團體把食物和食水送到小島。",
+      "starter": "The",
+      "answer": "The charity shipped out food and water to the small island.",
+      "answerZh": "慈善團體把食物和食水送到小島。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Daniel’s parents sent him to boarding school when he was twelve.",
+      "promptZh": "丹尼爾的父母在他十二歲時把他送到寄宿學校。",
+      "starter": "Daniel’s",
+      "answer": "Daniel’s parents shipped him off to boarding school when he was twelve.",
+      "answerZh": "丹尼爾的父母在他十二歲時把他送到寄宿學校。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The company is sending three engineers to the island next Monday.",
+      "promptZh": "公司下星期一會把三名工程師送到該島。",
+      "starter": "The",
+      "answer": "The company is shipping out three engineers to the island next Monday.",
+      "answerZh": "公司下星期一會把三名工程師送到該島。",
+      "highlight": "shipping out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或另一工作地點"
+    },
+    {
+      "id": "phrasal-verb-85-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We have already sent the dining table to our aunt in Glasgow.",
+      "promptZh": "我們已把餐桌送到格拉斯哥給姨姨。",
+      "starter": "We",
+      "answer": "We have already shipped the dining table off to our aunt in Glasgow.",
+      "answerZh": "我們已把餐桌送到格拉斯哥給姨姨。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The coach will send the team to a training camp during the Easter holiday.",
+      "promptZh": "教練會在復活節假期把球隊送到訓練營。",
+      "starter": "The",
+      "answer": "The coach will ship off the team to a training camp during the Easter holiday.",
+      "answerZh": "教練會在復活節假期把球隊送到訓練營。",
+      "highlight": "ship off",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "When will the shop send my bicycle to France?",
+      "promptZh": "店舖何時會把我的單車送到法國?",
+      "starter": "When",
+      "answer": "When will the shop ship my bicycle off to France?",
+      "answerZh": "店舖何時會把我的單車送到法國?",
+      "highlight": "ship",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The warehouse has sent today’s orders to customers in Korea.",
+      "promptZh": "倉庫已把今天的訂單貨品送往韓國。",
+      "starter": "The",
+      "answer": "The warehouse has shipped out today’s orders to customers in Korea.",
+      "answerZh": "倉庫已把今天的訂單貨品送往韓國。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Nora does not want to send her twins to camp for the whole summer.",
+      "promptZh": "諾拉不想把雙胞胎送到營地度過整個暑假。",
+      "starter": "Nora",
+      "answer": "Nora does not want to ship her twins off to camp for the whole summer.",
+      "answerZh": "諾拉不想把雙胞胎送到營地度過整個暑假。",
+      "highlight": "ship",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The travel company is sending the dance group and its costumes to New Zealand this week.",
+      "promptZh": "旅遊公司本星期會把舞蹈團和服裝送往紐西蘭。",
+      "starter": "The",
+      "answer": "The travel company is shipping off the dance group and its costumes to New Zealand this week.",
+      "answerZh": "旅遊公司本星期會把舞蹈團和服裝送往紐西蘭。",
+      "highlight": "shipping off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did they send Oliver to a relative’s farm for a month?",
+      "promptZh": "他們為何把奧利弗送到親戚的農場一個月?",
+      "starter": "Why",
+      "answer": "Why did they ship Oliver off to a relative’s farm for a month?",
+      "answerZh": "他們為何把奧利弗送到親戚的農場一個月?",
+      "highlight": "ship",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The publisher will send the new books to schools overseas next week.",
+      "promptZh": "出版社下星期會把新書送往海外學校。",
+      "starter": "The",
+      "answer": "The publisher will ship out the new books to schools overseas next week.",
+      "answerZh": "出版社下星期會把新書送往海外學校。",
+      "highlight": "ship out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The repair centre did not send the laptop to Germany yesterday.",
+      "promptZh": "維修中心昨天沒有把手提電腦送往德國。",
+      "starter": "The",
+      "answer": "The repair centre did not ship the laptop off to Germany yesterday.",
+      "answerZh": "維修中心昨天沒有把手提電腦送往德國。",
+      "highlight": "ship",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children were sent to a sports camp for ten days.",
+      "promptZh": "孩子被送到體育訓練營十天。",
+      "starter": "The",
+      "answer": "The children were shipped off to a sports camp for ten days.",
+      "answerZh": "孩子被送到體育訓練營十天。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The phones are packed, and the company will send them to its shops in Singapore tomorrow.",
+      "promptZh": "手機已包裝好,公司明天會把它們送到新加坡的店舖。",
+      "starter": "The",
+      "answer": "The phones are packed, and the company will ship them out to its shops in Singapore tomorrow.",
+      "answerZh": "手機已包裝好,公司明天會把它們送到新加坡的店舖。",
+      "highlight": "ship",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We no longer need the old piano, so we are sending it to our cousin in Wales.",
+      "promptZh": "我們不再需要這座舊鋼琴,所以正把它送到威爾斯給表親。",
+      "starter": "We",
+      "answer": "We no longer need the old piano, so we are shipping it off to our cousin in Wales.",
+      "answerZh": "我們不再需要這座舊鋼琴,所以正把它送到威爾斯給表親。",
+      "highlight": "shipping",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The rescue team was transported to the island by helicopter.",
+      "promptZh": "救援隊乘直升機被送到小島。",
+      "starter": "The",
+      "answer": "The rescue team was shipped out to the island by helicopter.",
+      "answerZh": "救援隊乘直升機被送到小島。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或另一工作地點"
+    },
+    {
+      "id": "phrasal-verb-85-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Priya’s parents decided to send her to a language school in London for six weeks.",
+      "promptZh": "普里雅的父母決定把她送到倫敦的語言學校六星期。",
+      "starter": "Priya’s",
+      "answer": "Priya’s parents decided to ship her off to a language school in London for six weeks.",
+      "answerZh": "普里雅的父母決定把她送到倫敦的語言學校六星期。",
+      "highlight": "ship",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The shop packed the camera carefully and sent it to the buyer in Italy.",
+      "promptZh": "店舖小心包裝相機,然後把它送到意大利給買家。",
+      "starter": "The",
+      "answer": "The shop packed the camera carefully and shipped it off to the buyer in Italy.",
+      "answerZh": "店舖小心包裝相機,然後把它送到意大利給買家。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before the storm arrived, the company sent extra food to the workers on the island.",
+      "promptZh": "暴風雨來臨前,公司把額外食物送到島上的工人。",
+      "starter": "Before",
+      "answer": "Before the storm arrived, the company shipped out extra food to the workers on the island.",
+      "answerZh": "暴風雨來臨前,公司把額外食物送到島上的工人。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或另一工作地點"
+    },
+    {
+      "id": "phrasal-verb-85-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "All our possessions were sent to Perth before we flew there.",
+      "promptZh": "我們乘飛機前,所有財物已送往珀斯。",
+      "starter": "All",
+      "answer": "All our possessions were shipped off to Perth before we flew there.",
+      "answerZh": "我們乘飛機前,所有財物已送往珀斯。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The family sent the two brothers to stay with relatives while the house was repaired.",
+      "promptZh": "房屋維修期間,家人把兩兄弟送到親戚家暫住。",
+      "starter": "The",
+      "answer": "The family shipped off the two brothers to stay with relatives while the house was repaired.",
+      "answerZh": "房屋維修期間,家人把兩兄弟送到親戚家暫住。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The supplier sends spare parts to repair teams in different countries every Friday.",
+      "promptZh": "供應商逢星期五把零件送往不同國家的維修隊伍。",
+      "starter": "The",
+      "answer": "The supplier ships spare parts out to repair teams in different countries every Friday.",
+      "answerZh": "供應商逢星期五把零件送往不同國家的維修隊伍。",
+      "highlight": "ships",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The factory did not keep the new phones in Britain; it sent them to stores across Asia.",
+      "promptZh": "工廠沒有把新手機留在英國,而是把它們送往亞洲各地的店舖。",
+      "starter": "The",
+      "answer": "The factory did not keep the new phones in Britain; it shipped them out to stores across Asia.",
+      "answerZh": "工廠沒有把新手機留在英國,而是把它們送往亞洲各地的店舖。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Rather than keeping the children at home all holiday, their parents sent them to a camp by the sea.",
+      "promptZh": "父母沒有讓孩子整個假期留在家中,而是把他們送到海邊營地。",
+      "starter": "Rather",
+      "answer": "Rather than keeping the children at home all holiday, their parents shipped them off to a camp by the sea.",
+      "answerZh": "父母沒有讓孩子整個假期留在家中,而是把他們送到海邊營地。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The sofa was too large for the car, so the seller arranged for it to be transported to Belfast.",
+      "promptZh": "梳化太大,不能放進汽車,所以賣家安排把它運往貝爾法斯特。",
+      "starter": "The",
+      "answer": "The sofa was too large for the car, so the seller arranged for it to be shipped off to Belfast.",
+      "answerZh": "梳化太大,不能放進汽車,所以賣家安排把它運往貝爾法斯特。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After only one week at home, Marcus was sent to another city for a month of training.",
+      "promptZh": "馬庫斯回家僅一星期後,便被送到另一個城市接受一個月訓練。",
+      "starter": "After",
+      "answer": "After only one week at home, Marcus was shipped off to another city for a month of training.",
+      "answerZh": "馬庫斯回家僅一星期後,便被送到另一個城市接受一個月訓練。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Once the paintings were ready, the Hong Kong gallery sent them to buyers overseas.",
+      "promptZh": "畫作準備好後,香港畫廊把它們送往海外買家。",
+      "starter": "Once",
+      "answer": "Once the paintings were ready, the Hong Kong gallery shipped them out to buyers overseas.",
+      "answerZh": "畫作準備好後,香港畫廊把它們送往海外買家。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The couple kept only two suitcases and sent the rest of their belongings to Canada.",
+      "promptZh": "這對夫婦只留下兩個行李箱,並把其餘財物運往加拿大。",
+      "starter": "The",
+      "answer": "The couple kept only two suitcases and shipped off the rest of their belongings to Canada.",
+      "answerZh": "這對夫婦只留下兩個行李箱,並把其餘財物運往加拿大。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Aisha had never lived away from home before her parents sent her to a school in Scotland.",
+      "promptZh": "艾莎以前從未離家生活,直至父母把她送到蘇格蘭一所學校。",
+      "starter": "Aisha",
+      "answer": "Aisha had never lived away from home before her parents shipped her off to a school in Scotland.",
+      "answerZh": "艾莎以前從未離家生活,直至父母把她送到蘇格蘭一所學校。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The company packed the machine in a wooden box before sending it to Norway.",
+      "promptZh": "公司先把機器裝進木箱,然後運往挪威。",
+      "starter": "The",
+      "answer": "The company packed the machine in a wooden box before shipping it off to Norway.",
+      "answerZh": "公司先把機器裝進木箱,然後運往挪威。",
+      "highlight": "shipping",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The main warehouse sent boxes of medicine to small clinics on other islands this morning.",
+      "promptZh": "主要倉庫今早把幾箱藥物送到其他島嶼的小型診所。",
+      "starter": "The",
+      "answer": "The main warehouse shipped out boxes of medicine to small clinics on other islands this morning.",
+      "answerZh": "主要倉庫今早把幾箱藥物送到其他島嶼的小型診所。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或另一工作地點"
+    },
+    {
+      "id": "phrasal-verb-85-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Mei’s family decided that she should spend the term with her aunt, so they sent her to Bristol.",
+      "promptZh": "梅的家人決定讓她與姨姨住一個學期,所以把她送到布里斯托。",
+      "starter": "Mei’s",
+      "answer": "Mei’s family decided that she should spend the term with her aunt, so they shipped her off to Bristol.",
+      "answerZh": "梅的家人決定讓她與姨姨住一個學期,所以把她送到布里斯托。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We are moving next month. The company will transport our furniture and books to our new home in Auckland.",
+      "promptZh": "我們下月搬家。公司會把家具和書籍運往奧克蘭的新居。",
+      "starter": "We",
+      "answer": "We are moving next month. The company will ship off our furniture and books to our new home in Auckland.",
+      "answerZh": "我們下月搬家。公司會把家具和書籍運往奧克蘭的新居。",
+      "highlight": "ship off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The cameras were made in Manchester, but the first ones were sent to shops in the Middle East.",
+      "promptZh": "相機在曼徹斯特製造,但首批相機被送往中東的店舖。",
+      "starter": "The",
+      "answer": "The cameras were made in Manchester, but the first ones were shipped out to shops in the Middle East.",
+      "answerZh": "相機在曼徹斯特製造,但首批相機被送往中東的店舖。",
+      "highlight": "shipped out",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the twins wanted to stay home, their parents sent them to a summer school for four weeks.",
+      "promptZh": "雖然雙胞胎想留在家中,但父母把他們送到暑期學校四星期。",
+      "starter": "Although",
+      "answer": "Although the twins wanted to stay home, their parents shipped them off to a summer school for four weeks.",
+      "answerZh": "雖然雙胞胎想留在家中,但父母把他們送到暑期學校四星期。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The buyer paid for the old desk on Monday, and the seller sent it to Dublin the next day.",
+      "promptZh": "買家星期一支付了舊書桌的款項,賣家翌日便把它送到都柏林。",
+      "starter": "The",
+      "answer": "The buyer paid for the old desk on Monday, and the seller shipped it off to Dublin the next day.",
+      "answerZh": "買家星期一支付了舊書桌的款項,賣家翌日便把它送到都柏林。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the school closed for repairs, the head teacher sent the pupils to another school until the work was finished.",
+      "promptZh": "學校因維修而關閉後,校長把學生送到另一所學校,直至工程完成。",
+      "starter": "After",
+      "answer": "After the school closed for repairs, the head teacher shipped the pupils off to another school until the work was finished.",
+      "answerZh": "學校因維修而關閉後,校長把學生送到另一所學校,直至工程完成。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The company keeps its main tools in London and sends them to overseas teams only when they are needed.",
+      "promptZh": "公司把主要工具存放在倫敦,只在海外團隊需要時才把工具送出。",
+      "starter": "The",
+      "answer": "The company keeps its main tools in London and ships them out to overseas teams only when they are needed.",
+      "answerZh": "公司把主要工具存放在倫敦,只在海外團隊需要時才把工具送出。",
+      "highlight": "ships",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family had sold its house. A moving company then transported all its possessions to Sydney before the flight.",
+      "promptZh": "這家人已賣掉房屋。搬運公司在他們乘飛機前,把所有財物運往悉尼。",
+      "starter": "The",
+      "answer": "The family had sold its house. A moving company then shipped off all its possessions to Sydney before the flight.",
+      "answerZh": "這家人已賣掉房屋。搬運公司在他們乘飛機前,把所有財物運往悉尼。",
+      "highlight": "shipped off",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    },
+    {
+      "id": "phrasal-verb-85-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Sam’s parents thought a month in the countryside would be good for him, so they sent him to his grandparents.",
+      "promptZh": "森姆的父母認為在鄉郊住一個月對他有好處,所以把他送到祖父母家。",
+      "starter": "Sam’s",
+      "answer": "Sam’s parents thought a month in the countryside would be good for him, so they shipped him off to his grandparents.",
+      "answerZh": "森姆的父母認為在鄉郊住一個月對他有好處,所以把他送到祖父母家。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody off",
+      "targetMeaningZh": "把某人送到另一地方逗留一段時間"
+    },
+    {
+      "id": "phrasal-verb-85-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "A large order arrived from Seoul, so the warehouse packed the goods that afternoon and sent them to Seoul the next morning.",
+      "promptZh": "首爾來了一張大訂單,因此倉庫當天下午包裝貨物,翌日早上把貨物送往首爾。",
+      "starter": "A",
+      "answer": "A large order arrived from Seoul, so the warehouse packed the goods that afternoon and shipped them out to Seoul the next morning.",
+      "answerZh": "首爾來了一張大訂單,因此倉庫當天下午包裝貨物,翌日早上把貨物送往首爾。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something out",
+      "targetMeaningZh": "把某人或某物運往外地或海外"
+    },
+    {
+      "id": "phrasal-verb-85-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The band finished its tour in London, then sent all its instruments to the next concert hall in Paris.",
+      "promptZh": "樂隊完成倫敦的巡演後,把所有樂器運往巴黎下一個演出場地。",
+      "starter": "The",
+      "answer": "The band finished its tour in London, then shipped all its instruments off to the next concert hall in Paris.",
+      "answerZh": "樂隊完成倫敦的巡演後,把所有樂器運往巴黎下一個演出場地。",
+      "highlight": "shipped",
+      "targetForm": "ship somebody/something off",
+      "targetMeaningZh": "把某人或某物運送到較遠的地方"
+    }
+  ]
+}

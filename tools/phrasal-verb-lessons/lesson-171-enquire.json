@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-171",
+  "order": 171,
+  "slug": "enquire",
+  "version": "1",
+  "title": "ENQUIRE 動詞片語",
+  "titleEn": "Enquire",
+  "titleZh": "ENQUIRE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 170 - ENQUIRE.pdf",
+    "sourceNumber": 170,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ENQUIRE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ENQUIRE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ENQUIRE",
+      "highlight": "ENQUIRE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "My mother enquired after you and the baby.",
+      "zh": "我媽媽問起你和寶寶的近況。",
+      "highlight": "enquired after",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The committee are enquiring into the employment of children.",
+      "zh": "委員會正在調查僱用兒童的情況。",
+      "highlight": "enquiring into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The officer enquired of us whether we had seen the missing bag.",
+      "zh": "職員向我們詢問是否見過那個不見了的袋。",
+      "highlight": "enquired",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "詢問某人的近況或健康情況；正式調查或查明某事；以較正式方式向某人詢問某事",
+    "en": "enquire after somebody; enquire into something; enquire something of somebody",
+    "naturalZh": [
+      "詢問某人的近況或健康情況",
+      "正式調查或查明某事",
+      "以較正式方式向某人詢問某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "enquire after somebody",
+      "titleZh": "詢問某人的近況或健康情況",
+      "titleEn": "enquire after somebody",
+      "descriptionZh": "詢問某人的近況或健康情況",
+      "descriptionEn": "My mother enquired after you and the baby.",
+      "examples": [
+        {
+          "en": "My mother enquired after you and the baby.",
+          "zh": "我媽媽問起你和寶寶的近況。",
+          "highlight": "enquired after"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "enquire into something",
+      "titleZh": "正式調查或查明某事",
+      "titleEn": "enquire into something",
+      "descriptionZh": "正式調查或查明某事",
+      "descriptionEn": "The committee are enquiring into the employment of children.",
+      "examples": [
+        {
+          "en": "The committee are enquiring into the employment of children.",
+          "zh": "委員會正在調查僱用兒童的情況。",
+          "highlight": "enquiring into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "enquire something of somebody",
+      "titleZh": "以較正式方式向某人詢問某事",
+      "titleEn": "enquire something of somebody",
+      "descriptionZh": "以較正式方式向某人詢問某事",
+      "descriptionEn": "The officer enquired of us whether we had seen the missing bag.",
+      "examples": [
+        {
+          "en": "The officer enquired of us whether we had seen the missing bag.",
+          "zh": "職員向我們詢問是否見過那個不見了的袋。",
+          "highlight": "enquired"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ENQUIRE 片語動詞的實際用途",
+    "labelEn": "ENQUIRE Phrasal Verbs in Use",
+    "summaryZh": "enquire after somebody 可以用來有禮貌地詢問某人的健康或一般近況。；enquire into something 可以描述對問題、投訴或事件進行仔細或正式的調查。；enquire something of somebody 適合在酒店、車站、辦公室或公共服務中心等較正式的場合詢問資料。；這些 ENQUIRE 表達常見於有禮貌的溝通、新聞報道、正式訊息和職場英語。",
+    "summaryEn": "Enquire after somebody lets you ask politely about a person’s health or general condition. Enquire into something can describe an official or careful investigation into a problem, complaint or event. Enquire something of somebody is useful when asking for information in formal situations, such as at a hotel, station, office or public service centre. These ENQUIRE expressions often appear in polite communication, news reports, official messages and workplace English.",
+    "contextsZh": [
+      "有禮貌地詢問別人的近況",
+      "談論仔細或正式的調查",
+      "清楚提出正式問題",
+      "更容易理解正式英語"
+    ],
+    "contextsEn": [
+      "Ask politely about someone’s wellbeing",
+      "Talk about careful investigations",
+      "Ask formal questions clearly",
+      "Understand formal English more easily"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ENQUIRE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ENQUIRE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "enquire after somebody",
+    "fixedHighlight": "enquire after somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 ENQUIRE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ENQUIRE expression that gives the same meaning.",
+    "correct": "enquired after",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；詢問某人的健康或近況時,使用 enquire after somebody。Example:She enquired after your father.(她問起你父親的近況。)；調查某事時,使用 enquire into something;以較正式方式向某人提問時,使用 enquire ofsomebody。Examples:The school enquired into the complaint.(學校調查了該宗投訴。)We enquired of the driver whether the bus had left.(我們向司機詢問巴士是否已經開出。)",
+    "variableEn": "Keep the same people, things, time and meaning. Use enquire after somebody when asking about a person’s health or general condition. Use enquire into something for an investigation. Use enquire of somebody when formally asking a person a question.",
+    "variableItemsZh": [
+      "enquire after somebody",
+      "enquire into something",
+      "enquire something of somebody"
+    ],
+    "variableItemsEn": [
+      "enquire after somebody",
+      "enquire into something",
+      "enquire something of somebody"
+    ],
+    "forms": [
+      {
+        "formZh": "詢問某人的近況或健康情況",
+        "formEn": "enquire after somebody",
+        "exampleZh": "我媽媽問起你和寶寶的近況。",
+        "exampleEn": "My mother enquired after you and the baby.",
+        "highlight": "enquired after"
+      },
+      {
+        "formZh": "正式調查或查明某事",
+        "formEn": "enquire into something",
+        "exampleZh": "委員會正在調查僱用兒童的情況。",
+        "exampleEn": "The committee are enquiring into the employment of children.",
+        "highlight": "enquiring into"
+      },
+      {
+        "formZh": "以較正式方式向某人詢問某事",
+        "formEn": "enquire something of somebody",
+        "exampleZh": "職員向我們詢問是否見過那個不見了的袋。",
+        "exampleEn": "The officer enquired of us whether we had seen the missing bag.",
+        "highlight": "enquired"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "詢問某人的近況或健康情況",
+      "titleEn": "enquire after somebody",
+      "formula": "enquire after somebody",
+      "highlight": "enquire after somebody",
+      "descriptionZh": "詢問某人的近況或健康情況",
+      "descriptionEn": "My mother enquired after you and the baby.",
+      "examples": [
+        {
+          "en": "My mother enquired after you and the baby.",
+          "zh": "我媽媽問起你和寶寶的近況。",
+          "highlight": "enquired after"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "正式調查或查明某事",
+      "titleEn": "enquire into something",
+      "formula": "enquire into something",
+      "highlight": "enquire into something",
+      "descriptionZh": "正式調查或查明某事",
+      "descriptionEn": "The committee are enquiring into the employment of children.",
+      "examples": [
+        {
+          "en": "The committee are enquiring into the employment of children.",
+          "zh": "委員會正在調查僱用兒童的情況。",
+          "highlight": "enquiring into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "以較正式方式向某人詢問某事",
+      "titleEn": "enquire something of somebody",
+      "formula": "enquire something of somebody",
+      "highlight": "enquire something of somebody",
+      "descriptionZh": "以較正式方式向某人詢問某事",
+      "descriptionEn": "The officer enquired of us whether we had seen the missing bag.",
+      "examples": [
+        {
+          "en": "The officer enquired of us whether we had seen the missing bag.",
+          "zh": "職員向我們詢問是否見過那個不見了的袋。",
+          "highlight": "enquired"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "有禮貌地詢問別人的近況",
+      "titleEn": "Ask politely about someone’s wellbeing",
+      "zh": "enquire after somebody 可以用來有禮貌地詢問某人的健康或一般近況。",
+      "en": "Enquire after somebody lets you ask politely about a person’s health or general condition."
+    },
+    {
+      "titleZh": "談論仔細或正式的調查",
+      "titleEn": "Talk about careful investigations",
+      "zh": "enquire into something 可以描述對問題、投訴或事件進行仔細或正式的調查。",
+      "en": "Enquire into something can describe an official or careful investigation into a problem, complaint or event."
+    },
+    {
+      "titleZh": "清楚提出正式問題",
+      "titleEn": "Ask formal questions clearly",
+      "zh": "enquire something of somebody 適合在酒店、車站、辦公室或公共服務中心等較正式的場合詢問資料。",
+      "en": "Enquire something of somebody is useful when asking for information in formal situations, such as at a hotel, station, office or public service centre."
+    },
+    {
+      "titleZh": "更容易理解正式英語",
+      "titleEn": "Understand formal English more easily",
+      "zh": "這些 ENQUIRE 表達常見於有禮貌的溝通、新聞報道、正式訊息和職場英語。",
+      "en": "These ENQUIRE expressions often appear in polite communication, news reports, official messages and workplace English."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "有禮貌地詢問別人的近況",
+      "談論仔細或正式的調查",
+      "清楚提出正式問題",
+      "更容易理解正式英語"
+    ],
+    "contextsEn": [
+      "Ask politely about someone’s wellbeing",
+      "Talk about careful investigations",
+      "Ask formal questions clearly",
+      "Understand formal English more easily"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "有禮貌地詢問別人的近況",
+        "titleEn": "Ask politely about someone’s wellbeing",
+        "zh": "enquire after somebody 可以用來有禮貌地詢問某人的健康或一般近況。",
+        "en": "Enquire after somebody lets you ask politely about a person’s health or general condition.",
+        "examples": [
+          {
+            "en": "My mother enquired after you and the baby.",
+            "zh": "我媽媽問起你和寶寶的近況。",
+            "highlight": "enquired after"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論仔細或正式的調查",
+        "titleEn": "Talk about careful investigations",
+        "zh": "enquire into something 可以描述對問題、投訴或事件進行仔細或正式的調查。",
+        "en": "Enquire into something can describe an official or careful investigation into a problem, complaint or event.",
+        "examples": [
+          {
+            "en": "The committee are enquiring into the employment of children.",
+            "zh": "委員會正在調查僱用兒童的情況。",
+            "highlight": "enquiring into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚提出正式問題",
+        "titleEn": "Ask formal questions clearly",
+        "zh": "enquire something of somebody 適合在酒店、車站、辦公室或公共服務中心等較正式的場合詢問資料。",
+        "en": "Enquire something of somebody is useful when asking for information in formal situations, such as at a hotel, station, office or public service centre.",
+        "examples": [
+          {
+            "en": "The officer enquired of us whether we had seen the missing bag.",
+            "zh": "職員向我們詢問是否見過那個不見了的袋。",
+            "highlight": "enquired"
+          }
+        ]
+      },
+      {
+        "titleZh": "更容易理解正式英語",
+        "titleEn": "Understand formal English more easily",
+        "zh": "這些 ENQUIRE 表達常見於有禮貌的溝通、新聞報道、正式訊息和職場英語。",
+        "en": "These ENQUIRE expressions often appear in polite communication, news reports, official messages and workplace English.",
+        "examples": [
+          {
+            "en": "My mother enquired after you and the baby.",
+            "zh": "我媽媽問起你和寶寶的近況。",
+            "highlight": "enquired after"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ENQUIRE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ENQUIRE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ENQUIRE 片語動詞。",
+      "en": "Read the whole sentence and choose the ENQUIRE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "詢問某人的健康或近況時,使用 enquire after somebody。Example:She enquired after your father.(她問起你父親的近況。)",
+      "titleEn": "Use enquire after somebody when asking about a person’s health or general condition.",
+      "zh": "詢問某人的健康或近況時,使用 enquire after somebody。Example:She enquired after your father.(她問起你父親的近況。)",
+      "en": "Use enquire after somebody when asking about a person’s health or general condition."
+    },
+    {
+      "titleZh": "調查某事時,使用 enquire into something;以較正式方式向某人提問時,使用 enquire ofsomebody。Examples:The school enquired into the complaint.(學校調查了該宗投訴。)We enquired of the driver whether the bus had left.(我們向司機詢問巴士是否已經開出。)",
+      "titleEn": "Use enquire into something for an investigation.",
+      "zh": "調查某事時,使用 enquire into something;以較正式方式向某人提問時,使用 enquire ofsomebody。Examples:The school enquired into the complaint.(學校調查了該宗投訴。)We enquired of the driver whether the bus had left.(我們向司機詢問巴士是否已經開出。)",
+      "en": "Use enquire into something for an investigation. Use enquire of somebody when formally asking a person a question."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ENQUIRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ENQUIRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ENQUIRE 動詞片語句子改寫練習",
+    "titleEn": "ENQUIRE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ENQUIRE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ENQUIRE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-171-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "When I called Emma, she asked how your mother was.",
+      "promptZh": "我致電艾瑪時,她問起你母親的近況。",
+      "starter": "When",
+      "answer": "When I called Emma, she enquired after your mother.",
+      "answerZh": "我致電艾瑪時,她問起你母親的近況。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The school is investigating the cause of the broken window.",
+      "promptZh": "學校正在調查窗戶破裂的原因。",
+      "starter": "The",
+      "answer": "The school is enquiring into the cause of the broken window.",
+      "answerZh": "學校正在調查窗戶破裂的原因。",
+      "highlight": "enquiring into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Ben asked the receptionist whether the library was open.",
+      "promptZh": "賓向接待員詢問圖書館是否開放。",
+      "starter": "Ben",
+      "answer": "Ben enquired of the receptionist whether the library was open.",
+      "answerZh": "賓向接待員詢問圖書館是否開放。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The manager investigated the missing money.",
+      "promptZh": "經理調查了失款一事。",
+      "starter": "The",
+      "answer": "The manager enquired into the missing money.",
+      "answerZh": "經理調查了失款一事。",
+      "highlight": "enquired into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "My aunt asked how you and the baby were.",
+      "promptZh": "我姨母問起你和寶寶的近況。",
+      "starter": "My",
+      "answer": "My aunt enquired after you and the baby.",
+      "answerZh": "我姨母問起你和寶寶的近況。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "We asked the guide how long the walk would take.",
+      "promptZh": "我們向導遊詢問徒步行程需時多久。",
+      "starter": "We",
+      "answer": "We enquired of the guide how long the walk would take.",
+      "answerZh": "我們向導遊詢問徒步行程需時多久。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Leo often asks how his old teacher is.",
+      "promptZh": "里奧經常問起他以前的老師近況如何。",
+      "starter": "Leo",
+      "answer": "Leo often enquires after his old teacher.",
+      "answerZh": "里奧經常問起他以前的老師近況如何。",
+      "highlight": "enquires after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The committee are investigating the employment of children.",
+      "promptZh": "委員會正在調查僱用兒童的情況。",
+      "starter": "The",
+      "answer": "The committee are enquiring into the employment of children.",
+      "answerZh": "委員會正在調查僱用兒童的情況。",
+      "highlight": "enquiring into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The visitor is asking the guard where the exit is.",
+      "promptZh": "訪客正在向保安員詢問出口在哪裏。",
+      "starter": "The",
+      "answer": "The visitor is enquiring of the guard where the exit is.",
+      "answerZh": "訪客正在向保安員詢問出口在哪裏。",
+      "highlight": "enquiring of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "At lunch, Sara asked how your grandparents were.",
+      "promptZh": "午膳時,莎拉問起你祖父母的近況。",
+      "starter": "At",
+      "answer": "At lunch, Sara enquired after your grandparents.",
+      "answerZh": "午膳時,莎拉問起你祖父母的近況。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The council will investigate the noise complaint next week.",
+      "promptZh": "區議會下星期會調查噪音投訴。",
+      "starter": "The",
+      "answer": "The council will enquire into the noise complaint next week.",
+      "answerZh": "區議會下星期會調查噪音投訴。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Have you asked the driver whether this bus stops at the hospital?",
+      "promptZh": "你有否向司機詢問這輛巴士是否停靠醫院?",
+      "starter": "Have",
+      "answer": "Have you enquired of the driver whether this bus stops at the hospital?",
+      "answerZh": "你有否向司機詢問這輛巴士是否停靠醫院?",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Ravi is now asking how his neighbour is.",
+      "promptZh": "拉維現在正在問鄰居的近況。",
+      "starter": "Ravi",
+      "answer": "Ravi is now enquiring after his neighbour.",
+      "answerZh": "拉維現在正在問鄰居的近況。",
+      "highlight": "enquiring after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The police have investigated the reason the alarm failed.",
+      "promptZh": "警方已調查警報器失靈的原因。",
+      "starter": "The",
+      "answer": "The police have enquired into the reason the alarm failed.",
+      "answerZh": "警方已調查警報器失靈的原因。",
+      "highlight": "enquired into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Did Nora ask how your son was?",
+      "promptZh": "諾拉有否問起你兒子的近況?",
+      "starter": "Did",
+      "answer": "Did Nora enquire after your son?",
+      "answerZh": "諾拉有否問起你兒子的近況?",
+      "highlight": "enquire after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The parents will ask the teacher when the trip will end.",
+      "promptZh": "家長會向老師詢問旅程何時結束。",
+      "starter": "The",
+      "answer": "The parents will enquire of the teacher when the trip will end.",
+      "answerZh": "家長會向老師詢問旅程何時結束。",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Our club is investigating the problem with the online booking page.",
+      "promptZh": "我們的俱樂部正在調查網上預約頁面的問題。",
+      "starter": "Our",
+      "answer": "Our club is enquiring into the problem with the online booking page.",
+      "answerZh": "我們的俱樂部正在調查網上預約頁面的問題。",
+      "highlight": "enquiring into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "I will ask the shop assistant whether this size is available.",
+      "promptZh": "我會向店員詢問是否有這個尺碼。",
+      "starter": "I",
+      "answer": "I will enquire of the shop assistant whether this size is available.",
+      "answerZh": "我會向店員詢問是否有這個尺碼。",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Several friends have asked how Daniel is.",
+      "promptZh": "幾位朋友都問起丹尼爾的近況。",
+      "starter": "Several",
+      "answer": "Several friends have enquired after Daniel.",
+      "answerZh": "幾位朋友都問起丹尼爾的近況。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why is the school investigating the missing sports equipment?",
+      "promptZh": "學校為何正在調查失蹤的運動器材?",
+      "starter": "Why",
+      "answer": "Why is the school enquiring into the missing sports equipment?",
+      "answerZh": "學校為何正在調查失蹤的運動器材?",
+      "highlight": "enquiring into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Has the hotel guest asked the receptionist whether breakfast is included?",
+      "promptZh": "酒店住客有否向接待員詢問是否包括早餐?",
+      "starter": "Has",
+      "answer": "Has the hotel guest enquired of the receptionist whether breakfast is included?",
+      "answerZh": "酒店住客有否向接待員詢問是否包括早餐?",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Clara spoke to my sister and asked how I was.",
+      "promptZh": "克拉拉與我姐姐交談時,問起我的近況。",
+      "starter": "Clara",
+      "answer": "Clara spoke to my sister and enquired after me.",
+      "answerZh": "克拉拉與我姐姐交談時,問起我的近況。",
+      "highlight": "enquired after me",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The head teacher has promised to investigate it before Friday.",
+      "promptZh": "校長答應在星期五前調查此事。",
+      "starter": "The",
+      "answer": "The head teacher has promised to enquire into it before Friday.",
+      "answerZh": "校長答應在星期五前調查此事。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Anna wants to ask the attendant whether the museum is open on Sundays.",
+      "promptZh": "安娜想向職員詢問博物館星期日是否開放。",
+      "starter": "Anna",
+      "answer": "Anna wants to enquire of the attendant whether the museum is open on Sundays.",
+      "answerZh": "安娜想向職員詢問博物館星期日是否開放。",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "We asked the head teacher to investigate it before Friday.",
+      "promptZh": "我們請校長在星期五前調查此事。",
+      "starter": "We",
+      "answer": "We asked the head teacher to enquire into it before Friday.",
+      "answerZh": "我們請校長在星期五前調查此事。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "While I was away, my neighbours asked how my father was.",
+      "promptZh": "我不在期間,鄰居問起我父親的近況。",
+      "starter": "While",
+      "answer": "While I was away, my neighbours enquired after my father.",
+      "answerZh": "我不在期間,鄰居問起我父親的近況。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "No one asked the organiser whether children needed tickets.",
+      "promptZh": "沒有人向主辦者詢問兒童是否需要門票。",
+      "starter": "No",
+      "answer": "No one enquired of the organiser whether children needed tickets.",
+      "answerZh": "沒有人向主辦者詢問兒童是否需要門票。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "After class, the teacher wanted to ask how Ben’s younger sister was.",
+      "promptZh": "下課後,老師想問起賓的妹妹近況如何。",
+      "starter": "After",
+      "answer": "After class, the teacher wanted to enquire after Ben’s younger sister.",
+      "answerZh": "下課後,老師想問起賓的妹妹近況如何。",
+      "highlight": "enquire after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Has anyone investigated the reason for the late delivery?",
+      "promptZh": "有人調查過送貨延誤的原因嗎?",
+      "starter": "Has",
+      "answer": "Has anyone enquired into the reason for the late delivery?",
+      "answerZh": "有人調查過送貨延誤的原因嗎?",
+      "highlight": "enquired into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Could you ask the nurse when the doctor will arrive?",
+      "promptZh": "你可以向護士詢問醫生何時到達嗎?",
+      "starter": "Could",
+      "answer": "Could you enquire of the nurse when the doctor will arrive?",
+      "answerZh": "你可以向護士詢問醫生何時到達嗎?",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The nurse did not ask how the patient was; she only checked the form.",
+      "promptZh": "護士沒有詢問病人的近況;她只檢查了表格。",
+      "starter": "The",
+      "answer": "The nurse did not enquire after the patient; she only checked the form.",
+      "answerZh": "護士沒有詢問病人的近況;她只檢查了表格。",
+      "highlight": "enquire after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Before buying the ticket, Arun had asked the clerk whether he could change the travel date.",
+      "promptZh": "購票前,阿倫曾向職員詢問可否更改出發日期。",
+      "starter": "Before",
+      "answer": "Before buying the ticket, Arun had enquired of the clerk whether he could change the travel date.",
+      "answerZh": "購票前,阿倫曾向職員詢問可否更改出發日期。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The school board is investigating the effects of the new lunch rule.",
+      "promptZh": "校董會正在調查新午膳規則帶來的影響。",
+      "starter": "The",
+      "answer": "The school board is enquiring into the effects of the new lunch rule.",
+      "answerZh": "校董會正在調查新午膳規則帶來的影響。",
+      "highlight": "enquiring into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When I met Eva, she first asked how your family were and then asked about work.",
+      "promptZh": "我遇見伊娃時,她先問起你家人的近況,然後再問工作。",
+      "starter": "When",
+      "answer": "When I met Eva, she first enquired after your family and then asked about work.",
+      "answerZh": "我遇見伊娃時,她先問起你家人的近況,然後再問工作。",
+      "highlight": "enquired after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The airline should investigate the reason so many bags arrived late.",
+      "promptZh": "航空公司應調查為何有這麼多行李延誤到達。",
+      "starter": "The",
+      "answer": "The airline should enquire into the reason so many bags arrived late.",
+      "answerZh": "航空公司應調查為何有這麼多行李延誤到達。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Why did Omar ask the coach whether practice had been cancelled?",
+      "promptZh": "奧馬為何向教練詢問練習是否已取消?",
+      "starter": "Why",
+      "answer": "Why did Omar enquire of the coach whether practice had been cancelled?",
+      "answerZh": "奧馬為何向教練詢問練習是否已取消?",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "During every video call, my uncle asks how all his old neighbours are.",
+      "promptZh": "每次視像通話期間,我叔叔都會問起所有舊鄰居的近況。",
+      "starter": "During",
+      "answer": "During every video call, my uncle enquires after all his old neighbours.",
+      "answerZh": "每次視像通話期間,我叔叔都會問起所有舊鄰居的近況。",
+      "highlight": "enquires after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The reporter may ask the event organiser how many people attended.",
+      "promptZh": "記者可能會向活動主辦者詢問有多少人出席。",
+      "starter": "The",
+      "answer": "The reporter may enquire of the event organiser how many people attended.",
+      "answerZh": "記者可能會向活動主辦者詢問有多少人出席。",
+      "highlight": "enquire of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The committee did not investigate the first complaint, but it is investigating the second one now.",
+      "promptZh": "委員會沒有調查第一宗投訴,但現在正在調查第二宗。",
+      "starter": "The",
+      "answer": "The committee did not enquire into the first complaint, but it is enquiring into the second one now.",
+      "answerZh": "委員會沒有調查第一宗投訴,但現在正在調查第二宗。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Before leaving, the doctor stopped to ask how the child’s brother was.",
+      "promptZh": "離開前,醫生停下來問起那名孩子的兄弟近況如何。",
+      "starter": "Before",
+      "answer": "Before leaving, the doctor stopped to enquire after the child’s brother.",
+      "answerZh": "離開前,醫生停下來問起那名孩子的兄弟近況如何。",
+      "highlight": "enquire after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After several parents reported the same problem, the head teacher agreed to investigate the way homework was being set.",
+      "promptZh": "幾位家長報告同一問題後,校長同意調查功課的安排方式。",
+      "starter": "After",
+      "answer": "After several parents reported the same problem, the head teacher agreed to enquire into the way homework was being set.",
+      "answerZh": "幾位家長報告同一問題後,校長同意調查功課的安排方式。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although I had not seen Joseph for years, his mother remembered me and asked how I was.",
+      "promptZh": "雖然我多年沒有見約瑟,但他的母親仍記得我,並問起我的近況。",
+      "starter": "Although",
+      "answer": "Although I had not seen Joseph for years, his mother remembered me and enquired after me.",
+      "answerZh": "雖然我多年沒有見約瑟,但他的母親仍記得我,並問起我的近況。",
+      "highlight": "enquired after me",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "At the station, we asked a member of staff whether the last train had already left.",
+      "promptZh": "在車站,我們向一名職員詢問尾班車是否已經開出。",
+      "starter": "At",
+      "answer": "At the station, we enquired of a member of staff whether the last train had already left.",
+      "answerZh": "在車站,我們向一名職員詢問尾班車是否已經開出。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The bank noticed several small errors, so it began to investigate the cause before more customers were affected.",
+      "promptZh": "銀行發現了幾個小錯誤,因此在更多客戶受影響前開始調查原因。",
+      "starter": "The",
+      "answer": "The bank noticed several small errors, so it began to enquire into the cause before more customers were affected.",
+      "answerZh": "銀行發現了幾個小錯誤,因此在更多客戶受影響前開始調查原因。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The club leader asked Nina, ‘Are you able to come with us on Saturday?’",
+      "promptZh": "俱樂部負責人向妮娜詢問:「你星期六能與我們一起參加嗎?」",
+      "starter": "The",
+      "answer": "The club leader enquired of Nina, ‘Are you able to come with us on Saturday?’",
+      "answerZh": "俱樂部負責人向妮娜詢問:「你星期六能與我們一起參加嗎?」",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Our former coach could not attend the match, but he plans to call and ask how every player is.",
+      "promptZh": "我們的前教練未能出席比賽,但他打算致電問起每位球員的近況。",
+      "starter": "Our",
+      "answer": "Our former coach could not attend the match, but he plans to call and enquire after every player.",
+      "answerZh": "我們的前教練未能出席比賽,但他打算致電問起每位球員的近況。",
+      "highlight": "enquire after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "No one knew why the school website had stopped working, so the office asked the technical team to investigate the problem.",
+      "promptZh": "沒有人知道學校網站為何停止運作,因此校務處請技術團隊調查問題。",
+      "starter": "No",
+      "answer": "No one knew why the school website had stopped working, so the office asked the technical team to enquire into the problem.",
+      "answerZh": "沒有人知道學校網站為何停止運作,因此校務處請技術團隊調查問題。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    },
+    {
+      "id": "phrasal-verb-171-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "During her visits, Grace never talks about herself; instead, she always asks how my parents and children are.",
+      "promptZh": "探訪期間,格蕾絲從不談論自己;反而總會問起我父母和子女的近況。",
+      "starter": "During",
+      "answer": "During her visits, Grace never talks about herself; instead, she always enquires after my parents and children.",
+      "answerZh": "探訪期間,格蕾絲從不談論自己;反而總會問起我父母和子女的近況。",
+      "highlight": "enquires after",
+      "targetForm": "enquire after somebody",
+      "targetMeaningZh": "詢問某人的近況或健康情況"
+    },
+    {
+      "id": "phrasal-verb-171-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Before signing the form, the visitor asked the officer where the information would be stored and who could read it.",
+      "promptZh": "簽署表格前,訪客向職員詢問資料會儲存在哪裏,以及誰可以查閱。",
+      "starter": "Before",
+      "answer": "Before signing the form, the visitor enquired of the officer where the information would be stored and who could read it.",
+      "answerZh": "簽署表格前,訪客向職員詢問資料會儲存在哪裏,以及誰可以查閱。",
+      "highlight": "enquired of",
+      "targetForm": "enquire something of somebody",
+      "targetMeaningZh": "以較正式方式向某人詢問某事"
+    },
+    {
+      "id": "phrasal-verb-171-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The missing keys were found, but the manager still wanted to investigate the incident.",
+      "promptZh": "遺失的鎖匙已經尋回,但經理仍想調查事件。",
+      "starter": "The",
+      "answer": "The missing keys were found, but the manager still wanted to enquire into the incident.",
+      "answerZh": "遺失的鎖匙已經尋回,但經理仍想調查事件。",
+      "highlight": "enquire into",
+      "targetForm": "enquire into something",
+      "targetMeaningZh": "調查某事"
+    }
+  ]
+}

@@ -1,0 +1,1245 @@
+{
+  "id": "phrasal-verb-66",
+  "order": 66,
+  "slug": "dream",
+  "version": "1",
+  "title": "DREAM 動詞片語",
+  "titleEn": "Dream",
+  "titleZh": "DREAM 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 65 - DREAM.pdf",
+    "sourceNumber": 65,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DREAM 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DREAM."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DREAM",
+      "highlight": "DREAM"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She dreams of owning a small café.",
+      "zh": "她夢想擁有一間小咖啡店。",
+      "highlight": "dreams",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You think I will do all your homework? Dream on!",
+      "zh": "你以為我會替你做所有功課嗎?別作夢了!",
+      "highlight": "Dream on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He dreamt the afternoon away by the window.",
+      "zh": "他坐在窗邊幻想,白白度過了整個下午。",
+      "highlight": "He",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "夢想、希望或想像自己將來擁有某事物或做到某事；用來表示某人的希望不可能實現;別作夢了；把一段時間或人生花在幻想中,沒有做實際的事情；想出或構思出新的主意、計劃、故事、名稱或藉口",
+    "en": "dream of something / dream of doing something; dream on; dream something away; dream something up",
+    "naturalZh": [
+      "夢想、希望或想像自己將來擁有某事物或做到某事",
+      "用來表示某人的希望不可能實現;別作夢了",
+      "把一段時間或人生花在幻想中,沒有做實際的事情",
+      "想出或構思出新的主意、計劃、故事、名稱或藉口"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "dream of something / dream of doing something",
+      "titleZh": "夢想、希望或想像自己將來擁有某事物或做到某事",
+      "titleEn": "dream of something / dream of doing something",
+      "descriptionZh": "夢想、希望或想像自己將來擁有某事物或做到某事",
+      "descriptionEn": "She dreams of owning a small café.",
+      "examples": [
+        {
+          "en": "She dreams of owning a small café.",
+          "zh": "她夢想擁有一間小咖啡店。",
+          "highlight": "dreams"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dream on",
+      "titleZh": "用來表示某人的希望不可能實現;別作夢了",
+      "titleEn": "dream on",
+      "descriptionZh": "用來表示某人的希望不可能實現;別作夢了",
+      "descriptionEn": "You think I will do all your homework? Dream on!",
+      "examples": [
+        {
+          "en": "You think I will do all your homework? Dream on!",
+          "zh": "你以為我會替你做所有功課嗎?別作夢了!",
+          "highlight": "Dream on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "dream something away",
+      "titleZh": "把一段時間或人生花在幻想中,沒有做實際的事情",
+      "titleEn": "dream something away",
+      "descriptionZh": "把一段時間或人生花在幻想中,沒有做實際的事情",
+      "descriptionEn": "He dreamt the afternoon away by the window.",
+      "examples": [
+        {
+          "en": "He dreamt the afternoon away by the window.",
+          "zh": "他坐在窗邊幻想,白白度過了整個下午。",
+          "highlight": "He"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "dream something up",
+      "titleZh": "想出或構思出新的主意、計劃、故事、名稱或藉口",
+      "titleEn": "dream something up",
+      "descriptionZh": "想出或構思出新的主意、計劃、故事、名稱或藉口",
+      "descriptionEn": "They dreamed up a new board game.",
+      "examples": [
+        {
+          "en": "They dreamed up a new board game.",
+          "zh": "他們構思了一款新的桌上遊戲。",
+          "highlight": "dreamed up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DREAM 片語動詞的實際用途",
+    "labelEn": "DREAM Phrasal Verbs in Use",
+    "summaryZh": "dream of 能幫助你描述自己非常希望將來擁有的生活、工作、住所或經歷。；dream on 能讓你清楚表示,你認為對方所說的事情不可能發生。；dream something away 可以描述一個人只顧幻想,沒有採取行動,因而白白度過數小時、數天,甚至多年。；dream something up 能幫助你描述某人如何構思出新奇的主意、故事、計劃、藉口或設計。",
+    "summaryEn": "Dream of helps you describe the life, job, home or experience that you strongly hope to have one day. Dream on lets you show clearly that you believe another person’s idea will never happen. Dream something away describes a person who spends hours, days or even years imagining things instead of taking action. Dream something up helps you describe how somebody creates an unusual idea, story, plan, excuse or design.",
+    "contextsZh": [
+      "自然地談論希望和未來計劃",
+      "回應不切實際的說法",
+      "描述在幻想中白白度過的時間",
+      "談論創意和構思"
+    ],
+    "contextsEn": [
+      "Talk naturally about hopes and future plans",
+      "Respond to an unrealistic claim",
+      "Describe time lost in fantasy",
+      "Talk about creativity and invention"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DREAM 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DREAM expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "dream of something / dream of doing something",
+    "fixedHighlight": "dream of something / dream of doing something",
+    "fixedZh": "閱讀整句,選出意思相同的 DREAM 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DREAM expression that gives the same meaning.",
+    "correct": "dreams",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 DREAM ... AWAY 或 DREAM ... UP 中使用 it、him、her 或 them 時,請按照以上例子把代名詞放在中間。；Dream on! 是非正式回應,表示你不相信對方的希望會實現。這句話可能帶有無禮或取笑的語氣,不適合正式場合。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them with DREAM... AWAY or DREAM... UP, place the word as shown: dream it away dream them up Dream on! is an informal reply meaning that you do not believe someone’s hope will come true. It may sound rude or teasing, so it is not suitable for formal situations.",
+    "variableItemsZh": [
+      "dream of something / dream of doing something",
+      "dream on",
+      "dream something away",
+      "dream something up"
+    ],
+    "variableItemsEn": [
+      "dream of something / dream of doing something",
+      "dream on",
+      "dream something away",
+      "dream something up"
+    ],
+    "forms": [
+      {
+        "formZh": "夢想、希望或想像自己將來擁有某事物或做到某事",
+        "formEn": "dream of something / dream of doing something",
+        "exampleZh": "她夢想擁有一間小咖啡店。",
+        "exampleEn": "She dreams of owning a small café.",
+        "highlight": "dreams"
+      },
+      {
+        "formZh": "用來表示某人的希望不可能實現;別作夢了",
+        "formEn": "dream on",
+        "exampleZh": "你以為我會替你做所有功課嗎?別作夢了!",
+        "exampleEn": "You think I will do all your homework? Dream on!",
+        "highlight": "Dream on"
+      },
+      {
+        "formZh": "把一段時間或人生花在幻想中,沒有做實際的事情",
+        "formEn": "dream something away",
+        "exampleZh": "他坐在窗邊幻想,白白度過了整個下午。",
+        "exampleEn": "He dreamt the afternoon away by the window.",
+        "highlight": "He"
+      },
+      {
+        "formZh": "想出或構思出新的主意、計劃、故事、名稱或藉口",
+        "formEn": "dream something up",
+        "exampleZh": "他們構思了一款新的桌上遊戲。",
+        "exampleEn": "They dreamed up a new board game.",
+        "highlight": "dreamed up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "夢想、希望或想像自己將來擁有某事物或做到某事",
+      "titleEn": "dream of something / dream of doing something",
+      "formula": "dream of something / dream of doing something",
+      "highlight": "dream of something / dream of doing something",
+      "descriptionZh": "夢想、希望或想像自己將來擁有某事物或做到某事",
+      "descriptionEn": "She dreams of owning a small café.",
+      "examples": [
+        {
+          "en": "She dreams of owning a small café.",
+          "zh": "她夢想擁有一間小咖啡店。",
+          "highlight": "dreams"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用來表示某人的希望不可能實現;別作夢了",
+      "titleEn": "dream on",
+      "formula": "dream on",
+      "highlight": "dream on",
+      "descriptionZh": "用來表示某人的希望不可能實現;別作夢了",
+      "descriptionEn": "You think I will do all your homework? Dream on!",
+      "examples": [
+        {
+          "en": "You think I will do all your homework? Dream on!",
+          "zh": "你以為我會替你做所有功課嗎?別作夢了!",
+          "highlight": "Dream on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把一段時間或人生花在幻想中,沒有做實際的事情",
+      "titleEn": "dream something away",
+      "formula": "dream something away",
+      "highlight": "dream something away",
+      "descriptionZh": "把一段時間或人生花在幻想中,沒有做實際的事情",
+      "descriptionEn": "He dreamt the afternoon away by the window.",
+      "examples": [
+        {
+          "en": "He dreamt the afternoon away by the window.",
+          "zh": "他坐在窗邊幻想,白白度過了整個下午。",
+          "highlight": "He"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "想出或構思出新的主意、計劃、故事、名稱或藉口",
+      "titleEn": "dream something up",
+      "formula": "dream something up",
+      "highlight": "dream something up",
+      "descriptionZh": "想出或構思出新的主意、計劃、故事、名稱或藉口",
+      "descriptionEn": "They dreamed up a new board game.",
+      "examples": [
+        {
+          "en": "They dreamed up a new board game.",
+          "zh": "他們構思了一款新的桌上遊戲。",
+          "highlight": "dreamed up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論希望和未來計劃",
+      "titleEn": "Talk naturally about hopes and future plans",
+      "zh": "dream of 能幫助你描述自己非常希望將來擁有的生活、工作、住所或經歷。",
+      "en": "Dream of helps you describe the life, job, home or experience that you strongly hope to have one day."
+    },
+    {
+      "titleZh": "回應不切實際的說法",
+      "titleEn": "Respond to an unrealistic claim",
+      "zh": "dream on 能讓你清楚表示,你認為對方所說的事情不可能發生。",
+      "en": "Dream on lets you show clearly that you believe another person’s idea will never happen."
+    },
+    {
+      "titleZh": "描述在幻想中白白度過的時間",
+      "titleEn": "Describe time lost in fantasy",
+      "zh": "dream something away 可以描述一個人只顧幻想,沒有採取行動,因而白白度過數小時、數天,甚至多年。",
+      "en": "Dream something away describes a person who spends hours, days or even years imagining things instead of taking action."
+    },
+    {
+      "titleZh": "談論創意和構思",
+      "titleEn": "Talk about creativity and invention",
+      "zh": "dream something up 能幫助你描述某人如何構思出新奇的主意、故事、計劃、藉口或設計。",
+      "en": "Dream something up helps you describe how somebody creates an unusual idea, story, plan, excuse or design."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論希望和未來計劃",
+      "回應不切實際的說法",
+      "描述在幻想中白白度過的時間",
+      "談論創意和構思"
+    ],
+    "contextsEn": [
+      "Talk naturally about hopes and future plans",
+      "Respond to an unrealistic claim",
+      "Describe time lost in fantasy",
+      "Talk about creativity and invention"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論希望和未來計劃",
+        "titleEn": "Talk naturally about hopes and future plans",
+        "zh": "dream of 能幫助你描述自己非常希望將來擁有的生活、工作、住所或經歷。",
+        "en": "Dream of helps you describe the life, job, home or experience that you strongly hope to have one day.",
+        "examples": [
+          {
+            "en": "She dreams of owning a small café.",
+            "zh": "她夢想擁有一間小咖啡店。",
+            "highlight": "dreams"
+          }
+        ]
+      },
+      {
+        "titleZh": "回應不切實際的說法",
+        "titleEn": "Respond to an unrealistic claim",
+        "zh": "dream on 能讓你清楚表示,你認為對方所說的事情不可能發生。",
+        "en": "Dream on lets you show clearly that you believe another person’s idea will never happen.",
+        "examples": [
+          {
+            "en": "You think I will do all your homework? Dream on!",
+            "zh": "你以為我會替你做所有功課嗎?別作夢了!",
+            "highlight": "Dream on"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述在幻想中白白度過的時間",
+        "titleEn": "Describe time lost in fantasy",
+        "zh": "dream something away 可以描述一個人只顧幻想,沒有採取行動,因而白白度過數小時、數天,甚至多年。",
+        "en": "Dream something away describes a person who spends hours, days or even years imagining things instead of taking action.",
+        "examples": [
+          {
+            "en": "He dreamt the afternoon away by the window.",
+            "zh": "他坐在窗邊幻想,白白度過了整個下午。",
+            "highlight": "He"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論創意和構思",
+        "titleEn": "Talk about creativity and invention",
+        "zh": "dream something up 能幫助你描述某人如何構思出新奇的主意、故事、計劃、藉口或設計。",
+        "en": "Dream something up helps you describe how somebody creates an unusual idea, story, plan, excuse or design.",
+        "examples": [
+          {
+            "en": "They dreamed up a new board game.",
+            "zh": "他們構思了一款新的桌上遊戲。",
+            "highlight": "dreamed up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DREAM 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DREAM expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DREAM 片語動詞。",
+      "en": "Read the whole sentence and choose the DREAM expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 DREAM ... AWAY 或 DREAM ... UP 中使用 it、him、her 或 them 時,請按照以上例子把代名詞放在中間。",
+      "titleEn": "When using it, him, her or them with DREAM.",
+      "zh": "在 DREAM ... AWAY 或 DREAM ... UP 中使用 it、him、her 或 them 時,請按照以上例子把代名詞放在中間。",
+      "en": "When using it, him, her or them with DREAM... AWAY or DREAM... UP, place the word as shown: dream it away dream them up"
+    },
+    {
+      "titleZh": "Dream on! 是非正式回應,表示你不相信對方的希望會實現。這句話可能帶有無禮或取笑的語氣,不適合正式場合。",
+      "titleEn": "Dream on! is an informal reply meaning that you do not believe someone’s hope will come true.",
+      "zh": "Dream on! 是非正式回應,表示你不相信對方的希望會實現。這句話可能帶有無禮或取笑的語氣,不適合正式場合。",
+      "en": "Dream on! is an informal reply meaning that you do not believe someone’s hope will come true. It may sound rude or teasing, so it is not suitable for formal situations."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DREAM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DREAM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DREAM 動詞片語句子改寫練習",
+    "titleEn": "DREAM Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DREAM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DREAM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-66-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The children invented a new playground game.",
+      "promptZh": "孩子們創作了一款新的遊樂場遊戲。",
+      "starter": "The",
+      "answer": "The children dreamed up a new playground game.",
+      "answerZh": "孩子們創作了一款新的遊樂場遊戲。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Sara hopes to own a small bakery one day.",
+      "promptZh": "莎拉希望有一天能擁有一間小麵包店。",
+      "starter": "Sara",
+      "answer": "Sara dreams of owning a small bakery one day.",
+      "answerZh": "莎拉夢想有一天能擁有一間小麵包店。",
+      "highlight": "dreams of owning",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "You think I will give you my concert ticket? That will never happen.",
+      "promptZh": "你以為我會把音樂會門票送給你嗎?這絕對不會發生。",
+      "starter": "You",
+      "answer": "You think I will give you my concert ticket? Dream on!",
+      "answerZh": "你以為我會把音樂會門票送給你嗎?別作夢了!",
+      "highlight": "Dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Liam spent the whole afternoon lost in pleasant thoughts.",
+      "promptZh": "利安整個下午都沉浸在美好的幻想中。",
+      "starter": "Liam",
+      "answer": "Liam dreamt the whole afternoon away in pleasant thoughts.",
+      "answerZh": "利安沉浸在美好的幻想中,白白度過了整個下午。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We often imagine living near the sea.",
+      "promptZh": "我們經常想像住在海邊。",
+      "starter": "We",
+      "answer": "We often dream of living near the sea.",
+      "answerZh": "我們經常夢想住在海邊。",
+      "highlight": "dream of",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "A student invented the name for the school band.",
+      "promptZh": "一名學生想出了學校樂隊的名稱。",
+      "starter": "A",
+      "answer": "A student dreamed up the name for the school band.",
+      "answerZh": "一名學生想出了學校樂隊的名稱。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ella spent her summer thinking about a perfect future instead of making plans.",
+      "promptZh": "艾拉整個夏天只顧幻想完美的未來,卻沒有制訂計劃。",
+      "starter": "Ella",
+      "answer": "Ella dreamt her summer away thinking about a perfect future instead of making plans.",
+      "answerZh": "艾拉整個夏天只顧幻想完美的未來,卻沒有制訂計劃。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He expects the coach to choose him after one practice. That is not realistic.",
+      "promptZh": "他只練習了一次,便期望教練選中他。這並不實際。",
+      "starter": "He",
+      "answer": "He expects the coach to choose him after one practice. He can dream on.",
+      "answerZh": "他只練習了一次,便期望教練選中他。他只是妄想而已。",
+      "highlight": "He can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The team invented a simple plan for the class party.",
+      "promptZh": "團隊為班級派對想出了一個簡單計劃。",
+      "starter": "The",
+      "answer": "The team dreamed up a simple plan for the class party.",
+      "answerZh": "團隊為班級派對想出了一個簡單計劃。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "My brother hopes to travel around Japan one day.",
+      "promptZh": "我弟弟希望有一天能遊遍日本。",
+      "starter": "My",
+      "answer": "My brother dreams of travelling around Japan one day.",
+      "answerZh": "我弟弟夢想有一天能遊遍日本。",
+      "highlight": "dreams of travelling",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "You believe Dad will buy you a motorbike tomorrow? That is not going to happen.",
+      "promptZh": "你相信爸爸明天會買電單車給你嗎?這是不會發生的。",
+      "starter": "You",
+      "answer": "You believe Dad will buy you a motorbike tomorrow? Dream on!",
+      "answerZh": "你相信爸爸明天會買電單車給你嗎?別作夢了!",
+      "highlight": "Dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah is spending the morning staring out of the window and imagining a different life.",
+      "promptZh": "諾亞整個早上都望着窗外,幻想另一種生活。",
+      "starter": "Noah",
+      "answer": "Noah is dreaming the morning away, staring out of the window and imagining a different life.",
+      "answerZh": "諾亞整個早上都望着窗外,幻想另一種生活。",
+      "highlight": "dreaming",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The club has invented a new way to collect old books.",
+      "promptZh": "這個學會想出了一種收集舊書的新方法。",
+      "starter": "The",
+      "answer": "The club has dreamed up a new way to collect old books.",
+      "answerZh": "這個學會想出了一種收集舊書的新方法。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Since she was ten, Hana has wanted to become a pilot.",
+      "promptZh": "哈娜自十歲起便希望成為機師。",
+      "starter": "Since",
+      "answer": "Since she was ten, Hana has dreamt of becoming a pilot.",
+      "answerZh": "哈娜自十歲起便夢想成為機師。",
+      "highlight": "dreamt of becoming",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Leo thinks the school will cancel every test. That will not happen.",
+      "promptZh": "里奧以為學校會取消所有測驗。這是不會發生的。",
+      "starter": "Leo",
+      "answer": "Leo thinks the school will cancel every test. He can dream on.",
+      "answerZh": "里奧以為學校會取消所有測驗。他只是妄想而已。",
+      "highlight": "He can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not spend the evening thinking about impossible plans.",
+      "promptZh": "不要把整個晚上花在幻想不可能實現的計劃上。",
+      "starter": "Do",
+      "answer": "Do not dream the evening away thinking about impossible plans.",
+      "answerZh": "不要把整個晚上花在幻想不可能實現的計劃上。",
+      "highlight": "dream",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They may hope to start a small café together.",
+      "promptZh": "他們可能希望一起開設一間小咖啡店。",
+      "starter": "They",
+      "answer": "They may dream of starting a small café together.",
+      "answerZh": "他們可能夢想一起開設一間小咖啡店。",
+      "highlight": "dream of starting",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "A local artist invented the strange character.",
+      "promptZh": "一名本地藝術家創作了這個奇怪的角色。",
+      "starter": "The",
+      "answer": "The strange character was dreamed up by a local artist.",
+      "answerZh": "這個奇怪的角色由一名本地藝術家創作。",
+      "highlight": "The strange character was dreamed up by",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "By lunchtime, Priya had spent two hours lost in pleasant thoughts.",
+      "promptZh": "到了午飯時間,普里雅已花了兩小時沉浸在美好的幻想中。",
+      "starter": "By",
+      "answer": "By lunchtime, Priya had dreamt two hours away.",
+      "answerZh": "到了午飯時間,普里雅已在幻想中白白度過了兩小時。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "You want me to wash your car every Sunday? That will not happen.",
+      "promptZh": "你想我每個星期日替你洗車嗎?這是不會發生的。",
+      "starter": "You",
+      "answer": "You want me to wash your car every Sunday? Dream on!",
+      "answerZh": "你想我每個星期日替你洗車嗎?別作夢了!",
+      "highlight": "Dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "A quiet life in the countryside is what they often imagine.",
+      "promptZh": "他們經常想像在鄉郊過平靜的生活。",
+      "starter": "They",
+      "answer": "They often dream of a quiet life in the countryside.",
+      "answerZh": "他們經常夢想在鄉郊過平靜的生活。",
+      "highlight": "They often dream of",
+      "targetForm": "dream of something",
+      "targetMeaningZh": "夢想或希望擁有某事物"
+    },
+    {
+      "id": "phrasal-verb-66-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We needed an excuse, so Ben invented one quickly.",
+      "promptZh": "我們需要一個藉口,所以賓很快便想出了一個。",
+      "starter": "We",
+      "answer": "We needed an excuse, so Ben dreamed one up quickly.",
+      "answerZh": "我們需要一個藉口,所以賓很快便想出了一個。",
+      "highlight": "dreamed",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The afternoon was free, and Ava spent it lost in pleasant thoughts.",
+      "promptZh": "艾娃下午沒有事情要做,於是把時間花在美好的幻想中。",
+      "starter": "The",
+      "answer": "The afternoon was free, and Ava dreamed it away.",
+      "answerZh": "艾娃下午沒有事情要做,於是在幻想中白白度過了這段時間。",
+      "highlight": "dreamed",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "If Tom thinks I will do his homework, that will never happen.",
+      "promptZh": "如果湯姆以為我會替他做功課,那是絕對不會發生的。",
+      "starter": "If",
+      "answer": "If Tom thinks I will do his homework, he can dream on.",
+      "answerZh": "如果湯姆以為我會替他做功課,他只是妄想而已。",
+      "highlight": "he can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nobody knows who invented the idea.",
+      "promptZh": "沒有人知道是誰想出了這個主意。",
+      "starter": "Nobody",
+      "answer": "Nobody knows who dreamed the idea up.",
+      "answerZh": "沒有人知道是誰想出了這個主意。",
+      "highlight": "dreamed",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Do you ever imagine having your own studio?",
+      "promptZh": "你有沒有想像過擁有自己的工作室?",
+      "starter": "Do",
+      "answer": "Do you ever dream of having your own studio?",
+      "answerZh": "你有沒有夢想過擁有自己的工作室?",
+      "highlight": "dream of",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Instead of studying, the boys spent the rainy day imagining great adventures.",
+      "promptZh": "男孩子們沒有溫習,反而在下雨天幻想精彩的冒險。",
+      "starter": "Instead",
+      "answer": "Instead of studying, the boys dreamt the rainy day away imagining great adventures.",
+      "answerZh": "男孩子們沒有溫習,反而在幻想精彩的冒險中度過了這個下雨天。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could we invent a safer way to carry the boxes?",
+      "promptZh": "我們能否想出一種更安全的搬箱方法?",
+      "starter": "Could",
+      "answer": "Could we dream up a safer way to carry the boxes?",
+      "answerZh": "我們能否想出一種更安全的搬箱方法?",
+      "highlight": "dream up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "She thinks she can borrow my new laptop for a month. That is impossible.",
+      "promptZh": "她以為可以借用我的新手提電腦一個月。這是不可能的。",
+      "starter": "She",
+      "answer": "She thinks she can borrow my new laptop for a month. She can dream on.",
+      "answerZh": "她以為可以借用我的新手提電腦一個月。她只是妄想而已。",
+      "highlight": "She can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "His biggest hope is to become a famous designer.",
+      "promptZh": "他最大的希望是成為著名設計師。",
+      "starter": "He",
+      "answer": "He dreams of becoming a famous designer.",
+      "answerZh": "他夢想成為著名設計師。",
+      "highlight": "He dreams of becoming",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "During the long train ride, Ruby spent the hours imagining a new life.",
+      "promptZh": "在漫長的火車旅程中,露比花了數小時幻想新的生活。",
+      "starter": "During",
+      "answer": "During the long train ride, Ruby dreamt the hours away imagining a new life.",
+      "answerZh": "在漫長的火車旅程中,露比花了數小時幻想新的生活。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The new student thinks he will become team captain on his first day. That is very unlikely.",
+      "promptZh": "這名新生以為自己第一天便會成為隊長。這極不可能發生。",
+      "starter": "The",
+      "answer": "The new student thinks he will become team captain on his first day. He can dream on.",
+      "answerZh": "這名新生以為自己第一天便會成為隊長。他只是妄想而已。",
+      "highlight": "He can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After years in a busy city, the couple often imagined a quiet home in the hills.",
+      "promptZh": "在繁忙城市生活多年後,這對夫婦經常想像在山中擁有一個寧靜的家。",
+      "starter": "After",
+      "answer": "After years in a busy city, the couple often dreamt of a quiet home in the hills.",
+      "answerZh": "在繁忙城市生活多年後,這對夫婦經常夢想在山中擁有一個寧靜的家。",
+      "highlight": "dreamt of",
+      "targetForm": "dream of something",
+      "targetMeaningZh": "夢想或希望擁有某事物"
+    },
+    {
+      "id": "phrasal-verb-66-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The writers invented an ending that surprised everyone.",
+      "promptZh": "作家們想出了一個令所有人意外的結局。",
+      "starter": "The",
+      "answer": "The writers dreamed up an ending that surprised everyone.",
+      "answerZh": "作家們想出了一個令所有人意外的結局。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "She had work to do, but she spent the evening imagining her perfect holiday.",
+      "promptZh": "她有工作要做,卻把整個晚上花在幻想完美的假期上。",
+      "starter": "She",
+      "answer": "She had work to do, but she dreamt the evening away imagining her perfect holiday.",
+      "answerZh": "她有工作要做,卻把整個晚上花在幻想完美的假期上。",
+      "highlight": "dreamt",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "You expect us to believe that the dog ate your report? That excuse will not work.",
+      "promptZh": "你想我們相信是狗吃掉了你的報告嗎?這個藉口是行不通的。",
+      "starter": "You",
+      "answer": "You expect us to believe that the dog ate your report? Dream on!",
+      "answerZh": "你想我們相信是狗吃掉了你的報告嗎?別作夢了!",
+      "highlight": "Dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If you keep spending every weekend in fantasy, you will never finish the project.",
+      "promptZh": "如果你每個週末都只顧幻想,便永遠無法完成這個項目。",
+      "starter": "If",
+      "answer": "If you keep dreaming every weekend away, you will never finish the project.",
+      "answerZh": "如果你每個週末都只顧幻想,便永遠無法完成這個項目。",
+      "highlight": "dreaming",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The young chef hoped to serve her food to people around the world one day.",
+      "promptZh": "這名年輕廚師希望有一天能讓世界各地的人品嘗她的食物。",
+      "starter": "The",
+      "answer": "The young chef dreamed of serving her food to people around the world one day.",
+      "answerZh": "這名年輕廚師夢想有一天能讓世界各地的人品嘗她的食物。",
+      "highlight": "dreamed of serving",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The idea for the unusual shop was invented during a late-night chat.",
+      "promptZh": "這間特別店舖的構思是在一次深夜聊天中想出來的。",
+      "starter": "The",
+      "answer": "The idea for the unusual shop was dreamed up during a late-night chat.",
+      "answerZh": "這間特別店舖的構思是在一次深夜聊天中想出來的。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "If the manager thinks we will work all weekend for free, he is being unrealistic.",
+      "promptZh": "如果經理以為我們會整個週末免費工作,他的想法便很不切實際。",
+      "starter": "If",
+      "answer": "If the manager thinks we will work all weekend for free, he can dream on.",
+      "answerZh": "如果經理以為我們會整個週末免費工作,他只是妄想而已。",
+      "highlight": "can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "No one had a solution until Anya invented a simple system using coloured cards.",
+      "promptZh": "在安雅想出一套使用彩色卡片的簡單方法前,沒有人找到解決方法。",
+      "starter": "No",
+      "answer": "No one had a solution until Anya dreamed up a simple system using coloured cards.",
+      "answerZh": "在安雅想出一套使用彩色卡片的簡單方法前,沒有人找到解決方法。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Even while working in a small office, Ravi kept imagining a future in which he ran his own company.",
+      "promptZh": "即使在一間小型辦公室工作,拉維仍不斷幻想自己將來經營公司的生活。",
+      "starter": "Even",
+      "answer": "Even while working in a small office, Ravi kept dreaming of a future in which he ran his own company.",
+      "answerZh": "即使在一間小型辦公室工作,拉維仍不斷夢想自己將來經營公司的生活。",
+      "highlight": "dreaming of",
+      "targetForm": "dream of something",
+      "targetMeaningZh": "夢想或希望將來擁有某事物"
+    },
+    {
+      "id": "phrasal-verb-66-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The brothers talked about becoming rich all weekend and did nothing useful.",
+      "promptZh": "兩兄弟整個週末都在談論發達致富,沒有做任何有用的事情。",
+      "starter": "The",
+      "answer": "The brothers dreamt the weekend away talking about becoming rich and did nothing useful.",
+      "answerZh": "兩兄弟整個週末都在幻想發達致富,沒有做任何有用的事情。",
+      "highlight": "dreamt the weekend away talking",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "You think the school will let you miss every class and still pass? That is not going to happen.",
+      "promptZh": "你以為學校會讓你每堂課都缺席,最後仍然合格嗎?這是不會發生的。",
+      "starter": "You",
+      "answer": "You think the school will let you miss every class and still pass? Dream on!",
+      "answerZh": "你以為學校會讓你每堂課都缺席,最後仍然合格嗎?別作夢了!",
+      "highlight": "Dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The family had very little money, but they never stopped hoping for a better life.",
+      "promptZh": "這個家庭的金錢不多,但他們從沒有停止希望過上更好的生活。",
+      "starter": "The",
+      "answer": "The family had very little money, but they never stopped dreaming of a better life.",
+      "answerZh": "這個家庭的金錢不多,但他們從沒有停止夢想過上更好的生活。",
+      "highlight": "dreaming of",
+      "targetForm": "dream of something",
+      "targetMeaningZh": "夢想或希望擁有某事物"
+    },
+    {
+      "id": "phrasal-verb-66-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The story sounds impossible because the writer invented every strange detail.",
+      "promptZh": "這個故事聽來難以置信,因為每個奇怪的細節都是作家想出來的。",
+      "starter": "The",
+      "answer": "The story sounds impossible because the writer dreamed up every strange detail.",
+      "answerZh": "這個故事聽來難以置信,因為每個奇怪的細節都是作家想出來的。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    },
+    {
+      "id": "phrasal-verb-66-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Instead of doing anything, he spent years imagining success and waiting for it to arrive.",
+      "promptZh": "他沒有採取任何行動,只花了多年幻想成功,等待成功自己來臨。",
+      "starter": "Instead",
+      "answer": "Instead of doing anything, he dreamt the years away imagining success and waiting for it to arrive.",
+      "answerZh": "他沒有採取任何行動,只花了多年幻想成功,等待成功自己來臨。",
+      "highlight": "dreamt the",
+      "targetForm": "dream something away",
+      "targetMeaningZh": "把時間或人生耗在幻想中"
+    },
+    {
+      "id": "phrasal-verb-66-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "When the team was losing, the young player still imagined scoring the winning goal.",
+      "promptZh": "球隊落後時,這名年輕球員仍幻想自己射入致勝一球。",
+      "starter": "When",
+      "answer": "When the team was losing, the young player still dreamed of scoring the winning goal.",
+      "answerZh": "球隊落後時,這名年輕球員仍夢想自己射入致勝一球。",
+      "highlight": "dreamed of",
+      "targetForm": "dream of doing something",
+      "targetMeaningZh": "夢想或希望做某事"
+    },
+    {
+      "id": "phrasal-verb-66-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "She says she will become famous without practising or studying. That idea is completely unrealistic.",
+      "promptZh": "她說自己不用練習或學習也會成名。這個想法完全不切實際。",
+      "starter": "She",
+      "answer": "She says she will become famous without practising or studying. She can dream on.",
+      "answerZh": "她說自己不用練習或學習也會成名。她只是妄想而已。",
+      "highlight": "She can dream on",
+      "targetForm": "dream on",
+      "targetMeaningZh": "別作夢了;這不會發生"
+    },
+    {
+      "id": "phrasal-verb-66-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The designer and the engineer invented a table that could fold against the wall after several failed tries.",
+      "promptZh": "經過數次失敗後,設計師和工程師想出了一張可以摺起貼牆的桌子。",
+      "starter": "The",
+      "answer": "The designer and the engineer dreamed up a table that could fold against the wall after several failed tries.",
+      "answerZh": "經過數次失敗後,設計師和工程師想出了一張可以摺起貼牆的桌子。",
+      "highlight": "dreamed up",
+      "targetForm": "dream something up",
+      "targetMeaningZh": "想出或構思出某事"
+    }
+  ]
+}

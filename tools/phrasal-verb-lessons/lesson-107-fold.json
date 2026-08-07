@@ -1,0 +1,1467 @@
+{
+  "id": "phrasal-verb-107",
+  "order": 107,
+  "slug": "fold",
+  "version": "1",
+  "title": "FOLD 動詞片語",
+  "titleEn": "Fold",
+  "titleZh": "FOLD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 106 - FOLD.pdf",
+    "sourceNumber": 106,
+    "pageCount": 13,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "answerKeyPdfPages": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FOLD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FOLD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FOLD",
+      "highlight": "FOLD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She folded a blanket round the sleeping dog.",
+      "zh": "她用毛毯包住熟睡的小狗。",
+      "highlight": "folded a blanket round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The desk folds down from the wall.",
+      "zh": "書桌可以從牆上摺下來。",
+      "highlight": "folds down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He folded the clean shirts away.",
+      "zh": "他把乾淨的恤衫摺好並收起來。",
+      "highlight": "folded the clean shirts away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "用某物包住某人或某物；摺起或放平,方便收藏或騰出空間；把某物摺好並收起來；把某部分摺向後、摺過去或摺下；烹調時把材料輕輕拌入；把某物摺小;摺起來後變小",
+    "en": "fold somebody/something in something; fold something round/over somebody/something; fold away/down; fold something away/down; fold something away; fold something back/over/down; fold something into something; fold something in; fold up; fold something up",
+    "naturalZh": [
+      "用某物包住某人或某物",
+      "摺起或放平,方便收藏或騰出空間",
+      "把某物摺好並收起來",
+      "把某部分摺向後、摺過去或摺下",
+      "烹調時把材料輕輕拌入",
+      "把某物摺小;摺起來後變小"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fold somebody/something in something; fold something round/over somebody/something",
+      "titleZh": "用某物包住某人或某物",
+      "titleEn": "fold somebody/something in something; fold something round/over somebody/something",
+      "descriptionZh": "用某物包住某人或某物",
+      "descriptionEn": "She folded a blanket round the sleeping dog.",
+      "examples": [
+        {
+          "en": "She folded a blanket round the sleeping dog.",
+          "zh": "她用毛毯包住熟睡的小狗。",
+          "highlight": "folded a blanket round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fold away/down; fold something away/down",
+      "titleZh": "摺起或放平,方便收藏或騰出空間",
+      "titleEn": "fold away/down; fold something away/down",
+      "descriptionZh": "摺起或放平,方便收藏或騰出空間",
+      "descriptionEn": "The desk folds down from the wall.",
+      "examples": [
+        {
+          "en": "The desk folds down from the wall.",
+          "zh": "書桌可以從牆上摺下來。",
+          "highlight": "folds down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fold something away",
+      "titleZh": "把某物摺好並收起來",
+      "titleEn": "fold something away",
+      "descriptionZh": "把某物摺好並收起來",
+      "descriptionEn": "He folded the clean shirts away.",
+      "examples": [
+        {
+          "en": "He folded the clean shirts away.",
+          "zh": "他把乾淨的恤衫摺好並收起來。",
+          "highlight": "folded the clean shirts away"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fold something back/over/down",
+      "titleZh": "把某部分摺向後、摺過去或摺下",
+      "titleEn": "fold something back/over/down",
+      "descriptionZh": "把某部分摺向後、摺過去或摺下",
+      "descriptionEn": "Fold the edge of the paper over.",
+      "examples": [
+        {
+          "en": "Fold the edge of the paper over.",
+          "zh": "把紙邊摺過去。",
+          "highlight": "Fold the edge of the paper over"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fold something into something; fold something in",
+      "titleZh": "烹調時把材料輕輕拌入",
+      "titleEn": "fold something into something; fold something in",
+      "descriptionZh": "烹調時把材料輕輕拌入",
+      "descriptionEn": "Fold the berries into the cream.",
+      "examples": [
+        {
+          "en": "Fold the berries into the cream.",
+          "zh": "把莓果輕輕拌入忌廉中。",
+          "highlight": "Fold the berries into"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fold up; fold something up",
+      "titleZh": "把某物摺小;摺起來後變小",
+      "titleEn": "fold up; fold something up",
+      "descriptionZh": "把某物摺小;摺起來後變小",
+      "descriptionEn": "The umbrella folds up very small.",
+      "examples": [
+        {
+          "en": "The umbrella folds up very small.",
+          "zh": "這把雨傘摺起來後很小。",
+          "highlight": "folds up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FOLD 片語動詞的實際用途",
+    "labelEn": "FOLD Phrasal Verbs in Use",
+    "summaryZh": "你可以用 fold in、fold round 和 fold over,描述毛毯、毛巾或布料如何包住和保護人或物。；談論可以摺起收藏的床、桌子、座椅和其他物件時,fold away 和 fold down 十分實用。；製作蛋糕、忌廉混合物和其他鬆軟食物時,fold in 和 fold into 可以準確表示輕輕拌入材料。；fold back、fold over 和 fold down 能幫助你準確描述書頁、紙角、袖口、封口或布邊的摺法。",
+    "summaryEn": "You can use fold in, fold round and fold over when describing how a blanket, towel or cloth covers and protects something. Fold away and fold down are useful when talking about beds, tables, seats and other objects that can be stored in a smaller space. Fold in and fold into describe the gentle mixing method used when making cakes, cream mixtures and other light foods. Fold back, fold over and fold down help you describe exactly how a page, corner, sleeve, flap or edge is moved.",
+    "contextsZh": [
+      "談論包裹和保護人或物",
+      "描述節省空間的方法",
+      "清楚說明烹調步驟",
+      "描述紙張和布料的細微動作"
+    ],
+    "contextsEn": [
+      "Talk about wrapping and protecting people or objects",
+      "Describe ways to save space",
+      "Give clear cooking instructions",
+      "Describe careful movements with paper and cloth"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FOLD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FOLD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fold somebody/something in something; fold something round/over somebody/something",
+    "fixedHighlight": "fold somebody/something in something; fold something round/over somebody/something",
+    "fixedZh": "閱讀整句,選出意思相同的 FOLD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FOLD expression that gives the same meaning.",
+    "correct": "folded a blanket round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it 或 them 時,請按照以上例子放在 FOLD 後面。；在烹調中,fold in 或 fold into 表示把材料輕輕拌入,而不是大力攪打或攪拌。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them, follow these models: fold it up fold them away fold it over fold them in In cooking, fold in or fold into means to mix ingredients gently rather than beat or stir them hard.",
+    "variableItemsZh": [
+      "fold somebody/something in something; fold something round/over somebody/something",
+      "fold away/down; fold something away/down",
+      "fold something away",
+      "fold something back/over/down",
+      "fold something into something; fold something in",
+      "fold up; fold something up"
+    ],
+    "variableItemsEn": [
+      "fold somebody/something in something; fold something round/over somebody/something",
+      "fold away/down; fold something away/down",
+      "fold something away",
+      "fold something back/over/down",
+      "fold something into something; fold something in",
+      "fold up; fold something up"
+    ],
+    "forms": [
+      {
+        "formZh": "用某物包住某人或某物",
+        "formEn": "fold somebody/something in something; fold something round/over somebody/something",
+        "exampleZh": "她用毛毯包住熟睡的小狗。",
+        "exampleEn": "She folded a blanket round the sleeping dog.",
+        "highlight": "folded a blanket round"
+      },
+      {
+        "formZh": "摺起或放平,方便收藏或騰出空間",
+        "formEn": "fold away/down; fold something away/down",
+        "exampleZh": "書桌可以從牆上摺下來。",
+        "exampleEn": "The desk folds down from the wall.",
+        "highlight": "folds down"
+      },
+      {
+        "formZh": "把某物摺好並收起來",
+        "formEn": "fold something away",
+        "exampleZh": "他把乾淨的恤衫摺好並收起來。",
+        "exampleEn": "He folded the clean shirts away.",
+        "highlight": "folded the clean shirts away"
+      },
+      {
+        "formZh": "把某部分摺向後、摺過去或摺下",
+        "formEn": "fold something back/over/down",
+        "exampleZh": "把紙邊摺過去。",
+        "exampleEn": "Fold the edge of the paper over.",
+        "highlight": "Fold the edge of the paper over"
+      },
+      {
+        "formZh": "烹調時把材料輕輕拌入",
+        "formEn": "fold something into something; fold something in",
+        "exampleZh": "把莓果輕輕拌入忌廉中。",
+        "exampleEn": "Fold the berries into the cream.",
+        "highlight": "Fold the berries into"
+      },
+      {
+        "formZh": "把某物摺小;摺起來後變小",
+        "formEn": "fold up; fold something up",
+        "exampleZh": "這把雨傘摺起來後很小。",
+        "exampleEn": "The umbrella folds up very small.",
+        "highlight": "folds up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "用某物包住某人或某物",
+      "titleEn": "fold somebody/something in something; fold something round/over somebody/something",
+      "formula": "fold somebody/something in something; fold something round/over somebody/something",
+      "highlight": "fold somebody/something in something; fold something round/over somebody/something",
+      "descriptionZh": "用某物包住某人或某物",
+      "descriptionEn": "She folded a blanket round the sleeping dog.",
+      "examples": [
+        {
+          "en": "She folded a blanket round the sleeping dog.",
+          "zh": "她用毛毯包住熟睡的小狗。",
+          "highlight": "folded a blanket round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "摺起或放平,方便收藏或騰出空間",
+      "titleEn": "fold away/down; fold something away/down",
+      "formula": "fold away/down; fold something away/down",
+      "highlight": "fold away/down; fold something away/down",
+      "descriptionZh": "摺起或放平,方便收藏或騰出空間",
+      "descriptionEn": "The desk folds down from the wall.",
+      "examples": [
+        {
+          "en": "The desk folds down from the wall.",
+          "zh": "書桌可以從牆上摺下來。",
+          "highlight": "folds down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某物摺好並收起來",
+      "titleEn": "fold something away",
+      "formula": "fold something away",
+      "highlight": "fold something away",
+      "descriptionZh": "把某物摺好並收起來",
+      "descriptionEn": "He folded the clean shirts away.",
+      "examples": [
+        {
+          "en": "He folded the clean shirts away.",
+          "zh": "他把乾淨的恤衫摺好並收起來。",
+          "highlight": "folded the clean shirts away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某部分摺向後、摺過去或摺下",
+      "titleEn": "fold something back/over/down",
+      "formula": "fold something back/over/down",
+      "highlight": "fold something back/over/down",
+      "descriptionZh": "把某部分摺向後、摺過去或摺下",
+      "descriptionEn": "Fold the edge of the paper over.",
+      "examples": [
+        {
+          "en": "Fold the edge of the paper over.",
+          "zh": "把紙邊摺過去。",
+          "highlight": "Fold the edge of the paper over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "烹調時把材料輕輕拌入",
+      "titleEn": "fold something into something; fold something in",
+      "formula": "fold something into something; fold something in",
+      "highlight": "fold something into something; fold something in",
+      "descriptionZh": "烹調時把材料輕輕拌入",
+      "descriptionEn": "Fold the berries into the cream.",
+      "examples": [
+        {
+          "en": "Fold the berries into the cream.",
+          "zh": "把莓果輕輕拌入忌廉中。",
+          "highlight": "Fold the berries into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某物摺小;摺起來後變小",
+      "titleEn": "fold up; fold something up",
+      "formula": "fold up; fold something up",
+      "highlight": "fold up; fold something up",
+      "descriptionZh": "把某物摺小;摺起來後變小",
+      "descriptionEn": "The umbrella folds up very small.",
+      "examples": [
+        {
+          "en": "The umbrella folds up very small.",
+          "zh": "這把雨傘摺起來後很小。",
+          "highlight": "folds up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論包裹和保護人或物",
+      "titleEn": "Talk about wrapping and protecting people or objects",
+      "zh": "你可以用 fold in、fold round 和 fold over,描述毛毯、毛巾或布料如何包住和保護人或物。",
+      "en": "You can use fold in, fold round and fold over when describing how a blanket, towel or cloth covers and protects something."
+    },
+    {
+      "titleZh": "描述節省空間的方法",
+      "titleEn": "Describe ways to save space",
+      "zh": "談論可以摺起收藏的床、桌子、座椅和其他物件時,fold away 和 fold down 十分實用。",
+      "en": "Fold away and fold down are useful when talking about beds, tables, seats and other objects that can be stored in a smaller space."
+    },
+    {
+      "titleZh": "清楚說明烹調步驟",
+      "titleEn": "Give clear cooking instructions",
+      "zh": "製作蛋糕、忌廉混合物和其他鬆軟食物時,fold in 和 fold into 可以準確表示輕輕拌入材料。",
+      "en": "Fold in and fold into describe the gentle mixing method used when making cakes, cream mixtures and other light foods."
+    },
+    {
+      "titleZh": "描述紙張和布料的細微動作",
+      "titleEn": "Describe careful movements with paper and cloth",
+      "zh": "fold back、fold over 和 fold down 能幫助你準確描述書頁、紙角、袖口、封口或布邊的摺法。",
+      "en": "Fold back, fold over and fold down help you describe exactly how a page, corner, sleeve, flap or edge is moved."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論包裹和保護人或物",
+      "描述節省空間的方法",
+      "清楚說明烹調步驟",
+      "描述紙張和布料的細微動作"
+    ],
+    "contextsEn": [
+      "Talk about wrapping and protecting people or objects",
+      "Describe ways to save space",
+      "Give clear cooking instructions",
+      "Describe careful movements with paper and cloth"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論包裹和保護人或物",
+        "titleEn": "Talk about wrapping and protecting people or objects",
+        "zh": "你可以用 fold in、fold round 和 fold over,描述毛毯、毛巾或布料如何包住和保護人或物。",
+        "en": "You can use fold in, fold round and fold over when describing how a blanket, towel or cloth covers and protects something.",
+        "examples": [
+          {
+            "en": "She folded a blanket round the sleeping dog.",
+            "zh": "她用毛毯包住熟睡的小狗。",
+            "highlight": "folded a blanket round"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述節省空間的方法",
+        "titleEn": "Describe ways to save space",
+        "zh": "談論可以摺起收藏的床、桌子、座椅和其他物件時,fold away 和 fold down 十分實用。",
+        "en": "Fold away and fold down are useful when talking about beds, tables, seats and other objects that can be stored in a smaller space.",
+        "examples": [
+          {
+            "en": "The desk folds down from the wall.",
+            "zh": "書桌可以從牆上摺下來。",
+            "highlight": "folds down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明烹調步驟",
+        "titleEn": "Give clear cooking instructions",
+        "zh": "製作蛋糕、忌廉混合物和其他鬆軟食物時,fold in 和 fold into 可以準確表示輕輕拌入材料。",
+        "en": "Fold in and fold into describe the gentle mixing method used when making cakes, cream mixtures and other light foods.",
+        "examples": [
+          {
+            "en": "He folded the clean shirts away.",
+            "zh": "他把乾淨的恤衫摺好並收起來。",
+            "highlight": "folded the clean shirts away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述紙張和布料的細微動作",
+        "titleEn": "Describe careful movements with paper and cloth",
+        "zh": "fold back、fold over 和 fold down 能幫助你準確描述書頁、紙角、袖口、封口或布邊的摺法。",
+        "en": "Fold back, fold over and fold down help you describe exactly how a page, corner, sleeve, flap or edge is moved.",
+        "examples": [
+          {
+            "en": "Fold the edge of the paper over.",
+            "zh": "把紙邊摺過去。",
+            "highlight": "Fold the edge of the paper over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FOLD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FOLD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FOLD 片語動詞。",
+      "en": "Read the whole sentence and choose the FOLD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it 或 them 時,請按照以上例子放在 FOLD 後面。",
+      "titleEn": "When using it or them, follow these models: fold it up fold them away fold it over fold them in.",
+      "zh": "使用 it 或 them 時,請按照以上例子放在 FOLD 後面。",
+      "en": "When using it or them, follow these models: fold it up fold them away fold it over fold them in"
+    },
+    {
+      "titleZh": "在烹調中,fold in 或 fold into 表示把材料輕輕拌入,而不是大力攪打或攪拌。",
+      "titleEn": "In cooking, fold in or fold into means to mix ingredients gently rather than beat or stir them hard.",
+      "zh": "在烹調中,fold in 或 fold into 表示把材料輕輕拌入,而不是大力攪打或攪拌。",
+      "en": "In cooking, fold in or fold into means to mix ingredients gently rather than beat or stir them hard."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FOLD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FOLD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FOLD 動詞片語句子改寫練習",
+    "titleEn": "FOLD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FOLD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FOLD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-107-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "The wall bed can be made smaller and stored during the day.",
+      "promptZh": "這張壁床日間可以縮小並收藏。",
+      "starter": "The",
+      "answer": "The wall bed can fold away during the day.",
+      "answerZh": "這張壁床日間可以摺起收藏。",
+      "highlight": "fold away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Gently mix the flour into the mixture without beating it.",
+      "promptZh": "把麵粉輕輕拌入混合物中,不要大力攪打。",
+      "starter": "Gently",
+      "answer": "Gently fold the flour into the mixture.",
+      "answerZh": "把麵粉輕輕拌入混合物中。",
+      "highlight": "fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "She gently wrapped the baby in a blanket.",
+      "promptZh": "她輕輕用毛毯包裹嬰兒。",
+      "starter": "She",
+      "answer": "She gently folded the baby in a blanket.",
+      "answerZh": "她輕輕用毛毯包裹嬰兒。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "This map can become very small for easy carrying.",
+      "promptZh": "這張地圖可以變得很小,方便攜帶。",
+      "starter": "This",
+      "answer": "This map folds up very small for easy carrying.",
+      "answerZh": "這張地圖摺起來後很小,方便攜帶。",
+      "highlight": "folds up",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "He bent the corner of the page over to mark his place.",
+      "promptZh": "他把書頁的一角屈過去,以標記閱讀位置。",
+      "starter": "He",
+      "answer": "He folded the corner of the page over to mark his place.",
+      "answerZh": "他把書頁的一角摺過去,以標記閱讀位置。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "After breakfast, she made the newspaper smaller and stored it beside the sofa.",
+      "promptZh": "早餐後,她把報紙弄小,然後收在梳化旁邊。",
+      "starter": "After",
+      "answer": "After breakfast, she folded the newspaper away beside the sofa.",
+      "answerZh": "早餐後,她把報紙摺好,收在梳化旁邊。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "The nurse wrapped a warm towel round the child.",
+      "promptZh": "護士用暖毛巾包住孩子。",
+      "starter": "The",
+      "answer": "The nurse folded a warm towel round the child.",
+      "answerZh": "護士用暖毛巾包住孩子。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "You can lower the back seats to create more room in the car.",
+      "promptZh": "你可以把後座放平,騰出更多車內空間。",
+      "starter": "You",
+      "answer": "You can fold the back seats down to create more room in the car.",
+      "answerZh": "你可以把後座摺下,騰出更多車內空間。",
+      "highlight": "fold",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Please make the clean towels neat and store them in the cupboard.",
+      "promptZh": "請把乾淨的毛巾整理好,然後收進櫃裏。",
+      "starter": "Please",
+      "answer": "Please fold the clean towels away in the cupboard.",
+      "answerZh": "請把乾淨的毛巾摺好,收進櫃裏。",
+      "highlight": "fold",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Add the egg whites gently to the chocolate mixture.",
+      "promptZh": "把蛋白輕輕加入朱古力混合物中。",
+      "starter": "Fold",
+      "answer": "Fold the egg whites gently into the chocolate mixture.",
+      "answerZh": "把蛋白輕輕拌入朱古力混合物中。",
+      "highlight": "Fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "He made the letter smaller and placed it in his pocket.",
+      "promptZh": "他把信紙弄小,然後放進口袋裏。",
+      "starter": "He",
+      "answer": "He folded the letter up and placed it in his pocket.",
+      "answerZh": "他把信紙摺起來,然後放進口袋裏。",
+      "highlight": "folded",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 9,
+      "prompt": "Nina bent the top of the paper down before writing her name.",
+      "promptZh": "妮娜在寫名字前,把紙的上方屈下來。",
+      "starter": "Nina",
+      "answer": "Nina folded the top of the paper down before writing her name.",
+      "answerZh": "妮娜在寫名字前,把紙的上方摺下來。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 9,
+      "prompt": "She is bending the cuffs back because the room is warm.",
+      "promptZh": "房間很暖,所以她正把袖口反摺。",
+      "starter": "She",
+      "answer": "She is folding the cuffs back because the room is warm.",
+      "answerZh": "房間很暖,所以她正把袖口向後反摺。",
+      "highlight": "folding",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "She is covering the bread with a clean cloth to keep it warm.",
+      "promptZh": "她正用一塊乾淨的布蓋着麵包,讓麵包保持溫暖。",
+      "starter": "She",
+      "answer": "She is folding a clean cloth over the bread to keep it warm.",
+      "answerZh": "她正把一塊乾淨的布覆在麵包上,讓麵包保持溫暖。",
+      "highlight": "folding",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Leo always makes his clothes neat and stores them before dinner.",
+      "promptZh": "里奧總會在晚餐前把衣服整理好並收起來。",
+      "starter": "Leo",
+      "answer": "Leo always folds his clothes away before dinner.",
+      "answerZh": "里奧總會在晚餐前把衣服摺好並收起來。",
+      "highlight": "folds",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "This small table can be made flat and stored when nobody needs it.",
+      "promptZh": "沒有人需要這張小桌子時,可以把它放平收藏。",
+      "starter": "This",
+      "answer": "This small table folds away when nobody needs it.",
+      "answerZh": "沒有人需要這張小桌子時,可以把它摺起收藏。",
+      "highlight": "folds away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The reusable bag becomes a small square when it is not needed.",
+      "promptZh": "這個環保袋不用時會變成一個小方塊。",
+      "starter": "The",
+      "answer": "The reusable bag folds up into a small square when it is not needed.",
+      "answerZh": "這個環保袋不用時可以摺成一個小方塊。",
+      "highlight": "folds up into",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "The cook is gently mixing the cream into the fruit mixture now.",
+      "promptZh": "廚師現在正把忌廉輕輕拌入水果混合物中。",
+      "starter": "The",
+      "answer": "The cook is folding the cream into the fruit mixture now.",
+      "answerZh": "廚師現在正把忌廉輕輕拌入水果混合物中。",
+      "highlight": "folding",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "These camping chairs can become flat for storage in a few seconds.",
+      "promptZh": "這些露營椅可以在數秒內變平,方便收藏。",
+      "starter": "These",
+      "answer": "These camping chairs can fold away in a few seconds.",
+      "answerZh": "這些露營椅可以在數秒內摺起收藏。",
+      "highlight": "fold away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Please bend the flap over the letter before closing the envelope.",
+      "promptZh": "封上信封前,請把封口屈過去蓋着信件。",
+      "starter": "Please",
+      "answer": "Please fold the flap over the letter before closing the envelope.",
+      "answerZh": "封上信封前,請把封口摺過去蓋着信件。",
+      "highlight": "fold",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Please add the nuts gently after the flour is mixed.",
+      "promptZh": "麵粉混合好後,請輕輕加入果仁。",
+      "starter": "Please",
+      "answer": "Please fold the nuts in after the flour is mixed.",
+      "answerZh": "麵粉混合好後,請輕輕拌入果仁。",
+      "highlight": "fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "We had made the spare blankets neat and stored them before the guests arrived.",
+      "promptZh": "客人到達前,我們已把備用毛毯整理好並收起來。",
+      "starter": "We",
+      "answer": "We had folded the spare blankets away before the guests arrived.",
+      "answerZh": "客人到達前,我們已把備用毛毯摺好並收起來。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Please wrap the blanket round your shoulders before you go outside.",
+      "promptZh": "外出前,請用毛毯包住肩膀。",
+      "starter": "Please",
+      "answer": "Please fold the blanket round your shoulders before you go outside.",
+      "answerZh": "外出前,請用毛毯包住肩膀。",
+      "highlight": "fold",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 10,
+      "prompt": "Could you make the blanket smaller before placing it on the shelf?",
+      "promptZh": "你可以先把毛毯弄小,再放到架上嗎?",
+      "starter": "Could",
+      "answer": "Could you fold the blanket up before placing it on the shelf?",
+      "answerZh": "你可以先把毛毯摺起來,再放到架上嗎?",
+      "highlight": "fold",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 10,
+      "prompt": "We added it gently to the cake mixture at the end.",
+      "promptZh": "我們最後把它輕輕加入蛋糕混合物中。",
+      "starter": "We",
+      "answer": "We folded it into the cake mixture at the end.",
+      "answerZh": "我們最後把它輕輕拌入蛋糕混合物中。",
+      "highlight": "folded",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 10,
+      "prompt": "The spare desk can be made flat and stored inside the cupboard when the room is crowded.",
+      "promptZh": "房間擠迫時,可以把備用書桌放平並收進櫃裏。",
+      "starter": "The",
+      "answer": "The spare desk can be folded away inside the cupboard when the room is crowded.",
+      "answerZh": "房間擠迫時,可以把備用書桌摺起並收進櫃裏。",
+      "highlight": "folded away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "Once the washing was dry, Nia made it neat and stored it in the drawer.",
+      "promptZh": "衣物乾透後,妮雅把它整理好並收進抽屜。",
+      "starter": "Once",
+      "answer": "Once the washing was dry, Nia folded it away in the drawer.",
+      "answerZh": "衣物乾透後,妮雅把它摺好並收進抽屜。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The card covered the label. He bent it back so that the label could be seen.",
+      "promptZh": "卡紙遮住了標籤。他把卡紙向後屈,讓標籤可以被看見。",
+      "starter": "The",
+      "answer": "The card covered the label. He folded it back so that the label could be seen.",
+      "answerZh": "卡紙遮住了標籤。他把卡紙向後摺,讓標籤可以被看見。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "I made it smaller and placed it inside my bag.",
+      "promptZh": "我把它弄小,然後放進袋裏。",
+      "starter": "I",
+      "answer": "I folded it up and placed it inside my bag.",
+      "answerZh": "我把它摺起來,然後放進袋裏。",
+      "highlight": "folded",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The newspaper was made smaller and stored after everyone had read it.",
+      "promptZh": "所有人看完報紙後,報紙被弄小並收起來。",
+      "starter": "The",
+      "answer": "The newspaper was folded away after everyone had read it.",
+      "answerZh": "所有人看完報紙後,報紙被摺好並收起來。",
+      "highlight": "folded away",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "We wrapped him in two thick blankets because he was cold.",
+      "promptZh": "他覺得寒冷,所以我們用兩張厚毛毯包住他。",
+      "starter": "We",
+      "answer": "We folded him in two thick blankets because he was cold.",
+      "answerZh": "他覺得寒冷,所以我們用兩張厚毛毯包住他。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The cheese should be mixed gently into the egg mixture.",
+      "promptZh": "芝士應該輕輕拌入蛋液中。",
+      "starter": "The",
+      "answer": "The cheese should be folded gently into the egg mixture.",
+      "answerZh": "芝士應該輕輕拌入蛋液中。",
+      "highlight": "folded",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "Please lower the shelf so that the boxes can stand on it.",
+      "promptZh": "請把層板放下,讓箱子可以放在上面。",
+      "starter": "Please",
+      "answer": "Please fold the shelf down so that the boxes can stand on it.",
+      "answerZh": "請把層板摺下,讓箱子可以放在上面。",
+      "highlight": "fold",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The edge of the cloth was bent over to hide the torn part.",
+      "promptZh": "布邊被屈過去,遮住破損的部分。",
+      "starter": "The",
+      "answer": "The edge of the cloth was folded over to hide the torn part.",
+      "answerZh": "布邊被摺過去,遮住破損的部分。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "She covered the bowl with the soft cloth before placing it in the fridge.",
+      "promptZh": "她把碗放進雪櫃前,用柔軟的布把它蓋好。",
+      "starter": "She",
+      "answer": "She folded the soft cloth over the bowl before placing it in the fridge.",
+      "answerZh": "她把碗放進雪櫃前,把柔軟的布覆在碗上。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "The old map had been made smaller before it was placed in the drawer.",
+      "promptZh": "那張舊地圖在放進抽屜前已被弄小。",
+      "starter": "The",
+      "answer": "The old map had been folded up before it was placed in the drawer.",
+      "answerZh": "那張舊地圖在放進抽屜前已被摺起。",
+      "highlight": "folded up",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 6,
+      "answerSourcePage": 11,
+      "prompt": "This shopping bag becomes small enough to fit inside a coat pocket.",
+      "promptZh": "這個購物袋可以變得很小,放進外套口袋裏。",
+      "starter": "This",
+      "answer": "This shopping bag folds up small enough to fit inside a coat pocket.",
+      "answerZh": "這個購物袋摺起來後很小,可以放進外套口袋裏。",
+      "highlight": "folds up",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 11,
+      "prompt": "The train seats can be lowered when passengers need a place to sit.",
+      "promptZh": "乘客需要座位時,可以把火車座椅放下。",
+      "starter": "The",
+      "answer": "The train seats can fold down when passengers need a place to sit.",
+      "answerZh": "乘客需要座位時,火車座椅可以摺下。",
+      "highlight": "fold down",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "To show the picture underneath, Ravi bent the front page back carefully.",
+      "promptZh": "為了展示下面的圖片,拉維小心地把前頁向後屈。",
+      "starter": "To",
+      "answer": "To show the picture underneath, Ravi folded the front page back carefully.",
+      "answerZh": "為了展示下面的圖片,拉維小心地把前頁向後摺。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Do not beat the fruit; mix it gently into the cream.",
+      "promptZh": "不要大力攪打水果;要把它輕輕拌入忌廉中。",
+      "starter": "Do",
+      "answer": "Do not beat the fruit; fold it gently into the cream.",
+      "answerZh": "不要大力攪打水果;要把它輕輕拌入忌廉中。",
+      "highlight": "fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The father wrapped his coat round the sleeping child during the journey.",
+      "promptZh": "旅程途中,父親用自己的外套包住熟睡的孩子。",
+      "starter": "The",
+      "answer": "The father folded his coat round the sleeping child during the journey.",
+      "answerZh": "旅程途中,父親用自己的外套包住熟睡的孩子。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Why did Omar make the blanket neat and store it under the bed?",
+      "promptZh": "奧馬為甚麼把毛毯整理好,然後收在床下?",
+      "starter": "Why",
+      "answer": "Why did Omar fold the blanket away under the bed?",
+      "answerZh": "奧馬為甚麼把毛毯摺好,然後收在床下?",
+      "highlight": "fold",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The extra tables can be made flat and stored neatly before the class begins.",
+      "promptZh": "課堂開始前,可以把額外的桌子放平並整齊收藏。",
+      "starter": "The",
+      "answer": "The extra tables can fold away neatly before the class begins.",
+      "answerZh": "課堂開始前,額外的桌子可以整齊摺起收藏。",
+      "highlight": "fold away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Why did Ella make the note smaller before hiding it in the box?",
+      "promptZh": "埃拉為甚麼在把字條藏進盒子前先把它弄小?",
+      "starter": "Why",
+      "answer": "Why did Ella fold the note up before hiding it in the box?",
+      "answerZh": "埃拉為甚麼在把字條藏進盒子前先把它摺起來?",
+      "highlight": "fold",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The helpers made all the display cloths neat and stored them after the school fair.",
+      "promptZh": "學校市集結束後,幫手們把所有展示用布整理好並收起來。",
+      "starter": "The",
+      "answer": "The helpers folded all the display cloths away after the school fair.",
+      "answerZh": "學校市集結束後,幫手們把所有展示用布摺好並收起來。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The shop assistant bent the top of the bag down twice to close it.",
+      "promptZh": "店員把袋口向下屈了兩次,把袋子封好。",
+      "starter": "The",
+      "answer": "The shop assistant folded the top of the bag down twice to close it.",
+      "answerZh": "店員把袋口向下摺了兩次,把袋子封好。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "After the chocolate had cooled, Lina gently mixed it into the cream.",
+      "promptZh": "朱古力冷卻後,莉娜把它輕輕拌入忌廉中。",
+      "starter": "After",
+      "answer": "After the chocolate had cooled, Lina folded it into the cream.",
+      "answerZh": "朱古力冷卻後,莉娜把它輕輕拌入忌廉中。",
+      "highlight": "folded",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "The baker covered the warm rolls with a cloth so that they would stay soft.",
+      "promptZh": "麵包師用布蓋住溫暖的麵包卷,讓它們保持柔軟。",
+      "starter": "The",
+      "answer": "The baker folded a cloth over the warm rolls so that they would stay soft.",
+      "answerZh": "麵包師把布覆在溫暖的麵包卷上,讓它們保持柔軟。",
+      "highlight": "folded a cloth over",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "When the wind became colder, Ava wrapped the blanket round both children and held them close.",
+      "promptZh": "風變冷時,艾娃用毛毯包住兩個孩子,並把他們抱緊。",
+      "starter": "When",
+      "answer": "When the wind became colder, Ava folded the blanket round both children and held them close.",
+      "answerZh": "風變冷時,艾娃用毛毯包住兩個孩子,並把他們抱緊。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 7,
+      "answerSourcePage": 12,
+      "prompt": "Because the note was private, Priya bent the upper half over before passing it across the table.",
+      "promptZh": "因為字條內容私人,普里雅把上半部分屈過去,才把字條遞過桌面。",
+      "starter": "Because",
+      "answer": "Because the note was private, Priya folded the upper half over before passing it across the table.",
+      "answerZh": "因為字條內容私人,普里雅把上半部分摺過去,才把字條遞過桌面。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 12,
+      "prompt": "When the guests leave, this dining table can be made smaller and stored inside the kitchen unit.",
+      "promptZh": "客人離開後,可以把這張餐桌弄小並收進廚房櫃內。",
+      "starter": "When",
+      "answer": "When the guests leave, this dining table can fold away inside the kitchen unit.",
+      "answerZh": "客人離開後,這張餐桌可以摺起並收進廚房櫃內。",
+      "highlight": "fold away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "As soon as the clothes were dry, Ella made each one neat and stored it in the correct drawer.",
+      "promptZh": "衣服一乾,埃拉便把每件衣服整理好,收進正確的抽屜。",
+      "starter": "As",
+      "answer": "As soon as the clothes were dry, Ella folded each one away in the correct drawer.",
+      "answerZh": "衣服一乾,埃拉便把每件衣服摺好,收進正確的抽屜。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "The cake will stay light only if you mix the egg whites in gently.",
+      "promptZh": "只有把蛋白輕輕拌入,蛋糕才會保持鬆軟。",
+      "starter": "The",
+      "answer": "The cake will stay light only if you fold the egg whites in gently.",
+      "answerZh": "只有把蛋白輕輕拌入,蛋糕才會保持鬆軟。",
+      "highlight": "fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    },
+    {
+      "id": "phrasal-verb-107-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "Although it looks large on the table, the paper model can become small enough to carry safely.",
+      "promptZh": "雖然紙模型放在桌上時看起來很大,但它可以變得夠小,方便安全攜帶。",
+      "starter": "Although",
+      "answer": "Although it looks large on the table, the paper model folds up small enough to carry safely.",
+      "answerZh": "雖然紙模型放在桌上時看起來很大,但它摺起來後夠小,方便安全攜帶。",
+      "highlight": "folds up",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "The map was too wide for the desk, so we bent one side back while we studied the centre.",
+      "promptZh": "地圖對書桌來說太闊,所以我們查看中央部分時,把其中一邊向後屈。",
+      "starter": "The",
+      "answer": "The map was too wide for the desk, so we folded one side back while we studied the centre.",
+      "answerZh": "地圖對書桌來說太闊,所以我們查看中央部分時,把其中一邊向後摺。",
+      "highlight": "folded",
+      "targetForm": "fold something back/over/down",
+      "targetMeaningZh": "把某部分摺向後、摺過去或摺下"
+    },
+    {
+      "id": "phrasal-verb-107-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "Before carrying the glass bowl to the car, Sam wrapped it carefully in a thick towel.",
+      "promptZh": "把玻璃碗拿到車上前,森姆小心地用厚毛巾把它包好。",
+      "starter": "Before",
+      "answer": "Before carrying the glass bowl to the car, Sam folded it carefully in a thick towel.",
+      "answerZh": "把玻璃碗拿到車上前,森姆小心地用厚毛巾把它包好。",
+      "highlight": "folded",
+      "targetForm": "fold A in B / fold B round or over A",
+      "targetMeaningZh": "用某物包裹某人或某物"
+    },
+    {
+      "id": "phrasal-verb-107-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "After reading the message twice, Ben made the paper smaller and kept it in his wallet.",
+      "promptZh": "看了訊息兩次後,賓把紙張弄小,然後放在銀包裏。",
+      "starter": "After",
+      "answer": "After reading the message twice, Ben folded the paper up and kept it in his wallet.",
+      "answerZh": "看了訊息兩次後,賓把紙張摺起來,然後放在銀包裏。",
+      "highlight": "folded",
+      "targetForm": "fold up; fold something up",
+      "targetMeaningZh": "把某物摺小;摺起來後變小"
+    },
+    {
+      "id": "phrasal-verb-107-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "All the extra chairs can become flat for storage, which makes the hall look much larger.",
+      "promptZh": "所有額外的椅子都可以變平收藏,令大堂看起來寬敞得多。",
+      "starter": "All",
+      "answer": "All the extra chairs can fold away, which makes the hall look much larger.",
+      "answerZh": "所有額外的椅子都可以摺起收藏,令大堂看起來寬敞得多。",
+      "highlight": "fold away",
+      "targetForm": "fold away/down; fold something away/down",
+      "targetMeaningZh": "摺起或放平,方便收藏或騰出空間"
+    },
+    {
+      "id": "phrasal-verb-107-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "The room became tidy only after we made the extra blankets neat and stored them in the cupboard.",
+      "promptZh": "我們把額外的毛毯整理好並收進櫃裏後,房間才變得整齊。",
+      "starter": "The",
+      "answer": "The room became tidy only after we folded the extra blankets away in the cupboard.",
+      "answerZh": "我們把額外的毛毯摺好並收進櫃裏後,房間才變得整齊。",
+      "highlight": "folded",
+      "targetForm": "fold something away",
+      "targetMeaningZh": "把某物摺好並收起來"
+    },
+    {
+      "id": "phrasal-verb-107-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 8,
+      "answerSourcePage": 13,
+      "prompt": "Once the flour and sugar are ready, add them gently to the egg mixture without stirring hard.",
+      "promptZh": "麵粉和糖準備好後,把它們輕輕加入蛋液中,不要大力攪拌。",
+      "starter": "Once",
+      "answer": "Once the flour and sugar are ready, fold them into the egg mixture without stirring hard.",
+      "answerZh": "麵粉和糖準備好後,把它們輕輕拌入蛋液中,不要大力攪拌。",
+      "highlight": "fold",
+      "targetForm": "fold something into something; fold something in",
+      "targetMeaningZh": "烹調時把材料輕輕拌入"
+    }
+  ]
+}

@@ -29,55 +29,369 @@ begin
 end;
 $$;
 
--- Published lesson sizes are immutable content metadata. Keeping the mapping
--- in one helper lets database checks support the source PDFs' real 30, 50,
--- 60, and 70-question units without weakening per-lesson validation.
+-- Published lesson sizes are immutable content metadata. This function is
+-- regenerated from the canonical public catalogue so database checks remain
+-- exact for every lesson size without weakening per-lesson validation.
 create or replace function public._phrasal_verb_system_question_count(
   p_lesson_id text
 )
 returns integer
 language sql
 immutable
+strict
+parallel safe
 set search_path = ''
 as $$
-  select case p_lesson_id
-    when 'phrasal-verb-01' then 70
-    when 'phrasal-verb-02' then 50
-    when 'phrasal-verb-03' then 70
-    when 'phrasal-verb-04' then 60
-    when 'phrasal-verb-05' then 50
-    when 'phrasal-verb-06' then 70
-    when 'phrasal-verb-07' then 70
-    when 'phrasal-verb-08' then 70
-    when 'phrasal-verb-09' then 50
-    when 'phrasal-verb-10' then 70
-    when 'phrasal-verb-11' then 50
-    when 'phrasal-verb-12' then 50
-    when 'phrasal-verb-13' then 50
-    when 'phrasal-verb-14' then 70
-    when 'phrasal-verb-15' then 50
-    when 'phrasal-verb-16' then 50
-    when 'phrasal-verb-17' then 50
-    when 'phrasal-verb-18' then 50
-    when 'phrasal-verb-19' then 70
-    when 'phrasal-verb-20' then 50
-    when 'phrasal-verb-21' then 60
-    when 'phrasal-verb-22' then 50
-    when 'phrasal-verb-23' then 60
-    when 'phrasal-verb-24' then 60
-    when 'phrasal-verb-25' then 50
-    when 'phrasal-verb-26' then 50
-    when 'phrasal-verb-27' then 60
-    when 'phrasal-verb-28' then 60
-    when 'phrasal-verb-29' then 50
-    when 'phrasal-verb-30' then 50
-    when 'phrasal-verb-31' then 50
-    when 'phrasal-verb-32' then 30
-    when 'phrasal-verb-33' then 50
-    when 'phrasal-verb-34' then 50
-    when 'phrasal-verb-35' then 70
-    else null
-  end;
+  select lesson_row.question_count
+  from (values
+    ('phrasal-verb-01'::text, 70::integer),
+    ('phrasal-verb-02'::text, 50::integer),
+    ('phrasal-verb-03'::text, 70::integer),
+    ('phrasal-verb-04'::text, 60::integer),
+    ('phrasal-verb-05'::text, 50::integer),
+    ('phrasal-verb-06'::text, 70::integer),
+    ('phrasal-verb-07'::text, 70::integer),
+    ('phrasal-verb-08'::text, 70::integer),
+    ('phrasal-verb-09'::text, 50::integer),
+    ('phrasal-verb-10'::text, 70::integer),
+    ('phrasal-verb-11'::text, 50::integer),
+    ('phrasal-verb-12'::text, 50::integer),
+    ('phrasal-verb-13'::text, 50::integer),
+    ('phrasal-verb-14'::text, 70::integer),
+    ('phrasal-verb-15'::text, 50::integer),
+    ('phrasal-verb-16'::text, 50::integer),
+    ('phrasal-verb-17'::text, 50::integer),
+    ('phrasal-verb-18'::text, 50::integer),
+    ('phrasal-verb-19'::text, 70::integer),
+    ('phrasal-verb-20'::text, 50::integer),
+    ('phrasal-verb-21'::text, 60::integer),
+    ('phrasal-verb-22'::text, 50::integer),
+    ('phrasal-verb-23'::text, 60::integer),
+    ('phrasal-verb-24'::text, 60::integer),
+    ('phrasal-verb-25'::text, 50::integer),
+    ('phrasal-verb-26'::text, 50::integer),
+    ('phrasal-verb-27'::text, 60::integer),
+    ('phrasal-verb-28'::text, 60::integer),
+    ('phrasal-verb-29'::text, 50::integer),
+    ('phrasal-verb-30'::text, 50::integer),
+    ('phrasal-verb-31'::text, 50::integer),
+    ('phrasal-verb-32'::text, 30::integer),
+    ('phrasal-verb-33'::text, 50::integer),
+    ('phrasal-verb-34'::text, 50::integer),
+    ('phrasal-verb-35'::text, 70::integer),
+    ('phrasal-verb-36'::text, 60::integer),
+    ('phrasal-verb-37'::text, 40::integer),
+    ('phrasal-verb-38'::text, 60::integer),
+    ('phrasal-verb-39'::text, 50::integer),
+    ('phrasal-verb-40'::text, 70::integer),
+    ('phrasal-verb-41'::text, 60::integer),
+    ('phrasal-verb-42'::text, 50::integer),
+    ('phrasal-verb-43'::text, 50::integer),
+    ('phrasal-verb-44'::text, 50::integer),
+    ('phrasal-verb-45'::text, 50::integer),
+    ('phrasal-verb-46'::text, 70::integer),
+    ('phrasal-verb-47'::text, 50::integer),
+    ('phrasal-verb-48'::text, 50::integer),
+    ('phrasal-verb-49'::text, 50::integer),
+    ('phrasal-verb-50'::text, 60::integer),
+    ('phrasal-verb-51'::text, 60::integer),
+    ('phrasal-verb-52'::text, 50::integer),
+    ('phrasal-verb-53'::text, 50::integer),
+    ('phrasal-verb-54'::text, 70::integer),
+    ('phrasal-verb-55'::text, 60::integer),
+    ('phrasal-verb-56'::text, 60::integer),
+    ('phrasal-verb-57'::text, 50::integer),
+    ('phrasal-verb-58'::text, 60::integer),
+    ('phrasal-verb-59'::text, 70::integer),
+    ('phrasal-verb-60'::text, 70::integer),
+    ('phrasal-verb-61'::text, 50::integer),
+    ('phrasal-verb-62'::text, 50::integer),
+    ('phrasal-verb-63'::text, 60::integer),
+    ('phrasal-verb-64'::text, 70::integer),
+    ('phrasal-verb-65'::text, 70::integer),
+    ('phrasal-verb-66'::text, 50::integer),
+    ('phrasal-verb-67'::text, 50::integer),
+    ('phrasal-verb-68'::text, 70::integer),
+    ('phrasal-verb-69'::text, 70::integer),
+    ('phrasal-verb-70'::text, 40::integer),
+    ('phrasal-verb-71'::text, 50::integer),
+    ('phrasal-verb-72'::text, 50::integer),
+    ('phrasal-verb-73'::text, 60::integer),
+    ('phrasal-verb-74'::text, 50::integer),
+    ('phrasal-verb-75'::text, 70::integer),
+    ('phrasal-verb-76'::text, 70::integer),
+    ('phrasal-verb-77'::text, 50::integer),
+    ('phrasal-verb-78'::text, 50::integer),
+    ('phrasal-verb-79'::text, 50::integer),
+    ('phrasal-verb-80'::text, 50::integer),
+    ('phrasal-verb-81'::text, 80::integer),
+    ('phrasal-verb-82'::text, 50::integer),
+    ('phrasal-verb-83'::text, 50::integer),
+    ('phrasal-verb-84'::text, 50::integer),
+    ('phrasal-verb-85'::text, 50::integer),
+    ('phrasal-verb-86'::text, 70::integer),
+    ('phrasal-verb-87'::text, 70::integer),
+    ('phrasal-verb-88'::text, 60::integer),
+    ('phrasal-verb-89'::text, 60::integer),
+    ('phrasal-verb-90'::text, 50::integer),
+    ('phrasal-verb-91'::text, 60::integer),
+    ('phrasal-verb-92'::text, 50::integer),
+    ('phrasal-verb-93'::text, 80::integer),
+    ('phrasal-verb-94'::text, 80::integer),
+    ('phrasal-verb-95'::text, 50::integer),
+    ('phrasal-verb-96'::text, 85::integer),
+    ('phrasal-verb-97'::text, 70::integer),
+    ('phrasal-verb-98'::text, 60::integer),
+    ('phrasal-verb-99'::text, 70::integer),
+    ('phrasal-verb-100'::text, 40::integer),
+    ('phrasal-verb-101'::text, 50::integer),
+    ('phrasal-verb-102'::text, 70::integer),
+    ('phrasal-verb-103'::text, 50::integer),
+    ('phrasal-verb-104'::text, 50::integer),
+    ('phrasal-verb-105'::text, 60::integer),
+    ('phrasal-verb-106'::text, 60::integer),
+    ('phrasal-verb-107'::text, 60::integer),
+    ('phrasal-verb-108'::text, 60::integer),
+    ('phrasal-verb-109'::text, 80::integer),
+    ('phrasal-verb-110'::text, 40::integer),
+    ('phrasal-verb-111'::text, 50::integer),
+    ('phrasal-verb-112'::text, 70::integer),
+    ('phrasal-verb-113'::text, 40::integer),
+    ('phrasal-verb-114'::text, 40::integer),
+    ('phrasal-verb-115'::text, 50::integer),
+    ('phrasal-verb-116'::text, 70::integer),
+    ('phrasal-verb-117'::text, 50::integer),
+    ('phrasal-verb-118'::text, 50::integer),
+    ('phrasal-verb-119'::text, 50::integer),
+    ('phrasal-verb-120'::text, 70::integer),
+    ('phrasal-verb-121'::text, 60::integer),
+    ('phrasal-verb-122'::text, 50::integer),
+    ('phrasal-verb-123'::text, 60::integer),
+    ('phrasal-verb-124'::text, 70::integer),
+    ('phrasal-verb-125'::text, 40::integer),
+    ('phrasal-verb-126'::text, 50::integer),
+    ('phrasal-verb-127'::text, 130::integer),
+    ('phrasal-verb-128'::text, 85::integer),
+    ('phrasal-verb-129'::text, 50::integer),
+    ('phrasal-verb-130'::text, 115::integer),
+    ('phrasal-verb-131'::text, 50::integer),
+    ('phrasal-verb-132'::text, 80::integer),
+    ('phrasal-verb-133'::text, 70::integer),
+    ('phrasal-verb-134'::text, 50::integer),
+    ('phrasal-verb-135'::text, 70::integer),
+    ('phrasal-verb-136'::text, 60::integer),
+    ('phrasal-verb-137'::text, 50::integer),
+    ('phrasal-verb-138'::text, 70::integer),
+    ('phrasal-verb-139'::text, 80::integer),
+    ('phrasal-verb-140'::text, 50::integer),
+    ('phrasal-verb-141'::text, 60::integer),
+    ('phrasal-verb-142'::text, 50::integer),
+    ('phrasal-verb-143'::text, 50::integer),
+    ('phrasal-verb-144'::text, 60::integer),
+    ('phrasal-verb-145'::text, 60::integer),
+    ('phrasal-verb-146'::text, 70::integer),
+    ('phrasal-verb-147'::text, 100::integer),
+    ('phrasal-verb-148'::text, 50::integer),
+    ('phrasal-verb-149'::text, 50::integer),
+    ('phrasal-verb-150'::text, 70::integer),
+    ('phrasal-verb-151'::text, 50::integer),
+    ('phrasal-verb-152'::text, 50::integer),
+    ('phrasal-verb-153'::text, 50::integer),
+    ('phrasal-verb-154'::text, 50::integer),
+    ('phrasal-verb-155'::text, 60::integer),
+    ('phrasal-verb-156'::text, 70::integer),
+    ('phrasal-verb-157'::text, 60::integer),
+    ('phrasal-verb-158'::text, 50::integer),
+    ('phrasal-verb-159'::text, 50::integer),
+    ('phrasal-verb-160'::text, 40::integer),
+    ('phrasal-verb-161'::text, 60::integer),
+    ('phrasal-verb-162'::text, 80::integer),
+    ('phrasal-verb-163'::text, 50::integer),
+    ('phrasal-verb-164'::text, 70::integer),
+    ('phrasal-verb-165'::text, 50::integer),
+    ('phrasal-verb-166'::text, 50::integer),
+    ('phrasal-verb-167'::text, 50::integer),
+    ('phrasal-verb-168'::text, 60::integer),
+    ('phrasal-verb-169'::text, 60::integer),
+    ('phrasal-verb-170'::text, 60::integer),
+    ('phrasal-verb-171'::text, 50::integer),
+    ('phrasal-verb-172'::text, 50::integer),
+    ('phrasal-verb-173'::text, 50::integer),
+    ('phrasal-verb-174'::text, 70::integer),
+    ('phrasal-verb-175'::text, 60::integer),
+    ('phrasal-verb-176'::text, 50::integer),
+    ('phrasal-verb-177'::text, 50::integer),
+    ('phrasal-verb-178'::text, 50::integer),
+    ('phrasal-verb-179'::text, 50::integer),
+    ('phrasal-verb-180'::text, 70::integer),
+    ('phrasal-verb-181'::text, 60::integer),
+    ('phrasal-verb-182'::text, 50::integer),
+    ('phrasal-verb-183'::text, 60::integer),
+    ('phrasal-verb-184'::text, 60::integer),
+    ('phrasal-verb-185'::text, 70::integer),
+    ('phrasal-verb-186'::text, 60::integer),
+    ('phrasal-verb-187'::text, 50::integer),
+    ('phrasal-verb-188'::text, 50::integer),
+    ('phrasal-verb-189'::text, 70::integer),
+    ('phrasal-verb-190'::text, 70::integer),
+    ('phrasal-verb-191'::text, 60::integer),
+    ('phrasal-verb-192'::text, 90::integer),
+    ('phrasal-verb-193'::text, 60::integer),
+    ('phrasal-verb-194'::text, 60::integer),
+    ('phrasal-verb-195'::text, 60::integer),
+    ('phrasal-verb-196'::text, 90::integer),
+    ('phrasal-verb-197'::text, 60::integer),
+    ('phrasal-verb-198'::text, 70::integer),
+    ('phrasal-verb-199'::text, 40::integer),
+    ('phrasal-verb-200'::text, 40::integer),
+    ('phrasal-verb-201'::text, 50::integer),
+    ('phrasal-verb-202'::text, 50::integer),
+    ('phrasal-verb-203'::text, 50::integer),
+    ('phrasal-verb-204'::text, 80::integer),
+    ('phrasal-verb-205'::text, 70::integer),
+    ('phrasal-verb-206'::text, 50::integer),
+    ('phrasal-verb-207'::text, 115::integer),
+    ('phrasal-verb-208'::text, 50::integer),
+    ('phrasal-verb-209'::text, 60::integer),
+    ('phrasal-verb-210'::text, 90::integer),
+    ('phrasal-verb-211'::text, 85::integer),
+    ('phrasal-verb-212'::text, 80::integer),
+    ('phrasal-verb-213'::text, 50::integer),
+    ('phrasal-verb-214'::text, 60::integer),
+    ('phrasal-verb-215'::text, 60::integer),
+    ('phrasal-verb-216'::text, 70::integer),
+    ('phrasal-verb-217'::text, 80::integer),
+    ('phrasal-verb-218'::text, 50::integer),
+    ('phrasal-verb-219'::text, 50::integer),
+    ('phrasal-verb-220'::text, 60::integer),
+    ('phrasal-verb-221'::text, 150::integer),
+    ('phrasal-verb-222'::text, 115::integer),
+    ('phrasal-verb-223'::text, 200::integer),
+    ('phrasal-verb-224'::text, 80::integer),
+    ('phrasal-verb-225'::text, 80::integer),
+    ('phrasal-verb-226'::text, 80::integer),
+    ('phrasal-verb-227'::text, 170::integer),
+    ('phrasal-verb-228'::text, 60::integer),
+    ('phrasal-verb-229'::text, 70::integer),
+    ('phrasal-verb-230'::text, 70::integer),
+    ('phrasal-verb-231'::text, 70::integer),
+    ('phrasal-verb-232'::text, 80::integer),
+    ('phrasal-verb-233'::text, 110::integer),
+    ('phrasal-verb-234'::text, 150::integer),
+    ('phrasal-verb-235'::text, 140::integer),
+    ('phrasal-verb-236'::text, 80::integer),
+    ('phrasal-verb-237'::text, 60::integer),
+    ('phrasal-verb-238'::text, 140::integer),
+    ('phrasal-verb-239'::text, 50::integer),
+    ('phrasal-verb-240'::text, 50::integer),
+    ('phrasal-verb-241'::text, 70::integer),
+    ('phrasal-verb-242'::text, 70::integer),
+    ('phrasal-verb-243'::text, 50::integer),
+    ('phrasal-verb-244'::text, 50::integer),
+    ('phrasal-verb-245'::text, 50::integer),
+    ('phrasal-verb-246'::text, 70::integer),
+    ('phrasal-verb-247'::text, 50::integer),
+    ('phrasal-verb-248'::text, 70::integer),
+    ('phrasal-verb-249'::text, 70::integer),
+    ('phrasal-verb-250'::text, 50::integer),
+    ('phrasal-verb-251'::text, 50::integer),
+    ('phrasal-verb-252'::text, 60::integer),
+    ('phrasal-verb-253'::text, 60::integer),
+    ('phrasal-verb-254'::text, 140::integer),
+    ('phrasal-verb-255'::text, 50::integer),
+    ('phrasal-verb-256'::text, 85::integer),
+    ('phrasal-verb-257'::text, 80::integer),
+    ('phrasal-verb-258'::text, 50::integer),
+    ('phrasal-verb-259'::text, 85::integer),
+    ('phrasal-verb-260'::text, 150::integer),
+    ('phrasal-verb-261'::text, 190::integer),
+    ('phrasal-verb-262'::text, 80::integer),
+    ('phrasal-verb-263'::text, 50::integer),
+    ('phrasal-verb-264'::text, 50::integer),
+    ('phrasal-verb-265'::text, 50::integer),
+    ('phrasal-verb-266'::text, 70::integer),
+    ('phrasal-verb-267'::text, 50::integer),
+    ('phrasal-verb-268'::text, 60::integer),
+    ('phrasal-verb-269'::text, 250::integer),
+    ('phrasal-verb-270'::text, 150::integer),
+    ('phrasal-verb-271'::text, 60::integer),
+    ('phrasal-verb-272'::text, 60::integer),
+    ('phrasal-verb-273'::text, 50::integer),
+    ('phrasal-verb-274'::text, 110::integer),
+    ('phrasal-verb-275'::text, 80::integer),
+    ('phrasal-verb-276'::text, 100::integer),
+    ('phrasal-verb-277'::text, 70::integer),
+    ('phrasal-verb-278'::text, 70::integer),
+    ('phrasal-verb-279'::text, 80::integer),
+    ('phrasal-verb-280'::text, 70::integer),
+    ('phrasal-verb-281'::text, 60::integer),
+    ('phrasal-verb-282'::text, 70::integer),
+    ('phrasal-verb-283'::text, 50::integer),
+    ('phrasal-verb-284'::text, 80::integer),
+    ('phrasal-verb-285'::text, 70::integer),
+    ('phrasal-verb-286'::text, 85::integer),
+    ('phrasal-verb-287'::text, 60::integer),
+    ('phrasal-verb-288'::text, 130::integer),
+    ('phrasal-verb-289'::text, 50::integer),
+    ('phrasal-verb-290'::text, 60::integer),
+    ('phrasal-verb-291'::text, 70::integer),
+    ('phrasal-verb-292'::text, 70::integer),
+    ('phrasal-verb-293'::text, 80::integer),
+    ('phrasal-verb-294'::text, 60::integer),
+    ('phrasal-verb-295'::text, 50::integer),
+    ('phrasal-verb-296'::text, 60::integer),
+    ('phrasal-verb-297'::text, 50::integer),
+    ('phrasal-verb-298'::text, 50::integer),
+    ('phrasal-verb-299'::text, 80::integer),
+    ('phrasal-verb-300'::text, 50::integer),
+    ('phrasal-verb-301'::text, 60::integer),
+    ('phrasal-verb-302'::text, 60::integer),
+    ('phrasal-verb-303'::text, 50::integer),
+    ('phrasal-verb-304'::text, 60::integer),
+    ('phrasal-verb-305'::text, 50::integer),
+    ('phrasal-verb-306'::text, 60::integer),
+    ('phrasal-verb-307'::text, 60::integer),
+    ('phrasal-verb-308'::text, 50::integer),
+    ('phrasal-verb-309'::text, 70::integer),
+    ('phrasal-verb-310'::text, 50::integer),
+    ('phrasal-verb-311'::text, 60::integer),
+    ('phrasal-verb-312'::text, 60::integer),
+    ('phrasal-verb-313'::text, 50::integer),
+    ('phrasal-verb-314'::text, 50::integer),
+    ('phrasal-verb-315'::text, 150::integer),
+    ('phrasal-verb-316'::text, 145::integer),
+    ('phrasal-verb-317'::text, 60::integer),
+    ('phrasal-verb-318'::text, 50::integer),
+    ('phrasal-verb-319'::text, 50::integer),
+    ('phrasal-verb-320'::text, 50::integer),
+    ('phrasal-verb-321'::text, 60::integer),
+    ('phrasal-verb-322'::text, 50::integer),
+    ('phrasal-verb-323'::text, 60::integer),
+    ('phrasal-verb-324'::text, 50::integer),
+    ('phrasal-verb-325'::text, 50::integer),
+    ('phrasal-verb-326'::text, 50::integer),
+    ('phrasal-verb-327'::text, 60::integer),
+    ('phrasal-verb-328'::text, 50::integer),
+    ('phrasal-verb-329'::text, 50::integer)
+  ) as lesson_row(lesson_id, question_count)
+  where lesson_row.lesson_id = p_lesson_id;
+$$;
+
+create or replace function public._phrasal_verb_system_question_id_valid(
+  p_lesson_id text,
+  p_question_id text
+)
+returns boolean
+language sql
+immutable
+strict
+parallel safe
+set search_path = ''
+as $$
+  select public._phrasal_verb_system_question_count(p_lesson_id) is not null
+    and p_question_id ~ ('^' || p_lesson_id || '-q(0[1-9]|[1-9][0-9]{1,2})$')
+    and substring(p_question_id from '-q([0-9]{2,3})$')::integer
+      between 1 and public._phrasal_verb_system_question_count(p_lesson_id);
 $$;
 
 -- The Worker performs the deep, content-aware validation. This immutable
@@ -93,7 +407,6 @@ immutable
 set search_path = ''
 as $$
 declare
-  v_question_pattern text;
   v_question_count integer;
   v_question_id text;
   v_item jsonb;
@@ -106,17 +419,11 @@ begin
   if v_question_count is null
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
-    or octet_length(p_result::text) > 98304
+    or octet_length(p_result::text) > 393216
   then
     return false;
   end if;
 
-  v_question_pattern := '^' || p_lesson_id || '-q' || case v_question_count
-    when 30 then '(0[1-9]|[12][0-9]|30)$'
-    when 50 then '(0[1-9]|[1-4][0-9]|50)$'
-    when 60 then '(0[1-9]|[1-5][0-9]|60)$'
-    when 70 then '(0[1-9]|[1-6][0-9]|70)$'
-  end;
   select count(*) into v_key_count from jsonb_object_keys(p_result);
   v_has_correction_state := p_result ? 'correctionMode'
     or p_result ? 'correctionIds'
@@ -186,7 +493,7 @@ begin
         from jsonb_array_elements(p_result -> v_array_name)
       loop
         if jsonb_typeof(v_item) <> 'string'
-          or coalesce(v_item #>> '{}', '') !~ v_question_pattern
+          or not public._phrasal_verb_system_question_id_valid(p_lesson_id, coalesce(v_item #>> '{}', ''))
         then
           return false;
         end if;
@@ -227,7 +534,7 @@ begin
     from jsonb_array_elements(p_result -> 'correctIds')
   loop
     if jsonb_typeof(v_item) <> 'string'
-      or coalesce(v_item #>> '{}', '') !~ v_question_pattern
+      or not public._phrasal_verb_system_question_id_valid(p_lesson_id, coalesce(v_item #>> '{}', ''))
     then
       return false;
     end if;
@@ -248,7 +555,7 @@ begin
     from jsonb_object_keys(p_result -> 'questionState') as key_row(key_name)
   loop
     v_item := p_result -> 'questionState' -> v_question_id;
-    if v_question_id !~ v_question_pattern
+    if not public._phrasal_verb_system_question_id_valid(p_lesson_id, v_question_id)
       or jsonb_typeof(v_item) <> 'object'
       or (select count(*) from jsonb_object_keys(v_item)) <> 3
       or not (v_item ?& array['status', 'lastAnswer', 'reveal'])
@@ -322,7 +629,7 @@ begin
         from jsonb_array_elements(v_round -> v_array_name)
       loop
         if jsonb_typeof(v_item) <> 'string'
-          or coalesce(v_item #>> '{}', '') !~ v_question_pattern
+          or not public._phrasal_verb_system_question_id_valid(p_lesson_id, coalesce(v_item #>> '{}', ''))
         then
           return false;
         end if;
@@ -369,9 +676,9 @@ begin
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or (
         coalesce(v_item ->> 'questionId', '') <> '__section__'
-        and (
-          coalesce(v_item ->> 'questionId', '') !~ ('^' || coalesce(v_item ->> 'lessonId', '') || '-q[0-9]{2}$')
-          or substring(coalesce(v_item ->> 'questionId', '') from '-q([0-9]{2})$')::integer not between 1 and public._phrasal_verb_system_question_count(v_item ->> 'lessonId')
+        and not public._phrasal_verb_system_question_id_valid(
+          coalesce(v_item ->> 'lessonId', ''),
+          coalesce(v_item ->> 'questionId', '')
         )
       )
       or jsonb_typeof(v_item -> 'includeAnswer') <> 'boolean'
@@ -452,7 +759,8 @@ create table if not exists public.phrasal_verb_system_attempts (
     check (total_count = public._phrasal_verb_system_question_count(lesson_id)),
   check (correct_count between 0 and total_count),
   check (duration_ms between 0 and 604800000),
-  check (public._phrasal_verb_system_result_valid(lesson_id, result)),
+  constraint phrasal_verb_system_attempts_result_valid_check
+    check (public._phrasal_verb_system_result_valid(lesson_id, result)),
   check (
     (status = 'in_progress' and completed_at is null)
     or (
@@ -484,10 +792,7 @@ create table if not exists public.phrasal_verb_system_bookmarks (
   constraint phrasal_verb_system_bookmarks_question_id_check
     check (
       (question_id = '__section__' and include_answer = false)
-      or (
-        question_id ~ ('^' || lesson_id || '-q[0-9]{2}$')
-        and substring(question_id from '-q([0-9]{2})$')::integer between 1 and public._phrasal_verb_system_question_count(lesson_id)
-      )
+      or public._phrasal_verb_system_question_id_valid(lesson_id, question_id)
     )
 );
 
@@ -504,11 +809,10 @@ alter table public.phrasal_verb_system_bookmarks
   add constraint phrasal_verb_system_bookmarks_question_id_check
   check (
     (question_id = '__section__' and include_answer = false)
-    or (
-      question_id ~ ('^' || lesson_id || '-q[0-9]{2}$')
-      and substring(question_id from '-q([0-9]{2})$')::integer between 1 and public._phrasal_verb_system_question_count(lesson_id)
-    )
-  );
+    or public._phrasal_verb_system_question_id_valid(lesson_id, question_id)
+  ) not valid;
+alter table public.phrasal_verb_system_bookmarks
+  validate constraint phrasal_verb_system_bookmarks_question_id_check;
 
 -- Expand existing one-lesson installations without dropping stored progress.
 alter table public.phrasal_verb_system_bookmarks
@@ -526,6 +830,36 @@ alter table public.phrasal_verb_system_attempts
 alter table public.phrasal_verb_system_attempts
   add constraint phrasal_verb_system_attempts_total_count_check
   check (total_count = public._phrasal_verb_system_question_count(lesson_id));
+
+-- Replace both the current named check and the unnamed check used by the
+-- earliest installation.  Matching the helper call avoids dropping unrelated
+-- checks while still making this file repeatable on every deployed version.
+do $$
+declare
+  v_constraint record;
+begin
+  for v_constraint in
+    select constraint_row.conname
+    from pg_catalog.pg_constraint constraint_row
+    where constraint_row.conrelid = 'public.phrasal_verb_system_attempts'::regclass
+      and constraint_row.contype = 'c'
+      and pg_catalog.position(
+        '_phrasal_verb_system_result_valid'
+        in pg_catalog.pg_get_constraintdef(constraint_row.oid)
+      ) > 0
+  loop
+    execute format(
+      'alter table public.phrasal_verb_system_attempts drop constraint %I',
+      v_constraint.conname
+    );
+  end loop;
+end;
+$$;
+alter table public.phrasal_verb_system_attempts
+  add constraint phrasal_verb_system_attempts_result_valid_check
+  check (public._phrasal_verb_system_result_valid(lesson_id, result)) not valid;
+alter table public.phrasal_verb_system_attempts
+  validate constraint phrasal_verb_system_attempts_result_valid_check;
 
 create index if not exists phrasal_verb_system_bookmarks_student_created_idx
   on public.phrasal_verb_system_bookmarks (student_id, created_at desc, lesson_id, question_id);
@@ -1385,6 +1719,8 @@ $$;
 revoke all on function public._phrasal_verb_system_result_valid(text, jsonb)
   from public, anon, authenticated, service_role;
 revoke all on function public._phrasal_verb_system_question_count(text)
+  from public, anon, authenticated, service_role;
+revoke all on function public._phrasal_verb_system_question_id_valid(text, text)
   from public, anon, authenticated, service_role;
 revoke all on function public._phrasal_verb_system_bookmark_payload_valid(jsonb)
   from public, anon, authenticated, service_role;

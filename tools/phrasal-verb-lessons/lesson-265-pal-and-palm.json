@@ -1,0 +1,1244 @@
+{
+  "id": "phrasal-verb-265",
+  "order": 265,
+  "slug": "pal-and-palm",
+  "version": "1",
+  "title": "PAL AND PALM 動詞片語",
+  "titleEn": "PAL and PALM",
+  "titleZh": "PAL AND PALM 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 250 - PAL and PALM.pdf",
+    "sourceNumber": 250,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 PAL 和 PALM 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to PAL and PALM."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "PAL AND PALM",
+      "highlight": "PAL AND PALM"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They palled up during their first week at college.",
+      "zh": "他們在大學第一個星期便成為好友。",
+      "highlight": "palled up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The assistant palmed me off with a weak excuse.",
+      "zh": "那名助理用一個站不住腳的藉口打發我。",
+      "highlight": "palmed me off with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He tried to palm the unwanted job off on me.",
+      "zh": "他企圖把沒有人想做的工作推給我。",
+      "highlight": "palm the unwanted job off on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "與某人成為朋友;與某人熟絡起來；用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴；把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思；把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+    "en": "pal up / pal up with somebody; palm somebody off / palm somebody off with something; palm somebody/something off on/onto somebody; palm something off as something",
+    "naturalZh": [
+      "與某人成為朋友;與某人熟絡起來",
+      "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+      "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+      "把某物說成比實際更好、更值錢或更真,尤其為了把它出售"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pal up / pal up with somebody",
+      "titleZh": "與某人成為朋友;與某人熟絡起來",
+      "titleEn": "pal up / pal up with somebody",
+      "descriptionZh": "與某人成為朋友;與某人熟絡起來",
+      "descriptionEn": "They palled up during their first week at college.",
+      "examples": [
+        {
+          "en": "They palled up during their first week at college.",
+          "zh": "他們在大學第一個星期便成為好友。",
+          "highlight": "palled up"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "palm somebody off / palm somebody off with something",
+      "titleZh": "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+      "titleEn": "palm somebody off / palm somebody off with something",
+      "descriptionZh": "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+      "descriptionEn": "The assistant palmed me off with a weak excuse.",
+      "examples": [
+        {
+          "en": "The assistant palmed me off with a weak excuse.",
+          "zh": "那名助理用一個站不住腳的藉口打發我。",
+          "highlight": "palmed me off with"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "palm somebody/something off on/onto somebody",
+      "titleZh": "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+      "titleEn": "palm somebody/something off on/onto somebody",
+      "descriptionZh": "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+      "descriptionEn": "He tried to palm the unwanted job off on me.",
+      "examples": [
+        {
+          "en": "He tried to palm the unwanted job off on me.",
+          "zh": "他企圖把沒有人想做的工作推給我。",
+          "highlight": "palm the unwanted job off on"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "palm something off as something",
+      "titleZh": "把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+      "titleEn": "palm something off as something",
+      "descriptionZh": "把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+      "descriptionEn": "The seller tried to palm the copy off as the original.",
+      "examples": [
+        {
+          "en": "The seller tried to palm the copy off as the original.",
+          "zh": "賣家企圖把仿製品冒充原作。",
+          "highlight": "palm the copy off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "PAL AND PALM 片語動詞的實際用途",
+    "labelEn": "PAL AND PALM Phrasal Verbs in Use",
+    "summaryZh": "pal up 可以描述人們在學校、大學、工作場所或活動中認識後,逐漸成為朋友。；palm somebody off 可以表示某人沒有得到真正幫助,反而只得到不實答覆、薄弱藉口或令人不滿意的東西。；palm something off on somebody 可以表示某人把自己不想要的人、東西或工作推給另一個人。；palm something off as something 可以描述仿製品、廉價商品或普通物件被冒充為真品或貴價物品。",
+    "summaryEn": "Pal up describes people becoming friendly, especially after meeting at school, college, work or an event. Palm somebody off can show that someone receives an untrue answer, a weak excuse or something unsatisfactory instead of real help. Palm something off on somebody shows that someone makes another person accept something that they do not want. Palm something off as something helps you describe copies, cheap products or ordinary objects being presented as genuine or valuable.",
+    "contextsZh": [
+      "談論新建立的友誼",
+      "描述別人用敷衍說法打發你",
+      "描述把不想要的人、東西或工作推給別人",
+      "談論冒牌或具有誤導性的商品"
+    ],
+    "contextsEn": [
+      "Talk about new friendships",
+      "Describe being dismissed with a poor excuse",
+      "Describe unwanted people, things or work being passed to others",
+      "Talk about fake or misleading products"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 PAL 或 PALM 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the PAL or PALM expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pal up / pal up with somebody",
+    "fixedHighlight": "pal up / pal up with somebody",
+    "fixedZh": "閱讀整句,選出意思相同的 PAL 或 PALM 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the PAL or PALM expression that gives the same meaning.",
+    "correct": "palled up",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；pal up 的過去式是 palled up:They palled up at college.；palm ... off 後面的字詞有助顯示句子的意思:palm someone off with an excuse用藉口打發某人palm a job off on someone把工作推給某人palm a copy off as the original把仿製品冒充原作",
+    "variableEn": "Keep the same people, things, time and meaning. The past form of pal up is palled up: They palled up at college. The words after palm... off help to show the intended meaning: palm someone off with an excuse palm a job off on someone palm a copy off as the original",
+    "variableItemsZh": [
+      "pal up / pal up with somebody",
+      "palm somebody off / palm somebody off with something",
+      "palm somebody/something off on/onto somebody",
+      "palm something off as something"
+    ],
+    "variableItemsEn": [
+      "pal up / pal up with somebody",
+      "palm somebody off / palm somebody off with something",
+      "palm somebody/something off on/onto somebody",
+      "palm something off as something"
+    ],
+    "forms": [
+      {
+        "formZh": "與某人成為朋友;與某人熟絡起來",
+        "formEn": "pal up / pal up with somebody",
+        "exampleZh": "他們在大學第一個星期便成為好友。",
+        "exampleEn": "They palled up during their first week at college.",
+        "highlight": "palled up"
+      },
+      {
+        "formZh": "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+        "formEn": "palm somebody off / palm somebody off with something",
+        "exampleZh": "那名助理用一個站不住腳的藉口打發我。",
+        "exampleEn": "The assistant palmed me off with a weak excuse.",
+        "highlight": "palmed me off with"
+      },
+      {
+        "formZh": "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+        "formEn": "palm somebody/something off on/onto somebody",
+        "exampleZh": "他企圖把沒有人想做的工作推給我。",
+        "exampleEn": "He tried to palm the unwanted job off on me.",
+        "highlight": "palm the unwanted job off on"
+      },
+      {
+        "formZh": "把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+        "formEn": "palm something off as something",
+        "exampleZh": "賣家企圖把仿製品冒充原作。",
+        "exampleEn": "The seller tried to palm the copy off as the original.",
+        "highlight": "palm the copy off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "與某人成為朋友;與某人熟絡起來",
+      "titleEn": "pal up / pal up with somebody",
+      "formula": "pal up / pal up with somebody",
+      "highlight": "pal up / pal up with somebody",
+      "descriptionZh": "與某人成為朋友;與某人熟絡起來",
+      "descriptionEn": "They palled up during their first week at college.",
+      "examples": [
+        {
+          "en": "They palled up during their first week at college.",
+          "zh": "他們在大學第一個星期便成為好友。",
+          "highlight": "palled up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+      "titleEn": "palm somebody off / palm somebody off with something",
+      "formula": "palm somebody off / palm somebody off with something",
+      "highlight": "palm somebody off / palm somebody off with something",
+      "descriptionZh": "用不實、敷衍或不令人滿意的說法或東西打發某人,使對方停止追問或投訴",
+      "descriptionEn": "The assistant palmed me off with a weak excuse.",
+      "examples": [
+        {
+          "en": "The assistant palmed me off with a weak excuse.",
+          "zh": "那名助理用一個站不住腳的藉口打發我。",
+          "highlight": "palmed me off with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+      "titleEn": "palm somebody/something off on/onto somebody",
+      "formula": "palm somebody/something off on/onto somebody",
+      "highlight": "palm somebody/something off on/onto somebody",
+      "descriptionZh": "把自己不想要的人、東西或工作推給別人,通常帶有欺騙或卸責的意思",
+      "descriptionEn": "He tried to palm the unwanted job off on me.",
+      "examples": [
+        {
+          "en": "He tried to palm the unwanted job off on me.",
+          "zh": "他企圖把沒有人想做的工作推給我。",
+          "highlight": "palm the unwanted job off on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+      "titleEn": "palm something off as something",
+      "formula": "palm something off as something",
+      "highlight": "palm something off as something",
+      "descriptionZh": "把某物說成比實際更好、更值錢或更真,尤其為了把它出售",
+      "descriptionEn": "The seller tried to palm the copy off as the original.",
+      "examples": [
+        {
+          "en": "The seller tried to palm the copy off as the original.",
+          "zh": "賣家企圖把仿製品冒充原作。",
+          "highlight": "palm the copy off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論新建立的友誼",
+      "titleEn": "Talk about new friendships",
+      "zh": "pal up 可以描述人們在學校、大學、工作場所或活動中認識後,逐漸成為朋友。",
+      "en": "Pal up describes people becoming friendly, especially after meeting at school, college, work or an event."
+    },
+    {
+      "titleZh": "描述別人用敷衍說法打發你",
+      "titleEn": "Describe being dismissed with a poor excuse",
+      "zh": "palm somebody off 可以表示某人沒有得到真正幫助,反而只得到不實答覆、薄弱藉口或令人不滿意的東西。",
+      "en": "Palm somebody off can show that someone receives an untrue answer, a weak excuse or something unsatisfactory instead of real help."
+    },
+    {
+      "titleZh": "描述把不想要的人、東西或工作推給別人",
+      "titleEn": "Describe unwanted people, things or work being passed to others",
+      "zh": "palm something off on somebody 可以表示某人把自己不想要的人、東西或工作推給另一個人。",
+      "en": "Palm something off on somebody shows that someone makes another person accept something that they do not want."
+    },
+    {
+      "titleZh": "談論冒牌或具有誤導性的商品",
+      "titleEn": "Talk about fake or misleading products",
+      "zh": "palm something off as something 可以描述仿製品、廉價商品或普通物件被冒充為真品或貴價物品。",
+      "en": "Palm something off as something helps you describe copies, cheap products or ordinary objects being presented as genuine or valuable."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論新建立的友誼",
+      "描述別人用敷衍說法打發你",
+      "描述把不想要的人、東西或工作推給別人",
+      "談論冒牌或具有誤導性的商品"
+    ],
+    "contextsEn": [
+      "Talk about new friendships",
+      "Describe being dismissed with a poor excuse",
+      "Describe unwanted people, things or work being passed to others",
+      "Talk about fake or misleading products"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論新建立的友誼",
+        "titleEn": "Talk about new friendships",
+        "zh": "pal up 可以描述人們在學校、大學、工作場所或活動中認識後,逐漸成為朋友。",
+        "en": "Pal up describes people becoming friendly, especially after meeting at school, college, work or an event.",
+        "examples": [
+          {
+            "en": "They palled up during their first week at college.",
+            "zh": "他們在大學第一個星期便成為好友。",
+            "highlight": "palled up"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述別人用敷衍說法打發你",
+        "titleEn": "Describe being dismissed with a poor excuse",
+        "zh": "palm somebody off 可以表示某人沒有得到真正幫助,反而只得到不實答覆、薄弱藉口或令人不滿意的東西。",
+        "en": "Palm somebody off can show that someone receives an untrue answer, a weak excuse or something unsatisfactory instead of real help.",
+        "examples": [
+          {
+            "en": "The assistant palmed me off with a weak excuse.",
+            "zh": "那名助理用一個站不住腳的藉口打發我。",
+            "highlight": "palmed me off with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述把不想要的人、東西或工作推給別人",
+        "titleEn": "Describe unwanted people, things or work being passed to others",
+        "zh": "palm something off on somebody 可以表示某人把自己不想要的人、東西或工作推給另一個人。",
+        "en": "Palm something off on somebody shows that someone makes another person accept something that they do not want.",
+        "examples": [
+          {
+            "en": "He tried to palm the unwanted job off on me.",
+            "zh": "他企圖把沒有人想做的工作推給我。",
+            "highlight": "palm the unwanted job off on"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論冒牌或具有誤導性的商品",
+        "titleEn": "Talk about fake or misleading products",
+        "zh": "palm something off as something 可以描述仿製品、廉價商品或普通物件被冒充為真品或貴價物品。",
+        "en": "Palm something off as something helps you describe copies, cheap products or ordinary objects being presented as genuine or valuable.",
+        "examples": [
+          {
+            "en": "The seller tried to palm the copy off as the original.",
+            "zh": "賣家企圖把仿製品冒充原作。",
+            "highlight": "palm the copy off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 PAL 或 PALM 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the PAL or PALM expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 PAL 或 PALM 片語動詞。",
+      "en": "Read the whole sentence and choose the PAL or PALM expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "pal up 的過去式是 palled up:They palled up at college.",
+      "titleEn": "The past form of pal up is palled up: They palled up at college.",
+      "zh": "pal up 的過去式是 palled up:They palled up at college.",
+      "en": "The past form of pal up is palled up: They palled up at college."
+    },
+    {
+      "titleZh": "palm ... off 後面的字詞有助顯示句子的意思:palm someone off with an excuse用藉口打發某人palm a job off on someone把工作推給某人palm a copy off as the original把仿製品冒充原作",
+      "titleEn": "The words after palm.",
+      "zh": "palm ... off 後面的字詞有助顯示句子的意思:palm someone off with an excuse用藉口打發某人palm a job off on someone把工作推給某人palm a copy off as the original把仿製品冒充原作",
+      "en": "The words after palm... off help to show the intended meaning: palm someone off with an excuse palm a job off on someone palm a copy off as the original"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 PAL AND PALM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to PAL AND PALM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "PAL AND PALM 動詞片語句子改寫練習",
+    "titleEn": "PAL AND PALM Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 PAL AND PALM 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to PAL AND PALM. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-265-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Lena and Sara became friends during their first week at college.",
+      "promptZh": "莉娜和莎拉在大學第一個星期便成為朋友。",
+      "starter": "Lena",
+      "answer": "Lena and Sara palled up during their first week at college.",
+      "answerZh": "莉娜和莎拉在大學第一個星期便成為朋友。",
+      "highlight": "palled up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The receptionist gave me a weak excuse so I would leave.",
+      "promptZh": "接待員給了我一個站不住腳的藉口,想讓我離開。",
+      "starter": "The",
+      "answer": "The receptionist palmed me off with a weak excuse so I would leave.",
+      "answerZh": "接待員用一個站不住腳的藉口打發我,想讓我離開。",
+      "highlight": "palmed",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用敷衍或不實的說法打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ben made his sister take the unwanted dog home for the afternoon.",
+      "promptZh": "賓要姊姊把那隻沒有人想要的狗帶回家一個下午。",
+      "starter": "Ben",
+      "answer": "Ben palmed the unwanted dog off on his sister for the afternoon.",
+      "answerZh": "賓把那隻沒有人想要的狗推給姊姊,叫她照顧一個下午。",
+      "highlight": "palmed",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想要的東西推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The shop sold cheap copies and claimed they were originals.",
+      "promptZh": "那間店出售廉價仿製品,並聲稱它們是原作。",
+      "starter": "The",
+      "answer": "The shop palmed cheap copies off as originals.",
+      "answerZh": "那間店把廉價仿製品冒充原作出售。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把某物冒充為更好或更真的東西"
+    },
+    {
+      "id": "phrasal-verb-265-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Omar became friendly with two people from his new class.",
+      "promptZh": "奧馬與新班別的兩名同學熟絡起來。",
+      "starter": "Omar",
+      "answer": "Omar palled up with two people from his new class.",
+      "answerZh": "奧馬與新班別的兩名同學熟絡起來。",
+      "highlight": "palled up",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The manager gave the customer an unhelpful answer to end the complaint.",
+      "promptZh": "經理給顧客一個沒有幫助的答覆,想結束投訴。",
+      "starter": "The",
+      "answer": "The manager palmed the customer off with an unhelpful answer.",
+      "answerZh": "經理用一個沒有幫助的答覆打發顧客。",
+      "highlight": "palmed",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用敷衍或不令人滿意的答覆打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We became friends while we were working at the summer camp.",
+      "promptZh": "我們在夏令營工作期間成為朋友。",
+      "starter": "We",
+      "answer": "We palled up while we were working at the summer camp.",
+      "answerZh": "我們在夏令營工作期間成為朋友。",
+      "highlight": "palled up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The hotel gave us a small snack instead of answering our complaint.",
+      "promptZh": "酒店沒有回應我們的投訴,只給了我們一份小食。",
+      "starter": "The",
+      "answer": "The hotel palmed us off with a small snack instead of answering our complaint.",
+      "answerZh": "酒店沒有回應我們的投訴,只用一份小食打發我們。",
+      "highlight": "palmed",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用不令人滿意的東西打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Tara made me spend the afternoon with her talkative uncle.",
+      "promptZh": "塔拉要我整個下午陪伴她那位健談的叔叔。",
+      "starter": "Tara",
+      "answer": "Tara palmed her talkative uncle off on me for the afternoon.",
+      "answerZh": "塔拉把她那位健談的叔叔推給我,要我陪伴他一整個下午。",
+      "highlight": "palmed",
+      "targetForm": "palm somebody off on somebody",
+      "targetMeaningZh": "把自己不想招待的人推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "He tried to sell a modern table as a real antique.",
+      "promptZh": "他企圖把一張現代製造的桌子當作真正的古董出售。",
+      "starter": "He",
+      "answer": "He tried to palm a modern table off as a real antique.",
+      "answerZh": "他企圖把一張現代製造的桌子冒充真正的古董出售。",
+      "highlight": "palm",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把某物冒充為更值錢或更真的東西"
+    },
+    {
+      "id": "phrasal-verb-265-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The service desk is giving callers the same false promise so that they stop complaining.",
+      "promptZh": "服務台正用同一個虛假承諾打發來電者,讓他們停止投訴。",
+      "starter": "The",
+      "answer": "The service desk is palming callers off with the same false promise.",
+      "answerZh": "服務台正用同一個虛假承諾打發來電者。",
+      "highlight": "palming",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用不實說法打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Do not let Kai make you take responsibility for his unwanted task.",
+      "promptZh": "不要讓啟把他不想做的工作推給你。",
+      "starter": "Do",
+      "answer": "Do not let Kai palm his unwanted task off on you.",
+      "answerZh": "不要讓啟把他不想做的工作推給你。",
+      "highlight": "palm",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想做的工作推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Since the course began, Ella has become friendly with several classmates.",
+      "promptZh": "自課程開始以來,埃拉已與幾名同學熟絡起來。",
+      "starter": "Since",
+      "answer": "Since the course began, Ella has palled up with several classmates.",
+      "answerZh": "自課程開始以來,埃拉已與幾名同學熟絡起來。",
+      "highlight": "palled up",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The ordinary watch was sold as a costly designer watch.",
+      "promptZh": "那隻普通手錶被當作昂貴的名牌手錶出售。",
+      "starter": "The",
+      "answer": "The ordinary watch was palmed off as a costly designer watch.",
+      "answerZh": "那隻普通手錶被冒充為昂貴的名牌手錶出售。",
+      "highlight": "palmed off",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把某物冒充為更昂貴的東西"
+    },
+    {
+      "id": "phrasal-verb-265-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did the assistant make you leave without giving you a proper answer?",
+      "promptZh": "那名助理為何沒有給你適當答覆,便要你離開?",
+      "starter": "Why",
+      "answer": "Why did the assistant palm you off without giving you a proper answer?",
+      "answerZh": "那名助理為何沒有給你適當答覆便把你打發走?",
+      "highlight": "palm",
+      "targetForm": "palm somebody off",
+      "targetMeaningZh": "敷衍或打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The older staff member is making the new worker deal with all the boring jobs.",
+      "promptZh": "那名資深員工正把所有沉悶工作交給新員工處理。",
+      "starter": "The",
+      "answer": "The older staff member is palming all the boring jobs off on the new worker.",
+      "answerZh": "那名資深員工正把所有沉悶工作推給新員工。",
+      "highlight": "palming",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想做的工作推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You cannot satisfy us with another empty promise.",
+      "promptZh": "你不能再用另一個空洞承諾打發我們。",
+      "starter": "You",
+      "answer": "You cannot palm us off with another empty promise.",
+      "answerZh": "你不能再用另一個空洞承諾打發我們。",
+      "highlight": "palm",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用空洞或不實承諾打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The broken printer has been passed to our team because nobody else wants it.",
+      "promptZh": "那部壞掉的打印機已被交給我們的團隊,因為其他人都不想要它。",
+      "starter": "The",
+      "answer": "The broken printer has been palmed off on our team.",
+      "answerZh": "那部壞掉的打印機已被推給我們的團隊。",
+      "highlight": "palmed off on",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想要的東西推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "You may become friends with people from the other class during the trip.",
+      "promptZh": "你可能會在旅程中與另一班的同學成為朋友。",
+      "starter": "You",
+      "answer": "You may pal up with people from the other class during the trip.",
+      "answerZh": "你可能會在旅程中與另一班的同學成為朋友。",
+      "highlight": "pal up",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The seller is trying to present glass stones as real diamonds.",
+      "promptZh": "賣家正企圖把玻璃石冒充真正的鑽石。",
+      "starter": "The",
+      "answer": "The seller is trying to palm glass stones off as real diamonds.",
+      "answerZh": "賣家正企圖把玻璃石冒充真正的鑽石。",
+      "highlight": "palm",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把假貨冒充真品"
+    },
+    {
+      "id": "phrasal-verb-265-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The extra work is Jay’s, but he is trying to make me take it.",
+      "promptZh": "額外的工作本來屬於杰伊,但他正企圖把它推給我。",
+      "starter": "The",
+      "answer": "The extra work is Jay’s, but he is trying to palm it off on me.",
+      "answerZh": "額外的工作本來屬於杰伊,但他正企圖把它推給我。",
+      "highlight": "palm it off on",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想做的工作推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The painting was only a copy, but the dealer sold it as the original.",
+      "promptZh": "那幅畫只是仿製品,但商人把它當作原作出售。",
+      "starter": "The",
+      "answer": "The painting was only a copy, but the dealer palmed it off as the original.",
+      "answerZh": "那幅畫只是仿製品,但商人把它冒充原作出售。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把仿製品冒充原作"
+    },
+    {
+      "id": "phrasal-verb-265-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "At first, the two students hardly spoke. By the end of the trip, they had become good friends.",
+      "promptZh": "起初,兩名學生幾乎沒有交談。旅程結束時,他們已成為好友。",
+      "starter": "At",
+      "answer": "At first, the two students hardly spoke. By the end of the trip, they had palled up.",
+      "answerZh": "起初,兩名學生幾乎沒有交談。旅程結束時,他們已成為好友。",
+      "highlight": "palled up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We asked for a clear answer, but the staff made us leave without answering.",
+      "promptZh": "我們要求得到清楚答覆,但職員沒有回答便要我們離開。",
+      "starter": "We",
+      "answer": "We asked for a clear answer, but the staff simply palmed us off without answering.",
+      "answerZh": "我們要求得到清楚答覆,但職員沒有回答便把我們打發走。",
+      "highlight": "simply palmed",
+      "targetForm": "palm somebody off",
+      "targetMeaningZh": "敷衍或打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "My cousin did not want to spend time with his noisy friend, so he made us entertain him.",
+      "promptZh": "我的表哥不想陪伴他那位吵鬧的朋友,所以要我們招待他。",
+      "starter": "My",
+      "answer": "My cousin did not want to spend time with his noisy friend, so he palmed him off on us.",
+      "answerZh": "我的表哥不想陪伴他那位吵鬧的朋友,所以把他推給我們招待。",
+      "highlight": "palmed him off on",
+      "targetForm": "palm somebody off on somebody",
+      "targetMeaningZh": "把自己不想招待的人推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Could someone have sold this cheap bag as a real designer bag?",
+      "promptZh": "會不會有人把這個廉價手袋當作真正的名牌手袋出售?",
+      "starter": "Could",
+      "answer": "Could someone have palmed this cheap bag off as a real designer bag?",
+      "answerZh": "會不會有人把這個廉價手袋冒充真正的名牌手袋出售?",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把廉價商品冒充名牌商品"
+    },
+    {
+      "id": "phrasal-verb-265-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The officer knew the caller was trying to satisfy her with an answer that was not true.",
+      "promptZh": "該名職員知道來電者正企圖用不實答覆打發她。",
+      "starter": "The",
+      "answer": "The officer knew the caller was trying to palm her off with an answer that was not true.",
+      "answerZh": "該名職員知道來電者正企圖用不實答覆打發她。",
+      "highlight": "palm",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用不實答覆打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "They had a pile of unwanted books, so they persuaded the new club to accept them.",
+      "promptZh": "他們有一大堆沒有人想要的書,所以說服新成立的學會接收它們。",
+      "starter": "They",
+      "answer": "They had a pile of unwanted books, so they palmed them off onto the new club.",
+      "answerZh": "他們有一大堆沒有人想要的書,所以把它們推給新成立的學會。",
+      "highlight": "palmed them off onto",
+      "targetForm": "palm something off onto somebody",
+      "targetMeaningZh": "把不想要的東西推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Several printed copies were being sold as hand-painted originals.",
+      "promptZh": "幾幅印刷仿製品正被當作手繪原作出售。",
+      "starter": "Several",
+      "answer": "Several printed copies were being palmed off as hand-painted originals.",
+      "answerZh": "幾幅印刷仿製品正被冒充為手繪原作出售。",
+      "highlight": "palmed off",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把仿製品冒充原作"
+    },
+    {
+      "id": "phrasal-verb-265-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "How did you become friends with the people in the next flat?",
+      "promptZh": "你是如何與隔壁單位的人成為朋友的?",
+      "starter": "How",
+      "answer": "How did you pal up with the people in the next flat?",
+      "answerZh": "你是如何與隔壁單位的人成為朋友的?",
+      "highlight": "pal up",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The online seller claimed that an ordinary stone was a rare jewel and asked a high price for it.",
+      "promptZh": "網上賣家聲稱一塊普通石頭是稀有寶石,並索取高價。",
+      "starter": "The",
+      "answer": "The online seller palmed an ordinary stone off as a rare jewel and asked a high price for it.",
+      "answerZh": "網上賣家把一塊普通石頭冒充稀有寶石,並索取高價。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把普通物品冒充為貴重物品"
+    },
+    {
+      "id": "phrasal-verb-265-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Nora joined the walking group alone but soon became friendly with two other members.",
+      "promptZh": "諾拉獨自加入步行小組,但很快便與另外兩名成員熟絡起來。",
+      "starter": "Nora",
+      "answer": "Nora joined the walking group alone but soon palled up with two other members.",
+      "answerZh": "諾拉獨自加入步行小組,但很快便與另外兩名成員熟絡起來。",
+      "highlight": "palled up",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The company did not solve the problem; it simply gave customers a £5 coupon so they would stop complaining.",
+      "promptZh": "公司沒有解決問題,只給顧客一張五英鎊優惠券,讓他們停止投訴。",
+      "starter": "The",
+      "answer": "The company did not solve the problem; it simply palmed customers off with a £5 coupon.",
+      "answerZh": "公司沒有解決問題,只用一張五英鎊優惠券打發顧客。",
+      "highlight": "palmed",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用不令人滿意的東西打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team leader gave all the difficult phone calls to the newest worker because nobody else wanted them.",
+      "promptZh": "組長把所有難以處理的電話交給最新入職的員工,因為其他人都不想處理。",
+      "starter": "The",
+      "answer": "The team leader palmed all the difficult phone calls off on the newest worker.",
+      "answerZh": "組長把所有難以處理的電話推給最新入職的員工。",
+      "highlight": "palmed",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想處理的工作推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "A restaurant served frozen food but described it as freshly made.",
+      "promptZh": "一間餐廳供應冷凍食品,卻聲稱食物是新鮮製作的。",
+      "starter": "A",
+      "answer": "A restaurant palmed frozen food off as freshly made.",
+      "answerZh": "一間餐廳把冷凍食品冒充為新鮮製作的食物。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把某物冒充為品質更好的東西"
+    },
+    {
+      "id": "phrasal-verb-265-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Although the two boys supported different teams, they became friends during the tournament.",
+      "promptZh": "雖然兩名男孩支持不同球隊,但他們在比賽期間成為了朋友。",
+      "starter": "Although",
+      "answer": "Although the two boys supported different teams, they palled up during the tournament.",
+      "answerZh": "雖然兩名男孩支持不同球隊,但他們在比賽期間成為了朋友。",
+      "highlight": "palled up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The website was claiming that copied stories were its own work.",
+      "promptZh": "該網站聲稱抄襲得來的故事是自己的作品。",
+      "starter": "The",
+      "answer": "The website was palming copied stories off as its own work.",
+      "answerZh": "該網站正把抄襲得來的故事冒充為自己的作品。",
+      "highlight": "palming",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把別人的作品冒充為自己的作品"
+    },
+    {
+      "id": "phrasal-verb-265-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When nobody wanted the old sofa, the owner persuaded the student club to take it.",
+      "promptZh": "沒有人想要那張舊梳化,於是物主說服學生會接收它。",
+      "starter": "When",
+      "answer": "When nobody wanted the old sofa, the owner palmed it off on the student club.",
+      "answerZh": "沒有人想要那張舊梳化,於是物主把它推給學生會。",
+      "highlight": "palmed it off on",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想要的東西推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not give me another unclear answer just to end my questions.",
+      "promptZh": "不要為了令我停止提問,再用另一個含糊答覆打發我。",
+      "starter": "Do",
+      "answer": "Do not palm me off with another unclear answer just to end my questions.",
+      "answerZh": "不要為了令我停止提問,再用另一個含糊答覆打發我。",
+      "highlight": "palm",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用敷衍答覆打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The two new employees might become friends because they work the same hours.",
+      "promptZh": "兩名新員工可能會成為朋友,因為他們的工作時間相同。",
+      "starter": "The",
+      "answer": "The two new employees might pal up because they work the same hours.",
+      "answerZh": "兩名新員工可能會成為朋友,因為他們的工作時間相同。",
+      "highlight": "pal up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After waiting for an hour, the passengers demanded real information and refused to accept another empty promise.",
+      "promptZh": "乘客等了一小時後,要求得到真正的資訊,並拒絕接受另一個空洞承諾。",
+      "starter": "After",
+      "answer": "After waiting for an hour, the passengers demanded real information and refused to be palmed off with another empty promise.",
+      "answerZh": "乘客等了一小時後,要求得到真正的資訊,並拒絕再被另一個空洞承諾打發。",
+      "highlight": "be palmed off with",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用空洞或不實承諾打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The organiser did not want to entertain the difficult guest, so she tried to make another volunteer spend the evening with him.",
+      "promptZh": "主辦人不想招待那名難以應付的客人,所以企圖要另一名義工陪伴他一整晚。",
+      "starter": "The",
+      "answer": "The organiser did not want to entertain the difficult guest, so she tried to palm him off on another volunteer for the evening.",
+      "answerZh": "主辦人不想招待那名難以應付的客人,所以企圖把他推給另一名義工招待一整晚。",
+      "highlight": "palm him off on",
+      "targetForm": "palm somebody off on somebody",
+      "targetMeaningZh": "把自己不想招待的人推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The necklace looked old, but the expert discovered that the seller had presented a recent copy as a family treasure.",
+      "promptZh": "那條頸鏈看來很古老,但專家發現賣家把近期製造的仿製品冒充為家傳珍寶。",
+      "starter": "The",
+      "answer": "The necklace looked old, but the expert discovered that the seller had palmed a recent copy off as a family treasure.",
+      "answerZh": "那條頸鏈看來很古老,但專家發現賣家把近期製造的仿製品冒充為家傳珍寶。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把仿製品冒充為珍貴真品"
+    },
+    {
+      "id": "phrasal-verb-265-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Neither student knew anyone at the course, but they soon became friends and began travelling there together.",
+      "promptZh": "兩名學生在課程中都不認識任何人,但他們很快便成為朋友,並開始一起前往上課。",
+      "starter": "Neither",
+      "answer": "Neither student knew anyone at the course, but they soon palled up and began travelling there together.",
+      "answerZh": "兩名學生在課程中都不認識任何人,但他們很快便成為朋友,並開始一起前往上課。",
+      "highlight": "palled up",
+      "targetForm": "pal up",
+      "targetMeaningZh": "成為朋友;熟絡起來"
+    },
+    {
+      "id": "phrasal-verb-265-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The council promised a full reply, so residents were angry when officials sent them away without an answer.",
+      "promptZh": "市議會承諾會作出完整回覆,因此職員沒有回答便要居民離開時,居民都十分憤怒。",
+      "starter": "The",
+      "answer": "The council promised a full reply, so residents were angry when officials simply palmed them off without an answer.",
+      "answerZh": "市議會承諾會作出完整回覆,因此職員沒有回答便把居民打發走時,居民都十分憤怒。",
+      "highlight": "simply palmed",
+      "targetForm": "palm somebody off",
+      "targetMeaningZh": "敷衍或打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Ravi knew the faulty laptop was useless, yet he still tried to persuade his cousin to take it.",
+      "promptZh": "拉維知道那部有故障的手提電腦沒有用,卻仍企圖說服表弟接收它。",
+      "starter": "Ravi",
+      "answer": "Ravi knew the faulty laptop was useless, yet he still tried to palm it off on his cousin.",
+      "answerZh": "拉維知道那部有故障的手提電腦沒有用,卻仍企圖把它推給表弟。",
+      "highlight": "palm it off on",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把沒有用或不想要的東西推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "During the long train journey, Hana and the woman beside her started talking and became friendly.",
+      "promptZh": "在漫長的火車旅程中,哈娜與坐在旁邊的女子開始交談,並熟絡起來。",
+      "starter": "During",
+      "answer": "During the long train journey, Hana palled up with the woman beside her.",
+      "answerZh": "在漫長的火車旅程中,哈娜與坐在旁邊的女子熟絡起來。",
+      "highlight": "palled up with",
+      "targetForm": "pal up with somebody",
+      "targetMeaningZh": "與某人成為朋友"
+    },
+    {
+      "id": "phrasal-verb-265-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Can the airline really expect to satisfy us with a drink after cancelling our flight?",
+      "promptZh": "航空公司取消航班後,真的以為可以用一杯飲品打發我們嗎?",
+      "starter": "Can",
+      "answer": "Can the airline really expect to palm us off with a drink after cancelling our flight?",
+      "answerZh": "航空公司取消航班後,真的以為可以用一杯飲品打發我們嗎?",
+      "highlight": "palm",
+      "targetForm": "palm somebody off with something",
+      "targetMeaningZh": "用不令人滿意的東西打發某人"
+    },
+    {
+      "id": "phrasal-verb-265-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The department had avoided the boring task for weeks before it finally made the new assistant do it.",
+      "promptZh": "該部門逃避那項沉悶工作達數星期,最後把它交給新助理處理。",
+      "starter": "The",
+      "answer": "The department had avoided the boring task for weeks before it finally palmed it off on the new assistant.",
+      "answerZh": "該部門逃避那項沉悶工作達數星期,最後把它推給新助理處理。",
+      "highlight": "palmed it off on",
+      "targetForm": "palm something off on somebody",
+      "targetMeaningZh": "把不想做的工作推給別人"
+    },
+    {
+      "id": "phrasal-verb-265-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Customers later learnt that the shop had sold ordinary prints as signed originals.",
+      "promptZh": "顧客其後得知,那間店把普通印刷品當作附有簽名的原作出售。",
+      "starter": "Customers",
+      "answer": "Customers later learnt that the shop had palmed ordinary prints off as signed originals.",
+      "answerZh": "顧客其後得知,那間店把普通印刷品冒充為附有簽名的原作出售。",
+      "highlight": "palmed",
+      "targetForm": "palm something off as something",
+      "targetMeaningZh": "把普通仿製品冒充為真品"
+    }
+  ]
+}

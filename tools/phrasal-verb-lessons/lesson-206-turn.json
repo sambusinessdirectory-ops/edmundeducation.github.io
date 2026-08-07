@@ -1,0 +1,2104 @@
+{
+  "id": "phrasal-verb-206",
+  "order": 206,
+  "slug": "turn",
+  "version": "1",
+  "title": "TURN 動詞片語",
+  "titleEn": "Turn",
+  "titleZh": "TURN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 22,
+  "source": {
+    "file": "Phrasal Verbs 204 - TURN.pdf",
+    "sourceNumber": 204,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      3,
+      7
+    ],
+    "exercisePdfPages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TURN 有關的片語動詞及相關表達。",
+    "en": "Learn and practise the phrasal verbs and related expressions with TURN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TURN",
+      "highlight": "TURN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She turned about and walked into the kitchen.",
+      "zh": "她轉過身,走進廚房。",
+      "highlight": "turned about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Several friends turned against him.",
+      "zh": "幾位朋友開始與他為敵。",
+      "highlight": "turned against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "He turned around and blamed us.",
+      "zh": "他竟然反過來責怪我們。",
+      "highlight": "turned around",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "轉身;轉向相反方向；開始反對或敵視某人或某事物;令某人反對或敵視另一方；突然或出乎意料地說或做某事,尤其是作出相反反應；情況好轉;令失敗或困難的情況好轉；改變某人的說話或意思,使其看來完全不同；把頭、臉或其他事物轉向一旁；拒絕某人進入、參加或接受服務；不再支持、使用或相信某事物;令某人不再支持或使用某事物；折返;使某人或某事物返回；嘴角向下,顯示不開心或不滿；拒絕某人、邀請、申請、建議或提議；回到較早的情況、制度或生活方式；把聲量、溫度、光度或其他水平調低；上床睡覺；交出或呈現某種表現；腳或腳趾向內彎；向警方或有關當局舉報某人;向警方自首；提交或交回某事物；變得封閉,不再與其他人分享感受或接觸；內外反轉;把某事物翻至內面朝外；完全打亂或徹底改變某人的生活或世界；變成某事物;把某人或某事物變成另一事物",
+    "en": "turn about; turn against somebody/something turn somebody against somebody/something; turn around and say/do something; turn around/round turn something around/round; turn something around/round; turn something aside; turn somebody away; turn away from something turn somebody away from something; turn back turn somebody/something back; turn down; turn somebody/something down; turn the clock back; turn something down; turn in; turn in a performance; turn in; turn somebody in turn yourself in; turn something in; turn in on yourself; turn inside out turn something inside out; turn somebody/something inside out; turn into something turn somebody/something into something",
+    "naturalZh": [
+      "轉身;轉向相反方向",
+      "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+      "突然或出乎意料地說或做某事,尤其是作出相反反應",
+      "情況好轉;令失敗或困難的情況好轉",
+      "改變某人的說話或意思,使其看來完全不同",
+      "把頭、臉或其他事物轉向一旁",
+      "拒絕某人進入、參加或接受服務",
+      "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+      "折返;使某人或某事物返回",
+      "嘴角向下,顯示不開心或不滿",
+      "拒絕某人、邀請、申請、建議或提議",
+      "回到較早的情況、制度或生活方式",
+      "把聲量、溫度、光度或其他水平調低",
+      "上床睡覺",
+      "交出或呈現某種表現",
+      "腳或腳趾向內彎",
+      "向警方或有關當局舉報某人;向警方自首",
+      "提交或交回某事物",
+      "變得封閉,不再與其他人分享感受或接觸",
+      "內外反轉;把某事物翻至內面朝外",
+      "完全打亂或徹底改變某人的生活或世界",
+      "變成某事物;把某人或某事物變成另一事物"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "turn about",
+      "titleZh": "轉身;轉向相反方向",
+      "titleEn": "turn about",
+      "descriptionZh": "轉身;轉向相反方向",
+      "descriptionEn": "She turned about and walked into the kitchen.",
+      "examples": [
+        {
+          "en": "She turned about and walked into the kitchen.",
+          "zh": "她轉過身,走進廚房。",
+          "highlight": "turned about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn against somebody/something turn somebody against somebody/something",
+      "titleZh": "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+      "titleEn": "turn against somebody/something turn somebody against somebody/something",
+      "descriptionZh": "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+      "descriptionEn": "Several friends turned against him.",
+      "examples": [
+        {
+          "en": "Several friends turned against him.",
+          "zh": "幾位朋友開始與他為敵。",
+          "highlight": "turned against"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn around and say/do something",
+      "titleZh": "突然或出乎意料地說或做某事,尤其是作出相反反應",
+      "titleEn": "turn around and say/do something",
+      "descriptionZh": "突然或出乎意料地說或做某事,尤其是作出相反反應",
+      "descriptionEn": "He turned around and blamed us.",
+      "examples": [
+        {
+          "en": "He turned around and blamed us.",
+          "zh": "他竟然反過來責怪我們。",
+          "highlight": "turned around"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn around/round turn something around/round",
+      "titleZh": "情況好轉;令失敗或困難的情況好轉",
+      "titleEn": "turn around/round turn something around/round",
+      "descriptionZh": "情況好轉;令失敗或困難的情況好轉",
+      "descriptionEn": "The business is finally turning around.",
+      "examples": [
+        {
+          "en": "The business is finally turning around.",
+          "zh": "這盤生意終於開始好轉。",
+          "highlight": "turning around"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn something around/round",
+      "titleZh": "改變某人的說話或意思,使其看來完全不同",
+      "titleEn": "turn something around/round",
+      "descriptionZh": "改變某人的說話或意思,使其看來完全不同",
+      "descriptionEn": "You always turn my words around.",
+      "examples": [
+        {
+          "en": "You always turn my words around.",
+          "zh": "你總是扭曲我的說話。",
+          "highlight": "turn my words around"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn something aside",
+      "titleZh": "把頭、臉或其他事物轉向一旁",
+      "titleEn": "turn something aside",
+      "descriptionZh": "把頭、臉或其他事物轉向一旁",
+      "descriptionEn": "She turned her head aside.",
+      "examples": [
+        {
+          "en": "She turned her head aside.",
+          "zh": "她把頭轉向一旁。",
+          "highlight": "turned"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody away",
+      "titleZh": "拒絕某人進入、參加或接受服務",
+      "titleEn": "turn somebody away",
+      "descriptionZh": "拒絕某人進入、參加或接受服務",
+      "descriptionEn": "The staff turned several visitors away.",
+      "examples": [
+        {
+          "en": "The staff turned several visitors away.",
+          "zh": "職員拒絕了幾名訪客進場。",
+          "highlight": "turned several visitors away"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn away from something turn somebody away from something",
+      "titleZh": "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+      "titleEn": "turn away from something turn somebody away from something",
+      "descriptionZh": "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+      "descriptionEn": "Many voters are turning away from the party.",
+      "examples": [
+        {
+          "en": "Many voters are turning away from the party.",
+          "zh": "許多選民正逐漸不再支持該政黨。",
+          "highlight": "turning away from"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn back turn somebody/something back",
+      "titleZh": "折返;使某人或某事物返回",
+      "titleEn": "turn back turn somebody/something back",
+      "descriptionZh": "折返;使某人或某事物返回",
+      "descriptionEn": "The weather became worse, so we turned back.",
+      "examples": [
+        {
+          "en": "The weather became worse, so we turned back.",
+          "zh": "天氣轉差,所以我們折返。",
+          "highlight": "turned back"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn down",
+      "titleZh": "嘴角向下,顯示不開心或不滿",
+      "titleEn": "turn down",
+      "descriptionZh": "嘴角向下,顯示不開心或不滿",
+      "descriptionEn": "Her mouth turned down at the corners.",
+      "examples": [
+        {
+          "en": "Her mouth turned down at the corners.",
+          "zh": "她的嘴角向下彎。",
+          "highlight": "turned down"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody/something down",
+      "titleZh": "拒絕某人、邀請、申請、建議或提議",
+      "titleEn": "turn somebody/something down",
+      "descriptionZh": "拒絕某人、邀請、申請、建議或提議",
+      "descriptionEn": "He turned down the invitation.",
+      "examples": [
+        {
+          "en": "He turned down the invitation.",
+          "zh": "他拒絕了邀請。",
+          "highlight": "turned down"
+        }
+      ],
+      "number": 11,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn the clock back",
+      "titleZh": "回到較早的情況、制度或生活方式",
+      "titleEn": "turn the clock back",
+      "descriptionZh": "回到較早的情況、制度或生活方式",
+      "descriptionEn": "We cannot turn the clock back.",
+      "examples": [
+        {
+          "en": "We cannot turn the clock back.",
+          "zh": "我們不能回到從前。",
+          "highlight": "turn the clock back"
+        }
+      ],
+      "number": 12,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn something down",
+      "titleZh": "把聲量、溫度、光度或其他水平調低",
+      "titleEn": "turn something down",
+      "descriptionZh": "把聲量、溫度、光度或其他水平調低",
+      "descriptionEn": "Please turn the television down.",
+      "examples": [
+        {
+          "en": "Please turn the television down.",
+          "zh": "請把電視聲量調低。",
+          "highlight": "turn the television down"
+        }
+      ],
+      "number": 13,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn in",
+      "titleZh": "上床睡覺",
+      "titleEn": "turn in",
+      "descriptionZh": "上床睡覺",
+      "descriptionEn": "I am tired, so I am going to turn in.",
+      "examples": [
+        {
+          "en": "I am tired, so I am going to turn in.",
+          "zh": "我累了,所以準備上床睡覺。",
+          "highlight": "turn in"
+        }
+      ],
+      "number": 14,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn in a performance",
+      "titleZh": "交出或呈現某種表現",
+      "titleEn": "turn in a performance",
+      "descriptionZh": "交出或呈現某種表現",
+      "descriptionEn": "The team turned in an excellent performance.",
+      "examples": [
+        {
+          "en": "The team turned in an excellent performance.",
+          "zh": "球隊交出了出色的表現。",
+          "highlight": "turned in"
+        }
+      ],
+      "number": 15,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn in",
+      "titleZh": "腳或腳趾向內彎",
+      "titleEn": "turn in",
+      "descriptionZh": "腳或腳趾向內彎",
+      "descriptionEn": "His feet turn in when he walks.",
+      "examples": [
+        {
+          "en": "His feet turn in when he walks.",
+          "zh": "他走路時雙腳會向內彎。",
+          "highlight": "turn in"
+        }
+      ],
+      "number": 16,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn somebody in turn yourself in",
+      "titleZh": "向警方或有關當局舉報某人;向警方自首",
+      "titleEn": "turn somebody in turn yourself in",
+      "descriptionZh": "向警方或有關當局舉報某人;向警方自首",
+      "descriptionEn": "The driver turned himself in to the police.",
+      "examples": [
+        {
+          "en": "The driver turned himself in to the police.",
+          "zh": "那名司機向警方自首。",
+          "highlight": "turned himself in"
+        }
+      ],
+      "number": 17,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn something in",
+      "titleZh": "提交或交回某事物",
+      "titleEn": "turn something in",
+      "descriptionZh": "提交或交回某事物",
+      "descriptionEn": "Please turn in your pass before leaving.",
+      "examples": [
+        {
+          "en": "Please turn in your pass before leaving.",
+          "zh": "離開前請交回通行證。",
+          "highlight": "turn in"
+        }
+      ],
+      "number": 18,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn in on yourself",
+      "titleZh": "變得封閉,不再與其他人分享感受或接觸",
+      "titleEn": "turn in on yourself",
+      "descriptionZh": "變得封閉,不再與其他人分享感受或接觸",
+      "descriptionEn": "He turned in on himself after the accident.",
+      "examples": [
+        {
+          "en": "He turned in on himself after the accident.",
+          "zh": "意外後,他變得十分封閉。",
+          "highlight": "turned in on"
+        }
+      ],
+      "number": 19,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn inside out turn something inside out",
+      "titleZh": "內外反轉;把某事物翻至內面朝外",
+      "titleEn": "turn inside out turn something inside out",
+      "descriptionZh": "內外反轉;把某事物翻至內面朝外",
+      "descriptionEn": "The wind turned my umbrella inside out.",
+      "examples": [
+        {
+          "en": "The wind turned my umbrella inside out.",
+          "zh": "大風把我的雨傘吹至內外反轉。",
+          "highlight": "turned my umbrella inside out"
+        }
+      ],
+      "number": 20,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn somebody/something inside out",
+      "titleZh": "完全打亂或徹底改變某人的生活或世界",
+      "titleEn": "turn somebody/something inside out",
+      "descriptionZh": "完全打亂或徹底改變某人的生活或世界",
+      "descriptionEn": "The news turned her world inside out.",
+      "examples": [
+        {
+          "en": "The news turned her world inside out.",
+          "zh": "這個消息徹底打亂了她的世界。",
+          "highlight": "turned her world inside out"
+        }
+      ],
+      "number": 21,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn into something turn somebody/something into something",
+      "titleZh": "變成某事物;把某人或某事物變成另一事物",
+      "titleEn": "turn into something turn somebody/something into something",
+      "descriptionZh": "變成某事物;把某人或某事物變成另一事物",
+      "descriptionEn": "The empty room was turned into a library.",
+      "examples": [
+        {
+          "en": "The empty room was turned into a library.",
+          "zh": "空置房間被改建成圖書館。",
+          "highlight": "turned into"
+        }
+      ],
+      "number": 22,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TURN 片語動詞的實際用途",
+    "labelEn": "TURN Phrasal Verbs in Use",
+    "summaryZh": "TURN 表達可以描述轉身、折返、把某物轉向一旁,以及把某物內外反轉。；turn against 和 turn away from 可以描述人們開始反對、不再信任或停止支持某人或某事物。；你可以 turn down 一項提議、turn away 訪客,或 turn in 已完成的工作。；turn around 可以描述生意或情況好轉;turn into 則可以描述某事物變成另一事物。；turn in on yourself 和 turn somebody’s world inside out 可以描述一個人的感受和日常生活出現重大改變。",
+    "summaryEn": "TURN expressions can describe turning about, turning back, moving something aside or turning something inside out. Turn against and turn away from help you explain when people begin to oppose, distrust or stop supporting somebody or something. You can turn down an offer, turn away visitors or turn in a completed piece of work. Turn around can describe a business or situation improving, while turn into describes one thing becoming something different. Turn in on yourself and turn somebody’s world inside out describe serious changes in a person’s feelings and daily life.",
+    "contextsZh": [
+      "清楚描述方向和移動",
+      "描述立場和支持的改變",
+      "談論決定和進場安排",
+      "描述好轉和重大改變",
+      "表達強烈的情緒影響"
+    ],
+    "contextsEn": [
+      "Talk clearly about direction and movement",
+      "Describe changing opinions and support",
+      "Talk about decisions and access",
+      "Describe improvement and major change",
+      "Express strong emotional effects"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TURN 表達。",
+    "formalEn": "Read the whole sentence and choose the TURN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "turn about",
+    "fixedHighlight": "turn about",
+    "fixedZh": "閱讀整句,選出意思相同的 TURN 表達。",
+    "fixedEn": "Read the whole sentence and choose the TURN expression that gives the same meaning.",
+    "correct": "turned about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、結果和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；around 和 round 有時可以表達相同意思。Useful Sentence Forms 常用句式The TURN expression can appear in different parts of a sentence. Extra information mayexplain the time, reason or method, but it is not automatically part of the fixed expression.TURN 表達可以出現在句子的不同位置。額外資料可以解釋時間、原因或方法,但不一定是固定表達的一部分。；我們決定折返。；你可能需要把音樂聲量調低。；她的舊朋友開始與她為敵。；經濟正在逐漸好轉。)The new manager has turned the shop round.(新經理已令店舖轉危為安。；數百名球迷被拒絕進場。；你為甚麼拒絕那項提議?)Turn the radio down.(把收音機的聲量調低。；把自己封閉起來並不能解決問題。；拒絕那項提議的決定令我們感到意外。；他竟然反過來責怪我們。；(他們透過更改餐牌,令咖啡店的情況好轉。)The core expression is turn the café around. By changing the menu only explains how theyachieved it.核心表達是 turn the café around。by changing the menu 只是解釋他們如何做到。",
+    "variableEn": "Keep the same people, things, time, result and meaning. When using it, him, her or them, follow these examples: turn it down turn him away turn them back turn her in Around and round can sometimes express the same meaning: turn the business around turn the business round After to We decided to turn back. After a modal verb You may need to turn the music down. As an ordinary statement Her old friends turned against her. In an ongoing or completed action The economy is turning around. In a passive sentence Hundreds of fans were turned away. In a question or command Why did you turn the offer down? At the beginning with an -ing form Turning in on yourself will not solve the problem. After a noun The decision to turn down the offer surprised us. With turn around and + action He turned around and blamed us. With an optional method They turned the café around by changing the menu.",
+    "variableItemsZh": [
+      "turn about",
+      "turn against somebody/something turn somebody against somebody/something",
+      "turn around and say/do something",
+      "turn around/round turn something around/round",
+      "turn something around/round",
+      "turn something aside",
+      "turn somebody away",
+      "turn away from something turn somebody away from something",
+      "turn back turn somebody/something back",
+      "turn down",
+      "turn somebody/something down",
+      "turn the clock back",
+      "turn something down",
+      "turn in",
+      "turn in a performance",
+      "turn in",
+      "turn somebody in turn yourself in",
+      "turn something in",
+      "turn in on yourself",
+      "turn inside out turn something inside out",
+      "turn somebody/something inside out",
+      "turn into something turn somebody/something into something"
+    ],
+    "variableItemsEn": [
+      "turn about",
+      "turn against somebody/something turn somebody against somebody/something",
+      "turn around and say/do something",
+      "turn around/round turn something around/round",
+      "turn something around/round",
+      "turn something aside",
+      "turn somebody away",
+      "turn away from something turn somebody away from something",
+      "turn back turn somebody/something back",
+      "turn down",
+      "turn somebody/something down",
+      "turn the clock back",
+      "turn something down",
+      "turn in",
+      "turn in a performance",
+      "turn in",
+      "turn somebody in turn yourself in",
+      "turn something in",
+      "turn in on yourself",
+      "turn inside out turn something inside out",
+      "turn somebody/something inside out",
+      "turn into something turn somebody/something into something"
+    ],
+    "forms": [
+      {
+        "formZh": "轉身;轉向相反方向",
+        "formEn": "turn about",
+        "exampleZh": "她轉過身,走進廚房。",
+        "exampleEn": "She turned about and walked into the kitchen.",
+        "highlight": "turned about"
+      },
+      {
+        "formZh": "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+        "formEn": "turn against somebody/something turn somebody against somebody/something",
+        "exampleZh": "幾位朋友開始與他為敵。",
+        "exampleEn": "Several friends turned against him.",
+        "highlight": "turned against"
+      },
+      {
+        "formZh": "突然或出乎意料地說或做某事,尤其是作出相反反應",
+        "formEn": "turn around and say/do something",
+        "exampleZh": "他竟然反過來責怪我們。",
+        "exampleEn": "He turned around and blamed us.",
+        "highlight": "turned around"
+      },
+      {
+        "formZh": "情況好轉;令失敗或困難的情況好轉",
+        "formEn": "turn around/round turn something around/round",
+        "exampleZh": "這盤生意終於開始好轉。",
+        "exampleEn": "The business is finally turning around.",
+        "highlight": "turning around"
+      },
+      {
+        "formZh": "改變某人的說話或意思,使其看來完全不同",
+        "formEn": "turn something around/round",
+        "exampleZh": "你總是扭曲我的說話。",
+        "exampleEn": "You always turn my words around.",
+        "highlight": "turn my words around"
+      },
+      {
+        "formZh": "把頭、臉或其他事物轉向一旁",
+        "formEn": "turn something aside",
+        "exampleZh": "她把頭轉向一旁。",
+        "exampleEn": "She turned her head aside.",
+        "highlight": "turned"
+      },
+      {
+        "formZh": "拒絕某人進入、參加或接受服務",
+        "formEn": "turn somebody away",
+        "exampleZh": "職員拒絕了幾名訪客進場。",
+        "exampleEn": "The staff turned several visitors away.",
+        "highlight": "turned several visitors away"
+      },
+      {
+        "formZh": "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+        "formEn": "turn away from something turn somebody away from something",
+        "exampleZh": "許多選民正逐漸不再支持該政黨。",
+        "exampleEn": "Many voters are turning away from the party.",
+        "highlight": "turning away from"
+      },
+      {
+        "formZh": "折返;使某人或某事物返回",
+        "formEn": "turn back turn somebody/something back",
+        "exampleZh": "天氣轉差,所以我們折返。",
+        "exampleEn": "The weather became worse, so we turned back.",
+        "highlight": "turned back"
+      },
+      {
+        "formZh": "嘴角向下,顯示不開心或不滿",
+        "formEn": "turn down",
+        "exampleZh": "她的嘴角向下彎。",
+        "exampleEn": "Her mouth turned down at the corners.",
+        "highlight": "turned down"
+      },
+      {
+        "formZh": "拒絕某人、邀請、申請、建議或提議",
+        "formEn": "turn somebody/something down",
+        "exampleZh": "他拒絕了邀請。",
+        "exampleEn": "He turned down the invitation.",
+        "highlight": "turned down"
+      },
+      {
+        "formZh": "回到較早的情況、制度或生活方式",
+        "formEn": "turn the clock back",
+        "exampleZh": "我們不能回到從前。",
+        "exampleEn": "We cannot turn the clock back.",
+        "highlight": "turn the clock back"
+      },
+      {
+        "formZh": "把聲量、溫度、光度或其他水平調低",
+        "formEn": "turn something down",
+        "exampleZh": "請把電視聲量調低。",
+        "exampleEn": "Please turn the television down.",
+        "highlight": "turn the television down"
+      },
+      {
+        "formZh": "上床睡覺",
+        "formEn": "turn in",
+        "exampleZh": "我累了,所以準備上床睡覺。",
+        "exampleEn": "I am tired, so I am going to turn in.",
+        "highlight": "turn in"
+      },
+      {
+        "formZh": "交出或呈現某種表現",
+        "formEn": "turn in a performance",
+        "exampleZh": "球隊交出了出色的表現。",
+        "exampleEn": "The team turned in an excellent performance.",
+        "highlight": "turned in"
+      },
+      {
+        "formZh": "腳或腳趾向內彎",
+        "formEn": "turn in",
+        "exampleZh": "他走路時雙腳會向內彎。",
+        "exampleEn": "His feet turn in when he walks.",
+        "highlight": "turn in"
+      },
+      {
+        "formZh": "向警方或有關當局舉報某人;向警方自首",
+        "formEn": "turn somebody in turn yourself in",
+        "exampleZh": "那名司機向警方自首。",
+        "exampleEn": "The driver turned himself in to the police.",
+        "highlight": "turned himself in"
+      },
+      {
+        "formZh": "提交或交回某事物",
+        "formEn": "turn something in",
+        "exampleZh": "離開前請交回通行證。",
+        "exampleEn": "Please turn in your pass before leaving.",
+        "highlight": "turn in"
+      },
+      {
+        "formZh": "變得封閉,不再與其他人分享感受或接觸",
+        "formEn": "turn in on yourself",
+        "exampleZh": "意外後,他變得十分封閉。",
+        "exampleEn": "He turned in on himself after the accident.",
+        "highlight": "turned in on"
+      },
+      {
+        "formZh": "內外反轉;把某事物翻至內面朝外",
+        "formEn": "turn inside out turn something inside out",
+        "exampleZh": "大風把我的雨傘吹至內外反轉。",
+        "exampleEn": "The wind turned my umbrella inside out.",
+        "highlight": "turned my umbrella inside out"
+      },
+      {
+        "formZh": "完全打亂或徹底改變某人的生活或世界",
+        "formEn": "turn somebody/something inside out",
+        "exampleZh": "這個消息徹底打亂了她的世界。",
+        "exampleEn": "The news turned her world inside out.",
+        "highlight": "turned her world inside out"
+      },
+      {
+        "formZh": "變成某事物;把某人或某事物變成另一事物",
+        "formEn": "turn into something turn somebody/something into something",
+        "exampleZh": "空置房間被改建成圖書館。",
+        "exampleEn": "The empty room was turned into a library.",
+        "highlight": "turned into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "轉身;轉向相反方向",
+      "titleEn": "turn about",
+      "formula": "turn about",
+      "highlight": "turn about",
+      "descriptionZh": "轉身;轉向相反方向",
+      "descriptionEn": "She turned about and walked into the kitchen.",
+      "examples": [
+        {
+          "en": "She turned about and walked into the kitchen.",
+          "zh": "她轉過身,走進廚房。",
+          "highlight": "turned about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+      "titleEn": "turn against somebody/something turn somebody against somebody/something",
+      "formula": "turn against somebody/something turn somebody against somebody/something",
+      "highlight": "turn against somebody/something turn somebody against somebody/something",
+      "descriptionZh": "開始反對或敵視某人或某事物;令某人反對或敵視另一方",
+      "descriptionEn": "Several friends turned against him.",
+      "examples": [
+        {
+          "en": "Several friends turned against him.",
+          "zh": "幾位朋友開始與他為敵。",
+          "highlight": "turned against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "突然或出乎意料地說或做某事,尤其是作出相反反應",
+      "titleEn": "turn around and say/do something",
+      "formula": "turn around and say/do something",
+      "highlight": "turn around and say/do something",
+      "descriptionZh": "突然或出乎意料地說或做某事,尤其是作出相反反應",
+      "descriptionEn": "He turned around and blamed us.",
+      "examples": [
+        {
+          "en": "He turned around and blamed us.",
+          "zh": "他竟然反過來責怪我們。",
+          "highlight": "turned around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "情況好轉;令失敗或困難的情況好轉",
+      "titleEn": "turn around/round turn something around/round",
+      "formula": "turn around/round turn something around/round",
+      "highlight": "turn around/round turn something around/round",
+      "descriptionZh": "情況好轉;令失敗或困難的情況好轉",
+      "descriptionEn": "The business is finally turning around.",
+      "examples": [
+        {
+          "en": "The business is finally turning around.",
+          "zh": "這盤生意終於開始好轉。",
+          "highlight": "turning around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "改變某人的說話或意思,使其看來完全不同",
+      "titleEn": "turn something around/round",
+      "formula": "turn something around/round",
+      "highlight": "turn something around/round",
+      "descriptionZh": "改變某人的說話或意思,使其看來完全不同",
+      "descriptionEn": "You always turn my words around.",
+      "examples": [
+        {
+          "en": "You always turn my words around.",
+          "zh": "你總是扭曲我的說話。",
+          "highlight": "turn my words around"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把頭、臉或其他事物轉向一旁",
+      "titleEn": "turn something aside",
+      "formula": "turn something aside",
+      "highlight": "turn something aside",
+      "descriptionZh": "把頭、臉或其他事物轉向一旁",
+      "descriptionEn": "She turned her head aside.",
+      "examples": [
+        {
+          "en": "She turned her head aside.",
+          "zh": "她把頭轉向一旁。",
+          "highlight": "turned"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "拒絕某人進入、參加或接受服務",
+      "titleEn": "turn somebody away",
+      "formula": "turn somebody away",
+      "highlight": "turn somebody away",
+      "descriptionZh": "拒絕某人進入、參加或接受服務",
+      "descriptionEn": "The staff turned several visitors away.",
+      "examples": [
+        {
+          "en": "The staff turned several visitors away.",
+          "zh": "職員拒絕了幾名訪客進場。",
+          "highlight": "turned several visitors away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+      "titleEn": "turn away from something turn somebody away from something",
+      "formula": "turn away from something turn somebody away from something",
+      "highlight": "turn away from something turn somebody away from something",
+      "descriptionZh": "不再支持、使用或相信某事物;令某人不再支持或使用某事物",
+      "descriptionEn": "Many voters are turning away from the party.",
+      "examples": [
+        {
+          "en": "Many voters are turning away from the party.",
+          "zh": "許多選民正逐漸不再支持該政黨。",
+          "highlight": "turning away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "折返;使某人或某事物返回",
+      "titleEn": "turn back turn somebody/something back",
+      "formula": "turn back turn somebody/something back",
+      "highlight": "turn back turn somebody/something back",
+      "descriptionZh": "折返;使某人或某事物返回",
+      "descriptionEn": "The weather became worse, so we turned back.",
+      "examples": [
+        {
+          "en": "The weather became worse, so we turned back.",
+          "zh": "天氣轉差,所以我們折返。",
+          "highlight": "turned back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "嘴角向下,顯示不開心或不滿",
+      "titleEn": "turn down",
+      "formula": "turn down",
+      "highlight": "turn down",
+      "descriptionZh": "嘴角向下,顯示不開心或不滿",
+      "descriptionEn": "Her mouth turned down at the corners.",
+      "examples": [
+        {
+          "en": "Her mouth turned down at the corners.",
+          "zh": "她的嘴角向下彎。",
+          "highlight": "turned down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 11,
+      "titleZh": "拒絕某人、邀請、申請、建議或提議",
+      "titleEn": "turn somebody/something down",
+      "formula": "turn somebody/something down",
+      "highlight": "turn somebody/something down",
+      "descriptionZh": "拒絕某人、邀請、申請、建議或提議",
+      "descriptionEn": "He turned down the invitation.",
+      "examples": [
+        {
+          "en": "He turned down the invitation.",
+          "zh": "他拒絕了邀請。",
+          "highlight": "turned down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 12,
+      "titleZh": "回到較早的情況、制度或生活方式",
+      "titleEn": "turn the clock back",
+      "formula": "turn the clock back",
+      "highlight": "turn the clock back",
+      "descriptionZh": "回到較早的情況、制度或生活方式",
+      "descriptionEn": "We cannot turn the clock back.",
+      "examples": [
+        {
+          "en": "We cannot turn the clock back.",
+          "zh": "我們不能回到從前。",
+          "highlight": "turn the clock back"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 13,
+      "titleZh": "把聲量、溫度、光度或其他水平調低",
+      "titleEn": "turn something down",
+      "formula": "turn something down",
+      "highlight": "turn something down",
+      "descriptionZh": "把聲量、溫度、光度或其他水平調低",
+      "descriptionEn": "Please turn the television down.",
+      "examples": [
+        {
+          "en": "Please turn the television down.",
+          "zh": "請把電視聲量調低。",
+          "highlight": "turn the television down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 14,
+      "titleZh": "上床睡覺",
+      "titleEn": "turn in",
+      "formula": "turn in",
+      "highlight": "turn in",
+      "descriptionZh": "上床睡覺",
+      "descriptionEn": "I am tired, so I am going to turn in.",
+      "examples": [
+        {
+          "en": "I am tired, so I am going to turn in.",
+          "zh": "我累了,所以準備上床睡覺。",
+          "highlight": "turn in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 15,
+      "titleZh": "交出或呈現某種表現",
+      "titleEn": "turn in a performance",
+      "formula": "turn in a performance",
+      "highlight": "turn in a performance",
+      "descriptionZh": "交出或呈現某種表現",
+      "descriptionEn": "The team turned in an excellent performance.",
+      "examples": [
+        {
+          "en": "The team turned in an excellent performance.",
+          "zh": "球隊交出了出色的表現。",
+          "highlight": "turned in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 16,
+      "titleZh": "腳或腳趾向內彎",
+      "titleEn": "turn in",
+      "formula": "turn in",
+      "highlight": "turn in",
+      "descriptionZh": "腳或腳趾向內彎",
+      "descriptionEn": "His feet turn in when he walks.",
+      "examples": [
+        {
+          "en": "His feet turn in when he walks.",
+          "zh": "他走路時雙腳會向內彎。",
+          "highlight": "turn in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 17,
+      "titleZh": "向警方或有關當局舉報某人;向警方自首",
+      "titleEn": "turn somebody in turn yourself in",
+      "formula": "turn somebody in turn yourself in",
+      "highlight": "turn somebody in turn yourself in",
+      "descriptionZh": "向警方或有關當局舉報某人;向警方自首",
+      "descriptionEn": "The driver turned himself in to the police.",
+      "examples": [
+        {
+          "en": "The driver turned himself in to the police.",
+          "zh": "那名司機向警方自首。",
+          "highlight": "turned himself in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 18,
+      "titleZh": "提交或交回某事物",
+      "titleEn": "turn something in",
+      "formula": "turn something in",
+      "highlight": "turn something in",
+      "descriptionZh": "提交或交回某事物",
+      "descriptionEn": "Please turn in your pass before leaving.",
+      "examples": [
+        {
+          "en": "Please turn in your pass before leaving.",
+          "zh": "離開前請交回通行證。",
+          "highlight": "turn in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 19,
+      "titleZh": "變得封閉,不再與其他人分享感受或接觸",
+      "titleEn": "turn in on yourself",
+      "formula": "turn in on yourself",
+      "highlight": "turn in on yourself",
+      "descriptionZh": "變得封閉,不再與其他人分享感受或接觸",
+      "descriptionEn": "He turned in on himself after the accident.",
+      "examples": [
+        {
+          "en": "He turned in on himself after the accident.",
+          "zh": "意外後,他變得十分封閉。",
+          "highlight": "turned in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 20,
+      "titleZh": "內外反轉;把某事物翻至內面朝外",
+      "titleEn": "turn inside out turn something inside out",
+      "formula": "turn inside out turn something inside out",
+      "highlight": "turn inside out turn something inside out",
+      "descriptionZh": "內外反轉;把某事物翻至內面朝外",
+      "descriptionEn": "The wind turned my umbrella inside out.",
+      "examples": [
+        {
+          "en": "The wind turned my umbrella inside out.",
+          "zh": "大風把我的雨傘吹至內外反轉。",
+          "highlight": "turned my umbrella inside out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 21,
+      "titleZh": "完全打亂或徹底改變某人的生活或世界",
+      "titleEn": "turn somebody/something inside out",
+      "formula": "turn somebody/something inside out",
+      "highlight": "turn somebody/something inside out",
+      "descriptionZh": "完全打亂或徹底改變某人的生活或世界",
+      "descriptionEn": "The news turned her world inside out.",
+      "examples": [
+        {
+          "en": "The news turned her world inside out.",
+          "zh": "這個消息徹底打亂了她的世界。",
+          "highlight": "turned her world inside out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 22,
+      "titleZh": "變成某事物;把某人或某事物變成另一事物",
+      "titleEn": "turn into something turn somebody/something into something",
+      "formula": "turn into something turn somebody/something into something",
+      "highlight": "turn into something turn somebody/something into something",
+      "descriptionZh": "變成某事物;把某人或某事物變成另一事物",
+      "descriptionEn": "The empty room was turned into a library.",
+      "examples": [
+        {
+          "en": "The empty room was turned into a library.",
+          "zh": "空置房間被改建成圖書館。",
+          "highlight": "turned into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述方向和移動",
+      "titleEn": "Talk clearly about direction and movement",
+      "zh": "TURN 表達可以描述轉身、折返、把某物轉向一旁,以及把某物內外反轉。",
+      "en": "TURN expressions can describe turning about, turning back, moving something aside or turning something inside out."
+    },
+    {
+      "titleZh": "描述立場和支持的改變",
+      "titleEn": "Describe changing opinions and support",
+      "zh": "turn against 和 turn away from 可以描述人們開始反對、不再信任或停止支持某人或某事物。",
+      "en": "Turn against and turn away from help you explain when people begin to oppose, distrust or stop supporting somebody or something."
+    },
+    {
+      "titleZh": "談論決定和進場安排",
+      "titleEn": "Talk about decisions and access",
+      "zh": "你可以 turn down 一項提議、turn away 訪客,或 turn in 已完成的工作。",
+      "en": "You can turn down an offer, turn away visitors or turn in a completed piece of work."
+    },
+    {
+      "titleZh": "描述好轉和重大改變",
+      "titleEn": "Describe improvement and major change",
+      "zh": "turn around 可以描述生意或情況好轉;turn into 則可以描述某事物變成另一事物。",
+      "en": "Turn around can describe a business or situation improving, while turn into describes one thing becoming something different."
+    },
+    {
+      "titleZh": "表達強烈的情緒影響",
+      "titleEn": "Express strong emotional effects",
+      "zh": "turn in on yourself 和 turn somebody’s world inside out 可以描述一個人的感受和日常生活出現重大改變。",
+      "en": "Turn in on yourself and turn somebody’s world inside out describe serious changes in a person’s feelings and daily life."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述方向和移動",
+      "描述立場和支持的改變",
+      "談論決定和進場安排",
+      "描述好轉和重大改變",
+      "表達強烈的情緒影響"
+    ],
+    "contextsEn": [
+      "Talk clearly about direction and movement",
+      "Describe changing opinions and support",
+      "Talk about decisions and access",
+      "Describe improvement and major change",
+      "Express strong emotional effects"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述方向和移動",
+        "titleEn": "Talk clearly about direction and movement",
+        "zh": "TURN 表達可以描述轉身、折返、把某物轉向一旁,以及把某物內外反轉。",
+        "en": "TURN expressions can describe turning about, turning back, moving something aside or turning something inside out.",
+        "examples": [
+          {
+            "en": "She turned about and walked into the kitchen.",
+            "zh": "她轉過身,走進廚房。",
+            "highlight": "turned about"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述立場和支持的改變",
+        "titleEn": "Describe changing opinions and support",
+        "zh": "turn against 和 turn away from 可以描述人們開始反對、不再信任或停止支持某人或某事物。",
+        "en": "Turn against and turn away from help you explain when people begin to oppose, distrust or stop supporting somebody or something.",
+        "examples": [
+          {
+            "en": "Several friends turned against him.",
+            "zh": "幾位朋友開始與他為敵。",
+            "highlight": "turned against"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論決定和進場安排",
+        "titleEn": "Talk about decisions and access",
+        "zh": "你可以 turn down 一項提議、turn away 訪客,或 turn in 已完成的工作。",
+        "en": "You can turn down an offer, turn away visitors or turn in a completed piece of work.",
+        "examples": [
+          {
+            "en": "He turned around and blamed us.",
+            "zh": "他竟然反過來責怪我們。",
+            "highlight": "turned around"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述好轉和重大改變",
+        "titleEn": "Describe improvement and major change",
+        "zh": "turn around 可以描述生意或情況好轉;turn into 則可以描述某事物變成另一事物。",
+        "en": "Turn around can describe a business or situation improving, while turn into describes one thing becoming something different.",
+        "examples": [
+          {
+            "en": "The business is finally turning around.",
+            "zh": "這盤生意終於開始好轉。",
+            "highlight": "turning around"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達強烈的情緒影響",
+        "titleEn": "Express strong emotional effects",
+        "zh": "turn in on yourself 和 turn somebody’s world inside out 可以描述一個人的感受和日常生活出現重大改變。",
+        "en": "Turn in on yourself and turn somebody’s world inside out describe serious changes in a person’s feelings and daily life.",
+        "examples": [
+          {
+            "en": "You always turn my words around.",
+            "zh": "你總是扭曲我的說話。",
+            "highlight": "turn my words around"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TURN 表達。",
+      "titleEn": "Read the whole sentence and choose the TURN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TURN 表達。",
+      "en": "Read the whole sentence and choose the TURN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、結果和意思。",
+      "titleEn": "Keep the same people, things, time, result and meaning.",
+      "zh": "保留原句中的人物、事物、時間、結果和意思。",
+      "en": "Keep the same people, things, time, result and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, follow these examples: turn it down turn him away turn them back turn her in.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, follow these examples: turn it down turn him away turn them back turn her in"
+    },
+    {
+      "titleZh": "around 和 round 有時可以表達相同意思。Useful Sentence Forms 常用句式The TURN expression can appear in different parts of a sentence. Extra information mayexplain the time, reason or method, but it is not automatically part of the fixed expression.TURN 表達可以出現在句子的不同位置。額外資料可以解釋時間、原因或方法,但不一定是固定表達的一部分。",
+      "titleEn": "Around and round can sometimes express the same meaning: turn the business around turn the business round.",
+      "zh": "around 和 round 有時可以表達相同意思。Useful Sentence Forms 常用句式The TURN expression can appear in different parts of a sentence. Extra information mayexplain the time, reason or method, but it is not automatically part of the fixed expression.TURN 表達可以出現在句子的不同位置。額外資料可以解釋時間、原因或方法,但不一定是固定表達的一部分。",
+      "en": "Around and round can sometimes express the same meaning: turn the business around turn the business round"
+    },
+    {
+      "titleZh": "我們決定折返。",
+      "titleEn": "After to We decided to turn back.",
+      "zh": "我們決定折返。",
+      "en": "After to We decided to turn back."
+    },
+    {
+      "titleZh": "你可能需要把音樂聲量調低。",
+      "titleEn": "After a modal verb You may need to turn the music down.",
+      "zh": "你可能需要把音樂聲量調低。",
+      "en": "After a modal verb You may need to turn the music down."
+    },
+    {
+      "titleZh": "她的舊朋友開始與她為敵。",
+      "titleEn": "As an ordinary statement Her old friends turned against her.",
+      "zh": "她的舊朋友開始與她為敵。",
+      "en": "As an ordinary statement Her old friends turned against her."
+    },
+    {
+      "titleZh": "經濟正在逐漸好轉。)The new manager has turned the shop round.(新經理已令店舖轉危為安。",
+      "titleEn": "In an ongoing or completed action The economy is turning around.",
+      "zh": "經濟正在逐漸好轉。)The new manager has turned the shop round.(新經理已令店舖轉危為安。",
+      "en": "In an ongoing or completed action The economy is turning around."
+    },
+    {
+      "titleZh": "數百名球迷被拒絕進場。",
+      "titleEn": "In a passive sentence Hundreds of fans were turned away.",
+      "zh": "數百名球迷被拒絕進場。",
+      "en": "In a passive sentence Hundreds of fans were turned away."
+    },
+    {
+      "titleZh": "你為甚麼拒絕那項提議?)Turn the radio down.(把收音機的聲量調低。",
+      "titleEn": "In a question or command Why did you turn the offer down?.",
+      "zh": "你為甚麼拒絕那項提議?)Turn the radio down.(把收音機的聲量調低。",
+      "en": "In a question or command Why did you turn the offer down?"
+    },
+    {
+      "titleZh": "把自己封閉起來並不能解決問題。",
+      "titleEn": "At the beginning with an -ing form Turning in on yourself will not solve the problem.",
+      "zh": "把自己封閉起來並不能解決問題。",
+      "en": "At the beginning with an -ing form Turning in on yourself will not solve the problem."
+    },
+    {
+      "titleZh": "拒絕那項提議的決定令我們感到意外。",
+      "titleEn": "After a noun The decision to turn down the offer surprised us.",
+      "zh": "拒絕那項提議的決定令我們感到意外。",
+      "en": "After a noun The decision to turn down the offer surprised us."
+    },
+    {
+      "titleZh": "他竟然反過來責怪我們。",
+      "titleEn": "With turn around and + action He turned around and blamed us.",
+      "zh": "他竟然反過來責怪我們。",
+      "en": "With turn around and + action He turned around and blamed us."
+    },
+    {
+      "titleZh": "(他們透過更改餐牌,令咖啡店的情況好轉。)The core expression is turn the café around. By changing the menu only explains how theyachieved it.核心表達是 turn the café around。by changing the menu 只是解釋他們如何做到。",
+      "titleEn": "With an optional method They turned the café around by changing the menu.",
+      "zh": "(他們透過更改餐牌,令咖啡店的情況好轉。)The core expression is turn the café around. By changing the menu only explains how theyachieved it.核心表達是 turn the café around。by changing the menu 只是解釋他們如何做到。",
+      "en": "With an optional method They turned the café around by changing the menu."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TURN 動詞片語句子改寫練習",
+    "titleEn": "TURN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TURN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TURN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-206-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Please make the television quieter; the baby is sleeping.",
+      "promptZh": "請把電視聲量調低;嬰兒正在睡覺。",
+      "starter": "Please",
+      "answer": "Please turn the television down; the baby is sleeping.",
+      "answerZh": "請把電視聲量調低;嬰兒正在睡覺。",
+      "highlight": "turn",
+      "targetForm": "turn something down",
+      "targetMeaningZh": "把聲量或其他水平調低"
+    },
+    {
+      "id": "phrasal-verb-206-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The path was flooded, so we returned to the village.",
+      "promptZh": "小路被水淹浸,所以我們返回村莊。",
+      "starter": "The",
+      "answer": "The path was flooded, so we turned back to the village.",
+      "answerZh": "小路被水淹浸,所以我們折返村莊。",
+      "highlight": "turned back",
+      "targetForm": "turn back",
+      "targetMeaningZh": "折返"
+    },
+    {
+      "id": "phrasal-verb-206-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Ella refused the job offer because the working hours were too long.",
+      "promptZh": "埃拉因為工作時間太長,所以拒絕了那份工作。",
+      "starter": "Ella",
+      "answer": "Ella turned down the job offer because the working hours were too long.",
+      "answerZh": "埃拉因為工作時間太長,所以拒絕了那份工作。",
+      "highlight": "turned down",
+      "targetForm": "turn something down",
+      "targetMeaningZh": "拒絕某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The wind made my umbrella change so that the inner side faced out.",
+      "promptZh": "大風令我的雨傘內外反轉。",
+      "starter": "The",
+      "answer": "The wind turned my umbrella inside out.",
+      "answerZh": "大風把我的雨傘吹至內外反轉。",
+      "highlight": "turned",
+      "targetForm": "turn something inside out",
+      "targetMeaningZh": "把某事物內外反轉"
+    },
+    {
+      "id": "phrasal-verb-206-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the argument, several old friends stopped supporting Noah and became unfriendly to him.",
+      "promptZh": "爭執後,幾位舊朋友不再支持諾亞,並開始對他不友善。",
+      "starter": "After",
+      "answer": "After the argument, several old friends turned against Noah.",
+      "answerZh": "爭執後,幾位舊朋友開始與諾亞為敵。",
+      "highlight": "turned against",
+      "targetForm": "turn against somebody",
+      "targetMeaningZh": "開始反對或敵視某人"
+    },
+    {
+      "id": "phrasal-verb-206-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I am tired, so I am going to bed now.",
+      "promptZh": "我累了,所以現在準備上床睡覺。",
+      "starter": "I",
+      "answer": "I am tired, so I am going to turn in now.",
+      "answerZh": "我累了,所以現在準備上床睡覺。",
+      "highlight": "turn in",
+      "targetForm": "turn in",
+      "targetMeaningZh": "上床睡覺"
+    },
+    {
+      "id": "phrasal-verb-206-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The warm room changed the ice into water.",
+      "promptZh": "溫暖的房間令冰變成水。",
+      "starter": "The",
+      "answer": "The warm room turned the ice into water.",
+      "answerZh": "溫暖的房間令冰變成水。",
+      "highlight": "turned",
+      "targetForm": "turn something into something",
+      "targetMeaningZh": "把某事物變成另一事物"
+    },
+    {
+      "id": "phrasal-verb-206-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The hall was full, so the staff refused entry to many visitors.",
+      "promptZh": "大堂已滿,所以職員拒絕許多訪客進場。",
+      "starter": "The",
+      "answer": "The hall was full, so the staff turned many visitors away.",
+      "answerZh": "大堂已滿,所以職員拒絕許多訪客進場。",
+      "highlight": "turned",
+      "targetForm": "turn somebody away",
+      "targetMeaningZh": "拒絕某人進入"
+    },
+    {
+      "id": "phrasal-verb-206-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Business is slowly improving after a difficult year.",
+      "promptZh": "經歷困難的一年後,生意正逐漸好轉。",
+      "starter": "Business",
+      "answer": "Business is slowly turning around after a difficult year.",
+      "answerZh": "經歷困難的一年後,生意正逐漸好轉。",
+      "highlight": "turning around",
+      "targetForm": "turn around",
+      "targetMeaningZh": "情況逐漸好轉"
+    },
+    {
+      "id": "phrasal-verb-206-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Please give your library pass back before you leave.",
+      "promptZh": "離開前請交回圖書館通行證。",
+      "starter": "Please",
+      "answer": "Please turn in your library pass before you leave.",
+      "answerZh": "離開前請交回圖書館通行證。",
+      "highlight": "turn in",
+      "targetForm": "turn something in",
+      "targetMeaningZh": "提交或交回某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "She suddenly faced the opposite direction and walked into the kitchen.",
+      "promptZh": "她突然轉向相反方向,走進廚房。",
+      "starter": "She",
+      "answer": "She suddenly turned about and walked into the kitchen.",
+      "answerZh": "她突然轉過身,走進廚房。",
+      "highlight": "turned about",
+      "targetForm": "turn about",
+      "targetMeaningZh": "轉身;轉向相反方向"
+    },
+    {
+      "id": "phrasal-verb-206-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "What will we do if he suddenly says that the mistake was ours?",
+      "promptZh": "如果他突然說錯誤是我們造成的,我們可以怎樣做?",
+      "starter": "What",
+      "answer": "What will we do if he turns around and says that the mistake was ours?",
+      "answerZh": "如果他竟然反過來說錯誤是我們造成的,我們可以怎樣做?",
+      "highlight": "turns around and",
+      "targetForm": "turn around and say something",
+      "targetMeaningZh": "突然或出乎意料地說某事"
+    },
+    {
+      "id": "phrasal-verb-206-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "When the photographer moved closer, Ava moved her face to one side.",
+      "promptZh": "攝影師走近時,艾娃把臉轉向一旁。",
+      "starter": "When",
+      "answer": "When the photographer moved closer, Ava turned her face aside.",
+      "answerZh": "攝影師走近時,艾娃把臉轉向一旁。",
+      "highlight": "turned",
+      "targetForm": "turn something aside",
+      "targetMeaningZh": "把某事物轉向一旁"
+    },
+    {
+      "id": "phrasal-verb-206-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "His mouth began to curve down at the corners when he heard the news.",
+      "promptZh": "他聽到消息時,嘴角開始向下彎。",
+      "starter": "His",
+      "answer": "His mouth began to turn down at the corners when he heard the news.",
+      "answerZh": "他聽到消息時,嘴角開始向下彎。",
+      "highlight": "turn",
+      "targetForm": "turn down",
+      "targetMeaningZh": "嘴角向下彎"
+    },
+    {
+      "id": "phrasal-verb-206-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The young singer gave an excellent performance in the final.",
+      "promptZh": "那名年輕歌手在決賽中交出了出色的表現。",
+      "starter": "The",
+      "answer": "The young singer turned in an excellent performance in the final.",
+      "answerZh": "那名年輕歌手在決賽中交出了出色的表現。",
+      "highlight": "turned in",
+      "targetForm": "turn in a performance",
+      "targetMeaningZh": "交出或呈現某種表現"
+    },
+    {
+      "id": "phrasal-verb-206-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The child’s feet point towards each other when she walks.",
+      "promptZh": "那名孩子走路時,雙腳會向內彎。",
+      "starter": "The",
+      "answer": "The child’s feet turn in when she walks.",
+      "answerZh": "那名孩子走路時,雙腳會向內彎。",
+      "highlight": "turn in",
+      "targetForm": "turn in",
+      "targetMeaningZh": "腳或腳趾向內彎"
+    },
+    {
+      "id": "phrasal-verb-206-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "More young voters are beginning to stop supporting the party.",
+      "promptZh": "愈來愈多年輕選民開始不再支持該政黨。",
+      "starter": "More",
+      "answer": "More young voters are beginning to turn away from the party.",
+      "answerZh": "愈來愈多年輕選民開始不再支持該政黨。",
+      "highlight": "turn away from",
+      "targetForm": "turn away from something",
+      "targetMeaningZh": "不再支持或相信某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "This rule would return the country to working conditions from thirty years ago.",
+      "promptZh": "這項規則會令國家回到三十年前的工作環境。",
+      "starter": "This",
+      "answer": "This rule would turn the clock back to working conditions from thirty years ago.",
+      "answerZh": "這項規則會令工作環境倒退至三十年前的情況。",
+      "highlight": "turn",
+      "targetForm": "turn the clock back",
+      "targetMeaningZh": "回到較早的情況或制度"
+    },
+    {
+      "id": "phrasal-verb-206-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "You change everything I say so that I appear foolish.",
+      "promptZh": "你扭曲我所說的一切,令我看來十分愚蠢。",
+      "starter": "You",
+      "answer": "You turn everything I say around to make me look foolish.",
+      "answerZh": "你扭曲我所說的一切,令我看來十分愚蠢。",
+      "highlight": "turn",
+      "targetForm": "turn something around",
+      "targetMeaningZh": "扭曲某人的說話或意思"
+    },
+    {
+      "id": "phrasal-verb-206-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Leo reported his brother to the police after learning the truth.",
+      "promptZh": "里奧得知真相後,向警方舉報了自己的兄弟。",
+      "starter": "Leo",
+      "answer": "Leo turned his brother in to the police after learning the truth.",
+      "answerZh": "里奧得知真相後,向警方舉報了自己的兄弟。",
+      "highlight": "turned",
+      "targetForm": "turn somebody in",
+      "targetMeaningZh": "向警方或當局舉報某人"
+    },
+    {
+      "id": "phrasal-verb-206-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The new manager has improved the shop in only six months.",
+      "promptZh": "新經理只用了六個月便令店舖的情況好轉。",
+      "starter": "The",
+      "answer": "The new manager has turned the shop round in only six months.",
+      "answerZh": "新經理只用了六個月便令店舖的情況好轉。",
+      "highlight": "turned",
+      "targetForm": "turn something round",
+      "targetMeaningZh": "令困難的情況好轉"
+    },
+    {
+      "id": "phrasal-verb-206-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Because the concert was full, hundreds of fans were refused entry.",
+      "promptZh": "由於演唱會已滿座,數百名樂迷被拒絕進場。",
+      "starter": "Because",
+      "answer": "Because the concert was full, hundreds of fans were turned away.",
+      "answerZh": "由於演唱會已滿座,數百名樂迷被拒絕進場。",
+      "highlight": "turned away",
+      "targetForm": "turn somebody away",
+      "targetMeaningZh": "拒絕某人進入"
+    },
+    {
+      "id": "phrasal-verb-206-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "After the divorce, Sam became quiet and stopped sharing his feelings with anyone.",
+      "promptZh": "離婚後,森變得沉默,不再向任何人分享自己的感受。",
+      "starter": "After",
+      "answer": "After the divorce, Sam turned in on himself and stopped sharing his feelings with anyone.",
+      "answerZh": "離婚後,森變得封閉,不再向任何人分享自己的感受。",
+      "highlight": "turned in on himself",
+      "targetForm": "turn in on yourself",
+      "targetMeaningZh": "變得封閉,不再與人交流"
+    },
+    {
+      "id": "phrasal-verb-206-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The sudden loss completely changed the family’s life and emotions.",
+      "promptZh": "這次突然的失去徹底改變了這個家庭的生活和感受。",
+      "starter": "The",
+      "answer": "The sudden loss turned the family’s world inside out.",
+      "answerZh": "這次突然的失去徹底打亂了這個家庭的世界。",
+      "highlight": "turned",
+      "targetForm": "turn somebody’s world inside out",
+      "targetMeaningZh": "徹底打亂某人的生活"
+    },
+    {
+      "id": "phrasal-verb-206-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Could you make the heating lower before we go to sleep?",
+      "promptZh": "我們睡覺前,你可以把暖氣調低嗎?",
+      "starter": "Could",
+      "answer": "Could you turn the heating down before we go to sleep?",
+      "answerZh": "我們睡覺前,你可以把暖氣調低嗎?",
+      "highlight": "turn",
+      "targetForm": "turn something down",
+      "targetMeaningZh": "把溫度或其他水平調低"
+    },
+    {
+      "id": "phrasal-verb-206-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 21,
+      "prompt": "Her idea was refused without a proper discussion.",
+      "promptZh": "她的構思未經適當討論便遭到拒絕。",
+      "starter": "Her",
+      "answer": "Her idea was turned down without a proper discussion.",
+      "answerZh": "她的構思未經適當討論便遭到拒絕。",
+      "highlight": "turned down",
+      "targetForm": "turn something down",
+      "targetMeaningZh": "拒絕某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 21,
+      "prompt": "The false messages made several neighbours become hostile towards one another.",
+      "promptZh": "那些虛假訊息令幾名鄰居互相敵視。",
+      "starter": "The",
+      "answer": "The false messages turned several neighbours against one another.",
+      "answerZh": "那些虛假訊息令幾名鄰居互相敵視。",
+      "highlight": "turned",
+      "targetForm": "turn somebody against somebody",
+      "targetMeaningZh": "令某人敵視另一方"
+    },
+    {
+      "id": "phrasal-verb-206-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "The police made all cars return because the bridge was unsafe.",
+      "promptZh": "由於大橋並不安全,警方要求所有車輛折返。",
+      "starter": "Police",
+      "answer": "Police turned all cars back because the bridge was unsafe.",
+      "answerZh": "由於大橋並不安全,警方要求所有車輛折返。",
+      "highlight": "turned",
+      "targetForm": "turn something back",
+      "targetMeaningZh": "使某事物返回"
+    },
+    {
+      "id": "phrasal-verb-206-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "After two days, the missing driver went to the police and gave himself up.",
+      "promptZh": "兩天後,那名失蹤司機前往警署自首。",
+      "starter": "After",
+      "answer": "After two days, the missing driver turned himself in to the police.",
+      "answerZh": "兩天後,那名失蹤司機向警方自首。",
+      "highlight": "turned himself in",
+      "targetForm": "turn yourself in",
+      "targetMeaningZh": "向警方或當局自首"
+    },
+    {
+      "id": "phrasal-verb-206-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "The repeated lies made many customers stop using the company.",
+      "promptZh": "連番謊言令許多顧客不再使用這間公司的服務。",
+      "starter": "The",
+      "answer": "The repeated lies turned many customers away from the company.",
+      "answerZh": "連番謊言令許多顧客不再使用這間公司的服務。",
+      "highlight": "turned",
+      "targetForm": "turn somebody away from something",
+      "targetMeaningZh": "令某人不再支持或使用某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 22,
+      "prompt": "The club plans to change the empty room into a small library.",
+      "promptZh": "學會計劃把空置房間改建成一間小型圖書館。",
+      "starter": "The",
+      "answer": "The club plans to turn the empty room into a small library.",
+      "answerZh": "學會計劃把空置房間改建成一間小型圖書館。",
+      "highlight": "turn",
+      "targetForm": "turn something into something",
+      "targetMeaningZh": "把某事物變成另一事物"
+    },
+    {
+      "id": "phrasal-verb-206-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 22,
+      "prompt": "At the doorway, he faced the other way and called her name.",
+      "promptZh": "在門口,他轉過身並呼叫她的名字。",
+      "starter": "At",
+      "answer": "At the doorway, he turned about and called her name.",
+      "answerZh": "在門口,他轉過身並呼叫她的名字。",
+      "highlight": "turned about",
+      "targetForm": "turn about",
+      "targetMeaningZh": "轉身;轉向相反方向"
+    },
+    {
+      "id": "phrasal-verb-206-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "Why did you go to bed so early last night?",
+      "promptZh": "你昨晚為甚麼這麼早上床睡覺?",
+      "starter": "Why",
+      "answer": "Why did you turn in so early last night?",
+      "answerZh": "你昨晚為甚麼這麼早上床睡覺?",
+      "highlight": "turn in",
+      "targetForm": "turn in",
+      "targetMeaningZh": "上床睡覺"
+    },
+    {
+      "id": "phrasal-verb-206-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "The team must give a much better performance in the next match.",
+      "promptZh": "球隊在下一場比賽中必須交出好得多的表現。",
+      "starter": "The",
+      "answer": "The team must turn in a much better performance in the next match.",
+      "answerZh": "球隊在下一場比賽中必須交出好得多的表現。",
+      "highlight": "turn in",
+      "targetForm": "turn in a performance",
+      "targetMeaningZh": "交出或呈現某種表現"
+    },
+    {
+      "id": "phrasal-verb-206-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "Before leaving the building, all visitors must give their passes back.",
+      "promptZh": "離開大樓前,所有訪客都必須交回通行證。",
+      "starter": "Before",
+      "answer": "Before leaving the building, all visitors must turn their passes in.",
+      "answerZh": "離開大樓前,所有訪客都必須交回通行證。",
+      "highlight": "turn",
+      "targetForm": "turn something in",
+      "targetMeaningZh": "提交或交回某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 23,
+      "prompt": "After she reversed the bag so that the inner side faced out, she found the receipt.",
+      "promptZh": "她把袋子內外反轉後,找到了收據。",
+      "starter": "After",
+      "answer": "After she turned the bag inside out, she found the receipt.",
+      "answerZh": "她把袋子內外反轉後,找到了收據。",
+      "highlight": "turned",
+      "targetForm": "turn something inside out",
+      "targetMeaningZh": "把某事物內外反轉"
+    },
+    {
+      "id": "phrasal-verb-206-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 23,
+      "prompt": "He may suddenly claim that he never agreed to the plan.",
+      "promptZh": "他可能會突然聲稱自己從未同意該計劃。",
+      "starter": "He",
+      "answer": "He may turn around and claim that he never agreed to the plan.",
+      "answerZh": "他可能會突然聲稱自己從未同意該計劃。",
+      "highlight": "turn around and",
+      "targetForm": "turn around and do something",
+      "targetMeaningZh": "突然或出乎意料地做某事"
+    },
+    {
+      "id": "phrasal-verb-206-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 23,
+      "prompt": "Although he raised his hand to wave, Nora moved her head to one side and walked on.",
+      "promptZh": "雖然他舉手揮動,但諾拉把頭轉向一旁,繼續向前走。",
+      "starter": "Although",
+      "answer": "Although he raised his hand to wave, Nora turned her head aside and walked on.",
+      "answerZh": "雖然他舉手揮動,但諾拉把頭轉向一旁,繼續向前走。",
+      "highlight": "turned",
+      "targetForm": "turn something aside",
+      "targetMeaningZh": "把某事物轉向一旁"
+    },
+    {
+      "id": "phrasal-verb-206-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 24,
+      "prompt": "Her mouth curved down at the corners, but she said that she was fine.",
+      "promptZh": "她的嘴角向下彎,但她說自己沒有問題。",
+      "starter": "Her",
+      "answer": "Her mouth turned down at the corners, but she said that she was fine.",
+      "answerZh": "她的嘴角向下彎,但她說自己沒有問題。",
+      "highlight": "turned",
+      "targetForm": "turn down",
+      "targetMeaningZh": "嘴角向下彎"
+    },
+    {
+      "id": "phrasal-verb-206-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 15,
+      "answerSourcePage": 24,
+      "prompt": "We cannot return to the old system simply because change feels difficult.",
+      "promptZh": "我們不能只因改變令人感到困難,便回到舊有制度。",
+      "starter": "We",
+      "answer": "We cannot turn the clock back simply because change feels difficult.",
+      "answerZh": "我們不能只因改變令人感到困難,便回到舊有制度。",
+      "highlight": "turn",
+      "targetForm": "turn the clock back",
+      "targetMeaningZh": "回到較早的情況或制度"
+    },
+    {
+      "id": "phrasal-verb-206-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 24,
+      "prompt": "In the report, they changed my careful warning so that it sounded like an attack.",
+      "promptZh": "在報告中,他們扭曲了我謹慎提出的警告,令它聽來像一次攻擊。",
+      "starter": "In",
+      "answer": "In the report, they turned my careful warning round to make it sound like an attack.",
+      "answerZh": "在報告中,他們扭曲了我謹慎提出的警告,令它聽來像一次攻擊。",
+      "highlight": "turned",
+      "targetForm": "turn something round",
+      "targetMeaningZh": "扭曲某人的說話或意思"
+    },
+    {
+      "id": "phrasal-verb-206-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 24,
+      "prompt": "Because his toes point towards each other, his shoes wear out unevenly.",
+      "promptZh": "由於他的腳趾向內彎,他的鞋子會不平均地磨損。",
+      "starter": "Because",
+      "answer": "Because his toes turn in, his shoes wear out unevenly.",
+      "answerZh": "由於他的腳趾向內彎,他的鞋子會不平均地磨損。",
+      "highlight": "turn in",
+      "targetForm": "turn in",
+      "targetMeaningZh": "腳或腳趾向內彎"
+    },
+    {
+      "id": "phrasal-verb-206-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 24,
+      "prompt": "Becoming completely withdrawn will make it harder for you to get help.",
+      "promptZh": "把自己完全封閉起來,會令你更難得到協助。",
+      "starter": "Turning",
+      "answer": "Turning in on yourself will make it harder for you to get help.",
+      "answerZh": "把自己封閉起來,會令你更難得到協助。",
+      "highlight": "Turning in on yourself",
+      "targetForm": "turn in on yourself",
+      "targetMeaningZh": "變得封閉,不再與人交流"
+    },
+    {
+      "id": "phrasal-verb-206-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 24,
+      "prompt": "One unexpected phone call can completely disturb a family’s normal life.",
+      "promptZh": "一通意料之外的電話可以徹底打亂一個家庭的正常生活。",
+      "starter": "One",
+      "answer": "One unexpected phone call can turn a family’s life inside out.",
+      "answerZh": "一通意料之外的電話可以徹底打亂一個家庭的生活。",
+      "highlight": "turn",
+      "targetForm": "turn somebody’s life inside out",
+      "targetMeaningZh": "徹底打亂某人的生活"
+    },
+    {
+      "id": "phrasal-verb-206-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 25,
+      "prompt": "To improve the café, the owners changed the menu and opening hours.",
+      "promptZh": "為了令咖啡店的情況好轉,店主更改了餐牌和營業時間。",
+      "starter": "To",
+      "answer": "To turn the café around, the owners changed the menu and opening hours.",
+      "answerZh": "為了令咖啡店的情況好轉,店主更改了餐牌和營業時間。",
+      "highlight": "turn",
+      "targetForm": "turn something around",
+      "targetMeaningZh": "令困難的情況好轉"
+    },
+    {
+      "id": "phrasal-verb-206-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 25,
+      "prompt": "Anyone without a ticket will be refused entry at the door.",
+      "promptZh": "任何沒有門票的人都會在門口被拒絕進場。",
+      "starter": "Anyone",
+      "answer": "Anyone without a ticket will be turned away at the door.",
+      "answerZh": "任何沒有門票的人都會在門口被拒絕進場。",
+      "highlight": "turned away",
+      "targetForm": "turn somebody away",
+      "targetMeaningZh": "拒絕某人進入"
+    },
+    {
+      "id": "phrasal-verb-206-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 25,
+      "prompt": "Stopping support for the project now would waste months of work.",
+      "promptZh": "現在停止支持這個項目,會浪費多個月的工作。",
+      "starter": "Turning",
+      "answer": "Turning away from the project now would waste months of work.",
+      "answerZh": "現在停止支持這個項目,會浪費多個月的工作。",
+      "highlight": "Turning away from",
+      "targetForm": "turn away from something",
+      "targetMeaningZh": "不再支持或參與某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 25,
+      "prompt": "The hikers continued into the storm without returning, even after the guide warned them.",
+      "promptZh": "即使嚮導已作出警告,遠足者仍沒有折返,繼續走進暴風雨中。",
+      "starter": "The",
+      "answer": "The hikers continued into the storm without turning back, even after the guide warned them.",
+      "answerZh": "即使嚮導已作出警告,遠足者仍沒有折返,繼續走進暴風雨中。",
+      "highlight": "turning back",
+      "targetForm": "turn back",
+      "targetMeaningZh": "折返"
+    },
+    {
+      "id": "phrasal-verb-206-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 25,
+      "prompt": "The committee’s decision to refuse the offer surprised everyone.",
+      "promptZh": "委員會拒絕該項提議的決定令所有人感到意外。",
+      "starter": "The",
+      "answer": "The committee’s decision to turn down the offer surprised everyone.",
+      "answerZh": "委員會拒絕該項提議的決定令所有人感到意外。",
+      "highlight": "turn down",
+      "targetForm": "turn something down",
+      "targetMeaningZh": "拒絕某事物"
+    },
+    {
+      "id": "phrasal-verb-206-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 25,
+      "prompt": "The suspect was reported to the police by a relative who recognised him.",
+      "promptZh": "疑犯被一名認出他的親屬向警方舉報。",
+      "starter": "The",
+      "answer": "The suspect was turned in to the police by a relative who recognised him.",
+      "answerZh": "疑犯被一名認出他的親屬向警方舉報。",
+      "highlight": "turned in",
+      "targetForm": "turn somebody in",
+      "targetMeaningZh": "向警方或當局舉報某人"
+    }
+  ]
+}

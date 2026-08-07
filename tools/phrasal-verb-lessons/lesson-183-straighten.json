@@ -1,0 +1,1408 @@
+{
+  "id": "phrasal-verb-183",
+  "order": 183,
+  "slug": "straighten",
+  "version": "1",
+  "title": "STRAIGHTEN 動詞片語",
+  "titleEn": "Straighten",
+  "titleZh": "STRAIGHTEN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 182 - STRAIGHTEN.pdf",
+    "sourceNumber": 182,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STRAIGHTEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STRAIGHTEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STRAIGHTEN",
+      "highlight": "STRAIGHTEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "After the bridge, the road straightens out.",
+      "zh": "過了橋後,道路變直。",
+      "highlight": "straightens out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A few honest talks helped straighten him out.",
+      "zh": "幾次坦誠的談話幫助他改正了行為。",
+      "highlight": "straighten him out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We need to straighten out the booking problem.",
+      "zh": "我們需要解決預訂問題。",
+      "highlight": "straighten out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直；令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌；解決或釐清問題、混亂或誤會；挺直身體;直起身來；把地方或物品整理整齊",
+    "en": "straighten out / straighten something out; straighten somebody out / straighten yourself out; straighten something out; straighten up; straighten something up",
+    "naturalZh": [
+      "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+      "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+      "解決或釐清問題、混亂或誤會",
+      "挺直身體;直起身來",
+      "把地方或物品整理整齊"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "straighten out / straighten something out",
+      "titleZh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+      "titleEn": "straighten out / straighten something out",
+      "descriptionZh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+      "descriptionEn": "After the bridge, the road straightens out.",
+      "examples": [
+        {
+          "en": "After the bridge, the road straightens out.",
+          "zh": "過了橋後,道路變直。",
+          "highlight": "straightens out"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "straighten somebody out / straighten yourself out",
+      "titleZh": "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+      "titleEn": "straighten somebody out / straighten yourself out",
+      "descriptionZh": "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+      "descriptionEn": "A few honest talks helped straighten him out.",
+      "examples": [
+        {
+          "en": "A few honest talks helped straighten him out.",
+          "zh": "幾次坦誠的談話幫助他改正了行為。",
+          "highlight": "straighten him out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "straighten something out",
+      "titleZh": "解決或釐清問題、混亂或誤會",
+      "titleEn": "straighten something out",
+      "descriptionZh": "解決或釐清問題、混亂或誤會",
+      "descriptionEn": "We need to straighten out the booking problem.",
+      "examples": [
+        {
+          "en": "We need to straighten out the booking problem.",
+          "zh": "我們需要解決預訂問題。",
+          "highlight": "straighten out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "straighten up",
+      "titleZh": "挺直身體;直起身來",
+      "titleEn": "straighten up",
+      "descriptionZh": "挺直身體;直起身來",
+      "descriptionEn": "She slowly straightened up and took a deep breath.",
+      "examples": [
+        {
+          "en": "She slowly straightened up and took a deep breath.",
+          "zh": "她慢慢挺直身子,然後深呼吸。",
+          "highlight": "straightened up"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "straighten something up",
+      "titleZh": "把地方或物品整理整齊",
+      "titleEn": "straighten something up",
+      "descriptionZh": "把地方或物品整理整齊",
+      "descriptionEn": "We should straighten up the living room before the guests arrive.",
+      "examples": [
+        {
+          "en": "We should straighten up the living room before the guests arrive.",
+          "zh": "客人到達前,我們應該整理好客廳。",
+          "highlight": "straighten up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STRAIGHTEN 片語動詞的實際用途",
+    "labelEn": "STRAIGHTEN Phrasal Verbs in Use",
+    "summaryZh": "STRAIGHTEN 片語動詞可以描述道路變直、把物件弄直或某人挺直身體。；straighten something out 可以用來談論預訂錯誤、付款問題、誤會和其他混亂情況。；straighten somebody out 和 straighten yourself out 可以描述某人改善行為,或重新掌握自己的生活。；straighten something up 可以自然地請別人整理房間、書桌、櫃枱或其他地方。",
+    "summaryEn": "Straighten expressions can describe a road becoming straight, an object being made straight or a person standing upright. Straighten something out is useful when discussing booking mistakes, payment problems, misunderstandings and other confusing situations. Straighten somebody out and straighten yourself out can describe a person improving their behaviour or taking control of their life again. Straighten something up is a useful way to ask someone to tidy a room, desk, counter or other space.",
+    "contextsZh": [
+      "清楚談論形狀和姿勢",
+      "自然談論日常問題的解決方法",
+      "描述某人作出正面改變",
+      "自然地請別人整理地方"
+    ],
+    "contextsEn": [
+      "Talk about shapes and posture clearly",
+      "Talk naturally about solving everyday problems",
+      "Describe someone making a positive change",
+      "Give natural instructions about tidying"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STRAIGHTEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STRAIGHTEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "straighten out / straighten something out",
+    "fixedHighlight": "straighten out / straighten something out",
+    "fixedZh": "閱讀整句,選出意思相同的 STRAIGHTEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STRAIGHTEN expression that gives the same meaning.",
+    "correct": "straightens out",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her 或 them 時,請按照以上例子放在正確位置。；straighten up 可以表示某人挺直身體;straighten something up 則表示整理地方或物品。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them, place the word as shown: straighten it out straighten him out straighten it up Straighten up can describe a person becoming upright. Straighten something up means tidying a place or group of things.",
+    "variableItemsZh": [
+      "straighten out / straighten something out",
+      "straighten somebody out / straighten yourself out",
+      "straighten something out",
+      "straighten up",
+      "straighten something up"
+    ],
+    "variableItemsEn": [
+      "straighten out / straighten something out",
+      "straighten somebody out / straighten yourself out",
+      "straighten something out",
+      "straighten up",
+      "straighten something up"
+    ],
+    "forms": [
+      {
+        "formZh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+        "formEn": "straighten out / straighten something out",
+        "exampleZh": "過了橋後,道路變直。",
+        "exampleEn": "After the bridge, the road straightens out.",
+        "highlight": "straightens out"
+      },
+      {
+        "formZh": "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+        "formEn": "straighten somebody out / straighten yourself out",
+        "exampleZh": "幾次坦誠的談話幫助他改正了行為。",
+        "exampleEn": "A few honest talks helped straighten him out.",
+        "highlight": "straighten him out"
+      },
+      {
+        "formZh": "解決或釐清問題、混亂或誤會",
+        "formEn": "straighten something out",
+        "exampleZh": "我們需要解決預訂問題。",
+        "exampleEn": "We need to straighten out the booking problem.",
+        "highlight": "straighten out"
+      },
+      {
+        "formZh": "挺直身體;直起身來",
+        "formEn": "straighten up",
+        "exampleZh": "她慢慢挺直身子,然後深呼吸。",
+        "exampleEn": "She slowly straightened up and took a deep breath.",
+        "highlight": "straightened up"
+      },
+      {
+        "formZh": "把地方或物品整理整齊",
+        "formEn": "straighten something up",
+        "exampleZh": "客人到達前,我們應該整理好客廳。",
+        "exampleEn": "We should straighten up the living room before the guests arrive.",
+        "highlight": "straighten up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+      "titleEn": "straighten out / straighten something out",
+      "formula": "straighten out / straighten something out",
+      "highlight": "straighten out / straighten something out",
+      "descriptionZh": "道路、繩子或其他彎曲的東西變直;把彎曲或皺起的東西弄直",
+      "descriptionEn": "After the bridge, the road straightens out.",
+      "examples": [
+        {
+          "en": "After the bridge, the road straightens out.",
+          "zh": "過了橋後,道路變直。",
+          "highlight": "straightens out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+      "titleEn": "straighten somebody out / straighten yourself out",
+      "formula": "straighten somebody out / straighten yourself out",
+      "highlight": "straighten somebody out / straighten yourself out",
+      "descriptionZh": "令某人改正行為或理清個人問題;使自己重新振作,讓生活重回正軌",
+      "descriptionEn": "A few honest talks helped straighten him out.",
+      "examples": [
+        {
+          "en": "A few honest talks helped straighten him out.",
+          "zh": "幾次坦誠的談話幫助他改正了行為。",
+          "highlight": "straighten him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "解決或釐清問題、混亂或誤會",
+      "titleEn": "straighten something out",
+      "formula": "straighten something out",
+      "highlight": "straighten something out",
+      "descriptionZh": "解決或釐清問題、混亂或誤會",
+      "descriptionEn": "We need to straighten out the booking problem.",
+      "examples": [
+        {
+          "en": "We need to straighten out the booking problem.",
+          "zh": "我們需要解決預訂問題。",
+          "highlight": "straighten out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "挺直身體;直起身來",
+      "titleEn": "straighten up",
+      "formula": "straighten up",
+      "highlight": "straighten up",
+      "descriptionZh": "挺直身體;直起身來",
+      "descriptionEn": "She slowly straightened up and took a deep breath.",
+      "examples": [
+        {
+          "en": "She slowly straightened up and took a deep breath.",
+          "zh": "她慢慢挺直身子,然後深呼吸。",
+          "highlight": "straightened up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把地方或物品整理整齊",
+      "titleEn": "straighten something up",
+      "formula": "straighten something up",
+      "highlight": "straighten something up",
+      "descriptionZh": "把地方或物品整理整齊",
+      "descriptionEn": "We should straighten up the living room before the guests arrive.",
+      "examples": [
+        {
+          "en": "We should straighten up the living room before the guests arrive.",
+          "zh": "客人到達前,我們應該整理好客廳。",
+          "highlight": "straighten up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論形狀和姿勢",
+      "titleEn": "Talk about shapes and posture clearly",
+      "zh": "STRAIGHTEN 片語動詞可以描述道路變直、把物件弄直或某人挺直身體。",
+      "en": "Straighten expressions can describe a road becoming straight, an object being made straight or a person standing upright."
+    },
+    {
+      "titleZh": "自然談論日常問題的解決方法",
+      "titleEn": "Talk naturally about solving everyday problems",
+      "zh": "straighten something out 可以用來談論預訂錯誤、付款問題、誤會和其他混亂情況。",
+      "en": "Straighten something out is useful when discussing booking mistakes, payment problems, misunderstandings and other confusing situations."
+    },
+    {
+      "titleZh": "描述某人作出正面改變",
+      "titleEn": "Describe someone making a positive change",
+      "zh": "straighten somebody out 和 straighten yourself out 可以描述某人改善行為,或重新掌握自己的生活。",
+      "en": "Straighten somebody out and straighten yourself out can describe a person improving their behaviour or taking control of their life again."
+    },
+    {
+      "titleZh": "自然地請別人整理地方",
+      "titleEn": "Give natural instructions about tidying",
+      "zh": "straighten something up 可以自然地請別人整理房間、書桌、櫃枱或其他地方。",
+      "en": "Straighten something up is a useful way to ask someone to tidy a room, desk, counter or other space."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論形狀和姿勢",
+      "自然談論日常問題的解決方法",
+      "描述某人作出正面改變",
+      "自然地請別人整理地方"
+    ],
+    "contextsEn": [
+      "Talk about shapes and posture clearly",
+      "Talk naturally about solving everyday problems",
+      "Describe someone making a positive change",
+      "Give natural instructions about tidying"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論形狀和姿勢",
+        "titleEn": "Talk about shapes and posture clearly",
+        "zh": "STRAIGHTEN 片語動詞可以描述道路變直、把物件弄直或某人挺直身體。",
+        "en": "Straighten expressions can describe a road becoming straight, an object being made straight or a person standing upright.",
+        "examples": [
+          {
+            "en": "After the bridge, the road straightens out.",
+            "zh": "過了橋後,道路變直。",
+            "highlight": "straightens out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論日常問題的解決方法",
+        "titleEn": "Talk naturally about solving everyday problems",
+        "zh": "straighten something out 可以用來談論預訂錯誤、付款問題、誤會和其他混亂情況。",
+        "en": "Straighten something out is useful when discussing booking mistakes, payment problems, misunderstandings and other confusing situations.",
+        "examples": [
+          {
+            "en": "A few honest talks helped straighten him out.",
+            "zh": "幾次坦誠的談話幫助他改正了行為。",
+            "highlight": "straighten him out"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述某人作出正面改變",
+        "titleEn": "Describe someone making a positive change",
+        "zh": "straighten somebody out 和 straighten yourself out 可以描述某人改善行為,或重新掌握自己的生活。",
+        "en": "Straighten somebody out and straighten yourself out can describe a person improving their behaviour or taking control of their life again.",
+        "examples": [
+          {
+            "en": "We need to straighten out the booking problem.",
+            "zh": "我們需要解決預訂問題。",
+            "highlight": "straighten out"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地請別人整理地方",
+        "titleEn": "Give natural instructions about tidying",
+        "zh": "straighten something up 可以自然地請別人整理房間、書桌、櫃枱或其他地方。",
+        "en": "Straighten something up is a useful way to ask someone to tidy a room, desk, counter or other space.",
+        "examples": [
+          {
+            "en": "She slowly straightened up and took a deep breath.",
+            "zh": "她慢慢挺直身子,然後深呼吸。",
+            "highlight": "straightened up"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STRAIGHTEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STRAIGHTEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STRAIGHTEN 片語動詞。",
+      "en": "Read the whole sentence and choose the STRAIGHTEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her or them, place the word as shown: straighten it out straighten him out straighten it up.",
+      "zh": "使用 it、him、her 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her or them, place the word as shown: straighten it out straighten him out straighten it up"
+    },
+    {
+      "titleZh": "straighten up 可以表示某人挺直身體;straighten something up 則表示整理地方或物品。",
+      "titleEn": "Straighten up can describe a person becoming upright.",
+      "zh": "straighten up 可以表示某人挺直身體;straighten something up 則表示整理地方或物品。",
+      "en": "Straighten up can describe a person becoming upright. Straighten something up means tidying a place or group of things."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STRAIGHTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STRAIGHTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STRAIGHTEN 動詞片語句子改寫練習",
+    "titleEn": "STRAIGHTEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STRAIGHTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STRAIGHTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-183-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "After the tunnel, the road becomes straight.",
+      "promptZh": "過了隧道後,道路變直。",
+      "starter": "After",
+      "answer": "After the tunnel, the road straightens out.",
+      "answerZh": "過了隧道後,道路變直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "We solved the problem with our train tickets.",
+      "promptZh": "我們解決了火車票的問題。",
+      "starter": "We",
+      "answer": "We straightened out the problem with our train tickets.",
+      "answerZh": "我們解決了火車票的問題。",
+      "highlight": "straightened out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The boy stood upright when the teacher entered.",
+      "promptZh": "老師進來時,那個男孩挺直身子。",
+      "starter": "The",
+      "answer": "The boy straightened up when the teacher entered.",
+      "answerZh": "老師進來時,那個男孩挺直身子。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A few honest talks helped Leo improve his behaviour.",
+      "promptZh": "幾次坦誠的談話幫助里奧改善了行為。",
+      "starter": "A",
+      "answer": "A few honest talks helped straighten Leo out.",
+      "answerZh": "幾次坦誠的談話幫助里奧改正了行為。",
+      "highlight": "straighten",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "We should tidy the living room before the guests arrive.",
+      "promptZh": "客人到達前,我們應該整理好客廳。",
+      "starter": "We",
+      "answer": "We should straighten up the living room before the guests arrive.",
+      "answerZh": "客人到達前,我們應該整理好客廳。",
+      "highlight": "straighten up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The manager solved the mistake in the work schedule.",
+      "promptZh": "經理解決了工作時間表上的錯誤。",
+      "starter": "The",
+      "answer": "The manager straightened out the mistake in the work schedule.",
+      "answerZh": "經理解決了工作時間表上的錯誤。",
+      "highlight": "straightened out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "This bent wire becomes straight when you pull both ends.",
+      "promptZh": "你拉住兩端時,這條彎曲的鐵線便會變直。",
+      "starter": "This",
+      "answer": "This bent wire straightens out when you pull both ends.",
+      "answerZh": "你拉住兩端時,這條彎曲的鐵線便會變直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "She stood upright slowly and took a deep breath.",
+      "promptZh": "她慢慢挺直身子,然後深呼吸。",
+      "starter": "She",
+      "answer": "She slowly straightened up and took a deep breath.",
+      "answerZh": "她慢慢挺直身子,然後深呼吸。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "I need to solve this payment problem today.",
+      "promptZh": "我今天需要解決這個付款問題。",
+      "starter": "I",
+      "answer": "I need to straighten out this payment problem today.",
+      "answerZh": "我今天需要解決這個付款問題。",
+      "highlight": "straighten out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Please tidy your desk before lunch.",
+      "promptZh": "請在午膳前整理好你的書桌。",
+      "starter": "Please",
+      "answer": "Please straighten up your desk before lunch.",
+      "answerZh": "請在午膳前整理好你的書桌。",
+      "highlight": "straighten up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The coach’s firm talk made Sam behave better.",
+      "promptZh": "教練嚴肅的一番話令森姆改善了行為。",
+      "starter": "The",
+      "answer": "The coach’s firm talk straightened Sam out.",
+      "answerZh": "教練嚴肅的一番話令森姆改正了行為。",
+      "highlight": "straightened",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "He made the bent metal strip straight with his hands.",
+      "promptZh": "他用雙手把彎曲的金屬條弄直。",
+      "starter": "He",
+      "answer": "He straightened the bent metal strip out with his hands.",
+      "answerZh": "他用雙手把彎曲的金屬條弄直。",
+      "highlight": "straightened",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "把彎曲或皺起的東西弄直"
+    },
+    {
+      "id": "phrasal-verb-183-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Rita is taking time away from work to get her life under control.",
+      "promptZh": "麗塔正暫時離開工作一段時間,讓自己的生活重回正軌。",
+      "starter": "Rita",
+      "answer": "Rita is taking time away from work to straighten herself out.",
+      "answerZh": "麗塔正暫時離開工作一段時間,讓自己重新振作,理順生活。",
+      "highlight": "straighten herself out",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    },
+    {
+      "id": "phrasal-verb-183-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why did you suddenly sit upright?",
+      "promptZh": "你為甚麼突然坐直身子?",
+      "starter": "Why",
+      "answer": "Why did you suddenly straighten up?",
+      "answerZh": "你為甚麼突然挺直身子?",
+      "highlight": "straighten up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q15",
+      "number": 15,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The river becomes less curved after the old bridge.",
+      "promptZh": "過了那座舊橋後,河道變得較直。",
+      "starter": "The",
+      "answer": "The river straightens out after the old bridge.",
+      "answerZh": "過了那座舊橋後,河道變得較直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q16",
+      "number": 16,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We have finally solved the booking problem.",
+      "promptZh": "我們終於解決了預訂問題。",
+      "starter": "We",
+      "answer": "We have finally straightened out the booking problem.",
+      "answerZh": "我們終於解決了預訂問題。",
+      "highlight": "straightened out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q17",
+      "number": 17,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The children are tidying the classroom now.",
+      "promptZh": "孩子們現在正在整理課室。",
+      "starter": "The",
+      "answer": "The children are straightening up the classroom now.",
+      "answerZh": "孩子們現在正在整理課室。",
+      "highlight": "straightening up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q18",
+      "number": 18,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "His parents hope the new routine will help him behave better.",
+      "promptZh": "他的父母希望新的生活規律能幫助他改善行為。",
+      "starter": "His",
+      "answer": "His parents hope the new routine will straighten him out.",
+      "answerZh": "他的父母希望新的生活規律能令他改正行為。",
+      "highlight": "straighten",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q19",
+      "number": 19,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Stop leaning forward and stand upright.",
+      "promptZh": "不要再向前傾,挺直身子。",
+      "starter": "Stop",
+      "answer": "Stop leaning forward and straighten up.",
+      "answerZh": "不要再向前傾,挺直身子。",
+      "highlight": "straighten up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q20",
+      "number": 20,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Can you make this twisted cable straight?",
+      "promptZh": "你可以把這條扭曲的電線弄直嗎?",
+      "starter": "Can",
+      "answer": "Can you straighten this twisted cable out?",
+      "answerZh": "你可以把這條扭曲的電線弄直嗎?",
+      "highlight": "straighten",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "把彎曲或皺起的東西弄直"
+    },
+    {
+      "id": "phrasal-verb-183-q21",
+      "number": 21,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has the school solved the mistake in your timetable?",
+      "promptZh": "學校已經解決你時間表上的錯誤嗎?",
+      "starter": "Has",
+      "answer": "Has the school straightened out the mistake in your timetable?",
+      "answerZh": "學校已經解決你時間表上的錯誤嗎?",
+      "highlight": "straightened out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q22",
+      "number": 22,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "After tying his shoes, Amir stood upright again.",
+      "promptZh": "綁好鞋帶後,阿米爾再次直起身來。",
+      "starter": "After",
+      "answer": "After tying his shoes, Amir straightened up again.",
+      "answerZh": "綁好鞋帶後,阿米爾再次直起身來。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q23",
+      "number": 23,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "I have already tidied the kitchen.",
+      "promptZh": "我已經整理好廚房。",
+      "starter": "I",
+      "answer": "I have already straightened up the kitchen.",
+      "answerZh": "我已經整理好廚房。",
+      "highlight": "straightened up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q24",
+      "number": 24,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She needs a little time to get herself under control.",
+      "promptZh": "她需要一點時間讓自己重新振作。",
+      "starter": "She",
+      "answer": "She needs a little time to straighten herself out.",
+      "answerZh": "她需要一點時間讓自己重新振作。",
+      "highlight": "straighten",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    },
+    {
+      "id": "phrasal-verb-183-q25",
+      "number": 25,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The bedroom is untidy, so please tidy it before your cousin arrives.",
+      "promptZh": "睡房很凌亂,所以請在表親到達前把它整理好。",
+      "starter": "The",
+      "answer": "The bedroom is untidy, so please straighten it up before your cousin arrives.",
+      "answerZh": "睡房很凌亂,所以請在表親到達前把它整理好。",
+      "highlight": "straighten",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q26",
+      "number": 26,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The hotel gave us the wrong room, but the receptionist solved the problem quickly.",
+      "promptZh": "酒店給了我們錯誤的房間,但接待員很快便解決了問題。",
+      "starter": "The",
+      "answer": "The hotel gave us the wrong room, but the receptionist straightened it out quickly.",
+      "answerZh": "酒店給了我們錯誤的房間,但接待員很快便解決了問題。",
+      "highlight": "straightened it out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q27",
+      "number": 27,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "After months of poor choices, Noah decided to get his life under control.",
+      "promptZh": "連續幾個月作出不好的選擇後,諾亞決定改變自己,讓生活重回正軌。",
+      "starter": "After",
+      "answer": "After months of poor choices, Noah decided to straighten himself out.",
+      "answerZh": "連續幾個月作出不好的選擇後,諾亞決定改變自己,讓生活重回正軌。",
+      "highlight": "straighten himself out",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    },
+    {
+      "id": "phrasal-verb-183-q28",
+      "number": 28,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "She was bent over the box. Then she stood upright.",
+      "promptZh": "她一直彎身查看箱子,然後直起身來。",
+      "starter": "She",
+      "answer": "She was bent over the box. Then she straightened up.",
+      "answerZh": "她一直彎身查看箱子,然後直起身來。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q29",
+      "number": 29,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The poster was badly curled, so we made it flat and straight.",
+      "promptZh": "海報捲得很厲害,所以我們把它弄平弄直。",
+      "starter": "The",
+      "answer": "The poster was badly curled, so we straightened it out.",
+      "answerZh": "海報捲得很厲害,所以我們把它弄平弄直。",
+      "highlight": "straightened",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "把彎曲或皺起的東西弄直"
+    },
+    {
+      "id": "phrasal-verb-183-q30",
+      "number": 30,
+      "band": 1,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The shop counter was untidy, but Hana put it in order before opening.",
+      "promptZh": "店舖櫃枱很凌亂,但哈娜在開門營業前把它整理好了。",
+      "starter": "The",
+      "answer": "The shop counter was untidy, but Hana straightened it up before opening.",
+      "answerZh": "店舖櫃枱很凌亂,但哈娜在開門營業前把它整理好了。",
+      "highlight": "straightened",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q31",
+      "number": 31,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The two friends had misunderstood each other, but one calm talk solved everything.",
+      "promptZh": "兩位朋友誤會了對方,但一次冷靜的談話解決了一切。",
+      "starter": "The",
+      "answer": "The two friends had misunderstood each other, but one calm talk straightened everything out.",
+      "answerZh": "兩位朋友誤會了對方,但一次冷靜的談話解決了一切。",
+      "highlight": "straightened",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題、混亂或誤會"
+    },
+    {
+      "id": "phrasal-verb-183-q32",
+      "number": 32,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Extra support from school slowly helped Jay improve his behaviour.",
+      "promptZh": "學校提供的額外支援逐漸幫助傑改善行為。",
+      "starter": "Extra",
+      "answer": "Extra support from school slowly straightened Jay out.",
+      "answerZh": "學校提供的額外支援逐漸令傑改正了行為。",
+      "highlight": "straightened",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q33",
+      "number": 33,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I had been leaning over the table, but I stood upright when my name was called.",
+      "promptZh": "我一直俯身靠着桌子,但有人叫我的名字時,我便挺直身子。",
+      "starter": "I",
+      "answer": "I had been leaning over the table, but I straightened up when my name was called.",
+      "answerZh": "我一直俯身靠着桌子,但有人叫我的名字時,我便挺直身子。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q34",
+      "number": 34,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Before leaving, the staff put the waiting area in order.",
+      "promptZh": "離開前,職員整理好等候區。",
+      "starter": "Before",
+      "answer": "Before leaving, the staff straightened up the waiting area.",
+      "answerZh": "離開前,職員整理好等候區。",
+      "highlight": "straightened up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q35",
+      "number": 35,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "We cannot print the cards until we solve the error in the guest list.",
+      "promptZh": "在解決賓客名單上的錯誤前,我們不能印製卡片。",
+      "starter": "We",
+      "answer": "We cannot print the cards until we straighten out the error in the guest list.",
+      "answerZh": "在解決賓客名單上的錯誤前,我們不能印製卡片。",
+      "highlight": "straighten out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q36",
+      "number": 36,
+      "band": 1,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The path is very narrow and curved here, but it becomes straight near the lake.",
+      "promptZh": "這裏的小路又窄又彎,但到了湖邊便會變直。",
+      "starter": "The",
+      "answer": "The path is very narrow and curved here, but it straightens out near the lake.",
+      "answerZh": "這裏的小路又窄又彎,但到了湖邊便會變直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q37",
+      "number": 37,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The rope still has several bends in it; pull gently until it becomes straight.",
+      "promptZh": "繩子仍有幾個彎曲的位置;輕輕拉動,直至它變直。",
+      "starter": "The",
+      "answer": "The rope still has several bends in it; pull gently until it straightens out.",
+      "answerZh": "繩子仍有幾個彎曲的位置;輕輕拉動,直至它變直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q38",
+      "number": 38,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Whenever the head teacher enters, every student stops leaning and sits upright.",
+      "promptZh": "每當校長進來,每位學生都會停止傾身並坐直。",
+      "starter": "Whenever",
+      "answer": "Whenever the head teacher enters, every student stops leaning and straightens up.",
+      "answerZh": "每當校長進來,每位學生都會停止傾身並挺直身子。",
+      "highlight": "straightens up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q39",
+      "number": 39,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The total on the bill is wrong, so I will speak to the shop and solve the problem.",
+      "promptZh": "帳單上的總額不正確,所以我會聯絡店舖解決問題。",
+      "starter": "The",
+      "answer": "The total on the bill is wrong, so I will speak to the shop and straighten the problem out.",
+      "answerZh": "帳單上的總額不正確,所以我會聯絡店舖解決問題。",
+      "highlight": "straighten",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q40",
+      "number": 40,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "His sister did not solve his problems for him; she helped him take control of his own life.",
+      "promptZh": "他的姐姐沒有替他解決問題;她幫助他自己改變,重新掌握生活。",
+      "starter": "His",
+      "answer": "His sister did not solve his problems for him; she helped him straighten himself out.",
+      "answerZh": "他的姐姐沒有替他解決問題;她幫助他自己改變,重新掌握生活。",
+      "highlight": "straighten himself out",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    },
+    {
+      "id": "phrasal-verb-183-q41",
+      "number": 41,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The guests will arrive soon, and the hall still needs to be put in order.",
+      "promptZh": "客人快將到達,大堂仍需整理好。",
+      "starter": "The",
+      "answer": "The guests will arrive soon, and the hall still needs to be straightened up.",
+      "answerZh": "客人快將到達,大堂仍需整理好。",
+      "highlight": "straightened up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q42",
+      "number": 42,
+      "band": 1,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The road twists through the hills for miles before becoming straight near the town.",
+      "promptZh": "這條道路在山間彎彎曲曲地延伸數英里,接近城鎮時才變直。",
+      "starter": "The",
+      "answer": "The road twists through the hills for miles before straightening out near the town.",
+      "answerZh": "這條道路在山間彎彎曲曲地延伸數英里,接近城鎮時才變直。",
+      "highlight": "straightening out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q43",
+      "number": 43,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The gardener had been working close to the ground and slowly stood upright when she heard her phone.",
+      "promptZh": "園丁一直靠近地面工作,聽到電話響時便慢慢直起身來。",
+      "starter": "The",
+      "answer": "The gardener had been working close to the ground and slowly straightened up when she heard her phone.",
+      "answerZh": "園丁一直靠近地面工作,聽到電話響時便慢慢直起身來。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q44",
+      "number": 44,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Neither team understood the new rule, but the referee explained it and removed the confusion.",
+      "promptZh": "兩隊都不明白新規則,但球證作了解釋並消除了疑惑。",
+      "starter": "Neither",
+      "answer": "Neither team understood the new rule, but the referee explained it and straightened everything out.",
+      "answerZh": "兩隊都不明白新規則,但球證作了解釋並消除了疑惑。",
+      "highlight": "straightened everything out",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題、混亂或誤會"
+    },
+    {
+      "id": "phrasal-verb-183-q45",
+      "number": 45,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The counsellor hopes regular meetings will help the students improve their behaviour.",
+      "promptZh": "輔導員希望定期會面能幫助學生改善行為。",
+      "starter": "The",
+      "answer": "The counsellor hopes regular meetings will straighten the students out.",
+      "answerZh": "輔導員希望定期會面能令學生改正行為。",
+      "highlight": "straighten",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q46",
+      "number": 46,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "You are leaning so far over the screen that your neck hurts; sit upright.",
+      "promptZh": "你向螢幕傾得太前,頸部都痛了;坐直身子。",
+      "starter": "You",
+      "answer": "You are leaning so far over the screen that your neck hurts; straighten up.",
+      "answerZh": "你向螢幕傾得太前,頸部都痛了;挺直身子。",
+      "highlight": "straighten up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q47",
+      "number": 47,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "I cannot find the keys because the whole table is untidy; let us put it in order first.",
+      "promptZh": "我找不到鎖匙,因為整張桌子都很凌亂;我們先把它整理好吧。",
+      "starter": "I",
+      "answer": "I cannot find the keys because the whole table is untidy; let us straighten it up first.",
+      "answerZh": "我找不到鎖匙,因為整張桌子都很凌亂;我們先把它整理好吧。",
+      "highlight": "straighten",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q48",
+      "number": 48,
+      "band": 1,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The paper had folded inside the bag, so I gently made it flat again.",
+      "promptZh": "紙張在袋內摺起了,所以我輕輕把它弄平。",
+      "starter": "The",
+      "answer": "The paper had folded inside the bag, so I gently straightened it out.",
+      "answerZh": "紙張在袋內摺起了,所以我輕輕把它弄平弄直。",
+      "highlight": "straightened",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "把彎曲或皺起的東西弄直"
+    },
+    {
+      "id": "phrasal-verb-183-q49",
+      "number": 49,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Daniel knows he has been making poor choices. He has asked for help so that he can get his life under control.",
+      "promptZh": "丹尼爾知道自己一直作出不好的選擇。他已經求助,希望能重新掌握自己的生活。",
+      "starter": "Daniel",
+      "answer": "Daniel knows he has been making poor choices. He has asked for help so that he can straighten himself out.",
+      "answerZh": "丹尼爾知道自己一直作出不好的選擇。他已經求助,希望能改變自己,重新掌握生活。",
+      "highlight": "straighten himself out",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    },
+    {
+      "id": "phrasal-verb-183-q50",
+      "number": 50,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before the owner opens the café, the front area must be put in order.",
+      "promptZh": "店主開咖啡店前,前面的區域必須整理好。",
+      "starter": "Before",
+      "answer": "Before the owner opens the café, the front area must be straightened up.",
+      "answerZh": "店主開咖啡店前,前面的區域必須整理好。",
+      "highlight": "straightened up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q51",
+      "number": 51,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The two clubs booked the same room at the same time. The office must solve the problem before Friday.",
+      "promptZh": "兩個學會在同一時間預訂了同一個房間。辦公室必須在星期五前解決問題。",
+      "starter": "The",
+      "answer": "The two clubs booked the same room at the same time. The office must straighten the problem out before Friday.",
+      "answerZh": "兩個學會在同一時間預訂了同一個房間。辦公室必須在星期五前解決問題。",
+      "highlight": "straighten",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q52",
+      "number": 52,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "At first the cycle path follows several sharp bends, but beyond the park it becomes long and straight.",
+      "promptZh": "單車徑起初有幾個急彎,但過了公園後便變得又長又直。",
+      "starter": "At",
+      "answer": "At first the cycle path follows several sharp bends, but beyond the park it straightens out.",
+      "answerZh": "單車徑起初有幾個急彎,但過了公園後便變直。",
+      "highlight": "straightens out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q53",
+      "number": 53,
+      "band": 1,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "After searching under the bed for several minutes, Eva slowly returned to an upright position.",
+      "promptZh": "伊娃在床底下找了幾分鐘後,慢慢直起身來。",
+      "starter": "After",
+      "answer": "After searching under the bed for several minutes, Eva slowly straightened up.",
+      "answerZh": "伊娃在床底下找了幾分鐘後,慢慢直起身來。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q54",
+      "number": 54,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The coach warned that he could not stay on the team if his behaviour continued, and the warning finally made him change his ways.",
+      "promptZh": "教練警告他,如果繼續有這種行為,就不能留在球隊,而這次警告終於令他改正。",
+      "starter": "The",
+      "answer": "The coach warned that he could not stay on the team if his behaviour continued, and the warning finally straightened him out.",
+      "answerZh": "教練警告他,如果繼續有這種行為,就不能留在球隊,而這次警告終於令他改正。",
+      "highlight": "straightened",
+      "targetForm": "straighten somebody out",
+      "targetMeaningZh": "令某人改正行為或理清個人問題"
+    },
+    {
+      "id": "phrasal-verb-183-q55",
+      "number": 55,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "We are leaving for the weekend, but the flat is still untidy. Can everyone help put it in order?",
+      "promptZh": "我們週末會外出,但單位仍然很凌亂。大家可以幫忙整理好嗎?",
+      "starter": "We",
+      "answer": "We are leaving for the weekend, but the flat is still untidy. Can everyone help straighten it up?",
+      "answerZh": "我們週末會外出,但單位仍然很凌亂。大家可以幫忙整理好嗎?",
+      "highlight": "straighten",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q56",
+      "number": 56,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The online order shows the wrong address and delivery date. Please contact the shop and solve both problems.",
+      "promptZh": "網上訂單顯示了錯誤的地址和送貨日期。請聯絡店舖解決兩個問題。",
+      "starter": "The",
+      "answer": "The online order shows the wrong address and delivery date. Please contact the shop and straighten both problems out.",
+      "answerZh": "網上訂單顯示了錯誤的地址和送貨日期。請聯絡店舖解決兩個問題。",
+      "highlight": "straighten",
+      "targetForm": "straighten something out",
+      "targetMeaningZh": "解決或釐清問題"
+    },
+    {
+      "id": "phrasal-verb-183-q57",
+      "number": 57,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The thin plastic tube had been curled in a box for months, but warm water made it become straight again.",
+      "promptZh": "這條幼膠管在盒內捲了幾個月,但暖水令它再次變直。",
+      "starter": "The",
+      "answer": "The thin plastic tube had been curled in a box for months, but warm water made it straighten out again.",
+      "answerZh": "這條幼膠管在盒內捲了幾個月,但暖水令它再次變直。",
+      "highlight": "straighten out",
+      "targetForm": "straighten out",
+      "targetMeaningZh": "變直"
+    },
+    {
+      "id": "phrasal-verb-183-q58",
+      "number": 58,
+      "band": 1,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "When the photographer asked for a formal picture, the whole family stopped leaning and stood upright.",
+      "promptZh": "攝影師要求拍一張正式照片時,全家人都停止傾身並站直。",
+      "starter": "When",
+      "answer": "When the photographer asked for a formal picture, the whole family stopped leaning and straightened up.",
+      "answerZh": "攝影師要求拍一張正式照片時,全家人都停止傾身並挺直身子。",
+      "highlight": "straightened up",
+      "targetForm": "straighten up",
+      "targetMeaningZh": "挺直身體;直起身來"
+    },
+    {
+      "id": "phrasal-verb-183-q59",
+      "number": 59,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The class used the art room all afternoon. Before they leave, they need to put the room in order.",
+      "promptZh": "全班整個下午都使用美術室。離開前,他們需要把房間整理好。",
+      "starter": "The",
+      "answer": "The class used the art room all afternoon. Before they leave, they need to straighten up the room.",
+      "answerZh": "全班整個下午都使用美術室。離開前,他們需要把房間整理好。",
+      "highlight": "straighten up",
+      "targetForm": "straighten something up",
+      "targetMeaningZh": "把地方或物品整理整齊"
+    },
+    {
+      "id": "phrasal-verb-183-q60",
+      "number": 60,
+      "band": 1,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Her family could offer advice, but only she could decide to change her habits and take control of her life.",
+      "promptZh": "她的家人可以給予意見,但只有她自己能決定改變習慣,重新掌握生活。",
+      "starter": "Her",
+      "answer": "Her family could offer advice, but only she could decide to straighten herself out.",
+      "answerZh": "她的家人可以給予意見,但只有她自己能決定改變習慣,重新掌握生活。",
+      "highlight": "straighten herself out",
+      "targetForm": "straighten yourself out",
+      "targetMeaningZh": "使自己重新振作,讓生活重回正軌"
+    }
+  ]
+}

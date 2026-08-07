@@ -1,0 +1,1445 @@
+{
+  "id": "phrasal-verb-157",
+  "order": 157,
+  "slug": "tuck",
+  "version": "1",
+  "title": "TUCK 動詞片語",
+  "titleEn": "Tuck",
+  "titleZh": "TUCK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 156 - TUCK.pdf",
+    "sourceNumber": 156,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 TUCK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to TUCK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TUCK",
+      "highlight": "TUCK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The cottage is tucked away behind the trees.",
+      "zh": "那間小屋藏在樹後一個不顯眼的地方。",
+      "highlight": "tucked away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We tucked in hungrily.",
+      "zh": "我們肚餓地大吃起來。",
+      "highlight": "tucked in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Dad tucked the child in before leaving the room.",
+      "zh": "爸爸離開房間前替孩子蓋好被子。",
+      "highlight": "tucked the child in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處；開始吃;大口吃;津津有味地吃；替某人蓋好被子,讓他/她舒適入睡；把衣物、鬆出的部分或小物件塞好或放進某處；把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+    "en": "tuck something away; tuck in / tuck into something; tuck somebody in / tuck somebody up; tuck something in / tuck something into something; tuck something up",
+    "naturalZh": [
+      "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+      "開始吃;大口吃;津津有味地吃",
+      "替某人蓋好被子,讓他/她舒適入睡",
+      "把衣物、鬆出的部分或小物件塞好或放進某處",
+      "把雙腳、雙腿或膝蓋收起來或蜷在身旁"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "tuck something away",
+      "titleZh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+      "titleEn": "tuck something away",
+      "descriptionZh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+      "descriptionEn": "The cottage is tucked away behind the trees.",
+      "examples": [
+        {
+          "en": "The cottage is tucked away behind the trees.",
+          "zh": "那間小屋藏在樹後一個不顯眼的地方。",
+          "highlight": "tucked away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tuck in / tuck into something",
+      "titleZh": "開始吃;大口吃;津津有味地吃",
+      "titleEn": "tuck in / tuck into something",
+      "descriptionZh": "開始吃;大口吃;津津有味地吃",
+      "descriptionEn": "We tucked in hungrily.",
+      "examples": [
+        {
+          "en": "We tucked in hungrily.",
+          "zh": "我們肚餓地大吃起來。",
+          "highlight": "tucked in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tuck somebody in / tuck somebody up",
+      "titleZh": "替某人蓋好被子,讓他/她舒適入睡",
+      "titleEn": "tuck somebody in / tuck somebody up",
+      "descriptionZh": "替某人蓋好被子,讓他/她舒適入睡",
+      "descriptionEn": "Dad tucked the child in before leaving the room.",
+      "examples": [
+        {
+          "en": "Dad tucked the child in before leaving the room.",
+          "zh": "爸爸離開房間前替孩子蓋好被子。",
+          "highlight": "tucked the child in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "tuck something in / tuck something into something",
+      "titleZh": "把衣物、鬆出的部分或小物件塞好或放進某處",
+      "titleEn": "tuck something in / tuck something into something",
+      "descriptionZh": "把衣物、鬆出的部分或小物件塞好或放進某處",
+      "descriptionEn": "Please tuck your shirt into your trousers.",
+      "examples": [
+        {
+          "en": "Please tuck your shirt into your trousers.",
+          "zh": "請把恤衫塞進褲子裏。",
+          "highlight": "tuck your shirt into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "tuck something up",
+      "titleZh": "把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+      "titleEn": "tuck something up",
+      "descriptionZh": "把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+      "descriptionEn": "She tucked her feet up under her on the sofa.",
+      "examples": [
+        {
+          "en": "She tucked her feet up under her on the sofa.",
+          "zh": "她坐在梳化上,把雙腳收在身下。",
+          "highlight": "tucked her feet up"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TUCK 片語動詞的實際用途",
+    "labelEn": "TUCK Phrasal Verbs in Use",
+    "summaryZh": "tuck away 可以表示把物件安全收藏好,也可以形容遠離繁忙街道和人群的隱蔽地方。；tuck in 和 tuck into 可以表示某人開始津津有味地吃東西,特別適合描述肚餓時的情況。；tuck somebody in 和 tuck somebody up 可以描述在某人睡覺前替他/她蓋好被子。；TUCK 片語動詞可以表示把恤衫或鬆出的部分塞好,也可以表示把雙腳或膝蓋收近身體。",
+    "summaryEn": "Tuck away can describe something stored safely or a place hidden from busy streets and crowds. Tuck in and tuck into can show that somebody starts eating eagerly, especially when they are hungry. Tuck somebody in and tuck somebody up describe covering someone comfortably with blankets before sleep. TUCK expressions can describe pushing a shirt or loose edge inside, as well as pulling your feet or knees close to your body.",
+    "contextsZh": [
+      "談論收藏好的物件和隱蔽的地方",
+      "令進食的描述更加生動",
+      "自然地談論睡前照顧",
+      "描述整理衣物和細微的身體動作"
+    ],
+    "contextsEn": [
+      "Talk about hidden things and quiet places",
+      "Make descriptions of eating more lively",
+      "Talk naturally about care at bedtime",
+      "Describe neat clothing and small body movements"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TUCK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the TUCK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "tuck something away",
+    "fixedHighlight": "tuck something away",
+    "fixedZh": "閱讀整句,選出意思相同的 TUCK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the TUCK expression that gives the same meaning.",
+    "correct": "tucked away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her 或 it 時,請按照以上例子放在正確位置。；tuck somebody up 和 tuck something up 的意思並不相同。前者表示替某人蓋好被子;後者則表示把雙腳、雙腿或膝蓋收近身體。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her or it, follow these examples: tuck it away tuck him in tuck her up tuck it in Tuck somebody up and tuck something up do not mean the same thing. A person is made comfortable in bed, while feet, legs or knees are pulled close to the body.",
+    "variableItemsZh": [
+      "tuck something away",
+      "tuck in / tuck into something",
+      "tuck somebody in / tuck somebody up",
+      "tuck something in / tuck something into something",
+      "tuck something up"
+    ],
+    "variableItemsEn": [
+      "tuck something away",
+      "tuck in / tuck into something",
+      "tuck somebody in / tuck somebody up",
+      "tuck something in / tuck something into something",
+      "tuck something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+        "formEn": "tuck something away",
+        "exampleZh": "那間小屋藏在樹後一個不顯眼的地方。",
+        "exampleEn": "The cottage is tucked away behind the trees.",
+        "highlight": "tucked away"
+      },
+      {
+        "formZh": "開始吃;大口吃;津津有味地吃",
+        "formEn": "tuck in / tuck into something",
+        "exampleZh": "我們肚餓地大吃起來。",
+        "exampleEn": "We tucked in hungrily.",
+        "highlight": "tucked in"
+      },
+      {
+        "formZh": "替某人蓋好被子,讓他/她舒適入睡",
+        "formEn": "tuck somebody in / tuck somebody up",
+        "exampleZh": "爸爸離開房間前替孩子蓋好被子。",
+        "exampleEn": "Dad tucked the child in before leaving the room.",
+        "highlight": "tucked the child in"
+      },
+      {
+        "formZh": "把衣物、鬆出的部分或小物件塞好或放進某處",
+        "formEn": "tuck something in / tuck something into something",
+        "exampleZh": "請把恤衫塞進褲子裏。",
+        "exampleEn": "Please tuck your shirt into your trousers.",
+        "highlight": "tuck your shirt into"
+      },
+      {
+        "formZh": "把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+        "formEn": "tuck something up",
+        "exampleZh": "她坐在梳化上,把雙腳收在身下。",
+        "exampleEn": "She tucked her feet up under her on the sofa.",
+        "highlight": "tucked her feet up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+      "titleEn": "tuck something away",
+      "formula": "tuck something away",
+      "highlight": "tuck something away",
+      "descriptionZh": "把某物收藏在安全或不顯眼的地方;亦可表示某地方藏在安靜或偏僻處",
+      "descriptionEn": "The cottage is tucked away behind the trees.",
+      "examples": [
+        {
+          "en": "The cottage is tucked away behind the trees.",
+          "zh": "那間小屋藏在樹後一個不顯眼的地方。",
+          "highlight": "tucked away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "開始吃;大口吃;津津有味地吃",
+      "titleEn": "tuck in / tuck into something",
+      "formula": "tuck in / tuck into something",
+      "highlight": "tuck in / tuck into something",
+      "descriptionZh": "開始吃;大口吃;津津有味地吃",
+      "descriptionEn": "We tucked in hungrily.",
+      "examples": [
+        {
+          "en": "We tucked in hungrily.",
+          "zh": "我們肚餓地大吃起來。",
+          "highlight": "tucked in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "替某人蓋好被子,讓他/她舒適入睡",
+      "titleEn": "tuck somebody in / tuck somebody up",
+      "formula": "tuck somebody in / tuck somebody up",
+      "highlight": "tuck somebody in / tuck somebody up",
+      "descriptionZh": "替某人蓋好被子,讓他/她舒適入睡",
+      "descriptionEn": "Dad tucked the child in before leaving the room.",
+      "examples": [
+        {
+          "en": "Dad tucked the child in before leaving the room.",
+          "zh": "爸爸離開房間前替孩子蓋好被子。",
+          "highlight": "tucked the child in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把衣物、鬆出的部分或小物件塞好或放進某處",
+      "titleEn": "tuck something in / tuck something into something",
+      "formula": "tuck something in / tuck something into something",
+      "highlight": "tuck something in / tuck something into something",
+      "descriptionZh": "把衣物、鬆出的部分或小物件塞好或放進某處",
+      "descriptionEn": "Please tuck your shirt into your trousers.",
+      "examples": [
+        {
+          "en": "Please tuck your shirt into your trousers.",
+          "zh": "請把恤衫塞進褲子裏。",
+          "highlight": "tuck your shirt into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+      "titleEn": "tuck something up",
+      "formula": "tuck something up",
+      "highlight": "tuck something up",
+      "descriptionZh": "把雙腳、雙腿或膝蓋收起來或蜷在身旁",
+      "descriptionEn": "She tucked her feet up under her on the sofa.",
+      "examples": [
+        {
+          "en": "She tucked her feet up under her on the sofa.",
+          "zh": "她坐在梳化上,把雙腳收在身下。",
+          "highlight": "tucked her feet up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論收藏好的物件和隱蔽的地方",
+      "titleEn": "Talk about hidden things and quiet places",
+      "zh": "tuck away 可以表示把物件安全收藏好,也可以形容遠離繁忙街道和人群的隱蔽地方。",
+      "en": "Tuck away can describe something stored safely or a place hidden from busy streets and crowds."
+    },
+    {
+      "titleZh": "令進食的描述更加生動",
+      "titleEn": "Make descriptions of eating more lively",
+      "zh": "tuck in 和 tuck into 可以表示某人開始津津有味地吃東西,特別適合描述肚餓時的情況。",
+      "en": "Tuck in and tuck into can show that somebody starts eating eagerly, especially when they are hungry."
+    },
+    {
+      "titleZh": "自然地談論睡前照顧",
+      "titleEn": "Talk naturally about care at bedtime",
+      "zh": "tuck somebody in 和 tuck somebody up 可以描述在某人睡覺前替他/她蓋好被子。",
+      "en": "Tuck somebody in and tuck somebody up describe covering someone comfortably with blankets before sleep."
+    },
+    {
+      "titleZh": "描述整理衣物和細微的身體動作",
+      "titleEn": "Describe neat clothing and small body movements",
+      "zh": "TUCK 片語動詞可以表示把恤衫或鬆出的部分塞好,也可以表示把雙腳或膝蓋收近身體。",
+      "en": "TUCK expressions can describe pushing a shirt or loose edge inside, as well as pulling your feet or knees close to your body."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論收藏好的物件和隱蔽的地方",
+      "令進食的描述更加生動",
+      "自然地談論睡前照顧",
+      "描述整理衣物和細微的身體動作"
+    ],
+    "contextsEn": [
+      "Talk about hidden things and quiet places",
+      "Make descriptions of eating more lively",
+      "Talk naturally about care at bedtime",
+      "Describe neat clothing and small body movements"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論收藏好的物件和隱蔽的地方",
+        "titleEn": "Talk about hidden things and quiet places",
+        "zh": "tuck away 可以表示把物件安全收藏好,也可以形容遠離繁忙街道和人群的隱蔽地方。",
+        "en": "Tuck away can describe something stored safely or a place hidden from busy streets and crowds.",
+        "examples": [
+          {
+            "en": "The cottage is tucked away behind the trees.",
+            "zh": "那間小屋藏在樹後一個不顯眼的地方。",
+            "highlight": "tucked away"
+          }
+        ]
+      },
+      {
+        "titleZh": "令進食的描述更加生動",
+        "titleEn": "Make descriptions of eating more lively",
+        "zh": "tuck in 和 tuck into 可以表示某人開始津津有味地吃東西,特別適合描述肚餓時的情況。",
+        "en": "Tuck in and tuck into can show that somebody starts eating eagerly, especially when they are hungry.",
+        "examples": [
+          {
+            "en": "We tucked in hungrily.",
+            "zh": "我們肚餓地大吃起來。",
+            "highlight": "tucked in"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地談論睡前照顧",
+        "titleEn": "Talk naturally about care at bedtime",
+        "zh": "tuck somebody in 和 tuck somebody up 可以描述在某人睡覺前替他/她蓋好被子。",
+        "en": "Tuck somebody in and tuck somebody up describe covering someone comfortably with blankets before sleep.",
+        "examples": [
+          {
+            "en": "Dad tucked the child in before leaving the room.",
+            "zh": "爸爸離開房間前替孩子蓋好被子。",
+            "highlight": "tucked the child in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述整理衣物和細微的身體動作",
+        "titleEn": "Describe neat clothing and small body movements",
+        "zh": "TUCK 片語動詞可以表示把恤衫或鬆出的部分塞好,也可以表示把雙腳或膝蓋收近身體。",
+        "en": "TUCK expressions can describe pushing a shirt or loose edge inside, as well as pulling your feet or knees close to your body.",
+        "examples": [
+          {
+            "en": "Please tuck your shirt into your trousers.",
+            "zh": "請把恤衫塞進褲子裏。",
+            "highlight": "tuck your shirt into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TUCK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the TUCK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TUCK 片語動詞。",
+      "en": "Read the whole sentence and choose the TUCK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her 或 it 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her or it, follow these examples: tuck it away tuck him in tuck her up tuck it in.",
+      "zh": "使用 him、her 或 it 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her or it, follow these examples: tuck it away tuck him in tuck her up tuck it in"
+    },
+    {
+      "titleZh": "tuck somebody up 和 tuck something up 的意思並不相同。前者表示替某人蓋好被子;後者則表示把雙腳、雙腿或膝蓋收近身體。",
+      "titleEn": "Tuck somebody up and tuck something up do not mean the same thing.",
+      "zh": "tuck somebody up 和 tuck something up 的意思並不相同。前者表示替某人蓋好被子;後者則表示把雙腳、雙腿或膝蓋收近身體。",
+      "en": "Tuck somebody up and tuck something up do not mean the same thing. A person is made comfortable in bed, while feet, legs or knees are pulled close to the body."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TUCK 動詞片語句子改寫練習",
+    "titleEn": "TUCK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TUCK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TUCK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-157-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 14,
+      "prompt": "The children were very hungry after football training and began eating the hot noodles.",
+      "promptZh": "孩子們足球訓練後非常肚餓,便開始吃熱麵。",
+      "starter": "The",
+      "answer": "The children were very hungry after football training and tucked into the hot noodles.",
+      "answerZh": "孩子們足球訓練後非常肚餓,便開始津津有味地吃熱麵。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The small café is hidden behind the old market.",
+      "promptZh": "那間小咖啡店藏在舊市場後面。",
+      "starter": "The",
+      "answer": "The small café is tucked away behind the old market.",
+      "answerZh": "那間小咖啡店藏在舊市場後面。",
+      "highlight": "tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "藏在安靜或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Please push your shirt inside your trousers before the school photo.",
+      "promptZh": "拍學校照片前,請把恤衫塞進褲子裏。",
+      "starter": "Please",
+      "answer": "Please tuck your shirt in before the school photo.",
+      "answerZh": "拍學校照片前,請把恤衫塞進褲子裏。",
+      "highlight": "tuck",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞進去"
+    },
+    {
+      "id": "phrasal-verb-157-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Dad pulled the blankets around the little boy before bedtime.",
+      "promptZh": "睡覺前,爸爸替小男孩蓋好被子。",
+      "starter": "Dad",
+      "answer": "Dad tucked the little boy in before bedtime.",
+      "answerZh": "睡覺前,爸爸替小男孩蓋好被子。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "She pulled her feet close under her body on the sofa.",
+      "promptZh": "她坐在梳化上,把雙腳收在身下。",
+      "starter": "She",
+      "answer": "She tucked her feet up under her on the sofa.",
+      "answerZh": "她坐在梳化上,把雙腳收在身下。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Nora hid the spare key safely in a kitchen drawer.",
+      "promptZh": "諾拉把後備鎖匙安全地藏在廚房的一個抽屜裏。",
+      "starter": "Nora",
+      "answer": "Nora tucked the spare key away in a kitchen drawer.",
+      "answerZh": "諾拉把後備鎖匙安全地藏在廚房的一個抽屜裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Lily pushed the loose end of the scarf inside her coat.",
+      "promptZh": "莉莉把頸巾鬆出的末端塞進外套裏。",
+      "starter": "Lily",
+      "answer": "Lily tucked the loose end of the scarf into her coat.",
+      "answerZh": "莉莉把頸巾鬆出的末端塞進外套裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something into something",
+      "targetMeaningZh": "把某物塞進某處"
+    },
+    {
+      "id": "phrasal-verb-157-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We began eating as soon as dinner was served.",
+      "promptZh": "晚餐一端上來,我們便開始吃。",
+      "starter": "We",
+      "answer": "We tucked in as soon as dinner was served.",
+      "answerZh": "晚餐一端上來,我們便開始吃。",
+      "highlight": "tucked in",
+      "targetForm": "tuck in",
+      "targetMeaningZh": "開始吃;大口吃"
+    },
+    {
+      "id": "phrasal-verb-157-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The babysitter made both children warm and comfortable in bed at eight o’clock.",
+      "promptZh": "保母八時替兩個孩子蓋好被子,讓他們舒適入睡。",
+      "starter": "The",
+      "answer": "The babysitter tucked both children up in bed at eight o’clock.",
+      "answerZh": "保母八時替兩個孩子蓋好被子,讓他們舒適入睡。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody up",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We stored our passports safely before leaving the hotel room.",
+      "promptZh": "離開酒店房間前,我們把護照安全地收藏好。",
+      "starter": "We",
+      "answer": "We tucked our passports away before leaving the hotel room.",
+      "answerZh": "離開酒店房間前,我們把護照安全地收藏好。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The child pulled his knees close to his chest.",
+      "promptZh": "那個孩子把膝蓋屈起,貼近胸口。",
+      "starter": "The",
+      "answer": "The child tucked his knees up to his chest.",
+      "answerZh": "那個孩子把膝蓋屈起,貼近胸口。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The nurse pushed the loose edge of the blanket under the mattress.",
+      "promptZh": "護士把被子鬆出的邊緣塞到床褥下面。",
+      "starter": "The",
+      "answer": "The nurse tucked the loose edge of the blanket in under the mattress.",
+      "answerZh": "護士把被子鬆出的邊緣塞到床褥下面。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞進去"
+    },
+    {
+      "id": "phrasal-verb-157-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Amy sat on the cold floor and pulled her legs close under her body.",
+      "promptZh": "艾美坐在冰冷的地板上,把雙腿收在身下。",
+      "starter": "Amy",
+      "answer": "Amy sat on the cold floor and tucked her legs up under her.",
+      "answerZh": "艾美坐在冰冷的地板上,把雙腿收在身下。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Are you ready to start eating the cake?",
+      "promptZh": "你準備好開始吃蛋糕了嗎?",
+      "starter": "Are",
+      "answer": "Are you ready to tuck into the cake?",
+      "answerZh": "你準備好開始吃蛋糕了嗎?",
+      "highlight": "tuck into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Jon is pushing his shirt inside his trousers now.",
+      "promptZh": "喬恩現在正把恤衫塞進褲子裏。",
+      "starter": "Jon",
+      "answer": "Jon is tucking his shirt into his trousers now.",
+      "answerZh": "喬恩現在正把恤衫塞進褲子裏。",
+      "highlight": "tucking",
+      "targetForm": "tuck something into something",
+      "targetMeaningZh": "把某物塞進某處"
+    },
+    {
+      "id": "phrasal-verb-157-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The old photo album was stored safely at the back of the cupboard.",
+      "promptZh": "那本舊相簿被安全地收藏在櫃子後面。",
+      "starter": "The",
+      "answer": "The old photo album was tucked away at the back of the cupboard.",
+      "answerZh": "那本舊相簿被安全地收藏在櫃子後面。",
+      "highlight": "tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Grandma is arranging the blanket around the baby now.",
+      "promptZh": "嫲嫲現在正替嬰兒蓋好被子。",
+      "starter": "Grandma",
+      "answer": "Grandma is tucking the baby in now.",
+      "answerZh": "嫲嫲現在正替嬰兒蓋好被子。",
+      "highlight": "tucking",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Everyone was very hungry and was eating breakfast when the bus arrived.",
+      "promptZh": "巴士到達時,大家都非常肚餓,正在吃早餐。",
+      "starter": "Everyone",
+      "answer": "Everyone was very hungry and was tucking into breakfast when the bus arrived.",
+      "answerZh": "巴士到達時,大家都非常肚餓,正在津津有味地吃早餐。",
+      "highlight": "tucking into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The cat was sleeping with its paws pulled close beneath its body.",
+      "promptZh": "那隻貓睡覺時,把爪子收在身體下面。",
+      "starter": "The",
+      "answer": "The cat was sleeping with its paws tucked up under its body.",
+      "answerZh": "那隻貓睡覺時,把爪子收在身體下面。",
+      "highlight": "tucked up under",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把腳、腿或爪子收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "She pushed the label inside so it could not be seen.",
+      "promptZh": "她把衣物標籤塞進去,不讓人看見。",
+      "starter": "She",
+      "answer": "She tucked the label in so it could not be seen.",
+      "answerZh": "她把衣物標籤塞進去,不讓人看見。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞回裏面"
+    },
+    {
+      "id": "phrasal-verb-157-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "He has hidden the letter in a safe place where nobody will find it.",
+      "promptZh": "他已把那封信藏在一個沒有人會找到的安全地方。",
+      "starter": "He",
+      "answer": "He has tucked the letter away in a safe place where nobody will find it.",
+      "answerZh": "他已把那封信藏在一個沒有人會找到的安全地方。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Could you make me warm and comfortable in bed before you go downstairs?",
+      "promptZh": "你下樓前,可以替我蓋好被子嗎?",
+      "starter": "Could",
+      "answer": "Could you tuck me up in bed before you go downstairs?",
+      "answerZh": "你下樓前,可以替我蓋好被子嗎?",
+      "highlight": "tuck",
+      "targetForm": "tuck somebody up",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Why are you pulling your knees close to your chest on the chair?",
+      "promptZh": "你為甚麼坐在椅子上,把膝蓋屈起貼近胸口?",
+      "starter": "Why",
+      "answer": "Why are you tucking your knees up to your chest on the chair?",
+      "answerZh": "你為甚麼坐在椅子上,把膝蓋屈起貼近胸口?",
+      "highlight": "tucking",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Please start eating before the food gets cold.",
+      "promptZh": "請在食物變冷前開始吃吧。",
+      "starter": "Please",
+      "answer": "Please tuck in before the food gets cold.",
+      "answerZh": "請在食物變冷前開始吃吧。",
+      "highlight": "tuck in",
+      "targetForm": "tuck in",
+      "targetMeaningZh": "開始吃;大口吃"
+    },
+    {
+      "id": "phrasal-verb-157-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The child was cold, so his mother arranged the blankets around him more tightly.",
+      "promptZh": "那個孩子覺得冷,所以媽媽替他把被子蓋得更緊。",
+      "starter": "The",
+      "answer": "The child was cold, so his mother tucked him in more tightly.",
+      "answerZh": "那個孩子覺得冷,所以媽媽替他把被子蓋得更緊。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "One corner of the note was outside Kai’s pocket after the wind blew, so he pushed it back inside.",
+      "promptZh": "風吹過後,紙條的一角露出啟的口袋外,所以他把它塞回裏面。",
+      "starter": "One",
+      "answer": "One corner of the note was outside Kai’s pocket after the wind blew, so he tucked it back in.",
+      "answerZh": "風吹過後,紙條的一角露出啟的口袋外,所以他把它塞回裏面。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞回裏面"
+    },
+    {
+      "id": "phrasal-verb-157-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Sam found the ring and hid it safely in his desk drawer.",
+      "promptZh": "森找到戒指後,把它安全地藏在書桌抽屜裏。",
+      "starter": "Sam",
+      "answer": "Sam found the ring and tucked it away in his desk drawer.",
+      "answerZh": "森找到戒指後,把它安全地藏在書桌抽屜裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "They had already started eating the pizza before I sat down.",
+      "promptZh": "我坐下前,他們已經開始吃薄餅。",
+      "starter": "They",
+      "answer": "They had already tucked into the pizza before I sat down.",
+      "answerZh": "我坐下前,他們已經開始吃薄餅。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "After he removed his shoes, Leo pulled his feet under his body.",
+      "promptZh": "里奧脫鞋後,把雙腳收在身下。",
+      "starter": "After",
+      "answer": "After he removed his shoes, Leo tucked his feet up under him.",
+      "answerZh": "里奧脫鞋後,把雙腳收在身下。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Please push the corner of the sheet under the mattress.",
+      "promptZh": "請把床單的一角塞到床褥下面。",
+      "starter": "Please",
+      "answer": "Please tuck the corner of the sheet in under the mattress.",
+      "answerZh": "請把床單的一角塞到床褥下面。",
+      "highlight": "tuck",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞進去"
+    },
+    {
+      "id": "phrasal-verb-157-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After reading the story, Max made his daughter comfortable in bed and kissed her goodnight.",
+      "promptZh": "讀完故事後,麥斯替女兒蓋好被子,並親吻她道晚安。",
+      "starter": "After",
+      "answer": "After reading the story, Max tucked his daughter up in bed and kissed her goodnight.",
+      "answerZh": "讀完故事後,麥斯替女兒蓋好被子,並親吻她道晚安。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody up",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The village lies hidden between two green hills.",
+      "promptZh": "那條村莊隱藏在兩座青翠的山之間。",
+      "starter": "The",
+      "answer": "The village is tucked away between two green hills.",
+      "answerZh": "那條村莊隱藏在兩座青翠的山之間。",
+      "highlight": "is tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "藏在安靜或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The child sat beside the window with her legs pulled close to her body.",
+      "promptZh": "那個孩子坐在窗邊,把雙腿屈起貼近身體。",
+      "starter": "The",
+      "answer": "The child sat beside the window with her legs tucked up.",
+      "answerZh": "那個孩子坐在窗邊,把雙腿屈起貼近身體。",
+      "highlight": "tucked up",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the long walk, we were very hungry and began eating our bowls of hot soup.",
+      "promptZh": "走了很久後,我們非常肚餓,便開始喝各自碗裏的熱湯。",
+      "starter": "After",
+      "answer": "After the long walk, we were very hungry and tucked into our bowls of hot soup.",
+      "answerZh": "走了很久後,我們非常肚餓,便津津有味地喝起各自碗裏的熱湯。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A short piece of wire was outside the box, so the worker pushed it inside.",
+      "promptZh": "一小段電線露在盒子外面,所以工人把它塞回裏面。",
+      "starter": "A",
+      "answer": "A short piece of wire was outside the box, so the worker tucked it in.",
+      "answerZh": "一小段電線露在盒子外面,所以工人把它塞回裏面。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞回裏面"
+    },
+    {
+      "id": "phrasal-verb-157-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The nurse quietly arranged the blanket around the young patient after checking the room.",
+      "promptZh": "護士檢查房間後,悄悄替年幼病人蓋好被子。",
+      "starter": "The",
+      "answer": "The nurse quietly tucked the young patient in after checking the room.",
+      "answerZh": "護士檢查房間後,悄悄替年幼病人蓋好被子。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "A reading room is hidden in a quiet corner of the top floor.",
+      "promptZh": "頂樓一個安靜角落裏,藏着一間閱讀室。",
+      "starter": "A",
+      "answer": "A reading room is tucked away in a quiet corner of the top floor.",
+      "answerZh": "頂樓一個安靜角落裏,藏着一間閱讀室。",
+      "highlight": "tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "藏在安靜或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "When the twins fell asleep on the sofa, their aunt carried them to bed and pulled the covers around them.",
+      "promptZh": "雙胞胎在梳化上睡着後,姨姨把他們抱到床上,再替他們蓋好被子。",
+      "starter": "When",
+      "answer": "When the twins fell asleep on the sofa, their aunt carried them to bed and tucked them in.",
+      "answerZh": "雙胞胎在梳化上睡着後,姨姨把他們抱到床上,再替他們蓋好被子。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The guests did not start eating until the host joined them.",
+      "promptZh": "主人加入後,客人才開始吃東西。",
+      "starter": "The",
+      "answer": "The guests did not tuck in until the host joined them.",
+      "answerZh": "主人加入後,客人才開始吃東西。",
+      "highlight": "tuck in",
+      "targetForm": "tuck in",
+      "targetMeaningZh": "開始吃;大口吃"
+    },
+    {
+      "id": "phrasal-verb-157-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Before the performance, Eva pushed the ribbon inside her belt.",
+      "promptZh": "表演前,伊娃把絲帶塞進腰帶裏。",
+      "starter": "Before",
+      "answer": "Before the performance, Eva tucked the ribbon into her belt.",
+      "answerZh": "表演前,伊娃把絲帶塞進腰帶裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something into something",
+      "targetMeaningZh": "把某物塞進某處"
+    },
+    {
+      "id": "phrasal-verb-157-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because the seat was narrow, Ben pulled his feet close under his body.",
+      "promptZh": "因為座位很窄,賓把雙腳收在身下。",
+      "starter": "Because",
+      "answer": "Because the seat was narrow, Ben tucked his feet up under him.",
+      "answerZh": "因為座位很窄,賓把雙腳收在身下。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The child asked whether his older brother would make him comfortable in bed that night.",
+      "promptZh": "那個孩子問哥哥當晚會否替他蓋好被子。",
+      "starter": "The",
+      "answer": "The child asked whether his older brother would tuck him up in bed that night.",
+      "answerZh": "那個孩子問哥哥當晚會否替他蓋好被子。",
+      "highlight": "tuck",
+      "targetForm": "tuck somebody up",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "She hid the birthday present before her brother came home.",
+      "promptZh": "她在弟弟回家前把生日禮物藏好。",
+      "starter": "She",
+      "answer": "She tucked the birthday present away before her brother came home.",
+      "answerZh": "她在弟弟回家前把生日禮物藏好。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The child kept pulling at his shirt until his father pushed it inside his trousers again.",
+      "promptZh": "孩子不停拉扯恤衫,直至爸爸再次把它塞進褲子裏。",
+      "starter": "The",
+      "answer": "The child kept pulling at his shirt until his father tucked it in again.",
+      "answerZh": "孩子不停拉扯恤衫,直至爸爸再次把它塞進褲子裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞回裏面"
+    },
+    {
+      "id": "phrasal-verb-157-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Ben was very hungry and began eating his lunch while the others were still choosing.",
+      "promptZh": "其他人仍在選擇食物時,賓已非常肚餓,開始吃午餐。",
+      "starter": "Ben",
+      "answer": "Ben was very hungry and tucked into his lunch while the others were still choosing.",
+      "answerZh": "其他人仍在選擇食物時,賓已非常肚餓,開始津津有味地吃午餐。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "You can leave once you have arranged the blankets around the children.",
+      "promptZh": "你替孩子們蓋好被子後,便可以離開。",
+      "starter": "You",
+      "answer": "You can leave once you have tucked the children in.",
+      "answerZh": "你替孩子們蓋好被子後,便可以離開。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The puppy pulled its paws close beneath its chest and rested its head on the cushion.",
+      "promptZh": "小狗把爪子收在胸口下面,並把頭靠在墊子上。",
+      "starter": "The",
+      "answer": "The puppy tucked its paws up under its chest and rested its head on the cushion.",
+      "answerZh": "小狗把爪子收在胸口下面,並把頭靠在墊子上。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把腳、腿或爪子收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The hotel was hidden far from the busy road, so the rooms stayed quiet.",
+      "promptZh": "酒店藏在遠離繁忙道路的地方,所以房間一直很寧靜。",
+      "starter": "The",
+      "answer": "The hotel was tucked away far from the busy road, so the rooms stayed quiet.",
+      "answerZh": "酒店藏在遠離繁忙道路的地方,所以房間一直很寧靜。",
+      "highlight": "tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "藏在安靜或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "During the long journey, Eva pulled her legs close under her body on the seat and read quietly.",
+      "promptZh": "長途旅程中,伊娃把雙腿收在座位上的身下,靜靜地閱讀。",
+      "starter": "During",
+      "answer": "During the long journey, Eva tucked her legs up under her on the seat and read quietly.",
+      "answerZh": "長途旅程中,伊娃把雙腿收在座位上的身下,靜靜地閱讀。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Once the doors opened, the hungry runners began eating the sandwiches on the table inside.",
+      "promptZh": "門一打開,飢餓的跑手便開始吃裏面桌上的三文治。",
+      "starter": "Once",
+      "answer": "Once the doors opened, the hungry runners tucked into the sandwiches on the table inside.",
+      "answerZh": "門一打開,飢餓的跑手便開始吃裏面桌上的三文治。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Although the path was easy to miss, a tiny bookshop was hidden at its end.",
+      "promptZh": "雖然那條小路很容易錯過,但盡頭藏着一間小書店。",
+      "starter": "Although",
+      "answer": "Although the path was easy to miss, a tiny bookshop was tucked away at its end.",
+      "answerZh": "雖然那條小路很容易錯過,但盡頭藏着一間小書店。",
+      "highlight": "tucked away",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "藏在安靜或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Because the sleeve was too long, Owen pushed the end inside his glove.",
+      "promptZh": "因為衣袖太長,奧雲把末端塞進手套裏。",
+      "starter": "Because",
+      "answer": "Because the sleeve was too long, Owen tucked the end into his glove.",
+      "answerZh": "因為衣袖太長,奧雲把末端塞進手套裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something into something",
+      "targetMeaningZh": "把某物塞進某處"
+    },
+    {
+      "id": "phrasal-verb-157-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Even though the room was warm, the child still wanted her grandmother to make her comfortable in bed.",
+      "promptZh": "雖然房間很暖,那個孩子仍想嫲嫲替她蓋好被子。",
+      "starter": "Even",
+      "answer": "Even though the room was warm, the child still wanted her grandmother to tuck her up in bed.",
+      "answerZh": "雖然房間很暖,那個孩子仍想嫲嫲替她蓋好被子。",
+      "highlight": "tuck",
+      "targetForm": "tuck somebody up",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Why did the hungry children begin eating the picnic food at once?",
+      "promptZh": "肚餓的孩子們為甚麼立即開始吃野餐食物?",
+      "starter": "Why",
+      "answer": "Why did the hungry children tuck into the picnic food at once?",
+      "answerZh": "肚餓的孩子們為甚麼立即開始吃野餐食物?",
+      "highlight": "tuck into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "When the floor became cold, the children pulled their feet close beneath the blanket.",
+      "promptZh": "地板變冷時,孩子們把雙腳收在毛氈下面。",
+      "starter": "When",
+      "answer": "When the floor became cold, the children tucked their feet up under the blanket.",
+      "answerZh": "地板變冷時,孩子們把雙腳收在毛氈下面。",
+      "highlight": "tucked",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    },
+    {
+      "id": "phrasal-verb-157-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After checking the cash, the shop owner hid it safely beneath the counter.",
+      "promptZh": "店主點算現金後,把它安全地藏在櫃台下面。",
+      "starter": "After",
+      "answer": "After checking the cash, the shop owner tucked it away beneath the counter.",
+      "answerZh": "店主點算現金後,把它安全地藏在櫃台下面。",
+      "highlight": "tucked",
+      "targetForm": "tuck something away",
+      "targetMeaningZh": "把某物收藏在安全或不顯眼的地方"
+    },
+    {
+      "id": "phrasal-verb-157-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "One corner of the map would not stay inside the bag, so Rosa folded it and pushed it inside.",
+      "promptZh": "地圖的一角總是露出袋外,所以羅莎把它摺起,再塞進袋裏。",
+      "starter": "One",
+      "answer": "One corner of the map would not stay inside the bag, so Rosa folded it and tucked it in.",
+      "answerZh": "地圖的一角總是露出袋外,所以羅莎把它摺起,再塞進袋裏。",
+      "highlight": "tucked",
+      "targetForm": "tuck something in",
+      "targetMeaningZh": "把某物塞好或塞回裏面"
+    },
+    {
+      "id": "phrasal-verb-157-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "By the time I entered the room, Dad had already arranged the blanket around the baby.",
+      "promptZh": "我進入房間時,爸爸已替嬰兒蓋好被子。",
+      "starter": "By",
+      "answer": "By the time I entered the room, Dad had already tucked the baby in.",
+      "answerZh": "我進入房間時,爸爸已替嬰兒蓋好被子。",
+      "highlight": "tucked",
+      "targetForm": "tuck somebody in",
+      "targetMeaningZh": "替某人蓋好被子"
+    },
+    {
+      "id": "phrasal-verb-157-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Ava had missed lunch, so she was very hungry and began eating the meal as soon as she reached home.",
+      "promptZh": "艾娃錯過了午餐,所以非常肚餓,一回到家便開始吃飯。",
+      "starter": "Ava",
+      "answer": "Ava had missed lunch, so she was very hungry and tucked into the meal as soon as she reached home.",
+      "answerZh": "艾娃錯過了午餐,所以非常肚餓,一回到家便津津有味地吃飯。",
+      "highlight": "tucked into",
+      "targetForm": "tuck into something",
+      "targetMeaningZh": "開始大口吃;津津有味地吃"
+    },
+    {
+      "id": "phrasal-verb-157-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After the room became dark, Arun sat in the corner with his knees pulled close under his chin.",
+      "promptZh": "房間變暗後,阿倫坐在角落,把膝蓋屈起至下巴下面。",
+      "starter": "After",
+      "answer": "After the room became dark, Arun sat in the corner with his knees tucked up under his chin.",
+      "answerZh": "房間變暗後,阿倫坐在角落,把膝蓋屈起至下巴下面。",
+      "highlight": "tucked up",
+      "targetForm": "tuck something up",
+      "targetMeaningZh": "把雙腳、雙腿或膝蓋收近身體"
+    }
+  ]
+}

@@ -1,0 +1,1200 @@
+{
+  "id": "phrasal-verb-239",
+  "order": 239,
+  "slug": "lose",
+  "version": "1",
+  "title": "LOSE 動詞片語",
+  "titleEn": "Lose",
+  "titleZh": "LOSE 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 230 - LOSE.pdf",
+    "sourceNumber": 230,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LOSE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LOSE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LOSE",
+      "highlight": "LOSE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Children who stay up too late may lose out on sleep.",
+      "zh": "太晚睡覺的孩子可能會睡眠不足。",
+      "highlight": "lose out on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The small shop lost out to a large supermarket.",
+      "zh": "這間小店不敵一間大型超級市場。",
+      "highlight": "lost out to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Eva lost herself in the story.",
+      "zh": "伊娃沉浸在故事之中。",
+      "highlight": "lost herself in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "錯失或未能獲得某個機會、體驗或好處；不敵或敗給另一個人、團體或事物；沉浸於某事;全神貫注於某事",
+    "en": "lose out on something; lose out to somebody/something; lose yourself in something",
+    "naturalZh": [
+      "錯失或未能獲得某個機會、體驗或好處",
+      "不敵或敗給另一個人、團體或事物",
+      "沉浸於某事;全神貫注於某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "lose out on something",
+      "titleZh": "錯失或未能獲得某個機會、體驗或好處",
+      "titleEn": "lose out on something",
+      "descriptionZh": "錯失或未能獲得某個機會、體驗或好處",
+      "descriptionEn": "Children who stay up too late may lose out on sleep.",
+      "examples": [
+        {
+          "en": "Children who stay up too late may lose out on sleep.",
+          "zh": "太晚睡覺的孩子可能會睡眠不足。",
+          "highlight": "lose out on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lose out to somebody/something",
+      "titleZh": "不敵或敗給另一個人、團體或事物",
+      "titleEn": "lose out to somebody/something",
+      "descriptionZh": "不敵或敗給另一個人、團體或事物",
+      "descriptionEn": "The small shop lost out to a large supermarket.",
+      "examples": [
+        {
+          "en": "The small shop lost out to a large supermarket.",
+          "zh": "這間小店不敵一間大型超級市場。",
+          "highlight": "lost out to"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "lose yourself in something",
+      "titleZh": "沉浸於某事;全神貫注於某事",
+      "titleEn": "lose yourself in something",
+      "descriptionZh": "沉浸於某事;全神貫注於某事",
+      "descriptionEn": "Eva lost herself in the story.",
+      "examples": [
+        {
+          "en": "Eva lost herself in the story.",
+          "zh": "伊娃沉浸在故事之中。",
+          "highlight": "lost herself in"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LOSE 片語動詞的實際用途",
+    "labelEn": "LOSE Phrasal Verbs in Use",
+    "summaryZh": "lose out on 可以幫助你表達某人未能得到某個機會、體驗或有用服務。；lose out to 可以表示另一個人、隊伍、店舖或產品較為成功。；lose yourself in something 可以描述某人非常投入,甚至沒有留意時間或身邊的事物。；這些表達讓 LOSE 可以用來描述錯失機會、競爭落敗和全神貫注。",
+    "summaryEn": "Lose out on helps you explain that someone does not receive an opportunity, experience or useful service. Lose out to shows that another person, team, shop or product is more successful. Lose yourself in something describes becoming so interested that you stop noticing the time or things around you. These expressions allow LOSE to describe missed opportunities, unsuccessful competition and complete concentration.",
+    "contextsZh": [
+      "談論錯失的機會和好處",
+      "比較競爭和商業上的成敗",
+      "描述全情投入和享受",
+      "理解由 LOSE 組成的不同意思"
+    ],
+    "contextsEn": [
+      "Talk about missed chances and benefits",
+      "Compare success in competitions and business",
+      "Describe deep interest and enjoyment",
+      "Understand different meanings formed with LOSE"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LOSE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LOSE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "lose out on something",
+    "fixedHighlight": "lose out on something",
+    "fixedZh": "閱讀整句,選出意思相同的 LOSE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LOSE expression that gives the same meaning.",
+    "correct": "lose out on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；lose out on something 表示某人未能獲得或享有某個機會、體驗或好處;lose out tosomebody or something 則表示另一個人或事物較為成功。Some pupils lose out on useful activities.(部分學生未能參與有用的活動。)Small shops sometimes lose out to large supermarkets.(小店有時不敵大型超級市場。)；in 前面的字須配合不同人物:I lost myself in the book.(我沉浸在書中。)She lost herself in the book.(她沉浸在書中。)They lost themselves in the book.(他們沉浸在書中。)",
+    "variableEn": "Keep the same people, things, time and meaning. Lose out on something means that someone does not receive or enjoy an opportunity, experience or benefit. Lose out to somebody or something means that another person or thing is more successful. The word before in changes with the person:",
+    "variableItemsZh": [
+      "lose out on something",
+      "lose out to somebody/something",
+      "lose yourself in something"
+    ],
+    "variableItemsEn": [
+      "lose out on something",
+      "lose out to somebody/something",
+      "lose yourself in something"
+    ],
+    "forms": [
+      {
+        "formZh": "錯失或未能獲得某個機會、體驗或好處",
+        "formEn": "lose out on something",
+        "exampleZh": "太晚睡覺的孩子可能會睡眠不足。",
+        "exampleEn": "Children who stay up too late may lose out on sleep.",
+        "highlight": "lose out on"
+      },
+      {
+        "formZh": "不敵或敗給另一個人、團體或事物",
+        "formEn": "lose out to somebody/something",
+        "exampleZh": "這間小店不敵一間大型超級市場。",
+        "exampleEn": "The small shop lost out to a large supermarket.",
+        "highlight": "lost out to"
+      },
+      {
+        "formZh": "沉浸於某事;全神貫注於某事",
+        "formEn": "lose yourself in something",
+        "exampleZh": "伊娃沉浸在故事之中。",
+        "exampleEn": "Eva lost herself in the story.",
+        "highlight": "lost herself in"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "錯失或未能獲得某個機會、體驗或好處",
+      "titleEn": "lose out on something",
+      "formula": "lose out on something",
+      "highlight": "lose out on something",
+      "descriptionZh": "錯失或未能獲得某個機會、體驗或好處",
+      "descriptionEn": "Children who stay up too late may lose out on sleep.",
+      "examples": [
+        {
+          "en": "Children who stay up too late may lose out on sleep.",
+          "zh": "太晚睡覺的孩子可能會睡眠不足。",
+          "highlight": "lose out on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "不敵或敗給另一個人、團體或事物",
+      "titleEn": "lose out to somebody/something",
+      "formula": "lose out to somebody/something",
+      "highlight": "lose out to somebody/something",
+      "descriptionZh": "不敵或敗給另一個人、團體或事物",
+      "descriptionEn": "The small shop lost out to a large supermarket.",
+      "examples": [
+        {
+          "en": "The small shop lost out to a large supermarket.",
+          "zh": "這間小店不敵一間大型超級市場。",
+          "highlight": "lost out to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "沉浸於某事;全神貫注於某事",
+      "titleEn": "lose yourself in something",
+      "formula": "lose yourself in something",
+      "highlight": "lose yourself in something",
+      "descriptionZh": "沉浸於某事;全神貫注於某事",
+      "descriptionEn": "Eva lost herself in the story.",
+      "examples": [
+        {
+          "en": "Eva lost herself in the story.",
+          "zh": "伊娃沉浸在故事之中。",
+          "highlight": "lost herself in"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論錯失的機會和好處",
+      "titleEn": "Talk about missed chances and benefits",
+      "zh": "lose out on 可以幫助你表達某人未能得到某個機會、體驗或有用服務。",
+      "en": "Lose out on helps you explain that someone does not receive an opportunity, experience or useful service."
+    },
+    {
+      "titleZh": "比較競爭和商業上的成敗",
+      "titleEn": "Compare success in competitions and business",
+      "zh": "lose out to 可以表示另一個人、隊伍、店舖或產品較為成功。",
+      "en": "Lose out to shows that another person, team, shop or product is more successful."
+    },
+    {
+      "titleZh": "描述全情投入和享受",
+      "titleEn": "Describe deep interest and enjoyment",
+      "zh": "lose yourself in something 可以描述某人非常投入,甚至沒有留意時間或身邊的事物。",
+      "en": "Lose yourself in something describes becoming so interested that you stop noticing the time or things around you."
+    },
+    {
+      "titleZh": "理解由 LOSE 組成的不同意思",
+      "titleEn": "Understand different meanings formed with LOSE",
+      "zh": "這些表達讓 LOSE 可以用來描述錯失機會、競爭落敗和全神貫注。",
+      "en": "These expressions allow LOSE to describe missed opportunities, unsuccessful competition and complete concentration."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論錯失的機會和好處",
+      "比較競爭和商業上的成敗",
+      "描述全情投入和享受",
+      "理解由 LOSE 組成的不同意思"
+    ],
+    "contextsEn": [
+      "Talk about missed chances and benefits",
+      "Compare success in competitions and business",
+      "Describe deep interest and enjoyment",
+      "Understand different meanings formed with LOSE"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論錯失的機會和好處",
+        "titleEn": "Talk about missed chances and benefits",
+        "zh": "lose out on 可以幫助你表達某人未能得到某個機會、體驗或有用服務。",
+        "en": "Lose out on helps you explain that someone does not receive an opportunity, experience or useful service.",
+        "examples": [
+          {
+            "en": "Children who stay up too late may lose out on sleep.",
+            "zh": "太晚睡覺的孩子可能會睡眠不足。",
+            "highlight": "lose out on"
+          }
+        ]
+      },
+      {
+        "titleZh": "比較競爭和商業上的成敗",
+        "titleEn": "Compare success in competitions and business",
+        "zh": "lose out to 可以表示另一個人、隊伍、店舖或產品較為成功。",
+        "en": "Lose out to shows that another person, team, shop or product is more successful.",
+        "examples": [
+          {
+            "en": "The small shop lost out to a large supermarket.",
+            "zh": "這間小店不敵一間大型超級市場。",
+            "highlight": "lost out to"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述全情投入和享受",
+        "titleEn": "Describe deep interest and enjoyment",
+        "zh": "lose yourself in something 可以描述某人非常投入,甚至沒有留意時間或身邊的事物。",
+        "en": "Lose yourself in something describes becoming so interested that you stop noticing the time or things around you.",
+        "examples": [
+          {
+            "en": "Eva lost herself in the story.",
+            "zh": "伊娃沉浸在故事之中。",
+            "highlight": "lost herself in"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解由 LOSE 組成的不同意思",
+        "titleEn": "Understand different meanings formed with LOSE",
+        "zh": "這些表達讓 LOSE 可以用來描述錯失機會、競爭落敗和全神貫注。",
+        "en": "These expressions allow LOSE to describe missed opportunities, unsuccessful competition and complete concentration.",
+        "examples": [
+          {
+            "en": "Children who stay up too late may lose out on sleep.",
+            "zh": "太晚睡覺的孩子可能會睡眠不足。",
+            "highlight": "lose out on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LOSE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LOSE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LOSE 片語動詞。",
+      "en": "Read the whole sentence and choose the LOSE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "lose out on something 表示某人未能獲得或享有某個機會、體驗或好處;lose out tosomebody or something 則表示另一個人或事物較為成功。Some pupils lose out on useful activities.(部分學生未能參與有用的活動。)Small shops sometimes lose out to large supermarkets.(小店有時不敵大型超級市場。)",
+      "titleEn": "Lose out on something means that someone does not receive or enjoy an opportunity, experience or benefit.",
+      "zh": "lose out on something 表示某人未能獲得或享有某個機會、體驗或好處;lose out tosomebody or something 則表示另一個人或事物較為成功。Some pupils lose out on useful activities.(部分學生未能參與有用的活動。)Small shops sometimes lose out to large supermarkets.(小店有時不敵大型超級市場。)",
+      "en": "Lose out on something means that someone does not receive or enjoy an opportunity, experience or benefit. Lose out to somebody or something means that another person or thing is more successful."
+    },
+    {
+      "titleZh": "in 前面的字須配合不同人物:I lost myself in the book.(我沉浸在書中。)She lost herself in the book.(她沉浸在書中。)They lost themselves in the book.(他們沉浸在書中。)",
+      "titleEn": "The word before in changes with the person:.",
+      "zh": "in 前面的字須配合不同人物:I lost myself in the book.(我沉浸在書中。)She lost herself in the book.(她沉浸在書中。)They lost themselves in the book.(他們沉浸在書中。)",
+      "en": "The word before in changes with the person:"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LOSE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LOSE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LOSE 動詞片語句子改寫練習",
+    "titleEn": "LOSE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LOSE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LOSE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-239-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Some children do not get enough sleep when they stay online too late.",
+      "promptZh": "有些孩子因上網太晚而睡眠不足。",
+      "starter": "Some",
+      "answer": "Some children lose out on sleep when they stay online too late.",
+      "answerZh": "有些孩子因上網太晚而睡眠不足。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Eva soon became completely absorbed in the story.",
+      "promptZh": "伊娃很快便完全沉浸在故事之中。",
+      "starter": "Eva",
+      "answer": "Eva soon lost herself in the story.",
+      "answerZh": "伊娃很快便完全沉浸在故事之中。",
+      "highlight": "lost herself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The small café was less successful than the new chain restaurant.",
+      "promptZh": "這間小咖啡店不及新開的連鎖餐廳成功。",
+      "starter": "The",
+      "answer": "The small café lost out to the new chain restaurant.",
+      "answerZh": "這間小咖啡店不敵新開的連鎖餐廳。",
+      "highlight": "lost out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Students who skip the trip may miss a useful experience.",
+      "promptZh": "不參加旅行的學生可能會錯失一次有用的體驗。",
+      "starter": "Students",
+      "answer": "Students who skip the trip may lose out on a useful experience.",
+      "answerZh": "不參加旅行的學生可能會錯失一次有用的體驗。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I became completely absorbed in the music for an hour.",
+      "promptZh": "我有一小時完全沉浸在音樂之中。",
+      "starter": "I",
+      "answer": "I lost myself in the music for an hour.",
+      "answerZh": "我有一小時完全沉浸在音樂之中。",
+      "highlight": "lost myself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Our team was beaten by a stronger side in the final.",
+      "promptZh": "我們的球隊在決賽中敗給了一支實力較強的隊伍。",
+      "starter": "Our",
+      "answer": "Our team lost out to a stronger side in the final.",
+      "answerZh": "我們的球隊在決賽中敗給了一支實力較強的隊伍。",
+      "highlight": "lost out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben missed the chance to join the school team.",
+      "promptZh": "賓錯失了加入校隊的機會。",
+      "starter": "Ben",
+      "answer": "Ben lost out on the chance to join the school team.",
+      "answerZh": "賓錯失了加入校隊的機會。",
+      "highlight": "lost out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Local shops are often less successful than large supermarkets.",
+      "promptZh": "本地小店往往不及大型超級市場成功。",
+      "starter": "Local",
+      "answer": "Local shops often lose out to large supermarkets.",
+      "answerZh": "本地小店往往不敵大型超級市場。",
+      "highlight": "lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The children became completely absorbed in the game.",
+      "promptZh": "孩子們完全沉浸在遊戲之中。",
+      "starter": "The",
+      "answer": "The children lost themselves in the game.",
+      "answerZh": "孩子們完全沉浸在遊戲之中。",
+      "highlight": "lost themselves",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Because they have no internet access, some pupils miss useful online lessons.",
+      "promptZh": "由於沒有互聯網連線,部分學生錯過了有用的網上課堂。",
+      "starter": "Without",
+      "answer": "Without internet access, some pupils lose out on useful online lessons.",
+      "answerZh": "沒有互聯網連線,部分學生便會錯過有用的網上課堂。",
+      "highlight": "Without",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Small bookshops are becoming less successful than online sellers.",
+      "promptZh": "小型書店正逐漸不敵網上賣家。",
+      "starter": "Small",
+      "answer": "Small bookshops are losing out to online sellers.",
+      "answerZh": "小型書店正逐漸不敵網上賣家。",
+      "highlight": "losing out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Because of her injury, Aisha has missed several training sessions.",
+      "promptZh": "艾莎因受傷而錯過了數節訓練。",
+      "starter": "Because",
+      "answer": "Because of her injury, Aisha has lost out on several training sessions.",
+      "answerZh": "艾莎因受傷而錯過了數節訓練。",
+      "highlight": "lost out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You can become completely absorbed in this quiet garden for hours.",
+      "promptZh": "你可以在這個寧靜花園中沉浸數小時。",
+      "starter": "You",
+      "answer": "You can lose yourself in this quiet garden for hours.",
+      "answerZh": "你可以在這個寧靜花園中沉浸數小時。",
+      "highlight": "lose yourself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are family-run stores becoming less successful than bigger companies?",
+      "promptZh": "為甚麼家庭經營的店舖正逐漸不敵較大型的公司?",
+      "starter": "Why",
+      "answer": "Why are family-run stores losing out to bigger companies?",
+      "answerZh": "為甚麼家庭經營的店舖正逐漸不敵較大型的公司?",
+      "highlight": "losing out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "With careful planning, we will not miss the discount for booking early.",
+      "promptZh": "只要小心計劃,我們便不會錯過提早預訂的折扣。",
+      "starter": "With",
+      "answer": "With careful planning, we will not lose out on the discount for booking early.",
+      "answerZh": "只要小心計劃,我們便不會錯過提早預訂的折扣。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The older phone may soon become less popular than cheaper models.",
+      "promptZh": "這款較舊的電話可能很快便不及較便宜的型號受歡迎。",
+      "starter": "The",
+      "answer": "The older phone may soon lose out to cheaper models.",
+      "answerZh": "這款較舊的電話可能很快便不敵較便宜的型號。",
+      "highlight": "lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Leo has become completely absorbed in his new hobby.",
+      "promptZh": "里奧已完全沉浸在他的新興趣之中。",
+      "starter": "Leo",
+      "answer": "Leo has completely lost himself in his new hobby.",
+      "answerZh": "里奧已完全沉浸在他的新興趣之中。",
+      "highlight": "lost himself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "By lunchtime, our stall had become less popular than the one selling cheaper food.",
+      "promptZh": "到了午飯時間,我們的攤檔已不及那個售賣較便宜食物的攤檔受歡迎。",
+      "starter": "By",
+      "answer": "By lunchtime, our stall had lost out to the one selling cheaper food.",
+      "answerZh": "到了午飯時間,我們的攤檔已不敵那個售賣較便宜食物的攤檔。",
+      "highlight": "lost out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the class miss a useful learning experience when the trip was cancelled?",
+      "promptZh": "旅行取消後,全班是否錯失了一次有用的學習體驗?",
+      "starter": "Did",
+      "answer": "Did the class lose out on a useful learning experience when the trip was cancelled?",
+      "answerZh": "旅行取消後,全班是否錯失了一次有用的學習體驗?",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Nora could not become absorbed in the film because people kept talking.",
+      "promptZh": "由於其他人不停說話,諾拉無法投入電影之中。",
+      "starter": "Nora",
+      "answer": "Nora could not lose herself in the film because people kept talking.",
+      "answerZh": "由於其他人不停說話,諾拉無法投入電影之中。",
+      "highlight": "lose herself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We became completely absorbed in the old photo albums and forgot the time.",
+      "promptZh": "我們完全沉浸在舊相簿之中,忘記了時間。",
+      "starter": "We",
+      "answer": "We lost ourselves in the old photo albums and forgot the time.",
+      "answerZh": "我們完全沉浸在舊相簿之中,忘記了時間。",
+      "highlight": "lost ourselves",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Workers who refuse training risk missing future job opportunities.",
+      "promptZh": "拒絕接受培訓的工人可能會錯失未來的工作機會。",
+      "starter": "Workers",
+      "answer": "Workers who refuse training risk losing out on future job opportunities.",
+      "answerZh": "拒絕接受培訓的工人可能會錯失未來的工作機會。",
+      "highlight": "losing out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Local fruit growers cannot afford to be less successful than cheaper fruit from abroad every year.",
+      "promptZh": "本地果農不能每年都不敵價格較低的外地水果。",
+      "starter": "Local",
+      "answer": "Local fruit growers cannot afford to lose out to cheaper fruit from abroad every year.",
+      "answerZh": "本地果農不能每年都不敵價格較低的外地水果。",
+      "highlight": "lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "On rainy afternoons, Daniel likes to become completely absorbed in a good book.",
+      "promptZh": "在下雨的下午,丹尼爾喜歡完全沉浸在一本好書之中。",
+      "starter": "On",
+      "answer": "On rainy afternoons, Daniel likes to lose himself in a good book.",
+      "answerZh": "在下雨的下午,丹尼爾喜歡完全沉浸在一本好書之中。",
+      "highlight": "lose himself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "You could miss a place on the course if you send the form late.",
+      "promptZh": "如果你遲交表格,便可能會錯失課程名額。",
+      "starter": "You",
+      "answer": "You could lose out on a place on the course if you send the form late.",
+      "answerZh": "如果你遲交表格,便可能會錯失課程名額。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "So far, our local club has not been beaten by any larger team.",
+      "promptZh": "到目前為止,我們的本地球會尚未敗給任何較大型的隊伍。",
+      "starter": "So",
+      "answer": "So far, our local club has not lost out to any larger team.",
+      "answerZh": "到目前為止,我們的本地球會尚未敗給任何較大型的隊伍。",
+      "highlight": "lost out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After dinner, Priya became completely absorbed in painting and forgot to check her phone.",
+      "promptZh": "晚飯後,普里雅完全投入繪畫,忘記查看電話。",
+      "starter": "After",
+      "answer": "After dinner, Priya lost herself in painting and forgot to check her phone.",
+      "answerZh": "晚飯後,普里雅完全投入繪畫,忘記查看電話。",
+      "highlight": "lost herself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Many young people are missing outdoor exercise because they spend so much time indoors.",
+      "promptZh": "許多年輕人因長時間留在室內而錯失戶外運動的機會。",
+      "starter": "Many",
+      "answer": "Many young people are losing out on outdoor exercise because they spend so much time indoors.",
+      "answerZh": "許多年輕人因長時間留在室內而錯失戶外運動的機會。",
+      "highlight": "losing out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Being defeated by a better player can still teach you something.",
+      "promptZh": "敗給一名實力較強的選手仍然可以令你有所學習。",
+      "starter": "Losing",
+      "answer": "Losing out to a better player can still teach you something.",
+      "answerZh": "敗給一名實力較強的選手仍然可以令你有所學習。",
+      "highlight": "Losing out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Become completely absorbed in the music and forget about the noise outside.",
+      "promptZh": "全情投入音樂之中,忘記外面的噪音。",
+      "starter": "Lose",
+      "answer": "Lose yourself in the music and forget about the noise outside.",
+      "answerZh": "全情投入音樂之中,忘記外面的噪音。",
+      "highlight": "Lose yourself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Because she worked every weekend, Chloe missed spending time with her friends.",
+      "promptZh": "克洛伊每個週末都要工作,因此錯失了與朋友相處的時間。",
+      "starter": "Because",
+      "answer": "Because she worked every weekend, Chloe lost out on spending time with her friends.",
+      "answerZh": "克洛伊每個週末都要工作,因此錯失了與朋友相處的時間。",
+      "highlight": "lost out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The family bakery is becoming less successful than shops that stay open later.",
+      "promptZh": "這間家庭經營的麵包店正逐漸不敵營業時間較長的店舖。",
+      "starter": "The",
+      "answer": "The family bakery is losing out to shops that stay open later.",
+      "answerZh": "這間家庭經營的麵包店正逐漸不敵營業時間較長的店舖。",
+      "highlight": "losing out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Although the museum was crowded, Sam soon became completely absorbed in the paintings.",
+      "promptZh": "雖然博物館十分擠迫,山姆很快便完全沉浸在畫作之中。",
+      "starter": "Although",
+      "answer": "Although the museum was crowded, Sam soon lost himself in the paintings.",
+      "answerZh": "雖然博物館十分擠迫,山姆很快便完全沉浸在畫作之中。",
+      "highlight": "lost himself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "If the library closes early, evening students will miss a quiet place to study.",
+      "promptZh": "如果圖書館提早關門,夜間學生便會失去一個安靜的溫習地方。",
+      "starter": "If",
+      "answer": "If the library closes early, evening students will lose out on a quiet place to study.",
+      "answerZh": "如果圖書館提早關門,夜間學生便會失去一個安靜的溫習地方。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Our simple design was not chosen because a brighter and cheaper one won.",
+      "promptZh": "我們的簡單設計未獲選中,因為一個更鮮明和便宜的設計勝出了。",
+      "starter": "Our",
+      "answer": "Our simple design lost out to a brighter and cheaper one.",
+      "answerZh": "我們的簡單設計敗給了一個更鮮明和便宜的設計。",
+      "highlight": "lost out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "People without smartphones can miss useful travel updates.",
+      "promptZh": "沒有智能電話的人可能會錯過有用的交通最新消息。",
+      "starter": "People",
+      "answer": "People without smartphones can lose out on useful travel updates.",
+      "answerZh": "沒有智能電話的人可能會錯過有用的交通最新消息。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The twins became completely absorbed in building a model city.",
+      "promptZh": "這對雙胞胎完全投入建造模型城市。",
+      "starter": "The",
+      "answer": "The twins lost themselves in building a model city.",
+      "answerZh": "這對雙胞胎完全投入建造模型城市。",
+      "highlight": "lost themselves",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Traditional newspapers may become less popular than free news websites.",
+      "promptZh": "傳統報章可能會逐漸不及免費新聞網站受歡迎。",
+      "starter": "Traditional",
+      "answer": "Traditional newspapers may lose out to free news websites.",
+      "answerZh": "傳統報章可能會逐漸不敵免費新聞網站。",
+      "highlight": "lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "By choosing the cheapest ticket, we missed free meals and extra luggage.",
+      "promptZh": "由於選擇了最便宜的機票,我們失去了免費餐膳和額外行李額。",
+      "starter": "By",
+      "answer": "By choosing the cheapest ticket, we lost out on free meals and extra luggage.",
+      "answerZh": "由於選擇了最便宜的機票,我們失去了免費餐膳和額外行李額。",
+      "highlight": "lost out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "It is easy to become completely absorbed in the excitement of a live match.",
+      "promptZh": "人們很容易完全沉浸在現場賽事的興奮氣氛之中。",
+      "starter": "It",
+      "answer": "It is easy to lose yourself in the excitement of a live match.",
+      "answerZh": "人們很容易完全沉浸在現場賽事的興奮氣氛之中。",
+      "highlight": "lose yourself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Even a well-known shop can be less successful than a smaller business that gives better service.",
+      "promptZh": "即使是知名店舖,也可能不敵服務更好的小型商戶。",
+      "starter": "Even",
+      "answer": "Even a well-known shop can lose out to a smaller business that gives better service.",
+      "answerZh": "即使是知名店舖,也可能不敵服務更好的小型商戶。",
+      "highlight": "lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If schools cut all music lessons, pupils may miss a chance to discover their talent.",
+      "promptZh": "如果學校取消所有音樂課,學生可能會錯失發掘自己才華的機會。",
+      "starter": "If",
+      "answer": "If schools cut all music lessons, pupils may lose out on a chance to discover their talent.",
+      "answerZh": "如果學校取消所有音樂課,學生可能會錯失發掘自己才華的機會。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once the lights went down, the audience became completely absorbed in the world of the play.",
+      "promptZh": "燈光暗下來後,觀眾便完全沉浸在戲劇的世界之中。",
+      "starter": "Once",
+      "answer": "Once the lights went down, the audience lost themselves in the world of the play.",
+      "answerZh": "燈光暗下來後,觀眾便完全沉浸在戲劇的世界之中。",
+      "highlight": "lost themselves",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new product did just as well as its famous rival, even though it cost more.",
+      "promptZh": "這款新產品雖然價格較高,但表現並不遜於其知名對手。",
+      "starter": "The",
+      "answer": "The new product did not lose out to its famous rival, even though it cost more.",
+      "answerZh": "這款新產品雖然價格較高,但並沒有不敵其知名對手。",
+      "highlight": "not lose out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "By taking a full-time job, some teenagers miss the chance to continue their education.",
+      "promptZh": "部分青少年因從事全職工作而錯失繼續升學的機會。",
+      "starter": "By",
+      "answer": "By taking a full-time job, some teenagers lose out on the chance to continue their education.",
+      "answerZh": "部分青少年因從事全職工作而錯失繼續升學的機會。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Our plan was not chosen because another plan was simpler and easier to understand.",
+      "promptZh": "我們的計劃未獲選中,因為另一個計劃更簡單和容易理解。",
+      "starter": "Our",
+      "answer": "Our plan lost out to one that was simpler and easier to understand.",
+      "answerZh": "我們的計劃敗給了另一個更簡單和容易理解的計劃。",
+      "highlight": "lost out to one that",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Whenever Omar needs a break from his worries, he becomes completely absorbed in cooking.",
+      "promptZh": "每當奧馬需要暫時放下憂慮時,他便會全情投入烹飪。",
+      "starter": "Whenever",
+      "answer": "Whenever Omar needs a break from his worries, he loses himself in cooking.",
+      "answerZh": "每當奧馬需要暫時放下憂慮時,他便會全情投入烹飪。",
+      "highlight": "loses himself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    },
+    {
+      "id": "phrasal-verb-239-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Unless local stores offer something special, they may continue being less successful than large supermarkets.",
+      "promptZh": "除非本地店舖提供一些特別的東西,否則它們可能會繼續不敵大型超級市場。",
+      "starter": "Unless",
+      "answer": "Unless local stores offer something special, they may continue losing out to large supermarkets.",
+      "answerZh": "除非本地店舖提供一些特別的東西,否則它們可能會繼續不敵大型超級市場。",
+      "highlight": "losing out to",
+      "targetForm": "lose out to somebody/something",
+      "targetMeaningZh": "不敵或敗給某人或某事物"
+    },
+    {
+      "id": "phrasal-verb-239-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "No child should miss a healthy school lunch because their family has little money.",
+      "promptZh": "任何孩子都不應因家境不富裕而失去健康的學校午餐。",
+      "starter": "No",
+      "answer": "No child should lose out on a healthy school lunch because their family has little money.",
+      "answerZh": "任何孩子都不應因家境不富裕而失去健康的學校午餐。",
+      "highlight": "lose out on",
+      "targetForm": "lose out on something",
+      "targetMeaningZh": "錯失或未能獲得某種機會或好處"
+    },
+    {
+      "id": "phrasal-verb-239-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "By the final chapter, I had become so absorbed in the book that I missed my stop.",
+      "promptZh": "讀到最後一章時,我已完全沉浸在書中,以致錯過了下車地點。",
+      "starter": "By",
+      "answer": "By the final chapter, I had lost myself so completely in the book that I missed my stop.",
+      "answerZh": "讀到最後一章時,我已完全沉浸在書中,以致錯過了下車地點。",
+      "highlight": "lost myself",
+      "targetForm": "lose yourself in something",
+      "targetMeaningZh": "沉浸於或全神貫注於某事"
+    }
+  ]
+}

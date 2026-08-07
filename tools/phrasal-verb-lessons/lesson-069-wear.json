@@ -1,0 +1,1839 @@
+{
+  "id": "phrasal-verb-69",
+  "order": 69,
+  "slug": "wear",
+  "version": "1",
+  "title": "WEAR 動詞片語",
+  "titleEn": "Wear",
+  "titleZh": "WEAR 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 68 - WEAR.pdf",
+    "sourceNumber": 68,
+    "pageCount": 30,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 WEAR 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to WEAR."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "WEAR",
+      "highlight": "WEAR"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The afternoon was wearing away.",
+      "zh": "下午的時間慢慢過去,逐漸接近結束。",
+      "highlight": "wearing away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The picture on the old coin had worn away.",
+      "zh": "舊硬幣上的圖案已經磨掉了。",
+      "highlight": "worn away",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Rain was wearing away at the old wall.",
+      "zh": "雨水正一點一點地侵蝕那道舊牆。",
+      "highlight": "wearing away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "時間慢慢過去,逐漸接近結束；因磨擦或長時間使用而慢慢磨薄、磨走或消失；長時間一點一點地損害、削弱或困擾某人或某事物；把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平；慢慢使某人疲弱、失去抵抗力或改變主意；把新鞋或新衣物穿至變得柔軟、合身和舒服；效果、感覺或表面痕跡逐漸消失；時間或事情繼續下去,通常帶有緩慢的感覺；因使用太多而損壞,不能再使用；令某人或自己筋疲力盡",
+    "en": "wear away — of time; wear away / wear something away; wear away at somebody/something; wear down / wear something down; wear somebody/something down; wear something in; wear off; wear on; wear out / wear something out; wear somebody/yourself out",
+    "naturalZh": [
+      "時間慢慢過去,逐漸接近結束",
+      "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+      "長時間一點一點地損害、削弱或困擾某人或某事物",
+      "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+      "慢慢使某人疲弱、失去抵抗力或改變主意",
+      "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+      "效果、感覺或表面痕跡逐漸消失",
+      "時間或事情繼續下去,通常帶有緩慢的感覺",
+      "因使用太多而損壞,不能再使用",
+      "令某人或自己筋疲力盡"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "wear away — of time",
+      "titleZh": "時間慢慢過去,逐漸接近結束",
+      "titleEn": "wear away — of time",
+      "descriptionZh": "時間慢慢過去,逐漸接近結束",
+      "descriptionEn": "The afternoon was wearing away.",
+      "examples": [
+        {
+          "en": "The afternoon was wearing away.",
+          "zh": "下午的時間慢慢過去,逐漸接近結束。",
+          "highlight": "wearing away"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wear away / wear something away",
+      "titleZh": "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+      "titleEn": "wear away / wear something away",
+      "descriptionZh": "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+      "descriptionEn": "The picture on the old coin had worn away.",
+      "examples": [
+        {
+          "en": "The picture on the old coin had worn away.",
+          "zh": "舊硬幣上的圖案已經磨掉了。",
+          "highlight": "worn away"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wear away at somebody/something",
+      "titleZh": "長時間一點一點地損害、削弱或困擾某人或某事物",
+      "titleEn": "wear away at somebody/something",
+      "descriptionZh": "長時間一點一點地損害、削弱或困擾某人或某事物",
+      "descriptionEn": "Rain was wearing away at the old wall.",
+      "examples": [
+        {
+          "en": "Rain was wearing away at the old wall.",
+          "zh": "雨水正一點一點地侵蝕那道舊牆。",
+          "highlight": "wearing away at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wear down / wear something down",
+      "titleZh": "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+      "titleEn": "wear down / wear something down",
+      "descriptionZh": "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+      "descriptionEn": "The rough road wore the tyres down.",
+      "examples": [
+        {
+          "en": "The rough road wore the tyres down.",
+          "zh": "粗糙的路面把輪胎磨薄了。",
+          "highlight": "wore the tyres down"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wear somebody/something down",
+      "titleZh": "慢慢使某人疲弱、失去抵抗力或改變主意",
+      "titleEn": "wear somebody/something down",
+      "descriptionZh": "慢慢使某人疲弱、失去抵抗力或改變主意",
+      "descriptionEn": "Their repeated requests wore him down.",
+      "examples": [
+        {
+          "en": "Their repeated requests wore him down.",
+          "zh": "他們一再提出要求,終於令他讓步。",
+          "highlight": "wore him down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "wear something in",
+      "titleZh": "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+      "titleEn": "wear something in",
+      "descriptionZh": "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+      "descriptionEn": "I wore the boots in before the trip.",
+      "examples": [
+        {
+          "en": "I wore the boots in before the trip.",
+          "zh": "我在旅程前把靴子穿至合腳。",
+          "highlight": "wore the boots in"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wear off",
+      "titleZh": "效果、感覺或表面痕跡逐漸消失",
+      "titleEn": "wear off",
+      "descriptionZh": "效果、感覺或表面痕跡逐漸消失",
+      "descriptionEn": "The effect of the medicine soon wore off.",
+      "examples": [
+        {
+          "en": "The effect of the medicine soon wore off.",
+          "zh": "藥效很快便逐漸消失。",
+          "highlight": "wore off"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wear on",
+      "titleZh": "時間或事情繼續下去,通常帶有緩慢的感覺",
+      "titleEn": "wear on",
+      "descriptionZh": "時間或事情繼續下去,通常帶有緩慢的感覺",
+      "descriptionEn": "As the evening wore on, the room became quieter.",
+      "examples": [
+        {
+          "en": "As the evening wore on, the room became quieter.",
+          "zh": "隨着晚上時間慢慢過去,房間變得更安靜。",
+          "highlight": "wore on"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wear out / wear something out",
+      "titleZh": "因使用太多而損壞,不能再使用",
+      "titleEn": "wear out / wear something out",
+      "descriptionZh": "因使用太多而損壞,不能再使用",
+      "descriptionEn": "These shoes wear out quickly.",
+      "examples": [
+        {
+          "en": "These shoes wear out quickly.",
+          "zh": "這雙鞋很快便會穿壞。",
+          "highlight": "wear out"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "wear somebody/yourself out",
+      "titleZh": "令某人或自己筋疲力盡",
+      "titleEn": "wear somebody/yourself out",
+      "descriptionZh": "令某人或自己筋疲力盡",
+      "descriptionEn": "The long walk wore us out.",
+      "examples": [
+        {
+          "en": "The long walk wore us out.",
+          "zh": "長途步行令我們筋疲力盡。",
+          "highlight": "wore us out"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "WEAR 片語動詞的實際用途",
+    "labelEn": "WEAR Phrasal Verbs in Use",
+    "summaryZh": "wear away、wear down 和 wear out 能幫助你分辨某事物是逐漸消失、變薄,還是已經損壞至不能再用。；wear away 可以表示一段時間逐漸接近結束;wear on 則可以表示時間或事情繼續下去,通常顯得較慢。；當藥效、興奮、恐懼、驚訝或其他感覺逐漸消失時,可以使用 wear off。；wear somebody down 表示某人長時間受到影響而逐漸疲弱;wear somebody out 則表示令某人筋疲力盡。；wear something in 可以表示新鞋或衣物經過穿着後,變得較柔軟和舒服。",
+    "summaryEn": "Wear away, wear down and wear out help you distinguish between something disappearing, becoming thinner and becoming completely unusable. Wear away can show that a period is moving towards its end, while wear on can show that time or an event continues, often slowly. Wear off is useful when medicine, excitement, fear, surprise or another feeling slowly disappears. Wear somebody down describes slow weakening over time. Wear somebody out describes making someone extremely tired. Wear something in lets you explain that new shoes or clothes have become softer and more comfortable through use.",
+    "contextsZh": [
+      "清楚表達不同程度的損耗",
+      "描述時間如何過去",
+      "描述效果和感覺逐漸消失",
+      "準確描述壓力和疲倦",
+      "自然談論新鞋和衣物"
+    ],
+    "contextsEn": [
+      "Talk clearly about different stages of damage",
+      "Describe how time passes",
+      "Talk about effects and feelings disappearing",
+      "Describe pressure and tiredness accurately",
+      "Talk naturally about new shoes and clothes"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 WEAR 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the WEAR expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "wear away — of time",
+    "fixedHighlight": "wear away — of time",
+    "fixedZh": "閱讀整句,選出意思相同的 WEAR 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the WEAR expression that gives the same meaning.",
+    "correct": "wearing away",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 it、him、her、them 或 yourself 時,請按照以上例子放在正確位置。；wear away 強調一段時間慢慢消逝並接近結束;wear on 則強調時間或事情繼續下去,通常帶有緩慢的感覺。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her, them or yourself, place the word as shown: wear it away wear him down wear them in wear it out wear yourself out Wear away and wear on can both be used with time, but they have slightly different focuses: The day was wearing away. The day was slowly moving towards its end. As the evening wore on, everyone became tired. The evening continued, and time seemed to pass slowly.",
+    "variableItemsZh": [
+      "wear away — of time",
+      "wear away / wear something away",
+      "wear away at somebody/something",
+      "wear down / wear something down",
+      "wear somebody/something down",
+      "wear something in",
+      "wear off",
+      "wear on",
+      "wear out / wear something out",
+      "wear somebody/yourself out"
+    ],
+    "variableItemsEn": [
+      "wear away — of time",
+      "wear away / wear something away",
+      "wear away at somebody/something",
+      "wear down / wear something down",
+      "wear somebody/something down",
+      "wear something in",
+      "wear off",
+      "wear on",
+      "wear out / wear something out",
+      "wear somebody/yourself out"
+    ],
+    "forms": [
+      {
+        "formZh": "時間慢慢過去,逐漸接近結束",
+        "formEn": "wear away — of time",
+        "exampleZh": "下午的時間慢慢過去,逐漸接近結束。",
+        "exampleEn": "The afternoon was wearing away.",
+        "highlight": "wearing away"
+      },
+      {
+        "formZh": "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+        "formEn": "wear away / wear something away",
+        "exampleZh": "舊硬幣上的圖案已經磨掉了。",
+        "exampleEn": "The picture on the old coin had worn away.",
+        "highlight": "worn away"
+      },
+      {
+        "formZh": "長時間一點一點地損害、削弱或困擾某人或某事物",
+        "formEn": "wear away at somebody/something",
+        "exampleZh": "雨水正一點一點地侵蝕那道舊牆。",
+        "exampleEn": "Rain was wearing away at the old wall.",
+        "highlight": "wearing away at"
+      },
+      {
+        "formZh": "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+        "formEn": "wear down / wear something down",
+        "exampleZh": "粗糙的路面把輪胎磨薄了。",
+        "exampleEn": "The rough road wore the tyres down.",
+        "highlight": "wore the tyres down"
+      },
+      {
+        "formZh": "慢慢使某人疲弱、失去抵抗力或改變主意",
+        "formEn": "wear somebody/something down",
+        "exampleZh": "他們一再提出要求,終於令他讓步。",
+        "exampleEn": "Their repeated requests wore him down.",
+        "highlight": "wore him down"
+      },
+      {
+        "formZh": "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+        "formEn": "wear something in",
+        "exampleZh": "我在旅程前把靴子穿至合腳。",
+        "exampleEn": "I wore the boots in before the trip.",
+        "highlight": "wore the boots in"
+      },
+      {
+        "formZh": "效果、感覺或表面痕跡逐漸消失",
+        "formEn": "wear off",
+        "exampleZh": "藥效很快便逐漸消失。",
+        "exampleEn": "The effect of the medicine soon wore off.",
+        "highlight": "wore off"
+      },
+      {
+        "formZh": "時間或事情繼續下去,通常帶有緩慢的感覺",
+        "formEn": "wear on",
+        "exampleZh": "隨着晚上時間慢慢過去,房間變得更安靜。",
+        "exampleEn": "As the evening wore on, the room became quieter.",
+        "highlight": "wore on"
+      },
+      {
+        "formZh": "因使用太多而損壞,不能再使用",
+        "formEn": "wear out / wear something out",
+        "exampleZh": "這雙鞋很快便會穿壞。",
+        "exampleEn": "These shoes wear out quickly.",
+        "highlight": "wear out"
+      },
+      {
+        "formZh": "令某人或自己筋疲力盡",
+        "formEn": "wear somebody/yourself out",
+        "exampleZh": "長途步行令我們筋疲力盡。",
+        "exampleEn": "The long walk wore us out.",
+        "highlight": "wore us out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "時間慢慢過去,逐漸接近結束",
+      "titleEn": "wear away — of time",
+      "formula": "wear away — of time",
+      "highlight": "wear away — of time",
+      "descriptionZh": "時間慢慢過去,逐漸接近結束",
+      "descriptionEn": "The afternoon was wearing away.",
+      "examples": [
+        {
+          "en": "The afternoon was wearing away.",
+          "zh": "下午的時間慢慢過去,逐漸接近結束。",
+          "highlight": "wearing away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+      "titleEn": "wear away / wear something away",
+      "formula": "wear away / wear something away",
+      "highlight": "wear away / wear something away",
+      "descriptionZh": "因磨擦或長時間使用而慢慢磨薄、磨走或消失",
+      "descriptionEn": "The picture on the old coin had worn away.",
+      "examples": [
+        {
+          "en": "The picture on the old coin had worn away.",
+          "zh": "舊硬幣上的圖案已經磨掉了。",
+          "highlight": "worn away"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "長時間一點一點地損害、削弱或困擾某人或某事物",
+      "titleEn": "wear away at somebody/something",
+      "formula": "wear away at somebody/something",
+      "highlight": "wear away at somebody/something",
+      "descriptionZh": "長時間一點一點地損害、削弱或困擾某人或某事物",
+      "descriptionEn": "Rain was wearing away at the old wall.",
+      "examples": [
+        {
+          "en": "Rain was wearing away at the old wall.",
+          "zh": "雨水正一點一點地侵蝕那道舊牆。",
+          "highlight": "wearing away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+      "titleEn": "wear down / wear something down",
+      "formula": "wear down / wear something down",
+      "highlight": "wear down / wear something down",
+      "descriptionZh": "把某事物磨薄、磨短或磨平;某事物因磨擦而變薄、變短或變平",
+      "descriptionEn": "The rough road wore the tyres down.",
+      "examples": [
+        {
+          "en": "The rough road wore the tyres down.",
+          "zh": "粗糙的路面把輪胎磨薄了。",
+          "highlight": "wore the tyres down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "慢慢使某人疲弱、失去抵抗力或改變主意",
+      "titleEn": "wear somebody/something down",
+      "formula": "wear somebody/something down",
+      "highlight": "wear somebody/something down",
+      "descriptionZh": "慢慢使某人疲弱、失去抵抗力或改變主意",
+      "descriptionEn": "Their repeated requests wore him down.",
+      "examples": [
+        {
+          "en": "Their repeated requests wore him down.",
+          "zh": "他們一再提出要求,終於令他讓步。",
+          "highlight": "wore him down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+      "titleEn": "wear something in",
+      "formula": "wear something in",
+      "highlight": "wear something in",
+      "descriptionZh": "把新鞋或新衣物穿至變得柔軟、合身和舒服",
+      "descriptionEn": "I wore the boots in before the trip.",
+      "examples": [
+        {
+          "en": "I wore the boots in before the trip.",
+          "zh": "我在旅程前把靴子穿至合腳。",
+          "highlight": "wore the boots in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "效果、感覺或表面痕跡逐漸消失",
+      "titleEn": "wear off",
+      "formula": "wear off",
+      "highlight": "wear off",
+      "descriptionZh": "效果、感覺或表面痕跡逐漸消失",
+      "descriptionEn": "The effect of the medicine soon wore off.",
+      "examples": [
+        {
+          "en": "The effect of the medicine soon wore off.",
+          "zh": "藥效很快便逐漸消失。",
+          "highlight": "wore off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "時間或事情繼續下去,通常帶有緩慢的感覺",
+      "titleEn": "wear on",
+      "formula": "wear on",
+      "highlight": "wear on",
+      "descriptionZh": "時間或事情繼續下去,通常帶有緩慢的感覺",
+      "descriptionEn": "As the evening wore on, the room became quieter.",
+      "examples": [
+        {
+          "en": "As the evening wore on, the room became quieter.",
+          "zh": "隨着晚上時間慢慢過去,房間變得更安靜。",
+          "highlight": "wore on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "因使用太多而損壞,不能再使用",
+      "titleEn": "wear out / wear something out",
+      "formula": "wear out / wear something out",
+      "highlight": "wear out / wear something out",
+      "descriptionZh": "因使用太多而損壞,不能再使用",
+      "descriptionEn": "These shoes wear out quickly.",
+      "examples": [
+        {
+          "en": "These shoes wear out quickly.",
+          "zh": "這雙鞋很快便會穿壞。",
+          "highlight": "wear out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "令某人或自己筋疲力盡",
+      "titleEn": "wear somebody/yourself out",
+      "formula": "wear somebody/yourself out",
+      "highlight": "wear somebody/yourself out",
+      "descriptionZh": "令某人或自己筋疲力盡",
+      "descriptionEn": "The long walk wore us out.",
+      "examples": [
+        {
+          "en": "The long walk wore us out.",
+          "zh": "長途步行令我們筋疲力盡。",
+          "highlight": "wore us out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達不同程度的損耗",
+      "titleEn": "Talk clearly about different stages of damage",
+      "zh": "wear away、wear down 和 wear out 能幫助你分辨某事物是逐漸消失、變薄,還是已經損壞至不能再用。",
+      "en": "Wear away, wear down and wear out help you distinguish between something disappearing, becoming thinner and becoming completely unusable."
+    },
+    {
+      "titleZh": "描述時間如何過去",
+      "titleEn": "Describe how time passes",
+      "zh": "wear away 可以表示一段時間逐漸接近結束;wear on 則可以表示時間或事情繼續下去,通常顯得較慢。",
+      "en": "Wear away can show that a period is moving towards its end, while wear on can show that time or an event continues, often slowly."
+    },
+    {
+      "titleZh": "描述效果和感覺逐漸消失",
+      "titleEn": "Talk about effects and feelings disappearing",
+      "zh": "當藥效、興奮、恐懼、驚訝或其他感覺逐漸消失時,可以使用 wear off。",
+      "en": "Wear off is useful when medicine, excitement, fear, surprise or another feeling slowly disappears."
+    },
+    {
+      "titleZh": "準確描述壓力和疲倦",
+      "titleEn": "Describe pressure and tiredness accurately",
+      "zh": "wear somebody down 表示某人長時間受到影響而逐漸疲弱;wear somebody out 則表示令某人筋疲力盡。",
+      "en": "Wear somebody down describes slow weakening over time. Wear somebody out describes making someone extremely tired."
+    },
+    {
+      "titleZh": "自然談論新鞋和衣物",
+      "titleEn": "Talk naturally about new shoes and clothes",
+      "zh": "wear something in 可以表示新鞋或衣物經過穿着後,變得較柔軟和舒服。",
+      "en": "Wear something in lets you explain that new shoes or clothes have become softer and more comfortable through use."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達不同程度的損耗",
+      "描述時間如何過去",
+      "描述效果和感覺逐漸消失",
+      "準確描述壓力和疲倦",
+      "自然談論新鞋和衣物"
+    ],
+    "contextsEn": [
+      "Talk clearly about different stages of damage",
+      "Describe how time passes",
+      "Talk about effects and feelings disappearing",
+      "Describe pressure and tiredness accurately",
+      "Talk naturally about new shoes and clothes"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達不同程度的損耗",
+        "titleEn": "Talk clearly about different stages of damage",
+        "zh": "wear away、wear down 和 wear out 能幫助你分辨某事物是逐漸消失、變薄,還是已經損壞至不能再用。",
+        "en": "Wear away, wear down and wear out help you distinguish between something disappearing, becoming thinner and becoming completely unusable.",
+        "examples": [
+          {
+            "en": "The afternoon was wearing away.",
+            "zh": "下午的時間慢慢過去,逐漸接近結束。",
+            "highlight": "wearing away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述時間如何過去",
+        "titleEn": "Describe how time passes",
+        "zh": "wear away 可以表示一段時間逐漸接近結束;wear on 則可以表示時間或事情繼續下去,通常顯得較慢。",
+        "en": "Wear away can show that a period is moving towards its end, while wear on can show that time or an event continues, often slowly.",
+        "examples": [
+          {
+            "en": "The picture on the old coin had worn away.",
+            "zh": "舊硬幣上的圖案已經磨掉了。",
+            "highlight": "worn away"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述效果和感覺逐漸消失",
+        "titleEn": "Talk about effects and feelings disappearing",
+        "zh": "當藥效、興奮、恐懼、驚訝或其他感覺逐漸消失時,可以使用 wear off。",
+        "en": "Wear off is useful when medicine, excitement, fear, surprise or another feeling slowly disappears.",
+        "examples": [
+          {
+            "en": "Rain was wearing away at the old wall.",
+            "zh": "雨水正一點一點地侵蝕那道舊牆。",
+            "highlight": "wearing away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "準確描述壓力和疲倦",
+        "titleEn": "Describe pressure and tiredness accurately",
+        "zh": "wear somebody down 表示某人長時間受到影響而逐漸疲弱;wear somebody out 則表示令某人筋疲力盡。",
+        "en": "Wear somebody down describes slow weakening over time. Wear somebody out describes making someone extremely tired.",
+        "examples": [
+          {
+            "en": "The rough road wore the tyres down.",
+            "zh": "粗糙的路面把輪胎磨薄了。",
+            "highlight": "wore the tyres down"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然談論新鞋和衣物",
+        "titleEn": "Talk naturally about new shoes and clothes",
+        "zh": "wear something in 可以表示新鞋或衣物經過穿着後,變得較柔軟和舒服。",
+        "en": "Wear something in lets you explain that new shoes or clothes have become softer and more comfortable through use.",
+        "examples": [
+          {
+            "en": "Their repeated requests wore him down.",
+            "zh": "他們一再提出要求,終於令他讓步。",
+            "highlight": "wore him down"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 WEAR 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the WEAR expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 WEAR 片語動詞。",
+      "en": "Read the whole sentence and choose the WEAR expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 it、him、her、them 或 yourself 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it, him, her, them or yourself, place the word as shown: wear it away wear him down wear them in wear it out wear yourself out.",
+      "zh": "使用 it、him、her、them 或 yourself 時,請按照以上例子放在正確位置。",
+      "en": "When using it, him, her, them or yourself, place the word as shown: wear it away wear him down wear them in wear it out wear yourself out"
+    },
+    {
+      "titleZh": "wear away 強調一段時間慢慢消逝並接近結束;wear on 則強調時間或事情繼續下去,通常帶有緩慢的感覺。",
+      "titleEn": "Wear away and wear on can both be used with time, but they have slightly different focuses: The day was wearing away.",
+      "zh": "wear away 強調一段時間慢慢消逝並接近結束;wear on 則強調時間或事情繼續下去,通常帶有緩慢的感覺。",
+      "en": "Wear away and wear on can both be used with time, but they have slightly different focuses: The day was wearing away. The day was slowly moving towards its end. As the evening wore on, everyone became tired. The evening continued, and time seemed to pass slowly."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 WEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to WEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "WEAR 動詞片語句子改寫練習",
+    "titleEn": "WEAR Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 WEAR 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to WEAR. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-69-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Slowly, the effect of the medicine disappeared.",
+      "promptZh": "慢慢地,藥效消失了。",
+      "starter": "Slowly",
+      "answer": "Slowly, the effect of the medicine wore off.",
+      "answerZh": "慢慢地,藥效逐漸消失了。",
+      "highlight": "wore off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "After years of rubbing, the picture on the old coin had disappeared.",
+      "promptZh": "經過多年磨擦後,舊硬幣上的圖案已經消失。",
+      "starter": "After",
+      "answer": "After years of rubbing, the picture on the old coin had worn away.",
+      "answerZh": "經過多年磨擦後,舊硬幣上的圖案已經磨掉了。",
+      "highlight": "worn away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "因磨擦或使用而慢慢磨掉"
+    },
+    {
+      "id": "phrasal-verb-69-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "That long climb made us extremely tired.",
+      "promptZh": "那次長途攀登令我們筋疲力盡。",
+      "starter": "That",
+      "answer": "That long climb wore us out.",
+      "answerZh": "那次長途攀登令我們筋疲力盡。",
+      "highlight": "wore",
+      "targetForm": "wear somebody out",
+      "targetMeaningZh": "令某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "The afternoon was slowly passing and moving towards its end.",
+      "promptZh": "下午的時間正慢慢過去,逐漸接近結束。",
+      "starter": "The",
+      "answer": "The afternoon was wearing away.",
+      "answerZh": "下午的時間正慢慢過去,逐漸接近結束。",
+      "highlight": "wearing away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "In the end, the children kept asking until their father finally agreed.",
+      "promptZh": "最後,孩子們不停請求,直至父親終於答應。",
+      "starter": "In",
+      "answer": "In the end, the children wore their father down until he finally agreed.",
+      "answerZh": "最後,孩子們不斷請求,終於令父親答應。",
+      "highlight": "wore",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Every wave slowly damaged the bottom of the cliff.",
+      "promptZh": "每一個海浪都慢慢侵蝕懸崖底部。",
+      "starter": "Every",
+      "answer": "Every wave wore away at the bottom of the cliff.",
+      "answerZh": "每一個海浪都一點一點地侵蝕懸崖底部。",
+      "highlight": "wore away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地損害某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "As the evening passed slowly, she became more nervous.",
+      "promptZh": "隨着晚上時間慢慢過去,她變得更加緊張。",
+      "starter": "As",
+      "answer": "As the evening wore on, she became more nervous.",
+      "answerZh": "隨着晚上時間慢慢過去,她變得更加緊張。",
+      "highlight": "wore on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    },
+    {
+      "id": "phrasal-verb-69-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "After months of walking, the heels of his shoes had become much thinner.",
+      "promptZh": "經過數月步行後,他的鞋跟已經變薄很多。",
+      "starter": "After",
+      "answer": "After months of walking, the heels of his shoes had worn down.",
+      "answerZh": "經過數月步行後,他的鞋跟已經磨薄很多。",
+      "highlight": "worn down",
+      "targetForm": "wear down",
+      "targetMeaningZh": "因磨擦而變薄、變短或變平"
+    },
+    {
+      "id": "phrasal-verb-69-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "I used these new boots several times before the trip so that they became comfortable.",
+      "promptZh": "我在旅程前使用這雙新靴數次,讓它們變得舒服。",
+      "starter": "I",
+      "answer": "I wore these new boots in before the trip.",
+      "answerZh": "我在旅程前把這雙新靴穿至合腳。",
+      "highlight": "wore",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "After years of heavy use, the old carpet became unusable.",
+      "promptZh": "經過多年頻繁使用後,舊地氈已經不能再用。",
+      "starter": "After",
+      "answer": "After years of heavy use, the old carpet wore out.",
+      "answerZh": "經過多年頻繁使用後,舊地氈已經損壞,不能再用。",
+      "highlight": "wore out",
+      "targetForm": "wear out",
+      "targetMeaningZh": "因使用太多而不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 19,
+      "prompt": "By late afternoon, the day was slowly moving towards its end.",
+      "promptZh": "到了下午較後時間,白天正慢慢接近結束。",
+      "starter": "By",
+      "answer": "By late afternoon, the day was wearing away.",
+      "answerZh": "到了下午較後時間,白天正慢慢過去,逐漸接近結束。",
+      "highlight": "wearing away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Over time, the constant worry slowly weakened his confidence.",
+      "promptZh": "隨着時間過去,持續的憂慮慢慢削弱了他的信心。",
+      "starter": "Over",
+      "answer": "Over time, the constant worry wore away at his confidence.",
+      "answerZh": "隨着時間過去,持續的憂慮慢慢削弱了他的信心。",
+      "highlight": "wore away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地削弱某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Sea water slowly removed part of the soft rock.",
+      "promptZh": "海水慢慢磨走一部分較軟的岩石。",
+      "starter": "Sea",
+      "answer": "Sea water slowly wore part of the soft rock away.",
+      "answerZh": "海水慢慢磨走一部分較軟的岩石。",
+      "highlight": "wore",
+      "targetForm": "wear something away",
+      "targetMeaningZh": "把某事物慢慢磨走"
+    },
+    {
+      "id": "phrasal-verb-69-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The rough road made the tyres thinner.",
+      "promptZh": "粗糙的路面把輪胎磨薄了。",
+      "starter": "The",
+      "answer": "The rough road wore the tyres down.",
+      "answerZh": "粗糙的路面把輪胎磨薄了。",
+      "highlight": "wore",
+      "targetForm": "wear something down",
+      "targetMeaningZh": "把某事物磨薄、磨短或磨平"
+    },
+    {
+      "id": "phrasal-verb-69-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The daily complaints are slowly making the manager less able to say no.",
+      "promptZh": "每天的投訴正慢慢令經理難以再拒絕。",
+      "starter": "The",
+      "answer": "The daily complaints are wearing the manager down.",
+      "answerZh": "每天的投訴正慢慢令經理失去抵抗力。",
+      "highlight": "wearing",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人疲弱或不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 20,
+      "prompt": "The morning is slowly moving towards its end, but we still have work to do.",
+      "promptZh": "上午正慢慢接近結束,但我們仍有工作要做。",
+      "starter": "The",
+      "answer": "The morning is wearing away, but we still have work to do.",
+      "answerZh": "上午正慢慢過去,逐漸接近結束,但我們仍有工作要做。",
+      "highlight": "wearing away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "As the hours pass, everyone is getting tired.",
+      "promptZh": "隨着時間過去,大家都愈來愈疲倦。",
+      "starter": "As",
+      "answer": "As the hours wear on, everyone is getting tired.",
+      "answerZh": "隨着時間慢慢過去,大家都愈來愈疲倦。",
+      "highlight": "wear on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間繼續並慢慢過去"
+    },
+    {
+      "id": "phrasal-verb-69-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She is using her new shoes until they feel softer and more comfortable.",
+      "promptZh": "她正穿着新鞋,直至鞋子變得較柔軟和舒服。",
+      "starter": "She",
+      "answer": "She is wearing her new shoes in.",
+      "answerZh": "她正把新鞋穿至變得柔軟和舒服。",
+      "highlight": "wearing",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "Small drops of water are slowly damaging the stone.",
+      "promptZh": "小水滴正慢慢侵蝕石頭。",
+      "starter": "Small",
+      "answer": "Small drops of water are wearing away at the stone.",
+      "answerZh": "小水滴正一點一點地侵蝕石頭。",
+      "highlight": "wearing away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地損害某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The pain medicine is starting to lose its effect.",
+      "promptZh": "止痛藥正開始失去作用。",
+      "starter": "The",
+      "answer": "The pain medicine is starting to wear off.",
+      "answerZh": "止痛藥的作用正開始逐漸消失。",
+      "highlight": "wear off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "These cheap socks will become unusable very quickly.",
+      "promptZh": "這些便宜襪子很快便會變得不能再穿。",
+      "starter": "These",
+      "answer": "These cheap socks will wear out very quickly.",
+      "answerZh": "這些便宜襪子很快便會穿壞。",
+      "highlight": "wear out",
+      "targetForm": "wear out",
+      "targetMeaningZh": "因使用太多而不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 21,
+      "prompt": "The letters are slowly disappearing because people touch the sign every day.",
+      "promptZh": "字母正慢慢消失,因為人們每天都觸摸這個標誌。",
+      "starter": "The",
+      "answer": "The letters are wearing away because people touch the sign every day.",
+      "answerZh": "字母正慢慢磨掉,因為人們每天都觸摸這個標誌。",
+      "highlight": "wearing away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "因磨擦或使用而慢慢磨掉"
+    },
+    {
+      "id": "phrasal-verb-69-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Do not make yourself completely tired before the race.",
+      "promptZh": "比賽前不要令自己筋疲力盡。",
+      "starter": "Do",
+      "answer": "Do not wear yourself out before the race.",
+      "answerZh": "比賽前不要令自己筋疲力盡。",
+      "highlight": "wear",
+      "targetForm": "wear yourself out",
+      "targetMeaningZh": "令自己筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "This old pencil has become very short through use.",
+      "promptZh": "這支舊鉛筆因使用而變得很短。",
+      "starter": "This",
+      "answer": "This old pencil has worn down through use.",
+      "answerZh": "這支舊鉛筆因使用而磨得很短。",
+      "highlight": "worn down",
+      "targetForm": "wear down",
+      "targetMeaningZh": "因磨擦而變薄、變短或變平"
+    },
+    {
+      "id": "phrasal-verb-69-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Have you made the new football boots comfortable yet?",
+      "promptZh": "你已經把新足球靴穿至合腳了嗎?",
+      "starter": "Have",
+      "answer": "Have you worn the new football boots in yet?",
+      "answerZh": "你已經把新足球靴穿至合腳了嗎?",
+      "highlight": "worn",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Why did everyone become quieter as the night continued?",
+      "promptZh": "為何隨着夜晚繼續,大家都變得更安靜?",
+      "starter": "Why",
+      "answer": "Why did everyone become quieter as the night wore on?",
+      "answerZh": "為何隨着夜晚時間慢慢過去,大家都變得更安靜?",
+      "highlight": "wore on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    },
+    {
+      "id": "phrasal-verb-69-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Will weeks of pressure make the team give up?",
+      "promptZh": "幾星期的壓力會令球隊放棄嗎?",
+      "starter": "Will",
+      "answer": "Will weeks of pressure wear the team down?",
+      "answerZh": "幾星期的壓力會慢慢令球隊失去抵抗力嗎?",
+      "highlight": "wear",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人疲弱或不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "Has the feeling of surprise disappeared yet?",
+      "promptZh": "驚訝的感覺已經消失了嗎?",
+      "starter": "Has",
+      "answer": "Has the feeling of surprise worn off yet?",
+      "answerZh": "驚訝的感覺已經逐漸消失了嗎?",
+      "highlight": "worn off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The toy car was new last month. The children used it so much that it became unusable.",
+      "promptZh": "這架玩具車上個月還是新的。孩子們使用得太多,令它已經不能再用。",
+      "starter": "The",
+      "answer": "The toy car was new last month. The children wore it out.",
+      "answerZh": "這架玩具車上個月還是新的。孩子們已把它用壞了。",
+      "highlight": "wore",
+      "targetForm": "wear something out",
+      "targetMeaningZh": "因使用太多而令某事物不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The endless noise had slowly weakened her patience.",
+      "promptZh": "無休止的噪音已慢慢消磨她的耐性。",
+      "starter": "The",
+      "answer": "The endless noise had worn away at her patience.",
+      "answerZh": "無休止的噪音已慢慢消磨她的耐性。",
+      "highlight": "worn away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地削弱某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "By the time the long walk ended, the afternoon was nearly over.",
+      "promptZh": "長途步行結束時,下午已差不多過去。",
+      "starter": "By",
+      "answer": "By the time the long walk ended, the afternoon had nearly worn away.",
+      "answerZh": "長途步行結束時,下午已差不多過去。",
+      "highlight": "walk ended, the afternoon had",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "My new boots felt stiff at first, so I used them around the house until they became comfortable.",
+      "promptZh": "我的新靴最初很硬,所以我在家中穿着它們,直至變得舒服。",
+      "starter": "My",
+      "answer": "My new boots felt stiff at first, so I wore them in around the house.",
+      "answerZh": "我的新靴最初很硬,所以我在家中把它們穿至合腳。",
+      "highlight": "wore",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "The children had made themselves very tired from running in the garden.",
+      "promptZh": "孩子們在花園跑步,把自己弄得非常疲倦。",
+      "starter": "The",
+      "answer": "The children had worn themselves out running in the garden.",
+      "answerZh": "孩子們在花園跑步,把自己弄得筋疲力盡。",
+      "highlight": "worn",
+      "targetForm": "wear yourself out",
+      "targetMeaningZh": "令自己筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The chair legs were once the same length. The hard floor had made them shorter.",
+      "promptZh": "椅腳本來一樣長。堅硬的地板已令它們變短。",
+      "starter": "The",
+      "answer": "The chair legs were once the same length. The hard floor had worn them down.",
+      "answerZh": "椅腳本來一樣長。堅硬的地板已把它們磨短。",
+      "highlight": "worn",
+      "targetForm": "wear something down",
+      "targetMeaningZh": "把某事物磨薄、磨短或磨平"
+    },
+    {
+      "id": "phrasal-verb-69-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Years of use had removed the painted number completely.",
+      "promptZh": "多年的使用已把油漆數字完全磨掉。",
+      "starter": "Years",
+      "answer": "Years of use had worn the painted number away completely.",
+      "answerZh": "多年的使用已把油漆數字完全磨掉。",
+      "highlight": "worn",
+      "targetForm": "wear something away",
+      "targetMeaningZh": "把某事物慢慢磨走"
+    },
+    {
+      "id": "phrasal-verb-69-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The rain became heavier as the afternoon continued.",
+      "promptZh": "隨着下午繼續,雨勢變得更大。",
+      "starter": "The",
+      "answer": "The rain became heavier as the afternoon wore on.",
+      "answerZh": "隨着下午時間慢慢過去,雨勢變得更大。",
+      "highlight": "wore on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    },
+    {
+      "id": "phrasal-verb-69-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The repeated questions had weakened him, and he finally told them everything.",
+      "promptZh": "重複的問題已令他失去抵抗力,最後他把一切都告訴他們。",
+      "starter": "The",
+      "answer": "The repeated questions had worn him down, and he finally told them everything.",
+      "answerZh": "重複的問題已令他失去抵抗力,最後他把一切都告訴他們。",
+      "highlight": "worn",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人疲弱或不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "At first, the new job felt exciting, but that feeling had disappeared by June.",
+      "promptZh": "新工作最初令人興奮,但到了六月,那種感覺已經消失。",
+      "starter": "At",
+      "answer": "At first, the new job felt exciting, but that feeling had worn off by June.",
+      "answerZh": "新工作最初令人興奮,但到了六月,那種感覺已經逐漸消失。",
+      "highlight": "worn off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "While they waited for help, the afternoon slowly passed and moved towards its end.",
+      "promptZh": "他們等候救援時,下午的時間慢慢過去,逐漸接近結束。",
+      "starter": "While",
+      "answer": "While they waited for help, the afternoon wore away.",
+      "answerZh": "他們等候救援時,下午的時間慢慢過去,逐漸接近結束。",
+      "highlight": "wore away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The washing machine has become unusable after fifteen years of use.",
+      "promptZh": "洗衣機使用了十五年後已經不能再用。",
+      "starter": "The",
+      "answer": "The washing machine has worn out after fifteen years of use.",
+      "answerZh": "洗衣機使用了十五年後已經損壞,不能再用。",
+      "highlight": "worn out",
+      "targetForm": "wear out",
+      "targetMeaningZh": "因使用太多而不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The rough cloth slowly removed the thin layer of paint.",
+      "promptZh": "粗糙的布慢慢磨走薄薄的一層油漆。",
+      "starter": "The",
+      "answer": "The rough cloth slowly wore the thin layer of paint away.",
+      "answerZh": "粗糙的布慢慢磨走薄薄的一層油漆。",
+      "highlight": "wore",
+      "targetForm": "wear something away",
+      "targetMeaningZh": "把某事物慢慢磨走"
+    },
+    {
+      "id": "phrasal-verb-69-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "All the packing made me extremely tired.",
+      "promptZh": "所有收拾行李的工作令我筋疲力盡。",
+      "starter": "All",
+      "answer": "All the packing wore me out.",
+      "answerZh": "所有收拾行李的工作令我筋疲力盡。",
+      "highlight": "wore",
+      "targetForm": "wear somebody out",
+      "targetMeaningZh": "令某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "Week after week, the cold wind continued to damage the old wall.",
+      "promptZh": "寒風一星期又一星期地吹,持續侵蝕那道舊牆。",
+      "starter": "Week",
+      "answer": "Week after week, the cold wind wore away at the old wall.",
+      "answerZh": "寒風一星期又一星期地吹,一點一點地侵蝕那道舊牆。",
+      "highlight": "wore away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地損害某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "The longer the interview continued, the more uncomfortable he became.",
+      "promptZh": "面試進行得愈久,他便愈感到不自在。",
+      "starter": "As",
+      "answer": "As the interview wore on, he became more and more uncomfortable.",
+      "answerZh": "隨着面試繼續,他愈來愈感到不自在。",
+      "highlight": "As",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    },
+    {
+      "id": "phrasal-verb-69-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "She kept saying no, but their polite requests slowly made her change her mind.",
+      "promptZh": "她一直拒絕,但他們有禮貌地再三請求,慢慢令她改變主意。",
+      "starter": "She",
+      "answer": "She kept saying no, but their polite requests slowly wore her down.",
+      "answerZh": "她一直拒絕,但他們有禮貌地再三請求,慢慢令她改變主意。",
+      "highlight": "wore",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The light faded as the afternoon slowly came towards its end.",
+      "promptZh": "隨着下午慢慢接近結束,光線也逐漸變暗。",
+      "starter": "The",
+      "answer": "The light faded as the afternoon wore away.",
+      "answerZh": "隨着下午慢慢過去並接近結束,光線也逐漸變暗。",
+      "highlight": "wore away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Before the long walk, he used the leather boots several times so they would not hurt his feet.",
+      "promptZh": "長途步行前,他穿了那雙皮靴數次,以免靴子弄痛雙腳。",
+      "starter": "Before",
+      "answer": "Before the long walk, he wore the leather boots in so they would not hurt his feet.",
+      "answerZh": "長途步行前,他把那雙皮靴穿至合腳,以免靴子弄痛雙腳。",
+      "highlight": "wore",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "She was making herself too tired with late-night study.",
+      "promptZh": "她因深夜溫習而令自己過度疲累。",
+      "starter": "She",
+      "answer": "She was wearing herself out with late-night study.",
+      "answerZh": "她因深夜溫習而令自己筋疲力盡。",
+      "highlight": "wearing",
+      "targetForm": "wear yourself out",
+      "targetMeaningZh": "令自己筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Years of footsteps had made the centre of each stone step lower and smoother.",
+      "promptZh": "多年的腳步已令每級石階的中央位置變得較低和光滑。",
+      "starter": "Years",
+      "answer": "Years of footsteps had worn the centre of each stone step down.",
+      "answerZh": "多年的腳步已把每級石階的中央位置磨得較低和光滑。",
+      "highlight": "worn",
+      "targetForm": "wear something down",
+      "targetMeaningZh": "把某事物磨薄、磨短或磨平"
+    },
+    {
+      "id": "phrasal-verb-69-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "The numb feeling in my mouth should slowly disappear after the dentist finishes.",
+      "promptZh": "看完牙醫後,我口中的麻木感應會慢慢消失。",
+      "starter": "The",
+      "answer": "The numb feeling in my mouth should wear off after the dentist finishes.",
+      "answerZh": "看完牙醫後,我口中的麻木感應會逐漸消失。",
+      "highlight": "wear off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The chain removed part of the wood around the hook as it moved against it again and again.",
+      "promptZh": "鏈條一次又一次地磨擦鉤子附近的木材,令一部分木材消失。",
+      "starter": "The",
+      "answer": "The chain wore away part of the wood around the hook as it moved against it again and again.",
+      "answerZh": "鏈條一次又一次地磨擦鉤子附近的木材,磨走了其中一部分。",
+      "highlight": "wore away",
+      "targetForm": "wear something away",
+      "targetMeaningZh": "把某事物慢慢磨走"
+    },
+    {
+      "id": "phrasal-verb-69-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Running on rough ground can make your trainers unusable sooner.",
+      "promptZh": "在粗糙地面上跑步,可能會令你的運動鞋更快穿壞。",
+      "starter": "Running",
+      "answer": "Running on rough ground can wear your trainers out sooner.",
+      "answerZh": "在粗糙地面上跑步,可能會令你的運動鞋更快穿壞。",
+      "highlight": "wear",
+      "targetForm": "wear something out",
+      "targetMeaningZh": "因使用太多而令某事物不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Long days in the heat were slowly making both players less able to continue.",
+      "promptZh": "在炎熱天氣下長時間活動,正慢慢令兩名球員愈來愈難繼續。",
+      "starter": "Long",
+      "answer": "Long days in the heat were wearing both players down.",
+      "answerZh": "在炎熱天氣下長時間活動,正慢慢令兩名球員愈來愈疲弱。",
+      "highlight": "wearing",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人疲弱"
+    },
+    {
+      "id": "phrasal-verb-69-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Months of doubt slowly weakened her hope that the plan would work.",
+      "promptZh": "幾個月的懷疑慢慢削弱了她對計劃成功的希望。",
+      "starter": "Months",
+      "answer": "Months of doubt wore away at her hope that the plan would work.",
+      "answerZh": "幾個月的懷疑慢慢削弱了她對計劃成功的希望。",
+      "highlight": "wore away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地削弱某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "Do not use brand-new hiking shoes for the first time on a ten-kilometre walk; make them comfortable first.",
+      "promptZh": "不要第一次穿全新的遠足鞋便走十公里;先把鞋穿至合腳。",
+      "starter": "Do",
+      "answer": "Do not use brand-new hiking shoes for the first time on a ten-kilometre walk; wear them in first.",
+      "answerZh": "不要第一次穿全新的遠足鞋便走十公里;先把鞋穿至合腳。",
+      "highlight": "wear",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 27,
+      "prompt": "The machine should not make the edge of the metal piece thinner too quickly.",
+      "promptZh": "機器不應太快把金屬片的邊緣磨薄。",
+      "starter": "The",
+      "answer": "The machine should not wear the edge of the metal piece down too quickly.",
+      "answerZh": "機器不應太快把金屬片的邊緣磨薄。",
+      "highlight": "wear",
+      "targetForm": "wear something down",
+      "targetMeaningZh": "把某事物磨薄、磨短或磨平"
+    },
+    {
+      "id": "phrasal-verb-69-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Her nervousness disappeared once the talk began.",
+      "promptZh": "她開始演講後,緊張感便消失了。",
+      "starter": "Her",
+      "answer": "Her nervousness wore off once the talk began.",
+      "answerZh": "她開始演講後,緊張感便逐漸消失。",
+      "highlight": "wore off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the bridge still stood, years of rain and wind had slowly damaged its supports.",
+      "promptZh": "雖然橋仍然屹立,但多年的風雨已慢慢損害支柱。",
+      "starter": "Although",
+      "answer": "Although the bridge still stood, years of rain and wind had worn away at its supports.",
+      "answerZh": "雖然橋仍然屹立,但多年的風雨已一點一點地侵蝕支柱。",
+      "highlight": "worn away at",
+      "targetForm": "wear away at something",
+      "targetMeaningZh": "長時間一點一點地損害某事物"
+    },
+    {
+      "id": "phrasal-verb-69-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The backpack was strong, but daily trips and heavy books finally made it unusable.",
+      "promptZh": "背包本來很耐用,但每天出行和沉重的書本最終令它不能再用。",
+      "starter": "The",
+      "answer": "The backpack was strong, but daily trips and heavy books finally wore it out.",
+      "answerZh": "背包本來很耐用,但每天出行和沉重的書本最終令它損壞,不能再用。",
+      "highlight": "wore",
+      "targetForm": "wear something out",
+      "targetMeaningZh": "因使用太多而令某事物不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "The coach refused at first, but months of polite requests finally made him accept the change.",
+      "promptZh": "教練最初拒絕,但數月來有禮貌的請求最終令他接受改動。",
+      "starter": "The",
+      "answer": "The coach refused at first, but months of polite requests finally wore him down.",
+      "answerZh": "教練最初拒絕,但數月來有禮貌的請求最終令他改變主意。",
+      "highlight": "wore",
+      "targetForm": "wear somebody down",
+      "targetMeaningZh": "慢慢使某人不再抵抗"
+    },
+    {
+      "id": "phrasal-verb-69-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "You will be too tired for tomorrow if you continue working without a break tonight.",
+      "promptZh": "如果你今晚不停工作,你會筋疲力盡,明天便沒有精神。",
+      "starter": "You",
+      "answer": "You will wear yourself out if you continue working without a break tonight.",
+      "answerZh": "如果你今晚不停工作,便會令自己筋疲力盡。",
+      "highlight": "wear yourself out",
+      "targetForm": "wear yourself out",
+      "targetMeaningZh": "令自己筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "By the time the old steps were repaired, thousands of feet had removed the pattern from the middle.",
+      "promptZh": "舊石階維修時,成千上萬雙腳已把中央的圖案磨掉。",
+      "starter": "By",
+      "answer": "By the time the old steps were repaired, thousands of feet had worn the pattern away from the middle.",
+      "answerZh": "舊石階維修時,成千上萬雙腳已把中央的圖案磨掉。",
+      "highlight": "worn",
+      "targetForm": "wear something away",
+      "targetMeaningZh": "把某事物慢慢磨走"
+    },
+    {
+      "id": "phrasal-verb-69-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The first hour was easy, but as the long journey continued, the children became restless.",
+      "promptZh": "第一小時很輕鬆,但隨着漫長旅程繼續,孩子們開始坐立不安。",
+      "starter": "The",
+      "answer": "The first hour was easy, but as the long journey wore on, the children became restless.",
+      "answerZh": "第一小時很輕鬆,但隨着漫長旅程繼續,孩子們開始坐立不安。",
+      "highlight": "wore on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    },
+    {
+      "id": "phrasal-verb-69-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The rope kept rubbing against the wooden post until the top became smooth and thin.",
+      "promptZh": "繩子一直摩擦木柱,直至把頂部磨得光滑而薄。",
+      "starter": "The",
+      "answer": "The rope kept rubbing against the wooden post until it wore the top down.",
+      "answerZh": "繩子一直摩擦木柱,直至把頂部磨得光滑而薄。",
+      "highlight": "it wore",
+      "targetForm": "wear something down",
+      "targetMeaningZh": "把某事物磨薄、磨短或磨平"
+    },
+    {
+      "id": "phrasal-verb-69-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "They had not noticed how much of the day had passed until the sky began to darken.",
+      "promptZh": "直到天色開始變暗,他們才發現白天已有很多時間慢慢過去。",
+      "starter": "They",
+      "answer": "They had not noticed how much of the day had worn away until the sky began to darken.",
+      "answerZh": "直到天色開始變暗,他們才發現白天已有很多時間慢慢過去。",
+      "highlight": "worn away",
+      "targetForm": "wear away",
+      "targetMeaningZh": "時間慢慢過去,逐漸接近結束"
+    },
+    {
+      "id": "phrasal-verb-69-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "The shoes looked perfect, but she had used them at home for a week so that they already felt comfortable.",
+      "promptZh": "鞋子看來很新,但她已在家中穿了一星期,所以早已很舒服。",
+      "starter": "The",
+      "answer": "The shoes looked perfect, but she had worn them in at home for a week.",
+      "answerZh": "鞋子看來很新,但她已在家中把它們穿了一星期,所以早已很舒服。",
+      "highlight": "worn",
+      "targetForm": "wear something in",
+      "targetMeaningZh": "把新鞋或衣物穿至合身舒服"
+    },
+    {
+      "id": "phrasal-verb-69-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "We should repair the chairs before constant use makes them completely unusable.",
+      "promptZh": "我們應在不停使用令椅子完全損壞前修理它們。",
+      "starter": "We",
+      "answer": "We should repair the chairs before constant use wears them out completely.",
+      "answerZh": "我們應在不停使用令椅子完全損壞前修理它們。",
+      "highlight": "wears",
+      "targetForm": "wear something out",
+      "targetMeaningZh": "因使用太多而令某事物不能再用"
+    },
+    {
+      "id": "phrasal-verb-69-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The strong coffee kept him awake at first, but its effect had disappeared before midnight.",
+      "promptZh": "濃咖啡起初令他保持清醒,但咖啡的作用在午夜前已經消失。",
+      "starter": "The",
+      "answer": "The strong coffee kept him awake at first, but its effect had worn off before midnight.",
+      "answerZh": "濃咖啡起初令他保持清醒,但咖啡的作用在午夜前已經逐漸消失。",
+      "highlight": "worn off",
+      "targetForm": "wear off",
+      "targetMeaningZh": "效果或感覺逐漸消失"
+    },
+    {
+      "id": "phrasal-verb-69-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 29,
+      "prompt": "The trip was enjoyable, but carrying the bags all day left both parents completely exhausted.",
+      "promptZh": "旅程很愉快,但整天提着行李令兩位家長筋疲力盡。",
+      "starter": "The",
+      "answer": "The trip was enjoyable, but carrying the bags all day wore both parents out.",
+      "answerZh": "旅程很愉快,但整天提着行李令兩位家長筋疲力盡。",
+      "highlight": "wore",
+      "targetForm": "wear somebody out",
+      "targetMeaningZh": "令某人筋疲力盡"
+    },
+    {
+      "id": "phrasal-verb-69-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 30,
+      "prompt": "No one noticed the cold at first; however, as the night passed slowly, people moved closer to the fire.",
+      "promptZh": "起初沒有人留意寒冷;然而,隨着夜晚慢慢過去,大家都移近火堆。",
+      "starter": "No",
+      "answer": "No one noticed the cold at first; however, as the night wore on, people moved closer to the fire.",
+      "answerZh": "起初沒有人留意寒冷;然而,隨着夜晚時間慢慢過去,大家都移近火堆。",
+      "highlight": "wore on",
+      "targetForm": "wear on",
+      "targetMeaningZh": "時間或事情繼續下去"
+    }
+  ]
+}

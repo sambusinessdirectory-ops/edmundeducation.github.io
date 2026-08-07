@@ -1,0 +1,1684 @@
+{
+  "id": "phrasal-verb-64",
+  "order": 64,
+  "slug": "deal",
+  "version": "1",
+  "title": "DEAL 動詞片語",
+  "titleEn": "Deal",
+  "titleZh": "DEAL 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 63 - DEAL.pdf",
+    "sourceNumber": 63,
+    "pageCount": 28,
+    "teachingPdfPages": [
+      1,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DEAL 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DEAL."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DEAL",
+      "highlight": "DEAL"
+    }
+  ],
+  "examples": [
+    {
+      "en": "That shop deals in second-hand books.",
+      "zh": "那間店舖買賣二手書。",
+      "highlight": "deals in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "That sounds like a good plan. Deal me in!",
+      "zh": "這個計劃聽起來不錯。算我一份!",
+      "highlight": "Deal me in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You can deal me out of this trip.",
+      "zh": "這次旅程不用算我。",
+      "highlight": "deal me out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "買賣某類商品;經營某類業務；把某人包括在活動或計劃內;算某人一份；不把某人包括在活動或計劃內；把某物分派給某人；處理或應付某人;在工作中與某類人士打交道；與某人、公司或機構做生意；處理或應付某事",
+    "en": "deal in something; deal somebody in; deal somebody out / deal somebody out of something; deal something out to somebody; deal with somebody; deal with somebody/something; deal with something",
+    "naturalZh": [
+      "買賣某類商品;經營某類業務",
+      "把某人包括在活動或計劃內;算某人一份",
+      "不把某人包括在活動或計劃內",
+      "把某物分派給某人",
+      "處理或應付某人;在工作中與某類人士打交道",
+      "與某人、公司或機構做生意",
+      "處理或應付某事"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "deal in something",
+      "titleZh": "買賣某類商品;經營某類業務",
+      "titleEn": "deal in something",
+      "descriptionZh": "買賣某類商品;經營某類業務",
+      "descriptionEn": "That shop deals in second-hand books.",
+      "examples": [
+        {
+          "en": "That shop deals in second-hand books.",
+          "zh": "那間店舖買賣二手書。",
+          "highlight": "deals in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "deal somebody in",
+      "titleZh": "把某人包括在活動或計劃內;算某人一份",
+      "titleEn": "deal somebody in",
+      "descriptionZh": "把某人包括在活動或計劃內;算某人一份",
+      "descriptionEn": "That sounds like a good plan. Deal me in!",
+      "examples": [
+        {
+          "en": "That sounds like a good plan. Deal me in!",
+          "zh": "這個計劃聽起來不錯。算我一份!",
+          "highlight": "Deal me in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "deal somebody out / deal somebody out of something",
+      "titleZh": "不把某人包括在活動或計劃內",
+      "titleEn": "deal somebody out / deal somebody out of something",
+      "descriptionZh": "不把某人包括在活動或計劃內",
+      "descriptionEn": "You can deal me out of this trip.",
+      "examples": [
+        {
+          "en": "You can deal me out of this trip.",
+          "zh": "這次旅程不用算我。",
+          "highlight": "deal me out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "deal something out to somebody",
+      "titleZh": "把某物分派給某人",
+      "titleEn": "deal something out to somebody",
+      "descriptionZh": "把某物分派給某人",
+      "descriptionEn": "The teacher dealt the cards out to the class.",
+      "examples": [
+        {
+          "en": "The teacher dealt the cards out to the class.",
+          "zh": "老師把卡牌派給全班。",
+          "highlight": "dealt the cards out to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "deal with somebody",
+      "titleZh": "處理或應付某人;在工作中與某類人士打交道",
+      "titleEn": "deal with somebody",
+      "descriptionZh": "處理或應付某人;在工作中與某類人士打交道",
+      "descriptionEn": "Her job involves dealing with young offenders.",
+      "examples": [
+        {
+          "en": "Her job involves dealing with young offenders.",
+          "zh": "她的工作需要與犯事的年輕人打交道。",
+          "highlight": "dealing with"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "deal with somebody/something",
+      "titleZh": "與某人、公司或機構做生意",
+      "titleEn": "deal with somebody/something",
+      "descriptionZh": "與某人、公司或機構做生意",
+      "descriptionEn": "We deal only with trusted suppliers.",
+      "examples": [
+        {
+          "en": "We deal only with trusted suppliers.",
+          "zh": "我們只與可信賴的供應商做生意。",
+          "highlight": "deal only with"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "deal with something",
+      "titleZh": "處理或應付某事",
+      "titleEn": "deal with something",
+      "descriptionZh": "處理或應付某事",
+      "descriptionEn": "The police dealt with the incident quickly.",
+      "examples": [
+        {
+          "en": "The police dealt with the incident quickly.",
+          "zh": "警方迅速處理了事件。",
+          "highlight": "dealt with"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DEAL 片語動詞的實際用途",
+    "labelEn": "DEAL Phrasal Verbs in Use",
+    "summaryZh": "deal in 可以說明店舖、公司或個人經常買賣哪類商品;deal with 則可以說明他們與哪些人或公司做生意。；deal somebody in 表示把某人包括在內;deal somebody out 則表示不把某人包括在活動或計劃內。；deal something out 可以表示把卡牌、門票、表格、食物或其他物品分派給多人。；deal with 可以表示協助顧客、應付難以處理的人,或處理投訴、故障和事件。",
+    "summaryEn": "Deal in can describe the products that a shop, company or person regularly buys and sells. Deal with can describe the people or companies they do business with. Deal somebody in means that the person can join. Deal somebody out means that the person will not take part. Deal something out can describe distributing cards, tickets, forms, food or other items among several people. Deal with can describe helping a customer, managing a difficult person or taking action to handle a complaint, fault or incident.",
+    "contextsZh": [
+      "使用 DEAL 談論買賣和生意",
+      "清楚表示某人是否參與",
+      "描述把物品分派給一群人",
+      "談論如何應付人物和處理問題"
+    ],
+    "contextsEn": [
+      "Use DEAL to talk about buying and selling",
+      "Include or exclude people clearly",
+      "Describe giving things to a group",
+      "Talk about handling people and problems"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DEAL 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DEAL expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "deal in something",
+    "fixedHighlight": "deal in something",
+    "fixedZh": "閱讀整句,選出意思相同的 DEAL 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DEAL expression that gives the same meaning.",
+    "correct": "deals in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 me、him、her、us、it 或 them 時,請按照以上例子放在正確位置。；deal with 可以表示應付某人、與某人做生意,或處理某個問題。請仔細閱讀完整情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using me, him, her, us, it or them, place the word as shown: deal me in deal him out deal them out Deal with can describe handling a person, doing business with someone or handling a problem. Read the full situation carefully.",
+    "variableItemsZh": [
+      "deal in something",
+      "deal somebody in",
+      "deal somebody out / deal somebody out of something",
+      "deal something out to somebody",
+      "deal with somebody",
+      "deal with somebody/something",
+      "deal with something"
+    ],
+    "variableItemsEn": [
+      "deal in something",
+      "deal somebody in",
+      "deal somebody out / deal somebody out of something",
+      "deal something out to somebody",
+      "deal with somebody",
+      "deal with somebody/something",
+      "deal with something"
+    ],
+    "forms": [
+      {
+        "formZh": "買賣某類商品;經營某類業務",
+        "formEn": "deal in something",
+        "exampleZh": "那間店舖買賣二手書。",
+        "exampleEn": "That shop deals in second-hand books.",
+        "highlight": "deals in"
+      },
+      {
+        "formZh": "把某人包括在活動或計劃內;算某人一份",
+        "formEn": "deal somebody in",
+        "exampleZh": "這個計劃聽起來不錯。算我一份!",
+        "exampleEn": "That sounds like a good plan. Deal me in!",
+        "highlight": "Deal me in"
+      },
+      {
+        "formZh": "不把某人包括在活動或計劃內",
+        "formEn": "deal somebody out / deal somebody out of something",
+        "exampleZh": "這次旅程不用算我。",
+        "exampleEn": "You can deal me out of this trip.",
+        "highlight": "deal me out"
+      },
+      {
+        "formZh": "把某物分派給某人",
+        "formEn": "deal something out to somebody",
+        "exampleZh": "老師把卡牌派給全班。",
+        "exampleEn": "The teacher dealt the cards out to the class.",
+        "highlight": "dealt the cards out to"
+      },
+      {
+        "formZh": "處理或應付某人;在工作中與某類人士打交道",
+        "formEn": "deal with somebody",
+        "exampleZh": "她的工作需要與犯事的年輕人打交道。",
+        "exampleEn": "Her job involves dealing with young offenders.",
+        "highlight": "dealing with"
+      },
+      {
+        "formZh": "與某人、公司或機構做生意",
+        "formEn": "deal with somebody/something",
+        "exampleZh": "我們只與可信賴的供應商做生意。",
+        "exampleEn": "We deal only with trusted suppliers.",
+        "highlight": "deal only with"
+      },
+      {
+        "formZh": "處理或應付某事",
+        "formEn": "deal with something",
+        "exampleZh": "警方迅速處理了事件。",
+        "exampleEn": "The police dealt with the incident quickly.",
+        "highlight": "dealt with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "買賣某類商品;經營某類業務",
+      "titleEn": "deal in something",
+      "formula": "deal in something",
+      "highlight": "deal in something",
+      "descriptionZh": "買賣某類商品;經營某類業務",
+      "descriptionEn": "That shop deals in second-hand books.",
+      "examples": [
+        {
+          "en": "That shop deals in second-hand books.",
+          "zh": "那間店舖買賣二手書。",
+          "highlight": "deals in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人包括在活動或計劃內;算某人一份",
+      "titleEn": "deal somebody in",
+      "formula": "deal somebody in",
+      "highlight": "deal somebody in",
+      "descriptionZh": "把某人包括在活動或計劃內;算某人一份",
+      "descriptionEn": "That sounds like a good plan. Deal me in!",
+      "examples": [
+        {
+          "en": "That sounds like a good plan. Deal me in!",
+          "zh": "這個計劃聽起來不錯。算我一份!",
+          "highlight": "Deal me in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "不把某人包括在活動或計劃內",
+      "titleEn": "deal somebody out / deal somebody out of something",
+      "formula": "deal somebody out / deal somebody out of something",
+      "highlight": "deal somebody out / deal somebody out of something",
+      "descriptionZh": "不把某人包括在活動或計劃內",
+      "descriptionEn": "You can deal me out of this trip.",
+      "examples": [
+        {
+          "en": "You can deal me out of this trip.",
+          "zh": "這次旅程不用算我。",
+          "highlight": "deal me out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某物分派給某人",
+      "titleEn": "deal something out to somebody",
+      "formula": "deal something out to somebody",
+      "highlight": "deal something out to somebody",
+      "descriptionZh": "把某物分派給某人",
+      "descriptionEn": "The teacher dealt the cards out to the class.",
+      "examples": [
+        {
+          "en": "The teacher dealt the cards out to the class.",
+          "zh": "老師把卡牌派給全班。",
+          "highlight": "dealt the cards out to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "處理或應付某人;在工作中與某類人士打交道",
+      "titleEn": "deal with somebody",
+      "formula": "deal with somebody",
+      "highlight": "deal with somebody",
+      "descriptionZh": "處理或應付某人;在工作中與某類人士打交道",
+      "descriptionEn": "Her job involves dealing with young offenders.",
+      "examples": [
+        {
+          "en": "Her job involves dealing with young offenders.",
+          "zh": "她的工作需要與犯事的年輕人打交道。",
+          "highlight": "dealing with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "與某人、公司或機構做生意",
+      "titleEn": "deal with somebody/something",
+      "formula": "deal with somebody/something",
+      "highlight": "deal with somebody/something",
+      "descriptionZh": "與某人、公司或機構做生意",
+      "descriptionEn": "We deal only with trusted suppliers.",
+      "examples": [
+        {
+          "en": "We deal only with trusted suppliers.",
+          "zh": "我們只與可信賴的供應商做生意。",
+          "highlight": "deal only with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "處理或應付某事",
+      "titleEn": "deal with something",
+      "formula": "deal with something",
+      "highlight": "deal with something",
+      "descriptionZh": "處理或應付某事",
+      "descriptionEn": "The police dealt with the incident quickly.",
+      "examples": [
+        {
+          "en": "The police dealt with the incident quickly.",
+          "zh": "警方迅速處理了事件。",
+          "highlight": "dealt with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 DEAL 談論買賣和生意",
+      "titleEn": "Use DEAL to talk about buying and selling",
+      "zh": "deal in 可以說明店舖、公司或個人經常買賣哪類商品;deal with 則可以說明他們與哪些人或公司做生意。",
+      "en": "Deal in can describe the products that a shop, company or person regularly buys and sells. Deal with can describe the people or companies they do business with."
+    },
+    {
+      "titleZh": "清楚表示某人是否參與",
+      "titleEn": "Include or exclude people clearly",
+      "zh": "deal somebody in 表示把某人包括在內;deal somebody out 則表示不把某人包括在活動或計劃內。",
+      "en": "Deal somebody in means that the person can join. Deal somebody out means that the person will not take part."
+    },
+    {
+      "titleZh": "描述把物品分派給一群人",
+      "titleEn": "Describe giving things to a group",
+      "zh": "deal something out 可以表示把卡牌、門票、表格、食物或其他物品分派給多人。",
+      "en": "Deal something out can describe distributing cards, tickets, forms, food or other items among several people."
+    },
+    {
+      "titleZh": "談論如何應付人物和處理問題",
+      "titleEn": "Talk about handling people and problems",
+      "zh": "deal with 可以表示協助顧客、應付難以處理的人,或處理投訴、故障和事件。",
+      "en": "Deal with can describe helping a customer, managing a difficult person or taking action to handle a complaint, fault or incident."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 DEAL 談論買賣和生意",
+      "清楚表示某人是否參與",
+      "描述把物品分派給一群人",
+      "談論如何應付人物和處理問題"
+    ],
+    "contextsEn": [
+      "Use DEAL to talk about buying and selling",
+      "Include or exclude people clearly",
+      "Describe giving things to a group",
+      "Talk about handling people and problems"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 DEAL 談論買賣和生意",
+        "titleEn": "Use DEAL to talk about buying and selling",
+        "zh": "deal in 可以說明店舖、公司或個人經常買賣哪類商品;deal with 則可以說明他們與哪些人或公司做生意。",
+        "en": "Deal in can describe the products that a shop, company or person regularly buys and sells. Deal with can describe the people or companies they do business with.",
+        "examples": [
+          {
+            "en": "That shop deals in second-hand books.",
+            "zh": "那間店舖買賣二手書。",
+            "highlight": "deals in"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表示某人是否參與",
+        "titleEn": "Include or exclude people clearly",
+        "zh": "deal somebody in 表示把某人包括在內;deal somebody out 則表示不把某人包括在活動或計劃內。",
+        "en": "Deal somebody in means that the person can join. Deal somebody out means that the person will not take part.",
+        "examples": [
+          {
+            "en": "That sounds like a good plan. Deal me in!",
+            "zh": "這個計劃聽起來不錯。算我一份!",
+            "highlight": "Deal me in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述把物品分派給一群人",
+        "titleEn": "Describe giving things to a group",
+        "zh": "deal something out 可以表示把卡牌、門票、表格、食物或其他物品分派給多人。",
+        "en": "Deal something out can describe distributing cards, tickets, forms, food or other items among several people.",
+        "examples": [
+          {
+            "en": "You can deal me out of this trip.",
+            "zh": "這次旅程不用算我。",
+            "highlight": "deal me out"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論如何應付人物和處理問題",
+        "titleEn": "Talk about handling people and problems",
+        "zh": "deal with 可以表示協助顧客、應付難以處理的人,或處理投訴、故障和事件。",
+        "en": "Deal with can describe helping a customer, managing a difficult person or taking action to handle a complaint, fault or incident.",
+        "examples": [
+          {
+            "en": "The teacher dealt the cards out to the class.",
+            "zh": "老師把卡牌派給全班。",
+            "highlight": "dealt the cards out to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DEAL 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DEAL expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DEAL 片語動詞。",
+      "en": "Read the whole sentence and choose the DEAL expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 me、him、her、us、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using me, him, her, us, it or them, place the word as shown: deal me in deal him out deal them out.",
+      "zh": "使用 me、him、her、us、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using me, him, her, us, it or them, place the word as shown: deal me in deal him out deal them out"
+    },
+    {
+      "titleZh": "deal with 可以表示應付某人、與某人做生意,或處理某個問題。請仔細閱讀完整情境。",
+      "titleEn": "Deal with can describe handling a person, doing business with someone or handling a problem.",
+      "zh": "deal with 可以表示應付某人、與某人做生意,或處理某個問題。請仔細閱讀完整情境。",
+      "en": "Deal with can describe handling a person, doing business with someone or handling a problem. Read the full situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DEAL 動詞片語句子改寫練習",
+    "titleEn": "DEAL Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DEAL 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DEAL. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-64-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The manager handled the complaint quickly.",
+      "promptZh": "經理迅速處理了投訴。",
+      "starter": "The",
+      "answer": "The manager dealt with the complaint quickly.",
+      "answerZh": "經理迅速處理了投訴。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "That small shop buys and sells old records.",
+      "promptZh": "那間小店買賣舊唱片。",
+      "starter": "That",
+      "answer": "That small shop deals in old records.",
+      "answerZh": "那間小店買賣舊唱片。",
+      "highlight": "deals in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "Please give one worksheet to each student.",
+      "promptZh": "請向每名學生派發一張工作紙。",
+      "starter": "Please",
+      "answer": "Please deal out one worksheet to each student.",
+      "answerZh": "請向每名學生派發一張工作紙。",
+      "highlight": "deal out",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The plan sounds exciting. Please include me.",
+      "promptZh": "這個計劃聽起來很吸引。請算我一份。",
+      "starter": "The",
+      "answer": "The plan sounds exciting. Please deal me in.",
+      "answerZh": "這個計劃聽起來很吸引。請算我一份。",
+      "highlight": "deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 17,
+      "prompt": "This nurse often works with nervous children.",
+      "promptZh": "這名護士經常與緊張不安的兒童打交道。",
+      "starter": "This",
+      "answer": "This nurse often deals with nervous children.",
+      "answerZh": "這名護士經常與緊張不安的兒童打交道。",
+      "highlight": "deals",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人;與某類人士打交道"
+    },
+    {
+      "id": "phrasal-verb-64-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Our café buys its bread only from local bakers.",
+      "promptZh": "我們的咖啡店只向本地麵包師購買麵包。",
+      "starter": "Our",
+      "answer": "Our café deals only with local bakers for its bread.",
+      "answerZh": "我們的咖啡店只與本地麵包師做生意,向他們購買麵包。",
+      "highlight": "deals only with local bakers for",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please do not include me in this risky plan.",
+      "promptZh": "請不要把我包括在這個有風險的計劃內。",
+      "starter": "Please",
+      "answer": "Please deal me out of this risky plan.",
+      "answerZh": "請不要把我包括在這個有風險的計劃內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The host gave the prizes to the winners.",
+      "promptZh": "主持人把獎品派給得獎者。",
+      "starter": "The",
+      "answer": "The host dealt the prizes out to the winners.",
+      "answerZh": "主持人把獎品派給得獎者。",
+      "highlight": "dealt",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Her family buys and sells handmade jewellery.",
+      "promptZh": "她的家人買賣手製首飾。",
+      "starter": "Her",
+      "answer": "Her family deals in handmade jewellery.",
+      "answerZh": "她的家人買賣手製首飾。",
+      "highlight": "deals in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "The school handled the lost-phone report at once.",
+      "promptZh": "學校立即處理了手機遺失報告。",
+      "starter": "The",
+      "answer": "The school dealt with the lost-phone report at once.",
+      "answerZh": "學校立即處理了手機遺失報告。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 18,
+      "prompt": "We do business only with companies we trust.",
+      "promptZh": "我們只與信任的公司做生意。",
+      "starter": "We",
+      "answer": "We deal only with companies we trust.",
+      "answerZh": "我們只與信任的公司做生意。",
+      "highlight": "deal",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We are planning a beach picnic. Include Leo too.",
+      "promptZh": "我們正在計劃海灘野餐,也算 Leo 一份。",
+      "starter": "We",
+      "answer": "We are planning a beach picnic. Deal Leo in too.",
+      "answerZh": "我們正在計劃海灘野餐,也算 Leo 一份。",
+      "highlight": "Deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The coach is good at working with angry players.",
+      "promptZh": "教練很擅長應付憤怒的球員。",
+      "starter": "The",
+      "answer": "The coach is good at dealing with angry players.",
+      "answerZh": "教練很擅長應付憤怒的球員。",
+      "highlight": "dealing",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The organiser agreed not to include us in the late-night game.",
+      "promptZh": "主辦人同意不把我們包括在深夜遊戲內。",
+      "starter": "The",
+      "answer": "The organiser agreed to deal us out of the late-night game.",
+      "answerZh": "主辦人同意不把我們包括在深夜遊戲內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Whenever we start a new project, Sara includes me.",
+      "promptZh": "每當我們開展新項目時,Sara 都會算我一份。",
+      "starter": "Whenever",
+      "answer": "Whenever we start a new project, Sara deals me in.",
+      "answerZh": "每當我們開展新項目時,Sara 都會算我一份。",
+      "highlight": "deals",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The technician is handling the internet problem now.",
+      "promptZh": "技術員正在處理網絡問題。",
+      "starter": "The",
+      "answer": "The technician is dealing with the internet problem now.",
+      "answerZh": "技術員正在處理網絡問題。",
+      "highlight": "dealing with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "For ten years, this shop has done business with the same farm.",
+      "promptZh": "十年來,這間店舖一直與同一個農場做生意。",
+      "starter": "For",
+      "answer": "For ten years, this shop has dealt with the same farm.",
+      "answerZh": "十年來,這間店舖一直與同一個農場做生意。",
+      "highlight": "dealt",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Here are the tickets. Please give them to the guests.",
+      "promptZh": "這裏有門票。請把它們派給賓客。",
+      "starter": "Here",
+      "answer": "Here are the tickets. Please deal them out to the guests.",
+      "answerZh": "這裏有門票。請把它們派給賓客。",
+      "highlight": "deal",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ben asked not to join the second round, so they did not include him.",
+      "promptZh": "Ben 要求不參加第二回合,所以他們沒有把他算在內。",
+      "starter": "Ben",
+      "answer": "Ben asked not to join the second round, so they dealt him out.",
+      "answerZh": "Ben 要求不參加第二回合,所以他們沒有把他算在內。",
+      "highlight": "dealt",
+      "targetForm": "deal somebody out",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The website is now buying and selling used cameras.",
+      "promptZh": "這個網站現正買賣二手相機。",
+      "starter": "The",
+      "answer": "The website is now dealing in used cameras.",
+      "answerZh": "這個網站現正買賣二手相機。",
+      "highlight": "dealing in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Does your job involve working with difficult callers?",
+      "promptZh": "你的工作是否需要應付難以處理的來電者?",
+      "starter": "Does",
+      "answer": "Does your job involve dealing with difficult callers?",
+      "answerZh": "你的工作是否需要應付難以處理的來電者?",
+      "highlight": "dealing",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The team has not handled the safety issue yet.",
+      "promptZh": "團隊尚未處理安全問題。",
+      "starter": "The",
+      "answer": "The team has not dealt with the safety issue yet.",
+      "answerZh": "團隊尚未處理安全問題。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Your idea could help us, so we should include you.",
+      "promptZh": "你的構思可以幫助我們,所以我們應該算你一份。",
+      "starter": "Your",
+      "answer": "Your idea could help us, so we should deal you in.",
+      "answerZh": "你的構思可以幫助我們,所以我們應該算你一份。",
+      "highlight": "deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "While the pupils waited, the teacher was giving the cards to them.",
+      "promptZh": "學生等候期間,老師正在把卡牌派給他們。",
+      "starter": "While",
+      "answer": "While the pupils waited, the teacher was dealing the cards out to them.",
+      "answerZh": "學生等候期間,老師正在把卡牌派給他們。",
+      "highlight": "dealing",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Does this company do business with overseas shops?",
+      "promptZh": "這間公司是否與海外店舖做生意?",
+      "starter": "Does",
+      "answer": "Does this company deal with overseas shops?",
+      "answerZh": "這間公司是否與海外店舖做生意?",
+      "highlight": "deal",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She has worked with many young people in trouble.",
+      "promptZh": "她曾與許多遇上困難的年輕人打交道。",
+      "starter": "She",
+      "answer": "She has dealt with many young people in trouble.",
+      "answerZh": "她曾與許多遇上困難的年輕人打交道。",
+      "highlight": "dealt",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人;與某類人士打交道"
+    },
+    {
+      "id": "phrasal-verb-64-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The new market will buy and sell local art.",
+      "promptZh": "新市場將會買賣本地藝術品。",
+      "starter": "The",
+      "answer": "The new market will deal in local art.",
+      "answerZh": "新市場將會買賣本地藝術品。",
+      "highlight": "deal in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "You may decide not to include me in the cooking contest.",
+      "promptZh": "你可以決定不把我包括在烹飪比賽內。",
+      "starter": "You",
+      "answer": "You may deal me out of the cooking contest.",
+      "answerZh": "你可以不把我包括在烹飪比賽內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The teacher has the cards. She will give them to the four teams.",
+      "promptZh": "老師拿着卡牌。她會把卡牌派給四支隊伍。",
+      "starter": "The",
+      "answer": "The teacher has the cards. She will deal them out to the four teams.",
+      "answerZh": "老師拿着卡牌。她會把卡牌派給四支隊伍。",
+      "highlight": "deal",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The customer is upset. I will handle him calmly.",
+      "promptZh": "顧客很生氣。我會冷靜地應付他。",
+      "starter": "The",
+      "answer": "The customer is upset. I will deal with him calmly.",
+      "answerZh": "顧客很生氣。我會冷靜地應付他。",
+      "highlight": "deal with",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "This game is too rough for me. Do not include me.",
+      "promptZh": "這個遊戲對我來說太粗暴了。不要算我一份。",
+      "starter": "This",
+      "answer": "This game is too rough for me. Deal me out.",
+      "answerZh": "這個遊戲對我來說太粗暴了。不要算我一份。",
+      "highlight": "Deal",
+      "targetForm": "deal somebody out",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Since 2018, the family has bought and sold rare coins.",
+      "promptZh": "自 2018 年起,這個家庭一直買賣稀有錢幣。",
+      "starter": "Since",
+      "answer": "Since 2018, the family has dealt in rare coins.",
+      "answerZh": "自 2018 年起,這個家庭一直買賣稀有錢幣。",
+      "highlight": "dealt in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The broken pipe is serious, but the caretaker can handle it.",
+      "promptZh": "水管損壞的問題很嚴重,但管理員可以處理。",
+      "starter": "The",
+      "answer": "The broken pipe is serious, but the caretaker can deal with it.",
+      "answerZh": "水管損壞的問題很嚴重,但管理員可以處理。",
+      "highlight": "deal with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "We liked the idea, and the group agreed to include us.",
+      "promptZh": "我們喜歡這個構思,而小組同意算我們一份。",
+      "starter": "We",
+      "answer": "We liked the idea, and the group agreed to deal us in.",
+      "answerZh": "我們喜歡這個構思,而小組同意算我們一份。",
+      "highlight": "deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "That seller has fair prices, so I am happy to do business with them.",
+      "promptZh": "那名賣家的價格合理,所以我樂意與對方做生意。",
+      "starter": "That",
+      "answer": "That seller has fair prices, so I am happy to deal with them.",
+      "answerZh": "那名賣家的價格合理,所以我樂意與對方做生意。",
+      "highlight": "deal",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The food packs were given to the families at noon.",
+      "promptZh": "食物包在中午派給各個家庭。",
+      "starter": "The",
+      "answer": "The food packs were dealt out to the families at noon.",
+      "answerZh": "食物包在中午派給各個家庭。",
+      "highlight": "dealt out",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "A passenger reported a missing bag. Airport staff handled the report.",
+      "promptZh": "一名乘客報告行李遺失。機場職員處理了報告。",
+      "starter": "A",
+      "answer": "A passenger reported a missing bag. Airport staff dealt with the report.",
+      "answerZh": "一名乘客報告行李遺失。機場職員處理了報告。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The two noisy pupils were handled by the head teacher.",
+      "promptZh": "兩名吵鬧的學生由校長處理。",
+      "starter": "The",
+      "answer": "The two noisy pupils were dealt with by the head teacher.",
+      "answerZh": "兩名吵鬧的學生由校長處理。",
+      "highlight": "dealt with",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "He made extra money by buying and selling concert posters.",
+      "promptZh": "他靠買賣演唱會海報賺取額外金錢。",
+      "starter": "He",
+      "answer": "He made extra money by dealing in concert posters.",
+      "answerZh": "他靠買賣演唱會海報賺取額外金錢。",
+      "highlight": "dealing in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Nora asked not to be part of the camping trip, so the group did not include her.",
+      "promptZh": "Nora 要求不參加露營旅程,所以小組沒有把她算在內。",
+      "starter": "Nora",
+      "answer": "Nora asked not to be part of the camping trip, so the group dealt her out of the camping trip.",
+      "answerZh": "Nora 要求不參加露營旅程,所以小組沒有把她算在內。",
+      "highlight": "dealt",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Our company does business only with repair shops that use good-quality parts.",
+      "promptZh": "我們公司只與使用優質零件的維修店做生意。",
+      "starter": "Our",
+      "answer": "Our company deals only with repair shops that use good-quality parts.",
+      "answerZh": "我們公司只與使用優質零件的維修店做生意。",
+      "highlight": "deals",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Are you planning another quiz night? Include me.",
+      "promptZh": "你們正在計劃另一個問答遊戲之夜嗎?算我一份。",
+      "starter": "Are",
+      "answer": "Are you planning another quiz night? Deal me in.",
+      "answerZh": "你們正在計劃另一個問答遊戲之夜嗎?算我一份。",
+      "highlight": "Deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We do not do business with every online seller; we choose only those with clear return rules.",
+      "promptZh": "我們不會與每一名網上賣家做生意;我們只選擇退貨規則清楚的賣家。",
+      "starter": "We",
+      "answer": "We do not deal with every online seller; we choose only those with clear return rules.",
+      "answerZh": "我們不會與每一名網上賣家做生意;我們只選擇退貨規則清楚的賣家。",
+      "highlight": "deal",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The group plans not to include Ravi in the mountain walk because it is too hard for him.",
+      "promptZh": "小組計劃不讓 Ravi 參加登山活動,因為對他來說太困難。",
+      "starter": "The",
+      "answer": "The group plans to deal Ravi out of the mountain walk because it is too hard for him.",
+      "answerZh": "小組計劃不讓 Ravi 參加登山活動,因為對他來說太困難。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The fire alarm was false, but staff still handled the situation carefully.",
+      "promptZh": "火警只是誤報,但職員仍小心處理情況。",
+      "starter": "The",
+      "answer": "The fire alarm was false, but staff still dealt with the situation carefully.",
+      "answerZh": "火警只是誤報,但職員仍小心處理情況。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The group needs another driver, and Eva has offered to help, so they will include her.",
+      "promptZh": "小組需要另一名司機,而 Eva 已提出幫忙,所以他們會算她一份。",
+      "starter": "The",
+      "answer": "The group needs another driver, and Eva has offered to help, so they will deal her in.",
+      "answerZh": "小組需要另一名司機,而 Eva 已提出幫忙,所以他們會算她一份。",
+      "highlight": "deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "After the race, volunteers gave water bottles to every runner.",
+      "promptZh": "比賽後,義工把水樽派給每名跑手。",
+      "starter": "After",
+      "answer": "After the race, volunteers dealt water bottles out to every runner.",
+      "answerZh": "比賽後,義工把水樽派給每名跑手。",
+      "highlight": "dealt",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The company does not make bicycles; it buys and sells bicycle parts.",
+      "promptZh": "這間公司不生產單車;它買賣單車零件。",
+      "starter": "The",
+      "answer": "The company does not make bicycles; it deals in bicycle parts.",
+      "answerZh": "這間公司不生產單車;它買賣單車零件。",
+      "highlight": "deals in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "This teacher mainly works with students who often break school rules.",
+      "promptZh": "這名老師主要應付經常違反校規的學生。",
+      "starter": "This",
+      "answer": "This teacher deals mainly with students who often break school rules.",
+      "answerZh": "這名老師主要應付經常違反校規的學生。",
+      "highlight": "deals",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Our restaurant does business only with fish sellers who follow local rules.",
+      "promptZh": "我們的餐廳只與遵守本地規則的魚販做生意。",
+      "starter": "Our",
+      "answer": "Our restaurant deals only with fish sellers who follow local rules.",
+      "answerZh": "我們的餐廳只與遵守本地規則的魚販做生意。",
+      "highlight": "deals",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Who gave the badges to the new members after they arrived?",
+      "promptZh": "新成員到達後,是誰把徽章派給他們?",
+      "starter": "Who",
+      "answer": "Who dealt the badges out to the new members after they arrived?",
+      "answerZh": "新成員到達後,是誰把徽章派給他們?",
+      "highlight": "dealt",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "I will join the planning meeting, but please do not include me in the dance performance.",
+      "promptZh": "我會參加籌備會議,但請不要把我包括在舞蹈表演內。",
+      "starter": "I",
+      "answer": "I will join the planning meeting, but please deal me out of the dance performance.",
+      "answerZh": "我會參加籌備會議,但請不要把我包括在舞蹈表演內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The manager listened to both sides before handling the argument.",
+      "promptZh": "經理先聽取雙方說法,然後才處理爭執。",
+      "starter": "The",
+      "answer": "The manager listened to both sides before dealing with the argument.",
+      "answerZh": "經理先聽取雙方說法,然後才處理爭執。",
+      "highlight": "dealing with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Working at this desk means helping people who are worried or confused.",
+      "promptZh": "在這個服務櫃位工作,代表要應付感到擔心或困惑的人。",
+      "starter": "Working",
+      "answer": "Working at this desk means dealing with people who are worried or confused.",
+      "answerZh": "在這個服務櫃位工作,代表要應付感到擔心或困惑的人。",
+      "highlight": "dealing with",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The trip had room for one more person, so they included Sam because he could read the map.",
+      "promptZh": "旅程尚有一個名額,所以他們把 Sam 算在內,因為他懂得看地圖。",
+      "starter": "The",
+      "answer": "The trip had room for one more person, so they dealt Sam in because he could read the map.",
+      "answerZh": "旅程尚有一個名額,所以他們把 Sam 算在內,因為他懂得看地圖。",
+      "highlight": "dealt",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Unlike the bakery next door, this shop buys and sells kitchen tools.",
+      "promptZh": "與旁邊的麵包店不同,這間店舖買賣廚房用品。",
+      "starter": "Unlike",
+      "answer": "Unlike the bakery next door, this shop deals in kitchen tools.",
+      "answerZh": "與旁邊的麵包店不同,這間店舖買賣廚房用品。",
+      "highlight": "deals in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The receptionist handled several angry visitors politely, even though they demanded help at the same time.",
+      "promptZh": "接待員有禮地應付幾名憤怒的訪客,儘管他們同時要求協助。",
+      "starter": "The",
+      "answer": "The receptionist dealt with several angry visitors politely, even though they demanded help at the same time.",
+      "answerZh": "接待員有禮地應付幾名憤怒的訪客,儘管他們同時要求協助。",
+      "highlight": "dealt with",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The family began with old maps, but it now buys and sells many kinds of travel items.",
+      "promptZh": "這個家庭最初買賣舊地圖,現在則買賣多種旅遊用品。",
+      "starter": "The",
+      "answer": "The family began with old maps, but it now deals in many kinds of travel items.",
+      "answerZh": "這個家庭最初買賣舊地圖,現在則買賣多種旅遊用品。",
+      "highlight": "deals in",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "We thought the idea was too expensive, but the new budget means the team can include us again.",
+      "promptZh": "我們原本覺得這個構思太昂貴,但新預算令團隊可以再次把我們算在內。",
+      "starter": "We",
+      "answer": "We thought the idea was too expensive, but the new budget means the team can deal us in again.",
+      "answerZh": "我們原本覺得這個構思太昂貴,但新預算令團隊可以再次把我們算在內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The problem affected three classrooms, but the school handled it before lessons began.",
+      "promptZh": "問題影響了三間課室,但學校在上課前處理了問題。",
+      "starter": "The",
+      "answer": "The problem affected three classrooms, but the school dealt with it before lessons began.",
+      "answerZh": "問題影響了三間課室,但學校在上課前處理了問題。",
+      "highlight": "dealt with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "I can help with the posters, but I asked them not to include me in the live show.",
+      "promptZh": "我可以協助製作海報,但我要求他們不要把我包括在現場表演內。",
+      "starter": "I",
+      "answer": "I can help with the posters, but I asked them to deal me out of the live show.",
+      "answerZh": "我可以協助製作海報,但我要求他們不要把我包括在現場表演內。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out of something",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The shop stopped doing business with that supplier after several late deliveries.",
+      "promptZh": "幾次送貨延誤後,店舖停止與該供應商做生意。",
+      "starter": "The",
+      "answer": "The shop stopped dealing with that supplier after several late deliveries.",
+      "answerZh": "幾次送貨延誤後,店舖停止與該供應商做生意。",
+      "highlight": "dealing",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Once everyone was seated, the organiser began to give the forms to the parents.",
+      "promptZh": "所有人坐好後,主辦人開始把表格派給家長。",
+      "starter": "Once",
+      "answer": "Once everyone was seated, the organiser began to deal the forms out to the parents.",
+      "answerZh": "所有人坐好後,主辦人開始把表格派給家長。",
+      "highlight": "deal",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The team changed the plan and needed someone who knew the area, so they included Nina.",
+      "promptZh": "團隊更改了計劃,需要一名熟悉該區的人,所以他們把 Nina 算在內。",
+      "starter": "The",
+      "answer": "The team changed the plan and needed someone who knew the area, so they dealt Nina in.",
+      "answerZh": "團隊更改了計劃,需要一名熟悉該區的人,所以他們把 Nina 算在內。",
+      "highlight": "dealt",
+      "targetForm": "deal somebody in",
+      "targetMeaningZh": "把某人包括在活動或計劃內"
+    },
+    {
+      "id": "phrasal-verb-64-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "A good teacher must know how to handle teenagers who refuse to listen.",
+      "promptZh": "優秀的老師必須懂得如何應付拒絕聆聽的青少年。",
+      "starter": "A",
+      "answer": "A good teacher must know how to deal with teenagers who refuse to listen.",
+      "answerZh": "優秀的老師必須懂得如何應付拒絕聆聽的青少年。",
+      "highlight": "deal with",
+      "targetForm": "deal with somebody",
+      "targetMeaningZh": "處理或應付某人"
+    },
+    {
+      "id": "phrasal-verb-64-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The first solution failed, so the engineers had to handle the same fault in a different way.",
+      "promptZh": "第一個方法失敗了,所以工程師必須用另一種方式處理同一個故障。",
+      "starter": "The",
+      "answer": "The first solution failed, so the engineers had to deal with the same fault in a different way.",
+      "answerZh": "第一個方法失敗了,所以工程師必須用另一種方式處理同一個故障。",
+      "highlight": "deal with",
+      "targetForm": "deal with something",
+      "targetMeaningZh": "處理或應付某事"
+    },
+    {
+      "id": "phrasal-verb-64-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The market sells only local food and does not sell clothes or electronics.",
+      "promptZh": "這個市場只買賣本地食品,不買賣衣服或電子產品。",
+      "starter": "The",
+      "answer": "The market deals only in local food and not in clothes or electronics.",
+      "answerZh": "這個市場只買賣本地食品,不買賣衣服或電子產品。",
+      "highlight": "deals",
+      "targetForm": "deal in something",
+      "targetMeaningZh": "買賣某類商品;經營某類業務"
+    },
+    {
+      "id": "phrasal-verb-64-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The cards were mixed twice before Leo gave them to all five players.",
+      "promptZh": "卡牌洗了兩次後,Leo 才把它們派給五名玩家。",
+      "starter": "The",
+      "answer": "The cards were mixed twice before Leo dealt them out to all five players.",
+      "answerZh": "卡牌洗了兩次後,Leo 才把它們派給五名玩家。",
+      "highlight": "dealt",
+      "targetForm": "deal something out to somebody",
+      "targetMeaningZh": "把某物分派給某人"
+    },
+    {
+      "id": "phrasal-verb-64-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Before we order anything, we check that every company we do business with is real and trusted.",
+      "promptZh": "我們下單前,會先確保每間與我們做生意的公司都是真實可信的。",
+      "starter": "Before",
+      "answer": "Before we order anything, we check that every company we deal with is real and trusted.",
+      "answerZh": "我們下單前,會先確保每間與我們做生意的公司都是真實可信的。",
+      "highlight": "deal",
+      "targetForm": "deal with somebody/something",
+      "targetMeaningZh": "與某人或機構做生意"
+    },
+    {
+      "id": "phrasal-verb-64-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The plan may work for others, but please do not include me because I cannot attend.",
+      "promptZh": "這個計劃可能適合其他人,但請不要把我算在內,因為我無法出席。",
+      "starter": "The",
+      "answer": "The plan may work for others, but please deal me out because I cannot attend.",
+      "answerZh": "這個計劃可能適合其他人,但請不要把我算在內,因為我無法出席。",
+      "highlight": "deal",
+      "targetForm": "deal somebody out",
+      "targetMeaningZh": "不把某人包括在活動或計劃內"
+    }
+  ]
+}

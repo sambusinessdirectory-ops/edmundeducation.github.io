@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-57",
+  "order": 57,
+  "slug": "key",
+  "version": "1",
+  "title": "KEY 動詞片語",
+  "titleEn": "Key",
+  "titleZh": "KEY 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 56 - KEY.pdf",
+    "sourceNumber": 56,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 KEY 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to KEY."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "KEY",
+      "highlight": "KEY"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The technician keyed into the company system.",
+      "zh": "技術員透過電腦操作進入了公司的系統。",
+      "highlight": "keyed into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please key the date into the form.",
+      "zh": "請把日期輸入表格。",
+      "highlight": "key the date into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The course is keyed to adult learners’ needs.",
+      "zh": "這個課程配合成年學習者的需要。",
+      "highlight": "keyed to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫；用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統；使某事物配合特定需要、程度、時間或安排",
+    "en": "key into something; key something in / key something into something; key something to something",
+    "naturalZh": [
+      "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+      "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+      "使某事物配合特定需要、程度、時間或安排"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "key into something",
+      "titleZh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+      "titleEn": "key into something",
+      "descriptionZh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+      "descriptionEn": "The technician keyed into the company system.",
+      "examples": [
+        {
+          "en": "The technician keyed into the company system.",
+          "zh": "技術員透過電腦操作進入了公司的系統。",
+          "highlight": "keyed into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "key something in / key something into something",
+      "titleZh": "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+      "titleEn": "key something in / key something into something",
+      "descriptionZh": "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+      "descriptionEn": "Please key the date into the form.",
+      "examples": [
+        {
+          "en": "Please key the date into the form.",
+          "zh": "請把日期輸入表格。",
+          "highlight": "key the date into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "key something to something",
+      "titleZh": "使某事物配合特定需要、程度、時間或安排",
+      "titleEn": "key something to something",
+      "descriptionZh": "使某事物配合特定需要、程度、時間或安排",
+      "descriptionEn": "The course is keyed to adult learners’ needs.",
+      "examples": [
+        {
+          "en": "The course is keyed to adult learners’ needs.",
+          "zh": "這個課程配合成年學習者的需要。",
+          "highlight": "keyed to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "KEY 片語動詞的實際用途",
+    "labelEn": "KEY Phrasal Verbs in Use",
+    "summaryZh": "key into a system 表示進入系統;key information in 則表示輸入資料。；談論密碼、個人號碼、網上表格和電腦紀錄時,你可以使用 KEY 片語動詞。；key something to something 可以表示課堂、計劃、服務或時間表是按照特定對象或目的而設計的。；這些表達可見於電腦指示、辦公室、學校、預訂系統和客戶服務等情境。",
+    "summaryEn": "Key into a system describes gaining access to it, while key information in describes typing the information. You can use KEY expressions when talking about passwords, personal numbers, online forms and computer records. Key something to something helps you explain that a lesson, plan, service or timetable has been designed for a particular group or purpose. These expressions may appear in computer instructions, offices, schools, booking systems and customer services.",
+    "contextsZh": [
+      "分清「進入系統」和「輸入資料」",
+      "清楚表達電腦和鍵盤操作",
+      "說明某事物如何配合特定需要",
+      "理解科技和工作場合中的英語"
+    ],
+    "contextsEn": [
+      "Distinguish entering a system from entering information",
+      "Give clear computer and keypad instructions",
+      "Explain how something is made to fit particular needs",
+      "Understand technology and workplace English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 KEY 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the KEY expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "key into something",
+    "fixedHighlight": "key into something",
+    "fixedZh": "閱讀整句,選出意思相同的 KEY 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the KEY expression that gives the same meaning.",
+    "correct": "keyed into",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；留意以上兩種用法的分別:第一句表示進入系統;第二句表示把號碼輸入系統。；在 KEY ... IN 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Notice the difference between these two uses: The technician keyed into the system. The technician keyed the number into the system. When using it or them in a KEY... IN expression, place the word as shown: key it in key them in",
+    "variableItemsZh": [
+      "key into something",
+      "key something in / key something into something",
+      "key something to something"
+    ],
+    "variableItemsEn": [
+      "key into something",
+      "key something in / key something into something",
+      "key something to something"
+    ],
+    "forms": [
+      {
+        "formZh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+        "formEn": "key into something",
+        "exampleZh": "技術員透過電腦操作進入了公司的系統。",
+        "exampleEn": "The technician keyed into the company system.",
+        "highlight": "keyed into"
+      },
+      {
+        "formZh": "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+        "formEn": "key something in / key something into something",
+        "exampleZh": "請把日期輸入表格。",
+        "exampleEn": "Please key the date into the form.",
+        "highlight": "key the date into"
+      },
+      {
+        "formZh": "使某事物配合特定需要、程度、時間或安排",
+        "formEn": "key something to something",
+        "exampleZh": "這個課程配合成年學習者的需要。",
+        "exampleEn": "The course is keyed to adult learners’ needs.",
+        "highlight": "keyed to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+      "titleEn": "key into something",
+      "formula": "key into something",
+      "highlight": "key into something",
+      "descriptionZh": "透過電腦操作、密碼或鍵盤進入某個系統、網絡或資料庫",
+      "descriptionEn": "The technician keyed into the company system.",
+      "examples": [
+        {
+          "en": "The technician keyed into the company system.",
+          "zh": "技術員透過電腦操作進入了公司的系統。",
+          "highlight": "keyed into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+      "titleEn": "key something in / key something into something",
+      "formula": "key something in / key something into something",
+      "highlight": "key something in / key something into something",
+      "descriptionZh": "用鍵盤把號碼、文字或其他資料輸入電腦、表格或系統",
+      "descriptionEn": "Please key the date into the form.",
+      "examples": [
+        {
+          "en": "Please key the date into the form.",
+          "zh": "請把日期輸入表格。",
+          "highlight": "key the date into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "使某事物配合特定需要、程度、時間或安排",
+      "titleEn": "key something to something",
+      "formula": "key something to something",
+      "highlight": "key something to something",
+      "descriptionZh": "使某事物配合特定需要、程度、時間或安排",
+      "descriptionEn": "The course is keyed to adult learners’ needs.",
+      "examples": [
+        {
+          "en": "The course is keyed to adult learners’ needs.",
+          "zh": "這個課程配合成年學習者的需要。",
+          "highlight": "keyed to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "分清「進入系統」和「輸入資料」",
+      "titleEn": "Distinguish entering a system from entering information",
+      "zh": "key into a system 表示進入系統;key information in 則表示輸入資料。",
+      "en": "Key into a system describes gaining access to it, while key information in describes typing the information."
+    },
+    {
+      "titleZh": "清楚表達電腦和鍵盤操作",
+      "titleEn": "Give clear computer and keypad instructions",
+      "zh": "談論密碼、個人號碼、網上表格和電腦紀錄時,你可以使用 KEY 片語動詞。",
+      "en": "You can use KEY expressions when talking about passwords, personal numbers, online forms and computer records."
+    },
+    {
+      "titleZh": "說明某事物如何配合特定需要",
+      "titleEn": "Explain how something is made to fit particular needs",
+      "zh": "key something to something 可以表示課堂、計劃、服務或時間表是按照特定對象或目的而設計的。",
+      "en": "Key something to something helps you explain that a lesson, plan, service or timetable has been designed for a particular group or purpose."
+    },
+    {
+      "titleZh": "理解科技和工作場合中的英語",
+      "titleEn": "Understand technology and workplace English",
+      "zh": "這些表達可見於電腦指示、辦公室、學校、預訂系統和客戶服務等情境。",
+      "en": "These expressions may appear in computer instructions, offices, schools, booking systems and customer services."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "分清「進入系統」和「輸入資料」",
+      "清楚表達電腦和鍵盤操作",
+      "說明某事物如何配合特定需要",
+      "理解科技和工作場合中的英語"
+    ],
+    "contextsEn": [
+      "Distinguish entering a system from entering information",
+      "Give clear computer and keypad instructions",
+      "Explain how something is made to fit particular needs",
+      "Understand technology and workplace English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "分清「進入系統」和「輸入資料」",
+        "titleEn": "Distinguish entering a system from entering information",
+        "zh": "key into a system 表示進入系統;key information in 則表示輸入資料。",
+        "en": "Key into a system describes gaining access to it, while key information in describes typing the information.",
+        "examples": [
+          {
+            "en": "The technician keyed into the company system.",
+            "zh": "技術員透過電腦操作進入了公司的系統。",
+            "highlight": "keyed into"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚表達電腦和鍵盤操作",
+        "titleEn": "Give clear computer and keypad instructions",
+        "zh": "談論密碼、個人號碼、網上表格和電腦紀錄時,你可以使用 KEY 片語動詞。",
+        "en": "You can use KEY expressions when talking about passwords, personal numbers, online forms and computer records.",
+        "examples": [
+          {
+            "en": "Please key the date into the form.",
+            "zh": "請把日期輸入表格。",
+            "highlight": "key the date into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某事物如何配合特定需要",
+        "titleEn": "Explain how something is made to fit particular needs",
+        "zh": "key something to something 可以表示課堂、計劃、服務或時間表是按照特定對象或目的而設計的。",
+        "en": "Key something to something helps you explain that a lesson, plan, service or timetable has been designed for a particular group or purpose.",
+        "examples": [
+          {
+            "en": "The course is keyed to adult learners’ needs.",
+            "zh": "這個課程配合成年學習者的需要。",
+            "highlight": "keyed to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解科技和工作場合中的英語",
+        "titleEn": "Understand technology and workplace English",
+        "zh": "這些表達可見於電腦指示、辦公室、學校、預訂系統和客戶服務等情境。",
+        "en": "These expressions may appear in computer instructions, offices, schools, booking systems and customer services.",
+        "examples": [
+          {
+            "en": "The technician keyed into the company system.",
+            "zh": "技術員透過電腦操作進入了公司的系統。",
+            "highlight": "keyed into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 KEY 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the KEY expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 KEY 片語動詞。",
+      "en": "Read the whole sentence and choose the KEY expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "留意以上兩種用法的分別:第一句表示進入系統;第二句表示把號碼輸入系統。",
+      "titleEn": "Notice the difference between these two uses: The technician keyed into the system.",
+      "zh": "留意以上兩種用法的分別:第一句表示進入系統;第二句表示把號碼輸入系統。",
+      "en": "Notice the difference between these two uses: The technician keyed into the system. The technician keyed the number into the system."
+    },
+    {
+      "titleZh": "在 KEY ... IN 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them in a KEY.",
+      "zh": "在 KEY ... IN 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them in a KEY... IN expression, place the word as shown: key it in key them in"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 KEY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to KEY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "KEY 動詞片語句子改寫練習",
+    "titleEn": "KEY Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 KEY 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to KEY. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-57-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The hacker gained access to the newspaper’s database.",
+      "promptZh": "黑客進入了報社的資料庫。",
+      "starter": "The",
+      "answer": "The hacker keyed into the newspaper’s database.",
+      "answerZh": "黑客進入了報社的資料庫。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please enter your personal number.",
+      "promptZh": "請輸入你的個人號碼。",
+      "starter": "Please",
+      "answer": "Please key in your personal number.",
+      "answerZh": "請輸入你的個人號碼。",
+      "highlight": "key in",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 13,
+      "prompt": "The lesson was designed to match the needs of beginners.",
+      "promptZh": "這堂課是按照初學者的需要而設計的。",
+      "starter": "The",
+      "answer": "The lesson was keyed to the needs of beginners.",
+      "answerZh": "這堂課配合初學者的需要。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Using his staff code, the technician accessed the school system.",
+      "promptZh": "技術員使用職員代碼進入了學校系統。",
+      "starter": "Using",
+      "answer": "Using his staff code, the technician keyed into the school system.",
+      "answerZh": "技術員使用職員代碼進入了學校系統。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "At the desk, the clerk typed the address into the computer.",
+      "promptZh": "職員在櫃枱把地址輸入電腦。",
+      "starter": "At",
+      "answer": "At the desk, the clerk keyed the address into the computer.",
+      "answerZh": "職員在櫃枱把地址輸入了電腦。",
+      "highlight": "keyed",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "This menu was designed to suit young children’s tastes.",
+      "promptZh": "這份餐單的設計配合年幼兒童的口味。",
+      "starter": "This",
+      "answer": "This menu was keyed to young children’s tastes.",
+      "answerZh": "這份餐單配合年幼兒童的口味。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要或喜好"
+    },
+    {
+      "id": "phrasal-verb-57-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Ravi used his staff code to access the booking system.",
+      "promptZh": "拉維使用職員代碼進入預訂系統。",
+      "starter": "Ravi",
+      "answer": "Ravi keyed into the booking system using his staff code.",
+      "answerZh": "拉維使用職員代碼進入了預訂系統。",
+      "highlight": "keyed into the booking system using",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Sam entered the six-digit code.",
+      "promptZh": "山姆輸入了六位數字代碼。",
+      "starter": "Sam",
+      "answer": "Sam keyed in the six-digit code.",
+      "answerZh": "山姆輸入了六位數字代碼。",
+      "highlight": "keyed in",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "This training was planned around the team’s weak points.",
+      "promptZh": "這項訓練是針對球隊的弱點而安排的。",
+      "starter": "This",
+      "answer": "This training was keyed to the team’s weak points.",
+      "answerZh": "這項訓練是針對球隊的弱點而安排的。",
+      "highlight": "keyed to",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要或情況"
+    },
+    {
+      "id": "phrasal-verb-57-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Someone gained access to our online account last night.",
+      "promptZh": "昨晚有人進入了我們的網上帳戶。",
+      "starter": "Someone",
+      "answer": "Someone keyed into our online account last night.",
+      "answerZh": "昨晚有人進入了我們的網上帳戶。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統或網上帳戶"
+    },
+    {
+      "id": "phrasal-verb-57-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Type your name into the online form.",
+      "promptZh": "把你的名字輸入網上表格。",
+      "starter": "Key",
+      "answer": "Key your name into the online form.",
+      "answerZh": "把你的名字輸入網上表格。",
+      "highlight": "Key",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入表格或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "These questions were written to match the learners’ level.",
+      "promptZh": "這些問題是按照學習者的程度而編寫的。",
+      "starter": "These",
+      "answer": "These questions were keyed to the learners’ level.",
+      "answerZh": "這些問題是按照學習者的程度而編寫的。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定程度"
+    },
+    {
+      "id": "phrasal-verb-57-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The nurse used the computer to access the hospital database and find the file.",
+      "promptZh": "護士使用電腦進入醫院資料庫,以找出那份檔案。",
+      "starter": "The",
+      "answer": "The nurse keyed into the hospital database to find the file.",
+      "answerZh": "護士進入醫院資料庫,以找出那份檔案。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "She is entering the order number into the system now.",
+      "promptZh": "她現在正把訂單編號輸入系統。",
+      "starter": "She",
+      "answer": "She is keying the order number into the system now.",
+      "answerZh": "她現在正把訂單編號輸入系統。",
+      "highlight": "keying",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We designed the programme to suit local needs.",
+      "promptZh": "我們設計這個計劃,以配合本地需要。",
+      "starter": "We",
+      "answer": "We keyed the programme to local needs.",
+      "answerZh": "我們按照本地需要設計了這個計劃。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did the officer use the computer to gain access to the police system?",
+      "promptZh": "警員是否利用電腦進入了警方系統?",
+      "starter": "Did",
+      "answer": "Did the officer key into the police system?",
+      "answerZh": "警員是否進入了警方系統?",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have you entered the new password?",
+      "promptZh": "你是否已輸入新密碼?",
+      "starter": "Have",
+      "answer": "Have you keyed in the new password?",
+      "answerZh": "你是否已輸入新密碼?",
+      "highlight": "keyed in",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "This new timetable was arranged to match the bus times.",
+      "promptZh": "這份新時間表是按照巴士時間安排的。",
+      "starter": "This",
+      "answer": "This new timetable was keyed to the bus times.",
+      "answerZh": "這份新時間表是按照巴士時間安排的。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定時間或安排"
+    },
+    {
+      "id": "phrasal-verb-57-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Only trained staff can gain computer access to this database.",
+      "promptZh": "只有受過訓練的職員才可透過電腦進入這個資料庫。",
+      "starter": "Only",
+      "answer": "Only trained staff can key into this database.",
+      "answerZh": "只有受過訓練的職員才可進入這個資料庫。",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The code appears twice on the screen because I entered it twice by mistake.",
+      "promptZh": "這個代碼在畫面上出現了兩次,因為我不小心輸入了兩次。",
+      "starter": "The",
+      "answer": "The code appears twice on the screen because I keyed it in twice by mistake.",
+      "answerZh": "這個代碼在畫面上出現了兩次,因為我不小心輸入了兩次。",
+      "highlight": "keyed",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Advice should be changed to suit each person’s needs.",
+      "promptZh": "這些建議應作出調整,以配合每個人的需要。",
+      "starter": "Advice",
+      "answer": "Advice should be keyed to each person’s needs.",
+      "answerZh": "建議應配合每個人的需要。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The hacker had gained access to the network before the alarm sounded.",
+      "promptZh": "黑客在警報響起前已進入網絡。",
+      "starter": "The",
+      "answer": "The hacker had keyed into the network before the alarm sounded.",
+      "answerZh": "黑客在警報響起前已進入網絡。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統或網絡"
+    },
+    {
+      "id": "phrasal-verb-57-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The assistant will enter the details into the booking system.",
+      "promptZh": "助理會把資料輸入預訂系統。",
+      "starter": "The",
+      "answer": "The assistant will key the details into the booking system.",
+      "answerZh": "助理會把資料輸入預訂系統。",
+      "highlight": "key",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "This game was designed for younger players.",
+      "promptZh": "這款遊戲是為較年幼的玩家而設計的。",
+      "starter": "This",
+      "answer": "This game was keyed to younger players.",
+      "answerZh": "這款遊戲是為較年幼的玩家而設計的。",
+      "highlight": "keyed to",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定對象"
+    },
+    {
+      "id": "phrasal-verb-57-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The reporter could not access the news database without a password.",
+      "promptZh": "記者沒有密碼便無法進入新聞資料庫。",
+      "starter": "The",
+      "answer": "The reporter could not key into the news database without a password.",
+      "answerZh": "記者沒有密碼便無法進入新聞資料庫。",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not type the wrong date into the form.",
+      "promptZh": "不要把錯誤日期輸入表格。",
+      "starter": "Do",
+      "answer": "Do not key the wrong date into the form.",
+      "answerZh": "不要把錯誤日期輸入表格。",
+      "highlight": "key",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入表格或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The teacher has matched the reading tasks to the class’s level.",
+      "promptZh": "老師已調整閱讀練習,使其配合全班程度。",
+      "starter": "The",
+      "answer": "The teacher has keyed the reading tasks to the class’s level.",
+      "answerZh": "老師已調整閱讀練習,使其配合全班程度。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定程度"
+    },
+    {
+      "id": "phrasal-verb-57-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A visitor tried to gain access to the staff system but failed.",
+      "promptZh": "一名訪客嘗試進入職員系統,但不成功。",
+      "starter": "A",
+      "answer": "A visitor tried to key into the staff system but failed.",
+      "answerZh": "一名訪客嘗試進入職員系統,但不成功。",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The numbers were entered into the computer yesterday.",
+      "promptZh": "這些數字昨天已輸入電腦。",
+      "starter": "The",
+      "answer": "The numbers were keyed into the computer yesterday.",
+      "answerZh": "這些數字昨天已輸入電腦。",
+      "highlight": "keyed",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The support was designed around what families needed most.",
+      "promptZh": "這項支援是按照家庭最需要的事項而設計的。",
+      "starter": "The",
+      "answer": "The support was keyed to what families needed most.",
+      "answerZh": "這項支援是按照家庭最需要的事項而設計的。",
+      "highlight": "keyed to",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Why was someone able to gain computer access to the shop’s payment system?",
+      "promptZh": "為何有人能透過電腦進入店舖的付款系統?",
+      "starter": "Why",
+      "answer": "Why was someone able to key into the shop’s payment system?",
+      "answerZh": "為何有人能進入店舖的付款系統?",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Can the course be changed to suit the needs of evening students?",
+      "promptZh": "這個課程可以作出調整,以配合夜間學生的需要嗎?",
+      "starter": "Can",
+      "answer": "Can the course be keyed to the needs of evening students?",
+      "answerZh": "這個課程可以作出調整,以配合夜間學生的需要嗎?",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Here are the five numbers. Please enter them one at a time.",
+      "promptZh": "這裏有五個數字。請逐一輸入。",
+      "starter": "Here",
+      "answer": "Here are the five numbers. Please key them in one at a time.",
+      "answerZh": "這裏有五個數字。請逐一輸入。",
+      "highlight": "key",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The engineer is using the keyboard to access the control system now.",
+      "promptZh": "工程師現在正使用鍵盤進入控制系統。",
+      "starter": "The",
+      "answer": "The engineer is keying into the control system now.",
+      "answerZh": "工程師現在正進入控制系統。",
+      "highlight": "keying into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The exercise was not designed to match the children’s abilities.",
+      "promptZh": "這份練習的設計並不配合兒童的能力。",
+      "starter": "The",
+      "answer": "The exercise was not keyed to the children’s abilities.",
+      "answerZh": "這份練習的設計並不配合兒童的能力。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定能力或程度"
+    },
+    {
+      "id": "phrasal-verb-57-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We had already entered the names into the database before noon.",
+      "promptZh": "我們在中午前已把姓名輸入資料庫。",
+      "starter": "We",
+      "answer": "We had already keyed the names into the database before noon.",
+      "answerZh": "我們在中午前已把姓名輸入資料庫。",
+      "highlight": "keyed",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Using her school login, the student accessed the library database from home.",
+      "promptZh": "這名學生在家中使用學校登入資料進入圖書館資料庫。",
+      "starter": "Using",
+      "answer": "Using her school login, the student keyed into the library database from home.",
+      "answerZh": "這名學生在家中使用學校登入資料進入圖書館資料庫。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The shop planned its opening hours to match the busiest times.",
+      "promptZh": "店舖安排營業時間,以配合最繁忙的時段。",
+      "starter": "The",
+      "answer": "The shop keyed its opening hours to the busiest times.",
+      "answerZh": "店舖按照最繁忙的時段安排營業時間。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定時間或安排"
+    },
+    {
+      "id": "phrasal-verb-57-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Why did you enter the old address?",
+      "promptZh": "你為何輸入舊地址?",
+      "starter": "Why",
+      "answer": "Why did you key the old address in?",
+      "answerZh": "你為何輸入舊地址?",
+      "highlight": "key",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Nobody should be able to access your account through a computer without permission.",
+      "promptZh": "未經准許,任何人都不應能透過電腦進入你的帳戶。",
+      "starter": "Nobody",
+      "answer": "Nobody should be able to key into your account through a computer without permission.",
+      "answerZh": "未經准許,任何人都不應能透過電腦進入你的帳戶。",
+      "highlight": "key into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統或網上帳戶"
+    },
+    {
+      "id": "phrasal-verb-57-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "At check-in, the receptionist entered each guest’s name into the hotel system before giving out room cards.",
+      "promptZh": "辦理入住時,接待員在派發房卡前把每位住客的姓名輸入酒店系統。",
+      "starter": "At",
+      "answer": "At check-in, the receptionist keyed each guest’s name into the hotel system before giving out room cards.",
+      "answerZh": "辦理入住時,接待員在派發房卡前把每位住客的姓名輸入酒店系統。",
+      "highlight": "keyed",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "By the time help arrived, the hacker had gained access to two company systems.",
+      "promptZh": "在支援人員到達前,黑客已進入兩個公司系統。",
+      "starter": "By",
+      "answer": "By the time help arrived, the hacker had keyed into two company systems.",
+      "answerZh": "在支援人員到達前,黑客已進入兩個公司系統。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new service is being designed to suit the needs of older people in the area.",
+      "promptZh": "新服務正按照區內長者的需要而設計。",
+      "starter": "The",
+      "answer": "The new service is being keyed to the needs of older people in the area.",
+      "answerZh": "新服務正按照區內長者的需要而設計。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定需要"
+    },
+    {
+      "id": "phrasal-verb-57-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After checking the form, I entered the correct number.",
+      "promptZh": "核對表格後,我輸入了正確號碼。",
+      "starter": "After",
+      "answer": "After checking the form, I keyed the correct number in.",
+      "answerZh": "核對表格後,我輸入了正確號碼。",
+      "highlight": "keyed",
+      "targetForm": "key something in",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    },
+    {
+      "id": "phrasal-verb-57-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The manager discovered that an outsider had gained access to the private database.",
+      "promptZh": "經理發現有外人進入了私人資料庫。",
+      "starter": "The",
+      "answer": "The manager discovered that an outsider had keyed into the private database.",
+      "answerZh": "經理發現有外人進入了私人資料庫。",
+      "highlight": "keyed into",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The coach changed the practice so that it matched the players’ fitness levels.",
+      "promptZh": "教練調整了練習內容,使其配合球員的體能水平。",
+      "starter": "The",
+      "answer": "The coach keyed the practice to the players’ fitness levels.",
+      "answerZh": "教練調整了練習內容,使其配合球員的體能水平。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定能力或程度"
+    },
+    {
+      "id": "phrasal-verb-57-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Could you enter this information into the online form before lunch?",
+      "promptZh": "你可以在午飯前把這些資料輸入網上表格嗎?",
+      "starter": "Could",
+      "answer": "Could you key this information into the online form before lunch?",
+      "answerZh": "你可以在午飯前把這些資料輸入網上表格嗎?",
+      "highlight": "key",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入表格或系統"
+    },
+    {
+      "id": "phrasal-verb-57-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Can you use this computer to access the system?",
+      "promptZh": "你可以用這部電腦進入系統嗎?",
+      "starter": "Can",
+      "answer": "Can you key into the system from this computer?",
+      "answerZh": "你可以用這部電腦進入系統嗎?",
+      "highlight": "key into the system from",
+      "targetForm": "key into something",
+      "targetMeaningZh": "進入電腦系統、網絡或資料庫"
+    },
+    {
+      "id": "phrasal-verb-57-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The event was planned to match the interests of local families.",
+      "promptZh": "這項活動是按照本地家庭的興趣而策劃的。",
+      "starter": "The",
+      "answer": "The event was keyed to the interests of local families.",
+      "answerZh": "這項活動是按照本地家庭的興趣而策劃的。",
+      "highlight": "keyed",
+      "targetForm": "key something to something",
+      "targetMeaningZh": "使某事物配合特定興趣或需要"
+    },
+    {
+      "id": "phrasal-verb-57-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The worker had not entered the final price into the machine before the shop opened.",
+      "promptZh": "店舖開門前,職員尚未把最後價格輸入機器。",
+      "starter": "The",
+      "answer": "The worker had not keyed the final price into the machine before the shop opened.",
+      "answerZh": "店舖開門前,職員尚未把最後價格輸入機器。",
+      "highlight": "keyed",
+      "targetForm": "key something into something",
+      "targetMeaningZh": "把資料輸入電腦或機器"
+    }
+  ]
+}

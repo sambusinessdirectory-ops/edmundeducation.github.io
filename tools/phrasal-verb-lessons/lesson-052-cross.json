@@ -1,0 +1,1203 @@
+{
+  "id": "phrasal-verb-52",
+  "order": 52,
+  "slug": "cross",
+  "version": "1",
+  "title": "CROSS 動詞片語",
+  "titleEn": "Cross",
+  "titleZh": "CROSS 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 51 - CROSS.pdf",
+    "sourceNumber": 51,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CROSS 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CROSS."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CROSS",
+      "highlight": "CROSS"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Let’s cross over to the other side.",
+      "zh": "我們橫過去另一邊吧。",
+      "highlight": "cross over",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I crossed the last task off my list.",
+      "zh": "我把最後一項工作從清單上劃掉。",
+      "highlight": "crossed the last task off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Cross the wrong answer out and try again.",
+      "zh": "把錯誤答案劃掉,再試一次。",
+      "highlight": "Cross the wrong answer out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "走到或移到另一邊;橫過道路等到另一邊；把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加；在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+    "en": "cross over; cross somebody/something off; cross somebody/something off something; cross something out / cross something through",
+    "naturalZh": [
+      "走到或移到另一邊;橫過道路等到另一邊",
+      "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+      "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "cross over",
+      "titleZh": "走到或移到另一邊;橫過道路等到另一邊",
+      "titleEn": "cross over",
+      "descriptionZh": "走到或移到另一邊;橫過道路等到另一邊",
+      "descriptionEn": "Let’s cross over to the other side.",
+      "examples": [
+        {
+          "en": "Let’s cross over to the other side.",
+          "zh": "我們橫過去另一邊吧。",
+          "highlight": "cross over"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cross somebody/something off; cross somebody/something off something",
+      "titleZh": "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+      "titleEn": "cross somebody/something off; cross somebody/something off something",
+      "descriptionZh": "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+      "descriptionEn": "I crossed the last task off my list.",
+      "examples": [
+        {
+          "en": "I crossed the last task off my list.",
+          "zh": "我把最後一項工作從清單上劃掉。",
+          "highlight": "crossed the last task off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "cross something out / cross something through",
+      "titleZh": "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+      "titleEn": "cross something out / cross something through",
+      "descriptionZh": "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+      "descriptionEn": "Cross the wrong answer out and try again.",
+      "examples": [
+        {
+          "en": "Cross the wrong answer out and try again.",
+          "zh": "把錯誤答案劃掉,再試一次。",
+          "highlight": "Cross the wrong answer out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CROSS 片語動詞的實際用途",
+    "labelEn": "CROSS Phrasal Verbs in Use",
+    "summaryZh": "cross over 能幫助你描述橫過馬路、橋樑、路徑及其他地方的日常動作。；cross off 可以表示工作已完成、某個項目不再需要,或某人不再包括在名單內。；cross out 和 cross through 可以劃掉錯誤的字詞、日期、答案或句子,毋須重寫全部內容。；人們填寫表格、修改文字或逐項處理清單時,經常會使用這些 CROSS 片語動詞。",
+    "summaryEn": "Cross over helps you describe everyday movements across roads, bridges, paths and other places. Cross off lets you show that a job is finished, an item is no longer needed or a person is no longer included. Cross out and cross through let you remove a wrong word, date, answer or sentence without rewriting everything. These CROSS expressions often appear when people complete forms, edit writing or work through a list.",
+    "contextsZh": [
+      "清楚表達從一邊移到另一邊",
+      "更清楚地處理清單和計劃",
+      "輕鬆修改書面資料",
+      "理解表格和清單上的常見指示"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving from one side to another",
+      "Manage lists and plans more clearly",
+      "Correct written information easily",
+      "Understand common instructions on forms and checklists"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CROSS 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CROSS expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "cross over",
+    "fixedHighlight": "cross over",
+    "fixedZh": "閱讀整句,選出意思相同的 CROSS 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CROSS expression that gives the same meaning.",
+    "correct": "cross over",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子把它放在 CROSS 和另一個字之間。；cross off 用於名單或清單上的人物或項目;cross out 或 cross through 則用於以線劃掉書面或印刷資料。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them with CROSS... OFF, CROSS... OUT or CROSS... THROUGH, place the word as shown: cross him off cross it out cross it through Use cross off for a person or item on a list. Use cross out or cross through for written or printed information that you mark with a line.",
+    "variableItemsZh": [
+      "cross over",
+      "cross somebody/something off; cross somebody/something off something",
+      "cross something out / cross something through"
+    ],
+    "variableItemsEn": [
+      "cross over",
+      "cross somebody/something off; cross somebody/something off something",
+      "cross something out / cross something through"
+    ],
+    "forms": [
+      {
+        "formZh": "走到或移到另一邊;橫過道路等到另一邊",
+        "formEn": "cross over",
+        "exampleZh": "我們橫過去另一邊吧。",
+        "exampleEn": "Let’s cross over to the other side.",
+        "highlight": "cross over"
+      },
+      {
+        "formZh": "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+        "formEn": "cross somebody/something off; cross somebody/something off something",
+        "exampleZh": "我把最後一項工作從清單上劃掉。",
+        "exampleEn": "I crossed the last task off my list.",
+        "highlight": "crossed the last task off"
+      },
+      {
+        "formZh": "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+        "formEn": "cross something out / cross something through",
+        "exampleZh": "把錯誤答案劃掉,再試一次。",
+        "exampleEn": "Cross the wrong answer out and try again.",
+        "highlight": "Cross the wrong answer out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "走到或移到另一邊;橫過道路等到另一邊",
+      "titleEn": "cross over",
+      "formula": "cross over",
+      "highlight": "cross over",
+      "descriptionZh": "走到或移到另一邊;橫過道路等到另一邊",
+      "descriptionEn": "Let’s cross over to the other side.",
+      "examples": [
+        {
+          "en": "Let’s cross over to the other side.",
+          "zh": "我們橫過去另一邊吧。",
+          "highlight": "cross over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+      "titleEn": "cross somebody/something off; cross somebody/something off something",
+      "formula": "cross somebody/something off; cross somebody/something off something",
+      "highlight": "cross somebody/something off; cross somebody/something off something",
+      "descriptionZh": "把某人或某事物從名單或清單上劃掉,通常因為已完成、不再需要或不能參加",
+      "descriptionEn": "I crossed the last task off my list.",
+      "examples": [
+        {
+          "en": "I crossed the last task off my list.",
+          "zh": "我把最後一項工作從清單上劃掉。",
+          "highlight": "crossed the last task off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+      "titleEn": "cross something out / cross something through",
+      "formula": "cross something out / cross something through",
+      "highlight": "cross something out / cross something through",
+      "descriptionZh": "在寫下或印出的資料上劃線,表示內容錯誤、不需要或不適用",
+      "descriptionEn": "Cross the wrong answer out and try again.",
+      "examples": [
+        {
+          "en": "Cross the wrong answer out and try again.",
+          "zh": "把錯誤答案劃掉,再試一次。",
+          "highlight": "Cross the wrong answer out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達從一邊移到另一邊",
+      "titleEn": "Talk clearly about moving from one side to another",
+      "zh": "cross over 能幫助你描述橫過馬路、橋樑、路徑及其他地方的日常動作。",
+      "en": "Cross over helps you describe everyday movements across roads, bridges, paths and other places."
+    },
+    {
+      "titleZh": "更清楚地處理清單和計劃",
+      "titleEn": "Manage lists and plans more clearly",
+      "zh": "cross off 可以表示工作已完成、某個項目不再需要,或某人不再包括在名單內。",
+      "en": "Cross off lets you show that a job is finished, an item is no longer needed or a person is no longer included."
+    },
+    {
+      "titleZh": "輕鬆修改書面資料",
+      "titleEn": "Correct written information easily",
+      "zh": "cross out 和 cross through 可以劃掉錯誤的字詞、日期、答案或句子,毋須重寫全部內容。",
+      "en": "Cross out and cross through let you remove a wrong word, date, answer or sentence without rewriting everything."
+    },
+    {
+      "titleZh": "理解表格和清單上的常見指示",
+      "titleEn": "Understand common instructions on forms and checklists",
+      "zh": "人們填寫表格、修改文字或逐項處理清單時,經常會使用這些 CROSS 片語動詞。",
+      "en": "These CROSS expressions often appear when people complete forms, edit writing or work through a list."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達從一邊移到另一邊",
+      "更清楚地處理清單和計劃",
+      "輕鬆修改書面資料",
+      "理解表格和清單上的常見指示"
+    ],
+    "contextsEn": [
+      "Talk clearly about moving from one side to another",
+      "Manage lists and plans more clearly",
+      "Correct written information easily",
+      "Understand common instructions on forms and checklists"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達從一邊移到另一邊",
+        "titleEn": "Talk clearly about moving from one side to another",
+        "zh": "cross over 能幫助你描述橫過馬路、橋樑、路徑及其他地方的日常動作。",
+        "en": "Cross over helps you describe everyday movements across roads, bridges, paths and other places.",
+        "examples": [
+          {
+            "en": "Let’s cross over to the other side.",
+            "zh": "我們橫過去另一邊吧。",
+            "highlight": "cross over"
+          }
+        ]
+      },
+      {
+        "titleZh": "更清楚地處理清單和計劃",
+        "titleEn": "Manage lists and plans more clearly",
+        "zh": "cross off 可以表示工作已完成、某個項目不再需要,或某人不再包括在名單內。",
+        "en": "Cross off lets you show that a job is finished, an item is no longer needed or a person is no longer included.",
+        "examples": [
+          {
+            "en": "I crossed the last task off my list.",
+            "zh": "我把最後一項工作從清單上劃掉。",
+            "highlight": "crossed the last task off"
+          }
+        ]
+      },
+      {
+        "titleZh": "輕鬆修改書面資料",
+        "titleEn": "Correct written information easily",
+        "zh": "cross out 和 cross through 可以劃掉錯誤的字詞、日期、答案或句子,毋須重寫全部內容。",
+        "en": "Cross out and cross through let you remove a wrong word, date, answer or sentence without rewriting everything.",
+        "examples": [
+          {
+            "en": "Cross the wrong answer out and try again.",
+            "zh": "把錯誤答案劃掉,再試一次。",
+            "highlight": "Cross the wrong answer out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解表格和清單上的常見指示",
+        "titleEn": "Understand common instructions on forms and checklists",
+        "zh": "人們填寫表格、修改文字或逐項處理清單時,經常會使用這些 CROSS 片語動詞。",
+        "en": "These CROSS expressions often appear when people complete forms, edit writing or work through a list.",
+        "examples": [
+          {
+            "en": "Let’s cross over to the other side.",
+            "zh": "我們橫過去另一邊吧。",
+            "highlight": "cross over"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CROSS 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CROSS expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CROSS 片語動詞。",
+      "en": "Read the whole sentence and choose the CROSS expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子把它放在 CROSS 和另一個字之間。",
+      "titleEn": "When using him, her, it or them with CROSS.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子把它放在 CROSS 和另一個字之間。",
+      "en": "When using him, her, it or them with CROSS... OFF, CROSS... OUT or CROSS... THROUGH, place the word as shown: cross him off cross it out cross it through"
+    },
+    {
+      "titleZh": "cross off 用於名單或清單上的人物或項目;cross out 或 cross through 則用於以線劃掉書面或印刷資料。",
+      "titleEn": "Use cross off for a person or item on a list.",
+      "zh": "cross off 用於名單或清單上的人物或項目;cross out 或 cross through 則用於以線劃掉書面或印刷資料。",
+      "en": "Use cross off for a person or item on a list. Use cross out or cross through for written or printed information that you mark with a line."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CROSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CROSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CROSS 動詞片語句子改寫練習",
+    "titleEn": "CROSS Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CROSS 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CROSS. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-52-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The children went from one side of the road to the other.",
+      "promptZh": "孩子們從馬路一邊走到另一邊。",
+      "starter": "The",
+      "answer": "The children crossed over to the other side of the road.",
+      "answerZh": "孩子們橫過馬路,走到另一邊。",
+      "highlight": "crossed over to the other",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We marked the finished job as completed on the list.",
+      "promptZh": "我們在清單上把已完成的工作標示為完成。",
+      "starter": "We",
+      "answer": "We crossed the finished job off the list.",
+      "answerZh": "我們把已完成的工作從清單上劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Eva drew a line through the wrong word.",
+      "promptZh": "伊娃在錯誤的字詞上劃了一條線。",
+      "starter": "Eva",
+      "answer": "Eva crossed the wrong word out.",
+      "answerZh": "伊娃把錯誤的字詞劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the light changed, we went to the other side.",
+      "promptZh": "交通燈轉色後,我們走到另一邊。",
+      "starter": "After",
+      "answer": "After the light changed, we crossed over.",
+      "answerZh": "交通燈轉色後,我們橫過馬路到另一邊。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please remove Daniel from the guest list because he cannot come.",
+      "promptZh": "請把丹尼爾從賓客名單上刪去,因為他不能出席。",
+      "starter": "Please",
+      "answer": "Please cross Daniel off the guest list because he cannot come.",
+      "answerZh": "請把丹尼爾從賓客名單上刪去,因為他不能出席。",
+      "highlight": "cross",
+      "targetForm": "cross somebody off something",
+      "targetMeaningZh": "把某人從名單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher drew a line through the spelling mistake.",
+      "promptZh": "老師在那個拼寫錯誤上劃了一條線。",
+      "starter": "The",
+      "answer": "The teacher crossed the spelling mistake out.",
+      "answerZh": "老師把那個拼寫錯誤劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Our group moved to the quieter side of the park.",
+      "promptZh": "我們一組人移到公園較安靜的另一邊。",
+      "starter": "Our",
+      "answer": "Our group crossed over to the quieter side of the park.",
+      "answerZh": "我們一組人移到公園較安靜的另一邊。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I drew a line through the old date and wrote the new one.",
+      "promptZh": "我把舊日期劃掉,並寫上新日期。",
+      "starter": "I",
+      "answer": "I crossed the old date through and wrote the new one.",
+      "answerZh": "我把舊日期劃掉,並寫上新日期。",
+      "highlight": "crossed",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sara removed milk from her shopping list.",
+      "promptZh": "莎拉把牛奶從購物清單上刪去。",
+      "starter": "Sara",
+      "answer": "Sara crossed milk off her shopping list.",
+      "answerZh": "莎拉把牛奶從購物清單上劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "At the bridge, the walkers went to the other side of the river.",
+      "promptZh": "到了橋邊,步行者走到河的另一邊。",
+      "starter": "At",
+      "answer": "At the bridge, the walkers crossed over to the other side of the river.",
+      "answerZh": "到了橋邊,步行者越過河流,走到另一邊。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Leo has marked two completed tasks as finished on his list.",
+      "promptZh": "里奧已在清單上把兩項完成的工作標示為完成。",
+      "starter": "Leo",
+      "answer": "Leo has crossed two completed tasks off his list.",
+      "answerZh": "里奧已把兩項完成的工作從清單上劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I am drawing a line through the extra sentence now.",
+      "promptZh": "我現在正把多餘的句子劃掉。",
+      "starter": "I",
+      "answer": "I am crossing the extra sentence out now.",
+      "answerZh": "我現在正把多餘的句子劃掉。",
+      "highlight": "crossing",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The dog will go to the other side when the gate opens.",
+      "promptZh": "閘門打開時,那隻狗會走到另一邊。",
+      "starter": "The",
+      "answer": "The dog will cross over when the gate opens.",
+      "answerZh": "閘門打開時,那隻狗會走到另一邊。",
+      "highlight": "cross over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why did you remove her name from the team list?",
+      "promptZh": "你為甚麼把她的名字從隊伍名單上刪去?",
+      "starter": "Why",
+      "answer": "Why did you cross her name off the team list?",
+      "answerZh": "你為甚麼把她的名字從隊伍名單上刪去?",
+      "highlight": "cross",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從名單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "People are going to the other side while the traffic has stopped.",
+      "promptZh": "車輛停下來時,人們正走到另一邊。",
+      "starter": "People",
+      "answer": "People are crossing over while the traffic has stopped.",
+      "answerZh": "車輛停下來時,人們正橫過馬路到另一邊。",
+      "highlight": "crossing over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do not draw a line through the correct answer.",
+      "promptZh": "不要把正確答案劃掉。",
+      "starter": "Do",
+      "answer": "Do not cross the correct answer out.",
+      "answerZh": "不要把正確答案劃掉。",
+      "highlight": "cross",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The organiser is marking each guest’s name on the list as that guest arrives.",
+      "promptZh": "每位賓客到達時,主辦人員都會在名單上劃去其名字。",
+      "starter": "The",
+      "answer": "The organiser is crossing each guest’s name off the list as that guest arrives.",
+      "answerZh": "每位賓客到達時,主辦人員都會把其名字從名單上劃去。",
+      "highlight": "crossing",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從名單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Did the cyclists move to the other side before the rain started?",
+      "promptZh": "單車手有否在下雨前移到另一邊?",
+      "starter": "Did",
+      "answer": "Did the cyclists cross over before the rain started?",
+      "answerZh": "單車手有否在下雨前移到另一邊?",
+      "highlight": "cross over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Ben drew a line through the first answer because it was wrong.",
+      "promptZh": "賓把第一個答案劃掉,因為它是錯的。",
+      "starter": "Ben",
+      "answer": "Ben crossed the first answer through because it was wrong.",
+      "answerZh": "賓把第一個答案劃掉,因為它是錯的。",
+      "highlight": "crossed",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We will mark the last item as completed after we finish it.",
+      "promptZh": "我們完成最後一個項目後,便會把它標示為完成。",
+      "starter": "We",
+      "answer": "We will cross the last item off after we finish it.",
+      "answerZh": "我們完成最後一個項目後,便會把它從清單上劃掉。",
+      "highlight": "cross",
+      "targetForm": "cross something off",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The address was wrong, so I drew a line through it.",
+      "promptZh": "地址錯了,所以我把它劃掉。",
+      "starter": "The",
+      "answer": "The address was wrong, so I crossed it out.",
+      "answerZh": "地址錯了,所以我把它劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Because the road was empty, the family went safely to the other side.",
+      "promptZh": "因為馬路上沒有車輛,那一家人安全地走到另一邊。",
+      "starter": "Because",
+      "answer": "Because the road was empty, the family crossed over safely.",
+      "answerZh": "因為馬路上沒有車輛,那一家人安全地橫過馬路。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Since the final job on your list is complete, you can mark it as finished.",
+      "promptZh": "既然你清單上的最後一項工作已完成,你可以把它標示為完成。",
+      "starter": "Since",
+      "answer": "Since the final job on your list is complete, you can cross it off.",
+      "answerZh": "既然你清單上的最後一項工作已完成,你可以把它劃掉。",
+      "highlight": "cross",
+      "targetForm": "cross something off",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Please draw a line through the sentence if it does not belong in the email.",
+      "promptZh": "如果該句子不應出現在電郵中,請把它劃掉。",
+      "starter": "Please",
+      "answer": "Please cross the sentence through if it does not belong in the email.",
+      "answerZh": "如果該句子不應出現在電郵中,請把它劃掉。",
+      "highlight": "cross",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The shop was closed, so I removed it from my list of places to visit.",
+      "promptZh": "那間店舖已關門,所以我把它從想去的地方清單上刪去。",
+      "starter": "The",
+      "answer": "The shop was closed, so I crossed it off my list of places to visit.",
+      "answerZh": "那間店舖已關門,所以我把它從想去的地方清單上刪去。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the bus stopped, several passengers moved to the other side towards the station entrance.",
+      "promptZh": "巴士停下來後,數名乘客走到另一邊的車站入口。",
+      "starter": "When",
+      "answer": "When the bus stopped, several passengers crossed over to the station entrance.",
+      "answerZh": "巴士停下來後,數名乘客走到另一邊的車站入口。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The wrong number should have a line drawn through it before the form is sent.",
+      "promptZh": "表格送出前,應把錯誤的號碼劃掉。",
+      "starter": "The",
+      "answer": "The wrong number should be crossed out before the form is sent.",
+      "answerZh": "表格送出前,應把錯誤的號碼劃掉。",
+      "highlight": "be crossed out",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "We had already removed Olivia from the list before she called.",
+      "promptZh": "奧莉維亞來電前,我們已把她從名單上刪去。",
+      "starter": "We",
+      "answer": "We had already crossed Olivia off the list before she called.",
+      "answerZh": "奧莉維亞來電前,我們已把她從名單上刪去。",
+      "highlight": "crossed",
+      "targetForm": "cross somebody off something",
+      "targetMeaningZh": "把某人從名單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After checking both directions, they went to the other side together.",
+      "promptZh": "查看過兩個方向後,他們一起走到另一邊。",
+      "starter": "After",
+      "answer": "After checking both directions, they crossed over together.",
+      "answerZh": "查看過兩個方向後,他們一起橫過馬路。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "You have drawn a line through the correct word by mistake.",
+      "promptZh": "你誤把正確的字詞劃掉了。",
+      "starter": "You",
+      "answer": "You have crossed the correct word through by mistake.",
+      "answerZh": "你誤把正確的字詞劃掉了。",
+      "highlight": "crossed",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Since the museum is closed, let us remove it from today’s plan.",
+      "promptZh": "既然博物館已關閉,我們把它從今日行程中刪去吧。",
+      "starter": "Since",
+      "answer": "Since the museum is closed, let us cross it off today’s plan.",
+      "answerZh": "既然博物館已關閉,我們把它從今日行程中刪去吧。",
+      "highlight": "cross",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從計劃或清單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The path became muddy, so we moved to the dry side.",
+      "promptZh": "小路變得泥濘,所以我們移到較乾爽的另一邊。",
+      "starter": "The",
+      "answer": "The path became muddy, so we crossed over to the dry side.",
+      "answerZh": "小路變得泥濘,所以我們移到較乾爽的另一邊。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The editor drew a line through the part that repeated the same idea.",
+      "promptZh": "編輯把重複相同意思的部分劃掉。",
+      "starter": "The",
+      "answer": "The editor crossed out the part that repeated the same idea.",
+      "answerZh": "編輯把重複相同意思的部分劃掉。",
+      "highlight": "crossed out",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The coach removed one player from the team list after he became ill.",
+      "promptZh": "一名球員生病後,教練把他從隊伍名單上刪去。",
+      "starter": "The",
+      "answer": "The coach crossed one player off the team list after he became ill.",
+      "answerZh": "一名球員生病後,教練把他從隊伍名單上刪去。",
+      "highlight": "crossed",
+      "targetForm": "cross somebody off something",
+      "targetMeaningZh": "把某人從名單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "On the form, draw a line through that option if it does not apply.",
+      "promptZh": "如果表格上的那個選項不適用,便把它劃掉。",
+      "starter": "On",
+      "answer": "On the form, cross that option through if it does not apply.",
+      "answerZh": "如果表格上的那個選項不適用,便把它劃掉。",
+      "highlight": "cross",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The crowd waited for the signal before going to the other side.",
+      "promptZh": "人群等候信號,然後才走到另一邊。",
+      "starter": "The",
+      "answer": "The crowd waited for the signal before crossing over.",
+      "answerZh": "人群等候信號,然後才走到另一邊。",
+      "highlight": "crossing over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I removed sugar from the shopping list because we already had enough.",
+      "promptZh": "我們已有足夠的糖,所以我把它從購物清單上刪去。",
+      "starter": "I",
+      "answer": "I crossed sugar off the shopping list because we already had enough.",
+      "answerZh": "我們已有足夠的糖,所以我把它從購物清單上劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "To reach the café, go to the other side at the traffic lights and turn left.",
+      "promptZh": "要前往咖啡店,請在交通燈處橫過馬路,然後左轉。",
+      "starter": "To",
+      "answer": "To reach the café, cross over at the traffic lights and turn left.",
+      "answerZh": "要前往咖啡店,請在交通燈處橫過馬路,然後左轉。",
+      "highlight": "cross over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Rachel drew a line through her old phone number and added the new one.",
+      "promptZh": "瑞秋把舊電話號碼劃掉,並加上新號碼。",
+      "starter": "Rachel",
+      "answer": "Rachel crossed her old phone number out and added the new one.",
+      "answerZh": "瑞秋把舊電話號碼劃掉,並加上新號碼。",
+      "highlight": "crossed",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The teacher removed the cancelled activity from the class plan.",
+      "promptZh": "老師把已取消的活動從課堂計劃中刪去。",
+      "starter": "The",
+      "answer": "The teacher crossed the cancelled activity off the class plan.",
+      "answerZh": "老師把已取消的活動從課堂計劃中刪去。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從計劃或清單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "After checking the form, Amir drew a line through the answer he had written in the wrong box.",
+      "promptZh": "檢查表格後,阿米爾把寫在錯誤方格內的答案劃掉。",
+      "starter": "After",
+      "answer": "After checking the form, Amir crossed out the answer he had written in the wrong box.",
+      "answerZh": "檢查表格後,阿米爾把寫在錯誤方格內的答案劃掉。",
+      "highlight": "crossed out",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Once every job was finished, Priya marked the final one as complete on her list.",
+      "promptZh": "所有工作完成後,普里雅在清單上把最後一項標示為完成。",
+      "starter": "Once",
+      "answer": "Once every job was finished, Priya crossed the final one off her list.",
+      "answerZh": "所有工作完成後,普里雅把清單上的最後一項劃掉。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the street was busy, we went to the other side together when the road was clear.",
+      "promptZh": "雖然街道繁忙,但馬路沒有車輛時,我們一起走到另一邊。",
+      "starter": "Although",
+      "answer": "Although the street was busy, we crossed over together when the road was clear.",
+      "answerZh": "雖然街道繁忙,但馬路沒有車輛時,我們一起橫過馬路。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The first name was not correct, so the assistant drew a line through it and wrote the right name below.",
+      "promptZh": "第一個名字不正確,所以助理把它劃掉,並在下面寫上正確名字。",
+      "starter": "The",
+      "answer": "The first name was not correct, so the assistant crossed it through and wrote the right name below.",
+      "answerZh": "第一個名字不正確,所以助理把它劃掉,並在下面寫上正確名字。",
+      "highlight": "crossed it",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The hikers could see the shelter on the far side, but they waited until it was safe to move there.",
+      "promptZh": "遠足者看到另一邊的避雨處,但他們等到安全時才走過去。",
+      "starter": "The",
+      "answer": "The hikers could see the shelter on the far side, but they waited until it was safe to cross over.",
+      "answerZh": "遠足者看到另一邊的避雨處,但他們等到安全時才走過去。",
+      "highlight": "cross over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before sending the list, check whether anyone should be removed because they are no longer joining the trip.",
+      "promptZh": "送出名單前,請檢查是否有人因不再參加旅程而需要從名單上刪去。",
+      "starter": "Before",
+      "answer": "Before sending the list, check whether anyone should be crossed off because they are no longer joining the trip.",
+      "answerZh": "送出名單前,請檢查是否有人因不再參加旅程而需要從名單上刪去。",
+      "highlight": "crossed off",
+      "targetForm": "cross somebody off",
+      "targetMeaningZh": "把某人從名單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "If this sentence is not needed, draw a line through it rather than erase the whole paragraph.",
+      "promptZh": "如果不需要這個句子,便把它劃掉,不要刪除整個段落。",
+      "starter": "If",
+      "answer": "If this sentence is not needed, cross it out rather than erase the whole paragraph.",
+      "answerZh": "如果不需要這個句子,便把它劃掉,不要刪除整個段落。",
+      "highlight": "cross",
+      "targetForm": "cross something out",
+      "targetMeaningZh": "把書面資料劃掉"
+    },
+    {
+      "id": "phrasal-verb-52-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Our first choice was too expensive, so we removed it from the list and considered the next one.",
+      "promptZh": "我們的第一個選擇太昂貴,所以把它從清單上刪去,並考慮下一個選擇。",
+      "starter": "Our",
+      "answer": "Our first choice was too expensive, so we crossed it off the list and considered the next one.",
+      "answerZh": "我們的第一個選擇太昂貴,所以把它從清單上刪去,並考慮下一個選擇。",
+      "highlight": "crossed",
+      "targetForm": "cross something off something",
+      "targetMeaningZh": "把某事物從清單上刪去"
+    },
+    {
+      "id": "phrasal-verb-52-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the guide waved, the whole group moved to the side with the bus stop.",
+      "promptZh": "導遊揮手示意時,全組人走到設有巴士站的另一邊。",
+      "starter": "When",
+      "answer": "When the guide waved, the whole group crossed over to the side with the bus stop.",
+      "answerZh": "導遊揮手示意時,全組人走到設有巴士站的另一邊。",
+      "highlight": "crossed over",
+      "targetForm": "cross over",
+      "targetMeaningZh": "走到或移到另一邊"
+    },
+    {
+      "id": "phrasal-verb-52-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The form had two dates, so Elena drew a line through the earlier one and kept the later one.",
+      "promptZh": "表格上有兩個日期,所以艾蓮娜把較早的日期劃掉,保留較後的日期。",
+      "starter": "The",
+      "answer": "The form had two dates, so Elena crossed the earlier one through and kept the later one.",
+      "answerZh": "表格上有兩個日期,所以艾蓮娜把較早的日期劃掉,保留較後的日期。",
+      "highlight": "crossed",
+      "targetForm": "cross something through",
+      "targetMeaningZh": "把書面資料劃掉"
+    }
+  ]
+}

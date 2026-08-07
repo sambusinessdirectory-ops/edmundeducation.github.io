@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-326",
+  "order": 326,
+  "slug": "opt",
+  "version": "1",
+  "title": "OPT 動詞片語",
+  "titleEn": "Opt",
+  "titleZh": "OPT 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 311 - OPT.pdf",
+    "sourceNumber": 311,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 OPT 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to OPT."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "OPT",
+      "highlight": "OPT"
+    }
+  ],
+  "examples": [
+    {
+      "en": "More students are now opting for computer science courses.",
+      "zh": "現在有更多學生選擇電腦科學課程。",
+      "highlight": "opting for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Staff can opt into the pension plan.",
+      "zh": "員工可以選擇加入退休金計劃。",
+      "highlight": "opt into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "You can opt out of the company’s pension plan.",
+      "zh": "你可以選擇退出公司的退休金計劃。",
+      "highlight": "opt out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "從不同選項中選擇某事物；主動選擇參加、加入或被包括在某項安排內；選擇不參加,或退出原本的安排",
+    "en": "opt for something; opt in / opt into something; opt out / opt out of something",
+    "naturalZh": [
+      "從不同選項中選擇某事物",
+      "主動選擇參加、加入或被包括在某項安排內",
+      "選擇不參加,或退出原本的安排"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "opt for something",
+      "titleZh": "從不同選項中選擇某事物",
+      "titleEn": "opt for something",
+      "descriptionZh": "從不同選項中選擇某事物",
+      "descriptionEn": "More students are now opting for computer science courses.",
+      "examples": [
+        {
+          "en": "More students are now opting for computer science courses.",
+          "zh": "現在有更多學生選擇電腦科學課程。",
+          "highlight": "opting for"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "opt in / opt into something",
+      "titleZh": "主動選擇參加、加入或被包括在某項安排內",
+      "titleEn": "opt in / opt into something",
+      "descriptionZh": "主動選擇參加、加入或被包括在某項安排內",
+      "descriptionEn": "Staff can opt into the pension plan.",
+      "examples": [
+        {
+          "en": "Staff can opt into the pension plan.",
+          "zh": "員工可以選擇加入退休金計劃。",
+          "highlight": "opt into"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "opt out / opt out of something",
+      "titleZh": "選擇不參加,或退出原本的安排",
+      "titleEn": "opt out / opt out of something",
+      "descriptionZh": "選擇不參加,或退出原本的安排",
+      "descriptionEn": "You can opt out of the company’s pension plan.",
+      "examples": [
+        {
+          "en": "You can opt out of the company’s pension plan.",
+          "zh": "你可以選擇退出公司的退休金計劃。",
+          "highlight": "opt out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "OPT 片語動詞的實際用途",
+    "labelEn": "OPT Phrasal Verbs in Use",
+    "summaryZh": "opt for 可以幫助你說明自己在多個課程、產品、服務或計劃之中選擇了哪一個。；opt in 和 opt into 可以表示某人主動選擇加入服務、名單、活動計劃或其他安排。；opt out 和 opt out of 可以清楚表示某人選擇不參加,或決定退出原有安排。；OPT 片語動詞經常出現在網站、申請表、電郵設定、學校計劃和工作安排之中。",
+    "summaryEn": "Opt for helps you explain which course, product, service or plan you choose from several possibilities. Opt in and opt into show that someone has actively chosen to join a service, list, programme or plan. Opt out and opt out of make it clear that someone has chosen not to participate or has decided to leave. OPT expressions often appear on websites, application forms, email settings, school programmes and workplace plans.",
+    "contextsZh": [
+      "清楚表達個人選擇",
+      "表示參加是個人選擇",
+      "說明某人不想參加",
+      "理解表格、設定和會員選項"
+    ],
+    "contextsEn": [
+      "Talk clearly about personal choices",
+      "Show that joining is a free choice",
+      "Explain that someone does not want to take part",
+      "Understand forms, settings and membership choices"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 OPT 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the OPT expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "opt for something",
+    "fixedHighlight": "opt for something",
+    "fixedZh": "閱讀整句,選出意思相同的 OPT 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the OPT expression that gives the same meaning.",
+    "correct": "opting for",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 opt for 時,後面要說明所選擇的事物,例如 opt for the blue jacket。；opt in 表示主動選擇加入或被包括在內;opt out 表示選擇不參加或退出。",
+    "variableEn": "Keep the same people, things, time and meaning. Use opt for before the thing you choose: opt for the blue jacket Opt in means choosing to join or be included. Opt out means choosing not to take part or choosing to leave.",
+    "variableItemsZh": [
+      "opt for something",
+      "opt in / opt into something",
+      "opt out / opt out of something"
+    ],
+    "variableItemsEn": [
+      "opt for something",
+      "opt in / opt into something",
+      "opt out / opt out of something"
+    ],
+    "forms": [
+      {
+        "formZh": "從不同選項中選擇某事物",
+        "formEn": "opt for something",
+        "exampleZh": "現在有更多學生選擇電腦科學課程。",
+        "exampleEn": "More students are now opting for computer science courses.",
+        "highlight": "opting for"
+      },
+      {
+        "formZh": "主動選擇參加、加入或被包括在某項安排內",
+        "formEn": "opt in / opt into something",
+        "exampleZh": "員工可以選擇加入退休金計劃。",
+        "exampleEn": "Staff can opt into the pension plan.",
+        "highlight": "opt into"
+      },
+      {
+        "formZh": "選擇不參加,或退出原本的安排",
+        "formEn": "opt out / opt out of something",
+        "exampleZh": "你可以選擇退出公司的退休金計劃。",
+        "exampleEn": "You can opt out of the company’s pension plan.",
+        "highlight": "opt out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "從不同選項中選擇某事物",
+      "titleEn": "opt for something",
+      "formula": "opt for something",
+      "highlight": "opt for something",
+      "descriptionZh": "從不同選項中選擇某事物",
+      "descriptionEn": "More students are now opting for computer science courses.",
+      "examples": [
+        {
+          "en": "More students are now opting for computer science courses.",
+          "zh": "現在有更多學生選擇電腦科學課程。",
+          "highlight": "opting for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "主動選擇參加、加入或被包括在某項安排內",
+      "titleEn": "opt in / opt into something",
+      "formula": "opt in / opt into something",
+      "highlight": "opt in / opt into something",
+      "descriptionZh": "主動選擇參加、加入或被包括在某項安排內",
+      "descriptionEn": "Staff can opt into the pension plan.",
+      "examples": [
+        {
+          "en": "Staff can opt into the pension plan.",
+          "zh": "員工可以選擇加入退休金計劃。",
+          "highlight": "opt into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "選擇不參加,或退出原本的安排",
+      "titleEn": "opt out / opt out of something",
+      "formula": "opt out / opt out of something",
+      "highlight": "opt out / opt out of something",
+      "descriptionZh": "選擇不參加,或退出原本的安排",
+      "descriptionEn": "You can opt out of the company’s pension plan.",
+      "examples": [
+        {
+          "en": "You can opt out of the company’s pension plan.",
+          "zh": "你可以選擇退出公司的退休金計劃。",
+          "highlight": "opt out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達個人選擇",
+      "titleEn": "Talk clearly about personal choices",
+      "zh": "opt for 可以幫助你說明自己在多個課程、產品、服務或計劃之中選擇了哪一個。",
+      "en": "Opt for helps you explain which course, product, service or plan you choose from several possibilities."
+    },
+    {
+      "titleZh": "表示參加是個人選擇",
+      "titleEn": "Show that joining is a free choice",
+      "zh": "opt in 和 opt into 可以表示某人主動選擇加入服務、名單、活動計劃或其他安排。",
+      "en": "Opt in and opt into show that someone has actively chosen to join a service, list, programme or plan."
+    },
+    {
+      "titleZh": "說明某人不想參加",
+      "titleEn": "Explain that someone does not want to take part",
+      "zh": "opt out 和 opt out of 可以清楚表示某人選擇不參加,或決定退出原有安排。",
+      "en": "Opt out and opt out of make it clear that someone has chosen not to participate or has decided to leave."
+    },
+    {
+      "titleZh": "理解表格、設定和會員選項",
+      "titleEn": "Understand forms, settings and membership choices",
+      "zh": "OPT 片語動詞經常出現在網站、申請表、電郵設定、學校計劃和工作安排之中。",
+      "en": "OPT expressions often appear on websites, application forms, email settings, school programmes and workplace plans."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達個人選擇",
+      "表示參加是個人選擇",
+      "說明某人不想參加",
+      "理解表格、設定和會員選項"
+    ],
+    "contextsEn": [
+      "Talk clearly about personal choices",
+      "Show that joining is a free choice",
+      "Explain that someone does not want to take part",
+      "Understand forms, settings and membership choices"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達個人選擇",
+        "titleEn": "Talk clearly about personal choices",
+        "zh": "opt for 可以幫助你說明自己在多個課程、產品、服務或計劃之中選擇了哪一個。",
+        "en": "Opt for helps you explain which course, product, service or plan you choose from several possibilities.",
+        "examples": [
+          {
+            "en": "More students are now opting for computer science courses.",
+            "zh": "現在有更多學生選擇電腦科學課程。",
+            "highlight": "opting for"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示參加是個人選擇",
+        "titleEn": "Show that joining is a free choice",
+        "zh": "opt in 和 opt into 可以表示某人主動選擇加入服務、名單、活動計劃或其他安排。",
+        "en": "Opt in and opt into show that someone has actively chosen to join a service, list, programme or plan.",
+        "examples": [
+          {
+            "en": "Staff can opt into the pension plan.",
+            "zh": "員工可以選擇加入退休金計劃。",
+            "highlight": "opt into"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某人不想參加",
+        "titleEn": "Explain that someone does not want to take part",
+        "zh": "opt out 和 opt out of 可以清楚表示某人選擇不參加,或決定退出原有安排。",
+        "en": "Opt out and opt out of make it clear that someone has chosen not to participate or has decided to leave.",
+        "examples": [
+          {
+            "en": "You can opt out of the company’s pension plan.",
+            "zh": "你可以選擇退出公司的退休金計劃。",
+            "highlight": "opt out"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解表格、設定和會員選項",
+        "titleEn": "Understand forms, settings and membership choices",
+        "zh": "OPT 片語動詞經常出現在網站、申請表、電郵設定、學校計劃和工作安排之中。",
+        "en": "OPT expressions often appear on websites, application forms, email settings, school programmes and workplace plans.",
+        "examples": [
+          {
+            "en": "More students are now opting for computer science courses.",
+            "zh": "現在有更多學生選擇電腦科學課程。",
+            "highlight": "opting for"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 OPT 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the OPT expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 OPT 片語動詞。",
+      "en": "Read the whole sentence and choose the OPT expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 opt for 時,後面要說明所選擇的事物,例如 opt for the blue jacket。",
+      "titleEn": "Use opt for before the thing you choose: opt for the blue jacket.",
+      "zh": "使用 opt for 時,後面要說明所選擇的事物,例如 opt for the blue jacket。",
+      "en": "Use opt for before the thing you choose: opt for the blue jacket"
+    },
+    {
+      "titleZh": "opt in 表示主動選擇加入或被包括在內;opt out 表示選擇不參加或退出。",
+      "titleEn": "Opt in means choosing to join or be included.",
+      "zh": "opt in 表示主動選擇加入或被包括在內;opt out 表示選擇不參加或退出。",
+      "en": "Opt in means choosing to join or be included. Opt out means choosing not to take part or choosing to leave."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 OPT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to OPT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "OPT 動詞片語句子改寫練習",
+    "titleEn": "OPT Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 OPT 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to OPT. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-326-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "The school does not add parents automatically. More parents are choosing to receive its text messages.",
+      "promptZh": "學校不會自動把家長加入名單。愈來愈多家長選擇接收學校的短訊。",
+      "starter": "The",
+      "answer": "The school does not add parents automatically. More parents are opting in to receive its text messages.",
+      "answerZh": "學校不會自動把家長加入名單。愈來愈多家長主動選擇接收學校的短訊。",
+      "highlight": "opting in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或表示同意"
+    },
+    {
+      "id": "phrasal-verb-326-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Daniel chose the blue jacket instead of the black one.",
+      "promptZh": "丹尼爾選了藍色外套,而沒有選黑色那件。",
+      "starter": "Daniel",
+      "answer": "Daniel opted for the blue jacket instead of the black one.",
+      "answerZh": "丹尼爾選了藍色外套,而沒有選黑色那件。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "You can choose not to take part in the school trip.",
+      "promptZh": "你可以選擇不參加學校旅行。",
+      "starter": "You",
+      "answer": "You can opt out of the school trip.",
+      "answerZh": "你可以選擇不參加學校旅行。",
+      "highlight": "opt out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-326-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The pension plan does not include staff automatically, but all staff may choose to join it.",
+      "promptZh": "退休金計劃不會自動包括員工,但所有員工都可以選擇加入。",
+      "starter": "The",
+      "answer": "The pension plan does not include staff automatically, but all staff may opt into it.",
+      "answerZh": "退休金計劃不會自動包括員工,但所有員工都可以選擇加入。",
+      "highlight": "opt into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某項計劃或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Priya chose to leave the weekly email list.",
+      "promptZh": "普里雅選擇退出每週電郵名單。",
+      "starter": "Priya",
+      "answer": "Priya opted out of the weekly email list.",
+      "answerZh": "普里雅選擇退出每週電郵名單。",
+      "highlight": "opted out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇退出某項安排"
+    },
+    {
+      "id": "phrasal-verb-326-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Many students now choose computer science courses.",
+      "promptZh": "現在很多學生都選擇電腦科學課程。",
+      "starter": "Many",
+      "answer": "Many students now opt for computer science courses.",
+      "answerZh": "現在很多學生都選擇電腦科學課程。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "We were asked whether we wanted to join, and we said yes before Friday.",
+      "promptZh": "有人問我們是否想參加,而我們在星期五前表示願意加入。",
+      "starter": "We",
+      "answer": "We were asked whether we wanted to join, and we opted in before Friday.",
+      "answerZh": "有人問我們是否想參加,而我們在星期五前選擇了加入。",
+      "highlight": "opted in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加"
+    },
+    {
+      "id": "phrasal-verb-326-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I would choose the smaller phone because it is easier to carry.",
+      "promptZh": "我會選擇較小的手機,因為較容易攜帶。",
+      "starter": "I",
+      "answer": "I would opt for the smaller phone because it is easier to carry.",
+      "answerZh": "我會選擇較小的手機,因為較容易攜帶。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Leo chose not to enter the photo competition.",
+      "promptZh": "里奧選擇不參加攝影比賽。",
+      "starter": "Leo",
+      "answer": "Leo opted out of the photo competition.",
+      "answerZh": "里奧選擇不參加攝影比賽。",
+      "highlight": "opted out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-326-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Did your family choose to be included in the new recycling programme?",
+      "promptZh": "你的家庭有沒有選擇加入新的回收計劃?",
+      "starter": "Did",
+      "answer": "Did your family opt into the new recycling programme?",
+      "answerZh": "你的家庭有沒有選擇加入新的回收計劃?",
+      "highlight": "opt into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某項計劃或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Some members have chosen not to receive the monthly newsletter.",
+      "promptZh": "一些會員已選擇不接收每月通訊。",
+      "starter": "Some",
+      "answer": "Some members have opted out of the monthly newsletter.",
+      "answerZh": "一些會員已選擇不接收每月通訊。",
+      "highlight": "opted out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇退出或停止接收某項服務"
+    },
+    {
+      "id": "phrasal-verb-326-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did Hana choose the later train?",
+      "promptZh": "哈娜為甚麼選擇較遲的火車?",
+      "starter": "Why",
+      "answer": "Why did Hana opt for the later train?",
+      "answerZh": "哈娜為甚麼選擇較遲的火車?",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The shop is asking customers to actively agree to receive special offers.",
+      "promptZh": "店舖正請顧客主動同意接收特別優惠。",
+      "starter": "The",
+      "answer": "The shop is asking customers to opt in to receive special offers.",
+      "answerZh": "店舖正請顧客主動選擇接收特別優惠。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或同意接收"
+    },
+    {
+      "id": "phrasal-verb-326-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The service is optional, and you may choose to leave it at any time.",
+      "promptZh": "這項服務並非強制參加,你可以隨時選擇退出。",
+      "starter": "The",
+      "answer": "The service is optional, and you may opt out at any time.",
+      "answerZh": "這項服務並非強制參加,你可以隨時選擇退出。",
+      "highlight": "opt out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇退出"
+    },
+    {
+      "id": "phrasal-verb-326-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The extra lessons are not automatic; anyone who wants them can choose to join.",
+      "promptZh": "額外課堂不會自動安排;任何想參加的人都可以選擇加入。",
+      "starter": "The",
+      "answer": "The extra lessons are not automatic; anyone who wants them can opt in.",
+      "answerZh": "額外課堂不會自動安排;任何想參加的人都可以選擇加入。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加"
+    },
+    {
+      "id": "phrasal-verb-326-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We have chosen a simple design for the new website.",
+      "promptZh": "我們已為新網站選擇了一個簡單設計。",
+      "starter": "We",
+      "answer": "We have opted for a simple design for the new website.",
+      "answerZh": "我們已為新網站選擇了一個簡單設計。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Several families are choosing not to use the school lunch plan this year.",
+      "promptZh": "今年有幾個家庭選擇不使用學校午膳計劃。",
+      "starter": "Several",
+      "answer": "Several families are opting out of the school lunch plan this year.",
+      "answerZh": "今年有幾個家庭選擇不使用學校午膳計劃。",
+      "highlight": "opting out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加或退出某項計劃"
+    },
+    {
+      "id": "phrasal-verb-326-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Kai may choose the weekend class instead.",
+      "promptZh": "啟可能會改選週末課堂。",
+      "starter": "Kai",
+      "answer": "Kai may opt for the weekend class instead.",
+      "answerZh": "啟可能會改選週末課堂。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Has Rosa chosen to be included in the travel insurance plan?",
+      "promptZh": "羅莎是否已選擇加入旅遊保險計劃?",
+      "starter": "Has",
+      "answer": "Has Rosa opted into the travel insurance plan?",
+      "answerZh": "羅莎是否已選擇加入旅遊保險計劃?",
+      "highlight": "opted into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某項計劃或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Why are you choosing not to take part in the team activity?",
+      "promptZh": "你為甚麼選擇不參加團隊活動?",
+      "starter": "Why",
+      "answer": "Why are you opting out of the team activity?",
+      "answerZh": "你為甚麼選擇不參加團隊活動?",
+      "highlight": "opting out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加某項活動"
+    },
+    {
+      "id": "phrasal-verb-326-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The service is free, but users must actively agree before messages are sent to them.",
+      "promptZh": "這項服務是免費的,但使用者必須主動同意,才會收到訊息。",
+      "starter": "The",
+      "answer": "The service is free, but users must opt in before they receive messages.",
+      "answerZh": "這項服務是免費的,但使用者必須主動選擇加入,才會收到訊息。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或表示同意"
+    },
+    {
+      "id": "phrasal-verb-326-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Ben joined last year, but he has now chosen to leave.",
+      "promptZh": "賓去年加入了,但現在已選擇退出。",
+      "starter": "Ben",
+      "answer": "Ben joined last year, but he has now opted out.",
+      "answerZh": "賓去年加入了,但現在已選擇退出。",
+      "highlight": "opted out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇退出"
+    },
+    {
+      "id": "phrasal-verb-326-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After comparing both rooms, we chose the one near the lift.",
+      "promptZh": "比較兩個房間後,我們選了升降機附近的房間。",
+      "starter": "After",
+      "answer": "After comparing both rooms, we opted for the one near the lift.",
+      "answerZh": "比較兩個房間後,我們選了升降機附近的房間。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "If you want your photos included, you need to give your clear agreement.",
+      "promptZh": "如果你想自己的相片獲收錄,就需要明確表示同意。",
+      "starter": "If",
+      "answer": "If you want your photos included, you need to opt in.",
+      "answerZh": "如果你想自己的相片獲收錄,就需要主動選擇參加。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或表示同意"
+    },
+    {
+      "id": "phrasal-verb-326-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "My parents would rather choose the fixed-price plan than pay a different amount each month.",
+      "promptZh": "我的父母寧願選擇固定收費計劃,也不想每月支付不同金額。",
+      "starter": "My",
+      "answer": "My parents would rather opt for the fixed-price plan than pay a different amount each month.",
+      "answerZh": "我的父母寧願選擇固定收費計劃,也不想每月支付不同金額。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Students who do not want their work shown can choose not to take part.",
+      "promptZh": "不想展示作品的學生可以選擇不參加。",
+      "starter": "Students",
+      "answer": "Students who do not want their work shown can opt out.",
+      "answerZh": "不想展示作品的學生可以選擇退出。",
+      "highlight": "opt out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇不參加"
+    },
+    {
+      "id": "phrasal-verb-326-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Before the course began, twelve people had chosen to be included in the study group.",
+      "promptZh": "課程開始前,已有十二人選擇加入學習小組。",
+      "starter": "Before",
+      "answer": "Before the course began, twelve people had opted into the study group.",
+      "answerZh": "課程開始前,已有十二人選擇加入學習小組。",
+      "highlight": "opted into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某個小組或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I forgot to leave the free trial before it ended.",
+      "promptZh": "我忘記在免費試用期結束前退出。",
+      "starter": "I",
+      "answer": "I forgot to opt out of the free trial before it ended.",
+      "answerZh": "我忘記在免費試用期結束前退出。",
+      "highlight": "opt out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇退出某項服務或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Which payment plan are you going to choose?",
+      "promptZh": "你打算選擇哪一個付款計劃?",
+      "starter": "Which",
+      "answer": "Which payment plan are you going to opt for?",
+      "answerZh": "你打算選擇哪一個付款計劃?",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Through the form, members can choose to be included in the weekend programme.",
+      "promptZh": "會員可以透過表格選擇參加週末活動計劃。",
+      "starter": "Through",
+      "answer": "Through the form, members can opt into the weekend programme.",
+      "answerZh": "會員可以透過表格選擇參加週末活動計劃。",
+      "highlight": "opt into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某項計劃或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The menu had many dishes, but I chose the vegetable curry.",
+      "promptZh": "餐牌上有很多菜式,但我選了雜菜咖喱。",
+      "starter": "The",
+      "answer": "The menu had many dishes, but I opted for the vegetable curry.",
+      "answerZh": "餐牌上有很多菜式,但我選了雜菜咖喱。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "All members will be included unless they say that they do not want to take part.",
+      "promptZh": "所有會員都會被包括在內,除非他們表示不想參加。",
+      "starter": "All",
+      "answer": "All members will be included unless they opt out.",
+      "answerZh": "所有會員都會被包括在內,除非他們選擇退出。",
+      "highlight": "opt out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇退出或拒絕參加"
+    },
+    {
+      "id": "phrasal-verb-326-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The company will not add you automatically; you must actively choose to join.",
+      "promptZh": "公司不會自動把你加入;你必須主動選擇參加。",
+      "starter": "The",
+      "answer": "The company will not add you automatically; you must opt in.",
+      "answerZh": "公司不會自動把你加入;你必須主動選擇參加。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加"
+    },
+    {
+      "id": "phrasal-verb-326-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Rather than buy a new laptop, Sam chose the repair service.",
+      "promptZh": "森沒有購買新手提電腦,而是選擇維修服務。",
+      "starter": "Rather",
+      "answer": "Rather than buy a new laptop, Sam opted for the repair service.",
+      "answerZh": "森沒有購買新手提電腦,而是選擇維修服務。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Staff who actively choose to join the training scheme can attend three free classes.",
+      "promptZh": "主動選擇加入培訓計劃的員工可以參加三堂免費課。",
+      "starter": "Staff",
+      "answer": "Staff who opt into the training scheme can attend three free classes.",
+      "answerZh": "選擇加入培訓計劃的員工可以參加三堂免費課。",
+      "highlight": "opt into",
+      "targetForm": "opt into something",
+      "targetMeaningZh": "選擇加入某項計劃或安排"
+    },
+    {
+      "id": "phrasal-verb-326-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Clara chose the basic account and decided not to use the extra services.",
+      "promptZh": "克拉拉選擇了基本帳戶,並決定不使用額外服務。",
+      "starter": "Clara",
+      "answer": "Clara chose the basic account and opted out of the extra services.",
+      "answerZh": "克拉拉選擇了基本帳戶,並決定不使用額外服務。",
+      "highlight": "opted out of",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加或不使用某項服務"
+    },
+    {
+      "id": "phrasal-verb-326-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "If the afternoon flight is full, we will choose the morning one.",
+      "promptZh": "如果下午的航班客滿,我們會選擇早上的航班。",
+      "starter": "If",
+      "answer": "If the afternoon flight is full, we will opt for the morning one.",
+      "answerZh": "如果下午的航班客滿,我們會選擇早上的航班。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The website must explain how users can choose not to share their information.",
+      "promptZh": "網站必須解釋使用者可以如何選擇不分享自己的資料。",
+      "starter": "The",
+      "answer": "The website must explain how users can opt out of sharing their information.",
+      "answerZh": "網站必須解釋使用者可以如何選擇不分享自己的資料。",
+      "highlight": "opt out of sharing",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加或不同意某項安排"
+    },
+    {
+      "id": "phrasal-verb-326-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Instead of being added automatically, each student was asked to say yes to joining.",
+      "promptZh": "每名學生都沒有被自動加入,而是要自行表示願意參加。",
+      "starter": "Instead",
+      "answer": "Instead of being added automatically, each student was asked to opt in.",
+      "answerZh": "每名學生都沒有被自動加入,而是要自行選擇參加。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加"
+    },
+    {
+      "id": "phrasal-verb-326-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Not everyone chose the cheapest ticket; some people wanted more space.",
+      "promptZh": "並非所有人都選擇最便宜的車票;有些人想要更多空間。",
+      "starter": "Not",
+      "answer": "Not everyone opted for the cheapest ticket; some people wanted more space.",
+      "answerZh": "並非所有人都選擇最便宜的車票;有些人想要更多空間。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although the plan is popular, workers may choose not to take part if it does not suit them.",
+      "promptZh": "雖然這項計劃很受歡迎,但如果不適合,員工可以選擇不參加。",
+      "starter": "Although",
+      "answer": "Although the plan is popular, workers may opt out if it does not suit them.",
+      "answerZh": "雖然這項計劃很受歡迎,但如果不適合,員工可以選擇退出。",
+      "highlight": "opt out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇退出或不參加"
+    },
+    {
+      "id": "phrasal-verb-326-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We will send the guide only to people who have actively agreed to receive it.",
+      "promptZh": "我們只會把指南寄給主動同意接收的人。",
+      "starter": "We",
+      "answer": "We will send the guide only to people who have opted in.",
+      "answerZh": "我們只會把指南寄給主動選擇接收的人。",
+      "highlight": "opted in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或同意接收"
+    },
+    {
+      "id": "phrasal-verb-326-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "After thinking about time and cost, the family chose the local school.",
+      "promptZh": "考慮時間和費用後,這個家庭選擇了本區學校。",
+      "starter": "After",
+      "answer": "After thinking about time and cost, the family opted for the local school.",
+      "answerZh": "考慮時間和費用後,這個家庭選擇了本區學校。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "I had joined the service by mistake, so I chose to leave it immediately.",
+      "promptZh": "我錯誤加入了這項服務,所以立即選擇退出。",
+      "starter": "I",
+      "answer": "I had joined the service by mistake, so I immediately opted out.",
+      "answerZh": "我錯誤加入了這項服務,所以立即選擇退出。",
+      "highlight": "opted out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇退出"
+    },
+    {
+      "id": "phrasal-verb-326-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The hotel offered breakfast or a later checkout, and we chose breakfast.",
+      "promptZh": "酒店提供早餐或延遲退房,而我們選擇了早餐。",
+      "starter": "The",
+      "answer": "The hotel offered breakfast or a later checkout, and we opted for breakfast.",
+      "answerZh": "酒店提供早餐或延遲退房,而我們選擇了早餐。",
+      "highlight": "opted for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "To receive reminders about the event, visitors need to actively agree when they register.",
+      "promptZh": "訪客如要接收活動提示,就需要在登記時主動表示同意。",
+      "starter": "To",
+      "answer": "To receive reminders about the event, visitors need to opt in when they register.",
+      "answerZh": "訪客如要接收活動提示,就需要在登記時主動選擇加入。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加或同意接收"
+    },
+    {
+      "id": "phrasal-verb-326-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Customers who no longer want the messages should choose to stop them through their account settings.",
+      "promptZh": "不再想收到訊息的顧客,應透過帳戶設定選擇停止接收。",
+      "starter": "Customers",
+      "answer": "Customers who no longer want the messages should opt out through their account settings.",
+      "answerZh": "不再想收到訊息的顧客,應透過帳戶設定選擇退出。",
+      "highlight": "opt out",
+      "targetForm": "opt out",
+      "targetMeaningZh": "選擇停止接收或退出"
+    },
+    {
+      "id": "phrasal-verb-326-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Nobody is forced to join; each worker can decide whether to take part.",
+      "promptZh": "沒有人被迫參加;每名員工都可以自行決定是否參加。",
+      "starter": "Nobody",
+      "answer": "Nobody is forced to join; each worker can decide whether to opt in.",
+      "answerZh": "沒有人被迫參加;每名員工都可以自行決定是否選擇加入。",
+      "highlight": "opt in",
+      "targetForm": "opt in",
+      "targetMeaningZh": "主動選擇參加"
+    },
+    {
+      "id": "phrasal-verb-326-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If I had to choose again, I would still choose the quieter room.",
+      "promptZh": "如果要重新選擇,我仍會選擇較安靜的房間。",
+      "starter": "If",
+      "answer": "If I had to choose again, I would still opt for the quieter room.",
+      "answerZh": "如果要重新選擇,我仍會選擇較安靜的房間。",
+      "highlight": "opt for",
+      "targetForm": "opt for something",
+      "targetMeaningZh": "選擇某事物"
+    },
+    {
+      "id": "phrasal-verb-326-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The school asked students to reply only if they did not want to take part in the health checks.",
+      "promptZh": "學校要求學生只在不想參加健康檢查時回覆。",
+      "starter": "The",
+      "answer": "The school asked students to reply only if they wanted to opt out of the health checks.",
+      "answerZh": "學校要求學生只在想退出健康檢查時回覆。",
+      "highlight": "wanted",
+      "targetForm": "opt out of something",
+      "targetMeaningZh": "選擇不參加某項活動或安排"
+    }
+  ]
+}

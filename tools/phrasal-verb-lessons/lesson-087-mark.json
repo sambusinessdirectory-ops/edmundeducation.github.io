@@ -1,0 +1,1680 @@
+{
+  "id": "phrasal-verb-87",
+  "order": 87,
+  "slug": "mark",
+  "version": "1",
+  "title": "MARK 動詞片語",
+  "titleEn": "Mark",
+  "titleZh": "MARK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 86 - MARK.pdf",
+    "sourceNumber": 86,
+    "pageCount": 17,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "answerKeyPdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 70,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 MARK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to MARK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "MARK",
+      "highlight": "MARK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I marked Leo down as a careful worker.",
+      "zh": "我認定里奧是一名細心的工作人員。",
+      "highlight": "marked Leo down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She was marked down for poor spelling.",
+      "zh": "她因串字錯誤而被扣分。",
+      "highlight": "marked down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "They marked the wet area off with tape.",
+      "zh": "他們用膠帶把濕滑範圍分隔開來。",
+      "highlight": "marked the wet area off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人看作或認定為某類人；因錯誤或不足而扣分；用線、膠帶、繩或其他物件劃出並分隔一個範圍；使某人或某事物顯得與其他人或事物不同；減價;調低價格；劃出形狀、位置、範圍或路線；加價;調高價格",
+    "en": "mark somebody down as something; mark somebody/something down; mark something off; mark somebody/something out; mark something down; mark something out; mark something up",
+    "naturalZh": [
+      "把某人看作或認定為某類人",
+      "因錯誤或不足而扣分",
+      "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+      "使某人或某事物顯得與其他人或事物不同",
+      "減價;調低價格",
+      "劃出形狀、位置、範圍或路線",
+      "加價;調高價格"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "mark somebody down as something",
+      "titleZh": "把某人看作或認定為某類人",
+      "titleEn": "mark somebody down as something",
+      "descriptionZh": "把某人看作或認定為某類人",
+      "descriptionEn": "I marked Leo down as a careful worker.",
+      "examples": [
+        {
+          "en": "I marked Leo down as a careful worker.",
+          "zh": "我認定里奧是一名細心的工作人員。",
+          "highlight": "marked Leo down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mark somebody/something down",
+      "titleZh": "因錯誤或不足而扣分",
+      "titleEn": "mark somebody/something down",
+      "descriptionZh": "因錯誤或不足而扣分",
+      "descriptionEn": "She was marked down for poor spelling.",
+      "examples": [
+        {
+          "en": "She was marked down for poor spelling.",
+          "zh": "她因串字錯誤而被扣分。",
+          "highlight": "marked down"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mark something off",
+      "titleZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+      "titleEn": "mark something off",
+      "descriptionZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+      "descriptionEn": "They marked the wet area off with tape.",
+      "examples": [
+        {
+          "en": "They marked the wet area off with tape.",
+          "zh": "他們用膠帶把濕滑範圍分隔開來。",
+          "highlight": "marked the wet area off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mark somebody/something out",
+      "titleZh": "使某人或某事物顯得與其他人或事物不同",
+      "titleEn": "mark somebody/something out",
+      "descriptionZh": "使某人或某事物顯得與其他人或事物不同",
+      "descriptionEn": "Her clear voice marked her out from the others.",
+      "examples": [
+        {
+          "en": "Her clear voice marked her out from the others.",
+          "zh": "她清晰的聲線令她與其他人顯得不同。",
+          "highlight": "marked her out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "mark something down",
+      "titleZh": "減價;調低價格",
+      "titleEn": "mark something down",
+      "descriptionZh": "減價;調低價格",
+      "descriptionEn": "The shop marked the shoes down by 20%.",
+      "examples": [
+        {
+          "en": "The shop marked the shoes down by 20%.",
+          "zh": "店舖把這些鞋減價兩成。",
+          "highlight": "marked the shoes down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "mark something out",
+      "titleZh": "劃出形狀、位置、範圍或路線",
+      "titleEn": "mark something out",
+      "descriptionZh": "劃出形狀、位置、範圍或路線",
+      "descriptionEn": "We marked out a circle on the ground.",
+      "examples": [
+        {
+          "en": "We marked out a circle on the ground.",
+          "zh": "我們在地上劃出一個圓圈。",
+          "highlight": "marked out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "mark something up",
+      "titleZh": "加價;調高價格",
+      "titleEn": "mark something up",
+      "descriptionZh": "加價;調高價格",
+      "descriptionEn": "The seller marked the bike up by £30.",
+      "examples": [
+        {
+          "en": "The seller marked the bike up by £30.",
+          "zh": "賣家把這輛單車加價三十英鎊。",
+          "highlight": "marked the bike up"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "MARK 片語動詞的實際用途",
+    "labelEn": "MARK Phrasal Verbs in Use",
+    "summaryZh": "mark something down 和 mark something up 能讓你直接描述減價和加價。；mark somebody down 能幫助你說明學生為何被扣分。；mark something off 和 mark something out 適合用來談論安全範圍、運動場地、路線和物件位置。；mark somebody down as something 可以表達對某人的看法;mark somebody out 則可以說明某人為何顯得與眾不同。",
+    "summaryEn": "Mark something down and mark something up let you describe reductions and increases in prices directly. Mark somebody down helps you explain why a student received a lower score. Mark something off and mark something out are useful when discussing safety areas, sports grounds, routes and the positions of objects. Mark somebody down as something expresses an opinion about a person, while mark somebody out explains what makes that person different from others.",
+    "contextsZh": [
+      "清楚談論價格變化",
+      "談論分數和常見校園情境",
+      "清楚說明範圍和位置",
+      "表達看法和明顯差異"
+    ],
+    "contextsEn": [
+      "Talk clearly about prices",
+      "Talk about scores and common school situations",
+      "Give clear instructions about spaces and positions",
+      "Explain opinions and noticeable differences"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 MARK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the MARK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "mark somebody down as something",
+    "fixedHighlight": "mark somebody down as something",
+    "fixedZh": "閱讀整句,選出意思相同的 MARK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the MARK expression that gives the same meaning.",
+    "correct": "marked Leo down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。；部分表達的形式相近,但意思不同:mark somebody down 表示扣分;mark something down 表示減價;mark somebody out 表示令某人顯得與眾不同;mark something out 表示劃出形狀或位置。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it, us or them, place the word as shown: mark him down as a good player mark her down mark it off mark them out mark it down mark it up Some expressions look similar but have different meanings: mark somebody down = deduct marks mark something down = reduce its price mark somebody out = make the person seem different mark something out = draw or show its shape or position",
+    "variableItemsZh": [
+      "mark somebody down as something",
+      "mark somebody/something down",
+      "mark something off",
+      "mark somebody/something out",
+      "mark something down",
+      "mark something out",
+      "mark something up"
+    ],
+    "variableItemsEn": [
+      "mark somebody down as something",
+      "mark somebody/something down",
+      "mark something off",
+      "mark somebody/something out",
+      "mark something down",
+      "mark something out",
+      "mark something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人看作或認定為某類人",
+        "formEn": "mark somebody down as something",
+        "exampleZh": "我認定里奧是一名細心的工作人員。",
+        "exampleEn": "I marked Leo down as a careful worker.",
+        "highlight": "marked Leo down"
+      },
+      {
+        "formZh": "因錯誤或不足而扣分",
+        "formEn": "mark somebody/something down",
+        "exampleZh": "她因串字錯誤而被扣分。",
+        "exampleEn": "She was marked down for poor spelling.",
+        "highlight": "marked down"
+      },
+      {
+        "formZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+        "formEn": "mark something off",
+        "exampleZh": "他們用膠帶把濕滑範圍分隔開來。",
+        "exampleEn": "They marked the wet area off with tape.",
+        "highlight": "marked the wet area off"
+      },
+      {
+        "formZh": "使某人或某事物顯得與其他人或事物不同",
+        "formEn": "mark somebody/something out",
+        "exampleZh": "她清晰的聲線令她與其他人顯得不同。",
+        "exampleEn": "Her clear voice marked her out from the others.",
+        "highlight": "marked her out"
+      },
+      {
+        "formZh": "減價;調低價格",
+        "formEn": "mark something down",
+        "exampleZh": "店舖把這些鞋減價兩成。",
+        "exampleEn": "The shop marked the shoes down by 20%.",
+        "highlight": "marked the shoes down"
+      },
+      {
+        "formZh": "劃出形狀、位置、範圍或路線",
+        "formEn": "mark something out",
+        "exampleZh": "我們在地上劃出一個圓圈。",
+        "exampleEn": "We marked out a circle on the ground.",
+        "highlight": "marked out"
+      },
+      {
+        "formZh": "加價;調高價格",
+        "formEn": "mark something up",
+        "exampleZh": "賣家把這輛單車加價三十英鎊。",
+        "exampleEn": "The seller marked the bike up by £30.",
+        "highlight": "marked the bike up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人看作或認定為某類人",
+      "titleEn": "mark somebody down as something",
+      "formula": "mark somebody down as something",
+      "highlight": "mark somebody down as something",
+      "descriptionZh": "把某人看作或認定為某類人",
+      "descriptionEn": "I marked Leo down as a careful worker.",
+      "examples": [
+        {
+          "en": "I marked Leo down as a careful worker.",
+          "zh": "我認定里奧是一名細心的工作人員。",
+          "highlight": "marked Leo down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "因錯誤或不足而扣分",
+      "titleEn": "mark somebody/something down",
+      "formula": "mark somebody/something down",
+      "highlight": "mark somebody/something down",
+      "descriptionZh": "因錯誤或不足而扣分",
+      "descriptionEn": "She was marked down for poor spelling.",
+      "examples": [
+        {
+          "en": "She was marked down for poor spelling.",
+          "zh": "她因串字錯誤而被扣分。",
+          "highlight": "marked down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+      "titleEn": "mark something off",
+      "formula": "mark something off",
+      "highlight": "mark something off",
+      "descriptionZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍",
+      "descriptionEn": "They marked the wet area off with tape.",
+      "examples": [
+        {
+          "en": "They marked the wet area off with tape.",
+          "zh": "他們用膠帶把濕滑範圍分隔開來。",
+          "highlight": "marked the wet area off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "使某人或某事物顯得與其他人或事物不同",
+      "titleEn": "mark somebody/something out",
+      "formula": "mark somebody/something out",
+      "highlight": "mark somebody/something out",
+      "descriptionZh": "使某人或某事物顯得與其他人或事物不同",
+      "descriptionEn": "Her clear voice marked her out from the others.",
+      "examples": [
+        {
+          "en": "Her clear voice marked her out from the others.",
+          "zh": "她清晰的聲線令她與其他人顯得不同。",
+          "highlight": "marked her out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "減價;調低價格",
+      "titleEn": "mark something down",
+      "formula": "mark something down",
+      "highlight": "mark something down",
+      "descriptionZh": "減價;調低價格",
+      "descriptionEn": "The shop marked the shoes down by 20%.",
+      "examples": [
+        {
+          "en": "The shop marked the shoes down by 20%.",
+          "zh": "店舖把這些鞋減價兩成。",
+          "highlight": "marked the shoes down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "劃出形狀、位置、範圍或路線",
+      "titleEn": "mark something out",
+      "formula": "mark something out",
+      "highlight": "mark something out",
+      "descriptionZh": "劃出形狀、位置、範圍或路線",
+      "descriptionEn": "We marked out a circle on the ground.",
+      "examples": [
+        {
+          "en": "We marked out a circle on the ground.",
+          "zh": "我們在地上劃出一個圓圈。",
+          "highlight": "marked out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "加價;調高價格",
+      "titleEn": "mark something up",
+      "formula": "mark something up",
+      "highlight": "mark something up",
+      "descriptionZh": "加價;調高價格",
+      "descriptionEn": "The seller marked the bike up by £30.",
+      "examples": [
+        {
+          "en": "The seller marked the bike up by £30.",
+          "zh": "賣家把這輛單車加價三十英鎊。",
+          "highlight": "marked the bike up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論價格變化",
+      "titleEn": "Talk clearly about prices",
+      "zh": "mark something down 和 mark something up 能讓你直接描述減價和加價。",
+      "en": "Mark something down and mark something up let you describe reductions and increases in prices directly."
+    },
+    {
+      "titleZh": "談論分數和常見校園情境",
+      "titleEn": "Talk about scores and common school situations",
+      "zh": "mark somebody down 能幫助你說明學生為何被扣分。",
+      "en": "Mark somebody down helps you explain why a student received a lower score."
+    },
+    {
+      "titleZh": "清楚說明範圍和位置",
+      "titleEn": "Give clear instructions about spaces and positions",
+      "zh": "mark something off 和 mark something out 適合用來談論安全範圍、運動場地、路線和物件位置。",
+      "en": "Mark something off and mark something out are useful when discussing safety areas, sports grounds, routes and the positions of objects."
+    },
+    {
+      "titleZh": "表達看法和明顯差異",
+      "titleEn": "Explain opinions and noticeable differences",
+      "zh": "mark somebody down as something 可以表達對某人的看法;mark somebody out 則可以說明某人為何顯得與眾不同。",
+      "en": "Mark somebody down as something expresses an opinion about a person, while mark somebody out explains what makes that person different from others."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論價格變化",
+      "談論分數和常見校園情境",
+      "清楚說明範圍和位置",
+      "表達看法和明顯差異"
+    ],
+    "contextsEn": [
+      "Talk clearly about prices",
+      "Talk about scores and common school situations",
+      "Give clear instructions about spaces and positions",
+      "Explain opinions and noticeable differences"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論價格變化",
+        "titleEn": "Talk clearly about prices",
+        "zh": "mark something down 和 mark something up 能讓你直接描述減價和加價。",
+        "en": "Mark something down and mark something up let you describe reductions and increases in prices directly.",
+        "examples": [
+          {
+            "en": "I marked Leo down as a careful worker.",
+            "zh": "我認定里奧是一名細心的工作人員。",
+            "highlight": "marked Leo down"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論分數和常見校園情境",
+        "titleEn": "Talk about scores and common school situations",
+        "zh": "mark somebody down 能幫助你說明學生為何被扣分。",
+        "en": "Mark somebody down helps you explain why a student received a lower score.",
+        "examples": [
+          {
+            "en": "She was marked down for poor spelling.",
+            "zh": "她因串字錯誤而被扣分。",
+            "highlight": "marked down"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明範圍和位置",
+        "titleEn": "Give clear instructions about spaces and positions",
+        "zh": "mark something off 和 mark something out 適合用來談論安全範圍、運動場地、路線和物件位置。",
+        "en": "Mark something off and mark something out are useful when discussing safety areas, sports grounds, routes and the positions of objects.",
+        "examples": [
+          {
+            "en": "They marked the wet area off with tape.",
+            "zh": "他們用膠帶把濕滑範圍分隔開來。",
+            "highlight": "marked the wet area off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達看法和明顯差異",
+        "titleEn": "Explain opinions and noticeable differences",
+        "zh": "mark somebody down as something 可以表達對某人的看法;mark somebody out 則可以說明某人為何顯得與眾不同。",
+        "en": "Mark somebody down as something expresses an opinion about a person, while mark somebody out explains what makes that person different from others.",
+        "examples": [
+          {
+            "en": "Her clear voice marked her out from the others.",
+            "zh": "她清晰的聲線令她與其他人顯得不同。",
+            "highlight": "marked her out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 MARK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the MARK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 MARK 片語動詞。",
+      "en": "Read the whole sentence and choose the MARK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it, us or them, place the word as shown: mark him down as a good player mark her down mark it off mark them out mark it down mark it up.",
+      "zh": "使用 him、her、it、us 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it, us or them, place the word as shown: mark him down as a good player mark her down mark it off mark them out mark it down mark it up"
+    },
+    {
+      "titleZh": "部分表達的形式相近,但意思不同:mark somebody down 表示扣分;mark something down 表示減價;mark somebody out 表示令某人顯得與眾不同;mark something out 表示劃出形狀或位置。",
+      "titleEn": "Some expressions look similar but have different meanings: mark somebody down = deduct marks mark something down = reduce its price mark somebody out = make the person seem different mark something out = draw or show its shape or position.",
+      "zh": "部分表達的形式相近,但意思不同:mark somebody down 表示扣分;mark something down 表示減價;mark somebody out 表示令某人顯得與眾不同;mark something out 表示劃出形狀或位置。",
+      "en": "Some expressions look similar but have different meanings: mark somebody down = deduct marks mark something down = reduce its price mark somebody out = make the person seem different mark something out = draw or show its shape or position"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 MARK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to MARK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "MARK 動詞片語句子改寫練習",
+    "titleEn": "MARK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 MARK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to MARK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-87-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 4,
+      "prompt": "The coach considered Ben a promising player from the start.",
+      "promptZh": "教練從一開始便認為賓是一名有前途的球員。",
+      "starter": "The",
+      "answer": "The coach marked Ben down as a promising player from the start.",
+      "answerZh": "教練從一開始便認定賓是一名有前途的球員。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 4,
+      "prompt": "Workers separated the wet floor area with yellow tape.",
+      "promptZh": "工人用黃色膠帶把濕滑地面範圍分隔開來。",
+      "starter": "Workers",
+      "answer": "Workers marked the wet floor area off with yellow tape.",
+      "answerZh": "工人用黃色膠帶把濕滑地面範圍分隔開來。",
+      "highlight": "marked",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 4,
+      "prompt": "The shop reduced all winter coats by 20%.",
+      "promptZh": "店舖把所有冬季外套減價兩成。",
+      "starter": "The",
+      "answer": "The shop marked all winter coats down by 20%.",
+      "answerZh": "店舖把所有冬季外套減價兩成。",
+      "highlight": "marked",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 5,
+      "prompt": "Her calm voice made her different from the other speakers.",
+      "promptZh": "她沉着的聲線令她與其他講者顯得不同。",
+      "starter": "Her",
+      "answer": "Her calm voice marked her out from the other speakers.",
+      "answerZh": "她沉着的聲線令她與其他講者顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 5,
+      "prompt": "The café increased the price of coffee by one dollar.",
+      "promptZh": "咖啡店把咖啡價格提高了一元。",
+      "starter": "The",
+      "answer": "The café marked the price of coffee up by one dollar.",
+      "answerZh": "咖啡店把咖啡價格提高了一元。",
+      "highlight": "marked",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 5,
+      "prompt": "The teacher reduced Leo’s score because of poor spelling.",
+      "promptZh": "老師因里奧串字錯誤而扣了他的分。",
+      "starter": "The",
+      "answer": "The teacher marked Leo down because of poor spelling.",
+      "answerZh": "老師因里奧串字錯誤而扣了他的分。",
+      "highlight": "marked Leo down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 5,
+      "prompt": "She drew a circle on the ground for the game.",
+      "promptZh": "她在地上劃出一個圓圈供遊戲使用。",
+      "starter": "She",
+      "answer": "She marked out a circle on the ground for the game.",
+      "answerZh": "她在地上劃出一個圓圈供遊戲使用。",
+      "highlight": "marked out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 5,
+      "prompt": "The staff separated the queueing area with red rope.",
+      "promptZh": "職員用紅繩把排隊範圍分隔開來。",
+      "starter": "The",
+      "answer": "The staff marked the queueing area off with red rope.",
+      "answerZh": "職員用紅繩把排隊範圍分隔開來。",
+      "highlight": "marked",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "I considered Ava the most careful student in the group.",
+      "promptZh": "我認為艾娃是小組中最細心的學生。",
+      "starter": "I",
+      "answer": "I marked Ava down as the most careful student in the group.",
+      "answerZh": "我認定艾娃是小組中最細心的學生。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "The store increased the price of the bag by 10%.",
+      "promptZh": "店舖把手袋加價一成。",
+      "starter": "The",
+      "answer": "The store marked the bag up by 10%.",
+      "answerZh": "店舖把手袋加價一成。",
+      "highlight": "marked",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "His bright red shoes made him different from the other runners.",
+      "promptZh": "他鮮紅色的鞋令他與其他跑手顯得不同。",
+      "starter": "His",
+      "answer": "His bright red shoes marked him out from the other runners.",
+      "answerZh": "他鮮紅色的鞋令他與其他跑手顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "They reduced the price of the old laptops by £50.",
+      "promptZh": "他們把舊款手提電腦減價五十英鎊。",
+      "starter": "They",
+      "answer": "They marked the old laptops down by £50.",
+      "answerZh": "他們把舊款手提電腦減價五十英鎊。",
+      "highlight": "marked",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "The examiner reduced Nina’s score for missing two answers.",
+      "promptZh": "評卷員因妮娜漏答兩題而扣了她的分。",
+      "starter": "The",
+      "answer": "The examiner marked Nina down for missing two answers.",
+      "answerZh": "評卷員因妮娜漏答兩題而扣了她的分。",
+      "highlight": "marked Nina down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 6,
+      "prompt": "We drew a square on the floor to show where the table should go.",
+      "promptZh": "我們在地上劃出一個正方形,顯示桌子應放的位置。",
+      "starter": "We",
+      "answer": "We marked out a square on the floor to show where the table should go.",
+      "answerZh": "我們在地上劃出一個正方形,顯示桌子應放的位置。",
+      "highlight": "marked out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 7,
+      "prompt": "The children are drawing the path for the race with chalk.",
+      "promptZh": "孩子們正用粉筆劃出比賽路線。",
+      "starter": "The",
+      "answer": "The children are marking out the path for the race with chalk.",
+      "answerZh": "孩子們正用粉筆劃出比賽路線。",
+      "highlight": "marking out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 7,
+      "prompt": "She was given a lower score because her handwriting was hard to read.",
+      "promptZh": "她因字跡難以辨認而被扣分。",
+      "starter": "She",
+      "answer": "She was marked down because her handwriting was hard to read.",
+      "answerZh": "她因字跡難以辨認而被扣分。",
+      "highlight": "marked down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 7,
+      "prompt": "Why has the shop increased the price of these umbrellas by 15%?",
+      "promptZh": "為甚麼店舖把這些雨傘加價百分之十五?",
+      "starter": "Why",
+      "answer": "Why has the shop marked these umbrellas up by 15%?",
+      "answerZh": "為甚麼店舖把這些雨傘加價百分之十五?",
+      "highlight": "marked",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 7,
+      "prompt": "We had considered him a quiet child before he joined the drama club.",
+      "promptZh": "在他參加戲劇社之前,我們一直認為他是個安靜的孩子。",
+      "starter": "We",
+      "answer": "We had marked him down as a quiet child before he joined the drama club.",
+      "answerZh": "在他參加戲劇社之前,我們一直認定他是個安靜的孩子。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 7,
+      "prompt": "Please separate the area around the broken step with tape.",
+      "promptZh": "請用膠帶把損壞梯級附近的範圍分隔開來。",
+      "starter": "Please",
+      "answer": "Please mark the area around the broken step off with tape.",
+      "answerZh": "請用膠帶把損壞梯級附近的範圍分隔開來。",
+      "highlight": "mark",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "These shoes have been reduced from £60 to £40.",
+      "promptZh": "這些鞋已由六十英鎊減價至四十英鎊。",
+      "starter": "These",
+      "answer": "These shoes have been marked down from £60 to £40.",
+      "answerZh": "這些鞋已由六十英鎊減價至四十英鎊。",
+      "highlight": "marked down",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "Her drawings have always made her different from the other pupils.",
+      "promptZh": "她的畫作一直令她與其他學生顯得不同。",
+      "starter": "Her",
+      "answer": "Her drawings have always marked her out from the other pupils.",
+      "answerZh": "她的畫作一直令她與其他學生顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "Will the teacher reduce our scores for one small spelling mistake?",
+      "promptZh": "老師會否因一個小小的串字錯誤而扣我們的分?",
+      "starter": "Will",
+      "answer": "Will the teacher mark us down for one small spelling mistake?",
+      "answerZh": "老師會否因一個小小的串字錯誤而扣我們的分?",
+      "highlight": "mark us down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "Could you draw the position of the new shelf on the wall?",
+      "promptZh": "你可以在牆上標示新層架的位置嗎?",
+      "starter": "Could",
+      "answer": "Could you mark out the position of the new shelf on the wall?",
+      "answerZh": "你可以在牆上標示新層架的位置嗎?",
+      "highlight": "mark out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "The police have separated the unsafe area with cones.",
+      "promptZh": "警方已用雪糕筒把不安全範圍分隔開來。",
+      "starter": "The",
+      "answer": "The police have marked the unsafe area off with cones.",
+      "answerZh": "警方已用雪糕筒把不安全範圍分隔開來。",
+      "highlight": "marked",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 8,
+      "prompt": "Have you already decided that Rosa could become a team leader?",
+      "promptZh": "你是否已認定羅莎可以成為小組領袖?",
+      "starter": "Have",
+      "answer": "Have you already marked Rosa down as a possible team leader?",
+      "answerZh": "你是否已認定羅莎可能成為小組領袖?",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 9,
+      "prompt": "What made this small café different from all the others?",
+      "promptZh": "是甚麼令這間小咖啡店與其他店舖顯得不同?",
+      "starter": "What",
+      "answer": "What marked this small café out from all the others?",
+      "answerZh": "是甚麼令這間小咖啡店與其他店舖顯得不同?",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 9,
+      "prompt": "The seller may increase the price of the bike before summer.",
+      "promptZh": "賣家可能會在夏天前把單車加價。",
+      "starter": "The",
+      "answer": "The seller may mark the bike up before summer.",
+      "answerZh": "賣家可能會在夏天前把單車加價。",
+      "highlight": "mark",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 9,
+      "prompt": "At the end of each day, the supermarket reduces the price of fresh bread.",
+      "promptZh": "每天傍晚,超級市場都會把新鮮麵包減價。",
+      "starter": "At",
+      "answer": "At the end of each day, the supermarket marks fresh bread down.",
+      "answerZh": "每天傍晚,超級市場都會把新鮮麵包減價。",
+      "highlight": "marks",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 9,
+      "prompt": "The badge was small, but it made the school team different from the others.",
+      "promptZh": "那個徽章很小,卻令校隊與其他隊伍顯得不同。",
+      "starter": "The",
+      "answer": "The badge was small, but it marked the school team out from the others.",
+      "answerZh": "那個徽章很小,卻令校隊與其他隊伍顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 9,
+      "prompt": "The jacket was too expensive, so the manager reduced it by 25%.",
+      "promptZh": "那件外套太昂貴,所以經理把它減價百分之二十五。",
+      "starter": "The",
+      "answer": "The jacket was too expensive, so the manager marked it down by 25%.",
+      "answerZh": "那件外套太昂貴,所以經理把它減價百分之二十五。",
+      "highlight": "marked",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "There was broken glass near the gate, so the caretaker separated the area with cones.",
+      "promptZh": "大閘附近有碎玻璃,所以管理員用雪糕筒把該範圍分隔開來。",
+      "starter": "There",
+      "answer": "There was broken glass near the gate, so the caretaker marked the area off with cones.",
+      "answerZh": "大閘附近有碎玻璃,所以管理員用雪糕筒把該範圍分隔開來。",
+      "highlight": "marked",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "Everyone thought Kai would become a strong swimmer. They considered him a swimmer with a bright future.",
+      "promptZh": "大家都認為啟會成為出色的泳手。他們認定他是一名很有前途的泳手。",
+      "starter": "Everyone",
+      "answer": "Everyone thought Kai would become a strong swimmer. They marked him down as a swimmer with a bright future.",
+      "answerZh": "大家都認為啟會成為出色的泳手。他們認定他是一名很有前途的泳手。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "We need a place for the new cupboard. Please draw it on the floor.",
+      "promptZh": "我們需要為新櫃子找一個位置。請在地上把位置劃出來。",
+      "starter": "We",
+      "answer": "We need a place for the new cupboard. Please mark it out on the floor.",
+      "answerZh": "我們需要為新櫃子找一個位置。請在地上把位置劃出來。",
+      "highlight": "mark",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "The tickets were cheap last week, but the organiser has now increased them by £5.",
+      "promptZh": "門票上星期很便宜,但主辦單位現已把它們加價五英鎊。",
+      "starter": "The",
+      "answer": "The tickets were cheap last week, but the organiser has now marked them up by £5.",
+      "answerZh": "門票上星期很便宜,但主辦單位現已把它們加價五英鎊。",
+      "highlight": "marked",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "The answer was mostly correct, but the teacher reduced its score because one part was missing.",
+      "promptZh": "答案大致正確,但老師因為缺少了一部分而扣分。",
+      "starter": "The",
+      "answer": "The answer was mostly correct, but the teacher marked it down because one part was missing.",
+      "answerZh": "答案大致正確,但老師因為缺少了一部分而扣分。",
+      "highlight": "marked it down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 10,
+      "prompt": "At £20, the toys did not sell, so the shop reduced them to £12.",
+      "promptZh": "這些玩具以二十英鎊出售時賣不出去,所以店舖把它們減價至十二英鎊。",
+      "starter": "At",
+      "answer": "At £20, the toys did not sell, so the shop marked them down to £12.",
+      "answerZh": "這些玩具以二十英鎊出售時賣不出去,所以店舖把它們減價至十二英鎊。",
+      "highlight": "marked",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "The twins looked alike, but one wore a blue hat that made her different from her sister.",
+      "promptZh": "這對雙胞胎樣子相似,但其中一人戴着藍帽,令她與姊妹顯得不同。",
+      "starter": "The",
+      "answer": "The twins looked alike, but one wore a blue hat that marked her out from her sister.",
+      "answerZh": "這對雙胞胎樣子相似,但其中一人戴着藍帽,令她與姊妹顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "Before the sports day, the teachers used white paint to draw the running lanes.",
+      "promptZh": "運動日前,老師用白漆劃出跑道。",
+      "starter": "Before",
+      "answer": "Before the sports day, the teachers used white paint to mark out the running lanes.",
+      "answerZh": "運動日前,老師用白漆劃出跑道。",
+      "highlight": "mark out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "A delivery is arriving soon, so we should separate this space with cones.",
+      "promptZh": "送貨車很快便會到達,所以我們應用雪糕筒把這個位置分隔開來。",
+      "starter": "A",
+      "answer": "A delivery is arriving soon, so we should mark this space off with cones.",
+      "answerZh": "送貨車很快便會到達,所以我們應用雪糕筒把這個位置分隔開來。",
+      "highlight": "mark",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "I made three small mistakes, but the examiner did not reduce my score for them.",
+      "promptZh": "我犯了三個小錯誤,但評卷員沒有因此扣我的分。",
+      "starter": "I",
+      "answer": "I made three small mistakes, but the examiner did not mark me down for them.",
+      "answerZh": "我犯了三個小錯誤,但評卷員沒有因此扣我的分。",
+      "highlight": "mark me down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "At first, Sara seemed very organised, so I considered her a good organiser.",
+      "promptZh": "莎拉起初看來很有條理,所以我認為她很善於籌辦事情。",
+      "starter": "At",
+      "answer": "At first, Sara seemed very organised, so I marked her down as a good organiser.",
+      "answerZh": "莎拉起初看來很有條理,所以我認定她很善於籌辦事情。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 11,
+      "prompt": "If the shop increases the price of this lamp again, few people will buy it.",
+      "promptZh": "如果店舖再次把這盞燈加價,便很少人會購買。",
+      "starter": "If",
+      "answer": "If the shop marks this lamp up again, few people will buy it.",
+      "answerZh": "如果店舖再次把這盞燈加價,便很少人會購買。",
+      "highlight": "marks",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 12,
+      "prompt": "The shirt cost £25 yesterday. Why did the shop raise it to £35 today?",
+      "promptZh": "這件恤衫昨天售二十五英鎊。店舖今天為何把它加價至三十五英鎊?",
+      "starter": "The",
+      "answer": "The shirt cost £25 yesterday. Why did the shop mark it up to £35 today?",
+      "answerZh": "這件恤衫昨天售二十五英鎊。店舖今天為何把它加價至三十五英鎊?",
+      "highlight": "mark",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 12,
+      "prompt": "The school does not want pupils near the wet paint, so it has separated the space with rope.",
+      "promptZh": "學校不想學生走近未乾的油漆,所以用繩把該範圍分隔開來。",
+      "starter": "The",
+      "answer": "The school does not want pupils near the wet paint, so it has marked the space off with rope.",
+      "answerZh": "學校不想學生走近未乾的油漆,所以用繩把該範圍分隔開來。",
+      "highlight": "marked",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 12,
+      "prompt": "After one strong practice, the coach began to think of Hana as a possible team captain.",
+      "promptZh": "經過一次出色的練習後,教練開始認為花奈可能成為隊長。",
+      "starter": "After",
+      "answer": "After one strong practice, the coach began to mark Hana down as a possible team captain.",
+      "answerZh": "經過一次出色的練習後,教練開始認為花奈可能成為隊長。",
+      "highlight": "mark",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 12,
+      "prompt": "The builders used blue chalk to show the exact position of the wall.",
+      "promptZh": "建築工人用藍色粉筆標示牆壁的確實位置。",
+      "starter": "The",
+      "answer": "The builders used blue chalk to mark out the exact position of the wall.",
+      "answerZh": "建築工人用藍色粉筆標示牆壁的確實位置。",
+      "highlight": "mark out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 12,
+      "prompt": "The teacher did not fail Omar, but she reduced his score for using the wrong date.",
+      "promptZh": "老師沒有令奧馬不合格,但因他使用了錯誤日期而扣了他的分。",
+      "starter": "The",
+      "answer": "The teacher did not fail Omar, but she marked him down for using the wrong date.",
+      "answerZh": "老師沒有令奧馬不合格,但因他使用了錯誤日期而扣了他的分。",
+      "highlight": "marked him down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 13,
+      "prompt": "Although the song was simple, its unusual ending made it different from the other songs.",
+      "promptZh": "這首歌很簡單,但不尋常的結尾令它與其他歌曲顯得不同。",
+      "starter": "Although",
+      "answer": "Although the song was simple, its unusual ending marked it out from the other songs.",
+      "answerZh": "這首歌很簡單,但不尋常的結尾令它與其他歌曲顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 13,
+      "prompt": "To clear the old books, the bookshop will lower all of them by 30%.",
+      "promptZh": "書店為了清走舊書,會把所有舊書減價三成。",
+      "starter": "To",
+      "answer": "To clear the old books, the bookshop will mark them all down by 30%.",
+      "answerZh": "書店為了清走舊書,會把所有舊書減價三成。",
+      "highlight": "mark them",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 13,
+      "prompt": "Although the garden is open, the workers have used signs to keep people out of one small section.",
+      "promptZh": "花園仍然開放,但工人用告示把其中一小部分分隔開,不讓人進入。",
+      "starter": "Although",
+      "answer": "Although the garden is open, the workers have marked one small section off with signs to keep people out.",
+      "answerZh": "花園仍然開放,但工人用告示把其中一小部分分隔開,不讓人進入。",
+      "highlight": "marked one small section off with",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 13,
+      "prompt": "This phone was already expensive, and the seller has raised its price once more.",
+      "promptZh": "這部電話本來已很昂貴,賣家現在又再加價。",
+      "starter": "This",
+      "answer": "This phone was already expensive, and the seller has marked it up once more.",
+      "answerZh": "這部電話本來已很昂貴,賣家現在又再加價。",
+      "highlight": "marked it up",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 13,
+      "prompt": "Would you reduce a student’s score for using American spelling?",
+      "promptZh": "你會否因學生使用美式串法而扣分?",
+      "starter": "Would",
+      "answer": "Would you mark a student down for using American spelling?",
+      "answerZh": "你會否因學生使用美式串法而扣分?",
+      "highlight": "mark",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "The children did not draw the whole football pitch; they only showed the goal area.",
+      "promptZh": "孩子們沒有劃出整個足球場,只劃出了龍門區。",
+      "starter": "The",
+      "answer": "The children did not mark out the whole football pitch; they only marked out the goal area.",
+      "answerZh": "孩子們沒有劃出整個足球場,只劃出了龍門區。",
+      "highlight": "mark out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "We had not thought of Ella as a fast runner until she won the race.",
+      "promptZh": "在埃拉勝出比賽前,我們從未認為她是一名速度快的跑手。",
+      "starter": "We",
+      "answer": "We had not marked Ella down as a fast runner until she won the race.",
+      "answerZh": "在埃拉勝出比賽前,我們從未認定她是一名速度快的跑手。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "The fruit is still fresh, but the shop has lowered its price because it must be sold today.",
+      "promptZh": "水果仍然新鮮,但店舖因為必須在今天售出而把它減價。",
+      "starter": "The",
+      "answer": "The fruit is still fresh, but the shop has marked it down because it must be sold today.",
+      "answerZh": "水果仍然新鮮,但店舖因為必須在今天售出而把它減價。",
+      "highlight": "marked it down",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "What made the new pupil different was how kindly he helped everyone.",
+      "promptZh": "令這名新生顯得與眾不同的,是他友善地幫助每一個人。",
+      "starter": "What",
+      "answer": "What marked the new pupil out from the others was how kindly he helped everyone.",
+      "answerZh": "令這名新生顯得與眾不同的,是他友善地幫助每一個人。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "Although the report contained good ideas, the teacher lowered Nina’s score because she had not checked her spelling.",
+      "promptZh": "雖然報告包含不少好構思,但妮娜沒有檢查串字,所以老師扣了她的分。",
+      "starter": "Although",
+      "answer": "Although the report contained good ideas, the teacher marked Nina down because she had not checked her spelling.",
+      "answerZh": "雖然報告包含不少好構思,但妮娜沒有檢查串字,所以老師扣了她的分。",
+      "highlight": "marked Nina down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 14,
+      "prompt": "Before anyone moved the furniture, Leo used tape to show the position of each table.",
+      "promptZh": "在任何人搬動傢俬前,里奧先用膠帶標示每張桌子應放的位置。",
+      "starter": "Before",
+      "answer": "Before anyone moved the furniture, Leo used tape to mark out the position of each table.",
+      "answerZh": "在任何人搬動傢俬前,里奧先用膠帶標示每張桌子應放的位置。",
+      "highlight": "mark out",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 15,
+      "prompt": "The two designs used the same colours, but one clear message made the second design different from the first.",
+      "promptZh": "兩個設計使用相同顏色,但一個清晰的訊息令第二個設計與第一個顯得不同。",
+      "starter": "The",
+      "answer": "The two designs used the same colours, but one clear message marked the second design out from the first.",
+      "answerZh": "兩個設計使用相同顏色,但一個清晰的訊息令第二個設計與第一個顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 15,
+      "prompt": "The concert is nearly full, so the organiser may raise the price of the remaining tickets before Friday.",
+      "promptZh": "演唱會接近滿座,所以主辦單位可能在星期五前提高餘下門票的價格。",
+      "starter": "The",
+      "answer": "The concert is nearly full, so the organiser may mark the remaining tickets up before Friday.",
+      "answerZh": "演唱會接近滿座,所以主辦單位可能在星期五前提高餘下門票的價格。",
+      "highlight": "mark",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 15,
+      "prompt": "When water began to fall from the ceiling, staff quickly used chairs and tape to separate the area below.",
+      "promptZh": "天花板開始滴水時,職員迅速用椅子和膠帶把下面的範圍分隔開來。",
+      "starter": "When",
+      "answer": "When water began to fall from the ceiling, staff quickly marked the area below off with chairs and tape.",
+      "answerZh": "天花板開始滴水時,職員迅速用椅子和膠帶把下面的範圍分隔開來。",
+      "highlight": "marked the area below off with",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 15,
+      "prompt": "Even before the interview ended, the manager had decided that Yusuf was the best person for the job.",
+      "promptZh": "面試尚未結束,經理已認定優素福是這份工作的最佳人選。",
+      "starter": "Even",
+      "answer": "Even before the interview ended, the manager had marked Yusuf down as the best person for the job.",
+      "answerZh": "面試尚未結束,經理已認定優素福是這份工作的最佳人選。",
+      "highlight": "marked",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    },
+    {
+      "id": "phrasal-verb-87-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 15,
+      "prompt": "These cakes will not be fresh tomorrow, so the café should lower their price before closing.",
+      "promptZh": "這些蛋糕明天便不再新鮮,所以咖啡店應在關門前把它們減價。",
+      "starter": "These",
+      "answer": "These cakes will not be fresh tomorrow, so the café should mark them down before closing.",
+      "answerZh": "這些蛋糕明天便不再新鮮,所以咖啡店應在關門前把它們減價。",
+      "highlight": "mark them down",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "The route was not easy to see, so volunteers placed small flags to show it clearly.",
+      "promptZh": "路線不容易看清,所以義工放置小旗幟,把路線清楚標示出來。",
+      "starter": "The",
+      "answer": "The route was not easy to see, so volunteers placed small flags to mark it out clearly.",
+      "answerZh": "路線不容易看清,所以義工放置小旗幟,把路線清楚標示出來。",
+      "highlight": "mark",
+      "targetForm": "mark something out",
+      "targetMeaningZh": "劃出形狀、位置、範圍或路線"
+    },
+    {
+      "id": "phrasal-verb-87-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "Why was Jay’s work given a lower score even though all his ideas were correct?",
+      "promptZh": "雖然阿積所有構思都正確,為甚麼他的作品仍被扣分?",
+      "starter": "Why",
+      "answer": "Why was Jay’s work marked down even though all his ideas were correct?",
+      "answerZh": "雖然阿積所有構思都正確,為甚麼他的作品仍被扣分?",
+      "highlight": "marked down",
+      "targetForm": "mark somebody/something down",
+      "targetMeaningZh": "因錯誤或不足而扣分"
+    },
+    {
+      "id": "phrasal-verb-87-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "The road was still open, but cones separated the part where the workers were repairing it.",
+      "promptZh": "道路仍然開放,但雪糕筒把工人維修的部分分隔開來。",
+      "starter": "The",
+      "answer": "The road was still open, but cones marked off the part where the workers were repairing it.",
+      "answerZh": "道路仍然開放,但雪糕筒把工人維修的部分分隔開來。",
+      "highlight": "marked off",
+      "targetForm": "mark something off",
+      "targetMeaningZh": "用線、膠帶、繩或其他物件劃出並分隔一個範圍"
+    },
+    {
+      "id": "phrasal-verb-87-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "Many pupils sang well, but Ava’s clear words and strong voice made her different from the others.",
+      "promptZh": "很多學生都唱得很好,但艾娃清晰的咬字和有力的聲線令她與其他人顯得不同。",
+      "starter": "Many",
+      "answer": "Many pupils sang well, but Ava’s clear words and strong voice marked her out from the others.",
+      "answerZh": "很多學生都唱得很好,但艾娃清晰的咬字和有力的聲線令她與其他人顯得不同。",
+      "highlight": "marked",
+      "targetForm": "mark somebody/something out",
+      "targetMeaningZh": "使某人或某事物顯得與其他人或事物不同"
+    },
+    {
+      "id": "phrasal-verb-87-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "The coat had been in the window for months before the shop finally reduced it to half price.",
+      "promptZh": "這件外套在櫥窗內放了幾個月,店舖最後才把它減至半價。",
+      "starter": "The",
+      "answer": "The coat had been in the window for months before the shop finally marked it down to half price.",
+      "answerZh": "這件外套在櫥窗內放了幾個月,店舖最後才把它減至半價。",
+      "highlight": "marked",
+      "targetForm": "mark something down",
+      "targetMeaningZh": "減價;調低價格"
+    },
+    {
+      "id": "phrasal-verb-87-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 16,
+      "prompt": "If the shop raises the price of this used bike any further, it will cost almost as much as a new one.",
+      "promptZh": "如果店舖再把這輛二手單車加價,它的價格便會差不多和新車一樣。",
+      "starter": "If",
+      "answer": "If the shop marks this used bike up any further, it will cost almost as much as a new one.",
+      "answerZh": "如果店舖再把這輛二手單車加價,它的價格便會差不多和新車一樣。",
+      "highlight": "marks",
+      "targetForm": "mark something up",
+      "targetMeaningZh": "加價;調高價格"
+    },
+    {
+      "id": "phrasal-verb-87-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 17,
+      "answerSourcePage": 17,
+      "prompt": "I was wrong to think of Daniel as unfriendly; he was simply nervous in new situations.",
+      "promptZh": "我錯把丹尼爾看作不友善的人;他只是在新環境中感到緊張。",
+      "starter": "I",
+      "answer": "I was wrong to mark Daniel down as unfriendly; he was simply nervous in new situations.",
+      "answerZh": "我錯把丹尼爾看作不友善的人;他只是在新環境中感到緊張。",
+      "highlight": "mark",
+      "targetForm": "mark somebody down as something",
+      "targetMeaningZh": "把某人看作或認定為某類人"
+    }
+  ]
+}

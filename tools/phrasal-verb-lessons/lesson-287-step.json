@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-287",
+  "order": 287,
+  "slug": "step",
+  "version": "1",
+  "title": "STEP 動詞片語",
+  "titleEn": "Step",
+  "titleZh": "STEP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 272 - STEP.pdf",
+    "sourceNumber": 272,
+    "pageCount": 26,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 STEP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to STEP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "STEP",
+      "highlight": "STEP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "After ten years as chair, he stepped down.",
+      "zh": "擔任主席十年後,他辭去了職務。",
+      "highlight": "stepped down",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Try to step back from the problem and look at it again.",
+      "zh": "嘗試從問題中抽離,再重新思考。",
+      "highlight": "step back from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "A local business stepped forward to help.",
+      "zh": "一間本地商戶主動提出協助。",
+      "highlight": "stepped forward",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "辭去職務;讓出領導位置,讓其他人接任；暫停一下並抽離,以較客觀的角度重新思考；主動提出協助、提供資料或承擔工作；在有需要時介入、幫忙或暫時接手；快點;加快速度；短暫離開某個地方",
+    "en": "step aside / step down (as/from something); step back (from something); step forward; step in; step on it; step out",
+    "naturalZh": [
+      "辭去職務;讓出領導位置,讓其他人接任",
+      "暫停一下並抽離,以較客觀的角度重新思考",
+      "主動提出協助、提供資料或承擔工作",
+      "在有需要時介入、幫忙或暫時接手",
+      "快點;加快速度",
+      "短暫離開某個地方"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "step aside / step down (as/from something)",
+      "titleZh": "辭去職務;讓出領導位置,讓其他人接任",
+      "titleEn": "step aside / step down (as/from something)",
+      "descriptionZh": "辭去職務;讓出領導位置,讓其他人接任",
+      "descriptionEn": "After ten years as chair, he stepped down.",
+      "examples": [
+        {
+          "en": "After ten years as chair, he stepped down.",
+          "zh": "擔任主席十年後,他辭去了職務。",
+          "highlight": "stepped down"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "step back (from something)",
+      "titleZh": "暫停一下並抽離,以較客觀的角度重新思考",
+      "titleEn": "step back (from something)",
+      "descriptionZh": "暫停一下並抽離,以較客觀的角度重新思考",
+      "descriptionEn": "Try to step back from the problem and look at it again.",
+      "examples": [
+        {
+          "en": "Try to step back from the problem and look at it again.",
+          "zh": "嘗試從問題中抽離,再重新思考。",
+          "highlight": "step back from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "step forward",
+      "titleZh": "主動提出協助、提供資料或承擔工作",
+      "titleEn": "step forward",
+      "descriptionZh": "主動提出協助、提供資料或承擔工作",
+      "descriptionEn": "A local business stepped forward to help.",
+      "examples": [
+        {
+          "en": "A local business stepped forward to help.",
+          "zh": "一間本地商戶主動提出協助。",
+          "highlight": "stepped forward"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "step in",
+      "titleZh": "在有需要時介入、幫忙或暫時接手",
+      "titleEn": "step in",
+      "descriptionZh": "在有需要時介入、幫忙或暫時接手",
+      "descriptionEn": "My aunt stepped in when Mum was ill.",
+      "examples": [
+        {
+          "en": "My aunt stepped in when Mum was ill.",
+          "zh": "媽媽生病時,姨姨接手協助。",
+          "highlight": "stepped in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "step on it",
+      "titleZh": "快點;加快速度",
+      "titleEn": "step on it",
+      "descriptionZh": "快點;加快速度",
+      "descriptionEn": "We need to step on it or we will be late.",
+      "examples": [
+        {
+          "en": "We need to step on it or we will be late.",
+          "zh": "我們要快一點,否則便會遲到。",
+          "highlight": "step on"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "step out",
+      "titleZh": "短暫離開某個地方",
+      "titleEn": "step out",
+      "descriptionZh": "短暫離開某個地方",
+      "descriptionEn": "He has just stepped out for ten minutes.",
+      "examples": [
+        {
+          "en": "He has just stepped out for ten minutes.",
+          "zh": "他剛剛暫時離開十分鐘。",
+          "highlight": "stepped out"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "STEP 片語動詞的實際用途",
+    "labelEn": "STEP Phrasal Verbs in Use",
+    "summaryZh": "step aside 和 step down 可以描述領袖、經理或隊長離開職位。；step back 可以表示某人先停下來,以較冷靜或全面的角度看待問題。；step forward 表示自願提供協助;step in 則表示在有需要時介入或接手。；step on it 可以叫人快一點;step out 則表示某人只是短暫離開。",
+    "summaryEn": "Step aside and step down allow you to describe a leader, manager or team captain leaving a role. Step back can show that someone pauses and looks at a problem from a calmer or wider point of view. Step forward describes volunteering, while step in describes helping or taking control when someone is needed. Step on it tells someone to hurry, while step out explains that someone has left only briefly.",
+    "contextsZh": [
+      "有禮貌地談論離任或讓位",
+      "描述暫停並重新思考",
+      "談論主動協助和及時介入",
+      "自然地表達趕時間和短暫離開"
+    ],
+    "contextsEn": [
+      "Talk politely about leaving an important position",
+      "Describe taking time to think more clearly",
+      "Talk about offering help at the right time",
+      "Express urgency and short absences naturally"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 STEP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the STEP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "step aside / step down (as/from something)",
+    "fixedHighlight": "step aside / step down (as/from something)",
+    "fixedZh": "閱讀整句,選出意思相同的 STEP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the STEP expression that gives the same meaning.",
+    "correct": "stepped down",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；step aside 和 step down 都可以表示離開重要職位。後面的字詞只用來補充資料。；主要表達後面的字詞只用來補充資料,並非每次都必須出現。step on it 則是表示「快點」的完整表達。",
+    "variableEn": "Keep the same people, things, time and meaning. Step aside and step down can both describe leaving an important position. Extra words may give more information: step down step down as captain step down from the role step aside and let someone else lead The words after the main expression are not always part of the fixed expression: step forward to help step in for somebody step out for ten minutes Step on it is the complete expression meaning “hurry”.",
+    "variableItemsZh": [
+      "step aside / step down (as/from something)",
+      "step back (from something)",
+      "step forward",
+      "step in",
+      "step on it",
+      "step out"
+    ],
+    "variableItemsEn": [
+      "step aside / step down (as/from something)",
+      "step back (from something)",
+      "step forward",
+      "step in",
+      "step on it",
+      "step out"
+    ],
+    "forms": [
+      {
+        "formZh": "辭去職務;讓出領導位置,讓其他人接任",
+        "formEn": "step aside / step down (as/from something)",
+        "exampleZh": "擔任主席十年後,他辭去了職務。",
+        "exampleEn": "After ten years as chair, he stepped down.",
+        "highlight": "stepped down"
+      },
+      {
+        "formZh": "暫停一下並抽離,以較客觀的角度重新思考",
+        "formEn": "step back (from something)",
+        "exampleZh": "嘗試從問題中抽離,再重新思考。",
+        "exampleEn": "Try to step back from the problem and look at it again.",
+        "highlight": "step back from"
+      },
+      {
+        "formZh": "主動提出協助、提供資料或承擔工作",
+        "formEn": "step forward",
+        "exampleZh": "一間本地商戶主動提出協助。",
+        "exampleEn": "A local business stepped forward to help.",
+        "highlight": "stepped forward"
+      },
+      {
+        "formZh": "在有需要時介入、幫忙或暫時接手",
+        "formEn": "step in",
+        "exampleZh": "媽媽生病時,姨姨接手協助。",
+        "exampleEn": "My aunt stepped in when Mum was ill.",
+        "highlight": "stepped in"
+      },
+      {
+        "formZh": "快點;加快速度",
+        "formEn": "step on it",
+        "exampleZh": "我們要快一點,否則便會遲到。",
+        "exampleEn": "We need to step on it or we will be late.",
+        "highlight": "step on"
+      },
+      {
+        "formZh": "短暫離開某個地方",
+        "formEn": "step out",
+        "exampleZh": "他剛剛暫時離開十分鐘。",
+        "exampleEn": "He has just stepped out for ten minutes.",
+        "highlight": "stepped out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "辭去職務;讓出領導位置,讓其他人接任",
+      "titleEn": "step aside / step down (as/from something)",
+      "formula": "step aside / step down (as/from something)",
+      "highlight": "step aside / step down (as/from something)",
+      "descriptionZh": "辭去職務;讓出領導位置,讓其他人接任",
+      "descriptionEn": "After ten years as chair, he stepped down.",
+      "examples": [
+        {
+          "en": "After ten years as chair, he stepped down.",
+          "zh": "擔任主席十年後,他辭去了職務。",
+          "highlight": "stepped down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "暫停一下並抽離,以較客觀的角度重新思考",
+      "titleEn": "step back (from something)",
+      "formula": "step back (from something)",
+      "highlight": "step back (from something)",
+      "descriptionZh": "暫停一下並抽離,以較客觀的角度重新思考",
+      "descriptionEn": "Try to step back from the problem and look at it again.",
+      "examples": [
+        {
+          "en": "Try to step back from the problem and look at it again.",
+          "zh": "嘗試從問題中抽離,再重新思考。",
+          "highlight": "step back from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "主動提出協助、提供資料或承擔工作",
+      "titleEn": "step forward",
+      "formula": "step forward",
+      "highlight": "step forward",
+      "descriptionZh": "主動提出協助、提供資料或承擔工作",
+      "descriptionEn": "A local business stepped forward to help.",
+      "examples": [
+        {
+          "en": "A local business stepped forward to help.",
+          "zh": "一間本地商戶主動提出協助。",
+          "highlight": "stepped forward"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在有需要時介入、幫忙或暫時接手",
+      "titleEn": "step in",
+      "formula": "step in",
+      "highlight": "step in",
+      "descriptionZh": "在有需要時介入、幫忙或暫時接手",
+      "descriptionEn": "My aunt stepped in when Mum was ill.",
+      "examples": [
+        {
+          "en": "My aunt stepped in when Mum was ill.",
+          "zh": "媽媽生病時,姨姨接手協助。",
+          "highlight": "stepped in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "快點;加快速度",
+      "titleEn": "step on it",
+      "formula": "step on it",
+      "highlight": "step on it",
+      "descriptionZh": "快點;加快速度",
+      "descriptionEn": "We need to step on it or we will be late.",
+      "examples": [
+        {
+          "en": "We need to step on it or we will be late.",
+          "zh": "我們要快一點,否則便會遲到。",
+          "highlight": "step on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "短暫離開某個地方",
+      "titleEn": "step out",
+      "formula": "step out",
+      "highlight": "step out",
+      "descriptionZh": "短暫離開某個地方",
+      "descriptionEn": "He has just stepped out for ten minutes.",
+      "examples": [
+        {
+          "en": "He has just stepped out for ten minutes.",
+          "zh": "他剛剛暫時離開十分鐘。",
+          "highlight": "stepped out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "有禮貌地談論離任或讓位",
+      "titleEn": "Talk politely about leaving an important position",
+      "zh": "step aside 和 step down 可以描述領袖、經理或隊長離開職位。",
+      "en": "Step aside and step down allow you to describe a leader, manager or team captain leaving a role."
+    },
+    {
+      "titleZh": "描述暫停並重新思考",
+      "titleEn": "Describe taking time to think more clearly",
+      "zh": "step back 可以表示某人先停下來,以較冷靜或全面的角度看待問題。",
+      "en": "Step back can show that someone pauses and looks at a problem from a calmer or wider point of view."
+    },
+    {
+      "titleZh": "談論主動協助和及時介入",
+      "titleEn": "Talk about offering help at the right time",
+      "zh": "step forward 表示自願提供協助;step in 則表示在有需要時介入或接手。",
+      "en": "Step forward describes volunteering, while step in describes helping or taking control when someone is needed."
+    },
+    {
+      "titleZh": "自然地表達趕時間和短暫離開",
+      "titleEn": "Express urgency and short absences naturally",
+      "zh": "step on it 可以叫人快一點;step out 則表示某人只是短暫離開。",
+      "en": "Step on it tells someone to hurry, while step out explains that someone has left only briefly."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "有禮貌地談論離任或讓位",
+      "描述暫停並重新思考",
+      "談論主動協助和及時介入",
+      "自然地表達趕時間和短暫離開"
+    ],
+    "contextsEn": [
+      "Talk politely about leaving an important position",
+      "Describe taking time to think more clearly",
+      "Talk about offering help at the right time",
+      "Express urgency and short absences naturally"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "有禮貌地談論離任或讓位",
+        "titleEn": "Talk politely about leaving an important position",
+        "zh": "step aside 和 step down 可以描述領袖、經理或隊長離開職位。",
+        "en": "Step aside and step down allow you to describe a leader, manager or team captain leaving a role.",
+        "examples": [
+          {
+            "en": "After ten years as chair, he stepped down.",
+            "zh": "擔任主席十年後,他辭去了職務。",
+            "highlight": "stepped down"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述暫停並重新思考",
+        "titleEn": "Describe taking time to think more clearly",
+        "zh": "step back 可以表示某人先停下來,以較冷靜或全面的角度看待問題。",
+        "en": "Step back can show that someone pauses and looks at a problem from a calmer or wider point of view.",
+        "examples": [
+          {
+            "en": "Try to step back from the problem and look at it again.",
+            "zh": "嘗試從問題中抽離,再重新思考。",
+            "highlight": "step back from"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論主動協助和及時介入",
+        "titleEn": "Talk about offering help at the right time",
+        "zh": "step forward 表示自願提供協助;step in 則表示在有需要時介入或接手。",
+        "en": "Step forward describes volunteering, while step in describes helping or taking control when someone is needed.",
+        "examples": [
+          {
+            "en": "A local business stepped forward to help.",
+            "zh": "一間本地商戶主動提出協助。",
+            "highlight": "stepped forward"
+          }
+        ]
+      },
+      {
+        "titleZh": "自然地表達趕時間和短暫離開",
+        "titleEn": "Express urgency and short absences naturally",
+        "zh": "step on it 可以叫人快一點;step out 則表示某人只是短暫離開。",
+        "en": "Step on it tells someone to hurry, while step out explains that someone has left only briefly.",
+        "examples": [
+          {
+            "en": "My aunt stepped in when Mum was ill.",
+            "zh": "媽媽生病時,姨姨接手協助。",
+            "highlight": "stepped in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 STEP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the STEP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 STEP 片語動詞。",
+      "en": "Read the whole sentence and choose the STEP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "step aside 和 step down 都可以表示離開重要職位。後面的字詞只用來補充資料。",
+      "titleEn": "Step aside and step down can both describe leaving an important position.",
+      "zh": "step aside 和 step down 都可以表示離開重要職位。後面的字詞只用來補充資料。",
+      "en": "Step aside and step down can both describe leaving an important position. Extra words may give more information: step down step down as captain step down from the role step aside and let someone else lead"
+    },
+    {
+      "titleZh": "主要表達後面的字詞只用來補充資料,並非每次都必須出現。step on it 則是表示「快點」的完整表達。",
+      "titleEn": "The words after the main expression are not always part of the fixed expression: step forward to help step in for somebody step out for ten minutes Step on it is the complete expression meaning “hurry”.",
+      "zh": "主要表達後面的字詞只用來補充資料,並非每次都必須出現。step on it 則是表示「快點」的完整表達。",
+      "en": "The words after the main expression are not always part of the fixed expression: step forward to help step in for somebody step out for ten minutes Step on it is the complete expression meaning “hurry”."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 STEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to STEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "STEP 動詞片語句子改寫練習",
+    "titleEn": "STEP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 STEP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to STEP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-287-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "After eight years as club chair, Mr Chan decided to leave the position.",
+      "promptZh": "擔任俱樂部主席八年後,陳先生決定辭去職務。",
+      "starter": "After",
+      "answer": "After eight years as club chair, Mr Chan decided to step down.",
+      "answerZh": "擔任俱樂部主席八年後,陳先生決定辭去職務。",
+      "highlight": "step down",
+      "targetForm": "step down",
+      "targetMeaningZh": "辭去職務;卸任"
+    },
+    {
+      "id": "phrasal-verb-287-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "When the class teacher was absent, Ms Lee took her place for the day.",
+      "promptZh": "班主任缺席時,李老師代替她一天。",
+      "starter": "When",
+      "answer": "When the class teacher was absent, Ms Lee stepped in for the day.",
+      "answerZh": "班主任缺席時,李老師接手代替她一天。",
+      "highlight": "stepped in",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入或暫時接手"
+    },
+    {
+      "id": "phrasal-verb-287-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The manager has left the office for ten minutes.",
+      "promptZh": "經理已暫時離開辦公室十分鐘。",
+      "starter": "The",
+      "answer": "The manager has stepped out for ten minutes.",
+      "answerZh": "經理已暫時離開十分鐘。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "You should pause and look at the problem from a different point of view.",
+      "promptZh": "你應該先停下來,以不同角度看待這個問題。",
+      "starter": "You",
+      "answer": "You should step back and look at the problem from a different point of view.",
+      "answerZh": "你應該先退一步,以不同角度看待這個問題。",
+      "highlight": "step back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並抽離,以較客觀角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Hurry! The last bus is about to leave.",
+      "promptZh": "快點!尾班巴士快要開出了。",
+      "starter": "Step",
+      "answer": "Step on it! The last bus is about to leave.",
+      "answerZh": "快點!尾班巴士快要開出了。",
+      "highlight": "Step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A local shop offered to pay for the school team’s shirts.",
+      "promptZh": "一間本地商店主動提出支付校隊球衣的費用。",
+      "starter": "A",
+      "answer": "A local shop stepped forward to pay for the school team’s shirts.",
+      "answerZh": "一間本地商店主動提出支付校隊球衣的費用。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出協助或承擔工作"
+    },
+    {
+      "id": "phrasal-verb-287-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The team captain left his role so a younger player could lead.",
+      "promptZh": "隊長讓出領導位置,讓一名較年輕的球員帶領球隊。",
+      "starter": "The",
+      "answer": "The team captain stepped aside so a younger player could lead.",
+      "answerZh": "隊長讓出領導位置,讓一名較年輕的球員帶領球隊。",
+      "highlight": "stepped aside",
+      "targetForm": "step aside",
+      "targetMeaningZh": "讓出職位,讓其他人接任"
+    },
+    {
+      "id": "phrasal-verb-287-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Lena left the room briefly to answer a phone call.",
+      "promptZh": "莉娜短暫離開房間接聽電話。",
+      "starter": "Lena",
+      "answer": "Lena stepped out briefly to answer a phone call.",
+      "answerZh": "莉娜短暫離開房間接聽電話。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Two parents volunteered to help at the school fair.",
+      "promptZh": "兩名家長自願協助學校市集。",
+      "starter": "Two",
+      "answer": "Two parents stepped forward to help at the school fair.",
+      "answerZh": "兩名家長自願協助學校市集。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "自願提供協助"
+    },
+    {
+      "id": "phrasal-verb-287-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We need to hurry or we will miss the start of the film.",
+      "promptZh": "我們需要快一點,否則便會錯過電影開場。",
+      "starter": "We",
+      "answer": "We need to step on it or we will miss the start of the film.",
+      "answerZh": "我們需要快一點,否則便會錯過電影開場。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Tom paused during the argument and tried to see the whole situation clearly.",
+      "promptZh": "湯姆在爭論期間停下來,嘗試看清整個情況。",
+      "starter": "Tom",
+      "answer": "Tom stepped back during the argument and tried to see the whole situation clearly.",
+      "answerZh": "湯姆在爭論期間先退一步,嘗試看清整個情況。",
+      "highlight": "stepped back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並抽離,以較客觀角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "My aunt helped with the cooking when Mum was ill.",
+      "promptZh": "媽媽生病時,姨姨接手協助煮食。",
+      "starter": "My",
+      "answer": "My aunt stepped in to help with the cooking when Mum was ill.",
+      "answerZh": "媽媽生病時,姨姨接手協助煮食。",
+      "highlight": "stepped in to help",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入協助"
+    },
+    {
+      "id": "phrasal-verb-287-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "No one has yet offered to organise the class trip.",
+      "promptZh": "仍然沒有人主動提出籌辦班級旅行。",
+      "starter": "No",
+      "answer": "No one has yet stepped forward to organise the class trip.",
+      "answerZh": "仍然沒有人主動提出籌辦班級旅行。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出承擔工作"
+    },
+    {
+      "id": "phrasal-verb-287-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The manager is leaving her post at the end of the month.",
+      "promptZh": "經理將於月底離任。",
+      "starter": "The",
+      "answer": "The manager is stepping down from her post at the end of the month.",
+      "answerZh": "經理將於月底離任。",
+      "highlight": "stepping down from",
+      "targetForm": "step down from something",
+      "targetMeaningZh": "辭去某個職位"
+    },
+    {
+      "id": "phrasal-verb-287-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The coach told us to hurry because the match was about to begin.",
+      "promptZh": "教練叫我們快一點,因為比賽快要開始。",
+      "starter": "The",
+      "answer": "The coach told us to step on it because the match was about to begin.",
+      "answerZh": "教練叫我們快一點,因為比賽快要開始。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Dad has just left the shop for a few minutes.",
+      "promptZh": "爸爸剛剛暫時離開店舖幾分鐘。",
+      "starter": "Dad",
+      "answer": "Dad has just stepped out for a few minutes.",
+      "answerZh": "爸爸剛剛暫時離開店舖幾分鐘。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The designers are taking some distance from the plan before making a final choice.",
+      "promptZh": "設計人員正暫時抽離計劃,然後才作出最後選擇。",
+      "starter": "The",
+      "answer": "The designers are stepping back to review the plan before making a final choice.",
+      "answerZh": "設計人員正暫時抽離並重新審視計劃,然後才作出最後選擇。",
+      "highlight": "stepping back to review",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並以較客觀角度重新思考"
+    },
+    {
+      "id": "phrasal-verb-287-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "A neighbour has taken over temporarily while the shop owner is away.",
+      "promptZh": "店主不在期間,一名鄰居已暫時接手。",
+      "starter": "A",
+      "answer": "A neighbour has stepped in while the shop owner is away.",
+      "answerZh": "店主不在期間,一名鄰居已暫時接手。",
+      "highlight": "stepped in",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時暫時接手"
+    },
+    {
+      "id": "phrasal-verb-287-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Unless you hurry, you will miss the last train.",
+      "promptZh": "除非你快一點,否則便會錯過尾班火車。",
+      "starter": "Unless",
+      "answer": "Unless you step on it, you will miss the last train.",
+      "answerZh": "除非你快一點,否則便會錯過尾班火車。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Has anyone offered to lead the clean-up?",
+      "promptZh": "有人主動提出帶領清潔工作嗎?",
+      "starter": "Has",
+      "answer": "Has anyone stepped forward to lead the clean-up?",
+      "answerZh": "有人主動提出帶領清潔工作嗎?",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出承擔工作"
+    },
+    {
+      "id": "phrasal-verb-287-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Ella will leave her position as team leader after the final.",
+      "promptZh": "埃拉會在決賽後辭去隊長職務。",
+      "starter": "Ella",
+      "answer": "Ella will step down as team leader after the final.",
+      "answerZh": "埃拉會在決賽後辭去隊長職務。",
+      "highlight": "step down",
+      "targetForm": "step down as something",
+      "targetMeaningZh": "辭去某個職位"
+    },
+    {
+      "id": "phrasal-verb-287-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "We have paused and looked at the issue more calmly.",
+      "promptZh": "我們已經退一步,以較冷靜的角度看待這個問題。",
+      "starter": "We",
+      "answer": "We have stepped back and looked at the issue more calmly.",
+      "answerZh": "我們已經退一步,以較冷靜的角度看待這個問題。",
+      "highlight": "stepped back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並抽離,以較客觀角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The older students are helping because the usual helpers cannot come.",
+      "promptZh": "由於平常的協助者未能出席,高年級學生正在接手幫忙。",
+      "starter": "The",
+      "answer": "The older students are stepping in because the usual helpers cannot come.",
+      "answerZh": "由於平常的協助者未能出席,高年級學生正在接手幫忙。",
+      "highlight": "stepping in",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入或接手"
+    },
+    {
+      "id": "phrasal-verb-287-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The receptionist said that Mr Ho had left briefly.",
+      "promptZh": "接待員說何先生曾短暫離開。",
+      "starter": "The",
+      "answer": "The receptionist said that Mr Ho had stepped out briefly.",
+      "answerZh": "接待員說何先生曾短暫離開。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I need to leave the meeting briefly to take an important call.",
+      "promptZh": "我需要短暫離開會議,接聽一個重要電話。",
+      "starter": "I",
+      "answer": "I need to step out of the meeting briefly to take an important call.",
+      "answerZh": "我需要短暫離開會議,接聽一個重要電話。",
+      "highlight": "step out of",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Before replying, Sara tried to distance herself from the problem and think calmly.",
+      "promptZh": "莎拉在回答前嘗試從問題中抽離,冷靜思考。",
+      "starter": "Before",
+      "answer": "Before replying, Sara tried to step back from the problem and think calmly.",
+      "answerZh": "莎拉在回答前嘗試從問題中抽離,冷靜思考。",
+      "highlight": "step back",
+      "targetForm": "step back from something",
+      "targetMeaningZh": "從問題中抽離並重新思考"
+    },
+    {
+      "id": "phrasal-verb-287-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The chair was asked to leave the role after the vote.",
+      "promptZh": "投票後,主席被要求辭去職務。",
+      "starter": "The",
+      "answer": "The chair was asked to step down after the vote.",
+      "answerZh": "投票後,主席被要求辭去職務。",
+      "highlight": "step down",
+      "targetForm": "step down",
+      "targetMeaningZh": "辭去職務;卸任"
+    },
+    {
+      "id": "phrasal-verb-287-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When the speaker lost her voice, another student took over and finished the talk.",
+      "promptZh": "講者失聲時,另一名學生接手完成演講。",
+      "starter": "When",
+      "answer": "When the speaker lost her voice, another student stepped in and finished the talk.",
+      "answerZh": "講者失聲時,另一名學生接手完成演講。",
+      "highlight": "stepped in",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入或接手"
+    },
+    {
+      "id": "phrasal-verb-287-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The school needed a driver, and Mr Wong offered his help.",
+      "promptZh": "學校需要一名司機,黃先生主動提出協助。",
+      "starter": "The",
+      "answer": "The school needed a driver, and Mr Wong stepped forward to help.",
+      "answerZh": "學校需要一名司機,黃先生主動提出協助。",
+      "highlight": "stepped forward to",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出協助"
+    },
+    {
+      "id": "phrasal-verb-287-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "If we do not go faster, the shop will close before we arrive.",
+      "promptZh": "如果我們不加快,店舖便會在我們到達前關門。",
+      "starter": "If",
+      "answer": "If we do not step on it, the shop will close before we arrive.",
+      "answerZh": "如果我們不加快,店舖便會在我們到達前關門。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "It may help to pause and consider what both sides need.",
+      "promptZh": "先停下來,想想雙方需要甚麼,可能會有幫助。",
+      "starter": "It",
+      "answer": "It may help to step back and consider what both sides need.",
+      "answerZh": "先退一步,想想雙方需要甚麼,可能會有幫助。",
+      "highlight": "step back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並以較客觀角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Why did Chloe leave the office for a few minutes?",
+      "promptZh": "克洛伊為何短暫離開辦公室幾分鐘?",
+      "starter": "Why",
+      "answer": "Why did Chloe step out of the office for a few minutes?",
+      "answerZh": "克洛伊為何短暫離開辦公室幾分鐘?",
+      "highlight": "step out of",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Could you take over for me while I speak to the doctor?",
+      "promptZh": "我與醫生談話時,你可以暫時替我接手嗎?",
+      "starter": "Could",
+      "answer": "Could you step in for me while I speak to the doctor?",
+      "answerZh": "我與醫生談話時,你可以暫時替我接手嗎?",
+      "highlight": "step in",
+      "targetForm": "step in for somebody",
+      "targetMeaningZh": "暫時代替某人"
+    },
+    {
+      "id": "phrasal-verb-287-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "After the mistake, the coach offered to stop leading so someone else could take over.",
+      "promptZh": "犯錯後,教練提出不再帶隊,讓其他人接手。",
+      "starter": "After",
+      "answer": "After the mistake, the coach offered to step aside so someone else could take over.",
+      "answerZh": "犯錯後,教練提出不再帶隊,讓其他人接手。",
+      "highlight": "step aside",
+      "targetForm": "step aside",
+      "targetMeaningZh": "讓出領導位置"
+    },
+    {
+      "id": "phrasal-verb-287-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Can you hurry? Everyone is waiting for us.",
+      "promptZh": "你可以快一點嗎?大家都在等我們。",
+      "starter": "Can",
+      "answer": "Can you step on it? Everyone is waiting for us.",
+      "answerZh": "你可以快一點嗎?大家都在等我們。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "When the club asked for ideas, three members offered useful suggestions.",
+      "promptZh": "俱樂部徵集構思時,三名會員主動提出有用的建議。",
+      "starter": "When",
+      "answer": "When the club asked for ideas, three members stepped forward with useful suggestions.",
+      "answerZh": "俱樂部徵集構思時,三名會員主動提出有用的建議。",
+      "highlight": "stepped forward with",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提供資料或構思"
+    },
+    {
+      "id": "phrasal-verb-287-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The parents were late, so the older sister took responsibility for the children until they arrived.",
+      "promptZh": "父母遲到,所以姊姊在他們到達前暫時照顧孩子。",
+      "starter": "The",
+      "answer": "The parents were late, so the older sister stepped in to look after the children until they arrived.",
+      "answerZh": "父母遲到,所以姊姊在他們到達前介入照顧孩子。",
+      "highlight": "stepped in to look after",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入協助"
+    },
+    {
+      "id": "phrasal-verb-287-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Although several people saw the accident, only one person offered information to the police.",
+      "promptZh": "雖然有幾個人目睹意外,但只有一人主動向警方提供資料。",
+      "starter": "Although",
+      "answer": "Although several people saw the accident, only one person stepped forward to give information to the police.",
+      "answerZh": "雖然有幾個人目睹意外,但只有一人主動向警方提供資料。",
+      "highlight": "stepped forward to give",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提供資料或協助"
+    },
+    {
+      "id": "phrasal-verb-287-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Rather than answer immediately, the manager paused and considered the wider problem.",
+      "promptZh": "經理沒有立即回答,而是先停下來考慮更廣泛的問題。",
+      "starter": "Rather",
+      "answer": "Rather than answer immediately, the manager stepped back and considered the wider problem.",
+      "answerZh": "經理沒有立即回答,而是先退一步考慮更廣泛的問題。",
+      "highlight": "stepped back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並從較全面的角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The director refused to leave the position even after the project failed.",
+      "promptZh": "即使項目失敗,主管仍拒絕辭職。",
+      "starter": "The",
+      "answer": "The director refused to step down even after the project failed.",
+      "answerZh": "即使項目失敗,主管仍拒絕辭職。",
+      "highlight": "step down",
+      "targetForm": "step down",
+      "targetMeaningZh": "辭去職務;卸任"
+    },
+    {
+      "id": "phrasal-verb-287-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "While the guests were eating, the host left briefly to check the front door.",
+      "promptZh": "客人用膳期間,主人短暫離開,查看前門。",
+      "starter": "While",
+      "answer": "While the guests were eating, the host stepped out briefly to check the front door.",
+      "answerZh": "客人用膳期間,主人短暫離開,查看前門。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The driver had to go faster to reach the station before the train left.",
+      "promptZh": "司機必須加快速度,才能在火車開出前到達車站。",
+      "starter": "The",
+      "answer": "The driver had to step on it to reach the station before the train left.",
+      "answerZh": "司機必須加快速度,才能在火車開出前到達車站。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "With nobody willing to coach the young players, a former player finally offered to do it.",
+      "promptZh": "由於沒有人願意訓練年輕球員,一名前球員最後主動提出負責。",
+      "starter": "With",
+      "answer": "With nobody willing to coach the young players, a former player finally stepped forward to do it.",
+      "answerZh": "由於沒有人願意訓練年輕球員,一名前球員最後主動提出負責。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出承擔工作"
+    },
+    {
+      "id": "phrasal-verb-287-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The nurse was busy, so another worker temporarily helped the waiting patients.",
+      "promptZh": "護士很忙,所以另一名職員介入協助等候中的病人。",
+      "starter": "The",
+      "answer": "The nurse was busy, so another worker stepped in to help the waiting patients.",
+      "answerZh": "護士很忙,所以另一名職員介入協助等候中的病人。",
+      "highlight": "stepped in to help",
+      "targetForm": "step in",
+      "targetMeaningZh": "在有需要時介入協助"
+    },
+    {
+      "id": "phrasal-verb-287-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Dad said we had better hurry because the road would soon be busy.",
+      "promptZh": "爸爸說我們最好快一點,因為道路很快便會繁忙起來。",
+      "starter": "Dad",
+      "answer": "Dad said we had better step on it because the road would soon be busy.",
+      "answerZh": "爸爸說我們最好快一點,因為道路很快便會繁忙起來。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "She had left the room for only a moment when the delivery arrived.",
+      "promptZh": "送貨員到達時,她只是短暫離開了房間。",
+      "starter": "She",
+      "answer": "She had stepped out for only a moment when the delivery arrived.",
+      "answerZh": "送貨員到達時,她只是短暫離開了房間。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The singer decided to stop being the group’s leader but remain a member.",
+      "promptZh": "歌手決定不再擔任樂隊領袖,但仍會保留成員身分。",
+      "starter": "The",
+      "answer": "The singer decided to step aside from the leadership role but remain a member.",
+      "answerZh": "歌手決定不再擔任樂隊領袖,但仍會保留成員身分。",
+      "highlight": "step aside from",
+      "targetForm": "step aside from something",
+      "targetMeaningZh": "離開領導位置並讓其他人接任"
+    },
+    {
+      "id": "phrasal-verb-287-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We noticed the plan’s main weakness only after we paused and looked at it from a distance.",
+      "promptZh": "我們先退一步,以較客觀角度審視計劃後,才發現它的主要弱點。",
+      "starter": "We",
+      "answer": "We noticed the plan’s main weakness only after we stepped back and looked at it from a distance.",
+      "answerZh": "我們先退一步,以較客觀角度審視計劃後,才發現它的主要弱點。",
+      "highlight": "stepped back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並以較客觀角度重新審視"
+    },
+    {
+      "id": "phrasal-verb-287-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Everyone agreed that it was time to hurry if we wanted to reach the gate before it closed.",
+      "promptZh": "大家都同意,如果想在閘門關閉前到達,便要加快。",
+      "starter": "Everyone",
+      "answer": "Everyone agreed that it was time to step on it if we wanted to reach the gate before it closed.",
+      "answerZh": "大家都同意,如果想在閘門關閉前到達,便要加快。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The doctor is not in her room at the moment; she has left briefly and will return soon.",
+      "promptZh": "醫生此刻不在房間;她只是短暫離開,很快便會回來。",
+      "starter": "The",
+      "answer": "The doctor is not in her room at the moment; she has stepped out and will return soon.",
+      "answerZh": "醫生此刻不在房間;她只是短暫離開,很快便會回來。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The library needed money for new books, and a small company offered to cover the cost.",
+      "promptZh": "圖書館需要款項購買新書,一間小公司主動提出支付費用。",
+      "starter": "The",
+      "answer": "The library needed money for new books, and a small company stepped forward to cover the cost.",
+      "answerZh": "圖書館需要款項購買新書,一間小公司主動提出支付費用。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出協助或承擔費用"
+    },
+    {
+      "id": "phrasal-verb-287-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "When the main actor became ill just before the show, his brother took his place at very short notice.",
+      "promptZh": "主要演員在演出前突然生病,他的兄弟在極短時間內代替了他。",
+      "starter": "When",
+      "answer": "When the main actor became ill just before the show, his brother stepped in for him at very short notice.",
+      "answerZh": "主要演員在演出前突然生病,他的兄弟在極短時間內代替了他。",
+      "highlight": "stepped in for him",
+      "targetForm": "step in for somebody",
+      "targetMeaningZh": "臨時代替某人"
+    },
+    {
+      "id": "phrasal-verb-287-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "After ten years in charge, the head of the club said someone else should now lead it.",
+      "promptZh": "掌管俱樂部十年後,負責人說現在應由其他人帶領。",
+      "starter": "After",
+      "answer": "After ten years in charge, the head of the club said it was time for him to step aside and let someone else lead.",
+      "answerZh": "掌管俱樂部十年後,負責人說現在是他讓位、由其他人帶領的時候。",
+      "highlight": "it was time for him to step aside and let",
+      "targetForm": "step aside",
+      "targetMeaningZh": "讓出領導位置"
+    },
+    {
+      "id": "phrasal-verb-287-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The team members were too close to the problem to think clearly, so they paused and considered the situation from outside.",
+      "promptZh": "團隊成員與問題牽涉得太深,難以清楚思考,因此他們先退一步,從外圍重新審視情況。",
+      "starter": "The",
+      "answer": "The team members were too close to the problem to think clearly, so they stepped back and considered the situation from outside.",
+      "answerZh": "團隊成員與問題牽涉得太深,難以清楚思考,因此他們先退一步,從外圍重新審視情況。",
+      "highlight": "stepped back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並抽離,以較客觀角度思考"
+    },
+    {
+      "id": "phrasal-verb-287-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "If anyone asks for me, tell them I have left for ten minutes to buy some water.",
+      "promptZh": "如果有人找我,請告訴他們我離開十分鐘去買水。",
+      "starter": "If",
+      "answer": "If anyone asks for me, tell them I have stepped out for ten minutes to buy some water.",
+      "answerZh": "如果有人找我,請告訴他們我離開十分鐘去買水。",
+      "highlight": "stepped out",
+      "targetForm": "step out",
+      "targetMeaningZh": "短暫離開"
+    },
+    {
+      "id": "phrasal-verb-287-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "We had better hurry; otherwise, the kitchen will close before we order.",
+      "promptZh": "我們最好快一點,否則廚房會在我們點餐前關閉。",
+      "starter": "We",
+      "answer": "We had better step on it; otherwise, the kitchen will close before we order.",
+      "answerZh": "我們最好快一點,否則廚房會在我們點餐前關閉。",
+      "highlight": "step on it",
+      "targetForm": "step on it",
+      "targetMeaningZh": "快點;加快速度"
+    },
+    {
+      "id": "phrasal-verb-287-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The project was beginning to fail, but a more experienced manager took control and got it moving again.",
+      "promptZh": "項目開始失敗,但一名更有經驗的經理介入接手,使項目重新推進。",
+      "starter": "The",
+      "answer": "The project was beginning to fail, but a more experienced manager stepped in and got it moving again.",
+      "answerZh": "項目開始失敗,但一名更有經驗的經理介入接手,使項目重新推進。",
+      "highlight": "stepped in",
+      "targetForm": "step in",
+      "targetMeaningZh": "在出現問題時介入或接手"
+    },
+    {
+      "id": "phrasal-verb-287-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "When the school asked whether anyone could host the visitors, Aria offered before anyone else.",
+      "promptZh": "學校詢問有沒有人可以接待訪客時,艾莉亞比其他人更早主動提出協助。",
+      "starter": "When",
+      "answer": "When the school asked whether anyone could host the visitors, Aria stepped forward before anyone else.",
+      "answerZh": "學校詢問有沒有人可以接待訪客時,艾莉亞比其他人更早主動提出協助。",
+      "highlight": "stepped forward",
+      "targetForm": "step forward",
+      "targetMeaningZh": "主動提出協助或承擔工作"
+    },
+    {
+      "id": "phrasal-verb-287-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Instead of arguing again, both friends agreed to take some distance and think about what had happened.",
+      "promptZh": "兩位朋友同意不要再次爭論,而是先退一步,想想發生過的事情。",
+      "starter": "Instead",
+      "answer": "Instead of arguing again, both friends agreed to step back and think about what had happened.",
+      "answerZh": "兩位朋友同意不要再次爭論,而是先退一步,想想發生過的事情。",
+      "highlight": "step back",
+      "targetForm": "step back",
+      "targetMeaningZh": "暫停並冷靜地重新思考"
+    },
+    {
+      "id": "phrasal-verb-287-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The company leader announced that she would leave her position once the new manager was ready.",
+      "promptZh": "公司領導宣布,新經理準備好後,她便會離任。",
+      "starter": "The",
+      "answer": "The company leader announced that she would step down once the new manager was ready.",
+      "answerZh": "公司領導宣布,新經理準備好後,她便會離任。",
+      "highlight": "step down",
+      "targetForm": "step down",
+      "targetMeaningZh": "辭去職務;卸任"
+    }
+  ]
+}

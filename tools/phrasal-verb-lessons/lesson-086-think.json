@@ -1,0 +1,1805 @@
+{
+  "id": "phrasal-verb-86",
+  "order": 86,
+  "slug": "think",
+  "version": "1",
+  "title": "THINK 動詞片語",
+  "titleEn": "Think",
+  "titleZh": "THINK 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 10,
+  "source": {
+    "file": "Phrasal Verbs 85 -THINK.pdf",
+    "sourceNumber": 85,
+    "pageCount": 27,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 THINK 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to THINK."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "THINK",
+      "highlight": "THINK"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I have been thinking about changing jobs.",
+      "zh": "我一直在考慮轉工。",
+      "highlight": "thinking about",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "This song makes me think of my old school.",
+      "zh": "這首歌令我想起以前的學校。",
+      "highlight": "think",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We need to think ahead to next winter.",
+      "zh": "我們需要預先考慮下個冬天的情況。",
+      "highlight": "think ahead to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事；想起或想到某人、某事或某個做法；預先考慮將來的事情,並為它作準備；在做某事前再三考慮,通常因為事情可能有風險或問題；回想過去某個時候或事件；自己思考和判斷,不盲目跟隨別人；把事情仔細想清楚,想出完整的方法或安排；在作決定前仔細考慮某事；由頭到尾仔細考慮所有步驟、問題和後果；想出或創造一個主意、名稱、方法或藉口",
+    "en": "think about somebody/something / think about doing something; think of somebody/something / think of doing something; think ahead / think ahead to something; think twice about something / think twice about doing something; think back / think back to something; think for yourself; think something out; think something over; think something through; think something up",
+    "naturalZh": [
+      "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+      "想起或想到某人、某事或某個做法",
+      "預先考慮將來的事情,並為它作準備",
+      "在做某事前再三考慮,通常因為事情可能有風險或問題",
+      "回想過去某個時候或事件",
+      "自己思考和判斷,不盲目跟隨別人",
+      "把事情仔細想清楚,想出完整的方法或安排",
+      "在作決定前仔細考慮某事",
+      "由頭到尾仔細考慮所有步驟、問題和後果",
+      "想出或創造一個主意、名稱、方法或藉口"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "think about somebody/something / think about doing something",
+      "titleZh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+      "titleEn": "think about somebody/something / think about doing something",
+      "descriptionZh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+      "descriptionEn": "I have been thinking about changing jobs.",
+      "examples": [
+        {
+          "en": "I have been thinking about changing jobs.",
+          "zh": "我一直在考慮轉工。",
+          "highlight": "thinking about"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "think of somebody/something / think of doing something",
+      "titleZh": "想起或想到某人、某事或某個做法",
+      "titleEn": "think of somebody/something / think of doing something",
+      "descriptionZh": "想起或想到某人、某事或某個做法",
+      "descriptionEn": "This song makes me think of my old school.",
+      "examples": [
+        {
+          "en": "This song makes me think of my old school.",
+          "zh": "這首歌令我想起以前的學校。",
+          "highlight": "think"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "think ahead / think ahead to something",
+      "titleZh": "預先考慮將來的事情,並為它作準備",
+      "titleEn": "think ahead / think ahead to something",
+      "descriptionZh": "預先考慮將來的事情,並為它作準備",
+      "descriptionEn": "We need to think ahead to next winter.",
+      "examples": [
+        {
+          "en": "We need to think ahead to next winter.",
+          "zh": "我們需要預先考慮下個冬天的情況。",
+          "highlight": "think ahead to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "think twice about something / think twice about doing something",
+      "titleZh": "在做某事前再三考慮,通常因為事情可能有風險或問題",
+      "titleEn": "think twice about something / think twice about doing something",
+      "descriptionZh": "在做某事前再三考慮,通常因為事情可能有風險或問題",
+      "descriptionEn": "I would think twice about lending him the money.",
+      "examples": [
+        {
+          "en": "I would think twice about lending him the money.",
+          "zh": "我會再三考慮是否借錢給他。",
+          "highlight": "think twice about"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "think back / think back to something",
+      "titleZh": "回想過去某個時候或事件",
+      "titleEn": "think back / think back to something",
+      "descriptionZh": "回想過去某個時候或事件",
+      "descriptionEn": "She thought back to her first day at school.",
+      "examples": [
+        {
+          "en": "She thought back to her first day at school.",
+          "zh": "她回想起第一天上學的情景。",
+          "highlight": "thought back to"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "think for yourself",
+      "titleZh": "自己思考和判斷,不盲目跟隨別人",
+      "titleEn": "think for yourself",
+      "descriptionZh": "自己思考和判斷,不盲目跟隨別人",
+      "descriptionEn": "You should listen to advice but think for yourself.",
+      "examples": [
+        {
+          "en": "You should listen to advice but think for yourself.",
+          "zh": "你應聽取意見,但也要自己思考。",
+          "highlight": "think for"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "think something out",
+      "titleZh": "把事情仔細想清楚,想出完整的方法或安排",
+      "titleEn": "think something out",
+      "descriptionZh": "把事情仔細想清楚,想出完整的方法或安排",
+      "descriptionEn": "We need time to think the plan out.",
+      "examples": [
+        {
+          "en": "We need time to think the plan out.",
+          "zh": "我們需要時間把計劃仔細想清楚。",
+          "highlight": "think the plan out"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "think something over",
+      "titleZh": "在作決定前仔細考慮某事",
+      "titleEn": "think something over",
+      "descriptionZh": "在作決定前仔細考慮某事",
+      "descriptionEn": "Please think the offer over before you decide.",
+      "examples": [
+        {
+          "en": "Please think the offer over before you decide.",
+          "zh": "請在作決定前仔細考慮這項提議。",
+          "highlight": "think the offer over"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "think something through",
+      "titleZh": "由頭到尾仔細考慮所有步驟、問題和後果",
+      "titleEn": "think something through",
+      "descriptionZh": "由頭到尾仔細考慮所有步驟、問題和後果",
+      "descriptionEn": "We must think the changes through before we begin.",
+      "examples": [
+        {
+          "en": "We must think the changes through before we begin.",
+          "zh": "開始前,我們必須仔細想清楚所有改動。",
+          "highlight": "think the changes through"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    },
+    {
+      "formula": "think something up",
+      "titleZh": "想出或創造一個主意、名稱、方法或藉口",
+      "titleEn": "think something up",
+      "descriptionZh": "想出或創造一個主意、名稱、方法或藉口",
+      "descriptionEn": "The children thought up a new game.",
+      "examples": [
+        {
+          "en": "The children thought up a new game.",
+          "zh": "孩子們想出了一個新遊戲。",
+          "highlight": "thought up"
+        }
+      ],
+      "number": 10,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "THINK 片語動詞的實際用途",
+    "labelEn": "THINK Phrasal Verbs in Use",
+    "summaryZh": "think about 和 think of 能幫助你表達自己正在考慮甚麼、想起了甚麼,以及可能決定做甚麼。；think ahead 能幫助你預先考慮將來的需要;think twice 則表示在行動前停下來,再三考慮可能出現的問題。；think back 能用來談論回憶;think for yourself 則表示你會自己思考,而不是盲目跟隨別人。；think out、think over、think through 和 think up 能表達處理構思的不同階段,包括想出主意、仔細考慮及檢查每個細節。",
+    "summaryEn": "Think about and think of help you explain what is on your mind, what you remember and what you may decide to do. Think ahead helps you prepare for future needs. Think twice helps you stop and consider possible problems before acting. Think back lets you describe memories. Think for yourself shows that you form your own opinion instead of simply following others. Think out, think over, think through and think up help you describe different stages of working with an idea—from inventing it to checking every detail.",
+    "contextsZh": [
+      "清楚談論想法和可能採取的行動",
+      "預先準備,避免草率決定",
+      "談論回憶和獨立判斷",
+      "發展、檢查和創造構思"
+    ],
+    "contextsEn": [
+      "Talk clearly about thoughts and possible actions",
+      "Prepare for the future and avoid careless decisions",
+      "Talk about memories and independent decisions",
+      "Develop, check and create ideas"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 THINK 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the THINK expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "think about somebody/something / think about doing something",
+    "fixedHighlight": "think about somebody/something / think about doing something",
+    "fixedZh": "閱讀整句,選出意思相同的 THINK 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the THINK expression that gives the same meaning.",
+    "correct": "thinking about",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 THINK ... OUT / OVER / THROUGH / UP 中使用 it、him、her 或 them 時,把代名詞放在THINK 和後面的字之間。；think about doing something 通常表示花時間考慮是否做某事;think of doing something 則常表示腦中想到這個做法。請仔細閱讀整個情境。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it, him, her or them in a THINK... OUT / OVER / THROUGH / UP expression, place the word in the middle: think it over think him up think them through Think about doing something often means spending time considering an action. Think of doing something often means that the possible action comes to mind. Read the whole situation carefully.",
+    "variableItemsZh": [
+      "think about somebody/something / think about doing something",
+      "think of somebody/something / think of doing something",
+      "think ahead / think ahead to something",
+      "think twice about something / think twice about doing something",
+      "think back / think back to something",
+      "think for yourself",
+      "think something out",
+      "think something over",
+      "think something through",
+      "think something up"
+    ],
+    "variableItemsEn": [
+      "think about somebody/something / think about doing something",
+      "think of somebody/something / think of doing something",
+      "think ahead / think ahead to something",
+      "think twice about something / think twice about doing something",
+      "think back / think back to something",
+      "think for yourself",
+      "think something out",
+      "think something over",
+      "think something through",
+      "think something up"
+    ],
+    "forms": [
+      {
+        "formZh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+        "formEn": "think about somebody/something / think about doing something",
+        "exampleZh": "我一直在考慮轉工。",
+        "exampleEn": "I have been thinking about changing jobs.",
+        "highlight": "thinking about"
+      },
+      {
+        "formZh": "想起或想到某人、某事或某個做法",
+        "formEn": "think of somebody/something / think of doing something",
+        "exampleZh": "這首歌令我想起以前的學校。",
+        "exampleEn": "This song makes me think of my old school.",
+        "highlight": "think"
+      },
+      {
+        "formZh": "預先考慮將來的事情,並為它作準備",
+        "formEn": "think ahead / think ahead to something",
+        "exampleZh": "我們需要預先考慮下個冬天的情況。",
+        "exampleEn": "We need to think ahead to next winter.",
+        "highlight": "think ahead to"
+      },
+      {
+        "formZh": "在做某事前再三考慮,通常因為事情可能有風險或問題",
+        "formEn": "think twice about something / think twice about doing something",
+        "exampleZh": "我會再三考慮是否借錢給他。",
+        "exampleEn": "I would think twice about lending him the money.",
+        "highlight": "think twice about"
+      },
+      {
+        "formZh": "回想過去某個時候或事件",
+        "formEn": "think back / think back to something",
+        "exampleZh": "她回想起第一天上學的情景。",
+        "exampleEn": "She thought back to her first day at school.",
+        "highlight": "thought back to"
+      },
+      {
+        "formZh": "自己思考和判斷,不盲目跟隨別人",
+        "formEn": "think for yourself",
+        "exampleZh": "你應聽取意見,但也要自己思考。",
+        "exampleEn": "You should listen to advice but think for yourself.",
+        "highlight": "think for"
+      },
+      {
+        "formZh": "把事情仔細想清楚,想出完整的方法或安排",
+        "formEn": "think something out",
+        "exampleZh": "我們需要時間把計劃仔細想清楚。",
+        "exampleEn": "We need time to think the plan out.",
+        "highlight": "think the plan out"
+      },
+      {
+        "formZh": "在作決定前仔細考慮某事",
+        "formEn": "think something over",
+        "exampleZh": "請在作決定前仔細考慮這項提議。",
+        "exampleEn": "Please think the offer over before you decide.",
+        "highlight": "think the offer over"
+      },
+      {
+        "formZh": "由頭到尾仔細考慮所有步驟、問題和後果",
+        "formEn": "think something through",
+        "exampleZh": "開始前,我們必須仔細想清楚所有改動。",
+        "exampleEn": "We must think the changes through before we begin.",
+        "highlight": "think the changes through"
+      },
+      {
+        "formZh": "想出或創造一個主意、名稱、方法或藉口",
+        "formEn": "think something up",
+        "exampleZh": "孩子們想出了一個新遊戲。",
+        "exampleEn": "The children thought up a new game.",
+        "highlight": "thought up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+      "titleEn": "think about somebody/something / think about doing something",
+      "formula": "think about somebody/something / think about doing something",
+      "highlight": "think about somebody/something / think about doing something",
+      "descriptionZh": "把某人或某事放在心上細想;花時間仔細考慮某事或做某事",
+      "descriptionEn": "I have been thinking about changing jobs.",
+      "examples": [
+        {
+          "en": "I have been thinking about changing jobs.",
+          "zh": "我一直在考慮轉工。",
+          "highlight": "thinking about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "想起或想到某人、某事或某個做法",
+      "titleEn": "think of somebody/something / think of doing something",
+      "formula": "think of somebody/something / think of doing something",
+      "highlight": "think of somebody/something / think of doing something",
+      "descriptionZh": "想起或想到某人、某事或某個做法",
+      "descriptionEn": "This song makes me think of my old school.",
+      "examples": [
+        {
+          "en": "This song makes me think of my old school.",
+          "zh": "這首歌令我想起以前的學校。",
+          "highlight": "think"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "預先考慮將來的事情,並為它作準備",
+      "titleEn": "think ahead / think ahead to something",
+      "formula": "think ahead / think ahead to something",
+      "highlight": "think ahead / think ahead to something",
+      "descriptionZh": "預先考慮將來的事情,並為它作準備",
+      "descriptionEn": "We need to think ahead to next winter.",
+      "examples": [
+        {
+          "en": "We need to think ahead to next winter.",
+          "zh": "我們需要預先考慮下個冬天的情況。",
+          "highlight": "think ahead to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在做某事前再三考慮,通常因為事情可能有風險或問題",
+      "titleEn": "think twice about something / think twice about doing something",
+      "formula": "think twice about something / think twice about doing something",
+      "highlight": "think twice about something / think twice about doing something",
+      "descriptionZh": "在做某事前再三考慮,通常因為事情可能有風險或問題",
+      "descriptionEn": "I would think twice about lending him the money.",
+      "examples": [
+        {
+          "en": "I would think twice about lending him the money.",
+          "zh": "我會再三考慮是否借錢給他。",
+          "highlight": "think twice about"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "回想過去某個時候或事件",
+      "titleEn": "think back / think back to something",
+      "formula": "think back / think back to something",
+      "highlight": "think back / think back to something",
+      "descriptionZh": "回想過去某個時候或事件",
+      "descriptionEn": "She thought back to her first day at school.",
+      "examples": [
+        {
+          "en": "She thought back to her first day at school.",
+          "zh": "她回想起第一天上學的情景。",
+          "highlight": "thought back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "自己思考和判斷,不盲目跟隨別人",
+      "titleEn": "think for yourself",
+      "formula": "think for yourself",
+      "highlight": "think for yourself",
+      "descriptionZh": "自己思考和判斷,不盲目跟隨別人",
+      "descriptionEn": "You should listen to advice but think for yourself.",
+      "examples": [
+        {
+          "en": "You should listen to advice but think for yourself.",
+          "zh": "你應聽取意見,但也要自己思考。",
+          "highlight": "think for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "把事情仔細想清楚,想出完整的方法或安排",
+      "titleEn": "think something out",
+      "formula": "think something out",
+      "highlight": "think something out",
+      "descriptionZh": "把事情仔細想清楚,想出完整的方法或安排",
+      "descriptionEn": "We need time to think the plan out.",
+      "examples": [
+        {
+          "en": "We need time to think the plan out.",
+          "zh": "我們需要時間把計劃仔細想清楚。",
+          "highlight": "think the plan out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "在作決定前仔細考慮某事",
+      "titleEn": "think something over",
+      "formula": "think something over",
+      "highlight": "think something over",
+      "descriptionZh": "在作決定前仔細考慮某事",
+      "descriptionEn": "Please think the offer over before you decide.",
+      "examples": [
+        {
+          "en": "Please think the offer over before you decide.",
+          "zh": "請在作決定前仔細考慮這項提議。",
+          "highlight": "think the offer over"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "由頭到尾仔細考慮所有步驟、問題和後果",
+      "titleEn": "think something through",
+      "formula": "think something through",
+      "highlight": "think something through",
+      "descriptionZh": "由頭到尾仔細考慮所有步驟、問題和後果",
+      "descriptionEn": "We must think the changes through before we begin.",
+      "examples": [
+        {
+          "en": "We must think the changes through before we begin.",
+          "zh": "開始前,我們必須仔細想清楚所有改動。",
+          "highlight": "think the changes through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 10,
+      "titleZh": "想出或創造一個主意、名稱、方法或藉口",
+      "titleEn": "think something up",
+      "formula": "think something up",
+      "highlight": "think something up",
+      "descriptionZh": "想出或創造一個主意、名稱、方法或藉口",
+      "descriptionEn": "The children thought up a new game.",
+      "examples": [
+        {
+          "en": "The children thought up a new game.",
+          "zh": "孩子們想出了一個新遊戲。",
+          "highlight": "thought up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論想法和可能採取的行動",
+      "titleEn": "Talk clearly about thoughts and possible actions",
+      "zh": "think about 和 think of 能幫助你表達自己正在考慮甚麼、想起了甚麼,以及可能決定做甚麼。",
+      "en": "Think about and think of help you explain what is on your mind, what you remember and what you may decide to do."
+    },
+    {
+      "titleZh": "預先準備,避免草率決定",
+      "titleEn": "Prepare for the future and avoid careless decisions",
+      "zh": "think ahead 能幫助你預先考慮將來的需要;think twice 則表示在行動前停下來,再三考慮可能出現的問題。",
+      "en": "Think ahead helps you prepare for future needs. Think twice helps you stop and consider possible problems before acting."
+    },
+    {
+      "titleZh": "談論回憶和獨立判斷",
+      "titleEn": "Talk about memories and independent decisions",
+      "zh": "think back 能用來談論回憶;think for yourself 則表示你會自己思考,而不是盲目跟隨別人。",
+      "en": "Think back lets you describe memories. Think for yourself shows that you form your own opinion instead of simply following others."
+    },
+    {
+      "titleZh": "發展、檢查和創造構思",
+      "titleEn": "Develop, check and create ideas",
+      "zh": "think out、think over、think through 和 think up 能表達處理構思的不同階段,包括想出主意、仔細考慮及檢查每個細節。",
+      "en": "Think out, think over, think through and think up help you describe different stages of working with an idea—from inventing it to checking every detail."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論想法和可能採取的行動",
+      "預先準備,避免草率決定",
+      "談論回憶和獨立判斷",
+      "發展、檢查和創造構思"
+    ],
+    "contextsEn": [
+      "Talk clearly about thoughts and possible actions",
+      "Prepare for the future and avoid careless decisions",
+      "Talk about memories and independent decisions",
+      "Develop, check and create ideas"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論想法和可能採取的行動",
+        "titleEn": "Talk clearly about thoughts and possible actions",
+        "zh": "think about 和 think of 能幫助你表達自己正在考慮甚麼、想起了甚麼,以及可能決定做甚麼。",
+        "en": "Think about and think of help you explain what is on your mind, what you remember and what you may decide to do.",
+        "examples": [
+          {
+            "en": "I have been thinking about changing jobs.",
+            "zh": "我一直在考慮轉工。",
+            "highlight": "thinking about"
+          }
+        ]
+      },
+      {
+        "titleZh": "預先準備,避免草率決定",
+        "titleEn": "Prepare for the future and avoid careless decisions",
+        "zh": "think ahead 能幫助你預先考慮將來的需要;think twice 則表示在行動前停下來,再三考慮可能出現的問題。",
+        "en": "Think ahead helps you prepare for future needs. Think twice helps you stop and consider possible problems before acting.",
+        "examples": [
+          {
+            "en": "This song makes me think of my old school.",
+            "zh": "這首歌令我想起以前的學校。",
+            "highlight": "think"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論回憶和獨立判斷",
+        "titleEn": "Talk about memories and independent decisions",
+        "zh": "think back 能用來談論回憶;think for yourself 則表示你會自己思考,而不是盲目跟隨別人。",
+        "en": "Think back lets you describe memories. Think for yourself shows that you form your own opinion instead of simply following others.",
+        "examples": [
+          {
+            "en": "We need to think ahead to next winter.",
+            "zh": "我們需要預先考慮下個冬天的情況。",
+            "highlight": "think ahead to"
+          }
+        ]
+      },
+      {
+        "titleZh": "發展、檢查和創造構思",
+        "titleEn": "Develop, check and create ideas",
+        "zh": "think out、think over、think through 和 think up 能表達處理構思的不同階段,包括想出主意、仔細考慮及檢查每個細節。",
+        "en": "Think out, think over, think through and think up help you describe different stages of working with an idea—from inventing it to checking every detail.",
+        "examples": [
+          {
+            "en": "I would think twice about lending him the money.",
+            "zh": "我會再三考慮是否借錢給他。",
+            "highlight": "think twice about"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 THINK 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the THINK expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 THINK 片語動詞。",
+      "en": "Read the whole sentence and choose the THINK expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 THINK ... OUT / OVER / THROUGH / UP 中使用 it、him、her 或 them 時,把代名詞放在THINK 和後面的字之間。",
+      "titleEn": "When using it, him, her or them in a THINK.",
+      "zh": "在 THINK ... OUT / OVER / THROUGH / UP 中使用 it、him、her 或 them 時,把代名詞放在THINK 和後面的字之間。",
+      "en": "When using it, him, her or them in a THINK... OUT / OVER / THROUGH / UP expression, place the word in the middle: think it over think him up think them through"
+    },
+    {
+      "titleZh": "think about doing something 通常表示花時間考慮是否做某事;think of doing something 則常表示腦中想到這個做法。請仔細閱讀整個情境。",
+      "titleEn": "Think about doing something often means spending time considering an action.",
+      "zh": "think about doing something 通常表示花時間考慮是否做某事;think of doing something 則常表示腦中想到這個做法。請仔細閱讀整個情境。",
+      "en": "Think about doing something often means spending time considering an action. Think of doing something often means that the possible action comes to mind. Read the whole situation carefully."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 THINK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to THINK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "THINK 動詞片語句子改寫練習",
+    "titleEn": "THINK Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 THINK 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to THINK. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-86-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "The children invented a new name for their club.",
+      "promptZh": "孩子們為自己的社團創作了一個新名稱。",
+      "starter": "The",
+      "answer": "The children thought up a new name for their club.",
+      "answerZh": "孩子們為自己的社團想出了一個新名稱。",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的主意、名稱或方法"
+    },
+    {
+      "id": "phrasal-verb-86-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 16,
+      "prompt": "We need to plan now for next month’s school trip.",
+      "promptZh": "我們現在便要為下個月的學校旅行作打算。",
+      "starter": "We",
+      "answer": "We need to think ahead to next month’s school trip.",
+      "answerZh": "我們現在便要為下個月的學校旅行作打算。",
+      "highlight": "think ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I have spent all morning considering the job offer.",
+      "promptZh": "我整個早上都在考慮那份工作邀請。",
+      "starter": "I",
+      "answer": "I have spent all morning thinking about the job offer.",
+      "answerZh": "我整個早上都在考慮那份工作邀請。",
+      "highlight": "thinking about",
+      "targetForm": "think about something",
+      "targetMeaningZh": "仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The team carefully planned every part of the event before it began.",
+      "promptZh": "球隊在活動開始前仔細計劃好每一部分。",
+      "starter": "The",
+      "answer": "The team thought every part of the event out carefully before it began.",
+      "answerZh": "球隊在活動開始前仔細計劃好每一部分。",
+      "highlight": "thought",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把事情仔細想清楚並安排完整"
+    },
+    {
+      "id": "phrasal-verb-86-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "I would be very careful before calling him because he may be angry.",
+      "promptZh": "他可能正在生氣,所以我在打電話給他之前會非常小心地考慮。",
+      "starter": "I",
+      "answer": "I would think twice about calling him because he may be angry.",
+      "answerZh": "他可能正在生氣,所以我在打電話給他之前會再三考慮。",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做某事前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "This old photo reminds me of our first flat.",
+      "promptZh": "這張舊照片令我想起我們的第一個住所。",
+      "starter": "This",
+      "answer": "This old photo makes me think of our first flat.",
+      "answerZh": "這張舊照片令我想起我們的第一個住所。",
+      "highlight": "This old photo makes",
+      "targetForm": "think of something",
+      "targetMeaningZh": "想起某事物"
+    },
+    {
+      "id": "phrasal-verb-86-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She remembered the day they first met.",
+      "promptZh": "她回想起他們第一次見面的那一天。",
+      "starter": "She",
+      "answer": "She thought back to the day they first met.",
+      "answerZh": "她回想起他們第一次見面的那一天。",
+      "highlight": "thought back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please consider the offer before you answer.",
+      "promptZh": "請在回答前仔細考慮這項提議。",
+      "starter": "Please",
+      "answer": "Please think the offer over before you answer.",
+      "answerZh": "請在回答前仔細考慮這項提議。",
+      "highlight": "think",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Even now, the parents are planning for their children’s future exams.",
+      "promptZh": "即使孩子仍年幼,父母現在已開始為他們日後的考試作打算。",
+      "starter": "Even",
+      "answer": "Even now, the parents are thinking ahead to their children’s future exams.",
+      "answerZh": "即使孩子仍年幼,父母現在已開始為他們日後的考試作打算。",
+      "highlight": "thinking ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Do not copy everyone else; make your own judgement.",
+      "promptZh": "不要照搬其他人的想法;你要作出自己的判斷。",
+      "starter": "Do",
+      "answer": "Do not copy everyone else; think for yourself.",
+      "answerZh": "不要照搬其他人的想法;你要自己思考和判斷。",
+      "highlight": "think for yourself",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "They are considering moving to a smaller flat.",
+      "promptZh": "他們正在考慮搬到一個較小的單位。",
+      "starter": "They",
+      "answer": "They are thinking about moving to a smaller flat.",
+      "answerZh": "他們正在考慮搬到一個較小的單位。",
+      "highlight": "thinking about",
+      "targetForm": "think about doing something",
+      "targetMeaningZh": "仔細考慮做某事"
+    },
+    {
+      "id": "phrasal-verb-86-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "We must consider every step before we start the experiment.",
+      "promptZh": "開始實驗前,我們必須仔細考慮每一個步驟。",
+      "starter": "We",
+      "answer": "We must think every step through before we start the experiment.",
+      "answerZh": "開始實驗前,我們必須仔細考慮每一個步驟。",
+      "highlight": "think",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有步驟和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "You should be very careful before sharing that photo online.",
+      "promptZh": "你在網上分享那張照片前應該再三考慮。",
+      "starter": "You",
+      "answer": "You should think twice about sharing that photo online.",
+      "answerZh": "你在網上分享那張照片前應該再三考慮。",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做某事前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I never considered asking the neighbour for help.",
+      "promptZh": "我從未想過請鄰居幫忙。",
+      "starter": "I",
+      "answer": "I never thought of asking the neighbour for help.",
+      "answerZh": "我從未想過請鄰居幫忙。",
+      "highlight": "thought of",
+      "targetForm": "think of doing something",
+      "targetMeaningZh": "想到或考慮做某事"
+    },
+    {
+      "id": "phrasal-verb-86-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Alex always considers carefully before sending an angry message.",
+      "promptZh": "阿歷克斯在傳送憤怒的訊息前,總會再三考慮。",
+      "starter": "Alex",
+      "answer": "Alex always thinks twice about sending an angry message.",
+      "answerZh": "阿歷克斯在傳送憤怒的訊息前,總會再三考慮。",
+      "highlight": "thinks twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做某事前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The team is carefully planning the new timetable.",
+      "promptZh": "團隊正在仔細規劃新的時間表。",
+      "starter": "The",
+      "answer": "The team is carefully thinking out the new timetable.",
+      "answerZh": "團隊正在仔細規劃新的時間表。",
+      "highlight": "thinking out",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把事情仔細想清楚並安排完整"
+    },
+    {
+      "id": "phrasal-verb-86-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "For weeks, Noah has been considering whether to join the course.",
+      "promptZh": "諾亞幾個星期以來一直在考慮是否參加這個課程。",
+      "starter": "For",
+      "answer": "For weeks, Noah has been thinking about joining the course.",
+      "answerZh": "諾亞幾個星期以來一直在考慮是否參加這個課程。",
+      "highlight": "thinking about joining",
+      "targetForm": "think about doing something",
+      "targetMeaningZh": "花時間仔細考慮做某事"
+    },
+    {
+      "id": "phrasal-verb-86-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Do you sometimes remember your first day at this school?",
+      "promptZh": "你有時會回想自己在這所學校的第一天嗎?",
+      "starter": "Do",
+      "answer": "Do you sometimes think back to your first day at this school?",
+      "answerZh": "你有時會回想自己在這所學校的第一天嗎?",
+      "highlight": "think back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的時候或事件"
+    },
+    {
+      "id": "phrasal-verb-86-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "I will consider your suggestion tonight.",
+      "promptZh": "我今晚會仔細考慮你的建議。",
+      "starter": "I",
+      "answer": "I will think your suggestion over tonight.",
+      "answerZh": "我今晚會仔細考慮你的建議。",
+      "highlight": "think",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Who invented this funny team name?",
+      "promptZh": "誰想出了這個有趣的隊名?",
+      "starter": "Who",
+      "answer": "Who thought up this funny team name?",
+      "answerZh": "誰想出了這個有趣的隊名?",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的主意或名稱"
+    },
+    {
+      "id": "phrasal-verb-86-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Can you form your own opinion instead of simply agreeing with her?",
+      "promptZh": "你可以形成自己的看法,而不是只懂得同意她嗎?",
+      "starter": "Can",
+      "answer": "Can you think for yourself instead of simply agreeing with her?",
+      "answerZh": "你可以自己思考,而不是只懂得同意她嗎?",
+      "highlight": "think for yourself",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "We did not plan for the cold weather.",
+      "promptZh": "我們沒有預先考慮寒冷天氣的情況。",
+      "starter": "We",
+      "answer": "We did not think ahead to the cold weather.",
+      "answerZh": "我們沒有預先考慮寒冷天氣的情況。",
+      "highlight": "think ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "I often remember our last summer together.",
+      "promptZh": "我經常回想我們一起度過的最後一個夏天。",
+      "starter": "I",
+      "answer": "I often think back to our last summer together.",
+      "answerZh": "我經常回想我們一起度過的最後一個夏天。",
+      "highlight": "think back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的時候"
+    },
+    {
+      "id": "phrasal-verb-86-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Who comes to mind when you hear this song?",
+      "promptZh": "你聽到這首歌時會想起誰?",
+      "starter": "Who",
+      "answer": "Who do you think of when you hear this song?",
+      "answerZh": "你聽到這首歌時會想起誰?",
+      "highlight": "do you think of",
+      "targetForm": "think of somebody",
+      "targetMeaningZh": "想起某人"
+    },
+    {
+      "id": "phrasal-verb-86-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "She is considering the invitation before replying.",
+      "promptZh": "她正在仔細考慮那份邀請,然後才回覆。",
+      "starter": "She",
+      "answer": "She is thinking the invitation over before replying.",
+      "answerZh": "她正在仔細考慮那份邀請,然後才回覆。",
+      "highlight": "thinking",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "You should consider all the possible results before you agree.",
+      "promptZh": "你同意前應該仔細考慮所有可能的結果。",
+      "starter": "You",
+      "answer": "You should think all the possible results through before you agree.",
+      "answerZh": "你同意前應該仔細考慮所有可能的結果。",
+      "highlight": "think",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有步驟和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The new timetable is being carefully planned before the meeting.",
+      "promptZh": "新時間表正在會議前仔細擬定。",
+      "starter": "The",
+      "answer": "The new timetable is being thought out carefully before the meeting.",
+      "answerZh": "新時間表正在會議前仔細擬定。",
+      "highlight": "thought out",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把事情仔細想清楚並安排完整"
+    },
+    {
+      "id": "phrasal-verb-86-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Students should make their own decisions rather than let adverts decide for them.",
+      "promptZh": "學生應該自己作決定,而不是讓廣告替他們決定。",
+      "starter": "Students",
+      "answer": "Students should think for themselves rather than let adverts decide for them.",
+      "answerZh": "學生應該自己思考和作決定,而不是讓廣告替他們決定。",
+      "highlight": "think for themselves",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The manager gave me a new offer. I need a day to consider it.",
+      "promptZh": "經理向我提出了一項新提議。我需要一天時間仔細考慮。",
+      "starter": "The",
+      "answer": "The manager gave me a new offer. I need a day to think it over.",
+      "answerZh": "經理向我提出了一項新提議。我需要一天時間仔細考慮。",
+      "highlight": "think",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Whenever I see that café, I remember my grandfather.",
+      "promptZh": "每當我看見那間咖啡店,我便會想起祖父。",
+      "starter": "Whenever",
+      "answer": "Whenever I see that café, I think of my grandfather.",
+      "answerZh": "每當我看見那間咖啡店,我便會想起祖父。",
+      "highlight": "think of",
+      "targetForm": "think of somebody",
+      "targetMeaningZh": "想起某人"
+    },
+    {
+      "id": "phrasal-verb-86-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "The changes may affect every class. We need to consider them from beginning to end.",
+      "promptZh": "這些改動可能影響每個班別。我們需要由頭到尾仔細考慮。",
+      "starter": "The",
+      "answer": "The changes may affect every class. We need to think them through.",
+      "answerZh": "這些改動可能影響每個班別。我們需要由頭到尾仔細考慮。",
+      "highlight": "think",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有步驟和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Would you be very careful before paying for a phone you have not seen?",
+      "promptZh": "你會在購買一部從未看過的電話前再三考慮嗎?",
+      "starter": "Would",
+      "answer": "Would you think twice about paying for a phone you have not seen?",
+      "answerZh": "你會在購買一部從未看過的電話前再三考慮嗎?",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做某事前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Asha has two job offers. She has spent the whole weekend considering them.",
+      "promptZh": "阿莎收到兩份工作邀請。她整個週末都在仔細考慮。",
+      "starter": "Asha",
+      "answer": "Asha has two job offers. She has spent the whole weekend thinking about them.",
+      "answerZh": "阿莎收到兩份工作邀請。她整個週末都在仔細考慮。",
+      "highlight": "thinking about",
+      "targetForm": "think about something",
+      "targetMeaningZh": "花時間仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The problem is difficult, but give us time to consider it fully.",
+      "promptZh": "問題很困難,但請給我們時間把它完全想清楚。",
+      "starter": "The",
+      "answer": "The problem is difficult, but give us time to think it out.",
+      "answerZh": "問題很困難,但請給我們時間把它完全想清楚。",
+      "highlight": "think",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把問題仔細想清楚"
+    },
+    {
+      "id": "phrasal-verb-86-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "We need a title for the school show. Can you invent one?",
+      "promptZh": "我們需要一個學校表演的名稱。你可以想出一個嗎?",
+      "starter": "We",
+      "answer": "We need a title for the school show. Can you think one up?",
+      "answerZh": "我們需要一個學校表演的名稱。你可以想出一個嗎?",
+      "highlight": "think",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的主意或名稱"
+    },
+    {
+      "id": "phrasal-verb-86-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "When the old classmates met, they remembered their first school trip.",
+      "promptZh": "舊同學見面時,回想起他們第一次參加的學校旅行。",
+      "starter": "When",
+      "answer": "When the old classmates met, they thought back to their first school trip.",
+      "answerZh": "舊同學見面時,回想起他們第一次參加的學校旅行。",
+      "highlight": "thought back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Before we buy the car, we should plan for the cost of repairs next year.",
+      "promptZh": "購買汽車前,我們應該預先考慮明年的維修費用。",
+      "starter": "Before",
+      "answer": "Before we buy the car, we should think ahead to the cost of repairs next year.",
+      "answerZh": "購買汽車前,我們應該預先考慮明年的維修費用。",
+      "highlight": "think ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的需要"
+    },
+    {
+      "id": "phrasal-verb-86-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Every detail was considered carefully before the shop opened.",
+      "promptZh": "店舖開業前,每個細節都經過仔細考慮。",
+      "starter": "Every",
+      "answer": "Every detail was thought through carefully before the shop opened.",
+      "answerZh": "店舖開業前,每個細節都經過仔細考慮。",
+      "highlight": "thought through",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有細節和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The children listened to both sides and then made their own choice.",
+      "promptZh": "孩子們聽取雙方的意見,然後自行作出選擇。",
+      "starter": "The",
+      "answer": "The children listened to both sides and then thought for themselves.",
+      "answerZh": "孩子們聽取雙方的意見,然後自行思考和作出選擇。",
+      "highlight": "thought for themselves",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "It never occurred to him to check the back door.",
+      "promptZh": "他從未想到要檢查後門。",
+      "starter": "He",
+      "answer": "He never thought of checking the back door.",
+      "answerZh": "他從未想到要檢查後門。",
+      "highlight": "He",
+      "targetForm": "think of doing something",
+      "targetMeaningZh": "想到某個做法"
+    },
+    {
+      "id": "phrasal-verb-86-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The new game was invented during a long train journey.",
+      "promptZh": "這個新遊戲是在一次漫長的火車旅程中想出來的。",
+      "starter": "The",
+      "answer": "The new game was thought up during a long train journey.",
+      "answerZh": "這個新遊戲是在一次漫長的火車旅程中想出來的。",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的主意或遊戲"
+    },
+    {
+      "id": "phrasal-verb-86-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Have you spent any time considering studying abroad?",
+      "promptZh": "你有花時間考慮到外國升學嗎?",
+      "starter": "Have",
+      "answer": "Have you spent any time thinking about studying abroad?",
+      "answerZh": "你有花時間考慮到外國升學嗎?",
+      "highlight": "thinking about",
+      "targetForm": "think about doing something",
+      "targetMeaningZh": "花時間仔細考慮做某事"
+    },
+    {
+      "id": "phrasal-verb-86-q43",
+      "number": 43,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Priya wants to spend a week considering what life on the course would be like.",
+      "promptZh": "普里雅想花一個星期考慮修讀這個課程的生活會是怎樣的。",
+      "starter": "Priya",
+      "answer": "Priya wants to spend a week thinking about what life on the course would be like.",
+      "answerZh": "普里雅想花一個星期考慮修讀這個課程的生活會是怎樣的。",
+      "highlight": "thinking about",
+      "targetForm": "think about something",
+      "targetMeaningZh": "花時間仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q44",
+      "number": 44,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The path is closed and dangerous, so I would be very careful before using it.",
+      "promptZh": "這條小路已經封閉,而且十分危險,所以我在使用它前會再三考慮。",
+      "starter": "The",
+      "answer": "The path is closed and dangerous, so I would think twice about using it.",
+      "answerZh": "這條小路已經封閉,而且十分危險,所以我在使用它前會再三考慮。",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "因可能出現問題而再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q45",
+      "number": 45,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The café offered Ben a weekend job. He is considering the offer before deciding.",
+      "promptZh": "咖啡店向賓提供了一份週末工作。他正在仔細考慮,然後才作決定。",
+      "starter": "The",
+      "answer": "The café offered Ben a weekend job. He is thinking the offer over before deciding.",
+      "answerZh": "咖啡店向賓提供了一份週末工作。他正在仔細考慮,然後才作決定。",
+      "highlight": "thinking",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q46",
+      "number": 46,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The club is choosing a hall now, but it also needs to plan for next year’s larger group.",
+      "promptZh": "社團正在選擇會堂,但也需要預先考慮明年人數增加的情況。",
+      "starter": "The",
+      "answer": "The club is choosing a hall now, but it also needs to think ahead to next year’s larger group.",
+      "answerZh": "社團正在選擇會堂,但也需要預先考慮明年人數增加的情況。",
+      "highlight": "think ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的需要"
+    },
+    {
+      "id": "phrasal-verb-86-q47",
+      "number": 47,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Lina invented a simple poster idea because the team needed a cheap way to advertise.",
+      "promptZh": "琳娜想出了一個簡單的海報構思,因為團隊需要一種便宜的宣傳方法。",
+      "starter": "Lina",
+      "answer": "Lina thought up a simple poster idea because the team needed a cheap way to advertise.",
+      "answerZh": "琳娜想出了一個簡單的海報構思,因為團隊需要一種便宜的宣傳方法。",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的主意或方法"
+    },
+    {
+      "id": "phrasal-verb-86-q48",
+      "number": 48,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The smell of sea air made Ravi remember his childhood holidays.",
+      "promptZh": "海風的氣味令拉維回想起童年時的假期。",
+      "starter": "The",
+      "answer": "The smell of sea air made Ravi think back to his childhood holidays.",
+      "answerZh": "海風的氣味令拉維回想起童年時的假期。",
+      "highlight": "think back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的事情"
+    },
+    {
+      "id": "phrasal-verb-86-q49",
+      "number": 49,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "When the lights went out, Eva immediately remembered the torch in her bag.",
+      "promptZh": "燈光熄滅時,伊娃立即想起袋裏的電筒。",
+      "starter": "When",
+      "answer": "When the lights went out, Eva immediately thought of the torch in her bag.",
+      "answerZh": "燈光熄滅時,伊娃立即想起袋裏的電筒。",
+      "highlight": "thought of",
+      "targetForm": "think of something",
+      "targetMeaningZh": "突然想起某事物"
+    },
+    {
+      "id": "phrasal-verb-86-q50",
+      "number": 50,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The review was positive, but Kai still made his own judgement before buying the phone.",
+      "promptZh": "評論十分正面,但凱在購買電話前仍然作出了自己的判斷。",
+      "starter": "The",
+      "answer": "The review was positive, but Kai still thought for himself before buying the phone.",
+      "answerZh": "評論十分正面,但凱在購買電話前仍然自行思考和判斷。",
+      "highlight": "thought for himself",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q51",
+      "number": 51,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Before deciding, the school must consider how the timetable change will affect every class.",
+      "promptZh": "作決定前,學校必須仔細考慮時間表改動會如何影響每個班別。",
+      "starter": "Before",
+      "answer": "Before deciding, the school must think through how the timetable change will affect every class.",
+      "answerZh": "作決定前,學校必須仔細考慮時間表改動會如何影響每個班別。",
+      "highlight": "think through",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有影響和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q52",
+      "number": 52,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "You should reconsider posting that angry message because it may hurt someone.",
+      "promptZh": "你應該再三考慮是否發出那則憤怒的訊息,因為它可能傷害別人。",
+      "starter": "You",
+      "answer": "You should think twice about posting that angry message because it may hurt someone.",
+      "answerZh": "你應該再三考慮是否發出那則憤怒的訊息,因為它可能傷害別人。",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做可能帶來問題的事情前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q53",
+      "number": 53,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before printing the timetable, the team carefully planned every part of it.",
+      "promptZh": "列印時間表前,團隊仔細計劃好當中的每個部分。",
+      "starter": "Before",
+      "answer": "Before printing the timetable, the team thought it out carefully.",
+      "answerZh": "列印時間表前,團隊仔細計劃好當中的每個部分。",
+      "highlight": "thought it out",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把事情仔細想清楚並安排完整"
+    },
+    {
+      "id": "phrasal-verb-86-q54",
+      "number": 54,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The family is saving for the holiday, but it has not yet planned for food and travel costs.",
+      "promptZh": "這個家庭正在為假期儲蓄,但仍未預先考慮膳食和交通費用。",
+      "starter": "The",
+      "answer": "The family is saving for the holiday, but it has not yet thought ahead to food and travel costs.",
+      "answerZh": "這個家庭正在為假期儲蓄,但仍未預先考慮膳食和交通費用。",
+      "highlight": "thought ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的需要"
+    },
+    {
+      "id": "phrasal-verb-86-q55",
+      "number": 55,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Years later, the old teacher remembered the quiet child who loved reading.",
+      "promptZh": "多年後,那位年長的老師回想起那個喜愛閱讀的安靜孩子。",
+      "starter": "Years",
+      "answer": "Years later, the old teacher thought back to the quiet child who loved reading.",
+      "answerZh": "多年後,那位年長的老師回想起那個喜愛閱讀的安靜孩子。",
+      "highlight": "thought back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的人或事情"
+    },
+    {
+      "id": "phrasal-verb-86-q56",
+      "number": 56,
+      "band": 3,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Friends gave Nia different advice, so she listened and then made her own decision.",
+      "promptZh": "朋友給妮亞不同的意見,所以她先聆聽,再自行作出決定。",
+      "starter": "Friends",
+      "answer": "Friends gave Nia different advice, so she listened and then thought for herself.",
+      "answerZh": "朋友給妮亞不同的意見,所以她先聆聽,再自行思考和作出決定。",
+      "highlight": "thought for herself",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The school is buying tablets for this year, but it must also consider how they will be repaired and replaced later.",
+      "promptZh": "學校今年正在購買平板電腦,但也必須預先考慮日後如何維修和更換它們。",
+      "starter": "The",
+      "answer": "The school is buying tablets for this year, but it must also think ahead to how they will be repaired and replaced later.",
+      "answerZh": "學校今年正在購買平板電腦,但也必須預先考慮日後如何維修和更換它們。",
+      "highlight": "think ahead to",
+      "targetForm": "think ahead to something",
+      "targetMeaningZh": "預先考慮將來的需要"
+    },
+    {
+      "id": "phrasal-verb-86-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The coach has offered Jordan a place on the team. Jordan wants one night to consider the offer before answering.",
+      "promptZh": "教練給佐敦一個入隊名額。佐敦想用一晚時間仔細考慮,然後才作答。",
+      "starter": "The",
+      "answer": "The coach has offered Jordan a place on the team. Jordan wants one night to think the offer over before answering.",
+      "answerZh": "教練給佐敦一個入隊名額。佐敦想用一晚時間仔細考慮,然後才作答。",
+      "highlight": "think",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "After visiting the city twice, Lena is still considering whether living there would suit her.",
+      "promptZh": "蓮娜到訪這個城市兩次後,仍在考慮居住在那裏是否適合自己。",
+      "starter": "After",
+      "answer": "After visiting the city twice, Lena is still thinking about whether living there would suit her.",
+      "answerZh": "蓮娜到訪這個城市兩次後,仍在考慮居住在那裏是否適合自己。",
+      "highlight": "thinking about",
+      "targetForm": "think about something",
+      "targetMeaningZh": "花時間仔細考慮某件事情"
+    },
+    {
+      "id": "phrasal-verb-86-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Before changing the shop’s opening hours, the owner considered the change and its effects on staff, customers and deliveries.",
+      "promptZh": "店主在更改營業時間前,仔細考慮了這項改動對員工、顧客和送貨安排的影響。",
+      "starter": "Before",
+      "answer": "Before changing the shop’s opening hours, the owner thought the change through, including its effects on staff, customers and deliveries.",
+      "answerZh": "店主在更改營業時間前,仔細考慮了這項改動對員工、顧客和送貨安排的影響。",
+      "highlight": "thought",
+      "targetForm": "think something through",
+      "targetMeaningZh": "仔細考慮所有細節和後果"
+    },
+    {
+      "id": "phrasal-verb-86-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The online seller wants payment before showing the product. I would be very careful before sending any money.",
+      "promptZh": "網上賣家要求先付款才展示產品。我在付款前會再三考慮。",
+      "starter": "The",
+      "answer": "The online seller wants payment before showing the product. I would think twice about sending any money.",
+      "answerZh": "網上賣家要求先付款才展示產品。我在付款前會再三考慮。",
+      "highlight": "think twice about",
+      "targetForm": "think twice about doing something",
+      "targetMeaningZh": "在做有風險的事情前再三考慮"
+    },
+    {
+      "id": "phrasal-verb-86-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The class had a good idea for a science fair, but it still needed to plan the whole event carefully, including the times, jobs and materials.",
+      "promptZh": "全班為科學展覽想出了一個好主意,但仍需要仔細計劃整項活動,包括時間、工作和材料。",
+      "starter": "The",
+      "answer": "The class had a good idea for a science fair, but it still needed to think the whole event out carefully, including the times, jobs and materials.",
+      "answerZh": "全班為科學展覽想出了一個好主意,但仍需要仔細計劃整項活動,包括時間、工作和材料。",
+      "highlight": "think",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把完整安排仔細想清楚"
+    },
+    {
+      "id": "phrasal-verb-86-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "When the interviewer asked who had inspired him, Arun immediately remembered his first coach.",
+      "promptZh": "訪問員問誰曾經啟發阿倫時,他立即想起自己的第一位教練。",
+      "starter": "When",
+      "answer": "When the interviewer asked who had inspired him, Arun immediately thought of his first coach.",
+      "answerZh": "訪問員問誰曾經啟發阿倫時,他立即想起自己的第一位教練。",
+      "highlight": "thought of",
+      "targetForm": "think of somebody",
+      "targetMeaningZh": "想起某人"
+    },
+    {
+      "id": "phrasal-verb-86-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "The shop had no summer activity for children, so the staff invented a simple treasure hunt.",
+      "promptZh": "店舖沒有為兒童安排暑期活動,所以員工想出了一個簡單的尋寶遊戲。",
+      "starter": "The",
+      "answer": "The shop had no summer activity for children, so the staff thought up a simple treasure hunt.",
+      "answerZh": "店舖沒有為兒童安排暑期活動,所以員工想出了一個簡單的尋寶遊戲。",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的活動或主意"
+    },
+    {
+      "id": "phrasal-verb-86-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "As the train passed the old town, Mei remembered the years she had spent there as a child.",
+      "promptZh": "火車經過舊城鎮時,美回想起童年時在那裏生活的歲月。",
+      "starter": "As",
+      "answer": "As the train passed the old town, Mei thought back to the years she had spent there as a child.",
+      "answerZh": "火車經過舊城鎮時,美回想起童年時在那裏生活的歲月。",
+      "highlight": "thought back to",
+      "targetForm": "think back to something",
+      "targetMeaningZh": "回想過去的歲月"
+    },
+    {
+      "id": "phrasal-verb-86-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 26,
+      "prompt": "They were offered lower rent if they signed for two years, so they asked for time to consider the offer.",
+      "promptZh": "如果簽訂兩年租約,他們便可以獲得較低租金,因此他們要求時間仔細考慮這項提議。",
+      "starter": "They",
+      "answer": "They were offered lower rent if they signed for two years, so they asked for time to think the offer over.",
+      "answerZh": "如果簽訂兩年租約,他們便可以獲得較低租金,因此他們要求時間仔細考慮這項提議。",
+      "highlight": "think",
+      "targetForm": "think something over",
+      "targetMeaningZh": "在決定前仔細考慮某事"
+    },
+    {
+      "id": "phrasal-verb-86-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Readers should examine the facts and make their own judgement instead of simply accepting the article’s strong opinion.",
+      "promptZh": "讀者應該查看事實並自行判斷,而不是直接接受文章中的強烈意見。",
+      "starter": "Readers",
+      "answer": "Readers should examine the facts and think for themselves instead of simply accepting the article’s strong opinion.",
+      "answerZh": "讀者應該查看事實並自行思考和判斷,而不是直接接受文章中的強烈意見。",
+      "highlight": "think for themselves",
+      "targetForm": "think for yourself",
+      "targetMeaningZh": "自己思考和判斷"
+    },
+    {
+      "id": "phrasal-verb-86-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We should consider every stage of the journey before booking the two trains, ferry and long walk.",
+      "promptZh": "預訂兩程火車、渡輪和長途步行路線前,我們應該仔細考慮旅程的每一個階段。",
+      "starter": "We",
+      "answer": "We should think every stage of the journey through before booking the two trains, ferry and long walk.",
+      "answerZh": "預訂兩程火車、渡輪和長途步行路線前,我們應該仔細考慮旅程的每一個階段。",
+      "highlight": "think",
+      "targetForm": "think something through",
+      "targetMeaningZh": "由頭到尾仔細考慮所有步驟"
+    },
+    {
+      "id": "phrasal-verb-86-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Although the new club has enough members, the leaders still need to plan the details of meetings, fees and activities.",
+      "promptZh": "雖然新社團已有足夠成員,但負責人仍然需要仔細計劃會議、費用和活動的細節。",
+      "starter": "Although",
+      "answer": "Although the new club has enough members, the leaders still need to think the details out, including meetings, fees and activities.",
+      "answerZh": "雖然新社團已有足夠成員,但負責人仍然需要仔細計劃會議、費用和活動的細節。",
+      "highlight": "think",
+      "targetForm": "think something out",
+      "targetMeaningZh": "把事情的細節仔細想清楚"
+    },
+    {
+      "id": "phrasal-verb-86-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 27,
+      "prompt": "Using only paper cups and string, the children invented a game that kept everyone busy.",
+      "promptZh": "孩子們只用紙杯和繩子想出了一個遊戲,令所有人都有事情可做。",
+      "starter": "Using",
+      "answer": "Using only paper cups and string, the children thought up a game that kept everyone busy.",
+      "answerZh": "孩子們只用紙杯和繩子想出了一個遊戲,令所有人都有事情可做。",
+      "highlight": "thought up",
+      "targetForm": "think something up",
+      "targetMeaningZh": "想出新的遊戲或主意"
+    }
+  ]
+}

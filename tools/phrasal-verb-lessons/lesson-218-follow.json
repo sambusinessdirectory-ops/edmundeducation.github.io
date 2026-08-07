@@ -1,0 +1,1244 @@
+{
+  "id": "phrasal-verb-218",
+  "order": 218,
+  "slug": "follow",
+  "version": "1",
+  "title": "FOLLOW 動詞片語",
+  "titleEn": "Follow",
+  "titleZh": "FOLLOW 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 216 - FOLLOW.pdf",
+    "sourceNumber": 216,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FOLLOW 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FOLLOW."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FOLLOW",
+      "highlight": "FOLLOW"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Listen carefully and make sure your next question follows on naturally.",
+      "zh": "仔細聆聽,並確保你的下一條問題能自然承接前面的答案。",
+      "highlight": "follows on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Remember to follow through after you hit the ball.",
+      "zh": "擊球後記得完成整個連貫動作。",
+      "highlight": "follow through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The store started the prosecution but did not follow through with it.",
+      "zh": "商店展開了檢控程序,但沒有貫徹完成。",
+      "highlight": "follow through",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "接着發生;承接前面的說話、問題或內容繼續；完成擊球、踢球或投擲後的整套連貫動作；把答應或已開始的事情做到底;貫徹完成；在某事之後採取進一步行動;跟進",
+    "en": "follow on; follow through; follow through / follow something through; follow up / follow something up with something",
+    "naturalZh": [
+      "接着發生;承接前面的說話、問題或內容繼續",
+      "完成擊球、踢球或投擲後的整套連貫動作",
+      "把答應或已開始的事情做到底;貫徹完成",
+      "在某事之後採取進一步行動;跟進"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "follow on",
+      "titleZh": "接着發生;承接前面的說話、問題或內容繼續",
+      "titleEn": "follow on",
+      "descriptionZh": "接着發生;承接前面的說話、問題或內容繼續",
+      "descriptionEn": "Listen carefully and make sure your next question follows on naturally.",
+      "examples": [
+        {
+          "en": "Listen carefully and make sure your next question follows on naturally.",
+          "zh": "仔細聆聽,並確保你的下一條問題能自然承接前面的答案。",
+          "highlight": "follows on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "follow through",
+      "titleZh": "完成擊球、踢球或投擲後的整套連貫動作",
+      "titleEn": "follow through",
+      "descriptionZh": "完成擊球、踢球或投擲後的整套連貫動作",
+      "descriptionEn": "Remember to follow through after you hit the ball.",
+      "examples": [
+        {
+          "en": "Remember to follow through after you hit the ball.",
+          "zh": "擊球後記得完成整個連貫動作。",
+          "highlight": "follow through"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "follow through / follow something through",
+      "titleZh": "把答應或已開始的事情做到底;貫徹完成",
+      "titleEn": "follow through / follow something through",
+      "descriptionZh": "把答應或已開始的事情做到底;貫徹完成",
+      "descriptionEn": "The store started the prosecution but did not follow through with it.",
+      "examples": [
+        {
+          "en": "The store started the prosecution but did not follow through with it.",
+          "zh": "商店展開了檢控程序,但沒有貫徹完成。",
+          "highlight": "follow through"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "follow up / follow something up with something",
+      "titleZh": "在某事之後採取進一步行動;跟進",
+      "titleEn": "follow up / follow something up with something",
+      "descriptionZh": "在某事之後採取進一步行動;跟進",
+      "descriptionEn": "You should follow your letter up with a phone call.",
+      "examples": [
+        {
+          "en": "You should follow your letter up with a phone call.",
+          "zh": "你應在寫信後再打電話跟進。",
+          "highlight": "follow your letter up with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FOLLOW 片語動詞的實際用途",
+    "labelEn": "FOLLOW Phrasal Verbs in Use",
+    "summaryZh": "follow on 可以表示一條問題、一堂課、一個章節或一件事自然承接前面的內容。；follow through 可以描述球員擊球、踢球或投球後需要繼續完成的重要動作。；follow through 可以區分只是說會做某事,以及真正把事情貫徹完成。；follow up 可以表示再次聯絡某人、查看進度或採取另一項有用的行動。",
+    "summaryEn": "Follow on helps you show that a question, lesson, chapter or event continues naturally from something earlier. Follow through describes the important movement that continues after a player hits, kicks or throws a ball. Follow through can distinguish between merely saying that something will be done and actually completing it. Follow up helps you talk about contacting someone again, checking progress or taking another useful step.",
+    "contextsZh": [
+      "自然連接問題、構思和事件",
+      "清楚說明運動動作",
+      "說明某人有否真正履行承諾或完成計劃",
+      "描述信件、會議或要求之後的跟進行動"
+    ],
+    "contextsEn": [
+      "Connect questions, ideas and events naturally",
+      "Give clear instructions in sport",
+      "Show whether someone really completes a promise or plan",
+      "Describe action taken after a letter, meeting or request"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FOLLOW 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FOLLOW expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "follow on",
+    "fixedHighlight": "follow on",
+    "fixedZh": "閱讀整句,選出意思相同的 FOLLOW 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FOLLOW expression that gives the same meaning.",
+    "correct": "follows on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間、動作和結果。；以 from 或 with 開始的部分提供額外資料,並非每次都必須出現。核心表達仍然是 follow on、follow through 和 follow up。；當 it、him、her 或 them 直接放在 FOLLOW 後面時,請按照以上例子使用。",
+    "variableEn": "Keep the same people, things, time, action and result. Phrases beginning with from or with provide extra information. They are not always part of the core expression: follow on follow on from the answer follow through follow through with the plan follow up follow the email up with a phone call When it, him, her or them comes directly after FOLLOW, place it as shown: follow it through follow it up with a phone call",
+    "variableItemsZh": [
+      "follow on",
+      "follow through",
+      "follow through / follow something through",
+      "follow up / follow something up with something"
+    ],
+    "variableItemsEn": [
+      "follow on",
+      "follow through",
+      "follow through / follow something through",
+      "follow up / follow something up with something"
+    ],
+    "forms": [
+      {
+        "formZh": "接着發生;承接前面的說話、問題或內容繼續",
+        "formEn": "follow on",
+        "exampleZh": "仔細聆聽,並確保你的下一條問題能自然承接前面的答案。",
+        "exampleEn": "Listen carefully and make sure your next question follows on naturally.",
+        "highlight": "follows on"
+      },
+      {
+        "formZh": "完成擊球、踢球或投擲後的整套連貫動作",
+        "formEn": "follow through",
+        "exampleZh": "擊球後記得完成整個連貫動作。",
+        "exampleEn": "Remember to follow through after you hit the ball.",
+        "highlight": "follow through"
+      },
+      {
+        "formZh": "把答應或已開始的事情做到底;貫徹完成",
+        "formEn": "follow through / follow something through",
+        "exampleZh": "商店展開了檢控程序,但沒有貫徹完成。",
+        "exampleEn": "The store started the prosecution but did not follow through with it.",
+        "highlight": "follow through"
+      },
+      {
+        "formZh": "在某事之後採取進一步行動;跟進",
+        "formEn": "follow up / follow something up with something",
+        "exampleZh": "你應在寫信後再打電話跟進。",
+        "exampleEn": "You should follow your letter up with a phone call.",
+        "highlight": "follow your letter up with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "接着發生;承接前面的說話、問題或內容繼續",
+      "titleEn": "follow on",
+      "formula": "follow on",
+      "highlight": "follow on",
+      "descriptionZh": "接着發生;承接前面的說話、問題或內容繼續",
+      "descriptionEn": "Listen carefully and make sure your next question follows on naturally.",
+      "examples": [
+        {
+          "en": "Listen carefully and make sure your next question follows on naturally.",
+          "zh": "仔細聆聽,並確保你的下一條問題能自然承接前面的答案。",
+          "highlight": "follows on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "完成擊球、踢球或投擲後的整套連貫動作",
+      "titleEn": "follow through",
+      "formula": "follow through",
+      "highlight": "follow through",
+      "descriptionZh": "完成擊球、踢球或投擲後的整套連貫動作",
+      "descriptionEn": "Remember to follow through after you hit the ball.",
+      "examples": [
+        {
+          "en": "Remember to follow through after you hit the ball.",
+          "zh": "擊球後記得完成整個連貫動作。",
+          "highlight": "follow through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把答應或已開始的事情做到底;貫徹完成",
+      "titleEn": "follow through / follow something through",
+      "formula": "follow through / follow something through",
+      "highlight": "follow through / follow something through",
+      "descriptionZh": "把答應或已開始的事情做到底;貫徹完成",
+      "descriptionEn": "The store started the prosecution but did not follow through with it.",
+      "examples": [
+        {
+          "en": "The store started the prosecution but did not follow through with it.",
+          "zh": "商店展開了檢控程序,但沒有貫徹完成。",
+          "highlight": "follow through"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "在某事之後採取進一步行動;跟進",
+      "titleEn": "follow up / follow something up with something",
+      "formula": "follow up / follow something up with something",
+      "highlight": "follow up / follow something up with something",
+      "descriptionZh": "在某事之後採取進一步行動;跟進",
+      "descriptionEn": "You should follow your letter up with a phone call.",
+      "examples": [
+        {
+          "en": "You should follow your letter up with a phone call.",
+          "zh": "你應在寫信後再打電話跟進。",
+          "highlight": "follow your letter up with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然連接問題、構思和事件",
+      "titleEn": "Connect questions, ideas and events naturally",
+      "zh": "follow on 可以表示一條問題、一堂課、一個章節或一件事自然承接前面的內容。",
+      "en": "Follow on helps you show that a question, lesson, chapter or event continues naturally from something earlier."
+    },
+    {
+      "titleZh": "清楚說明運動動作",
+      "titleEn": "Give clear instructions in sport",
+      "zh": "follow through 可以描述球員擊球、踢球或投球後需要繼續完成的重要動作。",
+      "en": "Follow through describes the important movement that continues after a player hits, kicks or throws a ball."
+    },
+    {
+      "titleZh": "說明某人有否真正履行承諾或完成計劃",
+      "titleEn": "Show whether someone really completes a promise or plan",
+      "zh": "follow through 可以區分只是說會做某事,以及真正把事情貫徹完成。",
+      "en": "Follow through can distinguish between merely saying that something will be done and actually completing it."
+    },
+    {
+      "titleZh": "描述信件、會議或要求之後的跟進行動",
+      "titleEn": "Describe action taken after a letter, meeting or request",
+      "zh": "follow up 可以表示再次聯絡某人、查看進度或採取另一項有用的行動。",
+      "en": "Follow up helps you talk about contacting someone again, checking progress or taking another useful step."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然連接問題、構思和事件",
+      "清楚說明運動動作",
+      "說明某人有否真正履行承諾或完成計劃",
+      "描述信件、會議或要求之後的跟進行動"
+    ],
+    "contextsEn": [
+      "Connect questions, ideas and events naturally",
+      "Give clear instructions in sport",
+      "Show whether someone really completes a promise or plan",
+      "Describe action taken after a letter, meeting or request"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然連接問題、構思和事件",
+        "titleEn": "Connect questions, ideas and events naturally",
+        "zh": "follow on 可以表示一條問題、一堂課、一個章節或一件事自然承接前面的內容。",
+        "en": "Follow on helps you show that a question, lesson, chapter or event continues naturally from something earlier.",
+        "examples": [
+          {
+            "en": "Listen carefully and make sure your next question follows on naturally.",
+            "zh": "仔細聆聽,並確保你的下一條問題能自然承接前面的答案。",
+            "highlight": "follows on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明運動動作",
+        "titleEn": "Give clear instructions in sport",
+        "zh": "follow through 可以描述球員擊球、踢球或投球後需要繼續完成的重要動作。",
+        "en": "Follow through describes the important movement that continues after a player hits, kicks or throws a ball.",
+        "examples": [
+          {
+            "en": "Remember to follow through after you hit the ball.",
+            "zh": "擊球後記得完成整個連貫動作。",
+            "highlight": "follow through"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明某人有否真正履行承諾或完成計劃",
+        "titleEn": "Show whether someone really completes a promise or plan",
+        "zh": "follow through 可以區分只是說會做某事,以及真正把事情貫徹完成。",
+        "en": "Follow through can distinguish between merely saying that something will be done and actually completing it.",
+        "examples": [
+          {
+            "en": "The store started the prosecution but did not follow through with it.",
+            "zh": "商店展開了檢控程序,但沒有貫徹完成。",
+            "highlight": "follow through"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述信件、會議或要求之後的跟進行動",
+        "titleEn": "Describe action taken after a letter, meeting or request",
+        "zh": "follow up 可以表示再次聯絡某人、查看進度或採取另一項有用的行動。",
+        "en": "Follow up helps you talk about contacting someone again, checking progress or taking another useful step.",
+        "examples": [
+          {
+            "en": "You should follow your letter up with a phone call.",
+            "zh": "你應在寫信後再打電話跟進。",
+            "highlight": "follow your letter up with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FOLLOW 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FOLLOW expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FOLLOW 片語動詞。",
+      "en": "Read the whole sentence and choose the FOLLOW expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間、動作和結果。",
+      "titleEn": "Keep the same people, things, time, action and result.",
+      "zh": "保留原句中的人物、事物、時間、動作和結果。",
+      "en": "Keep the same people, things, time, action and result."
+    },
+    {
+      "titleZh": "以 from 或 with 開始的部分提供額外資料,並非每次都必須出現。核心表達仍然是 follow on、follow through 和 follow up。",
+      "titleEn": "Phrases beginning with from or with provide extra information.",
+      "zh": "以 from 或 with 開始的部分提供額外資料,並非每次都必須出現。核心表達仍然是 follow on、follow through 和 follow up。",
+      "en": "Phrases beginning with from or with provide extra information. They are not always part of the core expression: follow on follow on from the answer follow through follow through with the plan follow up follow the email up with a phone call"
+    },
+    {
+      "titleZh": "當 it、him、her 或 them 直接放在 FOLLOW 後面時,請按照以上例子使用。",
+      "titleEn": "When it, him, her or them comes directly after FOLLOW, place it as shown: follow it through follow it up with a phone call.",
+      "zh": "當 it、him、her 或 them 直接放在 FOLLOW 後面時,請按照以上例子使用。",
+      "en": "When it, him, her or them comes directly after FOLLOW, place it as shown: follow it through follow it up with a phone call"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FOLLOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FOLLOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FOLLOW 動詞片語句子改寫練習",
+    "titleEn": "FOLLOW Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FOLLOW 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FOLLOW. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-218-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The store started a prosecution but did not complete it.",
+      "promptZh": "商店展開了檢控程序,但沒有把它完成。",
+      "starter": "The",
+      "answer": "The store started a prosecution but did not follow through with it.",
+      "answerZh": "商店展開了檢控程序,但沒有把它貫徹完成。",
+      "highlight": "follow through with",
+      "targetForm": "follow through",
+      "targetMeaningZh": "把答應或開始的事情做到底;貫徹完成"
+    },
+    {
+      "id": "phrasal-verb-218-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Her next question continued naturally.",
+      "promptZh": "她的下一條問題自然地承接下去。",
+      "starter": "Her",
+      "answer": "Her next question followed on naturally.",
+      "answerZh": "她的下一條問題自然地承接下去。",
+      "highlight": "followed on",
+      "targetForm": "follow on",
+      "targetMeaningZh": "接着發生;承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "You should write a letter and then make a phone call.",
+      "promptZh": "你應先寫信,然後再打電話。",
+      "starter": "You",
+      "answer": "You should follow your letter up with a phone call.",
+      "answerZh": "你應在寫信後再打電話跟進。",
+      "highlight": "follow your",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Keep moving your arm after you throw the ball.",
+      "promptZh": "把球擲出後,手臂要繼續向前移動。",
+      "starter": "Follow",
+      "answer": "Follow through after you throw the ball by keeping your arm moving.",
+      "answerZh": "把球擲出後,繼續移動手臂,完成整個連貫動作。",
+      "highlight": "Follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球、踢球或投擲後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The club promised to fix the lights and did what it had promised.",
+      "promptZh": "會所承諾修理燈具,並履行了承諾。",
+      "starter": "The",
+      "answer": "The club promised to fix the lights and followed through.",
+      "answerZh": "會所承諾修理燈具,並貫徹完成了這件事。",
+      "highlight": "followed through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "履行承諾;把事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The doctor contacted the patient again a week later.",
+      "promptZh": "醫生一星期後再次聯絡病人。",
+      "starter": "The",
+      "answer": "The doctor followed up with the patient a week later.",
+      "answerZh": "醫生一星期後再聯絡病人跟進。",
+      "highlight": "followed up with",
+      "targetForm": "follow up with somebody",
+      "targetMeaningZh": "再次聯絡某人跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The second lesson continues naturally from the first one.",
+      "promptZh": "第二堂課自然地承接第一堂課的內容。",
+      "starter": "The",
+      "answer": "The second lesson follows on naturally from the first one.",
+      "answerZh": "第二堂課自然地承接第一堂課的內容。",
+      "highlight": "follows on",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Please complete the complaint process instead of stopping halfway.",
+      "promptZh": "請完成整個投訴程序,不要半途停止。",
+      "starter": "Please",
+      "answer": "Please follow the complaint through instead of stopping halfway.",
+      "answerZh": "請把整個投訴程序跟進到底,不要半途停止。",
+      "highlight": "follow",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Sam completed the full movement after hitting the golf ball.",
+      "promptZh": "森擊中高爾夫球後完成了整個揮桿動作。",
+      "starter": "Sam",
+      "answer": "Sam hit the golf ball and followed through.",
+      "answerZh": "森擊中高爾夫球後完成了整個揮桿動作。",
+      "highlight": "hit",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I sent an email and then sent a short message as another step.",
+      "promptZh": "我先發了一封電郵,然後再傳送短訊作進一步跟進。",
+      "starter": "I",
+      "answer": "I sent an email and followed it up with a short message.",
+      "answerZh": "我在發出電郵後,再以短訊跟進。",
+      "highlight": "followed it up with",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The players are practising the full movement that comes after each kick.",
+      "promptZh": "球員正在練習每次踢球後需要繼續完成的動作。",
+      "starter": "The",
+      "answer": "The players are practising how to follow through properly after each kick.",
+      "answerZh": "球員正在練習如何在每次踢球後正確完成整個連貫動作。",
+      "highlight": "how to follow through properly",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成踢球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Has Nina contacted the school again about the missing bag?",
+      "promptZh": "妮娜有否再次聯絡學校,跟進遺失的袋子?",
+      "starter": "Has",
+      "answer": "Has Nina followed up with the school about the missing bag?",
+      "answerZh": "妮娜有否再次聯絡學校,跟進遺失的袋子?",
+      "highlight": "followed up with",
+      "targetForm": "follow up with somebody",
+      "targetMeaningZh": "再次聯絡某人跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "After the short film, a discussion will continue naturally.",
+      "promptZh": "短片播放後,討論會自然地繼續下去。",
+      "starter": "After",
+      "answer": "After the short film, a discussion will follow on naturally.",
+      "answerZh": "短片播放後,討論會自然地承接下去。",
+      "highlight": "follow on",
+      "targetForm": "follow on",
+      "targetMeaningZh": "接着發生;承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The company has made several promises to customers and has completed every one.",
+      "promptZh": "公司曾向顧客作出多項承諾,並已逐一履行。",
+      "starter": "The",
+      "answer": "The company has made several promises to customers and has followed through every time.",
+      "answerZh": "公司曾向顧客作出多項承諾,並每次都貫徹履行。",
+      "highlight": "followed through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "履行承諾;把事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We are taking further action because the payment has not arrived.",
+      "promptZh": "款項尚未收到,所以我們正在採取進一步行動。",
+      "starter": "We",
+      "answer": "We are following up because the payment has not arrived.",
+      "answerZh": "款項尚未收到,所以我們正在跟進。",
+      "highlight": "following up",
+      "targetForm": "follow up",
+      "targetMeaningZh": "採取進一步行動;跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ava hit the ball but stopped the movement too early.",
+      "promptZh": "艾娃擊球後太早停止了動作。",
+      "starter": "Ava",
+      "answer": "Ava hit the ball but did not follow through.",
+      "answerZh": "艾娃擊球後沒有完成整個連貫動作。",
+      "highlight": "did not follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Does this chapter continue directly from the last one?",
+      "promptZh": "這一章是否直接承接上一章?",
+      "starter": "Does",
+      "answer": "Does this chapter follow on directly from the last one?",
+      "answerZh": "這一章是否直接承接上一章?",
+      "highlight": "follow on",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The teacher added a short quiz after the reading activity.",
+      "promptZh": "老師在閱讀活動後加了一個小測驗。",
+      "starter": "The",
+      "answer": "The teacher followed the reading activity up with a short quiz.",
+      "answerZh": "老師在閱讀活動後,以一個小測驗作跟進。",
+      "highlight": "followed the reading activity up with",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "Will the council do what it promised and repair the road?",
+      "promptZh": "市議會會否履行承諾,修理道路?",
+      "starter": "Will",
+      "answer": "Will the council follow through with its promise to repair the road?",
+      "answerZh": "市議會會否貫徹履行修理道路的承諾?",
+      "highlight": "follow through with its promise to",
+      "targetForm": "follow through with something",
+      "targetMeaningZh": "貫徹履行承諾或完成計劃"
+    },
+    {
+      "id": "phrasal-verb-218-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "To make the serve stronger, continue the full arm movement after hitting the ball.",
+      "promptZh": "要令發球更有力,擊球後要繼續完成整個手臂動作。",
+      "starter": "To",
+      "answer": "To make the serve stronger, follow through fully after hitting the ball.",
+      "answerZh": "要令發球更有力,擊球後要完整地完成整個連貫動作。",
+      "highlight": "follow through fully",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The speaker answered clearly. A closely connected question came next.",
+      "promptZh": "講者回答得很清楚。接着出現了一條與答案緊密相關的問題。",
+      "starter": "The",
+      "answer": "The speaker answered clearly. A closely connected question followed on.",
+      "answerZh": "講者回答得很清楚。接着出現了一條與答案緊密相關的問題。",
+      "highlight": "followed on",
+      "targetForm": "follow on",
+      "targetMeaningZh": "接着發生;承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The plan is difficult, but we should complete it.",
+      "promptZh": "這項計劃很困難,但我們應把它完成。",
+      "starter": "The",
+      "answer": "The plan is difficult, but we should follow it through.",
+      "answerZh": "這項計劃很困難,但我們應把它貫徹完成。",
+      "highlight": "follow",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Kai watched the ball, hit it and continued the movement towards the target.",
+      "promptZh": "啟望着球,擊球後繼續把動作帶向目標。",
+      "starter": "Kai",
+      "answer": "Kai watched the ball, hit it and followed through towards the target.",
+      "answerZh": "啟望着球,擊球後完成整個動作,把動作帶向目標。",
+      "highlight": "followed through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The shop has not replied, so I will contact its staff again tomorrow.",
+      "promptZh": "店舖尚未回覆,所以我明天會再次聯絡店員。",
+      "starter": "The",
+      "answer": "The shop has not replied, so I will follow up with its staff tomorrow.",
+      "answerZh": "店舖尚未回覆,所以我明天會再聯絡店員跟進。",
+      "highlight": "follow up with",
+      "targetForm": "follow up with somebody",
+      "targetMeaningZh": "再次聯絡某人跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Our new project continues from the work we completed last term.",
+      "promptZh": "我們的新項目承接上學期完成的工作。",
+      "starter": "Our",
+      "answer": "Our new project follows on from the work we completed last term.",
+      "answerZh": "我們的新項目承接上學期完成的工作。",
+      "highlight": "follows on",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The idea was useful, and Priya had the patience to complete it.",
+      "promptZh": "這個構思很有用,而普里雅有耐性把它完成。",
+      "starter": "The",
+      "answer": "The idea was useful, and Priya had the patience to follow it through.",
+      "answerZh": "這個構思很有用,而普里雅有耐性把它貫徹完成。",
+      "highlight": "follow",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Did Omar continue the movement when he kicked the ball?",
+      "promptZh": "奧馬踢球時有否繼續完成整個動作?",
+      "starter": "Did",
+      "answer": "Did Omar follow through when he kicked the ball?",
+      "answerZh": "奧馬踢球時有否完成整個連貫動作?",
+      "highlight": "follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成踢球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Each question came naturally after the one before it, so the interview sounded natural.",
+      "promptZh": "每條問題都自然地承接前一條問題,因此訪問聽起來很流暢。",
+      "starter": "Each",
+      "answer": "Each question followed on naturally, so the interview sounded natural.",
+      "answerZh": "每條問題都自然地承接下去,因此訪問聽起來很流暢。",
+      "highlight": "followed on",
+      "targetForm": "follow on",
+      "targetMeaningZh": "接着發生;承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The email was answered later with a phone call.",
+      "promptZh": "該封電郵其後以一通電話作跟進。",
+      "starter": "The",
+      "answer": "The email was followed up with a phone call.",
+      "answerZh": "該封電郵其後以一通電話作跟進。",
+      "highlight": "followed up",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Completing the plan will take patience and time.",
+      "promptZh": "把這項計劃完成需要耐性和時間。",
+      "starter": "Following",
+      "answer": "Following through with the plan will take patience and time.",
+      "answerZh": "貫徹完成這項計劃需要耐性和時間。",
+      "highlight": "Following through with",
+      "targetForm": "follow through with something",
+      "targetMeaningZh": "貫徹完成計劃或承諾"
+    },
+    {
+      "id": "phrasal-verb-218-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The manager made a clear promise but never did what she had said.",
+      "promptZh": "經理作出了明確承諾,但最後沒有履行。",
+      "starter": "The",
+      "answer": "The manager made a clear promise but never followed through.",
+      "answerZh": "經理作出了明確承諾,但最後沒有貫徹履行。",
+      "highlight": "followed through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "履行承諾;把事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "When you hit the tennis ball, do not stop your arm immediately.",
+      "promptZh": "擊打網球時,不要立即停止手臂動作。",
+      "starter": "When",
+      "answer": "When you hit the tennis ball, follow through instead of stopping your arm immediately.",
+      "answerZh": "擊打網球時,要完成整個連貫動作,不要立即停止手臂。",
+      "highlight": "follow through instead of stopping",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The second part of the story begins where the first part ended.",
+      "promptZh": "故事的第二部分從第一部分結束之處開始。",
+      "starter": "The",
+      "answer": "The second part of the story follows on from where the first part ended.",
+      "answerZh": "故事的第二部分承接第一部分結束之處。",
+      "highlight": "follows on from",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the first meeting, the team took another step by sending everyone a short survey.",
+      "promptZh": "第一次會議後,團隊向所有人發送簡短問卷,採取進一步行動。",
+      "starter": "After",
+      "answer": "After the first meeting, the team followed up with a short survey.",
+      "answerZh": "第一次會議後,團隊以一份簡短問卷作跟進。",
+      "highlight": "followed up with",
+      "targetForm": "follow up with something",
+      "targetMeaningZh": "採取另一項行動作跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They began the investigation, and now they must continue it until the end.",
+      "promptZh": "他們已展開調查,現在必須把它進行到底。",
+      "starter": "They",
+      "answer": "They began the investigation, and now they must follow it through to the end.",
+      "answerZh": "他們已展開調查,現在必須把它跟進到底。",
+      "highlight": "follow",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The coach asked Leo to continue the racket movement smoothly after contact.",
+      "promptZh": "教練要求里奧在球拍觸球後順暢地繼續完成動作。",
+      "starter": "The",
+      "answer": "The coach asked Leo to follow through smoothly after contact.",
+      "answerZh": "教練要求里奧在球拍觸球後順暢地完成整個連貫動作。",
+      "highlight": "follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "If you say you will help, you should really do it.",
+      "promptZh": "你若說會幫忙,便應真正履行承諾。",
+      "starter": "If",
+      "answer": "If you say you will help, you should follow through.",
+      "answerZh": "你若說會幫忙,便應貫徹履行承諾。",
+      "highlight": "follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "履行承諾;把事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "This exercise is a direct continuation of the one on the previous page.",
+      "promptZh": "這項練習直接承接上一頁的練習。",
+      "starter": "This",
+      "answer": "This exercise follows on directly from the one on the previous page.",
+      "answerZh": "這項練習直接承接上一頁的練習。",
+      "highlight": "follows on directly from",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Did you send another message after your first request?",
+      "promptZh": "你在第一次提出要求後,有否再傳送另一則訊息跟進?",
+      "starter": "Did",
+      "answer": "Did you follow your first request up with another message?",
+      "answerZh": "你在第一次提出要求後,有否再以另一則訊息跟進?",
+      "highlight": "follow",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Aisha hit the golf ball well but stopped her movement too early.",
+      "promptZh": "艾莎把高爾夫球擊得很好,但太早停止了動作。",
+      "starter": "Aisha",
+      "answer": "Aisha hit the golf ball well but did not follow through.",
+      "answerZh": "艾莎把高爾夫球擊得很好,但沒有完成整個揮桿動作。",
+      "highlight": "did not follow through",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成擊球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The problem seemed solved, but the school contacted the family again to check that everything was fine.",
+      "promptZh": "問題看似已解決,但學校再次聯絡該家庭,確認一切是否妥當。",
+      "starter": "The",
+      "answer": "The problem seemed solved, but the school followed up with the family to check that everything was fine.",
+      "answerZh": "問題看似已解決,但學校再次聯絡該家庭跟進,確認一切是否妥當。",
+      "highlight": "followed up with",
+      "targetForm": "follow up with somebody",
+      "targetMeaningZh": "再次聯絡某人跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Because the two ideas were closely connected, the second came naturally after the first.",
+      "promptZh": "由於兩個構思緊密相連,第二個構思自然地承接第一個。",
+      "starter": "Because",
+      "answer": "Because the two ideas were closely connected, the second followed on naturally.",
+      "answerZh": "由於兩個構思緊密相連,第二個構思自然地承接下去。",
+      "highlight": "followed on",
+      "targetForm": "follow on",
+      "targetMeaningZh": "接着發生;承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Nora announced a new plan, but everyone waited to see whether she would complete it.",
+      "promptZh": "諾拉公布了一項新計劃,但大家都等着看她會否把它完成。",
+      "starter": "Nora",
+      "answer": "Nora announced a new plan, but everyone waited to see whether she would follow it through.",
+      "answerZh": "諾拉公布了一項新計劃,但大家都等着看她會否把它貫徹完成。",
+      "highlight": "follow",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The ball went only a short distance because Ben stopped his kicking movement too soon.",
+      "promptZh": "球只移動了很短距離,因為賓太早停止踢球動作。",
+      "starter": "The",
+      "answer": "The ball went only a short distance because Ben did not follow through fully.",
+      "answerZh": "球只移動了很短距離,因為賓沒有完整地完成踢球動作。",
+      "highlight": "did not follow through fully",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成踢球後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "A phone call after the letter may help us get a quicker reply.",
+      "promptZh": "寄信後再打電話,可能有助我們更快收到回覆。",
+      "starter": "Following",
+      "answer": "Following the letter up with a phone call may help us get a quicker reply.",
+      "answerZh": "寄信後再打電話跟進,可能有助我們更快收到回覆。",
+      "highlight": "Following the letter up with",
+      "targetForm": "follow something up with something",
+      "targetMeaningZh": "在某事之後採取進一步行動"
+    },
+    {
+      "id": "phrasal-verb-218-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Tomorrow’s class will continue from today’s work and study the same topic.",
+      "promptZh": "明天的課堂會承接今天的學習內容,繼續研習同一主題。",
+      "starter": "Tomorrow’s",
+      "answer": "Tomorrow’s class will follow on from today’s work and study the same topic.",
+      "answerZh": "明天的課堂會承接今天的學習內容,繼續研習同一主題。",
+      "highlight": "follow on",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    },
+    {
+      "id": "phrasal-verb-218-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The committee started the safety review and stayed with it until every problem had been checked.",
+      "promptZh": "委員會展開安全檢討,並一直進行至所有問題都獲得檢查。",
+      "starter": "The",
+      "answer": "The committee followed the safety review through until every problem had been checked.",
+      "answerZh": "委員會把安全檢討貫徹到底,直至所有問題都獲得檢查。",
+      "highlight": "followed",
+      "targetForm": "follow something through",
+      "targetMeaningZh": "把已開始的事情做到底"
+    },
+    {
+      "id": "phrasal-verb-218-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "We sent the form last week, and now we need to contact the office again.",
+      "promptZh": "我們上星期寄出了表格,現在需要再次聯絡辦公室。",
+      "starter": "We",
+      "answer": "We sent the form last week, and now we need to follow up with the office.",
+      "answerZh": "我們上星期寄出了表格,現在需要再次聯絡辦公室跟進。",
+      "highlight": "follow up with",
+      "targetForm": "follow up with somebody",
+      "targetMeaningZh": "再次聯絡某人或機構跟進"
+    },
+    {
+      "id": "phrasal-verb-218-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "To throw farther, keep your arm moving after the ball leaves your hand.",
+      "promptZh": "要把球擲得更遠,球離手後仍要繼續移動手臂。",
+      "starter": "To",
+      "answer": "To throw farther, follow through fully.",
+      "answerZh": "要把球擲得更遠,便要完整地完成整個投擲動作。",
+      "highlight": "follow through fully",
+      "targetForm": "follow through",
+      "targetMeaningZh": "完成投擲後的連貫動作"
+    },
+    {
+      "id": "phrasal-verb-218-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The final question was not planned, but it grew naturally from the guest’s last answer.",
+      "promptZh": "最後一條問題並非預先準備,而是自然地從嘉賓上一個答案發展出來。",
+      "starter": "The",
+      "answer": "The final question was not planned, but it followed on naturally from the guest’s last answer.",
+      "answerZh": "最後一條問題並非預先準備,而是自然地承接嘉賓上一個答案。",
+      "highlight": "followed on",
+      "targetForm": "follow on from something",
+      "targetMeaningZh": "承接前面的內容繼續"
+    }
+  ]
+}

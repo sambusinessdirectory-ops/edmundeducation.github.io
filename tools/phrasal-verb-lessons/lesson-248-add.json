@@ -1,0 +1,1680 @@
+{
+  "id": "phrasal-verb-248",
+  "order": 248,
+  "slug": "add",
+  "version": "1",
+  "title": "ADD 動詞片語",
+  "titleEn": "Add",
+  "titleZh": "ADD 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 7,
+  "source": {
+    "file": "Phrasal Verbs 235 - ADD.pdf",
+    "sourceNumber": 235,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ADD 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ADD."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ADD",
+      "highlight": "ADD"
+    }
+  ],
+  "examples": [
+    {
+      "en": "They decided to add on rather than move.",
+      "zh": "他們決定擴建,而不是搬走。",
+      "highlight": "add on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please add the delivery cost in.",
+      "zh": "請把送貨費包括在內。",
+      "highlight": "add the delivery cost in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The café added £2 on to the bill.",
+      "zh": "咖啡店在帳單上再加了兩英鎊。",
+      "highlight": "added £2 on to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "在現有建築物上加建或擴建；把額外的費用、資料或時間包括在計算或安排內；在原有價錢、費用或安排上再加一個額外部分；令數量、問題、感受或影響增加；把數字或多個因素合在一起,得出總數或結果；合乎邏輯;說得通；合計為某個數量或總額",
+    "en": "add on / add on to something; add something in; add something on / add something on to something; add to something; add together / add something together; add up; add up to something",
+    "naturalZh": [
+      "在現有建築物上加建或擴建",
+      "把額外的費用、資料或時間包括在計算或安排內",
+      "在原有價錢、費用或安排上再加一個額外部分",
+      "令數量、問題、感受或影響增加",
+      "把數字或多個因素合在一起,得出總數或結果",
+      "合乎邏輯;說得通",
+      "合計為某個數量或總額"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "add on / add on to something",
+      "titleZh": "在現有建築物上加建或擴建",
+      "titleEn": "add on / add on to something",
+      "descriptionZh": "在現有建築物上加建或擴建",
+      "descriptionEn": "They decided to add on rather than move.",
+      "examples": [
+        {
+          "en": "They decided to add on rather than move.",
+          "zh": "他們決定擴建,而不是搬走。",
+          "highlight": "add on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "add something in",
+      "titleZh": "把額外的費用、資料或時間包括在計算或安排內",
+      "titleEn": "add something in",
+      "descriptionZh": "把額外的費用、資料或時間包括在計算或安排內",
+      "descriptionEn": "Please add the delivery cost in.",
+      "examples": [
+        {
+          "en": "Please add the delivery cost in.",
+          "zh": "請把送貨費包括在內。",
+          "highlight": "add the delivery cost in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "add something on / add something on to something",
+      "titleZh": "在原有價錢、費用或安排上再加一個額外部分",
+      "titleEn": "add something on / add something on to something",
+      "descriptionZh": "在原有價錢、費用或安排上再加一個額外部分",
+      "descriptionEn": "The café added £2 on to the bill.",
+      "examples": [
+        {
+          "en": "The café added £2 on to the bill.",
+          "zh": "咖啡店在帳單上再加了兩英鎊。",
+          "highlight": "added £2 on to"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "add to something",
+      "titleZh": "令數量、問題、感受或影響增加",
+      "titleEn": "add to something",
+      "descriptionZh": "令數量、問題、感受或影響增加",
+      "descriptionEn": "The delay added to our problems.",
+      "examples": [
+        {
+          "en": "The delay added to our problems.",
+          "zh": "延誤令我們的問題更多。",
+          "highlight": "added to"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "add together / add something together",
+      "titleZh": "把數字或多個因素合在一起,得出總數或結果",
+      "titleEn": "add together / add something together",
+      "descriptionZh": "把數字或多個因素合在一起,得出總數或結果",
+      "descriptionEn": "Add the two scores together.",
+      "examples": [
+        {
+          "en": "Add the two scores together.",
+          "zh": "把兩個分數加起來。",
+          "highlight": "Add the two scores together"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "add up",
+      "titleZh": "合乎邏輯;說得通",
+      "titleEn": "add up",
+      "descriptionZh": "合乎邏輯;說得通",
+      "descriptionEn": "His story does not add up.",
+      "examples": [
+        {
+          "en": "His story does not add up.",
+          "zh": "他的說法並不合理。",
+          "highlight": "add up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "add up to something",
+      "titleZh": "合計為某個數量或總額",
+      "titleEn": "add up to something",
+      "descriptionZh": "合計為某個數量或總額",
+      "descriptionEn": "The three amounts add up to £20.",
+      "examples": [
+        {
+          "en": "The three amounts add up to £20.",
+          "zh": "這三筆款項合計為二十英鎊。",
+          "highlight": "add up to"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ADD 片語動詞的實際用途",
+    "labelEn": "ADD Phrasal Verbs in Use",
+    "summaryZh": "add on 和 add on to something 可以表示在原有建築物上加建,而不需要搬到另一座建築物。；add something in 可以表示把費用包括在計算內;add something on 則可以表示在原有價錢上再加收費用。；你可以把數字加起來,也可以表示多項因素共同造成某個結果,或說明多筆款項合計為某個總額。；add up 可以自然地表示某個說法、解釋、日期或一組數字是否合理。",
+    "summaryEn": "Add on and add on to something let you explain that an extra part is being built without moving to another building. Add something in can show that a cost is included in a calculation. Add something on can show that an extra charge is placed on an existing price. You can add numbers together, explain that several things added together to create a result, or say that amounts add up to a total. Add up is a natural way to say that a story, explanation, date or set of numbers does or does not make sense.",
+    "contextsZh": [
+      "談論擴建建築物",
+      "清楚說明額外價錢和費用",
+      "談論總數和共同造成的結果",
+      "判斷資料是否合理"
+    ],
+    "contextsEn": [
+      "Talk about making buildings larger",
+      "Explain extra prices and costs clearly",
+      "Talk about totals and combined results",
+      "Question whether information is logical"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ADD 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ADD expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "add on / add on to something",
+    "fixedHighlight": "add on / add on to something",
+    "fixedZh": "閱讀整句,選出意思相同的 ADD 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ADD expression that gives the same meaning.",
+    "correct": "add on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 ADD ... IN 或 ADD ... ON 中使用 it 或 them 時,請按照以上例子放在正確位置。；add up 表示資料合乎邏輯;add up to something 則表示總數或總額。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them with ADD... IN or ADD... ON, place the word as shown: add it in add them in add it on add them on Add up means that information is logical. Add up to something gives a total: His story does not add up. The costs add up to £50.",
+    "variableItemsZh": [
+      "add on / add on to something",
+      "add something in",
+      "add something on / add something on to something",
+      "add to something",
+      "add together / add something together",
+      "add up",
+      "add up to something"
+    ],
+    "variableItemsEn": [
+      "add on / add on to something",
+      "add something in",
+      "add something on / add something on to something",
+      "add to something",
+      "add together / add something together",
+      "add up",
+      "add up to something"
+    ],
+    "forms": [
+      {
+        "formZh": "在現有建築物上加建或擴建",
+        "formEn": "add on / add on to something",
+        "exampleZh": "他們決定擴建,而不是搬走。",
+        "exampleEn": "They decided to add on rather than move.",
+        "highlight": "add on"
+      },
+      {
+        "formZh": "把額外的費用、資料或時間包括在計算或安排內",
+        "formEn": "add something in",
+        "exampleZh": "請把送貨費包括在內。",
+        "exampleEn": "Please add the delivery cost in.",
+        "highlight": "add the delivery cost in"
+      },
+      {
+        "formZh": "在原有價錢、費用或安排上再加一個額外部分",
+        "formEn": "add something on / add something on to something",
+        "exampleZh": "咖啡店在帳單上再加了兩英鎊。",
+        "exampleEn": "The café added £2 on to the bill.",
+        "highlight": "added £2 on to"
+      },
+      {
+        "formZh": "令數量、問題、感受或影響增加",
+        "formEn": "add to something",
+        "exampleZh": "延誤令我們的問題更多。",
+        "exampleEn": "The delay added to our problems.",
+        "highlight": "added to"
+      },
+      {
+        "formZh": "把數字或多個因素合在一起,得出總數或結果",
+        "formEn": "add together / add something together",
+        "exampleZh": "把兩個分數加起來。",
+        "exampleEn": "Add the two scores together.",
+        "highlight": "Add the two scores together"
+      },
+      {
+        "formZh": "合乎邏輯;說得通",
+        "formEn": "add up",
+        "exampleZh": "他的說法並不合理。",
+        "exampleEn": "His story does not add up.",
+        "highlight": "add up"
+      },
+      {
+        "formZh": "合計為某個數量或總額",
+        "formEn": "add up to something",
+        "exampleZh": "這三筆款項合計為二十英鎊。",
+        "exampleEn": "The three amounts add up to £20.",
+        "highlight": "add up to"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "在現有建築物上加建或擴建",
+      "titleEn": "add on / add on to something",
+      "formula": "add on / add on to something",
+      "highlight": "add on / add on to something",
+      "descriptionZh": "在現有建築物上加建或擴建",
+      "descriptionEn": "They decided to add on rather than move.",
+      "examples": [
+        {
+          "en": "They decided to add on rather than move.",
+          "zh": "他們決定擴建,而不是搬走。",
+          "highlight": "add on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "把額外的費用、資料或時間包括在計算或安排內",
+      "titleEn": "add something in",
+      "formula": "add something in",
+      "highlight": "add something in",
+      "descriptionZh": "把額外的費用、資料或時間包括在計算或安排內",
+      "descriptionEn": "Please add the delivery cost in.",
+      "examples": [
+        {
+          "en": "Please add the delivery cost in.",
+          "zh": "請把送貨費包括在內。",
+          "highlight": "add the delivery cost in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "在原有價錢、費用或安排上再加一個額外部分",
+      "titleEn": "add something on / add something on to something",
+      "formula": "add something on / add something on to something",
+      "highlight": "add something on / add something on to something",
+      "descriptionZh": "在原有價錢、費用或安排上再加一個額外部分",
+      "descriptionEn": "The café added £2 on to the bill.",
+      "examples": [
+        {
+          "en": "The café added £2 on to the bill.",
+          "zh": "咖啡店在帳單上再加了兩英鎊。",
+          "highlight": "added £2 on to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "令數量、問題、感受或影響增加",
+      "titleEn": "add to something",
+      "formula": "add to something",
+      "highlight": "add to something",
+      "descriptionZh": "令數量、問題、感受或影響增加",
+      "descriptionEn": "The delay added to our problems.",
+      "examples": [
+        {
+          "en": "The delay added to our problems.",
+          "zh": "延誤令我們的問題更多。",
+          "highlight": "added to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把數字或多個因素合在一起,得出總數或結果",
+      "titleEn": "add together / add something together",
+      "formula": "add together / add something together",
+      "highlight": "add together / add something together",
+      "descriptionZh": "把數字或多個因素合在一起,得出總數或結果",
+      "descriptionEn": "Add the two scores together.",
+      "examples": [
+        {
+          "en": "Add the two scores together.",
+          "zh": "把兩個分數加起來。",
+          "highlight": "Add the two scores together"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "合乎邏輯;說得通",
+      "titleEn": "add up",
+      "formula": "add up",
+      "highlight": "add up",
+      "descriptionZh": "合乎邏輯;說得通",
+      "descriptionEn": "His story does not add up.",
+      "examples": [
+        {
+          "en": "His story does not add up.",
+          "zh": "他的說法並不合理。",
+          "highlight": "add up"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "合計為某個數量或總額",
+      "titleEn": "add up to something",
+      "formula": "add up to something",
+      "highlight": "add up to something",
+      "descriptionZh": "合計為某個數量或總額",
+      "descriptionEn": "The three amounts add up to £20.",
+      "examples": [
+        {
+          "en": "The three amounts add up to £20.",
+          "zh": "這三筆款項合計為二十英鎊。",
+          "highlight": "add up to"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論擴建建築物",
+      "titleEn": "Talk about making buildings larger",
+      "zh": "add on 和 add on to something 可以表示在原有建築物上加建,而不需要搬到另一座建築物。",
+      "en": "Add on and add on to something let you explain that an extra part is being built without moving to another building."
+    },
+    {
+      "titleZh": "清楚說明額外價錢和費用",
+      "titleEn": "Explain extra prices and costs clearly",
+      "zh": "add something in 可以表示把費用包括在計算內;add something on 則可以表示在原有價錢上再加收費用。",
+      "en": "Add something in can show that a cost is included in a calculation. Add something on can show that an extra charge is placed on an existing price."
+    },
+    {
+      "titleZh": "談論總數和共同造成的結果",
+      "titleEn": "Talk about totals and combined results",
+      "zh": "你可以把數字加起來,也可以表示多項因素共同造成某個結果,或說明多筆款項合計為某個總額。",
+      "en": "You can add numbers together, explain that several things added together to create a result, or say that amounts add up to a total."
+    },
+    {
+      "titleZh": "判斷資料是否合理",
+      "titleEn": "Question whether information is logical",
+      "zh": "add up 可以自然地表示某個說法、解釋、日期或一組數字是否合理。",
+      "en": "Add up is a natural way to say that a story, explanation, date or set of numbers does or does not make sense."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論擴建建築物",
+      "清楚說明額外價錢和費用",
+      "談論總數和共同造成的結果",
+      "判斷資料是否合理"
+    ],
+    "contextsEn": [
+      "Talk about making buildings larger",
+      "Explain extra prices and costs clearly",
+      "Talk about totals and combined results",
+      "Question whether information is logical"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論擴建建築物",
+        "titleEn": "Talk about making buildings larger",
+        "zh": "add on 和 add on to something 可以表示在原有建築物上加建,而不需要搬到另一座建築物。",
+        "en": "Add on and add on to something let you explain that an extra part is being built without moving to another building.",
+        "examples": [
+          {
+            "en": "They decided to add on rather than move.",
+            "zh": "他們決定擴建,而不是搬走。",
+            "highlight": "add on"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚說明額外價錢和費用",
+        "titleEn": "Explain extra prices and costs clearly",
+        "zh": "add something in 可以表示把費用包括在計算內;add something on 則可以表示在原有價錢上再加收費用。",
+        "en": "Add something in can show that a cost is included in a calculation. Add something on can show that an extra charge is placed on an existing price.",
+        "examples": [
+          {
+            "en": "Please add the delivery cost in.",
+            "zh": "請把送貨費包括在內。",
+            "highlight": "add the delivery cost in"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論總數和共同造成的結果",
+        "titleEn": "Talk about totals and combined results",
+        "zh": "你可以把數字加起來,也可以表示多項因素共同造成某個結果,或說明多筆款項合計為某個總額。",
+        "en": "You can add numbers together, explain that several things added together to create a result, or say that amounts add up to a total.",
+        "examples": [
+          {
+            "en": "The café added £2 on to the bill.",
+            "zh": "咖啡店在帳單上再加了兩英鎊。",
+            "highlight": "added £2 on to"
+          }
+        ]
+      },
+      {
+        "titleZh": "判斷資料是否合理",
+        "titleEn": "Question whether information is logical",
+        "zh": "add up 可以自然地表示某個說法、解釋、日期或一組數字是否合理。",
+        "en": "Add up is a natural way to say that a story, explanation, date or set of numbers does or does not make sense.",
+        "examples": [
+          {
+            "en": "The delay added to our problems.",
+            "zh": "延誤令我們的問題更多。",
+            "highlight": "added to"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ADD 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ADD expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ADD 片語動詞。",
+      "en": "Read the whole sentence and choose the ADD expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 ADD ... IN 或 ADD ... ON 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using it or them with ADD.",
+      "zh": "在 ADD ... IN 或 ADD ... ON 中使用 it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using it or them with ADD... IN or ADD... ON, place the word as shown: add it in add them in add it on add them on"
+    },
+    {
+      "titleZh": "add up 表示資料合乎邏輯;add up to something 則表示總數或總額。",
+      "titleEn": "Add up means that information is logical.",
+      "zh": "add up 表示資料合乎邏輯;add up to something 則表示總數或總額。",
+      "en": "Add up means that information is logical. Add up to something gives a total: His story does not add up. The costs add up to £50."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ADD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ADD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ADD 動詞片語句子改寫練習",
+    "titleEn": "ADD Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ADD 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ADD. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-248-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "His story does not make sense.",
+      "promptZh": "他的說法並不合理。",
+      "starter": "His",
+      "answer": "His story does not add up.",
+      "answerZh": "他的說法並不合理。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "They chose to make their house larger instead of moving.",
+      "promptZh": "他們選擇擴大房子,而不是搬走。",
+      "starter": "They",
+      "answer": "They chose to add on rather than move.",
+      "answerZh": "他們選擇擴建,而不是搬走。",
+      "highlight": "add on rather than move",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Loud music made the problem worse.",
+      "promptZh": "嘈吵的音樂令問題變得更嚴重。",
+      "starter": "Loud",
+      "answer": "Loud music added to the problem.",
+      "answerZh": "嘈吵的音樂令問題變得更嚴重。",
+      "highlight": "added to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、數量或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Together, the three numbers make a total of 20.",
+      "promptZh": "這三個數字合計為二十。",
+      "starter": "Together",
+      "answer": "Together, the three numbers add up to 20.",
+      "answerZh": "這三個數字合計為二十。",
+      "highlight": "add up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Please include the delivery cost when you calculate the total.",
+      "promptZh": "計算總額時,請把送貨費包括在內。",
+      "starter": "Please",
+      "answer": "Please add the delivery cost in when you calculate the total.",
+      "answerZh": "計算總額時,請把送貨費包括在內。",
+      "highlight": "add",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Put these three numbers together to find the total.",
+      "promptZh": "把這三個數字加起來,找出總數。",
+      "starter": "Add",
+      "answer": "Add these three numbers together to find the total.",
+      "answerZh": "把這三個數字加起來,找出總數。",
+      "highlight": "Add",
+      "targetForm": "add something together",
+      "targetMeaningZh": "把數字或因素合在一起"
+    },
+    {
+      "id": "phrasal-verb-248-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The café put a £2 service charge on the bill.",
+      "promptZh": "咖啡店在帳單上加了兩英鎊服務費。",
+      "starter": "The",
+      "answer": "The café added a £2 service charge on to the bill.",
+      "answerZh": "咖啡店在帳單上再加了兩英鎊服務費。",
+      "highlight": "added",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Last summer, the school made the main building larger.",
+      "promptZh": "去年夏天,學校擴大了主樓。",
+      "starter": "Last",
+      "answer": "Last summer, the school added on to the main building.",
+      "answerZh": "去年夏天,學校擴建了主樓。",
+      "highlight": "added on to",
+      "targetForm": "add on to something",
+      "targetMeaningZh": "在現有建築物上加建"
+    },
+    {
+      "id": "phrasal-verb-248-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Those two times in the message do not seem logical.",
+      "promptZh": "訊息中的兩個時間似乎並不合理。",
+      "starter": "Those",
+      "answer": "Those two times in the message do not add up.",
+      "answerZh": "訊息中的兩個時間並不合理。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Because the plan did not include a lunch break, we included one.",
+      "promptZh": "因為計劃沒有包括午膳休息時間,所以我們把它加了進去。",
+      "starter": "Because",
+      "answer": "Because the plan did not include a lunch break, we added one in.",
+      "answerZh": "因為計劃沒有包括午膳休息時間,所以我們把它加了進去。",
+      "highlight": "added",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "The tickets cost £15 altogether.",
+      "promptZh": "這些門票合共十五英鎊。",
+      "starter": "Together",
+      "answer": "Together, the tickets add up to £15.",
+      "answerZh": "這些門票合共十五英鎊。",
+      "highlight": "Together",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Rain caused more problems for the travellers.",
+      "promptZh": "雨水令旅客遇到更多問題。",
+      "starter": "Rain",
+      "answer": "Rain added to the travellers’ problems.",
+      "answerZh": "雨水令旅客遇到更多問題。",
+      "highlight": "added to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、數量或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "An extra delivery fee was put on the price.",
+      "promptZh": "價錢上再加了一筆送貨費。",
+      "starter": "An",
+      "answer": "An extra delivery fee was added on to the price.",
+      "answerZh": "價錢上再加了一筆送貨費。",
+      "highlight": "added",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Music, food and games all combined to make the party special.",
+      "promptZh": "音樂、食物和遊戲共同令派對變得特別。",
+      "starter": "Music",
+      "answer": "Music, food and games all added together to make the party special.",
+      "answerZh": "音樂、食物和遊戲共同令派對變得特別。",
+      "highlight": "added together",
+      "targetForm": "add together",
+      "targetMeaningZh": "共同造成某個結果"
+    },
+    {
+      "id": "phrasal-verb-248-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Will the hotel put breakfast on the room bill?",
+      "promptZh": "酒店會把早餐費加到房間帳單上嗎?",
+      "starter": "Will",
+      "answer": "Will the hotel add breakfast on to the room bill?",
+      "answerZh": "酒店會把早餐費加到房間帳單上嗎?",
+      "highlight": "add",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Can you put the two scores together?",
+      "promptZh": "你可以把兩個分數加起來嗎?",
+      "starter": "Can",
+      "answer": "Can you add the two scores together?",
+      "answerZh": "你可以把兩個分數加起來嗎?",
+      "highlight": "add",
+      "targetForm": "add something together",
+      "targetMeaningZh": "把數字或因素合在一起"
+    },
+    {
+      "id": "phrasal-verb-248-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Have you included the tax when calculating the final price?",
+      "promptZh": "計算最終價錢時,你有把稅項包括在內嗎?",
+      "starter": "Have",
+      "answer": "Have you added the tax in when calculating the final price?",
+      "answerZh": "計算最終價錢時,你有把稅項包括在內嗎?",
+      "highlight": "added",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Does her explanation make sense?",
+      "promptZh": "她的解釋合理嗎?",
+      "starter": "Does",
+      "answer": "Does her explanation add up?",
+      "answerZh": "她的解釋合理嗎?",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Will they make the house larger instead of buying a new one?",
+      "promptZh": "他們會擴大房子,而不是購買新房子嗎?",
+      "starter": "Will",
+      "answer": "Will they add on instead of buying a new one?",
+      "answerZh": "他們會擴建房子,而不是購買新房子嗎?",
+      "highlight": "add on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Do these five numbers make a total of 100?",
+      "promptZh": "這五個數字合計為一百嗎?",
+      "starter": "Do",
+      "answer": "Do these five numbers add up to 100?",
+      "answerZh": "這五個數字合計為一百嗎?",
+      "highlight": "add up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "A late bus is making our delay worse.",
+      "promptZh": "一班遲到的巴士令我們的延誤更嚴重。",
+      "starter": "A",
+      "answer": "A late bus is adding to our delay.",
+      "answerZh": "一班遲到的巴士正令我們的延誤更嚴重。",
+      "highlight": "adding to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、數量或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The editor is including the missing date before printing the report.",
+      "promptZh": "編輯正在印刷報告前把遺漏的日期包括進去。",
+      "starter": "The",
+      "answer": "The editor is adding the missing date in before printing the report.",
+      "answerZh": "編輯正在印刷報告前把遺漏的日期包括進去。",
+      "highlight": "adding",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "This month, the café is making its building larger at the back.",
+      "promptZh": "這個月,咖啡店正在擴建大樓後方。",
+      "starter": "This",
+      "answer": "This month, the café is adding on at the back of its building.",
+      "answerZh": "這個月,咖啡店正在大樓後方加建。",
+      "highlight": "adding on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The phone company is putting another £5 on this month’s charge.",
+      "promptZh": "電話公司正在本月費用上再加五英鎊。",
+      "starter": "The",
+      "answer": "The phone company is adding another £5 on to this month’s charge.",
+      "answerZh": "電話公司正在本月費用上再加五英鎊。",
+      "highlight": "adding",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Her hard work and good timing have all combined to produce a strong result.",
+      "promptZh": "她的努力和良好時機共同帶來理想結果。",
+      "starter": "Her",
+      "answer": "Her hard work and good timing have all added together to produce a strong result.",
+      "answerZh": "她的努力和良好時機共同帶來理想結果。",
+      "highlight": "added together",
+      "targetForm": "add together",
+      "targetMeaningZh": "共同造成某個結果"
+    },
+    {
+      "id": "phrasal-verb-248-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "His rude comment has made the bad feeling in the room worse.",
+      "promptZh": "他的無禮說話令房間裏的不快氣氛更嚴重。",
+      "starter": "His",
+      "answer": "His rude comment has added to the bad feeling in the room.",
+      "answerZh": "他的無禮說話令房間裏的不快氣氛更嚴重。",
+      "highlight": "added to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、感受或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The small costs have reached £40 in total.",
+      "promptZh": "這些小額費用合計已達四十英鎊。",
+      "starter": "The",
+      "answer": "The small costs have added up to £40.",
+      "answerZh": "這些小額費用合計已達四十英鎊。",
+      "highlight": "added up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Everything he said seemed logical at first.",
+      "promptZh": "他所說的一切起初似乎都合理。",
+      "starter": "Everything",
+      "answer": "Everything he said seemed to add up at first.",
+      "answerZh": "他所說的一切起初似乎都合理。",
+      "highlight": "to add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The bill has four charges, and together they total £60.",
+      "promptZh": "帳單有四項費用,合計六十英鎊。",
+      "starter": "Together",
+      "answer": "Together, the four charges on the bill add up to £60.",
+      "answerZh": "帳單上的四項費用合計六十英鎊。",
+      "highlight": "Together, the four charges on",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The room was already hot, and the oven made it even hotter.",
+      "promptZh": "房間本來已經很熱,焗爐令它變得更熱。",
+      "starter": "Although",
+      "answer": "Although the room was already hot, the oven added to the heat.",
+      "answerZh": "房間本來已經很熱,而焗爐令室內變得更熱。",
+      "highlight": "Although",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令數量、問題或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The family had made the house larger before the baby arrived.",
+      "promptZh": "孩子出生前,那個家庭已擴大房子。",
+      "starter": "Before",
+      "answer": "Before the baby arrived, the family had added on.",
+      "answerZh": "孩子出生前,那個家庭已擴建房子。",
+      "highlight": "the family had added on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The dates do not make sense, and the teacher has noticed the problem.",
+      "promptZh": "這些日期並不合理,而老師已注意到問題。",
+      "starter": "Those",
+      "answer": "Those dates do not add up, and the teacher has noticed the problem.",
+      "answerZh": "這些日期並不合理,而老師已注意到問題。",
+      "highlight": "Those",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I wrote down the costs separately, and then I combined them.",
+      "promptZh": "我把各項費用分開寫下,然後把它們加起來。",
+      "starter": "I",
+      "answer": "I wrote down the costs separately, and then I added them together.",
+      "answerZh": "我把各項費用分開寫下,然後把它們加起來。",
+      "highlight": "added",
+      "targetForm": "add something together",
+      "targetMeaningZh": "把數字或因素合在一起"
+    },
+    {
+      "id": "phrasal-verb-248-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The fee was £20, and they put another £3 on it.",
+      "promptZh": "費用原本是二十英鎊,他們再加了三英鎊。",
+      "starter": "It",
+      "answer": "It was a £20 fee, and they added another £3 on to it.",
+      "answerZh": "費用原本是二十英鎊,他們再加了三英鎊。",
+      "highlight": "It",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The extra cost was not included, so please include it now.",
+      "promptZh": "額外費用尚未包括在內,所以請現在把它加進去。",
+      "starter": "Because",
+      "answer": "Because the extra cost was not included, please add it in now.",
+      "answerZh": "因為額外費用尚未包括在內,所以請現在把它加進去。",
+      "highlight": "Because",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "They did not want to move, so they made the house larger.",
+      "promptZh": "他們不想搬走,所以擴大了房子。",
+      "starter": "They",
+      "answer": "They did not want to move, so they added on.",
+      "answerZh": "他們不想搬走,所以擴建了房子。",
+      "highlight": "added on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When all the points are counted, they make a total of 25.",
+      "promptZh": "計算所有分數後,總數是二十五。",
+      "starter": "When",
+      "answer": "When all the points are counted, they add up to 25.",
+      "answerZh": "計算所有分數後,總數是二十五。",
+      "highlight": "add up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "The sunny weather, the music and the friendly people all combined to make the day enjoyable.",
+      "promptZh": "晴朗天氣、音樂和友善的人共同令那天變得愉快。",
+      "starter": "The",
+      "answer": "The sunny weather, the music and the friendly people all added together to make the day enjoyable.",
+      "answerZh": "晴朗天氣、音樂和友善的人共同令那天變得愉快。",
+      "highlight": "added together",
+      "targetForm": "add together",
+      "targetMeaningZh": "共同造成某個結果"
+    },
+    {
+      "id": "phrasal-verb-248-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Taking another large bag would only create more difficulties for us.",
+      "promptZh": "多帶一個大袋只會令我們遇到更多困難。",
+      "starter": "Taking",
+      "answer": "Taking another large bag would only add to our difficulties.",
+      "answerZh": "多帶一個大袋只會令我們遇到更多困難。",
+      "highlight": "add to our",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、數量或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "We should include two rest days when we prepare the training plan.",
+      "promptZh": "我們準備訓練計劃時,應該包括兩天休息日。",
+      "starter": "We",
+      "answer": "We should add two rest days in when we prepare the training plan.",
+      "answerZh": "我們準備訓練計劃時,應該把兩天休息日包括在內。",
+      "highlight": "add",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "I checked the story twice, but it still did not seem logical.",
+      "promptZh": "我檢查了那個說法兩次,但它仍然不合理。",
+      "starter": "I",
+      "answer": "I checked the story twice, but it still did not add up.",
+      "answerZh": "我檢查了那個說法兩次,但它仍然不合理。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Please do not put any extra charge on the bill.",
+      "promptZh": "請不要在帳單上加任何額外費用。",
+      "starter": "Please",
+      "answer": "Please do not add any extra charge on to the bill.",
+      "answerZh": "請不要在帳單上加任何額外費用。",
+      "highlight": "add",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The bill looked too low because the cost of drinks had not been included.",
+      "promptZh": "帳單看來太低,因為飲品費尚未包括在內。",
+      "starter": "Because",
+      "answer": "Because the cost of drinks had not been added in, the bill looked too low.",
+      "answerZh": "因為飲品費尚未包括在內,所以帳單看來太低。",
+      "highlight": "added in, the bill looked too low",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She said she was at home, but the photo was taken elsewhere, so her story did not make sense.",
+      "promptZh": "她說自己當時在家,但照片是在其他地方拍攝的,所以她的說法並不合理。",
+      "starter": "She",
+      "answer": "She said she was at home, but the photo was taken elsewhere, so her story did not add up.",
+      "answerZh": "她說自己當時在家,但照片是在其他地方拍攝的,所以她的說法並不合理。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "No single thing made the trip special. The views, the food and the jokes combined to make it special.",
+      "promptZh": "沒有單一事物令旅程變得特別;景色、食物和笑話共同帶來這個效果。",
+      "starter": "No",
+      "answer": "No single thing made the trip special. The views, the food and the jokes all added together to make it special.",
+      "answerZh": "沒有單一事物令旅程變得特別;景色、食物和笑話共同帶來這個效果。",
+      "highlight": "all added together",
+      "targetForm": "add together",
+      "targetMeaningZh": "共同造成某個結果"
+    },
+    {
+      "id": "phrasal-verb-248-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The shop had little space, so it built an extra section rather than move.",
+      "promptZh": "店舖空間不足,所以加建了一個部分,而不是搬走。",
+      "starter": "The",
+      "answer": "The shop had little space, so it added on rather than move.",
+      "answerZh": "店舖空間不足,所以選擇擴建,而不是搬走。",
+      "highlight": "added on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The instructions were unclear, and the small print made the confusion worse.",
+      "promptZh": "指示不清楚,而細小字體令情況更混亂。",
+      "starter": "Unclear",
+      "answer": "Unclear instructions and small print added to the confusion.",
+      "answerZh": "不清楚的指示和細小字體令情況更混亂。",
+      "highlight": "Unclear",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、感受或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Passengers with a basic ticket could pay to include a meal as an extra.",
+      "promptZh": "持基本門票的乘客可以付費額外加入一餐。",
+      "starter": "Passengers",
+      "answer": "Passengers with a basic ticket could pay to add a meal on.",
+      "answerZh": "持基本門票的乘客可以付費額外加入一餐。",
+      "highlight": "add",
+      "targetForm": "add something on",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The coins look different, but their total value is exactly £5.",
+      "promptZh": "這些硬幣看來不同,但總值剛好是五英鎊。",
+      "starter": "Although",
+      "answer": "Although the coins look different, they add up to exactly £5.",
+      "answerZh": "雖然這些硬幣看來不同,但總值剛好是五英鎊。",
+      "highlight": "Although",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The shop says it sold ten tickets, yet twelve people entered; those numbers do not make sense.",
+      "promptZh": "店舖表示售出了十張門票,但有十二人進場;這些數字並不合理。",
+      "starter": "The",
+      "answer": "The shop says it sold ten tickets, yet twelve people entered; those numbers do not add up.",
+      "answerZh": "店舖表示售出了十張門票,但有十二人進場;這些數字並不合理。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "When you work out the journey time, remember to include the twenty-minute stop.",
+      "promptZh": "計算行程時間時,記得把二十分鐘停留時間包括在內。",
+      "starter": "When",
+      "answer": "When you work out the journey time, remember to add the twenty-minute stop in.",
+      "answerZh": "計算行程時間時,記得把二十分鐘停留時間包括在內。",
+      "highlight": "add",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The two study periods make five hours in total.",
+      "promptZh": "兩段學習時間合計為五小時。",
+      "starter": "Together",
+      "answer": "Together, the two study periods add up to five hours.",
+      "answerZh": "兩段學習時間合計為五小時。",
+      "highlight": "Together",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The owners plan to make the hotel larger next year without changing its front.",
+      "promptZh": "業主計劃明年擴大酒店,但不改動正面。",
+      "starter": "Next",
+      "answer": "Next year, the owners plan to add on to the hotel without changing its front.",
+      "answerZh": "業主計劃明年擴建酒店,但不改動正面。",
+      "highlight": "Next year",
+      "targetForm": "add on to something",
+      "targetMeaningZh": "在現有建築物上加建"
+    },
+    {
+      "id": "phrasal-verb-248-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Before paying, she combined the prices of all five books.",
+      "promptZh": "付款前,她把五本書的價錢加起來。",
+      "starter": "Before",
+      "answer": "Before paying, she added the prices of all five books together.",
+      "answerZh": "付款前,她把五本書的價錢加起來。",
+      "highlight": "added",
+      "targetForm": "add something together",
+      "targetMeaningZh": "把數字或因素合在一起"
+    },
+    {
+      "id": "phrasal-verb-248-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The organiser put ten extra minutes on the end of the talk.",
+      "promptZh": "主辦者在演講結尾再加了十分鐘。",
+      "starter": "Ten",
+      "answer": "Ten extra minutes were added on to the end of the talk.",
+      "answerZh": "演講結尾再加了十分鐘。",
+      "highlight": "were added",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有安排上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The heavy traffic caused us even more worry before the flight.",
+      "promptZh": "大塞車令我們在航班起飛前更加擔心。",
+      "starter": "Heavy",
+      "answer": "Heavy traffic added to our worry before the flight.",
+      "answerZh": "大塞車令我們在航班起飛前更加擔心。",
+      "highlight": "added to our",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、感受或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Careful planning, clear roles and regular practice combined to make the project successful.",
+      "promptZh": "周詳計劃、清晰分工和定期練習共同令項目成功。",
+      "starter": "Careful",
+      "answer": "Careful planning, clear roles and regular practice all added together to make the project successful.",
+      "answerZh": "周詳計劃、清晰分工和定期練習共同令項目成功。",
+      "highlight": "all added together",
+      "targetForm": "add together",
+      "targetMeaningZh": "共同造成某個結果"
+    },
+    {
+      "id": "phrasal-verb-248-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The family likes the area and needs one more bedroom, so it will make the present house larger instead of leaving.",
+      "promptZh": "這家人喜歡該區,又需要多一間睡房,所以會擴大現有房子,而不是搬走。",
+      "starter": "Because",
+      "answer": "Because the family likes the area and needs one more bedroom, it will add on instead of leaving.",
+      "answerZh": "因為這家人喜歡該區,又需要多一間睡房,所以會擴建現有房子,而不是搬走。",
+      "highlight": "Because",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    },
+    {
+      "id": "phrasal-verb-248-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The family’s food, travel and ticket costs make a total of £50.",
+      "promptZh": "這家人的食物、交通和門票費合計五十英鎊。",
+      "starter": "Food",
+      "answer": "Food, travel and ticket costs add up to £50 for the family.",
+      "answerZh": "這家人的食物、交通和門票費合計五十英鎊。",
+      "highlight": "add up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The online price looked low until the company put tax and delivery costs on it at the final step.",
+      "promptZh": "網上價錢看來很低,直至公司在最後一步加上稅項和送貨費。",
+      "starter": "At",
+      "answer": "At the final step, the company added tax and delivery costs on to the low price shown online.",
+      "answerZh": "公司在最後一步把稅項和送貨費加到網上顯示的低價上。",
+      "highlight": "At",
+      "targetForm": "add something on to something",
+      "targetMeaningZh": "在原有項目上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The message says the train left before the passengers arrived, so something in the story is not logical.",
+      "promptZh": "訊息說列車在乘客到達前已離開,因此說法有不合理之處。",
+      "starter": "Something",
+      "answer": "Something in the message does not add up: it says the train left before the passengers arrived.",
+      "answerZh": "訊息中有些內容並不合理:它說列車在乘客到達前已離開。",
+      "highlight": "Something in",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The team was already tired, and the rain caused it even more problems during the match.",
+      "promptZh": "球隊本來已很疲倦,而雨水令他們在比賽中遇到更多問題。",
+      "starter": "Rain",
+      "answer": "Rain added to the tired team’s problems during the match.",
+      "answerZh": "雨水令疲倦的球隊在比賽中遇到更多問題。",
+      "highlight": "Rain added to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、數量或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "The assistant’s first total was wrong because she left out the weekend charge, but she included it in the second calculation.",
+      "promptZh": "助理第一次計算總額時漏了週末收費,因此答案錯誤;第二次計算時,她把它包括在內。",
+      "starter": "After",
+      "answer": "After leaving out the weekend charge in the first total, the assistant added it in when checking the second.",
+      "answerZh": "助理第一次計算總額時漏了週末收費;檢查第二次計算時,她把它包括在內。",
+      "highlight": "After leaving",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Another activity was put on at the end, although the class was due to finish at four.",
+      "promptZh": "雖然課堂原定四時結束,但結尾又加了一項活動。",
+      "starter": "Another",
+      "answer": "Another activity was added on at the end, although the class was due to finish at four.",
+      "answerZh": "雖然課堂原定四時結束,但結尾又加了一項活動。",
+      "highlight": "added",
+      "targetForm": "add something on",
+      "targetMeaningZh": "在原有安排上再加額外部分"
+    },
+    {
+      "id": "phrasal-verb-248-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "To check the answer, the student combined the six amounts and compared the result with the bill.",
+      "promptZh": "為了檢查答案,學生把六筆款項加起來,再把結果與帳單比較。",
+      "starter": "To",
+      "answer": "To check the answer, the student added the six amounts together and compared the result with the bill.",
+      "answerZh": "為了檢查答案,學生把六筆款項加起來,再把結果與帳單比較。",
+      "highlight": "added",
+      "targetForm": "add something together",
+      "targetMeaningZh": "把數字或因素合在一起"
+    },
+    {
+      "id": "phrasal-verb-248-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "We have listed the lessons, but we must also include ten minutes for questions.",
+      "promptZh": "我們已列出課堂內容,但也必須包括十分鐘讓學生提問。",
+      "starter": "We",
+      "answer": "We have listed the lessons, but we must also add ten minutes in for questions.",
+      "answerZh": "我們已列出課堂內容,但也必須把十分鐘提問時間包括在內。",
+      "highlight": "add",
+      "targetForm": "add something in",
+      "targetMeaningZh": "把額外項目包括在內"
+    },
+    {
+      "id": "phrasal-verb-248-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "The family was worried about the lost dog, and the dark streets made their worry even greater.",
+      "promptZh": "這家人擔心走失的狗,而昏暗街道令他們更加擔心。",
+      "starter": "Dark",
+      "answer": "Dark streets added to the family’s worry about the lost dog.",
+      "answerZh": "昏暗街道令這家人更加擔心走失的狗。",
+      "highlight": "Dark streets added to",
+      "targetForm": "add to something",
+      "targetMeaningZh": "令問題、感受或影響增加"
+    },
+    {
+      "id": "phrasal-verb-248-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Although each monthly payment is small, the twelve payments make a total of £240.",
+      "promptZh": "雖然每月付款額不大,但十二筆款項合計為二百四十英鎊。",
+      "starter": "Although",
+      "answer": "Although each monthly payment is small, the twelve payments add up to £240.",
+      "answerZh": "雖然每月付款額不大,但十二筆款項合計為二百四十英鎊。",
+      "highlight": "add up to",
+      "targetForm": "add up to something",
+      "targetMeaningZh": "合計為某個數量或總額"
+    },
+    {
+      "id": "phrasal-verb-248-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "His answer sounded confident, but the times, places and names did not fit together in a logical way.",
+      "promptZh": "他的回答聽來很有信心,但時間、地點和名字並不合乎邏輯。",
+      "starter": "His",
+      "answer": "His answer sounded confident, but the times, places and names did not add up.",
+      "answerZh": "他的回答聽來很有信心,但時間、地點和名字並不合乎邏輯。",
+      "highlight": "add up",
+      "targetForm": "add up",
+      "targetMeaningZh": "合乎邏輯;說得通"
+    },
+    {
+      "id": "phrasal-verb-248-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 25,
+      "prompt": "Rather than rent a second building, the club made its hall larger at the back.",
+      "promptZh": "俱樂部沒有租用第二座大樓,而是在會堂後方擴建。",
+      "starter": "Rather",
+      "answer": "Rather than rent a second building, the club added on at the back of its hall.",
+      "answerZh": "俱樂部沒有租用第二座大樓,而是在會堂後方擴建。",
+      "highlight": "added on",
+      "targetForm": "add on",
+      "targetMeaningZh": "加建;擴建"
+    }
+  ]
+}

@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-322",
+  "order": 322,
+  "slug": "spin",
+  "version": "1",
+  "title": "SPIN 動詞片語",
+  "titleEn": "Spin",
+  "titleZh": "SPIN 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 307 - SPIN.pdf",
+    "sourceNumber": 307,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 SPIN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to SPIN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "SPIN",
+      "highlight": "SPIN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She spun round when she heard her name.",
+      "zh": "她聽到有人叫她的名字,便迅速轉身。",
+      "highlight": "spun round",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The publisher spun a diary off from the popular book.",
+      "zh": "出版社從這本暢銷書衍生出一本日記簿。",
+      "highlight": "spun a diary off from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The company spun its delivery service off.",
+      "zh": "公司把送貨服務分拆成獨立業務。",
+      "highlight": "spun its delivery service off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "迅速轉身;使某人或某物迅速轉向；從原有作品、節目、構思或產品衍生出新的作品或產品；把公司或機構的一部分分拆成獨立公司或業務；刻意延長某事,使其持續較久",
+    "en": "spin around / spin round spin somebody/something around / round; spin off from something spin something off from something; spin something off; spin something out",
+    "naturalZh": [
+      "迅速轉身;使某人或某物迅速轉向",
+      "從原有作品、節目、構思或產品衍生出新的作品或產品",
+      "把公司或機構的一部分分拆成獨立公司或業務",
+      "刻意延長某事,使其持續較久"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "spin around / spin round spin somebody/something around / round",
+      "titleZh": "迅速轉身;使某人或某物迅速轉向",
+      "titleEn": "spin around / spin round spin somebody/something around / round",
+      "descriptionZh": "迅速轉身;使某人或某物迅速轉向",
+      "descriptionEn": "She spun round when she heard her name.",
+      "examples": [
+        {
+          "en": "She spun round when she heard her name.",
+          "zh": "她聽到有人叫她的名字,便迅速轉身。",
+          "highlight": "spun round"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spin off from something spin something off from something",
+      "titleZh": "從原有作品、節目、構思或產品衍生出新的作品或產品",
+      "titleEn": "spin off from something spin something off from something",
+      "descriptionZh": "從原有作品、節目、構思或產品衍生出新的作品或產品",
+      "descriptionEn": "The publisher spun a diary off from the popular book.",
+      "examples": [
+        {
+          "en": "The publisher spun a diary off from the popular book.",
+          "zh": "出版社從這本暢銷書衍生出一本日記簿。",
+          "highlight": "spun a diary off from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "spin something off",
+      "titleZh": "把公司或機構的一部分分拆成獨立公司或業務",
+      "titleEn": "spin something off",
+      "descriptionZh": "把公司或機構的一部分分拆成獨立公司或業務",
+      "descriptionEn": "The company spun its delivery service off.",
+      "examples": [
+        {
+          "en": "The company spun its delivery service off.",
+          "zh": "公司把送貨服務分拆成獨立業務。",
+          "highlight": "spun its delivery service off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "spin something out",
+      "titleZh": "刻意延長某事,使其持續較久",
+      "titleEn": "spin something out",
+      "descriptionZh": "刻意延長某事,使其持續較久",
+      "descriptionEn": "He spun his short talk out to an hour.",
+      "examples": [
+        {
+          "en": "He spun his short talk out to an hour.",
+          "zh": "他把原本簡短的演講延長至一小時。",
+          "highlight": "spun his short talk out"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "SPIN 片語動詞的實際用途",
+    "labelEn": "SPIN Phrasal Verbs in Use",
+    "summaryZh": "spin around 和 spin round 可以描述某人聽到聲音或注意到某事後迅速轉身,也可以表示使椅子、螢幕或其他物件迅速轉向。；spin off 可以表示書籍、遊戲、月曆、Podcast 或電視節目由原有作品衍生出來。；當公司的一部分成為獨立業務時,常可使用 spin something off。；spin something out 可以表示刻意延長演講、會議、用餐、故事或答案。",
+    "summaryEn": "Spin around and spin round can describe a person turning quickly after hearing a sound or noticing something. They can also describe making a chair, screen or other object face another direction. Spin off can show that a book, game, calendar, podcast or television programme was developed from something that already existed. Spin something off is often used when part of a company becomes an independent business. Spin something out can describe making a talk, meeting, meal, story or answer continue longer than usual or necessary.",
+    "contextsZh": [
+      "清楚描述突然轉身或轉向",
+      "說明新產品如何從原有作品衍生出來",
+      "理解公司的分拆安排",
+      "表達刻意延長某事"
+    ],
+    "contextsEn": [
+      "Describe sudden turning clearly",
+      "Explain how new products come from existing works",
+      "Understand changes in companies",
+      "Talk about making something last longer"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 SPIN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the SPIN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "spin around / spin round spin somebody/something around / round",
+    "fixedHighlight": "spin around / spin round spin somebody/something around / round",
+    "fixedZh": "閱讀整句,選出意思相同的 SPIN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the SPIN expression that gives the same meaning.",
+    "correct": "spun round",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用 him、her、it 或 them 時,請按照以上例子放置。；在英式英語中,round 可以代替 around。在 spin something out 中,to an hour、until noon 和 oversix chapters 等部分只補充持續時間;核心表達是 spin something out。",
+    "variableEn": "Keep the same people, things, time and meaning. When using him, her, it or them, place the word as shown: spin it around spin her round spin it off spin it out Round can replace around in British English. In spin something out, phrases such as to an hour, until noon and over six chapters only add information about duration. The main expression is spin something out.",
+    "variableItemsZh": [
+      "spin around / spin round spin somebody/something around / round",
+      "spin off from something spin something off from something",
+      "spin something off",
+      "spin something out"
+    ],
+    "variableItemsEn": [
+      "spin around / spin round spin somebody/something around / round",
+      "spin off from something spin something off from something",
+      "spin something off",
+      "spin something out"
+    ],
+    "forms": [
+      {
+        "formZh": "迅速轉身;使某人或某物迅速轉向",
+        "formEn": "spin around / spin round spin somebody/something around / round",
+        "exampleZh": "她聽到有人叫她的名字,便迅速轉身。",
+        "exampleEn": "She spun round when she heard her name.",
+        "highlight": "spun round"
+      },
+      {
+        "formZh": "從原有作品、節目、構思或產品衍生出新的作品或產品",
+        "formEn": "spin off from something spin something off from something",
+        "exampleZh": "出版社從這本暢銷書衍生出一本日記簿。",
+        "exampleEn": "The publisher spun a diary off from the popular book.",
+        "highlight": "spun a diary off from"
+      },
+      {
+        "formZh": "把公司或機構的一部分分拆成獨立公司或業務",
+        "formEn": "spin something off",
+        "exampleZh": "公司把送貨服務分拆成獨立業務。",
+        "exampleEn": "The company spun its delivery service off.",
+        "highlight": "spun its delivery service off"
+      },
+      {
+        "formZh": "刻意延長某事,使其持續較久",
+        "formEn": "spin something out",
+        "exampleZh": "他把原本簡短的演講延長至一小時。",
+        "exampleEn": "He spun his short talk out to an hour.",
+        "highlight": "spun his short talk out"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "迅速轉身;使某人或某物迅速轉向",
+      "titleEn": "spin around / spin round spin somebody/something around / round",
+      "formula": "spin around / spin round spin somebody/something around / round",
+      "highlight": "spin around / spin round spin somebody/something around / round",
+      "descriptionZh": "迅速轉身;使某人或某物迅速轉向",
+      "descriptionEn": "She spun round when she heard her name.",
+      "examples": [
+        {
+          "en": "She spun round when she heard her name.",
+          "zh": "她聽到有人叫她的名字,便迅速轉身。",
+          "highlight": "spun round"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "從原有作品、節目、構思或產品衍生出新的作品或產品",
+      "titleEn": "spin off from something spin something off from something",
+      "formula": "spin off from something spin something off from something",
+      "highlight": "spin off from something spin something off from something",
+      "descriptionZh": "從原有作品、節目、構思或產品衍生出新的作品或產品",
+      "descriptionEn": "The publisher spun a diary off from the popular book.",
+      "examples": [
+        {
+          "en": "The publisher spun a diary off from the popular book.",
+          "zh": "出版社從這本暢銷書衍生出一本日記簿。",
+          "highlight": "spun a diary off from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把公司或機構的一部分分拆成獨立公司或業務",
+      "titleEn": "spin something off",
+      "formula": "spin something off",
+      "highlight": "spin something off",
+      "descriptionZh": "把公司或機構的一部分分拆成獨立公司或業務",
+      "descriptionEn": "The company spun its delivery service off.",
+      "examples": [
+        {
+          "en": "The company spun its delivery service off.",
+          "zh": "公司把送貨服務分拆成獨立業務。",
+          "highlight": "spun its delivery service off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "刻意延長某事,使其持續較久",
+      "titleEn": "spin something out",
+      "formula": "spin something out",
+      "highlight": "spin something out",
+      "descriptionZh": "刻意延長某事,使其持續較久",
+      "descriptionEn": "He spun his short talk out to an hour.",
+      "examples": [
+        {
+          "en": "He spun his short talk out to an hour.",
+          "zh": "他把原本簡短的演講延長至一小時。",
+          "highlight": "spun his short talk out"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚描述突然轉身或轉向",
+      "titleEn": "Describe sudden turning clearly",
+      "zh": "spin around 和 spin round 可以描述某人聽到聲音或注意到某事後迅速轉身,也可以表示使椅子、螢幕或其他物件迅速轉向。",
+      "en": "Spin around and spin round can describe a person turning quickly after hearing a sound or noticing something. They can also describe making a chair, screen or other object face another direction."
+    },
+    {
+      "titleZh": "說明新產品如何從原有作品衍生出來",
+      "titleEn": "Explain how new products come from existing works",
+      "zh": "spin off 可以表示書籍、遊戲、月曆、Podcast 或電視節目由原有作品衍生出來。",
+      "en": "Spin off can show that a book, game, calendar, podcast or television programme was developed from something that already existed."
+    },
+    {
+      "titleZh": "理解公司的分拆安排",
+      "titleEn": "Understand changes in companies",
+      "zh": "當公司的一部分成為獨立業務時,常可使用 spin something off。",
+      "en": "Spin something off is often used when part of a company becomes an independent business."
+    },
+    {
+      "titleZh": "表達刻意延長某事",
+      "titleEn": "Talk about making something last longer",
+      "zh": "spin something out 可以表示刻意延長演講、會議、用餐、故事或答案。",
+      "en": "Spin something out can describe making a talk, meeting, meal, story or answer continue longer than usual or necessary."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚描述突然轉身或轉向",
+      "說明新產品如何從原有作品衍生出來",
+      "理解公司的分拆安排",
+      "表達刻意延長某事"
+    ],
+    "contextsEn": [
+      "Describe sudden turning clearly",
+      "Explain how new products come from existing works",
+      "Understand changes in companies",
+      "Talk about making something last longer"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚描述突然轉身或轉向",
+        "titleEn": "Describe sudden turning clearly",
+        "zh": "spin around 和 spin round 可以描述某人聽到聲音或注意到某事後迅速轉身,也可以表示使椅子、螢幕或其他物件迅速轉向。",
+        "en": "Spin around and spin round can describe a person turning quickly after hearing a sound or noticing something. They can also describe making a chair, screen or other object face another direction.",
+        "examples": [
+          {
+            "en": "She spun round when she heard her name.",
+            "zh": "她聽到有人叫她的名字,便迅速轉身。",
+            "highlight": "spun round"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明新產品如何從原有作品衍生出來",
+        "titleEn": "Explain how new products come from existing works",
+        "zh": "spin off 可以表示書籍、遊戲、月曆、Podcast 或電視節目由原有作品衍生出來。",
+        "en": "Spin off can show that a book, game, calendar, podcast or television programme was developed from something that already existed.",
+        "examples": [
+          {
+            "en": "The publisher spun a diary off from the popular book.",
+            "zh": "出版社從這本暢銷書衍生出一本日記簿。",
+            "highlight": "spun a diary off from"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解公司的分拆安排",
+        "titleEn": "Understand changes in companies",
+        "zh": "當公司的一部分成為獨立業務時,常可使用 spin something off。",
+        "en": "Spin something off is often used when part of a company becomes an independent business.",
+        "examples": [
+          {
+            "en": "The company spun its delivery service off.",
+            "zh": "公司把送貨服務分拆成獨立業務。",
+            "highlight": "spun its delivery service off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達刻意延長某事",
+        "titleEn": "Talk about making something last longer",
+        "zh": "spin something out 可以表示刻意延長演講、會議、用餐、故事或答案。",
+        "en": "Spin something out can describe making a talk, meeting, meal, story or answer continue longer than usual or necessary.",
+        "examples": [
+          {
+            "en": "He spun his short talk out to an hour.",
+            "zh": "他把原本簡短的演講延長至一小時。",
+            "highlight": "spun his short talk out"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 SPIN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the SPIN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 SPIN 片語動詞。",
+      "en": "Read the whole sentence and choose the SPIN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放置。",
+      "titleEn": "When using him, her, it or them, place the word as shown: spin it around spin her round spin it off spin it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放置。",
+      "en": "When using him, her, it or them, place the word as shown: spin it around spin her round spin it off spin it out"
+    },
+    {
+      "titleZh": "在英式英語中,round 可以代替 around。在 spin something out 中,to an hour、until noon 和 oversix chapters 等部分只補充持續時間;核心表達是 spin something out。",
+      "titleEn": "Round can replace around in British English.",
+      "zh": "在英式英語中,round 可以代替 around。在 spin something out 中,to an hour、until noon 和 oversix chapters 等部分只補充持續時間;核心表達是 spin something out。",
+      "en": "Round can replace around in British English. In spin something out, phrases such as to an hour, until noon and over six chapters only add information about duration. The main expression is spin something out."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 SPIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to SPIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "SPIN 動詞片語句子改寫練習",
+    "titleEn": "SPIN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 SPIN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to SPIN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-322-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ava heard her name and turned quickly to see who had called her.",
+      "promptZh": "Ava 聽到有人叫她的名字,便迅速轉身看看是誰叫她。",
+      "starter": "Ava",
+      "answer": "Ava heard her name and spun around to see who had called her.",
+      "answerZh": "Ava 聽到有人叫她的名字,便迅速轉身看看是誰叫她。",
+      "highlight": "spun around",
+      "targetForm": "spin around",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The new puzzle book was created from the popular television show.",
+      "promptZh": "這本新的益智書由該受歡迎的電視節目衍生出來。",
+      "starter": "The",
+      "answer": "The new puzzle book spun off from the popular television show.",
+      "answerZh": "這本新的益智書由該受歡迎的電視節目衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin off from something",
+      "targetMeaningZh": "從原有作品或產品衍生出來"
+    },
+    {
+      "id": "phrasal-verb-322-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The company separated its delivery service and made it an independent business.",
+      "promptZh": "公司把送貨服務分拆成獨立業務。",
+      "starter": "The",
+      "answer": "The company spun its delivery service off as an independent business.",
+      "answerZh": "公司把送貨服務分拆成獨立業務。",
+      "highlight": "spun",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I made my talk last forty minutes.",
+      "promptZh": "我把演講延長至四十分鐘。",
+      "starter": "I",
+      "answer": "I spun my talk out to forty minutes.",
+      "answerZh": "我把演講延長至四十分鐘。",
+      "highlight": "spun",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The teacher turned the laptop quickly so that the class could see the screen.",
+      "promptZh": "老師迅速轉動手提電腦,讓全班都能看見螢幕。",
+      "starter": "The",
+      "answer": "The teacher spun the laptop around so that the class could see the screen.",
+      "answerZh": "老師迅速轉動手提電腦,讓全班都能看見螢幕。",
+      "highlight": "spun",
+      "targetForm": "spin something around",
+      "targetMeaningZh": "使某物迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Several toys were created from the film.",
+      "promptZh": "有數款玩具由這部電影衍生出來。",
+      "starter": "Several",
+      "answer": "Several toys were spun off from the film.",
+      "answerZh": "有數款玩具由這部電影衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有作品衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The owners separated the small café chain and made it an independent business.",
+      "promptZh": "店主把這間小型咖啡店連鎖店分拆成獨立業務。",
+      "starter": "The",
+      "answer": "The owners spun the small café chain off as an independent business.",
+      "answerZh": "店主把這間小型咖啡店連鎖店分拆成獨立業務。",
+      "highlight": "spun",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "We made the meal last nearly two hours.",
+      "promptZh": "我們把這頓飯吃了接近兩小時。",
+      "starter": "We",
+      "answer": "We spun the meal out for nearly two hours.",
+      "answerZh": "我們把這頓飯吃了接近兩小時。",
+      "highlight": "spun",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Noah turned quickly when the door slammed.",
+      "promptZh": "門突然砰的一聲關上時,Noah 迅速轉身。",
+      "starter": "Noah",
+      "answer": "Noah spun round when the door slammed.",
+      "answerZh": "門突然砰的一聲關上時,Noah 迅速轉身。",
+      "highlight": "spun round",
+      "targetForm": "spin round",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The producers created a successful podcast from the radio show’s weekly interviews.",
+      "promptZh": "製作人從電台節目的每週訪問衍生出一個成功的 Podcast。",
+      "starter": "The",
+      "answer": "The producers spun a successful podcast off from the radio show’s weekly interviews.",
+      "answerZh": "製作人從電台節目的每週訪問衍生出一個成功的 Podcast。",
+      "highlight": "spun",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有內容衍生出新作品"
+    },
+    {
+      "id": "phrasal-verb-322-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The company is separating its online shop and making it an independent business.",
+      "promptZh": "公司正在把網上商店分拆成獨立業務。",
+      "starter": "The",
+      "answer": "The company is spinning its online shop off as an independent business.",
+      "answerZh": "公司正在把網上商店分拆成獨立業務。",
+      "highlight": "spinning",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Ben usually turns quickly when someone taps his shoulder.",
+      "promptZh": "有人輕拍 Ben 的肩膀時,他通常會迅速轉身。",
+      "starter": "Ben",
+      "answer": "Ben usually spins around when someone taps his shoulder.",
+      "answerZh": "有人輕拍 Ben 的肩膀時,他通常會迅速轉身。",
+      "highlight": "spins around",
+      "targetForm": "spin around",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "A short cartoon series may be created from the game.",
+      "promptZh": "一套短篇卡通片可能會由這款遊戲衍生出來。",
+      "starter": "A",
+      "answer": "A short cartoon series may be spun off from the game.",
+      "answerZh": "一套短篇卡通片可能會由這款遊戲衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有產品衍生出新作品"
+    },
+    {
+      "id": "phrasal-verb-322-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "The speaker has made the simple story continue for far too long.",
+      "promptZh": "講者把這個簡單故事拖得太長了。",
+      "starter": "The",
+      "answer": "The speaker has spun the simple story out for far too long.",
+      "answerZh": "講者把這個簡單故事拖得太長了。",
+      "highlight": "spun",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could the travel section be separated from the company next year?",
+      "promptZh": "旅遊部門明年可否從公司分拆出來?",
+      "starter": "Could",
+      "answer": "Could the travel section be spun off next year?",
+      "answerZh": "旅遊部門明年可否從公司分拆出來?",
+      "highlight": "spun off",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆出去"
+    },
+    {
+      "id": "phrasal-verb-322-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Could you turn the chair quickly so that it faces the window?",
+      "promptZh": "你可以迅速轉動椅子,讓它面向窗戶嗎?",
+      "starter": "Could",
+      "answer": "Could you spin the chair round so that it faces the window?",
+      "answerZh": "你可以迅速轉動椅子,讓它面向窗戶嗎?",
+      "highlight": "spin",
+      "targetForm": "spin something round",
+      "targetMeaningZh": "使某物迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The publisher has created a diary from the best-selling book.",
+      "promptZh": "出版社已從這本暢銷書衍生出一本日記簿。",
+      "starter": "The",
+      "answer": "The publisher has spun a diary off from the best-selling book.",
+      "answerZh": "出版社已從這本暢銷書衍生出一本日記簿。",
+      "highlight": "spun",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有作品衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "They will not make the meeting last any longer.",
+      "promptZh": "他們不會再延長會議。",
+      "starter": "They",
+      "answer": "They will not spin the meeting out any longer.",
+      "answerZh": "他們不會再延長會議。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The fast-food chain could be separated and made an independent company.",
+      "promptZh": "這間快餐連鎖店可以分拆成獨立公司。",
+      "starter": "The",
+      "answer": "The fast-food chain could be spun off as an independent company.",
+      "answerZh": "這間快餐連鎖店可以分拆成獨立公司。",
+      "highlight": "spun off as",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立公司"
+    },
+    {
+      "id": "phrasal-verb-322-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The wind was making the sign turn quickly.",
+      "promptZh": "風吹得招牌迅速轉動。",
+      "starter": "The",
+      "answer": "The wind was spinning the sign around.",
+      "answerZh": "風吹得招牌迅速轉動。",
+      "highlight": "spinning",
+      "targetForm": "spin something around",
+      "targetMeaningZh": "使某物迅速轉動"
+    },
+    {
+      "id": "phrasal-verb-322-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The talk was short, so Priya made it last longer with a few extra examples.",
+      "promptZh": "演講內容很短,所以 Priya 加入幾個額外例子,把它延長了一點。",
+      "starter": "The",
+      "answer": "The talk was short, so Priya spun it out with a few extra examples.",
+      "answerZh": "演講內容很短,所以 Priya 加入幾個額外例子,把它延長了一點。",
+      "highlight": "spun",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "A new phone game was created from the original website.",
+      "promptZh": "一款新的手機遊戲由原有網站衍生出來。",
+      "starter": "A",
+      "answer": "A new phone game was spun off from the original website.",
+      "answerZh": "一款新的手機遊戲由原有網站衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有產品衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The screen faced the wall, so I turned it quickly.",
+      "promptZh": "螢幕面向牆壁,所以我迅速把它轉過來。",
+      "starter": "The",
+      "answer": "The screen faced the wall, so I spun it around.",
+      "answerZh": "螢幕面向牆壁,所以我迅速把它轉過來。",
+      "highlight": "spun",
+      "targetForm": "spin something around",
+      "targetMeaningZh": "使某物迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The café inside the hotel was successful, so the owners separated it and made it an independent business.",
+      "promptZh": "酒店內的咖啡店經營成功,所以店主把它分拆成獨立業務。",
+      "starter": "The",
+      "answer": "The café inside the hotel was successful, so the owners spun it off as an independent business.",
+      "answerZh": "酒店內的咖啡店經營成功,所以店主把它分拆成獨立業務。",
+      "highlight": "spun",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "We had little news, but the presenter managed to make the report last ten minutes.",
+      "promptZh": "我們沒有多少新聞,但主持人仍設法把報道延長至十分鐘。",
+      "starter": "We",
+      "answer": "We had little news, but the presenter managed to spin the report out to ten minutes.",
+      "answerZh": "我們沒有多少新聞,但主持人仍設法把報道延長至十分鐘。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "If the characters remain popular, the studio hopes to create a children’s book from the series.",
+      "promptZh": "如果這些角色繼續受歡迎,製作公司希望從這套系列衍生出一本兒童讀物。",
+      "starter": "If",
+      "answer": "If the characters remain popular, the studio hopes to spin a children’s book off from the series.",
+      "answerZh": "如果這些角色繼續受歡迎,製作公司希望從這套系列衍生出一本兒童讀物。",
+      "highlight": "spin",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有作品衍生出新作品"
+    },
+    {
+      "id": "phrasal-verb-322-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The noise behind him made Daniel turn quickly.",
+      "promptZh": "身後的聲音令 Daniel 迅速轉身。",
+      "starter": "The",
+      "answer": "The noise behind him made Daniel spin round.",
+      "answerZh": "身後的聲音令 Daniel 迅速轉身。",
+      "highlight": "spin round",
+      "targetForm": "spin round",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The delivery service was separated last month and now has its own manager and office.",
+      "promptZh": "送貨服務上月被分拆,現在已有自己的經理和辦公室。",
+      "starter": "The",
+      "answer": "The delivery service was spun off last month and now has its own manager and office.",
+      "answerZh": "送貨服務上月被分拆,現在已有自己的經理和辦公室。",
+      "highlight": "spun off",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆出去"
+    },
+    {
+      "id": "phrasal-verb-322-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Do not make your answer longer than necessary; one clear sentence is enough.",
+      "promptZh": "不要把答案拖得太長;一句清楚的句子便足夠。",
+      "starter": "Do",
+      "answer": "Do not spin your answer out; one clear sentence is enough.",
+      "answerZh": "不要把答案拖得太長;一句清楚的句子便足夠。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "A range of calendars developed from the wildlife series.",
+      "promptZh": "一系列月曆由這套野生動物節目衍生出來。",
+      "starter": "A",
+      "answer": "A range of calendars spun off from the wildlife series.",
+      "answerZh": "一系列月曆由這套野生動物節目衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin off from something",
+      "targetMeaningZh": "從原有作品衍生出來"
+    },
+    {
+      "id": "phrasal-verb-322-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "When the cyclist rang his bell, the walker turned quickly and stepped aside.",
+      "promptZh": "單車手按響車鈴時,途人迅速轉身並走到一旁。",
+      "starter": "When",
+      "answer": "When the cyclist rang his bell, the walker spun around and stepped aside.",
+      "answerZh": "單車手按響車鈴時,途人迅速轉身並走到一旁。",
+      "highlight": "spun around",
+      "targetForm": "spin around",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The writer made one simple idea fill six chapters.",
+      "promptZh": "作者把一個簡單構思延伸成六個章節。",
+      "starter": "The",
+      "answer": "The writer spun the simple idea out over six chapters.",
+      "answerZh": "作者把一個簡單構思延伸成六個章節。",
+      "highlight": "spun the",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "把內容刻意延長"
+    },
+    {
+      "id": "phrasal-verb-322-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The publisher created several activity packs from the popular book.",
+      "promptZh": "出版社從這本受歡迎的書籍衍生出數套活動教材。",
+      "starter": "The",
+      "answer": "The publisher spun several activity packs off from the popular book.",
+      "answerZh": "出版社從這本受歡迎的書籍衍生出數套活動教材。",
+      "highlight": "spun",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有作品衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Next year, the company could separate the small café chain and make it an independent business.",
+      "promptZh": "明年,公司可以把這間小型咖啡店連鎖店分拆成獨立業務。",
+      "starter": "Next",
+      "answer": "Next year, the company could spin the small café chain off as an independent business.",
+      "answerZh": "明年,公司可以把這間小型咖啡店連鎖店分拆成獨立業務。",
+      "highlight": "spin",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "To let the customers see the back, the assistant turned the display quickly.",
+      "promptZh": "為了讓顧客看見背面,店員迅速轉動展示架。",
+      "starter": "To",
+      "answer": "To let the customers see the back, the assistant spun the display round.",
+      "answerZh": "為了讓顧客看見背面,店員迅速轉動展示架。",
+      "highlight": "spun",
+      "targetForm": "spin something round",
+      "targetMeaningZh": "使某物迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Until the director arrived, the manager tried to keep the discussion going.",
+      "promptZh": "在主管到達前,經理試圖把討論延續下去。",
+      "starter": "Until",
+      "answer": "Until the director arrived, the manager tried to spin the discussion out.",
+      "answerZh": "在主管到達前,經理試圖把討論延續下去。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A short online game developed from the school video project.",
+      "promptZh": "一款短篇網上遊戲由學校的影片項目衍生出來。",
+      "starter": "A",
+      "answer": "A short online game spun off from the school video project.",
+      "answerZh": "一款短篇網上遊戲由學校的影片項目衍生出來。",
+      "highlight": "spun off",
+      "targetForm": "spin off from something",
+      "targetMeaningZh": "從原有項目衍生出來"
+    },
+    {
+      "id": "phrasal-verb-322-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Rather than sell the travel business, the company separated it and made it a new company.",
+      "promptZh": "公司沒有出售旅遊業務,而是把它分拆成一間新公司。",
+      "starter": "Rather",
+      "answer": "Rather than sell the travel business, the company spun it off as a new company.",
+      "answerZh": "公司沒有出售旅遊業務,而是把它分拆成一間新公司。",
+      "highlight": "spun",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成新公司"
+    },
+    {
+      "id": "phrasal-verb-322-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Chloe was facing the wrong way, so the coach turned her quickly before the photograph.",
+      "promptZh": "Chloe 面向錯誤方向,所以教練在拍照前迅速把她轉過來。",
+      "starter": "Chloe",
+      "answer": "Chloe was facing the wrong way, so the coach spun her around before the photograph.",
+      "answerZh": "Chloe 面向錯誤方向,所以教練在拍照前迅速把她轉過來。",
+      "highlight": "spun",
+      "targetForm": "spin somebody around",
+      "targetMeaningZh": "使某人迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "One more activity helped make the lesson last the full hour.",
+      "promptZh": "多加一項活動令課堂能夠維持整整一小時。",
+      "starter": "One",
+      "answer": "One more activity helped spin the lesson out to the full hour.",
+      "answerZh": "多加一項活動令課堂能夠維持整整一小時。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The app began as part of the school website but later became a separate service based on it.",
+      "promptZh": "這個應用程式最初是學校網站的一部分,後來從網站衍生成一項獨立服務。",
+      "starter": "The",
+      "answer": "The app began as part of the school website but later spun off from it as a separate service.",
+      "answerZh": "這個應用程式最初是學校網站的一部分,後來從網站衍生成一項獨立服務。",
+      "highlight": "spun off from it as",
+      "targetForm": "spin off from something",
+      "targetMeaningZh": "從原有產品或項目衍生出來"
+    },
+    {
+      "id": "phrasal-verb-322-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Rather than close the travel section, the parent company decided to separate it as an independent business.",
+      "promptZh": "母公司決定把旅遊部門分拆成獨立業務,而不是將它關閉。",
+      "starter": "Rather",
+      "answer": "Rather than close the travel section, the parent company decided to spin it off as an independent business.",
+      "answerZh": "母公司決定把旅遊部門分拆成獨立業務,而不是將它關閉。",
+      "highlight": "spin",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "Hearing footsteps behind her, Grace turned quickly, but nobody was there.",
+      "promptZh": "Grace 聽到身後有腳步聲,便迅速轉身,但後面沒有人。",
+      "starter": "Hearing",
+      "answer": "Hearing footsteps behind her, Grace spun around, but nobody was there.",
+      "answerZh": "Grace 聽到身後有腳步聲,便迅速轉身,但後面沒有人。",
+      "highlight": "spun around",
+      "targetForm": "spin around",
+      "targetMeaningZh": "迅速轉身"
+    },
+    {
+      "id": "phrasal-verb-322-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the team had already agreed, the chairperson kept the meeting going with repeated questions.",
+      "promptZh": "雖然團隊早已達成共識,主席仍重複提出問題,把會議拖延下去。",
+      "starter": "Although",
+      "answer": "Although the team had already agreed, the chairperson kept spinning the meeting out with repeated questions.",
+      "answerZh": "雖然團隊早已達成共識,主席仍重複提出問題,把會議拖延下去。",
+      "highlight": "spinning",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If the podcast remains popular, the team may create a board game from it.",
+      "promptZh": "如果這個 Podcast 繼續受歡迎,團隊可能會從中衍生出一款桌上遊戲。",
+      "starter": "If",
+      "answer": "If the podcast remains popular, the team may spin a board game off from it.",
+      "answerZh": "如果這個 Podcast 繼續受歡迎,團隊可能會從中衍生出一款桌上遊戲。",
+      "highlight": "spin",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有作品衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The food company plans to separate its café division as an independent business.",
+      "promptZh": "這間食品公司計劃把咖啡店部門分拆成獨立業務。",
+      "starter": "The",
+      "answer": "The food company plans to spin its café division off as an independent business.",
+      "answerZh": "這間食品公司計劃把咖啡店部門分拆成獨立業務。",
+      "highlight": "spin",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立業務"
+    },
+    {
+      "id": "phrasal-verb-322-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the table blocked the path, two workers turned it quickly and moved it nearer the wall.",
+      "promptZh": "因為桌子阻塞通道,兩名工人迅速把它轉向,然後移近牆邊。",
+      "starter": "Because",
+      "answer": "Because the table blocked the path, two workers spun it round and moved it nearer the wall.",
+      "answerZh": "因為桌子阻塞通道,兩名工人迅速把它轉向,然後移近牆邊。",
+      "highlight": "spun",
+      "targetForm": "spin something round",
+      "targetMeaningZh": "使某物迅速轉向"
+    },
+    {
+      "id": "phrasal-verb-322-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "Alex can make a simple answer last for ten minutes.",
+      "promptZh": "Alex 可以把一個簡單答案拖長至十分鐘。",
+      "starter": "Alex",
+      "answer": "Alex can spin a simple answer out for ten minutes.",
+      "answerZh": "Alex 可以把一個簡單答案拖長至十分鐘。",
+      "highlight": "spin",
+      "targetForm": "spin something out",
+      "targetMeaningZh": "刻意延長某事"
+    },
+    {
+      "id": "phrasal-verb-322-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "The publisher created a set of classroom cards from the magazine’s science page.",
+      "promptZh": "出版社從雜誌的科學專頁衍生出一套課堂卡片。",
+      "starter": "The",
+      "answer": "The publisher spun a set of classroom cards off from the magazine’s science page.",
+      "answerZh": "出版社從雜誌的科學專頁衍生出一套課堂卡片。",
+      "highlight": "spun",
+      "targetForm": "spin something off from something",
+      "targetMeaningZh": "從原有內容衍生出新產品"
+    },
+    {
+      "id": "phrasal-verb-322-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "What started as the media company’s travel department was eventually separated and made an independent company.",
+      "promptZh": "原本是這間傳媒公司旅遊部門的業務,最終被分拆成獨立公司。",
+      "starter": "What",
+      "answer": "What started as the media company’s travel department was eventually spun off as an independent company.",
+      "answerZh": "原本是這間傳媒公司旅遊部門的業務,最終被分拆成獨立公司。",
+      "highlight": "spun off as",
+      "targetForm": "spin something off",
+      "targetMeaningZh": "把公司的一部分分拆成獨立公司"
+    }
+  ]
+}

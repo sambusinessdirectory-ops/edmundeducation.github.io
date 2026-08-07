@@ -1,0 +1,1202 @@
+{
+  "id": "phrasal-verb-84",
+  "order": 84,
+  "slug": "listen",
+  "version": "1",
+  "title": "LISTEN 動詞片語",
+  "titleEn": "Listen",
+  "titleZh": "LISTEN 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 3,
+  "source": {
+    "file": "Phrasal Verbs 83 - LISTEN.pdf",
+    "sourceNumber": 83,
+    "pageCount": 20,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 LISTEN 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to LISTEN."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "LISTEN",
+      "highlight": "LISTEN"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Have you been listening in on my phone calls?",
+      "zh": "你一直在偷聽我的電話嗎?",
+      "highlight": "listening in on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Please listen out for the doorbell.",
+      "zh": "請留心門鈴聲。",
+      "highlight": "listen out for",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Listen up, everyone—this is important!",
+      "zh": "大家留心聽,這件事很重要!",
+      "highlight": "Listen up",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "偷聽;暗中聽別人的談話、通話或會議；留心聽;等待聽到某人、某種聲音或訊息；留心聽好;專心聽別人接着說的話",
+    "en": "listen in / listen in on something; listen out for somebody/something; listen up",
+    "naturalZh": [
+      "偷聽;暗中聽別人的談話、通話或會議",
+      "留心聽;等待聽到某人、某種聲音或訊息",
+      "留心聽好;專心聽別人接着說的話"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "listen in / listen in on something",
+      "titleZh": "偷聽;暗中聽別人的談話、通話或會議",
+      "titleEn": "listen in / listen in on something",
+      "descriptionZh": "偷聽;暗中聽別人的談話、通話或會議",
+      "descriptionEn": "Have you been listening in on my phone calls?",
+      "examples": [
+        {
+          "en": "Have you been listening in on my phone calls?",
+          "zh": "你一直在偷聽我的電話嗎?",
+          "highlight": "listening in on"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "listen out for somebody/something",
+      "titleZh": "留心聽;等待聽到某人、某種聲音或訊息",
+      "titleEn": "listen out for somebody/something",
+      "descriptionZh": "留心聽;等待聽到某人、某種聲音或訊息",
+      "descriptionEn": "Please listen out for the doorbell.",
+      "examples": [
+        {
+          "en": "Please listen out for the doorbell.",
+          "zh": "請留心門鈴聲。",
+          "highlight": "listen out for"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "listen up",
+      "titleZh": "留心聽好;專心聽別人接着說的話",
+      "titleEn": "listen up",
+      "descriptionZh": "留心聽好;專心聽別人接着說的話",
+      "descriptionEn": "Listen up, everyone—this is important!",
+      "examples": [
+        {
+          "en": "Listen up, everyone—this is important!",
+          "zh": "大家留心聽,這件事很重要!",
+          "highlight": "Listen up"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "LISTEN 片語動詞的實際用途",
+    "labelEn": "LISTEN Phrasal Verbs in Use",
+    "summaryZh": "listen in 可以幫助你描述有人暗中聽取私人談話、通話或會議的情況。；等待門鈴、警報、自己的名字或其他重要聲音時,可以使用 listen out for。；老師、教練、導遊或領隊需要大家專心聽時,經常會使用 listen up。；這些表達可以幫助你分辨暗中偷聽、等待特定聲音和專心聽取指示。",
+    "summaryEn": "Listen in helps you describe situations in which someone secretly hears a private conversation, call or meeting. Listen out for is useful when you are waiting for a doorbell, an alarm, your name or another important sound. Listen up is common when a teacher, coach, guide or leader needs everyone’s full attention. These expressions help you distinguish secret listening, waiting for a sound and giving someone your full attention.",
+    "contextsZh": [
+      "清楚談論偷聽和私隱",
+      "表達你正在留心等待某種聲音",
+      "發出或理解清楚的口頭指示",
+      "分辨三種不同的「聽」"
+    ],
+    "contextsEn": [
+      "Talk clearly about secret listening and privacy",
+      "Show that you are waiting for an important sound",
+      "Give or understand clear spoken instructions",
+      "Recognise three different kinds of listening"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 LISTEN 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the LISTEN expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "listen in / listen in on something",
+    "fixedHighlight": "listen in / listen in on something",
+    "fixedZh": "閱讀整句,選出意思相同的 LISTEN 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the LISTEN expression that gives the same meaning.",
+    "correct": "listening in on",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；有人暗中聽取私人談話、通話或會議時,可使用 listen in 或 listen in on something。等待聽到某人、某種聲音或訊息時,則使用 listen out for somebody/something。；listen up 常用來直接要求或命令別人留心聽。",
+    "variableEn": "Keep the same people, things, time and meaning. Use listen in or listen in on something when someone secretly hears a private conversation, call or meeting. Use listen out for somebody/something when someone is waiting to hear a particular person, sound or message. Listen up is often used as a direct request or order to pay close attention.",
+    "variableItemsZh": [
+      "listen in / listen in on something",
+      "listen out for somebody/something",
+      "listen up"
+    ],
+    "variableItemsEn": [
+      "listen in / listen in on something",
+      "listen out for somebody/something",
+      "listen up"
+    ],
+    "forms": [
+      {
+        "formZh": "偷聽;暗中聽別人的談話、通話或會議",
+        "formEn": "listen in / listen in on something",
+        "exampleZh": "你一直在偷聽我的電話嗎?",
+        "exampleEn": "Have you been listening in on my phone calls?",
+        "highlight": "listening in on"
+      },
+      {
+        "formZh": "留心聽;等待聽到某人、某種聲音或訊息",
+        "formEn": "listen out for somebody/something",
+        "exampleZh": "請留心門鈴聲。",
+        "exampleEn": "Please listen out for the doorbell.",
+        "highlight": "listen out for"
+      },
+      {
+        "formZh": "留心聽好;專心聽別人接着說的話",
+        "formEn": "listen up",
+        "exampleZh": "大家留心聽,這件事很重要!",
+        "exampleEn": "Listen up, everyone—this is important!",
+        "highlight": "Listen up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "偷聽;暗中聽別人的談話、通話或會議",
+      "titleEn": "listen in / listen in on something",
+      "formula": "listen in / listen in on something",
+      "highlight": "listen in / listen in on something",
+      "descriptionZh": "偷聽;暗中聽別人的談話、通話或會議",
+      "descriptionEn": "Have you been listening in on my phone calls?",
+      "examples": [
+        {
+          "en": "Have you been listening in on my phone calls?",
+          "zh": "你一直在偷聽我的電話嗎?",
+          "highlight": "listening in on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "留心聽;等待聽到某人、某種聲音或訊息",
+      "titleEn": "listen out for somebody/something",
+      "formula": "listen out for somebody/something",
+      "highlight": "listen out for somebody/something",
+      "descriptionZh": "留心聽;等待聽到某人、某種聲音或訊息",
+      "descriptionEn": "Please listen out for the doorbell.",
+      "examples": [
+        {
+          "en": "Please listen out for the doorbell.",
+          "zh": "請留心門鈴聲。",
+          "highlight": "listen out for"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "留心聽好;專心聽別人接着說的話",
+      "titleEn": "listen up",
+      "formula": "listen up",
+      "highlight": "listen up",
+      "descriptionZh": "留心聽好;專心聽別人接着說的話",
+      "descriptionEn": "Listen up, everyone—this is important!",
+      "examples": [
+        {
+          "en": "Listen up, everyone—this is important!",
+          "zh": "大家留心聽,這件事很重要!",
+          "highlight": "Listen up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚談論偷聽和私隱",
+      "titleEn": "Talk clearly about secret listening and privacy",
+      "zh": "listen in 可以幫助你描述有人暗中聽取私人談話、通話或會議的情況。",
+      "en": "Listen in helps you describe situations in which someone secretly hears a private conversation, call or meeting."
+    },
+    {
+      "titleZh": "表達你正在留心等待某種聲音",
+      "titleEn": "Show that you are waiting for an important sound",
+      "zh": "等待門鈴、警報、自己的名字或其他重要聲音時,可以使用 listen out for。",
+      "en": "Listen out for is useful when you are waiting for a doorbell, an alarm, your name or another important sound."
+    },
+    {
+      "titleZh": "發出或理解清楚的口頭指示",
+      "titleEn": "Give or understand clear spoken instructions",
+      "zh": "老師、教練、導遊或領隊需要大家專心聽時,經常會使用 listen up。",
+      "en": "Listen up is common when a teacher, coach, guide or leader needs everyone’s full attention."
+    },
+    {
+      "titleZh": "分辨三種不同的「聽」",
+      "titleEn": "Recognise three different kinds of listening",
+      "zh": "這些表達可以幫助你分辨暗中偷聽、等待特定聲音和專心聽取指示。",
+      "en": "These expressions help you distinguish secret listening, waiting for a sound and giving someone your full attention."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚談論偷聽和私隱",
+      "表達你正在留心等待某種聲音",
+      "發出或理解清楚的口頭指示",
+      "分辨三種不同的「聽」"
+    ],
+    "contextsEn": [
+      "Talk clearly about secret listening and privacy",
+      "Show that you are waiting for an important sound",
+      "Give or understand clear spoken instructions",
+      "Recognise three different kinds of listening"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚談論偷聽和私隱",
+        "titleEn": "Talk clearly about secret listening and privacy",
+        "zh": "listen in 可以幫助你描述有人暗中聽取私人談話、通話或會議的情況。",
+        "en": "Listen in helps you describe situations in which someone secretly hears a private conversation, call or meeting.",
+        "examples": [
+          {
+            "en": "Have you been listening in on my phone calls?",
+            "zh": "你一直在偷聽我的電話嗎?",
+            "highlight": "listening in on"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達你正在留心等待某種聲音",
+        "titleEn": "Show that you are waiting for an important sound",
+        "zh": "等待門鈴、警報、自己的名字或其他重要聲音時,可以使用 listen out for。",
+        "en": "Listen out for is useful when you are waiting for a doorbell, an alarm, your name or another important sound.",
+        "examples": [
+          {
+            "en": "Please listen out for the doorbell.",
+            "zh": "請留心門鈴聲。",
+            "highlight": "listen out for"
+          }
+        ]
+      },
+      {
+        "titleZh": "發出或理解清楚的口頭指示",
+        "titleEn": "Give or understand clear spoken instructions",
+        "zh": "老師、教練、導遊或領隊需要大家專心聽時,經常會使用 listen up。",
+        "en": "Listen up is common when a teacher, coach, guide or leader needs everyone’s full attention.",
+        "examples": [
+          {
+            "en": "Listen up, everyone—this is important!",
+            "zh": "大家留心聽,這件事很重要!",
+            "highlight": "Listen up"
+          }
+        ]
+      },
+      {
+        "titleZh": "分辨三種不同的「聽」",
+        "titleEn": "Recognise three different kinds of listening",
+        "zh": "這些表達可以幫助你分辨暗中偷聽、等待特定聲音和專心聽取指示。",
+        "en": "These expressions help you distinguish secret listening, waiting for a sound and giving someone your full attention.",
+        "examples": [
+          {
+            "en": "Have you been listening in on my phone calls?",
+            "zh": "你一直在偷聽我的電話嗎?",
+            "highlight": "listening in on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 LISTEN 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the LISTEN expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 LISTEN 片語動詞。",
+      "en": "Read the whole sentence and choose the LISTEN expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "有人暗中聽取私人談話、通話或會議時,可使用 listen in 或 listen in on something。等待聽到某人、某種聲音或訊息時,則使用 listen out for somebody/something。",
+      "titleEn": "Use listen in or listen in on something when someone secretly hears a private conversation, call or meeting.",
+      "zh": "有人暗中聽取私人談話、通話或會議時,可使用 listen in 或 listen in on something。等待聽到某人、某種聲音或訊息時,則使用 listen out for somebody/something。",
+      "en": "Use listen in or listen in on something when someone secretly hears a private conversation, call or meeting. Use listen out for somebody/something when someone is waiting to hear a particular person, sound or message."
+    },
+    {
+      "titleZh": "listen up 常用來直接要求或命令別人留心聽。",
+      "titleEn": "Listen up is often used as a direct request or order to pay close attention.",
+      "zh": "listen up 常用來直接要求或命令別人留心聽。",
+      "en": "Listen up is often used as a direct request or order to pay close attention."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 LISTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to LISTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "LISTEN 動詞片語句子改寫練習",
+    "titleEn": "LISTEN Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 LISTEN 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to LISTEN. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-84-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Ella secretly listened to her brothers’ conversation in the kitchen.",
+      "promptZh": "埃拉在廚房暗中聽兄弟們的談話。",
+      "starter": "Ella",
+      "answer": "Ella listened in on her brothers’ conversation in the kitchen.",
+      "answerZh": "埃拉在廚房偷聽兄弟們的談話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Please make sure you hear the doorbell.",
+      "promptZh": "請留心,確保你聽到門鈴聲。",
+      "starter": "Please",
+      "answer": "Please listen out for the doorbell.",
+      "answerZh": "請留心門鈴聲。",
+      "highlight": "listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Everyone, pay close attention because this is important.",
+      "promptZh": "大家請留心,因為這件事很重要。",
+      "starter": "Listen",
+      "answer": "Listen up, everyone—this is important.",
+      "answerZh": "大家留心聽,這件事很重要!",
+      "highlight": "Listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The child secretly listened to the adults’ private conversation.",
+      "promptZh": "那個孩子暗中聽大人的私人談話。",
+      "starter": "The",
+      "answer": "The child listened in on the adults’ private conversation.",
+      "answerZh": "那個孩子偷聽大人的私人談話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Pay attention so you hear your name at the station.",
+      "promptZh": "在車站請留心,以便聽到自己的名字。",
+      "starter": "Listen",
+      "answer": "Listen out for your name at the station.",
+      "answerZh": "在車站請留心聽自己的名字。",
+      "highlight": "Listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Children, pay close attention; these safety rules are important.",
+      "promptZh": "孩子們,請留心聽;這些安全規則很重要。",
+      "starter": "Listen",
+      "answer": "Listen up, children—these safety rules are important.",
+      "answerZh": "孩子們留心聽,這些安全規則很重要!",
+      "highlight": "Listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Someone was secretly listening to our call.",
+      "promptZh": "有人正在偷聽我們的通話。",
+      "starter": "Someone",
+      "answer": "Someone was listening in on our call.",
+      "answerZh": "有人正在偷聽我們的通話。",
+      "highlight": "listening in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I am waiting to hear the kettle’s whistle.",
+      "promptZh": "我正等着聽水壺的哨聲。",
+      "starter": "I",
+      "answer": "I am listening out for the kettle’s whistle.",
+      "answerZh": "我正留心聽水壺的哨聲。",
+      "highlight": "listening out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "He secretly listened to us discussing the surprise party.",
+      "promptZh": "他暗中聽我們討論驚喜派對。",
+      "starter": "He",
+      "answer": "He listened in on us discussing the surprise party.",
+      "answerZh": "他偷聽我們討論驚喜派對。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Pay attention, team; the plan has changed.",
+      "promptZh": "隊員們請留心,計劃已經改變。",
+      "starter": "Listen",
+      "answer": "Listen up, team—the plan has changed.",
+      "answerZh": "隊員們留心聽,計劃已經改變。",
+      "highlight": "Listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "I will stay alert for the baby’s cry tonight.",
+      "promptZh": "今晚我會留心聽嬰兒的哭聲。",
+      "starter": "I",
+      "answer": "I will listen out for the baby’s cry tonight.",
+      "answerZh": "今晚我會留心聽嬰兒的哭聲。",
+      "highlight": "listen out",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Have you secretly been listening to my calls?",
+      "promptZh": "你是否一直在偷聽我的電話?",
+      "starter": "Have",
+      "answer": "Have you been listening in on my calls?",
+      "answerZh": "你是否一直在偷聽我的電話?",
+      "highlight": "listening in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "You should pay close attention while I explain the test.",
+      "promptZh": "我解釋測驗時,你應該留心聽。",
+      "starter": "You",
+      "answer": "You should listen up while I explain the test.",
+      "answerZh": "我解釋測驗時,你應該留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We are waiting to hear the guide call our group.",
+      "promptZh": "我們正在等導遊叫我們的小組。",
+      "starter": "We",
+      "answer": "We are listening out for the guide calling our group.",
+      "answerZh": "我們正留心聽導遊叫我們的小組。",
+      "highlight": "listening out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "She did not secretly listen to the private meeting.",
+      "promptZh": "她沒有偷聽那場私人會議。",
+      "starter": "She",
+      "answer": "She did not listen in on the private meeting.",
+      "answerZh": "她沒有偷聽那場私人會議。",
+      "highlight": "listen in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "Are you waiting to hear the alarm?",
+      "promptZh": "你是否正在等候聽到警報聲?",
+      "starter": "Are",
+      "answer": "Are you listening out for the alarm?",
+      "answerZh": "你是否正留心聽警報聲?",
+      "highlight": "listening out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The coach told the players to pay close attention.",
+      "promptZh": "教練叫球員們留心聽。",
+      "starter": "The",
+      "answer": "The coach told the players to listen up.",
+      "answerZh": "教練叫球員們留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The twins had secretly listened to the whole conversation.",
+      "promptZh": "那對雙胞胎早已偷聽了整段對話。",
+      "starter": "The",
+      "answer": "The twins had listened in on the whole conversation.",
+      "answerZh": "那對雙胞胎早已偷聽了整段對話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Ben always waits to hear the postman in the morning.",
+      "promptZh": "賓每天早上都會等着聽郵差的聲音。",
+      "starter": "Ben",
+      "answer": "Ben always listens out for the postman in the morning.",
+      "answerZh": "賓每天早上都會留心聽郵差的聲音。",
+      "highlight": "listens out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Do I really need to pay close attention now?",
+      "promptZh": "我現在真的需要留心聽嗎?",
+      "starter": "Do",
+      "answer": "Do I really need to listen up now?",
+      "answerZh": "我現在真的需要留心聽嗎?",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The room was noisy, so the teacher told everyone to pay attention.",
+      "promptZh": "房間很嘈吵,所以老師叫大家留心聽。",
+      "starter": "The",
+      "answer": "The room was noisy, so the teacher told everyone to listen up.",
+      "answerZh": "房間很嘈吵,所以老師叫大家留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "I left my phone on the table. My sister secretly heard my whole call.",
+      "promptZh": "我把電話放在桌上。姐姐偷聽了我整段通話。",
+      "starter": "I",
+      "answer": "I left my phone on the table. My sister listened in on my whole call.",
+      "answerZh": "我把電話放在桌上。姐姐偷聽了我整段通話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We may miss our stop, so please wait to hear the station name.",
+      "promptZh": "我們可能會錯過下車的站,所以請留心聽站名。",
+      "starter": "We",
+      "answer": "We may miss our stop, so please listen out for the station name.",
+      "answerZh": "我們可能會錯過下車的站,所以請留心聽站名。",
+      "highlight": "listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "“Pay attention,” the guide said, “because the path is narrow.”",
+      "promptZh": "「留心聽,」導遊說,「因為這條小路很窄。」",
+      "starter": "Listen",
+      "answer": "“Listen up,” the guide said, “because the path is narrow.”",
+      "answerZh": "「留心聽,」導遊說,「因為這條小路很窄。」",
+      "highlight": "Listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The office door was open, and two staff members secretly heard the manager’s discussion.",
+      "promptZh": "辦公室的門開着,兩名職員暗中聽了經理的談話。",
+      "starter": "The",
+      "answer": "The office door was open, and two staff members listened in on the manager’s discussion.",
+      "answerZh": "辦公室的門開着,兩名職員偷聽了經理的談話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The dog is missing. Pay attention so you hear any barking outside.",
+      "promptZh": "那隻狗不見了。請留心聽外面有沒有狗吠聲。",
+      "starter": "The",
+      "answer": "The dog is missing. Listen out for any barking outside.",
+      "answerZh": "那隻狗不見了。請留心聽外面有沒有狗吠聲。",
+      "highlight": "Listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The message was short, but everyone needed to pay close attention.",
+      "promptZh": "這段訊息很短,但每個人都需要留心聽。",
+      "starter": "The",
+      "answer": "The message was short, but everyone needed to listen up.",
+      "answerZh": "這段訊息很短,但每個人都需要留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I think somebody is secretly hearing what we say through the wall.",
+      "promptZh": "我覺得有人正透過牆壁偷聽我們說話。",
+      "starter": "I",
+      "answer": "I think somebody is listening in on what we say through the wall.",
+      "answerZh": "我覺得有人正透過牆壁偷聽我們說話。",
+      "highlight": "listening in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "When the train arrives, wait to hear the name of our station.",
+      "promptZh": "當列車到站時,請留心聽我們車站的名稱。",
+      "starter": "When",
+      "answer": "When the train arrives, listen out for the name of our station.",
+      "answerZh": "當列車到站時,請留心聽我們車站的名稱。",
+      "highlight": "listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "You have been talking. Now pay attention while I explain the next task.",
+      "promptZh": "你們一直在說話。現在我解釋下一項任務時,請留心聽。",
+      "starter": "You",
+      "answer": "You have been talking. Now listen up while I explain the next task.",
+      "answerZh": "你們一直在說話。現在我解釋下一項任務時,請留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Ava secretly listened to the private conversation through the closed door.",
+      "promptZh": "艾娃隔着關上的門偷聽私人談話。",
+      "starter": "Ava",
+      "answer": "Ava listened in on the private conversation through the closed door.",
+      "answerZh": "艾娃隔着關上的門偷聽私人談話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The parcel may arrive at any time, so make sure you hear someone knock.",
+      "promptZh": "包裹隨時可能送到,所以請留心聽是否有人敲門。",
+      "starter": "The",
+      "answer": "The parcel may arrive at any time, so listen out for someone knocking.",
+      "answerZh": "包裹隨時可能送到,所以請留心聽是否有人敲門。",
+      "highlight": "listen out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The leader did not want the group to miss the important change, so she told them to pay close attention.",
+      "promptZh": "領隊不希望大家錯過重要改動,所以叫他們留心聽。",
+      "starter": "The",
+      "answer": "The leader did not want the group to miss the important change, so she told them to listen up.",
+      "answerZh": "領隊不希望大家錯過重要改動,所以叫他們留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Why were you secretly listening to our video call from the next room?",
+      "promptZh": "你為甚麼在隔壁房間偷聽我們的視像通話?",
+      "starter": "Why",
+      "answer": "Why were you listening in on our video call from the next room?",
+      "answerZh": "你為甚麼在隔壁房間偷聽我們的視像通話?",
+      "highlight": "listening in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The nurse said the doctor would call my name, so I waited carefully to hear it.",
+      "promptZh": "護士說醫生會叫我的名字,所以我留心等候。",
+      "starter": "The",
+      "answer": "The nurse said the doctor would call my name, so I listened out for it.",
+      "answerZh": "護士說醫生會叫我的名字,所以我留心等候。",
+      "highlight": "listened out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "They thought the room was empty, but a reporter was secretly listening from behind the curtain.",
+      "promptZh": "他們以為房間沒有人,但一名記者躲在窗簾後偷聽。",
+      "starter": "They",
+      "answer": "They thought the room was empty, but a reporter was listening in from behind the curtain.",
+      "answerZh": "他們以為房間沒有人,但一名記者躲在窗簾後偷聽。",
+      "highlight": "listening in",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The first instruction is easy to miss, so everyone must pay attention from the start.",
+      "promptZh": "第一項指示很容易錯過,所以大家一開始便必須留心聽。",
+      "starter": "The",
+      "answer": "The first instruction is easy to miss, so everyone must listen up from the start.",
+      "answerZh": "第一項指示很容易錯過,所以大家一開始便必須留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "We could not see the children in the dark, so we waited to hear their voices.",
+      "promptZh": "黑暗中看不到孩子們,所以我們留心聽他們的聲音。",
+      "starter": "We",
+      "answer": "We could not see the children in the dark, so we listened out for their voices.",
+      "answerZh": "黑暗中看不到孩子們,所以我們留心聽他們的聲音。",
+      "highlight": "listened out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Our neighbours should not secretly listen to conversations through the thin wall.",
+      "promptZh": "鄰居不應透過薄牆偷聽談話。",
+      "starter": "Our",
+      "answer": "Our neighbours should not listen in on conversations through the thin wall.",
+      "answerZh": "鄰居不應透過薄牆偷聽談話。",
+      "highlight": "listen in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "“Stop looking at your phones and pay attention,” the trainer said.",
+      "promptZh": "「不要再看電話,留心聽,」訓練員說。",
+      "starter": "Stop",
+      "answer": "“Stop looking at your phones and listen up,” the trainer said.",
+      "answerZh": "「不要再看電話,留心聽,」訓練員說。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The station was crowded, and I knew the next announcement would tell us which platform to use. I waited carefully to hear it.",
+      "promptZh": "車站很擠迫,我知道下一段廣播會告訴我們使用哪個月台。我留心等候那段廣播。",
+      "starter": "The",
+      "answer": "The station was crowded, and I knew the next announcement would tell us which platform to use. I listened out for it.",
+      "answerZh": "車站很擠迫,我知道下一段廣播會告訴我們使用哪個月台。我留心聽那段廣播。",
+      "highlight": "listened out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "We lowered our voices because we thought someone nearby was secretly listening to our conversation.",
+      "promptZh": "我們降低聲線,因為覺得附近有人正在偷聽我們的談話。",
+      "starter": "We",
+      "answer": "We lowered our voices because we thought someone nearby was listening in on our conversation.",
+      "answerZh": "我們降低聲線,因為覺得附近有人正在偷聽我們的談話。",
+      "highlight": "listening in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Before the class started the experiment, the teacher asked everyone to stop chatting and pay close attention.",
+      "promptZh": "全班開始實驗前,老師叫大家停止聊天並留心聽。",
+      "starter": "Before",
+      "answer": "Before the class started the experiment, the teacher asked everyone to stop chatting and listen up.",
+      "answerZh": "全班開始實驗前,老師叫大家停止聊天並留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The cat often returns late, so Dad keeps the window open and waits to hear its meow outside.",
+      "promptZh": "那隻貓經常很晚回來,所以爸爸把窗戶打開,等着聽牠在外面的叫聲。",
+      "starter": "The",
+      "answer": "The cat often returns late, so Dad keeps the window open and listens out for its meow outside.",
+      "answerZh": "那隻貓經常很晚回來,所以爸爸把窗戶打開,留心聽牠在外面的叫聲。",
+      "highlight": "listens out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "I was shocked to learn that someone had secretly listened to our private call through another phone in the house.",
+      "promptZh": "我很震驚,原來有人用屋內另一部電話偷聽了我們的私人通話。",
+      "starter": "I",
+      "answer": "I was shocked to learn that someone had listened in on our private call through another phone in the house.",
+      "answerZh": "我很震驚,原來有人用屋內另一部電話偷聽了我們的私人通話。",
+      "highlight": "listened in on",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The storm was getting closer, and we waited to hear the first warning message on the radio.",
+      "promptZh": "暴風雨愈來愈近,我們留心等候收音機上的第一個警告訊息。",
+      "starter": "The",
+      "answer": "The storm was getting closer, and we listened out for the first warning message on the radio.",
+      "answerZh": "暴風雨愈來愈近,我們留心聽收音機上的第一個警告訊息。",
+      "highlight": "listened out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The manager had only one minute to explain the new rule, so she told the whole team to pay close attention.",
+      "promptZh": "經理只有一分鐘解釋新規則,所以叫全隊留心聽。",
+      "starter": "The",
+      "answer": "The manager had only one minute to explain the new rule, so she told the whole team to listen up.",
+      "answerZh": "經理只有一分鐘解釋新規則,所以叫全隊留心聽。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    },
+    {
+      "id": "phrasal-verb-84-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "While the cousins were planning the surprise, their younger brother secretly listened from the stairs.",
+      "promptZh": "幾位表兄弟姊妹正在計劃驚喜時,他們的弟弟在樓梯上偷聽。",
+      "starter": "While",
+      "answer": "While the cousins were planning the surprise, their younger brother listened in from the stairs.",
+      "answerZh": "幾位表兄弟姊妹正在計劃驚喜時,他們的弟弟在樓梯上偷聽。",
+      "highlight": "listened in",
+      "targetForm": "listen in / listen in on something",
+      "targetMeaningZh": "偷聽;暗中聽別人的談話或通話"
+    },
+    {
+      "id": "phrasal-verb-84-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "I could not see the taxi from inside the shop, so I waited to hear my name.",
+      "promptZh": "我從店內看不到的士,所以等着聽自己的名字。",
+      "starter": "I",
+      "answer": "I could not see the taxi from inside the shop, so I listened out for my name.",
+      "answerZh": "我從店內看不到的士,所以留心聽自己的名字。",
+      "highlight": "listened out for",
+      "targetForm": "listen out for somebody/something",
+      "targetMeaningZh": "留心聽;等待聽到某人、聲音或訊息"
+    },
+    {
+      "id": "phrasal-verb-84-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "If you pay close attention now, you will know exactly what to do when the fire alarm sounds.",
+      "promptZh": "如果你現在留心聽,火警鐘響起時便會清楚知道該怎樣做。",
+      "starter": "If",
+      "answer": "If you listen up now, you will know exactly what to do when the fire alarm sounds.",
+      "answerZh": "如果你現在留心聽,火警鐘響起時便會清楚知道該怎樣做。",
+      "highlight": "listen up",
+      "targetForm": "listen up",
+      "targetMeaningZh": "留心聽好;專心聽"
+    }
+  ]
+}

@@ -1,0 +1,1244 @@
+{
+  "id": "phrasal-verb-129",
+  "order": 129,
+  "slug": "argue",
+  "version": "1",
+  "title": "ARGUE 動詞片語",
+  "titleEn": "Argue",
+  "titleZh": "ARGUE 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 128 - ARGUE.pdf",
+    "sourceNumber": 128,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 ARGUE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to ARGUE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "ARGUE",
+      "highlight": "ARGUE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The coach argued Ava into a second practice session.",
+      "zh": "教練提出理由,說服 Ava 接受第二次練習。",
+      "highlight": "argued Ava into",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "His sister argued him out of walking home alone.",
+      "zh": "(他的姐姐提出理由,說服他不要獨自步行回家。)The into and out of forms describe persuading someone by giving reasons.",
+      "highlight": "argued him out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We stayed to argue the problem out.",
+      "zh": "我們留下來,把問題充分辯清。",
+      "highlight": "argue the problem out",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "用理由說服某人接受某事或去做某事；用理由說服某人放棄某事或不要做某事；把某件事充分討論清楚,直至作出決定或解決分歧；不同意或反駁某個說法、結果、結論或明顯事實",
+    "en": "argue somebody into something; argue somebody into doing something; argue somebody out of something; argue somebody out of doing something; argue something out; argue with something",
+    "naturalZh": [
+      "用理由說服某人接受某事或去做某事",
+      "用理由說服某人放棄某事或不要做某事",
+      "把某件事充分討論清楚,直至作出決定或解決分歧",
+      "不同意或反駁某個說法、結果、結論或明顯事實"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "argue somebody into something; argue somebody into doing something",
+      "titleZh": "用理由說服某人接受某事或去做某事",
+      "titleEn": "argue somebody into something; argue somebody into doing something",
+      "descriptionZh": "用理由說服某人接受某事或去做某事",
+      "descriptionEn": "The coach argued Ava into a second practice session.",
+      "examples": [
+        {
+          "en": "The coach argued Ava into a second practice session.",
+          "zh": "教練提出理由,說服 Ava 接受第二次練習。",
+          "highlight": "argued Ava into"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "argue somebody out of something; argue somebody out of doing something",
+      "titleZh": "用理由說服某人放棄某事或不要做某事",
+      "titleEn": "argue somebody out of something; argue somebody out of doing something",
+      "descriptionZh": "用理由說服某人放棄某事或不要做某事",
+      "descriptionEn": "His sister argued him out of walking home alone.",
+      "examples": [
+        {
+          "en": "His sister argued him out of walking home alone.",
+          "zh": "(他的姐姐提出理由,說服他不要獨自步行回家。)The into and out of forms describe persuading someone by giving reasons.",
+          "highlight": "argued him out"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "argue something out",
+      "titleZh": "把某件事充分討論清楚,直至作出決定或解決分歧",
+      "titleEn": "argue something out",
+      "descriptionZh": "把某件事充分討論清楚,直至作出決定或解決分歧",
+      "descriptionEn": "We stayed to argue the problem out.",
+      "examples": [
+        {
+          "en": "We stayed to argue the problem out.",
+          "zh": "我們留下來,把問題充分辯清。",
+          "highlight": "argue the problem out"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "argue with something",
+      "titleZh": "不同意或反駁某個說法、結果、結論或明顯事實",
+      "titleEn": "argue with something",
+      "descriptionZh": "不同意或反駁某個說法、結果、結論或明顯事實",
+      "descriptionEn": "You cannot argue with those results.",
+      "examples": [
+        {
+          "en": "You cannot argue with those results.",
+          "zh": "那些結果很清楚,無法反駁。",
+          "highlight": "argue with"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "ARGUE 片語動詞的實際用途",
+    "labelEn": "ARGUE Phrasal Verbs in Use",
+    "summaryZh": "argue somebody into something 表示用理由說服某人接受或做某事;argue somebody out ofsomething 則表示說服某人放棄或不要做某事。；argue something out 可以表示人們逐點討論問題,直至作出決定或解決分歧。；you cannot argue with that 和 the facts are hard to argue with 等表達,表示證據或結果十分清楚。；這些表達可以描述說服、充分討論和接受明顯事實,而不只是憤怒地爭論。",
+    "summaryEn": "Argue somebody into something shows that reasons persuade a person to accept or do something. Argue somebody out of something shows the opposite direction. Argue something out helps you describe people examining every part of a problem until they reach a decision or settle their differences. Expressions such as you cannot argue with that and the facts are hard to argue with show that the evidence or result is very clear. These expressions can describe persuasion, careful discussion and acceptance of clear facts—not only angry disagreement.",
+    "contextsZh": [
+      "清楚表達理由如何改變某人的決定",
+      "描述把分歧徹底討論清楚的過程",
+      "表示某個說法或結果難以反駁",
+      "明白 ARGUE 不一定表示憤怒爭吵"
+    ],
+    "contextsEn": [
+      "Show whether reasons lead someone towards or away from an action",
+      "Describe a disagreement that is discussed fully",
+      "Recognise statements that are difficult to deny",
+      "Understand that ARGUE does not always mean having an angry quarrel"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 ARGUE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the ARGUE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "argue somebody into something; argue somebody into doing something",
+    "fixedHighlight": "argue somebody into something; argue somebody into doing something",
+    "fixedZh": "閱讀整句,選出意思相同的 ARGUE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the ARGUE expression that gives the same meaning.",
+    "correct": "argued Ava into",
+    "incorrectForms": [],
+    "variableZh": "INTO 表示用理由說服某人接受或做某事;OUT OF 則表示用理由說服某人放棄或不要做某事。An additional phrase such as by explaining the costs only tells us how the persuasionhappened. It is not part of the core expression.例如 by explaining the costs 只補充說明如何進行說服,並不是核心片語動詞的一部分。；當所討論的事情以 it 表示時,應說 argue it out,而不是 argue out it。；argue with something 常用於否定句或表示「很難反駁」的句式。",
+    "variableEn": "INTO shows that reasons persuade someone to accept or do something. OUT OF shows that reasons persuade someone to abandon or not do something. When the thing being discussed is it, say: argue it out Do not say: argue out it Argue with something commonly appears in expressions such as: You cannot argue with that. The facts are hard to argue with.",
+    "variableItemsZh": [
+      "argue somebody into something; argue somebody into doing something",
+      "argue somebody out of something; argue somebody out of doing something",
+      "argue something out",
+      "argue with something"
+    ],
+    "variableItemsEn": [
+      "argue somebody into something; argue somebody into doing something",
+      "argue somebody out of something; argue somebody out of doing something",
+      "argue something out",
+      "argue with something"
+    ],
+    "forms": [
+      {
+        "formZh": "用理由說服某人接受某事或去做某事",
+        "formEn": "argue somebody into something; argue somebody into doing something",
+        "exampleZh": "教練提出理由,說服 Ava 接受第二次練習。",
+        "exampleEn": "The coach argued Ava into a second practice session.",
+        "highlight": "argued Ava into"
+      },
+      {
+        "formZh": "用理由說服某人放棄某事或不要做某事",
+        "formEn": "argue somebody out of something; argue somebody out of doing something",
+        "exampleZh": "(他的姐姐提出理由,說服他不要獨自步行回家。)The into and out of forms describe persuading someone by giving reasons.",
+        "exampleEn": "His sister argued him out of walking home alone.",
+        "highlight": "argued him out"
+      },
+      {
+        "formZh": "把某件事充分討論清楚,直至作出決定或解決分歧",
+        "formEn": "argue something out",
+        "exampleZh": "我們留下來,把問題充分辯清。",
+        "exampleEn": "We stayed to argue the problem out.",
+        "highlight": "argue the problem out"
+      },
+      {
+        "formZh": "不同意或反駁某個說法、結果、結論或明顯事實",
+        "formEn": "argue with something",
+        "exampleZh": "那些結果很清楚,無法反駁。",
+        "exampleEn": "You cannot argue with those results.",
+        "highlight": "argue with"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "用理由說服某人接受某事或去做某事",
+      "titleEn": "argue somebody into something; argue somebody into doing something",
+      "formula": "argue somebody into something; argue somebody into doing something",
+      "highlight": "argue somebody into something; argue somebody into doing something",
+      "descriptionZh": "用理由說服某人接受某事或去做某事",
+      "descriptionEn": "The coach argued Ava into a second practice session.",
+      "examples": [
+        {
+          "en": "The coach argued Ava into a second practice session.",
+          "zh": "教練提出理由,說服 Ava 接受第二次練習。",
+          "highlight": "argued Ava into"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用理由說服某人放棄某事或不要做某事",
+      "titleEn": "argue somebody out of something; argue somebody out of doing something",
+      "formula": "argue somebody out of something; argue somebody out of doing something",
+      "highlight": "argue somebody out of something; argue somebody out of doing something",
+      "descriptionZh": "用理由說服某人放棄某事或不要做某事",
+      "descriptionEn": "His sister argued him out of walking home alone.",
+      "examples": [
+        {
+          "en": "His sister argued him out of walking home alone.",
+          "zh": "(他的姐姐提出理由,說服他不要獨自步行回家。)The into and out of forms describe persuading someone by giving reasons.",
+          "highlight": "argued him out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "把某件事充分討論清楚,直至作出決定或解決分歧",
+      "titleEn": "argue something out",
+      "formula": "argue something out",
+      "highlight": "argue something out",
+      "descriptionZh": "把某件事充分討論清楚,直至作出決定或解決分歧",
+      "descriptionEn": "We stayed to argue the problem out.",
+      "examples": [
+        {
+          "en": "We stayed to argue the problem out.",
+          "zh": "我們留下來,把問題充分辯清。",
+          "highlight": "argue the problem out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "不同意或反駁某個說法、結果、結論或明顯事實",
+      "titleEn": "argue with something",
+      "formula": "argue with something",
+      "highlight": "argue with something",
+      "descriptionZh": "不同意或反駁某個說法、結果、結論或明顯事實",
+      "descriptionEn": "You cannot argue with those results.",
+      "examples": [
+        {
+          "en": "You cannot argue with those results.",
+          "zh": "那些結果很清楚,無法反駁。",
+          "highlight": "argue with"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "清楚表達理由如何改變某人的決定",
+      "titleEn": "Show whether reasons lead someone towards or away from an action",
+      "zh": "argue somebody into something 表示用理由說服某人接受或做某事;argue somebody out ofsomething 則表示說服某人放棄或不要做某事。",
+      "en": "Argue somebody into something shows that reasons persuade a person to accept or do something. Argue somebody out of something shows the opposite direction."
+    },
+    {
+      "titleZh": "描述把分歧徹底討論清楚的過程",
+      "titleEn": "Describe a disagreement that is discussed fully",
+      "zh": "argue something out 可以表示人們逐點討論問題,直至作出決定或解決分歧。",
+      "en": "Argue something out helps you describe people examining every part of a problem until they reach a decision or settle their differences."
+    },
+    {
+      "titleZh": "表示某個說法或結果難以反駁",
+      "titleEn": "Recognise statements that are difficult to deny",
+      "zh": "you cannot argue with that 和 the facts are hard to argue with 等表達,表示證據或結果十分清楚。",
+      "en": "Expressions such as you cannot argue with that and the facts are hard to argue with show that the evidence or result is very clear."
+    },
+    {
+      "titleZh": "明白 ARGUE 不一定表示憤怒爭吵",
+      "titleEn": "Understand that ARGUE does not always mean having an angry quarrel",
+      "zh": "這些表達可以描述說服、充分討論和接受明顯事實,而不只是憤怒地爭論。",
+      "en": "These expressions can describe persuasion, careful discussion and acceptance of clear facts—not only angry disagreement."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "清楚表達理由如何改變某人的決定",
+      "描述把分歧徹底討論清楚的過程",
+      "表示某個說法或結果難以反駁",
+      "明白 ARGUE 不一定表示憤怒爭吵"
+    ],
+    "contextsEn": [
+      "Show whether reasons lead someone towards or away from an action",
+      "Describe a disagreement that is discussed fully",
+      "Recognise statements that are difficult to deny",
+      "Understand that ARGUE does not always mean having an angry quarrel"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "清楚表達理由如何改變某人的決定",
+        "titleEn": "Show whether reasons lead someone towards or away from an action",
+        "zh": "argue somebody into something 表示用理由說服某人接受或做某事;argue somebody out ofsomething 則表示說服某人放棄或不要做某事。",
+        "en": "Argue somebody into something shows that reasons persuade a person to accept or do something. Argue somebody out of something shows the opposite direction.",
+        "examples": [
+          {
+            "en": "The coach argued Ava into a second practice session.",
+            "zh": "教練提出理由,說服 Ava 接受第二次練習。",
+            "highlight": "argued Ava into"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述把分歧徹底討論清楚的過程",
+        "titleEn": "Describe a disagreement that is discussed fully",
+        "zh": "argue something out 可以表示人們逐點討論問題,直至作出決定或解決分歧。",
+        "en": "Argue something out helps you describe people examining every part of a problem until they reach a decision or settle their differences.",
+        "examples": [
+          {
+            "en": "His sister argued him out of walking home alone.",
+            "zh": "(他的姐姐提出理由,說服他不要獨自步行回家。)The into and out of forms describe persuading someone by giving reasons.",
+            "highlight": "argued him out"
+          }
+        ]
+      },
+      {
+        "titleZh": "表示某個說法或結果難以反駁",
+        "titleEn": "Recognise statements that are difficult to deny",
+        "zh": "you cannot argue with that 和 the facts are hard to argue with 等表達,表示證據或結果十分清楚。",
+        "en": "Expressions such as you cannot argue with that and the facts are hard to argue with show that the evidence or result is very clear.",
+        "examples": [
+          {
+            "en": "We stayed to argue the problem out.",
+            "zh": "我們留下來,把問題充分辯清。",
+            "highlight": "argue the problem out"
+          }
+        ]
+      },
+      {
+        "titleZh": "明白 ARGUE 不一定表示憤怒爭吵",
+        "titleEn": "Understand that ARGUE does not always mean having an angry quarrel",
+        "zh": "這些表達可以描述說服、充分討論和接受明顯事實,而不只是憤怒地爭論。",
+        "en": "These expressions can describe persuasion, careful discussion and acceptance of clear facts—not only angry disagreement.",
+        "examples": [
+          {
+            "en": "You cannot argue with those results.",
+            "zh": "那些結果很清楚,無法反駁。",
+            "highlight": "argue with"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 ARGUE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the ARGUE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 ARGUE 片語動詞。",
+      "en": "Read the whole sentence and choose the ARGUE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "INTO 表示用理由說服某人接受或做某事;OUT OF 則表示用理由說服某人放棄或不要做某事。An additional phrase such as by explaining the costs only tells us how the persuasionhappened. It is not part of the core expression.例如 by explaining the costs 只補充說明如何進行說服,並不是核心片語動詞的一部分。",
+      "titleEn": "INTO shows that reasons persuade someone to accept or do something.",
+      "zh": "INTO 表示用理由說服某人接受或做某事;OUT OF 則表示用理由說服某人放棄或不要做某事。An additional phrase such as by explaining the costs only tells us how the persuasionhappened. It is not part of the core expression.例如 by explaining the costs 只補充說明如何進行說服,並不是核心片語動詞的一部分。",
+      "en": "INTO shows that reasons persuade someone to accept or do something. OUT OF shows that reasons persuade someone to abandon or not do something."
+    },
+    {
+      "titleZh": "當所討論的事情以 it 表示時,應說 argue it out,而不是 argue out it。",
+      "titleEn": "When the thing being discussed is it, say: argue it out Do not say: argue out it.",
+      "zh": "當所討論的事情以 it 表示時,應說 argue it out,而不是 argue out it。",
+      "en": "When the thing being discussed is it, say: argue it out Do not say: argue out it"
+    },
+    {
+      "titleZh": "argue with something 常用於否定句或表示「很難反駁」的句式。",
+      "titleEn": "Argue with something commonly appears in expressions such as: You cannot argue with that.",
+      "zh": "argue with something 常用於否定句或表示「很難反駁」的句式。",
+      "en": "Argue with something commonly appears in expressions such as: You cannot argue with that. The facts are hard to argue with."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 ARGUE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to ARGUE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "ARGUE 動詞片語句子改寫練習",
+    "titleEn": "ARGUE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 ARGUE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to ARGUE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-129-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "These numbers clearly show that the shorter route is faster, and no one can disagree with them.",
+      "promptZh": "這些數字清楚顯示較短的路線比較快,沒有人能反駁。",
+      "starter": "No",
+      "answer": "No one can argue with these numbers: the shorter route is faster.",
+      "answerZh": "這些數字很清楚,沒有人能反駁較短的路線比較快這一點。",
+      "highlight": "No one can argue with",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Chloe gave Ben several good reasons and persuaded him to join the school trip.",
+      "promptZh": "Chloe 提出幾個充分理由,說服 Ben 參加學校旅行。",
+      "starter": "Chloe",
+      "answer": "Chloe argued Ben into joining the school trip.",
+      "answerZh": "Chloe 提出理由,說服 Ben 參加學校旅行。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The two friends discussed every part of the problem, sometimes strongly, until they found an answer.",
+      "promptZh": "兩位朋友把問題的每一部分都討論清楚,期間有時語氣強烈,直至找到答案。",
+      "starter": "The",
+      "answer": "The two friends argued the problem out, sometimes strongly, until they found an answer.",
+      "answerZh": "兩位朋友把問題逐點辯清,期間有時語氣強烈,直至找到答案。",
+      "highlight": "argued",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I gave Leo several reasons not to buy the broken bike, and he changed his mind.",
+      "promptZh": "我提出幾個理由,勸 Leo 不要購買那部損壞的單車,而他改變了主意。",
+      "starter": "I",
+      "answer": "I argued Leo out of buying the broken bike.",
+      "answerZh": "我提出理由,說服 Leo 不要購買那部損壞的單車。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The coach gave Ava many reasons to agree to a second practice session, and she accepted.",
+      "promptZh": "教練提出許多理由,說服 Ava 接受第二次練習,而她同意了。",
+      "starter": "The",
+      "answer": "The coach argued Ava into a second practice session.",
+      "answerZh": "教練提出理由,說服 Ava 接受第二次練習。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into something",
+      "targetMeaningZh": "用理由說服某人接受某事"
+    },
+    {
+      "id": "phrasal-verb-129-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The test result is clear, so I cannot disagree with it.",
+      "promptZh": "測試結果很清楚,所以我無法反駁。",
+      "starter": "I",
+      "answer": "I cannot argue with the test result.",
+      "answerZh": "我無法反駁這個測試結果。",
+      "highlight": "I cannot argue with",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Daniel explained why the plan was unsafe and persuaded Priya to drop it.",
+      "promptZh": "Daniel 解釋計劃為何不安全,並說服 Priya 放棄它。",
+      "starter": "Daniel",
+      "answer": "Daniel argued Priya out of the unsafe plan.",
+      "answerZh": "Daniel 提出理由,說服 Priya 放棄那個不安全的計劃。",
+      "highlight": "argued Priya out of",
+      "targetForm": "argue somebody out of something",
+      "targetMeaningZh": "用理由說服某人放棄某事"
+    },
+    {
+      "id": "phrasal-verb-129-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Before choosing a date, the group discussed all their differences fully.",
+      "promptZh": "在選擇日期前,小組充分討論了所有分歧。",
+      "starter": "Before",
+      "answer": "Before choosing a date, the group argued out all their differences.",
+      "answerZh": "在選擇日期前,小組把所有分歧充分討論清楚。",
+      "highlight": "argued out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把分歧充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The class gave the teacher several reasons and persuaded her to extend the deadline.",
+      "promptZh": "全班提出幾個理由,說服老師延長限期。",
+      "starter": "The",
+      "answer": "The class argued the teacher into extending the deadline.",
+      "answerZh": "全班提出理由,說服老師延長限期。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "His sister used several good reasons to stop him from walking home alone.",
+      "promptZh": "他的姐姐提出幾個充分理由,勸他不要獨自步行回家。",
+      "starter": "His",
+      "answer": "His sister argued him out of walking home alone.",
+      "answerZh": "他的姐姐提出理由,說服他不要獨自步行回家。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The neighbours are discussing the parking problem fully now, and both sides are speaking strongly.",
+      "promptZh": "鄰居現在正充分討論泊車問題,雙方的語氣都很強烈。",
+      "starter": "The",
+      "answer": "The neighbours are arguing out the parking problem now, and both sides are speaking strongly.",
+      "answerZh": "鄰居現在正把泊車問題充分辯清,雙方的語氣都很強烈。",
+      "highlight": "arguing out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Our friends have persuaded us, with many reasons, to try the new café.",
+      "promptZh": "朋友提出許多理由,已說服我們嘗試那間新咖啡店。",
+      "starter": "Our",
+      "answer": "Our friends have argued us into trying the new café.",
+      "answerZh": "朋友提出理由,已說服我們嘗試那間新咖啡店。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Can anyone really disagree with such clear proof?",
+      "promptZh": "面對這麼清楚的證明,真的有人能反駁嗎?",
+      "starter": "Can",
+      "answer": "Can anyone really argue with such clear proof?",
+      "answerZh": "面對這麼清楚的證明,真的有人能反駁嗎?",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The safety officer could not persuade the children not to climb the wet rocks.",
+      "promptZh": "安全主任未能說服孩子不要攀爬濕滑的岩石。",
+      "starter": "The",
+      "answer": "The safety officer could not argue the children out of climbing the wet rocks.",
+      "answerZh": "安全主任未能以理由說服孩子不要攀爬濕滑的岩石。",
+      "highlight": "argue",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The main differences have now been discussed fully, and the teams have agreed.",
+      "promptZh": "主要分歧現已充分討論清楚,兩隊亦已達成共識。",
+      "starter": "The",
+      "answer": "The main differences have now been argued out, and the teams have agreed.",
+      "answerZh": "主要分歧現已充分辯清,兩隊亦已達成共識。",
+      "highlight": "argued out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把分歧充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "You may persuade Noah to give the idea another chance if you explain its benefits.",
+      "promptZh": "只要你解釋這個構思的好處,便可能說服 Noah 再給它一次機會。",
+      "starter": "You",
+      "answer": "You may argue Noah into giving the idea another chance if you explain its benefits.",
+      "answerZh": "只要你解釋這個構思的好處,便可能以理由說服 Noah 再給它一次機會。",
+      "highlight": "argue",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Who persuaded Ella not to leave the club?",
+      "promptZh": "是誰說服 Ella 不要退出學會?",
+      "starter": "Who",
+      "answer": "Who argued Ella out of leaving the club?",
+      "answerZh": "是誰提出理由,說服 Ella 不要退出學會?",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "No one has been able to disagree with the final score.",
+      "promptZh": "一直沒有人能夠反駁最終比數。",
+      "starter": "No",
+      "answer": "No one has been able to argue with the final score.",
+      "answerZh": "一直沒有人能夠反駁最終比數。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We will discuss the last few details fully after lunch.",
+      "promptZh": "我們會在午飯後把最後幾項細節充分討論清楚。",
+      "starter": "We",
+      "answer": "We will argue out the last few details after lunch.",
+      "answerZh": "我們會在午飯後把最後幾項細節充分辯清。",
+      "highlight": "argue out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The guide is using careful reasons to persuade the group to agree on a later start.",
+      "promptZh": "導遊正提出周詳理由,說服小組同意較遲出發。",
+      "starter": "The",
+      "answer": "The guide is arguing the group into agreement on a later start.",
+      "answerZh": "導遊正提出理由,說服小組同意較遲出發。",
+      "highlight": "arguing",
+      "targetForm": "argue somebody into something",
+      "targetMeaningZh": "用理由說服某人接受某事"
+    },
+    {
+      "id": "phrasal-verb-129-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The idea looked exciting at first. However, Ruth gave me several reasons not to try it.",
+      "promptZh": "這個構思起初看來很吸引。不過,Ruth 提出幾個理由,勸我不要嘗試。",
+      "starter": "The",
+      "answer": "The idea looked exciting at first. However, Ruth argued me out of trying it.",
+      "answerZh": "這個構思起初看來很吸引。不過,Ruth 提出理由,說服我不要嘗試。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The facts are hard to disagree with, even if we dislike the answer.",
+      "promptZh": "即使我們不喜歡這個答案,這些事實仍很難反駁。",
+      "starter": "The",
+      "answer": "The facts are hard to argue with, even if we dislike the answer.",
+      "answerZh": "即使我們不喜歡這個答案,這些事實仍很難反駁。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "We cannot leave this disagreement unfinished; we need to discuss it fully tonight.",
+      "promptZh": "我們不能讓這場分歧懸而未決;今晚必須把它充分討論清楚。",
+      "starter": "We",
+      "answer": "We cannot leave this disagreement unfinished; we need to argue it out tonight.",
+      "answerZh": "我們不能讓這場分歧懸而未決;今晚必須把它充分辯清。",
+      "highlight": "argue",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "I did not want to speak at the event, but my friends gave me enough reasons to do it.",
+      "promptZh": "我本來不想在活動上發言,但朋友提出了足夠理由說服我。",
+      "starter": "I",
+      "answer": "I did not want to speak at the event, but my friends argued me into doing it.",
+      "answerZh": "我本來不想在活動上發言,但朋友提出理由,說服我這樣做。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Although I wanted to disagree with the coach’s conclusion, the result showed that it was correct.",
+      "promptZh": "雖然我想反駁教練的結論,但結果顯示那個結論是正確的。",
+      "starter": "Although",
+      "answer": "Although I wanted to argue with the coach’s conclusion, the result showed that it was correct.",
+      "answerZh": "雖然我想反駁教練的結論,但結果顯示那個結論是正確的。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The teacher gave us several reasons to abandon our plan for an outdoor lunch.",
+      "promptZh": "老師提出幾個理由,說服我們放棄在戶外吃午飯的計劃。",
+      "starter": "The",
+      "answer": "The teacher argued us out of our plan for an outdoor lunch.",
+      "answerZh": "老師提出理由,說服我們放棄在戶外吃午飯的計劃。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of something",
+      "targetMeaningZh": "用理由說服某人放棄某事"
+    },
+    {
+      "id": "phrasal-verb-129-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After a long talk, Aisha’s brother persuaded her to apply for the course.",
+      "promptZh": "經過長時間交談後,Aisha 的哥哥說服她申請這個課程。",
+      "starter": "After",
+      "answer": "After a long talk, Aisha’s brother argued her into applying for the course.",
+      "answerZh": "經過長時間交談後,Aisha 的哥哥提出理由,說服她申請這個課程。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Why don’t we discuss it fully now and make a final choice?",
+      "promptZh": "我們何不現在把事情充分討論清楚,然後作出最後選擇?",
+      "starter": "Why",
+      "answer": "Why don’t we argue it out now and make a final choice?",
+      "answerZh": "我們何不現在把事情充分辯清,然後作出最後選擇?",
+      "highlight": "argue",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "His friends explained why the trip was safe and persuaded Kai not to cancel it.",
+      "promptZh": "朋友解釋旅程為何安全,並說服 Kai 不要取消。",
+      "starter": "His",
+      "answer": "His friends explained why the trip was safe and argued Kai out of cancelling it.",
+      "answerZh": "朋友解釋旅程為何安全,並提出理由說服 Kai 不要取消。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "There is no good reason to disagree with the clear advice on the sign.",
+      "promptZh": "沒有充分理由反駁告示牌上的清楚指示。",
+      "starter": "There",
+      "answer": "There is no good reason to argue with the clear advice on the sign.",
+      "answerZh": "沒有充分理由反駁告示牌上的清楚指示。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The team did not want another meeting, but the captain gave strong reasons until they agreed to have one.",
+      "promptZh": "球隊不想再開會,但隊長提出充分理由,最終說服他們同意再開一次。",
+      "starter": "The",
+      "answer": "The captain argued the team into having another meeting.",
+      "answerZh": "隊長提出理由,說服球隊再開一次會議。",
+      "highlight": "The captain argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The shop has the lowest price in town; that fact is impossible to deny.",
+      "promptZh": "這間店的價格是全城最低;這個事實無法否認。",
+      "starter": "The",
+      "answer": "The shop has the lowest price in town; you cannot argue with that fact.",
+      "answerZh": "這間店的價格是全城最低;你無法反駁這個事實。",
+      "highlight": "you cannot argue with",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The brothers kept discussing their disagreement until they had covered every point.",
+      "promptZh": "兄弟二人不斷討論彼此的分歧,直至處理了每一點。",
+      "starter": "The",
+      "answer": "The brothers kept arguing their disagreement out until they had covered every point.",
+      "answerZh": "兄弟二人不斷把彼此的分歧辯清,直至處理了每一點。",
+      "highlight": "arguing",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把分歧充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "I wanted to send the angry message, but Jordan gave me good reasons to delete it instead.",
+      "promptZh": "我本來想傳送那段憤怒的訊息,但 Jordan 提出充分理由,勸我改為刪除它。",
+      "starter": "Jordan",
+      "answer": "Jordan argued me out of sending the angry message.",
+      "answerZh": "Jordan 提出理由,說服我不要傳送那段憤怒的訊息。",
+      "highlight": "Jordan argued me out of sending",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Even people who dislike the new system have to agree that it saves time.",
+      "promptZh": "即使不喜歡新系統的人,也不得不同意它能節省時間。",
+      "starter": "Even",
+      "answer": "Even people who dislike the new system cannot argue with the fact that it saves time.",
+      "answerZh": "即使不喜歡新系統的人,也無法反駁它能節省時間這個事實。",
+      "highlight": "cannot argue with the fact",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "After a long talk, the organiser persuaded both teams to accept a compromise.",
+      "promptZh": "經過長時間交談後,主辦人說服兩隊接受折衷方案。",
+      "starter": "After",
+      "answer": "After a long talk, the organiser argued both teams into a compromise.",
+      "answerZh": "經過長時間交談後,主辦人提出理由,說服兩隊接受折衷方案。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into something",
+      "targetMeaningZh": "用理由說服某人接受某事"
+    },
+    {
+      "id": "phrasal-verb-129-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The question of who should lead was discussed fully before the trip.",
+      "promptZh": "由誰帶隊這個問題在旅程前已充分討論清楚。",
+      "starter": "The",
+      "answer": "The question of who should lead was argued out before the trip.",
+      "answerZh": "由誰帶隊這個問題在旅程前已充分辯清。",
+      "highlight": "argued out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The film won every major prize, so it is not easy to deny its success.",
+      "promptZh": "這部電影贏得所有主要獎項,因此很難否認它的成功。",
+      "starter": "The",
+      "answer": "The film won every major prize, so it is not easy to argue with its success.",
+      "answerZh": "這部電影贏得所有主要獎項,因此很難反駁它的成功。",
+      "highlight": "argue with",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The doctor gave Theo several reasons to drop his plan to return to training too soon.",
+      "promptZh": "醫生提出幾個理由,說服 Theo 放棄過早恢復訓練的計劃。",
+      "starter": "The",
+      "answer": "The doctor argued Theo out of his plan to return to training too soon.",
+      "answerZh": "醫生提出理由,說服 Theo 放棄過早恢復訓練的計劃。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of something",
+      "targetMeaningZh": "用理由說服某人放棄某事"
+    },
+    {
+      "id": "phrasal-verb-129-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Although she was unsure, the treasurer explained the costs clearly and persuaded Nia to support the project.",
+      "promptZh": "雖然 Nia 有所疑慮,但司庫清楚解釋費用,說服她支持這個項目。",
+      "starter": "Although",
+      "answer": "Although she was unsure, the treasurer argued Nia into supporting the project by explaining the costs clearly.",
+      "answerZh": "雖然 Nia 有所疑慮,但司庫清楚解釋費用,以理由說服她支持這個項目。",
+      "highlight": "argued Nia into supporting the project by explaining",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The two clubs disagreed about the shared room. They stayed until they had discussed every detail and settled the matter.",
+      "promptZh": "兩個學會對共用房間有分歧。他們留下來,直至討論清楚每項細節並解決事情。",
+      "starter": "The",
+      "answer": "The two clubs disagreed about the shared room. They stayed until they had argued every detail out and settled the matter.",
+      "answerZh": "兩個學會對共用房間有分歧。他們留下來,直至把每項細節辯清並解決事情。",
+      "highlight": "argued",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Sam had nearly agreed to lend his bike, but his parents gave him reasons not to do so.",
+      "promptZh": "Sam 幾乎答應借出單車,但父母提出理由,勸他不要這樣做。",
+      "starter": "Sam",
+      "answer": "Sam had nearly agreed to lend his bike, but his parents argued him out of doing so.",
+      "answerZh": "Sam 幾乎答應借出單車,但父母提出理由,說服他不要這樣做。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The new route is ten minutes shorter and much safer, so even the critics find it hard to disagree with those facts.",
+      "promptZh": "新路線快十分鐘,而且安全得多,因此連批評者也很難反駁這些事實。",
+      "starter": "The",
+      "answer": "The new route is ten minutes shorter and much safer, so even the critics find it hard to argue with those facts.",
+      "answerZh": "新路線快十分鐘,而且安全得多,因此連批評者也很難反駁這些事實。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Rosa did not plan to stay, but the group gave her enough reasons to help for one more hour.",
+      "promptZh": "Rosa 本來不打算留下,但小組提出足夠理由,說服她再幫忙一小時。",
+      "starter": "Rosa",
+      "answer": "Rosa did not plan to stay, but the group argued her into helping for one more hour.",
+      "answerZh": "Rosa 本來不打算留下,但小組提出理由,說服她再幫忙一小時。",
+      "highlight": "argued",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "If both sides discuss the remaining problems fully tonight, they may still reach an agreement.",
+      "promptZh": "如果雙方今晚把餘下問題充分討論清楚,仍可能達成協議。",
+      "starter": "If",
+      "answer": "If both sides argue out the remaining problems tonight, they may still reach an agreement.",
+      "answerZh": "如果雙方今晚把餘下問題充分辯清,仍可能達成協議。",
+      "highlight": "argue out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We had planned to drive through the storm, but the hotel owner gave us several reasons not to go.",
+      "promptZh": "我們原本計劃駕車穿過風暴,但酒店東主提出幾個理由,勸我們不要前往。",
+      "starter": "We",
+      "answer": "We had planned to drive through the storm, but the hotel owner argued us out of doing so.",
+      "answerZh": "我們原本計劃駕車穿過風暴,但酒店東主提出理由,說服我們不要這樣做。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "At first, the parents rejected the later school start, but the head teacher’s reasons finally won their support.",
+      "promptZh": "家長起初反對較遲上課,但校長提出的理由最終取得他們支持。",
+      "starter": "At",
+      "answer": "At first, the parents rejected the later school start, but the head teacher argued them into supporting it.",
+      "answerZh": "家長起初反對較遲上課,但校長提出理由,最終說服他們支持這個安排。",
+      "highlight": "teacher argued them into supporting it",
+      "targetForm": "argue somebody into doing something",
+      "targetMeaningZh": "用理由說服某人去做某事"
+    },
+    {
+      "id": "phrasal-verb-129-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The problem had been discussed in full before I arrived, so no further meeting was needed.",
+      "promptZh": "我到達前,這個問題已充分討論清楚,因此不需要再開會。",
+      "starter": "The",
+      "answer": "The problem had been argued out before I arrived, so no further meeting was needed.",
+      "answerZh": "我到達前,這個問題已充分辯清,因此不需要再開會。",
+      "highlight": "argued out",
+      "targetForm": "argue something out",
+      "targetMeaningZh": "把某件事充分討論清楚"
+    },
+    {
+      "id": "phrasal-verb-129-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The results were checked twice, and there was no reasonable way to disagree with the final conclusion.",
+      "promptZh": "結果經過兩次核對,沒有合理理由反駁最後結論。",
+      "starter": "The",
+      "answer": "The results were checked twice, and there was no reasonable way to argue with the final conclusion.",
+      "answerZh": "結果經過兩次核對,沒有合理理由反駁最後結論。",
+      "highlight": "argue",
+      "targetForm": "argue with something",
+      "targetMeaningZh": "不同意或反駁某個說法、結果或事實"
+    },
+    {
+      "id": "phrasal-verb-129-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Elena was ready to quit the team, but her friends explained why she should stay and changed her mind.",
+      "promptZh": "Elena 已準備退出球隊,但朋友解釋她應該留下的原因,令她改變主意。",
+      "starter": "Elena",
+      "answer": "Elena was ready to quit the team, but her friends argued her out of quitting the team.",
+      "answerZh": "Elena 已準備退出球隊,但朋友提出理由,說服她不要退出。",
+      "highlight": "argued",
+      "targetForm": "argue somebody out of doing something",
+      "targetMeaningZh": "用理由說服某人不要做某事"
+    }
+  ]
+}

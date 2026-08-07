@@ -1,0 +1,1487 @@
+{
+  "id": "phrasal-verb-307",
+  "order": 307,
+  "slug": "pop",
+  "version": "1",
+  "title": "POP 動詞片語",
+  "titleEn": "Pop",
+  "titleZh": "POP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 292 - POP.pdf",
+    "sourceNumber": 292,
+    "pageCount": 25,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 POP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to POP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "POP",
+      "highlight": "POP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "She often pops in for coffee.",
+      "zh": "她經常順道來喝咖啡。",
+      "highlight": "pops in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I will pop the library books in after lunch.",
+      "zh": "我會在午飯後順道把圖書館的書交回去。",
+      "highlight": "pop the library books in",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "I may pop off early today.",
+      "zh": "我今天可能會提早離開。",
+      "highlight": "pop off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "短暫探訪;順道拜訪；順道把某物送到、交回或帶到某人家中；離開;先走,尤其是迅速或提早離開；迅速穿上或戴上某件衣物；突然從藏身處、某物後面或裏面走出或冒出；突然或意外出現",
+    "en": "pop in; pop something in / pop something round; pop off; pop something on; pop out; pop up",
+    "naturalZh": [
+      "短暫探訪;順道拜訪",
+      "順道把某物送到、交回或帶到某人家中",
+      "離開;先走,尤其是迅速或提早離開",
+      "迅速穿上或戴上某件衣物",
+      "突然從藏身處、某物後面或裏面走出或冒出",
+      "突然或意外出現"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "pop in",
+      "titleZh": "短暫探訪;順道拜訪",
+      "titleEn": "pop in",
+      "descriptionZh": "短暫探訪;順道拜訪",
+      "descriptionEn": "She often pops in for coffee.",
+      "examples": [
+        {
+          "en": "She often pops in for coffee.",
+          "zh": "她經常順道來喝咖啡。",
+          "highlight": "pops in"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pop something in / pop something round",
+      "titleZh": "順道把某物送到、交回或帶到某人家中",
+      "titleEn": "pop something in / pop something round",
+      "descriptionZh": "順道把某物送到、交回或帶到某人家中",
+      "descriptionEn": "I will pop the library books in after lunch.",
+      "examples": [
+        {
+          "en": "I will pop the library books in after lunch.",
+          "zh": "我會在午飯後順道把圖書館的書交回去。",
+          "highlight": "pop the library books in"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pop off",
+      "titleZh": "離開;先走,尤其是迅速或提早離開",
+      "titleEn": "pop off",
+      "descriptionZh": "離開;先走,尤其是迅速或提早離開",
+      "descriptionEn": "I may pop off early today.",
+      "examples": [
+        {
+          "en": "I may pop off early today.",
+          "zh": "我今天可能會提早離開。",
+          "highlight": "pop off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "pop something on",
+      "titleZh": "迅速穿上或戴上某件衣物",
+      "titleEn": "pop something on",
+      "descriptionZh": "迅速穿上或戴上某件衣物",
+      "descriptionEn": "He popped his jacket on and went outside.",
+      "examples": [
+        {
+          "en": "He popped his jacket on and went outside.",
+          "zh": "他迅速穿上外套,然後走到外面。",
+          "highlight": "popped his jacket on"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pop out",
+      "titleZh": "突然從藏身處、某物後面或裏面走出或冒出",
+      "titleEn": "pop out",
+      "descriptionZh": "突然從藏身處、某物後面或裏面走出或冒出",
+      "descriptionEn": "A cat popped out from under the table.",
+      "examples": [
+        {
+          "en": "A cat popped out from under the table.",
+          "zh": "有隻貓突然從桌下冒出來。",
+          "highlight": "popped out"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "pop up",
+      "titleZh": "突然或意外出現",
+      "titleEn": "pop up",
+      "descriptionZh": "突然或意外出現",
+      "descriptionEn": "A warning popped up on my screen.",
+      "examples": [
+        {
+          "en": "A warning popped up on my screen.",
+          "zh": "我的螢幕上突然出現了一個警告。",
+          "highlight": "popped up"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "POP 片語動詞的實際用途",
+    "labelEn": "POP Phrasal Verbs in Use",
+    "summaryZh": "pop in 可以描述短暫探訪;pop something in 或 round 則可以表示順道把某物送到另一地方。；pop off 可以表示某人迅速或提早離開;pop something on 則可以表示迅速穿上衣物。；pop out 表示某物從藏身處突然走出或冒出;pop up 則表示人物、物件、訊息或問題意外出現。；這些 POP 表達常用於談論探訪、送遞物品、衣服、工作、行程、螢幕訊息和意外事件。",
+    "summaryEn": "Pop in describes a brief visit. Pop something in or round describes taking something somewhere without making a long visit. Pop off can show that someone leaves quickly or early. Pop something on describes putting on clothes without taking much time. Pop out shows something coming from a hidden place. Pop up shows a person, object, message or problem appearing unexpectedly. These POP expressions are useful when talking about visits, deliveries, clothes, work, journeys, screens and unexpected events.",
+    "contextsZh": [
+      "自然地談論短暫探訪和順道辦事",
+      "描述迅速離開和穿衣",
+      "描述不同形式的突然出現",
+      "理解常見的日常英式英語"
+    ],
+    "contextsEn": [
+      "Talk naturally about short visits and quick errands",
+      "Describe leaving and getting dressed quickly",
+      "Show different kinds of sudden appearances",
+      "Understand common everyday British English"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 POP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the POP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "pop in",
+    "fixedHighlight": "pop in",
+    "fixedZh": "閱讀整句,選出意思相同的 POP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the POP expression that gives the same meaning.",
+    "correct": "pops in",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；比較以下兩個表達:I popped in 表示短暫探訪。I popped the books in 表示順道把書送到或交回。；請仔細閱讀地點和情境:pop off 表示離開。pop out 表示突然從藏身處走出或冒出。pop up 表示突然或意外出現。",
+    "variableEn": "Keep the same people, things, time and meaning. Compare these two expressions: I popped in. I visited briefly. I popped the books in. I delivered or returned the books. Read the place and situation carefully: pop off = leave pop out = suddenly come from a hidden place pop up = appear suddenly or unexpectedly",
+    "variableItemsZh": [
+      "pop in",
+      "pop something in / pop something round",
+      "pop off",
+      "pop something on",
+      "pop out",
+      "pop up"
+    ],
+    "variableItemsEn": [
+      "pop in",
+      "pop something in / pop something round",
+      "pop off",
+      "pop something on",
+      "pop out",
+      "pop up"
+    ],
+    "forms": [
+      {
+        "formZh": "短暫探訪;順道拜訪",
+        "formEn": "pop in",
+        "exampleZh": "她經常順道來喝咖啡。",
+        "exampleEn": "She often pops in for coffee.",
+        "highlight": "pops in"
+      },
+      {
+        "formZh": "順道把某物送到、交回或帶到某人家中",
+        "formEn": "pop something in / pop something round",
+        "exampleZh": "我會在午飯後順道把圖書館的書交回去。",
+        "exampleEn": "I will pop the library books in after lunch.",
+        "highlight": "pop the library books in"
+      },
+      {
+        "formZh": "離開;先走,尤其是迅速或提早離開",
+        "formEn": "pop off",
+        "exampleZh": "我今天可能會提早離開。",
+        "exampleEn": "I may pop off early today.",
+        "highlight": "pop off"
+      },
+      {
+        "formZh": "迅速穿上或戴上某件衣物",
+        "formEn": "pop something on",
+        "exampleZh": "他迅速穿上外套,然後走到外面。",
+        "exampleEn": "He popped his jacket on and went outside.",
+        "highlight": "popped his jacket on"
+      },
+      {
+        "formZh": "突然從藏身處、某物後面或裏面走出或冒出",
+        "formEn": "pop out",
+        "exampleZh": "有隻貓突然從桌下冒出來。",
+        "exampleEn": "A cat popped out from under the table.",
+        "highlight": "popped out"
+      },
+      {
+        "formZh": "突然或意外出現",
+        "formEn": "pop up",
+        "exampleZh": "我的螢幕上突然出現了一個警告。",
+        "exampleEn": "A warning popped up on my screen.",
+        "highlight": "popped up"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "短暫探訪;順道拜訪",
+      "titleEn": "pop in",
+      "formula": "pop in",
+      "highlight": "pop in",
+      "descriptionZh": "短暫探訪;順道拜訪",
+      "descriptionEn": "She often pops in for coffee.",
+      "examples": [
+        {
+          "en": "She often pops in for coffee.",
+          "zh": "她經常順道來喝咖啡。",
+          "highlight": "pops in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "順道把某物送到、交回或帶到某人家中",
+      "titleEn": "pop something in / pop something round",
+      "formula": "pop something in / pop something round",
+      "highlight": "pop something in / pop something round",
+      "descriptionZh": "順道把某物送到、交回或帶到某人家中",
+      "descriptionEn": "I will pop the library books in after lunch.",
+      "examples": [
+        {
+          "en": "I will pop the library books in after lunch.",
+          "zh": "我會在午飯後順道把圖書館的書交回去。",
+          "highlight": "pop the library books in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "離開;先走,尤其是迅速或提早離開",
+      "titleEn": "pop off",
+      "formula": "pop off",
+      "highlight": "pop off",
+      "descriptionZh": "離開;先走,尤其是迅速或提早離開",
+      "descriptionEn": "I may pop off early today.",
+      "examples": [
+        {
+          "en": "I may pop off early today.",
+          "zh": "我今天可能會提早離開。",
+          "highlight": "pop off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "迅速穿上或戴上某件衣物",
+      "titleEn": "pop something on",
+      "formula": "pop something on",
+      "highlight": "pop something on",
+      "descriptionZh": "迅速穿上或戴上某件衣物",
+      "descriptionEn": "He popped his jacket on and went outside.",
+      "examples": [
+        {
+          "en": "He popped his jacket on and went outside.",
+          "zh": "他迅速穿上外套,然後走到外面。",
+          "highlight": "popped his jacket on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "突然從藏身處、某物後面或裏面走出或冒出",
+      "titleEn": "pop out",
+      "formula": "pop out",
+      "highlight": "pop out",
+      "descriptionZh": "突然從藏身處、某物後面或裏面走出或冒出",
+      "descriptionEn": "A cat popped out from under the table.",
+      "examples": [
+        {
+          "en": "A cat popped out from under the table.",
+          "zh": "有隻貓突然從桌下冒出來。",
+          "highlight": "popped out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "突然或意外出現",
+      "titleEn": "pop up",
+      "formula": "pop up",
+      "highlight": "pop up",
+      "descriptionZh": "突然或意外出現",
+      "descriptionEn": "A warning popped up on my screen.",
+      "examples": [
+        {
+          "en": "A warning popped up on my screen.",
+          "zh": "我的螢幕上突然出現了一個警告。",
+          "highlight": "popped up"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "自然地談論短暫探訪和順道辦事",
+      "titleEn": "Talk naturally about short visits and quick errands",
+      "zh": "pop in 可以描述短暫探訪;pop something in 或 round 則可以表示順道把某物送到另一地方。",
+      "en": "Pop in describes a brief visit. Pop something in or round describes taking something somewhere without making a long visit."
+    },
+    {
+      "titleZh": "描述迅速離開和穿衣",
+      "titleEn": "Describe leaving and getting dressed quickly",
+      "zh": "pop off 可以表示某人迅速或提早離開;pop something on 則可以表示迅速穿上衣物。",
+      "en": "Pop off can show that someone leaves quickly or early. Pop something on describes putting on clothes without taking much time."
+    },
+    {
+      "titleZh": "描述不同形式的突然出現",
+      "titleEn": "Show different kinds of sudden appearances",
+      "zh": "pop out 表示某物從藏身處突然走出或冒出;pop up 則表示人物、物件、訊息或問題意外出現。",
+      "en": "Pop out shows something coming from a hidden place. Pop up shows a person, object, message or problem appearing unexpectedly."
+    },
+    {
+      "titleZh": "理解常見的日常英式英語",
+      "titleEn": "Understand common everyday British English",
+      "zh": "這些 POP 表達常用於談論探訪、送遞物品、衣服、工作、行程、螢幕訊息和意外事件。",
+      "en": "These POP expressions are useful when talking about visits, deliveries, clothes, work, journeys, screens and unexpected events."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "自然地談論短暫探訪和順道辦事",
+      "描述迅速離開和穿衣",
+      "描述不同形式的突然出現",
+      "理解常見的日常英式英語"
+    ],
+    "contextsEn": [
+      "Talk naturally about short visits and quick errands",
+      "Describe leaving and getting dressed quickly",
+      "Show different kinds of sudden appearances",
+      "Understand common everyday British English"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "自然地談論短暫探訪和順道辦事",
+        "titleEn": "Talk naturally about short visits and quick errands",
+        "zh": "pop in 可以描述短暫探訪;pop something in 或 round 則可以表示順道把某物送到另一地方。",
+        "en": "Pop in describes a brief visit. Pop something in or round describes taking something somewhere without making a long visit.",
+        "examples": [
+          {
+            "en": "She often pops in for coffee.",
+            "zh": "她經常順道來喝咖啡。",
+            "highlight": "pops in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述迅速離開和穿衣",
+        "titleEn": "Describe leaving and getting dressed quickly",
+        "zh": "pop off 可以表示某人迅速或提早離開;pop something on 則可以表示迅速穿上衣物。",
+        "en": "Pop off can show that someone leaves quickly or early. Pop something on describes putting on clothes without taking much time.",
+        "examples": [
+          {
+            "en": "I will pop the library books in after lunch.",
+            "zh": "我會在午飯後順道把圖書館的書交回去。",
+            "highlight": "pop the library books in"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述不同形式的突然出現",
+        "titleEn": "Show different kinds of sudden appearances",
+        "zh": "pop out 表示某物從藏身處突然走出或冒出;pop up 則表示人物、物件、訊息或問題意外出現。",
+        "en": "Pop out shows something coming from a hidden place. Pop up shows a person, object, message or problem appearing unexpectedly.",
+        "examples": [
+          {
+            "en": "I may pop off early today.",
+            "zh": "我今天可能會提早離開。",
+            "highlight": "pop off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解常見的日常英式英語",
+        "titleEn": "Understand common everyday British English",
+        "zh": "這些 POP 表達常用於談論探訪、送遞物品、衣服、工作、行程、螢幕訊息和意外事件。",
+        "en": "These POP expressions are useful when talking about visits, deliveries, clothes, work, journeys, screens and unexpected events.",
+        "examples": [
+          {
+            "en": "He popped his jacket on and went outside.",
+            "zh": "他迅速穿上外套,然後走到外面。",
+            "highlight": "popped his jacket on"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 POP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the POP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 POP 片語動詞。",
+      "en": "Read the whole sentence and choose the POP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "比較以下兩個表達:I popped in 表示短暫探訪。I popped the books in 表示順道把書送到或交回。",
+      "titleEn": "Compare these two expressions: I popped in.",
+      "zh": "比較以下兩個表達:I popped in 表示短暫探訪。I popped the books in 表示順道把書送到或交回。",
+      "en": "Compare these two expressions: I popped in. I visited briefly. I popped the books in. I delivered or returned the books."
+    },
+    {
+      "titleZh": "請仔細閱讀地點和情境:pop off 表示離開。pop out 表示突然從藏身處走出或冒出。pop up 表示突然或意外出現。",
+      "titleEn": "Read the place and situation carefully: pop off = leave pop out = suddenly come from a hidden place pop up = appear suddenly or unexpectedly.",
+      "zh": "請仔細閱讀地點和情境:pop off 表示離開。pop out 表示突然從藏身處走出或冒出。pop up 表示突然或意外出現。",
+      "en": "Read the place and situation carefully: pop off = leave pop out = suddenly come from a hidden place pop up = appear suddenly or unexpectedly"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 POP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to POP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "POP 動詞片語句子改寫練習",
+    "titleEn": "POP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 POP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to POP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-307-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Lena visited briefly for a quick chat after lunch.",
+      "promptZh": "莉娜午飯後短暫來訪,聊了一會兒。",
+      "starter": "Lena",
+      "answer": "Lena popped in for a quick chat after lunch.",
+      "answerZh": "莉娜午飯後短暫來訪,聊了一會兒。",
+      "highlight": "popped in",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "He quickly put on his coat before leaving the house.",
+      "promptZh": "他離家前迅速穿上外套。",
+      "starter": "He",
+      "answer": "He popped on his coat before leaving the house.",
+      "answerZh": "他離家前迅速穿上外套。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "A warning suddenly appeared on my screen.",
+      "promptZh": "我的螢幕上突然出現了一個警告。",
+      "starter": "A",
+      "answer": "A warning popped up on my screen.",
+      "answerZh": "我的螢幕上突然出現了一個警告。",
+      "highlight": "popped up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "I will return the forms before the office closes.",
+      "promptZh": "我會在辦公室關門前把表格交回去。",
+      "starter": "I",
+      "answer": "I will pop the forms in before the office closes.",
+      "answerZh": "我會在辦公室關門前順道把表格交回去。",
+      "highlight": "pop",
+      "targetForm": "pop something in",
+      "targetMeaningZh": "順道把某物送到或交回"
+    },
+    {
+      "id": "phrasal-verb-307-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "A rabbit suddenly appeared from behind the wall.",
+      "promptZh": "有隻兔子突然從牆後冒出來。",
+      "starter": "A",
+      "answer": "A rabbit popped out from behind the wall.",
+      "answerZh": "有隻兔子突然從牆後冒出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Sam left work early because he felt unwell.",
+      "promptZh": "森因為感到不適而提早離開工作地點。",
+      "starter": "Sam",
+      "answer": "Sam popped off early because he felt unwell.",
+      "answerZh": "森因為感到不適而提早離開工作地點。",
+      "highlight": "popped off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Could you take these keys to Eva’s home?",
+      "promptZh": "你可以把這些鎖匙送到伊娃家嗎?",
+      "starter": "Could",
+      "answer": "Could you pop these keys round to Eva?",
+      "answerZh": "你可以把這些鎖匙順道送到伊娃家嗎?",
+      "highlight": "pop",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "We visited our old teacher briefly.",
+      "promptZh": "我們短暫探望了以前的老師。",
+      "starter": "We",
+      "answer": "We popped in to see our old teacher.",
+      "answerZh": "我們短暫探望了以前的老師。",
+      "highlight": "popped in to see",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Nora quickly put on a scarf before going outside.",
+      "promptZh": "諾拉外出前迅速戴上圍巾。",
+      "starter": "Nora",
+      "answer": "Nora popped a scarf on before going outside.",
+      "answerZh": "諾拉外出前迅速戴上圍巾。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Leo always appears at the most surprising times.",
+      "promptZh": "里奧總是在最令人意想不到的時候出現。",
+      "starter": "Leo",
+      "answer": "Leo always pops up at the most surprising times.",
+      "answerZh": "里奧總是在最令人意想不到的時候出現。",
+      "highlight": "pops up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "I need to leave now and catch the last bus.",
+      "promptZh": "我現在需要離開,趕上尾班巴士。",
+      "starter": "I",
+      "answer": "I need to pop off now and catch the last bus.",
+      "answerZh": "我現在需要離開,趕上尾班巴士。",
+      "highlight": "pop off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The child suddenly appeared from behind the curtain.",
+      "promptZh": "那個孩子突然從窗簾後走出來。",
+      "starter": "The",
+      "answer": "The child popped out from behind the curtain.",
+      "answerZh": "那個孩子突然從窗簾後走出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Why does that message keep appearing?",
+      "promptZh": "為甚麼那個訊息不斷出現?",
+      "starter": "Why",
+      "answer": "Why does that message keep popping up?",
+      "answerZh": "為甚麼那個訊息不斷出現?",
+      "highlight": "popping up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Can I leave a little early today?",
+      "promptZh": "我今天可以提早一點離開嗎?",
+      "starter": "Can",
+      "answer": "Can I pop off a little early today?",
+      "answerZh": "我今天可以提早一點離開嗎?",
+      "highlight": "pop off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Has Ben visited briefly this morning?",
+      "promptZh": "賓今早有沒有短暫來訪?",
+      "starter": "Has",
+      "answer": "Has Ben popped in this morning?",
+      "answerZh": "賓今早有沒有短暫來訪?",
+      "highlight": "popped in",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Ella is quickly putting on her boots now.",
+      "promptZh": "埃拉現在正迅速穿上靴子。",
+      "starter": "Ella",
+      "answer": "Ella is popping on her boots now.",
+      "answerZh": "埃拉現在正迅速穿上靴子。",
+      "highlight": "popping",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "We have already returned the library books.",
+      "promptZh": "我們已經把圖書館的書交回去了。",
+      "starter": "We",
+      "answer": "We have already popped the books in.",
+      "answerZh": "我們已經順道把圖書館的書交回去了。",
+      "highlight": "popped",
+      "targetForm": "pop something in",
+      "targetMeaningZh": "順道把某物送到或交回"
+    },
+    {
+      "id": "phrasal-verb-307-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Something suddenly appeared from under the bed.",
+      "promptZh": "有東西突然從床下冒出來。",
+      "starter": "Something",
+      "answer": "Something suddenly popped out from under the bed.",
+      "answerZh": "有東西突然從床下冒出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The neighbours sometimes visit briefly without calling first.",
+      "promptZh": "鄰居有時會沒有先致電便短暫來訪。",
+      "starter": "The",
+      "answer": "The neighbours sometimes pop in without calling first.",
+      "answerZh": "鄰居有時會沒有先致電便短暫來訪。",
+      "highlight": "pop in",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "New cafés are appearing all over the area.",
+      "promptZh": "區內各處不斷有新咖啡店出現。",
+      "starter": "New",
+      "answer": "New cafés are popping up all over the area.",
+      "answerZh": "區內各處不斷有新咖啡店出現。",
+      "highlight": "popping up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然出現;陸續出現"
+    },
+    {
+      "id": "phrasal-verb-307-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Dad has left to catch the train.",
+      "promptZh": "爸爸已經離開去趕火車。",
+      "starter": "Dad",
+      "answer": "Dad has popped off to catch the train.",
+      "answerZh": "爸爸已經離開去趕火車。",
+      "highlight": "popped off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Will you take this card to Noah’s home after school?",
+      "promptZh": "你放學後會把這張卡送到諾亞家嗎?",
+      "starter": "Will",
+      "answer": "Will you pop this card round to Noah after school?",
+      "answerZh": "你放學後會把這張卡順道送到諾亞家嗎?",
+      "highlight": "pop",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "A small bird may suddenly appear from the hedge.",
+      "promptZh": "可能會有一隻小鳥突然從樹籬中冒出來。",
+      "starter": "A",
+      "answer": "A small bird may pop out from the hedge.",
+      "answerZh": "可能會有一隻小鳥突然從樹籬中冒出來。",
+      "highlight": "pop out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Please put your hat on quickly before we leave.",
+      "promptZh": "我們離開前,請迅速戴上帽子。",
+      "starter": "Please",
+      "answer": "Please pop your hat on before we leave.",
+      "answerZh": "我們離開前,請迅速戴上帽子。",
+      "highlight": "pop",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The library needs these books today, so I will return them before lunch.",
+      "promptZh": "圖書館今天需要這些書,所以我會在午飯前交回去。",
+      "starter": "The",
+      "answer": "The library needs these books today, so I will pop them in before lunch.",
+      "answerZh": "圖書館今天需要這些書,所以我會在午飯前順道交回去。",
+      "highlight": "pop",
+      "targetForm": "pop something in",
+      "targetMeaningZh": "順道把某物送到或交回"
+    },
+    {
+      "id": "phrasal-verb-307-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "As we passed the doorway, a man suddenly appeared from behind it.",
+      "promptZh": "我們經過門口時,一名男子突然從門後走出來。",
+      "starter": "As",
+      "answer": "As we passed the doorway, a man popped out from behind it.",
+      "answerZh": "我們經過門口時,一名男子突然從門後走出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Your jacket is beside you, so put it on quickly before you go.",
+      "promptZh": "你的外套就在旁邊,所以離開前迅速穿上吧。",
+      "starter": "Your",
+      "answer": "Your jacket is beside you, so pop it on before you go.",
+      "answerZh": "你的外套就在旁邊,所以離開前迅速穿上吧。",
+      "highlight": "pop",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "I was passing your shop, so I visited for five minutes.",
+      "promptZh": "我當時正經過你的店舖,所以進去短暫探訪了五分鐘。",
+      "starter": "I",
+      "answer": "I was passing your shop, so I popped in for five minutes.",
+      "answerZh": "我當時正經過你的店舖,所以進去短暫探訪了五分鐘。",
+      "highlight": "popped in",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The meeting had nearly finished when Clara left quickly.",
+      "promptZh": "會議快要結束時,克拉拉便匆匆離開了。",
+      "starter": "The",
+      "answer": "The meeting had nearly finished when Clara popped off.",
+      "answerZh": "會議快要結束時,克拉拉便匆匆離開了。",
+      "highlight": "popped off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Whenever we discuss travel, the same problem appears.",
+      "promptZh": "每當我們討論旅行時,同一個問題便會出現。",
+      "starter": "Whenever",
+      "answer": "Whenever we discuss travel, the same problem pops up.",
+      "answerZh": "每當我們討論旅行時,同一個問題便會出現。",
+      "highlight": "pops up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The toy snake suddenly appeared out of the box when I opened it.",
+      "promptZh": "我打開盒子時,那條玩具蛇突然從裏面冒出來。",
+      "starter": "The",
+      "answer": "The toy snake popped out when I opened the box.",
+      "answerZh": "我打開盒子時,那條玩具蛇突然從裏面冒出來。",
+      "highlight": "popped",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從某物裏面冒出"
+    },
+    {
+      "id": "phrasal-verb-307-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "These notes belong to Kai, so could you take them to his home tonight?",
+      "promptZh": "這些筆記屬於啟,所以你今晚可以把它們送到他家嗎?",
+      "starter": "These",
+      "answer": "These notes belong to Kai, so could you pop them round tonight?",
+      "answerZh": "這些筆記屬於啟,所以你今晚可以順道把它們送到他家嗎?",
+      "highlight": "pop",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "After the appointment, we visited Grandma briefly.",
+      "promptZh": "預約結束後,我們短暫探望了婆婆。",
+      "starter": "After",
+      "answer": "After the appointment, we popped in to see Grandma.",
+      "answerZh": "預約結束後,我們短暫探望了婆婆。",
+      "highlight": "popped in to see",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "A picture of the old school suddenly appeared in the video.",
+      "promptZh": "舊校舍的照片突然在影片中出現。",
+      "starter": "A",
+      "answer": "A picture of the old school suddenly popped up in the video.",
+      "answerZh": "舊校舍的照片突然在影片中出現。",
+      "highlight": "popped up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Before the rain started, Ava quickly put her jacket on.",
+      "promptZh": "下雨前,艾娃迅速穿上了外套。",
+      "starter": "Before",
+      "answer": "Before the rain started, Ava popped her jacket on.",
+      "answerZh": "下雨前,艾娃迅速穿上了外套。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Since the work was finished, the team left before six.",
+      "promptZh": "由於工作已經完成,團隊在六時前便離開了。",
+      "starter": "Since",
+      "answer": "Since the work was finished, the team popped off before six.",
+      "answerZh": "由於工作已經完成,團隊在六時前便離開了。",
+      "highlight": "popped off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "I had nothing to deliver; I simply visited the office briefly to say hello.",
+      "promptZh": "我沒有物品要送;我只是短暫到辦公室打招呼。",
+      "starter": "I",
+      "answer": "I had nothing to deliver; I simply popped in at the office to say hello.",
+      "answerZh": "我沒有物品要送;我只是短暫到辦公室打招呼。",
+      "highlight": "popped in at",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "The actor did not appear from behind anything; he suddenly appeared in the audience.",
+      "promptZh": "那名演員並非從任何物件後走出;他突然在觀眾席出現。",
+      "starter": "The",
+      "answer": "The actor did not come out from behind anything; he suddenly popped up in the audience.",
+      "answerZh": "那名演員並非從任何物件後走出;他突然在觀眾席出現。",
+      "highlight": "come out",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "She took the medicine to her neighbour’s home and left again after a few seconds.",
+      "promptZh": "她把藥送到鄰居家,幾秒後便再次離開。",
+      "starter": "She",
+      "answer": "She popped the medicine round to her neighbour and left again after a few seconds.",
+      "answerZh": "她把藥順道送到鄰居家,幾秒後便再次離開。",
+      "highlight": "popped",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Because the fire alarm sounded, everyone quickly put on a coat and went outside.",
+      "promptZh": "由於火警鐘響起,所有人都迅速穿上外套並走到外面。",
+      "starter": "Because",
+      "answer": "Because the fire alarm sounded, everyone popped a coat on and went outside.",
+      "answerZh": "由於火警鐘響起,所有人都迅速穿上外套並走到外面。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "The cat had been hiding under the chair and suddenly appeared.",
+      "promptZh": "那隻貓一直躲在椅子下,然後突然走了出來。",
+      "starter": "The",
+      "answer": "The cat had been hiding under the chair and suddenly popped out.",
+      "answerZh": "那隻貓一直躲在椅子下,然後突然走了出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處走出"
+    },
+    {
+      "id": "phrasal-verb-307-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Noah did not enter another room; he left work early.",
+      "promptZh": "諾亞並沒有進入另一個房間;他只是提早離開工作地點。",
+      "starter": "Noah",
+      "answer": "Noah did not go into another room; he popped off early.",
+      "answerZh": "諾亞並沒有進入另一個房間;他只是提早離開工作地點。",
+      "highlight": "go into",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Problems like this can appear unexpectedly when the weather changes.",
+      "promptZh": "天氣轉變時,這類問題可能會意外出現。",
+      "starter": "Problems",
+      "answer": "Problems like this can pop up when the weather changes.",
+      "answerZh": "天氣轉變時,這類問題可能會意外出現。",
+      "highlight": "pop up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although we were busy, we visited the new shop briefly on our way home.",
+      "promptZh": "雖然我們很忙,但回家途中仍短暫到訪了那間新店。",
+      "starter": "Although",
+      "answer": "Although we were busy, we popped in at the new shop on our way home.",
+      "answerZh": "雖然我們很忙,但回家途中仍短暫到訪了那間新店。",
+      "highlight": "popped in at",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "The jumper was already in her hand, so she quickly put it on.",
+      "promptZh": "那件套頭上衣已經在她手中,所以她迅速把它穿上。",
+      "starter": "The",
+      "answer": "The jumper was already in her hand, so she popped it on.",
+      "answerZh": "那件套頭上衣已經在她手中,所以她迅速把它穿上。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "I can take the tickets to Owen’s home, but I cannot stay.",
+      "promptZh": "我可以把門票送到歐文家,但不能留下來。",
+      "starter": "I",
+      "answer": "I can pop the tickets round to Owen, but I cannot stay.",
+      "answerZh": "我可以把門票順道送到歐文家,但不能留下來。",
+      "highlight": "pop",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Could we leave a little earlier if all the work is finished?",
+      "promptZh": "如果所有工作都已完成,我們可以提早一點離開嗎?",
+      "starter": "Could",
+      "answer": "Could we pop off a little earlier if all the work is finished?",
+      "answerZh": "如果所有工作都已完成,我們可以提早一點離開嗎?",
+      "highlight": "pop off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "At the end of the game, the children suddenly appeared from behind the boxes.",
+      "promptZh": "遊戲結束時,孩子們突然從箱子後走出來。",
+      "starter": "At",
+      "answer": "At the end of the game, the children popped out from behind the boxes.",
+      "answerZh": "遊戲結束時,孩子們突然從箱子後走出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The wind became colder, so Priya quickly put on the light jacket she was carrying and continued walking.",
+      "promptZh": "風變得更冷,所以普里雅迅速穿上隨身攜帶的薄外套,然後繼續步行。",
+      "starter": "The",
+      "answer": "The wind became colder, so Priya popped on the light jacket she was carrying and continued walking.",
+      "answerZh": "風變得更冷,所以普里雅迅速穿上隨身攜帶的薄外套,然後繼續步行。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "The music teacher needed the forms that afternoon, so I took them to the school while travelling to meet my friends.",
+      "promptZh": "音樂老師當天下午需要那些表格,所以我在前往與朋友會面時把表格送到學校。",
+      "starter": "The",
+      "answer": "The music teacher needed the forms that afternoon, so I popped them in on my way to meet my friends.",
+      "answerZh": "音樂老師當天下午需要那些表格,所以我在前往與朋友會面時順道把表格送到學校。",
+      "highlight": "popped",
+      "targetForm": "pop something in",
+      "targetMeaningZh": "順道把某物送到或交回"
+    },
+    {
+      "id": "phrasal-verb-307-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Since we were already near the hospital, we visited Uncle Ray briefly before going home.",
+      "promptZh": "由於我們已經在醫院附近,所以回家前短暫探望了雷叔叔。",
+      "starter": "Since",
+      "answer": "Since we were already near the hospital, we popped in to see Uncle Ray before going home.",
+      "answerZh": "由於我們已經在醫院附近,所以回家前短暫探望了雷叔叔。",
+      "highlight": "popped in to see",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Just when the team thought every problem had been solved, another one suddenly appeared.",
+      "promptZh": "正當團隊以為所有問題都已解決時,另一個問題突然出現了。",
+      "starter": "Just",
+      "answer": "Just when the team thought every problem had been solved, another one popped up.",
+      "answerZh": "正當團隊以為所有問題都已解決時,另一個問題突然出現了。",
+      "highlight": "popped up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "I would like to leave work early tonight, provided the final report is finished.",
+      "promptZh": "如果最後一份報告已經完成,我今晚想提早離開工作地點。",
+      "starter": "I",
+      "answer": "I would like to pop off early tonight, provided the final report is finished.",
+      "answerZh": "如果最後一份報告已經完成,我今晚想提早離開工作地點。",
+      "highlight": "pop off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    },
+    {
+      "id": "phrasal-verb-307-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "The photographer waited beside the tree until the fox suddenly appeared from the tall grass.",
+      "promptZh": "攝影師在樹旁等候,直至狐狸突然從高草叢中走出來。",
+      "starter": "The",
+      "answer": "The photographer waited beside the tree until the fox popped out from the tall grass.",
+      "answerZh": "攝影師在樹旁等候,直至狐狸突然從高草叢中走出來。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從藏身處或某物後面走出"
+    },
+    {
+      "id": "phrasal-verb-307-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "These birthday cards are for your cousins. Could you take them to their home before Friday?",
+      "promptZh": "這些生日卡是給你表親的。你可以在星期五前把它們送到他們家嗎?",
+      "starter": "These",
+      "answer": "These birthday cards are for your cousins. Could you pop them round to their house before Friday?",
+      "answerZh": "這些生日卡是給你表親的。你可以在星期五前順道把它們送到他們家嗎?",
+      "highlight": "pop",
+      "targetForm": "pop something round",
+      "targetMeaningZh": "順道把某物送到某人家中"
+    },
+    {
+      "id": "phrasal-verb-307-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Before stepping onto the wet path, Lucas quickly put his boots on.",
+      "promptZh": "踏上濕滑的小路前,盧卡斯迅速穿上靴子。",
+      "starter": "Before",
+      "answer": "Before stepping onto the wet path, Lucas popped his boots on.",
+      "answerZh": "踏上濕滑的小路前,盧卡斯迅速穿上靴子。",
+      "highlight": "popped",
+      "targetForm": "pop something on",
+      "targetMeaningZh": "迅速穿上或戴上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-307-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "The same salesperson seems to appear unexpectedly at every event we attend.",
+      "promptZh": "同一名售貨員似乎總會在我們參加的每個活動中意外出現。",
+      "starter": "The",
+      "answer": "The same salesperson seems to pop up at every event we attend.",
+      "answerZh": "同一名售貨員似乎總會在我們參加的每個活動中意外出現。",
+      "highlight": "pop up",
+      "targetForm": "pop up",
+      "targetMeaningZh": "突然或意外出現"
+    },
+    {
+      "id": "phrasal-verb-307-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "If you are nearby tomorrow, visit briefly and I will show you the finished painting.",
+      "promptZh": "如果你明天在附近,便短暫來訪吧,我會給你看已完成的畫作。",
+      "starter": "If",
+      "answer": "If you are nearby tomorrow, pop in and I will show you the finished painting.",
+      "answerZh": "如果你明天在附近,便短暫來訪吧,我會給你看已完成的畫作。",
+      "highlight": "pop in",
+      "targetForm": "pop in",
+      "targetMeaningZh": "短暫探訪;順道拜訪"
+    },
+    {
+      "id": "phrasal-verb-307-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "As soon as the cupboard door opened, a toy spring suddenly appeared from inside and surprised everyone.",
+      "promptZh": "櫃門一打開,一個玩具彈簧便突然從裏面彈出來,嚇了所有人一跳。",
+      "starter": "As",
+      "answer": "As soon as the cupboard door opened, a toy spring popped out and surprised everyone.",
+      "answerZh": "櫃門一打開,一個玩具彈簧便突然從裏面彈出來,嚇了所有人一跳。",
+      "highlight": "popped out",
+      "targetForm": "pop out",
+      "targetMeaningZh": "突然從某物裏面冒出"
+    },
+    {
+      "id": "phrasal-verb-307-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Although everyone else stayed until seven, I left early because I had a dental appointment.",
+      "promptZh": "雖然其他人都留到七時,但我因為要看牙醫而提早離開。",
+      "starter": "Although",
+      "answer": "Although everyone else stayed until seven, I popped off early because I had a dental appointment.",
+      "answerZh": "雖然其他人都留到七時,但我因為要看牙醫而提早離開。",
+      "highlight": "popped off",
+      "targetForm": "pop off",
+      "targetMeaningZh": "離開;先走"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "id": "phrasal-verb-37",
+  "order": 37,
+  "slug": "date",
+  "version": "1",
+  "title": "DATE 動詞片語",
+  "titleEn": "Date",
+  "titleZh": "DATE 動詞片語",
+  "level": "B1",
+  "groupCount": 2,
+  "source": {
+    "file": "Phrasal Verb 36 - Date.pdf",
+    "sourceNumber": 36,
+    "pageCount": 18,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerKeyPdfPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 DATE 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to DATE."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "DATE",
+      "highlight": "DATE"
+    }
+  ],
+  "examples": [
+    {
+      "en": "This tradition dates back to the 1700s.",
+      "zh": "這項傳統可追溯至十八世紀。",
+      "highlight": "dates back to",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "This letter dates from 1885.",
+      "zh": "這封信寫於1885年。",
+      "highlight": "dates from",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "可追溯至;始於;已有一段悠久歷史；製於、寫於或來自某個年代",
+    "en": "date back; date back to something; date from something",
+    "naturalZh": [
+      "可追溯至;始於;已有一段悠久歷史",
+      "製於、寫於或來自某個年代"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "date back; date back to something",
+      "titleZh": "可追溯至;始於;已有一段悠久歷史",
+      "titleEn": "date back; date back to something",
+      "descriptionZh": "可追溯至;始於;已有一段悠久歷史",
+      "descriptionEn": "This tradition dates back to the 1700s.",
+      "examples": [
+        {
+          "en": "This tradition dates back to the 1700s.",
+          "zh": "這項傳統可追溯至十八世紀。",
+          "highlight": "dates back to"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "date from something",
+      "titleZh": "製於、寫於或來自某個年代",
+      "titleEn": "date from something",
+      "descriptionZh": "製於、寫於或來自某個年代",
+      "descriptionEn": "This letter dates from 1885.",
+      "examples": [
+        {
+          "en": "This letter dates from 1885.",
+          "zh": "這封信寫於1885年。",
+          "highlight": "dates from"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "DATE 片語動詞的實際用途",
+    "labelEn": "DATE Phrasal Verbs in Use",
+    "summaryZh": "date back 可以表示一項習俗、慶典或活動在多年前開始,並一直延續至今。；date back to 可以把傳統、組織、名稱或關係與其開始的時間連繫起來。；date from 適合用來說明舊花瓶、硬幣、書信、照片或畫作製於哪個年代。；這些表達經常出現在博物館、旅遊指南、歷史書籍,以及古老地方和物件的介紹中。",
+    "summaryEn": "Date back can show that a custom, celebration or activity began many years ago and has continued into the present. Date back to can connect a tradition, organisation, name or relationship to the time when it began. Date from is useful when discussing when an old vase, coin, letter, photograph or painting was made. These expressions often appear in museums, travel guides, history books and descriptions of old places and objects.",
+    "contextsZh": [
+      "談論歷史悠久的傳統",
+      "指出某事物的起源時間",
+      "說明歷史物件的年代",
+      "理解博物館和歷史介紹"
+    ],
+    "contextsEn": [
+      "Talk about traditions with a long history",
+      "Connect something to its starting time",
+      "State the age of historical objects",
+      "Understand museum and historical descriptions"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 DATE 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the DATE expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "date back; date back to something",
+    "fixedHighlight": "date back; date back to something",
+    "fixedZh": "閱讀整句,選出意思相同的 DATE 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the DATE expression that gives the same meaning.",
+    "correct": "dates back to",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；date back 後面可以接一段時間;date back to 後面則可以接一個明確的起始時間。；date from 常用來說明物件、文件、畫作或其他舊物製於或來自哪個時期。",
+    "variableEn": "Keep the same people, things, time and meaning. Use date back with a length of time, and date back to with a particular starting time: date back hundreds of years date back to 1750 Date from is often used to state when an object, document, painting or other old item was made or created.",
+    "variableItemsZh": [
+      "date back; date back to something",
+      "date from something"
+    ],
+    "variableItemsEn": [
+      "date back; date back to something",
+      "date from something"
+    ],
+    "forms": [
+      {
+        "formZh": "可追溯至;始於;已有一段悠久歷史",
+        "formEn": "date back; date back to something",
+        "exampleZh": "這項傳統可追溯至十八世紀。",
+        "exampleEn": "This tradition dates back to the 1700s.",
+        "highlight": "dates back to"
+      },
+      {
+        "formZh": "製於、寫於或來自某個年代",
+        "formEn": "date from something",
+        "exampleZh": "這封信寫於1885年。",
+        "exampleEn": "This letter dates from 1885.",
+        "highlight": "dates from"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "可追溯至;始於;已有一段悠久歷史",
+      "titleEn": "date back; date back to something",
+      "formula": "date back; date back to something",
+      "highlight": "date back; date back to something",
+      "descriptionZh": "可追溯至;始於;已有一段悠久歷史",
+      "descriptionEn": "This tradition dates back to the 1700s.",
+      "examples": [
+        {
+          "en": "This tradition dates back to the 1700s.",
+          "zh": "這項傳統可追溯至十八世紀。",
+          "highlight": "dates back to"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "製於、寫於或來自某個年代",
+      "titleEn": "date from something",
+      "formula": "date from something",
+      "highlight": "date from something",
+      "descriptionZh": "製於、寫於或來自某個年代",
+      "descriptionEn": "This letter dates from 1885.",
+      "examples": [
+        {
+          "en": "This letter dates from 1885.",
+          "zh": "這封信寫於1885年。",
+          "highlight": "dates from"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "談論歷史悠久的傳統",
+      "titleEn": "Talk about traditions with a long history",
+      "zh": "date back 可以表示一項習俗、慶典或活動在多年前開始,並一直延續至今。",
+      "en": "Date back can show that a custom, celebration or activity began many years ago and has continued into the present."
+    },
+    {
+      "titleZh": "指出某事物的起源時間",
+      "titleEn": "Connect something to its starting time",
+      "zh": "date back to 可以把傳統、組織、名稱或關係與其開始的時間連繫起來。",
+      "en": "Date back to can connect a tradition, organisation, name or relationship to the time when it began."
+    },
+    {
+      "titleZh": "說明歷史物件的年代",
+      "titleEn": "State the age of historical objects",
+      "zh": "date from 適合用來說明舊花瓶、硬幣、書信、照片或畫作製於哪個年代。",
+      "en": "Date from is useful when discussing when an old vase, coin, letter, photograph or painting was made."
+    },
+    {
+      "titleZh": "理解博物館和歷史介紹",
+      "titleEn": "Understand museum and historical descriptions",
+      "zh": "這些表達經常出現在博物館、旅遊指南、歷史書籍,以及古老地方和物件的介紹中。",
+      "en": "These expressions often appear in museums, travel guides, history books and descriptions of old places and objects."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "談論歷史悠久的傳統",
+      "指出某事物的起源時間",
+      "說明歷史物件的年代",
+      "理解博物館和歷史介紹"
+    ],
+    "contextsEn": [
+      "Talk about traditions with a long history",
+      "Connect something to its starting time",
+      "State the age of historical objects",
+      "Understand museum and historical descriptions"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "談論歷史悠久的傳統",
+        "titleEn": "Talk about traditions with a long history",
+        "zh": "date back 可以表示一項習俗、慶典或活動在多年前開始,並一直延續至今。",
+        "en": "Date back can show that a custom, celebration or activity began many years ago and has continued into the present.",
+        "examples": [
+          {
+            "en": "This tradition dates back to the 1700s.",
+            "zh": "這項傳統可追溯至十八世紀。",
+            "highlight": "dates back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "指出某事物的起源時間",
+        "titleEn": "Connect something to its starting time",
+        "zh": "date back to 可以把傳統、組織、名稱或關係與其開始的時間連繫起來。",
+        "en": "Date back to can connect a tradition, organisation, name or relationship to the time when it began.",
+        "examples": [
+          {
+            "en": "This letter dates from 1885.",
+            "zh": "這封信寫於1885年。",
+            "highlight": "dates from"
+          }
+        ]
+      },
+      {
+        "titleZh": "說明歷史物件的年代",
+        "titleEn": "State the age of historical objects",
+        "zh": "date from 適合用來說明舊花瓶、硬幣、書信、照片或畫作製於哪個年代。",
+        "en": "Date from is useful when discussing when an old vase, coin, letter, photograph or painting was made.",
+        "examples": [
+          {
+            "en": "This tradition dates back to the 1700s.",
+            "zh": "這項傳統可追溯至十八世紀。",
+            "highlight": "dates back to"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解博物館和歷史介紹",
+        "titleEn": "Understand museum and historical descriptions",
+        "zh": "這些表達經常出現在博物館、旅遊指南、歷史書籍,以及古老地方和物件的介紹中。",
+        "en": "These expressions often appear in museums, travel guides, history books and descriptions of old places and objects.",
+        "examples": [
+          {
+            "en": "This letter dates from 1885.",
+            "zh": "這封信寫於1885年。",
+            "highlight": "dates from"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 DATE 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the DATE expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 DATE 片語動詞。",
+      "en": "Read the whole sentence and choose the DATE expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "date back 後面可以接一段時間;date back to 後面則可以接一個明確的起始時間。",
+      "titleEn": "Use date back with a length of time, and date back to with a particular starting time: date back hundreds of years date back to 1750.",
+      "zh": "date back 後面可以接一段時間;date back to 後面則可以接一個明確的起始時間。",
+      "en": "Use date back with a length of time, and date back to with a particular starting time: date back hundreds of years date back to 1750"
+    },
+    {
+      "titleZh": "date from 常用來說明物件、文件、畫作或其他舊物製於或來自哪個時期。",
+      "titleEn": "Date from is often used to state when an object, document, painting or other old item was made or created.",
+      "zh": "date from 常用來說明物件、文件、畫作或其他舊物製於或來自哪個時期。",
+      "en": "Date from is often used to state when an object, document, painting or other old item was made or created."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 DATE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to DATE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "DATE 動詞片語句子改寫練習",
+    "titleEn": "DATE Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 DATE 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to DATE. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          8
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          9,
+          16
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          17,
+          32
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          33,
+          40
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-37-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The village festival began about nine hundred years ago.",
+      "promptZh": "這個鄉村節慶大約在九百年前開始。",
+      "starter": "The",
+      "answer": "The village festival dates back about nine hundred years.",
+      "answerZh": "這個鄉村節慶已有大約九百年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段時間的歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "This blue vase was made around 1750.",
+      "promptZh": "這個藍色花瓶約製於1750年。",
+      "starter": "This",
+      "answer": "This blue vase dates from around 1750.",
+      "answerZh": "這個藍色花瓶約製於1750年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 11,
+      "prompt": "The New Year celebration began in 1902.",
+      "promptZh": "這項新年慶祝活動始於1902年。",
+      "starter": "The",
+      "answer": "The New Year celebration dates back to 1902.",
+      "answerZh": "這項新年慶祝活動可追溯至1902年。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時間"
+    },
+    {
+      "id": "phrasal-verb-37-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "This letter was written in 1911.",
+      "promptZh": "這封信寫於1911年。",
+      "starter": "This",
+      "answer": "This letter dates from 1911.",
+      "answerZh": "這封信寫於1911年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "寫於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "People have followed this custom for hundreds of years.",
+      "promptZh": "人們遵從這項習俗已有數百年。",
+      "starter": "This",
+      "answer": "This custom dates back hundreds of years.",
+      "answerZh": "這項習俗已有數百年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 11,
+      "prompt": "This silver coin was made in Roman times.",
+      "promptZh": "這枚銀幣製於古羅馬時期。",
+      "starter": "This",
+      "answer": "This silver coin dates from Roman times.",
+      "answerZh": "這枚銀幣製於古羅馬時期。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "The school prize-giving tradition began in the 1950s.",
+      "promptZh": "學校的頒獎傳統始於二十世紀五十年代。",
+      "starter": "The",
+      "answer": "The school prize-giving tradition dates back to the 1950s.",
+      "answerZh": "學校的頒獎傳統可追溯至二十世紀五十年代。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "This photograph was taken around 1920.",
+      "promptZh": "這張照片約攝於1920年。",
+      "starter": "This",
+      "answer": "This photograph dates from around 1920.",
+      "answerZh": "這張照片約攝於1920年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "攝於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q09",
+      "number": 9,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "Experts think this bowl was made in the 1700s.",
+      "promptZh": "專家認為這個碗製於十八世紀。",
+      "starter": "Experts",
+      "answer": "Experts think this bowl dates from the 1700s.",
+      "answerZh": "專家認為這個碗製於十八世紀。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q10",
+      "number": 10,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "The family business began more than one hundred and twenty years ago.",
+      "promptZh": "這盤家族生意在一百二十多年前開始。",
+      "starter": "The",
+      "answer": "The family business dates back more than one hundred and twenty years.",
+      "answerZh": "這盤家族生意已有一百二十多年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段時間的歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 12,
+      "prompt": "This rule has been part of the club since its earliest days.",
+      "promptZh": "這項規則自會所成立初期便一直存在。",
+      "starter": "This",
+      "answer": "This rule dates back to the club’s earliest days.",
+      "answerZh": "這項規則可追溯至會所成立初期。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "These records were written in the 1800s.",
+      "promptZh": "這些紀錄寫於十九世紀。",
+      "starter": "These",
+      "answer": "These records date from the 1800s.",
+      "answerZh": "這些紀錄寫於十九世紀。",
+      "highlight": "date from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "寫於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "This wooden chest was probably made around 1880.",
+      "promptZh": "這個木箱可能約製於1880年。",
+      "starter": "This",
+      "answer": "This wooden chest probably dates from around 1880.",
+      "answerZh": "這個木箱可能約製於1880年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "The market began in 1895 and still takes place every Sunday.",
+      "promptZh": "這個市集始於1895年,至今仍在每個星期日舉行。",
+      "starter": "The",
+      "answer": "The market dates back to 1895 and still takes place every Sunday.",
+      "answerZh": "這個市集可追溯至1895年,至今仍在每個星期日舉行。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時間"
+    },
+    {
+      "id": "phrasal-verb-37-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "People believe this map was drawn in 1650.",
+      "promptZh": "人們相信這幅地圖繪於1650年。",
+      "starter": "This",
+      "answer": "This map is believed to date from 1650.",
+      "answerZh": "人們相信這幅地圖繪於1650年。",
+      "highlight": "is believed to date from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製作於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Our friendship began when we were at primary school.",
+      "promptZh": "我們的友誼始於小學時期。",
+      "starter": "Our",
+      "answer": "Our friendship dates back to primary school.",
+      "answerZh": "我們的友誼可追溯至小學時期。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q17",
+      "number": 17,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 13,
+      "prompt": "Their yearly boat race began more than two hundred years ago and still takes place today.",
+      "promptZh": "他們的年度划艇比賽始於二百多年前,至今仍有舉行。",
+      "starter": "Their",
+      "answer": "Their yearly boat race dates back more than two hundred years and still takes place today.",
+      "answerZh": "他們的年度划艇比賽已有二百多年歷史,至今仍有舉行。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q18",
+      "number": 18,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "A museum worker says the silver cup was made in the late 1700s.",
+      "promptZh": "一名博物館職員表示,這個銀杯製於十八世紀末。",
+      "starter": "A",
+      "answer": "A museum worker says the silver cup dates from the late 1700s.",
+      "answerZh": "一名博物館職員表示,這個銀杯製於十八世紀末。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q19",
+      "number": 19,
+      "band": 3,
+      "sourcePage": 6,
+      "answerSourcePage": 14,
+      "prompt": "We found three letters, and all of them were written during the Second World War.",
+      "promptZh": "我們找到三封信,它們全部寫於第二次世界大戰期間。",
+      "starter": "We",
+      "answer": "We found three letters, and all of them date from the Second World War.",
+      "answerZh": "我們找到三封信,它們全部寫於第二次世界大戰期間。",
+      "highlight": "date from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "寫於或來自某個時期"
+    },
+    {
+      "id": "phrasal-verb-37-q20",
+      "number": 20,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The village has had this name since 1320.",
+      "promptZh": "這條村自1320年起便一直使用這個名稱。",
+      "starter": "The",
+      "answer": "The village name dates back to 1320.",
+      "answerZh": "這條村的名稱可追溯至1320年。",
+      "highlight": "dates back to",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時間"
+    },
+    {
+      "id": "phrasal-verb-37-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "This teaching method has existed for at least fifty years.",
+      "promptZh": "這種教學方法已有至少五十年歷史。",
+      "starter": "This",
+      "answer": "This teaching method dates back at least fifty years.",
+      "answerZh": "這種教學方法已有至少五十年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段時間的歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 14,
+      "prompt": "The clock was probably made sometime between 1800 and 1820.",
+      "promptZh": "這個時鐘可能製於1800年至1820年之間的某個時期。",
+      "starter": "The",
+      "answer": "The clock probably dates from sometime between 1800 and 1820.",
+      "answerZh": "這個時鐘可能製於1800年至1820年之間的某個時期。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "The annual dinner began when the club opened in 1968.",
+      "promptZh": "年度晚宴始於會所在1968年開幕之時。",
+      "starter": "The",
+      "answer": "The annual dinner dates back to 1968, when the club opened.",
+      "answerZh": "年度晚宴可追溯至會所在1968年開幕之時。",
+      "highlight": "dates back to 1968",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時間"
+    },
+    {
+      "id": "phrasal-verb-37-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 15,
+      "prompt": "This book was printed in 1897, not in 1907 as some people thought.",
+      "promptZh": "這本書印於1897年,而不是部分人所想的1907年。",
+      "starter": "This",
+      "answer": "This book dates from 1897, not 1907 as some people thought.",
+      "answerZh": "這本書印於1897年,而不是部分人所想的1907年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "印製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "Experts say this ring was made around 1400.",
+      "promptZh": "專家表示這枚戒指約製於1400年。",
+      "starter": "Experts",
+      "answer": "Experts say this ring dates from around 1400.",
+      "answerZh": "專家表示這枚戒指約製於1400年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "People in the village have followed this winter custom for many generations.",
+      "promptZh": "村民遵從這項冬季習俗已有很多代。",
+      "starter": "In",
+      "answer": "In the village, this winter custom dates back many generations.",
+      "answerZh": "在這條村裏,這項冬季習俗已有很多代的歷史。",
+      "highlight": "the village",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 15,
+      "prompt": "The writing on this stone was added in Roman times.",
+      "promptZh": "這塊石上的文字刻於古羅馬時期。",
+      "starter": "The",
+      "answer": "The writing on this stone dates from Roman times.",
+      "answerZh": "這塊石上的文字刻於古羅馬時期。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "寫於、刻於或來自某個時期"
+    },
+    {
+      "id": "phrasal-verb-37-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "Players have shaken hands before each match since the competition’s earliest years.",
+      "promptZh": "自賽事創辦初期起,球員便一直在每場比賽前握手。",
+      "starter": "Shaking",
+      "answer": "Shaking hands before the match is a custom that dates back to the competition’s earliest years.",
+      "answerZh": "賽前握手是一項可追溯至賽事創辦初期的習俗。",
+      "highlight": "Shaking",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "The family began making this cake in the 1930s and still uses the same recipe.",
+      "promptZh": "這個家庭在二十世紀三十年代開始製作這款蛋糕,至今仍使用同一食譜。",
+      "starter": "The",
+      "answer": "The family tradition of making this cake dates back to the 1930s, and they still use the same recipe.",
+      "answerZh": "這個家庭製作這款蛋糕的傳統可追溯至二十世紀三十年代,至今仍使用同一食譜。",
+      "highlight": "The family tradition of",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 16,
+      "prompt": "This small painting was created by a local artist in 1824.",
+      "promptZh": "這幅小畫作由一名本地藝術家於1824年創作。",
+      "starter": "This",
+      "answer": "This small painting by a local artist dates from 1824.",
+      "answerZh": "這幅由本地藝術家創作的小畫作繪於1824年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "創作於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "Of all these pieces of glass, the oldest one was made around 1600.",
+      "promptZh": "在所有這些玻璃碎片中,最古老的一塊約製於1600年。",
+      "starter": "Among",
+      "answer": "Among these pieces of glass, the oldest one dates from around 1600.",
+      "answerZh": "在這些玻璃碎片中,最古老的一塊約製於1600年。",
+      "highlight": "Among",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The ceremony has been part of village life for nearly four centuries.",
+      "promptZh": "這項儀式已成為鄉村生活的一部分接近四百年。",
+      "starter": "The",
+      "answer": "The ceremony dates back nearly four centuries.",
+      "answerZh": "這項儀式已有接近四百年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q33",
+      "number": 33,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 16,
+      "prompt": "The story may sound modern, but local people have told it since the late 1800s.",
+      "promptZh": "這個故事聽起來可能很現代,但本地人自十九世紀末起便一直講述它。",
+      "starter": "The",
+      "answer": "The local story dates back to the late 1800s, although it may sound modern.",
+      "answerZh": "這個本地故事可追溯至十九世紀末,雖然它聽起來可能很現代。",
+      "highlight": "The local",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時期"
+    },
+    {
+      "id": "phrasal-verb-37-q34",
+      "number": 34,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "During the repairs, workers found a coin that had been made in 1789.",
+      "promptZh": "維修期間,工人發現了一枚製於1789年的硬幣。",
+      "starter": "During",
+      "answer": "During the repairs, workers found a coin that dates from 1789.",
+      "answerZh": "維修期間,工人發現了一枚製於1789年的硬幣。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q35",
+      "number": 35,
+      "band": 5,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "The museum first thought the chair was modern, but tests showed that it had been made around 1760.",
+      "promptZh": "博物館最初以為這張椅子屬於現代,但測試顯示它約製於1760年。",
+      "starter": "The",
+      "answer": "The museum first thought the chair was modern, but tests showed that it dates from around 1760.",
+      "answerZh": "博物館最初以為這張椅子屬於現代,但測試顯示它約製於1760年。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "製於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q36",
+      "number": 36,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The school still rings the old bell every morning, following a practice that began when the school opened in 1910.",
+      "promptZh": "學校每天早上仍會敲響舊鐘,延續學校在1910年開校時開始的做法。",
+      "starter": "The",
+      "answer": "The practice of ringing the old bell every morning dates back to 1910, when the school opened.",
+      "answerZh": "每天早上敲響舊鐘的做法可追溯至學校在1910年開校之時。",
+      "highlight": "The practice of ringing",
+      "targetForm": "date back to something",
+      "targetMeaningZh": "可追溯至某個起始時間"
+    },
+    {
+      "id": "phrasal-verb-37-q37",
+      "number": 37,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "Although the town has changed greatly, its summer market has taken place for more than three hundred years.",
+      "promptZh": "雖然城鎮已經有很大變化,但當地的夏季市集已有三百多年歷史。",
+      "starter": "Although",
+      "answer": "Although the town has changed greatly, its summer market dates back more than three hundred years.",
+      "answerZh": "雖然城鎮已經有很大變化,但當地的夏季市集已有三百多年歷史。",
+      "highlight": "dates back",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q38",
+      "number": 38,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 17,
+      "prompt": "The paper is yellow and damaged because the document was written in the early 1700s.",
+      "promptZh": "由於這份文件寫於十八世紀初,紙張已經變黃和破損。",
+      "starter": "The",
+      "answer": "The document dates from the early 1700s, so the paper is yellow and damaged.",
+      "answerZh": "這份文件寫於十八世紀初,所以紙張已經變黃和破損。",
+      "highlight": "The document dates from the early 1700s, so",
+      "targetForm": "date from something",
+      "targetMeaningZh": "寫於或來自某個年代"
+    },
+    {
+      "id": "phrasal-verb-37-q39",
+      "number": 39,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "The two families have met every New Year for several generations.",
+      "promptZh": "這兩個家庭每逢新年聚會的習俗已延續了好幾代。",
+      "starter": "The",
+      "answer": "The custom of the two families meeting every New Year dates back several generations.",
+      "answerZh": "這兩個家庭每逢新年聚會的習俗已有好幾代歷史。",
+      "highlight": "The custom of",
+      "targetForm": "date back",
+      "targetMeaningZh": "已有一段悠久歷史"
+    },
+    {
+      "id": "phrasal-verb-37-q40",
+      "number": 40,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "A date on the back shows that this photograph was taken in June 1936.",
+      "promptZh": "背面的日期顯示這張照片攝於1936年6月。",
+      "starter": "A",
+      "answer": "A date on the back shows that this photograph dates from June 1936.",
+      "answerZh": "背面的日期顯示這張照片攝於1936年6月。",
+      "highlight": "dates from",
+      "targetForm": "date from something",
+      "targetMeaningZh": "攝於或來自某個日期"
+    }
+  ]
+}

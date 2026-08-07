@@ -1,0 +1,1246 @@
+{
+  "id": "phrasal-verb-152",
+  "order": 152,
+  "slug": "fling",
+  "version": "1",
+  "title": "FLING 動詞片語",
+  "titleEn": "Fling",
+  "titleZh": "FLING 動詞片語",
+  "level": "B1",
+  "groupCount": 4,
+  "source": {
+    "file": "Phrasal Verbs 151 - FLING.pdf",
+    "sourceNumber": 151,
+    "pageCount": 21,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerKeyPdfPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 FLING 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to FLING."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "FLING",
+      "highlight": "FLING"
+    }
+  ],
+  "examples": [
+    {
+      "en": "Owen flung off his wet jacket.",
+      "zh": "Owen 飛快地脫掉濕外套。",
+      "highlight": "flung off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Just fling a coat on over your pyjamas.",
+      "zh": "就在睡衣外飛快地套上一件外套吧。",
+      "highlight": "fling a coat on",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "At the party, Ben flung himself at a woman he had just met.",
+      "zh": "在派對上,Ben 露骨地向一名剛認識的女子示愛。",
+      "highlight": "flung himself at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "飛快地脫掉某件衣物；飛快地穿上某件衣物；露骨地向某人示愛;過分主動地勾引某人；全心投入某事;充滿熱情地投身於某項活動",
+    "en": "fling something off; fling something on; fling yourself at somebody; fling yourself into something",
+    "naturalZh": [
+      "飛快地脫掉某件衣物",
+      "飛快地穿上某件衣物",
+      "露骨地向某人示愛;過分主動地勾引某人",
+      "全心投入某事;充滿熱情地投身於某項活動"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "fling something off",
+      "titleZh": "飛快地脫掉某件衣物",
+      "titleEn": "fling something off",
+      "descriptionZh": "飛快地脫掉某件衣物",
+      "descriptionEn": "Owen flung off his wet jacket.",
+      "examples": [
+        {
+          "en": "Owen flung off his wet jacket.",
+          "zh": "Owen 飛快地脫掉濕外套。",
+          "highlight": "flung off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fling something on",
+      "titleZh": "飛快地穿上某件衣物",
+      "titleEn": "fling something on",
+      "descriptionZh": "飛快地穿上某件衣物",
+      "descriptionEn": "Just fling a coat on over your pyjamas.",
+      "examples": [
+        {
+          "en": "Just fling a coat on over your pyjamas.",
+          "zh": "就在睡衣外飛快地套上一件外套吧。",
+          "highlight": "fling a coat on"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "fling yourself at somebody",
+      "titleZh": "露骨地向某人示愛;過分主動地勾引某人",
+      "titleEn": "fling yourself at somebody",
+      "descriptionZh": "露骨地向某人示愛;過分主動地勾引某人",
+      "descriptionEn": "At the party, Ben flung himself at a woman he had just met.",
+      "examples": [
+        {
+          "en": "At the party, Ben flung himself at a woman he had just met.",
+          "zh": "在派對上,Ben 露骨地向一名剛認識的女子示愛。",
+          "highlight": "flung himself at"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 2
+    },
+    {
+      "formula": "fling yourself into something",
+      "titleZh": "全心投入某事;充滿熱情地投身於某項活動",
+      "titleEn": "fling yourself into something",
+      "descriptionZh": "全心投入某事;充滿熱情地投身於某項活動",
+      "descriptionEn": "Nia flung herself into the school play.",
+      "examples": [
+        {
+          "en": "Nia flung herself into the school play.",
+          "zh": "Nia 全心投入學校話劇。",
+          "highlight": "flung herself into"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "FLING 片語動詞的實際用途",
+    "labelEn": "FLING Phrasal Verbs in Use",
+    "summaryZh": "fling on 和 fling off 可表示在時間緊迫時,迅速穿上或脫掉衣物。；fling yourself into something 表示某人充滿熱情和幹勁地投入一項活動。；fling yourself into something 表示熱情投入活動;fling yourself at somebody 則表示以過分露骨的方式向某人示愛。；這組 FLING 片語動詞常帶有突然、迅速和有力的感覺,有助理解對話和故事。",
+    "summaryEn": "Fling on and fling off describe putting on or removing clothes very quickly, especially when there is little time. Fling yourself into something shows that a person begins an activity with great energy and enthusiasm. Fling yourself into something describes enthusiastic effort, while fling yourself at somebody describes overly obvious romantic interest. FLING expressions often carry a sudden, energetic feeling, which is useful when understanding conversations and stories.",
+    "contextsZh": [
+      "使用 FLING 表達匆忙穿衣或脫衣",
+      "表達全心投入",
+      "分清投入活動和露骨示愛",
+      "理解快速而有力的動作感"
+    ],
+    "contextsEn": [
+      "Use FLING to talk about dressing in a hurry",
+      "Show complete energy and commitment",
+      "Distinguish energetic effort from obvious romantic advances",
+      "Recognise fast and forceful action"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 FLING 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the FLING expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "fling something off",
+    "fixedHighlight": "fling something off",
+    "fixedZh": "閱讀整句,選出意思相同的 FLING 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the FLING expression that gives the same meaning.",
+    "correct": "flung off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；在 FLING ... ON/OFF 中使用 it 或 them 時,請按照以上例子放置。；fling yourself at somebody 表示露骨地向某人示愛;fling yourself into something 則表示全心投入某項活動。請按完整情境判斷。",
+    "variableEn": "Keep the same people, things, time and meaning. When using it or them in a FLING... ON/OFF expression, place the word as shown: fling it on fling them off These two expressions have very different meanings: fling yourself at somebody fling yourself into something",
+    "variableItemsZh": [
+      "fling something off",
+      "fling something on",
+      "fling yourself at somebody",
+      "fling yourself into something"
+    ],
+    "variableItemsEn": [
+      "fling something off",
+      "fling something on",
+      "fling yourself at somebody",
+      "fling yourself into something"
+    ],
+    "forms": [
+      {
+        "formZh": "飛快地脫掉某件衣物",
+        "formEn": "fling something off",
+        "exampleZh": "Owen 飛快地脫掉濕外套。",
+        "exampleEn": "Owen flung off his wet jacket.",
+        "highlight": "flung off"
+      },
+      {
+        "formZh": "飛快地穿上某件衣物",
+        "formEn": "fling something on",
+        "exampleZh": "就在睡衣外飛快地套上一件外套吧。",
+        "exampleEn": "Just fling a coat on over your pyjamas.",
+        "highlight": "fling a coat on"
+      },
+      {
+        "formZh": "露骨地向某人示愛;過分主動地勾引某人",
+        "formEn": "fling yourself at somebody",
+        "exampleZh": "在派對上,Ben 露骨地向一名剛認識的女子示愛。",
+        "exampleEn": "At the party, Ben flung himself at a woman he had just met.",
+        "highlight": "flung himself at"
+      },
+      {
+        "formZh": "全心投入某事;充滿熱情地投身於某項活動",
+        "formEn": "fling yourself into something",
+        "exampleZh": "Nia 全心投入學校話劇。",
+        "exampleEn": "Nia flung herself into the school play.",
+        "highlight": "flung herself into"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "飛快地脫掉某件衣物",
+      "titleEn": "fling something off",
+      "formula": "fling something off",
+      "highlight": "fling something off",
+      "descriptionZh": "飛快地脫掉某件衣物",
+      "descriptionEn": "Owen flung off his wet jacket.",
+      "examples": [
+        {
+          "en": "Owen flung off his wet jacket.",
+          "zh": "Owen 飛快地脫掉濕外套。",
+          "highlight": "flung off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "飛快地穿上某件衣物",
+      "titleEn": "fling something on",
+      "formula": "fling something on",
+      "highlight": "fling something on",
+      "descriptionZh": "飛快地穿上某件衣物",
+      "descriptionEn": "Just fling a coat on over your pyjamas.",
+      "examples": [
+        {
+          "en": "Just fling a coat on over your pyjamas.",
+          "zh": "就在睡衣外飛快地套上一件外套吧。",
+          "highlight": "fling a coat on"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "露骨地向某人示愛;過分主動地勾引某人",
+      "titleEn": "fling yourself at somebody",
+      "formula": "fling yourself at somebody",
+      "highlight": "fling yourself at somebody",
+      "descriptionZh": "露骨地向某人示愛;過分主動地勾引某人",
+      "descriptionEn": "At the party, Ben flung himself at a woman he had just met.",
+      "examples": [
+        {
+          "en": "At the party, Ben flung himself at a woman he had just met.",
+          "zh": "在派對上,Ben 露骨地向一名剛認識的女子示愛。",
+          "highlight": "flung himself at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "全心投入某事;充滿熱情地投身於某項活動",
+      "titleEn": "fling yourself into something",
+      "formula": "fling yourself into something",
+      "highlight": "fling yourself into something",
+      "descriptionZh": "全心投入某事;充滿熱情地投身於某項活動",
+      "descriptionEn": "Nia flung herself into the school play.",
+      "examples": [
+        {
+          "en": "Nia flung herself into the school play.",
+          "zh": "Nia 全心投入學校話劇。",
+          "highlight": "flung herself into"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "使用 FLING 表達匆忙穿衣或脫衣",
+      "titleEn": "Use FLING to talk about dressing in a hurry",
+      "zh": "fling on 和 fling off 可表示在時間緊迫時,迅速穿上或脫掉衣物。",
+      "en": "Fling on and fling off describe putting on or removing clothes very quickly, especially when there is little time."
+    },
+    {
+      "titleZh": "表達全心投入",
+      "titleEn": "Show complete energy and commitment",
+      "zh": "fling yourself into something 表示某人充滿熱情和幹勁地投入一項活動。",
+      "en": "Fling yourself into something shows that a person begins an activity with great energy and enthusiasm."
+    },
+    {
+      "titleZh": "分清投入活動和露骨示愛",
+      "titleEn": "Distinguish energetic effort from obvious romantic advances",
+      "zh": "fling yourself into something 表示熱情投入活動;fling yourself at somebody 則表示以過分露骨的方式向某人示愛。",
+      "en": "Fling yourself into something describes enthusiastic effort, while fling yourself at somebody describes overly obvious romantic interest."
+    },
+    {
+      "titleZh": "理解快速而有力的動作感",
+      "titleEn": "Recognise fast and forceful action",
+      "zh": "這組 FLING 片語動詞常帶有突然、迅速和有力的感覺,有助理解對話和故事。",
+      "en": "FLING expressions often carry a sudden, energetic feeling, which is useful when understanding conversations and stories."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "使用 FLING 表達匆忙穿衣或脫衣",
+      "表達全心投入",
+      "分清投入活動和露骨示愛",
+      "理解快速而有力的動作感"
+    ],
+    "contextsEn": [
+      "Use FLING to talk about dressing in a hurry",
+      "Show complete energy and commitment",
+      "Distinguish energetic effort from obvious romantic advances",
+      "Recognise fast and forceful action"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "使用 FLING 表達匆忙穿衣或脫衣",
+        "titleEn": "Use FLING to talk about dressing in a hurry",
+        "zh": "fling on 和 fling off 可表示在時間緊迫時,迅速穿上或脫掉衣物。",
+        "en": "Fling on and fling off describe putting on or removing clothes very quickly, especially when there is little time.",
+        "examples": [
+          {
+            "en": "Owen flung off his wet jacket.",
+            "zh": "Owen 飛快地脫掉濕外套。",
+            "highlight": "flung off"
+          }
+        ]
+      },
+      {
+        "titleZh": "表達全心投入",
+        "titleEn": "Show complete energy and commitment",
+        "zh": "fling yourself into something 表示某人充滿熱情和幹勁地投入一項活動。",
+        "en": "Fling yourself into something shows that a person begins an activity with great energy and enthusiasm.",
+        "examples": [
+          {
+            "en": "Just fling a coat on over your pyjamas.",
+            "zh": "就在睡衣外飛快地套上一件外套吧。",
+            "highlight": "fling a coat on"
+          }
+        ]
+      },
+      {
+        "titleZh": "分清投入活動和露骨示愛",
+        "titleEn": "Distinguish energetic effort from obvious romantic advances",
+        "zh": "fling yourself into something 表示熱情投入活動;fling yourself at somebody 則表示以過分露骨的方式向某人示愛。",
+        "en": "Fling yourself into something describes enthusiastic effort, while fling yourself at somebody describes overly obvious romantic interest.",
+        "examples": [
+          {
+            "en": "At the party, Ben flung himself at a woman he had just met.",
+            "zh": "在派對上,Ben 露骨地向一名剛認識的女子示愛。",
+            "highlight": "flung himself at"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解快速而有力的動作感",
+        "titleEn": "Recognise fast and forceful action",
+        "zh": "這組 FLING 片語動詞常帶有突然、迅速和有力的感覺,有助理解對話和故事。",
+        "en": "FLING expressions often carry a sudden, energetic feeling, which is useful when understanding conversations and stories.",
+        "examples": [
+          {
+            "en": "Nia flung herself into the school play.",
+            "zh": "Nia 全心投入學校話劇。",
+            "highlight": "flung herself into"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 FLING 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the FLING expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 FLING 片語動詞。",
+      "en": "Read the whole sentence and choose the FLING expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "在 FLING ... ON/OFF 中使用 it 或 them 時,請按照以上例子放置。",
+      "titleEn": "When using it or them in a FLING.",
+      "zh": "在 FLING ... ON/OFF 中使用 it 或 them 時,請按照以上例子放置。",
+      "en": "When using it or them in a FLING... ON/OFF expression, place the word as shown: fling it on fling them off"
+    },
+    {
+      "titleZh": "fling yourself at somebody 表示露骨地向某人示愛;fling yourself into something 則表示全心投入某項活動。請按完整情境判斷。",
+      "titleEn": "These two expressions have very different meanings: fling yourself at somebody fling yourself into something.",
+      "zh": "fling yourself at somebody 表示露骨地向某人示愛;fling yourself into something 則表示全心投入某項活動。請按完整情境判斷。",
+      "en": "These two expressions have very different meanings: fling yourself at somebody fling yourself into something"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 FLING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to FLING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "FLING 動詞片語句子改寫練習",
+    "titleEn": "FLING Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 FLING 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to FLING. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          10
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          11,
+          20
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          21,
+          30
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          31,
+          40
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          41,
+          50
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-152-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 3,
+      "answerSourcePage": 12,
+      "prompt": "Owen quickly took off his jumper because he was very hot.",
+      "promptZh": "Owen 因為很熱,所以飛快地脫掉冷衫。",
+      "starter": "Owen",
+      "answer": "Owen flung off his jumper because he was very hot.",
+      "answerZh": "Owen 因為很熱,所以飛快地脫掉冷衫。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 12,
+      "prompt": "Grace began planning the new club’s first event with great energy.",
+      "promptZh": "Grace 充滿幹勁地開始籌劃新學會的第一次活動。",
+      "starter": "Grace",
+      "answer": "Grace flung herself into planning the new club’s first event.",
+      "answerZh": "Grace 全心投入籌劃新學會的第一次活動。",
+      "highlight": "flung herself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The rain started, so Tariq quickly put on his jacket.",
+      "promptZh": "開始下雨了,所以 Tariq 飛快地穿上外套。",
+      "starter": "The",
+      "answer": "The rain started, so Tariq flung on his jacket.",
+      "answerZh": "開始下雨了,所以 Tariq 飛快地穿上外套。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "At the party, Eva made it very obvious that she wanted Noah to be romantically interested in her.",
+      "promptZh": "在派對上,Eva 以非常露骨的方式,表示希望 Noah 對她產生愛意。",
+      "starter": "At",
+      "answer": "At the party, Eva flung herself at Noah.",
+      "answerZh": "在派對上,Eva 露骨地向 Noah 示愛。",
+      "highlight": "flung herself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "After the exam, Daniel began his art project with great enthusiasm.",
+      "promptZh": "考試後,Daniel 充滿熱情地開始做他的藝術習作。",
+      "starter": "After",
+      "answer": "After the exam, Daniel flung himself into his art project.",
+      "answerZh": "考試後,Daniel 全心投入他的藝術習作。",
+      "highlight": "flung himself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The children quickly took off their wet coats at the door.",
+      "promptZh": "孩子們在門口飛快地脫掉濕外套。",
+      "starter": "The",
+      "answer": "The children flung off their wet coats at the door.",
+      "answerZh": "孩子們在門口飛快地脫掉濕外套。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leo kept trying in a very obvious way to make his new colleague interested in him.",
+      "promptZh": "Leo 一直以非常露骨的方式,試圖令新同事對他產生愛意。",
+      "starter": "Leo",
+      "answer": "Leo kept flinging himself at his new colleague.",
+      "answerZh": "Leo 一直露骨地向新同事示愛。",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 13,
+      "prompt": "Just quickly put a coat on over your pyjamas.",
+      "promptZh": "就在睡衣外飛快地套上一件外套吧。",
+      "starter": "Just",
+      "answer": "Just fling a coat on over your pyjamas.",
+      "answerZh": "就在睡衣外飛快地套上一件外套吧。",
+      "highlight": "fling",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Priya started learning the guitar with a lot of energy.",
+      "promptZh": "Priya 充滿幹勁地開始學結他。",
+      "starter": "Priya",
+      "answer": "Priya flung herself into learning the guitar.",
+      "answerZh": "Priya 全心投入學習結他。",
+      "highlight": "flung herself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Why did Adam try so openly to attract someone he had just met?",
+      "promptZh": "Adam 為何如此露骨地嘗試吸引一名剛認識的人?",
+      "starter": "Why",
+      "answer": "Why did Adam fling himself at someone he had just met?",
+      "answerZh": "Adam 為何向一名剛認識的人露骨示愛?",
+      "highlight": "fling himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q11",
+      "number": 11,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Since Monday, Hannah has prepared for the school show with great energy.",
+      "promptZh": "自星期一起,Hannah 一直充滿幹勁地為學校表演作準備。",
+      "starter": "Since",
+      "answer": "Since Monday, Hannah has flung herself into preparing for the school show.",
+      "answerZh": "自星期一起,Hannah 一直全心投入為學校表演作準備。",
+      "highlight": "flung herself into preparing",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q12",
+      "number": 12,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "As soon as he got home, Marcus quickly took his muddy boots off.",
+      "promptZh": "Marcus 一回到家便飛快地脫掉沾滿泥的靴子。",
+      "starter": "As",
+      "answer": "As soon as he got home, Marcus flung his muddy boots off.",
+      "answerZh": "Marcus 一回到家便飛快地脫掉沾滿泥的靴子。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "Every cold morning, Sara quickly puts on the same red scarf.",
+      "promptZh": "每個寒冷的早上,Sara 都會飛快地戴上同一條紅色頸巾。",
+      "starter": "Every",
+      "answer": "Every cold morning, Sara flings on the same red scarf.",
+      "answerZh": "每個寒冷的早上,Sara 都會飛快地戴上同一條紅色頸巾。",
+      "highlight": "flings",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The actor is trying far too openly to attract the director at the party.",
+      "promptZh": "那名演員在派對上正以過分露骨的方式試圖吸引導演。",
+      "starter": "The",
+      "answer": "The actor is flinging himself at the director at the party.",
+      "answerZh": "那名演員在派對上正露骨地向導演示愛。",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "My coat was soaked, so I quickly took it off at the door.",
+      "promptZh": "我的外套濕透了,所以我在門口飛快地把它脫掉。",
+      "starter": "My",
+      "answer": "My coat was soaked, so I flung it off at the door.",
+      "answerZh": "我的外套濕透了,所以我在門口飛快地把它脫掉。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "We will begin the community project with great energy tomorrow.",
+      "promptZh": "我們明天會充滿幹勁地開始這個社區計劃。",
+      "starter": "We",
+      "answer": "We will fling ourselves into the community project tomorrow.",
+      "answerZh": "我們明天會全心投入這個社區計劃。",
+      "highlight": "fling ourselves into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The bell is ringing, so Chloe is quickly putting on her dressing gown.",
+      "promptZh": "門鈴正在響,所以 Chloe 正飛快地穿上睡袍。",
+      "starter": "The",
+      "answer": "The bell is ringing, so Chloe is flinging on her dressing gown.",
+      "answerZh": "門鈴正在響,所以 Chloe 正飛快地穿上睡袍。",
+      "highlight": "flinging",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Have they started the new course with real enthusiasm?",
+      "promptZh": "他們是否已充滿熱情地開始這個新課程?",
+      "starter": "Have",
+      "answer": "Have they flung themselves into the new course?",
+      "answerZh": "他們是否已全心投入這個新課程?",
+      "highlight": "flung themselves into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "Jordan has been trying too openly to win the singer’s romantic interest.",
+      "promptZh": "Jordan 一直以過分露骨的方式,試圖令那名歌手對他產生愛意。",
+      "starter": "Jordan",
+      "answer": "Jordan has been flinging himself at the singer.",
+      "answerZh": "Jordan 一直露骨地向那名歌手示愛。",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Before entering the pool, the swimmers quickly took off their T-shirts.",
+      "promptZh": "進入泳池前,泳手們飛快地脫掉 T 恤。",
+      "starter": "Before",
+      "answer": "Before entering the pool, the swimmers flung off their T-shirts.",
+      "answerZh": "進入泳池前,泳手們飛快地脫掉 T 恤。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q21",
+      "number": 21,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Her coat was on the chair. When the taxi arrived, she quickly put it on.",
+      "promptZh": "她的外套放在椅子上。的士到達時,她飛快地把它穿上。",
+      "starter": "Her",
+      "answer": "Her coat was on the chair. When the taxi arrived, she flung it on.",
+      "answerZh": "她的外套放在椅子上。的士到達時,她飛快地把它穿上。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q22",
+      "number": 22,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Rosa had only just met Ben, but she tried in a very obvious way to attract him.",
+      "promptZh": "Rosa 才剛認識 Ben,卻以非常露骨的方式試圖吸引他。",
+      "starter": "Rosa",
+      "answer": "Rosa had only just met Ben, but she flung herself at him.",
+      "answerZh": "Rosa 才剛認識 Ben,卻露骨地向他示愛。",
+      "highlight": "flung herself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q23",
+      "number": 23,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The room was warm. I quickly took my thick jumper off and opened the window.",
+      "promptZh": "房間很暖。我飛快地脫掉厚冷衫,然後打開窗戶。",
+      "starter": "The",
+      "answer": "The room was warm. I flung my thick jumper off and opened the window.",
+      "answerZh": "房間很暖。我飛快地脫掉厚冷衫,然後打開窗戶。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q24",
+      "number": 24,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "After losing the match, we started training for the next one with even more energy.",
+      "promptZh": "輸掉比賽後,我們以更大的幹勁開始訓練,為下一場比賽作準備。",
+      "starter": "After",
+      "answer": "After losing the match, we flung ourselves into training for the next one.",
+      "answerZh": "輸掉比賽後,我們更全心投入訓練,為下一場比賽作準備。",
+      "highlight": "flung ourselves into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "The children were still in their pyjamas, so their father told them to quickly put their coats on.",
+      "promptZh": "孩子們仍穿着睡衣,所以父親叫他們飛快地穿上外套。",
+      "starter": "The",
+      "answer": "The children were still in their pyjamas, so their father told them to fling their coats on.",
+      "answerZh": "孩子們仍穿着睡衣,所以父親叫他們飛快地穿上外套。",
+      "highlight": "fling",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "He knew she was not interested, but he still kept trying too openly to attract her.",
+      "promptZh": "他知道她沒有興趣,卻仍不斷以過分露骨的方式試圖吸引她。",
+      "starter": "He",
+      "answer": "He knew she was not interested, but he still kept flinging himself at her.",
+      "answerZh": "他知道她沒有興趣,卻仍不斷露骨地向她示愛。",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "My slippers were beside the bed. I could hear the delivery driver outside, so I quickly put them on.",
+      "promptZh": "我的拖鞋放在床邊。我聽到送貨員在門外,便飛快地把它們穿上。",
+      "starter": "My",
+      "answer": "My slippers were beside the bed. I could hear the delivery driver outside, so I flung them on.",
+      "answerZh": "我的拖鞋放在床邊。我聽到送貨員在門外,便飛快地把它們穿上。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "The gloves were wet and uncomfortable, so Ava quickly took them off.",
+      "promptZh": "手套又濕又不舒服,所以 Ava 飛快地把它們脫掉。",
+      "starter": "The",
+      "answer": "The gloves were wet and uncomfortable, so Ava flung them off.",
+      "answerZh": "手套又濕又不舒服,所以 Ava 飛快地把它們脫掉。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Everyone noticed that Tom and Leo were trying far too openly to attract the party host.",
+      "promptZh": "大家都注意到 Tom 和 Leo 正以過分露骨的方式試圖吸引派對主辦人。",
+      "starter": "Everyone",
+      "answer": "Everyone noticed that Tom and Leo were flinging themselves at the party host.",
+      "answerZh": "大家都注意到 Tom 和 Leo 正露骨地向派對主辦人示愛。",
+      "highlight": "flinging themselves at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Even though the task looked difficult, Kai began it with a lot of enthusiasm.",
+      "promptZh": "即使任務看來很困難,Kai 仍充滿熱情地開始做。",
+      "starter": "Even",
+      "answer": "Even though the task looked difficult, Kai flung himself into it.",
+      "answerZh": "即使任務看來很困難,Kai 仍全心投入其中。",
+      "highlight": "flung himself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q31",
+      "number": 31,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 17,
+      "prompt": "Nora worked hard all day, but at dinner she tried far too openly to attract her manager.",
+      "promptZh": "Nora 整天努力工作,但晚餐時卻以過分露骨的方式試圖吸引她的經理。",
+      "starter": "Nora",
+      "answer": "Nora worked hard all day, but at dinner she flung herself at her manager.",
+      "answerZh": "Nora 整天努力工作,但晚餐時卻露骨地向經理示愛。",
+      "highlight": "flung herself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q32",
+      "number": 32,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The firefighter entered the warm station and quickly removed his heavy jacket.",
+      "promptZh": "消防員走進溫暖的消防局後,飛快地脫掉厚外套。",
+      "starter": "The",
+      "answer": "The firefighter entered the warm station and flung off his heavy jacket.",
+      "answerZh": "消防員走進溫暖的消防局後,飛快地脫掉厚外套。",
+      "highlight": "flung off",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q33",
+      "number": 33,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "After the holiday, the team members did not waste time; they started the new project with full energy.",
+      "promptZh": "假期後,團隊成員沒有浪費時間;他們充滿幹勁地開始新項目。",
+      "starter": "After",
+      "answer": "After the holiday, the team members did not waste time; they flung themselves into the new project.",
+      "answerZh": "假期後,團隊成員沒有浪費時間;他們全心投入新項目。",
+      "highlight": "flung themselves into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q34",
+      "number": 34,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The wind was cold, so Aiden quickly put his hoodie on before leaving the café.",
+      "promptZh": "風很冷,所以 Aiden 在離開咖啡店前飛快地穿上連帽外套。",
+      "starter": "The",
+      "answer": "The wind was cold, so Aiden flung his hoodie on before leaving the café.",
+      "answerZh": "風很冷,所以 Aiden 在離開咖啡店前飛快地穿上連帽外套。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q35",
+      "number": 35,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "At the reunion, Felix tried far too openly to attract an old classmate, making everyone feel uncomfortable.",
+      "promptZh": "在聚會上,Felix 以過分露骨的方式試圖吸引一名舊同學,令大家感到不自在。",
+      "starter": "At",
+      "answer": "At the reunion, Felix flung himself at an old classmate, making everyone feel uncomfortable.",
+      "answerZh": "在聚會上,Felix 露骨地向一名舊同學示愛,令大家感到不自在。",
+      "highlight": "flung himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q36",
+      "number": 36,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The runners were hot after the race and quickly removed their extra tops.",
+      "promptZh": "跑手們賽後很熱,便飛快地脫掉額外穿上的上衣。",
+      "starter": "The",
+      "answer": "The runners were hot after the race and flung off their extra tops.",
+      "answerZh": "跑手們賽後很熱,便飛快地脫掉額外穿上的上衣。",
+      "highlight": "flung off",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 18,
+      "prompt": "Why is Theo trying to attract every new guest in such an obvious romantic way?",
+      "promptZh": "Theo 為何如此露骨地試圖吸引每位新來的客人?",
+      "starter": "Why",
+      "answer": "Why is Theo flinging himself at every new guest?",
+      "answerZh": "Theo 為何露骨地向每位新來的客人示愛?",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Lily had been quiet for weeks, but to everyone’s surprise, she began her new dance class with great enthusiasm.",
+      "promptZh": "Lily 幾星期來一直很安靜,但令大家意外的是,她充滿熱情地開始新的舞蹈課。",
+      "starter": "Lily",
+      "answer": "Lily had been quiet for weeks, but to everyone’s surprise, she flung herself into her new dance class.",
+      "answerZh": "Lily 幾星期來一直很安靜,但令大家意外的是,她全心投入新的舞蹈課。",
+      "highlight": "flung herself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Sam had only a minute, so he quickly put on a shirt and hurried downstairs.",
+      "promptZh": "Sam 只有一分鐘,所以飛快地穿上恤衫,然後趕下樓。",
+      "starter": "Sam",
+      "answer": "Sam had only a minute, so he flung on a shirt and hurried downstairs.",
+      "answerZh": "Sam 只有一分鐘,所以飛快地穿上恤衫,然後趕下樓。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Do not keep the wet scarf on; take it off quickly.",
+      "promptZh": "不要繼續戴着濕頸巾;快點把它脫下來。",
+      "starter": "Do",
+      "answer": "Do not keep the wet scarf on; fling it off.",
+      "answerZh": "不要繼續戴着濕頸巾;快點把它脫下來。",
+      "highlight": "fling",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q41",
+      "number": 41,
+      "band": 5,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "The shop was in serious trouble, but Aisha worked with complete energy to save it.",
+      "promptZh": "店舖陷入嚴重困境,但 Aisha 仍全力拯救它。",
+      "starter": "The",
+      "answer": "The shop was in serious trouble, but Aisha flung herself into saving it.",
+      "answerZh": "店舖陷入嚴重困境,但 Aisha 仍全心投入拯救它。",
+      "highlight": "flung herself into saving",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q42",
+      "number": 42,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 19,
+      "prompt": "The alarm rang before sunrise. Without fully waking up, Omar quickly put on yesterday’s clothes.",
+      "promptZh": "天未亮鬧鐘便響了。Omar 還未完全清醒,便飛快地穿上昨天的衣服。",
+      "starter": "The",
+      "answer": "The alarm rang before sunrise. Without fully waking up, Omar flung on yesterday’s clothes.",
+      "answerZh": "天未亮鬧鐘便響了。Omar 還未完全清醒,便飛快地穿上昨天的衣服。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q43",
+      "number": 43,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although the musician had clearly shown no interest, Clara continued trying far too openly to attract him.",
+      "promptZh": "那名音樂人已清楚表示沒有興趣,但 Clara 仍以過分露骨的方式繼續試圖吸引他。",
+      "starter": "Although",
+      "answer": "Although the musician had clearly shown no interest, Clara continued flinging herself at him.",
+      "answerZh": "那名音樂人已清楚表示沒有興趣,但 Clara 仍繼續露骨地向他示愛。",
+      "highlight": "flinging herself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q44",
+      "number": 44,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "The children came in from the storm, quickly took their wet clothes off and left them by the heater.",
+      "promptZh": "孩子們從暴風雨中走進屋內,飛快地脫掉濕衣物,並把它們放在暖爐旁。",
+      "starter": "The",
+      "answer": "The children came in from the storm, flung their wet clothes off and left them by the heater.",
+      "answerZh": "孩子們從暴風雨中走進屋內,飛快地脫掉濕衣物,並把它們放在暖爐旁。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q45",
+      "number": 45,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Ravi had never cooked before, but he began the cooking course with great energy and practised every evening.",
+      "promptZh": "Ravi 以前從未下廚,但他充滿幹勁地開始烹飪課程,並每晚練習。",
+      "starter": "Ravi",
+      "answer": "Ravi had never cooked before, but he flung himself into the cooking course and practised every evening.",
+      "answerZh": "Ravi 以前從未下廚,但他全心投入烹飪課程,並每晚練習。",
+      "highlight": "flung himself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q46",
+      "number": 46,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Because the taxi was waiting, we quickly put our coats on and left the house.",
+      "promptZh": "因為的士正在等候,我們飛快地穿上外套,然後離開房子。",
+      "starter": "Because",
+      "answer": "Because the taxi was waiting, we flung our coats on and left the house.",
+      "answerZh": "因為的士正在等候,我們飛快地穿上外套,然後離開房子。",
+      "highlight": "flung",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q47",
+      "number": 47,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "After the club accepted her idea, Mei began organising the event with all her energy instead of waiting for others.",
+      "promptZh": "學會接納她的構思後,Mei 沒有等待其他人,而是全力開始籌辦活動。",
+      "starter": "After",
+      "answer": "After the club accepted her idea, Mei flung herself into organising the event instead of waiting for others.",
+      "answerZh": "學會接納她的構思後,Mei 沒有等待其他人,而是全心投入籌辦活動。",
+      "highlight": "flung herself into",
+      "targetForm": "fling yourself into something",
+      "targetMeaningZh": "全心投入某事"
+    },
+    {
+      "id": "phrasal-verb-152-q48",
+      "number": 48,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 20,
+      "prompt": "At the office party, Greg ignored every sign that the new worker was uncomfortable and kept trying very openly to attract her.",
+      "promptZh": "在公司派對上,Greg 無視新同事感到不自在的種種跡象,仍不斷以非常露骨的方式試圖吸引她。",
+      "starter": "At",
+      "answer": "At the office party, Greg ignored every sign that the new worker was uncomfortable and kept flinging himself at her.",
+      "answerZh": "在公司派對上,Greg 無視新同事感到不自在的種種跡象,仍不斷露骨地向她示愛。",
+      "highlight": "flinging himself at",
+      "targetForm": "fling yourself at somebody",
+      "targetMeaningZh": "露骨地向某人示愛或勾引某人"
+    },
+    {
+      "id": "phrasal-verb-152-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "Your raincoat is beside the door. Quickly put it on before you go outside.",
+      "promptZh": "你的雨衣放在門旁。外出前快點把它穿上。",
+      "starter": "Your",
+      "answer": "Your raincoat is beside the door. Fling it on before you go outside.",
+      "answerZh": "你的雨衣放在門旁。外出前快點把它穿上。",
+      "highlight": "Fling",
+      "targetForm": "fling something on",
+      "targetMeaningZh": "飛快地穿上某件衣物"
+    },
+    {
+      "id": "phrasal-verb-152-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The scarf was hurting my neck during the climb, so I quickly removed it without stopping.",
+      "promptZh": "攀山途中,頸巾令我的頸部感到痛楚,所以我沒有停下便飛快地把它脫掉。",
+      "starter": "The",
+      "answer": "The scarf was hurting my neck during the climb, so I flung it off without stopping.",
+      "answerZh": "攀山途中,頸巾令我的頸部感到痛楚,所以我沒有停下便飛快地把它脫掉。",
+      "highlight": "flung",
+      "targetForm": "fling something off",
+      "targetMeaningZh": "飛快地脫掉某件衣物"
+    }
+  ]
+}

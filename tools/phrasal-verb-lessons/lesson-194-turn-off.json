@@ -1,0 +1,1441 @@
+{
+  "id": "phrasal-verb-194",
+  "order": 194,
+  "slug": "turn-off",
+  "version": "1",
+  "title": "TURN OFF 動詞片語",
+  "titleEn": "Turn Off",
+  "titleZh": "TURN OFF 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 5,
+  "source": {
+    "file": "Phrasal Verbs 193 - TURN OFF.pdf",
+    "sourceNumber": 193,
+    "pageCount": 22,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerKeyPdfPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習 TURN OFF 的不同意思和用法。",
+    "en": "Learn and practise the different meanings and uses of TURN OFF."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "TURN OFF",
+      "highlight": "TURN OFF"
+    }
+  ],
+  "examples": [
+    {
+      "en": "I could not follow the explanation, so I turned off.",
+      "zh": "我聽不懂那段解釋,所以便不再留心。",
+      "highlight": "turned off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "We turned off onto a side street.",
+      "zh": "我們駛離原本的道路,轉入一條小街。",
+      "highlight": "turned off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The heating turns off automatically at ten.",
+      "zh": "暖氣系統會在十時自動停止運作。",
+      "highlight": "turns off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "不再留心;停止聽下去；駛離原本道路,轉入另一條路；機器或裝置停止運作,尤其是自動停止；令某人失去興趣或產生反感；把電器、燈、機器或供應關掉",
+    "en": "turn off; turn off / turn off something; turn off / turn itself off; turn somebody off / turn somebody off somebody/something; turn something off",
+    "naturalZh": [
+      "不再留心;停止聽下去",
+      "駛離原本道路,轉入另一條路",
+      "機器或裝置停止運作,尤其是自動停止",
+      "令某人失去興趣或產生反感",
+      "把電器、燈、機器或供應關掉"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "turn off",
+      "titleZh": "不再留心;停止聽下去",
+      "titleEn": "turn off",
+      "descriptionZh": "不再留心;停止聽下去",
+      "descriptionEn": "I could not follow the explanation, so I turned off.",
+      "examples": [
+        {
+          "en": "I could not follow the explanation, so I turned off.",
+          "zh": "我聽不懂那段解釋,所以便不再留心。",
+          "highlight": "turned off"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn off / turn off something",
+      "titleZh": "駛離原本道路,轉入另一條路",
+      "titleEn": "turn off / turn off something",
+      "descriptionZh": "駛離原本道路,轉入另一條路",
+      "descriptionEn": "We turned off onto a side street.",
+      "examples": [
+        {
+          "en": "We turned off onto a side street.",
+          "zh": "我們駛離原本的道路,轉入一條小街。",
+          "highlight": "turned off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn off / turn itself off",
+      "titleZh": "機器或裝置停止運作,尤其是自動停止",
+      "titleEn": "turn off / turn itself off",
+      "descriptionZh": "機器或裝置停止運作,尤其是自動停止",
+      "descriptionEn": "The heating turns off automatically at ten.",
+      "examples": [
+        {
+          "en": "The heating turns off automatically at ten.",
+          "zh": "暖氣系統會在十時自動停止運作。",
+          "highlight": "turns off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "turn somebody off / turn somebody off somebody/something",
+      "titleZh": "令某人失去興趣或產生反感",
+      "titleEn": "turn somebody off / turn somebody off somebody/something",
+      "descriptionZh": "令某人失去興趣或產生反感",
+      "descriptionEn": "The rude advert turned customers off the brand.",
+      "examples": [
+        {
+          "en": "The rude advert turned customers off the brand.",
+          "zh": "那個無禮的廣告令顧客對該品牌產生反感。",
+          "highlight": "turned customers off"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "turn something off",
+      "titleZh": "把電器、燈、機器或供應關掉",
+      "titleEn": "turn something off",
+      "descriptionZh": "把電器、燈、機器或供應關掉",
+      "descriptionEn": "Please turn the radio off.",
+      "examples": [
+        {
+          "en": "Please turn the radio off.",
+          "zh": "請把收音機關掉。",
+          "highlight": "turn the radio off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "TURN OFF 片語動詞的實際用途",
+    "labelEn": "TURN OFF Phrasal Verbs in Use",
+    "summaryZh": "TURN OFF 可以描述某人不再聽下去,也可以表示某事令另一個人失去興趣。；TURN OFF 可以表示駕駛者何時駛離一條道路,轉入另一條道路。；裝置可以自行停止運作,也可以由某人把它關掉。；這些用法常見於課堂、道路指示、科技、購物和日常對話。",
+    "summaryEn": "TURN OFF can describe a person who stops listening, or something that makes another person lose interest. TURN OFF can tell a driver when to leave one road and enter another. A device may turn off by itself, or a person may turn the device off. These uses appear in lessons, travel directions, technology, shopping and daily conversation.",
+    "contextsZh": [
+      "分清「不再留心」與「令人反感」",
+      "給予及理解道路指示",
+      "描述裝置停止運作的兩種情況",
+      "理解日常情境中的 TURN OFF"
+    ],
+    "contextsEn": [
+      "Distinguish losing attention from causing dislike",
+      "Give and understand road directions",
+      "Describe two different ways that a device stops",
+      "Understand TURN OFF in everyday situations"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 TURN OFF 用法。",
+    "formalEn": "Read the whole sentence and choose the use of TURN OFF that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "turn off",
+    "fixedHighlight": "turn off",
+    "fixedZh": "閱讀整句,選出意思相同的 TURN OFF 用法。",
+    "fixedEn": "Read the whole sentence and choose the use of TURN OFF that gives the same meaning.",
+    "correct": "turned off",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；使用代名詞時,請按照以上例子的語序。；TURN OFF 有多個不同意思。請根據完整情境判斷所需意思。",
+    "variableEn": "Keep the same people, things, time and meaning. Follow these word orders when a pronoun is used: turn it off turn him off turn him off the course turn itself off TURN OFF has several different meanings. The full situation tells you which meaning is intended.",
+    "variableItemsZh": [
+      "turn off",
+      "turn off / turn off something",
+      "turn off / turn itself off",
+      "turn somebody off / turn somebody off somebody/something",
+      "turn something off"
+    ],
+    "variableItemsEn": [
+      "turn off",
+      "turn off / turn off something",
+      "turn off / turn itself off",
+      "turn somebody off / turn somebody off somebody/something",
+      "turn something off"
+    ],
+    "forms": [
+      {
+        "formZh": "不再留心;停止聽下去",
+        "formEn": "turn off",
+        "exampleZh": "我聽不懂那段解釋,所以便不再留心。",
+        "exampleEn": "I could not follow the explanation, so I turned off.",
+        "highlight": "turned off"
+      },
+      {
+        "formZh": "駛離原本道路,轉入另一條路",
+        "formEn": "turn off / turn off something",
+        "exampleZh": "我們駛離原本的道路,轉入一條小街。",
+        "exampleEn": "We turned off onto a side street.",
+        "highlight": "turned off"
+      },
+      {
+        "formZh": "機器或裝置停止運作,尤其是自動停止",
+        "formEn": "turn off / turn itself off",
+        "exampleZh": "暖氣系統會在十時自動停止運作。",
+        "exampleEn": "The heating turns off automatically at ten.",
+        "highlight": "turns off"
+      },
+      {
+        "formZh": "令某人失去興趣或產生反感",
+        "formEn": "turn somebody off / turn somebody off somebody/something",
+        "exampleZh": "那個無禮的廣告令顧客對該品牌產生反感。",
+        "exampleEn": "The rude advert turned customers off the brand.",
+        "highlight": "turned customers off"
+      },
+      {
+        "formZh": "把電器、燈、機器或供應關掉",
+        "formEn": "turn something off",
+        "exampleZh": "請把收音機關掉。",
+        "exampleEn": "Please turn the radio off.",
+        "highlight": "turn the radio off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "不再留心;停止聽下去",
+      "titleEn": "turn off",
+      "formula": "turn off",
+      "highlight": "turn off",
+      "descriptionZh": "不再留心;停止聽下去",
+      "descriptionEn": "I could not follow the explanation, so I turned off.",
+      "examples": [
+        {
+          "en": "I could not follow the explanation, so I turned off.",
+          "zh": "我聽不懂那段解釋,所以便不再留心。",
+          "highlight": "turned off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "駛離原本道路,轉入另一條路",
+      "titleEn": "turn off / turn off something",
+      "formula": "turn off / turn off something",
+      "highlight": "turn off / turn off something",
+      "descriptionZh": "駛離原本道路,轉入另一條路",
+      "descriptionEn": "We turned off onto a side street.",
+      "examples": [
+        {
+          "en": "We turned off onto a side street.",
+          "zh": "我們駛離原本的道路,轉入一條小街。",
+          "highlight": "turned off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "機器或裝置停止運作,尤其是自動停止",
+      "titleEn": "turn off / turn itself off",
+      "formula": "turn off / turn itself off",
+      "highlight": "turn off / turn itself off",
+      "descriptionZh": "機器或裝置停止運作,尤其是自動停止",
+      "descriptionEn": "The heating turns off automatically at ten.",
+      "examples": [
+        {
+          "en": "The heating turns off automatically at ten.",
+          "zh": "暖氣系統會在十時自動停止運作。",
+          "highlight": "turns off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "令某人失去興趣或產生反感",
+      "titleEn": "turn somebody off / turn somebody off somebody/something",
+      "formula": "turn somebody off / turn somebody off somebody/something",
+      "highlight": "turn somebody off / turn somebody off somebody/something",
+      "descriptionZh": "令某人失去興趣或產生反感",
+      "descriptionEn": "The rude advert turned customers off the brand.",
+      "examples": [
+        {
+          "en": "The rude advert turned customers off the brand.",
+          "zh": "那個無禮的廣告令顧客對該品牌產生反感。",
+          "highlight": "turned customers off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把電器、燈、機器或供應關掉",
+      "titleEn": "turn something off",
+      "formula": "turn something off",
+      "highlight": "turn something off",
+      "descriptionZh": "把電器、燈、機器或供應關掉",
+      "descriptionEn": "Please turn the radio off.",
+      "examples": [
+        {
+          "en": "Please turn the radio off.",
+          "zh": "請把收音機關掉。",
+          "highlight": "turn the radio off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "分清「不再留心」與「令人反感」",
+      "titleEn": "Distinguish losing attention from causing dislike",
+      "zh": "TURN OFF 可以描述某人不再聽下去,也可以表示某事令另一個人失去興趣。",
+      "en": "TURN OFF can describe a person who stops listening, or something that makes another person lose interest."
+    },
+    {
+      "titleZh": "給予及理解道路指示",
+      "titleEn": "Give and understand road directions",
+      "zh": "TURN OFF 可以表示駕駛者何時駛離一條道路,轉入另一條道路。",
+      "en": "TURN OFF can tell a driver when to leave one road and enter another."
+    },
+    {
+      "titleZh": "描述裝置停止運作的兩種情況",
+      "titleEn": "Describe two different ways that a device stops",
+      "zh": "裝置可以自行停止運作,也可以由某人把它關掉。",
+      "en": "A device may turn off by itself, or a person may turn the device off."
+    },
+    {
+      "titleZh": "理解日常情境中的 TURN OFF",
+      "titleEn": "Understand TURN OFF in everyday situations",
+      "zh": "這些用法常見於課堂、道路指示、科技、購物和日常對話。",
+      "en": "These uses appear in lessons, travel directions, technology, shopping and daily conversation."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "分清「不再留心」與「令人反感」",
+      "給予及理解道路指示",
+      "描述裝置停止運作的兩種情況",
+      "理解日常情境中的 TURN OFF"
+    ],
+    "contextsEn": [
+      "Distinguish losing attention from causing dislike",
+      "Give and understand road directions",
+      "Describe two different ways that a device stops",
+      "Understand TURN OFF in everyday situations"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "分清「不再留心」與「令人反感」",
+        "titleEn": "Distinguish losing attention from causing dislike",
+        "zh": "TURN OFF 可以描述某人不再聽下去,也可以表示某事令另一個人失去興趣。",
+        "en": "TURN OFF can describe a person who stops listening, or something that makes another person lose interest.",
+        "examples": [
+          {
+            "en": "I could not follow the explanation, so I turned off.",
+            "zh": "我聽不懂那段解釋,所以便不再留心。",
+            "highlight": "turned off"
+          }
+        ]
+      },
+      {
+        "titleZh": "給予及理解道路指示",
+        "titleEn": "Give and understand road directions",
+        "zh": "TURN OFF 可以表示駕駛者何時駛離一條道路,轉入另一條道路。",
+        "en": "TURN OFF can tell a driver when to leave one road and enter another.",
+        "examples": [
+          {
+            "en": "We turned off onto a side street.",
+            "zh": "我們駛離原本的道路,轉入一條小街。",
+            "highlight": "turned off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述裝置停止運作的兩種情況",
+        "titleEn": "Describe two different ways that a device stops",
+        "zh": "裝置可以自行停止運作,也可以由某人把它關掉。",
+        "en": "A device may turn off by itself, or a person may turn the device off.",
+        "examples": [
+          {
+            "en": "The heating turns off automatically at ten.",
+            "zh": "暖氣系統會在十時自動停止運作。",
+            "highlight": "turns off"
+          }
+        ]
+      },
+      {
+        "titleZh": "理解日常情境中的 TURN OFF",
+        "titleEn": "Understand TURN OFF in everyday situations",
+        "zh": "這些用法常見於課堂、道路指示、科技、購物和日常對話。",
+        "en": "These uses appear in lessons, travel directions, technology, shopping and daily conversation.",
+        "examples": [
+          {
+            "en": "The rude advert turned customers off the brand.",
+            "zh": "那個無禮的廣告令顧客對該品牌產生反感。",
+            "highlight": "turned customers off"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 TURN OFF 用法。",
+      "titleEn": "Read the whole sentence and choose the use of TURN OFF that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 TURN OFF 用法。",
+      "en": "Read the whole sentence and choose the use of TURN OFF that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "使用代名詞時,請按照以上例子的語序。",
+      "titleEn": "Follow these word orders when a pronoun is used: turn it off turn him off turn him off the course turn itself off.",
+      "zh": "使用代名詞時,請按照以上例子的語序。",
+      "en": "Follow these word orders when a pronoun is used: turn it off turn him off turn him off the course turn itself off"
+    },
+    {
+      "titleZh": "TURN OFF 有多個不同意思。請根據完整情境判斷所需意思。",
+      "titleEn": "TURN OFF has several different meanings.",
+      "zh": "TURN OFF 有多個不同意思。請根據完整情境判斷所需意思。",
+      "en": "TURN OFF has several different meanings. The full situation tells you which meaning is intended."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 TURN OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to TURN OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "TURN OFF 動詞片語句子改寫練習",
+    "titleEn": "TURN OFF Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 TURN OFF 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to TURN OFF. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-194-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "I stopped paying attention halfway through the long lecture.",
+      "promptZh": "我在那場冗長講座進行到一半時便不再留心。",
+      "starter": "I",
+      "answer": "I turned off halfway through the long lecture.",
+      "answerZh": "我在那場冗長講座進行到一半時便不再留心。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Please make sure the light is no longer on before you leave.",
+      "promptZh": "離開前請確保燈已經關掉。",
+      "starter": "Please",
+      "answer": "Please turn off the light before you leave.",
+      "answerZh": "離開前請把燈關掉。",
+      "highlight": "turn off",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The rude advert made many customers dislike the brand.",
+      "promptZh": "那個無禮的廣告令許多顧客對該品牌產生反感。",
+      "starter": "The",
+      "answer": "The rude advert turned many customers off the brand.",
+      "answerZh": "那個無禮的廣告令許多顧客對該品牌產生反感。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "Leave this road at the next junction.",
+      "promptZh": "在下一個路口駛離這條路。",
+      "starter": "Turn",
+      "answer": "Turn off at the next junction.",
+      "answerZh": "在下一個路口駛離這條路。",
+      "highlight": "Turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 13,
+      "prompt": "The heating stops operating automatically at ten.",
+      "promptZh": "暖氣系統會在十時自動停止運作。",
+      "starter": "The",
+      "answer": "The heating turns off automatically at ten.",
+      "answerZh": "暖氣系統會在十時自動停止運作。",
+      "highlight": "turns off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The class stopped listening when the explanation became too confusing.",
+      "promptZh": "當解釋變得太令人困惑時,全班便不再聽下去。",
+      "starter": "The",
+      "answer": "The class turned off when the explanation became too confusing.",
+      "answerZh": "當解釋變得太令人困惑時,全班便不再聽下去。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The speaker’s rude tone made me lose interest immediately.",
+      "promptZh": "講者無禮的語氣令我立即失去興趣。",
+      "starter": "The",
+      "answer": "The speaker’s rude tone turned me off immediately.",
+      "answerZh": "講者無禮的語氣令我立即失去興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "We left the main road near the farm.",
+      "promptZh": "我們在農場附近駛離了大路。",
+      "starter": "We",
+      "answer": "We turned off the main road near the farm.",
+      "answerZh": "我們在農場附近駛離了大路。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "After the news, Sam pressed the power button, and the television was no longer on.",
+      "promptZh": "新聞結束後,森按下電源按鈕,電視便關掉了。",
+      "starter": "After",
+      "answer": "After the news, Sam turned the television off by pressing the power button.",
+      "answerZh": "新聞結束後,森按下電源按鈕,把電視關掉了。",
+      "highlight": "turned the television off by pressing",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "My phone stopped operating when the battery ran out.",
+      "promptZh": "我的手機在電池用盡時停止運作。",
+      "starter": "My",
+      "answer": "My phone turned off when the battery ran out.",
+      "answerZh": "我的手機在電池用盡時停止運作。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 14,
+      "prompt": "The dirty tables made us lose interest in the restaurant.",
+      "promptZh": "骯髒的桌子令我們對那間餐廳失去興趣。",
+      "starter": "The",
+      "answer": "The dirty tables turned us off the restaurant.",
+      "answerZh": "骯髒的桌子令我們對那間餐廳失去興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Leo often stops paying attention during very long instructions.",
+      "promptZh": "里奧在聽到很長的指示時經常會走神。",
+      "starter": "Leo",
+      "answer": "Leo often turns off during very long instructions.",
+      "answerZh": "里奧在聽到很長的指示時經常會走神。",
+      "highlight": "turns off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The lights are going dark one by one without anyone touching the controls.",
+      "promptZh": "沒有人觸碰控制器,但那些燈正逐盞熄滅。",
+      "starter": "The",
+      "answer": "The lights are turning off one by one without anyone touching the controls.",
+      "answerZh": "沒有人觸碰控制器,但那些燈正逐盞自行關掉。",
+      "highlight": "turning off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The bus leaves its usual road and enters a narrow street after the library.",
+      "promptZh": "巴士駛過圖書館後會離開原本的道路,轉入一條狹窄街道。",
+      "starter": "The",
+      "answer": "The bus turns off onto a narrow street after the library.",
+      "answerZh": "巴士駛過圖書館後會離開原本的道路,轉入一條狹窄街道。",
+      "highlight": "turns off onto",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "At the start of every class, I make sure my phone is no longer on.",
+      "promptZh": "每堂課開始時,我都會確保手機已經關掉。",
+      "starter": "At",
+      "answer": "At the start of every class, I turn my phone off.",
+      "answerZh": "每堂課開始時,我都會把手機關掉。",
+      "highlight": "turn",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "She was paying less and less attention because the speaker kept repeating the same point.",
+      "promptZh": "由於講者不斷重複同一個重點,她愈來愈不留心。",
+      "starter": "She",
+      "answer": "She was turning off because the speaker kept repeating the same point.",
+      "answerZh": "由於講者不斷重複同一個重點,她愈來愈不留心。",
+      "highlight": "turning off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The film’s slow beginning is making some viewers lose interest.",
+      "promptZh": "電影緩慢的開頭正令部分觀眾失去興趣。",
+      "starter": "The",
+      "answer": "The film’s slow beginning is turning some viewers off.",
+      "answerZh": "電影緩慢的開頭正令部分觀眾失去興趣。",
+      "highlight": "turning",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 15,
+      "prompt": "The computer will stop operating after fifteen minutes without use.",
+      "promptZh": "電腦在十五分鐘沒有使用後會停止運作。",
+      "starter": "The",
+      "answer": "The computer will turn off after fifteen minutes without use.",
+      "answerZh": "電腦在十五分鐘沒有使用後會停止運作。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Did you leave the road at the traffic lights?",
+      "promptZh": "你是否在交通燈的位置駛離了那條路?",
+      "starter": "Did",
+      "answer": "Did you turn off at the traffic lights?",
+      "answerZh": "你是否在交通燈的位置駛離了那條路?",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Have you made sure the oven is no longer on?",
+      "promptZh": "你已經確保焗爐關掉了嗎?",
+      "starter": "Have",
+      "answer": "Have you turned off the oven?",
+      "answerZh": "你已經把焗爐關掉了嗎?",
+      "highlight": "turned off",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Why does the screen stop operating by itself so quickly?",
+      "promptZh": "為甚麼螢幕這麼快便自行停止運作?",
+      "starter": "Why",
+      "answer": "Why does the screen turn off by itself so quickly?",
+      "answerZh": "為甚麼螢幕這麼快便自行關掉?",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did the high price make you lose interest in the course?",
+      "promptZh": "高昂的價錢是否令你對這個課程失去興趣?",
+      "starter": "Did",
+      "answer": "Did the high price turn you off the course?",
+      "answerZh": "高昂的價錢是否令你對這個課程失去興趣?",
+      "highlight": "turn",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "They will leave the motorway at junction eight.",
+      "promptZh": "他們會在八號交匯處駛離高速公路。",
+      "starter": "They",
+      "answer": "They will turn off the motorway at junction eight.",
+      "answerZh": "他們會在八號交匯處駛離高速公路。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 16,
+      "prompt": "Did you stop paying attention during the final part of the lesson?",
+      "promptZh": "你在課堂最後一部分是否沒有再留心?",
+      "starter": "Did",
+      "answer": "Did you turn off during the final part of the lesson?",
+      "answerZh": "你在課堂最後一部分是否沒有再留心?",
+      "highlight": "turn off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The radio is too loud, so please make it stop.",
+      "promptZh": "收音機太大聲,所以請把它關掉。",
+      "starter": "The",
+      "answer": "The radio is too loud, so please turn it off.",
+      "answerZh": "收音機太大聲,所以請把它關掉。",
+      "highlight": "turn",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "The oven had already stopped operating by itself before we came home.",
+      "promptZh": "我們回家前,焗爐已經自行停止運作。",
+      "starter": "The",
+      "answer": "The oven had already turned itself off before we came home.",
+      "answerZh": "我們回家前,焗爐已經自行停止運作。",
+      "highlight": "turned",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "By the third example, I had completely stopped paying attention.",
+      "promptZh": "到了第三個例子時,我已經完全沒有再留心。",
+      "starter": "By",
+      "answer": "By the third example, I had completely turned off.",
+      "answerZh": "到了第三個例子時,我已經完全沒有再留心。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "Several group members had lost interest because of her rude replies.",
+      "promptZh": "她無禮的回覆令幾名組員失去了興趣。",
+      "starter": "Several",
+      "answer": "Several group members had been turned off by her rude replies.",
+      "answerZh": "她無禮的回覆令幾名組員失去了興趣。",
+      "highlight": "been turned off by",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "After passing the petrol station, leave this road and enter the road beside the park.",
+      "promptZh": "經過油站後,駛離這條路,轉入公園旁邊的道路。",
+      "starter": "After",
+      "answer": "After passing the petrol station, turn off onto the road beside the park.",
+      "answerZh": "經過油站後,駛離這條路,轉入公園旁邊的道路。",
+      "highlight": "turn off onto",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "They had stopped the water supply before repairing the pipe.",
+      "promptZh": "他們在修理水管前已經關掉供水。",
+      "starter": "They",
+      "answer": "They had turned the water supply off before repairing the pipe.",
+      "answerZh": "他們在修理水管前已經關掉供水。",
+      "highlight": "turned",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 17,
+      "prompt": "This fan stops operating by itself if it becomes too hot.",
+      "promptZh": "這把風扇如果變得太熱,便會自行停止運作。",
+      "starter": "This",
+      "answer": "This fan turns itself off if it becomes too hot.",
+      "answerZh": "這把風扇如果變得太熱,便會自行停止運作。",
+      "highlight": "turns",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The repeated pop-up messages may make people lose interest in the app.",
+      "promptZh": "不斷彈出的訊息可能會令使用者對這個應用程式失去興趣。",
+      "starter": "The",
+      "answer": "The repeated pop-up messages may turn people off the app.",
+      "answerZh": "不斷彈出的訊息可能會令使用者對這個應用程式失去興趣。",
+      "highlight": "turn",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "Do not forget to make sure all the computers are no longer on before leaving.",
+      "promptZh": "離開前不要忘記確保所有電腦已經關掉。",
+      "starter": "Do",
+      "answer": "Do not forget to turn off all the computers before leaving.",
+      "answerZh": "離開前不要忘記把所有電腦關掉。",
+      "highlight": "turn off",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The driver had left the main road before we noticed the sign.",
+      "promptZh": "我們留意到路牌前,司機已經駛離了大路。",
+      "starter": "The",
+      "answer": "The driver had turned off the main road before we noticed the sign.",
+      "answerZh": "我們留意到路牌前,司機已經駛離了大路。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The machine did not stop operating when the timer reached zero.",
+      "promptZh": "計時器到達零時,那部機器沒有停止運作。",
+      "starter": "The",
+      "answer": "The machine did not turn off when the timer reached zero.",
+      "answerZh": "計時器到達零時,那部機器沒有停止運作。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "Please explain it more simply, or some students will stop listening.",
+      "promptZh": "請解釋得簡單一點,否則有些學生會不再聽下去。",
+      "starter": "Please",
+      "answer": "Please explain it more simply, or some students will turn off.",
+      "answerZh": "請解釋得簡單一點,否則有些學生會不再聽下去。",
+      "highlight": "turn off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 18,
+      "prompt": "The food looked good, but the unfriendly service made us dislike the café.",
+      "promptZh": "食物看來不錯,但不友善的服務令我們對那間咖啡店產生反感。",
+      "starter": "The",
+      "answer": "The food looked good, but the unfriendly service turned us off the café.",
+      "answerZh": "食物看來不錯,但不友善的服務令我們對那間咖啡店產生反感。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Do not leave this road here; the next side road is safer.",
+      "promptZh": "不要在這裏駛離這條路;下一條小路較安全。",
+      "starter": "Do",
+      "answer": "Do not turn off here; the next side road is safer.",
+      "answerZh": "不要在這裏駛離這條路;下一條小路較安全。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The hall became dark when every light stopped shining automatically at the same moment.",
+      "promptZh": "每盞燈同時自動停止亮着時,大堂變得一片漆黑。",
+      "starter": "The",
+      "answer": "The hall became dark when every light turned off automatically at the same moment.",
+      "answerZh": "每盞燈同時自動關掉時,大堂變得一片漆黑。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "The staff made the main lights go dark but left one lamp on.",
+      "promptZh": "職員把主要燈光關掉,但保留了一盞燈亮着。",
+      "starter": "The",
+      "answer": "The staff turned off the main lights but left one lamp on.",
+      "answerZh": "職員把主要燈光關掉,但保留了一盞燈亮着。",
+      "highlight": "turned off",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "I stopped paying attention after ten minutes because the speaker was so slow.",
+      "promptZh": "由於講者說得太慢,我在十分鐘後便不再留心。",
+      "starter": "I",
+      "answer": "I turned off after ten minutes because the speaker was so slow.",
+      "answerZh": "由於講者說得太慢,我在十分鐘後便不再留心。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Being pushed to buy something often makes customers lose interest.",
+      "promptZh": "被人強迫購物往往會令顧客失去興趣。",
+      "starter": "Being",
+      "answer": "Being pushed to buy something often turns customers off.",
+      "answerZh": "被人強迫購物往往會令顧客失去興趣。",
+      "highlight": "turns",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Grace missed the exit and could not leave the motorway until the next junction.",
+      "promptZh": "格蕾絲錯過了出口,要到下一個交匯處才能駛離高速公路。",
+      "starter": "Grace",
+      "answer": "Grace missed the exit and could not turn off the motorway until the next junction.",
+      "answerZh": "格蕾絲錯過了出口,要到下一個交匯處才能駛離高速公路。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 19,
+      "prompt": "Could you stop the music while I make this call?",
+      "promptZh": "我打這通電話時,你可以把音樂關掉嗎?",
+      "starter": "Could",
+      "answer": "Could you turn the music off while I make this call?",
+      "answerZh": "我打這通電話時,你可以把音樂關掉嗎?",
+      "highlight": "turn",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "If nobody touches the tablet, it stops operating by itself to save power.",
+      "promptZh": "如果沒有人觸碰平板電腦,它會自行停止運作以節省電力。",
+      "starter": "If",
+      "answer": "If nobody touches the tablet, it turns itself off to save power.",
+      "answerZh": "如果沒有人觸碰平板電腦,它會自行停止運作以節省電力。",
+      "highlight": "turns",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "The coach’s angry manner made several young players lose interest in the sport.",
+      "promptZh": "教練憤怒的態度令幾名年輕球員對這項運動失去興趣。",
+      "starter": "The",
+      "answer": "The coach’s angry manner turned several young players off the sport.",
+      "answerZh": "教練憤怒的態度令幾名年輕球員對這項運動失去興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Whenever the lesson becomes too difficult, Ben stops paying attention.",
+      "promptZh": "每當課堂變得太困難時,賓便會走神。",
+      "starter": "Whenever",
+      "answer": "Whenever the lesson becomes too difficult, Ben turns off.",
+      "answerZh": "每當課堂變得太困難時,賓便會走神。",
+      "highlight": "turns off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "We left the main road and entered a quiet lane to avoid the busy town centre.",
+      "promptZh": "我們駛離大路,轉入一條安靜的小巷,以避開繁忙的市中心。",
+      "starter": "We",
+      "answer": "We turned off the main road onto a quiet lane to avoid the busy town centre.",
+      "answerZh": "我們駛離大路,轉入一條安靜的小巷,以避開繁忙的市中心。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Before the storm arrives, make sure the garden lights are no longer on and bring the chairs inside.",
+      "promptZh": "暴風雨來臨前,請確保花園燈已經關掉,並把椅子搬進室內。",
+      "starter": "Before",
+      "answer": "Before the storm arrives, turn off the garden lights and bring the chairs inside.",
+      "answerZh": "暴風雨來臨前,把花園燈關掉,並把椅子搬進室內。",
+      "highlight": "turn off",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 20,
+      "prompt": "Although I wanted to follow the talk, I stopped listening once the speaker began reading every word from the screen.",
+      "promptZh": "雖然我想聽懂那場講座,但講者開始逐字讀出螢幕內容後,我便不再留心。",
+      "starter": "Although",
+      "answer": "Although I wanted to follow the talk, I turned off once the speaker began reading every word from the screen.",
+      "answerZh": "雖然我想聽懂那場講座,但講者開始逐字讀出螢幕內容後,我便不再留心。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although the programme sounded useful, the very long form made many parents lose interest in it.",
+      "promptZh": "雖然這個計劃聽來很有用,但過長的表格令許多家長對它失去興趣。",
+      "starter": "Although",
+      "answer": "Although the programme sounded useful, the very long form turned many parents off it.",
+      "answerZh": "雖然這個計劃聽來很有用,但過長的表格令許多家長對它失去興趣。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Once you see the old bridge, leave the main road and follow the smaller road uphill.",
+      "promptZh": "看見那座舊橋後,駛離大路,沿較小的道路上山。",
+      "starter": "Once",
+      "answer": "Once you see the old bridge, turn off the main road and follow the smaller road uphill.",
+      "answerZh": "看見那座舊橋後,駛離大路,沿較小的道路上山。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "We thought the heater was broken, but it had simply stopped by itself after the room became warm enough.",
+      "promptZh": "我們以為暖爐壞了,但原來房間夠暖後,它只是自行停止運作。",
+      "starter": "We",
+      "answer": "We thought the heater was broken, but it had simply turned itself off after the room became warm enough.",
+      "answerZh": "我們以為暖爐壞了,但原來房間夠暖後,它只是自行停止運作。",
+      "highlight": "turned",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "When the alarm kept ringing, I finally stopped it and checked the door.",
+      "promptZh": "警鐘一直響時,我終於把它關掉,然後檢查門口。",
+      "starter": "When",
+      "answer": "When the alarm kept ringing, I finally turned it off and checked the door.",
+      "answerZh": "警鐘一直響時,我終於把它關掉,然後檢查門口。",
+      "highlight": "turned",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The instructions lasted so long that several people stopped paying attention before the main point.",
+      "promptZh": "那些指示持續了很久,幾個人在聽到主要重點前已經不再留心。",
+      "starter": "The",
+      "answer": "The instructions lasted so long that several people turned off before the main point.",
+      "answerZh": "那些指示持續了很久,幾個人在聽到主要重點前已經不再留心。",
+      "highlight": "turned off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    },
+    {
+      "id": "phrasal-verb-194-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 21,
+      "prompt": "The singer was talented, yet the endless online adverts made some listeners dislike her music.",
+      "promptZh": "那名歌手很有才華,但無休止的網上廣告令部分聽眾對她的音樂產生反感。",
+      "starter": "The",
+      "answer": "The singer was talented, yet the endless online adverts turned some listeners off her music.",
+      "answerZh": "那名歌手很有才華,但無休止的網上廣告令部分聽眾對她的音樂產生反感。",
+      "highlight": "turned",
+      "targetForm": "turn somebody off / turn somebody off somebody/something",
+      "targetMeaningZh": "令某人失去興趣或產生反感"
+    },
+    {
+      "id": "phrasal-verb-194-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "At midnight, the shop signs stop operating automatically, while the street lights stay on.",
+      "promptZh": "到了午夜,店舖招牌會自動停止亮着,而街燈則繼續亮着。",
+      "starter": "At",
+      "answer": "At midnight, the shop signs turn off automatically, while the street lights stay on.",
+      "answerZh": "到了午夜,店舖招牌會自動停止亮着,而街燈則繼續亮着。",
+      "highlight": "turn off",
+      "targetForm": "turn off / turn itself off",
+      "targetMeaningZh": "機器或裝置停止運作"
+    },
+    {
+      "id": "phrasal-verb-194-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The taxi should have left the road at the last junction, but it continued towards the airport.",
+      "promptZh": "的士本應在上一個路口駛離那條路,卻繼續向機場方向行駛。",
+      "starter": "The",
+      "answer": "The taxi should have turned off at the last junction, but it continued towards the airport.",
+      "answerZh": "的士本應在上一個路口駛離那條路,卻繼續向機場方向行駛。",
+      "highlight": "turned off",
+      "targetForm": "turn off / turn off something",
+      "targetMeaningZh": "駛離原本道路,轉入另一條路"
+    },
+    {
+      "id": "phrasal-verb-194-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "The office was empty, but nobody had made sure the air conditioning was no longer running.",
+      "promptZh": "辦公室空無一人,但沒有人確保冷氣已經關掉。",
+      "starter": "The",
+      "answer": "The office was empty, but nobody had turned the air conditioning off.",
+      "answerZh": "辦公室空無一人,但沒有人把冷氣關掉。",
+      "highlight": "turned",
+      "targetForm": "turn something off",
+      "targetMeaningZh": "把電器、燈或供應關掉"
+    },
+    {
+      "id": "phrasal-verb-194-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 22,
+      "prompt": "If the teacher gives one clear example first, fewer students will stop listening during the explanation.",
+      "promptZh": "如果老師先提供一個清楚例子,便會有較少學生在解釋期間不再留心。",
+      "starter": "If",
+      "answer": "If the teacher gives one clear example first, fewer students will turn off during the explanation.",
+      "answerZh": "如果老師先提供一個清楚例子,便會有較少學生在解釋期間不再留心。",
+      "highlight": "turn off",
+      "targetForm": "turn off",
+      "targetMeaningZh": "不再留心;停止聽下去"
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+{
+  "id": "phrasal-verb-170",
+  "order": 170,
+  "slug": "chip",
+  "version": "1",
+  "title": "CHIP 動詞片語",
+  "titleEn": "Chip",
+  "titleZh": "CHIP 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 6,
+  "source": {
+    "file": "Phrasal Verbs 169 - CHIP.pdf",
+    "sourceNumber": 169,
+    "pageCount": 24,
+    "teachingPdfPages": [
+      1,
+      2
+    ],
+    "exercisePdfPages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerKeyPdfPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 CHIP 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to CHIP."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "CHIP",
+      "highlight": "CHIP"
+    }
+  ],
+  "examples": [
+    {
+      "en": "The mason chipped away at the brick for several minutes.",
+      "zh": "泥水工人連續幾分鐘從磚頭上逐小塊鑿下碎片。",
+      "highlight": "chipped away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The noise slowly chipped away at my patience.",
+      "zh": "噪音逐步消磨了我的耐性。",
+      "highlight": "chipped away at",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "Ben chipped in with a useful question.",
+      "zh": "賓插話提出了一條有用的問題。",
+      "highlight": "chipped in with",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "不斷從某物上削去或鑿下小塊；一點一點地削弱或減少某事物；插話;加入討論並提出意見；一起夾錢;各自出一部分錢；小塊脫落;因崩掉一小塊而受損；用工具逐小塊削走、鑿走或敲下",
+    "en": "chip away at something; chip away at something; chip in / chip in with something; chip in / chip in with something; chip off / chip off something; chip something away/off; chip something off something",
+    "naturalZh": [
+      "不斷從某物上削去或鑿下小塊",
+      "一點一點地削弱或減少某事物",
+      "插話;加入討論並提出意見",
+      "一起夾錢;各自出一部分錢",
+      "小塊脫落;因崩掉一小塊而受損",
+      "用工具逐小塊削走、鑿走或敲下"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "chip away at something",
+      "titleZh": "不斷從某物上削去或鑿下小塊",
+      "titleEn": "chip away at something",
+      "descriptionZh": "不斷從某物上削去或鑿下小塊",
+      "descriptionEn": "The mason chipped away at the brick for several minutes.",
+      "examples": [
+        {
+          "en": "The mason chipped away at the brick for several minutes.",
+          "zh": "泥水工人連續幾分鐘從磚頭上逐小塊鑿下碎片。",
+          "highlight": "chipped away at"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chip away at something",
+      "titleZh": "一點一點地削弱或減少某事物",
+      "titleEn": "chip away at something",
+      "descriptionZh": "一點一點地削弱或減少某事物",
+      "descriptionEn": "The noise slowly chipped away at my patience.",
+      "examples": [
+        {
+          "en": "The noise slowly chipped away at my patience.",
+          "zh": "噪音逐步消磨了我的耐性。",
+          "highlight": "chipped away at"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chip in / chip in with something",
+      "titleZh": "插話;加入討論並提出意見",
+      "titleEn": "chip in / chip in with something",
+      "descriptionZh": "插話;加入討論並提出意見",
+      "descriptionEn": "Ben chipped in with a useful question.",
+      "examples": [
+        {
+          "en": "Ben chipped in with a useful question.",
+          "zh": "賓插話提出了一條有用的問題。",
+          "highlight": "chipped in with"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "chip in / chip in with something",
+      "titleZh": "一起夾錢;各自出一部分錢",
+      "titleEn": "chip in / chip in with something",
+      "descriptionZh": "一起夾錢;各自出一部分錢",
+      "descriptionEn": "We each chipped in £3 for the flowers.",
+      "examples": [
+        {
+          "en": "We each chipped in £3 for the flowers.",
+          "zh": "我們每人夾了三英鎊買花。",
+          "highlight": "chipped in"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 2
+    },
+    {
+      "formula": "chip off / chip off something",
+      "titleZh": "小塊脫落;因崩掉一小塊而受損",
+      "titleEn": "chip off / chip off something",
+      "descriptionZh": "小塊脫落;因崩掉一小塊而受損",
+      "descriptionEn": "The paint has chipped off the window.",
+      "examples": [
+        {
+          "en": "The paint has chipped off the window.",
+          "zh": "窗上的油漆已經剝落。",
+          "highlight": "chipped off"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 2
+    },
+    {
+      "formula": "chip something away/off; chip something off something",
+      "titleZh": "用工具逐小塊削走、鑿走或敲下",
+      "titleEn": "chip something away/off; chip something off something",
+      "descriptionZh": "用工具逐小塊削走、鑿走或敲下",
+      "descriptionEn": "She chipped a thin piece off the wood.",
+      "examples": [
+        {
+          "en": "She chipped a thin piece off the wood.",
+          "zh": "她從木頭上削下一小片。",
+          "highlight": "chipped a thin piece off"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "CHIP 片語動詞的實際用途",
+    "labelEn": "CHIP Phrasal Verbs in Use",
+    "summaryZh": "chip away at 可以描述逐小塊鑿走石頭或冰,也可以描述恐懼、希望或信任隨時間逐步減弱。；chip in 可以表示某人加入對話,補充評論、問題或建議。；chip in 可以表示幾個人各自出一部分錢,分擔禮物、聚餐、旅程或其他共同費用。；chip off 和 chip something off 可以描述油漆、冰、石頭、木材等物料的小塊脫落或被除去。",
+    "summaryEn": "Chip away at can describe removing tiny pieces from stone or ice, and it can also describe a fear, hope or trust becoming weaker over time. Chip in is a useful way to show that someone joins a conversation with a comment, question or suggestion. Chip in can show that several people each give part of the money needed for a gift, meal, trip or other shared cost. Chip off and chip something off help you describe paint, ice, stone, wood and other materials losing or having small pieces removed.",
+    "contextsZh": [
+      "描述逐小塊進行的工作和逐步出現的變化",
+      "在討論中自然地補充意見",
+      "談論共同分擔費用",
+      "描述小塊脫落或被除去"
+    ],
+    "contextsEn": [
+      "Describe slow physical work and slow change",
+      "Add an idea naturally in a discussion",
+      "Talk about sharing a cost",
+      "Describe small pieces breaking away or being removed"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 CHIP 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the CHIP expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "chip away at something",
+    "fixedHighlight": "chip away at something",
+    "fixedZh": "閱讀整句,選出意思相同的 CHIP 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the CHIP expression that gives the same meaning.",
+    "correct": "chipped away at",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；chip in 可以單獨使用。with an idea、with £5、for the gift 或 during the meeting 等字詞只是補充資料。；使用 chip ... off 表示把某物除去時,it 或 them 等短詞要放在 chip 和 off 中間,例如 chip it off。",
+    "variableEn": "Keep the same people, things, time and meaning. Chip in can stand alone. Words such as with an idea, with £5, for the gift or during the meeting only add details. When you remove something with chip... off, place a short word such as it or them between chip and off: chip it off.",
+    "variableItemsZh": [
+      "chip away at something",
+      "chip away at something",
+      "chip in / chip in with something",
+      "chip in / chip in with something",
+      "chip off / chip off something",
+      "chip something away/off; chip something off something"
+    ],
+    "variableItemsEn": [
+      "chip away at something",
+      "chip away at something",
+      "chip in / chip in with something",
+      "chip in / chip in with something",
+      "chip off / chip off something",
+      "chip something away/off; chip something off something"
+    ],
+    "forms": [
+      {
+        "formZh": "不斷從某物上削去或鑿下小塊",
+        "formEn": "chip away at something",
+        "exampleZh": "泥水工人連續幾分鐘從磚頭上逐小塊鑿下碎片。",
+        "exampleEn": "The mason chipped away at the brick for several minutes.",
+        "highlight": "chipped away at"
+      },
+      {
+        "formZh": "一點一點地削弱或減少某事物",
+        "formEn": "chip away at something",
+        "exampleZh": "噪音逐步消磨了我的耐性。",
+        "exampleEn": "The noise slowly chipped away at my patience.",
+        "highlight": "chipped away at"
+      },
+      {
+        "formZh": "插話;加入討論並提出意見",
+        "formEn": "chip in / chip in with something",
+        "exampleZh": "賓插話提出了一條有用的問題。",
+        "exampleEn": "Ben chipped in with a useful question.",
+        "highlight": "chipped in with"
+      },
+      {
+        "formZh": "一起夾錢;各自出一部分錢",
+        "formEn": "chip in / chip in with something",
+        "exampleZh": "我們每人夾了三英鎊買花。",
+        "exampleEn": "We each chipped in £3 for the flowers.",
+        "highlight": "chipped in"
+      },
+      {
+        "formZh": "小塊脫落;因崩掉一小塊而受損",
+        "formEn": "chip off / chip off something",
+        "exampleZh": "窗上的油漆已經剝落。",
+        "exampleEn": "The paint has chipped off the window.",
+        "highlight": "chipped off"
+      },
+      {
+        "formZh": "用工具逐小塊削走、鑿走或敲下",
+        "formEn": "chip something away/off; chip something off something",
+        "exampleZh": "她從木頭上削下一小片。",
+        "exampleEn": "She chipped a thin piece off the wood.",
+        "highlight": "chipped a thin piece off"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "不斷從某物上削去或鑿下小塊",
+      "titleEn": "chip away at something",
+      "formula": "chip away at something",
+      "highlight": "chip away at something",
+      "descriptionZh": "不斷從某物上削去或鑿下小塊",
+      "descriptionEn": "The mason chipped away at the brick for several minutes.",
+      "examples": [
+        {
+          "en": "The mason chipped away at the brick for several minutes.",
+          "zh": "泥水工人連續幾分鐘從磚頭上逐小塊鑿下碎片。",
+          "highlight": "chipped away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "一點一點地削弱或減少某事物",
+      "titleEn": "chip away at something",
+      "formula": "chip away at something",
+      "highlight": "chip away at something",
+      "descriptionZh": "一點一點地削弱或減少某事物",
+      "descriptionEn": "The noise slowly chipped away at my patience.",
+      "examples": [
+        {
+          "en": "The noise slowly chipped away at my patience.",
+          "zh": "噪音逐步消磨了我的耐性。",
+          "highlight": "chipped away at"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "插話;加入討論並提出意見",
+      "titleEn": "chip in / chip in with something",
+      "formula": "chip in / chip in with something",
+      "highlight": "chip in / chip in with something",
+      "descriptionZh": "插話;加入討論並提出意見",
+      "descriptionEn": "Ben chipped in with a useful question.",
+      "examples": [
+        {
+          "en": "Ben chipped in with a useful question.",
+          "zh": "賓插話提出了一條有用的問題。",
+          "highlight": "chipped in with"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "一起夾錢;各自出一部分錢",
+      "titleEn": "chip in / chip in with something",
+      "formula": "chip in / chip in with something",
+      "highlight": "chip in / chip in with something",
+      "descriptionZh": "一起夾錢;各自出一部分錢",
+      "descriptionEn": "We each chipped in £3 for the flowers.",
+      "examples": [
+        {
+          "en": "We each chipped in £3 for the flowers.",
+          "zh": "我們每人夾了三英鎊買花。",
+          "highlight": "chipped in"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "小塊脫落;因崩掉一小塊而受損",
+      "titleEn": "chip off / chip off something",
+      "formula": "chip off / chip off something",
+      "highlight": "chip off / chip off something",
+      "descriptionZh": "小塊脫落;因崩掉一小塊而受損",
+      "descriptionEn": "The paint has chipped off the window.",
+      "examples": [
+        {
+          "en": "The paint has chipped off the window.",
+          "zh": "窗上的油漆已經剝落。",
+          "highlight": "chipped off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "用工具逐小塊削走、鑿走或敲下",
+      "titleEn": "chip something away/off; chip something off something",
+      "formula": "chip something away/off; chip something off something",
+      "highlight": "chip something away/off; chip something off something",
+      "descriptionZh": "用工具逐小塊削走、鑿走或敲下",
+      "descriptionEn": "She chipped a thin piece off the wood.",
+      "examples": [
+        {
+          "en": "She chipped a thin piece off the wood.",
+          "zh": "她從木頭上削下一小片。",
+          "highlight": "chipped a thin piece off"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述逐小塊進行的工作和逐步出現的變化",
+      "titleEn": "Describe slow physical work and slow change",
+      "zh": "chip away at 可以描述逐小塊鑿走石頭或冰,也可以描述恐懼、希望或信任隨時間逐步減弱。",
+      "en": "Chip away at can describe removing tiny pieces from stone or ice, and it can also describe a fear, hope or trust becoming weaker over time."
+    },
+    {
+      "titleZh": "在討論中自然地補充意見",
+      "titleEn": "Add an idea naturally in a discussion",
+      "zh": "chip in 可以表示某人加入對話,補充評論、問題或建議。",
+      "en": "Chip in is a useful way to show that someone joins a conversation with a comment, question or suggestion."
+    },
+    {
+      "titleZh": "談論共同分擔費用",
+      "titleEn": "Talk about sharing a cost",
+      "zh": "chip in 可以表示幾個人各自出一部分錢,分擔禮物、聚餐、旅程或其他共同費用。",
+      "en": "Chip in can show that several people each give part of the money needed for a gift, meal, trip or other shared cost."
+    },
+    {
+      "titleZh": "描述小塊脫落或被除去",
+      "titleEn": "Describe small pieces breaking away or being removed",
+      "zh": "chip off 和 chip something off 可以描述油漆、冰、石頭、木材等物料的小塊脫落或被除去。",
+      "en": "Chip off and chip something off help you describe paint, ice, stone, wood and other materials losing or having small pieces removed."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述逐小塊進行的工作和逐步出現的變化",
+      "在討論中自然地補充意見",
+      "談論共同分擔費用",
+      "描述小塊脫落或被除去"
+    ],
+    "contextsEn": [
+      "Describe slow physical work and slow change",
+      "Add an idea naturally in a discussion",
+      "Talk about sharing a cost",
+      "Describe small pieces breaking away or being removed"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述逐小塊進行的工作和逐步出現的變化",
+        "titleEn": "Describe slow physical work and slow change",
+        "zh": "chip away at 可以描述逐小塊鑿走石頭或冰,也可以描述恐懼、希望或信任隨時間逐步減弱。",
+        "en": "Chip away at can describe removing tiny pieces from stone or ice, and it can also describe a fear, hope or trust becoming weaker over time.",
+        "examples": [
+          {
+            "en": "The mason chipped away at the brick for several minutes.",
+            "zh": "泥水工人連續幾分鐘從磚頭上逐小塊鑿下碎片。",
+            "highlight": "chipped away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "在討論中自然地補充意見",
+        "titleEn": "Add an idea naturally in a discussion",
+        "zh": "chip in 可以表示某人加入對話,補充評論、問題或建議。",
+        "en": "Chip in is a useful way to show that someone joins a conversation with a comment, question or suggestion.",
+        "examples": [
+          {
+            "en": "The noise slowly chipped away at my patience.",
+            "zh": "噪音逐步消磨了我的耐性。",
+            "highlight": "chipped away at"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論共同分擔費用",
+        "titleEn": "Talk about sharing a cost",
+        "zh": "chip in 可以表示幾個人各自出一部分錢,分擔禮物、聚餐、旅程或其他共同費用。",
+        "en": "Chip in can show that several people each give part of the money needed for a gift, meal, trip or other shared cost.",
+        "examples": [
+          {
+            "en": "Ben chipped in with a useful question.",
+            "zh": "賓插話提出了一條有用的問題。",
+            "highlight": "chipped in with"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述小塊脫落或被除去",
+        "titleEn": "Describe small pieces breaking away or being removed",
+        "zh": "chip off 和 chip something off 可以描述油漆、冰、石頭、木材等物料的小塊脫落或被除去。",
+        "en": "Chip off and chip something off help you describe paint, ice, stone, wood and other materials losing or having small pieces removed.",
+        "examples": [
+          {
+            "en": "We each chipped in £3 for the flowers.",
+            "zh": "我們每人夾了三英鎊買花。",
+            "highlight": "chipped in"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 CHIP 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the CHIP expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 CHIP 片語動詞。",
+      "en": "Read the whole sentence and choose the CHIP expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "chip in 可以單獨使用。with an idea、with £5、for the gift 或 during the meeting 等字詞只是補充資料。",
+      "titleEn": "Chip in can stand alone.",
+      "zh": "chip in 可以單獨使用。with an idea、with £5、for the gift 或 during the meeting 等字詞只是補充資料。",
+      "en": "Chip in can stand alone. Words such as with an idea, with £5, for the gift or during the meeting only add details."
+    },
+    {
+      "titleZh": "使用 chip ... off 表示把某物除去時,it 或 them 等短詞要放在 chip 和 off 中間,例如 chip it off。",
+      "titleEn": "When you remove something with chip.",
+      "zh": "使用 chip ... off 表示把某物除去時,it 或 them 等短詞要放在 chip 和 off 中間,例如 chip it off。",
+      "en": "When you remove something with chip... off, place a short word such as it or them between chip and off: chip it off."
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 CHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to CHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "CHIP 動詞片語句子改寫練習",
+    "titleEn": "CHIP Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 CHIP 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to CHIP. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          12
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          13,
+          24
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          25,
+          36
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          37,
+          48
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          49,
+          60
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-170-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "Ava added a helpful suggestion during the class discussion.",
+      "promptZh": "艾娃在課堂討論期間提出了一個有用的建議。",
+      "starter": "Ava",
+      "answer": "Ava chipped in with a helpful suggestion during the class discussion.",
+      "answerZh": "艾娃在課堂討論期間提出了一個有用的建議。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "The worker kept breaking tiny pieces from the stone.",
+      "promptZh": "工人不斷從石頭上敲下細小碎片。",
+      "starter": "The",
+      "answer": "The worker chipped away at the stone.",
+      "answerZh": "工人不斷從石頭上逐小塊鑿下碎片。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 14,
+      "prompt": "A small piece of blue paint fell from the gate.",
+      "promptZh": "一小塊藍色油漆從大閘上脫落。",
+      "starter": "A",
+      "answer": "A small piece of blue paint chipped off the gate.",
+      "answerZh": "一小塊藍色油漆從大閘上剝落。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Each parent gave £5 towards the class gift.",
+      "promptZh": "每位家長為班級禮物出了五英鎊。",
+      "starter": "Each",
+      "answer": "Each parent chipped in with £5 for the class gift.",
+      "answerZh": "每位家長為班級禮物夾了五英鎊。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "Small daily wins slowly reduced Leo’s fear of swimming.",
+      "promptZh": "每天的小進步慢慢減輕了里奧對游泳的恐懼。",
+      "starter": "Small",
+      "answer": "Small daily wins chipped away at Leo’s fear of swimming.",
+      "answerZh": "每天的小進步逐步減輕了里奧對游泳的恐懼。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 4,
+      "answerSourcePage": 15,
+      "prompt": "The worker removed the old paint from the chair in small pieces.",
+      "promptZh": "工人把椅子上的舊油漆逐小塊除去。",
+      "starter": "The",
+      "answer": "The worker chipped the old paint off the chair.",
+      "answerZh": "工人把椅子上的舊油漆逐小塊鑿走。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "We all gave some money for the birthday cake.",
+      "promptZh": "我們所有人都為生日蛋糕出了一些錢。",
+      "starter": "We",
+      "answer": "We all chipped in for the birthday cake.",
+      "answerZh": "我們所有人都夾錢買生日蛋糕。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "The repeated delays made passengers trust the bus service less and less.",
+      "promptZh": "多次延誤令乘客愈來愈不信任巴士服務。",
+      "starter": "The",
+      "answer": "The repeated delays chipped away at passengers’ trust in the bus service.",
+      "answerZh": "多次延誤逐步削弱了乘客對巴士服務的信任。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 15,
+      "prompt": "Ella used a small tool to remove a lump of dried glue from the wooden box.",
+      "promptZh": "埃拉用小工具從木盒上除去一塊乾掉的膠水。",
+      "starter": "Ella",
+      "answer": "Ella chipped a lump of dried glue off the wooden box.",
+      "answerZh": "埃拉從木盒上敲下一塊乾掉的膠水。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Leo added a short comment before the meeting ended.",
+      "promptZh": "里奧在會議結束前補充了一句簡短的話。",
+      "starter": "Leo",
+      "answer": "Leo chipped in with a short comment before the meeting ended.",
+      "answerZh": "里奧在會議結束前補充了一句簡短的話。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "Sam kept breaking the hard ice into small pieces around the door.",
+      "promptZh": "森不斷把門邊的硬冰敲成小塊。",
+      "starter": "Sam",
+      "answer": "Sam chipped away at the hard ice around the door.",
+      "answerZh": "森不斷逐小塊鑿去門邊的硬冰。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 16,
+      "prompt": "A small piece broke from the edge of the cup.",
+      "promptZh": "杯邊崩掉了一小塊。",
+      "starter": "A",
+      "answer": "A small piece chipped off the edge of the cup.",
+      "answerZh": "杯邊崩掉了一小塊。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q13",
+      "number": 13,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "Every rude message is slowly weakening her confidence.",
+      "promptZh": "每一則無禮的訊息都在慢慢削弱她的信心。",
+      "starter": "Every",
+      "answer": "Every rude message is chipping away at her confidence.",
+      "answerZh": "每一則無禮的訊息都在逐步削弱她的信心。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q14",
+      "number": 14,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "The dried mud on the boot is loose, and Kai has removed it in small pieces.",
+      "promptZh": "靴子上的乾泥已經鬆開,啟把它逐小塊除去了。",
+      "starter": "The",
+      "answer": "The dried mud on the boot is loose, and Kai has chipped it off.",
+      "answerZh": "靴子上的乾泥已經鬆開,啟把它逐小塊鑿走了。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 16,
+      "prompt": "You can add a comment if the plan misses anything.",
+      "promptZh": "如果計劃遺漏了任何事情,你可以補充意見。",
+      "starter": "You",
+      "answer": "You can chip in if the plan misses anything.",
+      "answerZh": "如果計劃遺漏了任何事情,你可以補充意見。",
+      "highlight": "chip in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "Some paint has fallen from the classroom door.",
+      "promptZh": "課室門上已有一些油漆剝落。",
+      "starter": "Some",
+      "answer": "Some paint has chipped off the classroom door.",
+      "answerZh": "課室門上已有一些油漆剝落。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "The gardener is breaking small pieces from the hard soil around the plant.",
+      "promptZh": "園丁正在把植物周圍的硬泥逐小塊敲開。",
+      "starter": "The",
+      "answer": "The gardener is chipping away at the hard soil around the plant.",
+      "answerZh": "園丁正在逐小塊鑿開植物周圍的硬泥。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 6,
+      "answerSourcePage": 17,
+      "prompt": "We will each give £10 towards the team shirts.",
+      "promptZh": "我們每人會為隊衣出十英鎊。",
+      "starter": "We",
+      "answer": "We will each chip in £10 for the team shirts.",
+      "answerZh": "我們每人會為隊衣夾十英鎊。",
+      "highlight": "chip in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "Has a small piece broken away from your front tooth?",
+      "promptZh": "你的門牙有一小塊崩掉了嗎?",
+      "starter": "Has",
+      "answer": "Has a small piece chipped off your front tooth?",
+      "answerZh": "你的門牙有一小塊崩掉了嗎?",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "No one has given any money towards the trip yet.",
+      "promptZh": "暫時還沒有人為這次旅程出錢。",
+      "starter": "No",
+      "answer": "No one has chipped in for the trip yet.",
+      "answerZh": "暫時還沒有人為這次旅程夾錢。",
+      "highlight": "chipped in for",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 17,
+      "prompt": "You should keep breaking the ice around the pipe into small pieces.",
+      "promptZh": "你應該繼續把水管周圍的冰敲成小塊。",
+      "starter": "You",
+      "answer": "You should chip away at the ice around the pipe.",
+      "answerZh": "你應該繼續逐小塊鑿去水管周圍的冰。",
+      "highlight": "chip away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The two quieter students have also added useful ideas.",
+      "promptZh": "兩名較安靜的學生也提出了有用的意見。",
+      "starter": "The",
+      "answer": "The two quieter students have also chipped in with useful ideas.",
+      "answerZh": "兩名較安靜的學生也提出了有用的意見。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "The sticker on the jar is hard and dry; remove it in small pieces.",
+      "promptZh": "瓶子上的貼紙又硬又乾;請把它逐小塊除去。",
+      "starter": "The",
+      "answer": "The sticker on the jar is hard and dry; chip it off in small pieces.",
+      "answerZh": "瓶子上的貼紙又硬又乾;請把它逐小塊刮走。",
+      "highlight": "chip",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 18,
+      "prompt": "Months of poor sleep have slowly reduced Omar’s energy.",
+      "promptZh": "多個月睡眠不足,慢慢消耗了奧馬的精力。",
+      "starter": "Months",
+      "answer": "Months of poor sleep have chipped away at Omar’s energy.",
+      "answerZh": "多個月睡眠不足,逐步消耗了奧馬的精力。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q25",
+      "number": 25,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The club meal cost more than expected. Everyone gave a little extra.",
+      "promptZh": "會所聚餐的費用比預期高。每個人都多出了一點錢。",
+      "starter": "The",
+      "answer": "The club meal cost more than expected. Everyone chipped in a little extra.",
+      "answerZh": "會所聚餐的費用比預期高。每個人都多夾了一點錢。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q26",
+      "number": 26,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 18,
+      "prompt": "The wall was very hard, but the worker kept breaking small pieces from it.",
+      "promptZh": "牆壁十分堅硬,但工人仍不斷從上面敲下小塊。",
+      "starter": "The",
+      "answer": "The wall was very hard, but the worker kept chipping away at it.",
+      "answerZh": "牆壁十分堅硬,但工人仍不斷從牆上逐小塊鑿下碎片。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q27",
+      "number": 27,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "Could I add one point before we decide?",
+      "promptZh": "在我們作出決定前,我可以補充一點嗎?",
+      "starter": "Could",
+      "answer": "Could I chip in with one point before we decide?",
+      "answerZh": "在我們作出決定前,我可以補充一點嗎?",
+      "highlight": "chip in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q28",
+      "number": 28,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The dried paint on the old box was easy to remove, so Lina removed it in small pieces.",
+      "promptZh": "舊盒子上的乾油漆很容易除去,所以莉娜把它逐小塊刮走。",
+      "starter": "The",
+      "answer": "The dried paint on the old box was easy to remove, so Lina chipped it off.",
+      "answerZh": "舊盒子上的乾油漆很容易除去,所以莉娜把它逐小塊刮走。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "The team lost several matches. Each loss made their confidence weaker.",
+      "promptZh": "球隊輸了幾場比賽。每次落敗都令他們的信心減弱。",
+      "starter": "The",
+      "answer": "The team lost several matches. Each loss chipped away at their confidence.",
+      "answerZh": "球隊輸了幾場比賽。每次落敗都逐步削弱他們的信心。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 8,
+      "answerSourcePage": 19,
+      "prompt": "While the old table was being moved, a small piece fell from one corner.",
+      "promptZh": "搬動舊桌子時,其中一個角落崩掉了一小塊。",
+      "starter": "While",
+      "answer": "While the old table was being moved, a small piece chipped off the corner.",
+      "answerZh": "搬動舊桌子時,其中一個角落崩掉了一小塊。",
+      "highlight": "chipped off the",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "Using a small hammer, the worker removed the thick ice from the lock in small pieces.",
+      "promptZh": "工人用小錘子把鎖上的厚冰逐小塊除去。",
+      "starter": "Using",
+      "answer": "Using a small hammer, the worker chipped the thick ice away from the lock.",
+      "answerZh": "工人用小錘子把鎖上的厚冰逐小塊鑿走。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 19,
+      "prompt": "If more paint falls from the wall, tell the caretaker.",
+      "promptZh": "如果牆上有更多油漆剝落,請告訴管理員。",
+      "starter": "If",
+      "answer": "If more paint chips off the wall, tell the caretaker.",
+      "answerZh": "如果牆上有更多油漆剝落,請告訴管理員。",
+      "highlight": "chips off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "What is slowly reducing the group’s hope of finishing on time?",
+      "promptZh": "甚麼正在慢慢減低小組準時完成的希望?",
+      "starter": "What",
+      "answer": "What is chipping away at the group’s hope of finishing on time?",
+      "answerZh": "甚麼正在逐步削弱小組準時完成的希望?",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Did everyone give something towards the leaving gift?",
+      "promptZh": "每個人都有為送別禮物出一點錢嗎?",
+      "starter": "Did",
+      "answer": "Did everyone chip in for the leaving gift?",
+      "answerZh": "每個人都有為送別禮物夾錢嗎?",
+      "highlight": "chip in for",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "When the teacher asked for ideas, Ben added that the class could start earlier.",
+      "promptZh": "老師徵求意見時,賓補充說課堂可以早一點開始。",
+      "starter": "When",
+      "answer": "When the teacher asked for ideas, Ben chipped in to say that the class could start earlier.",
+      "answerZh": "老師徵求意見時,賓補充說課堂可以早一點開始。",
+      "highlight": "chipped in to say",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 20,
+      "prompt": "Because the frozen ground was so hard, the team spent an hour breaking small pieces from it.",
+      "promptZh": "由於結冰的地面十分堅硬,團隊花了一小時逐小塊敲開地面。",
+      "starter": "Because",
+      "answer": "Because the frozen ground was so hard, the team spent an hour chipping away at it.",
+      "answerZh": "由於結冰的地面十分堅硬,團隊花了一小時逐小塊鑿開地面。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q37",
+      "number": 37,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "Although the worker did not touch the old sign, a small piece of paint still fell from it.",
+      "promptZh": "雖然工人沒有碰過舊招牌,但一小塊油漆仍從上面剝落。",
+      "starter": "Although",
+      "answer": "Although the worker did not touch the old sign, a small piece of paint still chipped off the sign.",
+      "answerZh": "雖然工人沒有碰過舊招牌,但一小塊油漆仍從招牌上剝落。",
+      "highlight": "chipped off the sign",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q38",
+      "number": 38,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 20,
+      "prompt": "During the discussion about where to eat, Eva suddenly added, ‘The café closes at eight.’",
+      "promptZh": "大家討論到哪裏吃飯時,伊娃突然補充說:「咖啡店八時關門。」",
+      "starter": "During",
+      "answer": "During the discussion about where to eat, Eva suddenly chipped in, ‘The café closes at eight.’",
+      "answerZh": "大家討論到哪裏吃飯時,伊娃突然插話說:「咖啡店八時關門。」",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q39",
+      "number": 39,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Week by week, the new study plan made his fear of the exam smaller.",
+      "promptZh": "新的溫習計劃令他對考試的恐懼一星期一星期地減少。",
+      "starter": "Week",
+      "answer": "Week by week, the new study plan chipped away at his fear of the exam.",
+      "answerZh": "新的溫習計劃一星期一星期地減輕了他對考試的恐懼。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q40",
+      "number": 40,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Instead of asking one person to pay for the new ball, every player gave part of the cost.",
+      "promptZh": "球隊沒有要求一個人支付新球的費用,而是每名球員都出了一部分。",
+      "starter": "Instead",
+      "answer": "Instead of asking one person to pay for the new ball, every player chipped in.",
+      "answerZh": "球隊沒有要求一個人支付新球的費用,而是每名球員都夾了錢。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q41",
+      "number": 41,
+      "band": 4,
+      "sourcePage": 10,
+      "answerSourcePage": 21,
+      "prompt": "Using a tool, the worker removed the paint from the window frame in small pieces.",
+      "promptZh": "工人用工具把窗框上的油漆逐小塊除去。",
+      "starter": "Using",
+      "answer": "Using a tool, the worker chipped the paint off the window frame.",
+      "answerZh": "工人用工具把窗框上的油漆逐小塊鑿走。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q42",
+      "number": 42,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Rather than removing one large piece, the artist kept taking tiny pieces from the stone.",
+      "promptZh": "藝術家沒有移走一大塊石頭,而是不斷從石頭上取下細小碎片。",
+      "starter": "Rather",
+      "answer": "Rather than removing one large piece, the artist kept chipping away at the stone.",
+      "answerZh": "藝術家沒有移走一大塊石頭,而是不斷從石頭上逐小塊鑿下碎片。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "Although everyone had an idea, nobody added anything during the discussion.",
+      "promptZh": "雖然每個人都有想法,但討論期間沒有人補充意見。",
+      "starter": "Although",
+      "answer": "Although everyone had an idea, nobody chipped in during the discussion.",
+      "answerZh": "雖然每個人都有想法,但討論期間沒有人插話補充。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 21,
+      "prompt": "To make the stone fit, Kai broke a small corner from it with a hammer.",
+      "promptZh": "為了令石頭大小合適,啟用錘子從石頭上敲下一個小角。",
+      "starter": "To",
+      "answer": "To make the stone fit, Kai chipped a small corner off it with a hammer.",
+      "answerZh": "為了令石頭大小合適,啟用錘子從石頭上敲下一個小角。",
+      "highlight": "chipped",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Because the class needed £60, twelve students each gave £5.",
+      "promptZh": "由於全班需要六十英鎊,十二名學生每人出了五英鎊。",
+      "starter": "Because",
+      "answer": "Because the class needed £60, twelve students each chipped in with £5.",
+      "answerZh": "由於全班需要六十英鎊,十二名學生每人夾了五英鎊。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Even after an hour, the workers were still removing tiny pieces from the rock and had not finished.",
+      "promptZh": "即使過了一小時,工人仍在從岩石上逐小塊敲走碎片,尚未完成。",
+      "starter": "Even",
+      "answer": "Even after an hour, the workers were still chipping away at the rock and had not finished.",
+      "answerZh": "即使過了一小時,工人仍在從岩石上逐小塊鑿下碎片,尚未完成。",
+      "highlight": "chipping away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 11,
+      "answerSourcePage": 22,
+      "prompt": "Although the plate was not dropped, part of its edge became damaged and broke away.",
+      "promptZh": "雖然碟子沒有掉在地上,但碟邊的一部分受損並崩掉。",
+      "starter": "Although",
+      "answer": "Although the plate was not dropped, part of its edge chipped off.",
+      "answerZh": "雖然碟子沒有掉在地上,但碟邊的一部分崩掉了。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "During the long wait, the delay slowly made them less excited.",
+      "promptZh": "在漫長的等待期間,延誤慢慢減低了他們的興奮感。",
+      "starter": "During",
+      "answer": "During the long wait, the delay slowly chipped away at their excitement.",
+      "answerZh": "在漫長的等待期間,延誤逐步減低了他們的興奮感。",
+      "highlight": "chipped away at their excitement",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q49",
+      "number": 49,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Because hard ice covered the edge of the door, Ravi used a small tool to remove it in pieces.",
+      "promptZh": "由於硬冰覆蓋了門邊,拉維用小工具把冰逐小塊除去。",
+      "starter": "Because",
+      "answer": "Because hard ice covered the edge of the door, Ravi chipped it away with a small tool.",
+      "answerZh": "由於硬冰覆蓋了門邊,拉維用小工具把冰逐小塊鑿走。",
+      "highlight": "chipped it away with",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    },
+    {
+      "id": "phrasal-verb-170-q50",
+      "number": 50,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 22,
+      "prompt": "Several classes each gave part of the money before the school could buy the new speaker.",
+      "promptZh": "幾個班別各自出了部分金錢,學校才能購買新揚聲器。",
+      "starter": "Several",
+      "answer": "Several classes chipped in before the school could buy the new speaker.",
+      "answerZh": "幾個班別夾了錢,學校才能購買新揚聲器。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q51",
+      "number": 51,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "Because the old wall was too thick to open quickly, the workers kept removing tiny pieces until there was a narrow gap.",
+      "promptZh": "由於舊牆太厚,無法迅速打開缺口,工人不斷從牆上逐小塊鑿下碎片,直至出現一條窄縫。",
+      "starter": "Because",
+      "answer": "Because the old wall was too thick to open quickly, the workers kept chipping away at it until there was a narrow gap.",
+      "answerZh": "由於舊牆太厚,無法迅速打開缺口,工人不斷從牆上逐小塊鑿下碎片,直至出現一條窄縫。",
+      "highlight": "chipping away at it",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q52",
+      "number": 52,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "We were almost ready to choose the blue design when Sam added that the red one was cheaper.",
+      "promptZh": "我們差不多準備選擇藍色設計時,森補充說紅色設計較便宜。",
+      "starter": "We",
+      "answer": "We were almost ready to choose the blue design when Sam chipped in to say that the red one was cheaper.",
+      "answerZh": "我們差不多準備選擇藍色設計時,森插話說紅色設計較便宜。",
+      "highlight": "chipped in to say",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q53",
+      "number": 53,
+      "band": 5,
+      "sourcePage": 12,
+      "answerSourcePage": 23,
+      "prompt": "By evening, several small pieces of paint had fallen from the wet wall, although it had looked fine that morning.",
+      "promptZh": "到了晚上,濕牆上已有幾小塊油漆剝落,雖然早上看來仍然完好。",
+      "starter": "By",
+      "answer": "By evening, several small pieces of paint had chipped off the wet wall, although it had looked fine that morning.",
+      "answerZh": "到了晚上,濕牆上已有幾小塊油漆剝落,雖然早上看來仍然完好。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q54",
+      "number": 54,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "Several small failures did not stop Ella, but over time they slowly weakened her belief that she could win.",
+      "promptZh": "幾次小失敗沒有令埃拉放棄,但久而久之,它們慢慢削弱了她對自己能夠勝出的信念。",
+      "starter": "Several",
+      "answer": "Several small failures did not stop Ella, but over time they chipped away at her belief that she could win.",
+      "answerZh": "幾次小失敗沒有令埃拉放棄,但久而久之,它們逐步削弱了她對自己能夠勝出的信念。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q55",
+      "number": 55,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 23,
+      "prompt": "At first, no one knew the answer. Then Omar added a simple explanation that helped everyone.",
+      "promptZh": "起初沒有人知道答案。後來奧馬補充了一個簡單解釋,幫助了所有人。",
+      "starter": "At",
+      "answer": "At first, no one knew the answer. Then Omar chipped in with a simple explanation that helped everyone.",
+      "answerZh": "起初沒有人知道答案。後來奧馬插話補充了一個簡單解釋,幫助了所有人。",
+      "highlight": "chipped in with",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "插話;加入討論並提出意見"
+    },
+    {
+      "id": "phrasal-verb-170-q56",
+      "number": 56,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Every time the shop changed the delivery date, customers trusted it less.",
+      "promptZh": "店舖每次更改送貨日期,顧客都會更加不信任它。",
+      "starter": "Every",
+      "answer": "Every change to the delivery date chipped away at customers’ trust in the shop.",
+      "answerZh": "送貨日期的每次改動都逐步削弱顧客對店舖的信任。",
+      "highlight": "change to",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "逐步削弱或減少某事物"
+    },
+    {
+      "id": "phrasal-verb-170-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "While the old chair was being carried upstairs, a small piece broke from the wooden arm even though no one hit it.",
+      "promptZh": "把舊椅子搬上樓時,木扶手崩掉了一小塊,雖然沒有人撞到它。",
+      "starter": "While",
+      "answer": "While the old chair was being carried upstairs, a small piece chipped off the wooden arm even though no one hit it.",
+      "answerZh": "把舊椅子搬上樓時,木扶手崩掉了一小塊,雖然沒有人撞到它。",
+      "highlight": "chipped off",
+      "targetForm": "chip off / chip off something",
+      "targetMeaningZh": "小塊脫落;因崩掉一小塊而受損"
+    },
+    {
+      "id": "phrasal-verb-170-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 13,
+      "answerSourcePage": 24,
+      "prompt": "Since the ice was too thick to remove in one piece, Priya worked on it little by little until the key could turn.",
+      "promptZh": "由於冰層太厚,無法整塊除去,普里雅逐少處理,直至鎖匙可以轉動。",
+      "starter": "Since",
+      "answer": "Since the ice was too thick to remove in one piece, Priya chipped away at it until the key could turn.",
+      "answerZh": "由於冰層太厚,無法整塊除去,普里雅逐小塊鑿冰,直至鎖匙可以轉動。",
+      "highlight": "chipped away at",
+      "targetForm": "chip away at something",
+      "targetMeaningZh": "不斷從某物上削去或鑿下小塊"
+    },
+    {
+      "id": "phrasal-verb-170-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "As no single student could pay for the thank-you gift, everyone gave a little.",
+      "promptZh": "由於沒有一名學生可以獨自支付答謝禮物的費用,每個人都出了一點錢。",
+      "starter": "As",
+      "answer": "As no single student could pay for the thank-you gift, everyone chipped in.",
+      "answerZh": "由於沒有一名學生可以獨自支付答謝禮物的費用,每個人都夾了一點錢。",
+      "highlight": "chipped in",
+      "targetForm": "chip in / chip in with something",
+      "targetMeaningZh": "一起夾錢;各自出一部分錢"
+    },
+    {
+      "id": "phrasal-verb-170-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 24,
+      "prompt": "Because the shelf was slightly too wide, Ava used a small tool to remove a thin piece from one side.",
+      "promptZh": "由於層架稍微太闊,艾娃用小工具從其中一邊削去一小片。",
+      "starter": "Because",
+      "answer": "Because the shelf was slightly too wide, Ava chipped a thin piece off one side with a small tool.",
+      "answerZh": "由於層架稍微太闊,艾娃用小工具從其中一邊削去一小片。",
+      "highlight": "chipped a thin piece off one side with",
+      "targetForm": "chip something away/off; chip something off something",
+      "targetMeaningZh": "逐小塊削走、鑿走或敲下"
+    }
+  ]
+}

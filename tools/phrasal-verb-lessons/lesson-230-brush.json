@@ -1,0 +1,1770 @@
+{
+  "id": "phrasal-verb-230",
+  "order": 230,
+  "slug": "brush",
+  "version": "1",
+  "title": "BRUSH 動詞片語",
+  "titleEn": "Brush",
+  "titleZh": "BRUSH 動詞片語",
+  "level": "A2–B1",
+  "groupCount": 9,
+  "source": {
+    "file": "Phrasal Verbs 226 - BRUSH.pdf",
+    "sourceNumber": 226,
+    "pageCount": 29,
+    "teachingPdfPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePdfPages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "contentPdfPages": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerKeyPdfPages": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "benefitsDerivedFromReferenceBank": false,
+    "answerOverrideCount": 0,
+    "answerPatchCount": 0
+  },
+  "learningObjective": {
+    "zh": "學習及練習與 BRUSH 有關的片語動詞。",
+    "en": "Learn and practise the phrasal verbs related to BRUSH."
+  },
+  "formulas": [
+    {
+      "labelZh": "核心動詞",
+      "labelEn": "Core Verb",
+      "formula": "BRUSH",
+      "highlight": "BRUSH"
+    }
+  ],
+  "examples": [
+    {
+      "en": "A cat brushed against his leg.",
+      "zh": "一隻貓輕輕擦過他的腿。",
+      "highlight": "brushed against",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "The dry mud will brush off easily.",
+      "zh": "乾掉的泥可以很容易刷掉。",
+      "highlight": "brush off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    },
+    {
+      "en": "She brushed him off without listening.",
+      "zh": "她沒有聽他說話便把他打發走。",
+      "highlight": "brushed him off",
+      "labelZh": "例句",
+      "labelEn": "Example"
+    }
+  ],
+  "meaning": {
+    "zh": "經過時輕輕碰到或擦過某人/某物；用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉；不願理會某人;敷衍或不耐煩地打發某人；把某人或某物輕輕撥到一旁；把某人或自己身上的塵土刷走；把某物從一個位置刷走或撥走；用刷子把衣物或動物全身刷乾淨；把頭髮或假髮徹底梳理整齊；重溫及改善已有一段時間沒有使用的知識或技能",
+    "en": "brush against/by/past somebody or something; brush off / brush something off; brush somebody off; brush somebody/something aside; brush somebody/yourself down / brush somebody/yourself off; brush something away from something; brush something down; brush something out; brush something up / brush up on something",
+    "naturalZh": [
+      "經過時輕輕碰到或擦過某人/某物",
+      "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+      "不願理會某人;敷衍或不耐煩地打發某人",
+      "把某人或某物輕輕撥到一旁",
+      "把某人或自己身上的塵土刷走",
+      "把某物從一個位置刷走或撥走",
+      "用刷子把衣物或動物全身刷乾淨",
+      "把頭髮或假髮徹底梳理整齊",
+      "重溫及改善已有一段時間沒有使用的知識或技能"
+    ]
+  },
+  "meaningGroups": [
+    {
+      "formula": "brush against/by/past somebody or something",
+      "titleZh": "經過時輕輕碰到或擦過某人/某物",
+      "titleEn": "brush against/by/past somebody or something",
+      "descriptionZh": "經過時輕輕碰到或擦過某人/某物",
+      "descriptionEn": "A cat brushed against his leg.",
+      "examples": [
+        {
+          "en": "A cat brushed against his leg.",
+          "zh": "一隻貓輕輕擦過他的腿。",
+          "highlight": "brushed against"
+        }
+      ],
+      "number": 1,
+      "pageGroup": 1
+    },
+    {
+      "formula": "brush off / brush something off",
+      "titleZh": "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+      "titleEn": "brush off / brush something off",
+      "descriptionZh": "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+      "descriptionEn": "The dry mud will brush off easily.",
+      "examples": [
+        {
+          "en": "The dry mud will brush off easily.",
+          "zh": "乾掉的泥可以很容易刷掉。",
+          "highlight": "brush off"
+        }
+      ],
+      "number": 2,
+      "pageGroup": 1
+    },
+    {
+      "formula": "brush somebody off",
+      "titleZh": "不願理會某人;敷衍或不耐煩地打發某人",
+      "titleEn": "brush somebody off",
+      "descriptionZh": "不願理會某人;敷衍或不耐煩地打發某人",
+      "descriptionEn": "She brushed him off without listening.",
+      "examples": [
+        {
+          "en": "She brushed him off without listening.",
+          "zh": "她沒有聽他說話便把他打發走。",
+          "highlight": "brushed him off"
+        }
+      ],
+      "number": 3,
+      "pageGroup": 1
+    },
+    {
+      "formula": "brush somebody/something aside",
+      "titleZh": "把某人或某物輕輕撥到一旁",
+      "titleEn": "brush somebody/something aside",
+      "descriptionZh": "把某人或某物輕輕撥到一旁",
+      "descriptionEn": "She brushed a strand of hair aside.",
+      "examples": [
+        {
+          "en": "She brushed a strand of hair aside.",
+          "zh": "她把一縷頭髮撥到一旁。",
+          "highlight": "brushed"
+        }
+      ],
+      "number": 4,
+      "pageGroup": 1
+    },
+    {
+      "formula": "brush somebody/yourself down / brush somebody/yourself off",
+      "titleZh": "把某人或自己身上的塵土刷走",
+      "titleEn": "brush somebody/yourself down / brush somebody/yourself off",
+      "descriptionZh": "把某人或自己身上的塵土刷走",
+      "descriptionEn": "He stood up and brushed himself down.",
+      "examples": [
+        {
+          "en": "He stood up and brushed himself down.",
+          "zh": "他站起來,把身上的塵土刷走。",
+          "highlight": "brushed himself down"
+        }
+      ],
+      "number": 5,
+      "pageGroup": 1
+    },
+    {
+      "formula": "brush something away from something",
+      "titleZh": "把某物從一個位置刷走或撥走",
+      "titleEn": "brush something away from something",
+      "descriptionZh": "把某物從一個位置刷走或撥走",
+      "descriptionEn": "She brushed a loose hair away from her face.",
+      "examples": [
+        {
+          "en": "She brushed a loose hair away from her face.",
+          "zh": "她把一根鬆散的頭髮從臉上撥走。",
+          "highlight": "brushed a loose hair away from"
+        }
+      ],
+      "number": 6,
+      "pageGroup": 2
+    },
+    {
+      "formula": "brush something down",
+      "titleZh": "用刷子把衣物或動物全身刷乾淨",
+      "titleEn": "brush something down",
+      "descriptionZh": "用刷子把衣物或動物全身刷乾淨",
+      "descriptionEn": "Brush your coat down before you wear it.",
+      "examples": [
+        {
+          "en": "Brush your coat down before you wear it.",
+          "zh": "穿上外套前,先把它刷乾淨。",
+          "highlight": "Brush your coat down"
+        }
+      ],
+      "number": 7,
+      "pageGroup": 2
+    },
+    {
+      "formula": "brush something out",
+      "titleZh": "把頭髮或假髮徹底梳理整齊",
+      "titleEn": "brush something out",
+      "descriptionZh": "把頭髮或假髮徹底梳理整齊",
+      "descriptionEn": "She brushed out her hair before bed.",
+      "examples": [
+        {
+          "en": "She brushed out her hair before bed.",
+          "zh": "她睡前把頭髮徹底梳理好。",
+          "highlight": "brushed out"
+        }
+      ],
+      "number": 8,
+      "pageGroup": 2
+    },
+    {
+      "formula": "brush something up / brush up on something",
+      "titleZh": "重溫及改善已有一段時間沒有使用的知識或技能",
+      "titleEn": "brush something up / brush up on something",
+      "descriptionZh": "重溫及改善已有一段時間沒有使用的知識或技能",
+      "descriptionEn": "I need to brush up on my computer skills.",
+      "examples": [
+        {
+          "en": "I need to brush up on my computer skills.",
+          "zh": "我需要重溫及改善自己的電腦技能。",
+          "highlight": "brush up on"
+        }
+      ],
+      "number": 9,
+      "pageGroup": 2
+    }
+  ],
+  "register": {
+    "labelZh": "BRUSH 片語動詞的實際用途",
+    "labelEn": "BRUSH Phrasal Verbs in Use",
+    "summaryZh": "brush against、brush by 和 brush past 可以描述人、動物或物件經過時非常接近另一物件,甚至輕輕碰到它。；BRUSH 片語動詞可以幫助你描述刷走泥、灰塵、沙、碎屑和鬆散頭髮等不同清潔動作。；brush somebody off 可以表示某人不獲理會,或在對方沒有認真聆聽的情況下被打發走。；brush up 和 brush up on 可以表示重溫一段時間沒有使用的知識或技能。",
+    "summaryEn": "Brush against, brush by and brush past help you describe a person, animal or object moving very close to something and touching it lightly. The BRUSH family gives you several useful ways to talk about removing mud, dust, sand, crumbs and loose hair. Brush somebody off shows that a person is being ignored or dismissed without enough attention. Brush up and brush up on help you explain that you are reviewing knowledge or skills that you have not used recently.",
+    "contextsZh": [
+      "描述輕微接觸和近距離移動",
+      "清楚談論清潔動作",
+      "描述別人如何受到對待",
+      "談論重溫已有技能"
+    ],
+    "contextsEn": [
+      "Describe light contact and close movement",
+      "Talk clearly about cleaning",
+      "Describe how someone is treated",
+      "Talk about improving old skills"
+    ],
+    "formalZh": "閱讀整句,選出意思相同的 BRUSH 片語動詞。",
+    "formalEn": "Read the whole sentence and choose the BRUSH expression that gives the same meaning."
+  },
+  "fixedVariable": {
+    "fixed": "brush against/by/past somebody or something",
+    "fixedHighlight": "brush against/by/past somebody or something",
+    "fixedZh": "閱讀整句,選出意思相同的 BRUSH 片語動詞。",
+    "fixedEn": "Read the whole sentence and choose the BRUSH expression that gives the same meaning.",
+    "correct": "brushed against",
+    "incorrectForms": [],
+    "variableZh": "保留原句中的人物、事物、時間和意思。；額外字詞可以說明地點、時間或原因,但不一定屬於核心表達的一部分。；使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+    "variableEn": "Keep the same people, things, time and meaning. Extra phrases may explain where, when or why something happens, but they are not always part of the core expression. brush something away brush something away from your face brush yourself down brush yourself down after a fall brush up on your French brush up on your French before a trip When using him, her, it or them, follow these models: brush him off brush it aside brush yourself down brush it out",
+    "variableItemsZh": [
+      "brush against/by/past somebody or something",
+      "brush off / brush something off",
+      "brush somebody off",
+      "brush somebody/something aside",
+      "brush somebody/yourself down / brush somebody/yourself off",
+      "brush something away from something",
+      "brush something down",
+      "brush something out",
+      "brush something up / brush up on something"
+    ],
+    "variableItemsEn": [
+      "brush against/by/past somebody or something",
+      "brush off / brush something off",
+      "brush somebody off",
+      "brush somebody/something aside",
+      "brush somebody/yourself down / brush somebody/yourself off",
+      "brush something away from something",
+      "brush something down",
+      "brush something out",
+      "brush something up / brush up on something"
+    ],
+    "forms": [
+      {
+        "formZh": "經過時輕輕碰到或擦過某人/某物",
+        "formEn": "brush against/by/past somebody or something",
+        "exampleZh": "一隻貓輕輕擦過他的腿。",
+        "exampleEn": "A cat brushed against his leg.",
+        "highlight": "brushed against"
+      },
+      {
+        "formZh": "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+        "formEn": "brush off / brush something off",
+        "exampleZh": "乾掉的泥可以很容易刷掉。",
+        "exampleEn": "The dry mud will brush off easily.",
+        "highlight": "brush off"
+      },
+      {
+        "formZh": "不願理會某人;敷衍或不耐煩地打發某人",
+        "formEn": "brush somebody off",
+        "exampleZh": "她沒有聽他說話便把他打發走。",
+        "exampleEn": "She brushed him off without listening.",
+        "highlight": "brushed him off"
+      },
+      {
+        "formZh": "把某人或某物輕輕撥到一旁",
+        "formEn": "brush somebody/something aside",
+        "exampleZh": "她把一縷頭髮撥到一旁。",
+        "exampleEn": "She brushed a strand of hair aside.",
+        "highlight": "brushed"
+      },
+      {
+        "formZh": "把某人或自己身上的塵土刷走",
+        "formEn": "brush somebody/yourself down / brush somebody/yourself off",
+        "exampleZh": "他站起來,把身上的塵土刷走。",
+        "exampleEn": "He stood up and brushed himself down.",
+        "highlight": "brushed himself down"
+      },
+      {
+        "formZh": "把某物從一個位置刷走或撥走",
+        "formEn": "brush something away from something",
+        "exampleZh": "她把一根鬆散的頭髮從臉上撥走。",
+        "exampleEn": "She brushed a loose hair away from her face.",
+        "highlight": "brushed a loose hair away from"
+      },
+      {
+        "formZh": "用刷子把衣物或動物全身刷乾淨",
+        "formEn": "brush something down",
+        "exampleZh": "穿上外套前,先把它刷乾淨。",
+        "exampleEn": "Brush your coat down before you wear it.",
+        "highlight": "Brush your coat down"
+      },
+      {
+        "formZh": "把頭髮或假髮徹底梳理整齊",
+        "formEn": "brush something out",
+        "exampleZh": "她睡前把頭髮徹底梳理好。",
+        "exampleEn": "She brushed out her hair before bed.",
+        "highlight": "brushed out"
+      },
+      {
+        "formZh": "重溫及改善已有一段時間沒有使用的知識或技能",
+        "formEn": "brush something up / brush up on something",
+        "exampleZh": "我需要重溫及改善自己的電腦技能。",
+        "exampleEn": "I need to brush up on my computer skills.",
+        "highlight": "brush up on"
+      }
+    ]
+  },
+  "specificForms": [
+    {
+      "number": 1,
+      "titleZh": "經過時輕輕碰到或擦過某人/某物",
+      "titleEn": "brush against/by/past somebody or something",
+      "formula": "brush against/by/past somebody or something",
+      "highlight": "brush against/by/past somebody or something",
+      "descriptionZh": "經過時輕輕碰到或擦過某人/某物",
+      "descriptionEn": "A cat brushed against his leg.",
+      "examples": [
+        {
+          "en": "A cat brushed against his leg.",
+          "zh": "一隻貓輕輕擦過他的腿。",
+          "highlight": "brushed against"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 2,
+      "titleZh": "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+      "titleEn": "brush off / brush something off",
+      "formula": "brush off / brush something off",
+      "highlight": "brush off / brush something off",
+      "descriptionZh": "用刷子或手把灰塵、泥或其他東西刷掉;某些污物乾後可以輕易刷掉",
+      "descriptionEn": "The dry mud will brush off easily.",
+      "examples": [
+        {
+          "en": "The dry mud will brush off easily.",
+          "zh": "乾掉的泥可以很容易刷掉。",
+          "highlight": "brush off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 3,
+      "titleZh": "不願理會某人;敷衍或不耐煩地打發某人",
+      "titleEn": "brush somebody off",
+      "formula": "brush somebody off",
+      "highlight": "brush somebody off",
+      "descriptionZh": "不願理會某人;敷衍或不耐煩地打發某人",
+      "descriptionEn": "She brushed him off without listening.",
+      "examples": [
+        {
+          "en": "She brushed him off without listening.",
+          "zh": "她沒有聽他說話便把他打發走。",
+          "highlight": "brushed him off"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 4,
+      "titleZh": "把某人或某物輕輕撥到一旁",
+      "titleEn": "brush somebody/something aside",
+      "formula": "brush somebody/something aside",
+      "highlight": "brush somebody/something aside",
+      "descriptionZh": "把某人或某物輕輕撥到一旁",
+      "descriptionEn": "She brushed a strand of hair aside.",
+      "examples": [
+        {
+          "en": "She brushed a strand of hair aside.",
+          "zh": "她把一縷頭髮撥到一旁。",
+          "highlight": "brushed"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 5,
+      "titleZh": "把某人或自己身上的塵土刷走",
+      "titleEn": "brush somebody/yourself down / brush somebody/yourself off",
+      "formula": "brush somebody/yourself down / brush somebody/yourself off",
+      "highlight": "brush somebody/yourself down / brush somebody/yourself off",
+      "descriptionZh": "把某人或自己身上的塵土刷走",
+      "descriptionEn": "He stood up and brushed himself down.",
+      "examples": [
+        {
+          "en": "He stood up and brushed himself down.",
+          "zh": "他站起來,把身上的塵土刷走。",
+          "highlight": "brushed himself down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 6,
+      "titleZh": "把某物從一個位置刷走或撥走",
+      "titleEn": "brush something away from something",
+      "formula": "brush something away from something",
+      "highlight": "brush something away from something",
+      "descriptionZh": "把某物從一個位置刷走或撥走",
+      "descriptionEn": "She brushed a loose hair away from her face.",
+      "examples": [
+        {
+          "en": "She brushed a loose hair away from her face.",
+          "zh": "她把一根鬆散的頭髮從臉上撥走。",
+          "highlight": "brushed a loose hair away from"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 7,
+      "titleZh": "用刷子把衣物或動物全身刷乾淨",
+      "titleEn": "brush something down",
+      "formula": "brush something down",
+      "highlight": "brush something down",
+      "descriptionZh": "用刷子把衣物或動物全身刷乾淨",
+      "descriptionEn": "Brush your coat down before you wear it.",
+      "examples": [
+        {
+          "en": "Brush your coat down before you wear it.",
+          "zh": "穿上外套前,先把它刷乾淨。",
+          "highlight": "Brush your coat down"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 8,
+      "titleZh": "把頭髮或假髮徹底梳理整齊",
+      "titleEn": "brush something out",
+      "formula": "brush something out",
+      "highlight": "brush something out",
+      "descriptionZh": "把頭髮或假髮徹底梳理整齊",
+      "descriptionEn": "She brushed out her hair before bed.",
+      "examples": [
+        {
+          "en": "She brushed out her hair before bed.",
+          "zh": "她睡前把頭髮徹底梳理好。",
+          "highlight": "brushed out"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "number": 9,
+      "titleZh": "重溫及改善已有一段時間沒有使用的知識或技能",
+      "titleEn": "brush something up / brush up on something",
+      "formula": "brush something up / brush up on something",
+      "highlight": "brush something up / brush up on something",
+      "descriptionZh": "重溫及改善已有一段時間沒有使用的知識或技能",
+      "descriptionEn": "I need to brush up on my computer skills.",
+      "examples": [
+        {
+          "en": "I need to brush up on my computer skills.",
+          "zh": "我需要重溫及改善自己的電腦技能。",
+          "highlight": "brush up on"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "benefits": [
+    {
+      "titleZh": "描述輕微接觸和近距離移動",
+      "titleEn": "Describe light contact and close movement",
+      "zh": "brush against、brush by 和 brush past 可以描述人、動物或物件經過時非常接近另一物件,甚至輕輕碰到它。",
+      "en": "Brush against, brush by and brush past help you describe a person, animal or object moving very close to something and touching it lightly."
+    },
+    {
+      "titleZh": "清楚談論清潔動作",
+      "titleEn": "Talk clearly about cleaning",
+      "zh": "BRUSH 片語動詞可以幫助你描述刷走泥、灰塵、沙、碎屑和鬆散頭髮等不同清潔動作。",
+      "en": "The BRUSH family gives you several useful ways to talk about removing mud, dust, sand, crumbs and loose hair."
+    },
+    {
+      "titleZh": "描述別人如何受到對待",
+      "titleEn": "Describe how someone is treated",
+      "zh": "brush somebody off 可以表示某人不獲理會,或在對方沒有認真聆聽的情況下被打發走。",
+      "en": "Brush somebody off shows that a person is being ignored or dismissed without enough attention."
+    },
+    {
+      "titleZh": "談論重溫已有技能",
+      "titleEn": "Talk about improving old skills",
+      "zh": "brush up 和 brush up on 可以表示重溫一段時間沒有使用的知識或技能。",
+      "en": "Brush up and brush up on help you explain that you are reviewing knowledge or skills that you have not used recently."
+    }
+  ],
+  "usageGuide": {
+    "titleZh": "實際用途及例句",
+    "titleEn": "Uses and Examples",
+    "contextsZh": [
+      "描述輕微接觸和近距離移動",
+      "清楚談論清潔動作",
+      "描述別人如何受到對待",
+      "談論重溫已有技能"
+    ],
+    "contextsEn": [
+      "Describe light contact and close movement",
+      "Talk clearly about cleaning",
+      "Describe how someone is treated",
+      "Talk about improving old skills"
+    ],
+    "comparisons": [
+      {
+        "titleZh": "描述輕微接觸和近距離移動",
+        "titleEn": "Describe light contact and close movement",
+        "zh": "brush against、brush by 和 brush past 可以描述人、動物或物件經過時非常接近另一物件,甚至輕輕碰到它。",
+        "en": "Brush against, brush by and brush past help you describe a person, animal or object moving very close to something and touching it lightly.",
+        "examples": [
+          {
+            "en": "A cat brushed against his leg.",
+            "zh": "一隻貓輕輕擦過他的腿。",
+            "highlight": "brushed against"
+          }
+        ]
+      },
+      {
+        "titleZh": "清楚談論清潔動作",
+        "titleEn": "Talk clearly about cleaning",
+        "zh": "BRUSH 片語動詞可以幫助你描述刷走泥、灰塵、沙、碎屑和鬆散頭髮等不同清潔動作。",
+        "en": "The BRUSH family gives you several useful ways to talk about removing mud, dust, sand, crumbs and loose hair.",
+        "examples": [
+          {
+            "en": "The dry mud will brush off easily.",
+            "zh": "乾掉的泥可以很容易刷掉。",
+            "highlight": "brush off"
+          }
+        ]
+      },
+      {
+        "titleZh": "描述別人如何受到對待",
+        "titleEn": "Describe how someone is treated",
+        "zh": "brush somebody off 可以表示某人不獲理會,或在對方沒有認真聆聽的情況下被打發走。",
+        "en": "Brush somebody off shows that a person is being ignored or dismissed without enough attention.",
+        "examples": [
+          {
+            "en": "She brushed him off without listening.",
+            "zh": "她沒有聽他說話便把他打發走。",
+            "highlight": "brushed him off"
+          }
+        ]
+      },
+      {
+        "titleZh": "談論重溫已有技能",
+        "titleEn": "Talk about improving old skills",
+        "zh": "brush up 和 brush up on 可以表示重溫一段時間沒有使用的知識或技能。",
+        "en": "Brush up and brush up on help you explain that you are reviewing knowledge or skills that you have not used recently.",
+        "examples": [
+          {
+            "en": "She brushed a strand of hair aside.",
+            "zh": "她把一縷頭髮撥到一旁。",
+            "highlight": "brushed"
+          }
+        ]
+      }
+    ]
+  },
+  "rules": [
+    {
+      "titleZh": "閱讀整句,選出意思相同的 BRUSH 片語動詞。",
+      "titleEn": "Read the whole sentence and choose the BRUSH expression that gives the same meaning.",
+      "zh": "閱讀整句,選出意思相同的 BRUSH 片語動詞。",
+      "en": "Read the whole sentence and choose the BRUSH expression that gives the same meaning."
+    },
+    {
+      "titleZh": "保留原句中的人物、事物、時間和意思。",
+      "titleEn": "Keep the same people, things, time and meaning.",
+      "zh": "保留原句中的人物、事物、時間和意思。",
+      "en": "Keep the same people, things, time and meaning."
+    },
+    {
+      "titleZh": "額外字詞可以說明地點、時間或原因,但不一定屬於核心表達的一部分。",
+      "titleEn": "Extra phrases may explain where, when or why something happens, but they are not always part of the core expression.",
+      "zh": "額外字詞可以說明地點、時間或原因,但不一定屬於核心表達的一部分。",
+      "en": "Extra phrases may explain where, when or why something happens, but they are not always part of the core expression. brush something away brush something away from your face brush yourself down brush yourself down after a fall brush up on your French brush up on your French before a trip"
+    },
+    {
+      "titleZh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "titleEn": "When using him, her, it or them, follow these models: brush him off brush it aside brush yourself down brush it out.",
+      "zh": "使用 him、her、it 或 them 時,請按照以上例子放在正確位置。",
+      "en": "When using him, her, it or them, follow these models: brush him off brush it aside brush yourself down brush it out"
+    }
+  ],
+  "instructions": {
+    "zh": "使用與 BRUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "en": "Rewrite each sentence using a phrasal verb related to BRUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence."
+  },
+  "exercise": {
+    "kicker": "PAGE 8 · TYPE THE WHOLE SENTENCE",
+    "titleZh": "BRUSH 動詞片語句子改寫練習",
+    "titleEn": "BRUSH Phrasal-Verb Sentence Practice",
+    "instructionsZh": "使用與 BRUSH 有關的片語動詞改寫以下句子。答案必須保留原意。每題已提供答案的第一個字。請完成整句。",
+    "instructionsEn": "Rewrite each sentence using a phrasal verb related to BRUSH. Keep the same meaning. The first word of each answer has been provided. Complete the whole sentence.",
+    "bands": [
+      {
+        "number": 1,
+        "titleZh": "基本意思",
+        "titleEn": "Clear Meanings",
+        "questionRange": [
+          1,
+          14
+        ]
+      },
+      {
+        "number": 2,
+        "titleZh": "常見句式",
+        "titleEn": "Common Sentence Forms",
+        "questionRange": [
+          15,
+          28
+        ]
+      },
+      {
+        "number": 3,
+        "titleZh": "完整句子運用",
+        "titleEn": "Full-Sentence Practice",
+        "questionRange": [
+          29,
+          42
+        ]
+      },
+      {
+        "number": 4,
+        "titleZh": "相近意思與不同情境",
+        "titleEn": "Similar Meanings and New Situations",
+        "questionRange": [
+          43,
+          56
+        ]
+      },
+      {
+        "number": 5,
+        "titleZh": "綜合運用",
+        "titleEn": "Full Practice",
+        "questionRange": [
+          57,
+          70
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "phrasal-verb-230-q01",
+      "number": 1,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "She moved a loose hair away from her eyes with her hand.",
+      "promptZh": "她用手把一根鬆散的頭髮從眼前撥走。",
+      "starter": "She",
+      "answer": "She brushed a loose hair away from her eyes.",
+      "answerZh": "她把一根鬆散的頭髮從眼前撥走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走或撥走"
+    },
+    {
+      "id": "phrasal-verb-230-q02",
+      "number": 2,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "A cat touched his leg lightly as it walked past.",
+      "promptZh": "一隻貓經過時輕輕碰到他的腿。",
+      "starter": "A",
+      "answer": "A cat brushed against his leg as it walked past.",
+      "answerZh": "一隻貓經過時輕輕擦過他的腿。",
+      "highlight": "brushed against",
+      "targetForm": "brush against somebody/something",
+      "targetMeaningZh": "經過時輕輕碰到或擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q03",
+      "number": 3,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "I need to improve my computer skills before the course starts.",
+      "promptZh": "課程開始前,我需要改善自己的電腦技能。",
+      "starter": "I",
+      "answer": "I need to brush up on my computer skills before the course starts.",
+      "answerZh": "課程開始前,我需要重溫及改善自己的電腦技能。",
+      "highlight": "brush up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有技能"
+    },
+    {
+      "id": "phrasal-verb-230-q04",
+      "number": 4,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Leo tried to explain, but she dismissed him without listening.",
+      "promptZh": "里奧嘗試解釋,但她沒有聆聽便把他打發走。",
+      "starter": "Leo",
+      "answer": "Leo tried to explain, but she brushed him off without listening.",
+      "answerZh": "里奧嘗試解釋,但她沒有聆聽便把他打發走。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q05",
+      "number": 5,
+      "band": 1,
+      "sourcePage": 5,
+      "answerSourcePage": 17,
+      "prompt": "Please clean your coat all over with a brush to remove the dry mud.",
+      "promptZh": "請用刷子把外套刷乾淨,清除乾掉的泥。",
+      "starter": "Please",
+      "answer": "Please brush your coat down to remove the dry mud.",
+      "answerZh": "請把外套刷乾淨,清除乾掉的泥。",
+      "highlight": "brush",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q06",
+      "number": 6,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Do not worry about the dry mud; it will come off easily with a brush.",
+      "promptZh": "不用擔心乾掉的泥;它可以很容易用刷子刷掉。",
+      "starter": "Do",
+      "answer": "Do not worry about the dry mud; it will brush off easily.",
+      "answerZh": "不用擔心乾掉的泥;它可以很容易刷掉。",
+      "highlight": "brush",
+      "targetForm": "brush off",
+      "targetMeaningZh": "污物可以用刷子輕易刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q07",
+      "number": 7,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "She moved a strand of hair to one side with her hand.",
+      "promptZh": "她用手把一縷頭髮撥到一旁。",
+      "starter": "She",
+      "answer": "She brushed a strand of hair aside.",
+      "answerZh": "她把一縷頭髮撥到一旁。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q08",
+      "number": 8,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "After falling on the path, Sam stood up and cleaned the dust from his clothes.",
+      "promptZh": "森在小路上跌倒後站起來,清理衣服上的灰塵。",
+      "starter": "After",
+      "answer": "After falling on the path, Sam stood up and brushed himself down.",
+      "answerZh": "森在小路上跌倒後站起來,把身上的灰塵刷走。",
+      "highlight": "brushed himself down",
+      "targetForm": "brush yourself down",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q09",
+      "number": 9,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "Nina gave her hair a thorough brushing before bed.",
+      "promptZh": "妮娜睡前徹底梳理了頭髮。",
+      "starter": "Nina",
+      "answer": "Nina brushed out her hair before bed.",
+      "answerZh": "妮娜睡前徹底梳理了頭髮。",
+      "highlight": "brushed out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q10",
+      "number": 10,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "The cyclist lightly touched the parked car as he passed it.",
+      "promptZh": "單車手經過停泊的汽車時輕輕擦到它。",
+      "starter": "The",
+      "answer": "The cyclist brushed past the parked car.",
+      "answerZh": "單車手經過時輕輕擦到停泊的汽車。",
+      "highlight": "brushed past",
+      "targetForm": "brush past somebody/something",
+      "targetMeaningZh": "經過時輕輕擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q11",
+      "number": 11,
+      "band": 1,
+      "sourcePage": 6,
+      "answerSourcePage": 18,
+      "prompt": "I asked the assistant for help, but he quickly dismissed me.",
+      "promptZh": "我向那名助理求助,但他很快便把我打發走。",
+      "starter": "I",
+      "answer": "I asked the assistant for help, but he brushed me off.",
+      "answerZh": "我向那名助理求助,但他把我打發走。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q12",
+      "number": 12,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The dust on this old book can be removed easily with a soft brush.",
+      "promptZh": "這本舊書上的灰塵可以用軟刷輕易刷掉。",
+      "starter": "The",
+      "answer": "The dust on this old book will brush off easily with a soft brush.",
+      "answerZh": "這本舊書上的灰塵可以用軟刷輕易刷掉。",
+      "highlight": "will brush off",
+      "targetForm": "brush off",
+      "targetMeaningZh": "污物可以用刷子輕易刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q13",
+      "number": 13,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "The children cleaned the dust from their clothes before going inside.",
+      "promptZh": "孩子們進去前清理了衣服上的灰塵。",
+      "starter": "The",
+      "answer": "The children brushed themselves off before going inside.",
+      "answerZh": "孩子們進去前把衣服上的灰塵刷走。",
+      "highlight": "brushed themselves off",
+      "targetForm": "brush yourself off",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q14",
+      "number": 14,
+      "band": 1,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "We should review our first-aid knowledge before the trip.",
+      "promptZh": "旅程開始前,我們應該重溫急救知識。",
+      "starter": "We",
+      "answer": "We should brush up on our first-aid knowledge before the trip.",
+      "answerZh": "旅程開始前,我們應該重溫急救知識。",
+      "highlight": "brush up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有知識"
+    },
+    {
+      "id": "phrasal-verb-230-q15",
+      "number": 15,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "He picked up his hat and quickly removed the dust from it.",
+      "promptZh": "他撿起帽子,很快地清除上面的灰塵。",
+      "starter": "He",
+      "answer": "He picked up his hat and brushed it off quickly.",
+      "answerZh": "他撿起帽子,很快地刷走上面的灰塵。",
+      "highlight": "brushed it off",
+      "targetForm": "brush something off",
+      "targetMeaningZh": "把某物表面的灰塵或泥刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q16",
+      "number": 16,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "Ava is giving her long hair a thorough brushing now.",
+      "promptZh": "艾娃現在正徹底梳理她的長髮。",
+      "starter": "Ava",
+      "answer": "Ava is brushing out her long hair now.",
+      "answerZh": "艾娃現在正徹底梳理她的長髮。",
+      "highlight": "brushing out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q17",
+      "number": 17,
+      "band": 2,
+      "sourcePage": 7,
+      "answerSourcePage": 19,
+      "prompt": "As Ben passed me, his shoulder touched mine lightly.",
+      "promptZh": "賓經過我身旁時,他的肩膀輕輕碰到我的肩膀。",
+      "starter": "As",
+      "answer": "As Ben passed me, his shoulder brushed against mine.",
+      "answerZh": "賓經過我身旁時,他的肩膀輕輕碰到我的肩膀。",
+      "highlight": "brushed against",
+      "targetForm": "brush against somebody/something",
+      "targetMeaningZh": "經過時輕輕碰到或擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q18",
+      "number": 18,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The child moved the low branch to one side and walked through.",
+      "promptZh": "那個孩子把低垂的樹枝撥到一旁,然後走過去。",
+      "starter": "The",
+      "answer": "The child brushed the low branch aside and walked through.",
+      "answerZh": "那個孩子把低垂的樹枝撥到一旁,然後走過去。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q19",
+      "number": 19,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Ravi is reviewing his French before visiting Paris.",
+      "promptZh": "拉維到巴黎前正在重溫法語。",
+      "starter": "Ravi",
+      "answer": "Ravi is brushing up on his French before visiting Paris.",
+      "answerZh": "拉維到巴黎前正在重溫法語。",
+      "highlight": "brushing up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有技能"
+    },
+    {
+      "id": "phrasal-verb-230-q20",
+      "number": 20,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "After the dusty game, the players cleaned their clothes before getting on the bus.",
+      "promptZh": "在滿是塵土的比賽後,球員上巴士前清理了衣服。",
+      "starter": "After",
+      "answer": "After the dusty game, the players brushed themselves down before getting on the bus.",
+      "answerZh": "在滿是塵土的比賽後,球員上巴士前把身上的灰塵刷走。",
+      "highlight": "brushed themselves down",
+      "targetForm": "brush yourself down",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q21",
+      "number": 21,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Please move the crumbs away from the keyboard with a small brush.",
+      "promptZh": "請用小刷子把碎屑從鍵盤旁刷走。",
+      "starter": "Please",
+      "answer": "Please brush the crumbs away from the keyboard.",
+      "answerZh": "請把碎屑從鍵盤旁刷走。",
+      "highlight": "brush",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q22",
+      "number": 22,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "Why did the receptionist dismiss us so impatiently?",
+      "promptZh": "為甚麼接待員如此不耐煩地打發我們?",
+      "starter": "Why",
+      "answer": "Why did the receptionist brush us off so impatiently?",
+      "answerZh": "為甚麼接待員如此不耐煩地打發我們?",
+      "highlight": "brush",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q23",
+      "number": 23,
+      "band": 2,
+      "sourcePage": 8,
+      "answerSourcePage": 20,
+      "prompt": "The stable worker is cleaning the horse all over with a brush.",
+      "promptZh": "馬房工人正用刷子把馬匹全身刷乾淨。",
+      "starter": "The",
+      "answer": "The stable worker is brushing the horse down.",
+      "answerZh": "馬房工人正用刷子把馬匹全身刷乾淨。",
+      "highlight": "brushing",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q24",
+      "number": 24,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "With one quick movement, Chloe moved the papers to one side.",
+      "promptZh": "克洛伊迅速地把文件撥到一旁。",
+      "starter": "With",
+      "answer": "With one quick movement, Chloe brushed the papers aside.",
+      "answerZh": "克洛伊迅速地把文件撥到一旁。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q25",
+      "number": 25,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Have you given your hair a thorough brushing yet?",
+      "promptZh": "你徹底梳理好頭髮了嗎?",
+      "starter": "Have",
+      "answer": "Have you brushed out your hair yet?",
+      "answerZh": "你徹底梳理好頭髮了嗎?",
+      "highlight": "brushed out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q26",
+      "number": 26,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Aisha moved the sand away from the door with a stiff brush.",
+      "promptZh": "艾莎用硬刷把沙從門邊刷走。",
+      "starter": "Aisha",
+      "answer": "Aisha brushed the sand away from the door with a stiff brush.",
+      "answerZh": "艾莎用硬刷把沙從門邊刷走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q27",
+      "number": 27,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Before the test, Omar will review the maths he learnt last year.",
+      "promptZh": "測驗前,奧馬會重溫去年學過的數學。",
+      "starter": "Before",
+      "answer": "Before the test, Omar will brush up on the maths he learnt last year.",
+      "answerZh": "測驗前,奧馬會重溫去年學過的數學。",
+      "highlight": "brush up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有知識"
+    },
+    {
+      "id": "phrasal-verb-230-q28",
+      "number": 28,
+      "band": 2,
+      "sourcePage": 9,
+      "answerSourcePage": 21,
+      "prompt": "Could you clean this jacket all over with a brush before I wear it?",
+      "promptZh": "我穿上這件外套前,你可以用刷子把它刷乾淨嗎?",
+      "starter": "Could",
+      "answer": "Could you brush this jacket down before I wear it?",
+      "answerZh": "我穿上這件外套前,你可以把它刷乾淨嗎?",
+      "highlight": "brush",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q29",
+      "number": 29,
+      "band": 3,
+      "sourcePage": 9,
+      "answerSourcePage": 22,
+      "prompt": "My Italian needs improving before the meeting.",
+      "promptZh": "會議前,我的意大利語需要改善。",
+      "starter": "My",
+      "answer": "My Italian needs brushing up before the meeting.",
+      "answerZh": "會議前,我的意大利語需要重溫及改善。",
+      "highlight": "brushing up",
+      "targetForm": "brush something up",
+      "targetMeaningZh": "重溫及改善已有知識或技能"
+    },
+    {
+      "id": "phrasal-verb-230-q30",
+      "number": 30,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The student asked a fair question, but the teacher dismissed her without an answer.",
+      "promptZh": "那名學生問了一個合理的問題,但老師沒有回答便把她打發走。",
+      "starter": "The",
+      "answer": "The student asked a fair question, but the teacher brushed her off without an answer.",
+      "answerZh": "那名學生問了一個合理的問題,但老師沒有回答便把她打發走。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q31",
+      "number": 31,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "He used his sleeve to move the flour away from the edge of the table.",
+      "promptZh": "他用衣袖把麵粉從桌邊撥走。",
+      "starter": "He",
+      "answer": "He brushed the flour away from the edge of the table with his sleeve.",
+      "answerZh": "他用衣袖把麵粉從桌邊撥走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走或撥走"
+    },
+    {
+      "id": "phrasal-verb-230-q32",
+      "number": 32,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The crowd was so close that people kept touching us lightly as they passed.",
+      "promptZh": "人群非常擠迫,人們經過時不斷輕輕擦到我們。",
+      "starter": "The",
+      "answer": "The crowd was so close that people kept brushing past us.",
+      "answerZh": "人群非常擠迫,人們經過時不斷輕輕擦到我們。",
+      "highlight": "brushing past",
+      "targetForm": "brush past somebody/something",
+      "targetMeaningZh": "經過時輕輕擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q33",
+      "number": 33,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "Before the show, the assistant cleaned the actor’s coat all over with a brush.",
+      "promptZh": "表演前,助理用刷子把演員的外套刷乾淨。",
+      "starter": "Before",
+      "answer": "Before the show, the assistant brushed the actor’s coat down.",
+      "answerZh": "表演前,助理把演員的外套刷乾淨。",
+      "highlight": "brushed",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q34",
+      "number": 34,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 22,
+      "prompt": "The children fell in the sand. Their father cleaned them before they entered the car.",
+      "promptZh": "孩子們跌進沙地裏。他們上車前,父親替他們清理身上的沙。",
+      "starter": "The",
+      "answer": "The children fell in the sand. Their father brushed them down before they entered the car.",
+      "answerZh": "孩子們跌進沙地裏。他們上車前,父親替他們刷走身上的沙。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody down",
+      "targetMeaningZh": "把某人身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q35",
+      "number": 35,
+      "band": 3,
+      "sourcePage": 10,
+      "answerSourcePage": 23,
+      "prompt": "Please remove the sand from your shoes with a brush before coming inside.",
+      "promptZh": "進來前,請用刷子把鞋上的沙刷掉。",
+      "starter": "Please",
+      "answer": "Please brush the sand off your shoes before coming inside.",
+      "answerZh": "進來前,請把鞋上的沙刷掉。",
+      "highlight": "brush",
+      "targetForm": "brush something off",
+      "targetMeaningZh": "把灰塵、泥或沙刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q36",
+      "number": 36,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Sofia moved the curtain to one side so that more light could enter.",
+      "promptZh": "索菲亞把窗簾撥到一旁,讓更多光線照進來。",
+      "starter": "Sofia",
+      "answer": "Sofia brushed the curtain aside so that more light could enter.",
+      "answerZh": "索菲亞把窗簾撥到一旁,讓更多光線照進來。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q37",
+      "number": 37,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "The stylist gave the wig a thorough brushing before the show.",
+      "promptZh": "髮型師在表演前徹底梳理了假髮。",
+      "starter": "The",
+      "answer": "The stylist brushed out the wig before the show.",
+      "answerZh": "髮型師在表演前徹底梳理了假髮。",
+      "highlight": "brushed out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q38",
+      "number": 38,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "Although Daniel tried to speak, the manager dismissed him and turned to the next person.",
+      "promptZh": "雖然丹尼爾嘗試說話,但經理把他打發走,轉而跟下一個人說話。",
+      "starter": "Although",
+      "answer": "Although Daniel tried to speak, the manager brushed him off and turned to the next person.",
+      "answerZh": "雖然丹尼爾嘗試說話,但經理把他打發走,轉而跟下一個人說話。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q39",
+      "number": 39,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "No one noticed when the hanging leaves lightly touched her coat as she passed.",
+      "promptZh": "她經過時,垂下來的樹葉輕輕擦到她的外套,但沒有人注意到。",
+      "starter": "No",
+      "answer": "No one noticed when the hanging leaves brushed against her coat as she passed.",
+      "answerZh": "她經過時,垂下來的樹葉輕輕擦到她的外套,但沒有人注意到。",
+      "highlight": "brushed against",
+      "targetForm": "brush against somebody/something",
+      "targetMeaningZh": "經過時輕輕碰到或擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q40",
+      "number": 40,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 23,
+      "prompt": "We were covered in dry dust, so we cleaned ourselves before sitting down.",
+      "promptZh": "我們滿身都是乾灰塵,所以坐下前先清理自己。",
+      "starter": "We",
+      "answer": "We were covered in dry dust, so we brushed ourselves off before sitting down.",
+      "answerZh": "我們滿身都是乾灰塵,所以坐下前先把身上的灰塵刷走。",
+      "highlight": "brushed",
+      "targetForm": "brush yourself off",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q41",
+      "number": 41,
+      "band": 3,
+      "sourcePage": 11,
+      "answerSourcePage": 24,
+      "prompt": "The rider had cleaned the pony all over before putting it back in its stall.",
+      "promptZh": "騎手把小馬全身刷乾淨後,才把牠送回馬格。",
+      "starter": "The",
+      "answer": "The rider had brushed the pony down before putting it back in its stall.",
+      "answerZh": "騎手把小馬全身刷乾淨後,才把牠送回馬格。",
+      "highlight": "brushed",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q42",
+      "number": 42,
+      "band": 3,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Once the paint is fully dry, the loose powder should come off easily with a brush.",
+      "promptZh": "油漆完全乾透後,鬆散的粉末應該可以很容易刷掉。",
+      "starter": "Once",
+      "answer": "Once the paint is fully dry, the loose powder should brush off easily.",
+      "answerZh": "油漆完全乾透後,鬆散的粉末應該可以很容易刷掉。",
+      "highlight": "brush",
+      "targetForm": "brush off",
+      "targetMeaningZh": "污物可以用刷子輕易刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q43",
+      "number": 43,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The runner fell near the finish but quickly cleaned the dirt from his clothes and continued.",
+      "promptZh": "跑手在終點附近跌倒,但很快清理了衣服上的泥,然後繼續比賽。",
+      "starter": "The",
+      "answer": "The runner fell near the finish but quickly brushed himself off and continued.",
+      "answerZh": "跑手在終點附近跌倒,但很快刷走衣服上的泥,然後繼續比賽。",
+      "highlight": "brushed himself off",
+      "targetForm": "brush yourself off",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q44",
+      "number": 44,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "She had reviewed the road rules before taking the driving test.",
+      "promptZh": "她在參加駕駛考試前已重溫道路規則。",
+      "starter": "She",
+      "answer": "She had brushed up on the road rules before taking the driving test.",
+      "answerZh": "她在參加駕駛考試前已重溫道路規則。",
+      "highlight": "brushed up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有知識"
+    },
+    {
+      "id": "phrasal-verb-230-q45",
+      "number": 45,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "The child picked up the toy, removed the dust from it and gave it back.",
+      "promptZh": "那個孩子撿起玩具,清除上面的灰塵後把它交還。",
+      "starter": "The",
+      "answer": "The child picked up the toy, brushed it off and gave it back.",
+      "answerZh": "那個孩子撿起玩具,刷走上面的灰塵後把它交還。",
+      "highlight": "brushed",
+      "targetForm": "brush something off",
+      "targetMeaningZh": "把某物表面的灰塵或泥刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q46",
+      "number": 46,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 24,
+      "prompt": "Without stopping, the nurse moved the loose hair to one side and continued working.",
+      "promptZh": "護士沒有停下來,只把鬆散的頭髮撥到一旁,然後繼續工作。",
+      "starter": "Without",
+      "answer": "Without stopping, the nurse brushed the loose hair aside and continued working.",
+      "answerZh": "護士沒有停下來,只把鬆散的頭髮撥到一旁,然後繼續工作。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q47",
+      "number": 47,
+      "band": 4,
+      "sourcePage": 12,
+      "answerSourcePage": 25,
+      "prompt": "A man hurried through the doorway and passed very close to me.",
+      "promptZh": "一名男子匆忙穿過門口,從非常接近我的位置經過。",
+      "starter": "A",
+      "answer": "A man hurried through the doorway and brushed by me.",
+      "answerZh": "一名男子匆忙穿過門口,從非常接近我的位置經過。",
+      "highlight": "brushed by",
+      "targetForm": "brush by somebody/something",
+      "targetMeaningZh": "從非常接近某人或某物的位置經過"
+    },
+    {
+      "id": "phrasal-verb-230-q48",
+      "number": 48,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Ken used a small brush to move the dust away from the camera lens.",
+      "promptZh": "肯用小刷子把灰塵從相機鏡頭旁刷走。",
+      "starter": "Ken",
+      "answer": "Ken brushed the dust away from the camera lens with a small brush.",
+      "answerZh": "肯用小刷子把灰塵從相機鏡頭旁刷走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q49",
+      "number": 49,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "Do not dismiss the new student just because he is nervous.",
+      "promptZh": "不要只因那名新生緊張便把他打發走。",
+      "starter": "Do",
+      "answer": "Do not brush the new student off just because he is nervous.",
+      "answerZh": "不要只因那名新生緊張便把他打發走。",
+      "highlight": "brush",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q50",
+      "number": 50,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "After swimming, Priya gave her wet hair a thorough brushing before tying it back.",
+      "promptZh": "游泳後,普里雅把濕頭髮徹底梳理好,然後把它束起來。",
+      "starter": "After",
+      "answer": "After swimming, Priya brushed out her wet hair before tying it back.",
+      "answerZh": "游泳後,普里雅把濕頭髮徹底梳理好,然後把它束起來。",
+      "highlight": "brushed out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q51",
+      "number": 51,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The coat looked clean, but Dad still cleaned it all over with a brush before the photograph.",
+      "promptZh": "外套看來很乾淨,但爸爸在拍照前仍用刷子把它刷了一遍。",
+      "starter": "The",
+      "answer": "The coat looked clean, but Dad still brushed it down before the photograph.",
+      "answerZh": "外套看來很乾淨,但爸爸在拍照前仍把它刷了一遍。",
+      "highlight": "brushed",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q52",
+      "number": 52,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 25,
+      "prompt": "The runner moved the tall grass to one side as she crossed the field.",
+      "promptZh": "那名跑手穿過田野時,把高草撥到一旁。",
+      "starter": "The",
+      "answer": "The runner brushed the tall grass aside as she crossed the field.",
+      "answerZh": "那名跑手穿過田野時,把高草撥到一旁。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q53",
+      "number": 53,
+      "band": 4,
+      "sourcePage": 13,
+      "answerSourcePage": 26,
+      "prompt": "Could you review your computer skills before helping with the school website?",
+      "promptZh": "協助製作學校網站前,你可以重溫自己的電腦技能嗎?",
+      "starter": "Could",
+      "answer": "Could you brush up on your computer skills before helping with the school website?",
+      "answerZh": "協助製作學校網站前,你可以重溫自己的電腦技能嗎?",
+      "highlight": "brush up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有技能"
+    },
+    {
+      "id": "phrasal-verb-230-q54",
+      "number": 54,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As the child ate, his mother gently moved a crumb away from his cheek.",
+      "promptZh": "孩子吃東西時,母親輕輕把一粒碎屑從他的臉頰撥走。",
+      "starter": "As",
+      "answer": "As the child ate, his mother gently brushed a crumb away from his cheek.",
+      "answerZh": "孩子吃東西時,母親輕輕把一粒碎屑從他的臉頰撥走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置撥走"
+    },
+    {
+      "id": "phrasal-verb-230-q55",
+      "number": 55,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Why did the waiter’s sleeve touch the guest lightly as he passed?",
+      "promptZh": "侍應經過時,為甚麼他的衣袖輕輕碰到客人?",
+      "starter": "Why",
+      "answer": "Why did the waiter’s sleeve brush against the guest as he passed?",
+      "answerZh": "侍應經過時,為甚麼他的衣袖輕輕碰到客人?",
+      "highlight": "brush against",
+      "targetForm": "brush against somebody/something",
+      "targetMeaningZh": "經過時輕輕碰到或擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q56",
+      "number": 56,
+      "band": 4,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "Before the photograph, Elena gave her hair one last thorough brushing.",
+      "promptZh": "拍照前,埃琳娜最後一次徹底梳理頭髮。",
+      "starter": "Before",
+      "answer": "Before the photograph, Elena brushed out her hair one last time.",
+      "answerZh": "拍照前,埃琳娜最後一次徹底梳理頭髮。",
+      "highlight": "brushed out",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q57",
+      "number": 57,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "As the train doors opened, several passengers moved past us so closely that their bags touched our coats.",
+      "promptZh": "列車車門打開時,幾名乘客從我們身旁經過,距離近得他們的袋子碰到我們的外套。",
+      "starter": "As",
+      "answer": "As the train doors opened, several passengers brushed past us so closely that their bags touched our coats.",
+      "answerZh": "列車車門打開時,幾名乘客從我們身旁擦過,距離近得他們的袋子碰到我們的外套。",
+      "highlight": "brushed",
+      "targetForm": "brush past somebody/something",
+      "targetMeaningZh": "從非常接近某人或某物的位置經過或輕輕擦過"
+    },
+    {
+      "id": "phrasal-verb-230-q58",
+      "number": 58,
+      "band": 5,
+      "sourcePage": 14,
+      "answerSourcePage": 26,
+      "prompt": "The school play was about to begin, so the helper gave each costume a final all-over cleaning with a brush.",
+      "promptZh": "學校話劇快要開始,所以助理最後用刷子把每套戲服刷乾淨。",
+      "starter": "The",
+      "answer": "The school play was about to begin, so the helper brushed each costume down one last time.",
+      "answerZh": "學校話劇快要開始,所以助理最後把每套戲服刷乾淨。",
+      "highlight": "brushed",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q59",
+      "number": 59,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "Even though Aisha had important information, the busy officer dismissed her before she could finish.",
+      "promptZh": "雖然艾莎有重要資料,但那名忙碌的職員在她說完前便把她打發走。",
+      "starter": "Even",
+      "answer": "Even though Aisha had important information, the busy officer brushed her off before she could finish.",
+      "answerZh": "雖然艾莎有重要資料,但那名忙碌的職員在她說完前便把她打發走。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q60",
+      "number": 60,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The wind had made his hair untidy, so he gave it a thorough brushing before entering the room.",
+      "promptZh": "風吹亂了他的頭髮,所以他進入房間前徹底梳理了頭髮。",
+      "starter": "The",
+      "answer": "The wind had made his hair untidy, so he brushed it out before entering the room.",
+      "answerZh": "風吹亂了他的頭髮,所以他進入房間前徹底梳理了頭髮。",
+      "highlight": "brushed",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q61",
+      "number": 61,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "After crawling under the table to find the key, Chloe cleaned the dust from her clothes before rejoining the group.",
+      "promptZh": "克洛伊爬到桌下找鎖匙後,先清理衣服上的灰塵,才回到眾人身邊。",
+      "starter": "After",
+      "answer": "After crawling under the table to find the key, Chloe brushed herself down before rejoining the group.",
+      "answerZh": "克洛伊爬到桌下找鎖匙後,先刷走衣服上的灰塵,才回到眾人身邊。",
+      "highlight": "brushed herself down",
+      "targetForm": "brush yourself down",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q62",
+      "number": 62,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "The marks look bad now, but when the wall is dry, they should come away easily with a brush.",
+      "promptZh": "這些痕跡現在看來很明顯,但牆壁乾透後,應該可以很容易刷掉。",
+      "starter": "The",
+      "answer": "The marks look bad now, but when the wall is dry, they should brush off easily.",
+      "answerZh": "這些痕跡現在看來很明顯,但牆壁乾透後,應該可以很容易刷掉。",
+      "highlight": "brush off",
+      "targetForm": "brush off",
+      "targetMeaningZh": "污物可以用刷子輕易刷掉"
+    },
+    {
+      "id": "phrasal-verb-230-q63",
+      "number": 63,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 27,
+      "prompt": "We do not need a full course, but we should review the safety rules before using the machine again.",
+      "promptZh": "我們不需要修讀完整課程,但再次使用機器前應該重溫安全規則。",
+      "starter": "We",
+      "answer": "We do not need a full course, but we should brush up on the safety rules before using the machine again.",
+      "answerZh": "我們不需要修讀完整課程,但再次使用機器前應該重溫安全規則。",
+      "highlight": "brush up on",
+      "targetForm": "brush up on something",
+      "targetMeaningZh": "重溫及改善已有知識"
+    },
+    {
+      "id": "phrasal-verb-230-q64",
+      "number": 64,
+      "band": 5,
+      "sourcePage": 15,
+      "answerSourcePage": 28,
+      "prompt": "Omar moved the hanging cloth to one side and found the small door behind it.",
+      "promptZh": "奧馬把垂下來的布撥到一旁,發現後面有一扇小門。",
+      "starter": "Omar",
+      "answer": "Omar brushed the hanging cloth aside and found the small door behind it.",
+      "answerZh": "奧馬把垂下來的布撥到一旁,發現後面有一扇小門。",
+      "highlight": "brushed",
+      "targetForm": "brush something aside",
+      "targetMeaningZh": "把某物輕輕撥到一旁"
+    },
+    {
+      "id": "phrasal-verb-230-q65",
+      "number": 65,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before taking the photograph, the guide used his hand to move the snow away from the sign.",
+      "promptZh": "拍照前,導遊用手把告示牌上的雪撥走。",
+      "starter": "Before",
+      "answer": "Before taking the photograph, the guide brushed the snow away from the sign with his hand.",
+      "answerZh": "拍照前,導遊用手把告示牌上的雪撥走。",
+      "highlight": "brushed",
+      "targetForm": "brush something away from something",
+      "targetMeaningZh": "把某物從一個位置刷走或撥走"
+    },
+    {
+      "id": "phrasal-verb-230-q66",
+      "number": 66,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "I tried to tell the shop owner that the floor was wet, but he dismissed me without even looking.",
+      "promptZh": "我嘗試告訴店主地面是濕的,但他甚至沒有看我一眼便把我打發走。",
+      "starter": "I",
+      "answer": "I tried to tell the shop owner that the floor was wet, but he brushed me off without even looking.",
+      "answerZh": "我嘗試告訴店主地面是濕的,但他甚至沒有看我一眼便把我打發走。",
+      "highlight": "brushed",
+      "targetForm": "brush somebody off",
+      "targetMeaningZh": "不願理會或敷衍地打發某人"
+    },
+    {
+      "id": "phrasal-verb-230-q67",
+      "number": 67,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The dog had rolled in dry grass, so we cleaned its coat all over before letting it inside.",
+      "promptZh": "那隻狗曾在乾草上打滾,所以我們讓牠進屋前先把牠全身刷乾淨。",
+      "starter": "The",
+      "answer": "The dog had rolled in dry grass, so we brushed it down before letting it inside.",
+      "answerZh": "那隻狗曾在乾草上打滾,所以我們讓牠進屋前先把牠全身刷乾淨。",
+      "highlight": "brushed it down",
+      "targetForm": "brush something down",
+      "targetMeaningZh": "用刷子把衣物或動物全身刷乾淨"
+    },
+    {
+      "id": "phrasal-verb-230-q68",
+      "number": 68,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "The hikers were dusty after the climb, but they cleaned themselves and entered the café.",
+      "promptZh": "遠足者爬山後滿身灰塵,但他們清理好自己後便進入咖啡店。",
+      "starter": "The",
+      "answer": "The hikers were dusty after the climb, but they brushed themselves off and entered the café.",
+      "answerZh": "遠足者爬山後滿身灰塵,但他們刷走身上的灰塵後便進入咖啡店。",
+      "highlight": "brushed",
+      "targetForm": "brush yourself off",
+      "targetMeaningZh": "把自己身上的塵土刷走"
+    },
+    {
+      "id": "phrasal-verb-230-q69",
+      "number": 69,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 28,
+      "prompt": "Before placing the wig on the model, the stylist gave it a careful, thorough brushing.",
+      "promptZh": "把假髮戴在模特兒頭上前,髮型師仔細地徹底梳理了它。",
+      "starter": "Before",
+      "answer": "Before placing the wig on the model, the stylist brushed it out carefully.",
+      "answerZh": "把假髮戴在模特兒頭上前,髮型師仔細地徹底梳理了它。",
+      "highlight": "brushed",
+      "targetForm": "brush something out",
+      "targetMeaningZh": "把頭髮或假髮徹底梳理整齊"
+    },
+    {
+      "id": "phrasal-verb-230-q70",
+      "number": 70,
+      "band": 5,
+      "sourcePage": 16,
+      "answerSourcePage": 29,
+      "prompt": "I found the old photograph under the bed, removed the dust from it and put it in the album.",
+      "promptZh": "我在牀下找到那張舊照片,清除上面的灰塵後把它放進相簿。",
+      "starter": "I",
+      "answer": "I found the old photograph under the bed, brushed it off and put it in the album.",
+      "answerZh": "我在牀下找到那張舊照片,刷走上面的灰塵後把它放進相簿。",
+      "highlight": "brushed",
+      "targetForm": "brush something off",
+      "targetMeaningZh": "把某物表面的灰塵或泥刷掉"
+    }
+  ]
+}
